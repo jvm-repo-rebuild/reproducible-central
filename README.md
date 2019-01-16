@@ -13,7 +13,8 @@ we'll see buildinfo more in details: how does it link to build instructions and 
 
 - [Plexus Utils](https://codehaus-plexus.github.io/plexus-utils/) = `org.codehaus.plexus:`[`plexus-utils:*`](https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/)\
   Simple jar from basic java code that can be built without Maven but with javac and jar commands.\
-  No buildable source tarball available anywhere, just scm (when still available, since migrations over time)
+  No buildable source tarball available anywhere, just scm (when still available, since migrations over time)\
+  Notice: target bytecode != minimum required JDK version to build != effective JDK used for the reference build on Central (example: for plexus-utils 3.1.1, target = 6, minimum = 7, used = 8)
 
 - [Jansi](http://fusesource.github.io/jansi/) = `org.fusesource.jansi:`[`jansi:*`](https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi/)\
   Jar built from Java code and uber-jar with dependencies.\
