@@ -9,6 +9,8 @@ equivalent to the packaging instructions that are maintained by every Linux dist
 Once rebuild instructions are clear enough for people from different horizons to be able to rebuild typical projects,
 we'll see buildinfo more in details: how does it link to build instructions and add extra details?
 
+And in the future, once formats are stabilized, it is expecte that every project provides its rebuild instructions when publishing to Central, then the current work is not necessary to be maintained forever: just for old artifacts.
+
 ### Interesting cases built with Maven
 
 - [Plexus Utils](https://codehaus-plexus.github.io/plexus-utils/) = `org.codehaus.plexus:`[`plexus-utils:*`](https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/)\
