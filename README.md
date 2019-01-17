@@ -43,7 +43,7 @@ For each project, an `analyze.sh` script is written to detect the key environmen
 - [Jansi native](https://github.com/fusesource/jansi-native) = `org.fusesource.jansi:`[`jansi-native:*`](https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-native/)\
   java code plus **additional native (then build-platform dependant with 7 different platforms) code**.\
   Until 1.5, native code published as jansi-native artifactId, since 1.6 published
-  as separate `jansi-${platform}` where platform may be `osx`, `linux32`, `linux64`, `windows32`, `windows64`, `freebsd32` or `freebsd64`
+  as separate `jansi-${platform}` where platform may be `osx`, `linux32`, `linux64`, `windows32`, `windows64`, `freebsd32` or `freebsd64`\
   __Learning 1__: sometimes, not only one very specific OS is required, but sometimes also multiple OSes\
   __Learning 2__: in addition, some native tools are necessary (like a C compiler or some system libraries)
 
