@@ -1,4 +1,3 @@
-~/projets/maven/misc/reproducible-central/org/fusesource/jansi/jansi-project/target ~/projets/maven/misc/reproducible-central/org/fusesource/jansi/jansi-project
 2010-03-08   1.2.1	Build-Jdk: 1.6.0_17, bytecode version 49.0 (Java 1.5)
 2010-03-08   1.3	Build-Jdk: 1.6.0_0, bytecode version 49.0 (Java 1.5)
 2010-07-15   1.4	Build-Jdk: 1.6.0_20, bytecode version 49.0 (Java 1.5)
@@ -16,4 +15,3 @@
 2017-05-05   1.16	Build-Jdk: 1.8.0_91, bytecode version 50.0 (Java 1.6)
 2018-02-02   1.17	Build-Jdk: 1.8.0_144, bytecode version 50.0 (Java 1.6)
 2018-04-16   1.17.1	Build-Jdk: 1.8.0_162, bytecode version 50.0 (Java 1.6)
-~/projets/maven/misc/reproducible-central/org/fusesource/jansi/jansi-project

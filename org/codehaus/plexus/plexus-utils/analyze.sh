@@ -14,7 +14,7 @@ versions="1.4-alpha-1 1.4 1.4.1 1.4.2 1.4.3 1.4.4 1.4.5 1.4.6 1.4.7 1.4.8 1.4.9 
  3.0 3.0.1 3.0.2 3.0.3 3.0.4 3.0.5 3.0.6 3.0.7 3.0.8 3.0.9 3.0.10 3.0.11 3.0.12 3.0.13 3.0.14 3.0.15 3.0.16 3.0.17 3.0.18 3.0.19 3.0.20 3.0.21 3.0.22 3.0.23 3.0.24 3.1.0 3.1.1"
 
 mkdir --parents target
-pushd target
+pushd target > /dev/null
 [ -d plexus-utils ] || git clone ${scm}
 
 mkdir --parents central
@@ -39,4 +39,4 @@ do
   echo -e "${pomDate}   ${version}\t${buildJdk}, bytecode ${target}${win}"
 done
 
-popd
+popd > /dev/null
