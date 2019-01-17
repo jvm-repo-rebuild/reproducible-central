@@ -6,12 +6,16 @@ at writing rebuild instructions for the artifacts available in [(Maven) Central]
 equivalent to the packaging instructions that are maintained by every Linux distribution
 (for example Debian's [debian/rules](https://www.debian.org/doc/debian-policy/ch-source#s-debianrules) or ArchLinux's PKGBUILD), whatever the build tool or the build platform.
 
-Once rebuild instructions are clear enough for people from different horizons to be able to rebuild typical projects,
+The fact that build platforms used for building artifacts published to Maven Central are not uniform (unlike a Linux distribution), defining the environment requirements of the rebuild instructions will be a tricky part: which OS is necessary? Has it to be very precise (a specific version of a specific distribution of Linux?) or can it be loose (any Unix)? Which version of which build tools have to be installed? With the same question on version precision. The objective is to track only key information that impacts the binary, to have a chance to get the same binary as the binary found on Central, but letting as much as flexibility for the rebuilder to create his rebuild platform.
+
+Once rebuild instructions are precise enough for people from different horizons to be able to rebuild typical projects as their binary was published on Central,
 we'll see buildinfo more in details: how does it link to build instructions and add extra details?
 
 And in the future, once formats are stabilized, it is expected that every project provides its rebuild instructions when publishing to Central. Then the current work is not necessary to be maintained forever: just for old artifacts.
 
 ### Interesting cases built with Maven
+
+For each project, an `analyze.sh` script is written to detect the key environment setup used to build the binary published in Central: the result can be found in `result.txt`. The `build` variable in the script is not really used, just stored in the analysis script in preparation of future steps where real rebuild instructions will be written.
 
 - [Plexus Utils](https://codehaus-plexus.github.io/plexus-utils/) = `org.codehaus.plexus:`[`plexus-utils:*`](https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/)\
   __Simple jar__ from basic java code that could be built without Maven but with javac and jar commands.\
