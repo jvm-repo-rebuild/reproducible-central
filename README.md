@@ -40,6 +40,10 @@ For each project, an `analyze.sh` script is written to detect the key environmen
   See [results](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/org/apache/maven/maven)\
   __Learning__: added `-Papache-release -Dgpg.skip` to build command to get source and javadoc attached artifacts (`-sources.jar` and `-javadoc.jar`), useful to check reproducibility since downloaded by IDEs
 
+- [Apache Royale](https://royale.apache.org/): `org.apache.royale.` [`compiler`](https://repo.maven.apache.org/maven2/org/apache/royale/compiler) [`typedefs`](https://repo.maven.apache.org/maven2/org/apache/royale/typedefs) and [`framework`](https://repo.maven.apache.org/maven2/org/apache/royale/framework)\
+  a few prerequisites to install ("Flash Player projector content debugger", airglobal-20.0.swc): see [build instructions](https://github.com/apache/royale-asjs/wiki/Build-Apache-Royale-with-Maven)\
+  __Learning__: prerequisites installation instructions needed, at least as instruction, but in the future in an executable way
+
 - [Jansi native](https://github.com/fusesource/jansi-native) = `org.fusesource.jansi:`[`jansi-native:*`](https://repo.maven.apache.org/maven2/org/fusesource/jansi/jansi-native/)\
   java code plus **additional native (then build-platform dependant with 7 different platforms) code**.\
   Until 1.5, native code published as jansi-native artifactId, since 1.6 published
