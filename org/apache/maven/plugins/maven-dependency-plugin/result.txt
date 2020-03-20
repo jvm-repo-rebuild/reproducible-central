@@ -1,0 +1,22 @@
+2007-01-09   2.0-alpha-1	Build-Jdk: 1.5.0_02, bytecode version 45.3, built on Windows 
+2007-03-12   2.0-alpha-2	Build-Jdk: 1.5.0_11, bytecode version 45.3, built on Windows 
+2007-03-17   2.0-alpha-3	Build-Jdk: 1.5.0_11, bytecode version 45.3, built on Windows 
+2007-03-25   2.0-alpha-4	Build-Jdk: 1.5.0_11, bytecode version 45.3, built on Windows 
+2008-01-22   2.0	Build-Jdk: 1.6.0_03, bytecode version 48.0 (Java 1.4), built on Windows 
+2009-01-07   2.1	Build-Jdk: 1.6.0_03, bytecode version 48.0 (Java 1.4), built on Windows 
+2011-02-10   2.2	Build-Jdk: 1.6.0_23, bytecode version 49.0 (Java 1.5), built on Windows 
+2011-07-06   2.3	Build-Jdk: 1.6.0_26, bytecode version 49.0 (Java 1.5) 
+2011-11-14   2.4	Build-Jdk: 1.6.0_29, bytecode version 49.0 (Java 1.5) 
+2012-08-01   2.5	Build-Jdk: 1.6.0_32, bytecode version 49.0 (Java 1.5) 
+2012-08-24   2.5.1	Build-Jdk: 1.6.0_33, bytecode version 49.0 (Java 1.5) 
+2012-11-20   2.6	Build-Jdk: 1.6.0_37, bytecode version 49.0 (Java 1.5) 
+2013-03-07   2.7	Build-Jdk: 1.6.0_43, bytecode version 49.0 (Java 1.5) 
+2013-05-15   2.8	Build-Jdk: 1.6.0_32, bytecode version 49.0 (Java 1.5) 
+2014-09-18   2.9	Build-Jdk: 1.7.0_21, bytecode version 49.0 (Java 1.5) 
+2015-01-24   2.10	Build-Jdk: 1.7.0_21, bytecode version 49.0 (Java 1.5) 
+2016-12-12   3.0.0	Build-Jdk: 1.7.0_55, bytecode version 50.0 (Java 1.6), built on Windows 
+2017-05-11   3.0.1	Build-Jdk: 1.7.0_79, bytecode version 50.0 (Java 1.6) 
+2017-09-09   3.0.2	Build-Jdk: 1.8.0_144, bytecode version 50.0 (Java 1.6) 
+2018-04-02   3.1.0	Build-Jdk: 1.8.0_144, bytecode version 51.0 (Java 1.7) 
+2018-05-19   3.1.1	Build-Jdk: 1.8.0_144, bytecode version 51.0 (Java 1.7) 
+2020-03-07   3.1.2	Build-Jdk-Spec: 1.8, bytecode version 51.0 (Java 1.7)     <project.build.outputTimestamp>2020-03-07T11:39:12Z</project.build.outputTimestamp>

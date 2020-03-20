@@ -16,6 +16,7 @@ This repository has been built in 2 steps:
 ## March 2020: Effective Reproducible Builds Checks
 
 - [Plexus Archiver](https://codehaus-plexus.github.io/plexus-archiver/) = `org.codehaus.plexus:`[`plexus-archiver:*`](https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/)\
+  __Simple reproducibility test__ using Docker and manually checking sha1 fingerprint.\
   See [results](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/org/codehaus/plexus/plexus-archiver)\
   version 4.2.2 (2020-02-29) has `project.build.outputTimestamp` property defined,
   this artifact should be reproducible using JDK 7 on any Unix, for example using Docker:
@@ -28,6 +29,36 @@ $ sha1sum target/plexus-archiver-4.2.2.jar
 e98d2bda3699e13e9c5dd1d53fa1bd08726cc7b7  target/plexus-archiver-4.2.2.jar
 ```
   which is the same fingerprint as the [reference artifact](https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.jar.sha1)
+
+- [Maven Dependency Plugin](https://maven.apache.org/plugins/maven-dependency-plugin/) = `org.apache.maven.plugins:`[`maven-dependency-plugin:*`](https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/)\
+  __Buildinfo check__ using [maven-buildinfo-plugin](https://github.com/apache/maven-studies/tree/maven-buildinfo-plugin) temporary plugin.\
+  See [results](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/org/apache/maven/plugins/maven-dependency-plugin)\
+  version 3.1.2 (2020-03-07) has `project.build.outputTimestamp` property defined,
+  this artifact should be reproducible using JDK 8 on any Unix, for example using Docker:
+```
+$ git clone https://github.com/apache/maven-dependency-plugin.git
+$ cd maven-dependency-plugin
+$ git checkout maven-dependency-plugin-3.1.2
+$ docker run -it --rm --name reproducible-central -v "$PWD":/usr/src/app -w /usr/src/app maven:3.6.3-jdk-8-slim mvn -Papache-release clean package -DskipTests -Dgpg.skip buildinfo:save -Dreference.repo=central
+[...]
+[INFO] --- maven-buildinfo-plugin:1.0-SNAPSHOT:buildinfo (default-cli) @ maven-dependency-plugin ---
+Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.13/commons-codec-1.13.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.13/commons-codec-1.13.pom (14 kB at 1.6 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.13/commons-codec-1.13.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.13/commons-codec-1.13.jar (344 kB at 19 MB/s)
+[INFO] Saved info on build to /usr/src/app/target/maven-dependency-plugin-3.1.2.buildinfo
+[INFO] Checking against reference build from central...
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.1.2/maven-dependency-plugin-3.1.2.buildinfo
+[WARNING] Reference buildinfo file not found: it will be generated from downloaded reference artifacts
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.1.2/maven-dependency-plugin-3.1.2-source-release.zip
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.1.2/maven-dependency-plugin-3.1.2-source-release.zip (586 kB at 18 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.1.2/maven-dependency-plugin-3.1.2.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.1.2/maven-dependency-plugin-3.1.2.jar (172 kB at 12 MB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.1.2/maven-dependency-plugin-3.1.2-sources.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.1.2/maven-dependency-plugin-3.1.2-sources.jar (131 kB at 7.7 MB/s)
+[INFO] Minimal buildinfo generated from downloaded artifacts: /usr/src/app/target/reference/maven-dependency-plugin-3.1.2.buildinfo
+[INFO] Reproducible Build output summary: 3 files ok
+```
 
 ## January 2019: Initial Rebuild Tests
 
