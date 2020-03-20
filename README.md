@@ -42,10 +42,6 @@ $ git checkout maven-dependency-plugin-3.1.2
 $ docker run -it --rm --name reproducible-central -v "$PWD":/usr/src/app -w /usr/src/app maven:3.6.3-jdk-8-slim mvn -Papache-release clean package -DskipTests -Dgpg.skip buildinfo:save -Dreference.repo=central
 [...]
 [INFO] --- maven-buildinfo-plugin:1.0-SNAPSHOT:buildinfo (default-cli) @ maven-dependency-plugin ---
-Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.13/commons-codec-1.13.pom
-Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.13/commons-codec-1.13.pom (14 kB at 1.6 MB/s)
-Downloading from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.13/commons-codec-1.13.jar
-Downloaded from central: https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.13/commons-codec-1.13.jar (344 kB at 19 MB/s)
 [INFO] Saved info on build to /usr/src/app/target/maven-dependency-plugin-3.1.2.buildinfo
 [INFO] Checking against reference build from central...
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.1.2/maven-dependency-plugin-3.1.2.buildinfo
@@ -59,6 +55,7 @@ Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/p
 [INFO] Minimal buildinfo generated from downloaded artifacts: /usr/src/app/target/reference/maven-dependency-plugin-3.1.2.buildinfo
 [INFO] Reproducible Build output summary: 3 files ok
 ```
+`maven-buildinfo-plugin` generated `maven-dependency-plugin-3.1.2.buildinfo` and checked automatically 3 output files: `maven-dependency-plugin-3.1.2-source-release.zip`, `maven-dependency-plugin-3.1.2.jar` and `maven-dependency-plugin-3.1.2-sources.jar`
 
 ## January 2019: Initial Rebuild Tests
 
