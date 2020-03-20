@@ -18,7 +18,16 @@ This repository has been built in 2 steps:
 - [Plexus Archiver](https://codehaus-plexus.github.io/plexus-archiver/) = `org.codehaus.plexus:`[`plexus-archiver:*`](https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/)\
   See [results](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/org/codehaus/plexus/plexus-archiver)\
   version 4.2.2 (2020-02-29) has `project.build.outputTimestamp` property defined,
-  this artifact should be reproducible using JDK 7 on any Unix
+  this artifact should be reproducible using JDK 7 on any Unix, for example using Docker:
+```
+$ git clone https://codehaus-plexus.github.io/plexus-archiver.git
+$ cd plexus-archiver
+$ git checkout plexus-archiver-4.2.2
+$ docker run -it --rm --name reproducible-central -v "$PWD":/usr/src/app -w /usr/src/app maven:3.6.1-jdk-7-alpine mvn clean package -DskipTests
+$ sha1sum target/plexus-archiver-4.2.2.jar 
+e98d2bda3699e13e9c5dd1d53fa1bd08726cc7b7  target/plexus-archiver-4.2.2.jar
+```
+  which is the same fingerprint as the [reference artifact](https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/4.2.2/plexus-archiver-4.2.2.jar.sha1)
 
 ## January 2019: Initial Rebuild Tests
 
