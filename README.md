@@ -4,7 +4,25 @@ Build instructions for (Maven) Central artifacts
 As part of [Reproducible Builds efforts for the JVM](https://reproducible-builds.org/docs/jvm/), this repository is an attempt
 at writing rebuild instructions for the artifacts available in [(Maven) Central](https://repo.maven.apache.org/maven2/),
 equivalent to the packaging instructions that are maintained by every Linux distribution
-(for example Debian's [debian/rules](https://www.debian.org/doc/debian-policy/ch-source#s-debianrules) or ArchLinux's PKGBUILD), whatever the build tool or the build platform.
+(for example Debian's [debian/rules](https://www.debian.org/doc/debian-policy/ch-source#s-debianrules) or ArchLinux's PKGBUILD), whatever the build tool.
+
+This repository has been built in 2 steps:
+
+1. in January 2019, before Reproducible Builds is implemented by any JVM build tool,
+   inital rebuild tests to find key factors to having a chance to rebuild an artifact,
+2. in March 2020, after Maven is able to be [configured for providing Reproducible Builds](https://maven.apache.org/guides/mini/guide-reproducible-builds.html),
+   extension of the tests to check effective rebuild against reference artifacts.
+
+## March 2020: Effective Reproducible Builds Checks
+
+- [Plexus Archiver](https://codehaus-plexus.github.io/plexus-archiver/) = `org.codehaus.plexus:`[`plexus-archiver:*`](https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/)\
+  See [results](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/org/codehaus/plexus/plexus-archiver)\
+  version 4.2.2 (2020-02-29) has `project.build.outputTimestamp` property defined,
+  this artifact should be reproducible using JDK 7 on any Unix
+
+## January 2019: Initial Rebuild Tests
+
+We know that builds are not reproducible, but let's try to see how to rebuild and get the output nearest to reference artifacts in Central.
 
 The fact that build platforms used for building artifacts published to Maven Central are not uniform (unlike a Linux distribution), defining the environment requirements of the rebuild instructions will be a tricky part: which OS is necessary? Has it to be very precise (a specific version of a specific distribution of Linux?) or can it be loose (any Unix)? Which version of which build tools have to be installed? With the same question on version precision. The objective is to track only key information that impacts the binary, to have a chance to get the same binary as the reference "official" binary found on Central, but letting as much flexibility as possible for the rebuilder to create his rebuild platform.
 
