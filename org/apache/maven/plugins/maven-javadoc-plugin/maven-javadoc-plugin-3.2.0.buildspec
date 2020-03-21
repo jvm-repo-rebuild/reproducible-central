@@ -1,0 +1,7 @@
+groupId=org.apache.maven.plugins
+artifactId=maven-javadoc-plugin
+version=3.2.0
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${artifactId}-${version}
+mvnImage=maven:3.6.3-jdk-8-slim
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
