@@ -1,0 +1,29 @@
+2005-09-17   2.0-beta-1	Build-Jdk: 1.5.0_04, bytecode version 45.3 
+2005-09-27   2.0-beta-2	Build-Jdk: 1.5.0_04, bytecode version 45.3 
+2005-10-16   2.0-beta-3	Build-Jdk: 1.5.0_04, bytecode version 45.3 
+2005-10-18   2.0-beta-4	Build-Jdk: 1.5.0_05, bytecode version 45.3 
+2006-05-13   2.0-beta-5	Build-Jdk: 1.5.0_06, bytecode version 45.3 
+2007-11-24   2.0-beta-6	Build-Jdk: 1.4.2_16, bytecode version 48.0 (Java 1.4), built on Windows 
+2008-06-26   2.0-beta-7	Build-Jdk: 1.4.2_17, bytecode version 48.0 (Java 1.4), built on Windows 
+2009-03-08   2.0	Build-Jdk: 1.4.2_18, bytecode version 48.0 (Java 1.4), built on Windows 
+2009-07-10   2.0.1	Build-Jdk: 1.4.2_18, bytecode version 48.0 (Java 1.4), built on Windows 
+2009-12-17   2.1	Build-Jdk: 1.5.0_22, bytecode version 48.0 (Java 1.4), built on Windows 
+2010-05-31   2.1.1	Build-Jdk: 1.5.0_22, bytecode version 48.0 (Java 1.4), built on Windows 
+2010-11-25   2.2	Build-Jdk: 1.5.0_22, bytecode version 49.0 (Java 1.5), built on Windows 
+2011-05-20   2.3	Build-Jdk: 1.5.0_22, bytecode version 49.0 (Java 1.5), built on Windows 
+2012-04-23   2.4	Build-Jdk: 1.5.0_22, bytecode version 49.0 (Java 1.5), built on Windows 
+2010-08-07   3.0-beta-1	Build-Jdk: 1.6.0_20, bytecode version 49.0 (Java 1.5) 
+2010-09-04   3.0-beta-2	Build-Jdk: 1.6.0_20, bytecode version 49.0 (Java 1.5) 
+2010-10-18   3.0-beta-3	Build-Jdk: 1.6.0_20, bytecode version 49.0 (Java 1.5) 
+2011-07-30   3.0	Build-Jdk: 1.5.0_22, bytecode version 49.0 (Java 1.5), built on Windows 
+2012-04-27   3.1	Build-Jdk: 1.5.0_22, bytecode version 49.0 (Java 1.5), built on Windows 
+2012-10-11   3.2	Build-Jdk: 1.5.0_22, bytecode version 49.0 (Java 1.5), built on Windows 
+2013-05-10   3.3	Build-Jdk: 1.6.0_32, bytecode version 49.0 (Java 1.5) 
+2014-07-07   3.4	Build-Jdk: 1.7.0_55, bytecode version 49.0 (Java 1.5) 
+2016-02-15   3.5	Build-Jdk: 1.7.0_71, bytecode version 50.0 (Java 1.6) 
+2016-04-12   3.5.1	Build-Jdk: 1.7.0_71, bytecode version 50.0 (Java 1.6) 
+2016-11-12   3.6	Build-Jdk: 1.7.0_80, bytecode version 50.0 (Java 1.6) 
+2017-12-28   3.7	Build-Jdk: 1.7.0_80, bytecode version 50.0 (Java 1.6) 
+2018-04-24   3.7.1	Build-Jdk: 1.7.0_80, bytecode version 50.0 (Java 1.6) 
+2019-07-24   3.8.2	Build-Jdk: 1.8.0_192, bytecode version 51.0 (Java 1.7), built on Windows 
+2020-03-06   3.9.0	Build-Jdk-Spec: 1.7, bytecode version 51.0 (Java 1.7)     <project.build.outputTimestamp>2020-03-06T20:49:21Z</project.build.outputTimestamp>
