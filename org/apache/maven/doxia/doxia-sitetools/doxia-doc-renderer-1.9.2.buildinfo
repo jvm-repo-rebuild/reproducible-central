@@ -1,0 +1,84 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Doxia Sitetools
+group-id=org.apache.maven.doxia
+artifact-id=doxia-sitetools
+version=1.9.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-doxia-sitetools.git
+source.scm.tag=doxia-sitetools-1.9.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.7.0_211
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T19:00:29Z)
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.maven.doxia:doxia-sitetools
+
+outputs.0.0.filename=doxia-sitetools-1.9.2-site.xml
+outputs.0.0.length=2031
+outputs.0.0.checksums.sha512=b97d642d5f44a9c7110c453f74ee11d45686c76a23ea87fa6b9ae130e3005225f25c5b0906d58f27f88046a3c950fb44fa8955fef1a2cfa4fea6bc37b498d829
+
+outputs.0.1.filename=doxia-sitetools-1.9.2-source-release.zip
+outputs.0.1.length=547948
+outputs.0.1.checksums.sha512=23ad72b6e7f1830aa70c5844a06a64960412ed1c6ef22bb377d735323605469c100c44c370f4bf883647bc4411b1a033386dfe6771596ecde2c3f4a1b328b2a3
+
+outputs.1.coordinates=org.apache.maven.doxia:doxia-decoration-model
+
+outputs.1.0.filename=doxia-decoration-model-1.9.2.jar
+outputs.1.0.length=59905
+outputs.1.0.checksums.sha512=7055f3f4adb2895567900011023e4953cccc7488f4fb2d28e303b0b21c82e39c86a06335e275e335f6e532bb40f01556c7133c26c44f9de95b2e0e681cc63cd0
+
+outputs.1.1.filename=doxia-decoration-model-1.9.2-sources.jar
+outputs.1.1.length=48173
+outputs.1.1.checksums.sha512=792a71861d9323dd6cebf390a04be16794235b08e8366341db39a074ff3166b4308b890fe7c600ee1ade63788e3e0610668af9f48e28bc152d127467d0433402
+
+outputs.2.coordinates=org.apache.maven.doxia:doxia-skin-model
+
+outputs.2.0.filename=doxia-skin-model-1.9.2.jar
+outputs.2.0.length=16310
+outputs.2.0.checksums.sha512=8f7bcc7f0d069ac477c9192cad0d5ad0e4bd9469965b85abab3e454516155e0848394e42be4c01a699852edce6ce3a16623df4f88133b89febc83cd67f5cff4d
+
+outputs.2.1.filename=doxia-skin-model-1.9.2-sources.jar
+outputs.2.1.length=13575
+outputs.2.1.checksums.sha512=73f2650ae6da7dc3ded5e60497f83b97b39878ab4f95231fd3097bd8f053b9e19ec07781a520ead418db946b1b6e664cf7b8c37c67a99bb359b8527001222d29
+
+outputs.3.coordinates=org.apache.maven.doxia:doxia-integration-tools
+
+outputs.3.0.filename=doxia-integration-tools-1.9.2.jar
+outputs.3.0.length=46365
+outputs.3.0.checksums.sha512=fc22b1e17a44a6acc9f415693c4c543b16451358912eab9bfccbecf973261857cc10e01d5d6ba216d8f1af6283c2957b47c12998c03571b0b8e4590bf6e6508c
+
+outputs.3.1.filename=doxia-integration-tools-1.9.2-sources.jar
+outputs.3.1.length=44029
+outputs.3.1.checksums.sha512=3016206af19952667bbb69de172905758b9b8c7e5b87a12d9eadbab5e3f50e7fcbbf60e09731bafeced31ae451cec75d1e316b5c325b2e1ccac39d25a0fc0106
+
+outputs.4.coordinates=org.apache.maven.doxia:doxia-site-renderer
+
+outputs.4.0.filename=doxia-site-renderer-1.9.2.jar
+outputs.4.0.length=64701
+outputs.4.0.checksums.sha512=4ada4856f6e440e8027f7e3596e6ca1a6e576a08d8b8422dd5f7952fa2e7d9bee9b5869149b7d43c7a8429960ad41dad09a173cb97a0b70fd9bd3e4d9644eae5
+
+outputs.4.1.filename=doxia-site-renderer-1.9.2-sources.jar
+outputs.4.1.length=61224
+outputs.4.1.checksums.sha512=54f97b6bb6fd74b1e113fc7b77d7f554a7480ab7003ffc4aa0a9ed87d27b8878615e9d2939fe980fac44697e023c2fef90daf3d761b29ccd8fa4df1a20035c4d
+
+outputs.5.coordinates=org.apache.maven.doxia:doxia-doc-renderer
+
+outputs.5.0.filename=doxia-doc-renderer-1.9.2.jar
+outputs.5.0.length=50301
+outputs.5.0.checksums.sha512=702307a95af86c6b8b2ac3d043fcfe7ad6a6098fa5d53d764b0ee3ef59d34319b8eb270c3398998e22627fd4be76248dd2166c9a60d6f9a793eecfc2a4b51211
+
+outputs.5.1.filename=doxia-doc-renderer-1.9.2-sources.jar
+outputs.5.1.length=42876
+outputs.5.1.checksums.sha512=6862461cfa827e5267d5a3278b01ef3ea16b50d3fd3d500f1ff8d3d123e2e63bada69c1796519ccf055b99e4ffdb855be87112231f1214df5d61839d62578fe2
