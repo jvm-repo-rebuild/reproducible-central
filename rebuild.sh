@@ -13,11 +13,12 @@ echo "- gitRepo: ${gitRepo}"
 echo "- gitTag: ${gitTag}"
 echo "- mvnImage: ${mvnImage}"
 echo "- command: ${command}"
+echo "- buildinfo: ${buildinfo}"
 
 base="$PWD"
 
 pushd `dirname ${buildspec}` > /dev/null
-mkdir target
+[ -d target ] || mkdir target
 cd target
 [ -d ${artifactId} ] || git clone ${gitRepo} ${artifactId}
 cd ${artifactId}
@@ -32,6 +33,6 @@ docker run -it --rm --name rebuild-central \
   -w /var/maven/app \
   ${mvnImage} ${command} -V -s /var/maven/.m2/settings.xml -Duser.home=/var/maven buildinfo:buildinfo -Dreference.repo=central
 
-cp target/*.buildinfo ../..
+cp ${buildinfo} ../..
 
 popd > /dev/null

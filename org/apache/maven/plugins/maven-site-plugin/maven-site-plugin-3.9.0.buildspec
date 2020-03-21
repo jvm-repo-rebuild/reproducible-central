@@ -5,3 +5,4 @@ gitRepo=https://github.com/apache/${artifactId}.git
 gitTag=${artifactId}-${version}
 mvnImage=maven:3.6.1-jdk-7-alpine
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
