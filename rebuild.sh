@@ -1,6 +1,9 @@
 #!/bin/bash
 
 buildspec=$1
+# known limitation: can't rebuild Windows reference artifact:
+# - need to be able to inject -Dline.separator=$'\r\n'
+# - need to do Git checkout with Windows newlines for pom.xml
 
 echo "rebuilding from spec $1"
 
