@@ -13,6 +13,11 @@ This repository has been built in 2 steps:
 2. in March 2020, after Maven is able to be [configured for providing Reproducible Builds](https://maven.apache.org/guides/mini/guide-reproducible-builds.html),
    extension of the tests to check effective rebuild against reference artifacts.
 
+TLDR; to rebuild every project with build instructions (= *.buildspec file, see [example](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/org/apache/maven/plugins/maven-dependency-plugin/maven-dependency-plugin-3.1.2.buildspec)) in this Git repository, just run:
+```
+find . -name *.buildspec -exec ./rebuild.sh {} \;
+```
+
 ## March 2020: Effective Reproducible Builds Checks
 
 - [Plexus Archiver](https://codehaus-plexus.github.io/plexus-archiver/) = `org.codehaus.plexus:`[`plexus-archiver:*`](https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/)\
@@ -56,6 +61,13 @@ Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/p
 [INFO] Reproducible Build output summary: 3 files ok
 ```
 `maven-buildinfo-plugin` generated `maven-dependency-plugin-3.1.2.buildinfo` and checked automatically 3 output files: `maven-dependency-plugin-3.1.2-source-release.zip`, `maven-dependency-plugin-3.1.2.jar` and `maven-dependency-plugin-3.1.2-sources.jar`
+
+- `rebuild.sh`: for easier and more robust rebuilding, `rebuild.sh <path to buildspec>` script has been written.
+  Previous examples can simply be run with:
+```
+./rebuild.sh org/codehaus/plexus/plexus-archiver/plexus-archiver-4.2.2.buildspec
+./rebuild.sh org/apache/maven/plugins/maven-dependency-plugin/maven-dependency-plugin-3.1.2.buildspec
+```
 
 ## January 2019: Initial Rebuild Tests
 
