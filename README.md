@@ -6,17 +6,21 @@ at writing rebuild instructions for the artifacts available in [(Maven) Central]
 equivalent to the packaging instructions that are maintained by every Linux distribution
 (for example Debian's [debian/rules](https://www.debian.org/doc/debian-policy/ch-source#s-debianrules) or ArchLinux's PKGBUILD), whatever the build tool.
 
+## TLDR;
+
+To rebuild (using Docker) every project with build instructions in this Git repository (= *.buildspec file, see [example](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/org/apache/maven/plugins/maven-dependency-plugin/maven-dependency-plugin-3.1.2.buildspec)), just run:
+```
+find . -name *.buildspec -exec ./rebuild.sh {} \;
+```
+
+## Understanding What Is Behind
+
 This repository has been built in 2 steps:
 
 1. in January 2019, before Reproducible Builds is implemented by any JVM build tool,
    inital rebuild tests to find key factors to having a chance to rebuild an artifact,
 2. in March 2020, after Maven is able to be [configured for providing Reproducible Builds](https://maven.apache.org/guides/mini/guide-reproducible-builds.html),
    extension of the tests to check effective rebuild against reference artifacts.
-
-TLDR; to rebuild every project with build instructions (= *.buildspec file, see [example](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/org/apache/maven/plugins/maven-dependency-plugin/maven-dependency-plugin-3.1.2.buildspec)) in this Git repository, just run:
-```
-find . -name *.buildspec -exec ./rebuild.sh {} \;
-```
 
 ## March 2020: Effective Reproducible Builds Checks
 
