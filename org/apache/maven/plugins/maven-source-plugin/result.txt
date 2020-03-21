@@ -1,0 +1,19 @@
+2005-09-17   2.0-beta-1	Build-Jdk: 1.5.0_04, bytecode version 45.3 
+2005-10-05   2.0-rc1	Build-Jdk: 1.5.0_04, bytecode version 45.3 
+2005-10-16   2.0	Build-Jdk: 1.5.0_04, bytecode version 45.3 
+2006-05-07   2.0.1	Build-Jdk: 1.5.0_06, bytecode version 45.3 
+2006-12-13   2.0.2	Build-Jdk: 1.4.2_12, bytecode version 45.3 
+2007-04-21   2.0.3	Build-Jdk: 1.5.0_07, bytecode version 45.3 
+2007-11-08   2.0.4	Build-Jdk: 1.4.2_16, bytecode version 48.0 (Java 1.4), built on Windows 
+2009-04-17   2.1	Build-Jdk: 1.5.0_17, bytecode version 48.0 (Java 1.4) 
+2009-10-12   2.1.1	Build-Jdk: 1.6.0_15, bytecode version 48.0 (Java 1.4) 
+2010-05-17   2.1.2	Build-Jdk: 1.5.0_21, bytecode version 48.0 (Java 1.4), built on Windows 
+2012-08-02   2.2	Build-Jdk: 1.6.0_33, bytecode version 49.0 (Java 1.5) 
+2012-10-09   2.2.1	Build-Jdk: 1.6.0_35, bytecode version 49.0 (Java 1.5) 
+2014-07-08   2.3	Build-Jdk: 1.7.0_21, bytecode version 49.0 (Java 1.5) 
+2014-10-07   2.4	Build-Jdk: 1.7.0_21, bytecode version 49.0 (Java 1.5) 
+2016-02-10   3.0.0	Build-Jdk: 1.7.0_79, bytecode version 50.0 (Java 1.6) 
+2016-06-18   3.0.1	Build-Jdk: 1.7.0_79, bytecode version 50.0 (Java 1.6) 
+2019-05-15   3.1.0	Build-Jdk: 1.8.0_202, bytecode version 51.0 (Java 1.7) 
+2019-10-29   3.2.0	Build-Jdk: 1.7.0_161, bytecode version 51.0 (Java 1.7) 
+2019-12-16   3.2.1	Build-Jdk-Spec: 1.8, bytecode version 51.0 (Java 1.7)     <project.build.outputTimestamp>2019-12-16T18:10:01Z</project.build.outputTimestamp>
