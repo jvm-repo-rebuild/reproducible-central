@@ -1,0 +1,28 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=jPdfTest
+group-id=io.github.derkrischan
+artifact-id=jpdftest
+version=0.8.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/derKrischan/jpdftest.git
+source.scm.tag=jpdftest-0.8.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.7.0_211
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T19:00:29Z)
+
+# output
+
+outputs.0.filename=jpdftest-0.8.0.jar
+outputs.0.length=33174
+outputs.0.checksums.sha512=890e963ae4d0b3c73bb864dce710e6b359d4cc1f0e00354d4ffe0c0cea50c924d4295222cd6c2466447d1dfec3dcc9cc0a7f0996b4f654ca5d349d680edd0bae

@@ -1,0 +1,5 @@
+2019-03-17   0.1.0	Build-Jdk: 11.0.1, bytecode version 52.0 (Java 1.8) 
+2019-03-17   0.3.0	Build-Jdk: 1.7.0_211, bytecode version 51.0 (Java 1.7) 
+2019-10-14   0.5.0	Build-Jdk: 1.8.0_222, bytecode version 51.0 (Java 1.7) 
+2019-11-30   0.6.0	Build-Jdk-Spec: 11, bytecode version 51.0 (Java 1.7) 
+2019-11-30   0.8.0	Build-Jdk-Spec: 1.7, bytecode version 51.0 (Java 1.7) 		<project.build.outputTimestamp>2019-11-30T08:04:00Z</project.build.outputTimestamp>

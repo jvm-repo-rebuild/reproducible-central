@@ -1,0 +1,8 @@
+groupId=io.github.derkrischan
+artifactId=jpdftest
+version=0.8.0
+gitRepo=https://github.com/derKrischan/${artifactId}.git
+gitTag=${artifactId}-${version}
+mvnImage=maven:3.6.1-jdk-7-alpine
+command="mvn clean package -DskipTests"
+buildinfo=target/${artifactId}-${version}.buildinfo
