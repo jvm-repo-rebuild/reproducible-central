@@ -18,9 +18,11 @@ find . -name *.buildspec -exec ./rebuild.sh {} \;
 This repository has been built in 2 steps:
 
 1. in January 2019, before Reproducible Builds is implemented by any JVM build tool,
-   inital rebuild tests to find key factors to having a chance to rebuild an artifact,
+   inital rebuild tests to find key factors to having a chance to rebuild an artifact
+   and get a result similar to reference build available on Central repository,
 2. in March 2020, after Maven is able to be [configured for providing Reproducible Builds](https://maven.apache.org/guides/mini/guide-reproducible-builds.html),
-   extension of the tests to check effective rebuild against reference artifacts.
+   extension of the tests to automatically rebuild and really check against reference artifacts,
+   now that there is a chance to get the same output.
 
 ## March 2020: Effective Reproducible Builds Checks
 
@@ -75,7 +77,8 @@ Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/p
 
 ## January 2019: Initial Rebuild Tests
 
-We know that builds are not reproducible, but let's try to see how to rebuild and get the output nearest to reference artifacts in Central.
+We know that builds are not reproducible (in [Reproducible Builds](https://reproducible-builds.org/) way),
+but let's try to see how to rebuild and get the output nearest to reference artifacts in Central.
 
 The fact that build platforms used for building artifacts published to Maven Central are not uniform (unlike a Linux distribution), defining the environment requirements of the rebuild instructions will be a tricky part: which OS is necessary? Has it to be very precise (a specific version of a specific distribution of Linux?) or can it be loose (any Unix)? Which version of which build tools have to be installed? With the same question on version precision. The objective is to track only key information that impacts the binary, to have a chance to get the same binary as the reference "official" binary found on Central, but letting as much flexibility as possible for the rebuilder to create his rebuild platform.
 
