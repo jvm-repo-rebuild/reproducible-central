@@ -5,9 +5,9 @@ buildspec=$1
 # - need to be able to inject -Dline.separator=$'\r\n'
 # - need to do Git checkout with Windows newlines for pom.xml
 
-echo "rebuilding from spec $1"
+echo "rebuilding from spec ${buildspec}"
 
-. $1
+. ${buildspec}
 
 echo "- groupId: ${groupId}"
 echo "- artifactId: ${artifactId}"
