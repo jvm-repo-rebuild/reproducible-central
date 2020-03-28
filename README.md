@@ -111,7 +111,7 @@ And in the future, once formats are stabilized, it is expected that every projec
 
 ### Interesting cases built with Maven
 
-For each project, an `analyze.sh` script is written to detect the key environment setup used to build the binary published in Central: the result can be found in `result.txt`. The `build` variable in the script is not really used, just stored in the analysis script in preparation of future steps where real rebuild instructions will be written.
+For each project, an `analyze.sh` script is written to detect the key environment setup used to build the binary published in Central: the result can be found in `analysis.txt`. The `build` variable in the script is not really used, just stored in the analysis script in preparation of future steps where real rebuild instructions will be written.
 
 - [Plexus Utils](https://codehaus-plexus.github.io/plexus-utils/) = `org.codehaus.plexus:`[`plexus-utils:*`](https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/)\
   __Simple jar__ from basic java code that could be built without Maven but with javac and jar commands.\
