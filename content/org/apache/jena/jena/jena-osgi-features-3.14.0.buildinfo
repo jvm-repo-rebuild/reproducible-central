@@ -699,6 +699,6 @@ outputs.51.1.filename=jena-osgi-features-3.14.0-sources.jar
 outputs.51.1.length=7964
 outputs.51.1.checksums.sha512=6a185c92ee183cc3efd54825c85b3bb5e333f704cee1bae771e49d4fe470d86a9f880212204d28e16af19063737cbab7a6acb55cd1f3195e46156998ef05881f
 
-outputs.51.2.filename=features.xml
+outputs.51.2.filename=jena-osgi-features-3.14.0-features.xml
 outputs.51.2.length=2231
 outputs.51.2.checksums.sha512=80994709eb59ea872042cca1d215ca3abb5078ac9f956126612805236d74c6cea82c9954a16eebe94f6e08280b89b217dbb39c447e6121a7ab0292ee06f50268
