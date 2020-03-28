@@ -1,0 +1,4 @@
+ok=2
+ko=1
+okFiles="org.apache.sling.installer.core-3.11.0-source-release.zip org.apache.sling.installer.core-3.11.0.jar"
+koFiles="org.apache.sling.installer.core-3.11.0-sources.jar"

@@ -1,0 +1,44 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Installer Core
+group-id=org.apache.sling
+artifact-id=org.apache.sling.installer.core
+version=3.11.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-installer-core.git
+source.scm.tag=org.apache.sling.installer.core-3.11.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=org.apache.sling.installer.core-3.11.0.jar
+outputs.0.length=214983
+outputs.0.checksums.sha512=68c159b0376faf279ed5b6d7eb45340f33210418042bcb1d21adad2c5bd1358fe62dcb9c67ef0d53e09f0544c94118afd9102b7f103f9d72c2d645edcce3fc49
+
+outputs.1.filename=org.apache.sling.installer.core-3.11.0-source-release.zip
+outputs.1.length=180866
+outputs.1.checksums.sha512=b69ea5f311ccd7b0a6b196839bcb53fdb1eb8a415bca67eac3415c7c11d48eeeb301c0096e158e3d9ddbb84baa8948d43c7adf25be8e6337b66aeaaecb5ba68c
+
+outputs.2.filename=org.apache.sling.installer.core-3.11.0-sources.jar
+outputs.2.length=134146
+outputs.2.checksums.sha512=bbcaa47b7588bb44919b6e5299229d01c64490511b82d6b3a9e289f0c91ca6648682e853fae1d53eb2309bffb5dfc084968a596a319bf13c1f9973a3b15af4aa
+
+outputs.3.filename=org.apache.sling.installer.core-3.11.0-sources.jar
+outputs.3.length=134146
+outputs.3.checksums.sha512=bbcaa47b7588bb44919b6e5299229d01c64490511b82d6b3a9e289f0c91ca6648682e853fae1d53eb2309bffb5dfc084968a596a319bf13c1f9973a3b15af4aa
+
+outputs.4.filename=org.apache.sling.installer.core-3.11.0-sources.jar
+outputs.4.length=134146
+outputs.4.checksums.sha512=bbcaa47b7588bb44919b6e5299229d01c64490511b82d6b3a9e289f0c91ca6648682e853fae1d53eb2309bffb5dfc084968a596a319bf13c1f9973a3b15af4aa
