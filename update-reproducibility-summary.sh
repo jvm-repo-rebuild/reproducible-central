@@ -8,13 +8,22 @@ do
   . $buildspec
 
   groupDir=$(echo ${groupId} | tr '.' '/')
-  buildinfo=`filename ${buildinfo}`
+  buildinfo="`dirname ${buildspec}`/`filename ${buildinfo}`"
 
   echo -n "| [${groupId}](https://repo.maven.apache.org/maven2/${groupDir}) "
   echo -n "| [${artifactId}](https://repo.maven.apache.org/maven2/${groupDir}/${artifactId}) "
   echo -n "[${version}](https://repo.maven.apache.org/maven2/${groupDir}/${artifactId}/${version}) "
   echo -n "| [spec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildspec}) "
-  echo -n "/ [info](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/`dirname ${buildspec}`/${buildinfo}) "
+  [ -f ${buildinfo} ] && echo -n "/ [info](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildinfo}) "
+
+  . ${buildinfo}.compare
+  if [ $? -eq 0 ]; then
+    echo -n "| "
+    [ ${ok} -gt 0 ] && echo -n "${ok} :heavy_check_mark: "
+    [ ${ko} -gt 0 ] && echo -n " ${ko} :warning: "
+  else
+    echo -n "| :x: "
+  fi
   echo "|"
 
 done) > summary-table.md

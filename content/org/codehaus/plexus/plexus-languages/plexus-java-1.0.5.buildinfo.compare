@@ -1,0 +1,4 @@
+ok=2
+ko=1
+okFiles="plexus-languages-1.0.5-site.xml plexus-java-1.0.5-sources.jar"
+koFiles="plexus-java-1.0.5.jar"

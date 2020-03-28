@@ -34,8 +34,8 @@ docker run -it --rm --name rebuild-central \
   -v "$base":/var/maven/.m2 \
   -u $(id -u ${USER}):$(id -g ${USER}) -e MAVEN_CONFIG=/var/maven/.m2 \
   -w /var/maven/app \
-  ${mvnImage} ${command} -V -s /var/maven/.m2/settings.xml -Duser.home=/var/maven buildinfo:buildinfo -Dreference.repo=central
+  ${mvnImage} ${command} -V -s /var/maven/.m2/settings.xml -Duser.home=/var/maven buildinfo:buildinfo -Dreference.repo=central -Dreference.compare.save
 
-cp ${buildinfo} ../..
+cp ${buildinfo}* ../..
 
 popd > /dev/null
