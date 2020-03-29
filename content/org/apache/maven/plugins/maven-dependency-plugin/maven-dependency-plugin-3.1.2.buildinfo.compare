@@ -1,4 +1,4 @@
 ok=3
 ko=0
-okFiles="maven-dependency-plugin-3.1.2.jar maven-dependency-plugin-3.1.2-sources.jar maven-dependency-plugin-3.1.2-source-release.zip"
+okFiles="maven-dependency-plugin-3.1.2-source-release.zip maven-dependency-plugin-3.1.2.jar maven-dependency-plugin-3.1.2-sources.jar"
 koFiles=""

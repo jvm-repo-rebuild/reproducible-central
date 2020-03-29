@@ -1,4 +1,4 @@
 ok=1
 ko=2
 okFiles="maven-site-plugin-3.9.0.jar"
-koFiles="maven-site-plugin-3.9.0-sources.jar maven-site-plugin-3.9.0-source-release.zip"
+koFiles="maven-site-plugin-3.9.0-source-release.zip maven-site-plugin-3.9.0-sources.jar"

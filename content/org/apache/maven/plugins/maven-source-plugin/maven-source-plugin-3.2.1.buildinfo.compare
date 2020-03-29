@@ -1,4 +1,4 @@
 ok=0
 ko=3
 okFiles=""
-koFiles="maven-source-plugin-3.2.1-source-release.zip maven-source-plugin-3.2.1.jar maven-source-plugin-3.2.1-sources.jar"
+koFiles="maven-source-plugin-3.2.1.jar maven-source-plugin-3.2.1-sources.jar maven-source-plugin-3.2.1-source-release.zip"

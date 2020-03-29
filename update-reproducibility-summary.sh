@@ -15,7 +15,7 @@ do
   echo -n "[${version}](https://repo.maven.apache.org/maven2/${groupDir}/${artifactId}/${version}) "
   echo -n "| [spec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildspec}) "
   [ -f ${buildinfo} ] && echo -n "/ [info](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildinfo}) "
-  echo -n "| jdk${jdk} "
+  echo -n "| jdk-${jdk} "
   [ "${newline}" == "crlf" ] && echo -n "win "
 
   . ${buildinfo}.compare
