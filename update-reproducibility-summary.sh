@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cat <(echo "| groupId | artifactId version | build | Reproducibility |"
-echo "| ------- | ------------------ | ----- | --------------- |"
+cat <(echo "| groupId | artifactId version | build | env | Reproducibility |"
+echo "| ------- | ------------------ | ----- | --- | --------------- |"
 
 for buildspec in `find content -name *.buildspec -print | sort`
 do
@@ -15,6 +15,8 @@ do
   echo -n "[${version}](https://repo.maven.apache.org/maven2/${groupDir}/${artifactId}/${version}) "
   echo -n "| [spec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildspec}) "
   [ -f ${buildinfo} ] && echo -n "/ [info](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildinfo}) "
+  echo -n "| jdk${jdk} "
+  [ "${newline}" == "crlf" ] && echo -n "win "
 
   . ${buildinfo}.compare
   if [ $? -eq 0 ]; then
