@@ -5,7 +5,7 @@ version=3.6.3
 gitRepo=https://github.com/apache/maven-${artifactId}.git
 gitTag=${artifactId}-${version}
 
-jdk=7
+jdk=8
 newline=crlf
 
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -DbuildNumber=5cdb8332f99a36e5a1da202da43e3c7dfbb49322"
