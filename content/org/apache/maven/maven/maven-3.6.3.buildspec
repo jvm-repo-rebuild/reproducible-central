@@ -11,7 +11,6 @@ newline=crlf
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -DbuildNumber=5cdb8332f99a36e5a1da202da43e3c7dfbb49322"
 buildinfo=apache-maven/target/apache-maven-${version}.buildinfo
 
-# currently won't work for 3 reasons:
-# - missing -Dline.separator=$'\r\n' to simulate Windows build (newline=crlf): need to be done in rebuild.sh
+# currently won't work for 2 reasons:
 # - wrong encoding in pom.xml from Git checkout: should we use -source-release.zip? should improve the git checkout configuration?
-# - issue in Maven 3.6.3: injects current year
+# - issue in Maven 3.6.3 build: injects current year in generated NOTICE

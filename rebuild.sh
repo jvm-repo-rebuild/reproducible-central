@@ -1,9 +1,8 @@
 #!/bin/bash
 
 buildspec=$1
-# known limitation: can't rebuild Windows reference artifact:
-# - need to be able to inject -Dline.separator=$'\r\n'
-# - need to do Git checkout with Windows newlines for pom.xml
+# known limitation: can't rebuild Windows reference artifact
+# because we need to do Git checkout with Windows newlines (at least for pom.xml)
 
 echo "Rebuilding from spec ${buildspec}"
 
@@ -47,12 +46,13 @@ case ${jdk} in
 esac
 
 echo "Rebuilding using Docker image ${mvnImage}"
-docker run -it --rm --name rebuild-central \
-  -v "$PWD":/var/maven/app \
-  -v "$base":/var/maven/.m2 \
-  -u $(id -u ${USER}):$(id -g ${USER}) -e MAVEN_CONFIG=/var/maven/.m2 \
-  -w /var/maven/app \
-  ${mvnImage} ${mvn_rebuild} -s /var/maven/.m2/settings.xml -Duser.home=/var/maven
+docker_command="docker run -it --rm --name rebuild-central -v $PWD:/var/maven/app -v $base:/var/maven/.m2 -u $(id -u ${USER}):$(id -g ${USER}) -e MAVEN_CONFIG=/var/maven/.m2 -w /var/maven/app"
+if [ "${newline}" == "crlf" ]
+then
+  ${docker_command} ${mvnImage} ${mvn_rebuild} -s /var/maven/.m2/settings.xml -Duser.home=/var/maven -Dline.separator=$'\r\n'
+else
+  ${docker_command} ${mvnImage} ${mvn_rebuild} -s /var/maven/.m2/settings.xml -Duser.home=/var/maven
+fi
 
 cp ${buildinfo}* ../..
 
