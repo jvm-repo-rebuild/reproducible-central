@@ -1,8 +1,12 @@
 groupId=org.apache.jena
 artifactId=jena
 version=3.14.0
+
 gitRepo=https://github.com/apache/maven-${artifactId}.git
 gitTag=${artifactId}-${version}
-mvnImage=maven:3.6.3-jdk-8-slim
+
+jdk=8
+newline=lf
+
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=apache-jena-osgi/jena-osgi-features/target/jena-osgi-features-${version}.buildinfo

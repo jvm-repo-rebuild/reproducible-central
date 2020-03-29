@@ -1,8 +1,12 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.installer.core
 version=3.11.0
+
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git
 gitTag=${artifactId}-${version}
-mvnImage=maven:3.6.3-jdk-8-slim
+
+jdk=8
+newline=lf
+
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
