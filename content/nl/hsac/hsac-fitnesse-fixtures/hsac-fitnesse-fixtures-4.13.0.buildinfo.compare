@@ -1,0 +1,4 @@
+ok=0
+ko=3
+okFiles=""
+koFiles="hsac-fitnesse-fixtures-4.13.0-sources.jar hsac-fitnesse-fixtures-4.13.0-standalone.zip hsac-fitnesse-fixtures-4.13.0.jar"
