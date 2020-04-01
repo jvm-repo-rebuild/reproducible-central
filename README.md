@@ -41,7 +41,7 @@ find content -name *.buildspec -exec ./rebuild.sh {} \;
 
 This repository has been built in 2 steps:
 
-1. in January 2019, before Reproducible Builds is implemented by any JVM build tool,
+1. in January 2019, before Reproducible Builds is implemented by any JVM build tool or used in real public release context,
    inital rebuild tests to find key factors to having a chance to rebuild an artifact
    and get a result similar to reference build available on Central repository,
 2. in March 2020, after Maven is able to be [configured for providing Reproducible Builds](https://maven.apache.org/guides/mini/guide-reproducible-builds.html),
