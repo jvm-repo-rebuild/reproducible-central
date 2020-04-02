@@ -36,23 +36,48 @@ pwd
 # the effective rebuild command, adding buildinfo plugin to compare with central content
 mvn_rebuild="${command} -V -e buildinfo:buildinfo -Dreference.repo=central -Dreference.compare.save"
 
-# by default, rebuild using Docker with some predefined images: don't hesitate to customize to match other choice (other images, or even not using Docker)
-case ${jdk} in
-  6 | 7)
-    mvnImage=maven:3.6.1-jdk-${jdk}-alpine
-    ;;
-  *)
-    mvnImage=maven:3.6.3-jdk-${jdk}-slim
-esac
+mvnBuildDocker() {
+  local mvnCommand mvnImage
+  mvnCommand="$1"
+  # select Docker image to match required JDK version
+  case ${jdk} in
+    6 | 7)
+      mvnImage=maven:3.6.1-jdk-${jdk}-alpine
+      ;;
+    *)
+      mvnImage=maven:3.6.3-jdk-${jdk}-slim
+  esac
 
-echo "Rebuilding using Docker image ${mvnImage}"
-docker_command="docker run -it --rm --name rebuild-central -v $PWD:/var/maven/app -v $base:/var/maven/.m2 -u $(id -u ${USER}):$(id -g ${USER}) -e MAVEN_CONFIG=/var/maven/.m2 -w /var/maven/app"
-if [ "${newline}" == "crlf" ]
-then
-  ${docker_command} ${mvnImage} ${mvn_rebuild} -s /var/maven/.m2/settings.xml -Duser.home=/var/maven -Dline.separator=$'\r\n'
-else
-  ${docker_command} ${mvnImage} ${mvn_rebuild} -s /var/maven/.m2/settings.xml -Duser.home=/var/maven
-fi
+  echo "Rebuilding using Docker image ${mvnImage}"
+  local docker_command="docker run -it --rm --name rebuild-central -v $PWD:/var/maven/app -v $base:/var/maven/.m2 -u $(id -u ${USER}):$(id -g ${USER}) -e MAVEN_CONFIG=/var/maven/.m2 -w /var/maven/app"
+  local mvn_docker_params="-Duser.home=/var/maven"
+  if [ "${newline}" == "crlf" ]
+  then
+    ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params} -Dline.separator=$'\r\n'
+  else
+    ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params}
+  fi
+}
+
+# TODO not tested
+mvnBuildLocal() {
+  local mvnCommand="$1"
+
+  echo "Rebuilding using local JDK ${jdk}"
+  # TODO need to define settings with ${base}/repository local repository to avoid mixing reproducible-central dependencies with day to day builds
+  if [ "${newline}" == "crlf" ]
+  then
+    ${mvnCommand} -Dline.separator=$'\r\n'
+  else
+    ${mvnCommand}
+  fi
+}
+
+# by default, build with Docker
+# TODO: on parameter, use instead mvnBuildLocal after selecting JDK
+#   jenv shell ${jdk}
+#   sdk use java ${jdk}
+mvnBuildDocker "${mvn_rebuild}"
 
 cp ${buildinfo}* ../..
 

@@ -1,5 +1,5 @@
 <settings>
-  <localRepository>/var/maven/.m2/repository</localRepository>
+  <localRepository>${user.home}/.m2/repository</localRepository>
   <profiles>
     <profile>
       <id>apache</id>
