@@ -8,7 +8,7 @@ do
   . $buildspec
 
   groupDir=$(echo ${groupId} | tr '.' '/')
-  buildinfo="`dirname ${buildspec}`/`filename ${buildinfo}`"
+  buildinfo="`dirname ${buildspec}`/`basename ${buildinfo}`"
 
   echo -n "| [${groupId}](https://repo.maven.apache.org/maven2/${groupDir}) "
   echo -n "| [${artifactId}](https://repo.maven.apache.org/maven2/${groupDir}/${artifactId}) "
