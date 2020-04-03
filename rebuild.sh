@@ -1,12 +1,23 @@
 #!/bin/bash
 
+fatal()
+{
+  echo "fatal: $1" 1>&2
+  exit 1
+}
+
 buildspec=$1
+if [ -z "${buildspec}" ]
+then
+  fatal "usage: buildspec"
+fi
+
 # known limitation: can't rebuild Windows reference artifact
 # because we need to do Git checkout with Windows newlines (at least for pom.xml)
 
 echo "Rebuilding from spec ${buildspec}"
 
-. ${buildspec}
+. ${buildspec} || fatal "could not source ${buildspec}"
 
 echo "- groupId: ${groupId}"
 echo "- artifactId: ${artifactId}"
@@ -20,16 +31,16 @@ echo "- buildinfo: ${buildinfo}"
 
 base="$PWD"
 
-pushd `dirname ${buildspec}` > /dev/null
+pushd `dirname ${buildspec}` >/dev/null || fatal "could not move into ${buildspec}"
 
 # prepare source, using provided Git repository and tag
 # TODO: support svn, support getting source-release.zip
 [ -d target ] || mkdir target
 cd target
-[ -d ${artifactId} ] || git clone ${gitRepo} ${artifactId}
+[ -d ${artifactId} ] || git clone ${gitRepo} ${artifactId} || fatal "failed to clone ${artifactId}"
 cd ${artifactId}
-git pull
-git checkout ${gitTag}
+git pull || fatal "failed to git pull"
+git checkout ${gitTag} || fatal "failed to git checkout ${gitTag}"
 
 pwd
 
@@ -77,8 +88,8 @@ mvnBuildLocal() {
 # TODO: on parameter, use instead mvnBuildLocal after selecting JDK
 #   jenv shell ${jdk}
 #   sdk use java ${jdk}
-mvnBuildDocker "${mvn_rebuild}"
+mvnBuildDocker "${mvn_rebuild}" || fatal "failed to build"
 
-cp ${buildinfo}* ../..
+cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts"
 
 popd > /dev/null
