@@ -33,7 +33,7 @@ outputs.1.coordinates=org.codehaus.plexus:plexus-java
 
 outputs.1.0.filename=plexus-java-1.0.5.jar
 outputs.1.0.length=52112
-outputs.1.0.checksums.sha512=9833d480f2e3f663c3b75e861d67dac959371ff31d837784ddd9c8ea53fc09589d9e2ad54bca1912549a8b3e0a01f2530829273d1755ae21330e3b603791e52e
+outputs.1.0.checksums.sha512=f566db24d0a1380e0f769206570801d7701bddbb5b9de4a1eca45bb4fce57ce9b21af9d200e2dfb568a6a8e7273537c854edad20a3f754fc4bbfa697c07d735f
 
 outputs.1.1.filename=plexus-java-1.0.5-sources.jar
 outputs.1.1.length=28643

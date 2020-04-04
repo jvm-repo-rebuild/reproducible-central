@@ -39,7 +39,7 @@ pushd `dirname ${buildspec}` >/dev/null || fatal "could not move into ${buildspe
 cd target
 [ -d ${artifactId} ] || git clone ${gitRepo} ${artifactId} || fatal "failed to clone ${artifactId}"
 cd ${artifactId}
-git pull || fatal "failed to git pull"
+git fetch || fatal "failed to git fetch"
 git checkout ${gitTag} || fatal "failed to git checkout ${gitTag}"
 
 pwd
@@ -54,6 +54,9 @@ mvnBuildDocker() {
   case ${jdk} in
     6 | 7)
       mvnImage=maven:3.6.1-jdk-${jdk}-alpine
+      ;;
+    9)
+      mvnImage=maven:3-jdk-${jdk}-slim
       ;;
     *)
       mvnImage=maven:3.6.3-jdk-${jdk}-slim

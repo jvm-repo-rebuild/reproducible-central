@@ -26,3 +26,7 @@ mvn.version=Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-0
 outputs.0.filename=plexus-archiver-4.2.2.jar
 outputs.0.length=194265
 outputs.0.checksums.sha512=1168ca247b4c365fe46cc1d8ae084210d4bef90d0241645f1a323bdf437aa76ec3e9042940f3a8bd7da3abf9ae56a8f0cbe917b1d65f8ca2c21c0faea39d9da3
+
+outputs.1.filename=plexus-archiver-4.2.2-sources.jar
+outputs.1.length=147250
+outputs.1.checksums.sha512=9ce37117c0b9ed2e0792e032690678e32ebc65f7706f9e015283e7b4fed8b95d64dee55952364ae9196f40f6f5cb6b37938d7407a3316934a76bacc7bfee14ef
