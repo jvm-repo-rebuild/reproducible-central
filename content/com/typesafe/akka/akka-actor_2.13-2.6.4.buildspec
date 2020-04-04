@@ -1,0 +1,15 @@
+scalaBinaryVersion=2.13
+scalaVersion=2.13.1
+
+groupId=com.typesafe.akka
+artifactId=akka-actor_${scalaBinaryVersion}
+version=2.6.4
+
+gitRepo=https://github.com/akka/akka
+gitTag=v${version}
+
+jdk=11
+build-tool=sbt
+
+command=sbt ++${scalaVersion} -Dakka.genjavadoc.enabled=true akka-actor/package
+buildinfo=/akka-actor/target/scala-${scalaBinaryVersion}/akka-actor_${scalaBinaryVersion}-${version}.buildinfo
