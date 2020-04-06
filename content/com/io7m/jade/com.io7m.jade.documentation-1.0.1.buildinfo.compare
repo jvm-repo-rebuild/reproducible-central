@@ -1,0 +1,5 @@
+version=1.0.1
+ok=17
+ko=0
+okFiles="com.io7m.jade.api-1.0.1.jar com.io7m.jade.vanilla-1.0.1-tests.jar com.io7m.jade.documentation-1.0.1.jar com.io7m.jade.documentation-1.0.1-tests.jar com.io7m.jade.api-1.0.1-tests.jar com.io7m.jade.documentation-1.0.1.zip com.io7m.jade.spi-1.0.1.jar com.io7m.jade.vanilla-1.0.1-sources.jar com.io7m.jade.spi-1.0.1-tests.jar com.io7m.jade.api-1.0.1-sources.jar com.io7m.jade.tests-1.0.1-tests.jar com.io7m.jade.spi-1.0.1-sources.jar pom.xml com.io7m.jade.vanilla-1.0.1.jar com.io7m.jade.tests-1.0.1-test-sources.jar com.io7m.jade.tests-1.0.1.jar com.io7m.jade.documentation-1.0.1-sources.jar"
+koFiles=""
