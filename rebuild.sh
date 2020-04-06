@@ -35,8 +35,8 @@ pushd `dirname ${buildspec}` >/dev/null || fatal "could not move into ${buildspe
 
 # prepare source, using provided Git repository and tag
 # TODO: support svn, support getting source-release.zip
-[ -d target ] || mkdir target
-cd target
+[ -d buildcache ] || mkdir buildcache
+cd buildcache
 [ -d ${artifactId} ] || git clone ${gitRepo} ${artifactId} || fatal "failed to clone ${artifactId}"
 cd ${artifactId}
 git fetch || fatal "failed to git fetch"

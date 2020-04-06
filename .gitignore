@@ -1,4 +1,4 @@
-target/
+buildcache/
 repository/
 copy_reference_file.log
 settings-docker.xml
