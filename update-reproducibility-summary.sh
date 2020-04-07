@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cat <(echo "| groupId | artifactId version | build | env | Reproduce |"
-echo "| ------- | ------------------ | ----- | --- | ---------- |"
+cat <(echo "| groupId | artifactId version | build | env | Repro |"
+echo "| ------- | ------------------ | ----- | --- | ------ |"
 
 for buildspec in `find content -name *.buildspec -print | sort`
 do
@@ -13,8 +13,8 @@ do
   echo -n "| [${groupId}](https://repo.maven.apache.org/maven2/${groupDir}) "
   echo -n "| [${artifactId}](https://repo.maven.apache.org/maven2/${groupDir}/${artifactId}) "
   echo -n "[${version}](https://repo.maven.apache.org/maven2/${groupDir}/${artifactId}/${version}) "
-  echo -n "| [spec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildspec}) "
-  [ -f ${buildinfo} ] && echo -n "/ [info](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildinfo}) "
+  echo -n "| [spec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildspec})"
+  [ -f ${buildinfo} ] && echo -n "/[info](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildinfo}) "
   echo -n "| ${tool} jdk-${jdk} "
   [ "${newline}" == "crlf" ] && echo -n "win "
 
