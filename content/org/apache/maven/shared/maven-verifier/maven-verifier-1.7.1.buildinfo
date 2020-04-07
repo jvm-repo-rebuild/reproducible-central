@@ -1,0 +1,36 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Verifier Component
+group-id=org.apache.maven.shared
+artifact-id=maven-verifier
+version=1.7.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-verifier.git
+source.scm.tag=maven-verifier-1.7.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=maven-verifier-1.7.1.jar
+outputs.0.length=41768
+outputs.0.checksums.sha512=bcb3756a94527bc6860e1de37dd1c922b9155141689ff0f44a9e567ea7fc12a5a90309f306fd31b16ef40d387f4fb5d0305fba1d14fd838deb4900565d86d346
+
+outputs.1.filename=maven-verifier-1.7.1-source-release.zip
+outputs.1.length=40071
+outputs.1.checksums.sha512=84f7d634d0dada9d08506466cfb5a066c84fce696c33116ae6decbeaba609ef864e2d8e0bacb1f08e757dcda16c61a72ac8dbffd5a0b7ce4043204f1237c7ef1
+
+outputs.2.filename=maven-verifier-1.7.1-sources.jar
+outputs.2.length=29261
+outputs.2.checksums.sha512=db4c2021dff6f73f84cf935b57661648505997e2035cf81b5ab8fb2b16c9cdd742d33dfebfb770bcf345f4d44dda71d47b411763a2d1b791a41e030a34b02b88
