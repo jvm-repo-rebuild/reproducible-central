@@ -5,6 +5,7 @@ version=0.8.0
 gitRepo=https://github.com/derKrischan/${artifactId}.git
 gitTag=${artifactId}-${version}
 
+tool=mvn
 jdk=7
 newline=lf
 

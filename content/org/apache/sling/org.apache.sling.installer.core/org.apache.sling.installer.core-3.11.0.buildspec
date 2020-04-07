@@ -5,6 +5,7 @@ version=3.11.0
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git
 gitTag=${artifactId}-${version}
 
+tool=mvn
 jdk=8
 newline=lf
 

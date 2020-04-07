@@ -5,6 +5,7 @@ version=1.9.2
 gitRepo=https://github.com/apache/maven-${artifactId}.git
 gitTag=${artifactId}-${version}
 
+tool=mvn
 jdk=7
 newline=lf
 

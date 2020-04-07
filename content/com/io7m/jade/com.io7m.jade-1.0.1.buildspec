@@ -5,6 +5,7 @@ version=1.0.1
 gitRepo=https://github.com/io7m/jade.git
 gitTag=f2b307b3ff1d6e10b2f73aef51cc7ba24e595d1f
 
+tool=mvn
 jdk=11
 newline=lf
 

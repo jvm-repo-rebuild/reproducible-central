@@ -24,6 +24,7 @@ echo "- artifactId: ${artifactId}"
 echo "- version: ${version}"
 echo "- gitRepo: ${gitRepo}"
 echo "- gitTag: ${gitTag}"
+echo "- tool: ${tool}"
 echo "- jdk: ${jdk}"
 echo "- newline: ${newline}"
 echo "- command: ${command}"
@@ -43,9 +44,6 @@ git fetch || fatal "failed to git fetch"
 git checkout ${gitTag} || fatal "failed to git checkout ${gitTag}"
 
 pwd
-
-# the effective rebuild command, adding buildinfo plugin to compare with central content
-mvn_rebuild="${command} -V -e buildinfo:buildinfo -Dreference.repo=central -Dreference.compare.save"
 
 mvnBuildDocker() {
   local mvnCommand mvnImage
@@ -87,12 +85,42 @@ mvnBuildLocal() {
   fi
 }
 
-# by default, build with Docker
-# TODO: on parameter, use instead mvnBuildLocal after selecting JDK
-#   jenv shell ${jdk}
-#   sdk use java ${jdk}
-mvnBuildDocker "${mvn_rebuild}" || fatal "failed to build"
+# rebuild with Maven tool (tool=mvn)
+rebuildToolMvn() {
+  # the effective rebuild command, adding buildinfo plugin to compare with central content
+  local mvn_rebuild="${command} -V -e buildinfo:buildinfo -Dreference.repo=central -Dreference.compare.save"
 
-cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts"
+  # by default, build with Docker
+  # TODO: on parameter, use instead mvnBuildLocal after selecting JDK
+  #   jenv shell ${jdk}
+  #   sdk use java ${jdk}
+  mvnBuildDocker "${mvn_rebuild}" || fatal "failed to build"
+
+  cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts"
+}
+
+# rebuild with SBT tool (tool=sbt)
+rebuildToolSbt() {
+  fatal "rebuild with SBT tool not yet implemented"
+}
+
+# rebuild with Gradle tool (tool=gradle)
+rebuildToolGradle() {
+  fatal "rebuild with Gradle tool not yet implemented"
+}
+
+case ${tool} in
+  mvn)
+    rebuildToolMvn
+    ;;
+  sbt)
+    rebuildToolSbt
+    ;;
+  gradle)
+    rebuildToolGradle
+    ;;
+  *)
+    fatal "build tool not yet supported: ${tool}"
+esac
 
 popd > /dev/null

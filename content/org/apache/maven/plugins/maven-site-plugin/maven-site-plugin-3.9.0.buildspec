@@ -5,6 +5,7 @@ version=3.9.0
 gitRepo=https://github.com/apache/${artifactId}.git
 gitTag=${artifactId}-${version}
 
+tool=mvn
 jdk=7
 newline=lf
 

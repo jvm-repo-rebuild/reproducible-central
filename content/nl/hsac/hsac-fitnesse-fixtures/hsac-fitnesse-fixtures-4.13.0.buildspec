@@ -5,6 +5,7 @@ version=4.13.0
 gitRepo=https://github.com/fhoeben/${artifactId}.git
 gitTag=${version}
 
+tool=mvn
 jdk=8
 newline=lf
 

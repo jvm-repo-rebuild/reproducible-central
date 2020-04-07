@@ -5,6 +5,7 @@ version=1.0.5
 gitRepo=https://github.com/codehaus-plexus/${artifactId}.git
 gitTag=${artifactId}-${version}
 
+tool=mvn
 jdk=9
 newline=lf
 
