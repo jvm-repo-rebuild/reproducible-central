@@ -1,0 +1,5 @@
+version=3.2.2
+ok=2
+ko=1
+okFiles="org.apache.sling.installer.provider.jcr-3.2.2-source-release.zip org.apache.sling.installer.provider.jcr-3.2.2.jar"
+koFiles="org.apache.sling.installer.provider.jcr-3.2.2-sources.jar"

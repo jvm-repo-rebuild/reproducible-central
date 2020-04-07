@@ -1,0 +1,40 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling JCR Installer
+group-id=org.apache.sling
+artifact-id=org.apache.sling.installer.provider.jcr
+version=3.2.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-installer-provider-jcr.git
+source.scm.tag=org.apache.sling.installer.provider.jcr-3.2.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=org.apache.sling.installer.provider.jcr-3.2.2.jar
+outputs.0.length=49677
+outputs.0.checksums.sha512=a925c0b16877a30067c6402ae8db051e150368ae36a1307c9441eb974b5f5a511e99623bc3dc932f6431318e75a8de123c6f1210129781c55a7085dd62ec45fd
+
+outputs.1.filename=org.apache.sling.installer.provider.jcr-3.2.2-source-release.zip
+outputs.1.length=63204
+outputs.1.checksums.sha512=6bf2ffde945b60497725386e067232d2a1c7cfd5b83c029a941bf1d7939640f61ff4fac33411e58123d511138f1dacdb57ac298e32df8eef42422a3119bb1b15
+
+outputs.2.filename=org.apache.sling.installer.provider.jcr-3.2.2-sources.jar
+outputs.2.length=33802
+outputs.2.checksums.sha512=d8aadae1456f781b827ea08b3c44288b4b4c3b962f969c88cca290fba68c6edaaeaa549fa392c0896a841a51b53637b177aef1a47e84e9bd3e276e74b7a22215
+
+outputs.3.filename=org.apache.sling.installer.provider.jcr-3.2.2-sources.jar
+outputs.3.length=33802
+outputs.3.checksums.sha512=d8aadae1456f781b827ea08b3c44288b4b4c3b962f969c88cca290fba68c6edaaeaa549fa392c0896a841a51b53637b177aef1a47e84e9bd3e276e74b7a22215

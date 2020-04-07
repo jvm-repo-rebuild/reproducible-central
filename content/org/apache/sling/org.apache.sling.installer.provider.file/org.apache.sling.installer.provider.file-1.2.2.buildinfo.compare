@@ -1,0 +1,5 @@
+version=1.2.2
+ok=2
+ko=1
+okFiles="org.apache.sling.installer.provider.file-1.2.2.jar org.apache.sling.installer.provider.file-1.2.2-source-release.zip"
+koFiles="org.apache.sling.installer.provider.file-1.2.2-sources.jar"
