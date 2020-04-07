@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cat <(echo "| groupId | artifactId version | build | env | Reproducibility |"
-echo "| ------- | ------------------ | ----- | --- | --------------- |"
+cat <(echo "| groupId | artifactId version | build | env | Reproduce |"
+echo "| ------- | ------------------ | ----- | --- | ---------- |"
 
 for buildspec in `find content -name *.buildspec -print | sort`
 do
