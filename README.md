@@ -1,5 +1,5 @@
-Build instructions for (Maven) Central artifacts
-================================================
+Build instructions for artifacts published to (Maven) Central Repository
+========================================================================
 
 As part of [Reproducible Builds efforts for the JVM](https://reproducible-builds.org/docs/jvm/), this repository is an attempt
 at writing rebuild instructions for the artifacts available in [(Maven) Central](https://repo.maven.apache.org/maven2/),
