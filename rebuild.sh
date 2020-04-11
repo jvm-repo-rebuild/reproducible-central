@@ -110,6 +110,8 @@ rebuildToolSbt() {
   echo "Rebuilding using Docker image ${sbtImage}"
   local docker_command="docker run -it --rm --name rebuild-central -v $PWD:/home/sbtuser/dev -u sbtuser -w /home/sbtuser/dev"
   ${docker_command} ${sbtImage} ${command}
+
+  cp ${buildinfo} ../.. || fatal "failed to copy buildinfo artifacts"
 }
 
 # rebuild with Gradle tool (tool=gradle)
