@@ -101,7 +101,15 @@ rebuildToolMvn() {
 
 # rebuild with SBT tool (tool=sbt)
 rebuildToolSbt() {
-  fatal "rebuild with SBT tool not yet implemented"
+  local sbtImage
+  case ${jdk} in
+    *)
+      sbtImage=hseeberger/scala-sbt:8u222_1.3.5_2.13.1
+  esac
+
+  echo "Rebuilding using Docker image ${sbtImage}"
+  local docker_command="docker run -it --rm --name rebuild-central -v $PWD:/home/sbtuser/dev -u sbtuser -w /home/sbtuser/dev"
+  ${docker_command} ${sbtImage} ${command}
 }
 
 # rebuild with Gradle tool (tool=gradle)
