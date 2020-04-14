@@ -1,0 +1,5 @@
+version=3.2.3
+ok=3
+ko=0
+okFiles="maven-shade-plugin-3.2.3-source-release.zip maven-shade-plugin-3.2.3.jar maven-shade-plugin-3.2.3-sources.jar"
+koFiles=""
