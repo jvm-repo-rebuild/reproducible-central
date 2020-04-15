@@ -108,7 +108,11 @@ rebuildToolSbt() {
   esac
 
   echo "Rebuilding using Docker image ${sbtImage}"
-  local docker_command="docker run -it --rm --name rebuild-central -v $PWD:/home/sbtuser/dev -u sbtuser -w /home/sbtuser/dev"
+  mkdir $base/.cache || true
+  mkdir $base/.ivy2 || true
+  chmod a+wx $base/.cache
+  chmod a+wx $base/.ivy2
+  local docker_command="docker run -it --rm --name rebuild-central -v $base/.cache:/home/sbtuser/.cache -v $base/.ivy2:/home/sbtuser/.ivy2 -v $PWD:/home/sbtuser/dev -u sbtuser -w /home/sbtuser/dev"
   ${docker_command} ${sbtImage} ${command}
 
   cp ${buildinfo} ../.. || fatal "failed to copy buildinfo artifacts"
