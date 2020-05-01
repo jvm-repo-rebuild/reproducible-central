@@ -110,10 +110,9 @@ rebuildToolSbt() {
   echo "Rebuilding using Docker image ${sbtImage}"
   mkdir $base/.cache || true
   mkdir $base/.ivy2 || true
-  chmod a+wx $base/.cache
-  chmod a+wx $base/.ivy2
-  local docker_command="docker run -it --rm --name rebuild-central -v $base/.cache:/home/sbtuser/.cache -v $base/.ivy2:/home/sbtuser/.ivy2 -v $PWD:/home/sbtuser/dev -u sbtuser -w /home/sbtuser/dev"
-  ${docker_command} ${sbtImage} ${command}
+  mkdir $base/.sbt || true
+  local docker_command="docker run -it --rm --name rebuild-central -v $base/.cache:/home/sbtuser/.cache -v $base/.ivy2:/home/sbtuser/.ivy2 -v $base/.sbt:/home/sbtuser/.sbt -v $PWD:/home/sbtuser/dev -u "$(id -u):$(id -g)" -w /home/sbtuser/dev --env HOME=/home/sbtuser"
+  ${docker_command} ${sbtImage} sbt -Duser.home=/home/sbtuser ${command}
 
   cp ${buildinfo} ../.. || fatal "failed to copy buildinfo artifacts"
 }

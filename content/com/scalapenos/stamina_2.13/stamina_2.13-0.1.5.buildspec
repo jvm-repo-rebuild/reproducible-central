@@ -11,5 +11,5 @@ tool=sbt
 jdk=8
 newline=lf
 
-command="sbt ++$scalaVersion reproducibleBuildsCertification"
+command="++$scalaVersion reproducibleBuildsCertification"
 buildinfo=target/scala-$scalaBinaryVersion/stamina_$scalaBinaryVersion-$version.buildinfo
