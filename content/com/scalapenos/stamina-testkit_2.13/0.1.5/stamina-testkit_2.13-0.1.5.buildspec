@@ -1,0 +1,15 @@
+groupId=com.scalapenos
+artifactId=stamina-testkit
+version=0.1.5
+scalaVersion=2.13.1
+scalaBinaryVersion=2.13
+
+gitRepo=https://github.com/scalapenos/stamina.git
+gitTag=v${version}
+
+tool=sbt
+jdk=8
+newline=lf
+
+command="sbt ++$scalaVersion reproducibleBuildsCertification"
+buildinfo=stamina-testkit/target/scala-$scalaBinaryVersion/stamina-testkit_$scalaBinaryVersion-$version.buildinfo
