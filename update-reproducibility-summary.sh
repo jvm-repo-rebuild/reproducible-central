@@ -25,9 +25,10 @@ do
 
   . ${buildinfoCompare}
   if [ $? -eq 0 ]; then
-    echo -n "| "
+    echo -n "| ["
     [ ${ok} -gt 0 ] && echo -n "${ok} :heavy_check_mark: "
-    [ ${ko} -gt 0 ] && echo -n " ${ko} [:warning:](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildinfo}.compare) "
+    [ ${ko} -gt 0 ] && echo -n " ${ko} :warning:"
+    echo -n "](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildinfoCompare}) "
   else
     echo -n "| :x: "
   fi
