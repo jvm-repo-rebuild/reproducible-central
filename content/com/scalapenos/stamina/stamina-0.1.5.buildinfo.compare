@@ -1,0 +1,4 @@
+ok=9
+ko=0
+okFiles="stamina-core_2.11-0.1.5.buildinfo stamina-core_2.12-0.1.5.buildinfo stamina-core_2.13-0.1.5.buildinfo stamina-json_2.11-0.1.5.buildinfo stamina-json_2.12-0.1.5.buildinfo stamina-json_2.13-0.1.5.buildinfo stamina-testkit_2.11-0.1.5.buildinfo stamina-testkit_2.12-0.1.5.buildinfo stamina-testkit_2.13-0.1.5.buildinfo"
+koFiles=""
