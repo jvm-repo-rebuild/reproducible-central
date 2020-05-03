@@ -10,4 +10,4 @@ jdk=8
 newline=lf
 
 command="sbt +reproducibleBuildsCertification"
-buildinfo=*/target/scala-*/stamina*_*-$version.buildinfo
+buildinfo="target/scala-*/stamina*_*-$version.buildinfo */target/scala-*/stamina*_*-$version.buildinfo"

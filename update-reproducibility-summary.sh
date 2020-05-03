@@ -9,16 +9,21 @@ do
 
   groupDir=$(echo ${groupId} | tr '.' '/')
   buildinfo="`dirname ${buildspec}`/`basename ${buildinfo}`"
+  if [ -f "${buildinfo}" ]; then
+    buildinfoCompare="${buildinfo}.compare"
+  else
+    buildinfoCompare="`dirname ${buildspec}`/`basename ${buildspec} .buildspec`.buildinfo.compare"
+  fi
 
   echo -n "| [${groupId}](https://repo.maven.apache.org/maven2/${groupDir}) "
   echo -n "| [${artifactId}](https://repo.maven.apache.org/maven2/${groupDir}/${artifactId}) "
   echo -n "[${version}](https://repo.maven.apache.org/maven2/${groupDir}/${artifactId}/${version}) "
   echo -n "| [spec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildspec})"
-  [ -f ${buildinfo} ] && echo -n "/[info](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildinfo}) "
+  [ -f "${buildinfo}" ] && echo -n "/[info](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildinfo}) "
   echo -n "| ${tool} jdk-${jdk} "
   [ "${newline}" == "crlf" ] && echo -n "win "
 
-  . ${buildinfo}.compare
+  . ${buildinfoCompare}
   if [ $? -eq 0 ]; then
     echo -n "| "
     [ ${ok} -gt 0 ] && echo -n "${ok} :heavy_check_mark: "
