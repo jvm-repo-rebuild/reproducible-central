@@ -9,7 +9,7 @@ do
 
   groupDir=$(echo ${groupId} | tr '.' '/')
   buildinfo="`dirname ${buildspec}`/`basename ${buildinfo}`"
-  if [ -f "${buildinfo}" ]; then
+  if [ `ls ${buildinfo} | wc -l` -le 1 ]; then
     buildinfoCompare="${buildinfo}.compare"
   else
     buildinfoCompare="`dirname ${buildspec}`/`basename ${buildspec} .buildspec`.buildinfo.compare"

@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Assembly Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-assembly-plugin
+version=3.3.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-assembly-plugin.git
+source.scm.tag=maven-assembly-plugin-3.3.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=maven-assembly-plugin-3.3.0.jar
+outputs.0.length=242182
+outputs.0.checksums.sha512=7a3ee254debd8ba9d198d9d3cfc22232e59ce8bde1a143a4605d7bf7065853cb846183ffd61f32a18586e54851c3886251afd32acb65a4e4d749c7d5fed1860c
+
+outputs.1.filename=maven-assembly-plugin-3.3.0-source-release.zip
+outputs.1.length=2212789
+outputs.1.checksums.sha512=d41ba25dd35dea5b1b690f6cb84e4e30c5466c0e6fb3d5d98305daf70cb1ba9468c0ba2181afb8fa5f6d41c735f4f1d9d462f58eb320df0c85d57dbefa70b15a
+
+outputs.2.filename=maven-assembly-plugin-3.3.0-sources.jar
+outputs.2.length=190904
+outputs.2.checksums.sha512=0febecbc5a44ff926b7125329b6e3b0193d921723deaf47d867eb501a51eb008e1032b86af41b7fb622b24be7f521356cc830443ff86f886e234fe8fcddd675a

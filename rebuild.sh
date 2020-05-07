@@ -12,9 +12,6 @@ then
   fatal "usage: buildspec"
 fi
 
-# known limitation: can't rebuild Windows reference artifact
-# because we need to do Git checkout with Windows newlines (at least for pom.xml)
-
 echo "Rebuilding from spec ${buildspec}"
 
 . ${buildspec} || fatal "could not source ${buildspec}"
@@ -42,6 +39,11 @@ cd buildcache
 cd ${artifactId}
 git fetch || fatal "failed to git fetch"
 git checkout ${gitTag} || fatal "failed to git checkout ${gitTag}"
+if [ "${newline}" == "crlf" ]
+then
+  echo "converting newlines to crlf"
+  git ls-files --eol | grep w/lf | cut -c 40- | xargs -d '\n' unix2dos 2> /dev/null
+fi
 
 pwd
 
@@ -96,6 +98,7 @@ rebuildToolMvn() {
   #   sdk use java ${jdk}
   mvnBuildDocker "${mvn_rebuild}" || fatal "failed to build"
 
+  dos2unix ${buildinfo}* || fatal "failed to convert buildinfo newlines"
   cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts"
 }
 
@@ -114,6 +117,7 @@ rebuildToolSbt() {
   local docker_command="docker run -it --rm --name rebuild-central -v $base/.cache:/home/sbtuser/.cache -v $base/.ivy2:/home/sbtuser/.ivy2 -v $base/.sbt:/home/sbtuser/.sbt -v $PWD:/home/sbtuser/dev -u "$(id -u):$(id -g)" -w /home/sbtuser/dev --env HOME=/home/sbtuser"
   ${docker_command} ${sbtImage} ${command} -Duser.home=/home/sbtuser
 
+  dos2unix ${buildinfo} || fatal "failed to convert buildinfo newlines"
   cp ${buildinfo} ../.. || fatal "failed to copy buildinfo artifacts"
 }
 
@@ -135,5 +139,7 @@ case ${tool} in
   *)
     fatal "build tool not yet supported: ${tool}"
 esac
+
+git reset --hard
 
 popd > /dev/null
