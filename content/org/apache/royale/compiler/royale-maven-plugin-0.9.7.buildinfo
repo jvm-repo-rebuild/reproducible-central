@@ -1,0 +1,104 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Royale: Compiler: Parent
+group-id=org.apache.royale.compiler
+artifact-id=royale-compiler-parent
+version=0.9.7
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/royale-compiler.git
+source.scm.tag=org.apache.royale.compiler-0.9.7-rc5
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.royale.compiler:royale-compiler-parent
+
+outputs.0.0.filename=royale-compiler-parent-0.9.7-site.xml
+outputs.0.0.length=3363
+outputs.0.0.checksums.sha512=8622c94cd1b85cce87fa944201f474b4618945d0d50a7aebbeece50b23bd81b91956505594000e4f96fe28aad60fa66663ace88ccd12980af92f30eba21475aa
+
+outputs.0.1.filename=royale-compiler-parent-0.9.7-source-release.zip
+outputs.0.1.length=7276077
+outputs.0.1.checksums.sha512=ed83f16cbef30b74bdd025e991bbba896a4f907e902cd7c9301646d90da139941fa535a0267bae47a44dd4cb550ca91e6ac69d348170530d675495412df7c229
+
+outputs.1.coordinates=org.apache.royale.compiler:compiler-common
+
+outputs.1.0.filename=compiler-common-0.9.7.jar
+outputs.1.0.length=448506
+outputs.1.0.checksums.sha512=e82c8b407c371795ef75888f2e92a5579f96a2714202dacbf6a04240f4f0d20e5f13e2f7a841dc6a18dc3d4c587162223bcf3b6559777b6c03f31e334953294c
+
+outputs.2.coordinates=org.apache.royale.compiler:compiler-test-utils
+
+outputs.2.0.filename=compiler-test-utils-0.9.7.jar
+outputs.2.0.length=17222
+outputs.2.0.checksums.sha512=fa9685971c90a4b6a424340949f65889ff27cb1e07de5922dc9ebf3f3912ebe2e944fc5880888cef20648819612d85b8d2c28f514bde70e9586df5f60a5bec05
+
+outputs.3.coordinates=org.apache.royale.compiler:compiler-externc
+
+outputs.3.0.filename=compiler-externc-0.9.7.jar
+outputs.3.0.length=90847
+outputs.3.0.checksums.sha512=dee1a36905176a64266018b711fdc793ae26260b4a71179c68e2078c681672a468390c3659e1e9f74afccac995c4ac8935c350e9f8e2ed82af731d05f5e5722d
+
+outputs.3.1.filename=compiler-externc-0.9.7-tests.jar
+outputs.3.1.length=53519
+outputs.3.1.checksums.sha512=c69f3f11c4a7bd9344614c8838a4a5ba016bb02775cd94d2fc546d25023d7b0cd4470f6f99689148f00fbd74ea7397aae52c7fb108fd51c91732b26617c25b87
+
+outputs.4.coordinates=org.apache.royale.compiler:compiler
+
+outputs.4.0.filename=compiler-0.9.7.jar
+outputs.4.0.length=3878034
+outputs.4.0.checksums.sha512=c191f4d72794c7aaa2f48cbcea0e487384995e37268ef9e5cb7af870ad1401af5d6321798f5aa4fa1c363c6284e89a5ecd12855360abb6e4d9a51606c2834e38
+
+outputs.5.coordinates=org.apache.royale.compiler:compiler-jx
+
+outputs.5.0.filename=compiler-jx-0.9.7.jar
+outputs.5.0.length=975984
+outputs.5.0.checksums.sha512=72aa2397bf3fde185a7a6ea9c2486ec6286ee0cabfdebbecb3c1ff020880ffdd3a81597ce207512abc7ffcc92bbd3faf4b68dc78ea016e745b977adf4fc47db3
+
+outputs.6.coordinates=org.apache.royale.compiler:swfutils
+
+outputs.6.0.filename=swfutils-0.9.7.jar
+outputs.6.0.length=244615
+outputs.6.0.checksums.sha512=c568a8cef0208401a88868e5a9cc0d4e2b1a4e5fac261856a0ea3d9e47b4ac7e662a16df61246fbc40753becaa56c5ddc899a946e8ea851036a722165ee201b7
+
+outputs.7.coordinates=org.apache.royale.compiler:debugger
+
+outputs.7.0.filename=debugger-0.9.7.jar
+outputs.7.0.length=851127
+outputs.7.0.checksums.sha512=0e574e0f5d1c3b317c18d4b00764fec040ceb8fe51c76af9ad1b6ecd9649800e5ea3adf664c4a9483247b0fd5a5d2d765a22f73ce20ccdf3ca3e2a719b4df743
+
+outputs.8.coordinates=org.apache.royale.compiler:flex-compiler-oem
+
+outputs.8.0.filename=flex-compiler-oem-0.9.7.jar
+outputs.8.0.length=401967
+outputs.8.0.checksums.sha512=d76bc20edd84fec04eac22eb7ae30cba01dae4329ed2b20c71c3fd9b8ce55cc006b79e2d47c33281714ca9bb7c88b43d11826c0fa069ab72803298e62eeeb99f
+
+outputs.9.coordinates=org.apache.royale.compiler:royale-ant-tasks
+
+outputs.9.0.filename=royale-ant-tasks-0.9.7.jar
+outputs.9.0.length=48423
+outputs.9.0.checksums.sha512=9811dd861efac062b8238c453e59816aa9fa60e883902361bd2cd55715973968089af576bb5bf82c87f14bfc7e42bc1020c93177bb558a39fa2daf1b27c2631d
+
+outputs.10.coordinates=org.apache.royale.compiler:royaleunit-ant-tasks
+
+outputs.10.0.filename=royaleunit-ant-tasks-0.9.7.jar
+outputs.10.0.length=77965
+outputs.10.0.checksums.sha512=269d3c20a4af96526bc70d69b3e8a86ecb96f6b30708d2a5aa44aa618da86822e65584b8c7ea8d462b64bc7caf4510cbef14a40de851348b1d756c8a591b6255
+
+outputs.11.coordinates=org.apache.royale.compiler:royale-maven-plugin
+
+outputs.11.0.filename=royale-maven-plugin-0.9.7.jar
+outputs.11.0.length=77603
+outputs.11.0.checksums.sha512=c521be8279369e8119ac8b518a312bc8154972f0c2b04a16cc10b8f04977652715d654bc24e133883cfa14229b348f9f1163ad0502e15b3ae7e8e9931f88a0fe

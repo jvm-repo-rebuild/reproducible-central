@@ -1,0 +1,5 @@
+version=0.9.7
+ok=1
+ko=13
+okFiles="royale-compiler-parent-0.9.7-site.xml"
+koFiles="royale-compiler-parent-0.9.7-source-release.zip compiler-common-0.9.7.jar compiler-test-utils-0.9.7.jar compiler-externc-0.9.7.jar compiler-externc-0.9.7-tests.jar compiler-0.9.7.jar compiler-jx-0.9.7.jar swfutils-0.9.7.jar debugger-0.9.7.jar flex-compiler-oem-0.9.7.jar royale-ant-tasks-0.9.7.jar royaleunit-ant-tasks-0.9.7.jar royale-maven-plugin-0.9.7.jar"
