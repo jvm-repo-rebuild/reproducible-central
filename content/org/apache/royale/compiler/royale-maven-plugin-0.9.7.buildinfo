@@ -31,74 +31,118 @@ outputs.0.0.checksums.sha512=8622c94cd1b85cce87fa944201f474b4618945d0d50a7aebbee
 
 outputs.0.1.filename=royale-compiler-parent-0.9.7-source-release.zip
 outputs.0.1.length=7276077
-outputs.0.1.checksums.sha512=ed83f16cbef30b74bdd025e991bbba896a4f907e902cd7c9301646d90da139941fa535a0267bae47a44dd4cb550ca91e6ac69d348170530d675495412df7c229
+outputs.0.1.checksums.sha512=614e1194ef4cb4b7d4601f439f7284ccb7d0e533a379091e4a54939212a01d64cd72642f8ea458ed586a0ac6986d960db1d258f546e11deb388dc8db26f6566a
 
 outputs.1.coordinates=org.apache.royale.compiler:compiler-common
 
 outputs.1.0.filename=compiler-common-0.9.7.jar
-outputs.1.0.length=448506
-outputs.1.0.checksums.sha512=e82c8b407c371795ef75888f2e92a5579f96a2714202dacbf6a04240f4f0d20e5f13e2f7a841dc6a18dc3d4c587162223bcf3b6559777b6c03f31e334953294c
+outputs.1.0.length=448478
+outputs.1.0.checksums.sha512=ff5c83765cfdbd4c2d554325ef712b4563b4533e23c202f6fd6034ff8b8c99280b420b56ce634328d204766ba34bb15fc2c7089d8e447752a9a0d157a6e04d65
+
+outputs.1.1.filename=compiler-common-0.9.7-sources.jar
+outputs.1.1.length=468645
+outputs.1.1.checksums.sha512=1f44e60a617f4c559281dcf0f9edc2a614109355f86db7c2409bcf4eaa6c9b0142a208870133464e836e440b3566dbcc8bc488ffe4fb372d55490d2b620c45f1
 
 outputs.2.coordinates=org.apache.royale.compiler:compiler-test-utils
 
 outputs.2.0.filename=compiler-test-utils-0.9.7.jar
-outputs.2.0.length=17222
-outputs.2.0.checksums.sha512=fa9685971c90a4b6a424340949f65889ff27cb1e07de5922dc9ebf3f3912ebe2e944fc5880888cef20648819612d85b8d2c28f514bde70e9586df5f60a5bec05
+outputs.2.0.length=17195
+outputs.2.0.checksums.sha512=7a3d6bbd5a5185fd1a037bb329df29cc20c22df415b2abe1e3651787fadb6011299f30926f65651d7f300986b9ef2c5f35321b742c248c296608ec897ac1fa3d
+
+outputs.2.1.filename=compiler-test-utils-0.9.7-sources.jar
+outputs.2.1.length=16109
+outputs.2.1.checksums.sha512=dbe269475475853235d808b8a565841a0fdf70c8ff9ff31be1e7ed6f952db6e0b2aafbe9e679144eb6e707c187455e13338fba46a95f92a458660f6cbfaf74af
 
 outputs.3.coordinates=org.apache.royale.compiler:compiler-externc
 
 outputs.3.0.filename=compiler-externc-0.9.7.jar
-outputs.3.0.length=90847
-outputs.3.0.checksums.sha512=dee1a36905176a64266018b711fdc793ae26260b4a71179c68e2078c681672a468390c3659e1e9f74afccac995c4ac8935c350e9f8e2ed82af731d05f5e5722d
+outputs.3.0.length=90819
+outputs.3.0.checksums.sha512=b2bbb3ab279aa0b36b775007340abcbe677b520318beae9a213af88fb5f8f3851e0c583a757725f65d9b6832465e9d8a870ad9bd67233a1a39d318dba31f76e7
 
-outputs.3.1.filename=compiler-externc-0.9.7-tests.jar
-outputs.3.1.length=53519
-outputs.3.1.checksums.sha512=c69f3f11c4a7bd9344614c8838a4a5ba016bb02775cd94d2fc546d25023d7b0cd4470f6f99689148f00fbd74ea7397aae52c7fb108fd51c91732b26617c25b87
+outputs.3.1.filename=compiler-externc-0.9.7-sources.jar
+outputs.3.1.length=65198
+outputs.3.1.checksums.sha512=94c4498352893645e002c2926ee60e04426fbc3bf80a94a4e76b1b50bd11c107e8a68f575b7df96fa0ca4048cbe937a2ae8c634ca964a3ddd0f4708998b4b8aa
+
+outputs.3.2.filename=compiler-externc-0.9.7-tests.jar
+outputs.3.2.length=53491
+outputs.3.2.checksums.sha512=6a02047b1654cd838e70e5041ca759b79c2966c09c64c5d135e1f05e34cbae67b2309ed1236a0d0f3ad20d758ef7ab14d1581606a0e2dabfe91e1b16475aa20b
 
 outputs.4.coordinates=org.apache.royale.compiler:compiler
 
 outputs.4.0.filename=compiler-0.9.7.jar
-outputs.4.0.length=3878034
-outputs.4.0.checksums.sha512=c191f4d72794c7aaa2f48cbcea0e487384995e37268ef9e5cb7af870ad1401af5d6321798f5aa4fa1c363c6284e89a5ecd12855360abb6e4d9a51606c2834e38
+outputs.4.0.length=3878014
+outputs.4.0.checksums.sha512=bd49bafc89e4a63555aec9fa398edf9d8734d7b15fd9292b16f08b3605734b0148850a037346ed79ec6bd66c7b41d2d23b912ae25b87940bd3e2c4ee3d2d140d
+
+outputs.4.1.filename=compiler-0.9.7-sources.jar
+outputs.4.1.length=3281627
+outputs.4.1.checksums.sha512=d49a3a873a9efaf8ab17756e4719719ffdc88b3c389edcabe540478cda7f7ded7b0dfdbade3867dc9070e8238aa5ce80ab951966ea8169bf848378e69a5a7aed
 
 outputs.5.coordinates=org.apache.royale.compiler:compiler-jx
 
 outputs.5.0.filename=compiler-jx-0.9.7.jar
-outputs.5.0.length=975984
-outputs.5.0.checksums.sha512=72aa2397bf3fde185a7a6ea9c2486ec6286ee0cabfdebbecb3c1ff020880ffdd3a81597ce207512abc7ffcc92bbd3faf4b68dc78ea016e745b977adf4fc47db3
+outputs.5.0.length=975960
+outputs.5.0.checksums.sha512=66f91f67aa889e799b28542bbdf7e3c32c8f2e3b74cd487a32dd2cbf98a1adce6e56cfa788deed8e5bc0cb2da043e29fa085e2b753a708e0459480d14adc972c
+
+outputs.5.1.filename=compiler-jx-0.9.7-sources.jar
+outputs.5.1.length=588691
+outputs.5.1.checksums.sha512=10b4080fab017578d42c03c09266d3df5047386c0ca8a2eec29f035659e24c7b1573afb27297bf42ced7cb9ed0b3ed531570c856951fc2a2f27a791705945339
 
 outputs.6.coordinates=org.apache.royale.compiler:swfutils
 
 outputs.6.0.filename=swfutils-0.9.7.jar
-outputs.6.0.length=244615
-outputs.6.0.checksums.sha512=c568a8cef0208401a88868e5a9cc0d4e2b1a4e5fac261856a0ea3d9e47b4ac7e662a16df61246fbc40753becaa56c5ddc899a946e8ea851036a722165ee201b7
+outputs.6.0.length=244589
+outputs.6.0.checksums.sha512=f88ac33e50c2e9176bfc3aab365a50dcb0561bb10a95712f1d49726da3548bf16d8063b61a3797e97e673eb905023e8acfa0b0b5669d3e2d281c0d286fa828d2
+
+outputs.6.1.filename=swfutils-0.9.7-sources.jar
+outputs.6.1.length=225344
+outputs.6.1.checksums.sha512=3b62daff4b5046c92f580bf97a66ec6a75099fdfb42d4ea57d93c10371ff09ead99a9b9d4bcb19a5f6191d67ee5a92019c46611f859d23742392818db807a704
 
 outputs.7.coordinates=org.apache.royale.compiler:debugger
 
 outputs.7.0.filename=debugger-0.9.7.jar
-outputs.7.0.length=851127
-outputs.7.0.checksums.sha512=0e574e0f5d1c3b317c18d4b00764fec040ceb8fe51c76af9ad1b6ecd9649800e5ea3adf664c4a9483247b0fd5a5d2d765a22f73ce20ccdf3ca3e2a719b4df743
+outputs.7.0.length=851101
+outputs.7.0.checksums.sha512=6b29888d79a6b5e6d29fe1488a276b31719f84f0426b5ea17083540e1cf30143cb33b721d3b1a2ca52ccb9b3d39f6e00b1f545581f596bb1024252ca5c9c1fc9
+
+outputs.7.1.filename=debugger-0.9.7-sources.jar
+outputs.7.1.length=688641
+outputs.7.1.checksums.sha512=d1431c8d51df8a2eb162f3a6f17b2993a5ba4c6da9dcbe7165a4af9a9dc7e8f174dddebd1948aa2523e6c033d1e275cd5ea08b51c22cce5e4571eb1d416f6387
 
 outputs.8.coordinates=org.apache.royale.compiler:flex-compiler-oem
 
 outputs.8.0.filename=flex-compiler-oem-0.9.7.jar
-outputs.8.0.length=401967
-outputs.8.0.checksums.sha512=d76bc20edd84fec04eac22eb7ae30cba01dae4329ed2b20c71c3fd9b8ce55cc006b79e2d47c33281714ca9bb7c88b43d11826c0fa069ab72803298e62eeeb99f
+outputs.8.0.length=401940
+outputs.8.0.checksums.sha512=d82563fc5d73f266238bcd6234179bca7ab06379aafc72f1b8dd87a404e3b6f14ef298cde7ecc5d827c805c8237560ee12b8ef68293beff04c35e54e456e91e6
+
+outputs.8.1.filename=flex-compiler-oem-0.9.7-sources.jar
+outputs.8.1.length=286667
+outputs.8.1.checksums.sha512=ea340ae134190c2c31cfd22b447dbbffe64320d1dd039876849219ec2183052fcd48d70d14b043c81b269d30daa4b76ef55387f08bc0cec3f256a90c88ad8ae9
 
 outputs.9.coordinates=org.apache.royale.compiler:royale-ant-tasks
 
 outputs.9.0.filename=royale-ant-tasks-0.9.7.jar
-outputs.9.0.length=48423
-outputs.9.0.checksums.sha512=9811dd861efac062b8238c453e59816aa9fa60e883902361bd2cd55715973968089af576bb5bf82c87f14bfc7e42bc1020c93177bb558a39fa2daf1b27c2631d
+outputs.9.0.length=48397
+outputs.9.0.checksums.sha512=dd8cc9f9fb2415b94a24752c2139f3afa6eceb52c20858c1d8e62309d2e6b679b4500643d2813da9e4852e1c48e0d84717640b467241cdcb2b0e411f6a0c4101
+
+outputs.9.1.filename=royale-ant-tasks-0.9.7-sources.jar
+outputs.9.1.length=46366
+outputs.9.1.checksums.sha512=23672d3c274bad68056d1edeb4d590d3373eaeef9d257590b2669ea0dbc5af2afedb701215a559af913cd72f960e463169835c84d3727b4a3344d793d1479843
 
 outputs.10.coordinates=org.apache.royale.compiler:royaleunit-ant-tasks
 
 outputs.10.0.filename=royaleunit-ant-tasks-0.9.7.jar
-outputs.10.0.length=77965
-outputs.10.0.checksums.sha512=269d3c20a4af96526bc70d69b3e8a86ecb96f6b30708d2a5aa44aa618da86822e65584b8c7ea8d462b64bc7caf4510cbef14a40de851348b1d756c8a591b6255
+outputs.10.0.length=77938
+outputs.10.0.checksums.sha512=add2b3369501442a9760b81678b2b6bc57cafc57f1cd47c053f0f62a6d09ca986ebf93d784a7fc33d8462b8e222b22b4e608fe06e28ee4e2d6c15cd0eff9e7b5
+
+outputs.10.1.filename=royaleunit-ant-tasks-0.9.7-sources.jar
+outputs.10.1.length=71901
+outputs.10.1.checksums.sha512=921b9d8560273c0bdec2c1e858a6af857d847f5e05e776ddf0937d4292f02c427687d84734252415dc72e9b7f66fca18ded6be2098de37884c99cfc7153215bf
 
 outputs.11.coordinates=org.apache.royale.compiler:royale-maven-plugin
 
 outputs.11.0.filename=royale-maven-plugin-0.9.7.jar
-outputs.11.0.length=77603
-outputs.11.0.checksums.sha512=c521be8279369e8119ac8b518a312bc8154972f0c2b04a16cc10b8f04977652715d654bc24e133883cfa14229b348f9f1163ad0502e15b3ae7e8e9931f88a0fe
+outputs.11.0.length=77529
+outputs.11.0.checksums.sha512=9863d03f4523bd1fa821196a7dee14dbf7376b1b95c004369dc55a0e345aa4b90d6b206e61f1d390d977da810d491f958f1c5ae14634705aa460802cf3b16f7f
+
+outputs.11.1.filename=royale-maven-plugin-0.9.7-sources.jar
+outputs.11.1.length=61772
+outputs.11.1.checksums.sha512=04f8b63e0b0db63cf7dded24916be582ce8ad9aec47796316dd8aa616c2d792899882cd6fbce40f610292a554a6ccc9c77e190bd57787b3a40008a55eabd3b08

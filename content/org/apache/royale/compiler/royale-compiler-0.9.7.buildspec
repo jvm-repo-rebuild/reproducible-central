@@ -9,6 +9,5 @@ tool=mvn
 jdk=8
 newline=crlf
 
-# skip source for now
-command="mvn -Papache-release,royale-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dmaven.source.skip"
+command="mvn -Papache-release,royale-release clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=royale-maven-plugin/target/royale-maven-plugin-${version}.buildinfo
