@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Project Info Reports Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-project-info-reports-plugin
+version=3.1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-project-info-reports-plugin.git
+source.scm.tag=maven-project-info-reports-plugin-3.1.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=maven-project-info-reports-plugin-3.1.0.jar
+outputs.0.length=291755
+outputs.0.checksums.sha512=846fc005e42346ce015d9ecf1d53db5796d5995f48714e89a13b9374125418d1af4dec10aee71fca22dd097af10b52a84685695f58774f4a012839742a23a393
+
+outputs.1.filename=maven-project-info-reports-plugin-3.1.0-source-release.zip
+outputs.1.length=406568
+outputs.1.checksums.sha512=f0c378217d466d264313ad8b0367354f8e6ea40dee41de3d0e288f1492fa6e5d6e37bf22416c2b19c87185e43f8fbfe59ce47f233dfc8fe0bc07bcdf69eb45a9
+
+outputs.2.filename=maven-project-info-reports-plugin-3.1.0-sources.jar
+outputs.2.length=229507
+outputs.2.checksums.sha512=f576d17953fa40e34875b818587543697fd3fbe4f42f3a4826616124f71aa371d1ed5bd84c9fdb3f7587bd9bc296ce3f41281ba0f0d4cb27ff1dfaf96f398480
