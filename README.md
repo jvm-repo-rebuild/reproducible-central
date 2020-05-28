@@ -1,17 +1,24 @@
 Build instructions for artifacts published to (Maven) Central Repository
 ========================================================================
 
-As part of [Reproducible Builds efforts for the JVM](https://reproducible-builds.org/docs/jvm/), this repository is an attempt
-at writing rebuild instructions for the artifacts available in [(Maven) Central](https://repo.maven.apache.org/maven2/),
+As part of [Reproducible Builds efforts for the JVM](https://reproducible-builds.org/docs/jvm/), this repository is an attempt at:
+1. writing rebuild instructions for the artifacts available in [(Maven) Central](https://repo.maven.apache.org/maven2/),
 equivalent to the packaging instructions that are maintained by every Linux distribution
-(for example Debian's [debian/rules](https://www.debian.org/doc/debian-policy/ch-source#s-debianrules) or ArchLinux's PKGBUILD), whatever the build tool.
+(for example Debian's [debian/rules](https://www.debian.org/doc/debian-policy/ch-source#s-debianrules) or ArchLinux's PKGBUILD), whatever the build tool
+2. show the level of reproducibility obtained (how many output files from the rebuild are strictly equal to reference in (Maven) Central, how many output files are not yet reproducible?)
 
-## TLDR;
+## What Can I Do?
 
-To rebuild (using Docker) every project with build instructions in this Git repository (= *.buildspec file, see [example](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/org/apache/maven/plugins/maven-dependency-plugin/maven-dependency-plugin-3.1.2.buildspec)), just run:
+### Rebuild Yourself To Check Results
+
+To rebuild (using Docker) every project with build instructions in this Git repository (= `*.buildspec` file, see [example](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/org/apache/maven/plugins/maven-dependency-plugin/maven-dependency-plugin-3.1.2.buildspec)), just run:
 ```
 find content -name *.buildspec -exec ./rebuild.sh {} \;
 ```
+
+### Contribute A New Build Spec
+
+If you know a project released to (Maven) Central that is expected to provide Reproducible Builds, please tell us by opening an issue with details. Even better, you can provide a PR containing a `.buildspec` build specification file.
 
 ## Results
 
