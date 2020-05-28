@@ -18,6 +18,7 @@ do
   echo -n "| ${groupId}:${artifactId}:"
   echo -n "[${version}](https://repo.maven.apache.org/maven2/${groupDir}/${artifactId}/${version}) "
   echo -n "| [buildspec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildspec}): "
+  echo -n "[:notebook:](${gitRepo}) "
   echo -n "${tool} jdk-${jdk} "
   [ "${newline}" == "crlf" ] && echo -n "win "
   echo -n "| "
