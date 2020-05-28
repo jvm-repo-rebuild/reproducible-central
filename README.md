@@ -1,4 +1,4 @@
-Build instructions for artifacts published to (Maven) Central Repository
+Rebuilding artifacts published to (Maven) Central Repository
 ========================================================================
 
 As part of [Reproducible Builds efforts for the JVM](https://reproducible-builds.org/docs/jvm/), this repository is an attempt at:
@@ -11,7 +11,13 @@ equivalent to the packaging instructions that are maintained by every Linux dist
 
 ### Rebuild Yourself To Check Results
 
-To rebuild (using Docker) every project with build instructions in this Git repository (= `*.buildspec` file, see [example](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/org/apache/maven/plugins/maven-dependency-plugin/maven-dependency-plugin-3.1.2.buildspec)), just run:
+You can rebuild a project release by running:
+```
+./rebuild.sh content/<path/to/...>/<project>-<version>.buildspec
+```
+`rebuild.sh` script will use the build specification file (= `.buildspec` file, see [example](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/org/apache/maven/plugins/maven-dependency-plugin/maven-dependency-plugin-3.1.2.buildspec)) to choose a Docker container to rebuild the project and check output against (Maven) Central reference binaries.
+
+To rebuild every project with build instructions in this Git repository, just run:
 ```
 find content -name *.buildspec -exec ./rebuild.sh {} \;
 ```
