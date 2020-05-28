@@ -9,7 +9,7 @@ equivalent to the packaging instructions that are maintained by every Linux dist
 
 ## What Can I Do?
 
-### Rebuild Yourself To Check Results
+<details><summary><b>Rebuild Yourself To Check Results</b></summary>
 
 You can rebuild a project release by running:
 ```
@@ -21,10 +21,13 @@ To rebuild every project with build instructions in this Git repository, just ru
 ```
 find content -name *.buildspec -exec ./rebuild.sh {} \;
 ```
+</details>
 
-### Contribute A New Build Spec
+<details><summary><b>Contribute A New Build Spec</b></summary>
 
 If you know a project released to (Maven) Central that is expected to provide Reproducible Builds, please tell us by opening an issue with details. Even better, you can provide a PR containing a `.buildspec` build specification file.
+
+</details>
 
 ## Rebuild Results
 
