@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cat <(echo "| groupId | artifactId version | build | env | Repro |"
-echo "| ------- | ------------------ | ----- | --- | ------ |"
+cat <(echo "| Central groupId:artifactId(s):version | build spec | result: reproducibility |"
+echo "| -------------------------------- | --------- | ------ |"
 
 for buildspec in `find content -name *.buildspec -print | sort`
 do
@@ -15,22 +15,22 @@ do
     buildinfoCompare="`dirname ${buildspec}`/`basename ${buildspec} .buildspec`.buildinfo.compare"
   fi
 
-  echo -n "| [${groupId}](https://repo.maven.apache.org/maven2/${groupDir}) "
-  echo -n "| [${artifactId}](https://repo.maven.apache.org/maven2/${groupDir}/${artifactId}) "
+  echo -n "| ${groupId}:${artifactId}:"
   echo -n "[${version}](https://repo.maven.apache.org/maven2/${groupDir}/${artifactId}/${version}) "
-  echo -n "| [spec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildspec})"
-  [ -f "${buildinfo}" ] && echo -n "/[info](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildinfo}) "
-  echo -n "| ${tool} jdk-${jdk} "
+  echo -n "| [buildspec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildspec}): "
+  echo -n "${tool} jdk-${jdk} "
   [ "${newline}" == "crlf" ] && echo -n "win "
+  echo -n "| "
+  [ -f "${buildinfo}" ] && echo -n "[buildinfo](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildinfo}): "
 
   . ${buildinfoCompare}
   if [ $? -eq 0 ]; then
-    echo -n "| ["
+    echo -n "["
     [ ${ok} -gt 0 ] && echo -n "${ok} :heavy_check_mark: "
     [ ${ko} -gt 0 ] && echo -n " ${ko} :warning:"
     echo -n "](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildinfoCompare}) "
   else
-    echo -n "| :x: "
+    echo -n ":x: "
   fi
   echo "|"
 
