@@ -7,7 +7,6 @@ for buildspec in `find content -name *.buildspec -print | sort`
 do
   . $buildspec
 
-  groupDir=$(echo ${groupId} | tr '.' '/')
   buildinfo="`dirname ${buildspec}`/`basename ${buildinfo}`"
   if [ `ls ${buildinfo} | wc -l` -le 1 ]; then
     buildinfoCompare="${buildinfo}.compare"
@@ -16,7 +15,7 @@ do
   fi
 
   echo -n "| ${groupId}:${artifactId}:"
-  echo -n "[${version}](https://repo.maven.apache.org/maven2/${groupDir}/${artifactId}/${version}) "
+  echo -n "[${version}](https://search.maven.org/artifact/${groupId}/${artifactId}/${version}/pom) "
   echo -n "| [buildspec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildspec}): "
   echo -n "[:notebook:](${gitRepo}) "
   echo -n "${tool} jdk-${jdk} "
