@@ -1,0 +1,13 @@
+groupId=org.apache.jspwiki
+artifactId=sjpwiki-builder
+version=2.11.0.M7
+
+gitRepo=https://github.com/apache/jspwiki.git
+gitTag=${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=jspwiki-it-tests/jspwiki-it-test-cma-jdbc/target/jspwiki-it-test-cma-jdbc-${version}.buildinfo
