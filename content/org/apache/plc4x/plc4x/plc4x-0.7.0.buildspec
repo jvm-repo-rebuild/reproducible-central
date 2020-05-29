@@ -1,0 +1,13 @@
+groupId=org.apache.plc4x
+artifactId=plc4x
+version=0.7.0
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=release/${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=tools/target/plc4x-tools-${version}.buildinfo
