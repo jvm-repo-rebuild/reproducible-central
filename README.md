@@ -1,11 +1,11 @@
 Rebuilding artifacts published to (Maven) Central Repository
 ========================================================================
 
-As part of [Reproducible Builds efforts for the JVM](https://reproducible-builds.org/docs/jvm/), this repository is an attempt at:
-1. writing rebuild instructions for the artifacts available in [(Maven) Central](https://repo.maven.apache.org/maven2/),
+As part of [Reproducible Builds efforts for the JVM](https://reproducible-builds.org/docs/jvm/), this project is an attempt at:
+1. writing rebuild instructions for the artifacts available in [(Maven) Central Repository](https://repo.maven.apache.org/maven2/),
 equivalent to the packaging instructions that are maintained by every Linux distribution
 (for example Debian's [debian/rules](https://www.debian.org/doc/debian-policy/ch-source#s-debianrules) or ArchLinux's PKGBUILD), whatever the build tool
-2. show the level of reproducibility obtained (how many output files from the rebuild are strictly equal to reference in (Maven) Central, how many output files are not yet reproducible?)
+2. show the level of reproducibility obtained using previous instructions: how many output files from the rebuild are strictly equal to reference in (Maven) Central, how many output files are not yet reproducible?
 
 ## What Can I Do?
 
@@ -15,9 +15,9 @@ You can rebuild a project release by running:
 ```
 ./rebuild.sh content/<path/to/...>/<project>-<version>.buildspec
 ```
-`rebuild.sh` script will use the build specification file (= `.buildspec` file, see [example](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/org/apache/maven/plugins/maven-dependency-plugin/maven-dependency-plugin-3.1.2.buildspec)) to choose a Docker container to rebuild the project and check output against (Maven) Central reference binaries.
+`rebuild.sh` script will use the build specification file (= `.buildspec` file, see [example](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/org/apache/maven/plugins/maven-dependency-plugin/maven-dependency-plugin-3.1.2.buildspec)) to choose a Docker container to rebuild the project and check output against Central Repository reference binaries.
 
-To rebuild every project with build instructions in this Git repository, just run:
+To rebuild every project with build instructions available in this Git repository, just run:
 ```
 find content -name *.buildspec -exec ./rebuild.sh {} \;
 ```
@@ -25,7 +25,7 @@ find content -name *.buildspec -exec ./rebuild.sh {} \;
 
 <details><summary><b>Contribute A New Build Spec</b></summary>
 
-If you know a project released to (Maven) Central that is expected to provide Reproducible Builds, please tell us by opening an issue with details. Even better, you can provide a PR containing a `.buildspec` build specification file.
+If you know a project released to (Maven) Central Repository that is expected to provide Reproducible Builds, please tell us by opening an issue with details. Even better, you can provide a PR containing a `.buildspec` build specification file.
 
 </details>
 
