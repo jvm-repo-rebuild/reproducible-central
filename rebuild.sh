@@ -100,6 +100,7 @@ rebuildToolMvn() {
 
   dos2unix ${buildinfo}* || fatal "failed to convert buildinfo newlines"
   cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts"
+  cat ${buildinfo}*.compare
 }
 
 # rebuild with SBT tool (tool=sbt)
