@@ -1,4 +1,4 @@
-Rebuilding artifacts published to (Maven) Central Repository
+Rebuilding artifacts from (Maven) Central Repository
 ============================================================
 
 As part of [Reproducible Builds efforts for the JVM](https://reproducible-builds.org/docs/jvm/), this "**Reproducible Central**" project is an attempt at:
