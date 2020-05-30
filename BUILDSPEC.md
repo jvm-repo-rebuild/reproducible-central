@@ -4,8 +4,8 @@ Reproducible Central Buildspec File Format
 As per Central Repository [upload requirements](https://maven.apache.org/repository/guide-central-repository-upload.html), it contains sources and javadoc for IDE only, but no data on how to build: where to get the release source? What precise command to launch? What are the prerequisites (minimum JDK version, ...)?
 
 **Reproducible Central** project is about rebuilding and checking how the output matches reference in the Central Repository, we need to:
-1. **write instructions on rebuilding**,
-2. automate the rebuild,
+1. **write instructions to be able to rebuild**,
+2. automate rebuild run,
 3. automate the comparison of rebuild output against reference output available in Central Repository.
 
 # Format
