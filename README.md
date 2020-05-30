@@ -29,6 +29,17 @@ If you know a project released to (Maven) Central Repository that is expected to
 
 </details>
 
+<details><summary><b>Improve Reproducibility Score Of A Project Release</b></summary>
+
+If a rebuild published here is not fully reproducible (it has some :warning:), there is an issue: please help to improve the situation.
+
+You'll need to rebuild the release yourself (see previous instructions), then use [diffoscope](https://diffoscope.org/) to easily explore precise difference
+between reference file from (Maven) Central Repository and effective rebuild file, then debug up to the root cause of this unwanted difference:
+- rebuilder bug: if the improvement has to happen at buildspec or rebuild script level, don't hesitate to open an issue or a PR here,
+- upstream project reproducibility issue: please contact the upstream project and help them improve the reproducibility for their next release.
+
+</details>
+
 ## Rebuild Results
 
 <!-- BEGIN GENERATED CONTENT -->
