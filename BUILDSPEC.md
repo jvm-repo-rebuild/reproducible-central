@@ -1,13 +1,13 @@
 Reproducible Central Buildspec File Format
 ==========================================
 
-As per (Maven) Central Repository [upload requirements](https://maven.apache.org/repository/guide-central-repository-upload.html), it contains sources and javadoc for IDE only, but no data on how to build: where to get the release source? What precise command to launch? What are the prerequisites (minimum JDK version, ...)?
+As per Central Repository [upload requirements](https://maven.apache.org/repository/guide-central-repository-upload.html), it contains sources and javadoc for IDE only, but no data on how to build: where to get the release source? What precise command to launch? What are the prerequisites (minimum JDK version, ...)?
 
-Reproducible Central project is about rebuilding and checking how the output matches reference in the Central Repository: we need to write instructions on rebuilding and automate the rebuild.
+**Reproducible Central** project is about rebuilding and checking how the output matches reference in the Central Repository: we need to write instructions on rebuilding and automate the rebuild.
 
 # Format
 
-Reproducible Central rebuild instructions are defined in a `.builspec` file that will be used by [`rebuild.sh`](rebuild.sh) script. A `.buildspec` file is de-facto a Bash shell script defining a few variables that `rebuild.sh` will use to do the rebuild:
+**Reproducible Central** rebuild instructions are defined in a `.builspec` file that will be used by [`rebuild.sh`](rebuild.sh) script. A `.buildspec` file is de-facto a Bash shell script defining a few variables that `rebuild.sh` will use to do the rebuild:
 
 ```
 # Central Repository coordinates for the Reference release
@@ -33,7 +33,7 @@ buildinfo=target/${artifactId}-${version}.buildinfo
 
 ## Parameters
 
-- `groupId`, `artifactId` and `version` are not really used to do the rebuild, but to point to the reference output files in (Maven) Central Repository in the final report.
+- `groupId`, `artifactId` and `version` are not really used to do the rebuild, but to point to the reference output files in Central Repository in the final report.
 - `gitRepo` and `gitTag` define where to get the source code from and which precise commit represents the release.
 - rebuild environment prerequisites: they define key prerequisites to rebuild source code and have a chance that the output files will match reference output from Central Repository:
   - `tool`: the build tool used. Can be `mvn` or `sbt` currently, but don't hesitate to help provide [rebuild support for other JVM build tools](/jvm-repo-rebuild/reproducible-central/issues/6),

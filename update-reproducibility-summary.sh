@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cat <(echo "| Central groupId:artifactId(s):version | build spec | result: reproducibility |"
+cat <(echo "| Central Repository groupId:artifactId(s):version | [build spec](BUILDSPEC.md) | result: reproducibility |"
 echo "| -------------------------------- | --------- | ------ |"
 
 for buildspec in `find content -name *.buildspec -print | sort`

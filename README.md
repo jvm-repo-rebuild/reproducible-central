@@ -1,11 +1,11 @@
 Rebuilding artifacts published to (Maven) Central Repository
-========================================================================
+============================================================
 
-As part of [Reproducible Builds efforts for the JVM](https://reproducible-builds.org/docs/jvm/), this project is an attempt at:
-1. writing [rebuild instructions](BUILDSPEC.md) for the artifacts available in [(Maven) Central Repository](https://repo.maven.apache.org/maven2/),
+As part of [Reproducible Builds efforts for the JVM](https://reproducible-builds.org/docs/jvm/), this "**Reproducible Central**" project is an attempt at:
+1. writing [rebuild instructions](BUILDSPEC.md) for the artifacts available in the [Central Repository](https://search.maven.org/),
 equivalent to the packaging instructions that are maintained by every Linux distribution
-(for example Debian's [debian/rules](https://www.debian.org/doc/debian-policy/ch-source#s-debianrules) or ArchLinux's PKGBUILD), whatever the build tool
-2. show the level of reproducibility obtained using previous instructions: how many output files from the rebuild are strictly equal to reference in (Maven) Central, how many output files are not yet reproducible?
+(for example Debian's [debian/rules](https://www.debian.org/doc/debian-policy/ch-source#s-debianrules) or ArchLinux's PKGBUILD), whatever the build tool used (Central Repository is not used by Maven only)
+2. show the level of reproducibility obtained using previous instructions: how many output files from the rebuild are strictly equal to reference in Central Repository, how many output files are not yet reproducible?
 
 ## What Can I Do?
 
@@ -25,7 +25,7 @@ find content -name *.buildspec -exec ./rebuild.sh {} \;
 
 <details><summary><b>Contribute A New Build Spec</b></summary>
 
-If you know a project released to (Maven) Central Repository that is expected to provide Reproducible Builds, please tell us by opening an issue with details. Even better, you can provide a PR containing a [`.buildspec` build specification file](BUILDSPEC.md).
+If you know a project released to Central Repository that is expected to provide Reproducible Builds, please tell us by opening an issue with details. Even better, you can provide a PR containing a [`.buildspec` build specification file](BUILDSPEC.md).
 
 </details>
 
@@ -34,7 +34,7 @@ If you know a project released to (Maven) Central Repository that is expected to
 If a rebuild published here is not fully reproducible (it has some :warning:), there is an issue: please help to improve the situation.
 
 You'll need to rebuild the release yourself (see previous instructions), then use [diffoscope](https://diffoscope.org/) to easily explore precise difference
-between reference file from (Maven) Central Repository and effective rebuild file, then debug up to the root cause of this unwanted difference:
+between reference file from Central Repository and effective rebuild file, then debug up to the root cause of this unwanted difference:
 - rebuilder bug: if the improvement has to happen at [buildspec](BUILDSPEC.md) or [rebuild script](rebuild.sh) level, don't hesitate to open an issue or a PR here,
 - upstream project reproducibility issue: please contact the upstream project and help them improve the reproducibility for their next release.
 
@@ -43,7 +43,7 @@ between reference file from (Maven) Central Repository and effective rebuild fil
 ## Rebuild Results
 
 <!-- BEGIN GENERATED CONTENT -->
-| Central groupId:artifactId(s):version | build spec | result: reproducibility |
+| Central Repository groupId:artifactId(s):version | [build spec](BUILDSPEC.md) | result: reproducibility |
 | -------------------------------- | --------- | ------ |
 | com.io7m.jade:com.io7m.jade:[1.0.1](https://search.maven.org/artifact/com.io7m.jade/com.io7m.jade/1.0.1/pom) | [buildspec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/com/io7m/jade/com.io7m.jade-1.0.1.buildspec): [:notebook:](https://github.com/io7m/jade.git) mvn jdk-11 | [buildinfo](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/com/io7m/jade/com.io7m.jade.documentation-1.0.1.buildinfo): [17 :heavy_check_mark: ](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/com/io7m/jade/com.io7m.jade.documentation-1.0.1.buildinfo.compare) |
 | com.scalapenos:stamina:[0.1.5](https://search.maven.org/artifact/com.scalapenos/stamina/0.1.5/pom) | [buildspec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/com/scalapenos/stamina/stamina-0.1.5.buildspec): [:notebook:](https://github.com/scalapenos/stamina.git) sbt jdk-8 | [24 :heavy_check_mark: ](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/com/scalapenos/stamina/stamina-0.1.5.buildinfo.compare) |
