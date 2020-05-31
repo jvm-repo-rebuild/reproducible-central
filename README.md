@@ -41,7 +41,7 @@ between reference file from Central Repository and effective rebuild file, then 
 </details>
 
 <details><summary><b>Check That My Project Uses Reproducible Dependencies</b></summary>
-This is a future objective. But for now, given the very few projects that produce reproducible artifacts, it's a little bit early to try to automate checks.
+This is a future objective. But for now, given the very few projects that produce reproducible artifacts, it's a little bit early to try to automate checks of your dependencies: there is a good chance that your dependencies are not reproducible. You should help by reporting to the project owners, and help them make their build reproducible for future releases.
 </details>
 
 ## Rebuild Results
