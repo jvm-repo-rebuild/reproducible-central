@@ -5,7 +5,7 @@ As part of [Reproducible Builds efforts for the JVM](https://reproducible-builds
 1. writing [rebuild instructions](BUILDSPEC.md) for the artifacts available in the [Central Repository](https://search.maven.org/),
 equivalent to the packaging instructions that are maintained by every Linux distribution
 (for example Debian's [debian/rules](https://www.debian.org/doc/debian-policy/ch-source#s-debianrules) or ArchLinux's PKGBUILD), whatever the build tool used (Central Repository is not used by Maven only)
-2. show the level of reproducibility obtained using previous instructions: how many output files from the rebuild are strictly equal to reference in Central Repository, how many output files are not yet reproducible?
+2. show the level of reproducibility obtained using previous instructions: how many output files from the rebuild are strictly equal to reference in Central Repository, how many output files are not yet reproducible and should be improved before the next release?
 
 ## What Can I Do?
 
@@ -38,6 +38,10 @@ between reference file from Central Repository and effective rebuild file, then 
 - rebuilder bug: if the improvement has to happen at [buildspec](BUILDSPEC.md) or [rebuild script](rebuild.sh) level, don't hesitate to open an issue or a PR here,
 - upstream project reproducibility issue: please contact the upstream project and help them improve the reproducibility for their next release.
 
+</details>
+
+<details><summary><b>Check That My Project Uses Reproducible Dependencies</b></summary>
+This is a future objective. But for now, given the very few projects that produce reproducible artifacts, it's a little bit early to try to automate checks.
 </details>
 
 ## Rebuild Results
