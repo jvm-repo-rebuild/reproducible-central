@@ -47,7 +47,7 @@ This is a future objective. But for now, given the very few projects that produc
 ## Rebuild Results
 
 <!-- BEGIN GENERATED CONTENT -->
-| Central Repository groupId:artifactId(s):version | [build spec](BUILDSPEC.md) | result: reproducibility |
+| Central Repository groupId:artifactId(s):version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducibility |
 | -------------------------------- | --------- | ------ |
 | com.io7m.jade:com.io7m.jade:[1.0.1](https://search.maven.org/artifact/com.io7m.jade/com.io7m.jade/1.0.1/pom) | [buildspec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/com/io7m/jade/com.io7m.jade-1.0.1.buildspec): [:notebook:](https://github.com/io7m/jade.git) mvn jdk-11 | [buildinfo](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/com/io7m/jade/com.io7m.jade.documentation-1.0.1.buildinfo): [17 :heavy_check_mark: ](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/com/io7m/jade/com.io7m.jade.documentation-1.0.1.buildinfo.compare) |
 | com.scalapenos:stamina:[0.1.5](https://search.maven.org/artifact/com.scalapenos/stamina/0.1.5/pom) | [buildspec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/com/scalapenos/stamina/stamina-0.1.5.buildspec): [:notebook:](https://github.com/scalapenos/stamina.git) sbt jdk-8 | [24 :heavy_check_mark: ](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/com/scalapenos/stamina/stamina-0.1.5.buildinfo.compare) |
