@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven EJB Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-ejb-plugin
+version=3.1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-ejb-plugin.git
+source.scm.tag=maven-ejb-plugin-3.1.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.1.1
+
+# output
+
+outputs.0.filename=maven-ejb-plugin-3.1.0.jar
+outputs.0.length=29634
+outputs.0.checksums.sha512=2ff170c3edf956c64ed9eec0c1e6c3b3272e4a68e6741d3f2472f2e1123dacc654e6977d13eebcfafee9a4afee5abc178eff0bbdc0e693fbd755a3e7bf334014
+
+outputs.1.filename=maven-ejb-plugin-3.1.0-source-release.zip
+outputs.1.length=100218
+outputs.1.checksums.sha512=c6f2de1f10222e50ebf1c4991d91aa468749727d1214024caaef21e3ca4bf42523450ebaa3cbfe40ec1e948b68c1a1ecea484bb2d5ce979a61cbbae64e074698
+
+outputs.2.filename=maven-ejb-plugin-3.1.0-sources.jar
+outputs.2.length=21990
+outputs.2.checksums.sha512=dc31c49f665c7f967ffc7b35802d94cc09c6613e6c7c787a8865e19580b8e7d5e8dfb3fef55b23c33f58da28234738b0f2097d9ec583af1b3ce01ecfa08b14c6
