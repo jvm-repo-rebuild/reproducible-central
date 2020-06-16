@@ -1,0 +1,13 @@
+groupId=org.tomitribe.transformer
+artifactId=org.eclipse.transformer.parent
+version=0.1.1
+
+gitRepo=https://github.com/tomitribe/transformer.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=org.eclipse.transformer.maven/target/org.eclipse.transformer.maven-${version}.buildinfo

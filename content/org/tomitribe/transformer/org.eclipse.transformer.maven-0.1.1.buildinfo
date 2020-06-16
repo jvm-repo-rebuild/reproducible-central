@@ -1,0 +1,48 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=org.tomitribe.transformer:org.eclipse.transformer.parent
+group-id=org.tomitribe.transformer
+artifact-id=org.eclipse.transformer.parent
+version=0.1.1
+
+# source information
+source.scm.uri=scm:git:git@github.com:tomitribe/transformer.git
+source.scm.tag=org.eclipse.transformer.parent-0.1.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# aggregated output
+
+outputs.0.coordinates=org.tomitribe.transformer:org.eclipse.transformer.parent
+
+outputs.1.coordinates=org.tomitribe.transformer:org.eclipse.transformer
+
+outputs.1.0.filename=org.eclipse.transformer-0.1.1.jar
+outputs.1.0.length=136856
+outputs.1.0.checksums.sha512=3410a62996477546f41d0ceb417b961bae23d16e1c39adb62136a7d16e93b2a0c373da185cabb432fe86d7831d9999d50afae97fe96b12f9749866822642a229
+
+outputs.2.coordinates=org.tomitribe.transformer:org.eclipse.transformer.cli
+
+outputs.2.0.filename=org.eclipse.transformer.cli-0.1.1.jar
+outputs.2.0.length=15040
+outputs.2.0.checksums.sha512=06f1cda083cfb3a9bb7ca153e6864f5ea644141b3505f23f6c59ef815c40197c084854a262bf7bb8b22d6941517cf947822296de14a807a631f5c4c3e3c55ff0
+
+outputs.2.1.filename=org.eclipse.transformer.cli-0.1.1-distribution.jar
+outputs.2.1.length=532966
+outputs.2.1.checksums.sha512=adc167a3e4aae5d75e44fcb36cfe5c9a914f929dcc0fda7af48af2ccbe50006eca3ec6f3deba68a276338fc2010835c61b8783b7dfab4dd3970e338f39d06d0b
+
+outputs.3.coordinates=org.tomitribe.transformer:org.eclipse.transformer.maven
+
+outputs.3.0.filename=org.eclipse.transformer.maven-0.1.1.jar
+outputs.3.0.length=9768
+outputs.3.0.checksums.sha512=5da02a271a5ab3c9e947f05c512753e3b4a78d34dd2c7fe1793f04d380d373f0ff789dc9adef5bf327b13fedc3f00b99afcd3271f4456b86a534578b1f73be64

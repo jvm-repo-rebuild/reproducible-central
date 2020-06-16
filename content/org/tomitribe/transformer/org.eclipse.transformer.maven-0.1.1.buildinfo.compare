@@ -1,0 +1,5 @@
+version=0.1.1
+ok=4
+ko=0
+okFiles="org.eclipse.transformer-0.1.1.jar org.eclipse.transformer.cli-0.1.1.jar org.eclipse.transformer.cli-0.1.1-distribution.jar org.eclipse.transformer.maven-0.1.1.jar"
+koFiles=""
