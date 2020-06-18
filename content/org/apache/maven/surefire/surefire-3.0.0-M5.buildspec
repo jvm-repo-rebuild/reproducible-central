@@ -1,0 +1,13 @@
+groupId=org.apache.maven.surefire
+artifactId=surefire
+version=3.0.0-M5
+
+gitRepo=https://github.com/apache/maven-${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=crlf,no-auto.crlf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=surefire-shared-utils/target/surefire-shared-utils-${version}.buildinfo

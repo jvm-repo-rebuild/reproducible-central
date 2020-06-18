@@ -19,7 +19,7 @@ do
   echo -n "| [buildspec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildspec}): "
   echo -n "[:notebook:](${gitRepo}) "
   echo -n "${tool} jdk-${jdk} "
-  [ "${newline}" == "crlf" ] && echo -n "win "
+  [[ "${newline}" == crlf* ]] && echo -n "win "
   echo -n "| "
   [ -f "${buildinfo}" ] && echo -n "[buildinfo](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildinfo}): "
 
