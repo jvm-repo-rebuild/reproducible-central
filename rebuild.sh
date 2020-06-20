@@ -89,8 +89,8 @@ mvnBuildLocal() {
 
 # rebuild with Maven tool (tool=mvn)
 rebuildToolMvn() {
-  # the effective rebuild command, adding buildinfo plugin to compare with central content
-  local mvn_rebuild="${command} -V -e buildinfo:buildinfo -Dreference.repo=central -Dreference.compare.save"
+  # the effective rebuild command, adding artifact:buildinfo goal to compare with central content
+  local mvn_rebuild="${command} -V -e artifact:buildinfo -Dreference.repo=central -Dreference.compare.save"
 
   # by default, build with Docker
   # TODO: on parameter, use instead mvnBuildLocal after selecting JDK
