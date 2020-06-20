@@ -1,0 +1,36 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Reporting Executor
+group-id=org.apache.maven.reporting
+artifact-id=maven-reporting-exec
+version=1.5.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-reporting-exec.git
+source.scm.tag=maven-reporting-exec-1.5.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.7.0_211
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T19:00:29Z)
+
+# output
+
+outputs.0.filename=maven-reporting-exec-1.5.1.jar
+outputs.0.length=32699
+outputs.0.checksums.sha512=01182f3d9b83ccaa40e194ae005708402909edc99064836bdc5139be302a726c4dc84c595ef352ae8f6f5a7b65e4760692da9e915fd817f6587e309a0e21ce6e
+
+outputs.1.filename=maven-reporting-exec-1.5.1-source-release.zip
+outputs.1.length=58953
+outputs.1.checksums.sha512=d5b2e52458179ed0534abd2cd5b604890a1caa1d74d26970636e968b7dba625029666c2131004c08794535a36e4291ac4a42000b4990e7a8d3218b3cb0550857
+
+outputs.2.filename=maven-reporting-exec-1.5.1-sources.jar
+outputs.2.length=25117
+outputs.2.checksums.sha512=4f3ac2fdaa18b08c0cc6b57cfc9ec7179096a9b54d7a2f6b7978285c6e0ac5ff94d3ea69d228a896e5f101eba6b9d1c818b6cf696a0ec0422b5ee67e0c643da5
