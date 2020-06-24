@@ -1,5 +1,6 @@
 groupId=org.apache.royale.compiler
 artifactId=compiler
+display=${groupId}:${artifactId}
 version=0.9.7
 
 gitRepo=https://github.com/apache/royale-compiler.git

@@ -1,5 +1,6 @@
 groupId=org.codehaus.plexus
 artifactId=plexus-languages
+display=${groupId}:${artifactId}
 version=1.0.5
 
 gitRepo=https://github.com/codehaus-plexus/${artifactId}.git

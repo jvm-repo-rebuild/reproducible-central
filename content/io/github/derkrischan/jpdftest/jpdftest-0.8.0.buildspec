@@ -1,5 +1,6 @@
 groupId=io.github.derkrischan
 artifactId=jpdftest
+display=${groupId}:${artifactId}
 version=0.8.0
 
 gitRepo=https://github.com/derKrischan/${artifactId}.git

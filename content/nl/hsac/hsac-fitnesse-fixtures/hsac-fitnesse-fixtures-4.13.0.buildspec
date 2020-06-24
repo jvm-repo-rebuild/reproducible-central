@@ -1,5 +1,6 @@
 groupId=nl.hsac
 artifactId=hsac-fitnesse-fixtures
+display=${groupId}:${artifactId}
 version=4.13.0
 
 gitRepo=https://github.com/fhoeben/${artifactId}.git

@@ -1,5 +1,6 @@
 groupId=io.micronaut
 artifactId=micronaut-maven-plugin
+display=${groupId}:${artifactId}
 version=1.0.0.RC4
 
 gitRepo=https://github.com/micronaut-projects/${artifactId}.git

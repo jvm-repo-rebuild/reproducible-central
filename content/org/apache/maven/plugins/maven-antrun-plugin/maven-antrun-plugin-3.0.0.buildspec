@@ -1,5 +1,6 @@
 groupId=org.apache.maven.plugins
 artifactId=maven-antrun-plugin
+display=${groupId}:${artifactId}
 version=3.0.0
 
 gitRepo=https://github.com/apache/${artifactId}.git

@@ -1,5 +1,6 @@
 groupId=org.codehaus.plexus
 artifactId=plexus-archiver
+display=${groupId}:${artifactId}
 version=4.2.2
 
 gitRepo=https://github.com/codehaus-plexus/${artifactId}.git

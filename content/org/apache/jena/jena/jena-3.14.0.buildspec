@@ -1,5 +1,6 @@
 groupId=org.apache.jena
 artifactId=jena
+display=${groupId}:${artifactId}
 version=3.14.0
 
 gitRepo=https://github.com/apache/maven-${artifactId}.git

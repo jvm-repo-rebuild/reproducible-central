@@ -1,5 +1,6 @@
 groupId=org.apache.maven
 artifactId=maven
+display=${groupId}:${artifactId}
 version=3.6.3
 
 gitRepo=https://github.com/apache/maven-${artifactId}.git

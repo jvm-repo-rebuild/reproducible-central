@@ -1,5 +1,6 @@
 groupId=io.liftwizard
 artifactId=liftwizard
+display=${groupId}:${artifactId}
 version=0.1.0
 
 gitRepo=https://github.com/motlin/${artifactId}.git

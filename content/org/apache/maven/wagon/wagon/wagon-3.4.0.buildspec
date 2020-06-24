@@ -1,5 +1,6 @@
 groupId=org.apache.maven.wagon
 artifactId=wagon
+display=${groupId}:${artifactId}
 version=3.4.0
 
 gitRepo=https://github.com/apache/maven-${artifactId}.git

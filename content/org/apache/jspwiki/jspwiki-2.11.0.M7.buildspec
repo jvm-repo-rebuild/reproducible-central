@@ -1,5 +1,6 @@
 groupId=org.apache.jspwiki
 artifactId=sjpwiki-builder
+display=${groupId}:${artifactId}
 version=2.11.0.M7
 
 gitRepo=https://github.com/apache/jspwiki.git

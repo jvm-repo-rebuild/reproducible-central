@@ -1,5 +1,6 @@
 groupId=org.tomitribe.transformer
 artifactId=org.eclipse.transformer.parent
+display=org.tomitribe:${artifactId}
 version=0.1.1
 
 gitRepo=https://github.com/tomitribe/transformer.git

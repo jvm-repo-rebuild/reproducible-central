@@ -14,7 +14,7 @@ do
     buildinfoCompare="`dirname ${buildspec}`/`basename ${buildspec} .buildspec`.buildinfo.compare"
   fi
 
-  echo -n "| ${groupId}:${artifactId}:"
+  echo -n "| ${display}:"
   echo -n "[${version}](https://search.maven.org/artifact/${groupId}/${artifactId}/${version}/pom) "
   echo -n "| [buildspec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildspec}): "
   echo -n "[:notebook:](${gitRepo}) "

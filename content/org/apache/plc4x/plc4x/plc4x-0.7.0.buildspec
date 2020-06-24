@@ -1,5 +1,6 @@
 groupId=org.apache.plc4x
 artifactId=plc4x
+display=${groupId}:${artifactId}
 version=0.7.0
 
 gitRepo=https://github.com/apache/${artifactId}.git

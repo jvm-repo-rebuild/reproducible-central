@@ -1,5 +1,6 @@
 groupId=com.io7m.jade
 artifactId=com.io7m.jade
+display=${groupId}:${artifactId}
 version=1.0.1
 
 gitRepo=https://github.com/io7m/jade.git

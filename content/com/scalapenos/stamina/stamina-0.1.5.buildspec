@@ -1,5 +1,6 @@
 groupId=com.scalapenos
 artifactId=stamina
+display=${groupId}:${artifactId}
 version=0.1.5
 
 gitRepo=https://github.com/scalapenos/stamina.git
