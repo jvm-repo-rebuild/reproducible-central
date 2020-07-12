@@ -1,0 +1,14 @@
+groupId=net.sourceforge.pmd
+artifactId=pmd
+display=${groupId}:${artifactId}
+version=6.25.0
+
+gitRepo=https://github.com/pmd/${artifactId}.git
+gitTag=pmd_releases/${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn -Ppmd-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=pmd-*/target/pmd-*-${version}.buildinfo
