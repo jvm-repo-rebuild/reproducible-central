@@ -3,9 +3,12 @@
 cat <(echo "| [Central Repository](https://search.maven.org/) groupId:artifactId(s):version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducibility |"
 echo "| -------------------------------- | --------- | ------ |"
 
+anchor="empty"
+
 for buildspec in `find content -name *.buildspec -print | sort`
 do
   . $buildspec
+  new_anchor="${groupId}:${artifactId}"
 
   buildinfo="`dirname ${buildspec}`/`basename ${buildinfo}`"
   if [ `ls ${buildinfo} | wc -l` -le 1 ]; then
@@ -14,7 +17,10 @@ do
     buildinfoCompare="`dirname ${buildspec}`/`basename ${buildspec} .buildspec`.buildinfo.compare"
   fi
 
-  echo -n "| ${display}:"
+  echo -n "| "
+  [[ "${new_anchor}" != "${anchor}" ]] && echo -n "<a name='${new_anchor}'></a>"
+  anchor="${new_anchor}"
+  echo -n "${display}:"
   echo -n "[${version}](https://search.maven.org/artifact/${groupId}/${artifactId}/${version}/pom) "
   echo -n "| [buildspec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildspec}): "
   echo -n "[:notebook:](${gitRepo}) "
