@@ -22,12 +22,12 @@ do
   anchor="${new_anchor}"
   echo -n "${display}"
   echo -n " [${version}](https://search.maven.org/artifact/${groupId}/${artifactId}/${version}/pom) "
-  echo -n "| [buildspec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildspec}): "
+  echo -n "| [spec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildspec}): "
   echo -n "[:notebook:](${gitRepo}) "
   echo -n "${tool} jdk-${jdk} "
   [[ "${newline}" == crlf* ]] && echo -n "w "
   echo -n "| "
-  [ -f "${buildinfo}" ] && echo -n "[buildinfo](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildinfo}): "
+  [ -f "${buildinfo}" ] && echo -n "[result](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildinfo}): "
 
   . ${buildinfoCompare}
   if [ $? -eq 0 ]; then
