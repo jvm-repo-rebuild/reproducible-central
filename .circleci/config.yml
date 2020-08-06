@@ -1,0 +1,47 @@
+version: 2.1
+
+orbs:
+  shellcheck: circleci/shellcheck@1.3.16
+
+executors:
+  openjdk8:
+    docker:
+      - image: circleci/openjdk:8-jdk
+
+commands:
+  rebuild-one:
+    parameters:
+      buildspec-path:
+        type: string
+    steps:
+      - run:
+          name: Rebuild one project
+          command: |
+            ./rebuild.sh <<parameters.buildspec-path>>
+
+  rebuild-all:
+    steps:
+      - run:
+          name: Rebuild all projects
+          command: |
+            echo "Not implemented yet".
+            exit 1
+
+jobs:
+  build-one:
+    executor: openjdk8
+    steps:
+      - checkout
+      - rebuild-one:
+          buildspec-path: content/org/codehaus/plexus/plexus-archiver/plexus-archiver-4.2.2.buildspec
+
+
+workflows:
+  check-build:
+    jobs:
+      - shellcheck/check # job defined within the orb so no further config necessary
+      - build-one:
+          requires:
+            - shellcheck/check # only run rebuild-all once shellcheck has run
+
+

@@ -4,3 +4,6 @@ copy_reference_file.log
 settings-docker.xml
 .ivy2/
 .sbt/
+
+# ci config for local ci build
+.circleci/local-config.yml
