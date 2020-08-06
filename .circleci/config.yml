@@ -29,9 +29,21 @@ commands:
 
 jobs:
   build-one:
-    executor: openjdk8
+    docker:
+      - image: alpine:3.12
+
     steps:
+      - run:
+          name: Install required tooling
+          command: |
+            apk add \
+                --update-cache \
+                --no-progress \
+                git \
+                docker-cli \
+                bash \
       - checkout
+      - setup_remote_docker
       - rebuild-one:
           buildspec-path: content/org/codehaus/plexus/plexus-archiver/plexus-archiver-4.2.2.buildspec
 
