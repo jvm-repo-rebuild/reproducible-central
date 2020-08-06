@@ -17,7 +17,9 @@ equivalent to the packaging instructions that are maintained by every Linux dist
     
     * [Docker](https://www.docker.com)
     
-    * `dos2unix` - DOS/MAC to UNIX text file format converter. Can be installed via [homebrew](https://brew.sh) on MAC via: `brew install dos2unix`.
+    * `dos2unix` - DOS/MAC to UNIX text file format converter. 
+      
+      Can be installed via [homebrew](https://brew.sh) on MAC via: `brew install dos2unix`.
    </details>
 
 You can rebuild a project release by running:
