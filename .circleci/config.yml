@@ -37,11 +37,20 @@ jobs:
 
 
 workflows:
-  check-build:
+  check-shell:
     jobs:
-      - shellcheck/check # job defined within the orb so no further config necessary
-      - build-one:
-          requires:
-            - shellcheck/check # only run rebuild-all once shellcheck has run
+      - shellcheck/check:
+          pre-steps:
+              - run:
+                  name: Install git and SSH client
+                  command: |
+                    apk add \
+                        --update-cache \
+                        --no-progress \
+                        git \
+                        openssh-client
+  build-single:
+    jobs:
+      - build-one
 
 
