@@ -3,11 +3,6 @@ version: 2.1
 orbs:
   shellcheck: circleci/shellcheck@1.3.16
 
-executors:
-  openjdk8:
-    docker:
-      - image: circleci/openjdk:8-jdk
-
 commands:
   rebuild-one:
     parameters:
