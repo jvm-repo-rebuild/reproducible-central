@@ -49,13 +49,12 @@ workflows:
       - shellcheck/check:
           pre-steps:
               - run:
-                  name: Install git and SSH client
+                  name: Install git
                   command: |
                     apk add \
                         --update-cache \
                         --no-progress \
                         git \
-                        openssh-client
   build-single:
     jobs:
       - build-one
