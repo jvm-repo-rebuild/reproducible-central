@@ -63,7 +63,7 @@ mvnBuildDocker() {
   esac
 
   echo "Rebuilding using Docker image ${mvnImage}"
-  # create app-data docker container holding app files from filesystem
+  # create app-data container holding app files from filesystem
   docker create -v /var/maven/app -v /var/maven/.m2 --name app-data ${mvnImage}
   docker cp $PWD/. app-data:/var/maven/app
   docker cp $base/. app-data:/var/maven/.m2
@@ -76,7 +76,7 @@ mvnBuildDocker() {
   else
     ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params}
   fi
-  # copy built files from container to filesystem
+  # copy built files from app-data container to filesystem
   docker cp app-data:/var/maven/app/. $PWD
   docker rm app-data
 }
