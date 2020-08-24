@@ -51,6 +51,18 @@ between reference file from Central Repository and effective rebuild file, then 
 
 </details>
 
+<details><summary><b>Add Reproducible Builds Badge to a Project With Reproducible Releases</b></summary>
+
+If a project has listed here at least one release with proven reproducibility success, it can add a badge like ![Reproducible Builds](https://img.shields.io/badge/Reproducible_Builds-ok-green?labelColor=blue) pointing to its entries here:
+
+```
+[![Reproducible Builds](https://img.shields.io/badge/Reproducible_Builds-ok-green?labelColor=blue)](https://github.com/jvm-repo-rebuild/reproducible-central#...groupId...:...artifactId...)
+```
+
+Notice the anchor in the link.
+
+</details>
+
 <details><summary><b>Check That My Project Uses Reproducible Dependencies</b></summary>
 This is a future objective. But for now, given the very few projects that produce reproducible artifacts, it's a little bit early to try to automate checks of your dependencies: there is a good chance that your dependencies are not reproducible. You should help by reporting to the project owners, and help them make their build reproducible for future releases.
 </details>
