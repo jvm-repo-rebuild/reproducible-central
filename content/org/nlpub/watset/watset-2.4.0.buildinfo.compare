@@ -1,0 +1,5 @@
+version=2.4.0
+ok=2
+ko=0
+okFiles="watset.jar watset-sources.jar"
+koFiles=""
