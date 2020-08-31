@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Versions Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=versions-maven-plugin
+version=2.8.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/versions-maven-plugin.git
+source.scm.tag=versions-maven-plugin-2.8.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=versions-maven-plugin-2.8.1.jar
+outputs.0.length=308761
+outputs.0.checksums.sha512=3b48e4e4070de12913fa1d323a2087bfe2c06480a63aaae9433d4b4fed21f75702589d528c93adda7007206b8801335f76784d4dee66e432d34f7b39d57dcc07
+
+outputs.1.filename=versions-maven-plugin-2.8.1-source-release.zip
+outputs.1.length=647209
+outputs.1.checksums.sha512=772009ad82e55af2a0d313bf840266603c1543df73dd55814789ef45992e74bfa6c7f269830450417177fc72383c7139d17cd71c44e0673aa4b2ced14c3fa034
+
+outputs.2.filename=versions-maven-plugin-2.8.1-sources.jar
+outputs.2.length=213611
+outputs.2.checksums.sha512=31805219f40df97c065b3ddd84e09f394e4d56fb67e35a83dfc222d991d8eff6182b40500fc3ca91744a5ed49ca11454f86097ae87bd7c31440c3370d00b4cf5

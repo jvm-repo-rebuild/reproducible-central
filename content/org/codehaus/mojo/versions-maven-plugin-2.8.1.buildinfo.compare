@@ -1,0 +1,5 @@
+version=2.8.1
+ok=3
+ko=0
+okFiles="versions-maven-plugin-2.8.1.jar versions-maven-plugin-2.8.1-source-release.zip versions-maven-plugin-2.8.1-sources.jar"
+koFiles=""
