@@ -36,7 +36,7 @@ find content -name *.buildspec -exec ./rebuild.sh {} \;
 
 <details><summary><b>Contribute A New Build Spec</b></summary>
 
-If you know a project released to Central Repository that is expected to provide Reproducible Builds, please tell us by opening an issue with details. Even better, you can provide a PR containing a [`.buildspec` build specification file](BUILDSPEC.md).
+If you know a project released to Central Repository that is expected to provide Reproducible Builds, please tell us by opening an issue with details. Even better, you can provide a PR containing a [`.buildspec` build specification file](BUILDSPEC.md). Please also include in the PR the generated `.buildinfo` and `.buildinfo.compare` files so we can verify the same results you see.  
 
 </details>
 
