@@ -3,7 +3,7 @@ artifactId=metrics-parent
 display=${groupId}:${artifactId}
 version=4.1.11
 
-gitRepo=https://github.com/dropwizard/metrics.git
+gitRepo="-c fetch.fsck.skipList=../gitFsckSkipList https://github.com/dropwizard/metrics.git"
 gitTag=v${version}
 
 tool=mvn
