@@ -1,0 +1,5 @@
+version=0.2.0
+ok=3
+ko=1
+okFiles="org.apache.sling.javax.activation-0.2.0.jar org.apache.sling.javax.activation-0.2.0-source-release.zip org.apache.sling.javax.activation-0.2.0-sources.jar"
+koFiles="org.apache.sling.javax.activation-0.2.0-nodeps.jar"

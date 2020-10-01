@@ -1,0 +1,5 @@
+version=3.1.1
+ok=3
+ko=0
+okFiles="maven-project-info-reports-plugin-3.1.1.jar maven-project-info-reports-plugin-3.1.1-source-release.zip maven-project-info-reports-plugin-3.1.1-sources.jar"
+koFiles=""

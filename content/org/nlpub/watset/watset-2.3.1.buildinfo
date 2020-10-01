@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Watset
+group-id=org.nlpub
+artifact-id=watset
+version=2.3.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/nlpub/watset-java
+source.scm.tag=2.3.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.6
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=watset-2.3.1.jar
+outputs.0.length=115031
+outputs.0.checksums.sha512=c8ac8457fbd94a4fcd2b596768bf32010682beaefd9798bcc0b25d3e3ac230bc21bd23004cbfe24811b0d8742ace0a10caf5205548543f49ad56c38b508384ef
+
+outputs.1.filename=watset-2.3.1-sources.jar
+outputs.1.length=72922
+outputs.1.checksums.sha512=7f5a4526a46da7ee367358480171dcbc374052fc036ea4fba5652998dc189d37e0f07bbaab5c1a69a076350d7f6271ad151aa6b42317fac8d8387cd7e516ee76
