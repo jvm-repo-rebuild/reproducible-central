@@ -14,7 +14,7 @@ source.scm.tag=HEAD
 build-tool=mvn
 
 # effective build environment information
-java.version=1.8.0_242
+java.version=1.8.0_265
 java.vendor=Oracle Corporation
 os.name=Linux
 
@@ -26,8 +26,8 @@ mvn.version=Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-0
 outputs.0.coordinates=org.apache.dubbo:dubbo-parent
 
 outputs.0.0.filename=dubbo-parent-2.7.7-source-release.zip
-outputs.0.0.length=22862591
-outputs.0.0.checksums.sha512=7a8ae574f7bb005c4be55cdba0fc2223fd5fd17ec1f5d444bf1d11682003b9420e3843ee4342a86fa5b78f29b23d795073ac897417a9b826d3d4a849c224b84a
+outputs.0.0.length=22719629
+outputs.0.0.checksums.sha512=70c189d8473a2c8b7ec004bbd5d9a3ffc2e04ca63a573ccb187484bdd76c5954d1f8559d1743175e8b74f8354877345463ffedf491f6ed1ff80cb0dc48490401
 
 outputs.1.coordinates=org.apache.dubbo:dubbo-common
 
@@ -779,15 +779,15 @@ outputs.86.coordinates=org.apache.dubbo:dubbo
 
 outputs.86.0.filename=dubbo-2.7.7.jar
 outputs.86.0.length=2900637
-outputs.86.0.checksums.sha512=793376780589f094becb951dd946d8cb0c69db1b45d655293f2c2e2f291bb0ed23a1420fdec8eaaa82cd0d16d25fbd5d1b30862919dbe63a62d7e06407a17394
+outputs.86.0.checksums.sha512=3acbeda3de86e2e6f9475e50255a58ff771bdc21ada96152664044f266d27273b373345d8df076ecae1d1562d53cef1c5412b124bbe739d07faacc8e62b473a2
 
 outputs.86.1.filename=dubbo-2.7.7-sources.jar
 outputs.86.1.length=2257696
-outputs.86.1.checksums.sha512=acf15308f66c6f892981aff5ccbeff828250a7ea00eec552c28805f14098bf1b38733330c2f287441f4fb8caadd5b77ad88bee261733093590fdd3c5aaaa93d1
+outputs.86.1.checksums.sha512=b33cb66266b3bca548597b5aafdc2e44acd411d8003ab60139e54dbb74bc167bec8aa8026feb18645636061f5a579182fa8a4c5916d6ff475216ae0edf712be6
 
 outputs.86.2.filename=dubbo-2.7.7-sources.jar
 outputs.86.2.length=2257696
-outputs.86.2.checksums.sha512=acf15308f66c6f892981aff5ccbeff828250a7ea00eec552c28805f14098bf1b38733330c2f287441f4fb8caadd5b77ad88bee261733093590fdd3c5aaaa93d1
+outputs.86.2.checksums.sha512=b33cb66266b3bca548597b5aafdc2e44acd411d8003ab60139e54dbb74bc167bec8aa8026feb18645636061f5a579182fa8a4c5916d6ff475216ae0edf712be6
 
 outputs.87.coordinates=org.apache.dubbo:dubbo-dependencies-zookeeper
 
