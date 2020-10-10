@@ -18,9 +18,8 @@ do
   fi
 
   echo -n "| "
-  [[ "${new_anchor}" != "${anchor}" ]] && echo -n "<a name='${new_anchor}'></a>"
+  [[ "${new_anchor}" != "${anchor}" ]] && echo -n "<a name='${new_anchor}'></a>${display}" || echo -n " "
   anchor="${new_anchor}"
-  echo -n "${display}"
   echo -n " [${version}](https://search.maven.org/artifact/${groupId}/${artifactId}/${version}/pom) "
   echo -n "| [spec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildspec}): "
   echo -n "[:notebook:](${gitRepo}) "
