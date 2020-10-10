@@ -23,7 +23,7 @@ do
   echo -n " [${version}](https://search.maven.org/artifact/${groupId}/${artifactId}/${version}/pom) "
   echo -n "| [spec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildspec}): "
   echo -n "[:notebook:](${gitRepo}) "
-  echo -n "${tool} jdk-${jdk} "
+  echo -n "${tool} j${jdk} "
   [[ "${newline}" == crlf* ]] && echo -n "w "
   echo -n "| "
   [ -f "${buildinfo}" ] && echo -n "[result](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildinfo}): "
