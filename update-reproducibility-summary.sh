@@ -1,7 +1,7 @@
 #!/bin/bash
 
-cat <(echo "| [Central Repository](https://search.maven.org/) groupId:artifactId(s):version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |"
-echo "| -------------------------------- | --------- | ------ |"
+cat <(echo "| [Central Repository](https://search.maven.org/) groupId:artifactId(s) | version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |"
+echo "| -------------------------------- | -- | --------- | ------ |"
 
 anchor="empty"
 
@@ -18,9 +18,9 @@ do
   fi
 
   echo -n "| "
-  [[ "${new_anchor}" != "${anchor}" ]] && echo -n "<a name='${new_anchor}'></a>${display}" || echo -n " "
+  [[ "${new_anchor}" != "${anchor}" ]] && echo -n "<a name='${new_anchor}'></a>${display} "
   anchor="${new_anchor}"
-  echo -n " [${version}](https://search.maven.org/artifact/${groupId}/${artifactId}/${version}/pom) "
+  echo -n "| [${version}](https://search.maven.org/artifact/${groupId}/${artifactId}/${version}/pom) "
   echo -n "| [spec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildspec}): "
   echo -n "[:notebook:](${gitRepo}) "
   echo -n "${tool} j${jdk} "
