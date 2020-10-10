@@ -1,6 +1,6 @@
 groupId=org.apache.maven.shared
 artifactId=maven-dependency-analyzer
-display=${groupId}:${artifactId}
+display=${groupId}:m-dependency-analyzer
 version=1.11.2
 
 gitRepo=https://github.com/apache/${artifactId}.git
