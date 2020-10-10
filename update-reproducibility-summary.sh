@@ -4,9 +4,12 @@ cat <(echo "| [Central Repository](https://search.maven.org/) groupId:artifactId
 echo "| -------------------------------- | -- | --------- | ------ |"
 
 anchor="empty"
+countGa=0
+countVersion=0
 
 for buildspec in `find content -name *.buildspec -print | sort`
 do
+  ((countVersion++))
   . $buildspec
   new_anchor="${groupId}:${artifactId}"
 
@@ -18,7 +21,7 @@ do
   fi
 
   echo -n "| "
-  [[ "${new_anchor}" != "${anchor}" ]] && echo -n "<a name='${new_anchor}'></a>${display} "
+  [[ "${new_anchor}" != "${anchor}" ]] && echo -n "<a name='${new_anchor}'></a>${display} " && ((countGa++))
   anchor="${new_anchor}"
   echo -n "| [${version}](https://search.maven.org/artifact/${groupId}/${artifactId}/${version}/pom) "
   echo -n "| [spec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildspec}): "
@@ -39,7 +42,10 @@ do
   fi
   echo "|"
 
-done) > summary-table.md
+done
+
+echo "| **Count: ${countGa}** | **${countVersion}** | | |"
+) > summary-table.md
 
 lead='^<!-- BEGIN GENERATED CONTENT -->$'
 tail='^<!-- END GENERATED CONTENT -->$'
