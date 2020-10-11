@@ -1,5 +1,5 @@
 groupId=org.apache.jspwiki
-artifactId=sjpwiki-builder
+artifactId=jspwiki-builder
 display=${groupId}:${artifactId}
 version=2.11.0.M7
 
