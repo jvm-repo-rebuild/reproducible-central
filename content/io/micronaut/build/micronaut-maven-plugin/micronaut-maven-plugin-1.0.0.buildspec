@@ -1,4 +1,4 @@
-groupId=io.micronaut
+groupId=io.micronaut.build
 artifactId=micronaut-maven-plugin
 display=${groupId}:${artifactId}
 version=1.0.0
