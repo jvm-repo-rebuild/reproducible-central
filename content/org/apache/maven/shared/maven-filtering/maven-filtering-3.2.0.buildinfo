@@ -1,0 +1,36 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Filtering
+group-id=org.apache.maven.shared
+artifact-id=maven-filtering
+version=3.2.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-filtering.git
+source.scm.tag=maven-filtering-3.2.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=maven-filtering-3.2.0.jar
+outputs.0.length=51612
+outputs.0.checksums.sha512=bea44ea7c556ee398e86a8bf116e6c9053710bc8db261773df870c518ae3725119e2a400abec0044c236ab9f66b74b4cf78a560664fae1ab8e07f58d9806ad4f
+
+outputs.1.filename=maven-filtering-3.2.0-source-release.zip
+outputs.1.length=161787
+outputs.1.checksums.sha512=9ae953dad2b8afe36c82ea53568437f266b6410069a95aa0771751fd6ffecdf3036d7b94ee2744b1fb0f4d476f8469f0a5ddf18c8860b18b22ddd6ac44951652
+
+outputs.2.filename=maven-filtering-3.2.0-sources.jar
+outputs.2.length=48882
+outputs.2.checksums.sha512=a8e4302b6cdf6cc060726515b402b6c9867416572dba59ba6dcc29c8b4f94fe17f52f608a7f1f3e302f7c4917e31c9de80ec68aaabab0b8bb3360cc5ae2646a2
