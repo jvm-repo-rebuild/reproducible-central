@@ -1,4 +1,4 @@
-groupId=org.nlpub.watset
+groupId=org.nlpub
 artifactId=watset
 display=${groupId}:${artifactId}
 version=2.5.0
