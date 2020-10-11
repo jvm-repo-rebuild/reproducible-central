@@ -47,6 +47,6 @@ do
   else
     echo ": found ${latest}"
     # new release, create a new buildspec
-    echo "=> TODO create buildspec for ${latest} from ${version} ${bs}"
+    echo "=> TODO create buildspec for ${latest} from ${version}: execute ./add-new-release.sh ${bs} ${latest}"
   fi
 done

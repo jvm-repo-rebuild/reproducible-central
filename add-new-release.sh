@@ -13,3 +13,6 @@ nextBuildspec=${dir}/${file}-${nextVersion}.buildspec
 sed "s/^version=.*/version=${nextVersion}/" ${previousBuildspec} > ${nextBuildspec}
 
 ./rebuild.sh ${nextBuildspec}
+
+echo
+echo "if result is ok, run: git add -A ; git commit -m \"add ${artifactId} ${nextVersion}\" ; git push"
