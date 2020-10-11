@@ -1,0 +1,5 @@
+version=2.8.8
+ok=21
+ko=1
+okFiles="plexus-compiler-2.8.8-site.xml plexus-compiler-api-2.8.8.jar plexus-compiler-api-2.8.8-sources.jar plexus-compiler-manager-2.8.8.jar plexus-compiler-manager-2.8.8-sources.jar plexus-compiler-test-2.8.8.jar plexus-compiler-test-2.8.8-sources.jar plexus-compiler-aspectj-2.8.8.jar plexus-compiler-aspectj-2.8.8-sources.jar plexus-compiler-csharp-2.8.8.jar plexus-compiler-csharp-2.8.8-sources.jar plexus-compiler-eclipse-2.8.8.jar plexus-compiler-eclipse-2.8.8-sources.jar plexus-compiler-jikes-2.8.8.jar plexus-compiler-jikes-2.8.8-sources.jar plexus-compiler-javac-2.8.8.jar plexus-compiler-javac-2.8.8-sources.jar plexus-compiler-javac-errorprone-2.8.8.jar plexus-compiler-javac-errorprone-2.8.8-sources.jar plexus-compiler-j2objc-2.8.8.jar plexus-compiler-j2objc-2.8.8-sources.jar"
+koFiles="plexus-compiler-2.8.8-source-release.zip"
