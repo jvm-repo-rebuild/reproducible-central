@@ -6,6 +6,7 @@ echo "| -------------------------------- | -- | --------- | ------ |"
 anchor="empty"
 countGa=0
 countVersion=0
+countVersionOk=0
 
 for buildspec in `find content -name *.buildspec -print | sort`
 do
@@ -35,7 +36,7 @@ do
   if [ $? -eq 0 ]; then
     echo -n "["
     [ ${ok} -gt 0 ] && echo -n "${ok} :heavy_check_mark: "
-    [ ${ko} -gt 0 ] && echo -n " ${ko} :warning:"
+    [ ${ko} -gt 0 ] && echo -n " ${ko} :warning:" || ((countVersionOk++))
     echo -n "](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildinfoCompare}) "
   else
     echo -n ":x: "
@@ -44,7 +45,7 @@ do
 
 done
 
-echo "| **Count: ${countGa}** | **${countVersion}** | | |"
+echo "| **Count: ${countGa}** | **${countVersion}** | | **${countVersionOk}** :heavy_check_mark: **$((countVersion - countVersionOk))** :warning: |"
 ) > summary-table.md
 
 lead='^<!-- BEGIN GENERATED CONTENT -->$'
