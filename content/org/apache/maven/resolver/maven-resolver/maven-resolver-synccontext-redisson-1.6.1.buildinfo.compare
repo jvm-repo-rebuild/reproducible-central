@@ -1,0 +1,5 @@
+version=1.6.1
+ok=26
+ko=0
+okFiles="maven-resolver-1.6.1-site.xml maven-resolver-1.6.1-source-release.zip maven-resolver-api-1.6.1.jar maven-resolver-api-1.6.1-sources.jar maven-resolver-spi-1.6.1.jar maven-resolver-spi-1.6.1-sources.jar maven-resolver-test-util-1.6.1.jar maven-resolver-test-util-1.6.1-sources.jar maven-resolver-util-1.6.1.jar maven-resolver-util-1.6.1-sources.jar maven-resolver-impl-1.6.1.jar maven-resolver-impl-1.6.1-sources.jar maven-resolver-connector-basic-1.6.1.jar maven-resolver-connector-basic-1.6.1-sources.jar maven-resolver-transport-classpath-1.6.1.jar maven-resolver-transport-classpath-1.6.1-sources.jar maven-resolver-transport-file-1.6.1.jar maven-resolver-transport-file-1.6.1-sources.jar maven-resolver-transport-http-1.6.1.jar maven-resolver-transport-http-1.6.1-sources.jar maven-resolver-transport-wagon-1.6.1.jar maven-resolver-transport-wagon-1.6.1-sources.jar maven-resolver-synccontext-global-1.6.1.jar maven-resolver-synccontext-global-1.6.1-sources.jar maven-resolver-synccontext-redisson-1.6.1.jar maven-resolver-synccontext-redisson-1.6.1-sources.jar"
+koFiles=""
