@@ -1,0 +1,5 @@
+version=6.4
+ok=1
+ko=1
+okFiles="plexus-6.4-site.xml"
+koFiles="plexus-6.4-source-release.zip"
