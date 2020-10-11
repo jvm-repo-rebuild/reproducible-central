@@ -1,0 +1,5 @@
+version=1.0.4
+ok=2
+ko=1
+okFiles="org.apache.sling.installer.factory.packages-1.0.4.jar org.apache.sling.installer.factory.packages-1.0.4-source-release.zip"
+koFiles="org.apache.sling.installer.factory.packages-1.0.4-sources.jar"
