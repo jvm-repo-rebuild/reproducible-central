@@ -1,0 +1,4 @@
+ok=24
+ko=0
+okFiles="stamina_2.11-0.1.5.pom stamina_2.11-0.1.5.jar stamina_2.12-0.1.5.pom stamina_2.12-0.1.5.jar stamina_2.13-0.1.5.pom stamina_2.13-0.1.5.jar stamina-core_2.11-0.1.5.pom stamina-core_2.11-0.1.5.jar stamina-core_2.12-0.1.5.pom stamina-core_2.12-0.1.5.jar stamina-core_2.13-0.1.5.pom stamina-core_2.13-0.1.5.jar stamina-json_2.11-0.1.5.pom stamina-json_2.11-0.1.5.jar stamina-json_2.12-0.1.5.pom stamina-json_2.12-0.1.5.jar stamina-json_2.13-0.1.5.pom stamina-json_2.13-0.1.5.jar stamina-testkit_2.11-0.1.5.pom stamina-testkit_2.11-0.1.5.jar stamina-testkit_2.12-0.1.5.pom stamina-testkit_2.12-0.1.5.jar stamina-testkit_2.13-0.1.5.pom stamina-testkit_2.13-0.1.5.jar"
+koFiles=""
