@@ -1,0 +1,14 @@
+groupId=org.codehaus.plexus
+artifactId=plexus-archiver
+display=${groupId}:${artifactId}
+version=4.2.3
+
+gitRepo=https://github.com/codehaus-plexus/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=crlf
+
+command="mvn -Pplexus-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
