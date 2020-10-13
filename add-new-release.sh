@@ -15,4 +15,4 @@ sed "s/^version=.*/version=${nextVersion}/" ${previousBuildspec} > ${nextBuildsp
 ./rebuild.sh ${nextBuildspec}
 
 echo
-echo "if result is ok, run: git add -A ; git commit -m \"add ${artifactId} ${nextVersion}\" ; git push"
+echo -e "if result is ok, run: \e[1mgit add -A ; git commit -m \"add ${artifactId} ${nextVersion}\" ; git push\e[0m"
