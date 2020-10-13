@@ -36,6 +36,11 @@ do
     fi
   fi
   latest=`grep '<release>' ${mavenMetadata} | sed -e 's/.*>\(.*\)<.*/\1/g'`
+  dir=`dirname ${bs}`
+  file=`basename ${bs} -${version}.buildspec`
+  latestBuildspec=${dir}/${file}-${latest}.buildspec
+  [ -f ${latestBuildspec} ] && latest="${version}"
+
 
   if [[ "" == "${latest}" ]]
   then
