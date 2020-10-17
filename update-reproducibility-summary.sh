@@ -25,7 +25,6 @@ do
   [[ "${new_anchor}" != "${anchor}" ]] && echo -n "<a name='${new_anchor}'></a>[${display}](https://search.maven.org/artifact/${groupId}/${artifactId}) " && ((countGa++))
   anchor="${new_anchor}"
   echo -n "| [${version}](https://search.maven.org/artifact/${groupId}/${artifactId}/${version}/pom) "
-  [[ -z "${issue}" ]] || echo -n "[:beetle:](${issue}) "
   echo -n "| [spec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildspec}): "
   echo -n "[:notebook:](${gitRepo}) "
   echo -n "${tool} j${jdk} "
@@ -38,11 +37,12 @@ do
     echo -n "["
     [ ${ok} -gt 0 ] && echo -n "${ok} :heavy_check_mark: "
     [ ${ko} -gt 0 ] && echo -n " ${ko} :warning:" || ((countVersionOk++))
-    echo -n "](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildinfoCompare}) "
+    echo -n "](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildinfoCompare})"
   else
-    echo -n ":x: "
+    echo -n ":x:"
   fi
-  echo "|"
+  [[ -z "${issue}" ]] || echo -n "[:beetle:](${issue})"
+  echo " |"
 
 done
 
