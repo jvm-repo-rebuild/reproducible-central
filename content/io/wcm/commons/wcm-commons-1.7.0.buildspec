@@ -10,5 +10,5 @@ tool=mvn
 jdk=8
 newline=lf
 
-command="mvn -f commons clean package -DskipTests"
-buildinfo=dropwizard-archetypes/java-simple/target/java-simple-${version}.buildinfo
+command="mvn -f commons/pom.xml -Pio.wcm clean package -DskipTests -Dmaven.buildNumber.skip"
+buildinfo=commons/target/${artifactId}-${version}.buildinfo

@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=WCM Commons
+group-id=io.wcm
+artifact-id=io.wcm.wcm.commons
+version=1.7.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/wcm-io/wcm-io-wcm.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=io.wcm.wcm.commons-1.7.0.jar
+outputs.0.length=56229
+outputs.0.checksums.sha512=79a494202a0655c42add72b4e9cffc3e620967e5360b21c882b3c87400807e270be719a310ebb41b52579839544a098eb272a1a3dab86c993f3b41fa2828bf71
+
+outputs.1.filename=io.wcm.wcm.commons-1.7.0-sources.jar
+outputs.1.length=53639
+outputs.1.checksums.sha512=c19e3784859788afb4f971a704c599057210c7b746e1fcd99b488071ac097c59816cb613cc180fa8feaf4be9c61e8b295bbdfc2b90004d72208270c775cc22b3
