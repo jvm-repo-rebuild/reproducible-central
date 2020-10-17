@@ -12,3 +12,5 @@ newline=lf
 
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=jspwiki-it-tests/jspwiki-it-test-cma-jdbc/target/jspwiki-it-test-cma-jdbc-${version}.buildinfo
+
+issue=

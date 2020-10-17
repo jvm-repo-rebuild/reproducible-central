@@ -12,3 +12,5 @@ newline=crlf
 
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=wagon-providers/wagon-webdav-jackrabbit/target/wagon-webdav-jackrabbit-${version}.buildinfo
+
+issue=

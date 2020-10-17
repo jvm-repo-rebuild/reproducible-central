@@ -12,3 +12,5 @@ newline=lf
 
 command="mvn clean package -DskipTests"
 buildinfo=metrics-servlets/target/metrics-servlets-${version}.buildinfo
+
+issue=

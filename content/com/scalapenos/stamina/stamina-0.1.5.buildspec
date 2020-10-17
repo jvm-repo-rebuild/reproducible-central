@@ -12,3 +12,5 @@ newline=lf
 
 command="sbt +reproducibleBuildsCertification"
 buildinfo="target/scala-*/stamina*_*-$version.buildinfo */target/scala-*/stamina*_*-$version.buildinfo"
+
+issue=

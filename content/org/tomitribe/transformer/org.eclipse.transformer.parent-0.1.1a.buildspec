@@ -12,3 +12,5 @@ newline=lf
 
 command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=org.eclipse.transformer.maven/target/org.eclipse.transformer.maven-${version}.buildinfo
+
+issue=

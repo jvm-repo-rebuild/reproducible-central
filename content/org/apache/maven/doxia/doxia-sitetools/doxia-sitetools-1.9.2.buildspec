@@ -12,3 +12,5 @@ newline=lf
 
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=doxia-doc-renderer/target/doxia-doc-renderer-${version}.buildinfo
+
+issue=

@@ -12,3 +12,5 @@ newline=lf
 
 command="mvn clean package -Prelease -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=

@@ -12,3 +12,5 @@ newline=lf
 
 command="mvn clean package -DskipTests"
 buildinfo=dropwizard-archetypes/java-simple/target/java-simple-${version}.buildinfo
+
+issue=

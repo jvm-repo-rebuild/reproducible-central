@@ -12,3 +12,5 @@ newline=lf
 
 command="mvn -Papache-release,run-its clean package -DskipTests -Dinvoker.skip -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=

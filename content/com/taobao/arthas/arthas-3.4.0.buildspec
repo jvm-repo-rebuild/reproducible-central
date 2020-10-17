@@ -12,3 +12,5 @@ newline=lf
 
 command="mvn clean package -DskipTests -Drpm.disabled"
 buildinfo=tunnel-server/target/arthas-tunnel-server-${version}.buildinfo
+
+issue=
