@@ -3,7 +3,7 @@ artifactId=plc4x-parent
 display=${groupId}:plc4x
 version=0.7.0
 
-gitRepo=https://github.com/apache/${artifactId}.git
+gitRepo=https://github.com/apache/plc4x.git
 gitTag=release/${version}
 
 tool=mvn
