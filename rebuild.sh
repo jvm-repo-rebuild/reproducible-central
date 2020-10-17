@@ -6,26 +6,31 @@ fatal()
   exit 1
 }
 
+display()
+{
+  echo -e "- $1: \e[1m${!1}\e[0m"
+}
+
 buildspec=$1
 if [ -z "${buildspec}" ]
 then
   fatal "usage: buildspec"
 fi
 
-echo "Rebuilding from spec ${buildspec}"
+echo -e "Rebuilding from spec \e[1m${buildspec}\e[0m"
 
 . ${buildspec} || fatal "could not source ${buildspec}"
 
-echo "- groupId: ${groupId}"
-echo "- artifactId: ${artifactId}"
-echo "- version: ${version}"
-echo "- gitRepo: ${gitRepo}"
-echo "- gitTag: ${gitTag}"
-echo "- tool: ${tool}"
-echo "- jdk: ${jdk}"
-echo "- newline: ${newline}"
-echo "- command: ${command}"
-echo "- buildinfo: ${buildinfo}"
+display "groupId"
+display "artifactId"
+display "version"
+display "gitRepo"
+display "gitTag"
+display "tool"
+display "jdk"
+display "newline"
+display "command"
+display "buildinfo"
 
 base="$PWD"
 
@@ -45,7 +50,7 @@ then
   git ls-files --eol | grep w/lf | cut -c 40- | xargs -d '\n' unix2dos 2> /dev/null
 fi
 
-pwd
+echo -e "\e[1m$(pwd)\e[0m"
 
 mvnBuildDocker() {
   local mvnCommand mvnImage
