@@ -13,4 +13,4 @@ newline=lf
 command="mvn clean package -DskipTests -Drpm.disabled"
 buildinfo=tunnel-server/target/arthas-tunnel-server-${version}.buildinfo
 
-issue=
+issue=https://github.com/alibaba/arthas/commit/20f31d47f23b2ac79ea7cb335e335d5e7b1a552a

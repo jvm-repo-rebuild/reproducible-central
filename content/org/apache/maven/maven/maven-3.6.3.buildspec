@@ -3,7 +3,7 @@ artifactId=maven
 display=${groupId}:${artifactId}
 version=3.6.3
 
-gitRepo=https://github.com/apache/maven-${artifactId}.git
+gitRepo=https://github.com/apache/{artifactId}.git
 gitTag=${artifactId}-${version}
 
 tool=mvn
@@ -17,4 +17,4 @@ buildinfo=apache-maven/target/apache-maven-${version}.buildinfo
 # - wrong encoding in pom.xml from Git checkout: should we use -source-release.zip? should improve the git checkout configuration?
 # - issue in Maven 3.6.3 build: injects current year in generated NOTICE
 
-issue=
+issue=https://issues.apache.org/jira/browse/MNG-6859

@@ -19,7 +19,7 @@ artifactId=
 version=
 
 # Source code
-gitRepo=https://github.com/apache/${artifactId}.git
+gitRepo=https://github.com/project_org/${artifactId}.git
 gitTag=${artifactId}-${version}
 
 # Rebuild environment prerequisites
@@ -32,6 +32,9 @@ command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dg
 
 # Location of the buildinfo file generated during rebuild to record output fingerprints
 buildinfo=target/${artifactId}-${version}.buildinfo
+
+# if the release is finally not reproducible, link to an issue tracker entry if one was created
+issue=https://github.com/project_org/${artifactId}/issues/xx
 ```
 
 ## Parameters
@@ -44,6 +47,7 @@ buildinfo=target/${artifactId}-${version}.buildinfo
   - `newline`: `lf` or `crlf` (Windows), to match the environment used to build the reference release in Central Repository,
 - `command`: the effective rebuild command to match output in Central Repository
 - `buildinfo`: the location where to find the [`.buildinfo` file](https://reproducible-builds.org/docs/jvm/) that is generated during rebuild to record output fingerprints
+- `issue`: the url of an issue tracking the reproducibility issue, if release not reproducible and issue was created
 
 ### Known Simplifications
 
