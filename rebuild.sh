@@ -100,7 +100,10 @@ rebuildToolMvn() {
 
   dos2unix ${buildinfo}* || fatal "failed to convert buildinfo newlines"
   cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts"
-  cat ${buildinfo}*.compare
+  for f in ${buildinfo}*.compare ; do echo -e "\e[1mcat $(dirname ${buildspec})/$(basename $f)\e[0m:"; done
+  cat ${buildinfo}*.compare | sed 's/^/    /'
+  echo -e "build available in \e[1m$(dirname ${buildspec})/buildcache/${artifactId}\e[0m, where you can execute diffoscope:"
+  ls --color | sed 's/^/    /'
 }
 
 # rebuild with SBT tool (tool=sbt)
