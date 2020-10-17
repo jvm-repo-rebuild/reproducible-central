@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Components
+group-id=org.codehaus.plexus
+artifact-id=plexus-components
+version=6.5
+
+# source information
+source.scm.uri=scm:git:git@github.com:codehaus-plexus/plexus-components.git
+source.scm.tag=plexus-components-6.5
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.7.0_211
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T19:00:29Z)
+
+# output
+
+outputs.0.filename=plexus-components-6.5-site.xml
+outputs.0.length=287
+outputs.0.checksums.sha512=62eaff4e4d5ec7d8ebd1b7026cffb25f76d79b68e0a4906fdddc4c11526cef9aa97f865b63642060be2eed0273451e21083f7e5e185bf848e368211753f1bc59
+
+outputs.1.filename=plexus-components-6.5-source-release.zip
+outputs.1.length=4376
+outputs.1.checksums.sha512=0379e927b59feef5f0f2064e77c97a56453a532fe1b230b26ede6a39c0dc447f6471782721635805461411bc06a19319cc285d0dcc696cc2f0b8b15a2ead744c
