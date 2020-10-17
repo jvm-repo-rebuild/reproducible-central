@@ -47,7 +47,7 @@ If a rebuild published here is not fully reproducible (it has some :warning:), t
 You'll need to rebuild the release yourself (see previous instructions), then use [diffoscope](https://diffoscope.org/) to easily explore precise difference
 between reference file from Central Repository and effective rebuild file, then debug up to the root cause of this unwanted difference:
 - rebuilder bug: if the improvement has to happen at [buildspec](BUILDSPEC.md) or [rebuild script](rebuild.sh) level, don't hesitate to open an issue or a PR here,
-- upstream project reproducibility issue: please contact the upstream project and help them improve the reproducibility for their next release.
+- upstream project reproducibility issue :beetle:: please contact the upstream project and help them improve the reproducibility for their next release, creating an issue in their issue tracker and adding it to Reproducible Central buildspec as `issue` parameter that will link to it with a :beetle:.
 
 </details>
 
