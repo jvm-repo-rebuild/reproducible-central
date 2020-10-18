@@ -107,8 +107,8 @@ rebuildToolMvn() {
   cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts"
   for f in ${buildinfo}*.compare ; do echo -e "rebuilding from \e[1m${buildspec}\e[0m results in \e[1mcat $(dirname ${buildspec})/$(basename $f)\e[0m:"; done
   cat ${buildinfo}*.compare | sed 's/^/    /'
-  echo -e "build available in \e[1m$(dirname ${buildspec})/buildcache/${artifactId}\e[0m, where you can execute diffoscope:"
-  ls --color | sed 's/^/    /'
+  echo -e "build available in \e[1m$(dirname ${buildspec})/buildcache/${artifactId}\e[0m, where you can execute diffoscope"
+  echo -e "run diffoscope as container with \e[1mdocker run --rm -t -w /mnt -v $(pwd)/${buildspec})/buildcache/${artifactId}:/mnt:ro registry.salsa.debian.org/reproducible-builds/diffoscope\e[0m"
 }
 
 # rebuild with SBT tool (tool=sbt)
