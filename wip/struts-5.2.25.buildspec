@@ -1,0 +1,17 @@
+groupId=org.apache.struts
+artifactId=struts2-parent
+display=${groupId}:struts2
+version=2.5.25
+
+gitRepo=https://github.com/apache/struts.git
+gitTag=STRUTS_$(echo ${version} | tr . _)
+
+tool=mvn
+jdk=8
+newline=crlf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=assembly/target/struts2-assembly-${version}.buildinfo
+
+# require wget in last module
+issue=
