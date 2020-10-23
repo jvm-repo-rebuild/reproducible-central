@@ -48,10 +48,10 @@ do
     cat ${mavenMetadata}
   elif [[ "${version}" == "${latest}" ]]
   then
-    echo -ne "\r\e[2K"
+    echo -ne "\r\033[2K"
   else
     echo ": found ${latest}"
     # new release, create a new buildspec
-    echo -e "=> TODO create buildspec for ${latest} from ${version}: run \e[1m./add-new-release.sh ${bs} ${latest}\e[0m"
+    echo -e "=> TODO create buildspec for ${latest} from ${version}: run \033[1m./add-new-release.sh ${bs} ${latest}\033[0m"
   fi
 done

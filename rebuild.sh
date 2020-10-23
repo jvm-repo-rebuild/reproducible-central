@@ -8,7 +8,7 @@ fatal()
 
 display()
 {
-  echo -e "- $1: \e[1m${!1}\e[0m"
+  echo -e "- $1: \033[1m${!1}\033[0m"
 }
 
 buildspec=$1
@@ -17,7 +17,7 @@ then
   fatal "usage: buildspec"
 fi
 
-echo -e "Rebuilding from spec \e[1m${buildspec}\e[0m"
+echo -e "Rebuilding from spec \033[1m${buildspec}\033[0m"
 
 . ${buildspec} || fatal "could not source ${buildspec}"
 
@@ -50,7 +50,7 @@ then
   git ls-files --eol | grep w/lf | cut -c 40- | xargs -d '\n' unix2dos 2> /dev/null
 fi
 
-echo -e "\e[1m$(pwd)\e[0m"
+echo -e "\033[1m$(pwd)\033[0m"
 
 mvnBuildDocker() {
   local mvnCommand mvnImage
@@ -105,10 +105,10 @@ rebuildToolMvn() {
 
   dos2unix ${buildinfo}* || fatal "failed to convert buildinfo newlines"
   cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts"
-  for f in ${buildinfo}*.compare ; do echo -e "rebuilding from \e[1m${buildspec}\e[0m results in \e[1mcat $(dirname ${buildspec})/$(basename $f)\e[0m:"; done
+  for f in ${buildinfo}*.compare ; do echo -e "rebuilding from \033[1m${buildspec}\033[0m results in \033[1mcat $(dirname ${buildspec})/$(basename $f)\033[0m:"; done
   cat ${buildinfo}*.compare | sed 's/^/    /'
-  echo -e "build available in \e[1m$(dirname ${buildspec})/buildcache/${artifactId}\e[0m, where you can execute diffoscope"
-  echo -e "run diffoscope as container with \e[1mdocker run --rm -t -w /mnt -v $(pwd)/${buildspec})/buildcache/${artifactId}:/mnt:ro registry.salsa.debian.org/reproducible-builds/diffoscope\e[0m"
+  echo -e "build available in \033[1m$(dirname ${buildspec})/buildcache/${artifactId}\033[0m, where you can execute diffoscope"
+  echo -e "run diffoscope as container with \033[1mdocker run --rm -t -w /mnt -v $(pwd)/${buildspec})/buildcache/${artifactId}:/mnt:ro registry.salsa.debian.org/reproducible-builds/diffoscope\033[0m"
 }
 
 # rebuild with SBT tool (tool=sbt)
