@@ -37,6 +37,16 @@ buildinfo=target/${artifactId}-${version}.buildinfo
 issue=https://github.com/project_org/${artifactId}/issues/xx
 ```
 
+## Writing A New Buildspec
+
+To facilitate the job, here are step by step instructions:
+
+1. copy `template.buildspec` to `wip/` directory with appropriate final name: `cp template.buildspec wip/[project]-[version].buildspec`
+2. update the file with data from the project release you're rebuilding: fill empty values, update default value with content customized to your project. See next "Parameters" section to get more details on each parameter definition.
+3. try to rebuild from your buildspec: `./rebuild wip/[project]-[version].buildspec`
+4. if result shows some differences between the rebuild and reference artifacts, copy paste the diffoscope commands provided (eventually with the Docker diffosccope image) to find differences, then define if buildspec instructions can be improved or if the release is definitely not reproducible
+5. once best efforts have been done, please provide us a Pull Request: even if the buildspec is not perfect, ie does not permit to reproduce the reference artifacts, it is a basis that will help us.
+
 ## Parameters
 
 - `groupId`, `artifactId` and `version` are not really used to do the rebuild, but to point to the reference output files in Central Repository in the final report.

@@ -17,7 +17,7 @@ equivalent to the packaging instructions that are maintained by every Linux dist
     
     * [Docker](https://www.docker.com)
     
-    * `dos2unix` - DOS/MAC to UNIX text file format converter. 
+    * `dos2unix` - DOS to MAC/UNIX text file format converter. 
       
       Can be installed via [homebrew](https://brew.sh) on MAC via: `brew install dos2unix`.
    </details>
@@ -28,7 +28,7 @@ You can rebuild a project release by running:
 ```
 `rebuild.sh` script will use the build specification file (= [`.buildspec` file](BUILDSPEC.md)) to choose a Docker container to rebuild the project and check output against Central Repository reference binaries.
 
-To rebuild every project with build instructions available in this Git repository, just run:
+To rebuild every project with build instructions available in this Git repository, just run (and wait for hours...):
 ```
 find content -name *.buildspec -exec ./rebuild.sh {} \;
 ```
@@ -36,7 +36,9 @@ find content -name *.buildspec -exec ./rebuild.sh {} \;
 
 <details><summary><b>Contribute A New Build Spec</b></summary>
 
-If you know a project released to Central Repository that is expected to provide Reproducible Builds, please tell us by opening an issue with details. Even better, you can provide a PR containing a [`.buildspec` build specification file](BUILDSPEC.md). Please also include in the PR the generated `.buildinfo` and `.buildinfo.compare` files so we can verify the same results you see.  
+If you know a project released to Central Repository that is expected to provide Reproducible Builds, please tell us by opening an issue with details. Please check that it is not already in our [list of projects waiting for a buildspec](https://github.com/jvm-repo-rebuild/reproducible-central/issues/42).
+
+Even better, you can provide a PR containing a [`.buildspec` build specification file (and instructions to write a new one)](BUILDSPEC.md).
 
 </details>
 

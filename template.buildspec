@@ -1,0 +1,26 @@
+# see instructions https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/BUILDSPEC.md
+
+# Central Repository coordinates for the Reference release
+groupId=
+artifactId=
+version=
+
+display=${groupId}:${artifactId}
+
+# Source code
+gitRepo=https://github.com/project_org/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+# Rebuild environment prerequisites
+tool=mvn
+jdk=8
+newline=lf
+
+# Rebuild command
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+# Location of the buildinfo file generated during rebuild to record output fingerprints
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+# if the release is finally not reproducible, link to an issue tracker entry if one was created
+issue=
