@@ -13,14 +13,14 @@ gitTag=release-${version}
 
 # Rebuild environment prerequisites
 tool=mvn
-jdk=8
-newline=lf
+jdk=11
+newline=crlf
 
 # Rebuild command
-command="mvn -Prelease clean install -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 
 # Location of the buildinfo file generated during rebuild to record output fingerprints
-buildinfo=target/${artifactId}-${version}.buildinfo
+buildinfo=bom/target/quick-perf-bom-${version}.buildinfo
 
 # if the release is finally not reproducible, link to an issue tracker entry if one was created
 issue=
