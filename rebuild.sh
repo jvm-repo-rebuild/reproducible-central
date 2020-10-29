@@ -55,13 +55,19 @@ echo -e "\033[1m$(pwd)\033[0m"
 mvnBuildDocker() {
   local mvnCommand mvnImage
   mvnCommand="$1"
-  # select Docker image to match required JDK version
+  # select Docker image to match required JDK version: https://hub.docker.com/_/maven
   case ${jdk} in
     6 | 7)
       mvnImage=maven:3.6.1-jdk-${jdk}-alpine
       ;;
     9)
       mvnImage=maven:3-jdk-${jdk}-slim
+      ;;
+    14)
+      mvnImage=maven:3.6.3-jdk-${jdk}
+      ;;
+    15)
+      mvnImage=maven:3.6.3-openjdk-${jdk}
       ;;
     *)
       mvnImage=maven:3.6.3-jdk-${jdk}-slim
@@ -108,7 +114,7 @@ rebuildToolMvn() {
   for f in ${buildinfo}*.compare ; do echo -e "rebuilding from \033[1m${buildspec}\033[0m results in \033[1mcat $(dirname ${buildspec})/$(basename $f)\033[0m:"; done
   cat ${buildinfo}*.compare | sed 's/^/    /'
   echo -e "build available in \033[1m$(dirname ${buildspec})/buildcache/${artifactId}\033[0m, where you can execute diffoscope"
-  echo -e "run diffoscope as container with \033[1mdocker run --rm -t -w /mnt -v $(pwd)/${buildspec})/buildcache/${artifactId}:/mnt:ro registry.salsa.debian.org/reproducible-builds/diffoscope\033[0m"
+  echo -e "run diffoscope as container with \033[1mdocker run --rm -t -w /mnt -v $(pwd)/${buildspec}/buildcache/${artifactId}:/mnt:ro registry.salsa.debian.org/reproducible-builds/diffoscope\033[0m"
 }
 
 # rebuild with SBT tool (tool=sbt)
