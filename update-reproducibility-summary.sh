@@ -8,7 +8,7 @@ countGa=0
 countVersion=0
 countVersionOk=0
 
-for buildspec in `find content -name *.buildspec -print | sort`
+for buildspec in `find content -name "*.buildspec" -print | sort`
 do
   ((countVersion++))
   . $buildspec

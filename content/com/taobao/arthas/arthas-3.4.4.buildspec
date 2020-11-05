@@ -13,4 +13,4 @@ newline=lf
 command="mvn clean package -DskipTests -Drpm.disabled"
 buildinfo=tunnel-server/target/arthas-tunnel-server-${version}.buildinfo
 
-issue="TODO: reference release done from a dirty Git workspace"
+issue="http://TODO#reference_release_done_from_a_dirty_Git_workspace"
