@@ -1,0 +1,5 @@
+version=3.4.4
+ok=0
+ko=36
+okFiles=""
+koFiles="arthas-spy.jar arthas-spy-sources.jar arthas-common.jar arthas-common-sources.jar arthas-tunnel-common.jar arthas-tunnel-common-sources.jar arthas-tunnel-client.jar arthas-tunnel-client-sources.jar arthas-agent.jar arthas-agent-sources.jar arthas-demo.jar arthas-demo-sources.jar arthas-core.jar arthas-core-sources.jar arthas-agent.jar arthas-agent-sources.jar arthas-agent-jar-with-dependencies.jar arthas-client.jar arthas-client-sources.jar arthas-client-jar-with-dependencies.jar arthas-boot.jar arthas-boot-sources.jar arthas-boot-jar-with-dependencies.jar arthas-agent-attach-3.4.4.jar arthas-agent-attach-3.4.4-sources.jar arthas-site-3.4.4.jar arthas.jar arthas-bin.zip arthas-3.4.4.deb arthas-spring-boot-starter-3.4.4.jar arthas-spring-boot-starter-3.4.4-sources.jar arthas-testcase-3.4.4.jar arthas-testcase-3.4.4-sources.jar arthas-tunnel-server-3.4.4.jar arthas-tunnel-server-3.4.4-fatjar.jar arthas-tunnel-server-3.4.4-sources.jar"
