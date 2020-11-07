@@ -1,0 +1,5 @@
+version=1.5.0
+ok=2
+ko=0
+okFiles="io.wcm.wcm.parsys-1.5.0.jar io.wcm.wcm.parsys-1.5.0-sources.jar"
+koFiles=""

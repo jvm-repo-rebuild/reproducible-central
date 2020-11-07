@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=WCM Parsys
+group-id=io.wcm
+artifact-id=io.wcm.wcm.parsys
+version=1.5.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/wcm-io/wcm-io-wcm.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=io.wcm.wcm.parsys-1.5.0.jar
+outputs.0.length=45931
+outputs.0.checksums.sha512=0cd0c815163d3701834e3fa9654dc8145492e3a155f113c46776d33e2a1c323e079ffff70e7d72318ec8434fe37f736c2cd0f18d492b5139cd0700569e36fb45
+
+outputs.1.filename=io.wcm.wcm.parsys-1.5.0-sources.jar
+outputs.1.length=35376
+outputs.1.checksums.sha512=4d15f23866d5ae1b2fc6c6ca0c18bd1608c48fc79a99968b06359ba8b52da9db9580b4850556dbbecef7f91c56116fd215b8f76d2cf9c84f8c7f8f910d55e600
