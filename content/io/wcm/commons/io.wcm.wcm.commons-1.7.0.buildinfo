@@ -24,9 +24,9 @@ mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 # output
 
 outputs.0.filename=io.wcm.wcm.commons-1.7.0.jar
-outputs.0.length=56229
-outputs.0.checksums.sha512=79a494202a0655c42add72b4e9cffc3e620967e5360b21c882b3c87400807e270be719a310ebb41b52579839544a098eb272a1a3dab86c993f3b41fa2828bf71
+outputs.0.length=56242
+outputs.0.checksums.sha512=8f37c2d62b88fb2fd0bcb128d3972164497a49b44b4898c39f15ef2bbbbf2db0032b17c2a346957d03b18820a2cd4614827355d16573cc2d40a35a185292e146
 
 outputs.1.filename=io.wcm.wcm.commons-1.7.0-sources.jar
-outputs.1.length=53639
-outputs.1.checksums.sha512=c19e3784859788afb4f971a704c599057210c7b746e1fcd99b488071ac097c59816cb613cc180fa8feaf4be9c61e8b295bbdfc2b90004d72208270c775cc22b3
+outputs.1.length=53642
+outputs.1.checksums.sha512=33c6532919aa5bad1abcc1fd0f1ac40c9159885a80b6d1b887445dd2d78f688cfe8f46cdfe6ee380181d7428a210ca11b03a46493e8a520bb3a6e7e7caa7acf8
