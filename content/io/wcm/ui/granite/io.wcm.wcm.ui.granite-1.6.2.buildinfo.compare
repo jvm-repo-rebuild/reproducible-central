@@ -1,0 +1,5 @@
+version=1.6.2
+ok=2
+ko=0
+okFiles="io.wcm.wcm.ui.granite-1.6.2.jar io.wcm.wcm.ui.granite-1.6.2-sources.jar"
+koFiles=""

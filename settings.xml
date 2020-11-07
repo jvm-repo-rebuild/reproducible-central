@@ -37,6 +37,18 @@
             <enabled>false</enabled>
           </snapshots>
         </repository>
+        <repository>
+          <id>maven-nodejs-proxy</id>
+          <url>https://maven-nodejs-proxy.pvtool.org</url>
+          <layout>default</layout>
+          <releases>
+            <enabled>true</enabled>
+            <updatePolicy>never</updatePolicy>
+          </releases>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+        </repository>
       </repositories>
       
       <pluginRepositories>
