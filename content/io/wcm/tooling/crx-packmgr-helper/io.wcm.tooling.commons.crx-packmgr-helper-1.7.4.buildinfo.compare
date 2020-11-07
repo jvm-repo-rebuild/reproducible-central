@@ -1,0 +1,5 @@
+version=1.7.4
+ok=2
+ko=0
+okFiles="io.wcm.tooling.commons.crx-packmgr-helper-1.7.4.jar io.wcm.tooling.commons.crx-packmgr-helper-1.7.4-sources.jar"
+koFiles=""
