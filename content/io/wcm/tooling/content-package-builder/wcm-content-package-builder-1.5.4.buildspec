@@ -1,0 +1,14 @@
+groupId=io.wcm.tooling.commons
+artifactId=io.wcm.tooling.commons.content-package-builder
+display=${groupId}:content-package-builder
+version=1.5.4
+
+gitRepo=https://github.com/wcm-io/wcm-io-tooling.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=crlf-nogit
+
+command="mvn -f commons/content-package-builder/pom.xml -Pio.wcm clean package -DskipTests -Dmaven.buildNumber.skip -DbuildNumber=86db1c72 -Dtimestamp=2020-07-10T19:39:45+02:00"
+buildinfo=commons/content-package-builder/target/${artifactId}-${version}.buildinfo
