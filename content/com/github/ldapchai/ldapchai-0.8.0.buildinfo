@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=LDAP Chai Library
+group-id=com.github.ldapchai
+artifact-id=ldapchai
+version=0.8.0
+
+# source information
+source.scm.uri=scm:git:git@www.github.com:ldapchai/ldapchai.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=15.0.1
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=ldapchai-0.8.0.jar
+outputs.0.length=711372
+outputs.0.checksums.sha512=c9aa69fe94221d1de561e9c840d6a69cf7a1b41804d1b9d9cd2f96822b1b71efa10e34519358ce95542ab37ca84dd20245cc334c00686b81ab59fc6ab3b1b9bf
+
+outputs.1.filename=ldapchai-0.8.0-sources.jar
+outputs.1.length=588975
+outputs.1.checksums.sha512=f4a98e84d95360d876dadfa95c3dce133dabe6f175e38b1719586a4aaa0bb56067af9c76cd83d60acdb8a7541aa5c4591ccea023180006a54110f6552ca454cc
