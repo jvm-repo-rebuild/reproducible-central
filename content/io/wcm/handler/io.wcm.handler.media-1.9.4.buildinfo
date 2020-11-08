@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Media Handler
+group-id=io.wcm
+artifact-id=io.wcm.handler.media
+version=1.9.4
+
+# source information
+source.scm.uri=scm:git:https://github.com/wcm-io/wcm-io-handler.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=io.wcm.handler.media-1.9.4.jar
+outputs.0.length=276353
+outputs.0.checksums.sha512=5cb0c242f4b9a2f6135b587088e8de02377a151bb7e4bf83ffdc648be5b2406b5d8bee2c783f835a43b363a212ab1b595a042bb58f5a4a89b5beed7aad4db88e
+
+outputs.1.filename=io.wcm.handler.media-1.9.4-sources.jar
+outputs.1.length=218735
+outputs.1.checksums.sha512=379396aa5405dadeefccb99169ce21c6fd069adb757ed13cbb58ffbffb2442d6fdb52901d3931a5f32de28ff12f3f2bc214a09ddb7a4faf233e44be342081cce
