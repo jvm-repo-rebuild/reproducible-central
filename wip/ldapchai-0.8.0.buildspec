@@ -23,4 +23,4 @@ command="mvn clean package -DskipJavadoc=true -Dcheckstyle.skip=true -Dmaven.tes
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 # if the release is finally not reproducible, link to an issue tracker entry if one was created
-issue=
+issue=https://github.com/ldapchai/ldapchai/pull/24
