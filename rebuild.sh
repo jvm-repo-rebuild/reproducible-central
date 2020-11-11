@@ -155,6 +155,6 @@ case ${tool} in
     fatal "build tool not yet supported: ${tool}"
 esac
 
-git reset --hard
+#git reset --hard
 
 popd > /dev/null
