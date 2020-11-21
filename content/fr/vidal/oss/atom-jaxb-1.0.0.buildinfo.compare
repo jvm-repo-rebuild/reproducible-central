@@ -1,0 +1,5 @@
+version=1.0.0
+ok=0
+ko=3
+okFiles=""
+koFiles="atom-jaxb-1.0.0.jar atom-jaxb-1.0.0-sources.jar atom-jaxb-1.0.0-tests.jar"
