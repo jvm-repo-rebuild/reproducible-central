@@ -1,0 +1,5 @@
+version=3.0.0
+ok=3
+ko=0
+okFiles="maven-jlink-plugin-3.0.0.jar maven-jlink-plugin-3.0.0-source-release.zip maven-jlink-plugin-3.0.0-sources.jar"
+koFiles=""
