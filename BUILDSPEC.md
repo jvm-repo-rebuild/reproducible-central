@@ -69,3 +69,11 @@ Then there are some simplifications done for now to match current ambition:
 - `gitRepo`: current rebuild script only supports Git, which has been sufficient for now,
 - `tool`: current build spec does not specify a precise tool version, as it was not yet required: rebuild script chooses arbitrarily,
 - `jdk`: only major JDK version is provided, as tests have shown that it is in general sufficient to get reproducible bytecode: rebuild script will choose on its own JVM provider and JDK minor version
+
+## Known Issues
+
+### `newline=crlf` for JDK > 8
+
+Rebuild happens with Docker, then with Linux OS: to rebuild reference releases done on Windows, `-Dline.separator=$'\r\n'` is injected to `mvn` command line to define Windows line separator. Experience shows that this workaround **only works until JDK 8, but not on more recent JDKs**.
+
+Research showed that given this line separator is in jected as `mvn` option instead of `java` option, it is set by Maven code during execution, then it does not override JVM initial value that was already cached (see [System.getProperties() API note](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/System.html#getProperties())). When it is injected direclty at `java` command line level, cached value takes the value into account: the only issue is to find a way to inject in our rebuild script (manual test done required to update `mvn` shell script to use `bash` and add `-Dline.separator=$'\r\n'` directly in the last line launching `java`).
