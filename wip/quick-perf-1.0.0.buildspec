@@ -1,9 +1,10 @@
 # see instructions https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/BUILDSPEC.md
+# see instructions https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/BUILDSPEC.md
 
 # Central Repository coordinates for the Reference release
 groupId=org.quickperf
 artifactId=quick-perf
-version=1.0.0-RC7
+version=1.0.0
 
 display=${groupId}:${artifactId}
 
@@ -23,4 +24,4 @@ command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=bom/target/quick-perf-bom-${version}.buildinfo
 
 # if the release is finally not reproducible, link to an issue tracker entry if one was created
-issue=https://github.com/quick-perf/quickperf/issues/126
+issue=
