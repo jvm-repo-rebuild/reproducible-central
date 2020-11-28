@@ -1,0 +1,5 @@
+version=0.2.0
+ok=2
+ko=0
+okFiles="complate-core-0.2.0.jar complate-core-0.2.0-sources.jar"
+koFiles=""
