@@ -53,12 +53,18 @@ fi
 echo -e "\033[1m$(pwd)\033[0m"
 
 mvnBuildDocker() {
-  local mvnCommand mvnImage
+  local mvnCommand mvnImage crlfDocker
   mvnCommand="$1"
+  crlfDocker="no"
   # select Docker image to match required JDK version: https://hub.docker.com/_/maven
   case ${jdk} in
     6 | 7)
       mvnImage=maven:3.6.1-jdk-${jdk}-alpine
+      crlfDocker="yes"
+      ;;
+    8)
+      mvnImage=maven:3.6.3-jdk-${jdk}-slim
+      crlfDocker="yes"
       ;;
     9)
       mvnImage=maven:3-jdk-${jdk}-slim
@@ -78,7 +84,14 @@ mvnBuildDocker() {
   local mvn_docker_params="-Duser.home=/var/maven"
   if [[ "${newline}" == crlf* ]]
   then
-    ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params} -Dline.separator=$'\r\n'
+    if [[ "${crlfDocker}" == "yes" ]]
+    then
+      ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params} -Dline.separator=$'\r\n'
+    else
+      echo -e "\033[1mCannot rebuild automatically with Docker\033[0m when line.separator=crlf and JDK is ${jdk}"
+      echo "Please switch to JDK ${jdk} and build with mvncrlf: \033[1m$(echo "${mvnCommand}" | sed "s/^mvn /mvncrlf /")\033[0m"
+      read
+    fi
   else
     ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params}
   fi
