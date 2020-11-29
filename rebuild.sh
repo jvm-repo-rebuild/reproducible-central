@@ -89,7 +89,7 @@ mvnBuildDocker() {
       ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params} -Dline.separator=$'\r\n'
     else
       echo -e "\033[1mCannot rebuild automatically with Docker\033[0m when line.separator=crlf and JDK is ${jdk}"
-      echo "Please switch to JDK ${jdk} and build with mvncrlf: \033[1m$(echo "${mvnCommand}" | sed "s/^mvn /mvncrlf /")\033[0m"
+      echo -e "Please switch to JDK ${jdk} and build with mvncrlf: \033[1m$(echo "${mvnCommand}" | sed "s/^mvn /mvncrlf /")\033[0m"
       read
     fi
   else
