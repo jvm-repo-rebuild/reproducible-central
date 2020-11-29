@@ -77,3 +77,10 @@ Then there are some simplifications done for now to match current ambition:
 Rebuild happens with Docker, then with Linux OS: to rebuild reference releases done on Windows, `-Dline.separator=$'\r\n'` is injected to `mvn` command line to define Windows line separator. Experience shows that this workaround **only works until JDK 8, but not on more recent JDKs**.
 
 Research showed that given this line separator is in jected as `mvn` option instead of `java` option, it is set by Maven code during execution, then it does not override JVM initial value that was already cached (see [System.getProperties() API note](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/System.html#getProperties())). When it is injected direclty at `java` command line level, cached value takes the value into account: the only issue is to find a way to inject in our rebuild script (manual test done required to update `mvn` shell script to use `bash` and add `-Dline.separator=$'\r\n'` directly in the last line launching `java`).
+
+For example, we can create a `mvncrlf` script by running
+```
+sed s_/bin/sh_/bin/bash_ `which  mvn` | sed "s_-classpath_-Dline.separator=$'\\\\r\\\\n' -classpath_" > `which  mvn`crlf && chmod a+x `which  mvn`crlf`
+```
+
+This `mvncrlf` script defines Windows line separator directly for `java`, which is not yet integrated into `rebuild.sh`script, but it's a first step...
