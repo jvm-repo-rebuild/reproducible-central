@@ -13,4 +13,4 @@ newline=lf
 command="mvn clean package -DskipTests -Drpm.disabled"
 buildinfo=tunnel-server/target/arthas-tunnel-server-${version}.buildinfo
 
-issue="http://TODO#reference_release_done_from_a_dirty_Git_workspace"
+issue="https://github.com/alibaba/arthas/pull/1604"
