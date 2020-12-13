@@ -1,0 +1,5 @@
+version=1.3
+ok=3
+ko=0
+okFiles="maven-script-interpreter-1.3.jar maven-script-interpreter-1.3-source-release.zip maven-script-interpreter-1.3-sources.jar"
+koFiles=""
