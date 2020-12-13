@@ -126,10 +126,27 @@ rebuildToolMvn() {
 
   dos2unix ${buildinfo}* || fatal "failed to convert buildinfo newlines"
   cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts"
-  for f in ${buildinfo}*.compare ; do echo -e "rebuilding from \033[1m${buildspec}\033[0m results in \033[1mcat $(dirname ${buildspec})/$(basename $f)\033[0m:"; done
-  cat ${buildinfo}*.compare | sed 's/^/    /'
-  echo -e "build available in \033[1m$(dirname ${buildspec})/buildcache/${artifactId}\033[0m, where you can execute diffoscope"
-  echo -e "run diffoscope as container with \033[1mdocker run --rm -t -w /mnt -v $(pwd)/${buildspec}/buildcache/${artifactId}:/mnt:ro registry.salsa.debian.org/reproducible-builds/diffoscope\033[0m"
+
+  echo
+  echo -e "rebuild from \033[1m${buildspec}\033[0m"
+  for f in ${buildinfo}*.compare
+  do
+    echo -e "  results in \033[1m$(dirname ${buildspec})/$(basename $f .buildinfo.compare).buildinfo\033[0m"
+    echo -e "compared to Central Repository \033[1m$(dirname ${buildspec})/$(basename $f)\033[0m:"
+  done
+  . ${buildinfo}*.compare
+  if [[ ${ko} > 0 ]]
+  then
+    echo -e "    ok=${ok}"
+    echo -e "    okFiles=\"${okFiles}\""
+    echo -e "    \033[31;1mko=${ko}\033[0m"
+    echo -e "    koFiles=\"${koFiles}\""
+    echo -e "build available in \033[1m$(dirname ${buildspec})/buildcache/${artifactId}\033[0m, where you can execute \033[36mdiffoscope\033[0m"
+    echo -e "run \033[36mdiffoscope\033[0m as container with \033[1mdocker run --rm -t -w /mnt -v $(pwd)/${buildspec}/buildcache/${artifactId}:/mnt:ro registry.salsa.debian.org/reproducible-builds/diffoscope\033[0m"
+  else
+    echo -e "    \033[32;1mok=${ok}\033[0m"
+    echo -e "    okFiles=\"${okFiles}\""
+  fi
 }
 
 # rebuild with SBT tool (tool=sbt)
