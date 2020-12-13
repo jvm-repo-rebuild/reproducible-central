@@ -48,7 +48,7 @@ case "`uname`" in
 esac
 
 ## resolve links - $0 may be a link to Maven's home
-PRG="`which mvn`"
+PRG="/usr/share/maven/bin/mvncrlf"
 
 # need this for relative symlinks
 while [ -h "$PRG" ] ; do
