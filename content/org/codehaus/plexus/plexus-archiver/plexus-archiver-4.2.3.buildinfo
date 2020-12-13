@@ -29,7 +29,7 @@ outputs.0.checksums.sha512=98f812b1dfb89852b4e929b37160bb1ea7cb7f57072879143058a
 
 outputs.1.filename=plexus-archiver-4.2.3-source-release.zip
 outputs.1.length=1053174
-outputs.1.checksums.sha512=8f4faeeb5a921e17b7a3548ece2cd0b47a44132777ee566fd95524a944fac722f4ba9752c2a85925040979fc46d5c0f40ab5d671f30bbf02d5f0dfb8f5dbbca1
+outputs.1.checksums.sha512=0728ae536cdf9447251dd3045cc33906649062b0f1e10c5263b752e94487940db012535cc9123d486ecf644f057eeea03208202084d7cfdd9c1a650cf88d5c83
 
 outputs.2.filename=plexus-archiver-4.2.3-sources.jar
 outputs.2.length=149356
