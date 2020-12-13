@@ -1,0 +1,16 @@
+groupId=net.sourceforge.pmd
+artifactId=pmd
+display=${groupId}:${artifactId}
+version=6.30.0
+
+gitRepo=https://github.com/pmd/${artifactId}.git
+gitTag=pmd_releases/${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn -Ppmd-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=pmd-scala-modules/pmd-scala_2.12/target/pmd-scala_2.12-${version}.buildinfo
+
+issue=https://github.com/pmd/pmd/issues/2970
