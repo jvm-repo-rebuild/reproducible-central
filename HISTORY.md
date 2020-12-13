@@ -10,6 +10,15 @@ Reproducible Central has been built in 2 steps:
    extension of the tests to automatically rebuild and really check against reference artifacts,
    now that there is a chance to get the same output.
 
+## December 2020: Atuomatic Rebuild for Windows and JDK > 8
+
+Rebuild happens with Docker, then with Linux OS: to rebuild reference releases done on Windows, `-Dline.separator=$'\r\n'` is injected to `mvn` command line to define Windows line separator. Experience shows that this workaround **only works until JDK 8, but not on more recent JDKs**.
+
+Research showed that given this line separator is in jected as `mvn` option instead of `java` option, it is set by Maven code during execution, then it does not override JVM initial value that was already cached (see [System.getProperties() API note](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/System.html#getProperties())). When it is injected direclty at `java` command line level, cached value takes the value into account: the only issue is to find a way to inject in our rebuild script (manual test done required to update `mvn` shell script to use `bash` and add `-Dline.separator=$'\r\n'` directly in the last line launching `java`).
+
+This trick has been coded in `mvncrlf` script, that is then injected to the rebuild command in `rebuild.sh` script: see 42f5d36dadcfdd71399912e320887524022367da.
+
+
 ## March 2020: Effective Reproducible Builds Checks
 
 - [Plexus Archiver](https://codehaus-plexus.github.io/plexus-archiver/) = `org.codehaus.plexus:`[`plexus-archiver:*`](https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/)\
