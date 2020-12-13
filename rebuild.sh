@@ -89,9 +89,9 @@ mvnBuildDocker() {
       echo -e "\033[2m${docker_command} ${mvnImage} \033[1m${mvnCommand} ${mvn_docker_params} -Dline.separator=\$'\\\\r\\\\n'\033[0m"
       ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params} -Dline.separator=$'\r\n'
     else
-      echo -e "\033[1mCannot rebuild automatically with Docker\033[0m when line.separator=crlf and JDK is ${jdk}"
-      echo -e "Please switch to JDK ${jdk} and build with mvncrlf: \033[1m$(echo "${mvnCommand}" | sed "s/^mvn /mvncrlf /")\033[0m"
-      read
+      mvnCommand="$(echo "${mvnCommand}" | sed "s_^mvn _/var/maven/.m2/mvncrlf _")"
+      echo -e "\033[2m${docker_command} ${mvnImage} \033[1m${mvnCommand} ${mvn_docker_params}\033[0m"
+      ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params}
     fi
   else
     echo -e "\033[2m${docker_command} ${mvnImage} \033[1m${mvnCommand} ${mvn_docker_params}\033[0m"
