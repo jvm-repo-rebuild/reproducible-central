@@ -1,4 +1,4 @@
-groupId=org.fusesource
+groupId=org.fusesource.jansi
 artifactId=jansi
 display=${groupId}:${artifactId}
 version=2.1.1
