@@ -35,11 +35,19 @@ outputs.1.0.filename=accumulo-fate-1.10.1.jar
 outputs.1.0.length=123918
 outputs.1.0.checksums.sha512=47af29b3d801c4ff05cecf7042f2dcc9a60ede46c189d0aaf6675dce5456aee93152f87e2c0e92d7661247eb8e51064f8e79eceb1c2a84539a0ece415acf1ce8
 
+outputs.1.1.filename=accumulo-fate-1.10.1-sources.jar
+outputs.1.1.length=65217
+outputs.1.1.checksums.sha512=5989df6d2e0ca5fa97a79501a5e2dab11d8c4cf3bf5e64bd986f3a2f97cdf49d24ff4ce748c023b86d98798451b99627e3e84142389ae08afa43f5b4525c3951
+
 outputs.2.coordinates=org.apache.accumulo:accumulo-start
 
 outputs.2.0.filename=accumulo-start-1.10.1.jar
 outputs.2.0.length=52347
 outputs.2.0.checksums.sha512=25b976ee61725371a43d19a56ce6f5b75a8953cc64140df05134e6274f9cfe25e6bac2f2718155a3c61b9534d0f310bcfada766c863222739d4d9ccdcdbca7f6
+
+outputs.2.1.filename=accumulo-start-1.10.1-sources.jar
+outputs.2.1.length=33743
+outputs.2.1.checksums.sha512=53da347876ed9b8dfca73e39fbeaf62df611c2f6a9b9ec565b28537a08463862a03b5d6f65cb742fa509bd68080d9f08be6cc596974e83d8835b482f59bfa6fa
 
 outputs.3.coordinates=org.apache.accumulo:accumulo-core
 
@@ -47,11 +55,15 @@ outputs.3.0.filename=accumulo-core-1.10.1.jar
 outputs.3.0.length=5130780
 outputs.3.0.checksums.sha512=0163e155f7967dbeef2d36bc32b4eb64288b93817c000e125273255cbbb550b61edfe741e3ddaeeef81d5aa86919d5f1b79155e7e6f0d7ecea34776e5b22d3fd
 
+outputs.3.1.filename=accumulo-core-1.10.1-sources.jar
+outputs.3.1.length=1623492
+outputs.3.1.checksums.sha512=18a310f87aff58c1dbbcd8be22256f2152acab062a95965c1f6842c4d1aff83ec98124a934955534e2e496fadfb3150721197ed77537432fd76e8f9caf085262
+
 outputs.4.coordinates=org.apache.accumulo:accumulo-docs
 
 outputs.4.0.filename=accumulo-docs-1.10.1-user-manual.html
 outputs.4.0.length=639257
-outputs.4.0.checksums.sha512=931457e740e915c58ee65e8c0339d35acbcee5ea9d80a5ab0675fae0cf0da660ec95e84b8c3fb32983308215e8ee4e746b673a749293740836354168d31db0b1
+outputs.4.0.checksums.sha512=a2bbc3ae3e566b42dceb695bbd2cc8dbcb41f71435c92d99c478a216542efdb4d707200e85cbe1505f9bec67a37e97321681cfad4b727c8c96177d628db95c8a
 
 outputs.5.coordinates=org.apache.accumulo:accumulo-server-base
 
@@ -59,11 +71,19 @@ outputs.5.0.filename=accumulo-server-base-1.10.1.jar
 outputs.5.0.length=694086
 outputs.5.0.checksums.sha512=3490b73c910678d8e343dbaf9ff51d75c80dc3476888c943e7665a1f27d044e1941ba9d577931921516f554d3a3f47fa3c1c4c124d5bfea1fcff1aba7ea6725d
 
+outputs.5.1.filename=accumulo-server-base-1.10.1-sources.jar
+outputs.5.1.length=416113
+outputs.5.1.checksums.sha512=c261beba21dbf419f1f911f9104ede7c302c893548ac512733a85ec39dcc959299b652d3860257c295b416a3cd335ac17fb31af8d03da7f10ebef26feaa46c87
+
 outputs.6.coordinates=org.apache.accumulo:accumulo-tracer
 
 outputs.6.0.filename=accumulo-tracer-1.10.1.jar
 outputs.6.0.length=140718
 outputs.6.0.checksums.sha512=95877fd2aee96da909905cfd101036f575247ad12e40f9aedf517cf57e39183b1296fc419b91411b76f4fd01f1b6d163088e7b96e5f05082fba24f31fd84bf11
+
+outputs.6.1.filename=accumulo-tracer-1.10.1-sources.jar
+outputs.6.1.length=53538
+outputs.6.1.checksums.sha512=80a9df7a5cb61a302d17784c982984a590ea5081aae8d3df08f30c7e31bfb654a961d9fb18f64d308201ec890fccced8c4d2aabb3c48af84b77d8eec4b8b8405
 
 outputs.7.coordinates=org.apache.accumulo:accumulo-shell
 
@@ -71,11 +91,19 @@ outputs.7.0.filename=accumulo-shell-1.10.1.jar
 outputs.7.0.length=272427
 outputs.7.0.checksums.sha512=affe7a6d67797a5e4e8446e7ae771215b3d33f3c5c6869012e28975fe6c37831074e241033268b78815065fda69cb8a4d0060cb21469178b7fd7e6c8420fb7f7
 
+outputs.7.1.filename=accumulo-shell-1.10.1-sources.jar
+outputs.7.1.length=180511
+outputs.7.1.checksums.sha512=ae15f344c247a1473d1286aa96a14fd2a5d42487cb5d1c58835e1b9ab17e0322387ebde7a9c3966d6dd0b77bcd4c27f506fa9f3e4879e74e29906ae4f71cbde0
+
 outputs.8.coordinates=org.apache.accumulo:accumulo-examples-simple
 
 outputs.8.0.filename=accumulo-examples-simple-1.10.1.jar
 outputs.8.0.length=183558
 outputs.8.0.checksums.sha512=656e6f58a6d3b9a224727fc81a437c428085f514b6bcd7ba3c1db4d45a5d15eadad2dd310c645da835f4e79646f953d0372f38df78eebb0b23f92a8e0bff4bbc
+
+outputs.8.1.filename=accumulo-examples-simple-1.10.1-sources.jar
+outputs.8.1.length=107540
+outputs.8.1.checksums.sha512=cef6c44983232cb26ea6dc220aef8da26ba8b24cf3848555327dd1a04918b4b5403dd0f66b9597c7ddf5daad4a323b31b24191f638a8b03fc6beaa5e14eed49a
 
 outputs.9.coordinates=org.apache.accumulo:accumulo-gc
 
@@ -83,11 +111,19 @@ outputs.9.0.filename=accumulo-gc-1.10.1.jar
 outputs.9.0.length=59620
 outputs.9.0.checksums.sha512=fc6717013fd5134373db79137c747bbf1a612eb4a0914f65aed0aae4b8f3b7752510db1b25d74b7b10c894d2d884747abb84ac03b8278d187a30ab8009bf81a2
 
+outputs.9.1.filename=accumulo-gc-1.10.1-sources.jar
+outputs.9.1.length=38155
+outputs.9.1.checksums.sha512=ae3176b430699d555849c05872133c28999e268524d2da9d4d0a50dd78c724c2aabe7ebbaed2ddbafcdbdcc76b72d9f663e901b49bb744f90345537e8223d8a4
+
 outputs.10.coordinates=org.apache.accumulo:accumulo-master
 
 outputs.10.0.filename=accumulo-master-1.10.1.jar
 outputs.10.0.length=316861
 outputs.10.0.checksums.sha512=2649d3a1727225b1728e74ede0d344e84f614c5ef1c0bfa685254ac353191c28aa91ee70887eaebcb5f6abcd0769b1f914c30935626edcf8a53c302b32c1b628
+
+outputs.10.1.filename=accumulo-master-1.10.1-sources.jar
+outputs.10.1.length=189441
+outputs.10.1.checksums.sha512=360af5f0582c46ab0b55634094bd7134a0d3b37fe85406c9bc659eeb0a0b57e3b021ee64da67b0901c64c094baa4f713f834a461c35d65185a63e32f69969930
 
 outputs.11.coordinates=org.apache.accumulo:accumulo-monitor
 
@@ -95,11 +131,19 @@ outputs.11.0.filename=accumulo-monitor-1.10.1.jar
 outputs.11.0.length=330769
 outputs.11.0.checksums.sha512=aa9b924dac61f023e1eaebc188a295e7c2b6c692be7d35d9bf7035f8ed4186478799c6f379c86c1502b7a3444ed5ac5e85075bf6136a4fc804b280195ff28d25
 
+outputs.11.1.filename=accumulo-monitor-1.10.1-sources.jar
+outputs.11.1.length=251604
+outputs.11.1.checksums.sha512=8384f5eb449272c0761ca1714af97f706e36d610048800c665eb25ebe309b8ab117fd9f078fee61484f7a6492700b4b7a3342913951425d27824e0ae71331ae3
+
 outputs.12.coordinates=org.apache.accumulo:accumulo-tserver
 
 outputs.12.0.filename=accumulo-tserver-1.10.1.jar
 outputs.12.0.length=524359
 outputs.12.0.checksums.sha512=48555a2ec459ab43e0e50264ab69f55b6e31cff19abeb5de9f022a54c1ededef1ddb24afa118fec5177d0583737acdccd5ba56a5e2edd027e31cb2ab2b296e59
+
+outputs.12.1.filename=accumulo-tserver-1.10.1-sources.jar
+outputs.12.1.length=274194
+outputs.12.1.checksums.sha512=0292b0029c6030667823cf7616b1c4e9aa014b21adb55c367bf916cfd244b383354dbfa6ca8781e1ef6491146f6b9f3c8d6545bed2a34a82719413d95fba7e71
 
 outputs.13.coordinates=org.apache.accumulo:accumulo-minicluster
 
@@ -107,11 +151,15 @@ outputs.13.0.filename=accumulo-minicluster-1.10.1.jar
 outputs.13.0.length=83144
 outputs.13.0.checksums.sha512=c65dfc4015d19ec106c8874ecfaae5ff6d88bdf5aa814d2c76e16f7f7148129ca3c7f798fed64637eaa9b06a8061c5b05270070ea994c29d44a71299ebbeba26
 
+outputs.13.1.filename=accumulo-minicluster-1.10.1-sources.jar
+outputs.13.1.length=59199
+outputs.13.1.checksums.sha512=d7a855910da512a5ce402ffef84a513717dd3aeb13794d09ba26f20ca0cd49d955a5fc5a3c6f76a135cc116ef46e3536424fd6654294d25e8f6694fc790ff0b9
+
 outputs.14.coordinates=org.apache.accumulo:accumulo-native
 
 outputs.14.0.filename=accumulo-native-1.10.1.tar.gz
-outputs.14.0.length=13494
-outputs.14.0.checksums.sha512=039af8dcedbe7f1f7774cf2018e0e18550627f41a602c9b22337790c6b3843d67e13812a94d36dc3e4211ece76cb2f7d469bfe61658b91fe74ff91958e49f0e9
+outputs.14.0.length=13471
+outputs.14.0.checksums.sha512=3c0b8fe01c5c98c9143dc8488917e14cb44ba5d9fb91161d46edafd36f020b693b15c0ecb923f074f5ee17d75dedceb4479f66e232de83a3ae188762dfa264d8
 
 outputs.15.coordinates=org.apache.accumulo:accumulo-proxy
 
@@ -119,11 +167,19 @@ outputs.15.0.filename=accumulo-proxy-1.10.1.jar
 outputs.15.0.length=3488349
 outputs.15.0.checksums.sha512=7f106954f0ceeed30a8cca97b74a58d989233d0a99f9bc3fb991539b826e815ca4f5b6b6255df18f734a21453dad8212bdffb6bc15cbaa807c58c6a615aff4e1
 
+outputs.15.1.filename=accumulo-proxy-1.10.1-sources.jar
+outputs.15.1.length=486716
+outputs.15.1.checksums.sha512=b4fb34249653da7e5a51bf3d6726550cc766000ecfb8aaf02b0300e566c2345e4091e0eb42cb7297e3d37dd43a4c94a1e8deeeea84fbaf33d933afe142d50474
+
 outputs.16.coordinates=org.apache.accumulo:accumulo-trace
 
 outputs.16.0.filename=accumulo-trace-1.10.1.jar
 outputs.16.0.length=15941
 outputs.16.0.checksums.sha512=229a225d653c116799d0473ab92f278c17c10d94e82a21626d89fdae7b2d552e887df09ae01b7019844e2348aaceaf1a535a860eb6027e327dd77cb89f77ffd7
+
+outputs.16.1.filename=accumulo-trace-1.10.1-sources.jar
+outputs.16.1.length=17243
+outputs.16.1.checksums.sha512=f293a919a788f55f061851657490cd8f2fbb851bc0deb57066f85b2c4cf32557ce27bbe342cb212abab7540a7ce162d0c1d1b9535da4096abf010d65a9f86a0a
 
 outputs.17.coordinates=org.apache.accumulo:accumulo-iterator-test-harness
 
@@ -131,20 +187,36 @@ outputs.17.0.filename=accumulo-iterator-test-harness-1.10.1.jar
 outputs.17.0.length=38655
 outputs.17.0.checksums.sha512=2ec2c61097b53433d84b67d119e89da68b66af679c552461cae372c297e871201591a90a313f930a8fd11076b9f4bfcccf76782b2dbbc1e2ad1d907b18d5795a
 
+outputs.17.1.filename=accumulo-iterator-test-harness-1.10.1-sources.jar
+outputs.17.1.length=35127
+outputs.17.1.checksums.sha512=ced123d81504fbb8b2f3f2d6fc5c335e3fd0a179ab0fee9ac96567a5a2e9f7fbde8e4c20bdda5b391e79189c2ea9b4171aa97be093ad8e94ee9920c51592f7f0
+
 outputs.18.coordinates=org.apache.accumulo:accumulo-test
 
 outputs.18.0.filename=accumulo-test-1.10.1.jar
 outputs.18.0.length=1776946
 outputs.18.0.checksums.sha512=b0aba344e9f23db18b347c0fbdd6c49dc409ac9830823c8f97a13c78bac5491035392d01344970ad247cfcaaa828e391a02652c392fb1e0ac534d53bade3b87a
 
+outputs.18.1.filename=accumulo-test-1.10.1-sources.jar
+outputs.18.1.length=976964
+outputs.18.1.checksums.sha512=a403d04c4eee250b032e5bf589a178351935e0788d4170a3428a2097f79af7d51f5e59d63e1367a2427b7c969b6d1669883bdb818a94b6d8b36580d86e2fb4d4
+
 outputs.19.coordinates=org.apache.accumulo:accumulo
 
-outputs.19.0.filename=accumulo-1.10.1-bin.tar.gz
-outputs.19.0.length=23459546
-outputs.19.0.checksums.sha512=24635b1b4765b48ff7f12d0f2e9620940357ad4988b4db7d2a889c2cb59a85baf0b2038f403edf43d4dd66a69f252b6266861f7db81e15bb858bb5fd192a9b81
+outputs.19.0.filename=accumulo-1.10.1-src.tar.gz
+outputs.19.0.length=4177217
+outputs.19.0.checksums.sha512=7e8be34429c79de89c9160243383af4ad659cd1e383935193689743a1d4f9a6376c5ff783857f7b23283cc3c4887a31002ee17ac4288954d8c50f1055e0fb0ba
+
+outputs.19.1.filename=accumulo-1.10.1-bin.tar.gz
+outputs.19.1.length=23458328
+outputs.19.1.checksums.sha512=8899739200a24f2a45c9ef6dad7dad9cc7e5f607e10f6930191049c951b5b82bb3ff3fe90828a310d926786910bbad8e9e1540ee453260535d29aecd062659be
 
 outputs.20.coordinates=org.apache.accumulo:accumulo-maven-plugin
 
 outputs.20.0.filename=accumulo-maven-plugin-1.10.1.jar
 outputs.20.0.length=28204
 outputs.20.0.checksums.sha512=be22ba6426743d2522c446b90d40dab5e68e2f2be5316ffca1c2bd46b3b4349fb864e23df9fc51e3d54e56ab25289cd3938c36a697428d6b6a7c6a455e51407e
+
+outputs.20.1.filename=accumulo-maven-plugin-1.10.1-sources.jar
+outputs.20.1.length=19956
+outputs.20.1.checksums.sha512=0da40fbbfdd1346b110d9153ac078c951ccd8d6071b0109b77d24697a85746f8c94543da10cc1e4e62869ce6eb0423ae71ac427d4a8ed4852f7e6eb3077f120a
