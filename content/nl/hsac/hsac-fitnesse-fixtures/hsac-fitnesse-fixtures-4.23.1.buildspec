@@ -13,4 +13,4 @@ newline=lf
 command="mvn clean package -Prelease -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-issue=https://github.com/fhoeben/hsac-fitnesse-fixtures/issues/316
+issue=
