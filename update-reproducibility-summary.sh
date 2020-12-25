@@ -11,6 +11,9 @@ countVersionOk=0
 for buildspec in `find content -name "*.buildspec" -print | sort`
 do
   ((countVersion++))
+  # reset recent fields added to buildspec, to avoid rework of older specs
+  issue=
+
   . $buildspec
   new_anchor="${groupId}:${artifactId}"
 
