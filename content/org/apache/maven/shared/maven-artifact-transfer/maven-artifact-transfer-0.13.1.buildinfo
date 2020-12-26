@@ -1,0 +1,36 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Artifact Transfer
+group-id=org.apache.maven.shared
+artifact-id=maven-artifact-transfer
+version=0.13.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-artifact-transfer.git
+source.scm.tag=maven-artifact-transfer-0.13.1
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=maven-artifact-transfer-0.13.1.jar
+outputs.0.length=159293
+outputs.0.checksums.sha512=d5f53a12ece3ae04a8ef03ddff7d3d06b6900a470dc65123a79203a5ce47dcea15b68997932d5d5e5adbca592213e56ac51b1208ec09b1b0ed1de00f88995cfe
+
+outputs.1.filename=maven-artifact-transfer-0.13.1-source-release.zip
+outputs.1.length=249020
+outputs.1.checksums.sha512=7f2533995b0d90c222551fa2cac9fe24e2a15e410016c3f19e50b07efee03f0ebfa279e415b8cc644f35c4f865e70f1bc3d86f70502f9367f5885910657cd07d
+
+outputs.2.filename=maven-artifact-transfer-0.13.1-sources.jar
+outputs.2.length=139273
+outputs.2.checksums.sha512=c73c897d592643e26b3c76cd34245cce95c5bdc17e0f277d268abb9b800419807b84cb347abf7725c35963838bc63aeac141a68a4c436ad1284d40e8dff179ae
