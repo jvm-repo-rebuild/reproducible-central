@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven SCM Publish Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-scm-publish-plugin
+version=3.1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-scm-publish-plugin.git
+source.scm.tag=maven-scm-publish-plugin-3.1.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=maven-scm-publish-plugin-3.1.0.jar
+outputs.0.length=37560
+outputs.0.checksums.sha512=8bb03d3cb0275b72d84f2b7822fd500b45782dfa6e2607f3fe3123a6c1494d0c54c9e9a316e3c69e625bc2b07ccfee0b5c2f7f5122a33eae08b66857cbbcc235
+
+outputs.1.filename=maven-scm-publish-plugin-3.1.0-source-release.zip
+outputs.1.length=65356
+outputs.1.checksums.sha512=c323746133cc150bf9884889ed742b6f3c43f3de53a105c5b7369b0b550f09dbc80ce41eff43092a481c5c1c2ff46b2888d5cb29e3b3341729ec05ac96620fd2
+
+outputs.2.filename=maven-scm-publish-plugin-3.1.0-sources.jar
+outputs.2.length=23925
+outputs.2.checksums.sha512=3e5725b5acad00120b2498eff3377afc9e81615e3b3be9783ddc4d9ce15b466aed877baf1b93ba09006ba8f2471c0f2b2abf355871ad587d84db6eeac516fe7a
