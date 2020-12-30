@@ -265,3 +265,4 @@ $ diffoscope target/reference/io.wcm.caconfig.editor.package-1.7.6.zip package/t
 │ ├── SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/templates.module.js
 │ │ ├── js-beautify {}
 │ │ │ @@ -1,819 +1,819 @@
+```
