@@ -5,3 +5,4 @@ settings-docker.xml
 .ivy2/
 .sbt/
 .npm/
+.DS_Store
