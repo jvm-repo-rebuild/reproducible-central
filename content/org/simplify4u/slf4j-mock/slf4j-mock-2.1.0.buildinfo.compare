@@ -1,0 +1,5 @@
+version=2.1.0
+ok=2
+ko=0
+okFiles="slf4j-mock-2.1.0.jar slf4j-mock-2.1.0-sources.jar"
+koFiles=""
