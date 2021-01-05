@@ -50,13 +50,20 @@ do
 done
 
 echo "| **Count: ${countGa}** | **${countVersion}** | | **${countVersionOk}** :heavy_check_mark: **$((countVersion - countVersionOk))** :warning: |"
+
+echo "rebuilding ${countVersion} releases of ${countGa} projects, ${countVersionOk} releases were found successfully :heavy_check_mark: fully reproducible ($((countVersion - countVersionOk)) only partially :warning:):" > summary-intro.md
 ) > summary-table.md
 
-lead='^<!-- BEGIN GENERATED CONTENT -->$'
-tail='^<!-- END GENERATED CONTENT -->$'
+lead='^<!-- BEGIN GENERATED RESULTS TABLE -->$'
+tail='^<!-- END GENERATED RESULTS TABLE -->$'
+lead_intro='^<!-- BEGIN GENERATED INTRO -->$'
+tail_intro='^<!-- END GENERATED INTRO -->$'
 sed -e "/$lead/,/$tail/{ /$lead/{p; r summary-table.md
-        }; /$tail/p; d }" README.md > README.md.tmp
+        }; /$tail/p; d }" README.md | \
+    sed -e "/$lead_intro/,/$tail_intro/{ /$lead_intro/{p; r summary-intro.md
+        }; /$tail_intro/p; d }" > README.md.tmp
 
 mv README.md.tmp README.md
 
+rm summary-intro.md
 rm summary-table.md

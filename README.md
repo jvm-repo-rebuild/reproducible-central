@@ -71,7 +71,11 @@ This is a future objective. But for now, given the very few projects that produc
 
 ## Rebuild Results
 
-<!-- BEGIN GENERATED CONTENT -->
+<!-- BEGIN GENERATED INTRO -->
+rebuilding 190 releases of 84 projects, 123 releases were found successfully :heavy_check_mark: fully reproducible (67 only partially :warning:):
+<!-- END GENERATED INTRO -->
+
+<!-- BEGIN GENERATED RESULTS TABLE -->
 | [Central Repository](https://search.maven.org/) groupId:artifactId(s) | version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/):<br/>reproducible? |
 | -------------------------------- | -- | --------- | ------ |
 | <a name='biz.aQute.bnd:bnd-plugin-parent'></a>[biz.aQute.bnd:maven-plugins](https://search.maven.org/artifact/biz.aQute.bnd/bnd-plugin-parent) | [5.2.0](https://search.maven.org/artifact/biz.aQute.bnd/bnd-plugin-parent/5.2.0/pom) | [spec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/biz/aQute/bnd/plugins/bnd-plugins-5.2.0.buildspec): [:notebook:](https://github.com/bndtools/bnd) mvn j8 | [result](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/biz/aQute/bnd/plugins/bnd-reporter-maven-plugin-5.2.0.buildinfo): [8 :heavy_check_mark: ](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/biz/aQute/bnd/plugins/bnd-reporter-maven-plugin-5.2.0.buildinfo.compare) |
@@ -265,7 +269,7 @@ This is a future objective. But for now, given the very few projects that produc
 | <a name='org.tomitribe.transformer:org.eclipse.transformer.parent'></a>[org.tomitribe:org.eclipse.transformer.parent](https://search.maven.org/artifact/org.tomitribe.transformer/org.eclipse.transformer.parent) | [0.1.1a](https://search.maven.org/artifact/org.tomitribe.transformer/org.eclipse.transformer.parent/0.1.1a/pom) | [spec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/org/tomitribe/transformer/org.eclipse.transformer.parent-0.1.1a.buildspec): [:notebook:](https://github.com/tomitribe/transformer.git) mvn j8 | [result](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/org/tomitribe/transformer/org.eclipse.transformer.maven-0.1.1a.buildinfo): [4 :heavy_check_mark: ](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/org/tomitribe/transformer/org.eclipse.transformer.maven-0.1.1a.buildinfo.compare) |
 | | [0.1.1](https://search.maven.org/artifact/org.tomitribe.transformer/org.eclipse.transformer.parent/0.1.1/pom) | [spec](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/org/tomitribe/transformer/org.eclipse.transformer.parent-0.1.1.buildspec): [:notebook:](https://github.com/tomitribe/transformer.git) mvn j8 | [result](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/org/tomitribe/transformer/org.eclipse.transformer.maven-0.1.1.buildinfo): [4 :heavy_check_mark: ](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/org/tomitribe/transformer/org.eclipse.transformer.maven-0.1.1.buildinfo.compare) |
 | **Count: 84** | **190** | | **123** :heavy_check_mark: **67** :warning: |
-<!-- END GENERATED CONTENT -->
+<!-- END GENERATED RESULTS TABLE -->
 
 ## Understanding What Is Behind
 
