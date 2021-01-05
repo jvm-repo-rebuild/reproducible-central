@@ -51,7 +51,7 @@ done
 
 echo "| **Count: ${countGa}** | **${countVersion}** | | **${countVersionOk}** :heavy_check_mark: **$((countVersion - countVersionOk))** :warning: |"
 
-echo "rebuilding ${countVersion} releases of ${countGa} projects, ${countVersionOk} releases were found successfully :heavy_check_mark: fully reproducible ($((countVersion - countVersionOk)) only partially :warning:):" > summary-intro.md
+echo "rebuilding **${countVersion} releases** of **${countGa} projects**, **${countVersionOk}** releases were found successfully **fully reproducible** (all reproducible artifacts :heavy_check_mark:), $((countVersion - countVersionOk)) had remaining issues (some unreproducible artifacts:warning:):" > summary-intro.md
 ) > summary-table.md
 
 lead='^<!-- BEGIN GENERATED RESULTS TABLE -->$'

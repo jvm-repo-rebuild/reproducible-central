@@ -72,7 +72,7 @@ This is a future objective. But for now, given the very few projects that produc
 ## Rebuild Results
 
 <!-- BEGIN GENERATED INTRO -->
-rebuilding 190 releases of 84 projects, 123 releases were found successfully :heavy_check_mark: fully reproducible (67 only partially :warning:):
+rebuilding **190 releases** of **84 projects**, **123** releases were found successfully **fully reproducible** (all reproducible artifacts :heavy_check_mark:), 67 had remaining issues (some unreproducible artifacts:warning:):
 <!-- END GENERATED INTRO -->
 
 <!-- BEGIN GENERATED RESULTS TABLE -->
