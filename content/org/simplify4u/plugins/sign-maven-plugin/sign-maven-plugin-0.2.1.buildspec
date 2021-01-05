@@ -21,4 +21,4 @@ command="mvn clean package -Dmaven.test.skip -Dpgpverify.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 # if the release is finally not reproducible, link to an issue tracker entry if one was created
-issue=https://github.com/s4u/sign-maven-plugin/issues/27
+issue=
