@@ -1,0 +1,17 @@
+groupId=org.apache.httpcomponents.core5
+artifactId=httpcore5
+display=${groupId}:${artifactId}
+version=5.0.2
+
+gitRepo=https://github.com/apache/httpcomponents-core.git
+gitTag=rel/v${version}
+
+tool=mvn
+# looks like JDK 7 toolchain with Maven on JRE 8
+jdk=7
+newline=lf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=httpcore5-testing/target/httpcore5-testing-${version}.buildinfo
+
+issue=
