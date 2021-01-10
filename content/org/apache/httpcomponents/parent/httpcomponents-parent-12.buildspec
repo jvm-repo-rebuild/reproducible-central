@@ -1,0 +1,16 @@
+groupId=org.apache.httpcomponents
+artifactId=httpcomponents-parent
+display=${groupId}:${artifactId}
+version=12
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=rel/v${version}
+
+tool=mvn
+jdk=8
+newline=crlf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=

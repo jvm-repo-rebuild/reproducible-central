@@ -1,0 +1,29 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache HttpComponents Parent
+group-id=org.apache.httpcomponents
+artifact-id=httpcomponents-parent
+version=12
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/httpcomponents-parent.git
+source.scm.tag=httpcomponents-parent-12
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_275
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0.5
+
+# output
+
+outputs.0.filename=httpcomponents-parent-12-source-release.zip
+outputs.0.length=25928
+outputs.0.checksums.sha512=ba0cc569643439387b1a4912e7199ecaefbf836239bb389d8f0f13d93a078728100e570271eb87b17f1de2d79f295883ff2ad91953578b89b2ea45f158f2d5b1
