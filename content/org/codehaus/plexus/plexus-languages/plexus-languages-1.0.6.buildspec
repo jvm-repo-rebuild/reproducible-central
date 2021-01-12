@@ -1,0 +1,17 @@
+groupId=org.codehaus.plexus
+artifactId=plexus-languages
+display=${groupId}:${artifactId}
+version=1.0.6
+
+gitRepo=https://github.com/codehaus-plexus/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=11
+newline=crlf
+
+command="mvn -Pplexus-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=plexus-java/target/plexus-java-${version}.buildinfo
+
+# timestamp of META-INF/versions/9/module-info.class is not reproducible
+issue=https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/codehaus/plexus/plexus-languages/plexus-languages-1.0.6.diffoscope
