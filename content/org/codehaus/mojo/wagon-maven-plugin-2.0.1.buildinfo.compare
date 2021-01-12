@@ -1,0 +1,5 @@
+version=2.0.1
+ok=2
+ko=1
+okFiles="wagon-maven-plugin-2.0.1-source-release.zip wagon-maven-plugin-2.0.1-sources.jar"
+koFiles="wagon-maven-plugin-2.0.1.jar"
