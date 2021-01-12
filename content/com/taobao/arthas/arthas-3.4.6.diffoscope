@@ -1,0 +1,82 @@
+$ diffoscope target/reference/arthas-spy-3.4.6-sources.jar spy/target/arthas-spy-sources.jar
+--- target/reference/arthas-spy-3.4.6-sources.jar
++++ spy/target/arthas-spy-sources.jar
+├── zipinfo /dev/stdin
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 7988 bytes, number of entries: 17
+│ +Zip file size: 7989 bytes, number of entries: 17
+│  -rw-r--r--  2.0 unx       64 b- defN 20-Sep-27 15:10 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 java/arthas/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 one/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 one/profiler/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/maven/
+│ @@ -10,10 +10,10 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-spy/
+│  -rw-r--r--  2.0 unx     4349 b- defN 20-Sep-27 15:10 java/arthas/SpyAPI.java
+│  -rw-r--r--  2.0 unx     6317 b- defN 20-Sep-27 15:10 one/profiler/AsyncProfiler.java
+│  -rw-r--r--  2.0 unx     1419 b- defN 20-Sep-27 15:10 one/profiler/AsyncProfilerMXBean.java
+│  -rw-r--r--  2.0 unx      758 b- defN 20-Sep-27 15:10 one/profiler/Counter.java
+│  -rw-r--r--  2.0 unx      973 b- defN 20-Sep-27 15:10 one/profiler/Events.java
+│  -rw-r--r--  2.0 unx       93 b- defN 20-Sep-27 15:10 one/profiler/package-info.java
+│ --rw-r--r--  2.0 unx     3429 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-spy/pom.xml
+│ +-rw-r--r--  2.0 unx     3430 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-spy/pom.xml
+│  -rw-r--r--  2.0 unx       62 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-spy/pom.properties
+│ -17 files, 17464 bytes uncompressed, 5806 bytes compressed:  66.8%
+│ +17 files, 17465 bytes uncompressed, 5807 bytes compressed:  66.8%
+├── META-INF/maven/com.taobao.arthas/arthas-spy/pom.xml
+│ ├── META-INF/maven/com.taobao.arthas/arthas-spy/pom.xml
+│ │ @@ -1,9 +1,9 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │ -<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │    <modelVersion>4.0.0</modelVersion>
+│ │    <groupId>com.taobao.arthas</groupId>
+│ │    <artifactId>arthas-spy</artifactId>
+│ │    <version>3.4.6</version>
+│ │    <name>arthas-spy</name>
+│ │    <description>arthas</description>
+│ │    <url>https://github.com/alibaba/arthas/arthas-spy</url>
+
+$ diffoscope target/reference/arthas-spy-3.4.6.jar spy/target/arthas-spy.jar
+--- target/reference/arthas-spy-3.4.6.jar
++++ spy/target/arthas-spy.jar
+├── zipinfo /dev/stdin
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 8889 bytes, number of entries: 19
+│ +Zip file size: 8890 bytes, number of entries: 19
+│  -rw-r--r--  2.0 unx      208 b- defN 20-Sep-27 15:10 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 java/arthas/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 one/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 one/profiler/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/maven/
+│ @@ -12,10 +12,10 @@
+│  -rw-r--r--  2.0 unx     1397 b- defN 20-Sep-27 15:10 java/arthas/SpyAPI$AbstractSpy.class
+│  -rw-r--r--  2.0 unx     2293 b- defN 20-Sep-27 15:10 java/arthas/SpyAPI$NopSpy.class
+│  -rw-r--r--  2.0 unx     3149 b- defN 20-Sep-27 15:10 java/arthas/SpyAPI.class
+│  -rw-r--r--  2.0 unx     3493 b- defN 20-Sep-27 15:10 one/profiler/AsyncProfiler.class
+│  -rw-r--r--  2.0 unx      631 b- defN 20-Sep-27 15:10 one/profiler/AsyncProfilerMXBean.class
+│  -rw-r--r--  2.0 unx      937 b- defN 20-Sep-27 15:10 one/profiler/Counter.class
+│  -rw-r--r--  2.0 unx      475 b- defN 20-Sep-27 15:10 one/profiler/Events.class
+│ --rw-r--r--  2.0 unx     3429 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-spy/pom.xml
+│ +-rw-r--r--  2.0 unx     3430 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-spy/pom.xml
+│  -rw-r--r--  2.0 unx       62 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-spy/pom.properties
+│ -19 files, 16559 bytes uncompressed, 6429 bytes compressed:  61.2%
+│ +19 files, 16560 bytes uncompressed, 6430 bytes compressed:  61.2%
+├── META-INF/maven/com.taobao.arthas/arthas-spy/pom.xml
+│ ├── META-INF/maven/com.taobao.arthas/arthas-spy/pom.xml
+│ │ @@ -1,9 +1,9 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │ -<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │    <modelVersion>4.0.0</modelVersion>
+│ │    <groupId>com.taobao.arthas</groupId>
+│ │    <artifactId>arthas-spy</artifactId>
+│ │    <version>3.4.6</version>
+│ │    <name>arthas-spy</name>
+│ │    <description>arthas</description>
+│ │    <url>https://github.com/alibaba/arthas/arthas-spy</url>
+

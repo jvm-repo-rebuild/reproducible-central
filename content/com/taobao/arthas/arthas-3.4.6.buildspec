@@ -1,0 +1,16 @@
+groupId=com.taobao.arthas
+artifactId=arthas-all
+display=${groupId}:${artifactId}
+version=3.4.6
+
+gitRepo=https://github.com/alibaba/arthas.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn clean package -DskipTests -Drpm.disabled"
+buildinfo=tunnel-server/target/arthas-tunnel-server-${version}.buildinfo
+
+issue="https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/taobao/arthas/arthas-3.4.6.diffoscope"
