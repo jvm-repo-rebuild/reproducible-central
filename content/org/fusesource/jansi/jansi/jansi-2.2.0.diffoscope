@@ -1,0 +1,38 @@
+$ diffoscope target/reference/jansi-2.2.0.jar target/jansi-2.2.0.jar
+--- target/reference/jansi-2.2.0.jar
++++ target/jansi-2.2.0.jar
+├── zipinfo /dev/stdin
+│ @@ -1,9 +1,9 @@
+│ -Zip file size: 323254 bytes, number of entries: 94
+│ --rw-r--r--  2.0 unx     1085 b- defN 21-Jan-20 15:28 META-INF/MANIFEST.MF
+│ +Zip file size: 323243 bytes, number of entries: 94
+│ +-rw-r--r--  2.0 unx     1034 b- defN 21-Jan-20 15:28 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jan-20 15:28 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jan-20 15:28 META-INF/native-image/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jan-20 15:28 META-INF/native-image/jansi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jan-20 15:28 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jan-20 15:28 org/fusesource/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jan-20 15:28 org/fusesource/jansi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jan-20 15:28 org/fusesource/jansi/internal/
+│ @@ -89,8 +89,8 @@
+│  -rw-r--r--  2.0 unx     3754 b- defN 21-Jan-20 15:28 org/fusesource/jansi/io/ColorsAnsiProcessor.class
+│  -rw-r--r--  2.0 unx     1312 b- defN 21-Jan-20 15:28 org/fusesource/jansi/io/FastBufferedOutputStream.class
+│  -rw-r--r--  2.0 unx    11080 b- defN 21-Jan-20 15:28 org/fusesource/jansi/io/WindowsAnsiProcessor.class
+│  -rw-r--r--  2.0 unx       14 b- defN 21-Jan-20 15:28 org/fusesource/jansi/jansi.properties
+│  -rw-r--r--  2.0 unx      935 b- defN 21-Jan-20 15:28 org/fusesource/jansi/jansi.txt
+│  -rw-r--r--  2.0 unx    13655 b- defN 21-Jan-20 15:28 META-INF/maven/org.fusesource.jansi/jansi/pom.xml
+│  -rw-r--r--  2.0 unx       60 b- defN 21-Jan-20 15:28 META-INF/maven/org.fusesource.jansi/jansi/pom.properties
+│ -94 files, 1005645 bytes uncompressed, 307610 bytes compressed:  69.4%
+│ +94 files, 1005594 bytes uncompressed, 307599 bytes compressed:  69.4%
+├── META-INF/MANIFEST.MF
+│ @@ -17,11 +17,10 @@
+│  Bundle-SymbolicName: org.fusesource.jansi
+│  Bundle-Vendor: FuseSource, Corp.
+│  Bundle-Version: 2.2.0
+│  Export-Package: org.fusesource.jansi;uses:="org.fusesource.jansi.io";ver
+│   sion="2.2.0",org.fusesource.jansi.internal;version="2.2.0",org.fusesour
+│   ce.jansi.io;uses:="org.fusesource.jansi";version="2.2.0"
+│  Main-Class: org.fusesource.jansi.AnsiMain
+│ -Originally-Created-By: Apache Maven Bundle Plugin
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+│  Tool: Bnd-5.1.1.202006162103
