@@ -1,0 +1,5 @@
+version=1.1.4
+ok=2
+ko=0
+okFiles="micronaut-maven-plugin-1.1.4.jar micronaut-maven-plugin-1.1.4-sources.jar"
+koFiles=""
