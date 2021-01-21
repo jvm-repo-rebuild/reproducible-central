@@ -1,0 +1,17 @@
+groupId=org.codehaus.mojo
+artifactId=wagon-maven-plugin
+display=${groupId}:${artifactId}
+version=2.0.2
+
+gitRepo=https://github.com/mojohaus/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn -Pmojo-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+# see wagon-maven-plugin-2.0.1.diffoscope
+issue=https://github.com/mojohaus/wagon-maven-plugin/commit/4b5352671f16a0d71d7c84fb33d1e4a0beec1fcc
