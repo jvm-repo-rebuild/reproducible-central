@@ -1,0 +1,5 @@
+version=0.3.0
+ok=2
+ko=0
+okFiles="sign-maven-plugin-0.3.0.jar sign-maven-plugin-0.3.0-sources.jar"
+koFiles=""
