@@ -1,0 +1,36 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Archiver Component
+group-id=org.codehaus.plexus
+artifact-id=plexus-archiver
+version=4.2.4
+
+# source information
+source.scm.uri=scm:git:git@github.com:codehaus-plexus/plexus-archiver.git
+source.scm.tag=plexus-archiver-4.2.4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.7.0_211
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T19:00:29Z)
+
+# output
+
+outputs.0.filename=plexus-archiver-4.2.4.jar
+outputs.0.length=195193
+outputs.0.checksums.sha512=5f9f4d25b78dab2b342efb880de87da9944cbac7941060f80d6018d95563acdd5c38777e7afc96953ba0460cb16ee952fb51f56fd08f906e5979861bf8f50725
+
+outputs.1.filename=plexus-archiver-4.2.4-source-release.zip
+outputs.1.length=1050445
+outputs.1.checksums.sha512=904fab5d1172376677d17d1b394b6f2a7b1651c9dbd14c1091fabf78644be394f85cb03e3f004712a3115cf5a2d6206b4eadfbdb865095ee0cec415136a763cc
+
+outputs.2.filename=plexus-archiver-4.2.4-sources.jar
+outputs.2.length=148206
+outputs.2.checksums.sha512=86d9b47807581f1c5016eb39c484bc45a04b9381ce782f44919623c49633e0cc417568efd2f223db0222684a5609a07f8941b8a53cd932da1ea3d96b359d8b60
