@@ -1,0 +1,1219 @@
+$ diffoscope target/reference/cyclonedx-core-java-3.0.8-cyclonedx.xml target/bom.xml
+--- target/reference/cyclonedx-core-java-3.0.8-cyclonedx.xml
++++ target/bom.xml
+│   --- target/reference/cyclonedx-core-java-3.0.8-cyclonedx.xml
+├── +++ target/bom.xml
+│ @@ -1,11 +1,11 @@
+│  <?xml version="1.0" encoding="utf-8"?>
+│ -<bom xmlns="http://cyclonedx.org/schema/bom/1.2" serialNumber="urn:uuid:042631d0-4cd1-4fdf-bf06-8058c64758d4" version="1">
+│ +<bom xmlns="http://cyclonedx.org/schema/bom/1.2" serialNumber="urn:uuid:c7c68306-1e95-4616-8a2a-3a76bbe33c2b" version="1">
+│    <metadata>
+│ -    <timestamp>2021-01-30T23:51:40Z</timestamp>
+│ +    <timestamp>2021-02-01T07:38:26Z</timestamp>
+│      <tools>
+│        <tool>
+│          <vendor>CycloneDX</vendor>
+│          <name>CycloneDX Maven plugin</name>
+│          <version>2.1.1</version>
+│          <hashes>
+│            <hash alg="MD5">175327f4ba350153f1217d900ad4339d</hash>
+
+$ diffoscope target/reference/cyclonedx-core-java-3.0.8-cyclonedx.json target/bom.json
+--- target/reference/cyclonedx-core-java-3.0.8-cyclonedx.json
++++ target/bom.json
+│   --- target/reference/cyclonedx-core-java-3.0.8-cyclonedx.json
+├── +++ target/bom.json
+│┄ Similarity: 0.0%
+│┄ Differences: {
+│┄   "replace": {
+│┄     "bomFormat": "CycloneDX",
+│┄     "components": [
+│┄       {
+│┄         "bom-ref": "pkg:maven/commons-codec/commons-codec@1.15?type=jar",
+│┄         "description": "The Apache Commons Codec package contains simple encoder and decoders for various formats such as Base64 and Hexadecimal. In addition to these widely used encoders and decoders, the codec package also maintains a collection of phonetic encoding utilities.",
+│┄         "externalReferences": [
+│┄           {
+│┄             "type": "issue-tracker",
+│┄             "url": "https://issues.apache.org/jira/browse/CODEC"
+│┄           },
+│┄           {
+│┄             "type": "vcs",
+│┄             "url": "https://github.com/apache/commons-codec"
+│┄           },
+│┄           {
+│┄             "type": "build-system",
+│┄             "url": "https://builds.apache.org/"
+│┄           },
+│┄           {
+│┄             "type": "mailing-list",
+│┄             "url": "https://mail-archives.apache.org/mod_mbox/commons-user/"
+│┄           },
+│┄           {
+│┄             "type": "website",
+│┄             "url": "https://www.apache.org/"
+│┄           },
+│┄           {
+│┄             "type": "distribution",
+│┄             "url": "https://repository.apache.org/service/local/staging/deploy/maven2"
+│┄           }
+│┄         ],
+│┄         "group": "commons-codec",
+│┄         "hashes": [
+│┄           {
+│┄             "alg": "MD5",
+│┄             "content": "303baf002ce6d382198090aedd9d79a2"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-1",
+│┄             "content": "49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-256",
+│┄             "content": "b3e9f6d63a790109bf0d056611fbed1cf69055826defeb9894a71369d246ed63"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-384",
+│┄             "content": "05d0506283716472175d44c2a4766523397bf8a007c18848f9c9a61718cc8aa437f9cb4b91771037ab29a960860b62a0"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-512",
+│┄             "content": "da30a716770795fce390e4dd340a8b728f220c6572383ffef55bd5839655d5611fcc06128b2144f6cdcb36f53072a12ec80b04afee787665e7ad0b6e888a6787"
+│┄           }
+│┄         ],
+│┄         "licenses": [
+│┄           {
+│┄             "license": {
+│┄               "id": "Apache-2.0"
+│┄             }
+│┄           }
+│┄         ],
+│┄         "name": "commons-codec",
+│┄         "publisher": "The Apache Software Foundation",
+│┄         "purl": "pkg:maven/commons-codec/commons-codec@1.15?type=jar",
+│┄         "scope": "required",
+│┄         "type": "library",
+│┄         "version": "1.15"
+│┄       },
+│┄       {
+│┄         "bom-ref": "pkg:maven/commons-io/commons-io@2.8.0?type=jar",
+│┄         "description": "The Apache Commons IO library contains utility classes, stream implementations, file filters, file comparators, endian transformation classes, and much more.",
+│┄         "externalReferences": [
+│┄           {
+│┄             "type": "issue-tracker",
+│┄             "url": "https://issues.apache.org/jira/browse/IO"
+│┄           },
+│┄           {
+│┄             "type": "vcs",
+│┄             "url": "https://gitbox.apache.org/repos/asf?p=commons-io.git"
+│┄           },
+│┄           {
+│┄             "type": "build-system",
+│┄             "url": "https://builds.apache.org/"
+│┄           },
+│┄           {
+│┄             "type": "mailing-list",
+│┄             "url": "https://mail-archives.apache.org/mod_mbox/commons-user/"
+│┄           },
+│┄           {
+│┄             "type": "website",
+│┄             "url": "https://www.apache.org/"
+│┄           },
+│┄           {
+│┄             "type": "distribution",
+│┄             "url": "https://repository.apache.org/service/local/staging/deploy/maven2"
+│┄           }
+│┄         ],
+│┄         "group": "commons-io",
+│┄         "hashes": [
+│┄           {
+│┄             "alg": "MD5",
+│┄             "content": "21ba575792e2694c39af13918a80550b"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-1",
+│┄             "content": "92999e26e6534606b5678014e66948286298a35c"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-256",
+│┄             "content": "02f291e5d1243dc143496e3cbbb40a1ced47aa58f2d633d3e38780cd068d5074"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-384",
+│┄             "content": "13cb963b3b8bd821f3d3c0e7bea787f9b0e78b35073a4132e6d865c289e3293978096a4fe51a5deb04e297ba4db644a5"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-512",
+│┄             "content": "72040ed293a083f979c3f23b00c359195cf0e4c227a9cb962d99804cbe07d86e24d2864aa8c533bb79e4ad1f83d3d17f290c8c24630410eb80734d6d1266e7ec"
+│┄           }
+│┄         ],
+│┄         "licenses": [
+│┄           {
+│┄             "license": {
+│┄               "id": "Apache-2.0"
+│┄             }
+│┄           }
+│┄         ],
+│┄         "name": "commons-io",
+│┄         "publisher": "The Apache Software Foundation",
+│┄         "purl": "pkg:maven/commons-io/commons-io@2.8.0?type=jar",
+│┄         "scope": "required",
+│┄         "type": "library",
+│┄         "version": "2.8.0"
+│┄       },
+│┄       {
+│┄         "bom-ref": "pkg:maven/com.github.package-url/packageurl-java@1.1.1?type=jar",
+│┄         "description": "The official Java implementation of the PackageURL specification. PackageURL (purl) is a minimal specification for describing a package via a \"mostly universal\" URL.",
+│┄         "externalReferences": [
+│┄           {
+│┄             "type": "build-system",
+│┄             "url": "https://travis-ci.org/package-url/packageurl-java"
+│┄           },
+│┄           {
+│┄             "type": "distribution",
+│┄             "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+│┄           },
+│┄           {
+│┄             "type": "issue-tracker",
+│┄             "url": "https://github.com/package-url/packageurl-java/issues"
+│┄           },
+│┄           {
+│┄             "type": "vcs",
+│┄             "url": "https://github.com/package-url/packageurl-java.git"
+│┄           }
+│┄         ],
+│┄         "group": "com.github.package-url",
+│┄         "hashes": [
+│┄           {
+│┄             "alg": "MD5",
+│┄             "content": "26fab3b8904883133f4e7ebc6ceb0642"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-1",
+│┄             "content": "78722cba39507aa906042bc78dfaf76368ec486b"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-256",
+│┄             "content": "84a4f88ca2567d5ba681c123f351027e3bccfa6e2f3624bc1965b55053a631bc"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-384",
+│┄             "content": "f9a2f01e5d657c4140d7859bec75f0604ec6fc0f47cc980d2f8bb19f4b510ca710450e9208d4a204468e1abd17dcf10d"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-512",
+│┄             "content": "85f2ec59a77e9aa6d91ffa09a266ecdd0aca467d9788b04a30115eca5d8e411d42a0951f31e2dcd92554a51f79728c25898aaac51a76a90baebeb4f797da49af"
+│┄           }
+│┄         ],
+│┄         "licenses": [
+│┄           {
+│┄             "license": {
+│┄               "id": "MIT",
+│┄               "url": "https://opensource.org/licenses/MIT"
+│┄             }
+│┄           }
+│┄         ],
+│┄         "name": "packageurl-java",
+│┄         "purl": "pkg:maven/com.github.package-url/packageurl-java@1.1.1?type=jar",
+│┄         "scope": "required",
+│┄         "type": "library",
+│┄         "version": "1.1.1"
+│┄       },
+│┄       {
+│┄         "bom-ref": "pkg:maven/com.thoughtworks.xstream/xstream@1.4.14?type=jar",
+│┄         "description": "XStream is a serialization library from Java objects to XML and back.",
+│┄         "externalReferences": [
+│┄           {
+│┄             "type": "website",
+│┄             "url": "http://x-stream.github.io"
+│┄           },
+│┄           {
+│┄             "type": "build-system",
+│┄             "url": "https://travis-ci.org/x-stream/xstream"
+│┄           },
+│┄           {
+│┄             "type": "distribution",
+│┄             "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2"
+│┄           },
+│┄           {
+│┄             "type": "issue-tracker",
+│┄             "url": "https://github.com/x-stream/xstream/issues/"
+│┄           },
+│┄           {
+│┄             "type": "mailing-list",
+│┄             "url": "https://groups.google.com/forum/#!forum/xstream-user"
+│┄           },
+│┄           {
+│┄             "type": "vcs",
+│┄             "url": "http://github.com/x-stream/xstream"
+│┄           }
+│┄         ],
+│┄         "group": "com.thoughtworks.xstream",
+│┄         "hashes": [
+│┄           {
+│┄             "alg": "MD5",
+│┄             "content": "77059f8fdd7f9c6dcb2d271030b92782"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-1",
+│┄             "content": "205696d5c42809abca64f4d3df47d95c2b3af7b4"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-256",
+│┄             "content": "e6f2167d27cfa3a8ab87a5e415db97bc9647c7256cc8703a94209dc2279c1cf4"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-384",
+│┄             "content": "71991abb49cb1e8c93d5f5ba84fe509e1c2007c6c8381e02db60f86cf46ac103cc3c5bf1704602b2a411fc49592b6f34"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-512",
+│┄             "content": "3672f1a37d897bae077d16bb810bd9baf2f219e24920f8b29b5d9ebcfb9ebe0bb746ab0ddda8b1606a6fba47d36f0263fc61da9b2bdf2e3ba4574a03793874cd"
+│┄           }
+│┄         ],
+│┄         "licenses": [
+│┄           {
+│┄             "license": {
+│┄               "id": "BSD-3-Clause",
+│┄               "url": "https://opensource.org/licenses/BSD-3-Clause"
+│┄             }
+│┄           }
+│┄         ],
+│┄         "name": "xstream",
+│┄         "publisher": "XStream",
+│┄         "purl": "pkg:maven/com.thoughtworks.xstream/xstream@1.4.14?type=jar",
+│┄         "scope": "required",
+│┄         "type": "library",
+│┄         "version": "1.4.14"
+│┄       },
+│┄       {
+│┄         "bom-ref": "pkg:maven/xmlpull/xmlpull@1.1.3.1?type=jar",
+│┄         "group": "xmlpull",
+│┄         "hashes": [
+│┄           {
+│┄             "alg": "MD5",
+│┄             "content": "cc57dacc720eca721a50e78934b822d2"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-1",
+│┄             "content": "2b8e230d2ab644e4ecaa94db7cdedbc40c805dfa"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-256",
+│┄             "content": "34e08ee62116071cbb69c0ed70d15a7a5b208d62798c59f2120bb8929324cb63"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-384",
+│┄             "content": "11978ca8510acc4aaf6294a4f5a45c0a16c9f91336fd1a1d0553161c9c02f59f9d418c46ef46c962ffd86dc48a82dde5"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-512",
+│┄             "content": "54d1090623497e81270b2af633268656e8855e1edce2217886431039516a391ba9f8d8db3c21a0b5e51c7f7cb672d63ebe77be75708b760b06f399486960f261"
+│┄           }
+│┄         ],
+│┄         "licenses": [
+│┄           {
+│┄             "license": {
+│┄               "name": "Public Domain",
+│┄               "url": "http://www.xmlpull.org/v1/download/unpacked/LICENSE.txt"
+│┄             }
+│┄           }
+│┄         ],
+│┄         "name": "xmlpull",
+│┄         "purl": "pkg:maven/xmlpull/xmlpull@1.1.3.1?type=jar",
+│┄         "type": "library",
+│┄         "version": "1.1.3.1"
+│┄       },
+│┄       {
+│┄         "bom-ref": "pkg:maven/xpp3/xpp3_min@1.1.4c?type=jar",
+│┄         "description": "MXP1 is a stable XmlPull parsing engine that is based on ideas from XPP and in particular XPP2 but completely revised and rewritten to take the best advantage of latest JIT JVMs such as Hotspot in JDK 1.4+.",
+│┄         "externalReferences": [
+│┄           {
+│┄             "type": "website",
+│┄             "url": "http://www.extreme.indiana.edu/"
+│┄           },
+│┄           {
+│┄             "type": "vcs",
+│┄             "url": "http://www.extreme.indiana.edu/viewcvs/~checkout~/XPP3/java/"
+│┄           }
+│┄         ],
+│┄         "group": "xpp3",
+│┄         "hashes": [
+│┄           {
+│┄             "alg": "MD5",
+│┄             "content": "dcd95bcb84b09897b2b66d4684c040da"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-1",
+│┄             "content": "19d4e90b43059058f6e056f794f0ea4030d60b86"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-256",
+│┄             "content": "bfc90e9e32d0eab1f397fb974b5f150a815188382ac41f372a7149d5bc178008"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-384",
+│┄             "content": "8c5930bc651921718c1e8ea7825d24ed520daf6810817b3a35f481099b77f03da8602ae83bf1bf3578b208e665579332"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-512",
+│┄             "content": "34989289ce8ed861499f31742ee1e7b9dc3c59973ce915a7b561d33d98968e77db5bb94c1692802ccdbd86d04caa7db67748efafb1402428b2d6ae3056497618"
+│┄           }
+│┄         ],
+│┄         "licenses": [
+│┄           {
+│┄             "license": {
+│┄               "name": "Indiana University Extreme! Lab Software License, vesion 1.1.1",
+│┄               "url": "http://www.extreme.indiana.edu/viewcvs/~checkout~/XPP3/java/LICENSE.txt"
+│┄             }
+│┄           },
+│┄           {
+│┄             "license": {
+│┄               "name": "Public Domain",
+│┄               "url": "http://creativecommons.org/licenses/publicdomain"
+│┄             }
+│┄           }
+│┄         ],
+│┄         "name": "xpp3_min",
+│┄         "publisher": "Extreme! Lab, Indiana University",
+│┄         "purl": "pkg:maven/xpp3/xpp3_min@1.1.4c?type=jar",
+│┄         "type": "library",
+│┄         "version": "1.1.4c"
+│┄       },
+│┄       {
+│┄         "bom-ref": "pkg:maven/xerces/xercesImpl@2.12.0?type=jar",
+│┄         "description": "Xerces2 is the next generation of high performance, fully compliant XML parsers in the Apache Xerces family. This new version of Xerces introduces the Xerces Native Interface (XNI), a complete framework for building parser components and configurations that is extremely modular and easy to program. The Apache Xerces2 parser is the reference implementation of XNI but other parser components, configurations, and parsers can be written using the Xerces Native Interface. For complete design and implementation documents, refer to the XNI Manual. Xerces2 is a fully conforming XML Schema 1.0 processor. A partial experimental implementation of the XML Schema 1.1 Structures and Datatypes Working Drafts (December 2009) and an experimental implementation of the XML Schema Definition Language (XSD): Component Designators (SCD) Candidate Recommendation (January 2010) are provided for evaluation. For more information, refer to the XML Schema page. Xerces2 also provides a complete implementation of the Document Object Model Level 3 Core and Load/Save W3C Recommendations and provides a complete implementation of the XML Inclusions (XInclude) W3C Recommendation. It also provides support for OASIS XML Catalogs v1.1. Xerces2 is able to parse documents written according to the XML 1.1 Recommendation, except that it does not yet provide an option to enable normalization checking as described in section 2.13 of this specification. It also handles namespaces according to the XML Namespaces 1.1 Recommendation, and will correctly serialize XML 1.1 documents if the DOM level 3 load/save APIs are in use.",
+│┄         "externalReferences": [
+│┄           {
+│┄             "type": "vcs",
+│┄             "url": "https://svn.apache.org/repos/asf/xerces/java/"
+│┄           }
+│┄         ],
+│┄         "group": "xerces",
+│┄         "hashes": [
+│┄           {
+│┄             "alg": "MD5",
+│┄             "content": "b89632b53c4939a2982bcb52806f6dec"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-1",
+│┄             "content": "f02c844149fd306601f20e0b34853a670bef7fa2"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-256",
+│┄             "content": "b50d3a4ca502faa4d1c838acb8aa9480446953421f7327e338c5dda3da5e76d0"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-384",
+│┄             "content": "4638b651e5f29f0e82dfa308924859f707ba7877610688710dd77c5ae5e53e3e4a3168f962bb3d985f4e5b9236776988"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-512",
+│┄             "content": "e9d62dc311df808f88ac63b427bb40567c19cec618a33d0a9c7c830b1bb7c64dae263a5ee6c824d8e51a63cd24f49fe2ef4e2563d6e6aa0400f63e9bb35dce97"
+│┄           }
+│┄         ],
+│┄         "licenses": [
+│┄           {
+│┄             "license": {
+│┄               "id": "Apache-2.0"
+│┄             }
+│┄           }
+│┄         ],
+│┄         "name": "xercesImpl",
+│┄         "purl": "pkg:maven/xerces/xercesImpl@2.12.0?type=jar",
+│┄         "scope": "optional",
+│┄         "type": "library",
+│┄         "version": "2.12.0"
+│┄       },
+│┄       {
+│┄         "bom-ref": "pkg:maven/xml-apis/xml-apis@1.4.01?type=jar",
+│┄         "description": "xml-commons provides an Apache-hosted set of DOM, SAX, and JAXP interfaces for use in other xml-based projects. Our hope is that we can standardize on both a common version and packaging scheme for these critical XML standards interfaces to make the lives of both our developers and users easier. The External Components portion of xml-commons contains interfaces that are defined by external standards organizations. For DOM, that's the W3C; for SAX it's David Megginson and sax.sourceforge.net; for JAXP it's Sun.",
+│┄         "externalReferences": [
+│┄           {
+│┄             "type": "issue-tracker",
+│┄             "url": "http://issues.apache.org/bugzilla/"
+│┄           },
+│┄           {
+│┄             "type": "mailing-list",
+│┄             "url": "http://mail-archives.apache.org/mod_mbox/xml-commons-dev/"
+│┄           },
+│┄           {
+│┄             "type": "vcs",
+│┄             "url": "https://svn.apache.org/viewvc/xml/commons/tags/xml-commons-external-1_4_01/"
+│┄           }
+│┄         ],
+│┄         "group": "xml-apis",
+│┄         "hashes": [
+│┄           {
+│┄             "alg": "MD5",
+│┄             "content": "7eaad6fea5925cca6c36ee8b3e02ac9d"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-1",
+│┄             "content": "3789d9fada2d3d458c4ba2de349d48780f381ee3"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-256",
+│┄             "content": "a840968176645684bb01aed376e067ab39614885f9eee44abe35a5f20ebe7fad"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-384",
+│┄             "content": "bce0ec0f0f692213a1110197c4a11c333673ae0630481255d12b441a8cba70aecfaf104c3d8d9b500ed2a0a19a2bfcce"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-512",
+│┄             "content": "8db0283b6840cd6407957d296b802e3edf90653e2722f8e29f86c1c0b60996c4b43e9e065e6864dab89b2138ddb0174d9b4fdda4a93f94eeb884783db82f3268"
+│┄           }
+│┄         ],
+│┄         "licenses": [
+│┄           {
+│┄             "license": {
+│┄               "id": "Apache-2.0"
+│┄             }
+│┄           },
+│┄           {
+│┄             "license": {
+│┄               "id": "SAX-PD",
+│┄               "url": "http://www.saxproject.org/copying.html"
+│┄             }
+│┄           },
+│┄           {
+│┄             "license": {
+│┄               "name": "The W3C License",
+│┄               "url": "http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407/java-binding.zip"
+│┄             }
+│┄           }
+│┄         ],
+│┄         "name": "xml-apis",
+│┄         "purl": "pkg:maven/xml-apis/xml-apis@1.4.01?type=jar",
+│┄         "scope": "required",
+│┄         "type": "library",
+│┄         "version": "1.4.01"
+│┄       },
+│┄       {
+│┄         "bom-ref": "pkg:maven/org.json/json@20190722?type=jar",
+│┄         "description": "JSON is a light-weight, language independent, data interchange format. See http://www.JSON.org/ The files in this package implement JSON encoders/decoders in Java. It also includes the capability to convert between JSON and XML, HTTP headers, Cookies, and CDL. This is a reference implementation. There is a large number of JSON packages in Java. Perhaps someday the Java community will standardize on one. Until then, choose carefully. The license includes this restriction: \"The software shall be used for good, not evil.\" If your conscience cannot live with that, then choose a different package.",
+│┄         "externalReferences": [
+│┄           {
+│┄             "type": "vcs",
+│┄             "url": "https://github.com/douglascrockford/JSON-java.git"
+│┄           },
+│┄           {
+│┄             "type": "distribution",
+│┄             "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+│┄           }
+│┄         ],
+│┄         "group": "org.json",
+│┄         "hashes": [
+│┄           {
+│┄             "alg": "MD5",
+│┄             "content": "cdb0aa1fd126bc94b34da5856b57f13a"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-1",
+│┄             "content": "07bce7bacf0ab5e9f894d307a3de8b7f540064d5"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-256",
+│┄             "content": "e35b3830de02a8992ca8beb6936f52ee80e509753d64469c8f0dde93e17a880b"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-384",
+│┄             "content": "768234394c9f6f4fc33162d383739e5feaf78479bd4b05ff0b41aad05ab2f89e195ac0b51d7163f664d785f51e1e7db9"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-512",
+│┄             "content": "2c815bcd5b3efe683bf3e9f47d559be0934d35ac63299522f3143ca072ae414177c4dc909ff1db4957b93e79eddfa971d5f65fb34c9608eb65083a7e3f57b10c"
+│┄           }
+│┄         ],
+│┄         "licenses": [
+│┄           {
+│┄             "license": {
+│┄               "id": "JSON"
+│┄             }
+│┄           }
+│┄         ],
+│┄         "name": "json",
+│┄         "purl": "pkg:maven/org.json/json@20190722?type=jar",
+│┄         "scope": "required",
+│┄         "type": "library",
+│┄         "version": "20190722"
+│┄       },
+│┄       {
+│┄         "bom-ref": "pkg:maven/com.github.everit-org.json-schema/org.everit.json.schema@1.12.1?type=jar",
+│┄         "description": "Implementation of the JSON Schema Core Draft v4 specification built with the org.json API",
+│┄         "externalReferences": [
+│┄           {
+│┄             "type": "website",
+│┄             "url": "http://www.everit.org"
+│┄           },
+│┄           {
+│┄             "type": "vcs",
+│┄             "url": "https://github.com/everit-org/json-schema"
+│┄           }
+│┄         ],
+│┄         "group": "com.github.everit-org.json-schema",
+│┄         "hashes": [
+│┄           {
+│┄             "alg": "MD5",
+│┄             "content": "0eb0ebc0ca993cef31a4056536fb2a7b"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-1",
+│┄             "content": "85da07827b689184f893154dd8c8ab3691f9ec3b"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-256",
+│┄             "content": "2444eadc87f6ad45b7434435f936bcfa9847fa52158f744b1f038d13d9aaec8e"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-384",
+│┄             "content": "c8f0bc800ff5148ac1f4f3f2455133ca399b21f079bbe81f935a92d1a351c0698a01d99a58c3e699037570d63c20ebef"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-512",
+│┄             "content": "77f4158ad4cf43194e79b008515d7b7847661183c47dce804d118c2fb9492b3d9877d0d43e07eba2be31032a978407c9d85e04aeb060f176173c7e6bda07b65b"
+│┄           }
+│┄         ],
+│┄         "licenses": [
+│┄           {
+│┄             "license": {
+│┄               "id": "Apache-2.0"
+│┄             }
+│┄           }
+│┄         ],
+│┄         "name": "org.everit.json.schema",
+│┄         "publisher": "Everit Kft.",
+│┄         "purl": "pkg:maven/com.github.everit-org.json-schema/org.everit.json.schema@1.12.1?type=jar",
+│┄         "scope": "required",
+│┄         "type": "library",
+│┄         "version": "1.12.1"
+│┄       },
+│┄       {
+│┄         "bom-ref": "pkg:maven/commons-validator/commons-validator@1.6?type=jar",
+│┄         "description": "Apache Commons Validator provides the building blocks for both client side validation and server side data validation. It may be used standalone or with a framework like Struts.",
+│┄         "externalReferences": [
+│┄           {
+│┄             "type": "issue-tracker",
+│┄             "url": "http://issues.apache.org/jira/browse/VALIDATOR"
+│┄           },
+│┄           {
+│┄             "type": "vcs",
+│┄             "url": "http://svn.apache.org/viewvc/commons/proper/validator/tags/VALIDATOR_1_6/"
+│┄           },
+│┄           {
+│┄             "type": "build-system",
+│┄             "url": "https://builds.apache.org/"
+│┄           },
+│┄           {
+│┄             "type": "mailing-list",
+│┄             "url": "http://mail-archives.apache.org/mod_mbox/commons-user/"
+│┄           },
+│┄           {
+│┄             "type": "website",
+│┄             "url": "https://www.apache.org/"
+│┄           },
+│┄           {
+│┄             "type": "distribution",
+│┄             "url": "https://repository.apache.org/service/local/staging/deploy/maven2"
+│┄           }
+│┄         ],
+│┄         "group": "commons-validator",
+│┄         "hashes": [
+│┄           {
+│┄             "alg": "MD5",
+│┄             "content": "3fd5efd8dcdd601035c123638a897833"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-1",
+│┄             "content": "e989d1e87cdd60575df0765ed5bac65c905d7908"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-256",
+│┄             "content": "bd62795d7068a69cbea333f6dbf9c9c1a6ad7521443fb57202a44874f240ba25"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-384",
+│┄             "content": "9f2a218b7d20f9230403437eeebd74642bebf0f85a18de2454ae9de3ebaf621a4f422668d1020bd5f9242ef6f4996257"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-512",
+│┄             "content": "aded530d3b79ead6ba5c44668c6d6964d7721f9617249f6aaa1c8f558ad4b3d3c1b6d78b639a4cb8dd27a671879b662fdbba0502fd04e131f3286169507df30c"
+│┄           }
+│┄         ],
+│┄         "licenses": [
+│┄           {
+│┄             "license": {
+│┄               "id": "Apache-2.0"
+│┄             }
+│┄           }
+│┄         ],
+│┄         "name": "commons-validator",
+│┄         "publisher": "The Apache Software Foundation",
+│┄         "purl": "pkg:maven/commons-validator/commons-validator@1.6?type=jar",
+│┄         "type": "library",
+│┄         "version": "1.6"
+│┄       },
+│┄       {
+│┄         "bom-ref": "pkg:maven/commons-digester/commons-digester@1.8.1?type=jar",
+│┄         "description": "The Digester package lets you configure an XML to Java object mapping module which triggers certain actions called rules whenever a particular pattern of nested XML elements is recognized.",
+│┄         "externalReferences": [
+│┄           {
+│┄             "type": "issue-tracker",
+│┄             "url": "http://issues.apache.org/jira/browse/DIGESTER"
+│┄           },
+│┄           {
+│┄             "type": "vcs",
+│┄             "url": "http://svn.apache.org/viewvc/commons/proper/digester/tags/DIGESTER_1_8_1"
+│┄           },
+│┄           {
+│┄             "type": "build-system",
+│┄             "url": "http://vmbuild.apache.org/continuum/"
+│┄           },
+│┄           {
+│┄             "type": "mailing-list",
+│┄             "url": "http://mail-archives.apache.org/mod_mbox/commons-user/"
+│┄           },
+│┄           {
+│┄             "type": "website",
+│┄             "url": "http://www.apache.org/"
+│┄           }
+│┄         ],
+│┄         "group": "commons-digester",
+│┄         "hashes": [
+│┄           {
+│┄             "alg": "MD5",
+│┄             "content": "5002ecf033f5a79e398155823badb36a"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-1",
+│┄             "content": "3dec9b9c7ea9342d4dbe8c38560080d85b44a015"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-256",
+│┄             "content": "b97b72b4201137262215dca60ceb84e6b664bf7fe428a4d62729de0239cafdb6"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-384",
+│┄             "content": "64b3b08aec4de3423334c60488e08642a6e1b900f76ff66eb7c780d30d353b1c2cd70c8b3474c5a2a6aaf9858bea956f"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-512",
+│┄             "content": "8c97f2025869c80dcd930fbc5fb4955a254ca5e7a9bb9766276c1ec43abf9a995141d9df0c654e61b8aa70811f5887088ac911159f1fa710a7830e39d7f506f3"
+│┄           }
+│┄         ],
+│┄         "licenses": [
+│┄           {
+│┄             "license": {
+│┄               "id": "Apache-2.0"
+│┄             }
+│┄           }
+│┄         ],
+│┄         "name": "commons-digester",
+│┄         "publisher": "The Apache Software Foundation",
+│┄         "purl": "pkg:maven/commons-digester/commons-digester@1.8.1?type=jar",
+│┄         "type": "library",
+│┄         "version": "1.8.1"
+│┄       },
+│┄       {
+│┄         "bom-ref": "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+│┄         "description": "Apache Commons Logging is a thin adapter allowing configurable bridging to other, well known logging systems.",
+│┄         "externalReferences": [
+│┄           {
+│┄             "type": "issue-tracker",
+│┄             "url": "http://issues.apache.org/jira/browse/LOGGING"
+│┄           },
+│┄           {
+│┄             "type": "vcs",
+│┄             "url": "http://svn.apache.org/repos/asf/commons/proper/logging/trunk"
+│┄           },
+│┄           {
+│┄             "type": "build-system",
+│┄             "url": "https://continuum-ci.apache.org/"
+│┄           },
+│┄           {
+│┄             "type": "mailing-list",
+│┄             "url": "http://mail-archives.apache.org/mod_mbox/commons-user/"
+│┄           },
+│┄           {
+│┄             "type": "website",
+│┄             "url": "http://www.apache.org/"
+│┄           },
+│┄           {
+│┄             "type": "distribution",
+│┄             "url": "https://repository.apache.org/service/local/staging/deploy/maven2"
+│┄           }
+│┄         ],
+│┄         "group": "commons-logging",
+│┄         "hashes": [
+│┄           {
+│┄             "alg": "MD5",
+│┄             "content": "040b4b4d8eac886f6b4a2a3bd2f31b00"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-1",
+│┄             "content": "4bfc12adfe4842bf07b657f0369c4cb522955686"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-256",
+│┄             "content": "daddea1ea0be0f56978ab3006b8ac92834afeefbd9b7e4e6316fca57df0fa636"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-384",
+│┄             "content": "ac20720d7156131478205f1b454395abf84cfc8da2f163301af32f63bd3c4764bd26cb54ed53800f33193ae591f3ce9c"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-512",
+│┄             "content": "ed00dbfabd9ae00efa26dd400983601d076fe36408b7d6520084b447e5d1fa527ce65bd6afdcb58506c3a808323d28e88f26cb99c6f5db9ff64f6525ecdfa557"
+│┄           }
+│┄         ],
+│┄         "licenses": [
+│┄           {
+│┄             "license": {
+│┄               "id": "Apache-2.0"
+│┄             }
+│┄           }
+│┄         ],
+│┄         "name": "commons-logging",
+│┄         "publisher": "The Apache Software Foundation",
+│┄         "purl": "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+│┄         "type": "library",
+│┄         "version": "1.2"
+│┄       },
+│┄       {
+│┄         "bom-ref": "pkg:maven/commons-collections/commons-collections@3.2.2?type=jar",
+│┄         "description": "Types that extend and augment the Java Collections Framework.",
+│┄         "externalReferences": [
+│┄           {
+│┄             "type": "issue-tracker",
+│┄             "url": "http://issues.apache.org/jira/browse/COLLECTIONS"
+│┄           },
+│┄           {
+│┄             "type": "vcs",
+│┄             "url": "http://svn.apache.org/viewvc/commons/proper/collections/trunk"
+│┄           },
+│┄           {
+│┄             "type": "build-system",
+│┄             "url": "https://continuum-ci.apache.org/"
+│┄           },
+│┄           {
+│┄             "type": "mailing-list",
+│┄             "url": "http://mail-archives.apache.org/mod_mbox/commons-user/"
+│┄           },
+│┄           {
+│┄             "type": "website",
+│┄             "url": "http://www.apache.org/"
+│┄           },
+│┄           {
+│┄             "type": "distribution",
+│┄             "url": "https://repository.apache.org/service/local/staging/deploy/maven2"
+│┄           }
+│┄         ],
+│┄         "group": "commons-collections",
+│┄         "hashes": [
+│┄           {
+│┄             "alg": "MD5",
+│┄             "content": "f54a8510f834a1a57166970bfc982e94"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-1",
+│┄             "content": "8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-256",
+│┄             "content": "eeeae917917144a68a741d4c0dff66aa5c5c5fd85593ff217bced3fc8ca783b8"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-384",
+│┄             "content": "dd4e99b3314bd3c1a1ee26296615d9e44dadf7a1f8a7bbba44fb95121803d331e36d4cca4260e7609af78a47ba3e4073"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-512",
+│┄             "content": "51c72f9aca7726f3c387095e66be85a6df97c74b00a25434b89188c1b8eab6e2b55accf7b9bd412430d22bd09324dec076e300b3d1fa39fccad471f0f2a3da16"
+│┄           }
+│┄         ],
+│┄         "licenses": [
+│┄           {
+│┄             "license": {
+│┄               "id": "Apache-2.0"
+│┄             }
+│┄           }
+│┄         ],
+│┄         "name": "commons-collections",
+│┄         "publisher": "The Apache Software Foundation",
+│┄         "purl": "pkg:maven/commons-collections/commons-collections@3.2.2?type=jar",
+│┄         "type": "library",
+│┄         "version": "3.2.2"
+│┄       },
+│┄       {
+│┄         "bom-ref": "pkg:maven/com.damnhandy/handy-uri-templates@2.1.8?type=jar",
+│┄         "description": "Handy URI Templates is a RFC6570 compliant URI template processor. The library allows clients to utilize templatized URIs and inject replacement variables to expand the template into a URI. The library sports a fluent API, ability to plugin custom object renderers, and supports all levels of URI templates.",
+│┄         "externalReferences": [
+│┄           {
+│┄             "type": "website",
+│┄             "url": "https://github.com/damnhandy/Handy-URI-Templates"
+│┄           },
+│┄           {
+│┄             "type": "build-system",
+│┄             "url": "https://travis-ci.org/damnhandy/Handy-URI-Templates"
+│┄           },
+│┄           {
+│┄             "type": "distribution",
+│┄             "url": "https://oss.sonatype.org/service/local/staging/deploy/maven2"
+│┄           },
+│┄           {
+│┄             "type": "issue-tracker",
+│┄             "url": "https://github.com/damnhandy/Handy-URI-Templates/issues"
+│┄           },
+│┄           {
+│┄             "type": "vcs",
+│┄             "url": "https://github.com/damnhandy/Handy-URI-Templates.git"
+│┄           }
+│┄         ],
+│┄         "group": "com.damnhandy",
+│┄         "hashes": [
+│┄           {
+│┄             "alg": "MD5",
+│┄             "content": "dc72a6aef494a42a766ed53b00f146f3"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-1",
+│┄             "content": "170102d8e1d6fcc5e8f9bef45de923285dd3a80f"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-256",
+│┄             "content": "6b83846f2ff61d0aaa66997b64b883ec7b65cf13b50a4d7f58250996d429be2e"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-384",
+│┄             "content": "53e3c379ae68a2d748365b233cc84f0905f8e1602a50851707b7055ac54a02301a722a59e261fc4c9ae60d3bbe2f7ecd"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-512",
+│┄             "content": "1218e3164c49cfc0e508309b9a0ff78225a818c10af3f2eecca4f6844bf616adfeecb82be8b6f98ae581dd56ff90b41aaa1d996845cf9308cde6bf06ce290e2d"
+│┄           }
+│┄         ],
+│┄         "licenses": [
+│┄           {
+│┄             "license": {
+│┄               "id": "Apache-2.0"
+│┄             }
+│┄           }
+│┄         ],
+│┄         "name": "handy-uri-templates",
+│┄         "publisher": "Ryan J. McDonough",
+│┄         "purl": "pkg:maven/com.damnhandy/handy-uri-templates@2.1.8?type=jar",
+│┄         "type": "library",
+│┄         "version": "2.1.8"
+│┄       },
+│┄       {
+│┄         "bom-ref": "pkg:maven/joda-time/joda-time@2.10.2?type=jar",
+│┄         "description": "Date and time library to replace JDK date handling",
+│┄         "externalReferences": [
+│┄           {
+│┄             "type": "website",
+│┄             "url": "https://www.joda.org"
+│┄           },
+│┄           {
+│┄             "type": "distribution",
+│┄             "url": "https://oss.sonatype.org/content/repositories/joda-releases"
+│┄           },
+│┄           {
+│┄             "type": "issue-tracker",
+│┄             "url": "https://github.com/JodaOrg/joda-time/issues"
+│┄           },
+│┄           {
+│┄             "type": "vcs",
+│┄             "url": "https://github.com/JodaOrg/joda-time"
+│┄           }
+│┄         ],
+│┄         "group": "joda-time",
+│┄         "hashes": [
+│┄           {
+│┄             "alg": "MD5",
+│┄             "content": "8074973201db41be2eb9eedb9263be0a"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-1",
+│┄             "content": "a079fc39ccc3de02acdeb7117443e5d9bd431687"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-256",
+│┄             "content": "d3d9f78f66ad8e8fbdcb4b4a43481eac95f3cdbcc0fe064542dfbe336c3a0e10"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-384",
+│┄             "content": "b0e4a461e6ab3ace334aad856e83bee56c64eb3d7cafb981dcb9614ccd287de0329ddd0733c52888195d60810dc52ab0"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-512",
+│┄             "content": "ecc98e493b059112d8be05bce3682983ad84f03d7a987f4d3539f3e5fec758f7b124f4d00c1c8a452248cb10bd2ba29e11046e87cb5daba9919ddc620c57bf7d"
+│┄           }
+│┄         ],
+│┄         "licenses": [
+│┄           {
+│┄             "license": {
+│┄               "id": "Apache-2.0"
+│┄             }
+│┄           }
+│┄         ],
+│┄         "name": "joda-time",
+│┄         "publisher": "Joda.org",
+│┄         "purl": "pkg:maven/joda-time/joda-time@2.10.2?type=jar",
+│┄         "type": "library",
+│┄         "version": "2.10.2"
+│┄       },
+│┄       {
+│┄         "bom-ref": "pkg:maven/com.google.re2j/re2j@1.3?type=jar",
+│┄         "description": "Linear time regular expressions for Java",
+│┄         "externalReferences": [
+│┄           {
+│┄             "type": "vcs",
+│┄             "url": "https://github.com/google/re2j.git"
+│┄           }
+│┄         ],
+│┄         "group": "com.google.re2j",
+│┄         "hashes": [
+│┄           {
+│┄             "alg": "MD5",
+│┄             "content": "75666fb75aeeab091c906093a2660ac6"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-1",
+│┄             "content": "dc7de2b32fa8cc569ab44fb849abadbbc6983b91"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-256",
+│┄             "content": "d8040fa1c54c1ce208199015b6e599ec2ef37b7780f8f55a8b4b4b4299bade19"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-384",
+│┄             "content": "937b4dd25e0b06107e23f7dfe9c01175a92bedb79974aa16f2858c14cf6b55aac799db41b4b78e0e108a7874e106adb7"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-512",
+│┄             "content": "a9bd66b95ede4d7576358b974db8059eef884d0ce59a1e065a3be1e84b97f50af7bbc6429968750f82faab1e666bbb9e51f8685e12051bb5407b3943804f04f6"
+│┄           }
+│┄         ],
+│┄         "licenses": [
+│┄           {
+│┄             "license": {
+│┄               "name": "Go License",
+│┄               "url": "https://golang.org/LICENSE"
+│┄             }
+│┄           }
+│┄         ],
+│┄         "name": "re2j",
+│┄         "purl": "pkg:maven/com.google.re2j/re2j@1.3?type=jar",
+│┄         "type": "library",
+│┄         "version": "1.3"
+│┄       },
+│┄       {
+│┄         "bom-ref": "pkg:maven/com.alibaba/fastjson@1.2.75?type=jar",
+│┄         "description": "Fastjson is a JSON processor (JSON parser + JSON generator) written in Java",
+│┄         "externalReferences": [
+│┄           {
+│┄             "type": "website",
+│┄             "url": "https://github.com/alibaba"
+│┄           },
+│┄           {
+│┄             "type": "vcs",
+│┄             "url": "https://github.com/alibaba/fastjson"
+│┄           }
+│┄         ],
+│┄         "group": "com.alibaba",
+│┄         "hashes": [
+│┄           {
+│┄             "alg": "MD5",
+│┄             "content": "8f8348cd8af7509c2d84588b5b21d0e9"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-1",
+│┄             "content": "81ea48dc54d150554983063f6a602ccce5d53e31"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-256",
+│┄             "content": "9ba58edc4473ee813eca9b8dd4a066378023b7b7e2e605823c07a16abfade189"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-384",
+│┄             "content": "e84b8576dbe91ed72da88a50235b88398957380efa6e583cd9186ec5dcc24324b908f7f30965f4931db1012ef43c4662"
+│┄           },
+│┄           {
+│┄             "alg": "SHA-512",
+│┄             "content": "bb7a6be8a5fd6bc84aafb5f902290dae55dbd2ea1f3f4f5ebf0a115c9e4407a8fc1c497b36e40cd96a9ee64f46b1e2b53e828aea4f88325aca13b051c35dacb1"
+│┄           }
+│┄         ],
+│┄         "licenses": [
+│┄           {
+│┄             "license": {
+│┄               "id": "Apache-2.0"
+│┄             }
+│┄           }
+│┄         ],
+│┄         "name": "fastjson",
+│┄         "publisher": "Alibaba Group",
+│┄         "purl": "pkg:maven/com.alibaba/fastjson@1.2.75?type=jar",
+│┄         "scope": "required",
+│┄         "type": "library",
+│┄         "version": "1.2.75"
+│┄       }
+│┄     ],
+│┄     "dependencies": [
+│┄       {
+│┄         "ref": "pkg:maven/commons-codec/commons-codec@1.15?type=jar"
+│┄       },
+│┄       {
+│┄         "ref": "pkg:maven/commons-io/commons-io@2.8.0?type=jar"
+│┄       },
+│┄       {
+│┄         "ref": "pkg:maven/com.github.package-url/packageurl-java@1.1.1?type=jar"
+│┄       },
+│┄       {
+│┄         "dependsOn": [
+│┄           "pkg:maven/xmlpull/xmlpull@1.1.3.1?type=jar",
+│┄           "pkg:maven/xpp3/xpp3_min@1.1.4c?type=jar"
+│┄         ],
+│┄         "ref": "pkg:maven/com.thoughtworks.xstream/xstream@1.4.14?type=jar"
+│┄       },
+│┄       {
+│┄         "ref": "pkg:maven/xmlpull/xmlpull@1.1.3.1?type=jar"
+│┄       },
+│┄       {
+│┄         "ref": "pkg:maven/xpp3/xpp3_min@1.1.4c?type=jar"
+│┄       },
+│┄       {
+│┄         "dependsOn": [
+│┄           "pkg:maven/xml-apis/xml-apis@1.4.01?type=jar"
+│┄         ],
+│┄         "ref": "pkg:maven/xerces/xercesImpl@2.12.0?type=jar"
+│┄       },
+│┄       {
+│┄         "ref": "pkg:maven/xml-apis/xml-apis@1.4.01?type=jar"
+│┄       },
+│┄       {
+│┄         "ref": "pkg:maven/org.json/json@20190722?type=jar"
+│┄       },
+│┄       {
+│┄         "dependsOn": [
+│┄           "pkg:maven/commons-validator/commons-validator@1.6?type=jar",
+│┄           "pkg:maven/com.damnhandy/handy-uri-templates@2.1.8?type=jar",
+│┄           "pkg:maven/com.google.re2j/re2j@1.3?type=jar"
+│┄         ],
+│┄         "ref": "pkg:maven/com.github.everit-org.json-schema/org.everit.json.schema@1.12.1?type=jar"
+│┄       },
+│┄       {
+│┄         "dependsOn": [
+│┄           "pkg:maven/commons-digester/commons-digester@1.8.1?type=jar",
+│┄           "pkg:maven/commons-logging/commons-logging@1.2?type=jar",
+│┄           "pkg:maven/commons-collections/commons-collections@3.2.2?type=jar"
+│┄         ],
+│┄         "ref": "pkg:maven/commons-validator/commons-validator@1.6?type=jar"
+│┄       },
+│┄       {
+│┄         "ref": "pkg:maven/commons-digester/commons-digester@1.8.1?type=jar"
+│┄       },
+│┄       {
+│┄         "ref": "pkg:maven/commons-logging/commons-logging@1.2?type=jar"
+│┄       },
+│┄       {
+│┄         "ref": "pkg:maven/commons-collections/commons-collections@3.2.2?type=jar"
+│┄       },
+│┄       {
+│┄         "dependsOn": [
+│┄           "pkg:maven/joda-time/joda-time@2.10.2?type=jar"
+│┄         ],
+│┄         "ref": "pkg:maven/com.damnhandy/handy-uri-templates@2.1.8?type=jar"
+│┄       },
+│┄       {
+│┄         "ref": "pkg:maven/joda-time/joda-time@2.10.2?type=jar"
+│┄       },
+│┄       {
+│┄         "ref": "pkg:maven/com.google.re2j/re2j@1.3?type=jar"
+│┄       },
+│┄       {
+│┄         "ref": "pkg:maven/com.alibaba/fastjson@1.2.75?type=jar"
+│┄       }
+│┄     ],
+│┄     "metadata": {
+│┄       "component": {
+│┄         "bom-ref": "pkg:maven/org.cyclonedx/cyclonedx-core-java@3.0.8",
+│┄         "group": "org.cyclonedx",
+│┄         "licenses": [
+│┄           {
+│┄             "license": {
+│┄               "id": "Apache-2.0",
+│┄               "url": "http://www.apache.org/licenses/LICENSE-2.0"
+│┄             }
+│┄           }
+│┄         ],
+│┄         "name": "cyclonedx-core-java",
+│┄         "purl": "pkg:maven/org.cyclonedx/cyclonedx-core-java@3.0.8",
+│┄         "type": "library",
+│┄         "version": "3.0.8"
+│┄       },
+│┄       "timestamp": "2021-02-01T07:38:26Z",
+│┄       "tools": [
+│┄         {
+│┄           "hashes": [
+│┄             {
+│┄               "alg": "MD5",
+│┄               "content": "175327f4ba350153f1217d900ad4339d"
+│┄             },
+│┄             {
+│┄               "alg": "SHA-1",
+│┄               "content": "c5613ba301617627b4c3d9a06e1c9820c3036c2d"
+│┄             },
+│┄             {
+│┄               "alg": "SHA-256",
+│┄               "content": "1b20f4eb90857cdfddf4fc054ac8edc0925b2fe33129d8db002b8a81ce729a75"
+│┄             },
+│┄             {
+│┄               "alg": "SHA-384",
+│┄               "content": "761678839c3c703843b3e0d917443f2869aa3563081b5645edae0aa3cf4897cce0ebd2bf7d546a2427a45d449bbd0faa"
+│┄             },
+│┄             {
+│┄               "alg": "SHA-512",
+│┄               "content": "0540451c2744ebb20344cb8811745cecca475ec34574e4830a11564a08dc15d1ba9507bc9083f4b1817ec3c9ca100a56f5464971ead7c310b3ea6947d752ba6e"
+│┄             }
+│┄           ],
+│┄           "name": "CycloneDX Maven plugin",
+│┄           "vendor": "CycloneDX",
+│┄           "version": "2.1.1"
+│┄         }
+│┄       ]
+│┄     },
+│┄     "serialNumber": "urn:uuid:c7c68306-1e95-4616-8a2a-3a76bbe33c2b",
+│┄     "specVersion": "1.2",
+│┄     "version": 1
+│┄   }
+│┄ }
+│ @@ -1120,15 +1120,15 @@
+│                  }
+│              ],
+│              "name": "cyclonedx-core-java",
+│              "purl": "pkg:maven/org.cyclonedx/cyclonedx-core-java@3.0.8",
+│              "type": "library",
+│              "version": "3.0.8"
+│          },
+│ -        "timestamp": "2021-01-30T23:51:40Z",
+│ +        "timestamp": "2021-02-01T07:38:26Z",
+│          "tools": [
+│              {
+│                  "hashes": [
+│                      {
+│                          "alg": "MD5",
+│                          "content": "175327f4ba350153f1217d900ad4339d"
+│                      },
+│ @@ -1151,11 +1151,11 @@
+│                  ],
+│                  "name": "CycloneDX Maven plugin",
+│                  "vendor": "CycloneDX",
+│                  "version": "2.1.1"
+│              }
+│          ]
+│      },
+│ -    "serialNumber": "urn:uuid:042631d0-4cd1-4fdf-bf06-8058c64758d4",
+│ +    "serialNumber": "urn:uuid:c7c68306-1e95-4616-8a2a-3a76bbe33c2b",
+│      "specVersion": "1.2",
+│      "version": 1
+│  }
