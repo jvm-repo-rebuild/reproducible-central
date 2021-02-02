@@ -1,0 +1,33 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Micronaut Maven Plugin
+group-id=io.micronaut.build
+artifact-id=micronaut-maven-plugin
+version=1.1.5
+
+# source information
+source.scm.uri=scm:git:git@github.com:micronaut-projects/micronaut-maven-plugin.git
+source.scm.tag=v1.1.5
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_275
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.3.9
+
+# output
+
+outputs.0.filename=micronaut-maven-plugin-1.1.5.jar
+outputs.0.length=70388
+outputs.0.checksums.sha512=a00fd5203ac23d7e5524f3a63653b3d0e6a1d258169d0096291f57fa185a2e7dcddd067c79eb897e47b01a440d7ee4fab3bf42b66baae9d6b97095f05932d781
+
+outputs.1.filename=micronaut-maven-plugin-1.1.5-sources.jar
+outputs.1.length=36825
+outputs.1.checksums.sha512=ced4d7dd0308f2660055ab4e6a9485605a4f6257bb95b9b3df74421ee7b504713b9f66f3e19324311570e7b05f371c0d109491613af8bb3eea841b474b005a0d
