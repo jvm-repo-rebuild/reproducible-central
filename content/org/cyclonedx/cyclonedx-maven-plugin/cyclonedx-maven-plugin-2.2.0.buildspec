@@ -14,4 +14,4 @@ command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/cyclonedx/cyclonedx-maven-plugin/cyclonedx-maven-plugin-2.2.0.diffoscope
-issue=https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/cyclonedx/cyclonedx-maven-plugin/cyclonedx-maven-plugin-2.2.0.diffoscope
+issue=https://github.com/CycloneDX/cyclonedx-maven-plugin/issues/84
