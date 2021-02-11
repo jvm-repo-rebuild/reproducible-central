@@ -1,0 +1,5 @@
+version=3.1.0
+ok=3
+ko=0
+okFiles="maven-invoker-3.1.0.jar maven-invoker-3.1.0-source-release.zip maven-invoker-3.1.0-sources.jar"
+koFiles=""
