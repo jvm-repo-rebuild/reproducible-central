@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Stringprep Project
+group-id=com.ongres.stringprep
+artifact-id=parent
+version=2.0
+
+# source information
+source.scm.uri=scm:git:git@gitlab.com:ongresinc/stringprep.git
+source.scm.tag=2.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.9.1
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.aggregate.artifact-id=nameprep
+
+# aggregated output
+
+outputs.0.coordinates=com.ongres.stringprep:parent
+
+outputs.1.coordinates=com.ongres.stringprep:stringprep
+
+outputs.1.0.filename=stringprep-2.0.jar
+outputs.1.0.length=43476
+outputs.1.0.checksums.sha512=537784146dbbe7fb20ee32d7f62004b1093cff76dd0492191bfeb24c4decc3fca1d90fa02e58696b16c7de9931007339a5b0bbf107b187f4215fd72202f59264
+
+outputs.1.1.filename=stringprep-2.0-sources.jar
+outputs.1.1.length=29063
+outputs.1.1.checksums.sha512=612b4fec87651ddffae312dd7a7a3e4f208e1183bd420d19e09edc65b094e4bd7846776234c5c601cfe711872f0fd18d5330457ef3c63045674ecba2d8df6313
+
+outputs.2.coordinates=com.ongres.stringprep:saslprep
+
+outputs.2.0.filename=saslprep-2.0.jar
+outputs.2.0.length=5348
+outputs.2.0.checksums.sha512=660f00e96c893938b56b6b6ee562d60b2c8678da6d459ee4a314502d79d325f2bf2d2bfec9506ac4241447e1d6dc733ed93743f89cf478d3077fc786063ff57a
+
+outputs.2.1.filename=saslprep-2.0-sources.jar
+outputs.2.1.length=3861
+outputs.2.1.checksums.sha512=88d24b600baaff77c173c9f88c04491430e998a52f9b0f1098befaa121b27002d105394de431c54ad2241509685219bba380cff92b7dd92c832b6d89760fc607
+
+outputs.3.coordinates=com.ongres.stringprep:nameprep
+
+outputs.3.0.filename=nameprep-2.0.jar
+outputs.3.0.length=5169
+outputs.3.0.checksums.sha512=b28b85ab62a226594c4a804c16bb753b8cc9b34eeab5261014200d71ac75b40bf51022424715cdbd31be628d1603499de14d48923ea9e9e7078b22c23134723e
+
+outputs.3.1.filename=nameprep-2.0-sources.jar
+outputs.3.1.length=3672
+outputs.3.1.checksums.sha512=8516620ec63b2f6fc50594d2b408df44fe845fefa8557f7261cbd5774b26e24aa1970d457c8044973cc0aefc20853c99f3f9e57aaa37c77126fb3a5720e27611
