@@ -13,4 +13,5 @@ newline=lf
 command="mvn clean package -DskipTests -Drpm.disabled"
 buildinfo=tunnel-server/target/arthas-tunnel-server-${version}.buildinfo
 
-issue="https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/taobao/arthas/arthas-3.4.6.diffoscope"
+diffoscope=https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/$(echo ${groupId} | tr '.' '/')/arthas-${version}.diffoscope
+issue=

@@ -16,4 +16,5 @@ command="mvn -f editor/pom.xml -Pio.wcm clean package -DskipTests -Dmaven.javado
 
 buildinfo=editor/target/${artifactId}-${version}.buildinfo
 
-issue=https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/io/wcm/caconfig/io.wcm.caconfig.editor.parent-1.7.6.diffoscope
+diffoscope=https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/$(echo ${groupId} | tr '.' '/')/caconfig/${artifactId}-${version}.diffoscope
+issue=

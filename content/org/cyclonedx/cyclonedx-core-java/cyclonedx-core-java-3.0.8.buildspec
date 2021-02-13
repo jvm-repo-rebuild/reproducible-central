@@ -13,5 +13,5 @@ newline=lf
 command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-diffoscope="https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/$(echo ${groupId} | tr '.' '/')/${artifactId}-${version}.diffoscope"
+diffoscope="https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/$(echo ${groupId} | tr '.' '/')/${artifactId}/${artifactId}-${version}.diffoscope"
 issue=
