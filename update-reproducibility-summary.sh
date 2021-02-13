@@ -12,10 +12,12 @@ for buildspec in `find content -name "*.buildspec" -print | sort`
 do
   ((countVersion++))
   # reset recent fields added to buildspec, to avoid rework of older specs
+  diffoscope=
   issue=
 
   . $buildspec
   new_anchor="${groupId}:${artifactId}"
+  [[ -z "${issue}" ]] && issue=${diffoscope}
 
   buildinfo="`dirname ${buildspec}`/`basename ${buildinfo}`"
   if [ `ls ${buildinfo} | wc -l` -le 1 ]; then
