@@ -1,5 +1,5 @@
 version=2.2.0
 ok=2
-ko=2
+ko=0
 okFiles="cyclonedx-maven-plugin-2.2.0.jar cyclonedx-maven-plugin-2.2.0-sources.jar"
-koFiles="bom.xml bom.json"
+koFiles=""

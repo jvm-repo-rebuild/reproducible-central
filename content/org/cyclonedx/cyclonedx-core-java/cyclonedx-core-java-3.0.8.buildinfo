@@ -30,11 +30,3 @@ outputs.0.checksums.sha512=21c61372ab14aa042c6204b93095daa0d093becfb301c2ce7511b
 outputs.1.filename=cyclonedx-core-java-3.0.8-sources.jar
 outputs.1.length=1502029
 outputs.1.checksums.sha512=0246a744dfa43f235809cc774928a3a929d3e861eab6379019c0961546e92b87fd3c24e4a3f77d845dc162056625e3781f8ec76a2f7b3daf02dee6a9b2412d2e
-
-outputs.2.filename=cyclonedx-core-java-3.0.8-cyclonedx.xml
-outputs.2.length=42585
-outputs.2.checksums.sha512=a0b9f2d09c32f99a5766e6c401af825abedabaeaa1027902c682f9eea73f7ebb04bea8764aef8615c775113c32fce590cbb8b57fb233f42ea5c09940226b3174
-
-outputs.3.filename=cyclonedx-core-java-3.0.8-cyclonedx.json
-outputs.3.length=38058
-outputs.3.checksums.sha512=ef01d9e3c9c1a1238a670911d6afce0696a25ce95a1b018c3ad63cf6ccecb1ae6bb0cce9a83f96539472e0f94b95b461bd05655c96d00ce8574649d041c907b3
