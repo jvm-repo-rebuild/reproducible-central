@@ -1,0 +1,91 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Animal Sniffer
+group-id=org.codehaus.mojo
+artifact-id=animal-sniffer-parent
+version=1.20
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/animal-sniffer.git
+source.scm.tag=animal-sniffer-parent-1.20
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.9.1
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.aggregate.artifact-id=animal-sniffer-ant-tasks
+
+# aggregated output
+
+outputs.0.coordinates=org.codehaus.mojo:animal-sniffer-parent
+
+outputs.0.0.filename=animal-sniffer-parent-1.20-source-release.zip
+outputs.0.0.length=933533
+outputs.0.0.checksums.sha512=55bc9e97527aaab6ad8a4f84e1c215bac91c9ff561f745986ae98a543fecdd316c41971bf691847f5e45c289001d302cbf3e39312599b9d622820d224d48367a
+
+outputs.1.coordinates=org.codehaus.mojo:java-boot-classpath-detector
+
+outputs.1.0.filename=java-boot-classpath-detector-1.20.jar
+outputs.1.0.length=4925
+outputs.1.0.checksums.sha512=559fac230297e75e7d755866e7e812626d39ca94c8e67a4e8feb36a89e7a92acc98b7b1378c8f7c38724f100fdc4efa9fd3bac03528d7df3ded18fb740877af8
+
+outputs.1.1.filename=java-boot-classpath-detector-1.20-sources.jar
+outputs.1.1.length=4769
+outputs.1.1.checksums.sha512=415ae70f5b7812018614225ada2cf8bc3c6d7bdd4f01bfbe922eef826869925bdd80dad1ba1d5f26db7758a0e786aa46e6b2d248d17e3edea3c3371680d84e3c
+
+outputs.2.coordinates=org.codehaus.mojo:animal-sniffer-annotations
+
+outputs.2.0.filename=animal-sniffer-annotations-1.20.jar
+outputs.2.0.length=3349
+outputs.2.0.checksums.sha512=b7fdca8c1050ccdd515aa99e03cc814e02c81a316eebcd5de44e89fca5ba084b382d9e8694f297c50f26d1f9de0dea9c6102c3dede53253793d03ce1c8a420a3
+
+outputs.2.1.filename=animal-sniffer-annotations-1.20-sources.jar
+outputs.2.1.length=3890
+outputs.2.1.checksums.sha512=c6d44b403b9d57bfa820e9c034327d56167758b95371b3c668be7b9c242d86afdc4c43f7fbdbfb8cac970edbe2e98652889ce6a500c6f2559ae78af61ccccf1a
+
+outputs.3.coordinates=org.codehaus.mojo:animal-sniffer
+
+outputs.3.0.filename=animal-sniffer-1.20.jar
+outputs.3.0.length=37214
+outputs.3.0.checksums.sha512=326206b6c385cd3b5c57835f1f658648b47bf68f6aab2d67065545db23d4071ab511f2018e39f87b8bc8d3708241c78812c2add184a8dd13886d596d5edfc10b
+
+outputs.3.1.filename=animal-sniffer-1.20-sources.jar
+outputs.3.1.length=24775
+outputs.3.1.checksums.sha512=d217b3a370fea087696ca88afa8f9546732cb4d35868a6ffa24648b276307139f4470be66ca84e59e2c8bd5806e176a3e9333a2e1dc0d8c52d5c1887a587f7e5
+
+outputs.4.coordinates=org.codehaus.mojo:animal-sniffer-maven-plugin
+
+outputs.4.0.filename=animal-sniffer-maven-plugin-1.20.jar
+outputs.4.0.length=34299
+outputs.4.0.checksums.sha512=408ea969619e51d6e7296f395cb6d5a880068c39083dddc0faf3851bc11bca74dcd1b75835fff61ae07a740fdafe9e7391377f764085a3cd14c7d92df4178aa7
+
+outputs.4.1.filename=animal-sniffer-maven-plugin-1.20-sources.jar
+outputs.4.1.length=23872
+outputs.4.1.checksums.sha512=69355383633656e76e40b69ddb22c9ba60516816b630143bc976511b8d90a67265cc8c5d6c52a058423fcfe35315aef3cec70ed2eb10659a97134ec021410f8a
+
+outputs.5.coordinates=org.codehaus.mojo:animal-sniffer-enforcer-rule
+
+outputs.5.0.filename=animal-sniffer-enforcer-rule-1.20.jar
+outputs.5.0.length=10576
+outputs.5.0.checksums.sha512=2a8c3117ace23b24bd709707d349e5d4214f50004e0942ebbc59530e47a6e87f455f411d848d6bb33303f4521706b2ddea4cf18d0a53994e27cb2aa773f45c37
+
+outputs.5.1.filename=animal-sniffer-enforcer-rule-1.20-sources.jar
+outputs.5.1.length=9727
+outputs.5.1.checksums.sha512=b8c6def0487727d63360a3d860818920f05107987e568f0d012fbd924facc9335e525f832b8130a68581f00dd1f95e14b4d97c3aa179ef6cc350851053030a3e
+
+outputs.6.coordinates=org.codehaus.mojo:animal-sniffer-ant-tasks
+
+outputs.6.0.filename=animal-sniffer-ant-tasks-1.20.jar
+outputs.6.0.length=175302
+outputs.6.0.checksums.sha512=9dbf6cfc8fd9adff770ff752eb3eb306d6273b339f7a11ed367ef3f743923772b008b4faa48eefd059aa391f4bbfacedf3a20e6d4aeb952ab606bfe58846a2ac
+
+outputs.6.1.filename=animal-sniffer-ant-tasks-1.20-sources.jar
+outputs.6.1.length=12650
+outputs.6.1.checksums.sha512=c8f9e83ee1625e7171dc7edbbcd053b86891724d5c877ae5620c1895805f3245f19a933cb60481a710030010bb28bc3f578967ec9d96ee5eb1911e90da80f073
