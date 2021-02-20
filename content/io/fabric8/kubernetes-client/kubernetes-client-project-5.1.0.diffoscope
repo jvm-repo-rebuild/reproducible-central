@@ -1,5 +1,5 @@
 unreproducible bits high-level analysis:
-- expected jandex index for every jar (as expected in https://github.com/fabric8io/kubernetes-client/pull/2604)
+- expected jandex index for every jar (as expected in https://github.com/fabric8io/kubernetes-client/pull/2604) => see https://github.com/wildfly/jandex-maven-plugin/pull/26
 - OSGI bundles Include-Resource entry content in META-INF/MANIFEST.MF
 - manifest JDK and Git entries in kubernetes-model-jsonschema2pojo
 - source code generated from annotations in kubernetes-model-core
