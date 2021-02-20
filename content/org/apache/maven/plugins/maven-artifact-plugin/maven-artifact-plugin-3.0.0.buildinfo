@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Artifact Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-artifact-plugin
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-artifact-plugin.git
+source.scm.tag=maven-artifact-plugin-3.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_275
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.1.1
+
+# output
+
+outputs.0.filename=maven-artifact-plugin-3.0.0.jar
+outputs.0.length=44375
+outputs.0.checksums.sha512=53948414227907a58a7d3080f8473346a994b8829f70f27dd2344f0dd753bcf9ae4a66a47e7f5c30f51ae9878f4ceefceaaaebf2d8e7e17bf153b18eb021b337
+
+outputs.1.filename=maven-artifact-plugin-3.0.0-source-release.zip
+outputs.1.length=57641
+outputs.1.checksums.sha512=eaa4bcdc9ae548cd8951af21c75d20323160783ee96a063bdb5b1070c9b8d867ee6999124b4d704d005daa518d7a57c246b389b2d8bfd5d8e2111ccdb802f4c8
+
+outputs.2.filename=maven-artifact-plugin-3.0.0-sources.jar
+outputs.2.length=28550
+outputs.2.checksums.sha512=758596bede7926ba7403e9e00161ad81a1e3475f8cd54b6eece88ed8e6e4bf00f2f1f6c37d77221a97dba3264790f6b02cd5bcad283dc54393d69e9d457a3045
