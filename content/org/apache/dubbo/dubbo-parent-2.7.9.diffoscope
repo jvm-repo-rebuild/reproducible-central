@@ -1,0 +1,252 @@
+$ diffoscope target/reference/dubbo-2.7.9-sources.jar dubbo-all/target/dubbo-2.7.9-sources.jar
+--- target/reference/dubbo-2.7.9-sources.jar
++++ dubbo-all/target/dubbo-2.7.9-sources.jar
+├── zipinfo /dev/stdin
+│ @@ -1,17 +1,17 @@
+│ -Zip file size: 2318607 bytes, number of entries: 1977
+│ +Zip file size: 2318648 bytes, number of entries: 1977
+│  -rw----     2.0 fat        0 bX defN 20-Apr-01 08:04 META-INF/
+│  -rw----     2.0 fat       64 bl defN 20-Apr-01 08:04 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat    64051 bl defN 20-Apr-01 08:04 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 20-Apr-01 08:04 META-INF/LICENSE
+│  -rw----     2.0 fat      166 bl defN 20-Apr-01 08:04 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo/
+│ --rw----     2.0 fat    43551 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo/pom.xml
+│ +-rw----     2.0 fat    43763 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo/pom.xml
+│  -rw----     2.0 fat       56 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo/pom.properties
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/dubbo/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/
+│  -rw----     2.0 fat     1137 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/ConfigInitializer.java
+│  -rw----     2.0 fat     1116 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/ConfigPostProcessor.java
+│ @@ -1924,56 +1924,56 @@
+│  -rw----     2.0 fat       77 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-metadata-report-etcd/pom.properties
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/dubbo/metadata/store/nacos/
+│  -rw----     2.0 fat    10531 bl defN 20-Apr-01 08:04 org/apache/dubbo/metadata/store/nacos/NacosMetadataReport.java
+│  -rw----     2.0 fat     1281 bl defN 20-Apr-01 08:04 org/apache/dubbo/metadata/store/nacos/NacosMetadataReportFactory.java
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-metadata-report-nacos/
+│  -rw----     2.0 fat     1972 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-metadata-report-nacos/pom.xml
+│  -rw----     2.0 fat       78 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-metadata-report-nacos/pom.properties
+│ --rwx---     2.0 fat      195 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.common.compiler.Compiler
+│ --rw----     2.0 fat      598 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.common.config.configcenter.DynamicConfigurationFactory
+│ --rw----     2.0 fat      214 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.common.extension.ExtensionFactory
+│ --rw----     2.0 fat       69 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.common.infra.InfraAdapter
+│ --rw----     2.0 fat      307 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.common.logger.LoggerAdapter
+│ --rw----     2.0 fat      479 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.common.status.StatusChecker
+│ --rw----     2.0 fat       61 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.common.store.DataStore
+│ --rw----     2.0 fat      294 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.common.threadpool.ThreadPool
+│ --rw----     2.0 fat     1030 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.common.serialize.Serialization
+│ --rw----     2.0 fat      420 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.remoting.Dispatcher
+│ --rw----     2.0 fat      303 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.remoting.Codec2
+│ --rw----     2.0 fat      332 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.remoting.Transporter
+│ --rw----     2.0 fat       73 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.remoting.exchange.Exchanger
+│ --rw----     2.0 fat      248 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.remoting.http.HttpBinder
+│ --rw----     2.0 fat      125 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.remoting.p2p.Networker
+│ --rw----     2.0 fat      845 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.remoting.telnet.TelnetHandler
+│ --rw----     2.0 fat       82 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.remoting.zookeeper.ZookeeperTransporter
+│ --rw----     2.0 fat     1154 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.rpc.Protocol
+│ --rw----     2.0 fat     1166 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.rpc.Filter
+│ --rw----     2.0 fat       67 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.rpc.InvokerListener
+│ --rw----     2.0 fat      186 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.rpc.ProxyFactory
+│ --rw----     2.0 fat      652 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.rpc.cluster.Cluster
+│ --rw----     2.0 fat      388 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.rpc.cluster.LoadBalance
+│ --rw----     2.0 fat      632 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.rpc.cluster.Merger
+│ --rw----     2.0 fat      502 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.rpc.cluster.RouterFactory
+│ --rw----     2.0 fat      171 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.rpc.cluster.ConfiguratorFactory
+│ --rw----     2.0 fat      171 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.container.Container
+│ --rw----     2.0 fat       57 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.monitor.MonitorFactory
+│ --rw----     2.0 fat      713 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.registry.RegistryFactory
+│ --rw----     2.0 fat       72 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.validation.Validation
+│ --rw----     2.0 fat      266 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.cache.CacheFactory
+│ --rw----     2.0 fat      390 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.qos.command.BaseCommand
+│ --rw----     2.0 fat      372 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.metadata.report.MetadataReportFactory
+│ --rw----     2.0 fat      109 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.event.EventDispatcher
+│ --rw----     2.0 fat      163 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.metadata.MetadataServiceExporter
+│ --rw----     2.0 fat       88 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.metadata.WritableMetadataService
+│ --rw----     2.0 fat      150 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.metadata.ServiceNameMapping
+│ --rw----     2.0 fat      288 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.registry.client.ServiceDiscoveryFactory
+│ --rw----     2.0 fat      456 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.registry.client.ServiceDiscovery
+│ --rw----     2.0 fat      276 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.metadata.definition.builder.TypeBuilder
+│ --rw----     2.0 fat      243 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.event.EventListener
+│ --rw----     2.0 fat      637 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.registry.client.ServiceInstanceCustomizer
+│ --rw----     2.0 fat      177 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.registry.client.metadata.MetadataServiceURLBuilder
+│ --rw----     2.0 fat      787 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.common.convert.Converter
+│ --rw----     2.0 fat     1023 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.common.convert.multiple.MultiValueConverter
+│ --rw----     2.0 fat      716 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.metadata.rest.AnnotatedMethodParameterProcessor
+│ --rw----     2.0 fat      183 bl defN 21-Feb-22 13:31 META-INF/dubbo/internal/org.apache.dubbo.metadata.rest.ServiceRestMetadataResolver
+│ --rw----     2.0 fat      176 bl defN 21-Feb-22 13:31 META-INF/services/org.apache.dubbo.common.extension.LoadingStrategy
+│ -1977 files, 6752523 bytes uncompressed, 1919333 bytes compressed:  71.6%
+│ +-rwx---     2.0 fat      195 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.common.compiler.Compiler
+│ +-rw----     2.0 fat      598 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.common.config.configcenter.DynamicConfigurationFactory
+│ +-rw----     2.0 fat      214 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.common.extension.ExtensionFactory
+│ +-rw----     2.0 fat       69 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.common.infra.InfraAdapter
+│ +-rw----     2.0 fat      307 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.common.logger.LoggerAdapter
+│ +-rw----     2.0 fat      479 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.common.status.StatusChecker
+│ +-rw----     2.0 fat       61 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.common.store.DataStore
+│ +-rw----     2.0 fat      294 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.common.threadpool.ThreadPool
+│ +-rw----     2.0 fat     1030 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.common.serialize.Serialization
+│ +-rw----     2.0 fat      420 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.remoting.Dispatcher
+│ +-rw----     2.0 fat      303 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.remoting.Codec2
+│ +-rw----     2.0 fat      332 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.remoting.Transporter
+│ +-rw----     2.0 fat       73 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.remoting.exchange.Exchanger
+│ +-rw----     2.0 fat      248 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.remoting.http.HttpBinder
+│ +-rw----     2.0 fat      125 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.remoting.p2p.Networker
+│ +-rw----     2.0 fat      845 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.remoting.telnet.TelnetHandler
+│ +-rw----     2.0 fat       82 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.remoting.zookeeper.ZookeeperTransporter
+│ +-rw----     2.0 fat     1154 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.rpc.Protocol
+│ +-rw----     2.0 fat     1166 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.rpc.Filter
+│ +-rw----     2.0 fat       67 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.rpc.InvokerListener
+│ +-rw----     2.0 fat      186 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.rpc.ProxyFactory
+│ +-rw----     2.0 fat      652 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.rpc.cluster.Cluster
+│ +-rw----     2.0 fat      388 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.rpc.cluster.LoadBalance
+│ +-rw----     2.0 fat      632 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.rpc.cluster.Merger
+│ +-rw----     2.0 fat      502 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.rpc.cluster.RouterFactory
+│ +-rw----     2.0 fat      171 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.rpc.cluster.ConfiguratorFactory
+│ +-rw----     2.0 fat      171 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.container.Container
+│ +-rw----     2.0 fat       57 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.monitor.MonitorFactory
+│ +-rw----     2.0 fat      713 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.registry.RegistryFactory
+│ +-rw----     2.0 fat       72 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.validation.Validation
+│ +-rw----     2.0 fat      266 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.cache.CacheFactory
+│ +-rw----     2.0 fat      390 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.qos.command.BaseCommand
+│ +-rw----     2.0 fat      372 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.metadata.report.MetadataReportFactory
+│ +-rw----     2.0 fat      109 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.event.EventDispatcher
+│ +-rw----     2.0 fat      163 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.metadata.MetadataServiceExporter
+│ +-rw----     2.0 fat       88 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.metadata.WritableMetadataService
+│ +-rw----     2.0 fat      150 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.metadata.ServiceNameMapping
+│ +-rw----     2.0 fat      288 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.registry.client.ServiceDiscoveryFactory
+│ +-rw----     2.0 fat      456 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.registry.client.ServiceDiscovery
+│ +-rw----     2.0 fat      276 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.metadata.definition.builder.TypeBuilder
+│ +-rw----     2.0 fat      243 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.event.EventListener
+│ +-rw----     2.0 fat      637 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.registry.client.ServiceInstanceCustomizer
+│ +-rw----     2.0 fat      177 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.registry.client.metadata.MetadataServiceURLBuilder
+│ +-rw----     2.0 fat      787 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.common.convert.Converter
+│ +-rw----     2.0 fat     1023 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.common.convert.multiple.MultiValueConverter
+│ +-rw----     2.0 fat      716 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.metadata.rest.AnnotatedMethodParameterProcessor
+│ +-rw----     2.0 fat      183 bl defN 21-Feb-24 03:56 META-INF/dubbo/internal/org.apache.dubbo.metadata.rest.ServiceRestMetadataResolver
+│ +-rw----     2.0 fat      176 bl defN 21-Feb-24 03:56 META-INF/services/org.apache.dubbo.common.extension.LoadingStrategy
+│ +1977 files, 6752735 bytes uncompressed, 1919374 bytes compressed:  71.6%
+├── META-INF/maven/org.apache.dubbo/dubbo/pom.xml
+│ ├── META-INF/maven/org.apache.dubbo/dubbo/pom.xml
+│ │ @@ -933,14 +933,17 @@
+│ │                <doctitle>Apache Dubbo 2.7.9 API</doctitle>
+│ │                <windowtitle>Apache Dubbo 2.7.9 API</windowtitle>
+│ │              </configuration>
+│ │            </plugin>
+│ │          </plugins>
+│ │        </build>
+│ │        <properties>
+│ │ -        <os.detected.name>osx</os.detected.name>
+│ │ -        <os.detected.classifier>osx-x86_64</os.detected.classifier>
+│ │ +        <os.detected.release.version>10</os.detected.release.version>
+│ │ +        <os.detected.release>debian</os.detected.release>
+│ │ +        <os.detected.name>linux</os.detected.name>
+│ │ +        <os.detected.release.like.debian>true</os.detected.release.like.debian>
+│ │ +        <os.detected.classifier>linux-x86_64</os.detected.classifier>
+│ │          <os.detected.arch>x86_64</os.detected.arch>
+│ │        </properties>
+│ │      </profile>
+│ │    </profiles>
+│ │  </project>
+
+
+$ diffoscope target/reference/dubbo-container-api-2.7.9.jar dubbo-container/dubbo-container-api/target/dubbo-container-api-2.7.9.jar
+--- target/reference/dubbo-container-api-2.7.9.jar
++++ dubbo-container/dubbo-container-api/target/dubbo-container-api-2.7.9.jar
+├── zipinfo /dev/stdin
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 21147 bytes, number of entries: 26
+│ +Zip file size: 21157 bytes, number of entries: 26
+│  -rw-r--r--  2.0 unx      382 b- defN 20-Apr-01 08:04 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 META-INF/assembly/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 META-INF/assembly/bin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/
+│ @@ -16,13 +16,13 @@
+│  -rw-r--r--  2.0 unx     2943 b- defN 20-Apr-01 08:04 META-INF/assembly/bin/dump.sh
+│  -rw-r--r--  2.0 unx      832 b- defN 20-Apr-01 08:04 META-INF/assembly/bin/restart.sh
+│  -rw-r--r--  2.0 unx     1196 b- defN 20-Apr-01 08:04 META-INF/assembly/bin/server.sh
+│  -rw-r--r--  2.0 unx     2002 b- defN 20-Apr-01 08:04 META-INF/assembly/bin/start.bat
+│  -rw-r--r--  2.0 unx     5244 b- defN 20-Apr-01 08:04 META-INF/assembly/bin/start.sh
+│  -rw-r--r--  2.0 unx     1635 b- defN 20-Apr-01 08:04 META-INF/assembly/bin/stop.sh
+│  -rw-r--r--  2.0 unx      267 b- defN 20-Apr-01 08:04 org/apache/dubbo/container/Container.class
+│ --rw-r--r--  2.0 unx     2078 b- defN 20-Apr-01 08:04 org/apache/dubbo/container/Main$1.class
+│ --rw-r--r--  2.0 unx     4991 b- defN 20-Apr-01 08:04 org/apache/dubbo/container/Main.class
+│ +-rw-r--r--  2.0 unx     2082 b- defN 20-Apr-01 08:04 org/apache/dubbo/container/Main$1.class
+│ +-rw-r--r--  2.0 unx     4995 b- defN 20-Apr-01 08:04 org/apache/dubbo/container/Main.class
+│  -rw-r--r--  2.0 unx     2324 b- defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-container-api/pom.xml
+│  -rw-r--r--  2.0 unx       70 b- defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-container-api/pom.properties
+│  -rw-r--r--  2.0 unx      261 b- defN 20-Apr-01 08:04 META-INF/INDEX.LIST
+│ -26 files, 42514 bytes uncompressed, 17703 bytes compressed:  58.4%
+│ +26 files, 42522 bytes uncompressed, 17713 bytes compressed:  58.3%
+├── org/apache/dubbo/container/Main$1.class
+│┄ Command `procyon -ec /tmp/diffoscope_092wji3y/tmphpt_t_rk/Main$1.class` exited with exit code 255. Standard output:
+│┄     com/beust/jcommander/JCommander : Unsupported major.minor version 52.0
+│ @@ -102,29 +102,30 @@
+│  00000650: 0000 0001 1010 001c 001d 0000 0002 0000  ................
+│  00000660: 001e 001f 0002 0020 0000 003f 0002 0003  ....... ...?....
+│  00000670: 0000 000b 2a2c b500 012a 2bb7 0002 b100  ....*,...*+.....
+│  00000680: 0000 0200 2100 0000 0600 0100 0000 4400  ....!.........D.
+│  00000690: 2200 0000 1600 0200 0000 0b00 2300 2500  "...........#.%.
+│  000006a0: 0000 0000 0b00 2600 2700 0100 2800 0000  ......&.'...(...
+│  000006b0: 0902 0026 0000 001c 1010 0001 0029 002a  ...&.........).*
+│ -000006c0: 0001 0020 0000 0132 0003 0005 0000 0080  ... ...2........
+│ +000006c0: 0001 0020 0000 0136 0003 0005 0000 0080  ... ...6........
+│  000006d0: 2ab4 0001 b900 0301 004c 2bb9 0004 0100  *........L+.....
+│  000006e0: 9900 6f2b b900 0501 00c0 0006 4d2c b900  ..o+........M,..
+│  000006f0: 0701 00b8 0008 bb00 0959 b700 0a12 0bb6  .........Y......
+│  00000700: 000c 2cb6 000d b600 0eb6 000c 120f b600  ..,.............
+│  00000710: 0cb6 0010 b900 1102 00a7 0011 4eb8 0008  ............N...
+│  00000720: 2db6 0013 2db9 0014 0300 b800 15b6 0016  -...-...........
+│  00000730: b800 17b9 0018 0100 b800 15b6 0019 a700  ................
+│  00000740: 0e3a 04b8 0015 b600 1919 04bf a7ff 8eb1  .:..............
+│  00000750: 0003 001d 0049 004c 0012 005a 0068 0071  .....I.L...Z.h.q
+│  00000760: 0000 0071 0073 0071 0000 0003 0021 0000  ...q.s.q.....!..
+│ -00000770: 0036 000d 0000 0047 001d 0049 0023 004a  .6.....G...I.#.J
+│ +00000770: 003a 000e 0000 0047 001d 0049 0023 004a  .:.....G...I.#.J
+│  00000780: 0049 004d 004c 004b 004d 004c 005a 004f  .I.M.L.K.M.L.Z.O
+│  00000790: 0060 0050 0068 0052 006e 0053 0071 0052  .`.P.h.R.n.S.q.R
+│ -000007a0: 007c 0054 007f 0055 0022 0000 0020 0003  .|.T...U."... ..
+│ -000007b0: 004d 000d 002b 002c 0003 001d 005f 002d  .M...+.,....._.-
+│ -000007c0: 002e 0002 0000 0080 0023 0025 0000 002f  .........#.%.../
+│ -000007d0: 0000 0026 0006 fc00 0a07 0030 ff00 4100  ...&.......0..A.
+│ -000007e0: 0307 0031 0700 3007 0032 0001 0700 330d  ...1..0..2....3.
+│ -000007f0: 5607 0033 fa00 0afa 0002 0003 0034 0000  V..3.........4..
+│ -00000800: 0002 0035 0036 0000 0004 0037 0038 0024  ...5.6.....7.8.$
+│ -00000810: 0000 000a 0001 001a 0000 0000 0008       ..............
+│ +000007a0: 0079 0053 007c 0054 007f 0055 0022 0000  .y.S.|.T...U."..
+│ +000007b0: 0020 0003 004d 000d 002b 002c 0003 001d  . ...M...+.,....
+│ +000007c0: 005f 002d 002e 0002 0000 0080 0023 0025  ._.-.........#.%
+│ +000007d0: 0000 002f 0000 0026 0006 fc00 0a07 0030  .../...&.......0
+│ +000007e0: ff00 4100 0307 0031 0700 3007 0032 0001  ..A....1..0..2..
+│ +000007f0: 0700 330d 5607 0033 fa00 0afa 0002 0003  ..3.V..3........
+│ +00000800: 0034 0000 0002 0035 0036 0000 0004 0037  .4.....5.6.....7
+│ +00000810: 0038 0024 0000 000a 0001 001a 0000 0000  .8.$............
+│ +00000820: 0008                                     ..
+├── org/apache/dubbo/container/Main.class
+│┄ Command `procyon -ec /tmp/diffoscope_092wji3y/tmp4pk2_z5m/Main.class` exited with exit code 255. Standard output:
+│┄     com/beust/jcommander/JCommander : Unsupported major.minor version 52.0
+│ @@ -249,15 +249,15 @@
+│  00000f80: 4600 0100 4700 0000 0200 1a00 1a00 4900  F...G.........I.
+│  00000f90: 4a00 0000 1a00 4b00 4c00 0100 4d00 0000  J.....K.L...M...
+│  00000fa0: 0200 4e00 1a00 4f00 5000 0000 1a00 5100  ..N...O.P.....Q.
+│  00000fb0: 5200 0000 0600 0100 5300 5400 0100 5500  R.......S.T...U.
+│  00000fc0: 0000 2f00 0100 0100 0000 052a b700 04b1  ../........*....
+│  00000fd0: 0000 0002 0056 0000 0006 0001 0000 0028  .....V.........(
+│  00000fe0: 0057 0000 000c 0001 0000 0005 0058 0059  .W...........X.Y
+│ -00000ff0: 0000 0009 005a 005b 0002 0055 0000 0286  .....Z.[...U....
+│ +00000ff0: 0000 0009 005a 005b 0002 0055 0000 028a  .....Z.[...U....
+│  00001000: 0005 0005 0000 0142 2ab8 0005 9900 1712  .......B*.......
+│  00001010: 07b2 0008 b600 09b8 000a 4cb2 000b 2bb6  ..........L...+.
+│  00001020: 000c 4bbb 000d 59b7 000e 4c03 3d1c 2abe  ..K...Y...L.=.*.
+│  00001030: a200 192b b200 082a 1c32 b600 0fb9 0010  ...+...*.2......
+│  00001040: 0200 5784 0201 a7ff e7b2 0003 bb00 1159  ..W............Y
+│  00001050: b700 1212 13b6 0014 2ab8 0015 b600 1412  ........*.......
+│  00001060: 16b6 0014 b600 17b9 0018 0200 1219 121a  ................
+...
+
+
