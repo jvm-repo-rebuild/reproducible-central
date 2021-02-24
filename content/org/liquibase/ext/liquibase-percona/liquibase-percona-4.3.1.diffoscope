@@ -1,0 +1,212 @@
+$ diffoscope target/reference/liquibase-percona-4.3.1.jar target/liquibase-percona-4.3.1.jar
+--- target/reference/liquibase-percona-4.3.1.jar
++++ target/liquibase-percona-4.3.1.jar
+├── zipinfo /dev/stdin
+│ @@ -1,36 +1,36 @@
+│ -Zip file size: 49328 bytes, number of entries: 34
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-23 14:34 META-INF/
+│ --rw-r--r--  2.0 unx      133 b- defN 21-Feb-23 14:33 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-23 14:33 META-INF/services/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-23 14:33 liquibase/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-23 14:33 liquibase/ext/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-23 14:33 liquibase/ext/percona/
+│ --rw-r--r--  2.0 unx     1061 b- defN 21-Feb-23 14:33 META-INF/services/liquibase.change.Change
+│ --rw-r--r--  2.0 unx     1023 b- defN 21-Feb-23 14:33 dbchangelog-ext-liquibase-percona.xsd
+│ --rw-r--r--  2.0 unx     4673 b- defN 21-Feb-23 14:33 liquibase/ext/percona/PerconaCreateIndexChange.class
+│ --rw-r--r--  2.0 unx      530 b- defN 21-Feb-23 14:33 liquibase/ext/percona/PerconaChange.class
+│ --rw-r--r--  2.0 unx     4368 b- defN 21-Feb-23 14:33 liquibase/ext/percona/PerconaAddUniqueConstraintChange.class
+│ --rw-r--r--  2.0 unx     3549 b- defN 21-Feb-23 14:33 liquibase/ext/percona/PerconaDropColumnChange.class
+│ --rw-r--r--  2.0 unx     6910 b- defN 21-Feb-23 14:33 liquibase/ext/percona/DatabaseConnectionUtil.class
+│ --rw-r--r--  2.0 unx     6278 b- defN 21-Feb-23 14:33 liquibase/ext/percona/PerconaChangeUtil.class
+│ --rw-r--r--  2.0 unx     3639 b- defN 21-Feb-23 14:33 liquibase/ext/percona/ReflectionUtils.class
+│ --rw-r--r--  2.0 unx     6477 b- defN 21-Feb-23 14:33 liquibase/ext/percona/PerconaConstraintsService.class
+│ --rw-r--r--  2.0 unx     3536 b- defN 21-Feb-23 14:33 liquibase/ext/percona/PerconaDropForeignKeyConstraintChange.class
+│ --rw-r--r--  2.0 unx     4094 b- defN 21-Feb-23 14:33 liquibase/ext/percona/PerconaAddPrimaryKeyChange.class
+│ --rw-r--r--  2.0 unx     3901 b- defN 21-Feb-23 14:33 liquibase/ext/percona/PerconaModifyDataTypeChange.class
+│ --rw-r--r--  2.0 unx     5417 b- defN 21-Feb-23 14:33 liquibase/ext/percona/PerconaAddForeignKeyConstraintChange.class
+│ --rw-r--r--  2.0 unx     3214 b- defN 21-Feb-23 14:33 liquibase/ext/percona/PerconaDropUniqueConstraintChange.class
+│ --rw-r--r--  2.0 unx     8784 b- defN 21-Feb-23 14:33 liquibase/ext/percona/PerconaAddColumnChange.class
+│ --rw-r--r--  2.0 unx     1932 b- defN 21-Feb-23 14:33 liquibase/ext/percona/Configuration.class
+│ --rw-r--r--  2.0 unx      509 b- defN 21-Feb-23 14:33 liquibase/ext/percona/StringUtil.class
+│ --rw-r--r--  2.0 unx     1504 b- defN 21-Feb-23 14:33 liquibase/ext/percona/PTOnlineSchemaChangeStatement$1.class
+│ --rw-r--r--  2.0 unx     1282 b- defN 21-Feb-23 14:33 liquibase/ext/percona/PTOnlineSchemaChangeStatement$IOThread.class
+│ --rw-r--r--  2.0 unx    12510 b- defN 21-Feb-23 14:33 liquibase/ext/percona/PTOnlineSchemaChangeStatement.class
+│ --rw-r--r--  2.0 unx     1513 b- defN 21-Feb-23 14:33 liquibase/ext/percona/PerconaToolkitVersion.class
+│ --rw-r--r--  2.0 unx     3259 b- defN 21-Feb-23 14:33 liquibase/ext/percona/PerconaDropIndexChange.class
+│ -?rwsrwsrwt  2.0 unx        0 b- stor 21-Feb-23 14:34 META-INF/maven/
+│ -?rwsrwsrwt  2.0 unx        0 b- stor 21-Feb-23 14:34 META-INF/maven/org.liquibase.ext/
+│ -?rwsrwsrwt  2.0 unx        0 b- stor 21-Feb-23 14:34 META-INF/maven/org.liquibase.ext/liquibase-percona/
+│ --rw-r--r--  2.0 unx    18014 b- defN 21-Feb-23 14:33 META-INF/maven/org.liquibase.ext/liquibase-percona/pom.xml
+│ --rw-r--r--  2.0 unx      119 b- defN 21-Feb-23 14:34 META-INF/maven/org.liquibase.ext/liquibase-percona/pom.properties
+│ -34 files, 108229 bytes uncompressed, 43728 bytes compressed:  59.6%
+│ +Zip file size: 49322 bytes, number of entries: 34
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-24 17:57 META-INF/
+│ +-rw-r--r--  2.0 unx      127 b- defN 21-Feb-24 17:57 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-24 17:57 liquibase/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-24 17:57 liquibase/ext/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-24 17:57 liquibase/ext/percona/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-24 17:57 META-INF/services/
+│ +-rw-r--r--  2.0 unx     1282 b- defN 21-Feb-24 17:57 liquibase/ext/percona/PTOnlineSchemaChangeStatement$IOThread.class
+│ +-rw-r--r--  2.0 unx     5417 b- defN 21-Feb-24 17:57 liquibase/ext/percona/PerconaAddForeignKeyConstraintChange.class
+│ +-rw-r--r--  2.0 unx     3536 b- defN 21-Feb-24 17:57 liquibase/ext/percona/PerconaDropForeignKeyConstraintChange.class
+│ +-rw-r--r--  2.0 unx     4094 b- defN 21-Feb-24 17:57 liquibase/ext/percona/PerconaAddPrimaryKeyChange.class
+│ +-rw-r--r--  2.0 unx      530 b- defN 21-Feb-24 17:57 liquibase/ext/percona/PerconaChange.class
+│ +-rw-r--r--  2.0 unx      509 b- defN 21-Feb-24 17:57 liquibase/ext/percona/StringUtil.class
+│ +-rw-r--r--  2.0 unx     4368 b- defN 21-Feb-24 17:57 liquibase/ext/percona/PerconaAddUniqueConstraintChange.class
+│ +-rw-r--r--  2.0 unx     4673 b- defN 21-Feb-24 17:57 liquibase/ext/percona/PerconaCreateIndexChange.class
+│ +-rw-r--r--  2.0 unx     6477 b- defN 21-Feb-24 17:57 liquibase/ext/percona/PerconaConstraintsService.class
+│ +-rw-r--r--  2.0 unx     3639 b- defN 21-Feb-24 17:57 liquibase/ext/percona/ReflectionUtils.class
+│ +-rw-r--r--  2.0 unx    12510 b- defN 21-Feb-24 17:57 liquibase/ext/percona/PTOnlineSchemaChangeStatement.class
+│ +-rw-r--r--  2.0 unx     3259 b- defN 21-Feb-24 17:57 liquibase/ext/percona/PerconaDropIndexChange.class
+│ +-rw-r--r--  2.0 unx     3549 b- defN 21-Feb-24 17:57 liquibase/ext/percona/PerconaDropColumnChange.class
+│ +-rw-r--r--  2.0 unx     1513 b- defN 21-Feb-24 17:57 liquibase/ext/percona/PerconaToolkitVersion.class
+│ +-rw-r--r--  2.0 unx     6910 b- defN 21-Feb-24 17:57 liquibase/ext/percona/DatabaseConnectionUtil.class
+│ +-rw-r--r--  2.0 unx     6278 b- defN 21-Feb-24 17:57 liquibase/ext/percona/PerconaChangeUtil.class
+│ +-rw-r--r--  2.0 unx     3214 b- defN 21-Feb-24 17:57 liquibase/ext/percona/PerconaDropUniqueConstraintChange.class
+│ +-rw-r--r--  2.0 unx     8784 b- defN 21-Feb-24 17:57 liquibase/ext/percona/PerconaAddColumnChange.class
+│ +-rw-r--r--  2.0 unx     1932 b- defN 21-Feb-24 17:57 liquibase/ext/percona/Configuration.class
+│ +-rw-r--r--  2.0 unx     3901 b- defN 21-Feb-24 17:57 liquibase/ext/percona/PerconaModifyDataTypeChange.class
+│ +-rw-r--r--  2.0 unx     1504 b- defN 21-Feb-24 17:57 liquibase/ext/percona/PTOnlineSchemaChangeStatement$1.class
+│ +-rw-r--r--  2.0 unx     1061 b- defN 21-Feb-24 17:57 META-INF/services/liquibase.change.Change
+│ +-rw-r--r--  2.0 unx     1023 b- defN 21-Feb-24 17:57 dbchangelog-ext-liquibase-percona.xsd
+│ +?rwsrwsrwt  2.0 unx        0 b- stor 21-Feb-24 17:57 META-INF/maven/
+│ +?rwsrwsrwt  2.0 unx        0 b- stor 21-Feb-24 17:57 META-INF/maven/org.liquibase.ext/
+│ +?rwsrwsrwt  2.0 unx        0 b- stor 21-Feb-24 17:57 META-INF/maven/org.liquibase.ext/liquibase-percona/
+│ +-rw-rw-r--  2.0 unx    18014 b- defN 21-Feb-24 17:56 META-INF/maven/org.liquibase.ext/liquibase-percona/pom.xml
+│ +-rw-r--r--  2.0 unx      119 b- defN 21-Feb-24 17:57 META-INF/maven/org.liquibase.ext/liquibase-percona/pom.properties
+│ +34 files, 108223 bytes uncompressed, 43722 bytes compressed:  59.6%
+├── zipnote /tmp/diffoscope_6rka16_s/tmprc5prh7m.zip
+│ @@ -1,92 +1,92 @@
+│  Filename: META-INF/
+│  Comment: 
+│  
+│  Filename: META-INF/MANIFEST.MF
+│  Comment: 
+│  
+│ -Filename: META-INF/services/
+│ -Comment: 
+│ -
+│  Filename: liquibase/
+│  Comment: 
+│  
+│  Filename: liquibase/ext/
+│  Comment: 
+│  
+│  Filename: liquibase/ext/percona/
+│  Comment: 
+│  
+│ -Filename: META-INF/services/liquibase.change.Change
+│ +Filename: META-INF/services/
+│  Comment: 
+│  
+│ -Filename: dbchangelog-ext-liquibase-percona.xsd
+│ +Filename: liquibase/ext/percona/PTOnlineSchemaChangeStatement$IOThread.class
+│  Comment: 
+│  
+│ -Filename: liquibase/ext/percona/PerconaCreateIndexChange.class
+│ +Filename: liquibase/ext/percona/PerconaAddForeignKeyConstraintChange.class
+│ +Comment: 
+│ +
+│ +Filename: liquibase/ext/percona/PerconaDropForeignKeyConstraintChange.class
+│ +Comment: 
+│ +
+│ +Filename: liquibase/ext/percona/PerconaAddPrimaryKeyChange.class
+│  Comment: 
+│  
+│  Filename: liquibase/ext/percona/PerconaChange.class
+│  Comment: 
+│  
+│ -Filename: liquibase/ext/percona/PerconaAddUniqueConstraintChange.class
+│ +Filename: liquibase/ext/percona/StringUtil.class
+│  Comment: 
+│  
+│ -Filename: liquibase/ext/percona/PerconaDropColumnChange.class
+│ +Filename: liquibase/ext/percona/PerconaAddUniqueConstraintChange.class
+│  Comment: 
+│  
+│ -Filename: liquibase/ext/percona/DatabaseConnectionUtil.class
+│ +Filename: liquibase/ext/percona/PerconaCreateIndexChange.class
+│  Comment: 
+│  
+│ -Filename: liquibase/ext/percona/PerconaChangeUtil.class
+│ +Filename: liquibase/ext/percona/PerconaConstraintsService.class
+│  Comment: 
+│  
+│  Filename: liquibase/ext/percona/ReflectionUtils.class
+│  Comment: 
+│  
+│ -Filename: liquibase/ext/percona/PerconaConstraintsService.class
+│ +Filename: liquibase/ext/percona/PTOnlineSchemaChangeStatement.class
+│  Comment: 
+│  
+│ -Filename: liquibase/ext/percona/PerconaDropForeignKeyConstraintChange.class
+│ +Filename: liquibase/ext/percona/PerconaDropIndexChange.class
+│  Comment: 
+│  
+│ -Filename: liquibase/ext/percona/PerconaAddPrimaryKeyChange.class
+│ +Filename: liquibase/ext/percona/PerconaDropColumnChange.class
+│  Comment: 
+│  
+│ -Filename: liquibase/ext/percona/PerconaModifyDataTypeChange.class
+│ +Filename: liquibase/ext/percona/PerconaToolkitVersion.class
+│  Comment: 
+│  
+│ -Filename: liquibase/ext/percona/PerconaAddForeignKeyConstraintChange.class
+│ +Filename: liquibase/ext/percona/DatabaseConnectionUtil.class
+│ +Comment: 
+│ +
+│ +Filename: liquibase/ext/percona/PerconaChangeUtil.class
+│  Comment: 
+│  
+│  Filename: liquibase/ext/percona/PerconaDropUniqueConstraintChange.class
+│  Comment: 
+│  
+│  Filename: liquibase/ext/percona/PerconaAddColumnChange.class
+│  Comment: 
+│  
+│  Filename: liquibase/ext/percona/Configuration.class
+│  Comment: 
+│  
+│ -Filename: liquibase/ext/percona/StringUtil.class
+│ +Filename: liquibase/ext/percona/PerconaModifyDataTypeChange.class
+│  Comment: 
+│  
+│  Filename: liquibase/ext/percona/PTOnlineSchemaChangeStatement$1.class
+│  Comment: 
+│  
+│ -Filename: liquibase/ext/percona/PTOnlineSchemaChangeStatement$IOThread.class
+│ -Comment: 
+│ -
+│ -Filename: liquibase/ext/percona/PTOnlineSchemaChangeStatement.class
+│ -Comment: 
+│ -
+│ -Filename: liquibase/ext/percona/PerconaToolkitVersion.class
+│ +Filename: META-INF/services/liquibase.change.Change
+│  Comment: 
+│  
+│ -Filename: liquibase/ext/percona/PerconaDropIndexChange.class
+│ +Filename: dbchangelog-ext-liquibase-percona.xsd
+│  Comment: 
+│  
+│  Filename: META-INF/maven/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.liquibase.ext/
+│  Comment:
+├── META-INF/MANIFEST.MF
+│ @@ -1,6 +1,6 @@
+│  Manifest-Version: 1.0
+│  Archiver-Version: Plexus Archiver
+│ -Built-By: jenkins
+│ +Built-By: ?
+│  Created-By: Apache Maven 3.6.3
+│ -Build-Jdk: 1.8.0_242
+│ +Build-Jdk: 1.8.0_275
+├── META-INF/maven/org.liquibase.ext/liquibase-percona/pom.properties
+│ @@ -1,5 +1,5 @@
+│  #Generated by Maven
+│ -#Tue Feb 23 14:33:59 UTC 2021
+│ +#Wed Feb 24 17:57:01 UTC 2021
+│  version=4.3.1
+│  groupId=org.liquibase.ext
+│  artifactId=liquibase-percona
