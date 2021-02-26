@@ -1,0 +1,1369 @@
+$ diffoscope target/reference/arthas-spy-3.4.8.jar spy/target/arthas-spy.jar
+--- target/reference/arthas-spy-3.4.8.jar
++++ spy/target/arthas-spy.jar
+├── zipinfo /dev/stdin
+│ @@ -12,10 +12,10 @@
+│  -rw-r--r--  2.0 unx     1397 b- defN 20-Sep-27 15:10 java/arthas/SpyAPI$AbstractSpy.class
+│  -rw-r--r--  2.0 unx     2293 b- defN 20-Sep-27 15:10 java/arthas/SpyAPI$NopSpy.class
+│  -rw-r--r--  2.0 unx     3149 b- defN 20-Sep-27 15:10 java/arthas/SpyAPI.class
+│  -rw-r--r--  2.0 unx     3493 b- defN 20-Sep-27 15:10 one/profiler/AsyncProfiler.class
+│  -rw-r--r--  2.0 unx      631 b- defN 20-Sep-27 15:10 one/profiler/AsyncProfilerMXBean.class
+│  -rw-r--r--  2.0 unx      937 b- defN 20-Sep-27 15:10 one/profiler/Counter.class
+│  -rw-r--r--  2.0 unx      475 b- defN 20-Sep-27 15:10 one/profiler/Events.class
+│ --rw-r--r--  2.0 unx     3477 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-spy/pom.xml
+│ +-rw-r--r--  2.0 unx     3478 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-spy/pom.xml
+│  -rw-r--r--  2.0 unx       62 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-spy/pom.properties
+│ -19 files, 16607 bytes uncompressed, 6449 bytes compressed:  61.2%
+│ +19 files, 16608 bytes uncompressed, 6449 bytes compressed:  61.2%
+├── META-INF/maven/com.taobao.arthas/arthas-spy/pom.xml
+│ ├── META-INF/maven/com.taobao.arthas/arthas-spy/pom.xml
+│ │ @@ -1,9 +1,9 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │ -<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │    <modelVersion>4.0.0</modelVersion>
+│ │    <groupId>com.taobao.arthas</groupId>
+│ │    <artifactId>arthas-spy</artifactId>
+│ │    <version>3.4.8</version>
+│ │    <name>arthas-spy</name>
+│ │    <description>arthas</description>
+│ │    <url>https://github.com/alibaba/arthas/arthas-spy</url>
+
+
+$ diffoscope target/reference/arthas-spy-3.4.8-sources.jar spy/target/arthas-spy-sources.jar
+--- target/reference/arthas-spy-3.4.8-sources.jar
++++ spy/target/arthas-spy-sources.jar
+├── zipinfo /dev/stdin
+│ @@ -10,10 +10,10 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-spy/
+│  -rw-r--r--  2.0 unx     4349 b- defN 20-Sep-27 15:10 java/arthas/SpyAPI.java
+│  -rw-r--r--  2.0 unx     6317 b- defN 20-Sep-27 15:10 one/profiler/AsyncProfiler.java
+│  -rw-r--r--  2.0 unx     1419 b- defN 20-Sep-27 15:10 one/profiler/AsyncProfilerMXBean.java
+│  -rw-r--r--  2.0 unx      758 b- defN 20-Sep-27 15:10 one/profiler/Counter.java
+│  -rw-r--r--  2.0 unx      973 b- defN 20-Sep-27 15:10 one/profiler/Events.java
+│  -rw-r--r--  2.0 unx       93 b- defN 20-Sep-27 15:10 one/profiler/package-info.java
+│ --rw-r--r--  2.0 unx     3477 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-spy/pom.xml
+│ +-rw-r--r--  2.0 unx     3478 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-spy/pom.xml
+│  -rw-r--r--  2.0 unx       62 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-spy/pom.properties
+│ -17 files, 17512 bytes uncompressed, 5827 bytes compressed:  66.7%
+│ +17 files, 17513 bytes uncompressed, 5827 bytes compressed:  66.7%
+├── META-INF/maven/com.taobao.arthas/arthas-spy/pom.xml
+│ ├── META-INF/maven/com.taobao.arthas/arthas-spy/pom.xml
+│ │ @@ -1,9 +1,9 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │ -<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │    <modelVersion>4.0.0</modelVersion>
+│ │    <groupId>com.taobao.arthas</groupId>
+│ │    <artifactId>arthas-spy</artifactId>
+│ │    <version>3.4.8</version>
+│ │    <name>arthas-spy</name>
+│ │    <description>arthas</description>
+│ │    <url>https://github.com/alibaba/arthas/arthas-spy</url>
+
+
+$ diffoscope target/reference/arthas-packaging-3.4.8-bin.zip packaging/target/arthas-bin.zip
+--- target/reference/arthas-packaging-3.4.8-bin.zip
++++ packaging/target/arthas-bin.zip
+├── zipinfo /dev/stdin
+│ @@ -1,19 +1,19 @@
+│ -Zip file size: 12798129 bytes, number of entries: 17
+│ +Zip file size: 12798092 bytes, number of entries: 17
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 async-profiler/
+│  -rw-r--r--  2.0 unx     8909 b- defN 20-Sep-27 15:10 arthas-spy.jar
+│  -rw-r--r--  2.0 unx 13110484 b- defN 20-Sep-27 15:10 arthas-core.jar
+│ --rw-r--r--  2.0 unx     2020 b- defN 20-Sep-27 15:10 logback.xml
+│ --rw-r--r--  2.0 unx      311 b- defN 20-Sep-27 15:10 arthas.properties
+│ +-rw-rw-r--  2.0 unx     2020 b- defN 20-Sep-27 15:10 logback.xml
+│ +-rw-rw-r--  2.0 unx      311 b- defN 20-Sep-27 15:10 arthas.properties
+│  -rw-r--r--  2.0 unx     8459 b- defN 20-Sep-27 15:10 arthas-agent.jar
+│ --rw-r--r--  2.0 unx   429764 b- defN 20-Sep-27 15:10 arthas-client.jar
+│ +-rw-r--r--  2.0 unx   429763 b- defN 20-Sep-27 15:10 arthas-client.jar
+│  -rw-r--r--  2.0 unx   140175 b- defN 20-Sep-27 15:10 arthas-boot.jar
+│  -rw-r--r--  2.0 unx     4502 b- defN 20-Sep-27 15:10 arthas-demo.jar
+│  -rwxr-xr-x  2.0 unx      635 b- defN 20-Sep-27 15:10 install-local.sh
+│  -rwxr-xr-x  2.0 unx    32131 b- defN 20-Sep-27 15:10 as.sh
+│ --rwxr-xr-x  2.0 unx     3091 b- defN 20-Sep-27 15:10 as.bat
+│ --rwxr-xr-x  2.0 unx     7744 b- defN 20-Sep-27 15:10 as-service.bat
+│ +-rwxrwxr-x  2.0 unx     3091 b- defN 20-Sep-27 15:10 as.bat
+│ +-rwxrwxr-x  2.0 unx     7744 b- defN 20-Sep-27 15:10 as-service.bat
+│  -rw-r--r--  2.0 unx   290096 b- defN 20-Sep-27 15:10 async-profiler/libasyncProfiler-linux-aarch64.so
+│  -rw-r--r--  2.0 unx   241040 b- defN 20-Sep-27 15:10 async-profiler/libasyncProfiler-linux-arm.so
+│  -rw-r--r--  2.0 unx   276563 b- defN 20-Sep-27 15:10 async-profiler/libasyncProfiler-linux-x64.so
+│  -rw-r--r--  2.0 unx   203840 b- defN 20-Sep-27 15:10 async-profiler/libasyncProfiler-mac-x64.so
+│ -17 files, 14759764 bytes uncompressed, 12796107 bytes compressed:  13.3%
+│ +17 files, 14759763 bytes uncompressed, 12796070 bytes compressed:  13.3%
+├── arthas-spy.jar
+│ ├── zipinfo /dev/stdin
+│ │ @@ -12,10 +12,10 @@
+│ │  -rw-r--r--  2.0 unx     1397 b- defN 20-Sep-27 15:10 java/arthas/SpyAPI$AbstractSpy.class
+│ │  -rw-r--r--  2.0 unx     2293 b- defN 20-Sep-27 15:10 java/arthas/SpyAPI$NopSpy.class
+│ │  -rw-r--r--  2.0 unx     3149 b- defN 20-Sep-27 15:10 java/arthas/SpyAPI.class
+│ │  -rw-r--r--  2.0 unx     3493 b- defN 20-Sep-27 15:10 one/profiler/AsyncProfiler.class
+│ │  -rw-r--r--  2.0 unx      631 b- defN 20-Sep-27 15:10 one/profiler/AsyncProfilerMXBean.class
+│ │  -rw-r--r--  2.0 unx      937 b- defN 20-Sep-27 15:10 one/profiler/Counter.class
+│ │  -rw-r--r--  2.0 unx      475 b- defN 20-Sep-27 15:10 one/profiler/Events.class
+│ │ --rw-r--r--  2.0 unx     3477 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-spy/pom.xml
+│ │ +-rw-r--r--  2.0 unx     3478 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-spy/pom.xml
+│ │  -rw-r--r--  2.0 unx       62 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-spy/pom.properties
+│ │ -19 files, 16607 bytes uncompressed, 6449 bytes compressed:  61.2%
+│ │ +19 files, 16608 bytes uncompressed, 6449 bytes compressed:  61.2%
+│ ├── META-INF/maven/com.taobao.arthas/arthas-spy/pom.xml
+│ │ ├── META-INF/maven/com.taobao.arthas/arthas-spy/pom.xml
+│ │ │ @@ -1,9 +1,9 @@
+│ │ │  <?xml version="1.0" encoding="utf-8"?>
+│ │ │ -<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ │ +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ │    <modelVersion>4.0.0</modelVersion>
+│ │ │    <groupId>com.taobao.arthas</groupId>
+│ │ │    <artifactId>arthas-spy</artifactId>
+│ │ │    <version>3.4.8</version>
+│ │ │    <name>arthas-spy</name>
+│ │ │    <description>arthas</description>
+│ │ │    <url>https://github.com/alibaba/arthas/arthas-spy</url>
+├── arthas-core.jar
+│ ├── zipinfo /dev/stdin
+│ │ @@ -1,467 +1,467 @@
+│ │  Zip file size: 13110484 bytes, number of entries: 7548
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/ch.qos.logback/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/ch.qos.logback/logback-classic/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/ch.qos.logback/logback-core/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/com.alibaba/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/com.alibaba.arthas/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/com.alibaba.arthas/arthas-repackage-logger/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/com.alibaba.middleware/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/com.alibaba.middleware/cli/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/com.alibaba.middleware/termd-core/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/com.alibaba/bytekit-core/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/com.alibaba/bytekit-instrument-api/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/com.alibaba/fastjson/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/com.alibaba/repackage-asm/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/com.fasterxml.jackson.core/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/com.fasterxml.jackson.core/jackson-core/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/com.fasterxml.jackson.core/jackson-databind/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/com.taobao.arthas/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/com.taobao.arthas/arthas-common/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/com.taobao.arthas/arthas-core/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/com.taobao.arthas/arthas-memorycompiler/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/com.taobao.arthas/arthas-tunnel-client/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/com.taobao.arthas/arthas-tunnel-common/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/com.taobao.text/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/com.taobao.text/text-ui/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/io.netty/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/io.netty/netty-buffer/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/io.netty/netty-codec/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/io.netty/netty-codec-http/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/io.netty/netty-common/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/io.netty/netty-handler/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/io.netty/netty-resolver/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/io.netty/netty-transport/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/ognl/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/ognl/ognl/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/org.benf/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/org.benf/cfr/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/org.javassist/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/org.javassist/javassist/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/org.jctools/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/org.jctools/jctools-core/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/org.slf4j/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/maven/org.slf4j/slf4j-api/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/native-image/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/native-image/io.netty/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/native-image/io.netty/buffer/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/native-image/io.netty/codec-http/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/native-image/io.netty/common/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/native-image/io.netty/handler/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/native-image/io.netty/transport/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 META-INF/services/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/boolex/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/db/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/db/names/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/db/script/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/encoder/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/filter/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/gaffer/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/helpers/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/html/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/jmx/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/joran/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/joran/action/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/jul/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/layout/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/log4j/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/net/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/net/server/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/pattern/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/pattern/color/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/selector/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/selector/servlet/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/servlet/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/sift/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/spi/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/turbo/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/classic/util/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/boolex/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/db/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/db/dialect/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/encoder/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/filter/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/helpers/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/hook/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/html/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/joran/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/joran/action/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/joran/conditional/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/joran/event/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/joran/event/stax/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/joran/node/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/joran/spi/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/joran/util/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/joran/util/beans/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/layout/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/net/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/net/server/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/net/ssl/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/pattern/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/pattern/color/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/pattern/parser/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/pattern/util/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/property/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/read/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/recovery/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/rolling/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/rolling/helper/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/sift/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/spi/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/status/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/subst/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/ch/qos/logback/core/util/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/bootstrap/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/buffer/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/buffer/search/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/channel/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/channel/embedded/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/channel/group/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/channel/internal/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/channel/local/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/channel/nio/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/channel/oio/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/channel/pool/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/channel/socket/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/channel/socket/nio/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/channel/socket/oio/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/address/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/codec/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/codec/base64/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/codec/bytes/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/codec/compression/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/codec/http/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/codec/http/cookie/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/codec/http/cors/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/codec/http/multipart/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/codec/http/websocketx/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/codec/http/websocketx/extensions/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/codec/http/websocketx/extensions/compression/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/codec/json/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/codec/marshalling/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/codec/protobuf/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/codec/rtsp/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/codec/serialization/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/codec/spdy/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/codec/string/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/codec/xml/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/flow/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/flush/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/ipfilter/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/logging/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/pcap/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/ssl/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/ssl/ocsp/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/ssl/util/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/stream/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/timeout/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/handler/traffic/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/resolver/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/util/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/util/collection/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/util/concurrent/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/util/internal/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/util/internal/logging/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/util/internal/shaded/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/util/internal/shaded/org/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/util/internal/shaded/org/jctools/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/util/internal/shaded/org/jctools/queues/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/util/internal/shaded/org/jctools/queues/atomic/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/util/internal/shaded/org/jctools/util/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/io/netty/util/internal/svm/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/org/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/org/slf4j/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/org/slf4j/event/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/org/slf4j/helpers/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/org/slf4j/impl/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/deps/org/slf4j/spi/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/tunnel/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/tunnel/client/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/arthas/tunnel/common/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/bytekit/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/bytekit/agent/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/bytekit/agent/inst/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/bytekit/asm/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/bytekit/asm/binding/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/bytekit/asm/binding/annotation/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/bytekit/asm/inst/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/bytekit/asm/inst/impl/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/bytekit/asm/instrument/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/bytekit/asm/interceptor/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/bytekit/asm/interceptor/annotation/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/bytekit/asm/interceptor/parser/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/bytekit/asm/location/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/bytekit/asm/location/filter/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/bytekit/asm/matcher/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/bytekit/log/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/bytekit/utils/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/deps/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/deps/org/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/deps/org/objectweb/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/deps/org/objectweb/asm/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/deps/org/objectweb/asm/commons/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/deps/org/objectweb/asm/signature/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/deps/org/objectweb/asm/tree/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/deps/org/objectweb/asm/tree/analysis/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/deps/org/objectweb/asm/util/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/fastjson/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/fastjson/annotation/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/fastjson/asm/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/fastjson/parser/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/fastjson/parser/deserializer/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/fastjson/serializer/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/fastjson/spi/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/fastjson/support/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/fastjson/support/config/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/fastjson/support/geo/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/fastjson/support/hsf/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/fastjson/support/jaxrs/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/fastjson/support/moneta/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/fastjson/support/retrofit/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/fastjson/support/spring/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/fastjson/support/spring/annotation/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/fastjson/support/spring/messaging/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/fastjson/support/springfox/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/alibaba/fastjson/util/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/annotation/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/core/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/core/base/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/core/filter/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/core/format/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/core/io/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/core/json/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/core/sym/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/core/type/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/core/util/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/databind/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/databind/annotation/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/databind/cfg/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/databind/deser/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/databind/deser/impl/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/databind/deser/std/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/databind/exc/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/databind/ext/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/databind/introspect/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/databind/jsonFormatVisitors/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/databind/jsonschema/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/databind/jsontype/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/databind/jsontype/impl/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/databind/module/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/databind/node/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/databind/ser/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/databind/ser/impl/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/databind/ser/std/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/databind/type/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/fasterxml/jackson/databind/util/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/common/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/common/concurrent/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/compiler/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/advisor/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/command/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/command/basic1000/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/command/express/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/command/hidden/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/command/klass100/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/command/logger/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/command/model/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/command/monitor200/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/command/view/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/config/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/distribution/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/distribution/impl/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/env/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/env/convert/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/http/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/http/element-ui@2.13.0/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/http/element-ui@2.13.0/lib/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/http/element-ui@2.13.0/lib/theme-chalk/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/http/element-ui@2.13.0/lib/theme-chalk/fonts/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/http/lib/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/http/lib/vue/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/http/ui/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/res/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/server/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/server/instrument/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/shell/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/shell/cli/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/shell/cli/impl/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/shell/command/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/shell/command/impl/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/shell/command/internal/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/shell/future/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/shell/handlers/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/shell/handlers/command/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/shell/handlers/server/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/shell/handlers/shell/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/shell/handlers/term/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/shell/history/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/shell/history/impl/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/shell/impl/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/shell/session/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/shell/session/impl/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/shell/system/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/shell/system/impl/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/shell/term/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/shell/term/impl/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/shell/term/impl/http/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/shell/term/impl/http/api/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/shell/term/impl/httptelnet/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/shell/term/readline/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/util/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/util/affect/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/util/collection/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/util/matcher/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/util/metrics/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/util/reflect/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/util/usage/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/arthas/core/view/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/middleware/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/middleware/cli/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/middleware/cli/annotations/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/middleware/cli/converters/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/middleware/cli/impl/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/text/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/text/lang/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/text/renderers/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/text/stream/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/text/ui/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/text/ui/themes/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 com/taobao/text/util/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 io/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 io/termd/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 io/termd/core/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 io/termd/core/function/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 io/termd/core/http/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 io/termd/core/http/netty/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 io/termd/core/io/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 io/termd/core/pty/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 io/termd/core/readline/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 io/termd/core/readline/functions/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 io/termd/core/ssh/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 io/termd/core/ssh/netty/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 io/termd/core/telnet/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 io/termd/core/telnet/netty/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 io/termd/core/term/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 io/termd/core/tty/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 io/termd/core/util/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 javassist/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 javassist/bytecode/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 javassist/bytecode/analysis/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 javassist/bytecode/annotation/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 javassist/bytecode/stackmap/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 javassist/compiler/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 javassist/compiler/ast/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 javassist/convert/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 javassist/expr/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 javassist/runtime/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 javassist/scopedpool/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 javassist/tools/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 javassist/tools/reflect/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 javassist/tools/rmi/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 javassist/tools/web/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 javassist/util/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 javassist/util/proxy/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 ognl/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 ognl/enhance/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 ognl/internal/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/api/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/apiunreleased/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/loc/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/opgraph/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/opgraph/op02obf/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/opgraph/op03obf/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/opgraph/op2rewriters/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/opgraph/op3rewriters/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/opgraph/op4rewriters/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/opgraph/op4rewriters/checker/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/opgraph/op4rewriters/matchutil/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/opgraph/op4rewriters/transformers/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/opgraph/op4rewriters/util/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/parse/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/parse/expression/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/parse/expression/misc/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/parse/expression/rewriteinterface/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/parse/literal/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/parse/lvalue/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/parse/rewriters/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/parse/statement/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/parse/utils/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/parse/utils/finalhelp/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/parse/utils/scope/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/parse/wildcard/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/stack/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/structured/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/structured/expression/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/structured/statement/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/structured/statement/placeholder/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/types/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/types/annotated/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/types/discovery/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/analysis/variables/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/bytecode/opcode/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/entities/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/entities/annotations/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/entities/attributes/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/entities/bootstrap/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/entities/classfilehelpers/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/entities/constantpool/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/entities/exceptions/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/entities/innerclass/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/entityfactories/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/mapping/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/relationship/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/state/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/util/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/util/annotation/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/util/bytestream/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/util/collections/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/util/functors/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/util/getopt/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/util/graph/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/util/lambda/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/benf/cfr/reader/util/output/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/fife/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/fife/io/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/fife/print/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/fife/ui/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/fife/ui/rsyntaxtextarea/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/fife/ui/rsyntaxtextarea/focusabletip/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/fife/ui/rsyntaxtextarea/folding/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/fife/ui/rsyntaxtextarea/modes/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/fife/ui/rsyntaxtextarea/parser/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/fife/ui/rsyntaxtextarea/templates/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/fife/ui/rsyntaxtextarea/themes/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/fife/ui/rtextarea/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 15:44 org/fife/util/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/ch.qos.logback/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/ch.qos.logback/logback-classic/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/ch.qos.logback/logback-core/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/com.alibaba/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/com.alibaba.arthas/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/com.alibaba.arthas/arthas-repackage-logger/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/com.alibaba.middleware/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/com.alibaba.middleware/cli/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/com.alibaba.middleware/termd-core/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/com.alibaba/bytekit-core/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/com.alibaba/bytekit-instrument-api/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/com.alibaba/fastjson/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/com.alibaba/repackage-asm/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/com.fasterxml.jackson.core/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/com.fasterxml.jackson.core/jackson-core/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/com.fasterxml.jackson.core/jackson-databind/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/com.taobao.arthas/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/com.taobao.arthas/arthas-common/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/com.taobao.arthas/arthas-core/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/com.taobao.arthas/arthas-memorycompiler/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/com.taobao.arthas/arthas-tunnel-client/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/com.taobao.arthas/arthas-tunnel-common/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/com.taobao.text/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/com.taobao.text/text-ui/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/io.netty/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/io.netty/netty-buffer/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/io.netty/netty-codec/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/io.netty/netty-codec-http/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/io.netty/netty-common/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/io.netty/netty-handler/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/io.netty/netty-resolver/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/io.netty/netty-transport/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/ognl/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/ognl/ognl/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/org.benf/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/org.benf/cfr/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/org.javassist/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/org.javassist/javassist/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/org.jctools/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/org.jctools/jctools-core/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/org.slf4j/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/maven/org.slf4j/slf4j-api/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/native-image/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/native-image/io.netty/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/native-image/io.netty/buffer/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/native-image/io.netty/codec-http/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/native-image/io.netty/common/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/native-image/io.netty/handler/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/native-image/io.netty/transport/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 META-INF/services/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/boolex/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/db/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/db/names/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/db/script/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/encoder/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/filter/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/gaffer/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/helpers/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/html/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/jmx/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/joran/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/joran/action/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/jul/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/layout/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/log4j/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/net/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/net/server/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/pattern/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/pattern/color/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/selector/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/selector/servlet/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/servlet/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/sift/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/spi/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/turbo/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/classic/util/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/boolex/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/db/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/db/dialect/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/encoder/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/filter/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/helpers/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/hook/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/html/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/joran/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/joran/action/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/joran/conditional/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/joran/event/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/joran/event/stax/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/joran/node/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/joran/spi/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/joran/util/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/joran/util/beans/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/layout/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/net/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/net/server/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/net/ssl/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/pattern/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/pattern/color/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/pattern/parser/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/pattern/util/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/property/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/read/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/recovery/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/rolling/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/rolling/helper/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/sift/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/spi/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/status/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/subst/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/ch/qos/logback/core/util/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/bootstrap/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/buffer/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/buffer/search/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/channel/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/channel/embedded/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/channel/group/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/channel/internal/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/channel/local/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/channel/nio/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/channel/oio/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/channel/pool/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/channel/socket/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/channel/socket/nio/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/channel/socket/oio/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/address/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/codec/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/codec/base64/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/codec/bytes/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/codec/compression/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/codec/http/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/codec/http/cookie/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/codec/http/cors/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/codec/http/multipart/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/codec/http/websocketx/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/codec/http/websocketx/extensions/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/codec/http/websocketx/extensions/compression/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/codec/json/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/codec/marshalling/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/codec/protobuf/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/codec/rtsp/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/codec/serialization/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/codec/spdy/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/codec/string/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/codec/xml/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/flow/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/flush/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/ipfilter/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/logging/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/pcap/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/ssl/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/ssl/ocsp/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/ssl/util/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/stream/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/timeout/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/handler/traffic/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/resolver/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/util/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/util/collection/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/util/concurrent/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/util/internal/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/util/internal/logging/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/util/internal/shaded/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/util/internal/shaded/org/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/util/internal/shaded/org/jctools/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/util/internal/shaded/org/jctools/queues/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/util/internal/shaded/org/jctools/queues/atomic/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/util/internal/shaded/org/jctools/util/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/io/netty/util/internal/svm/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/org/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/org/slf4j/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/org/slf4j/event/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/org/slf4j/helpers/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/org/slf4j/impl/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/deps/org/slf4j/spi/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/tunnel/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/tunnel/client/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/arthas/tunnel/common/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/bytekit/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/bytekit/agent/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/bytekit/agent/inst/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/bytekit/asm/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/bytekit/asm/binding/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/bytekit/asm/binding/annotation/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/bytekit/asm/inst/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/bytekit/asm/inst/impl/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/bytekit/asm/instrument/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/bytekit/asm/interceptor/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/bytekit/asm/interceptor/annotation/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/bytekit/asm/interceptor/parser/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/bytekit/asm/location/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/bytekit/asm/location/filter/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/bytekit/asm/matcher/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/bytekit/log/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/bytekit/utils/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/deps/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/deps/org/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/deps/org/objectweb/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/deps/org/objectweb/asm/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/deps/org/objectweb/asm/commons/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/deps/org/objectweb/asm/signature/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/deps/org/objectweb/asm/tree/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/deps/org/objectweb/asm/tree/analysis/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/deps/org/objectweb/asm/util/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/fastjson/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/fastjson/annotation/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/fastjson/asm/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/fastjson/parser/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/fastjson/parser/deserializer/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/fastjson/serializer/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/fastjson/spi/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/fastjson/support/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/fastjson/support/config/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/fastjson/support/geo/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/fastjson/support/hsf/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/fastjson/support/jaxrs/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/fastjson/support/moneta/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/fastjson/support/retrofit/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/fastjson/support/spring/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/fastjson/support/spring/annotation/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/fastjson/support/spring/messaging/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/fastjson/support/springfox/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/alibaba/fastjson/util/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/annotation/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/core/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/core/base/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/core/filter/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/core/format/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/core/io/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/core/json/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/core/sym/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/core/type/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/core/util/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/databind/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/databind/annotation/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/databind/cfg/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/databind/deser/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/databind/deser/impl/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/databind/deser/std/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/databind/exc/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/databind/ext/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/databind/introspect/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/databind/jsonFormatVisitors/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/databind/jsonschema/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/databind/jsontype/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/databind/jsontype/impl/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/databind/module/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/databind/node/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/databind/ser/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/databind/ser/impl/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/databind/ser/std/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/databind/type/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/fasterxml/jackson/databind/util/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/common/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/common/concurrent/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/compiler/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/advisor/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/command/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/command/basic1000/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/command/express/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/command/hidden/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/command/klass100/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/command/logger/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/command/model/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/command/monitor200/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/command/view/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/config/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/distribution/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/distribution/impl/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/env/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/env/convert/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/http/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/http/element-ui@2.13.0/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/http/element-ui@2.13.0/lib/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/http/element-ui@2.13.0/lib/theme-chalk/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/http/element-ui@2.13.0/lib/theme-chalk/fonts/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/http/lib/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/http/lib/vue/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/http/ui/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/res/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/server/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/server/instrument/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/shell/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/shell/cli/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/shell/cli/impl/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/shell/command/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/shell/command/impl/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/shell/command/internal/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/shell/future/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/shell/handlers/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/shell/handlers/command/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/shell/handlers/server/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/shell/handlers/shell/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/shell/handlers/term/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/shell/history/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/shell/history/impl/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/shell/impl/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/shell/session/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/shell/session/impl/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/shell/system/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/shell/system/impl/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/shell/term/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/shell/term/impl/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/shell/term/impl/http/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/shell/term/impl/http/api/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/shell/term/impl/httptelnet/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/shell/term/readline/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/util/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/util/affect/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/util/collection/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/util/matcher/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/util/metrics/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/util/reflect/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/util/usage/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/arthas/core/view/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/middleware/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/middleware/cli/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/middleware/cli/annotations/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/middleware/cli/converters/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/middleware/cli/impl/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/text/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/text/lang/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/text/renderers/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/text/stream/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/text/ui/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/text/ui/themes/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 com/taobao/text/util/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 io/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 io/termd/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 io/termd/core/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 io/termd/core/function/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 io/termd/core/http/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 io/termd/core/http/netty/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 io/termd/core/io/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 io/termd/core/pty/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 io/termd/core/readline/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 io/termd/core/readline/functions/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 io/termd/core/ssh/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 io/termd/core/ssh/netty/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 io/termd/core/telnet/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 io/termd/core/telnet/netty/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 io/termd/core/term/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 io/termd/core/tty/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 io/termd/core/util/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 javassist/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 javassist/bytecode/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 javassist/bytecode/analysis/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 javassist/bytecode/annotation/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 javassist/bytecode/stackmap/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 javassist/compiler/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 javassist/compiler/ast/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 javassist/convert/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 javassist/expr/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 javassist/runtime/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 javassist/scopedpool/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 javassist/tools/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 javassist/tools/reflect/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 javassist/tools/rmi/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 javassist/tools/web/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 javassist/util/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 javassist/util/proxy/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 ognl/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 ognl/enhance/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 ognl/internal/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/api/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/apiunreleased/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/loc/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/opgraph/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/opgraph/op02obf/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/opgraph/op03obf/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/opgraph/op2rewriters/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/opgraph/op3rewriters/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/opgraph/op4rewriters/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/opgraph/op4rewriters/checker/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/opgraph/op4rewriters/matchutil/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/opgraph/op4rewriters/transformers/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/opgraph/op4rewriters/util/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/parse/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/parse/expression/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/parse/expression/misc/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/parse/expression/rewriteinterface/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/parse/literal/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/parse/lvalue/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/parse/rewriters/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/parse/statement/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/parse/utils/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/parse/utils/finalhelp/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/parse/utils/scope/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/parse/wildcard/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/stack/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/structured/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/structured/expression/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/structured/statement/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/structured/statement/placeholder/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/types/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/types/annotated/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/types/discovery/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/analysis/variables/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/bytecode/opcode/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/entities/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/entities/annotations/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/entities/attributes/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/entities/bootstrap/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/entities/classfilehelpers/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/entities/constantpool/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/entities/exceptions/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/entities/innerclass/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/entityfactories/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/mapping/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/relationship/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/state/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/util/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/util/annotation/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/util/bytestream/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/util/collections/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/util/functors/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/util/getopt/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/util/graph/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/util/lambda/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/benf/cfr/reader/util/output/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/fife/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/fife/io/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/fife/print/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/fife/ui/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/fife/ui/rsyntaxtextarea/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/fife/ui/rsyntaxtextarea/focusabletip/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/fife/ui/rsyntaxtextarea/folding/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/fife/ui/rsyntaxtextarea/modes/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/fife/ui/rsyntaxtextarea/parser/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/fife/ui/rsyntaxtextarea/templates/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/fife/ui/rsyntaxtextarea/themes/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/fife/ui/rtextarea/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 21-Feb-26 16:18 org/fife/util/
+│ │  -rw-r--r--  2.0 unx      321 b- defN 18-Jun-07 22:39 META-INF/LICENSE
+│ │  -rw-r--r--  2.0 unx    11562 b- defN 20-Nov-05 20:59 META-INF/LICENSE.txt
+│ │  -rw-r--r--  2.0 unx      326 b- defN 20-Sep-27 15:10 META-INF/MANIFEST.MF
+│ │  -rw-r--r--  2.0 unx      825 b- defN 18-Jun-07 22:39 META-INF/NOTICE
+│ │  -rw-r--r--  2.0 unx      617 b- defN 20-Nov-05 20:59 META-INF/NOTICE.txt
+│ │  -rw-r--r--  2.0 unx       16 b- defN 20-Dec-16 07:20 META-INF/cfr.kotlin_module
+│ │  -rw-r--r--  2.0 unx      342 b- defN 21-Feb-08 11:00 META-INF/io.netty.versions.properties
+│ │ @@ -486,23 +486,23 @@
+│ │  -rw-r--r--  2.0 unx      154 b- defN 16-Jan-09 21:46 META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.properties
+│ │  -rw-r--r--  2.0 unx     1454 b- defN 16-Jan-09 21:46 META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.xml
+│ │  -rw-r--r--  2.0 unx      147 b- defN 17-Feb-04 11:18 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.properties
+│ │  -rw-r--r--  2.0 unx     5062 b- defN 17-Feb-04 11:18 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml
+│ │  -rw-r--r--  2.0 unx      153 b- defN 18-Jun-07 22:39 META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.properties
+│ │  -rw-r--r--  2.0 unx     5196 b- defN 18-Jun-07 22:39 META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.xml
+│ │  -rw-r--r--  2.0 unx       65 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-common/pom.properties
+│ │ --rw-r--r--  2.0 unx     3495 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-common/pom.xml
+│ │ +-rw-r--r--  2.0 unx     3496 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-common/pom.xml
+│ │  -rw-r--r--  2.0 unx       63 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-core/pom.properties
+│ │ --rw-r--r--  2.0 unx     7453 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-core/pom.xml
+│ │ +-rw-r--r--  2.0 unx     7454 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-core/pom.xml
+│ │  -rw-r--r--  2.0 unx       73 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-memorycompiler/pom.properties
+│ │ --rw-r--r--  2.0 unx     3751 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-memorycompiler/pom.xml
+│ │ +-rw-r--r--  2.0 unx     3752 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-memorycompiler/pom.xml
+│ │  -rw-r--r--  2.0 unx       72 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-tunnel-client/pom.properties
+│ │ --rw-r--r--  2.0 unx     5272 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-tunnel-client/pom.xml
+│ │ +-rw-r--r--  2.0 unx     5273 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-tunnel-client/pom.xml
+│ │  -rw-r--r--  2.0 unx       72 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-tunnel-common/pom.properties
+│ │ --rw-r--r--  2.0 unx     3537 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-tunnel-common/pom.xml
+│ │ +-rw-r--r--  2.0 unx     3538 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-tunnel-common/pom.xml
+│ │  -rw-r--r--  2.0 unx       88 b- defN 18-Aug-31 17:34 META-INF/maven/com.taobao.text/text-ui/pom.properties
+│ │  -rw-r--r--  2.0 unx     5031 b- defN 18-Aug-31 17:34 META-INF/maven/com.taobao.text/text-ui/pom.xml
+│ │  -rw-r--r--  2.0 unx       62 b- defN 21-Feb-08 11:00 META-INF/maven/io.netty/netty-buffer/pom.properties
+│ │  -rw-r--r--  2.0 unx     1580 b- defN 21-Feb-08 10:56 META-INF/maven/io.netty/netty-buffer/pom.xml
+│ │  -rw-r--r--  2.0 unx       66 b- defN 21-Feb-08 11:07 META-INF/maven/io.netty/netty-codec-http/pom.properties
+│ │  -rw-r--r--  2.0 unx     2404 b- defN 21-Feb-08 10:56 META-INF/maven/io.netty/netty-codec-http/pom.xml
+│ │  -rw-r--r--  2.0 unx       61 b- defN 21-Feb-08 11:03 META-INF/maven/io.netty/netty-codec/pom.properties
+│ │ @@ -4520,22 +4520,22 @@
+│ │  -rw-r--r--  2.0 unx     3482 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/klass100/RetransformCommand$RetransformClassFileTransformer.class
+│ │  -rw-r--r--  2.0 unx     2271 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/klass100/RetransformCommand$RetransformEntry.class
+│ │  -rw-r--r--  2.0 unx    14592 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/klass100/RetransformCommand.class
+│ │  -rw-r--r--  2.0 unx     1459 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/klass100/SearchClassCommand$1.class
+│ │  -rw-r--r--  2.0 unx     1815 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/klass100/SearchClassCommand$2.class
+│ │  -rw-r--r--  2.0 unx     8080 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/klass100/SearchClassCommand.class
+│ │  -rw-r--r--  2.0 unx     9529 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/klass100/SearchMethodCommand.class
+│ │ --rw-r--r--  2.0 unx     1551 b- defN 21-Feb-26 15:44 com/taobao/arthas/core/command/logger/AsmRenameUtil.class
+│ │ --rw-r--r--  2.0 unx     8304 b- defN 21-Feb-26 15:44 com/taobao/arthas/core/command/logger/Log4j2Helper.class
+│ │ --rw-r--r--  2.0 unx     6202 b- defN 21-Feb-26 15:44 com/taobao/arthas/core/command/logger/Log4jHelper.class
+│ │ --rw-r--r--  2.0 unx     6840 b- defN 21-Feb-26 15:44 com/taobao/arthas/core/command/logger/LogbackHelper.class
+│ │ --rw-r--r--  2.0 unx     1341 b- defN 21-Feb-26 15:44 com/taobao/arthas/core/command/logger/LoggerCommand$LoggerType.class
+│ │ --rw-r--r--  2.0 unx     1398 b- defN 21-Feb-26 15:44 com/taobao/arthas/core/command/logger/LoggerCommand$LoggerTypes.class
+│ │ --rw-r--r--  2.0 unx    13497 b- defN 21-Feb-26 15:44 com/taobao/arthas/core/command/logger/LoggerCommand.class
+│ │ --rw-r--r--  2.0 unx      614 b- defN 21-Feb-26 15:44 com/taobao/arthas/core/command/logger/LoggerHelper.class
+│ │ +-rw-r--r--  2.0 unx     1551 b- defN 21-Feb-26 16:18 com/taobao/arthas/core/command/logger/AsmRenameUtil.class
+│ │ +-rw-r--r--  2.0 unx     8304 b- defN 21-Feb-26 16:18 com/taobao/arthas/core/command/logger/Log4j2Helper.class
+│ │ +-rw-r--r--  2.0 unx     6202 b- defN 21-Feb-26 16:18 com/taobao/arthas/core/command/logger/Log4jHelper.class
+│ │ +-rw-r--r--  2.0 unx     6840 b- defN 21-Feb-26 16:18 com/taobao/arthas/core/command/logger/LogbackHelper.class
+│ │ +-rw-r--r--  2.0 unx     1341 b- defN 21-Feb-26 16:18 com/taobao/arthas/core/command/logger/LoggerCommand$LoggerType.class
+│ │ +-rw-r--r--  2.0 unx     1398 b- defN 21-Feb-26 16:18 com/taobao/arthas/core/command/logger/LoggerCommand$LoggerTypes.class
+│ │ +-rw-r--r--  2.0 unx    13497 b- defN 21-Feb-26 16:18 com/taobao/arthas/core/command/logger/LoggerCommand.class
+│ │ +-rw-r--r--  2.0 unx      614 b- defN 21-Feb-26 16:18 com/taobao/arthas/core/command/logger/LoggerHelper.class
+│ │  -rw-r--r--  2.0 unx     1152 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/model/ArgumentVO.class
+│ │  -rw-r--r--  2.0 unx      792 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/model/Base64Model.class
+│ │  -rw-r--r--  2.0 unx     1165 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/model/BlockingLockInfo.class
+│ │  -rw-r--r--  2.0 unx     4997 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/model/BusyThreadInfo.class
+│ │  -rw-r--r--  2.0 unx     1242 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/model/CatModel.class
+│ │  -rw-r--r--  2.0 unx     1248 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/model/ChangeResultVO.class
+│ │  -rw-r--r--  2.0 unx     4027 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/model/ClassDetailVO.class
+│ │ @@ -7543,8 +7543,8 @@
+│ │  -rw-r--r--  2.0 unx     5262 b- defN 15-Sep-09 22:48 org/fife/ui/rtextarea/SearchContext.class
+│ │  -rw-r--r--  2.0 unx    12261 b- defN 15-Sep-09 22:48 org/fife/ui/rtextarea/SearchEngine.class
+│ │  -rw-r--r--  2.0 unx     2715 b- defN 15-Sep-09 22:48 org/fife/ui/rtextarea/SearchResult.class
+│ │  -rw-r--r--  2.0 unx     2800 b- defN 15-Sep-09 22:48 org/fife/ui/rtextarea/SmartHighlightPainter.class
+│ │  -rw-r--r--  2.0 unx      241 b- defN 15-Sep-09 22:48 org/fife/ui/rtextarea/ToolTipSupplier.class
+│ │  -rw-r--r--  2.0 unx     2487 b- defN 15-Sep-09 22:48 org/fife/ui/rtextarea/VolatileImageBackgroundPainterStrategy.class
+│ │  -rw-r--r--  2.0 unx     4461 b- defN 15-Sep-09 22:48 org/fife/util/DynamicIntArray.class
+│ │ -7548 files, 30860558 bytes uncompressed, 11408456 bytes compressed:  63.0%
+│ │ +7548 files, 30860563 bytes uncompressed, 11408456 bytes compressed:  63.0%
+│ ├── META-INF/maven/com.taobao.arthas/arthas-common/pom.xml
+│ │ ├── META-INF/maven/com.taobao.arthas/arthas-common/pom.xml
+│ │ │ @@ -1,9 +1,9 @@
+│ │ │  <?xml version="1.0" encoding="utf-8"?>
+│ │ │ -<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ │ +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ │    <modelVersion>4.0.0</modelVersion>
+│ │ │    <groupId>com.taobao.arthas</groupId>
+│ │ │    <artifactId>arthas-common</artifactId>
+│ │ │    <version>3.4.8</version>
+│ │ │    <name>arthas-common</name>
+│ │ │    <description>arthas</description>
+│ │ │    <url>https://github.com/alibaba/arthas/arthas-common</url>
+│ ├── META-INF/maven/com.taobao.arthas/arthas-core/pom.xml
+│ │ ├── META-INF/maven/com.taobao.arthas/arthas-core/pom.xml
+│ │ │ @@ -1,9 +1,9 @@
+│ │ │  <?xml version="1.0" encoding="utf-8"?>
+│ │ │ -<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ │ +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ │    <modelVersion>4.0.0</modelVersion>
+│ │ │    <groupId>com.taobao.arthas</groupId>
+│ │ │    <artifactId>arthas-core</artifactId>
+│ │ │    <version>3.4.8</version>
+│ │ │    <name>arthas-core</name>
+│ │ │    <description>arthas</description>
+│ │ │    <url>https://github.com/alibaba/arthas/arthas-core</url>
+│ ├── META-INF/maven/com.taobao.arthas/arthas-memorycompiler/pom.xml
+│ │ ├── META-INF/maven/com.taobao.arthas/arthas-memorycompiler/pom.xml
+│ │ │ @@ -1,9 +1,9 @@
+│ │ │  <?xml version="1.0" encoding="utf-8"?>
+│ │ │ -<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ │ +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ │    <modelVersion>4.0.0</modelVersion>
+│ │ │    <groupId>com.taobao.arthas</groupId>
+│ │ │    <artifactId>arthas-memorycompiler</artifactId>
+│ │ │    <version>3.4.8</version>
+│ │ │    <name>arthas-memorycompiler</name>
+│ │ │    <description>arthas</description>
+│ │ │    <url>https://github.com/alibaba/arthas/arthas-memorycompiler</url>
+│ ├── META-INF/maven/com.taobao.arthas/arthas-tunnel-client/pom.xml
+│ │ ├── META-INF/maven/com.taobao.arthas/arthas-tunnel-client/pom.xml
+│ │ │ @@ -1,9 +1,9 @@
+│ │ │  <?xml version="1.0" encoding="utf-8"?>
+│ │ │ -<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ │ +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ │    <modelVersion>4.0.0</modelVersion>
+│ │ │    <groupId>com.taobao.arthas</groupId>
+│ │ │    <artifactId>arthas-tunnel-client</artifactId>
+│ │ │    <version>3.4.8</version>
+│ │ │    <name>arthas-tunnel-client</name>
+│ │ │    <description>arthas</description>
+│ │ │    <url>https://github.com/alibaba/arthas/arthas-tunnel-client</url>
+│ ├── META-INF/maven/com.taobao.arthas/arthas-tunnel-common/pom.xml
+│ │ ├── META-INF/maven/com.taobao.arthas/arthas-tunnel-common/pom.xml
+│ │ │ @@ -1,9 +1,9 @@
+│ │ │  <?xml version="1.0" encoding="utf-8"?>
+│ │ │ -<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ │ +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ │    <modelVersion>4.0.0</modelVersion>
+│ │ │    <groupId>com.taobao.arthas</groupId>
+│ │ │    <artifactId>arthas-tunnel-common</artifactId>
+│ │ │    <version>3.4.8</version>
+│ │ │    <name>arthas-tunnel-common</name>
+│ │ │    <description>arthas</description>
+│ │ │    <url>https://github.com/alibaba/arthas/arthas-tunnel-common</url>
+├── arthas-agent.jar
+│ ├── zipinfo /dev/stdin
+│ │ @@ -9,10 +9,10 @@
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/maven/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-agent/
+│ │  -rw-r--r--  2.0 unx      485 b- defN 20-Sep-27 15:10 arthas-git.properties
+│ │  -rw-r--r--  2.0 unx     1450 b- defN 20-Sep-27 15:10 com/taobao/arthas/agent/ArthasClassloader.class
+│ │  -rw-r--r--  2.0 unx     1135 b- defN 20-Sep-27 15:10 com/taobao/arthas/agent334/AgentBootstrap$1.class
+│ │  -rw-r--r--  2.0 unx     6639 b- defN 20-Sep-27 15:10 com/taobao/arthas/agent334/AgentBootstrap.class
+│ │ --rw-r--r--  2.0 unx     3705 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-agent/pom.xml
+│ │ +-rw-r--r--  2.0 unx     3706 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-agent/pom.xml
+│ │  -rw-r--r--  2.0 unx       64 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-agent/pom.properties
+│ │ -16 files, 13863 bytes uncompressed, 6253 bytes compressed:  54.9%
+│ │ +16 files, 13864 bytes uncompressed, 6253 bytes compressed:  54.9%
+│ ├── META-INF/maven/com.taobao.arthas/arthas-agent/pom.xml
+│ │ ├── META-INF/maven/com.taobao.arthas/arthas-agent/pom.xml
+│ │ │ @@ -1,9 +1,9 @@
+│ │ │  <?xml version="1.0" encoding="utf-8"?>
+│ │ │ -<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ │ +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ │    <modelVersion>4.0.0</modelVersion>
+│ │ │    <groupId>com.taobao.arthas</groupId>
+│ │ │    <artifactId>arthas-agent</artifactId>
+│ │ │    <version>3.4.8</version>
+│ │ │    <name>arthas-agent</name>
+│ │ │    <description>arthas</description>
+│ │ │    <url>https://github.com/alibaba/arthas/arthas-agent</url>
+├── arthas-client.jar
+│ ├── zipinfo /dev/stdin
+│ │ @@ -1,8 +1,8 @@
+│ │ -Zip file size: 429764 bytes, number of entries: 270
+│ │ +Zip file size: 429763 bytes, number of entries: 270
+│ │  -rw-r--r--  2.0 unx      294 b- defN 20-Sep-27 15:10 META-INF/MANIFEST.MF
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 com/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 com/taobao/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 com/taobao/arthas/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 com/taobao/arthas/common/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 com/taobao/arthas/common/concurrent/
+│ │ @@ -73,15 +73,15 @@
+│ │  -rw-r--r--  2.0 unx     2660 b- defN 20-Sep-27 15:10 com/taobao/arthas/common/concurrent/ConcurrentWeakKeyHashMap$SimpleEntry.class
+│ │  -rw-r--r--  2.0 unx     1617 b- defN 20-Sep-27 15:10 com/taobao/arthas/common/concurrent/ConcurrentWeakKeyHashMap$ValueIterator.class
+│ │  -rw-r--r--  2.0 unx     1627 b- defN 20-Sep-27 15:10 com/taobao/arthas/common/concurrent/ConcurrentWeakKeyHashMap$Values.class
+│ │  -rw-r--r--  2.0 unx     1337 b- defN 20-Sep-27 15:10 com/taobao/arthas/common/concurrent/ConcurrentWeakKeyHashMap$WeakKeyReference.class
+│ │  -rw-r--r--  2.0 unx     1643 b- defN 20-Sep-27 15:10 com/taobao/arthas/common/concurrent/ConcurrentWeakKeyHashMap$WriteThroughEntry.class
+│ │  -rw-r--r--  2.0 unx    11039 b- defN 20-Sep-27 15:10 com/taobao/arthas/common/concurrent/ConcurrentWeakKeyHashMap.class
+│ │  -rw-r--r--  2.0 unx      286 b- defN 20-Sep-27 15:10 com/taobao/arthas/common/concurrent/ReusableIterator.class
+│ │ --rw-r--r--  2.0 unx     3495 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-common/pom.xml
+│ │ +-rw-r--r--  2.0 unx     3496 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-common/pom.xml
+│ │  -rw-r--r--  2.0 unx       65 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-common/pom.properties
+│ │  -rw-r--r--  2.0 unx     1393 b- defN 20-Sep-27 15:10 com/taobao/middleware/cli/AmbiguousOptionException.class
+│ │  -rw-r--r--  2.0 unx     2600 b- defN 20-Sep-27 15:10 com/taobao/middleware/cli/Argument.class
+│ │  -rw-r--r--  2.0 unx     2100 b- defN 20-Sep-27 15:10 com/taobao/middleware/cli/CLI.class
+│ │  -rw-r--r--  2.0 unx      604 b- defN 20-Sep-27 15:10 com/taobao/middleware/cli/CommandLines.class
+│ │  -rw-r--r--  2.0 unx     4449 b- defN 20-Sep-27 15:10 com/taobao/middleware/cli/Option.class
+│ │  -rw-r--r--  2.0 unx    14020 b- defN 20-Sep-27 15:10 com/taobao/middleware/cli/UsageMessageFormatter.class
+│ │ @@ -263,10 +263,10 @@
+│ │  -rw-r--r--  2.0 unx      405 b- defN 20-Sep-27 15:10 org/apache/commons/net/telnet/TelnetNotificationHandler.class
+│ │  -rw-r--r--  2.0 unx     4979 b- defN 20-Sep-27 15:10 org/apache/commons/net/telnet/TelnetOption.class
+│ │  -rw-r--r--  2.0 unx     2246 b- defN 20-Sep-27 15:10 org/apache/commons/net/telnet/TelnetOptionHandler.class
+│ │  -rw-r--r--  2.0 unx     2007 b- defN 20-Sep-27 15:10 org/apache/commons/net/telnet/TelnetOutputStream.class
+│ │  -rw-r--r--  2.0 unx     1342 b- defN 20-Sep-27 15:10 org/apache/commons/net/telnet/TerminalTypeOptionHandler.class
+│ │  -rw-r--r--  2.0 unx     1470 b- defN 20-Sep-27 15:10 org/apache/commons/net/telnet/WindowSizeOptionHandler.class
+│ │  -rw-r--r--  2.0 unx     1371 b- defN 20-Sep-27 15:10 org/apache/commons/net/util/ListenerList.class
+│ │ --rw-r--r--  2.0 unx     4055 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-client/pom.xml
+│ │ +-rw-r--r--  2.0 unx     4056 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-client/pom.xml
+│ │  -rw-r--r--  2.0 unx       65 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-client/pom.properties
+│ │ -270 files, 911736 bytes uncompressed, 385984 bytes compressed:  57.7%
+│ │ +270 files, 911738 bytes uncompressed, 385983 bytes compressed:  57.7%
+│ ├── META-INF/maven/com.taobao.arthas/arthas-common/pom.xml
+│ │ ├── META-INF/maven/com.taobao.arthas/arthas-common/pom.xml
+│ │ │ @@ -1,9 +1,9 @@
+│ │ │  <?xml version="1.0" encoding="utf-8"?>
+│ │ │ -<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ │ +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ │    <modelVersion>4.0.0</modelVersion>
+│ │ │    <groupId>com.taobao.arthas</groupId>
+│ │ │    <artifactId>arthas-common</artifactId>
+│ │ │    <version>3.4.8</version>
+│ │ │    <name>arthas-common</name>
+│ │ │    <description>arthas</description>
+│ │ │    <url>https://github.com/alibaba/arthas/arthas-common</url>
+│ ├── META-INF/maven/com.taobao.arthas/arthas-client/pom.xml
+│ │ ├── META-INF/maven/com.taobao.arthas/arthas-client/pom.xml
+│ │ │ @@ -1,9 +1,9 @@
+│ │ │  <?xml version="1.0" encoding="utf-8"?>
+│ │ │ -<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ │ +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ │    <modelVersion>4.0.0</modelVersion>
+│ │ │    <groupId>com.taobao.arthas</groupId>
+│ │ │    <artifactId>arthas-client</artifactId>
+│ │ │    <version>3.4.8</version>
+│ │ │    <name>arthas-client</name>
+│ │ │    <description>arthas</description>
+│ │ │    <url>https://github.com/alibaba/arthas/arthas-client</url>
+├── arthas-boot.jar
+│ ├── zipinfo /dev/stdin
+│ │ @@ -48,15 +48,15 @@
+│ │  -rw-r--r--  2.0 unx     2660 b- defN 20-Sep-27 15:10 com/taobao/arthas/common/concurrent/ConcurrentWeakKeyHashMap$SimpleEntry.class
+│ │  -rw-r--r--  2.0 unx     1617 b- defN 20-Sep-27 15:10 com/taobao/arthas/common/concurrent/ConcurrentWeakKeyHashMap$ValueIterator.class
+│ │  -rw-r--r--  2.0 unx     1627 b- defN 20-Sep-27 15:10 com/taobao/arthas/common/concurrent/ConcurrentWeakKeyHashMap$Values.class
+│ │  -rw-r--r--  2.0 unx     1337 b- defN 20-Sep-27 15:10 com/taobao/arthas/common/concurrent/ConcurrentWeakKeyHashMap$WeakKeyReference.class
+│ │  -rw-r--r--  2.0 unx     1643 b- defN 20-Sep-27 15:10 com/taobao/arthas/common/concurrent/ConcurrentWeakKeyHashMap$WriteThroughEntry.class
+│ │  -rw-r--r--  2.0 unx    11039 b- defN 20-Sep-27 15:10 com/taobao/arthas/common/concurrent/ConcurrentWeakKeyHashMap.class
+│ │  -rw-r--r--  2.0 unx      286 b- defN 20-Sep-27 15:10 com/taobao/arthas/common/concurrent/ReusableIterator.class
+│ │ --rw-r--r--  2.0 unx     3495 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-common/pom.xml
+│ │ +-rw-r--r--  2.0 unx     3496 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-common/pom.xml
+│ │  -rw-r--r--  2.0 unx       65 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-common/pom.properties
+│ │  -rw-r--r--  2.0 unx     1393 b- defN 20-Sep-27 15:10 com/taobao/middleware/cli/AmbiguousOptionException.class
+│ │  -rw-r--r--  2.0 unx     2600 b- defN 20-Sep-27 15:10 com/taobao/middleware/cli/Argument.class
+│ │  -rw-r--r--  2.0 unx     2100 b- defN 20-Sep-27 15:10 com/taobao/middleware/cli/CLI.class
+│ │  -rw-r--r--  2.0 unx      604 b- defN 20-Sep-27 15:10 com/taobao/middleware/cli/CommandLines.class
+│ │  -rw-r--r--  2.0 unx     4449 b- defN 20-Sep-27 15:10 com/taobao/middleware/cli/Option.class
+│ │  -rw-r--r--  2.0 unx    14020 b- defN 20-Sep-27 15:10 com/taobao/middleware/cli/UsageMessageFormatter.class
+│ │ @@ -99,10 +99,10 @@
+│ │  -rw-r--r--  2.0 unx    23740 b- defN 20-Sep-27 15:10 com/taobao/arthas/boot/Bootstrap.class
+│ │  -rw-r--r--  2.0 unx     7542 b- defN 20-Sep-27 15:10 com/taobao/arthas/boot/DownloadUtils.class
+│ │  -rw-r--r--  2.0 unx     1169 b- defN 20-Sep-27 15:10 com/taobao/arthas/boot/ProcessUtils$1.class
+│ │  -rw-r--r--  2.0 unx     1169 b- defN 20-Sep-27 15:10 com/taobao/arthas/boot/ProcessUtils$2.class
+│ │  -rw-r--r--  2.0 unx     1053 b- defN 20-Sep-27 15:10 com/taobao/arthas/boot/ProcessUtils$3.class
+│ │  -rw-r--r--  2.0 unx     1034 b- defN 20-Sep-27 15:10 com/taobao/arthas/boot/ProcessUtils$4.class
+│ │  -rw-r--r--  2.0 unx    12923 b- defN 20-Sep-27 15:10 com/taobao/arthas/boot/ProcessUtils.class
+│ │ --rw-r--r--  2.0 unx     3879 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-boot/pom.xml
+│ │ +-rw-r--r--  2.0 unx     3880 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-boot/pom.xml
+│ │  -rw-r--r--  2.0 unx       63 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-boot/pom.properties
+│ │ -106 files, 279294 bytes uncompressed, 121893 bytes compressed:  56.4%
+│ │ +106 files, 279296 bytes uncompressed, 121893 bytes compressed:  56.4%
+│ ├── META-INF/maven/com.taobao.arthas/arthas-common/pom.xml
+│ │ ├── META-INF/maven/com.taobao.arthas/arthas-common/pom.xml
+│ │ │ @@ -1,9 +1,9 @@
+│ │ │  <?xml version="1.0" encoding="utf-8"?>
+│ │ │ -<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ │ +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ │    <modelVersion>4.0.0</modelVersion>
+│ │ │    <groupId>com.taobao.arthas</groupId>
+│ │ │    <artifactId>arthas-common</artifactId>
+│ │ │    <version>3.4.8</version>
+│ │ │    <name>arthas-common</name>
+│ │ │    <description>arthas</description>
+│ │ │    <url>https://github.com/alibaba/arthas/arthas-common</url>
+│ ├── META-INF/maven/com.taobao.arthas/arthas-boot/pom.xml
+│ │ ├── META-INF/maven/com.taobao.arthas/arthas-boot/pom.xml
+│ │ │ @@ -1,9 +1,9 @@
+│ │ │  <?xml version="1.0" encoding="utf-8"?>
+│ │ │ -<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ │ +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ │    <modelVersion>4.0.0</modelVersion>
+│ │ │    <groupId>com.taobao.arthas</groupId>
+│ │ │    <artifactId>arthas-boot</artifactId>
+│ │ │    <version>3.4.8</version>
+│ │ │    <name>arthas-boot</name>
+│ │ │    <description>arthas</description>
+│ │ │    <url>https://github.com/alibaba/arthas/arthas-boot</url>
+├── arthas-demo.jar
+│ ├── zipinfo /dev/stdin
+│ │ @@ -3,10 +3,10 @@
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 demo/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/maven/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-demo/
+│ │  -rw-r--r--  2.0 unx      485 b- defN 20-Sep-27 15:10 arthas-git.properties
+│ │  -rw-r--r--  2.0 unx     3128 b- defN 20-Sep-27 15:10 demo/MathGame.class
+│ │ --rw-r--r--  2.0 unx     3483 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-demo/pom.xml
+│ │ +-rw-r--r--  2.0 unx     3484 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-demo/pom.xml
+│ │  -rw-r--r--  2.0 unx       63 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-demo/pom.properties
+│ │ -10 files, 7396 bytes uncompressed, 3164 bytes compressed:  57.2%
+│ │ +10 files, 7397 bytes uncompressed, 3164 bytes compressed:  57.2%
+│ ├── META-INF/maven/com.taobao.arthas/arthas-demo/pom.xml
+│ │ ├── META-INF/maven/com.taobao.arthas/arthas-demo/pom.xml
+│ │ │ @@ -1,9 +1,9 @@
+│ │ │  <?xml version="1.0" encoding="utf-8"?>
+│ │ │ -<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ │ +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │ │    <modelVersion>4.0.0</modelVersion>
+│ │ │    <groupId>com.taobao.arthas</groupId>
+│ │ │    <artifactId>arthas-demo</artifactId>
+│ │ │    <version>3.4.8</version>
+│ │ │    <name>arthas-demo</name>
+│ │ │    <description>arthas</description>
+│ │ │    <url>https://github.com/alibaba/arthas/arthas-demo</url>
