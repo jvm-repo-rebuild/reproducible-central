@@ -1,0 +1,55 @@
+$ diffoscope target/reference/io.wcm.handler.link-1.6.0-sources.jar target/io.wcm.handler.link-1.6.0-sources.jar
+--- target/reference/io.wcm.handler.link-1.6.0-sources.jar
++++ target/io.wcm.handler.link-1.6.0-sources.jar
+├── zipinfo /dev/stdin
+│ @@ -1,20 +1,19 @@
+│ -Zip file size: 83966 bytes, number of entries: 104
+│ +Zip file size: 83818 bytes, number of entries: 103
+│  -rw-r--r--  2.0 unx       64 b- defN 21-Jan-17 14:34 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jan-17 14:34 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jan-17 14:34 io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jan-17 14:34 io/wcm/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jan-17 14:34 io/wcm/handler/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jan-17 14:34 io/wcm/handler/link/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jan-17 14:34 io/wcm/handler/link/impl/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jan-17 14:34 io/wcm/handler/link/markup/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jan-17 14:34 io/wcm/handler/link/processor/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jan-17 14:34 io/wcm/handler/link/spi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jan-17 14:34 io/wcm/handler/link/type/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Jan-17 14:34 io/wcm/handler/link/type/controller/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jan-17 14:34 io/wcm/handler/link/type/helpers/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jan-17 14:34 io/wcm/handler/link/ui/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jan-17 14:34 SLING-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jan-17 14:34 SLING-INF/app-root/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jan-17 14:34 SLING-INF/app-root/clientlibs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jan-17 14:34 SLING-INF/app-root/clientlibs/authoring/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jan-17 14:34 SLING-INF/app-root/clientlibs/authoring/dialog/
+│ @@ -99,8 +98,8 @@
+│  -rw-r--r--  2.0 unx      892 b- defN 21-Jan-17 14:34 SLING-INF/app-root/components/page/redirect.json
+│  -rw-r--r--  2.0 unx    17128 b- defN 21-Jan-17 14:34 SLING-INF/app-root/templates/redirect/thumbnail.png
+│  -rw-r--r--  2.0 unx      367 b- defN 21-Jan-17 14:34 SLING-INF/app-root/templates/redirect.json
+│  -rw-r--r--  2.0 unx     6227 b- defN 21-Jan-17 14:34 SLING-INF/app-root/i18n/de.json
+│  -rw-r--r--  2.0 unx     6121 b- defN 21-Jan-17 14:34 SLING-INF/app-root/i18n/en.json
+│  -rw-r--r--  2.0 unx     4329 b- defN 21-Jan-17 14:34 META-INF/maven/io.wcm/io.wcm.handler.link/pom.xml
+│  -rw-r--r--  2.0 unx       63 b- defN 21-Jan-17 14:34 META-INF/maven/io.wcm/io.wcm.handler.link/pom.properties
+│ -104 files, 206836 bytes uncompressed, 66338 bytes compressed:  67.9%
+│ +103 files, 206836 bytes uncompressed, 66338 bytes compressed:  67.9%
+├── zipnote /tmp/diffoscope_d85vzca9/tmpa6cyof2u.zip
+│ @@ -27,17 +27,14 @@
+│  
+│  Filename: io/wcm/handler/link/spi/
+│  Comment: 
+│  
+│  Filename: io/wcm/handler/link/type/
+│  Comment: 
+│  
+│ -Filename: io/wcm/handler/link/type/controller/
+│ -Comment: 
+│ -
+│  Filename: io/wcm/handler/link/type/helpers/
+│  Comment: 
+│  
+│  Filename: io/wcm/handler/link/ui/
+│  Comment: 
+│  
+│  Filename: SLING-INF/
