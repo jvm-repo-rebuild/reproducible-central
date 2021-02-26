@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=RichText Handler
+group-id=io.wcm
+artifact-id=io.wcm.handler.richtext
+version=1.5.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/wcm-io/wcm-io-handler.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.9.1
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=io.wcm.handler.richtext-1.5.0.jar
+outputs.0.length=76312
+outputs.0.checksums.sha512=d747062dfe2e5889d0aa6238314fb2ebb4af44c12fd0cb12386aab9ddea48f22d4a65e5d338e27bca481450e98a1e404d2dd34060c6c51cc9b992e4474705280
+
+outputs.1.filename=io.wcm.handler.richtext-1.5.0-sources.jar
+outputs.1.length=72823
+outputs.1.checksums.sha512=bcbdb0f2d54ba40eec470c9e73b96466d944402b8336e9d001e5ab25b21f41db629d7603682c58468c6d1d3174972bb5e5225f6b9a71458d58eac53dd74493d9
