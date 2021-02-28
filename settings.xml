@@ -67,4 +67,12 @@
       </pluginRepositories>
     </profile>
   </profiles>
+
+  <mirrors>
+    <mirror>
+      <id>default</id>
+      <mirrorOf>*</mirrorOf>
+      <url>https://repo.maven.apache.org/maven2</url>
+    </mirror>
+  </mirrors>
 </settings>
