@@ -10,8 +10,8 @@ tool=mvn
 jdk=8
 newline=lf
 
-command="mvn clean package -DskipTests -Drpm.disabled"
-buildinfo=tunnel-server/target/arthas-tunnel-server-${version}.buildinfo
+command="./mvnw clean package -DskipTests -Drpm.disabled"
+buildinfo=target/${artifactId}-${version}.buildinfo
 
-diffoscope=https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/$(echo ${groupId} | tr '.' '/')/arthas-${version}.diffoscope
+diffoscope=https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/$(echo ${groupId} | tr '.' '/')/${artifactId}-${version}.diffoscope
 issue=
