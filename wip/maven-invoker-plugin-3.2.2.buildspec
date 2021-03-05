@@ -13,7 +13,7 @@ gitTag=${artifactId}-${version}
 
 # Rebuild environment prerequisites
 tool=mvn
-jdk=8
+jdk=11
 newline=lf
 
 # Rebuild command
