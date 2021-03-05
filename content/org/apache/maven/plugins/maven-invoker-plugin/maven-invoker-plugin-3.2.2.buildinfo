@@ -1,0 +1,22 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+# Central Repository coordinates for the Reference release
+groupId=org.apache.maven.plugins
+artifactId=maven-invoker-plugin
+version=3.2.2
+
+# source information
+gitRepo=https://github.com/apache/maven-invoker-plugin.git
+gitTag=maven-invoker-plugin-3.2.2
+
+# build instructions
+tool=mvn
+jdk=8
+newline=lf
+
+# Rebuild command
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+# Location of the buildinfo file generated during rebuild to record output fingerprints
+buildinfo=target/maven-invoker-plugin-3.2.2.buildinfo
