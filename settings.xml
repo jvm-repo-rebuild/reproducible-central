@@ -75,6 +75,11 @@
       <url>https://repo.maven.apache.org/maven2</url>
     </mirror>
     <mirror>
+      <id>jitpack.io</id>
+      <mirrorOf>jitpack.io</mirrorOf>
+      <url>https://jitpack.io</url>
+    </mirror>
+    <mirror>
       <id>default</id>
       <mirrorOf>*</mirrorOf>
       <url>https://repo.maven.apache.org/maven2</url>
