@@ -8,7 +8,7 @@ version=3.2.2
 display=${groupId}:${artifactId}
 
 # Source code
-gitRepo=https://github.com/project_org/${artifactId}.git
+gitRepo=https://github.com/apache/${artifactId}.git
 gitTag=${artifactId}-${version}
 
 # Rebuild environment prerequisites
