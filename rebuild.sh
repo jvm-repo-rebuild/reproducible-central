@@ -47,7 +47,11 @@ git checkout ${gitTag} || fatal "failed to git checkout ${gitTag}"
 if [ "${newline}" == "crlf" ]
 then
   echo "converting newlines to crlf"
-  git ls-files --eol | grep w/lf | cut -c 40- | xargs -d '\n' unix2dos 2> /dev/null
+  xargs="xargs"
+  [ "$(uname -s)" ==  "Darwin" ] && xargs="gxargs" # require GNU xargs: brew install findutils
+  git ls-files --eol | grep w/lf | cut -c 40- | ${xargs} -d '\n' unix2dos 2> /dev/null
+  # re-run without hiding output to show if there are issues
+  git ls-files --eol | grep w/lf | cut -c 40- | ${xargs} -d '\n' unix2dos
 fi
 
 echo -e "\033[1m$(pwd)\033[0m"
