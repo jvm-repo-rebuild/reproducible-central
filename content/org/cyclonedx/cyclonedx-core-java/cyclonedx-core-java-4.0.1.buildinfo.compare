@@ -1,0 +1,5 @@
+version=4.0.1
+ok=2
+ko=0
+okFiles="cyclonedx-core-java-4.0.1.jar cyclonedx-core-java-4.0.1-sources.jar"
+koFiles=""
