@@ -85,6 +85,11 @@
       <url>https://repo.adobe.com/nexus/content/groups/public/</url>
     </mirror>
     <mirror>
+      <id>maven-nodejs-proxy</id>
+      <mirrorOf>maven-nodejs-proxy</mirrorOf>
+      <url>https://maven-nodejs-proxy.pvtool.org</url>
+    </mirror>
+    <mirror>
       <id>default</id>
       <mirrorOf>*</mirrorOf>
       <url>https://repo.maven.apache.org/maven2</url>
