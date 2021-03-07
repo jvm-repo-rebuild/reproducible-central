@@ -80,6 +80,11 @@
       <url>https://jitpack.io</url>
     </mirror>
     <mirror>
+      <id>adobe-public-releases</id>
+      <mirrorOf>adobe-public-releases</mirrorOf>
+      <url>https://repo.adobe.com/nexus/content/groups/public/</url>
+    </mirror>
+    <mirror>
       <id>default</id>
       <mirrorOf>*</mirrorOf>
       <url>https://repo.maven.apache.org/maven2</url>
