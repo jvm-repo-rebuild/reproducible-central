@@ -1,0 +1,17 @@
+groupId=io.wcm
+artifactId=io.wcm.wcm.ui.clientlibs
+display=${groupId}-WCM:ui.clientlibs
+version=1.2.0
+
+gitRepo=https://github.com/wcm-io/wcm-io-wcm.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=11
+newline=crlf-nogit
+
+# need to extract values from reference build and inject here
+buildNumber=c5c90a46
+timestamp=2021-01-17T14:29:27+01:00
+command="mvn -f ui/clientlibs/pom.xml -Pio.wcm clean package -DskipTests -Dmaven.buildNumber.skip -DbuildNumber=${buildNumber} -Dtimestamp=${timestamp}"
+buildinfo=ui/clientlibs/target/${artifactId}-${version}.buildinfo
