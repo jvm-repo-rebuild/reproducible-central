@@ -1,0 +1,5 @@
+version=1.8.0
+ok=2
+ko=0
+okFiles="io.wcm.wcm.commons-1.8.0.jar io.wcm.wcm.commons-1.8.0-sources.jar"
+koFiles=""
