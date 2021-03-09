@@ -48,6 +48,7 @@ if [ "${newline}" == "crlf" ]
 then
   echo "converting newlines to crlf"
   xargs="xargs"
+  set -e
   [ "$(uname -s)" ==  "Darwin" ] && xargs="gxargs" # require GNU xargs: brew install findutils
   git ls-files --eol | grep w/lf | cut -c 40- | ${xargs} -d '\n' unix2dos 2> /dev/null
   # re-run without hiding output to show if there are issues
