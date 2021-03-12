@@ -147,7 +147,7 @@ rebuildToolMvn() {
     echo -e "    \033[31;1mko=${ko}\033[0m"
     echo -e "    koFiles=\"${koFiles}\""
     echo -e "build available in \033[1m$(dirname ${buildspec})/buildcache/${artifactId}\033[0m, where you can execute \033[36mdiffoscope\033[0m"
-    echo -e "run \033[36mdiffoscope\033[0m as container with \033[1mdocker run --rm -t -w /mnt -v $(pwd)/${buildspec}/buildcache/${artifactId}:/mnt:ro registry.salsa.debian.org/reproducible-builds/diffoscope\033[0m"
+    echo -e "run \033[36mdiffoscope\033[0m as container with \033[1mdocker run --rm -t -w /mnt -v $(pwd):/mnt:ro registry.salsa.debian.org/reproducible-builds/diffoscope\033[0m"
   else
     echo -e "    \033[32;1mok=${ok}\033[0m"
     echo -e "    okFiles=\"${okFiles}\""
