@@ -1,0 +1,28 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Toplevel Parent
+group-id=io.wcm
+artifact-id=io.wcm.parent_toplevel
+version=1.6.4
+
+# source information
+source.scm.uri=scm:git:https://github.com/wcm-io/wcm-io-tooling.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_275
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=io.wcm.parent_toplevel-1.6.4-site.xml
+outputs.0.length=5392
+outputs.0.checksums.sha512=54b6fcaa4ed59d73a9285a4dd0ab554b851e8bd2b670f9a46bbb0f27a1e1d52abd4291a690c627b69baaa9f830641f67695d0694e3d2386b5419f65340fccbb0
