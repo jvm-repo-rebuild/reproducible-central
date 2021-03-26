@@ -1,0 +1,17 @@
+groupId=org.liquibase.ext
+artifactId=liquibase-percona
+version=4.3.2
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/liquibase/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
