@@ -42,8 +42,10 @@ pushd `dirname ${buildspec}` >/dev/null || fatal "could not move into ${buildspe
 cd buildcache
 [ -d ${artifactId} ] || git clone ${gitRepo} ${artifactId} || fatal "failed to clone ${artifactId}"
 cd ${artifactId}
+echo -e "\033[2m$(pwd) \033[1mgit fetch\033[0m"
 git fetch || fatal "failed to git fetch"
-git checkout ${gitTag} || fatal "failed to git checkout ${gitTag}"
+echo -e "\033[2m$(pwd) \033[1mgit git checkout -f ${gitTag}\033[0m"
+git checkout -f ${gitTag} || fatal "failed to git checkout ${gitTag}"
 if [ "${newline}" == "crlf" ]
 then
   echo "converting newlines to crlf"
