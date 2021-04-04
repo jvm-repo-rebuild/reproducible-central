@@ -1,0 +1,5 @@
+version=3.8.1
+ok=14
+ko=18
+okFiles="maven-3.8.1-site.xml maven-model-3.8.1.jar maven-artifact-3.8.1.jar maven-plugin-api-3.8.1.jar maven-builder-support-3.8.1.jar maven-model-builder-3.8.1.jar maven-settings-3.8.1.jar maven-settings-builder-3.8.1.jar maven-repository-metadata-3.8.1.jar maven-resolver-provider-3.8.1.jar maven-slf4j-provider-3.8.1.jar maven-embedder-3.8.1.jar maven-compat-3.8.1.jar apache-maven-3.8.1-site.xml"
+koFiles="maven-model-3.8.1-sources.jar maven-artifact-3.8.1-sources.jar maven-plugin-api-3.8.1-sources.jar maven-builder-support-3.8.1-sources.jar maven-model-builder-3.8.1-sources.jar maven-settings-3.8.1-sources.jar maven-settings-builder-3.8.1-sources.jar maven-repository-metadata-3.8.1-sources.jar maven-resolver-provider-3.8.1-sources.jar maven-core-3.8.1.jar maven-core-3.8.1-sources.jar maven-slf4j-provider-3.8.1-sources.jar maven-embedder-3.8.1-sources.jar maven-compat-3.8.1-sources.jar apache-maven-3.8.1-bin.zip apache-maven-3.8.1-bin.tar.gz apache-maven-3.8.1-src.zip apache-maven-3.8.1-src.tar.gz"

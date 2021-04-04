@@ -1,0 +1,16 @@
+groupId=org.apache.maven
+artifactId=maven
+display=${groupId}:${artifactId}
+version=3.8.1
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=crlf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -DbuildNumber=05c21c65bdfed0f71a2f2ada8b84da59348c4c5d"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
