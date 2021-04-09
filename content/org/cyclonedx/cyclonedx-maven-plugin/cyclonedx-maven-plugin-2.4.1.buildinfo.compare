@@ -1,0 +1,5 @@
+version=2.4.1
+ok=2
+ko=0
+okFiles="cyclonedx-maven-plugin-2.4.1.jar cyclonedx-maven-plugin-2.4.1-sources.jar"
+koFiles=""
