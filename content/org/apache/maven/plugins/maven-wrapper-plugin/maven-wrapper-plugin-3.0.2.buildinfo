@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Wrapper Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-wrapper-plugin
+version=3.0.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-wrapper-plugin.git
+source.scm.tag=maven-wrapper-plugin-3.0.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_275
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.1.0
+
+# output
+
+outputs.0.filename=maven-wrapper-plugin-3.0.2.jar
+outputs.0.length=24462
+outputs.0.checksums.sha512=8061ad5a991e6101f9ea7f5d37ac933a5cffb709302532ca2bf969303c9872ebf0d63bfc73079c4ad3643e4206bca6c56864c71443813bcb6241eb0305297149
+
+outputs.1.filename=maven-wrapper-plugin-3.0.2-source-release.zip
+outputs.1.length=50107
+outputs.1.checksums.sha512=3b185d5486249f9ad4e0133462d294aeae05bc80fa3cbc7dd622c50689eb9316d5b260fa28a03e1922fe3e2ec1beb22f69c033c7f4894d90c4d874e1835089cc
+
+outputs.2.filename=maven-wrapper-plugin-3.0.2-sources.jar
+outputs.2.length=17126
+outputs.2.checksums.sha512=aaa9cf749a89810a04725d231c752c129ce850ddce664a137f45fa3e191b47a7afa7812e7b3c134c1a41237d26f813937b9220b4f0a03d971e5eb2b82e394c90

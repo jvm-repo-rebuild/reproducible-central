@@ -1,0 +1,5 @@
+version=3.0.2
+ok=1
+ko=2
+okFiles="maven-wrapper-plugin-3.0.2-source-release.zip"
+koFiles="maven-wrapper-plugin-3.0.2.jar maven-wrapper-plugin-3.0.2-sources.jar"
