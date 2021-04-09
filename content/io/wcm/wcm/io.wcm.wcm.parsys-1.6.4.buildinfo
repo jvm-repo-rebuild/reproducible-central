@@ -1,0 +1,40 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=WCM Parsys
+group-id=io.wcm
+artifact-id=io.wcm.wcm.parsys
+version=1.6.4
+
+# source information
+source.scm.uri=scm:git:https://github.com/wcm-io/wcm-io-wcm.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.9.1
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=io.wcm.wcm.parsys-1.6.4.jar
+outputs.0.length=45673
+outputs.0.checksums.sha512=10db56979d40c1ba02bda1d0d93196b673298fe38da5b9d0bed1dddeb40f07445b55d66bc2dca379afa5654e0c30b65fddb872a6065e72a7511731781490df2c
+
+outputs.1.filename=io.wcm.wcm.parsys-1.6.4-sources.jar
+outputs.1.length=35311
+outputs.1.checksums.sha512=031fae8d0a307a8b9744eed19703ad9e4ca3c17e844e3088cfea5b76c2e2855a35b211ff575e3b3d50c5cf0c333adc5c3e097108fb0f0f7d2788dd9e83311ed4
+
+outputs.2.filename=io.wcm.wcm.parsys-1.6.4-content.zip
+outputs.2.length=14163
+outputs.2.checksums.sha512=5271b7cc4ddeaee6329bb595de006aa36671e4bfe58520d08087ac2df7bd2599d052b5ca2982e56133cafaf39b9c232d91de9ce0a9e214df4468cf36a95badc4
+
+outputs.3.filename=io.wcm.wcm.parsys-1.6.4-bundle.jar
+outputs.3.length=37629
+outputs.3.checksums.sha512=df0bd817fadacf8d738a7d3e9be89220de8e6d36ca6eb570c265c7e68c30203f1215cbc8a931f84eea17d4ee52c1d8061ae543e330a2e50d0b8dac86a3532e16

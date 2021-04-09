@@ -1,0 +1,5 @@
+version=1.6.4
+ok=2
+ko=2
+okFiles="io.wcm.wcm.parsys-1.6.4.jar io.wcm.wcm.parsys-1.6.4-sources.jar"
+koFiles="io.wcm.wcm.parsys-1.6.4-content.zip io.wcm.wcm.parsys-1.6.4-bundle.jar"
