@@ -1,0 +1,20 @@
+groupId=io.wcm
+artifactId=io.wcm.handler.link
+display=${groupId}-handler:link
+version=1.6.2
+
+gitRepo=https://github.com/wcm-io/wcm-io-handler.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=11
+newline=crlf-nogit
+
+buildNumber=e2d0bd5d
+timestamp="2021-03-25T16:03:17+01:00"
+command="mvn -f link/pom.xml -Pio.wcm clean package -DskipTests -Dmaven.javadoc.skip -Dmaven.buildNumber.skip -DbuildNumber=${buildNumber} -Dtimestamp=${timestamp}"
+
+buildinfo=link/target/${artifactId}-${version}.buildinfo
+
+diffoscope=https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/$(echo ${groupId} | tr '.' '/')/handler/${artifactId}-${version}.diffoscope
+issue=
