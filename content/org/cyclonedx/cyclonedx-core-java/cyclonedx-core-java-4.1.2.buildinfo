@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=CycloneDX Core (Java)
+group-id=org.cyclonedx
+artifact-id=cyclonedx-core-java
+version=4.1.2
+
+# source information
+source.scm.uri=scm:git:git@github.com:CycloneDX/cyclonedx-core-java.git
+source.scm.tag=cyclonedx-core-java-4.1.2
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_275
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=cyclonedx-core-java-4.1.2.jar
+outputs.0.length=1558110
+outputs.0.checksums.sha512=82bcf48479dde5b5a8ca6ab24d7c1f01bc2df0bd1b88a042c8bd407d05ade69d952d1b715e234405eb3ceb919d43ac93d21049a49176f7999e701676364b41b4
+
+outputs.1.filename=cyclonedx-core-java-4.1.2-sources.jar
+outputs.1.length=1523458
+outputs.1.checksums.sha512=fc33f8f38af6b92e64251100cafd7efb10a334ff0b1807824f54c0597adc75446a0f8da6b8b5991a62e5987e1fabfd5df565152217a4bfb207ed6ed0b21f56ae
