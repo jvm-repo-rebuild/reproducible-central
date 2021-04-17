@@ -1,0 +1,5 @@
+version=3.0.0-M4
+ok=12
+ko=0
+okFiles="maven-release-3.0.0-M4-site.xml maven-release-3.0.0-M4-source-release.zip maven-release-api-3.0.0-M4.jar maven-release-api-3.0.0-M4-sources.jar maven-release-manager-3.0.0-M4.jar maven-release-manager-3.0.0-M4-sources.jar maven-release-oddeven-policy-3.0.0-M4.jar maven-release-oddeven-policy-3.0.0-M4-sources.jar maven-release-semver-policy-3.0.0-M4.jar maven-release-semver-policy-3.0.0-M4-sources.jar maven-release-plugin-3.0.0-M4.jar maven-release-plugin-3.0.0-M4-sources.jar"
+koFiles=""
