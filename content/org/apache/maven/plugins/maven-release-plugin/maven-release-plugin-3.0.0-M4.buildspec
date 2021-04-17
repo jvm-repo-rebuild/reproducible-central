@@ -1,4 +1,4 @@
-groupId=org.apache.maven.plugins
+groupId=org.apache.maven.release
 artifactId=maven-release
 display=${groupId}:${artifactId}
 version=3.0.0-M4
