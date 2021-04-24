@@ -14,4 +14,4 @@ command="mvn clean package -DskipTests"
 buildinfo=metrics-servlets/target/metrics-servlets-${version}.buildinfo
 
 diffoscope="https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/$(echo ${groupId} | tr '.' '/')/dropwizard-metrics-${version}.diffoscope"
-issue=
+issue=https://issues.apache.org/jira/browse/FELIX-6404
