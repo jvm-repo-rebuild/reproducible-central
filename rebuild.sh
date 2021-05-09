@@ -51,7 +51,11 @@ then
   echo "converting newlines to crlf"
   xargs="xargs"
   set -e
-  [ "$(uname -s)" ==  "Darwin" ] && xargs="gxargs" # require GNU xargs: brew install findutils
+  if [ "$(uname -s)" ==  "Darwin" ]
+  then
+    command -v gxargs >/dev/null 2>&1 || { echo "require GNU xargs: brew install findutils.  Aborting."; exit 1; }
+    xargs="gxargs"
+  fi
   git ls-files --eol | grep w/lf | cut -c 40- | ${xargs} -d '\n' unix2dos 2> /dev/null
   # re-run without hiding output to show if there are issues
   git ls-files --eol | grep w/lf | cut -c 40- | ${xargs} -d '\n' unix2dos
