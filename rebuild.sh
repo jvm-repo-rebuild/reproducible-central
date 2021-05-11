@@ -161,7 +161,7 @@ rebuildToolMvn() {
 
   if [[ ${buildspec} == wip/* ]]
   then
-    echo -e "\033[93mWork In Progress\033[0m: once work ready to publish, move to target directory with \033[1mdir=content/$(echo ${groupId} | tr '.' '/')/${artifactId} ; mkdir -p \${dir} ; mv ${buildspec} wip/${buildinfo}* \${dir} \033[0m"
+    echo -e "\033[93mWork In Progress\033[0m: once work ready to publish, move to target directory with \033[1mdir=content/$(echo ${groupId} | tr '.' '/')/${artifactId} ; mkdir -p \${dir} ; mv ${buildspec} wip/$(basename ${buildinfo})* \${dir} \033[0m"
   fi
 }
 
