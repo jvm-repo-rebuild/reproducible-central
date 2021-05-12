@@ -1,0 +1,7 @@
+version=0.9.0
+ok=1
+ko=0
+okFiles="jpdftest-0.9.0.jar"
+koFiles=""
+reference_java_version=1.7 (from MANIFEST.MF Build-Jdk-Spec)
+reference_os_name=Unix (from pom.properties newline)
