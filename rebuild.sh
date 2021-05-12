@@ -136,6 +136,7 @@ rebuildToolMvn() {
   mvnBuildDocker "${mvn_rebuild}" || fatal "failed to build"
 
   dos2unix ${buildinfo}* || fatal "failed to convert buildinfo newlines"
+  sed -i 's/reference_.*//' ${buildinfo}*.compare # waiting for MARTIFACT-19
   cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts"
 
   echo
@@ -145,7 +146,6 @@ rebuildToolMvn() {
     echo -e "  results in \033[1m$(dirname ${buildspec})/$(basename $f .buildinfo.compare).buildinfo\033[0m"
     echo -e "compared to Central Repository \033[1m$(dirname ${buildspec})/$(basename $f)\033[0m:"
   done
-  sed -i 's/reference_.*//' ${buildinfo}*.compare # waiting for MARTIFACT-19
   . ${buildinfo}*.compare
   if [[ ${ko} > 0 ]]
   then
