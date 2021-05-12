@@ -127,7 +127,7 @@ mvnBuildLocal() {
 # rebuild with Maven tool (tool=mvn)
 rebuildToolMvn() {
   # the effective rebuild command, adding artifact:buildinfo goal to compare with central content
-  local mvn_rebuild="${command} -V -e artifact:buildinfo -Dreference.repo=central -Dreference.compare.save"
+  local mvn_rebuild="${command} -V -e artifact:buildinfo -Dreference.repo=central -Dreference.compare.save -Dbuildinfo.reproducible"
 
   # by default, build with Docker
   # TODO: on parameter, use instead mvnBuildLocal after selecting JDK
@@ -145,6 +145,7 @@ rebuildToolMvn() {
     echo -e "  results in \033[1m$(dirname ${buildspec})/$(basename $f .buildinfo.compare).buildinfo\033[0m"
     echo -e "compared to Central Repository \033[1m$(dirname ${buildspec})/$(basename $f)\033[0m:"
   done
+  sed -i 's/reference_.*//' ${buildinfo}*.compare # waiting for MARTIFACT-19
   . ${buildinfo}*.compare
   if [[ ${ko} > 0 ]]
   then
