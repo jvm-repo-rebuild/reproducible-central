@@ -158,6 +158,14 @@ rebuildToolMvn() {
     echo -e "    okFiles=\"${okFiles}\""
     echo -e "    \033[31;1mko=${ko}\033[0m"
     echo -e "    koFiles=\"${koFiles}\""
+    if [ -n "${reference_java_version}" ]
+    then
+      echo -e "    check .buildspec \033[1mjdk=${jdk}\033[0m vs reference \033[1mjava.version=${reference_java_version}\033[0m"
+    fi
+    if [ -n "${reference_os_name}" ]
+    then
+      echo -e "    check .buildspec \033[1mnewline=${newline}\033[0m vs reference \033[1mos.name=${reference_os_name}\033[0m"
+    fi
     echo -e "build available in \033[1m$(dirname ${buildspec})/buildcache/${artifactId}\033[0m, where you can execute \033[36mdiffoscope\033[0m"
     echo -e "run \033[36mdiffoscope\033[0m as container with \033[1mdocker run --rm -t -w /mnt -v $(pwd):/mnt:ro registry.salsa.debian.org/reproducible-builds/diffoscope\033[0m"
   else
