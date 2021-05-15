@@ -136,7 +136,12 @@ rebuildToolMvn() {
   mvnBuildDocker "${mvn_rebuild}" || fatal "failed to build"
 
   dos2unix ${buildinfo}* || fatal "failed to convert buildinfo newlines"
-  sed -i 's/\(reference_[^=]*\)=\([^"].*\)$/\1="\2"/' ${buildinfo}*.compare # waiting for MARTIFACT-19
+  local sed="sed"
+  if [ "$(uname -s)" ==  "Darwin" ]
+  then
+    sed="gsed"
+  fi
+  ${sed} -i 's/\(reference_[^=]*\)=\([^"].*\)/\1="\2"/' ${buildinfo}*.compare # waiting for MARTIFACT-19
   cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts"
 
   echo
