@@ -17,7 +17,7 @@ do
 
   . $buildspec
   new_anchor="${groupId}:${artifactId}"
-  [[ -z "${issue}" ]] && issue=${diffoscope}
+  [[ -z "${issue}" ]] && [[ ! -z "${diffoscope}" ]] && issue="$(dirname ${buildspec})/$(basename ${diffoscope})"
 
   buildinfo="`dirname ${buildspec}`/`basename ${buildinfo}`"
   if [ `ls ${buildinfo} | wc -l` -le 1 ]; then
