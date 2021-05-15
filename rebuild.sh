@@ -146,8 +146,10 @@ rebuildToolMvn() {
 
   echo
   echo -e "rebuild from \033[1m${buildspec}\033[0m"
+  local compare=""
   for f in ${buildinfo}*.compare
   do
+    compare=$f
     echo -e "  results in \033[1m$(dirname ${buildspec})/$(basename $f .buildinfo.compare).buildinfo\033[0m"
     echo -e "compared to Central Repository \033[1m$(dirname ${buildspec})/$(basename $f)\033[0m:"
   done
@@ -169,6 +171,7 @@ rebuildToolMvn() {
     echo -e "build available in \033[1m$(dirname ${buildspec})/buildcache/${artifactId}\033[0m, where you can execute \033[36mdiffoscope\033[0m"
     grep '# diffoscope ' ${buildinfo}*.compare
     echo -e "run \033[36mdiffoscope\033[0m as container with \033[1mdocker run --rm -t -w /mnt -v $(pwd):/mnt:ro registry.salsa.debian.org/reproducible-builds/diffoscope\033[0m"
+    echo -e "run \033[1m./build_diffoscope.sh $(dirname ${buildspec})/$(basename ${compare}) buildcache/${artifactId}\033[0m to get a diffsocope output for the full build"
   else
     echo -e "    \033[32;1mok=${ok}\033[0m"
     echo -e "    okFiles=\"${okFiles}\""

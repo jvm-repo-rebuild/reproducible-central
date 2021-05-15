@@ -1,0 +1,159 @@
+target/reference/maven-resources-plugin-3.2.0.jar target/maven-resources-plugin-3.2.0.jar
+--- target/reference/maven-resources-plugin-3.2.0.jar
++++ target/maven-resources-plugin-3.2.0.jar
+├── zipinfo {}
+│ @@ -1,27 +1,27 @@
+│ -Zip file size: 32957 bytes, number of entries: 25
+│ +Zip file size: 32947 bytes, number of entries: 25
+│  -rw-r--r--  2.0 unx      355 b- defN 20-Aug-05 15:24 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 META-INF/m2e/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 META-INF/maven/org.apache.maven.plugins/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 META-INF/maven/org.apache.maven.plugins/maven-resources-plugin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 org/apache/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 org/apache/maven/plugins/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 org/apache/maven/plugins/resources/
+│ --rw-r--r--  2.0 unx     7664 b- defN 20-Aug-05 15:24 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx     7640 b- defN 20-Aug-05 15:24 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 20-Aug-05 15:24 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      186 b- defN 20-Aug-05 15:24 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     1322 b- defN 20-Aug-05 15:24 META-INF/m2e/lifecycle-mapping-metadata.xml
+│  -rw-r--r--  2.0 unx    33166 b- defN 20-Aug-05 15:24 META-INF/maven/org.apache.maven.plugins/maven-resources-plugin/plugin-help.xml
+│  -rw-r--r--  2.0 unx    48971 b- defN 20-Aug-05 15:24 META-INF/maven/plugin.xml
+│  -rw-r--r--  2.0 unx     1729 b- defN 20-Aug-05 15:24 org/apache/maven/plugins/resources/CopyResourcesMojo.class
+│  -rw-r--r--  2.0 unx    11166 b- defN 20-Aug-05 15:24 org/apache/maven/plugins/resources/HelpMojo.class
+│  -rw-r--r--  2.0 unx     2064 b- defN 20-Aug-05 15:24 org/apache/maven/plugins/resources/MavenBuildTimestamp.class
+│  -rw-r--r--  2.0 unx      334 b- defN 20-Aug-05 15:24 org/apache/maven/plugins/resources/Resource.class
+│  -rw-r--r--  2.0 unx    10393 b- defN 20-Aug-05 15:24 org/apache/maven/plugins/resources/ResourcesMojo.class
+│  -rw-r--r--  2.0 unx     2111 b- defN 20-Aug-05 15:24 org/apache/maven/plugins/resources/TestResourcesMojo.class
+│  -rw-r--r--  2.0 unx     8079 b- defN 20-Aug-05 15:24 META-INF/maven/org.apache.maven.plugins/maven-resources-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       84 b- defN 20-Aug-05 15:24 META-INF/maven/org.apache.maven.plugins/maven-resources-plugin/pom.properties
+│ -25 files, 138982 bytes uncompressed, 29185 bytes compressed:  79.0%
+│ +25 files, 138958 bytes uncompressed, 29175 bytes compressed:  79.0%
+├── META-INF/DEPENDENCIES
+│ @@ -3,16 +3,16 @@
+│  // maven pom organized by organization.
+│  // ------------------------------------------------------------------
+│  
+│  Apache Maven Resources Plugin
+│  
+│  
+│  From: 'an unknown organization'
+│ -  - AOP alliance  aopalliance:aopalliance:jar:1.0
+│ -    License: GNU Lesser General Public License  (http://www.gnu.org/licenses/lgpl.html)
+│ +  - AOP alliance (http://aopalliance.sourceforge.net) aopalliance:aopalliance:jar:1.0
+│ +    License: Public Domain 
+│    - FindBugs-jsr305 (http://findbugs.sourceforge.net/) com.google.code.findbugs:jsr305:jar:1.3.9
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Guava: Google Core Libraries for Java (http://code.google.com/p/guava-libraries/guava) com.google.guava:guava:jar:10.0.1
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - JSR-250 Common Annotations for the JavaTM Platform (http://jcp.org/aboutJava/communityprocess/final/jsr250/index.html) javax.annotation:jsr250-api:jar:1.0
+│      License: COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0  (https://glassfish.dev.java.net/public/CDDLv1.0.html)
+│    - javax.inject (http://code.google.com/p/atinject/) javax.inject:javax.inject:jar:1
+
+target/reference/maven-resources-plugin-3.2.0-source-release.zip target/maven-resources-plugin-3.2.0-source-release.zip
+--- target/reference/maven-resources-plugin-3.2.0-source-release.zip
++++ target/maven-resources-plugin-3.2.0-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 945426 bytes, number of entries: 339
+│ +Zip file size: 945416 bytes, number of entries: 339
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 maven-resources-plugin-3.2.0/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 maven-resources-plugin-3.2.0/.github/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 maven-resources-plugin-3.2.0/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 maven-resources-plugin-3.2.0/src/it/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 maven-resources-plugin-3.2.0/src/it/MRESOURCES-104/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 maven-resources-plugin-3.2.0/src/it/MRESOURCES-104/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 maven-resources-plugin-3.2.0/src/it/MRESOURCES-104/src/main/
+│ @@ -331,11 +331,11 @@
+│  -rw-r--r--  2.0 unx      968 b- defN 20-Aug-05 15:24 maven-resources-plugin-3.2.0/src/test/resources/unit/reflectionproperties-test/validation_escapebackslashinpath.properties
+│  -rw-r--r--  2.0 unx     1708 b- defN 20-Aug-05 15:24 maven-resources-plugin-3.2.0/src/test/resources/unit/resources-test/plugin-config-absolute-path.xml
+│  -rw-r--r--  2.0 unx     1710 b- defN 20-Aug-05 15:24 maven-resources-plugin-3.2.0/src/test/resources/unit/resources-test/plugin-config-relative-path.xml
+│  -rw-r--r--  2.0 unx     1748 b- defN 20-Aug-05 15:24 maven-resources-plugin-3.2.0/src/test/resources/unit/resources-test/plugin-config.xml
+│  -rw-r--r--  2.0 unx      944 b- defN 20-Aug-05 15:24 maven-resources-plugin-3.2.0/src/test/resources/unit/resources-test/validation.properties
+│  -rw-r--r--  2.0 unx      810 b- defN 20-Aug-05 15:24 maven-resources-plugin-3.2.0/src/test/unit-files/copy-resources-test/filter-files/filter.txt
+│  -rw-r--r--  2.0 unx      819 b- defN 20-Aug-05 15:24 maven-resources-plugin-3.2.0/src/test/unit-files/copy-resources-test/no-filter/config.properties
+│ --rw-r--r--  2.0 unx     7664 b- defN 20-Aug-05 15:24 maven-resources-plugin-3.2.0/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx     7640 b- defN 20-Aug-05 15:24 maven-resources-plugin-3.2.0/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 20-Aug-05 15:24 maven-resources-plugin-3.2.0/LICENSE
+│  -rw-r--r--  2.0 unx      186 b- defN 20-Aug-05 15:24 maven-resources-plugin-3.2.0/NOTICE
+│ -339 files, 1160126 bytes uncompressed, 873096 bytes compressed:  24.7%
+│ +339 files, 1160102 bytes uncompressed, 873086 bytes compressed:  24.7%
+├── maven-resources-plugin-3.2.0/DEPENDENCIES
+│ @@ -3,16 +3,16 @@
+│  // maven pom organized by organization.
+│  // ------------------------------------------------------------------
+│  
+│  Apache Maven Resources Plugin
+│  
+│  
+│  From: 'an unknown organization'
+│ -  - AOP alliance  aopalliance:aopalliance:jar:1.0
+│ -    License: GNU Lesser General Public License  (http://www.gnu.org/licenses/lgpl.html)
+│ +  - AOP alliance (http://aopalliance.sourceforge.net) aopalliance:aopalliance:jar:1.0
+│ +    License: Public Domain 
+│    - FindBugs-jsr305 (http://findbugs.sourceforge.net/) com.google.code.findbugs:jsr305:jar:1.3.9
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Guava: Google Core Libraries for Java (http://code.google.com/p/guava-libraries/guava) com.google.guava:guava:jar:10.0.1
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - JSR-250 Common Annotations for the JavaTM Platform (http://jcp.org/aboutJava/communityprocess/final/jsr250/index.html) javax.annotation:jsr250-api:jar:1.0
+│      License: COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0  (https://glassfish.dev.java.net/public/CDDLv1.0.html)
+│    - javax.inject (http://code.google.com/p/atinject/) javax.inject:javax.inject:jar:1
+
+target/reference/maven-resources-plugin-3.2.0-sources.jar target/maven-resources-plugin-3.2.0-sources.jar
+--- target/reference/maven-resources-plugin-3.2.0-sources.jar
++++ target/maven-resources-plugin-3.2.0-sources.jar
+├── zipinfo {}
+│ @@ -1,25 +1,25 @@
+│ -Zip file size: 24764 bytes, number of entries: 23
+│ +Zip file size: 24754 bytes, number of entries: 23
+│  -rw-r--r--  2.0 unx       64 b- defN 20-Aug-05 15:24 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 org/apache/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 org/apache/maven/plugins/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 org/apache/maven/plugins/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 META-INF/m2e/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 META-INF/maven/org.apache.maven.plugins/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:24 META-INF/maven/org.apache.maven.plugins/maven-resources-plugin/
+│ --rw-r--r--  2.0 unx     7664 b- defN 20-Aug-05 15:24 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx     7640 b- defN 20-Aug-05 15:24 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 20-Aug-05 15:24 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      186 b- defN 20-Aug-05 15:24 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     2448 b- defN 20-Aug-05 15:24 org/apache/maven/plugins/resources/CopyResourcesMojo.java
+│  -rw-r--r--  2.0 unx     3313 b- defN 20-Aug-05 15:24 org/apache/maven/plugins/resources/MavenBuildTimestamp.java
+│  -rw-r--r--  2.0 unx     1126 b- defN 20-Aug-05 15:24 org/apache/maven/plugins/resources/Resource.java
+│  -rw-r--r--  2.0 unx    20730 b- defN 20-Aug-05 15:24 org/apache/maven/plugins/resources/ResourcesMojo.java
+│  -rw-r--r--  2.0 unx     3190 b- defN 20-Aug-05 15:24 org/apache/maven/plugins/resources/TestResourcesMojo.java
+│  -rw-r--r--  2.0 unx    15266 b- defN 20-Aug-05 15:24 org/apache/maven/plugins/resources/HelpMojo.java
+│  -rw-r--r--  2.0 unx     1322 b- defN 20-Aug-05 15:24 META-INF/m2e/lifecycle-mapping-metadata.xml
+│  -rw-r--r--  2.0 unx     8079 b- defN 20-Aug-05 15:24 META-INF/maven/org.apache.maven.plugins/maven-resources-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       84 b- defN 20-Aug-05 15:24 META-INF/maven/org.apache.maven.plugins/maven-resources-plugin/pom.properties
+│ -23 files, 74830 bytes uncompressed, 21362 bytes compressed:  71.5%
+│ +23 files, 74806 bytes uncompressed, 21352 bytes compressed:  71.5%
+├── META-INF/DEPENDENCIES
+│ @@ -3,16 +3,16 @@
+│  // maven pom organized by organization.
+│  // ------------------------------------------------------------------
+│  
+│  Apache Maven Resources Plugin
+│  
+│  
+│  From: 'an unknown organization'
+│ -  - AOP alliance  aopalliance:aopalliance:jar:1.0
+│ -    License: GNU Lesser General Public License  (http://www.gnu.org/licenses/lgpl.html)
+│ +  - AOP alliance (http://aopalliance.sourceforge.net) aopalliance:aopalliance:jar:1.0
+│ +    License: Public Domain 
+│    - FindBugs-jsr305 (http://findbugs.sourceforge.net/) com.google.code.findbugs:jsr305:jar:1.3.9
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Guava: Google Core Libraries for Java (http://code.google.com/p/guava-libraries/guava) com.google.guava:guava:jar:10.0.1
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - JSR-250 Common Annotations for the JavaTM Platform (http://jcp.org/aboutJava/communityprocess/final/jsr250/index.html) javax.annotation:jsr250-api:jar:1.0
+│      License: COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0  (https://glassfish.dev.java.net/public/CDDLv1.0.html)
+│    - javax.inject (http://code.google.com/p/atinject/) javax.inject:javax.inject:jar:1
+
