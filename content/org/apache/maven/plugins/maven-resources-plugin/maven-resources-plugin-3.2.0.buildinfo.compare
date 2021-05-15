@@ -3,3 +3,8 @@ ok=0
 ko=3
 okFiles=""
 koFiles="maven-resources-plugin-3.2.0.jar maven-resources-plugin-3.2.0-source-release.zip maven-resources-plugin-3.2.0-sources.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/maven-resources-plugin-3.2.0.jar target/maven-resources-plugin-3.2.0.jar
+# diffoscope target/reference/maven-resources-plugin-3.2.0-source-release.zip target/maven-resources-plugin-3.2.0-source-release.zip
+# diffoscope target/reference/maven-resources-plugin-3.2.0-sources.jar target/maven-resources-plugin-3.2.0-sources.jar
