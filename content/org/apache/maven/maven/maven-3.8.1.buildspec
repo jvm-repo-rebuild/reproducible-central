@@ -13,4 +13,5 @@ newline=crlf
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -DbuildNumber=05c21c65bdfed0f71a2f2ada8b84da59348c4c5d"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-issue=
+diffoscope=maven-3.8.1.diffoscope
+issue=https://issues.apache.org/jira/browse/MNG-7155
