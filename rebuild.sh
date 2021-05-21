@@ -83,8 +83,8 @@ mvnBuildDocker() {
     14)
       mvnImage=maven:3.6.3-jdk-${jdk}
       ;;
-    15)
-      mvnImage=maven:3.6.3-openjdk-${jdk}
+    15 | 16 | 17)
+      mvnImage=maven:3.6.3-openjdk-${jdk}-slim
       ;;
     *)
       mvnImage=maven:3.6.3-jdk-${jdk}-slim
