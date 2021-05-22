@@ -1,0 +1,27 @@
+# see instructions https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/BUILDSPEC.md
+
+# Central Repository coordinates for the Reference release
+groupId=io.fabric8
+artifactId=kubernetes-client-project
+version=5.4.0
+
+display=${groupId}:kubernetes-client
+
+# Source code
+gitRepo=https://github.com/fabric8io/kubernetes-client.git
+gitTag=v${version}
+
+# Rebuild environment prerequisites
+tool=mvn
+jdk=8
+newline=lf
+
+# Rebuild command
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+# Location of the buildinfo file generated during rebuild to record output fingerprints
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+# if the release is finally not reproducible, link to an issue tracker entry if one was created or diffoscope result
+diffoscope=${artifactId}-${version}.diffoscope
+issue=
