@@ -75,7 +75,6 @@ mvnBuildDocker() {
       ;;
     8)
       mvnImage=maven:3.6.3-jdk-${jdk}-slim
-      crlfDocker="yes"
       ;;
     9)
       mvnImage=maven:3-jdk-${jdk}-slim
