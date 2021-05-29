@@ -4,7 +4,7 @@ Rebuilding artifacts from (Maven) Central Repository
 [![Reproducible Builds](https://reproducible-builds.org/assets/images/footer/logo-text.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
 As part of [Reproducible Builds efforts for the JVM](https://reproducible-builds.org/docs/jvm/), this "**Reproducible Central**" project is an attempt at:
-1. writing [rebuild instructions](BUILDSPEC.md) for the artifacts available in the [Central Repository](https://search.maven.org/),
+1. writing [`.buildspec`rebuild instructions](BUILDSPEC.md) for the artifacts available in the [Central Repository](https://search.maven.org/),
 equivalent to the packaging instructions that are maintained by every Linux distribution
 (for example Debian's [debian/rules](https://www.debian.org/doc/debian-policy/ch-source#s-debianrules) or ArchLinux's PKGBUILD), whatever the build tool used (Central Repository is not used by Maven only)
 2. show the level of reproducibility obtained using previous instructions: how many output files from the rebuild are strictly equal to reference in Central Repository, how many output files are not yet reproducible and should be improved before the next release?
@@ -26,19 +26,15 @@ You can rebuild a project release by running:
 ```
 ./rebuild.sh content/<path/to/...>/<project>-<version>.buildspec
 ```
-`rebuild.sh` script will use the build specification file (= [`.buildspec` file](BUILDSPEC.md)) to choose a Docker container to rebuild the project and check output against Central Repository reference binaries.
+`rebuild.sh` script will use the build specification file (= [`.buildspec` file](BUILDSPEC.md)) to choose a Docker image to rebuild the project and check output against Central Repository reference binaries.
 
-To rebuild every project with build instructions available in this Git repository, just run (and wait for hours...):
-```
-find content -name *.buildspec -exec ./rebuild.sh {} \;
-```
 </details>
 
-<details><summary><b>Contribute A New Build Spec</b></summary>
+<details><summary><b>Contribute A New `.buildspec`</b></summary>
 
-If you know a project released to Central Repository that is expected to provide Reproducible Builds, please tell us by opening an issue with details. Please check that it is not already in our [list of projects waiting for a buildspec](https://github.com/jvm-repo-rebuild/reproducible-central/issues/42).
+If you know a project released to Central Repository that is expected to provide Reproducible Builds, please tell us by opening an issue with details.
 
-Even better, you can provide a PR containing a [`.buildspec` build specification file (and instructions to write a new one)](BUILDSPEC.md).
+You can also choose one from our [list of projects waiting for a `.buildspec`](https://github.com/jvm-repo-rebuild/reproducible-central/issues/42): follow our [instructions to write a new `.buildspec`)](BUILDSPEC.md#writing-a-new-buildspec) that you can contribute back with a PR.
 
 </details>
 
@@ -65,9 +61,9 @@ Notice the anchor in the link.
 
 </details>
 
-<details><summary><b>Check That My Project Uses Reproducible Dependencies</b></summary>
-This is a future objective. But for now, given the very few projects that produce reproducible artifacts, it's a little bit early to try to automate checks of your dependencies: there is a good chance that your dependencies are not reproducible. You should help by reporting to the project owners, and help them make their build reproducible for future releases.
-</details>
+~~<details><summary><b>Check That My Project Uses Reproducible Dependencies</b></summary>
+~~This is a future objective. But for now, given the very few projects that produce reproducible artifacts, it's a little bit early to try to automate checks of your dependencies: there is a good chance that your dependencies are not reproducible. You should help by reporting to the project owners, and help them make their build reproducible for future releases.
+~~</details>
 
 ## Rebuild Results
 

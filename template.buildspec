@@ -15,6 +15,7 @@ gitTag=${artifactId}-${version}
 tool=mvn
 jdk=8
 newline=lf
+# or newline=crlf for Windows
 
 # Rebuild command
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
