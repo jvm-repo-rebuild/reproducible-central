@@ -1,0 +1,83 @@
+target/reference/ldapchai-0.8.1.jar target/ldapchai-0.8.1.jar
+--- target/reference/ldapchai-0.8.1.jar
++++ target/ldapchai-0.8.1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 713276 bytes, number of entries: 435
+│ +Zip file size: 713292 bytes, number of entries: 435
+│  -rw-r--r--  2.0 unx      660 b- defN 21-Jun-10 07:52 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jun-10 07:52 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jun-10 07:52 META-INF/source/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jun-10 07:52 META-INF/source/com/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jun-10 07:52 META-INF/source/com/novell/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jun-10 07:52 META-INF/source/com/novell/ldapchai/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jun-10 07:52 META-INF/source/com/novell/ldapchai/cr/
+│ @@ -200,15 +200,15 @@
+│  -rw-r--r--  2.0 unx     2287 b- defN 21-Jun-10 07:52 META-INF/source/com/novell/ldapchai/util/MainHandler.java
+│  -rw-r--r--  2.0 unx     3671 b- defN 21-Jun-10 07:52 META-INF/source/com/novell/ldapchai/util/PasswordRuleHelper.java
+│  -rw-r--r--  2.0 unx     4818 b- defN 21-Jun-10 07:52 META-INF/source/com/novell/ldapchai/util/SCryptUtil.java
+│  -rw-r--r--  2.0 unx    22078 b- defN 21-Jun-10 07:52 META-INF/source/com/novell/ldapchai/util/SearchHelper.java
+│  -rw-r--r--  2.0 unx     6547 b- defN 21-Jun-10 07:52 META-INF/source/com/novell/ldapchai/util/StringHelper.java
+│  -rw-r--r--  2.0 unx     2074 b- defN 21-Jun-10 07:52 META-INF/source/com/novell/ldapchai/util/Uint32Charset.java
+│  -rw-r--r--  2.0 unx      932 b- defN 21-Jun-10 07:52 META-INF/source/com/novell/ldapchai/util/package-info.java
+│ --rw-r--r--  2.0 unx      926 b- defN 21-Jun-10 07:52 classes/git.json
+│ +-rw-r--r--  2.0 unx      956 b- defN 21-Jun-10 07:52 classes/git.json
+│  -rw-r--r--  2.0 unx    13630 b- defN 21-Jun-10 07:52 com/novell/ldapchai/ChaiConstant.class
+│  -rw-r--r--  2.0 unx     3060 b- defN 21-Jun-10 07:52 com/novell/ldapchai/ChaiEntry.class
+│  -rw-r--r--  2.0 unx     2802 b- defN 21-Jun-10 07:52 com/novell/ldapchai/ChaiEntryFactory.class
+│  -rw-r--r--  2.0 unx      761 b- defN 21-Jun-10 07:52 com/novell/ldapchai/ChaiGroup.class
+│  -rw-r--r--  2.0 unx      182 b- defN 21-Jun-10 07:52 com/novell/ldapchai/ChaiOrganizationalUnit.class
+│  -rw-r--r--  2.0 unx      499 b- defN 21-Jun-10 07:52 com/novell/ldapchai/ChaiPasswordPolicy.class
+│  -rw-r--r--  2.0 unx     1386 b- defN 21-Jun-10 07:52 com/novell/ldapchai/ChaiPasswordRule$RuleType.class
+│ @@ -430,8 +430,8 @@
+│  -rw-r--r--  2.0 unx     1810 b- defN 21-Jun-10 07:52 com/novell/ldapchai/util/SearchHelper$FilterSequence.class
+│  -rw-r--r--  2.0 unx    12002 b- defN 21-Jun-10 07:52 com/novell/ldapchai/util/SearchHelper.class
+│  -rw-r--r--  2.0 unx     4917 b- defN 21-Jun-10 07:52 com/novell/ldapchai/util/StringHelper.class
+│  -rw-r--r--  2.0 unx     1085 b- defN 21-Jun-10 07:52 com/novell/ldapchai/util/Uint32Charset$Uint32CharsetDecoder.class
+│  -rw-r--r--  2.0 unx     1083 b- defN 21-Jun-10 07:52 com/novell/ldapchai/util/Uint32Charset.class
+│  -rw-r--r--  2.0 unx    27525 b- defN 21-Jun-10 07:52 META-INF/maven/com.github.ldapchai/ldapchai/pom.xml
+│  -rw-r--r--  2.0 unx       62 b- defN 21-Jun-10 07:52 META-INF/maven/com.github.ldapchai/ldapchai/pom.properties
+│ -435 files, 1930278 bytes uncompressed, 629822 bytes compressed:  67.4%
+│ +435 files, 1930308 bytes uncompressed, 629838 bytes compressed:  67.4%
+├── classes/git.json
+│ │   --- /tmp/diffoscope_u9zeb_u4_target/tmpbzao82z3/git.json
+│ ├── +++ /tmp/diffoscope_u9zeb_u4_target/tmpsxn89xtx/git.json
+│ │┄ Differences: {'replace': "OrderedDict([('git.branch', '9ae6d1df119bc55171752af827472d41f075f7f7'), "
+│ │┄             "('git.build.host', 'aafd0b5bd199'), ('git.build.user.email', ''), "
+│ │┄             "('git.build.user.name', ''), ('git.build.version', '0.8.1'), "
+│ │┄             "('git.closest.tag.commit.count', '0'), ('git.closest.tag.name', 'v0.8.1'), "
+│ │┄             "('git.commit.id', '9ae6d1df119bc55171752af827472d41f075f7f7'), "
+│ │┄             "('git.commit.id.abbrev', '9ae6d1d'), ('git.commit.id.describe', 'v0.8.1'), "
+│ │┄           […]
+│ │ @@ -1,24 +1,24 @@
+│ │  {
+│ │ -    "git.branch": "master",
+│ │ -    "git.build.host": "ort",
+│ │ -    "git.build.user.email": "jrivard@gmail.com",
+│ │ -    "git.build.user.name": "Jason Rivard",
+│ │ +    "git.branch": "9ae6d1df119bc55171752af827472d41f075f7f7",
+│ │ +    "git.build.host": "aafd0b5bd199",
+│ │ +    "git.build.user.email": "",
+│ │ +    "git.build.user.name": "",
+│ │      "git.build.version": "0.8.1",
+│ │      "git.closest.tag.commit.count": "0",
+│ │      "git.closest.tag.name": "v0.8.1",
+│ │      "git.commit.id": "9ae6d1df119bc55171752af827472d41f075f7f7",
+│ │      "git.commit.id.abbrev": "9ae6d1d",
+│ │      "git.commit.id.describe": "v0.8.1",
+│ │      "git.commit.id.describe-short": "v0.8.1",
+│ │      "git.commit.message.full": "version 0.8.1",
+│ │      "git.commit.message.short": "version 0.8.1",
+│ │      "git.commit.time": "2021-06-10T07:52:55Z",
+│ │      "git.commit.user.email": "jrivard@gmail.com",
+│ │      "git.commit.user.name": "Jason Rivard",
+│ │      "git.dirty": "false",
+│ │ -    "git.local.branch.ahead": "0",
+│ │ -    "git.local.branch.behind": "0",
+│ │ +    "git.local.branch.ahead": "NO_REMOTE",
+│ │ +    "git.local.branch.behind": "NO_REMOTE",
+│ │      "git.remote.origin.url": "https://github.com/ldapchai/ldapchai.git",
+│ │      "git.tags": "v0.8.1",
+│ │      "git.total.commit.count": "210"
+│ │  }
+
