@@ -4,7 +4,7 @@ buildinfo.version=1.0-SNAPSHOT
 name=Liquibase Percona Extension
 group-id=org.liquibase.ext
 artifact-id=liquibase-percona
-version=4.3.5
+version=4.4.0
 
 # source information
 source.scm.uri=scm:git:http://github.com/liquibase/liquibase-percona.git
@@ -21,10 +21,10 @@ os.name=Unix
 
 # output
 
-outputs.0.filename=liquibase-percona-4.3.5.jar
-outputs.0.length=49590
-outputs.0.checksums.sha512=da3fb42072f549b513eae8b3d8725d565ebcfe553e69f3c4981ac4c132a29425722b48e6016a96c4cc6886d331d81d14c92b9c7d8cea118ca6c16cfd1f4110df
+outputs.0.filename=liquibase-percona-4.4.0.jar
+outputs.0.length=51801
+outputs.0.checksums.sha512=3c16b742bc6e9ff38ace6d2d0607f12511232797fd9f7e0cfaad8454a52cfa772e7fba71c34dd36c8a2616c04181d7668e2220dddfc85601a7fe4c8a03e04fb8
 
-outputs.1.filename=liquibase-percona-4.3.5-sources.jar
-outputs.1.length=38961
-outputs.1.checksums.sha512=5552014c4ada3ad12cadb86cea237ed2117deb66aa5edbe82c1243e8963cdf87338f958c670358d1317ec716eac25cc56d96fb4905b32e16b6b774e970aee490
+outputs.1.filename=liquibase-percona-4.4.0-sources.jar
+outputs.1.length=39595
+outputs.1.checksums.sha512=fa7eda5a48240d7ba0e12b6a9eb9d748b9652252e25d5e7def2f4d58db28773f9efc48226ebb97c457b6ba105a57935aedc9d8831bf97d3127c1e37bec1ccf14

@@ -1,6 +1,6 @@
 groupId=org.liquibase.ext
 artifactId=liquibase-percona
-version=4.3.5
+version=4.4.0
 
 display=${groupId}:${artifactId}
 
@@ -14,5 +14,5 @@ newline=lf
 command="mvn clean package -Prelease -DskipTests -Dmaven.javadoc.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-#diffoscope="https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/$(echo ${groupId} | tr '.' '/')/${artifactId}/${artifactId}-${version}.diffoscope"
+#diffoscope=target/${artifactId}-${version}.diffoscope"
 issue=
