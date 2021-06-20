@@ -18,4 +18,4 @@ done ) | tee ${diffoscope_file}
 sed -i 's/\x1b\[[0-9;]*m//g' ${diffoscope_file}
 
 echo -e "build diffoscope file saved to \033[1m${diffoscope_file}\033[0m"
-df -h ${diffoscope_file}
+du -h ${diffoscope_file}
