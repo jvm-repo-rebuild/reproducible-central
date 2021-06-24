@@ -1,0 +1,15 @@
+groupId=io.wcm
+artifactId=io.wcm.caconfig.editor.parent
+display=${groupId}-caconfig:editor
+version=1.7.2
+
+gitRepo=https://github.com/wcm-io/wcm-io-caconfig.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=crlf-nogit
+
+command="mvn -f editor/pom.xml -Pio.wcm clean package -DskipTests -Dmaven.javadoc.skip -Dmaven.buildNumber.skip -DbuildNumber=5d333467 -Dtimestamp=2020-06-28T10:26:08+02:00"
+
+buildinfo=editor/target/${artifactId}-${version}.buildinfo

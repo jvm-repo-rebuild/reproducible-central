@@ -1,0 +1,36 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Script Interpreter
+group-id=org.apache.maven.shared
+artifact-id=maven-script-interpreter
+version=1.3
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-script-interpreter.git
+source.scm.tag=maven-script-interpreter-1.3
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=15.0.1
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=maven-script-interpreter-1.3.jar
+outputs.0.length=22736
+outputs.0.checksums.sha512=26de90a9c7ab8710df0a3d88c771832b5647b8e09e786ecb9f316bba148f3cef66449f4ce2fc4216b52b962f20da4a7d9ad3b0c4611216ec8f30263c7288d0c1
+
+outputs.1.filename=maven-script-interpreter-1.3-source-release.zip
+outputs.1.length=51952
+outputs.1.checksums.sha512=bb5c636efa28bd0e66049577aebff213156c85d87b8a1dcd0f1ea5bd17e12002ec2e5e19fb70303149c18eaf846869e126015e9235a9fd759874b5e332b47150
+
+outputs.2.filename=maven-script-interpreter-1.3-sources.jar
+outputs.2.length=22311
+outputs.2.checksums.sha512=c7a2892169e6dfc6a3778b68edc00eae7137ce244cf8ef3b7f8b699d14ba1509c1185b653da0df055804c454655a6634aefcb630b614da24cd40ba801adc396d

@@ -1,0 +1,14 @@
+groupId=io.wcm.tooling.commons
+artifactId=io.wcm.tooling.commons.crx-packmgr-helper
+display=io.wcm-tooling:crx-packmgr-helper
+version=1.7.4
+
+gitRepo=https://github.com/wcm-io/wcm-io-tooling.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=crlf-nogit
+
+command="mvn -f commons/crx-packmgr-helper/pom.xml -Pio.wcm clean package -DskipTests -Dmaven.javadoc.skip -Dmaven.buildNumber.skip -DbuildNumber=8a867d74 -Dtimestamp=2020-09-15T22:24:02+02:00"
+buildinfo=commons/crx-packmgr-helper/target/${artifactId}-${version}.buildinfo

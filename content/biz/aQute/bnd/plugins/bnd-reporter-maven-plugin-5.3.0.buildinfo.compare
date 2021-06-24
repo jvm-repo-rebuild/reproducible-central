@@ -1,0 +1,5 @@
+version=5.3.0
+ok=8
+ko=0
+okFiles="bnd-maven-plugin-5.3.0.jar bnd-indexer-maven-plugin-5.3.0.jar bnd-baseline-maven-plugin-5.3.0.jar bnd-export-maven-plugin-5.3.0.jar bnd-testing-maven-plugin-5.3.0.jar bnd-resolver-maven-plugin-5.3.0.jar bnd-run-maven-plugin-5.3.0.jar bnd-reporter-maven-plugin-5.3.0.jar"
+koFiles=""

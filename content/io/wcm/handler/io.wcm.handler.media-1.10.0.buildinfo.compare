@@ -1,0 +1,5 @@
+version=1.10.0
+ok=2
+ko=0
+okFiles="io.wcm.handler.media-1.10.0.jar io.wcm.handler.media-1.10.0-sources.jar"
+koFiles=""

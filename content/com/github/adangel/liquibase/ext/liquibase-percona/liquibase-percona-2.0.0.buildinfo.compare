@@ -1,0 +1,5 @@
+version=2.0.0
+ok=2
+ko=0
+okFiles="liquibase-percona-2.0.0.jar liquibase-percona-2.0.0-sources.jar"
+koFiles=""

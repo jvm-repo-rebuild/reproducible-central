@@ -1,0 +1,16 @@
+groupId=io.dropwizard.metrics
+artifactId=metrics-parent
+display=${groupId}:metrics
+version=4.1.16
+
+gitRepo=https://github.com/dropwizard/metrics.git
+gitTag=v${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn clean package -DskipTests"
+buildinfo=metrics-servlets/target/metrics-servlets-${version}.buildinfo
+
+issue=

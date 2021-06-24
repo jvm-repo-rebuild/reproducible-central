@@ -1,0 +1,85 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven Release
+group-id=org.apache.maven.release
+artifact-id=maven-release
+version=3.0.0-M4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-release.git
+source.scm.tag=maven-release-3.0.0-M4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_275
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.aggregate.artifact-id=maven-release-plugin
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.maven.release:maven-release
+
+outputs.0.0.filename=maven-release-3.0.0-M4-site.xml
+outputs.0.0.length=1472
+outputs.0.0.checksums.sha512=7ac0ecf84dcba3b0bebff9cc527b05d38cd21f0500b9011c7fc8b8b2d3527df2bf30b599c212e53308400699f58f19915daeafb76e4500f9fc3447926e71e336
+
+outputs.0.1.filename=maven-release-3.0.0-M4-source-release.zip
+outputs.0.1.length=1754686
+outputs.0.1.checksums.sha512=49ec8c495b11696671e83ccdeee3408223d0aef3cfd5f48e2a4afc66e225f550069a060702205152e3e59238f9db64efd85ac626b25b05596be3ef422b991895
+
+outputs.1.coordinates=org.apache.maven.release:maven-release-api
+
+outputs.1.0.filename=maven-release-api-3.0.0-M4.jar
+outputs.1.0.length=26279
+outputs.1.0.checksums.sha512=9db6bc1918a288484af8ba40021d3c0a37e01730cd12837e596c4f044b031a9e4ee813593528a5b1592518b32f241448edc05786a84025b94726d892eb7a60f3
+
+outputs.1.1.filename=maven-release-api-3.0.0-M4-sources.jar
+outputs.1.1.length=33984
+outputs.1.1.checksums.sha512=bdec2944cf72465239a6779a1d5d5234eb26213c733fd799a857f9719c4880641c3415a0391f3a28b63bc2d8f51ff5fdc0b03ad469bbdc99b73b6cd16e648e94
+
+outputs.2.coordinates=org.apache.maven.release:maven-release-manager
+
+outputs.2.0.filename=maven-release-manager-3.0.0-M4.jar
+outputs.2.0.length=232631
+outputs.2.0.checksums.sha512=e50740d38e0e0719f9faa64801cac623cb8447f5775b2ee0ecabff6afc7bebccbb5ac032fc13950dd268a903758a15836e6126509ce6fb4c42bad7a6ed6a911c
+
+outputs.2.1.filename=maven-release-manager-3.0.0-M4-sources.jar
+outputs.2.1.length=196267
+outputs.2.1.checksums.sha512=8f83c1a9d18b48f87dce9973bac99aa610092e76e13d0c5c5a7fecd3b658b63f890267a1c49fdb25166b284a6075f575d122e4d9c2b7042840a3678cc8a4fa64
+
+outputs.3.coordinates=org.apache.maven.release:maven-release-oddeven-policy
+
+outputs.3.0.filename=maven-release-oddeven-policy-3.0.0-M4.jar
+outputs.3.0.length=11415
+outputs.3.0.checksums.sha512=507c6d59152866c3adde5a230a2864fb9e089e2bd5586535d59eb67158f50fc72fa5d4ccb31fd685196f29d378ee9879cea06ed7f66bfaad9a0c1dbaac43e503
+
+outputs.3.1.filename=maven-release-oddeven-policy-3.0.0-M4-sources.jar
+outputs.3.1.length=11321
+outputs.3.1.checksums.sha512=cc7d14490d8857fe8695d737f07c50ab7fa8a608fde76031dab8301d630a5720b97a875cd83334fcaf4e2134fef72cb51b6b1ec96fcc63f0b395175c47006d5e
+
+outputs.4.coordinates=org.apache.maven.release:maven-release-semver-policy
+
+outputs.4.0.filename=maven-release-semver-policy-3.0.0-M4.jar
+outputs.4.0.length=10695
+outputs.4.0.checksums.sha512=8cf5a8aeaaae511e618abe01b6af32e404b3a5b1ddcf0078f0b424a27c2f09886eda19e4e9e4f39806881966c250b34c2027a23959121ca14f643bb7c5700637
+
+outputs.4.1.filename=maven-release-semver-policy-3.0.0-M4-sources.jar
+outputs.4.1.length=10031
+outputs.4.1.checksums.sha512=ce74f9eca27055a9c27e05359cf3924881fe92739cc876ce5a9dfba2e3933d0d1fd732b0ad2837fea529d2e541a2c595b4781f7875694f9c52d7a7cef9ccccab
+
+outputs.5.coordinates=org.apache.maven.plugins:maven-release-plugin
+
+outputs.5.0.filename=maven-release-plugin-3.0.0-M4.jar
+outputs.5.0.length=59944
+outputs.5.0.checksums.sha512=24819b4e631c82b290b3452627c4994cdd7c2ce92275a3f5e7cacf21f80d9be10e7712649e18e563bf1a703955122df37c308e9a81d99264ce903632814ceef9
+
+outputs.5.1.filename=maven-release-plugin-3.0.0-M4-sources.jar
+outputs.5.1.length=38172
+outputs.5.1.checksums.sha512=ac0559c7a303d00fd2d3aba6035daab721d645e51db7bbda56790fef08575211b2f6c384d875edcabe70a45dbcd507aee154df8ea923779e110fa0845ae87bc7

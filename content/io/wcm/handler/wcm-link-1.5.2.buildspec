@@ -1,0 +1,15 @@
+groupId=io.wcm
+artifactId=io.wcm.handler.link
+display=${groupId}-handler:link
+version=1.5.2
+
+gitRepo=https://github.com/wcm-io/wcm-io-handler.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=crlf-nogit
+
+command="mvn -f link/pom.xml -Pio.wcm clean package -DskipTests -Dmaven.buildNumber.skip -DbuildNumber=744586cf -Dtimestamp=2020-06-28T10:51:49+02:00"
+
+buildinfo=link/target/${artifactId}-${version}.buildinfo

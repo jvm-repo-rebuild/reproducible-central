@@ -20,5 +20,79 @@
         </pluginRepository>
       </pluginRepositories>
     </profile>
+
+    <profile>
+      <id>io.wcm</id>
+      <!-- see https://wcm.io/maven.html -->
+      <repositories>
+        <repository>
+          <id>adobe-public-releases</id>
+          <name>Adobe Public Repository</name>
+          <url>https://repo.adobe.com/nexus/content/groups/public/</url>
+          <releases>
+            <enabled>true</enabled>
+            <updatePolicy>never</updatePolicy>
+          </releases>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+        </repository>
+        <repository>
+          <id>maven-nodejs-proxy</id>
+          <url>https://maven-nodejs-proxy.pvtool.org</url>
+          <layout>default</layout>
+          <releases>
+            <enabled>true</enabled>
+            <updatePolicy>never</updatePolicy>
+          </releases>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+        </repository>
+      </repositories>
+      
+      <pluginRepositories>
+        <pluginRepository>
+          <id>adobe-public-releases</id>
+          <name>Adobe Public Repository</name>
+          <url>https://repo.adobe.com/nexus/content/groups/public/</url>
+          <releases>
+            <enabled>true</enabled>
+            <updatePolicy>never</updatePolicy>
+          </releases>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+        </pluginRepository>
+      </pluginRepositories>
+    </profile>
   </profiles>
+
+  <mirrors>
+    <mirror>
+      <id>central</id>
+      <mirrorOf>central</mirrorOf>
+      <url>https://repo.maven.apache.org/maven2</url>
+    </mirror>
+    <mirror>
+      <id>jitpack.io</id>
+      <mirrorOf>jitpack.io</mirrorOf>
+      <url>https://jitpack.io</url>
+    </mirror>
+    <mirror>
+      <id>adobe-public-releases</id>
+      <mirrorOf>adobe-public-releases</mirrorOf>
+      <url>https://repo.adobe.com/nexus/content/groups/public/</url>
+    </mirror>
+    <mirror>
+      <id>maven-nodejs-proxy</id>
+      <mirrorOf>maven-nodejs-proxy</mirrorOf>
+      <url>https://maven-nodejs-proxy.pvtool.org</url>
+    </mirror>
+    <mirror>
+      <id>default</id>
+      <mirrorOf>*</mirrorOf>
+      <url>https://repo.maven.apache.org/maven2</url>
+    </mirror>
+  </mirrors>
 </settings>

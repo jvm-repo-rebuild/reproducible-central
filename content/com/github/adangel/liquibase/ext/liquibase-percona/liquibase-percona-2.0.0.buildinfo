@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Liquibase Percona Extension
+group-id=com.github.adangel.liquibase.ext
+artifact-id=liquibase-percona
+version=2.0.0
+
+# source information
+source.scm.uri=scm:git:http://github.com/liquibase/liquibase-percona.git
+source.scm.tag=liquibase-percona-2.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.9.1
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=liquibase-percona-2.0.0.jar
+outputs.0.length=48479
+outputs.0.checksums.sha512=1d9b1ca4f8f301f7576df8dfaef26d52ee9a713eb843bceac73cde7c4f7aad314b2e2fa62eabb9a4962d9957b209d2df35ef05c200b771fe0a667b3471e50ef7
+
+outputs.1.filename=liquibase-percona-2.0.0-sources.jar
+outputs.1.length=37920
+outputs.1.checksums.sha512=0ff03fd2c8297704ae42df680a5005713ae0bf5ac9f73a0ec6cfe0668ffddf87d8048fdfe683f6fbe9ec85d97a1f871ae3fa3c2c112b31e7d14e337d767b1f9c

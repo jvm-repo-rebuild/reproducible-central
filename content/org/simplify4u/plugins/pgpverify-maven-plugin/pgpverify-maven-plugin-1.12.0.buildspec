@@ -1,0 +1,26 @@
+# see instructions https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/BUILDSPEC.md
+
+# Central Repository coordinates for the Reference release
+groupId=org.simplify4u.plugins
+artifactId=pgpverify-maven-plugin
+version=1.12.0
+
+display=${groupId}:${artifactId}
+
+# Source code
+gitRepo=git@github.com:s4u/pgpverify-maven-plugin.git
+gitTag=v${version}
+
+# Rebuild environment prerequisites
+tool=mvn
+jdk=8
+newline=lf
+
+# Rebuild command
+command="mvn clean package -Dmaven.test.skip"
+
+# Location of the buildinfo file generated during rebuild to record output fingerprints
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+# if the release is finally not reproducible, link to an issue tracker entry if one was created
+issue=

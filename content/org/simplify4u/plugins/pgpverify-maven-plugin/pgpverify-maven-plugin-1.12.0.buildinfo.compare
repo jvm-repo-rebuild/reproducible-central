@@ -1,0 +1,5 @@
+version=1.12.0
+ok=2
+ko=0
+okFiles="pgpverify-maven-plugin-1.12.0.jar pgpverify-maven-plugin-1.12.0-sources.jar"
+koFiles=""

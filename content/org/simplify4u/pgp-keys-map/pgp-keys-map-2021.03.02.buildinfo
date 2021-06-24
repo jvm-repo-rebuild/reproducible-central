@@ -1,0 +1,41 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=PGP keys map to maven artifacts
+group-id=org.simplify4u
+artifact-id=pgp-keys-map
+version=2021.03.02
+
+# source information
+source.scm.uri=scm:git:git@github.com:s4u/pgp-keys-map.git
+source.scm.tag=v2021.03.02
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_275
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.aggregate.artifact-id=pgp-keys-map-test2
+
+# aggregated output
+
+outputs.0.coordinates=org.simplify4u:pgp-keys-map
+
+outputs.0.0.filename=pgp-keys-map-2021.03.02.jar
+outputs.0.0.length=9022
+outputs.0.0.checksums.sha512=4c872db046b7061bdac5c2a1070d3ce0c1e5a3b7a1fcb2ddb8b0da6adae05997ab058852991059e110bf14e749c1eb53636c3c446bbe8acdad7a71d3a1195e74
+
+outputs.1.coordinates=org.simplify4u:org-apache-maven-plugins-test
+
+outputs.2.coordinates=org.simplify4u:org-codehaus-mojo-test
+
+outputs.3.coordinates=org.simplify4u:org-springframework-test
+
+outputs.4.coordinates=org.simplify4u:pgp-keys-map-test1
+
+outputs.5.coordinates=org.simplify4u:pgp-keys-map-test2

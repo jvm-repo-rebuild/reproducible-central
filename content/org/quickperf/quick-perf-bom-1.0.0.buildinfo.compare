@@ -1,0 +1,5 @@
+version=1.0.0
+ok=15
+ko=0
+okFiles="quick-perf-core-1.0.0.jar quick-perf-jvm-core-1.0.0.jar quick-perf-jvm-annotations-1.0.0.jar quick-perf-jfr-annotations-1.0.0.jar quick-perf-sql-annotations-1.0.0.jar quick-perf-junit4-1.0.0.jar quick-perf-junit5-1.0.0.jar quick-perf-testng-1.0.0.jar quick-perf-sql-spring4-1.0.0.jar quick-perf-sql-spring5-1.0.0.jar quick-perf-junit4-spring3-1.0.0.jar quick-perf-junit4-spring4-1.0.0.jar quick-perf-junit4-spring5-1.0.0.jar quick-perf-springboot1-sql-starter-1.0.0.jar quick-perf-springboot2-sql-starter-1.0.0.jar"
+koFiles=""

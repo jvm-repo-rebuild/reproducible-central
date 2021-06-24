@@ -1,0 +1,5 @@
+version=2.3.2
+ok=2
+ko=0
+okFiles="jansi-2.3.2.jar jansi-2.3.2-sources.jar"
+koFiles=""

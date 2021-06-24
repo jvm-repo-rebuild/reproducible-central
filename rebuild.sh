@@ -6,26 +6,31 @@ fatal()
   exit 1
 }
 
+display()
+{
+  echo -e "- $1: \033[1m${!1}\033[0m"
+}
+
 buildspec=$1
 if [ -z "${buildspec}" ]
 then
   fatal "usage: buildspec"
 fi
 
-echo "Rebuilding from spec ${buildspec}"
+echo -e "Rebuilding from spec \033[1m${buildspec}\033[0m"
 
 . ${buildspec} || fatal "could not source ${buildspec}"
 
-echo "- groupId: ${groupId}"
-echo "- artifactId: ${artifactId}"
-echo "- version: ${version}"
-echo "- gitRepo: ${gitRepo}"
-echo "- gitTag: ${gitTag}"
-echo "- tool: ${tool}"
-echo "- jdk: ${jdk}"
-echo "- newline: ${newline}"
-echo "- command: ${command}"
-echo "- buildinfo: ${buildinfo}"
+display "groupId"
+display "artifactId"
+display "version"
+display "gitRepo"
+display "gitTag"
+display "tool"
+display "jdk"
+display "newline"
+display "command"
+display "buildinfo"
 
 base="$PWD"
 
@@ -37,26 +42,48 @@ pushd `dirname ${buildspec}` >/dev/null || fatal "could not move into ${buildspe
 cd buildcache
 [ -d ${artifactId} ] || git clone ${gitRepo} ${artifactId} || fatal "failed to clone ${artifactId}"
 cd ${artifactId}
+echo -e "\033[2m$(pwd) \033[1mgit fetch\033[0m"
 git fetch || fatal "failed to git fetch"
-git checkout ${gitTag} || fatal "failed to git checkout ${gitTag}"
+echo -e "\033[2m$(pwd) \033[1mgit git checkout -f ${gitTag}\033[0m"
+git checkout -f ${gitTag} || fatal "failed to git checkout ${gitTag}"
 if [ "${newline}" == "crlf" ]
 then
   echo "converting newlines to crlf"
-  git ls-files --eol | grep w/lf | cut -c 40- | xargs -d '\n' unix2dos 2> /dev/null
+  xargs="xargs"
+  set -e
+  if [ "$(uname -s)" ==  "Darwin" ]
+  then
+    command -v gxargs >/dev/null 2>&1 || { echo "require GNU xargs: brew install findutils.  Aborting."; exit 1; }
+    xargs="gxargs"
+  fi
+  git ls-files --eol | grep w/lf | cut -c 40- | ${xargs} -d '\n' unix2dos 2> /dev/null
+  # re-run without hiding output to show if there are issues
+  git ls-files --eol | grep w/lf | cut -c 40- | ${xargs} -d '\n' unix2dos
 fi
 
-pwd
+echo -e "\033[1m$(pwd)\033[0m"
 
 mvnBuildDocker() {
-  local mvnCommand mvnImage
+  local mvnCommand mvnImage crlfDocker
   mvnCommand="$1"
-  # select Docker image to match required JDK version
+  crlfDocker="no"
+  # select Docker image to match required JDK version: https://hub.docker.com/_/maven
   case ${jdk} in
     6 | 7)
       mvnImage=maven:3.6.1-jdk-${jdk}-alpine
+      crlfDocker="yes"
+      ;;
+    8)
+      mvnImage=maven:3.6.3-jdk-${jdk}-slim
       ;;
     9)
       mvnImage=maven:3-jdk-${jdk}-slim
+      ;;
+    14)
+      mvnImage=maven:3.6.3-jdk-${jdk}
+      ;;
+    15 | 16 | 17)
+      mvnImage=maven:3.6.3-openjdk-${jdk}-slim
       ;;
     *)
       mvnImage=maven:3.6.3-jdk-${jdk}-slim
@@ -72,8 +99,17 @@ mvnBuildDocker() {
   local mvn_docker_params="-Duser.home=/var/maven"
   if [[ "${newline}" == crlf* ]]
   then
-    ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params} -Dline.separator=$'\r\n'
+    if [[ "${crlfDocker}" == "yes" ]]
+    then
+      echo -e "\033[2m${docker_command} ${mvnImage} \033[1m${mvnCommand} ${mvn_docker_params} -Dline.separator=\$'\\\\r\\\\n'\033[0m"
+      ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params} -Dline.separator=$'\r\n'
+    else
+      mvnCommand="$(echo "${mvnCommand}" | sed "s_^mvn _/var/maven/.m2/mvncrlf _")"
+      echo -e "\033[2m${docker_command} ${mvnImage} \033[1m${mvnCommand} ${mvn_docker_params}\033[0m"
+      ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params}
+    fi
   else
+    echo -e "\033[2m${docker_command} ${mvnImage} \033[1m${mvnCommand} ${mvn_docker_params}\033[0m"
     ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params}
   fi
   # copy built files from app-data container to filesystem
@@ -98,7 +134,7 @@ mvnBuildLocal() {
 # rebuild with Maven tool (tool=mvn)
 rebuildToolMvn() {
   # the effective rebuild command, adding artifact:buildinfo goal to compare with central content
-  local mvn_rebuild="${command} -V -e artifact:buildinfo -Dreference.repo=central -Dreference.compare.save"
+  local mvn_rebuild="${command} -V -e artifact:buildinfo -Dreference.repo=central -Dreference.compare.save -Dbuildinfo.reproducible"
 
   # by default, build with Docker
   # TODO: on parameter, use instead mvnBuildLocal after selecting JDK
@@ -107,8 +143,52 @@ rebuildToolMvn() {
   mvnBuildDocker "${mvn_rebuild}" || fatal "failed to build"
 
   dos2unix ${buildinfo}* || fatal "failed to convert buildinfo newlines"
+  local sed="sed"
+  if [ "$(uname -s)" ==  "Darwin" ]
+  then
+    sed="gsed"
+  fi
+  ${sed} -i 's/\(reference_[^=]*\)=\([^"].*\)/\1="\2"/' ${buildinfo}*.compare # waiting for MARTIFACT-19
   cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts"
-  cat ${buildinfo}*.compare
+
+  echo
+  echo -e "rebuild from \033[1m${buildspec}\033[0m"
+  local compare=""
+  for f in ${buildinfo}*.compare
+  do
+    compare=$f
+    echo -e "  results in \033[1m$(dirname ${buildspec})/$(basename $f .buildinfo.compare).buildinfo\033[0m"
+    echo -e "compared to Central Repository \033[1m$(dirname ${buildspec})/$(basename $f)\033[0m:"
+  done
+  . ${buildinfo}*.compare
+  if [[ ${ko} > 0 ]]
+  then
+    echo -e "    ok=${ok}"
+    echo -e "    okFiles=\"${okFiles}\""
+    echo -e "    \033[31;1mko=${ko}\033[0m"
+    echo -e "    koFiles=\"${koFiles}\""
+    if [ -n "${reference_java_version}" ]
+    then
+      echo -e "    check .buildspec \033[1mjdk=${jdk}\033[0m vs reference \033[1mjava.version=${reference_java_version}\033[0m"
+    fi
+    if [ -n "${reference_os_name}" ]
+    then
+      echo -e "    check .buildspec \033[1mnewline=${newline}\033[0m vs reference \033[1mos.name=${reference_os_name}\033[0m (newline should be crlf if os.name is Windows, lf instead)"
+    fi
+    echo -e "build available in \033[1m$(dirname ${buildspec})/buildcache/${artifactId}\033[0m, where you can execute \033[36mdiffoscope\033[0m"
+    grep '# diffoscope ' ${buildinfo}*.compare
+#    echo -e "run \033[36mdiffoscope\033[0m as container with \033[1mdocker run --rm -t -w /mnt -v $(pwd):/mnt:ro registry.salsa.debian.org/reproducible-builds/diffoscope\033[0m"
+    echo -e "To see every differences between current rebuild and reference, run:"
+    echo -e "    \033[1m./build_diffoscope.sh $(dirname ${buildspec})/$(basename ${compare}) buildcache/${artifactId}\033[0m"
+  else
+    echo -e "    \033[32;1mok=${ok}\033[0m"
+    echo -e "    okFiles=\"${okFiles}\""
+  fi
+
+  if [[ ${buildspec} == wip/* ]]
+  then
+    echo -e "\033[93mWork In Progress\033[0m: once work ready to publish, move to target directory with \033[1mdir=content/$(echo ${groupId} | tr '.' '/')/${artifactId} ; mkdir -p \${dir} ; mv ${buildspec} wip/$(basename ${buildinfo})* \${dir} \033[0m"
+  fi
 }
 
 # rebuild with SBT tool (tool=sbt)
@@ -149,6 +229,6 @@ case ${tool} in
     fatal "build tool not yet supported: ${tool}"
 esac
 
-git reset --hard
+#git reset --hard
 
 popd > /dev/null

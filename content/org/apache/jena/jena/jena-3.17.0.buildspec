@@ -1,0 +1,16 @@
+groupId=org.apache.jena
+artifactId=jena
+display=${groupId}:${artifactId}
+version=3.17.0
+
+gitRepo=https://github.com/apache/maven-${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuild.time.xsd=2020-11-25T19:40:23+0000"
+buildinfo=apache-jena-osgi/jena-osgi-features/target/jena-osgi-features-${version}.buildinfo
+
+issue=

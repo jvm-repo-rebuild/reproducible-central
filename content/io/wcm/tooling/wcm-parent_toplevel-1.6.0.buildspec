@@ -1,0 +1,14 @@
+groupId=io.wcm
+artifactId=io.wcm.parent_toplevel
+display=${groupId}-tooling:parent_toplevel
+version=1.6.0
+
+gitRepo=https://github.com/wcm-io/wcm-io-tooling.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn -f parent_toplevel/pom.xml -Pio.wcm clean package -DskipTests -Dmaven.buildNumber.skip"
+buildinfo=parent_toplevel/target/${artifactId}-${version}.buildinfo

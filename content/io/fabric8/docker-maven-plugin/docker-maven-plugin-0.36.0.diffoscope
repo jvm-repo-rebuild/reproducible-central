@@ -1,0 +1,118 @@
+target/reference/docker-maven-plugin-0.36.0.jar target/docker-maven-plugin-0.36.0.jar
+--- target/reference/docker-maven-plugin-0.36.0.jar
++++ target/docker-maven-plugin-0.36.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 690857 bytes, number of entries: 431
+│ +Zip file size: 690877 bytes, number of entries: 431
+│  -rw-r--r--  2.0 unx       81 b- defN 20-Nov-14 11:57 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 11:57 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 11:57 META-INF/doc/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 11:57 META-INF/doc/dmp/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 11:57 META-INF/doc/dmp/inc/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 11:57 META-INF/doc/dmp/inc/build/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 11:57 META-INF/doc/dmp/inc/external/
+│ @@ -48,15 +48,15 @@
+│  -rw-r--r--  2.0 unx     1319 b- defN 20-Nov-14 11:57 META-INF/doc/dmp/inc/_docker-logs.adoc
+│  -rw-r--r--  2.0 unx      103 b- defN 20-Nov-14 11:57 META-INF/doc/dmp/inc/_docker-push.adoc
+│  -rw-r--r--  2.0 unx     1915 b- defN 20-Nov-14 11:57 META-INF/doc/dmp/inc/_docker-remove.adoc
+│  -rw-r--r--  2.0 unx     2001 b- defN 20-Nov-14 11:57 META-INF/doc/dmp/inc/_docker-save.adoc
+│  -rw-r--r--  2.0 unx     1822 b- defN 20-Nov-14 11:57 META-INF/doc/dmp/inc/_docker-source.adoc
+│  -rw-r--r--  2.0 unx      814 b- defN 20-Nov-14 11:57 META-INF/doc/dmp/inc/_docker-start.adoc
+│  -rw-r--r--  2.0 unx     3310 b- defN 20-Nov-14 11:57 META-INF/doc/dmp/inc/_docker-stop.adoc
+│ --rw-r--r--  2.0 unx     1518 b- defN 20-Nov-14 11:57 META-INF/doc/dmp/inc/_docker-tag.adoc
+│ +-rw-r--r--  2.0 unx     1502 b- defN 20-Nov-14 11:57 META-INF/doc/dmp/inc/_docker-tag.adoc
+│  -rw-r--r--  2.0 unx     1788 b- defN 20-Nov-14 11:57 META-INF/doc/dmp/inc/_docker-volume-create.adoc
+│  -rw-r--r--  2.0 unx      734 b- defN 20-Nov-14 11:57 META-INF/doc/dmp/inc/_docker-volume-remove.adoc
+│  -rw-r--r--  2.0 unx      131 b- defN 20-Nov-14 11:57 META-INF/doc/dmp/inc/_docker-watch.adoc
+│  -rw-r--r--  2.0 unx     1126 b- defN 20-Nov-14 11:57 META-INF/doc/dmp/inc/_external-configuration.adoc
+│  -rw-r--r--  2.0 unx    11394 b- defN 20-Nov-14 11:57 META-INF/doc/dmp/inc/_global-configuration.adoc
+│  -rw-r--r--  2.0 unx     1370 b- defN 20-Nov-14 11:57 META-INF/doc/dmp/inc/_goals.adoc
+│  -rw-r--r--  2.0 unx     1035 b- defN 20-Nov-14 11:57 META-INF/doc/dmp/inc/_image-configuration.adoc
+│ @@ -109,15 +109,15 @@
+│  -rw-r--r--  2.0 unx     1602 b- defN 20-Nov-14 11:57 io/fabric8/maven/docker/AbstractDockerMojo$1.class
+│  -rw-r--r--  2.0 unx     1494 b- defN 20-Nov-14 11:57 io/fabric8/maven/docker/AbstractDockerMojo$2.class
+│  -rw-r--r--  2.0 unx    25576 b- defN 20-Nov-14 11:57 io/fabric8/maven/docker/AbstractDockerMojo.class
+│  -rw-r--r--  2.0 unx    11215 b- defN 20-Nov-14 11:57 io/fabric8/maven/docker/BuildMojo.class
+│  -rw-r--r--  2.0 unx     1385 b- defN 20-Nov-14 11:57 io/fabric8/maven/docker/CopyMojo$ContainerRemover.class
+│  -rw-r--r--  2.0 unx     1170 b- defN 20-Nov-14 11:57 io/fabric8/maven/docker/CopyMojo$FileRemover.class
+│  -rw-r--r--  2.0 unx    14387 b- defN 20-Nov-14 11:57 io/fabric8/maven/docker/CopyMojo.class
+│ --rw-r--r--  2.0 unx    11082 b- defN 20-Nov-14 11:57 io/fabric8/maven/docker/HelpMojo.class
+│ +-rw-r--r--  2.0 unx    11110 b- defN 20-Nov-14 11:57 io/fabric8/maven/docker/HelpMojo.class
+│  -rw-r--r--  2.0 unx     3663 b- defN 20-Nov-14 11:57 io/fabric8/maven/docker/LogsMojo.class
+│  -rw-r--r--  2.0 unx     3592 b- defN 20-Nov-14 11:57 io/fabric8/maven/docker/PushMojo.class
+│  -rw-r--r--  2.0 unx     7732 b- defN 20-Nov-14 11:57 io/fabric8/maven/docker/RemoveMojo.class
+│  -rw-r--r--  2.0 unx      841 b- defN 20-Nov-14 11:57 io/fabric8/maven/docker/RunMojo.class
+│  -rw-r--r--  2.0 unx     9757 b- defN 20-Nov-14 11:57 io/fabric8/maven/docker/SaveMojo.class
+│  -rw-r--r--  2.0 unx     5005 b- defN 20-Nov-14 11:57 io/fabric8/maven/docker/SourceMojo.class
+│  -rw-r--r--  2.0 unx      223 b- defN 20-Nov-14 11:57 io/fabric8/maven/docker/StartMojo$1.class
+│ @@ -426,8 +426,8 @@
+│  -rw-r--r--  2.0 unx     2457 b- defN 20-Nov-14 11:57 io/fabric8/maven/docker/wait/TcpPortChecker.class
+│  -rw-r--r--  2.0 unx      223 b- defN 20-Nov-14 11:57 io/fabric8/maven/docker/wait/WaitChecker.class
+│  -rw-r--r--  2.0 unx      582 b- defN 20-Nov-14 11:57 io/fabric8/maven/docker/wait/WaitTimeoutException.class
+│  -rw-r--r--  2.0 unx      273 b- defN 20-Nov-14 11:57 io/fabric8/maven/docker/wait/WaitUtil$Precondition.class
+│  -rw-r--r--  2.0 unx     4608 b- defN 20-Nov-14 11:57 io/fabric8/maven/docker/wait/WaitUtil.class
+│  -rw-r--r--  2.0 unx    19603 b- defN 20-Nov-14 11:57 META-INF/maven/io.fabric8/docker-maven-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 20-Nov-14 11:57 META-INF/maven/io.fabric8/docker-maven-plugin/pom.properties
+│ -431 files, 1899134 bytes uncompressed, 611697 bytes compressed:  67.8%
+│ +431 files, 1899146 bytes uncompressed, 611717 bytes compressed:  67.8%
+├── META-INF/doc/dmp/inc/_docker-tag.adoc
+│ @@ -5,18 +5,18 @@
+│  
+│  [source]
+│  ----
+│  ~/work/repos/docker-maven-plugin/samples/zero-config : $ mvn docker:tag -Ddocker.image.tag=0.9.0
+│  [INFO] Scanning for projects...
+│  [INFO]
+│  [INFO] -----------< io.fabric8.dmp.samples:demp-sample-zero-config >-----------
+│ -[INFO] Building demp-sample-zero-config 0.33-SNAPSHOT
+│ +[INFO] Building demp-sample-zero-config 
+│  [INFO] --------------------------------[ jar ]---------------------------------
+│  [INFO]
+│ -[INFO] --- docker-maven-plugin:0.33-SNAPSHOT:tag (default-cli) @ demp-sample-zero-config ---
+│ +[INFO] --- docker-maven-plugin:dmpversion:tag (default-cli) @ demp-sample-zero-config ---
+│  [INFO] DOCKER> Tagging image samples/demp-sample-zero-config:0.9.0 successful!
+│  [INFO] ------------------------------------------------------------------------
+│  [INFO] BUILD SUCCESS
+│  [INFO] ------------------------------------------------------------------------
+│  [INFO] Total time:  1.155 s
+│  [INFO] Finished at: 2020-06-27T14:05:33+05:30
+│  [INFO] ------------------------------------------------------------------------
+├── io/fabric8/maven/docker/HelpMojo.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,495 +1,495 @@
+│ │    Compiled from "HelpMojo.java"
+│ │  public class io.fabric8.maven.docker.HelpMojo extends org.apache.maven.plugin.AbstractMojo
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+│ │ -  this_class: #3                          // io/fabric8/maven/docker/HelpMojo
+│ │ -  super_class: #121                       // org/apache/maven/plugin/AbstractMojo
+│ │ +  this_class: #2                          // io/fabric8/maven/docker/HelpMojo
+│ │ +  super_class: #4                         // org/apache/maven/plugin/AbstractMojo
+│ │    interfaces: 0, fields: 6, methods: 16, attributes: 2
+│ │  Constant pool:
+│ │ -    #1 = Methodref          #121.#265     // org/apache/maven/plugin/AbstractMojo."<init>":()V
+│ │ -    #2 = Methodref          #3.#266       // io/fabric8/maven/docker/HelpMojo.getLog:()Lorg/apache/maven/plugin/logging/Log;
+│ │ -    #3 = Class              #267          // io/fabric8/maven/docker/HelpMojo
+│ │ -    #4 = String             #268          // load plugin-help.xml: /META-INF/maven/io.fabric8/docker-maven-plugin/plugin-help.xml
+│ │ -    #5 = InterfaceMethodref #269.#270     // org/apache/maven/plugin/logging/Log.debug:(Ljava/lang/CharSequence;)V
+│ │ -    #6 = Methodref          #271.#272     // java/lang/Object.getClass:()Ljava/lang/Class;
+│ │ -    #7 = String             #273          // /META-INF/maven/io.fabric8/docker-maven-plugin/plugin-help.xml
+│ │ +    #1 = Utf8               io/fabric8/maven/docker/HelpMojo
+│ │ +    #2 = Class              #1            // io/fabric8/maven/docker/HelpMojo
+│ │ +    #3 = Utf8               org/apache/maven/plugin/AbstractMojo
+│ │ +    #4 = Class              #3            // org/apache/maven/plugin/AbstractMojo
+│ │ +    #5 = Utf8               HelpMojo.java
+...
+│ │  }
+│ │  SourceFile: "HelpMojo.java"
+│ │  RuntimeInvisibleAnnotations:
+│ │ -  0: #259(#174=s#260,#261=Z#262,#263=Z#264)
+│ │ +  0: #6(#7=s#8,#9=Z#10,#11=Z#12)
+│ │      org.apache.maven.plugins.annotations.Mojo(
+│ │        name="help"
+│ │        requiresProject=false
+│ │        threadSafe=true
+│ │      )
+

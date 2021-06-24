@@ -1,0 +1,15 @@
+groupId=io.wcm
+artifactId=io.wcm.handler.richtext
+display=${groupId}-handler:richtext
+version=1.4.0
+
+gitRepo=https://github.com/wcm-io/wcm-io-handler.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=crlf-nogit
+
+command="mvn -f richtext/pom.xml -Pio.wcm clean package -DskipTests -Dmaven.javadoc.skip -Dmaven.buildNumber.skip -DbuildNumber=d7d3b604 -Dtimestamp=2020-10-08T18:01:58+02:00"
+
+buildinfo=richtext/target/${artifactId}-${version}.buildinfo

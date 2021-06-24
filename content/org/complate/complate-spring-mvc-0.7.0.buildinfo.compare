@@ -1,0 +1,5 @@
+version=0.7.0
+ok=2
+ko=0
+okFiles="complate-spring-mvc-0.7.0.jar complate-spring-mvc-0.7.0-sources.jar"
+koFiles=""

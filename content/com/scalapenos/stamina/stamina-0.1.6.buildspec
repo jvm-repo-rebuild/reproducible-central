@@ -1,0 +1,16 @@
+groupId=com.scalapenos
+artifactId=stamina_2.11
+display=${groupId}:stamina
+version=0.1.6
+
+gitRepo=https://github.com/scalapenos/stamina.git
+gitTag=v${version}
+
+tool=sbt
+jdk=8
+newline=lf
+
+command="sbt +reproducibleBuildsCertification"
+buildinfo="target/scala-*/stamina*_*-$version.buildinfo */target/scala-*/stamina*_*-$version.buildinfo"
+
+issue=

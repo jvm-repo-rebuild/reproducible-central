@@ -1,0 +1,5 @@
+version=1.0.6
+ok=3
+ko=1
+okFiles="plexus-languages-1.0.6-site.xml plexus-languages-1.0.6-source-release.zip plexus-java-1.0.6-sources.jar"
+koFiles="plexus-java-1.0.6.jar"

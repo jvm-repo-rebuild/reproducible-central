@@ -1,0 +1,16 @@
+groupId=io.liftwizard
+artifactId=liftwizard
+display=${groupId}:${artifactId}
+version=0.15.0
+
+gitRepo=https://github.com/motlin/${artifactId}.git
+gitTag=${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn -Pdeploy clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=liftwizard-utility/liftwizard-junit-rule-match-json/target/liftwizard-junit-rule-match-json-${version}.buildinfo
+
+issue=

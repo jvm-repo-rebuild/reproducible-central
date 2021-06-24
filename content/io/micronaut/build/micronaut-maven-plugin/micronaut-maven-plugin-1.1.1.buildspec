@@ -1,0 +1,16 @@
+groupId=io.micronaut.build
+artifactId=micronaut-maven-plugin
+display=${groupId}:${artifactId}
+version=1.1.1
+
+gitRepo=https://github.com/micronaut-projects/${artifactId}.git
+gitTag=8a387d356814f48bd8f201a184da37de075ef594
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=

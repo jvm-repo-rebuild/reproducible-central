@@ -1,0 +1,30 @@
+$ diffoscope target/reference/sign-maven-plugin-0.1.0.jar target/sign-maven-plugin-0.1.0.jar
+--- target/reference/sign-maven-plugin-0.1.0.jar
++++ target/sign-maven-plugin-0.1.0.jar
+├── zipinfo -v {}
+│ @@ -394,15 +394,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          2020 Dec 16 20:00:00
+│ -  32-bit CRC value (hex):                         8e28a34b
+│ +  32-bit CRC value (hex):                         76512b35
+│    compressed size:                                74 bytes
+│    uncompressed size:                              186 bytes
+│    length of filename:                             32 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/sisu/javax.inject.Named
+│┄ ordering differences only
+│ @@ -1,4 +1,4 @@
+│ -org.simplify4u.plugins.sign.openpgp.PGPSigner
+│ +org.simplify4u.plugins.sign.ArtifactSignerFactory
+│  org.simplify4u.plugins.sign.ArtifactSigner36
+│ +org.simplify4u.plugins.sign.openpgp.PGPSigner
+│  org.simplify4u.plugins.sign.ArtifactSigner40
+│ -org.simplify4u.plugins.sign.ArtifactSignerFactory

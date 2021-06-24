@@ -1,0 +1,28 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=MojoHaus Parent
+group-id=org.codehaus.mojo
+artifact-id=mojo-parent
+version=60
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/mojo-parent.git
+source.scm.tag=mojo-parent-60
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_275
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=mojo-parent-60-source-release.zip
+outputs.0.length=12135
+outputs.0.checksums.sha512=8b344549ff6fb0d5d664f08e720333d4a7371eb630d5f5082bfc8016038b47fc4140e699cf6d85d5ebcf613f9b990d8213a946ebbfc1725ed57787d21ff9e421

@@ -1,0 +1,118 @@
+$ diffoscope target/reference/wagon-maven-plugin-2.0.1.jar target/wagon-maven-plugin-2.0.1.jar
+--- target/reference/wagon-maven-plugin-2.0.1.jar
++++ target/wagon-maven-plugin-2.0.1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 59495 bytes, number of entries: 48
+│ +Zip file size: 59494 bytes, number of entries: 48
+│  -rw-r--r--  2.0 unx       82 b- defN 20-Dec-23 23:02 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-23 23:02 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-23 23:02 META-INF/m2e/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-23 23:02 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-23 23:02 META-INF/maven/org.codehaus.mojo/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-23 23:02 META-INF/maven/org.codehaus.mojo/wagon-maven-plugin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-23 23:02 META-INF/plexus/
+│ @@ -43,8 +43,8 @@
+│  -rw-r--r--  2.0 unx      587 b- defN 20-Dec-23 23:02 org/codehaus/mojo/wagon/shared/WagonDownload.class
+│  -rw-r--r--  2.0 unx      326 b- defN 20-Dec-23 23:02 org/codehaus/mojo/wagon/shared/WagonFactory.class
+│  -rw-r--r--  2.0 unx     2434 b- defN 20-Dec-23 23:02 org/codehaus/mojo/wagon/shared/WagonFileSet.class
+│  -rw-r--r--  2.0 unx      365 b- defN 20-Dec-23 23:02 org/codehaus/mojo/wagon/shared/WagonUpload.class
+│  -rw-r--r--  2.0 unx     1252 b- defN 20-Dec-23 23:02 org/codehaus/mojo/wagon/shared/WagonUtils.class
+│  -rw-r--r--  2.0 unx    10369 b- defN 20-Dec-23 23:02 META-INF/maven/org.codehaus.mojo/wagon-maven-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       70 b- defN 20-Dec-23 23:02 META-INF/maven/org.codehaus.mojo/wagon-maven-plugin/pom.properties
+│ -48 files, 189975 bytes uncompressed, 51863 bytes compressed:  72.7%
+│ +48 files, 189975 bytes uncompressed, 51862 bytes compressed:  72.7%
+├── META-INF/plexus/components.xml
+│ ├── META-INF/plexus/components.xml
+│ │ @@ -1,24 +1,11 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <component-set>
+│ │    <components>
+│ │      <component>
+│ │ -      <role>org.codehaus.mojo.wagon.shared.WagonUpload</role>
+│ │ -      <role-hint>default</role-hint>
+│ │ -      <implementation>org.codehaus.mojo.wagon.shared.DefaultWagonUpload</implementation>
+│ │ -      <description/>
+│ │ -      <isolated-realm>false</isolated-realm>
+│ │ -      <requirements>
+│ │ -        <requirement>
+│ │ -          <role>org.codehaus.plexus.archiver.manager.ArchiverManager</role>
+│ │ -          <field-name>archiverManager</field-name>
+│ │ -        </requirement>
+│ │ -      </requirements>
+│ │ -    </component>
+│ │ -    <component>
+│ │        <role>org.codehaus.mojo.wagon.shared.MavenRepoMerger</role>
+│ │        <role-hint>default</role-hint>
+│ │        <implementation>org.codehaus.mojo.wagon.shared.DefaultMavenRepoMerger</implementation>
+│ │        <description/>
+│ │        <isolated-realm>false</isolated-realm>
+│ │        <requirements>
+│ │          <requirement>
+│ │ @@ -28,21 +15,14 @@
+│ │          <requirement>
+│ │            <role>org.codehaus.mojo.wagon.shared.WagonUpload</role>
+│ │            <field-name>uploader</field-name>
+│ │          </requirement>
+│ │        </requirements>
+│ │      </component>
+│ │      <component>
+│ │ -      <role>org.codehaus.mojo.wagon.shared.WagonDownload</role>
+│ │ -      <role-hint>default</role-hint>
+│ │ -      <implementation>org.codehaus.mojo.wagon.shared.DefaultWagonDownload</implementation>
+│ │ -      <description/>
+│ │ -      <isolated-realm>false</isolated-realm>
+│ │ -    </component>
+│ │ -    <component>
+│ │        <role>org.codehaus.mojo.wagon.shared.WagonCopy</role>
+│ │        <role-hint>default</role-hint>
+│ │        <implementation>org.codehaus.mojo.wagon.shared.DefaultWagonCopy</implementation>
+│ │        <description/>
+│ │        <isolated-realm>false</isolated-realm>
+│ │        <requirements>
+│ │          <requirement>
+│ │ @@ -52,14 +32,21 @@
+│ │          <requirement>
+│ │            <role>org.codehaus.mojo.wagon.shared.WagonUpload</role>
+│ │            <field-name>uploader</field-name>
+│ │          </requirement>
+│ │        </requirements>
+│ │      </component>
+│ │      <component>
+│ │ +      <role>org.codehaus.mojo.wagon.shared.WagonDownload</role>
+│ │ +      <role-hint>default</role-hint>
+│ │ +      <implementation>org.codehaus.mojo.wagon.shared.DefaultWagonDownload</implementation>
+│ │ +      <description/>
+│ │ +      <isolated-realm>false</isolated-realm>
+│ │ +    </component>
+│ │ +    <component>
+│ │        <role>org.codehaus.mojo.wagon.shared.WagonFactory</role>
+│ │        <role-hint>default</role-hint>
+│ │        <implementation>org.codehaus.mojo.wagon.shared.DefaultWagonFactory</implementation>
+│ │        <description/>
+│ │        <isolated-realm>false</isolated-realm>
+│ │        <requirements>
+│ │          <requirement>
+│ │ @@ -74,9 +61,22 @@
+│ │          <requirement>
+│ │            <role>org.codehaus.plexus.component.configurator.ComponentConfigurator</role>
+│ │            <role-hint>map-oriented</role-hint>
+│ │            <field-name>mapComponentConfigurator</field-name>
+│ │          </requirement>
+│ │        </requirements>
+│ │      </component>
+│ │ +    <component>
+│ │ +      <role>org.codehaus.mojo.wagon.shared.WagonUpload</role>
+│ │ +      <role-hint>default</role-hint>
+│ │ +      <implementation>org.codehaus.mojo.wagon.shared.DefaultWagonUpload</implementation>
+│ │ +      <description/>
+│ │ +      <isolated-realm>false</isolated-realm>
+│ │ +      <requirements>
+│ │ +        <requirement>
+│ │ +          <role>org.codehaus.plexus.archiver.manager.ArchiverManager</role>
+│ │ +          <field-name>archiverManager</field-name>
+│ │ +        </requirement>
+│ │ +      </requirements>
+│ │ +    </component>
+│ │    </components>
+│ │  </component-set>

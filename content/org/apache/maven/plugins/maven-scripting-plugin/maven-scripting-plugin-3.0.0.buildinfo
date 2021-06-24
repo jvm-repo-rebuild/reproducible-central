@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Scripting Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-scripting-plugin
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-scripting-plugin.git
+source.scm.tag=maven-scripting-plugin-3.0.0
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_265
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=maven-scripting-plugin-3.0.0.jar
+outputs.0.length=23421
+outputs.0.checksums.sha512=e0a5df683044ee8e2277556d8696e1385c8137cfcd51013efe45f0bc23c9c62c3106cda86df23f3248af51fc46c3e456ea52d92e8603bf95258343184c7c4959
+
+outputs.1.filename=maven-scripting-plugin-3.0.0-source-release.zip
+outputs.1.length=33315
+outputs.1.checksums.sha512=d80f2d16bd47af60b23d20f205c2e985621e9b2ea2da99cc4f77afb0e95c2c28d4a0a465d74feb10d6ed2a28830fb40687f289737e542d2e0c239177781a9694
+
+outputs.2.filename=maven-scripting-plugin-3.0.0-sources.jar
+outputs.2.length=19000
+outputs.2.checksums.sha512=27823f137177a64001b5a5319e60d368ee7c9ef182126ff29ffcf4f3aaa8f9d33905d67f0f252f7912fb61749aba7e73d6c0e6ea9a22960e72400218edf5858c

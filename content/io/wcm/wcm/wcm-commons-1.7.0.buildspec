@@ -1,0 +1,14 @@
+groupId=io.wcm
+artifactId=io.wcm.wcm.commons
+display=${groupId}-WCM:commons
+version=1.7.0
+
+gitRepo=https://github.com/wcm-io/wcm-io-wcm.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=crlf-nogit
+
+command="mvn -f commons/pom.xml -Pio.wcm clean package -DskipTests -Dmaven.buildNumber.skip -DbuildNumber=4898ba27 -Dtimestamp=2020-07-10T20:51:40+02:00"
+buildinfo=commons/target/${artifactId}-${version}.buildinfo

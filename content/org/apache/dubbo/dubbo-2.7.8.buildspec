@@ -1,0 +1,16 @@
+groupId=org.apache.dubbo
+artifactId=dubbo
+display=${groupId}:${artifactId}
+version=2.7.8
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="./mvnw -Papache-release clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=dubbo-metadata/dubbo-metadata-processor/target/dubbo-metadata-processor-${version}.buildinfo
+
+issue=

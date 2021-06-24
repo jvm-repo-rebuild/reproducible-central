@@ -1,0 +1,5 @@
+version=1.6.2
+ok=1
+ko=3
+okFiles="io.wcm.handler.link-1.6.2.jar"
+koFiles="io.wcm.handler.link-1.6.2-sources.jar io.wcm.handler.link-1.6.2-content.zip io.wcm.handler.link-1.6.2-bundle.jar"

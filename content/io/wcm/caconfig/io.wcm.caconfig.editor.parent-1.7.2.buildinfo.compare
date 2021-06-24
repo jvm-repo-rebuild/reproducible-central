@@ -1,0 +1,5 @@
+version=1.7.2
+ok=0
+ko=3
+okFiles=""
+koFiles="io.wcm.caconfig.editor-1.7.2.jar io.wcm.caconfig.editor-1.7.2-sources.jar io.wcm.caconfig.editor.package-1.7.2.zip"

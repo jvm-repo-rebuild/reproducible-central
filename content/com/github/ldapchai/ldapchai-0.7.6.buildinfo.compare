@@ -1,0 +1,5 @@
+version=0.7.6
+ok=0
+ko=2
+okFiles=""
+koFiles="ldapchai-0.7.6.jar ldapchai-0.7.6-sources.jar"

@@ -1,0 +1,5 @@
+version=1.6.2
+ok=2
+ko=0
+okFiles="antisamy-1.6.2.jar antisamy-1.6.2-sources.jar"
+koFiles=""

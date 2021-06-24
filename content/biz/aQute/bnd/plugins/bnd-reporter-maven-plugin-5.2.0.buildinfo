@@ -1,0 +1,74 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=biz.aQute.bnd:bnd-plugin-parent
+group-id=biz.aQute.bnd
+artifact-id=bnd-plugin-parent
+version=5.2.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/bndtools/bnd.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_262
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# aggregated output
+
+outputs.0.coordinates=biz.aQute.bnd:bnd-plugin-parent
+
+outputs.1.coordinates=biz.aQute.bnd:bnd-maven-plugin
+
+outputs.1.0.filename=bnd-maven-plugin-5.2.0.jar
+outputs.1.0.length=23856
+outputs.1.0.checksums.sha512=b469d20953dde63042bfd9acfc2f044c0b4e9defae088fa663a361abbc3a48e6bdf8a45dae8c2377f029f4e46a0e5cfc029ff6ba1219ebe36c79b68b2c77dc26
+
+outputs.2.coordinates=biz.aQute.bnd:bnd-indexer-maven-plugin
+
+outputs.2.0.filename=bnd-indexer-maven-plugin-5.2.0.jar
+outputs.2.0.length=19568
+outputs.2.0.checksums.sha512=1f61253e50888eac20039af2436b9483478f1c69b9ee3dec2df4441af12360d8b38c3938d22ff642eae03cc28858b0f2e288bc70a730983c2d32335178abd104
+
+outputs.3.coordinates=biz.aQute.bnd:bnd-baseline-maven-plugin
+
+outputs.3.0.filename=bnd-baseline-maven-plugin-5.2.0.jar
+outputs.3.0.length=12812
+outputs.3.0.checksums.sha512=86e84c4636ef7b6a3694e52d845623ef6beaacaef7f8e44bb318cb75687d8b7be2297b585c26bb0be06c457675ed5368c004b7fcb7d207f5afbe44230e57dcf6
+
+outputs.4.coordinates=biz.aQute.bnd:bnd-export-maven-plugin
+
+outputs.4.0.filename=bnd-export-maven-plugin-5.2.0.jar
+outputs.4.0.length=10567
+outputs.4.0.checksums.sha512=17343097e941a8240415c5a7914a73b750b45790cb349397fe0f82e2d0a3761500ab16a02c86fc9589b5417dbd8650959161293222b69818817ee6bc1eb10d08
+
+outputs.5.coordinates=biz.aQute.bnd:bnd-testing-maven-plugin
+
+outputs.5.0.filename=bnd-testing-maven-plugin-5.2.0.jar
+outputs.5.0.length=10647
+outputs.5.0.checksums.sha512=61d8bec485e4e6278848217cc46ff6aeefe2b74b04059e2702bd7f3859677106f14e4b2c917c8c49be50e97ba7446743d5eb187f3c1dfffbf7d72ef9d544780b
+
+outputs.6.coordinates=biz.aQute.bnd:bnd-resolver-maven-plugin
+
+outputs.6.0.filename=bnd-resolver-maven-plugin-5.2.0.jar
+outputs.6.0.length=8766
+outputs.6.0.checksums.sha512=f6c82c5ff9544ce0b7f5f8b385b2dcb8a7289a3444c2d9366a14764567f6bedf3e904beab51d3605cad8de0150ff5f19b7691f8f47b8a1c6b22ce1338c18ed28
+
+outputs.7.coordinates=biz.aQute.bnd:bnd-run-maven-plugin
+
+outputs.7.0.filename=bnd-run-maven-plugin-5.2.0.jar
+outputs.7.0.length=8813
+outputs.7.0.checksums.sha512=ae350d59f737ec1ed1df48dabc045c06f44b8800885135f38f84a710c459660402e6af96cb951d75aa1c0b0af029bd2d0b5ceb06745a2ad447e2c643e9a95166
+
+outputs.8.coordinates=biz.aQute.bnd:bnd-reporter-maven-plugin
+
+outputs.8.0.filename=bnd-reporter-maven-plugin-5.2.0.jar
+outputs.8.0.length=34801
+outputs.8.0.checksums.sha512=75cd08768fb21b29faf0be4ed66441e4db47cc3e347124aaf3fb8b3c659cb0c79c65d67ad4e37f5dc58a957f9fa93f9585079fcb26163a65bb3002dbee8657f4

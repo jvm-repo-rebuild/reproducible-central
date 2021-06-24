@@ -1,0 +1,16 @@
+groupId=biz.aQute.bnd
+artifactId=bnd-plugin-parent
+display=${groupId}:maven-plugins
+version=5.2.0
+
+gitRepo=https://github.com/bndtools/bnd
+gitTag=${version}.REL
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn -f maven/pom.xml clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=maven/bnd-reporter-maven-plugin/target/bnd-reporter-maven-plugin-${version}.buildinfo
+
+issue=

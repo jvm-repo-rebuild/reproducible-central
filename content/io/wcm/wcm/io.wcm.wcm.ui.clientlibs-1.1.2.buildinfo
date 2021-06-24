@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=WCM Clientlibs UI Extensions
+group-id=io.wcm
+artifact-id=io.wcm.wcm.ui.clientlibs
+version=1.1.2
+
+# source information
+source.scm.uri=scm:git:https://github.com/wcm-io/wcm-io-wcm.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=io.wcm.wcm.ui.clientlibs-1.1.2.jar
+outputs.0.length=12330
+outputs.0.checksums.sha512=c66a29e4d3ed77a062809e66a61fdde5785208926745e1d1ee6e6c7a2ea6334bd6770d527258636895a9eb052e95151376612271a583fcc925fb8f05ee682982
+
+outputs.1.filename=io.wcm.wcm.ui.clientlibs-1.1.2-sources.jar
+outputs.1.length=10180
+outputs.1.checksums.sha512=1cff02b8a9953713f8b02e8a7efd656f4286b77953515835f2c8cc28cd2fa55356897b6de47f6aa05c4ca646d4f0cbfe70b0c5c1a7d5d32713bec865cc58c73b

@@ -1,0 +1,36 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Fluido Skin
+group-id=org.apache.maven.skins
+artifact-id=maven-fluido-skin
+version=1.9
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-fluido-skin.git
+source.scm.tag=maven-fluido-skin-1.9
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=maven-fluido-skin-1.9.jar
+outputs.0.length=349235
+outputs.0.checksums.sha512=36a2c4cf4a9ac1c98b15f425a18d1ab4a36496635f63b8aaa29eb06c001f19d6bd52126e6e59656677e2c2fc6f5f026acdf33d19827d0af9f370a7ebe88b28e9
+
+outputs.1.filename=maven-fluido-skin-1.9-source-release.zip
+outputs.1.length=616165
+outputs.1.checksums.sha512=32430d431d0f578e448bd276326078a8b9acea6a5c028d1a68e0951c583ae3d3a13eaaa690446f9da593d4d3e59dae1ff843ca68f1e3b0b46596555a018810b8
+
+outputs.2.filename=maven-fluido-skin-1.9-sources.jar
+outputs.2.length=350462
+outputs.2.checksums.sha512=92a04fcdd410c9be4b9ea692f437aade4adc62fe110dc804e2ff25e08f9462bf72dff551ff267bb637911eeb51459d477324141adff8edf180aba45c06bf013c

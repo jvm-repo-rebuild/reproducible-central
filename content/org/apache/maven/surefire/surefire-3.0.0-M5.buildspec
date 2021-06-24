@@ -12,3 +12,5 @@ newline=crlf,no-auto.crlf
 
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=surefire-shared-utils/target/surefire-shared-utils-${version}.buildinfo
+
+issue=https://issues.apache.org/jira/browse/SUREFIRE-1802

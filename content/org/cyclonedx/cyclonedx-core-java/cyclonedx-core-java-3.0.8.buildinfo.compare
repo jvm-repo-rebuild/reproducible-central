@@ -1,0 +1,5 @@
+version=3.0.8
+ok=2
+ko=0
+okFiles="cyclonedx-core-java-3.0.8.jar cyclonedx-core-java-3.0.8-sources.jar"
+koFiles=""

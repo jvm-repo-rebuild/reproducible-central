@@ -1,0 +1,23 @@
+groupId=com.github.adangel.liquibase.ext
+artifactId=liquibase-percona
+version=2.0.0
+
+display=${groupId}:.-percona
+
+# Source code
+gitRepo=https://github.com/liquibase/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+# Rebuild environment prerequisites
+tool=mvn
+jdk=11
+newline=lf
+
+# Rebuild command
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+# Location of the buildinfo file generated during rebuild to record output fingerprints
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+# if the release is finally not reproducible, link to an issue tracker entry if one was created
+issue=

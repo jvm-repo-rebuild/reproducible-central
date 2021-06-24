@@ -1,0 +1,49 @@
+$ diffoscope target/reference/stringprep-2.0.jar stringprep/target/stringprep-2.0.jar
+--- target/reference/stringprep-2.0.jar
++++ stringprep/target/stringprep-2.0.jar
+├── zipinfo /dev/stdin
+│ @@ -13,9 +13,9 @@
+│  -rw----     2.0 fat     2130 bl defN 21-Feb-01 19:02 com/ongres/stringprep/Option.class
+│  -rw----     2.0 fat      922 bl defN 21-Feb-01 19:02 com/ongres/stringprep/Profile.class
+│  -rw----     2.0 fat     7744 bl defN 21-Feb-01 19:02 com/ongres/stringprep/Stringprep.class
+│  -rw----     2.0 fat    66802 bl defN 21-Feb-01 19:02 com/ongres/stringprep/Tables.class
+│  -rw----     2.0 fat     1695 bl defN 21-Feb-01 19:02 META-INF/maven/com.ongres.stringprep/stringprep/pom.xml
+│  -rw----     2.0 fat       64 bl defN 21-Feb-01 19:02 META-INF/maven/com.ongres.stringprep/stringprep/pom.properties
+│  -rw----     2.0 fat      227 bl defN 21-Feb-01 19:02 META-INF/INDEX.LIST
+│ --rw----     2.0 fat      226 bl defN 21-Feb-01 20:14 META-INF/versions/9/module-info.class
+│ +-rw----     2.0 fat      226 bl defN 21-Feb-13 18:18 META-INF/versions/9/module-info.class
+│  19 files, 81288 bytes uncompressed, 40774 bytes compressed:  49.8%
+
+
+$ diffoscope target/reference/saslprep-2.0.jar saslprep/target/saslprep-2.0.jar
+--- target/reference/saslprep-2.0.jar
++++ saslprep/target/saslprep-2.0.jar
+├── zipinfo /dev/stdin
+│ @@ -12,9 +12,9 @@
+│  -rw----     1.0 fat        0 b- stor 21-Feb-01 19:02 META-INF/maven/com.ongres.stringprep/saslprep/
+│  -rw----     2.0 fat     1266 bl defN 21-Feb-01 19:02 META-INF/LICENSE
+│  -rw----     2.0 fat       29 bl defN 21-Feb-01 19:02 META-INF/services/com.ongres.stringprep.Profile
+│  -rw----     2.0 fat     1753 bl defN 21-Feb-01 19:02 com/ongres/saslprep/SASLprep.class
+│  -rw----     2.0 fat     1902 bl defN 21-Feb-01 19:02 META-INF/maven/com.ongres.stringprep/saslprep/pom.xml
+│  -rw----     2.0 fat       62 bl defN 21-Feb-01 19:02 META-INF/maven/com.ongres.stringprep/saslprep/pom.properties
+│  -rw----     2.0 fat      239 bl defN 21-Feb-01 19:02 META-INF/INDEX.LIST
+│ --rw----     2.0 fat      324 bl defN 21-Feb-01 20:14 META-INF/versions/9/module-info.class
+│ +-rw----     2.0 fat      324 bl defN 21-Feb-13 18:18 META-INF/versions/9/module-info.class
+│  18 files, 5785 bytes uncompressed, 2854 bytes compressed:  50.7%
+
+
+$ diffoscope target/reference/nameprep-2.0.jar nameprep/target/nameprep-2.0.jar
+--- target/reference/nameprep-2.0.jar
++++ nameprep/target/nameprep-2.0.jar
+├── zipinfo /dev/stdin
+│ @@ -12,9 +12,9 @@
+│  -rw----     1.0 fat        0 b- stor 21-Feb-01 19:02 META-INF/maven/com.ongres.stringprep/nameprep/
+│  -rw----     2.0 fat     1266 bl defN 21-Feb-01 19:02 META-INF/LICENSE
+│  -rw----     2.0 fat       29 bl defN 21-Feb-01 19:02 META-INF/services/com.ongres.stringprep.Profile
+│  -rw----     2.0 fat     1441 bl defN 21-Feb-01 19:02 com/ongres/nameprep/Nameprep.class
+│  -rw----     2.0 fat     1916 bl defN 21-Feb-01 19:02 META-INF/maven/com.ongres.stringprep/nameprep/pom.xml
+│  -rw----     2.0 fat       62 bl defN 21-Feb-01 19:02 META-INF/maven/com.ongres.stringprep/nameprep/pom.properties
+│  -rw----     2.0 fat      239 bl defN 21-Feb-01 19:02 META-INF/INDEX.LIST
+│ --rw----     2.0 fat      324 bl defN 21-Feb-01 20:14 META-INF/versions/9/module-info.class
+│ +-rw----     2.0 fat      324 bl defN 21-Feb-13 18:18 META-INF/versions/9/module-info.class
+│  18 files, 5487 bytes uncompressed, 2675 bytes compressed:  51.2%

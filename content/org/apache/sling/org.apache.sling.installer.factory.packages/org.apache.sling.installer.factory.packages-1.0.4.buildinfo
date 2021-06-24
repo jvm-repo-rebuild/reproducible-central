@@ -1,0 +1,40 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Installer Packages Factory
+group-id=org.apache.sling
+artifact-id=org.apache.sling.installer.factory.packages
+version=1.0.4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-installer-factory-packages.git
+source.scm.tag=org.apache.sling.installer.factory.packages-1.0.4
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.6
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=org.apache.sling.installer.factory.packages-1.0.4.jar
+outputs.0.length=26327
+outputs.0.checksums.sha512=05208268cd6b5c465d296746c7d38ed563323f7efba4fd70ec2fd6116dfd46beb6041bb42f01d8bdb20d5e9953e0af5a1e15cfcb732275f17f49b916eaca6f40
+
+outputs.1.filename=org.apache.sling.installer.factory.packages-1.0.4-source-release.zip
+outputs.1.length=18475
+outputs.1.checksums.sha512=5cffaece63d62ecb246985b1fd95c16670f990a756c5ef9e0379145a144cb82d59478e3e0cab00c0895009202ab39c31887150bed9a9b444c17123ba2418af54
+
+outputs.2.filename=org.apache.sling.installer.factory.packages-1.0.4-sources.jar
+outputs.2.length=14640
+outputs.2.checksums.sha512=89f631ac3aa7e9499f50629a263d6f854fc9390e23437f7c00c110b99e085f19c470669039d8a0898749dfc44464dd6a6ab1675ee1ce51b30fb22007b352fd22
+
+outputs.3.filename=org.apache.sling.installer.factory.packages-1.0.4-sources.jar
+outputs.3.length=14640
+outputs.3.checksums.sha512=89f631ac3aa7e9499f50629a263d6f854fc9390e23437f7c00c110b99e085f19c470669039d8a0898749dfc44464dd6a6ab1675ee1ce51b30fb22007b352fd22

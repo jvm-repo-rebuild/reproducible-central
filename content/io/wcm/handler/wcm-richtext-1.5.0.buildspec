@@ -1,0 +1,20 @@
+groupId=io.wcm
+artifactId=io.wcm.handler.richtext
+display=${groupId}-handler:richtext
+version=1.5.0
+
+gitRepo=https://github.com/wcm-io/wcm-io-handler.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=11
+newline=crlf-nogit
+
+buildNumber=ff409921
+timestamp="2021-01-17T15:37:36+01:00"
+command="mvn -f richtext/pom.xml -Pio.wcm clean package -DskipTests -Dmaven.javadoc.skip -Dmaven.buildNumber.skip -DbuildNumber=${buildNumber} -Dtimestamp=${timestamp}"
+
+buildinfo=richtext/target/${artifactId}-${version}.buildinfo
+
+#diffoscope=https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/$(echo ${groupId} | tr '.' '/')/handler/${artifactId}-${version}.diffoscope
+issue=

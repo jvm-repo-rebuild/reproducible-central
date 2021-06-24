@@ -1,0 +1,8 @@
+version=4.25.0
+ok=2
+ko=1
+okFiles="hsac-fitnesse-fixtures-4.25.0.jar hsac-fitnesse-fixtures-4.25.0-sources.jar"
+koFiles="hsac-fitnesse-fixtures-4.25.0-standalone.zip"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/hsac-fitnesse-fixtures-4.25.0-standalone.zip target/hsac-fitnesse-fixtures-4.25.0-standalone.zip

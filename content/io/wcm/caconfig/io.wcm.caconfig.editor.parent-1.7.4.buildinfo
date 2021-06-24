@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Context-Aware Configuration Editor
+group-id=io.wcm
+artifact-id=io.wcm.caconfig.editor.parent
+version=1.7.4
+
+# source information
+source.scm.uri=scm:git:https://github.com/wcm-io/wcm-io-caconfig.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=1.8.0_242
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# aggregated output
+
+outputs.0.coordinates=io.wcm:io.wcm.caconfig.editor
+
+outputs.0.0.filename=io.wcm.caconfig.editor-1.7.4.jar
+outputs.0.0.length=160177
+outputs.0.0.checksums.sha512=bc2ff5c3a1edaed289c618483e5063dd0fc26a0072220ac9f6183cc5f8b183b822618b9aacb8f274c89cbb038573d516d723c9a4fec5e4df121979129674bb65
+
+outputs.0.1.filename=io.wcm.caconfig.editor-1.7.4-sources.jar
+outputs.0.1.length=148606
+outputs.0.1.checksums.sha512=9e03d884e1ccb6b008947d69cb5769fcec00bb7730f74af63a9362f0feb5ee0f22f84df6e03c7c20850e3ae8525f8d90104c383d6d4b857e199f5fc918182fa4
+
+outputs.1.coordinates=io.wcm:io.wcm.caconfig.editor.package
+
+outputs.1.0.filename=io.wcm.caconfig.editor.package-1.7.4.zip
+outputs.1.0.length=487881
+outputs.1.0.checksums.sha512=2edaab32d8d21e123cea1618508ec1f3ac210c81e50cefa0c6381498705f9328fab5c22869f4e6b4f12c6d1da69a7d78ab38e15fe85988d2e8eb615e9f4403f5
+
+outputs.2.coordinates=io.wcm:io.wcm.caconfig.editor.parent

@@ -1,0 +1,5 @@
+version=1.2.4
+ok=3
+ko=0
+okFiles="org.apache.sling.commons.johnzon-1.2.4.jar org.apache.sling.commons.johnzon-1.2.4-source-release.zip org.apache.sling.commons.johnzon-1.2.4-sources.jar"
+koFiles=""

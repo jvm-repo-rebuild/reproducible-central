@@ -1,0 +1,20 @@
+groupId=io.wcm
+artifactId=io.wcm.caconfig.editor.parent
+display=${groupId}-caconfig:editor
+version=1.8.0
+
+gitRepo=https://github.com/wcm-io/wcm-io-caconfig.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=11
+newline=crlf-nogit
+
+buildNumber=02dd1670
+timestamp=2021-01-17T14:46:49+01:00
+command="mvn -f editor/pom.xml -Pio.wcm clean package -DskipTests -Dmaven.javadoc.skip -Dmaven.buildNumber.skip -DbuildNumber=${buildNumber} -Dtimestamp=${timestamp}"
+
+buildinfo=editor/target/${artifactId}-${version}.buildinfo
+
+diffoscope=https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/$(echo ${groupId} | tr '.' '/')/caconfig/${artifactId}-${version}.diffoscope
+issue=

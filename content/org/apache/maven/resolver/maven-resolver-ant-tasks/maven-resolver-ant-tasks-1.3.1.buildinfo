@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven Artifact Resolver Ant Tasks
+group-id=org.apache.maven.resolver
+artifact-id=maven-resolver-ant-tasks
+version=1.3.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-resolver-ant-tasks.git
+source.scm.tag=maven-resolver-ant-tasks-1.3.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=maven-resolver-ant-tasks-1.3.1.jar
+outputs.0.length=100932
+outputs.0.checksums.sha512=b2fe942f07d173dfc9bc6be6b1961f4d7761bb6f3b7f76a68046be972558a3d250063ee6bfe891929069e8ca51b8e97eb9467d11af474e12c53e74ce65b643cb
+
+outputs.1.filename=maven-resolver-ant-tasks-1.3.1-source-release.zip
+outputs.1.length=126493
+outputs.1.checksums.sha512=ce64c7220fb71c55367a29d795c4527f17251fd7e488e9579ba63ff008bc2e72b72208b9ef9281a52a931e49852882c48bace1b6a69c79751360ad86f5a815e7
+
+outputs.2.filename=maven-resolver-ant-tasks-1.3.1-sources.jar
+outputs.2.length=73358
+outputs.2.checksums.sha512=fe491345732d787ca37085cfcaa3197f8d1b8679ae6fd5111d7fcd38dc3a99c908a1f6b6e1488abe54dd791e95c7a871c6ec520bf6c43ae038327d326bf2eba0
+
+outputs.3.filename=maven-resolver-ant-tasks-1.3.1-uber.jar
+outputs.3.length=4319455
+outputs.3.checksums.sha512=4b867c0ea23bf2cfc9eb37b21f529c1c960bdfb43d1b5c6e4ae782efa872c6961478d26328bf5da5b42369920549ba024c676f6645cc82229dac3b18874ee7b7

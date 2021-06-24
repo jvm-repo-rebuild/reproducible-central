@@ -19,20 +19,35 @@ artifactId=
 version=
 
 # Source code
-gitRepo=https://github.com/apache/${artifactId}.git
+gitRepo=https://github.com/project_org/${artifactId}.git
 gitTag=${artifactId}-${version}
 
 # Rebuild environment prerequisites
 tool=mvn
 jdk=8
 newline=crlf
+# crlf for Windows, lf for Unix
 
 # Rebuild command
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 
 # Location of the buildinfo file generated during rebuild to record output fingerprints
 buildinfo=target/${artifactId}-${version}.buildinfo
+
+# if the release is finally not reproducible, link to an issue tracker entry if one was created
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/project_org/${artifactId}/issues/xx
 ```
+
+## Writing A New Buildspec
+
+To facilitate the job, here are step by step instructions:
+
+1. copy `template.buildspec` to `wip/` directory with appropriate final name: `cp template.buildspec wip/[project]-[version].buildspec`
+2. update the file with data from the project release you're rebuilding (look at `.pom` content): fill empty values, update default value with content customized to your project. See next "Parameters" section to get more details on each parameter definition.
+3. try to rebuild from your buildspec: `./rebuild.sh wip/[project]-[version].buildspec`
+4. if result shows some differences between the rebuild and reference artifacts, copy paste the diffoscope commands provided to find differences, then fix buildspec instructions as much as possible
+5. once best efforts have been done, please provide us a Pull Request: even if the buildspec is not perfect, ie. does not permit to reproduce the reference artifacts, it is a basis that will help us.
 
 ## Parameters
 
@@ -43,7 +58,8 @@ buildinfo=target/${artifactId}-${version}.buildinfo
   - `jdk`: the JDK major version to use, that must match the reference file from Central Repository to have a chance of getting the same binary output,
   - `newline`: `lf` or `crlf` (Windows), to match the environment used to build the reference release in Central Repository,
 - `command`: the effective rebuild command to match output in Central Repository
-- `buildinfo`: the location where to find the [`.buildinfo` file](https://reproducible-builds.org/docs/jvm/) that is generated during rebuild to record output fingerprints
+- `buildinfo`: the location where to find the [`.buildinfo` file](https://reproducible-builds.org/docs/jvm/) that is generated during rebuild to record output fingerprints (usually, default value is ok)
+- `issue`: the url of an issue tracking the reproducibility issue, if release not reproducible and issue was created
 
 ### Known Simplifications
 

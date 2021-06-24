@@ -1,0 +1,5 @@
+version=2.0
+ok=3
+ko=3
+okFiles="stringprep-2.0-sources.jar saslprep-2.0-sources.jar nameprep-2.0-sources.jar"
+koFiles="stringprep-2.0.jar saslprep-2.0.jar nameprep-2.0.jar"

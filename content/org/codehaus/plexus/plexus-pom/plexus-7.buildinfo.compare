@@ -1,0 +1,5 @@
+version=7
+ok=2
+ko=0
+okFiles="plexus-7-site.xml plexus-7-source-release.zip"
+koFiles=""

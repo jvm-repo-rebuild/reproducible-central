@@ -11,4 +11,6 @@ jdk=8
 newline=crlf
 
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
-buildinfo=*/target/maven-resolver-*-${version}.buildinfo
+buildinfo=*/target/maven-resolver-transport-wagon-${version}.buildinfo
+
+issue=https://issues.apache.org/jira/browse/MRESOLVER-137

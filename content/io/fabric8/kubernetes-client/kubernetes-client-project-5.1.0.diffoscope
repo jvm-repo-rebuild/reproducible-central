@@ -1,0 +1,218 @@
+unreproducible bits high-level analysis:
+- expected jandex index for every jar (as expected in https://github.com/fabric8io/kubernetes-client/pull/2604) => see https://github.com/wildfly/jandex-maven-plugin/pull/26
+- OSGI bundles Include-Resource entry content in META-INF/MANIFEST.MF
+- manifest JDK and Git entries in kubernetes-model-jsonschema2pojo
+- source code generated from annotations in kubernetes-model-core
+perhaps there are other issues, but jandex + OSGI bundle issues alone cause so many unreproducible bits...
+
+
+$ diffoscope target/reference/model-annotator-5.1.0.jar model-annotator/target/model-annotator-5.1.0.jar
+--- target/reference/model-annotator-5.1.0.jar
++++ model-annotator/target/model-annotator-5.1.0.jar
+├── zipinfo /dev/stdin
+│ @@ -1,14 +1,14 @@
+│ -Zip file size: 5396 bytes, number of entries: 12
+│ +Zip file size: 5398 bytes, number of entries: 12
+│  -rw-r--r--  2.0 unx       82 b- defN 20-Nov-14 12:24 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 12:24 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 12:24 io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 12:24 io/fabric8/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 12:24 io/fabric8/kubernetes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 12:24 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 12:24 META-INF/maven/io.fabric8/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 12:24 META-INF/maven/io.fabric8/model-annotator/
+│  -rw-r--r--  2.0 unx      652 b- defN 20-Nov-14 12:24 META-INF/jandex.idx
+│  -rw-r--r--  2.0 unx     5908 b- defN 20-Nov-14 12:24 io/fabric8/kubernetes/ModelAnnotator.class
+│  -rw-r--r--  2.0 unx     2049 b- defN 20-Nov-14 12:24 META-INF/maven/io.fabric8/model-annotator/pom.xml
+│  -rw-r--r--  2.0 unx       60 b- defN 20-Nov-14 12:24 META-INF/maven/io.fabric8/model-annotator/pom.properties
+│ -12 files, 8751 bytes uncompressed, 3834 bytes compressed:  56.2%
+│ +12 files, 8751 bytes uncompressed, 3836 bytes compressed:  56.2%
+├── META-INF/jandex.idx
+│ @@ -27,15 +27,15 @@
+│  000001a0: 6f74 6174 6f72 0009 636f 6465 6d6f 6465  otator..codemode
+│  000001b0: 6c15 0001 020d 0411 0608 0809 020a 0415  l...............
+│  000001c0: 0613 0612 0007 0210 0406 060f 0002 020c  ................
+│  000001d0: 040e 0204 0403 0005 020b 0414 0805 0000  ................
+│  000001e0: 1500 0300 0010 0000 0500 0207 0000 0800  ................
+│  000001f0: 0009 0007 1200 0201 0300 0001 0402 0604  ................
+│  00000200: 0407 0603 0409 0201 0100 0201 0100 0000  ................
+│ -00000210: 0a02 0100 0504 0100 0208 0700 0d02 0100  ................
+│ -00000220: 0504 0100 0208 0700 1102 0100 0302 0100  ................
+│ -00000230: 0110 0009 0201 0003 0201 0001 1000 0302  ................
+│ -00000240: 0100 0303 0100 0107 000e 0101 0002 0401  ................
+│ -00000250: 0002 0807 0004 0201 0005 0301 0001 0700  ................
+│ -00000260: 0501 0100 0205 0100 040b 0801 0c00 020f  ................
+│ +00000210: 0d02 0100 0504 0100 0208 0700 1102 0100  ................
+│ +00000220: 0302 0100 0110 0009 0201 0003 0201 0001  ................
+│ +00000230: 1000 0302 0100 0303 0100 0107 0004 0201  ................
+│ +00000240: 0005 0301 0001 0700 0e01 0100 0204 0100  ................
+│ +00000250: 0208 0700 0501 0100 0205 0100 040b 0801  ................
+│ +00000260: 0c00 0a02 0100 0504 0100 0208 0700 020f  ................
+│  00000270: 1208 0006 1a03 0001 0d21 0101 0100 0002  .........!......
+│ -00000280: 0201 0901 0405 0608 0302 0907            ............
+│ +00000280: 0201 0901 0304 0506 0209 0807            ............
+
+
+$ diffoscope target/reference/kubernetes-model-jsonschema2pojo-5.1.0.jar kubernetes-model-generator/kubernetes-model-jsonschema2pojo/target/kubernetes-model-jsonschema2pojo-5.1.0.jar                                                                                                                                                                
+--- target/reference/kubernetes-model-jsonschema2pojo-5.1.0.jar
++++ kubernetes-model-generator/kubernetes-model-jsonschema2pojo/target/kubernetes-model-jsonschema2pojo-5.1.0.jar
+├── zipinfo /dev/stdin
+│ @@ -1,9 +1,9 @@
+│ -Zip file size: 12004 bytes, number of entries: 18
+│ --rw-r--r--  2.0 unx      656 b- defN 20-Nov-14 12:24 META-INF/MANIFEST.MF
+│ +Zip file size: 11978 bytes, number of entries: 18
+│ +-rw-r--r--  2.0 unx      623 b- defN 20-Nov-14 12:24 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 12:24 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 12:24 io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 12:24 io/fabric8/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 12:24 io/fabric8/kubernetes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 12:24 io/fabric8/kubernetes/jsonschema2pojo/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 12:24 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 12:24 META-INF/maven/io.fabric8/
+│ @@ -13,8 +13,8 @@
+│  -rw-r--r--  2.0 unx     1084 b- defN 20-Nov-14 12:24 io/fabric8/kubernetes/jsonschema2pojo/Fabric8RuleFactory.class
+│  -rw-r--r--  2.0 unx     1142 b- defN 20-Nov-14 12:24 io/fabric8/kubernetes/jsonschema2pojo/KubernetesCoreTypeAnnotator$1.class
+│  -rw-r--r--  2.0 unx     8503 b- defN 20-Nov-14 12:24 io/fabric8/kubernetes/jsonschema2pojo/KubernetesCoreTypeAnnotator.class
+│  -rw-r--r--  2.0 unx     2867 b- defN 20-Nov-14 12:24 io/fabric8/kubernetes/jsonschema2pojo/KubernetesTypeAnnotator.class
+│  -rw-r--r--  2.0 unx     1999 b- defN 20-Nov-14 12:24 META-INF/maven/io.fabric8/kubernetes-model-jsonschema2pojo/pom.xml
+│  -rw-r--r--  2.0 unx       77 b- defN 20-Nov-14 12:24 META-INF/maven/io.fabric8/kubernetes-model-jsonschema2pojo/pom.properties
+│  -rw-r--r--  2.0 unx      250 b- defN 20-Nov-14 12:24 META-INF/INDEX.LIST
+│ -18 files, 20127 bytes uncompressed, 9186 bytes compressed:  54.4%
+│ +18 files, 20094 bytes uncompressed, 9160 bytes compressed:  54.4%
+├── META-INF/MANIFEST.MF
+│ @@ -1,10 +1,10 @@
+│  Manifest-Version: 1.0
+│ -Scm-Revision: ef64ef24357bb66ff290e2a7e9939d327691898b
+│ -Java-Version: 1.8.0_265
+│ +Scm-Revision: UNKNOWN
+│ +Java-Version: 1.8.0_275
+│  Scm-Connection: scm:git:git@github.com:fabric8io/kubernetes-client.git
+│   /kubernetes-model-generator/kubernetes-model-jsonschema2pojo
+│  Specification-Vendor: Red Hat
+│  Specification-Title: Fabric8 :: Kubernetes Model Schema2Pojo Customize
+│   r
+│  Build-Jdk-Spec: 1.8
+│  Scm-Url: http://github.com/fabric8io/kubernetes-client/kubernetes-mode
+
+
+$ diffoscope target/reference/kubernetes-model-core-5.1.0.jar kubernetes-model-generator/kubernetes-model-core/target/kubernetes-model-core-5.1.0.jar
+--- target/reference/kubernetes-model-core-5.1.0.jar
++++ kubernetes-model-generator/kubernetes-model-core/target/kubernetes-model-core-5.1.0.jar
+├── zipinfo /dev/stdin
+│ @@ -1,11 +1,11 @@
+│ -Zip file size: 3804816 bytes, number of entries: 2352
+│ +Zip file size: 3805009 bytes, number of entries: 2352
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     4639 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat   825788 bl defN 80-Feb-01 00:00 META-INF/jandex.idx
+│ +-rw----     2.0 fat   826756 bl defN 80-Feb-01 00:00 META-INF/jandex.idx
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/kubernetes-model-core/
+│  -rw----     2.0 fat       66 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/kubernetes-model-core/pom.properties
+│  -rw----     2.0 fat     8306 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/kubernetes-model-core/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/services/
+│  -rw----     2.0 fat       62 bl defN 80-Feb-01 00:00 META-INF/services/io.fabric8.kubernetes.api.KubernetesResourceMappingProvider
+│ @@ -2347,8 +2347,8 @@
+│  -rw----     2.0 fat     1091 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/internal/InternalResourceMappingProvider.class
+│  -rw----     2.0 fat    12568 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/internal/KubernetesDeserializer$Mapping.class
+│  -rw----     2.0 fat     5685 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/internal/KubernetesDeserializer.class
+│  -rw----     2.0 fat      652 bl defN 80-Feb-01 00:00 manifest.vm
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 schema/
+│  -rw----     2.0 fat   239082 bl defN 80-Feb-01 00:00 schema/kube-schema.json
+│  -rw----     2.0 fat   413721 bl defN 80-Feb-01 00:00 schema/validation-schema.json
+│ -2352 files, 11291870 bytes uncompressed, 3250610 bytes compressed:  71.2%
+│ +2352 files, 11292838 bytes uncompressed, 3250803 bytes compressed:  71.2%
+├── META-INF/MANIFEST.MF
+│ @@ -53,19 +53,19 @@
+│   bric8.openshift.api.model.operator;resolution:=optional,io.fabric8.op
+│   enshift.api.model.operator.v1;resolution:=optional,io.fabric8.openshi
+│   ft.api.model.operator.v1alpha1;resolution:=optional,io.fabric8.opensh
+│   ift.api.model.operatorhub.manifests;resolution:=optional,io.fabric8.o
+│   penshift.api.model.operatorhub.v1;resolution:=optional,io.fabric8.ope
+│   nshift.api.model.operatorhub.v1alpha1;resolution:=optional,io.fabric8
+│   .openshift.api.model.runtime;resolution:=optional
+│ -Include-Resource: schema/validation-schema.json=src/main/resources/sch
+│ - ema/validation-schema.json,schema/kube-schema.json=src/main/resources
+│ - /schema/kube-schema.json,META-INF/services/io.fabric8.kubernetes.api.
+│ - KubernetesResourceMappingProvider=src/main/resources/META-INF/service
+│ - s/io.fabric8.kubernetes.api.KubernetesResourceMappingProvider,manifes
+│ +Include-Resource: META-INF/services/io.fabric8.kubernetes.api.Kubernet
+│ + esResourceMappingProvider=src/main/resources/META-INF/services/io.fab
+│ + ric8.kubernetes.api.KubernetesResourceMappingProvider,schema/kube-sch
+│ + ema.json=src/main/resources/schema/kube-schema.json,schema/validation
+│ + -schema.json=src/main/resources/schema/validation-schema.json,manifes
+│   t.vm=src/main/resources/manifest.vm,/META-INF/jandex.idx=target/class
+│   es/META-INF/jandex.idx,/core.properties=target/classes/core.propertie
+│   s,
+│  Private-Package: io.fabric8.kubernetes.internal,schema
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+│  Specification-Title: Fabric8 :: Kubernetes Model :: Core
+│  Specification-Vendor: Red Hat
+├── META-INF/jandex.idx
+│ @@ -3281,18 +3281,18 @@
+
+
+$ diffoscope target/reference/kubernetes-model-core-5.1.0-sources.jar kubernetes-model-generator/kubernetes-model-core/target/kubernetes-model-core-5.1.0-sources.jar
+--- target/reference/kubernetes-model-core-5.1.0-sources.jar
++++ kubernetes-model-generator/kubernetes-model-core/target/kubernetes-model-core-5.1.0-sources.jar
+├── zipinfo /dev/stdin
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 2110377 bytes, number of entries: 1755
+│ +Zip file size: 2110441 bytes, number of entries: 1755
+│  -rw-r--r--  2.0 unx       64 b- defN 20-Nov-14 12:24 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 12:24 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 12:24 io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 12:24 io/fabric8/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 12:24 io/fabric8/kubernetes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 12:24 io/fabric8/kubernetes/api/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 12:24 io/fabric8/kubernetes/api/model/
+│ @@ -1750,8 +1750,8 @@
+│  -rw-r--r--  2.0 unx     7750 b- defN 20-Nov-14 12:24 io/fabric8/kubernetes/api/model/version/InfoFluentImpl.java
+│  -rw-r--r--  2.0 unx       62 b- defN 20-Nov-14 12:24 META-INF/services/io.fabric8.kubernetes.api.KubernetesResourceMappingProvider
+│  -rw-r--r--  2.0 unx      652 b- defN 20-Nov-14 12:24 manifest.vm
+│  -rw-r--r--  2.0 unx   239082 b- defN 20-Nov-14 12:24 schema/kube-schema.json
+│  -rw-r--r--  2.0 unx   413721 b- defN 20-Nov-14 12:24 schema/validation-schema.json
+│  -rw-r--r--  2.0 unx     8306 b- defN 20-Nov-14 12:24 META-INF/maven/io.fabric8/kubernetes-model-core/pom.xml
+│  -rw-r--r--  2.0 unx       66 b- defN 20-Nov-14 12:24 META-INF/maven/io.fabric8/kubernetes-model-core/pom.properties
+│ -1755 files, 11161854 bytes uncompressed, 1752993 bytes compressed:  84.3%
+│ +1755 files, 11161854 bytes uncompressed, 1753057 bytes compressed:  84.3%
+├── annotations/io/fabric8/kubernetes/api/model/WatchEventFluent.java
+│┄ ordering differences only
+│ @@ -47,20 +47,20 @@
+│      public WatchEventFluent.PodTemplateSpecObjectNested<A> withNewPodTemplateSpecObjectLike(PodTemplateSpec item);
+│      public A withCSIPersistentVolumeSourceObject(CSIPersistentVolumeSource cSIPersistentVolumeSourceObject);
+│      public WatchEventFluent.CSIPersistentVolumeSourceObjectNested<A> withNewCSIPersistentVolumeSourceObject();
+│      public WatchEventFluent.CSIPersistentVolumeSourceObjectNested<A> withNewCSIPersistentVolumeSourceObjectLike(CSIPersistentVolumeSource item);
+│      public A withAuthInfoObject(AuthInfo authInfoObject);
+│      public WatchEventFluent.AuthInfoObjectNested<A> withNewAuthInfoObject();
+│      public WatchEventFluent.AuthInfoObjectNested<A> withNewAuthInfoObjectLike(AuthInfo item);
+│ -    public A withResourceRequirementsObject(ResourceRequirements resourceRequirementsObject);
+│ -    public WatchEventFluent.ResourceRequirementsObjectNested<A> withNewResourceRequirementsObject();
+│ -    public WatchEventFluent.ResourceRequirementsObjectNested<A> withNewResourceRequirementsObjectLike(ResourceRequirements item);
+│      public A withAPIServiceObject(APIService aPIServiceObject);
+│      public WatchEventFluent.APIServiceObjectNested<A> withNewAPIServiceObject();
+│      public WatchEventFluent.APIServiceObjectNested<A> withNewAPIServiceObjectLike(APIService item);
+│ +    public A withResourceRequirementsObject(ResourceRequirements resourceRequirementsObject);
+│ +    public WatchEventFluent.ResourceRequirementsObjectNested<A> withNewResourceRequirementsObject();
+│ +    public WatchEventFluent.ResourceRequirementsObjectNested<A> withNewResourceRequirementsObjectLike(ResourceRequirements item);
+│      public A withConfigMapKeySelectorObject(ConfigMapKeySelector configMapKeySelectorObject);
+│      public WatchEventFluent.ConfigMapKeySelectorObjectNested<A> withNewConfigMapKeySelectorObject();
+...
+├── annotations/io/fabric8/kubernetes/api/model/WatchEventFluentImpl.java
+│┄ ordering differences only
+│ @@ -46,16 +46,16 @@
+│          if (object instanceof Patch){ this.object= new PatchBuilder((Patch)object); _visitables.get("object").add(this.object);}
+│          if (object instanceof LimitRange){ this.object= new LimitRangeBuilder((LimitRange)object); _visitables.get("object").add(this.object);}
+│          if (object instanceof APIGroupList){ this.object= new APIGroupListBuilder((APIGroupList)object); _visitables.get("object").add(this.object);}
+│          if (object instanceof PortStatus){ this.object= new PortStatusBuilder((PortStatus)object); _visitables.get("object").add(this.object);}
+│          if (object instanceof PodTemplateSpec){ this.object= new PodTemplateSpecBuilder((PodTemplateSpec)object); _visitables.get("object").add(this.object);}
+│          if (object instanceof CSIPersistentVolumeSource){ this.object= new CSIPersistentVolumeSourceBuilder((CSIPersistentVolumeSource)object); _visitables.get("object").add(this.object);}
+│          if (object instanceof AuthInfo){ this.object= new AuthInfoBuilder((AuthInfo)object); _visitables.get("object").add(this.object);}
+│ -        if (object instanceof ResourceRequirements){ this.object= new ResourceRequirementsBuilder((ResourceRequirements)object); _visitables.get("object").add(this.object);}
+│          if (object instanceof APIService){ this.object= new APIServiceBuilder((APIService)object); _visitables.get("object").add(this.object);}
+│ +        if (object instanceof ResourceRequirements){ this.object= new ResourceRequirementsBuilder((ResourceRequirements)object); _visitables.get("object").add(this.object);}
+│          if (object instanceof ConfigMapKeySelector){ this.object= new ConfigMapKeySelectorBuilder((ConfigMapKeySelector)object); _visitables.get("object").add(this.object);}
+...
+
+

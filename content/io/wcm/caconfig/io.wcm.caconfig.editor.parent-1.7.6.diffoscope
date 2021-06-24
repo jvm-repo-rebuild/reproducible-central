@@ -1,0 +1,268 @@
+```diff
+$ diffoscope target/reference/io.wcm.caconfig.editor-1.7.6.jar bundle/target/io.wcm.caconfig.editor-1.7.6.jar
+--- target/reference/io.wcm.caconfig.editor-1.7.6.jar
++++ bundle/target/io.wcm.caconfig.editor-1.7.6.jar
+├── zipinfo /dev/stdin
+│ @@ -1,8 +1,8 @@
+-│ -Zip file size: 160429 bytes, number of entries: 104
++│ +Zip file size: 160387 bytes, number of entries: 104
+│  -rw-r--r--  2.0 unx     3938 b- defN 20-Dec-21 09:34 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 OSGI-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 OSGI-INF/metatype/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 SLING-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 SLING-INF/app-root/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/
+│ @@ -53,15 +53,15 @@
+│  -rw-r--r--  2.0 unx     2226 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/modals/add-config.controller.js
+│  -rw-r--r--  2.0 unx     1058 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/modals/delete-config.controller.js
+│  -rw-r--r--  2.0 unx     1944 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/modals/error.controller.js
+│  -rw-r--r--  2.0 unx     1482 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/modals/info.controller.js
+│  -rw-r--r--  2.0 unx     2164 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/modals/modal.service.js
+│  -rw-r--r--  2.0 unx     1176 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/modals/modals.module.js
+│  -rw-r--r--  2.0 unx     1302 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/modals/save-config.controller.js
+-│ --rw-r--r--  2.0 unx    47333 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/templates.module.js
++│ +-rw-r--r--  2.0 unx    46514 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/templates.module.js
+│  -rw-r--r--  2.0 unx     3002 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/ui.service.js
+│  -rw-r--r--  2.0 unx     1521 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/utilities.module.js
+│  -rw-r--r--  2.0 unx     7648 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/widgets/config-table.directive.js
+│  -rw-r--r--  2.0 unx     1803 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/widgets/description-popup.directive.js
+│  -rw-r--r--  2.0 unx     3460 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/widgets/multifield.directive.js
+│  -rw-r--r--  2.0 unx     3600 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/widgets/pathbrowser.directive.js
+│  -rw-r--r--  2.0 unx     1285 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/widgets/popup-content.directive.js
+│ @@ -99,8 +99,8 @@
+│  -rw-r--r--  2.0 unx      983 b- defN 20-Dec-21 09:34 io/wcm/caconfig/editor/impl/EditorConfig.class
+│  -rw-r--r--  2.0 unx      457 b- defN 20-Dec-21 09:34 io/wcm/caconfig/editor/impl/NameConstants.class
+│  -rw-r--r--  2.0 unx     3308 b- defN 20-Dec-21 09:34 io/wcm/caconfig/editor/model/EditorConfiguration.class
+│  -rw-r--r--  2.0 unx      240 b- defN 20-Dec-21 09:34 io/wcm/caconfig/editor/model/package-info.class
+│  -rw-r--r--  2.0 unx      232 b- defN 20-Dec-21 09:34 io/wcm/caconfig/editor/package-info.class
+│  -rw-r--r--  2.0 unx     8009 b- defN 20-Dec-21 09:34 META-INF/maven/io.wcm/io.wcm.caconfig.editor/pom.xml
+│  -rw-r--r--  2.0 unx       66 b- defN 20-Dec-21 09:34 META-INF/maven/io.wcm/io.wcm.caconfig.editor/pom.properties
+-│ -104 files, 441914 bytes uncompressed, 140047 bytes compressed:  68.3%
++│ +104 files, 441095 bytes uncompressed, 140005 bytes compressed:  68.3%
+├── SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/templates.module.js
+│ ├── js-beautify {}
+│ │ @@ -1,819 +1,819 @@
+...
+
+$ diffoscope target/reference/io.wcm.caconfig.editor-1.7.6-sources.jar bundle/target/io.wcm.caconfig.editor-1.7.6-sources.jar
+--- target/reference/io.wcm.caconfig.editor-1.7.6-sources.jar
++++ bundle/target/io.wcm.caconfig.editor-1.7.6-sources.jar
+├── zipinfo /dev/stdin
+│ @@ -1,8 +1,8 @@
+-│ -Zip file size: 148767 bytes, number of entries: 93
++│ +Zip file size: 148725 bytes, number of entries: 93
+│  -rw-r--r--  2.0 unx       64 b- defN 20-Dec-21 09:34 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 io/wcm/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 io/wcm/caconfig/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 io/wcm/caconfig/editor/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 io/wcm/caconfig/editor/impl/
+│ @@ -56,15 +56,15 @@
+│  -rw-r--r--  2.0 unx     2226 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/modals/add-config.controller.js
+│  -rw-r--r--  2.0 unx     1058 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/modals/delete-config.controller.js
+│  -rw-r--r--  2.0 unx     1944 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/modals/error.controller.js
+│  -rw-r--r--  2.0 unx     1482 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/modals/info.controller.js
+│  -rw-r--r--  2.0 unx     2164 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/modals/modal.service.js
+│  -rw-r--r--  2.0 unx     1176 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/modals/modals.module.js
+│  -rw-r--r--  2.0 unx     1302 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/modals/save-config.controller.js
+-│ --rw-r--r--  2.0 unx    47333 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/templates.module.js
++│ +-rw-r--r--  2.0 unx    46514 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/templates.module.js
+│  -rw-r--r--  2.0 unx     3002 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/ui.service.js
+│  -rw-r--r--  2.0 unx     1521 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/utilities.module.js
+│  -rw-r--r--  2.0 unx     7648 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/widgets/config-table.directive.js
+│  -rw-r--r--  2.0 unx     1803 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/widgets/description-popup.directive.js
+│  -rw-r--r--  2.0 unx     3460 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/widgets/multifield.directive.js
+│  -rw-r--r--  2.0 unx     3600 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/widgets/pathbrowser.directive.js
+│  -rw-r--r--  2.0 unx     1285 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/widgets/popup-content.directive.js
+│ @@ -88,8 +88,8 @@
+│  -rw-r--r--  2.0 unx      137 b- defN 20-Dec-21 09:34 SLING-INF/app-root/components/page/editor.json
+│  -rw-r--r--  2.0 unx    17487 b- defN 20-Dec-21 09:34 SLING-INF/app-root/templates/editor/thumbnail.png
+│  -rw-r--r--  2.0 unx      381 b- defN 20-Dec-21 09:34 SLING-INF/app-root/templates/editor.json
+│  -rw-r--r--  2.0 unx    10003 b- defN 20-Dec-21 09:34 SLING-INF/app-root/i18n/de.json
+│  -rw-r--r--  2.0 unx     9723 b- defN 20-Dec-21 09:34 SLING-INF/app-root/i18n/en.json
+│  -rw-r--r--  2.0 unx     8009 b- defN 20-Dec-21 09:34 META-INF/maven/io.wcm/io.wcm.caconfig.editor/pom.xml
+│  -rw-r--r--  2.0 unx       66 b- defN 20-Dec-21 09:34 META-INF/maven/io.wcm/io.wcm.caconfig.editor/pom.properties
+-│ -93 files, 430558 bytes uncompressed, 130399 bytes compressed:  69.7%
++│ +93 files, 429739 bytes uncompressed, 130357 bytes compressed:  69.7%
+├── SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/templates.module.js
+│ ├── js-beautify {}
+│ │ @@ -1,819 +1,819 @@
+...
+
+$ diffoscope target/reference/io.wcm.caconfig.editor.package-1.7.6.zip package/target/io.wcm.caconfig.editor.package-1.7.6.zip
+--- target/reference/io.wcm.caconfig.editor.package-1.7.6.zip
++++ package/target/io.wcm.caconfig.editor.package-1.7.6.zip
+├── zipinfo /dev/stdin
+│ @@ -1,37 +1,37 @@
+-│ -Zip file size: 488164 bytes, number of entries: 35
+-│ --rw-r--r--  2.0 unx      517 b- defN 20-Dec-21 09:35 META-INF/MANIFEST.MF
+-│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:35 META-INF/
+-│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:35 META-INF/vault/
+-│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:35 META-INF/vault/definition/
+-│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:35 jcr_root/
+-│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:35 jcr_root/apps/
+-│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:35 jcr_root/apps/wcm-io/
+-│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:35 jcr_root/apps/wcm-io/io.wcm.caconfig.editor.package/
+-│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:35 jcr_root/apps/wcm-io/io.wcm.caconfig.editor.package/install/
+-│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:35 jcr_root/apps/wcm-io/caconfig/
+-│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:35 jcr_root/apps/wcm-io/caconfig/editor-package/
+-│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:35 jcr_root/apps/wcm-io/caconfig/editor-package/templates/
+-│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:35 jcr_root/apps/wcm-io/caconfig/editor-package/templates/editor/
+-│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:35 META-INF/maven/
+-│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:35 META-INF/maven/io.wcm/
+-│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:35 META-INF/maven/io.wcm/io.wcm.caconfig.editor.package/
+-│ --rw-r--r--  2.0 unx    16173 b- defN 20-Dec-21 09:35 META-INF/vault/definition/thumbnail.png
+-│ --rw-r--r--  2.0 unx     3600 b- defN 20-Dec-21 09:35 META-INF/vault/config.xml
+-│ --rw-r--r--  2.0 unx      968 b- defN 20-Dec-21 09:35 META-INF/vault/definition/.content.xml
+-│ --rw-r--r--  2.0 unx      213 b- defN 20-Dec-21 09:35 META-INF/vault/filter.xml
+-│ --rw-r--r--  2.0 unx      707 b- defN 20-Dec-21 09:35 META-INF/vault/properties.xml
+-│ --rw-r--r--  2.0 unx      913 b- defN 20-Dec-21 09:35 META-INF/vault/settings.xml
+-│ --rw-r--r--  2.0 unx   204892 b- defN 20-Dec-21 09:35 jcr_root/apps/wcm-io/io.wcm.caconfig.editor.package/install/org.apache.sling.caconfig.impl-1.4.8.jar
+-│ --rw-r--r--  2.0 unx    26211 b- defN 20-Dec-21 09:35 jcr_root/apps/wcm-io/io.wcm.caconfig.editor.package/install/org.apache.sling.caconfig.spi-1.3.2.jar
+-│ --rw-r--r--  2.0 unx   160429 b- defN 20-Dec-21 09:35 jcr_root/apps/wcm-io/io.wcm.caconfig.editor.package/install/io.wcm.caconfig.editor-1.7.6.jar
+-│ --rw-r--r--  2.0 unx    13018 b- defN 20-Dec-21 09:35 jcr_root/apps/wcm-io/io.wcm.caconfig.editor.package/install/org.apache.sling.caconfig.api-1.1.0.jar
+-│ --rw-r--r--  2.0 unx   140559 b- defN 20-Dec-21 09:35 jcr_root/apps/wcm-io/io.wcm.caconfig.editor.package/install/org.apache.sling.commons.johnzon-1.1.0.jar
+-│ --rw-r--r--  2.0 unx      177 b- defN 20-Dec-21 09:35 jcr_root/apps/wcm-io/.content.xml
+-│ --rw-r--r--  2.0 unx      177 b- defN 20-Dec-21 09:35 jcr_root/apps/wcm-io/caconfig/.content.xml
+-│ --rw-r--r--  2.0 unx      491 b- defN 20-Dec-21 09:35 jcr_root/apps/wcm-io/caconfig/editor-package/templates/editor/.content.xml
+-│ --rw-r--r--  2.0 unx    17487 b- defN 20-Dec-21 09:35 jcr_root/apps/wcm-io/caconfig/editor-package/templates/editor/thumbnail.png
+-│ --rw-r--r--  2.0 unx      244 b- defN 20-Dec-21 09:35 jcr_root/apps/.content.xml
+-│ --rw-r--r--  2.0 unx      338 b- defN 20-Dec-21 09:35 jcr_root/.content.xml
+-│ --rw-r--r--  2.0 unx     4883 b- defN 20-Dec-21 09:35 META-INF/maven/io.wcm/io.wcm.caconfig.editor.package/pom.xml
+-│ --rw-r--r--  2.0 unx       74 b- defN 20-Dec-21 09:35 META-INF/maven/io.wcm/io.wcm.caconfig.editor.package/pom.properties
+-│ -35 files, 592071 bytes uncompressed, 482320 bytes compressed:  18.5%
++│ +Zip file size: 488114 bytes, number of entries: 35
++│ +-rw-r--r--  2.0 unx      517 b- defN 20-Dec-21 09:34 META-INF/MANIFEST.MF
++│ +drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 META-INF/
++│ +drwxrwxr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 META-INF/vault/
++│ +drwxrwxr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 META-INF/vault/definition/
++│ +drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 jcr_root/
++│ +drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 jcr_root/apps/
++│ +drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 jcr_root/apps/wcm-io/
++│ +drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 jcr_root/apps/wcm-io/io.wcm.caconfig.editor.package/
++│ +drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 jcr_root/apps/wcm-io/io.wcm.caconfig.editor.package/install/
++│ +drwxrwxr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 jcr_root/apps/wcm-io/caconfig/
++│ +drwxrwxr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 jcr_root/apps/wcm-io/caconfig/editor-package/
++│ +drwxrwxr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 jcr_root/apps/wcm-io/caconfig/editor-package/templates/
++│ +drwxrwxr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 jcr_root/apps/wcm-io/caconfig/editor-package/templates/editor/
++│ +drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 META-INF/maven/
++│ +drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 META-INF/maven/io.wcm/
++│ +drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 META-INF/maven/io.wcm/io.wcm.caconfig.editor.package/
++│ +-rw-rw-r--  2.0 unx    16173 b- defN 20-Dec-21 09:34 META-INF/vault/definition/thumbnail.png
++│ +-rw-r--r--  2.0 unx      707 b- defN 20-Dec-21 09:34 META-INF/vault/properties.xml
++│ +-rw-r--r--  2.0 unx      913 b- defN 20-Dec-21 09:34 META-INF/vault/settings.xml
++│ +-rw-r--r--  2.0 unx     3600 b- defN 20-Dec-21 09:34 META-INF/vault/config.xml
++│ +-rw-r--r--  2.0 unx      213 b- defN 20-Dec-21 09:34 META-INF/vault/filter.xml
++│ +-rw-r--r--  2.0 unx      968 b- defN 20-Dec-21 09:34 META-INF/vault/definition/.content.xml
++│ +-rw-r--r--  2.0 unx   204892 b- defN 20-Dec-21 09:34 jcr_root/apps/wcm-io/io.wcm.caconfig.editor.package/install/org.apache.sling.caconfig.impl-1.4.8.jar
++│ +-rw-r--r--  2.0 unx    26211 b- defN 20-Dec-21 09:34 jcr_root/apps/wcm-io/io.wcm.caconfig.editor.package/install/org.apache.sling.caconfig.spi-1.3.2.jar
++│ +-rw-r--r--  2.0 unx   160387 b- defN 20-Dec-21 09:34 jcr_root/apps/wcm-io/io.wcm.caconfig.editor.package/install/io.wcm.caconfig.editor-1.7.6.jar
++│ +-rw-r--r--  2.0 unx    13018 b- defN 20-Dec-21 09:34 jcr_root/apps/wcm-io/io.wcm.caconfig.editor.package/install/org.apache.sling.caconfig.api-1.1.0.jar
++│ +-rw-r--r--  2.0 unx   140559 b- defN 20-Dec-21 09:34 jcr_root/apps/wcm-io/io.wcm.caconfig.editor.package/install/org.apache.sling.commons.johnzon-1.1.0.jar
++│ +-rw-rw-r--  2.0 unx      177 b- defN 20-Dec-21 09:34 jcr_root/apps/wcm-io/.content.xml
++│ +-rw-rw-r--  2.0 unx      177 b- defN 20-Dec-21 09:34 jcr_root/apps/wcm-io/caconfig/.content.xml
++│ +-rw-rw-r--  2.0 unx      491 b- defN 20-Dec-21 09:34 jcr_root/apps/wcm-io/caconfig/editor-package/templates/editor/.content.xml
++│ +-rw-rw-r--  2.0 unx    17487 b- defN 20-Dec-21 09:34 jcr_root/apps/wcm-io/caconfig/editor-package/templates/editor/thumbnail.png
++│ +-rw-rw-r--  2.0 unx      244 b- defN 20-Dec-21 09:34 jcr_root/apps/.content.xml
++│ +-rw-rw-r--  2.0 unx      338 b- defN 20-Dec-21 09:34 jcr_root/.content.xml
++│ +-rw-r--r--  2.0 unx     4883 b- defN 20-Dec-21 09:34 META-INF/maven/io.wcm/io.wcm.caconfig.editor.package/pom.xml
++│ +-rw-r--r--  2.0 unx       74 b- defN 20-Dec-21 09:34 META-INF/maven/io.wcm/io.wcm.caconfig.editor.package/pom.properties
++│ +35 files, 592029 bytes uncompressed, 482270 bytes compressed:  18.5%
+├── zipnote {}
+│ @@ -45,27 +45,27 @@
+│  
+│  Filename: META-INF/maven/io.wcm/io.wcm.caconfig.editor.package/
+│  Comment: 
+│  
+│  Filename: META-INF/vault/definition/thumbnail.png
+│  Comment: 
+│  
+-│ -Filename: META-INF/vault/config.xml
++│ +Filename: META-INF/vault/properties.xml
+│  Comment: 
+│  
+-│ -Filename: META-INF/vault/definition/.content.xml
++│ +Filename: META-INF/vault/settings.xml
+│  Comment: 
+│  
+-│ -Filename: META-INF/vault/filter.xml
++│ +Filename: META-INF/vault/config.xml
+│  Comment: 
+│  
+-│ -Filename: META-INF/vault/properties.xml
++│ +Filename: META-INF/vault/filter.xml
+│  Comment: 
+│  
+-│ -Filename: META-INF/vault/settings.xml
++│ +Filename: META-INF/vault/definition/.content.xml
+│  Comment: 
+│  
+│  Filename: jcr_root/apps/wcm-io/io.wcm.caconfig.editor.package/install/org.apache.sling.caconfig.impl-1.4.8.jar
+│  Comment: 
+│  
+│  Filename: jcr_root/apps/wcm-io/io.wcm.caconfig.editor.package/install/org.apache.sling.caconfig.spi-1.3.2.jar
+│  Comment:
+├── META-INF/vault/properties.xml
+│ ├── META-INF/vault/properties.xml
+│ │ @@ -1,15 +1,15 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <!DOCTYPE properties
+│ │    SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
+│ │  <properties>
+│ │    <comment>io.wcm.caconfig.editor.package</comment>
+│ │    <entry key="allowIndexDefinitions">false</entry>
+│ │    <entry key="name">io.wcm.caconfig.editor.package</entry>
+-│ │ -  <entry key="created">2020-12-21T09:35:18.000Z</entry>
++│ │ +  <entry key="created">2020-12-21T09:34:47.000Z</entry>
+│ │    <entry key="groupId">io.wcm</entry>
+│ │    <entry key="version">1.7.6</entry>
+│ │    <entry key="packageType">mixed</entry>
+│ │    <entry key="requiresRoot">false</entry>
+│ │    <entry key="group">wcm-io</entry>
+│ │    <entry key="description">Context-Aware Configuration for AEM applications.</entry>
+│ │    <entry key="artifactId">io.wcm.caconfig.editor.package</entry>
+├── jcr_root/apps/wcm-io/io.wcm.caconfig.editor.package/install/io.wcm.caconfig.editor-1.7.6.jar
+│ ├── zipinfo /dev/stdin
+│ │ @@ -1,8 +1,8 @@
+-│ │ -Zip file size: 160429 bytes, number of entries: 104
++│ │ +Zip file size: 160387 bytes, number of entries: 104
+│ │  -rw-r--r--  2.0 unx     3938 b- defN 20-Dec-21 09:34 META-INF/MANIFEST.MF
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 META-INF/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 OSGI-INF/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 OSGI-INF/metatype/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 SLING-INF/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 SLING-INF/app-root/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/
+│ │ @@ -53,15 +53,15 @@
+│ │  -rw-r--r--  2.0 unx     2226 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/modals/add-config.controller.js
+│ │  -rw-r--r--  2.0 unx     1058 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/modals/delete-config.controller.js
+│ │  -rw-r--r--  2.0 unx     1944 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/modals/error.controller.js
+│ │  -rw-r--r--  2.0 unx     1482 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/modals/info.controller.js
+│ │  -rw-r--r--  2.0 unx     2164 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/modals/modal.service.js
+│ │  -rw-r--r--  2.0 unx     1176 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/modals/modals.module.js
+│ │  -rw-r--r--  2.0 unx     1302 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/modals/save-config.controller.js
+-│ │ --rw-r--r--  2.0 unx    47333 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/templates.module.js
++│ │ +-rw-r--r--  2.0 unx    46514 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/templates.module.js
+│ │  -rw-r--r--  2.0 unx     3002 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/ui.service.js
+│ │  -rw-r--r--  2.0 unx     1521 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/utilities.module.js
+│ │  -rw-r--r--  2.0 unx     7648 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/widgets/config-table.directive.js
+│ │  -rw-r--r--  2.0 unx     1803 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/widgets/description-popup.directive.js
+│ │  -rw-r--r--  2.0 unx     3460 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/widgets/multifield.directive.js
+│ │  -rw-r--r--  2.0 unx     3600 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/widgets/pathbrowser.directive.js
+│ │  -rw-r--r--  2.0 unx     1285 b- defN 20-Dec-21 09:34 SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/widgets/popup-content.directive.js
+│ │ @@ -99,8 +99,8 @@
+│ │  -rw-r--r--  2.0 unx      983 b- defN 20-Dec-21 09:34 io/wcm/caconfig/editor/impl/EditorConfig.class
+│ │  -rw-r--r--  2.0 unx      457 b- defN 20-Dec-21 09:34 io/wcm/caconfig/editor/impl/NameConstants.class
+│ │  -rw-r--r--  2.0 unx     3308 b- defN 20-Dec-21 09:34 io/wcm/caconfig/editor/model/EditorConfiguration.class
+│ │  -rw-r--r--  2.0 unx      240 b- defN 20-Dec-21 09:34 io/wcm/caconfig/editor/model/package-info.class
+│ │  -rw-r--r--  2.0 unx      232 b- defN 20-Dec-21 09:34 io/wcm/caconfig/editor/package-info.class
+│ │  -rw-r--r--  2.0 unx     8009 b- defN 20-Dec-21 09:34 META-INF/maven/io.wcm/io.wcm.caconfig.editor/pom.xml
+│ │  -rw-r--r--  2.0 unx       66 b- defN 20-Dec-21 09:34 META-INF/maven/io.wcm/io.wcm.caconfig.editor/pom.properties
+-│ │ -104 files, 441914 bytes uncompressed, 140047 bytes compressed:  68.3%
++│ │ +104 files, 441095 bytes uncompressed, 140005 bytes compressed:  68.3%
+│ ├── SLING-INF/app-root/clientlibs/io.wcm.caconfig.editor/js/templates.module.js
+│ │ ├── js-beautify {}
+│ │ │ @@ -1,819 +1,819 @@
+```

@@ -1,0 +1,72 @@
+target/reference/hsac-fitnesse-fixtures-4.27.2-standalone.zip target/hsac-fitnesse-fixtures-4.27.2-standalone.zip
+--- target/reference/hsac-fitnesse-fixtures-4.27.2-standalone.zip
++++ target/hsac-fitnesse-fixtures-4.27.2-standalone.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 52202275 bytes, number of entries: 647
+│ +Zip file size: 52200352 bytes, number of entries: 643
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 FitNesseRoot/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 webdrivers/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 FitNesseRoot/FrontPage/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 FitNesseRoot/HsacAcceptanceTests/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 FitNesseRoot/HsacAcceptanceTests/SlimTests/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 FitNesseRoot/HsacAcceptanceTests/SlimTests/BrowserTest/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 FitNesseRoot/HsacAcceptanceTests/SlimTests/BrowserTest/FrameHandlingTests/
+│ @@ -236,18 +236,14 @@
+│  -rw-r--r--  2.0 unx      155 b- defN 20-Jan-01 00:00 FitNesseRoot/HsacExamples/TaggedTestcases/T003.wiki
+│  -rw-r--r--  2.0 unx      155 b- defN 20-Jan-01 00:00 FitNesseRoot/HsacExamples/TaggedTestcases/T004.wiki
+│  -rw-r--r--  2.0 unx      162 b- defN 20-Jan-01 00:00 FitNesseRoot/HsacExamples/TaggedTestcases/T005.wiki
+│  -rw-r--r--  2.0 unx      139 b- defN 20-Jan-01 00:00 FitNesseRoot/HsacExamples/TaggedTestcases/T006NoTags.wiki
+│  -rw-r--r--  2.0 unx     2929 b- defN 20-Jan-01 00:00 FitNesseRoot/HsacExamples/TaggedTestcases.wiki
+│  -rw-r--r--  2.0 unx    11732 b- defN 20-Jan-01 00:00 FitNesseRoot/HsacExamples.wiki
+│  -rw-r--r--  2.0 unx      364 b- defN 20-Jan-01 00:00 FitNesseRoot/PlugIns/properties.xml
+│ --rw-r--r--  2.0 unx      436 b- defN 20-Jan-01 00:00 FitNesseRoot/RerunLastFailures_HsacAcceptanceTests-SlimTests-HttpTest.wiki
+│ --rw-r--r--  2.0 unx      400 b- defN 20-Jan-01 00:00 FitNesseRoot/RerunLastFailures_HsacAcceptanceTests-SlimTests-TeunisBug.wiki
+│ --rw-r--r--  2.0 unx      380 b- defN 20-Jan-01 00:00 FitNesseRoot/RerunLastFailures_HsacAcceptanceTests-TeunisBug.wiki
+│ --rw-r--r--  2.0 unx      414 b- defN 20-Jan-01 00:00 FitNesseRoot/RerunLastFailures_HsacExamples-SlimTests-BrowserTests-ScriptTest.wiki
+│  -rw-r--r--  2.0 unx  5183742 b- defN 20-Jan-01 00:00 fitnesse-standalone.jar
+│  -rw-r--r--  2.0 unx    15288 b- defN 20-Jan-01 00:00 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.ClearStoredVariablesFixture.json
+│  -rw-r--r--  2.0 unx    23591 b- defN 20-Jan-01 00:00 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.CompareValuesFixture.json
+│  -rw-r--r--  2.0 unx     2087 b- defN 20-Jan-01 00:00 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapColumnFixture.ParameterBinding.json
+│  -rw-r--r--  2.0 unx     1717 b- defN 20-Jan-01 00:00 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapColumnFixture.SaveBinding.json
+│  -rw-r--r--  2.0 unx    21892 b- defN 20-Jan-01 00:00 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapColumnFixture.json
+│  -rw-r--r--  2.0 unx    22190 b- defN 20-Jan-01 00:00 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapDefinitionFixture.json
+│ @@ -642,8 +638,8 @@
+│  -rw-r--r--  2.0 unx      263 b- defN 20-Jan-01 00:00 FitNesseRoot/files/galenExamples/menuHighlight.gspec
+│  -rw-r--r--  2.0 unx    13264 b- defN 20-Jan-01 00:00 FitNesseRoot/files/httpPostExamples/test.pdf
+│  -rw-r--r--  2.0 unx     1522 b- defN 20-Jan-01 00:00 FitNesseRoot/files/httpPostExamples/test.png
+│  -rw-r--r--  2.0 unx       90 b- defN 20-Jan-01 00:00 FitNesseRoot/files/httpPostExamples/testFile.txt
+│  -rw-r--r--  2.0 unx      604 b- defN 20-Jan-01 00:00 FitNesseRoot/files/xmlTestExamples/invalid_shiporder.xml
+│  -rw-r--r--  2.0 unx     1155 b- defN 20-Jan-01 00:00 FitNesseRoot/files/xmlTestExamples/shiporder_schema.xsd
+│  -rw-r--r--  2.0 unx      621 b- defN 20-Jan-01 00:00 FitNesseRoot/files/xmlTestExamples/valid_shiporder.xml
+│ -647 files, 85696988 bytes uncompressed, 52069661 bytes compressed:  39.2%
+│ +643 files, 85695358 bytes uncompressed, 52068634 bytes compressed:  39.2%
+├── zipnote {}
+│ @@ -717,26 +717,14 @@
+│  
+│  Filename: FitNesseRoot/HsacExamples.wiki
+│  Comment: 
+│  
+│  Filename: FitNesseRoot/PlugIns/properties.xml
+│  Comment: 
+│  
+│ -Filename: FitNesseRoot/RerunLastFailures_HsacAcceptanceTests-SlimTests-HttpTest.wiki
+│ -Comment: 
+│ -
+│ -Filename: FitNesseRoot/RerunLastFailures_HsacAcceptanceTests-SlimTests-TeunisBug.wiki
+│ -Comment: 
+│ -
+│ -Filename: FitNesseRoot/RerunLastFailures_HsacAcceptanceTests-TeunisBug.wiki
+│ -Comment: 
+│ -
+│ -Filename: FitNesseRoot/RerunLastFailures_HsacExamples-SlimTests-BrowserTests-ScriptTest.wiki
+│ -Comment: 
+│ -
+│  Filename: fitnesse-standalone.jar
+│  Comment: 
+│  
+│  Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.ClearStoredVariablesFixture.json
+│  Comment: 
+│  
+│  Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.CompareValuesFixture.json
+

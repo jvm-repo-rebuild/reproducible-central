@@ -12,3 +12,5 @@ newline=lf
 
 command="mvn -DbuildNumber=f2b307b3ff1d6e10b2f73aef51cc7ba24e595d1f -Dmaven.buildNumber.skip=true clean package"
 buildinfo=com.io7m.jade.documentation/target/com.io7m.jade.documentation-${version}.buildinfo
+
+issue=

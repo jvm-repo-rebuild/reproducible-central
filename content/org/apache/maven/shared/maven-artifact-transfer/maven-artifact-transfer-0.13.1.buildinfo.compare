@@ -1,0 +1,8 @@
+version=0.13.1
+ok=2
+ko=1
+okFiles="maven-artifact-transfer-0.13.1-source-release.zip maven-artifact-transfer-0.13.1-sources.jar"
+koFiles="maven-artifact-transfer-0.13.1.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/maven-artifact-transfer-0.13.1.jar target/maven-artifact-transfer-0.13.1.jar

@@ -1,0 +1,1746 @@
+target/reference/maven-model-3.8.1-sources.jar maven-model/target/maven-model-3.8.1-sources.jar
+--- target/reference/maven-model-3.8.1-sources.jar
++++ maven-model/target/maven-model-3.8.1-sources.jar
+├── zipinfo {}
+│ @@ -8,16 +8,16 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/model/io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/model/io/xpp3/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/model/merge/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/org.apache.maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/org.apache.maven/maven-model/
+│  -rw-r--r--  2.0 unx      533 b- defN 19-Nov-07 12:32 META-INF/DEPENDENCIES
+│ --rw-r--r--  2.0 unx    11358 b- defN 19-Nov-07 12:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      168 b- defN 19-Nov-07 12:32 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx    11358 b- defN 19-Nov-07 12:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx     1587 b- defN 19-Nov-07 12:32 org/apache/maven/model/io/xpp3/package-info.java
+│  -rw-r--r--  2.0 unx   116600 b- defN 19-Nov-07 12:32 org/apache/maven/model/merge/ModelMerger.java
+│  -rw-r--r--  2.0 unx      926 b- defN 19-Nov-07 12:32 org/apache/maven/model/merge/package-info.java
+│  -rw-r--r--  2.0 unx     1053 b- defN 19-Nov-07 12:32 org/apache/maven/model/package-info.java
+│  -rw-r--r--  2.0 unx    11180 b- defN 19-Nov-07 12:32 org/apache/maven/model/Activation.java
+│  -rw-r--r--  2.0 unx     6200 b- defN 19-Nov-07 12:32 org/apache/maven/model/ActivationFile.java
+│  -rw-r--r--  2.0 unx     8587 b- defN 19-Nov-07 12:32 org/apache/maven/model/ActivationOS.java
+├── zipnote «TEMP»/diffoscope_0kyxzgyz_target/tmpic1u2tmo.zip
+│ @@ -33,18 +33,18 @@
+│  
+│  Filename: META-INF/maven/org.apache.maven/maven-model/
+│  Comment: 
+│  
+│  Filename: META-INF/DEPENDENCIES
+│  Comment: 
+│  
+│ -Filename: META-INF/LICENSE
+│ +Filename: META-INF/NOTICE
+│  Comment: 
+│  
+│ -Filename: META-INF/NOTICE
+│ +Filename: META-INF/LICENSE
+│  Comment: 
+│  
+│  Filename: org/apache/maven/model/io/xpp3/package-info.java
+│  Comment: 
+│  
+│  Filename: org/apache/maven/model/merge/ModelMerger.java
+│  Comment:
+
+target/reference/maven-artifact-3.8.1-sources.jar maven-artifact/target/maven-artifact-3.8.1-sources.jar
+--- target/reference/maven-artifact-3.8.1-sources.jar
++++ maven-artifact/target/maven-artifact-3.8.1-sources.jar
+├── zipinfo {}
+│ @@ -16,16 +16,16 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/repository/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/repository/legacy/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/repository/legacy/metadata/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/org.apache.maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/org.apache.maven/maven-artifact/
+│  -rw-r--r--  2.0 unx      810 b- defN 19-Nov-07 12:32 META-INF/DEPENDENCIES
+│ --rw-r--r--  2.0 unx    11358 b- defN 19-Nov-07 12:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      171 b- defN 19-Nov-07 12:32 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx    11358 b- defN 19-Nov-07 12:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx     4379 b- defN 19-Nov-07 12:32 org/apache/maven/artifact/Artifact.java
+│  -rw-r--r--  2.0 unx     7253 b- defN 19-Nov-07 12:32 org/apache/maven/artifact/ArtifactUtils.java
+│  -rw-r--r--  2.0 unx    15553 b- defN 19-Nov-07 12:32 org/apache/maven/artifact/DefaultArtifact.java
+│  -rw-r--r--  2.0 unx     2916 b- defN 19-Nov-07 12:32 org/apache/maven/artifact/InvalidArtifactRTException.java
+│  -rw-r--r--  2.0 unx     1842 b- defN 19-Nov-07 12:32 org/apache/maven/artifact/handler/ArtifactHandler.java
+│  -rw-r--r--  2.0 unx     1161 b- defN 19-Nov-07 12:32 org/apache/maven/artifact/metadata/ArtifactMetadata.java
+│  -rw-r--r--  2.0 unx     4035 b- defN 19-Nov-07 12:32 org/apache/maven/artifact/repository/ArtifactRepository.java
+├── zipnote «TEMP»/diffoscope_0gs_89tu_target/tmp45m2ofoc.zip
+│ @@ -57,18 +57,18 @@
+│  
+│  Filename: META-INF/maven/org.apache.maven/maven-artifact/
+│  Comment: 
+│  
+│  Filename: META-INF/DEPENDENCIES
+│  Comment: 
+│  
+│ -Filename: META-INF/LICENSE
+│ +Filename: META-INF/NOTICE
+│  Comment: 
+│  
+│ -Filename: META-INF/NOTICE
+│ +Filename: META-INF/LICENSE
+│  Comment: 
+│  
+│  Filename: org/apache/maven/artifact/Artifact.java
+│  Comment: 
+│  
+│  Filename: org/apache/maven/artifact/ArtifactUtils.java
+│  Comment:
+
+target/reference/maven-plugin-api-3.8.1-sources.jar maven-plugin-api/target/maven-plugin-api-3.8.1-sources.jar
+--- target/reference/maven-plugin-api-3.8.1-sources.jar
++++ maven-plugin-api/target/maven-plugin-api-3.8.1-sources.jar
+├── zipinfo {}
+│ @@ -12,16 +12,16 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/plugin/lifecycle/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/plugin/lifecycle/io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/plugin/lifecycle/io/xpp3/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/org.apache.maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/org.apache.maven/maven-plugin-api/
+│  -rw-r--r--  2.0 unx     2982 b- defN 19-Nov-07 12:32 META-INF/DEPENDENCIES
+│ --rw-r--r--  2.0 unx    11358 b- defN 19-Nov-07 12:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      173 b- defN 19-Nov-07 12:32 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx    11358 b- defN 19-Nov-07 12:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx     3094 b- defN 19-Nov-07 12:32 org/apache/maven/monitor/logging/DefaultLog.java
+│  -rw-r--r--  2.0 unx     7846 b- defN 19-Nov-07 12:32 org/apache/maven/plugin/AbstractMojo.java
+│  -rw-r--r--  2.0 unx     1494 b- defN 19-Nov-07 12:32 org/apache/maven/plugin/AbstractMojoExecutionException.java
+│  -rw-r--r--  2.0 unx     1570 b- defN 19-Nov-07 12:32 org/apache/maven/plugin/ContextEnabled.java
+│  -rw-r--r--  2.0 unx     3071 b- defN 19-Nov-07 12:32 org/apache/maven/plugin/Mojo.java
+│  -rw-r--r--  2.0 unx     2608 b- defN 19-Nov-07 12:32 org/apache/maven/plugin/MojoExecutionException.java
+│  -rw-r--r--  2.0 unx     2284 b- defN 19-Nov-07 12:32 org/apache/maven/plugin/MojoFailureException.java
+├── zipnote «TEMP»/diffoscope_nu3salla_target/tmp1if6jt2v.zip
+│ @@ -45,18 +45,18 @@
+│  
+│  Filename: META-INF/maven/org.apache.maven/maven-plugin-api/
+│  Comment: 
+│  
+│  Filename: META-INF/DEPENDENCIES
+│  Comment: 
+│  
+│ -Filename: META-INF/LICENSE
+│ +Filename: META-INF/NOTICE
+│  Comment: 
+│  
+│ -Filename: META-INF/NOTICE
+│ +Filename: META-INF/LICENSE
+│  Comment: 
+│  
+│  Filename: org/apache/maven/monitor/logging/DefaultLog.java
+│  Comment: 
+│  
+│  Filename: org/apache/maven/plugin/AbstractMojo.java
+│  Comment:
+
+target/reference/maven-builder-support-3.8.1-sources.jar maven-builder-support/target/maven-builder-support-3.8.1-sources.jar
+--- target/reference/maven-builder-support-3.8.1-sources.jar
++++ maven-builder-support/target/maven-builder-support-3.8.1-sources.jar
+├── zipinfo {}
+│ @@ -5,16 +5,16 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/building/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/org.apache.maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/org.apache.maven/maven-builder-support/
+│  -rw-r--r--  2.0 unx      271 b- defN 19-Nov-07 12:32 META-INF/DEPENDENCIES
+│ --rw-r--r--  2.0 unx    11358 b- defN 19-Nov-07 12:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      178 b- defN 19-Nov-07 12:32 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx    11358 b- defN 19-Nov-07 12:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx     4666 b- defN 19-Nov-07 12:32 org/apache/maven/building/DefaultProblem.java
+│  -rw-r--r--  2.0 unx     1830 b- defN 19-Nov-07 12:32 org/apache/maven/building/DefaultProblemCollector.java
+│  -rw-r--r--  2.0 unx     1990 b- defN 19-Nov-07 12:32 org/apache/maven/building/FileSource.java
+│  -rw-r--r--  2.0 unx     3582 b- defN 19-Nov-07 12:32 org/apache/maven/building/Problem.java
+│  -rw-r--r--  2.0 unx     2117 b- defN 19-Nov-07 12:32 org/apache/maven/building/ProblemCollector.java
+│  -rw-r--r--  2.0 unx     1374 b- defN 19-Nov-07 12:32 org/apache/maven/building/ProblemCollectorFactory.java
+│  -rw-r--r--  2.0 unx     1752 b- defN 19-Nov-07 12:32 org/apache/maven/building/Source.java
+├── zipnote «TEMP»/diffoscope_zguzx5y0_target/tmpsmgjg_xm.zip
+│ @@ -24,18 +24,18 @@
+│  
+│  Filename: META-INF/maven/org.apache.maven/maven-builder-support/
+│  Comment: 
+│  
+│  Filename: META-INF/DEPENDENCIES
+│  Comment: 
+│  
+│ -Filename: META-INF/LICENSE
+│ +Filename: META-INF/NOTICE
+│  Comment: 
+│  
+│ -Filename: META-INF/NOTICE
+│ +Filename: META-INF/LICENSE
+│  Comment: 
+│  
+│  Filename: org/apache/maven/building/DefaultProblem.java
+│  Comment: 
+│  
+│  Filename: org/apache/maven/building/DefaultProblemCollector.java
+│  Comment:
+
+target/reference/maven-model-builder-3.8.1-sources.jar maven-model-builder/target/maven-model-builder-3.8.1-sources.jar
+--- target/reference/maven-model-builder-3.8.1-sources.jar
++++ maven-model-builder/target/maven-model-builder-3.8.1-sources.jar
+├── zipinfo {}
+│ @@ -21,16 +21,16 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/model/resolution/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/model/superpom/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/model/validation/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/org.apache.maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/org.apache.maven/maven-model-builder/
+│  -rw-r--r--  2.0 unx     2195 b- defN 19-Nov-07 12:32 META-INF/DEPENDENCIES
+│ --rw-r--r--  2.0 unx    11358 b- defN 19-Nov-07 12:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      176 b- defN 19-Nov-07 12:32 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx    11358 b- defN 19-Nov-07 12:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx     1246 b- defN 19-Nov-07 12:32 org/apache/maven/model/building/AbstractModelBuildingListener.java
+│  -rw-r--r--  2.0 unx    55959 b- defN 19-Nov-07 12:32 org/apache/maven/model/building/DefaultModelBuilder.java
+│  -rw-r--r--  2.0 unx     9837 b- defN 19-Nov-07 12:32 org/apache/maven/model/building/DefaultModelBuilderFactory.java
+│  -rw-r--r--  2.0 unx     1733 b- defN 19-Nov-07 12:32 org/apache/maven/model/building/DefaultModelBuildingEvent.java
+│  -rw-r--r--  2.0 unx    10110 b- defN 19-Nov-07 12:32 org/apache/maven/model/building/DefaultModelBuildingRequest.java
+│  -rw-r--r--  2.0 unx     4560 b- defN 19-Nov-07 12:32 org/apache/maven/model/building/DefaultModelBuildingResult.java
+│  -rw-r--r--  2.0 unx     5680 b- defN 19-Nov-07 12:32 org/apache/maven/model/building/DefaultModelProblem.java
+├── zipnote «TEMP»/diffoscope_a3kro57o_target/tmpa0dt2jsv.zip
+│ @@ -72,18 +72,18 @@
+│  
+│  Filename: META-INF/maven/org.apache.maven/maven-model-builder/
+│  Comment: 
+│  
+│  Filename: META-INF/DEPENDENCIES
+│  Comment: 
+│  
+│ -Filename: META-INF/LICENSE
+│ +Filename: META-INF/NOTICE
+│  Comment: 
+│  
+│ -Filename: META-INF/NOTICE
+│ +Filename: META-INF/LICENSE
+│  Comment: 
+│  
+│  Filename: org/apache/maven/model/building/AbstractModelBuildingListener.java
+│  Comment: 
+│  
+│  Filename: org/apache/maven/model/building/DefaultModelBuilder.java
+│  Comment:
+
+target/reference/maven-settings-3.8.1-sources.jar maven-settings/target/maven-settings-3.8.1-sources.jar
+--- target/reference/maven-settings-3.8.1-sources.jar
++++ maven-settings/target/maven-settings-3.8.1-sources.jar
+├── zipinfo {}
+│ @@ -7,16 +7,16 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/settings/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/settings/io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/settings/io/xpp3/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/org.apache.maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/org.apache.maven/maven-settings/
+│  -rw-r--r--  2.0 unx      536 b- defN 19-Nov-07 12:32 META-INF/DEPENDENCIES
+│ --rw-r--r--  2.0 unx    11358 b- defN 19-Nov-07 12:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      171 b- defN 19-Nov-07 12:32 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx    11358 b- defN 19-Nov-07 12:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx     1693 b- defN 19-Nov-07 12:32 org/apache/maven/settings/RuntimeInfo.java
+│  -rw-r--r--  2.0 unx     5556 b- defN 19-Nov-07 12:32 org/apache/maven/settings/Activation.java
+│  -rw-r--r--  2.0 unx     2880 b- defN 19-Nov-07 12:32 org/apache/maven/settings/ActivationFile.java
+│  -rw-r--r--  2.0 unx     3879 b- defN 19-Nov-07 12:32 org/apache/maven/settings/ActivationOS.java
+│  -rw-r--r--  2.0 unx     2729 b- defN 19-Nov-07 12:32 org/apache/maven/settings/ActivationProperty.java
+│  -rw-r--r--  2.0 unx     1729 b- defN 19-Nov-07 12:32 org/apache/maven/settings/IdentifiableBase.java
+│  -rw-r--r--  2.0 unx     6156 b- defN 19-Nov-07 12:32 org/apache/maven/settings/Mirror.java
+├── zipnote «TEMP»/diffoscope_u7wr3q1m_target/tmp31bpdico.zip
+│ @@ -30,18 +30,18 @@
+│  
+│  Filename: META-INF/maven/org.apache.maven/maven-settings/
+│  Comment: 
+│  
+│  Filename: META-INF/DEPENDENCIES
+│  Comment: 
+│  
+│ -Filename: META-INF/LICENSE
+│ +Filename: META-INF/NOTICE
+│  Comment: 
+│  
+│ -Filename: META-INF/NOTICE
+│ +Filename: META-INF/LICENSE
+│  Comment: 
+│  
+│  Filename: org/apache/maven/settings/RuntimeInfo.java
+│  Comment: 
+│  
+│  Filename: org/apache/maven/settings/Activation.java
+│  Comment:
+
+target/reference/maven-settings-builder-3.8.1-sources.jar maven-settings-builder/target/maven-settings-builder-3.8.1-sources.jar
+--- target/reference/maven-settings-builder-3.8.1-sources.jar
++++ maven-settings-builder/target/maven-settings-builder-3.8.1-sources.jar
+├── zipinfo {}
+│ @@ -10,16 +10,16 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/settings/io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/settings/merge/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/settings/validation/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/org.apache.maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/org.apache.maven/maven-settings-builder/
+│  -rw-r--r--  2.0 unx     1942 b- defN 19-Nov-07 12:32 META-INF/DEPENDENCIES
+│ --rw-r--r--  2.0 unx    11358 b- defN 19-Nov-07 12:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      179 b- defN 19-Nov-07 12:32 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx    11358 b- defN 19-Nov-07 12:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx    10193 b- defN 19-Nov-07 12:32 org/apache/maven/settings/building/DefaultSettingsBuilder.java
+│  -rw-r--r--  2.0 unx     2564 b- defN 19-Nov-07 12:32 org/apache/maven/settings/building/DefaultSettingsBuilderFactory.java
+│  -rw-r--r--  2.0 unx     4096 b- defN 19-Nov-07 12:32 org/apache/maven/settings/building/DefaultSettingsBuildingRequest.java
+│  -rw-r--r--  2.0 unx     1717 b- defN 19-Nov-07 12:32 org/apache/maven/settings/building/DefaultSettingsBuildingResult.java
+│  -rw-r--r--  2.0 unx     4727 b- defN 19-Nov-07 12:32 org/apache/maven/settings/building/DefaultSettingsProblem.java
+│  -rw-r--r--  2.0 unx     2191 b- defN 19-Nov-07 12:32 org/apache/maven/settings/building/DefaultSettingsProblemCollector.java
+│  -rw-r--r--  2.0 unx     1760 b- defN 19-Nov-07 12:32 org/apache/maven/settings/building/FileSettingsSource.java
+├── zipnote «TEMP»/diffoscope_cwtpmprm_target/tmpowue67k1.zip
+│ @@ -39,18 +39,18 @@
+│  
+│  Filename: META-INF/maven/org.apache.maven/maven-settings-builder/
+│  Comment: 
+│  
+│  Filename: META-INF/DEPENDENCIES
+│  Comment: 
+│  
+│ -Filename: META-INF/LICENSE
+│ +Filename: META-INF/NOTICE
+│  Comment: 
+│  
+│ -Filename: META-INF/NOTICE
+│ +Filename: META-INF/LICENSE
+│  Comment: 
+│  
+│  Filename: org/apache/maven/settings/building/DefaultSettingsBuilder.java
+│  Comment: 
+│  
+│  Filename: org/apache/maven/settings/building/DefaultSettingsBuilderFactory.java
+│  Comment:
+
+target/reference/maven-repository-metadata-3.8.1-sources.jar maven-repository-metadata/target/maven-repository-metadata-3.8.1-sources.jar
+--- target/reference/maven-repository-metadata-3.8.1-sources.jar
++++ maven-repository-metadata/target/maven-repository-metadata-3.8.1-sources.jar
+├── zipinfo {}
+│ @@ -9,16 +9,16 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/artifact/repository/metadata/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/artifact/repository/metadata/io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/artifact/repository/metadata/io/xpp3/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/org.apache.maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/org.apache.maven/maven-repository-metadata/
+│  -rw-r--r--  2.0 unx      553 b- defN 19-Nov-07 12:32 META-INF/DEPENDENCIES
+│ --rw-r--r--  2.0 unx    11358 b- defN 19-Nov-07 12:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      188 b- defN 19-Nov-07 12:32 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx    11358 b- defN 19-Nov-07 12:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx    10224 b- defN 19-Nov-07 12:32 org/apache/maven/artifact/repository/metadata/Metadata.java
+│  -rw-r--r--  2.0 unx     2757 b- defN 19-Nov-07 12:32 org/apache/maven/artifact/repository/metadata/Plugin.java
+│  -rw-r--r--  2.0 unx     2915 b- defN 19-Nov-07 12:32 org/apache/maven/artifact/repository/metadata/Snapshot.java
+│  -rw-r--r--  2.0 unx     3745 b- defN 19-Nov-07 12:32 org/apache/maven/artifact/repository/metadata/SnapshotVersion.java
+│  -rw-r--r--  2.0 unx     7452 b- defN 19-Nov-07 12:32 org/apache/maven/artifact/repository/metadata/Versioning.java
+│  -rw-r--r--  2.0 unx    33337 b- defN 19-Nov-07 12:32 org/apache/maven/artifact/repository/metadata/io/xpp3/MetadataXpp3Reader.java
+│  -rw-r--r--  2.0 unx    10843 b- defN 19-Nov-07 12:32 org/apache/maven/artifact/repository/metadata/io/xpp3/MetadataXpp3Writer.java
+├── zipnote «TEMP»/diffoscope_u8m6ujpg_target/tmpxpi6gzkz.zip
+│ @@ -36,18 +36,18 @@
+│  
+│  Filename: META-INF/maven/org.apache.maven/maven-repository-metadata/
+│  Comment: 
+│  
+│  Filename: META-INF/DEPENDENCIES
+│  Comment: 
+│  
+│ -Filename: META-INF/LICENSE
+│ +Filename: META-INF/NOTICE
+│  Comment: 
+│  
+│ -Filename: META-INF/NOTICE
+│ +Filename: META-INF/LICENSE
+│  Comment: 
+│  
+│  Filename: org/apache/maven/artifact/repository/metadata/Metadata.java
+│  Comment: 
+│  
+│  Filename: org/apache/maven/artifact/repository/metadata/Plugin.java
+│  Comment:
+
+target/reference/maven-resolver-provider-3.8.1-sources.jar maven-resolver-provider/target/maven-resolver-provider-3.8.1-sources.jar
+--- target/reference/maven-resolver-provider-3.8.1-sources.jar
++++ maven-resolver-provider/target/maven-resolver-provider-3.8.1-sources.jar
+├── zipinfo {}
+│ @@ -6,16 +6,16 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/repository/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/repository/internal/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/org.apache.maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/org.apache.maven/maven-resolver-provider/
+│  -rw-r--r--  2.0 unx     5555 b- defN 19-Nov-07 12:32 META-INF/DEPENDENCIES
+│ --rw-r--r--  2.0 unx    11358 b- defN 19-Nov-07 12:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      189 b- defN 19-Nov-07 12:32 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx    11358 b- defN 19-Nov-07 12:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx     6346 b- defN 19-Nov-07 12:32 org/apache/maven/repository/internal/ArtifactDescriptorReaderDelegate.java
+│  -rw-r--r--  2.0 unx     3055 b- defN 19-Nov-07 12:32 org/apache/maven/repository/internal/ArtifactDescriptorUtils.java
+│  -rw-r--r--  2.0 unx    16514 b- defN 19-Nov-07 12:32 org/apache/maven/repository/internal/DefaultArtifactDescriptorReader.java
+│  -rw-r--r--  2.0 unx     3467 b- defN 19-Nov-07 12:32 org/apache/maven/repository/internal/DefaultModelCache.java
+│  -rw-r--r--  2.0 unx    11352 b- defN 19-Nov-07 12:32 org/apache/maven/repository/internal/DefaultModelResolver.java
+│  -rw-r--r--  2.0 unx    10863 b- defN 19-Nov-07 12:32 org/apache/maven/repository/internal/DefaultVersionRangeResolver.java
+│  -rw-r--r--  2.0 unx    23286 b- defN 19-Nov-07 12:32 org/apache/maven/repository/internal/DefaultVersionResolver.java
+├── zipnote «TEMP»/diffoscope_sbm937iu_target/tmp67sy64py.zip
+│ @@ -27,18 +27,18 @@
+│  
+│  Filename: META-INF/maven/org.apache.maven/maven-resolver-provider/
+│  Comment: 
+│  
+│  Filename: META-INF/DEPENDENCIES
+│  Comment: 
+│  
+│ -Filename: META-INF/LICENSE
+│ +Filename: META-INF/NOTICE
+│  Comment: 
+│  
+│ -Filename: META-INF/NOTICE
+│ +Filename: META-INF/LICENSE
+│  Comment: 
+│  
+│  Filename: org/apache/maven/repository/internal/ArtifactDescriptorReaderDelegate.java
+│  Comment: 
+│  
+│  Filename: org/apache/maven/repository/internal/ArtifactDescriptorUtils.java
+│  Comment:
+
+target/reference/maven-core-3.8.1-sources.jar maven-core/target/maven-core-3.8.1-sources.jar
+--- target/reference/maven-core-3.8.1-sources.jar
++++ maven-core/target/maven-core-3.8.1-sources.jar
+├── zipinfo {}
+│ @@ -70,16 +70,16 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/toolchain/model/io/xpp3/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/plexus/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/messages/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/org.apache.maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/org.apache.maven/maven-core/
+│  -rw-r--r--  2.0 unx     8714 b- defN 19-Nov-07 12:32 META-INF/DEPENDENCIES
+│ --rw-r--r--  2.0 unx    11358 b- defN 19-Nov-07 12:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      167 b- defN 19-Nov-07 12:32 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx    11358 b- defN 19-Nov-07 12:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx     2775 b- defN 19-Nov-07 12:32 org/apache/maven/AbstractMavenLifecycleParticipant.java
+│  -rw-r--r--  2.0 unx     1810 b- defN 19-Nov-07 12:32 org/apache/maven/ArtifactFilterManager.java
+│  -rw-r--r--  2.0 unx     1161 b- defN 19-Nov-07 12:32 org/apache/maven/ArtifactFilterManagerDelegate.java
+│  -rw-r--r--  2.0 unx     1181 b- defN 19-Nov-07 12:32 org/apache/maven/BuildAbort.java
+│  -rw-r--r--  2.0 unx     1241 b- defN 19-Nov-07 12:32 org/apache/maven/BuildFailureException.java
+│  -rw-r--r--  2.0 unx     3412 b- defN 19-Nov-07 12:32 org/apache/maven/DefaultArtifactFilterManager.java
+│  -rw-r--r--  2.0 unx    19570 b- defN 19-Nov-07 12:32 org/apache/maven/DefaultMaven.java
+├── zipnote «TEMP»/diffoscope_sxsw17b8_target/tmpk8nt7yx0.zip
+│ @@ -219,18 +219,18 @@
+│  
+│  Filename: META-INF/maven/org.apache.maven/maven-core/
+│  Comment: 
+│  
+│  Filename: META-INF/DEPENDENCIES
+│  Comment: 
+│  
+│ -Filename: META-INF/LICENSE
+│ +Filename: META-INF/NOTICE
+│  Comment: 
+│  
+│ -Filename: META-INF/NOTICE
+│ +Filename: META-INF/LICENSE
+│  Comment: 
+│  
+│  Filename: org/apache/maven/AbstractMavenLifecycleParticipant.java
+│  Comment: 
+│  
+│  Filename: org/apache/maven/ArtifactFilterManager.java
+│  Comment:
+
+target/reference/maven-slf4j-provider-3.8.1-sources.jar maven-slf4j-provider/target/maven-slf4j-provider-3.8.1-sources.jar
+--- target/reference/maven-slf4j-provider-3.8.1-sources.jar
++++ maven-slf4j-provider/target/maven-slf4j-provider-3.8.1-sources.jar
+├── zipinfo {}
+│ @@ -4,16 +4,16 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/slf4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/slf4j/impl/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/org.apache.maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/org.apache.maven/maven-slf4j-provider/
+│  -rw-r--r--  2.0 unx     1017 b- defN 19-Nov-07 12:32 META-INF/DEPENDENCIES
+│ --rw-r--r--  2.0 unx    11358 b- defN 19-Nov-07 12:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      184 b- defN 19-Nov-07 12:32 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx    11358 b- defN 19-Nov-07 12:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx     3826 b- defN 19-Nov-07 12:32 org/slf4j/impl/MavenSimpleLogger.java
+│  -rw-r--r--  2.0 unx     1545 b- defN 19-Nov-07 12:32 org/slf4j/impl/MavenSimpleLoggerFactory.java
+│  -rw-r--r--  2.0 unx     2752 b- defN 19-Nov-07 12:32 org/slf4j/impl/StaticLoggerBinder.java
+│  -rw-r--r--  2.0 unx     1501 b- defN 19-Nov-07 12:32 org/slf4j/impl/OutputChoice.java
+│  -rw-r--r--  2.0 unx    22259 b- defN 19-Nov-07 12:32 org/slf4j/impl/SimpleLogger.java
+│  -rw-r--r--  2.0 unx     7503 b- defN 19-Nov-07 12:32 org/slf4j/impl/SimpleLoggerConfiguration.java
+│  -rw-r--r--  2.0 unx     2734 b- defN 19-Nov-07 12:32 org/slf4j/impl/SimpleLoggerFactory.java
+├── zipnote «TEMP»/diffoscope_ur44xhoo_target/tmpx6u9m00v.zip
+│ @@ -21,18 +21,18 @@
+│  
+│  Filename: META-INF/maven/org.apache.maven/maven-slf4j-provider/
+│  Comment: 
+│  
+│  Filename: META-INF/DEPENDENCIES
+│  Comment: 
+│  
+│ -Filename: META-INF/LICENSE
+│ +Filename: META-INF/NOTICE
+│  Comment: 
+│  
+│ -Filename: META-INF/NOTICE
+│ +Filename: META-INF/LICENSE
+│  Comment: 
+│  
+│  Filename: org/slf4j/impl/MavenSimpleLogger.java
+│  Comment: 
+│  
+│  Filename: org/slf4j/impl/MavenSimpleLoggerFactory.java
+│  Comment:
+
+target/reference/maven-embedder-3.8.1-sources.jar maven-embedder/target/maven-embedder-3.8.1-sources.jar
+--- target/reference/maven-embedder-3.8.1-sources.jar
++++ maven-embedder/target/maven-embedder-3.8.1-sources.jar
+├── zipinfo {}
+│ @@ -17,16 +17,16 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/cli/internal/extension/model/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/cli/internal/extension/model/io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/cli/internal/extension/model/io/xpp3/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/org.apache.maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/org.apache.maven/maven-embedder/
+│  -rw-r--r--  2.0 unx     8502 b- defN 19-Nov-07 12:32 META-INF/DEPENDENCIES
+│ --rw-r--r--  2.0 unx    11358 b- defN 19-Nov-07 12:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      171 b- defN 19-Nov-07 12:32 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx    11358 b- defN 19-Nov-07 12:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx    10853 b- defN 19-Nov-07 12:32 org/apache/maven/cli/CLIManager.java
+│  -rw-r--r--  2.0 unx     7064 b- defN 19-Nov-07 12:32 org/apache/maven/cli/CLIReportingUtils.java
+│  -rw-r--r--  2.0 unx     4144 b- defN 19-Nov-07 12:32 org/apache/maven/cli/CleanArgument.java
+│  -rw-r--r--  2.0 unx     2832 b- defN 19-Nov-07 12:32 org/apache/maven/cli/CliRequest.java
+│  -rw-r--r--  2.0 unx    66529 b- defN 19-Nov-07 12:32 org/apache/maven/cli/MavenCli.java
+│  -rw-r--r--  2.0 unx     1531 b- defN 19-Nov-07 12:32 org/apache/maven/cli/ResolveFile.java
+│  -rw-r--r--  2.0 unx     1069 b- defN 19-Nov-07 12:32 org/apache/maven/cli/configuration/ConfigurationProcessor.java
+├── zipnote «TEMP»/diffoscope_fbt00bbt_target/tmpe04mcg62.zip
+│ @@ -60,18 +60,18 @@
+│  
+│  Filename: META-INF/maven/org.apache.maven/maven-embedder/
+│  Comment: 
+│  
+│  Filename: META-INF/DEPENDENCIES
+│  Comment: 
+│  
+│ -Filename: META-INF/LICENSE
+│ +Filename: META-INF/NOTICE
+│  Comment: 
+│  
+│ -Filename: META-INF/NOTICE
+│ +Filename: META-INF/LICENSE
+│  Comment: 
+│  
+│  Filename: org/apache/maven/cli/CLIManager.java
+│  Comment: 
+│  
+│  Filename: org/apache/maven/cli/CLIReportingUtils.java
+│  Comment:
+
+target/reference/maven-compat-3.8.1-sources.jar maven-compat/target/maven-compat-3.8.1-sources.jar
+--- target/reference/maven-compat-3.8.1-sources.jar
++++ maven-compat/target/maven-compat-3.8.1-sources.jar
+├── zipinfo {}
+│ @@ -37,16 +37,16 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/usability/plugin/io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 org/apache/maven/usability/plugin/io/xpp3/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/plugin-expressions/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/org.apache.maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 META-INF/maven/org.apache.maven/maven-compat/
+│  -rw-r--r--  2.0 unx     9136 b- defN 19-Nov-07 12:32 META-INF/DEPENDENCIES
+│ --rw-r--r--  2.0 unx    11358 b- defN 19-Nov-07 12:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      169 b- defN 19-Nov-07 12:32 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx    11358 b- defN 19-Nov-07 12:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx     3682 b- defN 19-Nov-07 12:32 org/apache/maven/artifact/ArtifactScopeEnum.java
+│  -rw-r--r--  2.0 unx     3308 b- defN 19-Nov-07 12:32 org/apache/maven/artifact/ArtifactStatus.java
+│  -rw-r--r--  2.0 unx     1933 b- defN 19-Nov-07 12:32 org/apache/maven/artifact/UnknownRepositoryLayoutException.java
+│  -rw-r--r--  2.0 unx     2634 b- defN 19-Nov-07 12:32 org/apache/maven/artifact/deployer/ArtifactDeployer.java
+│  -rw-r--r--  2.0 unx     1346 b- defN 19-Nov-07 12:32 org/apache/maven/artifact/deployer/ArtifactDeploymentException.java
+│  -rw-r--r--  2.0 unx     7059 b- defN 19-Nov-07 12:32 org/apache/maven/artifact/deployer/DefaultArtifactDeployer.java
+│  -rw-r--r--  2.0 unx     1394 b- defN 19-Nov-07 12:32 org/apache/maven/artifact/installer/ArtifactInstallationException.java
+├── zipnote «TEMP»/diffoscope_jxui_6ci_target/tmptwcb3phn.zip
+│ @@ -120,18 +120,18 @@
+│  
+│  Filename: META-INF/maven/org.apache.maven/maven-compat/
+│  Comment: 
+│  
+│  Filename: META-INF/DEPENDENCIES
+│  Comment: 
+│  
+│ -Filename: META-INF/LICENSE
+│ +Filename: META-INF/NOTICE
+│  Comment: 
+│  
+│ -Filename: META-INF/NOTICE
+│ +Filename: META-INF/LICENSE
+│  Comment: 
+│  
+│  Filename: org/apache/maven/artifact/ArtifactScopeEnum.java
+│  Comment: 
+│  
+│  Filename: org/apache/maven/artifact/ArtifactStatus.java
+│  Comment:
+
+target/reference/apache-maven-3.8.1-src.zip apache-maven/target/apache-maven-3.8.1-src.zip
+--- target/reference/apache-maven-3.8.1-src.zip
++++ apache-maven/target/apache-maven-3.8.1-src.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 4608555 bytes, number of entries: 3451
+│ +Zip file size: 4608595 bytes, number of entries: 3451
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 apache-maven-3.8.1/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 apache-maven-3.8.1/.github/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 apache-maven-3.8.1/apache-maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 apache-maven-3.8.1/apache-maven/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 apache-maven-3.8.1/apache-maven/src/bin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 apache-maven-3.8.1/apache-maven/src/conf/
+│  drwxr-xr-x  2.0 unx        0 b- stor 19-Nov-07 12:32 apache-maven-3.8.1/apache-maven/src/conf/logging/
+│ @@ -1431,19 +1431,19 @@
+│  -rw-r--r--  2.0 unx     7448 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/Jenkinsfile
+│  -rw-r--r--  2.0 unx    11560 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/LICENSE
+│  -rw-r--r--  2.0 unx      171 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/NOTICE
+│  -rw-r--r--  2.0 unx     4206 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/README.md
+│  -rw-r--r--  2.0 unx     2612 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/apache-maven/README.txt
+│  -rw-r--r--  2.0 unx    10982 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/apache-maven/pom.xml
+│  -rw-r--r--  2.0 unx      228 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/apache-maven/src/bin/m2.conf
+│ --rw-r--r--  2.0 unx     5741 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/apache-maven/src/bin/mvn
+│ +-rw-r--r--  2.0 unx     5940 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/apache-maven/src/bin/mvn
+│  -rw-r--r--  2.0 unx     6349 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/apache-maven/src/bin/mvn.cmd
+│ --rw-r--r--  2.0 unx     1485 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/apache-maven/src/bin/mvnDebug
+│ +-rw-r--r--  2.0 unx     1519 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/apache-maven/src/bin/mvnDebug
+│  -rw-r--r--  2.0 unx     1668 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/apache-maven/src/bin/mvnDebug.cmd
+│ --rw-r--r--  2.0 unx     1532 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/apache-maven/src/bin/mvnyjp
+│ +-rw-r--r--  2.0 unx     1567 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/apache-maven/src/bin/mvnyjp
+│  -rw-r--r--  2.0 unx     1551 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/apache-maven/src/conf/logging/simplelogger.properties
+│  -rw-r--r--  2.0 unx    10741 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/apache-maven/src/conf/settings.xml
+│  -rw-r--r--  2.0 unx     3747 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/apache-maven/src/conf/toolchains.xml
+│  -rw-r--r--  2.0 unx      154 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/apache-maven/src/lib/ext/README.txt
+│  -rw-r--r--  2.0 unx      399 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/apache-maven/src/lib/jansi-native/README.txt
+│  -rw-r--r--  2.0 unx     3941 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/apache-maven/src/main/appended-resources/META-INF/LICENSE.vm
+│  -rw-r--r--  2.0 unx     5783 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/apache-maven/src/main/appended-resources/META-INF/NOTICE.vm
+│ @@ -3446,8 +3446,8 @@
+│  -rw-r--r--  2.0 unx     1434 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/maven-slf4j-provider/src/site/site.xml
+│  -rw-r--r--  2.0 unx    26435 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/pom.xml
+│  -rw-r--r--  2.0 unx   104566 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/src/site/resources/images/maven-deps.png
+│  -rw-r--r--  2.0 unx     2715 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/src/site/site.xml
+│  -rw-r--r--  2.0 unx     5555 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/src/site/xdoc/index.xml
+│  -rw-r--r--  2.0 unx    19887 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/src/site/xdoc/maven-deps.odg
+│  -rw-r--r--  2.0 unx    10214 b- defN 19-Nov-07 12:32 apache-maven-3.8.1/DEPENDENCIES
+│ -3451 files, 8816231 bytes uncompressed, 3660341 bytes compressed:  58.5%
+│ +3451 files, 8816499 bytes uncompressed, 3660381 bytes compressed:  58.5%
+├── apache-maven-3.8.1/apache-maven/src/bin/mvn
+│ @@ -1,199 +1,199 @@
+│ -#!/bin/sh
+│ -
+│ -# Licensed to the Apache Software Foundation (ASF) under one
+│ -# or more contributor license agreements.  See the NOTICE file
+│ -# distributed with this work for additional information
+│ -# regarding copyright ownership.  The ASF licenses this file
+│ -# to you under the Apache License, Version 2.0 (the
+│ -# "License"); you may not use this file except in compliance
+│ -# with the License.  You may obtain a copy of the License at
+│ -#
+│ -#    http://www.apache.org/licenses/LICENSE-2.0
+│ -#
+│ -# Unless required by applicable law or agreed to in writing,
+│ -# software distributed under the License is distributed on an
+│ -# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+│ -# KIND, either express or implied.  See the License for the
+│ -# specific language governing permissions and limitations
+│ -# under the License.
+│ -
+│ -# -----------------------------------------------------------------------------
+│ -# Apache Maven Startup Script
+│ -#
+│ -# Environment Variable Prerequisites
+│ -#
+│ -#   JAVA_HOME       Must point at your Java Development Kit installation.
+│ -#   MAVEN_OPTS      (Optional) Java runtime options used when Maven is executed.
+│ -#   MAVEN_SKIP_RC   (Optional) Flag to disable loading of mavenrc files.
+│ -# -----------------------------------------------------------------------------
+│ -
+│ -if [ -z "$MAVEN_SKIP_RC" ] ; then
+│ -
+│ -  if [ -f /etc/mavenrc ] ; then
+│ -    . /etc/mavenrc
+│ -  fi
+│ -
+│ -  if [ -f "$HOME/.mavenrc" ] ; then
+│ -    . "$HOME/.mavenrc"
+│ -  fi
+│ -
+│ -fi
+│ -
+│ -# OS specific support. $var _must_ be set to either true or false.
+│ -cygwin=false;
+│ -mingw=false;
+│ -case "`uname`" in
+│ -  CYGWIN*) cygwin=true;;
+│ -  MINGW*) mingw=true;;
+│ -esac
+│ -
+│ -## resolve links - $0 may be a link to Maven's home
+│ -PRG="$0"
+│ -
+│ -# need this for relative symlinks
+│ -while [ -h "$PRG" ] ; do
+│ -  ls=`ls -ld "$PRG"`
+│ -  link=`expr "$ls" : '.*-> \(.*\)$'`
+│ -  if expr "$link" : '/.*' > /dev/null; then
+│ -    PRG="$link"
+│ -  else
+│ -    PRG="`dirname "$PRG"`/$link"
+│ -  fi
+│ -done
+│ -
+│ -saveddir=`pwd`
+│ -
+│ -MAVEN_HOME=`dirname "$PRG"`/..
+│ -
+│ -# make it fully qualified
+│ -MAVEN_HOME=`cd "$MAVEN_HOME" && pwd`
+│ -
+│ -cd "$saveddir"
+│ -
+│ -# For Cygwin, ensure paths are in Unix format before anything is touched
+│ -if $cygwin ; then
+│ -  [ -n "$MAVEN_HOME" ] &&
+│ -    MAVEN_HOME=`cygpath --unix "$MAVEN_HOME"`
+│ -  [ -n "$JAVA_HOME" ] &&
+│ -    JAVA_HOME=`cygpath --unix "$JAVA_HOME"`
+│ -  [ -n "$CLASSPATH" ] &&
+│ -    CLASSPATH=`cygpath --path --unix "$CLASSPATH"`
+│ -fi
+│ -
+│ -# For MinGW, ensure paths are in Unix format before anything is touched
+│ -if $mingw ; then
+│ -  [ -n "$MAVEN_HOME" ] &&
+│ -    MAVEN_HOME=`(cd "$MAVEN_HOME"; pwd)`
+│ -  [ -n "$JAVA_HOME" ] &&
+│ -    JAVA_HOME=`(cd "$JAVA_HOME"; pwd)`
+│ -  # TODO classpath?
+│ -fi
+│ -
+│ -if [ -z "$JAVA_HOME" ] ; then
+│ -  JAVACMD=`which java`
+│ -else
+│ -  JAVACMD="$JAVA_HOME/bin/java"
+│ -fi
+│ -
+│ -if [ ! -x "$JAVACMD" ] ; then
+│ -  echo "The JAVA_HOME environment variable is not defined correctly" >&2
+│ -  echo "This environment variable is needed to run this program" >&2
+│ -  echo "NB: JAVA_HOME should point to a JDK not a JRE" >&2
+│ -  exit 1
+│ -fi
+│ -
+│ -CLASSWORLDS_JAR=`echo "${MAVEN_HOME}"/boot/plexus-classworlds-*.jar`
+│ -CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher
+│ -
+│ -# For Cygwin, switch paths to Windows format before running java
+│ -if $cygwin ; then
+│ -  [ -n "$MAVEN_HOME" ] &&
+│ -    MAVEN_HOME=`cygpath --path --windows "$MAVEN_HOME"`
+│ -  [ -n "$JAVA_HOME" ] &&
+│ -    JAVA_HOME=`cygpath --path --windows "$JAVA_HOME"`
+│ -  [ -n "$CLASSPATH" ] &&
+│ -    CLASSPATH=`cygpath --path --windows "$CLASSPATH"`
+│ -  [ -n "$CLASSWORLDS_JAR" ] &&
+│ -    CLASSWORLDS_JAR=`cygpath --path --windows "$CLASSWORLDS_JAR"`
+│ -fi
+│ -
+│ -# traverses directory structure from process work directory to filesystem root
+│ -# first directory with .mvn subdirectory is considered project base directory
+│ -find_maven_basedir() {
+│ -(
+│ -  basedir=`find_file_argument_basedir "$@"`
+│ -  wdir="${basedir}"
+│ -  while [ "$wdir" != '/' ] ; do
+│ -    if [ -d "$wdir"/.mvn ] ; then
+│ -      basedir=$wdir
+│ -      break
+│ -    fi
+│ -    wdir=`cd "$wdir/.."; pwd`
+│ -  done
+│ -  echo "${basedir}"
+│ -)
+│ -}
+│ -
+│ -find_file_argument_basedir() {
+│ -(
+│ -  basedir=`pwd`
+│ -
+│ -  found_file_switch=0
+│ -  for arg in "$@"; do
+│ -    if [ ${found_file_switch} -eq 1 ]; then
+│ -      if [ -d "${arg}" ]; then
+│ -        basedir=`cd "${arg}" && pwd -P`
+│ -      elif [ -f "${arg}" ]; then
+│ -        basedir=`dirname "${arg}"`
+│ -        basedir=`cd "${basedir}" && pwd -P`
+│ -        if [ ! -d "${basedir}" ]; then
+│ -          echo "Directory ${basedir} extracted from the -f/--file command-line argument ${arg} does not exist" >&2
+│ -          exit 1
+│ -        fi
+│ -      else
+│ -        echo "POM file ${arg} specified with the -f/--file command line argument does not exist" >&2
+│ -        exit 1
+│ -      fi
+│ -      break
+│ -    fi
+│ -    if [ "$arg" = "-f" -o "$arg" = "--file" ]; then
+│ -      found_file_switch=1
+│ -    fi
+│ -  done
+│ -  echo "${basedir}"
+│ -)
+│ -}
+│ -
+│ -# concatenates all lines of a file
+│ -concat_lines() {
+│ -  if [ -f "$1" ]; then
+│ -    echo "`tr -s '\r\n' '  ' < "$1"`"
+│ -  fi
+│ -}
+│ -
+│ -MAVEN_PROJECTBASEDIR="${MAVEN_BASEDIR:-`find_maven_basedir "$@"`}"
+│ -MAVEN_OPTS="`concat_lines "$MAVEN_PROJECTBASEDIR/.mvn/jvm.config"` $MAVEN_OPTS"
+│ -
+│ -# For Cygwin, switch project base directory path to Windows format before
+│ -# executing Maven otherwise this will cause Maven not to consider it.
+│ -if $cygwin ; then
+│ -  [ -n "$MAVEN_PROJECTBASEDIR" ] &&
+│ -  MAVEN_PROJECTBASEDIR=`cygpath --path --windows "$MAVEN_PROJECTBASEDIR"`
+│ -fi
+│ -
+│ -export MAVEN_PROJECTBASEDIR
+│ -
+│ -# Provide a "standardized" way to retrieve the CLI args that will
+│ -# work with both Windows and non-Windows executions.
+│ -MAVEN_CMD_LINE_ARGS="$MAVEN_CONFIG $@"
+│ -export MAVEN_CMD_LINE_ARGS
+│ -
+│ -exec "$JAVACMD" \
+│ -  $MAVEN_OPTS \
+│ -  $MAVEN_DEBUG_OPTS \
+│ -  -classpath "${CLASSWORLDS_JAR}" \
+│ -  "-Dclassworlds.conf=${MAVEN_HOME}/bin/m2.conf" \
+│ -  "-Dmaven.home=${MAVEN_HOME}" \
+│ -  "-Dlibrary.jansi.path=${MAVEN_HOME}/lib/jansi-native" \
+│ -  "-Dmaven.multiModuleProjectDirectory=${MAVEN_PROJECTBASEDIR}" \
+│ -  ${CLASSWORLDS_LAUNCHER} "$@"
+│ +#!/bin/sh
+│ +
+│ +# Licensed to the Apache Software Foundation (ASF) under one
+│ +# or more contributor license agreements.  See the NOTICE file
+│ +# distributed with this work for additional information
+│ +# regarding copyright ownership.  The ASF licenses this file
+│ +# to you under the Apache License, Version 2.0 (the
+│ +# "License"); you may not use this file except in compliance
+│ +# with the License.  You may obtain a copy of the License at
+│ +#
+│ +#    http://www.apache.org/licenses/LICENSE-2.0
+│ +#
+│ +# Unless required by applicable law or agreed to in writing,
+│ +# software distributed under the License is distributed on an
+│ +# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+│ +# KIND, either express or implied.  See the License for the
+│ +# specific language governing permissions and limitations
+│ +# under the License.
+│ +
+│ +# -----------------------------------------------------------------------------
+│ +# Apache Maven Startup Script
+│ +#
+│ +# Environment Variable Prerequisites
+│ +#
+│ +#   JAVA_HOME       Must point at your Java Development Kit installation.
+│ +#   MAVEN_OPTS      (Optional) Java runtime options used when Maven is executed.
+│ +#   MAVEN_SKIP_RC   (Optional) Flag to disable loading of mavenrc files.
+│ +# -----------------------------------------------------------------------------
+│ +
+│ +if [ -z "$MAVEN_SKIP_RC" ] ; then
+│ +
+│ +  if [ -f /etc/mavenrc ] ; then
+│ +    . /etc/mavenrc
+│ +  fi
+│ +
+│ +  if [ -f "$HOME/.mavenrc" ] ; then
+│ +    . "$HOME/.mavenrc"
+│ +  fi
+│ +
+│ +fi
+│ +
+│ +# OS specific support. $var _must_ be set to either true or false.
+│ +cygwin=false;
+│ +mingw=false;
+│ +case "`uname`" in
+│ +  CYGWIN*) cygwin=true;;
+│ +  MINGW*) mingw=true;;
+│ +esac
+│ +
+│ +## resolve links - $0 may be a link to Maven's home
+│ +PRG="$0"
+│ +
+│ +# need this for relative symlinks
+│ +while [ -h "$PRG" ] ; do
+│ +  ls=`ls -ld "$PRG"`
+│ +  link=`expr "$ls" : '.*-> \(.*\)$'`
+│ +  if expr "$link" : '/.*' > /dev/null; then
+│ +    PRG="$link"
+│ +  else
+│ +    PRG="`dirname "$PRG"`/$link"
+│ +  fi
+│ +done
+│ +
+│ +saveddir=`pwd`
+│ +
+│ +MAVEN_HOME=`dirname "$PRG"`/..
+│ +
+│ +# make it fully qualified
+│ +MAVEN_HOME=`cd "$MAVEN_HOME" && pwd`
+│ +
+│ +cd "$saveddir"
+│ +
+│ +# For Cygwin, ensure paths are in Unix format before anything is touched
+│ +if $cygwin ; then
+│ +  [ -n "$MAVEN_HOME" ] &&
+│ +    MAVEN_HOME=`cygpath --unix "$MAVEN_HOME"`
+│ +  [ -n "$JAVA_HOME" ] &&
+│ +    JAVA_HOME=`cygpath --unix "$JAVA_HOME"`
+│ +  [ -n "$CLASSPATH" ] &&
+│ +    CLASSPATH=`cygpath --path --unix "$CLASSPATH"`
+│ +fi
+│ +
+│ +# For MinGW, ensure paths are in Unix format before anything is touched
+│ +if $mingw ; then
+│ +  [ -n "$MAVEN_HOME" ] &&
+│ +    MAVEN_HOME=`(cd "$MAVEN_HOME"; pwd)`
+│ +  [ -n "$JAVA_HOME" ] &&
+│ +    JAVA_HOME=`(cd "$JAVA_HOME"; pwd)`
+│ +  # TODO classpath?
+│ +fi
+│ +
+│ +if [ -z "$JAVA_HOME" ] ; then
+│ +  JAVACMD=`which java`
+│ +else
+│ +  JAVACMD="$JAVA_HOME/bin/java"
+│ +fi
+│ +
+│ +if [ ! -x "$JAVACMD" ] ; then
+│ +  echo "The JAVA_HOME environment variable is not defined correctly" >&2
+│ +  echo "This environment variable is needed to run this program" >&2
+│ +  echo "NB: JAVA_HOME should point to a JDK not a JRE" >&2
+│ +  exit 1
+│ +fi
+│ +
+│ +CLASSWORLDS_JAR=`echo "${MAVEN_HOME}"/boot/plexus-classworlds-*.jar`
+│ +CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher
+│ +
+│ +# For Cygwin, switch paths to Windows format before running java
+│ +if $cygwin ; then
+│ +  [ -n "$MAVEN_HOME" ] &&
+│ +    MAVEN_HOME=`cygpath --path --windows "$MAVEN_HOME"`
+│ +  [ -n "$JAVA_HOME" ] &&
+│ +    JAVA_HOME=`cygpath --path --windows "$JAVA_HOME"`
+│ +  [ -n "$CLASSPATH" ] &&
+│ +    CLASSPATH=`cygpath --path --windows "$CLASSPATH"`
+│ +  [ -n "$CLASSWORLDS_JAR" ] &&
+│ +    CLASSWORLDS_JAR=`cygpath --path --windows "$CLASSWORLDS_JAR"`
+│ +fi
+│ +
+│ +# traverses directory structure from process work directory to filesystem root
+│ +# first directory with .mvn subdirectory is considered project base directory
+│ +find_maven_basedir() {
+│ +(
+│ +  basedir=`find_file_argument_basedir "$@"`
+│ +  wdir="${basedir}"
+│ +  while [ "$wdir" != '/' ] ; do
+│ +    if [ -d "$wdir"/.mvn ] ; then
+│ +      basedir=$wdir
+│ +      break
+│ +    fi
+│ +    wdir=`cd "$wdir/.."; pwd`
+│ +  done
+│ +  echo "${basedir}"
+│ +)
+│ +}
+│ +
+│ +find_file_argument_basedir() {
+│ +(
+│ +  basedir=`pwd`
+│ +
+│ +  found_file_switch=0
+│ +  for arg in "$@"; do
+│ +    if [ ${found_file_switch} -eq 1 ]; then
+│ +      if [ -d "${arg}" ]; then
+│ +        basedir=`cd "${arg}" && pwd -P`
+│ +      elif [ -f "${arg}" ]; then
+│ +        basedir=`dirname "${arg}"`
+│ +        basedir=`cd "${basedir}" && pwd -P`
+│ +        if [ ! -d "${basedir}" ]; then
+│ +          echo "Directory ${basedir} extracted from the -f/--file command-line argument ${arg} does not exist" >&2
+│ +          exit 1
+│ +        fi
+│ +      else
+│ +        echo "POM file ${arg} specified with the -f/--file command line argument does not exist" >&2
+│ +        exit 1
+│ +      fi
+│ +      break
+│ +    fi
+│ +    if [ "$arg" = "-f" -o "$arg" = "--file" ]; then
+│ +      found_file_switch=1
+│ +    fi
+│ +  done
+│ +  echo "${basedir}"
+│ +)
+│ +}
+│ +
+│ +# concatenates all lines of a file
+│ +concat_lines() {
+│ +  if [ -f "$1" ]; then
+│ +    echo "`tr -s '\r\n' '  ' < "$1"`"
+│ +  fi
+│ +}
+│ +
+│ +MAVEN_PROJECTBASEDIR="${MAVEN_BASEDIR:-`find_maven_basedir "$@"`}"
+│ +MAVEN_OPTS="`concat_lines "$MAVEN_PROJECTBASEDIR/.mvn/jvm.config"` $MAVEN_OPTS"
+│ +
+│ +# For Cygwin, switch project base directory path to Windows format before
+│ +# executing Maven otherwise this will cause Maven not to consider it.
+│ +if $cygwin ; then
+│ +  [ -n "$MAVEN_PROJECTBASEDIR" ] &&
+│ +  MAVEN_PROJECTBASEDIR=`cygpath --path --windows "$MAVEN_PROJECTBASEDIR"`
+│ +fi
+│ +
+│ +export MAVEN_PROJECTBASEDIR
+│ +
+│ +# Provide a "standardized" way to retrieve the CLI args that will
+│ +# work with both Windows and non-Windows executions.
+│ +MAVEN_CMD_LINE_ARGS="$MAVEN_CONFIG $@"
+│ +export MAVEN_CMD_LINE_ARGS
+│ +
+│ +exec "$JAVACMD" \
+│ +  $MAVEN_OPTS \
+│ +  $MAVEN_DEBUG_OPTS \
+│ +  -classpath "${CLASSWORLDS_JAR}" \
+│ +  "-Dclassworlds.conf=${MAVEN_HOME}/bin/m2.conf" \
+│ +  "-Dmaven.home=${MAVEN_HOME}" \
+│ +  "-Dlibrary.jansi.path=${MAVEN_HOME}/lib/jansi-native" \
+│ +  "-Dmaven.multiModuleProjectDirectory=${MAVEN_PROJECTBASEDIR}" \
+│ +  ${CLASSWORLDS_LAUNCHER} "$@"
+├── apache-maven-3.8.1/apache-maven/src/bin/mvnDebug
+│ @@ -1,34 +1,34 @@
+│ -#!/bin/sh
+│ -
+│ -# Licensed to the Apache Software Foundation (ASF) under one
+│ -# or more contributor license agreements.  See the NOTICE file
+│ -# distributed with this work for additional information
+│ -# regarding copyright ownership.  The ASF licenses this file
+│ -# to you under the Apache License, Version 2.0 (the
+│ -# "License"); you may not use this file except in compliance
+│ -# with the License.  You may obtain a copy of the License at
+│ -#
+│ -#    http://www.apache.org/licenses/LICENSE-2.0
+│ -#
+│ -# Unless required by applicable law or agreed to in writing,
+│ -# software distributed under the License is distributed on an
+│ -# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+│ -# KIND, either express or implied.  See the License for the
+│ -# specific language governing permissions and limitations
+│ -# under the License.
+│ -
+│ -# -----------------------------------------------------------------------------
+│ -# Apache Maven Debug Script
+│ -#
+│ -# Environment Variable Prerequisites
+│ -#
+│ -#   JAVA_HOME       Must point at your Java Development Kit installation.
+│ -#   MAVEN_OPTS      (Optional) Java runtime options used when Maven is executed.
+│ -#   MAVEN_SKIP_RC   (Optional) Flag to disable loading of mavenrc files.
+│ -# -----------------------------------------------------------------------------
+│ -
+│ -MAVEN_DEBUG_OPTS="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"
+│ -
+│ -echo Preparing to execute Maven in debug mode
+│ -
+│ -env MAVEN_OPTS="$MAVEN_OPTS" MAVEN_DEBUG_OPTS="$MAVEN_DEBUG_OPTS" "`dirname "$0"`/mvn" "$@"
+│ +#!/bin/sh
+│ +
+│ +# Licensed to the Apache Software Foundation (ASF) under one
+│ +# or more contributor license agreements.  See the NOTICE file
+│ +# distributed with this work for additional information
+│ +# regarding copyright ownership.  The ASF licenses this file
+│ +# to you under the Apache License, Version 2.0 (the
+│ +# "License"); you may not use this file except in compliance
+│ +# with the License.  You may obtain a copy of the License at
+│ +#
+│ +#    http://www.apache.org/licenses/LICENSE-2.0
+│ +#
+│ +# Unless required by applicable law or agreed to in writing,
+│ +# software distributed under the License is distributed on an
+│ +# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+│ +# KIND, either express or implied.  See the License for the
+│ +# specific language governing permissions and limitations
+│ +# under the License.
+│ +
+│ +# -----------------------------------------------------------------------------
+│ +# Apache Maven Debug Script
+│ +#
+│ +# Environment Variable Prerequisites
+│ +#
+│ +#   JAVA_HOME       Must point at your Java Development Kit installation.
+│ +#   MAVEN_OPTS      (Optional) Java runtime options used when Maven is executed.
+│ +#   MAVEN_SKIP_RC   (Optional) Flag to disable loading of mavenrc files.
+│ +# -----------------------------------------------------------------------------
+│ +
+│ +MAVEN_DEBUG_OPTS="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"
+│ +
+│ +echo Preparing to execute Maven in debug mode
+│ +
+│ +env MAVEN_OPTS="$MAVEN_OPTS" MAVEN_DEBUG_OPTS="$MAVEN_DEBUG_OPTS" "`dirname "$0"`/mvn" "$@"
+├── apache-maven-3.8.1/apache-maven/src/bin/mvnyjp
+│ @@ -1,35 +1,35 @@
+│ -#!/bin/sh
+│ -
+│ -# Licensed to the Apache Software Foundation (ASF) under one
+│ -# or more contributor license agreements.  See the NOTICE file
+│ -# distributed with this work for additional information
+│ -# regarding copyright ownership.  The ASF licenses this file
+│ -# to you under the Apache License, Version 2.0 (the
+│ -# "License"); you may not use this file except in compliance
+│ -# with the License.  You may obtain a copy of the License at
+│ -#
+│ -#    http://www.apache.org/licenses/LICENSE-2.0
+│ -#
+│ -# Unless required by applicable law or agreed to in writing,
+│ -# software distributed under the License is distributed on an
+│ -# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+│ -# KIND, either express or implied.  See the License for the
+│ -# specific language governing permissions and limitations
+│ -# under the License.
+│ -
+│ -# -----------------------------------------------------------------------------
+│ -# Apache Maven YourKit Profiler Startup Script
+│ -#
+│ -# Environment Variable Prerequisites
+│ -#
+│ -#   JAVA_HOME       Must point at your Java Development Kit installation.
+│ -#   MAVEN_OPTS      (Optional) Java runtime options used when Maven is executed.
+│ -#   MAVEN_SKIP_RC   (Optional) Flag to disable loading of mavenrc files.
+│ -# -----------------------------------------------------------------------------
+│ -
+│ -if [ ! -f "$YJPLIB" ]; then
+│ -  echo "Error: Unable to autodetect the YJP library location. Please set YJPLIB variable" >&2
+│ -  exit 1
+│ -fi
+│ -
+│ -env MAVEN_OPTS="-agentpath:$YJPLIB=onexit=snapshot,onexit=memory,tracing,onlylocal $MAVEN_OPTS" "`dirname "$0"`/mvn" "$@"
+│ +#!/bin/sh
+│ +
+│ +# Licensed to the Apache Software Foundation (ASF) under one
+│ +# or more contributor license agreements.  See the NOTICE file
+│ +# distributed with this work for additional information
+│ +# regarding copyright ownership.  The ASF licenses this file
+│ +# to you under the Apache License, Version 2.0 (the
+│ +# "License"); you may not use this file except in compliance
+│ +# with the License.  You may obtain a copy of the License at
+│ +#
+│ +#    http://www.apache.org/licenses/LICENSE-2.0
+│ +#
+│ +# Unless required by applicable law or agreed to in writing,
+│ +# software distributed under the License is distributed on an
+│ +# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+│ +# KIND, either express or implied.  See the License for the
+│ +# specific language governing permissions and limitations
+│ +# under the License.
+│ +
+│ +# -----------------------------------------------------------------------------
+│ +# Apache Maven YourKit Profiler Startup Script
+│ +#
+│ +# Environment Variable Prerequisites
+│ +#
+│ +#   JAVA_HOME       Must point at your Java Development Kit installation.
+│ +#   MAVEN_OPTS      (Optional) Java runtime options used when Maven is executed.
+│ +#   MAVEN_SKIP_RC   (Optional) Flag to disable loading of mavenrc files.
+│ +# -----------------------------------------------------------------------------
+│ +
+│ +if [ ! -f "$YJPLIB" ]; then
+│ +  echo "Error: Unable to autodetect the YJP library location. Please set YJPLIB variable" >&2
+│ +  exit 1
+│ +fi
+│ +
+│ +env MAVEN_OPTS="-agentpath:$YJPLIB=onexit=snapshot,onexit=memory,tracing,onlylocal $MAVEN_OPTS" "`dirname "$0"`/mvn" "$@"
+
+target/reference/apache-maven-3.8.1-src.tar.gz apache-maven/target/apache-maven-3.8.1-src.tar.gz
+--- target/reference/apache-maven-3.8.1-src.tar.gz
++++ apache-maven/target/apache-maven-3.8.1-src.tar.gz
+├── apache-maven-3.8.1-src.tar
+│ ├── file list
+│ │ @@ -1430,19 +1430,19 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)     7448 2019-11-07 12:32:18.000000 apache-maven-3.8.1/Jenkinsfile
+│ │  -rw-r--r--   0 root         (0) root         (0)    11560 2019-11-07 12:32:18.000000 apache-maven-3.8.1/LICENSE
+│ │  -rw-r--r--   0 root         (0) root         (0)      171 2019-11-07 12:32:18.000000 apache-maven-3.8.1/NOTICE
+│ │  -rw-r--r--   0 root         (0) root         (0)     4206 2019-11-07 12:32:18.000000 apache-maven-3.8.1/README.md
+│ │  -rw-r--r--   0 root         (0) root         (0)     2612 2019-11-07 12:32:18.000000 apache-maven-3.8.1/apache-maven/README.txt
+│ │  -rw-r--r--   0 root         (0) root         (0)    10982 2019-11-07 12:32:18.000000 apache-maven-3.8.1/apache-maven/pom.xml
+│ │  -rw-r--r--   0 root         (0) root         (0)      228 2019-11-07 12:32:18.000000 apache-maven-3.8.1/apache-maven/src/bin/m2.conf
+│ │ --rw-r--r--   0 root         (0) root         (0)     5741 2019-11-07 12:32:18.000000 apache-maven-3.8.1/apache-maven/src/bin/mvn
+│ │ +-rw-r--r--   0 root         (0) root         (0)     5940 2019-11-07 12:32:18.000000 apache-maven-3.8.1/apache-maven/src/bin/mvn
+│ │  -rw-r--r--   0 root         (0) root         (0)     6349 2019-11-07 12:32:18.000000 apache-maven-3.8.1/apache-maven/src/bin/mvn.cmd
+│ │ --rw-r--r--   0 root         (0) root         (0)     1485 2019-11-07 12:32:18.000000 apache-maven-3.8.1/apache-maven/src/bin/mvnDebug
+│ │ +-rw-r--r--   0 root         (0) root         (0)     1519 2019-11-07 12:32:18.000000 apache-maven-3.8.1/apache-maven/src/bin/mvnDebug
+│ │  -rw-r--r--   0 root         (0) root         (0)     1668 2019-11-07 12:32:18.000000 apache-maven-3.8.1/apache-maven/src/bin/mvnDebug.cmd
+│ │ --rw-r--r--   0 root         (0) root         (0)     1532 2019-11-07 12:32:18.000000 apache-maven-3.8.1/apache-maven/src/bin/mvnyjp
+│ │ +-rw-r--r--   0 root         (0) root         (0)     1567 2019-11-07 12:32:18.000000 apache-maven-3.8.1/apache-maven/src/bin/mvnyjp
+│ │  -rw-r--r--   0 root         (0) root         (0)     1551 2019-11-07 12:32:18.000000 apache-maven-3.8.1/apache-maven/src/conf/logging/simplelogger.properties
+│ │  -rw-r--r--   0 root         (0) root         (0)    10741 2019-11-07 12:32:18.000000 apache-maven-3.8.1/apache-maven/src/conf/settings.xml
+│ │  -rw-r--r--   0 root         (0) root         (0)     3747 2019-11-07 12:32:18.000000 apache-maven-3.8.1/apache-maven/src/conf/toolchains.xml
+│ │  -rw-r--r--   0 root         (0) root         (0)      154 2019-11-07 12:32:18.000000 apache-maven-3.8.1/apache-maven/src/lib/ext/README.txt
+│ │  -rw-r--r--   0 root         (0) root         (0)      399 2019-11-07 12:32:18.000000 apache-maven-3.8.1/apache-maven/src/lib/jansi-native/README.txt
+│ │  -rw-r--r--   0 root         (0) root         (0)     3941 2019-11-07 12:32:18.000000 apache-maven-3.8.1/apache-maven/src/main/appended-resources/META-INF/LICENSE.vm
+│ │  -rw-r--r--   0 root         (0) root         (0)     5783 2019-11-07 12:32:18.000000 apache-maven-3.8.1/apache-maven/src/main/appended-resources/META-INF/NOTICE.vm
+│ ├── apache-maven-3.8.1/apache-maven/src/bin/mvn
+│ │ @@ -1,199 +1,199 @@
+│ │ -#!/bin/sh
+│ │ -
+│ │ -# Licensed to the Apache Software Foundation (ASF) under one
+│ │ -# or more contributor license agreements.  See the NOTICE file
+│ │ -# distributed with this work for additional information
+│ │ -# regarding copyright ownership.  The ASF licenses this file
+│ │ -# to you under the Apache License, Version 2.0 (the
+│ │ -# "License"); you may not use this file except in compliance
+│ │ -# with the License.  You may obtain a copy of the License at
+│ │ -#
+│ │ -#    http://www.apache.org/licenses/LICENSE-2.0
+│ │ -#
+│ │ -# Unless required by applicable law or agreed to in writing,
+│ │ -# software distributed under the License is distributed on an
+│ │ -# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+│ │ -# KIND, either express or implied.  See the License for the
+│ │ -# specific language governing permissions and limitations
+│ │ -# under the License.
+│ │ -
+│ │ -# -----------------------------------------------------------------------------
+│ │ -# Apache Maven Startup Script
+│ │ -#
+│ │ -# Environment Variable Prerequisites
+│ │ -#
+│ │ -#   JAVA_HOME       Must point at your Java Development Kit installation.
+│ │ -#   MAVEN_OPTS      (Optional) Java runtime options used when Maven is executed.
+│ │ -#   MAVEN_SKIP_RC   (Optional) Flag to disable loading of mavenrc files.
+│ │ -# -----------------------------------------------------------------------------
+│ │ -
+│ │ -if [ -z "$MAVEN_SKIP_RC" ] ; then
+│ │ -
+│ │ -  if [ -f /etc/mavenrc ] ; then
+│ │ -    . /etc/mavenrc
+│ │ -  fi
+│ │ -
+│ │ -  if [ -f "$HOME/.mavenrc" ] ; then
+│ │ -    . "$HOME/.mavenrc"
+│ │ -  fi
+│ │ -
+│ │ -fi
+│ │ -
+│ │ -# OS specific support. $var _must_ be set to either true or false.
+│ │ -cygwin=false;
+│ │ -mingw=false;
+│ │ -case "`uname`" in
+│ │ -  CYGWIN*) cygwin=true;;
+│ │ -  MINGW*) mingw=true;;
+│ │ -esac
+│ │ -
+│ │ -## resolve links - $0 may be a link to Maven's home
+│ │ -PRG="$0"
+│ │ -
+│ │ -# need this for relative symlinks
+│ │ -while [ -h "$PRG" ] ; do
+│ │ -  ls=`ls -ld "$PRG"`
+│ │ -  link=`expr "$ls" : '.*-> \(.*\)$'`
+│ │ -  if expr "$link" : '/.*' > /dev/null; then
+│ │ -    PRG="$link"
+│ │ -  else
+│ │ -    PRG="`dirname "$PRG"`/$link"
+│ │ -  fi
+│ │ -done
+│ │ -
+│ │ -saveddir=`pwd`
+│ │ -
+│ │ -MAVEN_HOME=`dirname "$PRG"`/..
+│ │ -
+│ │ -# make it fully qualified
+│ │ -MAVEN_HOME=`cd "$MAVEN_HOME" && pwd`
+│ │ -
+│ │ -cd "$saveddir"
+│ │ -
+│ │ -# For Cygwin, ensure paths are in Unix format before anything is touched
+│ │ -if $cygwin ; then
+│ │ -  [ -n "$MAVEN_HOME" ] &&
+│ │ -    MAVEN_HOME=`cygpath --unix "$MAVEN_HOME"`
+│ │ -  [ -n "$JAVA_HOME" ] &&
+│ │ -    JAVA_HOME=`cygpath --unix "$JAVA_HOME"`
+│ │ -  [ -n "$CLASSPATH" ] &&
+│ │ -    CLASSPATH=`cygpath --path --unix "$CLASSPATH"`
+│ │ -fi
+│ │ -
+│ │ -# For MinGW, ensure paths are in Unix format before anything is touched
+│ │ -if $mingw ; then
+│ │ -  [ -n "$MAVEN_HOME" ] &&
+│ │ -    MAVEN_HOME=`(cd "$MAVEN_HOME"; pwd)`
+│ │ -  [ -n "$JAVA_HOME" ] &&
+│ │ -    JAVA_HOME=`(cd "$JAVA_HOME"; pwd)`
+│ │ -  # TODO classpath?
+│ │ -fi
+│ │ -
+│ │ -if [ -z "$JAVA_HOME" ] ; then
+│ │ -  JAVACMD=`which java`
+│ │ -else
+│ │ -  JAVACMD="$JAVA_HOME/bin/java"
+│ │ -fi
+│ │ -
+│ │ -if [ ! -x "$JAVACMD" ] ; then
+│ │ -  echo "The JAVA_HOME environment variable is not defined correctly" >&2
+│ │ -  echo "This environment variable is needed to run this program" >&2
+│ │ -  echo "NB: JAVA_HOME should point to a JDK not a JRE" >&2
+│ │ -  exit 1
+│ │ -fi
+│ │ -
+│ │ -CLASSWORLDS_JAR=`echo "${MAVEN_HOME}"/boot/plexus-classworlds-*.jar`
+│ │ -CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher
+│ │ -
+│ │ -# For Cygwin, switch paths to Windows format before running java
+│ │ -if $cygwin ; then
+│ │ -  [ -n "$MAVEN_HOME" ] &&
+│ │ -    MAVEN_HOME=`cygpath --path --windows "$MAVEN_HOME"`
+│ │ -  [ -n "$JAVA_HOME" ] &&
+│ │ -    JAVA_HOME=`cygpath --path --windows "$JAVA_HOME"`
+│ │ -  [ -n "$CLASSPATH" ] &&
+│ │ -    CLASSPATH=`cygpath --path --windows "$CLASSPATH"`
+│ │ -  [ -n "$CLASSWORLDS_JAR" ] &&
+│ │ -    CLASSWORLDS_JAR=`cygpath --path --windows "$CLASSWORLDS_JAR"`
+│ │ -fi
+│ │ -
+│ │ -# traverses directory structure from process work directory to filesystem root
+│ │ -# first directory with .mvn subdirectory is considered project base directory
+│ │ -find_maven_basedir() {
+│ │ -(
+│ │ -  basedir=`find_file_argument_basedir "$@"`
+│ │ -  wdir="${basedir}"
+│ │ -  while [ "$wdir" != '/' ] ; do
+│ │ -    if [ -d "$wdir"/.mvn ] ; then
+│ │ -      basedir=$wdir
+│ │ -      break
+│ │ -    fi
+│ │ -    wdir=`cd "$wdir/.."; pwd`
+│ │ -  done
+│ │ -  echo "${basedir}"
+│ │ -)
+│ │ -}
+│ │ -
+│ │ -find_file_argument_basedir() {
+│ │ -(
+│ │ -  basedir=`pwd`
+│ │ -
+│ │ -  found_file_switch=0
+│ │ -  for arg in "$@"; do
+│ │ -    if [ ${found_file_switch} -eq 1 ]; then
+│ │ -      if [ -d "${arg}" ]; then
+│ │ -        basedir=`cd "${arg}" && pwd -P`
+│ │ -      elif [ -f "${arg}" ]; then
+│ │ -        basedir=`dirname "${arg}"`
+│ │ -        basedir=`cd "${basedir}" && pwd -P`
+│ │ -        if [ ! -d "${basedir}" ]; then
+│ │ -          echo "Directory ${basedir} extracted from the -f/--file command-line argument ${arg} does not exist" >&2
+│ │ -          exit 1
+│ │ -        fi
+│ │ -      else
+│ │ -        echo "POM file ${arg} specified with the -f/--file command line argument does not exist" >&2
+│ │ -        exit 1
+│ │ -      fi
+│ │ -      break
+│ │ -    fi
+│ │ -    if [ "$arg" = "-f" -o "$arg" = "--file" ]; then
+│ │ -      found_file_switch=1
+│ │ -    fi
+│ │ -  done
+│ │ -  echo "${basedir}"
+│ │ -)
+│ │ -}
+│ │ -
+│ │ -# concatenates all lines of a file
+│ │ -concat_lines() {
+│ │ -  if [ -f "$1" ]; then
+│ │ -    echo "`tr -s '\r\n' '  ' < "$1"`"
+│ │ -  fi
+│ │ -}
+│ │ -
+│ │ -MAVEN_PROJECTBASEDIR="${MAVEN_BASEDIR:-`find_maven_basedir "$@"`}"
+│ │ -MAVEN_OPTS="`concat_lines "$MAVEN_PROJECTBASEDIR/.mvn/jvm.config"` $MAVEN_OPTS"
+│ │ -
+│ │ -# For Cygwin, switch project base directory path to Windows format before
+│ │ -# executing Maven otherwise this will cause Maven not to consider it.
+│ │ -if $cygwin ; then
+│ │ -  [ -n "$MAVEN_PROJECTBASEDIR" ] &&
+│ │ -  MAVEN_PROJECTBASEDIR=`cygpath --path --windows "$MAVEN_PROJECTBASEDIR"`
+│ │ -fi
+│ │ -
+│ │ -export MAVEN_PROJECTBASEDIR
+│ │ -
+│ │ -# Provide a "standardized" way to retrieve the CLI args that will
+│ │ -# work with both Windows and non-Windows executions.
+│ │ -MAVEN_CMD_LINE_ARGS="$MAVEN_CONFIG $@"
+│ │ -export MAVEN_CMD_LINE_ARGS
+│ │ -
+│ │ -exec "$JAVACMD" \
+│ │ -  $MAVEN_OPTS \
+│ │ -  $MAVEN_DEBUG_OPTS \
+│ │ -  -classpath "${CLASSWORLDS_JAR}" \
+│ │ -  "-Dclassworlds.conf=${MAVEN_HOME}/bin/m2.conf" \
+│ │ -  "-Dmaven.home=${MAVEN_HOME}" \
+│ │ -  "-Dlibrary.jansi.path=${MAVEN_HOME}/lib/jansi-native" \
+│ │ -  "-Dmaven.multiModuleProjectDirectory=${MAVEN_PROJECTBASEDIR}" \
+│ │ -  ${CLASSWORLDS_LAUNCHER} "$@"
+│ │ +#!/bin/sh
+│ │ +
+│ │ +# Licensed to the Apache Software Foundation (ASF) under one
+│ │ +# or more contributor license agreements.  See the NOTICE file
+│ │ +# distributed with this work for additional information
+│ │ +# regarding copyright ownership.  The ASF licenses this file
+│ │ +# to you under the Apache License, Version 2.0 (the
+│ │ +# "License"); you may not use this file except in compliance
+│ │ +# with the License.  You may obtain a copy of the License at
+│ │ +#
+│ │ +#    http://www.apache.org/licenses/LICENSE-2.0
+│ │ +#
+│ │ +# Unless required by applicable law or agreed to in writing,
+│ │ +# software distributed under the License is distributed on an
+│ │ +# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+│ │ +# KIND, either express or implied.  See the License for the
+│ │ +# specific language governing permissions and limitations
+│ │ +# under the License.
+│ │ +
+│ │ +# -----------------------------------------------------------------------------
+│ │ +# Apache Maven Startup Script
+│ │ +#
+│ │ +# Environment Variable Prerequisites
+│ │ +#
+│ │ +#   JAVA_HOME       Must point at your Java Development Kit installation.
+│ │ +#   MAVEN_OPTS      (Optional) Java runtime options used when Maven is executed.
+│ │ +#   MAVEN_SKIP_RC   (Optional) Flag to disable loading of mavenrc files.
+│ │ +# -----------------------------------------------------------------------------
+│ │ +
+│ │ +if [ -z "$MAVEN_SKIP_RC" ] ; then
+│ │ +
+│ │ +  if [ -f /etc/mavenrc ] ; then
+│ │ +    . /etc/mavenrc
+│ │ +  fi
+│ │ +
+│ │ +  if [ -f "$HOME/.mavenrc" ] ; then
+│ │ +    . "$HOME/.mavenrc"
+│ │ +  fi
+│ │ +
+│ │ +fi
+│ │ +
+│ │ +# OS specific support. $var _must_ be set to either true or false.
+│ │ +cygwin=false;
+│ │ +mingw=false;
+│ │ +case "`uname`" in
+│ │ +  CYGWIN*) cygwin=true;;
+│ │ +  MINGW*) mingw=true;;
+│ │ +esac
+│ │ +
+│ │ +## resolve links - $0 may be a link to Maven's home
+│ │ +PRG="$0"
+│ │ +
+│ │ +# need this for relative symlinks
+│ │ +while [ -h "$PRG" ] ; do
+│ │ +  ls=`ls -ld "$PRG"`
+│ │ +  link=`expr "$ls" : '.*-> \(.*\)$'`
+│ │ +  if expr "$link" : '/.*' > /dev/null; then
+│ │ +    PRG="$link"
+│ │ +  else
+│ │ +    PRG="`dirname "$PRG"`/$link"
+│ │ +  fi
+│ │ +done
+│ │ +
+│ │ +saveddir=`pwd`
+│ │ +
+│ │ +MAVEN_HOME=`dirname "$PRG"`/..
+│ │ +
+│ │ +# make it fully qualified
+│ │ +MAVEN_HOME=`cd "$MAVEN_HOME" && pwd`
+│ │ +
+│ │ +cd "$saveddir"
+│ │ +
+│ │ +# For Cygwin, ensure paths are in Unix format before anything is touched
+│ │ +if $cygwin ; then
+│ │ +  [ -n "$MAVEN_HOME" ] &&
+│ │ +    MAVEN_HOME=`cygpath --unix "$MAVEN_HOME"`
+│ │ +  [ -n "$JAVA_HOME" ] &&
+│ │ +    JAVA_HOME=`cygpath --unix "$JAVA_HOME"`
+│ │ +  [ -n "$CLASSPATH" ] &&
+│ │ +    CLASSPATH=`cygpath --path --unix "$CLASSPATH"`
+│ │ +fi
+│ │ +
+│ │ +# For MinGW, ensure paths are in Unix format before anything is touched
+│ │ +if $mingw ; then
+│ │ +  [ -n "$MAVEN_HOME" ] &&
+│ │ +    MAVEN_HOME=`(cd "$MAVEN_HOME"; pwd)`
+│ │ +  [ -n "$JAVA_HOME" ] &&
+│ │ +    JAVA_HOME=`(cd "$JAVA_HOME"; pwd)`
+│ │ +  # TODO classpath?
+│ │ +fi
+│ │ +
+│ │ +if [ -z "$JAVA_HOME" ] ; then
+│ │ +  JAVACMD=`which java`
+│ │ +else
+│ │ +  JAVACMD="$JAVA_HOME/bin/java"
+│ │ +fi
+│ │ +
+│ │ +if [ ! -x "$JAVACMD" ] ; then
+│ │ +  echo "The JAVA_HOME environment variable is not defined correctly" >&2
+│ │ +  echo "This environment variable is needed to run this program" >&2
+│ │ +  echo "NB: JAVA_HOME should point to a JDK not a JRE" >&2
+│ │ +  exit 1
+│ │ +fi
+│ │ +
+│ │ +CLASSWORLDS_JAR=`echo "${MAVEN_HOME}"/boot/plexus-classworlds-*.jar`
+│ │ +CLASSWORLDS_LAUNCHER=org.codehaus.plexus.classworlds.launcher.Launcher
+│ │ +
+│ │ +# For Cygwin, switch paths to Windows format before running java
+│ │ +if $cygwin ; then
+│ │ +  [ -n "$MAVEN_HOME" ] &&
+│ │ +    MAVEN_HOME=`cygpath --path --windows "$MAVEN_HOME"`
+│ │ +  [ -n "$JAVA_HOME" ] &&
+│ │ +    JAVA_HOME=`cygpath --path --windows "$JAVA_HOME"`
+│ │ +  [ -n "$CLASSPATH" ] &&
+│ │ +    CLASSPATH=`cygpath --path --windows "$CLASSPATH"`
+│ │ +  [ -n "$CLASSWORLDS_JAR" ] &&
+│ │ +    CLASSWORLDS_JAR=`cygpath --path --windows "$CLASSWORLDS_JAR"`
+│ │ +fi
+│ │ +
+│ │ +# traverses directory structure from process work directory to filesystem root
+│ │ +# first directory with .mvn subdirectory is considered project base directory
+│ │ +find_maven_basedir() {
+│ │ +(
+│ │ +  basedir=`find_file_argument_basedir "$@"`
+│ │ +  wdir="${basedir}"
+│ │ +  while [ "$wdir" != '/' ] ; do
+│ │ +    if [ -d "$wdir"/.mvn ] ; then
+│ │ +      basedir=$wdir
+│ │ +      break
+│ │ +    fi
+│ │ +    wdir=`cd "$wdir/.."; pwd`
+│ │ +  done
+│ │ +  echo "${basedir}"
+│ │ +)
+│ │ +}
+│ │ +
+│ │ +find_file_argument_basedir() {
+│ │ +(
+│ │ +  basedir=`pwd`
+│ │ +
+│ │ +  found_file_switch=0
+│ │ +  for arg in "$@"; do
+│ │ +    if [ ${found_file_switch} -eq 1 ]; then
+│ │ +      if [ -d "${arg}" ]; then
+│ │ +        basedir=`cd "${arg}" && pwd -P`
+│ │ +      elif [ -f "${arg}" ]; then
+│ │ +        basedir=`dirname "${arg}"`
+│ │ +        basedir=`cd "${basedir}" && pwd -P`
+│ │ +        if [ ! -d "${basedir}" ]; then
+│ │ +          echo "Directory ${basedir} extracted from the -f/--file command-line argument ${arg} does not exist" >&2
+│ │ +          exit 1
+│ │ +        fi
+│ │ +      else
+│ │ +        echo "POM file ${arg} specified with the -f/--file command line argument does not exist" >&2
+│ │ +        exit 1
+│ │ +      fi
+│ │ +      break
+│ │ +    fi
+│ │ +    if [ "$arg" = "-f" -o "$arg" = "--file" ]; then
+│ │ +      found_file_switch=1
+│ │ +    fi
+│ │ +  done
+│ │ +  echo "${basedir}"
+│ │ +)
+│ │ +}
+│ │ +
+│ │ +# concatenates all lines of a file
+│ │ +concat_lines() {
+│ │ +  if [ -f "$1" ]; then
+│ │ +    echo "`tr -s '\r\n' '  ' < "$1"`"
+│ │ +  fi
+│ │ +}
+│ │ +
+│ │ +MAVEN_PROJECTBASEDIR="${MAVEN_BASEDIR:-`find_maven_basedir "$@"`}"
+│ │ +MAVEN_OPTS="`concat_lines "$MAVEN_PROJECTBASEDIR/.mvn/jvm.config"` $MAVEN_OPTS"
+│ │ +
+│ │ +# For Cygwin, switch project base directory path to Windows format before
+│ │ +# executing Maven otherwise this will cause Maven not to consider it.
+│ │ +if $cygwin ; then
+│ │ +  [ -n "$MAVEN_PROJECTBASEDIR" ] &&
+│ │ +  MAVEN_PROJECTBASEDIR=`cygpath --path --windows "$MAVEN_PROJECTBASEDIR"`
+│ │ +fi
+│ │ +
+│ │ +export MAVEN_PROJECTBASEDIR
+│ │ +
+│ │ +# Provide a "standardized" way to retrieve the CLI args that will
+│ │ +# work with both Windows and non-Windows executions.
+│ │ +MAVEN_CMD_LINE_ARGS="$MAVEN_CONFIG $@"
+│ │ +export MAVEN_CMD_LINE_ARGS
+│ │ +
+│ │ +exec "$JAVACMD" \
+│ │ +  $MAVEN_OPTS \
+│ │ +  $MAVEN_DEBUG_OPTS \
+│ │ +  -classpath "${CLASSWORLDS_JAR}" \
+│ │ +  "-Dclassworlds.conf=${MAVEN_HOME}/bin/m2.conf" \
+│ │ +  "-Dmaven.home=${MAVEN_HOME}" \
+│ │ +  "-Dlibrary.jansi.path=${MAVEN_HOME}/lib/jansi-native" \
+│ │ +  "-Dmaven.multiModuleProjectDirectory=${MAVEN_PROJECTBASEDIR}" \
+│ │ +  ${CLASSWORLDS_LAUNCHER} "$@"
+│ ├── apache-maven-3.8.1/apache-maven/src/bin/mvnDebug
+│ │ @@ -1,34 +1,34 @@
+│ │ -#!/bin/sh
+│ │ -
+│ │ -# Licensed to the Apache Software Foundation (ASF) under one
+│ │ -# or more contributor license agreements.  See the NOTICE file
+│ │ -# distributed with this work for additional information
+│ │ -# regarding copyright ownership.  The ASF licenses this file
+│ │ -# to you under the Apache License, Version 2.0 (the
+│ │ -# "License"); you may not use this file except in compliance
+│ │ -# with the License.  You may obtain a copy of the License at
+│ │ -#
+│ │ -#    http://www.apache.org/licenses/LICENSE-2.0
+│ │ -#
+│ │ -# Unless required by applicable law or agreed to in writing,
+│ │ -# software distributed under the License is distributed on an
+│ │ -# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+│ │ -# KIND, either express or implied.  See the License for the
+│ │ -# specific language governing permissions and limitations
+│ │ -# under the License.
+│ │ -
+│ │ -# -----------------------------------------------------------------------------
+│ │ -# Apache Maven Debug Script
+│ │ -#
+│ │ -# Environment Variable Prerequisites
+│ │ -#
+│ │ -#   JAVA_HOME       Must point at your Java Development Kit installation.
+│ │ -#   MAVEN_OPTS      (Optional) Java runtime options used when Maven is executed.
+│ │ -#   MAVEN_SKIP_RC   (Optional) Flag to disable loading of mavenrc files.
+│ │ -# -----------------------------------------------------------------------------
+│ │ -
+│ │ -MAVEN_DEBUG_OPTS="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"
+│ │ -
+│ │ -echo Preparing to execute Maven in debug mode
+│ │ -
+│ │ -env MAVEN_OPTS="$MAVEN_OPTS" MAVEN_DEBUG_OPTS="$MAVEN_DEBUG_OPTS" "`dirname "$0"`/mvn" "$@"
+│ │ +#!/bin/sh
+│ │ +
+│ │ +# Licensed to the Apache Software Foundation (ASF) under one
+│ │ +# or more contributor license agreements.  See the NOTICE file
+│ │ +# distributed with this work for additional information
+│ │ +# regarding copyright ownership.  The ASF licenses this file
+│ │ +# to you under the Apache License, Version 2.0 (the
+│ │ +# "License"); you may not use this file except in compliance
+│ │ +# with the License.  You may obtain a copy of the License at
+│ │ +#
+│ │ +#    http://www.apache.org/licenses/LICENSE-2.0
+│ │ +#
+│ │ +# Unless required by applicable law or agreed to in writing,
+│ │ +# software distributed under the License is distributed on an
+│ │ +# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+│ │ +# KIND, either express or implied.  See the License for the
+│ │ +# specific language governing permissions and limitations
+│ │ +# under the License.
+│ │ +
+│ │ +# -----------------------------------------------------------------------------
+│ │ +# Apache Maven Debug Script
+│ │ +#
+│ │ +# Environment Variable Prerequisites
+│ │ +#
+│ │ +#   JAVA_HOME       Must point at your Java Development Kit installation.
+│ │ +#   MAVEN_OPTS      (Optional) Java runtime options used when Maven is executed.
+│ │ +#   MAVEN_SKIP_RC   (Optional) Flag to disable loading of mavenrc files.
+│ │ +# -----------------------------------------------------------------------------
+│ │ +
+│ │ +MAVEN_DEBUG_OPTS="-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000"
+│ │ +
+│ │ +echo Preparing to execute Maven in debug mode
+│ │ +
+│ │ +env MAVEN_OPTS="$MAVEN_OPTS" MAVEN_DEBUG_OPTS="$MAVEN_DEBUG_OPTS" "`dirname "$0"`/mvn" "$@"
+│ ├── apache-maven-3.8.1/apache-maven/src/bin/mvnyjp
+│ │ @@ -1,35 +1,35 @@
+│ │ -#!/bin/sh
+│ │ -
+│ │ -# Licensed to the Apache Software Foundation (ASF) under one
+│ │ -# or more contributor license agreements.  See the NOTICE file
+│ │ -# distributed with this work for additional information
+│ │ -# regarding copyright ownership.  The ASF licenses this file
+│ │ -# to you under the Apache License, Version 2.0 (the
+│ │ -# "License"); you may not use this file except in compliance
+│ │ -# with the License.  You may obtain a copy of the License at
+│ │ -#
+│ │ -#    http://www.apache.org/licenses/LICENSE-2.0
+│ │ -#
+│ │ -# Unless required by applicable law or agreed to in writing,
+│ │ -# software distributed under the License is distributed on an
+│ │ -# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+│ │ -# KIND, either express or implied.  See the License for the
+│ │ -# specific language governing permissions and limitations
+│ │ -# under the License.
+│ │ -
+│ │ -# -----------------------------------------------------------------------------
+│ │ -# Apache Maven YourKit Profiler Startup Script
+│ │ -#
+│ │ -# Environment Variable Prerequisites
+│ │ -#
+│ │ -#   JAVA_HOME       Must point at your Java Development Kit installation.
+│ │ -#   MAVEN_OPTS      (Optional) Java runtime options used when Maven is executed.
+│ │ -#   MAVEN_SKIP_RC   (Optional) Flag to disable loading of mavenrc files.
+│ │ -# -----------------------------------------------------------------------------
+│ │ -
+│ │ -if [ ! -f "$YJPLIB" ]; then
+│ │ -  echo "Error: Unable to autodetect the YJP library location. Please set YJPLIB variable" >&2
+│ │ -  exit 1
+│ │ -fi
+│ │ -
+│ │ -env MAVEN_OPTS="-agentpath:$YJPLIB=onexit=snapshot,onexit=memory,tracing,onlylocal $MAVEN_OPTS" "`dirname "$0"`/mvn" "$@"
+│ │ +#!/bin/sh
+│ │ +
+│ │ +# Licensed to the Apache Software Foundation (ASF) under one
+│ │ +# or more contributor license agreements.  See the NOTICE file
+│ │ +# distributed with this work for additional information
+│ │ +# regarding copyright ownership.  The ASF licenses this file
+│ │ +# to you under the Apache License, Version 2.0 (the
+│ │ +# "License"); you may not use this file except in compliance
+│ │ +# with the License.  You may obtain a copy of the License at
+│ │ +#
+│ │ +#    http://www.apache.org/licenses/LICENSE-2.0
+│ │ +#
+│ │ +# Unless required by applicable law or agreed to in writing,
+│ │ +# software distributed under the License is distributed on an
+│ │ +# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+│ │ +# KIND, either express or implied.  See the License for the
+│ │ +# specific language governing permissions and limitations
+│ │ +# under the License.
+│ │ +
+│ │ +# -----------------------------------------------------------------------------
+│ │ +# Apache Maven YourKit Profiler Startup Script
+│ │ +#
+│ │ +# Environment Variable Prerequisites
+│ │ +#
+│ │ +#   JAVA_HOME       Must point at your Java Development Kit installation.
+│ │ +#   MAVEN_OPTS      (Optional) Java runtime options used when Maven is executed.
+│ │ +#   MAVEN_SKIP_RC   (Optional) Flag to disable loading of mavenrc files.
+│ │ +# -----------------------------------------------------------------------------
+│ │ +
+│ │ +if [ ! -f "$YJPLIB" ]; then
+│ │ +  echo "Error: Unable to autodetect the YJP library location. Please set YJPLIB variable" >&2
+│ │ +  exit 1
+│ │ +fi
+│ │ +
+│ │ +env MAVEN_OPTS="-agentpath:$YJPLIB=onexit=snapshot,onexit=memory,tracing,onlylocal $MAVEN_OPTS" "`dirname "$0"`/mvn" "$@"
+

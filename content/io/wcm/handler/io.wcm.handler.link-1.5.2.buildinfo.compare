@@ -1,0 +1,5 @@
+version=1.5.2
+ok=1
+ko=1
+okFiles="io.wcm.handler.link-1.5.2.jar"
+koFiles="io.wcm.handler.link-1.5.2-sources.jar"

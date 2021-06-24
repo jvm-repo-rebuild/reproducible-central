@@ -1,0 +1,26 @@
+# see instructions https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/BUILDSPEC.md
+
+# Central Repository coordinates for the Reference release
+groupId=com.github.ldapchai
+artifactId=ldapchai
+version=0.7.6
+
+display=${groupId}:${artifactId}
+
+# Source code
+gitRepo=https://github.com/ldapchai/${artifactId}.git
+gitTag=v${version}
+
+# Rebuild environment prerequisites
+tool=mvn
+jdk=14
+newline=lf
+
+# Rebuild command
+command="mvn clean package -DskipJavadoc=true -Dcheckstyle.skip=true -Dmaven.test.skip=true -DskipSpotbugs=true"
+
+# Location of the buildinfo file generated during rebuild to record output fingerprints
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+# if the release is finally not reproducible, link to an issue tracker entry if one was created
+issue=

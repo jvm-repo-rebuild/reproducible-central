@@ -1,0 +1,17 @@
+groupId=io.dropwizard.metrics
+artifactId=metrics-parent
+display=${groupId}:metrics
+version=4.1.19
+
+gitRepo=https://github.com/dropwizard/metrics.git
+gitTag=v${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn clean package -DskipTests"
+buildinfo=metrics-servlets/target/metrics-servlets-${version}.buildinfo
+
+diffoscope="https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/$(echo ${groupId} | tr '.' '/')/dropwizard-metrics-${version}.diffoscope"
+issue=https://issues.apache.org/jira/browse/FELIX-6404

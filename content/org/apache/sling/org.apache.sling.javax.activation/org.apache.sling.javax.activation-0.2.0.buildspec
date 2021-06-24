@@ -1,0 +1,16 @@
+groupId=org.apache.sling
+artifactId=org.apache.sling.javax.activation
+display=${groupId}:.javax.activation
+version=0.2.0
+
+gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=

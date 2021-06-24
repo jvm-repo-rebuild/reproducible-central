@@ -1,0 +1,7 @@
+version=3.20.0
+ok=26
+ko=0
+okFiles="jline-terminal-3.20.0.jar jline-terminal-3.20.0-sources.jar jline-terminal-jna-3.20.0.jar jline-terminal-jna-3.20.0-sources.jar jline-terminal-jansi-3.20.0.jar jline-terminal-jansi-3.20.0-sources.jar jline-reader-3.20.0.jar jline-reader-3.20.0-sources.jar jline-style-3.20.0.jar jline-style-3.20.0-sources.jar jline-builtins-3.20.0.jar jline-builtins-3.20.0-sources.jar jline-console-3.20.0.jar jline-console-3.20.0-sources.jar jline-groovy-3.20.0.jar jline-groovy-3.20.0-sources.jar jline-remote-ssh-3.20.0.jar jline-remote-ssh-3.20.0-sources.jar jline-remote-telnet-3.20.0.jar jline-remote-telnet-3.20.0-sources.jar jline-demo-3.20.0.jar jline-demo-3.20.0-sources.jar jline-graal-3.20.0.jar jline-graal-3.20.0-sources.jar jline-3.20.0.jar jline-3.20.0-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

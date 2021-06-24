@@ -1,0 +1,14 @@
+groupId=io.wcm
+artifactId=io.wcm.wcm.ui.granite
+display=${groupId}-WCM:ui.granite
+version=1.6.4
+
+gitRepo=https://github.com/wcm-io/wcm-io-wcm.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=crlf-nogit
+
+command="mvn -f ui/granite/pom.xml -Pio.wcm clean package -DskipTests -Dmaven.buildNumber.skip -DbuildNumber=796b5c72 -Dtimestamp=2020-07-06T08:55:00+02:00"
+buildinfo=ui/granite/target/${artifactId}-${version}.buildinfo

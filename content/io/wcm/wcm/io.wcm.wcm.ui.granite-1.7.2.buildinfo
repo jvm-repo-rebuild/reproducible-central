@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=WCM Granite UI Extensions
+group-id=io.wcm
+artifact-id=io.wcm.wcm.ui.granite
+version=1.7.2
+
+# source information
+source.scm.uri=scm:git:https://github.com/wcm-io/wcm-io-wcm.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=11.0.9.1
+java.vendor=Oracle Corporation
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+# output
+
+outputs.0.filename=io.wcm.wcm.ui.granite-1.7.2.jar
+outputs.0.length=61919
+outputs.0.checksums.sha512=e8b68600074168ca6e6c3244878024ee7fc26ff4ca59e87116ed32e4ebe2a43fa09cce454c17a0a1e0f090b4820d3a19494adfb7289768925bd54dafbd87290c
+
+outputs.1.filename=io.wcm.wcm.ui.granite-1.7.2-sources.jar
+outputs.1.length=49369
+outputs.1.checksums.sha512=d49f18925544593802fd071e31eebd627122cfcea4f342f821d05c637f8fc7f8f81018e60a3e4d4b1fdcefddc87389c498f9c942b6a37c6b3908b1e1564f24be
