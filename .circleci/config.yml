@@ -1,0 +1,33 @@
+version: 2.1
+
+orbs:
+  shellcheck: circleci/shellcheck@2.2.4
+
+jobs:
+  job-nightly:
+    docker:
+      - image: alpine:3.14
+
+    steps:
+      - run:
+          name: Install git
+          command: |
+            apk add \
+                --update-cache \
+                --no-progress \
+                git \
+                bash \
+      - checkout
+#      - shellcheck/install
+#      - shellcheck/check:
+#          pattern: update-reproducibility-summary.sh
+      - run:
+          command: |
+            ./update-reproducibility-summary.sh
+
+workflows:
+  build:
+    jobs:
+      - job-nightly
+
+
