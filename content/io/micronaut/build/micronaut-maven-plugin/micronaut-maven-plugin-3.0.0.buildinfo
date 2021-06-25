@@ -1,0 +1,31 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Micronaut Maven Plugin
+group-id=io.micronaut.build
+artifact-id=micronaut-maven-plugin
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:micronaut-projects/micronaut-maven-plugin.git
+source.scm.tag=v3.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.3.9
+
+# output
+
+outputs.0.filename=micronaut-maven-plugin-3.0.0.jar
+outputs.0.length=80475
+outputs.0.checksums.sha512=7ceb7a21542510d514f2e466cc0b0201cf2ade57bbf7d73a6d5a99a3b69024a7dfa194765d76a9c9baac2ba67dd864b62bbcb874c324c699aa7f9cf843ccf8d9
+
+outputs.1.filename=micronaut-maven-plugin-3.0.0-sources.jar
+outputs.1.length=40098
+outputs.1.checksums.sha512=7e56b51a70833d685319e7ee748b76c98516227d750dd9c8efbfbb8e37e9c63429424a4eb890dceee4abab401e296445fcbb2762e53d43cf8a2ec49320f49638
