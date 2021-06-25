@@ -90,6 +90,11 @@
       <url>https://maven-nodejs-proxy.pvtool.org</url>
     </mirror>
     <mirror>
+      <id>jboss.org</id>
+      <mirrorOf>jboss.org</mirrorOf>
+      <url>https://repository.jboss.org/nexus/content/repositories/releases/</url>
+    </mirror>
+    <mirror>
       <id>default</id>
       <mirrorOf>*</mirrorOf>
       <url>https://repo.maven.apache.org/maven2</url>

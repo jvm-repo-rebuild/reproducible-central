@@ -1,0 +1,7 @@
+version=1.10
+ok=38
+ko=0
+okFiles="doxia-1.10-site.xml doxia-1.10-source-release.zip doxia-logging-api-1.10.jar doxia-logging-api-1.10-sources.jar doxia-sink-api-1.10.jar doxia-sink-api-1.10-sources.jar doxia-test-docs-1.10.jar doxia-test-docs-1.10-sources.jar doxia-core-1.10.jar doxia-core-1.10-sources.jar doxia-core-1.10-tests.jar doxia-modules-1.10-site.xml doxia-module-apt-1.10.jar doxia-module-apt-1.10-sources.jar doxia-module-confluence-1.10.jar doxia-module-confluence-1.10-sources.jar doxia-module-docbook-simple-1.10.jar doxia-module-docbook-simple-1.10-sources.jar doxia-module-fml-1.10.jar doxia-module-fml-1.10-sources.jar doxia-module-fo-1.10.jar doxia-module-fo-1.10-sources.jar doxia-module-itext-1.10.jar doxia-module-itext-1.10-sources.jar doxia-module-latex-1.10.jar doxia-module-latex-1.10-sources.jar doxia-module-rtf-1.10.jar doxia-module-rtf-1.10-sources.jar doxia-module-twiki-1.10.jar doxia-module-twiki-1.10-sources.jar doxia-module-xdoc-1.10.jar doxia-module-xdoc-1.10-sources.jar doxia-module-xhtml-1.10.jar doxia-module-xhtml-1.10-sources.jar doxia-module-xhtml5-1.10.jar doxia-module-xhtml5-1.10-sources.jar doxia-module-markdown-1.10.jar doxia-module-markdown-1.10-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
