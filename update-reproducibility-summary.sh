@@ -75,4 +75,9 @@ mv README.md.tmp README.md
 rm summary-intro.md
 rm summary-table.md
 
-grep "unexpected issue" README.md
+if grep "unexpected issue" README.md; then
+  echo "Uh oh, found 'unexpected issue' in README.md."
+  exit 1
+else
+  echo "All appears well, no 'unexpected issue' in README.md"
+fi
