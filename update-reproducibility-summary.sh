@@ -22,7 +22,7 @@ do
   [[ -z "${issue}" ]] && [[ -n "${diffoscope}" ]] && issue="$(dirname "${buildspec}")/$(basename "${diffoscope}")"
 
   buildinfo="$(dirname "${buildspec}")/$(basename "${buildinfo}")"
-  if [ $(ls "${buildinfo}" | wc -l) -le 1 ]; then
+  if [ $(ls ${buildinfo} | wc -l) -le 1 ]; then
     buildinfoCompare="${buildinfo}.compare"
   else
     buildinfoCompare="$(dirname "${buildspec}")/$(basename "${buildspec}" .buildspec).buildinfo.compare"
