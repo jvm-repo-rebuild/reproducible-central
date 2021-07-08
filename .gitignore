@@ -6,3 +6,6 @@ settings-docker.xml
 .sbt/
 .npm/
 .DS_Store
+
+# ci config for local ci build
+.circleci/local-config.yml

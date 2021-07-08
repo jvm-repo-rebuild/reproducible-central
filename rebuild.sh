@@ -90,7 +90,12 @@ mvnBuildDocker() {
   esac
 
   echo "Rebuilding using Docker image ${mvnImage}"
-  local docker_command="docker run -it --rm --name rebuild-central -v $PWD:/var/maven/app -v $base:/var/maven/.m2 -v $base/.npm:/.npm -u $(id -u ${USER}):$(id -g ${USER}) -e MAVEN_CONFIG=/var/maven/.m2 -w /var/maven/app"
+  # create app-data container holding app files from filesystem
+  docker create -v /var/maven/app -v /var/maven/.m2 --name app-data ${mvnImage}
+  docker cp $PWD/. app-data:/var/maven/app
+  docker cp $base/. app-data:/var/maven/.m2
+
+  local docker_command="docker run -it --rm --name rebuild-central --volumes-from app-data -u $(id -u ${USER}):$(id -g ${USER}) -e MAVEN_CONFIG=/var/maven/.m2 -w /var/maven/app"
   local mvn_docker_params="-Duser.home=/var/maven"
   if [[ "${newline}" == crlf* ]]
   then
@@ -107,6 +112,9 @@ mvnBuildDocker() {
     echo -e "\033[2m${docker_command} ${mvnImage} \033[1m${mvnCommand} ${mvn_docker_params}\033[0m"
     ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params}
   fi
+  # copy built files from app-data container to filesystem
+  docker cp app-data:/var/maven/app/. $PWD
+  docker rm app-data
 }
 
 # TODO not tested

@@ -1,0 +1,62 @@
+version: 2.1
+
+orbs:
+  shellcheck: circleci/shellcheck@1.3.16
+
+commands:
+  rebuild-one:
+    parameters:
+      buildspec-path:
+        type: string
+    steps:
+      - run:
+          name: Rebuild one project
+          command: |
+            ./rebuild.sh <<parameters.buildspec-path>>
+
+  rebuild-all:
+    steps:
+      - run:
+          name: Rebuild all projects
+          command: |
+            echo "Not implemented yet".
+            exit 1
+
+jobs:
+  build-one:
+    docker:
+      - image: alpine:3.12
+
+    steps:
+      - run:
+          name: Install required tooling
+          command: |
+            apk add \
+                --update-cache \
+                --no-progress \
+                git \
+                docker-cli \
+                bash \
+      - checkout
+      - setup_remote_docker
+      - rebuild-one:
+          buildspec-path: content/org/codehaus/plexus/plexus-archiver/plexus-archiver-4.2.2.buildspec
+
+
+workflows:
+  check-shell:
+    jobs:
+      - shellcheck/check:
+          pre-steps:
+              - run:
+                  name: Install git
+                  command: |
+                    apk add \
+                        --update-cache \
+                        --no-progress \
+                        git \
+  build-single:
+    jobs:
+      - build-one
+
+
