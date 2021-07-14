@@ -1,0 +1,6 @@
+version=24
+ok=0
+ko=1
+okFiles=""
+koFiles="apache-24-source-release.zip"
+# diffoscope target/reference/apache-24-source-release.zip target/apache-24-source-release.zip
