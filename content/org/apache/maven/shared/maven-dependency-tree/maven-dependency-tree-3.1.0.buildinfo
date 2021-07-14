@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Dependency Tree
+group-id=org.apache.maven.shared
+artifact-id=maven-dependency-tree
+version=3.1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-dependency-tree.git
+source.scm.tag=maven-dependency-tree-3.1.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=maven-dependency-tree-3.1.0.jar
+outputs.0.length=103057
+outputs.0.checksums.sha512=ca317cd2c5a3e13f442f494a18b8f55348018f9503980e7c46ba240b42ae79d97cec439797dbfc0c5b35fa873e30b14ddad2b6023551f35be04666f3c52ac621
+
+outputs.1.filename=maven-dependency-tree-3.1.0-source-release.zip
+outputs.1.length=131664
+outputs.1.checksums.sha512=a34df4748ed28dcf0224abd1ff7c2ebe228c90e95afa01b0a9590770392a9642c3b716cd09847c30f6a58492b5e08015f2ffa0e498f0351a85a97c6dc089e6c4
+
+outputs.2.filename=maven-dependency-tree-3.1.0-sources.jar
+outputs.2.length=77134
+outputs.2.checksums.sha512=b49ca1de414f28c135b69239c9ed0065c01068b378876744940320ae4bc7c1c27feb04a78c2cb9d43896bf5b015fa8087c3feb637e2c423e7aa5f50db500c101
