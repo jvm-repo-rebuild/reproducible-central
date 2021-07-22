@@ -24,6 +24,21 @@ jobs:
       - run:
           command: |
             ./update-reproducibility-summary.sh
+      - run:
+          name: Configure git
+          command: |
+            git config user.email "nightly@reproducible-build.ci"
+            git config user.name "Nightly Build Bot"
+      - run:
+          name: Commit Changes to README.md
+          command: |
+            git add README.md
+            git status
+            git commit -m "nigthly update of README.md"
+      - run:
+          name: Push Changes to README.md
+          command: |
+            git push
 
 workflows:
   build:
