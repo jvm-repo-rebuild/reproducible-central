@@ -1,0 +1,7 @@
+version=5.0.2
+ok=2
+ko=0
+okFiles="cyclonedx-core-java-5.0.2.jar cyclonedx-core-java-5.0.2-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

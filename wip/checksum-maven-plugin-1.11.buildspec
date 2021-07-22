@@ -1,0 +1,19 @@
+groupId=net.nicoulaj.maven.plugins
+artifactId=checksum-maven-plugin
+version=1.11
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/nicoulaj/${artifactId}.git
+gitTag=${version}
+
+tool=mvn
+jdk=16
+newline=lf
+
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=

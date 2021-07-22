@@ -1,0 +1,5 @@
+version=34
+ok=7
+ko=0
+okFiles="maven-parent-34-site.xml maven-parent-34-source-release.zip maven-extensions-34-site.xml maven-plugins-34-site.xml maven-shared-components-34-site.xml maven-skins-34-site.xml doxia-tools-34-site.xml"
+koFiles=""
