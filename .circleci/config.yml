@@ -9,6 +9,9 @@ jobs:
       - image: alpine:3.14
 
     steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "SO:ME:FIN:G:ER:PR:IN:T"
       - run:
           name: Install git
           command: |
