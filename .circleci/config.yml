@@ -37,7 +37,7 @@ jobs:
           command: |
             git add README.md
             git status
-            git commit -m "nigthly update of README.md"
+            git commit -m "nigthly update of README.md [skip ci]"
       - run:
           name: Push Changes to README.md
           command: |
