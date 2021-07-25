@@ -18,7 +18,7 @@ jobs:
             apk add \
                 --update-cache \
                 --no-progress \
-                ssh \
+                openssh \
                 git \
                 bash \
       - checkout
