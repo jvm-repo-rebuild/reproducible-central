@@ -11,7 +11,7 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - "SO:ME:FIN:G:ER:PR:IN:T"
+            - "ca:f5:e1:39:79:dd:90:0f:82:14:32:be:38:8a:79:29"
       - run:
           name: Install git
           command: |
