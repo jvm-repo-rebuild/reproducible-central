@@ -31,3 +31,29 @@ The local build runs in a docker container.
   * The nightly CI build will attempt to update the `README.md` file with any changes created by running 
     [update-reproducibility-summary.sh](../update-reproducibility-summary.sh). Write access for this `git push` was 
     configured according to [Creating a GitHub deploy key](https://circleci.com/docs/2.0/gh-bb-integration/#creating-a-github-deploy-key)
+
+Miscellaneous
+-------------
+
+To allow your CI build to push changes back to github (e.g. release tags, etc), you need to create
+a GitHub "Deploy Key" with write access. The command below will create such a key. Use an empty password.
+See: https://circleci.com/docs/2.0/add-ssh-key/#steps
+
+    ssh-keygen -t ed25519 -C "deploy-key@reproducible-central.org" -f reproducible-central_gh_deploy.key
+
+Paste the public key into a new "write" enabled GitHub deploy key with Title: `CircleCI Write reproducible-central`
+
+Be sure you check the "Allow write access" option.
+
+    cat reproducible-central_gh_deploy.key.pub | pbcopy
+
+In the CircleCI Web UI, under Permissions -> SSH Permissions -> Add SSH Key, enter "Hostname": github.com
+
+Paste the private key.
+
+    cat reproducible-central_gh_deploy.key | pbcopy        
+
+As a sanity check, the private key should end with `-----END OPENSSH PRIVATE KEY-----`.
+
+Also update the `ssh-fingerprints:` tag in your config.yml to append the fingerprint of the write key. The fingerprint
+will be shown in the CircleCI web page under the "Additional Keys" section, with the "Hostname" equal `githumb.com`.
