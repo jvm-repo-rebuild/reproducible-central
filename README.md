@@ -63,6 +63,8 @@ Notice the anchor in the link.
 
 ## Rebuild Results
 
+Nightly Rebuild: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
+
 <!-- BEGIN GENERATED INTRO -->
 rebuilding **367 releases** of **114 projects**:
 - **257** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
