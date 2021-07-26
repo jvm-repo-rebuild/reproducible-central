@@ -51,7 +51,13 @@ jobs:
             git push
 
 workflows:
-  build:
+  build_nightly:
+    triggers:
+      - schedule:
+          cron: "50 20 * * *"
+          filters:
+            branches:
+              only: master
     jobs:
       - job-nightly
 
