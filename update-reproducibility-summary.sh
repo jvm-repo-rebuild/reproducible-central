@@ -2,6 +2,8 @@
 
 echo "*** running script: $0"
 
+export LC_ALL=C
+
 cat <(echo "| [Central Repository](https://search.maven.org/) groupId:artifactId(s) | version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/):<br/>reproducible? |"
 echo "| -------------------------------- | -- | --------- | ------ |"
 
