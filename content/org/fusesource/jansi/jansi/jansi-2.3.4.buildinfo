@@ -1,0 +1,30 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=jansi
+group-id=org.fusesource.jansi
+artifact-id=jansi
+version=2.3.4
+
+# source information
+source.scm.uri=scm:git:git://github.com/fusesource/jansi.git
+source.scm.tag=jansi-2.3.4
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=jansi-2.3.4.jar
+outputs.0.length=213957
+outputs.0.checksums.sha512=fdf3111caab5bbee6433a1cc38aff52cdb5dd4ad13ad0f0850f83f4aa4cbf8784f51a7031a3db63af6b90c1fc39d68832501ab3957ad2dcb2c4f79a79f5d3119
+
+outputs.1.filename=jansi-2.3.4-sources.jar
+outputs.1.length=180722
+outputs.1.checksums.sha512=8b9479995d62bbdb92157c516722a935e20e7f0319c810eb6af7f9cc3d27d13df3cd50b7fee9d6786facbb39526f3813b93b2d5f5b25fa57b7b84f2caeeb8b0c

@@ -1,0 +1,182 @@
+target/reference/jansi-2.3.4.jar target/jansi-2.3.4.jar
+--- target/reference/jansi-2.3.4.jar
++++ target/jansi-2.3.4.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 213978 bytes, number of entries: 94
+│ +Zip file size: 213957 bytes, number of entries: 94
+│  -rw-r--r--  2.0 unx     1035 b- defN 21-Jul-23 13:13 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jul-23 13:13 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jul-23 13:13 META-INF/native-image/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jul-23 13:13 META-INF/native-image/jansi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jul-23 13:13 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jul-23 13:13 org/fusesource/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jul-23 13:13 org/fusesource/jansi/
+│ @@ -25,15 +25,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jul-23 13:13 org/fusesource/jansi/internal/native/Windows/x86/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jul-23 13:13 org/fusesource/jansi/internal/native/Windows/x86_64/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jul-23 13:13 org/fusesource/jansi/io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jul-23 13:13 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jul-23 13:13 META-INF/maven/org.fusesource.jansi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jul-23 13:13 META-INF/maven/org.fusesource.jansi/jansi/
+│  -rw-r--r--  2.0 unx    12469 b- defN 21-Jul-23 13:13 META-INF/native-image/jansi/jni-config.json
+│ --rw-r--r--  2.0 unx      146 b- defN 21-Jul-23 13:13 META-INF/native-image/jansi/resource-config.json
+│ +-rw-r--r--  2.0 unx      141 b- defN 21-Jul-23 13:13 META-INF/native-image/jansi/resource-config.json
+│  -rw-r--r--  2.0 unx      943 b- defN 21-Jul-23 13:13 org/fusesource/jansi/Ansi$1.class
+│  -rw-r--r--  2.0 unx      760 b- defN 21-Jul-23 13:13 org/fusesource/jansi/Ansi$2.class
+│  -rw-r--r--  2.0 unx     2509 b- defN 21-Jul-23 13:13 org/fusesource/jansi/Ansi$Attribute.class
+│  -rw-r--r--  2.0 unx     2093 b- defN 21-Jul-23 13:13 org/fusesource/jansi/Ansi$Color.class
+│  -rw-r--r--  2.0 unx      241 b- defN 21-Jul-23 13:13 org/fusesource/jansi/Ansi$Consumer.class
+│  -rw-r--r--  2.0 unx     1467 b- defN 21-Jul-23 13:13 org/fusesource/jansi/Ansi$Erase.class
+│  -rw-r--r--  2.0 unx     4177 b- defN 21-Jul-23 13:13 org/fusesource/jansi/Ansi$NoAnsi.class
+│ @@ -85,12 +85,12 @@
+│  -rw-r--r--  2.0 unx      623 b- defN 21-Jul-23 13:13 org/fusesource/jansi/io/AnsiOutputStream$ZeroWidthSupplier.class
+│  -rw-r--r--  2.0 unx     7649 b- defN 21-Jul-23 13:13 org/fusesource/jansi/io/AnsiOutputStream.class
+│  -rw-r--r--  2.0 unx     9922 b- defN 21-Jul-23 13:13 org/fusesource/jansi/io/AnsiProcessor.class
+│  -rw-r--r--  2.0 unx     5720 b- defN 21-Jul-23 13:13 org/fusesource/jansi/io/Colors.class
+│  -rw-r--r--  2.0 unx     3772 b- defN 21-Jul-23 13:13 org/fusesource/jansi/io/ColorsAnsiProcessor.class
+│  -rw-r--r--  2.0 unx     1312 b- defN 21-Jul-23 13:13 org/fusesource/jansi/io/FastBufferedOutputStream.class
+│  -rw-r--r--  2.0 unx    11095 b- defN 21-Jul-23 13:13 org/fusesource/jansi/io/WindowsAnsiProcessor.class
+│ --rw-r--r--  2.0 unx       15 b- defN 21-Jul-23 13:13 org/fusesource/jansi/jansi.properties
+│ +-rw-r--r--  2.0 unx       14 b- defN 21-Jul-23 13:13 org/fusesource/jansi/jansi.properties
+│  -rw-r--r--  2.0 unx      935 b- defN 21-Jul-23 13:13 org/fusesource/jansi/jansi.txt
+│ --rw-r--r--  2.0 unx    14435 b- defN 21-Jul-23 13:13 META-INF/maven/org.fusesource.jansi/jansi/pom.xml
+│ +-rw-r--r--  2.0 unx    14082 b- defN 21-Jul-23 13:13 META-INF/maven/org.fusesource.jansi/jansi/pom.xml
+│  -rw-r--r--  2.0 unx       60 b- defN 21-Jul-23 13:13 META-INF/maven/org.fusesource.jansi/jansi/pom.properties
+│ -94 files, 587211 bytes uncompressed, 198334 bytes compressed:  66.2%
+│ +94 files, 586852 bytes uncompressed, 198313 bytes compressed:  66.2%
+├── META-INF/native-image/jansi/resource-config.json
+│┄ Format-specific differences are supported for JSON files but no file-specific differences were detected; falling back to a binary diff. file(1) reports: JSON data
+│ @@ -1,10 +1,9 @@
+│ -00000000: 7b0d 0a20 2022 7265 736f 7572 6365 7322  {..  "resources"
+│ -00000010: 3a20 5b0d 0a20 2020 207b 2270 6174 7465  : [..    {"patte
+│ -00000020: 726e 223a 2022 6f72 672f 6675 7365 736f  rn": "org/fuseso
+│ -00000030: 7572 6365 2f6a 616e 7369 2f6a 616e 7369  urce/jansi/jansi
+│ -00000040: 2e70 726f 7065 7274 6965 7322 7d2c 0d0a  .properties"},..
+│ -00000050: 2020 2020 7b22 7061 7474 6572 6e22 3a20      {"pattern": 
+│ -00000060: 226f 7267 2f66 7573 6573 6f75 7263 652f  "org/fusesource/
+│ -00000070: 6a61 6e73 692f 696e 7465 726e 616c 2f6e  jansi/internal/n
+│ -00000080: 6174 6976 652f 2e2a 227d 0d0a 2020 5d0d  ative/.*"}..  ].
+│ -00000090: 0a7d                                     .}
+│ +00000000: 7b0a 2020 2272 6573 6f75 7263 6573 223a  {.  "resources":
+│ +00000010: 205b 0a20 2020 207b 2270 6174 7465 726e   [.    {"pattern
+│ +00000020: 223a 2022 6f72 672f 6675 7365 736f 7572  ": "org/fusesour
+│ +00000030: 6365 2f6a 616e 7369 2f6a 616e 7369 2e70  ce/jansi/jansi.p
+│ +00000040: 726f 7065 7274 6965 7322 7d2c 0a20 2020  roperties"},.   
+│ +00000050: 207b 2270 6174 7465 726e 223a 2022 6f72   {"pattern": "or
+│ +00000060: 672f 6675 7365 736f 7572 6365 2f6a 616e  g/fusesource/jan
+│ +00000070: 7369 2f69 6e74 6572 6e61 6c2f 6e61 7469  si/internal/nati
+│ +00000080: 7665 2f2e 2a22 7d0a 2020 5d0a 7d         ve/.*"}.  ].}
+├── org/fusesource/jansi/jansi.properties
+│ @@ -1 +1 @@
+│ -version=2.3.4
+
+│ +version=2.3.4
+├── META-INF/maven/org.fusesource.jansi/jansi/pom.xml
+│┄ Format-specific differences are supported for XML files but no file-specific differences were detected; falling back to a binary diff. file(1) reports: XML 1.0 document, ASCII text, with CRLF line terminators
+│ @@ -1,903 +1,881 @@
+│  00000000: 3c3f 786d 6c20 7665 7273 696f 6e3d 2231  <?xml version="1
+│  00000010: 2e30 2220 656e 636f 6469 6e67 3d22 5554  .0" encoding="UT
+│ -00000020: 462d 3822 3f3e 0d0a 3c21 2d2d 0d0a 2020  F-8"?>..<!--..  
+│ -00000030: 436f 7079 7269 6768 7420 2843 2920 3230  Copyright (C) 20
+...
+│ +00000020: 462d 3822 3f3e 0a3c 212d 2d0a 2020 436f  F-8"?>.<!--.  Co
+│ +00000030: 7079 7269 6768 7420 2843 2920 3230 3039  pyright (C) 2009
+│ +00000040: 2d32 3031 3720 7468 6520 6f72 6967 696e  -2017 the origin
+...
+
+target/reference/jansi-2.3.4-sources.jar target/jansi-2.3.4-sources.jar
+--- target/reference/jansi-2.3.4-sources.jar
++++ target/jansi-2.3.4-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 180993 bytes, number of entries: 65
+│ +Zip file size: 180722 bytes, number of entries: 65
+│  -rw-r--r--  2.0 unx       64 b- defN 21-Jul-23 13:13 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jul-23 13:13 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jul-23 13:13 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jul-23 13:13 org/fusesource/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jul-23 13:13 org/fusesource/jansi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jul-23 13:13 org/fusesource/jansi/internal/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jul-23 13:13 org/fusesource/jansi/io/
+│ @@ -24,44 +24,44 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jul-23 13:13 org/fusesource/jansi/internal/native/Mac/x86_64/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jul-23 13:13 org/fusesource/jansi/internal/native/Windows/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jul-23 13:13 org/fusesource/jansi/internal/native/Windows/x86/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jul-23 13:13 org/fusesource/jansi/internal/native/Windows/x86_64/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jul-23 13:13 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jul-23 13:13 META-INF/maven/org.fusesource.jansi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Jul-23 13:13 META-INF/maven/org.fusesource.jansi/jansi/
+│ --rw-r--r--  2.0 unx    24135 b- defN 21-Jul-23 13:13 org/fusesource/jansi/Ansi.java
+│ --rw-r--r--  2.0 unx     1029 b- defN 21-Jul-23 13:13 org/fusesource/jansi/AnsiColors.java
+│ --rw-r--r--  2.0 unx    21903 b- defN 21-Jul-23 13:13 org/fusesource/jansi/AnsiConsole.java
+│ --rw-r--r--  2.0 unx    12057 b- defN 21-Jul-23 13:13 org/fusesource/jansi/AnsiMain.java
+│ --rw-r--r--  2.0 unx     1112 b- defN 21-Jul-23 13:13 org/fusesource/jansi/AnsiMode.java
+│ --rw-r--r--  2.0 unx     2809 b- defN 21-Jul-23 13:13 org/fusesource/jansi/AnsiPrintStream.java
+│ --rw-r--r--  2.0 unx     7606 b- defN 21-Jul-23 13:13 org/fusesource/jansi/AnsiRenderer.java
+│ --rw-r--r--  2.0 unx     1240 b- defN 21-Jul-23 13:13 org/fusesource/jansi/AnsiType.java
+│ --rw-r--r--  2.0 unx     1532 b- defN 21-Jul-23 13:13 org/fusesource/jansi/WindowsSupport.java
+│ --rw-r--r--  2.0 unx     5056 b- defN 21-Jul-23 13:13 org/fusesource/jansi/internal/CLibrary.java
+│ --rw-r--r--  2.0 unx    14528 b- defN 21-Jul-23 13:13 org/fusesource/jansi/internal/JansiLoader.java
+│ --rw-r--r--  2.0 unx    17284 b- defN 21-Jul-23 13:13 org/fusesource/jansi/internal/Kernel32.java
+│ --rw-r--r--  2.0 unx     7247 b- defN 21-Jul-23 13:13 org/fusesource/jansi/internal/OSInfo.java
+│ --rw-r--r--  2.0 unx    12129 b- defN 21-Jul-23 13:13 org/fusesource/jansi/io/AnsiOutputStream.java
+│ --rw-r--r--  2.0 unx    23924 b- defN 21-Jul-23 13:13 org/fusesource/jansi/io/AnsiProcessor.java
+│ --rw-r--r--  2.0 unx     6754 b- defN 21-Jul-23 13:13 org/fusesource/jansi/io/Colors.java
+│ --rw-r--r--  2.0 unx     5966 b- defN 21-Jul-23 13:13 org/fusesource/jansi/io/ColorsAnsiProcessor.java
+│ --rw-r--r--  2.0 unx     1914 b- defN 21-Jul-23 13:13 org/fusesource/jansi/io/FastBufferedOutputStream.java
+│ --rw-r--r--  2.0 unx    17865 b- defN 21-Jul-23 13:13 org/fusesource/jansi/io/WindowsAnsiProcessor.java
+│ --rw-r--r--  2.0 unx       28 b- defN 21-Jul-23 13:13 org/fusesource/jansi/jansi.properties
+│ --rw-r--r--  2.0 unx      146 b- defN 21-Jul-23 13:13 META-INF/native-image/jansi/resource-config.json
+│ +-rw-r--r--  2.0 unx    23187 b- defN 21-Jul-23 13:13 org/fusesource/jansi/Ansi.java
+│ +-rw-r--r--  2.0 unx      991 b- defN 21-Jul-23 13:13 org/fusesource/jansi/AnsiColors.java
+│ +-rw-r--r--  2.0 unx    21343 b- defN 21-Jul-23 13:13 org/fusesource/jansi/AnsiConsole.java
+│ +-rw-r--r--  2.0 unx    11768 b- defN 21-Jul-23 13:13 org/fusesource/jansi/AnsiMain.java
+│ +-rw-r--r--  2.0 unx     1074 b- defN 21-Jul-23 13:13 org/fusesource/jansi/AnsiMode.java
+│ +-rw-r--r--  2.0 unx     2714 b- defN 21-Jul-23 13:13 org/fusesource/jansi/AnsiPrintStream.java
+│ +-rw-r--r--  2.0 unx     7351 b- defN 21-Jul-23 13:13 org/fusesource/jansi/AnsiRenderer.java
+│ +-rw-r--r--  2.0 unx     1200 b- defN 21-Jul-23 13:13 org/fusesource/jansi/AnsiType.java
+│ +-rw-r--r--  2.0 unx     1490 b- defN 21-Jul-23 13:13 org/fusesource/jansi/WindowsSupport.java
+│ +-rw-r--r--  2.0 unx     4885 b- defN 21-Jul-23 13:13 org/fusesource/jansi/internal/CLibrary.java
+│ +-rw-r--r--  2.0 unx    14135 b- defN 21-Jul-23 13:13 org/fusesource/jansi/internal/JansiLoader.java
+│ +-rw-r--r--  2.0 unx    16706 b- defN 21-Jul-23 13:13 org/fusesource/jansi/internal/Kernel32.java
+│ +-rw-r--r--  2.0 unx     7033 b- defN 21-Jul-23 13:13 org/fusesource/jansi/internal/OSInfo.java
+│ +-rw-r--r--  2.0 unx    11779 b- defN 21-Jul-23 13:13 org/fusesource/jansi/io/AnsiOutputStream.java
+│ +-rw-r--r--  2.0 unx    23326 b- defN 21-Jul-23 13:13 org/fusesource/jansi/io/AnsiProcessor.java
+│ +-rw-r--r--  2.0 unx     6594 b- defN 21-Jul-23 13:13 org/fusesource/jansi/io/Colors.java
+│ +-rw-r--r--  2.0 unx     5824 b- defN 21-Jul-23 13:13 org/fusesource/jansi/io/ColorsAnsiProcessor.java
+│ +-rw-r--r--  2.0 unx     1845 b- defN 21-Jul-23 13:13 org/fusesource/jansi/io/FastBufferedOutputStream.java
+│ +-rw-r--r--  2.0 unx    17439 b- defN 21-Jul-23 13:13 org/fusesource/jansi/io/WindowsAnsiProcessor.java
+│ +-rw-r--r--  2.0 unx       27 b- defN 21-Jul-23 13:13 org/fusesource/jansi/jansi.properties
+│ +-rw-r--r--  2.0 unx      141 b- defN 21-Jul-23 13:13 META-INF/native-image/jansi/resource-config.json
+│  -rw-r--r--  2.0 unx    12876 b- defN 21-Jul-23 13:13 org/fusesource/jansi/internal/native/FreeBSD/x86/libjansi.so
+│  -rw-r--r--  2.0 unx    16292 b- defN 21-Jul-23 13:13 org/fusesource/jansi/internal/native/FreeBSD/x86_64/libjansi.so
+│  -rw-r--r--  2.0 unx    22744 b- defN 21-Jul-23 13:13 org/fusesource/jansi/internal/native/Linux/arm/libjansi.so
+│  -rw-r--r--  2.0 unx    16856 b- defN 21-Jul-23 13:13 org/fusesource/jansi/internal/native/Linux/arm64/libjansi.so
+│  -rw-r--r--  2.0 unx    12924 b- defN 21-Jul-23 13:13 org/fusesource/jansi/internal/native/Linux/armv7/libjansi.so
+│  -rw-r--r--  2.0 unx    19352 b- defN 21-Jul-23 13:13 org/fusesource/jansi/internal/native/Linux/ppc64/libjansi.so
+│  -rw-r--r--  2.0 unx    17848 b- defN 21-Jul-23 13:13 org/fusesource/jansi/internal/native/Linux/x86/libjansi.so
+│  -rw-r--r--  2.0 unx    16864 b- defN 21-Jul-23 13:13 org/fusesource/jansi/internal/native/Linux/x86_64/libjansi.so
+│  -rw-r--r--  2.0 unx    15084 b- defN 21-Jul-23 13:13 org/fusesource/jansi/internal/native/Mac/x86/libjansi.jnilib
+│  -rw-r--r--  2.0 unx    15964 b- defN 21-Jul-23 13:13 org/fusesource/jansi/internal/native/Mac/x86_64/libjansi.jnilib
+│  -rw-r--r--  2.0 unx   115019 b- defN 21-Jul-23 13:13 org/fusesource/jansi/internal/native/Windows/x86/jansi.dll
+│  -rw-r--r--  2.0 unx   129109 b- defN 21-Jul-23 13:13 org/fusesource/jansi/internal/native/Windows/x86_64/jansi.dll
+│  -rw-r--r--  2.0 unx      935 b- defN 21-Jul-23 13:13 org/fusesource/jansi/jansi.txt
+│ --rw-r--r--  2.0 unx    14435 b- defN 21-Jul-23 13:13 META-INF/maven/org.fusesource.jansi/jansi/pom.xml
+│ +-rw-r--r--  2.0 unx    14082 b- defN 21-Jul-23 13:13 META-INF/maven/org.fusesource.jansi/jansi/pom.xml
+│  -rw-r--r--  2.0 unx       60 b- defN 21-Jul-23 13:13 META-INF/maven/org.fusesource.jansi/jansi/pom.properties
+│ -65 files, 612690 bytes uncompressed, 170483 bytes compressed:  72.2%
+│ +65 files, 606925 bytes uncompressed, 170212 bytes compressed:  72.0%
+├── org/fusesource/jansi/Ansi.java
+│ @@ -1,948 +1,948 @@
+│ -/*
+
+│ - * Copyright (C) 2009-2017 the original author(s).
+
+│ - *
+
+...
+│ +/*
+│ + * Copyright (C) 2009-2017 the original author(s).
+│ + *
+...
