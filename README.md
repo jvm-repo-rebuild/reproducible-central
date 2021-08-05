@@ -20,6 +20,17 @@ equivalent to the packaging instructions that are maintained by every Linux dist
     * `dos2unix` - DOS to MAC/UNIX text file format converter. 
       
       Can be installed via [homebrew](https://brew.sh) on MAC via: `brew install dos2unix`.
+ 
+    * `gsed` - on mac, to provide gnu sed command. 
+      
+      Can be installed via [homebrew](https://brew.sh) on MAC via: `brew install gsed`.
+ 
+      If you are missing `gsed` on a MAC, you may see an error like the one below:
+          
+          ...
+          dos2unix: converting file target/maven-shared-utils-3.3.4.buildinfo to Unix format...
+          dos2unix: converting file target/maven-shared-utils-3.3.4.buildinfo.compare to Unix format...
+          ./rebuild.sh: line 143: gsed: command not found
    </details>
 
 You can rebuild a project release by running:
