@@ -8,7 +8,7 @@ As part of [Reproducible Builds efforts for the JVM](https://reproducible-builds
 equivalent to the packaging instructions that are maintained by every Linux distribution
 (for example Debian's [debian/rules](https://www.debian.org/doc/debian-policy/ch-source#s-debianrules) or ArchLinux's PKGBUILD), whatever the build tool used (Central Repository is not used by Maven only)
 2. show the level of reproducibility obtained using previous instructions: how many output files from the rebuild are strictly equal to reference in Central Repository, how many output files are not yet reproducible and should be improved before the next release?
-xxx
+
 ## What Can I Do?
 
 <details><summary><b>Rebuild Yourself To Check Results</b></summary>
