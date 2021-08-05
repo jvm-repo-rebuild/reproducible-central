@@ -11,7 +11,7 @@ git diff --exit-code README.md
 statusCheck=$?
 echo "git diff: $statusCheck"
 
-if [ $statusCheck -eq 0 ]; then
+if [[ $statusCheck -eq 0 ]]; then
   echo "Changes detected. committing README.md"
 #  git commit -m "nightly update of README.md [skip ci]"
 else
