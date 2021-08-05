@@ -37,10 +37,10 @@ jobs:
           name: Commit Changes to README.md
           command: |
             .circleci/commit-readme.sh
-      - run:
-          name: Push Changes to README.md
-          command: |
-            git push
+#      - run:
+#          name: Push Changes to README.md
+#          command: |
+#            git push
 
 workflows:
   build_nightly:
@@ -53,4 +53,14 @@ workflows:
     jobs:
       - job-nightly
 
+  build_manual_nigthly:
+    jobs:
+      - approve-manual-nightly:
+          type: approval
+          filters:
+            branches:
+              only: master
+      - job-nightly:
+          requires:
+            - approve-manual-nightly
 
