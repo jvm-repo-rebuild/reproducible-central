@@ -1,0 +1,244 @@
+target/reference/maven-shared-utils-3.3.4.jar target/maven-shared-utils-3.3.4.jar
+--- target/reference/maven-shared-utils-3.3.4.jar
++++ target/maven-shared-utils-3.3.4.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 153143 bytes, number of entries: 103
+│ +Zip file size: 153138 bytes, number of entries: 103
+│  -rw-r--r--  2.0 unx      347 b- defN 21-Apr-26 13:53 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Apr-26 13:53 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Apr-26 13:53 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Apr-26 13:53 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Apr-26 13:53 org/apache/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Apr-26 13:53 org/apache/maven/shared/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Apr-26 13:53 org/apache/maven/shared/utils/
+│ @@ -79,15 +79,15 @@
+│  -rw-r--r--  2.0 unx      472 b- defN 21-Apr-26 13:53 org/apache/maven/shared/utils/io/ScanConductor.class
+│  -rw-r--r--  2.0 unx     9990 b- defN 21-Apr-26 13:53 org/apache/maven/shared/utils/io/SelectorUtils.class
+│  -rw-r--r--  2.0 unx     1520 b- defN 21-Apr-26 13:53 org/apache/maven/shared/utils/io/WalkCollector.class
+│  -rw-r--r--  2.0 unx     5817 b- defN 21-Apr-26 13:53 org/apache/maven/shared/utils/logging/AnsiMessageBuilder.class
+│  -rw-r--r--  2.0 unx      263 b- defN 21-Apr-26 13:53 org/apache/maven/shared/utils/logging/LoggerLevelRenderer.class
+│  -rw-r--r--  2.0 unx      854 b- defN 21-Apr-26 13:53 org/apache/maven/shared/utils/logging/MessageBuilder.class
+│  -rw-r--r--  2.0 unx      829 b- defN 21-Apr-26 13:53 org/apache/maven/shared/utils/logging/MessageUtils$1.class
+│ --rw-r--r--  2.0 unx     4125 b- defN 21-Apr-26 13:53 org/apache/maven/shared/utils/logging/MessageUtils.class
+│ +-rw-r--r--  2.0 unx     4131 b- defN 21-Apr-26 13:53 org/apache/maven/shared/utils/logging/MessageUtils.class
+│  -rw-r--r--  2.0 unx     5124 b- defN 21-Apr-26 13:53 org/apache/maven/shared/utils/logging/PlainMessageBuilder.class
+│  -rw-r--r--  2.0 unx     4451 b- defN 21-Apr-26 13:53 org/apache/maven/shared/utils/logging/Style.class
+│  -rw-r--r--  2.0 unx     6777 b- defN 21-Apr-26 13:53 org/apache/maven/shared/utils/xml/PrettyPrintXMLWriter.class
+│  -rw-r--r--  2.0 unx     5025 b- defN 21-Apr-26 13:53 org/apache/maven/shared/utils/xml/XMLEncode.class
+│  -rw-r--r--  2.0 unx      445 b- defN 21-Apr-26 13:53 org/apache/maven/shared/utils/xml/XMLWriter.class
+│  -rw-r--r--  2.0 unx     1767 b- defN 21-Apr-26 13:53 org/apache/maven/shared/utils/xml/XmlReaderException.class
+│  -rw-r--r--  2.0 unx     3220 b- defN 21-Apr-26 13:53 org/apache/maven/shared/utils/xml/XmlStreamReader.class
+│ @@ -98,8 +98,8 @@
+│  -rw-r--r--  2.0 unx     3774 b- defN 21-Apr-26 13:53 org/apache/maven/shared/utils/xml/Xpp3DomBuilder$DocHandler.class
+│  -rw-r--r--  2.0 unx     4884 b- defN 21-Apr-26 13:53 org/apache/maven/shared/utils/xml/Xpp3DomBuilder.class
+│  -rw-r--r--  2.0 unx     4755 b- defN 21-Apr-26 13:53 org/apache/maven/shared/utils/xml/Xpp3DomUtils.class
+│  -rw-r--r--  2.0 unx     2453 b- defN 21-Apr-26 13:53 org/apache/maven/shared/utils/xml/Xpp3DomWriter.class
+│  -rw-r--r--  2.0 unx      812 b- defN 21-Apr-26 13:53 org/apache/maven/shared/utils/xml/pull/XmlPullParserException.class
+│  -rw-r--r--  2.0 unx     5831 b- defN 21-Apr-26 13:53 META-INF/maven/org.apache.maven.shared/maven-shared-utils/pom.xml
+│  -rw-r--r--  2.0 unx       76 b- defN 21-Apr-26 13:53 META-INF/maven/org.apache.maven.shared/maven-shared-utils/pom.properties
+│ -103 files, 315414 bytes uncompressed, 134607 bytes compressed:  57.3%
+│ +103 files, 315420 bytes uncompressed, 134602 bytes compressed:  57.3%
+├── org/apache/maven/shared/utils/logging/MessageUtils.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -29,19 +29,19 @@
+│ │     #20 = Methodref          #126.#127     // java/lang/System.setProperty:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+│ │     #21 = Methodref          #16.#128      // org/fusesource/jansi/AnsiConsole.isInstalled:()Z
+│ │     #22 = Methodref          #120.#129     // org/fusesource/jansi/Ansi.isEnabled:()Z
+│ │     #23 = Class              #130          // org/apache/maven/shared/utils/logging/AnsiMessageBuilder
+│ │     #24 = Methodref          #23.#105      // org/apache/maven/shared/utils/logging/AnsiMessageBuilder."<init>":()V
+│ │     #25 = Class              #131          // org/apache/maven/shared/utils/logging/PlainMessageBuilder
+│ │     #26 = Methodref          #25.#105      // org/apache/maven/shared/utils/logging/PlainMessageBuilder."<init>":()V
+│ │ -   #27 = Methodref          #23.#132      // org/apache/maven/shared/utils/logging/AnsiMessageBuilder."<init>":(Ljava/lang/StringBuilder;)V
+│ │ -   #28 = Methodref          #25.#132      // org/apache/maven/shared/utils/logging/PlainMessageBuilder."<init>":(Ljava/lang/StringBuilder;)V
+│ │ -   #29 = Methodref          #23.#133      // org/apache/maven/shared/utils/logging/AnsiMessageBuilder."<init>":(I)V
+│ │ -   #30 = Methodref          #25.#133      // org/apache/maven/shared/utils/logging/PlainMessageBuilder."<init>":(I)V
+│ │ -   #31 = Class              #134          // org/apache/maven/shared/utils/logging/LoggerLevelRenderer
+│ │ +   #27 = Class              #132          // org/apache/maven/shared/utils/logging/MessageBuilder
+│ │ +   #28 = Methodref          #23.#133      // org/apache/maven/shared/utils/logging/AnsiMessageBuilder."<init>":(Ljava/lang/StringBuilder;)V
+│ │ +   #29 = Methodref          #25.#133      // org/apache/maven/shared/utils/logging/PlainMessageBuilder."<init>":(Ljava/lang/StringBuilder;)V
+│ │ +   #30 = Methodref          #23.#134      // org/apache/maven/shared/utils/logging/AnsiMessageBuilder."<init>":(I)V
+│ │ +   #31 = Methodref          #25.#134      // org/apache/maven/shared/utils/logging/PlainMessageBuilder."<init>":(I)V
+│ │     #32 = String             #135          // \u001b\\[[;\\d]*[ -/]*[@-~]
+│ │     #33 = String             #136          //
+│ │     #34 = Methodref          #137.#138     // java/lang/String.replaceAll:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+│ │     #35 = Class              #139          // org/apache/maven/shared/utils/logging/MessageUtils$1
+│ │     #36 = Methodref          #35.#105      // org/apache/maven/shared/utils/logging/MessageUtils$1."<init>":()V
+│ │     #37 = Methodref          #109.#140     // java/lang/Runtime.addShutdownHook:(Ljava/lang/Thread;)V
+│ │     #38 = Methodref          #16.#141      // org/fusesource/jansi/AnsiConsole.getTerminalWidth:()I
+│ │ @@ -78,15 +78,15 @@
+│ │     #69 = Class              #149          // org/fusesource/jansi/AnsiPrintStream
+│ │     #70 = Class              #150          // org/fusesource/jansi/AnsiMode
+│ │     #71 = Class              #151          // java/lang/String
+│ │     #72 = Utf8               isColorEnabled
+│ │     #73 = Utf8               ()Z
+│ │     #74 = Utf8               buffer
+│ │     #75 = Utf8               ()Lorg/apache/maven/shared/utils/logging/MessageBuilder;
+│ │ -   #76 = Class              #152          // org/apache/maven/shared/utils/logging/MessageBuilder
+│ │ +   #76 = Class              #152          // org/apache/maven/shared/utils/logging/LoggerLevelRenderer
+│ │     #77 = Utf8               (Ljava/lang/StringBuilder;)Lorg/apache/maven/shared/utils/logging/MessageBuilder;
+│ │     #78 = Utf8               builder
+│ │     #79 = Utf8               Ljava/lang/StringBuilder;
+│ │     #80 = Utf8               (I)Lorg/apache/maven/shared/utils/logging/MessageBuilder;
+│ │     #81 = Utf8               size
+│ │     #82 = Utf8               I
+│ │     #83 = Utf8               level
+│ │ @@ -134,17 +134,17 @@
+│ │    #125 = Utf8               strip
+│ │    #126 = Class              #167          // java/lang/System
+│ │    #127 = NameAndType        #168:#169     // setProperty:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+│ │    #128 = NameAndType        #170:#73      // isInstalled:()Z
+│ │    #129 = NameAndType        #171:#73      // isEnabled:()Z
+│ │    #130 = Utf8               org/apache/maven/shared/utils/logging/AnsiMessageBuilder
+│ │    #131 = Utf8               org/apache/maven/shared/utils/logging/PlainMessageBuilder
+│ │ -  #132 = NameAndType        #51:#172      // "<init>":(Ljava/lang/StringBuilder;)V
+│ │ -  #133 = NameAndType        #51:#173      // "<init>":(I)V
+│ │ -  #134 = Utf8               org/apache/maven/shared/utils/logging/LoggerLevelRenderer
+│ │ +  #132 = Utf8               org/apache/maven/shared/utils/logging/MessageBuilder
+│ │ +  #133 = NameAndType        #51:#172      // "<init>":(Ljava/lang/StringBuilder;)V
+│ │ +  #134 = NameAndType        #51:#173      // "<init>":(I)V
+│ │    #135 = Utf8               \u001b\\[[;\\d]*[ -/]*[@-~]
+│ │    #136 = Utf8
+│ │    #137 = Class              #151          // java/lang/String
+│ │    #138 = NameAndType        #174:#169     // replaceAll:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+│ │    #139 = Utf8               org/apache/maven/shared/utils/logging/MessageUtils$1
+│ │    #140 = NameAndType        #175:#176     // addShutdownHook:(Ljava/lang/Thread;)V
+│ │    #141 = NameAndType        #90:#91       // getTerminalWidth:()I
+│ │ @@ -154,15 +154,15 @@
+│ │    #145 = NameAndType        #178:#179     // forName:(Ljava/lang/String;)Ljava/lang/Class;
+│ │    #146 = Utf8               java/lang/ClassNotFoundException
+│ │    #147 = Utf8               org/apache/maven/shared/utils/logging/MessageUtils
+│ │    #148 = Utf8               java/lang/Throwable
+│ │    #149 = Utf8               org/fusesource/jansi/AnsiPrintStream
+│ │    #150 = Utf8               org/fusesource/jansi/AnsiMode
+│ │    #151 = Utf8               java/lang/String
+│ │ -  #152 = Utf8               org/apache/maven/shared/utils/logging/MessageBuilder
+│ │ +  #152 = Utf8               org/apache/maven/shared/utils/logging/LoggerLevelRenderer
+│ │    #153 = Utf8               java/lang/Runtime
+│ │    #154 = Utf8               getRuntime
+│ │    #155 = Utf8               ()Ljava/lang/Runtime;
+│ │    #156 = Utf8               removeShutdownHook
+│ │    #157 = Utf8               (Ljava/lang/Thread;)Z
+│ │    #158 = Utf8               out
+│ │    #159 = Utf8               ()Lorg/fusesource/jansi/AnsiPrintStream;
+│ │ @@ -396,100 +396,102 @@
+│ │           6: new           #23                 // class org/apache/maven/shared/utils/logging/AnsiMessageBuilder
+│ │           9: dup
+│ │          10: invokespecial #24                 // Method org/apache/maven/shared/utils/logging/AnsiMessageBuilder."<init>":()V
+│ │          13: goto          23
+│ │          16: new           #25                 // class org/apache/maven/shared/utils/logging/PlainMessageBuilder
+│ │          19: dup
+│ │          20: invokespecial #26                 // Method org/apache/maven/shared/utils/logging/PlainMessageBuilder."<init>":()V
+│ │ -        23: areturn
+│ │ +        23: checkcast     #27                 // class org/apache/maven/shared/utils/logging/MessageBuilder
+│ │ +        26: areturn
+│ │        LineNumberTable:
+│ │          line 144: 0
+│ │        StackMapTable: number_of_entries = 2
+│ │          frame_type = 16 /* same */
+│ │          frame_type = 70 /* same_locals_1_stack_item */
+│ │ -          stack = [ class org/apache/maven/shared/utils/logging/MessageBuilder ]
+│ │ +          stack = [ class org/apache/maven/shared/utils/logging/LoggerLevelRenderer ]
+│ │  
+│ │    public static org.apache.maven.shared.utils.logging.MessageBuilder buffer(java.lang.StringBuilder);
+│ │      descriptor: (Ljava/lang/StringBuilder;)Lorg/apache/maven/shared/utils/logging/MessageBuilder;
+│ │      flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+│ │      Code:
+│ │        stack=3, locals=1, args_size=1
+│ │           0: getstatic     #4                  // Field JANSI:Z
+│ │           3: ifeq          17
+│ │           6: new           #23                 // class org/apache/maven/shared/utils/logging/AnsiMessageBuilder
+│ │           9: dup
+│ │          10: aload_0
+│ │ -        11: invokespecial #27                 // Method org/apache/maven/shared/utils/logging/AnsiMessageBuilder."<init>":(Ljava/lang/StringBuilder;)V
+│ │ +        11: invokespecial #28                 // Method org/apache/maven/shared/utils/logging/AnsiMessageBuilder."<init>":(Ljava/lang/StringBuilder;)V
+│ │          14: goto          25
+│ │          17: new           #25                 // class org/apache/maven/shared/utils/logging/PlainMessageBuilder
+│ │          20: dup
+│ │          21: aload_0
+│ │ -        22: invokespecial #28                 // Method org/apache/maven/shared/utils/logging/PlainMessageBuilder."<init>":(Ljava/lang/StringBuilder;)V
+│ │ -        25: areturn
+│ │ +        22: invokespecial #29                 // Method org/apache/maven/shared/utils/logging/PlainMessageBuilder."<init>":(Ljava/lang/StringBuilder;)V
+│ │ +        25: checkcast     #27                 // class org/apache/maven/shared/utils/logging/MessageBuilder
+│ │ +        28: areturn
+│ │        LineNumberTable:
+│ │          line 154: 0
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │ -            0      26     0 builder   Ljava/lang/StringBuilder;
+│ │ +            0      29     0 builder   Ljava/lang/StringBuilder;
+│ │        StackMapTable: number_of_entries = 2
+│ │          frame_type = 17 /* same */
+│ │          frame_type = 71 /* same_locals_1_stack_item */
+│ │ -          stack = [ class org/apache/maven/shared/utils/logging/MessageBuilder ]
+│ │ +          stack = [ class org/apache/maven/shared/utils/logging/LoggerLevelRenderer ]
+│ │  
+│ │    public static org.apache.maven.shared.utils.logging.MessageBuilder buffer(int);
+│ │      descriptor: (I)Lorg/apache/maven/shared/utils/logging/MessageBuilder;
+│ │      flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+│ │      Code:
+│ │        stack=3, locals=1, args_size=1
+│ │           0: getstatic     #4                  // Field JANSI:Z
+│ │           3: ifeq          17
+│ │           6: new           #23                 // class org/apache/maven/shared/utils/logging/AnsiMessageBuilder
+│ │           9: dup
+│ │          10: iload_0
+│ │ -        11: invokespecial #29                 // Method org/apache/maven/shared/utils/logging/AnsiMessageBuilder."<init>":(I)V
+│ │ +        11: invokespecial #30                 // Method org/apache/maven/shared/utils/logging/AnsiMessageBuilder."<init>":(I)V
+│ │          14: goto          25
+│ │          17: new           #25                 // class org/apache/maven/shared/utils/logging/PlainMessageBuilder
+│ │          20: dup
+│ │          21: iload_0
+│ │ -        22: invokespecial #30                 // Method org/apache/maven/shared/utils/logging/PlainMessageBuilder."<init>":(I)V
+│ │ -        25: areturn
+│ │ +        22: invokespecial #31                 // Method org/apache/maven/shared/utils/logging/PlainMessageBuilder."<init>":(I)V
+│ │ +        25: checkcast     #27                 // class org/apache/maven/shared/utils/logging/MessageBuilder
+│ │ +        28: areturn
+│ │        LineNumberTable:
+│ │          line 164: 0
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │ -            0      26     0  size   I
+│ │ +            0      29     0  size   I
+│ │        StackMapTable: number_of_entries = 2
+│ │          frame_type = 17 /* same */
+│ │          frame_type = 71 /* same_locals_1_stack_item */
+│ │ -          stack = [ class org/apache/maven/shared/utils/logging/MessageBuilder ]
+│ │ +          stack = [ class org/apache/maven/shared/utils/logging/LoggerLevelRenderer ]
+│ │  
+│ │    public static org.apache.maven.shared.utils.logging.LoggerLevelRenderer level();
+│ │      descriptor: ()Lorg/apache/maven/shared/utils/logging/LoggerLevelRenderer;
+│ │      flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+│ │      Code:
+│ │        stack=3, locals=0, args_size=0
+│ │           0: getstatic     #4                  // Field JANSI:Z
+│ │           3: ifeq          18
+│ │           6: new           #23                 // class org/apache/maven/shared/utils/logging/AnsiMessageBuilder
+│ │           9: dup
+│ │          10: bipush        20
+│ │ -        12: invokespecial #29                 // Method org/apache/maven/shared/utils/logging/AnsiMessageBuilder."<init>":(I)V
+│ │ +        12: invokespecial #30                 // Method org/apache/maven/shared/utils/logging/AnsiMessageBuilder."<init>":(I)V
+│ │          15: goto          27
+│ │          18: new           #25                 // class org/apache/maven/shared/utils/logging/PlainMessageBuilder
+│ │          21: dup
+│ │          22: bipush        7
+│ │ -        24: invokespecial #30                 // Method org/apache/maven/shared/utils/logging/PlainMessageBuilder."<init>":(I)V
+│ │ -        27: checkcast     #31                 // class org/apache/maven/shared/utils/logging/LoggerLevelRenderer
+│ │ -        30: areturn
+│ │ +        24: invokespecial #31                 // Method org/apache/maven/shared/utils/logging/PlainMessageBuilder."<init>":(I)V
+│ │ +        27: areturn
+│ │        LineNumberTable:
+│ │          line 175: 0
+│ │        StackMapTable: number_of_entries = 2
+│ │          frame_type = 18 /* same */
+│ │          frame_type = 72 /* same_locals_1_stack_item */
+│ │ -          stack = [ class org/apache/maven/shared/utils/logging/MessageBuilder ]
+│ │ +          stack = [ class org/apache/maven/shared/utils/logging/LoggerLevelRenderer ]
+│ │  
+│ │    public static java.lang.String stripAnsiCodes(java.lang.String);
+│ │      descriptor: (Ljava/lang/String;)Ljava/lang/String;
+│ │      flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+│ │      Code:
+│ │        stack=3, locals=1, args_size=1
+│ │           0: aload_0
+
