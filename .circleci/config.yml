@@ -36,14 +36,7 @@ jobs:
       - run:
           name: Commit Changes to README.md
           command: |
-            git add README.md
-            git status
-            if (git status --porcelain); then
-              echo "Changes detected. committing README.md"
-              git commit -m "nigthly update of README.md [skip ci]"
-            else
-              echo "No changes detected. skipping commit"
-            fi
+            .circleci/commit-readme.sh
       - run:
           name: Push Changes to README.md
           command: |
