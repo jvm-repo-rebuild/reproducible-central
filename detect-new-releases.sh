@@ -1,5 +1,12 @@
 #!/bin/bash
 
+date="date"
+if [ "$(uname -s)" ==  "Darwin" ]
+then
+  command -v gdate >/dev/null 2>&1 || { echo "require GNU date: brew install coreutils.  Aborting."; exit 1; }
+  date="gdate"
+fi
+
 for bs in $(
   # get the last buildspec for each project
   lastbuildspec=""
@@ -24,8 +31,8 @@ do
   mavenMetadata=`dirname ${bs}`/buildcache/${artifactId}-maven-metadata.xml
   [ -d `dirname ${mavenMetadata}` ] || mkdir `dirname ${mavenMetadata}`
   centralMetadata="https://repo.maven.apache.org/maven2/${groupDir}/${artifactId}/maven-metadata.xml"
-  cache=$(date -d 'now - 1 days' +%s)
-  [[ -f ${mavenMetadata} ]] && file_time=$(date -r "${mavenMetadata}" +%s) || file_time=0
+  cache=$(${date} -d 'now - 1 days' +%s)
+  [[ -f ${mavenMetadata} ]] && file_time=$(${date} -r "${mavenMetadata}" +%s) || file_time=0
   if (( file_time <= cache )); then
     curl -s --fail ${centralMetadata} --output ${mavenMetadata}
     if [[ $? != 0 ]]
