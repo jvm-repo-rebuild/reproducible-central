@@ -1,0 +1,16 @@
+groupId=org.codehaus.mojo
+artifactId=aspectj-maven-plugin
+display=${groupId}:${artifactId}
+version=1.14.0
+
+gitRepo=https://github.com/mojohaus/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn -Pmojo-release clean package -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
