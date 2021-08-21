@@ -1,0 +1,7 @@
+version=3.3.4
+ok=3
+ko=0
+okFiles="maven-shared-utils-3.3.4.jar maven-shared-utils-3.3.4-source-release.zip maven-shared-utils-3.3.4-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
