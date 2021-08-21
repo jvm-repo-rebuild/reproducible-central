@@ -10,6 +10,7 @@ gitTag=${artifactId}-${version}
 tool=mvn
 jdk=8
 newline=lf
+# notice: require a Linux host, Mac rebuild gives a few differences in output .class/.jar despite Docker, see https://github.com/jvm-repo-rebuild/reproducible-central/pull/65
 
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 
