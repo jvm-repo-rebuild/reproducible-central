@@ -95,6 +95,11 @@
       <url>https://repository.jboss.org/nexus/content/repositories/releases/</url>
     </mirror>
     <mirror>
+      <id>spring-repo</id>
+      <mirrorOf>spring-repo</mirrorOf>
+      <url>https://repo.spring.io/release/</url>
+    </mirror>
+    <mirror>
       <id>default</id>
       <mirrorOf>*</mirrorOf>
       <url>https://repo.maven.apache.org/maven2</url>
