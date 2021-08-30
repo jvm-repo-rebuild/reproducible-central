@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Common Utilities
+group-id=org.codehaus.plexus
+artifact-id=plexus-utils
+version=3.4.1
+
+# source information
+source.scm.uri=scm:git:git@github.com:codehaus-plexus/plexus-utils.git
+source.scm.tag=plexus-utils-3.4.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=plexus-utils-3.4.1.jar
+outputs.0.length=263876
+outputs.0.checksums.sha512=0668d413520a713d9279123eccae3b5e9bc79f41dd8da3b3a1ba79b7b60086c009639d91d84df230e490192fe63b10390f3901478c69bfd452a1280364d24876
+
+outputs.1.filename=plexus-utils-3.4.1-source-release.zip
+outputs.1.length=832646
+outputs.1.checksums.sha512=35a467bccb72c4fbe03961ea6854e33cc3e08d66df8978239c815521bfec53a4da289a6892d2f2adf76f201c341e7ddba286b4a7a7b2aa9c1b2cb3d9dc44bc38
+
+outputs.2.filename=plexus-utils-3.4.1-sources.jar
+outputs.2.length=267157
+outputs.2.checksums.sha512=c8371a3ebd35e4edff1246175d645b6cfb8a74dc49ca92bcd7a0b5139396143e35b643bfb60d927fe8f5d18e485c70950c22635aca1e3eba87f701296a8014cd
