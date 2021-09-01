@@ -7,7 +7,7 @@ diffoscope_file=$(dirname ${compare})/$(basename ${compare} .buildinfo.compare).
 
 echo -e "saving build diffoscope file to \033[1m${diffoscope_file}\033[0m"
 
-set sed="sed"
+sed="sed"
 if [ "$(uname -s)" ==  "Darwin" ]
 then
   command -v gsed >/dev/null 2>&1 || { echo "require GNU sed: brew install gsed  Aborting."; exit 1; }
