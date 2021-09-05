@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Scripting Bundle Maven Plugin
+group-id=org.apache.sling
+artifact-id=scriptingbundle-maven-plugin
+version=0.4.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-scriptingbundle-maven-plugin.git
+source.scm.tag=scriptingbundle-maven-plugin-0.4.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=scriptingbundle-maven-plugin-0.4.0.jar
+outputs.0.length=68054
+outputs.0.checksums.sha512=49d7bb467e53efc20d0197485cdd2f0aea0d17fb1c02186efb6b03217f7e85f9f4c9ea007134e8f3eeb53da7d95aa07a19dc2168588d3c90729fba5893fc9813
+
+outputs.1.filename=scriptingbundle-maven-plugin-0.4.0-source-release.zip
+outputs.1.length=115463
+outputs.1.checksums.sha512=61bb9ce5865c8c01dcca0886aa6728c2893b94f9bdbd0cbf1a2a6b445c0d1ec4b9ac57d1c9768e36f379bc1141654ea18763b49ab2d4d3ec260e9fa6fc9989f1
+
+outputs.2.filename=scriptingbundle-maven-plugin-0.4.0-sources.jar
+outputs.2.length=42448
+outputs.2.checksums.sha512=8bb993c3d38f63a6151169cfb58443b55a53f4396fa2621fe565e7656b035c206116add8ae58ee827af5214d422997a76333f87eeb8bf4466d5a8257bfd66a8e
+
+outputs.3.filename=scriptingbundle-maven-plugin-0.4.0-sources.jar
+outputs.3.length=42448
+outputs.3.checksums.sha512=8bb993c3d38f63a6151169cfb58443b55a53f4396fa2621fe565e7656b035c206116add8ae58ee827af5214d422997a76333f87eeb8bf4466d5a8257bfd66a8e
