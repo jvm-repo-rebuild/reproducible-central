@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Interactivity Handler Component
+group-id=org.codehaus.plexus
+artifact-id=plexus-interactivity
+version=1.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-interactivity.git
+source.scm.tag=plexus-interactivity-1.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=7
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=plexus-interactivity-jline
+
+# aggregated output
+
+outputs.0.coordinates=org.codehaus.plexus:plexus-interactivity
+
+outputs.0.0.filename=plexus-interactivity-1.1-site.xml
+outputs.0.0.length=321
+outputs.0.0.checksums.sha512=c7282e5419ba25cd80e516fa2dd7e8cf1e4f2f69f8986516225100e5898801d627ab34df0b99f0141250c4823f9a8f3f8220777fd8e0a2243572e8215a4c0d3c
+
+outputs.0.1.filename=plexus-interactivity-1.1-source-release.zip
+outputs.0.1.length=25366
+outputs.0.1.checksums.sha512=476834955a89dcff53836f30139b277cb5d0dcb9678f38e1189ffca805ca9f2d4f5ac29b51f9577a3c11a1c5d217a0dfd5089b4c36c97638068e5cbe7b15d7de
+
+outputs.1.coordinates=org.codehaus.plexus:plexus-interactivity-api
+
+outputs.1.0.filename=plexus-interactivity-api-1.1.jar
+outputs.1.0.length=9384
+outputs.1.0.checksums.sha512=c0f10349fac767144d0477c356a9c0351e43f2cebd2e23728a046cdb4d55af36d0b5325281cda0770be308379102f63ee09d46192b18432ba3d2b2c8346c6757
+
+outputs.1.1.filename=plexus-interactivity-api-1.1-sources.jar
+outputs.1.1.length=12843
+outputs.1.1.checksums.sha512=b080d266e4821fda886131a3fd69695d1ad4b97284b6b871ffe66ee6936be2d279b3f837ceb5ff89812d9adaebc97828422a7d77e3213ea9c9aae8102989c180
+
+outputs.2.coordinates=org.codehaus.plexus:plexus-interactivity-jline
+
+outputs.2.0.filename=plexus-interactivity-jline-1.1.jar
+outputs.2.0.length=3746
+outputs.2.0.checksums.sha512=e25f5ddc198ec7a0836aee0c7ed2e22e8f400d4e60a75cad79075518b5aa2e72c35bf04df4fa2499f33f9c03330cf342074531cba6323c55190850546f019220
+
+outputs.2.1.filename=plexus-interactivity-jline-1.1-sources.jar
+outputs.2.1.length=4104
+outputs.2.1.checksums.sha512=224e78979e87cc5217023b38170f449ae0aa4bdc5f8c05d54a1d67ddf626f5fbd9ee1d8982951818f350d719b3c71dd338d1af91aee2bc83d202e139e1a72fbd
