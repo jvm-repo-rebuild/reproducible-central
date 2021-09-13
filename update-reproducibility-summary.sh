@@ -46,7 +46,7 @@ do
     [ "${ok}" -gt 0 ] && echo -n "${ok} :heavy_check_mark: "
     [ "${ko}" -gt 0 ] && echo -n " ${ko} :warning:" || ((countVersionOk++))
     echo -n "](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildinfoCompare})"
-    [[ -z "${issue}" ]] || echo -n "[:beetle:](${issue})"
+    [[ -z "${issue}" ]] || echo -n "[:mag:](${issue})"
     [[ -n "${issue}" ]] && [ "${ko}" -eq 0 ] && echo -e "\n\033[1;31munexpected issue/diffoscope entry when ko=0\033[0m in \033[1m$buildspec\033[0m"
   else
     echo -n ":x:"
