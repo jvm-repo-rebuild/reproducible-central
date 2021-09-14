@@ -1,0 +1,7 @@
+version=1.5.0
+ok=9
+ko=0
+okFiles="apache-plc4x-code-generation-1.5.0-source-release.zip plc4x-code-generation-types-base-1.5.0.jar plc4x-code-generation-types-base-1.5.0-sources.jar plc4x-code-generation-language-base-1.5.0.jar plc4x-code-generation-language-base-1.5.0-sources.jar plc4x-code-generation-protocol-base-1.5.0.jar plc4x-code-generation-protocol-base-1.5.0-sources.jar plc4x-maven-plugin-1.5.0.jar plc4x-maven-plugin-1.5.0-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
