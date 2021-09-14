@@ -1,0 +1,7 @@
+version=1.1.0
+ok=3
+ko=0
+okFiles="plc4x-site-skin-1.1.0.jar apache-plc4x-site-skin-1.1.0-source-release.zip plc4x-site-skin-1.1.0-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"

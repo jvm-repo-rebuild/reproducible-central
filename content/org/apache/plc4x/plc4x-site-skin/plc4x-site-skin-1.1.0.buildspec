@@ -1,0 +1,16 @@
+groupId=org.apache.plc4x
+artifactId=plc4x-site-skin
+display=${groupId}:${artifactId}
+version=1.1.0
+
+gitRepo=https://github.com/apache/plc4x-build-tools.git
+gitTag=site-skin/v${version}
+
+tool=mvn
+jdk=11
+newline=crlf
+
+command="mvn -f ${artifactId} -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=${artifactId}/target/${artifactId}-${version}.buildinfo
+
+issue=
