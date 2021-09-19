@@ -1,0 +1,16 @@
+target/reference/plexus-java-1.1.0.jar plexus-java/target/plexus-java-1.1.0.jar
+--- target/reference/plexus-java-1.1.0.jar
++++ plexus-java/target/plexus-java-1.1.0.jar
+├── zipinfo {}
+│ @@ -58,9 +58,9 @@
+│  -rw----     2.0 fat     1217 bl defN 21-Aug-23 18:38 org/codehaus/plexus/languages/java/jpms/ResolvePathsRequest$3.class
+│  -rw----     2.0 fat     7063 bl defN 21-Aug-23 18:38 org/codehaus/plexus/languages/java/jpms/ResolvePathsRequest.class
+│  -rw----     2.0 fat     3158 bl defN 21-Aug-23 18:38 org/codehaus/plexus/languages/java/jpms/ResolvePathsResult.class
+│  -rw----     2.0 fat     5378 bl defN 21-Aug-23 18:38 org/codehaus/plexus/languages/java/jpms/SourceModuleInfoParser.class
+│  -rw----     2.0 fat     5015 bl defN 21-Aug-23 18:38 org/codehaus/plexus/languages/java/version/JavaVersion.class
+│  -rw----     2.0 fat     5138 bl defN 21-Aug-23 18:38 META-INF/maven/org.codehaus.plexus/plexus-java/pom.xml
+│  -rw----     2.0 fat       68 bl defN 21-Aug-23 18:38 META-INF/maven/org.codehaus.plexus/plexus-java/pom.properties
+│ --rw----     2.0 fat      452 bl defN 21-Aug-23 20:40 META-INF/versions/9/module-info.class
+│ +-rw----     2.0 fat      452 bl defN 21-Sep-19 08:12 META-INF/versions/9/module-info.class
+│  64 files, 107676 bytes uncompressed, 40243 bytes compressed:  62.6%
+
