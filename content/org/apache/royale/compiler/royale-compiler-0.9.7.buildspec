@@ -13,4 +13,5 @@ newline=crlf
 command="mvn -Papache-release,royale-release clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=royale-maven-plugin/target/royale-maven-plugin-${version}.buildinfo
 
+diffoscope=royale-maven-plugin-${version}.diffoscope
 issue=

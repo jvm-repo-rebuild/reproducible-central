@@ -1,0 +1,164 @@
+target/reference/maven-filtering-3.2.0.jar target/maven-filtering-3.2.0.jar
+--- target/reference/maven-filtering-3.2.0.jar
++++ target/maven-filtering-3.2.0.jar
+├── zipinfo {}
+│ @@ -1,20 +1,20 @@
+│ -Zip file size: 51618 bytes, number of entries: 39
+│ +Zip file size: 51612 bytes, number of entries: 39
+│  -rw-r--r--  2.0 unx      341 b- defN 20-Aug-05 15:14 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:14 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:14 META-INF/plexus/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:14 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:14 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:14 org/apache/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:14 org/apache/maven/shared/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:14 org/apache/maven/shared/filtering/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:14 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:14 META-INF/maven/org.apache.maven.shared/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:14 META-INF/maven/org.apache.maven.shared/maven-filtering/
+│ --rw-r--r--  2.0 unx     7435 b- defN 20-Aug-05 15:14 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx     7411 b- defN 20-Aug-05 15:14 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 20-Aug-05 15:14 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      179 b- defN 20-Aug-05 15:14 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     1832 b- defN 20-Aug-05 15:14 META-INF/plexus/components.xml
+│  -rw-r--r--  2.0 unx     1989 b- defN 20-Aug-05 15:14 org/apache/maven/shared/filtering/AbstractFilterReaderLineEnding.class
+│  -rw-r--r--  2.0 unx     5647 b- defN 20-Aug-05 15:14 org/apache/maven/shared/filtering/AbstractMavenFilteringRequest.class
+│  -rw-r--r--  2.0 unx     1175 b- defN 20-Aug-05 15:14 org/apache/maven/shared/filtering/BaseFilter$1.class
+│  -rw-r--r--  2.0 unx     3579 b- defN 20-Aug-05 15:14 org/apache/maven/shared/filtering/BaseFilter$Wrapper.class
+│ @@ -34,8 +34,8 @@
+│  -rw-r--r--  2.0 unx     2219 b- defN 20-Aug-05 15:14 org/apache/maven/shared/filtering/MavenResourcesExecution$1.class
+│  -rw-r--r--  2.0 unx     8741 b- defN 20-Aug-05 15:14 org/apache/maven/shared/filtering/MavenResourcesExecution.class
+│  -rw-r--r--  2.0 unx      606 b- defN 20-Aug-05 15:14 org/apache/maven/shared/filtering/MavenResourcesFiltering.class
+│  -rw-r--r--  2.0 unx     6994 b- defN 20-Aug-05 15:14 org/apache/maven/shared/filtering/MultiDelimiterInterpolatorFilterReaderLineEnding.class
+│  -rw-r--r--  2.0 unx     5235 b- defN 20-Aug-05 15:14 org/apache/maven/shared/filtering/PropertyUtils.class
+│  -rw-r--r--  2.0 unx     6808 b- defN 20-Aug-05 15:14 META-INF/maven/org.apache.maven.shared/maven-filtering/pom.xml
+│  -rw-r--r--  2.0 unx       76 b- defN 20-Aug-05 15:14 META-INF/maven/org.apache.maven.shared/maven-filtering/pom.properties
+│ -39 files, 116900 bytes uncompressed, 44986 bytes compressed:  61.5%
+│ +39 files, 116876 bytes uncompressed, 44980 bytes compressed:  61.5%
+├── META-INF/DEPENDENCIES
+│ @@ -3,16 +3,16 @@
+│  // maven pom organized by organization.
+│  // ------------------------------------------------------------------
+│  
+│  Apache Maven Filtering
+│  
+│  
+│  From: 'an unknown organization'
+│ -  - AOP alliance  aopalliance:aopalliance:jar:1.0
+│ -    License: GNU Lesser General Public License  (http://www.gnu.org/licenses/lgpl.html)
+│ +  - AOP alliance (http://aopalliance.sourceforge.net) aopalliance:aopalliance:jar:1.0
+│ +    License: Public Domain 
+│    - Guava: Google Core Libraries for Java (http://code.google.com/p/guava-libraries/guava) com.google.guava:guava:jar:10.0.1
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - JSR-250 Common Annotations for the JavaTM Platform (http://jcp.org/aboutJava/communityprocess/final/jsr250/index.html) javax.annotation:jsr250-api:jar:1.0
+│      License: COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0  (https://glassfish.dev.java.net/public/CDDLv1.0.html)
+│    - javax.inject (http://code.google.com/p/atinject/) javax.inject:javax.inject:jar:1
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - plexus-build-api (http://forge.sonatype.com/spice-parent/plexus-build-api/) org.sonatype.plexus:plexus-build-api:jar:0.0.7
+
+target/reference/maven-filtering-3.2.0-source-release.zip target/maven-filtering-3.2.0-source-release.zip
+--- target/reference/maven-filtering-3.2.0-source-release.zip
++++ target/maven-filtering-3.2.0-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 161793 bytes, number of entries: 141
+│ +Zip file size: 161787 bytes, number of entries: 141
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:14 maven-filtering-3.2.0/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:14 maven-filtering-3.2.0/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:14 maven-filtering-3.2.0/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:14 maven-filtering-3.2.0/src/main/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:14 maven-filtering-3.2.0/src/main/java/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:14 maven-filtering-3.2.0/src/main/java/org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:14 maven-filtering-3.2.0/src/main/java/org/apache/maven/
+│ @@ -133,11 +133,11 @@
+│  -rw-r--r--  2.0 unx      801 b- defN 20-Aug-05 15:14 maven-filtering-3.2.0/src/test/units-files/maven-resources-filtering/includedir/include.txt
+│  -rw-r--r--  2.0 unx      801 b- defN 20-Aug-05 15:14 maven-filtering-3.2.0/src/test/units-files/maven-resources-filtering/includefile.txt
+│  -rw-r--r--  2.0 unx     1197 b- defN 20-Aug-05 15:14 maven-filtering-3.2.0/src/test/units-files/maven-resources-filtering/maven-resources-filtering.txt
+│  -rw-r--r--  2.0 unx      939 b- defN 20-Aug-05 15:14 maven-filtering-3.2.0/src/test/units-files/propertyutils-test.properties
+│  -rw-r--r--  2.0 unx      863 b- defN 20-Aug-05 15:14 maven-filtering-3.2.0/src/test/units-files/reflection-test-older.properties
+│  -rw-r--r--  2.0 unx      923 b- defN 20-Aug-05 15:14 maven-filtering-3.2.0/src/test/units-files/reflection-test.properties
+│  -rw-r--r--  2.0 unx      990 b- defN 20-Aug-05 15:14 maven-filtering-3.2.0/src/test/units-files/session-filtering/session-filter-target.txt
+│ --rw-r--r--  2.0 unx     7435 b- defN 20-Aug-05 15:14 maven-filtering-3.2.0/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx     7411 b- defN 20-Aug-05 15:14 maven-filtering-3.2.0/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 20-Aug-05 15:14 maven-filtering-3.2.0/LICENSE
+│  -rw-r--r--  2.0 unx      179 b- defN 20-Aug-05 15:14 maven-filtering-3.2.0/NOTICE
+│ -141 files, 361677 bytes uncompressed, 130857 bytes compressed:  63.8%
+│ +141 files, 361653 bytes uncompressed, 130851 bytes compressed:  63.8%
+├── maven-filtering-3.2.0/DEPENDENCIES
+│ @@ -3,16 +3,16 @@
+│  // maven pom organized by organization.
+│  // ------------------------------------------------------------------
+│  
+│  Apache Maven Filtering
+│  
+│  
+│  From: 'an unknown organization'
+│ -  - AOP alliance  aopalliance:aopalliance:jar:1.0
+│ -    License: GNU Lesser General Public License  (http://www.gnu.org/licenses/lgpl.html)
+│ +  - AOP alliance (http://aopalliance.sourceforge.net) aopalliance:aopalliance:jar:1.0
+│ +    License: Public Domain 
+│    - Guava: Google Core Libraries for Java (http://code.google.com/p/guava-libraries/guava) com.google.guava:guava:jar:10.0.1
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - JSR-250 Common Annotations for the JavaTM Platform (http://jcp.org/aboutJava/communityprocess/final/jsr250/index.html) javax.annotation:jsr250-api:jar:1.0
+│      License: COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0  (https://glassfish.dev.java.net/public/CDDLv1.0.html)
+│    - javax.inject (http://code.google.com/p/atinject/) javax.inject:javax.inject:jar:1
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - plexus-build-api (http://forge.sonatype.com/spice-parent/plexus-build-api/) org.sonatype.plexus:plexus-build-api:jar:0.0.7
+
+target/reference/maven-filtering-3.2.0-sources.jar target/maven-filtering-3.2.0-sources.jar
+--- target/reference/maven-filtering-3.2.0-sources.jar
++++ target/maven-filtering-3.2.0-sources.jar
+├── zipinfo {}
+│ @@ -1,19 +1,19 @@
+│ -Zip file size: 48888 bytes, number of entries: 34
+│ +Zip file size: 48882 bytes, number of entries: 34
+│  -rw-r--r--  2.0 unx       64 b- defN 20-Aug-05 15:14 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:14 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:14 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:14 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:14 org/apache/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:14 org/apache/maven/shared/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:14 org/apache/maven/shared/filtering/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:14 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:14 META-INF/maven/org.apache.maven.shared/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Aug-05 15:14 META-INF/maven/org.apache.maven.shared/maven-filtering/
+│ --rw-r--r--  2.0 unx     7435 b- defN 20-Aug-05 15:14 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx     7411 b- defN 20-Aug-05 15:14 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 20-Aug-05 15:14 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      179 b- defN 20-Aug-05 15:14 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     3233 b- defN 20-Aug-05 15:14 org/apache/maven/shared/filtering/AbstractFilterReaderLineEnding.java
+│  -rw-r--r--  2.0 unx    10534 b- defN 20-Aug-05 15:14 org/apache/maven/shared/filtering/AbstractMavenFilteringRequest.java
+│  -rw-r--r--  2.0 unx    14287 b- defN 20-Aug-05 15:14 org/apache/maven/shared/filtering/BaseFilter.java
+│  -rw-r--r--  2.0 unx     2806 b- defN 20-Aug-05 15:14 org/apache/maven/shared/filtering/BoundedReader.java
+│  -rw-r--r--  2.0 unx     2534 b- defN 20-Aug-05 15:14 org/apache/maven/shared/filtering/DefaultFilterInfo.java
+│ @@ -29,8 +29,8 @@
+│  -rw-r--r--  2.0 unx     2984 b- defN 20-Aug-05 15:14 org/apache/maven/shared/filtering/MavenReaderFilterRequest.java
+│  -rw-r--r--  2.0 unx    16072 b- defN 20-Aug-05 15:14 org/apache/maven/shared/filtering/MavenResourcesExecution.java
+│  -rw-r--r--  2.0 unx     1869 b- defN 20-Aug-05 15:14 org/apache/maven/shared/filtering/MavenResourcesFiltering.java
+│  -rw-r--r--  2.0 unx    13849 b- defN 20-Aug-05 15:14 org/apache/maven/shared/filtering/MultiDelimiterInterpolatorFilterReaderLineEnding.java
+│  -rw-r--r--  2.0 unx    10290 b- defN 20-Aug-05 15:14 org/apache/maven/shared/filtering/PropertyUtils.java
+│  -rw-r--r--  2.0 unx     6808 b- defN 20-Aug-05 15:14 META-INF/maven/org.apache.maven.shared/maven-filtering/pom.xml
+│  -rw-r--r--  2.0 unx       76 b- defN 20-Aug-05 15:14 META-INF/maven/org.apache.maven.shared/maven-filtering/pom.properties
+│ -34 files, 160057 bytes uncompressed, 43116 bytes compressed:  73.1%
+│ +34 files, 160033 bytes uncompressed, 43110 bytes compressed:  73.1%
+├── META-INF/DEPENDENCIES
+│ @@ -3,16 +3,16 @@
+│  // maven pom organized by organization.
+│  // ------------------------------------------------------------------
+│  
+│  Apache Maven Filtering
+│  
+│  
+│  From: 'an unknown organization'
+│ -  - AOP alliance  aopalliance:aopalliance:jar:1.0
+│ -    License: GNU Lesser General Public License  (http://www.gnu.org/licenses/lgpl.html)
+│ +  - AOP alliance (http://aopalliance.sourceforge.net) aopalliance:aopalliance:jar:1.0
+│ +    License: Public Domain 
+│    - Guava: Google Core Libraries for Java (http://code.google.com/p/guava-libraries/guava) com.google.guava:guava:jar:10.0.1
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - JSR-250 Common Annotations for the JavaTM Platform (http://jcp.org/aboutJava/communityprocess/final/jsr250/index.html) javax.annotation:jsr250-api:jar:1.0
+│      License: COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0  (https://glassfish.dev.java.net/public/CDDLv1.0.html)
+│    - javax.inject (http://code.google.com/p/atinject/) javax.inject:javax.inject:jar:1
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - plexus-build-api (http://forge.sonatype.com/spice-parent/plexus-build-api/) org.sonatype.plexus:plexus-build-api:jar:0.0.7
+

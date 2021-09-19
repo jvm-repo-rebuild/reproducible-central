@@ -14,4 +14,4 @@ command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dg
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://github.com/apache/maven-artifact-transfer/commit/c2106c0500cc7c70c27581f117bf86e6185073c6

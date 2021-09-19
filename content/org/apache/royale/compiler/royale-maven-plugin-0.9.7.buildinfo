@@ -13,13 +13,12 @@ source.scm.tag=org.apache.royale.compiler-0.9.7-rc5
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.aggregate.artifact-id=royale-maven-plugin
 
 # aggregated output
 
@@ -74,8 +73,8 @@ outputs.4.0.length=3878014
 outputs.4.0.checksums.sha512=bd49bafc89e4a63555aec9fa398edf9d8734d7b15fd9292b16f08b3605734b0148850a037346ed79ec6bd66c7b41d2d23b912ae25b87940bd3e2c4ee3d2d140d
 
 outputs.4.1.filename=compiler-0.9.7-sources.jar
-outputs.4.1.length=3281627
-outputs.4.1.checksums.sha512=d49a3a873a9efaf8ab17756e4719719ffdc88b3c389edcabe540478cda7f7ded7b0dfdbade3867dc9070e8238aa5ce80ab951966ea8169bf848378e69a5a7aed
+outputs.4.1.length=3281622
+outputs.4.1.checksums.sha512=5d5069c79abd47ecbf73f055398598ccaa86b2e12569ec92f8d6cab1c5b761bc947250f55b1a1e36bc28c1959e2f8eea0c62963128aace3139cac3095126cee3
 
 outputs.5.coordinates=org.apache.royale.compiler:compiler-jx
 
@@ -104,8 +103,8 @@ outputs.7.0.length=851101
 outputs.7.0.checksums.sha512=6b29888d79a6b5e6d29fe1488a276b31719f84f0426b5ea17083540e1cf30143cb33b721d3b1a2ca52ccb9b3d39f6e00b1f545581f596bb1024252ca5c9c1fc9
 
 outputs.7.1.filename=debugger-0.9.7-sources.jar
-outputs.7.1.length=688641
-outputs.7.1.checksums.sha512=d1431c8d51df8a2eb162f3a6f17b2993a5ba4c6da9dcbe7165a4af9a9dc7e8f174dddebd1948aa2523e6c033d1e275cd5ea08b51c22cce5e4571eb1d416f6387
+outputs.7.1.length=688640
+outputs.7.1.checksums.sha512=5a9348ea3eb130245a1195376464c35bfd2015dbf102616e27a9248cc13b3feaaacd10037600e2f963a23f5c6e8b3e5e10a9c281014906e182c8e576123cf690
 
 outputs.8.coordinates=org.apache.royale.compiler:flex-compiler-oem
 

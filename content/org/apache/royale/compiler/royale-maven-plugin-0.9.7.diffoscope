@@ -1,0 +1,975 @@
+target/reference/royale-compiler-parent-0.9.7-source-release.zip target/royale-compiler-parent-0.9.7-source-release.zip
+--- target/reference/royale-compiler-parent-0.9.7-source-release.zip
++++ target/royale-compiler-parent-0.9.7-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 7276163 bytes, number of entries: 3896
+│ +Zip file size: 7276077 bytes, number of entries: 3896
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 royale-compiler-parent-0.9.7/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 royale-compiler-parent-0.9.7/.mvn/
+│  -rw-r--r--  2.0 unx     1328 b- defN 00-Jan-01 00:00 royale-compiler-parent-0.9.7/.mvn/extensions.xml
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 royale-compiler-parent-0.9.7/.mvn/wrapper/
+│  -rw-r--r--  2.0 unx     5046 b- defN 00-Jan-01 00:00 royale-compiler-parent-0.9.7/.mvn/wrapper/MavenWrapperDownloader.java
+│  -rw-r--r--  2.0 unx     1023 b- defN 00-Jan-01 00:00 royale-compiler-parent-0.9.7/.mvn/wrapper/maven-wrapper.properties
+│  -rw-r--r--  2.0 unx    34317 b- defN 00-Jan-01 00:00 royale-compiler-parent-0.9.7/ApproveFalcon.xml
+│ @@ -3394,15 +3394,15 @@
+│  -rw-r--r--  2.0 unx    27656 b- defN 00-Jan-01 00:00 royale-compiler-parent-0.9.7/debugger/src/main/resources/royale/tools/debugger/cli/fdbhelp_en.txt
+│  -rw-r--r--  2.0 unx    32438 b- defN 00-Jan-01 00:00 royale-compiler-parent-0.9.7/debugger/src/main/resources/royale/tools/debugger/cli/fdbhelp_es.txt
+│  -rw-r--r--  2.0 unx    31374 b- defN 00-Jan-01 00:00 royale-compiler-parent-0.9.7/debugger/src/main/resources/royale/tools/debugger/cli/fdbhelp_fi.txt
+│  -rw-r--r--  2.0 unx    35521 b- defN 00-Jan-01 00:00 royale-compiler-parent-0.9.7/debugger/src/main/resources/royale/tools/debugger/cli/fdbhelp_fr.txt
+│  -rw-r--r--  2.0 unx    34531 b- defN 00-Jan-01 00:00 royale-compiler-parent-0.9.7/debugger/src/main/resources/royale/tools/debugger/cli/fdbhelp_it.txt
+│  -rw-r--r--  2.0 unx    35793 b- defN 00-Jan-01 00:00 royale-compiler-parent-0.9.7/debugger/src/main/resources/royale/tools/debugger/cli/fdbhelp_ja.txt
+│  -rw-r--r--  2.0 unx    34153 b- defN 00-Jan-01 00:00 royale-compiler-parent-0.9.7/debugger/src/main/resources/royale/tools/debugger/cli/fdbhelp_ko_KR.txt
+│ --rw-r--r--  2.0 unx    35171 b- defN 00-Jan-01 00:00 royale-compiler-parent-0.9.7/debugger/src/main/resources/royale/tools/debugger/cli/fdbhelp_nl.txt
+│ +-rw-r--r--  2.0 unx    33417 b- defN 00-Jan-01 00:00 royale-compiler-parent-0.9.7/debugger/src/main/resources/royale/tools/debugger/cli/fdbhelp_nl.txt
+│  -rw-r--r--  2.0 unx    29624 b- defN 00-Jan-01 00:00 royale-compiler-parent-0.9.7/debugger/src/main/resources/royale/tools/debugger/cli/fdbhelp_no.txt
+│  -rw-r--r--  2.0 unx    49805 b- defN 00-Jan-01 00:00 royale-compiler-parent-0.9.7/debugger/src/main/resources/royale/tools/debugger/cli/fdbhelp_ru.txt
+│  -rw-r--r--  2.0 unx    31873 b- defN 00-Jan-01 00:00 royale-compiler-parent-0.9.7/debugger/src/main/resources/royale/tools/debugger/cli/fdbhelp_se.txt
+│  -rw-r--r--  2.0 unx    27608 b- defN 00-Jan-01 00:00 royale-compiler-parent-0.9.7/debugger/src/main/resources/royale/tools/debugger/cli/fdbhelp_zh_CN.txt
+│  -rw-r--r--  2.0 unx    28135 b- defN 00-Jan-01 00:00 royale-compiler-parent-0.9.7/debugger/src/main/resources/royale/tools/debugger/cli/fdbhelp_zh_TW.txt
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 royale-compiler-parent-0.9.7/debugger/src/site/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 royale-compiler-parent-0.9.7/debugger/src/site/asciidoc/
+│ @@ -3891,8 +3891,8 @@
+│  -rw-r--r--  2.0 unx      906 b- defN 00-Jan-01 00:00 royale-compiler-parent-0.9.7/swfutils/src/main/java/flash/swf/types/package.html
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 royale-compiler-parent-0.9.7/swfutils/src/main/java/flash/util/
+│  -rw-r--r--  2.0 unx     6513 b- defN 00-Jan-01 00:00 royale-compiler-parent-0.9.7/swfutils/src/main/java/flash/util/ExceptionUtil.java
+│  -rw-r--r--  2.0 unx     3016 b- defN 00-Jan-01 00:00 royale-compiler-parent-0.9.7/swfutils/src/main/java/flash/util/FieldFormat.java
+│  -rw-r--r--  2.0 unx    16767 b- defN 00-Jan-01 00:00 royale-compiler-parent-0.9.7/swfutils/src/main/java/flash/util/FileUtils.java
+│  -rw-r--r--  2.0 unx     5786 b- defN 00-Jan-01 00:00 royale-compiler-parent-0.9.7/swfutils/src/main/java/flash/util/IntMap.java
+│  -rw-r--r--  2.0 unx     7027 b- defN 00-Jan-01 00:00 royale-compiler-parent-0.9.7/swfutils/src/main/java/flash/util/Trace.java
+│ -3896 files, 22558204 bytes uncompressed, 6148177 bytes compressed:  72.7%
+│ +3896 files, 22556450 bytes uncompressed, 6148091 bytes compressed:  72.7%
+├── royale-compiler-parent-0.9.7/debugger/src/main/resources/royale/tools/debugger/cli/fdbhelp_nl.txt
+│ @@ -1,2199 +1,2089 @@
+│ -00000000: 0d0a 2020 2020 2020 4c69 6365 6e73 6564  ..      Licensed
+│ -00000010: 2074 6f20 7468 6520 4170 6163 6865 2053   to the Apache S
+│ -00000020: 6f66 7477 6172 6520 466f 756e 6461 7469  oftware Foundati
+│ -00000030: 6f6e 2028 4153 4629 2075 6e64 6572 206f  on (ASF) under o
+│ -00000040: 6e65 206f 7220 6d6f 7265 0d0a 2020 2020  ne or more..    
+...
+│ +00000000: 0a20 2020 2020 204c 6963 656e 7365 6420  .      Licensed 
+│ +00000010: 746f 2074 6865 2041 7061 6368 6520 536f  to the Apache So
+│ +00000020: 6674 7761 7265 2046 6f75 6e64 6174 696f  ftware Foundatio
+│ +00000030: 6e20 2841 5346 2920 756e 6465 7220 6f6e  n (ASF) under on
+│ +00000040: 6520 6f72 206d 6f72 650a 2020 2020 2020  e or more.      
+...
+
+target/reference/compiler-0.9.7.jar compiler/target/compiler-0.9.7.jar
+--- target/reference/compiler-0.9.7.jar
++++ compiler/target/compiler-0.9.7.jar
+├── zipinfo {}
+│ @@ -1,11 +1,11 @@
+│ -Zip file size: 3878052 bytes, number of entries: 2339
+│ +Zip file size: 3878014 bytes, number of entries: 2339
+│  -rw-r--r--  2.0 unx      644 b- defN 00-Jan-01 00:00 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 META-INF/
+│ --rw-r--r--  2.0 unx    22605 b- defN 00-Jan-01 00:00 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    22538 b- defN 00-Jan-01 00:00 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 00-Jan-01 00:00 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      185 b- defN 00-Jan-01 00:00 META-INF/NOTICE
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 META-INF/maven/org.apache.royale.compiler/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 META-INF/maven/org.apache.royale.compiler/compiler/
+│  -rw-r--r--  2.0 unx       72 b- defN 00-Jan-01 00:00 META-INF/maven/org.apache.royale.compiler/compiler/pom.properties
+│  -rw-r--r--  2.0 unx    25492 b- defN 00-Jan-01 00:00 META-INF/maven/org.apache.royale.compiler/compiler/pom.xml
+│ @@ -2334,8 +2334,8 @@
+│  -rw-r--r--  2.0 unx     1014 b- defN 00-Jan-01 00:00 org/apache/royale/utils/NonLockingStringReader.class
+│  -rw-r--r--  2.0 unx      469 b- defN 00-Jan-01 00:00 org/apache/royale/utils/Point.class
+│  -rw-r--r--  2.0 unx     2299 b- defN 00-Jan-01 00:00 org/apache/royale/utils/StringEncoder.class
+│  -rw-r--r--  2.0 unx     1624 b- defN 00-Jan-01 00:00 org/apache/royale/utils/StringUtils.class
+│  -rw-r--r--  2.0 unx     4289 b- defN 00-Jan-01 00:00 org/apache/royale/utils/Version.class
+│  -rw-r--r--  2.0 unx     1741 b- defN 00-Jan-01 00:00 overview.html
+│  -rw-r--r--  2.0 unx     1494 b- defN 00-Jan-01 00:00 template-unittest.properties
+│ -2339 files, 8936165 bytes uncompressed, 3382028 bytes compressed:  62.2%
+│ +2339 files, 8936098 bytes uncompressed, 3381990 bytes compressed:  62.2%
+├── META-INF/DEPENDENCIES
+│ @@ -7,16 +7,14 @@
+│  
+│  
+│  From: 'an unknown organization'
+│    - AntLR Parser Generator (http://www.antlr.org/) antlr:antlr:jar:2.7.7
+│      License: BSD License  (http://www.antlr.org/license.html)
+│    - Ganymed SSH2 for Java (http://www.ganymed.ethz.ch/ssh2/) ch.ethz.ganymed:ganymed-ssh2:jar:build210
+│      License: BSD style license  (http://www.ganymed.ethz.ch/ssh2/LICENSE.txt)
+│ -  - playerglobal  com.adobe.flash.framework:playerglobal:swc:20.0
+│ -
+│    - FindBugs-jsr305 (http://findbugs.sourceforge.net/) com.google.code.findbugs:jsr305:jar:3.0.2
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Gson (https://github.com/google/gson/gson) com.google.code.gson:gson:jar:2.7
+│      License: Apache 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - error-prone annotations (http://nexus.sonatype.org/oss-repository-hosting.html/error_prone_parent/error_prone_annotations) com.google.errorprone:error_prone_annotations:jar:2.1.3
+│      License: Apache 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Guava: Google Core Libraries for Java (https://github.com/google/guava/guava) com.google.guava:guava:bundle:25.1-jre
+
+target/reference/compiler-0.9.7-sources.jar compiler/target/compiler-0.9.7-sources.jar
+--- target/reference/compiler-0.9.7-sources.jar
++++ compiler/target/compiler-0.9.7-sources.jar
+├── zipinfo {}
+│ @@ -1,18 +1,18 @@
+│ -Zip file size: 3281860 bytes, number of entries: 1757
+│ +Zip file size: 3281622 bytes, number of entries: 1757
+│  -rw-r--r--  2.0 unx       25 b- defN 00-Jan-01 00:00 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 META-INF/
+│  -rw-r--r--  2.0 unx     1063 b- defN 00-Jan-01 00:00 CSS.tokens
+│  -rw-r--r--  2.0 unx    35922 b- defN 00-Jan-01 00:00 CSSEmitter.java
+│  -rw-r--r--  2.0 unx    81836 b- defN 00-Jan-01 00:00 CSSLexer.java
+│  -rw-r--r--  2.0 unx   117018 b- defN 00-Jan-01 00:00 CSSParser.java
+│  -rw-r--r--  2.0 unx    87149 b- defN 00-Jan-01 00:00 CSSTree.java
+│  -rw-r--r--  2.0 unx     1063 b- defN 00-Jan-01 00:00 CSSTree.tokens
+│  -rw-r--r--  2.0 unx  1077107 b- defN 00-Jan-01 00:00 CmcEmitter.java
+│ --rw-r--r--  2.0 unx    22605 b- defN 00-Jan-01 00:00 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    22538 b- defN 00-Jan-01 00:00 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 00-Jan-01 00:00 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      185 b- defN 00-Jan-01 00:00 META-INF/NOTICE
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 META-INF/maven/org.apache.royale.compiler/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 META-INF/maven/org.apache.royale.compiler/compiler/
+│  -rw-r--r--  2.0 unx       72 b- defN 00-Jan-01 00:00 META-INF/maven/org.apache.royale.compiler/compiler/pom.properties
+│  -rw-r--r--  2.0 unx    25492 b- defN 00-Jan-01 00:00 META-INF/maven/org.apache.royale.compiler/compiler/pom.xml
+│ @@ -598,36 +598,36 @@
+│  -rw-r--r--  2.0 unx     1135 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/as/DeferFunctionBody.java
+│  -rw-r--r--  2.0 unx     1423 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/as/IProblemReporter.java
+│  -rw-r--r--  2.0 unx     2591 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/as/IProjectConfigVariables.java
+│  -rw-r--r--  2.0 unx     3854 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/as/IRepairingTokenBuffer.java
+│  -rw-r--r--  2.0 unx    21039 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/as/IncludeHandler.java
+│  -rw-r--r--  2.0 unx     3990 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/as/MetaDataPayloadToken.java
+│  -rw-r--r--  2.0 unx    30844 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/as/MetadataParser.java
+│ --rw-r--r--  2.0 unx     8748 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/as/MetadataParser.smap
+│ +-rw-r--r--  2.0 unx     7776 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/as/MetadataParser.smap
+│  -rw-r--r--  2.0 unx     3390 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/as/MetadataToken.java
+│  -rw-r--r--  2.0 unx     3443 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/as/MetadataTokenTypes.java
+│ --rw-r--r--  2.0 unx     1340 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/as/MetadataTokenTypes.txt
+│ +-rw-r--r--  2.0 unx     1288 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/as/MetadataTokenTypes.txt
+│  -rw-r--r--  2.0 unx    14700 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/as/MetadataTokenizer.java
+│  -rw-r--r--  2.0 unx     3793 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/as/NilASDocDelegate.java
+│ --rw-r--r--  2.0 unx    22340 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/as/RawASDocTokenizer.java
+│ --rw-r--r--  2.0 unx    65561 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/as/RawASTokenizer.java
+│ +-rw-r--r--  2.0 unx    22298 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/as/RawASDocTokenizer.java
+│ +-rw-r--r--  2.0 unx    65519 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/as/RawASTokenizer.java
+│  -rw-r--r--  2.0 unx     4721 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/as/RepairingTokenBuffer.java
+│  -rw-r--r--  2.0 unx     4158 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/as/SimpleASDocDelegate.java
+│  -rw-r--r--  2.0 unx    79556 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/as/StreamingASTokenizer.java
+│  -rw-r--r--  2.0 unx     6462 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/as/StreamingTokenBuffer.java
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/mxml/
+│  -rw-r--r--  2.0 unx     5439 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/mxml/BalancingMXMLProcessor.java
+│  -rw-r--r--  2.0 unx     9144 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/mxml/BaseRawMXMLTokenizer.java
+│  -rw-r--r--  2.0 unx    34619 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/mxml/MXMLScopeBuilder.java
+│  -rw-r--r--  2.0 unx     9982 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/mxml/MXMLTagDataDepth.java
+│  -rw-r--r--  2.0 unx     1904 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/mxml/MXMLTagDataPayload.java
+│  -rw-r--r--  2.0 unx     7133 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/mxml/MXMLToken.java
+│  -rw-r--r--  2.0 unx    15256 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/mxml/MXMLTokenizer.java
+│  -rw-r--r--  2.0 unx     1541 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/mxml/MXMLUnitDataIterator.java
+│ --rw-r--r--  2.0 unx    28204 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/mxml/RawMXMLTokenizer.java
+│ +-rw-r--r--  2.0 unx    28162 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/mxml/RawMXMLTokenizer.java
+│  -rw-r--r--  2.0 unx     1210 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/parsing/package.html
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 org/apache/royale/compiler/internal/projects/
+│  -rw-r--r--  2.0 unx     3217 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/projects/ASCProject.java
+│  -rw-r--r--  2.0 unx    17454 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/projects/ASProject.java
+│  -rw-r--r--  2.0 unx     2320 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/projects/ASSourceFileHandler.java
+│  -rw-r--r--  2.0 unx    39493 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/projects/CompilerProject.java
+│  -rw-r--r--  2.0 unx    15150 b- defN 00-Jan-01 00:00 org/apache/royale/compiler/internal/projects/ConfigManager.java
+│ @@ -1752,8 +1752,8 @@
+│  -rw-r--r--  2.0 unx     1116 b- defN 00-Jan-01 00:00 org/apache/royale/utils/Point.java
+│  -rw-r--r--  2.0 unx     3146 b- defN 00-Jan-01 00:00 org/apache/royale/utils/StringEncoder.java
+│  -rw-r--r--  2.0 unx     2797 b- defN 00-Jan-01 00:00 org/apache/royale/utils/StringUtils.java
+│  -rw-r--r--  2.0 unx     7701 b- defN 00-Jan-01 00:00 org/apache/royale/utils/Version.java
+│  -rw-r--r--  2.0 unx     1063 b- defN 00-Jan-01 00:00 org/apache/royale/utils/package.html
+│  -rw-r--r--  2.0 unx     1741 b- defN 00-Jan-01 00:00 overview.html
+│  -rw-r--r--  2.0 unx     1494 b- defN 00-Jan-01 00:00 template-unittest.properties
+│ -1757 files, 12217561 bytes uncompressed, 2930768 bytes compressed:  76.0%
+│ +1757 files, 12216344 bytes uncompressed, 2930530 bytes compressed:  76.0%
+├── CSSParser.java
+│ @@ -450,15 +450,15 @@
+│  			STRING8=(Token)match(input,STRING,FOLLOW_STRING_in_namespaceStatement194);  
+
+│  			stream_STRING.add(STRING8);
+
+│  
+
+│  			SEMI_COLONS9=(Token)match(input,SEMI_COLONS,FOLLOW_SEMI_COLONS_in_namespaceStatement196);  
+
+│  			stream_SEMI_COLONS.add(SEMI_COLONS9);
+
+│  
+
+│  			// AST REWRITE
+
+│ -			// elements: ID, AT_NAMESPACE, STRING
+
+│ +			// elements: AT_NAMESPACE, STRING, ID
+
+│  			// token labels: 
+
+│  			// rule labels: retval
+
+│  			// token list labels: 
+
+│  			// rule list labels: 
+
+│  			// wildcard labels: 
+
+│  			retval.tree = root_0;
+
+│  			RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.getTree():null);
+
+│ @@ -603,15 +603,15 @@
+│  						}
+
+│  					}
+
+│  
+
+│  					BLOCK_END14=(Token)match(input,BLOCK_END,FOLLOW_BLOCK_END_in_keyframes248);  
+
+│  					stream_BLOCK_END.add(BLOCK_END14);
+
+│  
+
+│  					// AST REWRITE
+
+│ -					// elements: ruleset, ID, AT_KEYFRAMES
+
+│ +					// elements: ID, ruleset, AT_KEYFRAMES
+
+│  					// token labels: 
+
+│  					// rule labels: retval
+
+│  					// token list labels: 
+
+│  					// rule list labels: 
+
+│  					// wildcard labels: 
+
+│  					retval.tree = root_0;
+
+│  					RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.getTree():null);
+
+│ @@ -678,15 +678,15 @@
+│  						}
+
+│  					}
+
+│  
+
+│  					BLOCK_END19=(Token)match(input,BLOCK_END,FOLLOW_BLOCK_END_in_keyframes283);  
+
+│  					stream_BLOCK_END.add(BLOCK_END19);
+
+│  
+
+│  					// AST REWRITE
+
+│ -					// elements: ruleset, ID, AT_WEBKIT_KEYFRAMES
+
+│ +					// elements: ID, AT_WEBKIT_KEYFRAMES, ruleset
+
+│  					// token labels: 
+
+│  					// rule labels: retval
+
+│  					// token list labels: 
+
+│  					// rule list labels: 
+
+│  					// wildcard labels: 
+
+│  					retval.tree = root_0;
+
+│  					RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.getTree():null);
+
+│ @@ -807,15 +807,15 @@
+│  				}
+
+│  			}
+
+│  
+
+│  			BLOCK_END24=(Token)match(input,BLOCK_END,FOLLOW_BLOCK_END_in_mediaQuery331);  
+
+│  			stream_BLOCK_END.add(BLOCK_END24);
+
+│  
+
+│  			// AST REWRITE
+
+│ -			// elements: medium, AT_MEDIA, ruleset
+
+│ +			// elements: AT_MEDIA, ruleset, medium
+
+│  			// token labels: 
+
+│  			// rule labels: retval
+
+│  			// token list labels: 
+
+│  			// rule list labels: 
+
+│  			// wildcard labels: 
+
+│  			retval.tree = root_0;
+
+│  			RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.getTree():null);
+
+│ @@ -1151,15 +1151,15 @@
+│  
+
+│  			pushFollow(FOLLOW_declarationsBlock_in_fontFace563);
+
+│  			declarationsBlock35=declarationsBlock();
+
+│  			state._fsp--;
+
+│  
+
+│  			stream_declarationsBlock.add(declarationsBlock35.getTree());
+
+│  			// AST REWRITE
+
+│ -			// elements: declarationsBlock, AT_FONT_FACE
+
+│ +			// elements: AT_FONT_FACE, declarationsBlock
+
+│  			// token labels: 
+
+│  			// rule labels: retval
+
+│  			// token list labels: 
+
+│  			// rule list labels: 
+
+│  			// wildcard labels: 
+
+│  			retval.tree = root_0;
+
+│  			RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.getTree():null);
+
+│ @@ -2228,15 +2228,15 @@
+│  
+
+│  			pushFollow(FOLLOW_value_in_declaration1213);
+
+│  			value71=value();
+
+│  			state._fsp--;
+
+│  
+
+│  			stream_value.add(value71.getTree());
+
+│  			// AST REWRITE
+
+│ -			// elements: value, ID, COLON
+
+│ +			// elements: value, COLON, ID
+
+│  			// token labels: 
+
+│  			// rule labels: retval
+
+│  			// token list labels: 
+
+│  			// rule list labels: 
+
+│  			// wildcard labels: 
+
+│  			retval.tree = root_0;
+
+│  			RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.getTree():null);
+
+│ @@ -2757,15 +2757,15 @@
+│  					CLASS_REFERENCE80=(Token)match(input,CLASS_REFERENCE,FOLLOW_CLASS_REFERENCE_in_singleValue1450);  
+
+│  					stream_CLASS_REFERENCE.add(CLASS_REFERENCE80);
+
+│  
+
+│  					ARGUMENTS81=(Token)match(input,ARGUMENTS,FOLLOW_ARGUMENTS_in_singleValue1452);  
+
+│  					stream_ARGUMENTS.add(ARGUMENTS81);
+
+│  
+
+│  					// AST REWRITE
+
+│ -					// elements: ARGUMENTS, CLASS_REFERENCE
+
+│ +					// elements: CLASS_REFERENCE, ARGUMENTS
+
+│  					// token labels: 
+
+│  					// rule labels: retval
+
+│  					// token list labels: 
+
+│  					// rule list labels: 
+
+│  					// wildcard labels: 
+
+│  					retval.tree = root_0;
+
+│  					RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.getTree():null);
+
+│ @@ -2794,15 +2794,15 @@
+│  					PROPERTY_REFERENCE82=(Token)match(input,PROPERTY_REFERENCE,FOLLOW_PROPERTY_REFERENCE_in_singleValue1482);  
+
+│  					stream_PROPERTY_REFERENCE.add(PROPERTY_REFERENCE82);
+
+│  
+
+│  					ARGUMENTS83=(Token)match(input,ARGUMENTS,FOLLOW_ARGUMENTS_in_singleValue1484);  
+
+│  					stream_ARGUMENTS.add(ARGUMENTS83);
+
+│  
+
+│  					// AST REWRITE
+
+│ -					// elements: PROPERTY_REFERENCE, ARGUMENTS
+
+│ +					// elements: ARGUMENTS, PROPERTY_REFERENCE
+
+│  					// token labels: 
+
+│  					// rule labels: retval
+
+│  					// token list labels: 
+
+│  					// rule list labels: 
+
+│  					// wildcard labels: 
+
+│  					retval.tree = root_0;
+
+│  					RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.getTree():null);
+
+│ @@ -2937,15 +2937,15 @@
+│  					LOCAL89=(Token)match(input,LOCAL,FOLLOW_LOCAL_in_singleValue1574);  
+
+│  					stream_LOCAL.add(LOCAL89);
+
+│  
+
+│  					ARGUMENTS90=(Token)match(input,ARGUMENTS,FOLLOW_ARGUMENTS_in_singleValue1576);  
+
+│  					stream_ARGUMENTS.add(ARGUMENTS90);
+
+│  
+
+│  					// AST REWRITE
+
+│ -					// elements: ARGUMENTS, LOCAL
+
+│ +					// elements: LOCAL, ARGUMENTS
+
+│  					// token labels: 
+
+│  					// rule labels: retval
+
+│  					// token list labels: 
+
+│  					// rule list labels: 
+
+│  					// wildcard labels: 
+
+│  					retval.tree = root_0;
+
+│  					RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.getTree():null);
+
+│ @@ -3011,15 +3011,15 @@
+│  					FUNCTIONS93=(Token)match(input,FUNCTIONS,FOLLOW_FUNCTIONS_in_singleValue1632);  
+
+│  					stream_FUNCTIONS.add(FUNCTIONS93);
+
+│  
+
+│  					ARGUMENTS94=(Token)match(input,ARGUMENTS,FOLLOW_ARGUMENTS_in_singleValue1634);  
+
+│  					stream_ARGUMENTS.add(ARGUMENTS94);
+
+│  
+
+│  					// AST REWRITE
+
+│ -					// elements: FUNCTIONS, ARGUMENTS
+
+│ +					// elements: ARGUMENTS, FUNCTIONS
+
+│  					// token labels: 
+
+│  					// rule labels: retval
+
+│  					// token list labels: 
+
+│  					// rule list labels: 
+
+│  					// wildcard labels: 
+
+│  					retval.tree = root_0;
+
+│  					RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.getTree():null);
+
+│ @@ -3225,15 +3225,15 @@
+│  			FORMAT106=(Token)match(input,FORMAT,FOLLOW_FORMAT_in_formatOption1787);  
+
+│  			stream_FORMAT.add(FORMAT106);
+
+│  
+
+│  			ARGUMENTS107=(Token)match(input,ARGUMENTS,FOLLOW_ARGUMENTS_in_formatOption1789);  
+
+│  			stream_ARGUMENTS.add(ARGUMENTS107);
+
+│  
+
+│  			// AST REWRITE
+
+│ -			// elements: ARGUMENTS, FORMAT
+
+│ +			// elements: FORMAT, ARGUMENTS
+
+│  			// token labels: 
+
+│  			// rule labels: retval
+
+│  			// token list labels: 
+
+│  			// rule list labels: 
+
+│  			// wildcard labels: 
+
+│  			retval.tree = root_0;
+
+│  			RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.getTree():null);
+├── META-INF/DEPENDENCIES
+│ @@ -7,16 +7,14 @@
+│  
+│  
+│  From: 'an unknown organization'
+│    - AntLR Parser Generator (http://www.antlr.org/) antlr:antlr:jar:2.7.7
+│      License: BSD License  (http://www.antlr.org/license.html)
+│    - Ganymed SSH2 for Java (http://www.ganymed.ethz.ch/ssh2/) ch.ethz.ganymed:ganymed-ssh2:jar:build210
+│      License: BSD style license  (http://www.ganymed.ethz.ch/ssh2/LICENSE.txt)
+│ -  - playerglobal  com.adobe.flash.framework:playerglobal:swc:20.0
+│ -
+│    - FindBugs-jsr305 (http://findbugs.sourceforge.net/) com.google.code.findbugs:jsr305:jar:3.0.2
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Gson (https://github.com/google/gson/gson) com.google.code.gson:gson:jar:2.7
+│      License: Apache 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - error-prone annotations (http://nexus.sonatype.org/oss-repository-hosting.html/error_prone_parent/error_prone_annotations) com.google.errorprone:error_prone_annotations:jar:2.1.3
+│      License: Apache 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Guava: Google Core Libraries for Java (https://github.com/google/guava/guava) com.google.guava:guava:bundle:25.1-jre
+├── org/apache/royale/compiler/internal/parsing/as/MetadataParser.smap
+│ @@ -1,972 +1,972 @@
+│ -SMAP
+
+│ -MetadataParser.java
+
+│ -G
+
+│ -*S G
+
+│ -*F
+
+│ -+ 0 MetadataParser.g
+
+│ -MetadataParser.g
+
+│ -*L
+
+│ -2:3
+
+...
+│ +SMAP
+│ +MetadataParser.java
+│ +G
+│ +*S G
+│ +*F
+│ ++ 0 MetadataParser.g
+│ +MetadataParser.g
+│ +*L
+│ +2:3
+│ +2:4
+...
+├── org/apache/royale/compiler/internal/parsing/as/MetadataTokenTypes.txt
+│ @@ -1,52 +1,52 @@
+│ -// $ANTLR 2.7.7 (20060906): MetadataParser.g -> MetadataTokenTypes.txt$
+
+│ -Metadata    // output token vocab name
+
+│ -TOKEN_NUMBER=4
+
+│ -TOKEN_EQUALS=5
+
+│ -TOKEN_ID=6
+
+│ -TOKEN_VALUE=7
+
+│ -TOKEN_STRING=8
+
+│ -TOKEN_EVENT_KEYWORD=9
+
+│ -TOKEN_EFFECT_KEYWORD=10
+
+│ -TOKEN_STYLE_KEYWORD=11
+
+│ -TOKEN_ICONFILE_KEYWORD=12
+
+│ -TOKEN_ARRAYELEMENTTYPE_KEYWORD=13
+
+│ -TOKEN_DEFAULTPROPERTY_KEYWORD=14
+
+│ -TOKEN_BINDABLE_KEYWORD=15
+
+│ -TOKEN_INSTANCETYPE_KEYWORD=16
+
+│ -TOKEN_NONCOMMITTINGCHANGE_KEYWORD=17
+
+│ -TOKEN_EMBED_KEYWORD=18
+
+│ -TOKEN_INSPECTABLE_KEYWORD=19
+
+│ -TOKEN_NAME=20
+
+│ -TOKEN_OPEN_PAREN=21
+
+│ -TOKEN_CLOSE_PAREN=22
+
+│ -TOKEN_OPEN_BRACE=23
+
+│ -TOKEN_CLOSE_BRACE=24
+
+│ -TOKEN_UNKNOWN_KEYWORD=25
+
+│ -TOKEN_ATTR_NAME=26
+
+│ -TOKEN_ATTR_EVENT=27
+
+│ -TOKEN_ATTR_FORMAT=28
+
+│ -TOKEN_ATTR_TYPE=29
+
+│ -TOKEN_ATTR_ARRAY_TYPE=30
+
+│ -TOKEN_ATTR_INHERITS=31
+
+│ -TOKEN_ATTR_ENUM=32
+
+│ -TOKEN_ATTR_UNKNOWN=33
+
+│ -TOKEN_ATTR_ENV=34
+
+│ -TOKEN_ATTR_VERBOSE=35
+
+│ -TOKEN_ATTR_CATEGORY=36
+
+│ -TOKEN_ATTR_VARIABLE=37
+
+│ -TOKEN_ATTR_DEFAULT_VALUE=38
+
+│ -HIDDEN_TOKEN_NEWLINE=45
+
+│ -HIDDEN_TOKEN_LETTER=46
+
+│ -HIDDEN_TOKEN_DIGIT=47
+
+│ -HIDDEN_TOKEN_HEX_DIGIT=48
+
+│ -HIDDEN_TOKEN_ID_FIRST=49
+
+│ -TOKEN_ATTR_STATES=50
+
+│ -TOKEN_ATTR_IMPLEMENTATION=51
+
+│ -TOKEN_ACCESSIBILITY_KEYWORD=52
+
+│ -TOKEN_STATES_KEYWORD=53
+
+│ -TOKEN_SKIN_STATES_KEYWORD=54
+
+│ -TOKEN_ASDOC_COMMENT=55
+
+│ -TOKEN_HOST_COMPONENT_KEYWORD=56
+
+│ -TOKEN_RESOURCEBUNDLE_KEYWORD=59
+
+│ -TOKEN_SKINCLASS_KEYWORD=60
+
+│ -TOKEN_ALTERNATIVE_KEYWORD=61
+
+│ +// $ANTLR 2.7.7 (20060906): MetadataParser.g -> MetadataTokenTypes.txt$
+│ +Metadata    // output token vocab name
+│ +TOKEN_NUMBER=4
+│ +TOKEN_EQUALS=5
+│ +TOKEN_ID=6
+│ +TOKEN_VALUE=7
+│ +TOKEN_STRING=8
+│ +TOKEN_EVENT_KEYWORD=9
+│ +TOKEN_EFFECT_KEYWORD=10
+│ +TOKEN_STYLE_KEYWORD=11
+│ +TOKEN_ICONFILE_KEYWORD=12
+│ +TOKEN_ARRAYELEMENTTYPE_KEYWORD=13
+│ +TOKEN_DEFAULTPROPERTY_KEYWORD=14
+│ +TOKEN_BINDABLE_KEYWORD=15
+│ +TOKEN_INSTANCETYPE_KEYWORD=16
+│ +TOKEN_NONCOMMITTINGCHANGE_KEYWORD=17
+│ +TOKEN_EMBED_KEYWORD=18
+│ +TOKEN_INSPECTABLE_KEYWORD=19
+│ +TOKEN_NAME=20
+│ +TOKEN_OPEN_PAREN=21
+│ +TOKEN_CLOSE_PAREN=22
+│ +TOKEN_OPEN_BRACE=23
+│ +TOKEN_CLOSE_BRACE=24
+│ +TOKEN_UNKNOWN_KEYWORD=25
+│ +TOKEN_ATTR_NAME=26
+│ +TOKEN_ATTR_EVENT=27
+│ +TOKEN_ATTR_FORMAT=28
+│ +TOKEN_ATTR_TYPE=29
+│ +TOKEN_ATTR_ARRAY_TYPE=30
+│ +TOKEN_ATTR_INHERITS=31
+│ +TOKEN_ATTR_ENUM=32
+│ +TOKEN_ATTR_UNKNOWN=33
+│ +TOKEN_ATTR_ENV=34
+│ +TOKEN_ATTR_VERBOSE=35
+│ +TOKEN_ATTR_CATEGORY=36
+│ +TOKEN_ATTR_VARIABLE=37
+│ +TOKEN_ATTR_DEFAULT_VALUE=38
+│ +HIDDEN_TOKEN_NEWLINE=45
+│ +HIDDEN_TOKEN_LETTER=46
+│ +HIDDEN_TOKEN_DIGIT=47
+│ +HIDDEN_TOKEN_HEX_DIGIT=48
+│ +HIDDEN_TOKEN_ID_FIRST=49
+│ +TOKEN_ATTR_STATES=50
+│ +TOKEN_ATTR_IMPLEMENTATION=51
+│ +TOKEN_ACCESSIBILITY_KEYWORD=52
+│ +TOKEN_STATES_KEYWORD=53
+│ +TOKEN_SKIN_STATES_KEYWORD=54
+│ +TOKEN_ASDOC_COMMENT=55
+│ +TOKEN_HOST_COMPONENT_KEYWORD=56
+│ +TOKEN_RESOURCEBUNDLE_KEYWORD=59
+│ +TOKEN_SKINCLASS_KEYWORD=60
+│ +TOKEN_ALTERNATIVE_KEYWORD=61
+├── org/apache/royale/compiler/internal/parsing/as/RawASDocTokenizer.java
+│ @@ -1,8 +1,8 @@
+│ -/* The following code was generated by JFlex 1.4.3 on 5/7/20 3:21 PM */
+
+│ +/* The following code was generated by JFlex 1.4.3 on 9/19/21 10:56 AM */
+
+│  
+
+│  /*
+
+│   *
+
+│   *  Licensed to the Apache Software Foundation (ASF) under one or more
+
+│   *  contributor license agreements.  See the NOTICE file distributed with
+
+│   *  this work for additional information regarding copyright ownership.
+
+│   *  The ASF licenses this file to You under the Apache License, Version 2.0
+
+│ @@ -32,16 +32,16 @@
+│  
+
+│  @SuppressWarnings("all")
+
+│  
+
+│  
+
+│  /**
+
+│   * This class is a scanner generated by 
+
+│   * <a href="http://www.jflex.de/">JFlex</a> 1.4.3
+
+│ - * on 5/7/20 3:21 PM from the specification file
+
+│ - * <tt>C:/jenkins/workspace/Royale_Release_Step_003/target/checkout/compiler/src/main/jflex/org/apache/royale/compiler/internal/parsing/as/RawASDocTokenizer.lex</tt>
+
+│ + * on 9/19/21 10:56 AM from the specification file
+
+│ + * <tt>/var/maven/app/compiler/src/main/jflex/org/apache/royale/compiler/internal/parsing/as/RawASDocTokenizer.lex</tt>
+
+│   */
+
+│  class RawASDocTokenizer extends BaseRawTokenizer<ASDocToken> implements ASTokenTypes {
+
+│  /*
+
+│   *
+
+│   *  Licensed to the Apache Software Foundation (ASF) under one or more
+
+│   *  contributor license agreements.  See the NOTICE file distributed with
+
+│   *  this work for additional information regarding copyright ownership.
+├── org/apache/royale/compiler/internal/parsing/as/RawASTokenizer.java
+│ @@ -1,8 +1,8 @@
+│ -/* The following code was generated by JFlex 1.4.3 on 5/7/20 3:21 PM */
+
+│ +/* The following code was generated by JFlex 1.4.3 on 9/19/21 10:56 AM */
+
+│  
+
+│  /*
+
+│   *
+
+│   *  Licensed to the Apache Software Foundation (ASF) under one or more
+
+│   *  contributor license agreements.  See the NOTICE file distributed with
+
+│   *  this work for additional information regarding copyright ownership.
+
+│   *  The ASF licenses this file to You under the Apache License, Version 2.0
+
+│ @@ -34,16 +34,16 @@
+│  
+
+│  @SuppressWarnings("all")
+
+│  
+
+│  
+
+│  /**
+
+│   * This class is a scanner generated by 
+
+│   * <a href="http://www.jflex.de/">JFlex</a> 1.4.3
+
+│ - * on 5/7/20 3:21 PM from the specification file
+
+│ - * <tt>C:/jenkins/workspace/Royale_Release_Step_003/target/checkout/compiler/src/main/jflex/org/apache/royale/compiler/internal/parsing/as/RawASTokenizer.lex</tt>
+
+│ + * on 9/19/21 10:56 AM from the specification file
+
+│ + * <tt>/var/maven/app/compiler/src/main/jflex/org/apache/royale/compiler/internal/parsing/as/RawASTokenizer.lex</tt>
+
+│   */
+
+│  public final class RawASTokenizer extends BaseRawASTokenizer implements ASTokenTypes {
+
+│  /*
+
+│   *
+
+│   *  Licensed to the Apache Software Foundation (ASF) under one or more
+
+│   *  contributor license agreements.  See the NOTICE file distributed with
+
+│   *  this work for additional information regarding copyright ownership.
+├── org/apache/royale/compiler/internal/parsing/mxml/RawMXMLTokenizer.java
+│ @@ -1,8 +1,8 @@
+│ -/* The following code was generated by JFlex 1.4.3 on 5/7/20 3:21 PM */
+
+│ +/* The following code was generated by JFlex 1.4.3 on 9/19/21 10:56 AM */
+
+│  
+
+│  /*
+
+│   *
+
+│   *  Licensed to the Apache Software Foundation (ASF) under one or more
+
+│   *  contributor license agreements.  See the NOTICE file distributed with
+
+│   *  this work for additional information regarding copyright ownership.
+
+│   *  The ASF licenses this file to You under the Apache License, Version 2.0
+
+│ @@ -34,16 +34,16 @@
+│  
+
+│  @SuppressWarnings("all")
+
+│  
+
+│  
+
+│  /**
+
+│   * This class is a scanner generated by 
+
+│   * <a href="http://www.jflex.de/">JFlex</a> 1.4.3
+
+│ - * on 5/7/20 3:21 PM from the specification file
+
+│ - * <tt>C:/jenkins/workspace/Royale_Release_Step_003/target/checkout/compiler/src/main/jflex/org/apache/royale/compiler/internal/parsing/mxml/RawMXMLTokenizer.lex</tt>
+
+│ + * on 9/19/21 10:56 AM from the specification file
+
+│ + * <tt>/var/maven/app/compiler/src/main/jflex/org/apache/royale/compiler/internal/parsing/mxml/RawMXMLTokenizer.lex</tt>
+
+│   */
+
+│  class RawMXMLTokenizer extends BaseRawMXMLTokenizer {
+
+│  
+
+│    /** This character denotes the end of file */
+
+│    public static final int YYEOF = -1;
+
+│  
+
+│    /** initial size of the lookahead buffer */
+
+target/reference/debugger-0.9.7.jar debugger/target/debugger-0.9.7.jar
+--- target/reference/debugger-0.9.7.jar
++++ debugger/target/debugger-0.9.7.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 851187 bytes, number of entries: 383
+│ +Zip file size: 851101 bytes, number of entries: 383
+│  -rw-r--r--  2.0 unx      327 b- defN 00-Jan-01 00:00 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 META-INF/
+│  -rw-r--r--  2.0 unx    23664 b- defN 00-Jan-01 00:00 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 00-Jan-01 00:00 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      185 b- defN 00-Jan-01 00:00 META-INF/NOTICE
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 00-Jan-01 00:00 META-INF/maven/org.apache.royale.compiler/
+│ @@ -372,14 +372,14 @@
+│  -rw-r--r--  2.0 unx    27656 b- defN 00-Jan-01 00:00 royale/tools/debugger/cli/fdbhelp_en.txt
+│  -rw-r--r--  2.0 unx    32438 b- defN 00-Jan-01 00:00 royale/tools/debugger/cli/fdbhelp_es.txt
+│  -rw-r--r--  2.0 unx    31374 b- defN 00-Jan-01 00:00 royale/tools/debugger/cli/fdbhelp_fi.txt
+│  -rw-r--r--  2.0 unx    35521 b- defN 00-Jan-01 00:00 royale/tools/debugger/cli/fdbhelp_fr.txt
+│  -rw-r--r--  2.0 unx    34531 b- defN 00-Jan-01 00:00 royale/tools/debugger/cli/fdbhelp_it.txt
+│  -rw-r--r--  2.0 unx    35793 b- defN 00-Jan-01 00:00 royale/tools/debugger/cli/fdbhelp_ja.txt
+│  -rw-r--r--  2.0 unx    34153 b- defN 00-Jan-01 00:00 royale/tools/debugger/cli/fdbhelp_ko_KR.txt
+│ --rw-r--r--  2.0 unx    35171 b- defN 00-Jan-01 00:00 royale/tools/debugger/cli/fdbhelp_nl.txt
+│ +-rw-r--r--  2.0 unx    33417 b- defN 00-Jan-01 00:00 royale/tools/debugger/cli/fdbhelp_nl.txt
+│  -rw-r--r--  2.0 unx    29624 b- defN 00-Jan-01 00:00 royale/tools/debugger/cli/fdbhelp_no.txt
+│  -rw-r--r--  2.0 unx    49805 b- defN 00-Jan-01 00:00 royale/tools/debugger/cli/fdbhelp_ru.txt
+│  -rw-r--r--  2.0 unx    31873 b- defN 00-Jan-01 00:00 royale/tools/debugger/cli/fdbhelp_se.txt
+│  -rw-r--r--  2.0 unx    27608 b- defN 00-Jan-01 00:00 royale/tools/debugger/cli/fdbhelp_zh_CN.txt
+│  -rw-r--r--  2.0 unx    28135 b- defN 00-Jan-01 00:00 royale/tools/debugger/cli/fdbhelp_zh_TW.txt
+│ -383 files, 2117163 bytes uncompressed, 779633 bytes compressed:  63.2%
+│ +383 files, 2115409 bytes uncompressed, 779547 bytes compressed:  63.2%
+├── royale/tools/debugger/cli/fdbhelp_nl.txt
+│ @@ -1,2199 +1,2089 @@
+│ -00000000: 0d0a 2020 2020 2020 4c69 6365 6e73 6564  ..      Licensed
+│ -00000010: 2074 6f20 7468 6520 4170 6163 6865 2053   to the Apache S
+│ -00000020: 6f66 7477 6172 6520 466f 756e 6461 7469  oftware Foundati
+│ -00000030: 6f6e 2028 4153 4629 2075 6e64 6572 206f  on (ASF) under o
+│ -00000040: 6e65 206f 7220 6d6f 7265 0d0a 2020 2020  ne or more..    
+│ -00000050: 2020 636f 6e74 7269 6275 746f 7220 6c69    contributor li
+│ -00000060: 6365 6e73 6520 6167 7265 656d 656e 7473  cense agreements
+│ -00000070: 2e20 2053 6565 2074 6865 204e 4f54 4943  .  See the NOTIC
+│ -00000080: 4520 6669 6c65 2064 6973 7472 6962 7574  E file distribut
+│ -00000090: 6564 2077 6974 680d 0a20 2020 2020 2074  ed with..      t
+...
+│ +00000000: 0a20 2020 2020 204c 6963 656e 7365 6420  .      Licensed 
+│ +00000010: 746f 2074 6865 2041 7061 6368 6520 536f  to the Apache So
+│ +00000020: 6674 7761 7265 2046 6f75 6e64 6174 696f  ftware Foundatio
+│ +00000030: 6e20 2841 5346 2920 756e 6465 7220 6f6e  n (ASF) under on
+│ +00000040: 6520 6f72 206d 6f72 650a 2020 2020 2020  e or more.      
+│ +00000050: 636f 6e74 7269 6275 746f 7220 6c69 6365  contributor lice
+│ +00000060: 6e73 6520 6167 7265 656d 656e 7473 2e20  nse agreements. 
+│ +00000070: 2053 6565 2074 6865 204e 4f54 4943 4520   See the NOTICE 
+│ +00000080: 6669 6c65 2064 6973 7472 6962 7574 6564  file distributed
+│ +00000090: 2077 6974 680a 2020 2020 2020 7468 6973   with.      this
+...
