@@ -1,0 +1,37 @@
+version=1.1.4
+ok=2
+ko=30
+okFiles="org.apache.aries.cdi-1.1.4-source-release.zip feature.xml"
+koFiles="org.apache.aries.cdi.build.tools-1.1.4.jar org.apache.aries.cdi.build.tools-1.1.4-sources.jar org.apache.aries.cdi.extra-1.1.4.jar org.apache.aries.cdi.extra-1.1.4-sources.jar org.apache.aries.cdi.spi-1.1.4.jar org.apache.aries.cdi.spi-1.1.4-sources.jar org.apache.aries.cdi.extension.spi-1.1.4.jar org.apache.aries.cdi.extension.spi-1.1.4-sources.jar org.apache.aries.cdi.extender-1.1.4.jar org.apache.aries.cdi.extender-1.1.4-sources.jar org.apache.aries.cdi.extension.el.jsp-1.1.4.jar org.apache.aries.cdi.extension.el.jsp-1.1.4-sources.jar org.apache.aries.cdi.extension.jaxrs-1.1.4.jar org.apache.aries.cdi.extension.jaxrs-1.1.4-sources.jar org.apache.aries.cdi.extension.jndi-1.1.4.jar org.apache.aries.cdi.extension.jndi-1.1.4-sources.jar org.apache.aries.cdi.extension.servlet.common-1.1.4.jar org.apache.aries.cdi.extension.servlet.common-1.1.4-sources.jar org.apache.aries.cdi.owb-1.1.4.jar org.apache.aries.cdi.owb-1.1.4-sources.jar org.apache.aries.cdi.extension.servlet.owb-1.1.4.jar org.apache.aries.cdi.extension.servlet.owb-1.1.4-sources.jar org.apache.aries.cdi.extension.servlet.weld-1.1.4.jar org.apache.aries.cdi.extension.servlet.weld-1.1.4-sources.jar org.apache.aries.cdi.weld-1.1.4.jar org.apache.aries.cdi.weld-1.1.4-sources.jar owb-executable.jar weld-executable.jar org.apache.aries.cdi.itests-1.1.4.jar org.apache.aries.cdi.itests-1.1.4-sources.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.aries.cdi.build.tools-1.1.4.jar cdi-build-tools/target/org.apache.aries.cdi.build.tools-1.1.4.jar
+# diffoscope target/reference/org.apache.aries.cdi.build.tools-1.1.4-sources.jar cdi-build-tools/target/org.apache.aries.cdi.build.tools-1.1.4-sources.jar
+# diffoscope target/reference/org.apache.aries.cdi.extra-1.1.4.jar cdi-extra/target/org.apache.aries.cdi.extra-1.1.4.jar
+# diffoscope target/reference/org.apache.aries.cdi.extra-1.1.4-sources.jar cdi-extra/target/org.apache.aries.cdi.extra-1.1.4-sources.jar
+# diffoscope target/reference/org.apache.aries.cdi.spi-1.1.4.jar cdi-spi/target/org.apache.aries.cdi.spi-1.1.4.jar
+# diffoscope target/reference/org.apache.aries.cdi.spi-1.1.4-sources.jar cdi-spi/target/org.apache.aries.cdi.spi-1.1.4-sources.jar
+# diffoscope target/reference/org.apache.aries.cdi.extension.spi-1.1.4.jar cdi-extension-spi/target/org.apache.aries.cdi.extension.spi-1.1.4.jar
+# diffoscope target/reference/org.apache.aries.cdi.extension.spi-1.1.4-sources.jar cdi-extension-spi/target/org.apache.aries.cdi.extension.spi-1.1.4-sources.jar
+# diffoscope target/reference/org.apache.aries.cdi.extender-1.1.4.jar cdi-extender/target/org.apache.aries.cdi.extender-1.1.4.jar
+# diffoscope target/reference/org.apache.aries.cdi.extender-1.1.4-sources.jar cdi-extender/target/org.apache.aries.cdi.extender-1.1.4-sources.jar
+# diffoscope target/reference/org.apache.aries.cdi.extension.el.jsp-1.1.4.jar cdi-extension-el-jsp/target/org.apache.aries.cdi.extension.el.jsp-1.1.4.jar
+# diffoscope target/reference/org.apache.aries.cdi.extension.el.jsp-1.1.4-sources.jar cdi-extension-el-jsp/target/org.apache.aries.cdi.extension.el.jsp-1.1.4-sources.jar
+# diffoscope target/reference/org.apache.aries.cdi.extension.jaxrs-1.1.4.jar cdi-extension-jaxrs/target/org.apache.aries.cdi.extension.jaxrs-1.1.4.jar
+# diffoscope target/reference/org.apache.aries.cdi.extension.jaxrs-1.1.4-sources.jar cdi-extension-jaxrs/target/org.apache.aries.cdi.extension.jaxrs-1.1.4-sources.jar
+# diffoscope target/reference/org.apache.aries.cdi.extension.jndi-1.1.4.jar cdi-extension-jndi/target/org.apache.aries.cdi.extension.jndi-1.1.4.jar
+# diffoscope target/reference/org.apache.aries.cdi.extension.jndi-1.1.4-sources.jar cdi-extension-jndi/target/org.apache.aries.cdi.extension.jndi-1.1.4-sources.jar
+# diffoscope target/reference/org.apache.aries.cdi.extension.servlet.common-1.1.4.jar cdi-extension-servlet-common/target/org.apache.aries.cdi.extension.servlet.common-1.1.4.jar
+# diffoscope target/reference/org.apache.aries.cdi.extension.servlet.common-1.1.4-sources.jar cdi-extension-servlet-common/target/org.apache.aries.cdi.extension.servlet.common-1.1.4-sources.jar
+# diffoscope target/reference/org.apache.aries.cdi.owb-1.1.4.jar cdi-owb/target/org.apache.aries.cdi.owb-1.1.4.jar
+# diffoscope target/reference/org.apache.aries.cdi.owb-1.1.4-sources.jar cdi-owb/target/org.apache.aries.cdi.owb-1.1.4-sources.jar
+# diffoscope target/reference/org.apache.aries.cdi.extension.servlet.owb-1.1.4.jar cdi-extension-servlet-owb/target/org.apache.aries.cdi.extension.servlet.owb-1.1.4.jar
+# diffoscope target/reference/org.apache.aries.cdi.extension.servlet.owb-1.1.4-sources.jar cdi-extension-servlet-owb/target/org.apache.aries.cdi.extension.servlet.owb-1.1.4-sources.jar
+# diffoscope target/reference/org.apache.aries.cdi.extension.servlet.weld-1.1.4.jar cdi-extension-servlet-weld/target/org.apache.aries.cdi.extension.servlet.weld-1.1.4.jar
+# diffoscope target/reference/org.apache.aries.cdi.extension.servlet.weld-1.1.4-sources.jar cdi-extension-servlet-weld/target/org.apache.aries.cdi.extension.servlet.weld-1.1.4-sources.jar
+# diffoscope target/reference/org.apache.aries.cdi.weld-1.1.4.jar cdi-weld/target/org.apache.aries.cdi.weld-1.1.4.jar
+# diffoscope target/reference/org.apache.aries.cdi.weld-1.1.4-sources.jar cdi-weld/target/org.apache.aries.cdi.weld-1.1.4-sources.jar
+# diffoscope target/reference/org.apache.aries.cdi.executable-1.1.4-owb-executable.jar cdi-executable/target/owb-executable.jar
+# diffoscope target/reference/org.apache.aries.cdi.executable-1.1.4-weld-executable.jar cdi-executable/target/weld-executable.jar
+# diffoscope target/reference/org.apache.aries.cdi.itests-1.1.4.jar cdi-itests/target/org.apache.aries.cdi.itests-1.1.4.jar
+# diffoscope target/reference/org.apache.aries.cdi.itests-1.1.4-sources.jar cdi-itests/target/org.apache.aries.cdi.itests-1.1.4-sources.jar

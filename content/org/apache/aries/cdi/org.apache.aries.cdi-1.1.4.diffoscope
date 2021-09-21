@@ -1,0 +1,1196 @@
+target/reference/org.apache.aries.cdi.build.tools-1.1.4.jar cdi-build-tools/target/org.apache.aries.cdi.build.tools-1.1.4.jar
+/srv/diffoscope/bin/diffoscope: target/reference/org.apache.aries.cdi.build.tools-1.1.4.jar: No such file or directory
+
+target/reference/org.apache.aries.cdi.build.tools-1.1.4-sources.jar cdi-build-tools/target/org.apache.aries.cdi.build.tools-1.1.4-sources.jar
+/srv/diffoscope/bin/diffoscope: target/reference/org.apache.aries.cdi.build.tools-1.1.4-sources.jar: No such file or directory
+
+target/reference/org.apache.aries.cdi.extra-1.1.4.jar cdi-extra/target/org.apache.aries.cdi.extra-1.1.4.jar
+--- target/reference/org.apache.aries.cdi.extra-1.1.4.jar
++++ cdi-extra/target/org.apache.aries.cdi.extra-1.1.4.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 60593 bytes, number of entries: 96
+│ +Zip file size: 60592 bytes, number of entries: 96
+│  -rw-r--r--  2.0 unx     1710 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 aQute/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 aQute/bnd/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 aQute/bnd/annotation/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│ @@ -91,8 +91,8 @@
+│  -rw-r--r--  2.0 unx     1023 b- defN 80-000-00 04:08 org/apache/aries/cdi/extra/propertytypes/ServiceRanking$Literal.class
+│  -rw-r--r--  2.0 unx      646 b- defN 80-000-00 04:08 org/apache/aries/cdi/extra/propertytypes/ServiceRanking.class
+│  -rw-r--r--  2.0 unx     1084 b- defN 80-000-00 04:08 org/apache/aries/cdi/extra/propertytypes/ServiceVendor$Literal.class
+│  -rw-r--r--  2.0 unx      660 b- defN 80-000-00 04:08 org/apache/aries/cdi/extra/propertytypes/ServiceVendor.class
+│  -rw-r--r--  2.0 unx      294 b- defN 80-000-00 04:08 org/apache/aries/cdi/extra/propertytypes/package-info.class
+│  -rw-r--r--  2.0 unx     3957 b- defN 80-000-00 04:08 META-INF/maven/org.apache.aries.cdi/org.apache.aries.cdi.extra/pom.xml
+│  -rw-r--r--  2.0 unx       81 b- defN 80-000-00 04:08 META-INF/maven/org.apache.aries.cdi/org.apache.aries.cdi.extra/pom.properties
+│ -96 files, 90739 bytes uncompressed, 41999 bytes compressed:  53.7%
+│ +96 files, 90739 bytes uncompressed, 41998 bytes compressed:  53.7%
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Aries CDI - Extra Annotations
+│ -Copyright 1969 The Apache Software Foundation
+│ +Copyright 1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+
+target/reference/org.apache.aries.cdi.extra-1.1.4-sources.jar cdi-extra/target/org.apache.aries.cdi.extra-1.1.4-sources.jar
+--- target/reference/org.apache.aries.cdi.extra-1.1.4-sources.jar
++++ cdi-extra/target/org.apache.aries.cdi.extra-1.1.4-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 51531 bytes, number of entries: 52
+│ +Zip file size: 51530 bytes, number of entries: 52
+│  -rw-r--r--  2.0 unx       64 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/cdi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/cdi/extra/
+│ @@ -47,8 +47,8 @@
+│  -rw-r--r--  2.0 unx     2366 b- defN 80-000-00 04:08 org/apache/aries/cdi/extra/propertytypes/JaxrsWhiteboardTarget.java
+│  -rw-r--r--  2.0 unx     2124 b- defN 80-000-00 04:08 org/apache/aries/cdi/extra/propertytypes/ServiceDescription.java
+│  -rw-r--r--  2.0 unx     2080 b- defN 80-000-00 04:08 org/apache/aries/cdi/extra/propertytypes/ServiceRanking.java
+│  -rw-r--r--  2.0 unx     2087 b- defN 80-000-00 04:08 org/apache/aries/cdi/extra/propertytypes/ServiceVendor.java
+│  -rw-r--r--  2.0 unx      760 b- defN 80-000-00 04:08 org/apache/aries/cdi/extra/propertytypes/package-info.java
+│  -rw-r--r--  2.0 unx     3957 b- defN 80-000-00 04:08 META-INF/maven/org.apache.aries.cdi/org.apache.aries.cdi.extra/pom.xml
+│  -rw-r--r--  2.0 unx       81 b- defN 80-000-00 04:08 META-INF/maven/org.apache.aries.cdi/org.apache.aries.cdi.extra/pom.properties
+│ -52 files, 106617 bytes uncompressed, 41943 bytes compressed:  60.7%
+│ +52 files, 106617 bytes uncompressed, 41942 bytes compressed:  60.7%
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Aries CDI - Extra Annotations
+│ -Copyright 1969 The Apache Software Foundation
+│ +Copyright 1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+
+target/reference/org.apache.aries.cdi.spi-1.1.4.jar cdi-spi/target/org.apache.aries.cdi.spi-1.1.4.jar
+--- target/reference/org.apache.aries.cdi.spi-1.1.4.jar
++++ cdi-spi/target/org.apache.aries.cdi.spi-1.1.4.jar
+├── zipinfo -v {}
+│ @@ -422,15 +422,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          1980 000 0 04:08:00
+│ -  32-bit CRC value (hex):                         cb738e95
+│ +  32-bit CRC value (hex):                         1cd08acf
+│    compressed size:                                125 bytes
+│    uncompressed size:                              174 bytes
+│    length of filename:                             15 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Aries CDI - SPI
+│ -Copyright 1969 The Apache Software Foundation
+│ +Copyright 1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+
+target/reference/org.apache.aries.cdi.spi-1.1.4-sources.jar cdi-spi/target/org.apache.aries.cdi.spi-1.1.4-sources.jar
+--- target/reference/org.apache.aries.cdi.spi-1.1.4-sources.jar
++++ cdi-spi/target/org.apache.aries.cdi.spi-1.1.4-sources.jar
+├── zipinfo -v {}
+│ @@ -422,15 +422,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          1980 000 0 04:08:00
+│ -  32-bit CRC value (hex):                         cb738e95
+│ +  32-bit CRC value (hex):                         1cd08acf
+│    compressed size:                                125 bytes
+│    uncompressed size:                              174 bytes
+│    length of filename:                             15 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Aries CDI - SPI
+│ -Copyright 1969 The Apache Software Foundation
+│ +Copyright 1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+
+target/reference/org.apache.aries.cdi.extension.spi-1.1.4.jar cdi-extension-spi/target/org.apache.aries.cdi.extension.spi-1.1.4.jar
+--- target/reference/org.apache.aries.cdi.extension.spi-1.1.4.jar
++++ cdi-extension-spi/target/org.apache.aries.cdi.extension.spi-1.1.4.jar
+├── zipinfo -v {}
+│ @@ -450,15 +450,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          1980 000 0 04:08:00
+│ -  32-bit CRC value (hex):                         231212aa
+│ +  32-bit CRC value (hex):                         f4b116f0
+│    compressed size:                                147 bytes
+│    uncompressed size:                              206 bytes
+│    length of filename:                             15 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Aries CDI - SPI classes for Portable Extensions
+│ -Copyright 1969 The Apache Software Foundation
+│ +Copyright 1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+
+target/reference/org.apache.aries.cdi.extension.spi-1.1.4-sources.jar cdi-extension-spi/target/org.apache.aries.cdi.extension.spi-1.1.4-sources.jar
+--- target/reference/org.apache.aries.cdi.extension.spi-1.1.4-sources.jar
++++ cdi-extension-spi/target/org.apache.aries.cdi.extension.spi-1.1.4-sources.jar
+├── zipinfo -v {}
+│ @@ -450,15 +450,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          1980 000 0 04:08:00
+│ -  32-bit CRC value (hex):                         231212aa
+│ +  32-bit CRC value (hex):                         f4b116f0
+│    compressed size:                                147 bytes
+│    uncompressed size:                              206 bytes
+│    length of filename:                             15 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Aries CDI - SPI classes for Portable Extensions
+│ -Copyright 1969 The Apache Software Foundation
+│ +Copyright 1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+
+target/reference/org.apache.aries.cdi.extender-1.1.4.jar cdi-extender/target/org.apache.aries.cdi.extender-1.1.4.jar
+--- target/reference/org.apache.aries.cdi.extender-1.1.4.jar
++++ cdi-extender/target/org.apache.aries.cdi.extender-1.1.4.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 306070 bytes, number of entries: 180
+│ +Zip file size: 306074 bytes, number of entries: 180
+│  -rw-r--r--  2.0 unx     5708 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 aQute/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 aQute/lib/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 aQute/lib/exceptions/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│ @@ -175,8 +175,8 @@
+│  -rw-r--r--  2.0 unx     1301 b- defN 80-000-00 04:08 org/apache/felix/utils/extender/AbstractExtender$1.class
+│  -rw-r--r--  2.0 unx     2094 b- defN 80-000-00 04:08 org/apache/felix/utils/extender/AbstractExtender$2.class
+│  -rw-r--r--  2.0 unx     9191 b- defN 80-000-00 04:08 org/apache/felix/utils/extender/AbstractExtender.class
+│  -rw-r--r--  2.0 unx      229 b- defN 80-000-00 04:08 org/apache/felix/utils/extender/Extension.class
+│  -rw-r--r--  2.0 unx     1714 b- defN 80-000-00 04:08 org/apache/felix/utils/extender/SimpleExtension.class
+│  -rw-r--r--  2.0 unx     6654 b- defN 80-000-00 04:08 META-INF/maven/org.apache.aries.cdi/org.apache.aries.cdi.extender/pom.xml
+│  -rw-r--r--  2.0 unx       84 b- defN 80-000-00 04:08 META-INF/maven/org.apache.aries.cdi/org.apache.aries.cdi.extender/pom.properties
+│ -180 files, 778735 bytes uncompressed, 270404 bytes compressed:  65.3%
+│ +180 files, 778735 bytes uncompressed, 270408 bytes compressed:  65.3%
+├── META-INF/MANIFEST.MF
+│ @@ -35,20 +35,20 @@
+│   version="[1.4,2)",org.osgi.util.converter;version="[1.0,2)",org.osgi.
+│   util.function;version="[1.1,2)",org.osgi.util.promise;version="[1.1,2
+│   )",org.osgi.util.tracker;version="[1.5,2)",org.w3c.dom
+│  Require-Capability: osgi.extender;filter:="(osgi.extender=osgi.service
+│   loader.registrar)",osgi.implementation;filter:="(&(osgi.implementatio
+│   n=osgi.cm)(version>=1.6.0)(!(version>=2.0.0)))",osgi.service;filter:=
+│   "(objectClass=org.apache.aries.cdi.spi.CDIContainerInitializer)";effe
+│ - ctive:=active,osgi.contract;osgi.contract=JavaInterceptor;filter:="(&
+│ - (osgi.contract=JavaInterceptor)(version=1.2.0))",osgi.contract;osgi.c
+│ - ontract=JavaCDI;filter:="(&(osgi.contract=JavaCDI)(version=2.0.0))",o
+│ - sgi.contract;osgi.contract=JavaAnnotation;filter:="(&(osgi.contract=J
+│ - avaAnnotation)(version=1.3.0))",osgi.contract;osgi.contract=JavaInjec
+│ - t;filter:="(&(osgi.contract=JavaInject)(version=1.0.0))",osgi.ee;filt
+│ + ctive:=active,osgi.contract;osgi.contract=JavaAnnotation;filter:="(&(
+│ + osgi.contract=JavaAnnotation)(version=1.3.0))",osgi.contract;osgi.con
+│ + tract=JavaCDI;filter:="(&(osgi.contract=JavaCDI)(version=2.0.0))",osg
+│ + i.contract;osgi.contract=JavaInject;filter:="(&(osgi.contract=JavaInj
+│ + ect)(version=1.0.0))",osgi.contract;osgi.contract=JavaInterceptor;fil
+│ + ter:="(&(osgi.contract=JavaInterceptor)(version=1.2.0))",osgi.ee;filt
+│   er:="(&(osgi.ee=JavaSE)(version=1.8))"
+│  Implementation-Vendor: The Apache Software Foundation
+│  Provide-Capability: osgi.extender;osgi.extender="osgi.cdi";version:Ver
+│   sion="1.0.0";uses:="org.osgi.service.cdi,org.osgi.service.cdi.annotat
+│   ions,org.osgi.service.cdi.reference,org.osgi.service.cdi.runtime,org.
+│   osgi.service.cdi.runtime.dto,org.osgi.service.cdi.runtime.dto.templat
+│   e",osgi.implementation;osgi.implementation="osgi.cdi";version:Version
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Aries CDI - CDI Component Runtime (CCR)
+│ -Copyright 1969 The Apache Software Foundation
+│ +Copyright 1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+
+target/reference/org.apache.aries.cdi.extender-1.1.4-sources.jar cdi-extender/target/org.apache.aries.cdi.extender-1.1.4-sources.jar
+--- target/reference/org.apache.aries.cdi.extender-1.1.4-sources.jar
++++ cdi-extender/target/org.apache.aries.cdi.extender-1.1.4-sources.jar
+├── zipinfo -v {}
+│ @@ -646,15 +646,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          1980 000 0 04:08:00
+│ -  32-bit CRC value (hex):                         8c81c13b
+│ +  32-bit CRC value (hex):                         5b22c561
+│    compressed size:                                141 bytes
+│    uncompressed size:                              198 bytes
+│    length of filename:                             15 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Aries CDI - CDI Component Runtime (CCR)
+│ -Copyright 1969 The Apache Software Foundation
+│ +Copyright 1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+
+target/reference/org.apache.aries.cdi.extension.el.jsp-1.1.4.jar cdi-extension-el-jsp/target/org.apache.aries.cdi.extension.el.jsp-1.1.4.jar
+--- target/reference/org.apache.aries.cdi.extension.el.jsp-1.1.4.jar
++++ cdi-extension-el-jsp/target/org.apache.aries.cdi.extension.el.jsp-1.1.4.jar
+├── zipinfo -v {}
+│ @@ -27,16 +27,16 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          1980 000 0 04:08:00
+│ -  32-bit CRC value (hex):                         230e6c8e
+│ -  compressed size:                                891 bytes
+│ +  32-bit CRC value (hex):                         19ade687
+│ +  compressed size:                                892 bytes
+│    uncompressed size:                              2528 bytes
+│    length of filename:                             20 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (100644 octal):            -rw-r--r--
+│ @@ -45,16 +45,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #2:
+│  ---------------------------
+│  
+│    META-INF/
+│  
+│ -  offset of local header from start of archive:   941
+│ -                                                  (00000000000003ADh) bytes
+│ +  offset of local header from start of archive:   942
+│ +                                                  (00000000000003AEh) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   1.0
+│    compression method:                             none (stored)
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│ @@ -73,16 +73,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #3:
+│  ---------------------------
+│  
+│    org/
+│  
+│ -  offset of local header from start of archive:   980
+│ -                                                  (00000000000003D4h) bytes
+│ +  offset of local header from start of archive:   981
+│ +                                                  (00000000000003D5h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   1.0
+│    compression method:                             none (stored)
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│ @@ -101,16 +101,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #4:
+│  ---------------------------
+│  
+│    org/apache/
+│  
+│ -  offset of local header from start of archive:   1014
+│ -                                                  (00000000000003F6h) bytes
+│ +  offset of local header from start of archive:   1015
+│ +                                                  (00000000000003F7h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   1.0
+│    compression method:                             none (stored)
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│ @@ -129,16 +129,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #5:
+│  ---------------------------
+│  
+│    org/apache/aries/
+│  
+│ -  offset of local header from start of archive:   1055
+│ -                                                  (000000000000041Fh) bytes
+│ +  offset of local header from start of archive:   1056
+│ +                                                  (0000000000000420h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   1.0
+│    compression method:                             none (stored)
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│ @@ -157,16 +157,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #6:
+│  ---------------------------
+│  
+│    org/apache/aries/cdi/
+│  
+│ -  offset of local header from start of archive:   1102
+│ -                                                  (000000000000044Eh) bytes
+│ +  offset of local header from start of archive:   1103
+│ +                                                  (000000000000044Fh) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   1.0
+│    compression method:                             none (stored)
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│ @@ -185,16 +185,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #7:
+│  ---------------------------
+│  
+│    org/apache/aries/cdi/extension/
+│  
+│ -  offset of local header from start of archive:   1153
+│ -                                                  (0000000000000481h) bytes
+│ +  offset of local header from start of archive:   1154
+│ +                                                  (0000000000000482h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   1.0
+│    compression method:                             none (stored)
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│ @@ -213,16 +213,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #8:
+│  ---------------------------
+│  
+│    org/apache/aries/cdi/extension/el/
+│  
+│ -  offset of local header from start of archive:   1214
+│ -                                                  (00000000000004BEh) bytes
+│ +  offset of local header from start of archive:   1215
+│ +                                                  (00000000000004BFh) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   1.0
+│    compression method:                             none (stored)
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│ @@ -241,16 +241,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #9:
+│  ---------------------------
+│  
+│    org/apache/aries/cdi/extension/el/jsp/
+│  
+│ -  offset of local header from start of archive:   1278
+│ -                                                  (00000000000004FEh) bytes
+│ +  offset of local header from start of archive:   1279
+│ +                                                  (00000000000004FFh) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   1.0
+│    compression method:                             none (stored)
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│ @@ -269,16 +269,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #10:
+│  ---------------------------
+│  
+│    META-INF/maven/
+│  
+│ -  offset of local header from start of archive:   1346
+│ -                                                  (0000000000000542h) bytes
+│ +  offset of local header from start of archive:   1347
+│ +                                                  (0000000000000543h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   1.0
+│    compression method:                             none (stored)
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│ @@ -297,16 +297,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #11:
+│  ---------------------------
+│  
+│    META-INF/maven/org.apache.aries.cdi/
+│  
+│ -  offset of local header from start of archive:   1391
+│ -                                                  (000000000000056Fh) bytes
+│ +  offset of local header from start of archive:   1392
+│ +                                                  (0000000000000570h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   1.0
+│    compression method:                             none (stored)
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│ @@ -325,16 +325,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #12:
+│  ---------------------------
+│  
+│    META-INF/maven/org.apache.aries.cdi/org.apache.aries.cdi.extension.el.jsp/
+│  
+│ -  offset of local header from start of archive:   1457
+│ -                                                  (00000000000005B1h) bytes
+│ +  offset of local header from start of archive:   1458
+│ +                                                  (00000000000005B2h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   1.0
+│    compression method:                             none (stored)
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│ @@ -353,16 +353,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #13:
+│  ---------------------------
+│  
+│    META-INF/DEPENDENCIES
+│  
+│ -  offset of local header from start of archive:   1561
+│ -                                                  (0000000000000619h) bytes
+│ +  offset of local header from start of archive:   1562
+│ +                                                  (000000000000061Ah) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│ @@ -382,16 +382,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #14:
+│  ---------------------------
+│  
+│    META-INF/LICENSE
+│  
+│ -  offset of local header from start of archive:   2790
+│ -                                                  (0000000000000AE6h) bytes
+│ +  offset of local header from start of archive:   2791
+│ +                                                  (0000000000000AE7h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│ @@ -411,27 +411,27 @@
+│    There is no file comment.
+│  
+│  Central directory entry #15:
+│  ---------------------------
+│  
+│    META-INF/NOTICE
+│  
+│ -  offset of local header from start of archive:   6785
+│ -                                                  (0000000000001A81h) bytes
+│ +  offset of local header from start of archive:   6786
+│ +                                                  (0000000000001A82h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          1980 000 0 04:08:00
+│ -  32-bit CRC value (hex):                         4c0d86c9
+│ -  compressed size:                                136 bytes
+│ +  32-bit CRC value (hex):                         9bae8293
+│ +  compressed size:                                135 bytes
+│    uncompressed size:                              187 bytes
+│    length of filename:                             15 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (100644 octal):            -rw-r--r--
+├── META-INF/MANIFEST.MF
+│ @@ -18,17 +18,17 @@
+│  Require-Capability: osgi.contract;filter:="(&(osgi.contract=JavaJSP)(v
+│   ersion=2.0))";osgi.contract=JavaJSP,osgi.implementation;filter:="(&(o
+│   sgi.implementation=osgi.cdi)(version>=1.0.0)(!(version>=2.0.0)))",osg
+│   i.implementation;filter:="(&(osgi.implementation=osgi.http)(version>=
+│   1.0.0)(!(version>=2.0.0)))",osgi.contract;osgi.contract=JavaServlet;f
+│   ilter:="(&(osgi.contract=JavaServlet)(version=3.1.0))",osgi.contract;
+│   osgi.contract=JavaEL;filter:="(&(osgi.contract=JavaEL)(version=2.2.0)
+│ - )",osgi.contract;osgi.contract=JavaCDI;filter:="(&(osgi.contract=Java
+│ - CDI)(version=2.0.0))",osgi.contract;osgi.contract=JavaAnnotation;filt
+│ - er:="(&(osgi.contract=JavaAnnotation)(version=1.3.0))",osgi.ee;filter
+│ + )",osgi.contract;osgi.contract=JavaAnnotation;filter:="(&(osgi.contra
+│ + ct=JavaAnnotation)(version=1.3.0))",osgi.contract;osgi.contract=JavaC
+│ + DI;filter:="(&(osgi.contract=JavaCDI)(version=2.0.0))",osgi.ee;filter
+│   :="(&(osgi.ee=JavaSE)(version=1.8))"
+│  Implementation-Vendor: The Apache Software Foundation
+│  Provide-Capability: osgi.cdi.extension;osgi.cdi.extension="aries.cdi.e
+│   l.jsp";version:Version="1.0.0";uses:="javax.annotation,javax.el,javax
+│   .enterprise.event,javax.enterprise.inject.spi,javax.servlet,javax.ser
+│   vlet.jsp",osgi.service;objectClass:List<String>="javax.enterprise.inj
+│   ect.spi.Extension"
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Aries CDI - EL-JSP Extension
+│ -Copyright 1969 The Apache Software Foundation
+│ +Copyright 1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+
+target/reference/org.apache.aries.cdi.extension.el.jsp-1.1.4-sources.jar cdi-extension-el-jsp/target/org.apache.aries.cdi.extension.el.jsp-1.1.4-sources.jar
+--- target/reference/org.apache.aries.cdi.extension.el.jsp-1.1.4-sources.jar
++++ cdi-extension-el-jsp/target/org.apache.aries.cdi.extension.el.jsp-1.1.4-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 14520 bytes, number of entries: 22
+│ +Zip file size: 14519 bytes, number of entries: 22
+│  -rw-r--r--  2.0 unx       64 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/cdi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/cdi/extension/
+│ @@ -17,8 +17,8 @@
+│  -rw-r--r--  2.0 unx      689 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/el/jsp/Constants.java
+│  -rw-r--r--  2.0 unx     1896 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/el/jsp/ELJSPActivator.java
+│  -rw-r--r--  2.0 unx     5576 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/el/jsp/ELJSPExtension.java
+│  -rw-r--r--  2.0 unx     1150 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/el/jsp/ELJSPExtensionFactory.java
+│  -rw-r--r--  2.0 unx     1913 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/el/jsp/package-info.java
+│  -rw-r--r--  2.0 unx     4701 b- defN 80-000-00 04:08 META-INF/maven/org.apache.aries.cdi/org.apache.aries.cdi.extension.el.jsp/pom.xml
+│  -rw-r--r--  2.0 unx       92 b- defN 80-000-00 04:08 META-INF/maven/org.apache.aries.cdi/org.apache.aries.cdi.extension.el.jsp/pom.properties
+│ -22 files, 33041 bytes uncompressed, 11194 bytes compressed:  66.1%
+│ +22 files, 33041 bytes uncompressed, 11193 bytes compressed:  66.1%
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Aries CDI - EL-JSP Extension
+│ -Copyright 1969 The Apache Software Foundation
+│ +Copyright 1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+
+target/reference/org.apache.aries.cdi.extension.jaxrs-1.1.4.jar cdi-extension-jaxrs/target/org.apache.aries.cdi.extension.jaxrs-1.1.4.jar
+--- target/reference/org.apache.aries.cdi.extension.jaxrs-1.1.4.jar
++++ cdi-extension-jaxrs/target/org.apache.aries.cdi.extension.jaxrs-1.1.4.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 17375 bytes, number of entries: 21
+│ +Zip file size: 17371 bytes, number of entries: 21
+│  -rw-r--r--  2.0 unx     2675 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/cdi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/cdi/extension/
+│ @@ -16,8 +16,8 @@
+│  -rw-r--r--  2.0 unx     1974 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/jaxrs/JaxrsActivator.class
+│  -rw-r--r--  2.0 unx    12225 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/jaxrs/JaxrsCDIExtension.class
+│  -rw-r--r--  2.0 unx     2014 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/jaxrs/JaxrsExtensionFactory.class
+│  -rw-r--r--  2.0 unx     4196 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/jaxrs/Util.class
+│  -rw-r--r--  2.0 unx      781 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/jaxrs/package-info.class
+│  -rw-r--r--  2.0 unx     3659 b- defN 80-000-00 04:08 META-INF/maven/org.apache.aries.cdi/org.apache.aries.cdi.extension.jaxrs/pom.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 80-000-00 04:08 META-INF/maven/org.apache.aries.cdi/org.apache.aries.cdi.extension.jaxrs/pom.properties
+│ -21 files, 41773 bytes uncompressed, 14205 bytes compressed:  66.0%
+│ +21 files, 41773 bytes uncompressed, 14201 bytes compressed:  66.0%
+├── META-INF/MANIFEST.MF
+│ @@ -21,17 +21,17 @@
+│   ropertytypes;version="[1.1,2)",org.apache.aries.cdi.spi.configuration
+│   ;version="[1.0,2)",org.osgi.framework;version="[1.9,2)",org.osgi.serv
+│   ice.cdi;version="[1.0,2)",org.osgi.service.cdi.annotations;version="[
+│   1.0,2)"
+│  Require-Capability: osgi.implementation;filter:="(&(osgi.implementatio
+│   n=osgi.cdi)(version>=1.0.0)(!(version>=2.0.0)))",osgi.implementation;
+│   filter:="(&(osgi.implementation=osgi.jaxrs)(version>=1.0.0)(!(version
+│ - >=2.0.0)))",osgi.contract;osgi.contract=JavaJAXRS;filter:="(&(osgi.co
+│ - ntract=JavaJAXRS)(version=2.1.0))",osgi.contract;osgi.contract=JavaCD
+│ - I;filter:="(&(osgi.contract=JavaCDI)(version=2.0.0))",osgi.contract;o
+│ + >=2.0.0)))",osgi.contract;osgi.contract=JavaCDI;filter:="(&(osgi.cont
+│ + ract=JavaCDI)(version=2.0.0))",osgi.contract;osgi.contract=JavaJAXRS;
+│ + filter:="(&(osgi.contract=JavaJAXRS)(version=2.1.0))",osgi.contract;o
+│   sgi.contract=JavaInject;filter:="(&(osgi.contract=JavaInject)(version
+│   =1.0.0))",osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+│  Implementation-Vendor: The Apache Software Foundation
+│  Provide-Capability: osgi.cdi.extension;osgi.cdi.extension="aries.cdi.j
+│   axrs";version:Version="1.0.0";uses:="javax.enterprise.inject.spi,java
+│   x.ws.rs,javax.ws.rs.core,javax.ws.rs.ext",osgi.service;objectClass:Li
+│   st<String>="javax.enterprise.inject.spi.Extension"
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Aries CDI - JAX-RS Extension
+│ -Copyright 1969 The Apache Software Foundation
+│ +Copyright 1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+
+target/reference/org.apache.aries.cdi.extension.jaxrs-1.1.4-sources.jar cdi-extension-jaxrs/target/org.apache.aries.cdi.extension.jaxrs-1.1.4-sources.jar
+--- target/reference/org.apache.aries.cdi.extension.jaxrs-1.1.4-sources.jar
++++ cdi-extension-jaxrs/target/org.apache.aries.cdi.extension.jaxrs-1.1.4-sources.jar
+├── zipinfo -v {}
+│ @@ -394,15 +394,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          1980 000 0 04:08:00
+│ -  32-bit CRC value (hex):                         4890243f
+│ +  32-bit CRC value (hex):                         9f332065
+│    compressed size:                                134 bytes
+│    uncompressed size:                              187 bytes
+│    length of filename:                             15 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Aries CDI - JAX-RS Extension
+│ -Copyright 1969 The Apache Software Foundation
+│ +Copyright 1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+
+target/reference/org.apache.aries.cdi.extension.jndi-1.1.4.jar cdi-extension-jndi/target/org.apache.aries.cdi.extension.jndi-1.1.4.jar
+--- target/reference/org.apache.aries.cdi.extension.jndi-1.1.4.jar
++++ cdi-extension-jndi/target/org.apache.aries.cdi.extension.jndi-1.1.4.jar
+├── zipinfo -v {}
+│ @@ -394,15 +394,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          1980 000 0 04:08:00
+│ -  32-bit CRC value (hex):                         fef312f3
+│ +  32-bit CRC value (hex):                         295016a9
+│    compressed size:                                134 bytes
+│    uncompressed size:                              185 bytes
+│    length of filename:                             15 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Aries CDI - JNDI Extension
+│ -Copyright 1969 The Apache Software Foundation
+│ +Copyright 1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+
+target/reference/org.apache.aries.cdi.extension.jndi-1.1.4-sources.jar cdi-extension-jndi/target/org.apache.aries.cdi.extension.jndi-1.1.4-sources.jar
+--- target/reference/org.apache.aries.cdi.extension.jndi-1.1.4-sources.jar
++++ cdi-extension-jndi/target/org.apache.aries.cdi.extension.jndi-1.1.4-sources.jar
+├── zipinfo -v {}
+│ @@ -394,15 +394,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          1980 000 0 04:08:00
+│ -  32-bit CRC value (hex):                         fef312f3
+│ +  32-bit CRC value (hex):                         295016a9
+│    compressed size:                                134 bytes
+│    uncompressed size:                              185 bytes
+│    length of filename:                             15 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Aries CDI - JNDI Extension
+│ -Copyright 1969 The Apache Software Foundation
+│ +Copyright 1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+
+target/reference/org.apache.aries.cdi.extension.servlet.common-1.1.4.jar cdi-extension-servlet-common/target/org.apache.aries.cdi.extension.servlet.common-1.1.4.jar
+--- target/reference/org.apache.aries.cdi.extension.servlet.common-1.1.4.jar
++++ cdi-extension-servlet-common/target/org.apache.aries.cdi.extension.servlet.common-1.1.4.jar
+├── zipinfo -v {}
+│ @@ -422,15 +422,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          1980 000 0 04:08:00
+│ -  32-bit CRC value (hex):                         1d7fb30a
+│ +  32-bit CRC value (hex):                         cadcb750
+│    compressed size:                                139 bytes
+│    uncompressed size:                              195 bytes
+│    length of filename:                             15 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Aries CDI - Servlet Extension Common
+│ -Copyright 1969 The Apache Software Foundation
+│ +Copyright 1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+
+target/reference/org.apache.aries.cdi.extension.servlet.common-1.1.4-sources.jar cdi-extension-servlet-common/target/org.apache.aries.cdi.extension.servlet.common-1.1.4-sources.jar
+--- target/reference/org.apache.aries.cdi.extension.servlet.common-1.1.4-sources.jar
++++ cdi-extension-servlet-common/target/org.apache.aries.cdi.extension.servlet.common-1.1.4-sources.jar
+├── zipinfo -v {}
+│ @@ -422,15 +422,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          1980 000 0 04:08:00
+│ -  32-bit CRC value (hex):                         1d7fb30a
+│ +  32-bit CRC value (hex):                         cadcb750
+│    compressed size:                                139 bytes
+│    uncompressed size:                              195 bytes
+│    length of filename:                             15 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Aries CDI - Servlet Extension Common
+│ -Copyright 1969 The Apache Software Foundation
+│ +Copyright 1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+
+target/reference/org.apache.aries.cdi.owb-1.1.4.jar cdi-owb/target/org.apache.aries.cdi.owb-1.1.4.jar
+--- target/reference/org.apache.aries.cdi.owb-1.1.4.jar
++++ cdi-owb/target/org.apache.aries.cdi.owb-1.1.4.jar
+├── zipinfo -v {}
+│ @@ -422,15 +422,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          1980 000 0 04:08:00
+│ -  32-bit CRC value (hex):                         757ff828
+│ +  32-bit CRC value (hex):                         a2dcfc72
+│    compressed size:                                143 bytes
+│    uncompressed size:                              206 bytes
+│    length of filename:                             15 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Aries CDI - Container using Apache OpenWebBeans
+│ -Copyright 1969 The Apache Software Foundation
+│ +Copyright 1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+
+target/reference/org.apache.aries.cdi.owb-1.1.4-sources.jar cdi-owb/target/org.apache.aries.cdi.owb-1.1.4-sources.jar
+--- target/reference/org.apache.aries.cdi.owb-1.1.4-sources.jar
++++ cdi-owb/target/org.apache.aries.cdi.owb-1.1.4-sources.jar
+├── zipinfo -v {}
+│ @@ -422,15 +422,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          1980 000 0 04:08:00
+│ -  32-bit CRC value (hex):                         757ff828
+│ +  32-bit CRC value (hex):                         a2dcfc72
+│    compressed size:                                143 bytes
+│    uncompressed size:                              206 bytes
+│    length of filename:                             15 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Aries CDI - Container using Apache OpenWebBeans
+│ -Copyright 1969 The Apache Software Foundation
+│ +Copyright 1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+
+target/reference/org.apache.aries.cdi.extension.servlet.owb-1.1.4.jar cdi-extension-servlet-owb/target/org.apache.aries.cdi.extension.servlet.owb-1.1.4.jar
+--- target/reference/org.apache.aries.cdi.extension.servlet.owb-1.1.4.jar
++++ cdi-extension-servlet-owb/target/org.apache.aries.cdi.extension.servlet.owb-1.1.4.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 20119 bytes, number of entries: 25
+│ +Zip file size: 20117 bytes, number of entries: 25
+│  -rw-r--r--  2.0 unx     2986 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/cdi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/cdi/extension/
+│ @@ -20,8 +20,8 @@
+│  -rw-r--r--  2.0 unx      967 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/servlet/owb/OWBServletExtension$SimpleContext.class
+│  -rw-r--r--  2.0 unx     6019 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/servlet/owb/OWBServletExtension.class
+│  -rw-r--r--  2.0 unx     2560 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/servlet/owb/ServletActivator.class
+│  -rw-r--r--  2.0 unx     2079 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/servlet/owb/ServletExtensionFactory.class
+│  -rw-r--r--  2.0 unx      919 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/servlet/owb/package-info.class
+│  -rw-r--r--  2.0 unx     3958 b- defN 80-000-00 04:08 META-INF/maven/org.apache.aries.cdi/org.apache.aries.cdi.extension.servlet.owb/pom.xml
+│  -rw-r--r--  2.0 unx       97 b- defN 80-000-00 04:08 META-INF/maven/org.apache.aries.cdi/org.apache.aries.cdi.extension.servlet.owb/pom.properties
+│ -25 files, 45826 bytes uncompressed, 15909 bytes compressed:  65.3%
+│ +25 files, 45826 bytes uncompressed, 15907 bytes compressed:  65.3%
+├── META-INF/MANIFEST.MF
+│ @@ -24,19 +24,19 @@
+│   ache.webbeans.spi;version="[2.0,3)",org.apache.webbeans.web.context;v
+│   ersion="[2.0,3)",org.apache.webbeans.web.lifecycle;version="[2.0,3)",
+│   org.apache.webbeans.web.lifecycle.test;version="[2.0,3)",org.osgi.fra
+│   mework;version="[1.9,2)"
+│  Require-Capability: osgi.implementation;filter:="(&(osgi.implementatio
+│   n=osgi.cdi)(version>=1.0.0)(!(version>=2.0.0)))",osgi.implementation;
+│   filter:="(&(osgi.implementation=osgi.http)(version>=1.0.0)(!(version>
+│ - =2.0.0)))",osgi.contract;osgi.contract=JavaCDI;filter:="(&(osgi.contr
+│ - act=JavaCDI)(version=2.0.0))",osgi.contract;osgi.contract=JavaAnnotat
+│ - ion;filter:="(&(osgi.contract=JavaAnnotation)(version=1.3.0))",osgi.c
+│ - ontract;osgi.contract=JavaServlet;filter:="(&(osgi.contract=JavaServl
+│ - et)(version=3.1.0))",osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8)
+│ + =2.0.0)))",osgi.contract;osgi.contract=JavaServlet;filter:="(&(osgi.c
+│ + ontract=JavaServlet)(version=3.1.0))",osgi.contract;osgi.contract=Jav
+│ + aCDI;filter:="(&(osgi.contract=JavaCDI)(version=2.0.0))",osgi.contrac
+│ + t;osgi.contract=JavaAnnotation;filter:="(&(osgi.contract=JavaAnnotati
+│ + on)(version=1.3.0))",osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8)
+│   )"
+│  Implementation-Vendor: The Apache Software Foundation
+│  Provide-Capability: osgi.cdi.extension;osgi.cdi.extension="aries.cdi.h
+│   ttp";version:Version="1.0.0";uses:="javax.annotation,javax.enterprise
+│   .context.spi,javax.enterprise.event,javax.enterprise.inject.spi,javax
+│   .servlet,javax.servlet.http",osgi.service;objectClass:List<String>="j
+│   avax.enterprise.inject.spi.Extension"
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Aries CDI - Servlet Extension for OpenWebBeans
+│ -Copyright 1969 The Apache Software Foundation
+│ +Copyright 1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+
+target/reference/org.apache.aries.cdi.extension.servlet.owb-1.1.4-sources.jar cdi-extension-servlet-owb/target/org.apache.aries.cdi.extension.servlet.owb-1.1.4-sources.jar
+--- target/reference/org.apache.aries.cdi.extension.servlet.owb-1.1.4-sources.jar
++++ cdi-extension-servlet-owb/target/org.apache.aries.cdi.extension.servlet.owb-1.1.4-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 14417 bytes, number of entries: 21
+│ +Zip file size: 14416 bytes, number of entries: 21
+│  -rw-r--r--  2.0 unx       64 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/cdi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/cdi/extension/
+│ @@ -16,8 +16,8 @@
+│  -rw-r--r--  2.0 unx      205 b- defN 80-000-00 04:08 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     7323 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/servlet/owb/OWBServletExtension.java
+│  -rw-r--r--  2.0 unx     2641 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/servlet/owb/ServletActivator.java
+│  -rw-r--r--  2.0 unx     1162 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/servlet/owb/ServletExtensionFactory.java
+│  -rw-r--r--  2.0 unx     1735 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/servlet/owb/package-info.java
+│  -rw-r--r--  2.0 unx     3958 b- defN 80-000-00 04:08 META-INF/maven/org.apache.aries.cdi/org.apache.aries.cdi.extension.servlet.owb/pom.xml
+│  -rw-r--r--  2.0 unx       97 b- defN 80-000-00 04:08 META-INF/maven/org.apache.aries.cdi/org.apache.aries.cdi.extension.servlet.owb/pom.properties
+│ -21 files, 33665 bytes uncompressed, 11163 bytes compressed:  66.8%
+│ +21 files, 33665 bytes uncompressed, 11162 bytes compressed:  66.8%
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Aries CDI - Servlet Extension for OpenWebBeans
+│ -Copyright 1969 The Apache Software Foundation
+│ +Copyright 1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+
+target/reference/org.apache.aries.cdi.extension.servlet.weld-1.1.4.jar cdi-extension-servlet-weld/target/org.apache.aries.cdi.extension.servlet.weld-1.1.4.jar
+--- target/reference/org.apache.aries.cdi.extension.servlet.weld-1.1.4.jar
++++ cdi-extension-servlet-weld/target/org.apache.aries.cdi.extension.servlet.weld-1.1.4.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 16402 bytes, number of entries: 22
+│ +Zip file size: 16400 bytes, number of entries: 22
+│  -rw-r--r--  2.0 unx     2657 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/cdi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/cdi/extension/
+│ @@ -17,8 +17,8 @@
+│  -rw-r--r--  2.0 unx     2071 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/servlet/weld/ServletActivator.class
+│  -rw-r--r--  2.0 unx     2083 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/servlet/weld/ServletExtensionFactory.class
+│  -rw-r--r--  2.0 unx     3400 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/servlet/weld/WeldServletExtension$ListenerWrapper.class
+│  -rw-r--r--  2.0 unx     5068 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/servlet/weld/WeldServletExtension.class
+│  -rw-r--r--  2.0 unx      920 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/servlet/weld/package-info.class
+│  -rw-r--r--  2.0 unx     5015 b- defN 80-000-00 04:08 META-INF/maven/org.apache.aries.cdi/org.apache.aries.cdi.extension.servlet.weld/pom.xml
+│  -rw-r--r--  2.0 unx       98 b- defN 80-000-00 04:08 META-INF/maven/org.apache.aries.cdi/org.apache.aries.cdi.extension.servlet.weld/pom.properties
+│ -22 files, 39338 bytes uncompressed, 12874 bytes compressed:  67.3%
+│ +22 files, 39338 bytes uncompressed, 12872 bytes compressed:  67.3%
+├── META-INF/MANIFEST.MF
+│ @@ -18,17 +18,17 @@
+│   t.http,org.apache.aries.cdi.extension.servlet.common;version="[1.0,2)
+│   ",org.apache.aries.cdi.spi.configuration;version="[1.0,2)",org.jboss.
+│   weld.module.web.servlet;version="[3.1,4)",org.osgi.framework;version=
+│   "[1.9,2)"
+│  Require-Capability: osgi.implementation;filter:="(&(osgi.implementatio
+│   n=osgi.cdi)(version>=1.0.0)(!(version>=2.0.0)))",osgi.implementation;
+│   filter:="(&(osgi.implementation=osgi.http)(version>=1.0.0)(!(version>
+│ - =2.0.0)))",osgi.contract;osgi.contract=JavaServlet;filter:="(&(osgi.c
+│ - ontract=JavaServlet)(version=3.1.0))",osgi.contract;osgi.contract=Jav
+│ - aAnnotation;filter:="(&(osgi.contract=JavaAnnotation)(version=1.3.0))
+│ + =2.0.0)))",osgi.contract;osgi.contract=JavaAnnotation;filter:="(&(osg
+│ + i.contract=JavaAnnotation)(version=1.3.0))",osgi.contract;osgi.contra
+│ + ct=JavaServlet;filter:="(&(osgi.contract=JavaServlet)(version=3.1.0))
+│   ",osgi.contract;osgi.contract=JavaCDI;filter:="(&(osgi.contract=JavaC
+│   DI)(version=2.0.0))",osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8)
+│   )"
+│  Implementation-Vendor: The Apache Software Foundation
+│  Provide-Capability: osgi.cdi.extension;osgi.cdi.extension="aries.cdi.h
+│   ttp";version:Version="1.0.0";uses:="javax.annotation,javax.enterprise
+│   .context.spi,javax.enterprise.event,javax.enterprise.inject.spi,javax
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Aries CDI - Servlet Extension for Weld
+│ -Copyright 1969 The Apache Software Foundation
+│ +Copyright 1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+
+target/reference/org.apache.aries.cdi.extension.servlet.weld-1.1.4-sources.jar cdi-extension-servlet-weld/target/org.apache.aries.cdi.extension.servlet.weld-1.1.4-sources.jar
+--- target/reference/org.apache.aries.cdi.extension.servlet.weld-1.1.4-sources.jar
++++ cdi-extension-servlet-weld/target/org.apache.aries.cdi.extension.servlet.weld-1.1.4-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 13804 bytes, number of entries: 21
+│ +Zip file size: 13803 bytes, number of entries: 21
+│  -rw-r--r--  2.0 unx       64 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/cdi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/cdi/extension/
+│ @@ -16,8 +16,8 @@
+│  -rw-r--r--  2.0 unx      197 b- defN 80-000-00 04:08 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     1969 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/servlet/weld/ServletActivator.java
+│  -rw-r--r--  2.0 unx     1164 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/servlet/weld/ServletExtensionFactory.java
+│  -rw-r--r--  2.0 unx     5255 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/servlet/weld/WeldServletExtension.java
+│  -rw-r--r--  2.0 unx     1736 b- defN 80-000-00 04:08 org/apache/aries/cdi/extension/servlet/weld/package-info.java
+│  -rw-r--r--  2.0 unx     5015 b- defN 80-000-00 04:08 META-INF/maven/org.apache.aries.cdi/org.apache.aries.cdi.extension.servlet.weld/pom.xml
+│  -rw-r--r--  2.0 unx       98 b- defN 80-000-00 04:08 META-INF/maven/org.apache.aries.cdi/org.apache.aries.cdi.extension.servlet.weld/pom.properties
+│ -21 files, 33327 bytes uncompressed, 10532 bytes compressed:  68.4%
+│ +21 files, 33327 bytes uncompressed, 10531 bytes compressed:  68.4%
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Aries CDI - Servlet Extension for Weld
+│ -Copyright 1969 The Apache Software Foundation
+│ +Copyright 1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+
+target/reference/org.apache.aries.cdi.weld-1.1.4.jar cdi-weld/target/org.apache.aries.cdi.weld-1.1.4.jar
+--- target/reference/org.apache.aries.cdi.weld-1.1.4.jar
++++ cdi-weld/target/org.apache.aries.cdi.weld-1.1.4.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 24881 bytes, number of entries: 27
+│ +Zip file size: 24880 bytes, number of entries: 27
+│  -rw-r--r--  2.0 unx     2356 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/cdi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/cdi/weld/
+│ @@ -22,8 +22,8 @@
+│  -rw-r--r--  2.0 unx      281 b- defN 80-000-00 04:08 org/apache/aries/cdi/weld/WeldCDIContainerInitializer$1.class
+│  -rw-r--r--  2.0 unx     1969 b- defN 80-000-00 04:08 org/apache/aries/cdi/weld/WeldCDIContainerInitializer$WeldSeContainer.class
+│  -rw-r--r--  2.0 unx     8952 b- defN 80-000-00 04:08 org/apache/aries/cdi/weld/WeldCDIContainerInitializer.class
+│  -rw-r--r--  2.0 unx     2283 b- defN 80-000-00 04:08 org/apache/aries/cdi/weld/WeldCDIContainerInitializerFactory.class
+│  -rw-r--r--  2.0 unx      409 b- defN 80-000-00 04:08 org/apache/aries/cdi/weld/package-info.class
+│  -rw-r--r--  2.0 unx     4917 b- defN 80-000-00 04:08 META-INF/maven/org.apache.aries.cdi/org.apache.aries.cdi.weld/pom.xml
+│  -rw-r--r--  2.0 unx       80 b- defN 80-000-00 04:08 META-INF/maven/org.apache.aries.cdi/org.apache.aries.cdi.weld/pom.properties
+│ -27 files, 57613 bytes uncompressed, 20643 bytes compressed:  64.2%
+│ +27 files, 57613 bytes uncompressed, 20642 bytes compressed:  64.2%
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Aries CDI - Container using JBoss Weld
+│ -Copyright 1969 The Apache Software Foundation
+│ +Copyright 1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+
+target/reference/org.apache.aries.cdi.weld-1.1.4-sources.jar cdi-weld/target/org.apache.aries.cdi.weld-1.1.4-sources.jar
+--- target/reference/org.apache.aries.cdi.weld-1.1.4-sources.jar
++++ cdi-weld/target/org.apache.aries.cdi.weld-1.1.4-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 18322 bytes, number of entries: 24
+│ +Zip file size: 18321 bytes, number of entries: 24
+│  -rw-r--r--  2.0 unx       64 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/cdi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/aries/cdi/weld/
+│ @@ -19,8 +19,8 @@
+│  -rw-r--r--  2.0 unx     1431 b- defN 80-000-00 04:08 org/apache/aries/cdi/weld/ContainerEnvironment.java
+│  -rw-r--r--  2.0 unx     1084 b- defN 80-000-00 04:08 org/apache/aries/cdi/weld/ExtensionMetadata.java
+│  -rw-r--r--  2.0 unx     5061 b- defN 80-000-00 04:08 org/apache/aries/cdi/weld/WeldCDIContainerInitializer.java
+│  -rw-r--r--  2.0 unx     1460 b- defN 80-000-00 04:08 org/apache/aries/cdi/weld/WeldCDIContainerInitializerFactory.java
+│  -rw-r--r--  2.0 unx      865 b- defN 80-000-00 04:08 org/apache/aries/cdi/weld/package-info.java
+│  -rw-r--r--  2.0 unx     4917 b- defN 80-000-00 04:08 META-INF/maven/org.apache.aries.cdi/org.apache.aries.cdi.weld/pom.xml
+│  -rw-r--r--  2.0 unx       80 b- defN 80-000-00 04:08 META-INF/maven/org.apache.aries.cdi/org.apache.aries.cdi.weld/pom.properties
+│ -24 files, 44210 bytes uncompressed, 14712 bytes compressed:  66.7%
+│ +24 files, 44210 bytes uncompressed, 14711 bytes compressed:  66.7%
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Aries CDI - Container using JBoss Weld
+│ -Copyright 1969 The Apache Software Foundation
+│ +Copyright 1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+
+target/reference/org.apache.aries.cdi.executable-1.1.4-owb-executable.jar cdi-executable/target/owb-executable.jar
+/srv/diffoscope/bin/diffoscope: target/reference/org.apache.aries.cdi.executable-1.1.4-owb-executable.jar: No such file or directory
+
+target/reference/org.apache.aries.cdi.executable-1.1.4-weld-executable.jar cdi-executable/target/weld-executable.jar
+/srv/diffoscope/bin/diffoscope: target/reference/org.apache.aries.cdi.executable-1.1.4-weld-executable.jar: No such file or directory
+
+target/reference/org.apache.aries.cdi.itests-1.1.4.jar cdi-itests/target/org.apache.aries.cdi.itests-1.1.4.jar
+/srv/diffoscope/bin/diffoscope: target/reference/org.apache.aries.cdi.itests-1.1.4.jar: No such file or directory
+
+target/reference/org.apache.aries.cdi.itests-1.1.4-sources.jar cdi-itests/target/org.apache.aries.cdi.itests-1.1.4-sources.jar
+/srv/diffoscope/bin/diffoscope: target/reference/org.apache.aries.cdi.itests-1.1.4-sources.jar: No such file or directory
+

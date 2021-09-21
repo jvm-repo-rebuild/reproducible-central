@@ -5,6 +5,7 @@ settings-docker.xml
 .ivy2/
 .sbt/
 .npm/
+.bnd/
 .DS_Store
 
 # ci config for local ci build
