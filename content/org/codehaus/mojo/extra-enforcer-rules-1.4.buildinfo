@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Extra Enforcer Rules
+group-id=org.codehaus.mojo
+artifact-id=extra-enforcer-rules
+version=1.4
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/extra-enforcer-rules.git
+source.scm.tag=extra-enforcer-rules-1.4
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=extra-enforcer-rules-1.4.jar
+outputs.0.length=51000
+outputs.0.checksums.sha512=3fe712513ae575ccc9d9d3c0ea0ec8ef42a09eb1c07ebbe3b3d4d666e056b3b69dfb51f03ffa799eba7e497505047f38eccea6e380bca97eeae8b3c93949e27d
+
+outputs.1.filename=extra-enforcer-rules-1.4-source-release.zip
+outputs.1.length=181828
+outputs.1.checksums.sha512=f3dd538b89b94894898fcd94d293f81d8fbd7b5f75ef27c43fc55dccdb4f43a7f44d0e215a40fd6ddd389bb320ff16fc078e9608b3f302d7657f6b56030fa6f0
+
+outputs.2.filename=extra-enforcer-rules-1.4-sources.jar
+outputs.2.length=42426
+outputs.2.checksums.sha512=4e09601cb02352c91fd3a6c921a0dd8b140ca1869d5e8a753d42c973e3856474df741190b76e391c0e37a914415f873b64092fe96c61226755b93ce7c1f9340a
