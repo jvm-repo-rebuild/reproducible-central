@@ -1,0 +1,7 @@
+version=2.7.2
+ok=2
+ko=0
+okFiles="watset.jar watset-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
