@@ -105,6 +105,11 @@
       <url>https://repo.jenkins-ci.org/releases/</url>
     </mirror>
     <mirror>
+      <id>AdoptOpenJDK</id>
+      <mirrorOf>AdoptOpenJDK</mirrorOf>
+      <url>https://adoptopenjdk.jfrog.io/adoptopenjdk/jmc-libs</url>
+    </mirror>
+    <mirror>
       <id>default</id>
       <mirrorOf>*</mirrorOf>
       <url>https://repo.maven.apache.org/maven2</url>
