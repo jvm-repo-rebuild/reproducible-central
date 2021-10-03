@@ -1,0 +1,1205 @@
+target/reference/metrics-annotation-4.2.4.jar metrics-annotation/target/metrics-annotation-4.2.4.jar
+--- target/reference/metrics-annotation-4.2.4.jar
++++ metrics-annotation/target/metrics-annotation-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 7211 bytes, number of entries: 19
+│ +Zip file size: 7210 bytes, number of entries: 19
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat      887 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat      883 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-annotation/
+│  -rw----     2.0 fat       74 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-annotation/pom.properties
+│  -rw----     2.0 fat      811 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-annotation/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/
+│ @@ -14,8 +14,8 @@
+│  -rw----     2.0 fat      670 bl defN 80-Feb-01 00:00 com/codahale/metrics/annotation/Counted.class
+│  -rw----     2.0 fat      887 bl defN 80-Feb-01 00:00 com/codahale/metrics/annotation/ExceptionMetered.class
+│  -rw----     2.0 fat      540 bl defN 80-Feb-01 00:00 com/codahale/metrics/annotation/Gauge.class
+│  -rw----     2.0 fat      641 bl defN 80-Feb-01 00:00 com/codahale/metrics/annotation/Metered.class
+│  -rw----     2.0 fat      559 bl defN 80-Feb-01 00:00 com/codahale/metrics/annotation/Metric.class
+│  -rw----     2.0 fat      657 bl defN 80-Feb-01 00:00 com/codahale/metrics/annotation/ResponseMetered.class
+│  -rw----     2.0 fat      637 bl defN 80-Feb-01 00:00 com/codahale/metrics/annotation/Timed.class
+│ -19 files, 7044 bytes uncompressed, 4001 bytes compressed:  43.2%
+│ +19 files, 7040 bytes uncompressed, 4000 bytes compressed:  43.2%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: com.codahale.metrics.annotation
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: A dependency-less package of just the annotations 
+│   used by other Metrics modules.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Annotations for Metrics
+│  Bundle-SymbolicName: io.dropwizard.metrics.annotation
+│  Bundle-Version: 4.2.4
+
+target/reference/metrics-core-4.2.4.jar metrics-core/target/metrics-core-4.2.4.jar
+--- target/reference/metrics-core-4.2.4.jar
++++ metrics-core/target/metrics-core-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│  Zip file size: 126138 bytes, number of entries: 114
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1054 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1050 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-core/
+│  -rw----     2.0 fat       68 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-core/pom.properties
+│  -rw----     2.0 fat     2237 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-core/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/
+│ @@ -109,8 +109,8 @@
+│  -rw----     2.0 fat     1053 bl defN 80-Feb-01 00:00 com/codahale/metrics/Snapshot.class
+│  -rw----     2.0 fat     1075 bl defN 80-Feb-01 00:00 com/codahale/metrics/Timer$Context.class
+│  -rw----     2.0 fat     4209 bl defN 80-Feb-01 00:00 com/codahale/metrics/Timer.class
+│  -rw----     2.0 fat     1819 bl defN 80-Feb-01 00:00 com/codahale/metrics/UniformReservoir.class
+│  -rw----     2.0 fat     3607 bl defN 80-Feb-01 00:00 com/codahale/metrics/UniformSnapshot.class
+│  -rw----     2.0 fat      547 bl defN 80-Feb-01 00:00 com/codahale/metrics/WeightedSnapshot$WeightedSample.class
+│  -rw----     2.0 fat     4854 bl defN 80-Feb-01 00:00 com/codahale/metrics/WeightedSnapshot.class
+│ -114 files, 256856 bytes uncompressed, 104510 bytes compressed:  59.3%
+│ +114 files, 256852 bytes uncompressed, 104510 bytes compressed:  59.3%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: com.codahale.metrics
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: Metrics is a Java library which gives you unparall
+│   eled insight into what your code does in        production. Metrics p
+│   rovides a powerful toolkit of ways to measure the behavior of critica
+│   l        components in your production environment.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Core
+
+target/reference/metrics-caffeine-4.2.4.jar metrics-caffeine/target/metrics-caffeine-4.2.4.jar
+--- target/reference/metrics-caffeine-4.2.4.jar
++++ metrics-caffeine/target/metrics-caffeine-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,14 +1,14 @@
+│ -Zip file size: 4986 bytes, number of entries: 12
+│ +Zip file size: 4984 bytes, number of entries: 12
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1244 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1240 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-caffeine/
+│  -rw----     2.0 fat       72 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-caffeine/pom.properties
+│  -rw----     2.0 fat     2692 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-caffeine/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/metrics/caffeine/
+│  -rw----     2.0 fat     4273 bl defN 80-Feb-01 00:00 com/codahale/metrics/caffeine/MetricsStatsCounter.class
+│ -12 files, 8281 bytes uncompressed, 3078 bytes compressed:  62.8%
+│ +12 files, 8277 bytes uncompressed, 3076 bytes compressed:  62.8%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: com.codahale.metrics.caffeine
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: Metrics Integration for Caffeine 2.x.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Integration for Caffeine 2.x
+│  Bundle-SymbolicName: io.dropwizard.metrics.caffeine
+│  Bundle-Version: 4.2.4
+│  Created-By: Apache Maven Bundle Plugin
+
+target/reference/metrics-caffeine3-4.2.4.jar metrics-caffeine3/target/metrics-caffeine3-4.2.4.jar
+--- target/reference/metrics-caffeine3-4.2.4.jar
++++ metrics-caffeine3/target/metrics-caffeine3-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,14 +1,14 @@
+│ -Zip file size: 5223 bytes, number of entries: 12
+│ +Zip file size: 5222 bytes, number of entries: 12
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1252 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1248 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-caffeine3/
+│  -rw----     2.0 fat       73 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-caffeine3/pom.properties
+│  -rw----     2.0 fat     2598 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-caffeine3/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/dropwizard/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/caffeine3/
+│  -rw----     2.0 fat     4786 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/caffeine3/MetricsStatsCounter.class
+│ -12 files, 8709 bytes uncompressed, 3299 bytes compressed:  62.1%
+│ +12 files, 8705 bytes uncompressed, 3298 bytes compressed:  62.1%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: io.dropwizard.metrics.caffeine3
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: Metrics Integration for Caffeine 3.x.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Integration for Caffeine 3.x
+│  Bundle-SymbolicName: io.dropwizard.metrics.caffeine3
+│  Bundle-Version: 4.2.4
+│  Created-By: Apache Maven Bundle Plugin
+
+target/reference/metrics-collectd-4.2.4.jar metrics-collectd/target/metrics-collectd-4.2.4.jar
+--- target/reference/metrics-collectd-4.2.4.jar
++++ metrics-collectd/target/metrics-collectd-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 21993 bytes, number of entries: 23
+│ +Zip file size: 21992 bytes, number of entries: 23
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1035 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1031 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-collectd/
+│  -rw----     2.0 fat       72 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-collectd/pom.properties
+│  -rw----     2.0 fat     2278 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-collectd/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/
+│ @@ -18,8 +18,8 @@
+│  -rw----     2.0 fat      830 bl defN 80-Feb-01 00:00 com/codahale/metrics/collectd/PacketWriter$1.class
+│  -rw----     2.0 fat     1206 bl defN 80-Feb-01 00:00 com/codahale/metrics/collectd/PacketWriter$EncryptionResult.class
+│  -rw----     2.0 fat     9380 bl defN 80-Feb-01 00:00 com/codahale/metrics/collectd/PacketWriter.class
+│  -rw----     2.0 fat     2174 bl defN 80-Feb-01 00:00 com/codahale/metrics/collectd/Sanitize.class
+│  -rw----     2.0 fat     1088 bl defN 80-Feb-01 00:00 com/codahale/metrics/collectd/SecurityConfiguration.class
+│  -rw----     2.0 fat     1131 bl defN 80-Feb-01 00:00 com/codahale/metrics/collectd/SecurityLevel.class
+│  -rw----     2.0 fat     1661 bl defN 80-Feb-01 00:00 com/codahale/metrics/collectd/Sender.class
+│ -23 files, 43928 bytes uncompressed, 17949 bytes compressed:  59.1%
+│ +23 files, 43924 bytes uncompressed, 17948 bytes compressed:  59.1%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: com.codahale.metrics.collectd
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: A reporter for Metrics which announces measurement
+│   s to Collectd.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Integration for Collectd
+│  Bundle-SymbolicName: io.dropwizard.metrics.collectd
+│  Bundle-Version: 4.2.4
+
+target/reference/metrics-ehcache-4.2.4.jar metrics-ehcache/target/metrics-ehcache-4.2.4.jar
+--- target/reference/metrics-ehcache-4.2.4.jar
++++ metrics-ehcache/target/metrics-ehcache-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,15 +1,15 @@
+│ -Zip file size: 6898 bytes, number of entries: 13
+│ +Zip file size: 6897 bytes, number of entries: 13
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1187 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1183 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-ehcache/
+│  -rw----     2.0 fat       71 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-ehcache/pom.properties
+│  -rw----     2.0 fat     2678 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-ehcache/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/metrics/ehcache/
+│  -rw----     2.0 fat     1362 bl defN 80-Feb-01 00:00 com/codahale/metrics/ehcache/InstrumentedCacheDecoratorFactory.class
+│  -rw----     2.0 fat     8284 bl defN 80-Feb-01 00:00 com/codahale/metrics/ehcache/InstrumentedEhcache.class
+│ -13 files, 13582 bytes uncompressed, 4772 bytes compressed:  64.9%
+│ +13 files, 13578 bytes uncompressed, 4771 bytes compressed:  64.9%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: com.codahale.metrics.ehcache
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: An Ehcache wrapper providing Metrics instrumentati
+│   on of caches.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Integration for Ehcache
+│  Bundle-SymbolicName: io.dropwizard.metrics.ehcache
+│  Bundle-Version: 4.2.4
+
+target/reference/metrics-graphite-4.2.4.jar metrics-graphite/target/metrics-graphite-4.2.4.jar
+--- target/reference/metrics-graphite-4.2.4.jar
++++ metrics-graphite/target/metrics-graphite-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 23315 bytes, number of entries: 22
+│ +Zip file size: 23314 bytes, number of entries: 22
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1092 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1088 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-graphite/
+│  -rw----     2.0 fat       72 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-graphite/pom.properties
+│  -rw----     2.0 fat     3252 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-graphite/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/
+│ @@ -17,8 +17,8 @@
+│  -rw----     2.0 fat     4800 bl defN 80-Feb-01 00:00 com/codahale/metrics/graphite/GraphiteReporter$Builder.class
+│  -rw----     2.0 fat    14540 bl defN 80-Feb-01 00:00 com/codahale/metrics/graphite/GraphiteReporter.class
+│  -rw----     2.0 fat      946 bl defN 80-Feb-01 00:00 com/codahale/metrics/graphite/GraphiteSanitize.class
+│  -rw----     2.0 fat      425 bl defN 80-Feb-01 00:00 com/codahale/metrics/graphite/GraphiteSender.class
+│  -rw----     2.0 fat     3551 bl defN 80-Feb-01 00:00 com/codahale/metrics/graphite/GraphiteUDP.class
+│  -rw----     2.0 fat      661 bl defN 80-Feb-01 00:00 com/codahale/metrics/graphite/PickledGraphite$MetricTuple.class
+│  -rw----     2.0 fat     7244 bl defN 80-Feb-01 00:00 com/codahale/metrics/graphite/PickledGraphite.class
+│ -22 files, 47825 bytes uncompressed, 19439 bytes compressed:  59.4%
+│ +22 files, 47821 bytes uncompressed, 19438 bytes compressed:  59.4%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: com.codahale.metrics.graphite
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: A reporter for Metrics which announces measurement
+│   s to a Graphite server.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Graphite Integration for Metrics
+│  Bundle-SymbolicName: io.dropwizard.metrics.graphite
+│  Bundle-Version: 4.2.4
+
+target/reference/metrics-jvm-4.2.4.jar metrics-jvm/target/metrics-jvm-4.2.4.jar
+--- target/reference/metrics-jvm-4.2.4.jar
++++ metrics-jvm/target/metrics-jvm-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 24227 bytes, number of entries: 27
+│ +Zip file size: 24226 bytes, number of entries: 27
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1093 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1089 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jvm/
+│  -rw----     2.0 fat       67 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jvm/pom.properties
+│  -rw----     2.0 fat     2440 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jvm/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/
+│ @@ -22,8 +22,8 @@
+│  -rw----     2.0 fat     1259 bl defN 80-Feb-01 00:00 com/codahale/metrics/jvm/MemoryUsageGaugeSet$1.class
+│  -rw----     2.0 fat     1262 bl defN 80-Feb-01 00:00 com/codahale/metrics/jvm/MemoryUsageGaugeSet$2.class
+│  -rw----     2.0 fat     1370 bl defN 80-Feb-01 00:00 com/codahale/metrics/jvm/MemoryUsageGaugeSet$3.class
+│  -rw----     2.0 fat     7303 bl defN 80-Feb-01 00:00 com/codahale/metrics/jvm/MemoryUsageGaugeSet.class
+│  -rw----     2.0 fat     2493 bl defN 80-Feb-01 00:00 com/codahale/metrics/jvm/ThreadDeadlockDetector.class
+│  -rw----     2.0 fat     4030 bl defN 80-Feb-01 00:00 com/codahale/metrics/jvm/ThreadDump.class
+│  -rw----     2.0 fat     4662 bl defN 80-Feb-01 00:00 com/codahale/metrics/jvm/ThreadStatesGaugeSet.class
+│ -27 files, 44688 bytes uncompressed, 19447 bytes compressed:  56.5%
+│ +27 files, 44684 bytes uncompressed, 19446 bytes compressed:  56.5%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: com.codahale.metrics.jvm
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: A set of classes which allow you to monitor critic
+│   al aspects of your Java Virtual Machine        using Metrics.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: JVM Integration for Metrics
+│  Bundle-SymbolicName: io.dropwizard.metrics.jvm
+│  Bundle-Version: 4.2.4
+
+target/reference/metrics-healthchecks-4.2.4.jar metrics-healthchecks/target/metrics-healthchecks-4.2.4.jar
+--- target/reference/metrics-healthchecks-4.2.4.jar
++++ metrics-healthchecks/target/metrics-healthchecks-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 22871 bytes, number of entries: 27
+│ +Zip file size: 22868 bytes, number of entries: 27
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1465 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1461 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-healthchecks/
+│  -rw----     2.0 fat       76 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-healthchecks/pom.properties
+│  -rw----     2.0 fat     2679 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-healthchecks/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/
+│ @@ -22,8 +22,8 @@
+│  -rw----     2.0 fat     3166 bl defN 80-Feb-01 00:00 com/codahale/metrics/health/SharedHealthCheckRegistries.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/metrics/health/annotation/
+│  -rw----     2.0 fat     1253 bl defN 80-Feb-01 00:00 com/codahale/metrics/health/annotation/Async$InitialState.class
+│  -rw----     2.0 fat     1258 bl defN 80-Feb-01 00:00 com/codahale/metrics/health/annotation/Async$ScheduleType.class
+│  -rw----     2.0 fat     1167 bl defN 80-Feb-01 00:00 com/codahale/metrics/health/annotation/Async.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/metrics/health/jvm/
+│  -rw----     2.0 fat     1410 bl defN 80-Feb-01 00:00 com/codahale/metrics/health/jvm/ThreadDeadlockHealthCheck.class
+│ -27 files, 44315 bytes uncompressed, 17933 bytes compressed:  59.5%
+│ +27 files, 44311 bytes uncompressed, 17930 bytes compressed:  59.5%
+├── META-INF/MANIFEST.MF
+│ @@ -1,30 +1,30 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: com.codahale.metrics.health
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: An addition to Metrics which provides the ability 
+│   to run application-specific health checks,        allowing you to che
+│   ck your application's heath in production.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Health Checks
+│  Bundle-SymbolicName: io.dropwizard.metrics.healthchecks
+│  Bundle-Version: 4.2.4
+│  Created-By: Apache Maven Bundle Plugin
+│ -Export-Package: com.codahale.metrics.health.jvm;uses:="com.codahale.me
+│ - trics.health,com.codahale.metrics.jvm";version="4.2.4",com.codahale.m
+│ - etrics.health;uses:="com.codahale.metrics";version="4.2.4",com.codaha
+│ - le.metrics.health.annotation;version="4.2.4"
+│ +Export-Package: com.codahale.metrics.health.annotation;version="4.2.4"
+│ + ,com.codahale.metrics.health;uses:="com.codahale.metrics";version="4.
+│ + 2.4",com.codahale.metrics.health.jvm;uses:="com.codahale.metrics.heal
+│ + th,com.codahale.metrics.jvm";version="4.2.4"
+│  Implementation-Title: Metrics Health Checks
+│  Implementation-URL: https://metrics.dropwizard.io/metrics-healthchecks
+│  Implementation-Vendor-Id: io.dropwizard.metrics
+│  Implementation-Version: 4.2.4
+│  Import-Package: org.slf4j;version="[1.6.0,2.0.0)",com.codahale.metrics
+│   ;version="[4.2,5)",com.codahale.metrics.health,com.codahale.metrics.h
+│   ealth.annotation,com.codahale.metrics.jvm;version="[4.2,5)";resolutio
+│   n:=optional
+│ -Private-Package: com.codahale.metrics.health.jvm,com.codahale.metrics.
+│ - health,com.codahale.metrics.health.annotation
+│ +Private-Package: com.codahale.metrics.health.annotation,com.codahale.m
+│ + etrics.health,com.codahale.metrics.health.jvm
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+│  Tool: Bnd-5.1.1.202006162103
+
+target/reference/metrics-httpclient-4.2.4.jar metrics-httpclient/target/metrics-httpclient-4.2.4.jar
+--- target/reference/metrics-httpclient-4.2.4.jar
++++ metrics-httpclient/target/metrics-httpclient-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 12037 bytes, number of entries: 17
+│ +Zip file size: 12036 bytes, number of entries: 17
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1628 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1624 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-httpclient/
+│  -rw----     2.0 fat       74 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-httpclient/pom.properties
+│  -rw----     2.0 fat     3158 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-httpclient/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/
+│ @@ -12,8 +12,8 @@
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/metrics/httpclient/
+│  -rw----     2.0 fat     3648 bl defN 80-Feb-01 00:00 com/codahale/metrics/httpclient/HttpClientMetricNameStrategies.class
+│  -rw----     2.0 fat      970 bl defN 80-Feb-01 00:00 com/codahale/metrics/httpclient/HttpClientMetricNameStrategy.class
+│  -rw----     2.0 fat     4606 bl defN 80-Feb-01 00:00 com/codahale/metrics/httpclient/InstrumentedHttpClientConnectionManager$Builder.class
+│  -rw----     2.0 fat     7417 bl defN 80-Feb-01 00:00 com/codahale/metrics/httpclient/InstrumentedHttpClientConnectionManager.class
+│  -rw----     2.0 fat     2509 bl defN 80-Feb-01 00:00 com/codahale/metrics/httpclient/InstrumentedHttpClients.class
+│  -rw----     2.0 fat     3168 bl defN 80-Feb-01 00:00 com/codahale/metrics/httpclient/InstrumentedHttpRequestExecutor.class
+│ -17 files, 27178 bytes uncompressed, 8911 bytes compressed:  67.2%
+│ +17 files, 27174 bytes uncompressed, 8910 bytes compressed:  67.2%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: com.codahale.metrics.httpclient
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: An Apache HttpClient wrapper providing Metrics ins
+│   trumentation of connection pools, request        durations and rates,
+│    and other useful information.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Integration for Apache HttpClient
+│  Bundle-SymbolicName: io.dropwizard.metrics.httpclient
+
+target/reference/metrics-httpclient5-4.2.4.jar metrics-httpclient5/target/metrics-httpclient5-4.2.4.jar
+--- target/reference/metrics-httpclient5-4.2.4.jar
++++ metrics-httpclient5/target/metrics-httpclient5-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 19556 bytes, number of entries: 22
+│ +Zip file size: 19555 bytes, number of entries: 22
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     2458 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     2454 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-httpclient5/
+│  -rw----     2.0 fat       75 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-httpclient5/pom.properties
+│  -rw----     2.0 fat     3781 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-httpclient5/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/
+│ @@ -17,8 +17,8 @@
+│  -rw----     2.0 fat     3273 bl defN 80-Feb-01 00:00 com/codahale/metrics/httpclient5/InstrumentedAsyncExecChainHandler$InstrumentedAsyncExecCallback.class
+│  -rw----     2.0 fat     3008 bl defN 80-Feb-01 00:00 com/codahale/metrics/httpclient5/InstrumentedAsyncExecChainHandler.class
+│  -rw----     2.0 fat     3342 bl defN 80-Feb-01 00:00 com/codahale/metrics/httpclient5/InstrumentedHttpAsyncClients.class
+│  -rw----     2.0 fat     5314 bl defN 80-Feb-01 00:00 com/codahale/metrics/httpclient5/InstrumentedHttpClientConnectionManager$Builder.class
+│  -rw----     2.0 fat     6015 bl defN 80-Feb-01 00:00 com/codahale/metrics/httpclient5/InstrumentedHttpClientConnectionManager.class
+│  -rw----     2.0 fat     2646 bl defN 80-Feb-01 00:00 com/codahale/metrics/httpclient5/InstrumentedHttpClients.class
+│  -rw----     2.0 fat     4392 bl defN 80-Feb-01 00:00 com/codahale/metrics/httpclient5/InstrumentedHttpRequestExecutor.class
+│ -22 files, 48195 bytes uncompressed, 15136 bytes compressed:  68.6%
+│ +22 files, 48191 bytes uncompressed, 15135 bytes compressed:  68.6%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: com.codahale.metrics.httpclient
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: An Apache HttpClient 5.x wrapper providing Metrics
+│    instrumentation of connection pools, request        durations and ra
+│   tes, and other useful information.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Integration for Apache HttpClient 5.x
+│  Bundle-SymbolicName: io.dropwizard.metrics.httpclient5
+
+target/reference/metrics-httpasyncclient-4.2.4.jar metrics-httpasyncclient/target/metrics-httpasyncclient-4.2.4.jar
+--- target/reference/metrics-httpasyncclient-4.2.4.jar
++++ metrics-httpasyncclient/target/metrics-httpasyncclient-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,17 +1,17 @@
+│  Zip file size: 8570 bytes, number of entries: 15
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1668 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1664 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-httpasyncclient/
+│  -rw----     2.0 fat       79 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-httpasyncclient/pom.properties
+│  -rw----     2.0 fat     3843 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-httpasyncclient/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/metrics/httpasyncclient/
+│  -rw----     2.0 fat     4039 bl defN 80-Feb-01 00:00 com/codahale/metrics/httpasyncclient/InstrumentedNClientConnManager.class
+│  -rw----     2.0 fat     3426 bl defN 80-Feb-01 00:00 com/codahale/metrics/httpasyncclient/InstrumentedNHttpClientBuilder$1.class
+│  -rw----     2.0 fat     2586 bl defN 80-Feb-01 00:00 com/codahale/metrics/httpasyncclient/InstrumentedNHttpClientBuilder$TimingFutureCallback.class
+│  -rw----     2.0 fat     2708 bl defN 80-Feb-01 00:00 com/codahale/metrics/httpasyncclient/InstrumentedNHttpClientBuilder.class
+│ -15 files, 18349 bytes uncompressed, 5810 bytes compressed:  68.3%
+│ +15 files, 18345 bytes uncompressed, 5810 bytes compressed:  68.3%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: com.codahale.metrics.httpasyncclient
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: An Apache HttpAsyncClient wrapper providing Metric
+│   s instrumentation of connection pools, request        durations and r
+│   ates, and other useful information.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Integration for Apache HttpAsyncClient
+│  Bundle-SymbolicName: io.dropwizard.metrics.httpasyncclient
+
+target/reference/metrics-jakarta-servlet-4.2.4.jar metrics-jakarta-servlet/target/metrics-jakarta-servlet-4.2.4.jar
+--- target/reference/metrics-jakarta-servlet-4.2.4.jar
++++ metrics-jakarta-servlet/target/metrics-jakarta-servlet-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,18 +1,18 @@
+│  Zip file size: 10022 bytes, number of entries: 16
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1073 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1069 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jakarta-servlet/
+│  -rw----     2.0 fat       79 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jakarta-servlet/pom.properties
+│  -rw----     2.0 fat     2077 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jakarta-servlet/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/dropwizard/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/servlet/
+│  -rw----     2.0 fat     2337 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/servlet/AbstractInstrumentedFilter$AsyncResultListener.class
+│  -rw----     2.0 fat     1370 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/servlet/AbstractInstrumentedFilter$StatusExposingServletResponse.class
+│  -rw----     2.0 fat     6932 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/servlet/AbstractInstrumentedFilter.class
+│  -rw----     2.0 fat     1918 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/servlet/InstrumentedFilter.class
+│  -rw----     2.0 fat     1110 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/servlet/InstrumentedFilterContextListener.class
+│ -16 files, 16896 bytes uncompressed, 7094 bytes compressed:  58.0%
+│ +16 files, 16892 bytes uncompressed, 7094 bytes compressed:  58.0%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: io.dropwizard.metrics.servlet
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: An instrumented filter for servlet environments.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Integration for Jakarta Servlets
+│  Bundle-SymbolicName: io.dropwizard.metrics.jakarta-servlet
+│  Bundle-Version: 4.2.4
+│  Created-By: Apache Maven Bundle Plugin
+
+target/reference/metrics-json-4.2.4.jar metrics-json/target/metrics-json-4.2.4.jar
+--- target/reference/metrics-json-4.2.4.jar
++++ metrics-json/target/metrics-json-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 16727 bytes, number of entries: 22
+│ +Zip file size: 16728 bytes, number of entries: 22
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1365 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1361 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-json/
+│  -rw----     2.0 fat       68 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-json/pom.properties
+│  -rw----     2.0 fat     3065 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-json/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/
+│ @@ -17,8 +17,8 @@
+│  -rw----     2.0 fat     1820 bl defN 80-Feb-01 00:00 com/codahale/metrics/json/MetricsModule$CounterSerializer.class
+│  -rw----     2.0 fat     2076 bl defN 80-Feb-01 00:00 com/codahale/metrics/json/MetricsModule$GaugeSerializer.class
+│  -rw----     2.0 fat     2782 bl defN 80-Feb-01 00:00 com/codahale/metrics/json/MetricsModule$HistogramSerializer.class
+│  -rw----     2.0 fat     2317 bl defN 80-Feb-01 00:00 com/codahale/metrics/json/MetricsModule$MeterSerializer.class
+│  -rw----     2.0 fat     2587 bl defN 80-Feb-01 00:00 com/codahale/metrics/json/MetricsModule$MetricRegistrySerializer.class
+│  -rw----     2.0 fat     4205 bl defN 80-Feb-01 00:00 com/codahale/metrics/json/MetricsModule$TimerSerializer.class
+│  -rw----     2.0 fat     3977 bl defN 80-Feb-01 00:00 com/codahale/metrics/json/MetricsModule.class
+│ -22 files, 30510 bytes uncompressed, 12741 bytes compressed:  58.2%
+│ +22 files, 30506 bytes uncompressed, 12742 bytes compressed:  58.2%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: com.codahale.metrics.json
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: A set of Jackson modules which provide serializers
+│    for most Metrics classes.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Jackson Integration for Metrics
+│  Bundle-SymbolicName: io.dropwizard.metrics.json
+│  Bundle-Version: 4.2.4
+
+target/reference/metrics-jetty11-4.2.4.jar metrics-jetty11/target/metrics-jetty11-4.2.4.jar
+--- target/reference/metrics-jetty11-4.2.4.jar
++++ metrics-jetty11/target/metrics-jetty11-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 31836 bytes, number of entries: 35
+│ +Zip file size: 31835 bytes, number of entries: 35
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1741 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1737 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jetty11/
+│  -rw----     2.0 fat       71 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jetty11/pom.properties
+│  -rw----     2.0 fat     4185 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jetty11/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/dropwizard/
+│ @@ -30,8 +30,8 @@
+│  -rw----     2.0 fat     2827 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/jetty11/InstrumentedHttpChannelListener$7.class
+│  -rw----     2.0 fat     1125 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/jetty11/InstrumentedHttpChannelListener$8.class
+│  -rw----     2.0 fat    10080 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/jetty11/InstrumentedHttpChannelListener.class
+│  -rw----     2.0 fat     1012 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/jetty11/InstrumentedQueuedThreadPool$1.class
+│  -rw----     2.0 fat     1038 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/jetty11/InstrumentedQueuedThreadPool$2.class
+│  -rw----     2.0 fat     1343 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/jetty11/InstrumentedQueuedThreadPool$3.class
+│  -rw----     2.0 fat     5397 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/jetty11/InstrumentedQueuedThreadPool.class
+│ -35 files, 63373 bytes uncompressed, 24878 bytes compressed:  60.7%
+│ +35 files, 63369 bytes uncompressed, 24877 bytes compressed:  60.7%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: io.dropwizard.metrics.jetty11
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: A set of extensions for Jetty 11.x and higher whic
+│   h provide instrumentation of thread pools, connector        metrics, 
+│   and application latency and utilization.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Integration for Jetty 11.x and higher
+│  Bundle-SymbolicName: io.dropwizard.metrics.jetty11
+
+target/reference/metrics-jakarta-servlets-4.2.4.jar metrics-jakarta-servlets/target/metrics-jakarta-servlets-4.2.4.jar
+--- target/reference/metrics-jakarta-servlets-4.2.4.jar
++++ metrics-jakarta-servlets/target/metrics-jakarta-servlets-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│  Zip file size: 19886 bytes, number of entries: 19
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1519 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1515 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jakarta-servlets/
+│  -rw----     2.0 fat       80 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jakarta-servlets/pom.properties
+│  -rw----     2.0 fat     5811 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jakarta-servlets/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/dropwizard/
+│ @@ -14,8 +14,8 @@
+│  -rw----     2.0 fat     3545 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/servlets/CpuProfileServlet.class
+│  -rw----     2.0 fat     1667 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/servlets/HealthCheckServlet$ContextListener.class
+│  -rw----     2.0 fat     6300 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/servlets/HealthCheckServlet.class
+│  -rw----     2.0 fat     2251 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/servlets/MetricsServlet$ContextListener.class
+│  -rw----     2.0 fat     6010 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/servlets/MetricsServlet.class
+│  -rw----     2.0 fat     1647 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/servlets/PingServlet.class
+│  -rw----     2.0 fat     2868 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/servlets/ThreadDumpServlet.class
+│ -19 files, 38863 bytes uncompressed, 16494 bytes compressed:  57.6%
+│ +19 files, 38859 bytes uncompressed, 16494 bytes compressed:  57.6%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: io.dropwizard.metrics.servlets
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: A set of utility servlets for Metrics, allowing yo
+│   u to expose valuable information about        your production environ
+│   ment.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Utility Jakarta Servlets
+│  Bundle-SymbolicName: io.dropwizard.metrics.jakarta-servlets
+
+target/reference/metrics-jcache-4.2.4.jar metrics-jcache/target/metrics-jcache-4.2.4.jar
+--- target/reference/metrics-jcache-4.2.4.jar
++++ metrics-jcache/target/metrics-jcache-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,14 +1,14 @@
+│  Zip file size: 5482 bytes, number of entries: 12
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1153 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1149 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jcache/
+│  -rw----     2.0 fat       70 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jcache/pom.properties
+│  -rw----     2.0 fat     3933 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jcache/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/metrics/jcache/
+│  -rw----     2.0 fat     4706 bl defN 80-Feb-01 00:00 com/codahale/metrics/jcache/JCacheGaugeSet.class
+│ -12 files, 9862 bytes uncompressed, 3604 bytes compressed:  63.5%
+│ +12 files, 9858 bytes uncompressed, 3604 bytes compressed:  63.4%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: com.codahale.metrics.jcache
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: Metrics Integration for JCache, JSR 107 standard f
+│   or caching.        Uses the CacheStatisticsMXBean provided statistics
+│   .
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Integration for JCache
+│  Bundle-SymbolicName: io.dropwizard.metrics.jcache
+
+target/reference/metrics-jdbi-4.2.4.jar metrics-jdbi/target/metrics-jdbi-4.2.4.jar
+--- target/reference/metrics-jdbi-4.2.4.jar
++++ metrics-jdbi/target/metrics-jdbi-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 19554 bytes, number of entries: 31
+│ +Zip file size: 19551 bytes, number of entries: 31
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1191 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1187 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jdbi/
+│  -rw----     2.0 fat       68 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jdbi/pom.properties
+│  -rw----     2.0 fat     2447 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jdbi/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/
+│ @@ -26,8 +26,8 @@
+│  -rw----     2.0 fat     2268 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi/strategies/NameStrategies.class
+│  -rw----     2.0 fat      273 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi/strategies/ShortNameStrategy$1.class
+│  -rw----     2.0 fat     2561 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi/strategies/ShortNameStrategy$ShortContextClassStrategy.class
+│  -rw----     2.0 fat     2715 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi/strategies/ShortNameStrategy$ShortSqlObjectStrategy.class
+│  -rw----     2.0 fat     1947 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi/strategies/ShortNameStrategy.class
+│  -rw----     2.0 fat      841 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi/strategies/SmartNameStrategy.class
+│  -rw----     2.0 fat      246 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi/strategies/StatementNameStrategy.class
+│ -31 files, 30868 bytes uncompressed, 13358 bytes compressed:  56.7%
+│ +31 files, 30864 bytes uncompressed, 13355 bytes compressed:  56.7%
+├── META-INF/MANIFEST.MF
+│ @@ -1,27 +1,27 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: com.codahale.metrics.jdbi
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: A JDBI wrapper providing Metrics instrumentation o
+│   f query durations and rates.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Integration for JDBI
+│  Bundle-SymbolicName: io.dropwizard.metrics.jdbi
+│  Bundle-Version: 4.2.4
+│  Created-By: Apache Maven Bundle Plugin
+│ -Export-Package: com.codahale.metrics.jdbi.strategies;uses:="org.skife.
+│ - jdbi.v2";version="4.2.4",com.codahale.metrics.jdbi;uses:="com.codahal
+│ - e.metrics,com.codahale.metrics.jdbi.strategies,org.skife.jdbi.v2";ver
+│ +Export-Package: com.codahale.metrics.jdbi;uses:="com.codahale.metrics,
+│ + com.codahale.metrics.jdbi.strategies,org.skife.jdbi.v2";version="4.2.
+│ + 4",com.codahale.metrics.jdbi.strategies;uses:="org.skife.jdbi.v2";ver
+│   sion="4.2.4"
+│  Implementation-Title: Metrics Integration for JDBI
+│  Implementation-URL: https://metrics.dropwizard.io/metrics-jdbi
+│  Implementation-Vendor-Id: io.dropwizard.metrics
+│  Implementation-Version: 4.2.4
+│  Import-Package: com.codahale.metrics;version="[4.2,5)",com.codahale.me
+│   trics.jdbi.strategies,org.skife.jdbi.v2
+│ -Private-Package: com.codahale.metrics.jdbi.strategies,com.codahale.met
+│ - rics.jdbi
+│ +Private-Package: com.codahale.metrics.jdbi,com.codahale.metrics.jdbi.s
+│ + trategies
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+│  Tool: Bnd-5.1.1.202006162103
+
+target/reference/metrics-jdbi3-4.2.4.jar metrics-jdbi3/target/metrics-jdbi3-4.2.4.jar
+--- target/reference/metrics-jdbi3-4.2.4.jar
++++ metrics-jdbi3/target/metrics-jdbi3-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│  Zip file size: 13463 bytes, number of entries: 25
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1284 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1280 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jdbi3/
+│  -rw----     2.0 fat       69 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jdbi3/pom.properties
+│  -rw----     2.0 fat     2786 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jdbi3/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/
+│ @@ -20,8 +20,8 @@
+│  -rw----     2.0 fat      879 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi3/strategies/DefaultNameStrategy$4.class
+│  -rw----     2.0 fat     2025 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi3/strategies/DefaultNameStrategy.class
+│  -rw----     2.0 fat     1540 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi3/strategies/DelegatingStatementNameStrategy.class
+│  -rw----     2.0 fat      730 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi3/strategies/NaiveNameStrategy.class
+│  -rw----     2.0 fat      765 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi3/strategies/SmartNameStrategy.class
+│  -rw----     2.0 fat      330 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi3/strategies/StatementNameStrategy.class
+│  -rw----     2.0 fat     2158 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi3/strategies/TimedAnnotationNameStrategy.class
+│ -25 files, 20873 bytes uncompressed, 8749 bytes compressed:  58.1%
+│ +25 files, 20869 bytes uncompressed, 8749 bytes compressed:  58.1%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: com.codahale.metrics.jdbi3
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: Provides instrumentation of Jdbi3 data access obje
+│   cts
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Integration for JDBI3
+│  Bundle-SymbolicName: io.dropwizard.metrics.jdbi3
+│  Bundle-Version: 4.2.4
+
+target/reference/metrics-jersey2-4.2.4.jar metrics-jersey2/target/metrics-jersey2-4.2.4.jar
+--- target/reference/metrics-jersey2-4.2.4.jar
++++ metrics-jersey2/target/metrics-jersey2-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 20860 bytes, number of entries: 22
+│ +Zip file size: 20861 bytes, number of entries: 22
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1400 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1396 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jersey2/
+│  -rw----     2.0 fat       71 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jersey2/pom.properties
+│  -rw----     2.0 fat     3869 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jersey2/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/
+│ @@ -17,8 +17,8 @@
+│  -rw----     2.0 fat     3167 bl defN 80-Feb-01 00:00 com/codahale/metrics/jersey2/InstrumentedResourceMethodApplicationListener$ExceptionMeterRequestEventListener.class
+│  -rw----     2.0 fat     2324 bl defN 80-Feb-01 00:00 com/codahale/metrics/jersey2/InstrumentedResourceMethodApplicationListener$MeterRequestEventListener.class
+│  -rw----     2.0 fat     2039 bl defN 80-Feb-01 00:00 com/codahale/metrics/jersey2/InstrumentedResourceMethodApplicationListener$ResponseMeterMetric.class
+│  -rw----     2.0 fat     3309 bl defN 80-Feb-01 00:00 com/codahale/metrics/jersey2/InstrumentedResourceMethodApplicationListener$ResponseMeterRequestEventListener.class
+│  -rw----     2.0 fat     4303 bl defN 80-Feb-01 00:00 com/codahale/metrics/jersey2/InstrumentedResourceMethodApplicationListener$TimerRequestEventListener.class
+│  -rw----     2.0 fat    14806 bl defN 80-Feb-01 00:00 com/codahale/metrics/jersey2/InstrumentedResourceMethodApplicationListener.class
+│  -rw----     2.0 fat     3206 bl defN 80-Feb-01 00:00 com/codahale/metrics/jersey2/MetricsFeature.class
+│ -22 files, 45650 bytes uncompressed, 16030 bytes compressed:  64.9%
+│ +22 files, 45646 bytes uncompressed, 16031 bytes compressed:  64.9%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: com.codahale.metrics.jersey2
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: A set of class providing Metrics integration for J
+│   ersey, the reference JAX-RS        implementation.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Integration for Jersey 2.x
+│  Bundle-SymbolicName: io.dropwizard.metrics.jersey2
+│  Bundle-Version: 4.2.4
+
+target/reference/metrics-jersey3-4.2.4.jar metrics-jersey3/target/metrics-jersey3-4.2.4.jar
+--- target/reference/metrics-jersey3-4.2.4.jar
++++ metrics-jersey3/target/metrics-jersey3-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 20883 bytes, number of entries: 22
+│ +Zip file size: 20882 bytes, number of entries: 22
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1405 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1401 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jersey3/
+│  -rw----     2.0 fat       71 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jersey3/pom.properties
+│  -rw----     2.0 fat     4079 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jersey3/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/
+│ @@ -17,8 +17,8 @@
+│  -rw----     2.0 fat     3167 bl defN 80-Feb-01 00:00 com/codahale/metrics/jersey3/InstrumentedResourceMethodApplicationListener$ExceptionMeterRequestEventListener.class
+│  -rw----     2.0 fat     2324 bl defN 80-Feb-01 00:00 com/codahale/metrics/jersey3/InstrumentedResourceMethodApplicationListener$MeterRequestEventListener.class
+│  -rw----     2.0 fat     2039 bl defN 80-Feb-01 00:00 com/codahale/metrics/jersey3/InstrumentedResourceMethodApplicationListener$ResponseMeterMetric.class
+│  -rw----     2.0 fat     3309 bl defN 80-Feb-01 00:00 com/codahale/metrics/jersey3/InstrumentedResourceMethodApplicationListener$ResponseMeterRequestEventListener.class
+│  -rw----     2.0 fat     4303 bl defN 80-Feb-01 00:00 com/codahale/metrics/jersey3/InstrumentedResourceMethodApplicationListener$TimerRequestEventListener.class
+│  -rw----     2.0 fat    14812 bl defN 80-Feb-01 00:00 com/codahale/metrics/jersey3/InstrumentedResourceMethodApplicationListener.class
+│  -rw----     2.0 fat     3216 bl defN 80-Feb-01 00:00 com/codahale/metrics/jersey3/MetricsFeature.class
+│ -22 files, 45881 bytes uncompressed, 16053 bytes compressed:  65.0%
+│ +22 files, 45877 bytes uncompressed, 16052 bytes compressed:  65.0%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: com.codahale.metrics.jersey3
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: A set of class providing Metrics integration for J
+│   ersey, the reference JAX-RS        implementation.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Integration for Jersey 3.x
+│  Bundle-SymbolicName: io.dropwizard.metrics.jersey3
+│  Bundle-Version: 4.2.4
+
+target/reference/metrics-jetty9-4.2.4.jar metrics-jetty9/target/metrics-jetty9-4.2.4.jar
+--- target/reference/metrics-jetty9-4.2.4.jar
++++ metrics-jetty9/target/metrics-jetty9-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 31520 bytes, number of entries: 35
+│ +Zip file size: 31519 bytes, number of entries: 35
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1727 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1723 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jetty9/
+│  -rw----     2.0 fat       70 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jetty9/pom.properties
+│  -rw----     2.0 fat     3356 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jetty9/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/
+│ @@ -30,8 +30,8 @@
+│  -rw----     2.0 fat     2781 bl defN 80-Feb-01 00:00 com/codahale/metrics/jetty9/InstrumentedHttpChannelListener$7.class
+│  -rw----     2.0 fat     1121 bl defN 80-Feb-01 00:00 com/codahale/metrics/jetty9/InstrumentedHttpChannelListener$8.class
+│  -rw----     2.0 fat    10028 bl defN 80-Feb-01 00:00 com/codahale/metrics/jetty9/InstrumentedHttpChannelListener.class
+│  -rw----     2.0 fat     1002 bl defN 80-Feb-01 00:00 com/codahale/metrics/jetty9/InstrumentedQueuedThreadPool$1.class
+│  -rw----     2.0 fat     1028 bl defN 80-Feb-01 00:00 com/codahale/metrics/jetty9/InstrumentedQueuedThreadPool$2.class
+│  -rw----     2.0 fat     1331 bl defN 80-Feb-01 00:00 com/codahale/metrics/jetty9/InstrumentedQueuedThreadPool$3.class
+│  -rw----     2.0 fat     5381 bl defN 80-Feb-01 00:00 com/codahale/metrics/jetty9/InstrumentedQueuedThreadPool.class
+│ -35 files, 62693 bytes uncompressed, 24670 bytes compressed:  60.6%
+│ +35 files, 62689 bytes uncompressed, 24669 bytes compressed:  60.6%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: com.codahale.metrics.jetty9
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: A set of extensions for Jetty 9.3 and higher which
+│    provide instrumentation of thread pools, connector        metrics, a
+│   nd application latency and utilization.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Integration for Jetty 9.3 and higher
+│  Bundle-SymbolicName: io.dropwizard.metrics.jetty9
+
+target/reference/metrics-jetty10-4.2.4.jar metrics-jetty10/target/metrics-jetty10-4.2.4.jar
+--- target/reference/metrics-jetty10-4.2.4.jar
++++ metrics-jetty10/target/metrics-jetty10-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│  Zip file size: 31830 bytes, number of entries: 35
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1745 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1741 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jetty10/
+│  -rw----     2.0 fat       71 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jetty10/pom.properties
+│  -rw----     2.0 fat     4177 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jetty10/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/dropwizard/
+│ @@ -30,8 +30,8 @@
+│  -rw----     2.0 fat     2797 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/jetty10/InstrumentedHttpChannelListener$7.class
+│  -rw----     2.0 fat     1125 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/jetty10/InstrumentedHttpChannelListener$8.class
+│  -rw----     2.0 fat    10060 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/jetty10/InstrumentedHttpChannelListener.class
+│  -rw----     2.0 fat     1012 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/jetty10/InstrumentedQueuedThreadPool$1.class
+│  -rw----     2.0 fat     1038 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/jetty10/InstrumentedQueuedThreadPool$2.class
+│  -rw----     2.0 fat     1343 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/jetty10/InstrumentedQueuedThreadPool$3.class
+│  -rw----     2.0 fat     5397 bl defN 80-Feb-01 00:00 io/dropwizard/metrics/jetty10/InstrumentedQueuedThreadPool.class
+│ -35 files, 63263 bytes uncompressed, 24872 bytes compressed:  60.7%
+│ +35 files, 63259 bytes uncompressed, 24872 bytes compressed:  60.7%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: io.dropwizard.metrics.jetty10
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: A set of extensions for Jetty 10.x and higher whic
+│   h provide instrumentation of thread pools, connector        metrics, 
+│   and application latency and utilization.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Integration for Jetty 10.x and higher
+│  Bundle-SymbolicName: io.dropwizard.metrics.jetty10
+
+target/reference/metrics-jmx-4.2.4.jar metrics-jmx/target/metrics-jmx-4.2.4.jar
+--- target/reference/metrics-jmx-4.2.4.jar
++++ metrics-jmx/target/metrics-jmx-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│  Zip file size: 21183 bytes, number of entries: 30
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1000 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat      996 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jmx/
+│  -rw----     2.0 fat       67 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jmx/pom.properties
+│  -rw----     2.0 fat     2387 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jmx/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/
+│ @@ -25,8 +25,8 @@
+│  -rw----     2.0 fat      493 bl defN 80-Feb-01 00:00 com/codahale/metrics/jmx/JmxReporter$JmxMeterMBean.class
+│  -rw----     2.0 fat     3109 bl defN 80-Feb-01 00:00 com/codahale/metrics/jmx/JmxReporter$JmxTimer.class
+│  -rw----     2.0 fat      633 bl defN 80-Feb-01 00:00 com/codahale/metrics/jmx/JmxReporter$JmxTimerMBean.class
+│  -rw----     2.0 fat      282 bl defN 80-Feb-01 00:00 com/codahale/metrics/jmx/JmxReporter$MetricMBean.class
+│  -rw----     2.0 fat     1572 bl defN 80-Feb-01 00:00 com/codahale/metrics/jmx/JmxReporter$MetricTimeUnits.class
+│  -rw----     2.0 fat     4278 bl defN 80-Feb-01 00:00 com/codahale/metrics/jmx/JmxReporter.class
+│  -rw----     2.0 fat      249 bl defN 80-Feb-01 00:00 com/codahale/metrics/jmx/ObjectNameFactory.class
+│ -30 files, 40479 bytes uncompressed, 15755 bytes compressed:  61.1%
+│ +30 files, 40475 bytes uncompressed, 15755 bytes compressed:  61.1%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: com.codahale.metrics.jmx
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: A set of classes which allow you to report metrics
+│    via JMX.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Integration with JMX
+│  Bundle-SymbolicName: io.dropwizard.metrics.jmx
+│  Bundle-Version: 4.2.4
+
+target/reference/metrics-log4j2-4.2.4.jar metrics-log4j2/target/metrics-log4j2-4.2.4.jar
+--- target/reference/metrics-log4j2-4.2.4.jar
++++ metrics-log4j2/target/metrics-log4j2-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,15 +1,15 @@
+│  Zip file size: 5649 bytes, number of entries: 13
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1323 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1319 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-log4j2/
+│  -rw----     2.0 fat       70 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-log4j2/pom.properties
+│  -rw----     2.0 fat     3030 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-log4j2/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/metrics/log4j2/
+│  -rw----     2.0 fat      983 bl defN 80-Feb-01 00:00 com/codahale/metrics/log4j2/InstrumentedAppender$1.class
+│  -rw----     2.0 fat     4378 bl defN 80-Feb-01 00:00 com/codahale/metrics/log4j2/InstrumentedAppender.class
+│ -13 files, 9784 bytes uncompressed, 3555 bytes compressed:  63.7%
+│ +13 files, 9780 bytes uncompressed, 3555 bytes compressed:  63.7%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: com.codahale.metrics.log4j2
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: An instrumented appender for Log4j 2.x.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Integration for Log4j 2.x
+│  Bundle-SymbolicName: io.dropwizard.metrics.log4j2
+│  Bundle-Version: 4.2.4
+│  Created-By: Apache Maven Bundle Plugin
+
+target/reference/metrics-logback-4.2.4.jar metrics-logback/target/metrics-logback-4.2.4.jar
+--- target/reference/metrics-logback-4.2.4.jar
++++ metrics-logback/target/metrics-logback-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,14 +1,14 @@
+│  Zip file size: 4364 bytes, number of entries: 12
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1107 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1103 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-logback/
+│  -rw----     2.0 fat       71 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-logback/pom.properties
+│  -rw----     2.0 fat     2840 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-logback/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/metrics/logback/
+│  -rw----     2.0 fat     2733 bl defN 80-Feb-01 00:00 com/codahale/metrics/logback/InstrumentedAppender.class
+│ -12 files, 6751 bytes uncompressed, 2464 bytes compressed:  63.5%
+│ +12 files, 6747 bytes uncompressed, 2464 bytes compressed:  63.5%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: com.codahale.metrics.logback
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: An instrumented appender for Logback.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Integration for Logback
+│  Bundle-SymbolicName: io.dropwizard.metrics.logback
+│  Bundle-Version: 4.2.4
+│  Created-By: Apache Maven Bundle Plugin
+
+target/reference/metrics-servlet-4.2.4.jar metrics-servlet/target/metrics-servlet-4.2.4.jar
+--- target/reference/metrics-servlet-4.2.4.jar
++++ metrics-servlet/target/metrics-servlet-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,18 +1,18 @@
+│ -Zip file size: 9922 bytes, number of entries: 16
+│ +Zip file size: 9921 bytes, number of entries: 16
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1041 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1037 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-servlet/
+│  -rw----     2.0 fat       71 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-servlet/pom.properties
+│  -rw----     2.0 fat     2270 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-servlet/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/metrics/servlet/
+│  -rw----     2.0 fat     2315 bl defN 80-Feb-01 00:00 com/codahale/metrics/servlet/AbstractInstrumentedFilter$AsyncResultListener.class
+│  -rw----     2.0 fat     1361 bl defN 80-Feb-01 00:00 com/codahale/metrics/servlet/AbstractInstrumentedFilter$StatusExposingServletResponse.class
+│  -rw----     2.0 fat     6877 bl defN 80-Feb-01 00:00 com/codahale/metrics/servlet/AbstractInstrumentedFilter.class
+│  -rw----     2.0 fat     1915 bl defN 80-Feb-01 00:00 com/codahale/metrics/servlet/InstrumentedFilter.class
+│  -rw----     2.0 fat     1095 bl defN 80-Feb-01 00:00 com/codahale/metrics/servlet/InstrumentedFilterContextListener.class
+│ -16 files, 16945 bytes uncompressed, 7056 bytes compressed:  58.4%
+│ +16 files, 16941 bytes uncompressed, 7055 bytes compressed:  58.4%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: com.codahale.metrics.servlet
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: An instrumented filter for servlet environments.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Integration for Servlets
+│  Bundle-SymbolicName: io.dropwizard.metrics.servlet
+│  Bundle-Version: 4.2.4
+│  Created-By: Apache Maven Bundle Plugin
+
+target/reference/metrics-servlets-4.2.4.jar metrics-servlets/target/metrics-servlets-4.2.4.jar
+--- target/reference/metrics-servlets-4.2.4.jar
++++ metrics-servlets/target/metrics-servlets-4.2.4.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│  Zip file size: 20141 bytes, number of entries: 19
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1485 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1481 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-servlets/
+│  -rw----     2.0 fat       72 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-servlets/pom.properties
+│  -rw----     2.0 fat     5444 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-servlets/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/
+│ @@ -14,8 +14,8 @@
+│  -rw----     2.0 fat     3525 bl defN 80-Feb-01 00:00 com/codahale/metrics/servlets/CpuProfileServlet.class
+│  -rw----     2.0 fat     1835 bl defN 80-Feb-01 00:00 com/codahale/metrics/servlets/HealthCheckServlet$ContextListener.class
+│  -rw----     2.0 fat     7065 bl defN 80-Feb-01 00:00 com/codahale/metrics/servlets/HealthCheckServlet.class
+│  -rw----     2.0 fat     2234 bl defN 80-Feb-01 00:00 com/codahale/metrics/servlets/MetricsServlet$ContextListener.class
+│  -rw----     2.0 fat     5973 bl defN 80-Feb-01 00:00 com/codahale/metrics/servlets/MetricsServlet.class
+│  -rw----     2.0 fat     1629 bl defN 80-Feb-01 00:00 com/codahale/metrics/servlets/PingServlet.class
+│  -rw----     2.0 fat     2848 bl defN 80-Feb-01 00:00 com/codahale/metrics/servlets/ThreadDumpServlet.class
+│ -19 files, 39231 bytes uncompressed, 16817 bytes compressed:  57.1%
+│ +19 files, 39227 bytes uncompressed, 16817 bytes compressed:  57.1%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: com.codahale.metrics.servlets
+│ -Build-Jdk: 11.0.12
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9.1
+│ +Built-By: ?
+│  Bundle-Description: A set of utility servlets for Metrics, allowing yo
+│   u to expose valuable information about        your production environ
+│   ment.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Utility Servlets
+│  Bundle-SymbolicName: io.dropwizard.metrics.servlets
+
