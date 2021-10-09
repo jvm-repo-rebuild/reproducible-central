@@ -1,0 +1,814 @@
+target/reference/jena-fuseki-server-4.2.0.jar jena-fuseki2/jena-fuseki-server/target/jena-fuseki-server-4.2.0.jar
+--- target/reference/jena-fuseki-server-4.2.0.jar
++++ jena-fuseki2/jena-fuseki-server/target/jena-fuseki-server-4.2.0.jar
+├── zipinfo {}
+│ @@ -1055,25 +1055,25 @@
+│  -rw----     2.0 fat     6752 bl defN 21-Jan-26 14:03 javax/servlet/ServletRequestWrapper.class
+│  -rw----     2.0 fat      213 bl defN 21-Jan-26 14:03 javax/servlet/SingleThreadModel.class
+│  -rw----     2.0 fat      653 bl defN 21-Jan-26 14:03 javax/servlet/ServletContextAttributeListener.class
+│  -rw----     2.0 fat     2508 bl defN 21-Jan-26 14:03 javax/servlet/HttpConstraintElement.class
+│  -rw----     2.0 fat      344 bl defN 21-Jan-26 14:03 javax/servlet/AsyncListener.class
+│  -rw----     2.0 fat      372 bl defN 21-Jan-26 14:03 javax/servlet/ServletContainerInitializer.class
+│  -rw----     2.0 fat      277 bl defN 21-Jan-26 14:03 javax/servlet/WriteListener.class
+│ --rw----     2.0 fat      839 bl defN 19-Aug-21 13:46 javax/servlet/LocalStrings_fr.properties
+│ --rw----     2.0 fat     1441 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings_es.properties
+│ --rw----     2.0 fat     1400 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings_fr.properties
+│ --rw----     2.0 fat     2102 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings_ja.properties
+│ --rw----     2.0 fat     1636 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings.properties
+│ --rw----     2.0 fat     1098 bl defN 19-Aug-21 13:46 javax/servlet/http/package.html
+│ --rw----     2.0 fat      874 bl defN 19-Aug-21 13:46 javax/servlet/LocalStrings_ja.properties
+│ --rw----     2.0 fat     1028 bl defN 19-Aug-21 13:46 javax/servlet/descriptor/package.html
+│ --rw----     2.0 fat     1055 bl defN 19-Aug-21 13:46 javax/servlet/annotation/package.html
+│ --rw----     2.0 fat      904 bl defN 19-Aug-21 13:46 javax/servlet/LocalStrings.properties
+│ --rw----     2.0 fat     1265 bl defN 19-Aug-21 13:46 javax/servlet/package.html
+│ +-rw----     2.0 fat      839 bl defN 19-Aug-21 12:46 javax/servlet/LocalStrings_fr.properties
+│ +-rw----     2.0 fat     1441 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings_es.properties
+│ +-rw----     2.0 fat     1400 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings_fr.properties
+│ +-rw----     2.0 fat     2102 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings_ja.properties
+│ +-rw----     2.0 fat     1636 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings.properties
+│ +-rw----     2.0 fat     1098 bl defN 19-Aug-21 12:46 javax/servlet/http/package.html
+│ +-rw----     2.0 fat      874 bl defN 19-Aug-21 12:46 javax/servlet/LocalStrings_ja.properties
+│ +-rw----     2.0 fat     1028 bl defN 19-Aug-21 12:46 javax/servlet/descriptor/package.html
+│ +-rw----     2.0 fat     1055 bl defN 19-Aug-21 12:46 javax/servlet/annotation/package.html
+│ +-rw----     2.0 fat      904 bl defN 19-Aug-21 12:46 javax/servlet/LocalStrings.properties
+│ +-rw----     2.0 fat     1265 bl defN 19-Aug-21 12:46 javax/servlet/package.html
+│  -rw----     2.0 fat        0 bl defN 18-Nov-20 16:36 javax/servlet/resources/
+│  -rw----     2.0 fat    23849 bl defN 18-Nov-20 16:36 javax/servlet/resources/javaee_web_services_1_2.xsd
+│  -rw----     2.0 fat    48641 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-common_3_1.xsd
+│  -rw----     2.0 fat    31147 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-app_2_3.dtd
+│  -rw----     2.0 fat    26765 bl defN 18-Nov-20 16:36 javax/servlet/resources/javaee_web_services_client_1_4.xsd
+│  -rw----     2.0 fat    37061 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-app_2_4.xsd
+│  -rw----     2.0 fat    14192 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-app_4_0.xsd
+│ @@ -12327,956 +12327,956 @@
+│  -rw----     2.0 fat     1691 bl defN 21-Mar-26 12:03 org/glassfish/json/NodeReference$RootReference.class
+│  -rw----     2.0 fat     1548 bl defN 21-Mar-26 12:03 org/glassfish/json/NodeReference.class
+│  -rw----     2.0 fat     3350 bl defN 21-Mar-26 12:03 org/glassfish/json/UnicodeDetectingInputStream.class
+│  -rw----     2.0 fat        0 bl defN 21-Mar-26 12:03 org/glassfish/json/api/
+│  -rw----     2.0 fat      172 bl defN 21-Mar-26 12:03 org/glassfish/json/api/BufferPool.class
+│  -rw----     2.0 fat      245 bl defN 21-Mar-26 12:03 org/glassfish/json/api/JsonConfig.class
+│  -rw----     2.0 fat     5426 bl defN 21-Mar-26 12:02 org/glassfish/json/messages.properties
+│ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:58 META-INF/maven/com.fasterxml.jackson.core/
+│ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:58 META-INF/maven/com.fasterxml.jackson.core/jackson-core/
+│ --rw----     2.0 fat       74 bl defN 21-Aug-27 07:58 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.properties
+│ --rw----     2.0 fat     5534 bl defN 21-Aug-27 07:57 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml
+│ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:57 com/fasterxml/
+│ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:57 com/fasterxml/jackson/
+│ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:57 com/fasterxml/jackson/core/
+│ --rw----     2.0 fat     1372 bl defN 21-Aug-27 07:57 com/fasterxml/jackson/core/Base64Variant$PaddingReadBehaviour.class
+│ --rw----     2.0 fat    12905 bl defN 21-Aug-27 07:57 com/fasterxml/jackson/core/Base64Variant.class
+│ --rw----     2.0 fat     2131 bl defN 21-Aug-27 07:57 com/fasterxml/jackson/core/Base64Variants.class
+│ --rw----     2.0 fat      272 bl defN 21-Aug-27 07:57 com/fasterxml/jackson/core/FormatFeature.class
+│ --rw----     2.0 fat      179 bl defN 21-Aug-27 07:57 com/fasterxml/jackson/core/FormatSchema.class
+│ --rw----     2.0 fat      915 bl defN 21-Aug-27 07:57 com/fasterxml/jackson/core/JacksonException.class
+│ --rw----     2.0 fat     1823 bl defN 21-Aug-27 07:57 com/fasterxml/jackson/core/JsonEncoding.class
+│ --rw----     2.0 fat     2111 bl defN 21-Aug-27 07:57 com/fasterxml/jackson/core/JsonFactory$Feature.class
+...
+│ --rw----     2.0 fat     1930 bl defN 21-Aug-27 07:31 com/fasterxml/jackson/annotation/PropertyAccessor.class
+│ --rw----     2.0 fat     2396 bl defN 21-Aug-27 07:31 com/fasterxml/jackson/annotation/SimpleObjectIdResolver.class
+│ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:58 META-INF/maven/com.fasterxml.jackson.core/
+│ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:58 META-INF/maven/com.fasterxml.jackson.core/jackson-core/
+│ +-rw----     2.0 fat       74 bl defN 21-Aug-27 06:58 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.properties
+│ +-rw----     2.0 fat     5534 bl defN 21-Aug-27 06:57 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml
+│ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:57 com/fasterxml/
+│ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:57 com/fasterxml/jackson/
+│ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:57 com/fasterxml/jackson/core/
+│ +-rw----     2.0 fat     1372 bl defN 21-Aug-27 06:57 com/fasterxml/jackson/core/Base64Variant$PaddingReadBehaviour.class
+│ +-rw----     2.0 fat    12905 bl defN 21-Aug-27 06:57 com/fasterxml/jackson/core/Base64Variant.class
+│ +-rw----     2.0 fat     2131 bl defN 21-Aug-27 06:57 com/fasterxml/jackson/core/Base64Variants.class
+│ +-rw----     2.0 fat      272 bl defN 21-Aug-27 06:57 com/fasterxml/jackson/core/FormatFeature.class
+│ +-rw----     2.0 fat      179 bl defN 21-Aug-27 06:57 com/fasterxml/jackson/core/FormatSchema.class
+│ +-rw----     2.0 fat      915 bl defN 21-Aug-27 06:57 com/fasterxml/jackson/core/JacksonException.class
+│ +-rw----     2.0 fat     1823 bl defN 21-Aug-27 06:57 com/fasterxml/jackson/core/JsonEncoding.class
+│ +-rw----     2.0 fat     2111 bl defN 21-Aug-27 06:57 com/fasterxml/jackson/core/JsonFactory$Feature.class
+...
+│ +-rw----     2.0 fat     1930 bl defN 21-Aug-27 06:31 com/fasterxml/jackson/annotation/PropertyAccessor.class
+│ +-rw----     2.0 fat     2396 bl defN 21-Aug-27 06:31 com/fasterxml/jackson/annotation/SimpleObjectIdResolver.class
+│  -rw----     2.0 fat        0 bl defN 20-Oct-03 12:31 org/apache/http/client/cache/
+│  -rw----     2.0 fat      457 bl defN 20-Oct-03 12:31 org/apache/http/client/cache/ResourceFactory.class
+│  -rw----     2.0 fat        0 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/
+│  -rw----     2.0 fat     1271 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/FileResource.class
+│  -rw----     2.0 fat     1136 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/Proxies.class
+│  -rw----     2.0 fat     5956 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/CachingHttpClientBuilder.class
+│  -rw----     2.0 fat      266 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/FailureCache.class
+
+target/reference/jena-fuseki-fulljar-4.2.0.jar jena-fuseki2/jena-fuseki-fulljar/target/jena-fuseki-fulljar-4.2.0.jar
+--- target/reference/jena-fuseki-fulljar-4.2.0.jar
++++ jena-fuseki2/jena-fuseki-fulljar/target/jena-fuseki-fulljar-4.2.0.jar
+├── zipinfo {}
+│ @@ -1079,25 +1079,25 @@
+│  -rw----     2.0 fat     6752 bl defN 21-Jan-26 14:03 javax/servlet/ServletRequestWrapper.class
+│  -rw----     2.0 fat      213 bl defN 21-Jan-26 14:03 javax/servlet/SingleThreadModel.class
+│  -rw----     2.0 fat      653 bl defN 21-Jan-26 14:03 javax/servlet/ServletContextAttributeListener.class
+│  -rw----     2.0 fat     2508 bl defN 21-Jan-26 14:03 javax/servlet/HttpConstraintElement.class
+│  -rw----     2.0 fat      344 bl defN 21-Jan-26 14:03 javax/servlet/AsyncListener.class
+│  -rw----     2.0 fat      372 bl defN 21-Jan-26 14:03 javax/servlet/ServletContainerInitializer.class
+│  -rw----     2.0 fat      277 bl defN 21-Jan-26 14:03 javax/servlet/WriteListener.class
+│ --rw----     2.0 fat      839 bl defN 19-Aug-21 13:46 javax/servlet/LocalStrings_fr.properties
+│ --rw----     2.0 fat     1441 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings_es.properties
+│ --rw----     2.0 fat     1400 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings_fr.properties
+│ --rw----     2.0 fat     2102 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings_ja.properties
+│ --rw----     2.0 fat     1636 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings.properties
+│ --rw----     2.0 fat     1098 bl defN 19-Aug-21 13:46 javax/servlet/http/package.html
+│ --rw----     2.0 fat      874 bl defN 19-Aug-21 13:46 javax/servlet/LocalStrings_ja.properties
+│ --rw----     2.0 fat     1028 bl defN 19-Aug-21 13:46 javax/servlet/descriptor/package.html
+│ --rw----     2.0 fat     1055 bl defN 19-Aug-21 13:46 javax/servlet/annotation/package.html
+│ --rw----     2.0 fat      904 bl defN 19-Aug-21 13:46 javax/servlet/LocalStrings.properties
+│ --rw----     2.0 fat     1265 bl defN 19-Aug-21 13:46 javax/servlet/package.html
+│ +-rw----     2.0 fat      839 bl defN 19-Aug-21 12:46 javax/servlet/LocalStrings_fr.properties
+│ +-rw----     2.0 fat     1441 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings_es.properties
+│ +-rw----     2.0 fat     1400 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings_fr.properties
+│ +-rw----     2.0 fat     2102 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings_ja.properties
+│ +-rw----     2.0 fat     1636 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings.properties
+│ +-rw----     2.0 fat     1098 bl defN 19-Aug-21 12:46 javax/servlet/http/package.html
+│ +-rw----     2.0 fat      874 bl defN 19-Aug-21 12:46 javax/servlet/LocalStrings_ja.properties
+│ +-rw----     2.0 fat     1028 bl defN 19-Aug-21 12:46 javax/servlet/descriptor/package.html
+│ +-rw----     2.0 fat     1055 bl defN 19-Aug-21 12:46 javax/servlet/annotation/package.html
+│ +-rw----     2.0 fat      904 bl defN 19-Aug-21 12:46 javax/servlet/LocalStrings.properties
+│ +-rw----     2.0 fat     1265 bl defN 19-Aug-21 12:46 javax/servlet/package.html
+│  -rw----     2.0 fat        0 bl defN 18-Nov-20 16:36 javax/servlet/resources/
+│  -rw----     2.0 fat    23849 bl defN 18-Nov-20 16:36 javax/servlet/resources/javaee_web_services_1_2.xsd
+│  -rw----     2.0 fat    48641 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-common_3_1.xsd
+│  -rw----     2.0 fat    31147 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-app_2_3.dtd
+│  -rw----     2.0 fat    26765 bl defN 18-Nov-20 16:36 javax/servlet/resources/javaee_web_services_client_1_4.xsd
+│  -rw----     2.0 fat    37061 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-app_2_4.xsd
+│  -rw----     2.0 fat    14192 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-app_4_0.xsd
+│ @@ -17620,956 +17620,956 @@
+│  -rw----     2.0 fat     1691 bl defN 21-Mar-26 12:03 org/glassfish/json/NodeReference$RootReference.class
+│  -rw----     2.0 fat     1548 bl defN 21-Mar-26 12:03 org/glassfish/json/NodeReference.class
+│  -rw----     2.0 fat     3350 bl defN 21-Mar-26 12:03 org/glassfish/json/UnicodeDetectingInputStream.class
+│  -rw----     2.0 fat        0 bl defN 21-Mar-26 12:03 org/glassfish/json/api/
+│  -rw----     2.0 fat      172 bl defN 21-Mar-26 12:03 org/glassfish/json/api/BufferPool.class
+│  -rw----     2.0 fat      245 bl defN 21-Mar-26 12:03 org/glassfish/json/api/JsonConfig.class
+│  -rw----     2.0 fat     5426 bl defN 21-Mar-26 12:02 org/glassfish/json/messages.properties
+│ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:58 META-INF/maven/com.fasterxml.jackson.core/
+│ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:58 META-INF/maven/com.fasterxml.jackson.core/jackson-core/
+│ --rw----     2.0 fat       74 bl defN 21-Aug-27 07:58 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.properties
+│ --rw----     2.0 fat     5534 bl defN 21-Aug-27 07:57 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml
+│ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:57 com/fasterxml/
+│ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:57 com/fasterxml/jackson/
+│ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:57 com/fasterxml/jackson/core/
+│ --rw----     2.0 fat     1372 bl defN 21-Aug-27 07:57 com/fasterxml/jackson/core/Base64Variant$PaddingReadBehaviour.class
+...
+│ --rw----     2.0 fat     1930 bl defN 21-Aug-27 07:31 com/fasterxml/jackson/annotation/PropertyAccessor.class
+│ --rw----     2.0 fat     2396 bl defN 21-Aug-27 07:31 com/fasterxml/jackson/annotation/SimpleObjectIdResolver.class
+│ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:58 META-INF/maven/com.fasterxml.jackson.core/
+│ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:58 META-INF/maven/com.fasterxml.jackson.core/jackson-core/
+│ +-rw----     2.0 fat       74 bl defN 21-Aug-27 06:58 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.properties
+│ +-rw----     2.0 fat     5534 bl defN 21-Aug-27 06:57 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml
+│ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:57 com/fasterxml/
+│ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:57 com/fasterxml/jackson/
+│ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:57 com/fasterxml/jackson/core/
+│ +-rw----     2.0 fat     1372 bl defN 21-Aug-27 06:57 com/fasterxml/jackson/core/Base64Variant$PaddingReadBehaviour.class
+...
+│ +-rw----     2.0 fat     1930 bl defN 21-Aug-27 06:31 com/fasterxml/jackson/annotation/PropertyAccessor.class
+│ +-rw----     2.0 fat     2396 bl defN 21-Aug-27 06:31 com/fasterxml/jackson/annotation/SimpleObjectIdResolver.class
+│  -rw----     2.0 fat        0 bl defN 20-Oct-03 12:31 org/apache/http/client/cache/
+│  -rw----     2.0 fat      457 bl defN 20-Oct-03 12:31 org/apache/http/client/cache/ResourceFactory.class
+│  -rw----     2.0 fat        0 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/
+│  -rw----     2.0 fat     1271 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/FileResource.class
+│  -rw----     2.0 fat     1136 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/Proxies.class
+│  -rw----     2.0 fat     5956 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/CachingHttpClientBuilder.class
+│  -rw----     2.0 fat      266 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/FailureCache.class
+
+target/reference/jena-fuseki-docker-4.2.0.zip jena-fuseki2/jena-fuseki-docker/target/jena-fuseki-docker-4.2.0.zip
+--- target/reference/jena-fuseki-docker-4.2.0.zip
++++ jena-fuseki2/jena-fuseki-docker/target/jena-fuseki-docker-4.2.0.zip
+├── zipinfo {}
+│ @@ -1,11 +1,11 @@
+│  Zip file size: 11539 bytes, number of entries: 9
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 jena-fuseki-docker-4.2.0/
+│ --rw-r--r--  2.0 unx    11358 b- defN 21-Sep-12 10:16 jena-fuseki-docker-4.2.0/LICENSE
+│ --rw-r--r--  2.0 unx      188 b- defN 21-Sep-12 10:16 jena-fuseki-docker-4.2.0/NOTICE
+│ +-rw-rw-r--  2.0 unx    11358 b- defN 21-Sep-12 10:16 jena-fuseki-docker-4.2.0/LICENSE
+│ +-rw-rw-r--  2.0 unx      188 b- defN 21-Sep-12 10:16 jena-fuseki-docker-4.2.0/NOTICE
+│  -rw-r--r--  2.0 unx     3341 b- defN 21-Sep-12 10:16 jena-fuseki-docker-4.2.0/Dockerfile
+│  -rw-r--r--  2.0 unx     3661 b- defN 21-Sep-12 10:16 jena-fuseki-docker-4.2.0/README.md
+│  -rw-r--r--  2.0 unx     1179 b- defN 21-Sep-12 10:16 jena-fuseki-docker-4.2.0/docker-compose.yaml
+│  -rw-r--r--  2.0 unx     3384 b- defN 21-Sep-12 10:16 jena-fuseki-docker-4.2.0/download.sh
+│  -rw-r--r--  2.0 unx      180 b- defN 21-Sep-12 10:16 jena-fuseki-docker-4.2.0/entrypoint.sh
+│  -rw-r--r--  2.0 unx     2215 b- defN 21-Sep-12 10:16 jena-fuseki-docker-4.2.0/log4j2.properties
+│  9 files, 25506 bytes uncompressed, 10199 bytes compressed:  60.0%
+
+target/reference/apache-jena-fuseki-4.2.0.zip jena-fuseki2/apache-jena-fuseki/target/apache-jena-fuseki-4.2.0.zip
+--- target/reference/apache-jena-fuseki-4.2.0.zip
++++ jena-fuseki2/apache-jena-fuseki/target/apache-jena-fuseki-4.2.0.zip
+├── zipinfo {}
+│ @@ -21,17 +21,17 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 apache-jena-fuseki-4.2.0/webapp/js/lib/mode/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 apache-jena-fuseki-4.2.0/webapp/js/lib/mode/javascript/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 apache-jena-fuseki-4.2.0/webapp/js/lib/mode/sparql/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 apache-jena-fuseki-4.2.0/webapp/js/lib/mode/turtle/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 apache-jena-fuseki-4.2.0/webapp/js/lib/mode/xml/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 apache-jena-fuseki-4.2.0/webapp/js/lib/plugins/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 apache-jena-fuseki-4.2.0/webapp/test/
+│ --rw-r--r--  2.0 unx    30636 b- defN 21-Sep-12 10:16 apache-jena-fuseki-4.2.0/LICENSE
+│ --rw-r--r--  2.0 unx     9534 b- defN 21-Sep-12 10:16 apache-jena-fuseki-4.2.0/NOTICE
+│ --rw-r--r--  2.0 unx     2463 b- defN 21-Sep-12 10:16 apache-jena-fuseki-4.2.0/README
+│ +-rw-rw-r--  2.0 unx    30636 b- defN 21-Sep-12 10:16 apache-jena-fuseki-4.2.0/LICENSE
+│ +-rw-rw-r--  2.0 unx     9534 b- defN 21-Sep-12 10:16 apache-jena-fuseki-4.2.0/NOTICE
+│ +-rw-rw-r--  2.0 unx     2463 b- defN 21-Sep-12 10:16 apache-jena-fuseki-4.2.0/README
+│  -rw-r--r--  2.0 unx    12339 b- defN 21-Sep-12 10:16 apache-jena-fuseki-4.2.0/fuseki
+│  -rw-r--r--  2.0 unx     1264 b- defN 21-Sep-12 10:16 apache-jena-fuseki-4.2.0/fuseki-server.bat
+│  -rw-r--r--  2.0 unx     2217 b- defN 21-Sep-12 10:16 apache-jena-fuseki-4.2.0/fuseki.service
+│  -rw-r--r--  2.0 unx     2124 b- defN 21-Sep-12 10:16 apache-jena-fuseki-4.2.0/log4j2.properties
+│  -rwxr-xr-x  2.0 unx    18731 b- defN 21-Sep-12 10:16 apache-jena-fuseki-4.2.0/bin/s-delete
+│  -rwxr-xr-x  2.0 unx    18731 b- defN 21-Sep-12 10:16 apache-jena-fuseki-4.2.0/bin/s-get
+│  -rwxr-xr-x  2.0 unx    18731 b- defN 21-Sep-12 10:16 apache-jena-fuseki-4.2.0/bin/s-head
+├── apache-jena-fuseki-4.2.0/fuseki-server.jar
+│ ├── zipinfo {}
+│ │ @@ -1079,25 +1079,25 @@
+│ │  -rw----     2.0 fat     6752 bl defN 21-Jan-26 14:03 javax/servlet/ServletRequestWrapper.class
+│ │  -rw----     2.0 fat      213 bl defN 21-Jan-26 14:03 javax/servlet/SingleThreadModel.class
+│ │  -rw----     2.0 fat      653 bl defN 21-Jan-26 14:03 javax/servlet/ServletContextAttributeListener.class
+│ │  -rw----     2.0 fat     2508 bl defN 21-Jan-26 14:03 javax/servlet/HttpConstraintElement.class
+│ │  -rw----     2.0 fat      344 bl defN 21-Jan-26 14:03 javax/servlet/AsyncListener.class
+│ │  -rw----     2.0 fat      372 bl defN 21-Jan-26 14:03 javax/servlet/ServletContainerInitializer.class
+│ │  -rw----     2.0 fat      277 bl defN 21-Jan-26 14:03 javax/servlet/WriteListener.class
+│ │ --rw----     2.0 fat      839 bl defN 19-Aug-21 13:46 javax/servlet/LocalStrings_fr.properties
+│ │ --rw----     2.0 fat     1441 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings_es.properties
+│ │ --rw----     2.0 fat     1400 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings_fr.properties
+│ │ --rw----     2.0 fat     2102 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings_ja.properties
+│ │ --rw----     2.0 fat     1636 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings.properties
+│ │ --rw----     2.0 fat     1098 bl defN 19-Aug-21 13:46 javax/servlet/http/package.html
+│ │ --rw----     2.0 fat      874 bl defN 19-Aug-21 13:46 javax/servlet/LocalStrings_ja.properties
+│ │ --rw----     2.0 fat     1028 bl defN 19-Aug-21 13:46 javax/servlet/descriptor/package.html
+│ │ --rw----     2.0 fat     1055 bl defN 19-Aug-21 13:46 javax/servlet/annotation/package.html
+│ │ --rw----     2.0 fat      904 bl defN 19-Aug-21 13:46 javax/servlet/LocalStrings.properties
+│ │ --rw----     2.0 fat     1265 bl defN 19-Aug-21 13:46 javax/servlet/package.html
+│ │ +-rw----     2.0 fat      839 bl defN 19-Aug-21 12:46 javax/servlet/LocalStrings_fr.properties
+│ │ +-rw----     2.0 fat     1441 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings_es.properties
+│ │ +-rw----     2.0 fat     1400 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings_fr.properties
+│ │ +-rw----     2.0 fat     2102 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings_ja.properties
+│ │ +-rw----     2.0 fat     1636 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings.properties
+│ │ +-rw----     2.0 fat     1098 bl defN 19-Aug-21 12:46 javax/servlet/http/package.html
+│ │ +-rw----     2.0 fat      874 bl defN 19-Aug-21 12:46 javax/servlet/LocalStrings_ja.properties
+│ │ +-rw----     2.0 fat     1028 bl defN 19-Aug-21 12:46 javax/servlet/descriptor/package.html
+│ │ +-rw----     2.0 fat     1055 bl defN 19-Aug-21 12:46 javax/servlet/annotation/package.html
+│ │ +-rw----     2.0 fat      904 bl defN 19-Aug-21 12:46 javax/servlet/LocalStrings.properties
+│ │ +-rw----     2.0 fat     1265 bl defN 19-Aug-21 12:46 javax/servlet/package.html
+│ │  -rw----     2.0 fat        0 bl defN 18-Nov-20 16:36 javax/servlet/resources/
+│ │  -rw----     2.0 fat    23849 bl defN 18-Nov-20 16:36 javax/servlet/resources/javaee_web_services_1_2.xsd
+│ │  -rw----     2.0 fat    48641 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-common_3_1.xsd
+│ │  -rw----     2.0 fat    31147 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-app_2_3.dtd
+│ │  -rw----     2.0 fat    26765 bl defN 18-Nov-20 16:36 javax/servlet/resources/javaee_web_services_client_1_4.xsd
+│ │  -rw----     2.0 fat    37061 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-app_2_4.xsd
+│ │  -rw----     2.0 fat    14192 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-app_4_0.xsd
+│ │ @@ -17620,956 +17620,956 @@
+│ │  -rw----     2.0 fat     1691 bl defN 21-Mar-26 12:03 org/glassfish/json/NodeReference$RootReference.class
+│ │  -rw----     2.0 fat     1548 bl defN 21-Mar-26 12:03 org/glassfish/json/NodeReference.class
+│ │  -rw----     2.0 fat     3350 bl defN 21-Mar-26 12:03 org/glassfish/json/UnicodeDetectingInputStream.class
+│ │  -rw----     2.0 fat        0 bl defN 21-Mar-26 12:03 org/glassfish/json/api/
+│ │  -rw----     2.0 fat      172 bl defN 21-Mar-26 12:03 org/glassfish/json/api/BufferPool.class
+│ │  -rw----     2.0 fat      245 bl defN 21-Mar-26 12:03 org/glassfish/json/api/JsonConfig.class
+│ │  -rw----     2.0 fat     5426 bl defN 21-Mar-26 12:02 org/glassfish/json/messages.properties
+│ │ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:58 META-INF/maven/com.fasterxml.jackson.core/
+│ │ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:58 META-INF/maven/com.fasterxml.jackson.core/jackson-core/
+│ │ --rw----     2.0 fat       74 bl defN 21-Aug-27 07:58 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.properties
+│ │ --rw----     2.0 fat     5534 bl defN 21-Aug-27 07:57 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml
+│ │ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:57 com/fasterxml/
+│ │ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:57 com/fasterxml/jackson/
+│ │ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:57 com/fasterxml/jackson/core/
+│ │ --rw----     2.0 fat     1372 bl defN 21-Aug-27 07:57 com/fasterxml/jackson/core/Base64Variant$PaddingReadBehaviour.class
+..
+│ │ --rw----     2.0 fat     1930 bl defN 21-Aug-27 07:31 com/fasterxml/jackson/annotation/PropertyAccessor.class
+│ │ --rw----     2.0 fat     2396 bl defN 21-Aug-27 07:31 com/fasterxml/jackson/annotation/SimpleObjectIdResolver.class
+│ │ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:58 META-INF/maven/com.fasterxml.jackson.core/
+│ │ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:58 META-INF/maven/com.fasterxml.jackson.core/jackson-core/
+│ │ +-rw----     2.0 fat       74 bl defN 21-Aug-27 06:58 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.properties
+│ │ +-rw----     2.0 fat     5534 bl defN 21-Aug-27 06:57 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml
+│ │ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:57 com/fasterxml/
+│ │ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:57 com/fasterxml/jackson/
+│ │ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:57 com/fasterxml/jackson/core/
+│ │ +-rw----     2.0 fat     1372 bl defN 21-Aug-27 06:57 com/fasterxml/jackson/core/Base64Variant$PaddingReadBehaviour.class
+...
+│ │ +-rw----     2.0 fat     1930 bl defN 21-Aug-27 06:31 com/fasterxml/jackson/annotation/PropertyAccessor.class
+│ │ +-rw----     2.0 fat     2396 bl defN 21-Aug-27 06:31 com/fasterxml/jackson/annotation/SimpleObjectIdResolver.class
+│ │  -rw----     2.0 fat        0 bl defN 20-Oct-03 12:31 org/apache/http/client/cache/
+│ │  -rw----     2.0 fat      457 bl defN 20-Oct-03 12:31 org/apache/http/client/cache/ResourceFactory.class
+│ │  -rw----     2.0 fat        0 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/
+│ │  -rw----     2.0 fat     1271 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/FileResource.class
+│ │  -rw----     2.0 fat     1136 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/Proxies.class
+│ │  -rw----     2.0 fat     5956 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/CachingHttpClientBuilder.class
+│ │  -rw----     2.0 fat      266 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/FailureCache.class
+
+target/reference/apache-jena-fuseki-4.2.0.tar.gz jena-fuseki2/apache-jena-fuseki/target/apache-jena-fuseki-4.2.0.tar.gz
+--- target/reference/apache-jena-fuseki-4.2.0.tar.gz
++++ jena-fuseki2/apache-jena-fuseki/target/apache-jena-fuseki-4.2.0.tar.gz
+├── apache-jena-fuseki-4.2.0.tar
+│ ├── file list
+│ │ @@ -1,10 +1,10 @@
+│ │ --rw-r--r--   0 root         (0) root         (0)    30636 2021-09-12 10:16:12.000000 apache-jena-fuseki-4.2.0/LICENSE
+│ │ --rw-r--r--   0 root         (0) root         (0)     9534 2021-09-12 10:16:12.000000 apache-jena-fuseki-4.2.0/NOTICE
+│ │ --rw-r--r--   0 root         (0) root         (0)     2463 2021-09-12 10:16:12.000000 apache-jena-fuseki-4.2.0/README
+│ │ +-rw-rw-r--   0 root         (0) root         (0)    30636 2021-09-12 10:16:12.000000 apache-jena-fuseki-4.2.0/LICENSE
+│ │ +-rw-rw-r--   0 root         (0) root         (0)     9534 2021-09-12 10:16:12.000000 apache-jena-fuseki-4.2.0/NOTICE
+│ │ +-rw-rw-r--   0 root         (0) root         (0)     2463 2021-09-12 10:16:12.000000 apache-jena-fuseki-4.2.0/README
+│ │  -rw-r--r--   0 root         (0) root         (0)    12339 2021-09-12 10:16:12.000000 apache-jena-fuseki-4.2.0/fuseki
+│ │  -rw-r--r--   0 root         (0) root         (0)     1264 2021-09-12 10:16:12.000000 apache-jena-fuseki-4.2.0/fuseki-server.bat
+│ │  -rw-r--r--   0 root         (0) root         (0)     2217 2021-09-12 10:16:12.000000 apache-jena-fuseki-4.2.0/fuseki.service
+│ │  -rw-r--r--   0 root         (0) root         (0)     2124 2021-09-12 10:16:12.000000 apache-jena-fuseki-4.2.0/log4j2.properties
+│ │  -rwxr-xr-x   0 root         (0) root         (0)    18731 2021-09-12 10:16:12.000000 apache-jena-fuseki-4.2.0/bin/s-delete
+│ │  -rwxr-xr-x   0 root         (0) root         (0)    18731 2021-09-12 10:16:12.000000 apache-jena-fuseki-4.2.0/bin/s-get
+│ │  -rwxr-xr-x   0 root         (0) root         (0)    18731 2021-09-12 10:16:12.000000 apache-jena-fuseki-4.2.0/bin/s-head
+│ ├── apache-jena-fuseki-4.2.0/fuseki-server.jar
+│ │ ├── zipinfo {}
+│ │ │ @@ -1079,25 +1079,25 @@
+│ │ │  -rw----     2.0 fat     6752 bl defN 21-Jan-26 14:03 javax/servlet/ServletRequestWrapper.class
+│ │ │  -rw----     2.0 fat      213 bl defN 21-Jan-26 14:03 javax/servlet/SingleThreadModel.class
+│ │ │  -rw----     2.0 fat      653 bl defN 21-Jan-26 14:03 javax/servlet/ServletContextAttributeListener.class
+│ │ │  -rw----     2.0 fat     2508 bl defN 21-Jan-26 14:03 javax/servlet/HttpConstraintElement.class
+│ │ │  -rw----     2.0 fat      344 bl defN 21-Jan-26 14:03 javax/servlet/AsyncListener.class
+│ │ │  -rw----     2.0 fat      372 bl defN 21-Jan-26 14:03 javax/servlet/ServletContainerInitializer.class
+│ │ │  -rw----     2.0 fat      277 bl defN 21-Jan-26 14:03 javax/servlet/WriteListener.class
+│ │ │ --rw----     2.0 fat      839 bl defN 19-Aug-21 13:46 javax/servlet/LocalStrings_fr.properties
+│ │ │ --rw----     2.0 fat     1441 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings_es.properties
+│ │ │ --rw----     2.0 fat     1400 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings_fr.properties
+│ │ │ --rw----     2.0 fat     2102 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings_ja.properties
+│ │ │ --rw----     2.0 fat     1636 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings.properties
+│ │ │ --rw----     2.0 fat     1098 bl defN 19-Aug-21 13:46 javax/servlet/http/package.html
+│ │ │ --rw----     2.0 fat      874 bl defN 19-Aug-21 13:46 javax/servlet/LocalStrings_ja.properties
+│ │ │ --rw----     2.0 fat     1028 bl defN 19-Aug-21 13:46 javax/servlet/descriptor/package.html
+│ │ │ --rw----     2.0 fat     1055 bl defN 19-Aug-21 13:46 javax/servlet/annotation/package.html
+│ │ │ --rw----     2.0 fat      904 bl defN 19-Aug-21 13:46 javax/servlet/LocalStrings.properties
+│ │ │ --rw----     2.0 fat     1265 bl defN 19-Aug-21 13:46 javax/servlet/package.html
+│ │ │ +-rw----     2.0 fat      839 bl defN 19-Aug-21 12:46 javax/servlet/LocalStrings_fr.properties
+│ │ │ +-rw----     2.0 fat     1441 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings_es.properties
+│ │ │ +-rw----     2.0 fat     1400 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings_fr.properties
+│ │ │ +-rw----     2.0 fat     2102 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings_ja.properties
+│ │ │ +-rw----     2.0 fat     1636 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings.properties
+│ │ │ +-rw----     2.0 fat     1098 bl defN 19-Aug-21 12:46 javax/servlet/http/package.html
+│ │ │ +-rw----     2.0 fat      874 bl defN 19-Aug-21 12:46 javax/servlet/LocalStrings_ja.properties
+│ │ │ +-rw----     2.0 fat     1028 bl defN 19-Aug-21 12:46 javax/servlet/descriptor/package.html
+│ │ │ +-rw----     2.0 fat     1055 bl defN 19-Aug-21 12:46 javax/servlet/annotation/package.html
+│ │ │ +-rw----     2.0 fat      904 bl defN 19-Aug-21 12:46 javax/servlet/LocalStrings.properties
+│ │ │ +-rw----     2.0 fat     1265 bl defN 19-Aug-21 12:46 javax/servlet/package.html
+│ │ │  -rw----     2.0 fat        0 bl defN 18-Nov-20 16:36 javax/servlet/resources/
+│ │ │  -rw----     2.0 fat    23849 bl defN 18-Nov-20 16:36 javax/servlet/resources/javaee_web_services_1_2.xsd
+│ │ │  -rw----     2.0 fat    48641 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-common_3_1.xsd
+│ │ │  -rw----     2.0 fat    31147 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-app_2_3.dtd
+│ │ │  -rw----     2.0 fat    26765 bl defN 18-Nov-20 16:36 javax/servlet/resources/javaee_web_services_client_1_4.xsd
+│ │ │  -rw----     2.0 fat    37061 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-app_2_4.xsd
+│ │ │  -rw----     2.0 fat    14192 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-app_4_0.xsd
+│ │ │ @@ -17620,956 +17620,956 @@
+│ │ │  -rw----     2.0 fat     1691 bl defN 21-Mar-26 12:03 org/glassfish/json/NodeReference$RootReference.class
+│ │ │  -rw----     2.0 fat     1548 bl defN 21-Mar-26 12:03 org/glassfish/json/NodeReference.class
+│ │ │  -rw----     2.0 fat     3350 bl defN 21-Mar-26 12:03 org/glassfish/json/UnicodeDetectingInputStream.class
+│ │ │  -rw----     2.0 fat        0 bl defN 21-Mar-26 12:03 org/glassfish/json/api/
+│ │ │  -rw----     2.0 fat      172 bl defN 21-Mar-26 12:03 org/glassfish/json/api/BufferPool.class
+│ │ │  -rw----     2.0 fat      245 bl defN 21-Mar-26 12:03 org/glassfish/json/api/JsonConfig.class
+│ │ │  -rw----     2.0 fat     5426 bl defN 21-Mar-26 12:02 org/glassfish/json/messages.properties
+│ │ │ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:58 META-INF/maven/com.fasterxml.jackson.core/
+│ │ │ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:58 META-INF/maven/com.fasterxml.jackson.core/jackson-core/
+│ │ │ --rw----     2.0 fat       74 bl defN 21-Aug-27 07:58 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.properties
+│ │ │ --rw----     2.0 fat     5534 bl defN 21-Aug-27 07:57 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml
+│ │ │ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:57 com/fasterxml/
+│ │ │ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:57 com/fasterxml/jackson/
+│ │ │ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:57 com/fasterxml/jackson/core/
+│ │ │ --rw----     2.0 fat     1372 bl defN 21-Aug-27 07:57 com/fasterxml/jackson/core/Base64Variant$PaddingReadBehaviour.class
+...
+│ │ │ --rw----     2.0 fat     1930 bl defN 21-Aug-27 07:31 com/fasterxml/jackson/annotation/PropertyAccessor.class
+│ │ │ --rw----     2.0 fat     2396 bl defN 21-Aug-27 07:31 com/fasterxml/jackson/annotation/SimpleObjectIdResolver.class
+│ │ │ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:58 META-INF/maven/com.fasterxml.jackson.core/
+│ │ │ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:58 META-INF/maven/com.fasterxml.jackson.core/jackson-core/
+│ │ │ +-rw----     2.0 fat       74 bl defN 21-Aug-27 06:58 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.properties
+│ │ │ +-rw----     2.0 fat     5534 bl defN 21-Aug-27 06:57 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml
+│ │ │ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:57 com/fasterxml/
+│ │ │ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:57 com/fasterxml/jackson/
+│ │ │ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:57 com/fasterxml/jackson/core/
+│ │ │ +-rw----     2.0 fat     1372 bl defN 21-Aug-27 06:57 com/fasterxml/jackson/core/Base64Variant$PaddingReadBehaviour.class
+...
+│ │ │ +-rw----     2.0 fat     1930 bl defN 21-Aug-27 06:31 com/fasterxml/jackson/annotation/PropertyAccessor.class
+│ │ │ +-rw----     2.0 fat     2396 bl defN 21-Aug-27 06:31 com/fasterxml/jackson/annotation/SimpleObjectIdResolver.class
+│ │ │  -rw----     2.0 fat        0 bl defN 20-Oct-03 12:31 org/apache/http/client/cache/
+│ │ │  -rw----     2.0 fat      457 bl defN 20-Oct-03 12:31 org/apache/http/client/cache/ResourceFactory.class
+│ │ │  -rw----     2.0 fat        0 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/
+│ │ │  -rw----     2.0 fat     1271 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/FileResource.class
+│ │ │  -rw----     2.0 fat     1136 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/Proxies.class
+│ │ │  -rw----     2.0 fat     5956 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/CachingHttpClientBuilder.class
+│ │ │  -rw----     2.0 fat      266 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/FailureCache.class
+
+target/reference/jena-fuseki-geosparql-4.2.0.jar jena-fuseki2/jena-fuseki-geosparql/target/jena-fuseki-geosparql-4.2.0.jar
+--- target/reference/jena-fuseki-geosparql-4.2.0.jar
++++ jena-fuseki2/jena-fuseki-geosparql/target/jena-fuseki-geosparql-4.2.0.jar
+├── zipinfo {}
+│ @@ -10416,956 +10416,956 @@
+│  -rw----     2.0 fat     1691 bl defN 21-Mar-26 12:03 org/glassfish/json/NodeReference$RootReference.class
+│  -rw----     2.0 fat     1548 bl defN 21-Mar-26 12:03 org/glassfish/json/NodeReference.class
+│  -rw----     2.0 fat     3350 bl defN 21-Mar-26 12:03 org/glassfish/json/UnicodeDetectingInputStream.class
+│  -rw----     2.0 fat        0 bl defN 21-Mar-26 12:03 org/glassfish/json/api/
+│  -rw----     2.0 fat      172 bl defN 21-Mar-26 12:03 org/glassfish/json/api/BufferPool.class
+│  -rw----     2.0 fat      245 bl defN 21-Mar-26 12:03 org/glassfish/json/api/JsonConfig.class
+│  -rw----     2.0 fat     5426 bl defN 21-Mar-26 12:02 org/glassfish/json/messages.properties
+│ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:58 META-INF/maven/com.fasterxml.jackson.core/
+│ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:58 META-INF/maven/com.fasterxml.jackson.core/jackson-core/
+│ --rw----     2.0 fat       74 bl defN 21-Aug-27 07:58 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.properties
+│ --rw----     2.0 fat     5534 bl defN 21-Aug-27 07:57 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml
+│ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:57 com/fasterxml/
+│ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:57 com/fasterxml/jackson/
+│ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:57 com/fasterxml/jackson/core/
+│ --rw----     2.0 fat     1372 bl defN 21-Aug-27 07:57 com/fasterxml/jackson/core/Base64Variant$PaddingReadBehaviour.class
+...
+│ --rw----     2.0 fat     1930 bl defN 21-Aug-27 07:31 com/fasterxml/jackson/annotation/PropertyAccessor.class
+│ --rw----     2.0 fat     2396 bl defN 21-Aug-27 07:31 com/fasterxml/jackson/annotation/SimpleObjectIdResolver.class
+│ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:58 META-INF/maven/com.fasterxml.jackson.core/
+│ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:58 META-INF/maven/com.fasterxml.jackson.core/jackson-core/
+│ +-rw----     2.0 fat       74 bl defN 21-Aug-27 06:58 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.properties
+│ +-rw----     2.0 fat     5534 bl defN 21-Aug-27 06:57 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml
+│ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:57 com/fasterxml/
+│ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:57 com/fasterxml/jackson/
+│ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:57 com/fasterxml/jackson/core/
+│ +-rw----     2.0 fat     1372 bl defN 21-Aug-27 06:57 com/fasterxml/jackson/core/Base64Variant$PaddingReadBehaviour.class
+...
+│ +-rw----     2.0 fat     1930 bl defN 21-Aug-27 06:31 com/fasterxml/jackson/annotation/PropertyAccessor.class
+│ +-rw----     2.0 fat     2396 bl defN 21-Aug-27 06:31 com/fasterxml/jackson/annotation/SimpleObjectIdResolver.class
+│  -rw----     2.0 fat        0 bl defN 20-Oct-03 12:31 org/apache/http/client/cache/
+│  -rw----     2.0 fat      457 bl defN 20-Oct-03 12:31 org/apache/http/client/cache/ResourceFactory.class
+│  -rw----     2.0 fat        0 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/
+│  -rw----     2.0 fat     1271 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/FileResource.class
+│  -rw----     2.0 fat     1136 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/Proxies.class
+│  -rw----     2.0 fat     5956 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/CachingHttpClientBuilder.class
+│  -rw----     2.0 fat      266 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/FailureCache.class
+│ @@ -18135,25 +18135,25 @@
+│  -rw----     2.0 fat     6752 bl defN 21-Jan-26 14:03 javax/servlet/ServletRequestWrapper.class
+│  -rw----     2.0 fat      213 bl defN 21-Jan-26 14:03 javax/servlet/SingleThreadModel.class
+│  -rw----     2.0 fat      653 bl defN 21-Jan-26 14:03 javax/servlet/ServletContextAttributeListener.class
+│  -rw----     2.0 fat     2508 bl defN 21-Jan-26 14:03 javax/servlet/HttpConstraintElement.class
+│  -rw----     2.0 fat      344 bl defN 21-Jan-26 14:03 javax/servlet/AsyncListener.class
+│  -rw----     2.0 fat      372 bl defN 21-Jan-26 14:03 javax/servlet/ServletContainerInitializer.class
+│  -rw----     2.0 fat      277 bl defN 21-Jan-26 14:03 javax/servlet/WriteListener.class
+│ --rw----     2.0 fat      839 bl defN 19-Aug-21 13:46 javax/servlet/LocalStrings_fr.properties
+│ --rw----     2.0 fat     1441 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings_es.properties
+│ --rw----     2.0 fat     1400 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings_fr.properties
+│ --rw----     2.0 fat     2102 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings_ja.properties
+│ --rw----     2.0 fat     1636 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings.properties
+│ --rw----     2.0 fat     1098 bl defN 19-Aug-21 13:46 javax/servlet/http/package.html
+│ --rw----     2.0 fat      874 bl defN 19-Aug-21 13:46 javax/servlet/LocalStrings_ja.properties
+│ --rw----     2.0 fat     1028 bl defN 19-Aug-21 13:46 javax/servlet/descriptor/package.html
+│ --rw----     2.0 fat     1055 bl defN 19-Aug-21 13:46 javax/servlet/annotation/package.html
+│ --rw----     2.0 fat      904 bl defN 19-Aug-21 13:46 javax/servlet/LocalStrings.properties
+│ --rw----     2.0 fat     1265 bl defN 19-Aug-21 13:46 javax/servlet/package.html
+│ +-rw----     2.0 fat      839 bl defN 19-Aug-21 12:46 javax/servlet/LocalStrings_fr.properties
+│ +-rw----     2.0 fat     1441 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings_es.properties
+│ +-rw----     2.0 fat     1400 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings_fr.properties
+│ +-rw----     2.0 fat     2102 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings_ja.properties
+│ +-rw----     2.0 fat     1636 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings.properties
+│ +-rw----     2.0 fat     1098 bl defN 19-Aug-21 12:46 javax/servlet/http/package.html
+│ +-rw----     2.0 fat      874 bl defN 19-Aug-21 12:46 javax/servlet/LocalStrings_ja.properties
+│ +-rw----     2.0 fat     1028 bl defN 19-Aug-21 12:46 javax/servlet/descriptor/package.html
+│ +-rw----     2.0 fat     1055 bl defN 19-Aug-21 12:46 javax/servlet/annotation/package.html
+│ +-rw----     2.0 fat      904 bl defN 19-Aug-21 12:46 javax/servlet/LocalStrings.properties
+│ +-rw----     2.0 fat     1265 bl defN 19-Aug-21 12:46 javax/servlet/package.html
+│  -rw----     2.0 fat        0 bl defN 18-Nov-20 16:36 javax/servlet/resources/
+│  -rw----     2.0 fat    23849 bl defN 18-Nov-20 16:36 javax/servlet/resources/javaee_web_services_1_2.xsd
+│  -rw----     2.0 fat    48641 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-common_3_1.xsd
+│  -rw----     2.0 fat    31147 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-app_2_3.dtd
+│  -rw----     2.0 fat    26765 bl defN 18-Nov-20 16:36 javax/servlet/resources/javaee_web_services_client_1_4.xsd
+│  -rw----     2.0 fat    37061 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-app_2_4.xsd
+│  -rw----     2.0 fat    14192 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-app_4_0.xsd
+
+target/reference/jena-permissions-4.2.0-sources.jar jena-permissions/target/jena-permissions-4.2.0-sources.jar
+--- target/reference/jena-permissions-4.2.0-sources.jar
++++ jena-permissions/target/jena-permissions-4.2.0-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 135468 bytes, number of entries: 108
+│ +Zip file size: 134242 bytes, number of entries: 104
+│  -rw-r--r--  2.0 unx       64 b- defN 21-Sep-12 10:16 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 org/apache/jena/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 org/apache/jena/permissions/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 org/apache/jena/permissions/graph/
+│ @@ -12,30 +12,26 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 org/apache/jena/permissions/model/impl/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 org/apache/jena/permissions/query/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 org/apache/jena/permissions/query/rewriter/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 org/apache/jena/permissions/utils/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 org/apache/jena/permissions/example/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 org/apache/jena/permissions/example/readonly/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /home/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /home/afs/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /home/afs/ASF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /home/afs/ASF/Release/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /home/afs/ASF/Release/jena/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /home/afs/ASF/Release/jena/target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /home/afs/ASF/Release/jena/target/checkout/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /home/afs/ASF/Release/jena/target/checkout/jena-permissions/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/example/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /var/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /var/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /var/maven/app/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /var/maven/app/jena-permissions/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /var/maven/app/jena-permissions/target/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /var/maven/app/jena-permissions/target/classes/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /var/maven/app/jena-permissions/target/classes/org/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /var/maven/app/jena-permissions/target/classes/org/apache/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /var/maven/app/jena-permissions/target/classes/org/apache/jena/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/example/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 META-INF/maven/org.apache.jena/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 META-INF/maven/org.apache.jena/jena-permissions/
+│  -rw-r--r--  2.0 unx     8665 b- defN 21-Sep-12 10:16 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 21-Sep-12 10:16 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      191 b- defN 21-Sep-12 10:16 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     2273 b- defN 21-Sep-12 10:16 org/apache/jena/permissions/AssemblerConstants.java
+│ @@ -98,13 +94,13 @@
+│  -rw-r--r--  2.0 unx     2338 b- defN 21-Sep-12 10:16 org/apache/jena/permissions/utils/RDFListIterator.java
+│  -rw-r--r--  2.0 unx     2732 b- defN 21-Sep-12 10:16 org/apache/jena/permissions/utils/RDFListSecFilter.java
+│  -rw-r--r--  2.0 unx     4960 b- defN 21-Sep-12 10:16 org/apache/jena/permissions/example/ExampleEvaluator.java
+│  -rw-r--r--  2.0 unx     3685 b- defN 21-Sep-12 10:16 org/apache/jena/permissions/example/SecurityExample.java
+│  -rw-r--r--  2.0 unx     8650 b- defN 21-Sep-12 10:16 org/apache/jena/permissions/example/ShiroExampleEvaluator.java
+│  -rw-r--r--  2.0 unx     3315 b- defN 21-Sep-12 10:16 org/apache/jena/permissions/example/readonly/ReadOnlyEval.java
+│  -rw-r--r--  2.0 unx      917 b- defN 21-Sep-12 10:16 org/apache/jena/permissions/example/readonly/package-info.java
+│ --rw-r--r--  2.0 unx     1341 b- defN 21-Sep-12 10:16 /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/example/example.ttl
+│ --rw-r--r--  2.0 unx     3981 b- defN 21-Sep-12 10:16 /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/config.ttl
+│ --rw-r--r--  2.0 unx     1368 b- defN 21-Sep-12 10:16 /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/shiro.ini
+│ +-rw-r--r--  2.0 unx     1341 b- defN 21-Sep-12 10:16 /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/example/example.ttl
+│ +-rw-r--r--  2.0 unx     3981 b- defN 21-Sep-12 10:16 /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/config.ttl
+│ +-rw-r--r--  2.0 unx     1368 b- defN 21-Sep-12 10:16 /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/shiro.ini
+│  -rw-r--r--  2.0 unx     8109 b- defN 21-Sep-12 10:16 META-INF/maven/org.apache.jena/jena-permissions/pom.xml
+│  -rw-r--r--  2.0 unx       66 b- defN 21-Sep-12 10:16 META-INF/maven/org.apache.jena/jena-permissions/pom.properties
+│ -108 files, 649041 bytes uncompressed, 115842 bytes compressed:  82.2%
+│ +104 files, 649041 bytes uncompressed, 115842 bytes compressed:  82.2%
+├── zipnote «TEMP»/diffoscope_femf4g2b_target/tmpks9q276k.zip
+│ @@ -45,60 +45,48 @@
+│  
+│  Filename: org/apache/jena/permissions/example/readonly/
+│  Comment: 
+│  
+│  Filename: /
+│  Comment: 
+│  
+│ -Filename: /home/
+│ +Filename: /var/
+│  Comment: 
+│  
+│ -Filename: /home/afs/
+│ +Filename: /var/maven/
+│  Comment: 
+│  
+│ -Filename: /home/afs/ASF/
+│ +Filename: /var/maven/app/
+│  Comment: 
+│  
+│ -Filename: /home/afs/ASF/Release/
+│ +Filename: /var/maven/app/jena-permissions/
+│  Comment: 
+│  
+│ -Filename: /home/afs/ASF/Release/jena/
+│ +Filename: /var/maven/app/jena-permissions/target/
+│  Comment: 
+│  
+│ -Filename: /home/afs/ASF/Release/jena/target/
+│ +Filename: /var/maven/app/jena-permissions/target/classes/
+│  Comment: 
+│  
+│ -Filename: /home/afs/ASF/Release/jena/target/checkout/
+│ +Filename: /var/maven/app/jena-permissions/target/classes/org/
+│  Comment: 
+│  
+│ -Filename: /home/afs/ASF/Release/jena/target/checkout/jena-permissions/
+│ +Filename: /var/maven/app/jena-permissions/target/classes/org/apache/
+│  Comment: 
+│  
+│ -Filename: /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/
+│ +Filename: /var/maven/app/jena-permissions/target/classes/org/apache/jena/
+│  Comment: 
+│  
+│ -Filename: /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/
+│ +Filename: /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/
+│  Comment: 
+│  
+│ -Filename: /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/
+│ +Filename: /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/example/
+│  Comment: 
+│  
+│ -Filename: /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/
+│ -Comment: 
+│ -
+│ -Filename: /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/
+│ -Comment: 
+│ -
+│ -Filename: /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/
+│ -Comment: 
+│ -
+│ -Filename: /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/example/
+│ -Comment: 
+│ -
+│ -Filename: /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/
+│ +Filename: /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.jena/
+│  Comment: 
+│ @@ -303,21 +291,21 @@
+│  
+│  Filename: org/apache/jena/permissions/example/readonly/ReadOnlyEval.java
+│  Comment: 
+│  
+│  Filename: org/apache/jena/permissions/example/readonly/package-info.java
+│  Comment: 
+│  
+│ -Filename: /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/example/example.ttl
+│ +Filename: /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/example/example.ttl
+│  Comment: 
+│  
+│ -Filename: /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/config.ttl
+│ +Filename: /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/config.ttl
+│  Comment: 
+│  
+│ -Filename: /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/shiro.ini
+│ +Filename: /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/shiro.ini
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.jena/jena-permissions/pom.xml
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.jena/jena-permissions/pom.properties
+│  Comment:
+│   --- /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/example/example.ttl
+├── +++ /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/example/example.ttl
+│┄ Files identical despite different names
+│   --- /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/config.ttl
+├── +++ /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/config.ttl
+│┄ Files identical despite different names
+│   --- /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/shiro.ini
+├── +++ /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/shiro.ini
+│┄ Files identical despite different names
+
+target/reference/jena-jdbc-core-4.2.0.jar jena-jdbc/jena-jdbc-core/target/jena-jdbc-core-4.2.0.jar
+--- target/reference/jena-jdbc-core-4.2.0.jar
++++ jena-jdbc/jena-jdbc-core/target/jena-jdbc-core-4.2.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 122280 bytes, number of entries: 74
+│ +Zip file size: 122286 bytes, number of entries: 74
+│  -rw-r--r--  2.0 unx      400 b- defN 21-Sep-12 10:16 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 org/apache/jena/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 org/apache/jena/jdbc/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-12 10:16 org/apache/jena/jdbc/connections/
+│ @@ -24,15 +24,15 @@
+│  -rw-r--r--  2.0 unx      179 b- defN 21-Sep-12 10:16 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     1561 b- defN 21-Sep-12 10:16 jena-jdbc-log4j.properties
+│  -rw-r--r--  2.0 unx     4570 b- defN 21-Sep-12 10:16 org/apache/jena/jdbc/JdbcCompatibility.class
+│  -rw-r--r--  2.0 unx    21581 b- defN 21-Sep-12 10:16 org/apache/jena/jdbc/JenaDriver.class
+│  -rw-r--r--  2.0 unx      931 b- defN 21-Sep-12 10:16 org/apache/jena/jdbc/JenaJDBC.class
+│  -rw-r--r--  2.0 unx     5934 b- defN 21-Sep-12 10:16 org/apache/jena/jdbc/connections/DatasetConnection.class
+│  -rw-r--r--  2.0 unx    18631 b- defN 21-Sep-12 10:16 org/apache/jena/jdbc/connections/JenaConnection.class
+│ --rw-r--r--  2.0 unx      415 b- defN 21-Sep-12 10:16 org/apache/jena/jdbc/jdbc-properties.xml
+│ +-rw-r--r--  2.0 unx      418 b- defN 21-Sep-12 10:16 org/apache/jena/jdbc/jdbc-properties.xml
+│  -rw-r--r--  2.0 unx     1115 b- defN 21-Sep-12 10:16 org/apache/jena/jdbc/metadata/DatasetMetadata.class
+│  -rw-r--r--  2.0 unx    26483 b- defN 21-Sep-12 10:16 org/apache/jena/jdbc/metadata/JenaMetadata.class
+│  -rw-r--r--  2.0 unx    11308 b- defN 21-Sep-12 10:16 org/apache/jena/jdbc/metadata/MetadataSchema.class
+│  -rw-r--r--  2.0 unx    28837 b- defN 21-Sep-12 10:16 org/apache/jena/jdbc/metadata/results/MetaResultSet.class
+│  -rw-r--r--  2.0 unx      820 b- defN 21-Sep-12 10:16 org/apache/jena/jdbc/metadata/results/MetaResultSetMetadata.class
+│  -rw-r--r--  2.0 unx     1041 b- defN 21-Sep-12 10:16 org/apache/jena/jdbc/postprocessing/ResultsPostProcessor.class
+│  -rw-r--r--  2.0 unx      553 b- defN 21-Sep-12 10:16 org/apache/jena/jdbc/preprocessing/CommandPreProcessor.class
+│ @@ -69,8 +69,8 @@
+│  -rw-r--r--  2.0 unx     3328 b- defN 21-Sep-12 10:16 org/apache/jena/jdbc/statements/DatasetStatement.class
+│  -rw-r--r--  2.0 unx    16575 b- defN 21-Sep-12 10:16 org/apache/jena/jdbc/statements/JenaPreparedStatement.class
+│  -rw-r--r--  2.0 unx    19846 b- defN 21-Sep-12 10:16 org/apache/jena/jdbc/statements/JenaStatement.class
+│  -rw-r--r--  2.0 unx     2921 b- defN 21-Sep-12 10:16 org/apache/jena/jdbc/statements/metadata/JenaParameterMetadata.class
+│  -rw-r--r--  2.0 unx     8803 b- defN 21-Sep-12 10:16 org/apache/jena/jdbc/utils/JdbcNodeUtils.class
+│  -rw-r--r--  2.0 unx     3338 b- defN 21-Sep-12 10:16 META-INF/maven/org.apache.jena/jena-jdbc-core/pom.xml
+│  -rw-r--r--  2.0 unx       64 b- defN 21-Sep-12 10:16 META-INF/maven/org.apache.jena/jena-jdbc-core/pom.properties
+│ -74 files, 303288 bytes uncompressed, 109614 bytes compressed:  63.9%
+│ +74 files, 303291 bytes uncompressed, 109620 bytes compressed:  63.9%
+├── org/apache/jena/jdbc/jdbc-properties.xml
+│ ├── org/apache/jena/jdbc/jdbc-properties.xml
+│ │ @@ -1,9 +1,9 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <!DOCTYPE properties
+│ │    SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
+│ │  <!--  Licensed under the terms of http://www.apache.org/licenses/LICENSE-2.0 -->
+│ │  <properties version="1.0">
+│ │    <comment>Jena JDBC System Properties</comment>
+│ │    <entry key="org.apache.jena.jdbc.version">4.2.0</entry>
+│ │ -  <entry key="org.apache.jena.jdbc.build.datetime">${build.time.xsd}</entry>
+│ │ +  <entry key="org.apache.jena.jdbc.build.datetime">2021-09-12T10:37:37Z</entry>
+│ │  </properties>
+
+target/reference/jena-jdbc-driver-bundle-4.2.0.jar jena-jdbc/jena-jdbc-driver-bundle/target/jena-jdbc-driver-bundle-4.2.0.jar
+--- target/reference/jena-jdbc-driver-bundle-4.2.0.jar
++++ jena-jdbc/jena-jdbc-driver-bundle/target/jena-jdbc-driver-bundle-4.2.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 20740790 bytes, number of entries: 13550
+│ +Zip file size: 20740796 bytes, number of entries: 13550
+│  -rw----     2.0 fat        0 bX defN 21-Sep-12 10:16 META-INF/
+│  -rw----     2.0 fat      419 bl defN 21-Sep-12 10:16 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     7802 bl defN 21-Sep-12 10:16 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat        0 bl defN 21-Sep-12 10:16 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 21-Sep-12 10:16 META-INF/maven/org.apache.jena/
+│  -rw----     2.0 fat        0 bl defN 21-Sep-12 10:16 META-INF/maven/org.apache.jena/jena-jdbc-driver-bundle/
+│  -rw----     2.0 fat     6130 bl defN 21-Sep-12 10:16 META-INF/maven/org.apache.jena/jena-jdbc-driver-bundle/pom.xml
+│ @@ -24,15 +24,15 @@
+│  -rw----     2.0 fat     1561 bl defN 21-Sep-12 10:16 jena-jdbc-log4j.properties
+│  -rw----     2.0 fat     4570 bl defN 21-Sep-12 10:16 org/apache/jena/jdbc/JdbcCompatibility.class
+│  -rw----     2.0 fat    21581 bl defN 21-Sep-12 10:16 org/apache/jena/jdbc/JenaDriver.class
+│  -rw----     2.0 fat      931 bl defN 21-Sep-12 10:16 org/apache/jena/jdbc/JenaJDBC.class
+│  -rw----     2.0 fat        0 bl defN 21-Sep-12 10:16 org/apache/jena/jdbc/connections/
+│  -rw----     2.0 fat     5934 bl defN 21-Sep-12 10:16 org/apache/jena/jdbc/connections/DatasetConnection.class
+│  -rw----     2.0 fat    18631 bl defN 21-Sep-12 10:16 org/apache/jena/jdbc/connections/JenaConnection.class
+│ --rw----     2.0 fat      415 bl defN 21-Sep-12 10:16 org/apache/jena/jdbc/jdbc-properties.xml
+│ +-rw----     2.0 fat      418 bl defN 21-Sep-12 10:16 org/apache/jena/jdbc/jdbc-properties.xml
+│  -rw----     2.0 fat        0 bl defN 21-Sep-12 10:16 org/apache/jena/jdbc/metadata/
+│  -rw----     2.0 fat     1115 bl defN 21-Sep-12 10:16 org/apache/jena/jdbc/metadata/DatasetMetadata.class
+│  -rw----     2.0 fat    26483 bl defN 21-Sep-12 10:16 org/apache/jena/jdbc/metadata/JenaMetadata.class
+│  -rw----     2.0 fat    11308 bl defN 21-Sep-12 10:16 org/apache/jena/jdbc/metadata/MetadataSchema.class
+│  -rw----     2.0 fat        0 bl defN 21-Sep-12 10:16 org/apache/jena/jdbc/metadata/results/
+│  -rw----     2.0 fat    28837 bl defN 21-Sep-12 10:16 org/apache/jena/jdbc/metadata/results/MetaResultSet.class
+│  -rw----     2.0 fat      820 bl defN 21-Sep-12 10:16 org/apache/jena/jdbc/metadata/results/MetaResultSetMetadata.class
+│ @@ -10439,956 +10439,956 @@
+│  -rw----     2.0 fat     1691 bl defN 21-Mar-26 12:03 org/glassfish/json/NodeReference$RootReference.class
+│  -rw----     2.0 fat     1548 bl defN 21-Mar-26 12:03 org/glassfish/json/NodeReference.class
+│  -rw----     2.0 fat     3350 bl defN 21-Mar-26 12:03 org/glassfish/json/UnicodeDetectingInputStream.class
+│  -rw----     2.0 fat        0 bl defN 21-Mar-26 12:03 org/glassfish/json/api/
+│  -rw----     2.0 fat      172 bl defN 21-Mar-26 12:03 org/glassfish/json/api/BufferPool.class
+│  -rw----     2.0 fat      245 bl defN 21-Mar-26 12:03 org/glassfish/json/api/JsonConfig.class
+│  -rw----     2.0 fat     5426 bl defN 21-Mar-26 12:02 org/glassfish/json/messages.properties
+│ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:58 META-INF/maven/com.fasterxml.jackson.core/
+│ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:58 META-INF/maven/com.fasterxml.jackson.core/jackson-core/
+│ --rw----     2.0 fat       74 bl defN 21-Aug-27 07:58 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.properties
+│ --rw----     2.0 fat     5534 bl defN 21-Aug-27 07:57 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml
+│ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:57 com/fasterxml/
+│ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:57 com/fasterxml/jackson/
+│ --rw----     2.0 fat        0 bl defN 21-Aug-27 07:57 com/fasterxml/jackson/core/
+│ --rw----     2.0 fat     1372 bl defN 21-Aug-27 07:57 com/fasterxml/jackson/core/Base64Variant$PaddingReadBehaviour.class
+...
+│ --rw----     2.0 fat     1930 bl defN 21-Aug-27 07:31 com/fasterxml/jackson/annotation/PropertyAccessor.class
+│ --rw----     2.0 fat     2396 bl defN 21-Aug-27 07:31 com/fasterxml/jackson/annotation/SimpleObjectIdResolver.class
+│ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:58 META-INF/maven/com.fasterxml.jackson.core/
+│ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:58 META-INF/maven/com.fasterxml.jackson.core/jackson-core/
+│ +-rw----     2.0 fat       74 bl defN 21-Aug-27 06:58 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.properties
+│ +-rw----     2.0 fat     5534 bl defN 21-Aug-27 06:57 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml
+│ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:57 com/fasterxml/
+│ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:57 com/fasterxml/jackson/
+│ +-rw----     2.0 fat        0 bl defN 21-Aug-27 06:57 com/fasterxml/jackson/core/
+│ +-rw----     2.0 fat     1372 bl defN 21-Aug-27 06:57 com/fasterxml/jackson/core/Base64Variant$PaddingReadBehaviour.class
+...
+│ +-rw----     2.0 fat     1930 bl defN 21-Aug-27 06:31 com/fasterxml/jackson/annotation/PropertyAccessor.class
+│ +-rw----     2.0 fat     2396 bl defN 21-Aug-27 06:31 com/fasterxml/jackson/annotation/SimpleObjectIdResolver.class
+│  -rw----     2.0 fat        0 bl defN 20-Oct-03 12:31 org/apache/http/client/cache/
+│  -rw----     2.0 fat      457 bl defN 20-Oct-03 12:31 org/apache/http/client/cache/ResourceFactory.class
+│  -rw----     2.0 fat        0 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/
+│  -rw----     2.0 fat     1271 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/FileResource.class
+│  -rw----     2.0 fat     1136 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/Proxies.class
+│  -rw----     2.0 fat     5956 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/CachingHttpClientBuilder.class
+│  -rw----     2.0 fat      266 bl defN 20-Oct-03 12:31 org/apache/http/impl/client/cache/FailureCache.class
+│ @@ -13545,8 +13545,8 @@
+│  -rw----     2.0 fat      897 bl defN 21-Sep-12 10:16 META-INF/services/org.apache.logging.log4j.util.PropertySource
+│  -rw----     2.0 fat      119 bl defN 21-Sep-12 10:16 META-INF/services/java.sql.Driver
+│  -rw----     2.0 fat       39 bl defN 21-Sep-12 10:16 META-INF/services/com.fasterxml.jackson.core.JsonFactory
+│  -rw----     2.0 fat       44 bl defN 21-Sep-12 10:16 META-INF/services/com.fasterxml.jackson.core.ObjectCodec
+│  -rw----     2.0 fat      855 bl defN 21-Sep-12 10:16 META-INF/services/javax.annotation.processing.Processor
+│  -rw----     2.0 fat      251 bl defN 21-Sep-12 10:16 META-INF/services/org.apache.commons.logging.LogFactory
+│  -rw----     2.0 fat     5348 bl defN 21-Sep-12 10:16 META-INF/NOTICE
+│ -13550 files, 46358700 bytes uncompressed, 17786022 bytes compressed:  61.6%
+│ +13550 files, 46358703 bytes uncompressed, 17786028 bytes compressed:  61.6%
+├── org/apache/jena/jdbc/jdbc-properties.xml
+│ ├── org/apache/jena/jdbc/jdbc-properties.xml
+│ │ @@ -1,9 +1,9 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <!DOCTYPE properties
+│ │    SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
+│ │  <!--  Licensed under the terms of http://www.apache.org/licenses/LICENSE-2.0 -->
+│ │  <properties version="1.0">
+│ │    <comment>Jena JDBC System Properties</comment>
+│ │    <entry key="org.apache.jena.jdbc.version">4.2.0</entry>
+│ │ -  <entry key="org.apache.jena.jdbc.build.datetime">${build.time.xsd}</entry>
+│ │ +  <entry key="org.apache.jena.jdbc.build.datetime">2021-09-12T10:37:37Z</entry>
+│ │  </properties>
+
+target/reference/jena-osgi-4.2.0.jar apache-jena-osgi/jena-osgi/target/jena-osgi-4.2.0.jar
+/srv/diffoscope/bin/diffoscope: target/reference/jena-osgi-4.2.0.jar: No such file or directory
+
+target/reference/jena-osgi-4.2.0-sources.jar apache-jena-osgi/jena-osgi/target/jena-osgi-4.2.0-sources.jar
+/srv/diffoscope/bin/diffoscope: target/reference/jena-osgi-4.2.0-sources.jar: No such file or directory
+
+target/reference/jena-osgi-features-4.2.0.jar apache-jena-osgi/jena-osgi-features/target/jena-osgi-features-4.2.0.jar
+/srv/diffoscope/bin/diffoscope: target/reference/jena-osgi-features-4.2.0.jar: No such file or directory
+
+target/reference/jena-osgi-features-4.2.0-sources.jar apache-jena-osgi/jena-osgi-features/target/jena-osgi-features-4.2.0-sources.jar
+/srv/diffoscope/bin/diffoscope: target/reference/jena-osgi-features-4.2.0-sources.jar: No such file or directory
+
+target/reference/jena-osgi-features-4.2.0-features.xml apache-jena-osgi/jena-osgi-features/target/features.xml
+/srv/diffoscope/bin/diffoscope: target/reference/jena-osgi-features-4.2.0-features.xml: No such file or directory
+
