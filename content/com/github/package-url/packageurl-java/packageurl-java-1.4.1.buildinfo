@@ -1,0 +1,30 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Package URL
+group-id=com.github.package-url
+artifact-id=packageurl-java
+version=1.4.1
+
+# source information
+source.scm.uri=scm:git:git@github.com:package-url/packageurl-java.git
+source.scm.tag=packageurl-java-1.4.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=packageurl-java-1.4.1.jar
+outputs.0.length=15581
+outputs.0.checksums.sha512=ea5ed91a395e3c8ef18d575d363dc30302986dc5cc8423e97950708cd48dd87e97176619a246d72e8f5b4ff1a7fbb2afb5e9b3c7a11aa7340b540655ba4d4e9b
+
+outputs.1.filename=packageurl-java-1.4.1-sources.jar
+outputs.1.length=16384
+outputs.1.checksums.sha512=0466956769608ce653bd146c249d4edf1f5fc20ae316b5861549c4cbf01cfc2dd44863e35b5521712de47f76112c20044985a6c0d767c93009230abbed0b21e6
