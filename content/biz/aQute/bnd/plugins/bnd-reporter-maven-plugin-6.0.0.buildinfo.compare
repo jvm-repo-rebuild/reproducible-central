@@ -1,0 +1,7 @@
+version=6.0.0
+ok=16
+ko=0
+okFiles="bnd-maven-plugin-6.0.0.jar bnd-maven-plugin-6.0.0-sources.jar bnd-indexer-maven-plugin-6.0.0.jar bnd-indexer-maven-plugin-6.0.0-sources.jar bnd-baseline-maven-plugin-6.0.0.jar bnd-baseline-maven-plugin-6.0.0-sources.jar bnd-export-maven-plugin-6.0.0.jar bnd-export-maven-plugin-6.0.0-sources.jar bnd-testing-maven-plugin-6.0.0.jar bnd-testing-maven-plugin-6.0.0-sources.jar bnd-resolver-maven-plugin-6.0.0.jar bnd-resolver-maven-plugin-6.0.0-sources.jar bnd-run-maven-plugin-6.0.0.jar bnd-run-maven-plugin-6.0.0-sources.jar bnd-reporter-maven-plugin-6.0.0.jar bnd-reporter-maven-plugin-6.0.0-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
