@@ -1,0 +1,205 @@
+target/reference/scriptingbundle-maven-plugin-0.5.0-source-release.zip target/scriptingbundle-maven-plugin-0.5.0-source-release.zip
+--- target/reference/scriptingbundle-maven-plugin-0.5.0-source-release.zip
++++ target/scriptingbundle-maven-plugin-0.5.0-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 142241 bytes, number of entries: 219
+│ +Zip file size: 139973 bytes, number of entries: 209
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/main/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/main/java/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/main/java/org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/main/java/org/apache/sling/
+│ @@ -35,16 +35,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/filevault-1/src/main/content/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/filevault-1/src/main/content/jcr_root/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/filevault-1/src/main/content/jcr_root/apps/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/filevault-1/src/main/content/jcr_root/apps/my-scripts/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/filevault-1/src/main/content/jcr_root/apps/my-scripts/_escaped_test/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/filevault-1/src/main/content/jcr_root/apps/my-scripts/image/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/filevault-1/src/main/content/jcr_root/apps/my-scripts/teaser/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/filevault-1/target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/filevault-1/target/classes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/filevault-docview-examples/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-1/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-1/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-1/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-1/src/main/scripts/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-1/src/main/scripts/libs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-1/src/main/scripts/libs/sling/
+│ @@ -65,16 +63,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-1/src/main/scripts/org.apache.sling.foobar/1.0.0/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-1/src/main/scripts/org.apache.sling.foobar/1.0.0/depth1/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-1/src/main/scripts/org.apache.sling.foobar/1.0.0/depth1/depth2/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-1/src/main/scripts/org.apache.sling.foobar/depth1/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-1/src/main/scripts/org.apache.sling.foobar/depth1/depth2/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-1/src/main/scripts/org.apache.sling.wrongbar/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-1/src/main/scripts/sling/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-1/target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-1/target/classes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-2/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-2/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-2/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-2/src/main/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-2/src/main/resources/javax.script/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-2/src/main/resources/javax.script/libs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-2/src/main/resources/javax.script/libs/sling/
+│ @@ -82,39 +78,33 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-2/src/main/scripts/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-2/src/main/scripts/libs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-2/src/main/scripts/libs/sling/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-2/src/main/scripts/libs/sling/commons/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-2/src/main/scripts/libs/sling/test/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-2/src/main/scripts/libs/sling/test2/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-2/src/main/scripts/libs/sling/utils/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-2/target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-2/target/classes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-3/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-3/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-3/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-3/src/main/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-3/src/main/resources/javax.script/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-3/src/main/resources/javax.script/sling/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-3/src/main/resources/javax.script/sling/scriptingbundle/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-3/src/main/resources/javax.script/sling/scriptingbundle/includeexclude/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-3/src/main/scripts/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-3/src/main/scripts/sling/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-3/src/main/scripts/sling/scriptingbundle/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-3/src/main/scripts/sling/scriptingbundle/includeexclude/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-3/target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-3/target/classes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-4/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-4/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-4/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-4/src/main/scripts/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-4/src/main/scripts/apps/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-4/src/main/scripts/apps/components/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-4/src/main/scripts/apps/components/test/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-4/target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-4/target/classes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/requires/
+│  -rw-r--r--  2.0 unx       47 b- defN 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/.sling-module.json
+│  -rw-r--r--  2.0 unx     1186 b- defN 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/CODE_OF_CONDUCT.md
+│  -rw-r--r--  2.0 unx     1147 b- defN 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/CONTRIBUTING.md
+│  -rw-r--r--  2.0 unx     1004 b- defN 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/Jenkinsfile
+│  -rw-r--r--  2.0 unx    11358 b- defN 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/LICENSE
+│  -rw-r--r--  2.0 unx     2243 b- defN 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/README.md
+│ @@ -214,8 +204,8 @@
+│  -rw-r--r--  2.0 unx      979 b- defN 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-4/src/main/scripts/apps/components/test/test.html
+│  -rw-r--r--  2.0 unx       25 b- defN 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/requires/invalid-attributes
+│  -rw-r--r--  2.0 unx       15 b- defN 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/requires/multiple-clauses
+│  -rw-r--r--  2.0 unx       66 b- defN 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/requires/valid
+│  -rw-r--r--  2.0 unx     1597 b- defN 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/src/test/resources/spotbugs-exclude.xml
+│  -rw-r--r--  2.0 unx    12704 b- defN 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/DEPENDENCIES
+│  -rw-r--r--  2.0 unx      297 b- defN 21-Sep-21 18:13 scriptingbundle-maven-plugin-0.5.0/NOTICE
+│ -219 files, 265777 bytes uncompressed, 83851 bytes compressed:  68.5%
+│ +209 files, 265777 bytes uncompressed, 83851 bytes compressed:  68.5%
+├── zipnote {}
+│ @@ -114,20 +114,14 @@
+│  
+│  Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/filevault-1/src/main/content/jcr_root/apps/my-scripts/image/
+│  Comment: 
+│  
+│  Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/filevault-1/src/main/content/jcr_root/apps/my-scripts/teaser/
+│  Comment: 
+│  
+│ -Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/filevault-1/target/
+│ -Comment: 
+│ -
+│ -Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/filevault-1/target/classes/
+│ -Comment: 
+│ -
+│  Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/filevault-docview-examples/
+│  Comment: 
+│  
+│  Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-1/
+│  Comment: 
+│  
+│  Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-1/src/
+│ @@ -204,20 +198,14 @@
+│  
+│  Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-1/src/main/scripts/org.apache.sling.wrongbar/
+│  Comment: 
+│  
+│  Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-1/src/main/scripts/sling/
+│  Comment: 
+│  
+│ -Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-1/target/
+│ -Comment: 
+│ -
+│ -Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-1/target/classes/
+│ -Comment: 
+│ -
+│  Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-2/
+│  Comment: 
+│  
+│  Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-2/src/
+│  Comment: 
+│  
+│  Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-2/src/main/
+│ @@ -255,20 +243,14 @@
+│  
+│  Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-2/src/main/scripts/libs/sling/test2/
+│  Comment: 
+│  
+│  Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-2/src/main/scripts/libs/sling/utils/
+│  Comment: 
+│  
+│ -Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-2/target/
+│ -Comment: 
+│ -
+│ -Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-2/target/classes/
+│ -Comment: 
+│ -
+│  Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-3/
+│  Comment: 
+│  
+│  Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-3/src/
+│  Comment: 
+│  
+│  Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-3/src/main/
+│ @@ -297,20 +279,14 @@
+│  
+│  Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-3/src/main/scripts/sling/scriptingbundle/
+│  Comment: 
+│  
+│  Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-3/src/main/scripts/sling/scriptingbundle/includeexclude/
+│  Comment: 
+│  
+│ -Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-3/target/
+│ -Comment: 
+│ -
+│ -Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-3/target/classes/
+│ -Comment: 
+│ -
+│  Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-4/
+│  Comment: 
+│  
+│  Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-4/src/
+│  Comment: 
+│  
+│  Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-4/src/main/
+│ @@ -324,20 +300,14 @@
+│  
+│  Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-4/src/main/scripts/apps/components/
+│  Comment: 
+│  
+│  Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-4/src/main/scripts/apps/components/test/
+│  Comment: 
+│  
+│ -Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-4/target/
+│ -Comment: 
+│ -
+│ -Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/project-4/target/classes/
+│ -Comment: 
+│ -
+│  Filename: scriptingbundle-maven-plugin-0.5.0/src/test/resources/requires/
+│  Comment: 
+│  
+│  Filename: scriptingbundle-maven-plugin-0.5.0/.sling-module.json
+│  Comment: 
+│  
+│  Filename: scriptingbundle-maven-plugin-0.5.0/CODE_OF_CONDUCT.md
+
