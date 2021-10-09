@@ -1,0 +1,7 @@
+version=0.37.0
+ok=2
+ko=0
+okFiles="docker-maven-plugin-0.37.0.jar docker-maven-plugin-0.37.0-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
