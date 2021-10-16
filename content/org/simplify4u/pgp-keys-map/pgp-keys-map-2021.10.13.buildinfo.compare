@@ -1,0 +1,6 @@
+version=2021.10.13
+ok=1
+ko=0
+okFiles="pgp-keys-map-2021.10.13.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
