@@ -1,0 +1,17 @@
+version=2.9.0
+ok=12
+ko=10
+okFiles="plexus-compiler-2.9.0-site.xml plexus-compiler-2.9.0-source-release.zip plexus-compiler-api-2.9.0-sources.jar plexus-compiler-manager-2.9.0-sources.jar plexus-compiler-test-2.9.0-sources.jar plexus-compiler-aspectj-2.9.0-sources.jar plexus-compiler-csharp-2.9.0-sources.jar plexus-compiler-eclipse-2.9.0-sources.jar plexus-compiler-jikes-2.9.0-sources.jar plexus-compiler-javac-2.9.0-sources.jar plexus-compiler-javac-errorprone-2.9.0-sources.jar plexus-compiler-j2objc-2.9.0-sources.jar"
+koFiles="plexus-compiler-api-2.9.0.jar plexus-compiler-manager-2.9.0.jar plexus-compiler-test-2.9.0.jar plexus-compiler-aspectj-2.9.0.jar plexus-compiler-csharp-2.9.0.jar plexus-compiler-eclipse-2.9.0.jar plexus-compiler-jikes-2.9.0.jar plexus-compiler-javac-2.9.0.jar plexus-compiler-javac-errorprone-2.9.0.jar plexus-compiler-j2objc-2.9.0.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/plexus-compiler-api-2.9.0.jar plexus-compiler-api/target/plexus-compiler-api-2.9.0.jar
+# diffoscope target/reference/plexus-compiler-manager-2.9.0.jar plexus-compiler-manager/target/plexus-compiler-manager-2.9.0.jar
+# diffoscope target/reference/plexus-compiler-test-2.9.0.jar plexus-compiler-test/target/plexus-compiler-test-2.9.0.jar
+# diffoscope target/reference/plexus-compiler-aspectj-2.9.0.jar plexus-compilers/plexus-compiler-aspectj/target/plexus-compiler-aspectj-2.9.0.jar
+# diffoscope target/reference/plexus-compiler-csharp-2.9.0.jar plexus-compilers/plexus-compiler-csharp/target/plexus-compiler-csharp-2.9.0.jar
+# diffoscope target/reference/plexus-compiler-eclipse-2.9.0.jar plexus-compilers/plexus-compiler-eclipse/target/plexus-compiler-eclipse-2.9.0.jar
+# diffoscope target/reference/plexus-compiler-jikes-2.9.0.jar plexus-compilers/plexus-compiler-jikes/target/plexus-compiler-jikes-2.9.0.jar
+# diffoscope target/reference/plexus-compiler-javac-2.9.0.jar plexus-compilers/plexus-compiler-javac/target/plexus-compiler-javac-2.9.0.jar
+# diffoscope target/reference/plexus-compiler-javac-errorprone-2.9.0.jar plexus-compilers/plexus-compiler-javac-errorprone/target/plexus-compiler-javac-errorprone-2.9.0.jar
+# diffoscope target/reference/plexus-compiler-j2objc-2.9.0.jar plexus-compilers/plexus-compiler-j2objc/target/plexus-compiler-j2objc-2.9.0.jar
