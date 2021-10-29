@@ -110,6 +110,16 @@
       <url>https://adoptopenjdk.jfrog.io/adoptopenjdk/jmc-libs</url>
     </mirror>
     <mirror>
+      <id>repo.gradle.org</id>
+      <mirrorOf>repo.gradle.org</mirrorOf>
+      <url>https://repo.gradle.org/gradle/libs-releases-local/</url>
+    </mirror>
+    <mirror>
+      <id>ext.repo.gradle.org</id>
+      <mirrorOf>ext.repo.gradle.org</mirrorOf>
+      <url>https://repo.gradle.org/gradle/ext-releases-local/</url>
+    </mirror>
+    <mirror>
       <id>default</id>
       <mirrorOf>*</mirrorOf>
       <url>https://repo.maven.apache.org/maven2</url>
