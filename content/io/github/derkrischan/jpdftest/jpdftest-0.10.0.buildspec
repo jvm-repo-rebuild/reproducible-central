@@ -10,7 +10,7 @@ tool=mvn
 jdk=7
 newline=lf
 
-command="mvn clean package -DskipTests"
+command="mvn clean package -Psonatype-oss-release -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 issue=

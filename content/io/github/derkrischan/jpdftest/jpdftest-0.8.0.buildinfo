@@ -13,16 +13,18 @@ source.scm.tag=jpdftest-0.8.0
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.7.0_211
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=7
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T19:00:29Z)
 
 # output
 
 outputs.0.filename=jpdftest-0.8.0.jar
 outputs.0.length=33174
 outputs.0.checksums.sha512=890e963ae4d0b3c73bb864dce710e6b359d4cc1f0e00354d4ffe0c0cea50c924d4295222cd6c2466447d1dfec3dcc9cc0a7f0996b4f654ca5d349d680edd0bae
+
+outputs.1.filename=jpdftest-0.8.0-sources.jar
+outputs.1.length=24516
+outputs.1.checksums.sha512=3959f74fa21efb3405ed052b8cdcb572a34a61af4d630518b710dac5b71a8c605109fcff39b27b66da46a532130b97a84d8bb0e97a2b60614bd3a75aa060e4c0

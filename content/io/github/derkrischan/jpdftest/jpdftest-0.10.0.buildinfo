@@ -24,3 +24,7 @@ os.name=Unix
 outputs.0.filename=jpdftest-0.10.0.jar
 outputs.0.length=37307
 outputs.0.checksums.sha512=0995904e4c0d9cee8a6fc11fe1c2161f56840e288c7deb621696cec40d922800cb86ac47bf218debc3f99953f3b81e5da0698570ac4ccf46fe2c2cf699e77151
+
+outputs.1.filename=jpdftest-0.10.0-sources.jar
+outputs.1.length=26506
+outputs.1.checksums.sha512=699eb6ebd60cbb122ce314e431a457ac2a0db7c861e435d5f6f2169ab6bb7aafc31eaba53341ebb76f16b48ea598e4e300885e71018b0f91012492aa53003037
