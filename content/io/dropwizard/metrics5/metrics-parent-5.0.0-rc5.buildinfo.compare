@@ -1,0 +1,36 @@
+version=5.0.0-rc5
+ok=33
+ko=29
+okFiles="metrics-annotation-5.0.0-rc5-sources.jar metrics-core-5.0.0-rc5-sources.jar metrics-caffeine-5.0.0-rc5-sources.jar metrics-caffeine3-5.0.0-rc5-sources.jar metrics-collectd-5.0.0-rc5-sources.jar metrics-ehcache-5.0.0-rc5-sources.jar metrics-graphite-5.0.0-rc5-sources.jar metrics-influxdb-5.0.0-rc5-sources.jar metrics-jvm-5.0.0-rc5-sources.jar metrics-healthchecks-5.0.0-rc5-sources.jar metrics-httpclient-5.0.0-rc5-sources.jar metrics-httpclient5-5.0.0-rc5-sources.jar metrics-httpasyncclient-5.0.0-rc5-sources.jar metrics-jakarta-servlet-5.0.0-rc5-sources.jar metrics-json-5.0.0-rc5-sources.jar metrics-jetty11-5.0.0-rc5-sources.jar metrics-jakarta-servlets-5.0.0-rc5-sources.jar metrics-jcache-5.0.0-rc5-sources.jar metrics-jdbi-5.0.0-rc5-sources.jar metrics-jdbi3-5.0.0-rc5-sources.jar metrics-jersey2-5.0.0-rc5-sources.jar metrics-jersey3-5.0.0-rc5-sources.jar metrics-jetty9-5.0.0-rc5-sources.jar metrics-jetty10-5.0.0-rc5-sources.jar metrics-log4j2-5.0.0-rc5-sources.jar metrics-logback-5.0.0-rc5-sources.jar metrics-servlet-5.0.0-rc5-sources.jar metrics-servlets-5.0.0-rc5-sources.jar metrics-jmx-5.0.0-rc5-sources.jar metrics-legacy-adapter-5.0.0-rc5.jar metrics-legacy-adapter-5.0.0-rc5-sources.jar metrics-legacy-adapter-healthchecks-5.0.0-rc5.jar metrics-legacy-adapter-healthchecks-5.0.0-rc5-sources.jar"
+koFiles="metrics-annotation-5.0.0-rc5.jar metrics-core-5.0.0-rc5.jar metrics-caffeine-5.0.0-rc5.jar metrics-caffeine3-5.0.0-rc5.jar metrics-collectd-5.0.0-rc5.jar metrics-ehcache-5.0.0-rc5.jar metrics-graphite-5.0.0-rc5.jar metrics-influxdb-5.0.0-rc5.jar metrics-jvm-5.0.0-rc5.jar metrics-healthchecks-5.0.0-rc5.jar metrics-httpclient-5.0.0-rc5.jar metrics-httpclient5-5.0.0-rc5.jar metrics-httpasyncclient-5.0.0-rc5.jar metrics-jakarta-servlet-5.0.0-rc5.jar metrics-json-5.0.0-rc5.jar metrics-jetty11-5.0.0-rc5.jar metrics-jakarta-servlets-5.0.0-rc5.jar metrics-jcache-5.0.0-rc5.jar metrics-jdbi-5.0.0-rc5.jar metrics-jdbi3-5.0.0-rc5.jar metrics-jersey2-5.0.0-rc5.jar metrics-jersey3-5.0.0-rc5.jar metrics-jetty9-5.0.0-rc5.jar metrics-jetty10-5.0.0-rc5.jar metrics-log4j2-5.0.0-rc5.jar metrics-logback-5.0.0-rc5.jar metrics-servlet-5.0.0-rc5.jar metrics-servlets-5.0.0-rc5.jar metrics-jmx-5.0.0-rc5.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/metrics-annotation-5.0.0-rc5.jar metrics-annotation/target/metrics-annotation-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-core-5.0.0-rc5.jar metrics-core/target/metrics-core-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-caffeine-5.0.0-rc5.jar metrics-caffeine/target/metrics-caffeine-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-caffeine3-5.0.0-rc5.jar metrics-caffeine3/target/metrics-caffeine3-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-collectd-5.0.0-rc5.jar metrics-collectd/target/metrics-collectd-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-ehcache-5.0.0-rc5.jar metrics-ehcache/target/metrics-ehcache-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-graphite-5.0.0-rc5.jar metrics-graphite/target/metrics-graphite-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-influxdb-5.0.0-rc5.jar metrics-influxdb/target/metrics-influxdb-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-jvm-5.0.0-rc5.jar metrics-jvm/target/metrics-jvm-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-healthchecks-5.0.0-rc5.jar metrics-healthchecks/target/metrics-healthchecks-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-httpclient-5.0.0-rc5.jar metrics-httpclient/target/metrics-httpclient-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-httpclient5-5.0.0-rc5.jar metrics-httpclient5/target/metrics-httpclient5-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-httpasyncclient-5.0.0-rc5.jar metrics-httpasyncclient/target/metrics-httpasyncclient-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-jakarta-servlet-5.0.0-rc5.jar metrics-jakarta-servlet/target/metrics-jakarta-servlet-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-json-5.0.0-rc5.jar metrics-json/target/metrics-json-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-jetty11-5.0.0-rc5.jar metrics-jetty11/target/metrics-jetty11-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-jakarta-servlets-5.0.0-rc5.jar metrics-jakarta-servlets/target/metrics-jakarta-servlets-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-jcache-5.0.0-rc5.jar metrics-jcache/target/metrics-jcache-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-jdbi-5.0.0-rc5.jar metrics-jdbi/target/metrics-jdbi-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-jdbi3-5.0.0-rc5.jar metrics-jdbi3/target/metrics-jdbi3-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-jersey2-5.0.0-rc5.jar metrics-jersey2/target/metrics-jersey2-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-jersey3-5.0.0-rc5.jar metrics-jersey3/target/metrics-jersey3-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-jetty9-5.0.0-rc5.jar metrics-jetty9/target/metrics-jetty9-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-jetty10-5.0.0-rc5.jar metrics-jetty10/target/metrics-jetty10-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-log4j2-5.0.0-rc5.jar metrics-log4j2/target/metrics-log4j2-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-logback-5.0.0-rc5.jar metrics-logback/target/metrics-logback-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-servlet-5.0.0-rc5.jar metrics-servlet/target/metrics-servlet-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-servlets-5.0.0-rc5.jar metrics-servlets/target/metrics-servlets-5.0.0-rc5.jar
+# diffoscope target/reference/metrics-jmx-5.0.0-rc5.jar metrics-jmx/target/metrics-jmx-5.0.0-rc5.jar

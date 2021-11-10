@@ -1,0 +1,87 @@
+target/reference/metrics-annotation-5.0.0-rc5.jar metrics-annotation/target/metrics-annotation-5.0.0-rc5.jar
+--- target/reference/metrics-annotation-5.0.0-rc5.jar
++++ metrics-annotation/target/metrics-annotation-5.0.0-rc5.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 7294 bytes, number of entries: 19
+│ +Zip file size: 7291 bytes, number of entries: 19
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat      913 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat      907 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics5/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics5/metrics-annotation/
+│  -rw----     2.0 fat       79 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics5/metrics-annotation/pom.properties
+│  -rw----     2.0 fat      820 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics5/metrics-annotation/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/dropwizard/
+│ @@ -14,8 +14,8 @@
+│  -rw----     2.0 fat      672 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/annotation/Counted.class
+│  -rw----     2.0 fat      889 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/annotation/ExceptionMetered.class
+│  -rw----     2.0 fat      542 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/annotation/Gauge.class
+│  -rw----     2.0 fat      643 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/annotation/Metered.class
+│  -rw----     2.0 fat      561 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/annotation/Metric.class
+│  -rw----     2.0 fat      659 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/annotation/ResponseMetered.class
+│  -rw----     2.0 fat      639 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/annotation/Timed.class
+│ -19 files, 7100 bytes uncompressed, 4036 bytes compressed:  43.2%
+│ +19 files, 7094 bytes uncompressed, 4033 bytes compressed:  43.1%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: io.dropwizard.metrics5.annotation
+│ -Build-Jdk: 11.0.11
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9
+│ +Built-By: ?
+│  Bundle-Description: A dependency-less package of just the annotations 
+│   used by other Metrics modules.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Annotations for Metrics5
+│  Bundle-SymbolicName: io.dropwizard.metrics5.metrics-annotation
+│  Bundle-Version: 5.0.0.rc5
+
+target/reference/metrics-core-5.0.0-rc5.jar metrics-core/target/metrics-core-5.0.0-rc5.jar
+--- target/reference/metrics-core-5.0.0-rc5.jar
++++ metrics-core/target/metrics-core-5.0.0-rc5.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 131080 bytes, number of entries: 117
+│ +Zip file size: 131076 bytes, number of entries: 117
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1083 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1077 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics5/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics5/metrics-core/
+│  -rw----     2.0 fat       73 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics5/metrics-core/pom.properties
+│  -rw----     2.0 fat      952 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics5/metrics-core/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/dropwizard/
+│ @@ -112,8 +112,8 @@
+│  -rw----     2.0 fat      141 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/Summing.class
+│  -rw----     2.0 fat     1091 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/Timer$Context.class
+│  -rw----     2.0 fat     4342 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/Timer.class
+│  -rw----     2.0 fat     1829 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/UniformReservoir.class
+│  -rw----     2.0 fat     3613 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/UniformSnapshot.class
+│  -rw----     2.0 fat      553 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/WeightedSnapshot$WeightedSample.class
+│  -rw----     2.0 fat     4872 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/WeightedSnapshot.class
+│ -117 files, 270964 bytes uncompressed, 108482 bytes compressed:  60.0%
+│ +117 files, 270958 bytes uncompressed, 108478 bytes compressed:  60.0%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Automatic-Module-Name: io.dropwizard.metrics5
+│ -Build-Jdk: 11.0.11
+│ -Built-By: runner
+│ +Build-Jdk: 11.0.9
+│ +Built-By: ?
+│  Bundle-Description: Metrics is a Java library which gives you unparall
+│   eled insight into what your code does in        production. Metrics p
+│   rovides a powerful toolkit of ways to measure the behavior of critica
+│   l        components in your production environment.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics5 Core
+
+target/reference/metrics-caffeine-5.0.0-rc5.jar metrics-caffeine/target/metrics-caffeine-5.0.0-rc5.jar
