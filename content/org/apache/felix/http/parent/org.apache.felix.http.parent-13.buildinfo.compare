@@ -1,0 +1,5 @@
+version=13
+ok=2
+ko=0
+okFiles="org.apache.felix.http.parent-13-source-release.zip org.apache.felix.http.parent-13-source-release.tar.gz"
+koFiles=""

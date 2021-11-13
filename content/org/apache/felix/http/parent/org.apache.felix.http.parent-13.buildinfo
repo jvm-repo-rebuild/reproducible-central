@@ -1,0 +1,30 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Felix Http Parent POM
+group-id=org.apache.felix
+artifact-id=org.apache.felix.http.parent
+version=13
+
+# source information
+source.scm.uri=scm:git:https://github.com/apache/felix-dev.git
+source.scm.tag=org.apache.felix.http.parent-13
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.felix.http.parent-13-source-release.zip
+outputs.0.length=6375
+outputs.0.checksums.sha512=5cedf64f360b22d2f65fae6d1a41ade9006edb22727dc8e999dc18b2e001370bed58056d1dc83c594351991ebe48d4b5a6dcb00d89719e6aa0bd02fbd96f2597
+
+outputs.1.filename=org.apache.felix.http.parent-13-source-release.tar.gz
+outputs.1.length=5474
+outputs.1.checksums.sha512=c82b2b53e7f537002225b6b5566f42bb2ce28c3c075398a86666398a7fc90db3020db35ac36d5e0e29d72e0bb31fcee07f304704c436f7195f9d828172de07cd

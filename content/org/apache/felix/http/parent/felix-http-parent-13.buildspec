@@ -1,0 +1,17 @@
+groupId=org.apache.felix
+artifactId=org.apache.felix.http.parent
+display=${groupId}:${artifactId}
+version=13
+
+gitRepo=https://github.com/apache/felix-dev.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+root=http/parent/
+command="mvn -f ${root} -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=${root}/target/${artifactId}-${version}.buildinfo
+
+issue=
