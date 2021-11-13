@@ -1,0 +1,7 @@
+version=0.9.4-RC3
+ok=4
+ko=0
+okFiles="org.apache.felix.feature-0.9.4-RC3.jar org.apache.felix.feature-0.9.4-RC3-source-release.zip org.apache.felix.feature-0.9.4-RC3-source-release.tar.gz org.apache.felix.feature-0.9.4-RC3-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
