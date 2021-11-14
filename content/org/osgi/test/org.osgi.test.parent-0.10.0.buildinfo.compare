@@ -1,0 +1,13 @@
+version=0.10.0
+ok=6
+ko=6
+okFiles="org.osgi.test.common-0.10.0-sources.jar org.osgi.test.assertj.framework-0.10.0-sources.jar org.osgi.test.assertj.promise-0.10.0-sources.jar org.osgi.test.junit4-0.10.0-sources.jar org.osgi.test.junit5-0.10.0-sources.jar org.osgi.test.junit5.cm-0.10.0-sources.jar"
+koFiles="org.osgi.test.common-0.10.0.jar org.osgi.test.assertj.framework-0.10.0.jar org.osgi.test.assertj.promise-0.10.0.jar org.osgi.test.junit4-0.10.0.jar org.osgi.test.junit5-0.10.0.jar org.osgi.test.junit5.cm-0.10.0.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.osgi.test.common-0.10.0.jar org.osgi.test.common/target/org.osgi.test.common-0.10.0.jar
+# diffoscope target/reference/org.osgi.test.assertj.framework-0.10.0.jar org.osgi.test.assertj.framework/target/org.osgi.test.assertj.framework-0.10.0.jar
+# diffoscope target/reference/org.osgi.test.assertj.promise-0.10.0.jar org.osgi.test.assertj.promise/target/org.osgi.test.assertj.promise-0.10.0.jar
+# diffoscope target/reference/org.osgi.test.junit4-0.10.0.jar org.osgi.test.junit4/target/org.osgi.test.junit4-0.10.0.jar
+# diffoscope target/reference/org.osgi.test.junit5-0.10.0.jar org.osgi.test.junit5/target/org.osgi.test.junit5-0.10.0.jar
+# diffoscope target/reference/org.osgi.test.junit5.cm-0.10.0.jar org.osgi.test.junit5.cm/target/org.osgi.test.junit5.cm-0.10.0.jar

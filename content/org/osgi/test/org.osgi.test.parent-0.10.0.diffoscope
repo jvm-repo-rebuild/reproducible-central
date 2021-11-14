@@ -1,0 +1,306 @@
+target/reference/org.osgi.test.common-0.10.0.jar org.osgi.test.common/target/org.osgi.test.common-0.10.0.jar
+--- target/reference/org.osgi.test.common-0.10.0.jar
++++ org.osgi.test.common/target/org.osgi.test.common-0.10.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 88022 bytes, number of entries: 83
+│ +Zip file size: 88020 bytes, number of entries: 83
+│  -rw-r--r--  2.0 unx     2179 b- defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/osgi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/osgi/test/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/osgi/test/common/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/osgi/test/common/annotation/
+│ @@ -78,8 +78,8 @@
+│  -rw-r--r--  2.0 unx     1665 b- defN 80-Feb-01 00:00 org/osgi/test/common/stream/EntryPipeline$While$Take.class
+│  -rw-r--r--  2.0 unx     2153 b- defN 80-Feb-01 00:00 org/osgi/test/common/stream/EntryPipeline$While.class
+│  -rw-r--r--  2.0 unx    27051 b- defN 80-Feb-01 00:00 org/osgi/test/common/stream/EntryPipeline.class
+│  -rw-r--r--  2.0 unx    14790 b- defN 80-Feb-01 00:00 org/osgi/test/common/stream/MapStream.class
+│  -rw-r--r--  2.0 unx      281 b- defN 80-Feb-01 00:00 org/osgi/test/common/stream/package-info.class
+│  -rw-r--r--  2.0 unx     3380 b- defN 80-Feb-01 00:00 META-INF/maven/org.osgi/org.osgi.test.common/pom.xml
+│  -rw-r--r--  2.0 unx       64 b- defN 80-Feb-01 00:00 META-INF/maven/org.osgi/org.osgi.test.common/pom.properties
+│ -83 files, 202039 bytes uncompressed, 73622 bytes compressed:  63.6%
+│ +83 files, 202039 bytes uncompressed, 73620 bytes compressed:  63.6%
+├── META-INF/MANIFEST.MF
+│ @@ -1,13 +1,13 @@
+│  Manifest-Version: 1.0
+│  Bundle-Description: OSGi Testing Common Support
+│  Bundle-License: "Apache-2.0";link="https://opensource.org/licenses/Apa
+│   che-2.0";description="Apache License, Version 2.0"
+│  Bundle-SymbolicName: org.osgi.test.common
+│ -Bnd-LastModified: 1600275336376
+│ +Bnd-LastModified: 1636916590909
+│  Bundle-ManifestVersion: 2
+│  Bundle-DocURL: https://www.osgi.org
+│  Bundle-Vendor: OSGi Alliance
+│  Import-Package: org.osgi.framework;version="[1.8,2)",org.osgi.test.com
+│   mon.annotation;version="[1.0,2)",org.osgi.test.common.exceptions;vers
+│   ion="[1.0,2)",org.osgi.test.common.filter;version="[1.0,2)",org.osgi.
+│   test.common.stream;version="[1.1,2)",org.osgi.util.tracker;version="[
+│ @@ -32,9 +32,9 @@
+│   .1.0"
+│  Bundle-Name: org.osgi:org.osgi.test.common
+│  Bundle-Version: 0.10.0
+│  Bundle-SCM: url="https://github.com/osgi/osgi-test",connection="scm:gi
+│   t:https://github.com/osgi/osgi-test.git",developer-connection="scm:gi
+│   t:git@github.com:osgi/osgi-test.git",tag=HEAD
+│  Build-Jdk-Spec: 1.8
+│ -Created-By: 1.8.0_265 (Azul Systems, Inc.)
+│ +Created-By: 1.8.0_275 (Oracle Corporation)
+
+target/reference/org.osgi.test.assertj.framework-0.10.0.jar org.osgi.test.assertj.framework/target/org.osgi.test.assertj.framework-0.10.0.jar
+--- target/reference/org.osgi.test.assertj.framework-0.10.0.jar
++++ org.osgi.test.assertj.framework/target/org.osgi.test.assertj.framework-0.10.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 48062 bytes, number of entries: 64
+│ +Zip file size: 48060 bytes, number of entries: 64
+│  -rw-r--r--  2.0 unx     3205 b- defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/osgi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/osgi/test/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/osgi/test/assertj/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/osgi/test/assertj/bundle/
+│ @@ -59,8 +59,8 @@
+│  -rw-r--r--  2.0 unx     1865 b- defN 80-Feb-01 00:00 org/osgi/test/assertj/versionrange/AbstractVersionBoundAssert.class
+│  -rw-r--r--  2.0 unx     9116 b- defN 80-Feb-01 00:00 org/osgi/test/assertj/versionrange/AbstractVersionRangeAssert.class
+│  -rw-r--r--  2.0 unx     2428 b- defN 80-Feb-01 00:00 org/osgi/test/assertj/versionrange/VersionBoundAssert.class
+│  -rw-r--r--  2.0 unx     1914 b- defN 80-Feb-01 00:00 org/osgi/test/assertj/versionrange/VersionRangeAssert.class
+│  -rw-r--r--  2.0 unx      288 b- defN 80-Feb-01 00:00 org/osgi/test/assertj/versionrange/package-info.class
+│  -rw-r--r--  2.0 unx     3777 b- defN 80-Feb-01 00:00 META-INF/maven/org.osgi/org.osgi.test.assertj.framework/pom.xml
+│  -rw-r--r--  2.0 unx       75 b- defN 80-Feb-01 00:00 META-INF/maven/org.osgi/org.osgi.test.assertj.framework/pom.properties
+│ -64 files, 101957 bytes uncompressed, 36732 bytes compressed:  64.0%
+│ +64 files, 101957 bytes uncompressed, 36730 bytes compressed:  64.0%
+├── META-INF/MANIFEST.MF
+│ @@ -1,13 +1,13 @@
+│  Manifest-Version: 1.0
+│  Bundle-Description: OSGi Testing AssertJ Support for Framework
+│  Bundle-License: "Apache-2.0";link="https://opensource.org/licenses/Apa
+│   che-2.0";description="Apache License, Version 2.0"
+│  Bundle-SymbolicName: org.osgi.test.assertj.framework
+│ -Bnd-LastModified: 1600275337666
+│ +Bnd-LastModified: 1636916591664
+│  Bundle-ManifestVersion: 2
+│  Bundle-DocURL: https://www.osgi.org
+│  Bundle-Vendor: OSGi Alliance
+│  Import-Package: org.assertj.core.api;version="[3.17,4)",org.assertj.co
+│   re.description;version="[3.17,4)",org.assertj.core.error;version="[3.
+│   17,4)",org.assertj.core.groups;version="[3.17,4)",org.osgi.framework;
+│   version="[1.8,2)",org.osgi.framework.wiring;version="[1.2,2)",org.osg
+│ @@ -45,9 +45,9 @@
+│   e.api,org.osgi.framework,org.osgi.test.assertj.version"
+│  Bundle-Name: org.osgi:org.osgi.test.assertj.framework
+│  Bundle-Version: 0.10.0
+│  Bundle-SCM: url="https://github.com/osgi/osgi-test",connection="scm:gi
+│   t:https://github.com/osgi/osgi-test.git",developer-connection="scm:gi
+│   t:git@github.com:osgi/osgi-test.git",tag=HEAD
+│  Build-Jdk-Spec: 1.8
+│ -Created-By: 1.8.0_265 (Azul Systems, Inc.)
+│ +Created-By: 1.8.0_275 (Oracle Corporation)
+
+target/reference/org.osgi.test.assertj.promise-0.10.0.jar org.osgi.test.assertj.promise/target/org.osgi.test.assertj.promise-0.10.0.jar
+--- target/reference/org.osgi.test.assertj.promise-0.10.0.jar
++++ org.osgi.test.assertj.promise/target/org.osgi.test.assertj.promise-0.10.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 9872 bytes, number of entries: 17
+│ +Zip file size: 9870 bytes, number of entries: 17
+│  -rw-r--r--  2.0 unx     1497 b- defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/osgi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/osgi/test/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/osgi/test/assertj/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/osgi/test/assertj/promise/
+│ @@ -12,8 +12,8 @@
+│  -rw-r--r--  2.0 unx     9456 b- defN 80-Feb-01 00:00 org/osgi/test/assertj/promise/AbstractPromiseAssert.class
+│  -rw-r--r--  2.0 unx     3131 b- defN 80-Feb-01 00:00 org/osgi/test/assertj/promise/PromiseAssert.class
+│  -rw-r--r--  2.0 unx      434 b- defN 80-Feb-01 00:00 org/osgi/test/assertj/promise/PromiseSoftAssertions.class
+│  -rw-r--r--  2.0 unx     1096 b- defN 80-Feb-01 00:00 org/osgi/test/assertj/promise/PromiseSoftAssertionsProvider.class
+│  -rw-r--r--  2.0 unx      283 b- defN 80-Feb-01 00:00 org/osgi/test/assertj/promise/package-info.class
+│  -rw-r--r--  2.0 unx     4137 b- defN 80-Feb-01 00:00 META-INF/maven/org.osgi/org.osgi.test.assertj.promise/pom.xml
+│  -rw-r--r--  2.0 unx       73 b- defN 80-Feb-01 00:00 META-INF/maven/org.osgi/org.osgi.test.assertj.promise/pom.properties
+│ -17 files, 20107 bytes uncompressed, 7346 bytes compressed:  63.5%
+│ +17 files, 20107 bytes uncompressed, 7344 bytes compressed:  63.5%
+├── META-INF/MANIFEST.MF
+│ @@ -1,13 +1,13 @@
+│  Manifest-Version: 1.0
+│  Bundle-Description: OSGi Testing AssertJ Support for Promises
+│  Bundle-License: "Apache-2.0";link="https://opensource.org/licenses/Apa
+│   che-2.0";description="Apache License, Version 2.0"
+│  Bundle-SymbolicName: org.osgi.test.assertj.promise
+│ -Bnd-LastModified: 1600275340940
+│ +Bnd-LastModified: 1636916592038
+│  Bundle-ManifestVersion: 2
+│  Bundle-DocURL: https://www.osgi.org
+│  Bundle-Vendor: OSGi Alliance
+│  Import-Package: org.assertj.core.api;version="[3.17,4)",org.assertj.co
+│   re.error;version="[3.17,4)",org.osgi.test.common.exceptions;version="
+│   [1.0,2)",org.osgi.util.promise;version="[1.0,2)"
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+│ @@ -21,9 +21,9 @@
+│   rg.assertj.core.api,org.osgi.util.promise"
+│  Bundle-Name: org.osgi:org.osgi.test.assertj.promise
+│  Bundle-Version: 0.10.0
+│  Bundle-SCM: url="https://github.com/osgi/osgi-test",connection="scm:gi
+│   t:https://github.com/osgi/osgi-test.git",developer-connection="scm:gi
+│   t:git@github.com:osgi/osgi-test.git",tag=HEAD
+│  Build-Jdk-Spec: 1.8
+│ -Created-By: 1.8.0_265 (Azul Systems, Inc.)
+│ +Created-By: 1.8.0_275 (Oracle Corporation)
+
+target/reference/org.osgi.test.junit4-0.10.0.jar org.osgi.test.junit4/target/org.osgi.test.junit4-0.10.0.jar
+--- target/reference/org.osgi.test.junit4-0.10.0.jar
++++ org.osgi.test.junit4/target/org.osgi.test.junit4-0.10.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 11747 bytes, number of entries: 19
+│ +Zip file size: 11746 bytes, number of entries: 19
+│  -rw-r--r--  2.0 unx     1769 b- defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/osgi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/osgi/test/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/osgi/test/junit4/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/osgi/test/junit4/context/
+│ @@ -14,8 +14,8 @@
+│  -rw-r--r--  2.0 unx     5567 b- defN 80-Feb-01 00:00 org/osgi/test/junit4/context/BundleContextRule.class
+│  -rw-r--r--  2.0 unx      282 b- defN 80-Feb-01 00:00 org/osgi/test/junit4/context/package-info.class
+│  -rw-r--r--  2.0 unx     1067 b- defN 80-Feb-01 00:00 org/osgi/test/junit4/service/ServiceRule$1.class
+│  -rw-r--r--  2.0 unx     8609 b- defN 80-Feb-01 00:00 org/osgi/test/junit4/service/ServiceRule.class
+│  -rw-r--r--  2.0 unx      282 b- defN 80-Feb-01 00:00 org/osgi/test/junit4/service/package-info.class
+│  -rw-r--r--  2.0 unx     3964 b- defN 80-Feb-01 00:00 META-INF/maven/org.osgi/org.osgi.test.junit4/pom.xml
+│  -rw-r--r--  2.0 unx       64 b- defN 80-Feb-01 00:00 META-INF/maven/org.osgi/org.osgi.test.junit4/pom.properties
+│ -19 files, 22707 bytes uncompressed, 9033 bytes compressed:  60.2%
+│ +19 files, 22707 bytes uncompressed, 9032 bytes compressed:  60.2%
+├── META-INF/MANIFEST.MF
+│ @@ -1,13 +1,13 @@
+│  Manifest-Version: 1.0
+│  Bundle-Description: OSGi Testing JUnit 4 Support
+│  Bundle-License: "Apache-2.0";link="https://opensource.org/licenses/Apa
+│   che-2.0";description="Apache License, Version 2.0"
+│  Bundle-SymbolicName: org.osgi.test.junit4
+│ -Bnd-LastModified: 1600275342838
+│ +Bnd-LastModified: 1636916592664
+│  Bundle-ManifestVersion: 2
+│  Bundle-DocURL: https://www.osgi.org
+│  Bundle-Vendor: OSGi Alliance
+│  Import-Package: org.junit.rules;version="[4.13,5)",org.junit.runners.m
+│   odel;version="[4.13,5)",org.osgi.framework;version="[1.8,2)",org.osgi
+│   .test.common.annotation;version="[1.0,2)",org.osgi.test.common.contex
+│   t;version="[1.0,2)",org.osgi.test.common.inject;version="[1.0,2)",org
+│ @@ -26,9 +26,9 @@
+│   nners.model"
+│  Bundle-Name: org.osgi:org.osgi.test.junit4
+│  Bundle-Version: 0.10.0
+│  Bundle-SCM: url="https://github.com/osgi/osgi-test",connection="scm:gi
+│   t:https://github.com/osgi/osgi-test.git",developer-connection="scm:gi
+│   t:git@github.com:osgi/osgi-test.git",tag=HEAD
+│  Build-Jdk-Spec: 1.8
+│ -Created-By: 1.8.0_265 (Azul Systems, Inc.)
+│ +Created-By: 1.8.0_275 (Oracle Corporation)
+
+target/reference/org.osgi.test.junit5-0.10.0.jar org.osgi.test.junit5/target/org.osgi.test.junit5-0.10.0.jar
+--- target/reference/org.osgi.test.junit5-0.10.0.jar
++++ org.osgi.test.junit5/target/org.osgi.test.junit5-0.10.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 14450 bytes, number of entries: 19
+│ +Zip file size: 14447 bytes, number of entries: 19
+│  -rw-r--r--  2.0 unx     1830 b- defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/osgi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/osgi/test/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/osgi/test/junit5/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/osgi/test/junit5/context/
+│ @@ -14,8 +14,8 @@
+│  -rw-r--r--  2.0 unx    10046 b- defN 80-Feb-01 00:00 org/osgi/test/junit5/context/BundleContextExtension.class
+│  -rw-r--r--  2.0 unx      282 b- defN 80-Feb-01 00:00 org/osgi/test/junit5/context/package-info.class
+│  -rw-r--r--  2.0 unx     1883 b- defN 80-Feb-01 00:00 org/osgi/test/junit5/service/ServiceExtension$CloseableServiceConfiguration.class
+│  -rw-r--r--  2.0 unx    11024 b- defN 80-Feb-01 00:00 org/osgi/test/junit5/service/ServiceExtension.class
+│  -rw-r--r--  2.0 unx      282 b- defN 80-Feb-01 00:00 org/osgi/test/junit5/service/package-info.class
+│  -rw-r--r--  2.0 unx     4319 b- defN 80-Feb-01 00:00 META-INF/maven/org.osgi/org.osgi.test.junit5/pom.xml
+│  -rw-r--r--  2.0 unx       64 b- defN 80-Feb-01 00:00 META-INF/maven/org.osgi/org.osgi.test.junit5/pom.properties
+│ -19 files, 31400 bytes uncompressed, 11582 bytes compressed:  63.1%
+│ +19 files, 31400 bytes uncompressed, 11579 bytes compressed:  63.1%
+├── META-INF/MANIFEST.MF
+│ @@ -1,13 +1,13 @@
+│  Manifest-Version: 1.0
+│  Bundle-Description: OSGi Testing JUnit 5 Support
+│  Bundle-License: "Apache-2.0";link="https://opensource.org/licenses/Apa
+│   che-2.0";description="Apache License, Version 2.0"
+│  Bundle-SymbolicName: org.osgi.test.junit5
+│ -Bnd-LastModified: 1600275344252
+│ +Bnd-LastModified: 1636916592975
+│  Bundle-ManifestVersion: 2
+│  Bundle-DocURL: https://www.osgi.org
+│  Bundle-Vendor: OSGi Alliance
+│  Import-Package: org.junit.jupiter.api.extension;version="[5.6,6)",org.
+│   osgi.framework;version="[1.8,2)",org.osgi.test.common.annotation;vers
+│   ion="[1.0,2)",org.osgi.test.common.context;version="[1.0,2)",org.osgi
+│   .test.common.inject;version="[1.0,2)",org.osgi.test.common.install;ve
+│ @@ -26,9 +26,9 @@
+│   it.jupiter.api.extension,org.osgi.test.common.service"
+│  Bundle-Name: org.osgi:org.osgi.test.junit5
+│  Bundle-Version: 0.10.0
+│  Bundle-SCM: url="https://github.com/osgi/osgi-test",connection="scm:gi
+│   t:https://github.com/osgi/osgi-test.git",developer-connection="scm:gi
+│   t:git@github.com:osgi/osgi-test.git",tag=HEAD
+│  Build-Jdk-Spec: 1.8
+│ -Created-By: 1.8.0_265 (Azul Systems, Inc.)
+│ +Created-By: 1.8.0_275 (Oracle Corporation)
+
+target/reference/org.osgi.test.junit5.cm-0.10.0.jar org.osgi.test.junit5.cm/target/org.osgi.test.junit5.cm-0.10.0.jar
+--- target/reference/org.osgi.test.junit5.cm-0.10.0.jar
++++ org.osgi.test.junit5.cm/target/org.osgi.test.junit5.cm-0.10.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 17336 bytes, number of entries: 18
+│ +Zip file size: 17334 bytes, number of entries: 18
+│  -rw-r--r--  2.0 unx     1904 b- defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/osgi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/osgi/test/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/osgi/test/junit5/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-Feb-01 00:00 org/osgi/test/junit5/cm/
+│ @@ -13,8 +13,8 @@
+│  -rw-r--r--  2.0 unx     3014 b- defN 80-Feb-01 00:00 org/osgi/test/junit5/cm/BlockingConfigurationHandlerImpl.class
+│  -rw-r--r--  2.0 unx     9401 b- defN 80-Feb-01 00:00 org/osgi/test/junit5/cm/ConfigUtil.class
+│  -rw-r--r--  2.0 unx     1621 b- defN 80-Feb-01 00:00 org/osgi/test/junit5/cm/ConfigurationCopy.class
+│  -rw-r--r--  2.0 unx    17620 b- defN 80-Feb-01 00:00 org/osgi/test/junit5/cm/ConfigurationExtension.class
+│  -rw-r--r--  2.0 unx      343 b- defN 80-Feb-01 00:00 org/osgi/test/junit5/cm/package-info.class
+│  -rw-r--r--  2.0 unx     4896 b- defN 80-Feb-01 00:00 META-INF/maven/org.osgi/org.osgi.test.junit5.cm/pom.xml
+│  -rw-r--r--  2.0 unx       67 b- defN 80-Feb-01 00:00 META-INF/maven/org.osgi/org.osgi.test.junit5.cm/pom.properties
+│ -18 files, 39387 bytes uncompressed, 14734 bytes compressed:  62.6%
+│ +18 files, 39387 bytes uncompressed, 14732 bytes compressed:  62.6%
+├── META-INF/MANIFEST.MF
+│ @@ -1,13 +1,13 @@
+│  Manifest-Version: 1.0
+│  Bundle-Description: OSGi Testing JUnit 5 Support for ConfigAdmin
+│  Bundle-License: "Apache-2.0";link="https://opensource.org/licenses/Apa
+│   che-2.0";description="Apache License, Version 2.0"
+│  Bundle-SymbolicName: org.osgi.test.junit5.cm
+│ -Bnd-LastModified: 1600275346257
+│ +Bnd-LastModified: 1636916593534
+│  Bundle-ManifestVersion: 2
+│  Bundle-DocURL: https://www.osgi.org
+│  Bundle-Vendor: OSGi Alliance
+│  Import-Package: org.junit.jupiter.api.extension;version="[5.6,6)",org.
+│   osgi.framework;version="[1.8,2)",org.osgi.service.cm;version="[1.6,2)
+│   ",org.osgi.test.common.annotation;version="[1.0,2)",org.osgi.test.com
+│   mon.annotation.config;version="[1.0,2)",org.osgi.test.common.dictiona
+│ @@ -27,9 +27,9 @@
+│   it.jupiter.api.extension,org.osgi.service.cm"
+│  Bundle-Name: org.osgi:org.osgi.test.junit5.cm
+│  Bundle-Version: 0.10.0
+│  Bundle-SCM: url="https://github.com/osgi/osgi-test",connection="scm:gi
+│   t:https://github.com/osgi/osgi-test.git",developer-connection="scm:gi
+│   t:git@github.com:osgi/osgi-test.git",tag=HEAD
+│  Build-Jdk-Spec: 1.8
+│ -Created-By: 1.8.0_265 (Azul Systems, Inc.)
+│ +Created-By: 1.8.0_275 (Oracle Corporation)
+
