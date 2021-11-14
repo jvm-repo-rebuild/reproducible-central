@@ -1,0 +1,106 @@
+target/reference/sshd-putty-2.6.0.jar sshd-putty/target/sshd-putty-2.6.0.jar
+--- target/reference/sshd-putty-2.6.0.jar
++++ sshd-putty/target/sshd-putty-2.6.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 29000 bytes, number of entries: 25
+│ +Zip file size: 29003 bytes, number of entries: 25
+│  -rw-r--r--  2.0 unx     2226 b- defN 20-Jan-01 00:00 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 .cache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 org/apache/sshd/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 org/apache/sshd/putty/
+│ @@ -20,8 +20,8 @@
+│  -rw-r--r--  2.0 unx     3088 b- defN 20-Jan-01 00:00 org/apache/sshd/putty/EdDSAPuttyKeyDecoder.class
+│  -rw-r--r--  2.0 unx     6521 b- defN 20-Jan-01 00:00 org/apache/sshd/putty/PuttyKeyPairResourceParser.class
+│  -rw-r--r--  2.0 unx     2269 b- defN 20-Jan-01 00:00 org/apache/sshd/putty/PuttyKeyReader.class
+│  -rw-r--r--  2.0 unx     3097 b- defN 20-Jan-01 00:00 org/apache/sshd/putty/PuttyKeyUtils.class
+│  -rw-r--r--  2.0 unx     3415 b- defN 20-Jan-01 00:00 org/apache/sshd/putty/RSAPuttyKeyDecoder.class
+│  -rw-r--r--  2.0 unx     3815 b- defN 20-Jan-01 00:00 META-INF/maven/org.apache.sshd/sshd-putty/pom.xml
+│  -rw-r--r--  2.0 unx       60 b- defN 20-Jan-01 00:00 META-INF/maven/org.apache.sshd/sshd-putty/pom.properties
+│ -25 files, 63105 bytes uncompressed, 25474 bytes compressed:  59.6%
+│ +25 files, 63105 bytes uncompressed, 25477 bytes compressed:  59.6%
+├── META-INF/MANIFEST.MF
+│ @@ -8,15 +8,15 @@
+│   ire to create high quality software that leads the way in its field. 
+
+│      We consider ourselves not simply a group of projects sharing a ser
+
+│   ver, but rather a community of developers    and users.
+
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0
+
+│  Bundle-SymbolicName: org.apache.sshd.putty
+
+│  Implementation-Version: 2.6.0
+
+│  Specification-Vendor: The Apache Software Foundation
+
+│ -Bnd-LastModified: 1607368312560
+
+│ +Bnd-LastModified: 1636910444417
+
+│  Bundle-ManifestVersion: 2
+
+│  Specification-Title: Apache Mina SSHD :: Putty key files support utili
+
+│   ties
+
+│  Bundle-DocURL: https://www.apache.org/
+
+│  Bundle-Vendor: The Apache Software Foundation
+
+│  Import-Package: org.apache.sshd.common;version="[2.6,2.7)",org.apache.
+
+│   sshd.common.cipher;version="[2.6,2.7)",org.apache.sshd.common.config.
+├── .cache/formatter-maven-cache.properties
+│ @@ -1,8 +1,8 @@
+│ -#Mon Dec 07 20:11:51 CET 2020
+│ +#Sun Nov 14 17:20:43 UTC 2021
+│  /src/main/java/org/apache/sshd/putty/EdDSAPuttyKeyDecoder.java=4c1190bcc100b8a6c8bda4b44e0c07f9e408c18fef6ff1b7576e0c35931c8747d1268503b5947661a4299bc03aaacc5b9e1423997917570d9437f0e1a1830113
+│  /src/main/java/org/apache/sshd/putty/PuttyKeyReader.java=c76a29efe0f2456c5fe3c64d445da0ab2b3d665d1dcaedead2de6137ee687b5c477f81d552b9f12ccfbbfa12f5f04930d760e80da8f18f9fe5d3bdaf55820580
+│  /src/main/java/org/apache/sshd/putty/RSAPuttyKeyDecoder.java=6ed9d66cff75e3d0d8cda998d5e383599c86532035aa6f0e6e80a24ae762954833e39104d6135b65e9927d474e8ba70057e1cf9cd9c0057c0adf464613833084
+│  /src/main/java/org/apache/sshd/putty/PuttyKeyUtils.java=6e8616c233a46e5886c7a5e38a24f50472eb1562d3e45b626e26002f91530a5685a95a35f44c2daee42f67f49c88e0f6f3268719f92446ca268820ffd2e6db59
+│  /src/main/java/org/apache/sshd/putty/PuttyKeyPairResourceParser.java=3e2efd50c42a0bd95736b3aba0f0ea62b51d1e2bb801159543b5e5861c3d1a04e8dc4532f3e91dbb5e92b6c6cf8fa6003f6ce83d61a0c7ec143ed04ca63eeea6
+│  /src/main/java/org/apache/sshd/putty/ECDSAPuttyKeyDecoder.java=8f7b7674355694e27edca5892a5a97d901907c4f0cd496cf7551a62b339406dbc7b12a3d10bb8c8c23db5a3f01ef2c3b0c1b8e2c412954222af8f6f2874f6d8b
+│  /src/main/java/org/apache/sshd/putty/DSSPuttyKeyDecoder.java=ee77f1c85ae7d79b1ffd973c4a7d93729c09be4d0ddc3a072858eae007fc0bfaae212b7935e9af90c56a12967295a2c06fa781f1b883cd6b5a50f184e5fe4122
+
+
+target/reference/sshd-osgi-2.6.0-sources.jar sshd-osgi/target/sshd-osgi-2.6.0-sources.jar
+--- target/reference/sshd-osgi-2.6.0-sources.jar
++++ sshd-osgi/target/sshd-osgi-2.6.0-sources.jar
+├── zipinfo {}
+│ @@ -1,813 +1,813 @@
+│ -Zip file size: 1270872 bytes, number of entries: 811
+...
+│ --rw-r--r--  2.0 unx     9716 b- defN 20-Dec-07 20:10 org/apache/sshd/server/x11/DefaultX11ForwardSupport.java
+│ --rw-r--r--  2.0 unx     1503 b- defN 20-Dec-07 20:10 org/apache/sshd/server/x11/X11ForwardSupport.java
+│ --rw-r--r--  2.0 unx     1129 b- defN 20-Dec-07 20:10 org/apache/sshd/server/x11/X11ForwardingExceptionMarker.java
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-07 20:22 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-07 20:22 META-INF/maven/org.apache.sshd/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-07 20:22 META-INF/maven/org.apache.sshd/sshd-osgi/
+│ --rw-r--r--  2.0 unx       89 b- defN 20-Dec-07 20:22 META-INF/maven/org.apache.sshd/sshd-osgi/pom.properties
+│ --rw-r--r--  2.0 unx     7606 b- defN 20-Dec-07 20:22 META-INF/maven/org.apache.sshd/sshd-osgi/pom.xml
+│ -811 files, 3795202 bytes uncompressed, 1121680 bytes compressed:  70.4%
+│ +Zip file size: 1270878 bytes, number of entries: 811
+...
+│ +-rw-r--r--  2.0 unx     9716 b- defN 21-Nov-14 17:20 org/apache/sshd/server/x11/DefaultX11ForwardSupport.java
+│ +-rw-r--r--  2.0 unx     1503 b- defN 21-Nov-14 17:20 org/apache/sshd/server/x11/X11ForwardSupport.java
+│ +-rw-r--r--  2.0 unx     1129 b- defN 21-Nov-14 17:20 org/apache/sshd/server/x11/X11ForwardingExceptionMarker.java
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-14 17:21 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-14 17:21 META-INF/maven/org.apache.sshd/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-14 17:21 META-INF/maven/org.apache.sshd/sshd-osgi/
+│ +-rw-r--r--  2.0 unx       89 b- defN 21-Nov-14 17:21 META-INF/maven/org.apache.sshd/sshd-osgi/pom.properties
+│ +-rw-r--r--  2.0 unx     7606 b- defN 21-Nov-14 17:21 META-INF/maven/org.apache.sshd/sshd-osgi/pom.xml
+│ +811 files, 3795208 bytes uncompressed, 1121686 bytes compressed:  70.4%
+├── META-INF/MANIFEST.MF
+│ @@ -1,4 +1,4 @@
+│  Manifest-Version: 1.0
+
+│  Ant-Version: Apache Ant 1.10.9
+
+│ -Created-By: 1.8.0_275-b01 (AdoptOpenJDK)
+
+│ +Created-By: 1.8.0_275-b01 (Oracle Corporation)
