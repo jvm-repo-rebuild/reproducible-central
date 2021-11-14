@@ -1,0 +1,19 @@
+version=2.4.0
+ok=10
+ko=12
+okFiles="wss4j-2.4.0-site.xml wss4j-2.4.0-source-release.zip wss4j-bindings-2.4.0-sources.jar wss4j-policy-2.4.0-sources.jar wss4j-ws-security-common-2.4.0-sources.jar wss4j-ws-security-dom-2.4.0-sources.jar wss4j-ws-security-stax-2.4.0-sources.jar wss4j-ws-security-web-2.4.0-sources.jar wss4j-integration-2.4.0-sources.jar wss4j-ws-security-policy-stax-2.4.0-sources.jar"
+koFiles="wss4j-bindings-2.4.0.jar wss4j-policy-2.4.0.jar wss4j-ws-security-common-2.4.0.jar wss4j-ws-security-common-2.4.0-tests.jar wss4j-ws-security-dom-2.4.0.jar wss4j-ws-security-dom-2.4.0-tests.jar wss4j-ws-security-stax-2.4.0.jar wss4j-ws-security-stax-2.4.0-tests.jar wss4j-ws-security-web-2.4.0.jar wss4j-integration-2.4.0.jar wss4j-integration-2.4.0-tests.jar wss4j-ws-security-policy-stax-2.4.0.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/wss4j-bindings-2.4.0.jar bindings/target/wss4j-bindings-2.4.0.jar
+# diffoscope target/reference/wss4j-policy-2.4.0.jar policy/target/wss4j-policy-2.4.0.jar
+# diffoscope target/reference/wss4j-ws-security-common-2.4.0.jar ws-security-common/target/wss4j-ws-security-common-2.4.0.jar
+# diffoscope target/reference/wss4j-ws-security-common-2.4.0-tests.jar ws-security-common/target/wss4j-ws-security-common-2.4.0-tests.jar
+# diffoscope target/reference/wss4j-ws-security-dom-2.4.0.jar ws-security-dom/target/wss4j-ws-security-dom-2.4.0.jar
+# diffoscope target/reference/wss4j-ws-security-dom-2.4.0-tests.jar ws-security-dom/target/wss4j-ws-security-dom-2.4.0-tests.jar
+# diffoscope target/reference/wss4j-ws-security-stax-2.4.0.jar ws-security-stax/target/wss4j-ws-security-stax-2.4.0.jar
+# diffoscope target/reference/wss4j-ws-security-stax-2.4.0-tests.jar ws-security-stax/target/wss4j-ws-security-stax-2.4.0-tests.jar
+# diffoscope target/reference/wss4j-ws-security-web-2.4.0.jar ws-security-web/target/wss4j-ws-security-web-2.4.0.jar
+# diffoscope target/reference/wss4j-integration-2.4.0.jar integration/target/wss4j-integration-2.4.0.jar
+# diffoscope target/reference/wss4j-integration-2.4.0-tests.jar integration/target/wss4j-integration-2.4.0-tests.jar
+# diffoscope target/reference/wss4j-ws-security-policy-stax-2.4.0.jar ws-security-policy-stax/target/wss4j-ws-security-policy-stax-2.4.0.jar

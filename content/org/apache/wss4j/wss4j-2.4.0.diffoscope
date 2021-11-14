@@ -1,0 +1,491 @@
+target/reference/wss4j-bindings-2.4.0.jar bindings/target/wss4j-bindings-2.4.0.jar
+--- target/reference/wss4j-bindings-2.4.0.jar
++++ bindings/target/wss4j-bindings-2.4.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 43090 bytes, number of entries: 56
+│ +Zip file size: 43091 bytes, number of entries: 56
+│  -rw-r--r--  2.0 unx     1498 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/wss4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/wss4j/binding/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/wss4j/binding/wss10/
+│ @@ -51,8 +51,8 @@
+│  -rw-r--r--  2.0 unx     1913 b- defN 80-000-00 04:08 org/apache/wss4j/binding/wsu10/AttributedDateTime.class
+│  -rw-r--r--  2.0 unx     1870 b- defN 80-000-00 04:08 org/apache/wss4j/binding/wsu10/AttributedURI.class
+│  -rw-r--r--  2.0 unx     2638 b- defN 80-000-00 04:08 org/apache/wss4j/binding/wsu10/ObjectFactory.class
+│  -rw-r--r--  2.0 unx     2657 b- defN 80-000-00 04:08 org/apache/wss4j/binding/wsu10/TimestampType.class
+│  -rw-r--r--  2.0 unx      398 b- defN 80-000-00 04:08 org/apache/wss4j/binding/wsu10/package-info.class
+│  -rw-r--r--  2.0 unx     2048 b- defN 80-000-00 04:08 META-INF/maven/org.apache.wss4j/wss4j-bindings/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 80-000-00 04:08 META-INF/maven/org.apache.wss4j/wss4j-bindings/pom.properties
+│ -56 files, 86580 bytes uncompressed, 33756 bytes compressed:  61.0%
+│ +56 files, 86580 bytes uncompressed, 33757 bytes compressed:  61.0%
+├── META-INF/MANIFEST.MF
+│ @@ -2,15 +2,15 @@
+│  Implementation-Title: Apache WSS4J WS-Security Bindings
+│  Bundle-Description: Apache WSS4J parent pom
+│  Automatic-Module-Name: org.apache.wss4j.bindings
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+│  Bundle-SymbolicName: org.apache.wss4j.wss4j-bindings
+│  Implementation-Version: 2.4.0
+│  Specification-Vendor: The Apache Software Foundation
+│ -Bnd-LastModified: 1635766774457
+│ +Bnd-LastModified: 1636887268798
+│  Bundle-ManifestVersion: 2
+│  Implementation-Vendor-Id: org.apache
+│  Specification-Title: Apache WSS4J WS-Security Bindings
+│  Bundle-DocURL: http://ws.apache.org/wss4j
+│  Bundle-Vendor: The Apache Software Foundation
+│  Import-Package: javax.xml.bind,javax.xml.bind.annotation,javax.xml.bin
+│   d.annotation.adapters,javax.xml.namespace,org.apache.wss4j.binding.ws
+
+target/reference/wss4j-policy-2.4.0.jar policy/target/wss4j-policy-2.4.0.jar
+--- target/reference/wss4j-policy-2.4.0.jar
++++ policy/target/wss4j-policy-2.4.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 212270 bytes, number of entries: 133
+│ +Zip file size: 212269 bytes, number of entries: 133
+│  -rw-r--r--  2.0 unx     1312 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/wss4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/wss4j/policy/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/wss4j/policy/builders/
+│ @@ -128,8 +128,8 @@
+│  -rw-r--r--  2.0 unx     4192 b- defN 80-000-00 04:08 org/apache/wss4j/policy/model/Wss11.class
+│  -rw-r--r--  2.0 unx     2386 b- defN 80-000-00 04:08 org/apache/wss4j/policy/model/X509Token$TokenType.class
+│  -rw-r--r--  2.0 unx     6696 b- defN 80-000-00 04:08 org/apache/wss4j/policy/model/X509Token.class
+│  -rw-r--r--  2.0 unx     1385 b- defN 80-000-00 04:08 org/apache/wss4j/policy/model/XPath$Version.class
+│  -rw-r--r--  2.0 unx     2098 b- defN 80-000-00 04:08 org/apache/wss4j/policy/model/XPath.class
+│  -rw-r--r--  2.0 unx     2220 b- defN 80-000-00 04:08 META-INF/maven/org.apache.wss4j/wss4j-policy/pom.xml
+│  -rw-r--r--  2.0 unx       63 b- defN 80-000-00 04:08 META-INF/maven/org.apache.wss4j/wss4j-policy/pom.properties
+│ -133 files, 458304 bytes uncompressed, 188498 bytes compressed:  58.9%
+│ +133 files, 458304 bytes uncompressed, 188497 bytes compressed:  58.9%
+├── META-INF/MANIFEST.MF
+│ @@ -2,15 +2,15 @@
+│  Implementation-Title: Apache WSS4J WS-SecurityPolicy model
+│  Bundle-Description: Apache WSS4J parent pom
+│  Automatic-Module-Name: org.apache.wss4j.policy
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+│  Bundle-SymbolicName: org.apache.wss4j.wss4j-policy
+│  Implementation-Version: 2.4.0
+│  Specification-Vendor: The Apache Software Foundation
+│ -Bnd-LastModified: 1635766786058
+│ +Bnd-LastModified: 1636887272601
+│  Bundle-ManifestVersion: 2
+│  Implementation-Vendor-Id: org.apache
+│  Specification-Title: Apache WSS4J WS-SecurityPolicy model
+│  Bundle-DocURL: http://ws.apache.org/wss4j
+│  Bundle-Vendor: The Apache Software Foundation
+│  Import-Package: javax.xml.namespace,javax.xml.stream,org.apache.neethi
+│   ;version="[3.1,4)",org.apache.neethi.builders;version="[3.1,4)",org.a
+
+target/reference/wss4j-ws-security-common-2.4.0.jar ws-security-common/target/wss4j-ws-security-common-2.4.0.jar
+--- target/reference/wss4j-ws-security-common-2.4.0.jar
++++ ws-security-common/target/wss4j-ws-security-common-2.4.0.jar
+├── zipinfo -v {}
+│ @@ -27,15 +27,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          1980 000 0 04:08:00
+│ -  32-bit CRC value (hex):                         176ed282
+│ +  32-bit CRC value (hex):                         0780c1e8
+│    compressed size:                                1247 bytes
+│    uncompressed size:                              4201 bytes
+│    length of filename:                             20 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/MANIFEST.MF
+│ @@ -2,15 +2,15 @@
+│  Implementation-Title: Apache WSS4J WS-Security Common
+│  Bundle-Description: Apache WSS4J parent pom
+│  Automatic-Module-Name: org.apache.wss4j.common
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+│  Bundle-SymbolicName: org.apache.wss4j.wss4j-ws-security-common
+│  Implementation-Version: 2.4.0
+│  Specification-Vendor: The Apache Software Foundation
+│ -Bnd-LastModified: 1635766800642
+│ +Bnd-LastModified: 1636887278012
+│  Bundle-ManifestVersion: 2
+│  Implementation-Vendor-Id: org.apache
+│  Specification-Title: Apache WSS4J WS-Security Common
+│  Bundle-DocURL: http://ws.apache.org/wss4j
+│  Bundle-Vendor: The Apache Software Foundation
+│  Import-Package: com.sun.security.jgss;resolution:=optional,javax.crypt
+│   o,javax.crypto.spec,javax.mail.internet;version="[1.4,2)",javax.namin
+
+target/reference/wss4j-ws-security-common-2.4.0-tests.jar ws-security-common/target/wss4j-ws-security-common-2.4.0-tests.jar
+--- target/reference/wss4j-ws-security-common-2.4.0-tests.jar
++++ ws-security-common/target/wss4j-ws-security-common-2.4.0-tests.jar
+├── zipinfo -v {}
+│ @@ -27,15 +27,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          1980 000 0 04:08:00
+│ -  32-bit CRC value (hex):                         176ed282
+│ +  32-bit CRC value (hex):                         0780c1e8
+│    compressed size:                                1247 bytes
+│    uncompressed size:                              4201 bytes
+│    length of filename:                             20 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/MANIFEST.MF
+│ @@ -2,15 +2,15 @@
+│  Implementation-Title: Apache WSS4J WS-Security Common
+│  Bundle-Description: Apache WSS4J parent pom
+│  Automatic-Module-Name: org.apache.wss4j.common
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+│  Bundle-SymbolicName: org.apache.wss4j.wss4j-ws-security-common
+│  Implementation-Version: 2.4.0
+│  Specification-Vendor: The Apache Software Foundation
+│ -Bnd-LastModified: 1635766800642
+│ +Bnd-LastModified: 1636887278012
+│  Bundle-ManifestVersion: 2
+│  Implementation-Vendor-Id: org.apache
+│  Specification-Title: Apache WSS4J WS-Security Common
+│  Bundle-DocURL: http://ws.apache.org/wss4j
+│  Bundle-Vendor: The Apache Software Foundation
+│  Import-Package: com.sun.security.jgss;resolution:=optional,javax.crypt
+│   o,javax.crypto.spec,javax.mail.internet;version="[1.4,2)",javax.namin
+
+target/reference/wss4j-ws-security-dom-2.4.0.jar ws-security-dom/target/wss4j-ws-security-dom-2.4.0.jar
+--- target/reference/wss4j-ws-security-dom-2.4.0.jar
++++ ws-security-dom/target/wss4j-ws-security-dom-2.4.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 335572 bytes, number of entries: 135
+│ +Zip file size: 335573 bytes, number of entries: 135
+│  -rw-r--r--  2.0 unx     4002 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/wss4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/wss4j/dom/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/wss4j/dom/action/
+│ @@ -130,8 +130,8 @@
+│  -rw-r--r--  2.0 unx     3966 b- defN 80-000-00 04:08 org/apache/wss4j/dom/validate/SignatureTrustValidator.class
+│  -rw-r--r--  2.0 unx     2448 b- defN 80-000-00 04:08 org/apache/wss4j/dom/validate/TimestampValidator.class
+│  -rw-r--r--  2.0 unx     6098 b- defN 80-000-00 04:08 org/apache/wss4j/dom/validate/UsernameTokenValidator.class
+│  -rw-r--r--  2.0 unx      355 b- defN 80-000-00 04:08 org/apache/wss4j/dom/validate/Validator.class
+│  -rw-r--r--  2.0 unx     5331 b- defN 80-000-00 04:08 saml2-xacml2-profile.xml
+│  -rw-r--r--  2.0 unx     4891 b- defN 80-000-00 04:08 META-INF/maven/org.apache.wss4j/wss4j-ws-security-dom/pom.xml
+│  -rw-r--r--  2.0 unx       72 b- defN 80-000-00 04:08 META-INF/maven/org.apache.wss4j/wss4j-ws-security-dom/pom.properties
+│ -135 files, 760761 bytes uncompressed, 312464 bytes compressed:  58.9%
+│ +135 files, 760761 bytes uncompressed, 312465 bytes compressed:  58.9%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+│  Bundle-SymbolicName: org.apache.wss4j.wss4j-ws-security-dom
+│ -Bnd-LastModified: 1635766823767
+│ +Bnd-LastModified: 1636887283918
+│  Implementation-Vendor-Id: org.apache
+│  Specification-Title: Apache WSS4J DOM WS-Security
+│  Bundle-DocURL: http://ws.apache.org/wss4j
+│  Import-Package: com.sun.xml.internal.messaging.saaj.soap;resolution:=o
+│   ptional,com.sun.xml.messaging.saaj.soap;resolution:=optional,javax.cr
+│   ypto,javax.crypto.spec,javax.security.auth,javax.security.auth.callba
+│   ck,javax.security.auth.kerberos,javax.security.auth.login,javax.secur
+
+target/reference/wss4j-ws-security-dom-2.4.0-tests.jar ws-security-dom/target/wss4j-ws-security-dom-2.4.0-tests.jar
+--- target/reference/wss4j-ws-security-dom-2.4.0-tests.jar
++++ ws-security-dom/target/wss4j-ws-security-dom-2.4.0-tests.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 416689 bytes, number of entries: 153
+│ +Zip file size: 416690 bytes, number of entries: 153
+│  -rw-r--r--  2.0 unx     4002 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/wss4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/wss4j/dom/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/wss4j/dom/common/
+│ @@ -148,8 +148,8 @@
+│  -rw-r--r--  2.0 unx    10711 b- defN 80-000-00 04:08 org/apache/wss4j/dom/validate/ValidatorTest.class
+│  -rw-r--r--  2.0 unx     2075 b- defN 80-000-00 04:08 regexp.jks
+│  -rw-r--r--  2.0 unx      287 b- defN 80-000-00 04:08 regexp.properties
+│  -rw-r--r--  2.0 unx      198 b- defN 80-000-00 04:08 wss40CAAKI.properties
+│  -rw-r--r--  2.0 unx      302 b- defN 80-000-00 04:08 wss40_server.properties
+│  -rw-r--r--  2.0 unx     4891 b- defN 80-000-00 04:08 META-INF/maven/org.apache.wss4j/wss4j-ws-security-dom/pom.xml
+│  -rw-r--r--  2.0 unx       72 b- defN 80-000-00 04:08 META-INF/maven/org.apache.wss4j/wss4j-ws-security-dom/pom.properties
+│ -153 files, 963051 bytes uncompressed, 390223 bytes compressed:  59.5%
+│ +153 files, 963051 bytes uncompressed, 390224 bytes compressed:  59.5%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+│  Bundle-SymbolicName: org.apache.wss4j.wss4j-ws-security-dom
+│ -Bnd-LastModified: 1635766823767
+│ +Bnd-LastModified: 1636887283918
+│  Implementation-Vendor-Id: org.apache
+│  Specification-Title: Apache WSS4J DOM WS-Security
+│  Bundle-DocURL: http://ws.apache.org/wss4j
+│  Import-Package: com.sun.xml.internal.messaging.saaj.soap;resolution:=o
+│   ptional,com.sun.xml.messaging.saaj.soap;resolution:=optional,javax.cr
+│   ypto,javax.crypto.spec,javax.security.auth,javax.security.auth.callba
+│   ck,javax.security.auth.kerberos,javax.security.auth.login,javax.secur
+
+target/reference/wss4j-ws-security-stax-2.4.0.jar ws-security-stax/target/wss4j-ws-security-stax-2.4.0.jar
+--- target/reference/wss4j-ws-security-stax-2.4.0.jar
++++ ws-security-stax/target/wss4j-ws-security-stax-2.4.0.jar
+├── zipinfo -v {}
+│ @@ -27,15 +27,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          1980 000 0 04:08:00
+│ -  32-bit CRC value (hex):                         8c806bbe
+│ +  32-bit CRC value (hex):                         8fe00a2d
+│    compressed size:                                1227 bytes
+│    uncompressed size:                              4974 bytes
+│    length of filename:                             20 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/MANIFEST.MF
+│ @@ -2,15 +2,15 @@
+│  Implementation-Title: Apache WSS4J Streaming WS-Security
+│  Bundle-Description: Apache WSS4J parent pom
+│  Automatic-Module-Name: org.apache.wss4j.stax
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+│  Bundle-SymbolicName: org.apache.wss4j.wss4j-ws-security-stax
+│  Implementation-Version: 2.4.0
+│  Specification-Vendor: The Apache Software Foundation
+│ -Bnd-LastModified: 1635766846114
+│ +Bnd-LastModified: 1636887291509
+│  Bundle-ManifestVersion: 2
+│  Implementation-Vendor-Id: org.apache
+│  Specification-Title: Apache WSS4J Streaming WS-Security
+│  Bundle-DocURL: http://ws.apache.org/wss4j
+│  Bundle-Vendor: The Apache Software Foundation
+│  Import-Package: javax.crypto,javax.crypto.spec,javax.security.auth,jav
+│   ax.security.auth.callback,javax.security.auth.kerberos,javax.security
+
+target/reference/wss4j-ws-security-stax-2.4.0-tests.jar ws-security-stax/target/wss4j-ws-security-stax-2.4.0-tests.jar
+--- target/reference/wss4j-ws-security-stax-2.4.0-tests.jar
++++ ws-security-stax/target/wss4j-ws-security-stax-2.4.0-tests.jar
+├── zipinfo -v {}
+│ @@ -27,15 +27,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          1980 000 0 04:08:00
+│ -  32-bit CRC value (hex):                         8c806bbe
+│ +  32-bit CRC value (hex):                         8fe00a2d
+│    compressed size:                                1227 bytes
+│    uncompressed size:                              4974 bytes
+│    length of filename:                             20 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/MANIFEST.MF
+│ @@ -2,15 +2,15 @@
+│  Implementation-Title: Apache WSS4J Streaming WS-Security
+│  Bundle-Description: Apache WSS4J parent pom
+│  Automatic-Module-Name: org.apache.wss4j.stax
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+│  Bundle-SymbolicName: org.apache.wss4j.wss4j-ws-security-stax
+│  Implementation-Version: 2.4.0
+│  Specification-Vendor: The Apache Software Foundation
+│ -Bnd-LastModified: 1635766846114
+│ +Bnd-LastModified: 1636887291509
+│  Bundle-ManifestVersion: 2
+│  Implementation-Vendor-Id: org.apache
+│  Specification-Title: Apache WSS4J Streaming WS-Security
+│  Bundle-DocURL: http://ws.apache.org/wss4j
+│  Bundle-Vendor: The Apache Software Foundation
+│  Import-Package: javax.crypto,javax.crypto.spec,javax.security.auth,jav
+│   ax.security.auth.callback,javax.security.auth.kerberos,javax.security
+
+target/reference/wss4j-ws-security-web-2.4.0.jar ws-security-web/target/wss4j-ws-security-web-2.4.0.jar
+--- target/reference/wss4j-ws-security-web-2.4.0.jar
++++ ws-security-web/target/wss4j-ws-security-web-2.4.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 9462 bytes, number of entries: 15
+│ +Zip file size: 9463 bytes, number of entries: 15
+│  -rw-r--r--  2.0 unx     1124 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/wss4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/wss4j/web/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/
+│ @@ -10,8 +10,8 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.wss4j/wss4j-ws-security-web/
+│  -rw-r--r--  2.0 unx     7348 b- defN 80-000-00 04:08 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 80-000-00 04:08 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      185 b- defN 80-000-00 04:08 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx      812 b- defN 80-000-00 04:08 org/apache/wss4j/web/WssServletContextListener.class
+│  -rw-r--r--  2.0 unx     2523 b- defN 80-000-00 04:08 META-INF/maven/org.apache.wss4j/wss4j-ws-security-web/pom.xml
+│  -rw-r--r--  2.0 unx       72 b- defN 80-000-00 04:08 META-INF/maven/org.apache.wss4j/wss4j-ws-security-web/pom.properties
+│ -15 files, 23422 bytes uncompressed, 7468 bytes compressed:  68.1%
+│ +15 files, 23422 bytes uncompressed, 7469 bytes compressed:  68.1%
+├── META-INF/MANIFEST.MF
+│ @@ -2,15 +2,15 @@
+│  Implementation-Title: Apache WSS4J Web WS-Security
+│  Bundle-Description: Apache WSS4J parent pom
+│  Automatic-Module-Name: org.apache.wss4j.web
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+│  Bundle-SymbolicName: org.apache.wss4j.wss4j-ws-security-web
+│  Implementation-Version: 2.4.0
+│  Specification-Vendor: The Apache Software Foundation
+│ -Bnd-LastModified: 1635767120113
+│ +Bnd-LastModified: 1636887296450
+│  Bundle-ManifestVersion: 2
+│  Implementation-Vendor-Id: org.apache
+│  Specification-Title: Apache WSS4J Web WS-Security
+│  Bundle-DocURL: http://ws.apache.org/wss4j
+│  Bundle-Vendor: The Apache Software Foundation
+│  Import-Package: javax.servlet;version="[4.0,5)",javax.servlet.annotati
+│   on;version="[4.0,5)",org.apache.wss4j.dom.engine;version="[2.4,3)"
+
+target/reference/wss4j-integration-2.4.0.jar integration/target/wss4j-integration-2.4.0.jar
+--- target/reference/wss4j-integration-2.4.0.jar
++++ integration/target/wss4j-integration-2.4.0.jar
+├── zipinfo {}
+│ @@ -1,12 +1,12 @@
+│ -Zip file size: 7015 bytes, number of entries: 10
+│ +Zip file size: 7014 bytes, number of entries: 10
+│  -rw-r--r--  2.0 unx      832 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.wss4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.wss4j/wss4j-integration/
+│  -rw-r--r--  2.0 unx      286 b- defN 80-000-00 04:08 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 80-000-00 04:08 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      193 b- defN 80-000-00 04:08 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     3893 b- defN 80-000-00 04:08 META-INF/maven/org.apache.wss4j/wss4j-integration/pom.xml
+│  -rw-r--r--  2.0 unx       68 b- defN 80-000-00 04:08 META-INF/maven/org.apache.wss4j/wss4j-integration/pom.properties
+│ -10 files, 16630 bytes uncompressed, 5635 bytes compressed:  66.1%
+│ +10 files, 16630 bytes uncompressed, 5634 bytes compressed:  66.1%
+├── META-INF/MANIFEST.MF
+│ @@ -1,15 +1,15 @@
+│  Manifest-Version: 1.0
+│  Implementation-Title: Apache WSS4J WS-Security Integration
+│  Bundle-Description: Apache WSS4J parent pom
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+│  Bundle-SymbolicName: org.apache.wss4j.wss4j-integration
+│  Implementation-Version: 2.4.0
+│  Specification-Vendor: The Apache Software Foundation
+│ -Bnd-LastModified: 1635767125667
+│ +Bnd-LastModified: 1636887296886
+│  Bundle-ManifestVersion: 2
+│  Implementation-Vendor-Id: org.apache
+│  Specification-Title: Apache WSS4J WS-Security Integration
+│  Bundle-DocURL: http://ws.apache.org/wss4j
+│  Bundle-Vendor: The Apache Software Foundation
+│  Tool: Bnd-5.1.1.202006162103
+│  Implementation-Vendor: The Apache Software Foundation
+
+target/reference/wss4j-integration-2.4.0-tests.jar integration/target/wss4j-integration-2.4.0-tests.jar
+--- target/reference/wss4j-integration-2.4.0-tests.jar
++++ integration/target/wss4j-integration-2.4.0-tests.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 43936 bytes, number of entries: 46
+│ +Zip file size: 43935 bytes, number of entries: 46
+│  -rw-r--r--  2.0 unx      832 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 kerberos/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/wss4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/wss4j/integration/
+│ @@ -41,8 +41,8 @@
+│  -rw-r--r--  2.0 unx     1457 b- defN 80-000-00 04:08 org/apache/wss4j/integration/test/kerberos/KerberosTest$6.class
+│  -rw-r--r--  2.0 unx     1465 b- defN 80-000-00 04:08 org/apache/wss4j/integration/test/kerberos/KerberosTest$7.class
+│  -rw-r--r--  2.0 unx     1459 b- defN 80-000-00 04:08 org/apache/wss4j/integration/test/kerberos/KerberosTest$8.class
+│  -rw-r--r--  2.0 unx     1773 b- defN 80-000-00 04:08 org/apache/wss4j/integration/test/kerberos/KerberosTest$9.class
+│  -rw-r--r--  2.0 unx    27840 b- defN 80-000-00 04:08 org/apache/wss4j/integration/test/kerberos/KerberosTest.class
+│  -rw-r--r--  2.0 unx     3893 b- defN 80-000-00 04:08 META-INF/maven/org.apache.wss4j/wss4j-integration/pom.xml
+│  -rw-r--r--  2.0 unx       68 b- defN 80-000-00 04:08 META-INF/maven/org.apache.wss4j/wss4j-integration/pom.properties
+│ -46 files, 84884 bytes uncompressed, 36032 bytes compressed:  57.6%
+│ +46 files, 84884 bytes uncompressed, 36031 bytes compressed:  57.6%
+├── META-INF/MANIFEST.MF
+│ @@ -1,15 +1,15 @@
+│  Manifest-Version: 1.0
+│  Implementation-Title: Apache WSS4J WS-Security Integration
+│  Bundle-Description: Apache WSS4J parent pom
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+│  Bundle-SymbolicName: org.apache.wss4j.wss4j-integration
+│  Implementation-Version: 2.4.0
+│  Specification-Vendor: The Apache Software Foundation
+│ -Bnd-LastModified: 1635767125667
+│ +Bnd-LastModified: 1636887296886
+│  Bundle-ManifestVersion: 2
+│  Implementation-Vendor-Id: org.apache
+│  Specification-Title: Apache WSS4J WS-Security Integration
+│  Bundle-DocURL: http://ws.apache.org/wss4j
+│  Bundle-Vendor: The Apache Software Foundation
+│  Tool: Bnd-5.1.1.202006162103
+│  Implementation-Vendor: The Apache Software Foundation
+
+target/reference/wss4j-ws-security-policy-stax-2.4.0.jar ws-security-policy-stax/target/wss4j-ws-security-policy-stax-2.4.0.jar
+--- target/reference/wss4j-ws-security-policy-stax-2.4.0.jar
++++ ws-security-policy-stax/target/wss4j-ws-security-policy-stax-2.4.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 131446 bytes, number of entries: 71
+│ +Zip file size: 131445 bytes, number of entries: 71
+│  -rw-r--r--  2.0 unx     2670 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/wss4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/wss4j/policy/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/wss4j/policy/stax/
+│ @@ -66,8 +66,8 @@
+│  -rw-r--r--  2.0 unx    44400 b- defN 80-000-00 04:08 schemas/ws-securitypolicy-1.2-errata-cd-01.xsd
+│  -rw-r--r--  2.0 unx    43606 b- defN 80-000-00 04:08 schemas/ws-securitypolicy-1.2.xsd
+│  -rw-r--r--  2.0 unx     4950 b- defN 80-000-00 04:08 schemas/ws-securitypolicy-1.3.xsd
+│  -rw-r--r--  2.0 unx    31594 b- defN 80-000-00 04:08 schemas/ws-securitypolicy-200507.xsd
+│  -rw-r--r--  2.0 unx     5237 b- defN 80-000-00 04:08 schemas/ws-securitypolicy-200802.xsd
+│  -rw-r--r--  2.0 unx     4208 b- defN 80-000-00 04:08 META-INF/maven/org.apache.wss4j/wss4j-ws-security-policy-stax/pom.xml
+│  -rw-r--r--  2.0 unx       80 b- defN 80-000-00 04:08 META-INF/maven/org.apache.wss4j/wss4j-ws-security-policy-stax/pom.properties
+│ -71 files, 406435 bytes uncompressed, 117870 bytes compressed:  71.0%
+│ +71 files, 406435 bytes uncompressed, 117869 bytes compressed:  71.0%
+├── META-INF/MANIFEST.MF
+│ @@ -2,15 +2,15 @@
+│  Implementation-Title: Apache WSS4J Streaming WS-SecurityPolicy
+│  Bundle-Description: Apache WSS4J parent pom
+│  Automatic-Module-Name: org.apache.wss4j.policystax
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+│  Bundle-SymbolicName: org.apache.wss4j.wss4j-ws-security-policy-stax
+│  Implementation-Version: 2.4.0
+│  Specification-Vendor: The Apache Software Foundation
+│ -Bnd-LastModified: 1635767136687
+│ +Bnd-LastModified: 1636887300432
+│  Bundle-ManifestVersion: 2
+│  Implementation-Vendor-Id: org.apache
+│  Specification-Title: Apache WSS4J Streaming WS-SecurityPolicy
+│  Bundle-DocURL: http://ws.apache.org/wss4j
+│  Bundle-Vendor: The Apache Software Foundation
+│  Import-Package: javax.security.auth.x500,javax.wsdl;resolution:=option
+│   al,javax.wsdl.extensions;resolution:=optional,javax.wsdl.extensions.s
+
