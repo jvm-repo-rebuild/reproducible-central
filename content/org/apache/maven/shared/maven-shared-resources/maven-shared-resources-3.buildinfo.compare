@@ -1,0 +1,7 @@
+version=3
+ok=4
+ko=0
+okFiles="maven-shared-resources-3.pom maven-shared-resources-3.jar maven-shared-resources-3-source-release.zip maven-shared-resources-3-sources.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
