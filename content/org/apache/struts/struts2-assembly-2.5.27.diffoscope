@@ -1,0 +1,95 @@
+target/reference/struts2-core-2.5.27.jar core/target/struts2-core-2.5.27.jar
+--- target/reference/struts2-core-2.5.27.jar
++++ core/target/struts2-core-2.5.27.jar
+├── zipinfo {}
+│ @@ -1,9 +1,9 @@
+│ -Zip file size: 1625676 bytes, number of entries: 1264
+│ --rw-r--r--  2.0 unx    28299 b- defN 21-Oct-19 07:39 META-INF/MANIFEST.MF
+│ +Zip file size: 1625678 bytes, number of entries: 1264
+│ +-rw-r--r--  2.0 unx    28300 b- defN 21-Oct-19 07:39 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Oct-19 07:39 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Oct-19 07:39 com/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Oct-19 07:39 com/opensymphony/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Oct-19 07:39 com/opensymphony/xwork2/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Oct-19 07:39 com/opensymphony/xwork2/config/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Oct-19 07:39 com/opensymphony/xwork2/config/entities/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Oct-19 07:39 com/opensymphony/xwork2/config/impl/
+│ @@ -1259,8 +1259,8 @@
+│  -rw-r--r--  2.0 unx     1589 b- defN 21-Oct-19 07:39 xwork-validator-1.0.2.dtd
+│  -rw-r--r--  2.0 unx     1593 b- defN 21-Oct-19 07:39 xwork-validator-1.0.3.dtd
+│  -rw-r--r--  2.0 unx     1508 b- defN 21-Oct-19 07:39 xwork-validator-1.0.dtd
+│  -rw-r--r--  2.0 unx     1215 b- defN 21-Oct-19 07:39 xwork-validator-config-1.0.dtd
+│  -rw-r--r--  2.0 unx     1233 b- defN 21-Oct-19 07:39 xwork-validator-definition-1.0.dtd
+│  -rw-r--r--  2.0 unx    16499 b- defN 21-Oct-19 07:39 META-INF/maven/org.apache.struts/struts2-core/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 21-Oct-19 07:39 META-INF/maven/org.apache.struts/struts2-core/pom.properties
+│ -1264 files, 3733956 bytes uncompressed, 1398208 bytes compressed:  62.6%
+│ +1264 files, 3733957 bytes uncompressed, 1398210 bytes compressed:  62.6%
+├── META-INF/MANIFEST.MF
+│ @@ -304,20 +304,20 @@
+│   late.archive.xhtml;version="2.5.27",template.css_xhtml;version="2.5.2
+
+│   7",template.simple;version="2.5.27",template.xhtml;version="2.5.27"
+
+│  Implementation-Title: Struts 2 Core
+
+│  Implementation-Version: 2.5.27
+
+│  Specification-Vendor: Apache Software Foundation
+
+│  Tool: Bnd-0.0.357
+
+│  Bundle-Name: Struts 2 Core
+
+│ -Created-By: 1.7.0_80 (Oracle Corporation)
+
+│ +Created-By: 1.7.0_211 (Oracle Corporation)
+
+│  Bundle-Vendor: Apache Software Foundation
+
+│  Implementation-Vendor: Apache Software Foundation
+
+│  Build-Jdk-Spec: 1.7
+
+│  Bundle-Version: 2.5.27
+
+│ -Bnd-LastModified: 1634630148224
+
+│ +Bnd-LastModified: 1637254551609
+
+│  Bundle-ManifestVersion: 2
+
+│  Specification-Title: Struts 2 Core
+
+│  Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+
+│  Bundle-Description: Apache Struts 2
+
+│  Import-Package: com.opensymphony.xwork2;version="2.5",com.opensymphony
+
+│   .xwork2.config;version="2.5",com.opensymphony.xwork2.config.entities;
+
+│   version="2.5",com.opensymphony.xwork2.config.impl;version="2.5",com.o
+
+
+target/reference/struts2-showcase-2.5.27.war apps/showcase/target/struts2-showcase.war
+--- target/reference/struts2-showcase-2.5.27.war
++++ apps/showcase/target/struts2-showcase.war
+├── zipinfo {}
+│ @@ -1,864 +1,654 @@
+│ -Zip file size: 17306450 bytes, number of entries: 862
+│ --rw-r--r--  2.0 unx       80 b- defN 21-Oct-19 09:57 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Oct-19 09:57 META-INF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Oct-19 09:57 token/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Oct-19 09:57 wait/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Oct-19 09:57 skill/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Oct-19 09:57 images/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Oct-19 09:57 person/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Oct-19 09:57 js/
+...
+│ -862 files, 20577782 bytes uncompressed, 17146090 bytes compressed:  16.7%
+│ +Zip file size: 17120406 bytes, number of entries: 652
+│ +-rw-r--r--  2.0 unx       80 b- defN 21-Nov-18 16:57 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-18 16:57 META-INF/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-18 16:57 WEB-INF/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-18 16:57 WEB-INF/actionchaining/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-18 16:57 WEB-INF/bean-validation/
