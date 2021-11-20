@@ -24,8 +24,13 @@ echo -e "Rebuilding from spec \033[1m${buildspec}\033[0m"
 display "groupId"
 display "artifactId"
 display "version"
-display "gitRepo"
-display "gitTag"
+if [ -z "${sourceDistribution}" ]
+then
+  display "gitRepo"
+  display "gitTag"
+else
+  display "sourceDistribution"
+fi
 display "tool"
 display "jdk"
 display "newline"
@@ -36,29 +41,38 @@ base="$PWD"
 
 pushd `dirname ${buildspec}` >/dev/null || fatal "could not move into ${buildspec}"
 
-# prepare source, using provided Git repository and tag
-# TODO: support svn, support getting source-release.zip
+# prepare source, using provided Git repository and tag or sourceDistribution
 [ -d buildcache ] || mkdir buildcache
 cd buildcache
-[ -d ${artifactId} ] || git clone ${gitRepo} ${artifactId} || fatal "failed to clone ${artifactId}"
-cd ${artifactId}
-echo -e "\033[2m$(pwd) \033[1mgit fetch\033[0m"
-git fetch || fatal "failed to git fetch"
-echo -e "\033[2m$(pwd) \033[1mgit git checkout -f ${gitTag}\033[0m"
-git checkout -f ${gitTag} || fatal "failed to git checkout ${gitTag}"
-if [ "${newline}" == "crlf" ]
+if [ -z "${sourceDistribution}" ]
 then
-  echo "converting newlines to crlf"
-  xargs="xargs"
-  set -e
-  if [ "$(uname -s)" ==  "Darwin" ]
+  # use provided Git repository and tag
+  [ -d ${artifactId} ] || git clone ${gitRepo} ${artifactId} || fatal "failed to clone ${artifactId}"
+  cd ${artifactId}
+  echo -e "\033[2m$(pwd) \033[1mgit fetch\033[0m"
+  git fetch || fatal "failed to git fetch"
+  echo -e "\033[2m$(pwd) \033[1mgit git checkout -f ${gitTag}\033[0m"
+  git checkout -f ${gitTag} || fatal "failed to git checkout ${gitTag}"
+  if [ "${newline}" == "crlf" ]
   then
-    command -v gxargs >/dev/null 2>&1 || { echo "require GNU xargs: brew install findutils.  Aborting."; exit 1; }
-    xargs="gxargs"
+    echo "converting newlines to crlf"
+    xargs="xargs"
+    set -e
+    if [ "$(uname -s)" ==  "Darwin" ]
+    then
+      command -v gxargs >/dev/null 2>&1 || { echo "require GNU xargs: brew install findutils.  Aborting."; exit 1; }
+      xargs="gxargs"
+    fi
+    git ls-files --eol | grep w/lf | cut -c 40- | ${xargs} -d '\n' unix2dos 2> /dev/null
+    # re-run without hiding output to show if there are issues
+    git ls-files --eol | grep w/lf | cut -c 40- | ${xargs} -d '\n' unix2dos
   fi
-  git ls-files --eol | grep w/lf | cut -c 40- | ${xargs} -d '\n' unix2dos 2> /dev/null
-  # re-run without hiding output to show if there are issues
-  git ls-files --eol | grep w/lf | cut -c 40- | ${xargs} -d '\n' unix2dos
+else
+  # use provided sourceDistribution
+  [ -f $(basename ${sourceDistribution}) ] || wget ${sourceDistribution}
+  [ -d ${sourcePath} ] || unzip $(basename ${sourceDistribution})
+  cd ${sourcePath}
+  [ -n "${sourceRmFiles}" ] && \rm ${sourceRmFiles}
 fi
 
 echo -e "\033[1m$(pwd)\033[0m"

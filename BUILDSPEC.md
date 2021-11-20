@@ -21,6 +21,10 @@ version=
 # Source code
 gitRepo=https://github.com/project_org/${artifactId}.git
 gitTag=${artifactId}-${version}
+# or use source zip archive
+sourceDistribution=https://archive.apache.org/dist/maven/maven-3/${version}/source/apache-maven-${version}-src.zip
+sourcePath=apache-maven-${version}
+sourceRmFiles=DEPENDENCIES
 
 # Rebuild environment prerequisites
 tool=mvn
@@ -53,6 +57,7 @@ To facilitate the job, here are step by step instructions:
 
 - `groupId`, `artifactId` and `version` are not really used to do the rebuild, but to point to the reference output files in Central Repository in the final report.
 - `gitRepo` and `gitTag` define where to get the source code from and which precise commit represents the release.
+- in case Git is not the best way, `sourceDistribution`, `sourcePath` and `sourceRmFiles` can be defined to download a source zip file.
 - rebuild environment prerequisites: they define key prerequisites to rebuild source code and have a chance that the output files will match reference output from Central Repository:
   - `tool`: the build tool used. Can be `mvn` or `sbt` currently, but don't hesitate to help provide [rebuild support for other JVM build tools](/jvm-repo-rebuild/reproducible-central/issues/6),
   - `jdk`: the JDK major version to use, that must match the reference file from Central Repository to have a chance of getting the same binary output,
