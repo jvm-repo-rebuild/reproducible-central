@@ -22,9 +22,9 @@ version=
 gitRepo=https://github.com/project_org/${artifactId}.git
 gitTag=${artifactId}-${version}
 # or use source zip archive
-sourceDistribution=https://archive.apache.org/dist/maven/maven-3/${version}/source/apache-maven-${version}-src.zip
-sourcePath=apache-maven-${version}
-sourceRmFiles=DEPENDENCIES
+sourceDistribution=https://archive.apache.org/dist/maven/scm/${artifactId}-${version}-source-release.zip
+sourcePath=${artifactId}-${version}
+sourceRmFiles=DEPENDENCIES LICENSE NOTICE
 
 # Rebuild environment prerequisites
 tool=mvn

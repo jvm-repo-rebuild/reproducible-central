@@ -186,7 +186,12 @@ rebuildToolMvn() {
     grep '# diffoscope ' ${buildinfo}*.compare
 #    echo -e "run \033[36mdiffoscope\033[0m as container with \033[1mdocker run --rm -t -w /mnt -v $(pwd):/mnt:ro registry.salsa.debian.org/reproducible-builds/diffoscope\033[0m"
     echo -e "To see every differences between current rebuild and reference, run:"
-    echo -e "    \033[1m./build_diffoscope.sh $(dirname ${buildspec})/$(basename ${compare}) buildcache/${artifactId}\033[0m"
+    if [ -z "${sourcePath}" ]
+    then
+      echo -e "    \033[1m./build_diffoscope.sh $(dirname ${buildspec})/$(basename ${compare}) buildcache/${artifactId}\033[0m"
+    else
+      echo -e "    \033[1m./build_diffoscope.sh $(dirname ${buildspec})/$(basename ${compare}) buildcache/${sourcePath}\033[0m"
+    fi
   else
     echo -e "    \033[32;1mok=${ok}\033[0m"
     echo -e "    okFiles=\"${okFiles}\""

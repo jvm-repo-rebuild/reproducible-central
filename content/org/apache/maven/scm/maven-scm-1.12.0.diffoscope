@@ -1,0 +1,82 @@
+target/reference/maven-scm-1.12.0-source-release.zip target/maven-scm-1.12.0-source-release.zip
+--- target/reference/maven-scm-1.12.0-source-release.zip
++++ target/maven-scm-1.12.0-source-release.zip
+├── zipinfo {}
+│ @@ -1477,15 +1477,18 @@
+│  -rw-r--r--  2.0 unx       19 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/maven-scm-providers/maven-scm-providers-cvs/maven-scm-provider-cvsexe/src/test/tck-repository/CVSROOT/.cvsignore
+│  -rw-r--r--  2.0 unx       19 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/maven-scm-providers/maven-scm-providers-cvs/maven-scm-provider-cvsjava/src/test/repository/CVSROOT/.cvsignore
+│  -rw-r--r--  2.0 unx       19 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/maven-scm-providers/maven-scm-providers-cvs/maven-scm-provider-cvsjava/src/test/tck-repository/CVSROOT/.cvsignore
+│  -rw-r--r--  2.0 unx       19 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/maven-scm-providers/maven-scm-providers-cvs/maven-scm-provider-cvstest/src/main/resources/repository/CVSROOT/.cvsignore
+│  -rw-r--r--  2.0 unx       19 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/maven-scm-providers/maven-scm-providers-cvs/maven-scm-provider-cvstest/src/main/resources/tck-repository/CVSROOT/.cvsignore
+│  -rw-r--r--  2.0 unx     1054 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/.asf.yaml
+│  -rw-r--r--  2.0 unx      277 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/.travis.yml
+│ +-rw-r--r--  2.0 unx      531 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/DEPENDENCIES
+│  -rw-r--r--  2.0 unx      852 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/Jenkinsfile
+│ +-rw-r--r--  2.0 unx    11358 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/LICENSE
+│ +-rw-r--r--  2.0 unx      166 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/NOTICE
+│  -rw-r--r--  2.0 unx     5603 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/README.md
+│  -rw-r--r--  2.0 unx      890 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/deploySite.sh
+│  -rw-r--r--  2.0 unx     1623 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/maven-scm-api/pom.xml
+│  -rw-r--r--  2.0 unx     1690 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/maven-scm-api/src/main/java/org/apache/maven/scm/AbstractScmVersion.java
+│  -rw-r--r--  2.0 unx     4796 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/maven-scm-api/src/main/java/org/apache/maven/scm/ChangeFile.java
+│  -rw-r--r--  2.0 unx    18989 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/maven-scm-api/src/main/java/org/apache/maven/scm/ChangeSet.java
+│  -rw-r--r--  2.0 unx     4391 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/maven-scm-api/src/main/java/org/apache/maven/scm/CommandParameter.java
+│ @@ -3161,11 +3164,8 @@
+│  -rw-r--r--  2.0 unx      969 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/src/site/resources/download.cgi
+│  -rw-r--r--  2.0 unx      604 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/src/site/resources/images/check.gif
+│  -rw-r--r--  2.0 unx      633 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/src/site/resources/images/error.gif
+│  -rw-r--r--  2.0 unx      613 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/src/site/resources/images/forbidden.gif
+│  -rw-r--r--  2.0 unx     2895 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/src/site/site.xml
+│  -rw-r--r--  2.0 unx     4952 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/src/site/xdoc/download.xml.vm
+│  -rw-r--r--  2.0 unx    31523 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/src/site/xdoc/matrix.xml
+│ --rw-r--r--  2.0 unx      531 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/DEPENDENCIES
+│ --rw-r--r--  2.0 unx    11358 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/LICENSE
+│ --rw-r--r--  2.0 unx      166 b- defN 21-Sep-13 07:40 maven-scm-1.12.0/NOTICE
+│  3169 files, 7019449 bytes uncompressed, 2194623 bytes compressed:  68.7%
+├── zipnote {}
+│ @@ -4440,17 +4440,26 @@
+│  
+│  Filename: maven-scm-1.12.0/.asf.yaml
+│  Comment: 
+│  
+│  Filename: maven-scm-1.12.0/.travis.yml
+│  Comment: 
+│  
+│ +Filename: maven-scm-1.12.0/DEPENDENCIES
+│ +Comment: 
+│ +
+│  Filename: maven-scm-1.12.0/Jenkinsfile
+│  Comment: 
+│  
+│ +Filename: maven-scm-1.12.0/LICENSE
+│ +Comment: 
+│ +
+│ +Filename: maven-scm-1.12.0/NOTICE
+│ +Comment: 
+│ +
+│  Filename: maven-scm-1.12.0/README.md
+│  Comment: 
+│  
+│  Filename: maven-scm-1.12.0/deploySite.sh
+│  Comment: 
+│  
+│  Filename: maven-scm-1.12.0/maven-scm-api/pom.xml
+│ @@ -9492,17 +9501,8 @@
+│  
+│  Filename: maven-scm-1.12.0/src/site/xdoc/download.xml.vm
+│  Comment: 
+│  
+│  Filename: maven-scm-1.12.0/src/site/xdoc/matrix.xml
+│  Comment: 
+│  
+│ -Filename: maven-scm-1.12.0/DEPENDENCIES
+│ -Comment: 
+│ -
+│ -Filename: maven-scm-1.12.0/LICENSE
+│ -Comment: 
+│ -
+│ -Filename: maven-scm-1.12.0/NOTICE
+│ -Comment: 
+│ -
+│  Zip file comment:
+

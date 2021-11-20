@@ -30,8 +30,8 @@ outputs.0.0.length=2895
 outputs.0.0.checksums.sha512=aa175ba0ad0eded113367badb1bd3a3ef6c6edf4f67f5d996d0fc3085269f29898162bcc9563f0bd68d1c3f90e5d6b51fb38fd9cd277c68f59388c924ecb50eb
 
 outputs.0.1.filename=maven-scm-1.11.3-source-release.zip
-outputs.0.1.length=3225061
-outputs.0.1.checksums.sha512=da8b602ac4e234bbff2fc1e37eac8c74e1fe1c354200564a593f4281bd492affd879a09bdced67aae74897ce545ba94e717b640de322b1ec3acbd63f59b0bf2d
+outputs.0.1.length=3224703
+outputs.0.1.checksums.sha512=d6e472315cda098a7a9c19995587b6c0a8f53645fc2e3f688b076a8d7aeb0880251612a5c55cb2010f2872d5fa2ea94411891b897e1c670f662e1ba640aa009a
 
 outputs.1.coordinates=org.apache.maven.scm:maven-scm-api
 
@@ -256,12 +256,12 @@ outputs.24.1.checksums.sha512=192a26aedbb5417ad35b7a169105419e5f92d606c5aeca7097
 outputs.25.coordinates=org.apache.maven.scm:maven-scm-provider-svntest
 
 outputs.25.0.filename=maven-scm-provider-svntest-1.11.3.jar
-outputs.25.0.length=23547
-outputs.25.0.checksums.sha512=4a0afa7fea5921ce673147261dae85d93721e218217a7f8a71ed1f3c733a791d9faa21b3b22038cd4cf3da2d72d163c6ea7479cf11203f7e11aa45c6325bc3cf
+outputs.25.0.length=23524
+outputs.25.0.checksums.sha512=49f77808cf6b57c1da2cb1ed83d8ed1edbf37eee0e99a332715dfc10f05f9389a228cf919c60b836c586e6a1cf96a4f9fc181717b7ab53767374a5443148b101
 
 outputs.25.1.filename=maven-scm-provider-svntest-1.11.3-sources.jar
-outputs.25.1.length=25395
-outputs.25.1.checksums.sha512=101219c0d4b27cda0b408702eda90e7254b582973d68e65ba0f4079bdeac1bc4c771e5404267947e23cfd83bf5796aa2181064003ab2f13dcfe9e8e0c76ea988
+outputs.25.1.length=25372
+outputs.25.1.checksums.sha512=9d932a3782da8aa26a6e5488c1525e637b501d5328c83480ce1e2fa86efff444267df4c799d23b05c58b5ee1324192435050632a9fc8f262906821bb863fca09
 
 outputs.26.coordinates=org.apache.maven.scm:maven-scm-provider-svnexe
 

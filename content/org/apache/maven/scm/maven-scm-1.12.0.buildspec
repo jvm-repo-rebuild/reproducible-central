@@ -3,8 +3,11 @@ artifactId=maven-scm
 display=${groupId}:${artifactId}
 version=1.12.0
 
-gitRepo=https://github.com/apache/${artifactId}.git
-gitTag=${artifactId}-${version}
+#gitRepo=https://github.com/apache/${artifactId}.git
+#gitTag=${artifactId}-${version}
+sourceDistribution=https://archive.apache.org/dist/maven/scm/${artifactId}-${version}-source-release.zip
+sourcePath=${artifactId}-${version}
+sourceRmFiles=DEPENDENCIES LICENSE NOTICE
 
 tool=mvn
 jdk=7
@@ -13,4 +16,4 @@ newline=crlf
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-issue=https://github.com/jvm-repo-rebuild/reproducible-central/issues/66
+issue=

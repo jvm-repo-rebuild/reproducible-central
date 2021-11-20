@@ -10,9 +10,9 @@ display=${groupId}:${artifactId}
 # Source code
 gitRepo=https://github.com/project_org/${artifactId}.git
 gitTag=${artifactId}-${version}
-#sourceDistribution=https://archive.apache.org/dist/maven/maven-3/${version}/source/apache-maven-${version}-src.zip
-#sourcePath=apache-maven-${version}
-#sourceRmFiles=DEPENDENCIES
+#sourceDistribution=https://archive.apache.org/dist/maven/scm/${artifactId}-${version}-source-release.zip
+#sourcePath=${artifactId}-${version}
+#sourceRmFiles=DEPENDENCIES LICENSE NOTICE
 
 # Rebuild environment prerequisites
 tool=mvn
