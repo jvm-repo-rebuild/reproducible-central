@@ -1,0 +1,21 @@
+groupId=org.apache.maven
+artifactId=maven
+display=${groupId}:${artifactId}
+version=3.8.4
+
+#gitRepo=https://github.com/apache/${artifactId}.git
+#gitTag=${artifactId}-${version}
+sourceDistribution=https://archive.apache.org/dist/maven/maven-3/${version}/source/apache-maven-${version}-src.zip
+sourcePath=apache-maven-${version}
+sourceRmFiles=DEPENDENCIES
+
+tool=mvn
+jdk=8
+newline=crlf
+
+buildNumber="9b656c72d54e5bacbed989b64718c159fe39b537"
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -DbuildNumber=${buildNumber}"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=
+issue=
