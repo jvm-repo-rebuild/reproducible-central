@@ -11,6 +11,6 @@ jdk=11
 newline=lf
 
 command="mvn -Pplexus-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
-buildinfo=plexus-compilers/plexus-compiler-j2objc/target/plexus-compiler-j2objc-${version}.buildinfo
+buildinfo=target/${artifactId}-${version}.buildinfo
 
 issue=
