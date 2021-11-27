@@ -1,0 +1,696 @@
+target/reference/convex-core-0.7.2-sources.jar convex-core/target/convex-core-0.7.2-sources.jar
+--- target/reference/convex-core-0.7.2-sources.jar
++++ convex-core/target/convex-core-0.7.2-sources.jar
+├── zipinfo -v {}
+│ @@ -7336,16 +7336,16 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          2020 Feb 2 00:00:00
+│ -  32-bit CRC value (hex):                         19992ad3
+│ -  compressed size:                                810 bytes
+│ +  32-bit CRC value (hex):                         92f55712
+│ +  compressed size:                                808 bytes
+│    uncompressed size:                              8920 bytes
+│    length of filename:                             53 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (100644 octal):            -rw-r--r--
+│ @@ -7354,16 +7354,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #255:
+│  ---------------------------
+│  
+│    convex/core/lang/reader/antlr/ConvexLexer.interp
+│  
+│ -  offset of local header from start of archive:   356296
+│ -                                                  (0000000000056FC8h) bytes
+│ +  offset of local header from start of archive:   356294
+│ +                                                  (0000000000056FC6h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│ @@ -7383,27 +7383,27 @@
+│    There is no file comment.
+│  
+│  Central directory entry #256:
+│  ---------------------------
+│  
+│    convex/core/lang/reader/antlr/ConvexLexer.java
+│  
+│ -  offset of local header from start of archive:   358825
+│ -                                                  (00000000000579A9h) bytes
+│ +  offset of local header from start of archive:   358823
+│ +                                                  (00000000000579A7h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          2020 Feb 2 00:00:00
+│ -  32-bit CRC value (hex):                         77e78900
+│ -  compressed size:                                3615 bytes
+│ +  32-bit CRC value (hex):                         e4c74f1a
+│ +  compressed size:                                3616 bytes
+│    uncompressed size:                              10906 bytes
+│    length of filename:                             46 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (100644 octal):            -rw-r--r--
+│ @@ -7412,27 +7412,27 @@
+│    There is no file comment.
+│  
+│  Central directory entry #257:
+│  ---------------------------
+│  
+│    convex/core/lang/reader/antlr/ConvexListener.java
+│  
+│ -  offset of local header from start of archive:   362516
+│ -                                                  (0000000000058814h) bytes
+│ +  offset of local header from start of archive:   362515
+│ +                                                  (0000000000058813h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          2020 Feb 2 00:00:00
+│ -  32-bit CRC value (hex):                         75ff75c7
+│ -  compressed size:                                840 bytes
+│ +  32-bit CRC value (hex):                         5bd0d246
+│ +  compressed size:                                838 bytes
+│    uncompressed size:                              8107 bytes
+│    length of filename:                             49 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (100644 octal):            -rw-r--r--
+│ @@ -7441,27 +7441,27 @@
+│    There is no file comment.
+│  
+│  Central directory entry #258:
+│  ---------------------------
+│  
+│    convex/core/lang/reader/antlr/ConvexParser.java
+│  
+│ -  offset of local header from start of archive:   363435
+│ -                                                  (0000000000058BABh) bytes
+│ +  offset of local header from start of archive:   363432
+│ +                                                  (0000000000058BA8h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          2020 Feb 2 00:00:00
+│ -  32-bit CRC value (hex):                         094c55c6
+│ -  compressed size:                                5641 bytes
+│ +  32-bit CRC value (hex):                         772c3075
+│ +  compressed size:                                5643 bytes
+│    uncompressed size:                              41094 bytes
+│    length of filename:                             47 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (100644 octal):            -rw-r--r--
+│ @@ -7470,16 +7470,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #259:
+│  ---------------------------
+│  
+│    asset/box/actor.cvx
+│  
+│ -  offset of local header from start of archive:   369153
+│ -                                                  (000000000005A201h) bytes
+│ +  offset of local header from start of archive:   369152
+│ +                                                  (000000000005A200h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│ @@ -7499,16 +7499,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #260:
+│  ---------------------------
+│  
+│    asset/box.cvx
+│  
+│ -  offset of local header from start of archive:   370682
+│ -                                                  (000000000005A7FAh) bytes
+│ +  offset of local header from start of archive:   370681
+│ +                                                  (000000000005A7F9h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│ @@ -7528,16 +7528,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #261:
+│  ---------------------------
+│  
+│    asset/nft/simple.cvx
+│  
+│ -  offset of local header from start of archive:   371397
+│ -                                                  (000000000005AAC5h) bytes
+│ +  offset of local header from start of archive:   371396
+│ +                                                  (000000000005AAC4h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│ @@ -7557,16 +7557,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #262:
+│  ---------------------------
+│  
+│    asset/nft/tokens.cvx
+│  
+│ -  offset of local header from start of archive:   372585
+│ -                                                  (000000000005AF69h) bytes
+│ +  offset of local header from start of archive:   372584
+│ +                                                  (000000000005AF68h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│ @@ -7586,16 +7586,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #263:
+│  ---------------------------
+│  
+│    convex/asset.cvx
+│  
+│ -  offset of local header from start of archive:   377979
+│ -                                                  (000000000005C47Bh) bytes
+│ +  offset of local header from start of archive:   377978
+│ +                                                  (000000000005C47Ah) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│ @@ -7615,16 +7615,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #264:
+│  ---------------------------
+│  
+│    convex/core/metadata.cvx
+│  
+│ -  offset of local header from start of archive:   380686
+│ -                                                  (000000000005CF0Eh) bytes
+│ +  offset of local header from start of archive:   380685
+│ +                                                  (000000000005CF0Dh) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│ @@ -7644,16 +7644,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #265:
+│  ---------------------------
+│  
+│    convex/core.cvx
+│  
+│ -  offset of local header from start of archive:   392484
+│ -                                                  (000000000005FD24h) bytes
+│ +  offset of local header from start of archive:   392483
+│ +                                                  (000000000005FD23h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│ @@ -7673,16 +7673,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #266:
+│  ---------------------------
+│  
+│    convex/fungible.cvx
+│  
+│ -  offset of local header from start of archive:   397930
+│ -                                                  (000000000006126Ah) bytes
+│ +  offset of local header from start of archive:   397929
+│ +                                                  (0000000000061269h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│ @@ -7702,16 +7702,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #267:
+│  ---------------------------
+│  
+│    convex/play.cvx
+│  
+│ -  offset of local header from start of archive:   400213
+│ -                                                  (0000000000061B55h) bytes
+│ +  offset of local header from start of archive:   400212
+│ +                                                  (0000000000061B54h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│ @@ -7731,16 +7731,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #268:
+│  ---------------------------
+│  
+│    convex/registry.cvx
+│  
+│ -  offset of local header from start of archive:   401183
+│ -                                                  (0000000000061F1Fh) bytes
+│ +  offset of local header from start of archive:   401182
+│ +                                                  (0000000000061F1Eh) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│ @@ -7760,16 +7760,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #269:
+│  ---------------------------
+│  
+│    convex/trust.cvx
+│  
+│ -  offset of local header from start of archive:   402570
+│ -                                                  (000000000006248Ah) bytes
+│ +  offset of local header from start of archive:   402569
+│ +                                                  (0000000000062489h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│ @@ -7789,16 +7789,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #270:
+│  ---------------------------
+│  
+│    convex/trusted-oracle/actor.cvx
+│  
+│ -  offset of local header from start of archive:   404326
+│ -                                                  (0000000000062B66h) bytes
+│ +  offset of local header from start of archive:   404325
+│ +                                                  (0000000000062B65h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│ @@ -7818,16 +7818,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #271:
+│  ---------------------------
+│  
+│    convex/trusted-oracle.cvx
+│  
+│ -  offset of local header from start of archive:   404894
+│ -                                                  (0000000000062D9Eh) bytes
+│ +  offset of local header from start of archive:   404893
+│ +                                                  (0000000000062D9Dh) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│ @@ -7847,16 +7847,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #272:
+│  ---------------------------
+│  
+│    lab/convex/xform.cvx
+│  
+│ -  offset of local header from start of archive:   405967
+│ -                                                  (00000000000631CFh) bytes
+│ +  offset of local header from start of archive:   405966
+│ +                                                  (00000000000631CEh) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│ @@ -7876,16 +7876,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #273:
+│  ---------------------------
+│  
+│    lab/messenger.cvx
+│  
+│ -  offset of local header from start of archive:   406595
+│ -                                                  (0000000000063443h) bytes
+│ +  offset of local header from start of archive:   406594
+│ +                                                  (0000000000063442h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│ @@ -7905,16 +7905,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #274:
+│  ---------------------------
+│  
+│    lab/prediction-market.cvx
+│  
+│ -  offset of local header from start of archive:   406812
+│ -                                                  (000000000006351Ch) bytes
+│ +  offset of local header from start of archive:   406811
+│ +                                                  (000000000006351Bh) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│ @@ -7934,16 +7934,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #275:
+│  ---------------------------
+│  
+│    lab/secured-loan.con
+│  
+│ -  offset of local header from start of archive:   408103
+│ -                                                  (0000000000063A27h) bytes
+│ +  offset of local header from start of archive:   408102
+│ +                                                  (0000000000063A26h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│ @@ -7963,16 +7963,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #276:
+│  ---------------------------
+│  
+│    torus/currencies.cvx
+│  
+│ -  offset of local header from start of archive:   408516
+│ -                                                  (0000000000063BC4h) bytes
+│ +  offset of local header from start of archive:   408515
+│ +                                                  (0000000000063BC3h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│ @@ -7992,16 +7992,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #277:
+│  ---------------------------
+│  
+│    torus/exchange.cvx
+│  
+│ -  offset of local header from start of archive:   408898
+│ -                                                  (0000000000063D42h) bytes
+│ +  offset of local header from start of archive:   408897
+│ +                                                  (0000000000063D41h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│ @@ -8021,16 +8021,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #278:
+│  ---------------------------
+│  
+│    convex/core/lang/reader/antlr/Convex.g4
+│  
+│ -  offset of local header from start of archive:   412330
+│ -                                                  (0000000000064AAAh) bytes
+│ +  offset of local header from start of archive:   412329
+│ +                                                  (0000000000064AA9h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│ @@ -8050,16 +8050,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #279:
+│  ---------------------------
+│  
+│    META-INF/maven/world.convex/convex-core/pom.xml
+│  
+│ -  offset of local header from start of archive:   413480
+│ -                                                  (0000000000064F28h) bytes
+│ +  offset of local header from start of archive:   413479
+│ +                                                  (0000000000064F27h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│ @@ -8079,27 +8079,27 @@
+│    There is no file comment.
+│  
+│  Central directory entry #280:
+│  ---------------------------
+│  
+│    META-INF/maven/world.convex/convex-core/pom.properties
+│  
+│ -  offset of local header from start of archive:   414337
+│ -                                                  (0000000000065281h) bytes
+│ +  offset of local header from start of archive:   414336
+│ +                                                  (0000000000065280h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          2020 Feb 2 00:00:00
+│ -  32-bit CRC value (hex):                         a162bb09
+│ -  compressed size:                                108 bytes
+│ +  32-bit CRC value (hex):                         6282dc52
+│ +  compressed size:                                109 bytes
+│    uncompressed size:                              113 bytes
+│    length of filename:                             54 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (100644 octal):            -rw-r--r--
+├── convex/core/lang/reader/antlr/ConvexBaseListener.java
+│ @@ -1,8 +1,8 @@
+│ -// Generated from convex\core\lang\reader\antlr\Convex.g4 by ANTLR 4.9.2
+
+│ +// Generated from convex/core/lang/reader/antlr/Convex.g4 by ANTLR 4.9.2
+
+│  package convex.core.lang.reader.antlr;
+
+│  
+
+│  import org.antlr.v4.runtime.ParserRuleContext;
+
+│  import org.antlr.v4.runtime.tree.ErrorNode;
+
+│  import org.antlr.v4.runtime.tree.TerminalNode;
+
+│  
+
+│  /**
+├── convex/core/lang/reader/antlr/ConvexLexer.java
+│ @@ -1,8 +1,8 @@
+│ -// Generated from convex\core\lang\reader\antlr\Convex.g4 by ANTLR 4.9.2
+
+│ +// Generated from convex/core/lang/reader/antlr/Convex.g4 by ANTLR 4.9.2
+
+│  package convex.core.lang.reader.antlr;
+
+│  import org.antlr.v4.runtime.Lexer;
+
+│  import org.antlr.v4.runtime.CharStream;
+
+│  import org.antlr.v4.runtime.Token;
+
+│  import org.antlr.v4.runtime.TokenStream;
+
+│  import org.antlr.v4.runtime.*;
+
+│  import org.antlr.v4.runtime.atn.*;
+├── convex/core/lang/reader/antlr/ConvexListener.java
+│ @@ -1,8 +1,8 @@
+│ -// Generated from convex\core\lang\reader\antlr\Convex.g4 by ANTLR 4.9.2
+
+│ +// Generated from convex/core/lang/reader/antlr/Convex.g4 by ANTLR 4.9.2
+
+│  package convex.core.lang.reader.antlr;
+
+│  import org.antlr.v4.runtime.tree.ParseTreeListener;
+
+│  
+
+│  /**
+
+│   * This interface defines a complete listener for a parse tree produced by
+
+│   * {@link ConvexParser}.
+
+│   */
+├── convex/core/lang/reader/antlr/ConvexParser.java
+│ @@ -1,8 +1,8 @@
+│ -// Generated from convex\core\lang\reader\antlr\Convex.g4 by ANTLR 4.9.2
+
+│ +// Generated from convex/core/lang/reader/antlr/Convex.g4 by ANTLR 4.9.2
+
+│  package convex.core.lang.reader.antlr;
+
+│  import org.antlr.v4.runtime.atn.*;
+
+│  import org.antlr.v4.runtime.dfa.DFA;
+
+│  import org.antlr.v4.runtime.*;
+
+│  import org.antlr.v4.runtime.misc.*;
+
+│  import org.antlr.v4.runtime.tree.*;
+
+│  import java.util.List;
+├── META-INF/maven/world.convex/convex-core/pom.properties
+│ @@ -1,5 +1,5 @@
+│  #Generated by Maven
+
+│ -#Mon Nov 01 08:20:45 SGT 2021
+
+│ +#Sat Nov 27 22:44:13 UTC 2021
+
+│  groupId=world.convex
+
+│  artifactId=convex-core
+
+│  version=0.7.2
+
+target/reference/convex-peer-0.7.2-sources.jar convex-peer/target/convex-peer-0.7.2-sources.jar
+--- target/reference/convex-peer-0.7.2-sources.jar
++++ convex-peer/target/convex-peer-0.7.2-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 54483 bytes, number of entries: 33
+│ +Zip file size: 54484 bytes, number of entries: 33
+│  -rw-r--r--  2.0 unx       64 b- defN 20-Feb-02 00:00 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Feb-02 00:00 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Feb-02 00:00 convex/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Feb-02 00:00 convex/api/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Feb-02 00:00 convex/net/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Feb-02 00:00 convex/net/message/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Feb-02 00:00 convex/peer/
+│ @@ -28,8 +28,8 @@
+│  -rw-r--r--  2.0 unx    20375 b- defN 20-Feb-02 00:00 convex/peer/ConnectionManager.java
+│  -rw-r--r--  2.0 unx      273 b- defN 20-Feb-02 00:00 convex/peer/IServerEvent.java
+│  -rw-r--r--  2.0 unx    38569 b- defN 20-Feb-02 00:00 convex/peer/Server.java
+│  -rw-r--r--  2.0 unx      725 b- defN 20-Feb-02 00:00 convex/peer/ServerEvent.java
+│  -rw-r--r--  2.0 unx     2200 b- defN 20-Feb-02 00:00 convex/peer/ServerInformation.java
+│  -rw-r--r--  2.0 unx     1540 b- defN 20-Feb-02 00:00 META-INF/maven/world.convex/convex-peer/pom.xml
+│  -rw-r--r--  2.0 unx      113 b- defN 20-Feb-02 00:00 META-INF/maven/world.convex/convex-peer/pom.properties
+│ -33 files, 173067 bytes uncompressed, 50185 bytes compressed:  71.0%
+│ +33 files, 173067 bytes uncompressed, 50186 bytes compressed:  71.0%
+├── META-INF/maven/world.convex/convex-peer/pom.properties
+│ @@ -1,5 +1,5 @@
+│  #Generated by Maven
+
+│ -#Mon Nov 01 08:21:05 SGT 2021
+
+│ +#Sat Nov 27 22:44:14 UTC 2021
+
+│  groupId=world.convex
+
+│  artifactId=convex-peer
+
+│  version=0.7.2

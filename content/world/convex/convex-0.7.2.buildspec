@@ -1,11 +1,11 @@
 groupId=world.convex
 artifactId=convex
-version=0.7.0-rc2
+version=0.7.2
 
 display=${groupId}:${artifactId}
 
 gitRepo=https://github.com/Convex-Dev//${artifactId}.git
-gitTag=f766c0e6d317603ded1236bfc7d32fc15b2ea18a
+gitTag=22bb34e2a2c680f9eafe674b0f688c41413f746f
 
 tool=mvn
 jdk=16
@@ -16,4 +16,4 @@ command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://github.com/Convex-Dev/convex/pull/348
