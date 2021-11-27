@@ -1,0 +1,16 @@
+groupId=org.apache.maven.resolver
+artifactId=maven-resolver-ant-tasks
+display=${groupId}:m-r-ant-tasks
+version=1.4.0
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=crlf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
