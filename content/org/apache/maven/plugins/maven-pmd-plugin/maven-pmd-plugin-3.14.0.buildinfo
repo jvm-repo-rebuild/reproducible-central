@@ -13,25 +13,27 @@ source.scm.tag=maven-pmd-plugin-3.14.0
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.7.0_211
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=7
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T19:00:29Z)
 mvn.minimum.version=3.0
 
 # output
 
-outputs.0.filename=maven-pmd-plugin-3.14.0.jar
-outputs.0.length=139562
-outputs.0.checksums.sha512=fb348de5be46dc8533fc9e2d373495f653a94f09f39c66b33d3d79701b3951fa6e456a07bd2bd8e62df8dae27bbf9810abec701cad4187be81772e5268ee43df
+outputs.0.filename=maven-pmd-plugin-3.14.0.pom
+outputs.0.length=13369
+outputs.0.checksums.sha512=37c637a4a641d074b9d0d27634fa0761e1ef3e5c31e99f2b7ed2732e8b3a099b2de5804e36820e19f6905ba88ee24431ad59beb20bf630c71b202a7249852531
 
-outputs.1.filename=maven-pmd-plugin-3.14.0-source-release.zip
-outputs.1.length=487184
-outputs.1.checksums.sha512=b20cc1611abe5bdd5eed39bb5b7c0f601bcbba11dd98650f9fbdf3c8dcee996232904b39b6aaca0fde741c9ddc834433acf6f2eb79bc97821c22b6e2b257f706
+outputs.1.filename=maven-pmd-plugin-3.14.0.jar
+outputs.1.length=139562
+outputs.1.checksums.sha512=fb348de5be46dc8533fc9e2d373495f653a94f09f39c66b33d3d79701b3951fa6e456a07bd2bd8e62df8dae27bbf9810abec701cad4187be81772e5268ee43df
 
-outputs.2.filename=maven-pmd-plugin-3.14.0-sources.jar
-outputs.2.length=98239
-outputs.2.checksums.sha512=cd67aa3170539ac3c5d75688cbe35b4dc3d771a91f0bf9289ea4fe5c69623af125033f450d6c43a73ad9ee17ae293c06cfabb0e54bddd8ac6347f64d91480e95
+outputs.2.filename=maven-pmd-plugin-3.14.0-source-release.zip
+outputs.2.length=487184
+outputs.2.checksums.sha512=b20cc1611abe5bdd5eed39bb5b7c0f601bcbba11dd98650f9fbdf3c8dcee996232904b39b6aaca0fde741c9ddc834433acf6f2eb79bc97821c22b6e2b257f706
+
+outputs.3.filename=maven-pmd-plugin-3.14.0-sources.jar
+outputs.3.length=98239
+outputs.3.checksums.sha512=cd67aa3170539ac3c5d75688cbe35b4dc3d771a91f0bf9289ea4fe5c69623af125033f450d6c43a73ad9ee17ae293c06cfabb0e54bddd8ac6347f64d91480e95

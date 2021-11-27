@@ -22,14 +22,18 @@ mvn.minimum.version=3.1.0
 
 # output
 
-outputs.0.filename=maven-wrapper-plugin-3.0.2.jar
-outputs.0.length=24462
-outputs.0.checksums.sha512=8061ad5a991e6101f9ea7f5d37ac933a5cffb709302532ca2bf969303c9872ebf0d63bfc73079c4ad3643e4206bca6c56864c71443813bcb6241eb0305297149
+outputs.0.filename=maven-wrapper-plugin-3.0.2.pom
+outputs.0.length=4960
+outputs.0.checksums.sha512=0008c2e70d9a90ce1bf5e955dd795227bbf8c9ffd59c34039733e9a975b43f2313c62b73e6cff5a0fd3b911926d249820d3d70113a3ddfed4a118f3b438d777c
 
-outputs.1.filename=maven-wrapper-plugin-3.0.2-source-release.zip
-outputs.1.length=50107
-outputs.1.checksums.sha512=3b185d5486249f9ad4e0133462d294aeae05bc80fa3cbc7dd622c50689eb9316d5b260fa28a03e1922fe3e2ec1beb22f69c033c7f4894d90c4d874e1835089cc
+outputs.1.filename=maven-wrapper-plugin-3.0.2.jar
+outputs.1.length=24462
+outputs.1.checksums.sha512=8061ad5a991e6101f9ea7f5d37ac933a5cffb709302532ca2bf969303c9872ebf0d63bfc73079c4ad3643e4206bca6c56864c71443813bcb6241eb0305297149
 
-outputs.2.filename=maven-wrapper-plugin-3.0.2-sources.jar
-outputs.2.length=17126
-outputs.2.checksums.sha512=aaa9cf749a89810a04725d231c752c129ce850ddce664a137f45fa3e191b47a7afa7812e7b3c134c1a41237d26f813937b9220b4f0a03d971e5eb2b82e394c90
+outputs.2.filename=maven-wrapper-plugin-3.0.2-source-release.zip
+outputs.2.length=50107
+outputs.2.checksums.sha512=3b185d5486249f9ad4e0133462d294aeae05bc80fa3cbc7dd622c50689eb9316d5b260fa28a03e1922fe3e2ec1beb22f69c033c7f4894d90c4d874e1835089cc
+
+outputs.3.filename=maven-wrapper-plugin-3.0.2-sources.jar
+outputs.3.length=17126
+outputs.3.checksums.sha512=aaa9cf749a89810a04725d231c752c129ce850ddce664a137f45fa3e191b47a7afa7812e7b3c134c1a41237d26f813937b9220b4f0a03d971e5eb2b82e394c90

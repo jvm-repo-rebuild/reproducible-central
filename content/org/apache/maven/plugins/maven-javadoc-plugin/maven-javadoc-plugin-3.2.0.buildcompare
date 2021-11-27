@@ -1,4 +1,8 @@
+version=3.2.0
 ok=3
-ko=0
-okFiles="maven-javadoc-plugin-3.2.0-sources.jar maven-javadoc-plugin-3.2.0.jar maven-javadoc-plugin-3.2.0-source-release.zip"
-koFiles=""
+ko=1
+okFiles="maven-javadoc-plugin-3.2.0.pom maven-javadoc-plugin-3.2.0.jar maven-javadoc-plugin-3.2.0-sources.jar"
+koFiles="maven-javadoc-plugin-3.2.0-source-release.zip"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/maven-javadoc-plugin-3.2.0-source-release.zip target/maven-javadoc-plugin-3.2.0-source-release.zip

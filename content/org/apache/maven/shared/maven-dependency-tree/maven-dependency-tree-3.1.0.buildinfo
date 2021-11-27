@@ -21,14 +21,18 @@ os.name=Windows
 
 # output
 
-outputs.0.filename=maven-dependency-tree-3.1.0.jar
-outputs.0.length=103057
-outputs.0.checksums.sha512=ca317cd2c5a3e13f442f494a18b8f55348018f9503980e7c46ba240b42ae79d97cec439797dbfc0c5b35fa873e30b14ddad2b6023551f35be04666f3c52ac621
+outputs.0.filename=maven-dependency-tree-3.1.0.pom
+outputs.0.length=6925
+outputs.0.checksums.sha512=dd36f2d62c988436075838b6d299ebccc0223b0d928f5060d5128b7772e5f9dc52a355629c82d689c826a4f9ed6297b71656f98836cb8923b1472461f5af3e1f
 
-outputs.1.filename=maven-dependency-tree-3.1.0-source-release.zip
-outputs.1.length=131664
-outputs.1.checksums.sha512=a34df4748ed28dcf0224abd1ff7c2ebe228c90e95afa01b0a9590770392a9642c3b716cd09847c30f6a58492b5e08015f2ffa0e498f0351a85a97c6dc089e6c4
+outputs.1.filename=maven-dependency-tree-3.1.0.jar
+outputs.1.length=103057
+outputs.1.checksums.sha512=ca317cd2c5a3e13f442f494a18b8f55348018f9503980e7c46ba240b42ae79d97cec439797dbfc0c5b35fa873e30b14ddad2b6023551f35be04666f3c52ac621
 
-outputs.2.filename=maven-dependency-tree-3.1.0-sources.jar
-outputs.2.length=77134
-outputs.2.checksums.sha512=b49ca1de414f28c135b69239c9ed0065c01068b378876744940320ae4bc7c1c27feb04a78c2cb9d43896bf5b015fa8087c3feb637e2c423e7aa5f50db500c101
+outputs.2.filename=maven-dependency-tree-3.1.0-source-release.zip
+outputs.2.length=131664
+outputs.2.checksums.sha512=a34df4748ed28dcf0224abd1ff7c2ebe228c90e95afa01b0a9590770392a9642c3b716cd09847c30f6a58492b5e08015f2ffa0e498f0351a85a97c6dc089e6c4
+
+outputs.3.filename=maven-dependency-tree-3.1.0-sources.jar
+outputs.3.length=77134
+outputs.3.checksums.sha512=b49ca1de414f28c135b69239c9ed0065c01068b378876744940320ae4bc7c1c27feb04a78c2cb9d43896bf5b015fa8087c3feb637e2c423e7aa5f50db500c101

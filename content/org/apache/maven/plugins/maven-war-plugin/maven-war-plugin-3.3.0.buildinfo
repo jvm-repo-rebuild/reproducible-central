@@ -13,25 +13,27 @@ source.scm.tag=maven-war-plugin-3.3.0
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=3.0
 
 # output
 
-outputs.0.filename=maven-war-plugin-3.3.0.jar
-outputs.0.length=81062
-outputs.0.checksums.sha512=20b1417ac7cee406b8c7c9a5f8aa314aa1c8a998e4e91e24f74e534cbdd6b0796e4c7b2d3337e821fcbe16858a5193085c7df828d208ce2de730077151409bd8
+outputs.0.filename=maven-war-plugin-3.3.0.pom
+outputs.0.length=8849
+outputs.0.checksums.sha512=36dc37043062913db65ecd014b9993ce687bdd769a1c5deb1af69fec9c058eed4dac365e9e8a0d9c2333ce79370484338f130b32f2069c4fbf0884a914d20934
 
-outputs.1.filename=maven-war-plugin-3.3.0-source-release.zip
-outputs.1.length=659909
-outputs.1.checksums.sha512=7cd64cd5279f16f1da377f5bfe3f97e6939a53c211db4967fc6dbccd5e7d2c77dcb76fa90f2561bd50e8ffcd6f15a41f501dc06f3942a8b1971e55bcf3bd57ad
+outputs.1.filename=maven-war-plugin-3.3.0.jar
+outputs.1.length=81062
+outputs.1.checksums.sha512=20b1417ac7cee406b8c7c9a5f8aa314aa1c8a998e4e91e24f74e534cbdd6b0796e4c7b2d3337e821fcbe16858a5193085c7df828d208ce2de730077151409bd8
 
-outputs.2.filename=maven-war-plugin-3.3.0-sources.jar
-outputs.2.length=63027
-outputs.2.checksums.sha512=937d769682730ed420d4c7ef21849c2c6ea236a2bbb8edcfec09d57b7ec7c917f4c1d3a92bda6e8f1e1d1646305ce951f3010a248493caccc1a3826898ed8364
+outputs.2.filename=maven-war-plugin-3.3.0-source-release.zip
+outputs.2.length=659909
+outputs.2.checksums.sha512=7cd64cd5279f16f1da377f5bfe3f97e6939a53c211db4967fc6dbccd5e7d2c77dcb76fa90f2561bd50e8ffcd6f15a41f501dc06f3942a8b1971e55bcf3bd57ad
+
+outputs.3.filename=maven-war-plugin-3.3.0-sources.jar
+outputs.3.length=63027
+outputs.3.checksums.sha512=937d769682730ed420d4c7ef21849c2c6ea236a2bbb8edcfec09d57b7ec7c917f4c1d3a92bda6e8f1e1d1646305ce951f3010a248493caccc1a3826898ed8364

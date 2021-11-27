@@ -13,25 +13,27 @@ source.scm.tag=maven-jlink-plugin-3.0.0
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=3.1.0
 
 # output
 
-outputs.0.filename=maven-jlink-plugin-3.0.0.jar
-outputs.0.length=35663
-outputs.0.checksums.sha512=6f3f5155f8831f1589e351611dfe1eaf79c9ac6cb8dc65b05ff74b200aa2a185728bfe299552a0c630d334754458b85c719844b46fd75efd50c36b705da1f30a
+outputs.0.filename=maven-jlink-plugin-3.0.0.pom
+outputs.0.length=9594
+outputs.0.checksums.sha512=c50367dab7b82a26eb65fa42d036bd3e0a7d28c8696ea76b44da1ac284835a89ab11fe78f2c6e6fd5f9388d762ca34d61179e6f21d778759eac5030090face6a
 
-outputs.1.filename=maven-jlink-plugin-3.0.0-source-release.zip
-outputs.1.length=144774
-outputs.1.checksums.sha512=2a5ac893d5226eb013120fed77637197bf0ba0c99380762936da59bf2fee94e749bf5f069fd8ef92dfc3fc4910ce3f324c7a8592488c2b258cc26da3dca12b9e
+outputs.1.filename=maven-jlink-plugin-3.0.0.jar
+outputs.1.length=35663
+outputs.1.checksums.sha512=6f3f5155f8831f1589e351611dfe1eaf79c9ac6cb8dc65b05ff74b200aa2a185728bfe299552a0c630d334754458b85c719844b46fd75efd50c36b705da1f30a
 
-outputs.2.filename=maven-jlink-plugin-3.0.0-sources.jar
-outputs.2.length=24932
-outputs.2.checksums.sha512=492973b9683e9c5727742fa6e8c81adc2cb86c815ff1bf2e45f3b897973fd846e3ac57ef3beb62279a55fe1e24fd6dff18766b41d4ca4cdf2c18ba7b010ac588
+outputs.2.filename=maven-jlink-plugin-3.0.0-source-release.zip
+outputs.2.length=144774
+outputs.2.checksums.sha512=2a5ac893d5226eb013120fed77637197bf0ba0c99380762936da59bf2fee94e749bf5f069fd8ef92dfc3fc4910ce3f324c7a8592488c2b258cc26da3dca12b9e
+
+outputs.3.filename=maven-jlink-plugin-3.0.0-sources.jar
+outputs.3.length=24932
+outputs.3.checksums.sha512=492973b9683e9c5727742fa6e8c81adc2cb86c815ff1bf2e45f3b897973fd846e3ac57ef3beb62279a55fe1e24fd6dff18766b41d4ca4cdf2c18ba7b010ac588

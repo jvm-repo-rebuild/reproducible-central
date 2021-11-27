@@ -21,14 +21,18 @@ os.name=Windows
 
 # output
 
-outputs.0.filename=maven-artifact-transfer-0.13.1.jar
-outputs.0.length=159293
-outputs.0.checksums.sha512=eab2d8fc8c22f2598afb9b53b77f774985772d55e26d65d8128c963f5956620257f4656121d38091c4cac752e35552efea80351d8ba3ded3122365d21fca6e23
+outputs.0.filename=maven-artifact-transfer-0.13.1.pom
+outputs.0.length=11241
+outputs.0.checksums.sha512=dda308e5899b33aabec30c893a67ab502277b708e34ad2269604876506195f77d2f913ad0335a047f1e252af1d1783526fb34347699631d15417922b64b6ff9d
 
-outputs.1.filename=maven-artifact-transfer-0.13.1-source-release.zip
-outputs.1.length=249020
-outputs.1.checksums.sha512=7f2533995b0d90c222551fa2cac9fe24e2a15e410016c3f19e50b07efee03f0ebfa279e415b8cc644f35c4f865e70f1bc3d86f70502f9367f5885910657cd07d
+outputs.1.filename=maven-artifact-transfer-0.13.1.jar
+outputs.1.length=159293
+outputs.1.checksums.sha512=35e274aae7bcf03efbc065453423bf4902d7c38bfe6dcdc3babc3c94b67675a31d880f8e7a76aa19722e39882fbd4cfd2ecbc10e40c87580782f73c7a964c64f
 
-outputs.2.filename=maven-artifact-transfer-0.13.1-sources.jar
-outputs.2.length=139273
-outputs.2.checksums.sha512=c73c897d592643e26b3c76cd34245cce95c5bdc17e0f277d268abb9b800419807b84cb347abf7725c35963838bc63aeac141a68a4c436ad1284d40e8dff179ae
+outputs.2.filename=maven-artifact-transfer-0.13.1-source-release.zip
+outputs.2.length=251335
+outputs.2.checksums.sha512=fa8fa6432ca51682fbac7c929f74701a11d5db5a66d7d59a5009ddbc4c4ca597e376af1901f2e788d8897dac4f119edb6635633de86bf43c60610c894b57a1c3
+
+outputs.3.filename=maven-artifact-transfer-0.13.1-sources.jar
+outputs.3.length=139273
+outputs.3.checksums.sha512=c73c897d592643e26b3c76cd34245cce95c5bdc17e0f277d268abb9b800419807b84cb347abf7725c35963838bc63aeac141a68a4c436ad1284d40e8dff179ae

@@ -13,25 +13,27 @@ source.scm.tag=maven-ear-plugin-3.2.0
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=3.1.1
 
 # output
 
-outputs.0.filename=maven-ear-plugin-3.2.0.jar
-outputs.0.length=93403
-outputs.0.checksums.sha512=45b258957e9fbf2ffca99c1f40eb0098e92f1b6373c15d22f87851d4d2908cbf67265f6abac8f4216af215abe35c0fd9619af1fbbcda7ca2dc8acaef324b5137
+outputs.0.filename=maven-ear-plugin-3.2.0.pom
+outputs.0.length=13828
+outputs.0.checksums.sha512=802a2ecfbd1a873ec0e8a5e15f49855f45bb3b325005e3dca7f3005121eac1cb5d981d4fec240e0257691b5e15594bb936a0e2489749a71646346f51219036b0
 
-outputs.1.filename=maven-ear-plugin-3.2.0-source-release.zip
-outputs.1.length=690530
-outputs.1.checksums.sha512=067d24ccac1fb207d5e76263563b0a6fba29d634a6726f48835342d8f670f98420a81d6adf64dc2aa221b3cf5734cbe5180f45e46cf9215201dc07829623e82c
+outputs.1.filename=maven-ear-plugin-3.2.0.jar
+outputs.1.length=93403
+outputs.1.checksums.sha512=45b258957e9fbf2ffca99c1f40eb0098e92f1b6373c15d22f87851d4d2908cbf67265f6abac8f4216af215abe35c0fd9619af1fbbcda7ca2dc8acaef324b5137
 
-outputs.2.filename=maven-ear-plugin-3.2.0-sources.jar
-outputs.2.length=81049
-outputs.2.checksums.sha512=268f023f1390928d0fe41fc5cc51ed8a311a89f7c132039f35b05bdaf10bdc7a91b3baf57ce9169df0e983275cbad0607b0388958b0c11fc1b78322f44503814
+outputs.2.filename=maven-ear-plugin-3.2.0-source-release.zip
+outputs.2.length=690530
+outputs.2.checksums.sha512=067d24ccac1fb207d5e76263563b0a6fba29d634a6726f48835342d8f670f98420a81d6adf64dc2aa221b3cf5734cbe5180f45e46cf9215201dc07829623e82c
+
+outputs.3.filename=maven-ear-plugin-3.2.0-sources.jar
+outputs.3.length=81049
+outputs.3.checksums.sha512=268f023f1390928d0fe41fc5cc51ed8a311a89f7c132039f35b05bdaf10bdc7a91b3baf57ce9169df0e983275cbad0607b0388958b0c11fc1b78322f44503814

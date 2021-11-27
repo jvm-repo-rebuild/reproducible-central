@@ -13,25 +13,27 @@ source.scm.tag=maven-project-info-reports-plugin-3.1.2
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_275
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=3.0
 
 # output
 
-outputs.0.filename=maven-project-info-reports-plugin-3.1.2.jar
-outputs.0.length=293351
-outputs.0.checksums.sha512=e257021ffe1b764480740a599fc4d1ba9e4af3cce4cbb762d90a493ccbf57a90c2d8f77c9132008d5d1a20d3c1b6a38ab3c686887e50719a59e13af49cd691c8
+outputs.0.filename=maven-project-info-reports-plugin-3.1.2.pom
+outputs.0.length=19079
+outputs.0.checksums.sha512=dff38d3067dbaa16f882648adc7d9ccafbb7549abe19255f34e0fdccceffd1d063cbf1bc74c9af1728a62c88a4fcb8c219e887969b5fd2746f827e4de848ed69
 
-outputs.1.filename=maven-project-info-reports-plugin-3.1.2-source-release.zip
-outputs.1.length=410706
-outputs.1.checksums.sha512=9cd09f24de9a11530116f1b40c403557d0c9bfdbdca4f05be4db52ec9cdb9a75d1faa1104eae16c0ea7ece90b7c6fe09139f6738a4862ab67a0c57e695f1761f
+outputs.1.filename=maven-project-info-reports-plugin-3.1.2.jar
+outputs.1.length=293351
+outputs.1.checksums.sha512=e257021ffe1b764480740a599fc4d1ba9e4af3cce4cbb762d90a493ccbf57a90c2d8f77c9132008d5d1a20d3c1b6a38ab3c686887e50719a59e13af49cd691c8
 
-outputs.2.filename=maven-project-info-reports-plugin-3.1.2-sources.jar
-outputs.2.length=230991
-outputs.2.checksums.sha512=1b14d0d06c9a7661879d665630e9b6a72c8a46008b8e282e6e8b3c91bb115ea993f65fc5b8e84397504776280958a40b33090eba2a71544ae80903ebb73d6bf8
+outputs.2.filename=maven-project-info-reports-plugin-3.1.2-source-release.zip
+outputs.2.length=410706
+outputs.2.checksums.sha512=9cd09f24de9a11530116f1b40c403557d0c9bfdbdca4f05be4db52ec9cdb9a75d1faa1104eae16c0ea7ece90b7c6fe09139f6738a4862ab67a0c57e695f1761f
+
+outputs.3.filename=maven-project-info-reports-plugin-3.1.2-sources.jar
+outputs.3.length=230991
+outputs.3.checksums.sha512=1b14d0d06c9a7661879d665630e9b6a72c8a46008b8e282e6e8b3c91bb115ea993f65fc5b8e84397504776280958a40b33090eba2a71544ae80903ebb73d6bf8

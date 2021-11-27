@@ -13,24 +13,26 @@ source.scm.tag=maven-invoker-3.1.0
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=11.0.9.1
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Windows
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 
 # output
 
-outputs.0.filename=maven-invoker-3.1.0.jar
-outputs.0.length=32620
-outputs.0.checksums.sha512=d8ab2518d0f81017ac91240425ad2b7cfe0cafcec6710f5d65ffb01062d4948b8c3585c97b3b8624f73baedcf4979a3d874e90c3c61e91656060b524b70f40a7
+outputs.0.filename=maven-invoker-3.1.0.pom
+outputs.0.length=6893
+outputs.0.checksums.sha512=b2b260d50676c56ba2b3dce8632d2293202a0b1dfb454e6142e457074deebde19521fe424730ecda5b10895cc017776481021cf670ac2285e062233e0ed93af8
 
-outputs.1.filename=maven-invoker-3.1.0-source-release.zip
-outputs.1.length=89480
-outputs.1.checksums.sha512=92ba5308f5098fe06c0385980f48de15c06fb7b39f01e3aeec7d89fe4660ae265a7eee093a9783f90ebc0e16265fe87292216019880f18111b2df193ce67133a
+outputs.1.filename=maven-invoker-3.1.0.jar
+outputs.1.length=32620
+outputs.1.checksums.sha512=d8ab2518d0f81017ac91240425ad2b7cfe0cafcec6710f5d65ffb01062d4948b8c3585c97b3b8624f73baedcf4979a3d874e90c3c61e91656060b524b70f40a7
 
-outputs.2.filename=maven-invoker-3.1.0-sources.jar
-outputs.2.length=35797
-outputs.2.checksums.sha512=d3c1763189ac285d90317d911fe9aa23df7a3924e0adde572d751eef34c126e6ad72c7740826bd4f3e151381b3a6f36e8f73179db5a83d233c23648b75e5e675
+outputs.2.filename=maven-invoker-3.1.0-source-release.zip
+outputs.2.length=89480
+outputs.2.checksums.sha512=92ba5308f5098fe06c0385980f48de15c06fb7b39f01e3aeec7d89fe4660ae265a7eee093a9783f90ebc0e16265fe87292216019880f18111b2df193ce67133a
+
+outputs.3.filename=maven-invoker-3.1.0-sources.jar
+outputs.3.length=35797
+outputs.3.checksums.sha512=d3c1763189ac285d90317d911fe9aa23df7a3924e0adde572d751eef34c126e6ad72c7740826bd4f3e151381b3a6f36e8f73179db5a83d233c23648b75e5e675

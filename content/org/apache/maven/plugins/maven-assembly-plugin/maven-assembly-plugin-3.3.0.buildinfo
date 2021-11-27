@@ -13,25 +13,27 @@ source.scm.tag=maven-assembly-plugin-3.3.0
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=3.0
 
 # output
 
-outputs.0.filename=maven-assembly-plugin-3.3.0.jar
-outputs.0.length=242182
-outputs.0.checksums.sha512=7a3ee254debd8ba9d198d9d3cfc22232e59ce8bde1a143a4605d7bf7065853cb846183ffd61f32a18586e54851c3886251afd32acb65a4e4d749c7d5fed1860c
+outputs.0.filename=maven-assembly-plugin-3.3.0.pom
+outputs.0.length=15751
+outputs.0.checksums.sha512=2175b0e7acf967c70dcf86a485cb306bad98d5c99ea8121a8afbc5dbc68b745016fd7e9625810e47806e62a8ef5b994f8fe2a37b93862bedfcd501de7651332f
 
-outputs.1.filename=maven-assembly-plugin-3.3.0-source-release.zip
-outputs.1.length=2212789
-outputs.1.checksums.sha512=d41ba25dd35dea5b1b690f6cb84e4e30c5466c0e6fb3d5d98305daf70cb1ba9468c0ba2181afb8fa5f6d41c735f4f1d9d462f58eb320df0c85d57dbefa70b15a
+outputs.1.filename=maven-assembly-plugin-3.3.0.jar
+outputs.1.length=242182
+outputs.1.checksums.sha512=7a3ee254debd8ba9d198d9d3cfc22232e59ce8bde1a143a4605d7bf7065853cb846183ffd61f32a18586e54851c3886251afd32acb65a4e4d749c7d5fed1860c
 
-outputs.2.filename=maven-assembly-plugin-3.3.0-sources.jar
-outputs.2.length=190904
-outputs.2.checksums.sha512=0febecbc5a44ff926b7125329b6e3b0193d921723deaf47d867eb501a51eb008e1032b86af41b7fb622b24be7f521356cc830443ff86f886e234fe8fcddd675a
+outputs.2.filename=maven-assembly-plugin-3.3.0-source-release.zip
+outputs.2.length=2212789
+outputs.2.checksums.sha512=d41ba25dd35dea5b1b690f6cb84e4e30c5466c0e6fb3d5d98305daf70cb1ba9468c0ba2181afb8fa5f6d41c735f4f1d9d462f58eb320df0c85d57dbefa70b15a
+
+outputs.3.filename=maven-assembly-plugin-3.3.0-sources.jar
+outputs.3.length=190904
+outputs.3.checksums.sha512=0febecbc5a44ff926b7125329b6e3b0193d921723deaf47d867eb501a51eb008e1032b86af41b7fb622b24be7f521356cc830443ff86f886e234fe8fcddd675a

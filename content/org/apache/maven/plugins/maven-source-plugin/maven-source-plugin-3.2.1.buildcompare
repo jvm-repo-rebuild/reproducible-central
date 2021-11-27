@@ -1,4 +1,10 @@
-ok=0
+version=3.2.1
+ok=1
 ko=3
-okFiles=""
-koFiles="maven-source-plugin-3.2.1.jar maven-source-plugin-3.2.1-sources.jar maven-source-plugin-3.2.1-source-release.zip"
+okFiles="maven-source-plugin-3.2.1.pom"
+koFiles="maven-source-plugin-3.2.1.jar maven-source-plugin-3.2.1-source-release.zip maven-source-plugin-3.2.1-sources.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/maven-source-plugin-3.2.1.jar target/maven-source-plugin-3.2.1.jar
+# diffoscope target/reference/maven-source-plugin-3.2.1-source-release.zip target/maven-source-plugin-3.2.1-source-release.zip
+# diffoscope target/reference/maven-source-plugin-3.2.1-sources.jar target/maven-source-plugin-3.2.1-sources.jar

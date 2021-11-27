@@ -22,14 +22,18 @@ mvn.minimum.version=3.1.0
 
 # output
 
-outputs.0.filename=maven-war-plugin-3.3.2.jar
-outputs.0.length=83293
-outputs.0.checksums.sha512=e711ce6773f6ebd11324f5ff56d1b2180f9be2cb009b11cac99bf855bdf020057a1e2eac7628a39eaabfabfe8f45d4c8935f039648beb480d0ddf8461eac7e92
+outputs.0.filename=maven-war-plugin-3.3.2.pom
+outputs.0.length=9684
+outputs.0.checksums.sha512=c768b3e3c88e769ff11d01c721014f7d0403b5b837a9e45f0932727c4408c9127f583b78a92330f8400d50310470a762401548680cca9895d1b669543f77c997
 
-outputs.1.filename=maven-war-plugin-3.3.2-source-release.zip
-outputs.1.length=673773
-outputs.1.checksums.sha512=368d1066d3aa429b3dc26b1e3a502fe56c4232fae13727c74d44015b160eec3753f28ff72e3a0f33f9dfa9d25e9912efb559d45cf41952151ecc88337203fc95
+outputs.1.filename=maven-war-plugin-3.3.2.jar
+outputs.1.length=83293
+outputs.1.checksums.sha512=e711ce6773f6ebd11324f5ff56d1b2180f9be2cb009b11cac99bf855bdf020057a1e2eac7628a39eaabfabfe8f45d4c8935f039648beb480d0ddf8461eac7e92
 
-outputs.2.filename=maven-war-plugin-3.3.2-sources.jar
-outputs.2.length=64351
-outputs.2.checksums.sha512=815669f8d013128aadcea2f2487ffc76cd1ed8805ba44b6cd670ddd668da742e993659f0d5a09bcf6dc6f84b8aad1571acac98539af1b3dd5ecc00b6c25eba59
+outputs.2.filename=maven-war-plugin-3.3.2-source-release.zip
+outputs.2.length=673773
+outputs.2.checksums.sha512=368d1066d3aa429b3dc26b1e3a502fe56c4232fae13727c74d44015b160eec3753f28ff72e3a0f33f9dfa9d25e9912efb559d45cf41952151ecc88337203fc95
+
+outputs.3.filename=maven-war-plugin-3.3.2-sources.jar
+outputs.3.length=64351
+outputs.3.checksums.sha512=815669f8d013128aadcea2f2487ffc76cd1ed8805ba44b6cd670ddd668da742e993659f0d5a09bcf6dc6f84b8aad1571acac98539af1b3dd5ecc00b6c25eba59

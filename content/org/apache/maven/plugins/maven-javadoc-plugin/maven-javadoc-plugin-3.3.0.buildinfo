@@ -22,14 +22,18 @@ mvn.minimum.version=3.0
 
 # output
 
-outputs.0.filename=maven-javadoc-plugin-3.3.0.jar
-outputs.0.length=515219
-outputs.0.checksums.sha512=6ad56201d947b344a8922bd50154b17dc21db02c54a62ed68e07cc7f3cc9fd474a2f4a3ea94667d6dc6bc48989c1460841eac7d6bee71977ae95a0fafaf1dc89
+outputs.0.filename=maven-javadoc-plugin-3.3.0.pom
+outputs.0.length=20511
+outputs.0.checksums.sha512=8ebc49825a814019cfd15f859018376692635d0b804803e2b7734f47cedbbe7cc6c26cf86c9ce047eb097c34d4c465239a54f38a8cd7685e202675e320e2c8d7
 
-outputs.1.filename=maven-javadoc-plugin-3.3.0-source-release.zip
-outputs.1.length=3543273
-outputs.1.checksums.sha512=780e485ea5bb05a074089f243f6442ad43d9627e7a3805e5985dbda67751fcf140504e48b1e74596dc10d187cb6bb3d9a153f74dda3b733e2d8d3a42062d4794
+outputs.1.filename=maven-javadoc-plugin-3.3.0.jar
+outputs.1.length=515219
+outputs.1.checksums.sha512=6ad56201d947b344a8922bd50154b17dc21db02c54a62ed68e07cc7f3cc9fd474a2f4a3ea94667d6dc6bc48989c1460841eac7d6bee71977ae95a0fafaf1dc89
 
-outputs.2.filename=maven-javadoc-plugin-3.3.0-sources.jar
-outputs.2.length=188221
-outputs.2.checksums.sha512=0765bc25c3021e837ef8c55891239dc95ae4d572f3753134755edd4cbae9485439aa7fd91f202e0a49a51cb71763fccc4d405a53e49464438b99c6f448c74341
+outputs.2.filename=maven-javadoc-plugin-3.3.0-source-release.zip
+outputs.2.length=3543273
+outputs.2.checksums.sha512=780e485ea5bb05a074089f243f6442ad43d9627e7a3805e5985dbda67751fcf140504e48b1e74596dc10d187cb6bb3d9a153f74dda3b733e2d8d3a42062d4794
+
+outputs.3.filename=maven-javadoc-plugin-3.3.0-sources.jar
+outputs.3.length=188221
+outputs.3.checksums.sha512=0765bc25c3021e837ef8c55891239dc95ae4d572f3753134755edd4cbae9485439aa7fd91f202e0a49a51cb71763fccc4d405a53e49464438b99c6f448c74341

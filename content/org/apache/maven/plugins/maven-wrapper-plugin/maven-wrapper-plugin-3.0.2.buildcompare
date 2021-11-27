@@ -1,7 +1,7 @@
 version=3.0.2
-ok=1
+ok=2
 ko=2
-okFiles="maven-wrapper-plugin-3.0.2-source-release.zip"
+okFiles="maven-wrapper-plugin-3.0.2.pom maven-wrapper-plugin-3.0.2-source-release.zip"
 koFiles="maven-wrapper-plugin-3.0.2.jar maven-wrapper-plugin-3.0.2-sources.jar"
 reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Windows (from pom.properties newline)"

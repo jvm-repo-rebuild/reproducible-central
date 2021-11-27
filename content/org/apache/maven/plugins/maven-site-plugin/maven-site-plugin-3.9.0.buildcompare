@@ -1,4 +1,10 @@
+version=3.9.0
 ok=1
-ko=2
+ko=3
 okFiles="maven-site-plugin-3.9.0.jar"
-koFiles="maven-site-plugin-3.9.0-source-release.zip maven-site-plugin-3.9.0-sources.jar"
+koFiles="maven-site-plugin-3.9.0.pom maven-site-plugin-3.9.0-source-release.zip maven-site-plugin-3.9.0-sources.jar"
+reference_java_version="1.7 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/maven-site-plugin-3.9.0.pom dependency-reduced-pom.xml
+# diffoscope target/reference/maven-site-plugin-3.9.0-source-release.zip target/maven-site-plugin-3.9.0-source-release.zip
+# diffoscope target/reference/maven-site-plugin-3.9.0-sources.jar target/maven-site-plugin-3.9.0-sources.jar

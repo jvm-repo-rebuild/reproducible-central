@@ -21,14 +21,18 @@ os.name=Unix
 
 # output
 
-outputs.0.filename=maven-shared-utils-3.3.4.jar
-outputs.0.length=153143
-outputs.0.checksums.sha512=c6693f8a061de74ac59c61d185f5b130cb574405cfc37febb8e73806ea64eea822a4a75c24098fb49b7871373091543a6f4c526c0842589e528cacad40e5554a
+outputs.0.filename=maven-shared-utils-3.3.4.pom
+outputs.0.length=5831
+outputs.0.checksums.sha512=1b041f1b077b93b9d86b32c6bc456f7d91b4be4d13549a3536d30805bb4336ca85d6f32a68d8de180f909dde00cac52a89b6c78dcb573ec1f3409b5366584e11
 
-outputs.1.filename=maven-shared-utils-3.3.4-source-release.zip
-outputs.1.length=249609
-outputs.1.checksums.sha512=27b63d3c8214c3ced472c4eae69199adad85b4badabd3b1608b8ab288f2246efba8f833763e87ad13e55268814e392b0d8146fb4a32a9de6d3c50c9652d66326
+outputs.1.filename=maven-shared-utils-3.3.4.jar
+outputs.1.length=153143
+outputs.1.checksums.sha512=c6693f8a061de74ac59c61d185f5b130cb574405cfc37febb8e73806ea64eea822a4a75c24098fb49b7871373091543a6f4c526c0842589e528cacad40e5554a
 
-outputs.2.filename=maven-shared-utils-3.3.4-sources.jar
-outputs.2.length=157086
-outputs.2.checksums.sha512=484c01ad8ff2de7aaeff7923525f6eef2ad801b619dd235c9e4b81dcd74bc0922239ec2db8280e42bfeb288a850411710968f160afd517ac7ce979c05c3eb07c
+outputs.2.filename=maven-shared-utils-3.3.4-source-release.zip
+outputs.2.length=249609
+outputs.2.checksums.sha512=27b63d3c8214c3ced472c4eae69199adad85b4badabd3b1608b8ab288f2246efba8f833763e87ad13e55268814e392b0d8146fb4a32a9de6d3c50c9652d66326
+
+outputs.3.filename=maven-shared-utils-3.3.4-sources.jar
+outputs.3.length=157086
+outputs.3.checksums.sha512=484c01ad8ff2de7aaeff7923525f6eef2ad801b619dd235c9e4b81dcd74bc0922239ec2db8280e42bfeb288a850411710968f160afd517ac7ce979c05c3eb07c

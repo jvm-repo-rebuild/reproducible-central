@@ -21,14 +21,18 @@ os.name=Windows
 
 # output
 
-outputs.0.filename=maven-filtering-3.2.0.jar
-outputs.0.length=51612
-outputs.0.checksums.sha512=bea44ea7c556ee398e86a8bf116e6c9053710bc8db261773df870c518ae3725119e2a400abec0044c236ab9f66b74b4cf78a560664fae1ab8e07f58d9806ad4f
+outputs.0.filename=maven-filtering-3.2.0.pom
+outputs.0.length=6808
+outputs.0.checksums.sha512=85e8747b5cd0c3ecf1f3661077a8fa48fc35273e2fce51e9d7985884d7546e2ad732767418bb8c68e08f9a82e0647d883974c914ebec8e67d0def9bf4d1d863f
 
-outputs.1.filename=maven-filtering-3.2.0-source-release.zip
-outputs.1.length=161787
-outputs.1.checksums.sha512=9ae953dad2b8afe36c82ea53568437f266b6410069a95aa0771751fd6ffecdf3036d7b94ee2744b1fb0f4d476f8469f0a5ddf18c8860b18b22ddd6ac44951652
+outputs.1.filename=maven-filtering-3.2.0.jar
+outputs.1.length=51612
+outputs.1.checksums.sha512=bea44ea7c556ee398e86a8bf116e6c9053710bc8db261773df870c518ae3725119e2a400abec0044c236ab9f66b74b4cf78a560664fae1ab8e07f58d9806ad4f
 
-outputs.2.filename=maven-filtering-3.2.0-sources.jar
-outputs.2.length=48882
-outputs.2.checksums.sha512=a8e4302b6cdf6cc060726515b402b6c9867416572dba59ba6dcc29c8b4f94fe17f52f608a7f1f3e302f7c4917e31c9de80ec68aaabab0b8bb3360cc5ae2646a2
+outputs.2.filename=maven-filtering-3.2.0-source-release.zip
+outputs.2.length=161787
+outputs.2.checksums.sha512=9ae953dad2b8afe36c82ea53568437f266b6410069a95aa0771751fd6ffecdf3036d7b94ee2744b1fb0f4d476f8469f0a5ddf18c8860b18b22ddd6ac44951652
+
+outputs.3.filename=maven-filtering-3.2.0-sources.jar
+outputs.3.length=48882
+outputs.3.checksums.sha512=a8e4302b6cdf6cc060726515b402b6c9867416572dba59ba6dcc29c8b4f94fe17f52f608a7f1f3e302f7c4917e31c9de80ec68aaabab0b8bb3360cc5ae2646a2

@@ -13,24 +13,26 @@ source.scm.tag=maven-common-artifact-filters-3.2.0
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=11.0.9.1
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Windows
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 
 # output
 
-outputs.0.filename=maven-common-artifact-filters-3.2.0.jar
-outputs.0.length=61363
-outputs.0.checksums.sha512=74f9f2d2127615d8201af1f78a1c464a78b50e7a0ad1cd76e96c8d923b4e45515f6e0ae7ba1fabf797dcbefda87d16cf1bd44b41131737f469c09592f84464da
+outputs.0.filename=maven-common-artifact-filters-3.2.0.pom
+outputs.0.length=6946
+outputs.0.checksums.sha512=46bc6ab17b8e5c750012778c029020898cc6ff3a6a7212a4f990f723009f2460453dce00cd98ee200d4cafa0b04eb6e0fc3574bc1ac3b44e310134c4121bac68
 
-outputs.1.filename=maven-common-artifact-filters-3.2.0-source-release.zip
-outputs.1.length=107503
-outputs.1.checksums.sha512=90805886fa51edbf7afa7f924c79976b1014d57e54f6b821937c3e49f64b69ff720f133c3e3fb7acd52423175033432f69ddacdfa8c182f3cc24742c3d4b273b
+outputs.1.filename=maven-common-artifact-filters-3.2.0.jar
+outputs.1.length=61363
+outputs.1.checksums.sha512=74f9f2d2127615d8201af1f78a1c464a78b50e7a0ad1cd76e96c8d923b4e45515f6e0ae7ba1fabf797dcbefda87d16cf1bd44b41131737f469c09592f84464da
 
-outputs.2.filename=maven-common-artifact-filters-3.2.0-sources.jar
-outputs.2.length=58855
-outputs.2.checksums.sha512=a9f451fadadd78e1fc18550828fa9c7de6a7f2dd0423731c4740e20837ce9d90459e0b449ea08faa889a06556b57f8e2f92b967f5d0c0f51527156e5d8c1425d
+outputs.2.filename=maven-common-artifact-filters-3.2.0-source-release.zip
+outputs.2.length=107503
+outputs.2.checksums.sha512=90805886fa51edbf7afa7f924c79976b1014d57e54f6b821937c3e49f64b69ff720f133c3e3fb7acd52423175033432f69ddacdfa8c182f3cc24742c3d4b273b
+
+outputs.3.filename=maven-common-artifact-filters-3.2.0-sources.jar
+outputs.3.length=58855
+outputs.3.checksums.sha512=a9f451fadadd78e1fc18550828fa9c7de6a7f2dd0423731c4740e20837ce9d90459e0b449ea08faa889a06556b57f8e2f92b967f5d0c0f51527156e5d8c1425d

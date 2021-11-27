@@ -13,25 +13,27 @@ source.scm.tag=maven-site-plugin-3.9.0
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.7.0_211
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=7
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T19:00:29Z)
 mvn.minimum.version=3.0
 
 # output
 
-outputs.0.filename=maven-site-plugin-3.9.0.jar
-outputs.0.length=136331
-outputs.0.checksums.sha512=9e4a01319c67b6ab9147f2d3adfea2e6ee8ddade148d7ee3654c976484a695a11b50fea12757a0bb99c86f49863709cfd2fdbe9170bddc5f9e06a9fbd70dd23b
+outputs.0.filename=maven-site-plugin-3.9.0.pom
+outputs.0.length=21518
+outputs.0.checksums.sha512=7b9ff02340cddcbebd4cd852ec6f2732fb1b0fbb3fd267da8132604238e022b7746cdb8d1ea57eb19be9378f7ec8444c00afcfd3251d23696d67d00bcf3865ea
 
-outputs.1.filename=maven-site-plugin-3.9.0-source-release.zip
-outputs.1.length=952467
-outputs.1.checksums.sha512=36799f5ce79a47183e4566b063578e64d57cc7645f33caa456d5645720bf2c59c03f2833c0549ccc64880fd5a12b9a79f9991ecd08c6e3c4823bbe7adcf28199
+outputs.1.filename=maven-site-plugin-3.9.0.jar
+outputs.1.length=136331
+outputs.1.checksums.sha512=9e4a01319c67b6ab9147f2d3adfea2e6ee8ddade148d7ee3654c976484a695a11b50fea12757a0bb99c86f49863709cfd2fdbe9170bddc5f9e06a9fbd70dd23b
 
-outputs.2.filename=maven-site-plugin-3.9.0-sources.jar
-outputs.2.length=96464
-outputs.2.checksums.sha512=b5eafb2d94fce51285afd7161141f1c4e34861e0d2e88c3eeeb899a1f65bb57c2c269d6c26b90e867fdc8a27f47ebf346eb6156a6b585526f522c0f27396e35f
+outputs.2.filename=maven-site-plugin-3.9.0-source-release.zip
+outputs.2.length=952467
+outputs.2.checksums.sha512=36799f5ce79a47183e4566b063578e64d57cc7645f33caa456d5645720bf2c59c03f2833c0549ccc64880fd5a12b9a79f9991ecd08c6e3c4823bbe7adcf28199
+
+outputs.3.filename=maven-site-plugin-3.9.0-sources.jar
+outputs.3.length=96464
+outputs.3.checksums.sha512=b5eafb2d94fce51285afd7161141f1c4e34861e0d2e88c3eeeb899a1f65bb57c2c269d6c26b90e867fdc8a27f47ebf346eb6156a6b585526f522c0f27396e35f

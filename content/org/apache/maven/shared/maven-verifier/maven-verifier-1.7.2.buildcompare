@@ -1,5 +1,7 @@
 version=1.7.2
-ok=3
+ok=4
 ko=0
-okFiles="maven-verifier-1.7.2.jar maven-verifier-1.7.2-source-release.zip maven-verifier-1.7.2-sources.jar"
+okFiles="maven-verifier-1.7.2.pom maven-verifier-1.7.2.jar maven-verifier-1.7.2-source-release.zip maven-verifier-1.7.2-sources.jar"
 koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"

@@ -22,14 +22,18 @@ mvn.minimum.version=3.1.1
 
 # output
 
-outputs.0.filename=maven-artifact-plugin-3.1.0.jar
-outputs.0.length=45518
-outputs.0.checksums.sha512=eb42e472098bfbfc243e54486a4c6cc66bdf80c19750bc23209a34e12d60763d2f3552a49fa12f1b7b9e93e53ddd9a1321bf8cce368bc455284db329edb981b8
+outputs.0.filename=maven-artifact-plugin-3.1.0.pom
+outputs.0.length=6871
+outputs.0.checksums.sha512=5b21511f519f8b68e63e8a4722ca247d7b072b3634a3e627cbef043a77d5b9457e98f1b08df8cc65c89d0588587e77660010b8edf08e7bba5edc3e908c3b1389
 
-outputs.1.filename=maven-artifact-plugin-3.1.0-source-release.zip
-outputs.1.length=59126
-outputs.1.checksums.sha512=355dc1704decec85a1af78a6541c468506475e2a0edc213a1609fc0039803a5c2ef3f071517cfa983a64b28ba8ba2c9cad5fce765cab6e5991f5adc470ce8872
+outputs.1.filename=maven-artifact-plugin-3.1.0.jar
+outputs.1.length=45518
+outputs.1.checksums.sha512=eb42e472098bfbfc243e54486a4c6cc66bdf80c19750bc23209a34e12d60763d2f3552a49fa12f1b7b9e93e53ddd9a1321bf8cce368bc455284db329edb981b8
 
-outputs.2.filename=maven-artifact-plugin-3.1.0-sources.jar
-outputs.2.length=29171
-outputs.2.checksums.sha512=65ce0709ac143bb4f198b06d48ca189997cc70d08a0fb49f475037373d30a4e3590a606a31c19164dcda4ed17a04ecc64ca9fe2612cf5ddf95da465b8c266b8a
+outputs.2.filename=maven-artifact-plugin-3.1.0-source-release.zip
+outputs.2.length=59126
+outputs.2.checksums.sha512=355dc1704decec85a1af78a6541c468506475e2a0edc213a1609fc0039803a5c2ef3f071517cfa983a64b28ba8ba2c9cad5fce765cab6e5991f5adc470ce8872
+
+outputs.3.filename=maven-artifact-plugin-3.1.0-sources.jar
+outputs.3.length=29171
+outputs.3.checksums.sha512=65ce0709ac143bb4f198b06d48ca189997cc70d08a0fb49f475037373d30a4e3590a606a31c19164dcda4ed17a04ecc64ca9fe2612cf5ddf95da465b8c266b8a

@@ -13,25 +13,27 @@ source.scm.tag=maven-dependency-plugin-3.1.2
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=3.0
 
 # output
 
-outputs.0.filename=maven-dependency-plugin-3.1.2.jar
-outputs.0.length=172435
-outputs.0.checksums.sha512=86f92381d641cfcb3a51dd4a677f6ab5e5373d644d57641189b7179d07b4dedd3164f0738ad1763586a65c4904b4d7d08a0d5ce64651ae7c5c27db5f908e88d7
+outputs.0.filename=maven-dependency-plugin-3.1.2.pom
+outputs.0.length=16189
+outputs.0.checksums.sha512=603f5cd924794db49e879ba1de17a11a5b713d910bc31cc86fcbfee59c35e04af4ac02aeec82996b21dca1f1eec014da33ee6c42f2ca69facb4ac51b186a5d06
 
-outputs.1.filename=maven-dependency-plugin-3.1.2-source-release.zip
-outputs.1.length=585828
-outputs.1.checksums.sha512=e06c1696842682e599c2b7e6a24c58ac0c01ae0d5bf57fcc7269a7fd11092143c598fa82f908ee181d905cb949f44515e14b7b899e5df1aa184d68d2d308f83f
+outputs.1.filename=maven-dependency-plugin-3.1.2.jar
+outputs.1.length=172435
+outputs.1.checksums.sha512=86f92381d641cfcb3a51dd4a677f6ab5e5373d644d57641189b7179d07b4dedd3164f0738ad1763586a65c4904b4d7d08a0d5ce64651ae7c5c27db5f908e88d7
 
-outputs.2.filename=maven-dependency-plugin-3.1.2-sources.jar
-outputs.2.length=130995
-outputs.2.checksums.sha512=fea6b255863cdb8f84a837449e67babfb0528e93c28f9cec5784749d83704b3013e7fe0df796e5c5125f4f1becb2b5e0c4a1b51d4a16dedca971d93c2ea5a403
+outputs.2.filename=maven-dependency-plugin-3.1.2-source-release.zip
+outputs.2.length=585828
+outputs.2.checksums.sha512=e06c1696842682e599c2b7e6a24c58ac0c01ae0d5bf57fcc7269a7fd11092143c598fa82f908ee181d905cb949f44515e14b7b899e5df1aa184d68d2d308f83f
+
+outputs.3.filename=maven-dependency-plugin-3.1.2-sources.jar
+outputs.3.length=130995
+outputs.3.checksums.sha512=fea6b255863cdb8f84a837449e67babfb0528e93c28f9cec5784749d83704b3013e7fe0df796e5c5125f4f1becb2b5e0c4a1b51d4a16dedca971d93c2ea5a403

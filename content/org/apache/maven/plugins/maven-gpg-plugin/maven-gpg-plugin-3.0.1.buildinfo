@@ -22,14 +22,18 @@ mvn.minimum.version=3.0
 
 # output
 
-outputs.0.filename=maven-gpg-plugin-3.0.1.jar
-outputs.0.length=59836
-outputs.0.checksums.sha512=847020ebb49081f0877baeb50f97c9a52a1db6f5b86dedc81ccac94528871d6384f6704f77cfe90bc3fa9f790c37af4a2a507e6ca414ce8f2443b740fbc7539f
+outputs.0.filename=maven-gpg-plugin-3.0.1.pom
+outputs.0.length=8847
+outputs.0.checksums.sha512=9fe8d8f1bee484bb35f9f6535a5efadc954aa1e184abb5205aaf4d13c1adde3b00ab18a864e5b63c0c671316796c39f344a490d63dcdbe8cde0ebdaaa163c593
 
-outputs.1.filename=maven-gpg-plugin-3.0.1-source-release.zip
-outputs.1.length=107906
-outputs.1.checksums.sha512=10eef9c1f3e71724b328e0f8d76303d251922a4e7a05ffbbe44191e2293c097e976b0f6b7ec3b8783b04da13c74bbe5b34f4dabc5e0dd3a7cb5fe7aa92122af0
+outputs.1.filename=maven-gpg-plugin-3.0.1.jar
+outputs.1.length=59836
+outputs.1.checksums.sha512=847020ebb49081f0877baeb50f97c9a52a1db6f5b86dedc81ccac94528871d6384f6704f77cfe90bc3fa9f790c37af4a2a507e6ca414ce8f2443b740fbc7539f
 
-outputs.2.filename=maven-gpg-plugin-3.0.1-sources.jar
-outputs.2.length=36978
-outputs.2.checksums.sha512=467f03c4e765b595067cecc7934190ec6c2e9b4e23636655facb6631d41f0e7ca9c8666270872fab97380155328aa329c68e14d39a71505a5e040be76643daeb
+outputs.2.filename=maven-gpg-plugin-3.0.1-source-release.zip
+outputs.2.length=107906
+outputs.2.checksums.sha512=10eef9c1f3e71724b328e0f8d76303d251922a4e7a05ffbbe44191e2293c097e976b0f6b7ec3b8783b04da13c74bbe5b34f4dabc5e0dd3a7cb5fe7aa92122af0
+
+outputs.3.filename=maven-gpg-plugin-3.0.1-sources.jar
+outputs.3.length=36978
+outputs.3.checksums.sha512=467f03c4e765b595067cecc7934190ec6c2e9b4e23636655facb6631d41f0e7ca9c8666270872fab97380155328aa329c68e14d39a71505a5e040be76643daeb

@@ -13,24 +13,26 @@ source.scm.tag=maven-dependency-analyzer-1.11.2
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 
 # output
 
-outputs.0.filename=maven-dependency-analyzer-1.11.2.jar
-outputs.0.length=35790
-outputs.0.checksums.sha512=7e13b102c0625700064fb92c51aa9acde5c27d1127bf20a57444ed0405dd4078a00c3e0539a9dc4cf7c5928fee857f8ce73f91c00afad2127ddb9607cc670405
+outputs.0.filename=maven-dependency-analyzer-1.11.2.pom
+outputs.0.length=6892
+outputs.0.checksums.sha512=ae72c2974b322e0e0a625a58e8b9791ad9753237bee447718c62c9b780ca783435bb2193b1ee545df92c3cd33c7ae37f77c3ed5ff419c432db2d4d6dcad2068b
 
-outputs.1.filename=maven-dependency-analyzer-1.11.2-source-release.zip
-outputs.1.length=128585
-outputs.1.checksums.sha512=290335fae258749da8fab43cc6d7557255ad68330abe5573cc6bc87c45c3e9d8982ddcd7c34b8b8d1e06e250a8db82a18173cc74fb889debe2fcbe23742d66b5
+outputs.1.filename=maven-dependency-analyzer-1.11.2.jar
+outputs.1.length=35790
+outputs.1.checksums.sha512=7e13b102c0625700064fb92c51aa9acde5c27d1127bf20a57444ed0405dd4078a00c3e0539a9dc4cf7c5928fee857f8ce73f91c00afad2127ddb9607cc670405
 
-outputs.2.filename=maven-dependency-analyzer-1.11.2-sources.jar
-outputs.2.length=35547
-outputs.2.checksums.sha512=e0276a860122fe00f0f98e34f8bafccb902c214ac176f71ca7dcb4515ff3623015129cd8d973ef48f5eb861fd80f2259ba4b62abfccd5d17c0422610eb25375e
+outputs.2.filename=maven-dependency-analyzer-1.11.2-source-release.zip
+outputs.2.length=128585
+outputs.2.checksums.sha512=290335fae258749da8fab43cc6d7557255ad68330abe5573cc6bc87c45c3e9d8982ddcd7c34b8b8d1e06e250a8db82a18173cc74fb889debe2fcbe23742d66b5
+
+outputs.3.filename=maven-dependency-analyzer-1.11.2-sources.jar
+outputs.3.length=35547
+outputs.3.checksums.sha512=e0276a860122fe00f0f98e34f8bafccb902c214ac176f71ca7dcb4515ff3623015129cd8d973ef48f5eb861fd80f2259ba4b62abfccd5d17c0422610eb25375e

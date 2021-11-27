@@ -13,25 +13,27 @@ source.scm.tag=maven-shade-plugin-3.2.3
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=3.0
 
 # output
 
-outputs.0.filename=maven-shade-plugin-3.2.3.jar
-outputs.0.length=132252
-outputs.0.checksums.sha512=c8f6239090f785a57895b40a05a24bfd80458e9f99de7f1b12f6bcda55fa5798f0013dbd77f213818a481891e9166b9b6e97c03f825f8f2492f90a549f35d74f
+outputs.0.filename=maven-shade-plugin-3.2.3.pom
+outputs.0.length=10420
+outputs.0.checksums.sha512=33ce739984814a3f7373b80dc99279a708d4b5e1e5e39a04f8b950ace34ca289191a687f5edc447f79d59fc347af676a044a4484b1e165a3fad5c8d934e6a66d
 
-outputs.1.filename=maven-shade-plugin-3.2.3-source-release.zip
-outputs.1.length=815519
-outputs.1.checksums.sha512=3dba07212d0f0f5427bea7192e2fa0dea7a7919bf396f4d93081ebc1fc02aa16b8c9a9c9139043c74138a4ae5ed7cd10ac20d9852fa59a8bbd3258a6ed6980ea
+outputs.1.filename=maven-shade-plugin-3.2.3.jar
+outputs.1.length=132252
+outputs.1.checksums.sha512=c8f6239090f785a57895b40a05a24bfd80458e9f99de7f1b12f6bcda55fa5798f0013dbd77f213818a481891e9166b9b6e97c03f825f8f2492f90a549f35d74f
 
-outputs.2.filename=maven-shade-plugin-3.2.3-sources.jar
-outputs.2.length=87118
-outputs.2.checksums.sha512=107ed688d93e42473bcc6e9bad8f7b300045d3ae20e6d18a2e309dc5bda82a7c3c8e68dfff0703c53a954d04ad136493d65f8ec1fb5467813925b35280cb2861
+outputs.2.filename=maven-shade-plugin-3.2.3-source-release.zip
+outputs.2.length=815519
+outputs.2.checksums.sha512=3dba07212d0f0f5427bea7192e2fa0dea7a7919bf396f4d93081ebc1fc02aa16b8c9a9c9139043c74138a4ae5ed7cd10ac20d9852fa59a8bbd3258a6ed6980ea
+
+outputs.3.filename=maven-shade-plugin-3.2.3-sources.jar
+outputs.3.length=87118
+outputs.3.checksums.sha512=107ed688d93e42473bcc6e9bad8f7b300045d3ae20e6d18a2e309dc5bda82a7c3c8e68dfff0703c53a954d04ad136493d65f8ec1fb5467813925b35280cb2861

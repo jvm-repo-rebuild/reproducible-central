@@ -22,14 +22,18 @@ mvn.minimum.version=3.1.0
 
 # output
 
-outputs.0.filename=maven-pmd-plugin-3.15.0.jar
-outputs.0.length=151090
-outputs.0.checksums.sha512=219e15eb7901fd1890ebd9fd4e439ef240ba067b88da09afe25dcd01516b42f8f3ed44ad4ca585776201efa0151a250e68beaec92912f6a61909113dc8b00f27
+outputs.0.filename=maven-pmd-plugin-3.15.0.pom
+outputs.0.length=13759
+outputs.0.checksums.sha512=7fd79b55102707b9913efc43c22da042497d61b545a0d169f13f4091db40bd848f74094bf5647e4cd5235585e430aecc656e04eab7a4505b2cbaf2c12127fac6
 
-outputs.1.filename=maven-pmd-plugin-3.15.0-source-release.zip
-outputs.1.length=538790
-outputs.1.checksums.sha512=8ce5f12e7bbdb69013e122ef525f20c9cb191c1fbaf29708800aa887d2782e4eedc7aab51a663803e4c7d0f6005918836d5eb0a27bff35ffdf483194e32f7dc4
+outputs.1.filename=maven-pmd-plugin-3.15.0.jar
+outputs.1.length=151090
+outputs.1.checksums.sha512=219e15eb7901fd1890ebd9fd4e439ef240ba067b88da09afe25dcd01516b42f8f3ed44ad4ca585776201efa0151a250e68beaec92912f6a61909113dc8b00f27
 
-outputs.2.filename=maven-pmd-plugin-3.15.0-sources.jar
-outputs.2.length=105306
-outputs.2.checksums.sha512=66cdb458d55a0551c0495dcdeb4f08cda1740128ba3fbd5beb25699b0c25fff2521338bca9736ab8b0a3a07347e063f1579efc25623d4b21021974344275fcee
+outputs.2.filename=maven-pmd-plugin-3.15.0-source-release.zip
+outputs.2.length=538790
+outputs.2.checksums.sha512=8ce5f12e7bbdb69013e122ef525f20c9cb191c1fbaf29708800aa887d2782e4eedc7aab51a663803e4c7d0f6005918836d5eb0a27bff35ffdf483194e32f7dc4
+
+outputs.3.filename=maven-pmd-plugin-3.15.0-sources.jar
+outputs.3.length=105306
+outputs.3.checksums.sha512=66cdb458d55a0551c0495dcdeb4f08cda1740128ba3fbd5beb25699b0c25fff2521338bca9736ab8b0a3a07347e063f1579efc25623d4b21021974344275fcee

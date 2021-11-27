@@ -1,5 +1,7 @@
 version=3.2.2
-ok=3
+ok=4
 ko=0
-okFiles="maven-invoker-plugin-3.2.2.jar maven-invoker-plugin-3.2.2-source-release.zip maven-invoker-plugin-3.2.2-sources.jar"
+okFiles="maven-invoker-plugin-3.2.2.pom maven-invoker-plugin-3.2.2.jar maven-invoker-plugin-3.2.2-source-release.zip maven-invoker-plugin-3.2.2-sources.jar"
 koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
