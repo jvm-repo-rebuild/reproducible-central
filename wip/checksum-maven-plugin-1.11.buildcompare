@@ -1,0 +1,7 @@
+version=1.11
+ok=2
+ko=0
+okFiles="checksum-maven-plugin-1.11.pom checksum-maven-plugin-1.11.jar"
+koFiles=""
+reference_java_version="16 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
