@@ -1,0 +1,7 @@
+version=1.3
+ok=4
+ko=0
+okFiles="plexus-velocity-1.3.pom plexus-velocity-1.3.jar plexus-velocity-1.3-source-release.zip plexus-velocity-1.3-sources.jar"
+koFiles=""
+reference_java_version="16 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
