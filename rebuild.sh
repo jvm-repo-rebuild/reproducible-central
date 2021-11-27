@@ -140,8 +140,7 @@ mvnBuildLocal() {
 # rebuild with Maven tool (tool=mvn)
 rebuildToolMvn() {
   # the effective rebuild command, adding artifact:buildinfo goal to compare with central content
-  local mvn_rebuild="${command} -V -e artifact:buildinfo -Dreference.repo=central -Dreference.compare.save -Dbuildinfo.reproducible"
-  #local mvn_rebuild="${command} -V -e org.apache.maven.plugins:maven-artifact-plugin:3.2.0-SNAPSHOT:compare -Dbuildinfo.reproducible"
+  local mvn_rebuild="${command} -V -e artifact:compare -Dbuildinfo.reproducible"
 
   # by default, build with Docker
   # TODO: on parameter, use instead mvnBuildLocal after selecting JDK
@@ -149,25 +148,23 @@ rebuildToolMvn() {
   #   sdk use java ${jdk}
   mvnBuildDocker "${mvn_rebuild}" || fatal "failed to build"
 
-  dos2unix ${buildinfo}* || fatal "failed to convert buildinfo newlines"
-  local sed="sed"
-  if [ "$(uname -s)" ==  "Darwin" ]
-  then
-    sed="gsed"
-  fi
-  ${sed} -i 's/\(reference_[^=]*\)=\([^"].*\)/\1="\2"/' ${buildinfo}*.compare # waiting for MARTIFACT-19
-  cp ${buildinfo}* ../.. || fatal "failed to copy buildinfo artifacts"
+  dos2unix ${buildinfo} || fatal "failed to convert buildinfo newlines"
+  cp ${buildinfo} ../.. || fatal "failed to copy buildinfo file"
+
+  buildcompare="$(basename ${buildinfo} .buildinfo).buildcompare"
+  dos2unix ${buildcompare} || fatal "failed to convert buildcompare newlines"
+  cp ${buildcompare} ../.. || fatal "failed to copy buildcompare file"
 
   echo
   echo -e "rebuild from \033[1m${buildspec}\033[0m"
   local compare=""
-  for f in ${buildinfo}*.compare
+  for f in ${buildcompare}
   do
     compare=$f
-    echo -e "  results in \033[1m$(dirname ${buildspec})/$(basename $f .buildinfo.compare).buildinfo\033[0m"
+    echo -e "  results in \033[1m$(dirname ${buildspec})/$(basename $f .buildcompare).buildinfo\033[0m"
     echo -e "compared to Central Repository \033[1m$(dirname ${buildspec})/$(basename $f)\033[0m:"
   done
-  . ${buildinfo}*.compare
+  . ${buildcompare}
   if [[ ${ko} > 0 ]]
   then
     echo -e "    ok=${ok}"

@@ -3,7 +3,7 @@
 compare=$1
 builddir=$2
 
-diffoscope_file=$(dirname ${compare})/$(basename ${compare} .buildinfo.compare).diffoscope
+diffoscope_file=$(dirname ${compare})/$(basename ${compare} .buildcompare).diffoscope
 
 echo -e "saving build diffoscope file to \033[1m${diffoscope_file}\033[0m"
 

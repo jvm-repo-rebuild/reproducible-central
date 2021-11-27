@@ -25,9 +25,9 @@ do
 
   buildinfo="$(dirname "${buildspec}")/$(basename "${buildinfo}")"
   if [ $(ls ${buildinfo} | wc -l) -le 1 ]; then
-    buildinfoCompare="${buildinfo}.compare"
+    buildinfoCompare="$(dirname "${buildinfo}")/$(basename ${buildinfo} .buildinfo).buildcompare"
   else
-    buildinfoCompare="$(dirname "${buildspec}")/$(basename "${buildspec}" .buildspec).buildinfo.compare"
+    buildinfoCompare="$(dirname "${buildspec}")/$(basename "${buildspec}" .buildspec).buildcompare"
   fi
 
   echo -n "| "
