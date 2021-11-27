@@ -22,10 +22,14 @@ mvn.minimum.version=3.0.3
 
 # output
 
-outputs.0.filename=docker-maven-plugin-0.38.0.jar
-outputs.0.length=694128
-outputs.0.checksums.sha512=00c5f382ee3774c21d427dbc45e55ce15e64cb79b5938b274f8117ba7385251c595de070b206e2a19f848928b684f25b1fbe067aef267858e7023ead2e543219
+outputs.0.filename=docker-maven-plugin-0.38.0.pom
+outputs.0.length=20628
+outputs.0.checksums.sha512=91d0d64f8986c6751273c9b1952999c3e0f4eaa3fd989ffd44260bb2db31586578b5106e917a0023f3fd708e1e1dd90a7648dc3a69671fed1518e2060ce17e64
 
-outputs.1.filename=docker-maven-plugin-0.38.0-sources.jar
-outputs.1.length=311048
-outputs.1.checksums.sha512=1da00acbb2566502879637c023192c07b72921f3c06032af7a0d6797d5af4ad1b0354c3b12a703c6ddb1b3dad6b4490649583ee26231c66906f8729fd4624cf5
+outputs.1.filename=docker-maven-plugin-0.38.0.jar
+outputs.1.length=694128
+outputs.1.checksums.sha512=00c5f382ee3774c21d427dbc45e55ce15e64cb79b5938b274f8117ba7385251c595de070b206e2a19f848928b684f25b1fbe067aef267858e7023ead2e543219
+
+outputs.2.filename=docker-maven-plugin-0.38.0-sources.jar
+outputs.2.length=311048
+outputs.2.checksums.sha512=1da00acbb2566502879637c023192c07b72921f3c06032af7a0d6797d5af4ad1b0354c3b12a703c6ddb1b3dad6b4490649583ee26231c66906f8729fd4624cf5
