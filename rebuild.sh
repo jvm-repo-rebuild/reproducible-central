@@ -140,8 +140,8 @@ mvnBuildLocal() {
 # rebuild with Maven tool (tool=mvn)
 rebuildToolMvn() {
   # the effective rebuild command, adding artifact:buildinfo goal to compare with central content
-  local mvn_rebuild="${command} -V -e artifact:compare -Dbuildinfo.reproducible"
-  #local mvn_rebuild="${command} -V -e org.apache.maven.plugins:maven-artifact-plugin:3.2.0:compare -Dbuildinfo.reproducible"
+  #local mvn_rebuild="${command} -V -e artifact:compare -Dbuildinfo.reproducible"
+  local mvn_rebuild="${command} -V -e org.apache.maven.plugins:maven-artifact-plugin:3.2.0:compare -Dbuildinfo.reproducible"
 
   # by default, build with Docker
   # TODO: on parameter, use instead mvnBuildLocal after selecting JDK
@@ -181,7 +181,7 @@ rebuildToolMvn() {
       echo -e "    check .buildspec \033[1mnewline=${newline}\033[0m vs reference \033[1mos.name=${reference_os_name}\033[0m (newline should be crlf if os.name is Windows, lf instead)"
     fi
     echo -e "build available in \033[1m$(dirname ${buildspec})/buildcache/${artifactId}\033[0m, where you can execute \033[36mdiffoscope\033[0m"
-    grep '# diffoscope ' ${buildinfo}*.compare
+    grep '# diffoscope ' ${buildcompare}
 #    echo -e "run \033[36mdiffoscope\033[0m as container with \033[1mdocker run --rm -t -w /mnt -v $(pwd):/mnt:ro registry.salsa.debian.org/reproducible-builds/diffoscope\033[0m"
     echo -e "To see every differences between current rebuild and reference, run:"
     if [ -z "${sourcePath}" ]

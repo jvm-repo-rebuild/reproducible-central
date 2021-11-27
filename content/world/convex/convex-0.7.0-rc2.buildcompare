@@ -1,0 +1,20 @@
+version=0.7.0-rc2
+ok=6
+ko=13
+okFiles="convex-0.7.0-rc2.pom convex-core-0.7.0-rc2.pom convex-peer-0.7.0-rc2.pom convex-gui-0.7.0-rc2.pom convex-cli-0.7.0-rc2.pom convex-benchmarks-0.7.0-rc2.pom"
+koFiles="convex-core-0.7.0-rc2.jar convex-core-0.7.0-rc2-sources.jar convex-peer-0.7.0-rc2.jar convex-peer-0.7.0-rc2-sources.jar convex-gui-0.7.0-rc2.jar convex-gui-0.7.0-rc2-sources.jar convex-gui-0.7.0-rc2-jar-with-dependencies.jar convex-cli-0.7.0-rc2.jar convex-cli-0.7.0-rc2-sources.jar convex-cli-0.7.0-rc2-jar-with-dependencies.jar convex-benchmarks-0.7.0-rc2.jar convex-benchmarks-0.7.0-rc2-sources.jar convex-benchmarks-0.7.0-rc2-jar-with-dependencies.jar"
+reference_java_version="16.0.1 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/convex-core-0.7.0-rc2.jar convex-core/target/convex-core-0.7.0-rc2.jar
+# diffoscope target/reference/convex-core-0.7.0-rc2-sources.jar convex-core/target/convex-core-0.7.0-rc2-sources.jar
+# diffoscope target/reference/convex-peer-0.7.0-rc2.jar convex-peer/target/convex-peer-0.7.0-rc2.jar
+# diffoscope target/reference/convex-peer-0.7.0-rc2-sources.jar convex-peer/target/convex-peer-0.7.0-rc2-sources.jar
+# diffoscope target/reference/convex-gui-0.7.0-rc2.jar convex-gui/target/convex-gui-0.7.0-rc2.jar
+# diffoscope target/reference/convex-gui-0.7.0-rc2-sources.jar convex-gui/target/convex-gui-0.7.0-rc2-sources.jar
+# diffoscope target/reference/convex-gui-0.7.0-rc2-jar-with-dependencies.jar convex-gui/target/convex-gui-0.7.0-rc2-jar-with-dependencies.jar
+# diffoscope target/reference/convex-cli-0.7.0-rc2.jar convex-cli/target/convex-cli-0.7.0-rc2.jar
+# diffoscope target/reference/convex-cli-0.7.0-rc2-sources.jar convex-cli/target/convex-cli-0.7.0-rc2-sources.jar
+# diffoscope target/reference/convex-cli-0.7.0-rc2-jar-with-dependencies.jar convex-cli/target/convex-cli-0.7.0-rc2-jar-with-dependencies.jar
+# diffoscope target/reference/convex-benchmarks-0.7.0-rc2.jar convex-benchmarks/target/convex-benchmarks.jar
+# diffoscope target/reference/convex-benchmarks-0.7.0-rc2-sources.jar convex-benchmarks/target/convex-benchmarks-sources.jar
+# diffoscope target/reference/convex-benchmarks-0.7.0-rc2-jar-with-dependencies.jar convex-benchmarks/target/convex-benchmarks-jar-with-dependencies.jar
