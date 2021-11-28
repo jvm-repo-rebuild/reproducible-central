@@ -13,25 +13,27 @@ source.scm.tag=v1.0.0
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_275
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=3.0.4
 
 # output
 
-outputs.0.filename=atom-jaxb-1.0.0.jar
-outputs.0.length=52711
-outputs.0.checksums.sha512=dcab0cdfb872f1252a02ddbc0389eb71a7903ae35afb1e92458ce4fa48f10b7c3c28b9c3cbc79b0cd55a9ebcff7d476249156180473b5e545dfa30a13228bd5b
+outputs.0.filename=atom-jaxb-1.0.0.pom
+outputs.0.length=10674
+outputs.0.checksums.sha512=4f7b3b5fa5ec44ea34005a7861bae2120a60678225a6f5fd56686848648c5047b3bc1169645108eebd5e8a4935d467af1fe27dd02c96241c6d279cacdde80ee7
 
-outputs.1.filename=atom-jaxb-1.0.0-sources.jar
-outputs.1.length=21290
-outputs.1.checksums.sha512=a077dc76e2b82b71a41d93e199992c0982a4c7d60a023239ba8734c003a273baaff31fb558fd21dedfdc97cf0639b338a3fbedc210c1392eded75535313adf17
+outputs.1.filename=atom-jaxb-1.0.0.jar
+outputs.1.length=52711
+outputs.1.checksums.sha512=8dde71cbc25db86d820f4df55b68e37d5968b89d5ea9334fee543633904894ecbcbee6378adf7a6d79a42354747515b681cfb81c8471c823e7c974da63bea4fa
 
-outputs.2.filename=atom-jaxb-1.0.0-tests.jar
-outputs.2.length=73293
-outputs.2.checksums.sha512=d78fe3f55e0255b76979d7dcdb57d6ebbebd8ac0d19766df2abc067765a0ac2852de2fa55cce5fe12785b7596815135a2635e369162cb4502e4b081ead45bf12
+outputs.2.filename=atom-jaxb-1.0.0-sources.jar
+outputs.2.length=21290
+outputs.2.checksums.sha512=b18acd57823a879df848d32fba3e26d11460cdb55938fad4b4ce98fad4e6554f2a5669c014b3f408dd2092b1bc9ec1035f796ef96bc72302fb3a651f1f7a715d
+
+outputs.3.filename=atom-jaxb-1.0.0-tests.jar
+outputs.3.length=73293
+outputs.3.checksums.sha512=ed86d0834eb8b886a08944d1d3a0ed280cfc500edc040a504ce84a60bee59f09542d8ced35ec58b8caaaf5735cbbaa3073367f60b332db58deed16a9673c2e88

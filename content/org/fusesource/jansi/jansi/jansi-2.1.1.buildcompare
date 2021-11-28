@@ -1,5 +1,8 @@
 version=2.1.1
-ok=1
+ok=2
 ko=1
-okFiles="jansi-2.1.1-sources.jar"
+okFiles="jansi-2.1.1.pom jansi-2.1.1-sources.jar"
 koFiles="jansi-2.1.1.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/jansi-2.1.1.jar target/jansi-2.1.1.jar

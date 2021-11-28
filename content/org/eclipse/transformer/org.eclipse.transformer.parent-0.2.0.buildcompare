@@ -1,7 +1,7 @@
 version=0.2.0
-ok=7
+ok=11
 ko=0
-okFiles="org.eclipse.transformer-0.2.0.jar org.eclipse.transformer-0.2.0-sources.jar org.eclipse.transformer.cli-0.2.0.jar org.eclipse.transformer.cli-0.2.0-distribution.jar org.eclipse.transformer.cli-0.2.0-sources.jar org.eclipse.transformer.maven-0.2.0.jar org.eclipse.transformer.maven-0.2.0-sources.jar"
+okFiles="org.eclipse.transformer.parent-0.2.0.pom org.eclipse.transformer-0.2.0.pom org.eclipse.transformer-0.2.0.jar org.eclipse.transformer-0.2.0-sources.jar org.eclipse.transformer.cli-0.2.0.pom org.eclipse.transformer.cli-0.2.0.jar org.eclipse.transformer.cli-0.2.0-distribution.jar org.eclipse.transformer.cli-0.2.0-sources.jar org.eclipse.transformer.maven-0.2.0.pom org.eclipse.transformer.maven-0.2.0.jar org.eclipse.transformer.maven-0.2.0-sources.jar"
 koFiles=""
 reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"

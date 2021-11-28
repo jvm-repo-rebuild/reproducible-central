@@ -13,16 +13,18 @@ source.scm.tag=liquibase-percona-4.3.1
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_275
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 
 # output
 
-outputs.0.filename=liquibase-percona-4.3.1.jar
-outputs.0.length=49322
-outputs.0.checksums.sha512=d93c7731f7fce6e960593f77efd3b11f23b113ac737107db58b649f2987fd622932bf56b190d5d12cbac0ad7f32ade8e34d2aae875b10e73175bd75eae02111b
+outputs.0.filename=liquibase-percona-4.3.1.pom
+outputs.0.length=18014
+outputs.0.checksums.sha512=fd6976af8b2f86cd981977ea71224a50347d864197fb155608ccc1e71e44b279cd20b962bc3773ef875828c235483e4c9bf73b2661148f7903d26f0629ec47c4
+
+outputs.1.filename=liquibase-percona-4.3.1.jar
+outputs.1.length=49323
+outputs.1.checksums.sha512=c413f82ca248a8163b5793f4ee2ab128c1ae6a17f99d9770db3145b62a71fb1a3ad5108f8672db21899589439715d941e7820dd60996d1ddb70666931d754442

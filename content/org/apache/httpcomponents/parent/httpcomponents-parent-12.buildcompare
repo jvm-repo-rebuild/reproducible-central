@@ -1,5 +1,5 @@
 version=12
-ok=1
+ok=2
 ko=0
-okFiles="httpcomponents-parent-12-source-release.zip"
+okFiles="httpcomponents-parent-12.pom httpcomponents-parent-12-source-release.zip"
 koFiles=""

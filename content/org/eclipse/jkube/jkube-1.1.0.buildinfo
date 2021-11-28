@@ -13,361 +13,519 @@ source.scm.tag=HEAD
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_275
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.aggregate.artifact-id=openshift-maven-plugin-it
 
 # aggregated output
 
 outputs.0.coordinates=org.eclipse.jkube:jkube
 
+outputs.0.0.filename=jkube-1.1.0.pom
+outputs.0.0.length=16833
+outputs.0.0.checksums.sha512=9e1567a0001ed31fe802f2dc13fe36cd3a08b468cdc4f8dd89ecf892f6d19f11e3bc970eea990a24b756bb43ad809dc093498a84f148548976bfc96833b9f9b2
+
 outputs.1.coordinates=org.eclipse.jkube:jkube-kit-parent
+
+outputs.1.0.filename=jkube-kit-parent-1.1.0.pom
+outputs.1.0.length=30094
+outputs.1.0.checksums.sha512=79d96e39298732cc15e1c63f27063ff953cb079808bf5b2a1f6cad4ecd72942427364f51e360802dcf1f593c3f9be33a02b2a9106a6435b03a120783850cccd1
 
 outputs.2.coordinates=org.eclipse.jkube:jkube-kit-doc
 
-outputs.2.0.filename=jkube-kit-doc-1.1.0.jar
-outputs.2.0.length=2306
-outputs.2.0.checksums.sha512=fd7768b2e883b4b0ef98a7f7cb2112e5c995f66e4812fbce7a11802eefc136955ec0e3709881f002d13b98db7b7433c8de52415599b73e346894daea1d5a4bb0
+outputs.2.0.filename=jkube-kit-doc-1.1.0.pom
+outputs.2.0.length=4027
+outputs.2.0.checksums.sha512=7eee950f1c6fc4c2d267ce6890b4952f916956819f6d0fbf5b478b7ff872268227b81480ae4a7e1dccb49f004cc3cfe6ed84633eeaa072c9a4e0e6208cba6348
+
+outputs.2.1.filename=jkube-kit-doc-1.1.0.jar
+outputs.2.1.length=2306
+outputs.2.1.checksums.sha512=fd7768b2e883b4b0ef98a7f7cb2112e5c995f66e4812fbce7a11802eefc136955ec0e3709881f002d13b98db7b7433c8de52415599b73e346894daea1d5a4bb0
 
 outputs.3.coordinates=org.eclipse.jkube:jkube-kit-common-test
 
-outputs.3.0.filename=jkube-kit-common-test-1.1.0.jar
-outputs.3.0.length=3172
-outputs.3.0.checksums.sha512=6519e2cee53bfefb3750e5d9b38d4f1c352157963c51b7c06c9cc9b0aeb57373ee340870bbf42192095ec7094263b24e1da219775da9c4733bcbfb26ac7df1b3
+outputs.3.0.filename=jkube-kit-common-test-1.1.0.pom
+outputs.3.0.length=1105
+outputs.3.0.checksums.sha512=fce5ac27942c48034ee7a6d36f77d80a9919df08f8b177f42a4a7cc320d286868b9eaba72606f9c5e08c4a13f34cb429c439e603ca1cacf3174c19b81cfe2a1a
 
-outputs.3.1.filename=jkube-kit-common-test-1.1.0-sources.jar
-outputs.3.1.length=2967
-outputs.3.1.checksums.sha512=5ff2dab1524df67bd83a8e7b5d9103e620d034a866d3f7e526512ef07fb9bfc183200ba0a942404aeda9d61dd6fb103912c78cbcba577308215136d951c409b9
+outputs.3.1.filename=jkube-kit-common-test-1.1.0.jar
+outputs.3.1.length=3172
+outputs.3.1.checksums.sha512=6519e2cee53bfefb3750e5d9b38d4f1c352157963c51b7c06c9cc9b0aeb57373ee340870bbf42192095ec7094263b24e1da219775da9c4733bcbfb26ac7df1b3
+
+outputs.3.2.filename=jkube-kit-common-test-1.1.0-sources.jar
+outputs.3.2.length=2967
+outputs.3.2.checksums.sha512=5ff2dab1524df67bd83a8e7b5d9103e620d034a866d3f7e526512ef07fb9bfc183200ba0a942404aeda9d61dd6fb103912c78cbcba577308215136d951c409b9
 
 outputs.4.coordinates=org.eclipse.jkube:jkube-kit-common
 
-outputs.4.0.filename=jkube-kit-common-1.1.0.jar
-outputs.4.0.length=178511
-outputs.4.0.checksums.sha512=6bed7c4369d3b9d728f9be9f156e6be3645fc1b6d7aa69c0ddab0ad03225fb79c18229cc19e25ac7ae3c42cc65e3723f4fe1877caad67703c7f596b533fa5d06
+outputs.4.0.filename=jkube-kit-common-1.1.0.pom
+outputs.4.0.length=3800
+outputs.4.0.checksums.sha512=2d50d27c8d6bb06f4cab718a10eba44b600b4ad1183a214368f7b8b1b1b051b4b33201eed6f321200eb2fe579d706b93536097970e90e9966aeaaded4fab8bf6
 
-outputs.4.1.filename=jkube-kit-common-1.1.0-sources.jar
-outputs.4.1.length=92819
-outputs.4.1.checksums.sha512=20aca6f078262c593fec5890adef1a2a53d6401430c3271f889f717e1c18d494114f14aebdb034e49d3bee0dddd6cf63474f91870e819ecdc107aeb39f65641f
+outputs.4.1.filename=jkube-kit-common-1.1.0.jar
+outputs.4.1.length=178511
+outputs.4.1.checksums.sha512=6bed7c4369d3b9d728f9be9f156e6be3645fc1b6d7aa69c0ddab0ad03225fb79c18229cc19e25ac7ae3c42cc65e3723f4fe1877caad67703c7f596b533fa5d06
+
+outputs.4.2.filename=jkube-kit-common-1.1.0-sources.jar
+outputs.4.2.length=92819
+outputs.4.2.checksums.sha512=20aca6f078262c593fec5890adef1a2a53d6401430c3271f889f717e1c18d494114f14aebdb034e49d3bee0dddd6cf63474f91870e819ecdc107aeb39f65641f
 
 outputs.5.coordinates=org.eclipse.jkube:jkube-kit-common-maven
 
-outputs.5.0.filename=jkube-kit-common-maven-1.1.0.jar
-outputs.5.0.length=22997
-outputs.5.0.checksums.sha512=a56ea9fb1258a3894fbce0f87dce6effa3d22f5e442b9e67208cb897fb3635782f5fa7a451d5fce56acc481238aa5ad95ab0c042bf739de3cc3d9040a9f99232
+outputs.5.0.filename=jkube-kit-common-maven-1.1.0.pom
+outputs.5.0.length=2517
+outputs.5.0.checksums.sha512=573f94bca26c211308e0592b75c58dc63a8fd2248945af209f53ac7c168aeb29ccb065107365319e546579e744e8455f1d9dec79e69db7bc1aa26185504b4d93
 
-outputs.5.1.filename=jkube-kit-common-maven-1.1.0-sources.jar
-outputs.5.1.length=15081
-outputs.5.1.checksums.sha512=a2a66eb4a2dd5e056ec46eeb1a6ec35aab69095051a9734e10600e9bf7dc15a36ead8f5c6f866612eaaa0c3956c6a10a95a3e2b98951ad21a9bb8880a55f94a8
+outputs.5.1.filename=jkube-kit-common-maven-1.1.0.jar
+outputs.5.1.length=22997
+outputs.5.1.checksums.sha512=a56ea9fb1258a3894fbce0f87dce6effa3d22f5e442b9e67208cb897fb3635782f5fa7a451d5fce56acc481238aa5ad95ab0c042bf739de3cc3d9040a9f99232
+
+outputs.5.2.filename=jkube-kit-common-maven-1.1.0-sources.jar
+outputs.5.2.length=15081
+outputs.5.2.checksums.sha512=a2a66eb4a2dd5e056ec46eeb1a6ec35aab69095051a9734e10600e9bf7dc15a36ead8f5c6f866612eaaa0c3956c6a10a95a3e2b98951ad21a9bb8880a55f94a8
 
 outputs.6.coordinates=org.eclipse.jkube:jkube-kit-config-image
 
-outputs.6.0.filename=jkube-kit-config-image-1.1.0.jar
-outputs.6.0.length=99196
-outputs.6.0.checksums.sha512=e41d4227603e2516d496cbc1362605f87ea463d586a84395d526993347d57573f5881b0c2055db9671c313ac3e3c8b6627662a040011fc89c5bf1fe4aaa56576
+outputs.6.0.filename=jkube-kit-config-image-1.1.0.pom
+outputs.6.0.length=1783
+outputs.6.0.checksums.sha512=ef0256beff4a73530337b797b91ec12920eb03117913e70406d26334b4506a0c70782b2f3fad8e86ad482d0fe551ca04f823cc53d9a6b586a20b626591b9f6b5
 
-outputs.6.1.filename=jkube-kit-config-image-1.1.0-sources.jar
-outputs.6.1.length=39209
-outputs.6.1.checksums.sha512=da99fd8b2f6064c8a679d461f6a3728307470c6744a83e83fb1155a1d5fb579f8cbbf911703c1e641777448cd4af0ed845819a9d39e7802449d0daee0641a8a1
+outputs.6.1.filename=jkube-kit-config-image-1.1.0.jar
+outputs.6.1.length=99196
+outputs.6.1.checksums.sha512=e41d4227603e2516d496cbc1362605f87ea463d586a84395d526993347d57573f5881b0c2055db9671c313ac3e3c8b6627662a040011fc89c5bf1fe4aaa56576
+
+outputs.6.2.filename=jkube-kit-config-image-1.1.0-sources.jar
+outputs.6.2.length=39209
+outputs.6.2.checksums.sha512=da99fd8b2f6064c8a679d461f6a3728307470c6744a83e83fb1155a1d5fb579f8cbbf911703c1e641777448cd4af0ed845819a9d39e7802449d0daee0641a8a1
 
 outputs.7.coordinates=org.eclipse.jkube:jkube-kit-config-resource
 
-outputs.7.0.filename=jkube-kit-config-resource-1.1.0.jar
-outputs.7.0.length=103417
-outputs.7.0.checksums.sha512=60ab97154630419176a4e01ab71bda69e072a85e03b480113af8e7e6336f8412110371130b0196445d15c9f099e0a8d44cb9f75570e8d16a8725e8d2b57b4167
+outputs.7.0.filename=jkube-kit-config-resource-1.1.0.pom
+outputs.7.0.length=1789
+outputs.7.0.checksums.sha512=82cbf20c6adafb7d8317c6b0926a63d8d0569fd0b7ed76e0824ba62a3d5d791b7f42b5f59df6dd8c9cff58c2b306f06ad5339bf2932c64b72da9d4ed4be7555d
 
-outputs.7.1.filename=jkube-kit-config-resource-1.1.0-sources.jar
-outputs.7.1.length=30126
-outputs.7.1.checksums.sha512=71d04a66298ff054086b7490feb5a578e2d0f22a8a55324561e72852607d7488c7bf424aa484ca02e7d1301abd69aeaf2a65f9260dbb70f464245662c98d62b2
+outputs.7.1.filename=jkube-kit-config-resource-1.1.0.jar
+outputs.7.1.length=103417
+outputs.7.1.checksums.sha512=60ab97154630419176a4e01ab71bda69e072a85e03b480113af8e7e6336f8412110371130b0196445d15c9f099e0a8d44cb9f75570e8d16a8725e8d2b57b4167
+
+outputs.7.2.filename=jkube-kit-config-resource-1.1.0-sources.jar
+outputs.7.2.length=30126
+outputs.7.2.checksums.sha512=71d04a66298ff054086b7490feb5a578e2d0f22a8a55324561e72852607d7488c7bf424aa484ca02e7d1301abd69aeaf2a65f9260dbb70f464245662c98d62b2
 
 outputs.8.coordinates=org.eclipse.jkube:jkube-kit-build-api
 
-outputs.8.0.filename=jkube-kit-build-api-1.1.0.jar
-outputs.8.0.length=64239
-outputs.8.0.checksums.sha512=7c6f6f8f7146d2ee05ff77bd56cf1279ae60728f4de74df7c286cc872d3144827b7791ea3176b8f1855b9256cbc35c5e0e6152ce26c2022730bbd96d36cee7f7
+outputs.8.0.filename=jkube-kit-build-api-1.1.0.pom
+outputs.8.0.length=1575
+outputs.8.0.checksums.sha512=ca47f1b0988b5a0b1071db20c914a7a57a7705d3da7f02a72a115bc50274d638bb42706a1828f3f9ae72068b6ca1d4fb8a34641bd2a2f8fa5e396be60b63ba04
 
-outputs.8.1.filename=jkube-kit-build-api-1.1.0-sources.jar
-outputs.8.1.length=38472
-outputs.8.1.checksums.sha512=65402cb17c4638eb62f197e836381671bda55abd353bb92aa06573f320e13241be492343fa2d952731509936458b14591fa0098c37a50ea3b9a19a0d317414a8
+outputs.8.1.filename=jkube-kit-build-api-1.1.0.jar
+outputs.8.1.length=64239
+outputs.8.1.checksums.sha512=7c6f6f8f7146d2ee05ff77bd56cf1279ae60728f4de74df7c286cc872d3144827b7791ea3176b8f1855b9256cbc35c5e0e6152ce26c2022730bbd96d36cee7f7
+
+outputs.8.2.filename=jkube-kit-build-api-1.1.0-sources.jar
+outputs.8.2.length=38472
+outputs.8.2.checksums.sha512=65402cb17c4638eb62f197e836381671bda55abd353bb92aa06573f320e13241be492343fa2d952731509936458b14591fa0098c37a50ea3b9a19a0d317414a8
 
 outputs.9.coordinates=org.eclipse.jkube:jkube-kit-build-service-docker
 
-outputs.9.0.filename=jkube-kit-build-service-docker-1.1.0.jar
-outputs.9.0.length=337763
-outputs.9.0.checksums.sha512=c53f2ec2c8d3a3dfbbc86ed2a7c442073b3c9e9bad6e81339cce563f5366231de6bcf6c4f61db255177f9ea622c9ee55ab9210c8f16858b63d0d805d95c9aa33
+outputs.9.0.filename=jkube-kit-build-service-docker-1.1.0.pom
+outputs.9.0.length=2313
+outputs.9.0.checksums.sha512=ed22e9b031f5441df91f1a09119be3360a97d22e89a0245dca3470956865e58ffffe172cddb3a910908c0b9931110234432535757687b639305cf9a81bc5900a
 
-outputs.9.1.filename=jkube-kit-build-service-docker-1.1.0-sources.jar
-outputs.9.1.length=183372
-outputs.9.1.checksums.sha512=abe642dccc1a10511b371ac161ec62250a414e0791ddf8913783b43060868fe126ce654ef0fa59daeb072107a085cd7c341b6fe7361977430fd3e355e1f7e93d
+outputs.9.1.filename=jkube-kit-build-service-docker-1.1.0.jar
+outputs.9.1.length=337763
+outputs.9.1.checksums.sha512=c53f2ec2c8d3a3dfbbc86ed2a7c442073b3c9e9bad6e81339cce563f5366231de6bcf6c4f61db255177f9ea622c9ee55ab9210c8f16858b63d0d805d95c9aa33
+
+outputs.9.2.filename=jkube-kit-build-service-docker-1.1.0-sources.jar
+outputs.9.2.length=183372
+outputs.9.2.checksums.sha512=abe642dccc1a10511b371ac161ec62250a414e0791ddf8913783b43060868fe126ce654ef0fa59daeb072107a085cd7c341b6fe7361977430fd3e355e1f7e93d
 
 outputs.10.coordinates=org.eclipse.jkube:jkube-kit-build-service-jib
 
-outputs.10.0.filename=jkube-kit-build-service-jib-1.1.0.jar
-outputs.10.0.length=12836
-outputs.10.0.checksums.sha512=96beddb1570dfb5e900ca100af9d2b020f1edf566a8b28b1c955b2daf107c6e654b939a8e22a227bd84cbf8c1fe2ce5977a792bd62561704a5f4a3d9c63ccf88
+outputs.10.0.filename=jkube-kit-build-service-jib-1.1.0.pom
+outputs.10.0.length=1810
+outputs.10.0.checksums.sha512=6b0120d3ea66806144e2f8117a05d4e4a530b5fe5fe4796e1400c7324688aa7749c15570ca469534f54d7555ba67c4d1a4075de72e8e2b77e4ca63b406ed5b5d
 
-outputs.10.1.filename=jkube-kit-build-service-jib-1.1.0-sources.jar
-outputs.10.1.length=6860
-outputs.10.1.checksums.sha512=ae5d9212e186d6593298b2c2a3a4207178d35f90e3df11c1a95c88346372a50d0a2b910618de30888d9e61d146c92cab8315ceeb188d5ecc9ab2c4d96761eb7e
+outputs.10.1.filename=jkube-kit-build-service-jib-1.1.0.jar
+outputs.10.1.length=12836
+outputs.10.1.checksums.sha512=96beddb1570dfb5e900ca100af9d2b020f1edf566a8b28b1c955b2daf107c6e654b939a8e22a227bd84cbf8c1fe2ce5977a792bd62561704a5f4a3d9c63ccf88
+
+outputs.10.2.filename=jkube-kit-build-service-jib-1.1.0-sources.jar
+outputs.10.2.length=6860
+outputs.10.2.checksums.sha512=ae5d9212e186d6593298b2c2a3a4207178d35f90e3df11c1a95c88346372a50d0a2b910618de30888d9e61d146c92cab8315ceeb188d5ecc9ab2c4d96761eb7e
 
 outputs.11.coordinates=org.eclipse.jkube:jkube-kit-config-service
 
-outputs.11.0.filename=jkube-kit-config-service-1.1.0.jar
-outputs.11.0.length=127309
-outputs.11.0.checksums.sha512=0d356218c73ad019c48c675f9f232c0357c61384cbb222ad5eb823b27b61ce0cccb44202090023699361d62f0e6d71c73ae40940b465a167187f194acd70b704
+outputs.11.0.filename=jkube-kit-config-service-1.1.0.pom
+outputs.11.0.length=2282
+outputs.11.0.checksums.sha512=d31d113ba54c5bc67f25b7fecaf428490d42d754b6ff065288ecab89f07fb5fe180049a82e83952d1c22ec8102dfb664e1d1dcaad547fd868562b37c630705db
 
-outputs.11.1.filename=jkube-kit-config-service-1.1.0-sources.jar
-outputs.11.1.length=56919
-outputs.11.1.checksums.sha512=1dfdbecb0d69c1829d056a658eaf658e07bc8e22732efacb362dba12490e3aa9cfcf9dae78efc3750ff0c4c484db9dfe948fb5ca72f18770d17c3e0cb3f8ec1a
+outputs.11.1.filename=jkube-kit-config-service-1.1.0.jar
+outputs.11.1.length=127309
+outputs.11.1.checksums.sha512=0d356218c73ad019c48c675f9f232c0357c61384cbb222ad5eb823b27b61ce0cccb44202090023699361d62f0e6d71c73ae40940b465a167187f194acd70b704
+
+outputs.11.2.filename=jkube-kit-config-service-1.1.0-sources.jar
+outputs.11.2.length=56919
+outputs.11.2.checksums.sha512=1dfdbecb0d69c1829d056a658eaf658e07bc8e22732efacb362dba12490e3aa9cfcf9dae78efc3750ff0c4c484db9dfe948fb5ca72f18770d17c3e0cb3f8ec1a
 
 outputs.12.coordinates=org.eclipse.jkube:jkube-kit-generator-api
 
-outputs.12.0.filename=jkube-kit-generator-api-1.1.0.jar
-outputs.12.0.length=22404
-outputs.12.0.checksums.sha512=fbb0829a7f462907c713a08ec8d93e84d11ee01bea550ee6c4d914ddb2d69e66a9a9a40991bd1048e1f8894902af100bcc4bf990b1e8d5de6b7b2ea83124d4a8
+outputs.12.0.filename=jkube-kit-generator-api-1.1.0.pom
+outputs.12.0.length=2317
+outputs.12.0.checksums.sha512=38fd87232d760f1873f074308d78994577c8fb53d6c16398ff301ff3b1e59cba16ac4bffb68280b4b40852caad74d9e7bd52f52decebbcdeb038792ce4057a69
 
-outputs.12.1.filename=jkube-kit-generator-api-1.1.0-sources.jar
-outputs.12.1.length=14537
-outputs.12.1.checksums.sha512=35f855eb07c20199ccfef483fa46e21034eaef63a7113882905df030bc8537465a8507582976e268aee71c60c3b6d392c44a550d64c5a7751e3e168b2bebd10b
+outputs.12.1.filename=jkube-kit-generator-api-1.1.0.jar
+outputs.12.1.length=22404
+outputs.12.1.checksums.sha512=fbb0829a7f462907c713a08ec8d93e84d11ee01bea550ee6c4d914ddb2d69e66a9a9a40991bd1048e1f8894902af100bcc4bf990b1e8d5de6b7b2ea83124d4a8
+
+outputs.12.2.filename=jkube-kit-generator-api-1.1.0-sources.jar
+outputs.12.2.length=14537
+outputs.12.2.checksums.sha512=35f855eb07c20199ccfef483fa46e21034eaef63a7113882905df030bc8537465a8507582976e268aee71c60c3b6d392c44a550d64c5a7751e3e168b2bebd10b
 
 outputs.13.coordinates=org.eclipse.jkube:jkube-kit-generator-java-exec
 
-outputs.13.0.filename=jkube-kit-generator-java-exec-1.1.0.jar
-outputs.13.0.length=13944
-outputs.13.0.checksums.sha512=bee25f9e57b50c06bcbf57cca610bc795007a90ef9b4bb8973cee2412a7cc6d5b78b3c3d6f813475dfeae2dbff916defa99c7826c928bc2c4f8b60c08f87afd6
+outputs.13.0.filename=jkube-kit-generator-java-exec-1.1.0.pom
+outputs.13.0.length=1564
+outputs.13.0.checksums.sha512=761bfbf8f71ee24018c2255b8df1b31b9e9cefae7c0b47b5bd421b27c2bc1493bc8fc3e4542869a166b0b2c9164c5b032ddfe87b44e89999cf0cf26aca82a76a
 
-outputs.13.1.filename=jkube-kit-generator-java-exec-1.1.0-sources.jar
-outputs.13.1.length=8157
-outputs.13.1.checksums.sha512=78e02a659da11dc406eaf0f45f74745ae7547ab7dc3f26e142a2e731d4324d57ebb9cbffc2d8dec63de4794152cf996efb30622c9e64cbd4663508d4b0f5d444
+outputs.13.1.filename=jkube-kit-generator-java-exec-1.1.0.jar
+outputs.13.1.length=13944
+outputs.13.1.checksums.sha512=bee25f9e57b50c06bcbf57cca610bc795007a90ef9b4bb8973cee2412a7cc6d5b78b3c3d6f813475dfeae2dbff916defa99c7826c928bc2c4f8b60c08f87afd6
+
+outputs.13.2.filename=jkube-kit-generator-java-exec-1.1.0-sources.jar
+outputs.13.2.length=8157
+outputs.13.2.checksums.sha512=78e02a659da11dc406eaf0f45f74745ae7547ab7dc3f26e142a2e731d4324d57ebb9cbffc2d8dec63de4794152cf996efb30622c9e64cbd4663508d4b0f5d444
 
 outputs.14.coordinates=org.eclipse.jkube:jkube-kit-generator-wildfly-swarm
 
-outputs.14.0.filename=jkube-kit-generator-wildfly-swarm-1.1.0.jar
-outputs.14.0.length=4022
-outputs.14.0.checksums.sha512=c2a62fd97c768ecc02ee6d1b6e881d96dedb7369492393805d7b84146d0ba582be78c5fa1354f72fb62ae6116740473480706113fd460a5e5dc3cccdb77b4f47
+outputs.14.0.filename=jkube-kit-generator-wildfly-swarm-1.1.0.pom
+outputs.14.0.length=1132
+outputs.14.0.checksums.sha512=3adbacf18754812742bffe4e649debcef03e06d808cf2cb20d09a7d5957d8c633b05a5c249df85d5d97c8f737ab2d27af91edef839a7d4ec8c2542bcff3c28e9
 
-outputs.14.1.filename=jkube-kit-generator-wildfly-swarm-1.1.0-sources.jar
-outputs.14.1.length=3906
-outputs.14.1.checksums.sha512=65185c110cb3fdac9a192ebc7458587b43d9ae441197dd5735f61ce3435268d5324fde0fbb4427dd60e24ddfd653c099afa01a848fd886cd5a659effe7398c2d
+outputs.14.1.filename=jkube-kit-generator-wildfly-swarm-1.1.0.jar
+outputs.14.1.length=4022
+outputs.14.1.checksums.sha512=c2a62fd97c768ecc02ee6d1b6e881d96dedb7369492393805d7b84146d0ba582be78c5fa1354f72fb62ae6116740473480706113fd460a5e5dc3cccdb77b4f47
+
+outputs.14.2.filename=jkube-kit-generator-wildfly-swarm-1.1.0-sources.jar
+outputs.14.2.length=3906
+outputs.14.2.checksums.sha512=65185c110cb3fdac9a192ebc7458587b43d9ae441197dd5735f61ce3435268d5324fde0fbb4427dd60e24ddfd653c099afa01a848fd886cd5a659effe7398c2d
 
 outputs.15.coordinates=org.eclipse.jkube:jkube-kit-generator-karaf
 
-outputs.15.0.filename=jkube-kit-generator-karaf-1.1.0.jar
-outputs.15.0.length=7448
-outputs.15.0.checksums.sha512=9fab0285678e38637c42432d7f0504204ac6373a95f972ab8e62f2597c7126ffeca3d7b1fad0452ae9462897b83360ff58b464eeb7e67e0a4a37da65adf117e9
+outputs.15.0.filename=jkube-kit-generator-karaf-1.1.0.pom
+outputs.15.0.length=1927
+outputs.15.0.checksums.sha512=7b3245bda1d94bf288215ecee15ec04d82a4db62cd8aeb6ff8cdd9e980bc82fb2ae2eaa70db5d9840066c9d65ff99f27d35827cadd0268d1871ff67c6ca2829a
 
-outputs.15.1.filename=jkube-kit-generator-karaf-1.1.0-sources.jar
-outputs.15.1.length=4963
-outputs.15.1.checksums.sha512=bc89831092e517d36f44033a3262cc696c55c639e69562b6d045c5af184895c902b4ea58b7a951a0f0c1edd4cc0963114756d901c49b1d419d25c799a2315231
+outputs.15.1.filename=jkube-kit-generator-karaf-1.1.0.jar
+outputs.15.1.length=7448
+outputs.15.1.checksums.sha512=9fab0285678e38637c42432d7f0504204ac6373a95f972ab8e62f2597c7126ffeca3d7b1fad0452ae9462897b83360ff58b464eeb7e67e0a4a37da65adf117e9
+
+outputs.15.2.filename=jkube-kit-generator-karaf-1.1.0-sources.jar
+outputs.15.2.length=4963
+outputs.15.2.checksums.sha512=bc89831092e517d36f44033a3262cc696c55c639e69562b6d045c5af184895c902b4ea58b7a951a0f0c1edd4cc0963114756d901c49b1d419d25c799a2315231
 
 outputs.16.coordinates=org.eclipse.jkube:jkube-kit-generator-webapp
 
-outputs.16.0.filename=jkube-kit-generator-webapp-1.1.0.jar
-outputs.16.0.length=20154
-outputs.16.0.checksums.sha512=662abd03553fab0f9cc502448284cc837a1fb44a870d964d6764071723d772a5a1d2b467c44dc977dbe843001b0736137cccbf2ca304bc8baec9946526fc2c84
+outputs.16.0.filename=jkube-kit-generator-webapp-1.1.0.pom
+outputs.16.0.length=1934
+outputs.16.0.checksums.sha512=77ab2122b1384bb68c07166006f589f7afa0ca3a0e5ba0ed73ba462da463956614b30dcc88cbe0eee6566bf7a9379410aaea692eaea36cf60fd95da7309b0a4f
 
-outputs.16.1.filename=jkube-kit-generator-webapp-1.1.0-sources.jar
-outputs.16.1.length=14268
-outputs.16.1.checksums.sha512=c9930b436386f540436b12e20cd457d226c2ea0641219d24cab100c810d4588314bd8f9477909046f09066cdb40d59750333809d6a5918bcc5b732664dbc72f3
+outputs.16.1.filename=jkube-kit-generator-webapp-1.1.0.jar
+outputs.16.1.length=20154
+outputs.16.1.checksums.sha512=662abd03553fab0f9cc502448284cc837a1fb44a870d964d6764071723d772a5a1d2b467c44dc977dbe843001b0736137cccbf2ca304bc8baec9946526fc2c84
+
+outputs.16.2.filename=jkube-kit-generator-webapp-1.1.0-sources.jar
+outputs.16.2.length=14268
+outputs.16.2.checksums.sha512=c9930b436386f540436b12e20cd457d226c2ea0641219d24cab100c810d4588314bd8f9477909046f09066cdb40d59750333809d6a5918bcc5b732664dbc72f3
 
 outputs.17.coordinates=org.eclipse.jkube:jkube-kit-enricher-api
 
-outputs.17.0.filename=jkube-kit-enricher-api-1.1.0.jar
-outputs.17.0.length=92735
-outputs.17.0.checksums.sha512=c70659e829f7a22c2fc5148c66a7061aa95819b787ce224ddc99de43d9ec7d17acca5b5789f35b68f4a573132fd2d0e61db5e33aec632d8cb48ee91f72e192e4
+outputs.17.0.filename=jkube-kit-enricher-api-1.1.0.pom
+outputs.17.0.length=1686
+outputs.17.0.checksums.sha512=c75b7a3e7ee52fd8e1ee445e4a7d628d9576646496c4a32d0f3bb06fbac5ade922737016ab30b415f1b810989c66a812166ff2383b0d20450830b6bf2aa0ca84
 
-outputs.17.1.filename=jkube-kit-enricher-api-1.1.0-sources.jar
-outputs.17.1.length=45826
-outputs.17.1.checksums.sha512=e747ac2eecedc20ea84fae7066fe5ab19a4dfa1c716e16fc996cfafe88dbb6a1827290a0267b895bf021883966353ecd2bf0c8c98824dee4e9fd785353e5836b
+outputs.17.1.filename=jkube-kit-enricher-api-1.1.0.jar
+outputs.17.1.length=92735
+outputs.17.1.checksums.sha512=c70659e829f7a22c2fc5148c66a7061aa95819b787ce224ddc99de43d9ec7d17acca5b5789f35b68f4a573132fd2d0e61db5e33aec632d8cb48ee91f72e192e4
+
+outputs.17.2.filename=jkube-kit-enricher-api-1.1.0-sources.jar
+outputs.17.2.length=45826
+outputs.17.2.checksums.sha512=e747ac2eecedc20ea84fae7066fe5ab19a4dfa1c716e16fc996cfafe88dbb6a1827290a0267b895bf021883966353ecd2bf0c8c98824dee4e9fd785353e5836b
 
 outputs.18.coordinates=org.eclipse.jkube:jkube-kit-enricher-generic
 
-outputs.18.0.filename=jkube-kit-enricher-generic-1.1.0.jar
-outputs.18.0.length=200363
-outputs.18.0.checksums.sha512=d6314d78361d006c9835d573c5c5c6109bd339edcd7064b6ba48bc5ded84e9c0554310c5965e15db45a61fc9ea9ee427c24a4309f8d040e8990b9176ec3994c7
+outputs.18.0.filename=jkube-kit-enricher-generic-1.1.0.pom
+outputs.18.0.length=2118
+outputs.18.0.checksums.sha512=0f52880917aecf7a629e65c0f40b1de2f5851618396614a66e0d2e598855d4e5f286a10c55585e3fa91a34bb5ef1c33bd84bc518d800ebe1d4ad2a11d76b55ac
 
-outputs.18.1.filename=jkube-kit-enricher-generic-1.1.0-sources.jar
-outputs.18.1.length=65658
-outputs.18.1.checksums.sha512=aeb38adc4e4455c56161187ec698f530d6966c35fb4f5cc23b28ec66d525327d74be7835c740b225789f93822952d90499c0b3f290ac1d54e81ab58735c77b58
+outputs.18.1.filename=jkube-kit-enricher-generic-1.1.0.jar
+outputs.18.1.length=200363
+outputs.18.1.checksums.sha512=d6314d78361d006c9835d573c5c5c6109bd339edcd7064b6ba48bc5ded84e9c0554310c5965e15db45a61fc9ea9ee427c24a4309f8d040e8990b9176ec3994c7
+
+outputs.18.2.filename=jkube-kit-enricher-generic-1.1.0-sources.jar
+outputs.18.2.length=65658
+outputs.18.2.checksums.sha512=aeb38adc4e4455c56161187ec698f530d6966c35fb4f5cc23b28ec66d525327d74be7835c740b225789f93822952d90499c0b3f290ac1d54e81ab58735c77b58
 
 outputs.19.coordinates=org.eclipse.jkube:jkube-kit-enricher-specific
 
-outputs.19.0.filename=jkube-kit-enricher-specific-1.1.0.jar
-outputs.19.0.length=30606
-outputs.19.0.checksums.sha512=e94b0f10b6e7a180903a018bcad67a2e070a4e9ad543a72b873cfd009e715ea45d7fd02ccaa9f7821886d10df290fd1af9dd9745a2cc7f70b85cf66146704dfd
+outputs.19.0.filename=jkube-kit-enricher-specific-1.1.0.pom
+outputs.19.0.length=1690
+outputs.19.0.checksums.sha512=20768d2a23f3f3ad3af5f824dbdace8822b87ff9c1f2f3bc1b166097eed09e4ea80ba458ad346da8221c99a35461e77f952936daeb6327959176f51e9cfdcebc
 
-outputs.19.1.filename=jkube-kit-enricher-specific-1.1.0-sources.jar
-outputs.19.1.length=14103
-outputs.19.1.checksums.sha512=f4c87156ccca7e60a7e6386fff549d67e2d2411bc05132e09f96c28e11fe3b38cde58d51851bbfccc06271a8b133d4e895477505d8d7f9b7527701ae3d60aed0
+outputs.19.1.filename=jkube-kit-enricher-specific-1.1.0.jar
+outputs.19.1.length=30606
+outputs.19.1.checksums.sha512=e94b0f10b6e7a180903a018bcad67a2e070a4e9ad543a72b873cfd009e715ea45d7fd02ccaa9f7821886d10df290fd1af9dd9745a2cc7f70b85cf66146704dfd
+
+outputs.19.2.filename=jkube-kit-enricher-specific-1.1.0-sources.jar
+outputs.19.2.length=14103
+outputs.19.2.checksums.sha512=f4c87156ccca7e60a7e6386fff549d67e2d2411bc05132e09f96c28e11fe3b38cde58d51851bbfccc06271a8b133d4e895477505d8d7f9b7527701ae3d60aed0
 
 outputs.20.coordinates=org.eclipse.jkube:jkube-kit-profiles
 
-outputs.20.0.filename=jkube-kit-profiles-1.1.0.jar
-outputs.20.0.length=9120
-outputs.20.0.checksums.sha512=f1828c4d3934b998025c55b30ea0bdcbf5faa7b44a4c97fdc3fbd3a2caf2768c53ae74f4c73af7965298ecdbb32dc8867b2343da205633c7e5b17366f5f2e9b3
+outputs.20.0.filename=jkube-kit-profiles-1.1.0.pom
+outputs.20.0.length=1283
+outputs.20.0.checksums.sha512=4a5e627989c50e8ef1c3f681230af9458c0239217efd10aa2e106a89439ff130bba91a50a72fa4e8ca671c90c79e38bb90338a995a007ee54968006a2d57bcf3
 
-outputs.20.1.filename=jkube-kit-profiles-1.1.0-sources.jar
-outputs.20.1.length=6718
-outputs.20.1.checksums.sha512=3ccb8e06c01a621a25ad931d0226862a443a8c430d7d841b30a501b5b79ca03560c67a7fa0741d0e7e659f59dd3b12deb9077944af3306f436c5c4fdc640c8c1
+outputs.20.1.filename=jkube-kit-profiles-1.1.0.jar
+outputs.20.1.length=9120
+outputs.20.1.checksums.sha512=f1828c4d3934b998025c55b30ea0bdcbf5faa7b44a4c97fdc3fbd3a2caf2768c53ae74f4c73af7965298ecdbb32dc8867b2343da205633c7e5b17366f5f2e9b3
+
+outputs.20.2.filename=jkube-kit-profiles-1.1.0-sources.jar
+outputs.20.2.length=6718
+outputs.20.2.checksums.sha512=3ccb8e06c01a621a25ad931d0226862a443a8c430d7d841b30a501b5b79ca03560c67a7fa0741d0e7e659f59dd3b12deb9077944af3306f436c5c4fdc640c8c1
 
 outputs.21.coordinates=org.eclipse.jkube:jkube-kit-resource-service
 
-outputs.21.0.filename=jkube-kit-resource-service-1.1.0.jar
-outputs.21.0.length=10300
-outputs.21.0.checksums.sha512=e2c0136997a1a3b67551eb1f4103c1b6265b4d0725f2a1502afb42d1a47cf716b1ab59030caf1355d0d2d97442b6f7331e578122ba4ac2bd80add16851f7abac
+outputs.21.0.filename=jkube-kit-resource-service-1.1.0.pom
+outputs.21.0.length=1569
+outputs.21.0.checksums.sha512=88dd3035421a08b424911339a7699b3d8aef2bced1fedd1b5bc39a26b692ddbaaf8cd9bb6cbc2bdb3710794a28f79f36aa646cfb431771c8cba42e865250fb24
 
-outputs.21.1.filename=jkube-kit-resource-service-1.1.0-sources.jar
-outputs.21.1.length=7166
-outputs.21.1.checksums.sha512=84fcbbab77a098623e585d34eceb200eb407d24d799cba05bb3f9943d5dfc72f3afd6c29504dca5b60cfd59d65eec6b712356a43497b05621c7d9191399089ab
+outputs.21.1.filename=jkube-kit-resource-service-1.1.0.jar
+outputs.21.1.length=10300
+outputs.21.1.checksums.sha512=e2c0136997a1a3b67551eb1f4103c1b6265b4d0725f2a1502afb42d1a47cf716b1ab59030caf1355d0d2d97442b6f7331e578122ba4ac2bd80add16851f7abac
+
+outputs.21.2.filename=jkube-kit-resource-service-1.1.0-sources.jar
+outputs.21.2.length=7166
+outputs.21.2.checksums.sha512=84fcbbab77a098623e585d34eceb200eb407d24d799cba05bb3f9943d5dfc72f3afd6c29504dca5b60cfd59d65eec6b712356a43497b05621c7d9191399089ab
 
 outputs.22.coordinates=org.eclipse.jkube:jkube-kit-resource-helm
 
-outputs.22.0.filename=jkube-kit-resource-helm-1.1.0.jar
-outputs.22.0.length=16015
-outputs.22.0.checksums.sha512=88ba97e99130ef5260e01b35b726301a5632318efd9dbd932c287f780c8c5d600d362abe382791f9c8ac9368135b00a9699571c6717e77c195b6a734bf87a19a
+outputs.22.0.filename=jkube-kit-resource-helm-1.1.0.pom
+outputs.22.0.length=1436
+outputs.22.0.checksums.sha512=78b5153e20834aebf053dfadaf4220ede04bb699562a51d97b8392ce57be67103cbe7733a1edb34bc082ada3ebaacd4beb54a6c8ae8864ea15776f96100119d1
 
-outputs.22.1.filename=jkube-kit-resource-helm-1.1.0-sources.jar
-outputs.22.1.length=10099
-outputs.22.1.checksums.sha512=97af8aeac9a8de7a69779d527daf43cd73e8f68eec120e1b47f5a79f799db0c47a67d76f176f3d446dc9fc48aa57143c241a8460986eb314c946f97f9f241e14
+outputs.22.1.filename=jkube-kit-resource-helm-1.1.0.jar
+outputs.22.1.length=16015
+outputs.22.1.checksums.sha512=88ba97e99130ef5260e01b35b726301a5632318efd9dbd932c287f780c8c5d600d362abe382791f9c8ac9368135b00a9699571c6717e77c195b6a734bf87a19a
+
+outputs.22.2.filename=jkube-kit-resource-helm-1.1.0-sources.jar
+outputs.22.2.length=10099
+outputs.22.2.checksums.sha512=97af8aeac9a8de7a69779d527daf43cd73e8f68eec120e1b47f5a79f799db0c47a67d76f176f3d446dc9fc48aa57143c241a8460986eb314c946f97f9f241e14
 
 outputs.23.coordinates=org.eclipse.jkube:jkube-kit-watcher-api
 
-outputs.23.0.filename=jkube-kit-watcher-api-1.1.0.jar
-outputs.23.0.length=7808
-outputs.23.0.checksums.sha512=fb184355d7654a252b9016239cc74f46c4c31bb7a359222e3a8ebefdcc0267866a45b6b92924ab607fcec2bd9a8b754df0cb3f75cbafe5abefca18935ece5742
+outputs.23.0.filename=jkube-kit-watcher-api-1.1.0.pom
+outputs.23.0.length=1358
+outputs.23.0.checksums.sha512=ccaedc05f1eafb16abd7d68b0718076f2c469e65fee2d1ceca75db5c42b9b7a96235c479459896db7d8b1e45ee1b5f4e127056e99307f7e66b48a1ccf961218d
 
-outputs.23.1.filename=jkube-kit-watcher-api-1.1.0-sources.jar
-outputs.23.1.length=5547
-outputs.23.1.checksums.sha512=86dadbe35eb27f230591b36666459d4c90c4aaea65ce927e177216a85756da49c2503b1f8864920a56f61142e2a1e3e437bc77e0ee12812c6b7862a6e6c5e6f9
+outputs.23.1.filename=jkube-kit-watcher-api-1.1.0.jar
+outputs.23.1.length=7808
+outputs.23.1.checksums.sha512=fb184355d7654a252b9016239cc74f46c4c31bb7a359222e3a8ebefdcc0267866a45b6b92924ab607fcec2bd9a8b754df0cb3f75cbafe5abefca18935ece5742
+
+outputs.23.2.filename=jkube-kit-watcher-api-1.1.0-sources.jar
+outputs.23.2.length=5547
+outputs.23.2.checksums.sha512=86dadbe35eb27f230591b36666459d4c90c4aaea65ce927e177216a85756da49c2503b1f8864920a56f61142e2a1e3e437bc77e0ee12812c6b7862a6e6c5e6f9
 
 outputs.24.coordinates=org.eclipse.jkube:jkube-kit-watcher-standard
 
-outputs.24.0.filename=jkube-kit-watcher-standard-1.1.0.jar
-outputs.24.0.length=14402
-outputs.24.0.checksums.sha512=7cfef7c6213bf76f7ac482392c8295aba4bbe7c38c24c0a91e94cdba29ad0c494fabaaedb1c4f68d1f70eb8fca20d1528405a79398f5cbcfc8457b5cc9d210f4
+outputs.24.0.filename=jkube-kit-watcher-standard-1.1.0.pom
+outputs.24.0.length=1572
+outputs.24.0.checksums.sha512=6362d4b9199ff1a762fd073fa419ab94d60c5cd7a13865c475ef0c06f1b69baf8b9381ca63af168ff0f65ff9f5f1b99ae4dfce396fb7a955f86a69968baaf603
 
-outputs.24.1.filename=jkube-kit-watcher-standard-1.1.0-sources.jar
-outputs.24.1.length=8501
-outputs.24.1.checksums.sha512=cc0fc6bf6f27c646d9555e734a8673441090b68be633930b281cf7a3d36ecfe8272cc776d7274e24438090a812de1336a60e1bef5ccbaa0fcc93e4a89ab5847f
+outputs.24.1.filename=jkube-kit-watcher-standard-1.1.0.jar
+outputs.24.1.length=14402
+outputs.24.1.checksums.sha512=7cfef7c6213bf76f7ac482392c8295aba4bbe7c38c24c0a91e94cdba29ad0c494fabaaedb1c4f68d1f70eb8fca20d1528405a79398f5cbcfc8457b5cc9d210f4
+
+outputs.24.2.filename=jkube-kit-watcher-standard-1.1.0-sources.jar
+outputs.24.2.length=8501
+outputs.24.2.checksums.sha512=cc0fc6bf6f27c646d9555e734a8673441090b68be633930b281cf7a3d36ecfe8272cc776d7274e24438090a812de1336a60e1bef5ccbaa0fcc93e4a89ab5847f
 
 outputs.25.coordinates=org.eclipse.jkube:jkube-kit-spring-boot
 
-outputs.25.0.filename=jkube-kit-spring-boot-1.1.0.jar
-outputs.25.0.length=26893
-outputs.25.0.checksums.sha512=3e7ddf0741309db51686836f08f57e35451f32043aadf6b941d4dbef002a9883792a08435109dcc2bd272c17e27f08eab21eef32db0571f25218c14e14b1bbf2
+outputs.25.0.filename=jkube-kit-spring-boot-1.1.0.pom
+outputs.25.0.length=1874
+outputs.25.0.checksums.sha512=f03eb5eac109f93dda201ffb837bb363c1307005cc9297a6702a7f52d0b2ebf0d0e3432c20bec507323b6975775dc3ccc949ec0ee50935498dbd984cfafe4de9
 
-outputs.25.1.filename=jkube-kit-spring-boot-1.1.0-sources.jar
-outputs.25.1.length=13138
-outputs.25.1.checksums.sha512=0fb773d7e917e52a9be7aeef12428db5439556001a6be55bedeb79daa627b4b6490ca4fbe001aecd60693457db4fc85984e3ba14f5bb899dbe653e1c691b6078
+outputs.25.1.filename=jkube-kit-spring-boot-1.1.0.jar
+outputs.25.1.length=26893
+outputs.25.1.checksums.sha512=3e7ddf0741309db51686836f08f57e35451f32043aadf6b941d4dbef002a9883792a08435109dcc2bd272c17e27f08eab21eef32db0571f25218c14e14b1bbf2
+
+outputs.25.2.filename=jkube-kit-spring-boot-1.1.0-sources.jar
+outputs.25.2.length=13138
+outputs.25.2.checksums.sha512=0fb773d7e917e52a9be7aeef12428db5439556001a6be55bedeb79daa627b4b6490ca4fbe001aecd60693457db4fc85984e3ba14f5bb899dbe653e1c691b6078
 
 outputs.26.coordinates=org.eclipse.jkube:jkube-kit-thorntail
 
-outputs.26.0.filename=jkube-kit-thorntail-1.1.0.jar
-outputs.26.0.length=7738
-outputs.26.0.checksums.sha512=3a236ca54993e1313148915501c00643a8e3086387e074861c9470f1b9c08b7fe8dcf3ecfd61fb81d314604d65e1335285948ebc05250929f19b40ffcc683c36
+outputs.26.0.filename=jkube-kit-thorntail-1.1.0.pom
+outputs.26.0.length=2004
+outputs.26.0.checksums.sha512=137bf1d7a25a607d2b930adf6def7a662d58053f9594f49d4eec02d9d72652a596f4007e7b632cf5209161ea010b244bd20320b20aad58592614ebe1e75c3a60
 
-outputs.26.1.filename=jkube-kit-thorntail-1.1.0-sources.jar
-outputs.26.1.length=5804
-outputs.26.1.checksums.sha512=a819d1f360946e302507944e50988a6679336883c31b33a937e3dbef372e4c22899ed49cab6573d03e6df9c299a293c4312c0e11ceb9bd95521a8bb6d407d63b
+outputs.26.1.filename=jkube-kit-thorntail-1.1.0.jar
+outputs.26.1.length=7738
+outputs.26.1.checksums.sha512=3a236ca54993e1313148915501c00643a8e3086387e074861c9470f1b9c08b7fe8dcf3ecfd61fb81d314604d65e1335285948ebc05250929f19b40ffcc683c36
+
+outputs.26.2.filename=jkube-kit-thorntail-1.1.0-sources.jar
+outputs.26.2.length=5804
+outputs.26.2.checksums.sha512=a819d1f360946e302507944e50988a6679336883c31b33a937e3dbef372e4c22899ed49cab6573d03e6df9c299a293c4312c0e11ceb9bd95521a8bb6d407d63b
 
 outputs.27.coordinates=org.eclipse.jkube:jkube-kit-vertx
 
-outputs.27.0.filename=jkube-kit-vertx-1.1.0.jar
-outputs.27.0.length=16528
-outputs.27.0.checksums.sha512=7bdfb6c65b4bcf87e52b16ee3bb743c6b980c0e4a146f2766e78538c5507a625c70b4652aadd14f775c2f08c4babdbb1fc4cf4735691d834d22ed170591348d9
+outputs.27.0.filename=jkube-kit-vertx-1.1.0.pom
+outputs.27.0.length=2148
+outputs.27.0.checksums.sha512=eadc3fa86358f2717cc8b6237bee700353746fe68f2a88f8393b697489bf7236ada508b730ef35cc51d7a24ad33a4f859d7774e83d2018d9193a4cf1185ec242
 
-outputs.27.1.filename=jkube-kit-vertx-1.1.0-sources.jar
-outputs.27.1.length=10570
-outputs.27.1.checksums.sha512=1df8bb9ec905251eb4f6138231674e388e1f04d4ef0b266752b3dae28a66dedcd5472f4858d0586cd254b2123d24f13bd38de9655dfdd0341ba9fb29caf18b1f
+outputs.27.1.filename=jkube-kit-vertx-1.1.0.jar
+outputs.27.1.length=16528
+outputs.27.1.checksums.sha512=7bdfb6c65b4bcf87e52b16ee3bb743c6b980c0e4a146f2766e78538c5507a625c70b4652aadd14f775c2f08c4babdbb1fc4cf4735691d834d22ed170591348d9
+
+outputs.27.2.filename=jkube-kit-vertx-1.1.0-sources.jar
+outputs.27.2.length=10570
+outputs.27.2.checksums.sha512=1df8bb9ec905251eb4f6138231674e388e1f04d4ef0b266752b3dae28a66dedcd5472f4858d0586cd254b2123d24f13bd38de9655dfdd0341ba9fb29caf18b1f
 
 outputs.28.coordinates=org.eclipse.jkube:jkube-kit-quarkus
 
-outputs.28.0.filename=jkube-kit-quarkus-1.1.0.jar
-outputs.28.0.length=11042
-outputs.28.0.checksums.sha512=364b655454e4a842eafeea1c4b5bf6f45fe5a59125ab9c349cd27296534a421b1dbd0274bac6fd40d58afafb3d585981dfac1277f9f7947f8f464c929edc711e
+outputs.28.0.filename=jkube-kit-quarkus-1.1.0.pom
+outputs.28.0.length=1988
+outputs.28.0.checksums.sha512=98e47da0851fb8aa557378ccc40bcdf4028735c06318891054cfac12544da49886567634d704db80b24e662d6667f905bf34d4f97ddf20afcf49e6a61a59f9fc
 
-outputs.28.1.filename=jkube-kit-quarkus-1.1.0-sources.jar
-outputs.28.1.length=6476
-outputs.28.1.checksums.sha512=48dde4bf8abd66ad92842c36a713f5e10efb8baff974ccb7cced396a907a668654242106d59a6a8d401960c51d6f3789b18f08ed16e3fbc635156fcb0658cda0
+outputs.28.1.filename=jkube-kit-quarkus-1.1.0.jar
+outputs.28.1.length=11042
+outputs.28.1.checksums.sha512=364b655454e4a842eafeea1c4b5bf6f45fe5a59125ab9c349cd27296534a421b1dbd0274bac6fd40d58afafb3d585981dfac1277f9f7947f8f464c929edc711e
+
+outputs.28.2.filename=jkube-kit-quarkus-1.1.0-sources.jar
+outputs.28.2.length=6476
+outputs.28.2.checksums.sha512=48dde4bf8abd66ad92842c36a713f5e10efb8baff974ccb7cced396a907a668654242106d59a6a8d401960c51d6f3789b18f08ed16e3fbc635156fcb0658cda0
 
 outputs.29.coordinates=org.eclipse.jkube:jkube-kit-micronaut
 
-outputs.29.0.filename=jkube-kit-micronaut-1.1.0.jar
-outputs.29.0.length=9722
-outputs.29.0.checksums.sha512=1109518087775b2ef07638474e41e9b7d67da15898da850935a851af80aa94928a2c1b8fff8e9b2eac05943c1c5f7e2cadd89767607e13a982ee06f8bfd8bc3b
+outputs.29.0.filename=jkube-kit-micronaut-1.1.0.pom
+outputs.29.0.length=1853
+outputs.29.0.checksums.sha512=29156474c395f428b54df00633373e17a9a616e8aa0ab47242f79f68bf3b4081295dece6d531d860372be0bd0affe664c4af0c339fe7430c0f33263d8e00e8c2
 
-outputs.29.1.filename=jkube-kit-micronaut-1.1.0-sources.jar
-outputs.29.1.length=6389
-outputs.29.1.checksums.sha512=1997eaef31feb442a515c198ab3442147210cd5273da28deb2cf846fa056c92a4697de4b0e5d6b6d9eae94e6a5400535aa7a6b3ab0c6470928da37fd7396b0a8
+outputs.29.1.filename=jkube-kit-micronaut-1.1.0.jar
+outputs.29.1.length=9722
+outputs.29.1.checksums.sha512=1109518087775b2ef07638474e41e9b7d67da15898da850935a851af80aa94928a2c1b8fff8e9b2eac05943c1c5f7e2cadd89767607e13a982ee06f8bfd8bc3b
+
+outputs.29.2.filename=jkube-kit-micronaut-1.1.0-sources.jar
+outputs.29.2.length=6389
+outputs.29.2.checksums.sha512=1997eaef31feb442a515c198ab3442147210cd5273da28deb2cf846fa056c92a4697de4b0e5d6b6d9eae94e6a5400535aa7a6b3ab0c6470928da37fd7396b0a8
 
 outputs.30.coordinates=org.eclipse.jkube:jkube-kit-openliberty
 
-outputs.30.0.filename=jkube-kit-openliberty-1.1.0.jar
-outputs.30.0.length=4768
-outputs.30.0.checksums.sha512=857cba98cbd110e87197bb0f0014998b0ac6d8c39fc43b2df6e59b8178efe2f489f2b69befdc40d5cde181b21ab15fa18833cabd1111d3e4d33ad048f785a152
+outputs.30.0.filename=jkube-kit-openliberty-1.1.0.pom
+outputs.30.0.length=1982
+outputs.30.0.checksums.sha512=7a85f095c11ec1ba294fc887dd8df0646816067ce9e6fa5b1330bedbbc740cf308727e2eb11697168fdd9a2677de0e5e49d2d119dfaed58a1f3b57cf25cabb67
 
-outputs.30.1.filename=jkube-kit-openliberty-1.1.0-sources.jar
-outputs.30.1.length=4158
-outputs.30.1.checksums.sha512=e257f7f9bf15bfa1eebec73f2ece8bfa9c2f3b7253516c46b0e6bbbbe056ae4db297e888e0413c2ee0a00ae7eade16c0346f35e1a46c653082340afccf8f2c62
+outputs.30.1.filename=jkube-kit-openliberty-1.1.0.jar
+outputs.30.1.length=4768
+outputs.30.1.checksums.sha512=857cba98cbd110e87197bb0f0014998b0ac6d8c39fc43b2df6e59b8178efe2f489f2b69befdc40d5cde181b21ab15fa18833cabd1111d3e4d33ad048f785a152
+
+outputs.30.2.filename=jkube-kit-openliberty-1.1.0-sources.jar
+outputs.30.2.length=4158
+outputs.30.2.checksums.sha512=e257f7f9bf15bfa1eebec73f2ece8bfa9c2f3b7253516c46b0e6bbbbe056ae4db297e888e0413c2ee0a00ae7eade16c0346f35e1a46c653082340afccf8f2c62
 
 outputs.31.coordinates=org.eclipse.jkube:jkube-kit-wildfly-jar
 
-outputs.31.0.filename=jkube-kit-wildfly-jar-1.1.0.jar
-outputs.31.0.length=12018
-outputs.31.0.checksums.sha512=652d5a3823ccfa109f96e9b0b35f7f60ce9859b488746ebd535dc3dc8328b55eabd9fccd0c5e60b05892b467d3a65a6477abc6d991da45dcb92df37f079a8a23
+outputs.31.0.filename=jkube-kit-wildfly-jar-1.1.0.pom
+outputs.31.0.length=1722
+outputs.31.0.checksums.sha512=86b51f5c2bf68f684944d623797f7b5cf4124507c4054c5d5664fe9b0189714ab1a61b0e5760928ccec796427c83ec50d21b3ed11f9b35942c1de5c27ea451d4
 
-outputs.31.1.filename=jkube-kit-wildfly-jar-1.1.0-sources.jar
-outputs.31.1.length=7225
-outputs.31.1.checksums.sha512=098d7da355d6c0ed1f943ab2f158008577bbb1074e31cee4da4fd29dbd06b8eabda61c8a4e1eddb64ef59cce527723cfd1b6561fa045ff1af32d4bb21814ee32
+outputs.31.1.filename=jkube-kit-wildfly-jar-1.1.0.jar
+outputs.31.1.length=12018
+outputs.31.1.checksums.sha512=652d5a3823ccfa109f96e9b0b35f7f60ce9859b488746ebd535dc3dc8328b55eabd9fccd0c5e60b05892b467d3a65a6477abc6d991da45dcb92df37f079a8a23
+
+outputs.31.2.filename=jkube-kit-wildfly-jar-1.1.0-sources.jar
+outputs.31.2.length=7225
+outputs.31.2.checksums.sha512=098d7da355d6c0ed1f943ab2f158008577bbb1074e31cee4da4fd29dbd06b8eabda61c8a4e1eddb64ef59cce527723cfd1b6561fa045ff1af32d4bb21814ee32
 
 outputs.32.coordinates=org.eclipse.jkube:jkube-kit-build
 
+outputs.32.0.filename=jkube-kit-build-1.1.0.pom
+outputs.32.0.length=2183
+outputs.32.0.checksums.sha512=7d03d011c4d2f522c4f5c3a278c666da707c1c821f5c0e410a77cb20b2f7e4f5eeba428bcf1ca7d2a88e5b7ee9113a699fb58945afe240d9d92f49642ab7ed3c
+
 outputs.33.coordinates=org.eclipse.jkube:kubernetes-maven-plugin-parent
+
+outputs.33.0.filename=kubernetes-maven-plugin-parent-1.1.0.pom
+outputs.33.0.length=5433
+outputs.33.0.checksums.sha512=d7591995c08f019347c47a7bda59c641f2c66835325bae7443539aae1f08f6b250ba3ef6014ace9507d0e9ce7d2eacf9f8875ec0e0c01cbf451961262e3a2497
 
 outputs.34.coordinates=org.eclipse.jkube:kubernetes-maven-plugin
 
-outputs.34.0.filename=kubernetes-maven-plugin-1.1.0.jar
-outputs.34.0.length=95225
-outputs.34.0.checksums.sha512=648a81087153379414a63feb1e85d8ceb9cc79841a5b58d7c8ca10a0a9c575eddc170caf9dd8d9b60c7447a2265589b86e20140d9171fcc3702197b50e9874e1
+outputs.34.0.filename=kubernetes-maven-plugin-1.1.0.pom
+outputs.34.0.length=8883
+outputs.34.0.checksums.sha512=c2262445604a00327c82c37241b41771d7321db2f9d183781345f7035cef4e4b30ef709e54f09864b1440a6f106bb5c77f9c135edca5a0091008e811c8ed6a10
 
-outputs.34.1.filename=kubernetes-maven-plugin-1.1.0-sources.jar
-outputs.34.1.length=48757
-outputs.34.1.checksums.sha512=0c28304aa1e5209513e0e5df3957a8a2eafb1c163306158e3ff27df4f0549790bbfadeab0ee38089de0f83ac961f8720ab154bbd5d3a8b04840ad226c4ca6896
+outputs.34.1.filename=kubernetes-maven-plugin-1.1.0.jar
+outputs.34.1.length=95225
+outputs.34.1.checksums.sha512=648a81087153379414a63feb1e85d8ceb9cc79841a5b58d7c8ca10a0a9c575eddc170caf9dd8d9b60c7447a2265589b86e20140d9171fcc3702197b50e9874e1
+
+outputs.34.2.filename=kubernetes-maven-plugin-1.1.0-sources.jar
+outputs.34.2.length=48757
+outputs.34.2.checksums.sha512=0c28304aa1e5209513e0e5df3957a8a2eafb1c163306158e3ff27df4f0549790bbfadeab0ee38089de0f83ac961f8720ab154bbd5d3a8b04840ad226c4ca6896
 
 outputs.35.coordinates=org.eclipse.jkube:kubernetes-maven-plugin-it
 
-outputs.35.0.filename=kubernetes-maven-plugin-it-1.1.0.jar
-outputs.35.0.length=2540
-outputs.35.0.checksums.sha512=4803e4e02bad738143b430a27942f9ac97d307884bf267195a33697ab337cad12b9e15eaea7f1c42db18b5027069c7c3f5e7c5959e35f378e59a46bd37b6b9b4
+outputs.35.0.filename=kubernetes-maven-plugin-it-1.1.0.pom
+outputs.35.0.length=4363
+outputs.35.0.checksums.sha512=145fa7af2382d3fe2b7b1511d1d5532a4e4bb4d02afdc003ab13086b15347bb3d601f0e9cb0c7ae610d6f0f7d21e961113f19aa2f396afe1556b7439dd5e7d4a
+
+outputs.35.1.filename=kubernetes-maven-plugin-it-1.1.0.jar
+outputs.35.1.length=2540
+outputs.35.1.checksums.sha512=4803e4e02bad738143b430a27942f9ac97d307884bf267195a33697ab337cad12b9e15eaea7f1c42db18b5027069c7c3f5e7c5959e35f378e59a46bd37b6b9b4
 
 outputs.36.coordinates=org.eclipse.jkube:kubernetes-maven-plugin-doc
 
-outputs.36.0.filename=kubernetes-maven-plugin-doc-1.1.0.jar
-outputs.36.0.length=107190
-outputs.36.0.checksums.sha512=c4bcca368d3f72444b284c61ca5b662ac347fe13a008155cde6ca7a3b273c03a114694bce4d543feb183f74ec0af41511ecf7f514714f2c15d4933748e1069c4
+outputs.36.0.filename=kubernetes-maven-plugin-doc-1.1.0.pom
+outputs.36.0.length=5293
+outputs.36.0.checksums.sha512=f677354401baa94657e80ed9bc484e9bfa2722483bfa052bfb61b08c393dad076812468b35fd0b4c4d61883c3ab0e52d479dd245090bdb076333cfb79670e53f
 
-outputs.36.1.filename=kubernetes-maven-plugin-doc-1.1.0-sources.jar
-outputs.36.1.length=5685
-outputs.36.1.checksums.sha512=765462edeab2e6161f0a7f5d95c47709de284579bbb34e24cc2557e49b6d00c3e3b04e9d1c2bc1c8935299ae4ce3e398dbdc9b4274c75df867a1e116c920fb69
+outputs.36.1.filename=kubernetes-maven-plugin-doc-1.1.0.jar
+outputs.36.1.length=107190
+outputs.36.1.checksums.sha512=c4bcca368d3f72444b284c61ca5b662ac347fe13a008155cde6ca7a3b273c03a114694bce4d543feb183f74ec0af41511ecf7f514714f2c15d4933748e1069c4
+
+outputs.36.2.filename=kubernetes-maven-plugin-doc-1.1.0-sources.jar
+outputs.36.2.length=5685
+outputs.36.2.checksums.sha512=765462edeab2e6161f0a7f5d95c47709de284579bbb34e24cc2557e49b6d00c3e3b04e9d1c2bc1c8935299ae4ce3e398dbdc9b4274c75df867a1e116c920fb69
 
 outputs.37.coordinates=org.eclipse.jkube:openshift-maven-plugin-parent
 
+outputs.37.0.filename=openshift-maven-plugin-parent-1.1.0.pom
+outputs.37.0.length=5239
+outputs.37.0.checksums.sha512=173430ec37860993e944bb41924923ade1edb7caa58c75fe05ca8049c7a217f87b38c7d9893d83f06863edc0785be2152022648421e6a1d6b3f0d35f3a34ccd7
+
 outputs.38.coordinates=org.eclipse.jkube:openshift-maven-plugin
 
-outputs.38.0.filename=openshift-maven-plugin-1.1.0.jar
-outputs.38.0.length=50606
-outputs.38.0.checksums.sha512=d44b6b1e176a352e0e673bf4f47f1ef27d106077838b32e3ff04946d2928ea1da9c329b5e7e58a3de5b4edc840b9c6ca88b3082316b5474b0179ea48d217e187
+outputs.38.0.filename=openshift-maven-plugin-1.1.0.pom
+outputs.38.0.length=5261
+outputs.38.0.checksums.sha512=bfe81d661e422ccae0f8007b3ce2e6c1431d3a2a4b1bca526a9851bed282b8d55f27ecdf3180f9291bbc50ded53ac010319a3edf58be14081a71c199af5f3925
 
-outputs.38.1.filename=openshift-maven-plugin-1.1.0-sources.jar
-outputs.38.1.length=23378
-outputs.38.1.checksums.sha512=0f9b20629d26741887462d5a1e03eb502c5fc7c6d8f7585e750e9baf5269cb999270e7494e51b2990993dfba94fa69e3678274c10140a027fea121f202bee6ee
+outputs.38.1.filename=openshift-maven-plugin-1.1.0.jar
+outputs.38.1.length=50606
+outputs.38.1.checksums.sha512=d44b6b1e176a352e0e673bf4f47f1ef27d106077838b32e3ff04946d2928ea1da9c329b5e7e58a3de5b4edc840b9c6ca88b3082316b5474b0179ea48d217e187
+
+outputs.38.2.filename=openshift-maven-plugin-1.1.0-sources.jar
+outputs.38.2.length=23378
+outputs.38.2.checksums.sha512=0f9b20629d26741887462d5a1e03eb502c5fc7c6d8f7585e750e9baf5269cb999270e7494e51b2990993dfba94fa69e3678274c10140a027fea121f202bee6ee
 
 outputs.39.coordinates=org.eclipse.jkube:openshift-maven-plugin-it
 
-outputs.39.0.filename=openshift-maven-plugin-it-1.1.0.jar
-outputs.39.0.length=2510
-outputs.39.0.checksums.sha512=18ffa29e8d6adaebf1cced7e86a97366518db3262ccf28c96738710ce32d13cc2425564d6c5fc9c3b5cd69956fd058dabd94b81a9d557ca9368279f12b173b31
+outputs.39.0.filename=openshift-maven-plugin-it-1.1.0.pom
+outputs.39.0.length=4291
+outputs.39.0.checksums.sha512=765984f04880387b84867eb21f7972b5f08f576da033941ac03e0ba4bdf876f8fccecb7d78911a4199fa23ac398e7cf774f4a98d7b1e6b7904a63d8acc624666
+
+outputs.39.1.filename=openshift-maven-plugin-it-1.1.0.jar
+outputs.39.1.length=2510
+outputs.39.1.checksums.sha512=18ffa29e8d6adaebf1cced7e86a97366518db3262ccf28c96738710ce32d13cc2425564d6c5fc9c3b5cd69956fd058dabd94b81a9d557ca9368279f12b173b31

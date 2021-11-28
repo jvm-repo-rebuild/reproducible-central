@@ -24,36 +24,52 @@ mvn.aggregate.artifact-id=org.eclipse.transformer.maven
 
 outputs.0.coordinates=org.eclipse.transformer:org.eclipse.transformer.parent
 
+outputs.0.0.filename=org.eclipse.transformer.parent-0.2.0.pom
+outputs.0.0.length=17623
+outputs.0.0.checksums.sha512=c51da08910d3fd29bbb0feb35c251690512d2a62676d2b7926494441d3cbd2476bc1399d6817fbed043eef976e1a89a7739f15a5a40f725620e9743a8460a7f6
+
 outputs.1.coordinates=org.eclipse.transformer:org.eclipse.transformer
 
-outputs.1.0.filename=org.eclipse.transformer-0.2.0.jar
-outputs.1.0.length=145832
-outputs.1.0.checksums.sha512=cd72c21a57b6368a1892d018be951d1be105029e7c8ad8ed45a8e33e4aef8dc6f3ecacb1bb6b2c1c2962067b594fa6ecfb9f81de51c3538a6cd530a5d1406d02
+outputs.1.0.filename=org.eclipse.transformer-0.2.0.pom
+outputs.1.0.length=3523
+outputs.1.0.checksums.sha512=36fb388ea3f61cdda69737fbf48e5f7f1ca77687f6c5ca4c760699599ecd80d27e90fc08241b62fe8302d3570a3b15877fde56cec883bfa8360ba6221c56932c
 
-outputs.1.1.filename=org.eclipse.transformer-0.2.0-sources.jar
-outputs.1.1.length=94014
-outputs.1.1.checksums.sha512=b68d2e645d5407c01cc9fd3b543789203f81ff0649e7f3d313b1f50c7f85dfe6a3d4f647ef2c74e28fa21b53f70d6b07ec50e8544d1e584f815937a1c966df52
+outputs.1.1.filename=org.eclipse.transformer-0.2.0.jar
+outputs.1.1.length=145832
+outputs.1.1.checksums.sha512=cd72c21a57b6368a1892d018be951d1be105029e7c8ad8ed45a8e33e4aef8dc6f3ecacb1bb6b2c1c2962067b594fa6ecfb9f81de51c3538a6cd530a5d1406d02
+
+outputs.1.2.filename=org.eclipse.transformer-0.2.0-sources.jar
+outputs.1.2.length=94014
+outputs.1.2.checksums.sha512=b68d2e645d5407c01cc9fd3b543789203f81ff0649e7f3d313b1f50c7f85dfe6a3d4f647ef2c74e28fa21b53f70d6b07ec50e8544d1e584f815937a1c966df52
 
 outputs.2.coordinates=org.eclipse.transformer:org.eclipse.transformer.cli
 
-outputs.2.0.filename=org.eclipse.transformer.cli-0.2.0.jar
-outputs.2.0.length=12584
-outputs.2.0.checksums.sha512=52e656057604bf9e583db63252a3d00cb5c2082e8edaed5f2ac9c33c1990ad3110fbd6a92fdb1d50175c8cb1a95a81560fabc3e0cec568ab44f4a3e89ba09783
+outputs.2.0.filename=org.eclipse.transformer.cli-0.2.0.pom
+outputs.2.0.length=3193
+outputs.2.0.checksums.sha512=8b68235d9e7c4797bba7edd9dcaa5df5e2271f9440f644de73332716b1d812bb4f603b9b0b368aaf8e7854c1f398a325e9b7bbaaf8e77328b3a508eccec1813c
 
-outputs.2.1.filename=org.eclipse.transformer.cli-0.2.0-distribution.jar
-outputs.2.1.length=540503
-outputs.2.1.checksums.sha512=ee59eb92939bd4a237e5b079c6b74788de563658f9c55821dcfb6c7f9f17c4601bf8ea3e4cfd719a871e92a902ec9f347b0a0ef9e36906ae4ed786fc7627899c
+outputs.2.1.filename=org.eclipse.transformer.cli-0.2.0.jar
+outputs.2.1.length=12584
+outputs.2.1.checksums.sha512=52e656057604bf9e583db63252a3d00cb5c2082e8edaed5f2ac9c33c1990ad3110fbd6a92fdb1d50175c8cb1a95a81560fabc3e0cec568ab44f4a3e89ba09783
 
-outputs.2.2.filename=org.eclipse.transformer.cli-0.2.0-sources.jar
-outputs.2.2.length=12082
-outputs.2.2.checksums.sha512=10f3d49f3090f91a14fc7889bf52a06ba9f1a94eaf1ed27b78f63074124c7916fadf5ae84a74e45b259c53ad7412aa693e3c952ab71740d3d1a1b728266e014b
+outputs.2.2.filename=org.eclipse.transformer.cli-0.2.0-distribution.jar
+outputs.2.2.length=540503
+outputs.2.2.checksums.sha512=ee59eb92939bd4a237e5b079c6b74788de563658f9c55821dcfb6c7f9f17c4601bf8ea3e4cfd719a871e92a902ec9f347b0a0ef9e36906ae4ed786fc7627899c
+
+outputs.2.3.filename=org.eclipse.transformer.cli-0.2.0-sources.jar
+outputs.2.3.length=12082
+outputs.2.3.checksums.sha512=10f3d49f3090f91a14fc7889bf52a06ba9f1a94eaf1ed27b78f63074124c7916fadf5ae84a74e45b259c53ad7412aa693e3c952ab71740d3d1a1b728266e014b
 
 outputs.3.coordinates=org.eclipse.transformer:org.eclipse.transformer.maven
 
-outputs.3.0.filename=org.eclipse.transformer.maven-0.2.0.jar
-outputs.3.0.length=8909
-outputs.3.0.checksums.sha512=3caca42387030e696374cb705ba70523cc8a812b2f39d1c099f89ed1d463f2477d1a7516039a0b103d2d2cf6872c046d4036ebf5ecd01d61ad7d5518c41e2c36
+outputs.3.0.filename=org.eclipse.transformer.maven-0.2.0.pom
+outputs.3.0.length=4809
+outputs.3.0.checksums.sha512=90d1b717dc7a44e64e24c51439efd957c28227b4eba467f9c3c9305700672b53aecdcca48a7842db9b24da47ac11372f5bbd550002630bf0ae2620b2ad1e0f92
 
-outputs.3.1.filename=org.eclipse.transformer.maven-0.2.0-sources.jar
-outputs.3.1.length=5193
-outputs.3.1.checksums.sha512=983277340c7da744539a8498abe15779b665962ad67ebc0b3aa35904847138a51e569f8756efda28e59f5a53ec43f335c0ad24fcad3fce0ded94714fa1d7b554
+outputs.3.1.filename=org.eclipse.transformer.maven-0.2.0.jar
+outputs.3.1.length=8909
+outputs.3.1.checksums.sha512=3caca42387030e696374cb705ba70523cc8a812b2f39d1c099f89ed1d463f2477d1a7516039a0b103d2d2cf6872c046d4036ebf5ecd01d61ad7d5518c41e2c36
+
+outputs.3.2.filename=org.eclipse.transformer.maven-0.2.0-sources.jar
+outputs.3.2.length=5193
+outputs.3.2.checksums.sha512=983277340c7da744539a8498abe15779b665962ad67ebc0b3aa35904847138a51e569f8756efda28e59f5a53ec43f335c0ad24fcad3fce0ded94714fa1d7b554

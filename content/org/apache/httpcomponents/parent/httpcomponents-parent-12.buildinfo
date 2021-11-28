@@ -13,17 +13,19 @@ source.scm.tag=httpcomponents-parent-12
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_275
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=3.0.5
 
 # output
 
-outputs.0.filename=httpcomponents-parent-12-source-release.zip
-outputs.0.length=25928
-outputs.0.checksums.sha512=ba0cc569643439387b1a4912e7199ecaefbf836239bb389d8f0f13d93a078728100e570271eb87b17f1de2d79f295883ff2ad91953578b89b2ea45f158f2d5b1
+outputs.0.filename=httpcomponents-parent-12.pom
+outputs.0.length=31896
+outputs.0.checksums.sha512=e3c16c173e378d6d95df6ecc3ccf3bb9ae4a223a5106364c986435d78263529bde99c2d605fb76ffe59d7907a78b54fca4f309e97781023f22664ca518a247bf
+
+outputs.1.filename=httpcomponents-parent-12-source-release.zip
+outputs.1.length=25928
+outputs.1.checksums.sha512=ba0cc569643439387b1a4912e7199ecaefbf836239bb389d8f0f13d93a078728100e570271eb87b17f1de2d79f295883ff2ad91953578b89b2ea45f158f2d5b1

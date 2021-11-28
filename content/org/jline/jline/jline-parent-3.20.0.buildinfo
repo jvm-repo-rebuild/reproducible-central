@@ -25,132 +25,188 @@ mvn.aggregate.artifact-id=jline
 
 outputs.0.coordinates=org.jline:jline-parent
 
+outputs.0.0.filename=jline-parent-3.20.0.pom
+outputs.0.0.length=23806
+outputs.0.0.checksums.sha512=29d9f06cc5ec949dbb9e73cee44426299385cda7820d0b78f39f5b1f84cbf0a7f66a70a3d90c5fe39b0aea2ab070f45d2ce69b29625f660e8bedde4d3f17406f
+
 outputs.1.coordinates=org.jline:jline-terminal
 
-outputs.1.0.filename=jline-terminal-3.20.0.jar
-outputs.1.0.length=228481
-outputs.1.0.checksums.sha512=f6a00a23edffc607987be04b1f32a2a6aa6c232f15c1a43048b5cf7b8abf9319d51f4089da7d354ae5389575c0b71bc3e5638d1b4797114aa7824aeb897756a0
+outputs.1.0.filename=jline-terminal-3.20.0.pom
+outputs.1.0.length=1254
+outputs.1.0.checksums.sha512=d26cdb003cf512dca9e57a4ce07db433418fb867d1b1a7de29b46d1f78954c23be9d5c5a520aeb95c799a61484feee55f8b7c083e2854e0f07e5c0552f752d39
 
-outputs.1.1.filename=jline-terminal-3.20.0-sources.jar
-outputs.1.1.length=139810
-outputs.1.1.checksums.sha512=2b007db6d30facd41053310db64986ff4c354ab355e2e121d452c200cc3a2fcb547eadb92c05fabbb35b32e92014d7cde492da03d73663ba42b5714155734e79
+outputs.1.1.filename=jline-terminal-3.20.0.jar
+outputs.1.1.length=228481
+outputs.1.1.checksums.sha512=f6a00a23edffc607987be04b1f32a2a6aa6c232f15c1a43048b5cf7b8abf9319d51f4089da7d354ae5389575c0b71bc3e5638d1b4797114aa7824aeb897756a0
+
+outputs.1.2.filename=jline-terminal-3.20.0-sources.jar
+outputs.1.2.length=139810
+outputs.1.2.checksums.sha512=2b007db6d30facd41053310db64986ff4c354ab355e2e121d452c200cc3a2fcb547eadb92c05fabbb35b32e92014d7cde492da03d73663ba42b5714155734e79
 
 outputs.2.coordinates=org.jline:jline-terminal-jna
 
-outputs.2.0.filename=jline-terminal-jna-3.20.0.jar
-outputs.2.0.length=63094
-outputs.2.0.checksums.sha512=d78647f2d33d1e029a25d498788a712e992f1fd31e0b5b45ea6e78aed9165883b5d6d9a7bf291c7b88a2c052e83130bf1b95dad5bbcd4ae34fe79b6cad007c38
+outputs.2.0.filename=jline-terminal-jna-3.20.0.pom
+outputs.2.0.length=1874
+outputs.2.0.checksums.sha512=6f5fcace2b5a756ca201a33a051e2d76c35223eaad48e8f89bd9188974a502154a37f2f56a37a8b7117b6f07b824447c9956a0f9291c4573ceae74df00a56f41
 
-outputs.2.1.filename=jline-terminal-jna-3.20.0-sources.jar
-outputs.2.1.length=32653
-outputs.2.1.checksums.sha512=119f7c997b207e7bc73e5960478d2552ec0c3f9836f5e6fcf7438c51505d6aa805645d68e96b86ac8a31d4c89401c1e9f60b3f317bcab5deff707083858d1b36
+outputs.2.1.filename=jline-terminal-jna-3.20.0.jar
+outputs.2.1.length=63094
+outputs.2.1.checksums.sha512=d78647f2d33d1e029a25d498788a712e992f1fd31e0b5b45ea6e78aed9165883b5d6d9a7bf291c7b88a2c052e83130bf1b95dad5bbcd4ae34fe79b6cad007c38
+
+outputs.2.2.filename=jline-terminal-jna-3.20.0-sources.jar
+outputs.2.2.length=32653
+outputs.2.2.checksums.sha512=119f7c997b207e7bc73e5960478d2552ec0c3f9836f5e6fcf7438c51505d6aa805645d68e96b86ac8a31d4c89401c1e9f60b3f317bcab5deff707083858d1b36
 
 outputs.3.coordinates=org.jline:jline-terminal-jansi
 
-outputs.3.0.filename=jline-terminal-jansi-3.20.0.jar
-outputs.3.0.length=39476
-outputs.3.0.checksums.sha512=6b20bd6cb785df9de0ea3cb46290d6a19bb1a3564d4aedeef764fcd937074a46e5ba7f00bbe0dc0f2235e6fb75c168a70dede12f9c18a0df9f5dd236d9a0851f
+outputs.3.0.filename=jline-terminal-jansi-3.20.0.pom
+outputs.3.0.length=2114
+outputs.3.0.checksums.sha512=2fefadd6123024f4b22279fb427163ea79d13be17bc9dbc61c29b480a9a9e73274e5ef02f52f927377e2e8a0f84ce9ad52e5e5a47d219ac5d56203f61dcb6623
 
-outputs.3.1.filename=jline-terminal-jansi-3.20.0-sources.jar
-outputs.3.1.length=26479
-outputs.3.1.checksums.sha512=5ca6cef156203f8be71504612ae0a12a53fe316047f9c79308d423c22a6f128d205fd9ddbc3769246b8f2f58226f0e74724b391d84dd8c9f3b19fc3274f8d659
+outputs.3.1.filename=jline-terminal-jansi-3.20.0.jar
+outputs.3.1.length=39476
+outputs.3.1.checksums.sha512=6b20bd6cb785df9de0ea3cb46290d6a19bb1a3564d4aedeef764fcd937074a46e5ba7f00bbe0dc0f2235e6fb75c168a70dede12f9c18a0df9f5dd236d9a0851f
+
+outputs.3.2.filename=jline-terminal-jansi-3.20.0-sources.jar
+outputs.3.2.length=26479
+outputs.3.2.checksums.sha512=5ca6cef156203f8be71504612ae0a12a53fe316047f9c79308d423c22a6f128d205fd9ddbc3769246b8f2f58226f0e74724b391d84dd8c9f3b19fc3274f8d659
 
 outputs.4.coordinates=org.jline:jline-reader
 
-outputs.4.0.filename=jline-reader-3.20.0.jar
-outputs.4.0.length=171052
-outputs.4.0.checksums.sha512=414b960ef31e1761f42664f21d4e072832e3b283ac076973bc1e5cda4247e575cdd786c4ba521efacaea9b38c16c587439f373107c99b9f0461f91bad294c0df
+outputs.4.0.filename=jline-reader-3.20.0.pom
+outputs.4.0.length=1219
+outputs.4.0.checksums.sha512=3dcd0f2f9d94ba14ff6bc33f336899fe1dca7db729ddbb5c541ae3fc7e9ac3952c9966c55436c37c7831a3c35de9e5d728c473a6e5abcb2b22757a7f6aca4e41
 
-outputs.4.1.filename=jline-reader-3.20.0-sources.jar
-outputs.4.1.length=103948
-outputs.4.1.checksums.sha512=6de595ca9970f5ef666f4da8c116af92883c604fc3843c2a57e9f496dfadb82c54b76f08ef2c2959d757b009e6772cb7c7a87cf914b076d71a6a9b60b89ef57f
+outputs.4.1.filename=jline-reader-3.20.0.jar
+outputs.4.1.length=171052
+outputs.4.1.checksums.sha512=414b960ef31e1761f42664f21d4e072832e3b283ac076973bc1e5cda4247e575cdd786c4ba521efacaea9b38c16c587439f373107c99b9f0461f91bad294c0df
+
+outputs.4.2.filename=jline-reader-3.20.0-sources.jar
+outputs.4.2.length=103948
+outputs.4.2.checksums.sha512=6de595ca9970f5ef666f4da8c116af92883c604fc3843c2a57e9f496dfadb82c54b76f08ef2c2959d757b009e6772cb7c7a87cf914b076d71a6a9b60b89ef57f
 
 outputs.5.coordinates=org.jline:jline-style
 
-outputs.5.0.filename=jline-style-3.20.0.jar
-outputs.5.0.length=27684
-outputs.5.0.checksums.sha512=4cc49437c4f72d5f65bf072c2b5d5d36e90c7a17e53d133583a63a07cc7158c8e6e14d16551cfd04960e4a17da732a923877e2d471e15faaf62844055af40841
+outputs.5.0.filename=jline-style-3.20.0.pom
+outputs.5.0.length=1398
+outputs.5.0.checksums.sha512=c1b176ab8fb46a5136d5bf9a30659bb2b95c0e3def8de2ce347202ebab9cb77f6acb6c57e94f31aec27dcaef0fbf687115e448355855887a9a27643da64fc586
 
-outputs.5.1.filename=jline-style-3.20.0-sources.jar
-outputs.5.1.length=15545
-outputs.5.1.checksums.sha512=33469e7f67feb1266db90fffdf4957b3898d7a986fa1e86653b7e1bb6503a5bebefaea3c19e9e5fc0a031ee7a8adbfc4c39699126bba133a382da7e526cffcda
+outputs.5.1.filename=jline-style-3.20.0.jar
+outputs.5.1.length=27684
+outputs.5.1.checksums.sha512=4cc49437c4f72d5f65bf072c2b5d5d36e90c7a17e53d133583a63a07cc7158c8e6e14d16551cfd04960e4a17da732a923877e2d471e15faaf62844055af40841
+
+outputs.5.2.filename=jline-style-3.20.0-sources.jar
+outputs.5.2.length=15545
+outputs.5.2.checksums.sha512=33469e7f67feb1266db90fffdf4957b3898d7a986fa1e86653b7e1bb6503a5bebefaea3c19e9e5fc0a031ee7a8adbfc4c39699126bba133a382da7e526cffcda
 
 outputs.6.coordinates=org.jline:jline-builtins
 
-outputs.6.0.filename=jline-builtins-3.20.0.jar
-outputs.6.0.length=262948
-outputs.6.0.checksums.sha512=d7f10b2d763de6813f7174a961e35a8c322ef53eed86f6327d03bb840d8207a53a5136879cd97013ccf59f93ce879cd01339187eef87f6861c31a78b366d55b3
+outputs.6.0.filename=jline-builtins-3.20.0.pom
+outputs.6.0.length=3443
+outputs.6.0.checksums.sha512=24b601da20f7a9f011a6b4be5449b40173591c8a58284157d180a5783215d719e99664a2e10d05260df5e2297900ca94b18d24a90fd9d201a1bf39a685a87e84
 
-outputs.6.1.filename=jline-builtins-3.20.0-sources.jar
-outputs.6.1.length=108358
-outputs.6.1.checksums.sha512=f8d850d6519d7f969ffa4df53c4c29b9d085a0c846e3eecd5ce2b66ec3630070dc50fb34624c7e5c6574e47bc334fb8944cee33b1d37eab4351d4f31142663d4
+outputs.6.1.filename=jline-builtins-3.20.0.jar
+outputs.6.1.length=262948
+outputs.6.1.checksums.sha512=d7f10b2d763de6813f7174a961e35a8c322ef53eed86f6327d03bb840d8207a53a5136879cd97013ccf59f93ce879cd01339187eef87f6861c31a78b366d55b3
+
+outputs.6.2.filename=jline-builtins-3.20.0-sources.jar
+outputs.6.2.length=108358
+outputs.6.2.checksums.sha512=f8d850d6519d7f969ffa4df53c4c29b9d085a0c846e3eecd5ce2b66ec3630070dc50fb34624c7e5c6574e47bc334fb8944cee33b1d37eab4351d4f31142663d4
 
 outputs.7.coordinates=org.jline:jline-console
 
-outputs.7.0.filename=jline-console-3.20.0.jar
-outputs.7.0.length=151085
-outputs.7.0.checksums.sha512=c1501599af73ab60cdc67672abd10ff5f7febad7c9adfb74da4febcee1419937282954f73cb4dbfe2c22811c45ad88d3caef5614f0607ce2232f9c1c6f50d9e4
+outputs.7.0.filename=jline-console-3.20.0.pom
+outputs.7.0.length=3442
+outputs.7.0.checksums.sha512=0d882f20ae731f3f81f3aee51044d7727e2d6031c5a9ad578b8166aca3f28b1face69c6a6446ea7a3c4347dd7bcea6f5deb42044eff0fc059a4a0cfe6c1bbdaf
 
-outputs.7.1.filename=jline-console-3.20.0-sources.jar
-outputs.7.1.length=67415
-outputs.7.1.checksums.sha512=24d9105a134897093ebd5ca96c550f6060671357a604cfa7142a8165ff5775df78ced1a661cf61d301d3ac0e38959e5de72f450d7cb5283ce7745bab9f9fbf7d
+outputs.7.1.filename=jline-console-3.20.0.jar
+outputs.7.1.length=151085
+outputs.7.1.checksums.sha512=c1501599af73ab60cdc67672abd10ff5f7febad7c9adfb74da4febcee1419937282954f73cb4dbfe2c22811c45ad88d3caef5614f0607ce2232f9c1c6f50d9e4
+
+outputs.7.2.filename=jline-console-3.20.0-sources.jar
+outputs.7.2.length=67415
+outputs.7.2.checksums.sha512=24d9105a134897093ebd5ca96c550f6060671357a604cfa7142a8165ff5775df78ced1a661cf61d301d3ac0e38959e5de72f450d7cb5283ce7745bab9f9fbf7d
 
 outputs.8.coordinates=org.jline:jline-groovy
 
-outputs.8.0.filename=jline-groovy-3.20.0.jar
-outputs.8.0.length=89066
-outputs.8.0.checksums.sha512=12d640c03215e7bd50b0bec378ebc30837ee1b481c9d6d2caaaed161b114e01b5db3edc4f6080cc1f67ada5419b958a10a9109215d9be46bddf34ff333e6be06
+outputs.8.0.filename=jline-groovy-3.20.0.pom
+outputs.8.0.length=3226
+outputs.8.0.checksums.sha512=dfd137b62823921a81bb5cf6baf70ce0790befffcf379c6918af77e007ef1d51e71798588a31d5a201526043ad9b98d90ca56538e0de3671beaf1ce2df3fa9a3
 
-outputs.8.1.filename=jline-groovy-3.20.0-sources.jar
-outputs.8.1.length=30055
-outputs.8.1.checksums.sha512=905f00183e22dd59677362fcfc44b400af410eff7cc6d5f03d2b7917e4fea5bca80650be631bd3a986bf607f2f956651550af34f2d4ae22b71e2f0a633472f47
+outputs.8.1.filename=jline-groovy-3.20.0.jar
+outputs.8.1.length=89066
+outputs.8.1.checksums.sha512=12d640c03215e7bd50b0bec378ebc30837ee1b481c9d6d2caaaed161b114e01b5db3edc4f6080cc1f67ada5419b958a10a9109215d9be46bddf34ff333e6be06
+
+outputs.8.2.filename=jline-groovy-3.20.0-sources.jar
+outputs.8.2.length=30055
+outputs.8.2.checksums.sha512=905f00183e22dd59677362fcfc44b400af410eff7cc6d5f03d2b7917e4fea5bca80650be631bd3a986bf607f2f956651550af34f2d4ae22b71e2f0a633472f47
 
 outputs.9.coordinates=org.jline:jline-remote-ssh
 
-outputs.9.0.filename=jline-remote-ssh-3.20.0.jar
-outputs.9.0.length=22679
-outputs.9.0.checksums.sha512=8894b1940fa7415f8329cdb87a122f0c84f04fe32a6e9eb381cfed2c7c1cf9bea5f366600c5c1eeb3d2d6ddf437164667c8215204ab98401ef2716bbaa04ca0c
+outputs.9.0.filename=jline-remote-ssh-3.20.0.pom
+outputs.9.0.length=1758
+outputs.9.0.checksums.sha512=31abb3ee668d5e1280d5a2b481be0f32bae905283b9ce6a5f6945496c90892a8e8d41aab4123fe196b3a929b092adf180bed8e2c6a966912fe79325387bdf856
 
-outputs.9.1.filename=jline-remote-ssh-3.20.0-sources.jar
-outputs.9.1.length=9146
-outputs.9.1.checksums.sha512=85f9418cad1d04da678e2caa4164f8f6dbf3a60150dd3b3a854d123265f06a2fdecc709df55fff6dca4fca39dd70a446476288522f3bb4ccda08d7898ac7dbe0
+outputs.9.1.filename=jline-remote-ssh-3.20.0.jar
+outputs.9.1.length=22679
+outputs.9.1.checksums.sha512=8894b1940fa7415f8329cdb87a122f0c84f04fe32a6e9eb381cfed2c7c1cf9bea5f366600c5c1eeb3d2d6ddf437164667c8215204ab98401ef2716bbaa04ca0c
+
+outputs.9.2.filename=jline-remote-ssh-3.20.0-sources.jar
+outputs.9.2.length=9146
+outputs.9.2.checksums.sha512=85f9418cad1d04da678e2caa4164f8f6dbf3a60150dd3b3a854d123265f06a2fdecc709df55fff6dca4fca39dd70a446476288522f3bb4ccda08d7898ac7dbe0
 
 outputs.10.coordinates=org.jline:jline-remote-telnet
 
-outputs.10.0.filename=jline-remote-telnet-3.20.0.jar
-outputs.10.0.length=34509
-outputs.10.0.checksums.sha512=b0fde1ad6ac844b03335cc24bcd945edbb80fe8932c5540c240b504fd0259efdbfa96abbb2a765f8c08bb5931336c424c65287af3aeb54d9e59a66c9008ee4c3
+outputs.10.0.filename=jline-remote-telnet-3.20.0.pom
+outputs.10.0.length=1416
+outputs.10.0.checksums.sha512=fa0c43f923cd14d697fd524fc92023e3c713e13eb9b62d916993ad474bade5f774837e58c1aa30a77a88042fc0f55086c1eb1c546323a66ac3cd415fabd056d0
 
-outputs.10.1.filename=jline-remote-telnet-3.20.0-sources.jar
-outputs.10.1.length=34888
-outputs.10.1.checksums.sha512=44a0875c17d448c8785f304b8e6827d3b29e7edf0149f7e5248ca5555358018a4768ccd480ef8a701efd4bf70bd1fbb1f12feacb5355ac7f1320b976cc584fe3
+outputs.10.1.filename=jline-remote-telnet-3.20.0.jar
+outputs.10.1.length=34509
+outputs.10.1.checksums.sha512=b0fde1ad6ac844b03335cc24bcd945edbb80fe8932c5540c240b504fd0259efdbfa96abbb2a765f8c08bb5931336c424c65287af3aeb54d9e59a66c9008ee4c3
+
+outputs.10.2.filename=jline-remote-telnet-3.20.0-sources.jar
+outputs.10.2.length=34888
+outputs.10.2.checksums.sha512=44a0875c17d448c8785f304b8e6827d3b29e7edf0149f7e5248ca5555358018a4768ccd480ef8a701efd4bf70bd1fbb1f12feacb5355ac7f1320b976cc584fe3
 
 outputs.11.coordinates=org.jline:jline-demo
 
-outputs.11.0.filename=jline-demo-3.20.0.jar
-outputs.11.0.length=64753
-outputs.11.0.checksums.sha512=b51e4ec8e88b75bdb48d1dde31c1e0f8748fcb8ba72c535e1ccf8039a6f5ec73035b6950849ee3816a016115505f2d4d0eeed184ff5b6c9c02ce3cd2360c12f8
+outputs.11.0.filename=jline-demo-3.20.0.pom
+outputs.11.0.length=8002
+outputs.11.0.checksums.sha512=27154b001123f8c41e489f4aaf4753306599e756c30d9d20d053f9b55cae0382ac44476404c564c32509509fbfaeb56dbe61428170138cab6985900d0255ac6f
 
-outputs.11.1.filename=jline-demo-3.20.0-sources.jar
-outputs.11.1.length=26407
-outputs.11.1.checksums.sha512=3dcbbc74035ede9976185bbfeea438920bdcebd87bd79968acb86689d92a6d16d247275b4e2646969610e8e1ee23b7a6a07c429ef3fbc357c8155bcc2f2a0601
+outputs.11.1.filename=jline-demo-3.20.0.jar
+outputs.11.1.length=64753
+outputs.11.1.checksums.sha512=b51e4ec8e88b75bdb48d1dde31c1e0f8748fcb8ba72c535e1ccf8039a6f5ec73035b6950849ee3816a016115505f2d4d0eeed184ff5b6c9c02ce3cd2360c12f8
+
+outputs.11.2.filename=jline-demo-3.20.0-sources.jar
+outputs.11.2.length=26407
+outputs.11.2.checksums.sha512=3dcbbc74035ede9976185bbfeea438920bdcebd87bd79968acb86689d92a6d16d247275b4e2646969610e8e1ee23b7a6a07c429ef3fbc357c8155bcc2f2a0601
 
 outputs.12.coordinates=org.jline:jline-graal
 
-outputs.12.0.filename=jline-graal-3.20.0.jar
-outputs.12.0.length=7309
-outputs.12.0.checksums.sha512=ee605c0851bc14304374b10f668328310f3c064c51285762edc9a17737e24a16934d542844152e19a7aad41e62d30448d8c0cc058c5fa297c379df8395ac90ac
+outputs.12.0.filename=jline-graal-3.20.0.pom
+outputs.12.0.length=4565
+outputs.12.0.checksums.sha512=b13f4e84c8d8f620574a3a4e799824064be7b498e15987cc235cf00dca138461702c757a9feaa062e9908d6444aca85615c983d65be3bd0ceb475d693a411354
 
-outputs.12.1.filename=jline-graal-3.20.0-sources.jar
-outputs.12.1.length=5018
-outputs.12.1.checksums.sha512=3c5f9c3e3b07ed38d273afb83bdb41c93438c98996e4531efdd772000de7dd671a2fa1ddd1e082357dcd06dfd39db64671aef7ee32e2e82afaec22143febc2ac
+outputs.12.1.filename=jline-graal-3.20.0.jar
+outputs.12.1.length=7309
+outputs.12.1.checksums.sha512=ee605c0851bc14304374b10f668328310f3c064c51285762edc9a17737e24a16934d542844152e19a7aad41e62d30448d8c0cc058c5fa297c379df8395ac90ac
+
+outputs.12.2.filename=jline-graal-3.20.0-sources.jar
+outputs.12.2.length=5018
+outputs.12.2.checksums.sha512=3c5f9c3e3b07ed38d273afb83bdb41c93438c98996e4531efdd772000de7dd671a2fa1ddd1e082357dcd06dfd39db64671aef7ee32e2e82afaec22143febc2ac
 
 outputs.13.coordinates=org.jline:jline
 
-outputs.13.0.filename=jline-3.20.0.jar
-outputs.13.0.length=992903
-outputs.13.0.checksums.sha512=62dd5908f7daa71a80688702a85d801d1d34df7e5ed643148144714468c8988b65da272b7f574eb5bbe445993a76e3e55a33048090cf1193654a36d05b1504cd
+outputs.13.0.filename=jline-3.20.0.pom
+outputs.13.0.length=17590
+outputs.13.0.checksums.sha512=cdd10e95e2e516d7ab85d2ec1a6a4c22289a5d15758ed571830302e9d149764747730f5dac311d311a8bf991f1e52c5c082ea104433861b63050b01a774ef5ce
 
-outputs.13.1.filename=jline-3.20.0-sources.jar
-outputs.13.1.length=533328
-outputs.13.1.checksums.sha512=79c91f1be98b032cbc7dd21ea32d3b40148d28a890272185524ab9e68305b1ef4bd9f3f0fcc1a9e60184f5c2b804d66d20a9aa50bf724853a5538f1c83aaf247
+outputs.13.1.filename=jline-3.20.0.jar
+outputs.13.1.length=992903
+outputs.13.1.checksums.sha512=62dd5908f7daa71a80688702a85d801d1d34df7e5ed643148144714468c8988b65da272b7f574eb5bbe445993a76e3e55a33048090cf1193654a36d05b1504cd
+
+outputs.13.2.filename=jline-3.20.0-sources.jar
+outputs.13.2.length=533328
+outputs.13.2.checksums.sha512=79c91f1be98b032cbc7dd21ea32d3b40148d28a890272185524ab9e68305b1ef4bd9f3f0fcc1a9e60184f5c2b804d66d20a9aa50bf724853a5538f1c83aaf247

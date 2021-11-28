@@ -1,9 +1,10 @@
 version=2.3.4
 ok=0
-ko=2
+ko=3
 okFiles=""
-koFiles="jansi-2.3.4.jar jansi-2.3.4-sources.jar"
+koFiles="jansi-2.3.4.pom jansi-2.3.4.jar jansi-2.3.4-sources.jar"
 reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/jansi-2.3.4.pom pom.xml
 # diffoscope target/reference/jansi-2.3.4.jar target/jansi-2.3.4.jar
 # diffoscope target/reference/jansi-2.3.4-sources.jar target/jansi-2.3.4-sources.jar

@@ -21,10 +21,14 @@ os.name=Unix
 
 # output
 
-outputs.0.filename=liquibase-percona-4.4.2.jar
-outputs.0.length=52000
-outputs.0.checksums.sha512=df37d8d569906211af1ed5d10756d7fe9d8c3dfe58a9fa3476d901882ba663d255bf7933f1f6b6486e216cf88ab75ec7cecfbe48dbce336ee4e7eb5b8dff00e2
+outputs.0.filename=liquibase-percona-4.4.2.pom
+outputs.0.length=24683
+outputs.0.checksums.sha512=302368c016f6665f5f7d7cdfa1774d7910f9585cab65f00b9656ba3330dba24d05e94e337dee630e3dffa9f8172669356a97ab28559c77c72806f06c407bb41c
 
-outputs.1.filename=liquibase-percona-4.4.2-sources.jar
-outputs.1.length=39683
-outputs.1.checksums.sha512=e0b7ce171b80e3057eea0b8b0517663eddce4c54ad39b571519fd434bca6a087762d036d830f7a922f0ab0b9f0fdad4ddafd3c3913b4c040d0a3f9a7b3ae4d01
+outputs.1.filename=liquibase-percona-4.4.2.jar
+outputs.1.length=52000
+outputs.1.checksums.sha512=df37d8d569906211af1ed5d10756d7fe9d8c3dfe58a9fa3476d901882ba663d255bf7933f1f6b6486e216cf88ab75ec7cecfbe48dbce336ee4e7eb5b8dff00e2
+
+outputs.2.filename=liquibase-percona-4.4.2-sources.jar
+outputs.2.length=39683
+outputs.2.checksums.sha512=e0b7ce171b80e3057eea0b8b0517663eddce4c54ad39b571519fd434bca6a087762d036d830f7a922f0ab0b9f0fdad4ddafd3c3913b4c040d0a3f9a7b3ae4d01

@@ -22,14 +22,18 @@ mvn.minimum.version=3.0.4
 
 # output
 
-outputs.0.filename=atom-jaxb-1.0.1.jar
-outputs.0.length=52741
-outputs.0.checksums.sha512=6bed884f09782058f11d9deb5578c2578f6b66cdf7b7874988323cda489d80dda3eea76bce1061f92b3e325cedac2096355c5f069223ddc676e0cd5fbc16a77a
+outputs.0.filename=atom-jaxb-1.0.1.pom
+outputs.0.length=10753
+outputs.0.checksums.sha512=d0f451157f2d831d068f4d335d46794f36c51de6c2cebb2ee5d3bc4bb19649d0a094da814f890463aab27a1f5f070065381a0d0d025e98d640fc5e0729039f82
 
-outputs.1.filename=atom-jaxb-1.0.1-sources.jar
-outputs.1.length=21320
-outputs.1.checksums.sha512=07986bb12423b564ab8dad60b782c83ac8a94f6868f787b3413f6da5d858346aae5e6a20b94b6eccc10a9a82c8578463ef2cd5f603e3bf9cd99011b0687424bc
+outputs.1.filename=atom-jaxb-1.0.1.jar
+outputs.1.length=52741
+outputs.1.checksums.sha512=6bed884f09782058f11d9deb5578c2578f6b66cdf7b7874988323cda489d80dda3eea76bce1061f92b3e325cedac2096355c5f069223ddc676e0cd5fbc16a77a
 
-outputs.2.filename=atom-jaxb-1.0.1-tests.jar
-outputs.2.length=73323
-outputs.2.checksums.sha512=c6f12f62e7f1250aec58c68906283447b4d2776fe19804bede902097a328c8c82dc9fa42af3fdb8a05372f34ad996db9071af405535d7bd16f56741b8dc91201
+outputs.2.filename=atom-jaxb-1.0.1-sources.jar
+outputs.2.length=21320
+outputs.2.checksums.sha512=07986bb12423b564ab8dad60b782c83ac8a94f6868f787b3413f6da5d858346aae5e6a20b94b6eccc10a9a82c8578463ef2cd5f603e3bf9cd99011b0687424bc
+
+outputs.3.filename=atom-jaxb-1.0.1-tests.jar
+outputs.3.length=73323
+outputs.3.checksums.sha512=c6f12f62e7f1250aec58c68906283447b4d2776fe19804bede902097a328c8c82dc9fa42af3fdb8a05372f34ad996db9071af405535d7bd16f56741b8dc91201

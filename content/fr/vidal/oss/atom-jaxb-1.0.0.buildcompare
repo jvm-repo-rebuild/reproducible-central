@@ -1,5 +1,10 @@
 version=1.0.0
-ok=0
+ok=1
 ko=3
-okFiles=""
+okFiles="atom-jaxb-1.0.0.pom"
 koFiles="atom-jaxb-1.0.0.jar atom-jaxb-1.0.0-sources.jar atom-jaxb-1.0.0-tests.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/atom-jaxb-1.0.0.jar target/atom-jaxb-1.0.0.jar
+# diffoscope target/reference/atom-jaxb-1.0.0-sources.jar target/atom-jaxb-1.0.0-sources.jar
+# diffoscope target/reference/atom-jaxb-1.0.0-tests.jar target/atom-jaxb-1.0.0-tests.jar

@@ -21,10 +21,14 @@ os.name=Unix
 
 # output
 
-outputs.0.filename=jansi-2.3.4.jar
-outputs.0.length=213957
-outputs.0.checksums.sha512=fdf3111caab5bbee6433a1cc38aff52cdb5dd4ad13ad0f0850f83f4aa4cbf8784f51a7031a3db63af6b90c1fc39d68832501ab3957ad2dcb2c4f79a79f5d3119
+outputs.0.filename=jansi-2.3.4.pom
+outputs.0.length=14082
+outputs.0.checksums.sha512=544c78f77f1eef551409bdd5de5dd42d75175883c39b4682934c11f72e3c3fb431e54c93fb8addcb67047198ef88c87e81c3225a414a1f370581fa96df24488e
 
-outputs.1.filename=jansi-2.3.4-sources.jar
-outputs.1.length=180722
-outputs.1.checksums.sha512=8b9479995d62bbdb92157c516722a935e20e7f0319c810eb6af7f9cc3d27d13df3cd50b7fee9d6786facbb39526f3813b93b2d5f5b25fa57b7b84f2caeeb8b0c
+outputs.1.filename=jansi-2.3.4.jar
+outputs.1.length=213957
+outputs.1.checksums.sha512=fdf3111caab5bbee6433a1cc38aff52cdb5dd4ad13ad0f0850f83f4aa4cbf8784f51a7031a3db63af6b90c1fc39d68832501ab3957ad2dcb2c4f79a79f5d3119
+
+outputs.2.filename=jansi-2.3.4-sources.jar
+outputs.2.length=180722
+outputs.2.checksums.sha512=8b9479995d62bbdb92157c516722a935e20e7f0319c810eb6af7f9cc3d27d13df3cd50b7fee9d6786facbb39526f3813b93b2d5f5b25fa57b7b84f2caeeb8b0c
