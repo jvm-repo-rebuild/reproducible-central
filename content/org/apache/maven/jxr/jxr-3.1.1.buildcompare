@@ -1,5 +1,7 @@
 version=3.1.1
-ok=6
+ok=9
 ko=0
-okFiles="jxr-3.1.1-site.xml jxr-3.1.1-source-release.zip maven-jxr-3.1.1.jar maven-jxr-3.1.1-sources.jar maven-jxr-plugin-3.1.1.jar maven-jxr-plugin-3.1.1-sources.jar"
+okFiles="jxr-3.1.1.pom jxr-3.1.1-site.xml jxr-3.1.1-source-release.zip maven-jxr-3.1.1.pom maven-jxr-3.1.1.jar maven-jxr-3.1.1-sources.jar maven-jxr-plugin-3.1.1.pom maven-jxr-plugin-3.1.1.jar maven-jxr-plugin-3.1.1-sources.jar"
 koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"

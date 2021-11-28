@@ -1,5 +1,7 @@
 version=3.2.0
-ok=13
+ok=20
 ko=0
-okFiles="maven-archetype-3.2.0-site.xml maven-archetype-3.2.0-source-release.zip archetype-models-3.2.0-site.xml archetype-catalog-3.2.0.jar archetype-catalog-3.2.0-sources.jar archetype-descriptor-3.2.0.jar archetype-descriptor-3.2.0-sources.jar archetype-common-3.2.0.jar archetype-common-3.2.0-sources.jar archetype-packaging-3.2.0.jar archetype-packaging-3.2.0-sources.jar maven-archetype-plugin-3.2.0.jar maven-archetype-plugin-3.2.0-sources.jar"
+okFiles="maven-archetype-3.2.0.pom maven-archetype-3.2.0-site.xml maven-archetype-3.2.0-source-release.zip archetype-models-3.2.0.pom archetype-models-3.2.0-site.xml archetype-catalog-3.2.0.pom archetype-catalog-3.2.0.jar archetype-catalog-3.2.0-sources.jar archetype-descriptor-3.2.0.pom archetype-descriptor-3.2.0.jar archetype-descriptor-3.2.0-sources.jar archetype-common-3.2.0.pom archetype-common-3.2.0.jar archetype-common-3.2.0-sources.jar archetype-packaging-3.2.0.pom archetype-packaging-3.2.0.jar archetype-packaging-3.2.0-sources.jar maven-archetype-plugin-3.2.0.pom maven-archetype-plugin-3.2.0.jar maven-archetype-plugin-3.2.0-sources.jar"
 koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

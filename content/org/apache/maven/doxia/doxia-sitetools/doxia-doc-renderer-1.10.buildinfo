@@ -24,60 +24,84 @@ mvn.aggregate.artifact-id=doxia-doc-renderer
 
 outputs.0.coordinates=org.apache.maven.doxia:doxia-sitetools
 
-outputs.0.0.filename=doxia-sitetools-1.10-site.xml
-outputs.0.0.length=2084
-outputs.0.0.checksums.sha512=28abc629077a23b2241c821ab12e59f3e494501b7f643350ecee29463f9ff0e73499b939268b598eae2f11a0058a5f5783496afeccf5423519f32dfb51f9516e
+outputs.0.0.filename=doxia-sitetools-1.10.pom
+outputs.0.0.length=13588
+outputs.0.0.checksums.sha512=380f81dfdbf8125bf8ab50e0ddce122d5302646a4557abe81db26988363af257ed72da4a9107a1342851e8eac22e88418fd7d58df41d3bd3114b168865157c8d
 
-outputs.0.1.filename=doxia-sitetools-1.10-source-release.zip
-outputs.0.1.length=553033
-outputs.0.1.checksums.sha512=a4a627212d7fde967709d20114eedabfd499c3cb83ed253017211dfa9fdd881aa324117ea4aa09bfa4e7c9846b0041d6e0c0f4b95058c4d134be57a56ca4b844
+outputs.0.1.filename=doxia-sitetools-1.10-site.xml
+outputs.0.1.length=2084
+outputs.0.1.checksums.sha512=28abc629077a23b2241c821ab12e59f3e494501b7f643350ecee29463f9ff0e73499b939268b598eae2f11a0058a5f5783496afeccf5423519f32dfb51f9516e
+
+outputs.0.2.filename=doxia-sitetools-1.10-source-release.zip
+outputs.0.2.length=553033
+outputs.0.2.checksums.sha512=a4a627212d7fde967709d20114eedabfd499c3cb83ed253017211dfa9fdd881aa324117ea4aa09bfa4e7c9846b0041d6e0c0f4b95058c4d134be57a56ca4b844
 
 outputs.1.coordinates=org.apache.maven.doxia:doxia-decoration-model
 
-outputs.1.0.filename=doxia-decoration-model-1.10.jar
-outputs.1.0.length=59767
-outputs.1.0.checksums.sha512=d7008dd956636dbb2c4fe9f6f582b3178196ed7dd44b77b8dc0a36b19b6f9872a4b00dcb012da9b4d2180a04a886566e5f206dc6f17a4ddaa9cf6bc4c5f321b8
+outputs.1.0.filename=doxia-decoration-model-1.10.pom
+outputs.1.0.length=3403
+outputs.1.0.checksums.sha512=6ed3083e0832213822bf6a2c524ae5f9e9c5727d8b843f47fd84ef90e17f1f99e380a7dcb36b083c5da4130253ca481a6a0161c31dff0eb006314f7043a8698e
 
-outputs.1.1.filename=doxia-decoration-model-1.10-sources.jar
-outputs.1.1.length=48533
-outputs.1.1.checksums.sha512=b2187a2e36ac79968fe1c3444e9381e469e01d97ec3fd70eb7050c85a23d2d253a63294a9f2dcbd47bff8451acb0d06550bcadbc363f93a300415acd56527c3f
+outputs.1.1.filename=doxia-decoration-model-1.10.jar
+outputs.1.1.length=59767
+outputs.1.1.checksums.sha512=d7008dd956636dbb2c4fe9f6f582b3178196ed7dd44b77b8dc0a36b19b6f9872a4b00dcb012da9b4d2180a04a886566e5f206dc6f17a4ddaa9cf6bc4c5f321b8
+
+outputs.1.2.filename=doxia-decoration-model-1.10-sources.jar
+outputs.1.2.length=48533
+outputs.1.2.checksums.sha512=b2187a2e36ac79968fe1c3444e9381e469e01d97ec3fd70eb7050c85a23d2d253a63294a9f2dcbd47bff8451acb0d06550bcadbc363f93a300415acd56527c3f
 
 outputs.2.coordinates=org.apache.maven.doxia:doxia-skin-model
 
-outputs.2.0.filename=doxia-skin-model-1.10.jar
-outputs.2.0.length=16325
-outputs.2.0.checksums.sha512=45d8a01860ccd2000153259fc78a988c0c2a97a877edf66ce9158d4828e1d89ab1055d2136927b1f7f9bc01b5ca89b3f1e835537b26c26da7f8d2c5800f7c807
+outputs.2.0.filename=doxia-skin-model-1.10.pom
+outputs.2.0.length=3036
+outputs.2.0.checksums.sha512=5f1a06a107185de5052c04ad0cd3426fadd4d52c82d30e041d36844be3a6ede13f65d537d6a65e3a5b5f81ca9ee35f175a5239b13647a3cb317c17371d7a4116
 
-outputs.2.1.filename=doxia-skin-model-1.10-sources.jar
-outputs.2.1.length=13660
-outputs.2.1.checksums.sha512=c0123ff04dbfd01a55ad0a8142c0fb3821c38673c626477002d324fb487b38fef25c8b42530e4d6ef1965e039754c48dc251ecf5e6229b7ee9d9b928e405e933
+outputs.2.1.filename=doxia-skin-model-1.10.jar
+outputs.2.1.length=16325
+outputs.2.1.checksums.sha512=45d8a01860ccd2000153259fc78a988c0c2a97a877edf66ce9158d4828e1d89ab1055d2136927b1f7f9bc01b5ca89b3f1e835537b26c26da7f8d2c5800f7c807
+
+outputs.2.2.filename=doxia-skin-model-1.10-sources.jar
+outputs.2.2.length=13660
+outputs.2.2.checksums.sha512=c0123ff04dbfd01a55ad0a8142c0fb3821c38673c626477002d324fb487b38fef25c8b42530e4d6ef1965e039754c48dc251ecf5e6229b7ee9d9b928e405e933
 
 outputs.3.coordinates=org.apache.maven.doxia:doxia-integration-tools
 
-outputs.3.0.filename=doxia-integration-tools-1.10.jar
-outputs.3.0.length=46735
-outputs.3.0.checksums.sha512=0322223c83aef9b490ce41b50710c607e70d954e91c15fe7414d19fd8e6af57e7886a632840e8cb076ae24d1f4a75a71d7467d1aff2ca8213444452c9266645a
+outputs.3.0.filename=doxia-integration-tools-1.10.pom
+outputs.3.0.length=6038
+outputs.3.0.checksums.sha512=7b04d6a3d8658d95befdf96b505e9dcdbfdf0cf8e7ccea9dd1ace6cc81c9b4caa2a037f509badd64b9a61ddfcd3bdfcc932a4959344b5f5c530547f93e2aa1da
 
-outputs.3.1.filename=doxia-integration-tools-1.10-sources.jar
-outputs.3.1.length=44503
-outputs.3.1.checksums.sha512=ab97a9bef24d067444d3eec506748c284dcda5542789e9be9ea91b465e363e74d610c73b6ee153e34f0956dc92e293d023ee118ded810e3f8299a50530498bec
+outputs.3.1.filename=doxia-integration-tools-1.10.jar
+outputs.3.1.length=46735
+outputs.3.1.checksums.sha512=0322223c83aef9b490ce41b50710c607e70d954e91c15fe7414d19fd8e6af57e7886a632840e8cb076ae24d1f4a75a71d7467d1aff2ca8213444452c9266645a
+
+outputs.3.2.filename=doxia-integration-tools-1.10-sources.jar
+outputs.3.2.length=44503
+outputs.3.2.checksums.sha512=ab97a9bef24d067444d3eec506748c284dcda5542789e9be9ea91b465e363e74d610c73b6ee153e34f0956dc92e293d023ee118ded810e3f8299a50530498bec
 
 outputs.4.coordinates=org.apache.maven.doxia:doxia-site-renderer
 
-outputs.4.0.filename=doxia-site-renderer-1.10.jar
-outputs.4.0.length=65170
-outputs.4.0.checksums.sha512=aed31ce780bcb135c516d4f813446c3518100b33d71e1a84de65954692078d03b1021f793e6fec807fbd990d6e86e25517a93d69ceff5ed0c32846076b2e3058
+outputs.4.0.filename=doxia-site-renderer-1.10.pom
+outputs.4.0.length=7693
+outputs.4.0.checksums.sha512=03ac5a247bd3be659973b0afa35bea033bb4195c7eadbe3b36944ff8f4bb1225acc459793f1e2ae8e5aa95cab655e4a91081a2094fdf35938c65fcd003c75712
 
-outputs.4.1.filename=doxia-site-renderer-1.10-sources.jar
-outputs.4.1.length=61657
-outputs.4.1.checksums.sha512=8395a561e40750c9eaac6ec23fc8db8639399cdfad9a9f1321c4d6f44f41575b19dc127231532ba45507a83265c71b058a9c5f71ebcbfacc54886a4d50e2a4e2
+outputs.4.1.filename=doxia-site-renderer-1.10.jar
+outputs.4.1.length=65170
+outputs.4.1.checksums.sha512=aed31ce780bcb135c516d4f813446c3518100b33d71e1a84de65954692078d03b1021f793e6fec807fbd990d6e86e25517a93d69ceff5ed0c32846076b2e3058
+
+outputs.4.2.filename=doxia-site-renderer-1.10-sources.jar
+outputs.4.2.length=61657
+outputs.4.2.checksums.sha512=8395a561e40750c9eaac6ec23fc8db8639399cdfad9a9f1321c4d6f44f41575b19dc127231532ba45507a83265c71b058a9c5f71ebcbfacc54886a4d50e2a4e2
 
 outputs.5.coordinates=org.apache.maven.doxia:doxia-doc-renderer
 
-outputs.5.0.filename=doxia-doc-renderer-1.10.jar
-outputs.5.0.length=50177
-outputs.5.0.checksums.sha512=7e4769afbe270cc8d8eb4ef8f9972c95e6b1ee174c069f0d5b719ee27c6fa14bacbfb38118db750d1f016c3f2a09858136aea88b8e6fa085007f508f5c69d0f9
+outputs.5.0.filename=doxia-doc-renderer-1.10.pom
+outputs.5.0.length=5367
+outputs.5.0.checksums.sha512=219e1b1982e74b28f82e3de8e3c0930840b4abbbf956956f23b0ef80e31a79c8d7ae970f9778e3567247d7f9df09ad997d4ab013086c504a553a7112f7a454e3
 
-outputs.5.1.filename=doxia-doc-renderer-1.10-sources.jar
-outputs.5.1.length=42939
-outputs.5.1.checksums.sha512=95e1cd618a11032d5fad3fd38ab7cc9f1d981bbaa913b0c795403149b8615be552f38334db62eb6449b29effdad846dc5d1584b3b95a26fddb34e078af078f81
+outputs.5.1.filename=doxia-doc-renderer-1.10.jar
+outputs.5.1.length=50177
+outputs.5.1.checksums.sha512=7e4769afbe270cc8d8eb4ef8f9972c95e6b1ee174c069f0d5b719ee27c6fa14bacbfb38118db750d1f016c3f2a09858136aea88b8e6fa085007f508f5c69d0f9
+
+outputs.5.2.filename=doxia-doc-renderer-1.10-sources.jar
+outputs.5.2.length=42939
+outputs.5.2.checksums.sha512=95e1cd618a11032d5fad3fd38ab7cc9f1d981bbaa913b0c795403149b8615be552f38334db62eb6449b29effdad846dc5d1584b3b95a26fddb34e078af078f81

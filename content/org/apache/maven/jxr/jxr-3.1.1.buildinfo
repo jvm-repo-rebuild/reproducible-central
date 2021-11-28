@@ -13,43 +13,53 @@ source.scm.tag=jxr-3.1.1
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_265
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.aggregate.artifact-id=maven-jxr-plugin
 
 # aggregated output
 
 outputs.0.coordinates=org.apache.maven.jxr:jxr
 
-outputs.0.0.filename=jxr-3.1.1-site.xml
-outputs.0.0.length=1675
-outputs.0.0.checksums.sha512=889b9ee95219d309241f9b8e2da1e719e73bc419a87bbc6d9e493eeb858aff35b0eeadde731772ae1b8b425ac210841070acec5567b78c5bc7b91e8eb9c99137
+outputs.0.0.filename=jxr-3.1.1.pom
+outputs.0.0.length=6060
+outputs.0.0.checksums.sha512=5de488f9960c1c910a14edcf2c4a8161a2af8322b81a68fdf593c576dcb38f1adcc7e8dfe76e6b0fdd4d64a04b9726d109c634a05dbaf0760c1e959e72cacf2b
 
-outputs.0.1.filename=jxr-3.1.1-source-release.zip
-outputs.0.1.length=363593
-outputs.0.1.checksums.sha512=d7bdbedc72568192a9b63132a91852379ad542c606d222a87cf316e1cef8e60434c4b573b55d7e39c1159cb17728eb5ae5c1cb0922337bb5c06885805a36d76c
+outputs.0.1.filename=jxr-3.1.1-site.xml
+outputs.0.1.length=1675
+outputs.0.1.checksums.sha512=889b9ee95219d309241f9b8e2da1e719e73bc419a87bbc6d9e493eeb858aff35b0eeadde731772ae1b8b425ac210841070acec5567b78c5bc7b91e8eb9c99137
+
+outputs.0.2.filename=jxr-3.1.1-source-release.zip
+outputs.0.2.length=363593
+outputs.0.2.checksums.sha512=d7bdbedc72568192a9b63132a91852379ad542c606d222a87cf316e1cef8e60434c4b573b55d7e39c1159cb17728eb5ae5c1cb0922337bb5c06885805a36d76c
 
 outputs.1.coordinates=org.apache.maven:maven-jxr
 
-outputs.1.0.filename=maven-jxr-3.1.1.jar
-outputs.1.0.length=71549
-outputs.1.0.checksums.sha512=3edadf7af29ffe13fbb605b4760ea65fad05047fd02c99fd101e99d2b488ef468bbda4aedae6fc145064a519d5c2c5e19a6d3a5964e47b5989ceb58a5dabb576
+outputs.1.0.filename=maven-jxr-3.1.1.pom
+outputs.1.0.length=4013
+outputs.1.0.checksums.sha512=0595c665c0971f7856b30c3957229fb515185ce3935960ac90042e75656835f209480446a09a1fb6769f7ef246443283c675009d3db2d9cb12b6705913e54a75
 
-outputs.1.1.filename=maven-jxr-3.1.1-sources.jar
-outputs.1.1.length=70044
-outputs.1.1.checksums.sha512=bbe8f16cd07d7cbd8dc7c9feeae5d3edbd9b9de75dbfaac780e0f3cef67d10b0bb15f33e53e7b4508930099359de2752f1855f5c481a24445ed12e8ae76b4290
+outputs.1.1.filename=maven-jxr-3.1.1.jar
+outputs.1.1.length=71549
+outputs.1.1.checksums.sha512=3edadf7af29ffe13fbb605b4760ea65fad05047fd02c99fd101e99d2b488ef468bbda4aedae6fc145064a519d5c2c5e19a6d3a5964e47b5989ceb58a5dabb576
+
+outputs.1.2.filename=maven-jxr-3.1.1-sources.jar
+outputs.1.2.length=70044
+outputs.1.2.checksums.sha512=bbe8f16cd07d7cbd8dc7c9feeae5d3edbd9b9de75dbfaac780e0f3cef67d10b0bb15f33e53e7b4508930099359de2752f1855f5c481a24445ed12e8ae76b4290
 
 outputs.2.coordinates=org.apache.maven.plugins:maven-jxr-plugin
 
-outputs.2.0.filename=maven-jxr-plugin-3.1.1.jar
-outputs.2.0.length=67461
-outputs.2.0.checksums.sha512=58a972f1abc2efea1b9b02cc3a64ddf42bb21d76600606dd9b6002cd0d66f99bea3424621b11375a21cb07febc2cbc10f0b6692adb33c18f928a376bf71b6e79
+outputs.2.0.filename=maven-jxr-plugin-3.1.1.pom
+outputs.2.0.length=8636
+outputs.2.0.checksums.sha512=dfe56eeb8995d2af57015659f26a05386b87502bab5ac96c12444ff8807b1d30346d07bebcb4d0ae6759d961eb2df9c2e16d34289e7c9853a3e950f555ad05b6
 
-outputs.2.1.filename=maven-jxr-plugin-3.1.1-sources.jar
-outputs.2.1.length=57654
-outputs.2.1.checksums.sha512=06d0c107e7a9deb56b3c14e81132d3c027a9dd10ea0ddb804523ce09294d3c349ef63f5f005a7a77c40c8d1b2914550214c0b119797f46984a417f81fc231bad
+outputs.2.1.filename=maven-jxr-plugin-3.1.1.jar
+outputs.2.1.length=67461
+outputs.2.1.checksums.sha512=58a972f1abc2efea1b9b02cc3a64ddf42bb21d76600606dd9b6002cd0d66f99bea3424621b11375a21cb07febc2cbc10f0b6692adb33c18f928a376bf71b6e79
+
+outputs.2.2.filename=maven-jxr-plugin-3.1.1-sources.jar
+outputs.2.2.length=57654
+outputs.2.2.checksums.sha512=06d0c107e7a9deb56b3c14e81132d3c027a9dd10ea0ddb804523ce09294d3c349ef63f5f005a7a77c40c8d1b2914550214c0b119797f46984a417f81fc231bad

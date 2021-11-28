@@ -1,5 +1,7 @@
 version=1.5.1
-ok=3
+ok=4
 ko=0
-okFiles="maven-reporting-exec-1.5.1.jar maven-reporting-exec-1.5.1-source-release.zip maven-reporting-exec-1.5.1-sources.jar"
+okFiles="maven-reporting-exec-1.5.1.pom maven-reporting-exec-1.5.1.jar maven-reporting-exec-1.5.1-source-release.zip maven-reporting-exec-1.5.1-sources.jar"
 koFiles=""
+reference_java_version="1.7 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

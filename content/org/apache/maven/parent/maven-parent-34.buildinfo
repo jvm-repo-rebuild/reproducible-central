@@ -24,42 +24,70 @@ mvn.aggregate.artifact-id=apache-resource-bundles
 
 outputs.0.coordinates=org.apache.maven:maven-parent
 
-outputs.0.0.filename=maven-parent-34-site.xml
-outputs.0.0.length=4151
-outputs.0.0.checksums.sha512=b4adeb9e3b33c4f91eba4327053b80d06c9c042ddf46b5ed20c3a4504c37550162f0bb92ea31de9bc83680db99af5f54b81dfea70e24d9822d723c8773be6441
+outputs.0.0.filename=maven-parent-34.pom
+outputs.0.0.length=42838
+outputs.0.0.checksums.sha512=f68ceac5e02a76bac264feeb1ad4ffcc7b7ebbb53b1f164d03b89b53db2715b4222fd1f6a40023090717fc7e412dc7b95b10fb76959a97a631896533792ca4cf
 
-outputs.0.1.filename=maven-parent-34-source-release.zip
-outputs.0.1.length=59909
-outputs.0.1.checksums.sha512=caf523e3def4d414985b3f96ec6939a43a96d977510001e08f23aa3b44dd182b92ec7557204de649e63d6a5bc926042f62fde83406cd428ca710d62af7151b7a
+outputs.0.1.filename=maven-parent-34-site.xml
+outputs.0.1.length=4151
+outputs.0.1.checksums.sha512=b4adeb9e3b33c4f91eba4327053b80d06c9c042ddf46b5ed20c3a4504c37550162f0bb92ea31de9bc83680db99af5f54b81dfea70e24d9822d723c8773be6441
+
+outputs.0.2.filename=maven-parent-34-source-release.zip
+outputs.0.2.length=59909
+outputs.0.2.checksums.sha512=caf523e3def4d414985b3f96ec6939a43a96d977510001e08f23aa3b44dd182b92ec7557204de649e63d6a5bc926042f62fde83406cd428ca710d62af7151b7a
 
 outputs.1.coordinates=org.apache.maven.extensions:maven-extensions
 
-outputs.1.0.filename=maven-extensions-34-site.xml
-outputs.1.0.length=1186
-outputs.1.0.checksums.sha512=3f2666760cdfaf601b21a56a283741cf6c55b1a3e96119836a6f7ad93cb88188165e2f218bed1c93813bd97e9d918f908663a0c64955120251a2b8701744733b
+outputs.1.0.filename=maven-extensions-34.pom
+outputs.1.0.length=9063
+outputs.1.0.checksums.sha512=0f5b7dda51e1e6e055ae585464c34e86110984603797169ba3629a8447cbfeb69515eb91ea0c1504dca06d7d4e95178c53624ff32ad7fc66c6988a10aee5d0e2
+
+outputs.1.1.filename=maven-extensions-34-site.xml
+outputs.1.1.length=1186
+outputs.1.1.checksums.sha512=3f2666760cdfaf601b21a56a283741cf6c55b1a3e96119836a6f7ad93cb88188165e2f218bed1c93813bd97e9d918f908663a0c64955120251a2b8701744733b
 
 outputs.2.coordinates=org.apache.maven.plugins:maven-plugins
 
-outputs.2.0.filename=maven-plugins-34-site.xml
-outputs.2.0.length=1180
-outputs.2.0.checksums.sha512=6eeb867d05275b8b1a66307bd53c2cd44434c252917e25fda0144377e3915bcad584c34033a9c2892c5f921db03131c8089df17240ed7c733995caa8831b82d3
+outputs.2.0.filename=maven-plugins-34.pom
+outputs.2.0.length=10687
+outputs.2.0.checksums.sha512=fc8e03b10b8b0c455ab2829a4cd70a386cf89646845710233d4d652e35971c97fd93d8fc4110c0ddb283d4062fef5ae00cc22694e8f50e3675689175afd990d5
+
+outputs.2.1.filename=maven-plugins-34-site.xml
+outputs.2.1.length=1180
+outputs.2.1.checksums.sha512=6eeb867d05275b8b1a66307bd53c2cd44434c252917e25fda0144377e3915bcad584c34033a9c2892c5f921db03131c8089df17240ed7c733995caa8831b82d3
 
 outputs.3.coordinates=org.apache.maven.shared:maven-shared-components
 
-outputs.3.0.filename=maven-shared-components-34-site.xml
-outputs.3.0.length=1194
-outputs.3.0.checksums.sha512=3059cb8a65a6c276030dd2cd9a4f8cceda75585b010247ecc0f70c5c2cbe9db7f5d7cd3de343b687dff2f82335777e0a62c2b185f2027843f84fadaa03a720d3
+outputs.3.0.filename=maven-shared-components-34.pom
+outputs.3.0.length=5096
+outputs.3.0.checksums.sha512=c0b08109c8df5a141d3f2c4c86216603a576fc56ed4ca1b32011646c574d0d04ca70181eca0b1b3d89f4e64059920b4cba07156128ccf4ed6cb6ce137b91361d
+
+outputs.3.1.filename=maven-shared-components-34-site.xml
+outputs.3.1.length=1194
+outputs.3.1.checksums.sha512=3059cb8a65a6c276030dd2cd9a4f8cceda75585b010247ecc0f70c5c2cbe9db7f5d7cd3de343b687dff2f82335777e0a62c2b185f2027843f84fadaa03a720d3
 
 outputs.4.coordinates=org.apache.maven.skins:maven-skins
 
-outputs.4.0.filename=maven-skins-34-site.xml
-outputs.4.0.length=1176
-outputs.4.0.checksums.sha512=add4d6e24a74f60ae0102ef5b9a2d881bb834a7dde5d2faeb05059c3bfcbc95566665fbc8c8a77ce380d08d775434787e971ab932ebec4a636c3154ba8f6863b
+outputs.4.0.filename=maven-skins-34.pom
+outputs.4.0.length=3454
+outputs.4.0.checksums.sha512=96ae244945a60d652984b19bbca78d4b748b1a20f1f2a1518aff7ee9cddfca9478536e9c937340568744ae6d5cbdcde85192d4f6c3e050b30ab838b17588a084
+
+outputs.4.1.filename=maven-skins-34-site.xml
+outputs.4.1.length=1176
+outputs.4.1.checksums.sha512=add4d6e24a74f60ae0102ef5b9a2d881bb834a7dde5d2faeb05059c3bfcbc95566665fbc8c8a77ce380d08d775434787e971ab932ebec4a636c3154ba8f6863b
 
 outputs.5.coordinates=org.apache.maven.doxia:doxia-tools
 
-outputs.5.0.filename=doxia-tools-34-site.xml
-outputs.5.0.length=1778
-outputs.5.0.checksums.sha512=5cff7bc978f91aea2ab435a57f88dee7acabd2c7752046e408370fb0c14a429be90ef81719da31dd15ab8d67a31d8e4c1e16cc2e97595c19a1ea27bfbcf5c140
+outputs.5.0.filename=doxia-tools-34.pom
+outputs.5.0.length=4384
+outputs.5.0.checksums.sha512=323ac098a91e8ea8120e592d4fbca95db114fbc9e35f3d33e87c8d2a82affe38c2734ff2cf6d9c2c43bf1b456b19ac5a3f3c3b28e2408f5ee39059d0d9e1b3ba
+
+outputs.5.1.filename=doxia-tools-34-site.xml
+outputs.5.1.length=1778
+outputs.5.1.checksums.sha512=5cff7bc978f91aea2ab435a57f88dee7acabd2c7752046e408370fb0c14a429be90ef81719da31dd15ab8d67a31d8e4c1e16cc2e97595c19a1ea27bfbcf5c140
 
 outputs.6.coordinates=org.apache.apache.resources:apache-resource-bundles
+
+outputs.6.0.filename=apache-resource-bundles-34.pom
+outputs.6.0.length=4500
+outputs.6.0.checksums.sha512=7416ac0ffabaacbacec1fe83c1ddf63d2f5c2cf64632f96a6791894957e311f9e0e2091ee020da26c34db170774d7672c358883e4953573c3882264d73d3eaa3

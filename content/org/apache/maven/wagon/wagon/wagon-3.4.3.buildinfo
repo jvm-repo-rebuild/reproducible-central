@@ -13,179 +13,245 @@ source.scm.tag=wagon-3.4.3
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_275
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.aggregate.artifact-id=wagon-webdav-jackrabbit
 
 # aggregated output
 
 outputs.0.coordinates=org.apache.maven.wagon:wagon
 
-outputs.0.0.filename=wagon-3.4.3-site.xml
-outputs.0.0.length=1530
-outputs.0.0.checksums.sha512=b269f8a6edabfbbd01e5a4469161efa4613af5e26ebc285e5a8f44cbffd68a78d548eb303b47258846c317b3882b09e1c457d1ce25f9bde8b2545160b7513f93
+outputs.0.0.filename=wagon-3.4.3.pom
+outputs.0.0.length=21387
+outputs.0.0.checksums.sha512=fd1d5abc323cb6244d45a07bb2e22c592cc362ff464ccd18133f617ee6feeae26e5d518064c061dbbe64510f9f89c591258f00362430cfaab53f662e1e262f93
 
-outputs.0.1.filename=wagon-3.4.3-source-release.zip
-outputs.0.1.length=639463
-outputs.0.1.checksums.sha512=377ad8690bab1a6698cbc45ab6c2c7fc09d36851ff6df8543857da8cee06d50e4daa73dda0b8daed9c46acd835b324245ca1dce67c1c7957cd75808f819938de
+outputs.0.1.filename=wagon-3.4.3-site.xml
+outputs.0.1.length=1530
+outputs.0.1.checksums.sha512=b269f8a6edabfbbd01e5a4469161efa4613af5e26ebc285e5a8f44cbffd68a78d548eb303b47258846c317b3882b09e1c457d1ce25f9bde8b2545160b7513f93
+
+outputs.0.2.filename=wagon-3.4.3-source-release.zip
+outputs.0.2.length=639463
+outputs.0.2.checksums.sha512=377ad8690bab1a6698cbc45ab6c2c7fc09d36851ff6df8543857da8cee06d50e4daa73dda0b8daed9c46acd835b324245ca1dce67c1c7957cd75808f819938de
 
 outputs.1.coordinates=org.apache.maven.wagon:wagon-provider-api
 
-outputs.1.0.filename=wagon-provider-api-3.4.3.jar
-outputs.1.0.length=55100
-outputs.1.0.checksums.sha512=23afac3a4a64197187a51ffb4be1d1b8b1633246697b24d292a602dac85b394bfb2e1fa27b9e2d428a28641fa131bd56106d100e2771337755820ce9a3149951
+outputs.1.0.filename=wagon-provider-api-3.4.3.pom
+outputs.1.0.length=1911
+outputs.1.0.checksums.sha512=42c5ce07ebd0f989f01fbfec1f777338f17defd19d8d93fceb22cefac011a8f5b89f105910624e06a8b85458318dad55e7f4c9eed39f78e2c55526b7c5633bd7
 
-outputs.1.1.filename=wagon-provider-api-3.4.3-sources.jar
-outputs.1.1.length=64086
-outputs.1.1.checksums.sha512=707909a4638da02342ddf9933142a23183682c080652f4eabdc1897fcca83151b596a271600f26de1cc73a561f97d06ec80822221d73cdef74b1256171ceba9b
+outputs.1.1.filename=wagon-provider-api-3.4.3.jar
+outputs.1.1.length=55100
+outputs.1.1.checksums.sha512=23afac3a4a64197187a51ffb4be1d1b8b1633246697b24d292a602dac85b394bfb2e1fa27b9e2d428a28641fa131bd56106d100e2771337755820ce9a3149951
+
+outputs.1.2.filename=wagon-provider-api-3.4.3-sources.jar
+outputs.1.2.length=64086
+outputs.1.2.checksums.sha512=707909a4638da02342ddf9933142a23183682c080652f4eabdc1897fcca83151b596a271600f26de1cc73a561f97d06ec80822221d73cdef74b1256171ceba9b
 
 outputs.2.coordinates=org.apache.maven.wagon:wagon-provider-test
 
-outputs.2.0.filename=wagon-provider-test-3.4.3.jar
-outputs.2.0.length=58176
-outputs.2.0.checksums.sha512=8289f8d6816eac8a799c7b5fce3e7cbd380c0e54eb4f048949feccb8d5a667a8f13e6fe933e888d1f8d211e37b2d9590dce626e5e292171354d4d72f565b3156
+outputs.2.0.filename=wagon-provider-test-3.4.3.pom
+outputs.2.0.length=2569
+outputs.2.0.checksums.sha512=fc9e47bd7be113fe2f58c639305581b47707aa0e74c39b960ee74e744b1eee627842d0e39626f0fae0b37194f9909ae9b022ed527633499189b99a152ba0af5b
 
-outputs.2.1.filename=wagon-provider-test-3.4.3-sources.jar
-outputs.2.1.length=30686
-outputs.2.1.checksums.sha512=022ef59d87faaea103fcc57d8cb62fe8774b6066e2b47612b76451787afb746c65082221f19b96bcec72d31e336a2820180fe53fd74f508925b8f9e11539803f
+outputs.2.1.filename=wagon-provider-test-3.4.3.jar
+outputs.2.1.length=58176
+outputs.2.1.checksums.sha512=8289f8d6816eac8a799c7b5fce3e7cbd380c0e54eb4f048949feccb8d5a667a8f13e6fe933e888d1f8d211e37b2d9590dce626e5e292171354d4d72f565b3156
+
+outputs.2.2.filename=wagon-provider-test-3.4.3-sources.jar
+outputs.2.2.length=30686
+outputs.2.2.checksums.sha512=022ef59d87faaea103fcc57d8cb62fe8774b6066e2b47612b76451787afb746c65082221f19b96bcec72d31e336a2820180fe53fd74f508925b8f9e11539803f
 
 outputs.3.coordinates=org.apache.maven.wagon:wagon-providers
 
-outputs.3.0.filename=wagon-providers-3.4.3-site.xml
-outputs.3.0.length=1262
-outputs.3.0.checksums.sha512=7e41116239e18be1e4e9dd2db54a9b146eb4575937abd13f650524caa38270c0dd4167b20d9337e562027627b08de552877ca66bb26104ceeb2fb6fa5f2f0f71
+outputs.3.0.filename=wagon-providers-3.4.3.pom
+outputs.3.0.length=3046
+outputs.3.0.checksums.sha512=7c0c961b5da4faed94f07860e44e018a4901fcbe2ac7a17364dbcf9b44cf0ca9714f1edb917a222d2857fb4906d647f28579f472a43b48dd863020807e903194
+
+outputs.3.1.filename=wagon-providers-3.4.3-site.xml
+outputs.3.1.length=1262
+outputs.3.1.checksums.sha512=7e41116239e18be1e4e9dd2db54a9b146eb4575937abd13f650524caa38270c0dd4167b20d9337e562027627b08de552877ca66bb26104ceeb2fb6fa5f2f0f71
 
 outputs.4.coordinates=org.apache.maven.wagon:wagon-file
 
-outputs.4.0.filename=wagon-file-3.4.3.jar
-outputs.4.0.length=11350
-outputs.4.0.checksums.sha512=4ca8a0fb5cf708d097ef87bae96a3d1d17b57ccd1b51a38130eaa7378230ffd0adfb9f0fa56d2567a98a3d0ea9f5a736d8d8f8eb294f7ca2b4e874dcb7df099c
+outputs.4.0.filename=wagon-file-3.4.3.pom
+outputs.4.0.length=1775
+outputs.4.0.checksums.sha512=994e39faf2e2c743767583e9a3bb83a56a1321f76621c3980ea4857190d2f3991ad23bddddd421eb2e17da4bd73e50c0d87d7abdc461ccae27ea5a904c02a4b4
 
-outputs.4.1.filename=wagon-file-3.4.3-sources.jar
-outputs.4.1.length=10103
-outputs.4.1.checksums.sha512=c2e1ace68ecc26fd9efe4544b4b7097147df2fc91d5f498a80ea3094ac14b152a6ff4f1c0658aa54eab9b3b84863b562bc938f9bc83457f193bef9918fed591c
+outputs.4.1.filename=wagon-file-3.4.3.jar
+outputs.4.1.length=11350
+outputs.4.1.checksums.sha512=4ca8a0fb5cf708d097ef87bae96a3d1d17b57ccd1b51a38130eaa7378230ffd0adfb9f0fa56d2567a98a3d0ea9f5a736d8d8f8eb294f7ca2b4e874dcb7df099c
+
+outputs.4.2.filename=wagon-file-3.4.3-sources.jar
+outputs.4.2.length=10103
+outputs.4.2.checksums.sha512=c2e1ace68ecc26fd9efe4544b4b7097147df2fc91d5f498a80ea3094ac14b152a6ff4f1c0658aa54eab9b3b84863b562bc938f9bc83457f193bef9918fed591c
 
 outputs.5.coordinates=org.apache.maven.wagon:wagon-ftp
 
-outputs.5.0.filename=wagon-ftp-3.4.3.jar
-outputs.5.0.length=18558
-outputs.5.0.checksums.sha512=a21822f9127990a022e967ca52ad5048cbdb8029d010e1f45073bfb08bcd2bb445f3905031daf542155a0e44f84eb908a9952ceb8440bcc83d8e90f2c2e05547
+outputs.5.0.filename=wagon-ftp-3.4.3.pom
+outputs.5.0.length=2238
+outputs.5.0.checksums.sha512=dbebd7caaf1c7f87ea5e8feb455aa30dbafd14e2f41a90ead503dd09667e5554371da7f30b36eb208b00fa33054ff3b643b099733637ed0bd0781e18029e0b8a
 
-outputs.5.1.filename=wagon-ftp-3.4.3-sources.jar
-outputs.5.1.length=15590
-outputs.5.1.checksums.sha512=2fb372d3f3ea747d265aece6b11d7a951c052c5bcafbd4d30dd15f66b950811abb494536fad14fc16c0f0b81da8683f9d9fd3b4130d4ed2ff26df8902661331d
+outputs.5.1.filename=wagon-ftp-3.4.3.jar
+outputs.5.1.length=18558
+outputs.5.1.checksums.sha512=a21822f9127990a022e967ca52ad5048cbdb8029d010e1f45073bfb08bcd2bb445f3905031daf542155a0e44f84eb908a9952ceb8440bcc83d8e90f2c2e05547
+
+outputs.5.2.filename=wagon-ftp-3.4.3-sources.jar
+outputs.5.2.length=15590
+outputs.5.2.checksums.sha512=2fb372d3f3ea747d265aece6b11d7a951c052c5bcafbd4d30dd15f66b950811abb494536fad14fc16c0f0b81da8683f9d9fd3b4130d4ed2ff26df8902661331d
 
 outputs.6.coordinates=org.apache.maven.wagon:wagon-http-shared
 
-outputs.6.0.filename=wagon-http-shared-3.4.3.jar
-outputs.6.0.length=43410
-outputs.6.0.checksums.sha512=e106dbbee733cb7ab75e933fed186d52c3d2056ae96b6353e472c16b2c76ca0c8163d5753ddc80b4f6defd26ac82bf32cd928f87e6c578a042f3f8eedff4b7e6
+outputs.6.0.filename=wagon-http-shared-3.4.3.pom
+outputs.6.0.length=2595
+outputs.6.0.checksums.sha512=9690615e78240b3bf1e6cbe79623b5d15a0392ed5ec1a4596aef9937bdfd76f02ba0af8e88b63107c9eceda43d439f39b9f7ec13aeabfeea2b7e711429004751
 
-outputs.6.1.filename=wagon-http-shared-3.4.3-sources.jar
-outputs.6.1.length=35404
-outputs.6.1.checksums.sha512=bf4265c3255d0ed2edc846f2c119c47404a043a823f4baec5e6e8b530d67d8bf30f4cb94b9e6a7c9d924211f9ab70a1a9760c1618852a1ce43a79cd65a94555f
+outputs.6.1.filename=wagon-http-shared-3.4.3.jar
+outputs.6.1.length=43410
+outputs.6.1.checksums.sha512=e106dbbee733cb7ab75e933fed186d52c3d2056ae96b6353e472c16b2c76ca0c8163d5753ddc80b4f6defd26ac82bf32cd928f87e6c578a042f3f8eedff4b7e6
+
+outputs.6.2.filename=wagon-http-shared-3.4.3-sources.jar
+outputs.6.2.length=35404
+outputs.6.2.checksums.sha512=bf4265c3255d0ed2edc846f2c119c47404a043a823f4baec5e6e8b530d67d8bf30f4cb94b9e6a7c9d924211f9ab70a1a9760c1618852a1ce43a79cd65a94555f
 
 outputs.7.coordinates=org.apache.maven.wagon:wagon-tcks
 
-outputs.7.0.filename=wagon-tcks-3.4.3-site.xml
-outputs.7.0.length=1257
-outputs.7.0.checksums.sha512=eb65149259be2c1002d30e1bd6173f88b3604fed7aba89846ffc72425cde0c4d52032107042b41db7a943b1b14cb0225da543baf63977497417042918151d4aa
+outputs.7.0.filename=wagon-tcks-3.4.3.pom
+outputs.7.0.length=1638
+outputs.7.0.checksums.sha512=d4a66b930172a93977ff4d7883ab488d1add8f7bc395d63f127f787bfeb7884b0284da57eed441edf49247c991c2e4316bb81bc8783d7e300f5ac51e7f0e17a7
+
+outputs.7.1.filename=wagon-tcks-3.4.3-site.xml
+outputs.7.1.length=1257
+outputs.7.1.checksums.sha512=eb65149259be2c1002d30e1bd6173f88b3604fed7aba89846ffc72425cde0c4d52032107042b41db7a943b1b14cb0225da543baf63977497417042918151d4aa
 
 outputs.8.coordinates=org.apache.maven.wagon:wagon-tck-http
 
-outputs.8.0.filename=wagon-tck-http-3.4.3.jar
-outputs.8.0.length=40855
-outputs.8.0.checksums.sha512=7bbe045db306be427d2bf9b3b893f51e386ceafe7cde9baa84a7499dff080aa84050937efee966de70c84bae210d193f28d1c71856840ca3da0fd9ea28205a54
+outputs.8.0.filename=wagon-tck-http-3.4.3.pom
+outputs.8.0.length=2535
+outputs.8.0.checksums.sha512=58ada971d6d9a2db48e3fd70b150863e89b47a603f5f79e602a9b73501bac18ab653f4c11e139fdfd58dd2f92736163c0da5c5bf006a8291f75998887a08c376
 
-outputs.8.1.filename=wagon-tck-http-3.4.3-sources.jar
-outputs.8.1.length=33650
-outputs.8.1.checksums.sha512=3d23b0eb34a00fd12903c6049dc3978da8d11c7a48929404b8c8f206e5167d698a0b726bd3a8f6e18907d2aab60b350930c572f91b087b8f844d7e06a1b4e12e
+outputs.8.1.filename=wagon-tck-http-3.4.3.jar
+outputs.8.1.length=40855
+outputs.8.1.checksums.sha512=7bbe045db306be427d2bf9b3b893f51e386ceafe7cde9baa84a7499dff080aa84050937efee966de70c84bae210d193f28d1c71856840ca3da0fd9ea28205a54
+
+outputs.8.2.filename=wagon-tck-http-3.4.3-sources.jar
+outputs.8.2.length=33650
+outputs.8.2.checksums.sha512=3d23b0eb34a00fd12903c6049dc3978da8d11c7a48929404b8c8f206e5167d698a0b726bd3a8f6e18907d2aab60b350930c572f91b087b8f844d7e06a1b4e12e
 
 outputs.9.coordinates=org.apache.maven.wagon:wagon-http
 
-outputs.9.0.filename=wagon-http-3.4.3.jar
-outputs.9.0.length=11280
-outputs.9.0.checksums.sha512=d50e0693a8c4d50b1410e454b2b9c3da180c1d923c3a3d684beb04c9038d0b3b7d7c9f53ba4d9dfe7778f5d0b54e0075b2c76ce8b6b35a612f54368fb0dc95ff
+outputs.9.0.filename=wagon-http-3.4.3.pom
+outputs.9.0.length=6647
+outputs.9.0.checksums.sha512=c1a1549c5ca21f36440a2080af5b985f241d6d631701ef596ed476c6885037055972dbc0bbb816a180ddd74174b72644c2c7da37193640c7e2123e410ba8db5d
 
-outputs.9.1.filename=wagon-http-3.4.3-sources.jar
-outputs.9.1.length=11201
-outputs.9.1.checksums.sha512=337f8be3cf2efe5312c46a7f45e59c54877cda56929aed2b0b09f490f5d63acb0079b6ac15a4f04f6d461af60c5d78129489fd15fd0dbdb5c84a0f22813f5a0b
+outputs.9.1.filename=wagon-http-3.4.3.jar
+outputs.9.1.length=11280
+outputs.9.1.checksums.sha512=d50e0693a8c4d50b1410e454b2b9c3da180c1d923c3a3d684beb04c9038d0b3b7d7c9f53ba4d9dfe7778f5d0b54e0075b2c76ce8b6b35a612f54368fb0dc95ff
 
-outputs.9.2.filename=wagon-http-3.4.3-shaded.jar
-outputs.9.2.length=2240974
-outputs.9.2.checksums.sha512=d6e2b7525f1e6e62ce2630f8a41cf0242b4555ec0b5a6075a20cc8b4c03cb344c4f62660fa3fc5f1850f4030651e78a624f4795b8b00b2a9fb38dee11329f0cf
+outputs.9.2.filename=wagon-http-3.4.3-sources.jar
+outputs.9.2.length=11201
+outputs.9.2.checksums.sha512=337f8be3cf2efe5312c46a7f45e59c54877cda56929aed2b0b09f490f5d63acb0079b6ac15a4f04f6d461af60c5d78129489fd15fd0dbdb5c84a0f22813f5a0b
+
+outputs.9.3.filename=wagon-http-3.4.3-shaded.jar
+outputs.9.3.length=2240974
+outputs.9.3.checksums.sha512=d6e2b7525f1e6e62ce2630f8a41cf0242b4555ec0b5a6075a20cc8b4c03cb344c4f62660fa3fc5f1850f4030651e78a624f4795b8b00b2a9fb38dee11329f0cf
 
 outputs.10.coordinates=org.apache.maven.wagon:wagon-http-lightweight
 
-outputs.10.0.filename=wagon-http-lightweight-3.4.3.jar
-outputs.10.0.length=17811
-outputs.10.0.checksums.sha512=ef9d14cd19c31dba9744fbf678a6bd340463669e332df35969214b86af27f82c7c8a8821e24898de4df8474ca316361f87b0d719809eaa50bb18ceca9275be22
+outputs.10.0.filename=wagon-http-lightweight-3.4.3.pom
+outputs.10.0.length=2638
+outputs.10.0.checksums.sha512=d4c8743edc693a5cdd54ef3bd8b24a19b946f0e43f813bb5c215d52222686a6188f8a98e09c4553c65321aafa7c9a0c36a3542779daea7d4a4f72033cd6daa0e
 
-outputs.10.1.filename=wagon-http-lightweight-3.4.3-sources.jar
-outputs.10.1.length=15747
-outputs.10.1.checksums.sha512=e011ffdac4c25a8967179e7785543cd5b001fca0b3fa1ac79c3fdfafdd1a7318f0dcb517c4e2068eff887dd6a90eb60fb465771e2feadb3d5c5cb6afb85dcc7e
+outputs.10.1.filename=wagon-http-lightweight-3.4.3.jar
+outputs.10.1.length=17811
+outputs.10.1.checksums.sha512=ef9d14cd19c31dba9744fbf678a6bd340463669e332df35969214b86af27f82c7c8a8821e24898de4df8474ca316361f87b0d719809eaa50bb18ceca9275be22
+
+outputs.10.2.filename=wagon-http-lightweight-3.4.3-sources.jar
+outputs.10.2.length=15747
+outputs.10.2.checksums.sha512=e011ffdac4c25a8967179e7785543cd5b001fca0b3fa1ac79c3fdfafdd1a7318f0dcb517c4e2068eff887dd6a90eb60fb465771e2feadb3d5c5cb6afb85dcc7e
 
 outputs.11.coordinates=org.apache.maven.wagon:wagon-scm
 
-outputs.11.0.filename=wagon-scm-3.4.3.jar
-outputs.11.0.length=17352
-outputs.11.0.checksums.sha512=3e227c8e7bee4f300e246d90d7019189469d3388370766eac4b16d21c11c4220d8a83db34859482f4577ecad5d3f1f48bb6261ef721cd77e40963aa6925cf182
+outputs.11.0.filename=wagon-scm-3.4.3.pom
+outputs.11.0.length=3358
+outputs.11.0.checksums.sha512=2807d30026ab572caa161b12ad68c285842ac2c279f1ffdf8c0399ac2b2a86ae51449b95bcbf7411eb541da339a3b1fa7c64a77a5d1e65c7e89eb9f993bf81cc
 
-outputs.11.1.filename=wagon-scm-3.4.3-sources.jar
-outputs.11.1.length=14491
-outputs.11.1.checksums.sha512=b59f78499fc04ed4f37856e25168e659a90e15d043b4a4c423e306ce84a66d095f868ac5ca39591864b997070ef16df8d8c9a4663e4c49199492696da82c4438
+outputs.11.1.filename=wagon-scm-3.4.3.jar
+outputs.11.1.length=17352
+outputs.11.1.checksums.sha512=3e227c8e7bee4f300e246d90d7019189469d3388370766eac4b16d21c11c4220d8a83db34859482f4577ecad5d3f1f48bb6261ef721cd77e40963aa6925cf182
+
+outputs.11.2.filename=wagon-scm-3.4.3-sources.jar
+outputs.11.2.length=14491
+outputs.11.2.checksums.sha512=b59f78499fc04ed4f37856e25168e659a90e15d043b4a4c423e306ce84a66d095f868ac5ca39591864b997070ef16df8d8c9a4663e4c49199492696da82c4438
 
 outputs.12.coordinates=org.apache.maven.wagon:wagon-ssh-common
 
-outputs.12.0.filename=wagon-ssh-common-3.4.3.jar
-outputs.12.0.length=26228
-outputs.12.0.checksums.sha512=893ee51a2ccc5cd910ad39c3e06367b53dcc2bfff2fdd75daedfcdd20659ec5c21b80c87702d50154389ba06aaf368bad7e39450b39b3affcadf700326676cf0
+outputs.12.0.filename=wagon-ssh-common-3.4.3.pom
+outputs.12.0.length=2022
+outputs.12.0.checksums.sha512=9ae957228a3e4a2e22b1ed942cdcde80830ff039c40929323e91f4f4222ae0546a61391836772bf3a0683d6e1d56d3d3bca7f2e19902532cb9419f3247cf8809
 
-outputs.12.1.filename=wagon-ssh-common-3.4.3-sources.jar
-outputs.12.1.length=27863
-outputs.12.1.checksums.sha512=c2210e053e5080047d08362489ae0d56ed37a12424f718ba290478be0f8c46dd17d819b26e8e4e6ed3f3f2519131f4339bf0943ab140c3cf622a84bc20686cd8
+outputs.12.1.filename=wagon-ssh-common-3.4.3.jar
+outputs.12.1.length=26228
+outputs.12.1.checksums.sha512=893ee51a2ccc5cd910ad39c3e06367b53dcc2bfff2fdd75daedfcdd20659ec5c21b80c87702d50154389ba06aaf368bad7e39450b39b3affcadf700326676cf0
+
+outputs.12.2.filename=wagon-ssh-common-3.4.3-sources.jar
+outputs.12.2.length=27863
+outputs.12.2.checksums.sha512=c2210e053e5080047d08362489ae0d56ed37a12424f718ba290478be0f8c46dd17d819b26e8e4e6ed3f3f2519131f4339bf0943ab140c3cf622a84bc20686cd8
 
 outputs.13.coordinates=org.apache.maven.wagon:wagon-ssh-common-test
 
-outputs.13.0.filename=wagon-ssh-common-test-3.4.3.jar
-outputs.13.0.length=41410
-outputs.13.0.checksums.sha512=65669a5088f545805a45db90b6305d4f7f609d3fb2c6e816ef33dfe5b179b7760caafa48cd8d8bf91c9203d824fffd19f223cb54e48150d99fdd92b295547919
+outputs.13.0.filename=wagon-ssh-common-test-3.4.3.pom
+outputs.13.0.length=2589
+outputs.13.0.checksums.sha512=345c6c5c366416ceaf0fa325e594e56cc9db140fa49b67c2209222e7209f4a2e1c73407639cfa07a676a6e5057083ce07b6f61640b1d4c8435bbb3f61fc41c24
 
-outputs.13.1.filename=wagon-ssh-common-test-3.4.3-sources.jar
-outputs.13.1.length=31194
-outputs.13.1.checksums.sha512=488a7b9d962bf852debe8b6f6f0a4135195cd9ddcb5918dc2ca791b99c8d5fd4c0d9ed16fb23f76c7ded353895476e6f47bfcd200a9cdd89b9f0713575eea65a
+outputs.13.1.filename=wagon-ssh-common-test-3.4.3.jar
+outputs.13.1.length=41410
+outputs.13.1.checksums.sha512=65669a5088f545805a45db90b6305d4f7f609d3fb2c6e816ef33dfe5b179b7760caafa48cd8d8bf91c9203d824fffd19f223cb54e48150d99fdd92b295547919
+
+outputs.13.2.filename=wagon-ssh-common-test-3.4.3-sources.jar
+outputs.13.2.length=31194
+outputs.13.2.checksums.sha512=488a7b9d962bf852debe8b6f6f0a4135195cd9ddcb5918dc2ca791b99c8d5fd4c0d9ed16fb23f76c7ded353895476e6f47bfcd200a9cdd89b9f0713575eea65a
 
 outputs.14.coordinates=org.apache.maven.wagon:wagon-ssh-external
 
-outputs.14.0.filename=wagon-ssh-external-3.4.3.jar
-outputs.14.0.length=15162
-outputs.14.0.checksums.sha512=4ed5ffea7e64560d6ab7379505a2d2c6f6611848c21352e12542fc301f96962e758c8b1898db55253a5ac17914a3e71d8e2560b1cf8a534a4d1bb460f28b122e
+outputs.14.0.filename=wagon-ssh-external-3.4.3.pom
+outputs.14.0.length=4062
+outputs.14.0.checksums.sha512=fb4603f5391d13053459415efef582d8d27a99c2cbab9c7bad02e9a6366e659c66815714bbf0ac2b0fba2a8cbb9b41fc64a4e774f90814fc7a2fb8ea545256e2
 
-outputs.14.1.filename=wagon-ssh-external-3.4.3-sources.jar
-outputs.14.1.length=13222
-outputs.14.1.checksums.sha512=1a330420392030985ac89f3e75812757e8e007da51b8389c52238cf96dcb9089d835a5bb4eadf118617d9eb60e62e7545df53de383c19abfc0a588846c16fb59
+outputs.14.1.filename=wagon-ssh-external-3.4.3.jar
+outputs.14.1.length=15162
+outputs.14.1.checksums.sha512=4ed5ffea7e64560d6ab7379505a2d2c6f6611848c21352e12542fc301f96962e758c8b1898db55253a5ac17914a3e71d8e2560b1cf8a534a4d1bb460f28b122e
+
+outputs.14.2.filename=wagon-ssh-external-3.4.3-sources.jar
+outputs.14.2.length=13222
+outputs.14.2.checksums.sha512=1a330420392030985ac89f3e75812757e8e007da51b8389c52238cf96dcb9089d835a5bb4eadf118617d9eb60e62e7545df53de383c19abfc0a588846c16fb59
 
 outputs.15.coordinates=org.apache.maven.wagon:wagon-ssh
 
-outputs.15.0.filename=wagon-ssh-3.4.3.jar
-outputs.15.0.length=31511
-outputs.15.0.checksums.sha512=d4a4fbd3a0091d0aa8059ba238cfb9a1868b0f1812ffd98c7a5fb947da1c421d9cac27b0b3b7f8c261c1ae505c47b969f606144548ac5b40804039d3305bf3f2
+outputs.15.0.filename=wagon-ssh-3.4.3.pom
+outputs.15.0.length=6480
+outputs.15.0.checksums.sha512=e8dd85d16fd804175d062a4d9a3b7605f68ed99534a976f186993d191a2d3a6c663eb30acd2fbf1188837891471bd678c8992b9b34040747762806c7f7d1dcd8
 
-outputs.15.1.filename=wagon-ssh-3.4.3-sources.jar
-outputs.15.1.length=25249
-outputs.15.1.checksums.sha512=e76a50ec62bffa723057f10de2da2b988e86d8bc11c2e2567dfe84727dcce526c5ad7aff1254a3f3a70ff611c466d1337e837ddba72c3777e9fa4854e08a9594
+outputs.15.1.filename=wagon-ssh-3.4.3.jar
+outputs.15.1.length=31511
+outputs.15.1.checksums.sha512=d4a4fbd3a0091d0aa8059ba238cfb9a1868b0f1812ffd98c7a5fb947da1c421d9cac27b0b3b7f8c261c1ae505c47b969f606144548ac5b40804039d3305bf3f2
+
+outputs.15.2.filename=wagon-ssh-3.4.3-sources.jar
+outputs.15.2.length=25249
+outputs.15.2.checksums.sha512=e76a50ec62bffa723057f10de2da2b988e86d8bc11c2e2567dfe84727dcce526c5ad7aff1254a3f3a70ff611c466d1337e837ddba72c3777e9fa4854e08a9594
 
 outputs.16.coordinates=org.apache.maven.wagon:wagon-webdav-jackrabbit
 
-outputs.16.0.filename=wagon-webdav-jackrabbit-3.4.3.jar
-outputs.16.0.length=20667
-outputs.16.0.checksums.sha512=be3a3406d605e497825d066bc6d2bbf750fc31fad4887a5e446a95b9f32e51231c6be64e1013ecc4a98d3285132e0a5e1a85f89a6473342aa78d860794b935dd
+outputs.16.0.filename=wagon-webdav-jackrabbit-3.4.3.pom
+outputs.16.0.length=5434
+outputs.16.0.checksums.sha512=445a395636c260a0717078a4ba83c38188863128a017ce64d8dc4dccf50a4f22e80dd64078b710619f5c877ab12f77916f35ac7befa3a784d5d0d088d7560826
 
-outputs.16.1.filename=wagon-webdav-jackrabbit-3.4.3-sources.jar
-outputs.16.1.length=19359
-outputs.16.1.checksums.sha512=8deab9412e231a58137b9850207212d4323262d046b9e918250dbe09d8707245cf26563c5b564be81b11a8e14beb7fa858bfd99b652ad08ce77e35ec74b60cab
+outputs.16.1.filename=wagon-webdav-jackrabbit-3.4.3.jar
+outputs.16.1.length=20667
+outputs.16.1.checksums.sha512=be3a3406d605e497825d066bc6d2bbf750fc31fad4887a5e446a95b9f32e51231c6be64e1013ecc4a98d3285132e0a5e1a85f89a6473342aa78d860794b935dd
+
+outputs.16.2.filename=wagon-webdav-jackrabbit-3.4.3-sources.jar
+outputs.16.2.length=19359
+outputs.16.2.checksums.sha512=8deab9412e231a58137b9850207212d4323262d046b9e918250dbe09d8707245cf26563c5b564be81b11a8e14beb7fa858bfd99b652ad08ce77e35ec74b60cab

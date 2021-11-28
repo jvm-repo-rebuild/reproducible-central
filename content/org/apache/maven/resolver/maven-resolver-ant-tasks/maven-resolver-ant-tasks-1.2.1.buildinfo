@@ -13,28 +13,30 @@ source.scm.tag=maven-resolver-ant-tasks-1.2.1
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 
 # output
 
-outputs.0.filename=maven-resolver-ant-tasks-1.2.1.jar
-outputs.0.length=99970
-outputs.0.checksums.sha512=01e51c26c0b6b2e4f719f0c2c1fd6eabb8b407cb232bd9cee1596bb7be68b2761ba2d913167769e37bd33efb4cc0c91dc73c4874b069b7cd5014db77d79c6c4e
+outputs.0.filename=maven-resolver-ant-tasks-1.2.1.pom
+outputs.0.length=13662
+outputs.0.checksums.sha512=fdec55a9b0fc26bca6995d4c482ae5129baa7c104459ab75655b05670945f66ea621ca6a5e5b3dafcc144446bf62e1a06c5ed065c3e7a2b8d996cf2e739c6c5d
 
-outputs.1.filename=maven-resolver-ant-tasks-1.2.1-source-release.zip
-outputs.1.length=126084
-outputs.1.checksums.sha512=746c4377e3923c071d8ed8117cc2f8e9303e325551f81040e7cb0bb5eae1cc7c604ae21e2c88496bb8b0f9919a1a121aaabcaa2aef64805b8e1a223f76fab07c
+outputs.1.filename=maven-resolver-ant-tasks-1.2.1.jar
+outputs.1.length=99970
+outputs.1.checksums.sha512=01e51c26c0b6b2e4f719f0c2c1fd6eabb8b407cb232bd9cee1596bb7be68b2761ba2d913167769e37bd33efb4cc0c91dc73c4874b069b7cd5014db77d79c6c4e
 
-outputs.2.filename=maven-resolver-ant-tasks-1.2.1-sources.jar
-outputs.2.length=72950
-outputs.2.checksums.sha512=7a457a6df35e4be4c46f8f376ccf9cbf0cb453499a0b470a0cc9a2eeb969a5decb990d12ae97942a1d77efd78c6d3a80c75f3b68e2efbaddb44fb080152ab619
+outputs.2.filename=maven-resolver-ant-tasks-1.2.1-source-release.zip
+outputs.2.length=126084
+outputs.2.checksums.sha512=746c4377e3923c071d8ed8117cc2f8e9303e325551f81040e7cb0bb5eae1cc7c604ae21e2c88496bb8b0f9919a1a121aaabcaa2aef64805b8e1a223f76fab07c
 
-outputs.3.filename=maven-resolver-ant-tasks-1.2.1-uber.jar
-outputs.3.length=4257345
-outputs.3.checksums.sha512=4929e1d6169b87cf4000001c4d7c53d5a7ce2be9333904d030e63adc89fb2e2b1e56d2e047443330300a5e9c6a5df8258a79f64236fb690c96acfb2c7f10d15f
+outputs.3.filename=maven-resolver-ant-tasks-1.2.1-sources.jar
+outputs.3.length=72950
+outputs.3.checksums.sha512=7a457a6df35e4be4c46f8f376ccf9cbf0cb453499a0b470a0cc9a2eeb969a5decb990d12ae97942a1d77efd78c6d3a80c75f3b68e2efbaddb44fb080152ab619
+
+outputs.4.filename=maven-resolver-ant-tasks-1.2.1-uber.jar
+outputs.4.length=4257345
+outputs.4.checksums.sha512=4929e1d6169b87cf4000001c4d7c53d5a7ce2be9333904d030e63adc89fb2e2b1e56d2e047443330300a5e9c6a5df8258a79f64236fb690c96acfb2c7f10d15f

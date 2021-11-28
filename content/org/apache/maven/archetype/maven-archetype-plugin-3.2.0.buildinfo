@@ -13,78 +13,105 @@ source.scm.tag=maven-archetype-3.2.0
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.aggregate.artifact-id=maven-archetype-plugin
 
 # aggregated output
 
 outputs.0.coordinates=org.apache.maven.archetype:maven-archetype
 
-outputs.0.0.filename=maven-archetype-3.2.0-site.xml
-outputs.0.0.length=2301
-outputs.0.0.checksums.sha512=c3e530a5c2891eb01fb5fb162d1785651cd81e4280d19e65654a15580e524b3e27b67e329042c93bd479a10249579b1e921fe5315d4f141405e3cd142d805599
+outputs.0.0.filename=maven-archetype-3.2.0.pom
+outputs.0.0.length=12058
+outputs.0.0.checksums.sha512=8b8fcbb3b8f1a3cb990a9935fdf6fecdfc6b6bb2cf200feccd3046a03353e34741b2557050d51958cbbbf5e5dcb0ca082bf36eea7f6b45609f79d746d9549a3f
 
-outputs.0.1.filename=maven-archetype-3.2.0-source-release.zip
-outputs.0.1.length=864168
-outputs.0.1.checksums.sha512=f473428e0cc373a540af6e7202ae7555978c760df519daf3d93b38fb8859e1d27137bce635267379ac07da5d2b81ad07f5f1d2697a908ccce4fd08357d13b3a0
+outputs.0.1.filename=maven-archetype-3.2.0-site.xml
+outputs.0.1.length=2301
+outputs.0.1.checksums.sha512=c3e530a5c2891eb01fb5fb162d1785651cd81e4280d19e65654a15580e524b3e27b67e329042c93bd479a10249579b1e921fe5315d4f141405e3cd142d805599
+
+outputs.0.2.filename=maven-archetype-3.2.0-source-release.zip
+outputs.0.2.length=864168
+outputs.0.2.checksums.sha512=f473428e0cc373a540af6e7202ae7555978c760df519daf3d93b38fb8859e1d27137bce635267379ac07da5d2b81ad07f5f1d2697a908ccce4fd08357d13b3a0
 
 outputs.1.coordinates=org.apache.maven.archetype:archetype-models
 
-outputs.1.0.filename=archetype-models-3.2.0-site.xml
-outputs.1.0.length=1423
-outputs.1.0.checksums.sha512=3768eb3571e3849116c1a6b8e90c3088afc0900806484f0755aa3e2d3437d947a480a35e037f659022c362fb025de69578495e2ad4a46c5c65e8a5c58ae53609
+outputs.1.0.filename=archetype-models-3.2.0.pom
+outputs.1.0.length=2748
+outputs.1.0.checksums.sha512=65fdfbd6ac4060c43b93dc9ddacd31fa07154d93985ea71b049b9336c63de421e4c3210f8811db94c4fb0e1ddab1d35e6358d55604e28465f8bb81b93fc3c2e8
+
+outputs.1.1.filename=archetype-models-3.2.0-site.xml
+outputs.1.1.length=1423
+outputs.1.1.checksums.sha512=3768eb3571e3849116c1a6b8e90c3088afc0900806484f0755aa3e2d3437d947a480a35e037f659022c362fb025de69578495e2ad4a46c5c65e8a5c58ae53609
 
 outputs.2.coordinates=org.apache.maven.archetype:archetype-catalog
 
-outputs.2.0.filename=archetype-catalog-3.2.0.jar
-outputs.2.0.length=18868
-outputs.2.0.checksums.sha512=30c4c8d3c78cf0b6879861d7afba5317ea5b4f61f1449c100b6192ed04f6dcaa55d728f004259fa0709d4854d297b1f87e16736ffe35dff29418a65b337dfb66
+outputs.2.0.filename=archetype-catalog-3.2.0.pom
+outputs.2.0.length=1905
+outputs.2.0.checksums.sha512=2dd916bf9fad094806bf1ca738aa2180083b19d8270c909da87fb1cbb05d2d0add6a2bfe6a25cd58f73db2804a7d8941d9c9e34609187492863723421b5f5ef9
 
-outputs.2.1.filename=archetype-catalog-3.2.0-sources.jar
-outputs.2.1.length=15247
-outputs.2.1.checksums.sha512=ec1f6d0771d695ee494b627732066eb934923c05e42f52a17a9fb580216529bc7e17ab2a5a38bbb1823ca09e276c8f3629123d04c06ef20763da4c6393bc0616
+outputs.2.1.filename=archetype-catalog-3.2.0.jar
+outputs.2.1.length=18868
+outputs.2.1.checksums.sha512=30c4c8d3c78cf0b6879861d7afba5317ea5b4f61f1449c100b6192ed04f6dcaa55d728f004259fa0709d4854d297b1f87e16736ffe35dff29418a65b337dfb66
+
+outputs.2.2.filename=archetype-catalog-3.2.0-sources.jar
+outputs.2.2.length=15247
+outputs.2.2.checksums.sha512=ec1f6d0771d695ee494b627732066eb934923c05e42f52a17a9fb580216529bc7e17ab2a5a38bbb1823ca09e276c8f3629123d04c06ef20763da4c6393bc0616
 
 outputs.3.coordinates=org.apache.maven.archetype:archetype-descriptor
 
-outputs.3.0.filename=archetype-descriptor-3.2.0.jar
-outputs.3.0.length=23672
-outputs.3.0.checksums.sha512=77531fa1f2ee702af86b391aebe715b0f3702939cefb40ad16152c3c87fb61481c5c11c522012c1f03f21de24166ecc95e4963b551df960f1dd77439e43823e9
+outputs.3.0.filename=archetype-descriptor-3.2.0.pom
+outputs.3.0.length=1952
+outputs.3.0.checksums.sha512=c554378352a19d62ac2011a6d8e5b88bff872085c61825fc8eee8356d38d90e27418e298cc88f582490b8c56b7492443de126a8865e01e7628f70ce1016e8476
 
-outputs.3.1.filename=archetype-descriptor-3.2.0-sources.jar
-outputs.3.1.length=19194
-outputs.3.1.checksums.sha512=3b4531836dfab9c104537ed37db929278c8ec46142fff0c442a76fde832e139f8bf66d0962d1af4b3d70a5c57c1c0571fe1937679fdd7f1db5923836f1d928b0
+outputs.3.1.filename=archetype-descriptor-3.2.0.jar
+outputs.3.1.length=23672
+outputs.3.1.checksums.sha512=77531fa1f2ee702af86b391aebe715b0f3702939cefb40ad16152c3c87fb61481c5c11c522012c1f03f21de24166ecc95e4963b551df960f1dd77439e43823e9
+
+outputs.3.2.filename=archetype-descriptor-3.2.0-sources.jar
+outputs.3.2.length=19194
+outputs.3.2.checksums.sha512=3b4531836dfab9c104537ed37db929278c8ec46142fff0c442a76fde832e139f8bf66d0962d1af4b3d70a5c57c1c0571fe1937679fdd7f1db5923836f1d928b0
 
 outputs.4.coordinates=org.apache.maven.archetype:archetype-common
 
-outputs.4.0.filename=archetype-common-3.2.0.jar
-outputs.4.0.length=183650
-outputs.4.0.checksums.sha512=64de3b1d526c6657420dd77614f4ee5dfcfd5830724e4833d99bec8c3543ae47ce61195e530933f345b223714e1098a29291a0664f63106f4e872a285c79384d
+outputs.4.0.filename=archetype-common-3.2.0.pom
+outputs.4.0.length=17103
+outputs.4.0.checksums.sha512=c084ec0647f96146b9e52add391fd835f44ddc57a5fc4bb4cf45d9e79f67e04f545a2dfaf4973cc8e7d7552bf4e47a34ea352a2f02631176a983542d9997b244
 
-outputs.4.1.filename=archetype-common-3.2.0-sources.jar
-outputs.4.1.length=148543
-outputs.4.1.checksums.sha512=46047a1c0a544075916a788dbede3af96770c1cb014ab80907f5f3bff9dd64ca79abb52c26eeaf9f74b310b2644db60f246ae2504b6b38ca5432c63dbbf02845
+outputs.4.1.filename=archetype-common-3.2.0.jar
+outputs.4.1.length=183650
+outputs.4.1.checksums.sha512=64de3b1d526c6657420dd77614f4ee5dfcfd5830724e4833d99bec8c3543ae47ce61195e530933f345b223714e1098a29291a0664f63106f4e872a285c79384d
+
+outputs.4.2.filename=archetype-common-3.2.0-sources.jar
+outputs.4.2.length=148543
+outputs.4.2.checksums.sha512=46047a1c0a544075916a788dbede3af96770c1cb014ab80907f5f3bff9dd64ca79abb52c26eeaf9f74b310b2644db60f246ae2504b6b38ca5432c63dbbf02845
 
 outputs.5.coordinates=org.apache.maven.archetype:archetype-packaging
 
-outputs.5.0.filename=archetype-packaging-3.2.0.jar
-outputs.5.0.length=7287
-outputs.5.0.checksums.sha512=14d0ba3b75d380c56ed48deb1b083dca5c5623a2c87bc7ca999929c1c02fd31a208d7b8abd31cd165056654735179e9847bb654ad330fb75a0f86f6722eaa80a
+outputs.5.0.filename=archetype-packaging-3.2.0.pom
+outputs.5.0.length=1405
+outputs.5.0.checksums.sha512=6259c3d5ec974356cc0cd943354c5df5f1ebf6a309e42ee5b8bfc631a11b7af3a5973c5080202213106206953bccb8843e673c84cec356b6d4628b5b42f22f5c
 
-outputs.5.1.filename=archetype-packaging-3.2.0-sources.jar
-outputs.5.1.length=7657
-outputs.5.1.checksums.sha512=e973423fc7ecc178b0a32835ee4b8bc455da962dafe52ebd79d7dd0b78400ec25c3165334807a822793d27ca646e29ead94b6a1ebb600f6352557fd1bc1d00a8
+outputs.5.1.filename=archetype-packaging-3.2.0.jar
+outputs.5.1.length=7287
+outputs.5.1.checksums.sha512=14d0ba3b75d380c56ed48deb1b083dca5c5623a2c87bc7ca999929c1c02fd31a208d7b8abd31cd165056654735179e9847bb654ad330fb75a0f86f6722eaa80a
+
+outputs.5.2.filename=archetype-packaging-3.2.0-sources.jar
+outputs.5.2.length=7657
+outputs.5.2.checksums.sha512=e973423fc7ecc178b0a32835ee4b8bc455da962dafe52ebd79d7dd0b78400ec25c3165334807a822793d27ca646e29ead94b6a1ebb600f6352557fd1bc1d00a8
 
 outputs.6.coordinates=org.apache.maven.plugins:maven-archetype-plugin
 
-outputs.6.0.filename=maven-archetype-plugin-3.2.0.jar
-outputs.6.0.length=97484
-outputs.6.0.checksums.sha512=5fafd81218a2fb78bb78f32bb90dfda4b58a6ce044d981630b10ecccc5d80a798b3480e6fe343566393ed8c94d7547341d6b506dacb60d077c53593f18ba685c
+outputs.6.0.filename=maven-archetype-plugin-3.2.0.pom
+outputs.6.0.length=10948
+outputs.6.0.checksums.sha512=41f75c51d94cf9395695faceb25e6a1f6321e0b7b1fa978ec3868284c7f668f866ddb342528388653c37eaa8961c12ef6f19c02ca830b57d995c4a4e3088817e
 
-outputs.6.1.filename=maven-archetype-plugin-3.2.0-sources.jar
-outputs.6.1.length=69188
-outputs.6.1.checksums.sha512=3536a77ebc667f46f673e63b12ad3f00a2d4466e2fead35d4f4819292ca751108ce65ac67d4aca7bdf2f95f01c266ea0144b87e5ca8c0fd66f862f4d7f2c1425
+outputs.6.1.filename=maven-archetype-plugin-3.2.0.jar
+outputs.6.1.length=97484
+outputs.6.1.checksums.sha512=5fafd81218a2fb78bb78f32bb90dfda4b58a6ce044d981630b10ecccc5d80a798b3480e6fe343566393ed8c94d7547341d6b506dacb60d077c53593f18ba685c
+
+outputs.6.2.filename=maven-archetype-plugin-3.2.0-sources.jar
+outputs.6.2.length=69188
+outputs.6.2.checksums.sha512=3536a77ebc667f46f673e63b12ad3f00a2d4466e2fead35d4f4819292ca751108ce65ac67d4aca7bdf2f95f01c266ea0144b87e5ca8c0fd66f862f4d7f2c1425

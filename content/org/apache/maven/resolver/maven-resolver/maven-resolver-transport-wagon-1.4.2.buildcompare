@@ -1,5 +1,17 @@
 version=1.4.2
-ok=12
+ok=23
 ko=10
-okFiles="maven-resolver-1.4.2-site.xml maven-resolver-1.4.2-source-release.zip maven-resolver-api-1.4.2-sources.jar maven-resolver-spi-1.4.2-sources.jar maven-resolver-test-util-1.4.2-sources.jar maven-resolver-util-1.4.2-sources.jar maven-resolver-impl-1.4.2-sources.jar maven-resolver-connector-basic-1.4.2-sources.jar maven-resolver-transport-classpath-1.4.2-sources.jar maven-resolver-transport-file-1.4.2-sources.jar maven-resolver-transport-http-1.4.2-sources.jar maven-resolver-transport-wagon-1.4.2-sources.jar"
+okFiles="maven-resolver-1.4.2.pom maven-resolver-1.4.2-site.xml maven-resolver-1.4.2-source-release.zip maven-resolver-api-1.4.2.pom maven-resolver-api-1.4.2-sources.jar maven-resolver-spi-1.4.2.pom maven-resolver-spi-1.4.2-sources.jar maven-resolver-test-util-1.4.2.pom maven-resolver-test-util-1.4.2-sources.jar maven-resolver-util-1.4.2.pom maven-resolver-util-1.4.2-sources.jar maven-resolver-impl-1.4.2.pom maven-resolver-impl-1.4.2-sources.jar maven-resolver-connector-basic-1.4.2.pom maven-resolver-connector-basic-1.4.2-sources.jar maven-resolver-transport-classpath-1.4.2.pom maven-resolver-transport-classpath-1.4.2-sources.jar maven-resolver-transport-file-1.4.2.pom maven-resolver-transport-file-1.4.2-sources.jar maven-resolver-transport-http-1.4.2.pom maven-resolver-transport-http-1.4.2-sources.jar maven-resolver-transport-wagon-1.4.2.pom maven-resolver-transport-wagon-1.4.2-sources.jar"
 koFiles="maven-resolver-api-1.4.2.jar maven-resolver-spi-1.4.2.jar maven-resolver-test-util-1.4.2.jar maven-resolver-util-1.4.2.jar maven-resolver-impl-1.4.2.jar maven-resolver-connector-basic-1.4.2.jar maven-resolver-transport-classpath-1.4.2.jar maven-resolver-transport-file-1.4.2.jar maven-resolver-transport-http-1.4.2.jar maven-resolver-transport-wagon-1.4.2.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/maven-resolver-api-1.4.2.jar maven-resolver-api/target/maven-resolver-api-1.4.2.jar
+# diffoscope target/reference/maven-resolver-spi-1.4.2.jar maven-resolver-spi/target/maven-resolver-spi-1.4.2.jar
+# diffoscope target/reference/maven-resolver-test-util-1.4.2.jar maven-resolver-test-util/target/maven-resolver-test-util-1.4.2.jar
+# diffoscope target/reference/maven-resolver-util-1.4.2.jar maven-resolver-util/target/maven-resolver-util-1.4.2.jar
+# diffoscope target/reference/maven-resolver-impl-1.4.2.jar maven-resolver-impl/target/maven-resolver-impl-1.4.2.jar
+# diffoscope target/reference/maven-resolver-connector-basic-1.4.2.jar maven-resolver-connector-basic/target/maven-resolver-connector-basic-1.4.2.jar
+# diffoscope target/reference/maven-resolver-transport-classpath-1.4.2.jar maven-resolver-transport-classpath/target/maven-resolver-transport-classpath-1.4.2.jar
+# diffoscope target/reference/maven-resolver-transport-file-1.4.2.jar maven-resolver-transport-file/target/maven-resolver-transport-file-1.4.2.jar
+# diffoscope target/reference/maven-resolver-transport-http-1.4.2.jar maven-resolver-transport-http/target/maven-resolver-transport-http-1.4.2.jar
+# diffoscope target/reference/maven-resolver-transport-wagon-1.4.2.jar maven-resolver-transport-wagon/target/maven-resolver-transport-wagon-1.4.2.jar

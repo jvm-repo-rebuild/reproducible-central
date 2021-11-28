@@ -3,8 +3,11 @@ artifactId=wagon
 display=${groupId}:${artifactId}
 version=3.4.3
 
-gitRepo=https://github.com/apache/maven-${artifactId}.git
-gitTag=${artifactId}-${version}
+#gitRepo=https://github.com/apache/maven-${artifactId}.git
+#gitTag=${artifactId}-${version}
+sourceDistribution=https://archive.apache.org/dist/maven/wagon/${artifactId}-${version}-source-release.zip
+sourcePath=${artifactId}-${version}
+sourceRmFiles="DEPENDENCIES LICENSE NOTICE"
 
 tool=mvn
 jdk=8
