@@ -21,14 +21,18 @@ os.name=Unix
 
 # output
 
-outputs.0.filename=hsac-fitnesse-fixtures-4.30.0.jar
-outputs.0.length=651086
-outputs.0.checksums.sha512=c846d8e8e3c484d7304cb428ea1f1b2c8741142a9d6581dd046028bf3b0e6a8ece633360ce3863511c6226dcf77155f1f25559f6f3e29d8239456e34f5f798df
+outputs.0.filename=hsac-fitnesse-fixtures-4.30.0.pom
+outputs.0.length=21817
+outputs.0.checksums.sha512=12f42720ebdffc6b1f5f45e041b95df49bd0d1be573b10f4ee81f433f59f3511c1e4b8d43cf30e4cabbd024e2ea4daaf571d7f04f4ed503ef71e9ed3a82cba5c
 
-outputs.1.filename=hsac-fitnesse-fixtures-4.30.0-standalone.zip
-outputs.1.length=53773972
-outputs.1.checksums.sha512=b830bc59dd2047c0168c487b9f0c3dea5d0d1af705b58cecace6a6fe613ff54cf33591ca59792accdc7cff85cee2d973a56e42f88b4e4a25cb341e4da5f77e7c
+outputs.1.filename=hsac-fitnesse-fixtures-4.30.0.jar
+outputs.1.length=651086
+outputs.1.checksums.sha512=c846d8e8e3c484d7304cb428ea1f1b2c8741142a9d6581dd046028bf3b0e6a8ece633360ce3863511c6226dcf77155f1f25559f6f3e29d8239456e34f5f798df
 
-outputs.2.filename=hsac-fitnesse-fixtures-4.30.0-sources.jar
-outputs.2.length=436052
-outputs.2.checksums.sha512=e604500db036d187c991886ab3a37800c47d2a8aa2676f67dd318593f0294ff3676d379cde3075fd27cb4ccaf17e7a5ec28944113da6ba04ffa05ed7e37b8b63
+outputs.2.filename=hsac-fitnesse-fixtures-4.30.0-standalone.zip
+outputs.2.length=53773972
+outputs.2.checksums.sha512=b830bc59dd2047c0168c487b9f0c3dea5d0d1af705b58cecace6a6fe613ff54cf33591ca59792accdc7cff85cee2d973a56e42f88b4e4a25cb341e4da5f77e7c
+
+outputs.3.filename=hsac-fitnesse-fixtures-4.30.0-sources.jar
+outputs.3.length=436052
+outputs.3.checksums.sha512=e604500db036d187c991886ab3a37800c47d2a8aa2676f67dd318593f0294ff3676d379cde3075fd27cb4ccaf17e7a5ec28944113da6ba04ffa05ed7e37b8b63

@@ -13,340 +13,483 @@ source.scm.tag=pmd_releases/6.28.0
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=11.0.6
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.aggregate.artifact-id=pmd-scala_2.12
 
 # aggregated output
 
 outputs.0.coordinates=net.sourceforge.pmd:pmd
 
+outputs.0.0.filename=pmd-6.28.0.pom
+outputs.0.0.length=47249
+outputs.0.0.checksums.sha512=d105ef8abd8e0e62367ddca8354a7c8bb2ae0b730d111538fca6e6fd7a87422345b5dee0edae00600637e19169f2d75cfa6ca8e096e1548637097d99837ea968
+
 outputs.1.coordinates=net.sourceforge.pmd:pmd-core
 
-outputs.1.0.filename=pmd-core-6.28.0.jar
-outputs.1.0.length=1232349
-outputs.1.0.checksums.sha512=3bd9ce0de842bad906389bd5067c2836a4933bb6a2c0ed7e5af4e339ed967f6f16c9cb40092c6b75bc4636bf5472c572e0ecd574e7dc90755e4b519cd2ed0328
+outputs.1.0.filename=pmd-core-6.28.0.pom
+outputs.1.0.length=8636
+outputs.1.0.checksums.sha512=0c57fb29399280a7676dec534f4498c2ef94d6f781a8570b9a5aa0d9348a4606c26b0601f2ddb493e531fc282e0359834d0267dba74769cb0d7e37163ea83682
 
-outputs.1.1.filename=pmd-core-6.28.0-sources.jar
-outputs.1.1.length=600108
-outputs.1.1.checksums.sha512=483c1c4aa62cec1b50d5cd5d223e65b7361d864c73b76dd95c5d825ba6ab7db69d83e0921deae9bfb9c4a62eced9f8774838977592ef42fe605fc51dbbbcad6d
+outputs.1.1.filename=pmd-core-6.28.0.jar
+outputs.1.1.length=1232349
+outputs.1.1.checksums.sha512=3bd9ce0de842bad906389bd5067c2836a4933bb6a2c0ed7e5af4e339ed967f6f16c9cb40092c6b75bc4636bf5472c572e0ecd574e7dc90755e4b519cd2ed0328
+
+outputs.1.2.filename=pmd-core-6.28.0-sources.jar
+outputs.1.2.length=600108
+outputs.1.2.checksums.sha512=483c1c4aa62cec1b50d5cd5d223e65b7361d864c73b76dd95c5d825ba6ab7db69d83e0921deae9bfb9c4a62eced9f8774838977592ef42fe605fc51dbbbcad6d
 
 outputs.2.coordinates=net.sourceforge.pmd:pmd-test
 
-outputs.2.0.filename=pmd-test-6.28.0.jar
-outputs.2.0.length=54456
-outputs.2.0.checksums.sha512=cd13e86da774994c90b27aa6b3d8b435426876caa35b78dc1cc4f3060a3a70773d13d75eb86fa85501fb4ebfb7656426857896e5a61ada7d3dbe8db55fae5882
+outputs.2.0.filename=pmd-test-6.28.0.pom
+outputs.2.0.length=2063
+outputs.2.0.checksums.sha512=8fb99d23d34c7988b42bbfb14f223194337ff432cd2e04b201e8c33d8b9ce28aae6bd16b09e38996764d9e0c70b94760bff5b850f63a3358865c13ab2400e0b9
 
-outputs.2.1.filename=pmd-test-6.28.0-sources.jar
-outputs.2.1.length=30588
-outputs.2.1.checksums.sha512=c893e5029cd7b924c973c741176a10409d40f6492407951e9258ecb987df6b05936e57ca740b23122535aa142a7bbb90f404854595612de3be955c94d089d2dd
+outputs.2.1.filename=pmd-test-6.28.0.jar
+outputs.2.1.length=54456
+outputs.2.1.checksums.sha512=cd13e86da774994c90b27aa6b3d8b435426876caa35b78dc1cc4f3060a3a70773d13d75eb86fa85501fb4ebfb7656426857896e5a61ada7d3dbe8db55fae5882
+
+outputs.2.2.filename=pmd-test-6.28.0-sources.jar
+outputs.2.2.length=30588
+outputs.2.2.checksums.sha512=c893e5029cd7b924c973c741176a10409d40f6492407951e9258ecb987df6b05936e57ca740b23122535aa142a7bbb90f404854595612de3be955c94d089d2dd
 
 outputs.3.coordinates=net.sourceforge.pmd:pmd-lang-test
 
-outputs.3.0.filename=pmd-lang-test-6.28.0.jar
-outputs.3.0.length=53255
-outputs.3.0.checksums.sha512=7431edcaacfb3b272edae68647a057fae6e64ce541085eb725814c2661c67103d8992ff6ffb731da88d6ebb86d442f09bda94f2020f3a0022a00ad687a29c533
+outputs.3.0.filename=pmd-lang-test-6.28.0.pom
+outputs.3.0.length=6662
+outputs.3.0.checksums.sha512=42f4dfc0e2ae2ad54281968141f0ff89b4c9177ad524a91eb21404a5460c093951a2a471b3a178974a3c449f5401ce79f1bead74d3812658a69b49fe598c1285
 
-outputs.3.1.filename=pmd-lang-test-6.28.0-sources.jar
-outputs.3.1.length=13819
-outputs.3.1.checksums.sha512=df9f59f26c29e1624816ae9a8d06197dd8b8cd51df2df494b28d54484703e1741cc837c440bcb00618e73d797d0982cb4c5a003eb9f956bcf0b39401dbbe65a3
+outputs.3.1.filename=pmd-lang-test-6.28.0.jar
+outputs.3.1.length=53255
+outputs.3.1.checksums.sha512=7431edcaacfb3b272edae68647a057fae6e64ce541085eb725814c2661c67103d8992ff6ffb731da88d6ebb86d442f09bda94f2020f3a0022a00ad687a29c533
+
+outputs.3.2.filename=pmd-lang-test-6.28.0-sources.jar
+outputs.3.2.length=13819
+outputs.3.2.checksums.sha512=df9f59f26c29e1624816ae9a8d06197dd8b8cd51df2df494b28d54484703e1741cc837c440bcb00618e73d797d0982cb4c5a003eb9f956bcf0b39401dbbe65a3
 
 outputs.4.coordinates=net.sourceforge.pmd:pmd-cpp
 
-outputs.4.0.filename=pmd-cpp-6.28.0.jar
-outputs.4.0.length=32367
-outputs.4.0.checksums.sha512=6b41257405e732884a8fc4125b2db3114c82b6a948e6a05b93cbe638107c467b9ecde35e75dc91890c5872b4731af2e9ddf142a2e0d3281ec0a84783c6d7843f
+outputs.4.0.filename=pmd-cpp-6.28.0.pom
+outputs.4.0.length=3498
+outputs.4.0.checksums.sha512=05d6afc6272c1bf9f766d2050ca3092b362cbc9e3126e3174fcaa812d784ce56245957a95fe372911f33a581f0b25172f3ae479c40fe7073e40e17cfb0dbb364
 
-outputs.4.1.filename=pmd-cpp-6.28.0-sources.jar
-outputs.4.1.length=21078
-outputs.4.1.checksums.sha512=e155ffad622c65ca9b0d2e94ca19cc6fab0cf697b90ba55a2e19c6860f930568ce1b40b77e628d9e5431c55d5ac137cd85b5ac3909991a4a7886cd2f9bb25397
+outputs.4.1.filename=pmd-cpp-6.28.0.jar
+outputs.4.1.length=32367
+outputs.4.1.checksums.sha512=6b41257405e732884a8fc4125b2db3114c82b6a948e6a05b93cbe638107c467b9ecde35e75dc91890c5872b4731af2e9ddf142a2e0d3281ec0a84783c6d7843f
+
+outputs.4.2.filename=pmd-cpp-6.28.0-sources.jar
+outputs.4.2.length=21078
+outputs.4.2.checksums.sha512=e155ffad622c65ca9b0d2e94ca19cc6fab0cf697b90ba55a2e19c6860f930568ce1b40b77e628d9e5431c55d5ac137cd85b5ac3909991a4a7886cd2f9bb25397
 
 outputs.5.coordinates=net.sourceforge.pmd:pmd-cs
 
-outputs.5.0.filename=pmd-cs-6.28.0.jar
-outputs.5.0.length=34227
-outputs.5.0.checksums.sha512=4541f3b0873419660eb3528273410c817f717ff2f1aa90ce4fd4c2cf1f5596ebf13268a10ce5db3ec582ce9e8770e92d42d242a20746ea24008f028233a6c9b9
+outputs.5.0.filename=pmd-cs-6.28.0.pom
+outputs.5.0.length=1937
+outputs.5.0.checksums.sha512=862aec3d8bab6197555bff2bbea2ddaa8f61495431e6e38f2f79a7e76cd31b0e9162b2ff773f30254eb55714e730a9d3faa284613b0f277ef67457ec578201c2
 
-outputs.5.1.filename=pmd-cs-6.28.0-sources.jar
-outputs.5.1.length=32787
-outputs.5.1.checksums.sha512=fc5326935157bd59120c83c0e49ccfe581e89e469444dcf7f39c31d5c7d390f67bd9879e6cff19a346bd3f33651db3420dd99d20184877fd53c6cee65f9ea585
+outputs.5.1.filename=pmd-cs-6.28.0.jar
+outputs.5.1.length=34227
+outputs.5.1.checksums.sha512=4541f3b0873419660eb3528273410c817f717ff2f1aa90ce4fd4c2cf1f5596ebf13268a10ce5db3ec582ce9e8770e92d42d242a20746ea24008f028233a6c9b9
+
+outputs.5.2.filename=pmd-cs-6.28.0-sources.jar
+outputs.5.2.length=32787
+outputs.5.2.checksums.sha512=fc5326935157bd59120c83c0e49ccfe581e89e469444dcf7f39c31d5c7d390f67bd9879e6cff19a346bd3f33651db3420dd99d20184877fd53c6cee65f9ea585
 
 outputs.6.coordinates=net.sourceforge.pmd:pmd-dart
 
-outputs.6.0.filename=pmd-dart-6.28.0.jar
-outputs.6.0.length=271807
-outputs.6.0.checksums.sha512=fa401f23076088eabade22a13de000db1a7f2910fbfd65b63805b71eb89bb3109cad6555500488a0ee0bb5176e97a138ef8e43a11545aaf6a21ca72eddd8a389
+outputs.6.0.filename=pmd-dart-6.28.0.pom
+outputs.6.0.length=1941
+outputs.6.0.checksums.sha512=b7df8244f17be2a1f56c1b0b652c08a0312e906f6c4c1eea06aa9fb897b960d40d953e51d6a9db833971bd3a853d475543d9614250a59bebae748c1f889bbc9f
 
-outputs.6.1.filename=pmd-dart-6.28.0-sources.jar
-outputs.6.1.length=73427
-outputs.6.1.checksums.sha512=1133e68e02c0baed16f30b74dec16d01a12961c93a726eac44436bff7af9bca442037af819ebf79cda1f41476a287ce2ad60c5350dfa6782454a8c2537b32b87
+outputs.6.1.filename=pmd-dart-6.28.0.jar
+outputs.6.1.length=271807
+outputs.6.1.checksums.sha512=fa401f23076088eabade22a13de000db1a7f2910fbfd65b63805b71eb89bb3109cad6555500488a0ee0bb5176e97a138ef8e43a11545aaf6a21ca72eddd8a389
+
+outputs.6.2.filename=pmd-dart-6.28.0-sources.jar
+outputs.6.2.length=73427
+outputs.6.2.checksums.sha512=1133e68e02c0baed16f30b74dec16d01a12961c93a726eac44436bff7af9bca442037af819ebf79cda1f41476a287ce2ad60c5350dfa6782454a8c2537b32b87
 
 outputs.7.coordinates=net.sourceforge.pmd:pmd-fortran
 
-outputs.7.0.filename=pmd-fortran-6.28.0.jar
-outputs.7.0.length=4888
-outputs.7.0.checksums.sha512=96f4922aa92ccca2adb5ae16420fcc08f94c5b17d6c15f368cad1ce5ff562160fc43dce626350c14b0105f5b8b34fcdab49c07303668fd6da73d40bf3765f36b
+outputs.7.0.filename=pmd-fortran-6.28.0.pom
+outputs.7.0.length=1660
+outputs.7.0.checksums.sha512=10f27a141f863cadccab3849ccf6d7800eab6d3fc868c7f659a6e8b868b12c6dd7c3bd2ff04a31d2d263c651ae719ebb7ee0cb78ef4097107b570c70ba338c40
 
-outputs.7.1.filename=pmd-fortran-6.28.0-sources.jar
-outputs.7.1.length=4606
-outputs.7.1.checksums.sha512=62a7c6c5fb1953101a184d3273c3432383a09326b92737365035509f2d61daea5044438741c0398ed917258e533596fca4fb22c4a49f3267094c9317462f7f75
+outputs.7.1.filename=pmd-fortran-6.28.0.jar
+outputs.7.1.length=4888
+outputs.7.1.checksums.sha512=96f4922aa92ccca2adb5ae16420fcc08f94c5b17d6c15f368cad1ce5ff562160fc43dce626350c14b0105f5b8b34fcdab49c07303668fd6da73d40bf3765f36b
+
+outputs.7.2.filename=pmd-fortran-6.28.0-sources.jar
+outputs.7.2.length=4606
+outputs.7.2.checksums.sha512=62a7c6c5fb1953101a184d3273c3432383a09326b92737365035509f2d61daea5044438741c0398ed917258e533596fca4fb22c4a49f3267094c9317462f7f75
 
 outputs.8.coordinates=net.sourceforge.pmd:pmd-go
 
-outputs.8.0.filename=pmd-go-6.28.0.jar
-outputs.8.0.length=159425
-outputs.8.0.checksums.sha512=bae55769eb384760ec00e432da43c70249a5a59bd01b7b7cee19129f56883df53f245f0bd80a0a8b6ffd7de1c723fde72e28fe5632f0f35cf7bdadffb741969b
+outputs.8.0.filename=pmd-go-6.28.0.pom
+outputs.8.0.length=1935
+outputs.8.0.checksums.sha512=a6440c0c12300129cfd40fd91627058e4b18e7b41e333ba1033d9523d74e071ae687cbfef1548b04f8d1a19ebaac515d8c19cb5baadbe3bcb04450b9bb471914
 
-outputs.8.1.filename=pmd-go-6.28.0-sources.jar
-outputs.8.1.length=47674
-outputs.8.1.checksums.sha512=ae0b61f4c5605ca2ca528df1f103ff447c7b3c7619ae7aeb8133c2549b29b891764698eb50a34b8edd5b1d975cdd51d5d6f1b9a47e5989050f7af1bc864a3eb2
+outputs.8.1.filename=pmd-go-6.28.0.jar
+outputs.8.1.length=159425
+outputs.8.1.checksums.sha512=bae55769eb384760ec00e432da43c70249a5a59bd01b7b7cee19129f56883df53f245f0bd80a0a8b6ffd7de1c723fde72e28fe5632f0f35cf7bdadffb741969b
+
+outputs.8.2.filename=pmd-go-6.28.0-sources.jar
+outputs.8.2.length=47674
+outputs.8.2.checksums.sha512=ae0b61f4c5605ca2ca528df1f103ff447c7b3c7619ae7aeb8133c2549b29b891764698eb50a34b8edd5b1d975cdd51d5d6f1b9a47e5989050f7af1bc864a3eb2
 
 outputs.9.coordinates=net.sourceforge.pmd:pmd-groovy
 
-outputs.9.0.filename=pmd-groovy-6.28.0.jar
-outputs.9.0.length=5438
-outputs.9.0.checksums.sha512=dc842c4bc2663c64a7ca813015942f594432e0164369bac26795b38555a5da8d94a8f41fe61ae468d28f85d61e324fc1292e7c1dacbb48ccfe71c131601889c3
+outputs.9.0.filename=pmd-groovy-6.28.0.pom
+outputs.9.0.length=1797
+outputs.9.0.checksums.sha512=634aca8129ca8e6c02def79aa6681dcc9472b145d954f55d2b506aceff320a9bcf98875bfbd0b9497aae2f3e52aa5468a0cd748829b226c65f524149f723e4fd
 
-outputs.9.1.filename=pmd-groovy-6.28.0-sources.jar
-outputs.9.1.length=4758
-outputs.9.1.checksums.sha512=ccfc539037be22b31dcd5faadd216790b983329222b734e973339e087875204949058eaf46052fe0424858bbb4956f85f2833365318f7f65a85d5482c76c7530
+outputs.9.1.filename=pmd-groovy-6.28.0.jar
+outputs.9.1.length=5438
+outputs.9.1.checksums.sha512=dc842c4bc2663c64a7ca813015942f594432e0164369bac26795b38555a5da8d94a8f41fe61ae468d28f85d61e324fc1292e7c1dacbb48ccfe71c131601889c3
+
+outputs.9.2.filename=pmd-groovy-6.28.0-sources.jar
+outputs.9.2.length=4758
+outputs.9.2.checksums.sha512=ccfc539037be22b31dcd5faadd216790b983329222b734e973339e087875204949058eaf46052fe0424858bbb4956f85f2833365318f7f65a85d5482c76c7530
 
 outputs.10.coordinates=net.sourceforge.pmd:pmd-lua
 
-outputs.10.0.filename=pmd-lua-6.28.0.jar
-outputs.10.0.length=65907
-outputs.10.0.checksums.sha512=a10051cbf86aa5cffea4554c581d449ad190e0ab75bc6eddd4f01a8de45177571a4d666d94381dd5abdf914f9d41f6d5cbdc1a102306b0e90dfd542c27f6bd9e
+outputs.10.0.filename=pmd-lua-6.28.0.pom
+outputs.10.0.length=1939
+outputs.10.0.checksums.sha512=5a274354684c79cd8ab66846fbca95bb070f14828d3fe4789088d163380875a9b48e7dbbf95180b3e9c5f44260b166770676f0a7af4d72065825dd03ffc422fa
 
-outputs.10.1.filename=pmd-lua-6.28.0-sources.jar
-outputs.10.1.length=26024
-outputs.10.1.checksums.sha512=a8a6468dc25a9fa7a3edb024d176ab658c2627af0514d5c90a9fba3e8353586703b295b4d30515b24f93590bfa022adefb8f1e719a752972fafe1110860ed0ee
+outputs.10.1.filename=pmd-lua-6.28.0.jar
+outputs.10.1.length=65907
+outputs.10.1.checksums.sha512=a10051cbf86aa5cffea4554c581d449ad190e0ab75bc6eddd4f01a8de45177571a4d666d94381dd5abdf914f9d41f6d5cbdc1a102306b0e90dfd542c27f6bd9e
+
+outputs.10.2.filename=pmd-lua-6.28.0-sources.jar
+outputs.10.2.length=26024
+outputs.10.2.checksums.sha512=a8a6468dc25a9fa7a3edb024d176ab658c2627af0514d5c90a9fba3e8353586703b295b4d30515b24f93590bfa022adefb8f1e719a752972fafe1110860ed0ee
 
 outputs.11.coordinates=net.sourceforge.pmd:pmd-java
 
-outputs.11.0.filename=pmd-java-6.28.0.jar
-outputs.11.0.length=1141536
-outputs.11.0.checksums.sha512=b15c70c5b6c875394bfd0f677aa18aa298f87f2a1dbbab9fb8c0819438c53c2041baf0f42ff1392adf2743906c5b1f2e47f02d7d683e183dd0890d522a1531dd
+outputs.11.0.filename=pmd-java-6.28.0.pom
+outputs.11.0.length=8825
+outputs.11.0.checksums.sha512=7d3a4d6718d704ba860bff5fc63825b011dabd845c329c755b72057e6c5de1462ab2df9356979e0c2ac34c33fdf911c6a92068bdff5483acbcb408577f092eb5
 
-outputs.11.1.filename=pmd-java-6.28.0-sources.jar
-outputs.11.1.length=778274
-outputs.11.1.checksums.sha512=3fff05ae4e1ee2349d3112a6c89f1ee55f86c1e4a59d4a19d08a99a4f24f3d21f04e43c3178a0a95b50efbaa06f95cea52e3fed73bcb8aa7ddc349af1f9021ec
+outputs.11.1.filename=pmd-java-6.28.0.jar
+outputs.11.1.length=1141536
+outputs.11.1.checksums.sha512=b15c70c5b6c875394bfd0f677aa18aa298f87f2a1dbbab9fb8c0819438c53c2041baf0f42ff1392adf2743906c5b1f2e47f02d7d683e183dd0890d522a1531dd
+
+outputs.11.2.filename=pmd-java-6.28.0-sources.jar
+outputs.11.2.length=778274
+outputs.11.2.checksums.sha512=3fff05ae4e1ee2349d3112a6c89f1ee55f86c1e4a59d4a19d08a99a4f24f3d21f04e43c3178a0a95b50efbaa06f95cea52e3fed73bcb8aa7ddc349af1f9021ec
 
 outputs.12.coordinates=net.sourceforge.pmd:pmd-javascript
 
-outputs.12.0.filename=pmd-javascript-6.28.0.jar
-outputs.12.0.length=134316
-outputs.12.0.checksums.sha512=a2a995cd5e9dd70114894bf2831f9caf8168921c4e750ad583790b8b92ef553fdccaa9208603420ffe02dcb5ddc5d75cd089b402afe8f05e02eda3a1dff9a033
+outputs.12.0.filename=pmd-javascript-6.28.0.pom
+outputs.12.0.length=3930
+outputs.12.0.checksums.sha512=e8eb25f6f3f6d80b2e5c9a073ee4caf6b31360f20f6fc9e0bc2ab78e6395061c0a216ce5fe03cd06b7e1c3701c6689964e77c6b762a141b0c42d4315655e5981
 
-outputs.12.1.filename=pmd-javascript-6.28.0-sources.jar
-outputs.12.1.length=87346
-outputs.12.1.checksums.sha512=dc4e712fea96b8d00131d61d14ab3e21657bda4646e402752410b83f8e83128b328d6639a9621dbab087432a3f19b18f6f839a2b83071125fb24a92872d8fba7
+outputs.12.1.filename=pmd-javascript-6.28.0.jar
+outputs.12.1.length=134316
+outputs.12.1.checksums.sha512=a2a995cd5e9dd70114894bf2831f9caf8168921c4e750ad583790b8b92ef553fdccaa9208603420ffe02dcb5ddc5d75cd089b402afe8f05e02eda3a1dff9a033
+
+outputs.12.2.filename=pmd-javascript-6.28.0-sources.jar
+outputs.12.2.length=87346
+outputs.12.2.checksums.sha512=dc4e712fea96b8d00131d61d14ab3e21657bda4646e402752410b83f8e83128b328d6639a9621dbab087432a3f19b18f6f839a2b83071125fb24a92872d8fba7
 
 outputs.13.coordinates=net.sourceforge.pmd:pmd-jsp
 
-outputs.13.0.filename=pmd-jsp-6.28.0.jar
-outputs.13.0.length=100805
-outputs.13.0.checksums.sha512=dc09dd80a7f592c8b5160fc1be98ef468ca24226ebffe99286f92623bd280c637547ebd2668d135e70fedbc21ab0c23e9b3a90360efecac8b55d9fd40c82c167
+outputs.13.0.filename=pmd-jsp-6.28.0.pom
+outputs.13.0.length=3698
+outputs.13.0.checksums.sha512=61915478d7c299fba662d92cd82b2718fdff4cd896a5cf9221212d78d2654a639706a3ca51813bde2f57d1e98016f9ea40960ccadab76007e25cc127c6dce4fc
 
-outputs.13.1.filename=pmd-jsp-6.28.0-sources.jar
-outputs.13.1.length=72142
-outputs.13.1.checksums.sha512=79777679b796b2a0ff82e4fcf5de26f2325f2a027a8737a28a46e8d1abec682b05f31335113bb04cbede7ed4b4b913e8a3b7b64291aa22b38ffe813ca275301e
+outputs.13.1.filename=pmd-jsp-6.28.0.jar
+outputs.13.1.length=100805
+outputs.13.1.checksums.sha512=dc09dd80a7f592c8b5160fc1be98ef468ca24226ebffe99286f92623bd280c637547ebd2668d135e70fedbc21ab0c23e9b3a90360efecac8b55d9fd40c82c167
+
+outputs.13.2.filename=pmd-jsp-6.28.0-sources.jar
+outputs.13.2.length=72142
+outputs.13.2.checksums.sha512=79777679b796b2a0ff82e4fcf5de26f2325f2a027a8737a28a46e8d1abec682b05f31335113bb04cbede7ed4b4b913e8a3b7b64291aa22b38ffe813ca275301e
 
 outputs.14.coordinates=net.sourceforge.pmd:pmd-visualforce
 
-outputs.14.0.filename=pmd-visualforce-6.28.0.jar
-outputs.14.0.length=108977
-outputs.14.0.checksums.sha512=a433dcb83f7cf7ddb81ed223e656327676b9d4273475aaeeff63642435443ad556d6d7445964789c07983f2d5e677a36ebb04f9f17c3bcc02500b788279e8086
+outputs.14.0.filename=pmd-visualforce-6.28.0.pom
+outputs.14.0.length=3714
+outputs.14.0.checksums.sha512=7679615c0400cad4873ec0813f2f3d79f0bd187778054a359642966a3809d5e48b10d1e3506f340cd0a8021faf27f7c204f27167600e291518460c20a20a40a0
 
-outputs.14.1.filename=pmd-visualforce-6.28.0-sources.jar
-outputs.14.1.length=70724
-outputs.14.1.checksums.sha512=e1bb7baa6e4734d585cab90cc6925b57601e006f2a02cbfed3cf12a245a2c94e8bb2952579c46df12530664cfc680742b9e9f029c45ce0f47c02f55a4185708a
+outputs.14.1.filename=pmd-visualforce-6.28.0.jar
+outputs.14.1.length=108977
+outputs.14.1.checksums.sha512=a433dcb83f7cf7ddb81ed223e656327676b9d4273475aaeeff63642435443ad556d6d7445964789c07983f2d5e677a36ebb04f9f17c3bcc02500b788279e8086
+
+outputs.14.2.filename=pmd-visualforce-6.28.0-sources.jar
+outputs.14.2.length=70724
+outputs.14.2.checksums.sha512=e1bb7baa6e4734d585cab90cc6925b57601e006f2a02cbfed3cf12a245a2c94e8bb2952579c46df12530664cfc680742b9e9f029c45ce0f47c02f55a4185708a
 
 outputs.15.coordinates=net.sourceforge.pmd:pmd-kotlin
 
-outputs.15.0.filename=pmd-kotlin-6.28.0.jar
-outputs.15.0.length=37990
-outputs.15.0.checksums.sha512=502422ec9e1d9995da16fe5c3c64824c0ec558efb6d950b183015161377931d4eeb1353456611a1b5d2a1442b9d9770c8ae4974b568f67db8241f67ad6985891
+outputs.15.0.filename=pmd-kotlin-6.28.0.pom
+outputs.15.0.length=1945
+outputs.15.0.checksums.sha512=9e664f5e709b1cb9c80b52801a1b30df39d71fb285ef512345a55fceddff9d539c9aa77f6c14e26ef829b622dee0a9c60b63fbf0aeab7723f2f45abd9678a664
 
-outputs.15.1.filename=pmd-kotlin-6.28.0-sources.jar
-outputs.15.1.length=38935
-outputs.15.1.checksums.sha512=fd0283dd22a046bd986cda6b98207b4fe69c0ba2fbb83df809535f601f96b26bdf0b8b1a725bfd5252af56915d97fe7a518d79f3ef0f3184ca9b6bb92db3fcd9
+outputs.15.1.filename=pmd-kotlin-6.28.0.jar
+outputs.15.1.length=37990
+outputs.15.1.checksums.sha512=502422ec9e1d9995da16fe5c3c64824c0ec558efb6d950b183015161377931d4eeb1353456611a1b5d2a1442b9d9770c8ae4974b568f67db8241f67ad6985891
+
+outputs.15.2.filename=pmd-kotlin-6.28.0-sources.jar
+outputs.15.2.length=38935
+outputs.15.2.checksums.sha512=fd0283dd22a046bd986cda6b98207b4fe69c0ba2fbb83df809535f601f96b26bdf0b8b1a725bfd5252af56915d97fe7a518d79f3ef0f3184ca9b6bb92db3fcd9
 
 outputs.16.coordinates=net.sourceforge.pmd:pmd-matlab
 
-outputs.16.0.filename=pmd-matlab-6.28.0.jar
-outputs.16.0.length=24526
-outputs.16.0.checksums.sha512=14c3f925d95e6afca00b680461962e01afdbeebf17c15d4abbd35544dac9b2db50c67c7164dfd6693e56812e823c02f284f07ecab45851187e8b8d37464fb22c
+outputs.16.0.filename=pmd-matlab-6.28.0.pom
+outputs.16.0.length=3503
+outputs.16.0.checksums.sha512=9524d1a0a7be356433e89dc5bb78223034da5123485d47c7d2d8394d135eb7f95497ad2bd65917f7be4ab4b8de4c365f82c7ba560dc5728e8934fc406bad4912
 
-outputs.16.1.filename=pmd-matlab-6.28.0-sources.jar
-outputs.16.1.length=16751
-outputs.16.1.checksums.sha512=4ff3ae30561f2602f8cff1ae3c94e749b858d561f96247a2ee04c39930d3d6ab90117594ef100f6347ddc5110c4c16017d2532e93bdd50da7ba68825dac33e4a
+outputs.16.1.filename=pmd-matlab-6.28.0.jar
+outputs.16.1.length=24526
+outputs.16.1.checksums.sha512=14c3f925d95e6afca00b680461962e01afdbeebf17c15d4abbd35544dac9b2db50c67c7164dfd6693e56812e823c02f284f07ecab45851187e8b8d37464fb22c
+
+outputs.16.2.filename=pmd-matlab-6.28.0-sources.jar
+outputs.16.2.length=16751
+outputs.16.2.checksums.sha512=4ff3ae30561f2602f8cff1ae3c94e749b858d561f96247a2ee04c39930d3d6ab90117594ef100f6347ddc5110c4c16017d2532e93bdd50da7ba68825dac33e4a
 
 outputs.17.coordinates=net.sourceforge.pmd:pmd-modelica
 
-outputs.17.0.filename=pmd-modelica-6.28.0.jar
-outputs.17.0.length=287175
-outputs.17.0.checksums.sha512=148178e3d1ed69141bbcac15de195694fd08fa665163897daf45f6f06d19842fc163e44cadb9ab2f22f55f93fda558825c6db2d3b474d8538213b66cc57b431a
+outputs.17.0.filename=pmd-modelica-6.28.0.pom
+outputs.17.0.length=4756
+outputs.17.0.checksums.sha512=26560493142b5efefdd680d7eb34902879494e9089d4ffd8f7987812aaab35d5e359eba4c6f42b2dbbbc6c433dc340bb4df9c5ac2dda469e9a34debc9a73fa6e
 
-outputs.17.1.filename=pmd-modelica-6.28.0-sources.jar
-outputs.17.1.length=186558
-outputs.17.1.checksums.sha512=cce291fedc5c6f6736aff874d44855f665f6f80d487b003da25521fa65562af68d07b2e8d93e7bb6576715dfcf2e89aaeefab25f977c1ee321c52ec997cf61b2
+outputs.17.1.filename=pmd-modelica-6.28.0.jar
+outputs.17.1.length=287175
+outputs.17.1.checksums.sha512=148178e3d1ed69141bbcac15de195694fd08fa665163897daf45f6f06d19842fc163e44cadb9ab2f22f55f93fda558825c6db2d3b474d8538213b66cc57b431a
+
+outputs.17.2.filename=pmd-modelica-6.28.0-sources.jar
+outputs.17.2.length=186558
+outputs.17.2.checksums.sha512=cce291fedc5c6f6736aff874d44855f665f6f80d487b003da25521fa65562af68d07b2e8d93e7bb6576715dfcf2e89aaeefab25f977c1ee321c52ec997cf61b2
 
 outputs.18.coordinates=net.sourceforge.pmd:pmd-perl
 
-outputs.18.0.filename=pmd-perl-6.28.0.jar
-outputs.18.0.length=3535
-outputs.18.0.checksums.sha512=d162001072cf840c6a6522c3d3d8a294ee9276e73fcfb3828ce84462f8be49e68386c6ebc5a72a0e61bb3ad0d383885ed3252aaefceda9a9f72ca9821231cfba
+outputs.18.0.filename=pmd-perl-6.28.0.pom
+outputs.18.0.length=1654
+outputs.18.0.checksums.sha512=1dbe40878c94bbd78678dd498cf712574a7dfdd064fbca0860cb07b4c37e3e95bc6390addbdff8113c6c7d7d25904a7f659790238af7ef7e07793a1f7ad0ef23
 
-outputs.18.1.filename=pmd-perl-6.28.0-sources.jar
-outputs.18.1.length=3194
-outputs.18.1.checksums.sha512=ff4714bcec123d8da53b38dedc3116a1c23a17766cb888c1ab07e08d0509afd64644ea9fac463faa761d49333c8c2fd58bd1505e0e92cbd1127452c1a5e50318
+outputs.18.1.filename=pmd-perl-6.28.0.jar
+outputs.18.1.length=3535
+outputs.18.1.checksums.sha512=d162001072cf840c6a6522c3d3d8a294ee9276e73fcfb3828ce84462f8be49e68386c6ebc5a72a0e61bb3ad0d383885ed3252aaefceda9a9f72ca9821231cfba
+
+outputs.18.2.filename=pmd-perl-6.28.0-sources.jar
+outputs.18.2.length=3194
+outputs.18.2.checksums.sha512=ff4714bcec123d8da53b38dedc3116a1c23a17766cb888c1ab07e08d0509afd64644ea9fac463faa761d49333c8c2fd58bd1505e0e92cbd1127452c1a5e50318
 
 outputs.19.coordinates=net.sourceforge.pmd:pmd-objectivec
 
-outputs.19.0.filename=pmd-objectivec-6.28.0.jar
-outputs.19.0.length=53332
-outputs.19.0.checksums.sha512=dca442dc13f7bb5a267e8a7b18d29bcfd43ed8793bc2daa0a6519ab4e2b9ac33ab02df4c473430ef652dc7b3703162a1cc58c901a6821804a2deee99deb5fe94
+outputs.19.0.filename=pmd-objectivec-6.28.0.pom
+outputs.19.0.length=3512
+outputs.19.0.checksums.sha512=58a7635ce7f1c5e181182e8b4bd4d8f2fe11dac8ef73687ae7c42810da81b3174d54b160b79d36fadd22f92ce686c5387233fa767da35bf5880649ead6101602
 
-outputs.19.1.filename=pmd-objectivec-6.28.0-sources.jar
-outputs.19.1.length=30314
-outputs.19.1.checksums.sha512=d021e038dbec6432fa000271a00b34ce56a6f98e44d2f39cf937f1a3dbf4f7088a8528f978dd405b1e84c27ce617b1259785735b33534e328065ce4005bb65b5
+outputs.19.1.filename=pmd-objectivec-6.28.0.jar
+outputs.19.1.length=53332
+outputs.19.1.checksums.sha512=dca442dc13f7bb5a267e8a7b18d29bcfd43ed8793bc2daa0a6519ab4e2b9ac33ab02df4c473430ef652dc7b3703162a1cc58c901a6821804a2deee99deb5fe94
+
+outputs.19.2.filename=pmd-objectivec-6.28.0-sources.jar
+outputs.19.2.length=30314
+outputs.19.2.checksums.sha512=d021e038dbec6432fa000271a00b34ce56a6f98e44d2f39cf937f1a3dbf4f7088a8528f978dd405b1e84c27ce617b1259785735b33534e328065ce4005bb65b5
 
 outputs.20.coordinates=net.sourceforge.pmd:pmd-php
 
-outputs.20.0.filename=pmd-php-6.28.0.jar
-outputs.20.0.length=5022
-outputs.20.0.checksums.sha512=6b36cef6ad5a40c3cf133f5a659031c5e5f9ad950441fdee8cb1030dea7e97d8a6bdb48bfe1f85581dc41062d0e2e93e954329a311c32bfebd05765bf8d77e17
+outputs.20.0.filename=pmd-php-6.28.0.pom
+outputs.20.0.length=1652
+outputs.20.0.checksums.sha512=93cfd71f61ef582ef549738503057e92e4a5c8737c58fae567ec1487fc609efd48ed99215938cc01d417a4868e5e573546bbc4f7212e0d368626585db71636e3
 
-outputs.20.1.filename=pmd-php-6.28.0-sources.jar
-outputs.20.1.length=4348
-outputs.20.1.checksums.sha512=0f5a4f28378b880f762a85b24f3d1af6fd64208e40c819738515b8ee5cdef32d9388502141636e2f3e99abea2bf76ed5038ba6a3af05b7375c381e1a2a3678b4
+outputs.20.1.filename=pmd-php-6.28.0.jar
+outputs.20.1.length=5022
+outputs.20.1.checksums.sha512=6b36cef6ad5a40c3cf133f5a659031c5e5f9ad950441fdee8cb1030dea7e97d8a6bdb48bfe1f85581dc41062d0e2e93e954329a311c32bfebd05765bf8d77e17
+
+outputs.20.2.filename=pmd-php-6.28.0-sources.jar
+outputs.20.2.length=4348
+outputs.20.2.checksums.sha512=0f5a4f28378b880f762a85b24f3d1af6fd64208e40c819738515b8ee5cdef32d9388502141636e2f3e99abea2bf76ed5038ba6a3af05b7375c381e1a2a3678b4
 
 outputs.21.coordinates=net.sourceforge.pmd:pmd-plsql
 
-outputs.21.0.filename=pmd-plsql-6.28.0.jar
-outputs.21.0.length=552229
-outputs.21.0.checksums.sha512=b09f0889d90ff744937e2b6e76bf6e2b28581b64204fecba8f4671a3387a0b33de87addd0563fce0db248d6489035cb237e9d4fc76d94208a9be2a10c804883f
+outputs.21.0.filename=pmd-plsql-6.28.0.pom
+outputs.21.0.length=4173
+outputs.21.0.checksums.sha512=45b5dc307194fc1a5440c982b87a0fc735099d6f7eff205c5b781728521f3cd3c0f1d6f1b0a11e7276db136fa1420b275c6f2208e009449bbb70d10a2de62b36
 
-outputs.21.1.filename=pmd-plsql-6.28.0-sources.jar
-outputs.21.1.length=490228
-outputs.21.1.checksums.sha512=0862567efdac7620ad9248332f3bfb28f471239c50f59945bdcf400649331319e68ffc435101819f9bc217cc42206c025da99ce52260d4ac8f8c20b1a192a0a9
+outputs.21.1.filename=pmd-plsql-6.28.0.jar
+outputs.21.1.length=552229
+outputs.21.1.checksums.sha512=b09f0889d90ff744937e2b6e76bf6e2b28581b64204fecba8f4671a3387a0b33de87addd0563fce0db248d6489035cb237e9d4fc76d94208a9be2a10c804883f
+
+outputs.21.2.filename=pmd-plsql-6.28.0-sources.jar
+outputs.21.2.length=490228
+outputs.21.2.checksums.sha512=0862567efdac7620ad9248332f3bfb28f471239c50f59945bdcf400649331319e68ffc435101819f9bc217cc42206c025da99ce52260d4ac8f8c20b1a192a0a9
 
 outputs.22.coordinates=net.sourceforge.pmd:pmd-python
 
-outputs.22.0.filename=pmd-python-6.28.0.jar
-outputs.22.0.length=33560
-outputs.22.0.checksums.sha512=b452970cea7d9fc8cb25bdb49dd0fcd232a35a5551bd9ce661e04ba6a34e92f43be03ba00f74a2ea398c0fc13983fa6e355c51d6b86a4417d418d9d735a844f6
+outputs.22.0.filename=pmd-python-6.28.0.pom
+outputs.22.0.length=3503
+outputs.22.0.checksums.sha512=9ce1abb97524b19316bd10fdc4a1bea273385a29620f77dd466ce8ec5cb4cb1c6a9e6cacf660cd24b04baf49cdccdf4cb5bf5c56259577d20612b9abfdeb6646
 
-outputs.22.1.filename=pmd-python-6.28.0-sources.jar
-outputs.22.1.length=20776
-outputs.22.1.checksums.sha512=97c00fc04c1ad381526c75aa7f07529c4de9256bb4179cfd3fe7d9487374d0545ced9fbb69f49174e041a3622a8676b4024f20a78005e2f89ed9376498d6db4b
+outputs.22.1.filename=pmd-python-6.28.0.jar
+outputs.22.1.length=33560
+outputs.22.1.checksums.sha512=b452970cea7d9fc8cb25bdb49dd0fcd232a35a5551bd9ce661e04ba6a34e92f43be03ba00f74a2ea398c0fc13983fa6e355c51d6b86a4417d418d9d735a844f6
+
+outputs.22.2.filename=pmd-python-6.28.0-sources.jar
+outputs.22.2.length=20776
+outputs.22.2.checksums.sha512=97c00fc04c1ad381526c75aa7f07529c4de9256bb4179cfd3fe7d9487374d0545ced9fbb69f49174e041a3622a8676b4024f20a78005e2f89ed9376498d6db4b
 
 outputs.23.coordinates=net.sourceforge.pmd:pmd-ruby
 
-outputs.23.0.filename=pmd-ruby-6.28.0.jar
-outputs.23.0.length=4645
-outputs.23.0.checksums.sha512=8f8fd36286ff1d125ee7facd2cf56e49049f3286b9120dfbdc9c215d1d50d294efb3cb4e8c7b522a0249bfcf1b7bf21fd2f566b9ac0b7b7f655edba039147757
+outputs.23.0.filename=pmd-ruby-6.28.0.pom
+outputs.23.0.length=1230
+outputs.23.0.checksums.sha512=866e4936525208de004a27f63c64456c381ea4bb071159d6b97f03b2af3284bda6426caaab872efde7c2dbcaab58a6c2251f2fabab041a177f75323539220f23
 
-outputs.23.1.filename=pmd-ruby-6.28.0-sources.jar
-outputs.23.1.length=4305
-outputs.23.1.checksums.sha512=b4d1fb73f7f2c68fede6f0d2856b9fc99bc3a388e8d51299d118602adc71d892d3a8c669427f08ccaf7dd24d3e815e5b387792091aea8a05f4c12db575b8b435
+outputs.23.1.filename=pmd-ruby-6.28.0.jar
+outputs.23.1.length=4645
+outputs.23.1.checksums.sha512=8f8fd36286ff1d125ee7facd2cf56e49049f3286b9120dfbdc9c215d1d50d294efb3cb4e8c7b522a0249bfcf1b7bf21fd2f566b9ac0b7b7f655edba039147757
+
+outputs.23.2.filename=pmd-ruby-6.28.0-sources.jar
+outputs.23.2.length=4305
+outputs.23.2.checksums.sha512=b4d1fb73f7f2c68fede6f0d2856b9fc99bc3a388e8d51299d118602adc71d892d3a8c669427f08ccaf7dd24d3e815e5b387792091aea8a05f4c12db575b8b435
 
 outputs.24.coordinates=net.sourceforge.pmd:pmd-swift
 
-outputs.24.0.filename=pmd-swift-6.28.0.jar
-outputs.24.0.length=438671
-outputs.24.0.checksums.sha512=fea1d22fa515401316bce71adfceaf8ec97b9d944b7d3a44b116d64e1c83cd73af333696bb33c186c798ca5bca31a278a8e4a44a061c3272132cbc0161621801
+outputs.24.0.filename=pmd-swift-6.28.0.pom
+outputs.24.0.length=1943
+outputs.24.0.checksums.sha512=a441620454b269d40fa53ff565c3b19db8fe817702c562528fe5eaab95c5853c15a327861e68c5ea754e7dbe544d3e16f87188b8e41d17de06673e526b289924
 
-outputs.24.1.filename=pmd-swift-6.28.0-sources.jar
-outputs.24.1.length=114043
-outputs.24.1.checksums.sha512=72b9b8278a1f4ac309b16c721af6d70f827ae62e57db2442bc36fd2fd5dd2dc79a0059160ff1003b4a713fe45a00d0586536fef86db9e276438ece569058bfb2
+outputs.24.1.filename=pmd-swift-6.28.0.jar
+outputs.24.1.length=438671
+outputs.24.1.checksums.sha512=fea1d22fa515401316bce71adfceaf8ec97b9d944b7d3a44b116d64e1c83cd73af333696bb33c186c798ca5bca31a278a8e4a44a061c3272132cbc0161621801
+
+outputs.24.2.filename=pmd-swift-6.28.0-sources.jar
+outputs.24.2.length=114043
+outputs.24.2.checksums.sha512=72b9b8278a1f4ac309b16c721af6d70f827ae62e57db2442bc36fd2fd5dd2dc79a0059160ff1003b4a713fe45a00d0586536fef86db9e276438ece569058bfb2
 
 outputs.25.coordinates=net.sourceforge.pmd:pmd-vm
 
-outputs.25.0.filename=pmd-vm-6.28.0.jar
-outputs.25.0.length=154849
-outputs.25.0.checksums.sha512=e93914138ff28ccdefef55d445db89c7071a1c39385dbcf65cb8f758d3fab379c5f08104cc7217c061455e90d7e6d2435306dfd95685f9b8a8f982d084add353
+outputs.25.0.filename=pmd-vm-6.28.0.pom
+outputs.25.0.length=4003
+outputs.25.0.checksums.sha512=8072ba4aef8ab7aaddedc6f8cf4ac988b4502015329e0783a58bb738f99a754b9c1d186e7663392d2f85b8e194f5bb464ecbe49f5a57f39b831c3ef99e0652db
 
-outputs.25.1.filename=pmd-vm-6.28.0-sources.jar
-outputs.25.1.length=143761
-outputs.25.1.checksums.sha512=a35571cfbb70898e0170d6c29f5274c7c34baa020bb6c78a1afbe6b6c59725cfe73b6527cef4ac6c5d5857c16d4c2f915fc5c046d320ad7d8d091f88daaadf62
+outputs.25.1.filename=pmd-vm-6.28.0.jar
+outputs.25.1.length=154849
+outputs.25.1.checksums.sha512=e93914138ff28ccdefef55d445db89c7071a1c39385dbcf65cb8f758d3fab379c5f08104cc7217c061455e90d7e6d2435306dfd95685f9b8a8f982d084add353
+
+outputs.25.2.filename=pmd-vm-6.28.0-sources.jar
+outputs.25.2.length=143761
+outputs.25.2.checksums.sha512=a35571cfbb70898e0170d6c29f5274c7c34baa020bb6c78a1afbe6b6c59725cfe73b6527cef4ac6c5d5857c16d4c2f915fc5c046d320ad7d8d091f88daaadf62
 
 outputs.26.coordinates=net.sourceforge.pmd:pmd-xml
 
-outputs.26.0.filename=pmd-xml-6.28.0.jar
-outputs.26.0.length=57098
-outputs.26.0.checksums.sha512=92a5dcff85092f08c4eaf4408fe573586e7f077ab4b39f09ce5594f516b456cee68867fc4442c381f84e7bfce9706137d708d37afba2ce81ace09cf5f8acf111
+outputs.26.0.filename=pmd-xml-6.28.0.pom
+outputs.26.0.length=2279
+outputs.26.0.checksums.sha512=512616741939dc7f361d6dc8560c54361dfaab44d31c627e70a03d913963328fd3e57f2a8926e1d650093a8a57ec23241a0e244ae004a20f2088de38efc3bceb
 
-outputs.26.1.filename=pmd-xml-6.28.0-sources.jar
-outputs.26.1.length=45192
-outputs.26.1.checksums.sha512=42741e933664dd44f9cbe7de1266d4505e6036bced0a4d6efabfc702be16e3abdd9f3a537f048516636ef8b44b161c5dacfcbe566af3ea98389e1902c6158720
+outputs.26.1.filename=pmd-xml-6.28.0.jar
+outputs.26.1.length=57098
+outputs.26.1.checksums.sha512=92a5dcff85092f08c4eaf4408fe573586e7f077ab4b39f09ce5594f516b456cee68867fc4442c381f84e7bfce9706137d708d37afba2ce81ace09cf5f8acf111
+
+outputs.26.2.filename=pmd-xml-6.28.0-sources.jar
+outputs.26.2.length=45192
+outputs.26.2.checksums.sha512=42741e933664dd44f9cbe7de1266d4505e6036bced0a4d6efabfc702be16e3abdd9f3a537f048516636ef8b44b161c5dacfcbe566af3ea98389e1902c6158720
 
 outputs.27.coordinates=net.sourceforge.pmd:pmd-apex-jorje
 
-outputs.27.0.filename=pmd-apex-jorje-6.28.0-lib.jar
-outputs.27.0.length=6474663
-outputs.27.0.checksums.sha512=72178ade1753ff4fbd59c990f0d9a86ca8a8e779ca17783c0e346d6cbde5adc2274d431d5d490436bc536332253b68ee8214a5ef139a355b9600885a74c92789
+outputs.27.0.filename=pmd-apex-jorje-6.28.0.pom
+outputs.27.0.length=4491
+outputs.27.0.checksums.sha512=dab164d6e26315ef6def9ef7e5bb8efe9882df5e1c0fc92a1c1127750969f9551be8d471e248d9c930eea510c705c2111fde1b28039c69658b252a5097e732fc
+
+outputs.27.1.filename=pmd-apex-jorje-6.28.0-lib.jar
+outputs.27.1.length=6474663
+outputs.27.1.checksums.sha512=72178ade1753ff4fbd59c990f0d9a86ca8a8e779ca17783c0e346d6cbde5adc2274d431d5d490436bc536332253b68ee8214a5ef139a355b9600885a74c92789
 
 outputs.28.coordinates=net.sourceforge.pmd:pmd-apex
 
-outputs.28.0.filename=pmd-apex-6.28.0.jar
-outputs.28.0.length=320500
-outputs.28.0.checksums.sha512=594a22803bf0249380d0784e0375bb8efacdf364f55e780d4a83ff5e661067f2e8dbec845e3a1269d2397860e485131aef1b3d517173cb9abefd248ce8926928
+outputs.28.0.filename=pmd-apex-6.28.0.pom
+outputs.28.0.length=3152
+outputs.28.0.checksums.sha512=6dc8deb8c5191ccd20e93a5b176128e4d91f94dd9680fe96fb8ae7758fc41f58078a12b12bb0da5eeb43c2636435dc475c7a679262016c741970363298fc06da
 
-outputs.28.1.filename=pmd-apex-6.28.0-sources.jar
-outputs.28.1.length=202292
-outputs.28.1.checksums.sha512=b45471cdf5ad6d6fbdb58cf8337daa0d5650eddef0a22be24065bdcf129381677e6665d31d9d52869343dd6d9106018733e66b0e48add1d4110f191072788cef
+outputs.28.1.filename=pmd-apex-6.28.0.jar
+outputs.28.1.length=320500
+outputs.28.1.checksums.sha512=594a22803bf0249380d0784e0375bb8efacdf364f55e780d4a83ff5e661067f2e8dbec845e3a1269d2397860e485131aef1b3d517173cb9abefd248ce8926928
+
+outputs.28.2.filename=pmd-apex-6.28.0-sources.jar
+outputs.28.2.length=202292
+outputs.28.2.checksums.sha512=b45471cdf5ad6d6fbdb58cf8337daa0d5650eddef0a22be24065bdcf129381677e6665d31d9d52869343dd6d9106018733e66b0e48add1d4110f191072788cef
 
 outputs.29.coordinates=net.sourceforge.pmd:pmd-scala-common
 
+outputs.29.0.filename=pmd-scala-common-6.28.0.pom
+outputs.29.0.length=6790
+outputs.29.0.checksums.sha512=efc164e95c2d005e8239ad668371896113d27b122416ce089c14cb47ab2e28d37dfc0fd67bd4504573eebfede3f4fe18617ca00842d5659ad5190c2972360bf3
+
 outputs.30.coordinates=net.sourceforge.pmd:pmd-scala_2.13
 
-outputs.30.0.filename=pmd-scala_2.13-6.28.0.jar
-outputs.30.0.length=188503
-outputs.30.0.checksums.sha512=072b8fa57b2c027b006a371a149342d8a67935dafb18f7a8735e6e13ee6f442c3630459ff2ae2e4eb94949a291d493bf89432bf718f0cc9fa303999823fcee6b
+outputs.30.0.filename=pmd-scala_2.13-6.28.0.pom
+outputs.30.0.length=1526
+outputs.30.0.checksums.sha512=0188b447c353a98017ad72aad055a57a5cb7e511b7d68463d26a5dfbcd16a5eb14c5a6d8c5b6a2de4ec10e0a8a71de9c7ebbcaa4475e60aef1713fb646b7cfe0
 
-outputs.30.1.filename=pmd-scala_2.13-6.28.0-sources.jar
-outputs.30.1.length=86230
-outputs.30.1.checksums.sha512=b09d0e13ade5709a6f5719976a07d5e4b85aebb805468a699622fc12f0dc949f04945b103bae062631400e3ebc68b36b63a4e946cf094a9564e20b332a38543e
+outputs.30.1.filename=pmd-scala_2.13-6.28.0.jar
+outputs.30.1.length=188503
+outputs.30.1.checksums.sha512=072b8fa57b2c027b006a371a149342d8a67935dafb18f7a8735e6e13ee6f442c3630459ff2ae2e4eb94949a291d493bf89432bf718f0cc9fa303999823fcee6b
+
+outputs.30.2.filename=pmd-scala_2.13-6.28.0-sources.jar
+outputs.30.2.length=86230
+outputs.30.2.checksums.sha512=b09d0e13ade5709a6f5719976a07d5e4b85aebb805468a699622fc12f0dc949f04945b103bae062631400e3ebc68b36b63a4e946cf094a9564e20b332a38543e
 
 outputs.31.coordinates=net.sourceforge.pmd:pmd-dist
 
-outputs.31.0.filename=pmd-dist-6.28.0.jar
-outputs.31.0.length=13291
-outputs.31.0.checksums.sha512=cb28301246106ac890782634f5f27ab6b38a3c61af53434c098b920841249d2e216668c3d4797d1a2536b8daf90f616b14a41e81686c6b897083f4fb5d606767
+outputs.31.0.filename=pmd-dist-6.28.0.pom
+outputs.31.0.length=11658
+outputs.31.0.checksums.sha512=dc1319bf4ce60957a65920e8dcbd38c7e863410f3efe61e56828b1d65b6bc133e3b3e7913b0f2eddfa255f3f451d2a220e6373757d0673e32a3e64b8502cb356
 
-outputs.31.1.filename=pmd-dist-6.28.0-sources.jar
-outputs.31.1.length=13277
-outputs.31.1.checksums.sha512=40bfd1fe78885d7257de0f009b15c0bcedc6be07fd6829b156a76430e00da2f2c793692e966b97c9772f47a193f93cb5b6f1f28bb86f5d82283483113dda80e1
+outputs.31.1.filename=pmd-dist-6.28.0.jar
+outputs.31.1.length=13291
+outputs.31.1.checksums.sha512=cb28301246106ac890782634f5f27ab6b38a3c61af53434c098b920841249d2e216668c3d4797d1a2536b8daf90f616b14a41e81686c6b897083f4fb5d606767
+
+outputs.31.2.filename=pmd-dist-6.28.0-sources.jar
+outputs.31.2.length=13277
+outputs.31.2.checksums.sha512=40bfd1fe78885d7257de0f009b15c0bcedc6be07fd6829b156a76430e00da2f2c793692e966b97c9772f47a193f93cb5b6f1f28bb86f5d82283483113dda80e1
 
 outputs.32.coordinates=net.sourceforge.pmd:pmd-java8
 
-outputs.32.0.filename=pmd-java8-6.28.0.jar
-outputs.32.0.length=1806
-outputs.32.0.checksums.sha512=69bca86fa4884cb9dedf5603f85404a275fe18738485748652896a23918e796d97e884b16c2e80eebd7c40c591d8eef2011dfb04f99f54da53a67dc7c2a115d2
+outputs.32.0.filename=pmd-java8-6.28.0.pom
+outputs.32.0.length=2356
+outputs.32.0.checksums.sha512=fdbe9939c0f017049d4d3bfee20299bfd4964988b8caa8cf9a67f96b9792a7465778dd3589ad24932042fc36c2c927104baf2c58918949030a0b11964391909c
+
+outputs.32.1.filename=pmd-java8-6.28.0.jar
+outputs.32.1.length=1806
+outputs.32.1.checksums.sha512=69bca86fa4884cb9dedf5603f85404a275fe18738485748652896a23918e796d97e884b16c2e80eebd7c40c591d8eef2011dfb04f99f54da53a67dc7c2a115d2
 
 outputs.33.coordinates=net.sourceforge.pmd:pmd-doc
 
-outputs.33.0.filename=pmd-doc-6.28.0.jar
-outputs.33.0.length=41200
-outputs.33.0.checksums.sha512=0a1208dc4cc510d99f719a238ea6da05039933a1fd8f0e49aadf0c0fea4a2014c8c3018468ed3b63f589105ae7a6e02cf433e8efdfaf2a6eeb7ed85bd7d983d8
+outputs.33.0.filename=pmd-doc-6.28.0.pom
+outputs.33.0.length=4608
+outputs.33.0.checksums.sha512=c51f47c957f75a3f8b08b8ae91c8a02a97a151649be3b383a9ec98a1e4451cd004b05055e02779299100bb56a03f95d74714dfa5481fac4d0562555f94004eba
 
-outputs.33.1.filename=pmd-doc-6.28.0-sources.jar
-outputs.33.1.length=21335
-outputs.33.1.checksums.sha512=0e2afeeeaf930c4da45b36cd1d17b83f2c9ba269e774bcdf9b07f6204754695e63e2f09da2e9a9a850b365e4c7f6c8778343b9ef013652b95b27f34d32441b78
+outputs.33.1.filename=pmd-doc-6.28.0.jar
+outputs.33.1.length=41200
+outputs.33.1.checksums.sha512=0a1208dc4cc510d99f719a238ea6da05039933a1fd8f0e49aadf0c0fea4a2014c8c3018468ed3b63f589105ae7a6e02cf433e8efdfaf2a6eeb7ed85bd7d983d8
+
+outputs.33.2.filename=pmd-doc-6.28.0-sources.jar
+outputs.33.2.length=21335
+outputs.33.2.checksums.sha512=0e2afeeeaf930c4da45b36cd1d17b83f2c9ba269e774bcdf9b07f6204754695e63e2f09da2e9a9a850b365e4c7f6c8778343b9ef013652b95b27f34d32441b78
 
 outputs.34.coordinates=net.sourceforge.pmd:pmd-scala
 
+outputs.34.0.filename=pmd-scala-6.28.0.pom
+outputs.34.0.length=928
+outputs.34.0.checksums.sha512=1c987ece6d85e5dcdccabf6201d94fcaf3db0e59eed5390b24816afe4e9cf8eed51d63dde552df76d8553f6b990a060bb42a5fb03ee1f35667d3c5973495f4c2
+
 outputs.35.coordinates=net.sourceforge.pmd:pmd-scala_2.12
 
-outputs.35.0.filename=pmd-scala_2.12-6.28.0.jar
-outputs.35.0.length=188503
-outputs.35.0.checksums.sha512=cdd8a6e43c77efd1dc79d8fcfabe3c4b454415c8774acb8f03016291a3756b28a0a003ab3b184fd1ffab8867ab89a4118b37c1c16dfa88cff5184062614494f3
+outputs.35.0.filename=pmd-scala_2.12-6.28.0.pom
+outputs.35.0.length=1527
+outputs.35.0.checksums.sha512=e8d8a3ffbf012c150d211a42dd4f9666541c63dbd6762982336af36c45c0915e235c7c1f46ea1cc66fb0a21ee88580d47e1d400d7bb67e3899ea0b75602a0735
 
-outputs.35.1.filename=pmd-scala_2.12-6.28.0-sources.jar
-outputs.35.1.length=86230
-outputs.35.1.checksums.sha512=56fd3f22acaae2ec0e2af67ba57c68c390eddbb0d6bb889eb0920cf85081cd694b9cc233c700f3e8732a5c7de581bdb3a464db68f76033a6ef3f87eb35291014
+outputs.35.1.filename=pmd-scala_2.12-6.28.0.jar
+outputs.35.1.length=188503
+outputs.35.1.checksums.sha512=cdd8a6e43c77efd1dc79d8fcfabe3c4b454415c8774acb8f03016291a3756b28a0a003ab3b184fd1ffab8867ab89a4118b37c1c16dfa88cff5184062614494f3
+
+outputs.35.2.filename=pmd-scala_2.12-6.28.0-sources.jar
+outputs.35.2.length=86230
+outputs.35.2.checksums.sha512=56fd3f22acaae2ec0e2af67ba57c68c390eddbb0d6bb889eb0920cf85081cd694b9cc233c700f3e8732a5c7de581bdb3a464db68f76033a6ef3f87eb35291014

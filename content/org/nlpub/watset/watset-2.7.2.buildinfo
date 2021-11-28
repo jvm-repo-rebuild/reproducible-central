@@ -21,10 +21,14 @@ os.name=Unix
 
 # output
 
-outputs.0.filename=watset-2.7.2.jar
-outputs.0.length=126002
-outputs.0.checksums.sha512=fa25bc4781ecdc9552eb45c9ffee7aeffd7afc9d60eeff39d6af3e15573227b5046efdc410cb053c2d587022bbde36b1ea874d78c499031d97f5acae3f530cde
+outputs.0.filename=watset-2.7.2.pom
+outputs.0.length=11705
+outputs.0.checksums.sha512=055c32279cd3c6661a1aec5cd6706d504bbcc30debc51f6c69246675de7a335e47a3a6f3d44e5b91483f195472cb3f4ffffc4edc3be66a4f9ccf509159dee2a6
 
-outputs.1.filename=watset-2.7.2-sources.jar
-outputs.1.length=80588
-outputs.1.checksums.sha512=1bddbf402bd6cd61854c12c78f11ce466afcdb0e90af8be89268e170224d3d7920dc8d338fb21e954aeec41fab6b58f9020518facf921b1fb23b67fc7bde242a
+outputs.1.filename=watset-2.7.2.jar
+outputs.1.length=126002
+outputs.1.checksums.sha512=fa25bc4781ecdc9552eb45c9ffee7aeffd7afc9d60eeff39d6af3e15573227b5046efdc410cb053c2d587022bbde36b1ea874d78c499031d97f5acae3f530cde
+
+outputs.2.filename=watset-2.7.2-sources.jar
+outputs.2.length=80588
+outputs.2.checksums.sha512=1bddbf402bd6cd61854c12c78f11ce466afcdb0e90af8be89268e170224d3d7920dc8d338fb21e954aeec41fab6b58f9020518facf921b1fb23b67fc7bde242a

@@ -1,4 +1,8 @@
-ok=2
+version=1.0.5
+ok=4
 ko=1
-okFiles="plexus-languages-1.0.5-site.xml plexus-java-1.0.5-sources.jar"
+okFiles="plexus-languages-1.0.5.pom plexus-languages-1.0.5-site.xml plexus-java-1.0.5.pom plexus-java-1.0.5-sources.jar"
 koFiles="plexus-java-1.0.5.jar"
+reference_java_version="9 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/plexus-java-1.0.5.jar plexus-java/target/plexus-java-1.0.5.jar

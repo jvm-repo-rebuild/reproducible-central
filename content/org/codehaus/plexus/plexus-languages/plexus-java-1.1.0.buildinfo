@@ -24,20 +24,28 @@ mvn.aggregate.artifact-id=plexus-java
 
 outputs.0.coordinates=org.codehaus.plexus:plexus-languages
 
-outputs.0.0.filename=plexus-languages-1.1.0-site.xml
-outputs.0.0.length=1211
-outputs.0.0.checksums.sha512=2ffdd73155c41dbed846de433ddcd35bd47052e37d81b7dbff28ab951ad6c918a09f475cd373aa6420290bcab609fa324cf072f7fcf0298c884f0bdfe8e57d89
+outputs.0.0.filename=plexus-languages-1.1.0.pom
+outputs.0.0.length=4759
+outputs.0.0.checksums.sha512=66a73d0bb8956a7f3a403eab0f05e460b016fe6f6640ad4e17650f71504a77e89b2bb7ac35ca63e296c22068f587f7e8202845e45490694d5583b6a277b3491d
 
-outputs.0.1.filename=plexus-languages-1.1.0-source-release.zip
-outputs.0.1.length=488103
-outputs.0.1.checksums.sha512=be5c931d2566cb1cd531fa71aea92ed0e111b4f033c20987185e92d36f641ddfbad6cebc2ad654cf39b79e28514825fbeb1bd07a3726c0a3b78b16b64cb0a4d5
+outputs.0.1.filename=plexus-languages-1.1.0-site.xml
+outputs.0.1.length=1211
+outputs.0.1.checksums.sha512=2ffdd73155c41dbed846de433ddcd35bd47052e37d81b7dbff28ab951ad6c918a09f475cd373aa6420290bcab609fa324cf072f7fcf0298c884f0bdfe8e57d89
+
+outputs.0.2.filename=plexus-languages-1.1.0-source-release.zip
+outputs.0.2.length=488103
+outputs.0.2.checksums.sha512=be5c931d2566cb1cd531fa71aea92ed0e111b4f033c20987185e92d36f641ddfbad6cebc2ad654cf39b79e28514825fbeb1bd07a3726c0a3b78b16b64cb0a4d5
 
 outputs.1.coordinates=org.codehaus.plexus:plexus-java
 
-outputs.1.0.filename=plexus-java-1.1.0.jar
-outputs.1.0.length=52825
-outputs.1.0.checksums.sha512=e27d07a0c84c625a37201120999f247c68d664b00a755ae611d7ca6533d2f74699d2f641c03e7bc1c67ad6e5ce34769bcabf34323d3ee3e08936c170bbe63577
+outputs.1.0.filename=plexus-java-1.1.0.pom
+outputs.1.0.length=5138
+outputs.1.0.checksums.sha512=8d526a3865d0c0ea041c7701f2ec76b943eb692a45154d4fec729d256704da0791e06819c21f1c77fa5c8cbfcf6321840c36afb5b9aeb3c4f9333d3352fe4e5e
 
-outputs.1.1.filename=plexus-java-1.1.0-sources.jar
-outputs.1.1.length=30154
-outputs.1.1.checksums.sha512=2a1ccf27acb30001c1becd99710212591f96aeeb32ba9dec5a2034cb45f560b2accd5acd46734c29d8b2b9ddc2b754b1645b1c759df7e923a5265e64c1cf1e16
+outputs.1.1.filename=plexus-java-1.1.0.jar
+outputs.1.1.length=52825
+outputs.1.1.checksums.sha512=c16dc7b970b0a4a0aecbb5c4fbc58e69287a33ea57c70dafe02fd8cfa0a98fe9c238dfa831191e75d45bd79b303b613876d4a31bc419a5f04f4105f3bdae98d4
+
+outputs.1.2.filename=plexus-java-1.1.0-sources.jar
+outputs.1.2.length=30154
+outputs.1.2.checksums.sha512=2a1ccf27acb30001c1becd99710212591f96aeeb32ba9dec5a2034cb45f560b2accd5acd46734c29d8b2b9ddc2b754b1645b1c759df7e923a5265e64c1cf1e16

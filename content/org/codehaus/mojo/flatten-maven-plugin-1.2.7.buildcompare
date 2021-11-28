@@ -1,5 +1,8 @@
 version=1.2.7
 ok=3
-ko=0
-okFiles="flatten-maven-plugin-1.2.7.jar flatten-maven-plugin-1.2.7-source-release.zip flatten-maven-plugin-1.2.7-sources.jar"
-koFiles=""
+ko=1
+okFiles="flatten-maven-plugin-1.2.7.pom flatten-maven-plugin-1.2.7.jar flatten-maven-plugin-1.2.7-sources.jar"
+koFiles="flatten-maven-plugin-1.2.7-source-release.zip"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/flatten-maven-plugin-1.2.7-source-release.zip target/flatten-maven-plugin-1.2.7-source-release.zip

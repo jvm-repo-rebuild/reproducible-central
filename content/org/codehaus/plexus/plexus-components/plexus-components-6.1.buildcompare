@@ -1,5 +1,5 @@
 version=6.1
-ok=1
+ok=2
 ko=0
-okFiles="plexus-components-6.1-site.xml"
+okFiles="plexus-components-6.1.pom plexus-components-6.1-site.xml"
 koFiles=""

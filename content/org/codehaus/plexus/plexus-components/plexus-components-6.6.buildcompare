@@ -1,5 +1,5 @@
 version=6.6
-ok=2
+ok=3
 ko=0
-okFiles="plexus-components-6.6-site.xml plexus-components-6.6-source-release.zip"
+okFiles="plexus-components-6.6.pom plexus-components-6.6-site.xml plexus-components-6.6-source-release.zip"
 koFiles=""

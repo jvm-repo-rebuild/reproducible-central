@@ -1,7 +1,7 @@
 version=1.1.0
-ok=3
+ok=5
 ko=1
-okFiles="plexus-languages-1.1.0-site.xml plexus-languages-1.1.0-source-release.zip plexus-java-1.1.0-sources.jar"
+okFiles="plexus-languages-1.1.0.pom plexus-languages-1.1.0-site.xml plexus-languages-1.1.0-source-release.zip plexus-java-1.1.0.pom plexus-java-1.1.0-sources.jar"
 koFiles="plexus-java-1.1.0.jar"
 reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Windows (from pom.properties newline)"

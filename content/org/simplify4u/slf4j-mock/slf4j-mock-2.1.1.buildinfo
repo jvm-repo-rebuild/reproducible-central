@@ -21,10 +21,14 @@ os.name=Unix
 
 # output
 
-outputs.0.filename=slf4j-mock-2.1.1.jar
-outputs.0.length=31281
-outputs.0.checksums.sha512=64f89bf7f86925ee62f2d43e54291421d17de71d3d7492e2ab04fe6d3e414d59ae905d0d5d63e271de77dda13c31f9ce1bc14fd270ed50692034642826ffea54
+outputs.0.filename=slf4j-mock-2.1.1.pom
+outputs.0.length=8368
+outputs.0.checksums.sha512=2df0a2da68c34cf583d3f059e779feefa2a109e0330060d4311c4069902fcb717fcdf19f85e11a4096af3dac2fbc521a5512988516ccf15c9f29c6d4f5a26022
 
-outputs.1.filename=slf4j-mock-2.1.1-sources.jar
-outputs.1.length=25014
-outputs.1.checksums.sha512=7ff4001301f8348b8be8f44f6bc92ba703280d651b094aa7b8f71fb535e1d2fe336bb496237ee6f09ac95a9aafde894d3828e8e7ffa5b4f92a9affd75ae6fe31
+outputs.1.filename=slf4j-mock-2.1.1.jar
+outputs.1.length=31281
+outputs.1.checksums.sha512=64f89bf7f86925ee62f2d43e54291421d17de71d3d7492e2ab04fe6d3e414d59ae905d0d5d63e271de77dda13c31f9ce1bc14fd270ed50692034642826ffea54
+
+outputs.2.filename=slf4j-mock-2.1.1-sources.jar
+outputs.2.length=25014
+outputs.2.checksums.sha512=7ff4001301f8348b8be8f44f6bc92ba703280d651b094aa7b8f71fb535e1d2fe336bb496237ee6f09ac95a9aafde894d3828e8e7ffa5b4f92a9affd75ae6fe31

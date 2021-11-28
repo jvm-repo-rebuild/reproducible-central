@@ -13,124 +13,171 @@ source.scm.tag=plexus-compiler-2.8.7
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=11.0.6
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.aggregate.artifact-id=plexus-compiler-j2objc
 
 # aggregated output
 
 outputs.0.coordinates=org.codehaus.plexus:plexus-compiler
 
-outputs.0.0.filename=plexus-compiler-2.8.7-site.xml
-outputs.0.0.length=1182
-outputs.0.0.checksums.sha512=e73fc459ce056db29fd3cb9526b180ca7cd90102629171e064bb37afb325a747d0dd855f5a611d992eb51ca21e6e2ccfd3f6410149942378ff6d5b93fbd09e94
+outputs.0.0.filename=plexus-compiler-2.8.7.pom
+outputs.0.0.length=7012
+outputs.0.0.checksums.sha512=55095f44b55b7fa6b2724e1bd0978e793d905975d9a487fbe82a9f32aeb28e6d398beb75081fad826138345a6222370ce36f8123706277f272e9b6e9ba9fb887
 
-outputs.0.1.filename=plexus-compiler-2.8.7-source-release.zip
-outputs.0.1.length=206044
-outputs.0.1.checksums.sha512=9a5a25cbeb0804d83ba376081ddafc2eb5cce01c3924adb4212052f0f49e2b2722db6551465424976529d2da6e6ef1d008c5f891699c621a42df80e27a64e6e2
+outputs.0.1.filename=plexus-compiler-2.8.7-site.xml
+outputs.0.1.length=1182
+outputs.0.1.checksums.sha512=e73fc459ce056db29fd3cb9526b180ca7cd90102629171e064bb37afb325a747d0dd855f5a611d992eb51ca21e6e2ccfd3f6410149942378ff6d5b93fbd09e94
+
+outputs.0.2.filename=plexus-compiler-2.8.7-source-release.zip
+outputs.0.2.length=206204
+outputs.0.2.checksums.sha512=010cfc943ba240a1ed322ef6a59602e9963abd63744d9cbb120a5488d2567264006905982de0222d849dbad0353a2a79b33ddb6833ebcd4bbe6c76e571bc69e7
 
 outputs.1.coordinates=org.codehaus.plexus:plexus-compiler-api
 
-outputs.1.0.filename=plexus-compiler-api-2.8.7.jar
-outputs.1.0.length=26558
-outputs.1.0.checksums.sha512=1484934a33af8d91a3d64985296903db7c1cadd25fe4b09a34bc48fc65aaca0cf04b8d19a04e1889115ad829a95898d8f3ce1a18f184397ee6edcf536d4a9e0a
+outputs.1.0.filename=plexus-compiler-api-2.8.7.pom
+outputs.1.0.length=867
+outputs.1.0.checksums.sha512=dcf01d60e58efafacf4767c0e624ca86cd544247ccf4fd7417afb037dd925405ace9f9ff03bdafb7258c2cf47f9fb4c7aaefceda3c190e025f8b13d3ad12f195
 
-outputs.1.1.filename=plexus-compiler-api-2.8.7-sources.jar
-outputs.1.1.length=28009
-outputs.1.1.checksums.sha512=e87dc2fdd06a8ae7d476450d37484205a86988423c070ef2cf945fcf4341e5fc65dcc86922051fe062b82fd3a9d45e1ec9b1f64fd43c33e1eb4375936eb48acb
+outputs.1.1.filename=plexus-compiler-api-2.8.7.jar
+outputs.1.1.length=26558
+outputs.1.1.checksums.sha512=1484934a33af8d91a3d64985296903db7c1cadd25fe4b09a34bc48fc65aaca0cf04b8d19a04e1889115ad829a95898d8f3ce1a18f184397ee6edcf536d4a9e0a
+
+outputs.1.2.filename=plexus-compiler-api-2.8.7-sources.jar
+outputs.1.2.length=28009
+outputs.1.2.checksums.sha512=e87dc2fdd06a8ae7d476450d37484205a86988423c070ef2cf945fcf4341e5fc65dcc86922051fe062b82fd3a9d45e1ec9b1f64fd43c33e1eb4375936eb48acb
 
 outputs.2.coordinates=org.codehaus.plexus:plexus-compiler-manager
 
-outputs.2.0.filename=plexus-compiler-manager-2.8.7.jar
-outputs.2.0.length=4612
-outputs.2.0.checksums.sha512=802583519831941b4bd5ab291fc931936a68de4b1ab9d816929da796e3ba29419f6700393f7ef4f29c3715545a36783177956b2c95d0ff115062d59cb91297d3
+outputs.2.0.filename=plexus-compiler-manager-2.8.7.pom
+outputs.2.0.length=832
+outputs.2.0.checksums.sha512=b6e8b8835dbe5f1db6573020f6b7e0256dfe237986d5b7e2028678d34ccef54e0e06aa92dac833875caaa8990a858d439fd77c4c43ef4c9061d4ab40ff9b97d7
 
-outputs.2.1.filename=plexus-compiler-manager-2.8.7-sources.jar
-outputs.2.1.length=5511
-outputs.2.1.checksums.sha512=df84dc0433c7cfd476f15542cdcdf5ea88890225f8dd5efbf5424c6db96d016a3bdbafa13a776d131416e5a990066b98e3fe269465b5b43424f681bae19ad8ac
+outputs.2.1.filename=plexus-compiler-manager-2.8.7.jar
+outputs.2.1.length=4612
+outputs.2.1.checksums.sha512=802583519831941b4bd5ab291fc931936a68de4b1ab9d816929da796e3ba29419f6700393f7ef4f29c3715545a36783177956b2c95d0ff115062d59cb91297d3
+
+outputs.2.2.filename=plexus-compiler-manager-2.8.7-sources.jar
+outputs.2.2.length=5511
+outputs.2.2.checksums.sha512=df84dc0433c7cfd476f15542cdcdf5ea88890225f8dd5efbf5424c6db96d016a3bdbafa13a776d131416e5a990066b98e3fe269465b5b43424f681bae19ad8ac
 
 outputs.3.coordinates=org.codehaus.plexus:plexus-compiler-test
 
-outputs.3.0.filename=plexus-compiler-test-2.8.7.jar
-outputs.3.0.length=9456
-outputs.3.0.checksums.sha512=5b2436372e4a1e779f559a8190a1023fd118155f1435b371c794e058edeeaaee5dc085ad6ba85b0c6d293c1400bce70cf0a3853268e8cabefa462ac14c5f3b04
+outputs.3.0.filename=plexus-compiler-test-2.8.7.pom
+outputs.3.0.length=1895
+outputs.3.0.checksums.sha512=5ad7fec4c37a6817682394a4f91527808c46ff62a896b62f83a7c1eb393f5028941a8af7bec58123aa58f334a968c7a83c9e86bf04c0a9b7a13b8496c107daaa
 
-outputs.3.1.filename=plexus-compiler-test-2.8.7-sources.jar
-outputs.3.1.length=7164
-outputs.3.1.checksums.sha512=2f5fa51a4827d7540689d20449c5478de4bdbd9fe30fef4e1de8d92faeee470a6370b128d695e859b9b09d73a977387c0f11c6adefa127940e43374684ee717f
+outputs.3.1.filename=plexus-compiler-test-2.8.7.jar
+outputs.3.1.length=9456
+outputs.3.1.checksums.sha512=5b2436372e4a1e779f559a8190a1023fd118155f1435b371c794e058edeeaaee5dc085ad6ba85b0c6d293c1400bce70cf0a3853268e8cabefa462ac14c5f3b04
+
+outputs.3.2.filename=plexus-compiler-test-2.8.7-sources.jar
+outputs.3.2.length=7164
+outputs.3.2.checksums.sha512=2f5fa51a4827d7540689d20449c5478de4bdbd9fe30fef4e1de8d92faeee470a6370b128d695e859b9b09d73a977387c0f11c6adefa127940e43374684ee717f
 
 outputs.4.coordinates=org.codehaus.plexus:plexus-compilers
 
+outputs.4.0.filename=plexus-compilers-2.8.7.pom
+outputs.4.0.length=1341
+outputs.4.0.checksums.sha512=92c546f44ebd781077b6225ab0928eb635411cc1ca5e50542e0e599544c47726582afac095e8c371ed1ef36bc4e94720dd7bd0bffe8e94607478132b7449ee0c
+
 outputs.5.coordinates=org.codehaus.plexus:plexus-compiler-aspectj
 
-outputs.5.0.filename=plexus-compiler-aspectj-2.8.7.jar
-outputs.5.0.length=10207
-outputs.5.0.checksums.sha512=94e67e8727b08caf1e3b3a02474f90e6b192a89dc8555301286c7e61b0653c498af006169afe1c5af85bbec21ffe52312cd6537246ba42e125fbaf169d4c0830
+outputs.5.0.filename=plexus-compiler-aspectj-2.8.7.pom
+outputs.5.0.length=1627
+outputs.5.0.checksums.sha512=a4b5db7c79a2cf9a8d20cbf1326daf0c6a1ecfb0d6af3dff2142261e9d46a4d99ba5cf04a155f19911371be4f25fd75fed1e37225fcbe9a0b3b9dd9eb71c891c
 
-outputs.5.1.filename=plexus-compiler-aspectj-2.8.7-sources.jar
-outputs.5.1.length=8414
-outputs.5.1.checksums.sha512=cac7eb75102ba9e01679d1064d172de6a5ec00067a6481d83c7443d25469e0fef444ae96201dab61107c594aba8f5f8fc1da04274f0afa3a1d841909958e2f10
+outputs.5.1.filename=plexus-compiler-aspectj-2.8.7.jar
+outputs.5.1.length=10207
+outputs.5.1.checksums.sha512=94e67e8727b08caf1e3b3a02474f90e6b192a89dc8555301286c7e61b0653c498af006169afe1c5af85bbec21ffe52312cd6537246ba42e125fbaf169d4c0830
+
+outputs.5.2.filename=plexus-compiler-aspectj-2.8.7-sources.jar
+outputs.5.2.length=8414
+outputs.5.2.checksums.sha512=cac7eb75102ba9e01679d1064d172de6a5ec00067a6481d83c7443d25469e0fef444ae96201dab61107c594aba8f5f8fc1da04274f0afa3a1d841909958e2f10
 
 outputs.6.coordinates=org.codehaus.plexus:plexus-compiler-csharp
 
-outputs.6.0.filename=plexus-compiler-csharp-2.8.7.jar
-outputs.6.0.length=13641
-outputs.6.0.checksums.sha512=a0101e12e9a917738b7fdbabb4a45f11ad9ce16eaa1d8982c7126d4eaa2742fb18f1b911ef0f32e4e214a7267792b30e06953d90a64d13c8471d7b0d40651b37
+outputs.6.0.filename=plexus-compiler-csharp-2.8.7.pom
+outputs.6.0.length=900
+outputs.6.0.checksums.sha512=62d57e48df8ead112107889ba820257935b1626cfb63d0be5146fef73b7f9da95fdc62caca7ce3746d22b18048786588dd7817840aafef1a62dbc3c6b49c72f8
 
-outputs.6.1.filename=plexus-compiler-csharp-2.8.7-sources.jar
-outputs.6.1.length=9859
-outputs.6.1.checksums.sha512=7cbbc33977260f37d1ebdaea76079d9d3b9dcc81747b5cb1ba5bf7ba8e1ac35a3731e96780369d91dd4e3dc29212b603375ac22d2b965cc1b9ef3f9fa645385d
+outputs.6.1.filename=plexus-compiler-csharp-2.8.7.jar
+outputs.6.1.length=13641
+outputs.6.1.checksums.sha512=a0101e12e9a917738b7fdbabb4a45f11ad9ce16eaa1d8982c7126d4eaa2742fb18f1b911ef0f32e4e214a7267792b30e06953d90a64d13c8471d7b0d40651b37
+
+outputs.6.2.filename=plexus-compiler-csharp-2.8.7-sources.jar
+outputs.6.2.length=9859
+outputs.6.2.checksums.sha512=7cbbc33977260f37d1ebdaea76079d9d3b9dcc81747b5cb1ba5bf7ba8e1ac35a3731e96780369d91dd4e3dc29212b603375ac22d2b965cc1b9ef3f9fa645385d
 
 outputs.7.coordinates=org.codehaus.plexus:plexus-compiler-eclipse
 
-outputs.7.0.filename=plexus-compiler-eclipse-2.8.7.jar
-outputs.7.0.length=19225
-outputs.7.0.checksums.sha512=9fe7950026874b14d9f5fac685b2e32b21e780d9af75eda2a7f4dcc2e6bd28da18baf77f49c893666929d42d21e2c4be9e46e6e443427ae4cc7cdd3ac916cb9d
+outputs.7.0.filename=plexus-compiler-eclipse-2.8.7.pom
+outputs.7.0.length=1580
+outputs.7.0.checksums.sha512=35e6978c6e1f5cb00de6b0821d8bc18bde1431303ffb54eb2e5432300464bde20150ddac9a6646d677adcda6ea1bc95482df8aba641527e9ae8e6b81ad899604
 
-outputs.7.1.filename=plexus-compiler-eclipse-2.8.7-sources.jar
-outputs.7.1.length=12792
-outputs.7.1.checksums.sha512=0f414e98b539b724f8e67539d84e72c5920e74d5ffdb5b442ecd8275af4334741fef4ad7560272d7084ca620fce2678008cabf7a7e1f2c542d5032b47c0b0da1
+outputs.7.1.filename=plexus-compiler-eclipse-2.8.7.jar
+outputs.7.1.length=19225
+outputs.7.1.checksums.sha512=9fe7950026874b14d9f5fac685b2e32b21e780d9af75eda2a7f4dcc2e6bd28da18baf77f49c893666929d42d21e2c4be9e46e6e443427ae4cc7cdd3ac916cb9d
+
+outputs.7.2.filename=plexus-compiler-eclipse-2.8.7-sources.jar
+outputs.7.2.length=12792
+outputs.7.2.checksums.sha512=0f414e98b539b724f8e67539d84e72c5920e74d5ffdb5b442ecd8275af4334741fef4ad7560272d7084ca620fce2678008cabf7a7e1f2c542d5032b47c0b0da1
 
 outputs.8.coordinates=org.codehaus.plexus:plexus-compiler-jikes
 
-outputs.8.0.filename=plexus-compiler-jikes-2.8.7.jar
-outputs.8.0.length=8994
-outputs.8.0.checksums.sha512=9bfc3472f195736cc8f4c342985ff29374164050c39d86f38f815632d61d90ab6213d3b4e6ec806bd5d689e0169c396eeef0e2438698559206ecb40556cc7307
+outputs.8.0.filename=plexus-compiler-jikes-2.8.7.pom
+outputs.8.0.length=1756
+outputs.8.0.checksums.sha512=d93b164a29a4ab751f5651ae15bebb4182274e212e3d78714a0ea0bc87ef8d58654cead858545de837decf83d3336212ff19d4bdb8b12352331f027c7f3314ef
 
-outputs.8.1.filename=plexus-compiler-jikes-2.8.7-sources.jar
-outputs.8.1.length=6979
-outputs.8.1.checksums.sha512=3c5926afc02b243e32e462e6e0b2b43e6e127062eedcafd0689b67330099d5292d2a2fedc23f6672482993f12d296bcce713fc9df053ef80be48812342e3829c
+outputs.8.1.filename=plexus-compiler-jikes-2.8.7.jar
+outputs.8.1.length=8994
+outputs.8.1.checksums.sha512=9bfc3472f195736cc8f4c342985ff29374164050c39d86f38f815632d61d90ab6213d3b4e6ec806bd5d689e0169c396eeef0e2438698559206ecb40556cc7307
+
+outputs.8.2.filename=plexus-compiler-jikes-2.8.7-sources.jar
+outputs.8.2.length=6979
+outputs.8.2.checksums.sha512=3c5926afc02b243e32e462e6e0b2b43e6e127062eedcafd0689b67330099d5292d2a2fedc23f6672482993f12d296bcce713fc9df053ef80be48812342e3829c
 
 outputs.9.coordinates=org.codehaus.plexus:plexus-compiler-javac
 
-outputs.9.0.filename=plexus-compiler-javac-2.8.7.jar
-outputs.9.0.length=21716
-outputs.9.0.checksums.sha512=c5bd3c7337164cc72b10987595a4dca5eee18fcc84ce0aa366809137fcf41716fb79b06f6371de6b431963b17561396492e5c841c2402b56ffc1d7a14c5dda3a
+outputs.9.0.filename=plexus-compiler-javac-2.8.7.pom
+outputs.9.0.length=911
+outputs.9.0.checksums.sha512=451facbcfbc285818f5e55d635a02707cbbede29ef31ba341cbd764504041b7609d8eea0f4fe775849e65b39fd615b6e148dda0d50be2dd6a9634ea67ace1cb9
 
-outputs.9.1.filename=plexus-compiler-javac-2.8.7-sources.jar
-outputs.9.1.length=15260
-outputs.9.1.checksums.sha512=1fa080e2554034aaef207304a47c7bf3a75569e72e9a85d3a22b3f6b587ffb5963447300a838656d06ff1aa843e9dec03f808141d38fc52b6c83352eac7cbd59
+outputs.9.1.filename=plexus-compiler-javac-2.8.7.jar
+outputs.9.1.length=21716
+outputs.9.1.checksums.sha512=c5bd3c7337164cc72b10987595a4dca5eee18fcc84ce0aa366809137fcf41716fb79b06f6371de6b431963b17561396492e5c841c2402b56ffc1d7a14c5dda3a
+
+outputs.9.2.filename=plexus-compiler-javac-2.8.7-sources.jar
+outputs.9.2.length=15260
+outputs.9.2.checksums.sha512=1fa080e2554034aaef207304a47c7bf3a75569e72e9a85d3a22b3f6b587ffb5963447300a838656d06ff1aa843e9dec03f808141d38fc52b6c83352eac7cbd59
 
 outputs.10.coordinates=org.codehaus.plexus:plexus-compiler-javac-errorprone
 
-outputs.10.0.filename=plexus-compiler-javac-errorprone-2.8.7.jar
-outputs.10.0.length=6194
-outputs.10.0.checksums.sha512=cc2592a15c7438304d0517809b31fd1f0547bd597012b527ff797ce147a232697af521d233cb9b930a6808160b5c2e871ed2d4d9e0cd8c3b0e58442f385f593c
+outputs.10.0.filename=plexus-compiler-javac-errorprone-2.8.7.pom
+outputs.10.0.length=1355
+outputs.10.0.checksums.sha512=cbe841f5fcaae264f3cfde52d19a5371bca4bfd63120d791946c0b316268651a28e11b118fadd8a94a0f99f2ae5290a3d4117cae1e4ea5fb398c97da1ac75e2e
 
-outputs.10.1.filename=plexus-compiler-javac-errorprone-2.8.7-sources.jar
-outputs.10.1.length=4282
-outputs.10.1.checksums.sha512=7ce4d72a263a9afb176cc075b460eb22a69e9cd3708316ac58a9b72a500251537b9ab634351ac205110cba95bc98a89d56f77dd9956a84d9df1c064b7d8d8bad
+outputs.10.1.filename=plexus-compiler-javac-errorprone-2.8.7.jar
+outputs.10.1.length=6194
+outputs.10.1.checksums.sha512=cc2592a15c7438304d0517809b31fd1f0547bd597012b527ff797ce147a232697af521d233cb9b930a6808160b5c2e871ed2d4d9e0cd8c3b0e58442f385f593c
+
+outputs.10.2.filename=plexus-compiler-javac-errorprone-2.8.7-sources.jar
+outputs.10.2.length=4282
+outputs.10.2.checksums.sha512=7ce4d72a263a9afb176cc075b460eb22a69e9cd3708316ac58a9b72a500251537b9ab634351ac205110cba95bc98a89d56f77dd9956a84d9df1c064b7d8d8bad
 
 outputs.11.coordinates=org.codehaus.plexus:plexus-compiler-j2objc
 
-outputs.11.0.filename=plexus-compiler-j2objc-2.8.7.jar
-outputs.11.0.length=8937
-outputs.11.0.checksums.sha512=5c7b4eb9b1790d0275baf54e2e487003108744735e2d0f5ab1a4665f33c2582c944c4d14cc698200bba417e366d13dcb964cf59674ec471ccc1181a9a7a38d53
+outputs.11.0.filename=plexus-compiler-j2objc-2.8.7.pom
+outputs.11.0.length=1421
+outputs.11.0.checksums.sha512=1c8b48181e3ee8fa715135bf77ff3edc0f72c5debc987dfa4c2708df9577078d363e4d010ea5fb83ec577739bf2865312c9fa2c502c22963f13f20847765e5b6
 
-outputs.11.1.filename=plexus-compiler-j2objc-2.8.7-sources.jar
-outputs.11.1.length=6493
-outputs.11.1.checksums.sha512=2eeaf4946c4ba7a9b51e60c6b5c692a1d3b0bd6c168cf1fbc7bff563cddb7fb088d61e6e6d99e0d28b2e13560250865f73fd95bd2a51e2fe3c2ef878dbc52718
+outputs.11.1.filename=plexus-compiler-j2objc-2.8.7.jar
+outputs.11.1.length=8937
+outputs.11.1.checksums.sha512=5c7b4eb9b1790d0275baf54e2e487003108744735e2d0f5ab1a4665f33c2582c944c4d14cc698200bba417e366d13dcb964cf59674ec471ccc1181a9a7a38d53
+
+outputs.11.2.filename=plexus-compiler-j2objc-2.8.7-sources.jar
+outputs.11.2.length=6493
+outputs.11.2.checksums.sha512=2eeaf4946c4ba7a9b51e60c6b5c692a1d3b0bd6c168cf1fbc7bff563cddb7fb088d61e6e6d99e0d28b2e13560250865f73fd95bd2a51e2fe3c2ef878dbc52718

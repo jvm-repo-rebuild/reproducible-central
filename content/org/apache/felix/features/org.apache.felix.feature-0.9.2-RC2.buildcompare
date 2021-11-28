@@ -1,7 +1,7 @@
 version=0.9.2-RC2
-ok=4
+ok=5
 ko=0
-okFiles="org.apache.felix.feature-0.9.2-RC2.jar org.apache.felix.feature-0.9.2-RC2-source-release.zip org.apache.felix.feature-0.9.2-RC2-source-release.tar.gz org.apache.felix.feature-0.9.2-RC2-sources.jar"
+okFiles="org.apache.felix.feature-0.9.2-RC2.pom org.apache.felix.feature-0.9.2-RC2.jar org.apache.felix.feature-0.9.2-RC2-source-release.zip org.apache.felix.feature-0.9.2-RC2-source-release.tar.gz org.apache.felix.feature-0.9.2-RC2-sources.jar"
 koFiles=""
 reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"

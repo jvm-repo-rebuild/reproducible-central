@@ -18,22 +18,13 @@ java.version=8
 os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.aggregate.artifact-id=pgp-keys-map-test2
 
-# aggregated output
+# output
 
-outputs.0.coordinates=org.simplify4u:pgp-keys-map
+outputs.0.filename=pgp-keys-map-2021.10.13.pom
+outputs.0.length=10154
+outputs.0.checksums.sha512=e3d94c43f780d5985eaa59976b355d94b9805dc7588b52e5194bb115bee128219b1dea0e18f0b852bff02af8b66572d7a86e3693ed1269451f021ece3881000f
 
-outputs.0.0.filename=pgp-keys-map-2021.10.13.jar
-outputs.0.0.length=13836
-outputs.0.0.checksums.sha512=6223e1591eb6d27157cdbc8ce9b3a298a67800798ff54fae05bea500804e78c82fb05022e51c1c269e004b7c41825018623c581488208af9891fac6602a22a9a
-
-outputs.1.coordinates=org.simplify4u:org-apache-maven-plugins-test
-
-outputs.2.coordinates=org.simplify4u:org-codehaus-mojo-test
-
-outputs.3.coordinates=org.simplify4u:org-springframework-test
-
-outputs.4.coordinates=org.simplify4u:pgp-keys-map-test1
-
-outputs.5.coordinates=org.simplify4u:pgp-keys-map-test2
+outputs.1.filename=pgp-keys-map-2021.10.13.jar
+outputs.1.length=13836
+outputs.1.checksums.sha512=6223e1591eb6d27157cdbc8ce9b3a298a67800798ff54fae05bea500804e78c82fb05022e51c1c269e004b7c41825018623c581488208af9891fac6602a22a9a

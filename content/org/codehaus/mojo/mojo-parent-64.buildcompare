@@ -1,5 +1,5 @@
 version=64
-ok=2
+ok=3
 ko=0
-okFiles="mojo-parent-64-site.xml mojo-parent-64-source-release.zip"
+okFiles="mojo-parent-64.pom mojo-parent-64-site.xml mojo-parent-64-source-release.zip"
 koFiles=""

@@ -21,18 +21,22 @@ os.name=Unix
 
 # output
 
-outputs.0.filename=org.apache.felix.feature-0.9.4-RC3.jar
-outputs.0.length=41256
-outputs.0.checksums.sha512=8f83f56ef1adede834106d059b0ad86bbe756dab0ac559299d761780e8550feaa58b5c081a2130283c0695ec1c7bd812f4cba9dea26bbea2fa8a62cd22c7f542
+outputs.0.filename=org.apache.felix.feature-0.9.4-RC3.pom
+outputs.0.length=5760
+outputs.0.checksums.sha512=115e395cf273df1288e17b2312a225bf1ba35383adcea475736254c32fcf7e1fdd31beace154951d5c21be4867f2812b477607f7b572bf6dba835e86128562b7
 
-outputs.1.filename=org.apache.felix.feature-0.9.4-RC3-source-release.zip
-outputs.1.length=34140
-outputs.1.checksums.sha512=c7cda902455ed0117ef7bea3889f0225f7bc7a56afc200ea80b06e7c0762202b40fcb6f20d220fd681389968991004cd702a14314e4993cd2f567c95c8c5ffab
+outputs.1.filename=org.apache.felix.feature-0.9.4-RC3.jar
+outputs.1.length=41256
+outputs.1.checksums.sha512=8f83f56ef1adede834106d059b0ad86bbe756dab0ac559299d761780e8550feaa58b5c081a2130283c0695ec1c7bd812f4cba9dea26bbea2fa8a62cd22c7f542
 
-outputs.2.filename=org.apache.felix.feature-0.9.4-RC3-source-release.tar.gz
-outputs.2.length=17617
-outputs.2.checksums.sha512=d697957bc03a3d35a5fbb85724389c1ecdd089be657f692e13af8d930408dda98ece055cc6199a6e9df43da7fd2cd6e7dcbd652033584c303fbeb6c4354422d8
+outputs.2.filename=org.apache.felix.feature-0.9.4-RC3-source-release.zip
+outputs.2.length=34140
+outputs.2.checksums.sha512=c7cda902455ed0117ef7bea3889f0225f7bc7a56afc200ea80b06e7c0762202b40fcb6f20d220fd681389968991004cd702a14314e4993cd2f567c95c8c5ffab
 
-outputs.3.filename=org.apache.felix.feature-0.9.4-RC3-sources.jar
-outputs.3.length=23971
-outputs.3.checksums.sha512=6a7c9bcdd638f35a5137b756d5d940e6bfa53ae5b64d737f7b7c45c98e727cf3ee03740905326c80409be53ff7f64048f02a4234d1bd377a87f237998a842858
+outputs.3.filename=org.apache.felix.feature-0.9.4-RC3-source-release.tar.gz
+outputs.3.length=17617
+outputs.3.checksums.sha512=d697957bc03a3d35a5fbb85724389c1ecdd089be657f692e13af8d930408dda98ece055cc6199a6e9df43da7fd2cd6e7dcbd652033584c303fbeb6c4354422d8
+
+outputs.4.filename=org.apache.felix.feature-0.9.4-RC3-sources.jar
+outputs.4.length=23971
+outputs.4.checksums.sha512=6a7c9bcdd638f35a5137b756d5d940e6bfa53ae5b64d737f7b7c45c98e727cf3ee03740905326c80409be53ff7f64048f02a4234d1bd377a87f237998a842858

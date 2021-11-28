@@ -1,6 +1,6 @@
 version=2021.05.15
-ok=1
+ok=2
 ko=0
-okFiles="pgp-keys-map-2021.05.15.jar"
+okFiles="pgp-keys-map-2021.05.15.pom pgp-keys-map-2021.05.15.jar"
 koFiles=""
 reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"

@@ -13,21 +13,23 @@ source.scm.tag=v0.3.0
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_275
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=3.6.0
 
 # output
 
-outputs.0.filename=sign-maven-plugin-0.3.0.jar
-outputs.0.length=40579
-outputs.0.checksums.sha512=607a25f67b0b61b1aae3a797160950213a6fc05472146722a36462bd58fd3ec91c96afefeb9af1e567a12f215424a928669a7b1af47f25a4da789697f5e91857
+outputs.0.filename=sign-maven-plugin-0.3.0.pom
+outputs.0.length=17068
+outputs.0.checksums.sha512=136f29638b3544be37b6560b33f5cc231e0679b1d7a08619963e94b7763d53d52c222550254f00746cafb83cf1c3614d882164cf94cf015d9cc92d44f01d2798
 
-outputs.1.filename=sign-maven-plugin-0.3.0-sources.jar
-outputs.1.length=24129
-outputs.1.checksums.sha512=4007d0820582d19cc5ed64f4e8a16a72f6a638db1556c7a1d2e91969401ed460014004dc19a0141cc863496e873b302d81ecad541c23a183e5b16a4ff0eb11ba
+outputs.1.filename=sign-maven-plugin-0.3.0.jar
+outputs.1.length=40579
+outputs.1.checksums.sha512=607a25f67b0b61b1aae3a797160950213a6fc05472146722a36462bd58fd3ec91c96afefeb9af1e567a12f215424a928669a7b1af47f25a4da789697f5e91857
+
+outputs.2.filename=sign-maven-plugin-0.3.0-sources.jar
+outputs.2.length=24129
+outputs.2.checksums.sha512=4007d0820582d19cc5ed64f4e8a16a72f6a638db1556c7a1d2e91969401ed460014004dc19a0141cc863496e873b302d81ecad541c23a183e5b16a4ff0eb11ba

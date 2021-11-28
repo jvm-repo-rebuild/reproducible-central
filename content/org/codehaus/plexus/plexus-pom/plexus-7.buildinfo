@@ -13,20 +13,22 @@ source.scm.tag=plexus-7
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.7.0_211
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=7
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T19:00:29Z)
 
 # output
 
-outputs.0.filename=plexus-7-site.xml
-outputs.0.length=2572
-outputs.0.checksums.sha512=f25f60fcb4d847272c34b11d182e89ee724eb49d20eb555a2f8566ca56b11e7f5423e84fbfcb86fe7d5af34749c36bbcf9018c88f15f7af7a881a35230fb50cb
+outputs.0.filename=plexus-7.pom
+outputs.0.length=25709
+outputs.0.checksums.sha512=10841a47e477b41ecc75e6a49dca3fd39498d91fd37dce3c8b996aeeaca8549d1a7c16943b8dcbc937f92d416527d49721a06e2856a0caa9a7699e26085835e7
 
-outputs.1.filename=plexus-7-source-release.zip
-outputs.1.length=28645
-outputs.1.checksums.sha512=d15fa62b80f0168a19e96b437d3ded4a6a4191f5fd4cf165dec331ca6114adb650d9bda467277a1ae16cfa82115032283f283f28d0ae75607bc64ca8a6a723f7
+outputs.1.filename=plexus-7-site.xml
+outputs.1.length=2572
+outputs.1.checksums.sha512=f25f60fcb4d847272c34b11d182e89ee724eb49d20eb555a2f8566ca56b11e7f5423e84fbfcb86fe7d5af34749c36bbcf9018c88f15f7af7a881a35230fb50cb
+
+outputs.2.filename=plexus-7-source-release.zip
+outputs.2.length=28645
+outputs.2.checksums.sha512=d15fa62b80f0168a19e96b437d3ded4a6a4191f5fd4cf165dec331ca6114adb650d9bda467277a1ae16cfa82115032283f283f28d0ae75607bc64ca8a6a723f7

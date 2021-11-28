@@ -1,5 +1,7 @@
 version=6.4
 ok=1
-ko=1
+ko=2
 okFiles="plexus-components-6.4-site.xml"
-koFiles="plexus-components-6.4-source-release.zip"
+koFiles="plexus-components-6.4.pom plexus-components-6.4-source-release.zip"
+# diffoscope target/reference/plexus-components-6.4.pom pom.xml
+# diffoscope target/reference/plexus-components-6.4-source-release.zip target/plexus-components-6.4-source-release.zip

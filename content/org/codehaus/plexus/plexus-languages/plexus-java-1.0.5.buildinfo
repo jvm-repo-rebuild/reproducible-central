@@ -13,28 +13,35 @@ source.scm.tag=plexus-languages-1.0.5
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=9.0.4
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=9
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.5.4 (1edded0938998edf8bf061f1ceb3cfdeccf443fe; 2018-06-17T18:33:14Z)
+mvn.aggregate.artifact-id=plexus-java
 
 # aggregated output
 
 outputs.0.coordinates=org.codehaus.plexus:plexus-languages
 
-outputs.0.0.filename=plexus-languages-1.0.5-site.xml
-outputs.0.0.length=1182
-outputs.0.0.checksums.sha512=c892fe16bb64af6d50a4b035792b82bfc1501675871dca207d3465159a63d1bc8e1e4ed738298a1401c901c548243ad6c261a2d3a5e7bcbd8f89b43c97ddb4f0
+outputs.0.0.filename=plexus-languages-1.0.5.pom
+outputs.0.0.length=3908
+outputs.0.0.checksums.sha512=9187607587b8f4837e603d6cb10c75a56d2ca70f5c66f870254c086cd1045ebc53182a9b1d5a2c72f8e4ded351954b291641e737b8585cba680e989b2fb4b207
+
+outputs.0.1.filename=plexus-languages-1.0.5-site.xml
+outputs.0.1.length=1182
+outputs.0.1.checksums.sha512=c892fe16bb64af6d50a4b035792b82bfc1501675871dca207d3465159a63d1bc8e1e4ed738298a1401c901c548243ad6c261a2d3a5e7bcbd8f89b43c97ddb4f0
 
 outputs.1.coordinates=org.codehaus.plexus:plexus-java
 
-outputs.1.0.filename=plexus-java-1.0.5.jar
-outputs.1.0.length=52112
-outputs.1.0.checksums.sha512=f566db24d0a1380e0f769206570801d7701bddbb5b9de4a1eca45bb4fce57ce9b21af9d200e2dfb568a6a8e7273537c854edad20a3f754fc4bbfa697c07d735f
+outputs.1.0.filename=plexus-java-1.0.5.pom
+outputs.1.0.length=4611
+outputs.1.0.checksums.sha512=b06e7cb25fe74954027f4d0a3eb996acb76cfd91454d517459b655398d091cf571b0165bf46f4c54fb1c30ea3ed8eacb8d41bc4c583a14f59057ca41c8489eb6
 
-outputs.1.1.filename=plexus-java-1.0.5-sources.jar
-outputs.1.1.length=28643
-outputs.1.1.checksums.sha512=309d82bc0bbd153952ded2cbe2a5fff76839c695a7b0f27e0a62526a3d3f6e1195797f1f3ba80d55a50929622f76dec3c256c933e73380105f56cc31e39fcfa0
+outputs.1.1.filename=plexus-java-1.0.5.jar
+outputs.1.1.length=52112
+outputs.1.1.checksums.sha512=9a884e745d4813fffdfe24460c217468354585ece2ac10fb16238faa9e2b6e6eed932236869f95bc6a7595db37ac2addcf981ddbffbba0abe77a71213c10daf0
+
+outputs.1.2.filename=plexus-java-1.0.5-sources.jar
+outputs.1.2.length=28643
+outputs.1.2.checksums.sha512=309d82bc0bbd153952ded2cbe2a5fff76839c695a7b0f27e0a62526a3d3f6e1195797f1f3ba80d55a50929622f76dec3c256c933e73380105f56cc31e39fcfa0

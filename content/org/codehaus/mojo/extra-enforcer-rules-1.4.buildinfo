@@ -21,14 +21,18 @@ os.name=Unix
 
 # output
 
-outputs.0.filename=extra-enforcer-rules-1.4.jar
-outputs.0.length=51000
-outputs.0.checksums.sha512=3fe712513ae575ccc9d9d3c0ea0ec8ef42a09eb1c07ebbe3b3d4d666e056b3b69dfb51f03ffa799eba7e497505047f38eccea6e380bca97eeae8b3c93949e27d
+outputs.0.filename=extra-enforcer-rules-1.4.pom
+outputs.0.length=8616
+outputs.0.checksums.sha512=76ce5db1f15e2404d2168ecedb952cb0078c30948dfb1e372d953306fe174919aeef632b26cc7aaf53766cbc5aeb0d51683abbcca182b586b5ecd0c2c2ba7200
 
-outputs.1.filename=extra-enforcer-rules-1.4-source-release.zip
-outputs.1.length=181828
-outputs.1.checksums.sha512=f3dd538b89b94894898fcd94d293f81d8fbd7b5f75ef27c43fc55dccdb4f43a7f44d0e215a40fd6ddd389bb320ff16fc078e9608b3f302d7657f6b56030fa6f0
+outputs.1.filename=extra-enforcer-rules-1.4.jar
+outputs.1.length=51000
+outputs.1.checksums.sha512=3fe712513ae575ccc9d9d3c0ea0ec8ef42a09eb1c07ebbe3b3d4d666e056b3b69dfb51f03ffa799eba7e497505047f38eccea6e380bca97eeae8b3c93949e27d
 
-outputs.2.filename=extra-enforcer-rules-1.4-sources.jar
-outputs.2.length=42426
-outputs.2.checksums.sha512=4e09601cb02352c91fd3a6c921a0dd8b140ca1869d5e8a753d42c973e3856474df741190b76e391c0e37a914415f873b64092fe96c61226755b93ce7c1f9340a
+outputs.2.filename=extra-enforcer-rules-1.4-source-release.zip
+outputs.2.length=181828
+outputs.2.checksums.sha512=f3dd538b89b94894898fcd94d293f81d8fbd7b5f75ef27c43fc55dccdb4f43a7f44d0e215a40fd6ddd389bb320ff16fc078e9608b3f302d7657f6b56030fa6f0
+
+outputs.3.filename=extra-enforcer-rules-1.4-sources.jar
+outputs.3.length=42426
+outputs.3.checksums.sha512=4e09601cb02352c91fd3a6c921a0dd8b140ca1869d5e8a753d42c973e3856474df741190b76e391c0e37a914415f873b64092fe96c61226755b93ce7c1f9340a

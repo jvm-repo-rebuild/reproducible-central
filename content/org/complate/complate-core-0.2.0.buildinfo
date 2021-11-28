@@ -13,20 +13,22 @@ source.scm.tag=HEAD
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 
 # output
 
-outputs.0.filename=complate-core-0.2.0.jar
-outputs.0.length=21166
-outputs.0.checksums.sha512=02f6506abfa1cd1b2f5a130efdfcbb2b0aa2e97c263df6cc49e4908cb73a7f159f32bb8cb1c32b97ec2af18aa2647bc931d2729ec1c811eebdf22c9b2018a803
+outputs.0.filename=complate-core-0.2.0.pom
+outputs.0.length=12402
+outputs.0.checksums.sha512=a8997612e61edefdb525ac9d29796367d294217ac033a89a00fa66877a1dd10c6d8513930190af06edca0f948dfa36bb1f16f15f1be0a518f15171bac035e85d
 
-outputs.1.filename=complate-core-0.2.0-sources.jar
-outputs.1.length=20478
-outputs.1.checksums.sha512=916082939383f8a0c0432b784af2263c54484f20e1328768c30b10e6f9ecb3e9db765da806a0acb70a9839dd477e9390e2c635fb51ccec1ce3825c5a4963ff90
+outputs.1.filename=complate-core-0.2.0.jar
+outputs.1.length=21166
+outputs.1.checksums.sha512=02f6506abfa1cd1b2f5a130efdfcbb2b0aa2e97c263df6cc49e4908cb73a7f159f32bb8cb1c32b97ec2af18aa2647bc931d2729ec1c811eebdf22c9b2018a803
+
+outputs.2.filename=complate-core-0.2.0-sources.jar
+outputs.2.length=20478
+outputs.2.checksums.sha512=916082939383f8a0c0432b784af2263c54484f20e1328768c30b10e6f9ecb3e9db765da806a0acb70a9839dd477e9390e2c635fb51ccec1ce3825c5a4963ff90

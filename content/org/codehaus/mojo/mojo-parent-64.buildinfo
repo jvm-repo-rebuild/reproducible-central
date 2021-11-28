@@ -21,10 +21,14 @@ os.name=Unix
 
 # output
 
-outputs.0.filename=mojo-parent-64-site.xml
-outputs.0.length=2253
-outputs.0.checksums.sha512=f995835893ea6157990105c52a83455c88666dbeac390ca93dad08179801190f714b310d449d8d18d0e8b5a59146e428bc490d370ed690b6856a588dd12c07e3
+outputs.0.filename=mojo-parent-64.pom
+outputs.0.length=34433
+outputs.0.checksums.sha512=d62a29af736af77a0a0d6d5adca32f85184cb8013a45f150bf86d225967e267a3bfe81784d45c3f315cc0b3e92b4269fbeeca3411faad26d04513f2a632bf29d
 
-outputs.1.filename=mojo-parent-64-source-release.zip
-outputs.1.length=12220
-outputs.1.checksums.sha512=39096b051a25187c4ce7e83cf59d6a5f5ecc03de89d4d5a5d9ff5bea0e8c0e18382497fb32c37a662fe665e7b7450e879d54abf4f69e8b2af901fef967a5be9e
+outputs.1.filename=mojo-parent-64-site.xml
+outputs.1.length=2253
+outputs.1.checksums.sha512=f995835893ea6157990105c52a83455c88666dbeac390ca93dad08179801190f714b310d449d8d18d0e8b5a59146e428bc490d370ed690b6856a588dd12c07e3
+
+outputs.2.filename=mojo-parent-64-source-release.zip
+outputs.2.length=12220
+outputs.2.checksums.sha512=39096b051a25187c4ce7e83cf59d6a5f5ecc03de89d4d5a5d9ff5bea0e8c0e18382497fb32c37a662fe665e7b7450e879d54abf4f69e8b2af901fef967a5be9e

@@ -13,20 +13,22 @@ source.scm.tag=plexus-archiver-4.2.2
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.7.0_211
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=7
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T19:00:29Z)
 
 # output
 
-outputs.0.filename=plexus-archiver-4.2.2.jar
-outputs.0.length=194265
-outputs.0.checksums.sha512=1168ca247b4c365fe46cc1d8ae084210d4bef90d0241645f1a323bdf437aa76ec3e9042940f3a8bd7da3abf9ae56a8f0cbe917b1d65f8ca2c21c0faea39d9da3
+outputs.0.filename=plexus-archiver-4.2.2.pom
+outputs.0.length=4368
+outputs.0.checksums.sha512=0010b2d5f4558aff151e143a0b0b773bb5c737f00db52c1af307bc762e2d211931f4eaa413588b70df11e30164e2189335e7d71b9cbeb245164db8e9f7c204d8
 
-outputs.1.filename=plexus-archiver-4.2.2-sources.jar
-outputs.1.length=147250
-outputs.1.checksums.sha512=9ce37117c0b9ed2e0792e032690678e32ebc65f7706f9e015283e7b4fed8b95d64dee55952364ae9196f40f6f5cb6b37938d7407a3316934a76bacc7bfee14ef
+outputs.1.filename=plexus-archiver-4.2.2.jar
+outputs.1.length=194265
+outputs.1.checksums.sha512=1168ca247b4c365fe46cc1d8ae084210d4bef90d0241645f1a323bdf437aa76ec3e9042940f3a8bd7da3abf9ae56a8f0cbe917b1d65f8ca2c21c0faea39d9da3
+
+outputs.2.filename=plexus-archiver-4.2.2-sources.jar
+outputs.2.length=147250
+outputs.2.checksums.sha512=9ce37117c0b9ed2e0792e032690678e32ebc65f7706f9e015283e7b4fed8b95d64dee55952364ae9196f40f6f5cb6b37938d7407a3316934a76bacc7bfee14ef

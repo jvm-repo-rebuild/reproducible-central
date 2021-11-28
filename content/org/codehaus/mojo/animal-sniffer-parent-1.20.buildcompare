@@ -1,5 +1,7 @@
 version=1.20
-ok=13
+ok=20
 ko=0
-okFiles="animal-sniffer-parent-1.20-source-release.zip java-boot-classpath-detector-1.20.jar java-boot-classpath-detector-1.20-sources.jar animal-sniffer-annotations-1.20.jar animal-sniffer-annotations-1.20-sources.jar animal-sniffer-1.20.jar animal-sniffer-1.20-sources.jar animal-sniffer-maven-plugin-1.20.jar animal-sniffer-maven-plugin-1.20-sources.jar animal-sniffer-enforcer-rule-1.20.jar animal-sniffer-enforcer-rule-1.20-sources.jar animal-sniffer-ant-tasks-1.20.jar animal-sniffer-ant-tasks-1.20-sources.jar"
+okFiles="animal-sniffer-parent-1.20.pom animal-sniffer-parent-1.20-source-release.zip java-boot-classpath-detector-1.20.pom java-boot-classpath-detector-1.20.jar java-boot-classpath-detector-1.20-sources.jar animal-sniffer-annotations-1.20.pom animal-sniffer-annotations-1.20.jar animal-sniffer-annotations-1.20-sources.jar animal-sniffer-1.20.pom animal-sniffer-1.20.jar animal-sniffer-1.20-sources.jar animal-sniffer-maven-plugin-1.20.pom animal-sniffer-maven-plugin-1.20.jar animal-sniffer-maven-plugin-1.20-sources.jar animal-sniffer-enforcer-rule-1.20.pom animal-sniffer-enforcer-rule-1.20.jar animal-sniffer-enforcer-rule-1.20-sources.jar animal-sniffer-ant-tasks-1.20.pom animal-sniffer-ant-tasks-1.20.jar animal-sniffer-ant-tasks-1.20-sources.jar"
 koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

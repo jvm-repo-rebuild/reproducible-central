@@ -22,10 +22,14 @@ mvn.minimum.version=3.5.0
 
 # output
 
-outputs.0.filename=pgpverify-maven-plugin-1.13.0.jar
-outputs.0.length=158327
-outputs.0.checksums.sha512=99f22b70158434db887358f848efc03cbea17d56f3a08d08c4f36aff99b07ce01e1bb7204a485a4c33b6a04fef81491665f2cbd3a2b5b81c3d245edb8936493b
+outputs.0.filename=pgpverify-maven-plugin-1.13.0.pom
+outputs.0.length=24102
+outputs.0.checksums.sha512=e0b1318fd0dd09f42f7cc7dd017367d398e4f0c7b4df610113e634e8565e9916de8919343ceb2997ff191304ab6f6de883b3cb503715b4fb287095b8ec94ac56
 
-outputs.1.filename=pgpverify-maven-plugin-1.13.0-sources.jar
-outputs.1.length=85502
-outputs.1.checksums.sha512=9213a0f274611f6ba9bff747862736ebdf94ec10c2849eae053996fa38d31b632f77b6c05ac98db9dfdffe9ebcdec2fae7cfa42f17ec23e0dbdbeb4b051965be
+outputs.1.filename=pgpverify-maven-plugin-1.13.0.jar
+outputs.1.length=158327
+outputs.1.checksums.sha512=99f22b70158434db887358f848efc03cbea17d56f3a08d08c4f36aff99b07ce01e1bb7204a485a4c33b6a04fef81491665f2cbd3a2b5b81c3d245edb8936493b
+
+outputs.2.filename=pgpverify-maven-plugin-1.13.0-sources.jar
+outputs.2.length=85502
+outputs.2.checksums.sha512=9213a0f274611f6ba9bff747862736ebdf94ec10c2849eae053996fa38d31b632f77b6c05ac98db9dfdffe9ebcdec2fae7cfa42f17ec23e0dbdbeb4b051965be

@@ -1,5 +1,5 @@
 version=6.5
-ok=2
+ok=3
 ko=0
-okFiles="plexus-6.5-site.xml plexus-6.5-source-release.zip"
+okFiles="plexus-6.5.pom plexus-6.5-site.xml plexus-6.5-source-release.zip"
 koFiles=""

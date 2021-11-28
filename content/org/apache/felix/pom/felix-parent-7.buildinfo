@@ -21,10 +21,14 @@ os.name=Unix
 
 # output
 
-outputs.0.filename=felix-parent-7-source-release.zip
-outputs.0.length=8865
-outputs.0.checksums.sha512=3e91b34c8b54053452cb3a988dfab06cd3fe8f522d602e13eb61926da713f61aeacb6c7e73b1663e90e568d14370a6d9efd78373e03019ec86359f1594e80f6d
+outputs.0.filename=felix-parent-7.pom
+outputs.0.length=21092
+outputs.0.checksums.sha512=d4d4dc531116451dbcce2135b2952f25a2cc1c968d50f2208e1d87cb79f18a5948fd487b581518f3e06e5f20ad6991544c3fd56f2f7b40f14b955796d98f1d02
 
-outputs.1.filename=felix-parent-7-source-release.tar.gz
-outputs.1.length=7844
-outputs.1.checksums.sha512=cc9217621d223b3adf60bd98acb8c8c4678bd225246ca7fa9cb75249a49e5ee3d102d8d3f30e9bdf58ba1a7a190f749234022c5f8de9112a9746357b4ee3eb83
+outputs.1.filename=felix-parent-7-source-release.zip
+outputs.1.length=8865
+outputs.1.checksums.sha512=3e91b34c8b54053452cb3a988dfab06cd3fe8f522d602e13eb61926da713f61aeacb6c7e73b1663e90e568d14370a6d9efd78373e03019ec86359f1594e80f6d
+
+outputs.2.filename=felix-parent-7-source-release.tar.gz
+outputs.2.length=7844
+outputs.2.checksums.sha512=cc9217621d223b3adf60bd98acb8c8c4678bd225246ca7fa9cb75249a49e5ee3d102d8d3f30e9bdf58ba1a7a190f749234022c5f8de9112a9746357b4ee3eb83

@@ -22,10 +22,14 @@ mvn.minimum.version=3.1
 
 # output
 
-outputs.0.filename=cyclonedx-maven-plugin-2.5.3.jar
-outputs.0.length=39409
-outputs.0.checksums.sha512=1d7d1129cdc8604772b3c454d8dff98d936f85af705c95705e3263a038c0bb58fdd58c0b90efa3f56b4ce8ef9c84d3154b74b8451e0470f856f4d688489704b0
+outputs.0.filename=cyclonedx-maven-plugin-2.5.3.pom
+outputs.0.length=14006
+outputs.0.checksums.sha512=d4860e7239636f77d919fd59df6f27a8425f6b8d46d3f1fd2b485209917f1614b7fa234b41dc92f8a479a723d34cd39aba0e187db1d2826b73125d9accc97672
 
-outputs.1.filename=cyclonedx-maven-plugin-2.5.3-sources.jar
-outputs.1.length=22635
-outputs.1.checksums.sha512=a1db42adad3c3bd29422cc240213b502c106ebb3fb847aa837c3400325970f43eab2af383efeec9968782bd5615a842077c396e2dfa49b7cf3f6cd45dae706f4
+outputs.1.filename=cyclonedx-maven-plugin-2.5.3.jar
+outputs.1.length=39409
+outputs.1.checksums.sha512=1d7d1129cdc8604772b3c454d8dff98d936f85af705c95705e3263a038c0bb58fdd58c0b90efa3f56b4ce8ef9c84d3154b74b8451e0470f856f4d688489704b0
+
+outputs.2.filename=cyclonedx-maven-plugin-2.5.3-sources.jar
+outputs.2.length=22635
+outputs.2.checksums.sha512=a1db42adad3c3bd29422cc240213b502c106ebb3fb847aa837c3400325970f43eab2af383efeec9968782bd5615a842077c396e2dfa49b7cf3f6cd45dae706f4

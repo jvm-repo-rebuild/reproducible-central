@@ -21,10 +21,14 @@ os.name=Unix
 
 # output
 
-outputs.0.filename=cyclonedx-core-java-5.0.1.jar
-outputs.0.length=1591035
-outputs.0.checksums.sha512=38fe5223a11eee1074afc7fcc9ceadffc9fdbe2db7b88f517495ea5c6b031a68cbd13a6464ba3aa640d72a3afec701086d07bf32fcca1524f810b26c47d724e2
+outputs.0.filename=cyclonedx-core-java-5.0.1.pom
+outputs.0.length=12555
+outputs.0.checksums.sha512=89304b5dc33cad8153a1d212b1e90ae36311f5522dff1a895c37caf5d22eb74806b90b68ca6783957c6c6b11761acae62386e7e5ab99aeb6138417e1e576d7c3
 
-outputs.1.filename=cyclonedx-core-java-5.0.1-sources.jar
-outputs.1.length=1562133
-outputs.1.checksums.sha512=5250b3f020c535847cdc509092c2521164ccfcfda9dfd2faa9ca58060353d07fa0fcc57cbebd04f55356669a842eb2e51e994155026d002a6e43c1451a1baa29
+outputs.1.filename=cyclonedx-core-java-5.0.1.jar
+outputs.1.length=1591035
+outputs.1.checksums.sha512=38fe5223a11eee1074afc7fcc9ceadffc9fdbe2db7b88f517495ea5c6b031a68cbd13a6464ba3aa640d72a3afec701086d07bf32fcca1524f810b26c47d724e2
+
+outputs.2.filename=cyclonedx-core-java-5.0.1-sources.jar
+outputs.2.length=1562133
+outputs.2.checksums.sha512=5250b3f020c535847cdc509092c2521164ccfcfda9dfd2faa9ca58060353d07fa0fcc57cbebd04f55356669a842eb2e51e994155026d002a6e43c1451a1baa29

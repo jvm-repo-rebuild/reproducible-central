@@ -22,10 +22,14 @@ mvn.minimum.version=3.1
 
 # output
 
-outputs.0.filename=cyclonedx-maven-plugin-2.5.2.jar
-outputs.0.length=39040
-outputs.0.checksums.sha512=70d828c605929f48df9960214a573e7b3c73edd2eceb2ea683e20c9d84a18650508f221cadea84cca9561ef3b491eff15f6ec89988bd8005047ca561503a602c
+outputs.0.filename=cyclonedx-maven-plugin-2.5.2.pom
+outputs.0.length=14007
+outputs.0.checksums.sha512=4303972219ba9fa6899658257620868ba1a69cc62edb675377351e012e7942766b4c21e96f0bcf5de5886d5e0934e12a8183e36ec45a68124e560294fbc4a8d6
 
-outputs.1.filename=cyclonedx-maven-plugin-2.5.2-sources.jar
-outputs.1.length=22655
-outputs.1.checksums.sha512=bf65e00eed1099191182eb0328818fc76a62ec4994dd3c5696119e5389aef1b9ebdae4dc47f07839fe6a28cb9e306bd48f63011a7eff9a48cbd20bf2d039650e
+outputs.1.filename=cyclonedx-maven-plugin-2.5.2.jar
+outputs.1.length=39040
+outputs.1.checksums.sha512=70d828c605929f48df9960214a573e7b3c73edd2eceb2ea683e20c9d84a18650508f221cadea84cca9561ef3b491eff15f6ec89988bd8005047ca561503a602c
+
+outputs.2.filename=cyclonedx-maven-plugin-2.5.2-sources.jar
+outputs.2.length=22655
+outputs.2.checksums.sha512=bf65e00eed1099191182eb0328818fc76a62ec4994dd3c5696119e5389aef1b9ebdae4dc47f07839fe6a28cb9e306bd48f63011a7eff9a48cbd20bf2d039650e

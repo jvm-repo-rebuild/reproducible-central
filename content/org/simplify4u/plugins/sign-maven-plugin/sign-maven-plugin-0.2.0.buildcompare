@@ -1,5 +1,8 @@
 version=0.2.0
-ok=1
+ok=2
 ko=1
-okFiles="sign-maven-plugin-0.2.0-sources.jar"
+okFiles="sign-maven-plugin-0.2.0.pom sign-maven-plugin-0.2.0-sources.jar"
 koFiles="sign-maven-plugin-0.2.0.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/sign-maven-plugin-0.2.0.jar target/sign-maven-plugin-0.2.0.jar

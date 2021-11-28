@@ -1,5 +1,21 @@
 version=2.8.8
 ok=21
-ko=1
+ko=14
 okFiles="plexus-compiler-2.8.8-site.xml plexus-compiler-api-2.8.8.jar plexus-compiler-api-2.8.8-sources.jar plexus-compiler-manager-2.8.8.jar plexus-compiler-manager-2.8.8-sources.jar plexus-compiler-test-2.8.8.jar plexus-compiler-test-2.8.8-sources.jar plexus-compiler-aspectj-2.8.8.jar plexus-compiler-aspectj-2.8.8-sources.jar plexus-compiler-csharp-2.8.8.jar plexus-compiler-csharp-2.8.8-sources.jar plexus-compiler-eclipse-2.8.8.jar plexus-compiler-eclipse-2.8.8-sources.jar plexus-compiler-jikes-2.8.8.jar plexus-compiler-jikes-2.8.8-sources.jar plexus-compiler-javac-2.8.8.jar plexus-compiler-javac-2.8.8-sources.jar plexus-compiler-javac-errorprone-2.8.8.jar plexus-compiler-javac-errorprone-2.8.8-sources.jar plexus-compiler-j2objc-2.8.8.jar plexus-compiler-j2objc-2.8.8-sources.jar"
-koFiles="plexus-compiler-2.8.8-source-release.zip"
+koFiles="plexus-compiler-2.8.8.pom plexus-compiler-2.8.8-source-release.zip plexus-compiler-api-2.8.8.pom plexus-compiler-manager-2.8.8.pom plexus-compiler-test-2.8.8.pom plexus-compilers-2.8.8.pom plexus-compiler-aspectj-2.8.8.pom plexus-compiler-csharp-2.8.8.pom plexus-compiler-eclipse-2.8.8.pom plexus-compiler-jikes-2.8.8.pom plexus-compiler-javac-2.8.8.pom plexus-compiler-javac-errorprone-2.8.8.pom plexus-compiler-j2objc-2.8.8.pom plexus-compiler-its-2.8.8.pom"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/plexus-compiler-2.8.8.pom pom.xml
+# diffoscope target/reference/plexus-compiler-2.8.8-source-release.zip target/plexus-compiler-2.8.8-source-release.zip
+# diffoscope target/reference/plexus-compiler-api-2.8.8.pom plexus-compiler-api/pom.xml
+# diffoscope target/reference/plexus-compiler-manager-2.8.8.pom plexus-compiler-manager/pom.xml
+# diffoscope target/reference/plexus-compiler-test-2.8.8.pom plexus-compiler-test/pom.xml
+# diffoscope target/reference/plexus-compilers-2.8.8.pom plexus-compilers/pom.xml
+# diffoscope target/reference/plexus-compiler-aspectj-2.8.8.pom plexus-compilers/plexus-compiler-aspectj/pom.xml
+# diffoscope target/reference/plexus-compiler-csharp-2.8.8.pom plexus-compilers/plexus-compiler-csharp/pom.xml
+# diffoscope target/reference/plexus-compiler-eclipse-2.8.8.pom plexus-compilers/plexus-compiler-eclipse/pom.xml
+# diffoscope target/reference/plexus-compiler-jikes-2.8.8.pom plexus-compilers/plexus-compiler-jikes/pom.xml
+# diffoscope target/reference/plexus-compiler-javac-2.8.8.pom plexus-compilers/plexus-compiler-javac/pom.xml
+# diffoscope target/reference/plexus-compiler-javac-errorprone-2.8.8.pom plexus-compilers/plexus-compiler-javac-errorprone/pom.xml
+# diffoscope target/reference/plexus-compiler-j2objc-2.8.8.pom plexus-compilers/plexus-compiler-j2objc/pom.xml
+# diffoscope target/reference/plexus-compiler-its-2.8.8.pom plexus-compiler-its/pom.xml

@@ -22,14 +22,18 @@ mvn.minimum.version=3.3.9
 
 # output
 
-outputs.0.filename=aspectj-maven-plugin-1.14.0.jar
-outputs.0.length=58936
-outputs.0.checksums.sha512=0be75959162f6694c203702607d0953c3c6522a56d17bd258bf1db8398f41c67ce5507f18146ddd68a1ea0cf70d9623e73f1cfdc3709b529901e2b1c6d48677a
+outputs.0.filename=aspectj-maven-plugin-1.14.0.pom
+outputs.0.length=12545
+outputs.0.checksums.sha512=c0ccac6c8fb3b3436deb714662e824d045ccc625e684f3b0af6df848b6eb0c2c97cf41627aa9ce520b070fe01774308bc6fdb0510a11c612d2cb218ee0b2f6cc
 
-outputs.1.filename=aspectj-maven-plugin-1.14.0-source-release.zip
-outputs.1.length=304661
-outputs.1.checksums.sha512=56b3c74ab728d0a58af55fa8b7da699dab693e1e2cad24a73ec2a1ed565bd316ca695973769a028003467a899b2fd371ab09d1e97e8683c4812d6e29511ca39c
+outputs.1.filename=aspectj-maven-plugin-1.14.0.jar
+outputs.1.length=58936
+outputs.1.checksums.sha512=0be75959162f6694c203702607d0953c3c6522a56d17bd258bf1db8398f41c67ce5507f18146ddd68a1ea0cf70d9623e73f1cfdc3709b529901e2b1c6d48677a
 
-outputs.2.filename=aspectj-maven-plugin-1.14.0-sources.jar
-outputs.2.length=44017
-outputs.2.checksums.sha512=d5d431456b46acfcec324725c2e71466e157b843e33e7a1179b2def8c26d508c39a797ef7de6a778d78c58ddacc51499a0f5f9880df3fcd74c4d722be14903e3
+outputs.2.filename=aspectj-maven-plugin-1.14.0-source-release.zip
+outputs.2.length=305982
+outputs.2.checksums.sha512=6a42a17c077e375bb9ed6f7eace4065e441af7770c89b021ae6b33c0c0cace59dd2d8a28a51a53a281d1fae4c2b4def7532e60fb45409ddeadb2bc6840d2e06c
+
+outputs.3.filename=aspectj-maven-plugin-1.14.0-sources.jar
+outputs.3.length=44017
+outputs.3.checksums.sha512=d5d431456b46acfcec324725c2e71466e157b843e33e7a1179b2def8c26d508c39a797ef7de6a778d78c58ddacc51499a0f5f9880df3fcd74c4d722be14903e3

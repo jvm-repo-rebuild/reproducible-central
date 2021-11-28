@@ -1,7 +1,7 @@
 version=1.13.0
-ok=2
+ok=3
 ko=0
-okFiles="pgpverify-maven-plugin-1.13.0.jar pgpverify-maven-plugin-1.13.0-sources.jar"
+okFiles="pgpverify-maven-plugin-1.13.0.pom pgpverify-maven-plugin-1.13.0.jar pgpverify-maven-plugin-1.13.0-sources.jar"
 koFiles=""
 reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"

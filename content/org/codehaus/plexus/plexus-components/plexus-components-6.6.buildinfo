@@ -21,10 +21,14 @@ os.name=Unix
 
 # output
 
-outputs.0.filename=plexus-components-6.6-site.xml
-outputs.0.length=287
-outputs.0.checksums.sha512=62eaff4e4d5ec7d8ebd1b7026cffb25f76d79b68e0a4906fdddc4c11526cef9aa97f865b63642060be2eed0273451e21083f7e5e185bf848e368211753f1bc59
+outputs.0.filename=plexus-components-6.6.pom
+outputs.0.length=2676
+outputs.0.checksums.sha512=1d77d60f332f7d47ffc5e1692622d2a5550be6577e55e117c9d5472819965fcd1714c919272de00ac621a2e2330462e50e24764a6ee3c9446fbffc01dbabe6ad
 
-outputs.1.filename=plexus-components-6.6-source-release.zip
-outputs.1.length=5690
-outputs.1.checksums.sha512=c4b09d26fca09c66cae44d293aafda5167f6a82b3dfadd22673ad03294a192e2ca698d5683fb4fb28bb93322efc56dff040c0952492c06b58d0148a54d1403b7
+outputs.1.filename=plexus-components-6.6-site.xml
+outputs.1.length=287
+outputs.1.checksums.sha512=62eaff4e4d5ec7d8ebd1b7026cffb25f76d79b68e0a4906fdddc4c11526cef9aa97f865b63642060be2eed0273451e21083f7e5e185bf848e368211753f1bc59
+
+outputs.2.filename=plexus-components-6.6-source-release.zip
+outputs.2.length=5690
+outputs.2.checksums.sha512=c4b09d26fca09c66cae44d293aafda5167f6a82b3dfadd22673ad03294a192e2ca698d5683fb4fb28bb93322efc56dff040c0952492c06b58d0148a54d1403b7

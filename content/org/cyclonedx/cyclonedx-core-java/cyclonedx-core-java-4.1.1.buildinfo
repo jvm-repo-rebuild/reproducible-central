@@ -13,20 +13,22 @@ source.scm.tag=cyclonedx-core-java-4.1.1
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_275
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 
 # output
 
-outputs.0.filename=cyclonedx-core-java-4.1.1.jar
-outputs.0.length=1557982
-outputs.0.checksums.sha512=5522f4471ee8bdad5bc117f03526d789ff3deacb20053e4818dc85936123024b8432096900fcab9f521e6522844ecfcf857e984100b568cc9f642b2a80a74c17
+outputs.0.filename=cyclonedx-core-java-4.1.1.pom
+outputs.0.length=14488
+outputs.0.checksums.sha512=933ff47f3cb67fe8d7d736a2fb46847285599df4c2b6e6b16d12d4e3c7ffd6f790563c058ee84201eb9483c980e1d23eba9701e24b9c68368cbde99fd3bf7003
 
-outputs.1.filename=cyclonedx-core-java-4.1.1-sources.jar
-outputs.1.length=1523378
-outputs.1.checksums.sha512=13e3de515efefc6585d2625ac8fc3150f8798ec5d6f5442fea4e0469ad961ad936e648a26afe5e93bc1c03bf7c829a6ff2135057e2fb6c23834ff57eb62197c7
+outputs.1.filename=cyclonedx-core-java-4.1.1.jar
+outputs.1.length=1557982
+outputs.1.checksums.sha512=5522f4471ee8bdad5bc117f03526d789ff3deacb20053e4818dc85936123024b8432096900fcab9f521e6522844ecfcf857e984100b568cc9f642b2a80a74c17
+
+outputs.2.filename=cyclonedx-core-java-4.1.1-sources.jar
+outputs.2.length=1523378
+outputs.2.checksums.sha512=13e3de515efefc6585d2625ac8fc3150f8798ec5d6f5442fea4e0469ad961ad936e648a26afe5e93bc1c03bf7c829a6ff2135057e2fb6c23834ff57eb62197c7

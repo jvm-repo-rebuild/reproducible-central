@@ -13,24 +13,26 @@ source.scm.tag=plexus-archiver-4.2.5
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_275
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 
 # output
 
-outputs.0.filename=plexus-archiver-4.2.5.jar
-outputs.0.length=195121
-outputs.0.checksums.sha512=2394868e80762a490ac0e93bf89d0e1a91e53413759efc08e767bb9b56dbf82d0e21d526afbc9bfe4cb4a0d24c42bd892318c7c885fb405a2caadcb1de759439
+outputs.0.filename=plexus-archiver-4.2.5.pom
+outputs.0.length=4760
+outputs.0.checksums.sha512=14004c0a6f126243c319a08f39fe03d0181449ade7e202198a20607f3a95e4f1a5631fd7b6e3d2ef9a3c2103ca2558bec1fa72807f443b28911051e5f7a3325f
 
-outputs.1.filename=plexus-archiver-4.2.5-source-release.zip
-outputs.1.length=1054883
-outputs.1.checksums.sha512=67a8e410ecf764e1d80f9925f6512960f72e064af9e03dbbe00d3bf36e91b95be085335ad96fc8563c123be6a8f95360656020bd35c110da44644584447c6dce
+outputs.1.filename=plexus-archiver-4.2.5.jar
+outputs.1.length=195121
+outputs.1.checksums.sha512=2394868e80762a490ac0e93bf89d0e1a91e53413759efc08e767bb9b56dbf82d0e21d526afbc9bfe4cb4a0d24c42bd892318c7c885fb405a2caadcb1de759439
 
-outputs.2.filename=plexus-archiver-4.2.5-sources.jar
-outputs.2.length=148074
-outputs.2.checksums.sha512=88d150876e0a8a033af079e0707e98d64902b0ce33d4744433ecdb4db003a5b8d1258c882a7be044d3d0fe71a7d7e5e3f737afc6cee02bc61f5c34ffe70d92d0
+outputs.2.filename=plexus-archiver-4.2.5-source-release.zip
+outputs.2.length=1054883
+outputs.2.checksums.sha512=67a8e410ecf764e1d80f9925f6512960f72e064af9e03dbbe00d3bf36e91b95be085335ad96fc8563c123be6a8f95360656020bd35c110da44644584447c6dce
+
+outputs.3.filename=plexus-archiver-4.2.5-sources.jar
+outputs.3.length=148074
+outputs.3.checksums.sha512=88d150876e0a8a033af079e0707e98d64902b0ce33d4744433ecdb4db003a5b8d1258c882a7be044d3d0fe71a7d7e5e3f737afc6cee02bc61f5c34ffe70d92d0

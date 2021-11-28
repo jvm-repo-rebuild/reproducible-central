@@ -1,5 +1,7 @@
 version=2.0.2
-ok=3
+ok=4
 ko=0
-okFiles="wagon-maven-plugin-2.0.2.jar wagon-maven-plugin-2.0.2-source-release.zip wagon-maven-plugin-2.0.2-sources.jar"
+okFiles="wagon-maven-plugin-2.0.2.pom wagon-maven-plugin-2.0.2.jar wagon-maven-plugin-2.0.2-source-release.zip wagon-maven-plugin-2.0.2-sources.jar"
 koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

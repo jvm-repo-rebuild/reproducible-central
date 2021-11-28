@@ -21,14 +21,18 @@ os.name=Unix
 
 # output
 
-outputs.0.filename=plexus-archiver-4.2.6.jar
-outputs.0.length=194845
-outputs.0.checksums.sha512=c8d941c5f9e296a8e658cade52862587d89b1a79c153d1dcafb34b0a7e3fedbac231b11216830549cbe1abdfe7d71051fa227cae88f2d480caec34f6328ca1f2
+outputs.0.filename=plexus-archiver-4.2.6.pom
+outputs.0.length=4760
+outputs.0.checksums.sha512=e0cad9b47d4df92a894f70dcf941330932d144da410ca9a16494e18459d0c3d5d8df0ee82b0c5c7ec472371dbe8e1f1551d63bee5820df35b9c2aa7ac8021cfa
 
-outputs.1.filename=plexus-archiver-4.2.6-source-release.zip
-outputs.1.length=1054499
-outputs.1.checksums.sha512=b2435ea1dd481f5dbab49647cb862afc6f7bc3e00cee62c455e94b99e1e6a194ba5eab857fee852e129918914d57387e4693f6f479c7d833564a204d40985570
+outputs.1.filename=plexus-archiver-4.2.6.jar
+outputs.1.length=194845
+outputs.1.checksums.sha512=c8d941c5f9e296a8e658cade52862587d89b1a79c153d1dcafb34b0a7e3fedbac231b11216830549cbe1abdfe7d71051fa227cae88f2d480caec34f6328ca1f2
 
-outputs.2.filename=plexus-archiver-4.2.6-sources.jar
-outputs.2.length=147885
-outputs.2.checksums.sha512=ca25a7257233f69db1d4abdc76570037b588fdd4d90067d8da8530b364f94aa7e19e2a3759df4b0c30c8bb997f4ce973cd9f6ee3bc036bef8b012277a81b5215
+outputs.2.filename=plexus-archiver-4.2.6-source-release.zip
+outputs.2.length=1054499
+outputs.2.checksums.sha512=b2435ea1dd481f5dbab49647cb862afc6f7bc3e00cee62c455e94b99e1e6a194ba5eab857fee852e129918914d57387e4693f6f479c7d833564a204d40985570
+
+outputs.3.filename=plexus-archiver-4.2.6-sources.jar
+outputs.3.length=147885
+outputs.3.checksums.sha512=ca25a7257233f69db1d4abdc76570037b588fdd4d90067d8da8530b364f94aa7e19e2a3759df4b0c30c8bb997f4ce973cd9f6ee3bc036bef8b012277a81b5215

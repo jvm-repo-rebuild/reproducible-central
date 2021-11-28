@@ -1,7 +1,7 @@
 version=2.0
-ok=3
+ok=4
 ko=0
-okFiles="plexus-cipher-2.0.jar plexus-cipher-2.0-source-release.zip plexus-cipher-2.0-sources.jar"
+okFiles="plexus-cipher-2.0.pom plexus-cipher-2.0.jar plexus-cipher-2.0-source-release.zip plexus-cipher-2.0-sources.jar"
 koFiles=""
 reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Windows (from pom.properties newline)"

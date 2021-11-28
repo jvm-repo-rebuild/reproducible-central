@@ -21,14 +21,18 @@ os.name=Windows
 
 # output
 
-outputs.0.filename=plexus-cipher-2.0.jar
-outputs.0.length=13003
-outputs.0.checksums.sha512=8f187b07867a7c29d77454aae4b76479300238d9c4e777c1afa2aebe33b88dab916e29111dd55acac1341849f4579fe91a5470fdd45ccba0e05709c2ce3a1d65
+outputs.0.filename=plexus-cipher-2.0.pom
+outputs.0.length=4417
+outputs.0.checksums.sha512=81f81feefbeafeb8b584ad33bac666a29afaa9e4d3e20851104931d7b629a5f9abd1ac1c638e70369e2cb4c08bf96e47ccdc8b60c45f825153ee57afe37f0d58
 
-outputs.1.filename=plexus-cipher-2.0-source-release.zip
-outputs.1.length=26611
-outputs.1.checksums.sha512=2a4fd5e33d97479b6c46511268dd38aa32db722468ffc3551429ce057beb8ec05579e48339bca2f6e67c1619efe875e0b77c0b745488be7550db8bc8b198329f
+outputs.1.filename=plexus-cipher-2.0.jar
+outputs.1.length=13003
+outputs.1.checksums.sha512=8f187b07867a7c29d77454aae4b76479300238d9c4e777c1afa2aebe33b88dab916e29111dd55acac1341849f4579fe91a5470fdd45ccba0e05709c2ce3a1d65
 
-outputs.2.filename=plexus-cipher-2.0-sources.jar
-outputs.2.length=13771
-outputs.2.checksums.sha512=893eb7200e476b8307c8e45856d4238cbfa6df8f0ed4e3f08406c0383354e9eb8d5a0dc2e192f969ebc88979470f96dc5714fec923319299bc2a26af91d7b481
+outputs.2.filename=plexus-cipher-2.0-source-release.zip
+outputs.2.length=26611
+outputs.2.checksums.sha512=2a4fd5e33d97479b6c46511268dd38aa32db722468ffc3551429ce057beb8ec05579e48339bca2f6e67c1619efe875e0b77c0b745488be7550db8bc8b198329f
+
+outputs.3.filename=plexus-cipher-2.0-sources.jar
+outputs.3.length=13771
+outputs.3.checksums.sha512=893eb7200e476b8307c8e45856d4238cbfa6df8f0ed4e3f08406c0383354e9eb8d5a0dc2e192f969ebc88979470f96dc5714fec923319299bc2a26af91d7b481

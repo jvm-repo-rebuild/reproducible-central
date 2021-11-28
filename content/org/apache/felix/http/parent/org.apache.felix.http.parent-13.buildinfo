@@ -21,10 +21,14 @@ os.name=Unix
 
 # output
 
-outputs.0.filename=org.apache.felix.http.parent-13-source-release.zip
-outputs.0.length=6375
-outputs.0.checksums.sha512=5cedf64f360b22d2f65fae6d1a41ade9006edb22727dc8e999dc18b2e001370bed58056d1dc83c594351991ebe48d4b5a6dcb00d89719e6aa0bd02fbd96f2597
+outputs.0.filename=org.apache.felix.http.parent-13.pom
+outputs.0.length=5322
+outputs.0.checksums.sha512=ed8a3906dd95cb10c96604a6b21f76e9ae5231dc5231cbcb1048fa140959baa39d5ebaac61f2a35e378e1ed9312e416895c6e4fdfff6e671fb86d0a7593459f0
 
-outputs.1.filename=org.apache.felix.http.parent-13-source-release.tar.gz
-outputs.1.length=5474
-outputs.1.checksums.sha512=c82b2b53e7f537002225b6b5566f42bb2ce28c3c075398a86666398a7fc90db3020db35ac36d5e0e29d72e0bb31fcee07f304704c436f7195f9d828172de07cd
+outputs.1.filename=org.apache.felix.http.parent-13-source-release.zip
+outputs.1.length=6375
+outputs.1.checksums.sha512=5cedf64f360b22d2f65fae6d1a41ade9006edb22727dc8e999dc18b2e001370bed58056d1dc83c594351991ebe48d4b5a6dcb00d89719e6aa0bd02fbd96f2597
+
+outputs.2.filename=org.apache.felix.http.parent-13-source-release.tar.gz
+outputs.2.length=5474
+outputs.2.checksums.sha512=c82b2b53e7f537002225b6b5566f42bb2ce28c3c075398a86666398a7fc90db3020db35ac36d5e0e29d72e0bb31fcee07f304704c436f7195f9d828172de07cd

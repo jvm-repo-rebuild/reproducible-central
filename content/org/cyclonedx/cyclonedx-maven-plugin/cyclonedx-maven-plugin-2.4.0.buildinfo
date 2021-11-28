@@ -13,21 +13,23 @@ source.scm.tag=cyclonedx-maven-plugin-2.4.0
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_275
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=3.1
 
 # output
 
-outputs.0.filename=cyclonedx-maven-plugin-2.4.0.jar
-outputs.0.length=38316
-outputs.0.checksums.sha512=73bbf13502533583b39e519b84c5a29047ad0bd83a75316da8d4ae2118391b6b517197088db5164c26cc3c67879f546877d9127d8766f15fb4071ba5a098b3ad
+outputs.0.filename=cyclonedx-maven-plugin-2.4.0.pom
+outputs.0.length=12859
+outputs.0.checksums.sha512=6c2b78f806930b1488ff1f79f25f0cc275c5f705d81992209d0e977b7dc46557fa04a9958471764bf8389eaf274d5f10accc532cc130f81cdc2b46ee46597aec
 
-outputs.1.filename=cyclonedx-maven-plugin-2.4.0-sources.jar
-outputs.1.length=21796
-outputs.1.checksums.sha512=5ec06b5a2cad184382bf4f35537c8af2c9d6d965f4c7837456011e637b4a1da4166918a095ff2b47935404525ea1f7445e1122749144fa5ce8c37bf240e2a4c7
+outputs.1.filename=cyclonedx-maven-plugin-2.4.0.jar
+outputs.1.length=38316
+outputs.1.checksums.sha512=73bbf13502533583b39e519b84c5a29047ad0bd83a75316da8d4ae2118391b6b517197088db5164c26cc3c67879f546877d9127d8766f15fb4071ba5a098b3ad
+
+outputs.2.filename=cyclonedx-maven-plugin-2.4.0-sources.jar
+outputs.2.length=21796
+outputs.2.checksums.sha512=5ec06b5a2cad184382bf4f35537c8af2c9d6d965f4c7837456011e637b4a1da4166918a095ff2b47935404525ea1f7445e1122749144fa5ce8c37bf240e2a4c7

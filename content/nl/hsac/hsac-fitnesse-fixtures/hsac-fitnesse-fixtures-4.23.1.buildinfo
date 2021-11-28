@@ -13,24 +13,26 @@ source.scm.tag=HEAD
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 
 # output
 
-outputs.0.filename=hsac-fitnesse-fixtures-4.23.1.jar
-outputs.0.length=649933
-outputs.0.checksums.sha512=80426ce54f176834c18bbcd9f0846bdeefa4ccbab0ab5ca844864f503cc77907a805a51564578a7124ff2548a703d953f5267b4733d1448a45e4ab9a327dde40
+outputs.0.filename=hsac-fitnesse-fixtures-4.23.1.pom
+outputs.0.length=21820
+outputs.0.checksums.sha512=bfd78a41ae79f003ba4f6a177c88df16d15a02ba1c33ec65470811302618108f63a199004f9dde053a837d281ac152bcab419e2db5804c2b1b3780e8c926ac12
 
-outputs.1.filename=hsac-fitnesse-fixtures-4.23.1-standalone.zip
-outputs.1.length=50630919
-outputs.1.checksums.sha512=56adf3e9842805f52e6a6b36a6b8840d3593821f69b0d8c35a2706132f29fa7f7156313aa65fb3212b8d4437c57e430ca8cdb17ddd6287a845ab30742e8520a7
+outputs.1.filename=hsac-fitnesse-fixtures-4.23.1.jar
+outputs.1.length=649933
+outputs.1.checksums.sha512=80426ce54f176834c18bbcd9f0846bdeefa4ccbab0ab5ca844864f503cc77907a805a51564578a7124ff2548a703d953f5267b4733d1448a45e4ab9a327dde40
 
-outputs.2.filename=hsac-fitnesse-fixtures-4.23.1-sources.jar
-outputs.2.length=435177
-outputs.2.checksums.sha512=1423390c839ea59d5c4f1eb597474f719e96dd3f39e607b77c4c13b9d42811ada338e36f81b770b68f5494a3e5aeac75d67a4697bb82501bf8bcf43e209a1172
+outputs.2.filename=hsac-fitnesse-fixtures-4.23.1-standalone.zip
+outputs.2.length=50630919
+outputs.2.checksums.sha512=56adf3e9842805f52e6a6b36a6b8840d3593821f69b0d8c35a2706132f29fa7f7156313aa65fb3212b8d4437c57e430ca8cdb17ddd6287a845ab30742e8520a7
+
+outputs.3.filename=hsac-fitnesse-fixtures-4.23.1-sources.jar
+outputs.3.length=435177
+outputs.3.checksums.sha512=1423390c839ea59d5c4f1eb597474f719e96dd3f39e607b77c4c13b9d42811ada338e36f81b770b68f5494a3e5aeac75d67a4697bb82501bf8bcf43e209a1172

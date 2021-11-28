@@ -1,7 +1,7 @@
 version=2.7.2
-ok=2
+ok=3
 ko=0
-okFiles="watset.jar watset-sources.jar"
+okFiles="watset-2.7.2.pom watset-2.7.2.jar watset-2.7.2-sources.jar"
 koFiles=""
 reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"

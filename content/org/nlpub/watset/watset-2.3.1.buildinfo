@@ -13,20 +13,22 @@ source.scm.tag=2.3.1
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=11.0.6
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 
 # output
 
-outputs.0.filename=watset-2.3.1.jar
-outputs.0.length=115031
-outputs.0.checksums.sha512=c8ac8457fbd94a4fcd2b596768bf32010682beaefd9798bcc0b25d3e3ac230bc21bd23004cbfe24811b0d8742ace0a10caf5205548543f49ad56c38b508384ef
+outputs.0.filename=watset-2.3.1.pom
+outputs.0.length=11183
+outputs.0.checksums.sha512=c18b71c1c747b5900e3e20ac3026a1353870a6a9a9f57052bc308aae1f6bf785928dd9faac2532349fdc9fbdcc12f51b2e5ee56a81390cc7c17c8d07ce5feee4
 
-outputs.1.filename=watset-2.3.1-sources.jar
-outputs.1.length=72922
-outputs.1.checksums.sha512=7f5a4526a46da7ee367358480171dcbc374052fc036ea4fba5652998dc189d37e0f07bbaab5c1a69a076350d7f6271ad151aa6b42317fac8d8387cd7e516ee76
+outputs.1.filename=watset-2.3.1.jar
+outputs.1.length=115031
+outputs.1.checksums.sha512=c8ac8457fbd94a4fcd2b596768bf32010682beaefd9798bcc0b25d3e3ac230bc21bd23004cbfe24811b0d8742ace0a10caf5205548543f49ad56c38b508384ef
+
+outputs.2.filename=watset-2.3.1-sources.jar
+outputs.2.length=72922
+outputs.2.checksums.sha512=7f5a4526a46da7ee367358480171dcbc374052fc036ea4fba5652998dc189d37e0f07bbaab5c1a69a076350d7f6271ad151aa6b42317fac8d8387cd7e516ee76

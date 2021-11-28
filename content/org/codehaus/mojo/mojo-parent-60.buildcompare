@@ -1,5 +1,5 @@
 version=60
-ok=1
+ok=2
 ko=0
-okFiles="mojo-parent-60-source-release.zip"
+okFiles="mojo-parent-60.pom mojo-parent-60-source-release.zip"
 koFiles=""

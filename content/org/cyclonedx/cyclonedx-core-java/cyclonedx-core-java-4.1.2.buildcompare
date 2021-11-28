@@ -1,5 +1,7 @@
 version=4.1.2
-ok=2
+ok=3
 ko=0
-okFiles="cyclonedx-core-java-4.1.2.jar cyclonedx-core-java-4.1.2-sources.jar"
+okFiles="cyclonedx-core-java-4.1.2.pom cyclonedx-core-java-4.1.2.jar cyclonedx-core-java-4.1.2-sources.jar"
 koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

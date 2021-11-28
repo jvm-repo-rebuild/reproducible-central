@@ -24,166 +24,258 @@ mvn.aggregate.artifact-id=quick-perf-bom
 
 outputs.0.coordinates=org.quickperf:quick-perf
 
+outputs.0.0.filename=quick-perf-1.1.0.pom
+outputs.0.0.length=15747
+outputs.0.0.checksums.sha512=907b892e17686a9cb31d1e661efa0bf693923270a8510a9e1ca328475d562e8445bb5292ade99e89f836bf9a6a10fa896307070446800fba80ed32d6016afa7e
+
 outputs.1.coordinates=org.quickperf:quick-perf-core
 
-outputs.1.0.filename=quick-perf-core-1.1.0.jar
-outputs.1.0.length=115168
-outputs.1.0.checksums.sha512=6664689a1b0f0cacb975d96e6bcf8ae0f670dda86cb0f034df1f142d917fa92eab2f595707bb29c111937afcf772c23c66572e936457945e4a5b59bd7d340886
+outputs.1.0.filename=quick-perf-core-1.1.0.pom
+outputs.1.0.length=2117
+outputs.1.0.checksums.sha512=852bd9cb89a7ee54abaf51ece80819fe6283b09156432f0be13a77a4a3a21f0b51b2adb4ec5d7b87746f0cb946199f7a134b882313a9c26328e17a476530da57
 
-outputs.1.1.filename=quick-perf-core-1.1.0-sources.jar
-outputs.1.1.length=82670
-outputs.1.1.checksums.sha512=2001ad6958316c1eda28cea44dc5385af489890fb59f3bf635f2d5fcf9ea69ead3d2548fa9c11db34550aed3640c7b93505d32cbd8ee63c01cd25b29b6f8a9bc
+outputs.1.1.filename=quick-perf-core-1.1.0.jar
+outputs.1.1.length=115168
+outputs.1.1.checksums.sha512=6664689a1b0f0cacb975d96e6bcf8ae0f670dda86cb0f034df1f142d917fa92eab2f595707bb29c111937afcf772c23c66572e936457945e4a5b59bd7d340886
+
+outputs.1.2.filename=quick-perf-core-1.1.0-sources.jar
+outputs.1.2.length=82670
+outputs.1.2.checksums.sha512=2001ad6958316c1eda28cea44dc5385af489890fb59f3bf635f2d5fcf9ea69ead3d2548fa9c11db34550aed3640c7b93505d32cbd8ee63c01cd25b29b6f8a9bc
 
 outputs.2.coordinates=org.quickperf:quick-perf-jvm-parent
 
+outputs.2.0.filename=quick-perf-jvm-parent-1.1.0.pom
+outputs.2.0.length=1553
+outputs.2.0.checksums.sha512=cb4e56ec9e889cf77bff2b27b423d7b06afb7aefd588ab0e66428dffa0bd0c8628cc34f698ffeaca6d66ff45fcad0663a3067da8c3fbebf20ab313be16facea1
+
 outputs.3.coordinates=org.quickperf:quick-perf-jvm-core
 
-outputs.3.0.filename=quick-perf-jvm-core-1.1.0.jar
-outputs.3.0.length=11647
-outputs.3.0.checksums.sha512=8a637358d4c4fdf29426070014e484a757b8b4ebdbe0f074e46a3c1b0fcd102afa3e04ba6208090ab24d828528913107635ca63254c09c2fd9ff7cde1054b3bc
+outputs.3.0.filename=quick-perf-jvm-core-1.1.0.pom
+outputs.3.0.length=1497
+outputs.3.0.checksums.sha512=666eb4d67cab4bb351d60acadd6cf989cd2280eb156979ff86f3693c148a1aa545e0e9ea3f96aa11469fd415de9ce53c7ee87b6f4eee863b9c83168e0aca1133
 
-outputs.3.1.filename=quick-perf-jvm-core-1.1.0-sources.jar
-outputs.3.1.length=6660
-outputs.3.1.checksums.sha512=70aedc3371a810c2f34fc0df352386528e2600d6a50bcdb0e5a88df31578977dde44ea23b826c9487013a6a08e7d6e522135a2c472af14a51652c59266cf1e4e
+outputs.3.1.filename=quick-perf-jvm-core-1.1.0.jar
+outputs.3.1.length=11647
+outputs.3.1.checksums.sha512=8a637358d4c4fdf29426070014e484a757b8b4ebdbe0f074e46a3c1b0fcd102afa3e04ba6208090ab24d828528913107635ca63254c09c2fd9ff7cde1054b3bc
+
+outputs.3.2.filename=quick-perf-jvm-core-1.1.0-sources.jar
+outputs.3.2.length=6660
+outputs.3.2.checksums.sha512=70aedc3371a810c2f34fc0df352386528e2600d6a50bcdb0e5a88df31578977dde44ea23b826c9487013a6a08e7d6e522135a2c472af14a51652c59266cf1e4e
 
 outputs.4.coordinates=org.quickperf:quick-perf-jvm-annotations
 
-outputs.4.0.filename=quick-perf-jvm-annotations-1.1.0.jar
-outputs.4.0.length=45470
-outputs.4.0.checksums.sha512=264e34063b0e051f89d29b21e4b11a4749b70bd443005658eaccd39044c5bab09fad0365e470e3a2460d1ca5ca3cd2df145b7b7245cd789799acf452fe8de0ab
+outputs.4.0.filename=quick-perf-jvm-annotations-1.1.0.pom
+outputs.4.0.length=2172
+outputs.4.0.checksums.sha512=962fdd2ebd5a3f8f530800e594ca64ff9ef77796f15afe3e7180d650057e3f42977addc33b43d081db29e2766ceee52ec2b2bb86754034e1897ddc15cf128a75
 
-outputs.4.1.filename=quick-perf-jvm-annotations-1.1.0-sources.jar
-outputs.4.1.length=39735
-outputs.4.1.checksums.sha512=5f63a3c21a346ea7e765c3878fcfa50977ed1212266621d985b89d4c2aad672e364af030acecc99645d358fec6bcaa6032505ff2cc5ebf17f9653a9b19ff3e30
+outputs.4.1.filename=quick-perf-jvm-annotations-1.1.0.jar
+outputs.4.1.length=45470
+outputs.4.1.checksums.sha512=264e34063b0e051f89d29b21e4b11a4749b70bd443005658eaccd39044c5bab09fad0365e470e3a2460d1ca5ca3cd2df145b7b7245cd789799acf452fe8de0ab
+
+outputs.4.2.filename=quick-perf-jvm-annotations-1.1.0-sources.jar
+outputs.4.2.length=39735
+outputs.4.2.checksums.sha512=5f63a3c21a346ea7e765c3878fcfa50977ed1212266621d985b89d4c2aad672e364af030acecc99645d358fec6bcaa6032505ff2cc5ebf17f9653a9b19ff3e30
 
 outputs.5.coordinates=org.quickperf:quick-perf-jfr-annotations
 
-outputs.5.0.filename=quick-perf-jfr-annotations-1.1.0.jar
-outputs.5.0.length=56839
-outputs.5.0.checksums.sha512=7b77347f1ab3e3c3e1231df8901deb07e31d9dd6d41ce1a257dd93d41ba194afb314c0b580d84f7df28aa03e1c459a7240ca0b9e6e1ba6e62db80568b02edfb5
+outputs.5.0.filename=quick-perf-jfr-annotations-1.1.0.pom
+outputs.5.0.length=2497
+outputs.5.0.checksums.sha512=67ee173e69b6ee469da2f30a3435eee7a5ea9184147b2527f1564d0a74c07fdad79b995a5532e89d23882caae9039a13f66ee072bc2c511a242752a6c94f4532
 
-outputs.5.1.filename=quick-perf-jfr-annotations-1.1.0-sources.jar
-outputs.5.1.length=36034
-outputs.5.1.checksums.sha512=0ac2f766097b88e9c7646046a2141cf4a1f627b2226a90b9b1e50d03c26930c54b3991ed3f53ebf88af761f05a920d0f15e1b1e9622c6f9d4d7d00c0bc35e1f8
+outputs.5.1.filename=quick-perf-jfr-annotations-1.1.0.jar
+outputs.5.1.length=56839
+outputs.5.1.checksums.sha512=7b77347f1ab3e3c3e1231df8901deb07e31d9dd6d41ce1a257dd93d41ba194afb314c0b580d84f7df28aa03e1c459a7240ca0b9e6e1ba6e62db80568b02edfb5
+
+outputs.5.2.filename=quick-perf-jfr-annotations-1.1.0-sources.jar
+outputs.5.2.length=36034
+outputs.5.2.checksums.sha512=0ac2f766097b88e9c7646046a2141cf4a1f627b2226a90b9b1e50d03c26930c54b3991ed3f53ebf88af761f05a920d0f15e1b1e9622c6f9d4d7d00c0bc35e1f8
 
 outputs.6.coordinates=org.quickperf:quick-perf-sql-parent
 
+outputs.6.0.filename=quick-perf-sql-parent-1.1.0.pom
+outputs.6.0.length=1602
+outputs.6.0.checksums.sha512=aacd509ebf9777947fe50c4f7d20384c214f7db1f9593872fe1daed0f6eaa2cc941300447ccef93d32f0e4c4530cf2ce3e242847742c2e40f830b03e3f1bc32f
+
 outputs.7.coordinates=org.quickperf:quick-perf-sql-annotations
 
-outputs.7.0.filename=quick-perf-sql-annotations-1.1.0.jar
-outputs.7.0.length=188829
-outputs.7.0.checksums.sha512=ea3bb558270a61c4f8d4ad6c51b433ad795e5f520b0cd8bbb8c2193bfa0542e1bc84a3a4ed43404da75af68faf676d16993e9610228fc035fdd22165aac8eff2
+outputs.7.0.filename=quick-perf-sql-annotations-1.1.0.pom
+outputs.7.0.length=2336
+outputs.7.0.checksums.sha512=890b8a0c1274f82514049a3d56afe5a95dfe81154338d0b5dac78d16438999a52ed793f8d4f7f5f4e29ff9bf4a6232b07970c3c41fd4e939a7c3e244f6c4424d
 
-outputs.7.1.filename=quick-perf-sql-annotations-1.1.0-sources.jar
-outputs.7.1.length=150380
-outputs.7.1.checksums.sha512=c383cc144ca9c32e7fe9fbd3e85a87441e14c5844227ae42e6bb10d171d05a39cebca5f634ee793852a62072125833f34b13375c826e27a7a009842e9a6b967f
+outputs.7.1.filename=quick-perf-sql-annotations-1.1.0.jar
+outputs.7.1.length=188829
+outputs.7.1.checksums.sha512=ea3bb558270a61c4f8d4ad6c51b433ad795e5f520b0cd8bbb8c2193bfa0542e1bc84a3a4ed43404da75af68faf676d16993e9610228fc035fdd22165aac8eff2
+
+outputs.7.2.filename=quick-perf-sql-annotations-1.1.0-sources.jar
+outputs.7.2.length=150380
+outputs.7.2.checksums.sha512=c383cc144ca9c32e7fe9fbd3e85a87441e14c5844227ae42e6bb10d171d05a39cebca5f634ee793852a62072125833f34b13375c826e27a7a009842e9a6b967f
 
 outputs.8.coordinates=org.quickperf:quick-perf-junit4-parent
 
+outputs.8.0.filename=quick-perf-junit4-parent-1.1.0.pom
+outputs.8.0.length=1514
+outputs.8.0.checksums.sha512=b8e6597804238c7978300312d12bcd55ebf1b8630b507eb1ff4ba74ffa003d24b1259f22690e9f2adc41214bbe0f1f32e4ebd00ab2c31b857990fb60a93e75e0
+
 outputs.9.coordinates=org.quickperf:quick-perf-junit4
 
-outputs.9.0.filename=quick-perf-junit4-1.1.0.jar
-outputs.9.0.length=10384
-outputs.9.0.checksums.sha512=1480b6631485e25ef7c0a7bbb10fd85d2b4a985b5a5148db8a0921bcb0cf488987254f38b016f5520de37ffabe5226b68924933c7af46051fe92023d55ba8205
+outputs.9.0.filename=quick-perf-junit4-1.1.0.pom
+outputs.9.0.length=2324
+outputs.9.0.checksums.sha512=9c59da8a96034bc8dce7a73b1008b58c5ba8f2dedeeffd2f10ba70ba060db10d2b179c81ccc7a7ae7f5549e67c387333095c0ef1dde618fcbebf96baa0b19c8d
 
-outputs.9.1.filename=quick-perf-junit4-1.1.0-sources.jar
-outputs.9.1.length=7826
-outputs.9.1.checksums.sha512=a39b626913c341e3bc9e0f04dc96ae8c159cdbc387a52b4209f02b54b2561d7645fef7b67fffab1d692a0271d0d29e2597da7c8fe940621219ec13edccc7cd14
+outputs.9.1.filename=quick-perf-junit4-1.1.0.jar
+outputs.9.1.length=10384
+outputs.9.1.checksums.sha512=1480b6631485e25ef7c0a7bbb10fd85d2b4a985b5a5148db8a0921bcb0cf488987254f38b016f5520de37ffabe5226b68924933c7af46051fe92023d55ba8205
+
+outputs.9.2.filename=quick-perf-junit4-1.1.0-sources.jar
+outputs.9.2.length=7826
+outputs.9.2.checksums.sha512=a39b626913c341e3bc9e0f04dc96ae8c159cdbc387a52b4209f02b54b2561d7645fef7b67fffab1d692a0271d0d29e2597da7c8fe940621219ec13edccc7cd14
 
 outputs.10.coordinates=org.quickperf:quick-perf-junit5-parent
 
+outputs.10.0.filename=quick-perf-junit5-parent-1.1.0.pom
+outputs.10.0.length=1731
+outputs.10.0.checksums.sha512=7674849b6c14330783d034a6548c5e19929c241370d7f130b3b1956768c766cc1f2c2cb394f9c85f511b0563fb1254bbed3aa8aa2d99ed1c5f9b161eebcb051f
+
 outputs.11.coordinates=org.quickperf:quick-perf-junit5
 
-outputs.11.0.filename=quick-perf-junit5-1.1.0.jar
-outputs.11.0.length=9408
-outputs.11.0.checksums.sha512=178a1aef4f8f093d57ef8ff85086830fbe85186dd0498e19413f455e47a11ffa4b3c910dd5e93307f7c29545daed333b318645093ef020ef8effdfa71d8451d7
+outputs.11.0.filename=quick-perf-junit5-1.1.0.pom
+outputs.11.0.length=2374
+outputs.11.0.checksums.sha512=cf46fc3941cb5c9641e92ed27d38c72bd430c04403ceb99618df0c9de34b2f88af2e2c4be957b52f0eed0f93555921421c6905eb12219d8fcc63e95c99b74688
 
-outputs.11.1.filename=quick-perf-junit5-1.1.0-sources.jar
-outputs.11.1.length=7947
-outputs.11.1.checksums.sha512=d7324f17de480ec28a11d0634277df5d013683e22a32fa15346979f098a7da4415f3a3387f334729f1f641e42add33c10de1e5cc8de2e8e9b346fcac85951ff4
+outputs.11.1.filename=quick-perf-junit5-1.1.0.jar
+outputs.11.1.length=9408
+outputs.11.1.checksums.sha512=178a1aef4f8f093d57ef8ff85086830fbe85186dd0498e19413f455e47a11ffa4b3c910dd5e93307f7c29545daed333b318645093ef020ef8effdfa71d8451d7
+
+outputs.11.2.filename=quick-perf-junit5-1.1.0-sources.jar
+outputs.11.2.length=7947
+outputs.11.2.checksums.sha512=d7324f17de480ec28a11d0634277df5d013683e22a32fa15346979f098a7da4415f3a3387f334729f1f641e42add33c10de1e5cc8de2e8e9b346fcac85951ff4
 
 outputs.12.coordinates=org.quickperf:quick-perf-testng-parent
 
+outputs.12.0.filename=quick-perf-testng-parent-1.1.0.pom
+outputs.12.0.length=2134
+outputs.12.0.checksums.sha512=a183d1f80b4c8e690d09fceb1de5016ed3913b0f73cb6cd48cf359da57723b3bec81b8f9842a8ecfa7c75f1e5960bee73dbd3ae3f24fc0eab3e77926b789e857
+
 outputs.13.coordinates=org.quickperf:quick-perf-testng
 
-outputs.13.0.filename=quick-perf-testng-1.1.0.jar
-outputs.13.0.length=9539
-outputs.13.0.checksums.sha512=e3f5807a5becc6b7e9b3cdfef310decf1d311229ba1744f414c37e85f72ffbec4e21224012c09c1f603726d88f99dde7a29de515a6e985af25b908d204821161
+outputs.13.0.filename=quick-perf-testng-1.1.0.pom
+outputs.13.0.length=2083
+outputs.13.0.checksums.sha512=2f030083d5ba47c6f9ba7db83bf06aaf98a3e332899cb85f08ff736ec77560e6ceabab24d4fefe0375fd1ef75cf1117e3f53edb312b9282279f286f0603538bb
 
-outputs.13.1.filename=quick-perf-testng-1.1.0-sources.jar
-outputs.13.1.length=6734
-outputs.13.1.checksums.sha512=14b1a82c672bf4a7db95f8837b3f7a344880ff832d2b879cb9ca12d5e28d849cdee7507746204d5b55d31ced7d77f73c9c0a64ef460742da1822c72037a1896d
+outputs.13.1.filename=quick-perf-testng-1.1.0.jar
+outputs.13.1.length=9539
+outputs.13.1.checksums.sha512=e3f5807a5becc6b7e9b3cdfef310decf1d311229ba1744f414c37e85f72ffbec4e21224012c09c1f603726d88f99dde7a29de515a6e985af25b908d204821161
+
+outputs.13.2.filename=quick-perf-testng-1.1.0-sources.jar
+outputs.13.2.length=6734
+outputs.13.2.checksums.sha512=14b1a82c672bf4a7db95f8837b3f7a344880ff832d2b879cb9ca12d5e28d849cdee7507746204d5b55d31ced7d77f73c9c0a64ef460742da1822c72037a1896d
 
 outputs.14.coordinates=org.quickperf:quick-perf-spring
 
+outputs.14.0.filename=quick-perf-spring-1.1.0.pom
+outputs.14.0.length=2152
+outputs.14.0.checksums.sha512=cbf0826f3c4140bb76b142fac4fd8d538c83d318ee1d3bdd2b2dd3676a503bea82ce7651069765fa5ff7be99d8baa3d17b7b6229fc786397fe25f71d49a82e41
+
 outputs.15.coordinates=org.quickperf:quick-perf-sql-spring4
 
-outputs.15.0.filename=quick-perf-sql-spring4-1.1.0.jar
-outputs.15.0.length=5023
-outputs.15.0.checksums.sha512=3df00ff28901dd6fb37a4cd99d647cdbfb1c36a1eda33575926f418edc9a0f68b59ed7f71872c3398d50dd880a43a1f1d93f9e7889580ed07d29f7629b70b937
+outputs.15.0.filename=quick-perf-sql-spring4-1.1.0.pom
+outputs.15.0.length=2086
+outputs.15.0.checksums.sha512=cd1f405a5b8804beee63b916eaa637a6664753e6caffa99d0d2b1edac46cb43db72edb5136ae0671fa300d0a680ca15b487f60a09c778772249790dbeb1073da
 
-outputs.15.1.filename=quick-perf-sql-spring4-1.1.0-sources.jar
-outputs.15.1.length=4424
-outputs.15.1.checksums.sha512=d1214842235dfe0efe2907acce21c72ed2531ad807362446c337264b29ac5d5512ca0be92617921b8659f68b77ab6adb1d7bf7262c4b438338884b54ec0a00f2
+outputs.15.1.filename=quick-perf-sql-spring4-1.1.0.jar
+outputs.15.1.length=5023
+outputs.15.1.checksums.sha512=3df00ff28901dd6fb37a4cd99d647cdbfb1c36a1eda33575926f418edc9a0f68b59ed7f71872c3398d50dd880a43a1f1d93f9e7889580ed07d29f7629b70b937
+
+outputs.15.2.filename=quick-perf-sql-spring4-1.1.0-sources.jar
+outputs.15.2.length=4424
+outputs.15.2.checksums.sha512=d1214842235dfe0efe2907acce21c72ed2531ad807362446c337264b29ac5d5512ca0be92617921b8659f68b77ab6adb1d7bf7262c4b438338884b54ec0a00f2
 
 outputs.16.coordinates=org.quickperf:quick-perf-sql-spring5
 
-outputs.16.0.filename=quick-perf-sql-spring5-1.1.0.jar
-outputs.16.0.length=5022
-outputs.16.0.checksums.sha512=9f21753d9264bc0ad5892558a518c8608114b05c53bb831cbaeb634036e4978af1a89a39789bed365b25b5ea190b60df2667a7f5ebdacd75141a97a022fd28b3
+outputs.16.0.filename=quick-perf-sql-spring5-1.1.0.pom
+outputs.16.0.length=2086
+outputs.16.0.checksums.sha512=1e19612699db8d8129489a5dd1dbc38702e7b1d3eeeeaf4d936e00e922f5e66d7ed879ea2fc61a704603495e5c9098edc842bb80f6b937a836ec06bfcf91fd67
 
-outputs.16.1.filename=quick-perf-sql-spring5-1.1.0-sources.jar
-outputs.16.1.length=4424
-outputs.16.1.checksums.sha512=daa36ad43ad5ab6a1ab5fefb775ab7218133e256e624474050908fa7c9f55871b6dabeca59ea8d47220cb8f48d292b32306a6127a2e32a4b2ee186996f9766ae
+outputs.16.1.filename=quick-perf-sql-spring5-1.1.0.jar
+outputs.16.1.length=5022
+outputs.16.1.checksums.sha512=9f21753d9264bc0ad5892558a518c8608114b05c53bb831cbaeb634036e4978af1a89a39789bed365b25b5ea190b60df2667a7f5ebdacd75141a97a022fd28b3
+
+outputs.16.2.filename=quick-perf-sql-spring5-1.1.0-sources.jar
+outputs.16.2.length=4424
+outputs.16.2.checksums.sha512=daa36ad43ad5ab6a1ab5fefb775ab7218133e256e624474050908fa7c9f55871b6dabeca59ea8d47220cb8f48d292b32306a6127a2e32a4b2ee186996f9766ae
 
 outputs.17.coordinates=org.quickperf:quick-perf-junit4-spring3
 
-outputs.17.0.filename=quick-perf-junit4-spring3-1.1.0.jar
-outputs.17.0.length=16124
-outputs.17.0.checksums.sha512=309d182f68d700ce013cf799f3985c6ae0467d2f407f77d65a38716223a2fa7ed6fdc8a5f31d7ade357ffe9648b1c86111a5a78f28e00ca7a381476d9ede0ff8
+outputs.17.0.filename=quick-perf-junit4-spring3-1.1.0.pom
+outputs.17.0.length=5633
+outputs.17.0.checksums.sha512=6b83870871e29ceb5356ff36e83d021aa74b69018dce3ad577e598fbcadca4a93934ff3b0f5fae8b753693c50d6c0bdf32cb67b00a50c9d3f0c0dcf93a81b106
 
-outputs.17.1.filename=quick-perf-junit4-spring3-1.1.0-sources.jar
-outputs.17.1.length=10959
-outputs.17.1.checksums.sha512=3a2d8262eceec74b9444cc56dc8f283dbcbfbce987f2332f18ade5bf7657461cfa11f423555e477529e419f2037e3f966cf07d0a8d494f320a671dc31709631b
+outputs.17.1.filename=quick-perf-junit4-spring3-1.1.0.jar
+outputs.17.1.length=16124
+outputs.17.1.checksums.sha512=309d182f68d700ce013cf799f3985c6ae0467d2f407f77d65a38716223a2fa7ed6fdc8a5f31d7ade357ffe9648b1c86111a5a78f28e00ca7a381476d9ede0ff8
+
+outputs.17.2.filename=quick-perf-junit4-spring3-1.1.0-sources.jar
+outputs.17.2.length=10959
+outputs.17.2.checksums.sha512=3a2d8262eceec74b9444cc56dc8f283dbcbfbce987f2332f18ade5bf7657461cfa11f423555e477529e419f2037e3f966cf07d0a8d494f320a671dc31709631b
 
 outputs.18.coordinates=org.quickperf:quick-perf-junit4-spring4
 
-outputs.18.0.filename=quick-perf-junit4-spring4-1.1.0.jar
-outputs.18.0.length=13735
-outputs.18.0.checksums.sha512=a85748463b92818531a05977facb0c817de2a5f6e9c74d8852fc427f59cdcba3918c1ac672ed771213b5a3812ce702ea3cca855b9f601eca40539d752842ca7f
+outputs.18.0.filename=quick-perf-junit4-spring4-1.1.0.pom
+outputs.18.0.length=5123
+outputs.18.0.checksums.sha512=d9b19239988fdd3e2fccd738f128594dfa640889b0c12afe0ddd7b0435ab03b372bbc40f15fb5d61fd15c07d43584ec82e31906c8ff0dc0575a5f646d5f159b0
 
-outputs.18.1.filename=quick-perf-junit4-spring4-1.1.0-sources.jar
-outputs.18.1.length=9404
-outputs.18.1.checksums.sha512=6623b7cd0b54db3c2ba12fed015b3bd3a985f64a1331713e525934360494aeeb1e46187c437d52a980e167bc86aea38a55bd2d2423a2fa09ea2ecec66cf99b94
+outputs.18.1.filename=quick-perf-junit4-spring4-1.1.0.jar
+outputs.18.1.length=13735
+outputs.18.1.checksums.sha512=a85748463b92818531a05977facb0c817de2a5f6e9c74d8852fc427f59cdcba3918c1ac672ed771213b5a3812ce702ea3cca855b9f601eca40539d752842ca7f
+
+outputs.18.2.filename=quick-perf-junit4-spring4-1.1.0-sources.jar
+outputs.18.2.length=9404
+outputs.18.2.checksums.sha512=6623b7cd0b54db3c2ba12fed015b3bd3a985f64a1331713e525934360494aeeb1e46187c437d52a980e167bc86aea38a55bd2d2423a2fa09ea2ecec66cf99b94
 
 outputs.19.coordinates=org.quickperf:quick-perf-junit4-spring5
 
-outputs.19.0.filename=quick-perf-junit4-spring5-1.1.0.jar
-outputs.19.0.length=13564
-outputs.19.0.checksums.sha512=caf75d63070428e67cb68fdc39a36e99bc899892ba2836f8c0bd0378f6e5b88d9044337535051e8f38ab78e49f140c7e52eedae141abcaf89abe62e5c175da6f
+outputs.19.0.filename=quick-perf-junit4-spring5-1.1.0.pom
+outputs.19.0.length=3966
+outputs.19.0.checksums.sha512=7ab57fc6f4424612aa7c8608f4748b0084ef201e7bf2059eda49a879ae958eb39ef87cea0a4f76307763220c2750bfa8a58e821fc3056f8e7e6f78839259547e
 
-outputs.19.1.filename=quick-perf-junit4-spring5-1.1.0-sources.jar
-outputs.19.1.length=9236
-outputs.19.1.checksums.sha512=164342a52093f31064a962e0f1b43c3ef059a62883dd2fa17d9738571749f8ffe17e8ef2e463f4057108fe2e1aabd05dbfee289795802d4cb7137bbf06802d71
+outputs.19.1.filename=quick-perf-junit4-spring5-1.1.0.jar
+outputs.19.1.length=13564
+outputs.19.1.checksums.sha512=caf75d63070428e67cb68fdc39a36e99bc899892ba2836f8c0bd0378f6e5b88d9044337535051e8f38ab78e49f140c7e52eedae141abcaf89abe62e5c175da6f
+
+outputs.19.2.filename=quick-perf-junit4-spring5-1.1.0-sources.jar
+outputs.19.2.length=9236
+outputs.19.2.checksums.sha512=164342a52093f31064a962e0f1b43c3ef059a62883dd2fa17d9738571749f8ffe17e8ef2e463f4057108fe2e1aabd05dbfee289795802d4cb7137bbf06802d71
 
 outputs.20.coordinates=org.quickperf:quick-perf-springboot1-sql-starter
 
-outputs.20.0.filename=quick-perf-springboot1-sql-starter-1.1.0.jar
-outputs.20.0.length=3403
-outputs.20.0.checksums.sha512=8260c49467b203dc6490373b3881a58d67f365aa6ab3837e1da432e51c849bb38c0de54bdd0d26c0136272e898d95f8c9fb1f2c54673b6881f903740f4864145
+outputs.20.0.filename=quick-perf-springboot1-sql-starter-1.1.0.pom
+outputs.20.0.length=2344
+outputs.20.0.checksums.sha512=39973f693e38c88d65b304093e5543bca31dc71369452a61092cc14c99f39767dd0fc9772b8a071567d87340c45b077092e2ae27028f101e0872dfd9addd6932
 
-outputs.20.1.filename=quick-perf-springboot1-sql-starter-1.1.0-sources.jar
-outputs.20.1.length=3562
-outputs.20.1.checksums.sha512=2352ac1db4c41f8f8832ea89bdf80bee453b1d71b1ac2fadfe8c9830217db3710737230e087a67b5a131110c169e2c714544ddaf5750ed32fe5dd39315fbed9d
+outputs.20.1.filename=quick-perf-springboot1-sql-starter-1.1.0.jar
+outputs.20.1.length=3403
+outputs.20.1.checksums.sha512=8260c49467b203dc6490373b3881a58d67f365aa6ab3837e1da432e51c849bb38c0de54bdd0d26c0136272e898d95f8c9fb1f2c54673b6881f903740f4864145
+
+outputs.20.2.filename=quick-perf-springboot1-sql-starter-1.1.0-sources.jar
+outputs.20.2.length=3562
+outputs.20.2.checksums.sha512=2352ac1db4c41f8f8832ea89bdf80bee453b1d71b1ac2fadfe8c9830217db3710737230e087a67b5a131110c169e2c714544ddaf5750ed32fe5dd39315fbed9d
 
 outputs.21.coordinates=org.quickperf:quick-perf-springboot2-sql-starter
 
-outputs.21.0.filename=quick-perf-springboot2-sql-starter-1.1.0.jar
-outputs.21.0.length=3403
-outputs.21.0.checksums.sha512=e06fb4988009b3dba22f14b85f38e223e64c886ceda147d11cef0f88b1bc22e67767b5381e0137381799faa673a461cbfdbc19c2be002d1ae937a043da7c1382
+outputs.21.0.filename=quick-perf-springboot2-sql-starter-1.1.0.pom
+outputs.21.0.length=2344
+outputs.21.0.checksums.sha512=40637e1ce274728c50b8461ee6a50a3073423135b5bb97b0ecf52d1159990fd21498359b866af810fd8368fa3988828f6b7b897114cde3df5a9f3b168f601fff
 
-outputs.21.1.filename=quick-perf-springboot2-sql-starter-1.1.0-sources.jar
-outputs.21.1.length=3564
-outputs.21.1.checksums.sha512=ce626b9cc815847d3521520d5a9153dd8929a0c7fed41f6b263868046baaccd10ad205136abc2ff84316d3f6a5a621ab1911f804a976cf8e9bca406fe20c8712
+outputs.21.1.filename=quick-perf-springboot2-sql-starter-1.1.0.jar
+outputs.21.1.length=3403
+outputs.21.1.checksums.sha512=e06fb4988009b3dba22f14b85f38e223e64c886ceda147d11cef0f88b1bc22e67767b5381e0137381799faa673a461cbfdbc19c2be002d1ae937a043da7c1382
+
+outputs.21.2.filename=quick-perf-springboot2-sql-starter-1.1.0-sources.jar
+outputs.21.2.length=3564
+outputs.21.2.checksums.sha512=ce626b9cc815847d3521520d5a9153dd8929a0c7fed41f6b263868046baaccd10ad205136abc2ff84316d3f6a5a621ab1911f804a976cf8e9bca406fe20c8712
 
 outputs.22.coordinates=org.quickperf:quick-perf-bom
+
+outputs.22.0.filename=quick-perf-bom-1.1.0.pom
+outputs.22.0.length=3847
+outputs.22.0.checksums.sha512=bbef159d606c281c6af46bbdb177ab3456ee4e1980c20c05490d0e27cf89c029864d94a764503728591efd1cf401575b29e5016f2261efaf43f6109b127100f7

@@ -12,7 +12,7 @@ tool=mvn
 jdk=8
 newline=lf
 
-command="mvn clean package -Dmaven.test.skip"
+command="mvn -N clean package -Dmaven.test.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 issue=

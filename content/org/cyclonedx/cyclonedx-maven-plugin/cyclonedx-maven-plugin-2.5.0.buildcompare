@@ -1,7 +1,7 @@
 version=2.5.0
-ok=2
+ok=3
 ko=0
-okFiles="cyclonedx-maven-plugin-2.5.0.jar cyclonedx-maven-plugin-2.5.0-sources.jar"
+okFiles="cyclonedx-maven-plugin-2.5.0.pom cyclonedx-maven-plugin-2.5.0.jar cyclonedx-maven-plugin-2.5.0-sources.jar"
 koFiles=""
 reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
