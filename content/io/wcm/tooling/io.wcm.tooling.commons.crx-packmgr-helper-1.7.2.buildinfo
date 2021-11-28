@@ -13,20 +13,22 @@ source.scm.tag=HEAD
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 
 # output
 
-outputs.0.filename=io.wcm.tooling.commons.crx-packmgr-helper-1.7.2.jar
-outputs.0.length=77017
-outputs.0.checksums.sha512=8cb3391f92992668d169a70d9b1c2e2208724da78e52a9dff4875f5839dc3ed00972fa069f0bd27586490815f18d724e04330a9e1ae8c5d9ef9a330eeea0964b
+outputs.0.filename=io.wcm.tooling.commons.crx-packmgr-helper-1.7.2.pom
+outputs.0.length=7072
+outputs.0.checksums.sha512=ec1431dbd888bd6edf4f58d19295acea1ffe4326d79a6a385dbb4f6756d32f6de5f1d81716142f9785b4fbcac33513fe737997688088597910dad72dcaa59d59
 
-outputs.1.filename=io.wcm.tooling.commons.crx-packmgr-helper-1.7.2-sources.jar
-outputs.1.length=57759
-outputs.1.checksums.sha512=bcd538b8ffbd230251df028c86c3d197c504afef52c0fb5580eff340edbd91479cf5c94ca903c5cf51fa7db08375e10c29ef635343f2a648c519bdfd83bccec1
+outputs.1.filename=io.wcm.tooling.commons.crx-packmgr-helper-1.7.2.jar
+outputs.1.length=77017
+outputs.1.checksums.sha512=8cb3391f92992668d169a70d9b1c2e2208724da78e52a9dff4875f5839dc3ed00972fa069f0bd27586490815f18d724e04330a9e1ae8c5d9ef9a330eeea0964b
+
+outputs.2.filename=io.wcm.tooling.commons.crx-packmgr-helper-1.7.2-sources.jar
+outputs.2.length=57759
+outputs.2.checksums.sha512=bcd538b8ffbd230251df028c86c3d197c504afef52c0fb5580eff340edbd91479cf5c94ca903c5cf51fa7db08375e10c29ef635343f2a648c519bdfd83bccec1

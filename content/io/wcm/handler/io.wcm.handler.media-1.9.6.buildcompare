@@ -1,5 +1,7 @@
 version=1.9.6
-ok=2
+ok=3
 ko=0
-okFiles="io.wcm.handler.media-1.9.6.jar io.wcm.handler.media-1.9.6-sources.jar"
+okFiles="io.wcm.handler.media-1.9.6.pom io.wcm.handler.media-1.9.6.jar io.wcm.handler.media-1.9.6-sources.jar"
 koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"

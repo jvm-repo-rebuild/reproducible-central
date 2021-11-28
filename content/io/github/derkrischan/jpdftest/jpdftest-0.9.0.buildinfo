@@ -21,10 +21,14 @@ os.name=Unix
 
 # output
 
-outputs.0.filename=jpdftest-0.9.0.jar
-outputs.0.length=37308
-outputs.0.checksums.sha512=986dfabdf1fe1486fd3b1dd832044cb38d3e76f86544acbb392bfb1c0cb4285dea7870a9fea3210ebc340e82bec5562d61965386ccbd21d664c35c62cb73ce08
+outputs.0.filename=jpdftest-0.9.0.pom
+outputs.0.length=18639
+outputs.0.checksums.sha512=7b23149c5d48772464a830aabca9040d7ddab2b35d15676952fa65964acc5b7861f76c96bf5280bd7a7e30a3a89e85b020c67beba22b11f200eb9c553f6e5d50
 
-outputs.1.filename=jpdftest-0.9.0-sources.jar
-outputs.1.length=26507
-outputs.1.checksums.sha512=db29acca7ee36b88a33c08709a0caaa82f6ddaf71ed1810f70da2c734bdc386e528520511bd2e78eac4280662229c16708b50216dba9bc3e7333725da6f4e1a9
+outputs.1.filename=jpdftest-0.9.0.jar
+outputs.1.length=37308
+outputs.1.checksums.sha512=986dfabdf1fe1486fd3b1dd832044cb38d3e76f86544acbb392bfb1c0cb4285dea7870a9fea3210ebc340e82bec5562d61965386ccbd21d664c35c62cb73ce08
+
+outputs.2.filename=jpdftest-0.9.0-sources.jar
+outputs.2.length=26507
+outputs.2.checksums.sha512=db29acca7ee36b88a33c08709a0caaa82f6ddaf71ed1810f70da2c734bdc386e528520511bd2e78eac4280662229c16708b50216dba9bc3e7333725da6f4e1a9

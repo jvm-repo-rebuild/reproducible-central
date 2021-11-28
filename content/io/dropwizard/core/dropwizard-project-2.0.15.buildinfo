@@ -13,190 +13,321 @@ source.scm.tag=HEAD
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.aggregate.artifact-id=java-simple
 
 # aggregated output
 
 outputs.0.coordinates=io.dropwizard:dropwizard-project
 
+outputs.0.0.filename=dropwizard-project-2.0.15.pom
+outputs.0.0.length=23605
+outputs.0.0.checksums.sha512=835fa87add5a8077f8f2c2842e92d790240aab521aaa58e2e9088c3c5f0adef4b353a77fbf74b3fd1509a605713b70f521b700b8afc6b3f36b70e63f7d29fd21
+
 outputs.1.coordinates=io.dropwizard:dropwizard-bom
+
+outputs.1.0.filename=dropwizard-bom-2.0.15.pom
+outputs.1.0.length=6279
+outputs.1.0.checksums.sha512=ee9c299a860dbcb30e56559cede83d360f12cb2bf15a1a968bb0c3c4f101e2508033a50daf88915b564513b48c7886e51a8bc71c7a3b9911e3a4d30d91876ae6
 
 outputs.2.coordinates=io.dropwizard:dropwizard-dependencies
 
+outputs.2.0.filename=dropwizard-dependencies-2.0.15.pom
+outputs.2.0.length=23255
+outputs.2.0.checksums.sha512=5afb0e7c6bd93abf38f67ebe1edd229e0adc5aa210c49d83b43c219a0d48eb89f7603be678210d56e0a229c69db2d138fee9f1f18f511b7a1a1bb5d99d69b13a
+
 outputs.3.coordinates=io.dropwizard:dropwizard-parent
+
+outputs.3.0.filename=dropwizard-parent-2.0.15.pom
+outputs.3.0.length=14922
+outputs.3.0.checksums.sha512=4c299346713472b63f786f35afffdc296755094ae8a13e35a45da524a303ad993f25d3f25b4865736f34a6f6fe63c6ef5da91310bcbeb69ba1e28ddf5fdc046e
 
 outputs.4.coordinates=io.dropwizard:dropwizard-util
 
-outputs.4.0.filename=dropwizard-util-2.0.15.jar
-outputs.4.0.length=31542
-outputs.4.0.checksums.sha512=5637aa1fe57955e69e572455a85b61f92378794ad36cce3ea718a5e10b29260083bdcb77d227bb85d37e8d5af96a1661c5ad878db3a91c2e82af76c6629ee785
+outputs.4.0.filename=dropwizard-util-2.0.15.pom
+outputs.4.0.length=1962
+outputs.4.0.checksums.sha512=20412e6adb2374e57fc242b5386416a9dc552939bd809983bb6f5df194d9df831399933680635fe66e4a2c46d34083b3c8fdad69c5f464e6928054099cccd634
+
+outputs.4.1.filename=dropwizard-util-2.0.15.jar
+outputs.4.1.length=31542
+outputs.4.1.checksums.sha512=5637aa1fe57955e69e572455a85b61f92378794ad36cce3ea718a5e10b29260083bdcb77d227bb85d37e8d5af96a1661c5ad878db3a91c2e82af76c6629ee785
 
 outputs.5.coordinates=io.dropwizard:dropwizard-jackson
 
-outputs.5.0.filename=dropwizard-jackson-2.0.15.jar
-outputs.5.0.length=22359
-outputs.5.0.checksums.sha512=ae46dafa2eb630018ba080f0db2242685f94290846ff4511348578431bf83ff0266227ce395ab0e65b50bcdd6d43c02ab63d7355b9dc6350f7252ac77b085390
+outputs.5.0.filename=dropwizard-jackson-2.0.15.pom
+outputs.5.0.length=4223
+outputs.5.0.checksums.sha512=2e66830ab68fca3f53a9c8f76f08da9a51674911733f035f90c93c9f6888e498d098534d2404b333fe0035489d1b7152e5c1b3af05e48aea193a2930f5092858
+
+outputs.5.1.filename=dropwizard-jackson-2.0.15.jar
+outputs.5.1.length=22359
+outputs.5.1.checksums.sha512=ae46dafa2eb630018ba080f0db2242685f94290846ff4511348578431bf83ff0266227ce395ab0e65b50bcdd6d43c02ab63d7355b9dc6350f7252ac77b085390
 
 outputs.6.coordinates=io.dropwizard:dropwizard-validation
 
-outputs.6.0.filename=dropwizard-validation-2.0.15.jar
-outputs.6.0.length=34795
-outputs.6.0.checksums.sha512=353ea28c300aedeb92a556b5ff6a5f344a2384e9ea11d22d779a331eeea04ce365e4efca3ab4484f1aff8b5c81e578dd9765594bf9b7fc23f9d046243a36ca75
+outputs.6.0.filename=dropwizard-validation-2.0.15.pom
+outputs.6.0.length=2908
+outputs.6.0.checksums.sha512=e35e9aa0c0e7fc511b0a6c03158d45888922dd5696056d80e02b4d38d5c75b8869e4c103b25dd1d4a4e5dadf82c8f7007efd56f6ff705d10d4ffcdb052178815
+
+outputs.6.1.filename=dropwizard-validation-2.0.15.jar
+outputs.6.1.length=34795
+outputs.6.1.checksums.sha512=353ea28c300aedeb92a556b5ff6a5f344a2384e9ea11d22d779a331eeea04ce365e4efca3ab4484f1aff8b5c81e578dd9765594bf9b7fc23f9d046243a36ca75
 
 outputs.7.coordinates=io.dropwizard:dropwizard-configuration
 
-outputs.7.0.filename=dropwizard-configuration-2.0.15.jar
-outputs.7.0.length=30007
-outputs.7.0.checksums.sha512=b5e2ea0a4ffd97c386a3c03e98966fd483d17deaa22167ea8e416d69b4bf2dc72fad1daa05b65b26eb7484606fd3925a65347e304a96e0ce78970a8a426fd752
+outputs.7.0.filename=dropwizard-configuration-2.0.15.pom
+outputs.7.0.length=3888
+outputs.7.0.checksums.sha512=427a35dc44feec3c44ab6b8c5592feb904f1a5d4df5cdbfe3059aaf1e2fcf1891e5139b233dc19ef2f74fa3938b6ed670d3ced714cf2db3a293809d35bb0403c
+
+outputs.7.1.filename=dropwizard-configuration-2.0.15.jar
+outputs.7.1.length=30007
+outputs.7.1.checksums.sha512=b5e2ea0a4ffd97c386a3c03e98966fd483d17deaa22167ea8e416d69b4bf2dc72fad1daa05b65b26eb7484606fd3925a65347e304a96e0ce78970a8a426fd752
 
 outputs.8.coordinates=io.dropwizard:dropwizard-logging
 
-outputs.8.0.filename=dropwizard-logging-2.0.15.jar
-outputs.8.0.length=52571
-outputs.8.0.checksums.sha512=bdb5d15ed87f109588787f6c97ecc8fd00c952c9f4255a88980096f6911803132a3d659c530c6438c478c6ab3c37ffbabe4401e4f174f8aa8c1f6cfb8a1fe77c
+outputs.8.0.filename=dropwizard-logging-2.0.15.pom
+outputs.8.0.length=4508
+outputs.8.0.checksums.sha512=39778363d3a882ee49d45a5cee55450551d47551c5e9401859cf4fea3d0b317a101cdf9c1299940d87a4b46895e1e62f966e9c7ac640e0fae3753a34ebb331ef
+
+outputs.8.1.filename=dropwizard-logging-2.0.15.jar
+outputs.8.1.length=52571
+outputs.8.1.checksums.sha512=bdb5d15ed87f109588787f6c97ecc8fd00c952c9f4255a88980096f6911803132a3d659c530c6438c478c6ab3c37ffbabe4401e4f174f8aa8c1f6cfb8a1fe77c
 
 outputs.9.coordinates=io.dropwizard:dropwizard-lifecycle
 
-outputs.9.0.filename=dropwizard-lifecycle-2.0.15.jar
-outputs.9.0.length=16492
-outputs.9.0.checksums.sha512=7da375da280c8d64dc0b0c7173be8c848abdc5fc902c5a0b3f0d15dbb8b8739700abcc69f2d9217c4e4ade8501661e6861c00246531617dd0d82187278b829a5
+outputs.9.0.filename=dropwizard-lifecycle-2.0.15.pom
+outputs.9.0.length=2582
+outputs.9.0.checksums.sha512=65acf8d841dfee7b8d6fd8da7a5bf5c82384caa6c2ce20d929954f688f4227c9f36590c7c4e610d2277157f2cdefe5d322755f00fd641ac84114313734b5765e
+
+outputs.9.1.filename=dropwizard-lifecycle-2.0.15.jar
+outputs.9.1.length=16492
+outputs.9.1.checksums.sha512=7da375da280c8d64dc0b0c7173be8c848abdc5fc902c5a0b3f0d15dbb8b8739700abcc69f2d9217c4e4ade8501661e6861c00246531617dd0d82187278b829a5
 
 outputs.10.coordinates=io.dropwizard:dropwizard-metrics
 
-outputs.10.0.filename=dropwizard-metrics-2.0.15.jar
-outputs.10.0.length=17556
-outputs.10.0.checksums.sha512=9410bad3102078d8d52e2625be83794aa3be70ae58ee23c6280f9baf2e344097754714aa25032f3ed8df16844857c5a970f754fefdcee546a41aad86a59b1df4
+outputs.10.0.filename=dropwizard-metrics-2.0.15.pom
+outputs.10.0.length=3483
+outputs.10.0.checksums.sha512=d5f1892ec98810f253f202338347ffc08e6f2c7c9b46f29454d0bb05defb554e7f2abdf8487cee260c617a846b3dc1360510e99b38dcde2af8eb12b2ef79ef24
+
+outputs.10.1.filename=dropwizard-metrics-2.0.15.jar
+outputs.10.1.length=17556
+outputs.10.1.checksums.sha512=9410bad3102078d8d52e2625be83794aa3be70ae58ee23c6280f9baf2e344097754714aa25032f3ed8df16844857c5a970f754fefdcee546a41aad86a59b1df4
 
 outputs.11.coordinates=io.dropwizard:dropwizard-jersey
 
-outputs.11.0.filename=dropwizard-jersey-2.0.15.jar
-outputs.11.0.length=114362
-outputs.11.0.checksums.sha512=f3c5e61c6666c65f908f5802bdf66aa2c80c501f39059ee9eab6acb66fd47b500db7ffd6269f111c1a94eac10a05ec7279d4b9243e3d6ae4970f7a16865c9674
+outputs.11.0.filename=dropwizard-jersey-2.0.15.pom
+outputs.11.0.length=7205
+outputs.11.0.checksums.sha512=a0bb6c6cb2255007ca1b24c1a062e3234e219a714299ae89c09c98053763447fe853037d845df13860bce0a410cede10920a38ff2777bf9d7942c898fff0804f
+
+outputs.11.1.filename=dropwizard-jersey-2.0.15.jar
+outputs.11.1.length=114362
+outputs.11.1.checksums.sha512=f3c5e61c6666c65f908f5802bdf66aa2c80c501f39059ee9eab6acb66fd47b500db7ffd6269f111c1a94eac10a05ec7279d4b9243e3d6ae4970f7a16865c9674
 
 outputs.12.coordinates=io.dropwizard:dropwizard-servlets
 
-outputs.12.0.filename=dropwizard-servlets-2.0.15.jar
-outputs.12.0.length=33968
-outputs.12.0.checksums.sha512=0b754941db9570a730c18b5ea6f1b94e8d421f5cfcdab31c7a1b915bf61420f0cb255e8b6c6aa237d2deb2784a4daf9af80cead3c91094f8dacfff3cdc9759c8
+outputs.12.0.filename=dropwizard-servlets-2.0.15.pom
+outputs.12.0.length=3973
+outputs.12.0.checksums.sha512=49e607822cf19ed2b30165fe29ab18e9bd66794a4b1eda294253d16236a469b8c248a88687c87532830e2d57188a14c1555a4808fd15b664518399bb02b08f85
+
+outputs.12.1.filename=dropwizard-servlets-2.0.15.jar
+outputs.12.1.length=33968
+outputs.12.1.checksums.sha512=0b754941db9570a730c18b5ea6f1b94e8d421f5cfcdab31c7a1b915bf61420f0cb255e8b6c6aa237d2deb2784a4daf9af80cead3c91094f8dacfff3cdc9759c8
 
 outputs.13.coordinates=io.dropwizard:dropwizard-jetty
 
-outputs.13.0.filename=dropwizard-jetty-2.0.15.jar
-outputs.13.0.length=36582
-outputs.13.0.checksums.sha512=66a91eeb18bead3bf97f57d94b22d0c71579eb1e91b26b4ac203862fd3590a30312e37f9a84779648af65d89eba88688a40106fec2ec9af5a9aa2dbeee919955
+outputs.13.0.filename=dropwizard-jetty-2.0.15.pom
+outputs.13.0.length=5309
+outputs.13.0.checksums.sha512=3a6a1020aded5672716567413b3c3a0ed888ceb8f5d98818ba8f58a3cd7b539980129b9c14b6cd3c9d81216ab2ce1f0160d8afa82b8515dacac3705ca2381049
+
+outputs.13.1.filename=dropwizard-jetty-2.0.15.jar
+outputs.13.1.length=36582
+outputs.13.1.checksums.sha512=66a91eeb18bead3bf97f57d94b22d0c71579eb1e91b26b4ac203862fd3590a30312e37f9a84779648af65d89eba88688a40106fec2ec9af5a9aa2dbeee919955
 
 outputs.14.coordinates=io.dropwizard:dropwizard-request-logging
 
-outputs.14.0.filename=dropwizard-request-logging-2.0.15.jar
-outputs.14.0.length=19494
-outputs.14.0.checksums.sha512=7e2e7075dfba8d5714f3008cf40c6b7c6a8e6815afcaf940803bb477f6ea2401d0f180f3cb5d01df3a1da3507f33f931e5253c8840ec6a42d0470ff75eca18c3
+outputs.14.0.filename=dropwizard-request-logging-2.0.15.pom
+outputs.14.0.length=4059
+outputs.14.0.checksums.sha512=032a2e3e4e8271f317b8fc05993e892e9f1c427f58695131e2166b2f528054a10edcbf711641c0242437a9fe7baaa1b7fcc9f66eea4fbb9f7eb3eaf6fb569ac5
+
+outputs.14.1.filename=dropwizard-request-logging-2.0.15.jar
+outputs.14.1.length=19494
+outputs.14.1.checksums.sha512=7e2e7075dfba8d5714f3008cf40c6b7c6a8e6815afcaf940803bb477f6ea2401d0f180f3cb5d01df3a1da3507f33f931e5253c8840ec6a42d0470ff75eca18c3
 
 outputs.15.coordinates=io.dropwizard:dropwizard-core
 
-outputs.15.0.filename=dropwizard-core-2.0.15.jar
-outputs.15.0.length=51973
-outputs.15.0.checksums.sha512=0d787714ac94a9b46f7cd0793fedadcc78dc93cfd381700ecb96c3975a83911ce7d8c29c43ed1deadcb2b3e305015168549faea4f5bf7bef2459f6ba087be99c
+outputs.15.0.filename=dropwizard-core-2.0.15.pom
+outputs.15.0.length=7139
+outputs.15.0.checksums.sha512=457ea209cfed162d1f83bf32e5abff5eecf189509f733707c9a6877305542910db344448e8bc9e2bf22aced43548d4288d0befb6ce888e4429626b688d667429
+
+outputs.15.1.filename=dropwizard-core-2.0.15.jar
+outputs.15.1.length=51973
+outputs.15.1.checksums.sha512=0d787714ac94a9b46f7cd0793fedadcc78dc93cfd381700ecb96c3975a83911ce7d8c29c43ed1deadcb2b3e305015168549faea4f5bf7bef2459f6ba087be99c
 
 outputs.16.coordinates=io.dropwizard:dropwizard-testing
 
-outputs.16.0.filename=dropwizard-testing-2.0.15.jar
-outputs.16.0.length=60227
-outputs.16.0.checksums.sha512=daafb25b9db8b0f2cf68ca67d319cc60048997ac4e4858b5bb65187b1ea129890c31e74e0925df0160a6f56e65700a8c11f61ebeebea9458d1de5b3bef86762a
+outputs.16.0.filename=dropwizard-testing-2.0.15.pom
+outputs.16.0.length=9319
+outputs.16.0.checksums.sha512=d5125e2644c2c13173e63451bcba648d55abf2266b0498647c12275e97f4768248cb3c2c9c79b604e536396bbb76ffc7f34293eb94236f9bdf6fc1e23aa17e8c
+
+outputs.16.1.filename=dropwizard-testing-2.0.15.jar
+outputs.16.1.length=60227
+outputs.16.1.checksums.sha512=daafb25b9db8b0f2cf68ca67d319cc60048997ac4e4858b5bb65187b1ea129890c31e74e0925df0160a6f56e65700a8c11f61ebeebea9458d1de5b3bef86762a
 
 outputs.17.coordinates=io.dropwizard:dropwizard-client
 
-outputs.17.0.filename=dropwizard-client-2.0.15.jar
-outputs.17.0.length=38271
-outputs.17.0.checksums.sha512=600400e3aea5d39a7b0482256de27498e44449b9f90a9abba64397d05e4769cde478fb5842c0387234da2ca33bd8a930afae076f1f8c23996d1fc35380212a69
+outputs.17.0.filename=dropwizard-client-2.0.15.pom
+outputs.17.0.length=5265
+outputs.17.0.checksums.sha512=0c3c8811a3ab77120b4f18d2e7d34977d0dbdf6765fca3a1b5d44c792dcae058b0e53dede88e880994f0cd576442eb85b59608510aca32754d3cd7d640129489
+
+outputs.17.1.filename=dropwizard-client-2.0.15.jar
+outputs.17.1.length=38271
+outputs.17.1.checksums.sha512=600400e3aea5d39a7b0482256de27498e44449b9f90a9abba64397d05e4769cde478fb5842c0387234da2ca33bd8a930afae076f1f8c23996d1fc35380212a69
 
 outputs.18.coordinates=io.dropwizard:dropwizard-db
 
-outputs.18.0.filename=dropwizard-db-2.0.15.jar
-outputs.18.0.length=13268
-outputs.18.0.checksums.sha512=6b92ab283beb5ddd3527fab7d7abc419ec265b06ec1f010b1365c533f88b370c12c3ba3be1f299d57994ad3b084ab301019e232922bda6c41f179a7eca368fdf
+outputs.18.0.filename=dropwizard-db-2.0.15.pom
+outputs.18.0.length=3252
+outputs.18.0.checksums.sha512=d67d76dfbe549670623f8370c20bf12dc90164132ad75b2dab5597a45cd1af0f0ec416f93efae1ec695de304644807620b8a644e9fdda9cd073ef60c6129ae9f
+
+outputs.18.1.filename=dropwizard-db-2.0.15.jar
+outputs.18.1.length=13268
+outputs.18.1.checksums.sha512=6b92ab283beb5ddd3527fab7d7abc419ec265b06ec1f010b1365c533f88b370c12c3ba3be1f299d57994ad3b084ab301019e232922bda6c41f179a7eca368fdf
 
 outputs.19.coordinates=io.dropwizard:dropwizard-jdbi3
 
-outputs.19.0.filename=dropwizard-jdbi3-2.0.15.jar
-outputs.19.0.length=10322
-outputs.19.0.checksums.sha512=63d3ae3263296791021f2fefd9055dc74f628409a6310a77889e9d848c306545651c355b023ea5ee727372eefd32fa419fbd318bca6b7540043613acec91a270
+outputs.19.0.filename=dropwizard-jdbi3-2.0.15.pom
+outputs.19.0.length=4162
+outputs.19.0.checksums.sha512=c52a48ecb1ac955ef1317cfd39e850fde51956da8c307ba4d030c07dd13dd15dd56551a3c75482541066a8f5639c7c73fc8b985b20059ac292c0aa1153155759
+
+outputs.19.1.filename=dropwizard-jdbi3-2.0.15.jar
+outputs.19.1.length=10322
+outputs.19.1.checksums.sha512=63d3ae3263296791021f2fefd9055dc74f628409a6310a77889e9d848c306545651c355b023ea5ee727372eefd32fa419fbd318bca6b7540043613acec91a270
 
 outputs.20.coordinates=io.dropwizard:dropwizard-migrations
 
-outputs.20.0.filename=dropwizard-migrations-2.0.15.jar
-outputs.20.0.length=36611
-outputs.20.0.checksums.sha512=ec88d90a23423083192e854ff1efab9d28aa1f346c77e8262e9e0ad3617c4a698a4bcdb5f8cc990c0dccd607d947cf5b3b9d87f42fcdb0f13dcd8bd14319163d
+outputs.20.0.filename=dropwizard-migrations-2.0.15.pom
+outputs.20.0.length=3819
+outputs.20.0.checksums.sha512=75e860b2bcfe7c0bbaf8fbffcf239b8362e6ed644da58c59207097a8dcf0aeac234678951e3ca549b59fa4974c16b7aff7db781037bc1d8dba8966eccb8d6b22
+
+outputs.20.1.filename=dropwizard-migrations-2.0.15.jar
+outputs.20.1.length=36611
+outputs.20.1.checksums.sha512=ec88d90a23423083192e854ff1efab9d28aa1f346c77e8262e9e0ad3617c4a698a4bcdb5f8cc990c0dccd607d947cf5b3b9d87f42fcdb0f13dcd8bd14319163d
 
 outputs.21.coordinates=io.dropwizard:dropwizard-hibernate
 
-outputs.21.0.filename=dropwizard-hibernate-2.0.15.jar
-outputs.21.0.length=24704
-outputs.21.0.checksums.sha512=01d72d913748e6c06310680224ac27cbf5d25c598406d331929702ec15b3a9c40c7a6e35e0a4bc7d57d60f8a9aa9c6e1e1151136dca4c8b44b908de4cff4e4ec
+outputs.21.0.filename=dropwizard-hibernate-2.0.15.pom
+outputs.21.0.length=6787
+outputs.21.0.checksums.sha512=70199d6ce577c5deee464f88ad1452c26236d6c13a4afedaad209f6a2f94304a0c964f0fdac1b6a8dcb7f13e85b6847965a7fd849bdc5cd2b6a341e0ac60f96a
+
+outputs.21.1.filename=dropwizard-hibernate-2.0.15.jar
+outputs.21.1.length=24704
+outputs.21.1.checksums.sha512=01d72d913748e6c06310680224ac27cbf5d25c598406d331929702ec15b3a9c40c7a6e35e0a4bc7d57d60f8a9aa9c6e1e1151136dca4c8b44b908de4cff4e4ec
 
 outputs.22.coordinates=io.dropwizard:dropwizard-auth
 
-outputs.22.0.filename=dropwizard-auth-2.0.15.jar
-outputs.22.0.length=41210
-outputs.22.0.checksums.sha512=5b75bae6a80b9671a2dcca82d508cddc1934a6700c231d858a2e1e9bebc594ce451abec435ac09b9501a9922e4e24424d9d17b939f8fd92332cba696968e92f7
+outputs.22.0.filename=dropwizard-auth-2.0.15.pom
+outputs.22.0.length=4301
+outputs.22.0.checksums.sha512=8538a834bd37858ab81ce1d4446af5f4e267bba0af1b31defa4cc4477343d55ee4b2068b8525f44bc7227bc7de6c61f937d78057003543be6ff95d341f1308a1
+
+outputs.22.1.filename=dropwizard-auth-2.0.15.jar
+outputs.22.1.length=41210
+outputs.22.1.checksums.sha512=5b75bae6a80b9671a2dcca82d508cddc1934a6700c231d858a2e1e9bebc594ce451abec435ac09b9501a9922e4e24424d9d17b939f8fd92332cba696968e92f7
 
 outputs.23.coordinates=io.dropwizard:dropwizard-forms
 
-outputs.23.0.filename=dropwizard-forms-2.0.15.jar
-outputs.23.0.length=2650
-outputs.23.0.checksums.sha512=43e760db0e1ba34c2bf1474ba5731b033fe0e3b516f6225d661d4df07e079b2227920691d69665a167f5d9d9e2c7723b0db273bf41d620867aa4549a121922d0
+outputs.23.0.filename=dropwizard-forms-2.0.15.pom
+outputs.23.0.length=1755
+outputs.23.0.checksums.sha512=49fd643a06a947463a4452ef6d0d74b2822a9a278569d1586c577d79f6f842526e65913a8d43734ea3ed93dcfcaea95d6fbd4e7dfce6e26d55e382b20ed7a788
+
+outputs.23.1.filename=dropwizard-forms-2.0.15.jar
+outputs.23.1.length=2650
+outputs.23.1.checksums.sha512=43e760db0e1ba34c2bf1474ba5731b033fe0e3b516f6225d661d4df07e079b2227920691d69665a167f5d9d9e2c7723b0db273bf41d620867aa4549a121922d0
 
 outputs.24.coordinates=io.dropwizard:dropwizard-views
 
-outputs.24.0.filename=dropwizard-views-2.0.15.jar
-outputs.24.0.length=9990
-outputs.24.0.checksums.sha512=b2e957b6062cbda0a60c47a1d079f17e52c334cf3aeb3f1b52c69a2040dbf6ca2ce380f43795b2b3a145d4568bf156626108d869695b9399cb35db047dfb382c
+outputs.24.0.filename=dropwizard-views-2.0.15.pom
+outputs.24.0.length=3062
+outputs.24.0.checksums.sha512=51ed888c4772479e5ad2aaaa16a419123a2df4c72309b9921f0d9f38eab269de3fa34a82d9a6b42bcdada75b8f1bc1494bc8f7b2d4f624a96147748ab0dccca7
+
+outputs.24.1.filename=dropwizard-views-2.0.15.jar
+outputs.24.1.length=9990
+outputs.24.1.checksums.sha512=b2e957b6062cbda0a60c47a1d079f17e52c334cf3aeb3f1b52c69a2040dbf6ca2ce380f43795b2b3a145d4568bf156626108d869695b9399cb35db047dfb382c
 
 outputs.25.coordinates=io.dropwizard:dropwizard-views-freemarker
 
-outputs.25.0.filename=dropwizard-views-freemarker-2.0.15.jar
-outputs.25.0.length=7138
-outputs.25.0.checksums.sha512=0e76acffa3e84ac13a9b7c6eeeed3ad7a1c75f154a1591ccebd6bbd534c91d726e4e68dd8bb007dd605943f18caacd08f2a72a7d29a0583349f39383762e3fe0
+outputs.25.0.filename=dropwizard-views-freemarker-2.0.15.pom
+outputs.25.0.length=3362
+outputs.25.0.checksums.sha512=9472ac940f15d05893522ed9b06c0407b69f3c977151c32e590302da3faa7754951c622f29b77cbd194ad1b8cfe37027d64cc1ffdcfa7fed0e4ce749ae46afd6
+
+outputs.25.1.filename=dropwizard-views-freemarker-2.0.15.jar
+outputs.25.1.length=7138
+outputs.25.1.checksums.sha512=0e76acffa3e84ac13a9b7c6eeeed3ad7a1c75f154a1591ccebd6bbd534c91d726e4e68dd8bb007dd605943f18caacd08f2a72a7d29a0583349f39383762e3fe0
 
 outputs.26.coordinates=io.dropwizard:dropwizard-views-mustache
 
-outputs.26.0.filename=dropwizard-views-mustache-2.0.15.jar
-outputs.26.0.length=7141
-outputs.26.0.checksums.sha512=c745bdd167d552abcd44f52a7cccc20faaa6a1422f131013f26267803ae089fead42292bd46e2212fb55d83bd3f91f50bcb749ceea9dabbb6867f56a779c9590
+outputs.26.0.filename=dropwizard-views-mustache-2.0.15.pom
+outputs.26.0.length=2918
+outputs.26.0.checksums.sha512=4bced47375799a60114b13c2e1b60d452ec65f2949ff39ef375cb49c62cf4800fa7fcbe8005135d91d2caa404ba15b33609e6c217d41b0bcfc01ddece2c69c01
+
+outputs.26.1.filename=dropwizard-views-mustache-2.0.15.jar
+outputs.26.1.length=7141
+outputs.26.1.checksums.sha512=c745bdd167d552abcd44f52a7cccc20faaa6a1422f131013f26267803ae089fead42292bd46e2212fb55d83bd3f91f50bcb749ceea9dabbb6867f56a779c9590
 
 outputs.27.coordinates=io.dropwizard:dropwizard-metrics-graphite
 
-outputs.27.0.filename=dropwizard-metrics-graphite-2.0.15.jar
-outputs.27.0.length=4239
-outputs.27.0.checksums.sha512=cdc03e0da34029f64d51886e05eed3aaf3921deef917980d606ea6e15c37d8ab5eb2332e58c4b4ebac6331b282592b33e9aba9bbc1dfb4c0527acf065e7d7c5c
+outputs.27.0.filename=dropwizard-metrics-graphite-2.0.15.pom
+outputs.27.0.length=2751
+outputs.27.0.checksums.sha512=f430224003630409d9ffd444e1839e95618b5ba1e00347e3c9d88f460af73d85a3ce8708d565fad67f2d0026cdb60cc344a7a7f0828f59294045a1feffe78e6a
+
+outputs.27.1.filename=dropwizard-metrics-graphite-2.0.15.jar
+outputs.27.1.length=4239
+outputs.27.1.checksums.sha512=cdc03e0da34029f64d51886e05eed3aaf3921deef917980d606ea6e15c37d8ab5eb2332e58c4b4ebac6331b282592b33e9aba9bbc1dfb4c0527acf065e7d7c5c
 
 outputs.28.coordinates=io.dropwizard:dropwizard-assets
 
-outputs.28.0.filename=dropwizard-assets-2.0.15.jar
-outputs.28.0.length=3965
-outputs.28.0.checksums.sha512=ac70dcce07967201ee86d99acb8861086900e8b5f9aa9de1f6b4ebfe6f4a7458f9e79a0772dc48993dd46245af9100217bde0ac62fbb11f4b7dfe22d92157ce0
+outputs.28.0.filename=dropwizard-assets-2.0.15.pom
+outputs.28.0.length=2172
+outputs.28.0.checksums.sha512=818ee0ba500660bba2a8450ba7e91b49a8a516b49f271b4ffef1c5d992999adf26aff1f10b9bf2cd779103151514b87a8f5f476a9e025771a3a5e24d23b81ed6
+
+outputs.28.1.filename=dropwizard-assets-2.0.15.jar
+outputs.28.1.length=3965
+outputs.28.1.checksums.sha512=ac70dcce07967201ee86d99acb8861086900e8b5f9aa9de1f6b4ebfe6f4a7458f9e79a0772dc48993dd46245af9100217bde0ac62fbb11f4b7dfe22d92157ce0
 
 outputs.29.coordinates=io.dropwizard:dropwizard-http2
 
-outputs.29.0.filename=dropwizard-http2-2.0.15.jar
-outputs.29.0.length=8019
-outputs.29.0.checksums.sha512=7ec78964cda2b665cbc36ece4eeb79c4950981e6d3428388eaabaa471d16c9c9867c5aff337178ca916e2f474d06cbdc065e5d113d940f1fdc511534ece8ee01
+outputs.29.0.filename=dropwizard-http2-2.0.15.pom
+outputs.29.0.length=52496
+outputs.29.0.checksums.sha512=76ce0d6b609bc278e5b80fd387f9865e4c7990ccdf584e10b7b4510e9dece20eaa3153daa92202aa84516e9108625601836e6ac3fe6d653ec573ccbc16e22bb3
+
+outputs.29.1.filename=dropwizard-http2-2.0.15.jar
+outputs.29.1.length=8019
+outputs.29.1.checksums.sha512=7ec78964cda2b665cbc36ece4eeb79c4950981e6d3428388eaabaa471d16c9c9867c5aff337178ca916e2f474d06cbdc065e5d113d940f1fdc511534ece8ee01
 
 outputs.30.coordinates=io.dropwizard:dropwizard-json-logging
 
-outputs.30.0.filename=dropwizard-json-logging-2.0.15.jar
-outputs.30.0.length=26427
-outputs.30.0.checksums.sha512=3d2779f82e5e9d902bd21eabff58a16dfe55509709474bcefeedf423e51a454bf53da25f6d2897789576bd2e654d5c38549175f216faee322e75e03e6bcb24b2
+outputs.30.0.filename=dropwizard-json-logging-2.0.15.pom
+outputs.30.0.length=4488
+outputs.30.0.checksums.sha512=2db557a2e71ae38443afedd1f4b7e2163b187cecde354a7f0cafbad3ff86bc7fde663a3ad2db99dc9a6eeee4b52869b05b1c261a284400d0c035bdebe826914f
+
+outputs.30.1.filename=dropwizard-json-logging-2.0.15.jar
+outputs.30.1.length=26427
+outputs.30.1.checksums.sha512=3d2779f82e5e9d902bd21eabff58a16dfe55509709474bcefeedf423e51a454bf53da25f6d2897789576bd2e654d5c38549175f216faee322e75e03e6bcb24b2
 
 outputs.31.coordinates=io.dropwizard.archetypes:dropwizard-archetypes
 
+outputs.31.0.filename=dropwizard-archetypes-2.0.15.pom
+outputs.31.0.length=8070
+outputs.31.0.checksums.sha512=bc7edb31cf080b16e6344a82f174847c733ab4b7d407b3413bf5dd03fd5dd05acaa140c09ff9aa82d98ef0efa2cbf130092de588d24de4b547a5ecf16f47a6f9
+
 outputs.32.coordinates=io.dropwizard.archetypes:java-simple
 
-outputs.32.0.filename=java-simple-2.0.15.jar
-outputs.32.0.length=6221
-outputs.32.0.checksums.sha512=37f282b0ca049f23527e68882ed5ba1519bac63cf1d1ba6e2455915b109c0277c3a4befa251d6b2e9cad6b94086d2ba9044eff89a88cfd281b1623b76c37b18a
+outputs.32.0.filename=java-simple-2.0.15.pom
+outputs.32.0.length=1487
+outputs.32.0.checksums.sha512=a33051a8330a95b30b7b09bc857dd6757190ceca02221b8e6acb72a3df6449a02d5dea8df45ae771839256335896e1d08510acb09b03f58a3e3c00c57b96465e
+
+outputs.32.1.filename=java-simple-2.0.15.jar
+outputs.32.1.length=6221
+outputs.32.1.checksums.sha512=37f282b0ca049f23527e68882ed5ba1519bac63cf1d1ba6e2455915b109c0277c3a4befa251d6b2e9cad6b94086d2ba9044eff89a88cfd281b1623b76c37b18a

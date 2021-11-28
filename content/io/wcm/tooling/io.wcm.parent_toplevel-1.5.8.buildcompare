@@ -1,5 +1,5 @@
 version=1.5.8
-ok=1
+ok=2
 ko=0
-okFiles="io.wcm.parent_toplevel-1.5.8-site.xml"
+okFiles="io.wcm.parent_toplevel-1.5.8.pom io.wcm.parent_toplevel-1.5.8-site.xml"
 koFiles=""

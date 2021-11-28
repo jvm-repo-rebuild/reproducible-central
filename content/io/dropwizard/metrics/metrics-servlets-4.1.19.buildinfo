@@ -13,149 +13,243 @@ source.scm.tag=v4.1.19
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_275
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.aggregate.artifact-id=metrics-servlets
 
 # aggregated output
 
 outputs.0.coordinates=io.dropwizard.metrics:metrics-parent
 
+outputs.0.0.filename=metrics-parent-4.1.19.pom
+outputs.0.0.length=17049
+outputs.0.0.checksums.sha512=3286ef5ac04db19f7eebcd39e0a1727ad39ecf46a6d857be78bc331435dbf68555d7b9070ca6bd610f8c3ea7f3070d1741ce277336c8e8765c10c3b0519b5b62
+
 outputs.1.coordinates=io.dropwizard.metrics:metrics-bom
+
+outputs.1.0.filename=metrics-bom-4.1.19.pom
+outputs.1.0.length=5320
+outputs.1.0.checksums.sha512=72105f6293d6c72f346cf3bd8d5fdc0ba52f7ab52b51ac24d05e5369fc18e4f778be6859bc8a6a781fd33837c4a8d659a0cc3a0e4f1b734c3c02e1168d939e6f
 
 outputs.2.coordinates=io.dropwizard.metrics:metrics-annotation
 
-outputs.2.0.filename=metrics-annotation-4.1.19.jar
-outputs.2.0.length=7215
-outputs.2.0.checksums.sha512=4aa51dad88d006b666c3d2823d63354cf207f542a3aa126a9b8ed92c063d610d0f9251ee295d3b48398862a6b96b7d04934ad1a2db099545bf8a7e1f1bf66a6f
+outputs.2.0.filename=metrics-annotation-4.1.19.pom
+outputs.2.0.length=812
+outputs.2.0.checksums.sha512=743cc437c1eeb13c86a2774ac6893618d690f79150c4652326d56e89efacc81dbd89737e825871ecc79f72e2d17af0e2e63c7f4515b7bd914ee2e6bcc2d66bf7
+
+outputs.2.1.filename=metrics-annotation-4.1.19.jar
+outputs.2.1.length=7215
+outputs.2.1.checksums.sha512=4aa51dad88d006b666c3d2823d63354cf207f542a3aa126a9b8ed92c063d610d0f9251ee295d3b48398862a6b96b7d04934ad1a2db099545bf8a7e1f1bf66a6f
 
 outputs.3.coordinates=io.dropwizard.metrics:metrics-core
 
-outputs.3.0.filename=metrics-core-4.1.19.jar
-outputs.3.0.length=116097
-outputs.3.0.checksums.sha512=1dbb36e291fc1dcf162acfc95dcf3620ceabf0e1f25901f6e8aa6bf788b7ad37874a9d98b7c955060d0695242a45cf1f68d291369d2001c306a972ab7d986b86
+outputs.3.0.filename=metrics-core-4.1.19.pom
+outputs.3.0.length=945
+outputs.3.0.checksums.sha512=b037a9fa2adf6ecd52a78d3c834dd9d737607ebf7961dbf29dc8cf4fc3690cdb4258925045a42594ada17d1e5085c6db892f37760ebe699b93b0fd969f9bb33d
+
+outputs.3.1.filename=metrics-core-4.1.19.jar
+outputs.3.1.length=116097
+outputs.3.1.checksums.sha512=1dbb36e291fc1dcf162acfc95dcf3620ceabf0e1f25901f6e8aa6bf788b7ad37874a9d98b7c955060d0695242a45cf1f68d291369d2001c306a972ab7d986b86
 
 outputs.4.coordinates=io.dropwizard.metrics:metrics-caffeine
 
-outputs.4.0.filename=metrics-caffeine-4.1.19.jar
-outputs.4.0.length=4870
-outputs.4.0.checksums.sha512=9414a1ede3cdf277ab272afc353da9902042809ba42e1d607b0b6578158635fe839802cfec227f09ec41f3a82ebb9cd935b542197d4f51ed50b081673db53041
+outputs.4.0.filename=metrics-caffeine-4.1.19.pom
+outputs.4.0.length=1597
+outputs.4.0.checksums.sha512=da20cb8cfb27e43be3cb2ba7b71147df54e331905c4794bcafd308ebdb484368ccb448157427689becb84df68c409e3f470b9a9ab2379c1edb5cfcedea682818
+
+outputs.4.1.filename=metrics-caffeine-4.1.19.jar
+outputs.4.1.length=4870
+outputs.4.1.checksums.sha512=9414a1ede3cdf277ab272afc353da9902042809ba42e1d607b0b6578158635fe839802cfec227f09ec41f3a82ebb9cd935b542197d4f51ed50b081673db53041
 
 outputs.5.coordinates=io.dropwizard.metrics:metrics-collectd
 
-outputs.5.0.filename=metrics-collectd-4.1.19.jar
-outputs.5.0.length=21913
-outputs.5.0.checksums.sha512=385dedb698fc0df63766cc6cc88097f47130aed1a3c9b6b783882abe981ffe5cb54ef3c1002ee577f7430edc933c1f74568eea179a0eaa995061e9fd1469093a
+outputs.5.0.filename=metrics-collectd-4.1.19.pom
+outputs.5.0.length=1247
+outputs.5.0.checksums.sha512=e2ffe54da4b1ac9b0cf38216c4864a841959dfd74e03120694b86040cc077c2834747942d03a0b44aaf86c815f5e9e9a008e8e54fbdcf1e9ad3dfaa56384e0f7
+
+outputs.5.1.filename=metrics-collectd-4.1.19.jar
+outputs.5.1.length=21913
+outputs.5.1.checksums.sha512=385dedb698fc0df63766cc6cc88097f47130aed1a3c9b6b783882abe981ffe5cb54ef3c1002ee577f7430edc933c1f74568eea179a0eaa995061e9fd1469093a
 
 outputs.6.coordinates=io.dropwizard.metrics:metrics-ehcache
 
-outputs.6.0.filename=metrics-ehcache-4.1.19.jar
-outputs.6.0.length=6802
-outputs.6.0.checksums.sha512=9da175bd386e36ee0a2e9280e36187510cb66e803024a91d0dc66ac9bbbffcea01b7ca159ef4cce9f36927e9578989cf29af381073bede39b5c34084f6d0f9b1
+outputs.6.0.filename=metrics-ehcache-4.1.19.pom
+outputs.6.0.length=1821
+outputs.6.0.checksums.sha512=e234271018b39604113a221ba7eb12e2b6fce393619805c63d929727f7012e5740d7f9e2b7849f14e6eee6fa4da23edc860a83a5f5fe2e26cfe720b930c18c60
+
+outputs.6.1.filename=metrics-ehcache-4.1.19.jar
+outputs.6.1.length=6802
+outputs.6.1.checksums.sha512=9da175bd386e36ee0a2e9280e36187510cb66e803024a91d0dc66ac9bbbffcea01b7ca159ef4cce9f36927e9578989cf29af381073bede39b5c34084f6d0f9b1
 
 outputs.7.coordinates=io.dropwizard.metrics:metrics-graphite
 
-outputs.7.0.filename=metrics-graphite-4.1.19.jar
-outputs.7.0.length=23228
-outputs.7.0.checksums.sha512=4b8ddbb4b3d5df31fe2b4f068d3532cce8f3277097eac400a8025879dd9cea61003edfb06f84b73628f872360a5d1c640e3b3a1cc855df7cc8507de65c2a76e0
+outputs.7.0.filename=metrics-graphite-4.1.19.pom
+outputs.7.0.length=2222
+outputs.7.0.checksums.sha512=31f6718eacc9b851124f58b3bc9285938dab47c842c934ca80f7d19b9f02c462da043316aaac53c852494ab2c77f8b79aaf89ea32624cdabeb2597a8eaac49a4
+
+outputs.7.1.filename=metrics-graphite-4.1.19.jar
+outputs.7.1.length=23228
+outputs.7.1.checksums.sha512=4b8ddbb4b3d5df31fe2b4f068d3532cce8f3277097eac400a8025879dd9cea61003edfb06f84b73628f872360a5d1c640e3b3a1cc855df7cc8507de65c2a76e0
 
 outputs.8.coordinates=io.dropwizard.metrics:metrics-jvm
 
-outputs.8.0.filename=metrics-jvm-4.1.19.jar
-outputs.8.0.length=24124
-outputs.8.0.checksums.sha512=6c4bf387b9920523153938e4ea9116e141fc027da04890a8e537448ecaec1e5d8ced0758470089ae945b4f54cf4a3f3e99a0f7547cf8716d98d87e283b0819b9
+outputs.8.0.filename=metrics-jvm-4.1.19.pom
+outputs.8.0.length=1409
+outputs.8.0.checksums.sha512=dbc34b5db5a9f5376fbb0cec1d493c7358410f4332034ddaed9d08024d52082b49869b733f2f333e07c9df2eebe8f2410d67f9ab033da8abafff22b5cc6914d7
+
+outputs.8.1.filename=metrics-jvm-4.1.19.jar
+outputs.8.1.length=24124
+outputs.8.1.checksums.sha512=6c4bf387b9920523153938e4ea9116e141fc027da04890a8e537448ecaec1e5d8ced0758470089ae945b4f54cf4a3f3e99a0f7547cf8716d98d87e283b0819b9
 
 outputs.9.coordinates=io.dropwizard.metrics:metrics-healthchecks
 
-outputs.9.0.filename=metrics-healthchecks-4.1.19.jar
-outputs.9.0.length=22765
-outputs.9.0.checksums.sha512=b6559506897904943418d7e40f71721e65f28ce191834656540542f5137bf8e30177153273e569cd730e8e7e5e2dc973461e63908780ef53bc20ec99f50c0210
+outputs.9.0.filename=metrics-healthchecks-4.1.19.pom
+outputs.9.0.length=1502
+outputs.9.0.checksums.sha512=1734c917f9c89a1f00a368c2d3f2b9b3d001c020ad4fa9dffa941437a50eb87448983fb41dbd8cce80fb11f1bb5104c87fff824c8e5a6e08c2bd61a27ab293b9
+
+outputs.9.1.filename=metrics-healthchecks-4.1.19.jar
+outputs.9.1.length=22765
+outputs.9.1.checksums.sha512=b6559506897904943418d7e40f71721e65f28ce191834656540542f5137bf8e30177153273e569cd730e8e7e5e2dc973461e63908780ef53bc20ec99f50c0210
 
 outputs.10.coordinates=io.dropwizard.metrics:metrics-httpclient
 
-outputs.10.0.filename=metrics-httpclient-4.1.19.jar
-outputs.10.0.length=11914
-outputs.10.0.checksums.sha512=352a843061643b48dd805b604ccac5cdd536b18efb1b08585a02faa01b4f09058770157c0bc7f64805ab44896a3b35c605c7d11813c4d99dddf1587d44a9bc8d
+outputs.10.0.filename=metrics-httpclient-4.1.19.pom
+outputs.10.0.length=1735
+outputs.10.0.checksums.sha512=5919b511b2aeeb009d2e037aba1b927614f90b577a5ec0175802613ac177206f977f2633f86b07a45a1bb4b98935d600cb614208058677b9a43c27ce056cf92c
+
+outputs.10.1.filename=metrics-httpclient-4.1.19.jar
+outputs.10.1.length=11914
+outputs.10.1.checksums.sha512=352a843061643b48dd805b604ccac5cdd536b18efb1b08585a02faa01b4f09058770157c0bc7f64805ab44896a3b35c605c7d11813c4d99dddf1587d44a9bc8d
 
 outputs.11.coordinates=io.dropwizard.metrics:metrics-httpclient5
 
-outputs.11.0.filename=metrics-httpclient5-4.1.19.jar
-outputs.11.0.length=19367
-outputs.11.0.checksums.sha512=b92821490567d24dbd54ca9df3f171e7c6ee23837b251784789ed9e3277740281716db83618161784cd0efbdfb1c0d48e005f4e0d83ea8ec1d021e87d81e4632
+outputs.11.0.filename=metrics-httpclient5-4.1.19.pom
+outputs.11.0.length=2170
+outputs.11.0.checksums.sha512=09f8ad409aa6ec186fa8b8245577352b132d2dd648cda257adf54f91d24d3a819215780da54907342ac0ce0c5a5f3ce671a29dd5c307fbfd38e956af52f6799b
+
+outputs.11.1.filename=metrics-httpclient5-4.1.19.jar
+outputs.11.1.length=19367
+outputs.11.1.checksums.sha512=b92821490567d24dbd54ca9df3f171e7c6ee23837b251784789ed9e3277740281716db83618161784cd0efbdfb1c0d48e005f4e0d83ea8ec1d021e87d81e4632
 
 outputs.12.coordinates=io.dropwizard.metrics:metrics-httpasyncclient
 
-outputs.12.0.filename=metrics-httpasyncclient-4.1.19.jar
-outputs.12.0.length=8459
-outputs.12.0.checksums.sha512=787d5201b3791e079f5abf2c7be1b9194ae1f993e9840a28232c3483c410e03367d7a14711256eb7e61c57b64b5cc92b80677acd13ed594eb9bd17a057b6b20b
+outputs.12.0.filename=metrics-httpasyncclient-4.1.19.pom
+outputs.12.0.length=2188
+outputs.12.0.checksums.sha512=31f90012c5fc15f8db33d4dd44e2bd4d083f772950f841ec82def4579f5fe64f177e9b2e6d8e14089307660c9e26851b294c475bfedbd90f304823bcdcc71136
+
+outputs.12.1.filename=metrics-httpasyncclient-4.1.19.jar
+outputs.12.1.length=8459
+outputs.12.1.checksums.sha512=787d5201b3791e079f5abf2c7be1b9194ae1f993e9840a28232c3483c410e03367d7a14711256eb7e61c57b64b5cc92b80677acd13ed594eb9bd17a057b6b20b
 
 outputs.13.coordinates=io.dropwizard.metrics:metrics-jcache
 
-outputs.13.0.filename=metrics-jcache-4.1.19.jar
-outputs.13.0.length=5429
-outputs.13.0.checksums.sha512=214e9d2248d47ab0f4e3b129ff439bf861ced23a176b6ecaaa2dc77e6a4fe0afd1913f31bc1688cef9737c8e0123236052546bb0497c9c9e17de543c64c458bb
+outputs.13.0.filename=metrics-jcache-4.1.19.pom
+outputs.13.0.length=3120
+outputs.13.0.checksums.sha512=46026f4ef145ae608f00d4d163a3917eca14f30e7b1ed7afb0e8dc1cd8c41f8250477a2c477da56617d12289f69a4b1f970bc6930aff4b43a747bd12ab77477f
+
+outputs.13.1.filename=metrics-jcache-4.1.19.jar
+outputs.13.1.length=5429
+outputs.13.1.checksums.sha512=214e9d2248d47ab0f4e3b129ff439bf861ced23a176b6ecaaa2dc77e6a4fe0afd1913f31bc1688cef9737c8e0123236052546bb0497c9c9e17de543c64c458bb
 
 outputs.14.coordinates=io.dropwizard.metrics:metrics-jdbi
 
-outputs.14.0.filename=metrics-jdbi-4.1.19.jar
-outputs.14.0.length=19473
-outputs.14.0.checksums.sha512=a8de2b85ad465b61b3acc0c53db41881894bf8ab09d9f46dd6282cfa0ba752805f37a98e504352690755f08190e9a0843dce8b7edf9b7094174a233605577aa3
+outputs.14.0.filename=metrics-jdbi-4.1.19.pom
+outputs.14.0.length=1595
+outputs.14.0.checksums.sha512=c3e2b9dd00e4e9e99665f4a14c22e6414cbc54c0053f6c8e4aee15c1985b7f9ddef23a7e167fddab73729ec453c6f27ffb8f2e1462e296012ebebac04daf4f38
+
+outputs.14.1.filename=metrics-jdbi-4.1.19.jar
+outputs.14.1.length=19473
+outputs.14.1.checksums.sha512=a8de2b85ad465b61b3acc0c53db41881894bf8ab09d9f46dd6282cfa0ba752805f37a98e504352690755f08190e9a0843dce8b7edf9b7094174a233605577aa3
 
 outputs.15.coordinates=io.dropwizard.metrics:metrics-jdbi3
 
-outputs.15.0.filename=metrics-jdbi3-4.1.19.jar
-outputs.15.0.length=13389
-outputs.15.0.checksums.sha512=06ce3c2119fe3524925caf24bb2dee56477aae620c96d865a30d02c976bcfda7e3eb22e1359c088bbad0523da8afaeb4066d6825f2beb0123ce8fa5185a17eb9
+outputs.15.0.filename=metrics-jdbi3-4.1.19.pom
+outputs.15.0.length=1934
+outputs.15.0.checksums.sha512=1bcadd18809749535181e20499ffbc9e8ca736f4d6f5f1de9a33070b07f292afb2b5cf8dcae2b78808ad94550f1c3980e7b365eaa320903c86ad722aebd4e0d0
+
+outputs.15.1.filename=metrics-jdbi3-4.1.19.jar
+outputs.15.1.length=13389
+outputs.15.1.checksums.sha512=06ce3c2119fe3524925caf24bb2dee56477aae620c96d865a30d02c976bcfda7e3eb22e1359c088bbad0523da8afaeb4066d6825f2beb0123ce8fa5185a17eb9
 
 outputs.16.coordinates=io.dropwizard.metrics:metrics-jersey2
 
-outputs.16.0.filename=metrics-jersey2-4.1.19.jar
-outputs.16.0.length=20764
-outputs.16.0.checksums.sha512=2b6d686b08967457e5e98cc08ccedd2517070837040919d2999a2fe4a038c75fa8347a5dd2551ae8e2604788077bf93980a62c02e6ee75fae2064b3f545b060e
+outputs.16.0.filename=metrics-jersey2-4.1.19.pom
+outputs.16.0.length=2666
+outputs.16.0.checksums.sha512=a96bf15800a9539e37d85891faafc9f3099689ec079c627dba4f5b6c6a571a60b80188fbbd8f42ca7dd367058f3fddce0126e99c90156fc1552188edd298e035
+
+outputs.16.1.filename=metrics-jersey2-4.1.19.jar
+outputs.16.1.length=20764
+outputs.16.1.checksums.sha512=2b6d686b08967457e5e98cc08ccedd2517070837040919d2999a2fe4a038c75fa8347a5dd2551ae8e2604788077bf93980a62c02e6ee75fae2064b3f545b060e
 
 outputs.17.coordinates=io.dropwizard.metrics:metrics-jetty9
 
-outputs.17.0.filename=metrics-jetty9-4.1.19.jar
-outputs.17.0.length=31425
-outputs.17.0.checksums.sha512=15a5e5e7fc641c828380a8065e76210734425dd633846d3de690ceebe020c7ffc4e31f3d74bb0a804b0930f1158b235891739bf78c4b4fecb33ce80e55c7b26a
+outputs.17.0.filename=metrics-jetty9-4.1.19.pom
+outputs.17.0.length=2124
+outputs.17.0.checksums.sha512=626efc0d6a788a1698d195f6726891211dd937325eb50b76237ddecb03ff207746b1fe45b102b13227f85a46836b19793db620ae69c8e32ee28262eea717df55
+
+outputs.17.1.filename=metrics-jetty9-4.1.19.jar
+outputs.17.1.length=31425
+outputs.17.1.checksums.sha512=15a5e5e7fc641c828380a8065e76210734425dd633846d3de690ceebe020c7ffc4e31f3d74bb0a804b0930f1158b235891739bf78c4b4fecb33ce80e55c7b26a
 
 outputs.18.coordinates=io.dropwizard.metrics:metrics-jmx
 
-outputs.18.0.filename=metrics-jmx-4.1.19.jar
-outputs.18.0.length=20812
-outputs.18.0.checksums.sha512=cfd06e83dc684446d440b7b5905fd3cf1bccdc06b08287f0bddb00df0a4a8b51df63b1212b8e9450f88905ff4308612c4a23779fb61878b2da58c62a8c300acd
+outputs.18.0.filename=metrics-jmx-4.1.19.pom
+outputs.18.0.length=1355
+outputs.18.0.checksums.sha512=04892ccd3164538a3e9f83a2ea53a8cce9fb03bfb4bdc2da2772b79ae6896134157cbfc353b75c5ac717e23c7ef66e8862848d00c8717c40a162314dd5f6b8b8
+
+outputs.18.1.filename=metrics-jmx-4.1.19.jar
+outputs.18.1.length=20812
+outputs.18.1.checksums.sha512=cfd06e83dc684446d440b7b5905fd3cf1bccdc06b08287f0bddb00df0a4a8b51df63b1212b8e9450f88905ff4308612c4a23779fb61878b2da58c62a8c300acd
 
 outputs.19.coordinates=io.dropwizard.metrics:metrics-json
 
-outputs.19.0.filename=metrics-json-4.1.19.jar
-outputs.19.0.length=16619
-outputs.19.0.checksums.sha512=4345f00a16e3051d0410342076cc37cec0d484bc1daa81001b513ca60c73d6d4d7b2e7158fa6730bee7e4e3f857c3593258db2c62f052c0e48ff827796fc395d
+outputs.19.0.filename=metrics-json-4.1.19.pom
+outputs.19.0.length=1776
+outputs.19.0.checksums.sha512=5bdb14e2d98126a9a4eb9edc07a2d89eceb636871f99a9ca081c66bf2b6fe071131023efb2127636dce77e3c91c6b26a10f507b47731cd1dfd14b200b822db9d
+
+outputs.19.1.filename=metrics-json-4.1.19.jar
+outputs.19.1.length=16619
+outputs.19.1.checksums.sha512=4345f00a16e3051d0410342076cc37cec0d484bc1daa81001b513ca60c73d6d4d7b2e7158fa6730bee7e4e3f857c3593258db2c62f052c0e48ff827796fc395d
 
 outputs.20.coordinates=io.dropwizard.metrics:metrics-log4j2
 
-outputs.20.0.filename=metrics-log4j2-4.1.19.jar
-outputs.20.0.length=5578
-outputs.20.0.checksums.sha512=48185abdd457c1c378cc9e7cafc6671956c015a7ed095848d65486502f39cba8bc01db223854be704ffb8a1a12ce3ea2e495ba1e9555ce07b2c59dc75e3840cb
+outputs.20.0.filename=metrics-log4j2-4.1.19.pom
+outputs.20.0.length=2178
+outputs.20.0.checksums.sha512=125bf9f0140c87ea4ac00b4e789c8a9a86b9853d4e7a586774d3f759983419257fca5e85a329f94503f787ea88a8f38855d2b27cbad85277d95340cbfe1b74ea
+
+outputs.20.1.filename=metrics-log4j2-4.1.19.jar
+outputs.20.1.length=5578
+outputs.20.1.checksums.sha512=48185abdd457c1c378cc9e7cafc6671956c015a7ed095848d65486502f39cba8bc01db223854be704ffb8a1a12ce3ea2e495ba1e9555ce07b2c59dc75e3840cb
 
 outputs.21.coordinates=io.dropwizard.metrics:metrics-logback
 
-outputs.21.0.filename=metrics-logback-4.1.19.jar
-outputs.21.0.length=4282
-outputs.21.0.checksums.sha512=72aefd70a87e2880773e768add7a21efb47ae07280cc6bdb8417aebc2f78204c6ac69d1c6d5f8bbcc151319a62da0d7b79a7bb6272828ad6c5603205500f30ec
+outputs.21.0.filename=metrics-logback-4.1.19.pom
+outputs.21.0.length=1799
+outputs.21.0.checksums.sha512=37e0d9d69564342be719782c78a92e45d71dfc7301b130ef4807069738f7be3eaa74cb425f8a7b2fec5edfbf81a2774d0dbff084c39a558797c9990667727431
+
+outputs.21.1.filename=metrics-logback-4.1.19.jar
+outputs.21.1.length=4282
+outputs.21.1.checksums.sha512=72aefd70a87e2880773e768add7a21efb47ae07280cc6bdb8417aebc2f78204c6ac69d1c6d5f8bbcc151319a62da0d7b79a7bb6272828ad6c5603205500f30ec
 
 outputs.22.coordinates=io.dropwizard.metrics:metrics-servlet
 
-outputs.22.0.filename=metrics-servlet-4.1.19.jar
-outputs.22.0.length=9859
-outputs.22.0.checksums.sha512=34995e0b57011d2b2a9192049ea28c7f5de3cc77aa473f402b539ca0fc21a0e9b358b56d1e970db92d15fc2ed9018a578dff576a44e1f33bc53f3252f4e0e1bf
+outputs.22.0.filename=metrics-servlet-4.1.19.pom
+outputs.22.0.length=1636
+outputs.22.0.checksums.sha512=91b8cadac54d3527672f1c306357c70a7b0476737d1c933a60bfc83da1e9257c3664485afe3fe9a28fe6418375bc358480b3fd9379f8cc61233fd8f4e83f1c57
+
+outputs.22.1.filename=metrics-servlet-4.1.19.jar
+outputs.22.1.length=9859
+outputs.22.1.checksums.sha512=34995e0b57011d2b2a9192049ea28c7f5de3cc77aa473f402b539ca0fc21a0e9b358b56d1e970db92d15fc2ed9018a578dff576a44e1f33bc53f3252f4e0e1bf
 
 outputs.23.coordinates=io.dropwizard.metrics:metrics-servlets
 
-outputs.23.0.filename=metrics-servlets-4.1.19.jar
-outputs.23.0.length=19296
-outputs.23.0.checksums.sha512=63946ec77e847e456c3b7542f778c5b281b3b61d33237fad75ec60bfdb0e05a0756aaa3b11eaa538ede95a842e7964bfe66d08acca3cb7e8b81fc1dd8fcba606
+outputs.23.0.filename=metrics-servlets-4.1.19.pom
+outputs.23.0.length=3558
+outputs.23.0.checksums.sha512=1d5e851c642b15d4af11207a500628aa5808aca77b93766c8e3a6acfdb67aaa209c71b46416bb456dd9dceb66f6e9fb5a6a5403f0707ba375c9afb08a67c835f
+
+outputs.23.1.filename=metrics-servlets-4.1.19.jar
+outputs.23.1.length=19296
+outputs.23.1.checksums.sha512=63946ec77e847e456c3b7542f778c5b281b3b61d33237fad75ec60bfdb0e05a0756aaa3b11eaa538ede95a842e7964bfe66d08acca3cb7e8b81fc1dd8fcba606

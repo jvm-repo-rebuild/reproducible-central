@@ -21,10 +21,14 @@ os.name=Unix
 
 # output
 
-outputs.0.filename=ldapchai-0.8.1.jar
-outputs.0.length=713292
-outputs.0.checksums.sha512=17710fb55e1dc887671dcaeed5f4b8493ad3edab4163bce4d29beb6a49b6ca1036ca501885e97ffcbdeb9fe1d8ee6e88487abab67e1ff82c74f3d265aebc5efa
+outputs.0.filename=ldapchai-0.8.1.pom
+outputs.0.length=27525
+outputs.0.checksums.sha512=79038fd51b64e0ea820b2025a43bfd87bb48d9e2ae889f95f9e0c5aaf61ce79d52f7dc87f12271fc313ad1b8fd41bced4713eeda8349dca4c8f6b01991103e63
 
-outputs.1.filename=ldapchai-0.8.1-sources.jar
-outputs.1.length=594356
-outputs.1.checksums.sha512=a83fc1e4e0a693f25f071fedf92a1723d29c1524f39e62f514435f2005ec11a93edd04aaf516bfa3a2c6a8726c6a6604e9a36159a09a1ecdc5390d08d5a9106c
+outputs.1.filename=ldapchai-0.8.1.jar
+outputs.1.length=713292
+outputs.1.checksums.sha512=9c94e056698199e96cdc4898c9b4cb29b9d92e9b35dc9d91e7e28768d7fb176a1988c1a855d394ada3eba500e42f0eb6f812395314dcfa738dd73daa889877ea
+
+outputs.2.filename=ldapchai-0.8.1-sources.jar
+outputs.2.length=594356
+outputs.2.checksums.sha512=a83fc1e4e0a693f25f071fedf92a1723d29c1524f39e62f514435f2005ec11a93edd04aaf516bfa3a2c6a8726c6a6604e9a36159a09a1ecdc5390d08d5a9106c

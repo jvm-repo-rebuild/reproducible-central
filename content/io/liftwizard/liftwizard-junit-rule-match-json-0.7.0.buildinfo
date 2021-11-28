@@ -13,606 +13,1049 @@ source.scm.tag=0.7.0
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=11.0.6
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.aggregate.artifact-id=liftwizard-junit-rule-match-json
 
 # aggregated output
 
 outputs.0.coordinates=io.liftwizard:liftwizard-parent-build
 
+outputs.0.0.filename=liftwizard-parent-build-0.7.0.pom
+outputs.0.0.length=21826
+outputs.0.0.checksums.sha512=abe8ed0ab1820c7a27007f5f2221164d802fbed60e9fe14a523b8c7e7aff2f6854cad95ee6964c63f4850101096e5035208a56c9f629b4fef8a47a734f99d86d
+
 outputs.1.coordinates=io.liftwizard:liftwizard
+
+outputs.1.0.filename=liftwizard-0.7.0.pom
+outputs.1.0.length=8749
+outputs.1.0.checksums.sha512=0bc3bf32c7ddb081e50e4b210068ee11487a9e3beaf9fffbffdd962aac662bd6eee35ecdc41ff392879b29f938cf89e211506378bcf3de19353d9178228ea7b4
 
 outputs.2.coordinates=io.liftwizard:liftwizard-bundle
 
+outputs.2.0.filename=liftwizard-bundle-0.7.0.pom
+outputs.2.0.length=1989
+outputs.2.0.checksums.sha512=955c18922b2eee1769127c70b79c9288ae445c737b3df492b9206a966478d26f1a178ec68b6aaa5eb79630e761b8237295432e037f74abae8aff1d5fced188ad
+
 outputs.3.coordinates=io.liftwizard:liftwizard-bundle-prioritized-api
 
-outputs.3.0.filename=liftwizard-bundle-prioritized-api-0.7.0.jar
-outputs.3.0.length=4456
-outputs.3.0.checksums.sha512=268be869ecfcfbf6356c83c0c99ab9f0b53caa0adbc86f2dc64dfca42d2a76a9fd9d65fcded735736a357d4220313ec31ac949d54b450570e0ba9dc3330cfa8a
+outputs.3.0.filename=liftwizard-bundle-prioritized-api-0.7.0.pom
+outputs.3.0.length=1647
+outputs.3.0.checksums.sha512=4222e18e7438405f8606ff1691cc78c1484933db76558b7c5ee171c0c4c6c981d041371b50df15c585ac51cd465e89c8e44a04040c1003e3b4f196d17343b725
+
+outputs.3.1.filename=liftwizard-bundle-prioritized-api-0.7.0.jar
+outputs.3.1.length=4456
+outputs.3.1.checksums.sha512=268be869ecfcfbf6356c83c0c99ab9f0b53caa0adbc86f2dc64dfca42d2a76a9fd9d65fcded735736a357d4220313ec31ac949d54b450570e0ba9dc3330cfa8a
 
 outputs.4.coordinates=io.liftwizard:liftwizard-bundle-dynamic-bundles
 
-outputs.4.0.filename=liftwizard-bundle-dynamic-bundles-0.7.0.jar
-outputs.4.0.length=5630
-outputs.4.0.checksums.sha512=9e66726812df5fd14b5225fd75e9b175deab8b12f6e238b1a0cb56ce5c19b51b7d04544065565b41c4a86f7d7422563acff20e967c2130094e79613c099bc021
+outputs.4.0.filename=liftwizard-bundle-dynamic-bundles-0.7.0.pom
+outputs.4.0.length=1875
+outputs.4.0.checksums.sha512=5cf61df4f91efebb9c439ac83e4193ce87d17c96b91bcfb0e937dd0ee08186ff2efed3d6f6b1c6263f21d0bbe60cc773f52c88b1d4e03509f042418c69ca686f
+
+outputs.4.1.filename=liftwizard-bundle-dynamic-bundles-0.7.0.jar
+outputs.4.1.length=5630
+outputs.4.1.checksums.sha512=9e66726812df5fd14b5225fd75e9b175deab8b12f6e238b1a0cb56ce5c19b51b7d04544065565b41c4a86f7d7422563acff20e967c2130094e79613c099bc021
 
 outputs.5.coordinates=io.liftwizard:liftwizard-bundle-environment-config
 
-outputs.5.0.filename=liftwizard-bundle-environment-config-0.7.0.jar
-outputs.5.0.length=4239
-outputs.5.0.checksums.sha512=4382f75ee8550427c881f80b93c9c6eec5a94d7061b726bafe95fb5e45bb162a2e70421e6cf0ae0d42c6f316bbd9e5bcbc49701b153d57493be733d024969a85
+outputs.5.0.filename=liftwizard-bundle-environment-config-0.7.0.pom
+outputs.5.0.length=1672
+outputs.5.0.checksums.sha512=68ffadb2ce4e06e4e7515eb33bcd44b61e5f75c44d7dab097987e36406a73fc75ae4ec86d7a68b39693e54bc37d25c1f251f821aa1ed38d7c7e3d07fd6d5fa00
+
+outputs.5.1.filename=liftwizard-bundle-environment-config-0.7.0.jar
+outputs.5.1.length=4239
+outputs.5.1.checksums.sha512=4382f75ee8550427c881f80b93c9c6eec5a94d7061b726bafe95fb5e45bb162a2e70421e6cf0ae0d42c6f316bbd9e5bcbc49701b153d57493be733d024969a85
 
 outputs.6.coordinates=io.liftwizard:liftwizard-uuid
 
+outputs.6.0.filename=liftwizard-uuid-0.7.0.pom
+outputs.6.0.length=1808
+outputs.6.0.checksums.sha512=4c5ed09575999a5c566805cf7157b577fe783a227963cc738046436cbdf842339d53e3ebe234f5822da1f96932519dfe9455e0da84a4b3fe01ff943207d96bd9
+
 outputs.7.coordinates=io.liftwizard:liftwizard-config-uuid
 
-outputs.7.0.filename=liftwizard-config-uuid-0.7.0.jar
-outputs.7.0.length=3884
-outputs.7.0.checksums.sha512=532c1e4ebb643224f0f9e817a2f859837eb9b377ed05c9d6255072a6a430e08fc09913b70427bb05eaad042a97cb6d1cb9c42249296d3f867a4a267d944db104
+outputs.7.0.filename=liftwizard-config-uuid-0.7.0.pom
+outputs.7.0.length=1656
+outputs.7.0.checksums.sha512=a9792c7dd0b54e7492fae474f485e0b379fbe2a4eec8be72f7d0abf0868300bd00c7e89007b53fcf9bb8de2daf353869293f7e574c9601d9ee64cbdf27dfc3cb
+
+outputs.7.1.filename=liftwizard-config-uuid-0.7.0.jar
+outputs.7.1.length=3884
+outputs.7.1.checksums.sha512=532c1e4ebb643224f0f9e817a2f859837eb9b377ed05c9d6255072a6a430e08fc09913b70427bb05eaad042a97cb6d1cb9c42249296d3f867a4a267d944db104
 
 outputs.8.coordinates=io.liftwizard:liftwizard-bundle-uuid
 
-outputs.8.0.filename=liftwizard-bundle-uuid-0.7.0.jar
-outputs.8.0.length=5470
-outputs.8.0.checksums.sha512=0474db2394ada897236888452b076da9f50499bf7ac432e2b8f1ee9b23006f12077ffca8e913859c4edfcaab6d6845eac4b5e6220f7604199ebc0311b54a8bbb
+outputs.8.0.filename=liftwizard-bundle-uuid-0.7.0.pom
+outputs.8.0.length=2284
+outputs.8.0.checksums.sha512=be914f74bfd1d166f9b67cef467137d892c8211da140ffdb4afe9214a4761b81fd2fb220b71b6e9651bf7773bb384628154d64c440672e863c28a651d4b74642
+
+outputs.8.1.filename=liftwizard-bundle-uuid-0.7.0.jar
+outputs.8.1.length=5470
+outputs.8.1.checksums.sha512=0474db2394ada897236888452b076da9f50499bf7ac432e2b8f1ee9b23006f12077ffca8e913859c4edfcaab6d6845eac4b5e6220f7604199ebc0311b54a8bbb
 
 outputs.9.coordinates=io.liftwizard:liftwizard-clock
 
+outputs.9.0.filename=liftwizard-clock-0.7.0.pom
+outputs.9.0.length=1932
+outputs.9.0.checksums.sha512=e2ec04abe56cb28c5a1c35cee18a12fbb1dcfad0c6b6bbb6a269dd60926cd5bafd132fdd8a5d0ffe815cc19a09a0f0961ca79b96836863c409474d2990bfe18a
+
 outputs.10.coordinates=io.liftwizard:liftwizard-config-clock
 
-outputs.10.0.filename=liftwizard-config-clock-0.7.0.jar
-outputs.10.0.length=3802
-outputs.10.0.checksums.sha512=d65058cfb1850262ed4afa6a84264ab7e395c2784040a6772f45c39a21cd832e4526fb6362dc03e171bf22631fc21303d8682765f63ddf24648c0a00a66c895a
+outputs.10.0.filename=liftwizard-config-clock-0.7.0.pom
+outputs.10.0.length=1659
+outputs.10.0.checksums.sha512=e93a3fee874edf8966524f16364f23bf0c251882cc458687fcf07fda73b2652af2bd7ef29bdb76ae6d05013d2704908843ab215795dd028eab0af8b507466249
+
+outputs.10.1.filename=liftwizard-config-clock-0.7.0.jar
+outputs.10.1.length=3802
+outputs.10.1.checksums.sha512=d65058cfb1850262ed4afa6a84264ab7e395c2784040a6772f45c39a21cd832e4526fb6362dc03e171bf22631fc21303d8682765f63ddf24648c0a00a66c895a
 
 outputs.11.coordinates=io.liftwizard:liftwizard-bundle-clock
 
-outputs.11.0.filename=liftwizard-bundle-clock-0.7.0.jar
-outputs.11.0.length=4697
-outputs.11.0.checksums.sha512=220939479f5b0761b04cffe508230b53132dd226c0b4b894ec0291e6532e16158044216d65b0aaff1a80c2363ee81ab1325ff70883b007e10ee0766ecfd0efec
+outputs.11.0.filename=liftwizard-bundle-clock-0.7.0.pom
+outputs.11.0.length=2287
+outputs.11.0.checksums.sha512=665c1314bf22f980d8af3aeb603b0281fb6164babde6418216d0d089855abc73cfeed4418defbf5dc9945c9b9a9f5bc58ce7a9d9d20e084361443a1c0c190550
+
+outputs.11.1.filename=liftwizard-bundle-clock-0.7.0.jar
+outputs.11.1.length=4697
+outputs.11.1.checksums.sha512=220939479f5b0761b04cffe508230b53132dd226c0b4b894ec0291e6532e16158044216d65b0aaff1a80c2363ee81ab1325ff70883b007e10ee0766ecfd0efec
 
 outputs.12.coordinates=io.liftwizard:liftwizard-config
 
+outputs.12.0.filename=liftwizard-config-0.7.0.pom
+outputs.12.0.length=1978
+outputs.12.0.checksums.sha512=f4ec8a2c34116d3574e2e316633d40e5212d7393ffac6e1c096e37046d78c7f572f377ead6b23ce18ffb2d11218369170f4da90703668a259dd08551770878ac
+
 outputs.13.coordinates=io.liftwizard:liftwizard-configuration-factory-json
 
-outputs.13.0.filename=liftwizard-configuration-factory-json-0.7.0.jar
-outputs.13.0.length=4175
-outputs.13.0.checksums.sha512=a88b4f81a164bf9da65b365feded396ce0b6ee108346f85e7aeb1dc98acedcafaa63c5d46946875e3438114d5810fa680adecffd1771bd0880ff2fadc79c687e
+outputs.13.0.filename=liftwizard-configuration-factory-json-0.7.0.pom
+outputs.13.0.length=1831
+outputs.13.0.checksums.sha512=a3139a344f94612a86ab0b190466c5ebbc9c5cb64ca0e33a3a903ea4da0fcd663752742fa5220e822ab3be568a861f8e3180757aabdb7dd05f22c866b1e18fdf
+
+outputs.13.1.filename=liftwizard-configuration-factory-json-0.7.0.jar
+outputs.13.1.length=4175
+outputs.13.1.checksums.sha512=a88b4f81a164bf9da65b365feded396ce0b6ee108346f85e7aeb1dc98acedcafaa63c5d46946875e3438114d5810fa680adecffd1771bd0880ff2fadc79c687e
 
 outputs.14.coordinates=io.liftwizard:liftwizard-reladomo
 
+outputs.14.0.filename=liftwizard-reladomo-0.7.0.pom
+outputs.14.0.length=3189
+outputs.14.0.checksums.sha512=f762cf13975418fe759d349b29845571e631ecd9b9892c90552fac42176692d73435f81ff3e1e5f5e723a1e4c6b58591af379f077e9260d3663f87f3e2f4885a
+
 outputs.15.coordinates=io.liftwizard:liftwizard-reladomo-simulated-sequence
 
-outputs.15.0.filename=liftwizard-reladomo-simulated-sequence-0.7.0.jar
-outputs.15.0.length=32455
-outputs.15.0.checksums.sha512=4e5d79aa707d5958966aad8ba0f73dfa2f405251a6c6eb85a25f3d1bf38982c9d5464547460b327f103e1e76faab48460fa9c273b130efd4252864f05aaa9059
+outputs.15.0.filename=liftwizard-reladomo-simulated-sequence-0.7.0.pom
+outputs.15.0.length=4479
+outputs.15.0.checksums.sha512=ceabdd93c6e9e1f0d5a4237eace27ec60701f822f26d4acb0c9070cc05683a2a9b9ad939e15892eef25eb8fea211e12572482fd35e2c261d3f772600b65f9903
+
+outputs.15.1.filename=liftwizard-reladomo-simulated-sequence-0.7.0.jar
+outputs.15.1.length=32455
+outputs.15.1.checksums.sha512=4e5d79aa707d5958966aad8ba0f73dfa2f405251a6c6eb85a25f3d1bf38982c9d5464547460b327f103e1e76faab48460fa9c273b130efd4252864f05aaa9059
 
 outputs.16.coordinates=io.liftwizard:liftwizard-healthcheck-reladomo
 
-outputs.16.0.filename=liftwizard-healthcheck-reladomo-0.7.0.jar
-outputs.16.0.length=3518
-outputs.16.0.checksums.sha512=694478542bb7fc8e2117c24042aa70f4dee6ef71ab1c00ab9142a118d697b5dc7f69228ec4c8c66890e86ec5867ddc3b075a12c482416f339139dec86cf2eacd
+outputs.16.0.filename=liftwizard-healthcheck-reladomo-0.7.0.pom
+outputs.16.0.length=1586
+outputs.16.0.checksums.sha512=0b74de69ef04ebf6a552d85e1145d04cd397839977a668497e7635a15a753265221da77c311ee051ec029e046cf7458bbb6f36e994e2a8854d450f625df3bf01
+
+outputs.16.1.filename=liftwizard-healthcheck-reladomo-0.7.0.jar
+outputs.16.1.length=3518
+outputs.16.1.checksums.sha512=694478542bb7fc8e2117c24042aa70f4dee6ef71ab1c00ab9142a118d697b5dc7f69228ec4c8c66890e86ec5867ddc3b075a12c482416f339139dec86cf2eacd
 
 outputs.17.coordinates=io.liftwizard:liftwizard-task-reladomo-clear-cache
 
-outputs.17.0.filename=liftwizard-task-reladomo-clear-cache-0.7.0.jar
-outputs.17.0.length=3761
-outputs.17.0.checksums.sha512=d2a52f31a598e518490f121446758ba0e9248c067c0e962d3a633235f2d76006fa651fae073ed6b3626f6b25e01c3500deb9c056efb43db6b859cec16075f564
+outputs.17.0.filename=liftwizard-task-reladomo-clear-cache-0.7.0.pom
+outputs.17.0.length=1655
+outputs.17.0.checksums.sha512=c59a45bd7b71007d2d926064988db909e036ea0eaf85837537287df6b25c3958e04504123537cf4418a1a8c86e7bc2b2907b0afdcbbebcc35fde248462592819
+
+outputs.17.1.filename=liftwizard-task-reladomo-clear-cache-0.7.0.jar
+outputs.17.1.length=3761
+outputs.17.1.checksums.sha512=d2a52f31a598e518490f121446758ba0e9248c067c0e962d3a633235f2d76006fa651fae073ed6b3626f6b25e01c3500deb9c056efb43db6b859cec16075f564
 
 outputs.18.coordinates=io.liftwizard:liftwizard-logging
 
+outputs.18.0.filename=liftwizard-logging-0.7.0.pom
+outputs.18.0.length=2879
+outputs.18.0.checksums.sha512=4bc75232a0d7e3e2495c071e4b26ab82e643f4a93263b444cffc8e931e3c25f5f121e1b563109c4ae4a984d558510c3054a45da7ce4dbaed0fbbf8394583aa58
+
 outputs.19.coordinates=io.liftwizard:liftwizard-logging-mdc-closeable
 
-outputs.19.0.filename=liftwizard-logging-mdc-closeable-0.7.0.jar
-outputs.19.0.length=3566
-outputs.19.0.checksums.sha512=cddda544e1f92f8e6ffe69bd11da13869044ede34dd0eea5fabf24e4c35bfa4982ac8978d6453288ae3ae2771af4224bc9526680312d0583b696a3a2c98004c4
+outputs.19.0.filename=liftwizard-logging-mdc-closeable-0.7.0.pom
+outputs.19.0.length=1360
+outputs.19.0.checksums.sha512=bf1bde6d5cfbf969526c9b4de04dab8f906b49f0f9e032dfadc5a69ab062f7498c53c810533c2c5d03fe794f4fe07b3713535ff6879fd00185f815ca35bde691
+
+outputs.19.1.filename=liftwizard-logging-mdc-closeable-0.7.0.jar
+outputs.19.1.length=3566
+outputs.19.1.checksums.sha512=cddda544e1f92f8e6ffe69bd11da13869044ede34dd0eea5fabf24e4c35bfa4982ac8978d6453288ae3ae2771af4224bc9526680312d0583b696a3a2c98004c4
 
 outputs.20.coordinates=io.liftwizard:liftwizard-servlet-logging-correlation-id
 
-outputs.20.0.filename=liftwizard-servlet-logging-correlation-id-0.7.0.jar
-outputs.20.0.length=4663
-outputs.20.0.checksums.sha512=891b48536ca348272e4705f978aa75f71fba84c65ce1f4cb1184e7ab2271a641e4d297a5ac4786a7ff7599f8d7ac1ec7d9ec469065a9613fc237116921053c2f
+outputs.20.0.filename=liftwizard-servlet-logging-correlation-id-0.7.0.pom
+outputs.20.0.length=1885
+outputs.20.0.checksums.sha512=35cb953e23f092fef519fc9549ba3ae767b01dfb0189399e2e143174c129b3caf09670c83a48dae07f0ac5dc7b044557d61011e486c60e5ebbf1255c8c92cb2a
+
+outputs.20.1.filename=liftwizard-servlet-logging-correlation-id-0.7.0.jar
+outputs.20.1.length=4663
+outputs.20.1.checksums.sha512=891b48536ca348272e4705f978aa75f71fba84c65ce1f4cb1184e7ab2271a641e4d297a5ac4786a7ff7599f8d7ac1ec7d9ec469065a9613fc237116921053c2f
 
 outputs.21.coordinates=io.liftwizard:liftwizard-servlet-logging-resource-info
 
-outputs.21.0.filename=liftwizard-servlet-logging-resource-info-0.7.0.jar
-outputs.21.0.length=5023
-outputs.21.0.checksums.sha512=232af7bf82e3cc125e002fe8dd3580ad14b80417a5fc8aa334ab54ea6dd9b6e208484e1d48f749c4d27553e0ed40269d76d06b3602b6bd7e7d293325031afcb7
+outputs.21.0.filename=liftwizard-servlet-logging-resource-info-0.7.0.pom
+outputs.21.0.length=2352
+outputs.21.0.checksums.sha512=9890be8f49e151f82317223992685a1728b010ed3297d9f92162e37e342f99de53a34e29ffbeb32519bdff2efea07fff00b03c4be1b854d30b57fbd49d5dd090
+
+outputs.21.1.filename=liftwizard-servlet-logging-resource-info-0.7.0.jar
+outputs.21.1.length=5023
+outputs.21.1.checksums.sha512=232af7bf82e3cc125e002fe8dd3580ad14b80417a5fc8aa334ab54ea6dd9b6e208484e1d48f749c4d27553e0ed40269d76d06b3602b6bd7e7d293325031afcb7
 
 outputs.22.coordinates=io.liftwizard:liftwizard-servlet-logging-structured-argument
 
-outputs.22.0.filename=liftwizard-servlet-logging-structured-argument-0.7.0.jar
-outputs.22.0.length=4690
-outputs.22.0.checksums.sha512=df08572324492fe0c6e42d0c486882ac951687d4e9e667bf42a0d80df145fd00e94ca58b2a70fd5ad7d8745bf66e799698d10edf63aed8ec2292530bfb63c16d
+outputs.22.0.filename=liftwizard-servlet-logging-structured-argument-0.7.0.pom
+outputs.22.0.length=2178
+outputs.22.0.checksums.sha512=d359c4ecbedd57c2c5d25456eac663eb27443c216f0cf474385cf914387c1848d7270cf065953a8ef1c75bae787649358310d4737da0e3e2fb9c5d273f628920
+
+outputs.22.1.filename=liftwizard-servlet-logging-structured-argument-0.7.0.jar
+outputs.22.1.length=4690
+outputs.22.1.checksums.sha512=df08572324492fe0c6e42d0c486882ac951687d4e9e667bf42a0d80df145fd00e94ca58b2a70fd5ad7d8745bf66e799698d10edf63aed8ec2292530bfb63c16d
 
 outputs.23.coordinates=io.liftwizard:liftwizard-servlet-logging-structured-reladomo
 
-outputs.23.0.filename=liftwizard-servlet-logging-structured-reladomo-0.7.0.jar
-outputs.23.0.length=4510
-outputs.23.0.checksums.sha512=e7a7be7685baf67bb645c1095e692f4bbef2b98712b5939aedb9d422551b07c0dc88d3a9f87a3b7157a624cd723cd34a8ad791c436b75fdc106fc400133c361b
+outputs.23.0.filename=liftwizard-servlet-logging-structured-reladomo-0.7.0.pom
+outputs.23.0.length=1533
+outputs.23.0.checksums.sha512=4671bf53c549938debb21260002affc357365b634ca3a3db101a4663d25ed81c9b2d8169101da7a4374fdb55ad5a8d3b428b5c1a341add26b0c31b56bf69ff20
+
+outputs.23.1.filename=liftwizard-servlet-logging-structured-reladomo-0.7.0.jar
+outputs.23.1.length=4510
+outputs.23.1.checksums.sha512=e7a7be7685baf67bb645c1095e692f4bbef2b98712b5939aedb9d422551b07c0dc88d3a9f87a3b7157a624cd723cd34a8ad791c436b75fdc106fc400133c361b
 
 outputs.24.coordinates=io.liftwizard:liftwizard-servlet-logging-structured-status-info
 
-outputs.24.0.filename=liftwizard-servlet-logging-structured-status-info-0.7.0.jar
-outputs.24.0.length=5147
-outputs.24.0.checksums.sha512=fd7bdc0df6b7c9b712f78edb3f2618e4c84733e71b87ad988a6d1eba8c3c167576ebfaa4ce08b4f80cdd514a7858c6c23eed55aa4bda912c2640fb7f191463a3
+outputs.24.0.filename=liftwizard-servlet-logging-structured-status-info-0.7.0.pom
+outputs.24.0.length=1392
+outputs.24.0.checksums.sha512=a615f94c8bf06f5c679af2f8b5d3d4773dd9d421bd6706440590b964332905872233839ca31d65f6adde3d70ca24a07edd507e81e644d3e1176a40422b075717
+
+outputs.24.1.filename=liftwizard-servlet-logging-structured-status-info-0.7.0.jar
+outputs.24.1.length=5147
+outputs.24.1.checksums.sha512=fd7bdc0df6b7c9b712f78edb3f2618e4c84733e71b87ad988a6d1eba8c3c167576ebfaa4ce08b4f80cdd514a7858c6c23eed55aa4bda912c2640fb7f191463a3
 
 outputs.25.coordinates=io.liftwizard:liftwizard-servlet-logging-structured-duration
 
-outputs.25.0.filename=liftwizard-servlet-logging-structured-duration-0.7.0.jar
-outputs.25.0.length=4928
-outputs.25.0.checksums.sha512=02bed4cf1d7f7439014194b3e72c87dd1d0463a4c60e5a8f7c2260fa7a3574a4e23e9704a75f675c4b9c6c402c13633f5daa9fee356b573b32d542952f6867da
+outputs.25.0.filename=liftwizard-servlet-logging-structured-duration-0.7.0.pom
+outputs.25.0.length=1680
+outputs.25.0.checksums.sha512=a7ce0b2d46bbfc70ae1f83c3db08ed1fc76ebb38bd081cb402c77b3d8cfc993c99b4b074ff5d1d9622bbda7fb06ff2321f9db5b26986d3887061e3db46cac608
+
+outputs.25.1.filename=liftwizard-servlet-logging-structured-duration-0.7.0.jar
+outputs.25.1.length=4928
+outputs.25.1.checksums.sha512=02bed4cf1d7f7439014194b3e72c87dd1d0463a4c60e5a8f7c2260fa7a3574a4e23e9704a75f675c4b9c6c402c13633f5daa9fee356b573b32d542952f6867da
 
 outputs.26.coordinates=io.liftwizard:liftwizard-application
 
-outputs.26.0.filename=liftwizard-application-0.7.0.jar
-outputs.26.0.length=5573
-outputs.26.0.checksums.sha512=bb2f21c10d81679158e9911e1a20551d1b57f30d219bb11b00dcd3aab107208589c134ffe33cd58b04f808a3418a6cdcb4701e0c7dbeb07a1ba5d061902da7f7
+outputs.26.0.filename=liftwizard-application-0.7.0.pom
+outputs.26.0.length=6697
+outputs.26.0.checksums.sha512=7ecf96b07747b0a637461a5abf229d37a843d8a54d56908caf90936ecb4d3067355bcfb80df8f75bc2e1399dabbac76af5c11e7678c27582f1605ed7f52d2baa
+
+outputs.26.1.filename=liftwizard-application-0.7.0.jar
+outputs.26.1.length=5573
+outputs.26.1.checksums.sha512=bb2f21c10d81679158e9911e1a20551d1b57f30d219bb11b00dcd3aab107208589c134ffe33cd58b04f808a3418a6cdcb4701e0c7dbeb07a1ba5d061902da7f7
 
 outputs.27.coordinates=io.liftwizard:liftwizard-auth
 
+outputs.27.0.filename=liftwizard-auth-0.7.0.pom
+outputs.27.0.length=1960
+outputs.27.0.checksums.sha512=f65ea5e724db236cffe3c2ee392b82d02bfc798d88800889cc9c98f39262bcbbd2eda438159ff60628e61ab25bf536a5544785975efc988e5f8cad6b066f0f04
+
 outputs.28.coordinates=io.liftwizard:liftwizard-config-auth-filter
 
-outputs.28.0.filename=liftwizard-config-auth-filter-0.7.0.jar
-outputs.28.0.length=4266
-outputs.28.0.checksums.sha512=b7075089d345cb9ee17535fa45d4012ca075cf41b774c9e1d2bc4dee0183ab81d06e9c7add3badf535ff013d79e97efe750c0ce6729d6dbb970d5c605657fcb7
+outputs.28.0.filename=liftwizard-config-auth-filter-0.7.0.pom
+outputs.28.0.length=1972
+outputs.28.0.checksums.sha512=f335f47c91ef16113e5604ed151f8cf29a1873e8b6514f06551a543db7171160fda75c776357b2d4ea0c9dce540e4c0fd11afea6533b04a6c2d6a4e162283fbc
+
+outputs.28.1.filename=liftwizard-config-auth-filter-0.7.0.jar
+outputs.28.1.length=4266
+outputs.28.1.checksums.sha512=b7075089d345cb9ee17535fa45d4012ca075cf41b774c9e1d2bc4dee0183ab81d06e9c7add3badf535ff013d79e97efe750c0ce6729d6dbb970d5c605657fcb7
 
 outputs.29.coordinates=io.liftwizard:liftwizard-servlet-logging-mdc-clear-keys
 
-outputs.29.0.filename=liftwizard-servlet-logging-mdc-clear-keys-0.7.0.jar
-outputs.29.0.length=4109
-outputs.29.0.checksums.sha512=2facc7380065aad618314f1d3f0205db906d7baba13e40bf0e1e83b4ef1c363c346e5684b90c2fbf5a6fa95b0185d386b15bb1a33bf96b193be0d60ffe13a844
+outputs.29.0.filename=liftwizard-servlet-logging-mdc-clear-keys-0.7.0.pom
+outputs.29.0.length=1961
+outputs.29.0.checksums.sha512=39a769a7c19dce0532e4773cfb624e49197155894a00bbfdf58404da5b57cb2a6ebd7ed93367709763fc011b7d2a8170ae071c65b6b5e822020e78e3c72df61a
+
+outputs.29.1.filename=liftwizard-servlet-logging-mdc-clear-keys-0.7.0.jar
+outputs.29.1.length=4109
+outputs.29.1.checksums.sha512=2facc7380065aad618314f1d3f0205db906d7baba13e40bf0e1e83b4ef1c363c346e5684b90c2fbf5a6fa95b0185d386b15bb1a33bf96b193be0d60ffe13a844
 
 outputs.30.coordinates=io.liftwizard:liftwizard-bundle-auth-filter
 
-outputs.30.0.filename=liftwizard-bundle-auth-filter-0.7.0.jar
-outputs.30.0.length=6665
-outputs.30.0.checksums.sha512=0caac213ff463e1623d3bb3a89a62f4be7a9e9638a337b044e3ec90bb1613e85737dfd7c8770691e84e756de72ea6917c626c399b33bbe081d5f027bebe5a1bb
+outputs.30.0.filename=liftwizard-bundle-auth-filter-0.7.0.pom
+outputs.30.0.length=3593
+outputs.30.0.checksums.sha512=baeb88f6e5d88868e942e1b965e3aa164c541287205fab2476ac685648bc989c597af80795c0284f95009bc72847254289b3875634765854fd3ab130fe822579
+
+outputs.30.1.filename=liftwizard-bundle-auth-filter-0.7.0.jar
+outputs.30.1.length=6665
+outputs.30.1.checksums.sha512=0caac213ff463e1623d3bb3a89a62f4be7a9e9638a337b044e3ec90bb1613e85737dfd7c8770691e84e756de72ea6917c626c399b33bbe081d5f027bebe5a1bb
 
 outputs.31.coordinates=io.liftwizard:liftwizard-principal-firebase
 
-outputs.31.0.filename=liftwizard-principal-firebase-0.7.0.jar
-outputs.31.0.length=3385
-outputs.31.0.checksums.sha512=df191237cb63595e4a30801c76945e44ebd89f8c3dc10113572849fbc7bffb5c929ecf1d7db712acbfc01cd061f42c480ee5c4ada39b728d4522b956cab67c40
+outputs.31.0.filename=liftwizard-principal-firebase-0.7.0.pom
+outputs.31.0.length=1167
+outputs.31.0.checksums.sha512=ad3113f53b9318468eeb67e6c2a2eaba261d73b7ebbde3280205a1b8f66136c232a7f33eadf0545c619345a707a12cdfc6d7ea5b225d3a43ae5afa425288b770
+
+outputs.31.1.filename=liftwizard-principal-firebase-0.7.0.jar
+outputs.31.1.length=3385
+outputs.31.1.checksums.sha512=df191237cb63595e4a30801c76945e44ebd89f8c3dc10113572849fbc7bffb5c929ecf1d7db712acbfc01cd061f42c480ee5c4ada39b728d4522b956cab67c40
 
 outputs.32.coordinates=io.liftwizard:liftwizard-logging-buffered-appender
 
-outputs.32.0.filename=liftwizard-logging-buffered-appender-0.7.0.jar
-outputs.32.0.length=5004
-outputs.32.0.checksums.sha512=fe0c0b3ab944b310cd85090b25686185c4c09a4d950838f7a2e7a1ee08fc7d36bdf71420bf6977863189f72ad06fc90b1425d05cc776d232f30ad2afe96ec897
+outputs.32.0.filename=liftwizard-logging-buffered-appender-0.7.0.pom
+outputs.32.0.length=1718
+outputs.32.0.checksums.sha512=f6b111ced046c5ae81f9eac94cc99f374d9f7b32330e41e5ec89aef3b0a5f704886868cc60e9d87e3f6afcf24b621a53c7ed6c0a305f8a2bf10b90cbd9a72f36
+
+outputs.32.1.filename=liftwizard-logging-buffered-appender-0.7.0.jar
+outputs.32.1.length=5004
+outputs.32.1.checksums.sha512=fe0c0b3ab944b310cd85090b25686185c4c09a4d950838f7a2e7a1ee08fc7d36bdf71420bf6977863189f72ad06fc90b1425d05cc776d232f30ad2afe96ec897
 
 outputs.33.coordinates=io.liftwizard:liftwizard-utility
 
+outputs.33.0.filename=liftwizard-utility-0.7.0.pom
+outputs.33.0.length=1785
+outputs.33.0.checksums.sha512=11804414017768f0fa0fd78182c8f4e268062919d83de15d397b5014adb978f654b0101541b38961939428016380fee9446dcde3d8ee3cc174bcd6025c0d4839
+
 outputs.34.coordinates=io.liftwizard:liftwizard-junit-rule-log-marker
 
-outputs.34.0.filename=liftwizard-junit-rule-log-marker-0.7.0.jar
-outputs.34.0.length=3531
-outputs.34.0.checksums.sha512=9080b0de1ef8614ae2a676e4100bdc742a7fa4a6692c0b83bb529eb490a440ed2788160bbe3c126b5d667d3569f51c133471a33aa9029296c3b0967f81552232
+outputs.34.0.filename=liftwizard-junit-rule-log-marker-0.7.0.pom
+outputs.34.0.length=1516
+outputs.34.0.checksums.sha512=7528b18bb1bae413ee8f87bd13e57e2f75d9d6dcb46400cb8c0d19275dee0ad03be9cbe7b777cbada89a2fc6ba94d8a3ce0efc2678dc7f7fa1f7a294676d25b2
+
+outputs.34.1.filename=liftwizard-junit-rule-log-marker-0.7.0.jar
+outputs.34.1.length=3531
+outputs.34.1.checksums.sha512=9080b0de1ef8614ae2a676e4100bdc742a7fa4a6692c0b83bb529eb490a440ed2788160bbe3c126b5d667d3569f51c133471a33aa9029296c3b0967f81552232
 
 outputs.35.coordinates=io.liftwizard:liftwizard-config-auth-filter-firebase
 
-outputs.35.0.filename=liftwizard-config-auth-filter-firebase-0.7.0.jar
-outputs.35.0.length=8860
-outputs.35.0.checksums.sha512=7344a33f0de66c5a8775032f1ac0bd33b72c734feacdaa80581fe5669964335b07cbf1f600486a53ecc8634e5efefb8f0c95e8d035a2c4ade7c4d88ddb4523d7
+outputs.35.0.filename=liftwizard-config-auth-filter-firebase-0.7.0.pom
+outputs.35.0.length=4944
+outputs.35.0.checksums.sha512=3c1a4447a15e722ed5895c8b376ebfecb280f7f35968ca75a7735bcdee5af8c39d06a33159119106d36b1d7336627581835d9e6b5c94665d7f58dc2696039aea
+
+outputs.35.1.filename=liftwizard-config-auth-filter-firebase-0.7.0.jar
+outputs.35.1.length=8860
+outputs.35.1.checksums.sha512=7344a33f0de66c5a8775032f1ac0bd33b72c734feacdaa80581fe5669964335b07cbf1f600486a53ecc8634e5efefb8f0c95e8d035a2c4ade7c4d88ddb4523d7
 
 outputs.36.coordinates=io.liftwizard:liftwizard-config-auth-filter-impersonation
 
-outputs.36.0.filename=liftwizard-config-auth-filter-impersonation-0.7.0.jar
-outputs.36.0.length=6692
-outputs.36.0.checksums.sha512=e958f492d6ae8dda7bcbe252f97dadd004f678ea315bde84abb27b8fca8800f815590e9a12e13740040340e9399e6b8a0c82fc818092113e7ddd9bd54895a6e2
+outputs.36.0.filename=liftwizard-config-auth-filter-impersonation-0.7.0.pom
+outputs.36.0.length=4149
+outputs.36.0.checksums.sha512=b4dd4330bfca7c08d7bbe07ac06df55eae6ad5fd756ed198e2c1c05574c8cb2c896f65f8bf56b02d8b9b0f345faf9031154555f4e5656c05326ada8c44cb3cde
+
+outputs.36.1.filename=liftwizard-config-auth-filter-impersonation-0.7.0.jar
+outputs.36.1.length=6692
+outputs.36.1.checksums.sha512=e958f492d6ae8dda7bcbe252f97dadd004f678ea315bde84abb27b8fca8800f815590e9a12e13740040340e9399e6b8a0c82fc818092113e7ddd9bd54895a6e2
 
 outputs.37.coordinates=io.liftwizard:liftwizard-firebase-dependencies
 
+outputs.37.0.filename=liftwizard-firebase-dependencies-0.7.0.pom
+outputs.37.0.length=4061
+outputs.37.0.checksums.sha512=64e7b95c3ba55decd8b2ea769269b3dffc89b184f2709b760eb5aedc800ab39d4856faa37b31ca720e3ae251fc18ec4e4c53c854a343c5b00952b0ac159ed6a2
+
 outputs.38.coordinates=io.liftwizard:liftwizard-config-cors
 
-outputs.38.0.filename=liftwizard-config-cors-0.7.0.jar
-outputs.38.0.length=4234
-outputs.38.0.checksums.sha512=a7f935a7f3e7d0d92bc9800b0951c51a3d74f0c5a96e7a70b5ab55fa481bd179d3581e8f4e326ab161b68569f4155eddcac990724e873b9a05c83171a9ac541c
+outputs.38.0.filename=liftwizard-config-cors-0.7.0.pom
+outputs.38.0.length=1500
+outputs.38.0.checksums.sha512=768f877e3ea8aa5192f3d17eced1a7392b544b4c6812c6f05ef6691cc364cc35e2cb43b37b7dadd98e6259b707b0a0c7783db4cf34cfdd9d9aab902be876c405
+
+outputs.38.1.filename=liftwizard-config-cors-0.7.0.jar
+outputs.38.1.length=4234
+outputs.38.1.checksums.sha512=a7f935a7f3e7d0d92bc9800b0951c51a3d74f0c5a96e7a70b5ab55fa481bd179d3581e8f4e326ab161b68569f4155eddcac990724e873b9a05c83171a9ac541c
 
 outputs.39.coordinates=io.liftwizard:liftwizard-bundle-cors
 
-outputs.39.0.filename=liftwizard-bundle-cors-0.7.0.jar
-outputs.39.0.length=4617
-outputs.39.0.checksums.sha512=0ac244ca660e7a90d044168325db5e03480bbef1a221fbc0eb5b1afdba4deea60d0529387ee7bca5d4b0cd18f835fffd5f25cbe8bae64675711058596f552170
+outputs.39.0.filename=liftwizard-bundle-cors-0.7.0.pom
+outputs.39.0.length=2605
+outputs.39.0.checksums.sha512=1f830100525662d02c234608be89562dfdcb5280bbe2c4a4cae8b1bc75991a3f6aec79fdf7ed428149a2e89882d230993200aa91899c183026168df5c1294f05
+
+outputs.39.1.filename=liftwizard-bundle-cors-0.7.0.jar
+outputs.39.1.length=4617
+outputs.39.1.checksums.sha512=0ac244ca660e7a90d044168325db5e03480bbef1a221fbc0eb5b1afdba4deea60d0529387ee7bca5d4b0cd18f835fffd5f25cbe8bae64675711058596f552170
 
 outputs.40.coordinates=io.liftwizard:liftwizard-ddl-executor
 
-outputs.40.0.filename=liftwizard-ddl-executor-0.7.0.jar
-outputs.40.0.length=5587
-outputs.40.0.checksums.sha512=e519834b9149fb6900a9d0a53202aefa4d2df6442b76b797e60f4d062cd08d0a0ccea0e3ea98256d141b49d9d42c250f6c650c79446ad748468cdfcac4c12246
+outputs.40.0.filename=liftwizard-ddl-executor-0.7.0.pom
+outputs.40.0.length=2106
+outputs.40.0.checksums.sha512=364d6d2bdf528297c29e84ca3946cd7600b22872d96d90ef8a075041ef9579003a15be35eaeb19f0aea6c2ee3021b57f2c71f8a5e89ae77e4efae3f6e8871335
+
+outputs.40.1.filename=liftwizard-ddl-executor-0.7.0.jar
+outputs.40.1.length=5587
+outputs.40.1.checksums.sha512=e519834b9149fb6900a9d0a53202aefa4d2df6442b76b797e60f4d062cd08d0a0ccea0e3ea98256d141b49d9d42c250f6c650c79446ad748468cdfcac4c12246
 
 outputs.41.coordinates=io.liftwizard:liftwizard-config-ddl-executor
 
-outputs.41.0.filename=liftwizard-config-ddl-executor-0.7.0.jar
-outputs.41.0.length=4349
-outputs.41.0.checksums.sha512=efe8d2e579c1d531881a92aba3f7bd0cc6ea6f33f18f49bfcc4022a2ff8aa10a5f38724cbaed017d39ad96c133bbe2499c1873e7045aaf72c94a5e033b9af1da
+outputs.41.0.filename=liftwizard-config-ddl-executor-0.7.0.pom
+outputs.41.0.length=1664
+outputs.41.0.checksums.sha512=2983b61d5720ff459f17727ac12be066b58c1fdafb887ac4386e1b40fa34f40e2efde0e4368c3999245be26a96df3217a8d5995a4caf1a6b1c373f5f8857537b
+
+outputs.41.1.filename=liftwizard-config-ddl-executor-0.7.0.jar
+outputs.41.1.length=4349
+outputs.41.1.checksums.sha512=efe8d2e579c1d531881a92aba3f7bd0cc6ea6f33f18f49bfcc4022a2ff8aa10a5f38724cbaed017d39ad96c133bbe2499c1873e7045aaf72c94a5e033b9af1da
 
 outputs.42.coordinates=io.liftwizard:liftwizard-named-data-source-factory
 
-outputs.42.0.filename=liftwizard-named-data-source-factory-0.7.0.jar
-outputs.42.0.length=3443
-outputs.42.0.checksums.sha512=06036f0622ce948baae93da4db5a46f63b2b9cb55968f920262c299b4728e01b7ee416b7159a5712b400bf1cea9fa6bba1aec9e98825c3c3603cad1b1ea8b021
+outputs.42.0.filename=liftwizard-named-data-source-factory-0.7.0.pom
+outputs.42.0.length=1813
+outputs.42.0.checksums.sha512=bbfcaae7ee4480c9d56389e6cd89c1bb98f420ce4ce99e7e8baa08114a9092b5d75ea0738a2da77e3280b9f756b72a876e0e6529ab5d438e9f54c455b460b2ca
+
+outputs.42.1.filename=liftwizard-named-data-source-factory-0.7.0.jar
+outputs.42.1.length=3443
+outputs.42.1.checksums.sha512=06036f0622ce948baae93da4db5a46f63b2b9cb55968f920262c299b4728e01b7ee416b7159a5712b400bf1cea9fa6bba1aec9e98825c3c3603cad1b1ea8b021
 
 outputs.43.coordinates=io.liftwizard:liftwizard-config-data-source
 
-outputs.43.0.filename=liftwizard-config-data-source-0.7.0.jar
-outputs.43.0.length=7127
-outputs.43.0.checksums.sha512=dbbef29f9283a0f4cba0dd006ed488506682ca87aa9f82072c89d8cd56b2c9158cd57b8246df6e055bd711aa092f75cbbf878e0f82f8482cf27f71d5c87263cd
+outputs.43.0.filename=liftwizard-config-data-source-0.7.0.pom
+outputs.43.0.length=2769
+outputs.43.0.checksums.sha512=678f4fb3ee77e9813f601f3588c118790a6b41693725fd4344accad4fb5177993f06857f81aaca7922eddd9fd793746d62834b6b8c8456cff971f7be7a654b18
+
+outputs.43.1.filename=liftwizard-config-data-source-0.7.0.jar
+outputs.43.1.length=7127
+outputs.43.1.checksums.sha512=dbbef29f9283a0f4cba0dd006ed488506682ca87aa9f82072c89d8cd56b2c9158cd57b8246df6e055bd711aa092f75cbbf878e0f82f8482cf27f71d5c87263cd
 
 outputs.44.coordinates=io.liftwizard:liftwizard-bundle-ddl-executor
 
-outputs.44.0.filename=liftwizard-bundle-ddl-executor-0.7.0.jar
-outputs.44.0.length=5166
-outputs.44.0.checksums.sha512=adf7e1327715a189c38bf6ab00e0745e7de7f333b69ed59c535ddb415539549ef87625d8778c03426fec9dc7b03bba990701048e44719d831cbe5b0d6e7a81e5
+outputs.44.0.filename=liftwizard-bundle-ddl-executor-0.7.0.pom
+outputs.44.0.length=2602
+outputs.44.0.checksums.sha512=9e4bd984e278028497c99e6f37c29f22b5dd9da4795b212e6a69f36c3a5a2c7cac66e48e072a5d47f0f35e4c365389c082bf5a2000c528cfbd9cbdf99a816c44
+
+outputs.44.1.filename=liftwizard-bundle-ddl-executor-0.7.0.jar
+outputs.44.1.length=5166
+outputs.44.1.checksums.sha512=adf7e1327715a189c38bf6ab00e0745e7de7f333b69ed59c535ddb415539549ef87625d8778c03426fec9dc7b03bba990701048e44719d831cbe5b0d6e7a81e5
 
 outputs.45.coordinates=io.liftwizard:liftwizard-config-graphql
 
-outputs.45.0.filename=liftwizard-config-graphql-0.7.0.jar
-outputs.45.0.length=2924
-outputs.45.0.checksums.sha512=0d96ddc133aa76a61fbfa833dcb4ccdbe20c1248bcccad28c1a43e3936025d7dcfd11af0f71b7689b2560875147654d4014ab46f92ecc141fc459706d0303c3a
+outputs.45.0.filename=liftwizard-config-graphql-0.7.0.pom
+outputs.45.0.length=1355
+outputs.45.0.checksums.sha512=6abf99e153da5a650703d8c4caaa1ba1b4d0baa027f8f40da7285b61053907858b6c640b75eb91026dce0f6812416886419cc90fa1458e73923bba023b454830
+
+outputs.45.1.filename=liftwizard-config-graphql-0.7.0.jar
+outputs.45.1.length=2924
+outputs.45.1.checksums.sha512=0d96ddc133aa76a61fbfa833dcb4ccdbe20c1248bcccad28c1a43e3936025d7dcfd11af0f71b7689b2560875147654d4014ab46f92ecc141fc459706d0303c3a
 
 outputs.46.coordinates=io.liftwizard:liftwizard-bundle-graphql
 
-outputs.46.0.filename=liftwizard-bundle-graphql-0.7.0.jar
-outputs.46.0.length=6660
-outputs.46.0.checksums.sha512=9545d948c7ead07525ea9db7ef823651ab10ef92c90221429bb90672b92f768839801476a8a3deab9bfff87efd7b97c8c90b237384a9857c0240d8dde93e5f1f
+outputs.46.0.filename=liftwizard-bundle-graphql-0.7.0.pom
+outputs.46.0.length=2410
+outputs.46.0.checksums.sha512=277d5021ae31451297dcc70cb6a28b765d07df4d46b2ac1a6e0dcb87d2edb3ab4f73823dad12215c82e21a68ad03aedd0b7ad28ff79d382e3ecdcd9744fbba8d
+
+outputs.46.1.filename=liftwizard-bundle-graphql-0.7.0.jar
+outputs.46.1.length=6660
+outputs.46.1.checksums.sha512=9545d948c7ead07525ea9db7ef823651ab10ef92c90221429bb90672b92f768839801476a8a3deab9bfff87efd7b97c8c90b237384a9857c0240d8dde93e5f1f
 
 outputs.47.coordinates=io.liftwizard:liftwizard-config-h2
 
-outputs.47.0.filename=liftwizard-config-h2-0.7.0.jar
-outputs.47.0.length=4263
-outputs.47.0.checksums.sha512=30e053d1e0fb2e315438629472d4267f4dff63a4016d143b25261d011d4b49617e18db1c86c41048de53472b44ea6bf8ecbf8c9237c3b93d0d52ef949f3a2747
+outputs.47.0.filename=liftwizard-config-h2-0.7.0.pom
+outputs.47.0.length=1496
+outputs.47.0.checksums.sha512=cf88aad52926086db48104624dea0391f54fafb5f286eda576f3dc22399e57fb5771926505227647f69a8a881df4c00d8bbf313d53db6d8a596479a1c0e6c77c
+
+outputs.47.1.filename=liftwizard-config-h2-0.7.0.jar
+outputs.47.1.length=4263
+outputs.47.1.checksums.sha512=30e053d1e0fb2e315438629472d4267f4dff63a4016d143b25261d011d4b49617e18db1c86c41048de53472b44ea6bf8ecbf8c9237c3b93d0d52ef949f3a2747
 
 outputs.48.coordinates=io.liftwizard:liftwizard-bundle-h2
 
-outputs.48.0.filename=liftwizard-bundle-h2-0.7.0.jar
-outputs.48.0.length=6696
-outputs.48.0.checksums.sha512=225fb9f1125baa8b52eaef98ca0b1732716ec38451287e3b78645306d6f1f3f62aa4e491831a49ee1a8b7f704130409a8b72a09ef3ac8b198c3aa9490f50fd87
+outputs.48.0.filename=liftwizard-bundle-h2-0.7.0.pom
+outputs.48.0.length=2926
+outputs.48.0.checksums.sha512=b05f7966eb5aaa430c2ab3b21af954ee31e18ae35264e2e9ff6b3fd6c53eb0908dcecf5a5b2bda1217ca22c663eb5438dc590076dd95b743244e61ad52e820f3
+
+outputs.48.1.filename=liftwizard-bundle-h2-0.7.0.jar
+outputs.48.1.length=6696
+outputs.48.1.checksums.sha512=225fb9f1125baa8b52eaef98ca0b1732716ec38451287e3b78645306d6f1f3f62aa4e491831a49ee1a8b7f704130409a8b72a09ef3ac8b198c3aa9490f50fd87
 
 outputs.49.coordinates=io.liftwizard:liftwizard-clock-incrementing
 
-outputs.49.0.filename=liftwizard-clock-incrementing-0.7.0.jar
-outputs.49.0.length=3276
-outputs.49.0.checksums.sha512=3cf6cf1d268375c854a6554bcefda5148a2a170082935f75c47de8ad4138aa3abcaf86ae4cb83a3c278307bf536c0b49b8abb5c824197c32bad864448fba275f
+outputs.49.0.filename=liftwizard-clock-incrementing-0.7.0.pom
+outputs.49.0.length=1208
+outputs.49.0.checksums.sha512=080ee18f99f4702f76366f50ac130a0d55351e3f4b1b48f4a9c1c183af8d8e9b156c954fbac0e458fafcd2e807d56e0bcabb51dffb9bf17e65a6c951679e0699
+
+outputs.49.1.filename=liftwizard-clock-incrementing-0.7.0.jar
+outputs.49.1.length=3276
+outputs.49.1.checksums.sha512=3cf6cf1d268375c854a6554bcefda5148a2a170082935f75c47de8ad4138aa3abcaf86ae4cb83a3c278307bf536c0b49b8abb5c824197c32bad864448fba275f
 
 outputs.50.coordinates=io.liftwizard:liftwizard-config-clock-fixed
 
-outputs.50.0.filename=liftwizard-config-clock-fixed-0.7.0.jar
-outputs.50.0.length=4846
-outputs.50.0.checksums.sha512=36f439c76a4feab8462c7730f6359a420a9acef62e0830d1b022565dc1200e3baf5ee473e1218df849dd1d8331ab4d9317892b5c8672f2ba34ffdacb70c013b1
+outputs.50.0.filename=liftwizard-config-clock-fixed-0.7.0.pom
+outputs.50.0.length=3738
+outputs.50.0.checksums.sha512=b75cb4729b59fdd79f124f16b34a478ce7339312737522bf29610e93af673a2b60d90c95e39f35e73beb89f109ed9d28a2fc3f62e7791c012a73c552f116afd9
+
+outputs.50.1.filename=liftwizard-config-clock-fixed-0.7.0.jar
+outputs.50.1.length=4846
+outputs.50.1.checksums.sha512=36f439c76a4feab8462c7730f6359a420a9acef62e0830d1b022565dc1200e3baf5ee473e1218df849dd1d8331ab4d9317892b5c8672f2ba34ffdacb70c013b1
 
 outputs.51.coordinates=io.liftwizard:liftwizard-config-clock-incrementing
 
-outputs.51.0.filename=liftwizard-config-clock-incrementing-0.7.0.jar
-outputs.51.0.length=5311
-outputs.51.0.checksums.sha512=fd5e70a4b7b2bd0a526d4c9393c91bbe7f21ead329f4ba2015a96e2e03b89f092fde07bcb938221cebb284452747474bf6dd2f25084d8ec7386974f15449d5e9
+outputs.51.0.filename=liftwizard-config-clock-incrementing-0.7.0.pom
+outputs.51.0.length=4100
+outputs.51.0.checksums.sha512=31340d4b4866f5976e44919549174f5e8e1892c5fb803e42e9bc617627bdccdf0f07c510880b086ec406c57f837ea4ba97a779f97a1378d8f9ca0c2a41009641
+
+outputs.51.1.filename=liftwizard-config-clock-incrementing-0.7.0.jar
+outputs.51.1.length=5311
+outputs.51.1.checksums.sha512=fd5e70a4b7b2bd0a526d4c9393c91bbe7f21ead329f4ba2015a96e2e03b89f092fde07bcb938221cebb284452747474bf6dd2f25084d8ec7386974f15449d5e9
 
 outputs.52.coordinates=io.liftwizard:liftwizard-config-clock-system
 
-outputs.52.0.filename=liftwizard-config-clock-system-0.7.0.jar
-outputs.52.0.length=4022
-outputs.52.0.checksums.sha512=43af6c377ab6b49402cbb0159900af68ff69e241aafe048c58de6e4b40b3bdd08a8bb0c74c7e344f9bb370331a43b095684200e4e630b672685c83a854062221
+outputs.52.0.filename=liftwizard-config-clock-system-0.7.0.pom
+outputs.52.0.length=3624
+outputs.52.0.checksums.sha512=4fb3be450a2305aab78395b0c044d6271508df0655f744db81f9b9b600c29422a8322637fafa74f2e5193e36ba9bd9b2af0e26a58676cb5bf0682b9f6c9b9e41
+
+outputs.52.1.filename=liftwizard-config-clock-system-0.7.0.jar
+outputs.52.1.length=4022
+outputs.52.1.checksums.sha512=43af6c377ab6b49402cbb0159900af68ff69e241aafe048c58de6e4b40b3bdd08a8bb0c74c7e344f9bb370331a43b095684200e4e630b672685c83a854062221
 
 outputs.53.coordinates=io.liftwizard:liftwizard-config-enabled
 
-outputs.53.0.filename=liftwizard-config-enabled-0.7.0.jar
-outputs.53.0.length=3194
-outputs.53.0.checksums.sha512=3b8049266412a04883a8642599b781621df0b705b898f5fa8dcd72d7c48bafe9b6980d7c5e5ccfc0985265cb8530e29a0ae41483ce1510cab2e6507e01b02145
+outputs.53.0.filename=liftwizard-config-enabled-0.7.0.pom
+outputs.53.0.length=1361
+outputs.53.0.checksums.sha512=d5f8237354ece48172676cbf8a5633b5d3370d80d56b7048ff9ae15415715aae20104742c2161583cb31854c36a6097943e04ea2c93dfbff0ba0633f92a10654
+
+outputs.53.1.filename=liftwizard-config-enabled-0.7.0.jar
+outputs.53.1.length=3194
+outputs.53.1.checksums.sha512=3b8049266412a04883a8642599b781621df0b705b898f5fa8dcd72d7c48bafe9b6980d7c5e5ccfc0985265cb8530e29a0ae41483ce1510cab2e6507e01b02145
 
 outputs.54.coordinates=io.liftwizard:liftwizard-config-logging-config
 
-outputs.54.0.filename=liftwizard-config-logging-config-0.7.0.jar
-outputs.54.0.length=3174
-outputs.54.0.checksums.sha512=1584ba861dce671809a19f9c995c54cef703c0784b4d5087c4ea34b68d106ed5d794379559fec5726b827c1156e75d4f4840886c03863a6c71ac0562fd3a674e
+outputs.54.0.filename=liftwizard-config-logging-config-0.7.0.pom
+outputs.54.0.length=1420
+outputs.54.0.checksums.sha512=23ac651f2e14ce81269e2eaa3b9769f85bdb7c52b2ba517bc984977cdeb69a8b3b2a60e2abcddfaf1c22168bd3db025edf7fdb0ceab2197a39c6ea037f828b69
+
+outputs.54.1.filename=liftwizard-config-logging-config-0.7.0.jar
+outputs.54.1.length=3174
+outputs.54.1.checksums.sha512=1584ba861dce671809a19f9c995c54cef703c0784b4d5087c4ea34b68d106ed5d794379559fec5726b827c1156e75d4f4840886c03863a6c71ac0562fd3a674e
 
 outputs.55.coordinates=io.liftwizard:liftwizard-config-logging-buffered
 
-outputs.55.0.filename=liftwizard-config-logging-buffered-0.7.0.jar
-outputs.55.0.length=5710
-outputs.55.0.checksums.sha512=d4829d59598ae167c949da444e575ee1b7e0af1ff36262d1aed77b4ffe27b3cdf76bf3a3a9810404bc48277729a3cc01c6de4233a748a936614030072688ee3a
+outputs.55.0.filename=liftwizard-config-logging-buffered-0.7.0.pom
+outputs.55.0.length=2392
+outputs.55.0.checksums.sha512=61dbf4defffbe0d0c71ddc47ff0da2051560e13fad93a91f739a81070b542f7f4f64d08e88f1d01f380bcfb4d5a259d0cbbb84c245ae9d3342980b98eddaa264
+
+outputs.55.1.filename=liftwizard-config-logging-buffered-0.7.0.jar
+outputs.55.1.length=5710
+outputs.55.1.checksums.sha512=d4829d59598ae167c949da444e575ee1b7e0af1ff36262d1aed77b4ffe27b3cdf76bf3a3a9810404bc48277729a3cc01c6de4233a748a936614030072688ee3a
 
 outputs.56.coordinates=io.liftwizard:liftwizard-bundle-logging-config
 
-outputs.56.0.filename=liftwizard-bundle-logging-config-0.7.0.jar
-outputs.56.0.length=4867
-outputs.56.0.checksums.sha512=045782d84399b11bf3b4f7b50e859d44abf24e045809efd00be3b8864a73ab853027e987c2d98fd5b27002328414544280878f0648dc003977d964b3f64d31c5
+outputs.56.0.filename=liftwizard-bundle-logging-config-0.7.0.pom
+outputs.56.0.length=2713
+outputs.56.0.checksums.sha512=acfea696fceb058b7a1fa3a0eeb71d1a1e186677204d2ac6a7c19807c33b5daa5dc77b6086cb57646e16a79f3738cb95a6dc87642f996015645062881eeb4134
+
+outputs.56.1.filename=liftwizard-bundle-logging-config-0.7.0.jar
+outputs.56.1.length=4867
+outputs.56.1.checksums.sha512=045782d84399b11bf3b4f7b50e859d44abf24e045809efd00be3b8864a73ab853027e987c2d98fd5b27002328414544280878f0648dc003977d964b3f64d31c5
 
 outputs.57.coordinates=io.liftwizard:liftwizard-jackson
 
+outputs.57.0.filename=liftwizard-jackson-0.7.0.pom
+outputs.57.0.length=1834
+outputs.57.0.checksums.sha512=4e5429093218dbb4e7683649b62f85413b7f6adf530ba1892a158afd35b0c31be61b40d4cc0eb8b46cf3a68bab8fa9a843c44f88ce3c879563eeb4eaaf3ca6b1
+
 outputs.58.coordinates=io.liftwizard:liftwizard-config-object-mapper
 
-outputs.58.0.filename=liftwizard-config-object-mapper-0.7.0.jar
-outputs.58.0.length=4135
-outputs.58.0.checksums.sha512=ca42cc42b9b6cd4a84d11732afe805a579a3d2585468c9a73d8d9508b0ad001db3ab606d44e49caf89b5901f43e27aa5afd81cb46be5cafa23187fe5b3985d4b
+outputs.58.0.filename=liftwizard-config-object-mapper-0.7.0.pom
+outputs.58.0.length=1519
+outputs.58.0.checksums.sha512=ebdc5ededa207b7d23ba769dd3773f96f1e7eff13412e006be8056cbf57222e5564a16b796da87e93af3100ac86ae5a8f5bd8615dddd09df9255651f6e07476d
+
+outputs.58.1.filename=liftwizard-config-object-mapper-0.7.0.jar
+outputs.58.1.length=4135
+outputs.58.1.checksums.sha512=ca42cc42b9b6cd4a84d11732afe805a579a3d2585468c9a73d8d9508b0ad001db3ab606d44e49caf89b5901f43e27aa5afd81cb46be5cafa23187fe5b3985d4b
 
 outputs.59.coordinates=io.liftwizard:liftwizard-jackson-pretty-printer
 
-outputs.59.0.filename=liftwizard-jackson-pretty-printer-0.7.0.jar
-outputs.59.0.length=5174
-outputs.59.0.checksums.sha512=862f63e3c5e701bea4b5220f07ae07d9458cf07244edf93f8d1dfba983ed076b3939ae6b5128578415fe70a89ad5e39c493fa9f8da88a717c576c50469276536
+outputs.59.0.filename=liftwizard-jackson-pretty-printer-0.7.0.pom
+outputs.59.0.length=1530
+outputs.59.0.checksums.sha512=4f8a608f825a6337ce07cf24159738eb1508a8db609004c0207c31a1ce4d203a44a2c602420acfbabee77bf7daee99ea4122cd582d37aa791ec581aab448b5ed
+
+outputs.59.1.filename=liftwizard-jackson-pretty-printer-0.7.0.jar
+outputs.59.1.length=5174
+outputs.59.1.checksums.sha512=862f63e3c5e701bea4b5220f07ae07d9458cf07244edf93f8d1dfba983ed076b3939ae6b5128578415fe70a89ad5e39c493fa9f8da88a717c576c50469276536
 
 outputs.60.coordinates=io.liftwizard:liftwizard-jackson-config
 
-outputs.60.0.filename=liftwizard-jackson-config-0.7.0.jar
-outputs.60.0.length=4245
-outputs.60.0.checksums.sha512=7da74500f92be6eaaad11a6fcb855b5518296835b6beb5c8fb70d1bcbe40d1a2958d163ddb30e8ab202126d08433bf3b4ad0450ff5792a3e365dee128008ffe4
+outputs.60.0.filename=liftwizard-jackson-config-0.7.0.pom
+outputs.60.0.length=2046
+outputs.60.0.checksums.sha512=d0b4a0fbe0c2e6dd823ca998eb9e850dfb164224520fa9ebcb3e2cdd780ab79bd0b58dd305ff6a64ad70b0a3793488a535d3dbc1450200c801893294c75c9bcb
+
+outputs.60.1.filename=liftwizard-jackson-config-0.7.0.jar
+outputs.60.1.length=4245
+outputs.60.1.checksums.sha512=7da74500f92be6eaaad11a6fcb855b5518296835b6beb5c8fb70d1bcbe40d1a2958d163ddb30e8ab202126d08433bf3b4ad0450ff5792a3e365dee128008ffe4
 
 outputs.61.coordinates=io.liftwizard:liftwizard-bundle-object-mapper
 
-outputs.61.0.filename=liftwizard-bundle-object-mapper-0.7.0.jar
-outputs.61.0.length=4591
-outputs.61.0.checksums.sha512=d3bc7e3aa98d5d89b407daa076b99bc41e536b484100b549819b88a4e827c12dd632c78c872179cb0b0d852a9b2b8c53f4c8e07a1282fda796a20a506ede2687
+outputs.61.0.filename=liftwizard-bundle-object-mapper-0.7.0.pom
+outputs.61.0.length=2862
+outputs.61.0.checksums.sha512=515ab962a41e254ae54be218f7152e6fd7c1585a72cb2ad6b3755b058b7b3bf51aa49fb79bb1edb23be1968763f25102044336d01036a4477368dab2fd306c06
+
+outputs.61.1.filename=liftwizard-bundle-object-mapper-0.7.0.jar
+outputs.61.1.length=4591
+outputs.61.1.checksums.sha512=d3bc7e3aa98d5d89b407daa076b99bc41e536b484100b549819b88a4e827c12dd632c78c872179cb0b0d852a9b2b8c53f4c8e07a1282fda796a20a506ede2687
 
 outputs.62.coordinates=io.liftwizard:liftwizard-config-uuid-system
 
-outputs.62.0.filename=liftwizard-config-uuid-system-0.7.0.jar
-outputs.62.0.length=4721
-outputs.62.0.checksums.sha512=74857cb41d89eed5543da751205b9c0de666dc5115cca85e4f7ebdf2838afb927f08501794f7d39b30d13d9016d5298c57e96770a90b59609785dab87e853512
+outputs.62.0.filename=liftwizard-config-uuid-system-0.7.0.pom
+outputs.62.0.length=3620
+outputs.62.0.checksums.sha512=642c2b68789140673136d9ce4a3831937323df2105c8a58a0e2ede58906e8af9a6aab236566c09c41254d1d631cb5b4e0fd592f6215d82a64f948410d1e67ac2
+
+outputs.62.1.filename=liftwizard-config-uuid-system-0.7.0.jar
+outputs.62.1.length=4721
+outputs.62.1.checksums.sha512=74857cb41d89eed5543da751205b9c0de666dc5115cca85e4f7ebdf2838afb927f08501794f7d39b30d13d9016d5298c57e96770a90b59609785dab87e853512
 
 outputs.63.coordinates=io.liftwizard:liftwizard-bundle-named-data-source
 
-outputs.63.0.filename=liftwizard-bundle-named-data-source-0.7.0.jar
-outputs.63.0.length=4567
-outputs.63.0.checksums.sha512=dca2730723353bb809f57a23765ed858fa044c65bbe34cae6a1d4898b9ef83cd3fba655eed837163083a544928fbad09836c10dd7a28757decb5e9d3dd1555a0
+outputs.63.0.filename=liftwizard-bundle-named-data-source-0.7.0.pom
+outputs.63.0.length=2208
+outputs.63.0.checksums.sha512=6a6b17de051b6b127164d97f881c35fe23e59aee1b74145a123046c38be69aa2e6b78734dfd030df920e1b8be245fae83ac4a7e4634d76ae43dc87224779de54
+
+outputs.63.1.filename=liftwizard-bundle-named-data-source-0.7.0.jar
+outputs.63.1.length=4567
+outputs.63.1.checksums.sha512=dca2730723353bb809f57a23765ed858fa044c65bbe34cae6a1d4898b9ef83cd3fba655eed837163083a544928fbad09836c10dd7a28757decb5e9d3dd1555a0
 
 outputs.64.coordinates=io.liftwizard:liftwizard-connection-manager
 
-outputs.64.0.filename=liftwizard-connection-manager-0.7.0.jar
-outputs.64.0.length=3610
-outputs.64.0.checksums.sha512=85e528fbd90d29d0f285eace10e8d992363881827ad0d3893f5b6c19bc3407a0d464efde960745abd6a42c0cb9ea244e82811d835c797326e81cdf2e0987d901
+outputs.64.0.filename=liftwizard-connection-manager-0.7.0.pom
+outputs.64.0.length=1359
+outputs.64.0.checksums.sha512=2e45a103ca592eb3446d5f02067b6050de2cdbe956947cc75e9c343afa7c26f153b1835698ecea62b8b179b51a673d0094c02094eea89b47efba9d85aac12cb4
+
+outputs.64.1.filename=liftwizard-connection-manager-0.7.0.jar
+outputs.64.1.length=3610
+outputs.64.1.checksums.sha512=85e528fbd90d29d0f285eace10e8d992363881827ad0d3893f5b6c19bc3407a0d464efde960745abd6a42c0cb9ea244e82811d835c797326e81cdf2e0987d901
 
 outputs.65.coordinates=io.liftwizard:liftwizard-config-connection-manager
 
-outputs.65.0.filename=liftwizard-config-connection-manager-0.7.0.jar
-outputs.65.0.length=10710
-outputs.65.0.checksums.sha512=0dda65c31dab295686aa38baedf81c94ad03c913aef66b58dd3f91c3f715a23e4fbeea4def3332d5e0c65eeafe602d8859e30be6b4c4b8eab9268d210c02e6dc
+outputs.65.0.filename=liftwizard-config-connection-manager-0.7.0.pom
+outputs.65.0.length=4418
+outputs.65.0.checksums.sha512=1d614404ded2615cd3b88d7901dffbc3809affb654ac0f69419f1430b19428d459114470e9faebc180d90a40fb433c8adefbdeaace47c5f0f57887f90695c91d
+
+outputs.65.1.filename=liftwizard-config-connection-manager-0.7.0.jar
+outputs.65.1.length=10710
+outputs.65.1.checksums.sha512=0dda65c31dab295686aa38baedf81c94ad03c913aef66b58dd3f91c3f715a23e4fbeea4def3332d5e0c65eeafe602d8859e30be6b4c4b8eab9268d210c02e6dc
 
 outputs.66.coordinates=io.liftwizard:liftwizard-bundle-connection-manager
 
-outputs.66.0.filename=liftwizard-bundle-connection-manager-0.7.0.jar
-outputs.66.0.length=4790
-outputs.66.0.checksums.sha512=ee1157e3a61ba893ee718253cd535769f8e4482bfa2cdb3da60b87c464628638278ab4669759d859a7e39d25ce528af26f6717bd530d5df6ab305a1bc6530dea
+outputs.66.0.filename=liftwizard-bundle-connection-manager-0.7.0.pom
+outputs.66.0.length=2731
+outputs.66.0.checksums.sha512=dc480500977a8301d66aa2165d39f01621ccce132453ea7827e1073bef4ef6b665fdf9f6b5e27cb8e5a75ff3276adbb2d9499f11173923d20bb071e7457612ee
+
+outputs.66.1.filename=liftwizard-bundle-connection-manager-0.7.0.jar
+outputs.66.1.length=4790
+outputs.66.1.checksums.sha512=ee1157e3a61ba893ee718253cd535769f8e4482bfa2cdb3da60b87c464628638278ab4669759d859a7e39d25ce528af26f6717bd530d5df6ab305a1bc6530dea
 
 outputs.67.coordinates=io.liftwizard:liftwizard-connection-manager-holder
 
-outputs.67.0.filename=liftwizard-connection-manager-holder-0.7.0.jar
-outputs.67.0.length=4659
-outputs.67.0.checksums.sha512=39d49e161424e05d7f71303e1c30e9f97f0877422ede3c78f9ed785d32a5449ea8642f1ca9cc7d315494699f30e3cc0c287c10ca7a4191ecfa0232204a3a9105
+outputs.67.0.filename=liftwizard-connection-manager-holder-0.7.0.pom
+outputs.67.0.length=1843
+outputs.67.0.checksums.sha512=e8872cdbc53176201ef9a86e344a95d55abdaff86ca4e21b9f8201812f5e9a096722393177c1751d093bea8767f6ed914d9c81de8756d0b2e9f9659506c5d144
+
+outputs.67.1.filename=liftwizard-connection-manager-holder-0.7.0.jar
+outputs.67.1.length=4659
+outputs.67.1.checksums.sha512=39d49e161424e05d7f71303e1c30e9f97f0877422ede3c78f9ed785d32a5449ea8642f1ca9cc7d315494699f30e3cc0c287c10ca7a4191ecfa0232204a3a9105
 
 outputs.68.coordinates=io.liftwizard:liftwizard-bundle-connection-manager-holder
 
-outputs.68.0.filename=liftwizard-bundle-connection-manager-holder-0.7.0.jar
-outputs.68.0.length=5083
-outputs.68.0.checksums.sha512=d6e2d0e299aa0587c9d6577e665acccac68fd656f888eafdc3573338da2876225cb1cffe13c6a1ef0b281ef29ee10e6190b2a255201ca593e24927478ec91df9
+outputs.68.0.filename=liftwizard-bundle-connection-manager-holder-0.7.0.pom
+outputs.68.0.length=2759
+outputs.68.0.checksums.sha512=07a708e064efa413d588c0110f3d7b155789d72a17d7f5b362b0ba05de5cd405afe7bf70064188881f261aaef1dd399c4f63338b62922654aa31ef5877902e59
+
+outputs.68.1.filename=liftwizard-bundle-connection-manager-holder-0.7.0.jar
+outputs.68.1.length=5083
+outputs.68.1.checksums.sha512=d6e2d0e299aa0587c9d6577e665acccac68fd656f888eafdc3573338da2876225cb1cffe13c6a1ef0b281ef29ee10e6190b2a255201ca593e24927478ec91df9
 
 outputs.69.coordinates=io.liftwizard:liftwizard-config-reladomo
 
-outputs.69.0.filename=liftwizard-config-reladomo-0.7.0.jar
-outputs.69.0.length=4281
-outputs.69.0.checksums.sha512=168b67ef1e46ca0107c92964f88de6c616d5e976df6fbf54ab397ebb7735b7175a2b7aceddda23050a9baafb7afb5c761627d08df0c64065ccf79b26287931ed
+outputs.69.0.filename=liftwizard-config-reladomo-0.7.0.pom
+outputs.69.0.length=1968
+outputs.69.0.checksums.sha512=30afbc3369ee049d5c8a27975ac7cba1e301204ef339c13cec0cca344fdc8d80e60212f9b85ad9d9f138b802c4d5bb0fb60a025fe91ec41f3bae24ac122fa0e1
+
+outputs.69.1.filename=liftwizard-config-reladomo-0.7.0.jar
+outputs.69.1.length=4281
+outputs.69.1.checksums.sha512=168b67ef1e46ca0107c92964f88de6c616d5e976df6fbf54ab397ebb7735b7175a2b7aceddda23050a9baafb7afb5c761627d08df0c64065ccf79b26287931ed
 
 outputs.70.coordinates=io.liftwizard:liftwizard-bundle-reladomo
 
-outputs.70.0.filename=liftwizard-bundle-reladomo-0.7.0.jar
-outputs.70.0.length=6816
-outputs.70.0.checksums.sha512=e004cdf881849b14e4af9fa1a16d9847f0ef302f6071b0b5a999a6fb22191ee435d5d8c1a298a168ff44fd54291d7bb9fa54e00007af5e8ca159116c255329d9
+outputs.70.0.filename=liftwizard-bundle-reladomo-0.7.0.pom
+outputs.70.0.length=2770
+outputs.70.0.checksums.sha512=adc4863e6f53972cbd5f51baec56737309e2c30cec0b87338ec9f70e961bf3657593d2cc42e44851abfa5af4c0500e6ece78c3e76c245663cbe5ec6c63e8c5f3
+
+outputs.70.1.filename=liftwizard-bundle-reladomo-0.7.0.jar
+outputs.70.1.length=6816
+outputs.70.1.checksums.sha512=e004cdf881849b14e4af9fa1a16d9847f0ef302f6071b0b5a999a6fb22191ee435d5d8c1a298a168ff44fd54291d7bb9fa54e00007af5e8ca159116c255329d9
 
 outputs.71.coordinates=io.liftwizard:liftwizard-config-logging-http
 
-outputs.71.0.filename=liftwizard-config-logging-http-0.7.0.jar
-outputs.71.0.length=4255
-outputs.71.0.checksums.sha512=6f9c2350b3cc84765d49ae79f9a522b8db3331ae274f7a163ae52b8b618d3c198c143404cc305691a6cd1403c7f14deaffc5969ef868622e3edd3e7d5b04196a
+outputs.71.0.filename=liftwizard-config-logging-http-0.7.0.pom
+outputs.71.0.length=1659
+outputs.71.0.checksums.sha512=b58460de5a9a3427a2f5256179bfcd97f84b7c48eada941485b2a395b69638c70e7336444c7ff863096361f1bcf5d0f176384d62dc21427bd0e0c41180aecd08
+
+outputs.71.1.filename=liftwizard-config-logging-http-0.7.0.jar
+outputs.71.1.length=4255
+outputs.71.1.checksums.sha512=6f9c2350b3cc84765d49ae79f9a522b8db3331ae274f7a163ae52b8b618d3c198c143404cc305691a6cd1403c7f14deaffc5969ef868622e3edd3e7d5b04196a
 
 outputs.72.coordinates=io.liftwizard:liftwizard-bundle-logging-http
 
-outputs.72.0.filename=liftwizard-bundle-logging-http-0.7.0.jar
-outputs.72.0.length=4747
-outputs.72.0.checksums.sha512=ce1ea893250befc5d38e422ea773037a3ff1110acc47e5fddd7da58444cb022af4046364e53e40e177b7259c8804acf467acc0255715461249a4fdb7ab82f4d9
+outputs.72.0.filename=liftwizard-bundle-logging-http-0.7.0.pom
+outputs.72.0.length=2636
+outputs.72.0.checksums.sha512=d9b8fd789db602ff184e15e6a81f03fd21cd16871b47415d2e946a027d82dfbc34c970bf0a97cc84aa1044b2cf304a7f0e27b188ce342e3934f938efcb5cce40
+
+outputs.72.1.filename=liftwizard-bundle-logging-http-0.7.0.jar
+outputs.72.1.length=4747
+outputs.72.1.checksums.sha512=ce1ea893250befc5d38e422ea773037a3ff1110acc47e5fddd7da58444cb022af4046364e53e40e177b7259c8804acf467acc0255715461249a4fdb7ab82f4d9
 
 outputs.73.coordinates=io.liftwizard:liftwizard-config-logging-logstash-file
 
-outputs.73.0.filename=liftwizard-config-logging-logstash-file-0.7.0.jar
-outputs.73.0.length=10421
-outputs.73.0.checksums.sha512=647113f39a1575bd392394c814a42416697e67f388de4314030f720f45e883e42d531d11c7f1ca78230dc5248618dd0be045c62377df82eacd0e441c47003ebf
+outputs.73.0.filename=liftwizard-config-logging-logstash-file-0.7.0.pom
+outputs.73.0.length=3650
+outputs.73.0.checksums.sha512=75fbbbb5891bebb8b91e106499eecd5dcb577976e83a6e9593d3d143a40d9660130b54518922fcb871537c329da60ea65968cd043b80d5bf6c2d074fa2e17956
+
+outputs.73.1.filename=liftwizard-config-logging-logstash-file-0.7.0.jar
+outputs.73.1.length=10421
+outputs.73.1.checksums.sha512=647113f39a1575bd392394c814a42416697e67f388de4314030f720f45e883e42d531d11c7f1ca78230dc5248618dd0be045c62377df82eacd0e441c47003ebf
 
 outputs.74.coordinates=io.liftwizard:liftwizard-config-uuid-seed
 
-outputs.74.0.filename=liftwizard-config-uuid-seed-0.7.0.jar
-outputs.74.0.length=5342
-outputs.74.0.checksums.sha512=3179e215e5d3dc303b53874711adb4e2ce909d11debc412c3b1bb77bd5c84605e55781451716b3ee16087a95536a7f8e155d68adc253fc7b6611f101c0968376
+outputs.74.0.filename=liftwizard-config-uuid-seed-0.7.0.pom
+outputs.74.0.length=3584
+outputs.74.0.checksums.sha512=13e5336998d5c9154fc18e17b8b9ccb2d1f608bc69ee13ebb15b4d7a4d89d413a649db72b254e81bd9cd96a2135768993823a589551373e0d7fdcc700e0d5b08
+
+outputs.74.1.filename=liftwizard-config-uuid-seed-0.7.0.jar
+outputs.74.1.length=5342
+outputs.74.1.checksums.sha512=3179e215e5d3dc303b53874711adb4e2ce909d11debc412c3b1bb77bd5c84605e55781451716b3ee16087a95536a7f8e155d68adc253fc7b6611f101c0968376
 
 outputs.75.coordinates=io.liftwizard:liftwizard-connection-manager-h2-memory
 
-outputs.75.0.filename=liftwizard-connection-manager-h2-memory-0.7.0.jar
-outputs.75.0.length=4464
-outputs.75.0.checksums.sha512=4d6fdd19efe8ed6411ce5e908d2723126c9c2b900656b41684c9ac3bb78645512dc9565ded6e99b3bb1a8ddd205b01484def594ed160e11b502bbe02572c82d3
+outputs.75.0.filename=liftwizard-connection-manager-h2-memory-0.7.0.pom
+outputs.75.0.length=2079
+outputs.75.0.checksums.sha512=035b86ca9240f8b182a2ebd68c2b2923c6e57595e14fdf95893982ae3bf62c6e36d8b72290980955147ed4be753d2afeb47554262346b7910593e0e95cc8881e
+
+outputs.75.1.filename=liftwizard-connection-manager-h2-memory-0.7.0.jar
+outputs.75.1.length=4464
+outputs.75.1.checksums.sha512=4d6fdd19efe8ed6411ce5e908d2723126c9c2b900656b41684c9ac3bb78645512dc9565ded6e99b3bb1a8ddd205b01484def594ed160e11b502bbe02572c82d3
 
 outputs.76.coordinates=io.liftwizard:liftwizard-reladomo-test-rule
 
-outputs.76.0.filename=liftwizard-reladomo-test-rule-0.7.0.jar
-outputs.76.0.length=18222
-outputs.76.0.checksums.sha512=c29cd66fdf7252db801da31c59c06dcb5b32ea60eb796f9d62c82393a68a64e7dd941eff8d60bb555e771b3c123dab87dba5272d17c84cc00a3c9c542a1cbe21
+outputs.76.0.filename=liftwizard-reladomo-test-rule-0.7.0.pom
+outputs.76.0.length=2683
+outputs.76.0.checksums.sha512=a4231dc05a0225da1d24c93b390852bf318dfedc560ceccf5c04ab2e16fab244e3a39a8b9653128a63b28c31b77b6e7d29409da85c841701817c7db8c19897ce
+
+outputs.76.1.filename=liftwizard-reladomo-test-rule-0.7.0.jar
+outputs.76.1.length=18222
+outputs.76.1.checksums.sha512=c29cd66fdf7252db801da31c59c06dcb5b32ea60eb796f9d62c82393a68a64e7dd941eff8d60bb555e771b3c123dab87dba5272d17c84cc00a3c9c542a1cbe21
 
 outputs.77.coordinates=io.liftwizard:liftwizard-reladomo-test-resource-writer
 
-outputs.77.0.filename=liftwizard-reladomo-test-resource-writer-0.7.0.jar
-outputs.77.0.length=15017
-outputs.77.0.checksums.sha512=5cc61b6e93fd4bf544f92e595cbf8ce854aa5abdad95e8a969bae177538d0c5113d7fdc35324dcf5db0039d0bd1b8028dc91041f05a339e8fd7af555cacf4bb0
+outputs.77.0.filename=liftwizard-reladomo-test-resource-writer-0.7.0.pom
+outputs.77.0.length=1698
+outputs.77.0.checksums.sha512=818b70dbd2d6943249ba5af44b9f1bd835037f15b3c3a608df047be836aa3439e6149112064181417fb7d5cf75fa775f008565282716b1f7d01715d055200d95
+
+outputs.77.1.filename=liftwizard-reladomo-test-resource-writer-0.7.0.jar
+outputs.77.1.length=15017
+outputs.77.1.checksums.sha512=5cc61b6e93fd4bf544f92e595cbf8ce854aa5abdad95e8a969bae177538d0c5113d7fdc35324dcf5db0039d0bd1b8028dc91041f05a339e8fd7af555cacf4bb0
 
 outputs.78.coordinates=io.liftwizard:liftwizard-maven-reladomo-logger
 
-outputs.78.0.filename=liftwizard-maven-reladomo-logger-0.7.0.jar
-outputs.78.0.length=3379
-outputs.78.0.checksums.sha512=efb4382e3990ed1915b33cd617d0fc4e1ad257df3bffe86b6434daa7d4cd5d1a9820a00935bc93a64e89e512c66eb9d61d2e022852572b1a9f9d5e20c3454f5d
+outputs.78.0.filename=liftwizard-maven-reladomo-logger-0.7.0.pom
+outputs.78.0.length=1514
+outputs.78.0.checksums.sha512=fbf217bb7a500538f0cf5e72badb03a8780d38b6038cd131ced0679d9b0e45a153397c84d50928cdd48ff1b572836d28512a11a4052068eb656d3a5f33f9086c
+
+outputs.78.1.filename=liftwizard-maven-reladomo-logger-0.7.0.jar
+outputs.78.1.length=3379
+outputs.78.1.checksums.sha512=efb4382e3990ed1915b33cd617d0fc4e1ad257df3bffe86b6434daa7d4cd5d1a9820a00935bc93a64e89e512c66eb9d61d2e022852572b1a9f9d5e20c3454f5d
 
 outputs.79.coordinates=io.liftwizard:liftwizard-generator-plugins
 
+outputs.79.0.filename=liftwizard-generator-plugins-0.7.0.pom
+outputs.79.0.length=1838
+outputs.79.0.checksums.sha512=b8bfae4e28af255cec615f0211ca3078879c8fce70ee311eed28582d0722ed4cd99c46235c75ce6d219dd1c80db4ef129c04253d9f31eb328eb35cb9a5beb2dc
+
 outputs.80.coordinates=io.liftwizard:liftwizard-generator-reladomo-code-plugin
 
-outputs.80.0.filename=liftwizard-generator-reladomo-code-plugin-0.7.0.jar
-outputs.80.0.length=14300
-outputs.80.0.checksums.sha512=9030b125ad86df8a3f4d0f4b3f9691d22eb619dfa02b906d6e59c1112714d785a2f6d6dd23fc75ee05a05295a0428bf1f08aa6819154d9f3dc4b48c5f1025f66
+outputs.80.0.filename=liftwizard-generator-reladomo-code-plugin-0.7.0.pom
+outputs.80.0.length=3137
+outputs.80.0.checksums.sha512=4184b91e0de8b42366fecda6e010addffbf5deb107f8e5678359f0e2406afe9803232e6d4b7be7c9c089d97ecd38e51cc676d29605406fd7cc56369cdb78feba
+
+outputs.80.1.filename=liftwizard-generator-reladomo-code-plugin-0.7.0.jar
+outputs.80.1.length=14300
+outputs.80.1.checksums.sha512=9030b125ad86df8a3f4d0f4b3f9691d22eb619dfa02b906d6e59c1112714d785a2f6d6dd23fc75ee05a05295a0428bf1f08aa6819154d9f3dc4b48c5f1025f66
 
 outputs.81.coordinates=io.liftwizard:liftwizard-generator-xsd2bean-plugin
 
-outputs.81.0.filename=liftwizard-generator-xsd2bean-plugin-0.7.0.jar
-outputs.81.0.length=17650
-outputs.81.0.checksums.sha512=1c6801f14ca575ca468a411f20d39a6e588925454f02d610538834065e0db77b651522c989d6f09d2a5c9bfd57146a8c763159f2d6ed32f89c457575ef849f4a
+outputs.81.0.filename=liftwizard-generator-xsd2bean-plugin-0.7.0.pom
+outputs.81.0.length=3677
+outputs.81.0.checksums.sha512=d974e94f2a03ea5e0d33cc7f98ed9a80f95e34bcc5ef33ff004c1cfdc6df86aefef07b82e6a587ff45cca09ac1bfaa16b782ceb9e912fd6cd2f183a20c62b49d
+
+outputs.81.1.filename=liftwizard-generator-xsd2bean-plugin-0.7.0.jar
+outputs.81.1.length=17650
+outputs.81.1.checksums.sha512=1c6801f14ca575ca468a411f20d39a6e588925454f02d610538834065e0db77b651522c989d6f09d2a5c9bfd57146a8c763159f2d6ed32f89c457575ef849f4a
 
 outputs.82.coordinates=io.liftwizard:liftwizard-generator-reladomo-database-plugin
 
-outputs.82.0.filename=liftwizard-generator-reladomo-database-plugin-0.7.0.jar
-outputs.82.0.length=14889
-outputs.82.0.checksums.sha512=dc1eb0a4f1539233ced4acd2354c593a0711eab8da21f78c16eec1a75b5c3702515719a777b6a3e1548b2e6beeb5ef2c4cf8a244c472ea39eb99e62d94f72e45
+outputs.82.0.filename=liftwizard-generator-reladomo-database-plugin-0.7.0.pom
+outputs.82.0.length=3296
+outputs.82.0.checksums.sha512=d32ffbf3fe8d3db7cec5b492ea88e68bc4c3b1a013c4902a5338ac5fe7383f622cda3fea0ab5370e5cf3d3e4f5be1794d00a2ca46baf3213ef732f2f7e34b61c
+
+outputs.82.1.filename=liftwizard-generator-reladomo-database-plugin-0.7.0.jar
+outputs.82.1.length=14889
+outputs.82.1.checksums.sha512=dc1eb0a4f1539233ced4acd2354c593a0711eab8da21f78c16eec1a75b5c3702515719a777b6a3e1548b2e6beeb5ef2c4cf8a244c472ea39eb99e62d94f72e45
 
 outputs.83.coordinates=io.liftwizard:liftwizard-graphql
 
+outputs.83.0.filename=liftwizard-graphql-0.7.0.pom
+outputs.83.0.length=1961
+outputs.83.0.checksums.sha512=06dcb6250b414e6bc178d94847f2a22f3dc75bf3c4ab75bcdbd00e76c568c44be978ae258055aa3447cb46d35b55fbc33563e60fc5fc65aece67c9ce0bcc440b
+
 outputs.84.coordinates=io.liftwizard:liftwizard-graphql-data-fetcher
 
-outputs.84.0.filename=liftwizard-graphql-data-fetcher-0.7.0.jar
-outputs.84.0.length=3464
-outputs.84.0.checksums.sha512=18e377a55248aa0039a8fd91a7f4cc109c69ef225a3f13b475ee5eb7487ee0973190ea6fe2e0ebc623e211708c36fe9b8d7222292664e5d5c4da9d15facbd13e
+outputs.84.0.filename=liftwizard-graphql-data-fetcher-0.7.0.pom
+outputs.84.0.length=1501
+outputs.84.0.checksums.sha512=401007339db8d28f4e39bf5345c9af701e1b62b6f9a7415ac16765db125276a9ed83baf45371d959235d0fb5eabfb10053250e4730f02dbef8ea16f794cdc079
+
+outputs.84.1.filename=liftwizard-graphql-data-fetcher-0.7.0.jar
+outputs.84.1.length=3464
+outputs.84.1.checksums.sha512=18e377a55248aa0039a8fd91a7f4cc109c69ef225a3f13b475ee5eb7487ee0973190ea6fe2e0ebc623e211708c36fe9b8d7222292664e5d5c4da9d15facbd13e
 
 outputs.85.coordinates=io.liftwizard:liftwizard-graphql-exception
 
-outputs.85.0.filename=liftwizard-graphql-exception-0.7.0.jar
-outputs.85.0.length=3242
-outputs.85.0.checksums.sha512=ba200b577647de6228fdef3dc8c800d04c09925729e5e4767aff6ab79c5ebdc07c1b674b4cbbee10e2d4372bbd2f292ea8707f81305cd38d9dbb7c4387d65f70
+outputs.85.0.filename=liftwizard-graphql-exception-0.7.0.pom
+outputs.85.0.length=1511
+outputs.85.0.checksums.sha512=01176a5e9ae5cbb18907b5253f3abdf684388410cf99dae9cfc9a2a92b6413d9441a605d6c1befe7ba00dd9d43de3c092678eef7711aba1335a0489587fed12a
+
+outputs.85.1.filename=liftwizard-graphql-exception-0.7.0.jar
+outputs.85.1.length=3242
+outputs.85.1.checksums.sha512=ba200b577647de6228fdef3dc8c800d04c09925729e5e4767aff6ab79c5ebdc07c1b674b4cbbee10e2d4372bbd2f292ea8707f81305cd38d9dbb7c4387d65f70
 
 outputs.86.coordinates=io.liftwizard:liftwizard-reladomo-graphql-operation
 
-outputs.86.0.filename=liftwizard-reladomo-graphql-operation-0.7.0.jar
-outputs.86.0.length=14146
-outputs.86.0.checksums.sha512=6c1c31837b7da9b4623e2a0cb4f3dbef8887478bbec11f19a33fefb7c76b340e39a07e2b41846598c2bba660499fc2973d7f26fca86194a14974bb5b096b7481
+outputs.86.0.filename=liftwizard-reladomo-graphql-operation-0.7.0.pom
+outputs.86.0.length=1711
+outputs.86.0.checksums.sha512=17d8b0ecbb101aee22c6288ebce6b2d51359e433b58a808db08581fe33299df3b8a7dbce9f5d89fb1f0abc1706cafc35096080990f509a58a02d7ab45585df12
+
+outputs.86.1.filename=liftwizard-reladomo-graphql-operation-0.7.0.jar
+outputs.86.1.length=14146
+outputs.86.1.checksums.sha512=6c1c31837b7da9b4623e2a0cb4f3dbef8887478bbec11f19a33fefb7c76b340e39a07e2b41846598c2bba660499fc2973d7f26fca86194a14974bb5b096b7481
 
 outputs.87.coordinates=io.liftwizard:liftwizard-reladomo-graphql-deep-fetcher
 
-outputs.87.0.filename=liftwizard-reladomo-graphql-deep-fetcher-0.7.0.jar
-outputs.87.0.length=5686
-outputs.87.0.checksums.sha512=f54f00ff99ee0f39f2201e06ddfaf16f3d2a7f8f150d94aa7b524669d4f638bf274ddedd58d31ab6ba295351d0914629a36039714a59c32ee3897a2db855b8da
+outputs.87.0.filename=liftwizard-reladomo-graphql-deep-fetcher-0.7.0.pom
+outputs.87.0.length=1840
+outputs.87.0.checksums.sha512=68fd8fec009f010c018804f3082703f9fcf43339d192feaa5c76787b8d6fa7264709399877e3e19eb979417bb40c50d94ceb806a9d5e48260b0d1342dfc0907b
+
+outputs.87.1.filename=liftwizard-reladomo-graphql-deep-fetcher-0.7.0.jar
+outputs.87.1.length=5686
+outputs.87.1.checksums.sha512=f54f00ff99ee0f39f2201e06ddfaf16f3d2a7f8f150d94aa7b524669d4f638bf274ddedd58d31ab6ba295351d0914629a36039714a59c32ee3897a2db855b8da
 
 outputs.88.coordinates=io.liftwizard:liftwizard-graphql-finder-fetcher
 
-outputs.88.0.filename=liftwizard-graphql-finder-fetcher-0.7.0.jar
-outputs.88.0.length=4539
-outputs.88.0.checksums.sha512=87393f16eec145bd4c1d4bf04ec2b457385985fd7d844827857ae32c3b604eeb2a2cc8a8cb494cf49d5572df4d48745d9b15120a7791b5f5bb813eff15ccd4a9
+outputs.88.0.filename=liftwizard-graphql-finder-fetcher-0.7.0.pom
+outputs.88.0.length=2290
+outputs.88.0.checksums.sha512=f0bf3a08c0b82ad1a885c7321b9a3eb7b5b6c450fc9f28a901affa76c173fe032b3168f114537d299cb636f0fab0be9ab8765a7b554a9500c7098b4f54c56aba
+
+outputs.88.1.filename=liftwizard-graphql-finder-fetcher-0.7.0.jar
+outputs.88.1.length=4539
+outputs.88.1.checksums.sha512=87393f16eec145bd4c1d4bf04ec2b457385985fd7d844827857ae32c3b604eeb2a2cc8a8cb494cf49d5572df4d48745d9b15120a7791b5f5bb813eff15ccd4a9
 
 outputs.89.coordinates=io.liftwizard:liftwizard-reladomo-operation-grammar
 
-outputs.89.0.filename=liftwizard-reladomo-operation-grammar-0.7.0.jar
-outputs.89.0.length=129648
-outputs.89.0.checksums.sha512=ec0dd3e45b3050776c2768ce8f54e3113ed66075d75e1510e2fbd26738f3c71167f3ac8f2c349e5fe00d1b3dc078ad3714a5ed3bd8c41f95a567452d704f59ba
+outputs.89.0.filename=liftwizard-reladomo-operation-grammar-0.7.0.pom
+outputs.89.0.length=1578
+outputs.89.0.checksums.sha512=07b5483ee0ecac5415756f8cbf289548a788ae607ce3f6dc1f21259d20ffff06fe612bc67e0a5415a7cd24f10738818ad9058fb74f8d9cbbb16954f7b85edf4b
+
+outputs.89.1.filename=liftwizard-reladomo-operation-grammar-0.7.0.jar
+outputs.89.1.length=129648
+outputs.89.1.checksums.sha512=ec0dd3e45b3050776c2768ce8f54e3113ed66075d75e1510e2fbd26738f3c71167f3ac8f2c349e5fe00d1b3dc078ad3714a5ed3bd8c41f95a567452d704f59ba
 
 outputs.90.coordinates=io.liftwizard:liftwizard-reladomo-operation-compiler
 
-outputs.90.0.filename=liftwizard-reladomo-operation-compiler-0.7.0.jar
-outputs.90.0.length=79085
-outputs.90.0.checksums.sha512=fa14d4c1ea65037ab36b2663602bed4634e0d0b97ddf4a2533ea29f382d496e4b18d0f7df01e22a32ced114e90db453faeb239e62f5e45bc731e3c4d92e715a5
+outputs.90.0.filename=liftwizard-reladomo-operation-compiler-0.7.0.pom
+outputs.90.0.length=2187
+outputs.90.0.checksums.sha512=a655e78a281e347325da1239c5d7dad0d4322c3f6b4d3af1cfc7d6332499b3c39405dddad5f4f77124b586d2d5e1bbb12d506819d551a43ddfa28db28c0e5ea9
+
+outputs.90.1.filename=liftwizard-reladomo-operation-compiler-0.7.0.jar
+outputs.90.1.length=79085
+outputs.90.1.checksums.sha512=fa14d4c1ea65037ab36b2663602bed4634e0d0b97ddf4a2533ea29f382d496e4b18d0f7df01e22a32ced114e90db453faeb239e62f5e45bc731e3c4d92e715a5
 
 outputs.91.coordinates=io.liftwizard:liftwizard-graphql-operation-fetcher
 
-outputs.91.0.filename=liftwizard-graphql-operation-fetcher-0.7.0.jar
-outputs.91.0.length=4666
-outputs.91.0.checksums.sha512=ba41083c93f91ea70bfdfc604813582a571f4b8c930f9177886b743992e9e7c3a2ecbb5128a19c5c7894570554572750c52e84b2bee9d8b54f0fcc3038dd51e5
+outputs.91.0.filename=liftwizard-graphql-operation-fetcher-0.7.0.pom
+outputs.91.0.length=2457
+outputs.91.0.checksums.sha512=8beac4faae675d7e544940b5ae869356ab9a9fbb12aae374fcf5dbb106828b54a13676c15eca9210a868560241aa99185562d29b3675c5a451a51ab074b7d0ac
+
+outputs.91.1.filename=liftwizard-graphql-operation-fetcher-0.7.0.jar
+outputs.91.1.length=4666
+outputs.91.1.checksums.sha512=ba41083c93f91ea70bfdfc604813582a571f4b8c930f9177886b743992e9e7c3a2ecbb5128a19c5c7894570554572750c52e84b2bee9d8b54f0fcc3038dd51e5
 
 outputs.92.coordinates=io.liftwizard:liftwizard-graphql-scalar-temporal
 
-outputs.92.0.filename=liftwizard-graphql-scalar-temporal-0.7.0.jar
-outputs.92.0.length=9395
-outputs.92.0.checksums.sha512=fd5c9e851267ce7dc8b3be37468a70eb26a7ee989a3fa9b75793f4ba6917ef294e6be3abc80daa5d70618b68a96e6180a180a0c121532d8c843e2fbf04e92d85
+outputs.92.0.filename=liftwizard-graphql-scalar-temporal-0.7.0.pom
+outputs.92.0.length=1508
+outputs.92.0.checksums.sha512=e7eb4fb4cb7236ab41ab2135706c894789820678f20468a2bd970a5639cb1e310aaec56ccb0866f01711bf3afc866dfd23b2f7fc88671e140cb65c2667d3e032
+
+outputs.92.1.filename=liftwizard-graphql-scalar-temporal-0.7.0.jar
+outputs.92.1.length=9395
+outputs.92.1.checksums.sha512=fd5c9e851267ce7dc8b3be37468a70eb26a7ee989a3fa9b75793f4ba6917ef294e6be3abc80daa5d70618b68a96e6180a180a0c121532d8c843e2fbf04e92d85
 
 outputs.93.coordinates=io.liftwizard:liftwizard-graphql-reladomo-meta
 
-outputs.93.0.filename=liftwizard-graphql-reladomo-meta-0.7.0.jar
-outputs.93.0.length=3166
-outputs.93.0.checksums.sha512=28e1edefcacbb525c4e7858030cb44600581d2f3cbeb4d77aa151103f69dd0a2677fa87a42d2efbd92541a3650a98f6be5e5f12f31de4c2d62538ec25c829d2b
+outputs.93.0.filename=liftwizard-graphql-reladomo-meta-0.7.0.pom
+outputs.93.0.length=1188
+outputs.93.0.checksums.sha512=da68bcac8ecdbb50b5b954805c5fa12eed9d67696ba0fff9a179eace25d14e1b69ec37acc21475e3102b5d2e5c280b22455d38ddb8cb0efa0c6bc25e6255e58e
+
+outputs.93.1.filename=liftwizard-graphql-reladomo-meta-0.7.0.jar
+outputs.93.1.length=3166
+outputs.93.1.checksums.sha512=28e1edefcacbb525c4e7858030cb44600581d2f3cbeb4d77aa151103f69dd0a2677fa87a42d2efbd92541a3650a98f6be5e5f12f31de4c2d62538ec25c829d2b
 
 outputs.94.coordinates=io.liftwizard:liftwizard-logging-filter-requesturl
 
-outputs.94.0.filename=liftwizard-logging-filter-requesturl-0.7.0.jar
-outputs.94.0.length=4605
-outputs.94.0.checksums.sha512=f5c7bcff86074f9266e014839ea20c08984da8239518933df61a7424cf2ba4c05cbe86645cdae997d1abede2ddc072e26b718724f436adae281c7045f28d749e
+outputs.94.0.filename=liftwizard-logging-filter-requesturl-0.7.0.pom
+outputs.94.0.length=1711
+outputs.94.0.checksums.sha512=8a556d0091991337fa669a5b2af5824a61bf6458b44deaa9c9541efb45f4abf9c2ee82b7264a7827e887241341607e1b7ebbde37c32d36f3c0ed2a498c3e5509
+
+outputs.94.1.filename=liftwizard-logging-filter-requesturl-0.7.0.jar
+outputs.94.1.length=4605
+outputs.94.1.checksums.sha512=f5c7bcff86074f9266e014839ea20c08984da8239518933df61a7424cf2ba4c05cbe86645cdae997d1abede2ddc072e26b718724f436adae281c7045f28d749e
 
 outputs.95.coordinates=io.liftwizard:liftwizard-config-logging-filter-requesturl
 
-outputs.95.0.filename=liftwizard-config-logging-filter-requesturl-0.7.0.jar
-outputs.95.0.length=4902
-outputs.95.0.checksums.sha512=6617019033f5c5a76276eaf6adc81b78fe5e32baa9101f2b50e14997ff10b82cea0f9e374a32866a0d0bee8cf9d6629e07ada96108dc7252f44149f3baf4f624
+outputs.95.0.filename=liftwizard-config-logging-filter-requesturl-0.7.0.pom
+outputs.95.0.length=4620
+outputs.95.0.checksums.sha512=afed3720f09a50b497794911ba1ab26aeb63463a68f0c6a62a8ee2835b9f58687445f8525443f8c99f970b55532421e759375cd3ad92b7fb77abe8f682e6735e
+
+outputs.95.1.filename=liftwizard-config-logging-filter-requesturl-0.7.0.jar
+outputs.95.1.length=4902
+outputs.95.1.checksums.sha512=6617019033f5c5a76276eaf6adc81b78fe5e32baa9101f2b50e14997ff10b82cea0f9e374a32866a0d0bee8cf9d6629e07ada96108dc7252f44149f3baf4f624
 
 outputs.96.coordinates=io.liftwizard:liftwizard-config-logging-logzio
 
-outputs.96.0.filename=liftwizard-config-logging-logzio-0.7.0.jar
-outputs.96.0.length=5966
-outputs.96.0.checksums.sha512=f294b351ce901fa31d6737f82450cba49c8d25b54a3b69655f833f7e5a05d5b726fc6b38e86eafa8d2cf09584c167034991d9d6bd23a1a4e873b9cfb491ead37
+outputs.96.0.filename=liftwizard-config-logging-logzio-0.7.0.pom
+outputs.96.0.length=2509
+outputs.96.0.checksums.sha512=62dc092dc2309bbd6f8b5182c2cf49f4e0866b28a5d04d5dc22f5bdbf7b26dae4148c8c8fefffc30f6c463a30377c1f5b5ecad90bff9f8a4a628b284eee00213
+
+outputs.96.1.filename=liftwizard-config-logging-logzio-0.7.0.jar
+outputs.96.1.length=5966
+outputs.96.1.checksums.sha512=f294b351ce901fa31d6737f82450cba49c8d25b54a3b69655f833f7e5a05d5b726fc6b38e86eafa8d2cf09584c167034991d9d6bd23a1a4e873b9cfb491ead37
 
 outputs.97.coordinates=io.liftwizard:liftwizard-logging-p6spy
 
-outputs.97.0.filename=liftwizard-logging-p6spy-0.7.0.jar
-outputs.97.0.length=4703
-outputs.97.0.checksums.sha512=6a0ff1c7919d10cfa85bfc74704f48450311526ee98cf0cb8f8a4fadf26d1b9fc8abee04feb2de2013476a008b0e53f1d5dc4585103343fa2f0d3929cfdfcbd8
+outputs.97.0.filename=liftwizard-logging-p6spy-0.7.0.pom
+outputs.97.0.length=1649
+outputs.97.0.checksums.sha512=ef39e2104c846511ad661075925e6a95f4aebacd511de39a85b3a635bc5af1dbf797d4905b2b5b7272fa214bda1e5ee9cd3cfb1a01bea2ee3a9e238e22efbc22
+
+outputs.97.1.filename=liftwizard-logging-p6spy-0.7.0.jar
+outputs.97.1.length=4703
+outputs.97.1.checksums.sha512=6a0ff1c7919d10cfa85bfc74704f48450311526ee98cf0cb8f8a4fadf26d1b9fc8abee04feb2de2013476a008b0e53f1d5dc4585103343fa2f0d3929cfdfcbd8
 
 outputs.98.coordinates=io.liftwizard:liftwizard-servlet-logging-mdc-clear-all
 
-outputs.98.0.filename=liftwizard-servlet-logging-mdc-clear-all-0.7.0.jar
-outputs.98.0.length=3661
-outputs.98.0.checksums.sha512=c8b287a141c9d3d85ce6681459851be0e56adab019d3d4f220f0db169bbe31e8776d43b4c7e857d059062b7b2a3a2e1984dd62145992d179f5dca85a9e9da635
+outputs.98.0.filename=liftwizard-servlet-logging-mdc-clear-all-0.7.0.pom
+outputs.98.0.length=1799
+outputs.98.0.checksums.sha512=13d7cee15a81d426c0c18e760f650ef9142e2c6a5a0600e66d7424ba68c71337270c88531b2802023b944544b2e03ad825ae3ed6d5515e4df49fab2a47978e8a
+
+outputs.98.1.filename=liftwizard-servlet-logging-mdc-clear-all-0.7.0.jar
+outputs.98.1.length=3661
+outputs.98.1.checksums.sha512=c8b287a141c9d3d85ce6681459851be0e56adab019d3d4f220f0db169bbe31e8776d43b4c7e857d059062b7b2a3a2e1984dd62145992d179f5dca85a9e9da635
 
 outputs.99.coordinates=io.liftwizard:liftwizard-maven-build
 
+outputs.99.0.filename=liftwizard-maven-build-0.7.0.pom
+outputs.99.0.length=2666
+outputs.99.0.checksums.sha512=a37624ab9f4645476fc038c972f5dc002a74bbaf76f43efde6b093549a09c8d18e4afee3f86971e6add2587b98990e2f60878625c7795b878ae1dfde4d2b6d37
+
 outputs.100.coordinates=io.liftwizard:liftwizard-bom
+
+outputs.100.0.filename=liftwizard-bom-0.7.0.pom
+outputs.100.0.length=22842
+outputs.100.0.checksums.sha512=029a2d22381e9d65ceeed253a63a3c5fa0dd90562c35524f0a3b745f75283bb45a5dfacfff0b9f7fc7b3aef47bf0c44f4df9dfc2f60e245e1a10a5140dc28bd0
 
 outputs.101.coordinates=io.liftwizard:liftwizard-dependencies
 
+outputs.101.0.filename=liftwizard-dependencies-0.7.0.pom
+outputs.101.0.length=13668
+outputs.101.0.checksums.sha512=fdec0a3758edac30368ca17e9fbd9000ce16d2711cc241e749515e6e3084db57b3054301aec0ef3824dc7ca54419cc270717954c0e57d1cde97d5e428224b71c
+
 outputs.102.coordinates=io.liftwizard:liftwizard-connection-manager-heroku
 
-outputs.102.0.filename=liftwizard-connection-manager-heroku-0.7.0.jar
-outputs.102.0.length=4138
-outputs.102.0.checksums.sha512=894ffbd9e440b2165f5b0b41c5a9a6546a5f0fd8f6ff64d1123e74d733e8ff071c684df024852d86aeac2966b999738511bd26db3c2156fbb1ab977d2074add7
+outputs.102.0.filename=liftwizard-connection-manager-heroku-0.7.0.pom
+outputs.102.0.length=1517
+outputs.102.0.checksums.sha512=5c41411cc6d2350f080dbd3304b58c0fa8cfbfb5ef648d89c6499d1bc21269426aea98fa3450ed51def1f4e2a780a4bae9cad91590dfd0a6fc7985a436b0496c
+
+outputs.102.1.filename=liftwizard-connection-manager-heroku-0.7.0.jar
+outputs.102.1.length=4138
+outputs.102.1.checksums.sha512=894ffbd9e440b2165f5b0b41c5a9a6546a5f0fd8f6ff64d1123e74d733e8ff071c684df024852d86aeac2966b999738511bd26db3c2156fbb1ab977d2074add7
 
 outputs.103.coordinates=io.liftwizard:liftwizard-reladomo-graphql-data-fetcher
 
-outputs.103.0.filename=liftwizard-reladomo-graphql-data-fetcher-0.7.0.jar
-outputs.103.0.length=7644
-outputs.103.0.checksums.sha512=01dc655dbae4b938ffef669a2b236c5a13dc16f8362da806c4320a09c53dc62b503ec61ae99fd62ba46c635013e81c9641b83a7b74f2308294635e4ad1f34d88
+outputs.103.0.filename=liftwizard-reladomo-graphql-data-fetcher-0.7.0.pom
+outputs.103.0.length=1668
+outputs.103.0.checksums.sha512=6860a2df6b06d10795b249a03cc60795e6e0b57a51564b34e50e46ef3f3e63953091e9143a075cf5b265c9b716efda53eb65680a13fa88609c6fd5ed1623c556
+
+outputs.103.1.filename=liftwizard-reladomo-graphql-data-fetcher-0.7.0.jar
+outputs.103.1.length=7644
+outputs.103.1.checksums.sha512=01dc655dbae4b938ffef669a2b236c5a13dc16f8362da806c4320a09c53dc62b503ec61ae99fd62ba46c635013e81c9641b83a7b74f2308294635e4ad1f34d88
 
 outputs.104.coordinates=io.liftwizard:liftwizard-reladomo-serialize
 
-outputs.104.0.filename=liftwizard-reladomo-serialize-0.7.0.jar
-outputs.104.0.length=3901
-outputs.104.0.checksums.sha512=3a732965adca4573527065d2bd8b517191cf531a7e4180b39cad8b358ed1b71a0984187f6d6d42707c769d4a809834472091345dab04dd1be93fbf1d27a2c819
+outputs.104.0.filename=liftwizard-reladomo-serialize-0.7.0.pom
+outputs.104.0.length=2330
+outputs.104.0.checksums.sha512=dfb115ecb4888c3fad71a59a6326f81e43ff95688fe660fbd958a87d31dbcbfbb3fbca1e9bad8a3d88e634c7c52e21be7a3cdcffdfa6817eeb754f1ca2f4e77d
+
+outputs.104.1.filename=liftwizard-reladomo-serialize-0.7.0.jar
+outputs.104.1.length=3901
+outputs.104.1.checksums.sha512=3a732965adca4573527065d2bd8b517191cf531a7e4180b39cad8b358ed1b71a0984187f6d6d42707c769d4a809834472091345dab04dd1be93fbf1d27a2c819
 
 outputs.105.coordinates=io.liftwizard:liftwizard-reladomo-simulated-sequence-ddls
 
-outputs.105.0.filename=liftwizard-reladomo-simulated-sequence-ddls-0.7.0.jar
-outputs.105.0.length=2806
-outputs.105.0.checksums.sha512=114c53e409d46ab9ab6512b81af0febfff1e1bf6019506c600a0f125b33221fd5638b088ef8db8d63b10a4703731e4caa44696914c004c167526ca4a4370eede
+outputs.105.0.filename=liftwizard-reladomo-simulated-sequence-ddls-0.7.0.pom
+outputs.105.0.length=2982
+outputs.105.0.checksums.sha512=804c5f33e7c8fe9ac813e130aa67e6bd76b5d03495878d4978762bb62c92787818f206fce37c0a1f75a11dbc41eb66cfa69a0e4f0e78e0f87e0b8189b563c3fb
+
+outputs.105.1.filename=liftwizard-reladomo-simulated-sequence-ddls-0.7.0.jar
+outputs.105.1.length=2806
+outputs.105.1.checksums.sha512=114c53e409d46ab9ab6512b81af0febfff1e1bf6019506c600a0f125b33221fd5638b088ef8db8d63b10a4703731e4caa44696914c004c167526ca4a4370eede
 
 outputs.106.coordinates=io.liftwizard:liftwizard-reladomo-timestamp
 
-outputs.106.0.filename=liftwizard-reladomo-timestamp-0.7.0.jar
-outputs.106.0.length=3146
-outputs.106.0.checksums.sha512=ea51543c905f8f0dcb0dd04b50094207eacdb57569de1b54af7dcd4ef71ff06a014cb5518946cf8207c575f84da55138e80b24d6f5969c3297f1a5db1faced3a
+outputs.106.0.filename=liftwizard-reladomo-timestamp-0.7.0.pom
+outputs.106.0.length=1356
+outputs.106.0.checksums.sha512=03b4dd85e8392cc7de813ac0dc294a0b73485d132e35c90f4f92610e4b5930a188336ff6176a9281d15404fba1154686c28b881c30b3d5b489ede6b466da63f1
+
+outputs.106.1.filename=liftwizard-reladomo-timestamp-0.7.0.jar
+outputs.106.1.length=3146
+outputs.106.1.checksums.sha512=ea51543c905f8f0dcb0dd04b50094207eacdb57569de1b54af7dcd4ef71ff06a014cb5518946cf8207c575f84da55138e80b24d6f5969c3297f1a5db1faced3a
 
 outputs.107.coordinates=io.liftwizard:liftwizard-servlet
 
+outputs.107.0.filename=liftwizard-servlet-0.7.0.pom
+outputs.107.0.length=1674
+outputs.107.0.checksums.sha512=a995c6ce749dcfe4a5136387214bb0bd90eb8891c8b5626674716082834cf6e21711c87f5f549fd37f40b7c4e610120e056a4ec9eeb679f6dd596f3cab1000ef
+
 outputs.108.coordinates=io.liftwizard:liftwizard-jetty-admin-login-service
 
-outputs.108.0.filename=liftwizard-jetty-admin-login-service-0.7.0.jar
-outputs.108.0.length=4626
-outputs.108.0.checksums.sha512=f4b5109d98af32f9584c65a10e38af8787e5364319d23de19313e45e55a0801ece8e64aafa27307e090160d5fc8071fc236a4787e6188e72d0a8cd26098891bc
+outputs.108.0.filename=liftwizard-jetty-admin-login-service-0.7.0.pom
+outputs.108.0.length=1702
+outputs.108.0.checksums.sha512=2aa74255180796a13f691dd18bd8f0e585c5f1f39bb8eb53a91d07e4fb35bb461b86e5451bb1dc46f90f921581de67117c7a1531f4e10ed3882e5a6f80fcaa33
+
+outputs.108.1.filename=liftwizard-jetty-admin-login-service-0.7.0.jar
+outputs.108.1.length=4626
+outputs.108.1.checksums.sha512=f4b5109d98af32f9584c65a10e38af8787e5364319d23de19313e45e55a0801ece8e64aafa27307e090160d5fc8071fc236a4787e6188e72d0a8cd26098891bc
 
 outputs.109.coordinates=io.liftwizard:liftwizard-junit-rule-match-file
 
-outputs.109.0.filename=liftwizard-junit-rule-match-file-0.7.0.jar
-outputs.109.0.length=6197
-outputs.109.0.checksums.sha512=dc058a1b8587b30a0b44cd416be1f49ac4cc033e656ed05b579bd4549497599b688ab09d4820f956c4e0ce388f82c3fefb16bb43fb7e822071db7a1df9ae89fc
+outputs.109.0.filename=liftwizard-junit-rule-match-file-0.7.0.pom
+outputs.109.0.length=2010
+outputs.109.0.checksums.sha512=40d4d311c86c4813bafdf11b97373df1bcd568c9eda2b78a029c404cd6eb0d75443f1c3648d20d135b303083b769b59bd27dae785ea4d3ea42b615b9ccdb8594
+
+outputs.109.1.filename=liftwizard-junit-rule-match-file-0.7.0.jar
+outputs.109.1.length=6197
+outputs.109.1.checksums.sha512=dc058a1b8587b30a0b44cd416be1f49ac4cc033e656ed05b579bd4549497599b688ab09d4820f956c4e0ce388f82c3fefb16bb43fb7e822071db7a1df9ae89fc
 
 outputs.110.coordinates=io.liftwizard:liftwizard-junit-rule-match-json
 
-outputs.110.0.filename=liftwizard-junit-rule-match-json-0.7.0.jar
-outputs.110.0.length=6040
-outputs.110.0.checksums.sha512=9f3db0abfd8c97f98b1d181a24ae8f1e64bf53e3bb5969e864a05a6164b49129c323afd13f50fe4287f64dcf0cef5268ac253bbecae318f71986c62d55a6452f
+outputs.110.0.filename=liftwizard-junit-rule-match-json-0.7.0.pom
+outputs.110.0.length=2336
+outputs.110.0.checksums.sha512=f8a8d22797d4515907b404adca05eb3327173b6f56bfb142826814c2d2e1c0006a45936d4d96b861509388f68c82d8a31b62185407f7a4804ab47613e851f4ad
+
+outputs.110.1.filename=liftwizard-junit-rule-match-json-0.7.0.jar
+outputs.110.1.length=6040
+outputs.110.1.checksums.sha512=9f3db0abfd8c97f98b1d181a24ae8f1e64bf53e3bb5969e864a05a6164b49129c323afd13f50fe4287f64dcf0cef5268ac253bbecae318f71986c62d55a6452f

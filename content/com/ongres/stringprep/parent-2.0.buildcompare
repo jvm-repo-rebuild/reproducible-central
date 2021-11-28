@@ -1,5 +1,10 @@
 version=2.0
-ok=3
+ok=7
 ko=3
-okFiles="stringprep-2.0-sources.jar saslprep-2.0-sources.jar nameprep-2.0-sources.jar"
+okFiles="parent-2.0.pom stringprep-2.0.pom stringprep-2.0-sources.jar saslprep-2.0.pom saslprep-2.0-sources.jar nameprep-2.0.pom nameprep-2.0-sources.jar"
 koFiles="stringprep-2.0.jar saslprep-2.0.jar nameprep-2.0.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/stringprep-2.0.jar stringprep/target/stringprep-2.0.jar
+# diffoscope target/reference/saslprep-2.0.jar saslprep/target/saslprep-2.0.jar
+# diffoscope target/reference/nameprep-2.0.jar nameprep/target/nameprep-2.0.jar

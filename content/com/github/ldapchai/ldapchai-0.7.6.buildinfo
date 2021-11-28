@@ -13,20 +13,22 @@ source.scm.tag=HEAD
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=14.0.2
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=14
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 
 # output
 
-outputs.0.filename=ldapchai-0.7.6.jar
-outputs.0.length=709683
-outputs.0.checksums.sha512=5c199bf6e78dfefa4a32f523eecd6d657c66e397bcad338f970208775aa6ae4355a0dddd73d1c6d3f14f72f16de10b8b234fb0870df8bef32586ceb7617b0589
+outputs.0.filename=ldapchai-0.7.6.pom
+outputs.0.length=27793
+outputs.0.checksums.sha512=41fe2ae961bc36a91756a639a812e542e21a53fe8a43376808d3915c4762d80e84a8fa2963a1ee1e3965cfc22e69d556b09c19da7043060fc1b752ba35cddd79
 
-outputs.1.filename=ldapchai-0.7.6-sources.jar
-outputs.1.length=587963
-outputs.1.checksums.sha512=a20d3a951695de2207358e0481da1315af58ce32adeb3332cdec5731ffa7b27e8ace5b40dca17ab95086677bbf30d5b3094db8c950a5c4f9fdf7ebd3c04a5d36
+outputs.1.filename=ldapchai-0.7.6.jar
+outputs.1.length=709683
+outputs.1.checksums.sha512=5c199bf6e78dfefa4a32f523eecd6d657c66e397bcad338f970208775aa6ae4355a0dddd73d1c6d3f14f72f16de10b8b234fb0870df8bef32586ceb7617b0589
+
+outputs.2.filename=ldapchai-0.7.6-sources.jar
+outputs.2.length=587963
+outputs.2.checksums.sha512=a20d3a951695de2207358e0481da1315af58ce32adeb3332cdec5731ffa7b27e8ace5b40dca17ab95086677bbf30d5b3094db8c950a5c4f9fdf7ebd3c04a5d36

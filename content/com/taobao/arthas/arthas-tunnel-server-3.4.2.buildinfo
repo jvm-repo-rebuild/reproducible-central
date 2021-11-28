@@ -13,186 +13,253 @@ source.scm.tag=arthas-all-3.4.2
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.aggregate.artifact-id=arthas-tunnel-server
 
 # aggregated output
 
 outputs.0.coordinates=com.taobao.arthas:arthas-all
 
+outputs.0.0.filename=arthas-all-3.4.2.pom
+outputs.0.0.length=13780
+outputs.0.0.checksums.sha512=2fbc2d9d91b6ffc57b6d9d91f23c14e17c838be8e74ba509c3b532ede69b64740ff606a0250e7014f61ee7b9e72f0cf4c25b9cdce1ca85cea226897f3122525b
+
 outputs.1.coordinates=com.taobao.arthas:arthas-spy
 
-outputs.1.0.filename=arthas-spy-3.4.2.jar
-outputs.1.0.length=8311
-outputs.1.0.checksums.sha512=14f014433fd966719ec0728eb169b276492c56c5111ead5fa34de9e6f98c7e468f31bf355212551a3edfe5acb7b226a86f395a3051bb123852980af769f26e32
+outputs.1.0.filename=arthas-spy-3.4.2.pom
+outputs.1.0.length=1068
+outputs.1.0.checksums.sha512=085b03f06661f4d0154aff6383aa67e020ecf3222e83efbf2f031addacf6f81d7d88eac45292a9730e578d9b754a4ba8ce8f34a90cdc653ebd75b26b96b75943
 
-outputs.1.1.filename=arthas-spy-3.4.2-sources.jar
-outputs.1.1.length=7382
-outputs.1.1.checksums.sha512=34ab54a0d3327dedca9a71f96e41a414d86db51aab94751a3da0129684f3c66a67ceaa9e916220ba9492a2e24e576433a061b32f4ab105dbd22958c69ac413e7
+outputs.1.1.filename=arthas-spy-3.4.2.jar
+outputs.1.1.length=8339
+outputs.1.1.checksums.sha512=5b143a2ccd273f7e247d170695fa821d79439144eaa5c64661beec721ad14da0d2e150dab6bd3daa3c75767567a4669c5542a5569eb539dcc9dc90eb6da74265
+
+outputs.1.2.filename=arthas-spy-3.4.2-sources.jar
+outputs.1.2.length=7382
+outputs.1.2.checksums.sha512=34ab54a0d3327dedca9a71f96e41a414d86db51aab94751a3da0129684f3c66a67ceaa9e916220ba9492a2e24e576433a061b32f4ab105dbd22958c69ac413e7
 
 outputs.2.coordinates=com.taobao.arthas:arthas-common
 
-outputs.2.0.filename=arthas-common-3.4.2.jar
-outputs.2.0.length=51759
-outputs.2.0.checksums.sha512=776910f13714cdc60c0c803a38256ef5f8b9176cf3f856aa7793f48b1fabd45cecd891f59f1bf99bb6b57d14ee0d56ae654ab4bf53c8d788e6b74ca383c12f77
+outputs.2.0.filename=arthas-common-3.4.2.pom
+outputs.2.0.length=1131
+outputs.2.0.checksums.sha512=6efa4feee443b60ac63197ff746cbdb770102425b5df74ab41cfa50d091753d76426c0ad0ffa40cd763622205b10d1677360056aa33c468a85fb46337e782d2f
 
-outputs.2.1.filename=arthas-common-3.4.2-sources.jar
-outputs.2.1.length=29111
-outputs.2.1.checksums.sha512=efac222bac1c84cfda14cc8d0f02747fb4ed534c06dbe2f8112a110e8877c97257d5414c5797eef19f502ed98001741da896be1695626a09256f8b30bc13c838
+outputs.2.1.filename=arthas-common-3.4.2.jar
+outputs.2.1.length=51787
+outputs.2.1.checksums.sha512=220845ccb174fbabda02d3098a3b55120b8b5ba31da3e1933f49c6c450ba68304b85be228b4656fad95609ef0cbb3ed69428f381ff66836651648e9ef2576e43
+
+outputs.2.2.filename=arthas-common-3.4.2-sources.jar
+outputs.2.2.length=29111
+outputs.2.2.checksums.sha512=efac222bac1c84cfda14cc8d0f02747fb4ed534c06dbe2f8112a110e8877c97257d5414c5797eef19f502ed98001741da896be1695626a09256f8b30bc13c838
 
 outputs.3.coordinates=com.taobao.arthas:arthas-tunnel-client
 
-outputs.3.0.filename=arthas-tunnel-client-3.4.2.jar
-outputs.3.0.length=25161
-outputs.3.0.checksums.sha512=441fe4dd98bb6ec1d465370ebfd56bbf4ec6be88df20787d5c2b2ea8ef9e18fd32312701f063d8d563524fd73ad4daeeb662eace7f61734a6ed435e17515a3b9
+outputs.3.0.filename=arthas-tunnel-client-3.4.2.pom
+outputs.3.0.length=1993
+outputs.3.0.checksums.sha512=595bec4173a906b42220d0721786d01cd7de06c9df7dee6b5b6df3998e502b76ff3f8e397ecb68210b0a6a92febea3896fbec9d1677ddb61110114fb792752ee
 
-outputs.3.1.filename=arthas-tunnel-client-3.4.2-sources.jar
-outputs.3.1.length=10718
-outputs.3.1.checksums.sha512=37bef64de8171a0f1524e11746575e5d8feaf9ce1505f09e55bf6a38a816fb55b782e2e3d09c2e4cc10d7fbefdd6e4ad9768835c86416e39d8542ffbb71190a4
+outputs.3.1.filename=arthas-tunnel-client-3.4.2.jar
+outputs.3.1.length=25189
+outputs.3.1.checksums.sha512=f67e2f105c9875ab9a0e2d791172896609e0e01cdc28756e0ffe3eda328d4d778a79444880c6ef30d490f17506c50e05e2c438778bff7e7bd9ceddd46083d281
+
+outputs.3.2.filename=arthas-tunnel-client-3.4.2-sources.jar
+outputs.3.2.length=10718
+outputs.3.2.checksums.sha512=37bef64de8171a0f1524e11746575e5d8feaf9ce1505f09e55bf6a38a816fb55b782e2e3d09c2e4cc10d7fbefdd6e4ad9768835c86416e39d8542ffbb71190a4
 
 outputs.4.coordinates=com.taobao.arthas:arthas-demo
 
-outputs.4.0.filename=arthas-demo-3.4.2.jar
-outputs.4.0.length=3966
-outputs.4.0.checksums.sha512=b23e9c3350ba48a1ecb1e17aaed33935c27ce9401836b5e3e3b8a0290f354171d0c444d5c3a0ebe87ac2a7635b6752d0c6b27312f6f622a393fbb8a2aea76a1c
+outputs.4.0.filename=arthas-demo-3.4.2.pom
+outputs.4.0.length=1494
+outputs.4.0.checksums.sha512=e257115299bb02329f798b88763b2e9e989417b72ecce7d695b3f56d0204861de218c3cdabc2d677d1327507f98b63282a9c07aad389455bc740d48faae299b0
 
-outputs.4.1.filename=arthas-demo-3.4.2-sources.jar
-outputs.4.1.length=2444
-outputs.4.1.checksums.sha512=979586a83e06e5d2653284b940bc41010b7e50fc6164d0e8bd62fff91baebb5cc6d6ffa51f8fa48d265a6d95ad6c01ab66562de72c4795e34fd0246167b8a76e
+outputs.4.1.filename=arthas-demo-3.4.2.jar
+outputs.4.1.length=3994
+outputs.4.1.checksums.sha512=abde699c0fe795afe9e8e0bd43e398059c93cdc51bb36655783d1c04fc9e76f255050b139d39cb0c1ba83049fd3610d0485da5400316ae89708c64e66d81b6fc
+
+outputs.4.2.filename=arthas-demo-3.4.2-sources.jar
+outputs.4.2.length=2444
+outputs.4.2.checksums.sha512=979586a83e06e5d2653284b940bc41010b7e50fc6164d0e8bd62fff91baebb5cc6d6ffa51f8fa48d265a6d95ad6c01ab66562de72c4795e34fd0246167b8a76e
 
 outputs.5.coordinates=com.taobao.arthas:arthas-bytekit
 
-outputs.5.0.filename=arthas-bytekit-3.4.2.jar
-outputs.5.0.length=214297
-outputs.5.0.checksums.sha512=7125c264ae36714bff14312acef0a0def190ea64c46799c864ba35eecf5851fcfe5ba6226db558431829bc93d5b0d0296f073d2d658e82336e424788f103e5c6
+outputs.5.0.filename=arthas-bytekit-3.4.2.pom
+outputs.5.0.length=2988
+outputs.5.0.checksums.sha512=10f108da114e3453261f9bf06e2a35c74e61e85c0a96ad93dec7606f4b123d2952d8cb17e510ba6cedc18f3a434c9d96f548a0c91cf6c937dea09008d0300a1e
 
-outputs.5.1.filename=arthas-bytekit-3.4.2-sources.jar
-outputs.5.1.length=102344
-outputs.5.1.checksums.sha512=80626ecd639341eea1b69438151df8727a59ae642c2ab9e53be7d9eb0ad8ba2d02d6263bddec1462d0b03e25a4a948e8da38fee4cbb2188ca02774b53c99cb76
+outputs.5.1.filename=arthas-bytekit-3.4.2.jar
+outputs.5.1.length=214325
+outputs.5.1.checksums.sha512=c840f7d7a525720fa9620beb0f6a6c84d224077a95db6da11fb08bbffb3d22d3708db26ef3b19f802cf46ac99f2e47e2ad548d5d84bd37ce38df4aee1143571e
+
+outputs.5.2.filename=arthas-bytekit-3.4.2-sources.jar
+outputs.5.2.length=102344
+outputs.5.2.checksums.sha512=80626ecd639341eea1b69438151df8727a59ae642c2ab9e53be7d9eb0ad8ba2d02d6263bddec1462d0b03e25a4a948e8da38fee4cbb2188ca02774b53c99cb76
 
 outputs.6.coordinates=com.taobao.arthas:arthas-memorycompiler
 
-outputs.6.0.filename=arthas-memorycompiler-3.4.2.jar
-outputs.6.0.length=19441
-outputs.6.0.checksums.sha512=e4069c2a8a8c98066a2c0b6e2908c71e4563b4dd522550022063a3c3589b1eef944b06442177b3cbd5eea8aa6634347b52e9b4f0b3c2efbb34700c0a2cfe7a23
+outputs.6.0.filename=arthas-memorycompiler-3.4.2.pom
+outputs.6.0.length=2002
+outputs.6.0.checksums.sha512=1059cddbf7765fa8986452c9b4343d3caca1fd011dca783be1a94d098dc12cb5a9616a34ab33f0c8b24ee5425ac8de52b6ec3f4edfdfa2b139ee8d2e9f212eca
 
-outputs.6.1.filename=arthas-memorycompiler-3.4.2-sources.jar
-outputs.6.1.length=11802
-outputs.6.1.checksums.sha512=4954154b0a6e97d0ece97efee3c59a2d8af632f15584fce7006ba3dc8685de1290741270a9b86cd34395a1430c587c25c4e25940b59713fd19042dcb839571fa
+outputs.6.1.filename=arthas-memorycompiler-3.4.2.jar
+outputs.6.1.length=19469
+outputs.6.1.checksums.sha512=46eaaddc29e4c55a8727a132d4ce71fd2df6e9876ec4fe2a5ab9c7fd19c15bac19cec0d8a7f1250813549b0bd027f06782dae521a89376f3eb9e16bff4f48097
+
+outputs.6.2.filename=arthas-memorycompiler-3.4.2-sources.jar
+outputs.6.2.length=11802
+outputs.6.2.checksums.sha512=4954154b0a6e97d0ece97efee3c59a2d8af632f15584fce7006ba3dc8685de1290741270a9b86cd34395a1430c587c25c4e25940b59713fd19042dcb839571fa
 
 outputs.7.coordinates=com.taobao.arthas:arthas-core
 
-outputs.7.0.filename=arthas-core-3.4.2.jar
-outputs.7.0.length=1294129
-outputs.7.0.checksums.sha512=4a50f67408ae5d52e63673ba0aed5d11c5984a3679dcce5f9e975b45841d5cc0a2da682552ef09eb0e117098bf6cfa665baa8e92b4a4c75752111aab3130d357
+outputs.7.0.filename=arthas-core-3.4.2.pom
+outputs.7.0.length=10801
+outputs.7.0.checksums.sha512=2bcada75c6a0ec916ae1941310419ed2f7e90e0dd8255ee0c6e09cf539475a91c3d7a172b6466ad017aa41532da3e673c404138ae1957d984424aee25b9719ad
 
-outputs.7.1.filename=arthas-core-3.4.2-sources.jar
-outputs.7.1.length=936221
-outputs.7.1.checksums.sha512=bfb286f5ea34a783623bf38a03e45fd9ab66b5bedca4a2c13474fe4a56b85baed948d582ee72ae7a470275548da2fddedad221c8b6b8ef5dc24573d9173f8b9a
+outputs.7.1.filename=arthas-core-3.4.2.jar
+outputs.7.1.length=1294157
+outputs.7.1.checksums.sha512=cab14e9fec9ab50190aa61aa9d1a9536e59356dbf5d6d7132ae9e10797d176157491d32ad5958cd3062fb8bf993f08ed306effdf98d25be6475ffa3952fa5e1d
+
+outputs.7.2.filename=arthas-core-3.4.2-sources.jar
+outputs.7.2.length=936221
+outputs.7.2.checksums.sha512=bfb286f5ea34a783623bf38a03e45fd9ab66b5bedca4a2c13474fe4a56b85baed948d582ee72ae7a470275548da2fddedad221c8b6b8ef5dc24573d9173f8b9a
 
 outputs.8.coordinates=com.taobao.arthas:arthas-agent
 
-outputs.8.0.filename=arthas-agent-3.4.2.jar
-outputs.8.0.length=8097
-outputs.8.0.checksums.sha512=a46a10d3f17931f8fd2715ecb38c8d29b2ee92821a8dcf3e95ae9c7d8da484dd45f349baee26070b486e50b7bcbdbebed2a2273157a1c20371eae04adb31d5bb
+outputs.8.0.filename=arthas-agent-3.4.2.pom
+outputs.8.0.length=3170
+outputs.8.0.checksums.sha512=e6deff1843b31f5e500957d94202551988942f3e95f8af821424a8dbe3ce08064544a779359cbb0ce2c5519518e2c10261beee410b6a8465a6ccab18f7933c51
 
-outputs.8.1.filename=arthas-agent-3.4.2-sources.jar
-outputs.8.1.length=5619
-outputs.8.1.checksums.sha512=92845fefbc8c8cf3c1e8ac57f93da00303054ae26d5242725b340827fd024f5300443f748397e42e550123165f90a92f7d3092f9fa613c2064c7da41b332f795
+outputs.8.1.filename=arthas-agent-3.4.2.jar
+outputs.8.1.length=8125
+outputs.8.1.checksums.sha512=ed6d1d74e76e6ff51963ca7e4e03b6f8ad9d92ec8d2ed16c10aab749acbdc913a02a939cac24b6918cf83409181c7b914e019fcbedf7ad05d717e170917a151d
 
-outputs.8.2.filename=arthas-agent-3.4.2-jar-with-dependencies.jar
-outputs.8.2.length=8164
-outputs.8.2.checksums.sha512=ae19173cff8ab5749508482d8388136df1ed3280e4d05e271ef121abc7e231815457466f5fea0537a0bd1ec23e3c45b906bd2b10c0ae90b50adee388d55bb4f3
+outputs.8.2.filename=arthas-agent-3.4.2-sources.jar
+outputs.8.2.length=5619
+outputs.8.2.checksums.sha512=92845fefbc8c8cf3c1e8ac57f93da00303054ae26d5242725b340827fd024f5300443f748397e42e550123165f90a92f7d3092f9fa613c2064c7da41b332f795
+
+outputs.8.3.filename=arthas-agent-3.4.2-jar-with-dependencies.jar
+outputs.8.3.length=8192
+outputs.8.3.checksums.sha512=785adde7c7ad607c759c0a15d3cd08df4c876d18a17fd80daf4e0db159e80cef6a7156583f4ffe3257d29a9aba2f226fbc0d841b37fd39cccf9c506717332582
 
 outputs.9.coordinates=com.taobao.arthas:arthas-client
 
-outputs.9.0.filename=arthas-client-3.4.2.jar
-outputs.9.0.length=51233
-outputs.9.0.checksums.sha512=956fd79b0d05f7b8455d1c4ae26b0cec8fa83394816762d116839878506daba41a72e4a128b2d2af37dfbed8c4cb71d6658addc05e89cfce6d709e81cfa21248
+outputs.9.0.filename=arthas-client-3.4.2.pom
+outputs.9.0.length=3167
+outputs.9.0.checksums.sha512=3a1d948e78cbb989938eb99a1c4c6243111ae460237d9587ffa425736c6fcf35e216715649029cf218d1466a0a132cfb722610bf5834f398b510221cb0f21f76
 
-outputs.9.1.filename=arthas-client-3.4.2-sources.jar
-outputs.9.1.length=60849
-outputs.9.1.checksums.sha512=08a9b84638a900cc4566fdbb8ced284e8a940ca74ca66e0858eec0301135f4de643691ac7c1f3302cb05a7e587ec38f4b9afa1622f7602885a9e69b12cf2f4a8
+outputs.9.1.filename=arthas-client-3.4.2.jar
+outputs.9.1.length=51261
+outputs.9.1.checksums.sha512=a0aed47325341cf3d6324027957f8d4fa6879e1a18bb22ddf8cfcc1ec812fce8bba5b97aad5be4d93e2181968564db99b8842550b6fbe693535f7938e56ed72e
 
-outputs.9.2.filename=arthas-client-3.4.2-jar-with-dependencies.jar
-outputs.9.2.length=427202
-outputs.9.2.checksums.sha512=04035e951367e6bb795dfb7d0021b07855b5586e94a3c2a3256832230119a8c5a26f9291a49cb90aa94b5b5f9f9f87f6783231304f30598a72e02fd2845b31f3
+outputs.9.2.filename=arthas-client-3.4.2-sources.jar
+outputs.9.2.length=60849
+outputs.9.2.checksums.sha512=08a9b84638a900cc4566fdbb8ced284e8a940ca74ca66e0858eec0301135f4de643691ac7c1f3302cb05a7e587ec38f4b9afa1622f7602885a9e69b12cf2f4a8
+
+outputs.9.3.filename=arthas-client-3.4.2-jar-with-dependencies.jar
+outputs.9.3.length=427230
+outputs.9.3.checksums.sha512=c43e7f4e6293c49b9578c9cd1cb2aa7c56db7e735ee8db9f7183209392378941174839426dcb106bafcebfda9bc50d8b907d57201d7ed1b8a30cda44dbf38731
 
 outputs.10.coordinates=com.taobao.arthas:arthas-boot
 
-outputs.10.0.filename=arthas-boot-3.4.2.jar
-outputs.10.0.length=27072
-outputs.10.0.checksums.sha512=27c5516fcefdc032c8d4f49a9bd6b53a9b67c623a22810f48126cc1295f763a256847de3a0faf522083547bf9b7c39d5a01dcceb7c83636a2f75551ab970e3e2
+outputs.10.0.filename=arthas-boot-3.4.2.pom
+outputs.10.0.length=3169
+outputs.10.0.checksums.sha512=0c73fcd770a335ab3802012d35bfd43a8ec9f2697f255026c8441a8d4c8a9d2d79047f8bedf04c37046893e6cc357f54704d85e9c42bcdd023bb0408b06ee6f8
 
-outputs.10.1.filename=arthas-boot-3.4.2-sources.jar
-outputs.10.1.length=14885
-outputs.10.1.checksums.sha512=224591a5e3360dafdb4d40aa608e45843cc3bcf6c827ab9b6b39f1717f6011301d96caa76cb4fcbb3c587094964f50e6d32d06095fe954841673111c4f2a7e76
+outputs.10.1.filename=arthas-boot-3.4.2.jar
+outputs.10.1.length=27100
+outputs.10.1.checksums.sha512=eee99c863ed52b0a137570afb204a9538bd0545c738eccfa38b2225645f597f9f5851c4cdef24fd29e2989ed607e5e460b60aa3a946dfd4d304e269859cb17aa
 
-outputs.10.2.filename=arthas-boot-3.4.2-jar-with-dependencies.jar
-outputs.10.2.length=137387
-outputs.10.2.checksums.sha512=8adc94ab47b2590c8bd94453c2ad058828d6046e6fef6bec5c761347c184b0d9750cee42bf9d5b3936c5805c29bf7786161adfd2a1c0209544b3dbb1663767fc
+outputs.10.2.filename=arthas-boot-3.4.2-sources.jar
+outputs.10.2.length=14885
+outputs.10.2.checksums.sha512=224591a5e3360dafdb4d40aa608e45843cc3bcf6c827ab9b6b39f1717f6011301d96caa76cb4fcbb3c587094964f50e6d32d06095fe954841673111c4f2a7e76
+
+outputs.10.3.filename=arthas-boot-3.4.2-jar-with-dependencies.jar
+outputs.10.3.length=137415
+outputs.10.3.checksums.sha512=ad77144293d1e4f44520e607624159ad1af02f8f2ae76b0a0f69fb5075ede8023f05d8173f5f411c0151b081facdbcdeef2bf8155425e5ad6abe7aee92b2e128
 
 outputs.11.coordinates=com.taobao.arthas:arthas-agent-attach
 
-outputs.11.0.filename=arthas-agent-attach-3.4.2.jar
-outputs.11.0.length=6782
-outputs.11.0.checksums.sha512=7a71fb1b6918cd547dbab1e720d3b5907590ebb22b2e294bb0414635f3bc1f0293ffb5ca5b0b003100093553d120402c7cbc1f61971af686477ab64caf937d23
+outputs.11.0.filename=arthas-agent-attach-3.4.2.pom
+outputs.11.0.length=1856
+outputs.11.0.checksums.sha512=89dbbf41d319d636ed7c2891610bbc0599418add73985268b5945ec5367dc3ab7b9bc087f7e9700073adb228699cff95a67a680cd0b2f69fdb228bfdcdbd0546
 
-outputs.11.1.filename=arthas-agent-attach-3.4.2-sources.jar
-outputs.11.1.length=4926
-outputs.11.1.checksums.sha512=66a012ff5049955d8b895b9afd0b60d5b29ab70977ecdf3b1d7b20531e011023e25dca37073d610e61e90ce70ce430f87127a09bd0e8f7abef4d4bf8dcc00274
+outputs.11.1.filename=arthas-agent-attach-3.4.2.jar
+outputs.11.1.length=6810
+outputs.11.1.checksums.sha512=74dffc1d8acadc0a59a8c8f26e7212d6017fbbecae5707de5f5980d7725637be017627e50a23aeaef8d5cb0eb3b9cc6c32c607680736ebbcd288429e9b209dac
+
+outputs.11.2.filename=arthas-agent-attach-3.4.2-sources.jar
+outputs.11.2.length=4926
+outputs.11.2.checksums.sha512=66a012ff5049955d8b895b9afd0b60d5b29ab70977ecdf3b1d7b20531e011023e25dca37073d610e61e90ce70ce430f87127a09bd0e8f7abef4d4bf8dcc00274
 
 outputs.12.coordinates=com.taobao.arthas:arthas-site
 
-outputs.12.0.filename=arthas-site-3.4.2.jar
-outputs.12.0.length=2177
-outputs.12.0.checksums.sha512=87b2ccaa9696fb07ecc566d0a544d2febdb77e0d71e8bd8d36c395f8b59461b6eb493775df2095d6263b54b4149f7fc467200cd286d20298d2503bbcbac24b88
+outputs.12.0.filename=arthas-site-3.4.2.pom
+outputs.12.0.length=2633
+outputs.12.0.checksums.sha512=86b7ba4b352e9a68bc871945174ac467e6fa80841c2f904bf98f04c89645403335b7557ee685738e13542c6d6ad329830f31da2518682764a23b0cb8b12b1902
+
+outputs.12.1.filename=arthas-site-3.4.2.jar
+outputs.12.1.length=2205
+outputs.12.1.checksums.sha512=7fc3acd2a39209885081f2a9549bb0560f537ea73357797fe1f7ef50ddf2eac338681986f8be67e84b3e273784b683742927c6275a0d0818b7d997d97ef09480
 
 outputs.13.coordinates=com.taobao.arthas:arthas-packaging
 
-outputs.13.0.filename=arthas-packaging-3.4.2.jar
-outputs.13.0.length=12091101
-outputs.13.0.checksums.sha512=4cb84ce3820985bea0cc6d1fcf3d9801f884d6711a73f9ccd67abe87d26edce0bc4ef5c6bf05094e0a7717ad2345ca9554d9d820f55e72d127953c61d1e0051c
+outputs.13.0.filename=arthas-packaging-3.4.2.pom
+outputs.13.0.length=11583
+outputs.13.0.checksums.sha512=9611ec241d18d597d5275f666b96408c07a0b6a9a1f345ef2f12d99f5114d89f4098c5ed555033194b7500d8f309c3569038c9105f55bd3deb4bae2fc0c11189
 
-outputs.13.1.filename=arthas-packaging-3.4.2-bin.zip
-outputs.13.1.length=12086194
-outputs.13.1.checksums.sha512=f5f46ba19d36157a224fc6cda0344cbc5301144b2e8e391c38aa39f224263d4dea3ffdb697dd4b4ed40ba49b072d8a12a509a47ca33a09dad9fdcd60c0a1cbba
+outputs.13.1.filename=arthas-packaging-3.4.2.jar
+outputs.13.1.length=12091325
+outputs.13.1.checksums.sha512=801f66d3ce6cea72191e20ca5d7a1d7fe3328ba06c9a4e2c58b2b7f675a129821a1309fa20c2668f26d422bd6bbf73ac9f5ae0e31004505d2009f17cd4890e02
 
-outputs.13.2.filename=arthas-packaging-3.4.2.deb
-outputs.13.2.length=12094684
-outputs.13.2.checksums.sha512=b240ff4859c500b1afa5be978c94b86bad515a09451294954df5a79473014d8ac8bd15f58c33f595352bc1fa6335cb9176ad9da973a9c7650eec9e5a0c62ef7c
+outputs.13.2.filename=arthas-packaging-3.4.2-bin.zip
+outputs.13.2.length=12086400
+outputs.13.2.checksums.sha512=41fe4ae2e60e84c96fdbb36ae2bab5274e54bba6bf8e6e24dabc29589b960b7f4261c06fd7d1e758f3c333d89ed1b34955934f9dc8774b8a0d346a0d1e29b234
+
+outputs.13.3.filename=arthas-packaging-3.4.2.deb
+outputs.13.3.length=12094780
+outputs.13.3.checksums.sha512=e3b087cefb13723800cbfb6633b46d7f4212afb9ef7e96a672df352308c54c453bfc664ff81cf23f2bdbd6dfcdbb0782da40431b6448f4c46173c444ae6bca96
 
 outputs.14.coordinates=com.taobao.arthas:arthas-spring-boot-starter
 
-outputs.14.0.filename=arthas-spring-boot-starter-3.4.2.jar
-outputs.14.0.length=9889
-outputs.14.0.checksums.sha512=51e2566e3672a12f08747af502f9d90fa761baaf4acbc79c1936ec4ecb14227d382198f6f66188117ec269f2f4e4ae31df5f71d7408423454f7b180438a05b7d
+outputs.14.0.filename=arthas-spring-boot-starter-3.4.2.pom
+outputs.14.0.length=3908
+outputs.14.0.checksums.sha512=b5c32d867d2166fd17258dad5a5641d832cc343087e0555507c24b48007a2e7f8c847b29bca00b68c0fc73614886e7d7674604f2f8a35c10ef27f1fa84ea1a10
 
-outputs.14.1.filename=arthas-spring-boot-starter-3.4.2-sources.jar
-outputs.14.1.length=6464
-outputs.14.1.checksums.sha512=ed9cfc7a48e5f3284802fd61fa9cbf806f1a3de28b1e2b172b7c89f4931885343c68b1b0100c4c5b1910d4513e4417cb773d97c8ef217779b511ce590279490d
+outputs.14.1.filename=arthas-spring-boot-starter-3.4.2.jar
+outputs.14.1.length=9917
+outputs.14.1.checksums.sha512=3ea0ff2b73a85b32a1f54e4409c9e3661b714ad44541e3705674415178f3764c5802bc7dd28ee3977fe2cba416282edb61ee1bee15510d1e8c5fadf1c6915403
+
+outputs.14.2.filename=arthas-spring-boot-starter-3.4.2-sources.jar
+outputs.14.2.length=6464
+outputs.14.2.checksums.sha512=ed9cfc7a48e5f3284802fd61fa9cbf806f1a3de28b1e2b172b7c89f4931885343c68b1b0100c4c5b1910d4513e4417cb773d97c8ef217779b511ce590279490d
 
 outputs.15.coordinates=com.taobao.arthas:arthas-testcase
 
-outputs.15.0.filename=arthas-testcase-3.4.2.jar
-outputs.15.0.length=4933
-outputs.15.0.checksums.sha512=cbe4ebc443a2ed342865d7e8449f1712cb4e475df80665f3d4edabcb4d49b6309914dacf9d18d90130f381ae670a6a5132853d502a881de3d2f9bef7d888cb5e
+outputs.15.0.filename=arthas-testcase-3.4.2.pom
+outputs.15.0.length=1138
+outputs.15.0.checksums.sha512=4821c67de43aa1b6482af9c704598d1547bc0ac4258770f3dc099161f48c7403313dcc7dc0c2e4a7226627dfdbc9466109534d7f5e9c01853e2c089a9c7511a0
 
-outputs.15.1.filename=arthas-testcase-3.4.2-sources.jar
-outputs.15.1.length=3041
-outputs.15.1.checksums.sha512=20bd3f77de574406c5d485072c90f6525bdcab21cc21770a4519bbec2aa4d3ca73b48ed42c2a6707435c1e218a04bab0ab5c82748546c0c0346a0a7c2f4cbde5
+outputs.15.1.filename=arthas-testcase-3.4.2.jar
+outputs.15.1.length=4961
+outputs.15.1.checksums.sha512=df08ce867672fc33b3c6a34a5ab17f002c5398c6a3fd2ef819bc27d1b6db3ffe9056436b2cfa4b09c4ad279082c9064d8c495143fc7a764654f7cae34a7ea01d
+
+outputs.15.2.filename=arthas-testcase-3.4.2-sources.jar
+outputs.15.2.length=3041
+outputs.15.2.checksums.sha512=20bd3f77de574406c5d485072c90f6525bdcab21cc21770a4519bbec2aa4d3ca73b48ed42c2a6707435c1e218a04bab0ab5c82748546c0c0346a0a7c2f4cbde5
 
 outputs.16.coordinates=com.taobao.arthas:arthas-tunnel-server
 
-outputs.16.0.filename=arthas-tunnel-server-3.4.2.jar
-outputs.16.0.length=27900662
-outputs.16.0.checksums.sha512=f37fb36986380068fefe3b1745019459d415b7c10875948d3cfeed5486c6ee5da8ee45a9fecc9eedc3a5db742aea286699cca5e0c43e46f1ca6a569ced510fa7
+outputs.16.0.filename=arthas-tunnel-server-3.4.2.pom
+outputs.16.0.length=2938
+outputs.16.0.checksums.sha512=85d36e3ca23b7a555e860d1c201659e96d6eab5d1fa4799f1c6c701bedc926fe13ab0a57384455d1e2353a43092fbf071970c715fd4ca4ee3a4019608c74d2d2
 
-outputs.16.1.filename=arthas-tunnel-server-3.4.2-sources.jar
-outputs.16.1.length=157796
-outputs.16.1.checksums.sha512=d683459e6e7039c34693125940df8fd5f6aa0c4ad1d7bef216b355919589f698611f4a2536370b9c756c2baaefd6b79db1370ae83ab34f1be25f4a43a568cc00
+outputs.16.1.filename=arthas-tunnel-server-3.4.2.jar
+outputs.16.1.length=27900690
+outputs.16.1.checksums.sha512=6e5c2135cb6e264b1ed6dde78f4e0ebaa41eaee6b0dbd6db34ef1ac1bfc40129d398592bc77ef86e311c08d245869ec9cc9535d9849f6e14d9efcaadc4b87c7b
+
+outputs.16.2.filename=arthas-tunnel-server-3.4.2-sources.jar
+outputs.16.2.length=157796
+outputs.16.2.checksums.sha512=d683459e6e7039c34693125940df8fd5f6aa0c4ad1d7bef216b355919589f698611f4a2536370b9c756c2baaefd6b79db1370ae83ab34f1be25f4a43a568cc00

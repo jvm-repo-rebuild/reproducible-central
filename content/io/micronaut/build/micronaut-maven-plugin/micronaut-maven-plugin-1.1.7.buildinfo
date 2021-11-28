@@ -13,21 +13,23 @@ source.scm.tag=v1.1.7
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_275
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.minimum.version=3.3.9
 
 # output
 
-outputs.0.filename=micronaut-maven-plugin-1.1.7.jar
-outputs.0.length=70860
-outputs.0.checksums.sha512=6c66ad4030c28e8ef78cb1f613a834316c323c207a1cbdfcab717017f144953e3256a5dc73def94aa8b4c7863abf40559ff6a104ace75d6a523c5fc898012a5b
+outputs.0.filename=micronaut-maven-plugin-1.1.7.pom
+outputs.0.length=21390
+outputs.0.checksums.sha512=636c4955c6f253fe3cc8cd251756c514e33cbb40d4deb27cdb29d71066c06bf103df06ac130ed9929b9088842ab250661b5574c27f33f38f39247526d029ac9e
 
-outputs.1.filename=micronaut-maven-plugin-1.1.7-sources.jar
-outputs.1.length=37111
-outputs.1.checksums.sha512=296cd77474ecc963001422fed49e1e844d789cc96c2c7ab831e4153545443f3e6d9451e1088066bf62116aa4d6b0e173b504ec246034f30fa790d6fcc4ff43b4
+outputs.1.filename=micronaut-maven-plugin-1.1.7.jar
+outputs.1.length=70860
+outputs.1.checksums.sha512=6c66ad4030c28e8ef78cb1f613a834316c323c207a1cbdfcab717017f144953e3256a5dc73def94aa8b4c7863abf40559ff6a104ace75d6a523c5fc898012a5b
+
+outputs.2.filename=micronaut-maven-plugin-1.1.7-sources.jar
+outputs.2.length=37111
+outputs.2.checksums.sha512=296cd77474ecc963001422fed49e1e844d789cc96c2c7ab831e4153545443f3e6d9451e1088066bf62116aa4d6b0e173b504ec246034f30fa790d6fcc4ff43b4

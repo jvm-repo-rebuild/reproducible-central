@@ -1,5 +1,8 @@
 version=1.5.4
-ok=1
+ok=2
 ko=1
-okFiles="io.wcm.handler.link-1.5.4.jar"
+okFiles="io.wcm.handler.link-1.5.4.pom io.wcm.handler.link-1.5.4.jar"
 koFiles="io.wcm.handler.link-1.5.4-sources.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/io.wcm.handler.link-1.5.4-sources.jar target/io.wcm.handler.link-1.5.4-sources.jar

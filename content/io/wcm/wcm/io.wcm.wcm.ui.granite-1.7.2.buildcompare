@@ -1,5 +1,7 @@
 version=1.7.2
-ok=2
+ok=3
 ko=0
-okFiles="io.wcm.wcm.ui.granite-1.7.2.jar io.wcm.wcm.ui.granite-1.7.2-sources.jar"
+okFiles="io.wcm.wcm.ui.granite-1.7.2.pom io.wcm.wcm.ui.granite-1.7.2.jar io.wcm.wcm.ui.granite-1.7.2-sources.jar"
 koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"

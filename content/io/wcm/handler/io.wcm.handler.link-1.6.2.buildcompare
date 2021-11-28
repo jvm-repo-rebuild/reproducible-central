@@ -1,5 +1,10 @@
 version=1.6.2
-ok=1
+ok=2
 ko=3
-okFiles="io.wcm.handler.link-1.6.2.jar"
+okFiles="io.wcm.handler.link-1.6.2.pom io.wcm.handler.link-1.6.2.jar"
 koFiles="io.wcm.handler.link-1.6.2-sources.jar io.wcm.handler.link-1.6.2-content.zip io.wcm.handler.link-1.6.2-bundle.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/io.wcm.handler.link-1.6.2-sources.jar target/io.wcm.handler.link-1.6.2-sources.jar
+# diffoscope target/reference/io.wcm.handler.link-1.6.2-content.zip target/io.wcm.handler.link-1.6.2-content.zip
+# diffoscope target/reference/io.wcm.handler.link-1.6.2-bundle.jar target/io.wcm.handler.link-1.6.2-bundle.jar

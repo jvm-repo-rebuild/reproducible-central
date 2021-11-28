@@ -1,5 +1,7 @@
 version=5.2.0
-ok=8
+ok=17
 ko=0
-okFiles="bnd-maven-plugin-5.2.0.jar bnd-indexer-maven-plugin-5.2.0.jar bnd-baseline-maven-plugin-5.2.0.jar bnd-export-maven-plugin-5.2.0.jar bnd-testing-maven-plugin-5.2.0.jar bnd-resolver-maven-plugin-5.2.0.jar bnd-run-maven-plugin-5.2.0.jar bnd-reporter-maven-plugin-5.2.0.jar"
+okFiles="bnd-plugin-parent-5.2.0.pom bnd-maven-plugin-5.2.0.pom bnd-maven-plugin-5.2.0.jar bnd-indexer-maven-plugin-5.2.0.pom bnd-indexer-maven-plugin-5.2.0.jar bnd-baseline-maven-plugin-5.2.0.pom bnd-baseline-maven-plugin-5.2.0.jar bnd-export-maven-plugin-5.2.0.pom bnd-export-maven-plugin-5.2.0.jar bnd-testing-maven-plugin-5.2.0.pom bnd-testing-maven-plugin-5.2.0.jar bnd-resolver-maven-plugin-5.2.0.pom bnd-resolver-maven-plugin-5.2.0.jar bnd-run-maven-plugin-5.2.0.pom bnd-run-maven-plugin-5.2.0.jar bnd-reporter-maven-plugin-5.2.0.pom bnd-reporter-maven-plugin-5.2.0.jar"
 koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

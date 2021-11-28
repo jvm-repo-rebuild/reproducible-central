@@ -1,5 +1,9 @@
 version=1.4.0
-ok=0
+ok=1
 ko=2
-okFiles=""
+okFiles="io.wcm.handler.richtext-1.4.0.pom"
 koFiles="io.wcm.handler.richtext-1.4.0.jar io.wcm.handler.richtext-1.4.0-sources.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/io.wcm.handler.richtext-1.4.0.jar target/io.wcm.handler.richtext-1.4.0.jar
+# diffoscope target/reference/io.wcm.handler.richtext-1.4.0-sources.jar target/io.wcm.handler.richtext-1.4.0-sources.jar

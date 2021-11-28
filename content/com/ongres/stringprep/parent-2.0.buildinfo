@@ -13,45 +13,59 @@ source.scm.tag=2.0
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=11.0.9.1
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.aggregate.artifact-id=nameprep
 
 # aggregated output
 
 outputs.0.coordinates=com.ongres.stringprep:parent
 
+outputs.0.0.filename=parent-2.0.pom
+outputs.0.0.length=19703
+outputs.0.0.checksums.sha512=6de2e4e1bed44d14eafdf882eb41b888eb9657ba19496cd4c73b8a9349579a980992de2a4fd76fd9e3b587f4f9b45e3ad89d89e85885464f460af331e5516d84
+
 outputs.1.coordinates=com.ongres.stringprep:stringprep
 
-outputs.1.0.filename=stringprep-2.0.jar
-outputs.1.0.length=43476
-outputs.1.0.checksums.sha512=537784146dbbe7fb20ee32d7f62004b1093cff76dd0492191bfeb24c4decc3fca1d90fa02e58696b16c7de9931007339a5b0bbf107b187f4215fd72202f59264
+outputs.1.0.filename=stringprep-2.0.pom
+outputs.1.0.length=1695
+outputs.1.0.checksums.sha512=1917ae98bace0dc096e1b816053c10026fdf944c58738716e9f9cc7c47c11f8f1542a09162c34cfdf8b25344b7b1ee29ae58cb58792d9f5597dbd003557eb341
 
-outputs.1.1.filename=stringprep-2.0-sources.jar
-outputs.1.1.length=29063
-outputs.1.1.checksums.sha512=612b4fec87651ddffae312dd7a7a3e4f208e1183bd420d19e09edc65b094e4bd7846776234c5c601cfe711872f0fd18d5330457ef3c63045674ecba2d8df6313
+outputs.1.1.filename=stringprep-2.0.jar
+outputs.1.1.length=43476
+outputs.1.1.checksums.sha512=32ff56db6f4eeed76a89131b7b642b887bbee4de92f591c0505018e160d671a3ac9aee81e3fb1db26e287d7d30034fb280b217bfc89c3eab69a546bbce18cacc
+
+outputs.1.2.filename=stringprep-2.0-sources.jar
+outputs.1.2.length=29063
+outputs.1.2.checksums.sha512=612b4fec87651ddffae312dd7a7a3e4f208e1183bd420d19e09edc65b094e4bd7846776234c5c601cfe711872f0fd18d5330457ef3c63045674ecba2d8df6313
 
 outputs.2.coordinates=com.ongres.stringprep:saslprep
 
-outputs.2.0.filename=saslprep-2.0.jar
-outputs.2.0.length=5348
-outputs.2.0.checksums.sha512=660f00e96c893938b56b6b6ee562d60b2c8678da6d459ee4a314502d79d325f2bf2d2bfec9506ac4241447e1d6dc733ed93743f89cf478d3077fc786063ff57a
+outputs.2.0.filename=saslprep-2.0.pom
+outputs.2.0.length=1902
+outputs.2.0.checksums.sha512=40db1c2e6f2eeafac5b19ac18feeee1092c99f192fe21bcc47baacebc7d4c12826a086a2e3d605d6681969488aa8f6ade3c2330241d258539343d16246f7e562
 
-outputs.2.1.filename=saslprep-2.0-sources.jar
-outputs.2.1.length=3861
-outputs.2.1.checksums.sha512=88d24b600baaff77c173c9f88c04491430e998a52f9b0f1098befaa121b27002d105394de431c54ad2241509685219bba380cff92b7dd92c832b6d89760fc607
+outputs.2.1.filename=saslprep-2.0.jar
+outputs.2.1.length=5348
+outputs.2.1.checksums.sha512=c02732ed27763907952ad6a4d3793fa30a3b9e2e4ddeb349201e6bb0569e4dbd303defef33179d844c50e5fec194af61676c00d7f6902b8972faa0cbf7e9fe9f
+
+outputs.2.2.filename=saslprep-2.0-sources.jar
+outputs.2.2.length=3861
+outputs.2.2.checksums.sha512=88d24b600baaff77c173c9f88c04491430e998a52f9b0f1098befaa121b27002d105394de431c54ad2241509685219bba380cff92b7dd92c832b6d89760fc607
 
 outputs.3.coordinates=com.ongres.stringprep:nameprep
 
-outputs.3.0.filename=nameprep-2.0.jar
-outputs.3.0.length=5169
-outputs.3.0.checksums.sha512=b28b85ab62a226594c4a804c16bb753b8cc9b34eeab5261014200d71ac75b40bf51022424715cdbd31be628d1603499de14d48923ea9e9e7078b22c23134723e
+outputs.3.0.filename=nameprep-2.0.pom
+outputs.3.0.length=1916
+outputs.3.0.checksums.sha512=c4c16843cb81a0c4f99651cf45c2c56a2f1b43a702f4bd99ace452154bd123aa7bb4b58cb1f95eeac57d23776eb5fdf025ef23e760e3745703a7e228a0bd0ac9
 
-outputs.3.1.filename=nameprep-2.0-sources.jar
-outputs.3.1.length=3672
-outputs.3.1.checksums.sha512=8516620ec63b2f6fc50594d2b408df44fe845fefa8557f7261cbd5774b26e24aa1970d457c8044973cc0aefc20853c99f3f9e57aaa37c77126fb3a5720e27611
+outputs.3.1.filename=nameprep-2.0.jar
+outputs.3.1.length=5169
+outputs.3.1.checksums.sha512=0f4cbad8ac520e84715fb3eaa878d2ea931c317781189d220e42deb940b29381e737fcc3c92b0ce62c10055b9601d9ce816b2f10a215b748c0409a398a5840a4
+
+outputs.3.2.filename=nameprep-2.0-sources.jar
+outputs.3.2.length=3672
+outputs.3.2.checksums.sha512=8516620ec63b2f6fc50594d2b408df44fe845fefa8557f7261cbd5774b26e24aa1970d457c8044973cc0aefc20853c99f3f9e57aaa37c77126fb3a5720e27611

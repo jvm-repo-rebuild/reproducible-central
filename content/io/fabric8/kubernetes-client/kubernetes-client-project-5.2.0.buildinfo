@@ -13,13 +13,11 @@ source.scm.tag=5.2.0
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_275
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 mvn.aggregate.artifact-id=crd-generator-apt
 
 # aggregated output
@@ -30,776 +28,1080 @@ outputs.0.0.filename=kubernetes-client-project-5.2.0.pom
 outputs.0.0.length=37398
 outputs.0.0.checksums.sha512=fbc20af425749b94ec41836d3f9cb5e54253c8a041c71af6b57c446c9bc2afd55ef23262bddff9d57432ce092b068ca82b980f010bd5241845e109ed944ed309
 
+outputs.0.1.filename=kubernetes-client-project-5.2.0.pom
+outputs.0.1.length=37398
+outputs.0.1.checksums.sha512=fbc20af425749b94ec41836d3f9cb5e54253c8a041c71af6b57c446c9bc2afd55ef23262bddff9d57432ce092b068ca82b980f010bd5241845e109ed944ed309
+
 outputs.1.coordinates=io.fabric8:kubernetes-model-generator
+
+outputs.1.0.filename=kubernetes-model-generator-5.2.0.pom
+outputs.1.0.length=9557
+outputs.1.0.checksums.sha512=4ebba56ed61707b49d03cdfcde6fbb054eb75c0840d6e6bcffc674241c2f03f580e4eeb02f55ca25cf1137fa1ba92a02d5641358f7c1f4ed9e5d8bcda6457f88
 
 outputs.2.coordinates=io.fabric8:kubernetes-model-common
 
-outputs.2.0.filename=kubernetes-model-common-5.2.0.jar
-outputs.2.0.length=11633
-outputs.2.0.checksums.sha512=3b8edf02e9909a98f4c2c116d5ba9fae11fdc571469bee12902cd66e9ebb5672e0623c569dabce73b388fe8eba2d4cc394d2d2dfc4907ca38b45d9013a27cf18
+outputs.2.0.filename=kubernetes-model-common-5.2.0.pom
+outputs.2.0.length=2115
+outputs.2.0.checksums.sha512=2c1f18bb045a81a91a0dc013870ebce552478534e1b6e433b30fd0ba3a4e9d69f414b92ec0ce646c378d395fa2001e1b530da20e95b4440d54a3c5b7a47097b7
 
-outputs.2.1.filename=kubernetes-model-common-5.2.0-sources.jar
-outputs.2.1.length=14203
-outputs.2.1.checksums.sha512=4fa053a9a5dc288884c80b5aba9694f2e3a5c355e50796b1abf381b5a78281a7ce2d9068ec454f38734b089b348d18ac676b9734ff51675fca906069238c2d9b
+outputs.2.1.filename=kubernetes-model-common-5.2.0.jar
+outputs.2.1.length=11633
+outputs.2.1.checksums.sha512=3b8edf02e9909a98f4c2c116d5ba9fae11fdc571469bee12902cd66e9ebb5672e0623c569dabce73b388fe8eba2d4cc394d2d2dfc4907ca38b45d9013a27cf18
+
+outputs.2.2.filename=kubernetes-model-common-5.2.0-sources.jar
+outputs.2.2.length=14203
+outputs.2.2.checksums.sha512=4fa053a9a5dc288884c80b5aba9694f2e3a5c355e50796b1abf381b5a78281a7ce2d9068ec454f38734b089b348d18ac676b9734ff51675fca906069238c2d9b
 
 outputs.3.coordinates=io.fabric8:model-annotator
 
-outputs.3.0.filename=model-annotator-5.2.0.jar
-outputs.3.0.length=5396
-outputs.3.0.checksums.sha512=043ebf4d2a2437cd350ac27691416e681c30f8eda20dcd2e53eae090b2eebba1eb10b06b6b330201ea3258a6d6f8945688ffedc210162f7d47cfcf2e3cac9feb
+outputs.3.0.filename=model-annotator-5.2.0.pom
+outputs.3.0.length=2049
+outputs.3.0.checksums.sha512=55e27167033a5236e2f8690033998f38bb4bb753eabbb7525cf1c3c7d33a2a06ce150f9a0e78a812fce1b77cde972cfac15c7149fc93d8b7db76416e3cf41a66
 
-outputs.3.1.filename=model-annotator-5.2.0-sources.jar
-outputs.3.1.length=4018
-outputs.3.1.checksums.sha512=4c9119b8c6804a9b88b18faf6f072d8dc2f79ab6949347beba051f66df74fc712af8b4a30b96763012137fbb18385b11ba8bd5238ca6ebac1f871d700223e7ec
+outputs.3.1.filename=model-annotator-5.2.0.jar
+outputs.3.1.length=5396
+outputs.3.1.checksums.sha512=051e8c3a511fc58e51b711869e648735bf74d2b6795817605e2fab70a7f002abccb80b11a02bc77164c6ff98ee85e011628b9742ef17c86d8215c14049413ba8
+
+outputs.3.2.filename=model-annotator-5.2.0-sources.jar
+outputs.3.2.length=4018
+outputs.3.2.checksums.sha512=4c9119b8c6804a9b88b18faf6f072d8dc2f79ab6949347beba051f66df74fc712af8b4a30b96763012137fbb18385b11ba8bd5238ca6ebac1f871d700223e7ec
 
 outputs.4.coordinates=io.fabric8:kubernetes-model-jsonschema2pojo
 
-outputs.4.0.filename=kubernetes-model-jsonschema2pojo-5.2.0.jar
-outputs.4.0.length=11979
-outputs.4.0.checksums.sha512=1d9c31053a7487a06d1201f2e67dbb7d536fb52da48855adaf095578cf6de73c2b4ac58667f3e564f0635428544e92713dfe6688296ec96cacbe482fd6257740
+outputs.4.0.filename=kubernetes-model-jsonschema2pojo-5.2.0.pom
+outputs.4.0.length=1999
+outputs.4.0.checksums.sha512=d17202dfeae9e2917225e0ad3a6a663c3058bc285fff64b2b028b1f01889cd3df0738fa079de6c68eaee5b2705936d037a2c95ab89493331cdac62f8f46cfa9d
 
-outputs.4.1.filename=kubernetes-model-jsonschema2pojo-5.2.0-sources.jar
-outputs.4.1.length=8246
-outputs.4.1.checksums.sha512=5f4f3283ceb2ab22ff340715ffa3e1b23cd0850f2bc828a2a72273e6aaaf0e2401b19630bfff29f6b7a141dcc4b6b36f7e2c50b9245052fbbe3352da45a39a68
+outputs.4.1.filename=kubernetes-model-jsonschema2pojo-5.2.0.jar
+outputs.4.1.length=11979
+outputs.4.1.checksums.sha512=1d9c31053a7487a06d1201f2e67dbb7d536fb52da48855adaf095578cf6de73c2b4ac58667f3e564f0635428544e92713dfe6688296ec96cacbe482fd6257740
+
+outputs.4.2.filename=kubernetes-model-jsonschema2pojo-5.2.0-sources.jar
+outputs.4.2.length=8246
+outputs.4.2.checksums.sha512=5f4f3283ceb2ab22ff340715ffa3e1b23cd0850f2bc828a2a72273e6aaaf0e2401b19630bfff29f6b7a141dcc4b6b36f7e2c50b9245052fbbe3352da45a39a68
 
 outputs.5.coordinates=io.fabric8:kubernetes-model-core
 
-outputs.5.0.filename=kubernetes-model-core-5.2.0.jar
-outputs.5.0.length=3813011
-outputs.5.0.checksums.sha512=d0c364d38eca9cab2a3b31af3ff4f8836c93ca605c63e2ca233ffbbc81ff15482fd47bdf12a1abe785da665895aed23b6477d5d5c177d2ffaaee7a30cf27101b
+outputs.5.0.filename=kubernetes-model-core-5.2.0.pom
+outputs.5.0.length=8306
+outputs.5.0.checksums.sha512=ef67c159fc62f754d1a63274e63880029accc0ff17eb7df1246489b2fcaed88a3a8d5dc4dff56764143bac4dd247397fea782c1ea9b217b91d9a65ec32c12cf5
 
-outputs.5.1.filename=kubernetes-model-core-5.2.0-schema.json
-outputs.5.1.length=239082
-outputs.5.1.checksums.sha512=4b73d01dbb40ab5e67f22caeda033606995337761fa500dd96a4fdaf9d00fafb3a728858f8d3a1e368fe36fae1f41ffa8f3acfe7bfdb6cdb261d538e6a0c3274
+outputs.5.1.filename=kubernetes-model-core-5.2.0.jar
+outputs.5.1.length=3812918
+outputs.5.1.checksums.sha512=106cc3dd2bf256a6d37cfb9e762f82405999951cf7d7fb696e7ab0910e8463c9028b8d3f09b5b23f13383a85feba44ce869c1a51ca30f7a228d49ec24ab32faf
 
-outputs.5.2.filename=kubernetes-model-core-5.2.0-sources.jar
-outputs.5.2.length=2114903
-outputs.5.2.checksums.sha512=3730e6f4f5e6fc9c52b9dc2f9cb83d6e61ba0fb9e8e42bcae4dfae41d64d84a19ab5ec26fe4cdbfbaf8bab0581130724d7abff112e07112c21f89bcb6d1af1a5
+outputs.5.2.filename=kubernetes-model-core-5.2.0-schema.json
+outputs.5.2.length=239082
+outputs.5.2.checksums.sha512=4b73d01dbb40ab5e67f22caeda033606995337761fa500dd96a4fdaf9d00fafb3a728858f8d3a1e368fe36fae1f41ffa8f3acfe7bfdb6cdb261d538e6a0c3274
+
+outputs.5.3.filename=kubernetes-model-core-5.2.0-sources.jar
+outputs.5.3.length=2114903
+outputs.5.3.checksums.sha512=3730e6f4f5e6fc9c52b9dc2f9cb83d6e61ba0fb9e8e42bcae4dfae41d64d84a19ab5ec26fe4cdbfbaf8bab0581130724d7abff112e07112c21f89bcb6d1af1a5
 
 outputs.6.coordinates=io.fabric8:kubernetes-model-rbac
 
-outputs.6.0.filename=kubernetes-model-rbac-5.2.0.jar
-outputs.6.0.length=164353
-outputs.6.0.checksums.sha512=9a46f48a2e27c2a63ae336750208b79f72dff973a7895a8f0e5fd7549b17247ff8b27c05751dc6b35f3944b74a575ee4593a3ce3ae838ca5da95b03be3baa43f
+outputs.6.0.filename=kubernetes-model-rbac-5.2.0.pom
+outputs.6.0.length=3995
+outputs.6.0.checksums.sha512=830f6862c7695497560ed6c017b8e5b824c9e3f303d27b7288a6fdb9cf4e4ca5c9a65c21ad8c718d21b7e621079d43f9a53a996268a8c0fc549fdc5160276094
 
-outputs.6.1.filename=kubernetes-model-rbac-5.2.0-schema.json
-outputs.6.1.length=20655
-outputs.6.1.checksums.sha512=b351edfac781fb26b747ee30e4331ed0dd123e8853930ce21144b8ef3dbfd88eb8447f556e550de4a4a5723bb999757273bf7df374f398bceb9e287b3898b760
+outputs.6.1.filename=kubernetes-model-rbac-5.2.0.jar
+outputs.6.1.length=164368
+outputs.6.1.checksums.sha512=645893263a7a3a05c9b395d6ecd1f01862d48269089390b91dc10487def69e2bd3e370004ac72d597ad26f94d34273ba9f70ec0d3ee14116c84576f88b3e66b5
 
-outputs.6.2.filename=kubernetes-model-rbac-5.2.0-sources.jar
-outputs.6.2.length=115239
-outputs.6.2.checksums.sha512=5226bba56ed6120baaa9ee7d9c132e7133a8101f4b639f5103a7b11f6a0d0e2164dc37d7cf7af10aadc27b26956a6cb87f60df4e61afa7b76369904e08f3d0a1
+outputs.6.2.filename=kubernetes-model-rbac-5.2.0-schema.json
+outputs.6.2.length=20655
+outputs.6.2.checksums.sha512=b351edfac781fb26b747ee30e4331ed0dd123e8853930ce21144b8ef3dbfd88eb8447f556e550de4a4a5723bb999757273bf7df374f398bceb9e287b3898b760
+
+outputs.6.3.filename=kubernetes-model-rbac-5.2.0-sources.jar
+outputs.6.3.length=115239
+outputs.6.3.checksums.sha512=5226bba56ed6120baaa9ee7d9c132e7133a8101f4b639f5103a7b11f6a0d0e2164dc37d7cf7af10aadc27b26956a6cb87f60df4e61afa7b76369904e08f3d0a1
 
 outputs.7.coordinates=io.fabric8:kubernetes-model-admissionregistration
 
-outputs.7.0.filename=kubernetes-model-admissionregistration-5.2.0.jar
-outputs.7.0.length=723275
-outputs.7.0.checksums.sha512=8d61d4e8d188bad711a280accb24d9a07014d0f0d26b02f3ab93fc355eff9b73922c9836e3a0dd648e566e447d699f23e51c35217afc0775117e56568711a072
+outputs.7.0.filename=kubernetes-model-admissionregistration-5.2.0.pom
+outputs.7.0.length=4664
+outputs.7.0.checksums.sha512=98a2e54a10717f202aab2586564f07ed8d882f02cc4bbb68fd3911c39becfd4be44179e98ab3c0b2853ce8b4106b3a83058b668e9178eb9582db552b244dd01c
 
-outputs.7.1.filename=kubernetes-model-admissionregistration-5.2.0-schema.json
-outputs.7.1.length=93037
-outputs.7.1.checksums.sha512=e3c19913f2936f2474486e7d52347610bb77932b4e754a3f5aa1fd601ef07b644ffdff3cb636b164c5486d036b64abcd903cbe42026ff7ac79261943092ebee3
+outputs.7.1.filename=kubernetes-model-admissionregistration-5.2.0.jar
+outputs.7.1.length=723330
+outputs.7.1.checksums.sha512=2d3fe053b1e437e9d679a6b24ca9e206154f090d5bad8a53150db7143576ad75a82117e179bf1514075ce1501f4a4e230d4452b47e31d162917325a9a7f4259e
 
-outputs.7.2.filename=kubernetes-model-admissionregistration-5.2.0-sources.jar
-outputs.7.2.length=503662
-outputs.7.2.checksums.sha512=d7d1b63762cda08dd034b5dc89d665b6b9db8cf2fa9cab5aeebc1ba622b19348f8b5b7cd6c7bc844211a1942c2fe9c6c846857654aa1f6e9b168005420419ebf
+outputs.7.2.filename=kubernetes-model-admissionregistration-5.2.0-schema.json
+outputs.7.2.length=93037
+outputs.7.2.checksums.sha512=e3c19913f2936f2474486e7d52347610bb77932b4e754a3f5aa1fd601ef07b644ffdff3cb636b164c5486d036b64abcd903cbe42026ff7ac79261943092ebee3
+
+outputs.7.3.filename=kubernetes-model-admissionregistration-5.2.0-sources.jar
+outputs.7.3.length=503662
+outputs.7.3.checksums.sha512=d7d1b63762cda08dd034b5dc89d665b6b9db8cf2fa9cab5aeebc1ba622b19348f8b5b7cd6c7bc844211a1942c2fe9c6c846857654aa1f6e9b168005420419ebf
 
 outputs.8.coordinates=io.fabric8:kubernetes-model-apps
 
-outputs.8.0.filename=kubernetes-model-apps-5.2.0.jar
-outputs.8.0.length=400179
-outputs.8.0.checksums.sha512=11010f74fd15aec72d6fb3ae508f528d7fda32f2b865b9791484cd558fa6b32f57bd0d3ee3ecf93428310c45bbc51ad711cd2023b741d58c680640c3954f9120
+outputs.8.0.filename=kubernetes-model-apps-5.2.0.pom
+outputs.8.0.length=3991
+outputs.8.0.checksums.sha512=b0e21bbfe759bd2cd4e77ccf1eb463a766ccdda70cec4d8d52b8ce6f8c38d7fde8f829f76c539c936b777636b2255c1642d4ad7e728bec85dfbd3e982cd19ead
 
-outputs.8.1.filename=kubernetes-model-apps-5.2.0-schema.json
-outputs.8.1.length=241398
-outputs.8.1.checksums.sha512=324d09758101b533b7472ebd10848961e02604905126eb206e186c89c4ca463d654bd3b43c889fa0ca012bc5f3f97103a6a69181c1aa966b1c1ffdd5a15402a2
+outputs.8.1.filename=kubernetes-model-apps-5.2.0.jar
+outputs.8.1.length=400163
+outputs.8.1.checksums.sha512=3109b2fa538ab11239c4b9ddcd8886bdaa09e4bd4944f529a32cc9d3fe5a1740c787c0712a54eba94d39d6191b157ed4333e80d8cfda014e4f75916ca9f6c358
 
-outputs.8.2.filename=kubernetes-model-apps-5.2.0-sources.jar
-outputs.8.2.length=279941
-outputs.8.2.checksums.sha512=3bdc837f135b1defc5c6ffd909f4a550449711e737327d63af9e14e1b556ee27904336425e930131bf4a12ca6e4b7ac14823e64f1c7209120af3fba677249ab6
+outputs.8.2.filename=kubernetes-model-apps-5.2.0-schema.json
+outputs.8.2.length=241398
+outputs.8.2.checksums.sha512=324d09758101b533b7472ebd10848961e02604905126eb206e186c89c4ca463d654bd3b43c889fa0ca012bc5f3f97103a6a69181c1aa966b1c1ffdd5a15402a2
+
+outputs.8.3.filename=kubernetes-model-apps-5.2.0-sources.jar
+outputs.8.3.length=279941
+outputs.8.3.checksums.sha512=3bdc837f135b1defc5c6ffd909f4a550449711e737327d63af9e14e1b556ee27904336425e930131bf4a12ca6e4b7ac14823e64f1c7209120af3fba677249ab6
 
 outputs.9.coordinates=io.fabric8:kubernetes-model-autoscaling
 
-outputs.9.0.filename=kubernetes-model-autoscaling-5.2.0.jar
-outputs.9.0.length=598022
-outputs.9.0.checksums.sha512=36bf60186150ee7408f3409fca746bc607ac9553b556dde1639557682304825205812e3a9f535bab161b707d4caa4b0c5389dcac48304406aad3f12fb2bb2ad0
+outputs.9.0.filename=kubernetes-model-autoscaling-5.2.0.pom
+outputs.9.0.length=4026
+outputs.9.0.checksums.sha512=d6839b164353d2bf27bd80e7fed00cd9dc37d3c917b2bf7a6222cadb0ab89770816b52524ad452499a6e36ec729787d8c8196c83cc75d4b9df075475dc21e0d9
 
-outputs.9.1.filename=kubernetes-model-autoscaling-5.2.0-schema.json
-outputs.9.1.length=72640
-outputs.9.1.checksums.sha512=f2d0229cbd9fd74fde03fbf4bd8a9fcac1075951660f0863870fde049c89505133434099322ccc3b95b8503e4ab44f0daa7d610c4d97fa1681570c1360a2e654
+outputs.9.1.filename=kubernetes-model-autoscaling-5.2.0.jar
+outputs.9.1.length=598002
+outputs.9.1.checksums.sha512=04dbe276d5a4a6ddf645dc1c74cb577a6eed77a2ed6aa945b65b90379831c55e4da8b9a8c4fa965a0fa82ced0b8af10f38073a94b31656cf0b9bfc913aad7190
 
-outputs.9.2.filename=kubernetes-model-autoscaling-5.2.0-sources.jar
-outputs.9.2.length=410686
-outputs.9.2.checksums.sha512=f2a41db3f521e17d30005b6d5380c57ceb191c21e112e5e2fae19da914d6daceec9e11ad17744b49cccb564d1b8de02bc121ef729ec0982de01d1be9ef03a007
+outputs.9.2.filename=kubernetes-model-autoscaling-5.2.0-schema.json
+outputs.9.2.length=72640
+outputs.9.2.checksums.sha512=f2d0229cbd9fd74fde03fbf4bd8a9fcac1075951660f0863870fde049c89505133434099322ccc3b95b8503e4ab44f0daa7d610c4d97fa1681570c1360a2e654
+
+outputs.9.3.filename=kubernetes-model-autoscaling-5.2.0-sources.jar
+outputs.9.3.length=410686
+outputs.9.3.checksums.sha512=f2a41db3f521e17d30005b6d5380c57ceb191c21e112e5e2fae19da914d6daceec9e11ad17744b49cccb564d1b8de02bc121ef729ec0982de01d1be9ef03a007
 
 outputs.10.coordinates=io.fabric8:kubernetes-model-apiextensions
 
-outputs.10.0.filename=kubernetes-model-apiextensions-5.2.0.jar
-outputs.10.0.length=597577
-outputs.10.0.checksums.sha512=cd93ca4317cfa0333dcddde756debd071968b7acbd661509fdc43ed1972fda40d7a82725dc848f1e5070d9c55e1f7020ba8b7c2750ce39a50371a51453bedacf
+outputs.10.0.filename=kubernetes-model-apiextensions-5.2.0.pom
+outputs.10.0.length=4037
+outputs.10.0.checksums.sha512=e31db26b93cddf8667b73afdd935766773d22a0a0188a24e68361f944c31d31952eaf1c2265cf9417c4fc4b1ad378b389b97f2c7a59d1eaa4c423106e66a5c5d
 
-outputs.10.1.filename=kubernetes-model-apiextensions-5.2.0-schema.json
-outputs.10.1.length=77274
-outputs.10.1.checksums.sha512=de6817e6460e596608a218a626cfb5a5f9c8b18de08d3f9be471687ab9a0c5c2cedb8cbaf6f97b7126d233642660e7c46fa81f0d897bbeef50bc064c296bfe48
+outputs.10.1.filename=kubernetes-model-apiextensions-5.2.0.jar
+outputs.10.1.length=597589
+outputs.10.1.checksums.sha512=348de22a6cc8e1417bb6d05ddc60b65816beabee62dd1e69ab95e7432dc755c7f8b5b5bfc91400b7130d6ba1cff18894f2a7cda710bd3c3b2b99d27e300ead67
 
-outputs.10.2.filename=kubernetes-model-apiextensions-5.2.0-sources.jar
-outputs.10.2.length=399899
-outputs.10.2.checksums.sha512=2469e453bc91f6a4f3ec0b6f095843d7ba53e4d8494db96af006b5d1394885e2d7403f036925d075a6b33ddfae5bb3bb056a95d92bad0ae5efcde3bb38a12e2b
+outputs.10.2.filename=kubernetes-model-apiextensions-5.2.0-schema.json
+outputs.10.2.length=77274
+outputs.10.2.checksums.sha512=de6817e6460e596608a218a626cfb5a5f9c8b18de08d3f9be471687ab9a0c5c2cedb8cbaf6f97b7126d233642660e7c46fa81f0d897bbeef50bc064c296bfe48
+
+outputs.10.3.filename=kubernetes-model-apiextensions-5.2.0-sources.jar
+outputs.10.3.length=399899
+outputs.10.3.checksums.sha512=2469e453bc91f6a4f3ec0b6f095843d7ba53e4d8494db96af006b5d1394885e2d7403f036925d075a6b33ddfae5bb3bb056a95d92bad0ae5efcde3bb38a12e2b
 
 outputs.11.coordinates=io.fabric8:kubernetes-model-batch
 
-outputs.11.0.filename=kubernetes-model-batch-5.2.0.jar
-outputs.11.0.length=153974
-outputs.11.0.checksums.sha512=dfd67cd69d54163686fb2a12f3a92db103b6ab61478506418552da34b710c8493d98f1a2549522162fed95c8435e3d6efb8be4e78c352a6a00a0ff0f3739b037
+outputs.11.0.filename=kubernetes-model-batch-5.2.0.pom
+outputs.11.0.length=3996
+outputs.11.0.checksums.sha512=040ff45509fe1c2a75c16e6bd996d90ebbd783ae6dcb2a1292bc1b499b4e423031e68bb5098a339c435bb11eff1f70d98c7d6ae70bc97321bdb65ef173d61b29
 
-outputs.11.1.filename=kubernetes-model-batch-5.2.0-schema.json
-outputs.11.1.length=123745
-outputs.11.1.checksums.sha512=20c59bccfc7c5548ff6c9f97725a05e70e49aa67a44a2e00b0381594c2bb8bbd4b961fdef3cd2ac08c5770f99d8d5b1284076f63c8832988771b2987e186d55c
+outputs.11.1.filename=kubernetes-model-batch-5.2.0.jar
+outputs.11.1.length=153961
+outputs.11.1.checksums.sha512=f8c9dfc0cda99d80edc7c7811b126aa501d2f009e5daa442e854409992a6abd5c635a41eba04416775406670c467e171b1601fbae8eecffdc7f5c48b2c8e4e14
 
-outputs.11.2.filename=kubernetes-model-batch-5.2.0-sources.jar
-outputs.11.2.length=111593
-outputs.11.2.checksums.sha512=89f7b1435ae0ef7687d321ddae1d86321cb3aea9ee8bb8f91176a00ec519ff5ac5d7c2e46fb13572f6ab32d2f559f5ac24770537bc822068503dcd529ba7061a
+outputs.11.2.filename=kubernetes-model-batch-5.2.0-schema.json
+outputs.11.2.length=123745
+outputs.11.2.checksums.sha512=20c59bccfc7c5548ff6c9f97725a05e70e49aa67a44a2e00b0381594c2bb8bbd4b961fdef3cd2ac08c5770f99d8d5b1284076f63c8832988771b2987e186d55c
+
+outputs.11.3.filename=kubernetes-model-batch-5.2.0-sources.jar
+outputs.11.3.length=111593
+outputs.11.3.checksums.sha512=89f7b1435ae0ef7687d321ddae1d86321cb3aea9ee8bb8f91176a00ec519ff5ac5d7c2e46fb13572f6ab32d2f559f5ac24770537bc822068503dcd529ba7061a
 
 outputs.12.coordinates=io.fabric8:kubernetes-model-certificates
 
-outputs.12.0.filename=kubernetes-model-certificates-5.2.0.jar
-outputs.12.0.length=136433
-outputs.12.0.checksums.sha512=afa2d109280c0cdb81cd061c9436663e8549af668ebc90c9c838c4834dc54f1f077acb526eb50c752b370ac3c89bc2334f2df8e54581cbb48c5c6c0404a377f4
+outputs.12.0.filename=kubernetes-model-certificates-5.2.0.pom
+outputs.12.0.length=4031
+outputs.12.0.checksums.sha512=065b4002e14a511b27b889a7c681459ee86b383b26c5923f4103fa417de14a81d0151e0c0d5f54962a026c1cca9c1408297ad43f0093be10ea4e670c0a5dc3f2
 
-outputs.12.1.filename=kubernetes-model-certificates-5.2.0-schema.json
-outputs.12.1.length=36930
-outputs.12.1.checksums.sha512=217551c43117535ae84499fd3bef29d80204ff73f7e6e696dacfeb0eaca2da64cbe58744cd96f42f8ec25d225b71284ffb3908352f6e0881ba5af3f4ee99e414
+outputs.12.1.filename=kubernetes-model-certificates-5.2.0.jar
+outputs.12.1.length=136421
+outputs.12.1.checksums.sha512=ea5dea17f7b087e0d2cce130a9befa6131ab8884cb89b7ff3d882c16b2265e40c2320b498880b813c4f99b45d20ac83dc1d655132429cc2f31fccdc7367bce69
 
-outputs.12.2.filename=kubernetes-model-certificates-5.2.0-sources.jar
-outputs.12.2.length=103785
-outputs.12.2.checksums.sha512=84e4efc7011c51bc8ae496fac90032e19e5b4b29695faf8d2b0c536407de70b380c383c242bfa6521748c2777304856d374c88cfef62fd9279dfeb09a636c952
+outputs.12.2.filename=kubernetes-model-certificates-5.2.0-schema.json
+outputs.12.2.length=36930
+outputs.12.2.checksums.sha512=217551c43117535ae84499fd3bef29d80204ff73f7e6e696dacfeb0eaca2da64cbe58744cd96f42f8ec25d225b71284ffb3908352f6e0881ba5af3f4ee99e414
+
+outputs.12.3.filename=kubernetes-model-certificates-5.2.0-sources.jar
+outputs.12.3.length=103785
+outputs.12.3.checksums.sha512=84e4efc7011c51bc8ae496fac90032e19e5b4b29695faf8d2b0c536407de70b380c383c242bfa6521748c2777304856d374c88cfef62fd9279dfeb09a636c952
 
 outputs.13.coordinates=io.fabric8:kubernetes-model-coordination
 
-outputs.13.0.filename=kubernetes-model-coordination-5.2.0.jar
-outputs.13.0.length=46671
-outputs.13.0.checksums.sha512=5b42173958ea68b4993963a5cda0faa434eec399defcaa2be6fb1c04412067963b1d993aa0f857b6b60a680a162402b081b5700ecb634f9a8928f7450263badb
+outputs.13.0.filename=kubernetes-model-coordination-5.2.0.pom
+outputs.13.0.length=4188
+outputs.13.0.checksums.sha512=1ba80c65416611d50f870e0812b5addbd0da1ed6afd63cf49697142101890e4cc91adcc5551a6fad171d1814aab97cec374245dfb44507eb8c74fbbe53915833
 
-outputs.13.1.filename=kubernetes-model-coordination-5.2.0-schema.json
-outputs.13.1.length=27265
-outputs.13.1.checksums.sha512=46349a5d3c9ee30948369f9ae04c32663efab828e42e62f48980ca0d59325583f29b6a0738a4e32683c50c1c87cea43985f7fe3687f0c9a435ab90e4369850a8
+outputs.13.1.filename=kubernetes-model-coordination-5.2.0.jar
+outputs.13.1.length=46675
+outputs.13.1.checksums.sha512=4c429b1965792624c88dff11ca3c9a66e49bf560b83021f937a6ab9339c336752c49937051512165ce69478d45009ca97270a0460527790f1e70c47c187b2e22
 
-outputs.13.2.filename=kubernetes-model-coordination-5.2.0-sources.jar
-outputs.13.2.length=36872
-outputs.13.2.checksums.sha512=dbc50df63dbfe8a7b169a0864875da171631a292a2832e8c99c5c25c9729add81454e4acbbb855363f74809a16be922dddc5040353d5ab44505c2b2da6ddb42f
+outputs.13.2.filename=kubernetes-model-coordination-5.2.0-schema.json
+outputs.13.2.length=27265
+outputs.13.2.checksums.sha512=46349a5d3c9ee30948369f9ae04c32663efab828e42e62f48980ca0d59325583f29b6a0738a4e32683c50c1c87cea43985f7fe3687f0c9a435ab90e4369850a8
+
+outputs.13.3.filename=kubernetes-model-coordination-5.2.0-sources.jar
+outputs.13.3.length=36872
+outputs.13.3.checksums.sha512=dbc50df63dbfe8a7b169a0864875da171631a292a2832e8c99c5c25c9729add81454e4acbbb855363f74809a16be922dddc5040353d5ab44505c2b2da6ddb42f
 
 outputs.14.coordinates=io.fabric8:kubernetes-model-discovery
 
-outputs.14.0.filename=kubernetes-model-discovery-5.2.0.jar
-outputs.14.0.length=76954
-outputs.14.0.checksums.sha512=b1791cabbc8fb3e9c0aa8b6927065ccf6f3acbc15f13a6f66de5007adf7caf1ab8f4a514e5575e9ee9f74a3454cf5c9c484eb1426423fcab65ae3cdaa34d8778
+outputs.14.0.filename=kubernetes-model-discovery-5.2.0.pom
+outputs.14.0.length=4016
+outputs.14.0.checksums.sha512=22ebf1e25c57c307bcc6ae49a476eed9d8f8f8a44015bd6fa9a568841311e794019294102de8bf5b486a86938b93f50024876e6ffecf7dc4cdc564725be2082b
 
-outputs.14.1.filename=kubernetes-model-discovery-5.2.0-schema.json
-outputs.14.1.length=30027
-outputs.14.1.checksums.sha512=7415cbdfbbf4c31ce97b020f8c0539121b0b9c762923ea685f5f9c84a4c88455ee1560c895f17249c2e97f0afe7f2691b81493dcb9a18bcf374b5ef7370b4ea2
+outputs.14.1.filename=kubernetes-model-discovery-5.2.0.jar
+outputs.14.1.length=76961
+outputs.14.1.checksums.sha512=a94f8574c6b0df23b62c536ec73c8bd80e1e579e7ebedd167df6f6d6c81faeaabc56137e9dd17238ab5e46b4b79c280d297be4dcceba8d130df6f68bdfffe474
 
-outputs.14.2.filename=kubernetes-model-discovery-5.2.0-sources.jar
-outputs.14.2.length=56481
-outputs.14.2.checksums.sha512=473c1947b28a7d0b51b3e3d94946b9b14d4cf32a6b17488748fe1533583f0b75153f812950e12826cd43e77277a8835d809e757469b50e45498f81b6c71625d8
+outputs.14.2.filename=kubernetes-model-discovery-5.2.0-schema.json
+outputs.14.2.length=30027
+outputs.14.2.checksums.sha512=7415cbdfbbf4c31ce97b020f8c0539121b0b9c762923ea685f5f9c84a4c88455ee1560c895f17249c2e97f0afe7f2691b81493dcb9a18bcf374b5ef7370b4ea2
+
+outputs.14.3.filename=kubernetes-model-discovery-5.2.0-sources.jar
+outputs.14.3.length=56481
+outputs.14.3.checksums.sha512=473c1947b28a7d0b51b3e3d94946b9b14d4cf32a6b17488748fe1533583f0b75153f812950e12826cd43e77277a8835d809e757469b50e45498f81b6c71625d8
 
 outputs.15.coordinates=io.fabric8:kubernetes-model-events
 
-outputs.15.0.filename=kubernetes-model-events-5.2.0.jar
-outputs.15.0.length=98347
-outputs.15.0.checksums.sha512=3ff062bfbcb6f508db96a6e7c1d7d072519fb50ef0af59d492a381c65f83518ab36b1e75deb0d6e79e59970c26ca2aac5bfdefea9835845053f2cfd3e727f9d3
+outputs.15.0.filename=kubernetes-model-events-5.2.0.pom
+outputs.15.0.length=4001
+outputs.15.0.checksums.sha512=4f7d2c5f39127cdbaffbbfe3309fc9fa2716ed22377ea3b852ecb1554f9d42257bf8f13d8985af2189edfb921dfddae4f978239574d707eaeb76ecfa6dbd6354
 
-outputs.15.1.filename=kubernetes-model-events-5.2.0-schema.json
-outputs.15.1.length=34482
-outputs.15.1.checksums.sha512=65ae0d03995903e6a2bb24494cbf08e4a9840646bd85f316b1c8205c8b127f04164f5d14122dc316632f3d34a4f47488f8cfbdd1d3675c85dd1b299f9790ade0
+outputs.15.1.filename=kubernetes-model-events-5.2.0.jar
+outputs.15.1.length=98353
+outputs.15.1.checksums.sha512=0239f1f66aa749b113e4d76b2a0aef9e4912ccf934dace97df8ed064ad42cbde33d9b782830cdcd22af13228523c2880388bad6a95b2735e0f89c36d272a64b2
 
-outputs.15.2.filename=kubernetes-model-events-5.2.0-sources.jar
-outputs.15.2.length=69982
-outputs.15.2.checksums.sha512=8aeb4b36fa6b978f8d814de5aac35141760b140d77026e2be58d3f8ad9f5e35fd54497d49f9fd9b01af63ee837b547fb05c4bdd3fab2b610ceca253dd9469c41
+outputs.15.2.filename=kubernetes-model-events-5.2.0-schema.json
+outputs.15.2.length=34482
+outputs.15.2.checksums.sha512=65ae0d03995903e6a2bb24494cbf08e4a9840646bd85f316b1c8205c8b127f04164f5d14122dc316632f3d34a4f47488f8cfbdd1d3675c85dd1b299f9790ade0
+
+outputs.15.3.filename=kubernetes-model-events-5.2.0-sources.jar
+outputs.15.3.length=69982
+outputs.15.3.checksums.sha512=8aeb4b36fa6b978f8d814de5aac35141760b140d77026e2be58d3f8ad9f5e35fd54497d49f9fd9b01af63ee837b547fb05c4bdd3fab2b610ceca253dd9469c41
 
 outputs.16.coordinates=io.fabric8:kubernetes-model-extensions
 
-outputs.16.0.filename=kubernetes-model-extensions-5.2.0.jar
-outputs.16.0.length=492768
-outputs.16.0.checksums.sha512=707aaf36e992bfab2d95d5734fdd49c8fda4a7e071a93db4e428b57c5fb7669b009b777beb3728d3e2faeb890463349e2a9e6cc238e028a8225fd4d02b3422f8
+outputs.16.0.filename=kubernetes-model-extensions-5.2.0.pom
+outputs.16.0.length=4021
+outputs.16.0.checksums.sha512=3a9a2dc5b6220ce397748dcbd8762210f46a9615edd2734bdea2ecc564bc159573f4db7928986102b4d470a4bc201269d5bb598389e2c6ee842af12da7bb57c9
 
-outputs.16.1.filename=kubernetes-model-extensions-5.2.0-schema.json
-outputs.16.1.length=150986
-outputs.16.1.checksums.sha512=c727f9922fe96da4af2315a43cf8a35feee7668b781abd0ce78007058df5ad7d510c7309487f5bb2643f74372daa62cbd5b722fcd7ed2fac4eb8044835ce990c
+outputs.16.1.filename=kubernetes-model-extensions-5.2.0.jar
+outputs.16.1.length=492734
+outputs.16.1.checksums.sha512=4a6f04932dec525c740256b18acbba2ff57834b615d334107e59307dfbbac41a34469ca31fcd06cd3574c11690c474e40736f671f5436fe06f9046f7c9d54e0b
 
-outputs.16.2.filename=kubernetes-model-extensions-5.2.0-sources.jar
-outputs.16.2.length=341517
-outputs.16.2.checksums.sha512=e88225969b72731742acb0b0fb4452ce9b7b52113b443e007afc69c586647ae6ee61f315c0b7511123cd3499228546e8a4609286781413a3d79e69f0f90034a1
+outputs.16.2.filename=kubernetes-model-extensions-5.2.0-schema.json
+outputs.16.2.length=150986
+outputs.16.2.checksums.sha512=c727f9922fe96da4af2315a43cf8a35feee7668b781abd0ce78007058df5ad7d510c7309487f5bb2643f74372daa62cbd5b722fcd7ed2fac4eb8044835ce990c
+
+outputs.16.3.filename=kubernetes-model-extensions-5.2.0-sources.jar
+outputs.16.3.length=341517
+outputs.16.3.checksums.sha512=e88225969b72731742acb0b0fb4452ce9b7b52113b443e007afc69c586647ae6ee61f315c0b7511123cd3499228546e8a4609286781413a3d79e69f0f90034a1
 
 outputs.17.coordinates=io.fabric8:kubernetes-model-networking
 
-outputs.17.0.filename=kubernetes-model-networking-5.2.0.jar
-outputs.17.0.length=400244
-outputs.17.0.checksums.sha512=f808e45903069e4521fdc77a3e0e5468df6446d269df1e5e62e81607f9d592fc0213a1e3e5171c2d48ad5010737fba2253026374350c61d97cd63177ada78b75
+outputs.17.0.filename=kubernetes-model-networking-5.2.0.pom
+outputs.17.0.length=4021
+outputs.17.0.checksums.sha512=769dbf80e850be59079f38721306b7c8c0af9b143ba8f1fe9d8b3ae0aeb6c6c8f44a156747fe34a1a48eaf037aefd8f4fbab8c1934e2cbe780cc36d4e2dbba85
 
-outputs.17.1.filename=kubernetes-model-networking-5.2.0-schema.json
-outputs.17.1.length=59947
-outputs.17.1.checksums.sha512=893efc46228c70e97dfe6eadd0c5943cf313788ce0d1b20b6350ccfabd61f84371e230cf341a5d65b169cecdbf7dc010937f68f64686495fdda9e61ba8d7be30
+outputs.17.1.filename=kubernetes-model-networking-5.2.0.jar
+outputs.17.1.length=400227
+outputs.17.1.checksums.sha512=f0b2190d10291e98c0735abc92376ccbf23c6a79e8cc0ee0aab875a48dbdef22682f8766ada2e4131fa49e5c2514b71e976951af3906f4235ea537a974e20c88
 
-outputs.17.2.filename=kubernetes-model-networking-5.2.0-sources.jar
-outputs.17.2.length=283601
-outputs.17.2.checksums.sha512=2c43d5717947f940675fc92e0add5f3d71951db61e885ef83e4c0e639c1d4cfb53eb5742295b82ba27ce460dc71da8745c6627325ce132bbf63a1021907fb1a1
+outputs.17.2.filename=kubernetes-model-networking-5.2.0-schema.json
+outputs.17.2.length=59947
+outputs.17.2.checksums.sha512=893efc46228c70e97dfe6eadd0c5943cf313788ce0d1b20b6350ccfabd61f84371e230cf341a5d65b169cecdbf7dc010937f68f64686495fdda9e61ba8d7be30
+
+outputs.17.3.filename=kubernetes-model-networking-5.2.0-sources.jar
+outputs.17.3.length=283601
+outputs.17.3.checksums.sha512=2c43d5717947f940675fc92e0add5f3d71951db61e885ef83e4c0e639c1d4cfb53eb5742295b82ba27ce460dc71da8745c6627325ce132bbf63a1021907fb1a1
 
 outputs.18.coordinates=io.fabric8:kubernetes-model-metrics
 
-outputs.18.0.filename=kubernetes-model-metrics-5.2.0.jar
-outputs.18.0.length=73776
-outputs.18.0.checksums.sha512=b12faaf559edcf5be24fb365f399fc1adc76f57c0642e4850bcafdbc013d5eaf4ca154f20893520aa1d81a88ccd271e37e361c07075521c3dc39b4a5bfe35aab
+outputs.18.0.filename=kubernetes-model-metrics-5.2.0.pom
+outputs.18.0.length=4006
+outputs.18.0.checksums.sha512=68245b154326b4d6731c5c16abc73da8c8d60f880f012a9aa54f12deaf6f67f1cb14afc58c32c27b76f6860108a43a70606ad6bc1dae12ada5415e9bf94e98d8
 
-outputs.18.1.filename=kubernetes-model-metrics-5.2.0-schema.json
-outputs.18.1.length=31590
-outputs.18.1.checksums.sha512=37f71fbcfe46df0c7976201295a308fdb4191d723f1b01c4626d177c48a6c9dee6208c9a1a445a9b4c025baab236027f27e2a504815b2c417a2f094a053c1f91
+outputs.18.1.filename=kubernetes-model-metrics-5.2.0.jar
+outputs.18.1.length=73771
+outputs.18.1.checksums.sha512=6b474b290b7687ca36976cb3f007a99529d4f7b7785c97c00b1d55b37262eb0653065eeba6aa12f3a5af63c2ea752702302929700c05ffbf2c5b4883aa195887
 
-outputs.18.2.filename=kubernetes-model-metrics-5.2.0-sources.jar
-outputs.18.2.length=56697
-outputs.18.2.checksums.sha512=e9bad8aa3ff081b5c2f71b1b6e07d2c74ba1b5136ec492c00a288ade3e1e7d96ec931dc8396170d1ec1bf488f948518a8a98fac57a8ad038716c46254e795b38
+outputs.18.2.filename=kubernetes-model-metrics-5.2.0-schema.json
+outputs.18.2.length=31590
+outputs.18.2.checksums.sha512=37f71fbcfe46df0c7976201295a308fdb4191d723f1b01c4626d177c48a6c9dee6208c9a1a445a9b4c025baab236027f27e2a504815b2c417a2f094a053c1f91
+
+outputs.18.3.filename=kubernetes-model-metrics-5.2.0-sources.jar
+outputs.18.3.length=56697
+outputs.18.3.checksums.sha512=e9bad8aa3ff081b5c2f71b1b6e07d2c74ba1b5136ec492c00a288ade3e1e7d96ec931dc8396170d1ec1bf488f948518a8a98fac57a8ad038716c46254e795b38
 
 outputs.19.coordinates=io.fabric8:kubernetes-model-policy
 
-outputs.19.0.filename=kubernetes-model-policy-5.2.0.jar
-outputs.19.0.length=249892
-outputs.19.0.checksums.sha512=fbefa9d9e230585f3e971f54f9cf9ead0465dff4566a9c22ec7b9f73374c9a7a9644645edf83f68339a5673d85390b27ef6f5d016781de36770a10cacc73057c
+outputs.19.0.filename=kubernetes-model-policy-5.2.0.pom
+outputs.19.0.length=4001
+outputs.19.0.checksums.sha512=7ffb20f3f8289cc6bc342fb35c9b0274fe4a562eabb26260fdba80c9236bde4f57f81aaa51c34261298f7a81de42f56d51fb5e1f34e5521835bc319467a4e7c3
 
-outputs.19.1.filename=kubernetes-model-policy-5.2.0-schema.json
-outputs.19.1.length=45710
-outputs.19.1.checksums.sha512=27db7870c5e9fd014b77fdead3cb1860b362b17fd52d34828621291a7e70e6a2c02bbf5922855a5d3859c9a4f7b4e151776b6b0b3855638ed64580808eb3c420
+outputs.19.1.filename=kubernetes-model-policy-5.2.0.jar
+outputs.19.1.length=249867
+outputs.19.1.checksums.sha512=ba904e0293900c161897cf87ae12600190bb8be4d4cb05b065b77c281776267c68a5e64085099c95c7550ba6cadc6e4836fae067f08199ff64e5e211bbaf4458
 
-outputs.19.2.filename=kubernetes-model-policy-5.2.0-sources.jar
-outputs.19.2.length=173081
-outputs.19.2.checksums.sha512=9e4c65070d366a352c2d7553cb0321612d2f7dc79ffd6f586700f553c857c210b8b02c1a5cf5d75ae0d73871f4b1a78f95ff8a406f1261c35d292b23a5b96f55
+outputs.19.2.filename=kubernetes-model-policy-5.2.0-schema.json
+outputs.19.2.length=45710
+outputs.19.2.checksums.sha512=27db7870c5e9fd014b77fdead3cb1860b362b17fd52d34828621291a7e70e6a2c02bbf5922855a5d3859c9a4f7b4e151776b6b0b3855638ed64580808eb3c420
+
+outputs.19.3.filename=kubernetes-model-policy-5.2.0-sources.jar
+outputs.19.3.length=173081
+outputs.19.3.checksums.sha512=9e4c65070d366a352c2d7553cb0321612d2f7dc79ffd6f586700f553c857c210b8b02c1a5cf5d75ae0d73871f4b1a78f95ff8a406f1261c35d292b23a5b96f55
 
 outputs.20.coordinates=io.fabric8:kubernetes-model-scheduling
 
-outputs.20.0.filename=kubernetes-model-scheduling-5.2.0.jar
-outputs.20.0.length=62496
-outputs.20.0.checksums.sha512=1523253ff7e683a5ed5cb1aa33baaf918951def683a47f55170c2acd483942f7fc69b7a41e5e95cce2eed2edab49dec389ccec16b75134977731a7a3e74dfdf3
+outputs.20.0.filename=kubernetes-model-scheduling-5.2.0.pom
+outputs.20.0.length=4025
+outputs.20.0.checksums.sha512=2e149a361fd81e6d29430eea6089b57b1b56e519ee11eac0f67ee7b4de87d70acf88c7436b845f87605aac7ee0989013c8e2c77ea343e9415c4af515f897876d
 
-outputs.20.1.filename=kubernetes-model-scheduling-5.2.0-schema.json
-outputs.20.1.length=29680
-outputs.20.1.checksums.sha512=1ad35475cfba0ab766edc056607e07f15f9d06bc0f4c2a0dfdfaae975c403d1b6e8b769fd450964fd615fa5e5e5f2d9efc7cf217f30e3fdd95113da76fdd1ede
+outputs.20.1.filename=kubernetes-model-scheduling-5.2.0.jar
+outputs.20.1.length=62500
+outputs.20.1.checksums.sha512=3aa18bd8bee52cbb5fe0f470f31d4ccdf680dd17e64d25c373ac493a44af55f871870adda2ca1d63d07c2bea759be5d6d29e16e24fbe27d952be93af03d38a46
 
-outputs.20.2.filename=kubernetes-model-scheduling-5.2.0-sources.jar
-outputs.20.2.length=49396
-outputs.20.2.checksums.sha512=4c9c2699e37a60d64ae2d7b564cd7c8fb4e6bcfa6a41e57dcfefb7a6374cfdbe77a4cc82d8624e2618158861bff5fe01fb3ace3b86eb75a291be6b578c7e1b61
+outputs.20.2.filename=kubernetes-model-scheduling-5.2.0-schema.json
+outputs.20.2.length=29680
+outputs.20.2.checksums.sha512=1ad35475cfba0ab766edc056607e07f15f9d06bc0f4c2a0dfdfaae975c403d1b6e8b769fd450964fd615fa5e5e5f2d9efc7cf217f30e3fdd95113da76fdd1ede
+
+outputs.20.3.filename=kubernetes-model-scheduling-5.2.0-sources.jar
+outputs.20.3.length=49396
+outputs.20.3.checksums.sha512=4c9c2699e37a60d64ae2d7b564cd7c8fb4e6bcfa6a41e57dcfefb7a6374cfdbe77a4cc82d8624e2618158861bff5fe01fb3ace3b86eb75a291be6b578c7e1b61
 
 outputs.21.coordinates=io.fabric8:kubernetes-model-storageclass
 
-outputs.21.0.filename=kubernetes-model-storageclass-5.2.0.jar
-outputs.21.0.length=214734
-outputs.21.0.checksums.sha512=b85ca7dac174c6af07543a2ce540d88dc9562cafdc8683984c1e872b5a1feecf6c26b6d87bf3e582687859a3cf7b61024a66fa7219f0f61546a1cb91a67559ef
+outputs.21.0.filename=kubernetes-model-storageclass-5.2.0.pom
+outputs.21.0.length=4021
+outputs.21.0.checksums.sha512=ff44829acd589400a389f452ff0ad2b7fc3b67ae83dc657ea63d2711e12ab49d825eac0ee36ab4f5b67a29534e305051415e62f66ba8b589291343525b8babdd
 
-outputs.21.1.filename=kubernetes-model-storageclass-5.2.0-schema.json
-outputs.21.1.length=72299
-outputs.21.1.checksums.sha512=1c3b2b72891edd3d281c70f6cda01e572760b4dd026f978097182a18e4da5d32cb90f65ba2d1384585574e3a6d9f8b9777339bb9f4f5ef6230d3da07369010f9
+outputs.21.1.filename=kubernetes-model-storageclass-5.2.0.jar
+outputs.21.1.length=214726
+outputs.21.1.checksums.sha512=ae6bb8ba29bfb51e2848db8a8f6afe2c63e1152e14100da6038eab7db00203409625c29cd4b55de58e5f33e676eba00c9a3e8f53ae89889c09c66e7af2e7a5fa
 
-outputs.21.2.filename=kubernetes-model-storageclass-5.2.0-sources.jar
-outputs.21.2.length=157139
-outputs.21.2.checksums.sha512=8446605706904677012332d9e4f092dd573f70b7142474deded00edea02de664a9063babf5f22c284b4f62ec6f4363f25039d21a727c12be2a1b1b366affdc8e
+outputs.21.2.filename=kubernetes-model-storageclass-5.2.0-schema.json
+outputs.21.2.length=72299
+outputs.21.2.checksums.sha512=1c3b2b72891edd3d281c70f6cda01e572760b4dd026f978097182a18e4da5d32cb90f65ba2d1384585574e3a6d9f8b9777339bb9f4f5ef6230d3da07369010f9
+
+outputs.21.3.filename=kubernetes-model-storageclass-5.2.0-sources.jar
+outputs.21.3.length=157139
+outputs.21.3.checksums.sha512=8446605706904677012332d9e4f092dd573f70b7142474deded00edea02de664a9063babf5f22c284b4f62ec6f4363f25039d21a727c12be2a1b1b366affdc8e
 
 outputs.22.coordinates=io.fabric8:openshift-model
 
-outputs.22.0.filename=openshift-model-5.2.0.jar
-outputs.22.0.length=4180320
-outputs.22.0.checksums.sha512=00dc9f3a55a476e1c89145184664d85fae3b9511c0f3952b0c169f1fc106327d4d03674cdc0115850e9efd9312d05a5b0729779ad2472e9e9de56b4c266a34ac
+outputs.22.0.filename=openshift-model-5.2.0.pom
+outputs.22.0.length=4423
+outputs.22.0.checksums.sha512=1de39e0b3a742c1a765d2d43760383805709bb4c65d159a434e8d0287dea03a8ef8fc7b84fece91eb863be0f7fb06ea9e9f4e83d974803db03b093a6445d864e
 
-outputs.22.1.filename=openshift-model-5.2.0-schema.json
-outputs.22.1.length=398480
-outputs.22.1.checksums.sha512=41d47d5f4e7f190f3573e70569e6cc94ac27e395c8b9faad8a5af2fdd0086ccf9e4ef9bafaff1aaa6a38b743b4c03e97d6d43ab5f3712bbf8966b13a420449ab
+outputs.22.1.filename=openshift-model-5.2.0.jar
+outputs.22.1.length=4180317
+outputs.22.1.checksums.sha512=d9db8447d64798de1c9b1cf7ddea1991470bc1ffe9bb8373d085d9f667594cccc0bc30aa1571c5e5bc3d01101cf8b8bbd80b61bc026a56c1ec137476f997397d
 
-outputs.22.2.filename=openshift-model-5.2.0-sources.jar
-outputs.22.2.length=2441884
-outputs.22.2.checksums.sha512=53f91dcc94ee7eca42c4fc1defd3fd91f24de90f03b8035795398073513169d90691a8ece096bffbd3c07a8c478db0edc95f7ff94b801fe07a7853987240c886
+outputs.22.2.filename=openshift-model-5.2.0-schema.json
+outputs.22.2.length=398480
+outputs.22.2.checksums.sha512=41d47d5f4e7f190f3573e70569e6cc94ac27e395c8b9faad8a5af2fdd0086ccf9e4ef9bafaff1aaa6a38b743b4c03e97d6d43ab5f3712bbf8966b13a420449ab
+
+outputs.22.3.filename=openshift-model-5.2.0-sources.jar
+outputs.22.3.length=2441884
+outputs.22.3.checksums.sha512=53f91dcc94ee7eca42c4fc1defd3fd91f24de90f03b8035795398073513169d90691a8ece096bffbd3c07a8c478db0edc95f7ff94b801fe07a7853987240c886
 
 outputs.23.coordinates=io.fabric8:kubernetes-model
 
-outputs.23.0.filename=kubernetes-model-5.2.0.jar
-outputs.23.0.length=2368
-outputs.23.0.checksums.sha512=1b19f390ea36a742646fee038779dde4b1d503337f997ff4b9b5798e368bf77c351875ace7a9be6a355b30500352647c7a3597485aebd2a62ce0af8e73984de1
+outputs.23.0.filename=kubernetes-model-5.2.0.pom
+outputs.23.0.length=3584
+outputs.23.0.checksums.sha512=49500f7ee9acd42d11179b315638006e8c004bf3a66825a24cb725505c428049c50b9aeddfd65aa19de8eb79e3864989e91b3131dc4698182554f42d1dd9fe6e
+
+outputs.23.1.filename=kubernetes-model-5.2.0.jar
+outputs.23.1.length=2368
+outputs.23.1.checksums.sha512=1b19f390ea36a742646fee038779dde4b1d503337f997ff4b9b5798e368bf77c351875ace7a9be6a355b30500352647c7a3597485aebd2a62ce0af8e73984de1
 
 outputs.24.coordinates=io.fabric8:kubernetes-model-node
 
-outputs.24.0.filename=kubernetes-model-node-5.2.0.jar
-outputs.24.0.length=148030
-outputs.24.0.checksums.sha512=80353f1a90ef318815aed4231cb9f450fde9fcb6e6934fabe7d61415bfa6f704c240abafe8b5b26e8dbc12333bbc6e29c814cfae5fcbdff4edb4ce95c50d2789
+outputs.24.0.filename=kubernetes-model-node-5.2.0.pom
+outputs.24.0.length=3995
+outputs.24.0.checksums.sha512=398c507a5bd2e7eafd362efb6d785df1a8453b4d05adf4652bb3814f2b0bc7271f8b26742e83fc97288081ae27d9087abfe0ced0bef72a96c96c1b3a3e0387c0
 
-outputs.24.1.filename=kubernetes-model-node-5.2.0-schema.json
-outputs.24.1.length=26407
-outputs.24.1.checksums.sha512=8543c76441c98203f21102411e3c129c59b76f5fd939351486a5f05ca7a4d107b6caa1e706b218856dd9468a744e3671500377f7ecb5b0db3b91293a1507b173
+outputs.24.1.filename=kubernetes-model-node-5.2.0.jar
+outputs.24.1.length=148031
+outputs.24.1.checksums.sha512=38989b62603dac6ef480efd385ac2b6887089898dc94f29173fd786d102230c8a03a067ca56be1fb02e3f008fd16ec7d053c5cde14484bdb0c9fa3fbfbb5b0df
 
-outputs.24.2.filename=kubernetes-model-node-5.2.0-sources.jar
-outputs.24.2.length=110410
-outputs.24.2.checksums.sha512=5929dba0a4c3dc9ae3e90aabb8e6c8a89a8c806edc9ac4f88988157fdea65acea63e43fa281eb355b9077a7611ac30a101fb74d42b696d94eae733ae60dcdae5
+outputs.24.2.filename=kubernetes-model-node-5.2.0-schema.json
+outputs.24.2.length=26407
+outputs.24.2.checksums.sha512=8543c76441c98203f21102411e3c129c59b76f5fd939351486a5f05ca7a4d107b6caa1e706b218856dd9468a744e3671500377f7ecb5b0db3b91293a1507b173
+
+outputs.24.3.filename=kubernetes-model-node-5.2.0-sources.jar
+outputs.24.3.length=110410
+outputs.24.3.checksums.sha512=5929dba0a4c3dc9ae3e90aabb8e6c8a89a8c806edc9ac4f88988157fdea65acea63e43fa281eb355b9077a7611ac30a101fb74d42b696d94eae733ae60dcdae5
 
 outputs.25.coordinates=io.fabric8:openshift-model-operator
 
-outputs.25.0.filename=openshift-model-operator-5.2.0.jar
-outputs.25.0.length=2726101
-outputs.25.0.checksums.sha512=785147774bc3484f0631e5aa22ade528b3376deb2122fa9d58a0e563215e4abc05724507ed3fe5a8767a3d31f8c086e4432b5d25fb6beaac0d8ca4a7c54cb292
+outputs.25.0.filename=openshift-model-operator-5.2.0.pom
+outputs.25.0.length=4070
+outputs.25.0.checksums.sha512=ae1e437e629c300d2d72c60041bd186eb360137eddc935922f7199a3af66fe85068cdd9df9b29be3ffd5f02df73e72d60a7c1064794ceb9de8608d8b423443ff
 
-outputs.25.1.filename=openshift-model-operator-5.2.0-schema.json
-outputs.25.1.length=159591
-outputs.25.1.checksums.sha512=e9d08a96f37a9c9d2d8b20aa4d901ff677f5af368a3bdc27e6e646f4ef28feb6a347278ef017fcb1ca652baa524563d513193bae17937942da94c1d559a8c34b
+outputs.25.1.filename=openshift-model-operator-5.2.0.jar
+outputs.25.1.length=2725943
+outputs.25.1.checksums.sha512=f5e895a48b414c3845a0215bc8fbbb3092add066c603632c5bec379f09ec18f5586c9b5b8ba8a44b0f641c6f42824c77d271206f47c5e8ebd81da45702b3d7c2
 
-outputs.25.2.filename=openshift-model-operator-5.2.0-sources.jar
-outputs.25.2.length=1285231
-outputs.25.2.checksums.sha512=04b846593217cfcfa8d1461670bd98b0eb03989eb7d719329a6e7feea2912ed5a1f593a1e453ab4a1659f6cd12aca7402d9121f8db7b89c016735080e8518c04
+outputs.25.2.filename=openshift-model-operator-5.2.0-schema.json
+outputs.25.2.length=159591
+outputs.25.2.checksums.sha512=e9d08a96f37a9c9d2d8b20aa4d901ff677f5af368a3bdc27e6e646f4ef28feb6a347278ef017fcb1ca652baa524563d513193bae17937942da94c1d559a8c34b
+
+outputs.25.3.filename=openshift-model-operator-5.2.0-sources.jar
+outputs.25.3.length=1285231
+outputs.25.3.checksums.sha512=04b846593217cfcfa8d1461670bd98b0eb03989eb7d719329a6e7feea2912ed5a1f593a1e453ab4a1659f6cd12aca7402d9121f8db7b89c016735080e8518c04
 
 outputs.26.coordinates=io.fabric8:openshift-model-operatorhub
 
-outputs.26.0.filename=openshift-model-operatorhub-5.2.0.jar
-outputs.26.0.length=797074
-outputs.26.0.checksums.sha512=8a2b749297c755f6df62e87b757c274c99e836cabe4a1201f8c0a47ba54c25c38487c7f5332b1d27d3e92008036c4b65c3c7e40e9b46c0acdca702924a987b7d
+outputs.26.0.filename=openshift-model-operatorhub-5.2.0.pom
+outputs.26.0.length=4345
+outputs.26.0.checksums.sha512=30a271fedbf9f5cce2b38d08747bf89a8a11be3aebf01e92db56a6baeccb3aa1ce6d90003858ae82b4c0550b4c1d7b4f404d7be1996e490143b2abaaeeccb6d7
 
-outputs.26.1.filename=openshift-model-operatorhub-5.2.0-schema.json
-outputs.26.1.length=176521
-outputs.26.1.checksums.sha512=7e32820bce154e034983adc1f73496eeeca053221694071ad9ed27a75f3e6b15d6a00b53ace242ef9a5bc5fbb5fcdf1e28e26bbbfa2d3046a72466a4be9d9718
+outputs.26.1.filename=openshift-model-operatorhub-5.2.0.jar
+outputs.26.1.length=797014
+outputs.26.1.checksums.sha512=a76fd1931512a534cf0755283846aff59484c9eda0d6e8162f1ac50bf39c64df32e4bc0e2164a3c562c785a46e2c2f9adce4e70123559049963b6e3acf49f495
 
-outputs.26.2.filename=openshift-model-operatorhub-5.2.0-sources.jar
-outputs.26.2.length=547638
-outputs.26.2.checksums.sha512=495d9ce237389e8fc92731e03a055c8c6a983320d2c42137e6b48b872836d74a79f334553231f413293274848bd01c7e2127d80b9953b1c02907488b20864b0c
+outputs.26.2.filename=openshift-model-operatorhub-5.2.0-schema.json
+outputs.26.2.length=176521
+outputs.26.2.checksums.sha512=7e32820bce154e034983adc1f73496eeeca053221694071ad9ed27a75f3e6b15d6a00b53ace242ef9a5bc5fbb5fcdf1e28e26bbbfa2d3046a72466a4be9d9718
+
+outputs.26.3.filename=openshift-model-operatorhub-5.2.0-sources.jar
+outputs.26.3.length=547638
+outputs.26.3.checksums.sha512=495d9ce237389e8fc92731e03a055c8c6a983320d2c42137e6b48b872836d74a79f334553231f413293274848bd01c7e2127d80b9953b1c02907488b20864b0c
 
 outputs.27.coordinates=io.fabric8:openshift-model-monitoring
 
-outputs.27.0.filename=openshift-model-monitoring-5.2.0.jar
-outputs.27.0.length=691024
-outputs.27.0.checksums.sha512=af0016bedf9ec8917dd97394b5c9e72621d2950b9e025dec7917354bb7849b1850dc4eeec20812b562d03edff82910f8164a9fb67c1e7cd344ed200655666c8a
+outputs.27.0.filename=openshift-model-monitoring-5.2.0.pom
+outputs.27.0.length=4019
+outputs.27.0.checksums.sha512=978c8dee99c78b1f33d691fea8588a8ee3f9a458186ab17761e5cc06fc7addacbd97d15d82b61e1d40207700b45e1c62e6910d6656857d5c8fc2d29fa33cdf58
 
-outputs.27.1.filename=openshift-model-monitoring-5.2.0-schema.json
-outputs.27.1.length=145750
-outputs.27.1.checksums.sha512=673f36cf0ec1c5a18b0ddd70e85896b1405f3a3d15e2733242d4b9c68bae1877a81e075bc6f7fee7faaf88f4ad36ae4ec0dd835c1025a4ca9c549b8284cc9e57
+outputs.27.1.filename=openshift-model-monitoring-5.2.0.jar
+outputs.27.1.length=691011
+outputs.27.1.checksums.sha512=2ea8e0631d7269a216896f9dc3bbe5c00b37c1fbd26f8eaade2845cd51bc4426f3568d88adc20606698615bad8e81a40c121c880c452a7d3887b43f16f81ae16
 
-outputs.27.2.filename=openshift-model-monitoring-5.2.0-sources.jar
-outputs.27.2.length=443018
-outputs.27.2.checksums.sha512=9bb88a8c087d4a08f3ed16ea78eaf28c77fb81159cfcb901e5de5724cb4146c1688895a4a886f4d2fe3e12f7a8f3f7e8ac5ab14dede20632c0297041aa38024d
+outputs.27.2.filename=openshift-model-monitoring-5.2.0-schema.json
+outputs.27.2.length=145750
+outputs.27.2.checksums.sha512=673f36cf0ec1c5a18b0ddd70e85896b1405f3a3d15e2733242d4b9c68bae1877a81e075bc6f7fee7faaf88f4ad36ae4ec0dd835c1025a4ca9c549b8284cc9e57
+
+outputs.27.3.filename=openshift-model-monitoring-5.2.0-sources.jar
+outputs.27.3.length=443018
+outputs.27.3.checksums.sha512=9bb88a8c087d4a08f3ed16ea78eaf28c77fb81159cfcb901e5de5724cb4146c1688895a4a886f4d2fe3e12f7a8f3f7e8ac5ab14dede20632c0297041aa38024d
 
 outputs.28.coordinates=io.fabric8:openshift-model-console
 
-outputs.28.0.filename=openshift-model-console-5.2.0.jar
-outputs.28.0.length=219691
-outputs.28.0.checksums.sha512=8392eac1aa8ba4c0bfd03864086e4842a73f73881d96499bad222cd73f0e2103f227ecf05016f178071caebbcebfc69c3b0a8c574c68645a9b298e98320045b0
+outputs.28.0.filename=openshift-model-console-5.2.0.pom
+outputs.28.0.length=4004
+outputs.28.0.checksums.sha512=78be49dab6ac8e463ac85a39d5d15b3a62935c899057e40e8728409911e9c05029d7c668aab916be305b167ebd3a87745b3d31e9254dc3ee63e969f2341d8b11
 
-outputs.28.1.filename=openshift-model-console-5.2.0-schema.json
-outputs.28.1.length=35136
-outputs.28.1.checksums.sha512=6ed7cd07f222ab5149ca6461bf55cc516fedf94161361733c8e6413807ad2342bacc9af8606070e798b67b0112000d81b5642c9169add51120fbecdb49929d89
+outputs.28.1.filename=openshift-model-console-5.2.0.jar
+outputs.28.1.length=219691
+outputs.28.1.checksums.sha512=2ffcf8e875f923a2974c24c18a008dfbed45478bbec2a389b8b15846ccb3113edb00aa964a8bca9ab9f6f5484279422aeb1ff14167365572aaed3384daeda96a
 
-outputs.28.2.filename=openshift-model-console-5.2.0-sources.jar
-outputs.28.2.length=161593
-outputs.28.2.checksums.sha512=253831015094e9d81e5fcecad009298945c3691aabc18ec2930992687e6abf1b6ee3c5ba014bdc03d706c5c1387d5e7a943b70a74c4bba6b1c2d7a3a5fd24223
+outputs.28.2.filename=openshift-model-console-5.2.0-schema.json
+outputs.28.2.length=35136
+outputs.28.2.checksums.sha512=6ed7cd07f222ab5149ca6461bf55cc516fedf94161361733c8e6413807ad2342bacc9af8606070e798b67b0112000d81b5642c9169add51120fbecdb49929d89
+
+outputs.28.3.filename=openshift-model-console-5.2.0-sources.jar
+outputs.28.3.length=161593
+outputs.28.3.checksums.sha512=253831015094e9d81e5fcecad009298945c3691aabc18ec2930992687e6abf1b6ee3c5ba014bdc03d706c5c1387d5e7a943b70a74c4bba6b1c2d7a3a5fd24223
 
 outputs.29.coordinates=io.fabric8:kubernetes-client
 
-outputs.29.0.filename=kubernetes-client-5.2.0.jar
-outputs.29.0.length=1074395
-outputs.29.0.checksums.sha512=01f9aaba2eb682e66386913c6caf33e75f285e8c3a66d6209f0c87e9f716ddabf4f7cd739d3c8e881a804001ab29b184bd2a927ac45d5c3017c530d5e9e22b6a
+outputs.29.0.filename=kubernetes-client-5.2.0.pom
+outputs.29.0.length=13018
+outputs.29.0.checksums.sha512=4904ae3dade2fd6172602084ed81e59467ec3316d5dce0b28f88f0144649892866ecda0b242bb202560d573950f6f12fc842cb4b0d456514920892e9d710bcc7
 
-outputs.29.1.filename=kubernetes-client-5.2.0-tests.jar
-outputs.29.1.length=213609
-outputs.29.1.checksums.sha512=f5ab01bacb63c859e429346d794e643029e195e82d991aeb88ba4f751b10cc819b9f1f0d8a29fbd39d4f7f6be725819eec3e39e9dcd6cfbc0e74846545e14119
+outputs.29.1.filename=kubernetes-client-5.2.0.jar
+outputs.29.1.length=1074331
+outputs.29.1.checksums.sha512=4990d119787755f4d189db4c362f4267b385ffdc15ab989a6a62d8351b12da19de08ee8e9e2890152d676cd4457851c641bcb4b8c057e2bdab3c4cc9ab10f61f
 
-outputs.29.2.filename=kubernetes-client-5.2.0-bundle.jar
-outputs.29.2.length=1015532
-outputs.29.2.checksums.sha512=9cc549c1445290d013a66691a2f35f5a17948f1b3b2d51c58e9839201ca5578c4fe8749cca536d542b6c6a3fb554dd99163b6fe2b10157e5cd90b952b72ad143
+outputs.29.2.filename=kubernetes-client-5.2.0-tests.jar
+outputs.29.2.length=213609
+outputs.29.2.checksums.sha512=f5ab01bacb63c859e429346d794e643029e195e82d991aeb88ba4f751b10cc819b9f1f0d8a29fbd39d4f7f6be725819eec3e39e9dcd6cfbc0e74846545e14119
 
-outputs.29.3.filename=kubernetes-client-5.2.0-sources.jar
-outputs.29.3.length=652698
-outputs.29.3.checksums.sha512=40c2b9bab4644c357b3808fe920fe992ec49cda4715d91ce8055edf37bd045ef866c88958093d8b5c190655ed2025c674257be7cc4b3bdba0f6d4e9fc2f157be
+outputs.29.3.filename=kubernetes-client-5.2.0-bundle.jar
+outputs.29.3.length=1015532
+outputs.29.3.checksums.sha512=9cc549c1445290d013a66691a2f35f5a17948f1b3b2d51c58e9839201ca5578c4fe8749cca536d542b6c6a3fb554dd99163b6fe2b10157e5cd90b952b72ad143
+
+outputs.29.4.filename=kubernetes-client-5.2.0-sources.jar
+outputs.29.4.length=652698
+outputs.29.4.checksums.sha512=40c2b9bab4644c357b3808fe920fe992ec49cda4715d91ce8055edf37bd045ef866c88958093d8b5c190655ed2025c674257be7cc4b3bdba0f6d4e9fc2f157be
 
 outputs.30.coordinates=io.fabric8:kubernetes-server-mock
 
-outputs.30.0.filename=kubernetes-server-mock-5.2.0.jar
-outputs.30.0.length=36059
-outputs.30.0.checksums.sha512=22f2854844dea1bd0ade1437722fcc3e21d1fd73a74605a557be53c6472c0931e8a59be67ce5049e4e73b851f32094c89beffab906af9155cbbacd3237520a88
+outputs.30.0.filename=kubernetes-server-mock-5.2.0.pom
+outputs.30.0.length=2294
+outputs.30.0.checksums.sha512=938632039e405c83ad671121d4f2a8bf9ee34189e01387e8d20364c059013c3d0b6793d2438554228038b705d3b34cc698b8bd14ba8ffd8186e93d147db21b34
 
-outputs.30.1.filename=kubernetes-server-mock-5.2.0-sources.jar
-outputs.30.1.length=20510
-outputs.30.1.checksums.sha512=bfe1ae3a7122f0944008329d155cd3b8107ae9284fa958bce7314c958230e44c3f8f71e304788d7c137b1fa156aa52ab0f7d730b8275494bed02e9e41a7d0f33
+outputs.30.1.filename=kubernetes-server-mock-5.2.0.jar
+outputs.30.1.length=36055
+outputs.30.1.checksums.sha512=8a7c14acc5108271eb3e2f39e67a7bdf5f9d67d7b43fdf39af4f73410c3f60c0db66b4319be10884b5bd134eb762b15c871073fb3f908ff58a63d55e9dfef047
+
+outputs.30.2.filename=kubernetes-server-mock-5.2.0-sources.jar
+outputs.30.2.length=20510
+outputs.30.2.checksums.sha512=bfe1ae3a7122f0944008329d155cd3b8107ae9284fa958bce7314c958230e44c3f8f71e304788d7c137b1fa156aa52ab0f7d730b8275494bed02e9e41a7d0f33
 
 outputs.31.coordinates=io.fabric8:openshift-client
 
-outputs.31.0.filename=openshift-client-5.2.0.jar
-outputs.31.0.length=459965
-outputs.31.0.checksums.sha512=21f5ca014dc06e208073c3e233318a2c4c640ccc67ba2242e9b887197bc03e39136e5ffb734dc98fceb54d3e14173404e45a994cf1aa3e35f0cafd42fad2b505
+outputs.31.0.filename=openshift-client-5.2.0.pom
+outputs.31.0.length=8469
+outputs.31.0.checksums.sha512=501343e43868bb8cb528932da8ab844778fadbad419a99651f98636d54ec03c3e1e929790377e8a70e3ad0c32c481c8eafc53a2dc78a2b5ec32237a99bf305e8
 
-outputs.31.1.filename=openshift-client-5.2.0-tests.jar
-outputs.31.1.length=22265
-outputs.31.1.checksums.sha512=3f21d6891d2b9be32f929888504d86f555cdc172e14784fb885a15dee38f32b603210d3261f932fe7149c17229cb54868395efdbf7f1307c789bba69fa87b7f8
+outputs.31.1.filename=openshift-client-5.2.0.jar
+outputs.31.1.length=459903
+outputs.31.1.checksums.sha512=8d173774132ef2bacb991f757c65a6079403eb63ebfa8b37a38e185c7031c549d4a6802e0391e5e67ebafb7c40f697bd0e838b68235b8d438a42a3fc30032c17
 
-outputs.31.2.filename=openshift-client-5.2.0-bundle.jar
-outputs.31.2.length=432981
-outputs.31.2.checksums.sha512=e63e6fb0efd1dbdc9bc14b7c88a2fcf8d306d690e39de97d90e5e1e2cb8558757f8346e11dc6d15d8b600b920c861668ccfa7b78e6b6e91210bf553947266733
+outputs.31.2.filename=openshift-client-5.2.0-tests.jar
+outputs.31.2.length=22265
+outputs.31.2.checksums.sha512=3f21d6891d2b9be32f929888504d86f555cdc172e14784fb885a15dee38f32b603210d3261f932fe7149c17229cb54868395efdbf7f1307c789bba69fa87b7f8
 
-outputs.31.3.filename=openshift-client-5.2.0-sources.jar
-outputs.31.3.length=241430
-outputs.31.3.checksums.sha512=208a539b4f38dc327f8a1ea1e5475c567552f1842c2f0d6e1b2baf9a1a889762d663ef891c0356f6f973b700f4e24991c7b1067d5a6d439dc72039ccef3d2632
+outputs.31.3.filename=openshift-client-5.2.0-bundle.jar
+outputs.31.3.length=432981
+outputs.31.3.checksums.sha512=e63e6fb0efd1dbdc9bc14b7c88a2fcf8d306d690e39de97d90e5e1e2cb8558757f8346e11dc6d15d8b600b920c861668ccfa7b78e6b6e91210bf553947266733
+
+outputs.31.4.filename=openshift-client-5.2.0-sources.jar
+outputs.31.4.length=241430
+outputs.31.4.checksums.sha512=208a539b4f38dc327f8a1ea1e5475c567552f1842c2f0d6e1b2baf9a1a889762d663ef891c0356f6f973b700f4e24991c7b1067d5a6d439dc72039ccef3d2632
 
 outputs.32.coordinates=io.fabric8:kubernetes-extensions
 
+outputs.32.0.filename=kubernetes-extensions-5.2.0.pom
+outputs.32.0.length=1364
+outputs.32.0.checksums.sha512=ee9e25fc7d5cfcda31e68a39cfacfc473d75d0bba13267ff07ed27ba572922ec71356af2d11974addc487fe2c85f44b2d9bdeb105270048e8c49de34ba550e4c
+
 outputs.33.coordinates=io.fabric8:knative-extension-pom
+
+outputs.33.0.filename=knative-extension-pom-5.2.0.pom
+outputs.33.0.length=1333
+outputs.33.0.checksums.sha512=432638c1de306666a26bd9e09d465e1a706b661197df58c44a1709a7dac4743adb9cd3343180b45d0f1f9fecfcaa296c595e4e74490b3f7ccc85cac4377d2564
 
 outputs.34.coordinates=io.fabric8:knative-model
 
-outputs.34.0.filename=knative-model-5.2.0.jar
-outputs.34.0.length=1835011
-outputs.34.0.checksums.sha512=f717d74997636daeeeb9ebbc471173069e07944d67ccfc3dd1ffc68b9a8750e2736c42d7e6aaf042d2a5525348cd5d4c60d80b4d49bc176f332e8084cb46356f
+outputs.34.0.filename=knative-model-5.2.0.pom
+outputs.34.0.length=5373
+outputs.34.0.checksums.sha512=5cf8e6ce22db310dc71d575380c13864e5c1d5ddc88a12c6e1a18fc57cf30b47af7baf8a182a6005f66ec5aa41d1f3e662b22aa189daf9396e17786465827679
 
-outputs.34.1.filename=knative-model-5.2.0-schema.json
-outputs.34.1.length=176844
-outputs.34.1.checksums.sha512=bbb7eb9ae70fc53d298396e46f04c6bc066097d60a222fb93138d6ffa986cff55a41ab6422e314e937541ecb5f079c19d36df7545a5df86e324dd8c286347436
+outputs.34.1.filename=knative-model-5.2.0.jar
+outputs.34.1.length=1835011
+outputs.34.1.checksums.sha512=f717d74997636daeeeb9ebbc471173069e07944d67ccfc3dd1ffc68b9a8750e2736c42d7e6aaf042d2a5525348cd5d4c60d80b4d49bc176f332e8084cb46356f
 
-outputs.34.2.filename=knative-model-5.2.0-sources.jar
-outputs.34.2.length=1393580
-outputs.34.2.checksums.sha512=3697e598bfe19965d3a2cff5723839005bad1db5fae56ad6b2e6242dc4085ca0d38a8f8b747f460ab95449b8e0799ea8bcac1926620bca0cf5803d22103b00fb
+outputs.34.2.filename=knative-model-5.2.0-schema.json
+outputs.34.2.length=176844
+outputs.34.2.checksums.sha512=bbb7eb9ae70fc53d298396e46f04c6bc066097d60a222fb93138d6ffa986cff55a41ab6422e314e937541ecb5f079c19d36df7545a5df86e324dd8c286347436
+
+outputs.34.3.filename=knative-model-5.2.0-sources.jar
+outputs.34.3.length=1393580
+outputs.34.3.checksums.sha512=3697e598bfe19965d3a2cff5723839005bad1db5fae56ad6b2e6242dc4085ca0d38a8f8b747f460ab95449b8e0799ea8bcac1926620bca0cf5803d22103b00fb
 
 outputs.35.coordinates=io.fabric8:knative-client
 
-outputs.35.0.filename=knative-client-5.2.0.jar
-outputs.35.0.length=140054
-outputs.35.0.checksums.sha512=cb91acc6c8b7ed984f1b22ff4a7bc307179f9b31a80eb267508e9a2a166890b3de238ff9533d39af73858b53c2332dccc2c6243f08139886f06f48aa18e94ad8
+outputs.35.0.filename=knative-client-5.2.0.pom
+outputs.35.0.length=3027
+outputs.35.0.checksums.sha512=785bb55f425c0fc9152bf58b8960ed86fa8c59ed6ef2ffd8721e078bf2bbe26b98da086a98d45aee691cb163e00ebc2255ac4499f6872b3c4abb18e27d392f72
 
-outputs.35.1.filename=knative-client-5.2.0-sources.jar
-outputs.35.1.length=80095
-outputs.35.1.checksums.sha512=f8b34a1ba08087f9894a0b2d41731af40ca200c9a1e99c79f52e934d3d0e40fc99e9a6aecc148646bacbc3f86c4b3712e40a7cdb6cdd8732299979291adce8f8
+outputs.35.1.filename=knative-client-5.2.0.jar
+outputs.35.1.length=140054
+outputs.35.1.checksums.sha512=cb91acc6c8b7ed984f1b22ff4a7bc307179f9b31a80eb267508e9a2a166890b3de238ff9533d39af73858b53c2332dccc2c6243f08139886f06f48aa18e94ad8
+
+outputs.35.2.filename=knative-client-5.2.0-sources.jar
+outputs.35.2.length=80095
+outputs.35.2.checksums.sha512=f8b34a1ba08087f9894a0b2d41731af40ca200c9a1e99c79f52e934d3d0e40fc99e9a6aecc148646bacbc3f86c4b3712e40a7cdb6cdd8732299979291adce8f8
 
 outputs.36.coordinates=io.fabric8:knative-mock
 
-outputs.36.0.filename=knative-mock-5.2.0.jar
-outputs.36.0.length=5693
-outputs.36.0.checksums.sha512=ebf5534e9b4ce61e0619142d51fe2794ac66c0ffb9f7b429cae65f6b0ac306e08986d9c310ffc98fb05e158c6d6da294ff681cda8ae45a639d75014387eee3c1
+outputs.36.0.filename=knative-mock-5.2.0.pom
+outputs.36.0.length=1684
+outputs.36.0.checksums.sha512=6889dcbd5387d8a0d88d7615728117e7a23cf8bd69c2d60a6115609a159f8e06d4900c991933d90fc523afb508190bd72ed2db6da41091219b427b301bb9a526
 
-outputs.36.1.filename=knative-mock-5.2.0-sources.jar
-outputs.36.1.length=4476
-outputs.36.1.checksums.sha512=2adbd124ad93ff631cf6db74ec5baf22aeb3c2b838bbc94657a9e7b3573919ff6d43be77427619a3ae03818786281e71f84b13acebbc3a9b6dffe40063aca780
+outputs.36.1.filename=knative-mock-5.2.0.jar
+outputs.36.1.length=5695
+outputs.36.1.checksums.sha512=2dc4271e71f988e08473c5b8e1a884b7128430c147b02e9bc47f49bc82ca904ea9ac2b732951707aa1229ca1ec1ff0c1010295118b2ff4e91edf7dc2ced3e742
+
+outputs.36.2.filename=knative-mock-5.2.0-sources.jar
+outputs.36.2.length=4476
+outputs.36.2.checksums.sha512=2adbd124ad93ff631cf6db74ec5baf22aeb3c2b838bbc94657a9e7b3573919ff6d43be77427619a3ae03818786281e71f84b13acebbc3a9b6dffe40063aca780
 
 outputs.37.coordinates=io.fabric8:knative-examples
 
-outputs.37.0.filename=knative-examples-5.2.0.jar
-outputs.37.0.length=3773
-outputs.37.0.checksums.sha512=81f04496e59db4be84282d405ad822862cecee495c6d675e4c8c66d648319b358821e99d462c3414280567b9061eace226b24d63a473fd0252ce049cac9d7f13
+outputs.37.0.filename=knative-examples-5.2.0.pom
+outputs.37.0.length=1286
+outputs.37.0.checksums.sha512=8fb8e0b30e4f4ac63139481b64a3099c3c0d8b21d880466de24a550f38afe8723aad63b4746ff68c7147d07589e74c1fdfdcadc6b22d8a55af6abbe43843a7dd
 
-outputs.37.1.filename=knative-examples-5.2.0-sources.jar
-outputs.37.1.length=3270
-outputs.37.1.checksums.sha512=0ccc2427a258536f2ab75fcbffcb117c98bb1b81d4c7311a28855815252a7906075d0acc6bf0652f6c29ae25d52f3c7a7279bde336179dcfb228ac7516b79475
+outputs.37.1.filename=knative-examples-5.2.0.jar
+outputs.37.1.length=3773
+outputs.37.1.checksums.sha512=81f04496e59db4be84282d405ad822862cecee495c6d675e4c8c66d648319b358821e99d462c3414280567b9061eace226b24d63a473fd0252ce049cac9d7f13
+
+outputs.37.2.filename=knative-examples-5.2.0-sources.jar
+outputs.37.2.length=3270
+outputs.37.2.checksums.sha512=0ccc2427a258536f2ab75fcbffcb117c98bb1b81d4c7311a28855815252a7906075d0acc6bf0652f6c29ae25d52f3c7a7279bde336179dcfb228ac7516b79475
 
 outputs.38.coordinates=io.fabric8:knative-tests
 
-outputs.38.0.filename=knative-tests-5.2.0.jar
-outputs.38.0.length=1904
-outputs.38.0.checksums.sha512=338174a0f9509ce241e28c10a8ef20574805a0930421877f288bc44877782dfa1c548eb56398a90ac39ea1de3d0d2d97e744e691115fb9133072b205ef210667
+outputs.38.0.filename=knative-tests-5.2.0.pom
+outputs.38.0.length=2195
+outputs.38.0.checksums.sha512=1e10e260d7d07b3e874e384a97e7030464b665d4be6a434543c4b3c4b5b1ad7cdd3b1a5e82e16511d178e56f7b5fbc54e3419ac0320b674615ac2b4296aa1d85
+
+outputs.38.1.filename=knative-tests-5.2.0.jar
+outputs.38.1.length=1904
+outputs.38.1.checksums.sha512=338174a0f9509ce241e28c10a8ef20574805a0930421877f288bc44877782dfa1c548eb56398a90ac39ea1de3d0d2d97e744e691115fb9133072b205ef210667
 
 outputs.39.coordinates=io.fabric8:tekton-extension-pom
 
+outputs.39.0.filename=tekton-extension-pom-5.2.0.pom
+outputs.39.0.length=1411
+outputs.39.0.checksums.sha512=1c77ebf2370241bfd0c3a64029059699c53cb1096e06b8f939632c93968c51d29b939b174ab739afab198d6c8f37ab4a0e9145d9a710ce7a6c42f88ba30a47b8
+
 outputs.40.coordinates=io.fabric8:tekton-model-v1alpha1
 
-outputs.40.0.filename=tekton-model-v1alpha1-5.2.0.jar
-outputs.40.0.length=804601
-outputs.40.0.checksums.sha512=92b0b0c086620e7c89f311c456284a139e5fc660803db991354119037834bac1cc4f4c6854f34eb361693710df1a663c610eca86821beb599b6311bfa628d075
+outputs.40.0.filename=tekton-model-v1alpha1-5.2.0.pom
+outputs.40.0.length=5217
+outputs.40.0.checksums.sha512=c34eb02dba17556bc2d7a88a3df340bef3a69834cf32c1c56925643ff2746e93c4df775470ba0fe09a34696e3ccb79c0efb1aa621ad440eb001334f63400fd36
 
-outputs.40.1.filename=tekton-model-v1alpha1-5.2.0-sources.jar
-outputs.40.1.length=632258
-outputs.40.1.checksums.sha512=99bfa69f7e4924f3811bd54c481200c04d342aa62736bdab27c575df9f1e8bb93534f789c60b509c6e468c5026c33475921f6c6b60cf68ed7ff038f854817d41
+outputs.40.1.filename=tekton-model-v1alpha1-5.2.0.jar
+outputs.40.1.length=804601
+outputs.40.1.checksums.sha512=92b0b0c086620e7c89f311c456284a139e5fc660803db991354119037834bac1cc4f4c6854f34eb361693710df1a663c610eca86821beb599b6311bfa628d075
+
+outputs.40.2.filename=tekton-model-v1alpha1-5.2.0-sources.jar
+outputs.40.2.length=632258
+outputs.40.2.checksums.sha512=99bfa69f7e4924f3811bd54c481200c04d342aa62736bdab27c575df9f1e8bb93534f789c60b509c6e468c5026c33475921f6c6b60cf68ed7ff038f854817d41
 
 outputs.41.coordinates=io.fabric8:tekton-model-v1beta1
 
-outputs.41.0.filename=tekton-model-v1beta1-5.2.0.jar
-outputs.41.0.length=839800
-outputs.41.0.checksums.sha512=a0eeae52e0fbd64953ba919f5ee1a16a4120f6bdcfad68100471999ab7a817b5510a73afd170456b89786435de75412e08492fe973d906b5a0b474acedd20783
+outputs.41.0.filename=tekton-model-v1beta1-5.2.0.pom
+outputs.41.0.length=4942
+outputs.41.0.checksums.sha512=5720bead9216a7f4e98838a7e18f73a3b89f6e26fa7971076d7a300ec26c59041093912562b827ab07655d14d7c5a61f9ae081f9553837d053da4ff364851c4d
 
-outputs.41.1.filename=tekton-model-v1beta1-5.2.0-sources.jar
-outputs.41.1.length=642558
-outputs.41.1.checksums.sha512=e03cf520758a28377c3324b31631b080a391470064d6836ee909d4a1669fde09fcc22297a322e2dac935f3a3bf95362260428c47180cf9ad3aa97cf70dc649eb
+outputs.41.1.filename=tekton-model-v1beta1-5.2.0.jar
+outputs.41.1.length=839800
+outputs.41.1.checksums.sha512=a0eeae52e0fbd64953ba919f5ee1a16a4120f6bdcfad68100471999ab7a817b5510a73afd170456b89786435de75412e08492fe973d906b5a0b474acedd20783
+
+outputs.41.2.filename=tekton-model-v1beta1-5.2.0-sources.jar
+outputs.41.2.length=642558
+outputs.41.2.checksums.sha512=e03cf520758a28377c3324b31631b080a391470064d6836ee909d4a1669fde09fcc22297a322e2dac935f3a3bf95362260428c47180cf9ad3aa97cf70dc649eb
 
 outputs.42.coordinates=io.fabric8:tekton-model-triggers
 
-outputs.42.0.filename=tekton-model-triggers-5.2.0.jar
-outputs.42.0.length=1236200
-outputs.42.0.checksums.sha512=39e7b4377c093f2c8fb1bcc17a293db3c459a0bcf9bad08d6013c36156d11ba1a71f065899d203f56c627271dc607999b446011a841f2c44806f9909d9cd8031
+outputs.42.0.filename=tekton-model-triggers-5.2.0.pom
+outputs.42.0.length=4801
+outputs.42.0.checksums.sha512=28086012d69257e18484f9350763bd903127fab8300b7affc39f3ebac2e8ee9d87f181e746f540b54b9497ef85f43fee6cb649ab07222af6c69e1edc7ee1f0ed
 
-outputs.42.1.filename=tekton-model-triggers-5.2.0-sources.jar
-outputs.42.1.length=328454
-outputs.42.1.checksums.sha512=79c8fe3acaa3c96455eb561241da9a6fde400565754137400ebeb8c0595d664f87367a545301e77449a7161607f46109833bd350cd3127e0dc66cfdba803b71c
+outputs.42.1.filename=tekton-model-triggers-5.2.0.jar
+outputs.42.1.length=1236200
+outputs.42.1.checksums.sha512=39e7b4377c093f2c8fb1bcc17a293db3c459a0bcf9bad08d6013c36156d11ba1a71f065899d203f56c627271dc607999b446011a841f2c44806f9909d9cd8031
+
+outputs.42.2.filename=tekton-model-triggers-5.2.0-sources.jar
+outputs.42.2.length=328454
+outputs.42.2.checksums.sha512=79c8fe3acaa3c96455eb561241da9a6fde400565754137400ebeb8c0595d664f87367a545301e77449a7161607f46109833bd350cd3127e0dc66cfdba803b71c
 
 outputs.43.coordinates=io.fabric8:tekton-client
 
-outputs.43.0.filename=tekton-client-5.2.0.jar
-outputs.43.0.length=78631
-outputs.43.0.checksums.sha512=1eede39aa8b6599ed3a3fad3defdb196c1aabe7a0bce5485d7519aef3de33e607bf5f3aa8bfd907a5aa3ff7515e0774b63098409602f832cda43d5a2318a5753
+outputs.43.0.filename=tekton-client-5.2.0.pom
+outputs.43.0.length=3877
+outputs.43.0.checksums.sha512=28b206326513e0b1e8c14a0a5295377b4f27585d2c35d808bea8e6ce8a0f5667920e1f6d7fa823627a1608541539f47bed38dc4ffdce73f3900990b69c565d30
 
-outputs.43.1.filename=tekton-client-5.2.0-sources.jar
-outputs.43.1.length=47877
-outputs.43.1.checksums.sha512=e6fb666fa561a9f91e5bfc18f14cd3b186823e84c5fa777892dbedd20aba2bdd8606a503de1c97b4139bf98e10a72689a959b8997568cdf0d52fc4d900a6f4e3
+outputs.43.1.filename=tekton-client-5.2.0.jar
+outputs.43.1.length=78631
+outputs.43.1.checksums.sha512=1eede39aa8b6599ed3a3fad3defdb196c1aabe7a0bce5485d7519aef3de33e607bf5f3aa8bfd907a5aa3ff7515e0774b63098409602f832cda43d5a2318a5753
+
+outputs.43.2.filename=tekton-client-5.2.0-sources.jar
+outputs.43.2.length=47877
+outputs.43.2.checksums.sha512=e6fb666fa561a9f91e5bfc18f14cd3b186823e84c5fa777892dbedd20aba2bdd8606a503de1c97b4139bf98e10a72689a959b8997568cdf0d52fc4d900a6f4e3
 
 outputs.44.coordinates=io.fabric8:tekton-mock
 
-outputs.44.0.filename=tekton-mock-5.2.0.jar
-outputs.44.0.length=5673
-outputs.44.0.checksums.sha512=555bb4ea0dcdacc80d063290b270181cf175265a3a5e45ba73f06a95f74aa48e4f718312dffe892d3ebced6ed8bb9467ec282d46b65157e72157c005100e7280
+outputs.44.0.filename=tekton-mock-5.2.0.pom
+outputs.44.0.length=1733
+outputs.44.0.checksums.sha512=9f35d84166c38feb44af19b6d82386ca81ccd5296f5f3da445f3faa8abf5e65d7a89d2462cffcff064e1962733fd58058c3e14b14b3889a2fb662fdbc45a0744
 
-outputs.44.1.filename=tekton-mock-5.2.0-sources.jar
-outputs.44.1.length=4462
-outputs.44.1.checksums.sha512=7e460dbe3105e042fd1d8105857d0c09f714aae4bff9390d8c5a54206274694f8132fd413e1bb1bd1a232b12208d604c5454465a86b3e07d2f62c4ae8d213285
+outputs.44.1.filename=tekton-mock-5.2.0.jar
+outputs.44.1.length=5672
+outputs.44.1.checksums.sha512=aee0b01d19765317bdfa0d34e386feac44dd8981dc4f8524712a8f11492948ff9d66e12fb6dcc1086e6d665a1e1a41c644a475de8258bd48434a3b5236dcfe44
+
+outputs.44.2.filename=tekton-mock-5.2.0-sources.jar
+outputs.44.2.length=4462
+outputs.44.2.checksums.sha512=7e460dbe3105e042fd1d8105857d0c09f714aae4bff9390d8c5a54206274694f8132fd413e1bb1bd1a232b12208d604c5454465a86b3e07d2f62c4ae8d213285
 
 outputs.45.coordinates=io.fabric8:tekton-examples
 
-outputs.45.0.filename=tekton-examples-5.2.0.jar
-outputs.45.0.length=15817
-outputs.45.0.checksums.sha512=fd4990db35a8ce287163eb450346dfbd0941af2d7d90a5765b886cc0e3a1f0150e9ef3089064a1a9abd7f043e0cab2d41e7641a25a243c9e9a7c405414232b1a
+outputs.45.0.filename=tekton-examples-5.2.0.pom
+outputs.45.0.length=1283
+outputs.45.0.checksums.sha512=64d8c7caadff1e44fa5d29d8fb9f1fb205b03e6b6701e0dda404a3cebaaa0e1801ae0f5e92f15735adb9920105f5599e86a6487ab3e4d5f9c5d6866d2579eec8
 
-outputs.45.1.filename=tekton-examples-5.2.0-sources.jar
-outputs.45.1.length=9323
-outputs.45.1.checksums.sha512=d3027250697546c5a9f88f5423358fc6a7836dfe7f08c07250e14a0e48101407f2abd34437a73776fecc4c78ea00231c9db6879509204f8d8ac1d33e18c2ad1d
+outputs.45.1.filename=tekton-examples-5.2.0.jar
+outputs.45.1.length=15817
+outputs.45.1.checksums.sha512=fd4990db35a8ce287163eb450346dfbd0941af2d7d90a5765b886cc0e3a1f0150e9ef3089064a1a9abd7f043e0cab2d41e7641a25a243c9e9a7c405414232b1a
+
+outputs.45.2.filename=tekton-examples-5.2.0-sources.jar
+outputs.45.2.length=9323
+outputs.45.2.checksums.sha512=d3027250697546c5a9f88f5423358fc6a7836dfe7f08c07250e14a0e48101407f2abd34437a73776fecc4c78ea00231c9db6879509204f8d8ac1d33e18c2ad1d
 
 outputs.46.coordinates=io.fabric8:tekton-tests
 
-outputs.46.0.filename=tekton-tests-5.2.0.jar
-outputs.46.0.length=1889
-outputs.46.0.checksums.sha512=c22849e4aeff52a2c2b74e9d536cd2f2b6ed9ae519ff9e63716f08c9cf372924bacab959bf82a218a1f38cd0c87a39ec981ab995474430288fc7feb7fb67af98
+outputs.46.0.filename=tekton-tests-5.2.0.pom
+outputs.46.0.length=2191
+outputs.46.0.checksums.sha512=ecf72d5eff273589d996900f5163983ef911b2c507896219639e93e95bf9d185baae2b022f1da7347b3369aea378970e92c23575644f5619926afefeaae8102b
+
+outputs.46.1.filename=tekton-tests-5.2.0.jar
+outputs.46.1.length=1889
+outputs.46.1.checksums.sha512=c22849e4aeff52a2c2b74e9d536cd2f2b6ed9ae519ff9e63716f08c9cf372924bacab959bf82a218a1f38cd0c87a39ec981ab995474430288fc7feb7fb67af98
 
 outputs.47.coordinates=io.fabric8:service-catalog
 
+outputs.47.0.filename=service-catalog-5.2.0.pom
+outputs.47.0.length=1335
+outputs.47.0.checksums.sha512=38f8387693a074d39dedf4b81f99d2a104ff9204a89e540f6818b1f939455a49d3a55cb0268fa18ba83fc3e66bcf372409e355c675349ccf8f35b39b3a334729
+
 outputs.48.coordinates=io.fabric8:servicecatalog-model
 
-outputs.48.0.filename=servicecatalog-model-5.2.0.jar
-outputs.48.0.length=824898
-outputs.48.0.checksums.sha512=67b77304693281e1582bf458d23dde4ad4018267ae81fedbd1b7ea55c2957a923c782adfe19969c6ba6e2976b37547bf714ea7aa3844081bcbad80bd1e90bbfb
+outputs.48.0.filename=servicecatalog-model-5.2.0.pom
+outputs.48.0.length=5700
+outputs.48.0.checksums.sha512=b60a24c52214f36c11a60d46e83d7ad140f5825683014909d0945c61e409c2321710296b493fdeba1bf1dc8757cc06ec0ec02433784de55b28aef8fdc393024c
 
-outputs.48.1.filename=servicecatalog-model-5.2.0-schema.json
-outputs.48.1.length=73535
-outputs.48.1.checksums.sha512=0bcbcc04df9cf2bebd9cb059b1e271a16ed48f9469ba6186ea1e31381b3a3ad20e44ddbbf91116eeeadf1d2566c5b1936f36cac1c756c8a9cd4c8d268afb1163
+outputs.48.1.filename=servicecatalog-model-5.2.0.jar
+outputs.48.1.length=824898
+outputs.48.1.checksums.sha512=67b77304693281e1582bf458d23dde4ad4018267ae81fedbd1b7ea55c2957a923c782adfe19969c6ba6e2976b37547bf714ea7aa3844081bcbad80bd1e90bbfb
 
-outputs.48.2.filename=servicecatalog-model-5.2.0-sources.jar
-outputs.48.2.length=577938
-outputs.48.2.checksums.sha512=9190a5c7053f94925d6f4785b41b043b90cb1740ff1e1e460ed3fcf5149c1a2b0ae6cbc65a7595f1f73390a8299788c8924a5ac748dc655326ff9e5100d8126b
+outputs.48.2.filename=servicecatalog-model-5.2.0-schema.json
+outputs.48.2.length=73535
+outputs.48.2.checksums.sha512=0bcbcc04df9cf2bebd9cb059b1e271a16ed48f9469ba6186ea1e31381b3a3ad20e44ddbbf91116eeeadf1d2566c5b1936f36cac1c756c8a9cd4c8d268afb1163
+
+outputs.48.3.filename=servicecatalog-model-5.2.0-sources.jar
+outputs.48.3.length=577938
+outputs.48.3.checksums.sha512=9190a5c7053f94925d6f4785b41b043b90cb1740ff1e1e460ed3fcf5149c1a2b0ae6cbc65a7595f1f73390a8299788c8924a5ac748dc655326ff9e5100d8126b
 
 outputs.49.coordinates=io.fabric8:servicecatalog-client
 
-outputs.49.0.filename=servicecatalog-client-5.2.0.jar
-outputs.49.0.length=49281
-outputs.49.0.checksums.sha512=ecb1f50b20022fef9255bf29254c37c7c90ff5d6aeae61859d2a61122e36502f28c2890668acee3c4d40e382463da573df9ad9d7de75f643f81cf487574c2236
+outputs.49.0.filename=servicecatalog-client-5.2.0.pom
+outputs.49.0.length=6819
+outputs.49.0.checksums.sha512=f2da5d1a5f4067cca106c6507dcd5ba40782c5ade218a8131d8d7bdb99fc7487b8d18f279a3f919c9217d587475a60c85951befad9311402f625eae23ce351e3
 
-outputs.49.1.filename=servicecatalog-client-5.2.0-sources.jar
-outputs.49.1.length=35446
-outputs.49.1.checksums.sha512=96f860330bcdbdda942bdbe080fc0936c7fab6d1e175bf12bcb7a9d33ed9e013f30060ad11831b6106542a3506869ce92e7b6e18ffc22653a5117b89d2d9dada
+outputs.49.1.filename=servicecatalog-client-5.2.0.jar
+outputs.49.1.length=49281
+outputs.49.1.checksums.sha512=ecb1f50b20022fef9255bf29254c37c7c90ff5d6aeae61859d2a61122e36502f28c2890668acee3c4d40e382463da573df9ad9d7de75f643f81cf487574c2236
+
+outputs.49.2.filename=servicecatalog-client-5.2.0-sources.jar
+outputs.49.2.length=35446
+outputs.49.2.checksums.sha512=96f860330bcdbdda942bdbe080fc0936c7fab6d1e175bf12bcb7a9d33ed9e013f30060ad11831b6106542a3506869ce92e7b6e18ffc22653a5117b89d2d9dada
 
 outputs.50.coordinates=io.fabric8:servicecatalog-server-mock
 
-outputs.50.0.filename=servicecatalog-server-mock-5.2.0.jar
-outputs.50.0.length=6059
-outputs.50.0.checksums.sha512=5a8631a6f71267544bbe8f2be4720c81741b2f66bdcb1be5f1b555a073f1a3b66a49fcfc4ff5a5da513900fedea7ccd8d0460916cdbac9994ec9702a68d13abb
+outputs.50.0.filename=servicecatalog-server-mock-5.2.0.pom
+outputs.50.0.length=1802
+outputs.50.0.checksums.sha512=7941b06aa55ed294e91847ed818463dda7ebd4deb6c188e7a1425010ff3af46781f68fb2e3d5a340c435045b5bd1ad77769e170eebdce8e2ebe6971fc5d28bf4
 
-outputs.50.1.filename=servicecatalog-server-mock-5.2.0-sources.jar
-outputs.50.1.length=4853
-outputs.50.1.checksums.sha512=8ebc12444b909e2e9d71f5be0e42f55a0b740f5baf93789169fdf6211b6313f78b49edd32431703f6eadd71c215b30b7880088a94a0fcd132960d4d43af3858e
+outputs.50.1.filename=servicecatalog-server-mock-5.2.0.jar
+outputs.50.1.length=6060
+outputs.50.1.checksums.sha512=3bf091b8a9bf435467be60e952685c9871450b13de30693a34352cd18ce6dd88e055b5105cb31a9a9d1319864ded5c8519a4e2bc421d63bb667c9d3a544a47b8
+
+outputs.50.2.filename=servicecatalog-server-mock-5.2.0-sources.jar
+outputs.50.2.length=4853
+outputs.50.2.checksums.sha512=8ebc12444b909e2e9d71f5be0e42f55a0b740f5baf93789169fdf6211b6313f78b49edd32431703f6eadd71c215b30b7880088a94a0fcd132960d4d43af3858e
 
 outputs.51.coordinates=io.fabric8:service-catalog-examples
 
-outputs.51.0.filename=service-catalog-examples-5.2.0.jar
-outputs.51.0.length=16741
-outputs.51.0.checksums.sha512=9525f71970cce58db83c04305f561a6b5a69f98fbb03eb6713b2471a5bae3dfce093681447e79af9a4f1e7e8ba3cb0c4d25047d0b50ad367d71cf1286d9ecd52
+outputs.51.0.filename=service-catalog-examples-5.2.0.pom
+outputs.51.0.length=1348
+outputs.51.0.checksums.sha512=722ed8428468a252a50e12644f1a381c621b104c51a13074d615c11c7363cab25ecf20fa1c34913edb3a390cac22d3ad0aa5b2cf1b3cdc7f762be18d10dbc56b
 
-outputs.51.1.filename=service-catalog-examples-5.2.0-sources.jar
-outputs.51.1.length=11865
-outputs.51.1.checksums.sha512=be884e898acb730913601dbb94f9db3a2735d95752a58ea45b724bfd1df3ee9229271db7eba52c271ce1c9b811690b2a76255ccf8503409476ddeef7d7cf413c
+outputs.51.1.filename=service-catalog-examples-5.2.0.jar
+outputs.51.1.length=16741
+outputs.51.1.checksums.sha512=9525f71970cce58db83c04305f561a6b5a69f98fbb03eb6713b2471a5bae3dfce093681447e79af9a4f1e7e8ba3cb0c4d25047d0b50ad367d71cf1286d9ecd52
+
+outputs.51.2.filename=service-catalog-examples-5.2.0-sources.jar
+outputs.51.2.length=11865
+outputs.51.2.checksums.sha512=be884e898acb730913601dbb94f9db3a2735d95752a58ea45b724bfd1df3ee9229271db7eba52c271ce1c9b811690b2a76255ccf8503409476ddeef7d7cf413c
 
 outputs.52.coordinates=io.fabric8:servicecatalog-tests
 
-outputs.52.0.filename=servicecatalog-tests-5.2.0.jar
-outputs.52.0.length=1967
-outputs.52.0.checksums.sha512=3c4bf2603107280bc4191764dbb56ed0d25464a3728eaba3f5de1defa3212a247f36de98d10135a928aa880203da2ef1bec13f8f9e9c66b6d0db8c0672df4ec0
+outputs.52.0.filename=servicecatalog-tests-5.2.0.pom
+outputs.52.0.length=2221
+outputs.52.0.checksums.sha512=88f8edf4375e6f9027313be107e3d7f98ee56750df2f9b07ed156a99887ab917e37fea7796c0f79978450f69310a6cd7eed42b51414229c0d4f72d9ddb13b6b9
+
+outputs.52.1.filename=servicecatalog-tests-5.2.0.jar
+outputs.52.1.length=1967
+outputs.52.1.checksums.sha512=3c4bf2603107280bc4191764dbb56ed0d25464a3728eaba3f5de1defa3212a247f36de98d10135a928aa880203da2ef1bec13f8f9e9c66b6d0db8c0672df4ec0
 
 outputs.53.coordinates=io.fabric8:volumesnapshot
 
+outputs.53.0.filename=volumesnapshot-5.2.0.pom
+outputs.53.0.length=1343
+outputs.53.0.checksums.sha512=e8e62f5e3b2ca804b580266b52b9448db3856755ff4fb55a83022d5d6f6f53275874c333f05e8888174736e0dfe0a73937a445580afd936d9345d522683fff86
+
 outputs.54.coordinates=io.fabric8:volumesnapshot-model
 
-outputs.54.0.filename=volumesnapshot-model-5.2.0.jar
-outputs.54.0.length=191201
-outputs.54.0.checksums.sha512=2aed5f74f6f2ed8dfe33d43fc0eccf4b7ea95e86a1105b96a0b75706fa6fbb100d96f9e7d2cac1c3846e1b316191f8c7620018b7b4184dbd4178349484d29b9b
+outputs.54.0.filename=volumesnapshot-model-5.2.0.pom
+outputs.54.0.length=5556
+outputs.54.0.checksums.sha512=5b3a7201723de090f699df3cef63c75c49e5f66f65102a64a667526f1b1e8b3db6ff5e6aa340cbee2d3d485377c663a8b3802882a48b38a19475e296160dccb6
 
-outputs.54.1.filename=volumesnapshot-model-5.2.0-schema.json
-outputs.54.1.length=17005
-outputs.54.1.checksums.sha512=a38f20aef388501344a1b45f9ee009cb86fd92f9517da03108e53ca90335f575f40840eee18a650c46c478a2e33c428dcbdc21c4792506839ee7d05a1a729173
+outputs.54.1.filename=volumesnapshot-model-5.2.0.jar
+outputs.54.1.length=191201
+outputs.54.1.checksums.sha512=2aed5f74f6f2ed8dfe33d43fc0eccf4b7ea95e86a1105b96a0b75706fa6fbb100d96f9e7d2cac1c3846e1b316191f8c7620018b7b4184dbd4178349484d29b9b
 
-outputs.54.2.filename=volumesnapshot-model-5.2.0-sources.jar
-outputs.54.2.length=146766
-outputs.54.2.checksums.sha512=8efcdbbf95a3dd0c5141f3aca097868ebb4b430ad3bd96c78f9a67376bcaeb7839579f9786e46f6232f53763637dc1a951048126a25affbf91b22df4ad08a430
+outputs.54.2.filename=volumesnapshot-model-5.2.0-schema.json
+outputs.54.2.length=17005
+outputs.54.2.checksums.sha512=a38f20aef388501344a1b45f9ee009cb86fd92f9517da03108e53ca90335f575f40840eee18a650c46c478a2e33c428dcbdc21c4792506839ee7d05a1a729173
+
+outputs.54.3.filename=volumesnapshot-model-5.2.0-sources.jar
+outputs.54.3.length=146766
+outputs.54.3.checksums.sha512=8efcdbbf95a3dd0c5141f3aca097868ebb4b430ad3bd96c78f9a67376bcaeb7839579f9786e46f6232f53763637dc1a951048126a25affbf91b22df4ad08a430
 
 outputs.55.coordinates=io.fabric8:volumesnapshot-client
 
-outputs.55.0.filename=volumesnapshot-client-5.2.0.jar
-outputs.55.0.length=22908
-outputs.55.0.checksums.sha512=4dbb3753240bf612eb9c1a5103d33a508893a8e318a52b1f282ac9bf360dc667a0199166592ae33e89cc4ee1a2b4621c21c3e5a1f4dff9267d5858edae5ea609
+outputs.55.0.filename=volumesnapshot-client-5.2.0.pom
+outputs.55.0.length=6675
+outputs.55.0.checksums.sha512=ca003882cfd95c4984e3a8e32241d0cba04ef3f81d32b2ccd37b6a6781692c8499259233621a30534d6a4420089fd3d995f36fae56dd8887dfea6ff7af762b65
 
-outputs.55.1.filename=volumesnapshot-client-5.2.0-sources.jar
-outputs.55.1.length=21182
-outputs.55.1.checksums.sha512=d2f698fb01f0954c4dca6c3d6f207211b1003ce68a901c3076ed07e1c433c0ef90d91d9774c8d86c022e95c5387218234de84c4ab889a286c14d76d70be814e2
+outputs.55.1.filename=volumesnapshot-client-5.2.0.jar
+outputs.55.1.length=22908
+outputs.55.1.checksums.sha512=4dbb3753240bf612eb9c1a5103d33a508893a8e318a52b1f282ac9bf360dc667a0199166592ae33e89cc4ee1a2b4621c21c3e5a1f4dff9267d5858edae5ea609
+
+outputs.55.2.filename=volumesnapshot-client-5.2.0-sources.jar
+outputs.55.2.length=21182
+outputs.55.2.checksums.sha512=d2f698fb01f0954c4dca6c3d6f207211b1003ce68a901c3076ed07e1c433c0ef90d91d9774c8d86c022e95c5387218234de84c4ab889a286c14d76d70be814e2
 
 outputs.56.coordinates=io.fabric8:volumesnapshot-server-mock
 
-outputs.56.0.filename=volumesnapshot-server-mock-5.2.0.jar
-outputs.56.0.length=5479
-outputs.56.0.checksums.sha512=cf234c68074a6aa8b8feeed00a15a5e5de1f5bca8f1d9b9df39b739fbb286d0937b34ce96744f21b39e5dc1172c4cb25ff60d209cf5a57bb9e6c570bbf27e57a
+outputs.56.0.filename=volumesnapshot-server-mock-5.2.0.pom
+outputs.56.0.length=1810
+outputs.56.0.checksums.sha512=a6ffa4803590b4b0f2e0fc2f8fa6ce0c72ff11c46ad95f74e1667a8049c6790aeba4a58fb666fb187b7b1e5a9384f95132870ee999b30f1a19dc68fdb676bd55
 
-outputs.56.1.filename=volumesnapshot-server-mock-5.2.0-sources.jar
-outputs.56.1.length=4631
-outputs.56.1.checksums.sha512=3f5e1b8aba95c7882fcbc5f2f6ef6dab97e00d6aeda5502011bf5dc95403a24d74ac858727aa82b474577182a98f253b0ea6860b966344c4025c86ccc5288341
+outputs.56.1.filename=volumesnapshot-server-mock-5.2.0.jar
+outputs.56.1.length=5480
+outputs.56.1.checksums.sha512=a893ef34ee9589bceebab9178825ff6da78ee7caba378d8231f8007be330d2eee1531e9c1bd779acc85913942173cb31907ce5b7e8e55bd68bee61b60d7d94e6
+
+outputs.56.2.filename=volumesnapshot-server-mock-5.2.0-sources.jar
+outputs.56.2.length=4631
+outputs.56.2.checksums.sha512=3f5e1b8aba95c7882fcbc5f2f6ef6dab97e00d6aeda5502011bf5dc95403a24d74ac858727aa82b474577182a98f253b0ea6860b966344c4025c86ccc5288341
 
 outputs.57.coordinates=io.fabric8:volumesnapshot-examples
 
-outputs.57.0.filename=volumesnapshot-examples-5.2.0.jar
-outputs.57.0.length=12241
-outputs.57.0.checksums.sha512=7506eceee714b5a05db92de044360df8047fd4c2b665495d7588e775d8148d5a10d7c63d7e7ad7d46430b802bcb69a3f512650acd47fafdd6b1ad2abfb8c48e3
+outputs.57.0.filename=volumesnapshot-examples-5.2.0.pom
+outputs.57.0.length=1355
+outputs.57.0.checksums.sha512=f5c15e1f080693845339c518e98b5290839581c3e6880ff0afd68332f9064b1002d8635fe3dedfea2076a133cc0fa8ac6a25a613df93ded28a2e0e247d508182
 
-outputs.57.1.filename=volumesnapshot-examples-5.2.0-sources.jar
-outputs.57.1.length=8372
-outputs.57.1.checksums.sha512=066965c822dd50a064daee1ddc2f1bd17380e6c3e1c9a619c613811cbb0156a9d8d95bd3dba250b19c4d8b05b2d38742f8c53f61a6e85c230b29c590746ba52b
+outputs.57.1.filename=volumesnapshot-examples-5.2.0.jar
+outputs.57.1.length=12241
+outputs.57.1.checksums.sha512=7506eceee714b5a05db92de044360df8047fd4c2b665495d7588e775d8148d5a10d7c63d7e7ad7d46430b802bcb69a3f512650acd47fafdd6b1ad2abfb8c48e3
+
+outputs.57.2.filename=volumesnapshot-examples-5.2.0-sources.jar
+outputs.57.2.length=8372
+outputs.57.2.checksums.sha512=066965c822dd50a064daee1ddc2f1bd17380e6c3e1c9a619c613811cbb0156a9d8d95bd3dba250b19c4d8b05b2d38742f8c53f61a6e85c230b29c590746ba52b
 
 outputs.58.coordinates=io.fabric8:volumesnapshot-tests
 
-outputs.58.0.filename=volumesnapshot-tests-5.2.0.jar
-outputs.58.0.length=1967
-outputs.58.0.checksums.sha512=a8ad55259a9e23b2664587cbea4be301398166b9a312da61989616a5f8d79c2d6d37a743251c34a44c2bb57e48e88eca680ccb1523de5e14ab2bbbc1e6d393f3
+outputs.58.0.filename=volumesnapshot-tests-5.2.0.pom
+outputs.58.0.length=2229
+outputs.58.0.checksums.sha512=43037cacc722de289e403c59307d336741b2be960663d34145cd5d3deacbf5d0e7ebdea2132ee8b119bbe6247fe0f950ee9550e2f43f17f114c11c0fca47bea0
+
+outputs.58.1.filename=volumesnapshot-tests-5.2.0.jar
+outputs.58.1.length=1967
+outputs.58.1.checksums.sha512=a8ad55259a9e23b2664587cbea4be301398166b9a312da61989616a5f8d79c2d6d37a743251c34a44c2bb57e48e88eca680ccb1523de5e14ab2bbbc1e6d393f3
 
 outputs.59.coordinates=io.fabric8:chaosmesh
 
+outputs.59.0.filename=chaosmesh-5.2.0.pom
+outputs.59.0.length=1333
+outputs.59.0.checksums.sha512=93374160f1850e2f43f4a1705da123b8c97a571acd395e7a1f07fa8e85127d9649189af9228c1c214e36c5345756b7c338f0f4414caf12c08c9061587cd1ba3e
+
 outputs.60.coordinates=io.fabric8:chaosmesh-model
 
-outputs.60.0.filename=chaosmesh-model-5.2.0.jar
-outputs.60.0.length=1153890
-outputs.60.0.checksums.sha512=d4d7334af734c6f43fda7c6562e122c8b05c13e43a8319d9dfb90d8970559a3bf54da438e58295d36fcc202cb10400f1a39002f7c1f56ebca37c906bc433bdff
+outputs.60.0.filename=chaosmesh-model-5.2.0.pom
+outputs.60.0.length=5653
+outputs.60.0.checksums.sha512=d49f993c9df23099dc6704948f09ccd985fb38454a13f3baf5f0795cf9d0d0506ad02c6a2f866f235a4da8d3a037ddaa647f6a1eaee45b8cddfa58f17d801385
 
-outputs.60.1.filename=chaosmesh-model-5.2.0-schema.json
-outputs.60.1.length=90870
-outputs.60.1.checksums.sha512=cee209f7067dd572a267c516e9822dad27768aeb5f6de148a29cf05aa9061e6e62acbf88448493630cfd223a1882b71d28d403ad3d545ecf1480d11cf271d830
+outputs.60.1.filename=chaosmesh-model-5.2.0.jar
+outputs.60.1.length=1153890
+outputs.60.1.checksums.sha512=d4d7334af734c6f43fda7c6562e122c8b05c13e43a8319d9dfb90d8970559a3bf54da438e58295d36fcc202cb10400f1a39002f7c1f56ebca37c906bc433bdff
 
-outputs.60.2.filename=chaosmesh-model-5.2.0-sources.jar
-outputs.60.2.length=784909
-outputs.60.2.checksums.sha512=a6e7a1892d670fddb296822820d2ec700408bc32b0154ed44fdcbd4abca267fb56d9c541953442523c5dacac4391ebef8f380275ead6d56916b7f6e4fd88bf8a
+outputs.60.2.filename=chaosmesh-model-5.2.0-schema.json
+outputs.60.2.length=90870
+outputs.60.2.checksums.sha512=cee209f7067dd572a267c516e9822dad27768aeb5f6de148a29cf05aa9061e6e62acbf88448493630cfd223a1882b71d28d403ad3d545ecf1480d11cf271d830
+
+outputs.60.3.filename=chaosmesh-model-5.2.0-sources.jar
+outputs.60.3.length=784909
+outputs.60.3.checksums.sha512=a6e7a1892d670fddb296822820d2ec700408bc32b0154ed44fdcbd4abca267fb56d9c541953442523c5dacac4391ebef8f380275ead6d56916b7f6e4fd88bf8a
 
 outputs.61.coordinates=io.fabric8:chaosmesh-client
 
-outputs.61.0.filename=chaosmesh-client-5.2.0.jar
-outputs.61.0.length=52764
-outputs.61.0.checksums.sha512=605855c81e5c6a4f644f7534d897b3799aadf48ab2f604174da2ea8c40f6b298def592e16b6e64a1321f6df4d99ef8014e31945ec0d8f19ddacd3aecbce3739c
+outputs.61.0.filename=chaosmesh-client-5.2.0.pom
+outputs.61.0.length=6755
+outputs.61.0.checksums.sha512=8b33ff2932276b9941a2b7a9a96c7bce252960c2e02c99097233cc3fcfd33962e975d9974f83bd657434dbd61231f17fda650dc5ef0f5c681ed14386c99b4555
 
-outputs.61.1.filename=chaosmesh-client-5.2.0-sources.jar
-outputs.61.1.length=32056
-outputs.61.1.checksums.sha512=30acbf24b3ca50e54d179490d3952a76e5e905adef7fc3d635f67f3a57252efb1c740dc9e9751131a140f9b731ddcd84bac634a11a7c67c663d3f8135571081d
+outputs.61.1.filename=chaosmesh-client-5.2.0.jar
+outputs.61.1.length=52764
+outputs.61.1.checksums.sha512=605855c81e5c6a4f644f7534d897b3799aadf48ab2f604174da2ea8c40f6b298def592e16b6e64a1321f6df4d99ef8014e31945ec0d8f19ddacd3aecbce3739c
+
+outputs.61.2.filename=chaosmesh-client-5.2.0-sources.jar
+outputs.61.2.length=32056
+outputs.61.2.checksums.sha512=30acbf24b3ca50e54d179490d3952a76e5e905adef7fc3d635f67f3a57252efb1c740dc9e9751131a140f9b731ddcd84bac634a11a7c67c663d3f8135571081d
 
 outputs.62.coordinates=io.fabric8:chaosmesh-server-mock
 
-outputs.62.0.filename=chaosmesh-server-mock-5.2.0.jar
-outputs.62.0.length=5337
-outputs.62.0.checksums.sha512=b8661d1936f36db67c35780c82b784974f8f565b257f56aa03f0fec21fa1347298e770b542d00c5b35fe71406ac3192280dd0d7632c3d87c14a3acf51dfe242c
+outputs.62.0.filename=chaosmesh-server-mock-5.2.0.pom
+outputs.62.0.length=1790
+outputs.62.0.checksums.sha512=6402032969b2010623c65182a03f6abe80c01c58ff065004a379133267af76033deb3064cb57af07b31d33e5bd95495afd4abace5c942adabd015544193012be
 
-outputs.62.1.filename=chaosmesh-server-mock-5.2.0-sources.jar
-outputs.62.1.length=4494
-outputs.62.1.checksums.sha512=c5239a1873befaa6c02b4ad41a3acf0aa51794606a64c32abff27b094a7c07adc0029f396390a77414437f66d1e1af30e28b4a76dc123ec127adcb54f93d0d23
+outputs.62.1.filename=chaosmesh-server-mock-5.2.0.jar
+outputs.62.1.length=5337
+outputs.62.1.checksums.sha512=2b31518a5bf5829ab8d5feb884cd0401ab45ef2b33be509319099f40a77f35608c21d7ba63074bd867dfde3b45b8dd846b65a082162b5d8c9d47d542e44efbd0
+
+outputs.62.2.filename=chaosmesh-server-mock-5.2.0-sources.jar
+outputs.62.2.length=4494
+outputs.62.2.checksums.sha512=c5239a1873befaa6c02b4ad41a3acf0aa51794606a64c32abff27b094a7c07adc0029f396390a77414437f66d1e1af30e28b4a76dc123ec127adcb54f93d0d23
 
 outputs.63.coordinates=io.fabric8:chaosmesh-examples
 
-outputs.63.0.filename=chaosmesh-examples-5.2.0.jar
-outputs.63.0.length=5514
-outputs.63.0.checksums.sha512=90d919444ae17d392985284fa3762a9d45fc62273da950ae73792a38158aa2b6bd56a3fea5a5080a67cfa2fc2b0fc9b2590a9e753716151cfaf9f54f88ce1c7e
+outputs.63.0.filename=chaosmesh-examples-5.2.0.pom
+outputs.63.0.length=1335
+outputs.63.0.checksums.sha512=9f8fb95b49a91156d67e42dd8c345318cbe42ee4aa5d31bed81ed46b0e96accaa46b49210521554d63c5572c64d47b9ae59d41c421ce38db5a612f6f61e878aa
 
-outputs.63.1.filename=chaosmesh-examples-5.2.0-sources.jar
-outputs.63.1.length=4275
-outputs.63.1.checksums.sha512=feb742d6bc35db4b0aa4e3bd6ca4cf06d682d5ffaeef3024398203089c0bcc9b12f4d4fd0edccddb0803ec855a953b652084dc7f6d495d04f4a5b994d30e2745
+outputs.63.1.filename=chaosmesh-examples-5.2.0.jar
+outputs.63.1.length=5514
+outputs.63.1.checksums.sha512=90d919444ae17d392985284fa3762a9d45fc62273da950ae73792a38158aa2b6bd56a3fea5a5080a67cfa2fc2b0fc9b2590a9e753716151cfaf9f54f88ce1c7e
+
+outputs.63.2.filename=chaosmesh-examples-5.2.0-sources.jar
+outputs.63.2.length=4275
+outputs.63.2.checksums.sha512=feb742d6bc35db4b0aa4e3bd6ca4cf06d682d5ffaeef3024398203089c0bcc9b12f4d4fd0edccddb0803ec855a953b652084dc7f6d495d04f4a5b994d30e2745
 
 outputs.64.coordinates=io.fabric8:chaosmesh-tests
 
-outputs.64.0.filename=chaosmesh-tests-5.2.0.jar
-outputs.64.0.length=1928
-outputs.64.0.checksums.sha512=388db26908ad29350d43ce3a3954d5bbe48d4177b85c78c8566bffb1269ba723c36802c78bf8a3f8e9d46c47e6324930c0cd93ba6c5e8d4903250f42c9dc4036
+outputs.64.0.filename=chaosmesh-tests-5.2.0.pom
+outputs.64.0.length=2209
+outputs.64.0.checksums.sha512=02df3b49a727ae5dca2348e9db8b487bff226424a50952f70802a1393f9c623e6b09ecb0e94d05722af79a8e015b0f5c534d9644293cb062f994f01b45b29aba
+
+outputs.64.1.filename=chaosmesh-tests-5.2.0.jar
+outputs.64.1.length=1928
+outputs.64.1.checksums.sha512=388db26908ad29350d43ce3a3954d5bbe48d4177b85c78c8566bffb1269ba723c36802c78bf8a3f8e9d46c47e6324930c0cd93ba6c5e8d4903250f42c9dc4036
 
 outputs.65.coordinates=io.fabric8:openshift-server-mock
 
-outputs.65.0.filename=openshift-server-mock-5.2.0.jar
-outputs.65.0.length=9467
-outputs.65.0.checksums.sha512=ad211fb88f7e085049853523c934eaab5ba70a32d08cd00d16d0412795f1970d88586fe261ad029a7cf7bfebfde9737f2e6dc7900277b027a41887c37b6356d8
+outputs.65.0.filename=openshift-server-mock-5.2.0.pom
+outputs.65.0.length=1428
+outputs.65.0.checksums.sha512=d33e9cf33317a6f1883ca7e4a76a3971bce64c615fc95170f0ed9ca1cd60f6e7ba9b06c807bb3a05de401d26daad882221f65d5a1b7eccef5840e8473b8f9ef2
 
-outputs.65.1.filename=openshift-server-mock-5.2.0-sources.jar
-outputs.65.1.length=7281
-outputs.65.1.checksums.sha512=0f7d484c584d26a750eb9c5000fb46f077764404e5f5a702bfc2d813ae6a05338f0bc792d3b61aba422d2d9a79fce963769759b95e5962db3c4da286e7c9fa98
+outputs.65.1.filename=openshift-server-mock-5.2.0.jar
+outputs.65.1.length=9462
+outputs.65.1.checksums.sha512=9adef604293a95e7ddf543635f0cfc8794f8846e7902d06ccfb2888bb5c9e09e1a6188fd70562b1fb78382be6fbc257742cc7667b5d7039660d6ef6455e3475a
+
+outputs.65.2.filename=openshift-server-mock-5.2.0-sources.jar
+outputs.65.2.length=7281
+outputs.65.2.checksums.sha512=0f7d484c584d26a750eb9c5000fb46f077764404e5f5a702bfc2d813ae6a05338f0bc792d3b61aba422d2d9a79fce963769759b95e5962db3c4da286e7c9fa98
 
 outputs.66.coordinates=io.fabric8:kubernetes-examples
 
-outputs.66.0.filename=kubernetes-examples-5.2.0.jar
-outputs.66.0.length=267323
-outputs.66.0.checksums.sha512=8ce7ad974e200c81449a6e43c2c10f9e4543b9fa38323573aba9de7e7b4ac6c1dd614ce782725479e6a0aa63b7428796f50bfc56d9f699fd18aaea290d07ceea
+outputs.66.0.filename=kubernetes-examples-5.2.0.pom
+outputs.66.0.length=7512
+outputs.66.0.checksums.sha512=f82a158fad58fe0b57d1c426d0e9e24d65a953945f57b43f5303222990d031e5b2a5bf9d5dc56f68bdb2d45eaa3e36821c0271dc133083b9d42fefe2ecd0eff7
 
-outputs.66.1.filename=kubernetes-examples-5.2.0-sources.jar
-outputs.66.1.length=150832
-outputs.66.1.checksums.sha512=b1b9f9b9f3a4ff927b19f3f6c9329a2c94524d594812f13c1ee47164902c06335a6806c664f67eeb75b7b1fe6847ef79e79f8907bb06a8f579b3a4092ec33e8a
+outputs.66.1.filename=kubernetes-examples-5.2.0.jar
+outputs.66.1.length=267317
+outputs.66.1.checksums.sha512=cf41b5d6664bb4a201e0b2d6ff4b87549fdec253e8b54d3a6c889a861178565ee8f8f6cfcd36e4e360a9be2bebf7d52bdede5c6484fc5dfeaadca3bd76ce5a0e
+
+outputs.66.2.filename=kubernetes-examples-5.2.0-sources.jar
+outputs.66.2.length=150832
+outputs.66.2.checksums.sha512=b1b9f9b9f3a4ff927b19f3f6c9329a2c94524d594812f13c1ee47164902c06335a6806c664f67eeb75b7b1fe6847ef79e79f8907bb06a8f579b3a4092ec33e8a
 
 outputs.67.coordinates=io.fabric8.kubernetes:platforms
 
+outputs.67.0.filename=platforms-5.2.0.pom
+outputs.67.0.length=1260
+outputs.67.0.checksums.sha512=c3a114e4f6293846741cd51ba882128cb823e2eb33bf0418fd5cd72e825e86482f64b43eb1880c0f7763a32ef18e32bfb62efd99c156c0e599c7df69cbe9f4ef
+
 outputs.68.coordinates=io.fabric8.kubernetes:karaf
+
+outputs.68.0.filename=karaf-5.2.0.pom
+outputs.68.0.length=1408
+outputs.68.0.checksums.sha512=5a1a53fdd710cc7219a8e969a397af573498650d5cd7c6bc4f11f4239fe07009ef3e957b69973e5e28380d8b8c5ac119cce27388ce4402d872332e58abd5df54
 
 outputs.69.coordinates=io.fabric8.kubernetes:kubernetes-karaf
 
-outputs.69.0.filename=kubernetes-karaf-5.2.0.jar
-outputs.69.0.length=3505
-outputs.69.0.checksums.sha512=0a1e5c7ce76af996ff672a1ba6adecd7ab7fa8b0f89519b5b9e4ee754566f70d00cd3e971290d893506914c36f6d7dadada44b1c1486fdc7b8381b79fea42fa0
+outputs.69.0.filename=kubernetes-karaf-5.2.0.pom
+outputs.69.0.length=2763
+outputs.69.0.checksums.sha512=cfe2f6929bddae4a4b300e3950e10a9474ddb4997656b7a4922133a491130fc706734349d2b8756209e7abf85a14a0faec21bff22f46cc91421f781d6b48ce18
 
-outputs.69.1.filename=kubernetes-karaf-5.2.0-features.xml
-outputs.69.1.length=4536
-outputs.69.1.checksums.sha512=fa4241c4581c72987c6fef300231b596f8ca915ae6c4b52cf20a0604e329bfb533f9d44fc7b0895e2fe5a9b10490add9972570da7190ce278e0a6e8630265a62
+outputs.69.1.filename=kubernetes-karaf-5.2.0.jar
+outputs.69.1.length=3505
+outputs.69.1.checksums.sha512=0a1e5c7ce76af996ff672a1ba6adecd7ab7fa8b0f89519b5b9e4ee754566f70d00cd3e971290d893506914c36f6d7dadada44b1c1486fdc7b8381b79fea42fa0
 
-outputs.69.2.filename=kubernetes-karaf-5.2.0-sources.jar
-outputs.69.2.length=3367
-outputs.69.2.checksums.sha512=0becdf8f8ceb2f1b197911371d500df9c3bcc379f3b32e9135b52fedca59da03ebae39c4315eeeb6784c98eb7560ed7fdc4293054a9102858de6ab8f395eb51b
+outputs.69.2.filename=kubernetes-karaf-5.2.0-features.xml
+outputs.69.2.length=4536
+outputs.69.2.checksums.sha512=fa4241c4581c72987c6fef300231b596f8ca915ae6c4b52cf20a0604e329bfb533f9d44fc7b0895e2fe5a9b10490add9972570da7190ce278e0a6e8630265a62
+
+outputs.69.3.filename=kubernetes-karaf-5.2.0-sources.jar
+outputs.69.3.length=3367
+outputs.69.3.checksums.sha512=0becdf8f8ceb2f1b197911371d500df9c3bcc379f3b32e9135b52fedca59da03ebae39c4315eeeb6784c98eb7560ed7fdc4293054a9102858de6ab8f395eb51b
 
 outputs.70.coordinates=io.fabric8.kubernetes:kubernetes-karaf-itests
 
-outputs.70.0.filename=kubernetes-karaf-itests-5.2.0.jar
-outputs.70.0.length=5447
-outputs.70.0.checksums.sha512=f9e6bffb9e92ee2d47748ada6aeab52c4e6af9a304fbfd6b9c60a2f8d9cf59fe9f4cd7a35fcae6d19147ea2caef47f84d9658171518e1485380b2631b372092d
+outputs.70.0.filename=kubernetes-karaf-itests-5.2.0.pom
+outputs.70.0.length=6103
+outputs.70.0.checksums.sha512=507f8f34646f40c31fe4e1cc342f7f8998c95389d06b074f5e3ba4b229180b9b93401d151c9e4537cf6353ec1e8052502d9ed4defcc18af0aca50cfcd0bb0a36
+
+outputs.70.1.filename=kubernetes-karaf-itests-5.2.0.jar
+outputs.70.1.length=5449
+outputs.70.1.checksums.sha512=8e5a1368ff32a3d62c9d75a6b7d84a23cad061de8641c25c67858cecbf075a7fdcd816144aa2a477e36663d63c95b8f1869e85b795982d4d24b6b8239c3d4ff3
 
 outputs.71.coordinates=io.fabric8:kubernetes-test
 
-outputs.71.0.filename=kubernetes-test-5.2.0.jar
-outputs.71.0.length=2719
-outputs.71.0.checksums.sha512=4f692699122691f7d83944b6af9c33631fe73212782445eea627a2f89d0b6dbaab07190c5098884acadcd1d5d03b860ee63634b549cdcce44f0fd8164d99a7f6
+outputs.71.0.filename=kubernetes-test-5.2.0.pom
+outputs.71.0.length=6307
+outputs.71.0.checksums.sha512=e45ad8ba699ff6dd57edbf6663f49881fd2deb7a26e67ce8a56e522c9d49abddd85526e67a83ba4ad1e342d181d3fd0a5599aa1f8dc254229ab60a3ba4a2a9ca
+
+outputs.71.1.filename=kubernetes-test-5.2.0.jar
+outputs.71.1.length=2719
+outputs.71.1.checksums.sha512=4f692699122691f7d83944b6af9c33631fe73212782445eea627a2f89d0b6dbaab07190c5098884acadcd1d5d03b860ee63634b549cdcce44f0fd8164d99a7f6
 
 outputs.72.coordinates=io.fabric8:kubernetes-openshift-uberjar
 
-outputs.72.0.filename=kubernetes-openshift-uberjar-5.2.0.jar
-outputs.72.0.length=16546841
-outputs.72.0.checksums.sha512=566efe0adaf405c21be4108e69f08a1da68b47b421dc27e380f29309540e5291ac90e54613ba0864b210540114d18cbdb7ce2ea2f60238f13454d550e47564f8
+outputs.72.0.filename=kubernetes-openshift-uberjar-5.2.0.pom
+outputs.72.0.length=15926
+outputs.72.0.checksums.sha512=070bca0a9d07937ff3b117e0d1f14864d24b044f131c183b8edbd65f4049b40b69d7248ba96c76cf2ee9b66d5af36ebae1ba06c499bc9762bcde86394eb6c2e7
 
-outputs.72.1.filename=kubernetes-openshift-uberjar-5.2.0-versioned.jar
-outputs.72.1.length=16799072
-outputs.72.1.checksums.sha512=bb55400869c1aba49008425bcea71040ace41dc5028033215543a6c2c9324e0bf1cf82137bc80c5122bad9c8db501a529c2232d5e570058704dadd84cbb879d0
+outputs.72.1.filename=kubernetes-openshift-uberjar-5.2.0.jar
+outputs.72.1.length=16546841
+outputs.72.1.checksums.sha512=566efe0adaf405c21be4108e69f08a1da68b47b421dc27e380f29309540e5291ac90e54613ba0864b210540114d18cbdb7ce2ea2f60238f13454d550e47564f8
 
-outputs.72.2.filename=kubernetes-openshift-uberjar-5.2.0-sources.jar
-outputs.72.2.length=3823
-outputs.72.2.checksums.sha512=59f3e114759cbe2dfce84e647ce60db410744741d50d7b5ed9ebc86a81c422236ed5969cccf6cf061747c424256e631c41feabf41e502a3a4ddf57e3ec310d17
+outputs.72.2.filename=kubernetes-openshift-uberjar-5.2.0-versioned.jar
+outputs.72.2.length=16799072
+outputs.72.2.checksums.sha512=bb55400869c1aba49008425bcea71040ace41dc5028033215543a6c2c9324e0bf1cf82137bc80c5122bad9c8db501a529c2232d5e570058704dadd84cbb879d0
+
+outputs.72.3.filename=kubernetes-openshift-uberjar-5.2.0-sources.jar
+outputs.72.3.length=3823
+outputs.72.3.checksums.sha512=59f3e114759cbe2dfce84e647ce60db410744741d50d7b5ed9ebc86a81c422236ed5969cccf6cf061747c424256e631c41feabf41e502a3a4ddf57e3ec310d17
 
 outputs.73.coordinates=io.fabric8:crd-generator-parent
 
+outputs.73.0.filename=crd-generator-parent-5.2.0.pom
+outputs.73.0.length=1254
+outputs.73.0.checksums.sha512=3ab53af79984d0fbef77e9d54357d8517a3ff3949d441c3325e0c009d36c7fba46520733af41dc174ddc47f815a6421f303e36f9683053bd5bdacb83527ccb42
+
 outputs.74.coordinates=io.fabric8:crd-generator-api
 
-outputs.74.0.filename=crd-generator-api-5.2.0.jar
-outputs.74.0.length=99094
-outputs.74.0.checksums.sha512=7830d2c130e828709dcdc1a261886c96fa3c95172af3442bcccf7b457af88ea910eb5a8ae5b27f709b305a151c276864f13876eee21351c6dc5b051f9747a757
+outputs.74.0.filename=crd-generator-api-5.2.0.pom
+outputs.74.0.length=2121
+outputs.74.0.checksums.sha512=db87bc5433b743fec296fe7f7635f796fcdeb841ae168ebaf6985bc9245f7cd6a71213ae6d31e2bf21291bbedf23e4d9bbef86da0391d7d746431cb5b05debd4
 
-outputs.74.1.filename=crd-generator-api-5.2.0-sources.jar
-outputs.74.1.length=62023
-outputs.74.1.checksums.sha512=edabd4c2a3cdee48994909e273a8de4fa3b165eaabb68b7a12c0bccaeb9198a4c5c70aeb1706e17b89aa440d2bfc52716f3d80f57d48e2d85eb55a4d612dd022
+outputs.74.1.filename=crd-generator-api-5.2.0.jar
+outputs.74.1.length=99089
+outputs.74.1.checksums.sha512=44efc54ef6febf78a99afb3f6e66788e0baf3ef2f11ac01b488faddc45d529d7ae070b3a789687a870ba9e35411da85d2c8296f6eff2897924f8ecb617d75c90
+
+outputs.74.2.filename=crd-generator-api-5.2.0-sources.jar
+outputs.74.2.length=62023
+outputs.74.2.checksums.sha512=edabd4c2a3cdee48994909e273a8de4fa3b165eaabb68b7a12c0bccaeb9198a4c5c70aeb1706e17b89aa440d2bfc52716f3d80f57d48e2d85eb55a4d612dd022
 
 outputs.75.coordinates=io.fabric8:crd-generator-apt
 
-outputs.75.0.filename=crd-generator-apt-5.2.0.jar
-outputs.75.0.length=9673
-outputs.75.0.checksums.sha512=04dc3512ad8d47f0a3d69a5ca02a346ceb633ebb4024bda0838886a49667b194a2e53164ff3d5091a3571653c02e7fa46c557640dbfbb808bbb305a3844f8524
+outputs.75.0.filename=crd-generator-apt-5.2.0.pom
+outputs.75.0.length=2738
+outputs.75.0.checksums.sha512=f770dc3acde6a507371d9e06b11ed9dadbb328e733d7dc6faec641b9950f4bdbce03302ea040fbef97f79fd91db7b7c28dfec765b62bebac521ae7bc543f5437
 
-outputs.75.1.filename=crd-generator-apt-5.2.0-sources.jar
-outputs.75.1.length=5269
-outputs.75.1.checksums.sha512=a6ce4d6b259bd9ccdf3379d22b6b8b347a5116e676888fcb8116237cde13b14c9b9f6b60093f8ab96b433d67d7f50499074da98f55cf313b4cd6127bfd228f7b
+outputs.75.1.filename=crd-generator-apt-5.2.0.jar
+outputs.75.1.length=9672
+outputs.75.1.checksums.sha512=1d898519c324c403bacfc9f0c5872ca4387dbc5f6e045fe740d601d0b23669ac4c147fb6b5e7c01282f3dbdbc794caf18ab1b6a9b72f5889bca2ae81d74c845e
 
-outputs.75.2.filename=crd-generator-apt-5.2.0-processors.jar
-outputs.75.2.length=100029
-outputs.75.2.checksums.sha512=bdc2a09de9011ca316446c6f81a5b5efe383c1b2f35e84e337d5858f6f6408ea5c7fbd57fa7f47f8b02414c355d3e54ad5beac8dbee39aeb27ee83ac234b95a1
+outputs.75.2.filename=crd-generator-apt-5.2.0-sources.jar
+outputs.75.2.length=5269
+outputs.75.2.checksums.sha512=a6ce4d6b259bd9ccdf3379d22b6b8b347a5116e676888fcb8116237cde13b14c9b9f6b60093f8ab96b433d67d7f50499074da98f55cf313b4cd6127bfd228f7b
+
+outputs.75.3.filename=crd-generator-apt-5.2.0-processors.jar
+outputs.75.3.length=100029
+outputs.75.3.checksums.sha512=bdc2a09de9011ca316446c6f81a5b5efe383c1b2f35e84e337d5858f6f6408ea5c7fbd57fa7f47f8b02414c355d3e54ad5beac8dbee39aeb27ee83ac234b95a1

@@ -1,5 +1,28 @@
 version=3.4.3
 ok=31
-ko=4
-okFiles="arthas-spy.jar arthas-spy-sources.jar arthas-common.jar arthas-common-sources.jar arthas-tunnel-client.jar arthas-tunnel-client-sources.jar arthas-demo.jar arthas-demo-sources.jar arthas-bytekit.jar arthas-bytekit-sources.jar arthas-agent.jar arthas-agent-sources.jar arthas-core.jar arthas-core-sources.jar arthas-agent.jar arthas-agent-sources.jar arthas-agent-jar-with-dependencies.jar arthas-client.jar arthas-client-sources.jar arthas-client-jar-with-dependencies.jar arthas-boot.jar arthas-boot-sources.jar arthas-boot-jar-with-dependencies.jar arthas-agent-attach-3.4.3.jar arthas-agent-attach-3.4.3-sources.jar arthas-site-3.4.3.jar arthas-spring-boot-starter-3.4.3.jar arthas-spring-boot-starter-3.4.3-sources.jar arthas-testcase-3.4.3.jar arthas-testcase-3.4.3-sources.jar arthas-tunnel-server-3.4.3-sources.jar"
-koFiles="arthas.jar arthas-bin.zip arthas-3.4.3.deb arthas-tunnel-server-3.4.3.jar"
+ko=21
+okFiles="arthas-all-3.4.3.pom arthas-spy-3.4.3.pom arthas-spy-3.4.3-sources.jar arthas-common-3.4.3.pom arthas-common-3.4.3-sources.jar arthas-tunnel-client-3.4.3.pom arthas-tunnel-client-3.4.3-sources.jar arthas-demo-3.4.3.pom arthas-demo-3.4.3-sources.jar arthas-bytekit-3.4.3.pom arthas-bytekit-3.4.3-sources.jar arthas-memorycompiler-3.4.3.pom arthas-memorycompiler-3.4.3-sources.jar arthas-core-3.4.3.pom arthas-core-3.4.3-sources.jar arthas-agent-3.4.3.pom arthas-agent-3.4.3-sources.jar arthas-client-3.4.3.pom arthas-client-3.4.3-sources.jar arthas-boot-3.4.3.pom arthas-boot-3.4.3-sources.jar arthas-agent-attach-3.4.3.pom arthas-agent-attach-3.4.3-sources.jar arthas-site-3.4.3.pom arthas-packaging-3.4.3.pom arthas-spring-boot-starter-3.4.3.pom arthas-spring-boot-starter-3.4.3-sources.jar arthas-testcase-3.4.3.pom arthas-testcase-3.4.3-sources.jar arthas-tunnel-server-3.4.3.pom arthas-tunnel-server-3.4.3-sources.jar"
+koFiles="arthas-spy-3.4.3.jar arthas-common-3.4.3.jar arthas-tunnel-client-3.4.3.jar arthas-demo-3.4.3.jar arthas-bytekit-3.4.3.jar arthas-memorycompiler-3.4.3.jar arthas-core-3.4.3.jar arthas-agent-3.4.3.jar arthas-agent-3.4.3-jar-with-dependencies.jar arthas-client-3.4.3.jar arthas-client-3.4.3-jar-with-dependencies.jar arthas-boot-3.4.3.jar arthas-boot-3.4.3-jar-with-dependencies.jar arthas-agent-attach-3.4.3.jar arthas-site-3.4.3.jar arthas-packaging-3.4.3.jar arthas-packaging-3.4.3-bin.zip arthas-packaging-3.4.3.deb arthas-spring-boot-starter-3.4.3.jar arthas-testcase-3.4.3.jar arthas-tunnel-server-3.4.3.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/arthas-spy-3.4.3.jar spy/target/arthas-spy.jar
+# diffoscope target/reference/arthas-common-3.4.3.jar common/target/arthas-common.jar
+# diffoscope target/reference/arthas-tunnel-client-3.4.3.jar tunnel-client/target/arthas-tunnel-client.jar
+# diffoscope target/reference/arthas-demo-3.4.3.jar demo/target/arthas-demo.jar
+# diffoscope target/reference/arthas-bytekit-3.4.3.jar bytekit/target/arthas-bytekit.jar
+# diffoscope target/reference/arthas-memorycompiler-3.4.3.jar memorycompiler/target/arthas-agent.jar
+# diffoscope target/reference/arthas-core-3.4.3.jar core/target/arthas-core.jar
+# diffoscope target/reference/arthas-agent-3.4.3.jar agent/target/arthas-agent.jar
+# diffoscope target/reference/arthas-agent-3.4.3-jar-with-dependencies.jar agent/target/arthas-agent-jar-with-dependencies.jar
+# diffoscope target/reference/arthas-client-3.4.3.jar client/target/arthas-client.jar
+# diffoscope target/reference/arthas-client-3.4.3-jar-with-dependencies.jar client/target/arthas-client-jar-with-dependencies.jar
+# diffoscope target/reference/arthas-boot-3.4.3.jar boot/target/arthas-boot.jar
+# diffoscope target/reference/arthas-boot-3.4.3-jar-with-dependencies.jar boot/target/arthas-boot-jar-with-dependencies.jar
+# diffoscope target/reference/arthas-agent-attach-3.4.3.jar arthas-agent-attach/target/arthas-agent-attach-3.4.3.jar
+# diffoscope target/reference/arthas-site-3.4.3.jar site/target/arthas-site-3.4.3.jar
+# diffoscope target/reference/arthas-packaging-3.4.3.jar packaging/target/arthas.jar
+# diffoscope target/reference/arthas-packaging-3.4.3-bin.zip packaging/target/arthas-bin.zip
+# diffoscope target/reference/arthas-packaging-3.4.3.deb packaging/target/arthas-3.4.3.deb
+# diffoscope target/reference/arthas-spring-boot-starter-3.4.3.jar arthas-spring-boot-starter/target/arthas-spring-boot-starter-3.4.3.jar
+# diffoscope target/reference/arthas-testcase-3.4.3.jar testcase/target/arthas-testcase-3.4.3.jar
+# diffoscope target/reference/arthas-tunnel-server-3.4.3.jar tunnel-server/target/arthas-tunnel-server-3.4.3.jar

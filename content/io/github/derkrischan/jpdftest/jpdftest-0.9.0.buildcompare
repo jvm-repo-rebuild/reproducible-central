@@ -1,7 +1,7 @@
 version=0.9.0
-ok=2
+ok=3
 ko=0
-okFiles="jpdftest-0.9.0.jar jpdftest-0.9.0-sources.jar"
+okFiles="jpdftest-0.9.0.pom jpdftest-0.9.0.jar jpdftest-0.9.0-sources.jar"
 koFiles=""
 reference_java_version="1.7 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"

@@ -1,5 +1,10 @@
 version=1.8.0
-ok=0
+ok=3
 ko=3
-okFiles=""
+okFiles="io.wcm.caconfig.editor-1.8.0.pom io.wcm.caconfig.editor.package-1.8.0.pom io.wcm.caconfig.editor.parent-1.8.0.pom"
 koFiles="io.wcm.caconfig.editor-1.8.0.jar io.wcm.caconfig.editor-1.8.0-sources.jar io.wcm.caconfig.editor.package-1.8.0.zip"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/io.wcm.caconfig.editor-1.8.0.jar bundle/target/io.wcm.caconfig.editor-1.8.0.jar
+# diffoscope target/reference/io.wcm.caconfig.editor-1.8.0-sources.jar bundle/target/io.wcm.caconfig.editor-1.8.0-sources.jar
+# diffoscope target/reference/io.wcm.caconfig.editor.package-1.8.0.zip package/target/io.wcm.caconfig.editor.package-1.8.0.zip

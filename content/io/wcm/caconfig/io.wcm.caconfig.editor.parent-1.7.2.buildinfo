@@ -13,30 +13,41 @@ source.scm.tag=HEAD
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+mvn.aggregate.artifact-id=io.wcm.caconfig.editor.parent
 
 # aggregated output
 
 outputs.0.coordinates=io.wcm:io.wcm.caconfig.editor
 
-outputs.0.0.filename=io.wcm.caconfig.editor-1.7.2.jar
-outputs.0.0.length=160298
-outputs.0.0.checksums.sha512=42583d1c073eb4013c14bdb9b6d9d04f582873797a8df15ff16deb50864abe78b2644d96329de9b88d94e9619fd25303c8e930a8efbfcd581e1b61bdd26e8957
+outputs.0.0.filename=io.wcm.caconfig.editor-1.7.2.pom
+outputs.0.0.length=8339
+outputs.0.0.checksums.sha512=37707f7a4205d28cf05be7b97870363e1be19aeb6c84913d4e4b6890c42160cb448fc1dbaca6a353af47b07fb7387e54059f0e5258b369887bd98b21e8db9924
 
-outputs.0.1.filename=io.wcm.caconfig.editor-1.7.2-sources.jar
-outputs.0.1.length=148747
-outputs.0.1.checksums.sha512=ac77e968207a892a75ca285a10a49b4c58234f148ce6a2ca2e045f752517fa147acebaf5be5b94f823124feba359191074b89be11b313066d8fdecc4a6d6c052
+outputs.0.1.filename=io.wcm.caconfig.editor-1.7.2.jar
+outputs.0.1.length=160298
+outputs.0.1.checksums.sha512=42583d1c073eb4013c14bdb9b6d9d04f582873797a8df15ff16deb50864abe78b2644d96329de9b88d94e9619fd25303c8e930a8efbfcd581e1b61bdd26e8957
+
+outputs.0.2.filename=io.wcm.caconfig.editor-1.7.2-sources.jar
+outputs.0.2.length=148747
+outputs.0.2.checksums.sha512=ac77e968207a892a75ca285a10a49b4c58234f148ce6a2ca2e045f752517fa147acebaf5be5b94f823124feba359191074b89be11b313066d8fdecc4a6d6c052
 
 outputs.1.coordinates=io.wcm:io.wcm.caconfig.editor.package
 
-outputs.1.0.filename=io.wcm.caconfig.editor.package-1.7.2.zip
-outputs.1.0.length=488008
-outputs.1.0.checksums.sha512=3bcc6468eeb7f3f3e31510d640be5501e0227cd7613a112200a1b73d359818780c9263e3c7b0f528225e957bc6ce38f8fdc96135e6bebef6e134207e60e5ae38
+outputs.1.0.filename=io.wcm.caconfig.editor.package-1.7.2.pom
+outputs.1.0.length=4883
+outputs.1.0.checksums.sha512=f7280e8ae121afd1665f5ba8a0d3c42d0bbbca67ce369a66268ef0e53e1ed7a2d5db501a3c72d2e2ff68e0ba0ded387443846043d00b7bcd68fa949702763815
+
+outputs.1.1.filename=io.wcm.caconfig.editor.package-1.7.2.zip
+outputs.1.1.length=488008
+outputs.1.1.checksums.sha512=3bcc6468eeb7f3f3e31510d640be5501e0227cd7613a112200a1b73d359818780c9263e3c7b0f528225e957bc6ce38f8fdc96135e6bebef6e134207e60e5ae38
 
 outputs.2.coordinates=io.wcm:io.wcm.caconfig.editor.parent
+
+outputs.2.0.filename=io.wcm.caconfig.editor.parent-1.7.2.pom
+outputs.2.0.length=2650
+outputs.2.0.checksums.sha512=c4b8efd03384ec0d259b7aaecc2f6881e88a1a7f8eaaf847eb4991461cad8964ee092b4c3342765ee7f74d094b3180e183ac7f6b65d9152eb06dc94feaf6a7fc

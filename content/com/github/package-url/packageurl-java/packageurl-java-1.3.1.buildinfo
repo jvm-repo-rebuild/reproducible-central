@@ -21,10 +21,14 @@ os.name=Unix
 
 # output
 
-outputs.0.filename=packageurl-java-1.3.1.jar
-outputs.0.length=15446
-outputs.0.checksums.sha512=2f697c196227342e47f09a4026d866e1f3e5f789d8e172b4a6959eeb728062d2b03a07cefbe943b718d8eef9b41962f0b9fbcd6b33b21086c60d8f0ff04d6166
+outputs.0.filename=packageurl-java-1.3.1.pom
+outputs.0.length=11728
+outputs.0.checksums.sha512=dac10a8fb2e4421ad19e0d0e2956bf08a81cce67cd5c817b29c8f1f1ad12818fc53a8c7b8e265d1db2ddfa1fc506833b4acc2990921e7500564ddab2681e66d7
 
-outputs.1.filename=packageurl-java-1.3.1-sources.jar
-outputs.1.length=16126
-outputs.1.checksums.sha512=d0f8bff0711ae2452bcf50b03364d14cf3959bd9e555cec85ec910fc775627f5748520b31fe113129168a348392a37cb8e11eee621e1d958635d4c442918fe49
+outputs.1.filename=packageurl-java-1.3.1.jar
+outputs.1.length=15446
+outputs.1.checksums.sha512=2f697c196227342e47f09a4026d866e1f3e5f789d8e172b4a6959eeb728062d2b03a07cefbe943b718d8eef9b41962f0b9fbcd6b33b21086c60d8f0ff04d6166
+
+outputs.2.filename=packageurl-java-1.3.1-sources.jar
+outputs.2.length=16126
+outputs.2.checksums.sha512=d0f8bff0711ae2452bcf50b03364d14cf3959bd9e555cec85ec910fc775627f5748520b31fe113129168a348392a37cb8e11eee621e1d958635d4c442918fe49

@@ -1,5 +1,9 @@
 version=0.7.6
-ok=0
+ok=1
 ko=2
-okFiles=""
+okFiles="ldapchai-0.7.6.pom"
 koFiles="ldapchai-0.7.6.jar ldapchai-0.7.6-sources.jar"
+reference_java_version="14 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/ldapchai-0.7.6.jar target/ldapchai-0.7.6.jar
+# diffoscope target/reference/ldapchai-0.7.6-sources.jar target/ldapchai-0.7.6-sources.jar

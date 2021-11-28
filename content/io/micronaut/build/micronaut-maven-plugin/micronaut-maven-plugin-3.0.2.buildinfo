@@ -22,10 +22,14 @@ mvn.minimum.version=3.3.9
 
 # output
 
-outputs.0.filename=micronaut-maven-plugin-3.0.2.jar
-outputs.0.length=80515
-outputs.0.checksums.sha512=7e7eb955612d52056024ebaa4f139007821303ffd610cd0a8ba4fd298c854fb6261d95edaa0edf7fd2ac26d00b8eb8d2894cf11459796ab2d3bd646cb83e4fb1
+outputs.0.filename=micronaut-maven-plugin-3.0.2.pom
+outputs.0.length=21770
+outputs.0.checksums.sha512=c89b6cf21ed88c034a581533866e2f87228e5b75d5d021ec84440617491237c1ddaaa8a035b9ee4fa8fc2dba505218cbb32bd92e0871a91e17a97ab651ba3223
 
-outputs.1.filename=micronaut-maven-plugin-3.0.2-sources.jar
-outputs.1.length=40133
-outputs.1.checksums.sha512=a31ef9af741dfdaa19dc3a890d17d51b1b2f8f5519a3ff083a716f61a6989b555afa713407589d842871319b5bb748ae6f420e65466ca29368d265056a050cd8
+outputs.1.filename=micronaut-maven-plugin-3.0.2.jar
+outputs.1.length=80515
+outputs.1.checksums.sha512=7e7eb955612d52056024ebaa4f139007821303ffd610cd0a8ba4fd298c854fb6261d95edaa0edf7fd2ac26d00b8eb8d2894cf11459796ab2d3bd646cb83e4fb1
+
+outputs.2.filename=micronaut-maven-plugin-3.0.2-sources.jar
+outputs.2.length=40133
+outputs.2.checksums.sha512=a31ef9af741dfdaa19dc3a890d17d51b1b2f8f5519a3ff083a716f61a6989b555afa713407589d842871319b5bb748ae6f420e65466ca29368d265056a050cd8

@@ -1,5 +1,7 @@
 version=1.1.1
-ok=2
+ok=3
 ko=0
-okFiles="micronaut-maven-plugin-1.1.1.jar micronaut-maven-plugin-1.1.1-sources.jar"
+okFiles="micronaut-maven-plugin-1.1.1.pom micronaut-maven-plugin-1.1.1.jar micronaut-maven-plugin-1.1.1-sources.jar"
 koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
