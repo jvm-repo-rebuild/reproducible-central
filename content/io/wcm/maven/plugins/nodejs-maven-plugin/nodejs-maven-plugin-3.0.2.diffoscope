@@ -1,0 +1,42 @@
+target/reference/nodejs-maven-plugin-3.0.2-sources.jar target/nodejs-maven-plugin-3.0.2-sources.jar
+--- target/reference/nodejs-maven-plugin-3.0.2-sources.jar
++++ target/nodejs-maven-plugin-3.0.2-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 23181 bytes, number of entries: 28
+│ +Zip file size: 23186 bytes, number of entries: 28
+│  -rw-r--r--  2.0 unx       64 b- defN 21-Nov-29 17:36 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-29 17:36 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-29 17:36 io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-29 17:36 io/wcm/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-29 17:36 io/wcm/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-29 17:36 io/wcm/maven/plugins/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-29 17:36 io/wcm/maven/plugins/nodejs/
+│ @@ -19,12 +19,12 @@
+│  -rw-r--r--  2.0 unx     9221 b- defN 21-Nov-29 17:36 io/wcm/maven/plugins/nodejs/mojo/AbstractNodeJsMojo.java
+│  -rw-r--r--  2.0 unx     1123 b- defN 21-Nov-29 17:36 io/wcm/maven/plugins/nodejs/mojo/NodeJsCompilerMojo.java
+│  -rw-r--r--  2.0 unx     1236 b- defN 21-Nov-29 17:36 io/wcm/maven/plugins/nodejs/mojo/NodeJsPluginException.java
+│  -rw-r--r--  2.0 unx     3327 b- defN 21-Nov-29 17:36 io/wcm/maven/plugins/nodejs/mojo/NodeJsTask.java
+│  -rw-r--r--  2.0 unx     2307 b- defN 21-Nov-29 17:36 io/wcm/maven/plugins/nodejs/mojo/NodejsOutputStreamHandler.java
+│  -rw-r--r--  2.0 unx     2046 b- defN 21-Nov-29 17:36 io/wcm/maven/plugins/nodejs/mojo/NpmInstallTask.java
+│  -rw-r--r--  2.0 unx     4650 b- defN 21-Nov-29 17:36 io/wcm/maven/plugins/nodejs/mojo/Task.java
+│ --rw-r--r--  2.0 unx    15250 b- defN 21-Nov-29 17:36 io/wcm/maven/plugins/nodejs/mojo/HelpMojo.java
+│ +-rw-r--r--  2.0 unx    15251 b- defN 21-Nov-29 17:36 io/wcm/maven/plugins/nodejs/mojo/HelpMojo.java
+│  -rw-r--r--  2.0 unx     1024 b- defN 21-Nov-29 17:36 META-INF/m2e/lifecycle-mapping-metadata.xml
+│  -rw-r--r--  2.0 unx     6023 b- defN 21-Nov-29 17:36 META-INF/maven/io.wcm.maven.plugins/nodejs-maven-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       77 b- defN 21-Nov-29 17:36 META-INF/maven/io.wcm.maven.plugins/nodejs-maven-plugin/pom.properties
+│ -28 files, 60290 bytes uncompressed, 18737 bytes compressed:  68.9%
+│ +28 files, 60291 bytes uncompressed, 18742 bytes compressed:  68.9%
+├── io/wcm/maven/plugins/nodejs/mojo/HelpMojo.java
+│ @@ -1,9 +1,9 @@
+│ +package io.wcm.maven.plugins.nodejs.mojo;
+│  
+│ -package io.wcm.maven.plugins.nodejs.mojo;
+│  
+│  import org.apache.maven.plugin.AbstractMojo;
+│  import org.apache.maven.plugin.MojoExecutionException;
+│  import org.apache.maven.plugins.annotations.Mojo;
+│  import org.apache.maven.plugins.annotations.Parameter;
+│  
+│  import org.w3c.dom.Document;
+

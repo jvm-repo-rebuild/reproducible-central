@@ -1,0 +1,35 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Node.js Maven Plugin
+group-id=io.wcm.maven.plugins
+artifact-id=nodejs-maven-plugin
+version=3.0.2
+
+# source information
+source.scm.uri=scm:git:https://github.com/wcm-io/wcm-io-tooling.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.5
+
+# output
+
+outputs.0.filename=nodejs-maven-plugin-3.0.2.pom
+outputs.0.length=6023
+outputs.0.checksums.sha512=fb0cb27399cdbf4ef1c5047f4f49edb3f5c4af7703d5591d7edd6741ca006e5fe28eddc5f009a66cdd851db65aa0a5e7570f37bfd866faa9c7c069fab4f4df0c
+
+outputs.1.filename=nodejs-maven-plugin-3.0.2.jar
+outputs.1.length=32809
+outputs.1.checksums.sha512=e1e055a278288d0eea6a15aa2c3e3cb12c1edfd211ac12380190868ad1c61ba954608d9615b091be1981c56cd4380850f718ca7f49ccb127c522e49f4ea0dee5
+
+outputs.2.filename=nodejs-maven-plugin-3.0.2-sources.jar
+outputs.2.length=23186
+outputs.2.checksums.sha512=418e24bca051692b5959a059ee7d6835e1aa133798b02653898aabc877cea7367bbf61f3112126de33a791bef0f0c13424f1edbdebe40b44ed83277dea85fa1a
