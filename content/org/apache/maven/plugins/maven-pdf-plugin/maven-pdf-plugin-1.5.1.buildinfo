@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven PDF Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-pdf-plugin
+version=1.5.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-pdf-plugin.git
+source.scm.tag=maven-pdf-plugin-1.5.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.1.1
+
+# output
+
+outputs.0.filename=maven-pdf-plugin-1.5.1.pom
+outputs.0.length=14164
+outputs.0.checksums.sha512=704e08f621883cf7bc0ef046084416aa86137bba8db9ffae82dfab569890bac27eb30ac2eb1f700bca695d94f7a559833ecb91af82880a704ba328982e2c5d1a
+
+outputs.1.filename=maven-pdf-plugin-1.5.1.jar
+outputs.1.length=61576
+outputs.1.checksums.sha512=130e78a6906eb667a7bea4b0c8a07372da864d7493f268d9174ea0883d5e7d4d2b97abb75e6789145502957746f6e2fe4d120a23ad2326de2fb4881de64067fb
+
+outputs.2.filename=maven-pdf-plugin-1.5.1-source-release.zip
+outputs.2.length=142827
+outputs.2.checksums.sha512=4bff4ad98bd00305b850f9eae002b5b0af09e1d7d76dd29089e2f3925d116858353eddfc6fb8f6d72f2421f368969d85eef447e2f63cb03cf08001e9a3a5b973
+
+outputs.3.filename=maven-pdf-plugin-1.5.1-sources.jar
+outputs.3.length=43471
+outputs.3.checksums.sha512=df13c915e16f65246ea1d551349a9646dc0a857c4aa7e1a5188058a3f559cd34461553339dd7fa36c5b73829db9546942c61df5007af9179ad1f102771a976a6
