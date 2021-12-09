@@ -1,0 +1,17 @@
+groupId=io.dropwizard.metrics5
+artifactId=metrics-parent
+display=${groupId}:metrics
+version=5.0.0
+
+gitRepo=https://github.com/dropwizard/metrics.git
+gitTag=v${version}-rc8
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn -Prelease-sign-artifacts clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}-rc8.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=https://issues.apache.org/jira/browse/FELIX-6404
