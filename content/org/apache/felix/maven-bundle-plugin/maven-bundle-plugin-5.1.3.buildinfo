@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven Bundle Plugin
+group-id=org.apache.felix
+artifact-id=maven-bundle-plugin
+version=5.1.3
+
+# source information
+source.scm.uri=scm:git:https://github.com/apache/felix-dev.git
+source.scm.tag=maven-bundle-plugin-5.1.3
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=maven-bundle-plugin-5.1.3.pom
+outputs.0.length=10643
+outputs.0.checksums.sha512=d90c44874122de501eb20eba28b82b58dd90b35ff306dc3c562a69ee0c6d9ba64fed4b105c869568653f778ca5b5553bab6e67207ddd1d19344ea3dd7a8ab4bb
+
+outputs.1.filename=maven-bundle-plugin-5.1.3.jar
+outputs.1.length=210569
+outputs.1.checksums.sha512=6481a43a0009de4e104778d3ea817b9a782c62d5857b429989ccee211a4f2df221cbc20f1e4df5525d7aedf9d3e97df7d579eba6a847071f43dc9f433f6f1ee4
+
+outputs.2.filename=maven-bundle-plugin-5.1.3-source-release.zip
+outputs.2.length=1420204
+outputs.2.checksums.sha512=1fe60c07fc87cf7a15ec536bbae2bdb65abf300ac0d1232c636ea0658db58654f75e5c545bf7f33dac51edef09b44508b71030dc5a685f5c7f825018762e500f
+
+outputs.3.filename=maven-bundle-plugin-5.1.3-source-release.tar.gz
+outputs.3.length=1338376
+outputs.3.checksums.sha512=826b75aefb430433fe0709c252477931c36b996fa24424ef20504ed5780f16b1a01b7de948ff38b5063085b9eb6e2323cd4f022868fec5b43b4bad11328dbc86
+
+outputs.4.filename=maven-bundle-plugin-5.1.3-sources.jar
+outputs.4.length=139289
+outputs.4.checksums.sha512=3b5282859ba3e830eddd4805289b40aeb8d774cb6c1ac7297d56c870a3c65a2f7cdef6448bc54b9a390c8abe94eb6ebec39080d33361bc0fdf808cea43ed536f
