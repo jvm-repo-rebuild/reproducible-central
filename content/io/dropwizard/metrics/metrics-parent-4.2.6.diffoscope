@@ -1,0 +1,176 @@
+target/reference/metrics-parent-4.2.6.pom pom.xml
+--- target/reference/metrics-parent-4.2.6.pom
++++ pom.xml
+@@ -290,954 +290,953 @@
+ 00001210: 7452 6570 6f73 6974 6f72 793e 0a20 2020  tRepository>.   
+ 00001220: 2020 2020 2020 2020 203c 6964 3e6f 7373           <id>oss
+ 00001230: 7268 3c2f 6964 3e0a 2020 2020 2020 2020  rh</id>.        
+ 00001240: 2020 2020 3c6e 616d 653e 536f 6e61 7479      <name>Sonaty
+ 00001250: 7065 204e 6578 7573 2053 6e61 7073 686f  pe Nexus Snapsho
+ 00001260: 7473 3c2f 6e61 6d65 3e0a 2020 2020 2020  ts</name>.      
+ 00001270: 2020 2020 2020 3c75 726c 3e68 7474 7073        <url>https
+-00001280: 3a2f 2f73 3031 2e6f 7373 2e73 6f6e 6174  ://s01.oss.sonat
+-00001290: 7970 652e 6f72 672f 636f 6e74 656e 742f  ype.org/content/
+-000012a0: 7265 706f 7369 746f 7269 6573 2f73 6e61  repositories/sna
+-000012b0: 7073 686f 7473 3c2f 7572 6c3e 0a20 2020  pshots</url>.   
+-000012c0: 2020 2020 203c 2f73 6e61 7073 686f 7452       </snapshotR
+-000012d0: 6570 6f73 6974 6f72 793e 0a20 2020 2020  epository>.     
+...
+-000015b0: 2020 2020 2020 2020 2020 2020 2020 3c66                <f
+-000015c0: 6f72 6b3e 7472 7565 3c2f 666f 726b 3e0a  ork>true</fork>.
++00001280: 3a2f 2f6f 7373 2e73 6f6e 6174 7970 652e  ://oss.sonatype.
++00001290: 6f72 672f 636f 6e74 656e 742f 7265 706f  org/content/repo
++000012a0: 7369 746f 7269 6573 2f73 6e61 7073 686f  sitories/snapsho
++000012b0: 7473 3c2f 7572 6c3e 0a20 2020 2020 2020  ts</url>.       
++000012c0: 203c 2f73 6e61 7073 686f 7452 6570 6f73   </snapshotRepos
++000012d0: 6974 6f72 793e 0a20 2020 2020 2020 203c  itory>.        <
++000015b0: 2020 2020 2020 3c66 6f72 6b3e 7472 7565        <fork>true
++000015c0: 3c2f 666f 726b 3e0a 2020 2020 2020 2020  </fork>.        
+ 000015d0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+...
+
+target/reference/metrics-healthchecks-4.2.6.jar metrics-healthchecks/target/metrics-healthchecks-4.2.6.jar
+--- target/reference/metrics-healthchecks-4.2.6.jar
++++ metrics-healthchecks/target/metrics-healthchecks-4.2.6.jar
+├── zipinfo -v {}
+│ @@ -61,15 +61,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│    file last modified on (DOS date/time):          1980 Feb 1 00:00:00
+│ -  32-bit CRC value (hex):                         c5cdb058
+│ +  32-bit CRC value (hex):                         e6097a68
+│    compressed size:                                568 bytes
+│    uncompressed size:                              1326 bytes
+│    length of filename:                             20 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/MANIFEST.MF
+│ @@ -7,21 +7,21 @@
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+
+│  Bundle-ManifestVersion: 2
+
+│  Bundle-Name: Metrics Health Checks
+
+│  Bundle-SymbolicName: io.dropwizard.metrics.healthchecks
+
+│  Bundle-Version: 4.2.6
+
+│  Created-By: Apache Maven Bundle Plugin
+
+│  Export-Package: com.codahale.metrics.health;uses:="com.codahale.metric
+
+│ - s";version="4.2.6",com.codahale.metrics.health.jvm;uses:="com.codahal
+
+│ - e.metrics.health,com.codahale.metrics.jvm";version="4.2.6",com.codaha
+
+│ - le.metrics.health.annotation;version="4.2.6"
+
+│ + s";version="4.2.6",com.codahale.metrics.health.annotation;version="4.
+
+│ + 2.6",com.codahale.metrics.health.jvm;uses:="com.codahale.metrics.heal
+
+│ + th,com.codahale.metrics.jvm";version="4.2.6"
+
+│  Implementation-Title: Metrics Health Checks
+
+│  Implementation-Version: 4.2.6
+
+│  Import-Package: org.slf4j;version="[1.6.0,2.0.0)",com.codahale.metrics
+
+│   ;version="[4.2,5)",com.codahale.metrics.health,com.codahale.metrics.h
+
+│   ealth.annotation,com.codahale.metrics.jvm;version="[4.2,5)";resolutio
+
+│   n:=optional
+
+│  Private-Package: com.codahale.metrics.health,com.codahale.metrics.heal
+
+│ - th.jvm,com.codahale.metrics.health.annotation
+
+│ + th.annotation,com.codahale.metrics.health.jvm
+
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+│  Tool: Bnd-5.1.1.202006162103
+
+target/reference/metrics-jdbi-4.2.6.jar metrics-jdbi/target/metrics-jdbi-4.2.6.jar
+--- target/reference/metrics-jdbi-4.2.6.jar
++++ metrics-jdbi/target/metrics-jdbi-4.2.6.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 19516 bytes, number of entries: 31
+│ +Zip file size: 19513 bytes, number of entries: 31
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     1060 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jdbi/
+│  -rw----     2.0 fat       68 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jdbi/pom.properties
+│  -rw----     2.0 fat     2447 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jdbi/pom.xml
+│ @@ -26,8 +26,8 @@
+│  -rw----     2.0 fat     2268 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi/strategies/NameStrategies.class
+│  -rw----     2.0 fat      273 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi/strategies/ShortNameStrategy$1.class
+│  -rw----     2.0 fat     2561 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi/strategies/ShortNameStrategy$ShortContextClassStrategy.class
+│  -rw----     2.0 fat     2715 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi/strategies/ShortNameStrategy$ShortSqlObjectStrategy.class
+│  -rw----     2.0 fat     1947 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi/strategies/ShortNameStrategy.class
+│  -rw----     2.0 fat      841 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi/strategies/SmartNameStrategy.class
+│  -rw----     2.0 fat      246 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi/strategies/StatementNameStrategy.class
+│ -31 files, 30737 bytes uncompressed, 13320 bytes compressed:  56.7%
+│ +31 files, 30737 bytes uncompressed, 13317 bytes compressed:  56.7%
+├── META-INF/MANIFEST.MF
+│ @@ -5,20 +5,20 @@
+│   f query durations and rates.
+
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+
+│  Bundle-ManifestVersion: 2
+
+│  Bundle-Name: Metrics Integration for JDBI
+
+│  Bundle-SymbolicName: io.dropwizard.metrics.jdbi
+
+│  Bundle-Version: 4.2.6
+
+│  Created-By: Apache Maven Bundle Plugin
+
+│ -Export-Package: com.codahale.metrics.jdbi.strategies;uses:="org.skife.
+
+│ - jdbi.v2";version="4.2.6",com.codahale.metrics.jdbi;uses:="com.codahal
+
+│ - e.metrics,com.codahale.metrics.jdbi.strategies,org.skife.jdbi.v2";ver
+
+│ +Export-Package: com.codahale.metrics.jdbi;uses:="com.codahale.metrics,
+
+│ + com.codahale.metrics.jdbi.strategies,org.skife.jdbi.v2";version="4.2.
+
+│ + 6",com.codahale.metrics.jdbi.strategies;uses:="org.skife.jdbi.v2";ver
+
+│   sion="4.2.6"
+
+│  Implementation-Title: Metrics Integration for JDBI
+
+│  Implementation-Version: 4.2.6
+
+│  Import-Package: com.codahale.metrics;version="[4.2,5)",com.codahale.me
+
+│   trics.jdbi.strategies,org.skife.jdbi.v2
+
+│ -Private-Package: com.codahale.metrics.jdbi.strategies,com.codahale.met
+
+│ - rics.jdbi
+
+│ +Private-Package: com.codahale.metrics.jdbi,com.codahale.metrics.jdbi.s
+
+│ + trategies
+
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+│  Tool: Bnd-5.1.1.202006162103
+
