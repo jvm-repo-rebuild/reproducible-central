@@ -1,0 +1,7 @@
+version=1.5.1
+ok=4
+ko=0
+okFiles="extra-enforcer-rules-1.5.1.pom extra-enforcer-rules-1.5.1.jar extra-enforcer-rules-1.5.1-source-release.zip extra-enforcer-rules-1.5.1-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
