@@ -1,0 +1,519 @@
+target/reference/karaf-4.2.13-source-release.zip target/karaf-4.2.13-source-release.zip
+--- target/reference/karaf-4.2.13-source-release.zip
++++ target/karaf-4.2.13-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 6830819 bytes, number of entries: 5373
+│ +Zip file size: 6833703 bytes, number of entries: 5388
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/archetypes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/archetypes/assembly/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/archetypes/assembly/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/archetypes/assembly/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/archetypes/assembly/src/main/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/archetypes/assembly/src/main/resources/META-INF/
+│ @@ -130,14 +130,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/assemblies/features/framework/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/assemblies/features/framework/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/assemblies/features/framework/src/main/feature/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/assemblies/features/framework/src/main/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/assemblies/features/framework/src/main/resources/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/assemblies/features/framework/src/main/resources/resources/deploy/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/assemblies/features/framework/src/main/resources/resources/etc/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/assemblies/features/specs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/assemblies/features/spring/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/assemblies/features/spring/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/assemblies/features/spring/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/assemblies/features/spring/src/main/feature/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/assemblies/features/spring-legacy/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/assemblies/features/spring-legacy/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/assemblies/features/spring-legacy/src/main/
+│ @@ -554,14 +555,19 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-camel-example/karaf-camel-example-java/src/main/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-camel-example/karaf-camel-example-java/src/main/java/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-camel-example/karaf-camel-example-java/src/main/java/org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-camel-example/karaf-camel-example-java/src/main/java/org/apache/karaf/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-camel-example/karaf-camel-example-java/src/main/java/org/apache/karaf/examples/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-camel-example/karaf-camel-example-java/src/main/java/org/apache/karaf/examples/camel/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-camel-example/karaf-camel-example-java/src/main/java/org/apache/karaf/examples/camel/java/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-cdi-example/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-cdi-example/karaf-cdi-example-api/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-cdi-example/karaf-cdi-example-consumer/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-cdi-example/karaf-cdi-example-features/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-cdi-example/karaf-cdi-example-provider/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-command-example/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-command-example/karaf-command-example-api/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-command-example/karaf-command-example-api/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-command-example/karaf-command-example-api/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-command-example/karaf-command-example-api/src/main/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-command-example/karaf-command-example-api/src/main/java/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-command-example/karaf-command-example-api/src/main/java/org/apache/
+│ @@ -1033,14 +1039,19 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-profile-example/karaf-profile-example-registry/src/main/resources/loanbroker/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-profile-example/karaf-profile-example-registry/src/main/resources/loanbroker/bank1.profile/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-profile-example/karaf-profile-example-registry/src/main/resources/loanbroker/bank2.profile/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-profile-example/karaf-profile-example-registry/src/main/resources/loanbroker/bank3.profile/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-profile-example/karaf-profile-example-registry/src/main/resources/loanbroker/base.profile/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-profile-example/karaf-profile-example-registry/src/main/resources/loanbroker/broker.profile/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-profile-example/karaf-profile-example-static/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-redis-example/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-redis-example/karaf-redis-example-api/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-redis-example/karaf-redis-example-command/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-redis-example/karaf-redis-example-features/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-redis-example/karaf-redis-example-service/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-rest-example/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-api/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-api/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-api/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-api/src/main/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-api/src/main/java/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-api/src/main/java/org/apache/
+│ @@ -1080,14 +1091,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-client/karaf-rest-example-client-http/src/main/java/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-client/karaf-rest-example-client-http/src/main/java/org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-client/karaf-rest-example-client-http/src/main/java/org/apache/karaf/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-client/karaf-rest-example-client-http/src/main/java/org/apache/karaf/examples/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-client/karaf-rest-example-client-http/src/main/java/org/apache/karaf/examples/rest/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-client/karaf-rest-example-client-http/src/main/java/org/apache/karaf/examples/rest/client/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-client/karaf-rest-example-client-http/src/main/java/org/apache/karaf/examples/rest/client/http/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-client/karaf-rest-example-client-jersey/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-features/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-features/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-features/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-features/src/main/feature/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-scr/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-scr/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-scr/src/main/
+│ @@ -2080,14 +2092,17 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/services/eventadmin/src/main/java/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/services/eventadmin/src/main/java/org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/services/eventadmin/src/main/java/org/apache/felix/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/services/eventadmin/src/main/java/org/apache/felix/eventadmin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/services/eventadmin/src/main/java/org/apache/felix/eventadmin/impl/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/services/eventadmin/src/main/java/org/apache/felix/eventadmin/impl/adapter/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/services/eventadmin/src/main/java/org/apache/felix/eventadmin/impl/handler/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/services/interceptor/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/services/interceptor/api/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/services/interceptor/impl/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/services/staticcm/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/services/staticcm/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/services/staticcm/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/services/staticcm/src/main/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/services/staticcm/src/main/java/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/services/staticcm/src/main/java/org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 karaf-4.2.13/services/staticcm/src/main/java/org/apache/karaf/
+│ @@ -5368,8 +5383,8 @@
+│  -rw-r--r--  2.0 unx    81920 b- defN 80-000-00 04:08 karaf-4.2.13/wrapper/src/main/resources/org/apache/karaf/wrapper/internal/windows/wrapper.dll
+│  -rw-r--r--  2.0 unx     1817 b- defN 80-000-00 04:08 karaf-4.2.13/wrapper/src/main/resources/org/apache/karaf/wrapper/internal/windows64/karaf-service.bat
+│  -rw-r--r--  2.0 unx     6865 b- defN 80-000-00 04:08 karaf-4.2.13/wrapper/src/main/resources/org/apache/karaf/wrapper/internal/windows64/karaf-wrapper-java11.conf
+│  -rw-r--r--  2.0 unx     5890 b- defN 80-000-00 04:08 karaf-4.2.13/wrapper/src/main/resources/org/apache/karaf/wrapper/internal/windows64/karaf-wrapper-java8.conf
+│  -rw-r--r--  2.0 unx   220672 b- defN 80-000-00 04:08 karaf-4.2.13/wrapper/src/main/resources/org/apache/karaf/wrapper/internal/windows64/karaf-wrapper.exe
+│  -rw-r--r--  2.0 unx    76800 b- defN 80-000-00 04:08 karaf-4.2.13/wrapper/src/main/resources/org/apache/karaf/wrapper/internal/windows64/wrapper.dll
+│  -rw-r--r--  2.0 unx      262 b- defN 80-000-00 04:08 karaf-4.2.13/DEPENDENCIES
+│ -5373 files, 15201939 bytes uncompressed, 5553477 bytes compressed:  63.5%
+│ +5388 files, 15201939 bytes uncompressed, 5553477 bytes compressed:  63.5%
+├── zipnote {}
+│ @@ -399,14 +399,17 @@
+│  
+│  Filename: karaf-4.2.13/assemblies/features/framework/src/main/resources/resources/deploy/
+│  Comment: 
+│  
+│  Filename: karaf-4.2.13/assemblies/features/framework/src/main/resources/resources/etc/
+│  Comment: 
+│  
+│ +Filename: karaf-4.2.13/assemblies/features/specs/
+│ +Comment: 
+│ +
+│  Filename: karaf-4.2.13/assemblies/features/spring/
+│  Comment: 
+│  
+│  Filename: karaf-4.2.13/assemblies/features/spring/src/
+│  Comment: 
+│  
+│  Filename: karaf-4.2.13/assemblies/features/spring/src/main/
+│ @@ -1671,14 +1674,29 @@
+│  
+│  Filename: karaf-4.2.13/examples/karaf-camel-example/karaf-camel-example-java/src/main/java/org/apache/karaf/examples/camel/
+│  Comment: 
+│  
+│  Filename: karaf-4.2.13/examples/karaf-camel-example/karaf-camel-example-java/src/main/java/org/apache/karaf/examples/camel/java/
+│  Comment: 
+│  
+│ +Filename: karaf-4.2.13/examples/karaf-cdi-example/
+│ +Comment: 
+│ +
+│ +Filename: karaf-4.2.13/examples/karaf-cdi-example/karaf-cdi-example-api/
+│ +Comment: 
+│ +
+│ +Filename: karaf-4.2.13/examples/karaf-cdi-example/karaf-cdi-example-consumer/
+│ +Comment: 
+│ +
+│ +Filename: karaf-4.2.13/examples/karaf-cdi-example/karaf-cdi-example-features/
+│ +Comment: 
+│ +
+│ +Filename: karaf-4.2.13/examples/karaf-cdi-example/karaf-cdi-example-provider/
+│ +Comment: 
+│ +
+│  Filename: karaf-4.2.13/examples/karaf-command-example/
+│  Comment: 
+│  
+│  Filename: karaf-4.2.13/examples/karaf-command-example/karaf-command-example-api/
+│  Comment: 
+│  
+│  Filename: karaf-4.2.13/examples/karaf-command-example/karaf-command-example-api/src/
+│ @@ -3108,14 +3126,29 @@
+│  
+│  Filename: karaf-4.2.13/examples/karaf-profile-example/karaf-profile-example-registry/src/main/resources/loanbroker/broker.profile/
+│  Comment: 
+│  
+│  Filename: karaf-4.2.13/examples/karaf-profile-example/karaf-profile-example-static/
+│  Comment: 
+│  
+│ +Filename: karaf-4.2.13/examples/karaf-redis-example/
+│ +Comment: 
+│ +
+│ +Filename: karaf-4.2.13/examples/karaf-redis-example/karaf-redis-example-api/
+│ +Comment: 
+│ +
+│ +Filename: karaf-4.2.13/examples/karaf-redis-example/karaf-redis-example-command/
+│ +Comment: 
+│ +
+│ +Filename: karaf-4.2.13/examples/karaf-redis-example/karaf-redis-example-features/
+│ +Comment: 
+│ +
+│ +Filename: karaf-4.2.13/examples/karaf-redis-example/karaf-redis-example-service/
+│ +Comment: 
+│ +
+│  Filename: karaf-4.2.13/examples/karaf-rest-example/
+│  Comment: 
+│  
+│  Filename: karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-api/
+│  Comment: 
+│  
+│  Filename: karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-api/src/
+│ @@ -3249,14 +3282,17 @@
+│  
+│  Filename: karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-client/karaf-rest-example-client-http/src/main/java/org/apache/karaf/examples/rest/client/
+│  Comment: 
+│  
+│  Filename: karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-client/karaf-rest-example-client-http/src/main/java/org/apache/karaf/examples/rest/client/http/
+│  Comment: 
+│  
+│ +Filename: karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-client/karaf-rest-example-client-jersey/
+│ +Comment: 
+│ +
+│  Filename: karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-features/
+│  Comment: 
+│  
+│  Filename: karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-features/src/
+│  Comment: 
+│  
+│  Filename: karaf-4.2.13/examples/karaf-rest-example/karaf-rest-example-features/src/main/
+│ @@ -6249,14 +6285,23 @@
+│  
+│  Filename: karaf-4.2.13/services/eventadmin/src/main/java/org/apache/felix/eventadmin/impl/adapter/
+│  Comment: 
+│  
+│  Filename: karaf-4.2.13/services/eventadmin/src/main/java/org/apache/felix/eventadmin/impl/handler/
+│  Comment: 
+│  
+│ +Filename: karaf-4.2.13/services/interceptor/
+│ +Comment: 
+│ +
+│ +Filename: karaf-4.2.13/services/interceptor/api/
+│ +Comment: 
+│ +
+│ +Filename: karaf-4.2.13/services/interceptor/impl/
+│ +Comment: 
+│ +
+│  Filename: karaf-4.2.13/services/staticcm/
+│  Comment: 
+│  
+│  Filename: karaf-4.2.13/services/staticcm/src/
+│  Comment: 
+│  
+│  Filename: karaf-4.2.13/services/staticcm/src/main/
+
+target/reference/org.apache.karaf.jaas.boot-4.2.13.jar jaas/boot/target/org.apache.karaf.jaas.boot-4.2.13.jar
+--- target/reference/org.apache.karaf.jaas.boot-4.2.13.jar
++++ jaas/boot/target/org.apache.karaf.jaas.boot-4.2.13.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 19696 bytes, number of entries: 27
+│ +Zip file size: 19694 bytes, number of entries: 27
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat      923 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat      278 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat      185 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf.jaas/
+│ @@ -22,8 +22,8 @@
+│  -rw----     2.0 fat      374 bl defN 80-Feb-01 00:00 org/apache/karaf/jaas/boot/principal/Group.class
+│  -rw----     2.0 fat     2586 bl defN 80-Feb-01 00:00 org/apache/karaf/jaas/boot/principal/GroupPrincipal.class
+│  -rw----     2.0 fat     1927 bl defN 80-Feb-01 00:00 org/apache/karaf/jaas/boot/principal/RolePolicy$1.class
+│  -rw----     2.0 fat     1949 bl defN 80-Feb-01 00:00 org/apache/karaf/jaas/boot/principal/RolePolicy$2.class
+│  -rw----     2.0 fat     2738 bl defN 80-Feb-01 00:00 org/apache/karaf/jaas/boot/principal/RolePolicy.class
+│  -rw----     2.0 fat     1636 bl defN 80-Feb-01 00:00 org/apache/karaf/jaas/boot/principal/RolePrincipal.class
+│  -rw----     2.0 fat     1636 bl defN 80-Feb-01 00:00 org/apache/karaf/jaas/boot/principal/UserPrincipal.class
+│ -27 files, 35517 bytes uncompressed, 15222 bytes compressed:  57.1%
+│ +27 files, 35517 bytes uncompressed, 15220 bytes compressed:  57.1%
+├── META-INF/MANIFEST.MF
+│ @@ -4,16 +4,16 @@
+│  Bundle-DocURL: http://karaf.apache.org/
+
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+
+│  Bundle-ManifestVersion: 2
+
+│  Bundle-Name: Apache Karaf :: JAAS :: Boot
+
+│  Bundle-SymbolicName: org.apache.karaf.jaas.boot
+
+│  Bundle-Vendor: The Apache Software Foundation
+
+│  Bundle-Version: 4.2.13
+
+│ -Export-Package: org.apache.karaf.jaas.boot.principal;uses:="javax.secu
+
+│ - rity.auth";version="4.2.13",org.apache.karaf.jaas.boot;uses:="javax.s
+
+│ - ecurity.auth,javax.security.auth.callback,javax.security.auth.login,j
+
+│ - avax.security.auth.spi,org.osgi.framework";version="4.2.13"
+
+│ +Export-Package: org.apache.karaf.jaas.boot;uses:="javax.security.auth,
+
+│ + javax.security.auth.callback,javax.security.auth.login,javax.security
+
+│ + .auth.spi,org.osgi.framework";version="4.2.13",org.apache.karaf.jaas.
+
+│ + boot.principal;uses:="javax.security.auth";version="4.2.13"
+
+│  Import-Package: javax.security.auth,javax.security.auth.callback,javax
+
+│   .security.auth.login,javax.security.auth.spi,org.osgi.framework;versi
+
+│   on="[1.8,2)"
+
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+target/reference/features-4.2.13.pom features/pom.xml
+--- target/reference/features-4.2.13.pom
++++ features/pom.xml
+@@ -69,49 +69,35 @@
+ 00000440: 6e64 6572 2074 6865 204c 6963 656e 7365  nder the License
+ 00000450: 2e0a 2020 2020 2d2d 3e0a 0a20 2020 203c  ..    -->..    <
+ 00000460: 6d6f 6465 6c56 6572 7369 6f6e 3e34 2e30  modelVersion>4.0
+ 00000470: 2e30 3c2f 6d6f 6465 6c56 6572 7369 6f6e  .0</modelVersion
+ 00000480: 3e0a 0a20 2020 203c 7061 7265 6e74 3e0a  >..    <parent>.
+ 00000490: 2020 2020 2020 2020 3c67 726f 7570 4964          <groupId
+ 000004a0: 3e6f 7267 2e61 7061 6368 652e 6b61 7261  >org.apache.kara
+-000004b0: 662e 6173 7365 6d62 6c69 6573 3c2f 6772  f.assemblies</gr
+-000004c0: 6f75 7049 643e 0a20 2020 2020 2020 203c  oupId>.        <
+-000004d0: 6172 7469 6661 6374 4964 3e61 7373 656d  artifactId>assem
+-000004e0: 626c 6965 733c 2f61 7274 6966 6163 7449  blies</artifactI
+-000004f0: 643e 0a20 2020 2020 2020 203c 7665 7273  d>.        <vers
+-00000500: 696f 6e3e 342e 322e 3133 3c2f 7665 7273  ion>4.2.13</vers
+-00000510: 696f 6e3e 0a20 2020 2020 2020 203c 7265  ion>.        <re
+-00000520: 6c61 7469 7665 5061 7468 3e2e 2e2f 706f  lativePath>../po
+-00000530: 6d2e 786d 6c3c 2f72 656c 6174 6976 6550  m.xml</relativeP
+-00000540: 6174 683e 0a20 2020 203c 2f70 6172 656e  ath>.    </paren
+-00000550: 743e 0a0a 2020 2020 3c67 726f 7570 4964  t>..    <groupId
+-00000560: 3e6f 7267 2e61 7061 6368 652e 6b61 7261  >org.apache.kara
+-00000570: 662e 6173 7365 6d62 6c69 6573 2e66 6561  f.assemblies.fea
+-00000580: 7475 7265 733c 2f67 726f 7570 4964 3e0a  tures</groupId>.
+-00000590: 2020 2020 3c61 7274 6966 6163 7449 643e      <artifactId>
+-000005a0: 6665 6174 7572 6573 3c2f 6172 7469 6661  features</artifa
+-000005b0: 6374 4964 3e0a 2020 2020 3c70 6163 6b61  ctId>.    <packa
+-000005c0: 6769 6e67 3e70 6f6d 3c2f 7061 636b 6167  ging>pom</packag
+-000005d0: 696e 673e 0a20 2020 203c 6e61 6d65 3e41  ing>.    <name>A
+-000005e0: 7061 6368 6520 4b61 7261 6620 3a3a 2041  pache Karaf :: A
+-000005f0: 7373 656d 626c 6965 7320 3a3a 2046 6561  ssemblies :: Fea
+-00000600: 7475 7265 733c 2f6e 616d 653e 0a0a 2020  tures</name>..  
+-00000610: 2020 3c6d 6f64 756c 6573 3e0a 2020 2020    <modules>.    
+-00000620: 2020 2020 3c6d 6f64 756c 653e 6261 7365      <module>base
+-00000630: 3c2f 6d6f 6475 6c65 3e0a 2020 2020 2020  </module>.      
+-00000640: 2020 3c6d 6f64 756c 653e 6672 616d 6577    <module>framew
+-00000650: 6f72 6b3c 2f6d 6f64 756c 653e 0a20 2020  ork</module>.   
+-00000660: 2020 2020 203c 6d6f 6475 6c65 3e73 7461       <module>sta
+-00000670: 7469 633c 2f6d 6f64 756c 653e 0a20 2020  tic</module>.   
+-00000680: 2020 2020 203c 6d6f 6475 6c65 3e73 7461       <module>sta
+-00000690: 6e64 6172 643c 2f6d 6f64 756c 653e 0a20  ndard</module>. 
+-000006a0: 2020 2020 2020 203c 6d6f 6475 6c65 3e73         <module>s
+-000006b0: 7072 696e 673c 2f6d 6f64 756c 653e 0a20  pring</module>. 
+-000006c0: 2020 2020 2020 203c 6d6f 6475 6c65 3e73         <module>s
+-000006d0: 7072 696e 672d 6c65 6761 6379 3c2f 6d6f  pring-legacy</mo
+-000006e0: 6475 6c65 3e0a 2020 2020 2020 2020 3c6d  dule>.        <m
+-000006f0: 6f64 756c 653e 656e 7465 7270 7269 7365  odule>enterprise
+-00000700: 3c2f 6d6f 6475 6c65 3e0a 2020 2020 2020  </module>.      
+-00000710: 2020 3c6d 6f64 756c 653e 656e 7465 7270    <module>enterp
+-00000720: 7269 7365 2d6c 6567 6163 793c 2f6d 6f64  rise-legacy</mod
+-00000730: 756c 653e 0a20 2020 203c 2f6d 6f64 756c  ule>.    </modul
+-00000740: 6573 3e0a 0a3c 2f70 726f 6a65 6374 3e0a  es>..</project>.
++000004b0: 663c 2f67 726f 7570 4964 3e0a 2020 2020  f</groupId>.    
++000004c0: 2020 2020 3c61 7274 6966 6163 7449 643e      <artifactId>
++000004d0: 6b61 7261 663c 2f61 7274 6966 6163 7449  karaf</artifactI
++000004e0: 643e 0a20 2020 2020 2020 203c 7665 7273  d>.        <vers
++000004f0: 696f 6e3e 342e 322e 3133 3c2f 7665 7273  ion>4.2.13</vers
++00000500: 696f 6e3e 0a20 2020 2020 2020 203c 7265  ion>.        <re
++00000510: 6c61 7469 7665 5061 7468 3e2e 2e2f 706f  lativePath>../po
++00000520: 6d2e 786d 6c3c 2f72 656c 6174 6976 6550  m.xml</relativeP
++00000530: 6174 683e 0a20 2020 203c 2f70 6172 656e  ath>.    </paren
++00000540: 743e 0a0a 2020 2020 3c67 726f 7570 4964  t>..    <groupId
++00000550: 3e6f 7267 2e61 7061 6368 652e 6b61 7261  >org.apache.kara
++00000560: 662e 6665 6174 7572 6573 3c2f 6772 6f75  f.features</grou
++00000570: 7049 643e 0a20 2020 203c 6172 7469 6661  pId>.    <artifa
++00000580: 6374 4964 3e66 6561 7475 7265 733c 2f61  ctId>features</a
++00000590: 7274 6966 6163 7449 643e 0a20 2020 203c  rtifactId>.    <
++000005a0: 7061 636b 6167 696e 673e 706f 6d3c 2f70  packaging>pom</p
++000005b0: 6163 6b61 6769 6e67 3e0a 2020 2020 3c6e  ackaging>.    <n
++000005c0: 616d 653e 4170 6163 6865 204b 6172 6166  ame>Apache Karaf
++000005d0: 203a 3a20 4665 6174 7572 6573 3c2f 6e61   :: Features</na
++000005e0: 6d65 3e0a 0a20 2020 203c 6d6f 6475 6c65  me>..    <module
++000005f0: 733e 0a20 2020 2020 2020 203c 6d6f 6475  s>.        <modu
++00000600: 6c65 3e65 7874 656e 7369 6f6e 3c2f 6d6f  le>extension</mo
++00000610: 6475 6c65 3e0a 2020 2020 2020 2020 3c6d  dule>.        <m
++00000620: 6f64 756c 653e 636f 7265 3c2f 6d6f 6475  odule>core</modu
++00000630: 6c65 3e0a 2020 2020 2020 2020 3c6d 6f64  le>.        <mod
++00000640: 756c 653e 636f 6d6d 616e 643c 2f6d 6f64  ule>command</mod
++00000650: 756c 653e 0a20 2020 203c 2f6d 6f64 756c  ule>.    </modul
++00000660: 6573 3e0a 0a3c 2f70 726f 6a65 6374 3e0a  es>..</project>.
+
+target/reference/org.apache.karaf.features.core-4.2.13.jar features/core/target/org.apache.karaf.features.core-4.2.13.jar
+--- target/reference/org.apache.karaf.features.core-4.2.13.jar
++++ features/core/target/org.apache.karaf.features.core-4.2.13.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 766489 bytes, number of entries: 493
+│ +Zip file size: 766488 bytes, number of entries: 493
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     2977 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     2950 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat      189 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf.features/
+│ @@ -488,8 +488,8 @@
+│  -rw----     2.0 fat     2656 bl defN 80-Feb-01 00:00 org/osgi/util/promise/PromiseImpl$Then.class
+│  -rw----     2.0 fat     8327 bl defN 80-Feb-01 00:00 org/osgi/util/promise/PromiseImpl.class
+│  -rw----     2.0 fat     2680 bl defN 80-Feb-01 00:00 org/osgi/util/promise/Promises$All.class
+│  -rw----     2.0 fat     3169 bl defN 80-Feb-01 00:00 org/osgi/util/promise/Promises.class
+│  -rw----     2.0 fat      505 bl defN 80-Feb-01 00:00 org/osgi/util/promise/Success.class
+│  -rw----     2.0 fat      231 bl defN 80-Feb-01 00:00 org/osgi/util/promise/package-info.class
+│  -rw----     2.0 fat       12 bl defN 80-Feb-01 00:00 org/osgi/util/promise/packageinfo
+│ -493 files, 1650708 bytes uncompressed, 667097 bytes compressed:  59.6%
+│ +493 files, 1650708 bytes uncompressed, 667096 bytes compressed:  59.6%
+├── OSGI-INF/karaf-tracker/org.apache.karaf.features.internal.osgi.Activator
+│ @@ -1,3 +1,3 @@
+│ -#Thu Dec 16 11:13:48 CET 2021
+│ +#Mon Dec 20 18:41:28 UTC 2021
+│  org.osgi.service.cm.ConfigurationAdmin=
+│  org.osgi.service.url.URLStreamHandlerService=(url.handler.protocol\=mvn)
+
+target/reference/org.apache.karaf.http.core-4.2.13.jar http/target/org.apache.karaf.http.core-4.2.13.jar
+--- target/reference/org.apache.karaf.http.core-4.2.13.jar
++++ http/target/org.apache.karaf.http.core-4.2.13.jar
+├── zipinfo {}
+│ @@ -1,11 +1,11 @@
+│ -Zip file size: 1410060 bytes, number of entries: 1057
+│ +Zip file size: 1410097 bytes, number of entries: 1057
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     2110 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat     2162 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│ +-rw----     2.0 fat     2167 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat      185 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf.http/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf.http/org.apache.karaf.http.core/
+│  -rw----     2.0 fat       83 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf.http/org.apache.karaf.http.core/pom.properties
+│  -rw----     2.0 fat     5500 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf.http/org.apache.karaf.http.core/pom.xml
+│ @@ -1052,8 +1052,8 @@
+│  -rw----     2.0 fat    17017 bl defN 80-Feb-01 00:00 org/apache/karaf/http/core/internal/proxy/ProxyServlet.class
+│  -rw----     2.0 fat      703 bl defN 80-Feb-01 00:00 org/apache/karaf/http/core/internal/proxy/RandomBalancingPolicy.class
+│  -rw----     2.0 fat      800 bl defN 80-Feb-01 00:00 org/apache/karaf/http/core/internal/proxy/RoundRobinBalancingPolicy.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/karaf/util/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/karaf/util/tracker/
+│  -rw----     2.0 fat    18897 bl defN 80-Feb-01 00:00 org/apache/karaf/util/tracker/BaseActivator.class
+│  -rw----     2.0 fat     6770 bl defN 80-Feb-01 00:00 org/apache/karaf/util/tracker/SingleServiceTracker.class
+│ -1057 files, 2718303 bytes uncompressed, 1206630 bytes compressed:  55.6%
+│ +1057 files, 2718308 bytes uncompressed, 1206667 bytes compressed:  55.6%
+├── META-INF/DEPENDENCIES
+│ @@ -2,31 +2,31 @@
+│  // Transitive dependencies of this project determined from the
+│  // maven pom organized by organization.
+│  // ------------------------------------------------------------------
+│  
+│  Apache Karaf :: HTTP :: Core
+│  
+│  
+│ -From: 'JLine' (https://github.com/jline/)
+│ -  - JLine (https://github.com/jline/) org.jline:jline:jar:3.19.0:compile
+│ -    License: The BSD License  (http://www.opensource.org/licenses/bsd-license.php)
+│ +From: 'an unknown organization'
+│ +  - JLine Bundle (http://nexus.sonatype.org/oss-repository-hosting.html/jline-parent/jline) org.jline:jline:jar:3.19.0
+│ +    License: The BSD License  (https://opensource.org/licenses/BSD-3-Clause)
+│  
+│  From: 'The Apache Software Foundation' (http://www.apache.org/)
+│ -  - Apache Commons Codec (http://commons.apache.org/proper/commons-codec/commons-codec) commons-codec:commons-codec:jar:1.11:compile
+│ -    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Apache Commons Logging (http://commons.apache.org/logging) commons-logging:commons-logging:jar:1.2:compile
+│ +  - Apache Commons Logging (http://commons.apache.org/proper/commons-logging/) commons-logging:commons-logging:jar:1.2
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache HttpClient (http://hc.apache.org/httpcomponents-client) org.apache.httpcomponents:httpclient:jar:4.5.13
+│      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache HttpCore (http://hc.apache.org/httpcomponents-core-ga) org.apache.httpcomponents:httpcore:jar:4.4.13
+│      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache Mina SSHD :: OSGi (http://www.apache.org/sshd/sshd-osgi/) org.apache.sshd:sshd-osgi:jar:2.5.1
+│      License: Apache 2.0 License  (https://www.apache.org/licenses/LICENSE-2.0)
+│  
+│  From: 'The Apache Software Foundation' (https://www.apache.org/)
+│ +  - Apache Commons Codec (http://commons.apache.org/proper/commons-codec/) commons-codec:commons-codec:jar:1.11
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache Karaf :: JAAS :: Boot (https://www.apache.org/karaf/jaas/org.apache.karaf.jaas.boot/) org.apache.karaf.jaas:org.apache.karaf.jaas.boot:bundle:4.2.13
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache Karaf :: Shell :: Core (https://www.apache.org/karaf/shell/org.apache.karaf.shell.core/) org.apache.karaf.shell:org.apache.karaf.shell.core:bundle:4.2.13
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+├── OSGI-INF/karaf-tracker/org.apache.karaf.http.core.internal.osgi.Activator
+│ @@ -1,4 +1,4 @@
+│ -#Thu Dec 16 11:17:34 CET 2021
+│ +#Mon Dec 20 18:41:51 UTC 2021
+│  org.osgi.service.http.HttpService=
+│  pid=org.apache.karaf.http
+│  org.osgi.service.cm.ConfigurationAdmin=
+
+target/reference/tests-4.2.13.jar itests/test/target/tests-4.2.13.jar
+--- target/reference/tests-4.2.13.jar
++++ itests/test/target/tests-4.2.13.jar
+├── zipinfo -v {}
+│ @@ -255,15 +255,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          1980 000 0 04:08:00
+│ -  32-bit CRC value (hex):                         352e4743
+│ +  32-bit CRC value (hex):                         afb80df6
+│    compressed size:                                2080 bytes
+│    uncompressed size:                              15847 bytes
+│    length of filename:                             38 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/maven/dependencies.properties
+│ @@ -1,9 +1,9 @@
+│  # Project dependencies generated by the Apache ServiceMix Maven Plugin
+│ -# Generated at: Thu Dec 16 13:16:18 CET 2021
+│ +# Generated at: Mon Dec 20 18:48:35 UTC 2021
+│  
+│  groupId = org.apache.karaf.itests
+│  artifactId = tests
+│  version = 4.2.13
+│  org.apache.karaf.itests/tests/version = 4.2.13
+│  
+│  # dependencies
+
