@@ -1,0 +1,18 @@
+groupId=org.apache.jena
+artifactId=jena
+display=${groupId}:${artifactId}
+version=4.3.2
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+buildTimeXsd="2021-09-12T10:37:37Z" # multiple values used in the build, the most used value has been chosen but build should be improved...
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuild.time.xsd=${buildTimeXsd}"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=
