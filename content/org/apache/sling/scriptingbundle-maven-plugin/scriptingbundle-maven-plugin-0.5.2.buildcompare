@@ -1,0 +1,8 @@
+version=0.5.2
+ok=3
+ko=1
+okFiles="scriptingbundle-maven-plugin-0.5.2.pom scriptingbundle-maven-plugin-0.5.2.jar scriptingbundle-maven-plugin-0.5.2-sources.jar"
+koFiles="scriptingbundle-maven-plugin-0.5.2-source-release.zip"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/scriptingbundle-maven-plugin-0.5.2-source-release.zip target/scriptingbundle-maven-plugin-0.5.2-source-release.zip
