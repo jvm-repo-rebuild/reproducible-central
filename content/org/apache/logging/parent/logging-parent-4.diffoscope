@@ -1,0 +1,31 @@
+target/reference/logging-parent-4-source-release.zip target/logging-parent-4-source-release.zip
+--- target/reference/logging-parent-4-source-release.zip
++++ target/logging-parent-4-source-release.zip
+├── zipinfo -v {}
+│ @@ -199,15 +199,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          1980 000 0 04:08:00
+│ -  32-bit CRC value (hex):                         ef019b99
+│ +  32-bit CRC value (hex):                         38a29fc3
+│    compressed size:                                127 bytes
+│    uncompressed size:                              180 bytes
+│    length of filename:                             23 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── logging-parent-4/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Logging Services
+│ -Copyright 1999-1969 The Apache Software Foundation
+│ +Copyright 1999-1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+

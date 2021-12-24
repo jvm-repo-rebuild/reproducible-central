@@ -1,0 +1,6 @@
+version=4
+ok=1
+ko=1
+okFiles="logging-parent-4.pom"
+koFiles="logging-parent-4-source-release.zip"
+# diffoscope target/reference/logging-parent-4-source-release.zip target/logging-parent-4-source-release.zip
