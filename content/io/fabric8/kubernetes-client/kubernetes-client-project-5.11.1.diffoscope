@@ -1,0 +1,289 @@
+target/reference/kubernetes-model-common-5.11.1.jar kubernetes-model-generator/kubernetes-model-common/target/kubernetes-model-common-5.11.1.jar
+--- target/reference/kubernetes-model-common-5.11.1.jar
++++ kubernetes-model-generator/kubernetes-model-common/target/kubernetes-model-common-5.11.1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 17387 bytes, number of entries: 30
+│ +Zip file size: 17388 bytes, number of entries: 30
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     2037 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/kubernetes-model-common/
+│  -rw----     2.0 fat       69 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/kubernetes-model-common/pom.properties
+│  -rw----     2.0 fat     1978 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/kubernetes-model-common/pom.xml
+│ @@ -25,8 +25,8 @@
+│  -rw----     2.0 fat      519 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/model/annotation/Version.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/model/jackson/
+│  -rw----     2.0 fat      668 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/model/jackson/JsonUnwrappedDeserializer$CancelUnwrapped.class
+│  -rw----     2.0 fat    11578 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/model/jackson/JsonUnwrappedDeserializer.class
+│  -rw----     2.0 fat     1243 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/model/jackson/UnwrappedTypeResolverBuilder.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/model/util/
+│  -rw----     2.0 fat     3468 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/model/util/Helper.class
+│ -30 files, 27549 bytes uncompressed, 11971 bytes compressed:  56.5%
+│ +30 files, 27549 bytes uncompressed, 11972 bytes compressed:  56.5%
+├── META-INF/MANIFEST.MF
+│ @@ -21,15 +21,15 @@
+│   m.fasterxml.jackson.core;version="[2.13,3)",com.fasterxml.jackson.dat
+
+│   abind;version="[2.13,3)",com.fasterxml.jackson.databind.deser;version
+
+│   ="[2.13,3)",com.fasterxml.jackson.databind.introspect;version="[2.13,
+
+│   3)",com.fasterxml.jackson.databind.jsontype;version="[2.13,3)",com.fa
+
+│   sterxml.jackson.databind.jsontype.impl;version="[2.13,3)",com.fasterx
+
+│   ml.jackson.databind.node;version="[2.13,3)",com.fasterxml.jackson.dat
+
+│   abind.util;version="[2.13,3)",io.fabric8.kubernetes.model.annotation
+
+│ -Java-Version: 1.8.0_265
+
+│ +Java-Version: 1.8.0_275
+
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+│  Scm-Connection: scm:git:git@github.com:fabric8io/kubernetes-client.git
+
+│   /kubernetes-model-generator/kubernetes-model-common
+
+│  Scm-Revision: ${buildNumber}
+
+│  Scm-Url: http://github.com/fabric8io/kubernetes-client/kubernetes-mode
+
+│   l-generator/kubernetes-model-common/
+
+│  Specification-Title: Fabric8 :: Kubernetes Model :: Common
+
+target/reference/kubernetes-model-core-5.11.1.jar kubernetes-model-generator/kubernetes-model-core/target/kubernetes-model-core-5.11.1.jar
+--- target/reference/kubernetes-model-core-5.11.1.jar
++++ kubernetes-model-generator/kubernetes-model-core/target/kubernetes-model-core-5.11.1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 4150950 bytes, number of entries: 2393
+│ +Zip file size: 4150970 bytes, number of entries: 2393
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     6525 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat   946423 bl defN 80-Feb-01 00:00 META-INF/jandex.idx
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/kubernetes-model-core/
+│  -rw----     2.0 fat       67 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/kubernetes-model-core/pom.properties
+│ @@ -2388,8 +2388,8 @@
+│  -rw----     2.0 fat     1091 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/internal/InternalResourceMappingProvider.class
+│  -rw----     2.0 fat    13770 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/internal/KubernetesDeserializer$Mapping.class
+│  -rw----     2.0 fat     6759 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/internal/KubernetesDeserializer.class
+│  -rw----     2.0 fat      652 bl defN 80-Feb-01 00:00 manifest.vm
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 schema/
+│  -rw----     2.0 fat   242316 bl defN 80-Feb-01 00:00 schema/kube-schema.json
+│  -rw----     2.0 fat   419205 bl defN 80-Feb-01 00:00 schema/validation-schema.json
+│ -2393 files, 12215924 bytes uncompressed, 3586796 bytes compressed:  70.6%
+│ +2393 files, 12215924 bytes uncompressed, 3586816 bytes compressed:  70.6%
+├── META-INF/MANIFEST.MF
+│ @@ -76,23 +76,23 @@
+│   1alpha1;resolution:=optional,io.fabric8.openshift.api.model.miscellan
+
+│   eous.cloudcredential.v1;resolution:=optional,io.fabric8.openshift.api
+
+│   .model.miscellaneous.cncf.cni.v1;resolution:=optional,io.fabric8.open
+
+│   shift.api.model.miscellaneous.imageregistry.operator.v1;resolution:=o
+
+│   ptional,io.fabric8.openshift.api.model.miscellaneous.metal3.v1alpha1;
+
+│   resolution:=optional,io.fabric8.openshift.api.model.miscellaneous.net
+
+│   work.operator.v1;resolution:=optional
+
+│ -Include-Resource: schema/validation-schema.json=src/main/resources/sch
+
+│ - ema/validation-schema.json,schema/kube-schema.json=src/main/resources
+
+│ - /schema/kube-schema.json,META-INF/services/io.fabric8.kubernetes.api.
+
+│ - KubernetesResourceMappingProvider=src/main/resources/META-INF/service
+
+│ - s/io.fabric8.kubernetes.api.KubernetesResourceMappingProvider,manifes
+
+│ +Include-Resource: META-INF/services/io.fabric8.kubernetes.api.Kubernet
+
+│ + esResourceMappingProvider=src/main/resources/META-INF/services/io.fab
+
+│ + ric8.kubernetes.api.KubernetesResourceMappingProvider,schema/kube-sch
+
+│ + ema.json=src/main/resources/schema/kube-schema.json,schema/validation
+
+│ + -schema.json=src/main/resources/schema/validation-schema.json,manifes
+
+│   t.vm=src/main/resources/manifest.vm,/META-INF/jandex.idx=target/class
+
+│   es/META-INF/jandex.idx,/core.properties=target/classes/core.propertie
+
+│   s,
+
+│ -Java-Version: 1.8.0_265
+
+│ +Java-Version: 1.8.0_275
+
+│  Private-Package: io.fabric8.kubernetes.internal,schema
+
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+│  Scm-Connection: scm:git:git@github.com:fabric8io/kubernetes-client.git
+
+│   /kubernetes-model-generator/kubernetes-model-core
+
+│  Scm-Revision: ${buildNumber}
+
+│  Scm-Url: http://github.com/fabric8io/kubernetes-client/kubernetes-mode
+
+│   l-generator/kubernetes-model-core/
+├── META-INF/jandex.idx
+│ @@ -21792,2614 +21792,2614 @@
+...
+├── io/fabric8/kubernetes/api/model/WatchEventFluent.class
+│ ├── procyon -ec {}
+│ │ @@ -56,26 +56,26 @@
+│ │      
+│ │      A withAuthInfoObject(final AuthInfo p0);
+│ │      
+│ │      WatchEventFluent.AuthInfoObjectNested<A> withNewAuthInfoObject();
+│ │      
+│ │      WatchEventFluent.AuthInfoObjectNested<A> withNewAuthInfoObjectLike(final AuthInfo p0);
+│ │      
+│ │ -    A withAPIServiceObject(final APIService p0);
+│ │ -    
+│ │ -    WatchEventFluent.APIServiceObjectNested<A> withNewAPIServiceObject();
+│ │ -    
+│ │ -    WatchEventFluent.APIServiceObjectNested<A> withNewAPIServiceObjectLike(final APIService p0);
+│ │ -    
+│ │      A withResourceRequirementsObject(final ResourceRequirements p0);
+│ │      
+│ │      WatchEventFluent.ResourceRequirementsObjectNested<A> withNewResourceRequirementsObject();
+│ │      
+│ │      WatchEventFluent.ResourceRequirementsObjectNested<A> withNewResourceRequirementsObjectLike(final ResourceRequirements p0);
+│ │      
+│ │ +    A withAPIServiceObject(final APIService p0);
+│ │ +    
+│ │ +    WatchEventFluent.APIServiceObjectNested<A> withNewAPIServiceObject();
+│ │ +    
+│ │ +    WatchEventFluent.APIServiceObjectNested<A> withNewAPIServiceObjectLike(final APIService p0);
+│ │ +    
+│ │      A withConfigMapKeySelectorObject(final ConfigMapKeySelector p0);
+│ │      
+│ │      WatchEventFluent.ConfigMapKeySelectorObjectNested<A> withNewConfigMapKeySelectorObject();
+│ │      
+│ │      WatchEventFluent.ConfigMapKeySelectorObjectNested<A> withNewConfigMapKeySelectorObjectLike(final ConfigMapKeySelector p0);
+│ │      
+│ │      A withNewConfigMapKeySelectorObject(final String p0, final String p1, final Boolean p2);
+...
+├── io/fabric8/kubernetes/api/model/WatchEventFluentImpl$APIServiceObjectNestedImpl.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -95,17 +95,17 @@
+│ │          13: dup
+│ │          14: aload_0
+│ │          15: aload_2
+│ │          16: invokespecial #4                  // Method io/fabric8/kubernetes/api/model/APIServiceBuilder."<init>":(Lio/fabric8/kubernetes/api/model/APIServiceFluent;Lio/fabric8/kubernetes/api/model/APIService;)V
+│ │          19: putfield      #5                  // Field builder:Lio/fabric8/kubernetes/api/model/APIServiceBuilder;
+│ │          22: return
+│ │        LineNumberTable:
+│ │ -        line 3072: 0
+│ │ -        line 3073: 9
+│ │ -        line 3074: 22
+│ │ +        line 3088: 0
+│ │ +        line 3089: 9
+│ │ +        line 3090: 22
+│ │        LocalVariableTable:
+...
+├── io/fabric8/kubernetes/api/model/WatchEventFluentImpl.class
+│ ├── procyon -ec {}
+│ │ @@ -59,58 +59,58 @@
+│ │              this.object = (VisitableBuilder<? extends KubernetesResource, ?>)new CSIPersistentVolumeSourceBuilder((CSIPersistentVolumeSource)object);
+│ │              this._visitables.get((Object)"object").add(this.object);
+│ │          }
+│ │          if (object instanceof AuthInfo) {
+│ │              this.object = (VisitableBuilder<? extends KubernetesResource, ?>)new AuthInfoBuilder((AuthInfo)object);
+│ │              this._visitables.get((Object)"object").add(this.object);
+│ │          }
+│ │ -        if (object instanceof APIService) {
+│ │ -            this.object = (VisitableBuilder<? extends KubernetesResource, ?>)new APIServiceBuilder((APIService)object);
+│ │ -            this._visitables.get((Object)"object").add(this.object);
+│ │ -        }
+│ │          if (object instanceof ResourceRequirements) {
+│ │              this.object = (VisitableBuilder<? extends KubernetesResource, ?>)new ResourceRequirementsBuilder((ResourceRequirements)object);
+│ │              this._visitables.get((Object)"object").add(this.object);
+│ │          }
+│ │ +        if (object instanceof APIService) {
+│ │ +            this.object = (VisitableBuilder<? extends KubernetesResource, ?>)new APIServiceBuilder((APIService)object);
+│ │ +            this._visitables.get((Object)"object").add(this.object);
+│ │ +        }
+│ │          if (object instanceof ConfigMapKeySelector) {
+│ │              this.object = (VisitableBuilder<? extends KubernetesResource, ?>)new ConfigMapKeySelectorBuilder((ConfigMapKeySelector)object);
+│ │              this._visitables.get((Object)"object").add(this.object);
+│ │          }
+...
+
+target/reference/kubernetes-model-core-5.11.1-sources.jar kubernetes-model-generator/kubernetes-model-core/target/kubernetes-model-core-5.11.1-sources.jar
+--- target/reference/kubernetes-model-core-5.11.1-sources.jar
++++ kubernetes-model-generator/kubernetes-model-core/target/kubernetes-model-core-5.11.1-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1357020 bytes, number of entries: 1026
+│ +Zip file size: 1357058 bytes, number of entries: 1026
+│  -rw-r--r--  2.0 unx       64 b- defN 20-Nov-14 12:24 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 12:24 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 12:24 io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 12:24 io/fabric8/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 12:24 io/fabric8/kubernetes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 12:24 io/fabric8/kubernetes/api/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Nov-14 12:24 io/fabric8/kubernetes/api/model/
+│ @@ -1021,8 +1021,8 @@
+│  -rw-r--r--  2.0 unx     8886 b- defN 20-Nov-14 12:24 io/fabric8/kubernetes/api/model/version/InfoFluentImpl.java
+│  -rw-r--r--  2.0 unx       62 b- defN 20-Nov-14 12:24 META-INF/services/io.fabric8.kubernetes.api.KubernetesResourceMappingProvider
+│  -rw-r--r--  2.0 unx      652 b- defN 20-Nov-14 12:24 manifest.vm
+│  -rw-r--r--  2.0 unx   242316 b- defN 20-Nov-14 12:24 schema/kube-schema.json
+│  -rw-r--r--  2.0 unx   419205 b- defN 20-Nov-14 12:24 schema/validation-schema.json
+│  -rw-r--r--  2.0 unx    10121 b- defN 20-Nov-14 12:24 META-INF/maven/io.fabric8/kubernetes-model-core/pom.xml
+│  -rw-r--r--  2.0 unx       67 b- defN 20-Nov-14 12:24 META-INF/maven/io.fabric8/kubernetes-model-core/pom.properties
+│ -1026 files, 8101570 bytes uncompressed, 1160314 bytes compressed:  85.7%
+│ +1026 files, 8101570 bytes uncompressed, 1160352 bytes compressed:  85.7%
+├── io/fabric8/kubernetes/api/model/WatchEventFluent.java
+│┄ Ordering differences only
+│ @@ -48,50 +48,50 @@
+│    public io.fabric8.kubernetes.api.model.WatchEventFluent.PodTemplateSpecObjectNested<A> withNewPodTemplateSpecObjectLike(io.fabric8.kubernetes.api.model.PodTemplateSpec item);
+│    public A withCSIPersistentVolumeSourceObject(io.fabric8.kubernetes.api.model.CSIPersistentVolumeSource cSIPersistentVolumeSourceObject);
+│    public io.fabric8.kubernetes.api.model.WatchEventFluent.CSIPersistentVolumeSourceObjectNested<A> withNewCSIPersistentVolumeSourceObject();
+│    public io.fabric8.kubernetes.api.model.WatchEventFluent.CSIPersistentVolumeSourceObjectNested<A> withNewCSIPersistentVolumeSourceObjectLike(io.fabric8.kubernetes.api.model.CSIPersistentVolumeSource item);
+│    public A withAuthInfoObject(io.fabric8.kubernetes.api.model.AuthInfo authInfoObject);
+│    public io.fabric8.kubernetes.api.model.WatchEventFluent.AuthInfoObjectNested<A> withNewAuthInfoObject();
+│    public io.fabric8.kubernetes.api.model.WatchEventFluent.AuthInfoObjectNested<A> withNewAuthInfoObjectLike(io.fabric8.kubernetes.api.model.AuthInfo item);
+│ -  public A withAPIServiceObject(io.fabric8.kubernetes.api.model.APIService aPIServiceObject);
+│ -  public io.fabric8.kubernetes.api.model.WatchEventFluent.APIServiceObjectNested<A> withNewAPIServiceObject();
+│ -  public io.fabric8.kubernetes.api.model.WatchEventFluent.APIServiceObjectNested<A> withNewAPIServiceObjectLike(io.fabric8.kubernetes.api.model.APIService item);
+│    public A withResourceRequirementsObject(io.fabric8.kubernetes.api.model.ResourceRequirements resourceRequirementsObject);
+│    public io.fabric8.kubernetes.api.model.WatchEventFluent.ResourceRequirementsObjectNested<A> withNewResourceRequirementsObject();
+│    public io.fabric8.kubernetes.api.model.WatchEventFluent.ResourceRequirementsObjectNested<A> withNewResourceRequirementsObjectLike(io.fabric8.kubernetes.api.model.ResourceRequirements item);
+│ +  public A withAPIServiceObject(io.fabric8.kubernetes.api.model.APIService aPIServiceObject);
+│ +  public io.fabric8.kubernetes.api.model.WatchEventFluent.APIServiceObjectNested<A> withNewAPIServiceObject();
+│ +  public io.fabric8.kubernetes.api.model.WatchEventFluent.APIServiceObjectNested<A> withNewAPIServiceObjectLike(io.fabric8.kubernetes.api.model.APIService item);
+│    public A withConfigMapKeySelectorObject(io.fabric8.kubernetes.api.model.ConfigMapKeySelector configMapKeySelectorObject);
+│    public io.fabric8.kubernetes.api.model.WatchEventFluent.ConfigMapKeySelectorObjectNested<A> withNewConfigMapKeySelectorObject();
+│    public io.fabric8.kubernetes.api.model.WatchEventFluent.ConfigMapKeySelectorObjectNested<A> withNewConfigMapKeySelectorObjectLike(io.fabric8.kubernetes.api.model.ConfigMapKeySelector item);
+│    public A withNewConfigMapKeySelectorObject(java.lang.String key,java.lang.String name,java.lang.Boolean optional);
+...
+├── io/fabric8/kubernetes/api/model/WatchEventFluentImpl.java
+│┄ Ordering differences only
+│ @@ -46,188 +46,188 @@
+│      if (object instanceof io.fabric8.kubernetes.api.model.Patch){ this.object= new io.fabric8.kubernetes.api.model.PatchBuilder((io.fabric8.kubernetes.api.model.Patch)object); _visitables.get("object").add(this.object);}
+│      if (object instanceof io.fabric8.kubernetes.api.model.LimitRange){ this.object= new io.fabric8.kubernetes.api.model.LimitRangeBuilder((io.fabric8.kubernetes.api.model.LimitRange)object); _visitables.get("object").add(this.object);}
+│      if (object instanceof io.fabric8.kubernetes.api.model.APIGroupList){ this.object= new io.fabric8.kubernetes.api.model.APIGroupListBuilder((io.fabric8.kubernetes.api.model.APIGroupList)object); _visitables.get("object").add(this.object);}
+│      if (object instanceof io.fabric8.kubernetes.api.model.PortStatus){ this.object= new io.fabric8.kubernetes.api.model.PortStatusBuilder((io.fabric8.kubernetes.api.model.PortStatus)object); _visitables.get("object").add(this.object);}
+│      if (object instanceof io.fabric8.kubernetes.api.model.PodTemplateSpec){ this.object= new io.fabric8.kubernetes.api.model.PodTemplateSpecBuilder((io.fabric8.kubernetes.api.model.PodTemplateSpec)object); _visitables.get("object").add(this.object);}
+│      if (object instanceof io.fabric8.kubernetes.api.model.CSIPersistentVolumeSource){ this.object= new io.fabric8.kubernetes.api.model.CSIPersistentVolumeSourceBuilder((io.fabric8.kubernetes.api.model.CSIPersistentVolumeSource)object); _visitables.get("object").add(this.object);}
+│      if (object instanceof io.fabric8.kubernetes.api.model.AuthInfo){ this.object= new io.fabric8.kubernetes.api.model.AuthInfoBuilder((io.fabric8.kubernetes.api.model.AuthInfo)object); _visitables.get("object").add(this.object);}
+│ -    if (object instanceof io.fabric8.kubernetes.api.model.APIService){ this.object= new io.fabric8.kubernetes.api.model.APIServiceBuilder((io.fabric8.kubernetes.api.model.APIService)object); _visitables.get("object").add(this.object);}
+│      if (object instanceof io.fabric8.kubernetes.api.model.ResourceRequirements){ this.object= new io.fabric8.kubernetes.api.model.ResourceRequirementsBuilder((io.fabric8.kubernetes.api.model.ResourceRequirements)object); _visitables.get("object").add(this.object);}
+│ +    if (object instanceof io.fabric8.kubernetes.api.model.APIService){ this.object= new io.fabric8.kubernetes.api.model.APIServiceBuilder((io.fabric8.kubernetes.api.model.APIService)object); _visitables.get("object").add(this.object);}
+│      if (object instanceof io.fabric8.kubernetes.api.model.ConfigMapKeySelector){ this.object= new io.fabric8.kubernetes.api.model.ConfigMapKeySelectorBuilder((io.fabric8.kubernetes.api.model.ConfigMapKeySelector)object); _visitables.get("object").add(this.object);}
+...
