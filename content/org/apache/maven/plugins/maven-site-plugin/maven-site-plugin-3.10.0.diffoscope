@@ -1,0 +1,60 @@
+target/reference/maven-site-plugin-3.10.0-source-release.zip target/maven-site-plugin-3.10.0-source-release.zip
+--- target/reference/maven-site-plugin-3.10.0-source-release.zip
++++ target/maven-site-plugin-3.10.0-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1076861 bytes, number of entries: 1591
+│ +Zip file size: 1080297 bytes, number of entries: 1592
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-22 09:25 maven-site-plugin-3.10.0/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-22 09:25 maven-site-plugin-3.10.0/.github/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-22 09:25 maven-site-plugin-3.10.0/.github/workflows/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-22 09:25 maven-site-plugin-3.10.0/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-22 09:25 maven-site-plugin-3.10.0/src/it/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-22 09:25 maven-site-plugin-3.10.0/src/it/mrm/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-22 09:25 maven-site-plugin-3.10.0/src/it/projects/
+│ @@ -983,14 +983,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-22 09:25 maven-site-plugin-3.10.0/src/test/resources/unit/deploy-dav/target/site/css/
+│  -rw-r--r--  2.0 unx     1076 b- defN 21-Dec-22 09:25 maven-site-plugin-3.10.0/.asf.yaml
+│  -rw-r--r--  2.0 unx     1422 b- defN 21-Dec-22 09:25 maven-site-plugin-3.10.0/.github/dependabot.yml
+│  -rw-r--r--  2.0 unx     1881 b- defN 21-Dec-22 09:25 maven-site-plugin-3.10.0/.github/pull_request_template.md
+│  -rw-r--r--  2.0 unx     1020 b- defN 21-Dec-22 09:25 maven-site-plugin-3.10.0/.github/workflows/maven-verify.yml
+│  -rw-r--r--  2.0 unx      853 b- defN 21-Dec-22 09:25 maven-site-plugin-3.10.0/Jenkinsfile
+│  -rw-r--r--  2.0 unx     5693 b- defN 21-Dec-22 09:25 maven-site-plugin-3.10.0/README.md
+│ +-rw-r--r--  2.0 unx    21518 b- defN 21-Dec-22 09:25 maven-site-plugin-3.10.0/dependency-reduced-pom.xml
+│  -rw-r--r--  2.0 unx    19357 b- defN 21-Dec-22 09:25 maven-site-plugin-3.10.0/pom.xml
+│  -rw-r--r--  2.0 unx     2939 b- defN 21-Dec-22 09:25 maven-site-plugin-3.10.0/src/it/mrm/settings.xml
+│  -rw-r--r--  2.0 unx      840 b- defN 21-Dec-22 09:25 maven-site-plugin-3.10.0/src/it/projects/MSITE-159/invoker.properties
+│  -rw-r--r--  2.0 unx     2517 b- defN 21-Dec-22 09:25 maven-site-plugin-3.10.0/src/it/projects/MSITE-159/pom.xml
+│  -rw-r--r--  2.0 unx     1114 b- defN 21-Dec-22 09:25 maven-site-plugin-3.10.0/src/it/projects/MSITE-159/src/site/apt/index.apt
+│  -rw-r--r--  2.0 unx     1468 b- defN 21-Dec-22 09:25 maven-site-plugin-3.10.0/src/it/projects/MSITE-159/src/site/site.xml
+│  -rw-r--r--  2.0 unx     2106 b- defN 21-Dec-22 09:25 maven-site-plugin-3.10.0/src/it/projects/MSITE-159/verify.bsh
+│ @@ -1586,8 +1587,8 @@
+│  -rw-r--r--  2.0 unx     1114 b- defN 21-Dec-22 09:25 maven-site-plugin-3.10.0/src/test/projects/site-plugin-test9/src/site/xdoc/test1.xml
+│  -rw-r--r--  2.0 unx     2535 b- defN 21-Dec-22 09:25 maven-site-plugin-3.10.0/src/test/resources/unit/deploy-dav/pom.xml
+│  -rw-r--r--  2.0 unx     3291 b- defN 21-Dec-22 09:25 maven-site-plugin-3.10.0/src/test/resources/unit/deploy-dav/target/site/css/maven-base.css
+│  -rw-r--r--  2.0 unx    21549 b- defN 21-Dec-22 09:25 maven-site-plugin-3.10.0/src/test/resources/unit/deploy-dav/target/site/index.html
+│  -rw-r--r--  2.0 unx    24604 b- defN 21-Dec-22 09:25 maven-site-plugin-3.10.0/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 21-Dec-22 09:25 maven-site-plugin-3.10.0/LICENSE
+│  -rw-r--r--  2.0 unx      181 b- defN 21-Dec-22 09:25 maven-site-plugin-3.10.0/NOTICE
+│ -1591 files, 1462014 bytes uncompressed, 675527 bytes compressed:  53.8%
+│ +1592 files, 1483532 bytes uncompressed, 678785 bytes compressed:  54.2%
+├── zipnote {}
+│ @@ -2958,14 +2958,17 @@
+│  
+│  Filename: maven-site-plugin-3.10.0/Jenkinsfile
+│  Comment: 
+│  
+│  Filename: maven-site-plugin-3.10.0/README.md
+│  Comment: 
+│  
+│ +Filename: maven-site-plugin-3.10.0/dependency-reduced-pom.xml
+│ +Comment: 
+│ +
+│  Filename: maven-site-plugin-3.10.0/pom.xml
+│  Comment: 
+│  
+│  Filename: maven-site-plugin-3.10.0/src/it/mrm/settings.xml
+│  Comment: 
+│  
+│  Filename: maven-site-plugin-3.10.0/src/it/projects/MSITE-159/invoker.properties
+
