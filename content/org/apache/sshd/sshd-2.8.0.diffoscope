@@ -106,6 +106,7 @@ target/reference/sshd-common-2.8.0.jar sshd-common/target/sshd-common-2.8.0.jar
 ...
 
 # see https://github.com/apache/mina-sshd/blob/master/sshd-osgi/pom.xml#L104
+# why not use https://maven.apache.org/plugins/maven-shade-plugin/shade-mojo.html#shadeSourcesContent?
 target/reference/sshd-osgi-2.8.0-sources.jar sshd-osgi/target/sshd-osgi-2.8.0-sources.jar
 --- target/reference/sshd-osgi-2.8.0-sources.jar
 +++ sshd-osgi/target/sshd-osgi-2.8.0-sources.jar
