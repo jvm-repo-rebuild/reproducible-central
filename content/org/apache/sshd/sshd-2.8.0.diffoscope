@@ -105,6 +105,7 @@ target/reference/sshd-common-2.8.0.jar sshd-common/target/sshd-common-2.8.0.jar
 │  /src/test/java/org/apache/sshd/common/util/security/eddsa/Ed25519VectorsTest.java=4ba629b58ef5ce57921567c13441b3923e990b1e222e874fea4c8eacc80123621b71337f7f3c67f19ec15bc706b0f844a71e1a674d57a4fc0c0677a59e0f3709
 ...
 
+# see https://github.com/apache/mina-sshd/blob/master/sshd-osgi/pom.xml#L104
 target/reference/sshd-osgi-2.8.0-sources.jar sshd-osgi/target/sshd-osgi-2.8.0-sources.jar
 --- target/reference/sshd-osgi-2.8.0-sources.jar
 +++ sshd-osgi/target/sshd-osgi-2.8.0-sources.jar
