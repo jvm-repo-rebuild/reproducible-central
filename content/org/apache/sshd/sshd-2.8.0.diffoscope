@@ -1,0 +1,157 @@
+# require maven-bundle-plugin 5.1.4 https://issues.apache.org/jira/browse/FELIX-6495
+# TBD: what produdes .cache/formatter-maven-cache.properties?
+target/reference/sshd-common-2.8.0.jar sshd-common/target/sshd-common-2.8.0.jar
+--- target/reference/sshd-common-2.8.0.jar
++++ sshd-common/target/sshd-common-2.8.0.jar
+├── zipinfo {}
+│ @@ -1,9 +1,9 @@
+│ -Zip file size: 935714 bytes, number of entries: 604
+│ --rw-r--r--  2.0 unx      599 b- defN 21-Nov-29 12:41 META-INF/MANIFEST.MF
+│ +Zip file size: 935728 bytes, number of entries: 604
+│ +-rw-r--r--  2.0 unx      594 b- defN 21-Nov-29 12:41 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-29 12:41 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-29 12:41 .cache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-29 12:41 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-29 12:41 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-29 12:41 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-29 12:41 org/apache/sshd/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-29 12:41 org/apache/sshd/client/
+│ @@ -599,8 +599,8 @@
+│  -rw-r--r--  2.0 unx    13274 b- defN 21-Nov-29 12:41 org/apache/sshd/server/keyprovider/AbstractGeneratorHostKeyProvider.class
+│  -rw-r--r--  2.0 unx     3323 b- defN 21-Nov-29 12:41 org/apache/sshd/server/keyprovider/SimpleGeneratorHostKeyProvider.class
+│  -rw-r--r--  2.0 unx     4583 b- defN 21-Nov-29 12:41 org/apache/sshd/server/shell/TtyFilterInputStream.class
+│  -rw-r--r--  2.0 unx     3883 b- defN 21-Nov-29 12:41 org/apache/sshd/server/shell/TtyFilterOutputStream.class
+│  -rw-r--r--  2.0 unx      899 b- defN 21-Nov-29 12:41 org/apache/sshd/sshd-version.properties
+│  -rw-r--r--  2.0 unx     4698 b- defN 21-Nov-29 12:41 META-INF/maven/org.apache.sshd/sshd-common/pom.xml
+│  -rw-r--r--  2.0 unx       61 b- defN 21-Nov-29 12:41 META-INF/maven/org.apache.sshd/sshd-common/pom.properties
+│ -604 files, 1965481 bytes uncompressed, 821472 bytes compressed:  58.2%
+│ +604 files, 1965476 bytes uncompressed, 821486 bytes compressed:  58.2%
+├── META-INF/MANIFEST.MF
+│ @@ -1,16 +1,16 @@
+│  Manifest-Version: 1.0
+
+│  Implementation-Title: Apache Mina SSHD :: Common support utilities
+
+│  Implementation-Version: 2.8.0
+
+│ -Built-By: gnodet
+
+│ +Built-By: ?
+
+│  Specification-Vendor: The Apache Software Foundation
+
+│ -Bnd-LastModified: 1638197380718
+
+│ +Bnd-LastModified: 1641122684501
+
+│  Specification-Title: Apache Mina SSHD :: Common support utilities
+
+│  Implementation-Vendor-Id: org.apache.sshd
+
+│  Tool: Bnd-5.1.1.202006162103
+
+│  Implementation-Vendor: The Apache Software Foundation
+
+│  Build-Jdk-Spec: 1.8
+
+│  Created-By: Apache Maven Bundle Plugin
+
+│  Specification-Version: 2.8.0
+
+│ -Build-Jdk: 1.8.0_292
+
+│ +Build-Jdk: 1.8.0_275
+
+│  Implementation-URL: https://www.apache.org/sshd/sshd-common/
+├── .cache/formatter-maven-cache.properties
+│ @@ -1,8 +1,8 @@
+│ -#Mon Nov 29 15:49:02 CET 2021
+│ +#Sun Jan 02 11:24:34 UTC 2022
+│  /src/main/java/org/apache/sshd/common/signature/SignatureFactory.java=d919393c7ccc91f6c29348f06d3e0222924019a93f6e966d8153387e8d9437ca46b4c1ff672cd93d774283b752e58af98fd04f37324c16ce3602b3d6328378a0
+│  /src/test/java/org/apache/sshd/util/test/CommonTestSupportUtils.java=cbf5402c8a0bde3f94794e52afebec7885bc9e7bb752a22eee5aeb0f28666d93dcdcb7b6eb19276861ea48be5892ce041619fa2fb6e178ed83082fb3dd82abd4
+│  /src/main/java/org/apache/sshd/common/util/security/eddsa/OpenSSHEd25519PrivateKeyEntryDecoder.java=17c87a3ef7e97d28b2f8d4297687e749e7a8a65d8bdececd9d1d6bccacfd6d2f18032e9cdfeb8d5e2808d3b1efd216b092391047479964c0ebe4300ea651aff9
+│  /src/main/java/org/apache/sshd/common/keyprovider/AbstractResourceKeyPairProvider.java=206cb555a351081529899165c64aebe099d3fb87a770f52f9a593d065c0f9fb03116eeac698b70ba6276ca21a721594afbe99f2bcc72617d5808aa3ce2101c21
+│  /src/main/java/org/apache/sshd/common/io/IoReadFuture.java=efd873628f3c793cbd15fa93c025b9cf48ac44c0bb5b7b257c58cce55114773dadc1068d1c8ba7622292e75f1a2091f09a5f2324826cc0cb897a18006a126195
+│  /src/main/java/org/apache/sshd/common/config/FactoriesListParseResult.java=c941b80e48e00492990f807415e7af5d3472fc6d3623d3dfb4a981da1b84523ba2c77f6c44f3c96f4d61c893fcdb92017b554b5a7a9c067e8b1d661cd8a1ac6e
+│  /src/main/java/org/apache/sshd/common/config/SyslogFacilityValue.java=872ddd5c67401b4bc2619803d2908fb5a872915a2136b5cef7988ea686758fc52736302f9e326c364eed7d26e241d6b58bfa4e47fd6b22389fc3b53827e4bef4
+│ @@ -30,26 +30,26 @@
+│  /src/test/java/org/apache/sshd/common/PropertyTest.java=1bf70d6a242519315ac976e2d70addfd0be76e8db4b9ae8c30c01de149e729f7fcb766d10bcc40c2a66b6f38387bd5d911d2fe3fa77f4dea5a52ce28a8328dde
+│  /src/test/java/org/apache/sshd/common/util/io/der/DERParserTest.java=88544fc0b286abbee3b0eb25d49ef7bb89d6c031c7559f4d16c42e49df1e8f5d7e996070aa37310d530a25917f623ba813ae239695b2c1d508f087a171081fe2
+│  /src/main/java/org/apache/sshd/common/future/DefaultSshFuture.java=ccb7dc9778522715f34aa2f0ce1290e0570f2b589dcbdbbf13e8f49918bc0fd6f499d3370decb325ac306cad61a29ae1b33be8dced6ddd7b27aaf40c6dc03399
+│  /src/main/java/org/apache/sshd/common/mac/BaseMac.java=98d628460e26ca92225e6242cabe76fc526fb9f346aca1574994293dc3569815f532cf16ffc6cb25949505fd0260d14fb5e2988b5bae0614c07f835581d78baf
+│  /src/main/java/org/apache/sshd/common/util/threads/ThreadUtils.java=6993cb6675ab36663de1fe6c2ae02c90f7be2abbc444b3b96b7b8f2674be8d81546dfc201a93871a83f1017fd767c44a3c9b45acb03ecbc76410b7b192e87638
+│  /src/main/java/org/apache/sshd/common/cipher/BaseGCMCipher.java=079dffdbeaaed63022efa8f15611225e7ea28b8439176ad6f39ed1dc3ff54049e25e0505a8e35cc34739640f029c6f72bb10559fb799fdf46851dea5d7c3168e
+│  /src/test/java/org/apache/sshd/common/util/io/output/NoCloseOutputStreamTest.java=547c45dcda8cd08d081c7e880db16b51f11fa0bdda3fb207081e998846e97495a3e7a9922a36ba68da44ffa1b052052b38e328c4a33bc14a7cee04bdf4d66734
+│ -/src/main/java/org/apache/sshd/common/future/CloseFuture.java=a9a50db04645bc0afad4a1c4865c76e477efec740ce2a4ae13490eb9c2348157d20c1c67c8889fe87e07e46bab297b093e821b47158966529b6def101a165d41
+│  /src/main/java/org/apache/sshd/common/config/keys/FilePasswordProviderManager.java=5cea492824867add2b038713e3bdc173aa73e2a5369bacd5b39a28e305fe035d33744ea594c683ffbb773efb7e7a81a01fbbb7ef3091d9d6e059b9cc973adf07
+│ +/src/main/java/org/apache/sshd/common/future/CloseFuture.java=a9a50db04645bc0afad4a1c4865c76e477efec740ce2a4ae13490eb9c2348157d20c1c67c8889fe87e07e46bab297b093e821b47158966529b6def101a165d41
+│  /src/main/java/org/apache/sshd/common/signature/SignatureSkED25519.java=63f0692f9d352a7181083e28a7351767e1dd955b1d3160ff5c948fe4e2f23152b8b5fbff2410e4f419dfb20e0a2d1a9a09ae0662fc189ae966e8ff0eb9fba77f
+│  /src/main/java/org/apache/sshd/common/util/io/input/NoCloseReader.java=beb65ec27cb1bfb49e2416be3e5f0eb8704f73c94c25acd6c5ace0ace389ce8d6c4dfc66f5e26c76512da52ddaa89e31795314734abe770c91c4998516f4616d
+│  /src/main/java/org/apache/sshd/common/signature/SignatureRSA.java=9ae0b81991ca2dea69932db977fc573b987e1ff72c39ff8389b0ea749c57fa3f76555b0c4b89f16889412dc5ea8a69b9cdf655a5f37ec7e6fcec806685556d7a
+│  /src/test/java/org/apache/sshd/server/shell/TtyFilterInputStreamTest.java=4216d33d1eb1c2b99972fbd8754a4305a415eaa4dd346c3fc7f214105523fa244505c50ca3b52e7932871501712e32bc88c870e58eab39da169fb75974971a4d
+│  /src/main/java/org/apache/sshd/common/file/FileSystemAware.java=4dc86526d4614bc667501d40b11b65d963b27e39acd38076a820b9e74a29f0f9f2ab616b273cdfe84b14af9b8cc483b9f569f1ce020eb2cf9a7a6545ee70af05
+│  /src/test/java/org/apache/sshd/common/mac/BuiltinMacsTest.java=acda20e963c9fa2f1b87c4587ad295facedefb72005518232dfe3287a346c9bafa2002145c15796acaf443b6e4d8554efbfd0ce1d4c3e47531b029d0b816318d
+│  /src/main/java/org/apache/sshd/common/util/io/input/EmptyInputStream.java=9d620f648f41970843d566660175efb57487deeca09be161ce08d9a611b6c7ff79e78b3d2440be53111ee40969f0fc95b9a042a8d0e4e31d9350212e8725fb0b
+│  /src/main/java/org/apache/sshd/common/util/buffer/keys/SkED25519BufferPublicKeyParser.java=0ba2276a018041f549e0bf4615c9936ae6f77a5cec9b7790c6e6f0189fe91d35790b342f437930f0fbc3a64c591f097fc738ee60b53ef58ac4a88ede051818ad
+│ -/src/main/java/org/apache/sshd/common/random/SingletonRandomFactory.java=a1394b9a552fe983e5c71ac5cca9e069dd90e26ea793de593cea3fbfe71e0334ea430173337f8b869679a9fc884e5f179cfc0702b6f670b283701307a3cc5962
+│  /src/main/java/org/apache/sshd/common/signature/AbstractSignature.java=cb55f4f4f7a5e0d0331dd216bf2b1b9f9cdc4d2110d11f9ba66f99fba400ef26d7885e3646fd557129fc3ed41ae644ed0807ed4e8e5b2abdc1078207b00973b9
+│ +/src/main/java/org/apache/sshd/common/random/SingletonRandomFactory.java=a1394b9a552fe983e5c71ac5cca9e069dd90e26ea793de593cea3fbfe71e0334ea430173337f8b869679a9fc884e5f179cfc0702b6f670b283701307a3cc5962
+│  /src/main/java/org/apache/sshd/common/channel/PtyChannelConfigurationHolder.java=86f7547814c0bee18d1a27818594d7e0fcd4f9d243a46b7d07109cfd71e0a0f455daf0239c141523ba2601445d6ee30ca4828d2e039dc02a4f35c38db3de97c6
+│  /src/main/java/org/apache/sshd/common/util/security/eddsa/SignatureEd25519.java=093eaac10e98f70a94b05f812d2dc02f1fc192a6ef5cec6d9df29e91bed06112cf4fc32accb5e11cf6fb5cbc62b553ab8e7b8118e78f163aabf37fb44b3ee95f
+│  /src/main/java/org/apache/sshd/common/util/ReflectionUtils.java=66c4cc309b9ebd7574bbc51f76123bf89424f548cb8544832b1d3a78b76cf328775d2505e1c8514374095e9b53d27175572d4abe2368c651bbf2119ccee19b67
+│  /src/main/java/org/apache/sshd/common/config/keys/FilePasswordProviderHolder.java=0e92eb99fbd294893eecbdc5299addecfd1d6dfe8788de46086d37389b49d53113b57250f9d36888977b1787aec4d2ef2237538e5b2f0c94afe7a2d08b49c4fb
+│  /src/test/java/org/apache/sshd/common/config/keys/AuthorizedKeyEntryLoginOptionsParseTest.java=62caf8ef0077d637f3312803f4483478eb58893edfd7633a353e22f00dbecfb11b84fa0f8f11c55c5ad3e8e1ac6d3c26a0f2f3be82b98195e725137cfb88b7d8
+│  /src/main/java/org/apache/sshd/common/io/WritePendingException.java=aa644ad6309bb6ccdaac5aff53ede3c9b2026b1fcb21ca66cbb9ee4a41a041c6bb75f9afbb958e1e7ddc819e5d6a7a0cc7093c71b34c9c7d2fa1a081f212d9a9
+│  /src/test/java/org/apache/sshd/common/util/security/eddsa/Ed25519VectorsTest.java=4ba629b58ef5ce57921567c13441b3923e990b1e222e874fea4c8eacc80123621b71337f7f3c67f19ec15bc706b0f844a71e1a674d57a4fc0c0677a59e0f3709
+...
+
+target/reference/sshd-osgi-2.8.0-sources.jar sshd-osgi/target/sshd-osgi-2.8.0-sources.jar
+--- target/reference/sshd-osgi-2.8.0-sources.jar
++++ sshd-osgi/target/sshd-osgi-2.8.0-sources.jar
+├── zipinfo {}
+│ @@ -1,844 +1,844 @@
+│ -Zip file size: 1332104 bytes, number of entries: 842
+│ -drwxr-xr-x  2.0 unx        0 bx stor 21-Nov-29 16:11 META-INF/
+│ --rw-r--r--  2.0 unx      100 b- defN 21-Nov-29 16:11 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-29 15:48 org/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-29 15:48 org/apache/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-29 15:48 org/apache/sshd/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-29 15:48 org/apache/sshd/client/
+...
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-29 16:11 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-29 16:11 META-INF/maven/org.apache.sshd/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-29 16:11 META-INF/maven/org.apache.sshd/sshd-osgi/
+│ --rw-r--r--  2.0 unx       89 b- defN 21-Nov-29 16:11 META-INF/maven/org.apache.sshd/sshd-osgi/pom.properties
+│ --rw-r--r--  2.0 unx     7606 b- defN 21-Nov-29 16:11 META-INF/maven/org.apache.sshd/sshd-osgi/pom.xml
+│ -842 files, 3991531 bytes uncompressed, 1176632 bytes compressed:  70.5%
+│ +Zip file size: 1332111 bytes, number of entries: 842
+│ +drwxr-xr-x  2.0 unx        0 bx stor 22-Jan-02 11:25 META-INF/
+│ +-rw-r--r--  2.0 unx      106 b- defN 22-Jan-02 11:25 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-14 17:20 org/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-14 17:20 org/apache/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-14 17:20 org/apache/sshd/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 21-Nov-14 17:20 org/apache/sshd/client/
+...
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-02 11:25 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-02 11:25 META-INF/maven/org.apache.sshd/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-02 11:25 META-INF/maven/org.apache.sshd/sshd-osgi/
+│ +-rw-r--r--  2.0 unx       89 b- defN 22-Jan-02 11:25 META-INF/maven/org.apache.sshd/sshd-osgi/pom.properties
+│ +-rw-r--r--  2.0 unx     7606 b- defN 22-Jan-02 11:25 META-INF/maven/org.apache.sshd/sshd-osgi/pom.xml
+│ +842 files, 3991537 bytes uncompressed, 1176639 bytes compressed:  70.5%
+├── META-INF/MANIFEST.MF
+│ @@ -1,4 +1,4 @@
+│  Manifest-Version: 1.0
+
+│  Ant-Version: Apache Ant 1.10.12
+
+│ -Created-By: 1.8.0_292-b10 (AdoptOpenJDK)
+
+│ +Created-By: 1.8.0_275-b01 (Oracle Corporation)
+
+├── META-INF/maven/org.apache.sshd/sshd-osgi/pom.properties
+│ @@ -1,4 +1,4 @@
+│ -#Created by Apache Maven 3.8.4
+│ +#Created by Apache Maven 3.6.3
+│  version=2.8.0
+│  groupId=org.apache.sshd
+│  artifactId=sshd-osgi
