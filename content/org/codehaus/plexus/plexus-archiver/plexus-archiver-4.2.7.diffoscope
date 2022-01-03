@@ -1,0 +1,60 @@
+target/reference/plexus-archiver-4.2.7-source-release.zip target/plexus-archiver-4.2.7-source-release.zip
+--- target/reference/plexus-archiver-4.2.7-source-release.zip
++++ target/plexus-archiver-4.2.7-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1056583 bytes, number of entries: 597
+│ +Zip file size: 1052486 bytes, number of entries: 596
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-02 11:11 plexus-archiver-4.2.7/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-02 11:11 plexus-archiver-4.2.7/.github/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-02 11:11 plexus-archiver-4.2.7/.github/workflows/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-02 11:11 plexus-archiver-4.2.7/jira/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-02 11:11 plexus-archiver-4.2.7/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-02 11:11 plexus-archiver-4.2.7/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-02 11:11 plexus-archiver-4.2.7/src/main/java/
+│ @@ -89,15 +89,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-02 11:11 plexus-archiver-4.2.7/src/test/resources/zip-timestamp/foo/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-02 11:11 plexus-archiver-4.2.7/src/test/zips/
+│  -rw-r--r--  2.0 unx      215 b- defN 22-Jan-02 11:11 plexus-archiver-4.2.7/.github/dependabot.yml
+│  -rw-r--r--  2.0 unx       70 b- defN 22-Jan-02 11:11 plexus-archiver-4.2.7/.github/release-drafter.yml
+│  -rw-r--r--  2.0 unx     2429 b- defN 22-Jan-02 11:11 plexus-archiver-4.2.7/.github/workflows/codeql-analysis.yml
+│  -rw-r--r--  2.0 unx     1732 b- defN 22-Jan-02 11:11 plexus-archiver-4.2.7/.github/workflows/maven.yml
+│  -rw-r--r--  2.0 unx      262 b- defN 22-Jan-02 11:11 plexus-archiver-4.2.7/.github/workflows/release-drafter.yml
+│ --rw-r--r--  2.0 unx    11560 b- defN 22-Jan-02 11:11 plexus-archiver-4.2.7/LICENSE
+│  -rw-r--r--  2.0 unx     2167 b- defN 22-Jan-02 11:11 plexus-archiver-4.2.7/README.md
+│  -rw-r--r--  2.0 unx    19612 b- defN 22-Jan-02 11:11 plexus-archiver-4.2.7/ReleaseNotes.md
+│  -rw-r--r--  2.0 unx    17770 b- defN 22-Jan-02 11:11 plexus-archiver-4.2.7/jira/PLXCOMP-1.json
+│  -rw-r--r--  2.0 unx     8733 b- defN 22-Jan-02 11:11 plexus-archiver-4.2.7/jira/PLXCOMP-10.json
+│  -rw-r--r--  2.0 unx    26173 b- defN 22-Jan-02 11:11 plexus-archiver-4.2.7/jira/PLXCOMP-100.json
+│  -rw-r--r--  2.0 unx     4622 b- defN 22-Jan-02 11:11 plexus-archiver-4.2.7/jira/PLXCOMP-101.json
+│  -rw-r--r--  2.0 unx     3549 b- defN 22-Jan-02 11:11 plexus-archiver-4.2.7/jira/PLXCOMP-102.json
+│ @@ -592,8 +591,8 @@
+│  -rw-r--r--  2.0 unx        0 b- defN 22-Jan-02 11:11 plexus-archiver-4.2.7/src/test/resources/zip-timestamp/file-with-odd-time.txt
+│  -rw-r--r--  2.0 unx        0 b- defN 22-Jan-02 11:11 plexus-archiver-4.2.7/src/test/resources/zip-timestamp/foo/file-with-even-time.txt
+│  -rw-r--r--  2.0 unx        0 b- defN 22-Jan-02 11:11 plexus-archiver-4.2.7/src/test/resources/zip-timestamp/foo/file-with-odd-time.txt
+│  -rw-r--r--  2.0 unx      368 b- defN 22-Jan-02 11:11 plexus-archiver-4.2.7/src/test/resources/zip-timestamp/foo/macOsZipFile.jar
+│  -rw-r--r--  2.0 unx   164170 b- defN 22-Jan-02 11:11 plexus-archiver-4.2.7/src/test/resources/zip-timestamp/foo/plexus-archiver-2.4.4-SNAPSHOT.jar
+│  -rw-r--r--  2.0 unx      368 b- defN 22-Jan-02 11:11 plexus-archiver-4.2.7/src/test/resources/zip-timestamp/macOsZipFile.zip
+│  -rw-r--r--  2.0 unx      545 b- defN 22-Jan-02 11:11 plexus-archiver-4.2.7/src/test/zips/zip-slip.zip
+│ -597 files, 3726953 bytes uncompressed, 939609 bytes compressed:  74.8%
+│ +596 files, 3715393 bytes uncompressed, 935646 bytes compressed:  74.8%
+├── zipnote {}
+│ @@ -276,17 +276,14 @@
+│  
+│  Filename: plexus-archiver-4.2.7/.github/workflows/maven.yml
+│  Comment: 
+│  
+│  Filename: plexus-archiver-4.2.7/.github/workflows/release-drafter.yml
+│  Comment: 
+│  
+│ -Filename: plexus-archiver-4.2.7/LICENSE
+│ -Comment: 
+│ -
+│  Filename: plexus-archiver-4.2.7/README.md
+│  Comment: 
+│  
+│  Filename: plexus-archiver-4.2.7/ReleaseNotes.md
+│  Comment: 
+│  
+│  Filename: plexus-archiver-4.2.7/jira/PLXCOMP-1.json
+
