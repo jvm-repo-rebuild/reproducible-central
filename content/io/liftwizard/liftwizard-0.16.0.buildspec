@@ -10,7 +10,7 @@ tool=mvn
 jdk=11
 newline=lf
 
-command="mvn -Pdeploy clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
-buildinfo=liftwizard-utility/liftwizard-junit-rule-match-json/target/liftwizard-junit-rule-match-json-${version}.buildinfo
+command="mvn -Pdeploy clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
 
 issue=
