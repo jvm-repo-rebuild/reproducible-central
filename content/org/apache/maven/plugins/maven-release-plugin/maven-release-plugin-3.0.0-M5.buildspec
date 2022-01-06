@@ -1,0 +1,17 @@
+groupId=org.apache.maven.plugins
+artifactId=maven-release-plugin
+baseArtifactId=maven-release
+display=${groupId}:${artifactId}
+version=3.0.0-M5
+
+gitRepo=https://github.com/apache/${baseArtifactId}.git
+gitTag=${baseArtifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=crlf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${baseArtifactId}-${version}.buildinfo
+
+issue=
