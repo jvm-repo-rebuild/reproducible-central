@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Archiver
+group-id=org.apache.maven
+artifact-id=maven-archiver
+version=3.5.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-archiver.git
+source.scm.tag=maven-archiver-3.5.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=maven-archiver-3.5.2.pom
+outputs.0.length=5545
+outputs.0.checksums.sha512=6aa2cf9bd07b2f92a35f8462f16925deafcf2bfcc12e976eb92197abcf5ece48461f183051dea780e16a9d1496ae3e624045eed61bd179c4e93b541edd33157c
+
+outputs.1.filename=maven-archiver-3.5.2.jar
+outputs.1.length=26163
+outputs.1.checksums.sha512=a0c029170810106cfe46fbb53992399e765413617db54cac8d348a506a20ce9927c6100d49445eb4c39d513fea6f5a79bb530b27094015052b6f29f250903317
+
+outputs.2.filename=maven-archiver-3.5.2-source-release.zip
+outputs.2.length=137353
+outputs.2.checksums.sha512=83e3657a626765307c1f6394ae96218128f577613ee5a8845eae07b875f7f5bab366dcb847b507be8809d4084187e6ee25f03230055a01cd1aec283f9497100a
+
+outputs.3.filename=maven-archiver-3.5.2-sources.jar
+outputs.3.length=24119
+outputs.3.checksums.sha512=fb97d617620e085162fce22a70cf954285d3c7433b43dda23cc0f386d3bbed126ed2e7112c9026b7e739922b0c06ef960576f60397032055b16a096d5132168e

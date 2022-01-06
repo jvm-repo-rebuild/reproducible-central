@@ -1,0 +1,7 @@
+version=3.5.2
+ok=4
+ko=0
+okFiles="maven-archiver-3.5.2.pom maven-archiver-3.5.2.jar maven-archiver-3.5.2-source-release.zip maven-archiver-3.5.2-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
