@@ -1,0 +1,455 @@
+target/reference/xmlchai-0.1.0.jar target/xmlchai-0.1.0.jar
+--- target/reference/xmlchai-0.1.0.jar
++++ target/xmlchai-0.1.0.jar
+├── zipinfo {}
+│ @@ -1,28 +1,26 @@
+│ -Zip file size: 25677 bytes, number of entries: 26
+│ --rw----     2.0 fat     2174 bl defN 22-Jan-06 05:16 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat     1879 bl defN 22-Jan-06 05:16 META-INF/SELFSIGN.SF
+│ --rw----     2.0 fat     1394 bl defN 22-Jan-06 05:16 META-INF/SELFSIGN.RSA
+│ --rw----     2.0 fat        0 bl defN 22-Jan-06 05:16 META-INF/
+│ --rw----     2.0 fat        0 bl defN 22-Jan-06 05:16 META-INF/maven/
+│ --rw----     2.0 fat        0 bl defN 22-Jan-06 05:16 META-INF/maven/org.jrivard.xmlchai/
+│ --rw----     2.0 fat        0 bl defN 22-Jan-06 05:16 META-INF/maven/org.jrivard.xmlchai/xmlchai/
+│ --rw----     2.0 fat    21725 bl defN 22-Jan-06 05:16 META-INF/maven/org.jrivard.xmlchai/xmlchai/pom.xml
+│ --rw----     2.0 fat       61 bl defN 22-Jan-06 05:16 META-INF/maven/org.jrivard.xmlchai/xmlchai/pom.properties
+│ --rw----     2.0 fat        0 bl defN 22-Jan-06 05:16 classes/
+│ --rw----     2.0 fat        0 bl defN 22-Jan-06 05:16 org/
+│ --rw----     2.0 fat        0 bl defN 22-Jan-06 05:16 org/jrivard/
+│ --rw----     2.0 fat        0 bl defN 22-Jan-06 05:16 org/jrivard/xmlchai/
+│ --rw----     2.0 fat     1027 bl defN 22-Jan-06 05:16 classes/git.json
+│ --rw----     2.0 fat     1004 bl defN 22-Jan-06 05:16 org/jrivard/xmlchai/AccessMode.class
+│ --rw----     2.0 fat      306 bl defN 22-Jan-06 05:16 org/jrivard/xmlchai/ModifyOperation.class
+│ --rw----     2.0 fat      443 bl defN 22-Jan-06 05:16 org/jrivard/xmlchai/XmlChai.class
+│ --rw----     2.0 fat     1307 bl defN 22-Jan-06 05:16 org/jrivard/xmlchai/XmlChaiInternalUtils.class
+│ --rw----     2.0 fat      626 bl defN 22-Jan-06 05:16 org/jrivard/xmlchai/XmlDocument.class
+│ --rw----     2.0 fat     5102 bl defN 22-Jan-06 05:16 org/jrivard/xmlchai/XmlDocumentW3c.class
+│ --rw----     2.0 fat     1692 bl defN 22-Jan-06 05:16 org/jrivard/xmlchai/XmlElement.class
+│ --rw----     2.0 fat    11492 bl defN 22-Jan-06 05:16 org/jrivard/xmlchai/XmlElementW3c.class
+│ --rw----     2.0 fat     1113 bl defN 22-Jan-06 05:16 org/jrivard/xmlchai/XmlFactory$OutputFlag.class
+│ --rw----     2.0 fat      930 bl defN 22-Jan-06 05:16 org/jrivard/xmlchai/XmlFactory.class
+│ --rw----     2.0 fat     9091 bl defN 22-Jan-06 05:16 org/jrivard/xmlchai/XmlFactoryW3c.class
+│ --rw----     2.0 fat      312 bl defN 22-Jan-06 05:16 module-info.class
+│ -26 files, 61678 bytes uncompressed, 21709 bytes compressed:  64.8%
+│ +Zip file size: 22546 bytes, number of entries: 24
+│ +-rw----     2.0 fat      525 bX defN 22-Jan-06 10:16 META-INF/MANIFEST.MF
+│ +-rw----     1.0 fat        0 b- stor 22-Jan-06 10:16 META-INF/
+│ +-rw----     1.0 fat        0 b- stor 22-Jan-06 10:16 classes/
+│ +-rw----     1.0 fat        0 b- stor 22-Jan-06 10:16 org/
+│ +-rw----     1.0 fat        0 b- stor 22-Jan-06 10:16 org/jrivard/
+│ +-rw----     1.0 fat        0 b- stor 22-Jan-06 10:16 org/jrivard/xmlchai/
+│ +-rw----     1.0 fat        0 b- stor 22-Jan-06 10:16 META-INF/maven/
+│ +-rw----     1.0 fat        0 b- stor 22-Jan-06 10:16 META-INF/maven/org.jrivard.xmlchai/
+│ +-rw----     1.0 fat        0 b- stor 22-Jan-06 10:16 META-INF/maven/org.jrivard.xmlchai/xmlchai/
+│ +-rw----     2.0 fat     1052 bl defN 22-Jan-06 10:16 classes/git.json
+│ +-rw----     2.0 fat     1004 bl defN 22-Jan-06 10:16 org/jrivard/xmlchai/AccessMode.class
+│ +-rw----     2.0 fat      306 bl defN 22-Jan-06 10:16 org/jrivard/xmlchai/ModifyOperation.class
+│ +-rw----     2.0 fat      443 bl defN 22-Jan-06 10:16 org/jrivard/xmlchai/XmlChai.class
+│ +-rw----     2.0 fat     1307 bl defN 22-Jan-06 10:16 org/jrivard/xmlchai/XmlChaiInternalUtils.class
+│ +-rw----     2.0 fat      626 bl defN 22-Jan-06 10:16 org/jrivard/xmlchai/XmlDocument.class
+│ +-rw----     2.0 fat     5102 bl defN 22-Jan-06 10:16 org/jrivard/xmlchai/XmlDocumentW3c.class
+│ +-rw----     2.0 fat     1692 bl defN 22-Jan-06 10:16 org/jrivard/xmlchai/XmlElement.class
+│ +-rw----     2.0 fat    11492 bl defN 22-Jan-06 10:16 org/jrivard/xmlchai/XmlElementW3c.class
+│ +-rw----     2.0 fat     1113 bl defN 22-Jan-06 10:16 org/jrivard/xmlchai/XmlFactory$OutputFlag.class
+│ +-rw----     2.0 fat      930 bl defN 22-Jan-06 10:16 org/jrivard/xmlchai/XmlFactory.class
+│ +-rw----     2.0 fat     9091 bl defN 22-Jan-06 10:16 org/jrivard/xmlchai/XmlFactoryW3c.class
+│ +-rw----     2.0 fat    21725 bl defN 22-Jan-06 10:16 META-INF/maven/org.jrivard.xmlchai/xmlchai/pom.xml
+│ +-rw----     2.0 fat       61 bl defN 22-Jan-06 10:16 META-INF/maven/org.jrivard.xmlchai/xmlchai/pom.properties
+│ +-rw----     2.0 fat      313 bl defN 22-Jan-07 22:16 module-info.class
+│ +24 files, 56782 bytes uncompressed, 18964 bytes compressed:  66.6%
+├── zipnote «TEMP»/diffoscope_50gpecye_target/tmpug7b8gye.zip
+│ @@ -1,44 +1,32 @@
+│  Filename: META-INF/MANIFEST.MF
+│  Comment: 
+│  
+│ -Filename: META-INF/SELFSIGN.SF
+│ -Comment: 
+│ -
+│ -Filename: META-INF/SELFSIGN.RSA
+│ -Comment: 
+│ -
+│  Filename: META-INF/
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/org.jrivard.xmlchai/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/org.jrivard.xmlchai/xmlchai/
+│ +Filename: classes/
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/org.jrivard.xmlchai/xmlchai/pom.xml
+│ +Filename: org/
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/org.jrivard.xmlchai/xmlchai/pom.properties
+│ +Filename: org/jrivard/
+│  Comment: 
+│  
+│ -Filename: classes/
+│ +Filename: org/jrivard/xmlchai/
+│  Comment: 
+│  
+│ -Filename: org/
+│ +Filename: META-INF/maven/
+│  Comment: 
+│  
+│ -Filename: org/jrivard/
+│ +Filename: META-INF/maven/org.jrivard.xmlchai/
+│  Comment: 
+│  
+│ -Filename: org/jrivard/xmlchai/
+│ +Filename: META-INF/maven/org.jrivard.xmlchai/xmlchai/
+│  Comment: 
+│  
+│  Filename: classes/git.json
+│  Comment: 
+│  
+│  Filename: org/jrivard/xmlchai/AccessMode.class
+│  Comment: 
+│ @@ -69,11 +57,17 @@
+│  
+│  Filename: org/jrivard/xmlchai/XmlFactory.class
+│  Comment: 
+│  
+│  Filename: org/jrivard/xmlchai/XmlFactoryW3c.class
+│  Comment: 
+│  
+│ +Filename: META-INF/maven/org.jrivard.xmlchai/xmlchai/pom.xml
+│ +Comment: 
+│ +
+│ +Filename: META-INF/maven/org.jrivard.xmlchai/xmlchai/pom.properties
+│ +Comment: 
+│ +
+│  Filename: module-info.class
+│  Comment: 
+│  
+│  Zip file comment:
+├── filetype from file(1)
+│ @@ -1 +1 @@
+│ -Zip archive data, at least v2.0 to extract
+│ +Java archive data (JAR)
+├── META-INF/MANIFEST.MF
+│ @@ -6,55 +6,10 @@
+│  Implementation-Title: XML Chai Library
+│  Implementation-URL: https://github.com/jrivard/xmlchai
+│  Implementation-Vendor: XML Chai Project
+│  Implementation-Version: 0.1.0
+│  SCM-Git-Commit-Dirty: false
+│  SCM-Git-Commit-ID: b8b0e095af45ed8b3212b934ce46f2dcb54fdea6
+│  SCM-Git-Commit-ID-Abbrev: b8b0e09
+│ -SCM-Git-Commit-ID-Description: v1_0_1
+│ +SCM-Git-Commit-ID-Description: b8b0e09
+│  SCM-Git-Commit-Timestamp: 2022-01-06T10:16:03Z
+│  
+│ -Name: org/jrivard/xmlchai/XmlChaiInternalUtils.class
+│ -SHA-256-Digest: LhOQqdSd5g2HbXN9WsOsXrqI+h4cFKS3MjNe8b275Do=
+│ -
+│ -Name: org/jrivard/xmlchai/XmlDocument.class
+│ -SHA-256-Digest: ZhMKA2QSfPIoZGG9+MBr0OZU97oFRvWyAMbgblFoFIM=
+│ -
+│ -Name: classes/git.json
+│ -SHA-256-Digest: r5ClT8q6xd5Ad84lZIR30lNIvkdRIJZQ1a7z+RF3ha0=
+│ -
+│ -Name: META-INF/maven/org.jrivard.xmlchai/xmlchai/pom.xml
+│ -SHA-256-Digest: KIzdRpNKhY6mY0CMATdSyYTT2OH/jojAEFvxj28hflc=
+│ -
+│ -Name: org/jrivard/xmlchai/XmlDocumentW3c.class
+│ -SHA-256-Digest: eMKmx7ChcaQ4ncLdzE2njalTdco7RkLCp/Ht69DNPp8=
+│ -
+│ -Name: org/jrivard/xmlchai/XmlElement.class
+│ -SHA-256-Digest: uDDnhr8eFACrt+LBrbjpaKSQHpjhk1nppT3zmazv6fY=
+│ -
+│ -Name: org/jrivard/xmlchai/ModifyOperation.class
+│ -SHA-256-Digest: zugN4p+W/S5MM01VwI23tQadS8Nmia4qaFjGLX8h3aE=
+│ -
+│ -Name: org/jrivard/xmlchai/XmlFactory$OutputFlag.class
+│ -SHA-256-Digest: kn+F+rrn5OgzBEjx2KoytG32ElDdHNWqWvXLh3CQI0I=
+│ -
+│ -Name: org/jrivard/xmlchai/XmlFactory.class
+│ -SHA-256-Digest: 3wg34ZCrTha8+Kg67m08V57Sc6EQtOj8EEH4lTe6BUU=
+│ -
+│ -Name: module-info.class
+│ -SHA-256-Digest: KmvxtqvGb/GlteMbmd6odc9eXB3CzNcQehAXcSrdrgQ=
+│ -
+│ -Name: META-INF/maven/org.jrivard.xmlchai/xmlchai/pom.properties
+│ -SHA-256-Digest: jCj3pA9JLg/PyuNvRHQOcdSU0st+vM/PZ9Wcut8p2cA=
+│ -
+│ -Name: org/jrivard/xmlchai/AccessMode.class
+│ -SHA-256-Digest: raFinN5WFE4lHTL/YhEzEejquh3JbGhZev35b2+UQa8=
+│ -
+│ -Name: org/jrivard/xmlchai/XmlElementW3c.class
+│ -SHA-256-Digest: UFNko8S3v2gRGnIo2WBNCugpImKt2gHDlZrDVDysbog=
+│ -
+│ -Name: org/jrivard/xmlchai/XmlChai.class
+│ -SHA-256-Digest: BhJXBykSd/N2HP/WzVkO4cR2CuAX2AxdHdoX34iRQ+c=
+│ -
+│ -Name: org/jrivard/xmlchai/XmlFactoryW3c.class
+│ -SHA-256-Digest: MwyeOqYyISpdO3beKn6dJDWZZUxMsXpT/gCMnlxcD9M=
+│ -
+├── classes/git.json
+│ │   --- /tmp/diffoscope_50gpecye_target/tmp86rvjdgi/git.json
+│ ├── +++ /tmp/diffoscope_50gpecye_target/tmplio4k1u4/git.json
+│ │┄ Differences: {'replace': "OrderedDict([('git.branch', 'b8b0e095af45ed8b3212b934ce46f2dcb54fdea6'), "
+│ │┄             "('git.build.host', '066698ba805c'), ('git.build.user.email', ''), "
+│ │┄             "('git.build.user.name', ''), ('git.build.version', '0.1.0'), "
+│ │┄             "('git.closest.tag.commit.count', ''), ('git.closest.tag.name', ''), "
+│ │┄             "('git.commit.author.time', '2022-01-06T10:16:03Z'), ('git.commit.committer.time', "
+│ │┄             "'2022-01-06T10:16:03Z'), ('git.commit.id', "
+│ │┄             "'b8b0e095af45ed8 […]
+│ │ @@ -1,26 +1,26 @@
+│ │  {
+│ │ -    "git.branch": "main",
+│ │ -    "git.build.host": "ort",
+│ │ -    "git.build.user.email": "jrivard@gmail.com",
+│ │ -    "git.build.user.name": "Jason Rivard",
+│ │ +    "git.branch": "b8b0e095af45ed8b3212b934ce46f2dcb54fdea6",
+│ │ +    "git.build.host": "066698ba805c",
+│ │ +    "git.build.user.email": "",
+│ │ +    "git.build.user.name": "",
+│ │      "git.build.version": "0.1.0",
+│ │ -    "git.closest.tag.commit.count": "0",
+│ │ -    "git.closest.tag.name": "v1_0_1",
+│ │ +    "git.closest.tag.commit.count": "",
+│ │ +    "git.closest.tag.name": "",
+│ │      "git.commit.author.time": "2022-01-06T10:16:03Z",
+│ │      "git.commit.committer.time": "2022-01-06T10:16:03Z",
+│ │      "git.commit.id": "b8b0e095af45ed8b3212b934ce46f2dcb54fdea6",
+│ │      "git.commit.id.abbrev": "b8b0e09",
+│ │ -    "git.commit.id.describe": "v1_0_1",
+│ │ -    "git.commit.id.describe-short": "v1_0_1",
+│ │ +    "git.commit.id.describe": "b8b0e09",
+│ │ +    "git.commit.id.describe-short": "b8b0e09",
+│ │      "git.commit.message.full": "0.1.0 release",
+│ │      "git.commit.message.short": "0.1.0 release",
+│ │      "git.commit.time": "2022-01-06T10:16:03Z",
+│ │      "git.commit.user.email": "jrivard@gmail.com",
+│ │      "git.commit.user.name": "Jason Rivard",
+│ │      "git.dirty": "false",
+│ │ -    "git.local.branch.ahead": "5",
+│ │ -    "git.local.branch.behind": "0",
+│ │ -    "git.remote.origin.url": "https://github.com/jrivard/chaixml",
+│ │ -    "git.tags": "v1_0_1",
+│ │ +    "git.local.branch.ahead": "NO_REMOTE",
+│ │ +    "git.local.branch.behind": "NO_REMOTE",
+│ │ +    "git.remote.origin.url": "https://github.com/jrivard/xmlchai.git",
+│ │ +    "git.tags": "",
+│ │      "git.total.commit.count": "8"
+│ │  }
+├── module-info.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -16,32 +16,32 @@
+│ │     #7 = Utf8               ModulePackages
+│ │     #8 = Utf8               org/jrivard/xmlchai
+│ │     #9 = Package            #8             // org/jrivard/xmlchai
+│ │    #10 = Utf8               classes
+│ │    #11 = Package            #10            // classes
+│ │    #12 = Utf8               java.base
+│ │    #13 = Module             #12            // "java.base"
+│ │ -  #14 = Utf8               11.0.12
+│ │ +  #14 = Utf8               11.0.9.1
+│ │    #15 = Utf8               java.xml
+│ │    #16 = Module             #15            // "java.xml"
+│ │    #17 = Utf8               com.github.spotbugs.annotations
+│ │    #18 = Module             #17            // "com.github.spotbugs.annotations"
+│ │    #19 = Utf8               SourceFile
+│ │    #20 = Utf8               Module
+│ │  {
+│ │  }
+│ │  SourceFile: "module-info.java"
+│ │  Module:
+│ │    #5,0                                    // "org.jrivard.xmlchai"
+│ │    #6                                      // 0.1.0
+│ │    3                                       // requires
+│ │      #13,8000                                // "java.base" ACC_MANDATED
+│ │ -    #14                                     // 11.0.12
+│ │ +    #14                                     // 11.0.9.1
+│ │      #16,0                                   // "java.xml"
+│ │ -    #14                                     // 11.0.12
+│ │ +    #14                                     // 11.0.9.1
+│ │      #18,40                                  // "com.github.spotbugs.annotations" ACC_STATIC_PHASE
+│ │      #0
+│ │    1                                       // exports
+│ │      #9,0                                    // org/jrivard/xmlchai
+│ │    0                                       // opens
+│ │    0                                       // uses
+│ │    0                                       // provides
+
+target/reference/xmlchai-0.1.0-sources.jar target/xmlchai-0.1.0-sources.jar
+--- target/reference/xmlchai-0.1.0-sources.jar
++++ target/xmlchai-0.1.0-sources.jar
+├── zipinfo {}
+│ @@ -1,26 +1,24 @@
+│ -Zip file size: 24178 bytes, number of entries: 24
+│ --rw----     2.0 fat     2046 bl defN 22-Jan-06 05:16 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat     1770 bl defN 22-Jan-06 05:16 META-INF/SELFSIGN.SF
+│ --rw----     2.0 fat     1394 bl defN 22-Jan-06 05:16 META-INF/SELFSIGN.RSA
+│ --rw----     2.0 fat        0 bl defN 22-Jan-06 05:16 META-INF/
+│ --rw----     2.0 fat        0 bl defN 22-Jan-06 05:16 META-INF/maven/
+│ --rw----     2.0 fat        0 bl defN 22-Jan-06 05:16 META-INF/maven/org.jrivard.xmlchai/
+│ --rw----     2.0 fat        0 bl defN 22-Jan-06 05:16 META-INF/maven/org.jrivard.xmlchai/xmlchai/
+│ --rw----     2.0 fat    21725 bl defN 22-Jan-06 05:16 META-INF/maven/org.jrivard.xmlchai/xmlchai/pom.xml
+│ --rw----     2.0 fat       61 bl defN 22-Jan-06 05:16 META-INF/maven/org.jrivard.xmlchai/xmlchai/pom.properties
+│ --rw----     2.0 fat        0 bl defN 22-Jan-06 05:16 org/
+│ --rw----     2.0 fat        0 bl defN 22-Jan-06 05:16 org/jrivard/
+│ --rw----     2.0 fat        0 bl defN 22-Jan-06 05:16 org/jrivard/xmlchai/
+│ --rw----     2.0 fat      946 bl defN 22-Jan-06 05:16 module-info.java
+│ --rw----     2.0 fat     1106 bl defN 22-Jan-06 05:16 org/jrivard/xmlchai/AccessMode.java
+│ --rw----     2.0 fat     1293 bl defN 22-Jan-06 05:16 org/jrivard/xmlchai/ModifyOperation.java
+│ --rw----     2.0 fat     1123 bl defN 22-Jan-06 05:16 org/jrivard/xmlchai/XmlChai.java
+│ --rw----     2.0 fat     1564 bl defN 22-Jan-06 05:16 org/jrivard/xmlchai/XmlChaiInternalUtils.java
+│ --rw----     2.0 fat     2601 bl defN 22-Jan-06 05:16 org/jrivard/xmlchai/XmlDocument.java
+│ --rw----     2.0 fat     4402 bl defN 22-Jan-06 05:16 org/jrivard/xmlchai/XmlDocumentW3c.java
+│ --rw----     2.0 fat     7917 bl defN 22-Jan-06 05:16 org/jrivard/xmlchai/XmlElement.java
+│ --rw----     2.0 fat    12726 bl defN 22-Jan-06 05:16 org/jrivard/xmlchai/XmlElementW3c.java
+│ --rw----     2.0 fat     4351 bl defN 22-Jan-06 05:16 org/jrivard/xmlchai/XmlFactory.java
+│ --rw----     2.0 fat     7872 bl defN 22-Jan-06 05:16 org/jrivard/xmlchai/XmlFactoryW3c.java
+│ --rw----     2.0 fat      868 bl defN 22-Jan-06 05:16 org/jrivard/xmlchai/package-info.java
+│ -24 files, 73765 bytes uncompressed, 20484 bytes compressed:  72.2%
+│ +Zip file size: 20914 bytes, number of entries: 22
+│ +-rw-r--r--  2.0 unx      506 b- defN 22-Jan-06 10:16 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-06 10:16 META-INF/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-06 10:16 org/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-06 10:16 org/jrivard/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-06 10:16 org/jrivard/xmlchai/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-06 10:16 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-06 10:16 META-INF/maven/org.jrivard.xmlchai/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-06 10:16 META-INF/maven/org.jrivard.xmlchai/xmlchai/
+│ +-rw-r--r--  2.0 unx      946 b- defN 22-Jan-06 10:16 module-info.java
+│ +-rw-r--r--  2.0 unx     1106 b- defN 22-Jan-06 10:16 org/jrivard/xmlchai/AccessMode.java
+│ +-rw-r--r--  2.0 unx     1293 b- defN 22-Jan-06 10:16 org/jrivard/xmlchai/ModifyOperation.java
+│ +-rw-r--r--  2.0 unx     1123 b- defN 22-Jan-06 10:16 org/jrivard/xmlchai/XmlChai.java
+│ +-rw-r--r--  2.0 unx     1564 b- defN 22-Jan-06 10:16 org/jrivard/xmlchai/XmlChaiInternalUtils.java
+│ +-rw-r--r--  2.0 unx     2601 b- defN 22-Jan-06 10:16 org/jrivard/xmlchai/XmlDocument.java
+│ +-rw-r--r--  2.0 unx     4402 b- defN 22-Jan-06 10:16 org/jrivard/xmlchai/XmlDocumentW3c.java
+│ +-rw-r--r--  2.0 unx     7917 b- defN 22-Jan-06 10:16 org/jrivard/xmlchai/XmlElement.java
+│ +-rw-r--r--  2.0 unx    12726 b- defN 22-Jan-06 10:16 org/jrivard/xmlchai/XmlElementW3c.java
+│ +-rw-r--r--  2.0 unx     4351 b- defN 22-Jan-06 10:16 org/jrivard/xmlchai/XmlFactory.java
+│ +-rw-r--r--  2.0 unx     7872 b- defN 22-Jan-06 10:16 org/jrivard/xmlchai/XmlFactoryW3c.java
+│ +-rw-r--r--  2.0 unx      868 b- defN 22-Jan-06 10:16 org/jrivard/xmlchai/package-info.java
+│ +-rw-r--r--  2.0 unx    21725 b- defN 22-Jan-06 10:16 META-INF/maven/org.jrivard.xmlchai/xmlchai/pom.xml
+│ +-rw-r--r--  2.0 unx       61 b- defN 22-Jan-06 10:16 META-INF/maven/org.jrivard.xmlchai/xmlchai/pom.properties
+│ +22 files, 69061 bytes uncompressed, 17838 bytes compressed:  74.2%
+├── zipnote «TEMP»/diffoscope_4ro_yzdf_target/tmpao9mt_t3.zip
+│ @@ -1,41 +1,29 @@
+│  Filename: META-INF/MANIFEST.MF
+│  Comment: 
+│  
+│ -Filename: META-INF/SELFSIGN.SF
+│ -Comment: 
+│ -
+│ -Filename: META-INF/SELFSIGN.RSA
+│ -Comment: 
+│ -
+│  Filename: META-INF/
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/org.jrivard.xmlchai/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/org.jrivard.xmlchai/xmlchai/
+│ +Filename: org/
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/org.jrivard.xmlchai/xmlchai/pom.xml
+│ +Filename: org/jrivard/
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/org.jrivard.xmlchai/xmlchai/pom.properties
+│ +Filename: org/jrivard/xmlchai/
+│  Comment: 
+│  
+│ -Filename: org/
+│ +Filename: META-INF/maven/
+│  Comment: 
+│  
+│ -Filename: org/jrivard/
+│ +Filename: META-INF/maven/org.jrivard.xmlchai/
+│  Comment: 
+│  
+│ -Filename: org/jrivard/xmlchai/
+│ +Filename: META-INF/maven/org.jrivard.xmlchai/xmlchai/
+│  Comment: 
+│  
+│  Filename: module-info.java
+│  Comment: 
+│  
+│  Filename: org/jrivard/xmlchai/AccessMode.java
+│  Comment: 
+│ @@ -66,8 +54,14 @@
+│  
+│  Filename: org/jrivard/xmlchai/XmlFactoryW3c.java
+│  Comment: 
+│  
+│  Filename: org/jrivard/xmlchai/package-info.java
+│  Comment: 
+│  
+│ +Filename: META-INF/maven/org.jrivard.xmlchai/xmlchai/pom.xml
+│ +Comment: 
+│ +
+│ +Filename: META-INF/maven/org.jrivard.xmlchai/xmlchai/pom.properties
+│ +Comment: 
+│ +
+│  Zip file comment:
+├── META-INF/MANIFEST.MF
+│ @@ -5,52 +5,10 @@
+│  Implementation-Title: XML Chai Library
+│  Implementation-URL: https://github.com/jrivard/xmlchai
+│  Implementation-Vendor: XML Chai Project
+│  Implementation-Version: 0.1.0
+│  SCM-Git-Commit-Dirty: 
+│  SCM-Git-Commit-ID: b8b0e095af45ed8b3212b934ce46f2dcb54fdea6
+│  SCM-Git-Commit-ID-Abbrev: b8b0e09
+│ -SCM-Git-Commit-ID-Description: v1_0_1
+│ +SCM-Git-Commit-ID-Description: b8b0e09
+│  SCM-Git-Commit-Timestamp: 2022-01-06T10:16:03Z
+│  
+│ -Name: org/jrivard/xmlchai/XmlFactory.java
+│ -SHA-256-Digest: YPOuTb/VGx2VeSbiMvdHSss0v2fHOiaHciphNSuNfVc=
+│ -
+│ -Name: org/jrivard/xmlchai/XmlElement.java
+│ -SHA-256-Digest: mqDR3mHy8MMhyHNWl1xVitnvDLLhKynIyhNbCXmqCWw=
+│ -
+│ -Name: META-INF/maven/org.jrivard.xmlchai/xmlchai/pom.xml
+│ -SHA-256-Digest: KIzdRpNKhY6mY0CMATdSyYTT2OH/jojAEFvxj28hflc=
+│ -
+│ -Name: org/jrivard/xmlchai/AccessMode.java
+│ -SHA-256-Digest: 61WiDI2SSecgRQd91Tajc3dGK3ZZl1Y1PY+kNpEhAyU=
+│ -
+│ -Name: org/jrivard/xmlchai/XmlElementW3c.java
+│ -SHA-256-Digest: tMrh/JAVFlfhO2yTmRTnODMb1osZSOrTXegSEHIa1FQ=
+│ -
+│ -Name: module-info.java
+│ -SHA-256-Digest: /nlNvCM9IvxtKfQ8wsIMQSV/Vh7K0Xib1qbgwDD970o=
+│ -
+│ -Name: org/jrivard/xmlchai/XmlChaiInternalUtils.java
+│ -SHA-256-Digest: D2N1otSORUX7UEvtjjk9bSGXZEtLWZAF4jdBGPxsCKQ=
+│ -
+│ -Name: org/jrivard/xmlchai/XmlDocument.java
+│ -SHA-256-Digest: tMPorKhOFxRQlwhB1s4mD+ZKh1JmNNE0XpVj4H0iUAg=
+│ -
+│ -Name: org/jrivard/xmlchai/XmlFactoryW3c.java
+│ -SHA-256-Digest: 76eBPiv35FzE2CzC1XB15v5Pcm4sZYrwKXRYmPQnO/8=
+│ -
+│ -Name: org/jrivard/xmlchai/ModifyOperation.java
+│ -SHA-256-Digest: kczvQhKz8sisEe/S34Oz3pmDZKHGXLXvpHqQKLzek+Q=
+│ -
+│ -Name: META-INF/maven/org.jrivard.xmlchai/xmlchai/pom.properties
+│ -SHA-256-Digest: jCj3pA9JLg/PyuNvRHQOcdSU0st+vM/PZ9Wcut8p2cA=
+│ -
+│ -Name: org/jrivard/xmlchai/package-info.java
+│ -SHA-256-Digest: jgexDp+cRr0z8LJXRBl46XVrDygKVlRGaqDBE4Li4Es=
+│ -
+│ -Name: org/jrivard/xmlchai/XmlChai.java
+│ -SHA-256-Digest: CR6afwV11IUYAlpYe5OlrqgyU1nj2uYHY8Kfvc8RYXY=
+│ -
+│ -Name: org/jrivard/xmlchai/XmlDocumentW3c.java
+│ -SHA-256-Digest: AC41bcYWLlH4i6f8xu+wG5HxHm6xdh56LtDl8jur0kY=
+│ -
+

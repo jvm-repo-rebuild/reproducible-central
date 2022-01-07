@@ -1,0 +1,19 @@
+groupId=org.jrivard.xmlchai
+artifactId=xmlchai
+version=0.1.0
+
+display=${groupId}:${artifactId}
+
+# Source code
+gitRepo=https://github.com/jrivard/${artifactId}.git
+gitTag=b8b0e095af45ed8b3212b934ce46f2dcb54fdea6
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn -Pskip-javadoc,skip-tests clean package -Djarsigner.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=

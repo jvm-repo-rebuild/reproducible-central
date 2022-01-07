@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=XML Chai Library
+group-id=org.jrivard.xmlchai
+artifact-id=xmlchai
+version=0.1.0
+
+# source information
+source.scm.uri=scm:git:git@www.github.com:jrivard/chaixml.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=xmlchai-0.1.0.pom
+outputs.0.length=21725
+outputs.0.checksums.sha512=9cb3badbd98acad248ab2e7a2dd95902f7a01af91455ca2c5a51e9c94d33fb667382d140480c03f16640ed3f2732c3a9583cc82b5b7c00aaab30d6594b9142e1
+
+outputs.1.filename=xmlchai-0.1.0.jar
+outputs.1.length=22546
+outputs.1.checksums.sha512=c422b6f8274575f29b4de3d67f7b6514a441e82064a0a7cd6c4405d9642fbe0f67adb8fd653f89f22d9143eebfd8e492741e85f502f8ed6a4e478a36e71bbaee
+
+outputs.2.filename=xmlchai-0.1.0-sources.jar
+outputs.2.length=20914
+outputs.2.checksums.sha512=e83643288f16142d17f1db7e2c1e712d472a68ddb8f919b06f0d1c35263f884cbcba84edfa38d624891da7725c32e65d968a67cc59734c1a821a118b6d53d5f9
