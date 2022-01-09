@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven JAR Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-jar-plugin
+version=3.2.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-jar-plugin.git
+source.scm.tag=maven-jar-plugin-3.2.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.1.0
+
+# output
+
+outputs.0.filename=maven-jar-plugin-3.2.1.pom
+outputs.0.length=7601
+outputs.0.checksums.sha512=b87168a11346264f09c4edf2f21ddece0da9f58d1f8729a36e190c55d7f1e3c0655f81f18f877adfe0bcba9b97a524c4ec929173dc1f458cd4d965b907b644b8
+
+outputs.1.filename=maven-jar-plugin-3.2.1.jar
+outputs.1.length=28771
+outputs.1.checksums.sha512=cded10e5505c98c0726f19fe489061aa7e0a9bf413db83f0e5d26880f5272c7fc62f7444d51bf31926ee88b368b61b986f1b4e5295006f2ed1680a3048962084
+
+outputs.2.filename=maven-jar-plugin-3.2.1-source-release.zip
+outputs.2.length=198490
+outputs.2.checksums.sha512=0d89b58b65c6c5b5b5512eeeb2d88b2c077b94a08e7ef9356fa52e2bf0c46230289e7311e57c994296481c14d6c78c56b2daef28b3513c60f3ea00aebe3d77b9
+
+outputs.3.filename=maven-jar-plugin-3.2.1-sources.jar
+outputs.3.length=21642
+outputs.3.checksums.sha512=995a48687dfb07ef3cfdd7ce6d8c7df5485780a031fe7e9e30dd0497d9a02370291b859bbde86fe85148b790ffbbb9965ff74a9438454636c56b11d265755fb5
