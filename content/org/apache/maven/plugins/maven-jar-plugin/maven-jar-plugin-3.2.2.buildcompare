@@ -1,0 +1,7 @@
+version=3.2.2
+ok=4
+ko=0
+okFiles="maven-jar-plugin-3.2.2.pom maven-jar-plugin-3.2.2.jar maven-jar-plugin-3.2.2-source-release.zip maven-jar-plugin-3.2.2-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
