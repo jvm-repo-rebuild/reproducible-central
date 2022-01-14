@@ -1,0 +1,9 @@
+version=0.8.2
+ok=1
+ko=2
+okFiles="ldapchai-0.8.2.pom"
+koFiles="ldapchai-0.8.2.jar ldapchai-0.8.2-sources.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/ldapchai-0.8.2.jar target/ldapchai-0.8.2.jar
+# diffoscope target/reference/ldapchai-0.8.2-sources.jar target/ldapchai-0.8.2-sources.jar
