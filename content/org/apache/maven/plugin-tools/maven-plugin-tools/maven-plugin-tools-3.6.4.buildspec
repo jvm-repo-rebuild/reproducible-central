@@ -1,6 +1,6 @@
 groupId=org.apache.maven.plugin-tools
 artifactId=maven-plugin-tools
-version=3.6.2
+version=3.6.4
 
 display=${groupId}:${artifactId}
 
@@ -8,8 +8,8 @@ gitRepo=https://github.com/apache/${artifactId}.git
 gitTag=${artifactId}-${version}
 
 tool=mvn
-jdk=16
-newline=crlf
+jdk=8
+newline=lf
 
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
