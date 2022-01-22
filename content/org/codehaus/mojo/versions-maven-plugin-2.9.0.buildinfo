@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Versions Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=versions-maven-plugin
+version=2.9.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/versions-maven-plugin.git
+source.scm.tag=versions-maven-plugin-2.9.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=versions-maven-plugin-2.9.0.pom
+outputs.0.length=15425
+outputs.0.checksums.sha512=a11577bcc97035e2500ab468ded6e5c81ab0d7d20857e0e80ddc663d00b0713911812e660ab9e5153682c142e52f43ca22b73209f6e353ad695c1735487c0223
+
+outputs.1.filename=versions-maven-plugin-2.9.0.jar
+outputs.1.length=313589
+outputs.1.checksums.sha512=37d8030f1b2ed0954edaad64a974ab96cf06001f0a54913723e4c8d354bc32821c57e97c778dfe1b3b6181295ca03b450f97ee6cda8948d3606ba39185046618
+
+outputs.2.filename=versions-maven-plugin-2.9.0-source-release.zip
+outputs.2.length=713417
+outputs.2.checksums.sha512=acadf6f4c26ab560b5f2fbb1eca9234041dee189d7a0a060746757d1b03198ebbbcf392c34cc4b0c5fe2cabcc1c4debd936d4f5aeecc2f09a8acce7ac99521e0
+
+outputs.3.filename=versions-maven-plugin-2.9.0-sources.jar
+outputs.3.length=215782
+outputs.3.checksums.sha512=1735339beec610344d10c2095c9eb4ab93e36b2203ab4d57efc58e3516138048d4a85e69da7cec624881598b8e0a39989033d0bce4a9e3852b49ae0f37b244d1
