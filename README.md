@@ -1,7 +1,7 @@
 Rebuilding artifacts from (Maven) Central Repository
 ====================================================
 
-[![Reproducible Builds](https://reproducible-builds.org/assets/images/footer/logo-text.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
+[![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
 As part of [Reproducible Builds efforts for the JVM](https://reproducible-builds.org/docs/jvm/), this "**Reproducible Central**" project is an attempt at:
 1. writing [`.buildspec`rebuild instructions](BUILDSPEC.md) for the artifacts available in the [Central Repository](https://search.maven.org/),
