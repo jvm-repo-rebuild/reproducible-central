@@ -1,0 +1,44 @@
+target/reference/parent-37-source-release.zip target/parent-37-source-release.zip
+--- target/reference/parent-37-source-release.zip
++++ target/parent-37-source-release.zip
+├── zipinfo {}
+│ @@ -1,9 +1,9 @@
+│  Zip file size: 6485 bytes, number of entries: 7
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-22 22:06 parent-37/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-22 22:05 parent-37/.github/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-22 22:05 parent-37/.github/workflows/
+│ --rw-r--r--  2.0 unx        0 b- defN 22-Jan-22 22:05 parent-37/.parent.marker
+│ --rw-r--r--  2.0 unx    33793 b- defN 22-Jan-22 22:05 parent-37/pom.xml
+│ --rw-r--r--  2.0 unx     1970 b- defN 22-Jan-22 22:05 parent-37/.github/workflows/ci.yml
+│ --rw-r--r--  2.0 unx      261 b- defN 22-Jan-22 22:05 parent-37/.github/dependabot.yml
+│ +drwxrwxr-x  2.0 unx        0 b- stor 22-Jan-23 16:14 parent-37/
+│ +drwxrwxr-x  2.0 unx        0 b- stor 22-Jan-23 16:14 parent-37/.github/
+│ +drwxrwxr-x  2.0 unx        0 b- stor 22-Jan-23 16:14 parent-37/.github/workflows/
+│ +-rw-rw-r--  2.0 unx    33793 b- defN 22-Jan-23 16:14 parent-37/pom.xml
+│ +-rw-rw-r--  2.0 unx        0 b- defN 22-Jan-23 16:14 parent-37/.parent.marker
+│ +-rw-rw-r--  2.0 unx     1970 b- defN 22-Jan-23 16:14 parent-37/.github/workflows/ci.yml
+│ +-rw-rw-r--  2.0 unx      261 b- defN 22-Jan-23 16:14 parent-37/.github/dependabot.yml
+│  7 files, 36024 bytes uncompressed, 5605 bytes compressed:  84.4%
+├── zipnote {}
+│ @@ -3,18 +3,18 @@
+│  
+│  Filename: parent-37/.github/
+│  Comment: 
+│  
+│  Filename: parent-37/.github/workflows/
+│  Comment: 
+│  
+│ -Filename: parent-37/.parent.marker
+│ +Filename: parent-37/pom.xml
+│  Comment: 
+│  
+│ -Filename: parent-37/pom.xml
+│ +Filename: parent-37/.parent.marker
+│  Comment: 
+│  
+│  Filename: parent-37/.github/workflows/ci.yml
+│  Comment: 
+│  
+│  Filename: parent-37/.github/dependabot.yml
+│  Comment:
+

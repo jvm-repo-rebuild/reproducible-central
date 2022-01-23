@@ -1,0 +1,6 @@
+version=37
+ok=1
+ko=1
+okFiles="parent-37.pom"
+koFiles="parent-37-source-release.zip"
+# diffoscope target/reference/parent-37-source-release.zip target/parent-37-source-release.zip
