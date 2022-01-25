@@ -1,0 +1,18 @@
+groupId=io.github.albertus82
+artifactId=jface-utils
+version=19.0.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/albertus82/${artifactId}.git
+gitTag=v${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
