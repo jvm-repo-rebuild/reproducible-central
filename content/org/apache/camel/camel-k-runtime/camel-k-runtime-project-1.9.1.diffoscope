@@ -1,4 +1,4 @@
-only 3 types of issues:
+only 2 types of issues:
 - jandex.idx that is not reproducible: https://github.com/wildfly/jandex-maven-plugin/pull/35
 - quarkus-extension.properties and quarkus-javadoc.properties contain a timestamp
 
