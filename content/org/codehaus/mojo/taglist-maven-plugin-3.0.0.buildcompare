@@ -1,0 +1,7 @@
+version=3.0.0
+ok=4
+ko=0
+okFiles="taglist-maven-plugin-3.0.0.pom taglist-maven-plugin-3.0.0.jar taglist-maven-plugin-3.0.0-source-release.zip taglist-maven-plugin-3.0.0-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

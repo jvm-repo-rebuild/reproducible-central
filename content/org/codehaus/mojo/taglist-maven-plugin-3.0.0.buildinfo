@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Taglist Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=taglist-maven-plugin
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/taglist-maven-plugin.git
+source.scm.tag=taglist-maven-plugin-3.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=taglist-maven-plugin-3.0.0.pom
+outputs.0.length=10107
+outputs.0.checksums.sha512=dd64cf7d5f426fd786e65da479b8da6e54bb2f5d400ca14b84a57a44ef05dc121e466358962ca7dc4ef4be648c119d8799b323c3dca4336fe19588bc8986d6fe
+
+outputs.1.filename=taglist-maven-plugin-3.0.0.jar
+outputs.1.length=49955
+outputs.1.checksums.sha512=f8c50b4d82d2716d72ab214bd4e92c03f382a70196f3876e0ba4367133aac33723ae483a17b6a5883c18d45fd65d06cd740060ad0f972548af03c808580ac0ad
+
+outputs.2.filename=taglist-maven-plugin-3.0.0-source-release.zip
+outputs.2.length=109347
+outputs.2.checksums.sha512=89dccbc70425a670d32a0bd566fd12e18a023f525b85fa7e63512d5d03e9cea1790664b77a70b802f218b8df3b4d06f8278144f7755c31c911368cde3d427c75
+
+outputs.3.filename=taglist-maven-plugin-3.0.0-sources.jar
+outputs.3.length=44406
+outputs.3.checksums.sha512=276bbb268fbeaaeb111fc8b56b0952edf709e275c4903cca929e3da1b861eac263bac856f81adcdeb50b9833c033636d9782a0ebfb605c66a589f77a06324103
