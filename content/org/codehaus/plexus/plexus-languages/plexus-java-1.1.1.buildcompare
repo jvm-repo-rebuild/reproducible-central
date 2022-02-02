@@ -1,0 +1,8 @@
+version=1.1.1
+ok=5
+ko=1
+okFiles="plexus-languages-1.1.1.pom plexus-languages-1.1.1-site.xml plexus-languages-1.1.1-source-release.zip plexus-java-1.1.1.pom plexus-java-1.1.1-sources.jar"
+koFiles="plexus-java-1.1.1.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/plexus-java-1.1.1.jar plexus-java/target/plexus-java-1.1.1.jar

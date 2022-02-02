@@ -1,0 +1,51 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Languages
+group-id=org.codehaus.plexus
+artifact-id=plexus-languages
+version=1.1.1
+
+# source information
+source.scm.uri=scm:git:git@github.com:codehaus-plexus/plexus-languages.git
+source.scm.tag=plexus-languages-1.1.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=plexus-java
+
+# aggregated output
+
+outputs.0.coordinates=org.codehaus.plexus:plexus-languages
+
+outputs.0.0.filename=plexus-languages-1.1.1.pom
+outputs.0.0.length=4614
+outputs.0.0.checksums.sha512=5627af365b7f50ee6f91fa5f019bfb7c9136f4275b23397e3de3acef155f6845fd2a75cfc271baf182b1add7471affc70bb970aa922c9024a6e07d7ccb1a161f
+
+outputs.0.1.filename=plexus-languages-1.1.1-site.xml
+outputs.0.1.length=1182
+outputs.0.1.checksums.sha512=c892fe16bb64af6d50a4b035792b82bfc1501675871dca207d3465159a63d1bc8e1e4ed738298a1401c901c548243ad6c261a2d3a5e7bcbd8f89b43c97ddb4f0
+
+outputs.0.2.filename=plexus-languages-1.1.1-source-release.zip
+outputs.0.2.length=488011
+outputs.0.2.checksums.sha512=10127f497591454956266fcabb465f2dd2a487bca7fddf03e1d1debd7b3eddd04a4f5dafb668f14dd42d2651ae60fa38ea5f3cbcd0161924a90b6b5df22bb742
+
+outputs.1.coordinates=org.codehaus.plexus:plexus-java
+
+outputs.1.0.filename=plexus-java-1.1.1.pom
+outputs.1.0.length=4971
+outputs.1.0.checksums.sha512=49cd9a9e85e08dab41a1152eb19e87919d9baa6d1e68a49ba297254b0d775f6721b3aa999638a0116e5f97eecac40b206680cf037638fc9b5dff97bd72662253
+
+outputs.1.1.filename=plexus-java-1.1.1.jar
+outputs.1.1.length=53784
+outputs.1.1.checksums.sha512=46db1ece57bc049059120ff6e13acd1f3bdb9192dd0a38a84fd449ba297f16f821b93046d607bb83e6b3942532a526352570831c5c2fdda6d374e6318be0c397
+
+outputs.1.2.filename=plexus-java-1.1.1-sources.jar
+outputs.1.2.length=30180
+outputs.1.2.checksums.sha512=c25a015173a233af4cc9ded0ff91e43d12af141c83a1902008cd299493534ce0ce8c40ef735aeabb8e8e21ee05b71e020c0593cb05fcee0a40f347575710eaf1
