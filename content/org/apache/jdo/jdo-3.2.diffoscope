@@ -1,0 +1,43 @@
+target/reference/jdo-api-3.2.jar api/target/jdo-api-3.2.jar
+--- target/reference/jdo-api-3.2.jar
++++ api/target/jdo-api-3.2.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 258488 bytes, number of entries: 273
+│ +Zip file size: 258489 bytes, number of entries: 273
+│  -rw-r--r--  2.0 unx     1811 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 javax/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 javax/jdo/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 javax/jdo/annotations/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 javax/jdo/datastore/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 javax/jdo/identity/
+│ @@ -268,8 +268,8 @@
+│  -rw-r--r--  2.0 unx     1962 b- defN 80-000-00 04:08 javax/jdo/spi/PersistenceCapable.class
+│  -rw-r--r--  2.0 unx     1396 b- defN 80-000-00 04:08 javax/jdo/spi/RegisterClassEvent.class
+│  -rw-r--r--  2.0 unx      232 b- defN 80-000-00 04:08 javax/jdo/spi/RegisterClassListener.class
+│  -rw-r--r--  2.0 unx      563 b- defN 80-000-00 04:08 javax/jdo/spi/StateInterrogation.class
+│  -rw-r--r--  2.0 unx     3906 b- defN 80-000-00 04:08 javax/jdo/spi/StateManager.class
+│  -rw-r--r--  2.0 unx     6184 b- defN 80-000-00 04:08 META-INF/maven/javax.jdo/jdo-api/pom.xml
+│  -rw-r--r--  2.0 unx       52 b- defN 80-000-00 04:08 META-INF/maven/javax.jdo/jdo-api/pom.properties
+│ -273 files, 1063704 bytes uncompressed, 218864 bytes compressed:  79.4%
+│ +273 files, 1063704 bytes uncompressed, 218865 bytes compressed:  79.4%
+├── META-INF/MANIFEST.MF
+│ @@ -4,15 +4,15 @@
+│   rface-based        Java model abstraction of persistence, developed a
+│   s Java Specification        Requests (JSR 12 and 243) under the auspi
+│   ces of the Java Community Process.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+│  Bundle-SymbolicName: javax.jdo
+│  Implementation-Version: 3.2
+│  Specification-Vendor: Apache Software Foundation
+│ -Bnd-LastModified: 1643144241821
+│ +Bnd-LastModified: 1643837133664
+│  Bundle-ManifestVersion: 2
+│  Specification-Title: JDO API
+│  Bundle-Vendor: Apache Software Foundation
+│  Import-Package: javax.jdo,javax.jdo.annotations,javax.jdo.datastore,ja
+│   vax.jdo.listener,javax.jdo.metadata,javax.jdo.query,javax.jdo.spi,jav
+│   ax.naming,javax.rmi;version="[1.0,2)",javax.transaction;resolution:=o
+│   ptional;version="[1.3,2)",javax.xml.parsers,org.w3c.dom,org.xml.sax
+

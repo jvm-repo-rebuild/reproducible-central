@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JDO Root POM
+group-id=org.apache
+artifact-id=jdo
+version=3.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/db-jdo.git
+source.scm.tag=v3.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=jdo
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.jdo:parent-pom
+
+outputs.0.0.filename=parent-pom-3.2.pom
+outputs.0.0.length=13078
+outputs.0.0.checksums.sha512=050ec349ced9a255a77fdb08db9448d01b12b870ecfa10056ade5807ce910a80b8ec37e38b97a992464923c1cdf70f8e6117221918a3259a0e58c5d6c734cdb5
+
+outputs.1.coordinates=javax.jdo:jdo-api
+
+outputs.1.0.filename=jdo-api-3.2.pom
+outputs.1.0.length=6184
+outputs.1.0.checksums.sha512=092423e79cf39ceee6755c6a9c4fde1bf496652bdae108761fe60a77a50f2ca9d9ccfb412755a3497525a95e5935c500f18ff713322d18c6f869ad76dba2bc8d
+
+outputs.1.1.filename=jdo-api-3.2.jar
+outputs.1.1.length=258489
+outputs.1.1.checksums.sha512=2987d9a6003d77d1a0f9f2d1d35bd1b62c700a2dc24effe2e686a565b70c74066f188c6f18173fecccc252977b4a29f0a66a8f60d71527598dfab713d25e0109
+
+outputs.1.2.filename=jdo-api-3.2-sources.jar
+outputs.1.2.length=363622
+outputs.1.2.checksums.sha512=46a6957d68d7ce8d246a9b39ec2c41bc466998550053644fae7892a853f79679e3b8df80d904bd61bc09bc05383dff64557f2085c2f39029a016df1dcba502ad
+
+outputs.2.coordinates=org.apache:jdo
+
+outputs.2.0.filename=jdo-3.2.pom
+outputs.2.0.length=4100
+outputs.2.0.checksums.sha512=c480e0ab3106ccbafb58765176dc7cacafe60d04f497117483ccc338fec0960a981053bd27b42841e76d34a5a859f873a450489cfa4d3b54473224e9adc208a6
+
+outputs.2.1.filename=jdo-3.2-source-release.zip
+outputs.2.1.length=5869902
+outputs.2.1.checksums.sha512=744143a1a39ebbb82023f8351e930bad4d313620785996de91151b52e17784bf4979461b09e484a130da42843be4e0d778133c6b6ec2de6502dd5617bb6adba1
+
+outputs.2.2.filename=jdo-3.2-source-release.tar.gz
+outputs.2.2.length=3889264
+outputs.2.2.checksums.sha512=d2200874250b0e55d8ed399f8a249fe68f0be138332d178714c8e272646f970d0cbb156ff7adfce23815863592070738c1f0d881505d40952fd68288116bb1e7
