@@ -13,20 +13,22 @@ source.scm.tag=HEAD
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_275
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 
 # output
 
-outputs.0.filename=antisamy-1.6.3.jar
-outputs.0.length=150452
-outputs.0.checksums.sha512=b035f2f85c85e06b4a6e83b7272fd1e6c0ba52c50bc18d8942ac92c623024468750e43fb7894278e014a08cb52bfc4321da20cf980f5129d67ebc938a3e21b6a
+outputs.0.filename=antisamy-1.6.3.pom
+outputs.0.length=17186
+outputs.0.checksums.sha512=522e0a12e618a55c2a3a7fad8be7939fdbf2cf051643e1b2084b07fd9752520ea996cbb0c467a14d104f75fc6e5651c60e7617e5c512364cd7cc80a084000bae
 
-outputs.1.filename=antisamy-1.6.3-sources.jar
-outputs.1.length=143127
-outputs.1.checksums.sha512=3663438be0d523d4145c5e9e7624a654eae2e7572b56f94f43a254d3bcd1ce26f640a455e9b376a6c177bd18bea03e6484919b5458314979cbb8e4d2fe0540a6
+outputs.1.filename=antisamy-1.6.3.jar
+outputs.1.length=150452
+outputs.1.checksums.sha512=b035f2f85c85e06b4a6e83b7272fd1e6c0ba52c50bc18d8942ac92c623024468750e43fb7894278e014a08cb52bfc4321da20cf980f5129d67ebc938a3e21b6a
+
+outputs.2.filename=antisamy-1.6.3-sources.jar
+outputs.2.length=143127
+outputs.2.checksums.sha512=3663438be0d523d4145c5e9e7624a654eae2e7572b56f94f43a254d3bcd1ce26f640a455e9b376a6c177bd18bea03e6484919b5458314979cbb8e4d2fe0540a6

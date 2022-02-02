@@ -21,10 +21,14 @@ os.name=Unix
 
 # output
 
-outputs.0.filename=antisamy-1.6.4.jar
-outputs.0.length=150722
-outputs.0.checksums.sha512=4b8192819cc51945aaaeb9cc1aa7c691fee1cf4b61fe7bb77359e067b1603ece805c1139bfe53f636651e93999a8fa8b4009f28c2a26e178390fd56d0606f14b
+outputs.0.filename=antisamy-1.6.4.pom
+outputs.0.length=17188
+outputs.0.checksums.sha512=9d63c41e34905e7a95085aaecbe6c573362d9774cadab8356564c234ba7f1f369df429684597a71ab4faa2deb48538a7cae51181f847a7e793eeb04974f09689
 
-outputs.1.filename=antisamy-1.6.4-sources.jar
-outputs.1.length=143312
-outputs.1.checksums.sha512=c5130531f38c2d208a1ae84f6e3761c1e480e75aacc419dafe9edae03bfa1e37d8711b4cb3c9e17d91cd05e77215bd1f7b52315d01b442bd9865769b8ef407bf
+outputs.1.filename=antisamy-1.6.4.jar
+outputs.1.length=150722
+outputs.1.checksums.sha512=4b8192819cc51945aaaeb9cc1aa7c691fee1cf4b61fe7bb77359e067b1603ece805c1139bfe53f636651e93999a8fa8b4009f28c2a26e178390fd56d0606f14b
+
+outputs.2.filename=antisamy-1.6.4-sources.jar
+outputs.2.length=143312
+outputs.2.checksums.sha512=c5130531f38c2d208a1ae84f6e3761c1e480e75aacc419dafe9edae03bfa1e37d8711b4cb3c9e17d91cd05e77215bd1f7b52315d01b442bd9865769b8ef407bf
