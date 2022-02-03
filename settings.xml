@@ -131,6 +131,12 @@
       <!--url>https://maven.repository.redhat.com/ga/</url-->
     </mirror>
     <mirror>
+        <!-- needed for content/net/sourceforge/pmd/pmd-6.42.0.buildspec -->
+        <id>jcenter</id>
+        <mirrorOf>jcenter</mirrorOf>
+        <url>https://jcenter.bintray.com/</url>
+    </mirror>
+    <mirror>
       <id>default</id>
       <mirrorOf>*</mirrorOf>
       <url>https://repo.maven.apache.org/maven2</url>
