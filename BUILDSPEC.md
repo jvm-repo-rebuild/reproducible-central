@@ -10,7 +10,7 @@ As per Central Repository [upload requirements](https://maven.apache.org/reposit
 
 # Format
 
-**Reproducible Central** rebuild instructions are defined in a `.builspec` file that will be used by [`rebuild.sh`](rebuild.sh) script. A `.buildspec` file is de-facto a Bash shell script defining a few variables that `rebuild.sh` will use to do the rebuild:
+**Reproducible Central** rebuild instructions are defined in a `.buildspec` file that will be used by [`rebuild.sh`](rebuild.sh) script. A `.buildspec` file is de-facto a Bash shell script defining a few variables that `rebuild.sh` will use to do the rebuild:
 
 ```
 # Central Repository coordinates for the Reference release
