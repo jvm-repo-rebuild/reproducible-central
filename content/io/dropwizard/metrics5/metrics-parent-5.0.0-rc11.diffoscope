@@ -1,0 +1,97 @@
+target/reference/metrics-healthchecks-5.0.0-rc11.jar metrics-healthchecks/target/metrics-healthchecks-5.0.0-rc11.jar
+--- target/reference/metrics-healthchecks-5.0.0-rc11.jar
++++ metrics-healthchecks/target/metrics-healthchecks-5.0.0-rc11.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 22921 bytes, number of entries: 27
+│ +Zip file size: 22923 bytes, number of entries: 27
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     1255 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics5/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics5/metrics-healthchecks/
+│  -rw----     2.0 fat       82 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics5/metrics-healthchecks/pom.properties
+│  -rw----     2.0 fat     2691 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics5/metrics-healthchecks/pom.xml
+│ @@ -22,8 +22,8 @@
+│  -rw----     2.0 fat     3184 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/health/SharedHealthCheckRegistries.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/health/annotation/
+│  -rw----     2.0 fat     1267 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/health/annotation/Async$InitialState.class
+│  -rw----     2.0 fat     1272 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/health/annotation/Async$ScheduleType.class
+│  -rw----     2.0 fat     1181 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/health/annotation/Async.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/health/jvm/
+│  -rw----     2.0 fat     1430 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/health/jvm/ThreadDeadlockHealthCheck.class
+│ -27 files, 44256 bytes uncompressed, 17903 bytes compressed:  59.5%
+│ +27 files, 44256 bytes uncompressed, 17905 bytes compressed:  59.5%
+├── META-INF/MANIFEST.MF
+│ @@ -6,18 +6,18 @@
+│   ck your application's heath in production.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics5 Health Checks
+│  Bundle-SymbolicName: io.dropwizard.metrics5.metrics-healthchecks
+│  Bundle-Version: 5.0.0.rc11
+│  Created-By: Apache Maven Bundle Plugin 5.1.4
+│ -Export-Package: io.dropwizard.metrics5.health;uses:="io.dropwizard.met
+│ - rics5";version="5.0.0",io.dropwizard.metrics5.health.jvm;uses:="io.dr
+│ - opwizard.metrics5.health,io.dropwizard.metrics5.jvm";version="5.0.0",
+│ - io.dropwizard.metrics5.health.annotation;version="5.0.0"
+│ +Export-Package: io.dropwizard.metrics5.health.annotation;version="5.0.
+│ + 0",io.dropwizard.metrics5.health;uses:="io.dropwizard.metrics5";versi
+│ + on="5.0.0",io.dropwizard.metrics5.health.jvm;uses:="io.dropwizard.met
+│ + rics5.health,io.dropwizard.metrics5.jvm";version="5.0.0"
+│  Implementation-Title: Metrics5 Health Checks
+│  Implementation-Version: 5.0.0-rc11
+│  Import-Package: org.slf4j;version="[1.6.0,2.0.0)",io.dropwizard.metric
+│   s5;version="[5.0,6)",io.dropwizard.metrics5.health,io.dropwizard.metr
+│   ics5.health.annotation,io.dropwizard.metrics5.jvm;version="[5.0,6)";r
+│   esolution:=optional
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+target/reference/metrics-jdbi-5.0.0-rc11.jar metrics-jdbi/target/metrics-jdbi-5.0.0-rc11.jar
+--- target/reference/metrics-jdbi-5.0.0-rc11.jar
++++ metrics-jdbi/target/metrics-jdbi-5.0.0-rc11.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 19833 bytes, number of entries: 31
+│ +Zip file size: 19829 bytes, number of entries: 31
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     1040 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics5/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics5/metrics-jdbi/
+│  -rw----     2.0 fat       74 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics5/metrics-jdbi/pom.properties
+│  -rw----     2.0 fat     2458 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics5/metrics-jdbi/pom.xml
+│ @@ -26,8 +26,8 @@
+│  -rw----     2.0 fat     2617 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/jdbi/strategies/NameStrategies.class
+│  -rw----     2.0 fat      277 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/jdbi/strategies/ShortNameStrategy$1.class
+│  -rw----     2.0 fat     2623 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/jdbi/strategies/ShortNameStrategy$ShortContextClassStrategy.class
+│  -rw----     2.0 fat     2775 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/jdbi/strategies/ShortNameStrategy$ShortSqlObjectStrategy.class
+│  -rw----     2.0 fat     1975 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/jdbi/strategies/ShortNameStrategy.class
+│  -rw----     2.0 fat      855 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/jdbi/strategies/SmartNameStrategy.class
+│  -rw----     2.0 fat      265 bl defN 80-Feb-01 00:00 io/dropwizard/metrics5/jdbi/strategies/StatementNameStrategy.class
+│ -31 files, 31781 bytes uncompressed, 13541 bytes compressed:  57.4%
+│ +31 files, 31781 bytes uncompressed, 13537 bytes compressed:  57.4%
+├── META-INF/MANIFEST.MF
+│ @@ -5,18 +5,18 @@
+│   f query durations and rates.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics5 Integration for JDBI
+│  Bundle-SymbolicName: io.dropwizard.metrics5.metrics-jdbi
+│  Bundle-Version: 5.0.0.rc11
+│  Created-By: Apache Maven Bundle Plugin 5.1.4
+│ -Export-Package: io.dropwizard.metrics5.jdbi.strategies;uses:="io.dropw
+│ - izard.metrics5,org.skife.jdbi.v2";version="5.0.0",io.dropwizard.metri
+│ - cs5.jdbi;uses:="io.dropwizard.metrics5,io.dropwizard.metrics5.jdbi.st
+│ - rategies,org.skife.jdbi.v2";version="5.0.0"
+│ +Export-Package: io.dropwizard.metrics5.jdbi;uses:="io.dropwizard.metri
+│ + cs5,io.dropwizard.metrics5.jdbi.strategies,org.skife.jdbi.v2";version
+│ + ="5.0.0",io.dropwizard.metrics5.jdbi.strategies;uses:="io.dropwizard.
+│ + metrics5,org.skife.jdbi.v2";version="5.0.0"
+│  Implementation-Title: Metrics5 Integration for JDBI
+│  Implementation-Version: 5.0.0-rc11
+│  Import-Package: io.dropwizard.metrics5;version="[5.0,6)",io.dropwizard
+│   .metrics5.jdbi.strategies,org.skife.jdbi.v2
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+│  Tool: Bnd-5.1.1.202006162103
+
