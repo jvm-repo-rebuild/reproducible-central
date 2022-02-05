@@ -1,0 +1,9 @@
+version=1.2.18.5
+ok=2
+ko=2
+okFiles="reload4j-1.2.18.5.pom reload4j-1.2.18.5-sources.jar"
+koFiles="reload4j-1.2.18.5.jar reload4j-1.2.18.5-tests.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/reload4j-1.2.18.5.jar target/reload4j-1.2.18.5.jar
+# diffoscope target/reference/reload4j-1.2.18.5-tests.jar target/reload4j-1.2.18.5-tests.jar

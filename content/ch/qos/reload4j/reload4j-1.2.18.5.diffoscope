@@ -1,0 +1,478 @@
+target/reference/reload4j-1.2.18.5.jar target/reload4j-1.2.18.5.jar
+--- target/reference/reload4j-1.2.18.5.jar
++++ target/reload4j-1.2.18.5.jar
+├── zipinfo {}
+│ @@ -1,9 +1,9 @@
+│ -Zip file size: 334090 bytes, number of entries: 250
+│ --rw-r--r--  2.0 unx     2432 b- defN 22-Feb-03 17:21 META-INF/MANIFEST.MF
+│ +Zip file size: 334097 bytes, number of entries: 250
+│ +-rw-r--r--  2.0 unx     2375 b- defN 22-Feb-03 17:21 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-03 17:21 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-03 17:21 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-03 17:21 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-03 17:21 org/apache/log4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-03 17:21 org/apache/log4j/chainsaw/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-03 17:21 org/apache/log4j/config/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-03 17:21 org/apache/log4j/helpers/
+│ @@ -122,15 +122,15 @@
+│  -rw-r--r--  2.0 unx     1586 b- defN 22-Feb-03 17:21 org/apache/log4j/helpers/QuietWriter.class
+│  -rw-r--r--  2.0 unx     1145 b- defN 22-Feb-03 17:21 org/apache/log4j/helpers/RelativeTimeDateFormat.class
+│  -rw-r--r--  2.0 unx     1220 b- defN 22-Feb-03 17:21 org/apache/log4j/helpers/SyslogQuietWriter.class
+│  -rw-r--r--  2.0 unx     3042 b- defN 22-Feb-03 17:21 org/apache/log4j/helpers/SyslogWriter.class
+│  -rw-r--r--  2.0 unx      621 b- defN 22-Feb-03 17:21 org/apache/log4j/helpers/ThreadLocalMap.class
+│  -rw-r--r--  2.0 unx     2020 b- defN 22-Feb-03 17:21 org/apache/log4j/helpers/Transform.class
+│  -rw-r--r--  2.0 unx     2487 b- defN 22-Feb-03 17:21 org/apache/log4j/helpers/UtilLoggingLevel.class
+│ --rw-r--r--  2.0 unx     8068 b- defN 22-Feb-03 17:21 org/apache/log4j/jdbc/JDBCAppender.class
+│ +-rw-r--r--  2.0 unx     8076 b- defN 22-Feb-03 17:21 org/apache/log4j/jdbc/JDBCAppender.class
+│  -rw-r--r--  2.0 unx     4373 b- defN 22-Feb-03 17:21 org/apache/log4j/jdbc/JdbcPatternParser.class
+│  -rw-r--r--  2.0 unx     1462 b- defN 22-Feb-03 17:21 org/apache/log4j/lf5/config/defaultconfig.properties
+│  -rw-r--r--  2.0 unx      778 b- defN 22-Feb-03 17:21 org/apache/log4j/lf5/viewer/images/channelexplorer_new.gif
+│  -rw-r--r--  2.0 unx      256 b- defN 22-Feb-03 17:21 org/apache/log4j/lf5/viewer/images/channelexplorer_satellite.gif
+│  -rw-r--r--  2.0 unx     1249 b- defN 22-Feb-03 17:21 org/apache/log4j/lf5/viewer/images/lf5_small_icon.gif
+│  -rw-r--r--  2.0 unx      772 b- defN 22-Feb-03 17:21 org/apache/log4j/net/DefaultEvaluator.class
+│  -rw-r--r--  2.0 unx     1627 b- defN 22-Feb-03 17:21 org/apache/log4j/net/HardenedLoggingEventInputStream.class
+│ @@ -231,22 +231,22 @@
+│  -rw-r--r--  2.0 unx     1477 b- defN 22-Feb-03 17:21 org/apache/log4j/varia/LevelMatchFilter.class
+│  -rw-r--r--  2.0 unx     1467 b- defN 22-Feb-03 17:21 org/apache/log4j/varia/LevelRangeFilter.class
+│  -rw-r--r--  2.0 unx     1079 b- defN 22-Feb-03 17:21 org/apache/log4j/varia/NullAppender.class
+│  -rw-r--r--  2.0 unx      946 b- defN 22-Feb-03 17:21 org/apache/log4j/varia/ReloadingPropertyConfigurator.class
+│  -rw-r--r--  2.0 unx     3089 b- defN 22-Feb-03 17:21 org/apache/log4j/varia/Roller.class
+│  -rw-r--r--  2.0 unx     1866 b- defN 22-Feb-03 17:21 org/apache/log4j/varia/StringMatchFilter.class
+│  -rw-r--r--  2.0 unx     1450 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/DOMConfigurator$1.class
+│ --rw-r--r--  2.0 unx     1971 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/DOMConfigurator$2.class
+│ +-rw-r--r--  2.0 unx     1975 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/DOMConfigurator$2.class
+│  -rw-r--r--  2.0 unx     1642 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/DOMConfigurator$3.class
+│  -rw-r--r--  2.0 unx     1611 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/DOMConfigurator$4.class
+│  -rw-r--r--  2.0 unx     1442 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/DOMConfigurator$5.class
+│  -rw-r--r--  2.0 unx      389 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/DOMConfigurator$ParseAction.class
+│  -rw-r--r--  2.0 unx    24054 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/DOMConfigurator.class
+│  -rw-r--r--  2.0 unx     1669 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/Log4jEntityResolver.class
+│  -rw-r--r--  2.0 unx     1496 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/SAXErrorHandler.class
+│  -rw-r--r--  2.0 unx      286 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/UnrecognizedElementHandler.class
+│  -rw-r--r--  2.0 unx     4109 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/XMLLayout.class
+│  -rw-r--r--  2.0 unx      745 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/XMLWatchdog.class
+│  -rw-r--r--  2.0 unx     7265 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/log4j.dtd
+│  -rw-r--r--  2.0 unx    16020 b- defN 22-Feb-03 17:21 META-INF/maven/ch.qos.reload4j/reload4j/pom.xml
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Feb-03 17:21 META-INF/maven/ch.qos.reload4j/reload4j/pom.properties
+│ -250 files, 643979 bytes uncompressed, 293304 bytes compressed:  54.5%
+│ +250 files, 643934 bytes uncompressed, 293311 bytes compressed:  54.5%
+├── META-INF/MANIFEST.MF
+│ @@ -8,15 +8,14 @@
+│  Bundle-Vendor: QOS.CH Sarl
+│  Import-Package: javax.jmdns;resolution:=optional,javax.jms;resolution:
+│   =optional,javax.mail;version="[1.4,2)";resolution:=optional,javax.mai
+│   l.internet;version="[1.4,2)";resolution:=optional,javax.naming,javax.
+│   xml.parsers,org.w3c.dom,org.xml.sax,org.xml.sax.helpers
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+│  Tool: Bnd-5.1.1.202006162103
+│ -Originally-Created-By: Apache Maven Bundle Plugin 5.1.4
+│  Export-Package: org.apache.log4j;version="1.2.18.5";uses:="org.apache.
+│   log4j.helpers,org.apache.log4j.or,org.apache.log4j.spi",org.apache.lo
+│   g4j.config;version="1.2.18.5";uses:="org.apache.log4j",org.apache.log
+│   4j.helpers;version="1.2.18.5";uses:="org.apache.log4j,org.apache.log4
+│   j.spi",org.apache.log4j.jdbc;version="1.2.18.5";uses:="org.apache.log
+│   4j,org.apache.log4j.spi",org.apache.log4j.lf5.config;version="1.2.18.
+│   5",org.apache.log4j.lf5.viewer.images;version="1.2.18.5",org.apache.l
+├── org/apache/log4j/PropertyConfigurator.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -983,15 +983,15 @@
+│ │          line 410: 168
+│ │          line 412: 175
+│ │          line 416: 180
+│ │          line 413: 183
+│ │          line 414: 185
+│ │          line 416: 191
+│ │          line 415: 194
+│ │ -        line 416: 196
+│ │ +        line 419: 196
+│ │          line 421: 199
+│ │          line 422: 205
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │             47       6     5 ignore   Ljava/io/InterruptedIOException;
+│ │            156       6     6 ignore   Ljava/io/InterruptedIOException;
+│ │             63     105     5     e   Ljava/lang/Exception;
+│ │ @@ -1469,15 +1469,15 @@
+│ │          line 574: 219
+│ │          line 570: 222
+│ │          line 571: 224
+│ │          line 574: 230
+│ │          line 572: 233
+│ │          line 574: 235
+│ │          line 573: 238
+│ │ -        line 574: 240
+│ │ +        line 576: 240
+│ │          line 577: 243
+│ │          line 578: 249
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │             76       6     6 ignore   Ljava/io/InterruptedIOException;
+│ │            190       6     7 ignore   Ljava/io/InterruptedIOException;
+│ │             97     110     6     e   Ljava/lang/Exception;
+├── org/apache/log4j/jdbc/JDBCAppender.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -671,14 +671,15 @@
+│ │          line 246: 24
+│ │          line 247: 28
+│ │          line 249: 34
+│ │          line 250: 39
+│ │          line 246: 42
+│ │          line 247: 48
+│ │          line 249: 54
+│ │ +        line 250: 59
+│ │          line 253: 62
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      63     0  this   Lorg/apache/log4j/jdbc/JDBCAppender;
+│ │              0      63     1   sql   Ljava/lang/String;
+│ │              2      61     2   con   Ljava/sql/Connection;
+│ │              4      59     3  stmt   Ljava/sql/Statement;
+│ │ @@ -915,14 +916,15 @@
+│ │          line 332: 122
+│ │          line 328: 130
+│ │          line 329: 132
+│ │          line 331: 146
+│ │          line 332: 150
+│ │          line 331: 158
+│ │          line 332: 164
+│ │ +        line 334: 169
+│ │          line 336: 172
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │            110       8     4    ps   Ljava/sql/PreparedStatement;
+│ │            132      14     4     e   Ljava/sql/SQLException;
+│ │              0     173     0  this   Lorg/apache/log4j/jdbc/JDBCAppender;
+│ │             12     161     1 removes   Ljava/util/ArrayList;
+│ │ @@ -1010,15 +1012,15 @@
+│ │          line 360: 97
+│ │          line 359: 100
+│ │          line 361: 102
+│ │          line 357: 105
+│ │          line 358: 107
+│ │          line 360: 113
+│ │          line 359: 116
+│ │ -        line 360: 118
+│ │ +        line 361: 118
+│ │          line 362: 121
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │             53      14     6     e   Ljava/sql/SQLException;
+│ │             28      39     5 logEvent   Lorg/apache/log4j/spi/LoggingEvent;
+│ │              0     122     0  this   Lorg/apache/log4j/jdbc/JDBCAppender;
+│ │              0     122     1 removes   Ljava/util/ArrayList;
+├── org/apache/log4j/net/SocketHubAppender$ServerMonitor.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -666,15 +666,15 @@
+│ │          line 499: 326
+│ │          line 500: 328
+│ │          line 505: 338
+│ │          line 501: 341
+│ │          line 502: 343
+│ │          line 505: 349
+│ │          line 503: 352
+│ │ -        line 505: 354
+│ │ +        line 506: 354
+│ │          line 507: 357
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │             45      32     1     e   Ljava/lang/Exception;
+│ │            114       6     2     e   Ljava/io/InterruptedIOException;
+│ │             94      31     1     e   Ljava/net/SocketException;
+│ │            153      11     2     e   Ljava/net/SocketException;
+├── org/apache/log4j/net/SocketNode.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -665,15 +665,15 @@
+│ │          line 113: 535
+│ │          line 115: 542
+│ │          line 119: 549
+│ │          line 116: 552
+│ │          line 117: 554
+│ │          line 119: 560
+│ │          line 118: 563
+│ │ -        line 119: 565
+│ │ +        line 121: 565
+│ │          line 122: 568
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │             18      36     1 event   Lorg/apache/log4j/spi/LoggingEvent;
+│ │             32      22     2 remoteLogger   Lorg/apache/log4j/Logger;
+│ │             72       9     3     e   Ljava/lang/Exception;
+│ │             99       6     3     e   Ljava/io/InterruptedIOException;
+├── org/apache/log4j/xml/DOMConfigurator$2.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -185,14 +185,15 @@
+│ │          line 714: 13
+│ │          line 716: 18
+│ │          line 717: 28
+│ │          line 718: 40
+│ │          line 720: 48
+│ │          line 718: 52
+│ │          line 720: 55
+│ │ +        line 721: 61
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │             28      27     4   src   Lorg/xml/sax/InputSource;
+│ │              0      64     0  this   Lorg/apache/log4j/xml/DOMConfigurator$2;
+│ │              0      64     1 parser   Ljavax/xml/parsers/DocumentBuilder;
+│ │              8      56     2 uConn   Ljava/net/URLConnection;
+│ │             18      46     3 stream   Ljava/io/InputStream;
+
+target/reference/reload4j-1.2.18.5-tests.jar target/reload4j-1.2.18.5-tests.jar
+--- target/reference/reload4j-1.2.18.5-tests.jar
++++ target/reload4j-1.2.18.5-tests.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 227679 bytes, number of entries: 182
+│ +Zip file size: 227709 bytes, number of entries: 182
+│  -rw-r--r--  2.0 unx     2375 b- defN 22-Feb-03 17:21 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-03 17:21 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-03 17:21 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-03 17:21 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-03 17:21 org/apache/log4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-03 17:21 org/apache/log4j/customLogger/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-03 17:21 org/apache/log4j/defaultInit/
+│ @@ -66,15 +66,15 @@
+│  -rw-r--r--  2.0 unx     3560 b- defN 22-Feb-03 17:21 org/apache/log4j/PriorityTest.class
+│  -rw-r--r--  2.0 unx      863 b- defN 22-Feb-03 17:21 org/apache/log4j/PropertyConfiguratorTest$FilterBasedTriggeringPolicy.class
+│  -rw-r--r--  2.0 unx     1274 b- defN 22-Feb-03 17:21 org/apache/log4j/PropertyConfiguratorTest$FixedWindowRollingPolicy.class
+│  -rw-r--r--  2.0 unx     1177 b- defN 22-Feb-03 17:21 org/apache/log4j/PropertyConfiguratorTest$MockThrowableRenderer.class
+│  -rw-r--r--  2.0 unx     1988 b- defN 22-Feb-03 17:21 org/apache/log4j/PropertyConfiguratorTest$RollingFileAppender.class
+│  -rw-r--r--  2.0 unx      707 b- defN 22-Feb-03 17:21 org/apache/log4j/PropertyConfiguratorTest$RollingPolicy.class
+│  -rw-r--r--  2.0 unx      716 b- defN 22-Feb-03 17:21 org/apache/log4j/PropertyConfiguratorTest$TriggeringPolicy.class
+│ --rw-r--r--  2.0 unx     6785 b- defN 22-Feb-03 17:21 org/apache/log4j/PropertyConfiguratorTest.class
+│ +-rw-r--r--  2.0 unx     6793 b- defN 22-Feb-03 17:21 org/apache/log4j/PropertyConfiguratorTest.class
+│  -rw-r--r--  2.0 unx     5815 b- defN 22-Feb-03 17:21 org/apache/log4j/RFATestCase.class
+│  -rw-r--r--  2.0 unx      571 b- defN 22-Feb-03 17:21 org/apache/log4j/StressCategory$CT.class
+│  -rw-r--r--  2.0 unx     5127 b- defN 22-Feb-03 17:21 org/apache/log4j/StressCategory.class
+│  -rw-r--r--  2.0 unx     3184 b- defN 22-Feb-03 17:21 org/apache/log4j/TTCCLayoutTest.class
+│  -rw-r--r--  2.0 unx      563 b- defN 22-Feb-03 17:21 org/apache/log4j/TestContants.class
+│  -rw-r--r--  2.0 unx    26160 b- defN 22-Feb-03 17:21 org/apache/log4j/TestLogMF.class
+│  -rw-r--r--  2.0 unx      973 b- defN 22-Feb-03 17:21 org/apache/log4j/TestLogMFPatterns.properties
+│ @@ -91,18 +91,18 @@
+│  -rw-r--r--  2.0 unx     1980 b- defN 22-Feb-03 17:21 org/apache/log4j/defaultInit/DefaultInitTest3.class
+│  -rw-r--r--  2.0 unx     2096 b- defN 22-Feb-03 17:21 org/apache/log4j/defaultInit/DefaultInitTest4.class
+│  -rw-r--r--  2.0 unx     4286 b- defN 22-Feb-03 17:21 org/apache/log4j/helpers/BoundedFIFOTestCase.class
+│  -rw-r--r--  2.0 unx     3445 b- defN 22-Feb-03 17:21 org/apache/log4j/helpers/CyclicBufferTestCase.class
+│  -rw-r--r--  2.0 unx     1065 b- defN 22-Feb-03 17:21 org/apache/log4j/helpers/DateLayoutTest$MockLayout.class
+│  -rw-r--r--  2.0 unx     4894 b- defN 22-Feb-03 17:21 org/apache/log4j/helpers/DateLayoutTest.class
+│  -rw-r--r--  2.0 unx      719 b- defN 22-Feb-03 17:21 org/apache/log4j/helpers/LogLogTest.class
+│ --rw-r--r--  2.0 unx     4945 b- defN 22-Feb-03 17:21 org/apache/log4j/helpers/OptionConverterTestCase.class
+│ +-rw-r--r--  2.0 unx     4949 b- defN 22-Feb-03 17:21 org/apache/log4j/helpers/OptionConverterTestCase.class
+│  -rw-r--r--  2.0 unx     3550 b- defN 22-Feb-03 17:21 org/apache/log4j/helpers/PatternParserTestCase.class
+│  -rw-r--r--  2.0 unx      762 b- defN 22-Feb-03 17:21 org/apache/log4j/helpers/UtilLoggingLevelTest.class
+│ --rw-r--r--  2.0 unx     6438 b- defN 22-Feb-03 17:21 org/apache/log4j/jdbc/JdbcAppenderTest.class
+│ +-rw-r--r--  2.0 unx     6454 b- defN 22-Feb-03 17:21 org/apache/log4j/jdbc/JdbcAppenderTest.class
+│  -rw-r--r--  2.0 unx     1632 b- defN 22-Feb-03 17:21 org/apache/log4j/jdbc/JdbcPatternParserTest$ParserState.class
+│  -rw-r--r--  2.0 unx     2984 b- defN 22-Feb-03 17:21 org/apache/log4j/jdbc/JdbcPatternParserTest.class
+│  -rw-r--r--  2.0 unx     1166 b- defN 22-Feb-03 17:21 org/apache/log4j/net/BadPayload.class
+│  -rw-r--r--  2.0 unx     1377 b- defN 22-Feb-03 17:21 org/apache/log4j/net/JNDIUtilTest.class
+│  -rw-r--r--  2.0 unx      706 b- defN 22-Feb-03 17:21 org/apache/log4j/net/SMTPAppenderTest$MockTriggeringEventEvaluator.class
+│  -rw-r--r--  2.0 unx     1901 b- defN 22-Feb-03 17:21 org/apache/log4j/net/SMTPAppenderTest.class
+│  -rw-r--r--  2.0 unx     3200 b- defN 22-Feb-03 17:21 org/apache/log4j/net/ShortSocketServer.class
+│ @@ -147,15 +147,15 @@
+│  -rw-r--r--  2.0 unx      840 b- defN 22-Feb-03 17:21 org/apache/log4j/spi/ThrowableInformationTest$StringThrowable.class
+│  -rw-r--r--  2.0 unx     4437 b- defN 22-Feb-03 17:21 org/apache/log4j/spi/ThrowableInformationTest.class
+│  -rw-r--r--  2.0 unx      578 b- defN 22-Feb-03 17:21 org/apache/log4j/testUtil/ExceptionCreator.class
+│  -rw-r--r--  2.0 unx     1375 b- defN 22-Feb-03 17:21 org/apache/log4j/testUtil/StringPrintStream.class
+│  -rw-r--r--  2.0 unx     1744 b- defN 22-Feb-03 17:21 org/apache/log4j/testUtil/VersionUtil.class
+│  -rw-r--r--  2.0 unx     1282 b- defN 22-Feb-03 17:21 org/apache/log4j/util/AbsoluteDateAndTimeFilter.class
+│  -rw-r--r--  2.0 unx     1236 b- defN 22-Feb-03 17:21 org/apache/log4j/util/AbsoluteTimeFilter.class
+│ --rw-r--r--  2.0 unx     4640 b- defN 22-Feb-03 17:21 org/apache/log4j/util/Compare.class
+│ +-rw-r--r--  2.0 unx     4648 b- defN 22-Feb-03 17:21 org/apache/log4j/util/Compare.class
+│  -rw-r--r--  2.0 unx     1376 b- defN 22-Feb-03 17:21 org/apache/log4j/util/ControlFilter.class
+│  -rw-r--r--  2.0 unx     1011 b- defN 22-Feb-03 17:21 org/apache/log4j/util/EnhancedLineNumberFilter.class
+│  -rw-r--r--  2.0 unx      653 b- defN 22-Feb-03 17:21 org/apache/log4j/util/Filter.class
+│  -rw-r--r--  2.0 unx     1239 b- defN 22-Feb-03 17:21 org/apache/log4j/util/ISO8601Filter.class
+│  -rw-r--r--  2.0 unx     1314 b- defN 22-Feb-03 17:21 org/apache/log4j/util/LineNumberFilter.class
+│  -rw-r--r--  2.0 unx     1194 b- defN 22-Feb-03 17:21 org/apache/log4j/util/Log4jAndNothingElseFilter.class
+│  -rw-r--r--  2.0 unx     1221 b- defN 22-Feb-03 17:21 org/apache/log4j/util/RelativeTimeFilter.class
+│ @@ -169,16 +169,16 @@
+│  -rw-r--r--  2.0 unx     4295 b- defN 22-Feb-03 17:21 org/apache/log4j/varia/LevelMatchFilterTestCase.class
+│  -rw-r--r--  2.0 unx     2940 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/CustomLevelTestCase.class
+│  -rw-r--r--  2.0 unx      901 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/DOMTestCase$1.class
+│  -rw-r--r--  2.0 unx     1468 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/DOMTestCase$CustomErrorHandler.class
+│  -rw-r--r--  2.0 unx      478 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/DOMTestCase$CustomLogger.class
+│  -rw-r--r--  2.0 unx     1022 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/DOMTestCase$CustomLoggerFactory.class
+│  -rw-r--r--  2.0 unx     1137 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/DOMTestCase$MockThrowableRenderer.class
+│ --rw-r--r--  2.0 unx    10279 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/DOMTestCase.class
+│ +-rw-r--r--  2.0 unx    10283 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/DOMTestCase.class
+│  -rw-r--r--  2.0 unx     1519 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/XLevel.class
+│  -rw-r--r--  2.0 unx      585 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/XMLLayoutTest$ProblemLevel.class
+│  -rw-r--r--  2.0 unx     9431 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/XMLLayoutTest.class
+│  -rw-r--r--  2.0 unx      780 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/XMLLayoutTestCase$X.class
+│  -rw-r--r--  2.0 unx     6029 b- defN 22-Feb-03 17:21 org/apache/log4j/xml/XMLLayoutTestCase.class
+│  -rw-r--r--  2.0 unx    16020 b- defN 22-Feb-03 17:21 META-INF/maven/ch.qos.reload4j/reload4j/pom.xml
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Feb-03 17:21 META-INF/maven/ch.qos.reload4j/reload4j/pom.properties
+│ -182 files, 452772 bytes uncompressed, 197883 bytes compressed:  56.3%
+│ +182 files, 452812 bytes uncompressed, 197913 bytes compressed:  56.3%
+├── org/apache/log4j/PropertyConfiguratorTest.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -549,14 +549,15 @@
+│ │          line 106: 0
+│ │          line 107: 10
+│ │          line 108: 17
+│ │          line 110: 26
+│ │          line 112: 30
+│ │          line 113: 34
+│ │          line 112: 37
+│ │ +        line 113: 42
+│ │          line 114: 44
+│ │          line 115: 48
+│ │          line 116: 51
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      52     0  this   Lorg/apache/log4j/PropertyConfiguratorTest;
+│ │             10      42     1  file   Ljava/io/File;
+│ │ @@ -787,14 +788,15 @@
+│ │               0     9    15   any
+│ │        LineNumberTable:
+│ │          line 318: 0
+│ │          line 319: 5
+│ │          line 321: 9
+│ │          line 322: 12
+│ │          line 321: 15
+│ │ +        line 322: 19
+│ │          line 323: 21
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      22     0  this   Lorg/apache/log4j/PropertyConfiguratorTest;
+│ │  
+│ │    public void testThrowableRenderer();
+│ │      descriptor: ()V
+├── org/apache/log4j/helpers/OptionConverterTestCase.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -578,14 +578,15 @@
+│ │          line 129: 0
+│ │          line 130: 10
+│ │          line 131: 17
+│ │          line 133: 26
+│ │          line 135: 34
+│ │          line 136: 38
+│ │          line 135: 41
+│ │ +        line 136: 46
+│ │          line 137: 48
+│ │          line 138: 65
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      66     0  this   Lorg/apache/log4j/helpers/OptionConverterTestCase;
+│ │             10      56     1  file   Ljava/io/File;
+│ │             26      40     2 inputStream   Ljava/io/FileInputStream;
+├── org/apache/log4j/jdbc/JdbcAppenderTest.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -320,14 +320,15 @@
+│ │        LineNumberTable:
+│ │          line 50: 0
+│ │          line 51: 9
+│ │          line 53: 19
+│ │          line 56: 28
+│ │          line 57: 34
+│ │          line 56: 37
+│ │ +        line 57: 44
+│ │          line 58: 46
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      47     0  this   Lorg/apache/log4j/jdbc/JdbcAppenderTest;
+│ │             19      28     1    st   Ljava/sql/Statement;
+│ │      Exceptions:
+│ │        throws java.sql.SQLException
+│ │ @@ -416,14 +417,15 @@
+│ │          line 79: 43
+│ │          line 81: 52
+│ │          line 84: 57
+│ │          line 81: 63
+│ │          line 86: 66
+│ │          line 87: 73
+│ │          line 86: 76
+│ │ +        line 87: 84
+│ │          line 88: 86
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      87     0  this   Lorg/apache/log4j/jdbc/JdbcAppenderTest;
+│ │             12      75     1 oldThreadName   Ljava/lang/String;
+│ │      Exceptions:
+│ │        throws java.sql.SQLException
+│ │ @@ -509,14 +511,15 @@
+│ │          line 111: 80
+│ │          line 113: 89
+│ │          line 120: 94
+│ │          line 113: 100
+│ │          line 122: 103
+│ │          line 123: 110
+│ │          line 122: 113
+│ │ +        line 123: 121
+│ │          line 124: 123
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0     124     0  this   Lorg/apache/log4j/jdbc/JdbcAppenderTest;
+│ │             12     112     1 oldThreadName   Ljava/lang/String;
+│ │      Exceptions:
+│ │        throws java.sql.SQLException
+│ │ @@ -641,14 +644,15 @@
+│ │          line 137: 8
+│ │          line 138: 20
+│ │          line 140: 27
+│ │          line 141: 36
+│ │          line 144: 111
+│ │          line 145: 117
+│ │          line 144: 120
+│ │ +        line 145: 128
+│ │          line 146: 131
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0     133     0  this   Lorg/apache/log4j/jdbc/JdbcAppenderTest;
+│ │              8     125     1   res   Ljava/util/List;
+│ │             20     113     2    ps   Ljava/sql/PreparedStatement;
+│ │             27     106     3    rs   Ljava/sql/ResultSet;
+├── org/apache/log4j/util/Compare.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -392,14 +392,15 @@
+│ │          line 62: 245
+│ │          line 58: 249
+│ │          line 61: 252
+│ │          line 62: 256
+│ │          line 63: 260
+│ │          line 61: 263
+│ │          line 62: 269
+│ │ +        line 63: 273
+│ │          line 64: 276
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │             58     130     6    s2   Ljava/lang/String;
+│ │             46     206     4    s1   Ljava/lang/String;
+│ │             39     213     5 lineCounter   I
+│ │              0     278     0 file1   Ljava/lang/String;
+│ │ @@ -568,14 +569,15 @@
+│ │          line 97: 16
+│ │          line 99: 37
+│ │          line 101: 48
+│ │          line 102: 52
+│ │          line 99: 57
+│ │          line 101: 60
+│ │          line 102: 66
+│ │ +        line 103: 71
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      74     0 testClass   Ljava/lang/Class;
+│ │              0      74     1 file1   Ljava/lang/String;
+│ │              0      74     2 file2   Ljava/lang/String;
+│ │             16      58     3   in1   Ljava/io/BufferedReader;
+│ │             37      37     4   in2   Ljava/io/BufferedReader;
+├── org/apache/log4j/xml/DOMTestCase.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -840,14 +840,15 @@
+│ │          line 131: 22
+│ │          line 132: 26
+│ │          line 133: 47
+│ │          line 134: 68
+│ │          line 136: 89
+│ │          line 137: 93
+│ │          line 136: 96
+│ │ +        line 137: 101
+│ │          line 153: 103
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0     104     0  this   Lorg/apache/log4j/xml/DOMTestCase;
+│ │              4     100     1 oldErr   Ljava/io/PrintStream;
+│ │             13      91     2   sps   Lorg/apache/log4j/testUtil/StringPrintStream;
+│ │      Exceptions:
+
