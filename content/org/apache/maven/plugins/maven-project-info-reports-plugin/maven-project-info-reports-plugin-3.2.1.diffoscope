@@ -1,0 +1,122 @@
+target/reference/maven-project-info-reports-plugin-3.2.1.jar target/maven-project-info-reports-plugin-3.2.1.jar
+--- target/reference/maven-project-info-reports-plugin-3.2.1.jar
++++ target/maven-project-info-reports-plugin-3.2.1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 293752 bytes, number of entries: 104
+│ +Zip file size: 293747 bytes, number of entries: 104
+│  -rw-r--r--  2.0 unx      377 b- defN 22-Feb-01 20:13 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-01 20:13 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-01 20:13 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-01 20:13 META-INF/maven/org.apache.maven.plugins/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-01 20:13 META-INF/maven/org.apache.maven.plugins/maven-project-info-reports-plugin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-01 20:13 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-01 20:13 org/apache/
+│ @@ -30,15 +30,15 @@
+│  -rw-r--r--  2.0 unx     1201 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/DependencyConvergenceReport$ReverseDependencyLink.class
+│  -rw-r--r--  2.0 unx    25629 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/DependencyConvergenceReport.class
+│  -rw-r--r--  2.0 unx     3263 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/DependencyInformationReport$DependencyInformationRenderer.class
+│  -rw-r--r--  2.0 unx     1914 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/DependencyInformationReport.class
+│  -rw-r--r--  2.0 unx     5116 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/DependencyManagementReport.class
+│  -rw-r--r--  2.0 unx     4242 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/DistributionManagementReport$DistributionManagementRenderer.class
+│  -rw-r--r--  2.0 unx     1893 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/DistributionManagementReport.class
+│ --rw-r--r--  2.0 unx    11204 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/HelpMojo.class
+│ +-rw-r--r--  2.0 unx    11190 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/HelpMojo.class
+│  -rw-r--r--  2.0 unx     3374 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/IndexReport$ProjectIndexRenderer.class
+│  -rw-r--r--  2.0 unx     2537 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/IndexReport.class
+│  -rw-r--r--  2.0 unx     3131 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/IssueManagementReport$IssueManagementRenderer.class
+│  -rw-r--r--  2.0 unx     1903 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/IssueManagementReport.class
+│  -rw-r--r--  2.0 unx     7224 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/LicensesReport$LicensesRenderer.class
+│  -rw-r--r--  2.0 unx     4917 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/LicensesReport.class
+│  -rw-r--r--  2.0 unx     5420 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/MailingListsReport$MailingListsRenderer.class
+│ @@ -99,8 +99,8 @@
+│  -rw-r--r--  2.0 unx    28938 b- defN 22-Feb-01 20:13 project-info-reports_sk.properties
+│  -rw-r--r--  2.0 unx    33696 b- defN 22-Feb-01 20:13 project-info-reports_sv.properties
+│  -rw-r--r--  2.0 unx    28440 b- defN 22-Feb-01 20:13 project-info-reports_tr.properties
+│  -rw-r--r--  2.0 unx    32566 b- defN 22-Feb-01 20:13 project-info-reports_zh_CN.properties
+│  -rw-r--r--  2.0 unx    40738 b- defN 22-Feb-01 20:13 project-info-reports_zh_TW.properties
+│  -rw-r--r--  2.0 unx    19084 b- defN 22-Feb-01 20:13 META-INF/maven/org.apache.maven.plugins/maven-project-info-reports-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       95 b- defN 22-Feb-01 20:13 META-INF/maven/org.apache.maven.plugins/maven-project-info-reports-plugin/pom.properties
+│ -104 files, 1282152 bytes uncompressed, 273786 bytes compressed:  78.6%
+│ +104 files, 1282138 bytes uncompressed, 273781 bytes compressed:  78.6%
+├── org/apache/maven/report/projectinfo/HelpMojo.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,509 +1,495 @@
+│ │    Compiled from "HelpMojo.java"
+│ │  public class org.apache.maven.report.projectinfo.HelpMojo extends org.apache.maven.plugin.AbstractMojo
+│ │    minor version: 0
+│ │    major version: 51
+│ │    flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+│ │ -  this_class: #3                          // org/apache/maven/report/projectinfo/HelpMojo
+│ │ -  super_class: #121                       // org/apache/maven/plugin/AbstractMojo
+│ │ +  this_class: #2                          // org/apache/maven/report/projectinfo/HelpMojo
+│ │ +  super_class: #4                         // org/apache/maven/plugin/AbstractMojo
+│ │    interfaces: 0, fields: 6, methods: 16, attributes: 2
+│ │  Constant pool:
+...
+│ │  }
+│ │  SourceFile: "HelpMojo.java"
+│ │  RuntimeInvisibleAnnotations:
+│ │ -  0: #267(#178=s#268,#269=Z#270,#271=Z#272)
+│ │ +  0: #6(#7=s#8,#9=Z#10,#11=Z#12)
+│ │      org.apache.maven.plugins.annotations.Mojo(
+│ │        name="help"
+│ │        requiresProject=false
+│ │        threadSafe=true
+│ │      )
+
+target/reference/maven-project-info-reports-plugin-3.2.1-sources.jar target/maven-project-info-reports-plugin-3.2.1-sources.jar
+--- target/reference/maven-project-info-reports-plugin-3.2.1-sources.jar
++++ target/maven-project-info-reports-plugin-3.2.1-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 231252 bytes, number of entries: 72
+│ +Zip file size: 231256 bytes, number of entries: 72
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Feb-01 20:13 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-01 20:13 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-01 20:13 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-01 20:13 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-01 20:13 org/apache/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-01 20:13 org/apache/maven/report/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-01 20:13 org/apache/maven/report/projectinfo/
+│ @@ -39,15 +39,15 @@
+│  -rw-r--r--  2.0 unx     1473 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/dependencies/DependenciesReportConfiguration.java
+│  -rw-r--r--  2.0 unx     4642 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/dependencies/DependencyVersionMap.java
+│  -rw-r--r--  2.0 unx     2771 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/dependencies/ManagementDependencies.java
+│  -rw-r--r--  2.0 unx     6599 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/dependencies/RepositoryUtils.java
+│  -rw-r--r--  2.0 unx     5863 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/dependencies/SinkSerializingDependencyNodeVisitor.java
+│  -rw-r--r--  2.0 unx    48353 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/dependencies/renderer/DependenciesRenderer.java
+│  -rw-r--r--  2.0 unx    13444 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/dependencies/renderer/DependencyManagementRenderer.java
+│ --rw-r--r--  2.0 unx    15299 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/HelpMojo.java
+│ +-rw-r--r--  2.0 unx    15300 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/HelpMojo.java
+│  -rw-r--r--  2.0 unx      279 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/resources/images/close.gif
+│  -rw-r--r--  2.0 unx       18 b- defN 22-Feb-01 20:13 org/apache/maven/report/projectinfo/resources/resources.txt
+│  -rw-r--r--  2.0 unx    36153 b- defN 22-Feb-01 20:13 project-info-reports.properties
+│  -rw-r--r--  2.0 unx    39773 b- defN 22-Feb-01 20:13 project-info-reports_cs.properties
+│  -rw-r--r--  2.0 unx    34664 b- defN 22-Feb-01 20:13 project-info-reports_de.properties
+│  -rw-r--r--  2.0 unx     1236 b- defN 22-Feb-01 20:13 project-info-reports_en.properties
+│  -rw-r--r--  2.0 unx    34949 b- defN 22-Feb-01 20:13 project-info-reports_es.properties
+│ @@ -67,8 +67,8 @@
+│  -rw-r--r--  2.0 unx    28938 b- defN 22-Feb-01 20:13 project-info-reports_sk.properties
+│  -rw-r--r--  2.0 unx    33696 b- defN 22-Feb-01 20:13 project-info-reports_sv.properties
+│  -rw-r--r--  2.0 unx    28440 b- defN 22-Feb-01 20:13 project-info-reports_tr.properties
+│  -rw-r--r--  2.0 unx    32566 b- defN 22-Feb-01 20:13 project-info-reports_zh_CN.properties
+│  -rw-r--r--  2.0 unx    40738 b- defN 22-Feb-01 20:13 project-info-reports_zh_TW.properties
+│  -rw-r--r--  2.0 unx    19084 b- defN 22-Feb-01 20:13 META-INF/maven/org.apache.maven.plugins/maven-project-info-reports-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       95 b- defN 22-Feb-01 20:13 META-INF/maven/org.apache.maven.plugins/maven-project-info-reports-plugin/pom.properties
+│ -72 files, 1137746 bytes uncompressed, 218938 bytes compressed:  80.8%
+│ +72 files, 1137747 bytes uncompressed, 218942 bytes compressed:  80.8%
+├── org/apache/maven/report/projectinfo/HelpMojo.java
+│ @@ -1,9 +1,9 @@
+│ +package org.apache.maven.report.projectinfo;
+
+│  
+│ -package org.apache.maven.report.projectinfo;
+│  
+│  import org.apache.maven.plugin.AbstractMojo;
+│  import org.apache.maven.plugin.MojoExecutionException;
+│  import org.apache.maven.plugins.annotations.Mojo;
+│  import org.apache.maven.plugins.annotations.Parameter;
+│  
+│  import org.w3c.dom.Document;
+

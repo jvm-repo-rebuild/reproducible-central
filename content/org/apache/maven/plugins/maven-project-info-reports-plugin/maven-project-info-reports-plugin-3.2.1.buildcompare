@@ -1,0 +1,9 @@
+version=3.2.1
+ok=2
+ko=2
+okFiles="maven-project-info-reports-plugin-3.2.1.pom maven-project-info-reports-plugin-3.2.1-source-release.zip"
+koFiles="maven-project-info-reports-plugin-3.2.1.jar maven-project-info-reports-plugin-3.2.1-sources.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/maven-project-info-reports-plugin-3.2.1.jar target/maven-project-info-reports-plugin-3.2.1.jar
+# diffoscope target/reference/maven-project-info-reports-plugin-3.2.1-sources.jar target/maven-project-info-reports-plugin-3.2.1-sources.jar
