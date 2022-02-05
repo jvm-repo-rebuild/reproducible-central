@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Reporting API
+group-id=org.apache.maven.reporting
+artifact-id=maven-reporting-api
+version=3.1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-reporting-api.git
+source.scm.tag=maven-reporting-api-3.1.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=maven-reporting-api-3.1.0.pom
+outputs.0.length=3764
+outputs.0.checksums.sha512=b5dcb9d57b1bd8e7298d8eb5befa47a36770ffc0cfcf26d65b6454987ab68ad1675ea0b960667f26b4cdd476789a1286dda4d47d569560d063c797a805c3dd16
+
+outputs.1.filename=maven-reporting-api-3.1.0.jar
+outputs.1.length=10556
+outputs.1.checksums.sha512=c4f38357c2b48de5b5a284fdf5937f841049295768a9923caab869183acdffd97a6bc723e675d616759f04774314c8852da9ee2689a8302b96a00e882c5bd195
+
+outputs.2.filename=maven-reporting-api-3.1.0-source-release.zip
+outputs.2.length=24351
+outputs.2.checksums.sha512=d2c2d4dedc7696121e8046fc7ce47b55b03b780cd00f185ac6cfb3c067e94320749952e3519dff2ade2469f76c1719739c6731a1a1e58da19dbcdd5bab33a0b4
+
+outputs.3.filename=maven-reporting-api-3.1.0-sources.jar
+outputs.3.length=12970
+outputs.3.checksums.sha512=5bda4c44970c75e7d75c8c4af93385f139c7a99a147ad7558e955c0ead8a0d059aceafe8688788faf3e52c0d275158fa3ce5db65c0bdc7fc567ef60c00bbfef6
