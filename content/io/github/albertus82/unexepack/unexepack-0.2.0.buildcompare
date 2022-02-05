@@ -1,0 +1,8 @@
+version=0.2.0
+ok=4
+ko=1
+okFiles="unexepack-0.2.0.pom unexepack-0.2.0.jar unexepack-0.2.0-bin.tar.gz unexepack-0.2.0-sources.jar"
+koFiles="unexepack-0.2.0-bin.zip"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/unexepack-0.2.0-bin.zip target/unexepack-0.2.0-bin.zip

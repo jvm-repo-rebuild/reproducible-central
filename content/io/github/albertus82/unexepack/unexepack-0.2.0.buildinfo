@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=unEXEPACK
+group-id=io.github.albertus82
+artifact-id=unexepack
+version=0.2.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/albertus82/unEXEPACK.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=unexepack-0.2.0.pom
+outputs.0.length=15561
+outputs.0.checksums.sha512=d4e21f1fe8ca0aa9d3f2192bbca3db6d3976ea262f351f349f0b7e873dee9ea4ce2db93c0227b3d97e6aa79d1bd3ae973ab011e42bbdbd6be1ab9be5558698be
+
+outputs.1.filename=unexepack-0.2.0.jar
+outputs.1.length=23484
+outputs.1.checksums.sha512=265274fda23569b536549b59ebcdabc93f6ab44e347369e6c6272d3bc041cd794a7c2cd6e0363ec0ec0f46c825be3866466cc869b37dc969805bc276a0756620
+
+outputs.2.filename=unexepack-0.2.0-bin.tar.gz
+outputs.2.length=400806
+outputs.2.checksums.sha512=6951ff685b14bd9b40d61019f8b4a7d5768481b62a240e1773c2fb4961b54ac67ed37a24bc0535dbf78a0d0b9f20271d73e80a0890aba24419fa2d1596bd1cf3
+
+outputs.3.filename=unexepack-0.2.0-bin.zip
+outputs.3.length=418721
+outputs.3.checksums.sha512=eb3eb5b985248b2408afbf460d5441c981b9e92e1b4717cd6efe8a516d810ad5b81ae223741642a30b234a493de07204e31e5f6367509b1f2ff2a536a0b94858
+
+outputs.4.filename=unexepack-0.2.0-sources.jar
+outputs.4.length=15871
+outputs.4.checksums.sha512=07fcd27650e335e373775f8ad057be018d3627e5f7675bd7c6507f04867361a5f7d778f0803157f5218df84f0a51c4a6e06346ac723a176696dc5e4fb26e3fbe
