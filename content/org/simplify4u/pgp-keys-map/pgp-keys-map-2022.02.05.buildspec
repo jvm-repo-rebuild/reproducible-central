@@ -1,0 +1,18 @@
+groupId=org.simplify4u
+artifactId=pgp-keys-map
+version=2022.02.05
+
+display=${groupId}:${artifactId}
+
+# Source code
+gitRepo=git@github.com:s4u/${artifactId}.git
+gitTag=v${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn -N clean package -Dmaven.test.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
