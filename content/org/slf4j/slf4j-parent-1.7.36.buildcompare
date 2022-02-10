@@ -1,0 +1,11 @@
+version=1.7.36
+ok=41
+ko=4
+okFiles="slf4j-parent-1.7.36.pom slf4j-api-1.7.36.pom slf4j-api-1.7.36-tests.jar slf4j-api-1.7.36-sources.jar slf4j-simple-1.7.36.pom slf4j-simple-1.7.36-sources.jar slf4j-nop-1.7.36.pom slf4j-nop-1.7.36.jar slf4j-nop-1.7.36-sources.jar slf4j-jdk14-1.7.36.pom slf4j-jdk14-1.7.36.jar slf4j-jdk14-1.7.36-sources.jar slf4j-log4j12-1.7.36.pom slf4j-reload4j-1.7.36.pom slf4j-reload4j-1.7.36.jar slf4j-reload4j-1.7.36-sources.jar slf4j-jcl-1.7.36.pom slf4j-jcl-1.7.36.jar slf4j-jcl-1.7.36-sources.jar slf4j-android-1.7.36.pom slf4j-android-1.7.36.jar slf4j-android-1.7.36-sources.jar slf4j-ext-1.7.36.pom slf4j-ext-1.7.36-sources.jar jcl-over-slf4j-1.7.36.pom jcl-over-slf4j-1.7.36-sources.jar log4j-over-slf4j-1.7.36.pom log4j-over-slf4j-1.7.36.jar log4j-over-slf4j-1.7.36-sources.jar jul-to-slf4j-1.7.36.pom jul-to-slf4j-1.7.36.jar jul-to-slf4j-1.7.36-sources.jar osgi-over-slf4j-1.7.36.pom osgi-over-slf4j-1.7.36.jar osgi-over-slf4j-1.7.36-sources.jar integration-1.7.36.pom integration-1.7.36.jar integration-1.7.36-sources.jar slf4j-migrator-1.7.36.pom slf4j-migrator-1.7.36.jar slf4j-migrator-1.7.36-sources.jar"
+koFiles="slf4j-api-1.7.36.jar slf4j-simple-1.7.36.jar slf4j-ext-1.7.36.jar jcl-over-slf4j-1.7.36.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/slf4j-api-1.7.36.jar slf4j-api/target/slf4j-api-1.7.36.jar
+# diffoscope target/reference/slf4j-simple-1.7.36.jar slf4j-simple/target/slf4j-simple-1.7.36.jar
+# diffoscope target/reference/slf4j-ext-1.7.36.jar slf4j-ext/target/slf4j-ext-1.7.36.jar
+# diffoscope target/reference/jcl-over-slf4j-1.7.36.jar jcl-over-slf4j/target/jcl-over-slf4j-1.7.36.jar

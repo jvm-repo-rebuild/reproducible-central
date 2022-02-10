@@ -1,0 +1,198 @@
+target/reference/slf4j-api-1.7.36.jar slf4j-api/target/slf4j-api-1.7.36.jar
+--- target/reference/slf4j-api-1.7.36.jar
++++ slf4j-api/target/slf4j-api-1.7.36.jar
+├── zipinfo {}
+│ @@ -1,22 +1,22 @@
+│ -Zip file size: 41125 bytes, number of entries: 46
+│ +Zip file size: 41128 bytes, number of entries: 46
+│  -rw-r--r--  2.0 unx      637 b- defN 22-Feb-08 13:31 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 13:31 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 13:31 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 13:31 org/slf4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 13:31 org/slf4j/event/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 13:31 org/slf4j/helpers/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 13:31 org/slf4j/spi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 13:31 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 13:31 META-INF/maven/org.slf4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 13:31 META-INF/maven/org.slf4j/slf4j-api/
+│  -rw-r--r--  2.0 unx      180 b- defN 22-Feb-08 13:31 org/slf4j/ILoggerFactory.class
+│  -rw-r--r--  2.0 unx      272 b- defN 22-Feb-08 13:31 org/slf4j/IMarkerFactory.class
+│  -rw-r--r--  2.0 unx     1375 b- defN 22-Feb-08 13:31 org/slf4j/Logger.class
+│ --rw-r--r--  2.0 unx    12547 b- defN 22-Feb-08 13:31 org/slf4j/LoggerFactory.class
+│ +-rw-r--r--  2.0 unx    12551 b- defN 22-Feb-08 13:31 org/slf4j/LoggerFactory.class
+│  -rw-r--r--  2.0 unx      177 b- defN 22-Feb-08 13:31 org/slf4j/MDC$1.class
+│  -rw-r--r--  2.0 unx      749 b- defN 22-Feb-08 13:31 org/slf4j/MDC$MDCCloseable.class
+│  -rw-r--r--  2.0 unx     3675 b- defN 22-Feb-08 13:31 org/slf4j/MDC.class
+│  -rw-r--r--  2.0 unx      666 b- defN 22-Feb-08 13:31 org/slf4j/Marker.class
+│  -rw-r--r--  2.0 unx     1621 b- defN 22-Feb-08 13:31 org/slf4j/MarkerFactory.class
+│  -rw-r--r--  2.0 unx      594 b- defN 22-Feb-08 13:31 org/slf4j/event/EventConstants.class
+│  -rw-r--r--  2.0 unx     9842 b- defN 22-Feb-08 13:31 org/slf4j/event/EventRecodingLogger.class
+│ @@ -41,8 +41,8 @@
+│  -rw-r--r--  2.0 unx     2952 b- defN 22-Feb-08 13:31 org/slf4j/helpers/Util.class
+│  -rw-r--r--  2.0 unx      455 b- defN 22-Feb-08 13:31 org/slf4j/spi/LocationAwareLogger.class
+│  -rw-r--r--  2.0 unx      249 b- defN 22-Feb-08 13:31 org/slf4j/spi/LoggerFactoryBinder.class
+│  -rw-r--r--  2.0 unx      529 b- defN 22-Feb-08 13:31 org/slf4j/spi/MDCAdapter.class
+│  -rw-r--r--  2.0 unx      249 b- defN 22-Feb-08 13:31 org/slf4j/spi/MarkerFactoryBinder.class
+│  -rw-r--r--  2.0 unx     2743 b- defN 22-Feb-08 13:31 META-INF/maven/org.slf4j/slf4j-api/pom.xml
+│  -rw-r--r--  2.0 unx       57 b- defN 22-Feb-08 13:31 META-INF/maven/org.slf4j/slf4j-api/pom.properties
+│ -46 files, 85637 bytes uncompressed, 34711 bytes compressed:  59.5%
+│ +46 files, 85641 bytes uncompressed, 34714 bytes compressed:  59.5%
+├── org/slf4j/LoggerFactory.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -825,14 +825,15 @@
+│ │          line 169: 109
+│ │          line 170: 114
+│ │          line 172: 119
+│ │          line 173: 121
+│ │          line 174: 122
+│ │          line 175: 126
+│ │          line 177: 137
+│ │ +        line 178: 141
+│ │          line 179: 143
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              2      26     0 staticLoggerBinderPathSet   Ljava/util/Set;
+│ │             40      35     1   msg   Ljava/lang/String;
+│ │             35      40     0  ncde   Ljava/lang/NoClassDefFoundError;
+│ │             87      34     1   msg   Ljava/lang/String;
+
+target/reference/slf4j-simple-1.7.36.jar slf4j-simple/target/slf4j-simple-1.7.36.jar
+--- target/reference/slf4j-simple-1.7.36.jar
++++ slf4j-simple/target/slf4j-simple-1.7.36.jar
+├── zipinfo -v {}
+│ @@ -397,15 +397,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          2022 Feb 8 13:31:00
+│ -  32-bit CRC value (hex):                         d1ab3d37
+│ +  32-bit CRC value (hex):                         febe996b
+│    compressed size:                                2835 bytes
+│    uncompressed size:                              5839 bytes
+│    length of filename:                             46 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── org/slf4j/impl/SimpleLoggerConfiguration.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -649,15 +649,15 @@
+│ │          line 129: 44
+│ │          line 127: 47
+│ │          line 130: 48
+│ │          line 125: 51
+│ │          line 126: 52
+│ │          line 129: 56
+│ │          line 127: 59
+│ │ -        line 129: 61
+│ │ +        line 130: 61
+│ │          line 132: 63
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      64     0  this   Lorg/slf4j/impl/SimpleLoggerConfiguration;
+│ │             15      49     1    in   Ljava/io/InputStream;
+│ │  
+│ │    java.lang.String getStringProperty(java.lang.String, java.lang.String);
+
+target/reference/slf4j-ext-1.7.36.jar slf4j-ext/target/slf4j-ext-1.7.36.jar
+--- target/reference/slf4j-ext-1.7.36.jar
++++ slf4j-ext/target/slf4j-ext-1.7.36.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 37902 bytes, number of entries: 40
+│ +Zip file size: 37904 bytes, number of entries: 40
+│  -rw-r--r--  2.0 unx      846 b- defN 22-Feb-08 13:31 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 13:31 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 13:31 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 13:31 org/slf4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 13:31 org/slf4j/agent/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 13:31 org/slf4j/cal10n/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 13:31 org/slf4j/ext/
+│ @@ -21,22 +21,22 @@
+│  -rw-r--r--  2.0 unx      508 b- defN 22-Feb-08 13:31 org/slf4j/ext/MDCStrLookup.class
+│  -rw-r--r--  2.0 unx     1670 b- defN 22-Feb-08 13:31 org/slf4j/ext/XLogger$Level.class
+│  -rw-r--r--  2.0 unx     4745 b- defN 22-Feb-08 13:31 org/slf4j/ext/XLogger.class
+│  -rw-r--r--  2.0 unx      948 b- defN 22-Feb-08 13:31 org/slf4j/ext/XLoggerFactory.class
+│  -rw-r--r--  2.0 unx     3457 b- defN 22-Feb-08 13:31 org/slf4j/instrumentation/JavassistHelper.class
+│  -rw-r--r--  2.0 unx      242 b- defN 22-Feb-08 13:31 org/slf4j/instrumentation/LogTransformer$1.class
+│  -rw-r--r--  2.0 unx     2243 b- defN 22-Feb-08 13:31 org/slf4j/instrumentation/LogTransformer$Builder.class
+│ --rw-r--r--  2.0 unx     6856 b- defN 22-Feb-08 13:31 org/slf4j/instrumentation/LogTransformer.class
+│ +-rw-r--r--  2.0 unx     6860 b- defN 22-Feb-08 13:31 org/slf4j/instrumentation/LogTransformer.class
+│  -rw-r--r--  2.0 unx     4167 b- defN 22-Feb-08 13:31 org/slf4j/instrumentation/ToStringHelper.class
+│  -rw-r--r--  2.0 unx     1117 b- defN 22-Feb-08 13:31 org/slf4j/profiler/DurationUnit.class
+│  -rw-r--r--  2.0 unx     7253 b- defN 22-Feb-08 13:31 org/slf4j/profiler/Profiler.class
+│  -rw-r--r--  2.0 unx     1802 b- defN 22-Feb-08 13:31 org/slf4j/profiler/ProfilerRegistry.class
+│  -rw-r--r--  2.0 unx     2277 b- defN 22-Feb-08 13:31 org/slf4j/profiler/SpacePadder.class
+│  -rw-r--r--  2.0 unx      707 b- defN 22-Feb-08 13:31 org/slf4j/profiler/StopWatch$1.class
+│  -rw-r--r--  2.0 unx     2890 b- defN 22-Feb-08 13:31 org/slf4j/profiler/StopWatch.class
+│  -rw-r--r--  2.0 unx      394 b- defN 22-Feb-08 13:31 org/slf4j/profiler/TimeInstrument.class
+│  -rw-r--r--  2.0 unx     1062 b- defN 22-Feb-08 13:31 org/slf4j/profiler/TimeInstrumentStatus.class
+│  -rw-r--r--  2.0 unx      757 b- defN 22-Feb-08 13:31 org/slf4j/profiler/Util$1.class
+│  -rw-r--r--  2.0 unx     2963 b- defN 22-Feb-08 13:31 org/slf4j/profiler/Util.class
+│  -rw-r--r--  2.0 unx     2777 b- defN 22-Feb-08 13:31 META-INF/maven/org.slf4j/slf4j-ext/pom.xml
+│  -rw-r--r--  2.0 unx       57 b- defN 22-Feb-08 13:31 META-INF/maven/org.slf4j/slf4j-ext/pom.properties
+│ -40 files, 72474 bytes uncompressed, 32328 bytes compressed:  55.4%
+│ +40 files, 72478 bytes uncompressed, 32330 bytes compressed:  55.4%
+├── org/slf4j/instrumentation/LogTransformer.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -770,14 +770,15 @@
+│ │          line 273: 162
+│ │          line 274: 164
+│ │          line 275: 199
+│ │          line 277: 207
+│ │          line 278: 212
+│ │          line 277: 220
+│ │          line 278: 227
+│ │ +        line 280: 232
+│ │          line 281: 235
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │            109      34    13     i   I
+│ │             41     108     6 pattern1   Ljava/lang/String;
+│ │             55      94     7 loggerDefinition   Ljava/lang/String;
+│ │             64      85     8 field   Ljavassist/CtField;
+
+target/reference/jcl-over-slf4j-1.7.36.jar jcl-over-slf4j/target/jcl-over-slf4j-1.7.36.jar
+--- target/reference/jcl-over-slf4j-1.7.36.jar
++++ jcl-over-slf4j/target/jcl-over-slf4j-1.7.36.jar
+├── zipinfo -v {}
+│ @@ -597,15 +597,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          2022 Feb 8 13:31:00
+│ -  32-bit CRC value (hex):                         d2dc5ba4
+│ +  32-bit CRC value (hex):                         b398433d
+│    compressed size:                                4061 bytes
+│    uncompressed size:                              8973 bytes
+│    length of filename:                             47 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── org/apache/commons/logging/impl/SimpleLog.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1573,15 +1573,15 @@
+│ │          line 167: 65
+│ │          line 165: 68
+│ │          line 168: 69
+│ │          line 163: 72
+│ │          line 164: 73
+│ │          line 167: 77
+│ │          line 165: 80
+│ │ -        line 167: 81
+│ │ +        line 168: 81
+│ │          line 171: 83
+│ │          line 172: 94
+│ │          line 173: 105
+│ │          line 175: 116
+│ │          line 176: 122
+│ │          line 178: 133
+│ │          line 183: 146
+
