@@ -1,0 +1,60 @@
+target/reference/plexus-compiler-2.10.0-source-release.zip target/plexus-compiler-2.10.0-source-release.zip
+--- target/reference/plexus-compiler-2.10.0-source-release.zip
++++ target/plexus-compiler-2.10.0-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 238777 bytes, number of entries: 383
+│ +Zip file size: 238977 bytes, number of entries: 384
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 11:47 plexus-compiler-2.10.0/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 11:47 plexus-compiler-2.10.0/.github/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 11:47 plexus-compiler-2.10.0/.github/workflows/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 11:47 plexus-compiler-2.10.0/plexus-compiler-api/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 11:47 plexus-compiler-2.10.0/plexus-compiler-api/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 11:47 plexus-compiler-2.10.0/plexus-compiler-api/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 11:47 plexus-compiler-2.10.0/plexus-compiler-api/src/main/java/
+│ @@ -229,14 +229,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 11:47 plexus-compiler-2.10.0/plexus-compilers/plexus-compiler-javac-errorprone/src/test/java/org/codehaus/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 11:47 plexus-compiler-2.10.0/plexus-compilers/plexus-compiler-javac-errorprone/src/test/java/org/codehaus/plexus/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 11:47 plexus-compiler-2.10.0/plexus-compilers/plexus-compiler-javac-errorprone/src/test/java/org/codehaus/plexus/compiler/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 11:47 plexus-compiler-2.10.0/plexus-compilers/plexus-compiler-javac-errorprone/src/test/java/org/codehaus/plexus/compiler/javac/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 11:47 plexus-compiler-2.10.0/plexus-compilers/plexus-compiler-javac-errorprone/src/test-input/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 11:47 plexus-compiler-2.10.0/plexus-compilers/plexus-compiler-javac-errorprone/src/test-input/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 11:47 plexus-compiler-2.10.0/plexus-compilers/plexus-compiler-javac-errorprone/src/test-input/src/main/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 11:47 plexus-compiler-2.10.0/plexus-compilers/plexus-compiler-jikes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 11:47 plexus-compiler-2.10.0/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 11:47 plexus-compiler-2.10.0/src/site/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 11:47 plexus-compiler-2.10.0/src/site/apt/
+│  -rw-r--r--  2.0 unx      205 b- defN 22-Feb-08 11:47 plexus-compiler-2.10.0/.github/dependabot.yml
+│  -rw-r--r--  2.0 unx       68 b- defN 22-Feb-08 11:47 plexus-compiler-2.10.0/.github/release-drafter.yml
+│  -rw-r--r--  2.0 unx     2358 b- defN 22-Feb-08 11:47 plexus-compiler-2.10.0/.github/workflows/codeql-analysis.yml
+│  -rw-r--r--  2.0 unx     1290 b- defN 22-Feb-08 11:47 plexus-compiler-2.10.0/.github/workflows/maven.yml
+│ @@ -378,8 +379,8 @@
+│  -rw-r--r--  2.0 unx     4687 b- defN 22-Feb-08 11:47 plexus-compiler-2.10.0/plexus-compilers/plexus-compiler-javac-errorprone/src/main/java/org/codehaus/plexus/compiler/javac/errorprone/JavacCompilerWithErrorProne.java
+│  -rw-r--r--  2.0 unx      895 b- defN 22-Feb-08 11:47 plexus-compiler-2.10.0/plexus-compilers/plexus-compiler-javac-errorprone/src/test/java/org/codehaus/plexus/compiler/javac/JavacErrorProneCompilerTest.java
+│  -rw-r--r--  2.0 unx      275 b- defN 22-Feb-08 11:47 plexus-compiler-2.10.0/plexus-compilers/plexus-compiler-javac-errorprone/src/test-input/src/main/ShortSet.java
+│  -rw-r--r--  2.0 unx     1328 b- defN 22-Feb-08 11:47 plexus-compiler-2.10.0/plexus-compilers/pom.xml
+│  -rw-r--r--  2.0 unx     8108 b- defN 22-Feb-08 11:47 plexus-compiler-2.10.0/pom.xml
+│  -rw-r--r--  2.0 unx     2085 b- defN 22-Feb-08 11:47 plexus-compiler-2.10.0/src/site/apt/index.apt
+│  -rw-r--r--  2.0 unx     1182 b- defN 22-Feb-08 11:47 plexus-compiler-2.10.0/src/site/site.xml
+│ -383 files, 503373 bytes uncompressed, 139541 bytes compressed:  72.3%
+│ +384 files, 503373 bytes uncompressed, 139541 bytes compressed:  72.3%
+├── zipnote {}
+│ @@ -696,14 +696,17 @@
+│  
+│  Filename: plexus-compiler-2.10.0/plexus-compilers/plexus-compiler-javac-errorprone/src/test-input/src/
+│  Comment: 
+│  
+│  Filename: plexus-compiler-2.10.0/plexus-compilers/plexus-compiler-javac-errorprone/src/test-input/src/main/
+│  Comment: 
+│  
+│ +Filename: plexus-compiler-2.10.0/plexus-compilers/plexus-compiler-jikes/
+│ +Comment: 
+│ +
+│  Filename: plexus-compiler-2.10.0/src/
+│  Comment: 
+│  
+│  Filename: plexus-compiler-2.10.0/src/site/
+│  Comment: 
+│  
+│  Filename: plexus-compiler-2.10.0/src/site/apt/
+

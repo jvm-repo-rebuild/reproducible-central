@@ -1,0 +1,7 @@
+version=2.10.0
+ok=32
+ko=0
+okFiles="plexus-compiler-2.10.0.pom plexus-compiler-2.10.0-site.xml plexus-compiler-2.10.0-source-release.zip plexus-compiler-api-2.10.0.pom plexus-compiler-api-2.10.0.jar plexus-compiler-api-2.10.0-sources.jar plexus-compiler-manager-2.10.0.pom plexus-compiler-manager-2.10.0.jar plexus-compiler-manager-2.10.0-sources.jar plexus-compiler-test-2.10.0.pom plexus-compiler-test-2.10.0.jar plexus-compiler-test-2.10.0-sources.jar plexus-compilers-2.10.0.pom plexus-compiler-aspectj-2.10.0.pom plexus-compiler-aspectj-2.10.0.jar plexus-compiler-aspectj-2.10.0-sources.jar plexus-compiler-csharp-2.10.0.pom plexus-compiler-csharp-2.10.0.jar plexus-compiler-csharp-2.10.0-sources.jar plexus-compiler-eclipse-2.10.0.pom plexus-compiler-eclipse-2.10.0.jar plexus-compiler-eclipse-2.10.0-sources.jar plexus-compiler-javac-2.10.0.pom plexus-compiler-javac-2.10.0.jar plexus-compiler-javac-2.10.0-sources.jar plexus-compiler-javac-errorprone-2.10.0.pom plexus-compiler-javac-errorprone-2.10.0.jar plexus-compiler-javac-errorprone-2.10.0-sources.jar plexus-compiler-j2objc-2.10.0.pom plexus-compiler-j2objc-2.10.0.jar plexus-compiler-j2objc-2.10.0-sources.jar plexus-compiler-its-2.10.0.pom"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
