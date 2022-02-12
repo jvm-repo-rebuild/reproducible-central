@@ -1,0 +1,7 @@
+version=1.3.0-alpha13
+ok=16
+ko=0
+okFiles="logback-parent-1.3.0-alpha13.pom logback-core-1.3.0-alpha13.pom logback-core-1.3.0-alpha13.jar logback-core-1.3.0-alpha13-sources.jar logback-core-1.3.0-alpha13-test-sources.jar logback-core-1.3.0-alpha13-tests.jar logback-classic-1.3.0-alpha13.pom logback-classic-1.3.0-alpha13.jar logback-classic-1.3.0-alpha13-sources.jar logback-classic-1.3.0-alpha13-test-sources.jar logback-classic-1.3.0-alpha13-tests.jar logback-access-1.3.0-alpha13.pom logback-access-1.3.0-alpha13.jar logback-access-1.3.0-alpha13-sources.jar logback-access-1.3.0-alpha13-test-sources.jar logback-access-1.3.0-alpha13-tests.jar"
+koFiles=""
+reference_java_version="18 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
