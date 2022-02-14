@@ -1,0 +1,425 @@
+target/reference/accumulo-docs-1.10.2-user-manual.html docs/target/generated-docs/accumulo_user_manual.html
+--- target/reference/accumulo-docs-1.10.2-user-manual.html
++++ docs/target/generated-docs/accumulo_user_manual.html
+@@ -874,318 +874,14 @@
+ </ul>
+ </li>
+ <li><a href="#_upgrade_issues">20.9. Upgrade Issues</a></li>
+ <li><a href="#_file_naming_conventions">20.10. File Naming Conventions</a></li>
+ <li><a href="#_hdfs_decommissioning_issues">20.11. HDFS Decommissioning Issues</a></li>
+ </ul>
+ </li>
+-<li><a href="#configuration">Appendix A: Configuration Management</a>
+-<ul class="sectlevel2">
+-<li><a href="#_configuration_overview">A.1. Configuration Overview</a>
+-<ul class="sectlevel3">
+...
+-<li><a href="#_uri">A.4.15. uri</a></li>
+-</ul>
+-</li>
+-</ul>
+-</li>
+ </ul>
+ </div>
+ </div>
+ <div id="content">
+ <div id="preamble">
+ <div class="sectionbody">
+ <div class="imageblock">
+@@ -2239,15 +1935,15 @@
+ <div class="sect1">
+ <h2 id="_table_configuration">6. Table Configuration</h2>
+ <div class="sectionbody">
+ <div class="paragraph">
+ <p>Accumulo tables have a few options that can be configured to alter the default
+ behavior of Accumulo as well as improve performance based on the data stored.
+ These include locality groups, constraints, bloom filters, iterators, and block
+-cache.  For a complete list of available configuration options, see <a href="#configuration">Configuration Management</a>.</p>
++cache.  For a complete list of available configuration options, see <a href="#configuration">[configuration]</a>.</p>
+ </div>
+ <div class="sect2">
+ <h3 id="_locality_groups">6.1. Locality Groups</h3>
+ <div class="paragraph">
+ <p>Accumulo supports storing sets of column families separately on disk to allow
+ clients to efficiently scan over columns that are frequently used together and to avoid
+ scanning over column families that are not requested. After a locality group is set,
+@@ -7022,15 +6718,15 @@
+ secret and make sure that the accumulo-site.xml file is not readable to other users.
+ For alternatives to storing the instance.secret in plaintext, please read the
+ Sensitive Configuration Values section.</p>
+ </div>
+ <div class="paragraph">
+ <p>Some settings can be modified via the Accumulo shell and take effect immediately, but
+ some settings require a process restart to take effect. See the configuration documentation
+-(available in the docs directory of the tarball and in <a href="#configuration">Configuration Management</a>) for details.</p>
++(available in the docs directory of the tarball and in <a href="#configuration">[configuration]</a>) for details.</p>
+ </div>
+ <div class="paragraph">
+ <p>One aspect of Accumulo&#8217;s configuration which is different as compared to the rest of the Hadoop
+ ecosystem is that the server-process classpath is determined in part by multiple values. A
+ bootstrap classpath is based soley on the <code>accumulo-start.jar</code>, Log4j and <code>$ACCUMULO_CONF_DIR</code>.</p>
+ </div>
+ <div class="paragraph">
+@@ -9604,2753 +9300,21 @@
+ <h3 id="_hdfs_decommissioning_issues">20.11. HDFS Decommissioning Issues</h3>
+ <div class="paragraph">
+ <p><strong>Q</strong>: My Hadoop DataNode is hung for hours trying to decommission.</p>
+ </div>
+ <div class="paragraph">
+ <p><strong>A</strong>: Write Ahead Logs stay open until they hit the size threshold, which could be many hours or days in some cases. These open files will prevent a DN from finishing its decommissioning process (HDFS-3599) in some versions of Hadoop 2. If you stop the DN, then the WALog file will not be closed and you could lose data. To work around this issue, we now close WALogs on a time period specified by the property tserver.walog.max.age with a default period of 24 hours.</p>
+ </div>
+-</div>
+-</div>
+-</div>
+...
+-<div class="sect3">
+-<h4 id="_uri">A.4.15. uri</h4>
+-<div class="paragraph">
+-<p>A valid URI</p>
+-</div>
++<p>Unresolved directive in accumulo_user_manual.asciidoc - include::appendices/config.txt[]</p>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ <div id="footer">
+ <div id="footer-text">
+-Last updated 2022-02-08 10:00:38 -0500
++Last updated 2022-02-14 20:45:31 UTC
+ </div>
+ </div>
+ </body>
+ </html>
+
+target/reference/accumulo-1.10.2-src.tar.gz target/accumulo-1.10.2-source-release.tar.gz
+--- target/reference/accumulo-1.10.2-src.tar.gz
++++ target/accumulo-1.10.2-source-release.tar.gz
+│   --- accumulo-1.10.2-src.tar
+├── +++ accumulo-1.10.2-source-release.tar
+│ ├── file list
+│ │ @@ -1,3335 +1,3335 @@
+│ │ -drwxr-xr-x   0 christopher  (1000) christopher  (1000)        0 2022-02-08 14:59:23.000000 accumulo-1.10.2/
+│ │ -drwxr-xr-x   0 christopher  (1000) christopher  (1000)        0 2022-02-08 14:59:19.000000 accumulo-1.10.2/.github/
+│ │ -drwxr-xr-x   0 christopher  (1000) christopher  (1000)        0 2022-02-08 14:59:19.000000 accumulo-1.10.2/.github/workflows/
+│ │ -drwxr-xr-x   0 christopher  (1000) christopher  (1000)        0 2022-02-08 14:59:19.000000 accumulo-1.10.2/assemble/
+│ │ -drwxr-xr-x   0 christopher  (1000) christopher  (1000)        0 2022-02-08 14:59:19.000000 accumulo-1.10.2/assemble/bin/
+│ │ -drwxr-xr-x   0 christopher  (1000) christopher  (1000)        0 2022-02-08 14:59:19.000000 accumulo-1.10.2/assemble/conf/
+...
+│ │ --rw-r--r--   0 christopher  (1000) christopher  (1000)     1057 2022-02-08 14:59:19.000000 accumulo-1.10.2/trace/src/main/java/org/apache/accumulo/trace/thrift/TInfo.java
+│ │ --rw-r--r--   0 christopher  (1000) christopher  (1000)     1184 2022-02-08 14:59:19.000000 accumulo-1.10.2/trace/src/main/spotbugs/exclude-filter.xml
+│ │ +drwxrwxr-x   0 1000      (1000) 1000      (1000)        0 2022-02-14 20:44:58.000000 accumulo-1.10.2/
+│ │ +drwxrwxr-x   0 1000      (1000) 1000      (1000)        0 2020-12-24 17:19:12.000000 accumulo-1.10.2/src/
+│ │ +drwxrwxr-x   0 1000      (1000) 1000      (1000)        0 2020-12-24 17:40:58.000000 accumulo-1.10.2/src/site/
+│ │ +drwxrwxr-x   0 1000      (1000) 1000      (1000)        0 2020-12-24 17:40:58.000000 accumulo-1.10.2/server/
+│ │ +drwxrwxr-x   0 1000      (1000) 1000      (1000)        0 2022-02-14 20:41:53.000000 accumulo-1.10.2/server/master/
+│ │ +drwxrwxr-x   0 1000      (1000) 1000      (1000)        0 2020-12-24 17:40:58.000000 accumulo-1.10.2/server/master/src/
+...
+│ │ +-rwxrwxr-x   0 1000      (1000) 1000      (1000)     3761 2022-02-14 20:40:19.000000 accumulo-1.10.2/assemble/bin/tool.sh
+│ │ +-rwxrwxr-x   0 1000      (1000) 1000      (1000)     7221 2022-02-14 20:40:19.000000 accumulo-1.10.2/assemble/bin/check-slaves
+
+target/reference/accumulo-1.10.2-bin.tar.gz assemble/target/accumulo-1.10.2-bin.tar.gz
+--- target/reference/accumulo-1.10.2-bin.tar.gz
++++ assemble/target/accumulo-1.10.2-bin.tar.gz
+├── accumulo-1.10.2-bin.tar
+│ ├── file list
+│ │ @@ -124,15 +124,14 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)     2866 2022-02-08 14:58:25.000000 accumulo-1.10.2/docs/examples/README.terasort
+│ │  -rw-r--r--   0 root         (0) root         (0)     6043 2022-02-08 14:58:25.000000 accumulo-1.10.2/docs/examples/README.visibility
+│ │  -rw-r--r--   0 root         (0) root         (0)     1561 2022-02-08 14:58:25.000000 accumulo-1.10.2/docs/index.html
+│ │  -rw-r--r--   0 root         (0) root         (0)     2444 2022-02-08 14:58:25.000000 accumulo-1.10.2/docs/isolation.html
+│ │  -rw-r--r--   0 root         (0) root         (0)     2644 2022-02-08 14:58:25.000000 accumulo-1.10.2/docs/lgroups.html
+│ │  -rw-r--r--   0 root         (0) root         (0)    10257 2022-02-08 14:58:25.000000 accumulo-1.10.2/docs/metrics.html
+│ │  -rw-r--r--   0 root         (0) root         (0)     7913 2022-02-08 14:58:25.000000 accumulo-1.10.2/docs/timestamps.html
+│ │ --rw-r--r--   0 root         (0) root         (0)    82894 2022-02-08 14:58:25.000000 accumulo-1.10.2/docs/config.html
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     4209 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/templates/accumulo-env.sh
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/crypto/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/vfs-classloader/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/templates/
+│ │  -rw-r--r--   0 root         (0) root         (0)     1304 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/crypto/README
+│ │ @@ -151,163 +150,14 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/templates/masters
+│ │  -rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/templates/monitor
+│ │  -rw-r--r--   0 root         (0) root         (0)     2250 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/templates/monitor_logger.properties
+│ │  -rw-r--r--   0 root         (0) root         (0)     2914 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/templates/monitor_logger.xml
+│ │  -rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/templates/slaves
+│ │  -rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/templates/tracers
+│ │  -rw-r--r--   0 root         (0) root         (0)     7995 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/accumulo.policy.example
+│ │ --rwxr-xr-x   0 root         (0) root         (0)     4175 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/native-standalone/accumulo-env.sh
+│ │ --rwxr-xr-x   0 root         (0) root         (0)     4175 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/standalone/accumulo-env.sh
+│ │ --rwxr-xr-x   0 root         (0) root         (0)     4178 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/native-standalone/accumulo-env.sh
+│ │ --rwxr-xr-x   0 root         (0) root         (0)     4178 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/standalone/accumulo-env.sh
+│ │ --rwxr-xr-x   0 root         (0) root         (0)     4204 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/native-standalone/accumulo-env.sh
+│ │ --rwxr-xr-x   0 root         (0) root         (0)     4200 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/standalone/accumulo-env.sh
+│ │ --rwxr-xr-x   0 root         (0) root         (0)     4173 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/native-standalone/accumulo-env.sh
+│ │ --rwxr-xr-x   0 root         (0) root         (0)     4175 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/standalone/accumulo-env.sh
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/native-standalone/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/standalone/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/native-standalone/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/standalone/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/native-standalone/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/standalone/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/native-standalone/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/standalone/
+│ │ --rw-r--r--   0 root         (0) root         (0)     2190 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/native-standalone/accumulo-metrics.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     6454 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/native-standalone/accumulo-site.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     7995 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/native-standalone/accumulo.policy.example
+│ │ --rw-r--r--   0 root         (0) root         (0)     1667 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/native-standalone/auditLog.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)      911 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/native-standalone/client.conf
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/native-standalone/gc
+│ │ --rw-r--r--   0 root         (0) root         (0)     2917 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/native-standalone/generic_logger.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)     3659 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/native-standalone/generic_logger.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     3250 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/native-standalone/hadoop-metrics2-accumulo.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)     1778 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/native-standalone/log4j.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/native-standalone/masters
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/native-standalone/monitor
+│ │ --rw-r--r--   0 root         (0) root         (0)     2250 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/native-standalone/monitor_logger.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)     2914 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/native-standalone/monitor_logger.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/native-standalone/slaves
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/native-standalone/tracers
+│ │ --rw-r--r--   0 root         (0) root         (0)     2190 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/standalone/accumulo-metrics.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     6455 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/standalone/accumulo-site.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     7995 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/standalone/accumulo.policy.example
+│ │ --rw-r--r--   0 root         (0) root         (0)     1667 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/standalone/auditLog.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)      911 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/standalone/client.conf
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/standalone/gc
+│ │ --rw-r--r--   0 root         (0) root         (0)     2917 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/standalone/generic_logger.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)     3659 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/standalone/generic_logger.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     3250 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/standalone/hadoop-metrics2-accumulo.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)     1778 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/standalone/log4j.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/standalone/masters
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/standalone/monitor
+│ │ --rw-r--r--   0 root         (0) root         (0)     2250 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/standalone/monitor_logger.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)     2914 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/standalone/monitor_logger.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/standalone/slaves
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/1GB/standalone/tracers
+│ │ --rw-r--r--   0 root         (0) root         (0)     2190 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/native-standalone/accumulo-metrics.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     6455 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/native-standalone/accumulo-site.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     7995 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/native-standalone/accumulo.policy.example
+│ │ --rw-r--r--   0 root         (0) root         (0)     1667 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/native-standalone/auditLog.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)      911 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/native-standalone/client.conf
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/native-standalone/gc
+│ │ --rw-r--r--   0 root         (0) root         (0)     2917 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/native-standalone/generic_logger.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)     3659 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/native-standalone/generic_logger.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     3250 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/native-standalone/hadoop-metrics2-accumulo.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)     1778 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/native-standalone/log4j.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/native-standalone/masters
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/native-standalone/monitor
+│ │ --rw-r--r--   0 root         (0) root         (0)     2250 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/native-standalone/monitor_logger.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)     2914 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/native-standalone/monitor_logger.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/native-standalone/slaves
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/native-standalone/tracers
+│ │ --rw-r--r--   0 root         (0) root         (0)     2190 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/standalone/accumulo-metrics.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     6456 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/standalone/accumulo-site.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     7995 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/standalone/accumulo.policy.example
+│ │ --rw-r--r--   0 root         (0) root         (0)     1667 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/standalone/auditLog.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)      911 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/standalone/client.conf
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/standalone/gc
+│ │ --rw-r--r--   0 root         (0) root         (0)     2917 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/standalone/generic_logger.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)     3659 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/standalone/generic_logger.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     3250 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/standalone/hadoop-metrics2-accumulo.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)     1778 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/standalone/log4j.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/standalone/masters
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/standalone/monitor
+│ │ --rw-r--r--   0 root         (0) root         (0)     2250 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/standalone/monitor_logger.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)     2914 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/standalone/monitor_logger.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/standalone/slaves
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/2GB/standalone/tracers
+│ │ --rw-r--r--   0 root         (0) root         (0)     2190 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/native-standalone/accumulo-metrics.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     6453 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/native-standalone/accumulo-site.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     7995 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/native-standalone/accumulo.policy.example
+│ │ --rw-r--r--   0 root         (0) root         (0)     1667 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/native-standalone/auditLog.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)      911 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/native-standalone/client.conf
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/native-standalone/gc
+│ │ --rw-r--r--   0 root         (0) root         (0)     2917 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/native-standalone/generic_logger.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)     3659 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/native-standalone/generic_logger.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     3250 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/native-standalone/hadoop-metrics2-accumulo.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)     1778 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/native-standalone/log4j.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/native-standalone/masters
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/native-standalone/monitor
+│ │ --rw-r--r--   0 root         (0) root         (0)     2250 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/native-standalone/monitor_logger.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)     2914 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/native-standalone/monitor_logger.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/native-standalone/slaves
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/native-standalone/tracers
+│ │ --rw-r--r--   0 root         (0) root         (0)     2190 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/standalone/accumulo-metrics.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     6454 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/standalone/accumulo-site.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     7995 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/standalone/accumulo.policy.example
+│ │ --rw-r--r--   0 root         (0) root         (0)     1667 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/standalone/auditLog.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)      911 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/standalone/client.conf
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/standalone/gc
+│ │ --rw-r--r--   0 root         (0) root         (0)     2917 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/standalone/generic_logger.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)     3659 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/standalone/generic_logger.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     3250 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/standalone/hadoop-metrics2-accumulo.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)     1778 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/standalone/log4j.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/standalone/masters
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/standalone/monitor
+│ │ --rw-r--r--   0 root         (0) root         (0)     2250 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/standalone/monitor_logger.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)     2914 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/standalone/monitor_logger.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/standalone/slaves
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/3GB/standalone/tracers
+│ │ --rw-r--r--   0 root         (0) root         (0)     2190 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/native-standalone/accumulo-metrics.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     6451 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/native-standalone/accumulo-site.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     7995 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/native-standalone/accumulo.policy.example
+│ │ --rw-r--r--   0 root         (0) root         (0)     1667 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/native-standalone/auditLog.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)      911 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/native-standalone/client.conf
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/native-standalone/gc
+│ │ --rw-r--r--   0 root         (0) root         (0)     2917 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/native-standalone/generic_logger.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)     3659 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/native-standalone/generic_logger.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     3250 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/native-standalone/hadoop-metrics2-accumulo.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)     1778 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/native-standalone/log4j.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/native-standalone/masters
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/native-standalone/monitor
+│ │ --rw-r--r--   0 root         (0) root         (0)     2250 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/native-standalone/monitor_logger.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)     2914 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/native-standalone/monitor_logger.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/native-standalone/slaves
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/native-standalone/tracers
+│ │ --rw-r--r--   0 root         (0) root         (0)     2190 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/standalone/accumulo-metrics.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     6452 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/standalone/accumulo-site.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     7995 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/standalone/accumulo.policy.example
+│ │ --rw-r--r--   0 root         (0) root         (0)     1667 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/standalone/auditLog.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)      911 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/standalone/client.conf
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/standalone/gc
+│ │ --rw-r--r--   0 root         (0) root         (0)     2917 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/standalone/generic_logger.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)     3659 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/standalone/generic_logger.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     3250 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/standalone/hadoop-metrics2-accumulo.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)     1778 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/standalone/log4j.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/standalone/masters
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/standalone/monitor
+│ │ --rw-r--r--   0 root         (0) root         (0)     2250 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/standalone/monitor_logger.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)     2914 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/standalone/monitor_logger.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/standalone/slaves
+│ │ --rw-r--r--   0 root         (0) root         (0)      792 2022-02-08 14:58:25.000000 accumulo-1.10.2/conf/examples/512MB/standalone/tracers
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     2829 2022-02-08 14:58:25.000000 accumulo-1.10.2/test/compat/diffAPI.pl
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     8416 2022-02-08 14:58:25.000000 accumulo-1.10.2/test/system/agitator/agitator.py
+│ │  -rwxr-xr-x   0 root         (0) root         (0)      782 2022-02-08 14:58:25.000000 accumulo-1.10.2/test/system/bench/cloudstone1/__init__.py
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     1733 2022-02-08 14:58:25.000000 accumulo-1.10.2/test/system/bench/cloudstone1/cloudstone1.py
+│ │  -rwxr-xr-x   0 root         (0) root         (0)      782 2022-02-08 14:58:25.000000 accumulo-1.10.2/test/system/bench/cloudstone2/__init__.py
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     1524 2022-02-08 14:58:25.000000 accumulo-1.10.2/test/system/bench/cloudstone2/cloudstone2.py
+│ │  -rwxr-xr-x   0 root         (0) root         (0)      782 2022-02-08 14:58:25.000000 accumulo-1.10.2/test/system/bench/cloudstone3/__init__.py
+│ │ @@ -472,64 +322,27 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)      806 2022-02-08 14:58:25.000000 accumulo-1.10.2/test/system/stress/readers
+│ │  -rw-r--r--   0 root         (0) root         (0)     2367 2022-02-08 14:58:25.000000 accumulo-1.10.2/test/system/stress/stress-env.sh.example
+│ │  -rw-r--r--   0 root         (0) root         (0)      806 2022-02-08 14:58:25.000000 accumulo-1.10.2/test/system/stress/writers
+│ │  -rw-r--r--   0 root         (0) root         (0)     1480 2022-02-08 14:58:25.000000 accumulo-1.10.2/test/system/test1/README.md
+│ │  -rw-r--r--   0 root         (0) root         (0)     1088 2022-02-08 14:58:25.000000 accumulo-1.10.2/test/system/test2/README.md
+│ │  -rw-r--r--   0 root         (0) root         (0)      848 2022-02-08 14:58:25.000000 accumulo-1.10.2/test/system/test3/README.md
+│ │  -rw-r--r--   0 root         (0) root         (0)     1064 2022-02-08 14:58:25.000000 accumulo-1.10.2/test/system/test4/README.md
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-cpp/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-py/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-py/accumulo/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-rb/
+│ │ --rw-r--r--   0 root         (0) root         (0)  1489062 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-cpp/AccumuloProxy.cpp
+│ │ --rw-r--r--   0 root         (0) root         (0)  1489864 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-cpp/AccumuloProxy.cpp-with-license
+│ │ --rw-r--r--   0 root         (0) root         (0)   534150 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-cpp/AccumuloProxy.h
+│ │ --rw-r--r--   0 root         (0) root         (0)   534952 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-cpp/AccumuloProxy.h-with-license
+│ │ --rw-r--r--   0 root         (0) root         (0)    20998 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-cpp/AccumuloProxy_server.skeleton.cpp
+│ │ --rw-r--r--   0 root         (0) root         (0)    21800 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-cpp/AccumuloProxy_server.skeleton.cpp-with-license
+│ │ --rw-r--r--   0 root         (0) root         (0)      285 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-cpp/proxy_constants.cpp
+│ │ --rw-r--r--   0 root         (0) root         (0)     1087 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-cpp/proxy_constants.cpp-with-license
+│ │ --rw-r--r--   0 root         (0) root         (0)      367 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-cpp/proxy_constants.h
+│ │ --rw-r--r--   0 root         (0) root         (0)     1169 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-cpp/proxy_constants.h-with-license
+│ │ --rw-r--r--   0 root         (0) root         (0)   137679 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-cpp/proxy_types.cpp
+│ │ --rw-r--r--   0 root         (0) root         (0)   138481 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-cpp/proxy_types.cpp-with-license
+│ │ --rw-r--r--   0 root         (0) root         (0)    53068 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-cpp/proxy_types.h
+│ │ --rw-r--r--   0 root         (0) root         (0)    53870 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-cpp/proxy_types.h-with-license
+│ │ --rw-r--r--   0 root         (0) root         (0)        0 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-py/__init__.py
+│ │ --rw-r--r--   0 root         (0) root         (0)      781 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-py/__init__.py-with-license
+│ │ --rw-r--r--   0 root         (0) root         (0)    28037 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-py/accumulo/AccumuloProxy-remote
+│ │ --rw-r--r--   0 root         (0) root         (0)    28818 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-py/accumulo/AccumuloProxy-remote-with-license
+│ │ --rw-r--r--   0 root         (0) root         (0)   814110 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-py/accumulo/AccumuloProxy.py
+│ │ --rw-r--r--   0 root         (0) root         (0)   814891 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-py/accumulo/AccumuloProxy.py-with-license
+│ │ --rw-r--r--   0 root         (0) root         (0)       51 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-py/accumulo/__init__.py
+│ │ --rw-r--r--   0 root         (0) root         (0)      832 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-py/accumulo/__init__.py-with-license
+│ │ --rw-r--r--   0 root         (0) root         (0)      244 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-py/accumulo/constants.py
+│ │ --rw-r--r--   0 root         (0) root         (0)     1025 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-py/accumulo/constants.py-with-license
+│ │ --rw-r--r--   0 root         (0) root         (0)   100654 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-py/accumulo/ttypes.py
+│ │ --rw-r--r--   0 root         (0) root         (0)   101435 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-py/accumulo/ttypes.py-with-license
+│ │ --rw-r--r--   0 root         (0) root         (0)   243372 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-rb/accumulo_proxy.rb
+│ │ --rw-r--r--   0 root         (0) root         (0)   244153 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-rb/accumulo_proxy.rb-with-license
+│ │ --rw-r--r--   0 root         (0) root         (0)      177 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-rb/proxy_constants.rb
+│ │ --rw-r--r--   0 root         (0) root         (0)      958 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-rb/proxy_constants.rb-with-license
+│ │ --rw-r--r--   0 root         (0) root         (0)    24735 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-rb/proxy_types.rb
+│ │ --rw-r--r--   0 root         (0) root         (0)    25516 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/gen-rb/proxy_types.rb-with-license
+│ │  -rw-r--r--   0 root         (0) root         (0)     2825 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/README
+│ │  -rw-r--r--   0 root         (0) root         (0)     1036 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/proxy.properties
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     1719 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/examples/python/TestClient.py
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     7361 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/examples/python/TestNamespace.py
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     1884 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/examples/ruby/test_client.rb
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/examples/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/examples/python/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/examples/ruby/
+│ │  -rw-r--r--   0 root         (0) root         (0)     1279 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/examples/python/README
+│ │  -rw-r--r--   0 root         (0) root         (0)     1312 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/examples/ruby/README
+│ │  -rw-r--r--   0 root         (0) root         (0)    25662 2022-02-08 14:58:25.000000 accumulo-1.10.2/proxy/thrift/proxy.thrift
+│ │  -rw-r--r--   0 root         (0) root         (0)     6192 2022-02-08 14:58:25.000000 accumulo-1.10.2/INSTALL.md
+│ │  -rw-r--r--   0 root         (0) root         (0)     6316 2022-02-08 14:58:25.000000 accumulo-1.10.2/README.md
+│ │ --rw-r--r--   0 root         (0) root         (0)     2371 2022-02-08 14:58:25.000000 accumulo-1.10.2/lib/VERSIONS
+│ │  -rw-r--r--   0 root         (0) root         (0)    51506 2022-02-08 14:58:25.000000 accumulo-1.10.2/LICENSE
+│ │  -rw-r--r--   0 root         (0) root         (0)      622 2022-02-08 14:58:25.000000 accumulo-1.10.2/NOTICE
+│ │  -rw-r--r--   0 root         (0) root         (0)   334090 2022-02-08 14:58:25.000000 accumulo-1.10.2/lib/reload4j.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    88407 2022-02-08 14:58:25.000000 accumulo-1.10.2/lib/jcommander.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   258075 2022-02-08 14:58:25.000000 accumulo-1.10.2/lib/gson.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)  2189117 2022-02-08 14:58:25.000000 accumulo-1.10.2/lib/guava.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   533455 2022-02-08 14:58:25.000000 accumulo-1.10.2/lib/protobuf-java.jar
+│ │ @@ -567,8 +380,8 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)   109796 2022-02-08 14:58:25.000000 accumulo-1.10.2/lib/jetty-io.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    96014 2022-02-08 14:58:25.000000 accumulo-1.10.2/lib/jetty-security.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   421742 2022-02-08 14:58:25.000000 accumulo-1.10.2/lib/jetty-server.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   115681 2022-02-08 14:58:25.000000 accumulo-1.10.2/lib/jetty-servlet.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   387686 2022-02-08 14:58:25.000000 accumulo-1.10.2/lib/jetty-util.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    41473 2022-02-08 14:58:25.000000 accumulo-1.10.2/lib/slf4j-api.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)     9888 2022-02-08 14:58:25.000000 accumulo-1.10.2/lib/slf4j-reload4j.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   764820 2022-02-08 14:58:25.000000 accumulo-1.10.2/docs/accumulo_user_manual.html
+│ │ +-rw-r--r--   0 root         (0) root         (0)   638211 2022-02-08 14:58:25.000000 accumulo-1.10.2/docs/accumulo_user_manual.html
+│ ├── accumulo-1.10.2/docs/accumulo_user_manual.html
+│ │ @@ -874,318 +874,14 @@
+│ │  </ul>
+│ │  </li>
+│ │  <li><a href="#_upgrade_issues">20.9. Upgrade Issues</a></li>
+│ │  <li><a href="#_file_naming_conventions">20.10. File Naming Conventions</a></li>
+│ │  <li><a href="#_hdfs_decommissioning_issues">20.11. HDFS Decommissioning Issues</a></li>
+│ │  </ul>
+│ │  </li>
+│ │ -<li><a href="#configuration">Appendix A: Configuration Management</a>
+│ │ -<ul class="sectlevel2">
+│ │ -<li><a href="#_configuration_overview">A.1. Configuration Overview</a>
+│ │ -<ul class="sectlevel3">
+│ │ -<li><a href="#_zookeeper_table_properties">A.1.1. Zookeeper table properties</a></li>
+│ │ -<li><a href="#_zookeeper_system_properties">A.1.2. Zookeeper system properties</a></li>
+│ │ -<li><a href="#_accumulo_site_xml">A.1.3. accumulo-site.xml</a></li>
+│ │ -<li><a href="#_default_values">A.1.4. Default Values</a></li>
+│ │ -<li><a href="#_zookeeper_property_considerations">A.1.5. ZooKeeper Property Considerations</a></li>
+│ │ -</ul>
+...
+│ │ -<div class="sect3">
+│ │ -<h4 id="_boolean">A.4.14. boolean</h4>
+│ │ -<div class="paragraph">
+│ │ -<p>Has a value of either 'true' or 'false' (case-insensitive)</p>
+│ │ -</div>
+│ │ -</div>
+│ │ -<div class="sect3">
+│ │ -<h4 id="_uri">A.4.15. uri</h4>
+│ │ -<div class="paragraph">
+│ │ -<p>A valid URI</p>
+│ │ -</div>
+│ │ +<p>Unresolved directive in accumulo_user_manual.asciidoc - include::appendices/config.txt[]</p>
+│ │  </div>
+│ │  </div>
+│ │  </div>
+│ │  </div>
+│ │  </div>
+│ │  <div id="footer">
+│ │  <div id="footer-text">
+│ │ -Last updated 2022-02-08 10:00:38 -0500
+│ │ +Last updated 2022-02-14 20:45:31 UTC
+│ │  </div>
+│ │  </div>
+│ │  </body>
+│ │  </html>

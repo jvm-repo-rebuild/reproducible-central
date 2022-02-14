@@ -1,0 +1,17 @@
+groupId=org.apache.accumulo
+artifactId=accumulo
+display=${groupId}:${artifactId}
+version=1.10.2
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=rel/${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn -Papache-release,accumulo-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dexec.skip"
+buildinfo=target/${artifactId}-project-${version}.buildinfo
+
+diffoscope=${artifactId}-project-${version}.diffoscope
+issue=
