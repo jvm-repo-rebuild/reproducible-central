@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Compiler Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-compiler-plugin
+version=3.10.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/apache/maven-compiler-plugin.git
+source.scm.tag=maven-compiler-plugin-3.10.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.filename=maven-compiler-plugin-3.10.0.pom
+outputs.0.length=12614
+outputs.0.checksums.sha512=834ef569fb7b247a01126082effcd0e5f01c09c2f830bc0ea2055e09b857a50b9d61348e6177501841efbd32293a7df518ae9deea486f084fbcede8321743974
+
+outputs.1.filename=maven-compiler-plugin-3.10.0.jar
+outputs.1.length=61759
+outputs.1.checksums.sha512=833591ef48dd6fc1bbfffc9441d78c45ee2f1705f0e9477e611c013957cc2b7ef75467e788ed30127075f0887a1d59c7e0d6bebcbe746f8d5fdff64d5bf108cc
+
+outputs.2.filename=maven-compiler-plugin-3.10.0-source-release.zip
+outputs.2.length=644516
+outputs.2.checksums.sha512=a1fe638c40471f40063e4578fbbb62875c284cd324749256e1a981271114a30d350be569d7def93622fa3d9d941569849f3b12cbb55933d3d9567d60fc97fca9
+
+outputs.3.filename=maven-compiler-plugin-3.10.0-sources.jar
+outputs.3.length=38639
+outputs.3.checksums.sha512=79ad188e8bb7daf575f548ebe9b961c72d37be323536de9388aa26f8cb70a33d54d0e1f77e8f35f94e230e7edb4b328038536145a2f76b1a64b26c726258a86c
