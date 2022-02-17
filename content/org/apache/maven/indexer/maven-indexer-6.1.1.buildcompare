@@ -1,0 +1,8 @@
+version=6.1.1
+ok=19
+ko=1
+okFiles="maven-indexer-6.1.1.pom maven-indexer-6.1.1-site.xml maven-indexer-6.1.1-source-release.zip indexer-core-6.1.1.pom indexer-core-6.1.1.jar indexer-core-6.1.1-sources.jar indexer-core-6.1.1-shaded-lucene.jar indexer-cli-6.1.1.pom indexer-cli-6.1.1.jar indexer-cli-6.1.1-sources.jar indexer-reader-6.1.1.pom indexer-reader-6.1.1-sources.jar maven-indexer-examples-6.1.1.pom indexer-examples-basic-6.1.1.pom indexer-examples-basic-6.1.1.jar indexer-examples-basic-6.1.1-sources.jar indexer-examples-spring-6.1.1.pom indexer-examples-spring-6.1.1.jar indexer-examples-spring-6.1.1-sources.jar"
+koFiles="indexer-reader-6.1.1.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/indexer-reader-6.1.1.jar indexer-reader/target/indexer-reader-6.1.1.jar
