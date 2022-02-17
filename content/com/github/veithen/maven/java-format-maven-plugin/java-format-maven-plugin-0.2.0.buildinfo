@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=java-format-maven-plugin
+group-id=com.github.veithen.maven
+artifact-id=java-format-maven-plugin
+version=0.2.0
+
+# source information
+source.scm.uri=scm:git:http://github.com/veithen/java-format-maven-plugin.git
+source.scm.tag=0.2.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=java-format-maven-plugin-0.2.0.pom
+outputs.0.length=4756
+outputs.0.checksums.sha512=a7f190610d6c73aff96c30439c5430b305de5799bcbef1b86c2496e3d34148bc59f23f4dda01ca00d724f107e5b75090e67facb88bc13e4c624042a52631f063
+
+outputs.1.filename=java-format-maven-plugin-0.2.0.jar
+outputs.1.length=40295
+outputs.1.checksums.sha512=51f5f85bc62f0ee724eb5b77ae8d06ab4764460ce99c2f61e0f439cce4bc657c03dbd4d9cc2268bf45fbec19ccfdc8a2747f32e5edb4942a26a7f82f0c5d0c3c
+
+outputs.2.filename=java-format-maven-plugin-0.2.0-sources.jar
+outputs.2.length=20842
+outputs.2.checksums.sha512=a03833be03c4322111b28455cbf65e161de0a57d6b2f5807da8a59cf259082350487acb7ab6074a6f275ef919884561743ea56373885ce1276d9469d3328f502
+
+outputs.3.filename=java-format-maven-plugin-0.2.0-source-release.zip
+outputs.3.length=11582
+outputs.3.checksums.sha512=7ef33d5d9f550a62e0a996613975175fb91a0fa71fb64984e9398adc80f6e9db788f3f40ab8ac8e9fd35e7f2ddb4bb60cd2bc84e98ba4c69fd48caab41ff6c69

@@ -1,6 +1,6 @@
-groupId=com.github.veithen
-artifactId=parent
-version=41
+groupId=com.github.veithen.maven
+artifactId=java-format-maven-plugin
+version=0.2.0
 
 display=${groupId}:${artifactId}
 
