@@ -13,4 +13,4 @@ newline=lf
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-issue=https://issues.apache.org/jira/browse/MPOM-265
+issue=
