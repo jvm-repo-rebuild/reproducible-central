@@ -1,0 +1,7 @@
+version=3.17
+ok=3
+ko=0
+okFiles="mybatis-guice-3.17.pom mybatis-guice-3.17.jar mybatis-guice-3.17-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
