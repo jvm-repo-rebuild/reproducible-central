@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Project Info Reports Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-project-info-reports-plugin
+version=3.2.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-project-info-reports-plugin.git
+source.scm.tag=maven-project-info-reports-plugin-3.2.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=maven-project-info-reports-plugin-3.2.2.pom
+outputs.0.length=19086
+outputs.0.checksums.sha512=173bdc2c1a2e7391155f77bac8603a6105e53563e6ea72d46b3e18decc1cd98988ba0e6dfbd3e61a329b9175dd66dfd407ec05289c506b48e5f2acf05ec5b815
+
+outputs.1.filename=maven-project-info-reports-plugin-3.2.2.jar
+outputs.1.length=293618
+outputs.1.checksums.sha512=affa36d0b040ef95aa8d7329854e95bc3eb79533f42bf94bc7cecce60e2a01dd353996ca7a13b47e0f4302f95d6be24d269ecabe2d5351f5683b50bad02325c1
+
+outputs.2.filename=maven-project-info-reports-plugin-3.2.2-source-release.zip
+outputs.2.length=416093
+outputs.2.checksums.sha512=64320bcf4f3389b390d62d9186eeb60993c7c14cdee07073aff1205ba55a94f0945e805dd5a37e6c17c3deb81471cf5fa04d0a5523693626115b7969a1325824
+
+outputs.3.filename=maven-project-info-reports-plugin-3.2.2-sources.jar
+outputs.3.length=231160
+outputs.3.checksums.sha512=a206aa21ea6bd4f7b07a7654c296d0fcd1cde71c0cb20aea576159d27ce15b47376f87a36f5d763c2b6080b9b7728cafb87077073f28d06010f7519bf41ed2bd
