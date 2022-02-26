@@ -1,0 +1,26 @@
+# see instructions https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/BUILDSPEC.md
+
+# Central Repository coordinates for the Reference release
+groupId=org.eclipse.jkube
+artifactId=jkube
+version=1.7.0
+
+display=${groupId}:${artifactId}
+
+# Source code
+gitRepo=https://github.com/eclipse/${artifactId}.git
+gitTag=v${version}
+
+# Rebuild environment prerequisites
+tool=mvn
+jdk=8
+newline=lf
+
+# Rebuild command
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dasciidoctor.skip"
+
+# Location of the buildinfo file generated during rebuild to record output fingerprints
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+# if the release is finally not reproducible, link to an issue tracker entry if one was created
+issue=
