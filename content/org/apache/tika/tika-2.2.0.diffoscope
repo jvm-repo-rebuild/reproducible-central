@@ -1,0 +1,380 @@
+target/reference/tika-parser-microsoft-module-2.2.0.jar tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/target/tika-parser-microsoft-module-2.2.0.jar
+--- target/reference/tika-parser-microsoft-module-2.2.0.jar
++++ tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/target/tika-parser-microsoft-module-2.2.0.jar
+├── zipinfo {}
+│ @@ -1,9 +1,9 @@
+│ -Zip file size: 664459 bytes, number of entries: 362
+│ --rw-r--r--  2.0 unx    13725 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│ +Zip file size: 664449 bytes, number of entries: 362
+│ +-rw-r--r--  2.0 unx    13718 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/tika/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/tika/detect/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/tika/detect/microsoft/
+│ @@ -357,8 +357,8 @@
+│  -rw-r--r--  2.0 unx     3904 b- defN 80-000-00 04:08 org/apache/tika/parser/microsoft/xml/SpreadsheetMLParser$ExcelMLHandler.class
+│  -rw-r--r--  2.0 unx     2318 b- defN 80-000-00 04:08 org/apache/tika/parser/microsoft/xml/SpreadsheetMLParser.class
+│  -rw-r--r--  2.0 unx     5635 b- defN 80-000-00 04:08 org/apache/tika/parser/microsoft/xml/WordMLParser$PictHandler.class
+│  -rw-r--r--  2.0 unx     2763 b- defN 80-000-00 04:08 org/apache/tika/parser/microsoft/xml/WordMLParser$WordMLHandler.class
+│  -rw-r--r--  2.0 unx     3915 b- defN 80-000-00 04:08 org/apache/tika/parser/microsoft/xml/WordMLParser.class
+│  -rw-r--r--  2.0 unx     5736 b- defN 80-000-00 04:08 META-INF/maven/org.apache.tika/tika-parser-microsoft-module/pom.xml
+│  -rw-r--r--  2.0 unx       78 b- defN 80-000-00 04:08 META-INF/maven/org.apache.tika/tika-parser-microsoft-module/pom.properties
+│ -362 files, 1407447 bytes uncompressed, 586655 bytes compressed:  58.3%
+│ +362 files, 1407440 bytes uncompressed, 586645 bytes compressed:  58.3%
+├── META-INF/MANIFEST.MF
+│ @@ -1,12 +1,12 @@
+│  Manifest-Version: 1.0
+
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+
+│  Bundle-SymbolicName: org.apache.tika.parser-microsoft-module
+
+│ -Built-By: tallison
+
+│ -Bnd-LastModified: 1639428471140
+
+│ +Built-By: ?
+
+│ +Bnd-LastModified: 1645960183673
+
+│  Specification-Title: Apache Tika Microsoft parser module
+
+│  Implementation-Vendor-Id: org.apache.tika
+
+│  Bundle-DocURL: https://tika.apache.org/tika-parser-microsoft-module/
+
+│  Import-Package: org.apache.tika.config;version="[2.2,3)",org.apache.ti
+
+│   ka.detect;version="[2.2,3)",org.apache.tika.detect.microsoft,org.apac
+
+│   he.tika.detect.microsoft.ooxml,org.apache.tika.detect.zip;version="[2
+
+│   .2,3)",org.apache.tika.exception;version="[2.2,3)",org.apache.tika.ex
+
+│ @@ -110,81 +110,81 @@
+│   poifs.filesystem,org.apache.tika.detect,org.apache.tika.metadata,org.
+
+│   apache.tika.mime";version="2.2.0",org.apache.tika.parser.microsoft;us
+
+│   es:="org.apache.poi.hssf.extractor,org.apache.poi.hwpf,org.apache.poi
+
+│   .hwpf.usermodel,org.apache.poi.poifs.filesystem,org.apache.poi.ss.use
+
+│   rmodel,org.apache.poi.wp.usermodel,org.apache.tika.config,org.apache.
+
+│   tika.exception,org.apache.tika.extractor,org.apache.tika.metadata,org
+
+│   .apache.tika.mime,org.apache.tika.parser,org.apache.tika.sax,org.xml.
+
+│ - sax";version="2.2.0",org.apache.tika.parser.microsoft.rtf;uses:="org.
+
+│ - apache.tika.config,org.apache.tika.exception,org.apache.tika.metadata
+
+│ - ,org.apache.tika.mime,org.apache.tika.parser,org.xml.sax";version="2.
+
+│ - 2.0",org.apache.tika.parser.microsoft.xml;uses:="org.apache.tika.exce
+
+│ - ption,org.apache.tika.metadata,org.apache.tika.mime,org.apache.tika.p
+
+│ - arser,org.xml.sax";version="2.2.0",org.apache.tika.parser.microsoft.o
+
+│ - nenote;uses:="org.apache.tika.exception,org.apache.tika.metadata,org.
+
+│ - apache.tika.mime,org.apache.tika.parser,org.xml.sax";version="2.2.0",
+
+│ - org.apache.tika.parser.microsoft.onenote.fsshttpb.exception;version="
+
+│ - 2.2.0",org.apache.tika.parser.microsoft.onenote.fsshttpb.property;use
+
+│ - s:="org.apache.tika.parser.microsoft.onenote.fsshttpb.streamobj,org.a
+
+│ - pache.tika.parser.microsoft.onenote.fsshttpb.streamobj.basic";version
+
+│ - ="2.2.0",org.apache.tika.parser.microsoft.onenote.fsshttpb;uses:="org
+
+│ - .apache.tika.exception,org.apache.tika.metadata,org.apache.tika.parse
+
+│ - r.microsoft.onenote,org.apache.tika.parser.microsoft.onenote.fsshttpb
+
+│ - .streamobj,org.apache.tika.parser.microsoft.onenote.fsshttpb.streamob
+
+│ - j.basic,org.apache.tika.sax,org.xml.sax";version="2.2.0",org.apache.t
+
+│ - ika.parser.microsoft.onenote.fsshttpb.streamobj;uses:="org.apache.tik
+
+│ - a.exception,org.apache.tika.parser.microsoft.onenote.fsshttpb,org.apa
+
+│ - che.tika.parser.microsoft.onenote.fsshttpb.property,org.apache.tika.p
+
+│ - arser.microsoft.onenote.fsshttpb.streamobj.basic,org.apache.tika.pars
+
+│ - er.microsoft.onenote.fsshttpb.streamobj.space";version="2.2.0",org.ap
+
+│ - ache.tika.parser.microsoft.onenote.fsshttpb.streamobj.space;uses:="or
+
+│ + sax";version="2.2.0",org.apache.tika.parser.microsoft.pst;uses:="org.
+
+│ + apache.tika.exception,org.apache.tika.metadata,org.apache.tika.mime,o
+
+│ + rg.apache.tika.parser,org.xml.sax";version="2.2.0",org.apache.tika.pa
+
+│ + rser.microsoft.chm;uses:="org.apache.tika.exception,org.apache.tika.m
+
+│ + etadata,org.apache.tika.mime,org.apache.tika.parser,org.xml.sax";vers
+
+│ + ion="2.2.0",org.apache.tika.parser.microsoft.ooxml;uses:="org.apache.
+
+│ + poi.ooxml,org.apache.poi.ooxml.extractor,org.apache.poi.openxml4j.opc
+
+│ + ,org.apache.poi.ss.usermodel,org.apache.poi.xslf.extractor,org.apache
+
+│ + .poi.xssf.eventusermodel,org.apache.poi.xssf.model,org.apache.poi.xss
+
+│ + f.usermodel,org.apache.poi.xssf.usermodel.helpers,org.apache.poi.xwpf
+
+│ + .extractor,org.apache.poi.xwpf.usermodel,org.apache.tika.exception,or
+
+│ + g.apache.tika.metadata,org.apache.tika.mime,org.apache.tika.parser,or
+
+│ + g.apache.tika.parser.microsoft,org.apache.tika.parser.microsoft.ooxml
+
+│ + .xslf,org.apache.tika.parser.microsoft.ooxml.xwpf,org.apache.tika.sax
+
+│ + ,org.apache.xmlbeans,org.xml.sax,org.xml.sax.helpers";version="2.2.0"
+
+│ + ,org.apache.tika.parser.microsoft.ooxml.xslf;uses:="org.apache.poi.oo
+
+│ + xml,org.apache.poi.ooxml.extractor,org.apache.poi.openxml4j.exception
+
+│ + s,org.apache.poi.openxml4j.opc,org.apache.xmlbeans";version="2.2.0",o
+
+│ + rg.apache.tika.parser.microsoft.ooxml.xwpf;uses:="org.apache.poi.ooxm
+
+│ + l,org.apache.poi.ooxml.extractor,org.apache.poi.openxml4j.exceptions,
+
+│ + org.apache.poi.openxml4j.opc,org.apache.poi.xwpf.usermodel,org.apache
+
+│ + .tika.exception,org.apache.tika.parser,org.apache.xmlbeans,org.xml.sa
+
+│ + x";version="2.2.0",org.apache.tika.parser.microsoft.ooxml.xwpf.ml2006
+
+│ + ;uses:="org.apache.tika.exception,org.apache.tika.metadata,org.apache
+
+│ + .tika.mime,org.apache.tika.parser,org.apache.tika.parser.microsoft,or
+
+│ + g.xml.sax";version="2.2.0",org.apache.tika.parser.microsoft.ooxml.xps
+
+│ + ;uses:="org.apache.poi.ooxml,org.apache.poi.ooxml.extractor,org.apach
+
+│ + e.poi.openxml4j.exceptions,org.apache.poi.openxml4j.opc,org.apache.ti
+
+│ + ka.exception,org.apache.tika.parser,org.apache.tika.parser.microsoft.
+
+│ + ooxml,org.apache.tika.sax,org.apache.xmlbeans,org.xml.sax";version="2
+
+│ + .2.0",org.apache.tika.parser.microsoft.rtf;uses:="org.apache.tika.con
+
+│ + fig,org.apache.tika.exception,org.apache.tika.metadata,org.apache.tik
+
+│ + a.mime,org.apache.tika.parser,org.xml.sax";version="2.2.0",org.apache
+
+│ + .tika.parser.microsoft.xml;uses:="org.apache.tika.exception,org.apach
+
+│ + e.tika.metadata,org.apache.tika.mime,org.apache.tika.parser,org.xml.s
+
+│ + ax";version="2.2.0",org.apache.tika.parser.microsoft.onenote;uses:="o
+
+│ + rg.apache.tika.exception,org.apache.tika.metadata,org.apache.tika.mim
+
+│ + e,org.apache.tika.parser,org.xml.sax";version="2.2.0",org.apache.tika
+
+│ + .parser.microsoft.onenote.fsshttpb.unsigned;version="2.2.0",org.apach
+
+│ + e.tika.parser.microsoft.onenote.fsshttpb;uses:="org.apache.tika.excep
+
+│ + tion,org.apache.tika.metadata,org.apache.tika.parser.microsoft.onenot
+
+│ + e,org.apache.tika.parser.microsoft.onenote.fsshttpb.streamobj,org.apa
+
+│ + che.tika.parser.microsoft.onenote.fsshttpb.streamobj.basic,org.apache
+
+│ + .tika.sax,org.xml.sax";version="2.2.0",org.apache.tika.parser.microso
+
+│ + ft.onenote.fsshttpb.property;uses:="org.apache.tika.parser.microsoft.
+
+│ + onenote.fsshttpb.streamobj,org.apache.tika.parser.microsoft.onenote.f
+
+│ + sshttpb.streamobj.basic";version="2.2.0",org.apache.tika.parser.micro
+
+│ + soft.onenote.fsshttpb.exception;version="2.2.0",org.apache.tika.parse
+
+│ + r.microsoft.onenote.fsshttpb.util;uses:="org.apache.tika.exception,or
+
+│   g.apache.tika.parser.microsoft.onenote.fsshttpb.streamobj,org.apache.
+
+│   tika.parser.microsoft.onenote.fsshttpb.streamobj.basic";version="2.2.
+
+│ - 0",org.apache.tika.parser.microsoft.onenote.fsshttpb.streamobj.chunki
+
+│ - ng;uses:="org.apache.tika.exception,org.apache.tika.parser.microsoft.
+
+│ - onenote.fsshttpb.streamobj";version="2.2.0",org.apache.tika.parser.mi
+
+│ - crosoft.onenote.fsshttpb.streamobj.basic;uses:="org.apache.tika.excep
+
+│ - tion,org.apache.tika.parser.microsoft.onenote,org.apache.tika.parser.
+
+│ - microsoft.onenote.fsshttpb,org.apache.tika.parser.microsoft.onenote.f
+
+│ - sshttpb.streamobj,org.apache.tika.parser.microsoft.onenote.fsshttpb.s
+
+│ - treamobj.space";version="2.2.0",org.apache.tika.parser.microsoft.onen
+
+│ - ote.fsshttpb.util;uses:="org.apache.tika.exception,org.apache.tika.pa
+
+│ - rser.microsoft.onenote.fsshttpb.streamobj,org.apache.tika.parser.micr
+
+│ - osoft.onenote.fsshttpb.streamobj.basic";version="2.2.0",org.apache.ti
+
+│ - ka.parser.microsoft.onenote.fsshttpb.unsigned;version="2.2.0",org.apa
+
+│ - che.tika.parser.microsoft.chm;uses:="org.apache.tika.exception,org.ap
+
+│ - ache.tika.metadata,org.apache.tika.mime,org.apache.tika.parser,org.xm
+
+│ - l.sax";version="2.2.0",org.apache.tika.parser.microsoft.pst;uses:="or
+
+│ - g.apache.tika.exception,org.apache.tika.metadata,org.apache.tika.mime
+
+│ - ,org.apache.tika.parser,org.xml.sax";version="2.2.0",org.apache.tika.
+
+│ - parser.microsoft.ooxml;uses:="org.apache.poi.ooxml,org.apache.poi.oox
+
+│ - ml.extractor,org.apache.poi.openxml4j.opc,org.apache.poi.ss.usermodel
+
+│ - ,org.apache.poi.xslf.extractor,org.apache.poi.xssf.eventusermodel,org
+
+│ - .apache.poi.xssf.model,org.apache.poi.xssf.usermodel,org.apache.poi.x
+
+│ - ssf.usermodel.helpers,org.apache.poi.xwpf.extractor,org.apache.poi.xw
+
+│ - pf.usermodel,org.apache.tika.exception,org.apache.tika.metadata,org.a
+
+│ - pache.tika.mime,org.apache.tika.parser,org.apache.tika.parser.microso
+
+│ - ft,org.apache.tika.parser.microsoft.ooxml.xslf,org.apache.tika.parser
+
+│ - .microsoft.ooxml.xwpf,org.apache.tika.sax,org.apache.xmlbeans,org.xml
+
+│ - .sax,org.xml.sax.helpers";version="2.2.0",org.apache.tika.parser.micr
+
+│ - osoft.ooxml.xps;uses:="org.apache.poi.ooxml,org.apache.poi.ooxml.extr
+
+│ - actor,org.apache.poi.openxml4j.exceptions,org.apache.poi.openxml4j.op
+
+│ - c,org.apache.tika.exception,org.apache.tika.parser,org.apache.tika.pa
+
+│ - rser.microsoft.ooxml,org.apache.tika.sax,org.apache.xmlbeans,org.xml.
+
+│ - sax";version="2.2.0",org.apache.tika.parser.microsoft.ooxml.xwpf;uses
+
+│ - :="org.apache.poi.ooxml,org.apache.poi.ooxml.extractor,org.apache.poi
+
+│ - .openxml4j.exceptions,org.apache.poi.openxml4j.opc,org.apache.poi.xwp
+
+│ - f.usermodel,org.apache.tika.exception,org.apache.tika.parser,org.apac
+
+│ - he.xmlbeans,org.xml.sax";version="2.2.0",org.apache.tika.parser.micro
+
+│ - soft.ooxml.xwpf.ml2006;uses:="org.apache.tika.exception,org.apache.ti
+
+│ - ka.metadata,org.apache.tika.mime,org.apache.tika.parser,org.apache.ti
+
+│ - ka.parser.microsoft,org.xml.sax";version="2.2.0",org.apache.tika.pars
+
+│ - er.microsoft.ooxml.xslf;uses:="org.apache.poi.ooxml,org.apache.poi.oo
+
+│ - xml.extractor,org.apache.poi.openxml4j.exceptions,org.apache.poi.open
+
+│ - xml4j.opc,org.apache.xmlbeans";version="2.2.0"
+
+│ + 0",org.apache.tika.parser.microsoft.onenote.fsshttpb.streamobj;uses:=
+
+│ + "org.apache.tika.exception,org.apache.tika.parser.microsoft.onenote.f
+
+│ + sshttpb,org.apache.tika.parser.microsoft.onenote.fsshttpb.property,or
+
+│ + g.apache.tika.parser.microsoft.onenote.fsshttpb.streamobj.basic,org.a
+
+│ + pache.tika.parser.microsoft.onenote.fsshttpb.streamobj.space";version
+
+│ + ="2.2.0",org.apache.tika.parser.microsoft.onenote.fsshttpb.streamobj.
+
+│ + chunking;uses:="org.apache.tika.exception,org.apache.tika.parser.micr
+
+│ + osoft.onenote.fsshttpb.streamobj";version="2.2.0",org.apache.tika.par
+
+│ + ser.microsoft.onenote.fsshttpb.streamobj.basic;uses:="org.apache.tika
+
+│ + .exception,org.apache.tika.parser.microsoft.onenote,org.apache.tika.p
+
+│ + arser.microsoft.onenote.fsshttpb,org.apache.tika.parser.microsoft.one
+
+│ + note.fsshttpb.streamobj,org.apache.tika.parser.microsoft.onenote.fssh
+
+│ + ttpb.streamobj.space";version="2.2.0",org.apache.tika.parser.microsof
+
+│ + t.onenote.fsshttpb.streamobj.space;uses:="org.apache.tika.parser.micr
+
+│ + osoft.onenote.fsshttpb.streamobj,org.apache.tika.parser.microsoft.one
+
+│ + note.fsshttpb.streamobj.basic";version="2.2.0"
+
+│  Bundle-Name: Apache Tika Microsoft parser module
+
+│  Build-Jdk-Spec: 1.8
+
+│  Implementation-Title: Apache Tika Microsoft parser module
+
+│  Bundle-Description: Apache Tika is a toolkit for detecting and extract
+
+│   ing metadata and    structured text content from various documents us
+
+│   ing existing parser    libraries.
+
+│  Automatic-Module-Name: org.apache.tika.parser.microsoft
+
+│ @@ -193,11 +193,11 @@
+│  Bundle-ManifestVersion: 2
+
+│  Bundle-Vendor: The Apache Software Foundation
+
+│  Tool: Bnd-5.1.1.202006162103
+
+│  Implementation-Vendor: The Apache Software Foundation
+
+│  Bundle-Version: 2.2.0
+
+│  Created-By: Apache Maven Bundle Plugin
+
+│  Specification-Version: 2.2.0
+
+│ -Build-Jdk: 1.8.0_292
+
+│ +Build-Jdk: 1.8.0_275
+
+│  Implementation-URL: https://tika.apache.org/tika-parser-microsoft-modu
+
+│   le/
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Tika Microsoft parser module
+│ -Copyright 2007-1969 The Apache Software Foundation
+│ +Copyright 2007-1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
