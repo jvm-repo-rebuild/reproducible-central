@@ -1,0 +1,245 @@
+target/reference/manual-2.9.0.jar manual/target/manual-2.9.0.jar
+--- target/reference/manual-2.9.0.jar
++++ manual/target/manual-2.9.0.jar
+├── zipinfo {}
+│ @@ -1,27 +1,27 @@
+│ -Zip file size: 191410 bytes, number of entries: 25
+│ +Zip file size: 191397 bytes, number of entries: 25
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     1000 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf.decanter/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf.decanter/manual/
+│  -rw----     2.0 fat       66 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf.decanter/manual/pom.properties
+│  -rw----     2.0 fat     8585 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf.decanter/manual/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 html/
+│ --rw----     2.0 fat    51310 bl defN 80-Feb-01 00:00 html/alerting.html
+│ --rw----     2.0 fat    86836 bl defN 80-Feb-01 00:00 html/appenders.html
+│ --rw----     2.0 fat    39655 bl defN 80-Feb-01 00:00 html/architecture.html
+│ --rw----     2.0 fat    99029 bl defN 80-Feb-01 00:00 html/collectors.html
+│ --rw----     2.0 fat    43849 bl defN 80-Feb-01 00:00 html/custom-alerter.html
+│ --rw----     2.0 fat    43884 bl defN 80-Feb-01 00:00 html/custom-appender.html
+│ --rw----     2.0 fat    51913 bl defN 80-Feb-01 00:00 html/custom-collector.html
+│ --rw----     2.0 fat    39429 bl defN 80-Feb-01 00:00 html/custom-processor.html
+│ +-rw----     2.0 fat    51308 bl defN 80-Feb-01 00:00 html/alerting.html
+│ +-rw----     2.0 fat    86834 bl defN 80-Feb-01 00:00 html/appenders.html
+│ +-rw----     2.0 fat    39653 bl defN 80-Feb-01 00:00 html/architecture.html
+│ +-rw----     2.0 fat    99027 bl defN 80-Feb-01 00:00 html/collectors.html
+│ +-rw----     2.0 fat    43847 bl defN 80-Feb-01 00:00 html/custom-alerter.html
+│ +-rw----     2.0 fat    43882 bl defN 80-Feb-01 00:00 html/custom-appender.html
+│ +-rw----     2.0 fat    51911 bl defN 80-Feb-01 00:00 html/custom-collector.html
+│ +-rw----     2.0 fat    39427 bl defN 80-Feb-01 00:00 html/custom-processor.html
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 html/dev-guide/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 html/images/
+│  -rw----     2.0 fat    21243 bl defN 80-Feb-01 00:00 html/images/asf_logo.png
+│ --rw----     2.0 fat   202300 bl defN 80-Feb-01 00:00 html/index.html
+│ --rw----     2.0 fat    40872 bl defN 80-Feb-01 00:00 html/introduction.html
+│ --rw----     2.0 fat    48192 bl defN 80-Feb-01 00:00 html/processors.html
+│ +-rw----     2.0 fat   202298 bl defN 80-Feb-01 00:00 html/index.html
+│ +-rw----     2.0 fat    40870 bl defN 80-Feb-01 00:00 html/introduction.html
+│ +-rw----     2.0 fat    48190 bl defN 80-Feb-01 00:00 html/processors.html
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 html/style/
+│  -rw----     2.0 fat    37999 bl defN 80-Feb-01 00:00 html/style/apache.css
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 html/user-guide/
+│ -25 files, 816162 bytes uncompressed, 187898 bytes compressed:  77.0%
+│ +25 files, 816140 bytes uncompressed, 187885 bytes compressed:  77.0%
+├── html/alerting.html
+│ @@ -2853,12 +2853,12 @@
+│  </div>
+│  </div>
+│  </div>
+│  </div>
+│  </div>
+│  <div id="footer">
+│  <div id="footer-text">
+│ -Last updated 2022-02-15 07:48:23 +0100
+│ +Last updated 2022-02-27 09:12:28 UTC
+│  </div>
+│  </div>
+│  </body>
+│  </html>
+├── html/appenders.html
+│ @@ -3849,12 +3849,12 @@
+│  </ul>
+│  </div>
+│  </div>
+│  </div>
+│  </div>
+│  <div id="footer">
+│  <div id="footer-text">
+│ -Last updated 2022-02-15 07:48:23 +0100
+│ +Last updated 2022-02-27 09:12:28 UTC
+│  </div>
+│  </div>
+│  </body>
+│  </html>
+├── html/architecture.html
+│ @@ -2506,12 +2506,12 @@
+│  <div class="paragraph">
+│  <p>It means that you can easily extend Decanter adding your own collectors, appenders, or alerters.</p>
+│  </div>
+│  </div>
+│  </div>
+│  <div id="footer">
+│  <div id="footer-text">
+│ -Last updated 2022-02-15 07:48:23 +0100
+│ +Last updated 2022-02-27 09:12:28 UTC
+│  </div>
+│  </div>
+│  </body>
+│  </html>
+├── html/collectors.html
+│ @@ -4231,12 +4231,12 @@
+│  </ul>
+│  </div>
+│  </div>
+│  </div>
+│  </div>
+│  <div id="footer">
+│  <div id="footer-text">
+│ -Last updated 2022-02-15 07:48:23 +0100
+│ +Last updated 2022-02-27 09:12:28 UTC
+│  </div>
+│  </div>
+│  </body>
+│  </html>
+├── html/custom-alerter.html
+│ @@ -2614,12 +2614,12 @@
+│  <div class="paragraph">
+│  <p>Once built, you can enable this alerter by deploying the bundle in Karaf (using the deploy folder or the <code>bundle:install</code> command).</p>
+│  </div>
+│  </div>
+│  </div>
+│  <div id="footer">
+│  <div id="footer-text">
+│ -Last updated 2022-02-15 07:48:23 +0100
+│ +Last updated 2022-02-27 09:12:28 UTC
+│  </div>
+│  </div>
+│  </body>
+│  </html>
+├── html/custom-appender.html
+│ @@ -2614,12 +2614,12 @@
+│  <div class="paragraph">
+│  <p>Once built, you can enable this appender by deploying the bundle in Karaf (using the deploy folder or the <code>bundle:install</code> command).</p>
+│  </div>
+│  </div>
+│  </div>
+│  <div id="footer">
+│  <div id="footer-text">
+│ -Last updated 2022-02-15 07:48:23 +0100
+│ +Last updated 2022-02-27 09:12:28 UTC
+│  </div>
+│  </div>
+│  </body>
+│  </html>
+├── html/custom-collector.html
+│ @@ -2819,12 +2819,12 @@
+│  <code>bundle:install</code> command.</p>
+│  </div>
+│  </div>
+│  </div>
+│  </div>
+│  <div id="footer">
+│  <div id="footer-text">
+│ -Last updated 2022-02-15 07:48:23 +0100
+│ +Last updated 2022-02-27 09:12:28 UTC
+│  </div>
+│  </div>
+│  </body>
+│  </html>
+├── html/custom-processor.html
+│ @@ -2487,12 +2487,12 @@
+│  <div class="paragraph">
+│  <p>To see how to implement your own processor, you can take a look on the pass through processor: <a href="https://github.com/apache/karaf-decanter/blob/master/processor/passthrough/src/main/java/org/apache/karaf/decanter/processor/passthrough/PassThroughProcessor.java" class="bare">https://github.com/apache/karaf-decanter/blob/master/processor/passthrough/src/main/java/org/apache/karaf/decanter/processor/passthrough/PassThroughProcessor.java</a></p>
+│  </div>
+│  </div>
+│  </div>
+│  <div id="footer">
+│  <div id="footer-text">
+│ -Last updated 2022-02-15 07:48:23 +0100
+│ +Last updated 2022-02-27 09:12:28 UTC
+│  </div>
+│  </div>
+│  </body>
+│  </html>
+├── html/index.html
+│ @@ -7059,12 +7059,12 @@
+│  </div>
+│  </div>
+│  </div>
+│  </div>
+│  </div>
+│  <div id="footer">
+│  <div id="footer-text">
+│ -Last updated 2022-02-15 07:48:23 +0100
+│ +Last updated 2022-02-27 09:12:28 UTC
+│  </div>
+│  </div>
+│  </body>
+│  </html>
+├── html/introduction.html
+│ @@ -2549,12 +2549,12 @@
+│  <div class="paragraph">
+│  <p>Now, you have to install the collectors, appenders, and eventually alerters feature to match your need.</p>
+│  </div>
+│  </div>
+│  </div>
+│  <div id="footer">
+│  <div id="footer-text">
+│ -Last updated 2022-02-15 07:48:23 +0100
+│ +Last updated 2022-02-27 09:12:28 UTC
+│  </div>
+│  </div>
+│  </body>
+│  </html>
+├── html/processors.html
+│ @@ -2723,12 +2723,12 @@
+│  </ul>
+│  </div>
+│  </div>
+│  </div>
+│  </div>
+│  <div id="footer">
+│  <div id="footer-text">
+│ -Last updated 2022-02-15 07:48:23 +0100
+│ +Last updated 2022-02-27 09:12:28 UTC
+│  </div>
+│  </div>
+│  </body>
+│  </html>
+
+target/reference/itest-2.9.0.jar itest/target/itest-2.9.0.jar
+--- target/reference/itest-2.9.0.jar
++++ itest/target/itest-2.9.0.jar
+├── zipinfo -v {}
+│ @@ -255,15 +255,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          1980 000 0 04:08:00
+│ -  32-bit CRC value (hex):                         c8da7258
+│ +  32-bit CRC value (hex):                         ae0bd6d5
+│    compressed size:                                3034 bytes
+│    uncompressed size:                              23574 bytes
+│    length of filename:                             38 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/maven/dependencies.properties
+│ @@ -1,9 +1,9 @@
+│  # Project dependencies generated by the Apache ServiceMix Maven Plugin
+│ -# Generated at: Tue Feb 15 08:29:50 CET 2022
+│ +# Generated at: Sun Feb 27 09:15:01 UTC 2022
+│  
+│  groupId = org.apache.karaf.decanter
+│  artifactId = itest
+│  version = 2.9.0
+│  org.apache.karaf.decanter/itest/version = 2.9.0
+│  
+│  # dependencies
+
