@@ -1,0 +1,2827 @@
+target/reference/watset-2.8.0.jar target/watset.jar
+--- target/reference/watset-2.8.0.jar
++++ target/watset.jar
+├── zipinfo {}
+│ @@ -1,727 +1,113 @@
+│ -Zip file size: 1157676 bytes, number of entries: 725
+│ --rw----     2.0 fat      245 bX defN 22-Feb-26 10:39 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat        0 bl defN 22-Feb-26 10:39 META-INF/
+│ --rw----     2.0 fat        0 bl defN 22-Feb-26 10:39 org/
+│ --rw----     2.0 fat        0 bl defN 22-Feb-26 10:39 org/nlpub/
+│ --rw----     2.0 fat        0 bl defN 22-Feb-26 10:39 org/nlpub/watset/
+│ --rw----     2.0 fat        0 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/
+│ --rw----     2.0 fat      822 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/Application$1.class
+│ --rw----     2.0 fat     1251 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/Application$ParseStatus.class
+│ --rw----     2.0 fat     4579 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/Application.class
+│ --rw----     2.0 fat     2322 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/ChineseWhispersCommand.class
+│ --rw----     2.0 fat     2102 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/ClusteringCommand.class
+│ --rw----     2.0 fat      645 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/Command$FixedClustersParameters.class
+│ --rw----     2.0 fat      945 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/Command$GlobalParameters.class
+│ --rw----     2.0 fat      938 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/Command$LocalParameters.class
+│ --rw----     2.0 fat     1041 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/Command$MainParameters.class
+│ --rw----     2.0 fat     4542 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/Command.class
+│ --rw----     2.0 fat     2844 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/EmbeddingCommand.class
+│ --rw----     2.0 fat     2275 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/EvaluateCommand.class
+│ --rw----     2.0 fat     4813 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/GraphCommand.class
+│ --rw----     2.0 fat     1604 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/LocalWatsetCommand.class
+│ --rw----     2.0 fat     1843 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/MarkovClusteringCommand.class
+│ --rw----     2.0 fat     2160 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/MarkovClusteringExternalCommand.class
+│ --rw----     2.0 fat     3632 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/PairwiseCommand.class
+│ --rw----     2.0 fat     1559 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/ProvidedClusteringCommand.class
+│ --rw----     2.0 fat     1978 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/ProvidedClusteringFixedKCommand.class
+│ --rw----     2.0 fat     4531 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/PurityCommand.class
+│ --rw----     2.0 fat      889 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/RandomConverter.class
+│ --rw----     2.0 fat     3817 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/SenseEmbeddingCommand.class
+│ --rw----     2.0 fat     6186 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/SensesCommand.class
+│ --rw----     2.0 fat     3057 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/SpectralClusteringCommand.class
+│ --rw----     2.0 fat     2285 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/VersionCommand.class
+│ --rw----     2.0 fat     2706 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/WatsetCommand.class
+│ --rw----     2.0 fat     1690 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/WatsetGetter.class
+│ --rw----     2.0 fat      126 bl defN 22-Feb-26 10:39 org/nlpub/watset/cli/package-info.class
+│ --rw----     2.0 fat        0 bl defN 22-Feb-26 10:39 org/nlpub/watset/eval/
+│ --rw----     2.0 fat     2502 bl defN 22-Feb-26 10:39 org/nlpub/watset/eval/CachedNormalizedModifiedPurity.class
+│ --rw----     2.0 fat     1246 bl defN 22-Feb-26 10:39 org/nlpub/watset/eval/Measurer$Measurement.class
+│ --rw----     2.0 fat     5343 bl defN 22-Feb-26 10:39 org/nlpub/watset/eval/Measurer.class
+│ --rw----     2.0 fat     9250 bl defN 22-Feb-26 10:39 org/nlpub/watset/eval/NormalizedModifiedPurity.class
+│ --rw----     2.0 fat     5656 bl defN 22-Feb-26 10:39 org/nlpub/watset/eval/Pairwise.class
+│ --rw----     2.0 fat     1529 bl defN 22-Feb-26 10:39 org/nlpub/watset/eval/PrecisionRecall.class
+│ --rw----     2.0 fat     1087 bl defN 22-Feb-26 10:39 org/nlpub/watset/eval/Sampling.class
+│ --rw----     2.0 fat      127 bl defN 22-Feb-26 10:39 org/nlpub/watset/eval/package-info.class
+│ --rw----     2.0 fat        0 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/
+│ --rw----     2.0 fat     2729 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/ChineseWhispers$Builder.class
+│ --rw----     2.0 fat     7049 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/ChineseWhispers$Implementation.class
+│ --rw----     2.0 fat     2519 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/ChineseWhispers.class
+│ --rw----     2.0 fat      391 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/ClusteringAlgorithmBuilder.class
+│ --rw----     2.0 fat     1340 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/ComponentsClustering$Builder.class
+│ --rw----     2.0 fat     2066 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/ComponentsClustering.class
+│ --rw----     2.0 fat     1322 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/EmptyClustering$Builder.class
+│ --rw----     2.0 fat     1439 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/EmptyClustering.class
+│ --rw----     2.0 fat     2115 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/MarkovClustering$Builder.class
+│ --rw----     2.0 fat     4426 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/MarkovClustering$Implementation.class
+│ --rw----     2.0 fat     2129 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/MarkovClustering.class
+│ --rw----     2.0 fat     2472 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/MarkovClusteringExternal$Builder.class
+│ --rw----     2.0 fat     9589 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/MarkovClusteringExternal$Implementation.class
+│ --rw----     2.0 fat     2676 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/MarkovClusteringExternal.class
+│ --rw----     2.0 fat     1228 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/MaxMax$Builder.class
+│ --rw----     2.0 fat     6544 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/MaxMax$Implementation.class
+│ --rw----     2.0 fat     2217 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/MaxMax.class
+│ --rw----     2.0 fat     1746 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/MaxMaxClustering$MaxMaxClusteringImpl.class
+│ --rw----     2.0 fat      730 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/MaxMaxClustering.class
+│ --rw----     2.0 fat      887 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/NodeEmbedding.class
+│ --rw----     2.0 fat      465 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/NodeWeighting.class
+│ --rw----     2.0 fat      983 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/NodeWeightings$1.class
+│ --rw----     2.0 fat     1389 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/NodeWeightings$LabelNodeWeighting.class
+│ --rw----     2.0 fat     1475 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/NodeWeightings$LinearNodeWeighting.class
+│ --rw----     2.0 fat     1517 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/NodeWeightings$LogNodeWeighting.class
+│ --rw----     2.0 fat     1408 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/NodeWeightings$TopNodeWeighting.class
+│ --rw----     2.0 fat     1471 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/NodeWeightings$WeightingMode.class
+│ --rw----     2.0 fat     3529 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/NodeWeightings.class
+│ --rw----     2.0 fat     3644 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/SenseInduction.class
+│ --rw----     2.0 fat     1332 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/SingletonClustering$Builder.class
+│ --rw----     2.0 fat     2926 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/SingletonClustering.class
+│ --rw----     2.0 fat     2488 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/SpectralClustering$Builder.class
+│ --rw----     2.0 fat     3953 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/SpectralClustering$Implementation.class
+│ --rw----     2.0 fat     2404 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/SpectralClustering.class
+│ --rw----     2.0 fat     1324 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/TogetherClustering$Builder.class
+│ --rw----     2.0 fat     1868 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/TogetherClustering.class
+│ --rw----     2.0 fat     2351 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/Watset$Builder.class
+│ --rw----     2.0 fat    10176 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/Watset$Implementation.class
+│ --rw----     2.0 fat     3455 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/Watset.class
+│ --rw----     2.0 fat     4432 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/WatsetClustering$WatsetClusteringImpl.class
+│ --rw----     2.0 fat      875 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/WatsetClustering.class
+│ --rw----     2.0 fat      128 bl defN 22-Feb-26 10:39 org/nlpub/watset/graph/package-info.class
+│ --rw----     2.0 fat        0 bl defN 22-Feb-26 10:39 org/nlpub/watset/util/
+│ --rw----     2.0 fat     3202 bl defN 22-Feb-26 10:39 org/nlpub/watset/util/ABCFormat.class
+│ --rw----     2.0 fat     1459 bl defN 22-Feb-26 10:39 org/nlpub/watset/util/ClusteringAlgorithmProvider$1.class
+│ --rw----     2.0 fat     1926 bl defN 22-Feb-26 10:39 org/nlpub/watset/util/ClusteringAlgorithmProvider$ProvidingAlgorithm.class
+│ --rw----     2.0 fat     9884 bl defN 22-Feb-26 10:39 org/nlpub/watset/util/ClusteringAlgorithmProvider.class
+│ --rw----     2.0 fat     4717 bl defN 22-Feb-26 10:39 org/nlpub/watset/util/ILEFormat.class
+│ --rw----     2.0 fat     1527 bl defN 22-Feb-26 10:39 org/nlpub/watset/util/IndexedSense.class
+│ --rw----     2.0 fat      864 bl defN 22-Feb-26 10:39 org/nlpub/watset/util/Matrices$ColumnNormalizeVisitor.class
+│ --rw----     2.0 fat      854 bl defN 22-Feb-26 10:39 org/nlpub/watset/util/Matrices$ColumnSumVisitor.class
+│ --rw----     2.0 fat      719 bl defN 22-Feb-26 10:39 org/nlpub/watset/util/Matrices$InflateVisitor.class
+│ --rw----     2.0 fat      856 bl defN 22-Feb-26 10:39 org/nlpub/watset/util/Matrices$RowNormalizeVisitor.class
+│ --rw----     2.0 fat     8342 bl defN 22-Feb-26 10:39 org/nlpub/watset/util/Matrices.class
+│ --rw----     2.0 fat     4294 bl defN 22-Feb-26 10:39 org/nlpub/watset/util/Maximizer.class
+│ --rw----     2.0 fat     1864 bl defN 22-Feb-26 10:39 org/nlpub/watset/util/Neighbors.class
+│ --rw----     2.0 fat     3265 bl defN 22-Feb-26 10:39 org/nlpub/watset/util/NetworkXFormat.class
+│ --rw----     2.0 fat      245 bl defN 22-Feb-26 10:39 org/nlpub/watset/util/Sense.class
+│ --rw----     2.0 fat      846 bl defN 22-Feb-26 10:39 org/nlpub/watset/util/Word2VecFormat$1.class
+│ --rw----     2.0 fat     1284 bl defN 22-Feb-26 10:39 org/nlpub/watset/util/Word2VecFormat$SpaceStrategy.class
+│ --rw----     2.0 fat     3887 bl defN 22-Feb-26 10:39 org/nlpub/watset/util/Word2VecFormat.class
+│ --rw----     2.0 fat      127 bl defN 22-Feb-26 10:39 org/nlpub/watset/util/package-info.class
+│ --rw----     2.0 fat        0 bl defN 22-Feb-26 10:39 META-INF/maven/
+│ --rw----     2.0 fat        0 bl defN 22-Feb-26 10:39 META-INF/maven/org.nlpub/
+│ --rw----     2.0 fat        0 bl defN 22-Feb-26 10:39 META-INF/maven/org.nlpub/watset/
+│ --rw----     2.0 fat    11531 bl defN 22-Feb-26 10:39 META-INF/maven/org.nlpub/watset/pom.xml
+│ --rw----     2.0 fat       50 bl defN 22-Feb-26 10:39 META-INF/maven/org.nlpub/watset/pom.properties
+│ --rw----     2.0 fat        0 bl defN 21-Mar-19 09:21 org/jgrapht/
+│ --rw----     2.0 fat     2663 bl defN 21-Mar-19 09:21 org/jgrapht/Graph.class
+│ --rw----     2.0 fat        0 bl defN 21-Mar-19 09:21 org/jgrapht/util/
+│ --rw----     2.0 fat     2197 bl defN 21-Mar-19 09:21 org/jgrapht/util/CollectionUtil.class
+│ --rw----     2.0 fat      520 bl defN 21-Mar-19 09:21 org/jgrapht/util/SupplierException.class
+│ --rw----     2.0 fat      491 bl defN 21-Mar-19 09:21 org/jgrapht/util/TypeUtil.class
+│ --rw----     2.0 fat     2191 bl defN 21-Mar-19 09:21 org/jgrapht/util/SupplierUtil$ConstructorSupplier$SerializedForm.class
+│ --rw----     2.0 fat     1190 bl defN 21-Mar-19 09:21 org/jgrapht/util/DoublyLinkedList$ListNodeIterator.class
+│ --rw----     2.0 fat     2442 bl defN 21-Mar-19 09:21 org/jgrapht/util/DoublyLinkedList$ListNodeImpl.class
+│ --rw----     2.0 fat     2272 bl defN 21-Mar-19 09:21 org/jgrapht/util/ModifiableInteger.class
+│ --rw----     2.0 fat     1448 bl defN 21-Mar-19 09:21 org/jgrapht/util/DoublyLinkedList$1.class
+│ --rw----     2.0 fat      906 bl defN 21-Mar-19 09:21 org/jgrapht/util/DoublyLinkedList$NodeIterator.class
+│ --rw----     2.0 fat     1546 bl defN 21-Mar-19 09:21 org/jgrapht/util/LiveIterableWrapper.class
+│ --rw----     2.0 fat      996 bl defN 21-Mar-19 09:21 org/jgrapht/util/ArrayUnenforcedSet$SetForEquality.class
+│ --rw----     2.0 fat    20483 bl defN 21-Mar-19 09:21 org/jgrapht/util/DoublyLinkedList.class
+│ --rw----     2.0 fat     7546 bl defN 21-Mar-19 09:21 org/jgrapht/util/SupplierUtil.class
+│ --rw----     2.0 fat     4684 bl defN 21-Mar-19 09:21 org/jgrapht/util/DoublyLinkedList$ListNodeIteratorImpl.class
+│ --rw----     2.0 fat     1809 bl defN 21-Mar-19 09:21 org/jgrapht/util/SupplierUtil$ConstructorSupplier.class
+│ --rw----     2.0 fat     2311 bl defN 21-Mar-19 09:21 org/jgrapht/util/VertexToIntegerMapping.class
+│ --rw----     2.0 fat      515 bl defN 21-Mar-19 09:21 org/jgrapht/util/DoublyLinkedList$ListNode.class
+│ --rw----     2.0 fat     1406 bl defN 21-Mar-19 09:21 org/jgrapht/util/ArrayUnenforcedSet.class
+│ --rw----     2.0 fat        0 bl defN 21-Mar-19 09:21 org/jgrapht/graph/
+│ --rw----     2.0 fat      760 bl defN 21-Mar-19 09:21 org/jgrapht/graph/IntrusiveEdge.class
+│ --rw----     2.0 fat     2551 bl defN 21-Mar-19 09:21 org/jgrapht/graph/Multigraph.class
+│ --rw----     2.0 fat     2184 bl defN 21-Mar-19 09:21 org/jgrapht/graph/DefaultDirectedWeightedGraph.class
+│ --rw----     2.0 fat        0 bl defN 21-Mar-19 09:21 org/jgrapht/graph/specifics/
+│ --rw----     2.0 fat     7241 bl defN 21-Mar-19 09:21 org/jgrapht/graph/specifics/DirectedSpecifics.class
+│ --rw----     2.0 fat     5364 bl defN 21-Mar-19 09:21 org/jgrapht/graph/specifics/FastLookupUndirectedSpecifics.class
+│ --rw----     2.0 fat     5300 bl defN 21-Mar-19 09:21 org/jgrapht/graph/specifics/FastLookupDirectedSpecifics.class
+│ --rw----     2.0 fat     1059 bl defN 21-Mar-19 09:21 org/jgrapht/graph/specifics/ArrayUnenforcedSetEdgeSetFactory.class
+│ --rw----     2.0 fat     2433 bl defN 21-Mar-19 09:21 org/jgrapht/graph/specifics/DirectedEdgeContainer.class
+│ --rw----     2.0 fat     1328 bl defN 21-Mar-19 09:21 org/jgrapht/graph/specifics/Specifics.class
+│ --rw----     2.0 fat     2010 bl defN 21-Mar-19 09:21 org/jgrapht/graph/specifics/UndirectedEdgeContainer.class
+│ --rw----     2.0 fat     7238 bl defN 21-Mar-19 09:21 org/jgrapht/graph/specifics/UndirectedSpecifics.class
+│ --rw----     2.0 fat    11826 bl defN 21-Mar-19 09:21 org/jgrapht/graph/AbstractBaseGraph.class
+│ --rw----     2.0 fat     4295 bl defN 21-Mar-19 09:21 org/jgrapht/graph/FastLookupGraphSpecificsStrategy.class
+│ --rw----     2.0 fat      466 bl defN 21-Mar-19 09:21 org/jgrapht/graph/IntrusiveWeightedEdge.class
+│ --rw----     2.0 fat     3204 bl defN 21-Mar-19 09:21 org/jgrapht/graph/EdgeReversedGraph.class
+│ --rw----     2.0 fat     1144 bl defN 21-Mar-19 09:21 org/jgrapht/graph/GraphSpecificsStrategy.class
+│ --rw----     2.0 fat     2548 bl defN 21-Mar-19 09:21 org/jgrapht/graph/DefaultGraphType$Builder.class
+│ --rw----     2.0 fat      474 bl defN 21-Mar-19 09:21 org/jgrapht/graph/InvalidGraphWalkException.class
+│ --rw----     2.0 fat     3950 bl defN 21-Mar-19 09:21 org/jgrapht/graph/WeightedIntrusiveEdgesSpecifics.class
+│ --rw----     2.0 fat        0 bl defN 21-Mar-19 09:21 org/jgrapht/graph/builder/
+│ --rw----     2.0 fat     1080 bl defN 21-Mar-19 09:21 org/jgrapht/graph/builder/GraphBuilder.class
+│ --rw----     2.0 fat     7434 bl defN 21-Mar-19 09:21 org/jgrapht/graph/builder/GraphTypeBuilder.class
+│ --rw----     2.0 fat     5036 bl defN 21-Mar-19 09:21 org/jgrapht/graph/builder/AbstractGraphBuilder.class
+│ --rw----     2.0 fat     1125 bl defN 21-Mar-19 09:21 org/jgrapht/graph/DefaultGraphIterables.class
+│ --rw----     2.0 fat     2597 bl defN 21-Mar-19 09:21 org/jgrapht/graph/DirectedMultigraph.class
+│ --rw----     2.0 fat     2790 bl defN 21-Mar-19 09:21 org/jgrapht/graph/UniformIntrusiveEdgesSpecifics.class
+│ --rw----     2.0 fat     2104 bl defN 21-Mar-19 09:21 org/jgrapht/graph/WeightedMultigraph.class
+│ --rw----     2.0 fat     2112 bl defN 21-Mar-19 09:21 org/jgrapht/graph/SimpleWeightedGraph.class
+│ --rw----     2.0 fat     1162 bl defN 21-Mar-19 09:21 org/jgrapht/graph/IntrusiveEdgeException.class
+│ --rw----     2.0 fat     2603 bl defN 21-Mar-19 09:21 org/jgrapht/graph/DirectedPseudograph.class
+│ --rw----     2.0 fat     2609 bl defN 21-Mar-19 09:21 org/jgrapht/graph/DefaultDirectedGraph.class
+│ --rw----     2.0 fat     2623 bl defN 21-Mar-19 09:21 org/jgrapht/graph/DefaultUndirectedGraph.class
+│ --rw----     2.0 fat    12324 bl defN 21-Mar-19 09:21 org/jgrapht/graph/GraphWalk.class
+│ --rw----     2.0 fat     2168 bl defN 21-Mar-19 09:21 org/jgrapht/graph/DirectedWeightedMultigraph.class
+│ --rw----     2.0 fat     2176 bl defN 21-Mar-19 09:21 org/jgrapht/graph/SimpleDirectedWeightedGraph.class
+│ --rw----     2.0 fat     2200 bl defN 21-Mar-19 09:21 org/jgrapht/graph/DefaultUndirectedWeightedGraph.class
+│ --rw----     2.0 fat     2557 bl defN 21-Mar-19 09:21 org/jgrapht/graph/SimpleGraph.class
+│ --rw----     2.0 fat     3006 bl defN 21-Mar-19 09:21 org/jgrapht/graph/AsUnmodifiableGraph.class
+│ --rw----     2.0 fat     4179 bl defN 21-Mar-19 09:21 org/jgrapht/graph/BaseIntrusiveEdgesSpecifics.class
+│ --rw----     2.0 fat     3768 bl defN 21-Mar-19 09:21 org/jgrapht/graph/AsUndirectedGraph.class
+│ --rw----     2.0 fat     2557 bl defN 21-Mar-19 09:21 org/jgrapht/graph/Pseudograph.class
+│ --rw----     2.0 fat     2176 bl defN 21-Mar-19 09:21 org/jgrapht/graph/DirectedWeightedPseudograph.class
+│ --rw----     2.0 fat     2112 bl defN 21-Mar-19 09:21 org/jgrapht/graph/WeightedPseudograph.class
+│ --rw----     2.0 fat     4271 bl defN 21-Mar-19 09:21 org/jgrapht/graph/DefaultGraphType.class
+│ --rw----     2.0 fat     2603 bl defN 21-Mar-19 09:21 org/jgrapht/graph/SimpleDirectedGraph.class
+│ --rw----     2.0 fat     6542 bl defN 21-Mar-19 09:21 org/jgrapht/graph/GraphDelegator.class
+│ --rw----     2.0 fat     1389 bl defN 21-Mar-19 09:21 org/jgrapht/graph/DefaultWeightedEdge.class
+│ --rw----     2.0 fat     6440 bl defN 21-Mar-19 09:21 org/jgrapht/graph/AbstractGraph.class
+│ --rw----     2.0 fat      819 bl defN 21-Mar-19 09:21 org/jgrapht/graph/IntrusiveEdgesSpecifics.class
+│ --rw----     2.0 fat     1255 bl defN 21-Mar-19 09:21 org/jgrapht/graph/DefaultEdge.class
+│ --rw----     2.0 fat      308 bl defN 21-Mar-19 09:21 org/jgrapht/graph/EdgeSetFactory.class
+│ --rw----     2.0 fat    12065 bl defN 21-Mar-19 09:21 org/jgrapht/graph/AsSubgraph.class
+│ --rw----     2.0 fat     2464 bl defN 21-Mar-19 09:21 org/jgrapht/graph/AsSubgraph$BaseGraphListener.class
+│ --rw----     2.0 fat     9287 bl defN 21-Mar-19 09:21 org/jgrapht/GraphMetrics.class
+│ --rw----     2.0 fat    13866 bl defN 21-Mar-19 09:21 org/jgrapht/GraphTests.class
+│ --rw----     2.0 fat      589 bl defN 21-Mar-19 09:21 org/jgrapht/ListenableGraph.class
+│ --rw----     2.0 fat        0 bl defN 21-Mar-19 09:21 org/jgrapht/generate/
+│ --rw----     2.0 fat     2983 bl defN 21-Mar-19 09:21 org/jgrapht/generate/ComplementGraphGenerator.class
+│ --rw----     2.0 fat      789 bl defN 21-Mar-19 09:21 org/jgrapht/generate/GraphGenerator.class
+│ --rw----     2.0 fat     4172 bl defN 21-Mar-19 09:21 org/jgrapht/GraphIterables.class
+│ --rw----     2.0 fat        0 bl defN 21-Mar-19 09:21 org/jgrapht/event/
+│ --rw----     2.0 fat      415 bl defN 21-Mar-19 09:21 org/jgrapht/event/VertexSetListener.class
+│ --rw----     2.0 fat      636 bl defN 21-Mar-19 09:21 org/jgrapht/event/TraversalListener.class
+│ --rw----     2.0 fat      747 bl defN 21-Mar-19 09:21 org/jgrapht/event/ConnectedComponentTraversalEvent.class
+│ --rw----     2.0 fat     1115 bl defN 21-Mar-19 09:21 org/jgrapht/event/GraphVertexChangeEvent.class
+│ --rw----     2.0 fat      830 bl defN 21-Mar-19 09:21 org/jgrapht/event/GraphListener.class
+│ --rw----     2.0 fat     2044 bl defN 21-Mar-19 09:21 org/jgrapht/event/GraphEdgeChangeEvent.class
+│ --rw----     2.0 fat      894 bl defN 21-Mar-19 09:21 org/jgrapht/event/VertexTraversalEvent.class
+│ --rw----     2.0 fat      596 bl defN 21-Mar-19 09:21 org/jgrapht/event/GraphChangeEvent.class
+│ --rw----     2.0 fat      882 bl defN 21-Mar-19 09:21 org/jgrapht/event/EdgeTraversalEvent.class
+│ --rw----     2.0 fat     1674 bl defN 21-Mar-19 09:21 org/jgrapht/event/TraversalListenerAdapter.class
+│ --rw----     2.0 fat     2543 bl defN 21-Mar-19 09:21 org/jgrapht/GraphPath.class
+│ --rw----     2.0 fat    11569 bl defN 21-Mar-19 09:21 org/jgrapht/Graphs.class
+│ --rw----     2.0 fat        0 bl defN 21-Mar-19 09:21 org/jgrapht/alg/
+│ --rw----     2.0 fat        0 bl defN 21-Mar-19 09:21 org/jgrapht/alg/util/
+│ --rw----     2.0 fat     2834 bl defN 21-Mar-19 09:21 org/jgrapht/alg/util/VertexDegreeComparator.class
+│ --rw----     2.0 fat     3443 bl defN 21-Mar-19 09:21 org/jgrapht/alg/util/NeighborCache$Neighbors.class
+│ --rw----     2.0 fat     1359 bl defN 21-Mar-19 09:21 org/jgrapht/alg/util/ToleranceDoubleComparator.class
+│ --rw----     2.0 fat     6641 bl defN 21-Mar-19 09:21 org/jgrapht/alg/util/NeighborCache.class
+│ --rw----     2.0 fat     6397 bl defN 21-Mar-19 09:21 org/jgrapht/alg/util/UnionFind.class
+│ --rw----     2.0 fat     1365 bl defN 21-Mar-19 09:21 org/jgrapht/alg/util/VertexDegreeComparator$Order.class
+│ --rw----     2.0 fat     2310 bl defN 21-Mar-19 09:21 org/jgrapht/alg/util/UnorderedPair.class
+│ --rw----     2.0 fat     2929 bl defN 21-Mar-19 09:21 org/jgrapht/alg/util/Pair.class
+│ --rw----     2.0 fat        0 bl defN 21-Mar-19 09:21 org/jgrapht/alg/cycle/
+│ --rw----     2.0 fat    21465 bl defN 21-Mar-19 09:21 org/jgrapht/alg/cycle/WeakChordalityInspector.class
+│ --rw----     2.0 fat     2824 bl defN 21-Mar-19 09:21 org/jgrapht/alg/cycle/HierholzerEulerianCycle$EdgeNode.class
+│ --rw----     2.0 fat     2362 bl defN 21-Mar-19 09:21 org/jgrapht/alg/cycle/HierholzerEulerianCycle$VertexNode.class
+│ --rw----     2.0 fat    11174 bl defN 21-Mar-19 09:21 org/jgrapht/alg/cycle/HierholzerEulerianCycle.class
+│ --rw----     2.0 fat     9551 bl defN 21-Mar-19 09:21 org/jgrapht/alg/cycle/ChordalityInspector.class
+│ --rw----     2.0 fat    33263 bl defN 21-Mar-19 09:21 org/jgrapht/alg/cycle/BergeGraphInspector.class
+│ --rw----     2.0 fat     1274 bl defN 21-Mar-19 09:21 org/jgrapht/alg/cycle/ChordalityInspector$IterationOrder.class
+│ --rw----     2.0 fat        0 bl defN 21-Mar-19 09:21 org/jgrapht/alg/shortestpath/
+│ --rw----     2.0 fat     2129 bl defN 21-Mar-19 09:21 org/jgrapht/alg/shortestpath/FloydWarshallShortestPaths$FloydWarshallSingleSourcePaths.class
+│ --rw----     2.0 fat     5555 bl defN 21-Mar-19 09:21 org/jgrapht/alg/shortestpath/GraphMeasurer.class
+│ --rw----     2.0 fat     5014 bl defN 21-Mar-19 09:21 org/jgrapht/alg/shortestpath/DijkstraShortestPath.class
+│ --rw----     2.0 fat     7253 bl defN 21-Mar-19 09:21 org/jgrapht/alg/shortestpath/DijkstraClosestFirstIterator.class
+│ --rw----     2.0 fat     3551 bl defN 21-Mar-19 09:21 org/jgrapht/alg/shortestpath/BaseShortestPathAlgorithm.class
+│ --rw----     2.0 fat     4124 bl defN 21-Mar-19 09:21 org/jgrapht/alg/shortestpath/TreeSingleSourcePathsImpl.class
+│ --rw----     2.0 fat     8264 bl defN 21-Mar-19 09:21 org/jgrapht/alg/shortestpath/FloydWarshallShortestPaths.class
+│ --rw----     2.0 fat     2888 bl defN 21-Mar-19 09:21 org/jgrapht/alg/shortestpath/ListSingleSourcePathsImpl.class
+│ --rw----     2.0 fat        0 bl defN 21-Mar-19 09:21 org/jgrapht/alg/interfaces/
+│ --rw----     2.0 fat      625 bl defN 21-Mar-19 09:21 org/jgrapht/alg/interfaces/SpanningTreeAlgorithm.class
+│ --rw----     2.0 fat      685 bl defN 21-Mar-19 09:21 org/jgrapht/alg/interfaces/StrongConnectivityAlgorithm.class
+│ --rw----     2.0 fat     1260 bl defN 21-Mar-19 09:21 org/jgrapht/alg/interfaces/PartitioningAlgorithm$Partitioning.class
+│ --rw----     2.0 fat      908 bl defN 21-Mar-19 09:21 org/jgrapht/alg/interfaces/SpanningTreeAlgorithm$SpanningTree.class
+│ --rw----     2.0 fat     2204 bl defN 21-Mar-19 09:21 org/jgrapht/alg/interfaces/ClusteringAlgorithm$ClusteringImpl.class
+│ --rw----     2.0 fat      775 bl defN 21-Mar-19 09:21 org/jgrapht/alg/interfaces/PlanarityTestingAlgorithm.class
+│ --rw----     2.0 fat      695 bl defN 21-Mar-19 09:21 org/jgrapht/alg/interfaces/ShortestPathAlgorithm$SingleSourcePaths.class
+│ --rw----     2.0 fat     4849 bl defN 21-Mar-19 09:21 org/jgrapht/alg/interfaces/PartitioningAlgorithm$PartitioningImpl.class
+│ --rw----     2.0 fat      531 bl defN 21-Mar-19 09:21 org/jgrapht/alg/interfaces/ClusteringAlgorithm$Clustering.class
+│ --rw----     2.0 fat      800 bl defN 21-Mar-19 09:21 org/jgrapht/alg/interfaces/ShortestPathAlgorithm.class
+│ --rw----     2.0 fat      390 bl defN 21-Mar-19 09:21 org/jgrapht/alg/interfaces/EdgeScoringAlgorithm.class
+│ --rw----     2.0 fat      806 bl defN 21-Mar-19 09:21 org/jgrapht/alg/interfaces/PartitioningAlgorithm.class
+│ --rw----     2.0 fat      555 bl defN 21-Mar-19 09:21 org/jgrapht/alg/interfaces/PlanarityTestingAlgorithm$Embedding.class
+│ --rw----     2.0 fat      380 bl defN 21-Mar-19 09:21 org/jgrapht/alg/interfaces/EulerianCycleAlgorithm.class
+│ --rw----     2.0 fat     3992 bl defN 21-Mar-19 09:21 org/jgrapht/alg/interfaces/PlanarityTestingAlgorithm$EmbeddingImpl.class
+│ --rw----     2.0 fat     1985 bl defN 21-Mar-19 09:21 org/jgrapht/alg/interfaces/SpanningTreeAlgorithm$SpanningTreeImpl.class
+│ --rw----     2.0 fat      599 bl defN 21-Mar-19 09:21 org/jgrapht/alg/interfaces/ClusteringAlgorithm.class
+│ --rw----     2.0 fat        0 bl defN 21-Mar-19 09:21 org/jgrapht/alg/spanning/
+│ --rw----     2.0 fat      873 bl defN 21-Mar-19 09:21 org/jgrapht/alg/spanning/PrimMinimumSpanningTree$VertexInfo.class
+│ --rw----     2.0 fat     5493 bl defN 21-Mar-19 09:21 org/jgrapht/alg/spanning/PrimMinimumSpanningTree.class
+│ --rw----     2.0 fat        0 bl defN 21-Mar-19 09:21 org/jgrapht/alg/planar/
+│ --rw----     2.0 fat    13134 bl defN 21-Mar-19 09:21 org/jgrapht/alg/planar/BoyerMyrvoldPlanarityInspector$Node.class
+│ --rw----     2.0 fat     3802 bl defN 21-Mar-19 09:21 org/jgrapht/alg/planar/BoyerMyrvoldPlanarityInspector$Edge.class
+│ --rw----     2.0 fat     2595 bl defN 21-Mar-19 09:21 org/jgrapht/alg/planar/BoyerMyrvoldPlanarityInspector$MergeInfo.class
+│ --rw----     2.0 fat    45519 bl defN 21-Mar-19 09:21 org/jgrapht/alg/planar/BoyerMyrvoldPlanarityInspector.class
+│ --rw----     2.0 fat     3886 bl defN 21-Mar-19 09:21 org/jgrapht/alg/planar/BoyerMyrvoldPlanarityInspector$OuterFaceCirculator.class
+│ --rw----     2.0 fat     1675 bl defN 21-Mar-19 09:21 org/jgrapht/alg/planar/BoyerMyrvoldPlanarityInspector$SearchInfo.class
+│ --rw----     2.0 fat     1188 bl defN 21-Mar-19 09:21 org/jgrapht/alg/planar/BoyerMyrvoldPlanarityInspector$OrientDfsStackInfo.class
+│ --rw----     2.0 fat        0 bl defN 21-Mar-19 09:21 org/jgrapht/alg/scoring/
+│ --rw----     2.0 fat     5477 bl defN 21-Mar-19 09:21 org/jgrapht/alg/scoring/EdgeBetweennessCentrality$WeightedAlgorithm.class
+│ --rw----     2.0 fat     4041 bl defN 21-Mar-19 09:21 org/jgrapht/alg/scoring/EdgeBetweennessCentrality.class
+│ --rw----     2.0 fat     1382 bl defN 21-Mar-19 09:21 org/jgrapht/alg/scoring/EdgeBetweennessCentrality$OverflowStrategy.class
+│ --rw----     2.0 fat     6406 bl defN 21-Mar-19 09:21 org/jgrapht/alg/scoring/EdgeBetweennessCentrality$Algorithm.class
+│ --rw----     2.0 fat        0 bl defN 21-Mar-19 09:21 org/jgrapht/alg/partition/
+│ --rw----     2.0 fat     4799 bl defN 21-Mar-19 09:21 org/jgrapht/alg/partition/BipartitePartitioning.class
+│ --rw----     2.0 fat        0 bl defN 21-Mar-19 09:21 org/jgrapht/alg/clustering/
+│ --rw----     2.0 fat     5387 bl defN 21-Mar-19 09:21 org/jgrapht/alg/clustering/GirvanNewmanClustering.class
+│ --rw----     2.0 fat     4765 bl defN 21-Mar-19 09:21 org/jgrapht/alg/clustering/KSpanningTreeClustering.class
+│ --rw----     2.0 fat        0 bl defN 21-Mar-19 09:21 org/jgrapht/alg/connectivity/
+│ --rw----     2.0 fat     7399 bl defN 21-Mar-19 09:21 org/jgrapht/alg/connectivity/BiconnectivityInspector.class
+│ --rw----     2.0 fat     3909 bl defN 21-Mar-19 09:21 org/jgrapht/alg/connectivity/AbstractStrongConnectivityInspector.class
+│ --rw----     2.0 fat     5488 bl defN 21-Mar-19 09:21 org/jgrapht/alg/connectivity/ConnectivityInspector.class
+│ --rw----     2.0 fat     1475 bl defN 21-Mar-19 09:21 org/jgrapht/alg/connectivity/KosarajuStrongConnectivityInspector$VertexData2.class
+│ --rw----     2.0 fat     1757 bl defN 21-Mar-19 09:21 org/jgrapht/alg/connectivity/KosarajuStrongConnectivityInspector$VertexData1.class
+│ --rw----     2.0 fat     1699 bl defN 21-Mar-19 09:21 org/jgrapht/alg/connectivity/KosarajuStrongConnectivityInspector$VertexData.class
+│ --rw----     2.0 fat     2152 bl defN 21-Mar-19 09:21 org/jgrapht/alg/connectivity/ConnectivityInspector$MyTraversalListener.class
+│ --rw----     2.0 fat     5706 bl defN 21-Mar-19 09:21 org/jgrapht/alg/connectivity/KosarajuStrongConnectivityInspector.class
+│ --rw----     2.0 fat      562 bl defN 21-Mar-19 09:21 org/jgrapht/GraphType.class
+│ --rw----     2.0 fat        0 bl defN 21-Mar-19 09:21 org/jgrapht/traverse/
+│ --rw----     2.0 fat     1052 bl defN 21-Mar-19 09:21 org/jgrapht/traverse/BreadthFirstIterator$SearchNodeData.class
+│ --rw----     2.0 fat      558 bl defN 21-Mar-19 09:21 org/jgrapht/traverse/GraphIterator.class
+│ --rw----     2.0 fat     1148 bl defN 21-Mar-19 09:21 org/jgrapht/traverse/AbstractGraphIterator$FlyweightEdgeEvent.class
+│ --rw----     2.0 fat     3745 bl defN 21-Mar-19 09:21 org/jgrapht/traverse/LexBreadthFirstIterator.class
+│ --rw----     2.0 fat     6561 bl defN 21-Mar-19 09:21 org/jgrapht/traverse/CrossComponentIterator.class
+│ --rw----     2.0 fat     3676 bl defN 21-Mar-19 09:21 org/jgrapht/traverse/BreadthFirstIterator.class
+│ --rw----     2.0 fat     6045 bl defN 21-Mar-19 09:21 org/jgrapht/traverse/AbstractGraphIterator.class
+│ --rw----     2.0 fat     3614 bl defN 21-Mar-19 09:21 org/jgrapht/traverse/LexBreadthFirstIterator$BucketList.class
+│ --rw----     2.0 fat     2817 bl defN 21-Mar-19 09:21 org/jgrapht/traverse/LexBreadthFirstIterator$BucketList$Bucket.class
+│ --rw----     2.0 fat     1115 bl defN 21-Mar-19 09:21 org/jgrapht/traverse/AbstractGraphIterator$FlyweightVertexEvent.class
+│ --rw----     2.0 fat     5185 bl defN 21-Mar-19 09:21 org/jgrapht/traverse/MaximumCardinalityIterator.class
+│ --rw----     2.0 fat        0 bl defN 21-Mar-19 09:21 META-INF/maven/org.jgrapht/
+│ --rw----     2.0 fat        0 bl defN 21-Mar-19 09:21 META-INF/maven/org.jgrapht/jgrapht-core/
+│ --rw----     2.0 fat     3700 bl defN 21-Mar-19 09:21 META-INF/maven/org.jgrapht/jgrapht-core/pom.xml
+│ --rw----     2.0 fat       58 bl defN 21-Mar-19 09:25 META-INF/maven/org.jgrapht/jgrapht-core/pom.properties
+│ --rw----     2.0 fat        0 bl defN 19-Sep-02 16:40 org/jheaps/
+│ --rw----     2.0 fat      497 bl defN 19-Sep-02 16:40 org/jheaps/AddressableHeap$Handle.class
+│ --rw----     2.0 fat        0 bl defN 19-Sep-02 16:40 org/jheaps/tree/
+│ --rw----     2.0 fat     9361 bl defN 19-Sep-02 16:40 org/jheaps/tree/FibonacciHeap.class
+│ --rw----     2.0 fat     2914 bl defN 19-Sep-02 16:40 org/jheaps/tree/PairingHeap$Node.class
+│ --rw----     2.0 fat     8611 bl defN 19-Sep-02 16:40 org/jheaps/tree/PairingHeap.class
+│ --rw----     2.0 fat      410 bl defN 19-Sep-02 16:40 org/jheaps/MergeableAddressableHeap.class
+│ --rw----     2.0 fat        0 bl defN 19-Sep-02 16:40 org/jheaps/annotations/
+│ --rw----     2.0 fat      479 bl defN 19-Sep-02 16:40 org/jheaps/annotations/ConstantTime.class
+│ --rw----     2.0 fat      466 bl defN 19-Sep-02 16:40 org/jheaps/annotations/LogarithmicTime.class
+│ --rw----     2.0 fat      862 bl defN 19-Sep-02 16:40 org/jheaps/AddressableHeap.class
+│ --rw----     2.0 fat     3318 bl defN 19-Sep-02 16:40 org/jheaps/tree/FibonacciHeap$Node.class
+│ --rw----     2.0 fat    24038 bl defN 16-Mar-17 12:55 META-INF/LICENSE.txt
+│ --rw----     2.0 fat      324 bl defN 16-Mar-17 12:55 META-INF/NOTICE.txt
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 13:30 org/apache/
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 13:30 org/apache/commons/
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 13:30 org/apache/commons/math3/
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 13:30 org/apache/commons/math3/ml/
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 13:30 org/apache/commons/math3/ml/clustering/
+│ --rw----     2.0 fat     1597 bl defN 16-Mar-17 13:30 org/apache/commons/math3/ml/clustering/KMeansPlusPlusClusterer$EmptyClusterStrategy.class
+│ --rw----     2.0 fat     1658 bl defN 16-Mar-17 13:30 org/apache/commons/math3/ml/clustering/Clusterer.class
+│ --rw----     2.0 fat     1072 bl defN 16-Mar-17 13:30 org/apache/commons/math3/ml/clustering/KMeansPlusPlusClusterer$1.class
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 13:30 org/apache/commons/math3/ml/clustering/evaluation/
+│ --rw----     2.0 fat     2453 bl defN 16-Mar-17 13:30 org/apache/commons/math3/ml/clustering/evaluation/SumOfClusterVariances.class
+│ --rw----     2.0 fat     3132 bl defN 16-Mar-17 13:30 org/apache/commons/math3/ml/clustering/evaluation/ClusterEvaluator.class
+│ --rw----     2.0 fat     1215 bl defN 16-Mar-17 13:30 org/apache/commons/math3/ml/clustering/DoublePoint.class
+│ --rw----     2.0 fat    11513 bl defN 16-Mar-17 13:30 org/apache/commons/math3/ml/clustering/KMeansPlusPlusClusterer.class
+│ --rw----     2.0 fat      168 bl defN 16-Mar-17 13:30 org/apache/commons/math3/ml/clustering/Clusterable.class
+│ --rw----     2.0 fat      993 bl defN 16-Mar-17 13:30 org/apache/commons/math3/ml/clustering/CentroidCluster.class
+│ --rw----     2.0 fat     3622 bl defN 16-Mar-17 13:30 org/apache/commons/math3/ml/clustering/MultiKMeansPlusPlusClusterer.class
+│ --rw----     2.0 fat     1233 bl defN 16-Mar-17 13:30 org/apache/commons/math3/ml/clustering/Cluster.class
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 13:30 org/apache/commons/math3/ml/distance/
+│ --rw----     2.0 fat      746 bl defN 16-Mar-17 13:30 org/apache/commons/math3/ml/distance/EuclideanDistance.class
+│ --rw----     2.0 fat      294 bl defN 16-Mar-17 13:30 org/apache/commons/math3/ml/distance/DistanceMeasure.class
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/
+│ --rw----     2.0 fat      975 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils$1.class
+│ --rw----     2.0 fat     1322 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils$6.class
+│ --rw----     2.0 fat     1160 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils$3$1.class
+│ --rw----     2.0 fat     1128 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils$6$1.class
+│ --rw----     2.0 fat      403 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/DifferentiableUnivariateFunction.class
+│ --rw----     2.0 fat     1605 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils$8.class
+│ --rw----     2.0 fat     1468 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils$18.class
+│ --rw----     2.0 fat      255 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/MultivariateVectorFunction.class
+│ --rw----     2.0 fat     2677 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils$17.class
+│ --rw----     2.0 fat     1327 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils$9.class
+│ --rw----     2.0 fat     1403 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils$14.class
+│ --rw----     2.0 fat     1763 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils$16$2.class
+│ --rw----     2.0 fat      988 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils$7.class
+│ --rw----     2.0 fat     1762 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils$18$1.class
+│ --rw----     2.0 fat     8727 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils.class
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/differentiation/
+│ --rw----     2.0 fat      508 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/differentiation/UnivariateDifferentiableFunction.class
+│ --rw----     2.0 fat      923 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/differentiation/DerivativeStructure$DataTransferObject.class
+│ --rw----     2.0 fat    24620 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/differentiation/DerivativeStructure.class
+│ --rw----     2.0 fat    20900 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/differentiation/DSCompiler.class
+│ --rw----     2.0 fat      517 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/differentiation/MultivariateDifferentiableFunction.class
+│ --rw----     2.0 fat      536 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/differentiation/MultivariateDifferentiableVectorFunction.class
+│ --rw----     2.0 fat     1921 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/differentiation/DerivativeStructure$1.class
+│ --rw----     2.0 fat     1726 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils$16.class
+│ --rw----     2.0 fat      433 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/DifferentiableMultivariateVectorFunction.class
+│ --rw----     2.0 fat     2323 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils$15.class
+│ --rw----     2.0 fat     1314 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils$3.class
+│ --rw----     2.0 fat      505 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/DifferentiableMultivariateFunction.class
+│ --rw----     2.0 fat     2811 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils$19.class
+│ --rw----     2.0 fat     1493 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils$2.class
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/function/
+│ --rw----     2.0 fat     1494 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/function/Constant.class
+│ --rw----     2.0 fat      496 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/function/Divide.class
+│ --rw----     2.0 fat     1334 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/function/Identity.class
+│ --rw----     2.0 fat      487 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/function/Add.class
+│ --rw----     2.0 fat      502 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/function/Multiply.class
+│ --rw----     2.0 fat      179 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/MultivariateFunction.class
+│ --rw----     2.0 fat     1009 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils$12.class
+│ --rw----     2.0 fat      173 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/BivariateFunction.class
+│ --rw----     2.0 fat     1332 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils$10.class
+│ --rw----     2.0 fat      174 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/UnivariateFunction.class
+│ --rw----     2.0 fat     1009 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils$13.class
+│ --rw----     2.0 fat     1690 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils$5.class
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/solvers/
+│ --rw----     2.0 fat      890 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/solvers/BaseUnivariateSolver.class
+│ --rw----     2.0 fat     1017 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/solvers/AbstractUnivariateSolver.class
+│ --rw----     2.0 fat     1349 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/solvers/AllowedSolution.class
+│ --rw----     2.0 fat     5918 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/solvers/BaseAbstractUnivariateSolver.class
+│ --rw----     2.0 fat      386 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/solvers/UnivariateSolver.class
+│ --rw----     2.0 fat     2969 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/solvers/BrentSolver.class
+│ --rw----     2.0 fat     6699 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/solvers/UnivariateSolverUtils.class
+│ --rw----     2.0 fat      852 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/solvers/BracketedUnivariateSolver.class
+│ --rw----     2.0 fat     1359 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils$14$1.class
+│ --rw----     2.0 fat     1410 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils$11.class
+│ --rw----     2.0 fat     1736 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils$16$1.class
+│ --rw----     2.0 fat      983 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils$4.class
+│ --rw----     2.0 fat     1221 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/FunctionUtils$9$1.class
+│ --rw----     2.0 fat      256 bl defN 16-Mar-17 13:30 org/apache/commons/math3/analysis/MultivariateMatrixFunction.class
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 13:30 org/apache/commons/math3/stat/
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 13:30 org/apache/commons/math3/stat/descriptive/
+│ --rw----     2.0 fat     2482 bl defN 16-Mar-17 13:30 org/apache/commons/math3/stat/descriptive/AbstractStorelessUnivariateStatistic.class
+│ --rw----     2.0 fat      310 bl defN 16-Mar-17 13:30 org/apache/commons/math3/stat/descriptive/WeightedEvaluation.class
+│ --rw----     2.0 fat      587 bl defN 16-Mar-17 13:30 org/apache/commons/math3/stat/descriptive/StorelessUnivariateStatistic.class
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 13:30 org/apache/commons/math3/stat/descriptive/summary/
+│ --rw----     2.0 fat     2754 bl defN 16-Mar-17 13:30 org/apache/commons/math3/stat/descriptive/summary/Sum.class
+│ --rw----     2.0 fat     3015 bl defN 16-Mar-17 13:30 org/apache/commons/math3/stat/descriptive/AbstractUnivariateStatistic.class
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 13:30 org/apache/commons/math3/stat/descriptive/moment/
+│ --rw----     2.0 fat     5786 bl defN 16-Mar-17 13:30 org/apache/commons/math3/stat/descriptive/moment/Variance.class
+│ --rw----     2.0 fat     2451 bl defN 16-Mar-17 13:30 org/apache/commons/math3/stat/descriptive/moment/SecondMoment.class
+│ --rw----     2.0 fat     2282 bl defN 16-Mar-17 13:30 org/apache/commons/math3/stat/descriptive/moment/FirstMoment.class
+│ --rw----     2.0 fat     3611 bl defN 16-Mar-17 13:30 org/apache/commons/math3/stat/descriptive/moment/Mean.class
+│ --rw----     2.0 fat      536 bl defN 16-Mar-17 13:30 org/apache/commons/math3/stat/descriptive/UnivariateStatistic.class
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/
+│ --rw----     2.0 fat     7129 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/SchurTransformer.class
+│ --rw----     2.0 fat     1937 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/RealVector$SparseEntryIterator.class
+│ --rw----     2.0 fat     1070 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/AbstractRealMatrix$5.class
+│ --rw----     2.0 fat     3526 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/TriDiagonalTransformer.class
+│ --rw----     2.0 fat     4573 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/QRDecomposition$Solver.class
+│ --rw----     2.0 fat     1669 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/MatrixUtils$BigFractionMatrixConverter.class
+│ --rw----     2.0 fat    18575 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/AbstractRealMatrix.class
+│ --rw----     2.0 fat    24991 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/ArrayFieldVector.class
+│ --rw----     2.0 fat     2375 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/SingularValueDecomposition$Solver.class
+│ --rw----     2.0 fat      269 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/EigenDecomposition$1.class
+│ --rw----     2.0 fat      863 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/DefaultRealMatrixPreservingVisitor.class
+│ --rw----     2.0 fat     1357 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/AbstractRealMatrix$1.class
+│ --rw----     2.0 fat    31590 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/BlockFieldMatrix.class
+│ --rw----     2.0 fat     1157 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/AbstractRealMatrix$4.class
+│ --rw----     2.0 fat     9726 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/SingularValueDecomposition.class
+│ --rw----     2.0 fat      856 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/DefaultRealMatrixChangingVisitor.class
+│ --rw----     2.0 fat     1229 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/AbstractRealMatrix$2.class
+│ --rw----     2.0 fat     5475 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/FieldMatrix.class
+│ --rw----     2.0 fat      236 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/RealMatrixChangingVisitor.class
+│ --rw----     2.0 fat     3629 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/QRDecomposition.class
+│ --rw----     2.0 fat     6404 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/DiagonalMatrix.class
+│ --rw----     2.0 fat      363 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/SparseRealVector.class
+│ --rw----     2.0 fat      738 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/NonSquareMatrixException.class
+│ --rw----     2.0 fat     6589 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/RealVector$2.class
+│ --rw----     2.0 fat     1407 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/MatrixDimensionMismatchException.class
+│ --rw----     2.0 fat     1273 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/NonSymmetricMatrixException.class
+│ --rw----     2.0 fat     6947 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/RealMatrixFormat.class
+│ --rw----     2.0 fat      232 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/RealVectorChangingVisitor.class
+│ --rw----     2.0 fat     1526 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/AbstractFieldMatrix$1.class
+│ --rw----     2.0 fat      565 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/DecompositionSolver.class
+│ --rw----     2.0 fat     6406 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/OpenMapRealMatrix.class
+│ --rw----     2.0 fat     3118 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/RealMatrix.class
+│ --rw----     2.0 fat      472 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/FieldVectorChangingVisitor.class
+│ --rw----     2.0 fat      436 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/FieldVectorPreservingVisitor.class
+│ --rw----     2.0 fat     1799 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/RealVector$2$2.class
+│ --rw----     2.0 fat    18171 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/ArrayRealVector.class
+│ --rw----     2.0 fat      217 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/AnyMatrix.class
+│ --rw----     2.0 fat      441 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/FieldMatrixPreservingVisitor.class
+│ --rw----     2.0 fat     3211 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/HessenbergTransformer.class
+│ --rw----     2.0 fat     1523 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/DefaultFieldMatrixChangingVisitor.class
+│ --rw----     2.0 fat     5288 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/RealVectorFormat.class
+│ --rw----     2.0 fat    12261 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/EigenDecomposition.class
+│ --rw----     2.0 fat      892 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/RealLinearOperator.class
+│ --rw----     2.0 fat     1636 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/RealVector$1.class
+│ --rw----     2.0 fat      236 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/RealVectorPreservingVisitor.class
+│ --rw----     2.0 fat    19340 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/MatrixUtils.class
+│ --rw----     2.0 fat    12708 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/RealVector.class
+│ --rw----     2.0 fat     1010 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/AbstractRealMatrix$3.class
+│ --rw----     2.0 fat      260 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/QRDecomposition$1.class
+│ --rw----     2.0 fat      263 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/SchurTransformer$1.class
+│ --rw----     2.0 fat     9678 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/Array2DRowRealMatrix.class
+│ --rw----     2.0 fat     1070 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/SingularValueDecomposition$1.class
+│ --rw----     2.0 fat     1793 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/RealVector$2$1.class
+│ --rw----     2.0 fat     1512 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/AbstractFieldMatrix$3.class
+│ --rw----     2.0 fat     1494 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/DefaultFieldMatrixPreservingVisitor.class
+│ --rw----     2.0 fat     1648 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/MatrixUtils$FractionMatrixConverter.class
+│ --rw----     2.0 fat     2972 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/FieldVector.class
+│ --rw----     2.0 fat      240 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/RealMatrixPreservingVisitor.class
+│ --rw----     2.0 fat    26972 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/BlockRealMatrix.class
+│ --rw----     2.0 fat    26492 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/AbstractFieldMatrix.class
+│ --rw----     2.0 fat      773 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/SchurTransformer$ShiftInfo.class
+│ --rw----     2.0 fat    14449 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/Array2DRowFieldMatrix.class
+│ --rw----     2.0 fat      731 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/SingularMatrixException.class
+│ --rw----     2.0 fat      195 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/SparseRealMatrix.class
+│ --rw----     2.0 fat     1037 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/RealVector$Entry.class
+│ --rw----     2.0 fat     4214 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/EigenDecomposition$Solver.class
+│ --rw----     2.0 fat      477 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/FieldMatrixChangingVisitor.class
+│ --rw----     2.0 fat     1170 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/RealVector$2$UnmodifiableEntry.class
+│ --rw----     2.0 fat     1727 bl defN 16-Mar-17 13:30 org/apache/commons/math3/linear/AbstractFieldMatrix$2.class
+│ --rw----     2.0 fat      386 bl defN 16-Mar-17 13:30 org/apache/commons/math3/Field.class
+│ --rw----     2.0 fat      777 bl defN 16-Mar-17 13:30 org/apache/commons/math3/FieldElement.class
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 13:30 org/apache/commons/math3/distribution/
+│ --rw----     2.0 fat     5700 bl defN 16-Mar-17 13:30 org/apache/commons/math3/distribution/PoissonDistribution.class
+│ --rw----     2.0 fat     4356 bl defN 16-Mar-17 13:30 org/apache/commons/math3/distribution/ExponentialDistribution.class
+│ --rw----     2.0 fat     4492 bl defN 16-Mar-17 13:30 org/apache/commons/math3/distribution/WeibullDistribution.class
+│ --rw----     2.0 fat     4637 bl defN 16-Mar-17 13:30 org/apache/commons/math3/distribution/AbstractRealDistribution.class
+│ --rw----     2.0 fat     2386 bl defN 16-Mar-17 13:30 org/apache/commons/math3/distribution/SaddlePointExpansion.class
+│ --rw----     2.0 fat     2438 bl defN 16-Mar-17 13:30 org/apache/commons/math3/distribution/BetaDistribution$ChengBetaSampler.class
+│ --rw----     2.0 fat     4147 bl defN 16-Mar-17 13:30 org/apache/commons/math3/distribution/BetaDistribution.class
+│ --rw----     2.0 fat     3016 bl defN 16-Mar-17 13:30 org/apache/commons/math3/distribution/BinomialDistribution.class
+│ --rw----     2.0 fat     4258 bl defN 16-Mar-17 13:30 org/apache/commons/math3/distribution/AbstractIntegerDistribution.class
+│ --rw----     2.0 fat     2485 bl defN 16-Mar-17 13:30 org/apache/commons/math3/distribution/UniformIntegerDistribution.class
+│ --rw----     2.0 fat     2111 bl defN 16-Mar-17 13:30 org/apache/commons/math3/distribution/ZipfDistribution$ZipfRejectionInversionSampler.class
+│ --rw----     2.0 fat     3980 bl defN 16-Mar-17 13:30 org/apache/commons/math3/distribution/ZipfDistribution.class
+│ --rw----     2.0 fat     3275 bl defN 16-Mar-17 13:30 org/apache/commons/math3/distribution/PascalDistribution.class
+│ --rw----     2.0 fat     3484 bl defN 16-Mar-17 13:30 org/apache/commons/math3/distribution/CauchyDistribution.class
+│ --rw----     2.0 fat     4044 bl defN 16-Mar-17 13:30 org/apache/commons/math3/distribution/FDistribution.class
+│ --rw----     2.0 fat      678 bl defN 16-Mar-17 13:30 org/apache/commons/math3/distribution/IntegerDistribution.class
+│ --rw----     2.0 fat     5191 bl defN 16-Mar-17 13:30 org/apache/commons/math3/distribution/GammaDistribution.class
+│ --rw----     2.0 fat     3478 bl defN 16-Mar-17 13:30 org/apache/commons/math3/distribution/TDistribution.class
+│ --rw----     2.0 fat     4833 bl defN 16-Mar-17 13:30 org/apache/commons/math3/distribution/NormalDistribution.class
+│ --rw----     2.0 fat     4858 bl defN 16-Mar-17 13:30 org/apache/commons/math3/distribution/HypergeometricDistribution.class
+│ --rw----     2.0 fat      875 bl defN 16-Mar-17 13:30 org/apache/commons/math3/distribution/RealDistribution.class
+│ --rw----     2.0 fat     2569 bl defN 16-Mar-17 13:30 org/apache/commons/math3/distribution/ChiSquaredDistribution.class
+│ --rw----     2.0 fat      941 bl defN 16-Mar-17 13:30 org/apache/commons/math3/distribution/AbstractRealDistribution$1.class
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 13:30 org/apache/commons/math3/complex/
+│ --rw----     2.0 fat      253 bl defN 16-Mar-17 13:30 org/apache/commons/math3/complex/ComplexField$1.class
+│ --rw----     2.0 fat      820 bl defN 16-Mar-17 13:30 org/apache/commons/math3/complex/ComplexField$LazyHolder.class
+│ --rw----     2.0 fat    10863 bl defN 16-Mar-17 13:30 org/apache/commons/math3/complex/Complex.class
+│ --rw----     2.0 fat     1854 bl defN 16-Mar-17 13:30 org/apache/commons/math3/complex/ComplexField.class
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 13:30 org/apache/commons/math3/random/
+│ --rw----     2.0 fat      953 bl defN 16-Mar-17 13:30 org/apache/commons/math3/random/RandomGeneratorFactory.class
+│ --rw----     2.0 fat     1117 bl defN 16-Mar-17 13:30 org/apache/commons/math3/random/RandomData.class
+│ --rw----     2.0 fat     3235 bl defN 16-Mar-17 13:30 org/apache/commons/math3/random/BitsStreamGenerator.class
+│ --rw----     2.0 fat     1609 bl defN 16-Mar-17 13:30 org/apache/commons/math3/random/Well19937c.class
+│ --rw----     2.0 fat      868 bl defN 16-Mar-17 13:30 org/apache/commons/math3/random/JDKRandomGenerator.class
+│ --rw----     2.0 fat     2036 bl defN 16-Mar-17 13:30 org/apache/commons/math3/random/RandomGeneratorFactory$1.class
+│ --rw----     2.0 fat     2202 bl defN 16-Mar-17 13:30 org/apache/commons/math3/random/AbstractWell.class
+│ --rw----     2.0 fat      395 bl defN 16-Mar-17 13:30 org/apache/commons/math3/random/RandomGenerator.class
+│ --rw----     2.0 fat     6317 bl defN 16-Mar-17 13:30 org/apache/commons/math3/random/RandomDataImpl.class
+│ --rw----     2.0 fat    11670 bl defN 16-Mar-17 13:30 org/apache/commons/math3/random/RandomDataGenerator.class
+│ --rw----     2.0 fat     2577 bl defN 16-Mar-17 13:30 org/apache/commons/math3/RealFieldElement.class
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/
+│ --rw----     2.0 fat     1570 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/MathArithmeticException.class
+│ --rw----     2.0 fat     1459 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/NumberIsTooSmallException.class
+│ --rw----     2.0 fat     1172 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/MathIllegalNumberException.class
+│ --rw----     2.0 fat     1566 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/MathParseException.class
+│ --rw----     2.0 fat     1393 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/OutOfRangeException.class
+│ --rw----     2.0 fat     1448 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/MathInternalError.class
+│ --rw----     2.0 fat     1754 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/MultiDimensionMismatchException.class
+│ --rw----     2.0 fat     1254 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/DimensionMismatchException.class
+│ --rw----     2.0 fat     1050 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/ZeroException.class
+│ --rw----     2.0 fat     1459 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/NumberIsTooLargeException.class
+│ --rw----     2.0 fat     1629 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/NoBracketingException.class
+│ --rw----     2.0 fat      917 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/NoDataException.class
+│ --rw----     2.0 fat      960 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/NotPositiveException.class
+│ --rw----     2.0 fat     1102 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/ConvergenceException.class
+│ --rw----     2.0 fat      822 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/NotANumberException.class
+│ --rw----     2.0 fat     2148 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/NonMonotonicSequenceException.class
+│ --rw----     2.0 fat     1019 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/NotFiniteNumberException.class
+│ --rw----     2.0 fat      924 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/NullArgumentException.class
+│ --rw----     2.0 fat     1815 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/MathIllegalStateException.class
+│ --rw----     2.0 fat      980 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/TooManyEvaluationsException.class
+│ --rw----     2.0 fat     1594 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/MathUnsupportedOperationException.class
+│ --rw----     2.0 fat     1417 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/MaxCountExceededException.class
+│ --rw----     2.0 fat      984 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/NotStrictlyPositiveException.class
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/util/
+│ --rw----     2.0 fat      290 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/util/Localizable.class
+│ --rw----     2.0 fat     1017 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/util/ArgUtils.class
+│ --rw----     2.0 fat     6247 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/util/ExceptionContext.class
+│ --rw----     2.0 fat      253 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/util/ExceptionContextProvider.class
+│ --rw----     2.0 fat    44640 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/util/LocalizedFormats.class
+│ --rw----     2.0 fat     1313 bl defN 16-Mar-17 13:30 org/apache/commons/math3/exception/MathIllegalArgumentException.class
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 13:30 org/apache/commons/math3/fraction/
+│ --rw----     2.0 fat     1176 bl defN 16-Mar-17 13:30 org/apache/commons/math3/fraction/FractionConversionException.class
+│ --rw----     2.0 fat      258 bl defN 16-Mar-17 13:30 org/apache/commons/math3/fraction/FractionField$1.class
+│ --rw----     2.0 fat     1918 bl defN 16-Mar-17 13:30 org/apache/commons/math3/fraction/BigFractionField.class
+│ --rw----     2.0 fat      859 bl defN 16-Mar-17 13:30 org/apache/commons/math3/fraction/BigFractionField$LazyHolder.class
+│ --rw----     2.0 fat      835 bl defN 16-Mar-17 13:30 org/apache/commons/math3/fraction/FractionField$LazyHolder.class
+│ --rw----     2.0 fat     9364 bl defN 16-Mar-17 13:30 org/apache/commons/math3/fraction/Fraction.class
+│ --rw----     2.0 fat      267 bl defN 16-Mar-17 13:30 org/apache/commons/math3/fraction/BigFractionField$1.class
+│ --rw----     2.0 fat     1879 bl defN 16-Mar-17 13:30 org/apache/commons/math3/fraction/FractionField.class
+│ --rw----     2.0 fat    13652 bl defN 16-Mar-17 13:30 org/apache/commons/math3/fraction/BigFraction.class
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 13:30 org/apache/commons/math3/special/
+│ --rw----     2.0 fat      939 bl defN 16-Mar-17 13:30 org/apache/commons/math3/special/Beta$1.class
+│ --rw----     2.0 fat     5267 bl defN 16-Mar-17 13:30 org/apache/commons/math3/special/Beta.class
+│ --rw----     2.0 fat      746 bl defN 16-Mar-17 13:30 org/apache/commons/math3/special/Gamma$1.class
+│ --rw----     2.0 fat     2887 bl defN 16-Mar-17 13:30 org/apache/commons/math3/special/Erf.class
+│ --rw----     2.0 fat     7420 bl defN 16-Mar-17 13:30 org/apache/commons/math3/special/Gamma.class
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/
+│ --rw----     2.0 fat     1220 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/Combinations$IterationOrder.class
+│ --rw----     2.0 fat     1328 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/MathArrays$2.class
+│ --rw----     2.0 fat      273 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/MathArrays$Function.class
+│ --rw----     2.0 fat     2252 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/OpenIntToDoubleHashMap$Iterator.class
+│ --rw----     2.0 fat     8248 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/FastMathCalc.class
+│ --rw----     2.0 fat      791 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/FastMath$ExpIntTable.class
+│ --rw----     2.0 fat     1966 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/Combinations$LexicographicComparator.class
+│ --rw----     2.0 fat     2608 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/FastMath$Split.class
+│ --rw----     2.0 fat     2184 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/Combinations.class
+│ --rw----     2.0 fat      897 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/ResizableDoubleArray$1.class
+│ --rw----     2.0 fat     6538 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/OpenIntToDoubleHashMap.class
+│ --rw----     2.0 fat     1328 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/MathArrays$1.class
+│ --rw----     2.0 fat    12020 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/ResizableDoubleArray.class
+│ --rw----     2.0 fat      860 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/IntegerSequence.class
+│ --rw----     2.0 fat     1258 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/MathArrays$OrderDirection.class
+│ --rw----     2.0 fat     3711 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/CompositeFormat.class
+│ --rw----     2.0 fat      644 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/FastMath$lnMant.class
+│ --rw----     2.0 fat     1321 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/IntegerSequence$Range.class
+│ --rw----     2.0 fat   123588 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/FastMathLiteralArrays.class
+│ --rw----     2.0 fat      486 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/IntegerSequence$Incrementor$MaxCountExceededCallback.class
+│ --rw----     2.0 fat     4081 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/MathUtils.class
+│ --rw----     2.0 fat     1333 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/ResizableDoubleArray$ExpansionMode.class
+│ --rw----     2.0 fat     8131 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/ArithmeticUtils.class
+│ --rw----     2.0 fat     1095 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/Combinations$SingletonIterator.class
+│ --rw----     2.0 fat     1204 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/MathArrays$Position.class
+│ --rw----     2.0 fat      977 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/IntegerSequence$Incrementor$1.class
+│ --rw----     2.0 fat      710 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/MathArrays$PairDoubleInteger.class
+│ --rw----     2.0 fat     5143 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/CombinatoricsUtils.class
+│ --rw----     2.0 fat      365 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/DoubleArray.class
+│ --rw----     2.0 fat     2428 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/ContinuedFraction.class
+│ --rw----     2.0 fat     1204 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/MathArrays$3.class
+│ --rw----     2.0 fat      798 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/FastMath$ExpFracTable.class
+│ --rw----     2.0 fat     1080 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/FastMath$CodyWaite.class
+│ --rw----     2.0 fat      801 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/Combinations$1.class
+│ --rw----     2.0 fat    22025 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/MathArrays.class
+│ --rw----     2.0 fat     1705 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/Combinations$LexicographicIterator.class
+│ --rw----     2.0 fat      277 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/OpenIntToDoubleHashMap$1.class
+│ --rw----     2.0 fat     3621 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/IntegerSequence$Incrementor.class
+│ --rw----     2.0 fat    38586 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/FastMath.class
+│ --rw----     2.0 fat     6250 bl defN 16-Mar-17 13:30 org/apache/commons/math3/util/Precision.class
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 12:55 assets/
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 12:55 assets/org/
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 12:55 assets/org/apache/
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 12:55 assets/org/apache/commons/
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 12:55 assets/org/apache/commons/math3/
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 12:55 assets/org/apache/commons/math3/random/
+│ --rw----     2.0 fat    61866 bl defN 16-Mar-17 12:55 assets/org/apache/commons/math3/random/new-joe-kuo-6.1000
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 12:55 assets/org/apache/commons/math3/exception/
+│ --rw----     2.0 fat        0 bl defN 16-Mar-17 12:55 assets/org/apache/commons/math3/exception/util/
+│ --rw----     2.0 fat    30461 bl defN 16-Mar-17 12:55 assets/org/apache/commons/math3/exception/util/LocalizedFormats_fr.properties
+│ --rwx---     2.0 fat        0 bl defN 16-Mar-17 11:12 META-INF/maven/org.apache.commons/
+│ --rwx---     2.0 fat        0 bl defN 16-Mar-17 11:12 META-INF/maven/org.apache.commons/commons-math3/
+│ --rw----     2.0 fat    28697 bl defN 16-Mar-17 11:12 META-INF/maven/org.apache.commons/commons-math3/pom.xml
+│ --rw----     2.0 fat      123 bl defN 16-Mar-17 12:58 META-INF/maven/org.apache.commons/commons-math3/pom.properties
+│ --rw----     2.0 fat        0 bl defN 22-Jan-10 20:16 com/
+│ --rw----     2.0 fat        0 bl defN 22-Jan-10 20:16 com/beust/
+│ --rw----     2.0 fat        0 bl defN 22-Jan-10 20:16 com/beust/jcommander/
+│ --rw----     2.0 fat        0 bl defN 22-Jan-10 20:16 com/beust/jcommander/converters/
+│ --rw----     2.0 fat     1196 bl defN 22-Jan-10 20:16 com/beust/jcommander/converters/BaseConverter.class
+│ --rw----     2.0 fat     1121 bl defN 22-Jan-10 20:16 com/beust/jcommander/converters/BigDecimalConverter.class
+│ --rw----     2.0 fat     1178 bl defN 22-Jan-10 20:16 com/beust/jcommander/converters/BooleanConverter.class
+│ --rw----     2.0 fat      806 bl defN 22-Jan-10 20:16 com/beust/jcommander/converters/CommaParameterSplitter.class
+│ --rw----     2.0 fat     2033 bl defN 22-Jan-10 20:16 com/beust/jcommander/converters/DefaultListConverter.class
+│ --rw----     2.0 fat     1178 bl defN 22-Jan-10 20:16 com/beust/jcommander/converters/DoubleConverter.class
+│ --rw----     2.0 fat     2024 bl defN 22-Jan-10 20:16 com/beust/jcommander/converters/EnumConverter.class
+│ --rw----     2.0 fat      785 bl defN 22-Jan-10 20:16 com/beust/jcommander/converters/FileConverter.class
+│ --rw----     2.0 fat     1169 bl defN 22-Jan-10 20:16 com/beust/jcommander/converters/FloatConverter.class
+│ --rw----     2.0 fat     1184 bl defN 22-Jan-10 20:16 com/beust/jcommander/converters/IntegerConverter.class
+│ --rw----     2.0 fat      283 bl defN 22-Jan-10 20:16 com/beust/jcommander/converters/IParameterSplitter.class
+│ --rw----     2.0 fat     1470 bl defN 22-Jan-10 20:16 com/beust/jcommander/converters/ISO8601DateConverter.class
+│ --rw----     2.0 fat     1160 bl defN 22-Jan-10 20:16 com/beust/jcommander/converters/LongConverter.class
+│ --rw----     2.0 fat      784 bl defN 22-Jan-10 20:16 com/beust/jcommander/converters/NoConverter.class
+│ --rw----     2.0 fat     1979 bl defN 22-Jan-10 20:16 com/beust/jcommander/converters/PathConverter.class
+│ --rw----     2.0 fat      740 bl defN 22-Jan-10 20:16 com/beust/jcommander/converters/StringConverter.class
+│ --rw----     2.0 fat     1091 bl defN 22-Jan-10 20:16 com/beust/jcommander/converters/URIConverter.class
+│ --rw----     2.0 fat     1101 bl defN 22-Jan-10 20:16 com/beust/jcommander/converters/URLConverter.class
+│ --rw----     2.0 fat    10679 bl defN 22-Jan-10 20:16 com/beust/jcommander/DefaultUsageFormatter.class
+│ --rw----     2.0 fat     1059 bl defN 22-Jan-10 20:16 com/beust/jcommander/DynamicParameter.class
+│ --rw----     2.0 fat      237 bl defN 22-Jan-10 20:16 com/beust/jcommander/FuzzyMap$IKey.class
+│ --rw----     2.0 fat     2949 bl defN 22-Jan-10 20:16 com/beust/jcommander/FuzzyMap.class
+│ --rw----     2.0 fat      204 bl defN 22-Jan-10 20:16 com/beust/jcommander/IDefaultProvider.class
+│ --rw----     2.0 fat        0 bl defN 22-Jan-10 20:16 com/beust/jcommander/internal/
+│ --rw----     2.0 fat      214 bl defN 22-Jan-10 20:16 com/beust/jcommander/internal/Console.class
+│ --rw----     2.0 fat     1573 bl defN 22-Jan-10 20:16 com/beust/jcommander/internal/DefaultConsole.class
+│ --rw----     2.0 fat     2464 bl defN 22-Jan-10 20:16 com/beust/jcommander/internal/DefaultConverterFactory.class
+│ --rw----     2.0 fat     1708 bl defN 22-Jan-10 20:16 com/beust/jcommander/internal/JDK6Console.class
+│ --rw----     2.0 fat     1647 bl defN 22-Jan-10 20:16 com/beust/jcommander/internal/Lists.class
+│ --rw----     2.0 fat     1123 bl defN 22-Jan-10 20:16 com/beust/jcommander/internal/Maps.class
+│ --rw----     2.0 fat      415 bl defN 22-Jan-10 20:16 com/beust/jcommander/internal/Nullable.class
+│ --rw----     2.0 fat      578 bl defN 22-Jan-10 20:16 com/beust/jcommander/internal/Sets.class
+│ --rw----     2.0 fat      297 bl defN 22-Jan-10 20:16 com/beust/jcommander/IParameterizedParser.class
+│ --rw----     2.0 fat      269 bl defN 22-Jan-10 20:16 com/beust/jcommander/IParameterValidator.class
+│ --rw----     2.0 fat      362 bl defN 22-Jan-10 20:16 com/beust/jcommander/IParameterValidator2.class
+│ --rw----     2.0 fat      290 bl defN 22-Jan-10 20:16 com/beust/jcommander/IStringConverter.class
+│ --rw----     2.0 fat      317 bl defN 22-Jan-10 20:16 com/beust/jcommander/IStringConverterFactory.class
+│ --rw----     2.0 fat      443 bl defN 22-Jan-10 20:16 com/beust/jcommander/IStringConverterInstanceFactory.class
+│ --rw----     2.0 fat      473 bl defN 22-Jan-10 20:16 com/beust/jcommander/IUsageFormatter.class
+│ --rw----     2.0 fat      359 bl defN 22-Jan-10 20:16 com/beust/jcommander/IValueValidator.class
+│ --rw----     2.0 fat      204 bl defN 22-Jan-10 20:16 com/beust/jcommander/IVariableArity.class
+│ --rw----     2.0 fat     2275 bl defN 22-Jan-10 20:16 com/beust/jcommander/JCommander$1.class
+│ --rw----     2.0 fat     1297 bl defN 22-Jan-10 20:16 com/beust/jcommander/JCommander$2.class
+│ --rw----     2.0 fat     4877 bl defN 22-Jan-10 20:16 com/beust/jcommander/JCommander$Builder.class
+│ --rw----     2.0 fat     1218 bl defN 22-Jan-10 20:16 com/beust/jcommander/JCommander$DefaultVariableArity.class
+│ --rw----     2.0 fat     3000 bl defN 22-Jan-10 20:16 com/beust/jcommander/JCommander$MainParameter.class
+│ --rw----     2.0 fat     1673 bl defN 22-Jan-10 20:16 com/beust/jcommander/JCommander$Options$1.class
+│ --rw----     2.0 fat     4547 bl defN 22-Jan-10 20:16 com/beust/jcommander/JCommander$Options.class
+│ --rw----     2.0 fat     2423 bl defN 22-Jan-10 20:16 com/beust/jcommander/JCommander$ProgramName.class
+│ --rw----     2.0 fat    40071 bl defN 22-Jan-10 20:16 com/beust/jcommander/JCommander.class
+│ --rw----     2.0 fat      720 bl defN 22-Jan-10 20:16 com/beust/jcommander/MissingCommandException.class
+│ --rw----     2.0 fat     1643 bl defN 22-Jan-10 20:16 com/beust/jcommander/Parameter.class
+│ --rw----     2.0 fat      759 bl defN 22-Jan-10 20:16 com/beust/jcommander/ParameterDescription$SubParameterIndex.class
+│ --rw----     2.0 fat    15240 bl defN 22-Jan-10 20:16 com/beust/jcommander/ParameterDescription.class
+│ --rw----     2.0 fat     1147 bl defN 22-Jan-10 20:16 com/beust/jcommander/ParameterException.class
+│ --rw----     2.0 fat    10181 bl defN 22-Jan-10 20:16 com/beust/jcommander/Parameterized.class
+│ --rw----     2.0 fat      717 bl defN 22-Jan-10 20:16 com/beust/jcommander/Parameters.class
+│ --rw----     2.0 fat      409 bl defN 22-Jan-10 20:16 com/beust/jcommander/ParametersDelegate.class
+│ --rw----     2.0 fat        0 bl defN 22-Jan-10 20:16 com/beust/jcommander/parser/
+│ --rw----     2.0 fat      712 bl defN 22-Jan-10 20:16 com/beust/jcommander/parser/DefaultParameterizedParser.class
+│ --rw----     2.0 fat      450 bl defN 22-Jan-10 20:16 com/beust/jcommander/ResourceBundle.class
+│ --rw----     2.0 fat     1236 bl defN 22-Jan-10 20:16 com/beust/jcommander/StringKey.class
+│ --rw----     2.0 fat     1827 bl defN 22-Jan-10 20:16 com/beust/jcommander/Strings.class
+│ --rw----     2.0 fat      467 bl defN 22-Jan-10 20:16 com/beust/jcommander/SubParameter.class
+│ --rw----     2.0 fat        0 bl defN 22-Jan-10 20:16 com/beust/jcommander/validators/
+│ --rw----     2.0 fat      622 bl defN 22-Jan-10 20:16 com/beust/jcommander/validators/NoValidator.class
+│ --rw----     2.0 fat      930 bl defN 22-Jan-10 20:16 com/beust/jcommander/validators/NoValueValidator.class
+│ --rw----     2.0 fat     5770 bl defN 22-Jan-10 20:16 com/beust/jcommander/WrappedParameter.class
+│ --rw----     2.0 fat        0 bl defN 21-Sep-04 22:04 net/
+│ --rw----     2.0 fat        0 bl defN 21-Sep-04 22:04 net/razorvine/
+│ --rw----     2.0 fat        0 bl defN 21-Sep-04 22:04 net/razorvine/pickle/
+│ --rw----     2.0 fat    21134 bl defN 21-Sep-04 22:04 net/razorvine/pickle/Unpickler.class
+│ --rw----     2.0 fat     2262 bl defN 21-Sep-04 22:04 net/razorvine/pickle/PythonException.class
+│ --rw----     2.0 fat      265 bl defN 21-Sep-04 22:04 net/razorvine/pickle/IObjectConstructor.class
+│ --rw----     2.0 fat     1837 bl defN 21-Sep-04 22:04 net/razorvine/pickle/UnpickleStack.class
+│ --rw----     2.0 fat      655 bl defN 21-Sep-04 22:04 net/razorvine/pickle/InvalidOpcodeException.class
+│ --rw----     2.0 fat     8302 bl defN 21-Sep-04 22:04 net/razorvine/pickle/PickleUtils.class
+│ --rw----     2.0 fat        0 bl defN 21-Sep-04 22:04 net/razorvine/pickle/objects/
+│ --rw----     2.0 fat     1209 bl defN 21-Sep-04 22:04 net/razorvine/pickle/objects/Tzinfo.class
+│ --rw----     2.0 fat     2497 bl defN 21-Sep-04 22:04 net/razorvine/pickle/objects/ExceptionConstructor.class
+│ --rw----     2.0 fat     1327 bl defN 21-Sep-04 22:04 net/razorvine/pickle/objects/ClassDictConstructor.class
+│ --rw----     2.0 fat     1966 bl defN 21-Sep-04 22:04 net/razorvine/pickle/objects/TimeDelta.class
+│ --rw----     2.0 fat     1835 bl defN 21-Sep-04 22:04 net/razorvine/pickle/objects/ClassDict.class
+│ --rw----     2.0 fat     3685 bl defN 21-Sep-04 22:04 net/razorvine/pickle/objects/TimeZoneConstructor.class
+│ --rw----     2.0 fat      759 bl defN 21-Sep-04 22:04 net/razorvine/pickle/objects/SetConstructor.class
+│ --rw----     2.0 fat     1550 bl defN 21-Sep-04 22:04 net/razorvine/pickle/objects/Reconstructor.class
+│ --rw----     2.0 fat     1951 bl defN 21-Sep-04 22:04 net/razorvine/pickle/objects/ByteArrayConstructor.class
+│ --rw----     2.0 fat     8673 bl defN 21-Sep-04 22:04 net/razorvine/pickle/objects/ArrayConstructor.class
+│ --rw----     2.0 fat     2727 bl defN 21-Sep-04 22:04 net/razorvine/pickle/objects/ComplexNumber.class
+│ --rw----     2.0 fat     1980 bl defN 21-Sep-04 22:04 net/razorvine/pickle/objects/AnyClassConstructor.class
+│ --rw----     2.0 fat     1793 bl defN 21-Sep-04 22:04 net/razorvine/pickle/objects/Time.class
+│ --rw----     2.0 fat     1411 bl defN 21-Sep-04 22:04 net/razorvine/pickle/objects/OperatorAttrGetterForCalendarTz$AttrGetterForTz.class
+│ --rw----     2.0 fat     1349 bl defN 21-Sep-04 22:04 net/razorvine/pickle/objects/OperatorAttrGetterForCalendarTz$CalendarLocalizer.class
+│ --rw----     2.0 fat     1285 bl defN 21-Sep-04 22:04 net/razorvine/pickle/objects/OperatorAttrGetterForCalendarTz.class
+│ --rw----     2.0 fat     5930 bl defN 21-Sep-04 22:04 net/razorvine/pickle/objects/DateTimeConstructor.class
+│ --rw----     2.0 fat      624 bl defN 21-Sep-04 22:04 net/razorvine/pickle/PickleException.class
+│ --rw----     2.0 fat        0 bl defN 21-Sep-04 22:04 META-INF/maven/net.razorvine/
+│ --rw----     2.0 fat        0 bl defN 21-Sep-04 22:04 META-INF/maven/net.razorvine/pickle/
+│ --rw----     2.0 fat     2701 bl defN 21-Sep-04 22:04 META-INF/maven/net.razorvine/pickle/pom.xml
+│ --rw----     2.0 fat      103 bl defN 21-Sep-04 22:04 META-INF/maven/net.razorvine/pickle/pom.properties
+│ -725 files, 2357535 bytes uncompressed, 1017202 bytes compressed:  56.9%
+│ +Zip file size: 127002 bytes, number of entries: 111
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 10:39 META-INF/
+│ +-rw-r--r--  2.0 unx      199 b- defN 22-Feb-26 10:39 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 10:39 org/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 10:39 org/nlpub/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 10:39 org/nlpub/watset/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 10:39 org/nlpub/watset/cli/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 10:39 org/nlpub/watset/eval/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 10:39 org/nlpub/watset/graph/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 10:39 org/nlpub/watset/util/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 10:39 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 10:39 META-INF/maven/org.nlpub/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 10:39 META-INF/maven/org.nlpub/watset/
+│ +-rw-r--r--  2.0 unx      822 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/Application$1.class
+│ +-rw-r--r--  2.0 unx     1251 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/Application$ParseStatus.class
+│ +-rw-r--r--  2.0 unx     4579 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/Application.class
+│ +-rw-r--r--  2.0 unx     2322 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/ChineseWhispersCommand.class
+│ +-rw-r--r--  2.0 unx     2102 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/ClusteringCommand.class
+│ +-rw-r--r--  2.0 unx      645 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/Command$FixedClustersParameters.class
+│ +-rw-r--r--  2.0 unx      945 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/Command$GlobalParameters.class
+│ +-rw-r--r--  2.0 unx      938 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/Command$LocalParameters.class
+│ +-rw-r--r--  2.0 unx     1041 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/Command$MainParameters.class
+│ +-rw-r--r--  2.0 unx     4542 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/Command.class
+│ +-rw-r--r--  2.0 unx     2844 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/EmbeddingCommand.class
+│ +-rw-r--r--  2.0 unx     2275 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/EvaluateCommand.class
+│ +-rw-r--r--  2.0 unx     4813 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/GraphCommand.class
+│ +-rw-r--r--  2.0 unx     1604 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/LocalWatsetCommand.class
+│ +-rw-r--r--  2.0 unx     1843 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/MarkovClusteringCommand.class
+│ +-rw-r--r--  2.0 unx     2160 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/MarkovClusteringExternalCommand.class
+│ +-rw-r--r--  2.0 unx     3632 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/PairwiseCommand.class
+│ +-rw-r--r--  2.0 unx     1559 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/ProvidedClusteringCommand.class
+│ +-rw-r--r--  2.0 unx     1978 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/ProvidedClusteringFixedKCommand.class
+│ +-rw-r--r--  2.0 unx     4531 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/PurityCommand.class
+│ +-rw-r--r--  2.0 unx      889 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/RandomConverter.class
+│ +-rw-r--r--  2.0 unx     3817 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/SenseEmbeddingCommand.class
+│ +-rw-r--r--  2.0 unx     6186 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/SensesCommand.class
+│ +-rw-r--r--  2.0 unx     3057 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/SpectralClusteringCommand.class
+│ +-rw-r--r--  2.0 unx     2285 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/VersionCommand.class
+│ +-rw-r--r--  2.0 unx     2706 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/WatsetCommand.class
+│ +-rw-r--r--  2.0 unx     1690 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/WatsetGetter.class
+│ +-rw-r--r--  2.0 unx      126 b- defN 22-Feb-26 10:39 org/nlpub/watset/cli/package-info.class
+│ +-rw-r--r--  2.0 unx     2502 b- defN 22-Feb-26 10:39 org/nlpub/watset/eval/CachedNormalizedModifiedPurity.class
+│ +-rw-r--r--  2.0 unx     1246 b- defN 22-Feb-26 10:39 org/nlpub/watset/eval/Measurer$Measurement.class
+│ +-rw-r--r--  2.0 unx     5343 b- defN 22-Feb-26 10:39 org/nlpub/watset/eval/Measurer.class
+│ +-rw-r--r--  2.0 unx     9250 b- defN 22-Feb-26 10:39 org/nlpub/watset/eval/NormalizedModifiedPurity.class
+│ +-rw-r--r--  2.0 unx     5656 b- defN 22-Feb-26 10:39 org/nlpub/watset/eval/Pairwise.class
+│ +-rw-r--r--  2.0 unx     1529 b- defN 22-Feb-26 10:39 org/nlpub/watset/eval/PrecisionRecall.class
+│ +-rw-r--r--  2.0 unx     1087 b- defN 22-Feb-26 10:39 org/nlpub/watset/eval/Sampling.class
+│ +-rw-r--r--  2.0 unx      127 b- defN 22-Feb-26 10:39 org/nlpub/watset/eval/package-info.class
+│ +-rw-r--r--  2.0 unx     2729 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/ChineseWhispers$Builder.class
+│ +-rw-r--r--  2.0 unx     7049 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/ChineseWhispers$Implementation.class
+│ +-rw-r--r--  2.0 unx     2519 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/ChineseWhispers.class
+│ +-rw-r--r--  2.0 unx      391 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/ClusteringAlgorithmBuilder.class
+│ +-rw-r--r--  2.0 unx     1340 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/ComponentsClustering$Builder.class
+│ +-rw-r--r--  2.0 unx     2066 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/ComponentsClustering.class
+│ +-rw-r--r--  2.0 unx     1322 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/EmptyClustering$Builder.class
+│ +-rw-r--r--  2.0 unx     1439 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/EmptyClustering.class
+│ +-rw-r--r--  2.0 unx     2115 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/MarkovClustering$Builder.class
+│ +-rw-r--r--  2.0 unx     4426 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/MarkovClustering$Implementation.class
+│ +-rw-r--r--  2.0 unx     2129 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/MarkovClustering.class
+│ +-rw-r--r--  2.0 unx     2472 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/MarkovClusteringExternal$Builder.class
+│ +-rw-r--r--  2.0 unx     9589 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/MarkovClusteringExternal$Implementation.class
+│ +-rw-r--r--  2.0 unx     2676 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/MarkovClusteringExternal.class
+│ +-rw-r--r--  2.0 unx     1228 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/MaxMax$Builder.class
+│ +-rw-r--r--  2.0 unx     6544 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/MaxMax$Implementation.class
+│ +-rw-r--r--  2.0 unx     2217 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/MaxMax.class
+│ +-rw-r--r--  2.0 unx     1746 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/MaxMaxClustering$MaxMaxClusteringImpl.class
+│ +-rw-r--r--  2.0 unx      730 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/MaxMaxClustering.class
+│ +-rw-r--r--  2.0 unx      887 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/NodeEmbedding.class
+│ +-rw-r--r--  2.0 unx      465 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/NodeWeighting.class
+│ +-rw-r--r--  2.0 unx      983 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/NodeWeightings$1.class
+│ +-rw-r--r--  2.0 unx     1389 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/NodeWeightings$LabelNodeWeighting.class
+│ +-rw-r--r--  2.0 unx     1475 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/NodeWeightings$LinearNodeWeighting.class
+│ +-rw-r--r--  2.0 unx     1517 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/NodeWeightings$LogNodeWeighting.class
+│ +-rw-r--r--  2.0 unx     1408 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/NodeWeightings$TopNodeWeighting.class
+│ +-rw-r--r--  2.0 unx     1471 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/NodeWeightings$WeightingMode.class
+│ +-rw-r--r--  2.0 unx     3529 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/NodeWeightings.class
+│ +-rw-r--r--  2.0 unx     3644 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/SenseInduction.class
+│ +-rw-r--r--  2.0 unx     1332 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/SingletonClustering$Builder.class
+│ +-rw-r--r--  2.0 unx     2926 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/SingletonClustering.class
+│ +-rw-r--r--  2.0 unx     2488 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/SpectralClustering$Builder.class
+│ +-rw-r--r--  2.0 unx     3953 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/SpectralClustering$Implementation.class
+│ +-rw-r--r--  2.0 unx     2404 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/SpectralClustering.class
+│ +-rw-r--r--  2.0 unx     1324 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/TogetherClustering$Builder.class
+│ +-rw-r--r--  2.0 unx     1868 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/TogetherClustering.class
+│ +-rw-r--r--  2.0 unx     2351 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/Watset$Builder.class
+│ +-rw-r--r--  2.0 unx    10176 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/Watset$Implementation.class
+│ +-rw-r--r--  2.0 unx     3455 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/Watset.class
+│ +-rw-r--r--  2.0 unx     4432 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/WatsetClustering$WatsetClusteringImpl.class
+│ +-rw-r--r--  2.0 unx      875 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/WatsetClustering.class
+│ +-rw-r--r--  2.0 unx      128 b- defN 22-Feb-26 10:39 org/nlpub/watset/graph/package-info.class
+│ +-rw-r--r--  2.0 unx     3202 b- defN 22-Feb-26 10:39 org/nlpub/watset/util/ABCFormat.class
+│ +-rw-r--r--  2.0 unx     1459 b- defN 22-Feb-26 10:39 org/nlpub/watset/util/ClusteringAlgorithmProvider$1.class
+│ +-rw-r--r--  2.0 unx     1926 b- defN 22-Feb-26 10:39 org/nlpub/watset/util/ClusteringAlgorithmProvider$ProvidingAlgorithm.class
+│ +-rw-r--r--  2.0 unx     9884 b- defN 22-Feb-26 10:39 org/nlpub/watset/util/ClusteringAlgorithmProvider.class
+│ +-rw-r--r--  2.0 unx     4717 b- defN 22-Feb-26 10:39 org/nlpub/watset/util/ILEFormat.class
+│ +-rw-r--r--  2.0 unx     1527 b- defN 22-Feb-26 10:39 org/nlpub/watset/util/IndexedSense.class
+│ +-rw-r--r--  2.0 unx      864 b- defN 22-Feb-26 10:39 org/nlpub/watset/util/Matrices$ColumnNormalizeVisitor.class
+│ +-rw-r--r--  2.0 unx      854 b- defN 22-Feb-26 10:39 org/nlpub/watset/util/Matrices$ColumnSumVisitor.class
+│ +-rw-r--r--  2.0 unx      719 b- defN 22-Feb-26 10:39 org/nlpub/watset/util/Matrices$InflateVisitor.class
+│ +-rw-r--r--  2.0 unx      856 b- defN 22-Feb-26 10:39 org/nlpub/watset/util/Matrices$RowNormalizeVisitor.class
+│ +-rw-r--r--  2.0 unx     8342 b- defN 22-Feb-26 10:39 org/nlpub/watset/util/Matrices.class
+│ +-rw-r--r--  2.0 unx     4294 b- defN 22-Feb-26 10:39 org/nlpub/watset/util/Maximizer.class
+│ +-rw-r--r--  2.0 unx     1864 b- defN 22-Feb-26 10:39 org/nlpub/watset/util/Neighbors.class
+│ +-rw-r--r--  2.0 unx     3265 b- defN 22-Feb-26 10:39 org/nlpub/watset/util/NetworkXFormat.class
+│ +-rw-r--r--  2.0 unx      245 b- defN 22-Feb-26 10:39 org/nlpub/watset/util/Sense.class
+│ +-rw-r--r--  2.0 unx      846 b- defN 22-Feb-26 10:39 org/nlpub/watset/util/Word2VecFormat$1.class
+│ +-rw-r--r--  2.0 unx     1284 b- defN 22-Feb-26 10:39 org/nlpub/watset/util/Word2VecFormat$SpaceStrategy.class
+│ +-rw-r--r--  2.0 unx     3887 b- defN 22-Feb-26 10:39 org/nlpub/watset/util/Word2VecFormat.class
+│ +-rw-r--r--  2.0 unx      127 b- defN 22-Feb-26 10:39 org/nlpub/watset/util/package-info.class
+│ +-rw-r--r--  2.0 unx    11531 b- defN 22-Feb-26 10:39 META-INF/maven/org.nlpub/watset/pom.xml
+│ +-rw-r--r--  2.0 unx       50 b- defN 22-Feb-26 10:39 META-INF/maven/org.nlpub/watset/pom.properties
+│ +111 files, 265071 bytes uncompressed, 108602 bytes compressed:  59.0%
+├── zipnote «TEMP»/diffoscope_kmwgxt6a_target/tmpgmko9qpy.zip
+│ @@ -1,25 +1,43 @@
+│ -Filename: META-INF/MANIFEST.MF
+│ +Filename: META-INF/
+│  Comment: 
+│  
+│ -Filename: META-INF/
+│ +Filename: META-INF/MANIFEST.MF
+│  Comment: 
+│  
+│  Filename: org/
+│  Comment: 
+│  
+│  Filename: org/nlpub/
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/cli/
+│  Comment: 
+│  
+│ +Filename: org/nlpub/watset/eval/
+│ +Comment: 
+│ +
+│ +Filename: org/nlpub/watset/graph/
+│ +Comment: 
+│ +
+│ +Filename: org/nlpub/watset/util/
+│ +Comment: 
+│ +
+│ +Filename: META-INF/maven/
+│ +Comment: 
+│ +
+│ +Filename: META-INF/maven/org.nlpub/
+│ +Comment: 
+│ +
+│ +Filename: META-INF/maven/org.nlpub/watset/
+│ +Comment: 
+│ +
+│  Filename: org/nlpub/watset/cli/Application$1.class
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/cli/Application$ParseStatus.class
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/cli/Application.class
+│ @@ -96,17 +114,14 @@
+│  
+│  Filename: org/nlpub/watset/cli/WatsetGetter.class
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/cli/package-info.class
+│  Comment: 
+│  
+│ -Filename: org/nlpub/watset/eval/
+│ -Comment: 
+│ -
+│  Filename: org/nlpub/watset/eval/CachedNormalizedModifiedPurity.class
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/eval/Measurer$Measurement.class
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/eval/Measurer.class
+│ @@ -123,17 +138,14 @@
+│  
+│  Filename: org/nlpub/watset/eval/Sampling.class
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/eval/package-info.class
+│  Comment: 
+│  
+│ -Filename: org/nlpub/watset/graph/
+│ -Comment: 
+│ -
+│  Filename: org/nlpub/watset/graph/ChineseWhispers$Builder.class
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/graph/ChineseWhispers$Implementation.class
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/graph/ChineseWhispers.class
+│ @@ -252,17 +264,14 @@
+│  
+│  Filename: org/nlpub/watset/graph/WatsetClustering.class
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/graph/package-info.class
+│  Comment: 
+│  
+│ -Filename: org/nlpub/watset/util/
+│ -Comment: 
+│ -
+│  Filename: org/nlpub/watset/util/ABCFormat.class
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/util/ClusteringAlgorithmProvider$1.class
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/util/ClusteringAlgorithmProvider$ProvidingAlgorithm.class
+│ @@ -312,1865 +321,14 @@
+│  
+│  Filename: org/nlpub/watset/util/Word2VecFormat.class
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/util/package-info.class
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/org.nlpub/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/org.nlpub/watset/
+│ -Comment: 
+│ -
+│  Filename: META-INF/maven/org.nlpub/watset/pom.xml
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.nlpub/watset/pom.properties
+│  Comment: 
+│  
+│ -Filename: org/jgrapht/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/Graph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/CollectionUtil.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/SupplierException.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/TypeUtil.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/SupplierUtil$ConstructorSupplier$SerializedForm.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/DoublyLinkedList$ListNodeIterator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/DoublyLinkedList$ListNodeImpl.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/ModifiableInteger.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/DoublyLinkedList$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/DoublyLinkedList$NodeIterator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/LiveIterableWrapper.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/ArrayUnenforcedSet$SetForEquality.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/DoublyLinkedList.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/SupplierUtil.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/DoublyLinkedList$ListNodeIteratorImpl.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/SupplierUtil$ConstructorSupplier.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/VertexToIntegerMapping.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/DoublyLinkedList$ListNode.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/ArrayUnenforcedSet.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/IntrusiveEdge.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/Multigraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/DefaultDirectedWeightedGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/specifics/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/specifics/DirectedSpecifics.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/specifics/FastLookupUndirectedSpecifics.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/specifics/FastLookupDirectedSpecifics.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/specifics/ArrayUnenforcedSetEdgeSetFactory.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/specifics/DirectedEdgeContainer.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/specifics/Specifics.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/specifics/UndirectedEdgeContainer.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/specifics/UndirectedSpecifics.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/AbstractBaseGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/FastLookupGraphSpecificsStrategy.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/IntrusiveWeightedEdge.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/EdgeReversedGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/GraphSpecificsStrategy.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/DefaultGraphType$Builder.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/InvalidGraphWalkException.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/WeightedIntrusiveEdgesSpecifics.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/builder/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/builder/GraphBuilder.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/builder/GraphTypeBuilder.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/builder/AbstractGraphBuilder.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/DefaultGraphIterables.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/DirectedMultigraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/UniformIntrusiveEdgesSpecifics.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/WeightedMultigraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/SimpleWeightedGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/IntrusiveEdgeException.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/DirectedPseudograph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/DefaultDirectedGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/DefaultUndirectedGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/GraphWalk.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/DirectedWeightedMultigraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/SimpleDirectedWeightedGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/DefaultUndirectedWeightedGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/SimpleGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/AsUnmodifiableGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/BaseIntrusiveEdgesSpecifics.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/AsUndirectedGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/Pseudograph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/DirectedWeightedPseudograph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/WeightedPseudograph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/DefaultGraphType.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/SimpleDirectedGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/GraphDelegator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/DefaultWeightedEdge.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/AbstractGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/IntrusiveEdgesSpecifics.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/DefaultEdge.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/EdgeSetFactory.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/AsSubgraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/AsSubgraph$BaseGraphListener.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/GraphMetrics.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/GraphTests.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/ListenableGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/generate/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/generate/ComplementGraphGenerator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/generate/GraphGenerator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/GraphIterables.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/event/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/event/VertexSetListener.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/event/TraversalListener.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/event/ConnectedComponentTraversalEvent.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/event/GraphVertexChangeEvent.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/event/GraphListener.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/event/GraphEdgeChangeEvent.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/event/VertexTraversalEvent.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/event/GraphChangeEvent.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/event/EdgeTraversalEvent.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/event/TraversalListenerAdapter.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/GraphPath.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/Graphs.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/util/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/util/VertexDegreeComparator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/util/NeighborCache$Neighbors.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/util/ToleranceDoubleComparator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/util/NeighborCache.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/util/UnionFind.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/util/VertexDegreeComparator$Order.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/util/UnorderedPair.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/util/Pair.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/cycle/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/cycle/WeakChordalityInspector.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/cycle/HierholzerEulerianCycle$EdgeNode.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/cycle/HierholzerEulerianCycle$VertexNode.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/cycle/HierholzerEulerianCycle.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/cycle/ChordalityInspector.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/cycle/BergeGraphInspector.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/cycle/ChordalityInspector$IterationOrder.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/shortestpath/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/shortestpath/FloydWarshallShortestPaths$FloydWarshallSingleSourcePaths.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/shortestpath/GraphMeasurer.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/shortestpath/DijkstraShortestPath.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/shortestpath/DijkstraClosestFirstIterator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/shortestpath/BaseShortestPathAlgorithm.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/shortestpath/TreeSingleSourcePathsImpl.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/shortestpath/FloydWarshallShortestPaths.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/shortestpath/ListSingleSourcePathsImpl.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/SpanningTreeAlgorithm.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/StrongConnectivityAlgorithm.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/PartitioningAlgorithm$Partitioning.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/SpanningTreeAlgorithm$SpanningTree.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/ClusteringAlgorithm$ClusteringImpl.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/PlanarityTestingAlgorithm.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/ShortestPathAlgorithm$SingleSourcePaths.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/PartitioningAlgorithm$PartitioningImpl.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/ClusteringAlgorithm$Clustering.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/ShortestPathAlgorithm.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/EdgeScoringAlgorithm.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/PartitioningAlgorithm.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/PlanarityTestingAlgorithm$Embedding.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/EulerianCycleAlgorithm.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/PlanarityTestingAlgorithm$EmbeddingImpl.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/SpanningTreeAlgorithm$SpanningTreeImpl.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/ClusteringAlgorithm.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/spanning/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/spanning/PrimMinimumSpanningTree$VertexInfo.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/spanning/PrimMinimumSpanningTree.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/planar/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/planar/BoyerMyrvoldPlanarityInspector$Node.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/planar/BoyerMyrvoldPlanarityInspector$Edge.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/planar/BoyerMyrvoldPlanarityInspector$MergeInfo.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/planar/BoyerMyrvoldPlanarityInspector.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/planar/BoyerMyrvoldPlanarityInspector$OuterFaceCirculator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/planar/BoyerMyrvoldPlanarityInspector$SearchInfo.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/planar/BoyerMyrvoldPlanarityInspector$OrientDfsStackInfo.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/scoring/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/scoring/EdgeBetweennessCentrality$WeightedAlgorithm.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/scoring/EdgeBetweennessCentrality.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/scoring/EdgeBetweennessCentrality$OverflowStrategy.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/scoring/EdgeBetweennessCentrality$Algorithm.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/partition/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/partition/BipartitePartitioning.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/clustering/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/clustering/GirvanNewmanClustering.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/clustering/KSpanningTreeClustering.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/connectivity/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/connectivity/BiconnectivityInspector.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/connectivity/AbstractStrongConnectivityInspector.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/connectivity/ConnectivityInspector.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/connectivity/KosarajuStrongConnectivityInspector$VertexData2.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/connectivity/KosarajuStrongConnectivityInspector$VertexData1.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/connectivity/KosarajuStrongConnectivityInspector$VertexData.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/connectivity/ConnectivityInspector$MyTraversalListener.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/connectivity/KosarajuStrongConnectivityInspector.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/GraphType.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/traverse/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/traverse/BreadthFirstIterator$SearchNodeData.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/traverse/GraphIterator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/traverse/AbstractGraphIterator$FlyweightEdgeEvent.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/traverse/LexBreadthFirstIterator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/traverse/CrossComponentIterator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/traverse/BreadthFirstIterator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/traverse/AbstractGraphIterator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/traverse/LexBreadthFirstIterator$BucketList.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/traverse/LexBreadthFirstIterator$BucketList$Bucket.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/traverse/AbstractGraphIterator$FlyweightVertexEvent.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/traverse/MaximumCardinalityIterator.class
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/org.jgrapht/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/org.jgrapht/jgrapht-core/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/org.jgrapht/jgrapht-core/pom.xml
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/org.jgrapht/jgrapht-core/pom.properties
+│ -Comment: 
+│ -
+│ -Filename: org/jheaps/
+│ -Comment: 
+│ -
+│ -Filename: org/jheaps/AddressableHeap$Handle.class
+│ -Comment: 
+│ -
+│ -Filename: org/jheaps/tree/
+│ -Comment: 
+│ -
+│ -Filename: org/jheaps/tree/FibonacciHeap.class
+│ -Comment: 
+│ -
+│ -Filename: org/jheaps/tree/PairingHeap$Node.class
+│ -Comment: 
+│ -
+│ -Filename: org/jheaps/tree/PairingHeap.class
+│ -Comment: 
+│ -
+│ -Filename: org/jheaps/MergeableAddressableHeap.class
+│ -Comment: 
+│ -
+│ -Filename: org/jheaps/annotations/
+│ -Comment: 
+│ -
+│ -Filename: org/jheaps/annotations/ConstantTime.class
+│ -Comment: 
+│ -
+│ -Filename: org/jheaps/annotations/LogarithmicTime.class
+│ -Comment: 
+│ -
+│ -Filename: org/jheaps/AddressableHeap.class
+│ -Comment: 
+│ -
+│ -Filename: org/jheaps/tree/FibonacciHeap$Node.class
+│ -Comment: 
+│ -
+│ -Filename: META-INF/LICENSE.txt
+│ -Comment: 
+│ -
+│ -Filename: META-INF/NOTICE.txt
+│ -Comment: 
+│ -
+│ -Filename: org/apache/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/clustering/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/clustering/KMeansPlusPlusClusterer$EmptyClusterStrategy.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/clustering/Clusterer.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/clustering/KMeansPlusPlusClusterer$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/clustering/evaluation/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/clustering/evaluation/SumOfClusterVariances.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/clustering/evaluation/ClusterEvaluator.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/clustering/DoublePoint.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/clustering/KMeansPlusPlusClusterer.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/clustering/Clusterable.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/clustering/CentroidCluster.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/clustering/MultiKMeansPlusPlusClusterer.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/clustering/Cluster.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/distance/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/distance/EuclideanDistance.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/distance/DistanceMeasure.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$6.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$3$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$6$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/DifferentiableUnivariateFunction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$8.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$18.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/MultivariateVectorFunction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$17.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$9.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$14.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$16$2.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$7.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$18$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/differentiation/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/differentiation/UnivariateDifferentiableFunction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/differentiation/DerivativeStructure$DataTransferObject.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/differentiation/DerivativeStructure.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/differentiation/DSCompiler.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/differentiation/MultivariateDifferentiableFunction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/differentiation/MultivariateDifferentiableVectorFunction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/differentiation/DerivativeStructure$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$16.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/DifferentiableMultivariateVectorFunction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$15.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$3.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/DifferentiableMultivariateFunction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$19.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$2.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/function/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/function/Constant.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/function/Divide.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/function/Identity.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/function/Add.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/function/Multiply.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/MultivariateFunction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$12.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/BivariateFunction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$10.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/UnivariateFunction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$13.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$5.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/solvers/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/solvers/BaseUnivariateSolver.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/solvers/AbstractUnivariateSolver.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/solvers/AllowedSolution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/solvers/BaseAbstractUnivariateSolver.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/solvers/UnivariateSolver.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/solvers/BrentSolver.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/solvers/UnivariateSolverUtils.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/solvers/BracketedUnivariateSolver.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$14$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$11.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$16$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$4.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$9$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/MultivariateMatrixFunction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/descriptive/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/descriptive/AbstractStorelessUnivariateStatistic.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/descriptive/WeightedEvaluation.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/descriptive/StorelessUnivariateStatistic.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/descriptive/summary/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/descriptive/summary/Sum.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/descriptive/AbstractUnivariateStatistic.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/descriptive/moment/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/descriptive/moment/Variance.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/descriptive/moment/SecondMoment.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/descriptive/moment/FirstMoment.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/descriptive/moment/Mean.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/descriptive/UnivariateStatistic.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/SchurTransformer.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealVector$SparseEntryIterator.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/AbstractRealMatrix$5.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/TriDiagonalTransformer.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/QRDecomposition$Solver.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/MatrixUtils$BigFractionMatrixConverter.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/AbstractRealMatrix.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/ArrayFieldVector.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/SingularValueDecomposition$Solver.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/EigenDecomposition$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/DefaultRealMatrixPreservingVisitor.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/AbstractRealMatrix$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/BlockFieldMatrix.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/AbstractRealMatrix$4.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/SingularValueDecomposition.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/DefaultRealMatrixChangingVisitor.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/AbstractRealMatrix$2.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/FieldMatrix.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealMatrixChangingVisitor.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/QRDecomposition.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/DiagonalMatrix.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/SparseRealVector.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/NonSquareMatrixException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealVector$2.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/MatrixDimensionMismatchException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/NonSymmetricMatrixException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealMatrixFormat.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealVectorChangingVisitor.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/AbstractFieldMatrix$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/DecompositionSolver.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/OpenMapRealMatrix.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealMatrix.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/FieldVectorChangingVisitor.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/FieldVectorPreservingVisitor.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealVector$2$2.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/ArrayRealVector.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/AnyMatrix.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/FieldMatrixPreservingVisitor.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/HessenbergTransformer.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/DefaultFieldMatrixChangingVisitor.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealVectorFormat.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/EigenDecomposition.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealLinearOperator.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealVector$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealVectorPreservingVisitor.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/MatrixUtils.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealVector.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/AbstractRealMatrix$3.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/QRDecomposition$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/SchurTransformer$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/Array2DRowRealMatrix.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/SingularValueDecomposition$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealVector$2$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/AbstractFieldMatrix$3.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/DefaultFieldMatrixPreservingVisitor.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/MatrixUtils$FractionMatrixConverter.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/FieldVector.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealMatrixPreservingVisitor.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/BlockRealMatrix.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/AbstractFieldMatrix.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/SchurTransformer$ShiftInfo.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/Array2DRowFieldMatrix.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/SingularMatrixException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/SparseRealMatrix.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealVector$Entry.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/EigenDecomposition$Solver.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/FieldMatrixChangingVisitor.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealVector$2$UnmodifiableEntry.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/AbstractFieldMatrix$2.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/Field.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/FieldElement.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/PoissonDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/ExponentialDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/WeibullDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/AbstractRealDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/SaddlePointExpansion.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/BetaDistribution$ChengBetaSampler.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/BetaDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/BinomialDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/AbstractIntegerDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/UniformIntegerDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/ZipfDistribution$ZipfRejectionInversionSampler.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/ZipfDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/PascalDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/CauchyDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/FDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/IntegerDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/GammaDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/TDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/NormalDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/HypergeometricDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/RealDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/ChiSquaredDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/AbstractRealDistribution$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/complex/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/complex/ComplexField$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/complex/ComplexField$LazyHolder.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/complex/Complex.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/complex/ComplexField.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/random/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/random/RandomGeneratorFactory.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/random/RandomData.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/random/BitsStreamGenerator.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/random/Well19937c.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/random/JDKRandomGenerator.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/random/RandomGeneratorFactory$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/random/AbstractWell.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/random/RandomGenerator.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/random/RandomDataImpl.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/random/RandomDataGenerator.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/RealFieldElement.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/MathArithmeticException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/NumberIsTooSmallException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/MathIllegalNumberException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/MathParseException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/OutOfRangeException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/MathInternalError.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/MultiDimensionMismatchException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/DimensionMismatchException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/ZeroException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/NumberIsTooLargeException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/NoBracketingException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/NoDataException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/NotPositiveException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/ConvergenceException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/NotANumberException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/NonMonotonicSequenceException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/NotFiniteNumberException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/NullArgumentException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/MathIllegalStateException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/TooManyEvaluationsException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/MathUnsupportedOperationException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/MaxCountExceededException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/NotStrictlyPositiveException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/util/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/util/Localizable.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/util/ArgUtils.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/util/ExceptionContext.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/util/ExceptionContextProvider.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/util/LocalizedFormats.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/MathIllegalArgumentException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/fraction/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/fraction/FractionConversionException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/fraction/FractionField$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/fraction/BigFractionField.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/fraction/BigFractionField$LazyHolder.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/fraction/FractionField$LazyHolder.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/fraction/Fraction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/fraction/BigFractionField$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/fraction/FractionField.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/fraction/BigFraction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/special/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/special/Beta$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/special/Beta.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/special/Gamma$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/special/Erf.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/special/Gamma.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/Combinations$IterationOrder.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/MathArrays$2.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/MathArrays$Function.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/OpenIntToDoubleHashMap$Iterator.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/FastMathCalc.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/FastMath$ExpIntTable.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/Combinations$LexicographicComparator.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/FastMath$Split.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/Combinations.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/ResizableDoubleArray$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/OpenIntToDoubleHashMap.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/MathArrays$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/ResizableDoubleArray.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/IntegerSequence.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/MathArrays$OrderDirection.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/CompositeFormat.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/FastMath$lnMant.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/IntegerSequence$Range.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/FastMathLiteralArrays.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/IntegerSequence$Incrementor$MaxCountExceededCallback.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/MathUtils.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/ResizableDoubleArray$ExpansionMode.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/ArithmeticUtils.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/Combinations$SingletonIterator.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/MathArrays$Position.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/IntegerSequence$Incrementor$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/MathArrays$PairDoubleInteger.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/CombinatoricsUtils.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/DoubleArray.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/ContinuedFraction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/MathArrays$3.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/FastMath$ExpFracTable.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/FastMath$CodyWaite.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/Combinations$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/MathArrays.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/Combinations$LexicographicIterator.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/OpenIntToDoubleHashMap$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/IntegerSequence$Incrementor.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/FastMath.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/Precision.class
+│ -Comment: 
+│ -
+│ -Filename: assets/
+│ -Comment: 
+│ -
+│ -Filename: assets/org/
+│ -Comment: 
+│ -
+│ -Filename: assets/org/apache/
+│ -Comment: 
+│ -
+│ -Filename: assets/org/apache/commons/
+│ -Comment: 
+│ -
+│ -Filename: assets/org/apache/commons/math3/
+│ -Comment: 
+│ -
+│ -Filename: assets/org/apache/commons/math3/random/
+│ -Comment: 
+│ -
+│ -Filename: assets/org/apache/commons/math3/random/new-joe-kuo-6.1000
+│ -Comment: 
+│ -
+│ -Filename: assets/org/apache/commons/math3/exception/
+│ -Comment: 
+│ -
+│ -Filename: assets/org/apache/commons/math3/exception/util/
+│ -Comment: 
+│ -
+│ -Filename: assets/org/apache/commons/math3/exception/util/LocalizedFormats_fr.properties
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/org.apache.commons/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/org.apache.commons/commons-math3/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/org.apache.commons/commons-math3/pom.xml
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/org.apache.commons/commons-math3/pom.properties
+│ -Comment: 
+│ -
+│ -Filename: com/
+│ -Comment: 
+│ -
+│ -Filename: com/beust/
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/BaseConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/BigDecimalConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/BooleanConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/CommaParameterSplitter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/DefaultListConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/DoubleConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/EnumConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/FileConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/FloatConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/IntegerConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/IParameterSplitter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/ISO8601DateConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/LongConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/NoConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/PathConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/StringConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/URIConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/URLConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/DefaultUsageFormatter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/DynamicParameter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/FuzzyMap$IKey.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/FuzzyMap.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/IDefaultProvider.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/internal/
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/internal/Console.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/internal/DefaultConsole.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/internal/DefaultConverterFactory.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/internal/JDK6Console.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/internal/Lists.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/internal/Maps.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/internal/Nullable.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/internal/Sets.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/IParameterizedParser.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/IParameterValidator.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/IParameterValidator2.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/IStringConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/IStringConverterFactory.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/IStringConverterInstanceFactory.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/IUsageFormatter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/IValueValidator.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/IVariableArity.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/JCommander$1.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/JCommander$2.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/JCommander$Builder.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/JCommander$DefaultVariableArity.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/JCommander$MainParameter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/JCommander$Options$1.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/JCommander$Options.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/JCommander$ProgramName.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/JCommander.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/MissingCommandException.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/Parameter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/ParameterDescription$SubParameterIndex.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/ParameterDescription.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/ParameterException.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/Parameterized.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/Parameters.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/ParametersDelegate.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/parser/
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/parser/DefaultParameterizedParser.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/ResourceBundle.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/StringKey.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/Strings.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/SubParameter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/validators/
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/validators/NoValidator.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/validators/NoValueValidator.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/WrappedParameter.class
+│ -Comment: 
+│ -
+│ -Filename: net/
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/Unpickler.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/PythonException.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/IObjectConstructor.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/UnpickleStack.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/InvalidOpcodeException.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/PickleUtils.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/Tzinfo.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/ExceptionConstructor.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/ClassDictConstructor.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/TimeDelta.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/ClassDict.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/TimeZoneConstructor.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/SetConstructor.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/Reconstructor.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/ByteArrayConstructor.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/ArrayConstructor.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/ComplexNumber.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/AnyClassConstructor.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/Time.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/OperatorAttrGetterForCalendarTz$AttrGetterForTz.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/OperatorAttrGetterForCalendarTz$CalendarLocalizer.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/OperatorAttrGetterForCalendarTz.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/DateTimeConstructor.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/PickleException.class
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/net.razorvine/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/net.razorvine/pickle/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/net.razorvine/pickle/pom.xml
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/net.razorvine/pickle/pom.properties
+│ -Comment: 
+│ -
+│  Zip file comment:
+├── filetype from file(1)
+│ @@ -1 +1 @@
+│ -Java archive data (JAR)
+│ +Zip archive data, at least v1.0 to extract
+├── META-INF/MANIFEST.MF
+│ @@ -1,9 +1,8 @@
+│  Manifest-Version: 1.0
+│  Created-By: Maven JAR Plugin 3.2.2
+│  Build-Jdk-Spec: 11
+│  Specification-Title: Watset
+│  Specification-Version: 2.8
+│  Implementation-Title: Watset
+│  Implementation-Version: 2.8.0
+│ -Main-Class: org.nlpub.watset.cli.Application
+
