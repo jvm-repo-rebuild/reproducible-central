@@ -1,0 +1,301 @@
+target/reference/tika-serialization-2.1.0.jar tika-serialization/target/tika-serialization-2.1.0.jar
+--- target/reference/tika-serialization-2.1.0.jar
++++ tika-serialization/target/tika-serialization-2.1.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 23772 bytes, number of entries: 24
+│ +Zip file size: 23771 bytes, number of entries: 24
+│  -rw-r--r--  2.0 unx      401 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/tika/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/tika/metadata/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/tika/metadata/serialization/
+│ @@ -19,8 +19,8 @@
+│  -rw-r--r--  2.0 unx     1443 b- defN 80-000-00 04:08 org/apache/tika/metadata/serialization/JsonMetadataDeserializer.class
+│  -rw-r--r--  2.0 unx     4500 b- defN 80-000-00 04:08 org/apache/tika/metadata/serialization/JsonMetadataList.class
+│  -rw-r--r--  2.0 unx     1440 b- defN 80-000-00 04:08 org/apache/tika/metadata/serialization/JsonMetadataSerializer.class
+│  -rw-r--r--  2.0 unx     1667 b- defN 80-000-00 04:08 org/apache/tika/metadata/serialization/JsonStreamingSerializer.class
+│  -rw-r--r--  2.0 unx     1213 b- defN 80-000-00 04:08 org/apache/tika/metadata/serialization/PrettyMetadataKeyComparator.class
+│  -rw-r--r--  2.0 unx     4092 b- defN 80-000-00 04:08 META-INF/maven/org.apache.tika/tika-serialization/pom.xml
+│  -rw-r--r--  2.0 unx       68 b- defN 80-000-00 04:08 META-INF/maven/org.apache.tika/tika-serialization/pom.properties
+│ -24 files, 47810 bytes uncompressed, 19978 bytes compressed:  58.2%
+│ +24 files, 47810 bytes uncompressed, 19977 bytes compressed:  58.2%
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Tika serialization
+│ -Copyright 2007-1969 The Apache Software Foundation
+│ +Copyright 2007-1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+
+target/reference/tika-parser-microsoft-module-2.1.0.jar tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/target/tika-parser-microsoft-module-2.1.0.jar
+--- target/reference/tika-parser-microsoft-module-2.1.0.jar
++++ tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-microsoft-module/target/tika-parser-microsoft-module-2.1.0.jar
+├── zipinfo {}
+│ @@ -1,9 +1,9 @@
+│  Zip file size: 477836 bytes, number of entries: 238
+│ --rw-r--r--  2.0 unx    10892 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx    10885 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/tika/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/tika/detect/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/tika/detect/microsoft/
+│ @@ -233,8 +233,8 @@
+│  -rw-r--r--  2.0 unx     3904 b- defN 80-000-00 04:08 org/apache/tika/parser/microsoft/xml/SpreadsheetMLParser$ExcelMLHandler.class
+│  -rw-r--r--  2.0 unx     2318 b- defN 80-000-00 04:08 org/apache/tika/parser/microsoft/xml/SpreadsheetMLParser.class
+│  -rw-r--r--  2.0 unx     5635 b- defN 80-000-00 04:08 org/apache/tika/parser/microsoft/xml/WordMLParser$PictHandler.class
+│  -rw-r--r--  2.0 unx     2763 b- defN 80-000-00 04:08 org/apache/tika/parser/microsoft/xml/WordMLParser$WordMLHandler.class
+│  -rw-r--r--  2.0 unx     3915 b- defN 80-000-00 04:08 org/apache/tika/parser/microsoft/xml/WordMLParser.class
+│  -rw-r--r--  2.0 unx     5736 b- defN 80-000-00 04:08 META-INF/maven/org.apache.tika/tika-parser-microsoft-module/pom.xml
+│  -rw-r--r--  2.0 unx       78 b- defN 80-000-00 04:08 META-INF/maven/org.apache.tika/tika-parser-microsoft-module/pom.properties
+│ -238 files, 1015779 bytes uncompressed, 430170 bytes compressed:  57.7%
+│ +238 files, 1015772 bytes uncompressed, 430170 bytes compressed:  57.7%
+├── META-INF/MANIFEST.MF
+│ @@ -1,12 +1,12 @@
+│  Manifest-Version: 1.0
+
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+
+│  Bundle-SymbolicName: org.apache.tika.parser-microsoft-module
+
+│ -Built-By: tallison
+
+│ -Bnd-LastModified: 1629321828519
+
+│ +Built-By: ?
+
+│ +Bnd-LastModified: 1645955533326
+
+│  Specification-Title: Apache Tika Microsoft parser module
+
+│  Implementation-Vendor-Id: org.apache.tika
+
+│  Bundle-DocURL: https://tika.apache.org/tika-parser-microsoft-module/
+
+│  Import-Package: org.apache.tika.config;version="[2.1,3)",org.apache.ti
+
+│   ka.detect;version="[2.1,3)",org.apache.tika.detect.microsoft,org.apac
+
+│   he.tika.detect.microsoft.ooxml,org.apache.tika.detect.zip;version="[2
+
+│   .1,3)",org.apache.tika.exception;version="[2.1,3)",org.apache.tika.ex
+
+│ @@ -100,52 +100,52 @@
+│   poifs.filesystem,org.apache.tika.detect,org.apache.tika.metadata,org.
+
+│   apache.tika.mime";version="2.1.0",org.apache.tika.parser.microsoft;us
+
+│   es:="org.apache.poi.hssf.extractor,org.apache.poi.hwpf,org.apache.poi
+
+│   .hwpf.usermodel,org.apache.poi.poifs.filesystem,org.apache.poi.ss.use
+
+│   rmodel,org.apache.poi.wp.usermodel,org.apache.tika.config,org.apache.
+
+│   tika.exception,org.apache.tika.extractor,org.apache.tika.metadata,org
+
+│   .apache.tika.mime,org.apache.tika.parser,org.apache.tika.sax,org.xml.
+
+│ - sax";version="2.1.0",org.apache.tika.parser.microsoft.rtf;uses:="org.
+
+│ - apache.tika.config,org.apache.tika.exception,org.apache.tika.metadata
+
+│ - ,org.apache.tika.mime,org.apache.tika.parser,org.xml.sax";version="2.
+
+│ - 1.0",org.apache.tika.parser.microsoft.xml;uses:="org.apache.tika.exce
+
+│ - ption,org.apache.tika.metadata,org.apache.tika.mime,org.apache.tika.p
+
+│ - arser,org.xml.sax";version="2.1.0",org.apache.tika.parser.microsoft.o
+
+│ - nenote;uses:="org.apache.tika.exception,org.apache.tika.metadata,org.
+
+│ - apache.tika.mime,org.apache.tika.parser,org.xml.sax";version="2.1.0",
+
+│ - org.apache.tika.parser.microsoft.chm;uses:="org.apache.tika.exception
+
+│ - ,org.apache.tika.metadata,org.apache.tika.mime,org.apache.tika.parser
+
+│ - ,org.xml.sax";version="2.1.0",org.apache.tika.parser.microsoft.pst;us
+
+│ - es:="org.apache.tika.exception,org.apache.tika.metadata,org.apache.ti
+
+│ - ka.mime,org.apache.tika.parser,org.xml.sax";version="2.1.0",org.apach
+
+│ - e.tika.parser.microsoft.ooxml;uses:="org.apache.poi.ooxml,org.apache.
+
+│ - poi.ooxml.extractor,org.apache.poi.openxml4j.opc,org.apache.poi.ss.us
+
+│ - ermodel,org.apache.poi.xslf.extractor,org.apache.poi.xssf.eventusermo
+
+│ - del,org.apache.poi.xssf.model,org.apache.poi.xssf.usermodel,org.apach
+
+│ - e.poi.xssf.usermodel.helpers,org.apache.poi.xwpf.extractor,org.apache
+
+│ - .poi.xwpf.usermodel,org.apache.tika.exception,org.apache.tika.metadat
+
+│ - a,org.apache.tika.mime,org.apache.tika.parser,org.apache.tika.parser.
+
+│ - microsoft,org.apache.tika.parser.microsoft.ooxml.xslf,org.apache.tika
+
+│ - .parser.microsoft.ooxml.xwpf,org.apache.tika.sax,org.apache.xmlbeans,
+
+│ - org.xml.sax,org.xml.sax.helpers";version="2.1.0",org.apache.tika.pars
+
+│ - er.microsoft.ooxml.xps;uses:="org.apache.poi.ooxml,org.apache.poi.oox
+
+│ - ml.extractor,org.apache.poi.openxml4j.exceptions,org.apache.poi.openx
+
+│ - ml4j.opc,org.apache.tika.exception,org.apache.tika.parser,org.apache.
+
+│ - tika.parser.microsoft.ooxml,org.apache.tika.sax,org.apache.xmlbeans,o
+
+│ - rg.xml.sax";version="2.1.0",org.apache.tika.parser.microsoft.ooxml.xw
+
+│ - pf;uses:="org.apache.poi.ooxml,org.apache.poi.ooxml.extractor,org.apa
+
+│ - che.poi.openxml4j.exceptions,org.apache.poi.openxml4j.opc,org.apache.
+
+│ - poi.xwpf.usermodel,org.apache.tika.exception,org.apache.tika.parser,o
+
+│ - rg.apache.xmlbeans,org.xml.sax";version="2.1.0",org.apache.tika.parse
+
+│ - r.microsoft.ooxml.xwpf.ml2006;uses:="org.apache.tika.exception,org.ap
+
+│ - ache.tika.metadata,org.apache.tika.mime,org.apache.tika.parser,org.ap
+
+│ - ache.tika.parser.microsoft,org.xml.sax";version="2.1.0",org.apache.ti
+
+│ - ka.parser.microsoft.ooxml.xslf;uses:="org.apache.poi.ooxml,org.apache
+
+│ - .poi.ooxml.extractor,org.apache.poi.openxml4j.exceptions,org.apache.p
+
+│ - oi.openxml4j.opc,org.apache.xmlbeans";version="2.1.0"
+
+│ + sax";version="2.1.0",org.apache.tika.parser.microsoft.pst;uses:="org.
+
+│ + apache.tika.exception,org.apache.tika.metadata,org.apache.tika.mime,o
+
+│ + rg.apache.tika.parser,org.xml.sax";version="2.1.0",org.apache.tika.pa
+
+│ + rser.microsoft.chm;uses:="org.apache.tika.exception,org.apache.tika.m
+
+│ + etadata,org.apache.tika.mime,org.apache.tika.parser,org.xml.sax";vers
+
+│ + ion="2.1.0",org.apache.tika.parser.microsoft.ooxml;uses:="org.apache.
+
+│ + poi.ooxml,org.apache.poi.ooxml.extractor,org.apache.poi.openxml4j.opc
+
+│ + ,org.apache.poi.ss.usermodel,org.apache.poi.xslf.extractor,org.apache
+
+│ + .poi.xssf.eventusermodel,org.apache.poi.xssf.model,org.apache.poi.xss
+
+│ + f.usermodel,org.apache.poi.xssf.usermodel.helpers,org.apache.poi.xwpf
+
+│ + .extractor,org.apache.poi.xwpf.usermodel,org.apache.tika.exception,or
+
+│ + g.apache.tika.metadata,org.apache.tika.mime,org.apache.tika.parser,or
+
+│ + g.apache.tika.parser.microsoft,org.apache.tika.parser.microsoft.ooxml
+
+│ + .xslf,org.apache.tika.parser.microsoft.ooxml.xwpf,org.apache.tika.sax
+
+│ + ,org.apache.xmlbeans,org.xml.sax,org.xml.sax.helpers";version="2.1.0"
+
+│ + ,org.apache.tika.parser.microsoft.ooxml.xslf;uses:="org.apache.poi.oo
+
+│ + xml,org.apache.poi.ooxml.extractor,org.apache.poi.openxml4j.exception
+
+│ + s,org.apache.poi.openxml4j.opc,org.apache.xmlbeans";version="2.1.0",o
+
+│ + rg.apache.tika.parser.microsoft.ooxml.xwpf;uses:="org.apache.poi.ooxm
+
+│ + l,org.apache.poi.ooxml.extractor,org.apache.poi.openxml4j.exceptions,
+
+│ + org.apache.poi.openxml4j.opc,org.apache.poi.xwpf.usermodel,org.apache
+
+│ + .tika.exception,org.apache.tika.parser,org.apache.xmlbeans,org.xml.sa
+
+│ + x";version="2.1.0",org.apache.tika.parser.microsoft.ooxml.xwpf.ml2006
+
+│ + ;uses:="org.apache.tika.exception,org.apache.tika.metadata,org.apache
+
+│ + .tika.mime,org.apache.tika.parser,org.apache.tika.parser.microsoft,or
+
+│ + g.xml.sax";version="2.1.0",org.apache.tika.parser.microsoft.ooxml.xps
+
+│ + ;uses:="org.apache.poi.ooxml,org.apache.poi.ooxml.extractor,org.apach
+
+│ + e.poi.openxml4j.exceptions,org.apache.poi.openxml4j.opc,org.apache.ti
+
+│ + ka.exception,org.apache.tika.parser,org.apache.tika.parser.microsoft.
+
+│ + ooxml,org.apache.tika.sax,org.apache.xmlbeans,org.xml.sax";version="2
+
+│ + .1.0",org.apache.tika.parser.microsoft.rtf;uses:="org.apache.tika.con
+
+│ + fig,org.apache.tika.exception,org.apache.tika.metadata,org.apache.tik
+
+│ + a.mime,org.apache.tika.parser,org.xml.sax";version="2.1.0",org.apache
+
+│ + .tika.parser.microsoft.xml;uses:="org.apache.tika.exception,org.apach
+
+│ + e.tika.metadata,org.apache.tika.mime,org.apache.tika.parser,org.xml.s
+
+│ + ax";version="2.1.0",org.apache.tika.parser.microsoft.onenote;uses:="o
+
+│ + rg.apache.tika.exception,org.apache.tika.metadata,org.apache.tika.mim
+
+│ + e,org.apache.tika.parser,org.xml.sax";version="2.1.0"
+
+│  Bundle-Name: Apache Tika Microsoft parser module
+
+│  Build-Jdk-Spec: 1.8
+
+│  Implementation-Title: Apache Tika Microsoft parser module
+
+│  Bundle-Description: Apache Tika is a toolkit for detecting and extract
+
+│   ing metadata and    structured text content from various documents us
+
+│   ing existing parser    libraries.
+
+│  Automatic-Module-Name: org.apache.tika.parser.microsoft
+
+│ @@ -154,11 +154,11 @@
+│  Bundle-ManifestVersion: 2
+
+│  Bundle-Vendor: The Apache Software Foundation
+
+│  Tool: Bnd-5.1.1.202006162103
+
+│  Implementation-Vendor: The Apache Software Foundation
+
+│  Bundle-Version: 2.1.0
+
+│  Created-By: Apache Maven Bundle Plugin
+
+│  Specification-Version: 2.1.0
+
+│ -Build-Jdk: 1.8.0_292
+
+│ +Build-Jdk: 1.8.0_275
+
+│  Implementation-URL: https://tika.apache.org/tika-parser-microsoft-modu
+
+│   le/
+├── META-INF/NOTICE
+│ @@ -1,8 +1,8 @@
+│  
+│  Apache Tika Microsoft parser module
+│ -Copyright 2007-1969 The Apache Software Foundation
+│ +Copyright 2007-1970 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
