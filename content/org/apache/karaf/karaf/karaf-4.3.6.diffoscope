@@ -1,0 +1,357 @@
+target/reference/org.apache.karaf.jaas.boot-4.3.6.jar jaas/boot/target/org.apache.karaf.jaas.boot-4.3.6.jar
+--- target/reference/org.apache.karaf.jaas.boot-4.3.6.jar
++++ jaas/boot/target/org.apache.karaf.jaas.boot-4.3.6.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 19665 bytes, number of entries: 27
+│ +Zip file size: 19663 bytes, number of entries: 27
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat      919 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat      278 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat      185 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf.jaas/
+│ @@ -22,8 +22,8 @@
+│  -rw----     2.0 fat      374 bl defN 80-Feb-01 00:00 org/apache/karaf/jaas/boot/principal/Group.class
+│  -rw----     2.0 fat     2583 bl defN 80-Feb-01 00:00 org/apache/karaf/jaas/boot/principal/GroupPrincipal.class
+│  -rw----     2.0 fat     1921 bl defN 80-Feb-01 00:00 org/apache/karaf/jaas/boot/principal/RolePolicy$1.class
+│  -rw----     2.0 fat     1940 bl defN 80-Feb-01 00:00 org/apache/karaf/jaas/boot/principal/RolePolicy$2.class
+│  -rw----     2.0 fat     2735 bl defN 80-Feb-01 00:00 org/apache/karaf/jaas/boot/principal/RolePolicy.class
+│  -rw----     2.0 fat     1633 bl defN 80-Feb-01 00:00 org/apache/karaf/jaas/boot/principal/RolePrincipal.class
+│  -rw----     2.0 fat     1633 bl defN 80-Feb-01 00:00 org/apache/karaf/jaas/boot/principal/UserPrincipal.class
+│ -27 files, 35471 bytes uncompressed, 15191 bytes compressed:  57.2%
+│ +27 files, 35471 bytes uncompressed, 15189 bytes compressed:  57.2%
+├── META-INF/MANIFEST.MF
+│ @@ -4,16 +4,16 @@
+│  Bundle-DocURL: http://karaf.apache.org/
+
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+
+│  Bundle-ManifestVersion: 2
+
+│  Bundle-Name: Apache Karaf :: JAAS :: Boot
+
+│  Bundle-SymbolicName: org.apache.karaf.jaas.boot
+
+│  Bundle-Vendor: The Apache Software Foundation
+
+│  Bundle-Version: 4.3.6
+
+│ -Export-Package: org.apache.karaf.jaas.boot.principal;uses:="javax.secu
+
+│ - rity.auth";version="4.3.6",org.apache.karaf.jaas.boot;uses:="javax.se
+
+│ - curity.auth,javax.security.auth.callback,javax.security.auth.login,ja
+
+│ - vax.security.auth.spi,org.osgi.framework";version="4.3.6"
+
+│ +Export-Package: org.apache.karaf.jaas.boot;uses:="javax.security.auth,
+
+│ + javax.security.auth.callback,javax.security.auth.login,javax.security
+
+│ + .auth.spi,org.osgi.framework";version="4.3.6",org.apache.karaf.jaas.b
+
+│ + oot.principal;uses:="javax.security.auth";version="4.3.6"
+
+│  Import-Package: javax.security.auth,javax.security.auth.callback,javax
+
+│   .security.auth.login,javax.security.auth.spi,org.osgi.framework;versi
+
+│   on="[1.9,2)"
+
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+target/reference/features-4.3.6.pom features/pom.xml
+--- target/reference/features-4.3.6.pom
++++ features/pom.xml
+@@ -69,49 +69,35 @@
+ 00000440: 6e64 6572 2074 6865 204c 6963 656e 7365  nder the License
+ 00000450: 2e0a 2020 2020 2d2d 3e0a 0a20 2020 203c  ..    -->..    <
+ 00000460: 6d6f 6465 6c56 6572 7369 6f6e 3e34 2e30  modelVersion>4.0
+ 00000470: 2e30 3c2f 6d6f 6465 6c56 6572 7369 6f6e  .0</modelVersion
+ 00000480: 3e0a 0a20 2020 203c 7061 7265 6e74 3e0a  >..    <parent>.
+ 00000490: 2020 2020 2020 2020 3c67 726f 7570 4964          <groupId
+ 000004a0: 3e6f 7267 2e61 7061 6368 652e 6b61 7261  >org.apache.kara
+-000004b0: 662e 6173 7365 6d62 6c69 6573 3c2f 6772  f.assemblies</gr
+-000004c0: 6f75 7049 643e 0a20 2020 2020 2020 203c  oupId>.        <
+-000004d0: 6172 7469 6661 6374 4964 3e61 7373 656d  artifactId>assem
+-000004e0: 626c 6965 733c 2f61 7274 6966 6163 7449  blies</artifactI
+-000004f0: 643e 0a20 2020 2020 2020 203c 7665 7273  d>.        <vers
+-00000500: 696f 6e3e 342e 332e 363c 2f76 6572 7369  ion>4.3.6</versi
+-00000510: 6f6e 3e0a 2020 2020 2020 2020 3c72 656c  on>.        <rel
+-00000520: 6174 6976 6550 6174 683e 2e2e 2f70 6f6d  ativePath>../pom
+-00000530: 2e78 6d6c 3c2f 7265 6c61 7469 7665 5061  .xml</relativePa
+-00000540: 7468 3e0a 2020 2020 3c2f 7061 7265 6e74  th>.    </parent
+-00000550: 3e0a 0a20 2020 203c 6772 6f75 7049 643e  >..    <groupId>
+-00000560: 6f72 672e 6170 6163 6865 2e6b 6172 6166  org.apache.karaf
+-00000570: 2e61 7373 656d 626c 6965 732e 6665 6174  .assemblies.feat
+-00000580: 7572 6573 3c2f 6772 6f75 7049 643e 0a20  ures</groupId>. 
+-00000590: 2020 203c 6172 7469 6661 6374 4964 3e66     <artifactId>f
+-000005a0: 6561 7475 7265 733c 2f61 7274 6966 6163  eatures</artifac
+-000005b0: 7449 643e 0a20 2020 203c 7061 636b 6167  tId>.    <packag
+-000005c0: 696e 673e 706f 6d3c 2f70 6163 6b61 6769  ing>pom</packagi
+-000005d0: 6e67 3e0a 2020 2020 3c6e 616d 653e 4170  ng>.    <name>Ap
+-000005e0: 6163 6865 204b 6172 6166 203a 3a20 4173  ache Karaf :: As
+-000005f0: 7365 6d62 6c69 6573 203a 3a20 4665 6174  semblies :: Feat
+-00000600: 7572 6573 3c2f 6e61 6d65 3e0a 0a20 2020  ures</name>..   
+-00000610: 203c 6d6f 6475 6c65 733e 0a20 2020 2020   <modules>.     
+-00000620: 2020 203c 6d6f 6475 6c65 3e62 6173 653c     <module>base<
+-00000630: 2f6d 6f64 756c 653e 0a20 2020 2020 2020  /module>.       
+-00000640: 203c 6d6f 6475 6c65 3e66 7261 6d65 776f   <module>framewo
+-00000650: 726b 3c2f 6d6f 6475 6c65 3e0a 2020 2020  rk</module>.    
+-00000660: 2020 2020 3c6d 6f64 756c 653e 7374 6174      <module>stat
+-00000670: 6963 3c2f 6d6f 6475 6c65 3e0a 2020 2020  ic</module>.    
+-00000680: 2020 2020 3c6d 6f64 756c 653e 7370 6563      <module>spec
+-00000690: 733c 2f6d 6f64 756c 653e 0a20 2020 2020  s</module>.     
+-000006a0: 2020 203c 6d6f 6475 6c65 3e73 7461 6e64     <module>stand
+-000006b0: 6172 643c 2f6d 6f64 756c 653e 0a20 2020  ard</module>.   
+-000006c0: 2020 2020 203c 6d6f 6475 6c65 3e73 7072       <module>spr
+-000006d0: 696e 673c 2f6d 6f64 756c 653e 0a20 2020  ing</module>.   
+-000006e0: 2020 2020 203c 6d6f 6475 6c65 3e73 7072       <module>spr
+-000006f0: 696e 672d 6c65 6761 6379 3c2f 6d6f 6475  ing-legacy</modu
+-00000700: 6c65 3e0a 2020 2020 2020 2020 3c6d 6f64  le>.        <mod
+-00000710: 756c 653e 656e 7465 7270 7269 7365 3c2f  ule>enterprise</
+-00000720: 6d6f 6475 6c65 3e0a 2020 2020 3c2f 6d6f  module>.    </mo
+-00000730: 6475 6c65 733e 0a0a 3c2f 7072 6f6a 6563  dules>..</projec
+-00000740: 743e 0a                                  t>.
++000004b0: 663c 2f67 726f 7570 4964 3e0a 2020 2020  f</groupId>.    
++000004c0: 2020 2020 3c61 7274 6966 6163 7449 643e      <artifactId>
++000004d0: 6b61 7261 663c 2f61 7274 6966 6163 7449  karaf</artifactI
++000004e0: 643e 0a20 2020 2020 2020 203c 7665 7273  d>.        <vers
++000004f0: 696f 6e3e 342e 332e 363c 2f76 6572 7369  ion>4.3.6</versi
++00000500: 6f6e 3e0a 2020 2020 2020 2020 3c72 656c  on>.        <rel
++00000510: 6174 6976 6550 6174 683e 2e2e 2f70 6f6d  ativePath>../pom
++00000520: 2e78 6d6c 3c2f 7265 6c61 7469 7665 5061  .xml</relativePa
++00000530: 7468 3e0a 2020 2020 3c2f 7061 7265 6e74  th>.    </parent
++00000540: 3e0a 0a20 2020 203c 6772 6f75 7049 643e  >..    <groupId>
++00000550: 6f72 672e 6170 6163 6865 2e6b 6172 6166  org.apache.karaf
++00000560: 2e66 6561 7475 7265 733c 2f67 726f 7570  .features</group
++00000570: 4964 3e0a 2020 2020 3c61 7274 6966 6163  Id>.    <artifac
++00000580: 7449 643e 6665 6174 7572 6573 3c2f 6172  tId>features</ar
++00000590: 7469 6661 6374 4964 3e0a 2020 2020 3c70  tifactId>.    <p
++000005a0: 6163 6b61 6769 6e67 3e70 6f6d 3c2f 7061  ackaging>pom</pa
++000005b0: 636b 6167 696e 673e 0a20 2020 203c 6e61  ckaging>.    <na
++000005c0: 6d65 3e41 7061 6368 6520 4b61 7261 6620  me>Apache Karaf 
++000005d0: 3a3a 2046 6561 7475 7265 733c 2f6e 616d  :: Features</nam
++000005e0: 653e 0a0a 2020 2020 3c6d 6f64 756c 6573  e>..    <modules
++000005f0: 3e0a 2020 2020 2020 2020 3c6d 6f64 756c  >.        <modul
++00000600: 653e 6578 7465 6e73 696f 6e3c 2f6d 6f64  e>extension</mod
++00000610: 756c 653e 0a20 2020 2020 2020 203c 6d6f  ule>.        <mo
++00000620: 6475 6c65 3e63 6f72 653c 2f6d 6f64 756c  dule>core</modul
++00000630: 653e 0a20 2020 2020 2020 203c 6d6f 6475  e>.        <modu
++00000640: 6c65 3e63 6f6d 6d61 6e64 3c2f 6d6f 6475  le>command</modu
++00000650: 6c65 3e0a 2020 2020 3c2f 6d6f 6475 6c65  le>.    </module
++00000660: 733e 0a0a 3c2f 7072 6f6a 6563 743e 0a    s>..</project>.
+
+target/reference/org.apache.karaf.features.core-4.3.6-sources.jar features/core/target/org.apache.karaf.features.core-4.3.6-sources.jar
+--- target/reference/org.apache.karaf.features.core-4.3.6-sources.jar
++++ features/core/target/org.apache.karaf.features.core-4.3.6-sources.jar
+├── zipinfo -v {}
+│ @@ -4581,15 +4581,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          1980 000 0 04:08:00
+│ -  32-bit CRC value (hex):                         c0abbbd2
+│ +  32-bit CRC value (hex):                         5599e3e0
+│    compressed size:                                119 bytes
+│    uncompressed size:                              143 bytes
+│    length of filename:                             72 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── OSGI-INF/karaf-tracker/org.apache.karaf.features.internal.osgi.Activator
+│ @@ -1,3 +1,3 @@
+│ -#Mon Jan 10 16:48:18 CET 2022
+│ +#Sun Feb 27 16:45:40 UTC 2022
+│  org.osgi.service.url.URLStreamHandlerService=(url.handler.protocol\=mvn)
+│  org.osgi.service.cm.ConfigurationAdmin=
+
+
+target/reference/org.apache.karaf.http.core-4.3.6-sources.jar http/target/org.apache.karaf.http.core-4.3.6-sources.jar
+--- target/reference/org.apache.karaf.http.core-4.3.6-sources.jar
++++ http/target/org.apache.karaf.http.core-4.3.6-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 37484 bytes, number of entries: 44
+│ +Zip file size: 37509 bytes, number of entries: 44
+│  -rw-r--r--  2.0 unx       64 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/karaf/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/karaf/http/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/karaf/http/command/
+│ @@ -12,15 +12,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/karaf/http/core/internal/osgi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/karaf/http/core/internal/proxy/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 OSGI-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 OSGI-INF/karaf-tracker/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.karaf.http/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.karaf.http/org.apache.karaf.http.core/
+│ --rw-r--r--  2.0 unx     2536 b- defN 80-000-00 04:08 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx     2542 b- defN 80-000-00 04:08 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 80-000-00 04:08 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      185 b- defN 80-000-00 04:08 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     2027 b- defN 80-000-00 04:08 org/apache/karaf/http/command/ProxyAddCommand.java
+│  -rw-r--r--  2.0 unx     1575 b- defN 80-000-00 04:08 org/apache/karaf/http/command/ProxyBalancingListCommand.java
+│  -rw-r--r--  2.0 unx     1867 b- defN 80-000-00 04:08 org/apache/karaf/http/command/ProxyListCommand.java
+│  -rw-r--r--  2.0 unx     1798 b- defN 80-000-00 04:08 org/apache/karaf/http/command/ProxyRemoveCommand.java
+│  -rw-r--r--  2.0 unx     2583 b- defN 80-000-00 04:08 org/apache/karaf/http/command/ServletListCommand.java
+│ @@ -39,8 +39,8 @@
+│  -rw-r--r--  2.0 unx    21201 b- defN 80-000-00 04:08 org/apache/karaf/http/core/internal/proxy/ProxyServlet.java
+│  -rw-r--r--  2.0 unx     1361 b- defN 80-000-00 04:08 org/apache/karaf/http/core/internal/proxy/RandomBalancingPolicy.java
+│  -rw-r--r--  2.0 unx     1605 b- defN 80-000-00 04:08 org/apache/karaf/http/core/internal/proxy/RoundRobinBalancingPolicy.java
+│  -rw-r--r--  2.0 unx     1388 b- defN 80-000-00 04:08 OSGI-INF/bundle.info
+│  -rw-r--r--  2.0 unx      131 b- defN 80-000-00 04:08 OSGI-INF/karaf-tracker/org.apache.karaf.http.core.internal.osgi.Activator
+│  -rw-r--r--  2.0 unx     5676 b- defN 80-000-00 04:08 META-INF/maven/org.apache.karaf.http/org.apache.karaf.http.core/pom.xml
+│  -rw-r--r--  2.0 unx       82 b- defN 80-000-00 04:08 META-INF/maven/org.apache.karaf.http/org.apache.karaf.http.core/pom.properties
+│ -44 files, 88437 bytes uncompressed, 30490 bytes compressed:  65.5%
+│ +44 files, 88443 bytes uncompressed, 30515 bytes compressed:  65.5%
+├── META-INF/DEPENDENCIES
+│ @@ -2,35 +2,35 @@
+│  // Transitive dependencies of this project determined from the
+│  // maven pom organized by organization.
+│  // ------------------------------------------------------------------
+│  
+│  Apache Karaf :: HTTP :: Core
+│  
+│  
+│ -From: 'JLine' (https://github.com/jline/)
+│ -  - JLine (https://github.com/jline/) org.jline:jline:jar:3.21.0:compile
+│ -    License: The BSD License  (http://www.opensource.org/licenses/bsd-license.php)
+│ +From: 'an unknown organization'
+│ +  - JLine Bundle (http://nexus.sonatype.org/oss-repository-hosting.html/jline-parent/jline) org.jline:jline:jar:3.21.0
+│ +    License: The BSD License  (https://opensource.org/licenses/BSD-3-Clause)
+│  
+│  From: 'QOS.ch' (http://www.qos.ch)
+│    - JCL 1.2 implemented over SLF4J (http://www.slf4j.org) org.slf4j:jcl-over-slf4j:jar:1.7.32
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - SLF4J API Module (http://www.slf4j.org/slf4j-api) org.slf4j:slf4j-api:jar:1.7.32:compile
+│ -    License: MIT style  (http://www.slf4j.org/license.html)
+│ +  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.32
+│ +    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+│  
+│  From: 'The Apache Software Foundation' (http://www.apache.org/)
+│ -  - Apache Commons Codec (http://commons.apache.org/proper/commons-codec/commons-codec) commons-codec:commons-codec:jar:1.11:compile
+│ -    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Apache Commons Logging (http://commons.apache.org/logging) commons-logging:commons-logging:jar:1.2:compile
+│ +  - Apache Commons Logging (http://commons.apache.org/proper/commons-logging/) commons-logging:commons-logging:jar:1.2
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache HttpClient (http://hc.apache.org/httpcomponents-client) org.apache.httpcomponents:httpclient:jar:4.5.13
+│      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache HttpCore (http://hc.apache.org/httpcomponents-core-ga) org.apache.httpcomponents:httpcore:jar:4.4.13
+│      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│  From: 'The Apache Software Foundation' (https://www.apache.org/)
+│ +  - Apache Commons Codec (http://commons.apache.org/proper/commons-codec/) commons-codec:commons-codec:jar:1.11
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache Karaf :: JAAS :: Boot (https://www.apache.org/karaf/jaas/org.apache.karaf.jaas.boot/) org.apache.karaf.jaas:org.apache.karaf.jaas.boot:bundle:4.3.6
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache Karaf :: Shell :: Core (https://www.apache.org/karaf/shell/org.apache.karaf.shell.core/) org.apache.karaf.shell:org.apache.karaf.shell.core:bundle:4.3.6
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache Mina SSHD :: OSGi (https://www.apache.org/sshd/sshd-osgi/) org.apache.sshd:sshd-osgi:jar:2.8.0
+│      License: Apache 2.0 License  (https://www.apache.org/licenses/LICENSE-2.0)
+├── OSGI-INF/karaf-tracker/org.apache.karaf.http.core.internal.osgi.Activator
+│ @@ -1,4 +1,4 @@
+│ -#Mon Jan 10 16:53:47 CET 2022
+│ +#Sun Feb 27 16:46:02 UTC 2022
+│  org.osgi.service.cm.ConfigurationAdmin=
+│  pid=org.apache.karaf.http
+│  org.osgi.service.http.HttpService=
+
+
+target/reference/manual-4.3.6.jar manual/target/manual-4.3.6.jar
+--- target/reference/manual-4.3.6.jar
++++ manual/target/manual-4.3.6.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1253569 bytes, number of entries: 284
+│ +Zip file size: 1253622 bytes, number of entries: 284
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat      854 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf/manual/
+│  -rw----     2.0 fat       57 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf/manual/pom.properties
+│  -rw----     2.0 fat    10840 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf/manual/pom.xml
+│ @@ -279,8 +279,8 @@
+│  -rw----     2.0 fat    53940 bl defN 80-Feb-01 00:00 start-stop.html
+│  -rw----     2.0 fat    43027 bl defN 80-Feb-01 00:00 tuning.html
+│  -rw----     2.0 fat    44732 bl defN 80-Feb-01 00:00 update-notes.html
+│  -rw----     2.0 fat    60487 bl defN 80-Feb-01 00:00 urls.html
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 user-guide/
+│  -rw----     2.0 fat    38336 bl defN 80-Feb-01 00:00 webconsole.html
+│  -rw----     2.0 fat    56679 bl defN 80-Feb-01 00:00 webcontainer.html
+│ -284 files, 3944393 bytes uncompressed, 1212963 bytes compressed:  69.3%
+│ +284 files, 3944393 bytes uncompressed, 1213016 bytes compressed:  69.3%
+├── archetypes.html
+│ @@ -939,12 +939,12 @@
+│  </div>
+│  </div>
+│  </div>
+│  </div>
+│  </div>
+│  <div id="footer">
+│  <div id="footer-text">
+│ -Last updated 2022-01-10 16:44:05 CET
+│ +Last updated 2021-09-10 05:23:17 UTC
+│  </div>
+│  </div>
+│  </body>
+│  </html>
+...
+├── commands/bundle-capabilities.adoc
+│┄ Ordering differences only
+│ @@ -21,15 +21,15 @@
+│  
+│  |===
+│  |Name |Description
+│  
+│  |--namespace
+│  |
+│  
+│ -|--context, -c
+│ -|Use the given bundle context
+│ -
+│  |--help
+│  |Display this help message
+│ +
+│ +|--context, -c
+│ +|Use the given bundle context
+│  |===
+...
+
+target/reference/static-4.3.6.kar assemblies/features/static/target/static-4.3.6.kar
+--- target/reference/static-4.3.6.kar
++++ assemblies/features/static/target/static-4.3.6.kar
+├── zipinfo {}
+│ @@ -1,118 +1,118 @@
+│ -Zip file size: 7379347 bytes, number of entries: 116
+│ --rw-r--r--  2.0 unx       91 b- defN 22-Jan-10 17:30 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-10 17:30 META-INF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-10 17:30 repository/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-10 17:30 repository/org/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-10 17:30 repository/org/apache/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jan-10 17:30 repository/org/apache/karaf/
+...
+│ --rw-r--r--  2.0 unx    11358 b- defN 80-000-00 04:08 META-INF/LICENSE
+│ --rw-r--r--  2.0 unx      203 b- defN 80-000-00 04:08 META-INF/NOTICE
+│ +Zip file size: 7379342 bytes, number of entries: 116
+│ +-rw-r--r--  2.0 unx       85 b- defN 22-Feb-27 16:48 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-27 16:48 META-INF/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-27 16:48 repository/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-27 16:48 repository/org/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-27 16:48 repository/org/apache/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-27 16:48 repository/org/apache/karaf/
+...
+│ +-rw-rw-r--  2.0 unx     9572 b- defN 22-Feb-27 16:45 META-INF/maven/org.apache.karaf.features/static/pom.xml
+│ +-rw-r--r--  2.0 unx      123 b- defN 22-Feb-27 16:48 META-INF/maven/org.apache.karaf.features/static/pom.properties
+│ +116 files, 8371407 bytes uncompressed, 7361274 bytes compressed:  12.1%
+...
