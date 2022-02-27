@@ -137,6 +137,21 @@
         <url>https://jcenter.bintray.com/</url>
     </mirror>
     <mirror>
+      <id>mapr-releases</id>
+      <mirrorOf>mapr-releases</mirrorOf>
+      <url>https://repository.mapr.com/maven/</url>
+    </mirror>
+    <mirror>
+      <id>confluent</id>
+      <mirrorOf>confluent</mirrorOf>
+      <url>https://packages.confluent.io/maven/</url>
+    </mirror>
+    <mirror>
+      <id>splunk-artifactory</id>
+      <mirrorOf>splunk-artifactory</mirrorOf>
+      <url>https://splunk.jfrog.io/artifactory/ext-releases-local</url>
+    </mirror>
+    <mirror>
       <id>default</id>
       <mirrorOf>*</mirrorOf>
       <url>https://repo.maven.apache.org/maven2</url>

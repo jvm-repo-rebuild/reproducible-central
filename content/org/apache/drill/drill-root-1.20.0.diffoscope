@@ -1,0 +1,968 @@
+target/reference/drill-root-1.20.0.zip target/apache-drill-1.20.0-src.zip
+--- target/reference/drill-root-1.20.0.zip
++++ target/apache-drill-1.20.0-src.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 21751641 bytes, number of entries: 8074
+│ +Zip file size: 21751651 bytes, number of entries: 8074
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 apache-drill-1.20.0-src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 apache-drill-1.20.0-src/.github/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 apache-drill-1.20.0-src/.github/ISSUE_TEMPLATE/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 apache-drill-1.20.0-src/.github/workflows/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 apache-drill-1.20.0-src/.mvn/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 apache-drill-1.20.0-src/common/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 apache-drill-1.20.0-src/common/src/
+│ @@ -7382,15 +7382,15 @@
+│  -rw-r--r--  2.0 unx        0 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/exec/jdbc/src/test/resources/empty.json
+│  -rw-r--r--  2.0 unx      313 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/exec/jdbc/src/test/resources/full-model.json
+│  -rw-r--r--  2.0 unx      952 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/exec/jdbc/src/test/resources/null_ordering_and_grouping_data.json
+│  -rw-r--r--  2.0 unx     1881 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/exec/jdbc/src/test/resources/test-models.json
+│  -rw-r--r--  2.0 unx      379 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/exec/jdbc/src/test/resources/testGetObjectNull.parquet
+│  -rw-r--r--  2.0 unx       99 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/exec/jdbc/src/test/resources/test_null_op.json
+│  -rw-r--r--  2.0 unx      141 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/exec/jdbc/src/test/resources/test_true_false_op.json
+│ --rw-r--r--  2.0 unx    61951 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/exec/jdbc-all/dependency-reduced-pom.xml
+│ +-rw-r--r--  2.0 unx    61986 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/exec/jdbc-all/dependency-reduced-pom.xml
+│  -rw-r--r--  2.0 unx     1068 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/exec/jdbc-all/example-conf/drill-module.conf
+│  -rw-r--r--  2.0 unx    49830 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/exec/jdbc-all/pom.xml
+│  -rw-r--r--  2.0 unx      838 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/exec/jdbc-all/src/main/resources/profile.props
+│  -rw-r--r--  2.0 unx     2066 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/exec/jdbc-all/src/test/java/org/apache/drill/jdbc/DrillbitClassLoader.java
+│  -rw-r--r--  2.0 unx    10156 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/exec/jdbc-all/src/test/java/org/apache/drill/jdbc/ITTestShadedJar.java
+│  -rw-r--r--  2.0 unx      425 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/exec/jdbc-all/src/test/resources/types.json
+│  -rw-r--r--  2.0 unx     1694 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/exec/memory/base/pom.xml
+│ @@ -7718,15 +7718,15 @@
+│  -rw-r--r--  2.0 unx     3498 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/exec/vector/src/test/java/org/apache/drill/exec/record/TestMaterializedField.java
+│  -rw-r--r--  2.0 unx     6925 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/exec/vector/src/test/java/org/apache/drill/exec/record/metadata/TestMetadataProperties.java
+│  -rw-r--r--  2.0 unx    30729 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/exec/vector/src/test/java/org/apache/drill/exec/record/metadata/TestTupleSchema.java
+│  -rw-r--r--  2.0 unx     5739 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/exec/vector/src/test/java/org/apache/drill/exec/record/metadata/schema/parser/TestParserErrorHandling.java
+│  -rw-r--r--  2.0 unx    19993 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/exec/vector/src/test/java/org/apache/drill/exec/record/metadata/schema/parser/TestSchemaParser.java
+│  -rw-r--r--  2.0 unx     5909 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/exec/vector/src/test/java/org/apache/drill/exec/vector/VariableLengthVectorTest.java
+│  -rw-r--r--  2.0 unx    19928 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/exec/vector/src/test/java/org/apache/drill/exec/vector/VectorTest.java
+│ --rw-r--r--  2.0 unx      962 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/git.properties
+│ +-rw-r--r--  2.0 unx      985 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/git.properties
+│  -rw-r--r--  2.0 unx      751 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/header
+│  -rw-r--r--  2.0 unx      418 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/hooks/README.md
+│  -rw-r--r--  2.0 unx     1271 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/hooks/build
+│  -rw-r--r--  2.0 unx      978 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/hooks/push
+│  -rw-r--r--  2.0 unx     3397 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/logical/pom.xml
+│  -rw-r--r--  2.0 unx     3222 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/logical/src/main/antlr4/org/apache/drill/common/expression/parser/ExprLexer.g4
+│  -rw-r--r--  2.0 unx    13080 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/logical/src/main/antlr4/org/apache/drill/common/expression/parser/ExprParser.g4
+│ @@ -8069,8 +8069,8 @@
+│  -rw-r--r--  2.0 unx     1014 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/tools/fmpp/src/main/java/bsh/package-info.java
+│  -rw-r--r--  2.0 unx     8473 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/tools/fmpp/src/main/java/org/apache/drill/fmpp/mojo/FMPPMojo.java
+│  -rw-r--r--  2.0 unx     1639 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/tools/fmpp/src/main/java/org/apache/drill/fmpp/mojo/MavenDataLoader.java
+│  -rw-r--r--  2.0 unx     1438 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/tools/pom.xml
+│  -rw-r--r--  2.0 unx     1569 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/tools/release-scripts/checksum.sh
+│  -rw-r--r--  2.0 unx     6588 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/tools/release-scripts/release.sh
+│  -rw-r--r--  2.0 unx     4522 b- defN 80-000-00 04:08 apache-drill-1.20.0-src/DEPENDENCIES
+│ -8074 files, 61267381 bytes uncompressed, 19539465 bytes compressed:  68.1%
+│ +8074 files, 61267439 bytes uncompressed, 19539475 bytes compressed:  68.1%
+├── apache-drill-1.20.0-src/exec/jdbc-all/dependency-reduced-pom.xml
+│ ├── apache-drill-1.20.0-src/exec/jdbc-all/dependency-reduced-pom.xml
+│ │ @@ -908,15 +908,15 @@
+│ │                        <packages>org.apache.drill.jdbc</packages>
+│ │                      </group>
+│ │                      <group>
+│ │                        <title>Tracing Proxy JDBC Driver</title>
+│ │                        <packages>org.apache.drill.jdbc.proxy</packages>
+│ │                      </group>
+│ │                    </groups>
+│ │ -                  <sourcepath>/home/james/Public/drill-release/exec/jdbc-all</sourcepath>
+│ │ +                  <sourcepath>/var/maven/app/exec/jdbc-all</sourcepath>
+│ │                    <sourceFileExcludes>
+│ │                      <exclude>**/src/main/codegen/**/*.java</exclude>
+│ │                      <exclude>**/target/**/*.java</exclude>
+│ │                    </sourceFileExcludes>
+│ │                    <additionalDependencies>
+│ │                      <dependency>
+│ │                        <groupId>org.apache.hbase</groupId>
+│ │ @@ -1004,15 +1004,15 @@
+│ │                    </additionalDependencies>
+│ │                    <doclint>none</doclint>
+│ │                    <notimestamp>true</notimestamp>
+│ │                  </configuration>
+│ │                </execution>
+│ │              </executions>
+│ │              <configuration>
+│ │ -              <sourcepath>/home/james/Public/drill-release/exec/jdbc-all</sourcepath>
+│ │ +              <sourcepath>/var/maven/app/exec/jdbc-all</sourcepath>
+│ │                <sourceFileExcludes>
+│ │                  <exclude>**/src/main/codegen/**/*.java</exclude>
+│ │                  <exclude>**/target/**/*.java</exclude>
+│ │                </sourceFileExcludes>
+│ │                <additionalDependencies>
+│ │                  <dependency>
+│ │                    <groupId>org.apache.hbase</groupId>
+│ │ @@ -1101,14 +1101,15 @@
+│ │                <doclint>none</doclint>
+│ │                <notimestamp>true</notimestamp>
+│ │              </configuration>
+│ │            </plugin>
+│ │          </plugins>
+│ │        </build>
+│ │        <properties>
+│ │ +        <os.detected.release.version>10</os.detected.release.version>
+│ │          <os.detected.release>debian</os.detected.release>
+│ │          <os.detected.name>linux</os.detected.name>
+│ │          <os.detected.release.like.debian>true</os.detected.release.like.debian>
+│ │          <os.detected.classifier>linux-x86_64</os.detected.classifier>
+│ │          <os.detected.arch>x86_64</os.detected.arch>
+│ │        </properties>
+│ │      </profile>
+├── apache-drill-1.20.0-src/git.properties
+│ @@ -1,25 +1,25 @@
+│  #Generated by Git-Commit-Id-Plugin
+│ -#Tue Feb 22 20:20:27 SAST 2022
+│ +#Sat Feb 26 17:58:09 UTC 2022
+│  git.branch=d19878973ef6723250d231258f470340863ddc23
+│ -git.build.host=jtpc
+│ -git.build.time=22.02.2022 @ 20\:20\:27 SAST
+│ +git.build.host=c23e344f8445
+│ +git.build.time=26.02.2022 @ 17\:58\:09 UTC
+│  git.build.user.email=
+│  git.build.user.name=
+│  git.build.version=1.20.0
+│  git.closest.tag.commit.count=0
+│  git.closest.tag.name=drill-1.20.0
+│  git.commit.id=d19878973ef6723250d231258f470340863ddc23
+│  git.commit.id.abbrev=d198789
+│  git.commit.id.describe=drill-1.20.0-0-gd198789
+│  git.commit.id.describe-short=drill-1.20.0-0
+│  git.commit.message.full=[maven-release-plugin] prepare release drill-1.20.0
+│  git.commit.message.short=[maven-release-plugin] prepare release drill-1.20.0
+│ -git.commit.time=22.02.2022 @ 19\:56\:14 SAST
+│ +git.commit.time=22.02.2022 @ 17\:56\:14 UTC
+│  git.commit.user.email=james@somecomputer.xyz
+│  git.commit.user.name=James Turton
+│  git.dirty=false
+│  git.local.branch.ahead=NO_REMOTE
+│  git.local.branch.behind=NO_REMOTE
+│ -git.remote.origin.url=/home/james/Public/../Development/drill
+│ -git.tags=drill-1.20.0
+│ +git.remote.origin.url=https\://github.com/apache/drill.git
+│ +git.tags=drill-1.20.0,drill-1.20.0-hadoop2
+│  git.total.commit.count=4158
+
+target/reference/drill-fmpp-maven-plugin-1.20.0.jar tools/fmpp/target/drill-fmpp-maven-plugin-1.20.0.jar
+--- target/reference/drill-fmpp-maven-plugin-1.20.0.jar
++++ tools/fmpp/target/drill-fmpp-maven-plugin-1.20.0.jar
+├── zipinfo {}
+│ @@ -1,29 +1,28 @@
+│ -Zip file size: 27958 bytes, number of entries: 27
+│ --rw-r--r--  2.0 unx      450 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│ +Zip file size: 21663 bytes, number of entries: 26
+│ +-rw-r--r--  2.0 unx      446 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.drill.tools/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.drill.tools/drill-fmpp-maven-plugin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 bsh/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/drill/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/drill/fmpp/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/drill/fmpp/mojo/
+│  -rw-r--r--  2.0 unx    14670 b- defN 80-000-00 04:08 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 80-000-00 04:08 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      186 b- defN 80-000-00 04:08 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx     5462 b- defN 80-000-00 04:08 META-INF/maven/org.apache.drill.tools/drill-fmpp-maven-plugin/plugin-help.xml
+│ --rw-r--r--  2.0 unx    17917 b- defN 80-000-00 04:08 META-INF/maven/plugin.xml
+│ +-rw-r--r--  2.0 unx     3148 b- defN 80-000-00 04:08 META-INF/maven/org.apache.drill.tools/drill-fmpp-maven-plugin/plugin-help.xml
+│ +-rw-r--r--  2.0 unx    15535 b- defN 80-000-00 04:08 META-INF/maven/plugin.xml
+│  -rw-r--r--  2.0 unx      267 b- defN 80-000-00 04:08 bsh/EvalError.class
+│ --rw-r--r--  2.0 unx      962 b- defN 80-000-00 04:08 git.properties
+│ +-rw-r--r--  2.0 unx      985 b- defN 80-000-00 04:08 git.properties
+│  -rw-r--r--  2.0 unx     2871 b- defN 80-000-00 04:08 org/apache/drill/fmpp/mojo/FMPPMojo$1.class
+│  -rw-r--r--  2.0 unx     1079 b- defN 80-000-00 04:08 org/apache/drill/fmpp/mojo/FMPPMojo$Report.class
+│  -rw-r--r--  2.0 unx     6483 b- defN 80-000-00 04:08 org/apache/drill/fmpp/mojo/FMPPMojo.class
+│ --rw-r--r--  2.0 unx    10845 b- defN 80-000-00 04:08 org/apache/drill/fmpp/mojo/HelpMojo.class
+│  -rw-r--r--  2.0 unx      691 b- defN 80-000-00 04:08 org/apache/drill/fmpp/mojo/MavenDataLoader$MavenData.class
+│  -rw-r--r--  2.0 unx     1165 b- defN 80-000-00 04:08 org/apache/drill/fmpp/mojo/MavenDataLoader.class
+│  -rw-r--r--  2.0 unx     3827 b- defN 80-000-00 04:08 META-INF/maven/org.apache.drill.tools/drill-fmpp-maven-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       81 b- defN 80-000-00 04:08 META-INF/maven/org.apache.drill.tools/drill-fmpp-maven-plugin/pom.properties
+│  -rw-r--r--  2.0 unx      283 b- defN 80-000-00 04:08 META-INF/INDEX.LIST
+│ -27 files, 78597 bytes uncompressed, 24166 bytes compressed:  69.3%
+│ +26 files, 63075 bytes uncompressed, 18029 bytes compressed:  71.4%
+├── zipnote «TEMP»/diffoscope__89iw9h0_target/tmpu69x4_2c.zip
+│ @@ -57,17 +57,14 @@
+│  
+│  Filename: org/apache/drill/fmpp/mojo/FMPPMojo$Report.class
+│  Comment: 
+│  
+│  Filename: org/apache/drill/fmpp/mojo/FMPPMojo.class
+│  Comment: 
+│  
+│ -Filename: org/apache/drill/fmpp/mojo/HelpMojo.class
+│ -Comment: 
+│ -
+│  Filename: org/apache/drill/fmpp/mojo/MavenDataLoader$MavenData.class
+│  Comment: 
+│  
+│  Filename: org/apache/drill/fmpp/mojo/MavenDataLoader.class
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.drill.tools/drill-fmpp-maven-plugin/pom.xml
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+
+│  Implementation-Title: Drill : Tools : Freemarker codegen
+
+│  Implementation-Version: 1.20.0
+
+│ -Built-By: james
+
+│ +Built-By: ?
+
+│  Specification-Vendor: The Apache Software Foundation
+
+│  Specification-Title: Drill : Tools : Freemarker codegen
+
+│  Extension-Name: org.apache.drill
+
+│  Build-Jdk-Spec: 1.8
+
+│  Created-By: Maven Jar Plugin 3.2.0
+
+│  Specification-Version: 1.20
+
+│  url: https://drill.apache.org/
+├── META-INF/maven/org.apache.drill.tools/drill-fmpp-maven-plugin/plugin-help.xml
+│ ├── META-INF/maven/org.apache.drill.tools/drill-fmpp-maven-plugin/plugin-help.xml
+│ │ @@ -64,61 +64,9 @@
+│ │          <addMavenDataLoader implementation="boolean" default-value="true"/>
+│ │          <config implementation="java.io.File" default-value="src/main/resources/fmpp/config.fmpp"/>
+│ │          <output implementation="java.io.File" default-value="${project.build.directory}/generated-sources/fmpp/"/>
+│ │          <scope implementation="java.lang.String" default-value="compile"/>
+│ │          <templates implementation="java.io.File" default-value="src/main/resources/fmpp/templates/"/>
+│ │        </configuration>
+│ │      </mojo>
+│ │ -    <mojo>
+│ │ -      <goal>help</goal>
+│ │ -      <description>Display help information on drill-fmpp-maven-plugin.
+│ │ -Call mvn drill-fmpp:help -Ddetail=true -Dgoal=&lt;goal-name&gt; to display parameter details.</description>
+│ │ -      <requiresDirectInvocation>false</requiresDirectInvocation>
+│ │ -      <requiresProject>false</requiresProject>
+│ │ -      <requiresReports>false</requiresReports>
+│ │ -      <aggregator>false</aggregator>
+│ │ -      <requiresOnline>false</requiresOnline>
+│ │ -      <inheritedByDefault>true</inheritedByDefault>
+│ │ -      <implementation>org.apache.drill.fmpp.mojo.HelpMojo</implementation>
+│ │ -      <language>java</language>
+│ │ -      <instantiationStrategy>per-lookup</instantiationStrategy>
+│ │ -      <executionStrategy>once-per-session</executionStrategy>
+│ │ -      <threadSafe>true</threadSafe>
+│ │ -      <parameters>
+│ │ -        <parameter>
+│ │ -          <name>detail</name>
+│ │ -          <type>boolean</type>
+│ │ -          <required>false</required>
+│ │ -          <editable>true</editable>
+│ │ -          <description>If true, display all settable properties for each goal.</description>
+│ │ -        </parameter>
+│ │ -        <parameter>
+│ │ -          <name>goal</name>
+│ │ -          <type>java.lang.String</type>
+│ │ -          <required>false</required>
+│ │ -          <editable>true</editable>
+│ │ -          <description>The name of the goal for which to show help. If unspecified, all goals will be displayed.</description>
+│ │ -        </parameter>
+│ │ -        <parameter>
+│ │ -          <name>indentSize</name>
+│ │ -          <type>int</type>
+│ │ -          <required>false</required>
+│ │ -          <editable>true</editable>
+│ │ -          <description>The number of spaces per indentation level, should be positive.</description>
+│ │ -        </parameter>
+│ │ -        <parameter>
+│ │ -          <name>lineLength</name>
+│ │ -          <type>int</type>
+│ │ -          <required>false</required>
+│ │ -          <editable>true</editable>
+│ │ -          <description>The maximum length of a display line, should be positive.</description>
+│ │ -        </parameter>
+│ │ -      </parameters>
+│ │ -      <configuration>
+│ │ -        <detail implementation="boolean" default-value="false">${detail}</detail>
+│ │ -        <goal implementation="java.lang.String">${goal}</goal>
+│ │ -        <indentSize implementation="int" default-value="2">${indentSize}</indentSize>
+│ │ -        <lineLength implementation="int" default-value="80">${lineLength}</lineLength>
+│ │ -      </configuration>
+│ │ -    </mojo>
+│ │    </mojos>
+│ │  </plugin>
+├── META-INF/maven/plugin.xml
+│ ├── META-INF/maven/plugin.xml
+│ │ @@ -75,66 +75,14 @@
+│ │          <config implementation="java.io.File" default-value="src/main/resources/fmpp/config.fmpp"/>
+│ │          <output implementation="java.io.File" default-value="${project.build.directory}/generated-sources/fmpp/"/>
+│ │          <project implementation="org.apache.maven.project.MavenProject" default-value="${project}"/>
+│ │          <scope implementation="java.lang.String" default-value="compile"/>
+│ │          <templates implementation="java.io.File" default-value="src/main/resources/fmpp/templates/"/>
+│ │        </configuration>
+│ │      </mojo>
+│ │ -    <mojo>
+│ │ -      <goal>help</goal>
+│ │ -      <description>Display help information on drill-fmpp-maven-plugin.&lt;br&gt;
+│ │ -Call &lt;code&gt;mvn drill-fmpp:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt;&lt;/code&gt; to display parameter details.</description>
+│ │ -      <requiresDirectInvocation>false</requiresDirectInvocation>
+│ │ -      <requiresProject>false</requiresProject>
+│ │ -      <requiresReports>false</requiresReports>
+│ │ -      <aggregator>false</aggregator>
+│ │ -      <requiresOnline>false</requiresOnline>
+│ │ -      <inheritedByDefault>true</inheritedByDefault>
+│ │ -      <implementation>org.apache.drill.fmpp.mojo.HelpMojo</implementation>
+│ │ -      <language>java</language>
+│ │ -      <instantiationStrategy>per-lookup</instantiationStrategy>
+│ │ -      <executionStrategy>once-per-session</executionStrategy>
+│ │ -      <threadSafe>true</threadSafe>
+│ │ -      <parameters>
+│ │ -        <parameter>
+│ │ -          <name>detail</name>
+│ │ -          <type>boolean</type>
+│ │ -          <required>false</required>
+│ │ -          <editable>true</editable>
+│ │ -          <description>If &lt;code&gt;true&lt;/code&gt;, display all settable properties for each goal.</description>
+│ │ -        </parameter>
+│ │ -        <parameter>
+│ │ -          <name>goal</name>
+│ │ -          <type>java.lang.String</type>
+│ │ -          <required>false</required>
+│ │ -          <editable>true</editable>
+│ │ -          <description>The name of the goal for which to show help. If unspecified, all goals will be displayed.</description>
+│ │ -        </parameter>
+│ │ -        <parameter>
+│ │ -          <name>indentSize</name>
+│ │ -          <type>int</type>
+│ │ -          <required>false</required>
+│ │ -          <editable>true</editable>
+│ │ -          <description>The number of spaces per indentation level, should be positive.</description>
+│ │ -        </parameter>
+│ │ -        <parameter>
+│ │ -          <name>lineLength</name>
+│ │ -          <type>int</type>
+│ │ -          <required>false</required>
+│ │ -          <editable>true</editable>
+│ │ -          <description>The maximum length of a display line, should be positive.</description>
+│ │ -        </parameter>
+│ │ -      </parameters>
+│ │ -      <configuration>
+│ │ -        <detail implementation="boolean" default-value="false">${detail}</detail>
+│ │ -        <goal implementation="java.lang.String">${goal}</goal>
+│ │ -        <indentSize implementation="int" default-value="2">${indentSize}</indentSize>
+│ │ -        <lineLength implementation="int" default-value="80">${lineLength}</lineLength>
+│ │ -      </configuration>
+│ │ -    </mojo>
+│ │    </mojos>
+│ │    <dependencies>
+│ │      <dependency>
+│ │        <groupId>commons-io</groupId>
+│ │        <artifactId>commons-io</artifactId>
+│ │        <type>jar</type>
+│ │        <version>2.7</version>
+├── git.properties
+│ @@ -1,25 +1,25 @@
+│  #Generated by Git-Commit-Id-Plugin
+│ -#Tue Feb 22 20:20:27 SAST 2022
+│ +#Sat Feb 26 17:58:09 UTC 2022
+│  git.branch=d19878973ef6723250d231258f470340863ddc23
+│ -git.build.host=jtpc
+│ -git.build.time=22.02.2022 @ 20\:20\:27 SAST
+│ +git.build.host=c23e344f8445
+│ +git.build.time=26.02.2022 @ 17\:58\:09 UTC
+│  git.build.user.email=
+│  git.build.user.name=
+│  git.build.version=1.20.0
+│  git.closest.tag.commit.count=0
+│  git.closest.tag.name=drill-1.20.0
+│  git.commit.id=d19878973ef6723250d231258f470340863ddc23
+│  git.commit.id.abbrev=d198789
+│  git.commit.id.describe=drill-1.20.0-0-gd198789
+│  git.commit.id.describe-short=drill-1.20.0-0
+│  git.commit.message.full=[maven-release-plugin] prepare release drill-1.20.0
+│  git.commit.message.short=[maven-release-plugin] prepare release drill-1.20.0
+│ -git.commit.time=22.02.2022 @ 19\:56\:14 SAST
+│ +git.commit.time=22.02.2022 @ 17\:56\:14 UTC
+│  git.commit.user.email=james@somecomputer.xyz
+│  git.commit.user.name=James Turton
+│  git.dirty=false
+│  git.local.branch.ahead=NO_REMOTE
+│  git.local.branch.behind=NO_REMOTE
+│ -git.remote.origin.url=/home/james/Public/../Development/drill
+│ -git.tags=drill-1.20.0
+│ +git.remote.origin.url=https\://github.com/apache/drill.git
+│ +git.tags=drill-1.20.0,drill-1.20.0-hadoop2
+│  git.total.commit.count=4158
+
+target/reference/drill-common-1.20.0.jar common/target/drill-common-1.20.0.jar
+--- target/reference/drill-common-1.20.0.jar
++++ common/target/drill-common-1.20.0.jar
+├── zipinfo {}
+│ @@ -1,9 +1,9 @@
+│ -Zip file size: 157909 bytes, number of entries: 131
+│ --rw-r--r--  2.0 unx      410 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│ +Zip file size: 157919 bytes, number of entries: 131
+│ +-rw-r--r--  2.0 unx      406 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/drill-module-scan/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/drill/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/drill/common/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/drill/common/collections/
+│ @@ -21,18 +21,18 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/drill/exec/util/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.drill/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.drill/drill-common/
+│  -rw-r--r--  2.0 unx     9951 b- defN 80-000-00 04:08 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 80-000-00 04:08 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      166 b- defN 80-000-00 04:08 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx      886 b- defN 80-000-00 04:08 META-INF/drill-module-scan/registry.json
+│ +-rw-r--r--  2.0 unx      858 b- defN 80-000-00 04:08 META-INF/drill-module-scan/registry.json
+│  -rw-r--r--  2.0 unx     1114 b- defN 80-000-00 04:08 drill-default.conf
+│  -rw-r--r--  2.0 unx     1544 b- defN 80-000-00 04:08 drill-module.conf
+│ --rw-r--r--  2.0 unx      962 b- defN 80-000-00 04:08 git.properties
+│ +-rw-r--r--  2.0 unx      985 b- defN 80-000-00 04:08 git.properties
+│  -rw-r--r--  2.0 unx     1759 b- defN 80-000-00 04:08 org/apache/drill/common/AutoCloseablePointer.class
+│  -rw-r--r--  2.0 unx      283 b- defN 80-000-00 04:08 org/apache/drill/common/AutoCloseables$Closeable.class
+│  -rw-r--r--  2.0 unx     4539 b- defN 80-000-00 04:08 org/apache/drill/common/AutoCloseables.class
+│  -rw-r--r--  2.0 unx     1838 b- defN 80-000-00 04:08 org/apache/drill/common/CatastrophicFailure.class
+│  -rw-r--r--  2.0 unx     3077 b- defN 80-000-00 04:08 org/apache/drill/common/DeferredException.class
+│  -rw-r--r--  2.0 unx      794 b- defN 80-000-00 04:08 org/apache/drill/common/DrillAutoCloseables.class
+│  -rw-r--r--  2.0 unx     2336 b- defN 80-000-00 04:08 org/apache/drill/common/EventProcessor.class
+│ @@ -126,8 +126,8 @@
+│  -rw-r--r--  2.0 unx     1802 b- defN 80-000-00 04:08 org/apache/drill/exec/util/ActionOnFile.class
+│  -rw-r--r--  2.0 unx      733 b- defN 80-000-00 04:08 org/apache/drill/exec/util/AssertionUtil.class
+│  -rw-r--r--  2.0 unx     1000 b- defN 80-000-00 04:08 org/apache/drill/exec/util/SystemPropertyUtil$1.class
+│  -rw-r--r--  2.0 unx     3889 b- defN 80-000-00 04:08 org/apache/drill/exec/util/SystemPropertyUtil.class
+│  -rw-r--r--  2.0 unx     3655 b- defN 80-000-00 04:08 META-INF/maven/org.apache.drill/drill-common/pom.xml
+│  -rw-r--r--  2.0 unx       64 b- defN 80-000-00 04:08 META-INF/maven/org.apache.drill/drill-common/pom.properties
+│  -rw-r--r--  2.0 unx      701 b- defN 80-000-00 04:08 META-INF/INDEX.LIST
+│ -131 files, 329508 bytes uncompressed, 135263 bytes compressed:  59.0%
+│ +131 files, 329499 bytes uncompressed, 135273 bytes compressed:  58.9%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+
+│  Implementation-Title: Drill : Common
+
+│  Implementation-Version: 1.20.0
+
+│ -Built-By: james
+
+│ +Built-By: ?
+
+│  Specification-Vendor: The Apache Software Foundation
+
+│  Specification-Title: Drill : Common
+
+│  Extension-Name: org.apache.drill
+
+│  Build-Jdk-Spec: 1.8
+
+│  Created-By: Maven Jar Plugin 3.2.0
+
+│  Specification-Version: 1.20
+
+│  url: https://drill.apache.org/
+├── META-INF/drill-module-scan/registry.json
+│ @@ -1,9 +1,9 @@
+│  {
+│ -  "scannedPackages" : [ "org.apache.drill.exec.store.mock", "org.apache.drill.common.logical", "org.apache.drill.storage", "org.apache.drill.storage" ],
+│ +  "scannedPackages" : [ "org.apache.drill.exec.store.mock", "org.apache.drill.common.logical", "org.apache.drill.storage" ],
+│    "scannedClasses" : [ "org.apache.drill.common.logical.FormatPluginConfig", "org.apache.drill.common.logical.data.LogicalOperator", "org.apache.drill.common.logical.security.CredentialsProvider", "org.apache.drill.common.logical.StoragePluginConfig" ],
+│    "scannedAnnotations" : [ ],
+│    "annotatedClasses" : [ ],
+│    "implementations" : [ {
+│      "name" : "org.apache.drill.common.logical.data.LogicalOperator",
+│      "children" : [ ]
+│    }, {
+├── git.properties
+│ @@ -1,25 +1,25 @@
+│  #Generated by Git-Commit-Id-Plugin
+│ -#Tue Feb 22 20:20:27 SAST 2022
+│ +#Sat Feb 26 17:58:09 UTC 2022
+│  git.branch=d19878973ef6723250d231258f470340863ddc23
+│ -git.build.host=jtpc
+│ -git.build.time=22.02.2022 @ 20\:20\:27 SAST
+│ +git.build.host=c23e344f8445
+│ +git.build.time=26.02.2022 @ 17\:58\:09 UTC
+│  git.build.user.email=
+│  git.build.user.name=
+│  git.build.version=1.20.0
+│  git.closest.tag.commit.count=0
+│  git.closest.tag.name=drill-1.20.0
+│  git.commit.id=d19878973ef6723250d231258f470340863ddc23
+│  git.commit.id.abbrev=d198789
+│  git.commit.id.describe=drill-1.20.0-0-gd198789
+│  git.commit.id.describe-short=drill-1.20.0-0
+│  git.commit.message.full=[maven-release-plugin] prepare release drill-1.20.0
+│  git.commit.message.short=[maven-release-plugin] prepare release drill-1.20.0
+│ -git.commit.time=22.02.2022 @ 19\:56\:14 SAST
+│ +git.commit.time=22.02.2022 @ 17\:56\:14 UTC
+│  git.commit.user.email=james@somecomputer.xyz
+│  git.commit.user.name=James Turton
+│  git.dirty=false
+│  git.local.branch.ahead=NO_REMOTE
+│  git.local.branch.behind=NO_REMOTE
+│ -git.remote.origin.url=/home/james/Public/../Development/drill
+│ -git.tags=drill-1.20.0
+│ +git.remote.origin.url=https\://github.com/apache/drill.git
+│ +git.tags=drill-1.20.0,drill-1.20.0-hadoop2
+│  git.total.commit.count=4158
+
+target/reference/drill-logical-1.20.0.jar logical/target/drill-logical-1.20.0.jar
+--- target/reference/drill-logical-1.20.0.jar
++++ logical/target/drill-logical-1.20.0.jar
+├── zipinfo {}
+│ @@ -1,9 +1,9 @@
+│ -Zip file size: 306043 bytes, number of entries: 243
+│ --rw-r--r--  2.0 unx      422 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│ +Zip file size: 306061 bytes, number of entries: 243
+│ +-rw-r--r--  2.0 unx      418 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/drill-module-scan/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/drill/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/drill/common/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/drill/common/config/
+│ @@ -24,15 +24,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.drill/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.drill/drill-logical/
+│  -rw-r--r--  2.0 unx    13468 b- defN 80-000-00 04:08 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 80-000-00 04:08 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      172 b- defN 80-000-00 04:08 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     3793 b- defN 80-000-00 04:08 META-INF/drill-module-scan/registry.json
+│  -rw-r--r--  2.0 unx     1052 b- defN 80-000-00 04:08 drill-module.conf
+│ --rw-r--r--  2.0 unx      962 b- defN 80-000-00 04:08 git.properties
+│ +-rw-r--r--  2.0 unx      985 b- defN 80-000-00 04:08 git.properties
+│  -rw-r--r--  2.0 unx     1280 b- defN 80-000-00 04:08 org/apache/drill/common/FunctionNames.class
+│  -rw-r--r--  2.0 unx     2231 b- defN 80-000-00 04:08 org/apache/drill/common/JSONOptions$De.class
+│  -rw-r--r--  2.0 unx     1692 b- defN 80-000-00 04:08 org/apache/drill/common/JSONOptions$Se.class
+│  -rw-r--r--  2.0 unx     6835 b- defN 80-000-00 04:08 org/apache/drill/common/JSONOptions.class
+│  -rw-r--r--  2.0 unx     6286 b- defN 80-000-00 04:08 org/apache/drill/common/config/LogicalPlanPersistence.class
+│  -rw-r--r--  2.0 unx     1469 b- defN 80-000-00 04:08 org/apache/drill/common/exceptions/ExecutionSetupException.class
+│  -rw-r--r--  2.0 unx     1260 b- defN 80-000-00 04:08 org/apache/drill/common/exceptions/ExpressionParsingException.class
+│ @@ -238,8 +238,8 @@
+│  -rw-r--r--  2.0 unx     2032 b- defN 80-000-00 04:08 org/apache/drill/common/logical/security/PlainCredentialsProvider.class
+│  -rw-r--r--  2.0 unx     1227 b- defN 80-000-00 04:08 org/apache/drill/common/parser/ErrorListener.class
+│  -rw-r--r--  2.0 unx     2354 b- defN 80-000-00 04:08 org/apache/drill/common/parser/LogicalExpressionParser.class
+│  -rw-r--r--  2.0 unx     4253 b- defN 80-000-00 04:08 org/apache/drill/common/util/AbstractDynamicBean.class
+│  -rw-r--r--  2.0 unx     3397 b- defN 80-000-00 04:08 META-INF/maven/org.apache.drill/drill-logical/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 80-000-00 04:08 META-INF/maven/org.apache.drill/drill-logical/pom.properties
+│  -rw-r--r--  2.0 unx      779 b- defN 80-000-00 04:08 META-INF/INDEX.LIST
+│ -243 files, 775841 bytes uncompressed, 259187 bytes compressed:  66.6%
+│ +243 files, 775860 bytes uncompressed, 259205 bytes compressed:  66.6%
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+
+│  Implementation-Title: Drill : Logical Plan
+
+│  Implementation-Version: 1.20.0
+
+│ -Built-By: james
+
+│ +Built-By: ?
+
+│  Specification-Vendor: The Apache Software Foundation
+
+│  Specification-Title: Drill : Logical Plan
+
+│  Extension-Name: org.apache.drill
+
+│  Build-Jdk-Spec: 1.8
+
+│  Created-By: Maven Jar Plugin 3.2.0
+
+│  Specification-Version: 1.20
+
+│  url: https://drill.apache.org/
+├── META-INF/drill-module-scan/registry.json
+│┄ Ordering differences only
+│ @@ -2,90 +2,90 @@
+│    "scannedPackages" : [ "org.apache.drill.storage", "org.apache.drill.exec.store.mock", "org.apache.drill.common.logical" ],
+│    "scannedClasses" : [ "org.apache.drill.common.logical.FormatPluginConfig", "org.apache.drill.common.logical.data.LogicalOperator", "org.apache.drill.common.logical.security.CredentialsProvider", "org.apache.drill.common.logical.StoragePluginConfig" ],
+│    "scannedAnnotations" : [ ],
+│    "annotatedClasses" : [ ],
+│    "implementations" : [ {
+│      "name" : "org.apache.drill.common.logical.data.LogicalOperator",
+│      "children" : [ {
+│ -      "name" : "org.apache.drill.common.logical.data.Transform",
+│ -      "abstract" : false
+│ -    }, {
+│ -      "name" : "org.apache.drill.common.logical.data.Limit",
+│ -      "abstract" : false
+│ -    }, {
+│ -      "name" : "org.apache.drill.common.logical.data.GroupingAggregate",
+│ -      "abstract" : false
+│ -    }, {
+│ -      "name" : "org.apache.drill.common.logical.data.MetadataController",
+│ -      "abstract" : false
+│ -    }, {
+│ -      "name" : "org.apache.drill.common.logical.data.Project",
+│ +      "name" : "org.apache.drill.common.logical.data.Union",
+│        "abstract" : false
+│      }, {
+│        "name" : "org.apache.drill.common.logical.data.LogicalOperatorBase",
+│        "abstract" : true
+│      }, {
+│ -      "name" : "org.apache.drill.common.logical.data.SinkOperator",
+│ +      "name" : "org.apache.drill.common.logical.data.SourceOperator",
+│        "abstract" : true
+│      }, {
+│ -      "name" : "org.apache.drill.common.logical.data.Union",
+│ +      "name" : "org.apache.drill.common.logical.data.Join",
+│        "abstract" : false
+│      }, {
+│ -      "name" : "org.apache.drill.common.logical.data.SingleInputOperator",
+│ -      "abstract" : true
+│ +      "name" : "org.apache.drill.common.logical.data.GroupingAggregate",
+│ +      "abstract" : false
+│ +    }, {
+│ +      "name" : "org.apache.drill.common.logical.data.RunningAggregate",
+│ +      "abstract" : false
+│      }, {
+│        "name" : "org.apache.drill.common.logical.data.Unnest",
+│        "abstract" : false
+│      }, {
+│ -      "name" : "org.apache.drill.common.logical.data.Join",
+│ +      "name" : "org.apache.drill.common.logical.data.Transform",
+│        "abstract" : false
+│      }, {
+│ -      "name" : "org.apache.drill.common.logical.data.Order",
+│ +      "name" : "org.apache.drill.common.logical.data.MetadataAggregate",
+│        "abstract" : false
+│      }, {
+│ -      "name" : "org.apache.drill.common.logical.data.Scan",
+│ +      "name" : "org.apache.drill.common.logical.data.Filter",
+│        "abstract" : false
+│      }, {
+│ -      "name" : "org.apache.drill.common.logical.data.MetadataHandler",
+│ +      "name" : "org.apache.drill.common.logical.data.Analyze",
+│        "abstract" : false
+│      }, {
+│ +      "name" : "org.apache.drill.common.logical.data.SinkOperator",
+│ +      "abstract" : true
+│ +    }, {
+│        "name" : "org.apache.drill.common.logical.data.Store",
+│        "abstract" : false
+│      }, {
+│ -      "name" : "org.apache.drill.common.logical.data.Analyze",
+│ +      "name" : "org.apache.drill.common.logical.data.LateralJoin",
+│        "abstract" : false
+│      }, {
+│ -      "name" : "org.apache.drill.common.logical.data.MetadataAggregate",
+│ +      "name" : "org.apache.drill.common.logical.data.SingleInputOperator",
+│ +      "abstract" : true
+│ +    }, {
+│ +      "name" : "org.apache.drill.common.logical.data.MetadataController",
+│        "abstract" : false
+│      }, {
+│ -      "name" : "org.apache.drill.common.logical.data.Values",
+│ +      "name" : "org.apache.drill.common.logical.data.Project",
+│        "abstract" : false
+│      }, {
+│ -      "name" : "org.apache.drill.common.logical.data.Window",
+│ +      "name" : "org.apache.drill.common.logical.data.Writer",
+│        "abstract" : false
+│      }, {
+│ -      "name" : "org.apache.drill.common.logical.data.SourceOperator",
+│ -      "abstract" : true
+│ +      "name" : "org.apache.drill.common.logical.data.Limit",
+│ +      "abstract" : false
+│      }, {
+│ -      "name" : "org.apache.drill.common.logical.data.Writer",
+│ +      "name" : "org.apache.drill.common.logical.data.Scan",
+│        "abstract" : false
+│      }, {
+│ -      "name" : "org.apache.drill.common.logical.data.LateralJoin",
+│ +      "name" : "org.apache.drill.common.logical.data.Order",
+│        "abstract" : false
+│      }, {
+│ -      "name" : "org.apache.drill.common.logical.data.LogicalSemiJoin",
+│ +      "name" : "org.apache.drill.common.logical.data.MetadataHandler",
+│        "abstract" : false
+│      }, {
+│ -      "name" : "org.apache.drill.common.logical.data.RunningAggregate",
+│ +      "name" : "org.apache.drill.common.logical.data.Window",
+│        "abstract" : false
+│      }, {
+│        "name" : "org.apache.drill.common.logical.data.Flatten",
+│        "abstract" : false
+│      }, {
+│ -      "name" : "org.apache.drill.common.logical.data.Filter",
+│ +      "name" : "org.apache.drill.common.logical.data.Values",
+│ +      "abstract" : false
+│ +    }, {
+│ +      "name" : "org.apache.drill.common.logical.data.LogicalSemiJoin",
+│        "abstract" : false
+│      } ]
+│    }, {
+│      "name" : "org.apache.drill.common.logical.FormatPluginConfig",
+│      "children" : [ {
+│        "name" : "org.apache.drill.common.logical.FormatPluginConfigBase",
+│        "abstract" : true
+├── git.properties
+│ @@ -1,25 +1,25 @@
+│  #Generated by Git-Commit-Id-Plugin
+│ -#Tue Feb 22 20:20:27 SAST 2022
+│ +#Sat Feb 26 17:58:09 UTC 2022
+│  git.branch=d19878973ef6723250d231258f470340863ddc23
+│ -git.build.host=jtpc
+│ -git.build.time=22.02.2022 @ 20\:20\:27 SAST
+│ +git.build.host=c23e344f8445
+│ +git.build.time=26.02.2022 @ 17\:58\:09 UTC
+│  git.build.user.email=
+│  git.build.user.name=
+│  git.build.version=1.20.0
+│  git.closest.tag.commit.count=0
+│  git.closest.tag.name=drill-1.20.0
+│  git.commit.id=d19878973ef6723250d231258f470340863ddc23
+│  git.commit.id.abbrev=d198789
+│  git.commit.id.describe=drill-1.20.0-0-gd198789
+│  git.commit.id.describe-short=drill-1.20.0-0
+│  git.commit.message.full=[maven-release-plugin] prepare release drill-1.20.0
+│  git.commit.message.short=[maven-release-plugin] prepare release drill-1.20.0
+│ -git.commit.time=22.02.2022 @ 19\:56\:14 SAST
+│ +git.commit.time=22.02.2022 @ 17\:56\:14 UTC
+│  git.commit.user.email=james@somecomputer.xyz
+│  git.commit.user.name=James Turton
+│  git.dirty=false
+│  git.local.branch.ahead=NO_REMOTE
+│  git.local.branch.behind=NO_REMOTE
+│ -git.remote.origin.url=/home/james/Public/../Development/drill
+│ -git.tags=drill-1.20.0
+│ +git.remote.origin.url=https\://github.com/apache/drill.git
+│ +git.tags=drill-1.20.0,drill-1.20.0-hadoop2
+│  git.total.commit.count=4158
+
+target/reference/drill-hive-exec-shaded-1.20.0.jar contrib/storage-hive/hive-exec-shade/target/drill-hive-exec-shaded-1.20.0.jar
+--- target/reference/drill-hive-exec-shaded-1.20.0.jar
++++ contrib/storage-hive/hive-exec-shade/target/drill-hive-exec-shaded-1.20.0.jar
+├── zipinfo {}
+│ @@ -1,23476 +1,23476 @@
+│ -Zip file size: 42303819 bytes, number of entries: 23474
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 02:08 META-INF/
+│ --rw----     2.0 fat      474 bX defN 79-Nov-30 02:08 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat    11358 bX defN 79-Nov-30 02:08 META-INF/ASL2.0
+│ --rw----     2.0 fat    27297 bX defN 79-Nov-30 02:08 META-INF/DEPENDENCIES
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 02:08 META-INF/maven/
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 02:08 META-INF/maven/com.esotericsoftware/
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 02:08 META-INF/maven/com.esotericsoftware/kryo-shaded/
+│ --rw----     2.0 fat      141 bX defN 79-Nov-30 02:08 META-INF/maven/com.esotericsoftware/kryo-shaded/pom.properties
+│ --rw----     2.0 fat     5038 bX defN 79-Nov-30 02:08 META-INF/maven/com.esotericsoftware/kryo-shaded/pom.xml
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 02:08 META-INF/maven/com.esotericsoftware/minlog/
+│ --rw----     2.0 fat      136 bX defN 79-Nov-30 02:08 META-INF/maven/com.esotericsoftware/minlog/pom.properties
+│ --rw----     2.0 fat     3322 bX defN 79-Nov-30 02:08 META-INF/maven/com.esotericsoftware/minlog/pom.xml
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 02:08 META-INF/maven/com.esotericsoftware/reflectasm/
+│ --rw----     2.0 fat      140 bX defN 79-Nov-30 02:08 META-INF/maven/com.esotericsoftware/reflectasm/pom.properties
+...
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 02:08 org/json/
+│ --rw----     2.0 fat     3236 bX defN 79-Nov-30 02:08 org/json/JSON.class
+│ --rw----     2.0 fat    11441 bX defN 79-Nov-30 02:08 org/json/JSONArray.class
+│ --rw----     2.0 fat      647 bX defN 79-Nov-30 02:08 org/json/JSONException.class
+│ --rw----     2.0 fat      706 bX defN 79-Nov-30 02:08 org/json/JSONObject$1.class
+│ --rw----     2.0 fat    14927 bX defN 79-Nov-30 02:08 org/json/JSONObject.class
+│ --rw----     2.0 fat      156 bX defN 79-Nov-30 02:08 org/json/JSONString.class
+│ --rw----     2.0 fat     1292 bX defN 79-Nov-30 02:08 org/json/JSONStringer$Scope.class
+│ --rw----     2.0 fat     6520 bX defN 79-Nov-30 02:08 org/json/JSONStringer.class
+│ --rw----     2.0 fat     8509 bX defN 79-Nov-30 02:08 org/json/JSONTokener.class
+│ --rw----     2.0 fat    49792 bX defN 79-Nov-30 02:08 package.jdo
+│ --rw----     2.0 fat     2662 bX defN 79-Nov-30 02:08 parquet-logging.properties
+│ --rw----     2.0 fat    27382 bX defN 79-Nov-30 02:08 parquet.thrift
+│ --rw----     2.0 fat     1932 bX defN 79-Nov-30 02:08 tez-container-log4j2.properties
+│ --rw----     2.0 fat     2054 bl defN 21-Dec-15 12:32 META-INF/NOTICE
+│ -23474 files, 97665778 bytes uncompressed, 36246427 bytes compressed:  62.9%
+│ +Zip file size: 41881497 bytes, number of entries: 23474
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 META-INF/
+│ +-rw----     2.0 fat      470 bX defN 79-Nov-30 04:08 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat    27297 bX defN 79-Nov-30 04:08 META-INF/DEPENDENCIES
+│ +-rw----     2.0 fat     1116 bX defN 79-Nov-30 04:08 drill-module.conf
+│ +-rw----     2.0 fat      985 bX defN 79-Nov-30 04:08 git.properties
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 META-INF/maven/
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 META-INF/maven/org.apache.drill.contrib.storage-hive/
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 META-INF/maven/org.apache.drill.contrib.storage-hive/drill-hive-exec-shaded/
+│ +-rw----     2.0 fat    11630 bX defN 79-Nov-30 04:08 META-INF/maven/org.apache.drill.contrib.storage-hive/drill-hive-exec-shaded/pom.xml
+│ +-rw----     2.0 fat       95 bX defN 79-Nov-30 04:08 META-INF/maven/org.apache.drill.contrib.storage-hive/drill-hive-exec-shaded/pom.properties
+│ +-rw----     2.0 fat     2274 bl defN 19-Aug-22 15:02 hive-exec-log4j2.properties
+│ +-rw----     2.0 fat        0 bl defN 19-Aug-22 15:03 META-INF/org/
+│ +-rw----     2.0 fat        0 bl defN 19-Aug-22 15:03 META-INF/org/apache/
+│ +-rw----     2.0 fat        0 bl defN 19-Aug-22 15:03 META-INF/org/apache/logging/
+│ +-rw----     2.0 fat        0 bl defN 19-Aug-22 15:03 META-INF/org/apache/logging/log4j/
+│ +-rw----     2.0 fat        0 bl defN 19-Aug-22 15:03 META-INF/org/apache/logging/log4j/core/
+│ +-rw----     2.0 fat        0 bl defN 19-Aug-22 15:03 META-INF/org/apache/logging/log4j/core/config/
+│ +-rw----     2.0 fat        0 bl defN 19-Aug-22 15:03 META-INF/org/apache/logging/log4j/core/config/plugins/
+│ +-rw----     2.0 fat      692 bl defN 19-Aug-22 15:03 META-INF/org/apache/logging/log4j/core/config/plugins/Log4j2Plugins.dat
+│ +-rw----     2.0 fat        0 bl defN 19-Aug-22 15:02 META-INF/services/
+│ +-rw----     2.0 fat      701 bl defN 19-Aug-22 15:02 META-INF/services/org.apache.hadoop.fs.FileSystem
+│ +-rw----     2.0 fat      366 bl defN 19-Aug-22 15:02 META-INF/services/org.apache.hadoop.hive.ql.io.StorageFormatDescriptor
+│ +-rw----     2.0 fat        0 bl defN 19-Aug-22 16:05 org/
+│ +-rw----     2.0 fat        0 bl defN 19-Aug-22 16:05 org/apache/
+│ +-rw----     2.0 fat        0 bl defN 19-Aug-22 16:05 org/apache/hadoop/
+│ +-rw----     2.0 fat        0 bl defN 19-Aug-22 16:05 org/apache/hadoop/hive/
+│ +-rw----     2.0 fat        0 bl defN 19-Aug-22 16:05 org/apache/hadoop/hive/llap/
+...
+│ +-rw----     2.0 fat     3120 bl defN 19-Dec-30 19:43 hive/org/apache/commons/codec/net/RFC1522Codec.class
+│ +-rw----     2.0 fat     4999 bl defN 19-Dec-30 19:43 hive/org/apache/commons/codec/net/URLCodec.class
+│ +-rw----     2.0 fat     1085 bl defN 19-Dec-30 19:43 hive/org/apache/commons/codec/net/Utils.class
+│ +-rw----     2.0 fat     1012 bl defN 19-Dec-30 19:43 hive/org/apache/commons/codec/Resources.class
+│ +-rw----     2.0 fat      315 bl defN 19-Dec-30 19:43 hive/org/apache/commons/codec/StringDecoder.class
+│ +-rw----     2.0 fat      315 bl defN 19-Dec-30 19:43 hive/org/apache/commons/codec/StringEncoder.class
+│ +-rw----     2.0 fat     1502 bl defN 19-Dec-30 19:43 hive/org/apache/commons/codec/StringEncoderComparator.class
+│ +-rw----     2.0 fat        0 bl defN 19-Dec-30 19:31 META-INF/maven/commons-codec/
+│ +-rw----     2.0 fat        0 bl defN 19-Dec-30 19:31 META-INF/maven/commons-codec/commons-codec/
+│ +-rw----     2.0 fat    14808 bl defN 19-Dec-30 19:31 META-INF/maven/commons-codec/commons-codec/pom.xml
+│ +-rw----     2.0 fat       95 bl defN 19-Dec-30 19:41 META-INF/maven/commons-codec/commons-codec/pom.properties
+│ +-rw----     2.0 fat     2054 bl defN 21-Dec-15 10:32 META-INF/NOTICE
+│ +23474 files, 97665797 bytes uncompressed, 36246439 bytes compressed:  62.9%
+├── zipnote «TEMP»/diffoscope_2gg325l9_target/tmpzsuoa_ay.zip
+│ @@ -1,70423 +1,70423 @@
+│  Filename: META-INF/
+│  Comment: 
+│  
+│  Filename: META-INF/MANIFEST.MF
+│  Comment: 
+│  
+│ -Filename: META-INF/ASL2.0
+│ +Filename: META-INF/DEPENDENCIES
+│  Comment: 
+│  
+│ -Filename: META-INF/DEPENDENCIES
+│ +Filename: drill-module.conf
+│  Comment: 
+│  
+...
+│  
+│ -Filename: tez-container-log4j2.properties
+│ +Filename: META-INF/maven/commons-codec/commons-codec/pom.properties
+│  Comment: 
+│  
+│  Filename: META-INF/NOTICE
+│  Comment: 
+│  
+│  Zip file comment:
+├── META-INF/MANIFEST.MF
+│ @@ -1,11 +1,11 @@
+│  Manifest-Version: 1.0
+
+│  Implementation-Title: Drill : Contrib : Storage : Hive : Exec Shaded
+
+│  Implementation-Version: 1.20.0
+
+│ -Built-By: james
+
+│ +Built-By: ?
+
+│  Specification-Vendor: The Apache Software Foundation
+
+│  Specification-Title: Drill : Contrib : Storage : Hive : Exec Shaded
+
+│  Extension-Name: org.apache.drill
+
+│  Build-Jdk-Spec: 1.8
+
+│  Created-By: Maven Jar Plugin 3.2.0
+
+│  Specification-Version: 1.20
+
+│  url: https://drill.apache.org/
+├── git.properties
+│ @@ -1,25 +1,25 @@
+│  #Generated by Git-Commit-Id-Plugin
+│ -#Tue Feb 22 20:20:27 SAST 2022
+│ +#Sat Feb 26 17:58:09 UTC 2022
+│  git.branch=d19878973ef6723250d231258f470340863ddc23
+│ -git.build.host=jtpc
+│ -git.build.time=22.02.2022 @ 20\:20\:27 SAST
+│ +git.build.host=c23e344f8445
+│ +git.build.time=26.02.2022 @ 17\:58\:09 UTC
+│  git.build.user.email=
+│  git.build.user.name=
+│  git.build.version=1.20.0
+│  git.closest.tag.commit.count=0
+│  git.closest.tag.name=drill-1.20.0
+│  git.commit.id=d19878973ef6723250d231258f470340863ddc23
+│  git.commit.id.abbrev=d198789
+│  git.commit.id.describe=drill-1.20.0-0-gd198789
+│  git.commit.id.describe-short=drill-1.20.0-0
+│  git.commit.message.full=[maven-release-plugin] prepare release drill-1.20.0
+│  git.commit.message.short=[maven-release-plugin] prepare release drill-1.20.0
+│ -git.commit.time=22.02.2022 @ 19\:56\:14 SAST
+│ +git.commit.time=22.02.2022 @ 17\:56\:14 UTC
+│  git.commit.user.email=james@somecomputer.xyz
+│  git.commit.user.name=James Turton
+│  git.dirty=false
+│  git.local.branch.ahead=NO_REMOTE
+│  git.local.branch.behind=NO_REMOTE
+│ -git.remote.origin.url=/home/james/Public/../Development/drill
+│ -git.tags=drill-1.20.0
+│ +git.remote.origin.url=https\://github.com/apache/drill.git
+│ +git.tags=drill-1.20.0,drill-1.20.0-hadoop2
+│  git.total.commit.count=4158
+
+target/reference/drill-format-mapr-1.20.0-sources.jar contrib/format-maprdb/target/drill-format-mapr-1.20.0-sources.jar
+--- target/reference/drill-format-mapr-1.20.0-sources.jar
++++ contrib/format-maprdb/target/drill-format-mapr-1.20.0-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 147272 bytes, number of entries: 90
+│ +Zip file size: 147286 bytes, number of entries: 90
+│  -rw-r--r--  2.0 unx       64 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/drill/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/drill/exec/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/drill/exec/planner/
+│ @@ -16,15 +16,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/drill/exec/store/mapr/streams/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/drill/exec/udf/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/drill/exec/udf/mapr/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/drill/exec/udf/mapr/db/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.drill.contrib/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.drill.contrib/drill-format-mapr/
+│ --rw-r--r--  2.0 unx    65618 b- defN 80-000-00 04:08 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    65633 b- defN 80-000-00 04:08 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 80-000-00 04:08 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      185 b- defN 80-000-00 04:08 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     5933 b- defN 80-000-00 04:08 org/apache/drill/exec/planner/index/MapRDBFunctionalIndexInfo.java
+│  -rw-r--r--  2.0 unx     9869 b- defN 80-000-00 04:08 org/apache/drill/exec/planner/index/MapRDBIndexDescriptor.java
+│  -rw-r--r--  2.0 unx    14693 b- defN 80-000-00 04:08 org/apache/drill/exec/planner/index/MapRDBIndexDiscover.java
+│  -rw-r--r--  2.0 unx    47866 b- defN 80-000-00 04:08 org/apache/drill/exec/planner/index/MapRDBStatistics.java
+│  -rw-r--r--  2.0 unx     1643 b- defN 80-000-00 04:08 org/apache/drill/exec/planner/index/MapRDBStatisticsPayload.java
+│ @@ -85,8 +85,8 @@
+│  -rw-r--r--  2.0 unx     2136 b- defN 80-000-00 04:08 org/apache/drill/exec/udf/mapr/db/NotTypeOfPlaceholder.java
+│  -rw-r--r--  2.0 unx     2183 b- defN 80-000-00 04:08 org/apache/drill/exec/udf/mapr/db/SizeOfPlaceholder.java
+│  -rw-r--r--  2.0 unx     2127 b- defN 80-000-00 04:08 org/apache/drill/exec/udf/mapr/db/TypeOfPlaceholder.java
+│  -rw-r--r--  2.0 unx      272 b- defN 80-000-00 04:08 bootstrap-format-plugins.json
+│  -rw-r--r--  2.0 unx     1440 b- defN 80-000-00 04:08 drill-module.conf
+│  -rw-r--r--  2.0 unx    12804 b- defN 80-000-00 04:08 META-INF/maven/org.apache.drill.contrib/drill-format-mapr/pom.xml
+│  -rw-r--r--  2.0 unx       77 b- defN 80-000-00 04:08 META-INF/maven/org.apache.drill.contrib/drill-format-mapr/pom.properties
+│ -90 files, 483685 bytes uncompressed, 130876 bytes compressed:  72.9%
+│ +90 files, 483700 bytes uncompressed, 130890 bytes compressed:  72.9%
+├── META-INF/DEPENDENCIES
+│ @@ -282,17 +282,17 @@
+│    - JSP implementation (http://jsp.java.net) org.glassfish.web:javax.servlet.jsp:jar:2.3.2
+│      License: CDDL + GPLv2 with classpath exception  (http://glassfish.dev.java.net/nonav/public/CDDL+GPL.html)
+│  
+│  From: 'GlassFish Community' (https://glassfish.dev.java.net)
+│    - Java Servlet API (http://servlet-spec.java.net) javax.servlet:javax.servlet-api:jar:3.1.0
+│      License: CDDL + GPLv2 with classpath exception  (https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html)
+│  
+│ -From: 'GlassFish Community' (https://glassfish.java.net)
+│ -  - javax.annotation API (http://jcp.org/en/jsr/detail?id=250) javax.annotation:javax.annotation-api:jar:1.2
+│ -    License: CDDL + GPLv2 with classpath exception  (https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html)
+│ +From: 'GlassFish Community' (https://javaee.github.io/glassfish)
+│ +  - javax.annotation API (http://jcp.org/en/jsr/detail?id=250) javax.annotation:javax.annotation-api:jar:1.3.2
+│ +    License: CDDL + GPLv2 with classpath exception  (https://github.com/javaee/javax.annotation/blob/master/LICENSE)
+│  
+│  From: 'Google, Inc.' (http://www.google.com)
+│    - Gson (http://code.google.com/p/google-gson/) com.google.code.gson:gson:jar:2.2.4
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Google Guice - Core Library (https://github.com/google/guice/guice) com.google.inject:guice:jar:4.0
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Google Guice - Extensions - Servlet (https://github.com/google/guice/extensions-parent/guice-servlet) com.google.inject.extensions:guice-servlet:jar:4.0
+
