@@ -1,0 +1,35 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Sign Maven Plugin
+group-id=org.simplify4u.plugins
+artifact-id=sign-maven-plugin
+version=1.0.1
+
+# source information
+source.scm.uri=scm:git:git@github.com:s4u/sign-maven-plugin.git
+source.scm.tag=v1.0.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.6.0
+
+# output
+
+outputs.0.filename=sign-maven-plugin-1.0.1.pom
+outputs.0.length=18596
+outputs.0.checksums.sha512=95097779b28fac624be53ffc27ad99f43e2c513f2a6af86196590ad5c429a2d0278904231d078b2f88526c19a491f599848707bf315aed9b77c8f04c756def5c
+
+outputs.1.filename=sign-maven-plugin-1.0.1.jar
+outputs.1.length=48864
+outputs.1.checksums.sha512=7e3e9974904b5d1e31b6d93bd5338e578f5db3613f2717fff5813dabe95560e94b5bbe2667c31a54b6b92dd10fafc28f5ba9c2071f6b9dea5394399c9703076c
+
+outputs.2.filename=sign-maven-plugin-1.0.1-sources.jar
+outputs.2.length=28592
+outputs.2.checksums.sha512=d8091fab5e470dfe76ba3b7e947894d959f7542943f7e9abc58738d3baf4b289c309eeb1a1aa9b2031e0989e2019fe5c0278194162f23f86b0f80fb0317de581
