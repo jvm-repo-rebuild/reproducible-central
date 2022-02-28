@@ -1,0 +1,556 @@
+target/reference/jface-utils-19.0.1.pom .flattened-pom.xml
+--- target/reference/jface-utils-19.0.1.pom
++++ .flattened-pom.xml
+@@ -92,20 +92,20 @@
+ 000005b0: 3c2f 6172 7469 6661 6374 4964 3e0a 2020  </artifactId>.  
+ 000005c0: 2020 2020 3c76 6572 7369 6f6e 3e33 2e32      <version>3.2
+ 000005d0: 342e 303c 2f76 6572 7369 6f6e 3e0a 2020  4.0</version>.  
+ 000005e0: 2020 2020 3c73 636f 7065 3e63 6f6d 7069      <scope>compi
+ 000005f0: 6c65 3c2f 7363 6f70 653e 0a20 2020 2020  le</scope>.     
+ 00000600: 203c 6578 636c 7573 696f 6e73 3e0a 2020   <exclusions>.  
+ 00000610: 2020 2020 2020 3c65 7863 6c75 7369 6f6e        <exclusion
+-00000620: 3e0a 2020 2020 2020 2020 2020 3c67 726f  >.          <gro
+-00000630: 7570 4964 3e6f 7267 2e65 636c 6970 7365  upId>org.eclipse
+-00000640: 2e70 6c61 7466 6f72 6d3c 2f67 726f 7570  .platform</group
+-00000650: 4964 3e0a 2020 2020 2020 2020 2020 3c61  Id>.          <a
+-00000660: 7274 6966 6163 7449 643e 2a3c 2f61 7274  rtifactId>*</art
+-00000670: 6966 6163 7449 643e 0a20 2020 2020 2020  ifactId>.       
++00000620: 3e0a 2020 2020 2020 2020 2020 3c61 7274  >.          <art
++00000630: 6966 6163 7449 643e 2a3c 2f61 7274 6966  ifactId>*</artif
++00000640: 6163 7449 643e 0a20 2020 2020 2020 2020  actId>.         
++00000650: 203c 6772 6f75 7049 643e 6f72 672e 6563   <groupId>org.ec
++00000660: 6c69 7073 652e 706c 6174 666f 726d 3c2f  lipse.platform</
++00000670: 6772 6f75 7049 643e 0a20 2020 2020 2020  groupId>.       
+ 00000680: 203c 2f65 7863 6c75 7369 6f6e 3e0a 2020   </exclusion>.  
+ 00000690: 2020 2020 3c2f 6578 636c 7573 696f 6e73      </exclusions
+ 000006a0: 3e0a 2020 2020 3c2f 6465 7065 6e64 656e  >.    </dependen
+ 000006b0: 6379 3e0a 2020 2020 3c64 6570 656e 6465  cy>.    <depende
+ 000006c0: 6e63 793e 0a20 2020 2020 203c 6772 6f75  ncy>.      <grou
+ 000006d0: 7049 643e 6f72 672e 6563 6c69 7073 652e  pId>org.eclipse.
+ 000006e0: 706c 6174 666f 726d 3c2f 6772 6f75 7049  platform</groupI
+@@ -194,20 +194,20 @@
+ 00000c10: 6d61 636f 7378 2e61 6172 6368 3634 3c2f  macosx.aarch64</
+ 00000c20: 6172 7469 6661 6374 4964 3e0a 2020 2020  artifactId>.    
+ 00000c30: 2020 2020 2020 3c76 6572 7369 6f6e 3e33        <version>3
+ 00000c40: 2e31 3138 2e30 3c2f 7665 7273 696f 6e3e  .118.0</version>
+ 00000c50: 0a20 2020 2020 2020 2020 203c 6578 636c  .          <excl
+ 00000c60: 7573 696f 6e73 3e0a 2020 2020 2020 2020  usions>.        
+ 00000c70: 2020 2020 3c65 7863 6c75 7369 6f6e 3e0a      <exclusion>.
+-00000c80: 2020 2020 2020 2020 2020 2020 2020 3c67                <g
+-00000c90: 726f 7570 4964 3e6f 7267 2e65 636c 6970  roupId>org.eclip
+-00000ca0: 7365 2e70 6c61 7466 6f72 6d3c 2f67 726f  se.platform</gro
+-00000cb0: 7570 4964 3e0a 2020 2020 2020 2020 2020  upId>.          
+-00000cc0: 2020 2020 3c61 7274 6966 6163 7449 643e      <artifactId>
+-00000cd0: 2a3c 2f61 7274 6966 6163 7449 643e 0a20  *</artifactId>. 
++00000c80: 2020 2020 2020 2020 2020 2020 2020 3c61                <a
++00000c90: 7274 6966 6163 7449 643e 2a3c 2f61 7274  rtifactId>*</art
++00000ca0: 6966 6163 7449 643e 0a20 2020 2020 2020  ifactId>.       
++00000cb0: 2020 2020 2020 203c 6772 6f75 7049 643e         <groupId>
++00000cc0: 6f72 672e 6563 6c69 7073 652e 706c 6174  org.eclipse.plat
++00000cd0: 666f 726d 3c2f 6772 6f75 7049 643e 0a20  form</groupId>. 
+ 00000ce0: 2020 2020 2020 2020 2020 203c 2f65 7863             </exc
+ 00000cf0: 6c75 7369 6f6e 3e0a 2020 2020 2020 2020  lusion>.        
+ 00000d00: 2020 3c2f 6578 636c 7573 696f 6e73 3e0a    </exclusions>.
+ 00000d10: 2020 2020 2020 2020 3c2f 6465 7065 6e64          </depend
+ 00000d20: 656e 6379 3e0a 2020 2020 2020 3c2f 6465  ency>.      </de
+ 00000d30: 7065 6e64 656e 6369 6573 3e0a 2020 2020  pendencies>.    
+ 00000d40: 3c2f 7072 6f66 696c 653e 0a20 2020 203c  </profile>.    <
+@@ -234,19 +234,19 @@
+ 00000e90: 3c2f 6172 7469 6661 6374 4964 3e0a 2020  </artifactId>.  
+ 00000ea0: 2020 2020 2020 2020 3c76 6572 7369 6f6e          <version
+ 00000eb0: 3e33 2e31 3138 2e30 3c2f 7665 7273 696f  >3.118.0</versio
+ 00000ec0: 6e3e 0a20 2020 2020 2020 2020 203c 6578  n>.          <ex
+ 00000ed0: 636c 7573 696f 6e73 3e0a 2020 2020 2020  clusions>.      
+ 00000ee0: 2020 2020 2020 3c65 7863 6c75 7369 6f6e        <exclusion
+ 00000ef0: 3e0a 2020 2020 2020 2020 2020 2020 2020  >.              
+-00000f00: 3c67 726f 7570 4964 3e6f 7267 2e65 636c  <groupId>org.ecl
+-00000f10: 6970 7365 2e70 6c61 7466 6f72 6d3c 2f67  ipse.platform</g
+-00000f20: 726f 7570 4964 3e0a 2020 2020 2020 2020  roupId>.        
+-00000f30: 2020 2020 2020 3c61 7274 6966 6163 7449        <artifactI
+-00000f40: 643e 2a3c 2f61 7274 6966 6163 7449 643e  d>*</artifactId>
++00000f00: 3c61 7274 6966 6163 7449 643e 2a3c 2f61  <artifactId>*</a
++00000f10: 7274 6966 6163 7449 643e 0a20 2020 2020  rtifactId>.     
++00000f20: 2020 2020 2020 2020 203c 6772 6f75 7049           <groupI
++00000f30: 643e 6f72 672e 6563 6c69 7073 652e 706c  d>org.eclipse.pl
++00000f40: 6174 666f 726d 3c2f 6772 6f75 7049 643e  atform</groupId>
+ 00000f50: 0a20 2020 2020 2020 2020 2020 203c 2f65  .            </e
+ 00000f60: 7863 6c75 7369 6f6e 3e0a 2020 2020 2020  xclusion>.      
+ 00000f70: 2020 2020 3c2f 6578 636c 7573 696f 6e73      </exclusions
+ 00000f80: 3e0a 2020 2020 2020 2020 3c2f 6465 7065  >.        </depe
+ 00000f90: 6e64 656e 6379 3e0a 2020 2020 2020 3c2f  ndency>.      </
+ 00000fa0: 6465 7065 6e64 656e 6369 6573 3e0a 2020  dependencies>.  
+ 00000fb0: 2020 3c2f 7072 6f66 696c 653e 0a20 2020    </profile>.   
+@@ -272,20 +272,20 @@
+ 000010f0: 6c69 6e75 782e 6161 7263 6836 343c 2f61  linux.aarch64</a
+ 00001100: 7274 6966 6163 7449 643e 0a20 2020 2020  rtifactId>.     
+ 00001110: 2020 2020 203c 7665 7273 696f 6e3e 332e       <version>3.
+ 00001120: 3131 382e 303c 2f76 6572 7369 6f6e 3e0a  118.0</version>.
+ 00001130: 2020 2020 2020 2020 2020 3c65 7863 6c75            <exclu
+ 00001140: 7369 6f6e 733e 0a20 2020 2020 2020 2020  sions>.         
+ 00001150: 2020 203c 6578 636c 7573 696f 6e3e 0a20     <exclusion>. 
+-00001160: 2020 2020 2020 2020 2020 2020 203c 6772               <gr
+-00001170: 6f75 7049 643e 6f72 672e 6563 6c69 7073  oupId>org.eclips
+-00001180: 652e 706c 6174 666f 726d 3c2f 6772 6f75  e.platform</grou
+-00001190: 7049 643e 0a20 2020 2020 2020 2020 2020  pId>.           
+-000011a0: 2020 203c 6172 7469 6661 6374 4964 3e2a     <artifactId>*
+-000011b0: 3c2f 6172 7469 6661 6374 4964 3e0a 2020  </artifactId>.  
++00001160: 2020 2020 2020 2020 2020 2020 203c 6172               <ar
++00001170: 7469 6661 6374 4964 3e2a 3c2f 6172 7469  tifactId>*</arti
++00001180: 6661 6374 4964 3e0a 2020 2020 2020 2020  factId>.        
++00001190: 2020 2020 2020 3c67 726f 7570 4964 3e6f        <groupId>o
++000011a0: 7267 2e65 636c 6970 7365 2e70 6c61 7466  rg.eclipse.platf
++000011b0: 6f72 6d3c 2f67 726f 7570 4964 3e0a 2020  orm</groupId>.  
+ 000011c0: 2020 2020 2020 2020 2020 3c2f 6578 636c            </excl
+ 000011d0: 7573 696f 6e3e 0a20 2020 2020 2020 2020  usion>.         
+ 000011e0: 203c 2f65 7863 6c75 7369 6f6e 733e 0a20   </exclusions>. 
+ 000011f0: 2020 2020 2020 203c 2f64 6570 656e 6465         </depende
+ 00001200: 6e63 793e 0a20 2020 2020 203c 2f64 6570  ncy>.      </dep
+ 00001210: 656e 6465 6e63 6965 733e 0a20 2020 203c  endencies>.    <
+ 00001220: 2f70 726f 6669 6c65 3e0a 2020 2020 3c70  /profile>.    <p
+@@ -311,19 +311,19 @@
+ 00001360: 2f61 7274 6966 6163 7449 643e 0a20 2020  /artifactId>.   
+ 00001370: 2020 2020 2020 203c 7665 7273 696f 6e3e         <version>
+ 00001380: 332e 3130 382e 303c 2f76 6572 7369 6f6e  3.108.0</version
+ 00001390: 3e0a 2020 2020 2020 2020 2020 3c65 7863  >.          <exc
+ 000013a0: 6c75 7369 6f6e 733e 0a20 2020 2020 2020  lusions>.       
+ 000013b0: 2020 2020 203c 6578 636c 7573 696f 6e3e       <exclusion>
+ 000013c0: 0a20 2020 2020 2020 2020 2020 2020 203c  .              <
+-000013d0: 6772 6f75 7049 643e 6f72 672e 6563 6c69  groupId>org.ecli
+-000013e0: 7073 652e 706c 6174 666f 726d 3c2f 6772  pse.platform</gr
+-000013f0: 6f75 7049 643e 0a20 2020 2020 2020 2020  oupId>.         
+-00001400: 2020 2020 203c 6172 7469 6661 6374 4964       <artifactId
+-00001410: 3e2a 3c2f 6172 7469 6661 6374 4964 3e0a  >*</artifactId>.
++000013d0: 6172 7469 6661 6374 4964 3e2a 3c2f 6172  artifactId>*</ar
++000013e0: 7469 6661 6374 4964 3e0a 2020 2020 2020  tifactId>.      
++000013f0: 2020 2020 2020 2020 3c67 726f 7570 4964          <groupId
++00001400: 3e6f 7267 2e65 636c 6970 7365 2e70 6c61  >org.eclipse.pla
++00001410: 7466 6f72 6d3c 2f67 726f 7570 4964 3e0a  tform</groupId>.
+ 00001420: 2020 2020 2020 2020 2020 2020 3c2f 6578              </ex
+ 00001430: 636c 7573 696f 6e3e 0a20 2020 2020 2020  clusion>.       
+ 00001440: 2020 203c 2f65 7863 6c75 7369 6f6e 733e     </exclusions>
+ 00001450: 0a20 2020 2020 2020 203c 2f64 6570 656e  .        </depen
+ 00001460: 6465 6e63 793e 0a20 2020 2020 203c 2f64  dency>.      </d
+ 00001470: 6570 656e 6465 6e63 6965 733e 0a20 2020  ependencies>.   
+ 00001480: 203c 2f70 726f 6669 6c65 3e0a 2020 2020   </profile>.    
+@@ -349,20 +349,20 @@
+ 000015c0: 782e 7838 365f 3634 3c2f 6172 7469 6661  x.x86_64</artifa
+ 000015d0: 6374 4964 3e0a 2020 2020 2020 2020 2020  ctId>.          
+ 000015e0: 3c76 6572 7369 6f6e 3e33 2e31 3138 2e30  <version>3.118.0
+ 000015f0: 3c2f 7665 7273 696f 6e3e 0a20 2020 2020  </version>.     
+ 00001600: 2020 2020 203c 6578 636c 7573 696f 6e73       <exclusions
+ 00001610: 3e0a 2020 2020 2020 2020 2020 2020 3c65  >.            <e
+ 00001620: 7863 6c75 7369 6f6e 3e0a 2020 2020 2020  xclusion>.      
+-00001630: 2020 2020 2020 2020 3c67 726f 7570 4964          <groupId
+-00001640: 3e6f 7267 2e65 636c 6970 7365 2e70 6c61  >org.eclipse.pla
+-00001650: 7466 6f72 6d3c 2f67 726f 7570 4964 3e0a  tform</groupId>.
+-00001660: 2020 2020 2020 2020 2020 2020 2020 3c61                <a
+-00001670: 7274 6966 6163 7449 643e 2a3c 2f61 7274  rtifactId>*</art
+-00001680: 6966 6163 7449 643e 0a20 2020 2020 2020  ifactId>.       
++00001630: 2020 2020 2020 2020 3c61 7274 6966 6163          <artifac
++00001640: 7449 643e 2a3c 2f61 7274 6966 6163 7449  tId>*</artifactI
++00001650: 643e 0a20 2020 2020 2020 2020 2020 2020  d>.             
++00001660: 203c 6772 6f75 7049 643e 6f72 672e 6563   <groupId>org.ec
++00001670: 6c69 7073 652e 706c 6174 666f 726d 3c2f  lipse.platform</
++00001680: 6772 6f75 7049 643e 0a20 2020 2020 2020  groupId>.       
+ 00001690: 2020 2020 203c 2f65 7863 6c75 7369 6f6e       </exclusion
+ 000016a0: 3e0a 2020 2020 2020 2020 2020 3c2f 6578  >.          </ex
+ 000016b0: 636c 7573 696f 6e73 3e0a 2020 2020 2020  clusions>.      
+ 000016c0: 2020 3c2f 6465 7065 6e64 656e 6379 3e0a    </dependency>.
+ 000016d0: 2020 2020 2020 3c2f 6465 7065 6e64 656e        </dependen
+ 000016e0: 6369 6573 3e0a 2020 2020 3c2f 7072 6f66  cies>.    </prof
+ 000016f0: 696c 653e 0a20 2020 203c 7072 6f66 696c  ile>.    <profil
+@@ -388,19 +388,19 @@
+ 00001830: 7838 363c 2f61 7274 6966 6163 7449 643e  x86</artifactId>
+ 00001840: 0a20 2020 2020 2020 2020 203c 7665 7273  .          <vers
+ 00001850: 696f 6e3e 332e 3130 382e 303c 2f76 6572  ion>3.108.0</ver
+ 00001860: 7369 6f6e 3e0a 2020 2020 2020 2020 2020  sion>.          
+ 00001870: 3c65 7863 6c75 7369 6f6e 733e 0a20 2020  <exclusions>.   
+ 00001880: 2020 2020 2020 2020 203c 6578 636c 7573           <exclus
+ 00001890: 696f 6e3e 0a20 2020 2020 2020 2020 2020  ion>.           
+-000018a0: 2020 203c 6772 6f75 7049 643e 6f72 672e     <groupId>org.
+-000018b0: 6563 6c69 7073 652e 706c 6174 666f 726d  eclipse.platform
+-000018c0: 3c2f 6772 6f75 7049 643e 0a20 2020 2020  </groupId>.     
+-000018d0: 2020 2020 2020 2020 203c 6172 7469 6661           <artifa
+-000018e0: 6374 4964 3e2a 3c2f 6172 7469 6661 6374  ctId>*</artifact
++000018a0: 2020 203c 6172 7469 6661 6374 4964 3e2a     <artifactId>*
++000018b0: 3c2f 6172 7469 6661 6374 4964 3e0a 2020  </artifactId>.  
++000018c0: 2020 2020 2020 2020 2020 2020 3c67 726f              <gro
++000018d0: 7570 4964 3e6f 7267 2e65 636c 6970 7365  upId>org.eclipse
++000018e0: 2e70 6c61 7466 6f72 6d3c 2f67 726f 7570  .platform</group
+ 000018f0: 4964 3e0a 2020 2020 2020 2020 2020 2020  Id>.            
+ 00001900: 3c2f 6578 636c 7573 696f 6e3e 0a20 2020  </exclusion>.   
+ 00001910: 2020 2020 2020 203c 2f65 7863 6c75 7369         </exclusi
+ 00001920: 6f6e 733e 0a20 2020 2020 2020 203c 2f64  ons>.        </d
+ 00001930: 6570 656e 6465 6e63 793e 0a20 2020 2020  ependency>.     
+ 00001940: 203c 2f64 6570 656e 6465 6e63 6965 733e   </dependencies>
+ 00001950: 0a20 2020 203c 2f70 726f 6669 6c65 3e0a  .    </profile>.
+@@ -427,20 +427,20 @@
+ 00001aa0: 7838 365f 3634 3c2f 6172 7469 6661 6374  x86_64</artifact
+ 00001ab0: 4964 3e0a 2020 2020 2020 2020 2020 3c76  Id>.          <v
+ 00001ac0: 6572 7369 6f6e 3e33 2e31 3138 2e30 3c2f  ersion>3.118.0</
+ 00001ad0: 7665 7273 696f 6e3e 0a20 2020 2020 2020  version>.       
+ 00001ae0: 2020 203c 6578 636c 7573 696f 6e73 3e0a     <exclusions>.
+ 00001af0: 2020 2020 2020 2020 2020 2020 3c65 7863              <exc
+ 00001b00: 6c75 7369 6f6e 3e0a 2020 2020 2020 2020  lusion>.        
+-00001b10: 2020 2020 2020 3c67 726f 7570 4964 3e6f        <groupId>o
+-00001b20: 7267 2e65 636c 6970 7365 2e70 6c61 7466  rg.eclipse.platf
+-00001b30: 6f72 6d3c 2f67 726f 7570 4964 3e0a 2020  orm</groupId>.  
+-00001b40: 2020 2020 2020 2020 2020 2020 3c61 7274              <art
+-00001b50: 6966 6163 7449 643e 2a3c 2f61 7274 6966  ifactId>*</artif
+-00001b60: 6163 7449 643e 0a20 2020 2020 2020 2020  actId>.         
++00001b10: 2020 2020 2020 3c61 7274 6966 6163 7449        <artifactI
++00001b20: 643e 2a3c 2f61 7274 6966 6163 7449 643e  d>*</artifactId>
++00001b30: 0a20 2020 2020 2020 2020 2020 2020 203c  .              <
++00001b40: 6772 6f75 7049 643e 6f72 672e 6563 6c69  groupId>org.ecli
++00001b50: 7073 652e 706c 6174 666f 726d 3c2f 6772  pse.platform</gr
++00001b60: 6f75 7049 643e 0a20 2020 2020 2020 2020  oupId>.         
+ 00001b70: 2020 203c 2f65 7863 6c75 7369 6f6e 3e0a     </exclusion>.
+ 00001b80: 2020 2020 2020 2020 2020 3c2f 6578 636c            </excl
+ 00001b90: 7573 696f 6e73 3e0a 2020 2020 2020 2020  usions>.        
+ 00001ba0: 3c2f 6465 7065 6e64 656e 6379 3e0a 2020  </dependency>.  
+ 00001bb0: 2020 2020 3c2f 6465 7065 6e64 656e 6369      </dependenci
+ 00001bc0: 6573 3e0a 2020 2020 3c2f 7072 6f66 696c  es>.    </profil
+ 00001bd0: 653e 0a20 203c 2f70 726f 6669 6c65 733e  e>.  </profiles>
+
+target/reference/jface-utils-19.0.1.jar target/jface-utils-19.0.1.jar
+--- target/reference/jface-utils-19.0.1.jar
++++ target/jface-utils-19.0.1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 518087 bytes, number of entries: 389
+│ +Zip file size: 518083 bytes, number of entries: 389
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-13 20:58 META-INF/
+│  -rw-r--r--  2.0 unx      263 b- defN 22-Feb-13 20:58 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-13 20:58 io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-13 20:58 io/github/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-13 20:58 io/github/albertus82/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-13 20:58 io/github/albertus82/jface/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-13 20:58 io/github/albertus82/jface/closeable/
+│ @@ -384,8 +384,8 @@
+│  -rw-r--r--  2.0 unx     6125 b- defN 22-Feb-13 20:58 io/github/albertus82/util/logging/TimeBasedRollingFileHandler.class
+│  -rw-r--r--  2.0 unx     2349 b- defN 22-Feb-13 20:58 io/github/albertus82/util/logging/TimeBasedRollingFileHandlerConfig.class
+│  -rw-r--r--  2.0 unx      496 b- defN 22-Feb-13 20:58 io/github/albertus82/util/logging/annotation/ExcludeLoggers.class
+│  -rw-r--r--  2.0 unx      485 b- defN 22-Feb-13 20:58 io/github/albertus82/util/logging/annotation/LogFormat.class
+│  -rw-r--r--  2.0 unx     2147 b- defN 22-Feb-13 20:58 io/github/albertus82/util/sql/SqlUtils.class
+│  -rw-r--r--  2.0 unx     7148 b- defN 22-Feb-13 20:58 META-INF/maven/io.github.albertus82/jface-utils/pom.xml
+│  -rw-r--r--  2.0 unx       67 b- defN 22-Feb-13 20:58 META-INF/maven/io.github.albertus82/jface-utils/pom.properties
+│ -389 files, 1078895 bytes uncompressed, 440931 bytes compressed:  59.1%
+│ +389 files, 1078895 bytes uncompressed, 440927 bytes compressed:  59.1%
+├── META-INF/maven/io.github.albertus82/jface-utils/pom.xml
+│ ├── META-INF/maven/io.github.albertus82/jface-utils/pom.xml
+│ │ @@ -31,16 +31,16 @@
+│ │      <dependency>
+│ │        <groupId>org.eclipse.platform</groupId>
+│ │        <artifactId>org.eclipse.jface</artifactId>
+│ │        <version>3.24.0</version>
+│ │        <scope>compile</scope>
+│ │        <exclusions>
+│ │          <exclusion>
+│ │ -          <groupId>org.eclipse.platform</groupId>
+│ │            <artifactId>*</artifactId>
+│ │ +          <groupId>org.eclipse.platform</groupId>
+│ │          </exclusion>
+│ │        </exclusions>
+│ │      </dependency>
+│ │      <dependency>
+│ │        <groupId>org.eclipse.platform</groupId>
+│ │        <artifactId>org.eclipse.core.commands</artifactId>
+│ │        <version>3.10.100</version>
+│ │ @@ -85,16 +85,16 @@
+│ │        <dependencies>
+│ │          <dependency>
+│ │            <groupId>org.eclipse.platform</groupId>
+│ │            <artifactId>org.eclipse.swt.cocoa.macosx.aarch64</artifactId>
+│ │            <version>3.118.0</version>
+│ │            <exclusions>
+│ │              <exclusion>
+│ │ -              <groupId>org.eclipse.platform</groupId>
+│ │                <artifactId>*</artifactId>
+│ │ +              <groupId>org.eclipse.platform</groupId>
+│ │              </exclusion>
+│ │            </exclusions>
+│ │          </dependency>
+│ │        </dependencies>
+│ │      </profile>
+│ │      <profile>
+│ │        <id>cocoa-macosx-x86_64</id>
+│ │ @@ -107,16 +107,16 @@
+│ │        <dependencies>
+│ │          <dependency>
+│ │            <groupId>org.eclipse.platform</groupId>
+│ │            <artifactId>org.eclipse.swt.cocoa.macosx.x86_64</artifactId>
+│ │            <version>3.118.0</version>
+│ │            <exclusions>
+│ │              <exclusion>
+│ │ -              <groupId>org.eclipse.platform</groupId>
+│ │                <artifactId>*</artifactId>
+│ │ +              <groupId>org.eclipse.platform</groupId>
+│ │              </exclusion>
+│ │            </exclusions>
+│ │          </dependency>
+│ │        </dependencies>
+│ │      </profile>
+│ │      <profile>
+│ │        <id>gtk-linux-aarch64</id>
+│ │ @@ -129,16 +129,16 @@
+│ │        <dependencies>
+│ │          <dependency>
+│ │            <groupId>org.eclipse.platform</groupId>
+│ │            <artifactId>org.eclipse.swt.gtk.linux.aarch64</artifactId>
+│ │            <version>3.118.0</version>
+│ │            <exclusions>
+│ │              <exclusion>
+│ │ -              <groupId>org.eclipse.platform</groupId>
+│ │                <artifactId>*</artifactId>
+│ │ +              <groupId>org.eclipse.platform</groupId>
+│ │              </exclusion>
+│ │            </exclusions>
+│ │          </dependency>
+│ │        </dependencies>
+│ │      </profile>
+│ │      <profile>
+│ │        <id>gtk-linux-x86</id>
+│ │ @@ -151,16 +151,16 @@
+│ │        <dependencies>
+│ │          <dependency>
+│ │            <groupId>org.eclipse.platform</groupId>
+│ │            <artifactId>org.eclipse.swt.gtk.linux.x86</artifactId>
+│ │            <version>3.108.0</version>
+│ │            <exclusions>
+│ │              <exclusion>
+│ │ -              <groupId>org.eclipse.platform</groupId>
+│ │                <artifactId>*</artifactId>
+│ │ +              <groupId>org.eclipse.platform</groupId>
+│ │              </exclusion>
+│ │            </exclusions>
+│ │          </dependency>
+│ │        </dependencies>
+│ │      </profile>
+│ │      <profile>
+│ │        <id>gtk-linux-x86_64</id>
+│ │ @@ -173,16 +173,16 @@
+│ │        <dependencies>
+│ │          <dependency>
+│ │            <groupId>org.eclipse.platform</groupId>
+│ │            <artifactId>org.eclipse.swt.gtk.linux.x86_64</artifactId>
+│ │            <version>3.118.0</version>
+│ │            <exclusions>
+│ │              <exclusion>
+│ │ -              <groupId>org.eclipse.platform</groupId>
+│ │                <artifactId>*</artifactId>
+│ │ +              <groupId>org.eclipse.platform</groupId>
+│ │              </exclusion>
+│ │            </exclusions>
+│ │          </dependency>
+│ │        </dependencies>
+│ │      </profile>
+│ │      <profile>
+│ │        <id>win32-win32-x86</id>
+│ │ @@ -195,16 +195,16 @@
+│ │        <dependencies>
+│ │          <dependency>
+│ │            <groupId>org.eclipse.platform</groupId>
+│ │            <artifactId>org.eclipse.swt.win32.win32.x86</artifactId>
+│ │            <version>3.108.0</version>
+│ │            <exclusions>
+│ │              <exclusion>
+│ │ -              <groupId>org.eclipse.platform</groupId>
+│ │                <artifactId>*</artifactId>
+│ │ +              <groupId>org.eclipse.platform</groupId>
+│ │              </exclusion>
+│ │            </exclusions>
+│ │          </dependency>
+│ │        </dependencies>
+│ │      </profile>
+│ │      <profile>
+│ │        <id>win32-win32-x86_64</id>
+│ │ @@ -217,16 +217,16 @@
+│ │        <dependencies>
+│ │          <dependency>
+│ │            <groupId>org.eclipse.platform</groupId>
+│ │            <artifactId>org.eclipse.swt.win32.win32.x86_64</artifactId>
+│ │            <version>3.118.0</version>
+│ │            <exclusions>
+│ │              <exclusion>
+│ │ -              <groupId>org.eclipse.platform</groupId>
+│ │                <artifactId>*</artifactId>
+│ │ +              <groupId>org.eclipse.platform</groupId>
+│ │              </exclusion>
+│ │            </exclusions>
+│ │          </dependency>
+│ │        </dependencies>
+│ │      </profile>
+│ │    </profiles>
+│ │  </project>
+
+target/reference/jface-utils-19.0.1-sources.jar target/jface-utils-19.0.1-sources.jar
+--- target/reference/jface-utils-19.0.1-sources.jar
++++ target/jface-utils-19.0.1-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 268129 bytes, number of entries: 259
+│ +Zip file size: 268125 bytes, number of entries: 259
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Feb-13 20:58 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-13 20:58 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-13 20:58 io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-13 20:58 io/github/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-13 20:58 io/github/albertus82/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-13 20:58 io/github/albertus82/jface/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-13 20:58 io/github/albertus82/jface/closeable/
+│ @@ -254,8 +254,8 @@
+│  -rw-r--r--  2.0 unx     1094 b- defN 22-Feb-13 20:58 io/github/albertus82/jface/maps/leaflet/map.html
+│  -rw-r--r--  2.0 unx     1454 b- defN 22-Feb-13 20:58 io/github/albertus82/net/httpserver/http-codes.properties
+│  -rw-r--r--  2.0 unx    62733 b- defN 22-Feb-13 20:58 io/github/albertus82/net/mime.types
+│  -rw-r--r--  2.0 unx     7817 b- defN 22-Feb-13 20:58 META-INF/LICENSE.txt
+│  -rw-r--r--  2.0 unx    17269 b- defN 22-Feb-13 20:58 META-INF/README.md
+│  -rw-r--r--  2.0 unx     7148 b- defN 22-Feb-13 20:58 META-INF/maven/io.github.albertus82/jface-utils/pom.xml
+│  -rw-r--r--  2.0 unx       67 b- defN 22-Feb-13 20:58 META-INF/maven/io.github.albertus82/jface-utils/pom.properties
+│ -259 files, 798725 bytes uncompressed, 219805 bytes compressed:  72.5%
+│ +259 files, 798725 bytes uncompressed, 219801 bytes compressed:  72.5%
+├── META-INF/maven/io.github.albertus82/jface-utils/pom.xml
+│ ├── META-INF/maven/io.github.albertus82/jface-utils/pom.xml
+│ │ @@ -31,16 +31,16 @@
+│ │      <dependency>
+│ │        <groupId>org.eclipse.platform</groupId>
+│ │        <artifactId>org.eclipse.jface</artifactId>
+│ │        <version>3.24.0</version>
+│ │        <scope>compile</scope>
+│ │        <exclusions>
+│ │          <exclusion>
+│ │ -          <groupId>org.eclipse.platform</groupId>
+│ │            <artifactId>*</artifactId>
+│ │ +          <groupId>org.eclipse.platform</groupId>
+│ │          </exclusion>
+│ │        </exclusions>
+│ │      </dependency>
+│ │      <dependency>
+│ │        <groupId>org.eclipse.platform</groupId>
+│ │        <artifactId>org.eclipse.core.commands</artifactId>
+│ │        <version>3.10.100</version>
+│ │ @@ -85,16 +85,16 @@
+│ │        <dependencies>
+│ │          <dependency>
+│ │            <groupId>org.eclipse.platform</groupId>
+│ │            <artifactId>org.eclipse.swt.cocoa.macosx.aarch64</artifactId>
+│ │            <version>3.118.0</version>
+│ │            <exclusions>
+│ │              <exclusion>
+│ │ -              <groupId>org.eclipse.platform</groupId>
+│ │                <artifactId>*</artifactId>
+│ │ +              <groupId>org.eclipse.platform</groupId>
+│ │              </exclusion>
+│ │            </exclusions>
+│ │          </dependency>
+│ │        </dependencies>
+│ │      </profile>
+│ │      <profile>
+│ │        <id>cocoa-macosx-x86_64</id>
+│ │ @@ -107,16 +107,16 @@
+│ │        <dependencies>
+│ │          <dependency>
+│ │            <groupId>org.eclipse.platform</groupId>
+│ │            <artifactId>org.eclipse.swt.cocoa.macosx.x86_64</artifactId>
+│ │            <version>3.118.0</version>
+│ │            <exclusions>
+│ │              <exclusion>
+│ │ -              <groupId>org.eclipse.platform</groupId>
+│ │                <artifactId>*</artifactId>
+│ │ +              <groupId>org.eclipse.platform</groupId>
+│ │              </exclusion>
+│ │            </exclusions>
+│ │          </dependency>
+│ │        </dependencies>
+│ │      </profile>
+│ │      <profile>
+│ │        <id>gtk-linux-aarch64</id>
+│ │ @@ -129,16 +129,16 @@
+│ │        <dependencies>
+│ │          <dependency>
+│ │            <groupId>org.eclipse.platform</groupId>
+│ │            <artifactId>org.eclipse.swt.gtk.linux.aarch64</artifactId>
+│ │            <version>3.118.0</version>
+│ │            <exclusions>
+│ │              <exclusion>
+│ │ -              <groupId>org.eclipse.platform</groupId>
+│ │                <artifactId>*</artifactId>
+│ │ +              <groupId>org.eclipse.platform</groupId>
+│ │              </exclusion>
+│ │            </exclusions>
+│ │          </dependency>
+│ │        </dependencies>
+│ │      </profile>
+│ │      <profile>
+│ │        <id>gtk-linux-x86</id>
+│ │ @@ -151,16 +151,16 @@
+│ │        <dependencies>
+│ │          <dependency>
+│ │            <groupId>org.eclipse.platform</groupId>
+│ │            <artifactId>org.eclipse.swt.gtk.linux.x86</artifactId>
+│ │            <version>3.108.0</version>
+│ │            <exclusions>
+│ │              <exclusion>
+│ │ -              <groupId>org.eclipse.platform</groupId>
+│ │                <artifactId>*</artifactId>
+│ │ +              <groupId>org.eclipse.platform</groupId>
+│ │              </exclusion>
+│ │            </exclusions>
+│ │          </dependency>
+│ │        </dependencies>
+│ │      </profile>
+│ │      <profile>
+│ │        <id>gtk-linux-x86_64</id>
+│ │ @@ -173,16 +173,16 @@
+│ │        <dependencies>
+│ │          <dependency>
+│ │            <groupId>org.eclipse.platform</groupId>
+│ │            <artifactId>org.eclipse.swt.gtk.linux.x86_64</artifactId>
+│ │            <version>3.118.0</version>
+│ │            <exclusions>
+│ │              <exclusion>
+│ │ -              <groupId>org.eclipse.platform</groupId>
+│ │                <artifactId>*</artifactId>
+│ │ +              <groupId>org.eclipse.platform</groupId>
+│ │              </exclusion>
+│ │            </exclusions>
+│ │          </dependency>
+│ │        </dependencies>
+│ │      </profile>
+│ │      <profile>
+│ │        <id>win32-win32-x86</id>
+│ │ @@ -195,16 +195,16 @@
+│ │        <dependencies>
+│ │          <dependency>
+│ │            <groupId>org.eclipse.platform</groupId>
+│ │            <artifactId>org.eclipse.swt.win32.win32.x86</artifactId>
+│ │            <version>3.108.0</version>
+│ │            <exclusions>
+│ │              <exclusion>
+│ │ -              <groupId>org.eclipse.platform</groupId>
+│ │                <artifactId>*</artifactId>
+│ │ +              <groupId>org.eclipse.platform</groupId>
+│ │              </exclusion>
+│ │            </exclusions>
+│ │          </dependency>
+│ │        </dependencies>
+│ │      </profile>
+│ │      <profile>
+│ │        <id>win32-win32-x86_64</id>
+│ │ @@ -217,16 +217,16 @@
+│ │        <dependencies>
+│ │          <dependency>
+│ │            <groupId>org.eclipse.platform</groupId>
+│ │            <artifactId>org.eclipse.swt.win32.win32.x86_64</artifactId>
+│ │            <version>3.118.0</version>
+│ │            <exclusions>
+│ │              <exclusion>
+│ │ -              <groupId>org.eclipse.platform</groupId>
+│ │                <artifactId>*</artifactId>
+│ │ +              <groupId>org.eclipse.platform</groupId>
+│ │              </exclusion>
+│ │            </exclusions>
+│ │          </dependency>
+│ │        </dependencies>
+│ │      </profile>
+│ │    </profiles>
+│ │  </project>
+
