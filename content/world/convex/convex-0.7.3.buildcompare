@@ -1,0 +1,19 @@
+version=0.7.3
+ok=6
+ko=12
+okFiles="convex-0.7.3.pom convex-core-0.7.3.pom convex-peer-0.7.3.pom convex-gui-0.7.3.pom convex-cli-0.7.3.pom convex-benchmarks-0.7.3.pom"
+koFiles="convex-core-0.7.3.jar convex-core-0.7.3-sources.jar convex-peer-0.7.3.jar convex-peer-0.7.3-sources.jar convex-gui-0.7.3.jar convex-gui-0.7.3-sources.jar convex-gui-0.7.3-jar-with-dependencies.jar convex-cli-0.7.3.jar convex-cli-0.7.3-sources.jar convex-benchmarks-0.7.3.jar convex-benchmarks-0.7.3-sources.jar convex-benchmarks-0.7.3-jar-with-dependencies.jar"
+reference_java_version="16.0.1 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/convex-core-0.7.3.jar convex-core/target/convex-core-0.7.3.jar
+# diffoscope target/reference/convex-core-0.7.3-sources.jar convex-core/target/convex-core-0.7.3-sources.jar
+# diffoscope target/reference/convex-peer-0.7.3.jar convex-peer/target/convex-peer-0.7.3.jar
+# diffoscope target/reference/convex-peer-0.7.3-sources.jar convex-peer/target/convex-peer-0.7.3-sources.jar
+# diffoscope target/reference/convex-gui-0.7.3.jar convex-gui/target/convex-gui-0.7.3.jar
+# diffoscope target/reference/convex-gui-0.7.3-sources.jar convex-gui/target/convex-gui-0.7.3-sources.jar
+# diffoscope target/reference/convex-gui-0.7.3-jar-with-dependencies.jar convex-gui/target/convex-gui-0.7.3-jar-with-dependencies.jar
+# diffoscope target/reference/convex-cli-0.7.3.jar convex-cli/target/convex-cli.jar
+# diffoscope target/reference/convex-cli-0.7.3-sources.jar convex-cli/target/convex-cli-0.7.3-sources.jar
+# diffoscope target/reference/convex-benchmarks-0.7.3.jar convex-benchmarks/target/convex-benchmarks.jar
+# diffoscope target/reference/convex-benchmarks-0.7.3-sources.jar convex-benchmarks/target/convex-benchmarks-sources.jar
+# diffoscope target/reference/convex-benchmarks-0.7.3-jar-with-dependencies.jar convex-benchmarks/target/convex-benchmarks-jar-with-dependencies.jar

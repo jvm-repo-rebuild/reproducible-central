@@ -4,7 +4,7 @@ version=0.7.2
 
 display=${groupId}:${artifactId}
 
-gitRepo=https://github.com/Convex-Dev//${artifactId}.git
+gitRepo=https://github.com/Convex-Dev/${artifactId}.git
 gitTag=22bb34e2a2c680f9eafe674b0f688c41413f746f
 
 tool=mvn

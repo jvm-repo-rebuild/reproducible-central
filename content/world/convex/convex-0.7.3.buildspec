@@ -1,11 +1,11 @@
 groupId=world.convex
 artifactId=convex
-version=0.7.0-rc2
+version=0.7.3
 
 display=${groupId}:${artifactId}
 
 gitRepo=https://github.com/Convex-Dev/${artifactId}.git
-gitTag=f766c0e6d317603ded1236bfc7d32fc15b2ea18a
+gitTag=64d1216c6659a766f58e64aacf774d20293a5860
 
 tool=mvn
 jdk=16
