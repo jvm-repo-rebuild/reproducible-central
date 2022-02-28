@@ -1,0 +1,8 @@
+version=0.7.4
+ok=17
+ko=1
+okFiles="convex-0.7.4.pom convex-core-0.7.4.pom convex-core-0.7.4.jar convex-peer-0.7.4.pom convex-peer-0.7.4.jar convex-peer-0.7.4-sources.jar convex-gui-0.7.4.pom convex-gui-0.7.4.jar convex-gui-0.7.4-sources.jar convex-gui-0.7.4-jar-with-dependencies.jar convex-cli-0.7.4.pom convex-cli-0.7.4.jar convex-cli-0.7.4-sources.jar convex-benchmarks-0.7.4.pom convex-benchmarks-0.7.4.jar convex-benchmarks-0.7.4-sources.jar convex-benchmarks-0.7.4-jar-with-dependencies.jar"
+koFiles="convex-core-0.7.4-sources.jar"
+reference_java_version="16 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/convex-core-0.7.4-sources.jar convex-core/target/convex-core-0.7.4-sources.jar
