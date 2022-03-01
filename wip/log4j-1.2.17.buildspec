@@ -1,0 +1,36 @@
+groupId=org.apache.logging.log4j
+artifactId=log4j
+display=${groupId}:${artifactId}
+version=2.17.2-rc1
+
+gitRepo=https://github.com/apache/logging-${artifactId}2.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+# issue when running, same as https://github.com/jvm-repo-rebuild/reproducible-central/issues/53:
+# [INFO] --------------< org.apache.logging.log4j:log4j-api-java9 >--------------
+# [INFO] Building Apache Log4j API Java 9 support 2.17.2                   [2/47]
+# [INFO] --------------------------------[ pom ]---------------------------------
+# [INFO] 
+# [INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ log4j-api-java9 ---
+# [INFO] 
+# [INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven-version) @ log4j-api-java9 ---
+# [INFO] 
+# [INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-java-version) @ log4j-api-java9 ---
+# [INFO] 
+# [INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-output-timestamp-property) @ log4j-api-java9 ---
+# [INFO] 
+# [INFO] --- maven-toolchains-plugin:3.0.0:toolchain (default) @ log4j-api-java9 ---
+# [INFO] Required toolchain: jdk [ version='[9, )' ]
+# [ERROR] No toolchain found for type jdk
+# [ERROR] Cannot find matching toolchain definitions for the following toolchain types:
+# jdk [ version='[9, )' ]
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
