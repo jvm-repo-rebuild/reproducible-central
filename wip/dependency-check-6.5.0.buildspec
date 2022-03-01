@@ -11,6 +11,8 @@ tool=mvn
 jdk=8
 newline=lf
 
+# [WARNING] Reproducible Build output summary: 6 files ok, 10 different, 6 missing
+# this projects publishes its buildinfo to central, which seems to break artifact:compare...
 command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
