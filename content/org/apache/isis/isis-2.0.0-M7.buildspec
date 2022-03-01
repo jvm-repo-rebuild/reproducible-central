@@ -1,0 +1,20 @@
+groupId=org.apache.isis
+artifactId=isis-all
+version=2.0.0-M7
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/apache/isis.git
+gitTag=rel/isis-${version}
+
+tool=mvn
+jdk=11
+newline=crlf
+
+# need to do mvn clean by hand, then create target directory in reactor root
+command="mvn package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-2.0.0-SNAPSHOT.buildinfo
+# after run, will need to rename to match release version
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=
