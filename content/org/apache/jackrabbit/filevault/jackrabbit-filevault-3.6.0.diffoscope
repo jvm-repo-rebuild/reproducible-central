@@ -1,0 +1,641 @@
+target/reference/vault-hook-example-3.6.0.jar vault-hook-example/target/vault-hook-example-3.6.0.jar
+--- target/reference/vault-hook-example-3.6.0.jar
++++ vault-hook-example/target/vault-hook-example-3.6.0.jar
+├── zipinfo {}
+│ @@ -1,20 +1,20 @@
+│ -Zip file size: 11256 bytes, number of entries: 18
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 META-INF/
+│ --rw-r--r--  2.0 unx      620 b- defN 22-Feb-26 11:26 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 org/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 org/apache/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 org/apache/jackrabbit/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 org/apache/jackrabbit/vault/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 org/apache/jackrabbit/vault/packaging/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 org/apache/jackrabbit/vault/packaging/hooks/
+│ --rw-r--r--  2.0 unx     4388 b- defN 22-Feb-26 11:26 org/apache/jackrabbit/vault/packaging/hooks/ExampleHook.class
+│ --rw-r--r--  2.0 unx     1103 b- defN 22-Feb-26 11:26 org/apache/jackrabbit/vault/packaging/hooks/ExampleHook$1.class
+│ --rw-r--r--  2.0 unx    11358 b- defN 22-Feb-26 11:26 META-INF/LICENSE
+│ --rw-r--r--  2.0 unx      609 b- defN 22-Feb-26 11:26 META-INF/DEPENDENCIES
+│ --rw-r--r--  2.0 unx      200 b- defN 22-Feb-26 11:26 META-INF/NOTICE
+│ -?rwsrwsrwt  2.0 unx        0 b- stor 22-Feb-26 11:26 META-INF/maven/
+│ -?rwsrwsrwt  2.0 unx        0 b- stor 22-Feb-26 11:26 META-INF/maven/org.apache.jackrabbit.vault/
+│ -?rwsrwsrwt  2.0 unx        0 b- stor 22-Feb-26 11:26 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-example/
+│ --rw-r--r--  2.0 unx     4834 b- defN 22-Feb-26 11:24 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-example/pom.xml
+│ --rw-r--r--  2.0 unx      130 b- defN 22-Feb-26 11:26 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-example/pom.properties
+│ -18 files, 23242 bytes uncompressed, 8632 bytes compressed:  62.9%
+│ +Zip file size: 11251 bytes, number of entries: 18
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 META-INF/
+│ +-rw-r--r--  2.0 unx      608 b- defN 22-Mar-03 11:16 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 org/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 org/apache/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 org/apache/jackrabbit/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 org/apache/jackrabbit/vault/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 org/apache/jackrabbit/vault/packaging/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 org/apache/jackrabbit/vault/packaging/hooks/
+│ +-rw-r--r--  2.0 unx      609 b- defN 22-Mar-03 11:16 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx      200 b- defN 22-Mar-03 11:16 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx    11358 b- defN 22-Mar-03 11:16 META-INF/LICENSE
+│ +-rw-r--r--  2.0 unx     1103 b- defN 22-Mar-03 11:16 org/apache/jackrabbit/vault/packaging/hooks/ExampleHook$1.class
+│ +-rw-r--r--  2.0 unx     4388 b- defN 22-Mar-03 11:16 org/apache/jackrabbit/vault/packaging/hooks/ExampleHook.class
+│ +?rwsrwsrwt  2.0 unx        0 b- stor 22-Mar-03 11:16 META-INF/maven/
+│ +?rwsrwsrwt  2.0 unx        0 b- stor 22-Mar-03 11:16 META-INF/maven/org.apache.jackrabbit.vault/
+│ +?rwsrwsrwt  2.0 unx        0 b- stor 22-Mar-03 11:16 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-example/
+│ +-rw-rw-r--  2.0 unx     4834 b- defN 22-Mar-03 11:16 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-example/pom.xml
+│ +-rw-r--r--  2.0 unx      130 b- defN 22-Mar-03 11:16 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-example/pom.properties
+│ +18 files, 23230 bytes uncompressed, 8627 bytes compressed:  62.9%
+├── zipnote «TEMP»/diffoscope_8qf9lp8o_target/tmpxbxkd9yr.zip
+│ @@ -18,27 +18,27 @@
+│  
+│  Filename: org/apache/jackrabbit/vault/packaging/
+│  Comment: 
+│  
+│  Filename: org/apache/jackrabbit/vault/packaging/hooks/
+│  Comment: 
+│  
+│ -Filename: org/apache/jackrabbit/vault/packaging/hooks/ExampleHook.class
+│ +Filename: META-INF/DEPENDENCIES
+│  Comment: 
+│  
+│ -Filename: org/apache/jackrabbit/vault/packaging/hooks/ExampleHook$1.class
+│ +Filename: META-INF/NOTICE
+│  Comment: 
+│  
+│  Filename: META-INF/LICENSE
+│  Comment: 
+│  
+│ -Filename: META-INF/DEPENDENCIES
+│ +Filename: org/apache/jackrabbit/vault/packaging/hooks/ExampleHook$1.class
+│  Comment: 
+│  
+│ -Filename: META-INF/NOTICE
+│ +Filename: org/apache/jackrabbit/vault/packaging/hooks/ExampleHook.class
+│  Comment: 
+│  
+│  Filename: META-INF/maven/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.jackrabbit.vault/
+│  Comment:
+├── META-INF/MANIFEST.MF
+│ @@ -1,12 +1,12 @@
+│  Manifest-Version: 1.0
+│  Archiver-Version: Plexus Archiver
+│  Created-By: Apache Maven
+│ -Built-By: konradwindszus
+│ -Build-Jdk: 11.0.14
+│ +Built-By: ?
+│ +Build-Jdk: 11.0.9.1
+│  Specification-Title: Apache Jackrabbit FileVault Package Hook Example
+│  Specification-Version: 3.6.0
+│  Specification-Vendor: The Apache Software Foundation
+│  Implementation-Title: Apache Jackrabbit FileVault Package Hook Example
+│  Implementation-Version: 3.6.0
+│  Implementation-Vendor-Id: org.apache.jackrabbit.vault
+│  Implementation-Vendor: The Apache Software Foundation
+├── META-INF/maven/org.apache.jackrabbit.vault/vault-hook-example/pom.properties
+│ @@ -1,5 +1,5 @@
+│  #Generated by Maven
+│ -#Sat Feb 26 11:26:06 CET 2022
+│ +#Thu Mar 03 11:16:49 UTC 2022
+│  groupId=org.apache.jackrabbit.vault
+│  artifactId=vault-hook-example
+│  version=3.6.0
+
+target/reference/vault-hook-example-3.6.0-package.zip vault-hook-example/target/vault-hook-example-3.6.0-package.zip
+--- target/reference/vault-hook-example-3.6.0-package.zip
++++ vault-hook-example/target/vault-hook-example-3.6.0-package.zip
+├── zipinfo {}
+│ @@ -1,15 +1,15 @@
+│ -Zip file size: 15334 bytes, number of entries: 13
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:24 META-INF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:24 META-INF/vault/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:24 META-INF/vault/definition/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:24 jcr_root/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:24 jcr_root/testroot/
+│ --rw-r--r--  2.0 unx     1768 b- defN 22-Feb-26 11:24 META-INF/vault/properties.xml
+│ --rw-r--r--  2.0 unx     3592 b- defN 22-Feb-26 11:24 META-INF/vault/config.xml
+│ --rw-r--r--  2.0 unx     1510 b- defN 22-Feb-26 11:24 META-INF/vault/definition/.content.xml
+│ --rw-r--r--  2.0 unx      912 b- defN 22-Feb-26 11:24 META-INF/vault/filter.xml
+│ --rw-r--r--  2.0 unx     1065 b- defN 22-Feb-26 11:24 jcr_root/.content.xml
+│ --rw-r--r--  2.0 unx     1039 b- defN 22-Feb-26 11:24 jcr_root/testroot/.content.xml
+│ -?rwsrwsrwt  2.0 unx        0 b- stor 22-Feb-26 11:26 META-INF/vault/hooks/
+│ --rw-r--r--  2.0 unx    11256 b- defN 22-Feb-26 11:26 META-INF/vault/hooks/vault-hook-example-3.6.0.jar
+│ -13 files, 21142 bytes uncompressed, 13694 bytes compressed:  35.2%
+│ +Zip file size: 15331 bytes, number of entries: 13
+│ +?rwsrwsrwt  2.0 unx        0 b- stor 22-Mar-03 11:16 META-INF/
+│ +?rwsrwsrwt  2.0 unx        0 b- stor 22-Mar-03 11:16 META-INF/vault/
+│ +?rwsrwsrwt  2.0 unx        0 b- stor 22-Mar-03 11:16 META-INF/vault/hooks/
+│ +-rw-r--r--  2.0 unx    11251 b- defN 22-Mar-03 11:16 META-INF/vault/hooks/vault-hook-example-3.6.0.jar
+│ +drwxrwxr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 META-INF/vault/definition/
+│ +drwxrwxr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 jcr_root/
+│ +drwxrwxr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 jcr_root/testroot/
+│ +-rw-rw-r--  2.0 unx     1768 b- defN 22-Mar-03 11:16 META-INF/vault/properties.xml
+│ +-rw-rw-r--  2.0 unx     3592 b- defN 22-Mar-03 11:16 META-INF/vault/config.xml
+│ +-rw-rw-r--  2.0 unx      912 b- defN 22-Mar-03 11:16 META-INF/vault/filter.xml
+│ +-rw-rw-r--  2.0 unx     1510 b- defN 22-Mar-03 11:16 META-INF/vault/definition/.content.xml
+│ +-rw-rw-r--  2.0 unx     1065 b- defN 22-Mar-03 11:16 jcr_root/.content.xml
+│ +-rw-rw-r--  2.0 unx     1039 b- defN 22-Mar-03 11:16 jcr_root/testroot/.content.xml
+│ +13 files, 21137 bytes uncompressed, 13691 bytes compressed:  35.2%
+├── zipnote {}
+│ @@ -1,13 +1,19 @@
+│  Filename: META-INF/
+│  Comment: 
+│  
+│  Filename: META-INF/vault/
+│  Comment: 
+│  
+│ +Filename: META-INF/vault/hooks/
+│ +Comment: 
+│ +
+│ +Filename: META-INF/vault/hooks/vault-hook-example-3.6.0.jar
+│ +Comment: 
+│ +
+│  Filename: META-INF/vault/definition/
+│  Comment: 
+│  
+│  Filename: jcr_root/
+│  Comment: 
+│  
+│  Filename: jcr_root/testroot/
+│ @@ -15,26 +21,20 @@
+│  
+│  Filename: META-INF/vault/properties.xml
+│  Comment: 
+│  
+│  Filename: META-INF/vault/config.xml
+│  Comment: 
+│  
+│ -Filename: META-INF/vault/definition/.content.xml
+│ +Filename: META-INF/vault/filter.xml
+│  Comment: 
+│  
+│ -Filename: META-INF/vault/filter.xml
+│ +Filename: META-INF/vault/definition/.content.xml
+│  Comment: 
+│  
+│  Filename: jcr_root/.content.xml
+│  Comment: 
+│  
+│  Filename: jcr_root/testroot/.content.xml
+│  Comment: 
+│  
+│ -Filename: META-INF/vault/hooks/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/vault/hooks/vault-hook-example-3.6.0.jar
+│ -Comment: 
+│ -
+│  Zip file comment:
+├── META-INF/vault/hooks/vault-hook-example-3.6.0.jar
+│ ├── zipinfo {}
+│ │ @@ -1,20 +1,20 @@
+│ │ -Zip file size: 11256 bytes, number of entries: 18
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 META-INF/
+│ │ --rw-r--r--  2.0 unx      620 b- defN 22-Feb-26 11:26 META-INF/MANIFEST.MF
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 org/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 org/apache/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 org/apache/jackrabbit/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 org/apache/jackrabbit/vault/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 org/apache/jackrabbit/vault/packaging/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 org/apache/jackrabbit/vault/packaging/hooks/
+│ │ --rw-r--r--  2.0 unx     4388 b- defN 22-Feb-26 11:26 org/apache/jackrabbit/vault/packaging/hooks/ExampleHook.class
+│ │ --rw-r--r--  2.0 unx     1103 b- defN 22-Feb-26 11:26 org/apache/jackrabbit/vault/packaging/hooks/ExampleHook$1.class
+│ │ --rw-r--r--  2.0 unx    11358 b- defN 22-Feb-26 11:26 META-INF/LICENSE
+│ │ --rw-r--r--  2.0 unx      609 b- defN 22-Feb-26 11:26 META-INF/DEPENDENCIES
+│ │ --rw-r--r--  2.0 unx      200 b- defN 22-Feb-26 11:26 META-INF/NOTICE
+│ │ -?rwsrwsrwt  2.0 unx        0 b- stor 22-Feb-26 11:26 META-INF/maven/
+│ │ -?rwsrwsrwt  2.0 unx        0 b- stor 22-Feb-26 11:26 META-INF/maven/org.apache.jackrabbit.vault/
+│ │ -?rwsrwsrwt  2.0 unx        0 b- stor 22-Feb-26 11:26 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-example/
+│ │ --rw-r--r--  2.0 unx     4834 b- defN 22-Feb-26 11:24 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-example/pom.xml
+│ │ --rw-r--r--  2.0 unx      130 b- defN 22-Feb-26 11:26 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-example/pom.properties
+│ │ -18 files, 23242 bytes uncompressed, 8632 bytes compressed:  62.9%
+│ │ +Zip file size: 11251 bytes, number of entries: 18
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 META-INF/
+│ │ +-rw-r--r--  2.0 unx      608 b- defN 22-Mar-03 11:16 META-INF/MANIFEST.MF
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 org/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 org/apache/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 org/apache/jackrabbit/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 org/apache/jackrabbit/vault/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 org/apache/jackrabbit/vault/packaging/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 org/apache/jackrabbit/vault/packaging/hooks/
+│ │ +-rw-r--r--  2.0 unx      609 b- defN 22-Mar-03 11:16 META-INF/DEPENDENCIES
+│ │ +-rw-r--r--  2.0 unx      200 b- defN 22-Mar-03 11:16 META-INF/NOTICE
+│ │ +-rw-r--r--  2.0 unx    11358 b- defN 22-Mar-03 11:16 META-INF/LICENSE
+│ │ +-rw-r--r--  2.0 unx     1103 b- defN 22-Mar-03 11:16 org/apache/jackrabbit/vault/packaging/hooks/ExampleHook$1.class
+│ │ +-rw-r--r--  2.0 unx     4388 b- defN 22-Mar-03 11:16 org/apache/jackrabbit/vault/packaging/hooks/ExampleHook.class
+│ │ +?rwsrwsrwt  2.0 unx        0 b- stor 22-Mar-03 11:16 META-INF/maven/
+│ │ +?rwsrwsrwt  2.0 unx        0 b- stor 22-Mar-03 11:16 META-INF/maven/org.apache.jackrabbit.vault/
+│ │ +?rwsrwsrwt  2.0 unx        0 b- stor 22-Mar-03 11:16 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-example/
+│ │ +-rw-rw-r--  2.0 unx     4834 b- defN 22-Mar-03 11:16 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-example/pom.xml
+│ │ +-rw-r--r--  2.0 unx      130 b- defN 22-Mar-03 11:16 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-example/pom.properties
+│ │ +18 files, 23230 bytes uncompressed, 8627 bytes compressed:  62.9%
+│ ├── zipnote «TEMP»/diffoscope_epn1io95_target/tmpl8weywuz.zip
+│ │ @@ -18,27 +18,27 @@
+│ │  
+│ │  Filename: org/apache/jackrabbit/vault/packaging/
+│ │  Comment: 
+│ │  
+│ │  Filename: org/apache/jackrabbit/vault/packaging/hooks/
+│ │  Comment: 
+│ │  
+│ │ -Filename: org/apache/jackrabbit/vault/packaging/hooks/ExampleHook.class
+│ │ +Filename: META-INF/DEPENDENCIES
+│ │  Comment: 
+│ │  
+│ │ -Filename: org/apache/jackrabbit/vault/packaging/hooks/ExampleHook$1.class
+│ │ +Filename: META-INF/NOTICE
+│ │  Comment: 
+│ │  
+│ │  Filename: META-INF/LICENSE
+│ │  Comment: 
+│ │  
+│ │ -Filename: META-INF/DEPENDENCIES
+│ │ +Filename: org/apache/jackrabbit/vault/packaging/hooks/ExampleHook$1.class
+│ │  Comment: 
+│ │  
+│ │ -Filename: META-INF/NOTICE
+│ │ +Filename: org/apache/jackrabbit/vault/packaging/hooks/ExampleHook.class
+│ │  Comment: 
+│ │  
+│ │  Filename: META-INF/maven/
+│ │  Comment: 
+│ │  
+│ │  Filename: META-INF/maven/org.apache.jackrabbit.vault/
+│ │  Comment:
+│ ├── META-INF/MANIFEST.MF
+│ │ @@ -1,12 +1,12 @@
+│ │  Manifest-Version: 1.0
+│ │  Archiver-Version: Plexus Archiver
+│ │  Created-By: Apache Maven
+│ │ -Built-By: konradwindszus
+│ │ -Build-Jdk: 11.0.14
+│ │ +Built-By: ?
+│ │ +Build-Jdk: 11.0.9.1
+│ │  Specification-Title: Apache Jackrabbit FileVault Package Hook Example
+│ │  Specification-Version: 3.6.0
+│ │  Specification-Vendor: The Apache Software Foundation
+│ │  Implementation-Title: Apache Jackrabbit FileVault Package Hook Example
+│ │  Implementation-Version: 3.6.0
+│ │  Implementation-Vendor-Id: org.apache.jackrabbit.vault
+│ │  Implementation-Vendor: The Apache Software Foundation
+│ ├── META-INF/maven/org.apache.jackrabbit.vault/vault-hook-example/pom.properties
+│ │ @@ -1,5 +1,5 @@
+│ │  #Generated by Maven
+│ │ -#Sat Feb 26 11:26:06 CET 2022
+│ │ +#Thu Mar 03 11:16:49 UTC 2022
+│ │  groupId=org.apache.jackrabbit.vault
+│ │  artifactId=vault-hook-example
+│ │  version=3.6.0
+
+target/reference/vault-hook-example-3.6.0-sources.jar vault-hook-example/target/vault-hook-example-3.6.0-sources.jar
+--- target/reference/vault-hook-example-3.6.0-sources.jar
++++ vault-hook-example/target/vault-hook-example-3.6.0-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 9666 bytes, number of entries: 17
+│ +Zip file size: 9668 bytes, number of entries: 17
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Feb-26 10:22 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 10:22 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 10:22 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 10:22 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 10:22 org/apache/jackrabbit/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 10:22 org/apache/jackrabbit/vault/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 10:22 org/apache/jackrabbit/vault/packaging/
+│ @@ -12,8 +12,8 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 10:22 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-example/
+│  -rw-r--r--  2.0 unx      609 b- defN 22-Feb-26 10:22 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Feb-26 10:22 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      200 b- defN 22-Feb-26 10:22 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     4238 b- defN 22-Feb-26 10:22 org/apache/jackrabbit/vault/packaging/hooks/ExampleHook.java
+│  -rw-r--r--  2.0 unx     4834 b- defN 22-Feb-26 10:22 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-example/pom.xml
+│  -rw-r--r--  2.0 unx      130 b- defN 22-Feb-26 10:22 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-example/pom.properties
+│ -17 files, 21433 bytes uncompressed, 7246 bytes compressed:  66.2%
+│ +17 files, 21433 bytes uncompressed, 7248 bytes compressed:  66.2%
+├── META-INF/maven/org.apache.jackrabbit.vault/vault-hook-example/pom.properties
+│ @@ -1,5 +1,5 @@
+│  #Generated by Maven
+│ -#Sat Feb 26 11:26:06 CET 2022
+│ +#Thu Mar 03 11:16:49 UTC 2022
+│  groupId=org.apache.jackrabbit.vault
+│  artifactId=vault-hook-example
+│  version=3.6.0
+
+target/reference/vault-hook-externalclass-test-3.6.0.jar vault-hook-externalclass-test/target/vault-hook-externalclass-test-3.6.0.jar
+--- target/reference/vault-hook-externalclass-test-3.6.0.jar
++++ vault-hook-externalclass-test/target/vault-hook-externalclass-test-3.6.0.jar
+├── zipinfo {}
+│ @@ -1,19 +1,19 @@
+│ -Zip file size: 9944 bytes, number of entries: 17
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 META-INF/
+│ --rw-r--r--  2.0 unx      642 b- defN 22-Feb-26 11:26 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 org/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 org/apache/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 org/apache/jackrabbit/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 org/apache/jackrabbit/vault/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 org/apache/jackrabbit/vault/packaging/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 org/apache/jackrabbit/vault/packaging/hooks/
+│ --rw-r--r--  2.0 unx     2949 b- defN 22-Feb-26 11:26 org/apache/jackrabbit/vault/packaging/hooks/ExampleOsgiHook.class
+│ --rw-r--r--  2.0 unx    11358 b- defN 22-Feb-26 11:26 META-INF/LICENSE
+│ --rw-r--r--  2.0 unx      615 b- defN 22-Feb-26 11:26 META-INF/DEPENDENCIES
+│ --rw-r--r--  2.0 unx      206 b- defN 22-Feb-26 11:26 META-INF/NOTICE
+│ -?rwsrwsrwt  2.0 unx        0 b- stor 22-Feb-26 11:26 META-INF/maven/
+│ -?rwsrwsrwt  2.0 unx        0 b- stor 22-Feb-26 11:26 META-INF/maven/org.apache.jackrabbit.vault/
+│ -?rwsrwsrwt  2.0 unx        0 b- stor 22-Feb-26 11:26 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-externalclass-test/
+│ --rw-r--r--  2.0 unx     5167 b- defN 22-Feb-26 11:24 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-externalclass-test/pom.xml
+│ --rw-r--r--  2.0 unx      141 b- defN 22-Feb-26 11:26 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-externalclass-test/pom.properties
+│ -17 files, 21078 bytes uncompressed, 7448 bytes compressed:  64.7%
+│ +Zip file size: 9937 bytes, number of entries: 17
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 META-INF/
+│ +-rw-r--r--  2.0 unx      630 b- defN 22-Mar-03 11:16 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 org/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 org/apache/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 org/apache/jackrabbit/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 org/apache/jackrabbit/vault/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 org/apache/jackrabbit/vault/packaging/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 org/apache/jackrabbit/vault/packaging/hooks/
+│ +-rw-r--r--  2.0 unx      615 b- defN 22-Mar-03 11:16 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx      206 b- defN 22-Mar-03 11:16 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx    11358 b- defN 22-Mar-03 11:16 META-INF/LICENSE
+│ +-rw-r--r--  2.0 unx     2949 b- defN 22-Mar-03 11:16 org/apache/jackrabbit/vault/packaging/hooks/ExampleOsgiHook.class
+│ +?rwsrwsrwt  2.0 unx        0 b- stor 22-Mar-03 11:16 META-INF/maven/
+│ +?rwsrwsrwt  2.0 unx        0 b- stor 22-Mar-03 11:16 META-INF/maven/org.apache.jackrabbit.vault/
+│ +?rwsrwsrwt  2.0 unx        0 b- stor 22-Mar-03 11:16 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-externalclass-test/
+│ +-rw-rw-r--  2.0 unx     5167 b- defN 22-Mar-03 11:16 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-externalclass-test/pom.xml
+│ +-rw-r--r--  2.0 unx      141 b- defN 22-Mar-03 11:16 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-externalclass-test/pom.properties
+│ +17 files, 21066 bytes uncompressed, 7441 bytes compressed:  64.7%
+├── zipnote «TEMP»/diffoscope_pbk50c20_target/tmpp15zlno0.zip
+│ @@ -18,24 +18,24 @@
+│  
+│  Filename: org/apache/jackrabbit/vault/packaging/
+│  Comment: 
+│  
+│  Filename: org/apache/jackrabbit/vault/packaging/hooks/
+│  Comment: 
+│  
+│ -Filename: org/apache/jackrabbit/vault/packaging/hooks/ExampleOsgiHook.class
+│ +Filename: META-INF/DEPENDENCIES
+│  Comment: 
+│  
+│ -Filename: META-INF/LICENSE
+│ +Filename: META-INF/NOTICE
+│  Comment: 
+│  
+│ -Filename: META-INF/DEPENDENCIES
+│ +Filename: META-INF/LICENSE
+│  Comment: 
+│  
+│ -Filename: META-INF/NOTICE
+│ +Filename: org/apache/jackrabbit/vault/packaging/hooks/ExampleOsgiHook.class
+│  Comment: 
+│  
+│  Filename: META-INF/maven/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.jackrabbit.vault/
+│  Comment:
+├── META-INF/MANIFEST.MF
+│ @@ -1,12 +1,12 @@
+│  Manifest-Version: 1.0
+│  Archiver-Version: Plexus Archiver
+│  Created-By: Apache Maven
+│ -Built-By: konradwindszus
+│ -Build-Jdk: 11.0.14
+│ +Built-By: ?
+│ +Build-Jdk: 11.0.9.1
+│  Specification-Title: Apache Jackrabbit FileVault Package Hook Sling Ex
+│   ample
+│  Specification-Version: 3.6.0
+│  Specification-Vendor: The Apache Software Foundation
+│  Implementation-Title: Apache Jackrabbit FileVault Package Hook Sling E
+│   xample
+│  Implementation-Version: 3.6.0
+├── META-INF/maven/org.apache.jackrabbit.vault/vault-hook-externalclass-test/pom.properties
+│ @@ -1,5 +1,5 @@
+│  #Generated by Maven
+│ -#Sat Feb 26 11:26:10 CET 2022
+│ +#Thu Mar 03 11:16:51 UTC 2022
+│  groupId=org.apache.jackrabbit.vault
+│  artifactId=vault-hook-externalclass-test
+│  version=3.6.0
+
+target/reference/vault-hook-externalclass-test-3.6.0-pkg.zip vault-hook-externalclass-test/target/vault-hook-externalclass-test-3.6.0-pkg.zip
+--- target/reference/vault-hook-externalclass-test-3.6.0-pkg.zip
++++ vault-hook-externalclass-test/target/vault-hook-externalclass-test-3.6.0-pkg.zip
+├── zipinfo {}
+│ @@ -1,16 +1,16 @@
+│ -Zip file size: 14794 bytes, number of entries: 14
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:24 META-INF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:24 META-INF/vault/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:24 META-INF/vault/definition/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:24 jcr_root/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:24 jcr_root/testroot/
+│ --rw-r--r--  2.0 unx     1540 b- defN 22-Feb-26 11:24 META-INF/vault/properties.xml
+│ --rw-r--r--  2.0 unx     1106 b- defN 22-Feb-26 11:24 META-INF/vault/nodetypes.cnd
+│ --rw-r--r--  2.0 unx     3592 b- defN 22-Feb-26 11:24 META-INF/vault/config.xml
+│ --rw-r--r--  2.0 unx     1510 b- defN 22-Feb-26 11:24 META-INF/vault/definition/.content.xml
+│ --rw-r--r--  2.0 unx      912 b- defN 22-Feb-26 11:24 META-INF/vault/filter.xml
+│ --rw-r--r--  2.0 unx     1065 b- defN 22-Feb-26 11:24 jcr_root/.content.xml
+│ --rw-r--r--  2.0 unx     1039 b- defN 22-Feb-26 11:24 jcr_root/testroot/.content.xml
+│ -?rwsrwsrwt  2.0 unx        0 b- stor 22-Feb-26 11:26 META-INF/vault/hooks/
+│ --rw-r--r--  2.0 unx     9944 b- defN 22-Feb-26 11:26 META-INF/vault/hooks/vault-hook-externalclass-test-3.6.0.jar
+│ -14 files, 20708 bytes uncompressed, 13000 bytes compressed:  37.2%
+│ +Zip file size: 14785 bytes, number of entries: 14
+│ +?rwsrwsrwt  2.0 unx        0 b- stor 22-Mar-03 11:16 META-INF/
+│ +?rwsrwsrwt  2.0 unx        0 b- stor 22-Mar-03 11:16 META-INF/vault/
+│ +?rwsrwsrwt  2.0 unx        0 b- stor 22-Mar-03 11:16 META-INF/vault/hooks/
+│ +-rw-r--r--  2.0 unx     9937 b- defN 22-Mar-03 11:16 META-INF/vault/hooks/vault-hook-externalclass-test-3.6.0.jar
+│ +drwxrwxr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 META-INF/vault/definition/
+│ +drwxrwxr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 jcr_root/
+│ +drwxrwxr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 jcr_root/testroot/
+│ +-rw-rw-r--  2.0 unx     1106 b- defN 22-Mar-03 11:16 META-INF/vault/nodetypes.cnd
+│ +-rw-rw-r--  2.0 unx     1540 b- defN 22-Mar-03 11:16 META-INF/vault/properties.xml
+│ +-rw-rw-r--  2.0 unx     3592 b- defN 22-Mar-03 11:16 META-INF/vault/config.xml
+│ +-rw-rw-r--  2.0 unx      912 b- defN 22-Mar-03 11:16 META-INF/vault/filter.xml
+│ +-rw-rw-r--  2.0 unx     1510 b- defN 22-Mar-03 11:16 META-INF/vault/definition/.content.xml
+│ +-rw-rw-r--  2.0 unx     1065 b- defN 22-Mar-03 11:16 jcr_root/.content.xml
+│ +-rw-rw-r--  2.0 unx     1039 b- defN 22-Mar-03 11:16 jcr_root/testroot/.content.xml
+│ +14 files, 20701 bytes uncompressed, 12991 bytes compressed:  37.2%
+├── zipnote {}
+│ @@ -1,43 +1,43 @@
+│  Filename: META-INF/
+│  Comment: 
+│  
+│  Filename: META-INF/vault/
+│  Comment: 
+│  
+│ +Filename: META-INF/vault/hooks/
+│ +Comment: 
+│ +
+│ +Filename: META-INF/vault/hooks/vault-hook-externalclass-test-3.6.0.jar
+│ +Comment: 
+│ +
+│  Filename: META-INF/vault/definition/
+│  Comment: 
+│  
+│  Filename: jcr_root/
+│  Comment: 
+│  
+│  Filename: jcr_root/testroot/
+│  Comment: 
+│  
+│ -Filename: META-INF/vault/properties.xml
+│ +Filename: META-INF/vault/nodetypes.cnd
+│  Comment: 
+│  
+│ -Filename: META-INF/vault/nodetypes.cnd
+│ +Filename: META-INF/vault/properties.xml
+│  Comment: 
+│  
+│  Filename: META-INF/vault/config.xml
+│  Comment: 
+│  
+│ -Filename: META-INF/vault/definition/.content.xml
+│ +Filename: META-INF/vault/filter.xml
+│  Comment: 
+│  
+│ -Filename: META-INF/vault/filter.xml
+│ +Filename: META-INF/vault/definition/.content.xml
+│  Comment: 
+│  
+│  Filename: jcr_root/.content.xml
+│  Comment: 
+│  
+│  Filename: jcr_root/testroot/.content.xml
+│  Comment: 
+│  
+│ -Filename: META-INF/vault/hooks/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/vault/hooks/vault-hook-externalclass-test-3.6.0.jar
+│ -Comment: 
+│ -
+│  Zip file comment:
+├── META-INF/vault/hooks/vault-hook-externalclass-test-3.6.0.jar
+│ ├── zipinfo {}
+│ │ @@ -1,19 +1,19 @@
+│ │ -Zip file size: 9944 bytes, number of entries: 17
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 META-INF/
+│ │ --rw-r--r--  2.0 unx      642 b- defN 22-Feb-26 11:26 META-INF/MANIFEST.MF
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 org/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 org/apache/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 org/apache/jackrabbit/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 org/apache/jackrabbit/vault/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 org/apache/jackrabbit/vault/packaging/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 11:26 org/apache/jackrabbit/vault/packaging/hooks/
+│ │ --rw-r--r--  2.0 unx     2949 b- defN 22-Feb-26 11:26 org/apache/jackrabbit/vault/packaging/hooks/ExampleOsgiHook.class
+│ │ --rw-r--r--  2.0 unx    11358 b- defN 22-Feb-26 11:26 META-INF/LICENSE
+│ │ --rw-r--r--  2.0 unx      615 b- defN 22-Feb-26 11:26 META-INF/DEPENDENCIES
+│ │ --rw-r--r--  2.0 unx      206 b- defN 22-Feb-26 11:26 META-INF/NOTICE
+│ │ -?rwsrwsrwt  2.0 unx        0 b- stor 22-Feb-26 11:26 META-INF/maven/
+│ │ -?rwsrwsrwt  2.0 unx        0 b- stor 22-Feb-26 11:26 META-INF/maven/org.apache.jackrabbit.vault/
+│ │ -?rwsrwsrwt  2.0 unx        0 b- stor 22-Feb-26 11:26 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-externalclass-test/
+│ │ --rw-r--r--  2.0 unx     5167 b- defN 22-Feb-26 11:24 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-externalclass-test/pom.xml
+│ │ --rw-r--r--  2.0 unx      141 b- defN 22-Feb-26 11:26 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-externalclass-test/pom.properties
+│ │ -17 files, 21078 bytes uncompressed, 7448 bytes compressed:  64.7%
+│ │ +Zip file size: 9937 bytes, number of entries: 17
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 META-INF/
+│ │ +-rw-r--r--  2.0 unx      630 b- defN 22-Mar-03 11:16 META-INF/MANIFEST.MF
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 org/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 org/apache/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 org/apache/jackrabbit/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 org/apache/jackrabbit/vault/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 org/apache/jackrabbit/vault/packaging/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 11:16 org/apache/jackrabbit/vault/packaging/hooks/
+│ │ +-rw-r--r--  2.0 unx      615 b- defN 22-Mar-03 11:16 META-INF/DEPENDENCIES
+│ │ +-rw-r--r--  2.0 unx      206 b- defN 22-Mar-03 11:16 META-INF/NOTICE
+│ │ +-rw-r--r--  2.0 unx    11358 b- defN 22-Mar-03 11:16 META-INF/LICENSE
+│ │ +-rw-r--r--  2.0 unx     2949 b- defN 22-Mar-03 11:16 org/apache/jackrabbit/vault/packaging/hooks/ExampleOsgiHook.class
+│ │ +?rwsrwsrwt  2.0 unx        0 b- stor 22-Mar-03 11:16 META-INF/maven/
+│ │ +?rwsrwsrwt  2.0 unx        0 b- stor 22-Mar-03 11:16 META-INF/maven/org.apache.jackrabbit.vault/
+│ │ +?rwsrwsrwt  2.0 unx        0 b- stor 22-Mar-03 11:16 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-externalclass-test/
+│ │ +-rw-rw-r--  2.0 unx     5167 b- defN 22-Mar-03 11:16 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-externalclass-test/pom.xml
+│ │ +-rw-r--r--  2.0 unx      141 b- defN 22-Mar-03 11:16 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-externalclass-test/pom.properties
+│ │ +17 files, 21066 bytes uncompressed, 7441 bytes compressed:  64.7%
+│ ├── zipnote «TEMP»/diffoscope_h59rcsks_target/tmpr5loswsb.zip
+│ │ @@ -18,24 +18,24 @@
+│ │  
+│ │  Filename: org/apache/jackrabbit/vault/packaging/
+│ │  Comment: 
+│ │  
+│ │  Filename: org/apache/jackrabbit/vault/packaging/hooks/
+│ │  Comment: 
+│ │  
+│ │ -Filename: org/apache/jackrabbit/vault/packaging/hooks/ExampleOsgiHook.class
+│ │ +Filename: META-INF/DEPENDENCIES
+│ │  Comment: 
+│ │  
+│ │ -Filename: META-INF/LICENSE
+│ │ +Filename: META-INF/NOTICE
+│ │  Comment: 
+│ │  
+│ │ -Filename: META-INF/DEPENDENCIES
+│ │ +Filename: META-INF/LICENSE
+│ │  Comment: 
+│ │  
+│ │ -Filename: META-INF/NOTICE
+│ │ +Filename: org/apache/jackrabbit/vault/packaging/hooks/ExampleOsgiHook.class
+│ │  Comment: 
+│ │  
+│ │  Filename: META-INF/maven/
+│ │  Comment: 
+│ │  
+│ │  Filename: META-INF/maven/org.apache.jackrabbit.vault/
+│ │  Comment:
+│ ├── META-INF/MANIFEST.MF
+│ │ @@ -1,12 +1,12 @@
+│ │  Manifest-Version: 1.0
+│ │  Archiver-Version: Plexus Archiver
+│ │  Created-By: Apache Maven
+│ │ -Built-By: konradwindszus
+│ │ -Build-Jdk: 11.0.14
+│ │ +Built-By: ?
+│ │ +Build-Jdk: 11.0.9.1
+│ │  Specification-Title: Apache Jackrabbit FileVault Package Hook Sling Ex
+│ │   ample
+│ │  Specification-Version: 3.6.0
+│ │  Specification-Vendor: The Apache Software Foundation
+│ │  Implementation-Title: Apache Jackrabbit FileVault Package Hook Sling E
+│ │   xample
+│ │  Implementation-Version: 3.6.0
+│ ├── META-INF/maven/org.apache.jackrabbit.vault/vault-hook-externalclass-test/pom.properties
+│ │ @@ -1,5 +1,5 @@
+│ │  #Generated by Maven
+│ │ -#Sat Feb 26 11:26:10 CET 2022
+│ │ +#Thu Mar 03 11:16:51 UTC 2022
+│ │  groupId=org.apache.jackrabbit.vault
+│ │  artifactId=vault-hook-externalclass-test
+│ │  version=3.6.0
+
+target/reference/vault-hook-externalclass-test-3.6.0-sources.jar vault-hook-externalclass-test/target/vault-hook-externalclass-test-3.6.0-sources.jar
+--- target/reference/vault-hook-externalclass-test-3.6.0-sources.jar
++++ vault-hook-externalclass-test/target/vault-hook-externalclass-test-3.6.0-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 9496 bytes, number of entries: 17
+│ +Zip file size: 9497 bytes, number of entries: 17
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Feb-26 10:22 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 10:22 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 10:22 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 10:22 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 10:22 org/apache/jackrabbit/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 10:22 org/apache/jackrabbit/vault/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 10:22 org/apache/jackrabbit/vault/packaging/
+│ @@ -12,8 +12,8 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-26 10:22 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-externalclass-test/
+│  -rw-r--r--  2.0 unx      615 b- defN 22-Feb-26 10:22 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Feb-26 10:22 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      206 b- defN 22-Feb-26 10:22 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     2374 b- defN 22-Feb-26 10:22 org/apache/jackrabbit/vault/packaging/hooks/ExampleOsgiHook.java
+│  -rw-r--r--  2.0 unx     5167 b- defN 22-Feb-26 10:22 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-externalclass-test/pom.xml
+│  -rw-r--r--  2.0 unx      141 b- defN 22-Feb-26 10:22 META-INF/maven/org.apache.jackrabbit.vault/vault-hook-externalclass-test/pom.properties
+│ -17 files, 19925 bytes uncompressed, 7002 bytes compressed:  64.9%
+│ +17 files, 19925 bytes uncompressed, 7003 bytes compressed:  64.9%
+├── META-INF/maven/org.apache.jackrabbit.vault/vault-hook-externalclass-test/pom.properties
+│ @@ -1,5 +1,5 @@
+│  #Generated by Maven
+│ -#Sat Feb 26 11:26:10 CET 2022
+│ +#Thu Mar 03 11:16:51 UTC 2022
+│  groupId=org.apache.jackrabbit.vault
+│  artifactId=vault-hook-externalclass-test
+│  version=3.6.0
+
