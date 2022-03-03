@@ -1,0 +1,17 @@
+groupId=org.apache.jackrabbit.vault
+artifactId=jackrabbit-filevault
+display=${groupId}:${artifactId}
+version=3.5.8
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=
