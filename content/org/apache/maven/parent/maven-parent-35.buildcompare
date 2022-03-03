@@ -1,0 +1,6 @@
+version=35
+ok=13
+ko=1
+okFiles="maven-parent-35.pom maven-parent-35-site.xml maven-parent-35-source-release.zip maven-extensions-35.pom maven-extensions-35-site.xml maven-plugins-35.pom maven-plugins-35-site.xml maven-shared-components-35.pom maven-shared-components-35-site.xml maven-skins-35.pom maven-skins-35-site.xml doxia-tools-35.pom doxia-tools-35-site.xml"
+koFiles="apache-resource-bundles-35.pom"
+# diffoscope target/reference/apache-resource-bundles-35.pom apache-resource-bundles/pom.xml
