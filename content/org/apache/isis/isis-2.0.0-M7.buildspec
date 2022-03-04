@@ -13,8 +13,9 @@ newline=crlf
 
 # need to do mvn clean by hand, then create target directory in reactor root
 command="mvn package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+# before run, need to use th 2.0.0-SNAPSHOT version for the aggregator root and after run, will need to rename to match release version
 buildinfo=target/${artifactId}-2.0.0-SNAPSHOT.buildinfo
-# after run, will need to rename to match release version
+buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope
 issue=
