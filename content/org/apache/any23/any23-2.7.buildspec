@@ -1,0 +1,17 @@
+groupId=org.apache.any23
+artifactId=apache-any23
+display=${groupId}:${artifactId}
+version=2.7
+
+gitRepo=https://github.com/apache/any23.git
+gitTag=any23-${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dossindex.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=

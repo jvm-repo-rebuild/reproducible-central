@@ -1,0 +1,27 @@
+version=2.7
+ok=11
+ko=20
+okFiles="apache-any23-2.7.pom apache-any23-2.7-site.xml apache-any23-2.7-src.tar.gz apache-any23-2.7-src.zip apache-any23-api-2.7.pom apache-any23-test-resources-2.7.pom apache-any23-csvutils-2.7.pom apache-any23-mime-2.7.pom apache-any23-encoding-2.7.pom apache-any23-core-2.7.pom apache-any23-cli-2.7.pom"
+koFiles="apache-any23-2.7-source-release.zip apache-any23-api-2.7.jar apache-any23-api-2.7-sources.jar apache-any23-test-resources-2.7.jar apache-any23-test-resources-2.7-tests.jar apache-any23-test-resources-2.7-sources.jar apache-any23-csvutils-2.7.jar apache-any23-csvutils-2.7-sources.jar apache-any23-mime-2.7.jar apache-any23-mime-2.7-sources.jar apache-any23-encoding-2.7.jar apache-any23-encoding-2.7-sources.jar apache-any23-core-2.7.jar apache-any23-core-2.7-tests.jar apache-any23-core-2.7-sources.jar apache-any23-cli-2.7.jar apache-any23-cli-2.7-tests.jar apache-any23-cli-2.7.tar.gz apache-any23-cli-2.7.zip apache-any23-cli-2.7-sources.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/apache-any23-2.7-source-release.zip target/apache-any23-2.7-source-release.zip
+# diffoscope target/reference/apache-any23-api-2.7.jar api/target/apache-any23-api-2.7.jar
+# diffoscope target/reference/apache-any23-api-2.7-sources.jar api/target/apache-any23-api-2.7-sources.jar
+# diffoscope target/reference/apache-any23-test-resources-2.7.jar test-resources/target/apache-any23-test-resources-2.7.jar
+# diffoscope target/reference/apache-any23-test-resources-2.7-tests.jar test-resources/target/apache-any23-test-resources-2.7-tests.jar
+# diffoscope target/reference/apache-any23-test-resources-2.7-sources.jar test-resources/target/apache-any23-test-resources-2.7-sources.jar
+# diffoscope target/reference/apache-any23-csvutils-2.7.jar csvutils/target/apache-any23-csvutils-2.7.jar
+# diffoscope target/reference/apache-any23-csvutils-2.7-sources.jar csvutils/target/apache-any23-csvutils-2.7-sources.jar
+# diffoscope target/reference/apache-any23-mime-2.7.jar mime/target/apache-any23-mime-2.7.jar
+# diffoscope target/reference/apache-any23-mime-2.7-sources.jar mime/target/apache-any23-mime-2.7-sources.jar
+# diffoscope target/reference/apache-any23-encoding-2.7.jar encoding/target/apache-any23-encoding-2.7.jar
+# diffoscope target/reference/apache-any23-encoding-2.7-sources.jar encoding/target/apache-any23-encoding-2.7-sources.jar
+# diffoscope target/reference/apache-any23-core-2.7.jar core/target/apache-any23-core-2.7.jar
+# diffoscope target/reference/apache-any23-core-2.7-tests.jar core/target/apache-any23-core-2.7-tests.jar
+# diffoscope target/reference/apache-any23-core-2.7-sources.jar core/target/apache-any23-core-2.7-sources.jar
+# diffoscope target/reference/apache-any23-cli-2.7.jar cli/target/apache-any23-cli-2.7.jar
+# diffoscope target/reference/apache-any23-cli-2.7-tests.jar cli/target/apache-any23-cli-2.7-tests.jar
+# diffoscope target/reference/apache-any23-cli-2.7.tar.gz cli/target/apache-any23-cli-2.7.tar.gz
+# diffoscope target/reference/apache-any23-cli-2.7.zip cli/target/apache-any23-cli-2.7.zip
+# diffoscope target/reference/apache-any23-cli-2.7-sources.jar cli/target/apache-any23-cli-2.7-sources.jar
