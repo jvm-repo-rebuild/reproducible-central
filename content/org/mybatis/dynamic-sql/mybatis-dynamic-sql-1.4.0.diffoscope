@@ -1,0 +1,38 @@
+target/reference/mybatis-dynamic-sql-1.4.0.jar target/mybatis-dynamic-sql-1.4.0.jar
+--- target/reference/mybatis-dynamic-sql-1.4.0.jar
++++ target/mybatis-dynamic-sql-1.4.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 593861 bytes, number of entries: 538
+│ +Zip file size: 593864 bytes, number of entries: 538
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 18:08 META-INF/
+│  -rw-r--r--  2.0 unx     2706 b- defN 22-Mar-03 18:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 18:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 18:08 org/mybatis/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 18:08 org/mybatis/dynamic/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 18:08 org/mybatis/dynamic/sql/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 18:08 org/mybatis/dynamic/sql/delete/
+│ @@ -533,8 +533,8 @@
+│  -rw-r--r--  2.0 unx     4606 b- defN 22-Mar-03 18:08 org/mybatis/dynamic/sql/where/render/WhereConditionVisitor$Builder.class
+│  -rw-r--r--  2.0 unx    12423 b- defN 22-Mar-03 18:08 org/mybatis/dynamic/sql/where/render/WhereConditionVisitor.class
+│  -rw-r--r--  2.0 unx      261 b- defN 22-Mar-03 18:08 org/mybatis/dynamic/sql/where/render/WhereRenderer$1.class
+│  -rw-r--r--  2.0 unx     3097 b- defN 22-Mar-03 18:08 org/mybatis/dynamic/sql/where/render/WhereRenderer$Builder.class
+│  -rw-r--r--  2.0 unx     6450 b- defN 22-Mar-03 18:08 org/mybatis/dynamic/sql/where/render/WhereRenderer.class
+│  -rw-r--r--  2.0 unx    10985 b- defN 22-Mar-03 18:08 META-INF/maven/org.mybatis.dynamic-sql/mybatis-dynamic-sql/pom.xml
+│  -rw-r--r--  2.0 unx       77 b- defN 22-Mar-03 18:08 META-INF/maven/org.mybatis.dynamic-sql/mybatis-dynamic-sql/pom.properties
+│ -538 files, 1522116 bytes uncompressed, 486385 bytes compressed:  68.0%
+│ +538 files, 1522116 bytes uncompressed, 486388 bytes compressed:  68.0%
+├── META-INF/MANIFEST.MF
+│ @@ -39,11 +39,11 @@
+│   dynamic.sql.where.condition;version="1.4.0",org.mybatis.dynamic.sql.whe
+│   re.render;version="1.4.0"
+│  Import-Package: kotlin,kotlin.annotation,kotlin.collections,kotlin.jvm,k
+│   otlin.jvm.functions,kotlin.jvm.internal,kotlin.reflect,org.apache.ibati
+│   s.annotations,org.apache.ibatis.executor,org.springframework.dao,org.sp
+│   ringframework.jdbc.core,org.springframework.jdbc.core.namedparam,org.sp
+│   ringframework.jdbc.support
+│ -Include-Resource: META-INF/LICENSE=LICENSE,META-INF/NOTICE=NOTICE
+│ +Include-Resource: META-INF/NOTICE=NOTICE,META-INF/LICENSE=LICENSE
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+│  Tool: Bnd-6.1.0.202111221555
+
