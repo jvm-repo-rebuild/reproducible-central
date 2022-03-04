@@ -1,0 +1,162 @@
+target/reference/acs-aem-commons-bundle-5.2.0.jar bundle/target/acs-aem-commons-bundle-5.2.0.jar
+--- target/reference/acs-aem-commons-bundle-5.2.0.jar
++++ bundle/target/acs-aem-commons-bundle-5.2.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 14999224 bytes, number of entries: 4491
+│ +Zip file size: 14999161 bytes, number of entries: 4491
+│  -rw----     2.0 fat        0 bX defN 22-Mar-03 14:21 META-INF/
+│  -rw----     2.0 fat    79353 bl defN 22-Mar-03 14:21 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat      612 bl defN 22-Mar-03 14:21 META-INF/COPYRIGHT
+│  -rw----     2.0 fat    11358 bl defN 22-Mar-03 14:21 META-INF/LICENSE
+│  -rw----     2.0 fat      722 bl defN 22-Mar-03 14:21 META-INF/audio.tld
+│  -rw----     2.0 fat      674 bl defN 22-Mar-03 14:21 META-INF/dam.tld
+│  -rw----     2.0 fat     1305 bl defN 22-Mar-03 14:21 META-INF/dhlm.tld
+│ @@ -4486,8 +4486,8 @@
+│  -rw----     2.0 fat      705 bl defN 20-Jun-11 15:51 acscommons/io/jsonwebtoken/impl/lang/Services$3.class
+│  -rw----     2.0 fat     2086 bl defN 20-Jun-11 15:51 acscommons/io/jsonwebtoken/impl/DefaultHeader.class
+│  -rw----     2.0 fat     2467 bl defN 20-Jun-11 15:51 acscommons/io/jsonwebtoken/impl/compression/DeflateCompressionCodec.class
+│  -rw----     2.0 fat        0 bl defN 20-Jun-11 15:51 acscommons/io/jsonwebtoken/gson/
+│  -rw----     2.0 fat        0 bl defN 20-Jun-11 15:51 acscommons/io/jsonwebtoken/gson/io/
+│  -rw----     2.0 fat     2708 bl defN 20-Jun-11 15:51 acscommons/io/jsonwebtoken/gson/io/GsonSerializer.class
+│  -rw----     2.0 fat     2565 bl defN 20-Jun-11 15:51 acscommons/io/jsonwebtoken/gson/io/GsonDeserializer.class
+│ -4491 files, 27825008 bytes uncompressed, 14006152 bytes compressed:  49.7%
+│ +4491 files, 27825008 bytes uncompressed, 14006089 bytes compressed:  49.7%
+├── OSGI-INF/l10n/com.adobe.acs.commons.auth.saml.impl.OktaLogoutHandler.properties
+│ @@ -1,8 +1,8 @@
+│ -#Thu Mar 03 09:34:08 EST 2022
+│ +#Fri Mar 04 17:27:04 UTC 2022
+│  com.adobe.acs.commons.auth.saml.impl.OktaLogoutHandler.name=ACS AEM Commons - Okta Logout Handler
+│  com.adobe.acs.commons.auth.saml.impl.OktaLogoutHandler.service.ranking.name=Property service.ranking
+│  com.adobe.acs.commons.auth.saml.impl.OktaLogoutHandler.path.description=Description for path
+│  com.adobe.acs.commons.auth.saml.impl.OktaLogoutHandler.okta.host.name.description=Description for okta.host.name
+│  com.adobe.acs.commons.auth.saml.impl.OktaLogoutHandler.description=Specific Authentication Handler to handle logout to Okta SSO Provider which, in some configurations, does not support traditional Single Logout
+│  com.adobe.acs.commons.auth.saml.impl.OktaLogoutHandler.from.uri.name=Property from.uri
+│  com.adobe.acs.commons.auth.saml.impl.OktaLogoutHandler.from.uri.description=Description for from.uri
+├── OSGI-INF/l10n/com.adobe.acs.commons.dam.audio.impl.AudioHelperImpl.properties
+│ @@ -1,5 +1,5 @@
+│ -#Thu Mar 03 09:34:08 EST 2022
+│ +#Fri Mar 04 17:27:04 UTC 2022
+│  com.adobe.acs.commons.dam.audio.impl.AudioHelperImpl.description=ACS Commons - Audio Processor
+│  com.adobe.acs.commons.dam.audio.impl.AudioHelperImpl.ffmpeg.workingdir.name=Property ffmpeg.workingdir
+│  com.adobe.acs.commons.dam.audio.impl.AudioHelperImpl.name=ACS Commons - Audio Processor
+│  com.adobe.acs.commons.dam.audio.impl.AudioHelperImpl.ffmpeg.workingdir.description=Description for ffmpeg.workingdir
+...
+
+target/reference/acs-aem-commons-oakpal-checks-5.2.0.opear oakpal-checks/target/acs-aem-commons-oakpal-checks-5.2.0.opear
+--- target/reference/acs-aem-commons-oakpal-checks-5.2.0.opear
++++ oakpal-checks/target/acs-aem-commons-oakpal-checks-5.2.0.opear
+├── zipinfo {}
+│ @@ -1,13 +1,13 @@
+│  Zip file size: 509310 bytes, number of entries: 11
+│ --rw-r--r--  2.0 unx      275 b- defN 22-Mar-03 09:37 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 09:37 META-INF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 09:37 lib/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 09:37 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 09:37 META-INF/maven/com.adobe.acs/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 09:37 META-INF/maven/com.adobe.acs/acs-aem-commons-oakpal-checks/
+│ --rw-r--r--  2.0 unx       94 b- defN 22-Mar-03 09:37 plan.json
+│ --rw-r--r--  2.0 unx    90156 b- defN 22-Mar-03 09:37 lib/acs-aem-commons-oakpal-checks-5.2.0.jar
+│ --rw-r--r--  2.0 unx   475256 b- defN 20-Mar-14 17:07 lib/osgi.core-6.0.0.jar
+│ --rw-r--r--  2.0 unx    14837 b- defN 22-Mar-03 09:33 META-INF/maven/com.adobe.acs/acs-aem-commons-oakpal-checks/pom.xml
+│ --rw-r--r--  2.0 unx       77 b- defN 22-Mar-03 09:37 META-INF/maven/com.adobe.acs/acs-aem-commons-oakpal-checks/pom.properties
+│ +-rw-r--r--  2.0 unx      275 b- defN 22-Mar-04 17:27 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-04 17:27 META-INF/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-04 17:27 lib/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-04 17:27 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-04 17:27 META-INF/maven/com.adobe.acs/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-04 17:27 META-INF/maven/com.adobe.acs/acs-aem-commons-oakpal-checks/
+│ +-rw-r--r--  2.0 unx       94 b- defN 22-Mar-04 17:27 plan.json
+│ +-rw-r--r--  2.0 unx    90156 b- defN 22-Mar-04 17:27 lib/acs-aem-commons-oakpal-checks-5.2.0.jar
+│ +-rw-r--r--  2.0 unx   475256 b- defN 21-Mar-07 15:53 lib/osgi.core-6.0.0.jar
+│ +-rw-rw-r--  2.0 unx    14837 b- defN 22-Mar-04 17:24 META-INF/maven/com.adobe.acs/acs-aem-commons-oakpal-checks/pom.xml
+│ +-rw-r--r--  2.0 unx       77 b- defN 22-Mar-04 17:27 META-INF/maven/com.adobe.acs/acs-aem-commons-oakpal-checks/pom.properties
+│  11 files, 580695 bytes uncompressed, 507752 bytes compressed:  12.6%
+
+target/reference/acs-aem-commons-ui.apps-5.2.0.zip ui.apps/target/acs-aem-commons-ui.apps-5.2.0.zip
+--- target/reference/acs-aem-commons-ui.apps-5.2.0.zip
++++ ui.apps/target/acs-aem-commons-ui.apps-5.2.0.zip
+├── zipinfo {}
+│ @@ -1,1489 +1,1489 @@
+│ -Zip file size: 17635213 bytes, number of entries: 1487
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 09:37 META-INF/
+│ --rw-r--r--  2.0 unx      432 b- defN 22-Mar-03 09:37 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 09:37 META-INF/vault/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 09:37 META-INF/vault/definition/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 09:37 jcr_root/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 09:37 jcr_root/apps/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 09:37 jcr_root/apps/settings/
+...
+│ --rw-r--r--  2.0 unx 14999224 b- defN 22-Mar-03 09:37 jcr_root/apps/acs-commons/install/acs-aem-commons-bundle-5.2.0.jar
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 09:37 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 09:37 META-INF/maven/com.adobe.acs/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-03 09:37 META-INF/maven/com.adobe.acs/acs-aem-commons-ui.apps/
+│ --rw-r--r--  2.0 unx    15674 b- defN 22-Mar-03 09:33 META-INF/maven/com.adobe.acs/acs-aem-commons-ui.apps/pom.xml
+│ --rw-r--r--  2.0 unx      121 b- defN 22-Mar-03 09:37 META-INF/maven/com.adobe.acs/acs-aem-commons-ui.apps/pom.properties
+│ -1487 files, 24790355 bytes uncompressed, 17300893 bytes compressed:  30.2%
+│ +Zip file size: 17635167 bytes, number of entries: 1487
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-04 17:27 META-INF/
+│ +-rw-r--r--  2.0 unx      427 b- defN 22-Mar-04 17:27 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-04 17:27 META-INF/vault/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-04 17:27 META-INF/vault/definition/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-04 17:27 jcr_root/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-04 17:27 jcr_root/apps/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-04 17:27 jcr_root/apps/acs-commons/
+│ +-rw-r--r--  2.0 unx 14999161 b- defN 22-Mar-04 17:27 jcr_root/apps/acs-commons/install/acs-aem-commons-bundle-5.2.0.jar
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-04 17:27 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-04 17:27 META-INF/maven/com.adobe.acs/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-04 17:27 META-INF/maven/com.adobe.acs/acs-aem-commons-ui.apps/
+│ +-rw-r--r--  2.0 unx    15674 b- defN 22-Mar-04 17:24 META-INF/maven/com.adobe.acs/acs-aem-commons-ui.apps/pom.xml
+│ +-rw-r--r--  2.0 unx      121 b- defN 22-Mar-04 17:27 META-INF/maven/com.adobe.acs/acs-aem-commons-ui.apps/pom.properties
+│ +1487 files, 24790282 bytes uncompressed, 17300847 bytes compressed:  30.2%
+├── META-INF/MANIFEST.MF
+│ @@ -1,12 +1,12 @@
+│  Manifest-Version: 1.0
+
+│  Archiver-Version: Plexus Archiver
+
+│  Created-By: Apache Maven
+
+│ -Built-By: davidg
+
+│ -Build-Jdk: 1.8.0_271
+
+│ +Built-By: ?
+
+│ +Build-Jdk: 1.8.0_275
+
+│  Specification-Title: ACS AEM Commons UI.Apps Package
+
+│  Specification-Version: 5.2.0
+
+│  Specification-Vendor: AEM developer community
+
+│  Implementation-Title: ACS AEM Commons UI.Apps Package
+
+│  Implementation-Version: 5.2.0
+
+│  Implementation-Vendor-Id: com.adobe.acs
+
+│  Implementation-Vendor: AEM developer community
+├── META-INF/vault/properties.xml
+│ ├── META-INF/vault/properties.xml
+│ │ @@ -1,16 +1,16 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <!DOCTYPE properties
+│ │    SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
+│ │  <properties>
+│ │    <comment>ACS AEM Commons UI.Apps Package</comment>
+│ │ -  <entry key="createdBy">davidg</entry>
+│ │ +  <entry key="createdBy">?</entry>
+│ │    <entry key="name">acs-aem-commons-ui.apps</entry>
+│ │    <entry key="acHandling">merge</entry>
+│ │ -  <entry key="created">2022-03-03T09:37:55.860-0500</entry>
+│ │ +  <entry key="created">2022-03-04T17:27:25.016+0000</entry>
+│ │    <entry key="groupId">com.adobe.acs</entry>
+│ │    <entry key="version">5.2.0</entry>
+│ │    <entry key="requiresRoot">false</entry>
+│ │    <entry key="dependencies">day/cq60/product:cq-content:6.3.64</entry>
+│ │    <entry key="group">adobe/consulting</entry>
+│ │    <entry key="description">ACS AEM Commons content package containing code (/apps).</entry>
+│ │    <entry key="artifactId">acs-aem-commons-ui.apps</entry>
+...

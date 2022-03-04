@@ -1,0 +1,18 @@
+version=5.2.0
+ok=9
+ko=11
+okFiles="acs-aem-commons-5.2.0.pom acs-aem-commons-bundle-5.2.0.pom acs-aem-commons-bundle-5.2.0-sources.jar acs-aem-commons-oakpal-checks-5.2.0.pom acs-aem-commons-oakpal-checks-5.2.0.jar acs-aem-commons-oakpal-checks-5.2.0-sources.jar acs-aem-commons-ui.apps-5.2.0.pom acs-aem-commons-ui.content-5.2.0.pom acs-aem-commons-content-5.2.0.pom"
+koFiles="acs-aem-commons-bundle-5.2.0.jar acs-aem-commons-oakpal-checks-5.2.0.opear acs-aem-commons-ui.apps-5.2.0.zip acs-aem-commons-ui.apps-5.2.0-sources.jar acs-aem-commons-ui.apps-5.2.0-min.zip acs-aem-commons-ui.content-5.2.0.zip acs-aem-commons-ui.content-5.2.0-sources.jar acs-aem-commons-ui.content-5.2.0-min.zip acs-aem-commons-content-5.2.0.zip acs-aem-commons-content-5.2.0-sources.jar acs-aem-commons-content-5.2.0-min.zip"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/acs-aem-commons-bundle-5.2.0.jar bundle/target/acs-aem-commons-bundle-5.2.0.jar
+# diffoscope target/reference/acs-aem-commons-oakpal-checks-5.2.0.opear oakpal-checks/target/acs-aem-commons-oakpal-checks-5.2.0.opear
+# diffoscope target/reference/acs-aem-commons-ui.apps-5.2.0.zip ui.apps/target/acs-aem-commons-ui.apps-5.2.0.zip
+# diffoscope target/reference/acs-aem-commons-ui.apps-5.2.0-sources.jar ui.apps/target/acs-aem-commons-ui.apps-5.2.0-sources.jar
+# diffoscope target/reference/acs-aem-commons-ui.apps-5.2.0-min.zip ui.apps/target/acs-aem-commons-ui.apps-5.2.0-min.zip
+# diffoscope target/reference/acs-aem-commons-ui.content-5.2.0.zip ui.content/target/acs-aem-commons-ui.content-5.2.0.zip
+# diffoscope target/reference/acs-aem-commons-ui.content-5.2.0-sources.jar ui.content/target/acs-aem-commons-ui.content-5.2.0-sources.jar
+# diffoscope target/reference/acs-aem-commons-ui.content-5.2.0-min.zip ui.content/target/acs-aem-commons-ui.content-5.2.0-min.zip
+# diffoscope target/reference/acs-aem-commons-content-5.2.0.zip content/target/acs-aem-commons-content-5.2.0.zip
+# diffoscope target/reference/acs-aem-commons-content-5.2.0-sources.jar content/target/acs-aem-commons-content-5.2.0-sources.jar
+# diffoscope target/reference/acs-aem-commons-content-5.2.0-min.zip content/target/acs-aem-commons-content-5.2.0-min.zip
