@@ -1,0 +1,10 @@
+version=1.2.11
+ok=18
+ko=3
+okFiles="logback-parent-1.2.11.pom logback-core-1.2.11.pom logback-core-1.2.11-sources.jar logback-core-1.2.11-test-sources.jar logback-core-1.2.11-tests.jar logback-classic-1.2.11.pom logback-classic-1.2.11-sources.jar logback-classic-1.2.11-test-sources.jar logback-classic-1.2.11-tests.jar logback-access-1.2.11.pom logback-access-1.2.11-sources.jar logback-access-1.2.11-test-sources.jar logback-access-1.2.11-tests.jar logback-site-1.2.11.pom logback-site-1.2.11.jar logback-examples-1.2.11.pom logback-examples-1.2.11.jar logback-examples-1.2.11-sources.jar"
+koFiles="logback-core-1.2.11.jar logback-classic-1.2.11.jar logback-access-1.2.11.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/logback-core-1.2.11.jar logback-core/target/logback-core-1.2.11.jar
+# diffoscope target/reference/logback-classic-1.2.11.jar logback-classic/target/logback-classic-1.2.11.jar
+# diffoscope target/reference/logback-access-1.2.11.jar logback-access/target/logback-access-1.2.11.jar
