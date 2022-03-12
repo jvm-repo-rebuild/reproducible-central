@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Initial Content Loader
+group-id=org.apache.sling
+artifact-id=org.apache.sling.jcr.contentloader
+version=2.5.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-jcr-contentloader.git
+source.scm.tag=org.apache.sling.jcr.contentloader-2.5.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.jcr.contentloader-2.5.0.pom
+outputs.0.length=14513
+outputs.0.checksums.sha512=9de07953e654fffc01de5172611160c4359bc1e278cdb3911041d021401acfa150ea5370b6a22589a0e507b1a4a3bb824e6550460151318f21beedc626656509
+
+outputs.1.filename=org.apache.sling.jcr.contentloader-2.5.0.jar
+outputs.1.length=155709
+outputs.1.checksums.sha512=51ccd1743db120fc60e4b906cc9a667d3f7ee61a58f67636e57a12744569b9ff3bfecfbd845a456b53962e68890779a23e11ec7e0ede58fcacab0fe41f03d9da
+
+outputs.2.filename=org.apache.sling.jcr.contentloader-2.5.0-source-release.zip
+outputs.2.length=135760
+outputs.2.checksums.sha512=8db145b9cbef5ae07e27bf7995fdbe4ddffd05178b02c2a3258265ac0aba31e2ed4a6433bc027ceed3710f05a555e332039c445fe655f4f57931351cb91d6e34
+
+outputs.3.filename=org.apache.sling.jcr.contentloader-2.5.0-sources.jar
+outputs.3.length=75778
+outputs.3.checksums.sha512=2dd23508e02253248b1f1fbabbd4fe19374ed7ed836089e785f9b3e70bea813624ed284b6c19ca33babd034429f1cd6a18623eb9b96f496c0e317efecd9605d7
+
+outputs.4.filename=org.apache.sling.jcr.contentloader-2.5.0-sources.jar
+outputs.4.length=75778
+outputs.4.checksums.sha512=2dd23508e02253248b1f1fbabbd4fe19374ed7ed836089e785f9b3e70bea813624ed284b6c19ca33babd034429f1cd6a18623eb9b96f496c0e317efecd9605d7
