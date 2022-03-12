@@ -1,0 +1,8 @@
+version=1.2.10
+ok=3
+ko=1
+okFiles="org.apache.sling.commons.metrics-1.2.10.pom org.apache.sling.commons.metrics-1.2.10-source-release.zip org.apache.sling.commons.metrics-1.2.10-sources.jar"
+koFiles="org.apache.sling.commons.metrics-1.2.10.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.sling.commons.metrics-1.2.10.jar target/org.apache.sling.commons.metrics-1.2.10.jar
