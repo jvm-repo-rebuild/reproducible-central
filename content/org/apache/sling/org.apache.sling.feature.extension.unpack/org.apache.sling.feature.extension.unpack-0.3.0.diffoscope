@@ -1,0 +1,118 @@
+target/reference/org.apache.sling.feature.extension.unpack-0.3.0.tar.gz target/org.apache.sling.feature.extension.unpack-0.3.0.tar.gz
+--- target/reference/org.apache.sling.feature.extension.unpack-0.3.0.tar.gz
++++ target/org.apache.sling.feature.extension.unpack-0.3.0.tar.gz
+├── org.apache.sling.feature.extension.unpack-0.3.0.tar
+│ ├── file list
+│ │ @@ -1,9 +1,9 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)    13883 2022-02-10 13:24:10.000000 org.apache.sling.feature.extension.unpack-0.3.0/LICENSE
+│ │ --rw-r--r--   0 root         (0) root         (0)      195 2022-02-10 13:24:10.000000 org.apache.sling.feature.extension.unpack-0.3.0/NOTICE
+│ │ +-rw-rw-r--   0 root         (0) root         (0)      195 2022-02-10 13:24:10.000000 org.apache.sling.feature.extension.unpack-0.3.0/NOTICE
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2022-02-10 13:24:10.000000 org.apache.sling.feature.extension.unpack-0.3.0/bin/
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     3814 2022-02-10 13:24:10.000000 org.apache.sling.feature.extension.unpack-0.3.0/bin/fc
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     3269 2022-02-10 13:24:10.000000 org.apache.sling.feature.extension.unpack-0.3.0/bin/fc.bat
+│ │  -rw-r--r--   0 root         (0) root         (0)    14769 2022-02-10 13:24:10.000000 org.apache.sling.feature.extension.unpack-0.3.0/lib/org.osgi.annotation.versioning-1.0.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    42599 2022-02-10 13:24:10.000000 org.apache.sling.feature.extension.unpack-0.3.0/lib/org.osgi.service.component.annotations-1.4.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    27504 2022-02-10 13:24:10.000000 org.apache.sling.feature.extension.unpack-0.3.0/lib/org.osgi.service.metatype.annotations-1.4.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   202323 2022-02-10 13:24:10.000000 org.apache.sling.feature.extension.unpack-0.3.0/lib/org.apache.sling.feature-1.2.30.jar
+│ ├── org.apache.sling.feature.extension.unpack-0.3.0/bin/fc
+│ │ @@ -109,15 +109,15 @@
+│ │    [ -n "$CLASSPATH" ] && CLASSPATH=`cygpath --path --windows "$CLASSPATH"`
+│ │    [ -n "$JAVA_HOME" ] && JAVA_HOME=`cygpath --path --windows "$JAVA_HOME"`
+│ │    [ -n "$HOME" ] && HOME=`cygpath --path --windows "$HOME"`
+│ │    [ -n "$BASEDIR" ] && BASEDIR=`cygpath --path --windows "$BASEDIR"`
+│ │    [ -n "$REPO" ] && REPO=`cygpath --path --windows "$REPO"`
+│ │  fi
+│ │  
+│ │ -exec "$JAVACMD" $JAVA_OPTS -Dproject.artifactId=org.apache.sling.feature.extension.unpack -Dproject.version=0.3.0 -Dbuild.timestamp=2022-02-10T13:24:46Z -Duser.timezone=UTC -Dfile.encoding=UTF-8 \
+│ │ +exec "$JAVACMD" $JAVA_OPTS -Dproject.artifactId=org.apache.sling.feature.extension.unpack -Dproject.version=0.3.0 -Dbuild.timestamp=2022-03-12T17:07:09Z -Duser.timezone=UTC -Dfile.encoding=UTF-8 \
+│ │    -classpath "$CLASSPATH" \
+│ │    -Dapp.name="fc" \
+│ │    -Dapp.pid="$$" \
+│ │    -Dapp.repo="$REPO" \
+│ │    -Dapp.home="$BASEDIR" \
+│ │    -Dbasedir="$BASEDIR" \
+│ │    org.apache.sling.feature.extension.unpack.impl.converter.Converter \
+│ ├── org.apache.sling.feature.extension.unpack-0.3.0/bin/fc.bat
+│ │ @@ -74,15 +74,15 @@
+│ │  if NOT "%ENDORSED_DIR%" == "" set CLASSPATH="%BASEDIR%"\%ENDORSED_DIR%\*;%CLASSPATH%
+│ │  
+│ │  if NOT "%CLASSPATH_PREFIX%" == "" set CLASSPATH=%CLASSPATH_PREFIX%;%CLASSPATH%
+│ │  
+│ │  @REM Reaching here means variables are defined and arguments have been captured
+│ │  :endInit
+│ │  
+│ │ -%JAVACMD% %JAVA_OPTS% -Dproject.artifactId=org.apache.sling.feature.extension.unpack -Dproject.version=0.3.0 -Dbuild.timestamp=2022-02-10T13:24:46Z -Duser.timezone=UTC -Dfile.encoding=UTF-8 -classpath %CLASSPATH% -Dapp.name="fc" -Dapp.repo="%REPO%" -Dapp.home="%BASEDIR%" -Dbasedir="%BASEDIR%" org.apache.sling.feature.extension.unpack.impl.converter.Converter %CMD_LINE_ARGS%
+│ │ +%JAVACMD% %JAVA_OPTS% -Dproject.artifactId=org.apache.sling.feature.extension.unpack -Dproject.version=0.3.0 -Dbuild.timestamp=2022-03-12T17:07:09Z -Duser.timezone=UTC -Dfile.encoding=UTF-8 -classpath %CLASSPATH% -Dapp.name="fc" -Dapp.repo="%REPO%" -Dapp.home="%BASEDIR%" -Dbasedir="%BASEDIR%" org.apache.sling.feature.extension.unpack.impl.converter.Converter %CMD_LINE_ARGS%
+│ │  if %ERRORLEVEL% NEQ 0 goto error
+│ │  goto end
+│ │  
+│ │  :error
+│ │  if "%OS%"=="Windows_NT" @endlocal
+│ │  set ERROR_CODE=%ERRORLEVEL%
+
+target/reference/org.apache.sling.feature.extension.unpack-0.3.0.zip target/org.apache.sling.feature.extension.unpack-0.3.0.zip
+--- target/reference/org.apache.sling.feature.extension.unpack-0.3.0.zip
++++ target/org.apache.sling.feature.extension.unpack-0.3.0.zip
+├── zipinfo {}
+│ @@ -1,13 +1,13 @@
+│ -Zip file size: 3195641 bytes, number of entries: 23
+│ +Zip file size: 3195637 bytes, number of entries: 23
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-10 13:24 org.apache.sling.feature.extension.unpack-0.3.0/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-10 13:24 org.apache.sling.feature.extension.unpack-0.3.0/bin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-10 13:24 org.apache.sling.feature.extension.unpack-0.3.0/lib/
+│  -rw-r--r--  2.0 unx    13883 b- defN 22-Feb-10 13:24 org.apache.sling.feature.extension.unpack-0.3.0/LICENSE
+│ --rw-r--r--  2.0 unx      195 b- defN 22-Feb-10 13:24 org.apache.sling.feature.extension.unpack-0.3.0/NOTICE
+│ +-rw-rw-r--  2.0 unx      195 b- defN 22-Feb-10 13:24 org.apache.sling.feature.extension.unpack-0.3.0/NOTICE
+│  -rwxr-xr-x  2.0 unx     3814 b- defN 22-Feb-10 13:24 org.apache.sling.feature.extension.unpack-0.3.0/bin/fc
+│  -rwxr-xr-x  2.0 unx     3269 b- defN 22-Feb-10 13:24 org.apache.sling.feature.extension.unpack-0.3.0/bin/fc.bat
+│  -rw-r--r--  2.0 unx    14769 b- defN 22-Feb-10 13:24 org.apache.sling.feature.extension.unpack-0.3.0/lib/org.osgi.annotation.versioning-1.0.0.jar
+│  -rw-r--r--  2.0 unx    42599 b- defN 22-Feb-10 13:24 org.apache.sling.feature.extension.unpack-0.3.0/lib/org.osgi.service.component.annotations-1.4.0.jar
+│  -rw-r--r--  2.0 unx    27504 b- defN 22-Feb-10 13:24 org.apache.sling.feature.extension.unpack-0.3.0/lib/org.osgi.service.metatype.annotations-1.4.0.jar
+│  -rw-r--r--  2.0 unx   202323 b- defN 22-Feb-10 13:24 org.apache.sling.feature.extension.unpack-0.3.0/lib/org.apache.sling.feature-1.2.30.jar
+│  -rw-r--r--  2.0 unx   475256 b- defN 22-Feb-10 13:24 org.apache.sling.feature.extension.unpack-0.3.0/lib/osgi.core-6.0.0.jar
+│ @@ -18,8 +18,8 @@
+│  -rw-r--r--  2.0 unx   353793 b- defN 22-Feb-10 13:24 org.apache.sling.feature.extension.unpack-0.3.0/lib/commons-codec-1.15.jar
+│  -rw-r--r--  2.0 unx    36993 b- defN 22-Feb-10 13:24 org.apache.sling.feature.extension.unpack-0.3.0/lib/geronimo-json_1.1_spec-1.2.jar
+│  -rw-r--r--  2.0 unx    68932 b- defN 22-Feb-10 13:24 org.apache.sling.feature.extension.unpack-0.3.0/lib/org.apache.sling.feature.launcher-1.2.0.jar
+│  -rw-r--r--  2.0 unx   165379 b- defN 22-Feb-10 13:24 org.apache.sling.feature.extension.unpack-0.3.0/lib/org.apache.sling.installer.core-3.12.0.jar
+│  -rw-r--r--  2.0 unx    64163 b- defN 22-Feb-10 13:24 org.apache.sling.feature.extension.unpack-0.3.0/lib/org.apache.sling.installer.factory.feature-0.6.0.jar
+│  -rw-r--r--  2.0 unx   176016 b- defN 22-Feb-10 13:24 org.apache.sling.feature.extension.unpack-0.3.0/lib/org.apache.felix.utils-1.11.8.jar
+│  -rw-r--r--  2.0 unx    36894 b- defN 22-Feb-10 13:24 org.apache.sling.feature.extension.unpack-0.3.0/lib/org.apache.sling.feature.extension.unpack-0.3.0.jar
+│ -23 files, 3607864 bytes uncompressed, 3190373 bytes compressed:  11.6%
+│ +23 files, 3607864 bytes uncompressed, 3190369 bytes compressed:  11.6%
+├── org.apache.sling.feature.extension.unpack-0.3.0/bin/fc
+│ @@ -109,15 +109,15 @@
+│    [ -n "$CLASSPATH" ] && CLASSPATH=`cygpath --path --windows "$CLASSPATH"`
+│    [ -n "$JAVA_HOME" ] && JAVA_HOME=`cygpath --path --windows "$JAVA_HOME"`
+│    [ -n "$HOME" ] && HOME=`cygpath --path --windows "$HOME"`
+│    [ -n "$BASEDIR" ] && BASEDIR=`cygpath --path --windows "$BASEDIR"`
+│    [ -n "$REPO" ] && REPO=`cygpath --path --windows "$REPO"`
+│  fi
+│  
+│ -exec "$JAVACMD" $JAVA_OPTS -Dproject.artifactId=org.apache.sling.feature.extension.unpack -Dproject.version=0.3.0 -Dbuild.timestamp=2022-02-10T13:24:46Z -Duser.timezone=UTC -Dfile.encoding=UTF-8 \
+│ +exec "$JAVACMD" $JAVA_OPTS -Dproject.artifactId=org.apache.sling.feature.extension.unpack -Dproject.version=0.3.0 -Dbuild.timestamp=2022-03-12T17:07:09Z -Duser.timezone=UTC -Dfile.encoding=UTF-8 \
+│    -classpath "$CLASSPATH" \
+│    -Dapp.name="fc" \
+│    -Dapp.pid="$$" \
+│    -Dapp.repo="$REPO" \
+│    -Dapp.home="$BASEDIR" \
+│    -Dbasedir="$BASEDIR" \
+│    org.apache.sling.feature.extension.unpack.impl.converter.Converter \
+├── org.apache.sling.feature.extension.unpack-0.3.0/bin/fc.bat
+│ @@ -74,15 +74,15 @@
+│  if NOT "%ENDORSED_DIR%" == "" set CLASSPATH="%BASEDIR%"\%ENDORSED_DIR%\*;%CLASSPATH%
+│  
+│  if NOT "%CLASSPATH_PREFIX%" == "" set CLASSPATH=%CLASSPATH_PREFIX%;%CLASSPATH%
+│  
+│  @REM Reaching here means variables are defined and arguments have been captured
+│  :endInit
+│  
+│ -%JAVACMD% %JAVA_OPTS% -Dproject.artifactId=org.apache.sling.feature.extension.unpack -Dproject.version=0.3.0 -Dbuild.timestamp=2022-02-10T13:24:46Z -Duser.timezone=UTC -Dfile.encoding=UTF-8 -classpath %CLASSPATH% -Dapp.name="fc" -Dapp.repo="%REPO%" -Dapp.home="%BASEDIR%" -Dbasedir="%BASEDIR%" org.apache.sling.feature.extension.unpack.impl.converter.Converter %CMD_LINE_ARGS%
+│ +%JAVACMD% %JAVA_OPTS% -Dproject.artifactId=org.apache.sling.feature.extension.unpack -Dproject.version=0.3.0 -Dbuild.timestamp=2022-03-12T17:07:09Z -Duser.timezone=UTC -Dfile.encoding=UTF-8 -classpath %CLASSPATH% -Dapp.name="fc" -Dapp.repo="%REPO%" -Dapp.home="%BASEDIR%" -Dbasedir="%BASEDIR%" org.apache.sling.feature.extension.unpack.impl.converter.Converter %CMD_LINE_ARGS%
+│  if %ERRORLEVEL% NEQ 0 goto error
+│  goto end
+│  
+│  :error
+│  if "%OS%"=="Windows_NT" @endlocal
+│  set ERROR_CODE=%ERRORLEVEL%
+

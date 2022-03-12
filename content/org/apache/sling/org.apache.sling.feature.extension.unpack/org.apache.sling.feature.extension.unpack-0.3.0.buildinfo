@@ -1,0 +1,50 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Sling Featuremodel - Unpack Extension
+group-id=org.apache.sling
+artifact-id=org.apache.sling.feature.extension.unpack
+version=0.3.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-feature-extension-unpack.git
+source.scm.tag=org.apache.sling.feature.extension.unpack-0.3.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.feature.extension.unpack-0.3.0.pom
+outputs.0.length=10148
+outputs.0.checksums.sha512=c2f8f4302eac17481b657685a2a3e61996a35337e2d214d8a23569e18e8a268d9c1e5cf541108af5a79ce64f9cbf077b9eda5724cb5ba8903a2d97610dfb95ec
+
+outputs.1.filename=org.apache.sling.feature.extension.unpack-0.3.0.jar
+outputs.1.length=36894
+outputs.1.checksums.sha512=13df16765edb58203752bcf8090746ce5a1380d73208d69830d5a4a44e10bb57d7119791172c52a297d87cfd4a03faa0bf2dc2f717f1a87ccfcc867058c7f33b
+
+outputs.2.filename=org.apache.sling.feature.extension.unpack-0.3.0-source-release.zip
+outputs.2.length=50856
+outputs.2.checksums.sha512=ae2e175bddedc7ed1881bc2bc23baea7079ca324cdcb6b778f04b560a317827011e0f7166ea568e39061a315a8ca9f753d17c26820613b5b94ed10b5927f17a8
+
+outputs.3.filename=org.apache.sling.feature.extension.unpack-0.3.0.tar.gz
+outputs.3.length=3183621
+outputs.3.checksums.sha512=4dbe8206322f4b9f31b4b15f1c251d270bd833738e97982c9d92f946a98f46c7bf5e983376741c06a164ae104b8b41a64886251879ec9ee75bb9c6101ebb62cc
+
+outputs.4.filename=org.apache.sling.feature.extension.unpack-0.3.0.zip
+outputs.4.length=3195637
+outputs.4.checksums.sha512=28d27d10804586c77fb14b031e8bdb35ea54118554565339e902bec18baa7db66346cc54aee4c0302f65d9844a9a1363b9644249cf0ab737c2a95d8a82e7f170
+
+outputs.5.filename=org.apache.sling.feature.extension.unpack-0.3.0-sources.jar
+outputs.5.length=20895
+outputs.5.checksums.sha512=c28ac9de74fd6b44bb8635ab6fa8895885188ad97aa7b55d8b43eaf7e8f82a07fd21267599944a8e6b3b9fe2fa78eb8a5cd87fa4e401ab2a8eb89cf45967841a
+
+outputs.6.filename=org.apache.sling.feature.extension.unpack-0.3.0-sources.jar
+outputs.6.length=20895
+outputs.6.checksums.sha512=c28ac9de74fd6b44bb8635ab6fa8895885188ad97aa7b55d8b43eaf7e8f82a07fd21267599944a8e6b3b9fe2fa78eb8a5cd87fa4e401ab2a8eb89cf45967841a
