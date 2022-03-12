@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Jackrabbit UserManager Support
+group-id=org.apache.sling
+artifact-id=org.apache.sling.jcr.jackrabbit.usermanager
+version=2.2.16
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-jcr-jackrabbit-usermanager.git
+source.scm.tag=org.apache.sling.jcr.jackrabbit.usermanager-2.2.16
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.jcr.jackrabbit.usermanager-2.2.16.pom
+outputs.0.length=11823
+outputs.0.checksums.sha512=b0493c569fcba96cb04f65d3c87b65539f16074a5bea87b0cca85bf98a93d6b06c90e0199fa74e0161f602a3ec14c555b7e8f37044fa23016d1eb895a7f1b0dd
+
+outputs.1.filename=org.apache.sling.jcr.jackrabbit.usermanager-2.2.16.jar
+outputs.1.length=115462
+outputs.1.checksums.sha512=d68e663dff85670bb53305f520b31a9f04c7bd1c11d6383e1c877a782df21df089b49eb1fda47b9bffabdb0e0a25eba9975ce6b2dea51aea37d054d2f082555b
+
+outputs.2.filename=org.apache.sling.jcr.jackrabbit.usermanager-2.2.16-source-release.zip
+outputs.2.length=138806
+outputs.2.checksums.sha512=6fd5cad705d94493d89ec7a5a7106ff8900b9e46f53d9d205f194dd5d15e2d542baa93dd1c06771c2b84ac8c36835d45fe8cb3d8ef275338f26e321f8beffabd
+
+outputs.3.filename=org.apache.sling.jcr.jackrabbit.usermanager-2.2.16-sources.jar
+outputs.3.length=77326
+outputs.3.checksums.sha512=96af470e0c10b0304c8d782e1363d551ef2d80737088e2d1adcbdeb7476d9698de1780bf8f0248c909d325024ec9aad7b43a29c6673f0983546b3e0d6ddd71ea
+
+outputs.4.filename=org.apache.sling.jcr.jackrabbit.usermanager-2.2.16-sources.jar
+outputs.4.length=77326
+outputs.4.checksums.sha512=96af470e0c10b0304c8d782e1363d551ef2d80737088e2d1adcbdeb7476d9698de1780bf8f0248c909d325024ec9aad7b43a29c6673f0983546b3e0d6ddd71ea
