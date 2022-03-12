@@ -1,0 +1,9 @@
+version=2.4.6
+ok=2
+ko=2
+okFiles="org.apache.sling.servlets.post-2.4.6.pom org.apache.sling.servlets.post-2.4.6-source-release.zip"
+koFiles="org.apache.sling.servlets.post-2.4.6.jar org.apache.sling.servlets.post-2.4.6-sources.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.sling.servlets.post-2.4.6.jar target/org.apache.sling.servlets.post-2.4.6.jar
+# diffoscope target/reference/org.apache.sling.servlets.post-2.4.6-sources.jar target/org.apache.sling.servlets.post-2.4.6-sources.jar

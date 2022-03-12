@@ -1,0 +1,46 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Servlets POST
+group-id=org.apache.sling
+artifact-id=org.apache.sling.servlets.post
+version=2.4.6
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-servlets-post.git
+source.scm.tag=org.apache.sling.servlets.post-2.4.6
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.servlets.post-2.4.6.pom
+outputs.0.length=8521
+outputs.0.checksums.sha512=09cbc092ce64920d84686dd5efae1f734bd3f01049b5208dfaecf3a97bfda67f0bc5645646dbd3090540f89a8eba572caaf343af76553ca086153302cfdfd69c
+
+outputs.1.filename=org.apache.sling.servlets.post-2.4.6.jar
+outputs.1.length=184929
+outputs.1.checksums.sha512=128159b70f2748db58af332498a2437b4945e24ef381ed3b19370d20f0e7e8dadaf235607522d63d24aa3fb9a6cbf74ed2a3a6ef154ca7314b3ad8651fbedf73
+
+outputs.2.filename=org.apache.sling.servlets.post-2.4.6-source-release.zip
+outputs.2.length=193977
+outputs.2.checksums.sha512=a553bae6b43d3885b5dda97270336c40ec50603bd520b703ddff6b00b161d5f83cb5c36cdd1a9bc7d6ee66512b3bd0a69dc96838e95017ad8aaf5ca4ee41865a
+
+outputs.3.filename=org.apache.sling.servlets.post-2.4.6-sources.jar
+outputs.3.length=144320
+outputs.3.checksums.sha512=2cecdec4f3d7bdd32032998bbf17216e4a2e95bfedff4d498c3faa1498c94d232b448bb5f0664153130b09dc6cc6e77c18439ac440e6561805c859bbe4546d7c
+
+outputs.4.filename=org.apache.sling.servlets.post-2.4.6-sources.jar
+outputs.4.length=144320
+outputs.4.checksums.sha512=2cecdec4f3d7bdd32032998bbf17216e4a2e95bfedff4d498c3faa1498c94d232b448bb5f0664153130b09dc6cc6e77c18439ac440e6561805c859bbe4546d7c
+
+outputs.5.filename=org.apache.sling.servlets.post-2.4.6-sources.jar
+outputs.5.length=144320
+outputs.5.checksums.sha512=2cecdec4f3d7bdd32032998bbf17216e4a2e95bfedff4d498c3faa1498c94d232b448bb5f0664153130b09dc6cc6e77c18439ac440e6561805c859bbe4546d7c
