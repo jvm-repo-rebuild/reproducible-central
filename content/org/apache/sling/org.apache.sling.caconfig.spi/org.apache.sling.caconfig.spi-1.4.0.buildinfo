@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Context-Aware Configuration SPI
+group-id=org.apache.sling
+artifact-id=org.apache.sling.caconfig.spi
+version=1.4.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-caconfig-spi.git
+source.scm.tag=org.apache.sling.caconfig.spi-1.4.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.caconfig.spi-1.4.0.pom
+outputs.0.length=4688
+outputs.0.checksums.sha512=5d8cc5478b32949b9f15e7c9667f48f649795bbf3492a1f0de85f9358a2863e19b2540ff489608db5417451897de3cf3741af2b3a734dbff970561bffdb6c30f
+
+outputs.1.filename=org.apache.sling.caconfig.spi-1.4.0.jar
+outputs.1.length=26666
+outputs.1.checksums.sha512=45470ff0a4041b08d9f3f231a63b350ab7eee33117d47209d6b5c7daf89f5e619db997627ba75bb0b98677cce830673711d86a2e0cb2568e0e655181d24677d5
+
+outputs.2.filename=org.apache.sling.caconfig.spi-1.4.0-source-release.zip
+outputs.2.length=46577
+outputs.2.checksums.sha512=3edf5d82736249dc214758258c7feeccb7811bfcdcffef6698dd283a75ecae2e9e42f0064336647cacccb0128090ef991032e89a189b121d2acd019e7c99a3b8
+
+outputs.3.filename=org.apache.sling.caconfig.spi-1.4.0-sources.jar
+outputs.3.length=32663
+outputs.3.checksums.sha512=af707638b0aaf874e920ae77e33c73ef53fdc84082e1bcdbc662e88858b1a23373147c372ac490b50d9fa495d59bdef8107bbe7743fa3a2db98d3283d23b8a9f
+
+outputs.4.filename=org.apache.sling.caconfig.spi-1.4.0-sources.jar
+outputs.4.length=32663
+outputs.4.checksums.sha512=af707638b0aaf874e920ae77e33c73ef53fdc84082e1bcdbc662e88858b1a23373147c372ac490b50d9fa495d59bdef8107bbe7743fa3a2db98d3283d23b8a9f
