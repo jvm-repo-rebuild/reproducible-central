@@ -1,0 +1,9 @@
+version=1.3.34
+ok=2
+ko=2
+okFiles="org.apache.sling.feature.analyser-1.3.34.pom org.apache.sling.feature.analyser-1.3.34-source-release.zip"
+koFiles="org.apache.sling.feature.analyser-1.3.34.jar org.apache.sling.feature.analyser-1.3.34-sources.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.sling.feature.analyser-1.3.34.jar target/org.apache.sling.feature.analyser-1.3.34.jar
+# diffoscope target/reference/org.apache.sling.feature.analyser-1.3.34-sources.jar target/org.apache.sling.feature.analyser-1.3.34-sources.jar
