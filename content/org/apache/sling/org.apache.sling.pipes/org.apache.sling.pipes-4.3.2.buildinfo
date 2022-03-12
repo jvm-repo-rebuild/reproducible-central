@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Pipes
+group-id=org.apache.sling
+artifact-id=org.apache.sling.pipes
+version=4.3.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-pipes.git
+source.scm.tag=org.apache.sling.pipes-4.3.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.pipes-4.3.2.pom
+outputs.0.length=13879
+outputs.0.checksums.sha512=e6e68c5aa8d2d26058c283deaca6bb942ff856ff8bb0b845de0bf4171afd94a140d5f1c6014ee12c24ec60d8499189173ebaec24ebe149b6ca921c459a6fb244
+
+outputs.1.filename=org.apache.sling.pipes-4.3.2.jar
+outputs.1.length=556889
+outputs.1.checksums.sha512=e5e1102336bd1401d2213706e5b94c9f5b5147aa73848e5920fc95fa5cdfeeaf76d6188e784df67c615df164088ab111839055b0998d0f029bda9da3a450a59d
+
+outputs.2.filename=org.apache.sling.pipes-4.3.2-source-release.zip
+outputs.2.length=229540
+outputs.2.checksums.sha512=91b0573b700965ed0fdfaa6ed31e46dee996d1e1f6d9d549697cc4f47f783b086950b4c95f32c6440b2bebb091722e577d55e781f188099f4612c980201ecb32
+
+outputs.3.filename=org.apache.sling.pipes-4.3.2-sources.jar
+outputs.3.length=121232
+outputs.3.checksums.sha512=83ed0b5142438a2bd0a687f61e04dca41c6a013f8a6398fa2dc0a7ddd33729cee5ade0331963e0adace1e45f45f5e2e7f84344fa67c2525a5054adaf3e6ef38e
+
+outputs.4.filename=org.apache.sling.pipes-4.3.2-sources.jar
+outputs.4.length=121232
+outputs.4.checksums.sha512=83ed0b5142438a2bd0a687f61e04dca41c6a013f8a6398fa2dc0a7ddd33729cee5ade0331963e0adace1e45f45f5e2e7f84344fa67c2525a5054adaf3e6ef38e
