@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Security
+group-id=org.apache.sling
+artifact-id=org.apache.sling.security
+version=1.1.24
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-security.git
+source.scm.tag=org.apache.sling.security-1.1.24
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.security-1.1.24.pom
+outputs.0.length=4363
+outputs.0.checksums.sha512=e96f5c46cea9ebf6379eefbddd729a249ec6fb017dcfe0c1b2227ebb05921e9efe471f42aff0f32dc87d515e05e1c9d92abae8374cb18eea91c7652da1e7b3f2
+
+outputs.1.filename=org.apache.sling.security-1.1.24.jar
+outputs.1.length=26214
+outputs.1.checksums.sha512=6fce7828c89b0e6d395f9cd80399c1922ec062aecd67fc9b6fc72e08c99b62e8a3c166e63e7b5c418fa7ee8428dd1796090d3887dd3462afe3b05f4c0feca2a8
+
+outputs.2.filename=org.apache.sling.security-1.1.24-source-release.zip
+outputs.2.length=28684
+outputs.2.checksums.sha512=228e587d7beb721fd4d41bc3add2cc07b22fe688de18fd54a40144e9842da1eeaa673858b41a9e51e6d4f944b6401272ad0ef9d36cd428dd4a1183a49a7b5a06
+
+outputs.3.filename=org.apache.sling.security-1.1.24-sources.jar
+outputs.3.length=17181
+outputs.3.checksums.sha512=ec46e7e48f9bf01bf4280c5b92417b2cc9708fa62ff1b6fbb04f560d9c47bf760ccf1a23585d6d3b4c651c0b86177e9c1bf2a734560c3f1f0d93371c8ca059dc
+
+outputs.4.filename=org.apache.sling.security-1.1.24-sources.jar
+outputs.4.length=17181
+outputs.4.checksums.sha512=ec46e7e48f9bf01bf4280c5b92417b2cc9708fa62ff1b6fbb04f560d9c47bf760ccf1a23585d6d3b4c651c0b86177e9c1bf2a734560c3f1f0d93371c8ca059dc
