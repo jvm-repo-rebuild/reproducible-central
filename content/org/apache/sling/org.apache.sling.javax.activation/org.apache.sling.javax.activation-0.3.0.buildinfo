@@ -1,0 +1,46 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling javax.activation bundle
+group-id=org.apache.sling
+artifact-id=org.apache.sling.javax.activation
+version=0.3.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-javax-activation.git
+source.scm.tag=org.apache.sling.javax.activation-0.3.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.javax.activation-0.3.0.pom
+outputs.0.length=7728
+outputs.0.checksums.sha512=6ba488358e4becd139ec2e45daefcc889444e8eb7ba6165de8819d517d5cbc8b440cb8fcfa10e8f83c1e8a5f86fb465cb0ad8bb156817e9b980f433d4d68e366
+
+outputs.1.filename=org.apache.sling.javax.activation-0.3.0.jar
+outputs.1.length=85820
+outputs.1.checksums.sha512=4451152fb7557c8387c41e10c446aba97581740a85ac9548e4cf1a6f9486d324756cd51cd036abe0272434835dff9d286131b95eb00369103333b8ad705a5e33
+
+outputs.2.filename=org.apache.sling.javax.activation-0.3.0-source-release.zip
+outputs.2.length=20278
+outputs.2.checksums.sha512=161fe91d47a3b9cac880e3cc1c755277c28cd1f550d6620986e98dbec77f3647491ffe0826136d946115b59b49ea4c0ca07e4ceeac7e797d4286a27eb3919900
+
+outputs.3.filename=org.apache.sling.javax.activation-0.3.0-sources.jar
+outputs.3.length=12806
+outputs.3.checksums.sha512=b6fa50ea46b768be00f1856b99149c9bd4cd3fa7accdae4fe61e4cd9328102a0722c04c3ea33b7c51ce54061bd954192bb55c2f42cc0d01c601f7a03ddff262e
+
+outputs.4.filename=org.apache.sling.javax.activation-0.3.0-sources.jar
+outputs.4.length=12806
+outputs.4.checksums.sha512=b6fa50ea46b768be00f1856b99149c9bd4cd3fa7accdae4fe61e4cd9328102a0722c04c3ea33b7c51ce54061bd954192bb55c2f42cc0d01c601f7a03ddff262e
+
+outputs.5.filename=org.apache.sling.javax.activation-0.3.0-nodeps.jar
+outputs.5.length=18132
+outputs.5.checksums.sha512=c501f2402768c59ab5fa3104b84b3f4c431a464aa511209ffed56fe179f342bf71a01dbc174dacc3b4d338d8f58b9c57795d883815c2a74b4677c9535bbbb942

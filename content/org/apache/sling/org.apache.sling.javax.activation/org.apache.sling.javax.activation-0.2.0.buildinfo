@@ -13,32 +13,34 @@ source.scm.tag=org.apache.sling.javax.activation-0.2.0
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 
 # output
 
-outputs.0.filename=org.apache.sling.javax.activation-0.2.0.jar
-outputs.0.length=83816
-outputs.0.checksums.sha512=2ab50567844a3905df948dda20fdfa29469be23912eef3aafa871b7420e6ea2e3c93a5a23dc968d7686d39383bbf2c9f4bec5f9cf541372501f5a30a75651e01
+outputs.0.filename=org.apache.sling.javax.activation-0.2.0.pom
+outputs.0.length=7170
+outputs.0.checksums.sha512=12488f667b48bd0a9f2e5a81ced916d04fea297354fee0507909627e2216264a6a6308036b0e2a275dc7f8ecfa58b52303adeec8cace0ab6126aed844c86596a
 
-outputs.1.filename=org.apache.sling.javax.activation-0.2.0-source-release.zip
-outputs.1.length=15830
-outputs.1.checksums.sha512=e0eae42fd8e5c9c4604111f7c56e5503158e24b8507e3b0a3cfbae72ff3461c0cb5b9f85fd362b008aad34a5a16d48f64fa020156ba773c86e1d97bc9a2d9e04
+outputs.1.filename=org.apache.sling.javax.activation-0.2.0.jar
+outputs.1.length=83816
+outputs.1.checksums.sha512=2ab50567844a3905df948dda20fdfa29469be23912eef3aafa871b7420e6ea2e3c93a5a23dc968d7686d39383bbf2c9f4bec5f9cf541372501f5a30a75651e01
 
-outputs.2.filename=org.apache.sling.javax.activation-0.2.0-sources.jar
-outputs.2.length=12451
-outputs.2.checksums.sha512=e6c4e982e0b2388727962ab752f000819fcf4dfe4d0dcaaf1440bb1c1756fcfee21e548a6e1d8791358171f5fb1fbca024472f1fcb097e98716d7b53708e7df5
+outputs.2.filename=org.apache.sling.javax.activation-0.2.0-source-release.zip
+outputs.2.length=15830
+outputs.2.checksums.sha512=e0eae42fd8e5c9c4604111f7c56e5503158e24b8507e3b0a3cfbae72ff3461c0cb5b9f85fd362b008aad34a5a16d48f64fa020156ba773c86e1d97bc9a2d9e04
 
 outputs.3.filename=org.apache.sling.javax.activation-0.2.0-sources.jar
 outputs.3.length=12451
 outputs.3.checksums.sha512=e6c4e982e0b2388727962ab752f000819fcf4dfe4d0dcaaf1440bb1c1756fcfee21e548a6e1d8791358171f5fb1fbca024472f1fcb097e98716d7b53708e7df5
 
-outputs.4.filename=org.apache.sling.javax.activation-0.2.0-nodeps.jar
-outputs.4.length=16274
-outputs.4.checksums.sha512=6199c2978e2f05683f46595dc1c8ca4632399c03592b089927cb62654ddb2339af1994b770f9f81a28d8addae958c6a64a543aa3ad7aca9e2950272523868763
+outputs.4.filename=org.apache.sling.javax.activation-0.2.0-sources.jar
+outputs.4.length=12451
+outputs.4.checksums.sha512=e6c4e982e0b2388727962ab752f000819fcf4dfe4d0dcaaf1440bb1c1756fcfee21e548a6e1d8791358171f5fb1fbca024472f1fcb097e98716d7b53708e7df5
+
+outputs.5.filename=org.apache.sling.javax.activation-0.2.0-nodeps.jar
+outputs.5.length=16272
+outputs.5.checksums.sha512=4c23b42648c03b413424610148c85fbc321b7d046b5410350c66ccf4d468670f9f24328c5b8b73a51373886b9861da32220625bceefb8cff0ff8f7ea1516053a
