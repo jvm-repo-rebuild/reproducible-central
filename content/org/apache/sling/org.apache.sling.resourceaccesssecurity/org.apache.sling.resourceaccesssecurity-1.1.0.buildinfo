@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Resource Access Security
+group-id=org.apache.sling
+artifact-id=org.apache.sling.resourceaccesssecurity
+version=1.1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-resourceaccesssecurity.git
+source.scm.tag=org.apache.sling.resourceaccesssecurity-1.1.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.resourceaccesssecurity-1.1.0.pom
+outputs.0.length=3960
+outputs.0.checksums.sha512=107fca211968258fedb6563cb6f536bdeded7106c2c5a5d6c35f24004b6bb24eb0417ae4decd8ef1b02767bfdb19720c7f0dfa700537819c3fbcae1502fe7cc1
+
+outputs.1.filename=org.apache.sling.resourceaccesssecurity-1.1.0.jar
+outputs.1.length=26077
+outputs.1.checksums.sha512=ebfe4b052ad171af1573908a0d95f6942afb7a61ee60ed8613b11af8b2b2b8ca70b895f10504da76751f90597e52d044efd2531e17e48ceee76052337b7672d6
+
+outputs.2.filename=org.apache.sling.resourceaccesssecurity-1.1.0-source-release.zip
+outputs.2.length=31102
+outputs.2.checksums.sha512=0d6cc1bd84416a85be61fd9a954e52e07d014b1a5a822aa21d5abaecb50241dd68a4bf33402097fff6cacd02df0827ce41068a3b1ed82a6b18a13dd9c62826c8
+
+outputs.3.filename=org.apache.sling.resourceaccesssecurity-1.1.0-sources.jar
+outputs.3.length=21734
+outputs.3.checksums.sha512=e3fa0196377587645072b3402c2e958809fddca4d53251fb6cf88981296eb0fe3dc58fc3825ae56ba4d9da97c1a5b20600697527afcfcf94d0b8d589dea67870
+
+outputs.4.filename=org.apache.sling.resourceaccesssecurity-1.1.0-sources.jar
+outputs.4.length=21734
+outputs.4.checksums.sha512=e3fa0196377587645072b3402c2e958809fddca4d53251fb6cf88981296eb0fe3dc58fc3825ae56ba4d9da97c1a5b20600697527afcfcf94d0b8d589dea67870
