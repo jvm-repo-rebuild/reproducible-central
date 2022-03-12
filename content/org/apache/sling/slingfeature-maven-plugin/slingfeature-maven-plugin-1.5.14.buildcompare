@@ -1,0 +1,7 @@
+version=1.5.14
+ok=4
+ko=0
+okFiles="slingfeature-maven-plugin-1.5.14.pom slingfeature-maven-plugin-1.5.14.jar slingfeature-maven-plugin-1.5.14-source-release.zip slingfeature-maven-plugin-1.5.14-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
