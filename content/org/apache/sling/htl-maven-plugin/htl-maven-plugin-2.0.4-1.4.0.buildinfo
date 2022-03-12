@@ -1,0 +1,43 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling HTL Maven Plugin
+group-id=org.apache.sling
+artifact-id=htl-maven-plugin
+version=2.0.4-1.4.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-htl-maven-plugin.git
+source.scm.tag=htl-maven-plugin-2.0.4-1.4.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.3.9
+
+# output
+
+outputs.0.filename=htl-maven-plugin-2.0.4-1.4.0.pom
+outputs.0.length=14159
+outputs.0.checksums.sha512=a4f009faef8e1f29db85c30862d627d8cbd6a6fb59247bf0c4e4847857612c689c533e74ba45979de3f3fc989f3a8bb936558b91c506a692d2e370795b7d4e94
+
+outputs.1.filename=htl-maven-plugin-2.0.4-1.4.0.jar
+outputs.1.length=30833
+outputs.1.checksums.sha512=04556180dc06b34cac86bb1ddf58ddae6d397c789a750bd819487c8ed95e8ee4cc1f35e0c2a4023b07879511a1559e75bb19397ef53832119832a49a793f7536
+
+outputs.2.filename=htl-maven-plugin-2.0.4-1.4.0-source-release.zip
+outputs.2.length=53701
+outputs.2.checksums.sha512=be1c3ae0921a3142b4e59ded5c6414f4e302b80454921e692db077551e808037116dbb8ddb6a69866f3c7af6d953edb23207c7a9f7bee5460d9358d4c32e600e
+
+outputs.3.filename=htl-maven-plugin-2.0.4-1.4.0-sources.jar
+outputs.3.length=22156
+outputs.3.checksums.sha512=34e22255a69bd6e8e6cba6841195abe2c8a29d6738732cff01eabd87673f5ec3e452056ebac6454024b35de6c6ba811e58075833f6b5d4b21d166db5581ed8d2
+
+outputs.4.filename=htl-maven-plugin-2.0.4-1.4.0-sources.jar
+outputs.4.length=22156
+outputs.4.checksums.sha512=34e22255a69bd6e8e6cba6841195abe2c8a29d6738732cff01eabd87673f5ec3e452056ebac6454024b35de6c6ba811e58075833f6b5d4b21d166db5581ed8d2

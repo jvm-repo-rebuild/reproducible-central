@@ -1,0 +1,7 @@
+version=2.0.4-1.4.0
+ok=4
+ko=0
+okFiles="htl-maven-plugin-2.0.4-1.4.0.pom htl-maven-plugin-2.0.4-1.4.0.jar htl-maven-plugin-2.0.4-1.4.0-source-release.zip htl-maven-plugin-2.0.4-1.4.0-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
