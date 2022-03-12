@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Resource Resolver
+group-id=org.apache.sling
+artifact-id=org.apache.sling.resourceresolver
+version=1.8.4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-resourceresolver.git
+source.scm.tag=org.apache.sling.resourceresolver-1.8.4
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.resourceresolver-1.8.4.pom
+outputs.0.length=7832
+outputs.0.checksums.sha512=83e67034973bbc49b8f54127218700ed6b1c3cf9757309b7af87d51c7c39d7fd95141da5dd9f23869b68f4073a906ec57cfd3c99855c3ed815ff2976c4b9d890
+
+outputs.1.filename=org.apache.sling.resourceresolver-1.8.4.jar
+outputs.1.length=254651
+outputs.1.checksums.sha512=552e19d1c732be8b8d60420468ef0e55a8bb11f9d6524d929dfafb74bd79fe28d1edebd5efb744d0e5a08b7a28a823c27b7155d88b4d2e8b684b1eb637bb4667
+
+outputs.2.filename=org.apache.sling.resourceresolver-1.8.4-source-release.zip
+outputs.2.length=295226
+outputs.2.checksums.sha512=04c80284a2df9a3ea660f0c4f5b147603d9a0043edc17500a67f8e5fb8ca65eb876a2f96571cffcae84de7d8b9944b3a712e9714e1512cb41088b29f1c914cf8
+
+outputs.3.filename=org.apache.sling.resourceresolver-1.8.4-sources.jar
+outputs.3.length=178123
+outputs.3.checksums.sha512=6c48b8a7a7b8353a265ea6089580877c5bbbfb738a794d69685acc1055c9404f3375d60115c8367e63bf835445f40ef12d16511a57319edca0d2064ea4615478
+
+outputs.4.filename=org.apache.sling.resourceresolver-1.8.4-sources.jar
+outputs.4.length=178123
+outputs.4.checksums.sha512=6c48b8a7a7b8353a265ea6089580877c5bbbfb738a794d69685acc1055c9404f3375d60115c8367e63bf835445f40ef12d16511a57319edca0d2064ea4615478
