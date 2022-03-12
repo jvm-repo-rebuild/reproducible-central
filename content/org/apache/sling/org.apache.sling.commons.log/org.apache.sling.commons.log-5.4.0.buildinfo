@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Commons Log
+group-id=org.apache.sling
+artifact-id=org.apache.sling.commons.log
+version=5.4.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-commons-log.git
+source.scm.tag=org.apache.sling.commons.log-5.4.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.commons.log-5.4.0.pom
+outputs.0.length=13840
+outputs.0.checksums.sha512=5ee022c076641842184b468d2526eb77a70f25c67833d409739e668ea13d289faa992c616c9df07e096dc7e16f2c1bcc9b6758269c314c5d91ffdf722e7db298
+
+outputs.1.filename=org.apache.sling.commons.log-5.4.0.jar
+outputs.1.length=809568
+outputs.1.checksums.sha512=0ae8d1c39997e2b4d4fd4f238dd97d9442f3bdb6c17c4be2977acdfe0defe49bee5cf5dc74ba3cbf8e29130da5cc04c71514d52c5580b8e6eb73c26c41fb8841
+
+outputs.2.filename=org.apache.sling.commons.log-5.4.0-source-release.zip
+outputs.2.length=156803
+outputs.2.checksums.sha512=c5f9b80106544821b53dde5ec2cca375067ea02fe366dd44796b11e39dc8a976e05ec031b548aa81045d0b216506369c3c4bbec50ce00da8ba518fd8af68501b
+
+outputs.3.filename=org.apache.sling.commons.log-5.4.0-sources.jar
+outputs.3.length=96015
+outputs.3.checksums.sha512=94dd983108e2127014d587cd516b992a7eae475d9f2ea906ad7650fe12823ae3f336de6a1d4225cf8e86661689564d97b8dcf4dd35cda7c06da06b1ea4748939
+
+outputs.4.filename=org.apache.sling.commons.log-5.4.0-sources.jar
+outputs.4.length=96015
+outputs.4.checksums.sha512=94dd983108e2127014d587cd516b992a7eae475d9f2ea906ad7650fe12823ae3f336de6a1d4225cf8e86661689564d97b8dcf4dd35cda7c06da06b1ea4748939
