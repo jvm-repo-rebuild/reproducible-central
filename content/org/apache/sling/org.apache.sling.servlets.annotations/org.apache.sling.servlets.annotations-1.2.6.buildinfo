@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Servlet Annotations
+group-id=org.apache.sling
+artifact-id=org.apache.sling.servlets.annotations
+version=1.2.6
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-servlets-annotations.git
+source.scm.tag=org.apache.sling.servlets.annotations-1.2.6
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.servlets.annotations-1.2.6.pom
+outputs.0.length=6341
+outputs.0.checksums.sha512=f1262dace27cf7968772439cb278a3484eda30944c5d6a5d3f15d2d9b5e3abab1041a8fce0f79138e72463f06be0e7bb9d8b4bb8bb3158f721111b00300367f5
+
+outputs.1.filename=org.apache.sling.servlets.annotations-1.2.6.jar
+outputs.1.length=12494
+outputs.1.checksums.sha512=4fc48cea77b81e1d9f95bcfe9e9b3d58b343c665d7b05ab0c5aba26e0045f28dee99e3831be4daec58138b199073621945619860c64cccdc155d75c89270f1a5
+
+outputs.2.filename=org.apache.sling.servlets.annotations-1.2.6-source-release.zip
+outputs.2.length=49080
+outputs.2.checksums.sha512=9f73fee073ea1247e6e164fe4827ba1adf6d076ca348708c44075281b01f6dee7fed136f98985582ef2749abc05bf747f57028b9d140818e4ba2913de714c880
+
+outputs.3.filename=org.apache.sling.servlets.annotations-1.2.6-sources.jar
+outputs.3.length=19767
+outputs.3.checksums.sha512=d526f7dbf436943457162ab9d7dfb78193526e30132c9d4a87ec28554188a04e6aab6f6117616f97099722135aed7b0c9f436d170d2685cbcbc2e1d399c48187
+
+outputs.4.filename=org.apache.sling.servlets.annotations-1.2.6-sources.jar
+outputs.4.length=19767
+outputs.4.checksums.sha512=d526f7dbf436943457162ab9d7dfb78193526e30132c9d4a87ec28554188a04e6aab6f6117616f97099722135aed7b0c9f436d170d2685cbcbc2e1d399c48187
