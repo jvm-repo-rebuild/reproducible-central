@@ -13,28 +13,30 @@ source.scm.tag=org.apache.sling.installer.factory.packages-1.0.4
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=11.0.6
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 
 # output
 
-outputs.0.filename=org.apache.sling.installer.factory.packages-1.0.4.jar
-outputs.0.length=26327
-outputs.0.checksums.sha512=05208268cd6b5c465d296746c7d38ed563323f7efba4fd70ec2fd6116dfd46beb6041bb42f01d8bdb20d5e9953e0af5a1e15cfcb732275f17f49b916eaca6f40
+outputs.0.filename=org.apache.sling.installer.factory.packages-1.0.4.pom
+outputs.0.length=3812
+outputs.0.checksums.sha512=99d08f3b7ff1e1a22ee9066ba0a002560740272e428f88c546696a280ca4469ab2dddc74b43732f24ff9bdb2fdc0cf2a094b7b0dd8388093b21d827763a3c8d7
 
-outputs.1.filename=org.apache.sling.installer.factory.packages-1.0.4-source-release.zip
-outputs.1.length=18475
-outputs.1.checksums.sha512=5cffaece63d62ecb246985b1fd95c16670f990a756c5ef9e0379145a144cb82d59478e3e0cab00c0895009202ab39c31887150bed9a9b444c17123ba2418af54
+outputs.1.filename=org.apache.sling.installer.factory.packages-1.0.4.jar
+outputs.1.length=26327
+outputs.1.checksums.sha512=05208268cd6b5c465d296746c7d38ed563323f7efba4fd70ec2fd6116dfd46beb6041bb42f01d8bdb20d5e9953e0af5a1e15cfcb732275f17f49b916eaca6f40
 
-outputs.2.filename=org.apache.sling.installer.factory.packages-1.0.4-sources.jar
-outputs.2.length=14640
-outputs.2.checksums.sha512=89f631ac3aa7e9499f50629a263d6f854fc9390e23437f7c00c110b99e085f19c470669039d8a0898749dfc44464dd6a6ab1675ee1ce51b30fb22007b352fd22
+outputs.2.filename=org.apache.sling.installer.factory.packages-1.0.4-source-release.zip
+outputs.2.length=18475
+outputs.2.checksums.sha512=5cffaece63d62ecb246985b1fd95c16670f990a756c5ef9e0379145a144cb82d59478e3e0cab00c0895009202ab39c31887150bed9a9b444c17123ba2418af54
 
 outputs.3.filename=org.apache.sling.installer.factory.packages-1.0.4-sources.jar
 outputs.3.length=14640
 outputs.3.checksums.sha512=89f631ac3aa7e9499f50629a263d6f854fc9390e23437f7c00c110b99e085f19c470669039d8a0898749dfc44464dd6a6ab1675ee1ce51b30fb22007b352fd22
+
+outputs.4.filename=org.apache.sling.installer.factory.packages-1.0.4-sources.jar
+outputs.4.length=14640
+outputs.4.checksums.sha512=89f631ac3aa7e9499f50629a263d6f854fc9390e23437f7c00c110b99e085f19c470669039d8a0898749dfc44464dd6a6ab1675ee1ce51b30fb22007b352fd22

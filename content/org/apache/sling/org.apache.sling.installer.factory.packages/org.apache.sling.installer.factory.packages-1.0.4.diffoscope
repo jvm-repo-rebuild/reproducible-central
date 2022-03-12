@@ -1,0 +1,48 @@
+target/reference/org.apache.sling.installer.factory.packages-1.0.4-sources.jar target/org.apache.sling.installer.factory.packages-1.0.4-sources.jar
+--- target/reference/org.apache.sling.installer.factory.packages-1.0.4-sources.jar
++++ target/org.apache.sling.installer.factory.packages-1.0.4-sources.jar
+├── zipinfo {}
+│ @@ -7,15 +7,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-May-08 11:28 org/apache/sling/installer/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-May-08 11:28 org/apache/sling/installer/factory/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-May-08 11:28 org/apache/sling/installer/factory/packages/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-May-08 11:28 org/apache/sling/installer/factory/packages/impl/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-May-08 11:28 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-May-08 11:28 META-INF/maven/org.apache.sling/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-May-08 11:28 META-INF/maven/org.apache.sling/org.apache.sling.installer.factory.packages/
+│ +-rw-r--r--  2.0 unx      289 b- defN 20-May-08 11:28 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx      295 b- defN 20-May-08 11:28 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx    11358 b- defN 20-May-08 11:28 META-INF/LICENSE
+│ --rw-r--r--  2.0 unx      289 b- defN 20-May-08 11:28 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    20740 b- defN 20-May-08 11:28 org/apache/sling/installer/factory/packages/impl/PackageTransformer.java
+│  -rw-r--r--  2.0 unx     2708 b- defN 20-May-08 11:28 org/apache/sling/installer/factory/packages/impl/PackageTransformerConfiguration.java
+│  -rw-r--r--  2.0 unx     3812 b- defN 20-May-08 11:28 META-INF/maven/org.apache.sling/org.apache.sling.installer.factory.packages/pom.xml
+│  -rw-r--r--  2.0 unx       94 b- defN 20-May-08 11:28 META-INF/maven/org.apache.sling/org.apache.sling.installer.factory.packages/pom.properties
+│  19 files, 39360 bytes uncompressed, 11732 bytes compressed:  70.2%
+├── zipnote «TEMP»/diffoscope_5o0m1wz8_target/tmpregj1xdf.zip
+│ @@ -30,21 +30,21 @@
+│  
+│  Filename: META-INF/maven/org.apache.sling/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.sling/org.apache.sling.installer.factory.packages/
+│  Comment: 
+│  
+│ -Filename: META-INF/NOTICE
+│ +Filename: META-INF/DEPENDENCIES
+│  Comment: 
+│  
+│ -Filename: META-INF/LICENSE
+│ +Filename: META-INF/NOTICE
+│  Comment: 
+│  
+│ -Filename: META-INF/DEPENDENCIES
+│ +Filename: META-INF/LICENSE
+│  Comment: 
+│  
+│  Filename: org/apache/sling/installer/factory/packages/impl/PackageTransformer.java
+│  Comment: 
+│  
+│  Filename: org/apache/sling/installer/factory/packages/impl/PackageTransformerConfiguration.java
+│  Comment:
+
