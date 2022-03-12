@@ -1,0 +1,46 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Servlets Resolver
+group-id=org.apache.sling
+artifact-id=org.apache.sling.servlets.resolver
+version=2.8.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-servlets-resolver.git
+source.scm.tag=org.apache.sling.servlets.resolver-2.8.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.servlets.resolver-2.8.2.pom
+outputs.0.length=18036
+outputs.0.checksums.sha512=8cfa90f20cdb707f74b78af439b7738ba5c096d012c5f601c45a623f0636aa716e2832e75642bf0e71be91dac47582aea495afc3ccbc5be0ff7b1ed7a683f542
+
+outputs.1.filename=org.apache.sling.servlets.resolver-2.8.2.jar
+outputs.1.length=143704
+outputs.1.checksums.sha512=406c7aca680eb462a856ce3c044b97e592ea11788f17693bfc366f7a3c450ed2ad3ce7c10b1af6b2210f71d226528e52f0b210e398fdf6046a1e4482b1e1c3a9
+
+outputs.2.filename=org.apache.sling.servlets.resolver-2.8.2-source-release.zip
+outputs.2.length=151651
+outputs.2.checksums.sha512=85c865d2f08c4ec177832b591cfa6aec7d41b9570eec61d3fa721f2cf4015a0ac4aabc8062705d73094f6161098e605d7aee328f56dcde83eed8749fa6a8af1b
+
+outputs.3.filename=org.apache.sling.servlets.resolver-2.8.2-sources.jar
+outputs.3.length=89444
+outputs.3.checksums.sha512=e5694658cc227cbc2fbbc4473c048cbde5d92cc5d79884a452473f94b4b447e06c2e7e01543b0b49adee3bbeb9332624f026e8dc756cb1dafb38db2d92e0cbe3
+
+outputs.4.filename=org.apache.sling.servlets.resolver-2.8.2-sources.jar
+outputs.4.length=89444
+outputs.4.checksums.sha512=e5694658cc227cbc2fbbc4473c048cbde5d92cc5d79884a452473f94b4b447e06c2e7e01543b0b49adee3bbeb9332624f026e8dc756cb1dafb38db2d92e0cbe3
+
+outputs.5.filename=org.apache.sling.servlets.resolver-2.8.2-sources.jar
+outputs.5.length=89444
+outputs.5.checksums.sha512=e5694658cc227cbc2fbbc4473c048cbde5d92cc5d79884a452473f94b4b447e06c2e7e01543b0b49adee3bbeb9332624f026e8dc756cb1dafb38db2d92e0cbe3
