@@ -13,28 +13,30 @@ source.scm.tag=org.apache.sling.models.validation-impl-1.0.0
 # build instructions
 build-tool=mvn
 
-# effective build environment information
-java.version=1.8.0_242
-java.vendor=Oracle Corporation
-os.name=Linux
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
 
 # Maven rebuild instructions and effective environment
-mvn.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 
 # output
 
-outputs.0.filename=org.apache.sling.models.validation-impl-1.0.0.jar
-outputs.0.length=15994
-outputs.0.checksums.sha512=2238f5246f7625b36afad487e135099ebf0b7e6f7fced1d11e4d5404988e265ac7d1da63b60bb58a1e6a2355919ce4672bd330592f6d20b0243e596f0437e038
+outputs.0.filename=org.apache.sling.models.validation-impl-1.0.0.pom
+outputs.0.length=10560
+outputs.0.checksums.sha512=67912b6a0e7f4d8aee7e8ef9dae6794dd5d0ea0bf34e9fdaecf2b3dd0388cd13d305fab8d2998867d0b963f1b9093a8a461e8b5510159f42ad7247fb4d545815
 
-outputs.1.filename=org.apache.sling.models.validation-impl-1.0.0-source-release.zip
-outputs.1.length=30178
-outputs.1.checksums.sha512=4cd0ec4168ca37730fe5210409599882cf05300b96b4b63f28f9e6be822f077286b470fc469a8dffcfb25da7d192e16cafc5650cb09f20b85226f5e49e428bcb
+outputs.1.filename=org.apache.sling.models.validation-impl-1.0.0.jar
+outputs.1.length=15994
+outputs.1.checksums.sha512=2238f5246f7625b36afad487e135099ebf0b7e6f7fced1d11e4d5404988e265ac7d1da63b60bb58a1e6a2355919ce4672bd330592f6d20b0243e596f0437e038
 
-outputs.2.filename=org.apache.sling.models.validation-impl-1.0.0-sources.jar
-outputs.2.length=13928
-outputs.2.checksums.sha512=6765e04c9745fdef95d1b96bdeb277be1677da594282aa68f241c92fd4354b2d34fb7dd33181ac37f3410771b4f1801d5c0967bcbb08e7e5c6be6ed084e354f8
+outputs.2.filename=org.apache.sling.models.validation-impl-1.0.0-source-release.zip
+outputs.2.length=30178
+outputs.2.checksums.sha512=4cd0ec4168ca37730fe5210409599882cf05300b96b4b63f28f9e6be822f077286b470fc469a8dffcfb25da7d192e16cafc5650cb09f20b85226f5e49e428bcb
 
 outputs.3.filename=org.apache.sling.models.validation-impl-1.0.0-sources.jar
 outputs.3.length=13928
 outputs.3.checksums.sha512=6765e04c9745fdef95d1b96bdeb277be1677da594282aa68f241c92fd4354b2d34fb7dd33181ac37f3410771b4f1801d5c0967bcbb08e7e5c6be6ed084e354f8
+
+outputs.4.filename=org.apache.sling.models.validation-impl-1.0.0-sources.jar
+outputs.4.length=13928
+outputs.4.checksums.sha512=6765e04c9745fdef95d1b96bdeb277be1677da594282aa68f241c92fd4354b2d34fb7dd33181ac37f3410771b4f1801d5c0967bcbb08e7e5c6be6ed084e354f8

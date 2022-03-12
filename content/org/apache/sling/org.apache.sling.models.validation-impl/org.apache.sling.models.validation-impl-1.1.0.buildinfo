@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Models Validation Implementation
+group-id=org.apache.sling
+artifact-id=org.apache.sling.models.validation-impl
+version=1.1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-models-validation-impl.git
+source.scm.tag=org.apache.sling.models.validation-impl-1.1.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.models.validation-impl-1.1.0.pom
+outputs.0.length=10620
+outputs.0.checksums.sha512=a6d43b947b401d9e99d59a2b179eeaa88a92748940d46ee12aef5cf5d8a41b6911a563e3f22a185d76d14e0b0da001e8e938f8459261eb068fb5a6b727d5cb76
+
+outputs.1.filename=org.apache.sling.models.validation-impl-1.1.0.jar
+outputs.1.length=15930
+outputs.1.checksums.sha512=6c3672c7fc79de015e953c8cfc19e6b6ab0c848eab1c34aa59e969c69fe4bb381cb0d1387fc3832b515a4e91d32d6f23c0eaf5e4973e56e2fc7d8e61f6f9dd6b
+
+outputs.2.filename=org.apache.sling.models.validation-impl-1.1.0-source-release.zip
+outputs.2.length=30331
+outputs.2.checksums.sha512=1c1916c8622a1cb234a93533927ab16167989bf0bfe31b13e0e9a70093095da06e23d2ce9b24e49b7d8bef10ba5361fed3728a7a48ace1500b6aabc427c951ed
+
+outputs.3.filename=org.apache.sling.models.validation-impl-1.1.0-sources.jar
+outputs.3.length=13902
+outputs.3.checksums.sha512=db85a5f45d3e2aaff47ce682e8fe8f01ba9cfcbf66f8511c755aebf1b0adf4166fc335522b834948e70a0c795201a53852e47bf1205d8eb6023406444687917c
+
+outputs.4.filename=org.apache.sling.models.validation-impl-1.1.0-sources.jar
+outputs.4.length=13902
+outputs.4.checksums.sha512=db85a5f45d3e2aaff47ce682e8fe8f01ba9cfcbf66f8511c755aebf1b0adf4166fc335522b834948e70a0c795201a53852e47bf1205d8eb6023406444687917c
