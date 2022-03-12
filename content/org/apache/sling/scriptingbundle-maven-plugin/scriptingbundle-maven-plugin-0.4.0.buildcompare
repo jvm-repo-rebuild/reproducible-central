@@ -1,7 +1,7 @@
 version=0.4.0
-ok=2
+ok=3
 ko=1
-okFiles="scriptingbundle-maven-plugin-0.4.0.jar scriptingbundle-maven-plugin-0.4.0-sources.jar"
+okFiles="scriptingbundle-maven-plugin-0.4.0.pom scriptingbundle-maven-plugin-0.4.0.jar scriptingbundle-maven-plugin-0.4.0-sources.jar"
 koFiles="scriptingbundle-maven-plugin-0.4.0-source-release.zip"
 reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"

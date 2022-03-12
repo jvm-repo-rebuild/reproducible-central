@@ -22,18 +22,22 @@ mvn.minimum.version=3.6.0
 
 # output
 
-outputs.0.filename=scriptingbundle-maven-plugin-0.5.0.jar
-outputs.0.length=74097
-outputs.0.checksums.sha512=cf12f5c0b85becf9546ab78a66f6fa0562a50db4d5de9a55c8ae08faca88f1ff215d7c9fbef16eea1637a0bc5f1f886382cb5ff627768941495ee3447035513f
+outputs.0.filename=scriptingbundle-maven-plugin-0.5.0.pom
+outputs.0.length=12330
+outputs.0.checksums.sha512=8a1ca9e80801a8082e372eba484c372f654a3c6511e144464140cd31b43c43be408925638b2ce93a4aabc4b0b6095e18a5d61b013cd9c0ca3aa7f2d5e27162d4
 
-outputs.1.filename=scriptingbundle-maven-plugin-0.5.0-source-release.zip
-outputs.1.length=139973
-outputs.1.checksums.sha512=68c6b61c7783e87cc08c52372b5a0452dfb79cce1aa149deb6bf2868ac6cfd301fda7b196ff7e157e589f27aba696e906dee4a2cafc51643d7edd1f0011c440e
+outputs.1.filename=scriptingbundle-maven-plugin-0.5.0.jar
+outputs.1.length=74097
+outputs.1.checksums.sha512=cf12f5c0b85becf9546ab78a66f6fa0562a50db4d5de9a55c8ae08faca88f1ff215d7c9fbef16eea1637a0bc5f1f886382cb5ff627768941495ee3447035513f
 
-outputs.2.filename=scriptingbundle-maven-plugin-0.5.0-sources.jar
-outputs.2.length=46557
-outputs.2.checksums.sha512=cf4df5fdda9d318b310f33454e6c39037a5302bc1dd3e3c2988a286dc7cb29506bbf8eeaa0528de33b23137c73f6814bd7434e0d99e275358e1cef53041eb24a
+outputs.2.filename=scriptingbundle-maven-plugin-0.5.0-source-release.zip
+outputs.2.length=139973
+outputs.2.checksums.sha512=68c6b61c7783e87cc08c52372b5a0452dfb79cce1aa149deb6bf2868ac6cfd301fda7b196ff7e157e589f27aba696e906dee4a2cafc51643d7edd1f0011c440e
 
 outputs.3.filename=scriptingbundle-maven-plugin-0.5.0-sources.jar
 outputs.3.length=46557
 outputs.3.checksums.sha512=cf4df5fdda9d318b310f33454e6c39037a5302bc1dd3e3c2988a286dc7cb29506bbf8eeaa0528de33b23137c73f6814bd7434e0d99e275358e1cef53041eb24a
+
+outputs.4.filename=scriptingbundle-maven-plugin-0.5.0-sources.jar
+outputs.4.length=46557
+outputs.4.checksums.sha512=cf4df5fdda9d318b310f33454e6c39037a5302bc1dd3e3c2988a286dc7cb29506bbf8eeaa0528de33b23137c73f6814bd7434e0d99e275358e1cef53041eb24a
