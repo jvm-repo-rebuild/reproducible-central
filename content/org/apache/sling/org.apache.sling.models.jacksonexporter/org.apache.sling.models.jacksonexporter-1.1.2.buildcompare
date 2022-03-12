@@ -1,0 +1,7 @@
+version=1.1.2
+ok=4
+ko=0
+okFiles="org.apache.sling.models.jacksonexporter-1.1.2.pom org.apache.sling.models.jacksonexporter-1.1.2.jar org.apache.sling.models.jacksonexporter-1.1.2-source-release.zip org.apache.sling.models.jacksonexporter-1.1.2-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"

@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Models Jackson Exporter
+group-id=org.apache.sling
+artifact-id=org.apache.sling.models.jacksonexporter
+version=1.1.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-models-jacksonexporter.git
+source.scm.tag=org.apache.sling.models.jacksonexporter-1.1.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.models.jacksonexporter-1.1.2.pom
+outputs.0.length=6483
+outputs.0.checksums.sha512=dff9fe7fcece615df7fe54bee404227f732e54671217910956096e698210adabac47e2da3f7983cfbea97ca1af7681850a2af86ce75ead0f52f21ad8270102d7
+
+outputs.1.filename=org.apache.sling.models.jacksonexporter-1.1.2.jar
+outputs.1.length=29400
+outputs.1.checksums.sha512=0584d05fbee32e5d3e1307884689f09c83fae69c85503875d6e65b517e99cd35295c072ce24fbb16caf6f0b1b798d70a566eaf2765bf33922ad0e43af5dd1a20
+
+outputs.2.filename=org.apache.sling.models.jacksonexporter-1.1.2-source-release.zip
+outputs.2.length=36194
+outputs.2.checksums.sha512=3ce7cb4b77e355496da753f7de515a34e484e69f675070e15a84614ff89a72718acb6e3408eb936fbcfe3741435ad1a8a203d7fef38a4ad8d5fe69779ddc9e44
+
+outputs.3.filename=org.apache.sling.models.jacksonexporter-1.1.2-sources.jar
+outputs.3.length=23950
+outputs.3.checksums.sha512=4b35c4c117c0f10f0a239b9348d499763c9975703ba630781564aaf2d45b095bf7611a3b7ecf7b334dc0b14eb59733e65dfe46d008e97df34c8dff126cb9d307
+
+outputs.4.filename=org.apache.sling.models.jacksonexporter-1.1.2-sources.jar
+outputs.4.length=23950
+outputs.4.checksums.sha512=4b35c4c117c0f10f0a239b9348d499763c9975703ba630781564aaf2d45b095bf7611a3b7ecf7b334dc0b14eb59733e65dfe46d008e97df34c8dff126cb9d307
