@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Bundle Resource Provider
+group-id=org.apache.sling
+artifact-id=org.apache.sling.bundleresource.impl
+version=2.3.4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-bundleresource-impl.git
+source.scm.tag=org.apache.sling.bundleresource.impl-2.3.4
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.bundleresource.impl-2.3.4.pom
+outputs.0.length=5067
+outputs.0.checksums.sha512=d4a910d6660189b16c30dadeadcd496ae41e0e06f372f8b1cd42efdc4789284cf79e335e57e6f95dc700bbcce7fd8949a39b2d0281030574771d1f29e24ad6a6
+
+outputs.1.filename=org.apache.sling.bundleresource.impl-2.3.4.jar
+outputs.1.length=34477
+outputs.1.checksums.sha512=a7b3e58da192f544734d61c9dd9eb3800bbd6ca900d84b6547111a791d52f57dafc3611a7e9ea510243ad39d5d388393822668faaf1a9a9bfd93cf94f3b4fc07
+
+outputs.2.filename=org.apache.sling.bundleresource.impl-2.3.4-source-release.zip
+outputs.2.length=43263
+outputs.2.checksums.sha512=92864d91ef186e8d8ed890d2ed258475dc26995b7de132288fb5314d45975d389c2c19f2b59b47f389cdb8d008613b66a5db628c7e2e2e9fbd84642c4054ef2b
+
+outputs.3.filename=org.apache.sling.bundleresource.impl-2.3.4-sources.jar
+outputs.3.length=27645
+outputs.3.checksums.sha512=7f8e6d72ed01dc29e7ac920bd4c5e77f91b5c56dcae4b22061335805224b218c400da4431a93a1da18376eb834532a914be86b76e11d5245f2e0f7c31811b9d0
+
+outputs.4.filename=org.apache.sling.bundleresource.impl-2.3.4-sources.jar
+outputs.4.length=27645
+outputs.4.checksums.sha512=7f8e6d72ed01dc29e7ac920bd4c5e77f91b5c56dcae4b22061335805224b218c400da4431a93a1da18376eb834532a914be86b76e11d5245f2e0f7c31811b9d0
