@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Event Support
+group-id=org.apache.sling
+artifact-id=org.apache.sling.event
+version=4.2.18
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-event.git
+source.scm.tag=org.apache.sling.event-4.2.18
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.event-4.2.18.pom
+outputs.0.length=14716
+outputs.0.checksums.sha512=3ec9f5ed41b0b7d1d1e07737782209df9faf60e7ecf77ac3df013f3b207856d4701dcdebd7b45b8cd1029e017acd1788d3c3fcc19c0ff062d43f53d8cdff9f4a
+
+outputs.1.filename=org.apache.sling.event-4.2.18.jar
+outputs.1.length=317597
+outputs.1.checksums.sha512=640d65bfacb2bfa3f7f9de9f7df192484ea680ebe7fccb8ac0b9fd6964319a1b41f8247e4b60dfd1ca8541c8e26ba1131b23740f4ad174e7fa2a1e3da8559cda
+
+outputs.2.filename=org.apache.sling.event-4.2.18-source-release.zip
+outputs.2.length=228700
+outputs.2.checksums.sha512=d3f3be34a9aea227e3e3c281de4d844e3092c1a930c341705709b363cef7a7747030b871d2cb998a3aa89685edb3a90798cbc31045599eade40f53d6d2125ea4
+
+outputs.3.filename=org.apache.sling.event-4.2.18-sources.jar
+outputs.3.length=152638
+outputs.3.checksums.sha512=3d36dcae08c73db9cb95bb1e6c02405f30370a5bb12bbb8e5fa55b5c254f191fc9c31506126b2586419150f16d381c080ba33e36579e3f822443e892a589ca51
+
+outputs.4.filename=org.apache.sling.event-4.2.18-sources.jar
+outputs.4.length=152638
+outputs.4.checksums.sha512=3d36dcae08c73db9cb95bb1e6c02405f30370a5bb12bbb8e5fa55b5c254f191fc9c31506126b2586419150f16d381c080ba33e36579e3f822443e892a589ca51

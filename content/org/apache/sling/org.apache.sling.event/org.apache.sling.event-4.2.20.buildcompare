@@ -1,0 +1,8 @@
+version=4.2.20
+ok=3
+ko=1
+okFiles="org.apache.sling.event-4.2.20.pom org.apache.sling.event-4.2.20-source-release.zip org.apache.sling.event-4.2.20-sources.jar"
+koFiles="org.apache.sling.event-4.2.20.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.sling.event-4.2.20.jar target/org.apache.sling.event-4.2.20.jar
