@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Adapter Manager Implementation
+group-id=org.apache.sling
+artifact-id=org.apache.sling.adapter
+version=2.2.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-adapter.git
+source.scm.tag=org.apache.sling.adapter-2.2.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.adapter-2.2.0.pom
+outputs.0.length=4814
+outputs.0.checksums.sha512=7131cb319229dd80f71c158251e6ccd8408666b4a9e01b44e0622be71b5b4eadff6fd36abdf9329e053edf554c049c57641d3c0401c44bb3c349f3010c9e51fa
+
+outputs.1.filename=org.apache.sling.adapter-2.2.0.jar
+outputs.1.length=32255
+outputs.1.checksums.sha512=9e955e392e66df7aa4d078b29866da5942dcb1ef91acc3489655ee057c0e3ba6422ab9453a2b2e0dfee11279764c13400348852c24370cf29d0ebb62ec115813
+
+outputs.2.filename=org.apache.sling.adapter-2.2.0-source-release.zip
+outputs.2.length=35102
+outputs.2.checksums.sha512=f3d31de32803f2d92db9309434a53787eb32e6fe487cbc09e09ad0887f669a25e5c4af11cd9dcd7be1b3da611c32bd80e04c1a41772bf1c2b18aa1ed207a17cd
+
+outputs.3.filename=org.apache.sling.adapter-2.2.0-sources.jar
+outputs.3.length=24837
+outputs.3.checksums.sha512=d036f7279d0a0f090e4019353f8741d48b6597f7cac352953d9cd34d98cb7fac1265eb1bb291455cdb70e1bee5149e31a1e517ed19d183c470c78703dd9dc8a2
+
+outputs.4.filename=org.apache.sling.adapter-2.2.0-sources.jar
+outputs.4.length=24837
+outputs.4.checksums.sha512=d036f7279d0a0f090e4019353f8741d48b6597f7cac352953d9cd34d98cb7fac1265eb1bb291455cdb70e1bee5149e31a1e517ed19d183c470c78703dd9dc8a2
