@@ -1,0 +1,172 @@
+target/reference/slingfeature-maven-plugin-1.6.0.jar target/slingfeature-maven-plugin-1.6.0.jar
+--- target/reference/slingfeature-maven-plugin-1.6.0.jar
++++ target/slingfeature-maven-plugin-1.6.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 256071 bytes, number of entries: 102
+│ +Zip file size: 256103 bytes, number of entries: 102
+│  -rw-r--r--  2.0 unx      372 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/m2e/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.sling/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.sling/slingfeature-maven-plugin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/plexus/
+│ @@ -12,15 +12,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/sling/feature/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/sling/feature/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/sling/feature/maven/mojos/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/sling/feature/maven/mojos/apis/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/sling/feature/maven/mojos/apis/spi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/sling/feature/maven/mojos/reports/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/sling/feature/maven/mojos/selection/
+│ --rw-r--r--  2.0 unx    32991 b- defN 80-000-00 04:08 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    33194 b- defN 80-000-00 04:08 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 80-000-00 04:08 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      293 b- defN 80-000-00 04:08 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     1427 b- defN 80-000-00 04:08 META-INF/m2e/lifecycle-mapping-metadata.xml
+│  -rw-r--r--  2.0 unx   161691 b- defN 80-000-00 04:08 META-INF/maven/org.apache.sling/slingfeature-maven-plugin/plugin-help.xml
+│  -rw-r--r--  2.0 unx   211470 b- defN 80-000-00 04:08 META-INF/maven/plugin.xml
+│  -rw-r--r--  2.0 unx     2245 b- defN 80-000-00 04:08 META-INF/plexus/components.xml
+│  -rw-r--r--  2.0 unx      819 b- defN 80-000-00 04:08 org/apache/sling/feature/maven/Environment.class
+│ @@ -97,8 +97,8 @@
+│  -rw-r--r--  2.0 unx     6228 b- defN 80-000-00 04:08 org/apache/sling/feature/maven/mojos/reports/DuplicatesReporter.class
+│  -rw-r--r--  2.0 unx     3931 b- defN 80-000-00 04:08 org/apache/sling/feature/maven/mojos/reports/ExportPackagesReporter.class
+│  -rw-r--r--  2.0 unx      529 b- defN 80-000-00 04:08 org/apache/sling/feature/maven/mojos/reports/ReportContext.class
+│  -rw-r--r--  2.0 unx      349 b- defN 80-000-00 04:08 org/apache/sling/feature/maven/mojos/reports/Reporter.class
+│  -rw-r--r--  2.0 unx     4062 b- defN 80-000-00 04:08 org/apache/sling/feature/maven/mojos/selection/IncludeExcludeMatcher.class
+│  -rw-r--r--  2.0 unx    14381 b- defN 80-000-00 04:08 META-INF/maven/org.apache.sling/slingfeature-maven-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       76 b- defN 80-000-00 04:08 META-INF/maven/org.apache.sling/slingfeature-maven-plugin/pom.properties
+│ -102 files, 918356 bytes uncompressed, 237119 bytes compressed:  74.2%
+│ +102 files, 918559 bytes uncompressed, 237151 bytes compressed:  74.2%
+├── META-INF/DEPENDENCIES
+│ @@ -39,16 +39,16 @@
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - commons-beanutils  commons-beanutils:commons-beanutils:jar:1.7.0
+│  
+│    - dom4j  dom4j:dom4j:jar:1.1
+│  
+│    - JSR-250 Common Annotations for the JavaTM Platform (http://jcp.org/aboutJava/communityprocess/final/jsr250/index.html) javax.annotation:jsr250-api:jar:1.0
+│      License: COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0  (https://glassfish.dev.java.net/public/CDDLv1.0.html)
+│ -  - stax-api  javax.xml.stream:stax-api:jar:1.0-2
+│ -
+│ +  - Streaming API for XML  javax.xml.stream:stax-api:jar:1.0-2
+│ +    License: GNU General Public Library  (http://www.gnu.org/licenses/gpl.txt)    License: COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0  (http://www.sun.com/cddl/cddl.html)
+│    - JOpt Simple (http://jopt-simple.github.io/jopt-simple) net.sf.jopt-simple:jopt-simple:jar:5.0.4
+│      License: The MIT License  (http://www.opensource.org/licenses/mit-license.php)
+│    - Checker Qual (https://checkerframework.org) org.checkerframework:checker-compat-qual:jar:2.5.5
+│      License: GNU General Public License, version 2 (GPL2), with the classpath exception  (http://www.gnu.org/software/classpath/license.html)    License: The MIT License  (http://opensource.org/licenses/MIT)
+│    - snappy (http://github.com/dain/snappy) org.iq80.snappy:snappy:jar:0.4
+│      License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+│    - Mockito (http://www.mockito.org) org.mockito:mockito-all:jar:1.10.19
+
+target/reference/slingfeature-maven-plugin-1.6.0-source-release.zip target/slingfeature-maven-plugin-1.6.0-source-release.zip
+--- target/reference/slingfeature-maven-plugin-1.6.0-source-release.zip
++++ target/slingfeature-maven-plugin-1.6.0-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 297321 bytes, number of entries: 296
+│ +Zip file size: 297353 bytes, number of entries: 296
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 slingfeature-maven-plugin-1.6.0/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 slingfeature-maven-plugin-1.6.0/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 slingfeature-maven-plugin-1.6.0/src/it/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 slingfeature-maven-plugin-1.6.0/src/it/analyzer-apiregions-errors-detected/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 slingfeature-maven-plugin-1.6.0/src/it/analyzer-apiregions-errors-detected/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 slingfeature-maven-plugin-1.6.0/src/it/analyzer-apiregions-errors-detected/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 slingfeature-maven-plugin-1.6.0/src/it/analyzer-apiregions-errors-detected/src/main/features/
+│ @@ -289,10 +289,10 @@
+│  -rw-r--r--  2.0 unx       95 b- defN 80-000-00 04:08 slingfeature-maven-plugin-1.6.0/src/test/resources/generate-resources/test1.txt
+│  -rw-r--r--  2.0 unx     3824 b- defN 80-000-00 04:08 slingfeature-maven-plugin-1.6.0/src/test/resources/repository/compressed-embedded.jar
+│  -rw-r--r--  2.0 unx      483 b- defN 80-000-00 04:08 slingfeature-maven-plugin-1.6.0/src/test/resources/repository/compressed.jar
+│  -rw-r--r--  2.0 unx     2541 b- defN 80-000-00 04:08 slingfeature-maven-plugin-1.6.0/src/test/resources/repository/compressed2-signed.jar
+│  -rw-r--r--  2.0 unx      894 b- defN 80-000-00 04:08 slingfeature-maven-plugin-1.6.0/src/test/resources/repository/compressed2.jar
+│  -rw-r--r--  2.0 unx     1984 b- defN 80-000-00 04:08 slingfeature-maven-plugin-1.6.0/src/test/resources/repository/textfile.txt
+│  -rw-r--r--  2.0 unx     2390 b- defN 80-000-00 04:08 slingfeature-maven-plugin-1.6.0/src/test/resources/repository/uncompressed.jar
+│ --rw-r--r--  2.0 unx    32991 b- defN 80-000-00 04:08 slingfeature-maven-plugin-1.6.0/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    33194 b- defN 80-000-00 04:08 slingfeature-maven-plugin-1.6.0/DEPENDENCIES
+│  -rw-r--r--  2.0 unx      293 b- defN 80-000-00 04:08 slingfeature-maven-plugin-1.6.0/NOTICE
+│ -296 files, 831025 bytes uncompressed, 225421 bytes compressed:  72.9%
+│ +296 files, 831228 bytes uncompressed, 225453 bytes compressed:  72.9%
+├── slingfeature-maven-plugin-1.6.0/DEPENDENCIES
+│ @@ -39,16 +39,16 @@
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - commons-beanutils  commons-beanutils:commons-beanutils:jar:1.7.0
+│  
+│    - dom4j  dom4j:dom4j:jar:1.1
+│  
+│    - JSR-250 Common Annotations for the JavaTM Platform (http://jcp.org/aboutJava/communityprocess/final/jsr250/index.html) javax.annotation:jsr250-api:jar:1.0
+│      License: COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0  (https://glassfish.dev.java.net/public/CDDLv1.0.html)
+│ -  - stax-api  javax.xml.stream:stax-api:jar:1.0-2
+│ -
+│ +  - Streaming API for XML  javax.xml.stream:stax-api:jar:1.0-2
+│ +    License: GNU General Public Library  (http://www.gnu.org/licenses/gpl.txt)    License: COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0  (http://www.sun.com/cddl/cddl.html)
+│    - JOpt Simple (http://jopt-simple.github.io/jopt-simple) net.sf.jopt-simple:jopt-simple:jar:5.0.4
+│      License: The MIT License  (http://www.opensource.org/licenses/mit-license.php)
+│    - Checker Qual (https://checkerframework.org) org.checkerframework:checker-compat-qual:jar:2.5.5
+│      License: GNU General Public License, version 2 (GPL2), with the classpath exception  (http://www.gnu.org/software/classpath/license.html)    License: The MIT License  (http://opensource.org/licenses/MIT)
+│    - snappy (http://github.com/dain/snappy) org.iq80.snappy:snappy:jar:0.4
+│      License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+│    - Mockito (http://www.mockito.org) org.mockito:mockito-all:jar:1.10.19
+
+target/reference/slingfeature-maven-plugin-1.6.0-sources.jar target/slingfeature-maven-plugin-1.6.0-sources.jar
+--- target/reference/slingfeature-maven-plugin-1.6.0-sources.jar
++++ target/slingfeature-maven-plugin-1.6.0-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 147490 bytes, number of entries: 76
+│ +Zip file size: 147522 bytes, number of entries: 76
+│  -rw-r--r--  2.0 unx       64 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/sling/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/sling/feature/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/sling/feature/maven/
+│ @@ -12,15 +12,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/sling/feature/maven/mojos/reports/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/sling/feature/maven/mojos/selection/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/m2e/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/plexus/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.sling/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.sling/slingfeature-maven-plugin/
+│ --rw-r--r--  2.0 unx    32991 b- defN 80-000-00 04:08 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    33194 b- defN 80-000-00 04:08 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 80-000-00 04:08 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      293 b- defN 80-000-00 04:08 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     1652 b- defN 80-000-00 04:08 org/apache/sling/feature/maven/Environment.java
+│  -rw-r--r--  2.0 unx      953 b- defN 80-000-00 04:08 org/apache/sling/feature/maven/FeatureConstants.java
+│  -rw-r--r--  2.0 unx     8050 b- defN 80-000-00 04:08 org/apache/sling/feature/maven/FeatureProjectConfig.java
+│  -rw-r--r--  2.0 unx     1492 b- defN 80-000-00 04:08 org/apache/sling/feature/maven/FeatureProjectInfo.java
+│  -rw-r--r--  2.0 unx     8030 b- defN 80-000-00 04:08 org/apache/sling/feature/maven/JSONFeatures.java
+│ @@ -71,8 +71,8 @@
+│  -rw-r--r--  2.0 unx     1042 b- defN 80-000-00 04:08 org/apache/sling/feature/maven/mojos/reports/Reporter.java
+│  -rw-r--r--  2.0 unx     4714 b- defN 80-000-00 04:08 org/apache/sling/feature/maven/mojos/selection/IncludeExcludeMatcher.java
+│  -rw-r--r--  2.0 unx    14975 b- defN 80-000-00 04:08 org/apache/sling/feature/maven/mojos/HelpMojo.java
+│  -rw-r--r--  2.0 unx     1427 b- defN 80-000-00 04:08 META-INF/m2e/lifecycle-mapping-metadata.xml
+│  -rw-r--r--  2.0 unx     2068 b- defN 80-000-00 04:08 META-INF/plexus/components.xml
+│  -rw-r--r--  2.0 unx    14381 b- defN 80-000-00 04:08 META-INF/maven/org.apache.sling/slingfeature-maven-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       76 b- defN 80-000-00 04:08 META-INF/maven/org.apache.sling/slingfeature-maven-plugin/pom.properties
+│ -76 files, 536026 bytes uncompressed, 134116 bytes compressed:  75.0%
+│ +76 files, 536229 bytes uncompressed, 134148 bytes compressed:  75.0%
+├── META-INF/DEPENDENCIES
+│ @@ -39,16 +39,16 @@
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - commons-beanutils  commons-beanutils:commons-beanutils:jar:1.7.0
+│  
+│    - dom4j  dom4j:dom4j:jar:1.1
+│  
+│    - JSR-250 Common Annotations for the JavaTM Platform (http://jcp.org/aboutJava/communityprocess/final/jsr250/index.html) javax.annotation:jsr250-api:jar:1.0
+│      License: COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0  (https://glassfish.dev.java.net/public/CDDLv1.0.html)
+│ -  - stax-api  javax.xml.stream:stax-api:jar:1.0-2
+│ -
+│ +  - Streaming API for XML  javax.xml.stream:stax-api:jar:1.0-2
+│ +    License: GNU General Public Library  (http://www.gnu.org/licenses/gpl.txt)    License: COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0  (http://www.sun.com/cddl/cddl.html)
+│    - JOpt Simple (http://jopt-simple.github.io/jopt-simple) net.sf.jopt-simple:jopt-simple:jar:5.0.4
+│      License: The MIT License  (http://www.opensource.org/licenses/mit-license.php)
+│    - Checker Qual (https://checkerframework.org) org.checkerframework:checker-compat-qual:jar:2.5.5
+│      License: GNU General Public License, version 2 (GPL2), with the classpath exception  (http://www.gnu.org/software/classpath/license.html)    License: The MIT License  (http://opensource.org/licenses/MIT)
+│    - snappy (http://github.com/dain/snappy) org.iq80.snappy:snappy:jar:0.4
+│      License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+│    - Mockito (http://www.mockito.org) org.mockito:mockito-all:jar:1.10.19
+
