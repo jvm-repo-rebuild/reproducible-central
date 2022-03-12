@@ -1,0 +1,42 @@
+target/reference/org.apache.sling.installer.core-3.12.0-sources.jar target/org.apache.sling.installer.core-3.12.0-sources.jar
+--- target/reference/org.apache.sling.installer.core-3.12.0-sources.jar
++++ target/org.apache.sling.installer.core-3.12.0-sources.jar
+├── zipinfo {}
+│ @@ -1,13 +1,13 @@
+│  Zip file size: 133808 bytes, number of entries: 96
+│  -rw----     2.0 fat        0 bX defN 21-Aug-06 09:00 META-INF/
+│  -rw----     2.0 fat       64 bl defN 21-Aug-06 09:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat      277 bl defN 21-Aug-06 09:00 META-INF/DEPENDENCIES
+│ --rw----     2.0 fat    11358 bl defN 21-Aug-06 09:00 META-INF/LICENSE
+│  -rw----     2.0 fat      283 bl defN 21-Aug-06 09:00 META-INF/NOTICE
+│ +-rw----     2.0 fat    11358 bl defN 21-Aug-06 09:00 META-INF/LICENSE
+│  -rw----     2.0 fat        0 bl defN 21-Aug-06 09:00 org/
+│  -rw----     2.0 fat        0 bl defN 21-Aug-06 09:00 org/apache/
+│  -rw----     2.0 fat        0 bl defN 21-Aug-06 09:00 org/apache/sling/
+│  -rw----     2.0 fat        0 bl defN 21-Aug-06 09:00 org/apache/sling/installer/
+│  -rw----     2.0 fat        0 bl defN 21-Aug-06 09:00 org/apache/sling/installer/api/
+│  -rw----     2.0 fat    10239 bl defN 21-Aug-06 09:00 org/apache/sling/installer/api/InstallableResource.java
+│  -rw----     2.0 fat     3712 bl defN 21-Aug-06 09:00 org/apache/sling/installer/api/OsgiInstaller.java
+├── zipnote «TEMP»/diffoscope_3dzhlg_r_target/tmpefrzhcjj.zip
+│ @@ -3,18 +3,18 @@
+│  
+│  Filename: META-INF/MANIFEST.MF
+│  Comment: 
+│  
+│  Filename: META-INF/DEPENDENCIES
+│  Comment: 
+│  
+│ -Filename: META-INF/LICENSE
+│ +Filename: META-INF/NOTICE
+│  Comment: 
+│  
+│ -Filename: META-INF/NOTICE
+│ +Filename: META-INF/LICENSE
+│  Comment: 
+│  
+│  Filename: org/
+│  Comment: 
+│  
+│  Filename: org/apache/
+│  Comment:
+
