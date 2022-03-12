@@ -1,0 +1,7 @@
+version=2.7.10
+ok=4
+ko=0
+okFiles="org.apache.sling.engine-2.7.10.pom org.apache.sling.engine-2.7.10.jar org.apache.sling.engine-2.7.10-source-release.zip org.apache.sling.engine-2.7.10-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
