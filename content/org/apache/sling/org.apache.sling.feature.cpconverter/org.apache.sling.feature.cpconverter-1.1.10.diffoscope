@@ -1,0 +1,343 @@
+target/reference/org.apache.sling.feature.cpconverter-1.1.10.zip target/org.apache.sling.feature.cpconverter-1.1.10.zip
+--- target/reference/org.apache.sling.feature.cpconverter-1.1.10.zip
++++ target/org.apache.sling.feature.cpconverter-1.1.10.zip
+├── zipinfo {}
+│ @@ -1,14 +1,14 @@
+│ -Zip file size: 7956020 bytes, number of entries: 44
+│ +Zip file size: 7956840 bytes, number of entries: 44
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/bin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/
+│  -rw-rw-rw-  2.0 unx     6017 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/README.md
+│  -rw-r--r--  2.0 unx    16984 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/LICENSE
+│ --rw-r--r--  2.0 unx      178 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/NOTICE
+│ +-rw-rw-r--  2.0 unx      178 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/NOTICE
+│  -rwxr-xr-x  2.0 unx     3832 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/bin/cp2fm
+│  -rwxr-xr-x  2.0 unx     3287 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/bin/cp2fm.bat
+│  -rw-r--r--  2.0 unx    41203 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/slf4j-api-1.7.25.jar
+│  -rw-r--r--  2.0 unx    15257 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/slf4j-simple-1.7.25.jar
+│  -rw-r--r--  2.0 unx   242435 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/picocli-3.6.0.jar
+│  -rw-r--r--  2.0 unx  2458244 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/org.apache.jackrabbit.vault-3.4.10.jar
+│  -rw-r--r--  2.0 unx    72080 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/txw2-2.3.2.jar
+│ @@ -17,15 +17,15 @@
+│  -rw-r--r--  2.0 unx   803229 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/jackrabbit-spi-commons-2.18.4.jar
+│  -rw-r--r--  2.0 unx    28560 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/jackrabbit-spi-2.18.4.jar
+│  -rw-r--r--  2.0 unx   403252 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/jackrabbit-jcr-commons-2.18.4.jar
+│  -rw-r--r--  2.0 unx   588337 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/commons-collections-3.2.2.jar
+│  -rw-r--r--  2.0 unx    69246 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/jcr-2.0.jar
+│  -rw-r--r--  2.0 unx   285424 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/commons-io-2.8.0.jar
+│  -rw-r--r--  2.0 unx   202280 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/org.apache.sling.feature-1.2.28.jar
+│ --rw-r--r--  2.0 unx   135953 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/org.apache.sling.feature.extension.apiregions-1.4.0.jar
+│ +-rw-r--r--  2.0 unx   136750 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/org.apache.sling.feature.extension.apiregions-1.4.0.jar
+│  -rw-r--r--  2.0 unx   119646 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/org.apache.sling.repoinit.parser-1.6.10.jar
+│  -rw-r--r--  2.0 unx   116620 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/org.apache.felix.converter-1.0.18.jar
+│  -rw-r--r--  2.0 unx   176016 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/org.apache.felix.utils-1.11.8.jar
+│  -rw-r--r--  2.0 unx    12548 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/org.osgi.util.function-1.0.0.jar
+│  -rw-r--r--  2.0 unx    36993 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/geronimo-json_1.1_spec-1.2.jar
+│  -rw-r--r--  2.0 unx   142257 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/johnzon-core-1.2.14.jar
+│  -rw-r--r--  2.0 unx    47891 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/org.apache.felix.cm.json-1.0.6.jar
+│ @@ -39,8 +39,8 @@
+│  -rw-r--r--  2.0 unx   147126 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/org.apache.sling.jcr.contentloader-2.4.2.jar
+│  -rw-r--r--  2.0 unx    34484 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/org.apache.sling.jcr.contentparser-1.2.6.jar
+│  -rw-r--r--  2.0 unx    43305 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/kxml2-2.2.2.jar
+│  -rw-r--r--  2.0 unx    28757 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/org.apache.sling.commons.osgi-2.3.0.jar
+│  -rw-r--r--  2.0 unx    12876 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/org.apache.sling.contentparser.api-2.0.0.jar
+│  -rw-r--r--  2.0 unx    17716 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/org.apache.sling.contentparser.json-2.0.0.jar
+│  -rw-r--r--  2.0 unx   204023 b- defN 80-000-00 04:08 org.apache.sling.feature.cpconverter-1.1.10/lib/org.apache.sling.feature.cpconverter-1.1.10.jar
+│ -44 files, 8938466 bytes uncompressed, 7946178 bytes compressed:  11.1%
+│ +44 files, 8939263 bytes uncompressed, 7946998 bytes compressed:  11.1%
+├── org.apache.sling.feature.cpconverter-1.1.10/bin/cp2fm
+│ @@ -109,15 +109,15 @@
+│    [ -n "$CLASSPATH" ] && CLASSPATH=`cygpath --path --windows "$CLASSPATH"`
+│    [ -n "$JAVA_HOME" ] && JAVA_HOME=`cygpath --path --windows "$JAVA_HOME"`
+│    [ -n "$HOME" ] && HOME=`cygpath --path --windows "$HOME"`
+│    [ -n "$BASEDIR" ] && BASEDIR=`cygpath --path --windows "$BASEDIR"`
+│    [ -n "$REPO" ] && REPO=`cygpath --path --windows "$REPO"`
+│  fi
+│  
+│ -exec "$JAVACMD" $JAVA_OPTS -Dproject.artifactId=org.apache.sling.feature.cpconverter -Dproject.version=1.1.10 -Dbuild.timestamp=2021-09-03T08:57:32Z -Duser.timezone=UTC -Dfile.encoding=UTF-8 \
+│ +exec "$JAVACMD" $JAVA_OPTS -Dproject.artifactId=org.apache.sling.feature.cpconverter -Dproject.version=1.1.10 -Dbuild.timestamp=2022-03-12T16:49:14Z -Duser.timezone=UTC -Dfile.encoding=UTF-8 \
+│    -classpath "$CLASSPATH" \
+│    -Dapp.name="cp2fm" \
+│    -Dapp.pid="$$" \
+│    -Dapp.repo="$REPO" \
+│    -Dapp.home="$BASEDIR" \
+│    -Dbasedir="$BASEDIR" \
+│    org.apache.sling.feature.cpconverter.cli.ContentPackage2FeatureModelConverterLauncher \
+├── org.apache.sling.feature.cpconverter-1.1.10/bin/cp2fm.bat
+│ @@ -74,15 +74,15 @@
+│ -%JAVACMD% %JAVA_OPTS% -Dproject.artifactId=org.apache.sling.feature.cpconverter -Dproject.version=1.1.10 -Dbuild.timestamp=2021-09-03T08:57:32Z -Duser.timezone=UTC -Dfile.encoding=UTF-8 -classpath %CLASSPATH% -Dapp.name="cp2fm" -Dapp.repo="%REPO%" -Dapp.home="%BASEDIR%" -Dbasedir="%BASEDIR%" org.apache.sling.feature.cpconverter.cli.ContentPackage2FeatureModelConverterLauncher %CMD_LINE_ARGS%
+│ +%JAVACMD% %JAVA_OPTS% -Dproject.artifactId=org.apache.sling.feature.cpconverter -Dproject.version=1.1.10 -Dbuild.timestamp=2022-03-12T16:49:14Z -Duser.timezone=UTC -Dfile.encoding=UTF-8 -classpath %CLASSPATH% -Dapp.name="cp2fm" -Dapp.repo="%REPO%" -Dapp.home="%BASEDIR%" -Dbasedir="%BASEDIR%" org.apache.sling.feature.cpconverter.cli.ContentPackage2FeatureModelConverterLauncher %CMD_LINE_ARGS%
+├── org.apache.sling.feature.cpconverter-1.1.10/lib/org.apache.sling.feature.extension.apiregions-1.4.0.jar
+│ ├── zipinfo {}
+│ │ @@ -1,9 +1,9 @@
+│ │ -Zip file size: 135953 bytes, number of entries: 84
+│ │ --rw-r--r--  2.0 unx     3209 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│ │ +Zip file size: 136750 bytes, number of entries: 84
+│ │ +-rw-r--r--  2.0 unx     3213 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/services/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/sling/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/sling/feature/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/sling/feature/extension/
+│ │ @@ -20,67 +20,67 @@
+│ │  -rw-r--r--  2.0 unx      291 b- defN 80-000-00 04:08 META-INF/DEPENDENCIES
+│ │  -rw-r--r--  2.0 unx    11358 b- defN 80-000-00 04:08 META-INF/LICENSE
+│ │  -rw-r--r--  2.0 unx      296 b- defN 80-000-00 04:08 META-INF/NOTICE
+│ │  -rw-r--r--  2.0 unx      713 b- defN 80-000-00 04:08 META-INF/services/org.apache.sling.feature.analyser.task.AnalyserTask
+│ │  -rw-r--r--  2.0 unx      215 b- defN 80-000-00 04:08 META-INF/services/org.apache.sling.feature.builder.MergeHandler
+│ │  -rw-r--r--  2.0 unx       69 b- defN 80-000-00 04:08 META-INF/services/org.apache.sling.feature.launcher.spi.Launcher
+│ │  -rw-r--r--  2.0 unx       78 b- defN 80-000-00 04:08 META-INF/services/org.apache.sling.feature.launcher.spi.extensions.ExtensionHandler
+│ │ --rw-r--r--  2.0 unx     6597 b- defN 80-000-00 04:08 org/apache/sling/feature/extension/apiregions/APIRegionMergeHandler.class
+│ │ --rw-r--r--  2.0 unx     2455 b- defN 80-000-00 04:08 org/apache/sling/feature/extension/apiregions/ArtifactRulesMergeHandler.class
+│ │ --rw-r--r--  2.0 unx     5410 b- defN 80-000-00 04:08 org/apache/sling/feature/extension/apiregions/ConfigurationApiMergeHandler.class
+│ │ --rw-r--r--  2.0 unx     2623 b- defN 80-000-00 04:08 org/apache/sling/feature/extension/apiregions/analyser/AbstractApiRegionsAnalyserTask.class
+│ │ --rw-r--r--  2.0 unx     5351 b- defN 80-000-00 04:08 org/apache/sling/feature/extension/apiregions/analyser/CheckApiRegions.class
+│ │ +-rw-r--r--  2.0 unx     6630 b- defN 80-000-00 04:08 org/apache/sling/feature/extension/apiregions/APIRegionMergeHandler.class
+│ │ +-rw-r--r--  2.0 unx     2458 b- defN 80-000-00 04:08 org/apache/sling/feature/extension/apiregions/ArtifactRulesMergeHandler.class
+│ │ +-rw-r--r--  2.0 unx     5129 b- defN 80-000-00 04:08 org/apache/sling/feature/extension/apiregions/ConfigurationApiMergeHandler.class
+│ │ +-rw-r--r--  2.0 unx     2638 b- defN 80-000-00 04:08 org/apache/sling/feature/extension/apiregions/analyser/AbstractApiRegionsAnalyserTask.class
+│ │ +-rw-r--r--  2.0 unx     5363 b- defN 80-000-00 04:08 org/apache/sling/feature/extension/apiregions/analyser/CheckApiRegions.class
+...
+│ │ --rw-r--r--  2.0 unx    11044 b- defN 80-000-00 04:08 org/apache/sling/feature/extension/apiregions/launcher/LauncherProperties.class
+│ │ --rw-r--r--  2.0 unx     3896 b- defN 80-000-00 04:08 org/apache/sling/feature/extension/apiregions/launcher/RegionLauncher.class
+│ │ +-rw-r--r--  2.0 unx    11351 b- defN 80-000-00 04:08 org/apache/sling/feature/extension/apiregions/launcher/LauncherProperties.class
+│ │ +-rw-r--r--  2.0 unx     3899 b- defN 80-000-00 04:08 org/apache/sling/feature/extension/apiregions/launcher/RegionLauncher.class
+│ │  -rw-r--r--  2.0 unx     2747 b- defN 80-000-00 04:08 org/apache/sling/feature/extension/apiregions/launcher/RegionLauncherExtension.class
+│ │  -rw-r--r--  2.0 unx     4998 b- defN 80-000-00 04:08 META-INF/maven/org.apache.sling/org.apache.sling.feature.extension.apiregions/pom.xml
+│ │  -rw-r--r--  2.0 unx       96 b- defN 80-000-00 04:08 META-INF/maven/org.apache.sling/org.apache.sling.feature.extension.apiregions/pom.properties
+│ │ -84 files, 302776 bytes uncompressed, 117911 bytes compressed:  61.1%
+│ │ +84 files, 303719 bytes uncompressed, 118708 bytes compressed:  60.9%
+│ ├── META-INF/MANIFEST.MF
+│ │ @@ -1,55 +1,56 @@
+│ │  Manifest-Version: 1.0
+
+│ │ -Created-By: Maven Jar Plugin 3.2.0
+
+│ │ -Build-Jdk-Spec: 11
+
+│ │ -Specification-Title: Sling Featuremodel - API Regions Exension
+
+│ │ -Specification-Version: 1.4
+
+│ │ -Specification-Vendor: The Apache Software Foundation
+
+│ │  Implementation-Title: Sling Featuremodel - API Regions Exension
+
+│ │ +Bundle-Description: The parent project for Apache Sling bundle modules
+
+│ │ +Bundle-License: "Apache License, Version 2.0";link="https://www.apache
+
+│ │ + .org/licenses/LICENSE-2.0.txt"
+
+│ │ +Bundle-SymbolicName: org.apache.sling.feature.extension.apiregions
+
+│ │  Implementation-Version: 1.4.0
+
+│ │ -Implementation-Vendor: The Apache Software Foundation
+
+│ │  Bundle-Category: sling
+
+│ │ -Bundle-Description: The parent project for Apache Sling bundle modules
+
+│ │ -Bundle-Developers: sling;name="Apache Sling Project"
+
+│ │ -Bundle-DocURL: https://sling.apache.org
+
+│ │ -Bundle-License: "Apache License, Version 2.0";link="https://www.apache.o
+
+│ │ - rg/licenses/LICENSE-2.0.txt"
+
+│ │ +Specification-Vendor: The Apache Software Foundation
+
+│ │  Bundle-ManifestVersion: 2
+
+│ │ -Bundle-Name: Sling Featuremodel - API Regions Exension
+
+│ │ -Bundle-SCM: url="https://gitbox.apache.org/repos/asf?p=sling-org-apache-
+
+│ │ - sling-feature-extension-apiregions.git",connection="scm:git:https://git
+
+│ │ - box.apache.org/repos/asf/sling-org-apache-sling-feature-extension-apire
+
+│ │ - gions.git",developer-connection="scm:git:https://gitbox.apache.org/repo
+
+│ │ - s/asf/sling-org-apache-sling-feature-extension-apiregions.git",tag="org
+
+│ │ - .apache.sling.feature.extension.apiregions-1.4.0"
+
+│ │ -Bundle-SymbolicName: org.apache.sling.feature.extension.apiregions
+
+│ │ +Specification-Title: Sling Featuremodel - API Regions Exension
+
+│ │ +Bundle-DocURL: https://sling.apache.org
+
+│ │  Bundle-Vendor: The Apache Software Foundation
+
+│ │ +Import-Package: javax.json,org.apache.felix.cm.json;version="[1.0,2)",
+
+│ │ + org.apache.sling.feature;version="[1.8,2)",org.apache.sling.feature.a
+
+│ │ + nalyser.task;version="[1.3,2)",org.apache.sling.feature.builder;versi
+
+│ │ + on="[1.3,2)",org.apache.sling.feature.extension.apiregions.api;versio
+
+│ │ + n="[1.4,2)",org.apache.sling.feature.extension.apiregions.api.artifac
+
+│ │ + ts;version="[1.0,2)",org.apache.sling.feature.extension.apiregions.ap
+
+│ │ + i.config;version="[1.6,2)",org.apache.sling.feature.extension.apiregi
+
+│ │ + ons.api.config.validation;version="[1.5,2)",org.apache.sling.feature.
+
+│ │ + io;version="[1.2,2)",org.apache.sling.feature.launcher.impl.launchers
+
+│ │ + ,org.apache.sling.feature.launcher.spi;version="[1.1,2)",org.apache.s
+
+│ │ + ling.feature.launcher.spi.extensions;version="[1.1,2)",org.apache.sli
+
+│ │ + ng.feature.scanner;version="[2.2,3)",org.osgi.framework;version="[1.8
+
+│ │ + ,2)"
+
+│ │ +Require-Capability: osgi.contract;osgi.contract=JavaJSONP;filter:="(&(
+
+│ │ + osgi.contract=JavaJSONP)(version=1.1.0))",osgi.ee;filter:="(&(osgi.ee
+
+│ │ + =JavaSE)(version=1.8))"
+
+│ │ +Bundle-Developers: sling;name="Apache Sling Project"
+
+│ │ +Implementation-Vendor: The Apache Software Foundation
+
+│ │ +Export-Package: org.apache.sling.feature.extension.apiregions.api;vers
+
+│ │ + ion="1.4.0";uses:="javax.json,org.apache.sling.feature",org.apache.sl
+
+│ │ + ing.feature.extension.apiregions.api.artifacts;version="1.0.0";uses:=
+
+│ │ + "javax.json,org.apache.sling.feature,org.apache.sling.feature.extensi
+
+│ │ + on.apiregions.api.config,org.osgi.framework",org.apache.sling.feature
+
+│ │ + .extension.apiregions.api.config;version="1.6.0";uses:="javax.json,or
+
+│ │ + g.apache.sling.feature",org.apache.sling.feature.extension.apiregions
+
+│ │ + .api.config.validation;version="1.5.1";uses:="org.apache.sling.featur
+
+│ │ + e,org.apache.sling.feature.builder,org.apache.sling.feature.extension
+
+│ │ + .apiregions.api.config"
+
+│ │ +Bundle-Name: Sling Featuremodel - API Regions Exension
+
+│ │  Bundle-Version: 1.4.0
+
+│ │ -Export-Package: org.apache.sling.feature.extension.apiregions.api;versio
+
+│ │ - n="1.4.0";uses:="javax.json,org.apache.sling.feature",org.apache.sling.
+
+│ │ - feature.extension.apiregions.api.artifacts;version="1.0.0";uses:="javax
+
+│ │ - .json,org.apache.sling.feature,org.apache.sling.feature.extension.apire
+
+│ │ - gions.api.config,org.osgi.framework",org.apache.sling.feature.extension
+
+│ │ - .apiregions.api.config;version="1.6.0";uses:="javax.json,org.apache.sli
+
+│ │ - ng.feature",org.apache.sling.feature.extension.apiregions.api.config.va
+
+│ │ - lidation;version="1.5.1";uses:="org.apache.sling.feature,org.apache.sli
+
+│ │ - ng.feature.builder,org.apache.sling.feature.extension.apiregions.api.co
+
+│ │ - nfig"
+
+│ │ -Import-Package: javax.json,org.apache.felix.cm.json;version="[1.0,2)",or
+
+│ │ - g.apache.sling.feature;version="[1.8,2)",org.apache.sling.feature.analy
+
+│ │ - ser.task;version="[1.3,2)",org.apache.sling.feature.builder;version="[1
+
+│ │ - .3,2)",org.apache.sling.feature.extension.apiregions.api;version="[1.4,
+
+│ │ - 2)",org.apache.sling.feature.extension.apiregions.api.artifacts;version
+
+│ │ - ="[1.0,2)",org.apache.sling.feature.extension.apiregions.api.config;ver
+
+│ │ - sion="[1.6,2)",org.apache.sling.feature.extension.apiregions.api.config
+
+│ │ - .validation;version="[1.5,2)",org.apache.sling.feature.io;version="[1.2
+
+│ │ - ,2)",org.apache.sling.feature.launcher.impl.launchers,org.apache.sling.
+
+│ │ - feature.launcher.spi;version="[1.1,2)",org.apache.sling.feature.launche
+
+│ │ - r.spi.extensions;version="[1.1,2)",org.apache.sling.feature.scanner;ver
+
+│ │ - sion="[2.2,3)",org.osgi.framework;version="[1.8,2)"
+
+│ │ -Private-Package: org.apache.sling.feature.extension.apiregions,org.apach
+
+│ │ - e.sling.feature.extension.apiregions.analyser,org.apache.sling.feature.
+
+│ │ - extension.apiregions.launcher
+
+│ │ -Require-Capability: osgi.contract;osgi.contract=JavaJSONP;filter:="(&(os
+
+│ │ - gi.contract=JavaJSONP)(version=1.1.0))",osgi.ee;filter:="(&(osgi.ee=Jav
+
+│ │ - aSE)(version=1.8))"
+
+│ │ +Bundle-SCM: url="https://gitbox.apache.org/repos/asf?p=sling-org-apach
+
+│ │ + e-sling-feature-extension-apiregions.git",connection="scm:git:https:/
+
+│ │ + /gitbox.apache.org/repos/asf/sling-org-apache-sling-feature-extension
+
+│ │ + -apiregions.git",developer-connection="scm:git:https://gitbox.apache.
+
+│ │ + org/repos/asf/sling-org-apache-sling-feature-extension-apiregions.git
+
+│ │ + ",tag="org.apache.sling.feature.extension.apiregions-1.4.0"
+
+│ │ +Private-Package: org.apache.sling.feature.extension.apiregions,org.apa
+
+│ │ + che.sling.feature.extension.apiregions.analyser,org.apache.sling.feat
+
+│ │ + ure.extension.apiregions.launcher
+
+│ │ +Build-Jdk-Spec: 1.8
+
+│ │ +Created-By: Maven Jar Plugin 3.2.0
+
+│ │ +Specification-Version: 1.4
+
+│ ├── org/apache/sling/feature/extension/apiregions/APIRegionMergeHandler.class
+│ │ ├── javap -verbose -constants -s -l -private {}
+│ │ │ @@ -3,80 +3,80 @@
+│ │ │    minor version: 0
+│ │ │    major version: 52
+│ │ │    flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+│ │ │    this_class: #64                         // org/apache/sling/feature/extension/apiregions/APIRegionMergeHandler
+│ │ │    super_class: #65                        // java/lang/Object
+│ │ │    interfaces: 1, fields: 0, methods: 4, attributes: 1
+│ │ │  Constant pool:
+│ │ │ -    #1 = Methodref          #65.#132      // java/lang/Object."<init>":()V
+│ │ │ -    #2 = Class              #133          // org/apache/sling/feature/extension/apiregions/api/ApiRegions
+│ │ │ -    #3 = String             #134          // api-regions
+│ │ │ -    #4 = Methodref          #9.#135       // org/apache/sling/feature/Extension.getName:()Ljava/lang/String;
+│ │ │ -    #5 = Methodref          #122.#136     // java/lang/String.equals:(Ljava/lang/Object;)Z
+...
+│ │ │ -   #66 = Class              #193          // org/apache/sling/feature/builder/MergeHandler
+│ │ │ +    #1 = Methodref          #65.#138      // java/lang/Object."<init>":()V
+│ │ │ +    #2 = Class              #139          // org/apache/sling/feature/extension/apiregions/api/ApiRegions
+│ │ │ +    #3 = String             #140          // api-regions
+│ │ │ +    #4 = Methodref          #9.#141       // org/apache/sling/feature/Extension.getName:()Ljava/lang/String;
+...
+│ │ │ +   #65 = Class              #203          // java/lang/Object
+│ │ │ +   #66 = Class              #204          // org/apache/sling/feature/builder/MergeHandler
+...
