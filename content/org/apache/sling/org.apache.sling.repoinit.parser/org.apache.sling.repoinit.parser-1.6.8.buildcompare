@@ -1,0 +1,7 @@
+version=1.6.8
+ok=4
+ko=0
+okFiles="org.apache.sling.repoinit.parser-1.6.8.pom org.apache.sling.repoinit.parser-1.6.8.jar org.apache.sling.repoinit.parser-1.6.8-source-release.zip org.apache.sling.repoinit.parser-1.6.8-sources.jar"
+koFiles=""
+reference_java_version="14 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
