@@ -1,0 +1,52 @@
+target/reference/org.apache.sling.installer.console-1.1.0-sources.jar target/org.apache.sling.installer.console-1.1.0-sources.jar
+--- target/reference/org.apache.sling.installer.console-1.1.0-sources.jar
++++ target/org.apache.sling.installer.console-1.1.0-sources.jar
+├── zipinfo {}
+│ @@ -9,17 +9,17 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Feb-21 08:32 org/apache/sling/installer/core/impl/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Feb-21 08:32 org/apache/sling/installer/core/impl/console/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Feb-21 08:32 res/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Feb-21 08:32 res/ui/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Feb-21 08:32 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Feb-21 08:32 META-INF/maven/org.apache.sling/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Feb-21 08:32 META-INF/maven/org.apache.sling/org.apache.sling.installer.console/
+│ --rw-r--r--  2.0 unx    11358 b- defN 20-Feb-21 08:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      290 b- defN 20-Feb-21 08:32 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx      296 b- defN 20-Feb-21 08:32 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx    11358 b- defN 20-Feb-21 08:32 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx     2657 b- defN 20-Feb-21 08:32 org/apache/sling/installer/core/impl/console/AbstractWebConsolePlugin.java
+│  -rw-r--r--  2.0 unx     9690 b- defN 20-Feb-21 08:32 org/apache/sling/installer/core/impl/console/ConfigurationSerializerWebConsolePlugin.java
+│  -rw-r--r--  2.0 unx    16293 b- defN 20-Feb-21 08:32 org/apache/sling/installer/core/impl/console/OsgiInstallerWebConsolePlugin.java
+│  -rw-r--r--  2.0 unx     1129 b- defN 20-Feb-21 08:32 res/ui/clipboard.js
+│  -rw-r--r--  2.0 unx     1002 b- defN 20-Feb-21 08:32 res/ui/list.css
+│  -rw-r--r--  2.0 unx     3288 b- defN 20-Feb-21 08:32 META-INF/maven/org.apache.sling/org.apache.sling.installer.console/pom.xml
+│  -rw-r--r--  2.0 unx       85 b- defN 20-Feb-21 08:32 META-INF/maven/org.apache.sling/org.apache.sling.installer.console/pom.properties
+├── zipnote «TEMP»/diffoscope_w1byx2yl_target/tmptfnmetlr.zip
+│ @@ -36,23 +36,23 @@
+│  
+│  Filename: META-INF/maven/org.apache.sling/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.sling/org.apache.sling.installer.console/
+│  Comment: 
+│  
+│ -Filename: META-INF/LICENSE
+│ -Comment: 
+│ -
+│  Filename: META-INF/DEPENDENCIES
+│  Comment: 
+│  
+│  Filename: META-INF/NOTICE
+│  Comment: 
+│  
+│ +Filename: META-INF/LICENSE
+│ +Comment: 
+│ +
+│  Filename: org/apache/sling/installer/core/impl/console/AbstractWebConsolePlugin.java
+│  Comment: 
+│  
+│  Filename: org/apache/sling/installer/core/impl/console/ConfigurationSerializerWebConsolePlugin.java
+│  Comment: 
+│  
+│  Filename: org/apache/sling/installer/core/impl/console/OsgiInstallerWebConsolePlugin.java
+

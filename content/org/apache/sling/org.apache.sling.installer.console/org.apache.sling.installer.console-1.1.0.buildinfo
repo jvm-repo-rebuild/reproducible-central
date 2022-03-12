@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Installer WebConsole Plugin
+group-id=org.apache.sling
+artifact-id=org.apache.sling.installer.console
+version=1.1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-installer-console.git
+source.scm.tag=org.apache.sling.installer.console-1.1.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.installer.console-1.1.0.pom
+outputs.0.length=3288
+outputs.0.checksums.sha512=5f18d9005813dc01ed0073b6b1ed0bb9490bdef863c67df734997c2d5de98659f29c6cbff0c109196853793d77a831e49bdbde1fa8f6cacf74cfb6647add807b
+
+outputs.1.filename=org.apache.sling.installer.console-1.1.0.jar
+outputs.1.length=23247
+outputs.1.checksums.sha512=b39a4197658aa9342badbc7a20a6b90433fb40794633b8b872d5cdbd155e6f55be52436db7aab92246ed738c65647a773df449c24b9a81eb2d344f54ae4f2a3a
+
+outputs.2.filename=org.apache.sling.installer.console-1.1.0-source-release.zip
+outputs.2.length=21684
+outputs.2.checksums.sha512=007beab219107fd5367ee3bb58acf0236e19028b6a0b421e909f8da3d281e88146025867fc625d46edbbf63115b2e4284ab05b933f488fa8c111010a8c8cdc4a
+
+outputs.3.filename=org.apache.sling.installer.console-1.1.0-sources.jar
+outputs.3.length=17315
+outputs.3.checksums.sha512=4ec5fc7dcf0d31d6ec5979fba8d54976fca17155a6298c5d47f4a02c45fcd2ed878288c3ebd27dd5115653eed15b367c03702b50b6844644b400b8f37d08c296
+
+outputs.4.filename=org.apache.sling.installer.console-1.1.0-sources.jar
+outputs.4.length=17315
+outputs.4.checksums.sha512=4ec5fc7dcf0d31d6ec5979fba8d54976fca17155a6298c5d47f4a02c45fcd2ed878288c3ebd27dd5115653eed15b367c03702b50b6844644b400b8f37d08c296
