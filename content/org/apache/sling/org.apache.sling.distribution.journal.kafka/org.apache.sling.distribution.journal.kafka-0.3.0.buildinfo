@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Journal Messaging based on Apache Kafka
+group-id=org.apache.sling
+artifact-id=org.apache.sling.distribution.journal.kafka
+version=0.3.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-distribution-journal-kafka.git
+source.scm.tag=org.apache.sling.distribution.journal.kafka-0.3.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.distribution.journal.kafka-0.3.0.pom
+outputs.0.length=6539
+outputs.0.checksums.sha512=67d5b51db0b93d82118315eb84e1d7eedfcc23d05632900b7e7782fcbaf8d0c97251747c01366bc65944c5e403f73f94ff9973dde9022ab5efd9b2cbd9816212
+
+outputs.1.filename=org.apache.sling.distribution.journal.kafka-0.3.0.jar
+outputs.1.length=28639
+outputs.1.checksums.sha512=b203bfc1b03f4a32b6953cb1a07ae56688c9145ea573a2d7a4c5ebbf825962208c4648d1cf18cdfda629b4069018fc974b60b00ce5430957fa5a2505b40f2a6a
+
+outputs.2.filename=org.apache.sling.distribution.journal.kafka-0.3.0-source-release.zip
+outputs.2.length=43578
+outputs.2.checksums.sha512=48c7a86e96c2c27e6e29194be10b3a1225c7d42d22375196a90ba6a27078612c7172476112e477e8de44469576c4e5066be4593ed295dd26453597fdccf1f985
+
+outputs.3.filename=org.apache.sling.distribution.journal.kafka-0.3.0-sources.jar
+outputs.3.length=20595
+outputs.3.checksums.sha512=c2e5a3c153f9b3c46fc49d58ae1e8d71d0dff20a66b5275df1c94aa5b1fe58e3c0e349fb6a8584038e547221d7bade6dd85cb8b1a0edc4fa0fe892b496994608
+
+outputs.4.filename=org.apache.sling.distribution.journal.kafka-0.3.0-sources.jar
+outputs.4.length=20595
+outputs.4.checksums.sha512=c2e5a3c153f9b3c46fc49d58ae1e8d71d0dff20a66b5275df1c94aa5b1fe58e3c0e349fb6a8584038e547221d7bade6dd85cb8b1a0edc4fa0fe892b496994608
