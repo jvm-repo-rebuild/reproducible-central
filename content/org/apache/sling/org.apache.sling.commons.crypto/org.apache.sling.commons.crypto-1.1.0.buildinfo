@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Commons Crypto
+group-id=org.apache.sling
+artifact-id=org.apache.sling.commons.crypto
+version=1.1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-commons-crypto.git
+source.scm.tag=org.apache.sling.commons.crypto-1.1.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.commons.crypto-1.1.0.pom
+outputs.0.length=11226
+outputs.0.checksums.sha512=0b58ed9126f9bba5aeb1ea41e1b338d908cbc6eb46d14bdcee29112a235a286d53e9cc83f915401e27958f05cd1c82662d8f87747285e5f35374b0f061c04d12
+
+outputs.1.filename=org.apache.sling.commons.crypto-1.1.0.jar
+outputs.1.length=48420
+outputs.1.checksums.sha512=d96bb7a7f03d180d6d9e818d55fc8ac9b67c79697d55deb10bf09c9be34ef37032287bdc2ec8655241439277ad3516f06546c3e62758ac76051a762a513491ff
+
+outputs.2.filename=org.apache.sling.commons.crypto-1.1.0-source-release.zip
+outputs.2.length=78217
+outputs.2.checksums.sha512=42f429b943220c1dd3ec28c982e2856f3ee9887b58aaa8905db993218a526ce1f133a6af55fd8e8839f6ff54579a1ab3d4a63991f51203f3fc6aec0dbb85efe1
+
+outputs.3.filename=org.apache.sling.commons.crypto-1.1.0-sources.jar
+outputs.3.length=39083
+outputs.3.checksums.sha512=9ab1d85bcb0523ef22fe2ee5d45f563437faa23e615ea05bb0b9fd85ef1b46126489faef6bb3c24592c9d0852eb79362b7c856a4992da7c975ffc78aa3c83dee
+
+outputs.4.filename=org.apache.sling.commons.crypto-1.1.0-sources.jar
+outputs.4.length=39083
+outputs.4.checksums.sha512=9ab1d85bcb0523ef22fe2ee5d45f563437faa23e615ea05bb0b9fd85ef1b46126489faef6bb3c24592c9d0852eb79362b7c856a4992da7c975ffc78aa3c83dee
