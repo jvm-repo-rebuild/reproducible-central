@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling JCR Resource
+group-id=org.apache.sling
+artifact-id=org.apache.sling.jcr.resource
+version=3.2.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-jcr-resource.git
+source.scm.tag=org.apache.sling.jcr.resource-3.2.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.jcr.resource-3.2.0.pom
+outputs.0.length=9471
+outputs.0.checksums.sha512=9d86f8403bd28b55d4911b3ad1bb2c48d258df58fb7ad2c94620954f2cc080abe4bba41a9ee1f87ab17613a6f41e8e15ad3165aa43b6d964f147c411493e2b86
+
+outputs.1.filename=org.apache.sling.jcr.resource-3.2.0.jar
+outputs.1.length=152580
+outputs.1.checksums.sha512=167b05533132f58449b566e95b2e95897d5973d8da2d88e8088c7107c38d0df5dc47572ab8648a16185fced07a57f0203e6f02db04e3123bce5841cc2c65e5f0
+
+outputs.2.filename=org.apache.sling.jcr.resource-3.2.0-source-release.zip
+outputs.2.length=125058
+outputs.2.checksums.sha512=77a27ce936d5e145660cd1610bad02bc2c7044f4abe49e5235eef1372253cea650a976d76a2ad6a527fee47151b1d9330feb6cdf5367e9f053546dce020374a0
+
+outputs.3.filename=org.apache.sling.jcr.resource-3.2.0-sources.jar
+outputs.3.length=218614
+outputs.3.checksums.sha512=068d62fc383a56421a93ffde2a79abe9b4cd6707f685c237eb2c5f63bc852ce97401ed843898e1b767ffdfdf435d5c606eade15c260b24dd6ed7d2c7f5bcdbd0
+
+outputs.4.filename=org.apache.sling.jcr.resource-3.2.0-sources.jar
+outputs.4.length=218614
+outputs.4.checksums.sha512=068d62fc383a56421a93ffde2a79abe9b4cd6707f685c237eb2c5f63bc852ce97401ed843898e1b767ffdfdf435d5c606eade15c260b24dd6ed7d2c7f5bcdbd0
