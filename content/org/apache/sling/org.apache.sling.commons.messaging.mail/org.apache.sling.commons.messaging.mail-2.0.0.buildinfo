@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Commons Messaging Mail
+group-id=org.apache.sling
+artifact-id=org.apache.sling.commons.messaging.mail
+version=2.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-commons-messaging-mail.git
+source.scm.tag=org.apache.sling.commons.messaging.mail-2.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.commons.messaging.mail-2.0.0.pom
+outputs.0.length=12637
+outputs.0.checksums.sha512=24718341ac4e9bfee01c10d00e3811bdd3e868006058159df62fb526db163da58b872b4ddc7bd7dc37b09e532bc088bccbdaef5b07f9ab54553d56e4467eabf5
+
+outputs.1.filename=org.apache.sling.commons.messaging.mail-2.0.0.jar
+outputs.1.length=33794
+outputs.1.checksums.sha512=ee8e5308bd6b7da5bba5c46c1b9edd03947276cb3e5c9fa472312ff3758e2308e12b6ce10a97a4c141263babfa46d05036df65831594df1f0329621c3b1627ee
+
+outputs.2.filename=org.apache.sling.commons.messaging.mail-2.0.0-source-release.zip
+outputs.2.length=142344
+outputs.2.checksums.sha512=d4a13bdc8f5d21552989bee1e742c6d5c08746c1d5cbaa2f74cd1256f816ab2f04b125000cb89e82185fe072d708fab44ff7307fc1048a5820b7e887acff1459
+
+outputs.3.filename=org.apache.sling.commons.messaging.mail-2.0.0-sources.jar
+outputs.3.length=24613
+outputs.3.checksums.sha512=1438579aa020724f513027cca282aa2feb55f3ac9e05c7856b823ec87871252443c0d4f8148dd42b0380e828df8ffa57e5dafe14cca8f008202b0d894686fa42
+
+outputs.4.filename=org.apache.sling.commons.messaging.mail-2.0.0-sources.jar
+outputs.4.length=24613
+outputs.4.checksums.sha512=1438579aa020724f513027cca282aa2feb55f3ac9e05c7856b823ec87871252443c0d4f8148dd42b0380e828df8ffa57e5dafe14cca8f008202b0d894686fa42
