@@ -1,0 +1,10 @@
+version=1.1.26
+ok=1
+ko=3
+okFiles="org.apache.sling.testing.resourceresolver-mock-1.1.26.pom"
+koFiles="org.apache.sling.testing.resourceresolver-mock-1.1.26.jar org.apache.sling.testing.resourceresolver-mock-1.1.26-source-release.zip org.apache.sling.testing.resourceresolver-mock-1.1.26-sources.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/org.apache.sling.testing.resourceresolver-mock-1.1.26.jar target/org.apache.sling.testing.resourceresolver-mock-1.1.26.jar
+# diffoscope target/reference/org.apache.sling.testing.resourceresolver-mock-1.1.26-source-release.zip target/org.apache.sling.testing.resourceresolver-mock-1.1.26-source-release.zip
+# diffoscope target/reference/org.apache.sling.testing.resourceresolver-mock-1.1.26-sources.jar target/org.apache.sling.testing.resourceresolver-mock-1.1.26-sources.jar
