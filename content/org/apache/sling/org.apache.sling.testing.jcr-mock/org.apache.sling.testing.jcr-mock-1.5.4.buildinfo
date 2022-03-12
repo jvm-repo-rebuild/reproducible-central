@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Testing JCR Mock
+group-id=org.apache.sling
+artifact-id=org.apache.sling.testing.jcr-mock
+version=1.5.4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-testing-jcr-mock.git
+source.scm.tag=org.apache.sling.testing.jcr-mock-1.5.4
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.testing.jcr-mock-1.5.4.pom
+outputs.0.length=4719
+outputs.0.checksums.sha512=69c4cb072daa60a0109a2410d1d6a8b772dc473234268cb209e24788d7b39903227b7119fe1429a10c1626dbb8d7c94bbeb5e17dcee8a36bf6efb61f7711b09a
+
+outputs.1.filename=org.apache.sling.testing.jcr-mock-1.5.4.jar
+outputs.1.length=52695
+outputs.1.checksums.sha512=ef004c78f6584e457207552baa616c3d92a7b47012721b77dc53a83cac073c22d55ca4ac9a6487630382d7d473c28f292d38def54557a7e8fd8263a61e70ba33
+
+outputs.2.filename=org.apache.sling.testing.jcr-mock-1.5.4-source-release.zip
+outputs.2.length=63733
+outputs.2.checksums.sha512=aeccd2bb92a7c4735b1428eec102e7b9b6bef5201a1025b4ad536d08e38a0f77ffd8ca7424eda213709a0e2a9d695bf4211211a38a86c9fb8023679cb969c560
+
+outputs.3.filename=org.apache.sling.testing.jcr-mock-1.5.4-sources.jar
+outputs.3.length=40986
+outputs.3.checksums.sha512=0a9a15f277dbd1a741ba113806077a22ddcbdcc9a4eba6b356e5ea342faad054775cf950c0d702abb50d810bc989c6280620ce125ce7a7364e24282ff8df3020
+
+outputs.4.filename=org.apache.sling.testing.jcr-mock-1.5.4-sources.jar
+outputs.4.length=40986
+outputs.4.checksums.sha512=0a9a15f277dbd1a741ba113806077a22ddcbdcc9a4eba6b356e5ea342faad054775cf950c0d702abb50d810bc989c6280620ce125ce7a7364e24282ff8df3020
