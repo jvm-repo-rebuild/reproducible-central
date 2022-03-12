@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Commons Content Analyzing
+group-id=org.apache.sling
+artifact-id=org.apache.sling.commons.content.analyzing
+version=1.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-commons-content-analyzing.git
+source.scm.tag=org.apache.sling.commons.content.analyzing-1.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.commons.content.analyzing-1.0.0.pom
+outputs.0.length=4883
+outputs.0.checksums.sha512=f2c303fdee93ae1cbbed5992aaca7f5eca12bf98a3a32e820ef15d1320c06e17d2f257f72904cc41a231f71b3947dd7dfafe07a73be117a72320380744843837
+
+outputs.1.filename=org.apache.sling.commons.content.analyzing-1.0.0.jar
+outputs.1.length=9534
+outputs.1.checksums.sha512=123ce0c25e55240080cb9e6d69798028338882ab55c3eebbb4c1fdba5817b1201554e3fb50c0c888f7629e7c7a85ae75efc9b6582bd86a54816373a05b22925d
+
+outputs.2.filename=org.apache.sling.commons.content.analyzing-1.0.0-source-release.zip
+outputs.2.length=14757
+outputs.2.checksums.sha512=b46dccb4061e79590ad5b4fb335f4b1f8e2193a3c58d704b237e7054e62626d6b81f82cddc9f758ed898c55db461f0a046475d5f9bd249fbe73f024adc509022
+
+outputs.3.filename=org.apache.sling.commons.content.analyzing-1.0.0-sources.jar
+outputs.3.length=9873
+outputs.3.checksums.sha512=c9908f9f6aabec6794c346d58b951d30f710d8bacfd2b6ee3f5dc342f586a8ad575cda0e3effeaed9bcbdc950de7213d7c393f019a58bfe1883da0a993d7f4be
+
+outputs.4.filename=org.apache.sling.commons.content.analyzing-1.0.0-sources.jar
+outputs.4.length=9873
+outputs.4.checksums.sha512=c9908f9f6aabec6794c346d58b951d30f710d8bacfd2b6ee3f5dc342f586a8ad575cda0e3effeaed9bcbdc950de7213d7c393f019a58bfe1883da0a993d7f4be
