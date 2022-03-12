@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Sitemap
+group-id=org.apache.sling
+artifact-id=org.apache.sling.sitemap
+version=1.0.6
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-sitemap.git
+source.scm.tag=org.apache.sling.sitemap-1.0.6
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.sitemap-1.0.6.pom
+outputs.0.length=10437
+outputs.0.checksums.sha512=dff0ee5ed0ddc562ada849eff971b74ecefd67b2e3bbcaec1cbe25c0842dc42a99645c0f15566cb993f696171b3958592d285f16c075e5cf9d68c9c126a83d0a
+
+outputs.1.filename=org.apache.sling.sitemap-1.0.6.jar
+outputs.1.length=143449
+outputs.1.checksums.sha512=ae990ca07aab5998923500df90b1d68dddb53cf341f145deeb84fc2fb18654c1011acd9a8664d8aaaaf8a9a3e688c581bf924bd38f49fb332a2d3dd5fa91c28f
+
+outputs.2.filename=org.apache.sling.sitemap-1.0.6-source-release.zip
+outputs.2.length=168255
+outputs.2.checksums.sha512=5ecd66daf202e2bf1c34ce499ba17d16a51bc0e3d936e5249fe0c7f91139776c43d512c41728c4b98772b4bf265294fcb3cd2ba90d4386aaab470e3beefa7a15
+
+outputs.3.filename=org.apache.sling.sitemap-1.0.6-sources.jar
+outputs.3.length=84925
+outputs.3.checksums.sha512=1a212340615ffc6edb91c576798a5c018d0d944cc5ea88c1429dac8075746f59f79edc07ecaff8c56aad3654dd581006acb7ef5ada83da3b779d82e3963d5507
+
+outputs.4.filename=org.apache.sling.sitemap-1.0.6-sources.jar
+outputs.4.length=84925
+outputs.4.checksums.sha512=1a212340615ffc6edb91c576798a5c018d0d944cc5ea88c1429dac8075746f59f79edc07ecaff8c56aad3654dd581006acb7ef5ada83da3b779d82e3963d5507
