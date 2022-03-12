@@ -1,0 +1,10 @@
+version=1.5.18
+ok=1
+ko=3
+okFiles="slingfeature-maven-plugin-1.5.18.pom"
+koFiles="slingfeature-maven-plugin-1.5.18.jar slingfeature-maven-plugin-1.5.18-source-release.zip slingfeature-maven-plugin-1.5.18-sources.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/slingfeature-maven-plugin-1.5.18.jar target/slingfeature-maven-plugin-1.5.18.jar
+# diffoscope target/reference/slingfeature-maven-plugin-1.5.18-source-release.zip target/slingfeature-maven-plugin-1.5.18-source-release.zip
+# diffoscope target/reference/slingfeature-maven-plugin-1.5.18-sources.jar target/slingfeature-maven-plugin-1.5.18-sources.jar
