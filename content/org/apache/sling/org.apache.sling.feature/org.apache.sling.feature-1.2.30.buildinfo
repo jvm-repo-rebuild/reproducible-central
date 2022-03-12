@@ -1,0 +1,46 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Feature Model
+group-id=org.apache.sling
+artifact-id=org.apache.sling.feature
+version=1.2.30
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-feature.git
+source.scm.tag=org.apache.sling.feature-1.2.30
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.feature-1.2.30.pom
+outputs.0.length=5949
+outputs.0.checksums.sha512=20269562fdb8ce21e52f1aeb68e9b948077bc8314528346a4fa3007a82f6bf34c9df3d913759942f2b036d6e731627c7b829b1bd88455010e4c8f56b95e8ab3e
+
+outputs.1.filename=org.apache.sling.feature-1.2.30.jar
+outputs.1.length=202323
+outputs.1.checksums.sha512=000a7adaf3ac439ee9214ba1601b50a38f181aea537b1feb717f320e255b4d75038b131ac25cf9743a02c1384e7de8db17693e519322162346b1b44e983cb7f4
+
+outputs.2.filename=org.apache.sling.feature-1.2.30-source-release.zip
+outputs.2.length=966023
+outputs.2.checksums.sha512=e5930cfda9cb96276382cd55419169833223f46673f2ddd0188649efe251234a285df94b446d5777767c17c8bcfa157dd1e13d977e757594384f4b63523519f2
+
+outputs.3.filename=org.apache.sling.feature-1.2.30-sources.jar
+outputs.3.length=103335
+outputs.3.checksums.sha512=0b19b948ca1ab91ebafec29f3ae31c090c0253ec4805edc38537e5b8aed3b85364d4a34f6a0639a228025e956ef5c58f96ee56b5b95d4ab71624a9735767ee58
+
+outputs.4.filename=org.apache.sling.feature-1.2.30-sources.jar
+outputs.4.length=103335
+outputs.4.checksums.sha512=0b19b948ca1ab91ebafec29f3ae31c090c0253ec4805edc38537e5b8aed3b85364d4a34f6a0639a228025e956ef5c58f96ee56b5b95d4ab71624a9735767ee58
+
+outputs.5.filename=org.apache.sling.feature-1.2.30-sources.jar
+outputs.5.length=103335
+outputs.5.checksums.sha512=0b19b948ca1ab91ebafec29f3ae31c090c0253ec4805edc38537e5b8aed3b85364d4a34f6a0639a228025e956ef5c58f96ee56b5b95d4ab71624a9735767ee58
