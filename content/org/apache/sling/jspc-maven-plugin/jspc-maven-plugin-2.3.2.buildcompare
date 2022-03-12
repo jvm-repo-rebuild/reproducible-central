@@ -1,0 +1,7 @@
+version=2.3.2
+ok=4
+ko=0
+okFiles="jspc-maven-plugin-2.3.2.pom jspc-maven-plugin-2.3.2.jar jspc-maven-plugin-2.3.2-source-release.zip jspc-maven-plugin-2.3.2-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

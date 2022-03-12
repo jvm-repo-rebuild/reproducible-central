@@ -1,0 +1,43 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling JSPC Maven Plugin
+group-id=org.apache.sling
+artifact-id=jspc-maven-plugin
+version=2.3.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-jspc-maven-plugin.git
+source.scm.tag=jspc-maven-plugin-2.3.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.5.0
+
+# output
+
+outputs.0.filename=jspc-maven-plugin-2.3.2.pom
+outputs.0.length=11215
+outputs.0.checksums.sha512=42d4566a8a371582def79c97106abdcdc3d507aa9efa113806ffaf497831e6d0f9fdd78537837212c6ac379aa8086ea7558574b6c52a84666be7b537e7286f23
+
+outputs.1.filename=jspc-maven-plugin-2.3.2.jar
+outputs.1.length=74664
+outputs.1.checksums.sha512=572a8247171d73f28798f557be05eec131a5edccb5268fa127bddc6eba3e4c93638c970d41069b2dca15aa94d0c40b9ef3077f7684a53a540bfd565748b6eb14
+
+outputs.2.filename=jspc-maven-plugin-2.3.2-source-release.zip
+outputs.2.length=77633
+outputs.2.checksums.sha512=f966c251431145be2301bc9b08e413f9570c1fa22c9ed3c3a9c8ac5653b4a92b05a2d33a3b3141119f28e739cc0dc4af3ccd7fa4559d6c6ee46befc3a7366327
+
+outputs.3.filename=jspc-maven-plugin-2.3.2-sources.jar
+outputs.3.length=51816
+outputs.3.checksums.sha512=7a0029c53c3d6c53c657b33c470bf043af49367c06916bffe3ade1d44a3f2723e5ae7e0877a601594aebf4a71f755159b026642a3d91be269184a50b06349d8b
+
+outputs.4.filename=jspc-maven-plugin-2.3.2-sources.jar
+outputs.4.length=51816
+outputs.4.checksums.sha512=7a0029c53c3d6c53c657b33c470bf043af49367c06916bffe3ade1d44a3f2723e5ae7e0877a601594aebf4a71f755159b026642a3d91be269184a50b06349d8b
