@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling JCR Resource Security
+group-id=org.apache.sling
+artifact-id=org.apache.sling.jcr.resourcesecurity
+version=1.1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-jcr-resourcesecurity.git
+source.scm.tag=org.apache.sling.jcr.resourcesecurity-1.1.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.jcr.resourcesecurity-1.1.0.pom
+outputs.0.length=3359
+outputs.0.checksums.sha512=f696b86cce0acc2d54af09fa25bc95ffba1c80a58d1bb6df74bb6438a407f94d12e49758f35617d50734ddc92fec26d5725f1b38accaf8a4e8f2019b7e40ba42
+
+outputs.1.filename=org.apache.sling.jcr.resourcesecurity-1.1.0.jar
+outputs.1.length=13417
+outputs.1.checksums.sha512=1e8a03b054512127e0060f555543eb9369ae5b14ccd8b684eac34fd737db6d35575e326f535e2b5b45a27c221a4bb900ae456feab5f6ec0b487094aabb40b998
+
+outputs.2.filename=org.apache.sling.jcr.resourcesecurity-1.1.0-source-release.zip
+outputs.2.length=13828
+outputs.2.checksums.sha512=cc6f3278a6e9e96ea0c533e403346507169579bbef61e90f7348bc1e4263662db37c60d32170cbaf12adf0cbc4bc7f8ac376b3ab994e4af49cbf772586a82795
+
+outputs.3.filename=org.apache.sling.jcr.resourcesecurity-1.1.0-sources.jar
+outputs.3.length=10019
+outputs.3.checksums.sha512=07eb584c08b44a9c94f832211c90f852808c5846bc8470f39f56c5e1dc408da0678175e5f1420732a6aa48593eac2d666039104884ba7b19227f72a7028ce2da
+
+outputs.4.filename=org.apache.sling.jcr.resourcesecurity-1.1.0-sources.jar
+outputs.4.length=10019
+outputs.4.checksums.sha512=07eb584c08b44a9c94f832211c90f852808c5846bc8470f39f56c5e1dc408da0678175e5f1420732a6aa48593eac2d666039104884ba7b19227f72a7028ce2da
