@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Scripting HTL Testing Content
+group-id=org.apache.sling
+artifact-id=org.apache.sling.scripting.sightly.testing-content
+version=1.0.30-1.4.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-scripting-sightly-testing-content.git
+source.scm.tag=org.apache.sling.scripting.sightly.testing-content-1.0.30-1.4.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.scripting.sightly.testing-content-1.0.30-1.4.0.pom
+outputs.0.length=10422
+outputs.0.checksums.sha512=8d84faf3da1ec04d7fe4a0635cec3d4677ec4b2648c710186e7994867d33ceed0c2bd8176c8885aa5b69563c413658baf7d63e2718ff9fb183e1c7c4046c8528
+
+outputs.1.filename=org.apache.sling.scripting.sightly.testing-content-1.0.30-1.4.0.jar
+outputs.1.length=159570
+outputs.1.checksums.sha512=5f58a475b2e23daf3a2bb98742a220468b94777dec4851229415752a35246c093fad5c0d3fcf6e8ca4bd259a75aaf749b0a7a3fb0182187979e2961510465944
+
+outputs.2.filename=org.apache.sling.scripting.sightly.testing-content-1.0.30-1.4.0-source-release.zip
+outputs.2.length=153918
+outputs.2.checksums.sha512=a7e4ebe763c7d449e212f4022d112b3640899e3e709c0dd3962346eb1512917e8f26d467a312facad6c12e94e917ef0db90640114a730c135998b18ab2be8df9
+
+outputs.3.filename=org.apache.sling.scripting.sightly.testing-content-1.0.30-1.4.0-sources.jar
+outputs.3.length=160492
+outputs.3.checksums.sha512=01121e0f21bc3f4046b9cc9e8d639df2e10eb9e1f73ce7f62cd9697279274bb65d457b715a635529f82d4b574baaa68f1d3830e65318447a449534f34dd5e85b
+
+outputs.4.filename=org.apache.sling.scripting.sightly.testing-content-1.0.30-1.4.0-sources.jar
+outputs.4.length=160492
+outputs.4.checksums.sha512=01121e0f21bc3f4046b9cc9e8d639df2e10eb9e1f73ce7f62cd9697279274bb65d457b715a635529f82d4b574baaa68f1d3830e65318447a449534f34dd5e85b
