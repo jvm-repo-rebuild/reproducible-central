@@ -1,0 +1,46 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Servlets POST
+group-id=org.apache.sling
+artifact-id=org.apache.sling.servlets.post
+version=2.5.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-servlets-post.git
+source.scm.tag=org.apache.sling.servlets.post-2.5.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.servlets.post-2.5.0.pom
+outputs.0.length=8521
+outputs.0.checksums.sha512=d9360c5ec7ff786d2f1e998e4680d57d80f99ad34387447bef22449a29f84479d3fdd729f580145aedb2a8b4392056eaccf2171edbb5a5616a6649e6ed85a98a
+
+outputs.1.filename=org.apache.sling.servlets.post-2.5.0.jar
+outputs.1.length=184562
+outputs.1.checksums.sha512=54101d0b95c66a5efaa214d94d85596a26e46d5923fb1636bef9577c8f07b45c12d5ce5c3e19785f22859fff01a29358407e1aef99109ac397c815529898b290
+
+outputs.2.filename=org.apache.sling.servlets.post-2.5.0-source-release.zip
+outputs.2.length=193712
+outputs.2.checksums.sha512=73ab516f29895f08997dda5c1aa3f7db0ecdfbb0821a8a69a3ad4e89e13055b5fabe0f64c6b12068a19f469fd93a594a62765889ac8e50aae1632fdfa81871e5
+
+outputs.3.filename=org.apache.sling.servlets.post-2.5.0-sources.jar
+outputs.3.length=144055
+outputs.3.checksums.sha512=8327a0148bb727457e6472a03ec2c45e432de01b18484add1a2b69a6a7d74d4b08589fc171f841888961d5deae34a5505c22c56311388834ec08a940f99e086a
+
+outputs.4.filename=org.apache.sling.servlets.post-2.5.0-sources.jar
+outputs.4.length=144055
+outputs.4.checksums.sha512=8327a0148bb727457e6472a03ec2c45e432de01b18484add1a2b69a6a7d74d4b08589fc171f841888961d5deae34a5505c22c56311388834ec08a940f99e086a
+
+outputs.5.filename=org.apache.sling.servlets.post-2.5.0-sources.jar
+outputs.5.length=144055
+outputs.5.checksums.sha512=8327a0148bb727457e6472a03ec2c45e432de01b18484add1a2b69a6a7d74d4b08589fc171f841888961d5deae34a5505c22c56311388834ec08a940f99e086a
