@@ -1,0 +1,46 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Testing Sling Mock Oak
+group-id=org.apache.sling
+artifact-id=org.apache.sling.testing.sling-mock-oak
+version=3.1.2-1.40.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-testing-sling-mock-oak.git
+source.scm.tag=org.apache.sling.testing.sling-mock-oak-3.1.2-1.40.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.testing.sling-mock-oak-3.1.2-1.40.0.pom
+outputs.0.length=6433
+outputs.0.checksums.sha512=fa2632c223a9f3ae69ff8e7e6df66a4bcc9c67e1aa30ae95a93c1dd1f70530ed106a547e2a2bd7bd7440a5a3fbc3f02f0492a4a78f5df1dfa839382cfe2fe97c
+
+outputs.1.filename=org.apache.sling.testing.sling-mock-oak-3.1.2-1.40.0.jar
+outputs.1.length=6254416
+outputs.1.checksums.sha512=7f2d6535c95fe8aa4dcd76ac64d18477627e15e8325ddff86277bae57dba5355e61f13198bda3e48949b7ac824dbc66fbabb9ffcaf420bdab7633348ae0eecb8
+
+outputs.2.filename=org.apache.sling.testing.sling-mock-oak-3.1.2-1.40.0-source-release.zip
+outputs.2.length=76136
+outputs.2.checksums.sha512=b9073a5f64d6c4408aa0e2094325c3a51bf853fc9573fc4c3c705a861e66a2713d313e0bae7935a6f273a4c67cd6ad4df8d3bd34cfd2c5e468c1f64702fbb855
+
+outputs.3.filename=org.apache.sling.testing.sling-mock-oak-3.1.2-1.40.0-sources.jar
+outputs.3.length=4024331
+outputs.3.checksums.sha512=9d2263a4704386721ab07980a9c849013ed5aa61a837a6b98cbdec9ea2a51e3466f6f1cb4862d76b40ea85b30553d981c3c03edff3e2dad374b4982cf8b42c6b
+
+outputs.4.filename=org.apache.sling.testing.sling-mock-oak-3.1.2-1.40.0-sources.jar
+outputs.4.length=4024331
+outputs.4.checksums.sha512=9d2263a4704386721ab07980a9c849013ed5aa61a837a6b98cbdec9ea2a51e3466f6f1cb4862d76b40ea85b30553d981c3c03edff3e2dad374b4982cf8b42c6b
+
+outputs.5.filename=org.apache.sling.testing.sling-mock-oak-3.1.2-1.40.0-sources.jar
+outputs.5.length=4024331
+outputs.5.checksums.sha512=9d2263a4704386721ab07980a9c849013ed5aa61a837a6b98cbdec9ea2a51e3466f6f1cb4862d76b40ea85b30553d981c3c03edff3e2dad374b4982cf8b42c6b
