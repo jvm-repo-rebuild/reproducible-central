@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Feature Model Launcher
+group-id=org.apache.sling
+artifact-id=org.apache.sling.feature.launcher
+version=1.1.22
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-feature-launcher.git
+source.scm.tag=org.apache.sling.feature.launcher-1.1.22
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.feature.launcher-1.1.22.pom
+outputs.0.length=13856
+outputs.0.checksums.sha512=6fa1e42d6387c4e499ae6488b1a23bba0cda721b99e33b2dcb5073f53704aeeefce713d850a6991547ec2766262bcca0f6ed2ff3efc990729544aa79d45cc474
+
+outputs.1.filename=org.apache.sling.feature.launcher-1.1.22.jar
+outputs.1.length=759425
+outputs.1.checksums.sha512=f4a3397825b3e0678c92f74a94aa61f85a9b2424cd0224ef3a05ebec7715a397650773bc92d78a38eae284074245d9332000b800ed560edde4cd6ff477d15e95
+
+outputs.2.filename=org.apache.sling.feature.launcher-1.1.22-source-release.zip
+outputs.2.length=57173
+outputs.2.checksums.sha512=3f5cf03c38f73c97a1963566b09834bdee5d9b6738b3a920a86a54045d2171e3063f57c868b29a7175ec4b9790536bb68986f3c7ae5aeefc78e9fa975d24add9
+
+outputs.3.filename=org.apache.sling.feature.launcher-1.1.22-sources.jar
+outputs.3.length=41591
+outputs.3.checksums.sha512=fc36b640b5eabc560f0caa583278254a5fb6f2a01b11253b3a46e9624fea2a161fc3741f53658c69d839f5dfc1594b77a760dfdad10f68651b8e89e081439c3b
+
+outputs.4.filename=org.apache.sling.feature.launcher-1.1.22-sources.jar
+outputs.4.length=41591
+outputs.4.checksums.sha512=fc36b640b5eabc560f0caa583278254a5fb6f2a01b11253b3a46e9624fea2a161fc3741f53658c69d839f5dfc1594b77a760dfdad10f68651b8e89e081439c3b
