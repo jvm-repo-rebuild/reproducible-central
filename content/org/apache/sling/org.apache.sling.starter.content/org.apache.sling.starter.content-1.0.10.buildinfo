@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Starter Content
+group-id=org.apache.sling
+artifact-id=org.apache.sling.starter.content
+version=1.0.10
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-starter-content.git
+source.scm.tag=org.apache.sling.starter.content-1.0.10
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.starter.content-1.0.10.pom
+outputs.0.length=4351
+outputs.0.checksums.sha512=6d3fe62c066a779d80e4bcff24dd904e5c7a24b6316076542ad6126d5f025163c6e0b9e7cda6da7ed05ea64edf9ae1b772ed1527c4ff84ec4b67cacf7ae5ada5
+
+outputs.1.filename=org.apache.sling.starter.content-1.0.10.jar
+outputs.1.length=178060
+outputs.1.checksums.sha512=a5818365432afbeae97de2358f5697f0e8b5163d685cf98a7e9c846107ba6fc3504f57d9a61abe1470265ce856902534353bf3990209c1fa95eb7f0b84e19697
+
+outputs.2.filename=org.apache.sling.starter.content-1.0.10-source-release.zip
+outputs.2.length=187572
+outputs.2.checksums.sha512=59d786af800c2e9deb6965f085ce364428419a21c8c5aac312b44b6499726610672b8bf919865978cdd427ae6b9354615211046b54d6d80437ece242621787ab
+
+outputs.3.filename=org.apache.sling.starter.content-1.0.10-sources.jar
+outputs.3.length=54416
+outputs.3.checksums.sha512=f5970a4a908ba3d8df68b6d5dc297515486ba4ff9eb0917be874101c11e6bbb25f340c803e135895255f10251b140e0c683f583996567389382bc86dbf612b90
+
+outputs.4.filename=org.apache.sling.starter.content-1.0.10-sources.jar
+outputs.4.length=54416
+outputs.4.checksums.sha512=f5970a4a908ba3d8df68b6d5dc297515486ba4ff9eb0917be874101c11e6bbb25f340c803e135895255f10251b140e0c683f583996567389382bc86dbf612b90
