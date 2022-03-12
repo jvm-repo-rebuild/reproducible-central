@@ -1,0 +1,122 @@
+target/reference/org.apache.sling.feature.launcher-1.2.0.tar.gz target/org.apache.sling.feature.launcher-1.2.0.tar.gz
+--- target/reference/org.apache.sling.feature.launcher-1.2.0.tar.gz
++++ target/org.apache.sling.feature.launcher-1.2.0.tar.gz
+├── org.apache.sling.feature.launcher-1.2.0.tar
+│ ├── file list
+│ │ @@ -1,10 +1,10 @@
+│ │  -rw-rw-rw-   0 root         (0) root         (0)     4100 1970-01-01 00:00:01.000000 org.apache.sling.feature.launcher-1.2.0/README.md
+│ │ --rwxrwxrwx   0 root         (0) root         (0)    13280 1970-01-01 00:00:01.000000 org.apache.sling.feature.launcher-1.2.0/LICENSE
+│ │ --rwxrwxrwx   0 root         (0) root         (0)      178 1970-01-01 00:00:01.000000 org.apache.sling.feature.launcher-1.2.0/NOTICE
+│ │ +-rw-r--r--   0 root         (0) root         (0)    13280 1970-01-01 00:00:01.000000 org.apache.sling.feature.launcher-1.2.0/LICENSE
+│ │ +-rw-rw-r--   0 root         (0) root         (0)      178 1970-01-01 00:00:01.000000 org.apache.sling.feature.launcher-1.2.0/NOTICE
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 1970-01-01 00:00:01.000000 org.apache.sling.feature.launcher-1.2.0/bin/
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     3769 1970-01-01 00:00:01.000000 org.apache.sling.feature.launcher-1.2.0/bin/launcher
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     3224 1970-01-01 00:00:01.000000 org.apache.sling.feature.launcher-1.2.0/bin/launcher.bat
+│ │  -rw-r--r--   0 root         (0) root         (0)   216211 1970-01-01 00:00:01.000000 org.apache.sling.feature.launcher-1.2.0/lib/commons-text-1.9.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   587402 1970-01-01 00:00:01.000000 org.apache.sling.feature.launcher-1.2.0/lib/commons-lang3-3.12.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   492531 1970-01-01 00:00:01.000000 org.apache.sling.feature.launcher-1.2.0/lib/osgi.core-7.0.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    41203 1970-01-01 00:00:01.000000 org.apache.sling.feature.launcher-1.2.0/lib/slf4j-api-1.7.25.jar
+│ ├── org.apache.sling.feature.launcher-1.2.0/bin/launcher
+│ │ @@ -109,15 +109,15 @@
+│ │    [ -n "$CLASSPATH" ] && CLASSPATH=`cygpath --path --windows "$CLASSPATH"`
+│ │    [ -n "$JAVA_HOME" ] && JAVA_HOME=`cygpath --path --windows "$JAVA_HOME"`
+│ │    [ -n "$HOME" ] && HOME=`cygpath --path --windows "$HOME"`
+│ │    [ -n "$BASEDIR" ] && BASEDIR=`cygpath --path --windows "$BASEDIR"`
+│ │    [ -n "$REPO" ] && REPO=`cygpath --path --windows "$REPO"`
+│ │  fi
+│ │  
+│ │ -exec "$JAVACMD" $JAVA_OPTS -Dproject.artifactId=org.apache.sling.feature.launcher -Dproject.version=1.2.0 -Dbuild.timestamp=2022-01-12T14:22:45Z -Dfile.encoding=UTF-8 \
+│ │ +exec "$JAVACMD" $JAVA_OPTS -Dproject.artifactId=org.apache.sling.feature.launcher -Dproject.version=1.2.0 -Dbuild.timestamp=2022-03-12T17:10:35Z -Dfile.encoding=UTF-8 \
+│ │    -classpath "$CLASSPATH" \
+│ │    -Dapp.name="launcher" \
+│ │    -Dapp.pid="$$" \
+│ │    -Dapp.repo="$REPO" \
+│ │    -Dapp.home="$BASEDIR" \
+│ │    -Dbasedir="$BASEDIR" \
+│ │    org.apache.sling.feature.launcher.impl.Main \
+│ ├── org.apache.sling.feature.launcher-1.2.0/bin/launcher.bat
+│ │ @@ -74,15 +74,15 @@
+│ │  if NOT "%ENDORSED_DIR%" == "" set CLASSPATH="%BASEDIR%"\%ENDORSED_DIR%\*;%CLASSPATH%
+│ │  
+│ │  if NOT "%CLASSPATH_PREFIX%" == "" set CLASSPATH=%CLASSPATH_PREFIX%;%CLASSPATH%
+│ │  
+│ │  @REM Reaching here means variables are defined and arguments have been captured
+│ │  :endInit
+│ │  
+│ │ -%JAVACMD% %JAVA_OPTS% -Dproject.artifactId=org.apache.sling.feature.launcher -Dproject.version=1.2.0 -Dbuild.timestamp=2022-01-12T14:22:45Z -Dfile.encoding=UTF-8 -classpath %CLASSPATH% -Dapp.name="launcher" -Dapp.repo="%REPO%" -Dapp.home="%BASEDIR%" -Dbasedir="%BASEDIR%" org.apache.sling.feature.launcher.impl.Main %CMD_LINE_ARGS%
+│ │ +%JAVACMD% %JAVA_OPTS% -Dproject.artifactId=org.apache.sling.feature.launcher -Dproject.version=1.2.0 -Dbuild.timestamp=2022-03-12T17:10:35Z -Dfile.encoding=UTF-8 -classpath %CLASSPATH% -Dapp.name="launcher" -Dapp.repo="%REPO%" -Dapp.home="%BASEDIR%" -Dbasedir="%BASEDIR%" org.apache.sling.feature.launcher.impl.Main %CMD_LINE_ARGS%
+│ │  if %ERRORLEVEL% NEQ 0 goto error
+│ │  goto end
+│ │  
+│ │  :error
+│ │  if "%OS%"=="Windows_NT" @endlocal
+│ │  set ERROR_CODE=%ERRORLEVEL%
+
+target/reference/org.apache.sling.feature.launcher-1.2.0.zip target/org.apache.sling.feature.launcher-1.2.0.zip
+--- target/reference/org.apache.sling.feature.launcher-1.2.0.zip
++++ target/org.apache.sling.feature.launcher-1.2.0.zip
+├── zipinfo {}
+│ @@ -1,14 +1,14 @@
+│ -Zip file size: 1847779 bytes, number of entries: 21
+│ +Zip file size: 1847781 bytes, number of entries: 21
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org.apache.sling.feature.launcher-1.2.0/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org.apache.sling.feature.launcher-1.2.0/bin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org.apache.sling.feature.launcher-1.2.0/lib/
+│  -rw-rw-rw-  2.0 unx     4100 b- defN 80-000-00 04:08 org.apache.sling.feature.launcher-1.2.0/README.md
+│ --rwxrwxrwx  2.0 unx    13280 b- defN 80-000-00 04:08 org.apache.sling.feature.launcher-1.2.0/LICENSE
+│ --rwxrwxrwx  2.0 unx      178 b- defN 80-000-00 04:08 org.apache.sling.feature.launcher-1.2.0/NOTICE
+│ +-rw-r--r--  2.0 unx    13280 b- defN 80-000-00 04:08 org.apache.sling.feature.launcher-1.2.0/LICENSE
+│ +-rw-rw-r--  2.0 unx      178 b- defN 80-000-00 04:08 org.apache.sling.feature.launcher-1.2.0/NOTICE
+│  -rwxr-xr-x  2.0 unx     3769 b- defN 80-000-00 04:08 org.apache.sling.feature.launcher-1.2.0/bin/launcher
+│  -rwxr-xr-x  2.0 unx     3224 b- defN 80-000-00 04:08 org.apache.sling.feature.launcher-1.2.0/bin/launcher.bat
+│  -rw-r--r--  2.0 unx   216211 b- defN 80-000-00 04:08 org.apache.sling.feature.launcher-1.2.0/lib/commons-text-1.9.jar
+│  -rw-r--r--  2.0 unx   587402 b- defN 80-000-00 04:08 org.apache.sling.feature.launcher-1.2.0/lib/commons-lang3-3.12.0.jar
+│  -rw-r--r--  2.0 unx   492531 b- defN 80-000-00 04:08 org.apache.sling.feature.launcher-1.2.0/lib/osgi.core-7.0.0.jar
+│  -rw-r--r--  2.0 unx    41203 b- defN 80-000-00 04:08 org.apache.sling.feature.launcher-1.2.0/lib/slf4j-api-1.7.25.jar
+│  -rw-r--r--  2.0 unx    15257 b- defN 80-000-00 04:08 org.apache.sling.feature.launcher-1.2.0/lib/slf4j-simple-1.7.25.jar
+│ @@ -16,8 +16,8 @@
+│  -rw-r--r--  2.0 unx    12548 b- defN 80-000-00 04:08 org.apache.sling.feature.launcher-1.2.0/lib/org.osgi.util.function-1.0.0.jar
+│  -rw-r--r--  2.0 unx   116620 b- defN 80-000-00 04:08 org.apache.sling.feature.launcher-1.2.0/lib/org.apache.felix.converter-1.0.18.jar
+│  -rw-r--r--  2.0 unx    47891 b- defN 80-000-00 04:08 org.apache.sling.feature.launcher-1.2.0/lib/org.apache.felix.cm.json-1.0.6.jar
+│  -rw-r--r--  2.0 unx    53820 b- defN 80-000-00 04:08 org.apache.sling.feature.launcher-1.2.0/lib/commons-cli-1.4.jar
+│  -rw-r--r--  2.0 unx   167945 b- defN 80-000-00 04:08 org.apache.sling.feature.launcher-1.2.0/lib/org.apache.sling.commons.johnzon-1.2.14.jar
+│  -rw-r--r--  2.0 unx    15037 b- defN 80-000-00 04:08 org.apache.sling.feature.launcher-1.2.0/lib/org.osgi.annotation.versioning-1.1.1.jar
+│  -rw-r--r--  2.0 unx    68932 b- defN 80-000-00 04:08 org.apache.sling.feature.launcher-1.2.0/lib/org.apache.sling.feature.launcher-1.2.0.jar
+│ -21 files, 2062271 bytes uncompressed, 1843483 bytes compressed:  10.6%
+│ +21 files, 2062271 bytes uncompressed, 1843485 bytes compressed:  10.6%
+├── org.apache.sling.feature.launcher-1.2.0/bin/launcher
+│ @@ -109,15 +109,15 @@
+│    [ -n "$CLASSPATH" ] && CLASSPATH=`cygpath --path --windows "$CLASSPATH"`
+│    [ -n "$JAVA_HOME" ] && JAVA_HOME=`cygpath --path --windows "$JAVA_HOME"`
+│    [ -n "$HOME" ] && HOME=`cygpath --path --windows "$HOME"`
+│    [ -n "$BASEDIR" ] && BASEDIR=`cygpath --path --windows "$BASEDIR"`
+│    [ -n "$REPO" ] && REPO=`cygpath --path --windows "$REPO"`
+│  fi
+│  
+│ -exec "$JAVACMD" $JAVA_OPTS -Dproject.artifactId=org.apache.sling.feature.launcher -Dproject.version=1.2.0 -Dbuild.timestamp=2022-01-12T14:22:45Z -Dfile.encoding=UTF-8 \
+│ +exec "$JAVACMD" $JAVA_OPTS -Dproject.artifactId=org.apache.sling.feature.launcher -Dproject.version=1.2.0 -Dbuild.timestamp=2022-03-12T17:10:35Z -Dfile.encoding=UTF-8 \
+│    -classpath "$CLASSPATH" \
+│    -Dapp.name="launcher" \
+│    -Dapp.pid="$$" \
+│    -Dapp.repo="$REPO" \
+│    -Dapp.home="$BASEDIR" \
+│    -Dbasedir="$BASEDIR" \
+│    org.apache.sling.feature.launcher.impl.Main \
+├── org.apache.sling.feature.launcher-1.2.0/bin/launcher.bat
+│ @@ -74,15 +74,15 @@
+│  if NOT "%ENDORSED_DIR%" == "" set CLASSPATH="%BASEDIR%"\%ENDORSED_DIR%\*;%CLASSPATH%
+│  
+│  if NOT "%CLASSPATH_PREFIX%" == "" set CLASSPATH=%CLASSPATH_PREFIX%;%CLASSPATH%
+│  
+│  @REM Reaching here means variables are defined and arguments have been captured
+│  :endInit
+│  
+│ -%JAVACMD% %JAVA_OPTS% -Dproject.artifactId=org.apache.sling.feature.launcher -Dproject.version=1.2.0 -Dbuild.timestamp=2022-01-12T14:22:45Z -Dfile.encoding=UTF-8 -classpath %CLASSPATH% -Dapp.name="launcher" -Dapp.repo="%REPO%" -Dapp.home="%BASEDIR%" -Dbasedir="%BASEDIR%" org.apache.sling.feature.launcher.impl.Main %CMD_LINE_ARGS%
+│ +%JAVACMD% %JAVA_OPTS% -Dproject.artifactId=org.apache.sling.feature.launcher -Dproject.version=1.2.0 -Dbuild.timestamp=2022-03-12T17:10:35Z -Dfile.encoding=UTF-8 -classpath %CLASSPATH% -Dapp.name="launcher" -Dapp.repo="%REPO%" -Dapp.home="%BASEDIR%" -Dbasedir="%BASEDIR%" org.apache.sling.feature.launcher.impl.Main %CMD_LINE_ARGS%
+│  if %ERRORLEVEL% NEQ 0 goto error
+│  goto end
+│  
+│  :error
+│  if "%OS%"=="Windows_NT" @endlocal
+│  set ERROR_CODE=%ERRORLEVEL%
+
