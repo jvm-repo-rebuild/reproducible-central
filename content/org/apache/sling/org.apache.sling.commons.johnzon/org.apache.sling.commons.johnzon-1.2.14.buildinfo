@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Commons Johnzon Wrapper Library
+group-id=org.apache.sling
+artifact-id=org.apache.sling.commons.johnzon
+version=1.2.14
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-commons-johnzon.git
+source.scm.tag=org.apache.sling.commons.johnzon-1.2.14
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.commons.johnzon-1.2.14.pom
+outputs.0.length=4370
+outputs.0.checksums.sha512=5a92eb15799237c7ea6baf0c87e1a3dc7da62a62d790628f8f3d58a6d09719f5adb65acd38ce00ae4252afc0155d03a5014bd171af80513412851c42697151b5
+
+outputs.1.filename=org.apache.sling.commons.johnzon-1.2.14.jar
+outputs.1.length=167945
+outputs.1.checksums.sha512=12498427d0f40cc774742e8bc92b0c6b70532689b900ac8614074acc8aa36db147fe182b1e5bc2f496d88969b2fa98d2f054d671b078a9ffcf4482866768c1fc
+
+outputs.2.filename=org.apache.sling.commons.johnzon-1.2.14-source-release.zip
+outputs.2.length=13004
+outputs.2.checksums.sha512=4084cae4fa2f5edc73b73ecfce0d38a324d1b59d761c6fdadf045e0f7ffc9e58c48e29af14dc9ea78bb4b50e8e0e80306e17ae5bf0b0b91329c4ddbc66230a60
+
+outputs.3.filename=org.apache.sling.commons.johnzon-1.2.14-sources.jar
+outputs.3.length=9666
+outputs.3.checksums.sha512=5a33620e4e2a285463bd7495558f9600aa400e909ef433ac1b6bbb1a19cccf4503f1bed52a83df9b35d83690ae2bcf3fea192e3121a0ca78bc6c7d83aaf0e090
+
+outputs.4.filename=org.apache.sling.commons.johnzon-1.2.14-sources.jar
+outputs.4.length=9666
+outputs.4.checksums.sha512=5a33620e4e2a285463bd7495558f9600aa400e909ef433ac1b6bbb1a19cccf4503f1bed52a83df9b35d83690ae2bcf3fea192e3121a0ca78bc6c7d83aaf0e090
