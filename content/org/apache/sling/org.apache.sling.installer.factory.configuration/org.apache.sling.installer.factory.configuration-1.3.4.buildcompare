@@ -1,0 +1,8 @@
+version=1.3.4
+ok=3
+ko=1
+okFiles="org.apache.sling.installer.factory.configuration-1.3.4.pom org.apache.sling.installer.factory.configuration-1.3.4.jar org.apache.sling.installer.factory.configuration-1.3.4-source-release.zip"
+koFiles="org.apache.sling.installer.factory.configuration-1.3.4-sources.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.sling.installer.factory.configuration-1.3.4-sources.jar target/org.apache.sling.installer.factory.configuration-1.3.4-sources.jar
