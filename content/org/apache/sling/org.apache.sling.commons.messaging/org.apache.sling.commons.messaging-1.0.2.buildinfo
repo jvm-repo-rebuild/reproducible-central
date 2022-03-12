@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Commons Messaging
+group-id=org.apache.sling
+artifact-id=org.apache.sling.commons.messaging
+version=1.0.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-commons-messaging.git
+source.scm.tag=org.apache.sling.commons.messaging-1.0.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.commons.messaging-1.0.2.pom
+outputs.0.length=4605
+outputs.0.checksums.sha512=eb8be9843a37ee9952e9ecc3381fb7806d103e9e07478619cfc3009e8cc4e3ccda99b187482bc9e6d54a5d65a5cda9ffa824fbeb453362710a554920326ffc23
+
+outputs.1.filename=org.apache.sling.commons.messaging-1.0.2.jar
+outputs.1.length=9144
+outputs.1.checksums.sha512=3041513a00f6f7b7bedcb4485641b7715004504e7a6f899300391928d73f2f49b480060bf3b1331211bf6016fa07159e8f63fcc76b9d2e243fd5d78e9b7c236f
+
+outputs.2.filename=org.apache.sling.commons.messaging-1.0.2-source-release.zip
+outputs.2.length=13740
+outputs.2.checksums.sha512=6157bdec5ea248fb591fa1027d4f326c36e19c2d80f2ede3f5cb6b30f0be01adaa29b4902325f7b6fd2648c012268b38427c96910a1aa48c3d935e592ac03db0
+
+outputs.3.filename=org.apache.sling.commons.messaging-1.0.2-sources.jar
+outputs.3.length=9438
+outputs.3.checksums.sha512=b9530cef82aefbcb19e05a0b955d06673856defa1e1a6fc269075010ffeeb5ff2b832cfc935217b1fc9baaccef50bfb3a8163808ca10cca5e87e133964e9cf24
+
+outputs.4.filename=org.apache.sling.commons.messaging-1.0.2-sources.jar
+outputs.4.length=9438
+outputs.4.checksums.sha512=b9530cef82aefbcb19e05a0b955d06673856defa1e1a6fc269075010ffeeb5ff2b832cfc935217b1fc9baaccef50bfb3a8163808ca10cca5e87e133964e9cf24
