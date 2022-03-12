@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Testing Clients
+group-id=org.apache.sling
+artifact-id=org.apache.sling.testing.clients
+version=3.0.4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-testing-clients.git
+source.scm.tag=org.apache.sling.testing.clients-3.0.4
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.testing.clients-3.0.4.pom
+outputs.0.length=7648
+outputs.0.checksums.sha512=3aa90bbfd51b9aef665fe2efd80d553cdd6863b25118a56a99fb6812f818ccb473d26c49e29c7342ab67e4dc7326bb703d56eb5d94faf553773e5d3e95cf0f5d
+
+outputs.1.filename=org.apache.sling.testing.clients-3.0.4.jar
+outputs.1.length=136977
+outputs.1.checksums.sha512=5289460483bb85e3fa3cf14c8ac3b63fb38264ed73eb0f162d6549a2dc2ba11b4352817921592dc6ad6350fe5926f477296409a0694e1f4e22d1c9bf42c18f67
+
+outputs.2.filename=org.apache.sling.testing.clients-3.0.4-source-release.zip
+outputs.2.length=177314
+outputs.2.checksums.sha512=5add6cd29f34f18372f242df530e3da474a806c7c36f38b0c36f242f9a6af8f093e056b8ddee1708b8d5bf7868d7b6050cbe19555261732e82adad01c510b9e5
+
+outputs.3.filename=org.apache.sling.testing.clients-3.0.4-sources.jar
+outputs.3.length=120437
+outputs.3.checksums.sha512=f343ce35a7b0e5da835823fd9f08d8285c96bfdc21cb209a10493bb5168cb7c459547542a65897dc4dd55a5e46a5eb814fb86d31f2299abcc9b83e9e34c9e02c
+
+outputs.4.filename=org.apache.sling.testing.clients-3.0.4-sources.jar
+outputs.4.length=120437
+outputs.4.checksums.sha512=f343ce35a7b0e5da835823fd9f08d8285c96bfdc21cb209a10493bb5168cb7c459547542a65897dc4dd55a5e46a5eb814fb86d31f2299abcc9b83e9e34c9e02c
