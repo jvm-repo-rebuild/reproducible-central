@@ -1,0 +1,7 @@
+version=1.8.2
+ok=4
+ko=0
+okFiles="org.apache.sling.resourceresolver-1.8.2.pom org.apache.sling.resourceresolver-1.8.2.jar org.apache.sling.resourceresolver-1.8.2-source-release.zip org.apache.sling.resourceresolver-1.8.2-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
