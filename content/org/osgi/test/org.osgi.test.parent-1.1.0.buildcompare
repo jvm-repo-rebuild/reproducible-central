@@ -1,0 +1,5 @@
+version=1.1.0
+ok=26
+ko=0
+okFiles="org.osgi.test.parent-1.1.0.pom org.osgi.test.common-1.1.0.pom org.osgi.test.common-1.1.0.jar org.osgi.test.common-1.1.0-sources.jar org.osgi.test.assertj.framework-1.1.0.pom org.osgi.test.assertj.framework-1.1.0.jar org.osgi.test.assertj.framework-1.1.0-sources.jar org.osgi.test.assertj.log-1.1.0.pom org.osgi.test.assertj.log-1.1.0.jar org.osgi.test.assertj.log-1.1.0-sources.jar org.osgi.test.assertj.promise-1.1.0.pom org.osgi.test.assertj.promise-1.1.0.jar org.osgi.test.assertj.promise-1.1.0-sources.jar org.osgi.test.junit4-1.1.0.pom org.osgi.test.junit4-1.1.0.jar org.osgi.test.junit4-1.1.0-sources.jar org.osgi.test.junit5-1.1.0.pom org.osgi.test.junit5-1.1.0.jar org.osgi.test.junit5-1.1.0-sources.jar org.osgi.test.junit5.cm-1.1.0.pom org.osgi.test.junit5.cm-1.1.0.jar org.osgi.test.junit5.cm-1.1.0-sources.jar org.osgi.test.junit5.listeners.log.osgi-1.1.0.pom org.osgi.test.junit5.listeners.log.osgi-1.1.0.jar org.osgi.test.junit5.listeners.log.osgi-1.1.0-sources.jar org.osgi.test.bom-1.1.0.pom"
+koFiles=""
