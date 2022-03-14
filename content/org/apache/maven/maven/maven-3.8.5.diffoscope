@@ -1,0 +1,233 @@
+target/reference/maven-model-3.8.5.jar maven-model/target/maven-model-3.8.5.jar
+--- target/reference/maven-model-3.8.5.jar
++++ maven-model/target/maven-model-3.8.5.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 215280 bytes, number of entries: 94
+│ +Zip file size: 216129 bytes, number of entries: 97
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-05 11:30 META-INF/
+│  -rw-r--r--  2.0 unx      319 b- defN 22-Mar-05 11:30 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-05 11:30 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-05 11:30 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-05 11:30 org/apache/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-05 11:30 org/apache/maven/model/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-05 11:30 org/apache/maven/model/io/
+│ @@ -66,14 +66,15 @@
+│  -rw-r--r--  2.0 unx    58742 b- defN 22-Mar-05 11:30 org/apache/maven/model/io/xpp3/MavenXpp3Reader.class
+│  -rw-r--r--  2.0 unx      750 b- defN 22-Mar-05 11:30 org/apache/maven/model/io/xpp3/MavenXpp3ReaderEx$1.class
+│  -rw-r--r--  2.0 unx      350 b- defN 22-Mar-05 11:30 org/apache/maven/model/io/xpp3/MavenXpp3ReaderEx$ContentTransformer.class
+│  -rw-r--r--  2.0 unx     1339 b- defN 22-Mar-05 11:30 org/apache/maven/model/io/xpp3/MavenXpp3ReaderEx$Xpp3DomBuilderInputLocationBuilder.class
+│  -rw-r--r--  2.0 unx    73078 b- defN 22-Mar-05 11:30 org/apache/maven/model/io/xpp3/MavenXpp3ReaderEx.class
+│  -rw-r--r--  2.0 unx    41765 b- defN 22-Mar-05 11:30 org/apache/maven/model/io/xpp3/MavenXpp3Writer.class
+│  -rw-r--r--  2.0 unx    47229 b- defN 22-Mar-05 11:30 org/apache/maven/model/io/xpp3/MavenXpp3WriterEx.class
+│ +-rw-r--r--  2.0 unx      136 b- defN 22-Mar-05 11:30 org/apache/maven/model/io/xpp3/package-info.class
+│  -rw-r--r--  2.0 unx      239 b- defN 22-Mar-05 11:30 org/apache/maven/model/merge/ModelMerger$1.class
+│  -rw-r--r--  2.0 unx     1480 b- defN 22-Mar-05 11:30 org/apache/maven/model/merge/ModelMerger$ContributorKeyComputer.class
+│  -rw-r--r--  2.0 unx     1471 b- defN 22-Mar-05 11:30 org/apache/maven/model/merge/ModelMerger$DependencyKeyComputer.class
+│  -rw-r--r--  2.0 unx     1462 b- defN 22-Mar-05 11:30 org/apache/maven/model/merge/ModelMerger$DeveloperKeyComputer.class
+│  -rw-r--r--  2.0 unx     1462 b- defN 22-Mar-05 11:30 org/apache/maven/model/merge/ModelMerger$ExclusionKeyComputer.class
+│  -rw-r--r--  2.0 unx     1498 b- defN 22-Mar-05 11:30 org/apache/maven/model/merge/ModelMerger$ExecutionKeyComputer.class
+│  -rw-r--r--  2.0 unx     1462 b- defN 22-Mar-05 11:30 org/apache/maven/model/merge/ModelMerger$ExtensionKeyComputer.class
+│ @@ -87,10 +88,12 @@
+│  -rw-r--r--  2.0 unx      391 b- defN 22-Mar-05 11:30 org/apache/maven/model/merge/ModelMerger$Remapping.class
+│  -rw-r--r--  2.0 unx     1483 b- defN 22-Mar-05 11:30 org/apache/maven/model/merge/ModelMerger$ReportPluginKeyComputer.class
+│  -rw-r--r--  2.0 unx     1462 b- defN 22-Mar-05 11:30 org/apache/maven/model/merge/ModelMerger$ReportSetKeyComputer.class
+│  -rw-r--r--  2.0 unx     1471 b- defN 22-Mar-05 11:30 org/apache/maven/model/merge/ModelMerger$RepositoryKeyComputer.class
+│  -rw-r--r--  2.0 unx     1453 b- defN 22-Mar-05 11:30 org/apache/maven/model/merge/ModelMerger$ResourceKeyComputer.class
+│  -rw-r--r--  2.0 unx     1098 b- defN 22-Mar-05 11:30 org/apache/maven/model/merge/ModelMerger$SourceDominant.class
+│  -rw-r--r--  2.0 unx    75814 b- defN 22-Mar-05 11:30 org/apache/maven/model/merge/ModelMerger.class
+│ +-rw-r--r--  2.0 unx      134 b- defN 22-Mar-05 11:30 org/apache/maven/model/merge/package-info.class
+│ +-rw-r--r--  2.0 unx      128 b- defN 22-Mar-05 11:30 org/apache/maven/model/package-info.class
+│  -rw-r--r--  2.0 unx     2803 b- defN 22-Mar-05 11:30 META-INF/maven/org.apache.maven/maven-model/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 22-Mar-05 11:30 META-INF/maven/org.apache.maven/maven-model/pom.properties
+│ -94 files, 543405 bytes uncompressed, 199648 bytes compressed:  63.3%
+│ +97 files, 543803 bytes uncompressed, 199995 bytes compressed:  63.2%
+├── zipnote «TEMP»/diffoscope_2z7yw0cl_target/tmp6sleq9u5.zip
+│ @@ -207,14 +207,17 @@
+│  
+│  Filename: org/apache/maven/model/io/xpp3/MavenXpp3Writer.class
+│  Comment: 
+│  
+│  Filename: org/apache/maven/model/io/xpp3/MavenXpp3WriterEx.class
+│  Comment: 
+│  
+│ +Filename: org/apache/maven/model/io/xpp3/package-info.class
+│ +Comment: 
+│ +
+│  Filename: org/apache/maven/model/merge/ModelMerger$1.class
+│  Comment: 
+│  
+│  Filename: org/apache/maven/model/merge/ModelMerger$ContributorKeyComputer.class
+│  Comment: 
+│  
+│  Filename: org/apache/maven/model/merge/ModelMerger$DependencyKeyComputer.class
+│ @@ -270,14 +273,20 @@
+│  
+│  Filename: org/apache/maven/model/merge/ModelMerger$SourceDominant.class
+│  Comment: 
+│  
+│  Filename: org/apache/maven/model/merge/ModelMerger.class
+│  Comment: 
+│  
+│ +Filename: org/apache/maven/model/merge/package-info.class
+│ +Comment: 
+│ +
+│ +Filename: org/apache/maven/model/package-info.class
+│ +Comment: 
+│ +
+│  Filename: META-INF/maven/org.apache.maven/maven-model/pom.xml
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.maven/maven-model/pom.properties
+│  Comment: 
+│  
+│  Zip file comment:
+
+target/reference/maven-resolver-provider-3.8.5.jar maven-resolver-provider/target/maven-resolver-provider-3.8.5.jar
+--- target/reference/maven-resolver-provider-3.8.5.jar
++++ maven-resolver-provider/target/maven-resolver-provider-3.8.5.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 67173 bytes, number of entries: 43
+│ +Zip file size: 67483 bytes, number of entries: 44
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-05 11:30 META-INF/
+│  -rw-r--r--  2.0 unx      361 b- defN 22-Mar-05 11:30 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-05 11:30 META-INF/sisu/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-05 11:30 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-05 11:30 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-05 11:30 org/apache/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-05 11:30 org/apache/maven/repository/
+│ @@ -36,10 +36,11 @@
+│  -rw-r--r--  2.0 unx     3597 b- defN 22-Mar-05 11:30 org/apache/maven/repository/internal/RelocatedArtifact.class
+│  -rw-r--r--  2.0 unx     6126 b- defN 22-Mar-05 11:30 org/apache/maven/repository/internal/RemoteSnapshotMetadata.class
+│  -rw-r--r--  2.0 unx     4011 b- defN 22-Mar-05 11:30 org/apache/maven/repository/internal/RemoteSnapshotMetadataGenerator.class
+│  -rw-r--r--  2.0 unx     1642 b- defN 22-Mar-05 11:30 org/apache/maven/repository/internal/SnapshotMetadataGeneratorFactory.class
+│  -rw-r--r--  2.0 unx     4444 b- defN 22-Mar-05 11:30 org/apache/maven/repository/internal/VersionsMetadata.class
+│  -rw-r--r--  2.0 unx     4165 b- defN 22-Mar-05 11:30 org/apache/maven/repository/internal/VersionsMetadataGenerator.class
+│  -rw-r--r--  2.0 unx     1563 b- defN 22-Mar-05 11:30 org/apache/maven/repository/internal/VersionsMetadataGeneratorFactory.class
+│ +-rw-r--r--  2.0 unx      142 b- defN 22-Mar-05 11:30 org/apache/maven/repository/internal/package-info.class
+│  -rw-r--r--  2.0 unx     4222 b- defN 22-Mar-05 11:30 META-INF/maven/org.apache.maven/maven-resolver-provider/pom.xml
+│  -rw-r--r--  2.0 unx       77 b- defN 22-Mar-05 11:30 META-INF/maven/org.apache.maven/maven-resolver-provider/pom.properties
+│ -43 files, 162121 bytes uncompressed, 59479 bytes compressed:  63.3%
+│ +44 files, 162263 bytes uncompressed, 59603 bytes compressed:  63.3%
+├── zipnote «TEMP»/diffoscope_i5i442t6_target/tmpbmmr_qtj.zip
+│ @@ -117,14 +117,17 @@
+│  
+│  Filename: org/apache/maven/repository/internal/VersionsMetadataGenerator.class
+│  Comment: 
+│  
+│  Filename: org/apache/maven/repository/internal/VersionsMetadataGeneratorFactory.class
+│  Comment: 
+│  
+│ +Filename: org/apache/maven/repository/internal/package-info.class
+│ +Comment: 
+│ +
+│  Filename: META-INF/maven/org.apache.maven/maven-resolver-provider/pom.xml
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.maven/maven-resolver-provider/pom.properties
+│  Comment: 
+│  
+│  Zip file comment:
+
+target/reference/apache-maven-3.8.5-bin.zip apache-maven/target/apache-maven-3.8.5-bin.zip
+--- target/reference/apache-maven-3.8.5-bin.zip
++++ apache-maven/target/apache-maven-3.8.5-bin.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 8756655 bytes, number of entries: 86
+│ +Zip file size: 8757206 bytes, number of entries: 86
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-05 11:30 apache-maven-3.8.5/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-05 11:30 apache-maven-3.8.5/lib/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-05 11:30 apache-maven-3.8.5/boot/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-05 11:30 apache-maven-3.8.5/lib/jansi-native/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-05 11:30 apache-maven-3.8.5/lib/jansi-native/Windows/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-05 11:30 apache-maven-3.8.5/lib/jansi-native/Windows/x86/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-05 11:30 apache-maven-3.8.5/lib/jansi-native/Windows/x86_64/
+│ @@ -45,15 +45,15 @@
+│  -rw-r--r--  2.0 unx      154 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/ext/README.txt
+│  -rw-r--r--  2.0 unx      498 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/jansi-native/README.txt
+│  -rw-r--r--  2.0 unx    52873 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/boot/plexus-classworlds-2.6.0.jar
+│  -rw-r--r--  2.0 unx    99646 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/maven-embedder-3.8.5.jar
+│  -rw-r--r--  2.0 unx    44286 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/maven-settings-3.8.5.jar
+│  -rw-r--r--  2.0 unx    42066 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/maven-settings-builder-3.8.5.jar
+│  -rw-r--r--  2.0 unx    46965 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/maven-plugin-api-3.8.5.jar
+│ --rw-r--r--  2.0 unx   215280 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/maven-model-3.8.5.jar
+│ +-rw-r--r--  2.0 unx   216129 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/maven-model-3.8.5.jar
+│  -rw-r--r--  2.0 unx   195825 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/maven-model-builder-3.8.5.jar
+│  -rw-r--r--  2.0 unx    14298 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/maven-builder-support-3.8.5.jar
+│  -rw-r--r--  2.0 unx   149251 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/maven-resolver-api-1.6.3.jar
+│  -rw-r--r--  2.0 unx   168856 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/maven-resolver-util-1.6.3.jar
+│  -rw-r--r--  2.0 unx   153143 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/maven-shared-utils-3.3.4.jar
+│  -rw-r--r--  2.0 unx   214788 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/commons-io-2.6.jar
+│  -rw-r--r--  2.0 unx   520748 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/guice-4.2.2-no_aop.jar
+│ @@ -64,15 +64,15 @@
+│  -rw-r--r--  2.0 unx    23604 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/plexus-sec-dispatcher-2.0.jar
+│  -rw-r--r--  2.0 unx    13003 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/plexus-cipher-2.0.jar
+│  -rw-r--r--  2.0 unx    41513 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/slf4j-api-1.7.32.jar
+│  -rw-r--r--  2.0 unx   501879 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/commons-lang3-3.8.1.jar
+│  -rw-r--r--  2.0 unx   640981 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/maven-core-3.8.5.jar
+│  -rw-r--r--  2.0 unx    28416 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/maven-repository-metadata-3.8.5.jar
+│  -rw-r--r--  2.0 unx    58077 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/maven-artifact-3.8.5.jar
+│ --rw-r--r--  2.0 unx    67173 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/maven-resolver-provider-3.8.5.jar
+│ +-rw-r--r--  2.0 unx    67483 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/maven-resolver-provider-3.8.5.jar
+│  -rw-r--r--  2.0 unx   179555 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/maven-resolver-impl-1.6.3.jar
+│  -rw-r--r--  2.0 unx    38411 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/maven-resolver-spi-1.6.3.jar
+│  -rw-r--r--  2.0 unx   379348 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/org.eclipse.sisu.inject-0.3.5.jar
+│  -rw-r--r--  2.0 unx    85348 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/plexus-interpolation-1.26.jar
+│  -rw-r--r--  2.0 unx     4225 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/plexus-component-annotations-2.1.0.jar
+│  -rw-r--r--  2.0 unx   288121 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/maven-compat-3.8.5.jar
+│  -rw-r--r--  2.0 unx    55101 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/wagon-provider-api-3.5.1.jar
+│ @@ -81,8 +81,8 @@
+│  -rw-r--r--  2.0 unx  1809125 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/wagon-http-3.5.1-shaded.jar
+│  -rw-r--r--  2.0 unx    16630 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/jcl-over-slf4j-1.7.32.jar
+│  -rw-r--r--  2.0 unx    11351 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/wagon-file-3.5.1.jar
+│  -rw-r--r--  2.0 unx    45732 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/maven-resolver-connector-basic-1.6.3.jar
+│  -rw-r--r--  2.0 unx    32816 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/maven-resolver-transport-wagon-1.6.3.jar
+│  -rw-r--r--  2.0 unx    23867 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/maven-slf4j-provider-3.8.5.jar
+│  -rw-r--r--  2.0 unx   221009 b- defN 22-Mar-05 11:30 apache-maven-3.8.5/lib/jansi-2.4.0.jar
+│ -86 files, 10152607 bytes uncompressed, 8742503 bytes compressed:  13.9%
+│ +86 files, 10153766 bytes uncompressed, 8743054 bytes compressed:  13.9%
+├── apache-maven-3.8.5/lib/maven-model-3.8.5.jar
+...
+
+target/reference/apache-maven-3.8.5-bin.tar.gz apache-maven/target/apache-maven-3.8.5-bin.tar.gz
+--- target/reference/apache-maven-3.8.5-bin.tar.gz
++++ apache-maven/target/apache-maven-3.8.5-bin.tar.gz
+├── apache-maven-3.8.5-bin.tar
+│ ├── file list
+│ │ @@ -43,15 +43,15 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)      154 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/ext/README.txt
+│ │  -rw-r--r--   0 root         (0) root         (0)      498 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/jansi-native/README.txt
+│ │  -rw-r--r--   0 root         (0) root         (0)    52873 2022-03-05 11:30:01.000000 apache-maven-3.8.5/boot/plexus-classworlds-2.6.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    99646 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/maven-embedder-3.8.5.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    44286 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/maven-settings-3.8.5.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    42066 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/maven-settings-builder-3.8.5.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    46965 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/maven-plugin-api-3.8.5.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   215280 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/maven-model-3.8.5.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)   216129 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/maven-model-3.8.5.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   195825 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/maven-model-builder-3.8.5.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    14298 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/maven-builder-support-3.8.5.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   149251 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/maven-resolver-api-1.6.3.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   168856 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/maven-resolver-util-1.6.3.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   153143 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/maven-shared-utils-3.3.4.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   214788 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/commons-io-2.6.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   520748 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/guice-4.2.2-no_aop.jar
+│ │ @@ -62,15 +62,15 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)    23604 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/plexus-sec-dispatcher-2.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    13003 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/plexus-cipher-2.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    41513 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/slf4j-api-1.7.32.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   501879 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/commons-lang3-3.8.1.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   640981 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/maven-core-3.8.5.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    28416 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/maven-repository-metadata-3.8.5.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    58077 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/maven-artifact-3.8.5.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    67173 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/maven-resolver-provider-3.8.5.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)    67483 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/maven-resolver-provider-3.8.5.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   179555 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/maven-resolver-impl-1.6.3.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    38411 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/maven-resolver-spi-1.6.3.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   379348 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/org.eclipse.sisu.inject-0.3.5.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    85348 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/plexus-interpolation-1.26.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)     4225 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/plexus-component-annotations-2.1.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   288121 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/maven-compat-3.8.5.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    55101 2022-03-05 11:30:01.000000 apache-maven-3.8.5/lib/wagon-provider-api-3.5.1.jar
+...

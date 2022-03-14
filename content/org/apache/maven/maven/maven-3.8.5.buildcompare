@@ -1,0 +1,11 @@
+version=3.8.5
+ok=43
+ko=4
+okFiles="maven-3.8.5.pom maven-3.8.5-site.xml maven-model-3.8.5.pom maven-model-3.8.5-sources.jar maven-artifact-3.8.5.pom maven-artifact-3.8.5.jar maven-artifact-3.8.5-sources.jar maven-plugin-api-3.8.5.pom maven-plugin-api-3.8.5.jar maven-plugin-api-3.8.5-sources.jar maven-builder-support-3.8.5.pom maven-builder-support-3.8.5.jar maven-builder-support-3.8.5-sources.jar maven-model-builder-3.8.5.pom maven-model-builder-3.8.5.jar maven-model-builder-3.8.5-sources.jar maven-settings-3.8.5.pom maven-settings-3.8.5.jar maven-settings-3.8.5-sources.jar maven-settings-builder-3.8.5.pom maven-settings-builder-3.8.5.jar maven-settings-builder-3.8.5-sources.jar maven-repository-metadata-3.8.5.pom maven-repository-metadata-3.8.5.jar maven-repository-metadata-3.8.5-sources.jar maven-resolver-provider-3.8.5.pom maven-resolver-provider-3.8.5-sources.jar maven-core-3.8.5.pom maven-core-3.8.5.jar maven-core-3.8.5-sources.jar maven-slf4j-provider-3.8.5.pom maven-slf4j-provider-3.8.5.jar maven-slf4j-provider-3.8.5-sources.jar maven-embedder-3.8.5.pom maven-embedder-3.8.5.jar maven-embedder-3.8.5-sources.jar maven-compat-3.8.5.pom maven-compat-3.8.5.jar maven-compat-3.8.5-sources.jar apache-maven-3.8.5.pom apache-maven-3.8.5-site.xml apache-maven-3.8.5-src.zip apache-maven-3.8.5-src.tar.gz"
+koFiles="maven-model-3.8.5.jar maven-resolver-provider-3.8.5.jar apache-maven-3.8.5-bin.zip apache-maven-3.8.5-bin.tar.gz"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/maven-model-3.8.5.jar maven-model/target/maven-model-3.8.5.jar
+# diffoscope target/reference/maven-resolver-provider-3.8.5.jar maven-resolver-provider/target/maven-resolver-provider-3.8.5.jar
+# diffoscope target/reference/apache-maven-3.8.5-bin.zip apache-maven/target/apache-maven-3.8.5-bin.zip
+# diffoscope target/reference/apache-maven-3.8.5-bin.tar.gz apache-maven/target/apache-maven-3.8.5-bin.tar.gz
