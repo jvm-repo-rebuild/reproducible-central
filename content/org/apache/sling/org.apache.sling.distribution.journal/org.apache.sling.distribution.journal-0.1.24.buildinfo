@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Journal based Content Distribution - Core bundle
+group-id=org.apache.sling
+artifact-id=org.apache.sling.distribution.journal
+version=0.1.24
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-distribution-journal.git
+source.scm.tag=org.apache.sling.distribution.journal-0.1.24
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=14
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.distribution.journal-0.1.24.pom
+outputs.0.length=10519
+outputs.0.checksums.sha512=737fafafc919fb8535111794664d3d262013e6032daf1d7a49dad30311eded388ff0faa2a65a241ce8328b686091e21e411a23f1a96b3d8d4a4b69efd5d5c5c2
+
+outputs.1.filename=org.apache.sling.distribution.journal-0.1.24.jar
+outputs.1.length=205224
+outputs.1.checksums.sha512=a9477d9894db172526396f5b84880bfefb0dc987ba30af03e12e835d525d0fbacdb59ae623ce539b58f4a010b41df019b67b100b1758d38eed997f2c96b5e08f
+
+outputs.2.filename=org.apache.sling.distribution.journal-0.1.24-source-release.zip
+outputs.2.length=755997
+outputs.2.checksums.sha512=1c7ca02f8992008757e383515b637426b1a460d8fdd88cb3822fa10ffe18d73af3c9f5aa6ab311a858088b5d206b2288605e777f212bbf153bc706b3d41a1d71
+
+outputs.3.filename=org.apache.sling.distribution.journal-0.1.24-sources.jar
+outputs.3.length=138613
+outputs.3.checksums.sha512=28a725f217015fff92c935177377f4f340010131970c1fe91a024867b0aaf7a49407bb68c81ecc027f3b9695d9792e6cfd9499afa8d94f0cdd171c80368df68e
+
+outputs.4.filename=org.apache.sling.distribution.journal-0.1.24-sources.jar
+outputs.4.length=138613
+outputs.4.checksums.sha512=28a725f217015fff92c935177377f4f340010131970c1fe91a024867b0aaf7a49407bb68c81ecc027f3b9695d9792e6cfd9499afa8d94f0cdd171c80368df68e
