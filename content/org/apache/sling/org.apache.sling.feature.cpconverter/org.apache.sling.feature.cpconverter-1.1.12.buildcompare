@@ -1,0 +1,9 @@
+version=1.1.12
+ok=4
+ko=2
+okFiles="org.apache.sling.feature.cpconverter-1.1.12.pom org.apache.sling.feature.cpconverter-1.1.12.jar org.apache.sling.feature.cpconverter-1.1.12-source-release.zip org.apache.sling.feature.cpconverter-1.1.12-sources.jar"
+koFiles="org.apache.sling.feature.cpconverter-1.1.12.tar.gz org.apache.sling.feature.cpconverter-1.1.12.zip"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.sling.feature.cpconverter-1.1.12.tar.gz target/org.apache.sling.feature.cpconverter-1.1.12.tar.gz
+# diffoscope target/reference/org.apache.sling.feature.cpconverter-1.1.12.zip target/org.apache.sling.feature.cpconverter-1.1.12.zip
