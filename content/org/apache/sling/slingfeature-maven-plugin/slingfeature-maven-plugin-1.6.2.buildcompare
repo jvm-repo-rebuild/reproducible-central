@@ -1,0 +1,7 @@
+version=1.6.2
+ok=4
+ko=0
+okFiles="slingfeature-maven-plugin-1.6.2.pom slingfeature-maven-plugin-1.6.2.jar slingfeature-maven-plugin-1.6.2-source-release.zip slingfeature-maven-plugin-1.6.2-sources.jar"
+koFiles=""
+reference_java_version="15 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
