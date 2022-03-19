@@ -1,0 +1,46 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Feature Model Analyser
+group-id=org.apache.sling
+artifact-id=org.apache.sling.feature.analyser
+version=1.6.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-feature-analyser.git
+source.scm.tag=org.apache.sling.feature.analyser-1.6.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=15
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.feature.analyser-1.6.2.pom
+outputs.0.length=8522
+outputs.0.checksums.sha512=1361c2742ebce9d2d4003075f6797f4fba3fee34a71c6a45993b0a6348dd7fdf7854385517f94e69c309b42012f2d352985c5a64c599176100f4a558032c32c0
+
+outputs.1.filename=org.apache.sling.feature.analyser-1.6.2.jar
+outputs.1.length=200311
+outputs.1.checksums.sha512=62d22e730662217167a3d78115918e898b3e2945ff18cd5ceec3337e18834af2df365c116a5378bedbde07f00d2e01d2b3d7c8a8ffa501922c8ee26bde68e741
+
+outputs.2.filename=org.apache.sling.feature.analyser-1.6.2-source-release.zip
+outputs.2.length=198240
+outputs.2.checksums.sha512=2d0595781238e9991ab03947585386c79bbb1a5fea551a007a6d68a67c436fba7b14480108db9b939af33820a9caed7fb8701c3363069cf9f6b67fe5b364da1f
+
+outputs.3.filename=org.apache.sling.feature.analyser-1.6.2-sources.jar
+outputs.3.length=92513
+outputs.3.checksums.sha512=018566c3c3b075d4c6f9dfbff0df3e2717c45ef569a8f644c7224b0360df2164c3194e1a5dfcd6f94b2a66f09427771ca75517a88f98e130732c05e86f9c92ec
+
+outputs.4.filename=org.apache.sling.feature.analyser-1.6.2-sources.jar
+outputs.4.length=92513
+outputs.4.checksums.sha512=018566c3c3b075d4c6f9dfbff0df3e2717c45ef569a8f644c7224b0360df2164c3194e1a5dfcd6f94b2a66f09427771ca75517a88f98e130732c05e86f9c92ec
+
+outputs.5.filename=org.apache.sling.feature.analyser-1.6.2-sources.jar
+outputs.5.length=92513
+outputs.5.checksums.sha512=018566c3c3b075d4c6f9dfbff0df3e2717c45ef569a8f644c7224b0360df2164c3194e1a5dfcd6f94b2a66f09427771ca75517a88f98e130732c05e86f9c92ec
