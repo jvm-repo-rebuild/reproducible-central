@@ -1,0 +1,10 @@
+version=12
+ok=27
+ko=3
+okFiles="org.apache.sling.starter-12.pom org.apache.sling.starter-12.jar org.apache.sling.starter-12-composum.slingosgifeature org.apache.sling.starter-12-htl_repl.slingosgifeature org.apache.sling.starter-12-slingshot.slingosgifeature org.apache.sling.starter-12-starter.slingosgifeature org.apache.sling.starter-12-base.slingosgifeature org.apache.sling.starter-12-boot.slingosgifeature org.apache.sling.starter-12-caconfig.slingosgifeature org.apache.sling.starter-12-discovery.slingosgifeature org.apache.sling.starter-12-docker.slingosgifeature org.apache.sling.starter-12-event.slingosgifeature org.apache.sling.starter-12-groovy.slingosgifeature org.apache.sling.starter-12-healthcheck.slingosgifeature org.apache.sling.starter-12-maintenance.slingosgifeature org.apache.sling.starter-12-models-jacksonexporter.slingosgifeature org.apache.sling.starter-12-oak_base.slingosgifeature org.apache.sling.starter-12-oak_persistence_mongods.slingosgifeature org.apache.sling.starter-12-oak_persistence_sns.slingosgifeature org.apache.sling.starter-12-scripting.slingosgifeature org.apache.sling.starter-12-validation.slingosgifeature org.apache.sling.starter-12-webconsole.slingosgifeature org.apache.sling.starter-12-nosample_base.slingosgifeature org.apache.sling.starter-12-oak_mongo.slingosgifeature org.apache.sling.starter-12-oak_tar.slingosgifeature org.apache.sling.starter-12-source-release.zip org.apache.sling.starter-12-sources.jar"
+koFiles="org.apache.sling.starter-12-oak_tar_far.far org.apache.sling.starter-12-oak_mongo_far.far org.apache.sling.starter-12.xml.gz"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.sling.starter-12-oak_tar_far.far target/org.apache.sling.starter-12-oak_tar_far.far
+# diffoscope target/reference/org.apache.sling.starter-12-oak_mongo_far.far target/org.apache.sling.starter-12-oak_mongo_far.far
+# diffoscope target/reference/org.apache.sling.starter-12.xml target/index.xml

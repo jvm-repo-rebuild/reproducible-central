@@ -1,0 +1,370 @@
+target/reference/org.apache.sling.starter-12-oak_tar_far.far target/org.apache.sling.starter-12-oak_tar_far.far
+--- target/reference/org.apache.sling.starter-12-oak_tar_far.far
++++ target/org.apache.sling.starter-12-oak_tar_far.far
+├── zipinfo {}
+│ @@ -1,250 +1,250 @@
+│ -Zip file size: 112154204 bytes, number of entries: 248
+│ --rw----     2.0 fat      594 bX defN 22-Mar-14 14:05 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat    96685 bl defN 22-Mar-14 14:05 org/apache/sling/org.apache.sling.starter/12/org.apache.sling.starter-12-oak_tar.slingosgifeature
+│ --rw----     2.0 fat   353793 bl defN 22-Mar-14 14:05 commons-codec/commons-codec/1.15/commons-codec-1.15.jar
+│ --rw----     2.0 fat   588337 bl defN 22-Mar-14 14:05 commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar
+│ --rw----     2.0 fat   519087 bl defN 22-Mar-14 14:05 javax/mail/mail/1.5.0-b01/mail-1.5.0-b01.jar
+│ --rw----     2.0 fat   751914 bl defN 22-Mar-14 14:05 org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar
+│ --rw----     2.0 fat   988514 bl defN 22-Mar-14 14:05 org/apache/commons/commons-math/2.2/commons-math-2.2.jar
+...
+│ --rw----     2.0 fat    11358 bl defN 22-Mar-14 14:05 META-INF/LICENSE
+│ --rw----     2.0 fat      287 bl defN 22-Mar-14 14:05 META-INF/NOTICE
+│ --rw----     2.0 fat      282 bl defN 22-Mar-14 14:05 META-INF/DEPENDENCIES
+│ -248 files, 112071608 bytes uncompressed, 112088334 bytes compressed:  0.0%
+│ +Zip file size: 112065798 bytes, number of entries: 248
+│ +-rw----     2.0 fat      594 bX defN 22-Mar-19 08:20 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat    96685 bl defN 22-Mar-19 08:20 org/apache/sling/org.apache.sling.starter/12/org.apache.sling.starter-12-oak_tar.slingosgifeature
+│ +-rw----     2.0 fat   353793 bl defN 22-Mar-19 08:20 commons-codec/commons-codec/1.15/commons-codec-1.15.jar
+│ +-rw----     2.0 fat   588337 bl defN 22-Mar-19 08:20 commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar
+│ +-rw----     2.0 fat   519087 bl defN 22-Mar-19 08:20 javax/mail/mail/1.5.0-b01/mail-1.5.0-b01.jar
+│ +-rw----     2.0 fat   751914 bl defN 22-Mar-19 08:20 org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar
+│ +-rw----     2.0 fat   988514 bl defN 22-Mar-19 08:20 org/apache/commons/commons-math/2.2/commons-math-2.2.jar
+...
+│ +-rw----     2.0 fat    11358 bl defN 22-Mar-19 08:20 META-INF/LICENSE
+│ +-rw----     2.0 fat      287 bl defN 22-Mar-19 08:20 META-INF/NOTICE
+│ +-rw----     2.0 fat      282 bl defN 22-Mar-19 08:20 META-INF/DEPENDENCIES
+│ +248 files, 112071523 bytes uncompressed, 111999928 bytes compressed:  0.1%
+├── org/apache/sling/org.apache.sling.auth.form/1.0.24/org.apache.sling.auth.form-1.0.24.jar
+│ ├── zipinfo {}
+│ │ @@ -1,8 +1,8 @@
+│ │ -Zip file size: 57447 bytes, number of entries: 51
+│ │ +Zip file size: 57444 bytes, number of entries: 51
+│ │  -rw-r--r--  2.0 unx     3363 b- defN 20-Jan-22 15:10 META-INF/MANIFEST.MF
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 META-INF/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 META-INF/maven/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 OSGI-INF/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 OSGI-INF/l10n/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 OSGI-INF/metatype/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 org/
+│ │ @@ -16,15 +16,15 @@
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 org/apache/sling/auth/form/impl/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 org/apache/sling/auth/form/impl/jaas/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 META-INF/maven/org.apache.sling/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 META-INF/maven/org.apache.sling/org.apache.sling.auth.form/
+│ │  -rw-r--r--  2.0 unx     2973 b- defN 20-Jan-22 15:10 META-INF/DEPENDENCIES
+│ │  -rw-r--r--  2.0 unx    11358 b- defN 20-Jan-22 15:10 META-INF/LICENSE
+│ │  -rw-r--r--  2.0 unx      293 b- defN 20-Jan-22 15:10 META-INF/NOTICE
+│ │ --rw-r--r--  2.0 unx    15248 b- defN 20-Jan-22 15:10 META-INF/maven/dependencies.properties
+│ │ +-rw-r--r--  2.0 unx    15247 b- defN 20-Jan-22 15:10 META-INF/maven/dependencies.properties
+│ │  -rw-r--r--  2.0 unx     5544 b- defN 20-Jan-22 15:10 OSGI-INF/l10n/org.apache.sling.auth.form.impl.FormAuthenticationHandlerConfig.properties
+│ │  -rw-r--r--  2.0 unx     3002 b- defN 20-Jan-22 15:10 OSGI-INF/metatype/org.apache.sling.auth.form.impl.FormAuthenticationHandlerConfig.xml
+│ │  -rw-r--r--  2.0 unx     1775 b- defN 20-Jan-22 15:10 OSGI-INF/org.apache.sling.auth.form.FormAuthenticationHandler.xml
+│ │  -rw-r--r--  2.0 unx      639 b- defN 20-Jan-22 15:10 OSGI-INF/org.apache.sling.auth.form.impl.AuthenticationFormServlet.xml
+│ │  -rw-r--r--  2.0 unx      268 b- defN 20-Jan-22 15:10 org/apache/commons/codec/BinaryDecoder.class
+│ │  -rw-r--r--  2.0 unx      268 b- defN 20-Jan-22 15:10 org/apache/commons/codec/BinaryEncoder.class
+│ │  -rw-r--r--  2.0 unx      248 b- defN 20-Jan-22 15:10 org/apache/commons/codec/Decoder.class
+│ │ @@ -46,8 +46,8 @@
+│ │  -rw-r--r--  2.0 unx     2910 b- defN 20-Jan-22 15:10 org/apache/sling/auth/form/impl/jaas/FormLoginModule.class
+│ │  -rw-r--r--  2.0 unx     1557 b- defN 20-Jan-22 15:10 org/apache/sling/auth/form/impl/jaas/JaasHelper$1.class
+│ │  -rw-r--r--  2.0 unx     4465 b- defN 20-Jan-22 15:10 org/apache/sling/auth/form/impl/jaas/JaasHelper.class
+│ │  -rw-r--r--  2.0 unx     3555 b- defN 20-Jan-22 15:10 org/apache/sling/auth/form/impl/login.html
+│ │  -rw-r--r--  2.0 unx      236 b- defN 20-Jan-22 15:10 org/apache/sling/auth/form/package-info.class
+│ │  -rw-r--r--  2.0 unx    11618 b- defN 20-Jan-22 15:10 META-INF/maven/org.apache.sling/org.apache.sling.auth.form/pom.xml
+│ │  -rw-r--r--  2.0 unx       78 b- defN 20-Jan-22 15:10 META-INF/maven/org.apache.sling/org.apache.sling.auth.form/pom.properties
+│ │ -51 files, 131553 bytes uncompressed, 49177 bytes compressed:  62.6%
+│ │ +51 files, 131552 bytes uncompressed, 49174 bytes compressed:  62.6%
+│ ├── META-INF/maven/dependencies.properties
+│ │ @@ -1,9 +1,9 @@
+│ │  # Project dependencies generated by the Apache ServiceMix Maven Plugin
+│ │ -# Generated at: Wed Jun 09 13:03:43 CEST 2021
+│ │ +# Generated at: Tue Jun 08 17:41:41 PDT 2021
+│ │  
+│ │  groupId = org.apache.sling
+│ │  artifactId = org.apache.sling.auth.form
+│ │  version = 1.0.24
+│ │  org.apache.sling/org.apache.sling.auth.form/version = 1.0.24
+│ │  
+│ │  # dependencies
+├── org/apache/sling/org.apache.sling.commons.threads/3.2.22/org.apache.sling.commons.threads-3.2.22.jar
+│ ├── zipinfo {}
+│ │ @@ -1,52 +1,52 @@
+│ │ -Zip file size: 54577 bytes, number of entries: 50
+│ │ --rw----     2.0 fat     1357 bX defN 21-Sep-24 15:37 META-INF/MANIFEST.MF
+│ │ --rw----     2.0 fat        0 bl defN 21-Sep-24 17:37 META-INF/
+│ │ --rw----     2.0 fat      580 bl defN 21-Sep-24 15:36 META-INF/DEPENDENCIES
+│ │ --rw----     2.0 fat    11358 bl defN 21-Sep-24 15:36 META-INF/LICENSE
+│ │ --rw----     2.0 fat      284 bl defN 21-Sep-24 15:36 META-INF/NOTICE
+│ │ --rw----     2.0 fat        0 bl defN 21-Sep-24 17:37 META-INF/maven/
+│ │ --rw----     2.0 fat        0 bl defN 21-Sep-24 17:37 META-INF/maven/org.apache.sling/
+│ │ --rw----     2.0 fat        0 bl defN 21-Sep-24 17:37 META-INF/maven/org.apache.sling/org.apache.sling.commons.threads/
+│ │ --rw----     2.0 fat      159 bl defN 21-Sep-24 15:37 META-INF/maven/org.apache.sling/org.apache.sling.commons.threads/pom.properties
+│ │ +Zip file size: 54578 bytes, number of entries: 50
+│ │ +-rw----     2.0 fat     1357 bX defN 21-Sep-21 15:04 META-INF/MANIFEST.MF
+│ │ +-rw----     2.0 fat        0 bl defN 21-Sep-21 17:04 META-INF/
+│ │ +-rw----     2.0 fat      580 bl defN 21-Sep-21 15:04 META-INF/DEPENDENCIES
+│ │ +-rw----     2.0 fat    11358 bl defN 21-Sep-21 15:04 META-INF/LICENSE
+│ │ +-rw----     2.0 fat      284 bl defN 21-Sep-21 15:04 META-INF/NOTICE
+│ │ +-rw----     2.0 fat        0 bl defN 21-Sep-21 17:04 META-INF/maven/
+│ │ +-rw----     2.0 fat        0 bl defN 21-Sep-21 17:04 META-INF/maven/org.apache.sling/
+│ │ +-rw----     2.0 fat        0 bl defN 21-Sep-21 17:04 META-INF/maven/org.apache.sling/org.apache.sling.commons.threads/
+│ │ +-rw----     2.0 fat      159 bl defN 21-Sep-21 15:04 META-INF/maven/org.apache.sling/org.apache.sling.commons.threads/pom.properties
+│ │  -rw----     2.0 fat     4282 bl defN 21-Sep-21 15:04 META-INF/maven/org.apache.sling/org.apache.sling.commons.threads/pom.xml
+│ │ --rw----     2.0 fat        0 bl defN 21-Sep-24 17:37 OSGI-INF/
+│ │ --rw----     2.0 fat        0 bl defN 21-Sep-24 17:37 OSGI-INF/l10n/
+│ │ +-rw----     2.0 fat        0 bl defN 21-Sep-21 17:04 OSGI-INF/
+│ │ +-rw----     2.0 fat        0 bl defN 21-Sep-21 17:04 OSGI-INF/l10n/
+│ │  -rw----     2.0 fat     2023 bl defN 21-Sep-21 15:04 OSGI-INF/l10n/metatype.properties
+│ │ --rw----     2.0 fat        0 bl defN 21-Sep-24 17:37 OSGI-INF/metatype/
+│ │ +-rw----     2.0 fat        0 bl defN 21-Sep-21 17:04 OSGI-INF/metatype/
+│ │  -rw----     2.0 fat     3844 bl defN 21-Sep-21 15:04 OSGI-INF/metatype/metatype.xml
+│ │ --rw----     2.0 fat        0 bl defN 21-Sep-24 17:37 org/
+│ │ --rw----     2.0 fat        0 bl defN 21-Sep-24 17:37 org/apache/
+│ │ --rw----     2.0 fat        0 bl defN 21-Sep-24 17:37 org/apache/sling/
+│ │ --rw----     2.0 fat        0 bl defN 21-Sep-24 17:37 org/apache/sling/commons/
+│ │ --rw----     2.0 fat        0 bl defN 21-Sep-24 17:37 org/apache/sling/commons/threads/
+│ │ --rw----     2.0 fat     5566 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/ModifiableThreadPoolConfig.class
+│ │ --rw----     2.0 fat      711 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/ThreadPool.class
+│ │ --rw----     2.0 fat     1437 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/ThreadPoolConfig$ThreadPoolPolicy.class
+│ │ --rw----     2.0 fat     1358 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/ThreadPoolConfig$ThreadPriority.class
+│ │ --rw----     2.0 fat     1014 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/ThreadPoolConfig.class
+│ │ --rw----     2.0 fat      726 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/ThreadPoolManager.class
+│ │ --rw----     2.0 fat        0 bl defN 21-Sep-24 17:37 org/apache/sling/commons/threads/impl/
+│ │ --rw----     2.0 fat     2528 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/impl/Activator.class
+│ │ --rw----     2.0 fat     1089 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/impl/DefaultThreadPool$1.class
+│ │ --rw----     2.0 fat     2246 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/impl/DefaultThreadPool$LoggingThreadLocalChangeListener.class
+│ │ --rw----     2.0 fat     9521 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/impl/DefaultThreadPool.class
+│ │ --rw----     2.0 fat     7485 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/impl/DefaultThreadPoolManager$Entry.class
+│ │ --rw----     2.0 fat     9669 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/impl/DefaultThreadPoolManager.class
+│ │ --rw----     2.0 fat     1032 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/impl/ExtendedThreadFactory$1.class
+│ │ --rw----     2.0 fat     3369 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/impl/ExtendedThreadFactory.class
+│ │ --rw----     2.0 fat     1346 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/impl/ThreadLocalChangeListener$Mode.class
+│ │ --rw----     2.0 fat     1055 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/impl/ThreadLocalChangeListener.class
+│ │ --rw----     2.0 fat      278 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/impl/ThreadLocalCleaner$1.class
+│ │ --rw----     2.0 fat     2400 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/impl/ThreadLocalCleaner$ThreadLocalMapCopy.class
+│ │ --rw----     2.0 fat     9357 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/impl/ThreadLocalCleaner.class
+│ │ --rw----     2.0 fat     3725 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/impl/ThreadPoolExecutorCleaningThreadLocals.class
+│ │ --rw----     2.0 fat     2177 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/impl/ThreadPoolFacade.class
+│ │ --rw----     2.0 fat     4096 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/impl/ThreadPoolMBeanImpl.class
+│ │ --rw----     2.0 fat     1708 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/impl/ThreadPoolMetricsGauges$1.class
+│ │ --rw----     2.0 fat     4625 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/impl/ThreadPoolMetricsGauges.class
+│ │ --rw----     2.0 fat     5300 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/impl/WebConsolePrinter.class
+│ │ --rw----     2.0 fat        0 bl defN 21-Sep-24 17:37 org/apache/sling/commons/threads/jmx/
+│ │ --rw----     2.0 fat      910 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/jmx/ThreadPoolMBean.class
+│ │ --rw----     2.0 fat      248 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/jmx/package-info.class
+│ │ --rw----     2.0 fat      244 bl defN 21-Sep-24 15:36 org/apache/sling/commons/threads/package-info.class
+│ │ -50 files, 109107 bytes uncompressed, 45065 bytes compressed:  58.7%
+│ │ +-rw----     2.0 fat        0 bl defN 21-Sep-21 17:04 org/
+│ │ +-rw----     2.0 fat        0 bl defN 21-Sep-21 17:04 org/apache/
+│ │ +-rw----     2.0 fat        0 bl defN 21-Sep-21 17:04 org/apache/sling/
+│ │ +-rw----     2.0 fat        0 bl defN 21-Sep-21 17:04 org/apache/sling/commons/
+│ │ +-rw----     2.0 fat        0 bl defN 21-Sep-21 17:04 org/apache/sling/commons/threads/
+│ │ +-rw----     2.0 fat     5566 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/ModifiableThreadPoolConfig.class
+│ │ +-rw----     2.0 fat      711 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/ThreadPool.class
+│ │ +-rw----     2.0 fat     1437 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/ThreadPoolConfig$ThreadPoolPolicy.class
+│ │ +-rw----     2.0 fat     1358 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/ThreadPoolConfig$ThreadPriority.class
+│ │ +-rw----     2.0 fat     1014 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/ThreadPoolConfig.class
+│ │ +-rw----     2.0 fat      726 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/ThreadPoolManager.class
+│ │ +-rw----     2.0 fat        0 bl defN 21-Sep-21 17:04 org/apache/sling/commons/threads/impl/
+│ │ +-rw----     2.0 fat     2528 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/impl/Activator.class
+│ │ +-rw----     2.0 fat     1089 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/impl/DefaultThreadPool$1.class
+│ │ +-rw----     2.0 fat     2246 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/impl/DefaultThreadPool$LoggingThreadLocalChangeListener.class
+│ │ +-rw----     2.0 fat     9521 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/impl/DefaultThreadPool.class
+│ │ +-rw----     2.0 fat     7485 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/impl/DefaultThreadPoolManager$Entry.class
+│ │ +-rw----     2.0 fat     9669 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/impl/DefaultThreadPoolManager.class
+│ │ +-rw----     2.0 fat     1032 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/impl/ExtendedThreadFactory$1.class
+│ │ +-rw----     2.0 fat     3369 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/impl/ExtendedThreadFactory.class
+│ │ +-rw----     2.0 fat     1346 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/impl/ThreadLocalChangeListener$Mode.class
+│ │ +-rw----     2.0 fat     1055 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/impl/ThreadLocalChangeListener.class
+│ │ +-rw----     2.0 fat      278 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/impl/ThreadLocalCleaner$1.class
+│ │ +-rw----     2.0 fat     2400 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/impl/ThreadLocalCleaner$ThreadLocalMapCopy.class
+│ │ +-rw----     2.0 fat     9357 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/impl/ThreadLocalCleaner.class
+│ │ +-rw----     2.0 fat     3725 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/impl/ThreadPoolExecutorCleaningThreadLocals.class
+│ │ +-rw----     2.0 fat     2177 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/impl/ThreadPoolFacade.class
+│ │ +-rw----     2.0 fat     4096 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/impl/ThreadPoolMBeanImpl.class
+│ │ +-rw----     2.0 fat     1708 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/impl/ThreadPoolMetricsGauges$1.class
+│ │ +-rw----     2.0 fat     4625 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/impl/ThreadPoolMetricsGauges.class
+│ │ +-rw----     2.0 fat     5300 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/impl/WebConsolePrinter.class
+│ │ +-rw----     2.0 fat        0 bl defN 21-Sep-21 17:04 org/apache/sling/commons/threads/jmx/
+│ │ +-rw----     2.0 fat      910 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/jmx/ThreadPoolMBean.class
+│ │ +-rw----     2.0 fat      248 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/jmx/package-info.class
+│ │ +-rw----     2.0 fat      244 bl defN 21-Sep-21 15:04 org/apache/sling/commons/threads/package-info.class
+│ │ +50 files, 109107 bytes uncompressed, 45066 bytes compressed:  58.7%
+│ ├── META-INF/MANIFEST.MF
+│ │ @@ -1,9 +1,9 @@
+│ │  Manifest-Version: 1.0
+
+│ │ -Bnd-LastModified: 1632497820761
+
+│ │ +Bnd-LastModified: 1632236674159
+
+│ │  Build-Jdk: 11.0.12
+
+│ │  Built-By: robert
+
+│ │  Bundle-Activator: org.apache.sling.commons.threads.impl.Activator
+
+│ │  Bundle-Category: sling
+
+│ │  Bundle-Description: Support for thread handling like pooling.
+
+│ │  Bundle-DocURL: http://sling.apache.org
+
+│ │  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+│ ├── META-INF/maven/org.apache.sling/org.apache.sling.commons.threads/pom.properties
+│ │ @@ -1,5 +1,5 @@
+│ │  #Generated by org.apache.felix.bundleplugin
+│ │ -#Fri Sep 24 17:37:00 CEST 2021
+│ │ +#Tue Sep 21 17:04:34 CEST 2021
+│ │  groupId=org.apache.sling
+│ │  artifactId=org.apache.sling.commons.threads
+│ │  version=3.2.22
+├── org/apache/sling/org.apache.sling.servlets.post/2.5.0/org.apache.sling.servlets.post-2.5.0.jar
+...
+│ ├── META-INF/MANIFEST.MF
+│ │ @@ -1,41 +1,42 @@
+│ │  Manifest-Version: 1.0
+
+│ │ -Created-By: Maven Jar Plugin 3.2.0
+
+│ │ -Build-Jdk-Spec: 11
+
+│ │ +Bundle-License: "Apache License, Version 2.0";link="https://www.apache
+
+│ │ + .org/licenses/LICENSE-2.0.txt"
+
+│ │ +Bundle-SymbolicName: org.apache.sling.repoinit.parser
+
+│ │  Specification-Title: Apache Sling Repoinit Parser
+
+│ │ -Specification-Version: 1.6
+
+│ │ -Specification-Vendor: The Apache Software Foundation
+
+│ │ +Bundle-DocURL: https://sling.apache.org
+
+│ │ +Import-Package: org.apache.sling.repoinit.parser;version="[1.0,1.1)"
+
+│ │ +Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compo
+
+│ │ + nent)(version>=1.4.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.e
+
+│ │ + e=JavaSE)(version=1.8))"
+
+│ │ +Service-Component: OSGI-INF/org.apache.sling.repoinit.parser.impl.Repo
+
+│ │ + InitParserService.xml
+
+│ │ +Bundle-Developers: sling;name="Apache Sling Project"
+
+│ │ +Provide-Capability: org.apache.sling.repoinit.language;version:Version
+
+│ │ + ="8.4",osgi.service;objectClass:List<String>="org.apache.sling.repoin
+
+│ │ + it.parser.RepoInitParser";uses:="org.apache.sling.repoinit.parser"
+
+│ │ +Export-Package: org.apache.sling.repoinit.parser;version="1.0.2";uses:
+
+│ │ + ="org.apache.sling.repoinit.parser.operations",org.apache.sling.repoi
+
+│ │ + nit.parser.operations;version="4.8.0"
+
+│ │ +Bundle-Name: Apache Sling Repoinit Parser
+
+│ │ +Bundle-SCM: url="https://gitbox.apache.org/repos/asf?p=sling-org-apach
+
+│ │ + e-sling-repoinit-parser.git",connection="scm:git:https://gitbox.apach
+
+│ │ + e.org/repos/asf/sling-org-apache-sling-repoinit-parser.git",developer
+
+│ │ + -connection="scm:git:https://gitbox.apache.org/repos/asf/sling-org-ap
+
+│ │ + ache-sling-repoinit-parser.git",tag="org.apache.sling.repoinit.parser
+
+│ │ + -1.6.12"
+
+│ │ +Build-Jdk-Spec: 1.8
+
+│ │  Implementation-Title: Apache Sling Repoinit Parser
+
+│ │ +Bundle-Description: Parser for the Repository Initialization language 
+
+│ │ + used in Sling
+
+│ │  Implementation-Version: 1.6.12
+
+│ │ -Implementation-Vendor: The Apache Software Foundation
+
+│ │  Bundle-Category: sling
+
+│ │ -Bundle-Description: Parser for the Repository Initialization language us
+
+│ │ - ed in Sling
+
+│ │ -Bundle-Developers: sling;name="Apache Sling Project"
+
+│ │ -Bundle-DocURL: https://sling.apache.org
+
+│ │ -Bundle-License: "Apache License, Version 2.0";link="https://www.apache.o
+
+│ │ - rg/licenses/LICENSE-2.0.txt"
+
+│ │ +Specification-Vendor: The Apache Software Foundation
+
+│ │  Bundle-ManifestVersion: 2
+
+│ │ -Bundle-Name: Apache Sling Repoinit Parser
+
+│ │ -Bundle-SCM: url="https://gitbox.apache.org/repos/asf?p=sling-org-apache-
+
+│ │ - sling-repoinit-parser.git",connection="scm:git:https://gitbox.apache.or
+
+│ │ - g/repos/asf/sling-org-apache-sling-repoinit-parser.git",developer-conne
+
+│ │ - ction="scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sli
+
+│ │ - ng-repoinit-parser.git",tag="org.apache.sling.repoinit.parser-1.6.12"
+
+│ │ -Bundle-SymbolicName: org.apache.sling.repoinit.parser
+
+│ │  Bundle-Vendor: The Apache Software Foundation
+
+│ │ +Implementation-Vendor: The Apache Software Foundation
+
+│ │  Bundle-Version: 1.6.12
+
+│ │ -Export-Package: org.apache.sling.repoinit.parser;version="1.0.2";uses:="
+
+│ │ - org.apache.sling.repoinit.parser.operations",org.apache.sling.repoinit.
+
+│ │ - parser.operations;version="4.8.0"
+
+│ │ -Import-Package: org.apache.sling.repoinit.parser;version="[1.0,1.1)"
+
+│ │ -Private-Package: org.apache.jackrabbit.util,org.apache.sling.repoinit.pa
+
+│ │ - rser.impl
+
+│ │ -Provide-Capability: org.apache.sling.repoinit.language;version:Version="
+
+│ │ - 8.4",osgi.service;objectClass:List<String>="org.apache.sling.repoinit.p
+
+│ │ - arser.RepoInitParser";uses:="org.apache.sling.repoinit.parser"
+
+│ │ -Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compone
+
+│ │ - nt)(version>=1.4.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.ee=Ja
+
+│ │ - vaSE)(version=1.8))"
+
+│ │ -Service-Component: OSGI-INF/org.apache.sling.repoinit.parser.impl.RepoIn
+
+│ │ - itParserService.xml
+
+│ │ +Private-Package: org.apache.jackrabbit.util,org.apache.sling.repoinit.
+
+│ │ + parser.impl
+
+│ │ +Created-By: Maven Jar Plugin 3.2.0
+
+│ │ +Specification-Version: 1.6
+
+...
+
+target/reference/org.apache.sling.starter-12.xml target/index.xml
+/srv/diffoscope/bin/diffoscope: target/reference/org.apache.sling.starter-12.xml: No such file or directory
+
