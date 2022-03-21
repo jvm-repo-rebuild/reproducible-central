@@ -1,0 +1,7 @@
+version=3.2.0
+ok=9
+ko=0
+okFiles="jxr-3.2.0.pom jxr-3.2.0-site.xml jxr-3.2.0-source-release.zip maven-jxr-3.2.0.pom maven-jxr-3.2.0.jar maven-jxr-3.2.0-sources.jar maven-jxr-plugin-3.2.0.pom maven-jxr-plugin-3.2.0.jar maven-jxr-plugin-3.2.0-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

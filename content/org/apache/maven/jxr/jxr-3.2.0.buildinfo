@@ -1,0 +1,65 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven JXR Parent
+group-id=org.apache.maven.jxr
+artifact-id=jxr
+version=3.2.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-jxr.git
+source.scm.tag=jxr-3.2.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=maven-jxr-plugin
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.maven.jxr:jxr
+
+outputs.0.0.filename=jxr-3.2.0.pom
+outputs.0.0.length=6157
+outputs.0.0.checksums.sha512=6f2ef89b5d6de8abada356de9f77a6aaa41c0cc2393e7307c38769b0b09d7689ff78a2ca99b72c6c6b6bae1f766b31f8e6bd15d01777410761da1e9643233384
+
+outputs.0.1.filename=jxr-3.2.0-site.xml
+outputs.0.1.length=1635
+outputs.0.1.checksums.sha512=d1858447871577e46e65a3cefdd0744369b2967308acd5aae40740e894d7bc47489e1f740e4a59f7e83d1e33c84ab3930f0dba5fb648de56fb7f9ce10078e28a
+
+outputs.0.2.filename=jxr-3.2.0-source-release.zip
+outputs.0.2.length=363096
+outputs.0.2.checksums.sha512=3e543870442906307b5b11eed607bb9b1bd8f42e7ceb66474bae731698c3dfe7a3e2cedd4657ddc79c0172292f185ab0aac90811230a6122d3d285943a14097f
+
+outputs.1.coordinates=org.apache.maven:maven-jxr
+
+outputs.1.0.filename=maven-jxr-3.2.0.pom
+outputs.1.0.length=3652
+outputs.1.0.checksums.sha512=1dedeb2ea79d3afc3ea595b25b1eb350db37c9b4f1c63da051761c3b3119ad02bb33c7803bd0b0a9611d021ca3934c024399dc72673a5b6e015eb56b21c1b941
+
+outputs.1.1.filename=maven-jxr-3.2.0.jar
+outputs.1.1.length=71173
+outputs.1.1.checksums.sha512=87296f04a17a7f10357458f9e6fd52c7dcc63f8dcd064e448347a4d4685ce37ee31d1ab1c260b1cfdd3af4098b089727ecb230d8fa9e7c6a362046533bf56062
+
+outputs.1.2.filename=maven-jxr-3.2.0-sources.jar
+outputs.1.2.length=69416
+outputs.1.2.checksums.sha512=4e19135e3e0f22e488bad8ce9da3b2c1d316e0c049f76983c9bfc478ea8ce45f8041892a581ba0ebf5ccb90213959cbcc2e96badcf7ff944ed7e5a2416c52ef6
+
+outputs.2.coordinates=org.apache.maven.plugins:maven-jxr-plugin
+
+outputs.2.0.filename=maven-jxr-plugin-3.2.0.pom
+outputs.2.0.length=7034
+outputs.2.0.checksums.sha512=233d27acd3f325bcb9d137482aa4a9108e76aa26417d11e9cd864f593c141941f4aa64f8d1897d58902210d57861a44c2d11ddb4f4209a6b60046c5a4edab554
+
+outputs.2.1.filename=maven-jxr-plugin-3.2.0.jar
+outputs.2.1.length=65718
+outputs.2.1.checksums.sha512=48dba04b28e4cf192a2360496ede4f3400c21b5a41bfe875371ee9bcb36e5aabea1869e86633c3c69e60abafa89139bf1b6f7c4f1c46d7b494c0141f84064dcc
+
+outputs.2.2.filename=maven-jxr-plugin-3.2.0-sources.jar
+outputs.2.2.length=56143
+outputs.2.2.checksums.sha512=32d932167c3d5f25c84a2332c297bd52609a0f82cc29225a8b811e253800075f7519096b80f58864719a069591aaf95b9f77c98062a9eedbd9a1d67daa3f7cff
