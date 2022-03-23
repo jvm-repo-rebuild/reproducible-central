@@ -28,7 +28,7 @@ do
   # extract last release from maven-metadata.xml
   echo -n "checking for release of ${groupId}:${artifactId} newer than ${version}"
   groupDir=$(echo ${groupId} | tr '.' '/')
-  mavenMetadata=`dirname ${bs}`/buildcache/${artifactId}-maven-metadata.xml
+  mavenMetadata=`dirname ${bs}`/maven-metadata.xml
   [ -d `dirname ${mavenMetadata}` ] || mkdir `dirname ${mavenMetadata}`
   centralMetadata="https://repo.maven.apache.org/maven2/${groupDir}/${artifactId}/maven-metadata.xml"
   cache=$(${date} -d 'now - 1 days' +%s)

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.tomitribe.transformer</groupId>
+  <artifactId>org.eclipse.transformer.parent</artifactId>
+  <versioning>
+    <latest>0.1.1a</latest>
+    <release>0.1.1a</release>
+    <versions>
+      <version>0.1.1</version>
+      <version>0.1.1a</version>
+    </versions>
+    <lastUpdated>20200618215747</lastUpdated>
+  </versioning>
+</metadata>

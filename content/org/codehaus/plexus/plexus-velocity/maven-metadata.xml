@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.codehaus.plexus</groupId>
+  <artifactId>plexus-velocity</artifactId>
+  <versioning>
+    <latest>1.3</latest>
+    <release>1.3</release>
+    <versions>
+      <version>1.1.2</version>
+      <version>1.1.3</version>
+      <version>1.1.4</version>
+      <version>1.1.5</version>
+      <version>1.1.6</version>
+      <version>1.1.7</version>
+      <version>1.1.8</version>
+      <version>1.2</version>
+      <version>1.3</version>
+    </versions>
+    <lastUpdated>20210703131913</lastUpdated>
+  </versioning>
+</metadata>

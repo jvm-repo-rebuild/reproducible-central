@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.plc4x.plugins</groupId>
+  <artifactId>plc4x-code-generaton</artifactId>
+  <versioning>
+    <latest>1.5.0</latest>
+    <release>1.5.0</release>
+    <versions>
+      <version>1.0.0</version>
+      <version>1.1.0</version>
+      <version>1.2.0</version>
+      <version>1.3.0</version>
+      <version>1.4.0</version>
+      <version>1.5.0</version>
+    </versions>
+    <lastUpdated>20210913071143</lastUpdated>
+  </versioning>
+</metadata>

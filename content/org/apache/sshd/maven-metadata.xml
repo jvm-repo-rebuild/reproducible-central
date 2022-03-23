@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.sshd</groupId>
+  <artifactId>sshd</artifactId>
+  <versioning>
+    <latest>2.8.0</latest>
+    <release>2.8.0</release>
+    <versions>
+      <version>0.4.0</version>
+      <version>0.5.0</version>
+      <version>0.6.0</version>
+      <version>0.7.0</version>
+      <version>0.8.0</version>
+      <version>0.9.0</version>
+      <version>0.10.0</version>
+      <version>0.10.1</version>
+      <version>0.11.0</version>
+      <version>0.12.0</version>
+      <version>0.13.0</version>
+      <version>0.14.0</version>
+      <version>1.0.0</version>
+      <version>1.1.0</version>
+      <version>1.1.1</version>
+      <version>1.2.0</version>
+      <version>1.3.0</version>
+      <version>1.4.0</version>
+      <version>1.6.0</version>
+      <version>1.7.0</version>
+      <version>2.0.0</version>
+      <version>2.1.0</version>
+      <version>2.2.0</version>
+      <version>2.3.0</version>
+      <version>2.4.0</version>
+      <version>2.5.0</version>
+      <version>2.5.1</version>
+      <version>2.6.0</version>
+      <version>2.7.0</version>
+      <version>2.8.0</version>
+    </versions>
+    <lastUpdated>20211203133359</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.any23</groupId>
+  <artifactId>apache-any23</artifactId>
+  <versioning>
+    <latest>2.7</latest>
+    <release>2.7</release>
+    <versions>
+      <version>0.7.0-incubating</version>
+      <version>0.8.0</version>
+      <version>0.9.0</version>
+      <version>1.0</version>
+      <version>1.1</version>
+      <version>2.0</version>
+      <version>2.1</version>
+      <version>2.2</version>
+      <version>2.3</version>
+      <version>2.4</version>
+      <version>2.5</version>
+      <version>2.6</version>
+      <version>2.7</version>
+    </versions>
+    <lastUpdated>20220303223913</lastUpdated>
+  </versioning>
+</metadata>

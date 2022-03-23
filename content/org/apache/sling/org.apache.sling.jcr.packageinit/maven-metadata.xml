@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.sling</groupId>
+  <artifactId>org.apache.sling.jcr.packageinit</artifactId>
+  <versioning>
+    <latest>1.0.4</latest>
+    <release>1.0.4</release>
+    <versions>
+      <version>1.0.0</version>
+      <version>1.0.2</version>
+      <version>1.0.4</version>
+    </versions>
+    <lastUpdated>20210610090320</lastUpdated>
+  </versioning>
+</metadata>

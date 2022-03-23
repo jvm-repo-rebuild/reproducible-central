@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.simplify4u</groupId>
+  <artifactId>pgp-keys-map</artifactId>
+  <versioning>
+    <latest>2022.02.05</latest>
+    <release>2022.02.05</release>
+    <versions>
+      <version>2020.08</version>
+      <version>2020.11</version>
+      <version>2020.11.17</version>
+      <version>2020.12.28</version>
+      <version>2021.03.02</version>
+      <version>2021.04.06</version>
+      <version>2021.05.15</version>
+      <version>2021.06.17</version>
+      <version>2021.07.02</version>
+      <version>2021.07.12</version>
+      <version>2021.07.17</version>
+      <version>2021.09.18</version>
+      <version>2021.10.13</version>
+      <version>2021.11.19</version>
+      <version>2021.12.28</version>
+      <version>2022.02.05</version>
+    </versions>
+    <lastUpdated>20220205141656</lastUpdated>
+  </versioning>
+</metadata>
