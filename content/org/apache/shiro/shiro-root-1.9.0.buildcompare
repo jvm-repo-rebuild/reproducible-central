@@ -1,0 +1,56 @@
+version=1.9.0
+ok=34
+ko=49
+okFiles="shiro-root-1.9.0.pom shiro-root-1.9.0-site.xml shiro-root-1.9.0-source-release.zip shiro-lang-1.9.0.pom shiro-crypto-1.9.0.pom shiro-crypto-core-1.9.0.pom shiro-crypto-hash-1.9.0.pom shiro-crypto-cipher-1.9.0.pom shiro-event-1.9.0.pom shiro-cache-1.9.0.pom shiro-config-1.9.0.pom shiro-config-core-1.9.0.pom shiro-config-ogdl-1.9.0.pom shiro-core-1.9.0.pom shiro-web-1.9.0.pom shiro-support-1.9.0.pom shiro-aspectj-1.9.0.pom shiro-ehcache-1.9.0.pom shiro-hazelcast-1.9.0.pom shiro-quartz-1.9.0.pom shiro-spring-1.9.0.pom shiro-guice-1.9.0.pom shiro-cas-1.9.0.pom shiro-spring-boot-1.9.0.pom shiro-spring-boot-starter-1.9.0.pom shiro-spring-boot-web-starter-1.9.0.pom shiro-servlet-plugin-1.9.0.pom shiro-jaxrs-1.9.0.pom shiro-features-1.9.0.pom shiro-features-1.9.0-features.xml shiro-tools-1.9.0.pom shiro-tools-hasher-1.9.0.pom shiro-all-1.9.0.pom shiro-test-coverage-1.9.0.pom"
+koFiles="shiro-lang-1.9.0.jar shiro-lang-1.9.0-sources.jar shiro-crypto-core-1.9.0.jar shiro-crypto-core-1.9.0-sources.jar shiro-crypto-hash-1.9.0.jar shiro-crypto-hash-1.9.0-sources.jar shiro-crypto-cipher-1.9.0.jar shiro-crypto-cipher-1.9.0-sources.jar shiro-event-1.9.0.jar shiro-event-1.9.0-sources.jar shiro-cache-1.9.0.jar shiro-cache-1.9.0-sources.jar shiro-config-core-1.9.0.jar shiro-config-core-1.9.0-sources.jar shiro-config-ogdl-1.9.0.jar shiro-config-ogdl-1.9.0-tests.jar shiro-config-ogdl-1.9.0-sources.jar shiro-core-1.9.0.jar shiro-core-1.9.0-tests.jar shiro-core-1.9.0-sources.jar shiro-web-1.9.0.jar shiro-web-1.9.0-sources.jar shiro-aspectj-1.9.0.jar shiro-aspectj-1.9.0-sources.jar shiro-ehcache-1.9.0.jar shiro-ehcache-1.9.0-sources.jar shiro-hazelcast-1.9.0.jar shiro-hazelcast-1.9.0-sources.jar shiro-quartz-1.9.0.jar shiro-quartz-1.9.0-sources.jar shiro-spring-1.9.0.jar shiro-spring-1.9.0-sources.jar shiro-guice-1.9.0.jar shiro-guice-1.9.0-tests.jar shiro-guice-1.9.0-sources.jar shiro-cas-1.9.0.jar shiro-cas-1.9.0-sources.jar shiro-spring-boot-starter-1.9.0.jar shiro-spring-boot-starter-1.9.0-sources.jar shiro-spring-boot-web-starter-1.9.0.jar shiro-spring-boot-web-starter-1.9.0-sources.jar shiro-servlet-plugin-1.9.0.jar shiro-servlet-plugin-1.9.0-sources.jar shiro-jaxrs-1.9.0.jar shiro-jaxrs-1.9.0-sources.jar shiro-tools-hasher-1.9.0.jar shiro-tools-hasher-1.9.0-cli.jar shiro-tools-hasher-1.9.0-sources.jar shiro-all-1.9.0.jar"
+reference_java_version="11.0.13 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/shiro-lang-1.9.0.jar lang/target/shiro-lang-1.9.0.jar
+# diffoscope target/reference/shiro-lang-1.9.0-sources.jar lang/target/shiro-lang-1.9.0-sources.jar
+# diffoscope target/reference/shiro-crypto-core-1.9.0.jar crypto/core/target/shiro-crypto-core-1.9.0.jar
+# diffoscope target/reference/shiro-crypto-core-1.9.0-sources.jar crypto/core/target/shiro-crypto-core-1.9.0-sources.jar
+# diffoscope target/reference/shiro-crypto-hash-1.9.0.jar crypto/hash/target/shiro-crypto-hash-1.9.0.jar
+# diffoscope target/reference/shiro-crypto-hash-1.9.0-sources.jar crypto/hash/target/shiro-crypto-hash-1.9.0-sources.jar
+# diffoscope target/reference/shiro-crypto-cipher-1.9.0.jar crypto/cipher/target/shiro-crypto-cipher-1.9.0.jar
+# diffoscope target/reference/shiro-crypto-cipher-1.9.0-sources.jar crypto/cipher/target/shiro-crypto-cipher-1.9.0-sources.jar
+# diffoscope target/reference/shiro-event-1.9.0.jar event/target/shiro-event-1.9.0.jar
+# diffoscope target/reference/shiro-event-1.9.0-sources.jar event/target/shiro-event-1.9.0-sources.jar
+# diffoscope target/reference/shiro-cache-1.9.0.jar cache/target/shiro-cache-1.9.0.jar
+# diffoscope target/reference/shiro-cache-1.9.0-sources.jar cache/target/shiro-cache-1.9.0-sources.jar
+# diffoscope target/reference/shiro-config-core-1.9.0.jar config/core/target/shiro-config-core-1.9.0.jar
+# diffoscope target/reference/shiro-config-core-1.9.0-sources.jar config/core/target/shiro-config-core-1.9.0-sources.jar
+# diffoscope target/reference/shiro-config-ogdl-1.9.0.jar config/ogdl/target/shiro-config-ogdl-1.9.0.jar
+# diffoscope target/reference/shiro-config-ogdl-1.9.0-tests.jar config/ogdl/target/shiro-config-ogdl-1.9.0-tests.jar
+# diffoscope target/reference/shiro-config-ogdl-1.9.0-sources.jar config/ogdl/target/shiro-config-ogdl-1.9.0-sources.jar
+# diffoscope target/reference/shiro-core-1.9.0.jar core/target/shiro-core-1.9.0.jar
+# diffoscope target/reference/shiro-core-1.9.0-tests.jar core/target/shiro-core-1.9.0-tests.jar
+# diffoscope target/reference/shiro-core-1.9.0-sources.jar core/target/shiro-core-1.9.0-sources.jar
+# diffoscope target/reference/shiro-web-1.9.0.jar web/target/shiro-web-1.9.0.jar
+# diffoscope target/reference/shiro-web-1.9.0-sources.jar web/target/shiro-web-1.9.0-sources.jar
+# diffoscope target/reference/shiro-aspectj-1.9.0.jar support/aspectj/target/shiro-aspectj-1.9.0.jar
+# diffoscope target/reference/shiro-aspectj-1.9.0-sources.jar support/aspectj/target/shiro-aspectj-1.9.0-sources.jar
+# diffoscope target/reference/shiro-ehcache-1.9.0.jar support/ehcache/target/shiro-ehcache-1.9.0.jar
+# diffoscope target/reference/shiro-ehcache-1.9.0-sources.jar support/ehcache/target/shiro-ehcache-1.9.0-sources.jar
+# diffoscope target/reference/shiro-hazelcast-1.9.0.jar support/hazelcast/target/shiro-hazelcast-1.9.0.jar
+# diffoscope target/reference/shiro-hazelcast-1.9.0-sources.jar support/hazelcast/target/shiro-hazelcast-1.9.0-sources.jar
+# diffoscope target/reference/shiro-quartz-1.9.0.jar support/quartz/target/shiro-quartz-1.9.0.jar
+# diffoscope target/reference/shiro-quartz-1.9.0-sources.jar support/quartz/target/shiro-quartz-1.9.0-sources.jar
+# diffoscope target/reference/shiro-spring-1.9.0.jar support/spring/target/shiro-spring-1.9.0.jar
+# diffoscope target/reference/shiro-spring-1.9.0-sources.jar support/spring/target/shiro-spring-1.9.0-sources.jar
+# diffoscope target/reference/shiro-guice-1.9.0.jar support/guice/target/shiro-guice-1.9.0.jar
+# diffoscope target/reference/shiro-guice-1.9.0-tests.jar support/guice/target/shiro-guice-1.9.0-tests.jar
+# diffoscope target/reference/shiro-guice-1.9.0-sources.jar support/guice/target/shiro-guice-1.9.0-sources.jar
+# diffoscope target/reference/shiro-cas-1.9.0.jar support/cas/target/shiro-cas-1.9.0.jar
+# diffoscope target/reference/shiro-cas-1.9.0-sources.jar support/cas/target/shiro-cas-1.9.0-sources.jar
+# diffoscope target/reference/shiro-spring-boot-starter-1.9.0.jar support/spring-boot/spring-boot-starter/target/shiro-spring-boot-starter-1.9.0.jar
+# diffoscope target/reference/shiro-spring-boot-starter-1.9.0-sources.jar support/spring-boot/spring-boot-starter/target/shiro-spring-boot-starter-1.9.0-sources.jar
+# diffoscope target/reference/shiro-spring-boot-web-starter-1.9.0.jar support/spring-boot/spring-boot-web-starter/target/shiro-spring-boot-web-starter-1.9.0.jar
+# diffoscope target/reference/shiro-spring-boot-web-starter-1.9.0-sources.jar support/spring-boot/spring-boot-web-starter/target/shiro-spring-boot-web-starter-1.9.0-sources.jar
+# diffoscope target/reference/shiro-servlet-plugin-1.9.0.jar support/servlet-plugin/target/shiro-servlet-plugin-1.9.0.jar
+# diffoscope target/reference/shiro-servlet-plugin-1.9.0-sources.jar support/servlet-plugin/target/shiro-servlet-plugin-1.9.0-sources.jar
+# diffoscope target/reference/shiro-jaxrs-1.9.0.jar support/jaxrs/target/shiro-jaxrs-1.9.0.jar
+# diffoscope target/reference/shiro-jaxrs-1.9.0-sources.jar support/jaxrs/target/shiro-jaxrs-1.9.0-sources.jar
+# diffoscope target/reference/shiro-tools-hasher-1.9.0.jar tools/hasher/target/shiro-tools-hasher-1.9.0.jar
+# diffoscope target/reference/shiro-tools-hasher-1.9.0-cli.jar tools/hasher/target/shiro-tools-hasher-1.9.0-cli.jar
+# diffoscope target/reference/shiro-tools-hasher-1.9.0-sources.jar tools/hasher/target/shiro-tools-hasher-1.9.0-sources.jar
+# diffoscope target/reference/shiro-all-1.9.0.jar all/target/shiro-all-1.9.0.jar
