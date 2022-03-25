@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Verifier Component
+group-id=org.apache.maven.shared
+artifact-id=maven-verifier
+version=1.8.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-verifier.git
+source.scm.tag=maven-verifier-1.8.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=maven-verifier-1.8.0.pom
+outputs.0.length=5732
+outputs.0.checksums.sha512=216df05a4a65ddd7daa531aa245978723c656039c206010bfed61d1830e29eaa5f92786502563c7bb6fb6575bae301097a0edc25bf34af1328e9a58f49194b9e
+
+outputs.1.filename=maven-verifier-1.8.0.jar
+outputs.1.length=43117
+outputs.1.checksums.sha512=712195b85ea1a2f085c8bffcf6a8852f74756e395319662856feb8699f2e48d1144ce8aa0954614b3151d8196722dc6c43d41fa00ff4ebaf4f96bd4bd3586afb
+
+outputs.2.filename=maven-verifier-1.8.0-source-release.zip
+outputs.2.length=59900
+outputs.2.checksums.sha512=3e82235ca54fdb1d96cc2f51873b4033ebe2deb3d23678e61a3b20f1ddf76683e09ccfacd51088fba81dc83a0ce48eccff811e86728c6a7ef85369b6ff3dd09a
+
+outputs.3.filename=maven-verifier-1.8.0-sources.jar
+outputs.3.length=30737
+outputs.3.checksums.sha512=f34ab93f78c9673a2a892777e3fb0149df282b589a6f9ca79c601f2d21ecc48ac923b7768357eaf24355bf7fb71b8fb89952fd102c8b3b3fa52e99acaeb88f7f
