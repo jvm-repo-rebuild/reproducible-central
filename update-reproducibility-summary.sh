@@ -4,63 +4,125 @@ echo "*** running script: $0"
 
 export LC_ALL=C
 
-cat <(echo "| [Central Repository](https://search.maven.org/) groupId:artifactId(s) | version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/):<br/>reproducible? |"
-echo "| -------------------------------- | -- | --------- | ------ |"
-
-anchor="empty"
+globalVersion=0
+globalVersionOk=0
 countGa=0
-countVersion=0
-countVersionOk=0
+summary="summary-table.md"
+echo "| [Central Repository](https://search.maven.org/) groupId | artifactId(s) | versions | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |" > ${summary}
+echo "| ----------------- | --------------- | --------- | -------- |" >> ${summary}
+prevGroupId=
 
-for buildspec in $(find content -name "*.buildspec" -print | sort)
+for metadata in $(find content -name "maven-metadata.xml" -print | grep -v buildcache | sort)
+#for metadata in content/org/apache/maven/doxia/doxia/maven-metadata.xml
 do
-  ((countVersion++))
-  # reset recent fields added to buildspec, to avoid rework of older specs
-  diffoscope=
-  issue=
+  dir="$(dirname "${metadata}")"
+  readme="${dir}/README.md"
+  \rm -f $readme
 
-  . "$buildspec"
-  new_anchor="${groupId}:${artifactId}"
-  [[ -z "${issue}" ]] && [[ -n "${diffoscope}" ]] && issue="$(dirname "${buildspec}")/$(basename "${diffoscope}")"
+  t="${readme}.tmp"
+  countVersion=0
+  countVersionOk=0
 
-  buildinfo="$(dirname "${buildspec}")/$(basename "${buildinfo}")"
-  if [ $(ls ${buildinfo} | wc -l) -le 1 ]; then
-    buildinfoCompare="$(dirname "${buildinfo}")/$(basename ${buildinfo} .buildinfo).buildcompare"
+  # detect first version that has a buildspec
+  firstVersion=
+  for version in $(cat "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
+  do
+    if [ -n "$(ls $dir | grep "\-${version}\.buildspec")" ]
+    then
+      firstVersion="$version"
+      break
+    fi
+  done
+
+  for version in $(tac "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
+  do
+    buildspec=$(ls $dir | grep "\-${version}\.buildspec")
+    buildinfo=$(ls $dir | grep "\-${version}\.buildinfo")
+    buildcompare=$(ls $dir | grep "\-${version}\.buildcompare")
+
+    if [ -n "$buildspec" ]
+    then
+      # reset recent fields added to buildspec, to avoid rework of older specs
+      diffoscope=
+      issue=
+      . $dir/${buildspec}
+      if [ ! -f "${readme}" ]
+      then
+        ((countGa++))
+        # prepare README.md intro
+        echo "[$groupId:$artifactId](https://search.maven.org/artifact/${groupId}/${artifactId}/) RB check" > $readme
+        echo "=======" >> $readme
+        echo >> $readme
+        echo "[![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)" >> $readme
+        echo >> $readme
+        echo "## Project: [$groupId:$artifactId](https://search.maven.org/artifact/${groupId}/${artifactId}/)" >> $readme
+        echo >> $readme
+        echo "Source code: [$gitRepo]($gitRepo)" >> $readme
+        echo >> $readme
+      fi
+      # add buildspec result to tmp
+      ((countVersion++))
+      ((globalVersion++))
+
+      echo -n "| [${version}](https://search.maven.org/artifact/${groupId}/${artifactId}/${version}/pom) " >> ${t}
+      echo -n "| [${tool} jdk${jdk}" >> ${t}
+      [[ "${newline}" == crlf* ]] && echo -n " w" >> ${t}
+      echo -n "](${buildspec}) | " >> ${t}
+      [ -f "${buildinfo}" ] && echo -n "[result](${buildinfo}): " >> ${t}
+
+      . "${dir}/${buildcompare}"
+      if [ $? -eq 0 ]; then
+        echo -n "[" >> ${t}
+        [ "${ok}" -gt 0 ] && echo -n "${ok} :heavy_check_mark: " >> ${t}
+        [ "${ko}" -gt 0 ] && echo -n " ${ko} :warning:" >> ${t} || ((countVersionOk++)) && ((globalVersionOk++))
+        echo -n "](${buildcompare})" >> ${t}
+        [[ -z "${diffoscope}" ]] || echo -n " [:mag:](${diffoscope})" >> ${t}
+        [[ -z "${issue}" ]] || echo -n " [:memo:](${issue})" >> ${t}
+
+        # detect unexpected issue or diffoscope but 0 non-reproducible artifact (probably cause by previous buildspec copy)
+        [[ -z "${issue}" ]] && [[ -n "${diffoscope}" ]] && issue="${diffoscope}"
+        [[ -n "${issue}" ]] && [ "${ko}" -eq 0 ] && echo -e "\n\033[1;31munexpected issue/diffoscope entry when ko=0\033[0m in \033[1m$dir/$buildspec\033[0m" >> ${t}
+      else
+        echo -n ":x:" >> ${t}
+      fi
+      echo " |" >> ${t}
+    else
+      # no buildspec, just list version to tmp
+      echo "| [${version}](https://search.maven.org/artifact/${groupId}/${artifactId}/${version}/pom) | | |" >> "${t}"
+    fi
+    # don't continue if it's the first version with buildspec
+    [[ "$firstVersion" == "$version" ]] && break
+  done
+
+  echo "rebuilding **${countVersion} releases** of ${groupId}:${artifactId}:" >> $readme
+  echo "- **${countVersionOk}** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:)," >> $readme
+  echo "- $((countVersion - countVersionOk)) had issues (some unreproducible artifacts :warning:):" >> $readme
+  echo >> $readme
+  echo "| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |" >> $readme
+  echo "| -- | --------- | ------ |" >> $readme
+  cat ${t} >> "${readme}"
+  \rm -f ${t}
+
+  # add projet entry to main README
+  echo -n "|" >> ${summary}
+  [[ "$groupId" != "$prevGroupId" ]] && prevGroupId="$groupId" && echo -n " ${groupId}" >> ${summary}
+  if [ "$artifactId" == "$groupId" ]
+  then
+    echo -n " | [${artifactId}]" >> ${summary}
   else
-    buildinfoCompare="$(dirname "${buildspec}")/$(basename "${buildspec}" .buildspec).buildcompare"
+    echo -n " | [${artifactId}]" | sed -e "s/$groupId/*/" >> ${summary}
   fi
-
-  echo -n "| "
-  [[ "${new_anchor}" != "${anchor}" ]] && echo -n "<a name='${new_anchor}'></a>[${display}](https://search.maven.org/artifact/${groupId}/${artifactId}) " && ((countGa++))
-  anchor="${new_anchor}"
-  #echo -n "| [${version}](https://search.maven.org/artifact/${groupId}/${artifactId}/${version}/pom) "
-  echo -n "| ${version} "
-  echo -n "| [${tool} j${jdk}"
-  [[ "${newline}" == crlf* ]] && echo -n " w"
-  echo -n "](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildspec}) | "
-  [ -f "${buildinfo}" ] && echo -n "[result](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildinfo}): "
-
-  . "${buildinfoCompare}"
-  if [ $? -eq 0 ]; then
-    echo -n "["
-    [ "${ok}" -gt 0 ] && echo -n "${ok} :heavy_check_mark: "
-    [ "${ko}" -gt 0 ] && echo -n " ${ko} :warning:" || ((countVersionOk++))
-    echo -n "](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/${buildinfoCompare})"
-    [[ -z "${issue}" ]] || echo -n "[:mag:](${issue})"
-    [[ -n "${issue}" ]] && [ "${ko}" -eq 0 ] && echo -e "\n\033[1;31munexpected issue/diffoscope entry when ko=0\033[0m in \033[1m$buildspec\033[0m"
-  else
-    echo -n ":x:"
-  fi
-  echo " |"
-
+  echo -n "(${dir}/README.md) | ${countVersion} | ${countVersionOk} :heavy_check_mark:" >> ${summary}
+  [ "${countVersion}" -gt "${countVersionOk}" ] && echo -n " / $((countVersion - countVersionOk)) :warning:" >> ${summary}
+  echo " |" >> ${summary}
 done
 
-echo "| **Count: ${countGa}** | **${countVersion}** | | **${countVersionOk}** :heavy_check_mark: **$((countVersion - countVersionOk))** :warning: |"
+echo "| **Count:** | **${countGa}** | **${globalVersion}** | **${globalVersionOk}** :heavy_check_mark: **$((globalVersion - globalVersionOk))** :warning: |" >> ${summary}
 
-echo "rebuilding **${countVersion} releases** of **${countGa} projects**:" > summary-intro.md
-echo "- **${countVersionOk}** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:)," >> summary-intro.md
-echo "- $((countVersion - countVersionOk)) had issues (some unreproducible artifacts :warning:):" >> summary-intro.md
-) > summary-table.md
+echo "rebuilding **${globalVersion} releases** of **${countGa} projects**:" > summary-intro.md
+echo "- **${globalVersionOk}** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:)," >> summary-intro.md
+echo "- $((globalVersion - globalVersionOk)) had issues (some unreproducible artifacts :warning:):" >> summary-intro.md
+echo >> summary-intro.md
 
 lead='^<!-- BEGIN GENERATED RESULTS TABLE -->$'
 tail='^<!-- END GENERATED RESULTS TABLE -->$'
