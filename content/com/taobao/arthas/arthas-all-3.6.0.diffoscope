@@ -1,0 +1,252 @@
+target/reference/arthas-spring-boot-starter-3.6.0.jar arthas-spring-boot-starter/target/arthas-spring-boot-starter-3.6.0.jar
+--- target/reference/arthas-spring-boot-starter-3.6.0.jar
++++ arthas-spring-boot-starter/target/arthas-spring-boot-starter-3.6.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 10878 bytes, number of entries: 21
+│ +Zip file size: 10883 bytes, number of entries: 21
+│  -rw-r--r--  2.0 unx      240 b- defN 20-Sep-27 15:10 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 com/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 com/alibaba/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 com/alibaba/arthas/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 com/alibaba/arthas/spring/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 com/alibaba/arthas/spring/endpoints/
+│ @@ -16,8 +16,8 @@
+│  -rw-r--r--  2.0 unx     4028 b- defN 20-Sep-27 15:10 com/alibaba/arthas/spring/ArthasConfiguration.class
+│  -rw-r--r--  2.0 unx     3345 b- defN 20-Sep-27 15:10 com/alibaba/arthas/spring/ArthasProperties.class
+│  -rw-r--r--  2.0 unx     2091 b- defN 20-Sep-27 15:10 com/alibaba/arthas/spring/StringUtils.class
+│  -rw-r--r--  2.0 unx     1570 b- defN 20-Sep-27 15:10 com/alibaba/arthas/spring/endpoints/ArthasEndPoint.class
+│  -rw-r--r--  2.0 unx     1017 b- defN 20-Sep-27 15:10 com/alibaba/arthas/spring/endpoints/ArthasEndPointAutoConfiguration.class
+│  -rw-r--r--  2.0 unx     5067 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-spring-boot-starter/pom.xml
+│  -rw-r--r--  2.0 unx       78 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-spring-boot-starter/pom.properties
+│ -21 files, 21260 bytes uncompressed, 7742 bytes compressed:  63.6%
+│ +21 files, 21260 bytes uncompressed, 7747 bytes compressed:  63.6%
+├── META-INF/spring-configuration-metadata.json
+│ │   --- /tmp/diffoscope_zpdi8u0y_target/tmpnq56ll2e/spring-configuration-metadata.json
+│ ├── +++ /tmp/diffoscope_zpdi8u0y_target/tmp02fo2jev/spring-configuration-metadata.json
+│ │┄ Differences: {'replace': "OrderedDict([('groups', [OrderedDict([('name', 'arthas'), ('type', "
+│ │┄             "'java.util.HashMap'), ('sourceType', "
+│ │┄             "'com.alibaba.arthas.spring.ArthasConfiguration'), ('sourceMethod', "
+│ │┄             "'arthasConfigMap()')]), OrderedDict([('name', 'arthas'), ('type', "
+│ │┄             "'com.alibaba.arthas.spring.ArthasProperties'), ('sourceType', "
+│ │┄             "'com.alibaba.arthas.spring.ArthasProperties')]), OrderedDict([('name', "
+│ │┄             "'management.endpoint.arthas'), ('type', […]
+│ │ @@ -1,21 +1,21 @@
+│ │  {
+│ │      "groups": [
+│ │          {
+│ │              "name": "arthas",
+│ │ -            "sourceType": "com.alibaba.arthas.spring.ArthasProperties",
+│ │ -            "type": "com.alibaba.arthas.spring.ArthasProperties"
+│ │ -        },
+│ │ -        {
+│ │ -            "name": "arthas",
+│ │              "sourceMethod": "arthasConfigMap()",
+│ │              "sourceType": "com.alibaba.arthas.spring.ArthasConfiguration",
+│ │              "type": "java.util.HashMap"
+│ │          },
+│ │          {
+│ │ +            "name": "arthas",
+│ │ +            "sourceType": "com.alibaba.arthas.spring.ArthasProperties",
+│ │ +            "type": "com.alibaba.arthas.spring.ArthasProperties"
+│ │ +        },
+│ │ +        {
+│ │              "name": "management.endpoint.arthas",
+│ │              "sourceType": "com.alibaba.arthas.spring.endpoints.ArthasEndPoint",
+│ │              "type": "com.alibaba.arthas.spring.endpoints.ArthasEndPoint"
+│ │          }
+│ │      ],
+│ │      "hints": [],
+│ │      "properties": [
+
+target/reference/arthas-tunnel-server-3.6.0-fatjar.jar tunnel-server/target/arthas-tunnel-server-3.6.0-fatjar.jar
+--- target/reference/arthas-tunnel-server-3.6.0-fatjar.jar
++++ tunnel-server/target/arthas-tunnel-server-3.6.0-fatjar.jar
+@@ -564,19 +564,19 @@
+ 00002330: 223b 2065 7869 7420 243f 3b3b 0a2a 290a  "; exit $?;;.*).
+ 00002340: 2020 6563 686f 2022 5573 6167 653a 2024    echo "Usage: $
+ 00002350: 3020 7b73 7461 7274 7c73 746f 707c 666f  0 {start|stop|fo
+ 00002360: 7263 652d 7374 6f70 7c72 6573 7461 7274  rce-stop|restart
+ 00002370: 7c66 6f72 6365 2d72 656c 6f61 647c 7374  |force-reload|st
+ 00002380: 6174 7573 7c72 756e 7d22 3b20 6578 6974  atus|run}"; exit
+ 00002390: 2031 3b0a 6573 6163 0a0a 6578 6974 2030   1;.esac..exit 0
+-000023a0: 0a50 4b03 0414 0008 0808 0055 b93b 5100  .PK........U.;Q.
++000023a0: 0a50 4b03 0414 0008 0808 0055 793b 5100  .PK........Uy;Q.
+ 000023b0: 0000 0000 0000 0000 0000 0009 0004 004d  ...............M
+ 000023c0: 4554 412d 494e 462f feca 0000 0300 504b  ETA-INF/......PK
+ 000023d0: 0708 0000 0000 0200 0000 0000 0000 504b  ..............PK
+-000023e0: 0304 1400 0808 0800 55b9 3b51 0000 0000  ........U.;Q....
++000023e0: 0304 1400 0808 0800 5579 3b51 0000 0000  ........Uy;Q....
+ 000023f0: 0000 0000 0000 0000 1400 0000 4d45 5441  ............META
+ 00002400: 2d49 4e46 2f4d 414e 4946 4553 542e 4d46  -INF/MANIFEST.MF
+ 00002410: 8d51 416e c230 10bc 47ca 1ffc 012f 05a4  .QAn.0..G..../..
+ 00002420: aaca 8da0 5402 41a9 1ad4 fb26 d904 0bc7  ....T.A....&....
+ 00002430: b66c 87d2 dfd7 4944 4581 43af 3b3b 333b  .l....IDE.C.;;3;
+ 00002440: 3b5b 54a2 26e7 f927 5927 b44a d814 9ee2  ;[T.&..'Y'.J....
+ 00002450: 68d5 1a49 2d29 8f3e 0cf9 5e78 4909 43eb  h..I-).>..^xI.C.
+@@ -590,32 +590,32 @@
+...
+
+target/reference/arthas-packaging-3.6.0.jar packaging/target/arthas.jar
+--- target/reference/arthas-packaging-3.6.0.jar
++++ packaging/target/arthas.jar
+├── zipinfo {}
+│ @@ -1,11 +1,11 @@
+│ -Zip file size: 13500318 bytes, number of entries: 9
+│ --rw-r--r--  2.0 unx 13500149 b- defN 22-Mar-25 16:56 arthas-bin.zip
+│ +Zip file size: 13500161 bytes, number of entries: 9
+│ +-rw-r--r--  2.0 unx 13499978 b- defN 22-Mar-26 08:56 arthas-bin.zip
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-packaging/
+│  -rw-r--r--  2.0 unx      220 b- defN 20-Sep-27 15:10 META-INF/MANIFEST.MF
+│  -rw-r--r--  2.0 unx       68 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-packaging/pom.properties
+│  -rw-r--r--  2.0 unx     3977 b- defN 20-Sep-27 15:10 META-INF/maven/com.taobao.arthas/arthas-packaging/pom.xml
+│  -rw-r--r--  2.0 unx      485 b- defN 20-Sep-27 15:10 arthas-git.properties
+│ -9 files, 13504899 bytes uncompressed, 13498946 bytes compressed:  0.0%
+│ +9 files, 13504728 bytes uncompressed, 13498789 bytes compressed:  0.0%
+├── arthas-bin.zip
+...
+
+target/reference/arthas-packaging-3.6.0-bin.zip packaging/target/arthas-bin.zip
+--- target/reference/arthas-packaging-3.6.0-bin.zip
++++ packaging/target/arthas-bin.zip
+├── zipinfo {}
+│ @@ -1,22 +1,22 @@
+│ -Zip file size: 13500149 bytes, number of entries: 20
+│ +Zip file size: 13499978 bytes, number of entries: 20
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 async-profiler/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Sep-27 15:10 lib/
+│  -rw-r--r--  2.0 unx     5441 b- defN 20-Sep-27 15:10 arthas-spy.jar
+│  -rw-r--r--  2.0 unx 13244556 b- defN 20-Sep-27 15:10 arthas-core.jar
+│ --rw-r--r--  2.0 unx     2020 b- defN 20-Sep-27 15:10 logback.xml
+│ --rw-r--r--  2.0 unx      531 b- defN 20-Sep-27 15:10 arthas.properties
+│ +-rw-rw-r--  2.0 unx     2020 b- defN 20-Sep-27 15:10 logback.xml
+│ +-rw-rw-r--  2.0 unx      531 b- defN 20-Sep-27 15:10 arthas.properties
+│  -rw-r--r--  2.0 unx     8458 b- defN 20-Sep-27 15:10 arthas-agent.jar
+│  -rw-r--r--  2.0 unx   430937 b- defN 20-Sep-27 15:10 arthas-client.jar
+│  -rw-r--r--  2.0 unx   141885 b- defN 20-Sep-27 15:10 arthas-boot.jar
+│  -rw-r--r--  2.0 unx     4490 b- defN 20-Sep-27 15:10 math-game.jar
+│  -rwxr-xr-x  2.0 unx      635 b- defN 20-Sep-27 15:10 install-local.sh
+│  -rwxr-xr-x  2.0 unx    33257 b- defN 20-Sep-27 15:10 as.sh
+│ --rwxr-xr-x  2.0 unx     3113 b- defN 20-Sep-27 15:10 as.bat
+│ --rwxr-xr-x  2.0 unx     7744 b- defN 20-Sep-27 15:10 as-service.bat
+│ +-rwxrwxr-x  2.0 unx     3113 b- defN 20-Sep-27 15:10 as.bat
+│ +-rwxrwxr-x  2.0 unx     7744 b- defN 20-Sep-27 15:10 as-service.bat
+│  -rw-r--r--  2.0 unx   298256 b- defN 20-Sep-27 15:10 async-profiler/libasyncProfiler-linux-arm64.so
+│  -rw-r--r--  2.0 unx   303903 b- defN 20-Sep-27 15:10 async-profiler/libasyncProfiler-linux-x64.so
+│  -rw-r--r--  2.0 unx   634272 b- defN 20-Sep-27 15:10 async-profiler/libasyncProfiler-mac.so
+│  -rw-r--r--  2.0 unx  2397907 b- defN 20-Sep-27 15:10 lib/libArthasJniLibrary-x64.dll
+│  -rw-r--r--  2.0 unx    18376 b- defN 20-Sep-27 15:10 lib/libArthasJniLibrary-x64.so
+│  -rw-r--r--  2.0 unx   134915 b- defN 20-Sep-27 15:10 lib/libArthasJniLibrary.dylib
+│ -20 files, 17670696 bytes uncompressed, 13497815 bytes compressed:  23.6%
+│ +20 files, 17670696 bytes uncompressed, 13497644 bytes compressed:  23.6%
+├── arthas-core.jar
+│ ├── zipinfo {}
+│ │ @@ -1,475 +1,475 @@
+│ │  Zip file size: 13244556 bytes, number of entries: 7638
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-25 16:54 META-INF/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-25 16:54 META-INF/maven/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-25 16:54 META-INF/maven/ch.qos.logback/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-25 16:54 META-INF/maven/ch.qos.logback/logback-classic/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-25 16:54 META-INF/maven/ch.qos.logback/logback-core/
+..
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-25 16:54 org/fife/ui/rtextarea/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-25 16:54 org/fife/util/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-26 08:56 META-INF/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-26 08:56 META-INF/maven/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-26 08:56 META-INF/maven/ch.qos.logback/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-26 08:56 META-INF/maven/ch.qos.logback/logback-classic/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-26 08:56 META-INF/maven/ch.qos.logback/logback-core/
+...
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-26 08:56 org/fife/ui/rtextarea/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-26 08:56 org/fife/util/
+│ │  -rw-r--r--  2.0 unx      321 b- defN 18-Jun-07 22:39 META-INF/LICENSE
+│ │  -rw-r--r--  2.0 unx    11562 b- defN 20-Nov-05 20:59 META-INF/LICENSE.txt
+│ │  -rw-r--r--  2.0 unx      326 b- defN 20-Sep-27 15:10 META-INF/MANIFEST.MF
+│ │  -rw-r--r--  2.0 unx      825 b- defN 18-Jun-07 22:39 META-INF/NOTICE
+│ │  -rw-r--r--  2.0 unx      617 b- defN 20-Nov-05 20:59 META-INF/NOTICE.txt
+│ │  -rw-r--r--  2.0 unx      345 b- defN 21-Dec-09 15:38 META-INF/io.netty.versions.properties
+│ │  -rw-r--r--  2.0 unx       68 b- defN 22-Mar-05 19:45 META-INF/maven/ch.qos.logback/logback-classic/pom.properties
+│ │ @@ -4574,22 +4574,22 @@
+│ │  -rw-r--r--  2.0 unx     3482 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/klass100/RetransformCommand$RetransformClassFileTransformer.class
+│ │  -rw-r--r--  2.0 unx     2271 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/klass100/RetransformCommand$RetransformEntry.class
+│ │  -rw-r--r--  2.0 unx    14593 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/klass100/RetransformCommand.class
+│ │  -rw-r--r--  2.0 unx     1459 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/klass100/SearchClassCommand$1.class
+│ │  -rw-r--r--  2.0 unx     1815 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/klass100/SearchClassCommand$2.class
+│ │  -rw-r--r--  2.0 unx     8080 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/klass100/SearchClassCommand.class
+│ │  -rw-r--r--  2.0 unx     9529 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/klass100/SearchMethodCommand.class
+│ │ --rw-r--r--  2.0 unx     1551 b- defN 22-Mar-25 16:54 com/taobao/arthas/core/command/logger/AsmRenameUtil.class
+│ │ --rw-r--r--  2.0 unx     8304 b- defN 22-Mar-25 16:54 com/taobao/arthas/core/command/logger/Log4j2Helper.class
+│ │ --rw-r--r--  2.0 unx     6202 b- defN 22-Mar-25 16:54 com/taobao/arthas/core/command/logger/Log4jHelper.class
+│ │ --rw-r--r--  2.0 unx     6840 b- defN 22-Mar-25 16:54 com/taobao/arthas/core/command/logger/LogbackHelper.class
+│ │ --rw-r--r--  2.0 unx     1341 b- defN 22-Mar-25 16:54 com/taobao/arthas/core/command/logger/LoggerCommand$LoggerType.class
+│ │ --rw-r--r--  2.0 unx     1398 b- defN 22-Mar-25 16:54 com/taobao/arthas/core/command/logger/LoggerCommand$LoggerTypes.class
+│ │ --rw-r--r--  2.0 unx    13391 b- defN 22-Mar-25 16:54 com/taobao/arthas/core/command/logger/LoggerCommand.class
+│ │ --rw-r--r--  2.0 unx      614 b- defN 22-Mar-25 16:54 com/taobao/arthas/core/command/logger/LoggerHelper.class
+│ │ +-rw-r--r--  2.0 unx     1551 b- defN 22-Mar-26 08:56 com/taobao/arthas/core/command/logger/AsmRenameUtil.class
+│ │ +-rw-r--r--  2.0 unx     8304 b- defN 22-Mar-26 08:56 com/taobao/arthas/core/command/logger/Log4j2Helper.class
+│ │ +-rw-r--r--  2.0 unx     6202 b- defN 22-Mar-26 08:56 com/taobao/arthas/core/command/logger/Log4jHelper.class
+│ │ +-rw-r--r--  2.0 unx     6840 b- defN 22-Mar-26 08:56 com/taobao/arthas/core/command/logger/LogbackHelper.class
+│ │ +-rw-r--r--  2.0 unx     1341 b- defN 22-Mar-26 08:56 com/taobao/arthas/core/command/logger/LoggerCommand$LoggerType.class
+│ │ +-rw-r--r--  2.0 unx     1398 b- defN 22-Mar-26 08:56 com/taobao/arthas/core/command/logger/LoggerCommand$LoggerTypes.class
+│ │ +-rw-r--r--  2.0 unx    13391 b- defN 22-Mar-26 08:56 com/taobao/arthas/core/command/logger/LoggerCommand.class
+│ │ +-rw-r--r--  2.0 unx      614 b- defN 22-Mar-26 08:56 com/taobao/arthas/core/command/logger/LoggerHelper.class
+│ │  -rw-r--r--  2.0 unx     1152 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/model/ArgumentVO.class
+│ │  -rw-r--r--  2.0 unx      792 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/model/Base64Model.class
+│ │  -rw-r--r--  2.0 unx     1165 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/model/BlockingLockInfo.class
+│ │  -rw-r--r--  2.0 unx     4997 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/model/BusyThreadInfo.class
+│ │  -rw-r--r--  2.0 unx     1242 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/model/CatModel.class
+│ │  -rw-r--r--  2.0 unx     1248 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/model/ChangeResultVO.class
+│ │  -rw-r--r--  2.0 unx     4027 b- defN 20-Sep-27 15:10 com/taobao/arthas/core/command/model/ClassDetailVO.class
+
+target/reference/arthas-packaging-3.6.0.deb packaging/target/arthas-3.6.0.deb
+--- target/reference/arthas-packaging-3.6.0.deb
++++ packaging/target/arthas-3.6.0.deb
+├── file list
+│ @@ -1,3 +1,3 @@
+│ --rw-r--r--   0        0        0        4 2022-03-25 08:56:03.000000 debian-binary
+│ --rw-r--r--   0        0        0      962 2022-03-25 08:56:03.000000 control.tar.gz
+│ --rw-r--r--   0        0        0 13508456 2022-03-25 08:56:03.000000 data.tar.gz
+│ +-rw-r--r--   0        0        0        4 2022-03-26 08:56:30.000000 debian-binary
+│ +-rw-r--r--   0        0        0      963 2022-03-26 08:56:30.000000 control.tar.gz
+│ +-rw-r--r--   0        0        0 13508337 2022-03-26 08:56:30.000000 data.tar.gz
+├── control.tar.gz
+│ ├── control.tar
+│ │ ├── file list
+│ │ │ @@ -1,2 +1,2 @@
+│ │ │ --rw-r--r--   0 root         (0) root         (0)      320 2022-03-25 08:56:03.000000 ./control
+│ │ │ --rw-r--r--   0 root         (0) root         (0)     1433 2022-03-25 08:56:03.000000 ./md5sums
+│ │ │ +-rw-r--r--   0 root         (0) root         (0)      320 2022-03-26 08:56:30.000000 ./control
+│ │ │ +-rw-r--r--   0 root         (0) root         (0)     1433 2022-03-26 08:56:30.000000 ./md5sums
+│ │ ├── ./md5sums
+│ │ │ ├── ./md5sums
+│ │ │ │┄ Files differ
+├── data.tar.gz
+│ ├── data.tar
+│ │ ├── file list
+│ │ │ @@ -1,29 +1,29 @@
+│ │ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2022-03-25 08:56:02.000000 ./usr/
+│ │ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2022-03-25 08:56:02.000000 ./usr/share/
+│ │ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2022-03-25 08:56:02.000000 ./usr/share/arthas/
+│ │ │ --rw-r--r--   0 root         (0) root         (0)     8458 2022-03-25 08:56:02.000000 ./usr/share/arthas/arthas-agent.jar
+│ │ │ --rw-r--r--   0 root         (0) root         (0)   141885 2022-03-25 08:56:02.000000 ./usr/share/arthas/arthas-boot.jar
+│ │ │ --rw-r--r--   0 root         (0) root         (0)   430937 2022-03-25 08:56:02.000000 ./usr/share/arthas/arthas-client.jar
+│ │ │ --rw-r--r--   0 root         (0) root         (0) 13244556 2022-03-25 08:56:02.000000 ./usr/share/arthas/arthas-core.jar
+...
+│ │ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2022-03-25 08:56:03.000000 ./usr/share/doc/arthas/
+│ │ │ --rwxr-xr-x   0 root         (0) root         (0)      484 2022-03-25 08:56:03.000000 ./usr/share/doc/arthas/copyright.1
+│ │ │ +drwxr-xr-x   0 root         (0) root         (0)        0 2022-03-26 08:56:30.000000 ./usr/
+│ │ │ +drwxr-xr-x   0 root         (0) root         (0)        0 2022-03-26 08:56:30.000000 ./usr/share/
+│ │ │ +drwxr-xr-x   0 root         (0) root         (0)        0 2022-03-26 08:56:30.000000 ./usr/share/arthas/
+│ │ │ +-rw-r--r--   0 root         (0) root         (0)     8458 2022-03-26 08:56:30.000000 ./usr/share/arthas/arthas-agent.jar
+│ │ │ +-rw-r--r--   0 root         (0) root         (0)   141885 2022-03-26 08:56:30.000000 ./usr/share/arthas/arthas-boot.jar
+│ │ │ +-rw-r--r--   0 root         (0) root         (0)   430937 2022-03-26 08:56:30.000000 ./usr/share/arthas/arthas-client.jar
+│ │ │ +-rw-r--r--   0 root         (0) root         (0) 13244556 2022-03-26 08:56:30.000000 ./usr/share/arthas/arthas-core.jar
+...
+│ │ │ +drwxr-xr-x   0 root         (0) root         (0)        0 2022-03-26 08:56:30.000000 ./usr/share/doc/arthas/
+│ │ │ +-rwxr-xr-x   0 root         (0) root         (0)      484 2022-03-26 08:56:30.000000 ./usr/share/doc/arthas/copyright.1
+│ │ ├── ./usr/share/arthas/arthas-core.jar
+...
