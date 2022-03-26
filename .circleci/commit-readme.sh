@@ -12,7 +12,7 @@ echo "git diff: $statusCheck"
 
 if [[ $statusCheck -ne 0 ]]; then
   echo "Changes detected. committing README.md."
-  git add README.md
+  git add -A
   git commit -m "nightly update of README.md [skip ci]"
 else
   echo "No changes detected. skipping commit."
