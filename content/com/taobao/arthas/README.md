@@ -30,13 +30,13 @@ Source code: [https://github.com/alibaba/arthas.git](https://github.com/alibaba/
 * [com.taobao.arthas:math-game](https://search.maven.org/artifact/com.taobao.arthas/math-game/)
 </details>
 
-rebuilding **13 releases** of com.taobao.arthas:arthas-all:
+rebuilding **14 releases** of com.taobao.arthas:arthas-all:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 13 had issues (some unreproducible artifacts :warning:):
+- 14 had issues (some unreproducible artifacts :warning:):
 
 | version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
 | -- | --------- | ------ |
-| [3.6.0](https://search.maven.org/artifact/com.taobao.arthas/arthas-all/3.6.0/pom) | | |
+| [3.6.0](https://search.maven.org/artifact/com.taobao.arthas/arthas-all/3.6.0/pom) | [mvn jdk8](arthas-3.6.0.buildspec) | [48 :heavy_check_mark:  5 :warning:](arthas-all-3.6.0.buildcompare) [:mag:](arthas-all-3.6.0.diffoscope) |
 | [3.5.6](https://search.maven.org/artifact/com.taobao.arthas/arthas-all/3.5.6/pom) | | |
 | [3.5.5](https://search.maven.org/artifact/com.taobao.arthas/arthas-all/3.5.5/pom) | | |
 | [3.5.4](https://search.maven.org/artifact/com.taobao.arthas/arthas-all/3.5.4/pom) | | |
