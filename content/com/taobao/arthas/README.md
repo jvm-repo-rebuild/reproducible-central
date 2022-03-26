@@ -36,11 +36,12 @@ rebuilding **13 releases** of com.taobao.arthas:arthas-all:
 
 | version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
 | -- | --------- | ------ |
-| [3.5.6](https://search.maven.org/artifact/com.scalapenos/stamina_2.11/3.5.6/pom) | | |
-| [3.5.5](https://search.maven.org/artifact/com.scalapenos/stamina_2.11/3.5.5/pom) | | |
-| [3.5.4](https://search.maven.org/artifact/com.scalapenos/stamina_2.11/3.5.4/pom) | | |
-| [3.5.3](https://search.maven.org/artifact/com.scalapenos/stamina_2.11/3.5.3/pom) | | |
-| [3.5.2](https://search.maven.org/artifact/com.scalapenos/stamina_2.11/3.5.2/pom) | | |
+| [3.6.0](https://search.maven.org/artifact/com.taobao.arthas/arthas-all/3.6.0/pom) | | |
+| [3.5.6](https://search.maven.org/artifact/com.taobao.arthas/arthas-all/3.5.6/pom) | | |
+| [3.5.5](https://search.maven.org/artifact/com.taobao.arthas/arthas-all/3.5.5/pom) | | |
+| [3.5.4](https://search.maven.org/artifact/com.taobao.arthas/arthas-all/3.5.4/pom) | | |
+| [3.5.3](https://search.maven.org/artifact/com.taobao.arthas/arthas-all/3.5.3/pom) | | |
+| [3.5.2](https://search.maven.org/artifact/com.taobao.arthas/arthas-all/3.5.2/pom) | | |
 | [3.5.1](https://search.maven.org/artifact/com.taobao.arthas/arthas-all/3.5.1/pom) | [mvn jdk8](arthas-3.5.1.buildspec) | [48 :heavy_check_mark:  5 :warning:](arthas-all-3.5.1.buildcompare) [:mag:](arthas-all-3.5.1.diffoscope) |
 | [3.5.0](https://search.maven.org/artifact/com.taobao.arthas/arthas-all/3.5.0/pom) | [mvn jdk8](arthas-3.5.0.buildspec) | [48 :heavy_check_mark:  5 :warning:](arthas-all-3.5.0.buildcompare) [:mag:](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/taobao/arthas/arthas-all-3.5.0.diffoscope) |
 | [3.4.8](https://search.maven.org/artifact/com.taobao.arthas/arthas-all/3.4.8/pom) | [mvn jdk8](arthas-3.4.8.buildspec) | [48 :heavy_check_mark:  5 :warning:](arthas-all-3.4.8.buildcompare) [:mag:](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/taobao/arthas/arthas-all-3.4.8.diffoscope) |

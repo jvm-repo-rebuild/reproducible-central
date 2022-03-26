@@ -13,7 +13,7 @@ rebuilding **1 releases** of org.apache.sling:org.apache.sling.repoinit.parser:
 
 | version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
 | -- | --------- | ------ |
-| [1.6.14](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.pipes/1.6.14/pom) | | |
-| [1.6.12](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.pipes/1.6.12/pom) | | |
-| [1.6.10](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.pipes/1.6.10/pom) | | |
+| [1.6.14](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.repoinit.parser/1.6.14/pom) | | |
+| [1.6.12](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.repoinit.parser/1.6.12/pom) | | |
+| [1.6.10](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.repoinit.parser/1.6.10/pom) | | |
 | [1.6.8](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.repoinit.parser/1.6.8/pom) | [mvn jdk14](org.apache.sling.repoinit.parser-1.6.8.buildspec) | [4 :heavy_check_mark: ](org.apache.sling.repoinit.parser-1.6.8.buildcompare) |

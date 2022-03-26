@@ -14,6 +14,10 @@ prevGroupId=
 
 for metadata in $(find content -name "maven-metadata.xml" -print | grep -v buildcache | sort)
 do
+  groupId=$(cat "${metadata}" | grep 'groupId>' | cut -d '>' -f 2 | cut -d '<' -f 1)
+  artifactId=$(cat "${metadata}" | grep 'artifactId>' | cut -d '>' -f 2 | cut -d '<' -f 1)
+  curl -s --fail https://repo.maven.apache.org/maven2/$(echo ${groupId} | tr '.' '/')/${artifactId}/maven-metadata.xml --output ${metadata}
+
   dir="$(dirname "${metadata}")"
   readme="${dir}/README.md"
   \rm -f $readme

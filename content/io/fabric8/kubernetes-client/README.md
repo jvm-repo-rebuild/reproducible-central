@@ -136,9 +136,9 @@ rebuilding **7 releases** of io.fabric8:kubernetes-client-project:
 
 | version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
 | -- | --------- | ------ |
-| [5.12.1](https://search.maven.org/artifact/io.fabric8/docker-maven-plugin/5.12.1/pom) | | |
-| [5.12.0](https://search.maven.org/artifact/io.fabric8/docker-maven-plugin/5.12.0/pom) | | |
-| [5.11.2](https://search.maven.org/artifact/io.fabric8/docker-maven-plugin/5.11.2/pom) | | |
+| [5.12.1](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/5.12.1/pom) | | |
+| [5.12.0](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/5.12.0/pom) | | |
+| [5.11.2](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/5.11.2/pom) | | |
 | [5.11.1](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/5.11.1/pom) | [mvn jdk8](kubernetes-client-5.11.1.buildspec) | [287 :heavy_check_mark:  73 :warning:](kubernetes-client-project-5.11.1.buildcompare) [:mag:](kubernetes-client-project-5.11.1.diffoscope) |
 | [5.11.0](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/5.11.0/pom) | | |
 | [5.10.2](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/5.10.2/pom) | | |

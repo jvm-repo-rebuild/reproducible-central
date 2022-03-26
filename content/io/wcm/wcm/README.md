@@ -13,8 +13,8 @@ rebuilding **8 releases** of io.wcm:io.wcm.wcm.ui.clientlibs:
 
 | version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
 | -- | --------- | ------ |
-| [1.9.0](https://search.maven.org/artifact/io.wcm.tooling.commons/io.wcm.tooling.commons.content-package-builder/1.9.0/pom) | | |
-| [1.8.2](https://search.maven.org/artifact/io.wcm.tooling.commons/io.wcm.tooling.commons.content-package-builder/1.8.2/pom) | | |
+| [1.9.0](https://search.maven.org/artifact/io.wcm/io.wcm.wcm.commons/1.9.0/pom) | | |
+| [1.8.2](https://search.maven.org/artifact/io.wcm/io.wcm.wcm.commons/1.8.2/pom) | | |
 | [1.8.0](https://search.maven.org/artifact/io.wcm/io.wcm.wcm.commons/1.8.0/pom) | [mvn jdk11 w](wcm-commons-1.8.0.buildspec) | [3 :heavy_check_mark: ](io.wcm.wcm.commons-1.8.0.buildcompare) |
 | [1.7.0](https://search.maven.org/artifact/io.wcm/io.wcm.wcm.commons/1.7.0/pom) | [mvn jdk8 w](wcm-commons-1.7.0.buildspec
 wcm-ui-granite-1.7.0.buildspec) | :x: |

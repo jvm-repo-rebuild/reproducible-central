@@ -13,11 +13,11 @@ rebuilding **24 releases** of nl.hsac:hsac-fitnesse-fixtures:
 
 | version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
 | -- | --------- | ------ |
-| [5.2.0](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/5.2.0/pom) | | |
-| [5.1.2](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/5.1.2/pom) | | |
-| [5.1.1](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/5.1.1/pom) | | |
-| [5.1.0](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/5.1.0/pom) | | |
-| [5.1.0-beta](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/5.1.0-beta/pom) | | |
+| [5.2.0](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.0/pom) | | |
+| [5.1.2](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.1.2/pom) | | |
+| [5.1.1](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.1.1/pom) | | |
+| [5.1.0](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.1.0/pom) | | |
+| [5.1.0-beta](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.1.0-beta/pom) | | |
 | [5.0.0](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.0.0/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.0.0.buildspec) | [4 :heavy_check_mark: ](hsac-fitnesse-fixtures-5.0.0.buildcompare) |
 | [4.32.0](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/4.32.0/pom) | [mvn jdk8](hsac-fitnesse-fixtures-4.32.0.buildspec) | [4 :heavy_check_mark: ](hsac-fitnesse-fixtures-4.32.0.buildcompare) |
 | [4.31.0](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/4.31.0/pom) | [mvn jdk8](hsac-fitnesse-fixtures-4.31.0.buildspec) | [4 :heavy_check_mark: ](hsac-fitnesse-fixtures-4.31.0.buildcompare) |

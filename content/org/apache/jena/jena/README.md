@@ -73,7 +73,7 @@ rebuilding **8 releases** of org.apache.jena:jena:
 
 | version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
 | -- | --------- | ------ |
-| [4.4.0](https://search.maven.org/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/4.4.0/pom) | | |
+| [4.4.0](https://search.maven.org/artifact/org.apache.jena/jena/4.4.0/pom) | | |
 | [4.3.2](https://search.maven.org/artifact/org.apache.jena/jena/4.3.2/pom) | [mvn jdk11](jena-4.3.2.buildspec) | [154 :heavy_check_mark:  19 :warning:](jena-4.3.2.buildcompare) [:mag:](jena-4.3.2.diffoscope) |
 | [4.3.1](https://search.maven.org/artifact/org.apache.jena/jena/4.3.1/pom) | | |
 | [4.3.0](https://search.maven.org/artifact/org.apache.jena/jena/4.3.0/pom) | | |

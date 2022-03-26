@@ -13,6 +13,6 @@ rebuilding **1 releases** of io.wcm.maven.plugins:nodejs-maven-plugin:
 
 | version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
 | -- | --------- | ------ |
-| [3.0.6](https://search.maven.org/artifact/io.wcm/io.wcm.handler.richtext/3.0.6/pom) | | |
-| [3.0.4](https://search.maven.org/artifact/io.wcm/io.wcm.handler.richtext/3.0.4/pom) | | |
+| [3.0.6](https://search.maven.org/artifact/io.wcm.maven.plugins/nodejs-maven-plugin/3.0.6/pom) | | |
+| [3.0.4](https://search.maven.org/artifact/io.wcm.maven.plugins/nodejs-maven-plugin/3.0.4/pom) | | |
 | [3.0.2](https://search.maven.org/artifact/io.wcm.maven.plugins/nodejs-maven-plugin/3.0.2/pom) | [mvn jdk11 w](nodejs-maven-plugin-3.0.2.buildspec) | [2 :heavy_check_mark:  1 :warning:](nodejs-maven-plugin-3.0.2.buildcompare) [:mag:](nodejs-maven-plugin-3.0.2.diffoscope) |
