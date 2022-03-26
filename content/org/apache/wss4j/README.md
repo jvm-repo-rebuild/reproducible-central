@@ -7,6 +7,20 @@
 
 Source code: [https://github.com/apache/ws-wss4j.git](https://github.com/apache/ws-wss4j.git)
 
+<details><summary>This project defines 10 artifacts:</summary>
+
+* [org.apache.wss4j:wss4j](https://search.maven.org/artifact/org.apache.wss4j/wss4j/)
+* [org.apache.wss4j:wss4j-bindings](https://search.maven.org/artifact/org.apache.wss4j/wss4j-bindings/)
+* [org.apache.wss4j:wss4j-integration](https://search.maven.org/artifact/org.apache.wss4j/wss4j-integration/)
+* [org.apache.wss4j:wss4j-parent](https://search.maven.org/artifact/org.apache.wss4j/wss4j-parent/)
+* [org.apache.wss4j:wss4j-policy](https://search.maven.org/artifact/org.apache.wss4j/wss4j-policy/)
+* [org.apache.wss4j:wss4j-ws-security-common](https://search.maven.org/artifact/org.apache.wss4j/wss4j-ws-security-common/)
+* [org.apache.wss4j:wss4j-ws-security-dom](https://search.maven.org/artifact/org.apache.wss4j/wss4j-ws-security-dom/)
+* [org.apache.wss4j:wss4j-ws-security-policy-stax](https://search.maven.org/artifact/org.apache.wss4j/wss4j-ws-security-policy-stax/)
+* [org.apache.wss4j:wss4j-ws-security-stax](https://search.maven.org/artifact/org.apache.wss4j/wss4j-ws-security-stax/)
+* [org.apache.wss4j:wss4j-ws-security-web](https://search.maven.org/artifact/org.apache.wss4j/wss4j-ws-security-web/)
+</details>
+
 rebuilding **1 releases** of org.apache.wss4j:wss4j:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:):

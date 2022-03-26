@@ -7,6 +7,13 @@
 
 Source code: [https://github.com/apache/maven-jxr.git](https://github.com/apache/maven-jxr.git)
 
+<details><summary>This project defines 3 artifacts:</summary>
+
+* [org.apache.maven.jxr:jxr](https://search.maven.org/artifact/org.apache.maven.jxr/jxr/)
+* [org.apache.maven.plugins:maven-jxr-plugin](https://search.maven.org/artifact/org.apache.maven.plugins/maven-jxr-plugin/)
+* [org.apache.maven:maven-jxr](https://search.maven.org/artifact/org.apache.maven/maven-jxr/)
+</details>
+
 rebuilding **2 releases** of org.apache.maven.jxr:jxr:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):

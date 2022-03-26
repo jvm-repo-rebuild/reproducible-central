@@ -7,6 +7,17 @@
 
 Source code: [https://github.com/apache/maven-parent.git](https://github.com/apache/maven-parent.git)
 
+<details><summary>This project defines 7 artifacts:</summary>
+
+* [org.apache.apache.resources:apache-resource-bundles](https://search.maven.org/artifact/org.apache.apache.resources/apache-resource-bundles/)
+* [org.apache.maven.doxia:doxia-tools](https://search.maven.org/artifact/org.apache.maven.doxia/doxia-tools/)
+* [org.apache.maven.extensions:maven-extensions](https://search.maven.org/artifact/org.apache.maven.extensions/maven-extensions/)
+* [org.apache.maven.plugins:maven-plugins](https://search.maven.org/artifact/org.apache.maven.plugins/maven-plugins/)
+* [org.apache.maven.shared:maven-shared-components](https://search.maven.org/artifact/org.apache.maven.shared/maven-shared-components/)
+* [org.apache.maven.skins:maven-skins](https://search.maven.org/artifact/org.apache.maven.skins/maven-skins/)
+* [org.apache.maven:maven-parent](https://search.maven.org/artifact/org.apache.maven/maven-parent/)
+</details>
+
 rebuilding **2 releases** of org.apache.maven:maven-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:):

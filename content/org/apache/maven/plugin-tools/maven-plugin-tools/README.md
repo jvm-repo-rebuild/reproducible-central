@@ -7,6 +7,23 @@
 
 Source code: [https://github.com/apache/maven-plugin-tools.git](https://github.com/apache/maven-plugin-tools.git)
 
+<details><summary>This project defines 13 artifacts:</summary>
+
+* [org.apache.maven.plugin-tools:maven-plugin-annotations](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-plugin-annotations/)
+* [org.apache.maven.plugin-tools:maven-plugin-tools](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/)
+* [org.apache.maven.plugin-tools:maven-plugin-tools-annotations](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-annotations/)
+* [org.apache.maven.plugin-tools:maven-plugin-tools-ant](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-ant/)
+* [org.apache.maven.plugin-tools:maven-plugin-tools-api](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-api/)
+* [org.apache.maven.plugin-tools:maven-plugin-tools-beanshell](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-beanshell/)
+* [org.apache.maven.plugin-tools:maven-plugin-tools-generators](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-generators/)
+* [org.apache.maven.plugin-tools:maven-plugin-tools-java](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-java/)
+* [org.apache.maven.plugin-tools:maven-plugin-tools-model](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-model/)
+* [org.apache.maven.plugin-tools:maven-script](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-script/)
+* [org.apache.maven.plugin-tools:maven-script-ant](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-script-ant/)
+* [org.apache.maven.plugin-tools:maven-script-beanshell](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-script-beanshell/)
+* [org.apache.maven.plugins:maven-plugin-plugin](https://search.maven.org/artifact/org.apache.maven.plugins/maven-plugin-plugin/)
+</details>
+
 rebuilding **3 releases** of org.apache.maven.plugin-tools:maven-plugin-tools:
 - **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):

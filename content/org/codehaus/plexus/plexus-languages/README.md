@@ -7,6 +7,12 @@
 
 Source code: [https://github.com/codehaus-plexus/plexus-languages.git](https://github.com/codehaus-plexus/plexus-languages.git)
 
+<details><summary>This project defines 2 artifacts:</summary>
+
+* [org.codehaus.plexus:plexus-java](https://search.maven.org/artifact/org.codehaus.plexus/plexus-java/)
+* [org.codehaus.plexus:plexus-languages](https://search.maven.org/artifact/org.codehaus.plexus/plexus-languages/)
+</details>
+
 rebuilding **5 releases** of org.codehaus.plexus:plexus-languages:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:):

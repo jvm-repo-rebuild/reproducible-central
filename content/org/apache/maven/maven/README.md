@@ -7,6 +7,25 @@
 
 Source code: [https://github.com/apache/maven-jxr.git](https://github.com/apache/maven-jxr.git)
 
+<details><summary>This project defines 15 artifacts:</summary>
+
+* [org.apache.maven:apache-maven](https://search.maven.org/artifact/org.apache.maven/apache-maven/)
+* [org.apache.maven:maven](https://search.maven.org/artifact/org.apache.maven/maven/)
+* [org.apache.maven:maven-artifact](https://search.maven.org/artifact/org.apache.maven/maven-artifact/)
+* [org.apache.maven:maven-builder-support](https://search.maven.org/artifact/org.apache.maven/maven-builder-support/)
+* [org.apache.maven:maven-compat](https://search.maven.org/artifact/org.apache.maven/maven-compat/)
+* [org.apache.maven:maven-core](https://search.maven.org/artifact/org.apache.maven/maven-core/)
+* [org.apache.maven:maven-embedder](https://search.maven.org/artifact/org.apache.maven/maven-embedder/)
+* [org.apache.maven:maven-model](https://search.maven.org/artifact/org.apache.maven/maven-model/)
+* [org.apache.maven:maven-model-builder](https://search.maven.org/artifact/org.apache.maven/maven-model-builder/)
+* [org.apache.maven:maven-plugin-api](https://search.maven.org/artifact/org.apache.maven/maven-plugin-api/)
+* [org.apache.maven:maven-repository-metadata](https://search.maven.org/artifact/org.apache.maven/maven-repository-metadata/)
+* [org.apache.maven:maven-resolver-provider](https://search.maven.org/artifact/org.apache.maven/maven-resolver-provider/)
+* [org.apache.maven:maven-settings](https://search.maven.org/artifact/org.apache.maven/maven-settings/)
+* [org.apache.maven:maven-settings-builder](https://search.maven.org/artifact/org.apache.maven/maven-settings-builder/)
+* [org.apache.maven:maven-slf4j-provider](https://search.maven.org/artifact/org.apache.maven/maven-slf4j-provider/)
+</details>
+
 rebuilding **6 releases** of org.apache.maven:maven:
 - **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:):

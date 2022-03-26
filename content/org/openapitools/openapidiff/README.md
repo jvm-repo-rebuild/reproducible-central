@@ -7,6 +7,14 @@
 
 Source code: [https://github.com/OpenAPITools/openapi-diff.git](https://github.com/OpenAPITools/openapi-diff.git)
 
+<details><summary>This project defines 4 artifacts:</summary>
+
+* [org.openapitools.openapidiff:openapi-diff-cli](https://search.maven.org/artifact/org.openapitools.openapidiff/openapi-diff-cli/)
+* [org.openapitools.openapidiff:openapi-diff-core](https://search.maven.org/artifact/org.openapitools.openapidiff/openapi-diff-core/)
+* [org.openapitools.openapidiff:openapi-diff-maven](https://search.maven.org/artifact/org.openapitools.openapidiff/openapi-diff-maven/)
+* [org.openapitools.openapidiff:openapi-diff-parent](https://search.maven.org/artifact/org.openapitools.openapidiff/openapi-diff-parent/)
+</details>
+
 rebuilding **1 releases** of org.openapitools.openapidiff:openapi-diff-parent:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):

@@ -7,6 +7,45 @@
 
 Source code: [https://github.com/apache/maven-resolver.git](https://github.com/apache/maven-resolver.git)
 
+<details><summary>This project defines 35 artifacts:</summary>
+
+* [org.apache.maven.plugins:maven-scm-plugin](https://search.maven.org/artifact/org.apache.maven.plugins/maven-scm-plugin/)
+* [org.apache.maven.scm:maven-scm](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/)
+* [org.apache.maven.scm:maven-scm-api](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-api/)
+* [org.apache.maven.scm:maven-scm-client](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-client/)
+* [org.apache.maven.scm:maven-scm-manager-plexus](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-manager-plexus/)
+* [org.apache.maven.scm:maven-scm-managers](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-managers/)
+* [org.apache.maven.scm:maven-scm-provider-accurev](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-accurev/)
+* [org.apache.maven.scm:maven-scm-provider-bazaar](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-bazaar/)
+* [org.apache.maven.scm:maven-scm-provider-clearcase](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-clearcase/)
+* [org.apache.maven.scm:maven-scm-provider-cvs-commons](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-cvs-commons/)
+* [org.apache.maven.scm:maven-scm-provider-cvsexe](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-cvsexe/)
+* [org.apache.maven.scm:maven-scm-provider-cvsjava](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-cvsjava/)
+* [org.apache.maven.scm:maven-scm-provider-cvstest](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-cvstest/)
+* [org.apache.maven.scm:maven-scm-provider-git-commons](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-git-commons/)
+* [org.apache.maven.scm:maven-scm-provider-gitexe](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-gitexe/)
+* [org.apache.maven.scm:maven-scm-provider-gittest](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-gittest/)
+* [org.apache.maven.scm:maven-scm-provider-hg](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-hg/)
+* [org.apache.maven.scm:maven-scm-provider-integrity](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-integrity/)
+* [org.apache.maven.scm:maven-scm-provider-jazz](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-jazz/)
+* [org.apache.maven.scm:maven-scm-provider-jgit](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-jgit/)
+* [org.apache.maven.scm:maven-scm-provider-local](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-local/)
+* [org.apache.maven.scm:maven-scm-provider-perforce](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-perforce/)
+* [org.apache.maven.scm:maven-scm-provider-starteam](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-starteam/)
+* [org.apache.maven.scm:maven-scm-provider-svn-commons](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-svn-commons/)
+* [org.apache.maven.scm:maven-scm-provider-svnexe](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-svnexe/)
+* [org.apache.maven.scm:maven-scm-provider-svntest](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-svntest/)
+* [org.apache.maven.scm:maven-scm-provider-synergy](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-synergy/)
+* [org.apache.maven.scm:maven-scm-provider-tfs](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-tfs/)
+* [org.apache.maven.scm:maven-scm-provider-vss](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-vss/)
+* [org.apache.maven.scm:maven-scm-providers](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-providers/)
+* [org.apache.maven.scm:maven-scm-providers-cvs](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-providers-cvs/)
+* [org.apache.maven.scm:maven-scm-providers-git](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-providers-git/)
+* [org.apache.maven.scm:maven-scm-providers-standard](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-providers-standard/)
+* [org.apache.maven.scm:maven-scm-providers-svn](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-providers-svn/)
+* [org.apache.maven.scm:maven-scm-test](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-test/)
+</details>
+
 rebuilding **4 releases** of org.apache.maven.scm:maven-scm:
 - **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):

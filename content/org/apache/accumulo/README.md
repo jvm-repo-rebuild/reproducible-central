@@ -7,6 +7,31 @@
 
 Source code: [https://github.com/apache/accumulo.git](https://github.com/apache/accumulo.git)
 
+<details><summary>This project defines 21 artifacts:</summary>
+
+* [org.apache.accumulo:accumulo](https://search.maven.org/artifact/org.apache.accumulo/accumulo/)
+* [org.apache.accumulo:accumulo-core](https://search.maven.org/artifact/org.apache.accumulo/accumulo-core/)
+* [org.apache.accumulo:accumulo-docs](https://search.maven.org/artifact/org.apache.accumulo/accumulo-docs/)
+* [org.apache.accumulo:accumulo-examples-simple](https://search.maven.org/artifact/org.apache.accumulo/accumulo-examples-simple/)
+* [org.apache.accumulo:accumulo-fate](https://search.maven.org/artifact/org.apache.accumulo/accumulo-fate/)
+* [org.apache.accumulo:accumulo-gc](https://search.maven.org/artifact/org.apache.accumulo/accumulo-gc/)
+* [org.apache.accumulo:accumulo-iterator-test-harness](https://search.maven.org/artifact/org.apache.accumulo/accumulo-iterator-test-harness/)
+* [org.apache.accumulo:accumulo-master](https://search.maven.org/artifact/org.apache.accumulo/accumulo-master/)
+* [org.apache.accumulo:accumulo-maven-plugin](https://search.maven.org/artifact/org.apache.accumulo/accumulo-maven-plugin/)
+* [org.apache.accumulo:accumulo-minicluster](https://search.maven.org/artifact/org.apache.accumulo/accumulo-minicluster/)
+* [org.apache.accumulo:accumulo-monitor](https://search.maven.org/artifact/org.apache.accumulo/accumulo-monitor/)
+* [org.apache.accumulo:accumulo-native](https://search.maven.org/artifact/org.apache.accumulo/accumulo-native/)
+* [org.apache.accumulo:accumulo-project](https://search.maven.org/artifact/org.apache.accumulo/accumulo-project/)
+* [org.apache.accumulo:accumulo-proxy](https://search.maven.org/artifact/org.apache.accumulo/accumulo-proxy/)
+* [org.apache.accumulo:accumulo-server-base](https://search.maven.org/artifact/org.apache.accumulo/accumulo-server-base/)
+* [org.apache.accumulo:accumulo-shell](https://search.maven.org/artifact/org.apache.accumulo/accumulo-shell/)
+* [org.apache.accumulo:accumulo-start](https://search.maven.org/artifact/org.apache.accumulo/accumulo-start/)
+* [org.apache.accumulo:accumulo-test](https://search.maven.org/artifact/org.apache.accumulo/accumulo-test/)
+* [org.apache.accumulo:accumulo-trace](https://search.maven.org/artifact/org.apache.accumulo/accumulo-trace/)
+* [org.apache.accumulo:accumulo-tracer](https://search.maven.org/artifact/org.apache.accumulo/accumulo-tracer/)
+* [org.apache.accumulo:accumulo-tserver](https://search.maven.org/artifact/org.apache.accumulo/accumulo-tserver/)
+</details>
+
 rebuilding **3 releases** of org.apache.accumulo:accumulo:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:):

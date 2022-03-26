@@ -7,6 +7,26 @@
 
 Source code: [https://github.com/qos-ch/slf4j.git](https://github.com/qos-ch/slf4j.git)
 
+<details><summary>This project defines 16 artifacts:</summary>
+
+* [org.slf4j:integration](https://search.maven.org/artifact/org.slf4j/integration/)
+* [org.slf4j:jcl-over-slf4j](https://search.maven.org/artifact/org.slf4j/jcl-over-slf4j/)
+* [org.slf4j:jul-to-slf4j](https://search.maven.org/artifact/org.slf4j/jul-to-slf4j/)
+* [org.slf4j:log4j-over-slf4j](https://search.maven.org/artifact/org.slf4j/log4j-over-slf4j/)
+* [org.slf4j:osgi-over-slf4j](https://search.maven.org/artifact/org.slf4j/osgi-over-slf4j/)
+* [org.slf4j:slf4j-android](https://search.maven.org/artifact/org.slf4j/slf4j-android/)
+* [org.slf4j:slf4j-api](https://search.maven.org/artifact/org.slf4j/slf4j-api/)
+* [org.slf4j:slf4j-ext](https://search.maven.org/artifact/org.slf4j/slf4j-ext/)
+* [org.slf4j:slf4j-jcl](https://search.maven.org/artifact/org.slf4j/slf4j-jcl/)
+* [org.slf4j:slf4j-jdk14](https://search.maven.org/artifact/org.slf4j/slf4j-jdk14/)
+* [org.slf4j:slf4j-log4j12](https://search.maven.org/artifact/org.slf4j/slf4j-log4j12/)
+* [org.slf4j:slf4j-migrator](https://search.maven.org/artifact/org.slf4j/slf4j-migrator/)
+* [org.slf4j:slf4j-nop](https://search.maven.org/artifact/org.slf4j/slf4j-nop/)
+* [org.slf4j:slf4j-parent](https://search.maven.org/artifact/org.slf4j/slf4j-parent/)
+* [org.slf4j:slf4j-reload4j](https://search.maven.org/artifact/org.slf4j/slf4j-reload4j/)
+* [org.slf4j:slf4j-simple](https://search.maven.org/artifact/org.slf4j/slf4j-simple/)
+</details>
+
 rebuilding **1 releases** of org.slf4j:slf4j-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:):

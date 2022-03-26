@@ -58,6 +58,20 @@ do
         echo >> $readme
         echo "Source code: [$gitRepo]($gitRepo)" >> $readme
         echo >> $readme
+
+        projectGa=$(cat $dir/*.buildinfo | grep coordinates | cut -d = -f 2 | sort -u | wc -l)
+        if [ $projectGa -gt 1 ]
+        then
+          echo "<details><summary>This project defines $projectGa artifacts:</summary>" >> $readme
+          echo >> $readme
+          for ga in $(cat $dir/*.buildinfo | grep coordinates | cut -d = -f 2 | sort -u)
+          do
+            gaDir=$(echo "$ga" | sed -e 's_:_/_')
+            echo "* [$ga](https://search.maven.org/artifact/${gaDir}/)" >> $readme
+          done
+          echo "</details>" >> $readme
+          echo >> $readme
+        fi
       fi
       # add buildspec result to tmp
       ((countVersion++))

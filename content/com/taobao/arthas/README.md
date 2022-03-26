@@ -7,6 +7,29 @@
 
 Source code: [https://github.com/alibaba/arthas.git](https://github.com/alibaba/arthas.git)
 
+<details><summary>This project defines 19 artifacts:</summary>
+
+* [com.taobao.arthas:arthas-agent](https://search.maven.org/artifact/com.taobao.arthas/arthas-agent/)
+* [com.taobao.arthas:arthas-agent-attach](https://search.maven.org/artifact/com.taobao.arthas/arthas-agent-attach/)
+* [com.taobao.arthas:arthas-all](https://search.maven.org/artifact/com.taobao.arthas/arthas-all/)
+* [com.taobao.arthas:arthas-boot](https://search.maven.org/artifact/com.taobao.arthas/arthas-boot/)
+* [com.taobao.arthas:arthas-bytekit](https://search.maven.org/artifact/com.taobao.arthas/arthas-bytekit/)
+* [com.taobao.arthas:arthas-client](https://search.maven.org/artifact/com.taobao.arthas/arthas-client/)
+* [com.taobao.arthas:arthas-common](https://search.maven.org/artifact/com.taobao.arthas/arthas-common/)
+* [com.taobao.arthas:arthas-core](https://search.maven.org/artifact/com.taobao.arthas/arthas-core/)
+* [com.taobao.arthas:arthas-demo](https://search.maven.org/artifact/com.taobao.arthas/arthas-demo/)
+* [com.taobao.arthas:arthas-memorycompiler](https://search.maven.org/artifact/com.taobao.arthas/arthas-memorycompiler/)
+* [com.taobao.arthas:arthas-packaging](https://search.maven.org/artifact/com.taobao.arthas/arthas-packaging/)
+* [com.taobao.arthas:arthas-site](https://search.maven.org/artifact/com.taobao.arthas/arthas-site/)
+* [com.taobao.arthas:arthas-spring-boot-starter](https://search.maven.org/artifact/com.taobao.arthas/arthas-spring-boot-starter/)
+* [com.taobao.arthas:arthas-spy](https://search.maven.org/artifact/com.taobao.arthas/arthas-spy/)
+* [com.taobao.arthas:arthas-testcase](https://search.maven.org/artifact/com.taobao.arthas/arthas-testcase/)
+* [com.taobao.arthas:arthas-tunnel-client](https://search.maven.org/artifact/com.taobao.arthas/arthas-tunnel-client/)
+* [com.taobao.arthas:arthas-tunnel-common](https://search.maven.org/artifact/com.taobao.arthas/arthas-tunnel-common/)
+* [com.taobao.arthas:arthas-tunnel-server](https://search.maven.org/artifact/com.taobao.arthas/arthas-tunnel-server/)
+* [com.taobao.arthas:math-game](https://search.maven.org/artifact/com.taobao.arthas/math-game/)
+</details>
+
 rebuilding **13 releases** of com.taobao.arthas:arthas-all:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 13 had issues (some unreproducible artifacts :warning:):

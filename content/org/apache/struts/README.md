@@ -7,6 +7,45 @@
 
 Source code: [https://github.com/apache/struts.git](https://github.com/apache/struts.git)
 
+<details><summary>This project defines 35 artifacts:</summary>
+
+* [org.apache.struts:struts2-apps](https://search.maven.org/artifact/org.apache.struts/struts2-apps/)
+* [org.apache.struts:struts2-assembly](https://search.maven.org/artifact/org.apache.struts/struts2-assembly/)
+* [org.apache.struts:struts2-bean-validation-plugin](https://search.maven.org/artifact/org.apache.struts/struts2-bean-validation-plugin/)
+* [org.apache.struts:struts2-bom](https://search.maven.org/artifact/org.apache.struts/struts2-bom/)
+* [org.apache.struts:struts2-cdi-plugin](https://search.maven.org/artifact/org.apache.struts/struts2-cdi-plugin/)
+* [org.apache.struts:struts2-config-browser-plugin](https://search.maven.org/artifact/org.apache.struts/struts2-config-browser-plugin/)
+* [org.apache.struts:struts2-convention-plugin](https://search.maven.org/artifact/org.apache.struts/struts2-convention-plugin/)
+* [org.apache.struts:struts2-core](https://search.maven.org/artifact/org.apache.struts/struts2-core/)
+* [org.apache.struts:struts2-dwr-plugin](https://search.maven.org/artifact/org.apache.struts/struts2-dwr-plugin/)
+* [org.apache.struts:struts2-embeddedjsp-plugin](https://search.maven.org/artifact/org.apache.struts/struts2-embeddedjsp-plugin/)
+* [org.apache.struts:struts2-gxp-plugin](https://search.maven.org/artifact/org.apache.struts/struts2-gxp-plugin/)
+* [org.apache.struts:struts2-jasperreports-plugin](https://search.maven.org/artifact/org.apache.struts/struts2-jasperreports-plugin/)
+* [org.apache.struts:struts2-javatemplates-plugin](https://search.maven.org/artifact/org.apache.struts/struts2-javatemplates-plugin/)
+* [org.apache.struts:struts2-jfreechart-plugin](https://search.maven.org/artifact/org.apache.struts/struts2-jfreechart-plugin/)
+* [org.apache.struts:struts2-json-plugin](https://search.maven.org/artifact/org.apache.struts/struts2-json-plugin/)
+* [org.apache.struts:struts2-junit-plugin](https://search.maven.org/artifact/org.apache.struts/struts2-junit-plugin/)
+* [org.apache.struts:struts2-osgi-admin-bundle](https://search.maven.org/artifact/org.apache.struts/struts2-osgi-admin-bundle/)
+* [org.apache.struts:struts2-osgi-bundles](https://search.maven.org/artifact/org.apache.struts/struts2-osgi-bundles/)
+* [org.apache.struts:struts2-osgi-demo-bundle](https://search.maven.org/artifact/org.apache.struts/struts2-osgi-demo-bundle/)
+* [org.apache.struts:struts2-osgi-plugin](https://search.maven.org/artifact/org.apache.struts/struts2-osgi-plugin/)
+* [org.apache.struts:struts2-oval-plugin](https://search.maven.org/artifact/org.apache.struts/struts2-oval-plugin/)
+* [org.apache.struts:struts2-parent](https://search.maven.org/artifact/org.apache.struts/struts2-parent/)
+* [org.apache.struts:struts2-pell-multipart-plugin](https://search.maven.org/artifact/org.apache.struts/struts2-pell-multipart-plugin/)
+* [org.apache.struts:struts2-plexus-plugin](https://search.maven.org/artifact/org.apache.struts/struts2-plexus-plugin/)
+* [org.apache.struts:struts2-plugins](https://search.maven.org/artifact/org.apache.struts/struts2-plugins/)
+* [org.apache.struts:struts2-portlet-plugin](https://search.maven.org/artifact/org.apache.struts/struts2-portlet-plugin/)
+* [org.apache.struts:struts2-portlet-tiles-plugin](https://search.maven.org/artifact/org.apache.struts/struts2-portlet-tiles-plugin/)
+* [org.apache.struts:struts2-rest-plugin](https://search.maven.org/artifact/org.apache.struts/struts2-rest-plugin/)
+* [org.apache.struts:struts2-rest-showcase](https://search.maven.org/artifact/org.apache.struts/struts2-rest-showcase/)
+* [org.apache.struts:struts2-showcase](https://search.maven.org/artifact/org.apache.struts/struts2-showcase/)
+* [org.apache.struts:struts2-sitegraph-plugin](https://search.maven.org/artifact/org.apache.struts/struts2-sitegraph-plugin/)
+* [org.apache.struts:struts2-sitemesh-plugin](https://search.maven.org/artifact/org.apache.struts/struts2-sitemesh-plugin/)
+* [org.apache.struts:struts2-spring-plugin](https://search.maven.org/artifact/org.apache.struts/struts2-spring-plugin/)
+* [org.apache.struts:struts2-testng-plugin](https://search.maven.org/artifact/org.apache.struts/struts2-testng-plugin/)
+* [org.apache.struts:struts2-tiles-plugin](https://search.maven.org/artifact/org.apache.struts/struts2-tiles-plugin/)
+</details>
+
 rebuilding **1 releases** of org.apache.struts:struts2-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:):

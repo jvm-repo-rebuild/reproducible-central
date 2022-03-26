@@ -7,6 +7,16 @@
 
 Source code: [https://github.com/qos-ch/logback.git](https://github.com/qos-ch/logback.git)
 
+<details><summary>This project defines 6 artifacts:</summary>
+
+* [ch.qos.logback:logback-access](https://search.maven.org/artifact/ch.qos.logback/logback-access/)
+* [ch.qos.logback:logback-classic](https://search.maven.org/artifact/ch.qos.logback/logback-classic/)
+* [ch.qos.logback:logback-core](https://search.maven.org/artifact/ch.qos.logback/logback-core/)
+* [ch.qos.logback:logback-examples](https://search.maven.org/artifact/ch.qos.logback/logback-examples/)
+* [ch.qos.logback:logback-parent](https://search.maven.org/artifact/ch.qos.logback/logback-parent/)
+* [ch.qos.logback:logback-site](https://search.maven.org/artifact/ch.qos.logback/logback-site/)
+</details>
+
 rebuilding **3 releases** of ch.qos.logback:logback-parent:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:):

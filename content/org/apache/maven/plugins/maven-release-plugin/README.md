@@ -7,6 +7,16 @@
 
 Source code: [https://github.com/apache/maven-release.git](https://github.com/apache/maven-release.git)
 
+<details><summary>This project defines 6 artifacts:</summary>
+
+* [org.apache.maven.plugins:maven-release-plugin](https://search.maven.org/artifact/org.apache.maven.plugins/maven-release-plugin/)
+* [org.apache.maven.release:maven-release](https://search.maven.org/artifact/org.apache.maven.release/maven-release/)
+* [org.apache.maven.release:maven-release-api](https://search.maven.org/artifact/org.apache.maven.release/maven-release-api/)
+* [org.apache.maven.release:maven-release-manager](https://search.maven.org/artifact/org.apache.maven.release/maven-release-manager/)
+* [org.apache.maven.release:maven-release-oddeven-policy](https://search.maven.org/artifact/org.apache.maven.release/maven-release-oddeven-policy/)
+* [org.apache.maven.release:maven-release-semver-policy](https://search.maven.org/artifact/org.apache.maven.release/maven-release-semver-policy/)
+</details>
+
 rebuilding **2 releases** of org.apache.maven.plugins:maven-release-plugin:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):

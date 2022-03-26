@@ -7,6 +7,14 @@
 
 Source code: [https://github.com/tomitribe/transformer.git](https://github.com/tomitribe/transformer.git)
 
+<details><summary>This project defines 4 artifacts:</summary>
+
+* [org.tomitribe.transformer:org.eclipse.transformer](https://search.maven.org/artifact/org.tomitribe.transformer/org.eclipse.transformer/)
+* [org.tomitribe.transformer:org.eclipse.transformer.cli](https://search.maven.org/artifact/org.tomitribe.transformer/org.eclipse.transformer.cli/)
+* [org.tomitribe.transformer:org.eclipse.transformer.maven](https://search.maven.org/artifact/org.tomitribe.transformer/org.eclipse.transformer.maven/)
+* [org.tomitribe.transformer:org.eclipse.transformer.parent](https://search.maven.org/artifact/org.tomitribe.transformer/org.eclipse.transformer.parent/)
+</details>
+
 rebuilding **2 releases** of org.tomitribe.transformer:org.eclipse.transformer.parent:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):

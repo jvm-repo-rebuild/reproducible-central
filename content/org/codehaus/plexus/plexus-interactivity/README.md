@@ -7,6 +7,13 @@
 
 Source code: [https://github.com/codehaus-plexus/plexus-interactivity.git](https://github.com/codehaus-plexus/plexus-interactivity.git)
 
+<details><summary>This project defines 3 artifacts:</summary>
+
+* [org.codehaus.plexus:plexus-interactivity](https://search.maven.org/artifact/org.codehaus.plexus/plexus-interactivity/)
+* [org.codehaus.plexus:plexus-interactivity-api](https://search.maven.org/artifact/org.codehaus.plexus/plexus-interactivity-api/)
+* [org.codehaus.plexus:plexus-interactivity-jline](https://search.maven.org/artifact/org.codehaus.plexus/plexus-interactivity-jline/)
+</details>
+
 rebuilding **1 releases** of org.codehaus.plexus:plexus-interactivity:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):

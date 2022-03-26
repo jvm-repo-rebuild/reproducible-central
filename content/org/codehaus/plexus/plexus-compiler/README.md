@@ -7,6 +7,23 @@
 
 Source code: [https://github.com/codehaus-plexus/plexus-compiler.git](https://github.com/codehaus-plexus/plexus-compiler.git)
 
+<details><summary>This project defines 13 artifacts:</summary>
+
+* [org.codehaus.plexus:plexus-compiler](https://search.maven.org/artifact/org.codehaus.plexus/plexus-compiler/)
+* [org.codehaus.plexus:plexus-compiler-api](https://search.maven.org/artifact/org.codehaus.plexus/plexus-compiler-api/)
+* [org.codehaus.plexus:plexus-compiler-aspectj](https://search.maven.org/artifact/org.codehaus.plexus/plexus-compiler-aspectj/)
+* [org.codehaus.plexus:plexus-compiler-csharp](https://search.maven.org/artifact/org.codehaus.plexus/plexus-compiler-csharp/)
+* [org.codehaus.plexus:plexus-compiler-eclipse](https://search.maven.org/artifact/org.codehaus.plexus/plexus-compiler-eclipse/)
+* [org.codehaus.plexus:plexus-compiler-its](https://search.maven.org/artifact/org.codehaus.plexus/plexus-compiler-its/)
+* [org.codehaus.plexus:plexus-compiler-j2objc](https://search.maven.org/artifact/org.codehaus.plexus/plexus-compiler-j2objc/)
+* [org.codehaus.plexus:plexus-compiler-javac](https://search.maven.org/artifact/org.codehaus.plexus/plexus-compiler-javac/)
+* [org.codehaus.plexus:plexus-compiler-javac-errorprone](https://search.maven.org/artifact/org.codehaus.plexus/plexus-compiler-javac-errorprone/)
+* [org.codehaus.plexus:plexus-compiler-jikes](https://search.maven.org/artifact/org.codehaus.plexus/plexus-compiler-jikes/)
+* [org.codehaus.plexus:plexus-compiler-manager](https://search.maven.org/artifact/org.codehaus.plexus/plexus-compiler-manager/)
+* [org.codehaus.plexus:plexus-compiler-test](https://search.maven.org/artifact/org.codehaus.plexus/plexus-compiler-test/)
+* [org.codehaus.plexus:plexus-compilers](https://search.maven.org/artifact/org.codehaus.plexus/plexus-compilers/)
+</details>
+
 rebuilding **7 releases** of org.codehaus.plexus:plexus-compiler:
 - **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:):

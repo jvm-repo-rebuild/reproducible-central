@@ -7,6 +7,14 @@
 
 Source code: [https://gitlab.com/ongresinc/stringprep.git](https://gitlab.com/ongresinc/stringprep.git)
 
+<details><summary>This project defines 4 artifacts:</summary>
+
+* [com.ongres.stringprep:nameprep](https://search.maven.org/artifact/com.ongres.stringprep/nameprep/)
+* [com.ongres.stringprep:parent](https://search.maven.org/artifact/com.ongres.stringprep/parent/)
+* [com.ongres.stringprep:saslprep](https://search.maven.org/artifact/com.ongres.stringprep/saslprep/)
+* [com.ongres.stringprep:stringprep](https://search.maven.org/artifact/com.ongres.stringprep/stringprep/)
+</details>
+
 rebuilding **1 releases** of com.ongres.stringprep:parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:):

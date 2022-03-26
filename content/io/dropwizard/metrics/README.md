@@ -7,6 +7,40 @@
 
 Source code: [https://github.com/dropwizard/metrics.git](https://github.com/dropwizard/metrics.git)
 
+<details><summary>This project defines 30 artifacts:</summary>
+
+* [io.dropwizard.metrics:metrics-annotation](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-annotation/)
+* [io.dropwizard.metrics:metrics-bom](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-bom/)
+* [io.dropwizard.metrics:metrics-caffeine](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-caffeine/)
+* [io.dropwizard.metrics:metrics-caffeine3](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-caffeine3/)
+* [io.dropwizard.metrics:metrics-collectd](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-collectd/)
+* [io.dropwizard.metrics:metrics-core](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-core/)
+* [io.dropwizard.metrics:metrics-ehcache](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-ehcache/)
+* [io.dropwizard.metrics:metrics-graphite](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-graphite/)
+* [io.dropwizard.metrics:metrics-healthchecks](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-healthchecks/)
+* [io.dropwizard.metrics:metrics-httpasyncclient](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-httpasyncclient/)
+* [io.dropwizard.metrics:metrics-httpclient](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-httpclient/)
+* [io.dropwizard.metrics:metrics-httpclient5](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-httpclient5/)
+* [io.dropwizard.metrics:metrics-jakarta-servlet](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-jakarta-servlet/)
+* [io.dropwizard.metrics:metrics-jakarta-servlets](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-jakarta-servlets/)
+* [io.dropwizard.metrics:metrics-jcache](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-jcache/)
+* [io.dropwizard.metrics:metrics-jdbi](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-jdbi/)
+* [io.dropwizard.metrics:metrics-jdbi3](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-jdbi3/)
+* [io.dropwizard.metrics:metrics-jersey2](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-jersey2/)
+* [io.dropwizard.metrics:metrics-jersey3](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-jersey3/)
+* [io.dropwizard.metrics:metrics-jetty10](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-jetty10/)
+* [io.dropwizard.metrics:metrics-jetty11](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-jetty11/)
+* [io.dropwizard.metrics:metrics-jetty9](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-jetty9/)
+* [io.dropwizard.metrics:metrics-jmx](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-jmx/)
+* [io.dropwizard.metrics:metrics-json](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-json/)
+* [io.dropwizard.metrics:metrics-jvm](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-jvm/)
+* [io.dropwizard.metrics:metrics-log4j2](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-log4j2/)
+* [io.dropwizard.metrics:metrics-logback](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-logback/)
+* [io.dropwizard.metrics:metrics-parent](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-parent/)
+* [io.dropwizard.metrics:metrics-servlet](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-servlet/)
+* [io.dropwizard.metrics:metrics-servlets](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-servlets/)
+</details>
+
 rebuilding **25 releases** of io.dropwizard.metrics:metrics-parent:
 - **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 14 had issues (some unreproducible artifacts :warning:):

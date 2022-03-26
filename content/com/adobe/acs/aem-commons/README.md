@@ -7,6 +7,16 @@
 
 Source code: [https://github.com/Adobe-Consulting-Services/acs-aem-commons.git](https://github.com/Adobe-Consulting-Services/acs-aem-commons.git)
 
+<details><summary>This project defines 6 artifacts:</summary>
+
+* [com.adobe.acs:acs-aem-commons](https://search.maven.org/artifact/com.adobe.acs/acs-aem-commons/)
+* [com.adobe.acs:acs-aem-commons-bundle](https://search.maven.org/artifact/com.adobe.acs/acs-aem-commons-bundle/)
+* [com.adobe.acs:acs-aem-commons-content](https://search.maven.org/artifact/com.adobe.acs/acs-aem-commons-content/)
+* [com.adobe.acs:acs-aem-commons-oakpal-checks](https://search.maven.org/artifact/com.adobe.acs/acs-aem-commons-oakpal-checks/)
+* [com.adobe.acs:acs-aem-commons-ui.apps](https://search.maven.org/artifact/com.adobe.acs/acs-aem-commons-ui.apps/)
+* [com.adobe.acs:acs-aem-commons-ui.content](https://search.maven.org/artifact/com.adobe.acs/acs-aem-commons-ui.content/)
+</details>
+
 rebuilding **1 releases** of com.adobe.acs:acs-aem-commons:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:):

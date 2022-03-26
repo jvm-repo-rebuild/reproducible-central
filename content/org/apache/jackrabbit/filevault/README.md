@@ -7,6 +7,24 @@
 
 Source code: [https://github.com/apache/jackrabbit-filevault.git](https://github.com/apache/jackrabbit-filevault.git)
 
+<details><summary>This project defines 14 artifacts:</summary>
+
+* [org.apache.jackrabbit.vault:jackrabbit-filevault](https://search.maven.org/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/)
+* [org.apache.jackrabbit.vault:org.apache.jackrabbit.vault](https://search.maven.org/artifact/org.apache.jackrabbit.vault/org.apache.jackrabbit.vault/)
+* [org.apache.jackrabbit.vault:org.apache.jackrabbit.vault.rcp](https://search.maven.org/artifact/org.apache.jackrabbit.vault/org.apache.jackrabbit.vault.rcp/)
+* [org.apache.jackrabbit.vault:org.apache.jackrabbit.vault.target-osgi-environment](https://search.maven.org/artifact/org.apache.jackrabbit.vault/org.apache.jackrabbit.vault.target-osgi-environment/)
+* [org.apache.jackrabbit.vault:parent](https://search.maven.org/artifact/org.apache.jackrabbit.vault/parent/)
+* [org.apache.jackrabbit.vault:vault-cli](https://search.maven.org/artifact/org.apache.jackrabbit.vault/vault-cli/)
+* [org.apache.jackrabbit.vault:vault-davex](https://search.maven.org/artifact/org.apache.jackrabbit.vault/vault-davex/)
+* [org.apache.jackrabbit.vault:vault-diff](https://search.maven.org/artifact/org.apache.jackrabbit.vault/vault-diff/)
+* [org.apache.jackrabbit.vault:vault-doc](https://search.maven.org/artifact/org.apache.jackrabbit.vault/vault-doc/)
+* [org.apache.jackrabbit.vault:vault-hook-example](https://search.maven.org/artifact/org.apache.jackrabbit.vault/vault-hook-example/)
+* [org.apache.jackrabbit.vault:vault-hook-externalclass-test](https://search.maven.org/artifact/org.apache.jackrabbit.vault/vault-hook-externalclass-test/)
+* [org.apache.jackrabbit.vault:vault-sync](https://search.maven.org/artifact/org.apache.jackrabbit.vault/vault-sync/)
+* [org.apache.jackrabbit.vault:vault-validation](https://search.maven.org/artifact/org.apache.jackrabbit.vault/vault-validation/)
+* [org.apache.jackrabbit.vault:vault-vlt](https://search.maven.org/artifact/org.apache.jackrabbit.vault/vault-vlt/)
+</details>
+
 rebuilding **7 releases** of org.apache.jackrabbit.vault:jackrabbit-filevault:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 7 had issues (some unreproducible artifacts :warning:):

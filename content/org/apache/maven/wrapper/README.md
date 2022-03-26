@@ -7,6 +7,14 @@
 
 Source code: [https://github.com/apache/maven-wrapper.git](https://github.com/apache/maven-wrapper.git)
 
+<details><summary>This project defines 4 artifacts:</summary>
+
+* [org.apache.maven.plugins:maven-wrapper-plugin](https://search.maven.org/artifact/org.apache.maven.plugins/maven-wrapper-plugin/)
+* [org.apache.maven.wrapper:maven-wrapper](https://search.maven.org/artifact/org.apache.maven.wrapper/maven-wrapper/)
+* [org.apache.maven.wrapper:maven-wrapper-distribution](https://search.maven.org/artifact/org.apache.maven.wrapper/maven-wrapper-distribution/)
+* [org.apache.maven.wrapper:maven-wrapper-parent](https://search.maven.org/artifact/org.apache.maven.wrapper/maven-wrapper-parent/)
+</details>
+
 rebuilding **1 releases** of org.apache.maven.wrapper:maven-wrapper-parent:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):

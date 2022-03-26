@@ -7,6 +7,26 @@
 
 Source code: [https://github.com/apache/mina-sshd.git](https://github.com/apache/mina-sshd.git)
 
+<details><summary>This project defines 16 artifacts:</summary>
+
+* [org.apache.sshd:apache-sshd](https://search.maven.org/artifact/org.apache.sshd/apache-sshd/)
+* [org.apache.sshd:sshd](https://search.maven.org/artifact/org.apache.sshd/sshd/)
+* [org.apache.sshd:sshd-cli](https://search.maven.org/artifact/org.apache.sshd/sshd-cli/)
+* [org.apache.sshd:sshd-common](https://search.maven.org/artifact/org.apache.sshd/sshd-common/)
+* [org.apache.sshd:sshd-contrib](https://search.maven.org/artifact/org.apache.sshd/sshd-contrib/)
+* [org.apache.sshd:sshd-core](https://search.maven.org/artifact/org.apache.sshd/sshd-core/)
+* [org.apache.sshd:sshd-git](https://search.maven.org/artifact/org.apache.sshd/sshd-git/)
+* [org.apache.sshd:sshd-ldap](https://search.maven.org/artifact/org.apache.sshd/sshd-ldap/)
+* [org.apache.sshd:sshd-mina](https://search.maven.org/artifact/org.apache.sshd/sshd-mina/)
+* [org.apache.sshd:sshd-netty](https://search.maven.org/artifact/org.apache.sshd/sshd-netty/)
+* [org.apache.sshd:sshd-openpgp](https://search.maven.org/artifact/org.apache.sshd/sshd-openpgp/)
+* [org.apache.sshd:sshd-osgi](https://search.maven.org/artifact/org.apache.sshd/sshd-osgi/)
+* [org.apache.sshd:sshd-putty](https://search.maven.org/artifact/org.apache.sshd/sshd-putty/)
+* [org.apache.sshd:sshd-scp](https://search.maven.org/artifact/org.apache.sshd/sshd-scp/)
+* [org.apache.sshd:sshd-sftp](https://search.maven.org/artifact/org.apache.sshd/sshd-sftp/)
+* [org.apache.sshd:sshd-spring-sftp](https://search.maven.org/artifact/org.apache.sshd/sshd-spring-sftp/)
+</details>
+
 rebuilding **2 releases** of org.apache.sshd:sshd:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:):

@@ -7,6 +7,16 @@
 
 Source code: [https://github.com/Convex-Dev/convex.git](https://github.com/Convex-Dev/convex.git)
 
+<details><summary>This project defines 6 artifacts:</summary>
+
+* [world.convex:convex](https://search.maven.org/artifact/world.convex/convex/)
+* [world.convex:convex-benchmarks](https://search.maven.org/artifact/world.convex/convex-benchmarks/)
+* [world.convex:convex-cli](https://search.maven.org/artifact/world.convex/convex-cli/)
+* [world.convex:convex-core](https://search.maven.org/artifact/world.convex/convex-core/)
+* [world.convex:convex-gui](https://search.maven.org/artifact/world.convex/convex-gui/)
+* [world.convex:convex-peer](https://search.maven.org/artifact/world.convex/convex-peer/)
+</details>
+
 rebuilding **4 releases** of world.convex:convex:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 4 had issues (some unreproducible artifacts :warning:):

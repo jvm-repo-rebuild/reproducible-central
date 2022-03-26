@@ -7,6 +7,18 @@
 
 Source code: [https://github.com/apache/any23.git](https://github.com/apache/any23.git)
 
+<details><summary>This project defines 8 artifacts:</summary>
+
+* [org.apache.any23:apache-any23](https://search.maven.org/artifact/org.apache.any23/apache-any23/)
+* [org.apache.any23:apache-any23-api](https://search.maven.org/artifact/org.apache.any23/apache-any23-api/)
+* [org.apache.any23:apache-any23-cli](https://search.maven.org/artifact/org.apache.any23/apache-any23-cli/)
+* [org.apache.any23:apache-any23-core](https://search.maven.org/artifact/org.apache.any23/apache-any23-core/)
+* [org.apache.any23:apache-any23-csvutils](https://search.maven.org/artifact/org.apache.any23/apache-any23-csvutils/)
+* [org.apache.any23:apache-any23-encoding](https://search.maven.org/artifact/org.apache.any23/apache-any23-encoding/)
+* [org.apache.any23:apache-any23-mime](https://search.maven.org/artifact/org.apache.any23/apache-any23-mime/)
+* [org.apache.any23:apache-any23-test-resources](https://search.maven.org/artifact/org.apache.any23/apache-any23-test-resources/)
+</details>
+
 rebuilding **1 releases** of org.apache.any23:apache-any23:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:):

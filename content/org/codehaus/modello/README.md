@@ -7,6 +7,28 @@
 
 Source code: [https://github.com/codehaus-plexus/modello.git](https://github.com/codehaus-plexus/modello.git)
 
+<details><summary>This project defines 18 artifacts:</summary>
+
+* [org.codehaus.modello:modello](https://search.maven.org/artifact/org.codehaus.modello/modello/)
+* [org.codehaus.modello:modello-core](https://search.maven.org/artifact/org.codehaus.modello/modello-core/)
+* [org.codehaus.modello:modello-maven-plugin](https://search.maven.org/artifact/org.codehaus.modello/modello-maven-plugin/)
+* [org.codehaus.modello:modello-plugin-converters](https://search.maven.org/artifact/org.codehaus.modello/modello-plugin-converters/)
+* [org.codehaus.modello:modello-plugin-dom4j](https://search.maven.org/artifact/org.codehaus.modello/modello-plugin-dom4j/)
+* [org.codehaus.modello:modello-plugin-jackson](https://search.maven.org/artifact/org.codehaus.modello/modello-plugin-jackson/)
+* [org.codehaus.modello:modello-plugin-java](https://search.maven.org/artifact/org.codehaus.modello/modello-plugin-java/)
+* [org.codehaus.modello:modello-plugin-jdom](https://search.maven.org/artifact/org.codehaus.modello/modello-plugin-jdom/)
+* [org.codehaus.modello:modello-plugin-jsonschema](https://search.maven.org/artifact/org.codehaus.modello/modello-plugin-jsonschema/)
+* [org.codehaus.modello:modello-plugin-sax](https://search.maven.org/artifact/org.codehaus.modello/modello-plugin-sax/)
+* [org.codehaus.modello:modello-plugin-snakeyaml](https://search.maven.org/artifact/org.codehaus.modello/modello-plugin-snakeyaml/)
+* [org.codehaus.modello:modello-plugin-stax](https://search.maven.org/artifact/org.codehaus.modello/modello-plugin-stax/)
+* [org.codehaus.modello:modello-plugin-xdoc](https://search.maven.org/artifact/org.codehaus.modello/modello-plugin-xdoc/)
+* [org.codehaus.modello:modello-plugin-xml](https://search.maven.org/artifact/org.codehaus.modello/modello-plugin-xml/)
+* [org.codehaus.modello:modello-plugin-xpp3](https://search.maven.org/artifact/org.codehaus.modello/modello-plugin-xpp3/)
+* [org.codehaus.modello:modello-plugin-xsd](https://search.maven.org/artifact/org.codehaus.modello/modello-plugin-xsd/)
+* [org.codehaus.modello:modello-plugins](https://search.maven.org/artifact/org.codehaus.modello/modello-plugins/)
+* [org.codehaus.modello:modello-test](https://search.maven.org/artifact/org.codehaus.modello/modello-test/)
+</details>
+
 rebuilding **1 releases** of org.codehaus.modello:modello:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):

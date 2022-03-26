@@ -7,6 +7,14 @@
 
 Source code: [https://github.com/eclipse/transformer.git](https://github.com/eclipse/transformer.git)
 
+<details><summary>This project defines 4 artifacts:</summary>
+
+* [org.eclipse.transformer:org.eclipse.transformer](https://search.maven.org/artifact/org.eclipse.transformer/org.eclipse.transformer/)
+* [org.eclipse.transformer:org.eclipse.transformer.cli](https://search.maven.org/artifact/org.eclipse.transformer/org.eclipse.transformer.cli/)
+* [org.eclipse.transformer:org.eclipse.transformer.maven](https://search.maven.org/artifact/org.eclipse.transformer/org.eclipse.transformer.maven/)
+* [org.eclipse.transformer:org.eclipse.transformer.parent](https://search.maven.org/artifact/org.eclipse.transformer/org.eclipse.transformer.parent/)
+</details>
+
 rebuilding **1 releases** of org.eclipse.transformer:org.eclipse.transformer.parent:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):

@@ -7,6 +7,16 @@
 
 Source code: [https://github.com/apache/maven-doxia-sitetools.git](https://github.com/apache/maven-doxia-sitetools.git)
 
+<details><summary>This project defines 6 artifacts:</summary>
+
+* [org.apache.maven.doxia:doxia-decoration-model](https://search.maven.org/artifact/org.apache.maven.doxia/doxia-decoration-model/)
+* [org.apache.maven.doxia:doxia-doc-renderer](https://search.maven.org/artifact/org.apache.maven.doxia/doxia-doc-renderer/)
+* [org.apache.maven.doxia:doxia-integration-tools](https://search.maven.org/artifact/org.apache.maven.doxia/doxia-integration-tools/)
+* [org.apache.maven.doxia:doxia-site-renderer](https://search.maven.org/artifact/org.apache.maven.doxia/doxia-site-renderer/)
+* [org.apache.maven.doxia:doxia-sitetools](https://search.maven.org/artifact/org.apache.maven.doxia/doxia-sitetools/)
+* [org.apache.maven.doxia:doxia-skin-model](https://search.maven.org/artifact/org.apache.maven.doxia/doxia-skin-model/)
+</details>
+
 rebuilding **5 releases** of org.apache.maven.doxia:doxia-sitetools:
 - **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):

@@ -7,6 +7,43 @@
 
 Source code: [https://github.com/apache/jspwiki.git](https://github.com/apache/jspwiki.git)
 
+<details><summary>This project defines 33 artifacts:</summary>
+
+* [org.apache.jspwiki.it:jspwiki-it-builder](https://search.maven.org/artifact/org.apache.jspwiki.it/jspwiki-it-builder/)
+* [org.apache.jspwiki.it:jspwiki-it-test-cma](https://search.maven.org/artifact/org.apache.jspwiki.it/jspwiki-it-test-cma/)
+* [org.apache.jspwiki.it:jspwiki-it-test-cma-jdbc](https://search.maven.org/artifact/org.apache.jspwiki.it/jspwiki-it-test-cma-jdbc/)
+* [org.apache.jspwiki.it:jspwiki-it-test-custom](https://search.maven.org/artifact/org.apache.jspwiki.it/jspwiki-it-test-custom/)
+* [org.apache.jspwiki.it:jspwiki-it-test-custom-absolute-urls](https://search.maven.org/artifact/org.apache.jspwiki.it/jspwiki-it-test-custom-absolute-urls/)
+* [org.apache.jspwiki.it:jspwiki-it-test-custom-jdbc](https://search.maven.org/artifact/org.apache.jspwiki.it/jspwiki-it-test-custom-jdbc/)
+* [org.apache.jspwiki.it:jspwiki-selenide-tests](https://search.maven.org/artifact/org.apache.jspwiki.it/jspwiki-selenide-tests/)
+* [org.apache.jspwiki.wikipages:jspwiki-wikipages-builder](https://search.maven.org/artifact/org.apache.jspwiki.wikipages/jspwiki-wikipages-builder/)
+* [org.apache.jspwiki.wikipages:jspwiki-wikipages-de](https://search.maven.org/artifact/org.apache.jspwiki.wikipages/jspwiki-wikipages-de/)
+* [org.apache.jspwiki.wikipages:jspwiki-wikipages-en](https://search.maven.org/artifact/org.apache.jspwiki.wikipages/jspwiki-wikipages-en/)
+* [org.apache.jspwiki.wikipages:jspwiki-wikipages-es](https://search.maven.org/artifact/org.apache.jspwiki.wikipages/jspwiki-wikipages-es/)
+* [org.apache.jspwiki.wikipages:jspwiki-wikipages-fi](https://search.maven.org/artifact/org.apache.jspwiki.wikipages/jspwiki-wikipages-fi/)
+* [org.apache.jspwiki.wikipages:jspwiki-wikipages-fr](https://search.maven.org/artifact/org.apache.jspwiki.wikipages/jspwiki-wikipages-fr/)
+* [org.apache.jspwiki.wikipages:jspwiki-wikipages-it](https://search.maven.org/artifact/org.apache.jspwiki.wikipages/jspwiki-wikipages-it/)
+* [org.apache.jspwiki.wikipages:jspwiki-wikipages-nl](https://search.maven.org/artifact/org.apache.jspwiki.wikipages/jspwiki-wikipages-nl/)
+* [org.apache.jspwiki.wikipages:jspwiki-wikipages-pt_BR](https://search.maven.org/artifact/org.apache.jspwiki.wikipages/jspwiki-wikipages-pt_BR/)
+* [org.apache.jspwiki.wikipages:jspwiki-wikipages-ru](https://search.maven.org/artifact/org.apache.jspwiki.wikipages/jspwiki-wikipages-ru/)
+* [org.apache.jspwiki.wikipages:jspwiki-wikipages-zh_CN](https://search.maven.org/artifact/org.apache.jspwiki.wikipages/jspwiki-wikipages-zh_CN/)
+* [org.apache.jspwiki:jspwiki-210-adapters](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-210-adapters/)
+* [org.apache.jspwiki:jspwiki-210-test-adaptees](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-210-test-adaptees/)
+* [org.apache.jspwiki:jspwiki-api](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-api/)
+* [org.apache.jspwiki:jspwiki-bom](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-bom/)
+* [org.apache.jspwiki:jspwiki-bootstrap](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-bootstrap/)
+* [org.apache.jspwiki:jspwiki-builder](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-builder/)
+* [org.apache.jspwiki:jspwiki-cache](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-cache/)
+* [org.apache.jspwiki:jspwiki-event](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-event/)
+* [org.apache.jspwiki:jspwiki-kendra-searchprovider](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-kendra-searchprovider/)
+* [org.apache.jspwiki:jspwiki-main](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-main/)
+* [org.apache.jspwiki:jspwiki-markdown](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-markdown/)
+* [org.apache.jspwiki:jspwiki-portable](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-portable/)
+* [org.apache.jspwiki:jspwiki-tika-searchprovider](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-tika-searchprovider/)
+* [org.apache.jspwiki:jspwiki-util](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-util/)
+* [org.apache.jspwiki:jspwiki-war](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-war/)
+</details>
+
 rebuilding **5 releases** of org.apache.jspwiki:jspwiki-builder:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:):

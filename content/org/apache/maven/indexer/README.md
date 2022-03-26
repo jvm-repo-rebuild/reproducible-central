@@ -7,6 +7,17 @@
 
 Source code: [https://github.com/apache/maven-indexer.git](https://github.com/apache/maven-indexer.git)
 
+<details><summary>This project defines 7 artifacts:</summary>
+
+* [org.apache.maven.indexer:indexer-cli](https://search.maven.org/artifact/org.apache.maven.indexer/indexer-cli/)
+* [org.apache.maven.indexer:indexer-core](https://search.maven.org/artifact/org.apache.maven.indexer/indexer-core/)
+* [org.apache.maven.indexer:indexer-examples-basic](https://search.maven.org/artifact/org.apache.maven.indexer/indexer-examples-basic/)
+* [org.apache.maven.indexer:indexer-examples-spring](https://search.maven.org/artifact/org.apache.maven.indexer/indexer-examples-spring/)
+* [org.apache.maven.indexer:indexer-reader](https://search.maven.org/artifact/org.apache.maven.indexer/indexer-reader/)
+* [org.apache.maven.indexer:maven-indexer](https://search.maven.org/artifact/org.apache.maven.indexer/maven-indexer/)
+* [org.apache.maven.indexer:maven-indexer-examples](https://search.maven.org/artifact/org.apache.maven.indexer/maven-indexer-examples/)
+</details>
+
 rebuilding **1 releases** of org.apache.maven.indexer:maven-indexer:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:):
