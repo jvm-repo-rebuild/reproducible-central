@@ -13,7 +13,6 @@ echo "| ----------------- | --------------- | --------- | -------- |" >> ${summa
 prevGroupId=
 
 for metadata in $(find content -name "maven-metadata.xml" -print | grep -v buildcache | sort)
-#for metadata in content/org/apache/maven/doxia/doxia/maven-metadata.xml
 do
   dir="$(dirname "${metadata}")"
   readme="${dir}/README.md"
@@ -106,11 +105,12 @@ do
   # add projet entry to main README
   echo -n "|" >> ${summary}
   [[ "$groupId" != "$prevGroupId" ]] && prevGroupId="$groupId" && echo -n " ${groupId}" >> ${summary}
+  echo -n " | <a name='${groupId}:${artifactId}'></a>" >> ${summary}
   if [ "$artifactId" == "$groupId" ]
   then
-    echo -n " | [${artifactId}]" >> ${summary}
+    echo -n "[${artifactId}]" >> ${summary}
   else
-    echo -n " | [${artifactId}]" | sed -e "s/$groupId/*/" >> ${summary}
+    echo -n "[${artifactId}]" | sed -e "s/$groupId/*/" >> ${summary}
   fi
   echo -n "(${dir}/README.md) | ${countVersion} | ${countVersionOk} :heavy_check_mark:" >> ${summary}
   [ "${countVersion}" -gt "${countVersionOk}" ] && echo -n " / $((countVersion - countVersionOk)) :warning:" >> ${summary}
