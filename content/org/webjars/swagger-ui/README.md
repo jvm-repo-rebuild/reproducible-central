@@ -13,6 +13,7 @@ rebuilding **4 releases** of org.webjars:swagger-ui:
 
 | version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
 | -- | --------- | ------ |
+| [4.9.1](https://search.maven.org/artifact/org.webjars/swagger-ui/4.9.1/pom) | | |
 | [4.8.1](https://search.maven.org/artifact/org.webjars/swagger-ui/4.8.1/pom) | [mvn jdk8](swagger-ui-4.8.1.buildspec) | [2 :heavy_check_mark: ](swagger-ui-4.8.1.buildcompare) |
 | [4.8.0](https://search.maven.org/artifact/org.webjars/swagger-ui/4.8.0/pom) | [mvn jdk11](swagger-ui-4.8.0.buildspec) | [2 :heavy_check_mark: ](swagger-ui-4.8.0.buildcompare) |
 | [4.6.2](https://search.maven.org/artifact/org.webjars/swagger-ui/4.6.2/pom) | [mvn jdk8](swagger-ui-4.6.2.buildspec) | [2 :heavy_check_mark: ](swagger-ui-4.6.2.buildcompare) |
