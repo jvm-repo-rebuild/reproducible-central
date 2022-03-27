@@ -91,7 +91,8 @@ do
       if [ $? -eq 0 ]; then
         echo -n "[" >> ${t}
         [ "${ok}" -gt 0 ] && echo -n "${ok} :heavy_check_mark: " >> ${t}
-        [ "${ko}" -gt 0 ] && echo -n " ${ko} :warning:" >> ${t} || ((countVersionOk++)) && ((globalVersionOk++))
+        [ "${ko}" -gt 0 ] && echo -n " ${ko} :warning:" >> ${t} || ((countVersionOk++))
+        [ "${ko}" -gt 0 ] || ((globalVersionOk++))
         echo -n "](${buildcompare})" >> ${t}
         [[ -z "${diffoscope}" ]] || echo -n " [:mag:](${diffoscope})" >> ${t}
         [[ -z "${issue}" ]] || echo -n " [:memo:](${issue})" >> ${t}

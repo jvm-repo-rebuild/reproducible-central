@@ -67,8 +67,8 @@ Nightly Rebuild: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproduci
 
 <!-- BEGIN GENERATED INTRO -->
 rebuilding **764 releases** of **242 projects**:
-- **587** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 177 had issues (some unreproducible artifacts :warning:):
+- **515** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- 249 had issues (some unreproducible artifacts :warning:):
 
 <!-- END GENERATED INTRO -->
 
@@ -317,7 +317,7 @@ rebuilding **764 releases** of **242 projects**:
 | org.webjars | <a name='org.webjars:flexmonster'></a>[flexmonster](content/org/webjars/flexmonster/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.webjars:swagger-ui'></a>[swagger-ui](content/org/webjars/swagger-ui/README.md) | 4 | 4 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 4 | 0 :heavy_check_mark: / 4 :warning: |
-| **Count:** | **242** | **764** | **587** :heavy_check_mark: **177** :warning: |
+| **Count:** | **242** | **764** | **515** :heavy_check_mark: **249** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ## Understanding What Is Behind
