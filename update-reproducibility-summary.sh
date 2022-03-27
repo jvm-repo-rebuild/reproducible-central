@@ -131,8 +131,14 @@ do
   else
     echo -n "[${artifactId}]" | sed -e "s/$groupId/*/" >> ${summary}
   fi
-  echo -n "(${dir}/README.md) | ${countVersion} | ${countVersionOk} :heavy_check_mark:" >> ${summary}
-  [ "${countVersion}" -gt "${countVersionOk}" ] && echo -n " / $((countVersion - countVersionOk)) :warning:" >> ${summary}
+  echo -n "(${dir}/README.md) | ${countVersion} | " >> ${summary}
+  if [ "${countVersionOk}" == "0" ]
+  then
+    echo -n "$((countVersion)) :warning:" >> ${summary}
+  else
+    echo -n "${countVersionOk} :heavy_check_mark:" >> ${summary}
+    [ "${countVersion}" -gt "${countVersionOk}" ] && echo -n " / $((countVersion - countVersionOk)) :warning:" >> ${summary}
+  fi
   echo " |" >> ${summary}
 done
 
