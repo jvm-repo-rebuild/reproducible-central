@@ -13,7 +13,7 @@ jobs:
           fingerprints:
             - "26:7f:22:ed:07:09:d2:15:c9:fb:43:29:64:2f:bd:b2"
       - run:
-          name: Install git
+          name: Install git and curl
           command: |
             apk add \
                 --update-cache \
@@ -21,6 +21,7 @@ jobs:
                 openssh \
                 git \
                 bash \
+                curl \
       - checkout
 #      - shellcheck/install
 #      - shellcheck/check:
