@@ -1,0 +1,46 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Feature Model Analyser
+group-id=org.apache.sling
+artifact-id=org.apache.sling.feature.analyser
+version=1.6.4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-feature-analyser.git
+source.scm.tag=org.apache.sling.feature.analyser-1.6.4
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=14
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.feature.analyser-1.6.4.pom
+outputs.0.length=8522
+outputs.0.checksums.sha512=31004dd60f1df9c3daae4a4989a347d1c37ecd53b61322eb28cbcd26d2f3ebc439d15b51f9eeb7779839d843d9c02f619ba8af904e3068acd3259e49e4050fb9
+
+outputs.1.filename=org.apache.sling.feature.analyser-1.6.4.jar
+outputs.1.length=200733
+outputs.1.checksums.sha512=732192ff1ec45317d065cf5aa806f206a9e368ff1270e64e38bc095cb9dc98ae19d1e7d81c6633fdd4470d0645c0fbb3425e25f790f19d63694277bc60759748
+
+outputs.2.filename=org.apache.sling.feature.analyser-1.6.4-source-release.zip
+outputs.2.length=198389
+outputs.2.checksums.sha512=3de206a5f742f4be6e1cb336a833f9c1ada566050bdbf03d3aea94df6757f438ad769781a067bf9450d1b24d37168dcd35ac908eba75a29dceb02776aac0860c
+
+outputs.3.filename=org.apache.sling.feature.analyser-1.6.4-sources.jar
+outputs.3.length=92667
+outputs.3.checksums.sha512=32b7aeb552408a6b123b92523ead6de2df48c14e0febbc2465ab0c75e36585f7e81e7363585bd2f195f6b25e8eab9e4921d442def677362b95f2466bc6afc7d8
+
+outputs.4.filename=org.apache.sling.feature.analyser-1.6.4-sources.jar
+outputs.4.length=92667
+outputs.4.checksums.sha512=32b7aeb552408a6b123b92523ead6de2df48c14e0febbc2465ab0c75e36585f7e81e7363585bd2f195f6b25e8eab9e4921d442def677362b95f2466bc6afc7d8
+
+outputs.5.filename=org.apache.sling.feature.analyser-1.6.4-sources.jar
+outputs.5.length=92667
+outputs.5.checksums.sha512=32b7aeb552408a6b123b92523ead6de2df48c14e0febbc2465ab0c75e36585f7e81e7363585bd2f195f6b25e8eab9e4921d442def677362b95f2466bc6afc7d8
