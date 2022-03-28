@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus IO Components
+group-id=org.codehaus.plexus
+artifact-id=plexus-io
+version=3.3.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:codehaus-plexus/plexus-io.git
+source.scm.tag=plexus-io-3.3.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=plexus-io-3.3.0.pom
+outputs.0.length=4612
+outputs.0.checksums.sha512=e13a7a025fdd0702b1eb3b651e3861221e770b8dcc07e3426b9d8c0b7f02c3eca3374d7ec215bde6e2ea99628dc4e06576198d1b2bf65bc1516a72014837ad89
+
+outputs.1.filename=plexus-io-3.3.0.jar
+outputs.1.length=76776
+outputs.1.checksums.sha512=5d5554bc1337ada165cba638097b51b0bed62ca5d339d3a97218ab0ab53549562bcef29b3f7eb347d62da7a0ef2cc0ede8daf24fbd3a1492bbd3a9aa960819f6
+
+outputs.2.filename=plexus-io-3.3.0-source-release.zip
+outputs.2.length=108969
+outputs.2.checksums.sha512=a59a09f3c11fce13c8b1407eab3d17976d1b952e192e94c2d53682aa7e6aad1b97cdd7ed2e4ed7c30dbd542ec9d7424c957a913a6bce92dddbe21d2428d7f49f
+
+outputs.3.filename=plexus-io-3.3.0-sources.jar
+outputs.3.length=66059
+outputs.3.checksums.sha512=f0b3307059b3324dfe8d0f2694fdcee41a35e7792702d81eb60e2680b338e77d67026c99cc52dbd37c5b229810bc7927c729b7280ee5b2d0a0ee7ba912a51dc1
