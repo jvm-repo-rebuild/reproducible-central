@@ -20,6 +20,7 @@ rebuilding **4 releases** of io.wcm:io.wcm.caconfig.editor.parent:
 
 | version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
 | -- | --------- | ------ |
+| [1.11.0](https://search.maven.org/artifact/io.wcm/io.wcm.caconfig.editor.parent/1.11.0/pom) | | |
 | [1.10.0](https://search.maven.org/artifact/io.wcm/io.wcm.caconfig.editor.parent/1.10.0/pom) | | |
 | [1.9.0](https://search.maven.org/artifact/io.wcm/io.wcm.caconfig.editor.parent/1.9.0/pom) | | |
 | [1.8.6](https://search.maven.org/artifact/io.wcm/io.wcm.caconfig.editor.parent/1.8.6/pom) | | |

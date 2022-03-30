@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/micronaut-projects/micronaut-maven-plugin.git](https://github.com/micronaut-projects/micronaut-maven-plugin.git)
 
-rebuilding **19 releases** of io.micronaut.build:micronaut-maven-plugin:
-- **19** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **20 releases** of io.micronaut.build:micronaut-maven-plugin:
+- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
 | version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
 | -- | --------- | ------ |
-| [3.2.1](https://search.maven.org/artifact/io.micronaut.build/micronaut-maven-plugin/3.2.1/pom) | | |
+| [3.2.1](https://search.maven.org/artifact/io.micronaut.build/micronaut-maven-plugin/3.2.1/pom) | [mvn jdk8](micronaut-maven-plugin-3.2.1.buildspec) | [3 :heavy_check_mark: ](micronaut-maven-plugin-3.2.1.buildcompare) |
 | [3.2.0](https://search.maven.org/artifact/io.micronaut.build/micronaut-maven-plugin/3.2.0/pom) | [mvn jdk8](micronaut-maven-plugin-3.2.0.buildspec) | [3 :heavy_check_mark: ](micronaut-maven-plugin-3.2.0.buildcompare) |
 | [3.1.1](https://search.maven.org/artifact/io.micronaut.build/micronaut-maven-plugin/3.1.1/pom) | [mvn jdk8](micronaut-maven-plugin-3.1.1.buildspec) | [3 :heavy_check_mark: ](micronaut-maven-plugin-3.1.1.buildcompare) |
 | [3.1.0](https://search.maven.org/artifact/io.micronaut.build/micronaut-maven-plugin/3.1.0/pom) | [mvn jdk8](micronaut-maven-plugin-3.1.0.buildspec) | [3 :heavy_check_mark: ](micronaut-maven-plugin-3.1.0.buildcompare) |
