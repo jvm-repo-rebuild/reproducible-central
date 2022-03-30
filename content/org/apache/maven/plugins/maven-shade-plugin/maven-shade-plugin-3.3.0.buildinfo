@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Shade Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-shade-plugin
+version=3.3.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-shade-plugin.git
+source.scm.tag=maven-shade-plugin-3.3.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.1.1
+
+# output
+
+outputs.0.filename=maven-shade-plugin-3.3.0.pom
+outputs.0.length=13016
+outputs.0.checksums.sha512=44fe2abde4a4f71aa497428ad0b998f7372b332c3ccf6ac29ad8f28525575b4c6977da8a095c5f27b9da188c3114e2b625a399d4eec403c5608e0088596b5aa2
+
+outputs.1.filename=maven-shade-plugin-3.3.0.jar
+outputs.1.length=140653
+outputs.1.checksums.sha512=608b81f82e5775501581a4e67172f2238b78c3d2d0c6a772765a1bce0628b7faed4a64e3d8b5b4357df675d1e016391e25e2184c82f9ab873154189c3c31ac4c
+
+outputs.2.filename=maven-shade-plugin-3.3.0-source-release.zip
+outputs.2.length=874165
+outputs.2.checksums.sha512=f88196508ca14442c7b6e6cf8e09b9e6d5ad7139e5c95d27b4f0ae390c4339277248ded7ddef5fd43151b9bc6abaaab6157d478fe4a73f941004cb8429bbfefd
+
+outputs.3.filename=maven-shade-plugin-3.3.0-sources.jar
+outputs.3.length=95474
+outputs.3.checksums.sha512=10420a42f9a819b92449e0a1f79e27477ddd4822b2c9fea066819f8c2596061a6c5f45843af48c413756c1fa4b7375e2c01802385a651fafffa00821304d6fb3
