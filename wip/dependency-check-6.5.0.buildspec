@@ -13,8 +13,10 @@ newline=lf
 
 # [WARNING] Reproducible Build output summary: 6 files ok, 10 different, 6 missing
 # this projects publishes its buildinfo to central, which seems to break artifact:compare...
-command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+command="mvn clean package -Prelease-profile -DskipTests -Dmaven.javadoc.skip -Dgpg.skip org.apache.maven.plugins:maven-deploy-plugin:3.0.0-M2:deploy -DaltDeploymentRepository=local::file:./target/staging-deploy"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-#diffoscope="https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/$(echo ${groupId} | tr '.' '/')/${artifactId}/${artifactId}-${version}.diffoscope"
+# for f in `find org/ -type f | grep -v maven-metadata.xml | grep -v .sha1 | grep -v .md5` ; do wget -N https://repo.maven.apache.org/maven2/$f ; diffoscope $f $(basename $f); done
+
+#diffoscope=target/${artifactId}-${version}.diffoscope"
 issue=
