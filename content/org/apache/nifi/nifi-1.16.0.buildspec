@@ -1,0 +1,18 @@
+groupId=org.apache.nifi
+artifactId=nifi
+display=${groupId}:${artifactId}
+version=1.16.0
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=rel/${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+# did not work with ./rebuild.sh Docker image: I had to run directly by hand on my own machine...
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/apache/nifi/pull/5915
