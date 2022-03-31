@@ -119,6 +119,8 @@ do
   echo "| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |" >> $readme
   echo "| -- | --------- | ------ | -- |" >> $readme
   cat ${t} >> "${readme}"
+  echo >> "${readme}"
+  echo "<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>" >> "${readme}"
   \rm -f ${t}
 
   # add projet entry to main README
