@@ -1,0 +1,870 @@
+<plugin>
+    <groupId>org.antlr</groupId>
+    <artifactId>antlr3-maven-plugin</artifactId>
+    <version>3.5.2</version>
+</plugin>
+$ diffoscope target/reference/nifi-expression-language-1.16.0-SNAPSHOT-sources.jar nifi-commons/nifi-expression-language/target/nifi-expression-language-1.16.0-SNAPSHOT-sources.jar
+--- target/reference/nifi-expression-language-1.16.0-SNAPSHOT-sources.jar
++++ nifi-commons/nifi-expression-language/target/nifi-expression-language-1.16.0-SNAPSHOT-sources.jar
+├── zipinfo /dev/stdin
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 228655 bytes, number of entries: 171
+│ +Zip file size: 228654 bytes, number of entries: 171
+│  -rw-r--r--  2.0 unx       64 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/nifi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/nifi/attribute/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/nifi/attribute/expression/
+│ @@ -166,8 +166,8 @@
+│  -rw-r--r--  2.0 unx     1168 b- defN 80-000-00 04:08 org/apache/nifi/attribute/expression/language/exception/IllegalAttributeException.java
+│  -rw-r--r--  2.0 unx     1568 b- defN 80-000-00 04:08 AttributeExpressionLexer.tokens
+│  -rw-r--r--  2.0 unx     1724 b- defN 80-000-00 04:08 AttributeExpressionParser.tokens
+│  -rw-r--r--  2.0 unx   240252 b- defN 80-000-00 04:08 org/apache/nifi/attribute/expression/language/antlr/AttributeExpressionLexer.java
+│  -rw-r--r--  2.0 unx   158494 b- defN 80-000-00 04:08 org/apache/nifi/attribute/expression/language/antlr/AttributeExpressionParser.java
+│  -rw-r--r--  2.0 unx     4503 b- defN 80-000-00 04:08 META-INF/maven/org.apache.nifi/nifi-expression-language/pom.xml
+│  -rw-r--r--  2.0 unx       84 b- defN 80-000-00 04:08 META-INF/maven/org.apache.nifi/nifi-expression-language/pom.properties
+│ -171 files, 873747 bytes uncompressed, 188793 bytes compressed:  78.4%
+│ +171 files, 873747 bytes uncompressed, 188792 bytes compressed:  78.4%
+├── org/apache/nifi/attribute/expression/language/antlr/AttributeExpressionLexer.java
+│ @@ -1,8 +1,8 @@
+│ -// $ANTLR 3.5.2 org/apache/nifi/attribute/expression/language/antlr/AttributeExpressionLexer.g 2022-03-31 03:21:04
+│ +// $ANTLR 3.5.2 org/apache/nifi/attribute/expression/language/antlr/AttributeExpressionLexer.g 2022-03-31 03:40:29
+│  
+│       package org.apache.nifi.attribute.expression.language.antlr;
+│       import org.apache.nifi.attribute.expression.language.exception.AttributeExpressionLanguageParsingException;
+│  
+│  
+│  import org.antlr.runtime.*;
+│  import java.util.Stack;
+├── org/apache/nifi/attribute/expression/language/antlr/AttributeExpressionParser.java
+│ @@ -1,8 +1,8 @@
+│ -// $ANTLR 3.5.2 org/apache/nifi/attribute/expression/language/antlr/AttributeExpressionParser.g 2022-03-31 03:21:05
+│ +// $ANTLR 3.5.2 org/apache/nifi/attribute/expression/language/antlr/AttributeExpressionParser.g 2022-03-31 03:40:29
+│  
+│       package org.apache.nifi.attribute.expression.language.antlr;
+│       import org.apache.nifi.attribute.expression.language.exception.AttributeExpressionLanguageParsingException;
+│  
+│  
+│  import org.antlr.runtime.*;
+│  import java.util.Stack;
+│ @@ -3288,15 +3288,15 @@
+│                               }
+│                       }
+│  
+│                       RPAREN140=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_multiAttrName1013);  
+│                       stream_RPAREN.add(RPAREN140);
+│  
+│                       // AST REWRITE
+│ -                     // elements: stringArg, multiAttrFunction
+│ +                     // elements: multiAttrFunction, stringArg
+│                       // token labels: 
+│                       // rule labels: retval
+│                       // token list labels: 
+│                       // rule list labels: 
+│                       // wildcard labels: 
+│                       retval.tree = root_0;
+│                       RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.getTree():null);
+
+
+<plugin>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>jaxb2-maven-plugin</artifactId>
+    <version>2.5.0</version>
+</plugin>
+$ diffoscope target/reference/nifi-authorizer-1.16.0-SNAPSHOT.jar nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-authorizer/target/nifi-authorizer-1.16.0-SNAPSHOT.jar
+--- target/reference/nifi-authorizer-1.16.0-SNAPSHOT.jar
++++ nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-authorizer/target/nifi-authorizer-1.16.0-SNAPSHOT.jar
+├── zipinfo /dev/stdin
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 47559 bytes, number of entries: 38
+│ +Zip file size: 47561 bytes, number of entries: 38
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  -rw-r--r--  2.0 unx      315 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/nifi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/nifi/authorization/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/nifi/authorization/generated/
+│ @@ -33,8 +33,8 @@
+│  -rw-r--r--  2.0 unx     1735 b- defN 80-000-00 04:08 org/apache/nifi/authorization/generated/Authorizer.class
+│  -rw-r--r--  2.0 unx     1729 b- defN 80-000-00 04:08 org/apache/nifi/authorization/generated/Authorizers.class
+│  -rw-r--r--  2.0 unx     1483 b- defN 80-000-00 04:08 org/apache/nifi/authorization/generated/ObjectFactory.class
+│  -rw-r--r--  2.0 unx     1315 b- defN 80-000-00 04:08 org/apache/nifi/authorization/generated/Property.class
+│  -rw-r--r--  2.0 unx     1563 b- defN 80-000-00 04:08 org/apache/nifi/authorization/generated/UserGroupProvider.class
+│  -rw-r--r--  2.0 unx     6774 b- defN 80-000-00 04:08 META-INF/maven/org.apache.nifi/nifi-authorizer/pom.xml
+│  -rw-r--r--  2.0 unx       75 b- defN 80-000-00 04:08 META-INF/maven/org.apache.nifi/nifi-authorizer/pom.properties
+│ -38 files, 134512 bytes uncompressed, 41301 bytes compressed:  69.3%
+│ +38 files, 134512 bytes uncompressed, 41303 bytes compressed:  69.3%
+├── META-INF/sun-jaxb.episode
+│ @@ -2,15 +2,15 @@
+│  <jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+│        
+│      <!--
+│  
+│  Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.3.0 
+│  Voir <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+│  Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+│ -Généré le : 2022.03.31 à 03:23:22 AM CEST 
+│ +Généré le : 2022.03.31 à 03:42:44 AM CEST 
+│  
+│    -->
+│        
+│      <jaxb:bindings if-exists="true" scd="x-schema::">
+│              
+│          <jaxb:schemaBindings map="false">
+
+$ diffoscope target/reference/nifi-web-api-1.16.0-SNAPSHOT.war nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-api/target/nifi-web-api-1.16.0-SNAPSHOT.war
+--- target/reference/nifi-web-api-1.16.0-SNAPSHOT.war
++++ nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-api/target/nifi-web-api-1.16.0-SNAPSHOT.war
+├── zipinfo /dev/stdin
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 3899176 bytes, number of entries: 390
+│ +Zip file size: 3899120 bytes, number of entries: 390
+│  -rw-r--r--  2.0 unx       81 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 WEB-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 WEB-INF/classes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 WEB-INF/classes/META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 WEB-INF/classes/images/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 WEB-INF/classes/org/
+│ @@ -382,11 +382,11 @@
+│  -rw-r--r--  2.0 unx     5838 b- defN 80-000-00 04:08 WEB-INF/lib/simpleclient_common-0.3.0.jar
+│  -rw-r--r--  2.0 unx    17182 b- defN 80-000-00 04:08 WEB-INF/lib/simpleclient_hotspot-0.3.0.jar
+│  -rw-r--r--  2.0 unx     7087 b- defN 80-000-00 04:08 WEB-INF/lib/simpleclient_servlet-0.3.0.jar
+│  -rw-r--r--  2.0 unx    72008 b- defN 80-000-00 04:08 WEB-INF/lib/txw2-2.3.5.jar
+│  -rw-r--r--  2.0 unx     2883 b- defN 80-000-00 04:08 WEB-INF/web.xml
+│  -rw-r--r--  2.0 unx     5931 b- defN 80-000-00 04:08 docs/rest-api/images/bgNifiLogo.png
+│  -rw-r--r--  2.0 unx     1150 b- defN 80-000-00 04:08 docs/rest-api/images/nifi16.ico
+│ --rw-r--r--  2.0 unx  2532459 b- defN 80-000-00 04:08 docs/rest-api/index.html
+│ +-rw-r--r--  2.0 unx  2531653 b- defN 80-000-00 04:08 docs/rest-api/index.html
+│  -rw-r--r--  2.0 unx    17895 b- defN 80-000-00 04:08 META-INF/maven/org.apache.nifi/nifi-web-api/pom.xml
+│  -rw-r--r--  2.0 unx       72 b- defN 80-000-00 04:08 META-INF/maven/org.apache.nifi/nifi-web-api/pom.properties
+│ -390 files, 8482168 bytes uncompressed, 3816564 bytes compressed:  55.0%
+│ +390 files, 8481362 bytes uncompressed, 3816508 bytes compressed:  55.0%
+├── docs/rest-api/index.html
+│ @@ -42364,32 +42364,32 @@
+│                          
+│                              
+│                              
+│                                  string
+│                              
+│                          
+│                      </td>
+│ -                    <td>required</td>
+│ -                    <td>The group id of the bundle
+│ +                    <td>optional</td>
+│ +                    <td>The group of the bundle
+│                          
+│                          </td>
+│                  </tr>
+│              
+...
+
+<plugin>
+    <groupId>org.eclipse.jetty</groupId>
+    <artifactId>jetty-jspc-maven-plugin</artifactId>
+    <version>${jetty.version}</version>
+</plugin>
+<jetty.version>9.4.45.v20220203</jetty.version>
+$ diffoscope target/reference/nifi-web-ui-1.16.0-SNAPSHOT.war nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-ui/target/nifi-web-ui-1.16.0-SNAPSHOT.war
+--- target/reference/nifi-web-ui-1.16.0-SNAPSHOT.war
++++ nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-ui/target/nifi-web-ui-1.16.0-SNAPSHOT.war
+├── zipinfo /dev/stdin
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 4179333 bytes, number of entries: 662
+│ +Zip file size: 4179367 bytes, number of entries: 662
+│  -rw-r--r--  2.0 unx       81 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 WEB-INF/classes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 WEB-INF/classes/META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 WEB-INF/classes/filters/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 WEB-INF/classes/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 WEB-INF/classes/org/apache/
+│ @@ -657,8 +657,8 @@
+│  -rw-r--r--  2.0 unx    41280 b- defN 80-000-00 04:08 js/nf/templates/nf-templates-all.js
+│  -rw-r--r--  2.0 unx    11545 b- defN 80-000-00 04:08 js/nf/templates/nf-templates-all.js.gz
+│  -rw-r--r--  2.0 unx    55709 b- defN 80-000-00 04:08 js/nf/users/nf-users-all.js
+│  -rw-r--r--  2.0 unx    14315 b- defN 80-000-00 04:08 js/nf/users/nf-users-all.js.gz
+│  -rw-r--r--  2.0 unx     1618 b- defN 80-000-00 04:08 views/nf-ng-breadcrumbs-directive-view.html
+│  -rw-r--r--  2.0 unx    73782 b- defN 80-000-00 04:08 META-INF/maven/org.apache.nifi/nifi-web-ui/pom.xml
+│  -rw-r--r--  2.0 unx       71 b- defN 80-000-00 04:08 META-INF/maven/org.apache.nifi/nifi-web-ui/pom.properties
+│ -662 files, 10323676 bytes uncompressed, 4059457 bytes compressed:  60.7%
+│ +662 files, 10323676 bytes uncompressed, 4059491 bytes compressed:  60.7%
+...
+├── WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/yes_002dno_002ddialog_jsp.java
+│ @@ -1,11 +1,11 @@
+│  /*
+│   * Generated by the Jasper component of Apache Tomcat
+│   * Version: JspC/ApacheTomcat8
+│ - * Generated at: 2022-03-31 01:25:02 UTC
+│ + * Generated at: 2022-03-31 01:44:25 UTC
+│   * Note: The last modified time of this file was set to
+│   *       the last modified time of the source file after
+│   *       generation to assist with modification tracking.
+│   */
+│  package org.apache.jsp.WEB_002dINF.partials;
+│  
+│  import javax.servlet.*;
+├── WEB-INF/web.xml
+│ ├── WEB-INF/web.xml
+│ │ @@ -163,730 +163,730 @@
+│ │      <param-name>org.eclipse.jetty.jsp.precompiled</param-name>
+│ │      <param-value>true</param-value>
+│ │    </context-param>
+│ │    <!--
+│ │  Automatically created by Apache Tomcat JspC.
+│ │  -->
+│ │    <servlet>
+│ │ -    <servlet-name>org.apache.jsp.WEB_002dINF.partials.summary.cluster_002dprocess_002dgroup_002dsummary_002ddialog_jsp</servlet-name>
+│ │ -    <servlet-class>org.apache.jsp.WEB_002dINF.partials.summary.cluster_002dprocess_002dgroup_002dsummary_002ddialog_jsp</servlet-class>
+│ │ -  </servlet>
+│ │ -  <servlet>
+│ │ -    <servlet-name>org.apache.jsp.WEB_002dINF.partials.templates.templates_002dcontent_jsp</servlet-name>
+│ │ -    <servlet-class>org.apache.jsp.WEB_002dINF.partials.templates.templates_002dcontent_jsp</servlet-class>
+│ │ -  </servlet>
+│ │ -  <servlet>
+│ │      <servlet-name>org.apache.jsp.WEB_002dINF.partials.logout.logout_002dmessage_jsp</servlet-name>
+│ │      <servlet-class>org.apache.jsp.WEB_002dINF.partials.logout.logout_002dmessage_jsp</servlet-class>
+│ │    </servlet>
+...
+│ │    <servlet-mapping>
+│ │ -    <servlet-name>org.apache.jsp.WEB_002dINF.partials.cluster.node_002ddetails_002ddialog_jsp</servlet-name>
+│ │ -    <url-pattern>/WEB-INF/partials/cluster/node-details-dialog.jsp</url-pattern>
+│ │ -  </servlet-mapping>
+│ │ -  <servlet-mapping>
+│ │ -    <servlet-name>org.apache.jsp.WEB_002dINF.partials.cluster.cluster_002dcontent_jsp</servlet-name>
+│ │ -    <url-pattern>/WEB-INF/partials/cluster/cluster-content.jsp</url-pattern>
+│ │ -  </servlet-mapping>
+│ │ -  <servlet-mapping>
+│ │      <servlet-name>org.apache.jsp.WEB_002dINF.partials.provenance.provenance_002dquery_002ddialog_jsp</servlet-name>
+│ │      <url-pattern>/WEB-INF/partials/provenance/provenance-query-dialog.jsp</url-pattern>
+│ │    </servlet-mapping>
+│ │    <servlet-mapping>
+│ │ -    <servlet-name>org.apache.jsp.WEB_002dINF.partials.connection_002ddetails_jsp</servlet-name>
+│ │ -    <url-pattern>/WEB-INF/partials/connection-details.jsp</url-pattern>
+│ │ +    <servlet-name>org.apache.jsp.WEB_002dINF.partials.provenance.provenance_002dcontent_jsp</servlet-name>
+│ │ +    <url-pattern>/WEB-INF/partials/provenance/provenance-content.jsp</url-pattern>
+│ │    </servlet-mapping>
+│ │    <servlet-mapping>
+│ │      <servlet-name>org.apache.jsp.WEB_002dINF.partials.status_002dhistory_002ddialog_jsp</servlet-name>
+│ │      <url-pattern>/WEB-INF/partials/status-history-dialog.jsp</url-pattern>
+│ │    </servlet-mapping>
+│ │    <servlet-mapping>
+│ │      <servlet-name>org.apache.jsp.WEB_002dINF.partials.counters.counters_002dcontent_jsp</servlet-name>
+│ │      <url-pattern>/WEB-INF/partials/counters/counters-content.jsp</url-pattern>
+│ │    </servlet-mapping>
+│ │ +  <servlet-mapping>
+│ │ +    <servlet-name>org.apache.jsp.WEB_002dINF.partials.cluster.cluster_002dcontent_jsp</servlet-name>
+│ │ +    <url-pattern>/WEB-INF/partials/cluster/cluster-content.jsp</url-pattern>
+│ │ +  </servlet-mapping>
+│ │ +  <servlet-mapping>
+│ │ +    <servlet-name>org.apache.jsp.WEB_002dINF.partials.connection_002ddetails_jsp</servlet-name>
+│ │ +    <url-pattern>/WEB-INF/partials/connection-details.jsp</url-pattern>
+│ │ +  </servlet-mapping>
+│ │    <!--
+│ │  End of content automatically created by Apache Tomcat JspC.
+│ │  -->
+│ │  </web-app>
+
+
+<plugin>
+    <groupId>org.apache.nifi</groupId>
+    <artifactId>nifi-nar-maven-plugin</artifactId>
+    <version>1.3.3</version>
+</plugin>
+$ diffoscope target/reference/nifi-jetty-bundle-1.16.0-SNAPSHOT.nar nifi-nar-bundles/nifi-jetty-bundle/target/nifi-jetty-bundle-1.16.0-SNAPSHOT.nar
+--- target/reference/nifi-jetty-bundle-1.16.0-SNAPSHOT.nar
++++ nifi-nar-bundles/nifi-jetty-bundle/target/nifi-jetty-bundle-1.16.0-SNAPSHOT.nar
+├── zipinfo /dev/stdin
+│ @@ -1,43 +1,43 @@
+│  Zip file size: 6973576 bytes, number of entries: 41
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-31 03:25 META-INF/
+│ --rw-r--r--  2.0 unx      386 bl defN 22-Mar-31 03:25 META-INF/MANIFEST.MF
+│ -drwxrwxr-x  2.0 unx        0 b- stor 22-Mar-31 03:25 META-INF/bundled-dependencies/
+│ --rw-rw-r--  2.0 unx     7939 bl defN 22-Mar-31 03:25 META-INF/DEPENDENCIES
+│ --rw-rw-r--  2.0 unx     1639 bl defN 22-Mar-31 03:25 META-INF/NOTICE
+│ --rw-rw-r--  2.0 unx   206430 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/taglibs-standard-impl-1.2.5.jar
+│ --rw-rw-r--  2.0 unx    21235 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/apache-jsp-9.4.45.v20220203.jar
+│ --rw-rw-r--  2.0 unx    66650 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/jetty-util-ajax-9.4.45.v20220203.jar
+│ --rw-rw-r--  2.0 unx   583140 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/jetty-util-9.4.45.v20220203.jar
+│ --rw-rw-r--  2.0 unx   256317 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/apache-el-8.5.70.jar
+│ --rw-rw-r--  2.0 unx    52660 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/asm-tree-9.2.jar
+│ --rw-rw-r--  2.0 unx    63088 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/jetty-deploy-9.4.45.v20220203.jar
+│ --rw-rw-r--  2.0 unx    34257 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/asm-analysis-9.2.jar
+│ --rw-rw-r--  2.0 unx   140313 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/jetty-webapp-9.4.45.v20220203.jar
+│ --rw-rw-r--  2.0 unx    65615 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/jetty-plus-9.4.45.v20220203.jar
+│ --rw-rw-r--  2.0 unx    12546 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/apache-jstl-9.4.45.v20220203.jar
+│ --rw-rw-r--  2.0 unx   730995 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/jetty-server-9.4.45.v20220203.jar
+│ --rw-rw-r--  2.0 unx    72642 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/asm-commons-9.2.jar
+│ --rw-rw-r--  2.0 unx    68299 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/jetty-xml-9.4.45.v20220203.jar
+│ --rw-rw-r--  2.0 unx    46766 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/jetty-jndi-9.4.45.v20220203.jar
+│ --rw-rw-r--  2.0 unx    25376 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/jetty-continuation-9.4.45.v20220203.jar
+│ --rw-rw-r--  2.0 unx   107497 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/jetty-servlets-9.4.45.v20220203.jar
+│ --rw-rw-r--  2.0 unx   224576 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/jetty-http-9.4.45.v20220203.jar
+│ --rw-rw-r--  2.0 unx    40153 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/taglibs-standard-spec-1.2.5.jar
+│ --rw-rw-r--  2.0 unx   118506 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/jetty-security-9.4.45.v20220203.jar
+│ --rw-rw-r--  2.0 unx   122004 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/asm-9.2.jar
+│ --rw-rw-r--  2.0 unx    86704 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/jetty-annotations-9.4.45.v20220203.jar
+│ --rw-rw-r--  2.0 unx   183000 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/jetty-io-9.4.45.v20220203.jar
+│ --rw-rw-r--  2.0 unx  1050846 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/apache-jsp-8.5.70.jar
+│ --rw-rw-r--  2.0 unx    26586 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/javax.annotation-api-1.3.2.jar
+│ --rw-rw-r--  2.0 unx   145912 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/jetty-servlet-9.4.45.v20220203.jar
+│ --rw-rw-r--  2.0 unx  2884633 bl defN 22-Mar-31 03:25 META-INF/bundled-dependencies/ecj-3.19.0.jar
+│ --rw-rw-r--  2.0 unx    11358 bl defN 22-Mar-31 03:25 META-INF/LICENSE
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-31 03:25 META-INF/docs/
+│ --rw-rw-r--  2.0 unx      416 bl defN 22-Mar-31 03:25 META-INF/docs/extension-manifest.xml
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-31 03:25 META-INF/docs/additional-details/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-31 03:25 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-31 03:25 META-INF/maven/org.apache.nifi/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-31 03:25 META-INF/maven/org.apache.nifi/nifi-jetty-bundle/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-31 03:44 META-INF/
+│ +-rw-r--r--  2.0 unx      386 bl defN 22-Mar-31 03:44 META-INF/MANIFEST.MF
+│ +drwxrwxr-x  2.0 unx        0 b- stor 22-Mar-31 03:44 META-INF/bundled-dependencies/
+│ +-rw-rw-r--  2.0 unx     7939 bl defN 22-Mar-31 03:44 META-INF/DEPENDENCIES
+│ +-rw-rw-r--  2.0 unx     1639 bl defN 22-Mar-31 03:44 META-INF/NOTICE
+│ +-rw-rw-r--  2.0 unx   206430 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/taglibs-standard-impl-1.2.5.jar
+│ +-rw-rw-r--  2.0 unx    21235 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/apache-jsp-9.4.45.v20220203.jar
+│ +-rw-rw-r--  2.0 unx    66650 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/jetty-util-ajax-9.4.45.v20220203.jar
+│ +-rw-rw-r--  2.0 unx   583140 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/jetty-util-9.4.45.v20220203.jar
+│ +-rw-rw-r--  2.0 unx   256317 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/apache-el-8.5.70.jar
+│ +-rw-rw-r--  2.0 unx    52660 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/asm-tree-9.2.jar
+│ +-rw-rw-r--  2.0 unx    63088 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/jetty-deploy-9.4.45.v20220203.jar
+│ +-rw-rw-r--  2.0 unx    34257 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/asm-analysis-9.2.jar
+│ +-rw-rw-r--  2.0 unx   140313 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/jetty-webapp-9.4.45.v20220203.jar
+│ +-rw-rw-r--  2.0 unx    65615 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/jetty-plus-9.4.45.v20220203.jar
+│ +-rw-rw-r--  2.0 unx    12546 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/apache-jstl-9.4.45.v20220203.jar
+│ +-rw-rw-r--  2.0 unx   730995 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/jetty-server-9.4.45.v20220203.jar
+│ +-rw-rw-r--  2.0 unx    72642 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/asm-commons-9.2.jar
+│ +-rw-rw-r--  2.0 unx    68299 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/jetty-xml-9.4.45.v20220203.jar
+│ +-rw-rw-r--  2.0 unx    46766 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/jetty-jndi-9.4.45.v20220203.jar
+│ +-rw-rw-r--  2.0 unx    25376 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/jetty-continuation-9.4.45.v20220203.jar
+│ +-rw-rw-r--  2.0 unx   107497 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/jetty-servlets-9.4.45.v20220203.jar
+│ +-rw-rw-r--  2.0 unx   224576 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/jetty-http-9.4.45.v20220203.jar
+│ +-rw-rw-r--  2.0 unx    40153 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/taglibs-standard-spec-1.2.5.jar
+│ +-rw-rw-r--  2.0 unx   118506 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/jetty-security-9.4.45.v20220203.jar
+│ +-rw-rw-r--  2.0 unx   122004 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/asm-9.2.jar
+│ +-rw-rw-r--  2.0 unx    86704 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/jetty-annotations-9.4.45.v20220203.jar
+│ +-rw-rw-r--  2.0 unx   183000 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/jetty-io-9.4.45.v20220203.jar
+│ +-rw-rw-r--  2.0 unx  1050846 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/apache-jsp-8.5.70.jar
+│ +-rw-rw-r--  2.0 unx    26586 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/javax.annotation-api-1.3.2.jar
+│ +-rw-rw-r--  2.0 unx   145912 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/jetty-servlet-9.4.45.v20220203.jar
+│ +-rw-rw-r--  2.0 unx  2884633 bl defN 22-Mar-31 03:44 META-INF/bundled-dependencies/ecj-3.19.0.jar
+│ +-rw-rw-r--  2.0 unx    11358 bl defN 22-Mar-31 03:44 META-INF/LICENSE
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-31 03:44 META-INF/docs/
+│ +-rw-rw-r--  2.0 unx      416 bl defN 22-Mar-31 03:44 META-INF/docs/extension-manifest.xml
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-31 03:44 META-INF/docs/additional-details/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-31 03:44 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-31 03:44 META-INF/maven/org.apache.nifi/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-31 03:44 META-INF/maven/org.apache.nifi/nifi-jetty-bundle/
+│  -rw-rw-r--  2.0 unx     3566 bl defN 22-Mar-30 08:07 META-INF/maven/org.apache.nifi/nifi-jetty-bundle/pom.xml
+│ --rw-rw-r--  2.0 unx      128 bl defN 22-Mar-31 03:25 META-INF/maven/org.apache.nifi/nifi-jetty-bundle/pom.properties
+│ +-rw-rw-r--  2.0 unx      128 bl defN 22-Mar-31 03:44 META-INF/maven/org.apache.nifi/nifi-jetty-bundle/pom.properties
+│  41 files, 7462178 bytes uncompressed, 6965908 bytes compressed:  6.7%
+├── META-INF/MANIFEST.MF
+│ @@ -1,13 +1,13 @@
+│  Manifest-Version: 1.0
+│  Archiver-Version: Plexus Archiver
+│  Created-By: Apache Maven 3.9.0-SNAPSHOT
+│  Built-By: herve
+│  Build-Jdk: 11.0.7
+│ -Build-Timestamp: 2022-03-31T03:25:13Z
+│ +Build-Timestamp: 2022-03-31T03:44:36Z
+│  Clone-During-Instance-Class-Loading: false
+│  Build-Branch: reproducible
+│  Nar-Version: 1.16.0-SNAPSHOT
+│  Build-Tag: nifi-1.15.0-RC3
+│  Build-Revision: 64c285b
+│  Nar-Group: org.apache.nifi
+│  Nar-Id: nifi-jetty-bundle
+├── META-INF/docs/extension-manifest.xml
+│ ├── META-INF/docs/extension-manifest.xml
+│ │ @@ -6,11 +6,11 @@
+│ │    <systemApiVersion>1.16.0-SNAPSHOT</systemApiVersion>
+│ │    <buildInfo>
+│ │      <tag>nifi-1.15.0-RC3</tag>
+│ │      <branch>reproducible</branch>
+│ │      <revision>64c285b</revision>
+│ │      <jdk>11.0.7</jdk>
+│ │      <builtBy>herve</builtBy>
+│ │ -    <timestamp>2022-03-31T03:25:13Z</timestamp>
+│ │ +    <timestamp>2022-03-31T03:44:36Z</timestamp>
+│ │    </buildInfo>
+│ │    <extensions/>
+│ │  </extensionManifest>
+├── META-INF/maven/org.apache.nifi/nifi-jetty-bundle/pom.properties
+│ @@ -1,5 +1,5 @@
+│  #Generated by Maven
+│ -#Thu Mar 31 03:25:13 CEST 2022
+│ +#Thu Mar 31 03:44:36 CEST 2022
+│  groupId=org.apache.nifi
+│  artifactId=nifi-jetty-bundle
+│  version=1.16.0-SNAPSHOT
+
+$ diffoscope target/reference/nifi-jetty-bundle-1.16.0-SNAPSHOT-sources.jar nifi-nar-bundles/nifi-jetty-bundle/target/nifi-jetty-bundle-1.16.0-SNAPSHOT-sources.jar
+--- target/reference/nifi-jetty-bundle-1.16.0-SNAPSHOT-sources.jar
++++ nifi-nar-bundles/nifi-jetty-bundle/target/nifi-jetty-bundle-1.16.0-SNAPSHOT-sources.jar
+├── zipinfo -v {}
+│ @@ -284,15 +284,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          1980 000 0 04:08:00
+│ -  32-bit CRC value (hex):                         70645a34
+│ +  32-bit CRC value (hex):                         6d689644
+│    compressed size:                                124 bytes
+│    uncompressed size:                              128 bytes
+│    length of filename:                             63 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/maven/org.apache.nifi/nifi-jetty-bundle/pom.properties
+│ @@ -1,5 +1,5 @@
+│  #Generated by Maven
+│ -#Thu Mar 31 03:25:13 CEST 2022
+│ +#Thu Mar 31 03:44:36 CEST 2022
+│  groupId=org.apache.nifi
+│  artifactId=nifi-jetty-bundle
+│  version=1.16.0-SNAPSHOT
+
+
+$ diffoscope target/reference/nifi-media-nar-1.16.0-SNAPSHOT.nar nifi-nar-bundles/nifi-media-bundle/nifi-media-nar/target/nifi-media-nar-1.16.0-SNAPSHOT.nar
+--- target/reference/nifi-media-nar-1.16.0-SNAPSHOT.nar
++++ nifi-nar-bundles/nifi-media-bundle/nifi-media-nar/target/nifi-media-nar-1.16.0-SNAPSHOT.nar
+├── zipinfo /dev/stdin
+│ @@ -1,102 +1,102 @@
+│ -Zip file size: 40621517 bytes, number of entries: 100
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-31 03:28 META-INF/
+│ --rw-r--r--  2.0 unx      383 bl defN 22-Mar-31 03:28 META-INF/MANIFEST.MF
+│ -drwxrwxr-x  2.0 unx        0 b- stor 22-Mar-31 03:28 META-INF/bundled-dependencies/
+│ --rw-rw-r--  2.0 unx    19077 bl defN 22-Mar-31 03:28 META-INF/DEPENDENCIES
+│ --rw-rw-r--  2.0 unx    13812 bl defN 22-Mar-31 03:28 META-INF/NOTICE
+│ --rw-rw-r--  2.0 unx   234090 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/jhighlight-1.0.3.jar
+│ --rw-rw-r--  2.0 unx   661708 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/tika-core-2.3.0.jar
+│ --rw-rw-r--  2.0 unx    24941 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/vorbis-java-tika-0.8.jar
+│ --rw-rw-r--  2.0 unx   665484 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/tika-parser-microsoft-module-2.3.0.jar
+│ --rw-rw-r--  2.0 unx    20206 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/tika-parser-news-module-2.3.0.jar
+│ --rw-rw-r--  2.0 unx    75793 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/dd-plist-1.23.jar
+│ --rw-rw-r--  2.0 unx   327806 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/jdom2-2.0.6.1.jar
+│ --rw-rw-r--  2.0 unx    29807 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/istack-commons-runtime-3.0.12.jar
+│ --rw-rw-r--  2.0 unx  2191828 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/xmlbeans-5.0.3.jar
+│ --rw-rw-r--  2.0 unx   587402 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/commons-lang3-3.12.0.jar
+│ --rw-rw-r--  2.0 unx   111875 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/curvesapi-1.06.jar
+│ --rw-rw-r--  2.0 unx    83893 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/jackcess-encrypt-4.0.1.jar
+│ --rw-rw-r--  2.0 unx   154517 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/junrar-7.4.1.jar
+│ --rw-rw-r--  2.0 unx   255222 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/rome-1.18.0.jar
+│ --rw-rw-r--  2.0 unx     7316 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/rome-utils-1.18.0.jar
+│ --rw-rw-r--  2.0 unx    31365 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/nifi-media-processors-1.16.0-SNAPSHOT.jar
+│ --rw-rw-r--  2.0 unx   121084 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/vorbis-java-core-0.8.jar
+│ --rw-rw-r--  2.0 unx    59704 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/tika-parser-apple-module-2.3.0.jar
+│ --rw-rw-r--  2.0 unx    52307 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/tika-parser-html-module-2.3.0.jar
+│ --rw-rw-r--  2.0 unx    92027 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/boilerpipe-1.1.0.jar
+│ --rw-rw-r--  2.0 unx   108461 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/java-libpst-0.9.3.jar
+│ --rw-rw-r--  2.0 unx    15421 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/tika-parser-xmp-commons-2.3.0.jar
+│ --rw-rw-r--  2.0 unx    67427 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/tika-parser-audiovideo-module-2.3.0.jar
+│ --rw-rw-r--  2.0 unx    26006 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/tika-parser-pkg-module-2.3.0.jar
+│ --rw-rw-r--  2.0 unx    14725 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/tika-parser-html-commons-2.3.0.jar
+│ --rw-rw-r--  2.0 unx    96586 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/tika-parser-pdf-module-2.3.0.jar
+│ --rw-rw-r--  2.0 unx   353793 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/commons-codec-1.15.jar
+│ --rw-rw-r--  2.0 unx  1445027 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/tika-parsers-standard-package-2.3.0.jar
+│ --rw-rw-r--  2.0 unx   220536 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/xml-apis-1.4.01.jar
+│ --rw-rw-r--  2.0 unx  5867298 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/bcprov-jdk15on-1.70.jar
+│ --rw-rw-r--  2.0 unx  1958735 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/poi-ooxml-5.2.0.jar
+│ --rw-rw-r--  2.0 unx    29367 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/tika-parser-code-module-2.3.0.jar
+│ --rw-rw-r--  2.0 unx    39009 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/tika-parser-ocr-module-2.3.0.jar
+│ --rw-rw-r--  2.0 unx  2768023 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/pdfbox-2.0.25.jar
+│ --rw-rw-r--  2.0 unx  1309213 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/jackcess-4.0.1.jar
+│ --rw-rw-r--  2.0 unx    17433 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/tika-parser-digest-commons-2.3.0.jar
+│ --rw-rw-r--  2.0 unx   132379 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/xmpbox-2.0.25.jar
+│ --rw-rw-r--  2.0 unx    75551 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/jmatio-1.5.jar
+│ --rw-rw-r--  2.0 unx   115638 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/jakarta.xml.bind-api-2.3.3.jar
+│ --rw-rw-r--  2.0 unx   185858 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/nifi-utils-1.16.0-SNAPSHOT.jar
+│ --rw-rw-r--  2.0 unx   751914 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/commons-collections4-4.4.jar
+│ --rw-rw-r--  2.0 unx  5787472 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/poi-ooxml-lite-5.2.0.jar
+│ --rw-rw-r--  2.0 unx  2213560 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/commons-math3-3.6.1.jar
+│ --rw-rw-r--  2.0 unx    13996 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/tika-parser-font-module-2.3.0.jar
+│ --rw-rw-r--  2.0 unx    46613 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/jakarta.activation-api-1.2.2.jar
+│ --rw-rw-r--  2.0 unx   108397 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/apache-mime4j-core-0.8.4.jar
+│ --rw-rw-r--  2.0 unx    24510 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/SparseBitSet-1.2.jar
+│ --rw-rw-r--  2.0 unx   112697 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/bcmail-jdk15on-1.70.jar
+│ --rw-rw-r--  2.0 unx    90722 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/tagsoup-1.2.1.jar
+│ --rw-rw-r--  2.0 unx   327135 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/commons-io-2.11.0.jar
+│ --rw-rw-r--  2.0 unx    52581 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/tika-parser-image-module-2.3.0.jar
+│ --rw-rw-r--  2.0 unx   149297 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/tika-parser-miscoffice-module-2.3.0.jar
+│ --rw-rw-r--  2.0 unx   131936 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/xmpcore-6.0.6.jar
+│ --rw-rw-r--  2.0 unx    98115 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/dec-0.1.2.jar
+│ --rw-rw-r--  2.0 unx    28692 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/tika-parser-mail-module-2.3.0.jar
+│ --rw-rw-r--  2.0 unx   152680 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/jbig2-imageio-3.0.3.jar
+│ --rw-rw-r--  2.0 unx   122620 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/tika-parser-text-module-2.3.0.jar
+│ --rw-rw-r--  2.0 unx   482530 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/bcutil-jdk15on-1.70.jar
+│ --rw-rw-r--  2.0 unx   266558 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/pdfbox-debugger-2.0.25.jar
+│ --rw-rw-r--  2.0 unx    72008 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/txw2-2.3.5.jar
+│ --rw-rw-r--  2.0 unx   122004 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/asm-9.2.jar
+│ --rw-rw-r--  2.0 unx    19702 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/tika-parser-crypto-module-2.3.0.jar
+│ --rw-rw-r--  2.0 unx  1565437 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/fontbox-2.0.25.jar
+│ --rw-rw-r--  2.0 unx  1894677 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/poi-scratchpad-5.2.0.jar
+│ --rw-rw-r--  2.0 unx    68453 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/jakarta.activation-1.2.2.jar
+│ --rw-rw-r--  2.0 unx    82868 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/pdfbox-tools-2.0.25.jar
+│ --rw-rw-r--  2.0 unx    51322 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/commons-csv-1.9.0.jar
+│ --rw-rw-r--  2.0 unx   628053 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/jai-imageio-core-1.4.0.jar
+│ --rw-rw-r--  2.0 unx  2897386 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/poi-5.2.0.jar
+│ --rw-rw-r--  2.0 unx   116013 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/xz-1.9.jar
+│ --rw-rw-r--  2.0 unx  1019255 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/jaxb-runtime-2.3.5.jar
+│ --rw-rw-r--  2.0 unx   139008 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/parso-2.0.14.jar
+│ --rw-rw-r--  2.0 unx   343661 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/apache-mime4j-dom-0.8.4.jar
+│ --rw-rw-r--  2.0 unx   301872 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/log4j-api-2.17.1.jar
+│ --rw-rw-r--  2.0 unx    10725 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/nifi-image-viewer-1.16.0-SNAPSHOT.war
+│ --rw-rw-r--  2.0 unx  1018316 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/commons-compress-1.21.jar
+│ --rw-rw-r--  2.0 unx    17977 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/tika-parser-cad-module-2.3.0.jar
+│ --rw-rw-r--  2.0 unx   220813 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/juniversalchardet-1.0.3.jar
+│ --rw-rw-r--  2.0 unx   963713 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/bcpkix-jdk15on-1.70.jar
+│ --rw-rw-r--  2.0 unx    54423 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/commons-exec-1.3.jar
+│ --rw-rw-r--  2.0 unx    51743 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/jempbox-1.8.16.jar
+│ --rw-rw-r--  2.0 unx    36073 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/tika-parser-xml-module-2.3.0.jar
+│ --rw-rw-r--  2.0 unx  1446149 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/xercesImpl-2.12.2.jar
+│ --rw-rw-r--  2.0 unx   718033 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/metadata-extractor-2.13.0.jar
+│ --rw-rw-r--  2.0 unx     9854 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/tika-parser-mail-commons-2.3.0.jar
+│ --rw-rw-r--  2.0 unx    40050 bl defN 22-Mar-31 03:28 META-INF/bundled-dependencies/tika-parser-zip-commons-2.3.0.jar
+│ --rw-rw-r--  2.0 unx    39597 bl defN 22-Mar-31 03:28 META-INF/LICENSE
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-31 03:28 META-INF/docs/
+│ --rw-rw-r--  2.0 unx    11022 bl defN 22-Mar-31 03:28 META-INF/docs/extension-manifest.xml
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-31 03:28 META-INF/docs/additional-details/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-31 03:28 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-31 03:28 META-INF/maven/org.apache.nifi/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-31 03:28 META-INF/maven/org.apache.nifi/nifi-media-nar/
+│ +Zip file size: 40621534 bytes, number of entries: 100
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-31 03:47 META-INF/
+│ +-rw-r--r--  2.0 unx      383 bl defN 22-Mar-31 03:47 META-INF/MANIFEST.MF
+│ +drwxrwxr-x  2.0 unx        0 b- stor 22-Mar-31 03:47 META-INF/bundled-dependencies/
+│ +-rw-rw-r--  2.0 unx    19077 bl defN 22-Mar-31 03:47 META-INF/DEPENDENCIES
+│ +-rw-rw-r--  2.0 unx    13812 bl defN 22-Mar-31 03:47 META-INF/NOTICE
+│ +-rw-rw-r--  2.0 unx   234090 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/jhighlight-1.0.3.jar
+│ +-rw-rw-r--  2.0 unx   661708 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/tika-core-2.3.0.jar
+│ +-rw-rw-r--  2.0 unx    24941 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/vorbis-java-tika-0.8.jar
+│ +-rw-rw-r--  2.0 unx   665484 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/tika-parser-microsoft-module-2.3.0.jar
+│ +-rw-rw-r--  2.0 unx    20206 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/tika-parser-news-module-2.3.0.jar
+│ +-rw-rw-r--  2.0 unx    75793 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/dd-plist-1.23.jar
+│ +-rw-rw-r--  2.0 unx   327806 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/jdom2-2.0.6.1.jar
+│ +-rw-rw-r--  2.0 unx    29807 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/istack-commons-runtime-3.0.12.jar
+│ +-rw-rw-r--  2.0 unx  2191828 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/xmlbeans-5.0.3.jar
+│ +-rw-rw-r--  2.0 unx   587402 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/commons-lang3-3.12.0.jar
+│ +-rw-rw-r--  2.0 unx   111875 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/curvesapi-1.06.jar
+│ +-rw-rw-r--  2.0 unx    83893 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/jackcess-encrypt-4.0.1.jar
+│ +-rw-rw-r--  2.0 unx   154517 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/junrar-7.4.1.jar
+│ +-rw-rw-r--  2.0 unx   255222 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/rome-1.18.0.jar
+│ +-rw-rw-r--  2.0 unx     7316 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/rome-utils-1.18.0.jar
+│ +-rw-rw-r--  2.0 unx    31365 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/nifi-media-processors-1.16.0-SNAPSHOT.jar
+│ +-rw-rw-r--  2.0 unx   121084 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/vorbis-java-core-0.8.jar
+│ +-rw-rw-r--  2.0 unx    59704 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/tika-parser-apple-module-2.3.0.jar
+│ +-rw-rw-r--  2.0 unx    52307 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/tika-parser-html-module-2.3.0.jar
+│ +-rw-rw-r--  2.0 unx    92027 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/boilerpipe-1.1.0.jar
+│ +-rw-rw-r--  2.0 unx   108461 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/java-libpst-0.9.3.jar
+│ +-rw-rw-r--  2.0 unx    15421 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/tika-parser-xmp-commons-2.3.0.jar
+│ +-rw-rw-r--  2.0 unx    67427 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/tika-parser-audiovideo-module-2.3.0.jar
+│ +-rw-rw-r--  2.0 unx    26006 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/tika-parser-pkg-module-2.3.0.jar
+│ +-rw-rw-r--  2.0 unx    14725 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/tika-parser-html-commons-2.3.0.jar
+│ +-rw-rw-r--  2.0 unx    96586 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/tika-parser-pdf-module-2.3.0.jar
+│ +-rw-rw-r--  2.0 unx   353793 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/commons-codec-1.15.jar
+│ +-rw-rw-r--  2.0 unx  1445027 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/tika-parsers-standard-package-2.3.0.jar
+│ +-rw-rw-r--  2.0 unx   220536 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/xml-apis-1.4.01.jar
+│ +-rw-rw-r--  2.0 unx  5867298 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/bcprov-jdk15on-1.70.jar
+│ +-rw-rw-r--  2.0 unx  1958735 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/poi-ooxml-5.2.0.jar
+│ +-rw-rw-r--  2.0 unx    29367 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/tika-parser-code-module-2.3.0.jar
+│ +-rw-rw-r--  2.0 unx    39009 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/tika-parser-ocr-module-2.3.0.jar
+│ +-rw-rw-r--  2.0 unx  2768023 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/pdfbox-2.0.25.jar
+│ +-rw-rw-r--  2.0 unx  1309213 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/jackcess-4.0.1.jar
+│ +-rw-rw-r--  2.0 unx    17433 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/tika-parser-digest-commons-2.3.0.jar
+│ +-rw-rw-r--  2.0 unx   132379 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/xmpbox-2.0.25.jar
+│ +-rw-rw-r--  2.0 unx    75551 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/jmatio-1.5.jar
+│ +-rw-rw-r--  2.0 unx   115638 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/jakarta.xml.bind-api-2.3.3.jar
+│ +-rw-rw-r--  2.0 unx   185858 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/nifi-utils-1.16.0-SNAPSHOT.jar
+│ +-rw-rw-r--  2.0 unx   751914 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/commons-collections4-4.4.jar
+│ +-rw-rw-r--  2.0 unx  5787472 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/poi-ooxml-lite-5.2.0.jar
+│ +-rw-rw-r--  2.0 unx  2213560 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/commons-math3-3.6.1.jar
+│ +-rw-rw-r--  2.0 unx    13996 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/tika-parser-font-module-2.3.0.jar
+│ +-rw-rw-r--  2.0 unx    46613 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/jakarta.activation-api-1.2.2.jar
+│ +-rw-rw-r--  2.0 unx   108397 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/apache-mime4j-core-0.8.4.jar
+│ +-rw-rw-r--  2.0 unx    24510 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/SparseBitSet-1.2.jar
+│ +-rw-rw-r--  2.0 unx   112697 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/bcmail-jdk15on-1.70.jar
+│ +-rw-rw-r--  2.0 unx    90722 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/tagsoup-1.2.1.jar
+│ +-rw-rw-r--  2.0 unx   327135 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/commons-io-2.11.0.jar
+│ +-rw-rw-r--  2.0 unx    52581 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/tika-parser-image-module-2.3.0.jar
+│ +-rw-rw-r--  2.0 unx   149297 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/tika-parser-miscoffice-module-2.3.0.jar
+│ +-rw-rw-r--  2.0 unx   131936 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/xmpcore-6.0.6.jar
+│ +-rw-rw-r--  2.0 unx    98115 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/dec-0.1.2.jar
+│ +-rw-rw-r--  2.0 unx    28692 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/tika-parser-mail-module-2.3.0.jar
+│ +-rw-rw-r--  2.0 unx   152680 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/jbig2-imageio-3.0.3.jar
+│ +-rw-rw-r--  2.0 unx   122620 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/tika-parser-text-module-2.3.0.jar
+│ +-rw-rw-r--  2.0 unx   482530 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/bcutil-jdk15on-1.70.jar
+│ +-rw-rw-r--  2.0 unx   266558 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/pdfbox-debugger-2.0.25.jar
+│ +-rw-rw-r--  2.0 unx    72008 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/txw2-2.3.5.jar
+│ +-rw-rw-r--  2.0 unx   122004 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/asm-9.2.jar
+│ +-rw-rw-r--  2.0 unx    19702 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/tika-parser-crypto-module-2.3.0.jar
+│ +-rw-rw-r--  2.0 unx  1565437 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/fontbox-2.0.25.jar
+│ +-rw-rw-r--  2.0 unx  1894677 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/poi-scratchpad-5.2.0.jar
+│ +-rw-rw-r--  2.0 unx    68453 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/jakarta.activation-1.2.2.jar
+│ +-rw-rw-r--  2.0 unx    82868 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/pdfbox-tools-2.0.25.jar
+│ +-rw-rw-r--  2.0 unx    51322 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/commons-csv-1.9.0.jar
+│ +-rw-rw-r--  2.0 unx   628053 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/jai-imageio-core-1.4.0.jar
+│ +-rw-rw-r--  2.0 unx  2897386 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/poi-5.2.0.jar
+│ +-rw-rw-r--  2.0 unx   116013 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/xz-1.9.jar
+│ +-rw-rw-r--  2.0 unx  1019255 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/jaxb-runtime-2.3.5.jar
+│ +-rw-rw-r--  2.0 unx   139008 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/parso-2.0.14.jar
+│ +-rw-rw-r--  2.0 unx   343661 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/apache-mime4j-dom-0.8.4.jar
+│ +-rw-rw-r--  2.0 unx   301872 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/log4j-api-2.17.1.jar
+│ +-rw-rw-r--  2.0 unx    10725 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/nifi-image-viewer-1.16.0-SNAPSHOT.war
+│ +-rw-rw-r--  2.0 unx  1018316 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/commons-compress-1.21.jar
+│ +-rw-rw-r--  2.0 unx    17977 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/tika-parser-cad-module-2.3.0.jar
+│ +-rw-rw-r--  2.0 unx   220813 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/juniversalchardet-1.0.3.jar
+│ +-rw-rw-r--  2.0 unx   963713 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/bcpkix-jdk15on-1.70.jar
+│ +-rw-rw-r--  2.0 unx    54423 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/commons-exec-1.3.jar
+│ +-rw-rw-r--  2.0 unx    51743 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/jempbox-1.8.16.jar
+│ +-rw-rw-r--  2.0 unx    36073 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/tika-parser-xml-module-2.3.0.jar
+│ +-rw-rw-r--  2.0 unx  1446149 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/xercesImpl-2.12.2.jar
+│ +-rw-rw-r--  2.0 unx   718033 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/metadata-extractor-2.13.0.jar
+│ +-rw-rw-r--  2.0 unx     9854 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/tika-parser-mail-commons-2.3.0.jar
+│ +-rw-rw-r--  2.0 unx    40050 bl defN 22-Mar-31 03:47 META-INF/bundled-dependencies/tika-parser-zip-commons-2.3.0.jar
+│ +-rw-rw-r--  2.0 unx    39597 bl defN 22-Mar-31 03:47 META-INF/LICENSE
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-31 03:48 META-INF/docs/
+│ +-rw-rw-r--  2.0 unx    11022 bl defN 22-Mar-31 03:47 META-INF/docs/extension-manifest.xml
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-31 03:47 META-INF/docs/additional-details/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-31 03:48 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-31 03:48 META-INF/maven/org.apache.nifi/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-31 03:48 META-INF/maven/org.apache.nifi/nifi-media-nar/
+│  -rw-rw-r--  2.0 unx     1942 bl defN 22-Mar-30 08:07 META-INF/maven/org.apache.nifi/nifi-media-nar/pom.xml
+│ --rw-rw-r--  2.0 unx      125 bl defN 22-Mar-31 03:28 META-INF/maven/org.apache.nifi/nifi-media-nar/pom.properties
+│ -100 files, 45592432 bytes uncompressed, 40602129 bytes compressed:  10.9%
+│ +-rw-rw-r--  2.0 unx      125 bl defN 22-Mar-31 03:47 META-INF/maven/org.apache.nifi/nifi-media-nar/pom.properties
+│ +100 files, 45592432 bytes uncompressed, 40602146 bytes compressed:  10.9%
+├── META-INF/MANIFEST.MF
+│ @@ -1,13 +1,13 @@
+│  Manifest-Version: 1.0
+│  Archiver-Version: Plexus Archiver
+│  Created-By: Apache Maven 3.9.0-SNAPSHOT
+│  Built-By: herve
+│  Build-Jdk: 11.0.7
+│ -Build-Timestamp: 2022-03-31T03:28:34Z
+│ +Build-Timestamp: 2022-03-31T03:47:57Z
+│  Clone-During-Instance-Class-Loading: false
+│  Build-Branch: reproducible
+│  Nar-Version: 1.16.0-SNAPSHOT
+│  Build-Tag: nifi-1.15.0-RC3
+│  Build-Revision: 64c285b
+│  Nar-Group: org.apache.nifi
+│  Nar-Id: nifi-media-nar
+├── META-INF/docs/extension-manifest.xml
+│ ├── META-INF/docs/extension-manifest.xml
+│ │ @@ -6,44 +6,18 @@
+│ │    <systemApiVersion>1.16.0-SNAPSHOT</systemApiVersion>
+│ │    <buildInfo>
+│ │      <tag>nifi-1.15.0-RC3</tag>
+│ │      <branch>reproducible</branch>
+│ │      <revision>64c285b</revision>
+│ │      <jdk>11.0.7</jdk>
+│ │      <builtBy>herve</builtBy>
+│ │ -    <timestamp>2022-03-31T03:28:34Z</timestamp>
+│ │ +    <timestamp>2022-03-31T03:47:57Z</timestamp>
+│ │    </buildInfo>
+│ │    <extensions>
+│ │      <extension>
+│ │ -      <name>org.apache.nifi.processors.document.ExtractDocumentText</name>
+│ │ -      <type>PROCESSOR</type>
+│ │ -      <description>Extract text contents from supported binary document formats using Apache Tika</description>
+│ │ -      <tags>
+│ │ -        <tag>extract, document, text</tag>
+│ │ -      </tags>
+│ │ -      <relationships>
+│ │ -        <relationship>
+│ │ -          <name>extracted</name>
+│ │ -          <description>Success for extracted text FlowFiles</description>
+│ │ -          <autoTerminated>false</autoTerminated>
+│ │ -        </relationship>
+│ │ -        <relationship>
+│ │ -          <name>failure</name>
+│ │ -          <description>Content extraction failed</description>
+│ │ -          <autoTerminated>false</autoTerminated>
+│ │ -        </relationship>
+│ │ -        <relationship>
+│ │ -          <name>original</name>
+│ │ -          <description>Success for original input FlowFiles</description>
+│ │ -          <autoTerminated>false</autoTerminated>
+│ │ -        </relationship>
+│ │ -      </relationships>
+│ │ -      <writesAttributes/>
+│ │ -    </extension>
+│ │ -    <extension>
+│ │        <name>org.apache.nifi.processors.media.ExtractMediaMetadata</name>
+│ │        <type>PROCESSOR</type>
+│ │        <description>Extract the content metadata from flowfiles containing audio, video, image, and other file types.  This processor relies on the Apache Tika project for file format detection and parsing.  It extracts a long list of metadata types for media files including audio, video, and print media formats.NOTE: the attribute names and content extracted may vary across upgrades because parsing is performed by the external Tika tools which in turn depend on other projects for metadata extraction.  For the more details and the list of supported file types, visit the library's website at http://tika.apache.org/.</description>
+│ │        <tags>
+│ │          <tag>media</tag>
+│ │          <tag>file</tag>
+│ │          <tag>format</tag>
+│ │ @@ -120,66 +94,14 @@
+│ │            <description>The extracted content metadata will be inserted with the attribute name &quot;&lt;Metadata Key Prefix&gt;&lt;attribute&gt;&quot;, or &quot;&lt;attribute&gt;&quot; if &quot;Metadata Key Prefix&quot; is not provided.</description>
+│ │          </writesAttribute>
+│ │        </writesAttributes>
+│ │        <supportsBatching>true</supportsBatching>
+│ │        <inputRequirement>INPUT_REQUIRED</inputRequirement>
+│ │      </extension>
+│ │      <extension>
+│ │ -      <name>org.apache.nifi.processors.image.ExtractImageMetadata</name>
+│ │ -      <type>PROCESSOR</type>
+│ │ -      <description>Extract the image metadata from flowfiles containing images. This processor relies on this metadata extractor library https://github.com/drewnoakes/metadata-extractor. It extracts a long list of metadata types including but not limited to EXIF, IPTC, XMP and Photoshop fields. For the full list visit the library's website.NOTE: The library being used loads the images into memory so extremely large images may cause problems.</description>                                                                                                  
+│ │ -      <tags>
+│ │ -        <tag>Exif</tag>
+│ │ -        <tag>Exchangeable</tag>
+│ │ -        <tag>image</tag>
+│ │ -        <tag>file</tag>
+│ │ -        <tag>format</tag>
+│ │ -        <tag>JPG</tag>
+│ │ -        <tag>GIF</tag>
+│ │ -        <tag>PNG</tag>
+│ │ -        <tag>BMP</tag>
+│ │ -        <tag>metadata</tag>
+│ │ -        <tag>IPTC</tag>
+│ │ -        <tag>XMP</tag>
+│ │ -      </tags>
+│ │ -      <properties>
+│ │ -        <property>
+│ │ -          <name>Max Number of Attributes</name>
+│ │ -          <displayName>Max Number of Attributes</displayName>
+│ │ -          <description>Specify the max number of attributes to add to the flowfile. There is no guarantee in what order the tags will be processed. By default it will process all of them.</description>
+│ │ -          <required>false</required>
+│ │ -          <sensitive>false</sensitive>
+│ │ -          <expressionLanguageSupported>false</expressionLanguageSupported>
+│ │ -          <expressionLanguageScope>NONE</expressionLanguageScope>
+│ │ -          <dynamicallyModifiesClasspath>false</dynamicallyModifiesClasspath>
+│ │ -          <dynamic>false</dynamic>
+│ │ -        </property>
+│ │ -      </properties>
+│ │ -      <relationships>
+│ │ -        <relationship>
+│ │ -          <name>success</name>
+│ │ -          <description>Any FlowFile that successfully has image metadata extracted will be routed to success</description>
+│ │ -          <autoTerminated>false</autoTerminated>
+│ │ -        </relationship>
+│ │ -        <relationship>
+│ │ -          <name>failure</name>
+│ │ -          <description>Any FlowFile that fails to have image metadata extracted will be routed to failure</description>
+│ │ -          <autoTerminated>false</autoTerminated>
+│ │ -        </relationship>
+│ │ -      </relationships>
+│ │ -      <writesAttributes>
+│ │ -        <writesAttribute>
+│ │ -          <name>&lt;directory name&gt;.&lt;tag name&gt;</name>
+│ │ -          <description>The extracted image metadata will be inserted with the attribute name &quot;&lt;directory name&gt;.&lt;tag name&gt;&quot;.</description>
+│ │ -        </writesAttribute>
+│ │ -      </writesAttributes>
+│ │ -      <supportsBatching>true</supportsBatching>
+│ │ -      <inputRequirement>INPUT_REQUIRED</inputRequirement>
+│ │ -    </extension>
+│ │ -    <extension>
+│ │        <name>org.apache.nifi.processors.image.ResizeImage</name>
+│ │        <type>PROCESSOR</type>
+│ │        <description>Resizes an image to user-specified dimensions. This Processor uses the image codecs registered with the environment that NiFi is running in. By default, this includes JPEG, PNG, BMP, WBMP, and GIF images.</description>
+│ │        <tags>
+│ │          <tag>resize</tag>
+│ │          <tag>image</tag>
+│ │          <tag>jpg</tag>
+│ │ @@ -265,9 +187,87 @@
+│ │          </relationship>
+│ │        </relationships>
+│ │        <writesAttributes/>
+│ │        <supportsBatching>true</supportsBatching>
+│ │        <eventDriven>true</eventDriven>
+│ │        <inputRequirement>INPUT_REQUIRED</inputRequirement>
+│ │      </extension>
+│ │ +    <extension>
+│ │ +      <name>org.apache.nifi.processors.document.ExtractDocumentText</name>
+│ │ +      <type>PROCESSOR</type>
+│ │ +      <description>Extract text contents from supported binary document formats using Apache Tika</description>
+│ │ +      <tags>
+│ │ +        <tag>extract, document, text</tag>
+│ │ +      </tags>
+│ │ +      <relationships>
+│ │ +        <relationship>
+│ │ +          <name>extracted</name>
+│ │ +          <description>Success for extracted text FlowFiles</description>
+│ │ +          <autoTerminated>false</autoTerminated>
+│ │ +        </relationship>
+│ │ +        <relationship>
+│ │ +          <name>failure</name>
+│ │ +          <description>Content extraction failed</description>
+│ │ +          <autoTerminated>false</autoTerminated>
+│ │ +        </relationship>
+│ │ +        <relationship>
+│ │ +          <name>original</name>
+│ │ +          <description>Success for original input FlowFiles</description>
+│ │ +          <autoTerminated>false</autoTerminated>
+│ │ +        </relationship>
+│ │ +      </relationships>
+│ │ +      <writesAttributes/>
+│ │ +    </extension>
+│ │ +    <extension>
+│ │ +      <name>org.apache.nifi.processors.image.ExtractImageMetadata</name>
+│ │ +      <type>PROCESSOR</type>
+│ │ +      <description>Extract the image metadata from flowfiles containing images. This processor relies on this metadata extractor library https://github.com/drewnoakes/metadata-extractor. It extracts a long list of metadata types including but not limited to EXIF, IPTC, XMP and Photoshop fields. For the full list visit the library's website.NOTE: The library being used loads the images into memory so extremely large images may cause problems.</description>
+│ │ +      <tags>
+│ │ +        <tag>Exif</tag>
+│ │ +        <tag>Exchangeable</tag>
+│ │ +        <tag>image</tag>
+│ │ +        <tag>file</tag>
+│ │ +        <tag>format</tag>
+│ │ +        <tag>JPG</tag>
+│ │ +        <tag>GIF</tag>
+│ │ +        <tag>PNG</tag>
+│ │ +        <tag>BMP</tag>
+│ │ +        <tag>metadata</tag>
+│ │ +        <tag>IPTC</tag>
+│ │ +        <tag>XMP</tag>
+│ │ +      </tags>
+│ │ +      <properties>
+│ │ +        <property>
+│ │ +          <name>Max Number of Attributes</name>
+│ │ +          <displayName>Max Number of Attributes</displayName>
+│ │ +          <description>Specify the max number of attributes to add to the flowfile. There is no guarantee in what order the tags will be processed. By default it will process all of them.</description>
+│ │ +          <required>false</required>
+│ │ +          <sensitive>false</sensitive>
+│ │ +          <expressionLanguageSupported>false</expressionLanguageSupported>
+│ │ +          <expressionLanguageScope>NONE</expressionLanguageScope>
+│ │ +          <dynamicallyModifiesClasspath>false</dynamicallyModifiesClasspath>
+│ │ +          <dynamic>false</dynamic>
+│ │ +        </property>
+│ │ +      </properties>
+│ │ +      <relationships>
+│ │ +        <relationship>
+│ │ +          <name>success</name>
+│ │ +          <description>Any FlowFile that successfully has image metadata extracted will be routed to success</description>
+│ │ +          <autoTerminated>false</autoTerminated>
+│ │ +        </relationship>
+│ │ +        <relationship>
+│ │ +          <name>failure</name>
+│ │ +          <description>Any FlowFile that fails to have image metadata extracted will be routed to failure</description>
+│ │ +          <autoTerminated>false</autoTerminated>
+│ │ +        </relationship>
+│ │ +      </relationships>
+│ │ +      <writesAttributes>
+│ │ +        <writesAttribute>
+│ │ +          <name>&lt;directory name&gt;.&lt;tag name&gt;</name>
+│ │ +          <description>The extracted image metadata will be inserted with the attribute name &quot;&lt;directory name&gt;.&lt;tag name&gt;&quot;.</description>
+│ │ +        </writesAttribute>
+│ │ +      </writesAttributes>
+│ │ +      <supportsBatching>true</supportsBatching>
+│ │ +      <inputRequirement>INPUT_REQUIRED</inputRequirement>
+│ │ +    </extension>
+│ │    </extensions>
+│ │  </extensionManifest>
+├── META-INF/maven/org.apache.nifi/nifi-media-nar/pom.properties
+│ @@ -1,5 +1,5 @@
+│  #Generated by Maven
+│ -#Thu Mar 31 03:28:34 CEST 2022
+│ +#Thu Mar 31 03:47:57 CEST 2022
+│  groupId=org.apache.nifi
+│  artifactId=nifi-media-nar
+│  version=1.16.0-SNAPSHOT
