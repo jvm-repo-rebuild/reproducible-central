@@ -11,6 +11,6 @@ rebuilding **1 releases** of org.apache.sling:org.apache.sling.jcr.jackrabbit.ac
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [3.0.10](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.jcr.jackrabbit.accessmanager/3.0.10/pom) | [mvn jdk11](org.apache.sling.jcr.jackrabbit.accessmanager-3.0.10.buildspec) | [3 :heavy_check_mark:  1 :warning:](org.apache.sling.jcr.jackrabbit.accessmanager-3.0.10.buildcompare) [:mag:](org.apache.sling.jcr.jackrabbit.accessmanager-3.0.10.diffoscope) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [3.0.10](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.jcr.jackrabbit.accessmanager/3.0.10/pom) | [mvn jdk11](org.apache.sling.jcr.jackrabbit.accessmanager-3.0.10.buildspec) | [result](org.apache.sling.jcr.jackrabbit.accessmanager-3.0.10.buildinfo): [3 :heavy_check_mark:  1 :warning:](org.apache.sling.jcr.jackrabbit.accessmanager-3.0.10.buildcompare) [:mag:](org.apache.sling.jcr.jackrabbit.accessmanager-3.0.10.diffoscope) | 226K |

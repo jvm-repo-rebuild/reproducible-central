@@ -19,6 +19,6 @@ rebuilding **1 releases** of org.openapitools.openapidiff:openapi-diff-parent:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [2.0.1](https://search.maven.org/artifact/org.openapitools.openapidiff/openapi-diff-parent/2.0.1/pom) | [mvn jdk11](openapi-diff-2.0.1.buildspec) | [11 :heavy_check_mark: ](openapi-diff-parent-2.0.1.buildcompare) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [2.0.1](https://search.maven.org/artifact/org.openapitools.openapidiff/openapi-diff-parent/2.0.1/pom) | [mvn jdk11](openapi-diff-2.0.1.buildspec) | [result](openapi-diff-parent-2.0.1.buildinfo): [11 :heavy_check_mark: ](openapi-diff-parent-2.0.1.buildcompare) | 14M |

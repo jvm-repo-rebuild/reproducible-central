@@ -11,8 +11,8 @@ rebuilding **3 releases** of org.apache.sling:org.apache.sling.feature.cpconvert
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [1.1.14](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.cpconverter/1.1.14/pom) | [mvn jdk11](org.apache.sling.feature.cpconverter-1.1.14.buildspec) | [4 :heavy_check_mark:  2 :warning:](org.apache.sling.feature.cpconverter-1.1.14.buildcompare) [:mag:](org.apache.sling.feature.cpconverter-1.1.14.diffoscope) |
-| [1.1.12](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.cpconverter/1.1.12/pom) | [mvn jdk8](org.apache.sling.feature.cpconverter-1.1.12.buildspec) | [4 :heavy_check_mark:  2 :warning:](org.apache.sling.feature.cpconverter-1.1.12.buildcompare) |
-| [1.1.10](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.cpconverter/1.1.10/pom) | [mvn jdk11](org.apache.sling.feature.cpconverter-1.1.10.buildspec) | [4 :heavy_check_mark:  2 :warning:](org.apache.sling.feature.cpconverter-1.1.10.buildcompare) [:mag:](org.apache.sling.feature.cpconverter-1.1.10.diffoscope) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [1.1.14](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.cpconverter/1.1.14/pom) | [mvn jdk11](org.apache.sling.feature.cpconverter-1.1.14.buildspec) | [result](org.apache.sling.feature.cpconverter-1.1.14.buildinfo): [4 :heavy_check_mark:  2 :warning:](org.apache.sling.feature.cpconverter-1.1.14.buildcompare) [:mag:](org.apache.sling.feature.cpconverter-1.1.14.diffoscope) | 20M |
+| [1.1.12](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.cpconverter/1.1.12/pom) | [mvn jdk8](org.apache.sling.feature.cpconverter-1.1.12.buildspec) | [result](org.apache.sling.feature.cpconverter-1.1.12.buildinfo): [4 :heavy_check_mark:  2 :warning:](org.apache.sling.feature.cpconverter-1.1.12.buildcompare) | 20M |
+| [1.1.10](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.cpconverter/1.1.10/pom) | [mvn jdk11](org.apache.sling.feature.cpconverter-1.1.10.buildspec) | [result](org.apache.sling.feature.cpconverter-1.1.10.buildinfo): [4 :heavy_check_mark:  2 :warning:](org.apache.sling.feature.cpconverter-1.1.10.buildcompare) [:mag:](org.apache.sling.feature.cpconverter-1.1.10.diffoscope) | 18M |

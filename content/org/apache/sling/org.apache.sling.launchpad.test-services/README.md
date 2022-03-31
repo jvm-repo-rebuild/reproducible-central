@@ -11,6 +11,6 @@ rebuilding **1 releases** of org.apache.sling:org.apache.sling.launchpad.test-se
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [12](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.launchpad.test-services/12/pom) | [mvn jdk11](org.apache.sling.launchpad.test-services-12.buildspec) | [4 :heavy_check_mark: ](org.apache.sling.launchpad.test-services-12.buildcompare) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [12](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.launchpad.test-services/12/pom) | [mvn jdk11](org.apache.sling.launchpad.test-services-12.buildspec) | [result](org.apache.sling.launchpad.test-services-12.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.launchpad.test-services-12.buildcompare) | 551K |

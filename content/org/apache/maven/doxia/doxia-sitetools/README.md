@@ -21,10 +21,10 @@ rebuilding **5 releases** of org.apache.maven.doxia:doxia-sitetools:
 - **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [2.0.0-M2](https://search.maven.org/artifact/org.apache.maven.doxia/doxia-sitetools/2.0.0-M2/pom) | [mvn jdk8 w](doxia-sitetools-2.0.0-M2.buildspec) | [15 :heavy_check_mark: ](doxia-sitetools-2.0.0-M2.buildcompare) |
-| [2.0.0-M1](https://search.maven.org/artifact/org.apache.maven.doxia/doxia-sitetools/2.0.0-M1/pom) | [mvn jdk8 w](doxia-sitetools-2.0.0-M1.buildspec) | [15 :heavy_check_mark: ](doxia-sitetools-2.0.0-M1.buildcompare) |
-| [1.11.1](https://search.maven.org/artifact/org.apache.maven.doxia/doxia-sitetools/1.11.1/pom) | [mvn jdk8 w](doxia-sitetools-1.11.1.buildspec) | [18 :heavy_check_mark: ](doxia-doc-renderer-1.11.1.buildcompare) |
-| [1.10](https://search.maven.org/artifact/org.apache.maven.doxia/doxia-sitetools/1.10/pom) | [mvn jdk8 w](doxia-sitetools-1.10.buildspec) | [18 :heavy_check_mark: ](doxia-doc-renderer-1.10.buildcompare) |
-| [1.9.2](https://search.maven.org/artifact/org.apache.maven.doxia/doxia-sitetools/1.9.2/pom) | [mvn jdk7](doxia-sitetools-1.9.2.buildspec) | [12 :heavy_check_mark: ](doxia-doc-renderer-1.9.2.buildcompare) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [2.0.0-M2](https://search.maven.org/artifact/org.apache.maven.doxia/doxia-sitetools/2.0.0-M2/pom) | [mvn jdk8 w](doxia-sitetools-2.0.0-M2.buildspec) | [result](doxia-sitetools-2.0.0-M2.buildinfo): [15 :heavy_check_mark: ](doxia-sitetools-2.0.0-M2.buildcompare) | 749K |
+| [2.0.0-M1](https://search.maven.org/artifact/org.apache.maven.doxia/doxia-sitetools/2.0.0-M1/pom) | [mvn jdk8 w](doxia-sitetools-2.0.0-M1.buildspec) | [result](doxia-sitetools-2.0.0-M1.buildinfo): [15 :heavy_check_mark: ](doxia-sitetools-2.0.0-M1.buildcompare) | 744K |
+| [1.11.1](https://search.maven.org/artifact/org.apache.maven.doxia/doxia-sitetools/1.11.1/pom) | [mvn jdk8 w](doxia-sitetools-1.11.1.buildspec) | [result](doxia-doc-renderer-1.11.1.buildinfo): [18 :heavy_check_mark: ](doxia-doc-renderer-1.11.1.buildcompare) | 1023K |
+| [1.10](https://search.maven.org/artifact/org.apache.maven.doxia/doxia-sitetools/1.10/pom) | [mvn jdk8 w](doxia-sitetools-1.10.buildspec) | [result](doxia-doc-renderer-1.10.buildinfo): [18 :heavy_check_mark: ](doxia-doc-renderer-1.10.buildcompare) | 1020K |
+| [1.9.2](https://search.maven.org/artifact/org.apache.maven.doxia/doxia-sitetools/1.9.2/pom) | [mvn jdk7](doxia-sitetools-1.9.2.buildspec) | [result](doxia-doc-renderer-1.9.2.buildinfo): [12 :heavy_check_mark: ](doxia-doc-renderer-1.9.2.buildcompare) | 975K |

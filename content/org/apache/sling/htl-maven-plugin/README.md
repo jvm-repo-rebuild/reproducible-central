@@ -11,6 +11,6 @@ rebuilding **1 releases** of org.apache.sling:htl-maven-plugin:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [2.0.4-1.4.0](https://search.maven.org/artifact/org.apache.sling/htl-maven-plugin/2.0.4-1.4.0/pom) | [mvn jdk11](htl-maven-plugin-2.0.4-1.4.0.buildspec) | [4 :heavy_check_mark: ](htl-maven-plugin-2.0.4-1.4.0.buildcompare) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [2.0.4-1.4.0](https://search.maven.org/artifact/org.apache.sling/htl-maven-plugin/2.0.4-1.4.0/pom) | [mvn jdk11](htl-maven-plugin-2.0.4-1.4.0.buildspec) | [result](htl-maven-plugin-2.0.4-1.4.0.buildinfo): [4 :heavy_check_mark: ](htl-maven-plugin-2.0.4-1.4.0.buildcompare) | 140K |

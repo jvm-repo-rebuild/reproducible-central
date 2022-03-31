@@ -18,6 +18,6 @@ rebuilding **1 releases** of org.codehaus.plexus:plexus-interactivity:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [1.1](https://search.maven.org/artifact/org.codehaus.plexus/plexus-interactivity/1.1/pom) | [mvn jdk7 w](plexus-interactivity-1.1.buildspec) | [9 :heavy_check_mark: ](plexus-interactivity-1.1.buildcompare) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [1.1](https://search.maven.org/artifact/org.codehaus.plexus/plexus-interactivity/1.1/pom) | [mvn jdk7 w](plexus-interactivity-1.1.buildspec) | [result](plexus-interactivity-1.1.buildinfo): [9 :heavy_check_mark: ](plexus-interactivity-1.1.buildcompare) | 58K |

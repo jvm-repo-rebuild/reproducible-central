@@ -11,7 +11,7 @@ rebuilding **2 releases** of org.webjars:flexmonster:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [2.9.21](https://search.maven.org/artifact/org.webjars/flexmonster/2.9.21/pom) | [mvn jdk8](flexmonster-2.9.21.buildspec) | [2 :heavy_check_mark: ](flexmonster-2.9.21.buildcompare) |
-| [2.9.20](https://search.maven.org/artifact/org.webjars/flexmonster/2.9.20/pom) | [mvn jdk8](flexmonster-2.9.20.buildspec) | [2 :heavy_check_mark: ](flexmonster-2.9.20.buildcompare) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [2.9.21](https://search.maven.org/artifact/org.webjars/flexmonster/2.9.21/pom) | [mvn jdk8](flexmonster-2.9.21.buildspec) | [result](flexmonster-2.9.21.buildinfo): [2 :heavy_check_mark: ](flexmonster-2.9.21.buildcompare) | 3.1M |
+| [2.9.20](https://search.maven.org/artifact/org.webjars/flexmonster/2.9.20/pom) | [mvn jdk8](flexmonster-2.9.20.buildspec) | [result](flexmonster-2.9.20.buildinfo): [2 :heavy_check_mark: ](flexmonster-2.9.20.buildcompare) | 3.1M |

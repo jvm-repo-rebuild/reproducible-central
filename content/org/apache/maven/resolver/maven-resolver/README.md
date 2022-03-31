@@ -31,13 +31,13 @@ rebuilding **8 releases** of org.apache.maven.resolver:maven-resolver:
 - **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [1.7.3](https://search.maven.org/artifact/org.apache.maven.resolver/maven-resolver/1.7.3/pom) | [mvn jdk8 w](maven-resolver-1.7.3.buildspec) | [42 :heavy_check_mark: ](maven-resolver-1.7.3.buildcompare) |
-| [1.7.2](https://search.maven.org/artifact/org.apache.maven.resolver/maven-resolver/1.7.2/pom) | [mvn jdk8 w](maven-resolver-1.7.2.buildspec) | [42 :heavy_check_mark: ](maven-resolver-1.7.2.buildcompare) |
-| [1.7.1](https://search.maven.org/artifact/org.apache.maven.resolver/maven-resolver/1.7.1/pom) | [mvn jdk8 w](maven-resolver-1.7.1.buildspec) | [42 :heavy_check_mark: ](maven-resolver-1.7.1.buildcompare) |
-| [1.7.0](https://search.maven.org/artifact/org.apache.maven.resolver/maven-resolver/1.7.0/pom) | [mvn jdk8 w](maven-resolver-1.7.0.buildspec) | [42 :heavy_check_mark: ](maven-resolver-1.7.0.buildcompare) |
-| [1.6.3](https://search.maven.org/artifact/org.apache.maven.resolver/maven-resolver/1.6.3/pom) | [mvn jdk8 w](maven-resolver-1.6.3.buildspec) | [39 :heavy_check_mark: ](maven-resolver-synccontext-redisson-1.6.3.buildcompare) |
-| [1.6.2](https://search.maven.org/artifact/org.apache.maven.resolver/maven-resolver/1.6.2/pom) | [mvn jdk8 w](maven-resolver-1.6.2.buildspec) | [39 :heavy_check_mark: ](maven-resolver-synccontext-redisson-1.6.2.buildcompare) |
-| [1.6.1](https://search.maven.org/artifact/org.apache.maven.resolver/maven-resolver/1.6.1/pom) | [mvn jdk8 w](maven-resolver-1.6.1.buildspec) | [39 :heavy_check_mark: ](maven-resolver-synccontext-redisson-1.6.1.buildcompare) |
-| [1.4.2](https://search.maven.org/artifact/org.apache.maven.resolver/maven-resolver/1.4.2/pom) | [mvn jdk8 w](maven-resolver-1.4.2.buildspec) | [23 :heavy_check_mark:  10 :warning:](maven-resolver-transport-wagon-1.4.2.buildcompare) [:memo:](https://issues.apache.org/jira/browse/MRESOLVER-137) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [1.7.3](https://search.maven.org/artifact/org.apache.maven.resolver/maven-resolver/1.7.3/pom) | [mvn jdk8 w](maven-resolver-1.7.3.buildspec) | [result](maven-resolver-1.7.3.buildinfo): [42 :heavy_check_mark: ](maven-resolver-1.7.3.buildcompare) | 3.0M |
+| [1.7.2](https://search.maven.org/artifact/org.apache.maven.resolver/maven-resolver/1.7.2/pom) | [mvn jdk8 w](maven-resolver-1.7.2.buildspec) | [result](maven-resolver-1.7.2.buildinfo): [42 :heavy_check_mark: ](maven-resolver-1.7.2.buildcompare) | 3.0M |
+| [1.7.1](https://search.maven.org/artifact/org.apache.maven.resolver/maven-resolver/1.7.1/pom) | [mvn jdk8 w](maven-resolver-1.7.1.buildspec) | [result](maven-resolver-1.7.1.buildinfo): [42 :heavy_check_mark: ](maven-resolver-1.7.1.buildcompare) | 3.0M |
+| [1.7.0](https://search.maven.org/artifact/org.apache.maven.resolver/maven-resolver/1.7.0/pom) | [mvn jdk8 w](maven-resolver-1.7.0.buildspec) | [result](maven-resolver-1.7.0.buildinfo): [42 :heavy_check_mark: ](maven-resolver-1.7.0.buildcompare) | 3.0M |
+| [1.6.3](https://search.maven.org/artifact/org.apache.maven.resolver/maven-resolver/1.6.3/pom) | [mvn jdk8 w](maven-resolver-1.6.3.buildspec) | [result](maven-resolver-synccontext-redisson-1.6.3.buildinfo): [39 :heavy_check_mark: ](maven-resolver-synccontext-redisson-1.6.3.buildcompare) | 2.8M |
+| [1.6.2](https://search.maven.org/artifact/org.apache.maven.resolver/maven-resolver/1.6.2/pom) | [mvn jdk8 w](maven-resolver-1.6.2.buildspec) | [result](maven-resolver-synccontext-redisson-1.6.2.buildinfo): [39 :heavy_check_mark: ](maven-resolver-synccontext-redisson-1.6.2.buildcompare) | 2.8M |
+| [1.6.1](https://search.maven.org/artifact/org.apache.maven.resolver/maven-resolver/1.6.1/pom) | [mvn jdk8 w](maven-resolver-1.6.1.buildspec) | [result](maven-resolver-synccontext-redisson-1.6.1.buildinfo): [39 :heavy_check_mark: ](maven-resolver-synccontext-redisson-1.6.1.buildcompare) | 2.8M |
+| [1.4.2](https://search.maven.org/artifact/org.apache.maven.resolver/maven-resolver/1.4.2/pom) | [mvn jdk8 w](maven-resolver-1.4.2.buildspec) | [result](maven-resolver-transport-wagon-1.4.2.buildinfo): [23 :heavy_check_mark:  10 :warning:](maven-resolver-transport-wagon-1.4.2.buildcompare) [:memo:](https://issues.apache.org/jira/browse/MRESOLVER-137) | 2.7M |

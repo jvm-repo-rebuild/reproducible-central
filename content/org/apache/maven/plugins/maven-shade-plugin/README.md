@@ -11,9 +11,9 @@ rebuilding **4 releases** of org.apache.maven.plugins:maven-shade-plugin:
 - **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [3.3.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-shade-plugin/3.3.0/pom) | [mvn jdk11](maven-shade-plugin-3.3.0.buildspec) | [4 :heavy_check_mark: ](maven-shade-plugin-3.3.0.buildcompare) |
-| [3.2.4](https://search.maven.org/artifact/org.apache.maven.plugins/maven-shade-plugin/3.2.4/pom) | [mvn jdk8](maven-shade-plugin-3.2.4.buildspec) | [4 :heavy_check_mark: ](maven-shade-plugin-3.2.4.buildcompare) |
-| [3.2.3](https://search.maven.org/artifact/org.apache.maven.plugins/maven-shade-plugin/3.2.3/pom) | [mvn jdk8](maven-shade-plugin-3.2.3.buildspec) | [4 :heavy_check_mark: ](maven-shade-plugin-3.2.3.buildcompare) |
-| [3.2.2](https://search.maven.org/artifact/org.apache.maven.plugins/maven-shade-plugin/3.2.2/pom) | [mvn jdk8](maven-shade-plugin-3.2.2.buildspec) | [4 :heavy_check_mark: ](maven-shade-plugin-3.2.2.buildcompare) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [3.3.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-shade-plugin/3.3.0/pom) | [mvn jdk11](maven-shade-plugin-3.3.0.buildspec) | [result](maven-shade-plugin-3.3.0.buildinfo): [4 :heavy_check_mark: ](maven-shade-plugin-3.3.0.buildcompare) | 1.1M |
+| [3.2.4](https://search.maven.org/artifact/org.apache.maven.plugins/maven-shade-plugin/3.2.4/pom) | [mvn jdk8](maven-shade-plugin-3.2.4.buildspec) | [result](maven-shade-plugin-3.2.4.buildinfo): [4 :heavy_check_mark: ](maven-shade-plugin-3.2.4.buildcompare) | 1.1M |
+| [3.2.3](https://search.maven.org/artifact/org.apache.maven.plugins/maven-shade-plugin/3.2.3/pom) | [mvn jdk8](maven-shade-plugin-3.2.3.buildspec) | [result](maven-shade-plugin-3.2.3.buildinfo): [4 :heavy_check_mark: ](maven-shade-plugin-3.2.3.buildcompare) | 1021K |
+| [3.2.2](https://search.maven.org/artifact/org.apache.maven.plugins/maven-shade-plugin/3.2.2/pom) | [mvn jdk8](maven-shade-plugin-3.2.2.buildspec) | [result](maven-shade-plugin-3.2.2.buildinfo): [4 :heavy_check_mark: ](maven-shade-plugin-3.2.2.buildcompare) | 1018K |

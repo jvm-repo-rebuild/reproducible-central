@@ -11,6 +11,6 @@ rebuilding **1 releases** of org.apache.maven.shared:maven-shared-utils:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [3.3.4](https://search.maven.org/artifact/org.apache.maven.shared/maven-shared-utils/3.3.4/pom) | [mvn jdk8](maven-shared-utils-3.3.4.buildspec) | [4 :heavy_check_mark: ](maven-shared-utils-3.3.4.buildcompare) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [3.3.4](https://search.maven.org/artifact/org.apache.maven.shared/maven-shared-utils/3.3.4/pom) | [mvn jdk8](maven-shared-utils-3.3.4.buildspec) | [result](maven-shared-utils-3.3.4.buildinfo): [4 :heavy_check_mark: ](maven-shared-utils-3.3.4.buildcompare) | 553K |

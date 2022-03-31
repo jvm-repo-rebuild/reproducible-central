@@ -52,6 +52,6 @@ rebuilding **1 releases** of org.apache.wayang:wayang:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [0.6.0](https://search.maven.org/artifact/org.apache.wayang/wayang/0.6.0/pom) | [mvn jdk8](wayang-0.6.0.buildspec) | [61 :heavy_check_mark:  26 :warning:](wayang-0.6.0.buildcompare) [:memo:](https://github.com/apache/incubator-wayang/pull/77) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [0.6.0](https://search.maven.org/artifact/org.apache.wayang/wayang/0.6.0/pom) | [mvn jdk8](wayang-0.6.0.buildspec) | [result](wayang-0.6.0.buildinfo): [61 :heavy_check_mark:  26 :warning:](wayang-0.6.0.buildcompare) [:memo:](https://github.com/apache/incubator-wayang/pull/77) | 12M |

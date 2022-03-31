@@ -22,6 +22,6 @@ rebuilding **1 releases** of org.apache.maven.indexer:maven-indexer:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [6.1.1](https://search.maven.org/artifact/org.apache.maven.indexer/maven-indexer/6.1.1/pom) | [mvn jdk8](maven-indexer-6.1.1.buildspec) | [19 :heavy_check_mark:  1 :warning:](maven-indexer-6.1.1.buildcompare) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [6.1.1](https://search.maven.org/artifact/org.apache.maven.indexer/maven-indexer/6.1.1/pom) | [mvn jdk8](maven-indexer-6.1.1.buildspec) | [result](maven-indexer-6.1.1.buildinfo): [19 :heavy_check_mark:  1 :warning:](maven-indexer-6.1.1.buildcompare) | 37M |

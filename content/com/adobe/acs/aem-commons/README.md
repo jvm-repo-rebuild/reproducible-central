@@ -21,6 +21,6 @@ rebuilding **1 releases** of com.adobe.acs:acs-aem-commons:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [5.2.0](https://search.maven.org/artifact/com.adobe.acs/acs-aem-commons/5.2.0/pom) | [mvn jdk8](acs-aem-commons-5.2.0.buildspec) | [9 :heavy_check_mark:  11 :warning:](acs-aem-commons-5.2.0.buildcompare) [:mag:](acs-aem-commons-5.2.0.diffoscope) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [5.2.0](https://search.maven.org/artifact/com.adobe.acs/acs-aem-commons/5.2.0/pom) | [mvn jdk8](acs-aem-commons-5.2.0.buildspec) | [result](acs-aem-commons-5.2.0.buildinfo): [9 :heavy_check_mark:  11 :warning:](acs-aem-commons-5.2.0.buildcompare) [:mag:](acs-aem-commons-5.2.0.diffoscope) | 112M |

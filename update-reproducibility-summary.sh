@@ -40,7 +40,7 @@ do
   for version in $(tac "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
   do
     buildspec=$(ls $dir | grep "\-${version}\.buildspec")
-    buildinfo=$(ls $dir | grep "\-${version}\.buildinfo")
+    _buildinfo=$(ls $dir | grep "\-${version}\.buildinfo")
     buildcompare=$(ls $dir | grep "\-${version}\.buildcompare")
 
     if [ -n "$buildspec" ]
@@ -85,7 +85,7 @@ do
       echo -n "| [${tool} jdk${jdk}" >> ${t}
       [[ "${newline}" == crlf* ]] && echo -n " w" >> ${t}
       echo -n "](${buildspec}) | " >> ${t}
-      [ -f "${buildinfo}" ] && echo -n "[result](${buildinfo}): " >> ${t}
+      [ -f "${dir}/${_buildinfo}" ] && echo -n "[result](${_buildinfo}): " >> ${t}
 
       . "${dir}/${buildcompare}"
       if [ $? -eq 0 ]; then
@@ -103,10 +103,10 @@ do
       else
         echo -n ":x:" >> ${t}
       fi
-      echo " |" >> ${t}
+      echo " | $(grep length= ${dir}/${_buildinfo} | cut -d = -f 2 | paste -sd+ - | bc | numfmt --to=iec) |" >> ${t}
     else
       # no buildspec, just list version to tmp
-      echo "| [${version}](https://search.maven.org/artifact/${groupId}/${artifactId}/${version}/pom) | | |" >> "${t}"
+      echo "| [${version}](https://search.maven.org/artifact/${groupId}/${artifactId}/${version}/pom) | | | |" >> "${t}"
     fi
     # don't continue if it's the first version with buildspec
     [[ "$firstVersion" == "$version" ]] && break
@@ -116,8 +116,8 @@ do
   echo "- **${countVersionOk}** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:)," >> $readme
   echo "- $((countVersion - countVersionOk)) had issues (some unreproducible artifacts :warning:):" >> $readme
   echo >> $readme
-  echo "| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |" >> $readme
-  echo "| -- | --------- | ------ |" >> $readme
+  echo "| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |" >> $readme
+  echo "| -- | --------- | ------ | -- |" >> $readme
   cat ${t} >> "${readme}"
   \rm -f ${t}
 

@@ -11,6 +11,6 @@ rebuilding **1 releases** of org.apache.sling:org.apache.sling.models.caconfig:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [1.0.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.models.caconfig/1.0.0/pom) | [mvn jdk11 w](org.apache.sling.models.caconfig-1.0.0.buildspec) | [4 :heavy_check_mark: ](org.apache.sling.models.caconfig-1.0.0.buildcompare) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [1.0.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.models.caconfig/1.0.0/pom) | [mvn jdk11 w](org.apache.sling.models.caconfig-1.0.0.buildspec) | [result](org.apache.sling.models.caconfig-1.0.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.models.caconfig-1.0.0.buildcompare) | 86K |

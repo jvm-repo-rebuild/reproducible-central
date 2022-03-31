@@ -11,7 +11,7 @@ rebuilding **2 releases** of org.apache.maven.plugins:maven-checkstyle-plugin:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [3.1.2](https://search.maven.org/artifact/org.apache.maven.plugins/maven-checkstyle-plugin/3.1.2/pom) | [mvn jdk11 w](maven-checkstyle-plugin-3.1.2.buildspec) | [4 :heavy_check_mark: ](maven-checkstyle-plugin-3.1.2.buildcompare) |
-| [3.1.1](https://search.maven.org/artifact/org.apache.maven.plugins/maven-checkstyle-plugin/3.1.1/pom) | [mvn jdk8](maven-checkstyle-plugin-3.1.1.buildspec) | [4 :heavy_check_mark: ](maven-checkstyle-plugin-3.1.1.buildcompare) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [3.1.2](https://search.maven.org/artifact/org.apache.maven.plugins/maven-checkstyle-plugin/3.1.2/pom) | [mvn jdk11 w](maven-checkstyle-plugin-3.1.2.buildspec) | [result](maven-checkstyle-plugin-3.1.2.buildinfo): [4 :heavy_check_mark: ](maven-checkstyle-plugin-3.1.2.buildcompare) | 637K |
+| [3.1.1](https://search.maven.org/artifact/org.apache.maven.plugins/maven-checkstyle-plugin/3.1.1/pom) | [mvn jdk8](maven-checkstyle-plugin-3.1.1.buildspec) | [result](maven-checkstyle-plugin-3.1.1.buildinfo): [4 :heavy_check_mark: ](maven-checkstyle-plugin-3.1.1.buildcompare) | 626K |

@@ -60,14 +60,14 @@ rebuilding **9 releases** of org.eclipse.jkube:jkube:
 - **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [1.7.0](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.7.0/pom) | [mvn jdk8](jkube-1.7.0.buildspec) | [113 :heavy_check_mark: ](jkube-1.7.0.buildcompare) |
-| [1.6.0](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.6.0/pom) | [mvn jdk8](jkube-1.6.0.buildspec) | [113 :heavy_check_mark: ](jkube-1.6.0.buildcompare) |
-| [1.5.1](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.5.1/pom) | [mvn jdk8](jkube-1.5.1.buildspec) | [118 :heavy_check_mark: ](jkube-1.5.1.buildcompare) |
-| [1.5.0](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.5.0/pom) | [mvn jdk8](jkube-1.5.0.buildspec) | [118 :heavy_check_mark: ](jkube-1.5.0.buildcompare) |
-| [1.4.0](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.4.0/pom) | [mvn jdk8](jkube-1.4.0.buildspec) | [107 :heavy_check_mark: ](jkube-1.4.0.buildcompare) |
-| [1.3.0](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.3.0/pom) | [mvn jdk8](jkube-1.3.0.buildspec) | [107 :heavy_check_mark: ](jkube-1.3.0.buildcompare) |
-| [1.2.0](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.2.0/pom) | [mvn jdk8](jkube-1.2.0.buildspec) | [107 :heavy_check_mark: ](jkube-1.2.0.buildcompare) |
-| [1.1.1](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.1.1/pom) | [mvn jdk8](jkube-1.1.1.buildspec) | [107 :heavy_check_mark: ](jkube-1.1.1.buildcompare) |
-| [1.1.0](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.1.0/pom) | [mvn jdk8](jkube-1.1.0.buildspec) | [107 :heavy_check_mark: ](jkube-1.1.0.buildcompare) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [1.7.0](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.7.0/pom) | [mvn jdk8](jkube-1.7.0.buildspec) | [result](jkube-1.7.0.buildinfo): [113 :heavy_check_mark: ](jkube-1.7.0.buildcompare) | 2.8M |
+| [1.6.0](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.6.0/pom) | [mvn jdk8](jkube-1.6.0.buildspec) | [result](jkube-1.6.0.buildinfo): [113 :heavy_check_mark: ](jkube-1.6.0.buildcompare) | 2.8M |
+| [1.5.1](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.5.1/pom) | [mvn jdk8](jkube-1.5.1.buildspec) | [result](jkube-1.5.1.buildinfo): [118 :heavy_check_mark: ](jkube-1.5.1.buildcompare) | 2.9M |
+| [1.5.0](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.5.0/pom) | [mvn jdk8](jkube-1.5.0.buildspec) | [result](jkube-1.5.0.buildinfo): [118 :heavy_check_mark: ](jkube-1.5.0.buildcompare) | 2.9M |
+| [1.4.0](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.4.0/pom) | [mvn jdk8](jkube-1.4.0.buildspec) | [result](jkube-1.4.0.buildinfo): [107 :heavy_check_mark: ](jkube-1.4.0.buildcompare) | 2.7M |
+| [1.3.0](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.3.0/pom) | [mvn jdk8](jkube-1.3.0.buildspec) | [result](jkube-1.3.0.buildinfo): [107 :heavy_check_mark: ](jkube-1.3.0.buildcompare) | 2.7M |
+| [1.2.0](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.2.0/pom) | [mvn jdk8](jkube-1.2.0.buildspec) | [result](jkube-1.2.0.buildinfo): [107 :heavy_check_mark: ](jkube-1.2.0.buildcompare) | 2.6M |
+| [1.1.1](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.1.1/pom) | [mvn jdk8](jkube-1.1.1.buildspec) | [result](jkube-1.1.1.buildinfo): [107 :heavy_check_mark: ](jkube-1.1.1.buildcompare) | 2.6M |
+| [1.1.0](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.1.0/pom) | [mvn jdk8](jkube-1.1.0.buildspec) | [result](jkube-1.1.0.buildinfo): [107 :heavy_check_mark: ](jkube-1.1.0.buildcompare) | 2.6M |

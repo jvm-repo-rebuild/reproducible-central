@@ -50,9 +50,9 @@ rebuilding **4 releases** of org.apache.maven.scm:maven-scm:
 - **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [2.0.0-M1](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/2.0.0-M1/pom) | [mvn jdk8 w](maven-scm-2.0.0-M1.buildspec) | [55 :heavy_check_mark: ](maven-scm-2.0.0-M1.buildcompare) |
-| [1.12.2](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/1.12.2/pom) | [mvn jdk8 w](maven-scm-1.12.2.buildspec) | [99 :heavy_check_mark: ](maven-scm-1.12.2.buildcompare) |
-| [1.12.0](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/1.12.0/pom) | [mvn jdk7 w](maven-scm-1.12.0.buildspec) | [99 :heavy_check_mark: ](maven-scm-1.12.0.buildcompare) |
-| [1.11.3](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/1.11.3/pom) | [mvn jdk7 w](maven-scm-1.11.3.buildspec) | [99 :heavy_check_mark: ](maven-scm-1.11.3.buildcompare) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [2.0.0-M1](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/2.0.0-M1/pom) | [mvn jdk8 w](maven-scm-2.0.0-M1.buildspec) | [result](maven-scm-2.0.0-M1.buildinfo): [55 :heavy_check_mark: ](maven-scm-2.0.0-M1.buildcompare) | 4.3M |
+| [1.12.2](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/1.12.2/pom) | [mvn jdk8 w](maven-scm-1.12.2.buildspec) | [result](maven-scm-1.12.2.buildinfo): [99 :heavy_check_mark: ](maven-scm-1.12.2.buildcompare) | 9.3M |
+| [1.12.0](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/1.12.0/pom) | [mvn jdk7 w](maven-scm-1.12.0.buildspec) | [result](maven-scm-1.12.0.buildinfo): [99 :heavy_check_mark: ](maven-scm-1.12.0.buildcompare) | 9.3M |
+| [1.11.3](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/1.11.3/pom) | [mvn jdk7 w](maven-scm-1.11.3.buildspec) | [result](maven-scm-1.11.3.buildinfo): [99 :heavy_check_mark: ](maven-scm-1.11.3.buildcompare) | 9.3M |

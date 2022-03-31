@@ -11,10 +11,10 @@ rebuilding **5 releases** of org.webjars:swagger-ui:
 - **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [4.9.1](https://search.maven.org/artifact/org.webjars/swagger-ui/4.9.1/pom) | [mvn jdk8](swagger-ui-4.9.1.buildspec) | [2 :heavy_check_mark: ](swagger-ui-4.9.1.buildcompare) |
-| [4.8.1](https://search.maven.org/artifact/org.webjars/swagger-ui/4.8.1/pom) | [mvn jdk8](swagger-ui-4.8.1.buildspec) | [2 :heavy_check_mark: ](swagger-ui-4.8.1.buildcompare) |
-| [4.8.0](https://search.maven.org/artifact/org.webjars/swagger-ui/4.8.0/pom) | [mvn jdk11](swagger-ui-4.8.0.buildspec) | [2 :heavy_check_mark: ](swagger-ui-4.8.0.buildcompare) |
-| [4.6.2](https://search.maven.org/artifact/org.webjars/swagger-ui/4.6.2/pom) | [mvn jdk8](swagger-ui-4.6.2.buildspec) | [2 :heavy_check_mark: ](swagger-ui-4.6.2.buildcompare) |
-| [4.5.2](https://search.maven.org/artifact/org.webjars/swagger-ui/4.5.2/pom) | [mvn jdk8](swagger-ui-4.5.2.buildspec) | [2 :heavy_check_mark: ](swagger-ui-4.5.2.buildcompare) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [4.9.1](https://search.maven.org/artifact/org.webjars/swagger-ui/4.9.1/pom) | [mvn jdk8](swagger-ui-4.9.1.buildspec) | [result](swagger-ui-4.9.1.buildinfo): [2 :heavy_check_mark: ](swagger-ui-4.9.1.buildcompare) | 3.3M |
+| [4.8.1](https://search.maven.org/artifact/org.webjars/swagger-ui/4.8.1/pom) | [mvn jdk8](swagger-ui-4.8.1.buildspec) | [result](swagger-ui-4.8.1.buildinfo): [2 :heavy_check_mark: ](swagger-ui-4.8.1.buildcompare) | 3.9M |
+| [4.8.0](https://search.maven.org/artifact/org.webjars/swagger-ui/4.8.0/pom) | [mvn jdk11](swagger-ui-4.8.0.buildspec) | [result](swagger-ui-4.8.0.buildinfo): [2 :heavy_check_mark: ](swagger-ui-4.8.0.buildcompare) | 3.9M |
+| [4.6.2](https://search.maven.org/artifact/org.webjars/swagger-ui/4.6.2/pom) | [mvn jdk8](swagger-ui-4.6.2.buildspec) | [result](swagger-ui-4.6.2.buildinfo): [2 :heavy_check_mark: ](swagger-ui-4.6.2.buildcompare) | 3.9M |
+| [4.5.2](https://search.maven.org/artifact/org.webjars/swagger-ui/4.5.2/pom) | [mvn jdk8](swagger-ui-4.5.2.buildspec) | [result](swagger-ui-4.5.2.buildinfo): [2 :heavy_check_mark: ](swagger-ui-4.5.2.buildcompare) | 5.9M |

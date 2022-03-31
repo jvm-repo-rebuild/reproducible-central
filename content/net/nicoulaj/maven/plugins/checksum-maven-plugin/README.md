@@ -11,6 +11,6 @@ rebuilding **1 releases** of net.nicoulaj.maven.plugins:checksum-maven-plugin:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [1.11](https://search.maven.org/artifact/net.nicoulaj.maven.plugins/checksum-maven-plugin/1.11/pom) | [mvn jdk16](checksum-maven-plugin-1.11.buildspec) | [2 :heavy_check_mark: ](checksum-maven-plugin-1.11.buildcompare) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [1.11](https://search.maven.org/artifact/net.nicoulaj.maven.plugins/checksum-maven-plugin/1.11/pom) | [mvn jdk16](checksum-maven-plugin-1.11.buildspec) | [result](checksum-maven-plugin-1.11.buildinfo): [2 :heavy_check_mark: ](checksum-maven-plugin-1.11.buildcompare) | 83K |

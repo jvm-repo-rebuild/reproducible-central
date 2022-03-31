@@ -11,6 +11,6 @@ rebuilding **1 releases** of com.github.veithen.maven:java-format-maven-plugin:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [0.2.0](https://search.maven.org/artifact/com.github.veithen.maven/java-format-maven-plugin/0.2.0/pom) | [mvn jdk11](java-format-maven-plugin-0.2.0.buildspec) | [4 :heavy_check_mark: ](java-format-maven-plugin-0.2.0.buildcompare) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [0.2.0](https://search.maven.org/artifact/com.github.veithen.maven/java-format-maven-plugin/0.2.0/pom) | [mvn jdk11](java-format-maven-plugin-0.2.0.buildspec) | [result](java-format-maven-plugin-0.2.0.buildinfo): [4 :heavy_check_mark: ](java-format-maven-plugin-0.2.0.buildcompare) | 76K |

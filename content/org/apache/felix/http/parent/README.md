@@ -11,6 +11,6 @@ rebuilding **1 releases** of org.apache.felix:org.apache.felix.http.parent:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [13](https://search.maven.org/artifact/org.apache.felix/org.apache.felix.http.parent/13/pom) | [mvn jdk8](felix-http-parent-13.buildspec) | [3 :heavy_check_mark: ](org.apache.felix.http.parent-13.buildcompare) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [13](https://search.maven.org/artifact/org.apache.felix/org.apache.felix.http.parent/13/pom) | [mvn jdk8](felix-http-parent-13.buildspec) | [result](org.apache.felix.http.parent-13.buildinfo): [3 :heavy_check_mark: ](org.apache.felix.http.parent-13.buildcompare) | 17K |

@@ -20,6 +20,6 @@ rebuilding **1 releases** of org.apache.plc4x.plugins:plc4x-code-generaton:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [1.5.0](https://search.maven.org/artifact/org.apache.plc4x.plugins/plc4x-code-generaton/1.5.0/pom) | [mvn jdk11 w](plc4x-code-generaton-1.5.0.buildspec) | [9 :heavy_check_mark: ](plc4x-code-generaton-1.5.0.buildcompare) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [1.5.0](https://search.maven.org/artifact/org.apache.plc4x.plugins/plc4x-code-generaton/1.5.0/pom) | [mvn jdk11 w](plc4x-code-generaton-1.5.0.buildspec) | [result](plc4x-code-generaton-1.5.0.buildinfo): [9 :heavy_check_mark: ](plc4x-code-generaton-1.5.0.buildcompare) | 256K |

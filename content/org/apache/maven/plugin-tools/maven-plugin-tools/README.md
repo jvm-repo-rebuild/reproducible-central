@@ -28,8 +28,8 @@ rebuilding **3 releases** of org.apache.maven.plugin-tools:maven-plugin-tools:
 - **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [3.6.4](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.6.4/pom) | [mvn jdk8](maven-plugin-tools-3.6.4.buildspec) | [40 :heavy_check_mark: ](maven-plugin-tools-3.6.4.buildcompare) |
-| [3.6.2](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.6.2/pom) | [mvn jdk16 w](maven-plugin-tools-3.6.2.buildspec) | [40 :heavy_check_mark: ](maven-plugin-tools-3.6.2.buildcompare) |
-| [3.6.1](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.6.1/pom) | [mvn jdk8 w](maven-plugin-tools-3.6.1.buildspec) | [40 :heavy_check_mark: ](maven-plugin-tools-3.6.1.buildcompare) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [3.6.4](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.6.4/pom) | [mvn jdk8](maven-plugin-tools-3.6.4.buildspec) | [result](maven-plugin-tools-3.6.4.buildinfo): [40 :heavy_check_mark: ](maven-plugin-tools-3.6.4.buildcompare) | 1.4M |
+| [3.6.2](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.6.2/pom) | [mvn jdk16 w](maven-plugin-tools-3.6.2.buildspec) | [result](maven-plugin-tools-3.6.2.buildinfo): [40 :heavy_check_mark: ](maven-plugin-tools-3.6.2.buildcompare) | 1.4M |
+| [3.6.1](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.6.1/pom) | [mvn jdk8 w](maven-plugin-tools-3.6.1.buildspec) | [result](maven-plugin-tools-3.6.1.buildinfo): [40 :heavy_check_mark: ](maven-plugin-tools-3.6.1.buildcompare) | 1.3M |

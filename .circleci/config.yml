@@ -22,6 +22,7 @@ jobs:
                 git \
                 bash \
                 curl \
+                coreutils \
       - checkout
 #      - shellcheck/install
 #      - shellcheck/check:

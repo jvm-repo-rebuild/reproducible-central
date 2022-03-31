@@ -11,6 +11,6 @@ rebuilding **1 releases** of org.complate:complate-core:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [0.2.0](https://search.maven.org/artifact/org.complate/complate-core/0.2.0/pom) | [mvn jdk8](complate-core-0.2.0.buildspec) | [3 :heavy_check_mark: ](complate-core-0.2.0.buildcompare) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [0.2.0](https://search.maven.org/artifact/org.complate/complate-core/0.2.0/pom) | [mvn jdk8](complate-core-0.2.0.buildspec) | [result](complate-core-0.2.0.buildinfo): [3 :heavy_check_mark: ](complate-core-0.2.0.buildcompare) | 53K |

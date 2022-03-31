@@ -11,8 +11,8 @@ rebuilding **3 releases** of org.apache.maven.plugins:maven-compiler-plugin:
 - **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [3.10.1](https://search.maven.org/artifact/org.apache.maven.plugins/maven-compiler-plugin/3.10.1/pom) | [mvn jdk11](maven-compiler-plugin-3.10.1.buildspec) | [4 :heavy_check_mark: ](maven-compiler-plugin-3.10.1.buildcompare) |
-| [3.10.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-compiler-plugin/3.10.0/pom) | [mvn jdk8](maven-compiler-plugin-3.10.0.buildspec) | [4 :heavy_check_mark: ](maven-compiler-plugin-3.10.0.buildcompare) |
-| [3.9.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-compiler-plugin/3.9.0/pom) | [mvn jdk8 w](maven-compiler-plugin-3.9.0.buildspec) | [4 :heavy_check_mark: ](maven-compiler-plugin-3.9.0.buildcompare) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [3.10.1](https://search.maven.org/artifact/org.apache.maven.plugins/maven-compiler-plugin/3.10.1/pom) | [mvn jdk11](maven-compiler-plugin-3.10.1.buildspec) | [result](maven-compiler-plugin-3.10.1.buildinfo): [4 :heavy_check_mark: ](maven-compiler-plugin-3.10.1.buildcompare) | 752K |
+| [3.10.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-compiler-plugin/3.10.0/pom) | [mvn jdk8](maven-compiler-plugin-3.10.0.buildspec) | [result](maven-compiler-plugin-3.10.0.buildinfo): [4 :heavy_check_mark: ](maven-compiler-plugin-3.10.0.buildcompare) | 740K |
+| [3.9.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-compiler-plugin/3.9.0/pom) | [mvn jdk8 w](maven-compiler-plugin-3.9.0.buildspec) | [result](maven-compiler-plugin-3.9.0.buildinfo): [4 :heavy_check_mark: ](maven-compiler-plugin-3.9.0.buildcompare) | 707K |

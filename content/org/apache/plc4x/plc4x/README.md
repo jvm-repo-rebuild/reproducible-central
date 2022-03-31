@@ -73,9 +73,9 @@ rebuilding **1 releases** of org.apache.plc4x:plc4x-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [0.9.1](https://search.maven.org/artifact/org.apache.plc4x/plc4x-parent/0.9.1/pom) | | |
-| [0.9.0](https://search.maven.org/artifact/org.apache.plc4x/plc4x-parent/0.9.0/pom) | | |
-| [0.8.0](https://search.maven.org/artifact/org.apache.plc4x/plc4x-parent/0.8.0/pom) | | |
-| [0.7.0](https://search.maven.org/artifact/org.apache.plc4x/plc4x-parent/0.7.0/pom) | [mvn jdk11](plc4x-0.7.0.buildspec) | [16 :heavy_check_mark:  51 :warning:](plc4x-tools-0.7.0.buildcompare) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [0.9.1](https://search.maven.org/artifact/org.apache.plc4x/plc4x-parent/0.9.1/pom) | | | |
+| [0.9.0](https://search.maven.org/artifact/org.apache.plc4x/plc4x-parent/0.9.0/pom) | | | |
+| [0.8.0](https://search.maven.org/artifact/org.apache.plc4x/plc4x-parent/0.8.0/pom) | | | |
+| [0.7.0](https://search.maven.org/artifact/org.apache.plc4x/plc4x-parent/0.7.0/pom) | [mvn jdk11](plc4x-0.7.0.buildspec) | [result](plc4x-tools-0.7.0.buildinfo): [16 :heavy_check_mark:  51 :warning:](plc4x-tools-0.7.0.buildcompare) | 95M |

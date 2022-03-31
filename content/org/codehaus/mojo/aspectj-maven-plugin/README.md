@@ -11,6 +11,6 @@ rebuilding **1 releases** of org.codehaus.mojo:aspectj-maven-plugin:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [1.14.0](https://search.maven.org/artifact/org.codehaus.mojo/aspectj-maven-plugin/1.14.0/pom) | [mvn jdk11](aspectj-maven-plugin-1.14.0.buildspec) | [3 :heavy_check_mark:  1 :warning:](aspectj-maven-plugin-1.14.0.buildcompare) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [1.14.0](https://search.maven.org/artifact/org.codehaus.mojo/aspectj-maven-plugin/1.14.0/pom) | [mvn jdk11](aspectj-maven-plugin-1.14.0.buildspec) | [result](aspectj-maven-plugin-1.14.0.buildinfo): [3 :heavy_check_mark:  1 :warning:](aspectj-maven-plugin-1.14.0.buildcompare) | 412K |

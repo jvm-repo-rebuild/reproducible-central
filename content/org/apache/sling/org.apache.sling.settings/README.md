@@ -11,6 +11,6 @@ rebuilding **1 releases** of org.apache.sling:org.apache.sling.settings:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [1.4.2](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.settings/1.4.2/pom) | [mvn jdk8](org.apache.sling.settings-1.4.2.buildspec) | [4 :heavy_check_mark: ](org.apache.sling.settings-1.4.2.buildcompare) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [1.4.2](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.settings/1.4.2/pom) | [mvn jdk8](org.apache.sling.settings-1.4.2.buildspec) | [result](org.apache.sling.settings-1.4.2.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.settings-1.4.2.buildcompare) | 101K |

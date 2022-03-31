@@ -11,13 +11,13 @@ rebuilding **8 releases** of org.cyclonedx:cyclonedx-maven-plugin:
 - **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
-| version | [build spec](BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
-| -- | --------- | ------ |
-| [2.5.3](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-maven-plugin/2.5.3/pom) | [mvn jdk8](cyclonedx-maven-plugin-2.5.3.buildspec) | [3 :heavy_check_mark: ](cyclonedx-maven-plugin-2.5.3.buildcompare) |
-| [2.5.2](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-maven-plugin/2.5.2/pom) | [mvn jdk11](cyclonedx-maven-plugin-2.5.2.buildspec) | [3 :heavy_check_mark: ](cyclonedx-maven-plugin-2.5.2.buildcompare) |
-| [2.5.1](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-maven-plugin/2.5.1/pom) | [mvn jdk8](cyclonedx-maven-plugin-2.5.1.buildspec) | [3 :heavy_check_mark: ](cyclonedx-maven-plugin-2.5.1.buildcompare) |
-| [2.5.0](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-maven-plugin/2.5.0/pom) | [mvn jdk8](cyclonedx-maven-plugin-2.5.0.buildspec) | [3 :heavy_check_mark: ](cyclonedx-maven-plugin-2.5.0.buildcompare) |
-| [2.4.1](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-maven-plugin/2.4.1/pom) | [mvn jdk8](cyclonedx-maven-plugin-2.4.1.buildspec) | [3 :heavy_check_mark: ](cyclonedx-maven-plugin-2.4.1.buildcompare) |
-| [2.4.0](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-maven-plugin/2.4.0/pom) | [mvn jdk8](cyclonedx-maven-plugin-2.4.0.buildspec) | [3 :heavy_check_mark: ](cyclonedx-maven-plugin-2.4.0.buildcompare) |
-| [2.3.0](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-maven-plugin/2.3.0/pom) | [mvn jdk8](cyclonedx-maven-plugin-2.3.0.buildspec) | [3 :heavy_check_mark: ](cyclonedx-maven-plugin-2.3.0.buildcompare) |
-| [2.2.0](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-maven-plugin/2.2.0/pom) | [mvn jdk8](cyclonedx-maven-plugin-2.2.0.buildspec) | [3 :heavy_check_mark: ](cyclonedx-maven-plugin-2.2.0.buildcompare) |
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [2.5.3](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-maven-plugin/2.5.3/pom) | [mvn jdk8](cyclonedx-maven-plugin-2.5.3.buildspec) | [result](cyclonedx-maven-plugin-2.5.3.buildinfo): [3 :heavy_check_mark: ](cyclonedx-maven-plugin-2.5.3.buildcompare) | 75K |
+| [2.5.2](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-maven-plugin/2.5.2/pom) | [mvn jdk11](cyclonedx-maven-plugin-2.5.2.buildspec) | [result](cyclonedx-maven-plugin-2.5.2.buildinfo): [3 :heavy_check_mark: ](cyclonedx-maven-plugin-2.5.2.buildcompare) | 74K |
+| [2.5.1](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-maven-plugin/2.5.1/pom) | [mvn jdk8](cyclonedx-maven-plugin-2.5.1.buildspec) | [result](cyclonedx-maven-plugin-2.5.1.buildinfo): [3 :heavy_check_mark: ](cyclonedx-maven-plugin-2.5.1.buildcompare) | 73K |
+| [2.5.0](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-maven-plugin/2.5.0/pom) | [mvn jdk8](cyclonedx-maven-plugin-2.5.0.buildspec) | [result](cyclonedx-maven-plugin-2.5.0.buildinfo): [3 :heavy_check_mark: ](cyclonedx-maven-plugin-2.5.0.buildcompare) | 73K |
+| [2.4.1](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-maven-plugin/2.4.1/pom) | [mvn jdk8](cyclonedx-maven-plugin-2.4.1.buildspec) | [result](cyclonedx-maven-plugin-2.4.1.buildinfo): [3 :heavy_check_mark: ](cyclonedx-maven-plugin-2.4.1.buildcompare) | 72K |
+| [2.4.0](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-maven-plugin/2.4.0/pom) | [mvn jdk8](cyclonedx-maven-plugin-2.4.0.buildspec) | [result](cyclonedx-maven-plugin-2.4.0.buildinfo): [3 :heavy_check_mark: ](cyclonedx-maven-plugin-2.4.0.buildcompare) | 72K |
+| [2.3.0](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-maven-plugin/2.3.0/pom) | [mvn jdk8](cyclonedx-maven-plugin-2.3.0.buildspec) | [result](cyclonedx-maven-plugin-2.3.0.buildinfo): [3 :heavy_check_mark: ](cyclonedx-maven-plugin-2.3.0.buildcompare) | 66K |
+| [2.2.0](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-maven-plugin/2.2.0/pom) | [mvn jdk8](cyclonedx-maven-plugin-2.2.0.buildspec) | [result](cyclonedx-maven-plugin-2.2.0.buildinfo): [3 :heavy_check_mark: ](cyclonedx-maven-plugin-2.2.0.buildcompare) | 66K |
