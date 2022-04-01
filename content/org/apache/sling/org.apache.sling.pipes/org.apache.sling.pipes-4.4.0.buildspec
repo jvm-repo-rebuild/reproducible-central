@@ -1,7 +1,7 @@
 groupId=org.apache.sling
 artifactId=org.apache.sling.pipes
 display=${groupId}:.pipes
-version=4.3.0
+version=4.4.0
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git
 gitTag=${artifactId}-${version}
@@ -13,5 +13,5 @@ newline=lf
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-diffoscope=${artifactId}-${version}.diffoscope
+#diffoscope=${artifactId}-${version}.diffoscope
 issue=https://issues.apache.org/jira/browse/SM-5021
