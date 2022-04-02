@@ -1,0 +1,217 @@
+target/reference/dependency-check-core-6.5.0.jar core/target/dependency-check-core-6.5.0.jar
+--- target/reference/dependency-check-core-6.5.0.jar
++++ core/target/dependency-check-core-6.5.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 991410 bytes, number of entries: 419
+│ +Zip file size: 991396 bytes, number of entries: 419
+│  -rw-r--r--  2.0 unx      188 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/licenses/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/licenses/StupidTablePlugin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/licenses/commons-compress/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/licenses/commons-io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/licenses/cve/
+│ @@ -95,15 +95,15 @@
+│  -rw-r--r--  2.0 unx     2955 b- defN 80-000-00 04:08 data/upgrade_3.0.sql
+│  -rw-r--r--  2.0 unx      330 b- defN 80-000-00 04:08 data/upgrade_4.0.sql
+│  -rw-r--r--  2.0 unx     2278 b- defN 80-000-00 04:08 data/upgrade_4.1.sql
+│  -rw-r--r--  2.0 unx      264 b- defN 80-000-00 04:08 data/upgrade_5.0.sql
+│  -rw-r--r--  2.0 unx      383 b- defN 80-000-00 04:08 data/upgrade_5.1.sql
+│  -rw-r--r--  2.0 unx    20757 b- defN 80-000-00 04:08 dependencycheck-base-hint.xml
+│  -rw-r--r--  2.0 unx   181318 b- defN 80-000-00 04:08 dependencycheck-base-suppression.xml
+│ --rw-r--r--  2.0 unx     3401 b- defN 80-000-00 04:08 dependencycheck-cache.properties
+│ +-rw-r--r--  2.0 unx     3366 b- defN 80-000-00 04:08 dependencycheck-cache.properties
+│  -rw-r--r--  2.0 unx     7108 b- defN 80-000-00 04:08 dependencycheck.properties
+│  -rw-r--r--  2.0 unx     3361 b- defN 80-000-00 04:08 org/owasp/dependencycheck/AnalysisTask.class
+│  -rw-r--r--  2.0 unx     2870 b- defN 80-000-00 04:08 org/owasp/dependencycheck/Engine$Mode.class
+│  -rw-r--r--  2.0 unx    35979 b- defN 80-000-00 04:08 org/owasp/dependencycheck/Engine.class
+│  -rw-r--r--  2.0 unx    19131 b- defN 80-000-00 04:08 org/owasp/dependencycheck/agent/DependencyCheckScanAgent.class
+│  -rw-r--r--  2.0 unx     2727 b- defN 80-000-00 04:08 org/owasp/dependencycheck/analyzer/AbstractAnalyzer.class
+│  -rw-r--r--  2.0 unx     3351 b- defN 80-000-00 04:08 org/owasp/dependencycheck/analyzer/AbstractDependencyComparingAnalyzer.class
+│ @@ -414,8 +414,8 @@
+│  -rw-r--r--  2.0 unx    14097 b- defN 80-000-00 04:08 templates/jsonReport.vsl
+│  -rw-r--r--  2.0 unx     5714 b- defN 80-000-00 04:08 templates/junitReport.vsl
+│  -rw-r--r--  2.0 unx     6101 b- defN 80-000-00 04:08 templates/sarifReport.vsl
+│  -rw-r--r--  2.0 unx    89475 b- defN 80-000-00 04:08 templates/scripts/jquery-3.5.1.min.js
+│  -rw-r--r--  2.0 unx    16255 b- defN 80-000-00 04:08 templates/xmlReport.vsl
+│  -rw-r--r--  2.0 unx    28600 b- defN 80-000-00 04:08 META-INF/maven/org.owasp/dependency-check-core/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 80-000-00 04:08 META-INF/maven/org.owasp/dependency-check-core/pom.properties
+│ -419 files, 2593297 bytes uncompressed, 917334 bytes compressed:  64.6%
+│ +419 files, 2593262 bytes uncompressed, 917320 bytes compressed:  64.6%
+├── dependencycheck-cache.properties
+│ @@ -52,14 +52,14 @@
+│  jcs.region.NODEAUDIT.elementattributes.IsSpool=true
+│  jcs.region.NODEAUDIT.elementattributes.IsRemote=false
+│  jcs.region.NODEAUDIT.elementattributes.IsLateral=false
+│  
+│  # AVAILABLE AUXILIARY CACHES
+│  jcs.auxiliary.ODC=org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCacheFactory
+│  jcs.auxiliary.ODC.attributes=org.apache.commons.jcs.auxiliary.disk.indexed.IndexedDiskCacheAttributes
+│ -#jcs.auxiliary.ODC.attributes.DiskPath=/home/runner/work/DependencyCheck/DependencyCheck/jcs_swap
+│ +#jcs.auxiliary.ODC.attributes.DiskPath=/var/maven/app/jcs_swap
+│  jcs.auxiliary.ODC.attributes.MaxPurgatorySize=10000000
+│  jcs.auxiliary.ODC.attributes.MaxKeySize=1000000
+│  jcs.auxiliary.ODC.attributes.OptimizeAtRemoveCount=300000
+│  jcs.auxiliary.ODC.attributes.ShutdownSpoolTimeLimit=60
+│  jcs.auxiliary.ODC.attributes.EventQueueType=POOLED
+│  jcs.auxiliary.ODC.attributes.EventQueuePoolName=disk_cache_event_queue
+
+target/reference/dependency-check-cli-6.5.0-sources.jar cli/target/dependency-check-6.5.0-sources.jar
+--- target/reference/dependency-check-cli-6.5.0-sources.jar
++++ cli/target/dependency-check-6.5.0-sources.jar
+├── zipinfo {}
+│ @@ -1,29 +1,27 @@
+│ -Zip file size: 30451 bytes, number of entries: 27
+│ +Zip file size: 29769 bytes, number of entries: 25
+│  -rw-r--r--  2.0 unx       64 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/owasp/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/owasp/dependencycheck/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 /
+│ -drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 /home/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 /home/runner/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 /home/runner/work/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 /home/runner/work/DependencyCheck/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 /home/runner/work/DependencyCheck/DependencyCheck/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 /home/runner/work/DependencyCheck/DependencyCheck/cli/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 /home/runner/work/DependencyCheck/DependencyCheck/cli/target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 /home/runner/work/DependencyCheck/DependencyCheck/cli/target/release/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 /home/runner/work/DependencyCheck/DependencyCheck/cli/target/release/bin/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 /var/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 /var/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 /var/maven/app/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 /var/maven/app/cli/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 /var/maven/app/cli/target/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 /var/maven/app/cli/target/release/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 /var/maven/app/cli/target/release/bin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.owasp/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.owasp/dependency-check-cli/
+│  -rw-r--r--  2.0 unx    34766 b- defN 80-000-00 04:08 org/owasp/dependencycheck/App.java
+│  -rw-r--r--  2.0 unx    63163 b- defN 80-000-00 04:08 org/owasp/dependencycheck/CliParser.java
+│  -rw-r--r--  2.0 unx      103 b- defN 80-000-00 04:08 org/owasp/dependencycheck/package-info.java
+│  -rw-r--r--  2.0 unx      544 b- defN 80-000-00 04:08 logback.xml
+│ --rw-r--r--  2.0 unx     4189 b- defN 80-000-00 04:08 /home/runner/work/DependencyCheck/DependencyCheck/cli/target/release/bin/completion-for-dependency-check.sh
+│ +-rw-r--r--  2.0 unx     4189 b- defN 80-000-00 04:08 /var/maven/app/cli/target/release/bin/completion-for-dependency-check.sh
+│  -rw-r--r--  2.0 unx    11358 b- defN 80-000-00 04:08 META-INF/LICENSE.txt
+│  -rw-r--r--  2.0 unx     1003 b- defN 80-000-00 04:08 META-INF/NOTICE.txt
+│  -rw-r--r--  2.0 unx     7253 b- defN 80-000-00 04:08 META-INF/maven/org.owasp/dependency-check-cli/pom.xml
+│  -rw-r--r--  2.0 unx       64 b- defN 80-000-00 04:08 META-INF/maven/org.owasp/dependency-check-cli/pom.properties
+│ -27 files, 122507 bytes uncompressed, 26535 bytes compressed:  78.3%
+│ +25 files, 122507 bytes uncompressed, 26535 bytes compressed:  78.3%
+├── zipnote «TEMP»/diffoscope_1a8tnovx_target/tmpzgz73a2a.zip
+│ @@ -12,39 +12,33 @@
+│  
+│  Filename: org/owasp/dependencycheck/
+│  Comment: 
+│  
+│  Filename: /
+│  Comment: 
+│  
+│ -Filename: /home/
+│ +Filename: /var/
+│  Comment: 
+│  
+│ -Filename: /home/runner/
+│ +Filename: /var/maven/
+│  Comment: 
+│  
+│ -Filename: /home/runner/work/
+│ +Filename: /var/maven/app/
+│  Comment: 
+│  
+│ -Filename: /home/runner/work/DependencyCheck/
+│ +Filename: /var/maven/app/cli/
+│  Comment: 
+│  
+│ -Filename: /home/runner/work/DependencyCheck/DependencyCheck/
+│ +Filename: /var/maven/app/cli/target/
+│  Comment: 
+│  
+│ -Filename: /home/runner/work/DependencyCheck/DependencyCheck/cli/
+│ +Filename: /var/maven/app/cli/target/release/
+│  Comment: 
+│  
+│ -Filename: /home/runner/work/DependencyCheck/DependencyCheck/cli/target/
+│ -Comment: 
+│ -
+│ -Filename: /home/runner/work/DependencyCheck/DependencyCheck/cli/target/release/
+│ -Comment: 
+│ -
+│ -Filename: /home/runner/work/DependencyCheck/DependencyCheck/cli/target/release/bin/
+│ +Filename: /var/maven/app/cli/target/release/bin/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.owasp/
+│  Comment: 
+│ @@ -60,15 +54,15 @@
+│  
+│  Filename: org/owasp/dependencycheck/package-info.java
+│  Comment: 
+│  
+│  Filename: logback.xml
+│  Comment: 
+│  
+│ -Filename: /home/runner/work/DependencyCheck/DependencyCheck/cli/target/release/bin/completion-for-dependency-check.sh
+│ +Filename: /var/maven/app/cli/target/release/bin/completion-for-dependency-check.sh
+│  Comment: 
+│  
+│  Filename: META-INF/LICENSE.txt
+│  Comment: 
+│  
+│  Filename: META-INF/NOTICE.txt
+│  Comment:
+│   --- /home/runner/work/DependencyCheck/DependencyCheck/cli/target/release/bin/completion-for-dependency-check.sh
+├── +++ /var/maven/app/cli/target/release/bin/completion-for-dependency-check.sh
+│┄ Files identical despite different names
+
+target/reference/dependency-check-maven-6.5.0.jar maven/target/dependency-check-maven-6.5.0.jar
+--- target/reference/dependency-check-maven-6.5.0.jar
++++ maven/target/dependency-check-maven-6.5.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 100432 bytes, number of entries: 27
+│ +Zip file size: 100438 bytes, number of entries: 27
+│  -rw-r--r--  2.0 unx      196 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.owasp/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.owasp/dependency-check-maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/owasp/
+│ @@ -15,15 +15,15 @@
+│  -rw-r--r--  2.0 unx      117 b- defN 80-000-00 04:08 mojo.properties
+│  -rw-r--r--  2.0 unx     9681 b- defN 80-000-00 04:08 org/owasp/dependencycheck/maven/AggregateMojo.class
+│  -rw-r--r--  2.0 unx     1243 b- defN 80-000-00 04:08 org/owasp/dependencycheck/maven/ArtifactScopeExcluded.class
+│  -rw-r--r--  2.0 unx      974 b- defN 80-000-00 04:08 org/owasp/dependencycheck/maven/ArtifactTypeExcluded.class
+│  -rw-r--r--  2.0 unx    64993 b- defN 80-000-00 04:08 org/owasp/dependencycheck/maven/BaseDependencyCheckMojo.class
+│  -rw-r--r--  2.0 unx     2673 b- defN 80-000-00 04:08 org/owasp/dependencycheck/maven/CheckMojo.class
+│  -rw-r--r--  2.0 unx     1781 b- defN 80-000-00 04:08 org/owasp/dependencycheck/maven/FilteringDependencyTransitiveNodeVisitor.class
+│ --rw-r--r--  2.0 unx    11134 b- defN 80-000-00 04:08 org/owasp/dependencycheck/maven/HelpMojo.class
+│ +-rw-r--r--  2.0 unx    11118 b- defN 80-000-00 04:08 org/owasp/dependencycheck/maven/HelpMojo.class
+│  -rw-r--r--  2.0 unx     2908 b- defN 80-000-00 04:08 org/owasp/dependencycheck/maven/Mshared998Util.class
+│  -rw-r--r--  2.0 unx     2587 b- defN 80-000-00 04:08 org/owasp/dependencycheck/maven/PurgeMojo.class
+│  -rw-r--r--  2.0 unx      953 b- defN 80-000-00 04:08 org/owasp/dependencycheck/maven/Retirejs.class
+│  -rw-r--r--  2.0 unx     3962 b- defN 80-000-00 04:08 org/owasp/dependencycheck/maven/UpdateMojo.class
+│  -rw-r--r--  2.0 unx     8119 b- defN 80-000-00 04:08 META-INF/maven/org.owasp/dependency-check-maven/pom.xml
+│  -rw-r--r--  2.0 unx       66 b- defN 80-000-00 04:08 META-INF/maven/org.owasp/dependency-check-maven/pom.properties
+│ -27 files, 529302 bytes uncompressed, 96276 bytes compressed:  81.8%
+│ +27 files, 529286 bytes uncompressed, 96282 bytes compressed:  81.8%
+├── org/owasp/dependencycheck/maven/HelpMojo.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,514 +1,499 @@
+│ │    Compiled from "HelpMojo.java"
+│ │  public class org.owasp.dependencycheck.maven.HelpMojo extends org.apache.maven.plugin.AbstractMojo
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+│ │ -  this_class: #3                          // org/owasp/dependencycheck/maven/HelpMojo
+│ │ -  super_class: #123                       // org/apache/maven/plugin/AbstractMojo
+│ │ +  this_class: #2                          // org/owasp/dependencycheck/maven/HelpMojo
+│ │ +  super_class: #4                         // org/apache/maven/plugin/AbstractMojo
+...

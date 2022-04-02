@@ -1,0 +1,18 @@
+groupId=org.owasp
+artifactId=dependency-check-parent
+version=6.5.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/jeremylong/DependencyCheck.git
+gitTag=v${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn clean package -Prelease-profile -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=target/${artifactId}-${version}.diffoscope
+issue=
