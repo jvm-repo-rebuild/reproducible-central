@@ -1,0 +1,43 @@
+target/reference/mybatis-cdi-1.1.2.jar target/mybatis-cdi-1.1.2.jar
+--- target/reference/mybatis-cdi-1.1.2.jar
++++ target/mybatis-cdi-1.1.2.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 29013 bytes, number of entries: 30
+│ +Zip file size: 29014 bytes, number of entries: 30
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-01 00:45 META-INF/
+│  -rw-r--r--  2.0 unx     2032 b- defN 22-Apr-01 00:45 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-01 00:45 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-01 00:45 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-01 00:45 org/mybatis/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-01 00:45 org/mybatis/cdi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-01 00:45 META-INF/maven/
+│ @@ -25,8 +25,8 @@
+│  -rw-r--r--  2.0 unx     7530 b- defN 22-Apr-01 00:45 org/mybatis/cdi/MybatisExtension.class
+│  -rw-r--r--  2.0 unx     3380 b- defN 22-Apr-01 00:45 org/mybatis/cdi/SerializableMapperProxy.class
+│  -rw-r--r--  2.0 unx      495 b- defN 22-Apr-01 00:45 org/mybatis/cdi/SessionFactoryProvider.class
+│  -rw-r--r--  2.0 unx     2428 b- defN 22-Apr-01 00:45 org/mybatis/cdi/SqlSessionManagerRegistry.class
+│  -rw-r--r--  2.0 unx      992 b- defN 22-Apr-01 00:45 org/mybatis/cdi/Transactional.class
+│  -rw-r--r--  2.0 unx     8952 b- defN 22-Apr-01 00:45 META-INF/maven/org.mybatis/mybatis-cdi/pom.xml
+│  -rw-r--r--  2.0 unx       60 b- defN 22-Apr-01 00:45 META-INF/maven/org.mybatis/mybatis-cdi/pom.properties
+│ -30 files, 63966 bytes uncompressed, 24671 bytes compressed:  61.4%
+│ +30 files, 63966 bytes uncompressed, 24672 bytes compressed:  61.4%
+├── META-INF/MANIFEST.MF
+│ @@ -24,15 +24,15 @@
+│   se.context.spi,javax.enterprise.event,javax.enterprise.inject,javax.ent
+│   erprise.inject.spi,javax.enterprise.util,javax.inject,javax.interceptor
+│   ,javax.transaction,org.apache.ibatis.executor,org.apache.ibatis.session
+│   ,org.slf4j
+│  Include-Resource: {META-INF/beans.xml=src/main/resources/META-INF/beans.
+│   xml},{META-INF/services/javax.enterprise.inject.spi.Extension=src/main/
+│   resources/META-INF/services/javax.enterprise.inject.spi.Extension},META
+│ - -INF/LICENSE=LICENSE,META-INF/NOTICE=NOTICE
+│ + -INF/NOTICE=NOTICE,META-INF/LICENSE=LICENSE
+│  Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.cdi)(ve
+│   rsion>=1.0.0)(!(version>=2.0.0)))";beans:List<String>="org.mybatis.cdi.
+│   CDIUtils$SerializableAnyAnnotationLiteral,org.mybatis.cdi.CDIUtils$Seri
+│   alizableDefaultAnnotationLiteral,org.mybatis.cdi.CDIUtils,org.mybatis.c
+│   di.JtaTransactionInterceptor,org.mybatis.cdi.LocalTransactionIntercepto
+│   r,org.mybatis.cdi.MyBatisBean,org.mybatis.cdi.MybatisCdiConfigurationEx
+│   ception,org.mybatis.cdi.MybatisExtension$BeanKey,org.mybatis.cdi.Mybati
+
