@@ -1,0 +1,16 @@
+version=7.0.4
+ok=13
+ko=9
+okFiles="dependency-check-parent-7.0.4.pom dependency-check-utils-7.0.4.pom dependency-check-utils-7.0.4-sources.jar dependency-check-core-7.0.4.pom dependency-check-core-7.0.4-sources.jar dependency-check-core-7.0.4-tests.jar dependency-check-cli-7.0.4.pom dependency-check-ant-7.0.4.pom dependency-check-ant-7.0.4-sources.jar dependency-check-maven-7.0.4.pom dependency-check-maven-7.0.4-sources.jar dependency-check-plugin-7.0.4.pom dependency-check-plugin-7.0.4-sources.jar"
+koFiles="dependency-check-utils-7.0.4.jar dependency-check-core-7.0.4.jar dependency-check-cli-7.0.4.jar dependency-check-cli-7.0.4-sources.jar dependency-check-cli-7.0.4-release.zip dependency-check-ant-7.0.4.jar dependency-check-ant-7.0.4-release.zip dependency-check-maven-7.0.4.jar dependency-check-plugin-7.0.4.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/dependency-check-utils-7.0.4.jar utils/target/dependency-check-utils-7.0.4.jar
+# diffoscope target/reference/dependency-check-core-7.0.4.jar core/target/dependency-check-core-7.0.4.jar
+# diffoscope target/reference/dependency-check-cli-7.0.4.jar cli/target/dependency-check-7.0.4.jar
+# diffoscope target/reference/dependency-check-cli-7.0.4-sources.jar cli/target/dependency-check-7.0.4-sources.jar
+# diffoscope target/reference/dependency-check-cli-7.0.4-release.zip cli/target/dependency-check-7.0.4-release.zip
+# diffoscope target/reference/dependency-check-ant-7.0.4.jar ant/target/dependency-check-ant-7.0.4.jar
+# diffoscope target/reference/dependency-check-ant-7.0.4-release.zip ant/target/dependency-check-ant-7.0.4-release.zip
+# diffoscope target/reference/dependency-check-maven-7.0.4.jar maven/target/dependency-check-maven-7.0.4.jar
+# diffoscope target/reference/dependency-check-plugin-7.0.4.jar archetype/target/dependency-check-plugin-7.0.4.jar
