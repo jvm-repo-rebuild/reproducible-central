@@ -49,3 +49,5 @@ rebuilding **1 releases** of org.slf4j:slf4j-parent:
 | [1.8.0-alpha1](https://search.maven.org/artifact/org.slf4j/slf4j-parent/1.8.0-alpha1/pom) | | | |
 | [1.8.0-alpha0](https://search.maven.org/artifact/org.slf4j/slf4j-parent/1.8.0-alpha0/pom) | | | |
 | [1.7.36](https://search.maven.org/artifact/org.slf4j/slf4j-parent/1.7.36/pom) | [mvn jdk8 w](slf4j-1.7.36.buildspec) | [result](slf4j-parent-1.7.36.buildinfo): [41 :heavy_check_mark:  4 :warning:](slf4j-parent-1.7.36.buildcompare) [:mag:](slf4j-parent-1.7.36.diffoscope) | 539K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

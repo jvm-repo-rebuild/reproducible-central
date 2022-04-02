@@ -43,3 +43,5 @@ rebuilding **3 releases** of org.quickperf:quick-perf:
 | [1.1.0](https://search.maven.org/artifact/org.quickperf/quick-perf/1.1.0/pom) | [mvn jdk11 w](quick-perf-1.1.0.buildspec) | [result](quick-perf-1.1.0.buildinfo): [53 :heavy_check_mark: ](quick-perf-1.1.0.buildcompare) | 940K |
 | [1.0.1](https://search.maven.org/artifact/org.quickperf/quick-perf/1.0.1/pom) | [mvn jdk11 w](quick-perf-1.0.1.buildspec) | [result](quick-perf-bom-1.0.1.buildinfo): [38 :heavy_check_mark: ](quick-perf-bom-1.0.1.buildcompare) | 521K |
 | [1.0.0](https://search.maven.org/artifact/org.quickperf/quick-perf/1.0.0/pom) | [mvn jdk11 w](quick-perf-1.0.0.buildspec) | [result](quick-perf-bom-1.0.0.buildinfo): [38 :heavy_check_mark: ](quick-perf-bom-1.0.0.buildcompare) | 521K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

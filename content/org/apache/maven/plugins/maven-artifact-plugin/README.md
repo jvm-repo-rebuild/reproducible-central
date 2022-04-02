@@ -16,3 +16,5 @@ rebuilding **3 releases** of org.apache.maven.plugins:maven-artifact-plugin:
 | [3.2.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-artifact-plugin/3.2.0/pom) | [mvn jdk8](maven-artifact-plugin-3.2.0.buildspec) | [result](maven-artifact-plugin-3.2.0.buildinfo): [4 :heavy_check_mark: ](maven-artifact-plugin-3.2.0.buildcompare) | 163K |
 | [3.1.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-artifact-plugin/3.1.0/pom) | [mvn jdk8](maven-artifact-plugin-3.1.0.buildspec) | [result](maven-artifact-plugin-3.1.0.buildinfo): [4 :heavy_check_mark: ](maven-artifact-plugin-3.1.0.buildcompare) | 138K |
 | [3.0.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-artifact-plugin/3.0.0/pom) | [mvn jdk8](maven-artifact-plugin-3.0.0.buildspec) | [result](maven-artifact-plugin-3.0.0.buildinfo): [4 :heavy_check_mark: ](maven-artifact-plugin-3.0.0.buildcompare) | 134K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

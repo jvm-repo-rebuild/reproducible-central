@@ -41,3 +41,5 @@ rebuilding **5 releases** of org.apache.maven.doxia:doxia:
 | [1.11.1](https://search.maven.org/artifact/org.apache.maven.doxia/doxia/1.11.1/pom) | [mvn jdk8 w](doxia-1.11.1.buildspec) | [result](doxia-module-markdown-1.11.1.buildinfo): [57 :heavy_check_mark: ](doxia-module-markdown-1.11.1.buildcompare) | 3.2M |
 | [1.10](https://search.maven.org/artifact/org.apache.maven.doxia/doxia/1.10/pom) | [mvn jdk8 w](doxia-1.10.buildspec) | [result](doxia-module-markdown-1.10.buildinfo): [57 :heavy_check_mark: ](doxia-module-markdown-1.10.buildcompare) | 3.2M |
 | [1.9.1](https://search.maven.org/artifact/org.apache.maven.doxia/doxia/1.9.1/pom) | [mvn jdk8](doxia-1.9.1.buildspec) | [result](doxia-module-markdown-1.9.1.buildinfo): [38 :heavy_check_mark: ](doxia-module-markdown-1.9.1.buildcompare) | 3.1M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

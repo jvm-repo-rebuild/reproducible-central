@@ -45,3 +45,5 @@ rebuilding **3 releases** of org.apache.accumulo:accumulo:
 | [1.10.2](https://search.maven.org/artifact/org.apache.accumulo/accumulo/1.10.2/pom) | [mvn jdk11](accumulo-1.10.2.buildspec) | [result](accumulo-project-1.10.2.buildinfo): [57 :heavy_check_mark:  3 :warning:](accumulo-project-1.10.2.buildcompare) [:mag:](accumulo-project-1.10.2.diffoscope) | 45M |
 | [1.10.1](https://search.maven.org/artifact/org.apache.accumulo/accumulo/1.10.1/pom) | [mvn jdk11](accumulo-1.10.1.buildspec) | [result](accumulo-maven-plugin-1.10.1.buildinfo): [36 :heavy_check_mark:  3 :warning:](accumulo-maven-plugin-1.10.1.buildcompare) | 45M |
 | [1.10.0](https://search.maven.org/artifact/org.apache.accumulo/accumulo/1.10.0/pom) | [mvn jdk11](accumulo-1.10.0.buildspec) | [result](accumulo-maven-plugin-1.10.0.buildinfo): [36 :heavy_check_mark:  3 :warning:](accumulo-maven-plugin-1.10.0.buildcompare) | 45M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

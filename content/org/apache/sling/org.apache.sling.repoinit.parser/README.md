@@ -17,3 +17,5 @@ rebuilding **1 releases** of org.apache.sling:org.apache.sling.repoinit.parser:
 | [1.6.12](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.repoinit.parser/1.6.12/pom) | | | |
 | [1.6.10](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.repoinit.parser/1.6.10/pom) | | | |
 | [1.6.8](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.repoinit.parser/1.6.8/pom) | [mvn jdk14](org.apache.sling.repoinit.parser-1.6.8.buildspec) | [result](org.apache.sling.repoinit.parser-1.6.8.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.repoinit.parser-1.6.8.buildcompare) | 368K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -56,3 +56,5 @@ rebuilding **14 releases** of com.taobao.arthas:arthas-all:
 | [3.3.9](https://search.maven.org/artifact/com.taobao.arthas/arthas-all/3.3.9/pom) | [mvn jdk8](arthas-3.3.9.buildspec) | [result](arthas-tunnel-server-3.3.9.buildinfo): [31 :heavy_check_mark:  21 :warning:](arthas-tunnel-server-3.3.9.buildcompare) | 65M |
 | [3.3.8](https://search.maven.org/artifact/com.taobao.arthas/arthas-all/3.3.8/pom) | [mvn jdk8](arthas-3.3.8.buildspec) | [result](arthas-tunnel-server-3.3.8.buildinfo): [31 :heavy_check_mark:  21 :warning:](arthas-tunnel-server-3.3.8.buildcompare) | 65M |
 | [3.3.7](https://search.maven.org/artifact/com.taobao.arthas/arthas-all/3.3.7/pom) | [mvn jdk8](arthas-3.3.7.buildspec) | [result](arthas-tunnel-server-3.3.7.buildinfo): [31 :heavy_check_mark:  21 :warning:](arthas-tunnel-server-3.3.7.buildcompare) [:memo:](https://github.com/alibaba/arthas/commit/20f31d47f23b2ac79ea7cb335e335d5e7b1a552a) | 65M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -61,3 +61,5 @@ rebuilding **2 releases** of org.apache.activemq:activemq-parent:
 | -- | --------- | ------ | -- |
 | [5.17.0](https://search.maven.org/artifact/org.apache.activemq/activemq-parent/5.17.0/pom) | [mvn jdk11](activemq-5.17.0.buildspec) | [result](activemq-parent-5.17.0.buildinfo): [111 :heavy_check_mark:  18 :warning:](activemq-parent-5.17.0.buildcompare) [:mag:](activemq-parent-5.17.0.diffoscope) | 207M |
 | [5.16.4](https://search.maven.org/artifact/org.apache.activemq/activemq-parent/5.16.4/pom) | [mvn jdk8](activemq-5.16.4.buildspec) | [result](activemq-parent-5.16.4.buildinfo): [107 :heavy_check_mark:  28 :warning:](activemq-parent-5.16.4.buildcompare) [:mag:](activemq-parent-5.16.4.diffoscope) | 256M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

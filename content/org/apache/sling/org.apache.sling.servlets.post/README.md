@@ -15,3 +15,5 @@ rebuilding **2 releases** of org.apache.sling:org.apache.sling.servlets.post:
 | -- | --------- | ------ | -- |
 | [2.5.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.servlets.post/2.5.0/pom) | [mvn jdk11](org.apache.sling.servlets.post-2.5.0.buildspec) | [result](org.apache.sling.servlets.post-2.5.0.buildinfo): [2 :heavy_check_mark:  2 :warning:](org.apache.sling.servlets.post-2.5.0.buildcompare) [:memo:](https://github.com/apache/sling-org-apache-sling-servlets-post/pull/17) | 800K |
 | [2.4.6](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.servlets.post/2.4.6/pom) | [mvn jdk11](org.apache.sling.servlets.post-2.4.6.buildspec) | [result](org.apache.sling.servlets.post-2.4.6.buildinfo): [2 :heavy_check_mark:  2 :warning:](org.apache.sling.servlets.post-2.4.6.buildcompare) [:memo:](https://github.com/apache/sling-org-apache-sling-servlets-post/pull/17) | 802K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

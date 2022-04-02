@@ -33,3 +33,5 @@ rebuilding **20 releases** of org.cyclonedx:cyclonedx-core-java:
 | [4.0.1](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-core-java/4.0.1/pom) | [mvn jdk8](cyclonedx-core-java-4.0.1.buildspec) | [result](cyclonedx-core-java-4.0.1.buildinfo): [3 :heavy_check_mark: ](cyclonedx-core-java-4.0.1.buildcompare) | 3.0M |
 | [4.0.0](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-core-java/4.0.0/pom) | [mvn jdk8](cyclonedx-core-java-4.0.0.buildspec) | [result](cyclonedx-core-java-4.0.0.buildinfo): [3 :heavy_check_mark: ](cyclonedx-core-java-4.0.0.buildcompare) | 3.0M |
 | [3.0.8](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-core-java/3.0.8/pom) | [mvn jdk8](cyclonedx-core-java-3.0.8.buildspec) | [result](cyclonedx-core-java-3.0.8.buildinfo): [3 :heavy_check_mark: ](cyclonedx-core-java-3.0.8.buildcompare) | 3.5M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -20,3 +20,5 @@ rebuilding **7 releases** of org.simplify4u.plugins:pgpverify-maven-plugin:
 | [1.13.0](https://search.maven.org/artifact/org.simplify4u.plugins/pgpverify-maven-plugin/1.13.0/pom) | [mvn jdk8](pgpverify-maven-plugin-1.13.0.buildspec) | [result](pgpverify-maven-plugin-1.13.0.buildinfo): [3 :heavy_check_mark: ](pgpverify-maven-plugin-1.13.0.buildcompare) | 262K |
 | [1.12.0](https://search.maven.org/artifact/org.simplify4u.plugins/pgpverify-maven-plugin/1.12.0/pom) | [mvn jdk8](pgpverify-maven-plugin-1.12.0.buildspec) | [result](pgpverify-maven-plugin-1.12.0.buildinfo): [3 :heavy_check_mark: ](pgpverify-maven-plugin-1.12.0.buildcompare) | 248K |
 | [1.11.0](https://search.maven.org/artifact/org.simplify4u.plugins/pgpverify-maven-plugin/1.11.0/pom) | [mvn jdk8](pgpverify-maven-plugin-1.11.0.buildspec) | [result](pgpverify-maven-plugin-1.11.0.buildinfo): [3 :heavy_check_mark: ](pgpverify-maven-plugin-1.11.0.buildcompare) | 226K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

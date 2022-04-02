@@ -23,3 +23,5 @@ rebuilding **2 releases** of org.tomitribe.transformer:org.eclipse.transformer.p
 | -- | --------- | ------ | -- |
 | [0.1.1a](https://search.maven.org/artifact/org.tomitribe.transformer/org.eclipse.transformer.parent/0.1.1a/pom) | [mvn jdk8](org.eclipse.transformer.parent-0.1.1a.buildspec) | [result](org.eclipse.transformer.maven-0.1.1a.buildinfo): [4 :heavy_check_mark: ](org.eclipse.transformer.maven-0.1.1a.buildcompare) | 678K |
 | [0.1.1](https://search.maven.org/artifact/org.tomitribe.transformer/org.eclipse.transformer.parent/0.1.1/pom) | [mvn jdk8](org.eclipse.transformer.parent-0.1.1.buildspec) | [result](org.eclipse.transformer.maven-0.1.1.buildinfo): [4 :heavy_check_mark: ](org.eclipse.transformer.maven-0.1.1.buildcompare) | 679K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

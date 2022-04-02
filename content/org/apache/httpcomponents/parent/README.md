@@ -14,3 +14,5 @@ rebuilding **1 releases** of org.apache.httpcomponents:httpcomponents-parent:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [12](https://search.maven.org/artifact/org.apache.httpcomponents/httpcomponents-parent/12/pom) | [mvn jdk8 w](httpcomponents-parent-12.buildspec) | [result](httpcomponents-parent-12.buildinfo): [2 :heavy_check_mark: ](httpcomponents-parent-12.buildcompare) | 57K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -21,3 +21,5 @@ rebuilding **3 releases** of org.apache.sling:org.apache.sling.feature.analyser:
 | [1.4.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.analyser/1.4.0/pom) | | | |
 | [1.3.38](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.analyser/1.3.38/pom) | | | |
 | [1.3.34](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.analyser/1.3.34/pom) | [mvn jdk11](org.apache.sling.feature.analyser-1.3.34.buildspec) | [result](org.apache.sling.feature.analyser-1.3.34.buildinfo): [2 :heavy_check_mark:  2 :warning:](org.apache.sling.feature.analyser-1.3.34.buildcompare) [:memo:](https://github.com/apache/sling-org-apache-sling-feature-analyser/pull/36) | 11M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

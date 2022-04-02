@@ -56,3 +56,5 @@ rebuilding **4 releases** of org.apache.maven.scm:maven-scm:
 | [1.12.2](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/1.12.2/pom) | [mvn jdk8 w](maven-scm-1.12.2.buildspec) | [result](maven-scm-1.12.2.buildinfo): [99 :heavy_check_mark: ](maven-scm-1.12.2.buildcompare) | 9.3M |
 | [1.12.0](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/1.12.0/pom) | [mvn jdk7 w](maven-scm-1.12.0.buildspec) | [result](maven-scm-1.12.0.buildinfo): [99 :heavy_check_mark: ](maven-scm-1.12.0.buildcompare) | 9.3M |
 | [1.11.3](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/1.11.3/pom) | [mvn jdk7 w](maven-scm-1.11.3.buildspec) | [result](maven-scm-1.11.3.buildinfo): [99 :heavy_check_mark: ](maven-scm-1.11.3.buildcompare) | 9.3M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -15,3 +15,5 @@ rebuilding **2 releases** of org.codehaus.plexus:plexus-utils:
 | -- | --------- | ------ | -- |
 | [3.4.1](https://search.maven.org/artifact/org.codehaus.plexus/plexus-utils/3.4.1/pom) | [mvn jdk11](plexus-utils-3.4.1.buildspec) | [result](plexus-utils-3.4.1.buildinfo): [4 :heavy_check_mark: ](plexus-utils-3.4.1.buildcompare) | 1.4M |
 | [3.4.0](https://search.maven.org/artifact/org.codehaus.plexus/plexus-utils/3.4.0/pom) | [mvn jdk11](plexus-utils-3.4.0.buildspec) | [result](plexus-utils-3.4.0.buildinfo): [4 :heavy_check_mark: ](plexus-utils-3.4.0.buildcompare) | 1.3M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

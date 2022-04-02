@@ -15,3 +15,5 @@ rebuilding **2 releases** of org.apache.sling:org.apache.sling.installer.provide
 | -- | --------- | ------ | -- |
 | [3.3.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.installer.provider.jcr/3.3.0/pom) | [mvn jdk8](org.apache.sling.installer.provider.jcr-3.3.0.buildspec) | [result](org.apache.sling.installer.provider.jcr-3.3.0.buildinfo): [3 :heavy_check_mark: ](org.apache.sling.installer.provider.jcr-3.3.0.buildcompare) | 176K |
 | [3.2.2](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.installer.provider.jcr/3.2.2/pom) | [mvn jdk8](org.apache.sling.installer.provider.jcr-3.2.2.buildspec) | [result](org.apache.sling.installer.provider.jcr-3.2.2.buildinfo): [2 :heavy_check_mark:  1 :warning:](org.apache.sling.installer.provider.jcr-3.2.2.buildcompare) | 177K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

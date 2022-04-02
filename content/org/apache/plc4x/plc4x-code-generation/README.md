@@ -23,3 +23,5 @@ rebuilding **1 releases** of org.apache.plc4x.plugins:plc4x-code-generaton:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [1.5.0](https://search.maven.org/artifact/org.apache.plc4x.plugins/plc4x-code-generaton/1.5.0/pom) | [mvn jdk11 w](plc4x-code-generaton-1.5.0.buildspec) | [result](plc4x-code-generaton-1.5.0.buildinfo): [9 :heavy_check_mark: ](plc4x-code-generaton-1.5.0.buildcompare) | 256K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -84,3 +84,5 @@ rebuilding **8 releases** of org.apache.jena:jena:
 | [3.16.0](https://search.maven.org/artifact/org.apache.jena/jena/3.16.0/pom) | [mvn jdk8](jena-3.16.0.buildspec) | [result](jena-osgi-features-3.16.0.buildinfo): [110 :heavy_check_mark:  29 :warning:](jena-osgi-features-3.16.0.buildcompare) | 339M |
 | [3.15.0](https://search.maven.org/artifact/org.apache.jena/jena/3.15.0/pom) | [mvn jdk8](jena-3.15.0.buildspec) | [result](jena-osgi-features-3.15.0.buildinfo): [110 :heavy_check_mark:  29 :warning:](jena-osgi-features-3.15.0.buildcompare) | 337M |
 | [3.14.0](https://search.maven.org/artifact/org.apache.jena/jena/3.14.0/pom) | [mvn jdk8](jena-3.14.0.buildspec) | [result](jena-osgi-features-3.14.0.buildinfo): [107 :heavy_check_mark:  30 :warning:](jena-osgi-features-3.14.0.buildcompare) | 316M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

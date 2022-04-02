@@ -14,3 +14,5 @@ rebuilding **1 releases** of org.apache.maven.plugins:maven-assembly-plugin:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [3.3.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-assembly-plugin/3.3.0/pom) | [mvn jdk8 w](maven-assembly-plugin-3.3.0.buildspec) | [result](maven-assembly-plugin-3.3.0.buildinfo): [4 :heavy_check_mark: ](maven-assembly-plugin-3.3.0.buildcompare) | 2.6M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

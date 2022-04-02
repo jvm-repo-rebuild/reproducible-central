@@ -7,12 +7,16 @@
 
 Source code: [https://github.com/fhoeben/hsac-fitnesse-fixtures.git](https://github.com/fhoeben/hsac-fitnesse-fixtures.git)
 
-rebuilding **24 releases** of nl.hsac:hsac-fitnesse-fixtures:
-- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **25 releases** of nl.hsac:hsac-fitnesse-fixtures:
+- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 11 had issues (some unreproducible artifacts :warning:):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [5.2.4](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.4/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.4.buildspec) | [result](hsac-fitnesse-fixtures-5.2.4.buildinfo): [4 :heavy_check_mark: ](hsac-fitnesse-fixtures-5.2.4.buildcompare) | 71M |
+| [5.2.3](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.3/pom) | | | |
+| [5.2.2](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.2/pom) | | | |
+| [5.2.1](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.1/pom) | | | |
 | [5.2.0](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.0/pom) | | | |
 | [5.1.2](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.1.2/pom) | | | |
 | [5.1.1](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.1.1/pom) | | | |
@@ -50,3 +54,5 @@ rebuilding **24 releases** of nl.hsac:hsac-fitnesse-fixtures:
 | [4.15.0](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/4.15.0/pom) | | | |
 | [4.14.0](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/4.14.0/pom) | [mvn jdk8](hsac-fitnesse-fixtures-4.14.0.buildspec) | [result](hsac-fitnesse-fixtures-4.14.0.buildinfo): [1 :heavy_check_mark:  3 :warning:](hsac-fitnesse-fixtures-4.14.0.buildcompare) [:memo:](https://github.com/fhoeben/hsac-fitnesse-fixtures/issues/316) | 40M |
 | [4.13.0](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/4.13.0/pom) | [mvn jdk8](hsac-fitnesse-fixtures-4.13.0.buildspec) | [result](hsac-fitnesse-fixtures-4.13.0.buildinfo): [1 :heavy_check_mark:  3 :warning:](hsac-fitnesse-fixtures-4.13.0.buildcompare) [:memo:](https://github.com/fhoeben/hsac-fitnesse-fixtures/issues/316) | 40M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

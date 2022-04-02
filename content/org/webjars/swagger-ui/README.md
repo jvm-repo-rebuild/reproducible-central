@@ -18,3 +18,5 @@ rebuilding **5 releases** of org.webjars:swagger-ui:
 | [4.8.0](https://search.maven.org/artifact/org.webjars/swagger-ui/4.8.0/pom) | [mvn jdk11](swagger-ui-4.8.0.buildspec) | [result](swagger-ui-4.8.0.buildinfo): [2 :heavy_check_mark: ](swagger-ui-4.8.0.buildcompare) | 3.9M |
 | [4.6.2](https://search.maven.org/artifact/org.webjars/swagger-ui/4.6.2/pom) | [mvn jdk8](swagger-ui-4.6.2.buildspec) | [result](swagger-ui-4.6.2.buildinfo): [2 :heavy_check_mark: ](swagger-ui-4.6.2.buildcompare) | 3.9M |
 | [4.5.2](https://search.maven.org/artifact/org.webjars/swagger-ui/4.5.2/pom) | [mvn jdk8](swagger-ui-4.5.2.buildspec) | [result](swagger-ui-4.5.2.buildinfo): [2 :heavy_check_mark: ](swagger-ui-4.5.2.buildcompare) | 5.9M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

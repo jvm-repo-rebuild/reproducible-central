@@ -25,3 +25,5 @@ rebuilding **12 releases** of org.simplify4u:pgp-keys-map:
 | [2021.05.15](https://search.maven.org/artifact/org.simplify4u/pgp-keys-map/2021.05.15/pom) | [mvn jdk8](pgp-keys-map-2021.05.15.buildspec) | [result](pgp-keys-map-2021.05.15.buildinfo): [2 :heavy_check_mark: ](pgp-keys-map-2021.05.15.buildcompare) | 20K |
 | [2021.04.06](https://search.maven.org/artifact/org.simplify4u/pgp-keys-map/2021.04.06/pom) | [mvn jdk8](pgp-keys-map-2021.04.06.buildspec) | [result](pgp-keys-map-2021.04.06.buildinfo): [2 :heavy_check_mark: ](pgp-keys-map-2021.04.06.buildcompare) | 20K |
 | [2021.03.02](https://search.maven.org/artifact/org.simplify4u/pgp-keys-map/2021.03.02/pom) | [mvn jdk8](pgp-keys-map-2021.03.02.buildspec) | [result](pgp-keys-map-2021.03.02.buildinfo): [2 :heavy_check_mark: ](pgp-keys-map-2021.03.02.buildcompare) | 20K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

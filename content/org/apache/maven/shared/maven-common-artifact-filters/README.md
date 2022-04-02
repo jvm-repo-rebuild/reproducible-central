@@ -15,3 +15,5 @@ rebuilding **2 releases** of org.apache.maven.shared:maven-common-artifact-filte
 | -- | --------- | ------ | -- |
 | [3.2.0](https://search.maven.org/artifact/org.apache.maven.shared/maven-common-artifact-filters/3.2.0/pom) | [mvn jdk11 w](maven-common-artifact-filters-3.2.0.buildspec) | [result](maven-common-artifact-filters-3.2.0.buildinfo): [4 :heavy_check_mark: ](maven-common-artifact-filters-3.2.0.buildcompare) | 230K |
 | [3.1.1](https://search.maven.org/artifact/org.apache.maven.shared/maven-common-artifact-filters/3.1.1/pom) | [mvn jdk11 w](maven-common-artifact-filters-3.1.1.buildspec) | [result](maven-common-artifact-filters-3.1.1.buildinfo): [4 :heavy_check_mark: ](maven-common-artifact-filters-3.1.1.buildcompare) | 230K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

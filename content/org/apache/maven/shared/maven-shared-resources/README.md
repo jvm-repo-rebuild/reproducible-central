@@ -15,3 +15,5 @@ rebuilding **2 releases** of org.apache.maven.shared:maven-shared-resources:
 | -- | --------- | ------ | -- |
 | [4](https://search.maven.org/artifact/org.apache.maven.shared/maven-shared-resources/4/pom) | [mvn jdk17 w](maven-shared-resources-4.buildspec) | [result](maven-shared-resources-4.buildinfo): [4 :heavy_check_mark: ](maven-shared-resources-4.buildcompare) | 54K |
 | [3](https://search.maven.org/artifact/org.apache.maven.shared/maven-shared-resources/3/pom) | [mvn jdk17 w](maven-shared-resources-3.buildspec) | [result](maven-shared-resources-3.buildinfo): [4 :heavy_check_mark: ](maven-shared-resources-3.buildcompare) | 53K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

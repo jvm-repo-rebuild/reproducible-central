@@ -18,3 +18,5 @@ rebuilding **5 releases** of org.apache.sling:org.apache.sling.commons.johnzon:
 | [1.2.4](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.commons.johnzon/1.2.4/pom) | [mvn jdk8](org.apache.sling.commons.johnzon-1.2.4.buildspec) | [result](org.apache.sling.commons.johnzon-1.2.4.buildinfo): [3 :heavy_check_mark: ](org.apache.sling.commons.johnzon-1.2.4.buildcompare) | 182K |
 | [1.2.2](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.commons.johnzon/1.2.2/pom) | [mvn jdk8](org.apache.sling.commons.johnzon-1.2.2.buildspec) | [result](org.apache.sling.commons.johnzon-1.2.2.buildinfo): [2 :heavy_check_mark:  1 :warning:](org.apache.sling.commons.johnzon-1.2.2.buildcompare) | 181K |
 | [1.2.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.commons.johnzon/1.2.0/pom) | [mvn jdk8](org.apache.sling.commons.johnzon-1.2.0.buildspec) | [result](org.apache.sling.commons.johnzon-1.2.0.buildinfo): [2 :heavy_check_mark:  1 :warning:](org.apache.sling.commons.johnzon-1.2.0.buildcompare) | 181K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -179,3 +179,5 @@ rebuilding **22 releases** of io.liftwizard:liftwizard:
 | [0.3.0](https://search.maven.org/artifact/io.liftwizard/liftwizard/0.3.0/pom) | [mvn jdk11](liftwizard-0.3.0.buildspec) | [result](liftwizard-0.3.0.buildinfo): [276 :heavy_check_mark: ](liftwizard-0.3.0.buildcompare) | 1.5M |
 | [0.2.0](https://search.maven.org/artifact/io.liftwizard/liftwizard/0.2.0/pom) | [mvn jdk11](liftwizard-0.2.0.buildspec) | [result](liftwizard-0.2.0.buildinfo): [267 :heavy_check_mark: ](liftwizard-0.2.0.buildcompare) | 1.2M |
 | [0.1.0](https://search.maven.org/artifact/io.liftwizard/liftwizard/0.1.0/pom) | [mvn jdk11](liftwizard-0.1.0.buildspec) | [result](liftwizard-0.1.0.buildinfo): [259 :heavy_check_mark: ](liftwizard-0.1.0.buildcompare) | 1.1M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

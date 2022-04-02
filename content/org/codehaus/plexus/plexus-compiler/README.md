@@ -37,3 +37,5 @@ rebuilding **7 releases** of org.codehaus.plexus:plexus-compiler:
 | [2.8.8](https://search.maven.org/artifact/org.codehaus.plexus/plexus-compiler/2.8.8/pom) | [mvn jdk8](plexus-compiler-2.8.8.buildspec) | [result](plexus-compiler-its-2.8.8.buildinfo): [21 :heavy_check_mark:  14 :warning:](plexus-compiler-its-2.8.8.buildcompare) | 470K |
 | [2.8.7](https://search.maven.org/artifact/org.codehaus.plexus/plexus-compiler/2.8.7/pom) | [mvn jdk11](plexus-compiler-2.8.7.buildspec) | [result](plexus-compiler-j2objc-2.8.7.buildinfo): [21 :heavy_check_mark:  13 :warning:](plexus-compiler-j2objc-2.8.7.buildcompare) | 453K |
 | [2.8.6](https://search.maven.org/artifact/org.codehaus.plexus/plexus-compiler/2.8.6/pom) | [mvn jdk8](plexus-compiler-2.8.6.buildspec) | [result](plexus-compiler-j2objc-2.8.6.buildinfo): [33 :heavy_check_mark: ](plexus-compiler-j2objc-2.8.6.buildcompare) | 253K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

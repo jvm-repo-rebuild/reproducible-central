@@ -16,3 +16,5 @@ rebuilding **3 releases** of com.github.package-url:packageurl-java:
 | [1.4.1](https://search.maven.org/artifact/com.github.package-url/packageurl-java/1.4.1/pom) | [mvn jdk8](packageurl-java-1.4.1.buildspec) | [result](packageurl-java-1.4.1.buildinfo): [3 :heavy_check_mark: ](packageurl-java-1.4.1.buildcompare) | 43K |
 | [1.4.0](https://search.maven.org/artifact/com.github.package-url/packageurl-java/1.4.0/pom) | [mvn jdk8](packageurl-java-1.4.0.buildspec) | [result](packageurl-java-1.4.0.buildinfo): [3 :heavy_check_mark: ](packageurl-java-1.4.0.buildcompare) | 43K |
 | [1.3.1](https://search.maven.org/artifact/com.github.package-url/packageurl-java/1.3.1/pom) | [mvn jdk8](packageurl-java-1.3.1.buildspec) | [result](packageurl-java-1.3.1.buildinfo): [3 :heavy_check_mark: ](packageurl-java-1.3.1.buildcompare) | 43K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

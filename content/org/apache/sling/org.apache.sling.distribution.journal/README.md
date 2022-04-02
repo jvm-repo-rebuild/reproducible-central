@@ -14,3 +14,5 @@ rebuilding **1 releases** of org.apache.sling:org.apache.sling.distribution.jour
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [0.1.24](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.distribution.journal/0.1.24/pom) | [mvn jdk14](org.apache.sling.distribution.journal-0.1.24.buildspec) | [result](org.apache.sling.distribution.journal-0.1.24.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.distribution.journal-0.1.24.buildcompare) | 1.2M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

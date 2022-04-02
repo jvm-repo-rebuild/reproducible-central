@@ -14,3 +14,5 @@ rebuilding **1 releases** of net.nicoulaj.maven.plugins:checksum-maven-plugin:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [1.11](https://search.maven.org/artifact/net.nicoulaj.maven.plugins/checksum-maven-plugin/1.11/pom) | [mvn jdk16](checksum-maven-plugin-1.11.buildspec) | [result](checksum-maven-plugin-1.11.buildinfo): [2 :heavy_check_mark: ](checksum-maven-plugin-1.11.buildcompare) | 83K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

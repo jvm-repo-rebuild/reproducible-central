@@ -26,3 +26,5 @@ rebuilding **2 releases** of org.apache.maven.archetype:maven-archetype:
 | -- | --------- | ------ | -- |
 | [3.2.1](https://search.maven.org/artifact/org.apache.maven.archetype/maven-archetype/3.2.1/pom) | [mvn jdk8](archetype-3.2.1.buildspec) | [result](maven-archetype-plugin-3.2.1.buildinfo): [20 :heavy_check_mark: ](maven-archetype-plugin-3.2.1.buildcompare) | 1.5M |
 | [3.2.0](https://search.maven.org/artifact/org.apache.maven.archetype/maven-archetype/3.2.0/pom) | [mvn jdk8](archetype-3.2.0.buildspec) | [result](maven-archetype-plugin-3.2.0.buildinfo): [20 :heavy_check_mark: ](maven-archetype-plugin-3.2.0.buildcompare) | 1.5M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

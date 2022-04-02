@@ -664,3 +664,5 @@ rebuilding **1 releases** of org.apache.nifi:nifi:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [1.16.0](https://search.maven.org/artifact/org.apache.nifi/nifi/1.16.0/pom) | [mvn jdk8](nifi-1.16.0.buildspec) | [result](nifi-1.16.0.buildinfo): [1273 :heavy_check_mark:  371 :warning:](nifi-1.16.0.buildcompare) [:mag:](nifi-1.16.0.diffoscope) [:memo:](https://github.com/apache/nifi/pull/5915) | 3.4G |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

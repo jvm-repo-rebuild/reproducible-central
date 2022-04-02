@@ -165,3 +165,5 @@ rebuilding **7 releases** of io.fabric8:kubernetes-client-project:
 | [5.1.2](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/5.1.2/pom) | | | |
 | [5.1.1](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/5.1.1/pom) | [mvn jdk8](kubernetes-client-5.1.1.buildspec) | [result](kubernetes-client-project-5.1.1.buildinfo): [175 :heavy_check_mark:  54 :warning:](kubernetes-client-project-5.1.1.buildcompare) [:mag:](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/io/fabric8/kubernetes-client/kubernetes-client-project-5.1.1.diffoscope) | 77M |
 | [5.1.0](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/5.1.0/pom) | [mvn jdk8](kubernetes-client-5.1.0.buildspec) | [result](kubernetes-client-project-5.1.0.buildinfo): [175 :heavy_check_mark:  54 :warning:](kubernetes-client-project-5.1.0.buildcompare) [:mag:](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/io/fabric8/kubernetes-client/kubernetes-client-project-5.1.0.diffoscope) | 77M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

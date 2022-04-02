@@ -26,3 +26,5 @@ rebuilding **1 releases** of org.apache.any23:apache-any23:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [2.7](https://search.maven.org/artifact/org.apache.any23/apache-any23/2.7/pom) | [mvn jdk11](any23-2.7.buildspec) | [result](apache-any23-2.7.buildinfo): [11 :heavy_check_mark:  20 :warning:](apache-any23-2.7.buildcompare) [:mag:](apache-any23-2.7.diffoscope) [:memo:](https://github.com/apache/any23/pull/270) | 120M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -17,3 +17,5 @@ rebuilding **4 releases** of org.apache.sling:org.apache.sling.installer.core:
 | [3.11.4](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.installer.core/3.11.4/pom) | [mvn jdk8](org.apache.sling.installer.core-3.11.4.buildspec) | [result](org.apache.sling.installer.core-3.11.4.buildinfo): [2 :heavy_check_mark:  1 :warning:](org.apache.sling.installer.core-3.11.4.buildcompare) | 730K |
 | [3.11.2](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.installer.core/3.11.2/pom) | [mvn jdk8](org.apache.sling.installer.core-3.11.2.buildspec) | [result](org.apache.sling.installer.core-3.11.2.buildinfo): [2 :heavy_check_mark:  1 :warning:](org.apache.sling.installer.core-3.11.2.buildcompare) | 781K |
 | [3.11.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.installer.core/3.11.0/pom) | [mvn jdk8](org.apache.sling.installer.core-3.11.0.buildspec) | [result](org.apache.sling.installer.core-3.11.0.buildinfo): [2 :heavy_check_mark:  1 :warning:](org.apache.sling.installer.core-3.11.0.buildcompare) | 780K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

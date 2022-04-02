@@ -26,3 +26,5 @@ rebuilding **2 releases** of org.apache.maven:maven-parent:
 | -- | --------- | ------ | -- |
 | [35](https://search.maven.org/artifact/org.apache.maven/maven-parent/35/pom) | [mvn jdk8](maven-parent-35.buildspec) | [result](maven-parent-35.buildinfo): [13 :heavy_check_mark:  1 :warning:](maven-parent-35.buildcompare) | 152K |
 | [34](https://search.maven.org/artifact/org.apache.maven/maven-parent/34/pom) | [mvn jdk8](maven-parent-34.buildspec) | [result](maven-parent-34.buildinfo): [13 :heavy_check_mark:  1 :warning:](maven-parent-34.buildcompare) | 148K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

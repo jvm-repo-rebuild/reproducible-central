@@ -14,3 +14,5 @@ rebuilding **1 releases** of org.apache.maven.plugins:maven-deploy-plugin:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [3.0.0-M2](https://search.maven.org/artifact/org.apache.maven.plugins/maven-deploy-plugin/3.0.0-M2/pom) | [mvn jdk8 w](maven-deploy-plugin-3.0.0-M2.buildspec) | [result](maven-deploy-plugin-3.0.0-M2.buildinfo): [4 :heavy_check_mark: ](maven-deploy-plugin-3.0.0-M2.buildcompare) | 309K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

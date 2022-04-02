@@ -21,3 +21,5 @@ rebuilding **8 releases** of org.cyclonedx:cyclonedx-maven-plugin:
 | [2.4.0](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-maven-plugin/2.4.0/pom) | [mvn jdk8](cyclonedx-maven-plugin-2.4.0.buildspec) | [result](cyclonedx-maven-plugin-2.4.0.buildinfo): [3 :heavy_check_mark: ](cyclonedx-maven-plugin-2.4.0.buildcompare) | 72K |
 | [2.3.0](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-maven-plugin/2.3.0/pom) | [mvn jdk8](cyclonedx-maven-plugin-2.3.0.buildspec) | [result](cyclonedx-maven-plugin-2.3.0.buildinfo): [3 :heavy_check_mark: ](cyclonedx-maven-plugin-2.3.0.buildcompare) | 66K |
 | [2.2.0](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-maven-plugin/2.2.0/pom) | [mvn jdk8](cyclonedx-maven-plugin-2.2.0.buildspec) | [result](cyclonedx-maven-plugin-2.2.0.buildinfo): [3 :heavy_check_mark: ](cyclonedx-maven-plugin-2.2.0.buildcompare) | 66K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

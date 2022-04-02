@@ -41,3 +41,5 @@ rebuilding **8 releases** of org.apache.maven.resolver:maven-resolver:
 | [1.6.2](https://search.maven.org/artifact/org.apache.maven.resolver/maven-resolver/1.6.2/pom) | [mvn jdk8 w](maven-resolver-1.6.2.buildspec) | [result](maven-resolver-synccontext-redisson-1.6.2.buildinfo): [39 :heavy_check_mark: ](maven-resolver-synccontext-redisson-1.6.2.buildcompare) | 2.8M |
 | [1.6.1](https://search.maven.org/artifact/org.apache.maven.resolver/maven-resolver/1.6.1/pom) | [mvn jdk8 w](maven-resolver-1.6.1.buildspec) | [result](maven-resolver-synccontext-redisson-1.6.1.buildinfo): [39 :heavy_check_mark: ](maven-resolver-synccontext-redisson-1.6.1.buildcompare) | 2.8M |
 | [1.4.2](https://search.maven.org/artifact/org.apache.maven.resolver/maven-resolver/1.4.2/pom) | [mvn jdk8 w](maven-resolver-1.4.2.buildspec) | [result](maven-resolver-transport-wagon-1.4.2.buildinfo): [23 :heavy_check_mark:  10 :warning:](maven-resolver-transport-wagon-1.4.2.buildcompare) [:memo:](https://issues.apache.org/jira/browse/MRESOLVER-137) | 2.7M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

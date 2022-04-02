@@ -16,3 +16,5 @@ rebuilding **3 releases** of org.apache.maven.plugins:maven-compiler-plugin:
 | [3.10.1](https://search.maven.org/artifact/org.apache.maven.plugins/maven-compiler-plugin/3.10.1/pom) | [mvn jdk11](maven-compiler-plugin-3.10.1.buildspec) | [result](maven-compiler-plugin-3.10.1.buildinfo): [4 :heavy_check_mark: ](maven-compiler-plugin-3.10.1.buildcompare) | 752K |
 | [3.10.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-compiler-plugin/3.10.0/pom) | [mvn jdk8](maven-compiler-plugin-3.10.0.buildspec) | [result](maven-compiler-plugin-3.10.0.buildinfo): [4 :heavy_check_mark: ](maven-compiler-plugin-3.10.0.buildcompare) | 740K |
 | [3.9.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-compiler-plugin/3.9.0/pom) | [mvn jdk8 w](maven-compiler-plugin-3.9.0.buildspec) | [result](maven-compiler-plugin-3.9.0.buildinfo): [4 :heavy_check_mark: ](maven-compiler-plugin-3.9.0.buildcompare) | 707K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

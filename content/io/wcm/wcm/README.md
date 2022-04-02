@@ -30,3 +30,5 @@ wcm-ui-granite-1.6.2.buildspec) | :x: | 85K |
 | [1.1.4](https://search.maven.org/artifact/io.wcm/io.wcm.wcm.ui.clientlibs/1.1.4/pom) | | | |
 | [1.1.2](https://search.maven.org/artifact/io.wcm/io.wcm.wcm.ui.clientlibs/1.1.2/pom) | [mvn jdk8 w](wcm-ui-clientlibs-1.1.2.buildspec) | [result](io.wcm.wcm.ui.clientlibs-1.1.2.buildinfo): [3 :heavy_check_mark: ](io.wcm.wcm.ui.clientlibs-1.1.2.buildcompare) | 28K |
 | [1.1.0](https://search.maven.org/artifact/io.wcm/io.wcm.wcm.ui.clientlibs/1.1.0/pom) | [mvn jdk8 w](wcm-ui-clientlibs-1.1.0.buildspec) | [result](io.wcm.wcm.ui.clientlibs-1.1.0.buildinfo): [3 :heavy_check_mark: ](io.wcm.wcm.ui.clientlibs-1.1.0.buildcompare) | 28K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

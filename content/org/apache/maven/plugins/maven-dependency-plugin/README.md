@@ -16,3 +16,5 @@ rebuilding **3 releases** of org.apache.maven.plugins:maven-dependency-plugin:
 | [3.3.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-dependency-plugin/3.3.0/pom) | [mvn jdk8](maven-dependency-plugin-3.3.0.buildspec) | [result](maven-dependency-plugin-3.3.0.buildinfo): [4 :heavy_check_mark: ](maven-dependency-plugin-3.3.0.buildcompare) | 968K |
 | [3.2.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-dependency-plugin/3.2.0/pom) | [mvn jdk8 w](maven-dependency-plugin-3.2.0.buildspec) | [result](maven-dependency-plugin-3.2.0.buildinfo): [4 :heavy_check_mark: ](maven-dependency-plugin-3.2.0.buildcompare) | 993K |
 | [3.1.2](https://search.maven.org/artifact/org.apache.maven.plugins/maven-dependency-plugin/3.1.2/pom) | [mvn jdk8](maven-dependency-plugin-3.1.2.buildspec) | [result](maven-dependency-plugin-3.1.2.buildinfo): [4 :heavy_check_mark: ](maven-dependency-plugin-3.1.2.buildcompare) | 885K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

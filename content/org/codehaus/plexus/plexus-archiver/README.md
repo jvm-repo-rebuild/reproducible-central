@@ -19,3 +19,5 @@ rebuilding **6 releases** of org.codehaus.plexus:plexus-archiver:
 | [4.2.4](https://search.maven.org/artifact/org.codehaus.plexus/plexus-archiver/4.2.4/pom) | [mvn jdk7](plexus-archiver-4.2.4.buildspec) | [result](plexus-archiver-4.2.4.buildinfo): [4 :heavy_check_mark: ](plexus-archiver-4.2.4.buildcompare) | 1.4M |
 | [4.2.3](https://search.maven.org/artifact/org.codehaus.plexus/plexus-archiver/4.2.3/pom) | [mvn jdk8 w](plexus-archiver-4.2.3.buildspec) | [result](plexus-archiver-4.2.3.buildinfo): [2 :heavy_check_mark:  1 :warning:](plexus-archiver-4.2.3.buildcompare) | 1.4M |
 | [4.2.2](https://search.maven.org/artifact/org.codehaus.plexus/plexus-archiver/4.2.2/pom) | [mvn jdk7](plexus-archiver-4.2.2.buildspec) | [result](plexus-archiver-4.2.2.buildinfo): [3 :heavy_check_mark: ](plexus-archiver-4.2.2.buildcompare) | 338K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

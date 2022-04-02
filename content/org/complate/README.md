@@ -14,3 +14,5 @@ rebuilding **1 releases** of org.complate:complate-core:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [0.2.0](https://search.maven.org/artifact/org.complate/complate-core/0.2.0/pom) | [mvn jdk8](complate-core-0.2.0.buildspec) | [result](complate-core-0.2.0.buildinfo): [3 :heavy_check_mark: ](complate-core-0.2.0.buildcompare) | 53K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

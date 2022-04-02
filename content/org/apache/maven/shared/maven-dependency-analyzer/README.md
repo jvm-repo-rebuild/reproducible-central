@@ -16,3 +16,5 @@ rebuilding **3 releases** of org.apache.maven.shared:maven-dependency-analyzer:
 | [1.12.0](https://search.maven.org/artifact/org.apache.maven.shared/maven-dependency-analyzer/1.12.0/pom) | [mvn jdk8](maven-dependency-analyzer-1.12.0.buildspec) | [result](maven-dependency-analyzer-1.12.0.buildinfo): [4 :heavy_check_mark: ](maven-dependency-analyzer-1.12.0.buildcompare) | 230K |
 | [1.11.3](https://search.maven.org/artifact/org.apache.maven.shared/maven-dependency-analyzer/1.11.3/pom) | [mvn jdk8](maven-dependency-analyzer-1.11.3.buildspec) | [result](maven-dependency-analyzer-1.11.3.buildinfo): [4 :heavy_check_mark: ](maven-dependency-analyzer-1.11.3.buildcompare) | 211K |
 | [1.11.2](https://search.maven.org/artifact/org.apache.maven.shared/maven-dependency-analyzer/1.11.2/pom) | [mvn jdk8](maven-dependency-analyzer-1.11.2.buildspec) | [result](maven-dependency-analyzer-1.11.2.buildinfo): [4 :heavy_check_mark: ](maven-dependency-analyzer-1.11.2.buildcompare) | 202K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

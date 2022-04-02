@@ -14,3 +14,5 @@ rebuilding **1 releases** of org.apache.sling:org.apache.sling.commons.messaging
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [1.0.2](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.commons.messaging/1.0.2/pom) | [mvn jdk11](org.apache.sling.commons.messaging-1.0.2.buildspec) | [result](org.apache.sling.commons.messaging-1.0.2.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.commons.messaging-1.0.2.buildcompare) | 46K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

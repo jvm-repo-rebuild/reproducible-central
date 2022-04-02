@@ -33,4 +33,5 @@ rebuilding **2 releases** of org.owasp:dependency-check-parent:
 | [6.5.2](https://search.maven.org/artifact/org.owasp/dependency-check-parent/6.5.2/pom) | | | |
 | [6.5.1](https://search.maven.org/artifact/org.owasp/dependency-check-parent/6.5.1/pom) | | | |
 | [6.5.0](https://search.maven.org/artifact/org.owasp/dependency-check-parent/6.5.0/pom) | [mvn jdk8](dependency-check-6.5.0.buildspec) | [result](dependency-check-parent-6.5.0.buildinfo): [17 :heavy_check_mark:  5 :warning:](dependency-check-parent-6.5.0.buildcompare) [:mag:](target/dependency-check-parent-6.5.0.diffoscope) | 45M |
+
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

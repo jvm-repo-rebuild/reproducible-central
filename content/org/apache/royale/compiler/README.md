@@ -32,3 +32,5 @@ rebuilding **1 releases** of org.apache.royale.compiler:compiler:
 | [0.9.9](https://search.maven.org/artifact/org.apache.royale.compiler/compiler/0.9.9/pom) | | | |
 | [0.9.8](https://search.maven.org/artifact/org.apache.royale.compiler/compiler/0.9.8/pom) | | | |
 | [0.9.7](https://search.maven.org/artifact/org.apache.royale.compiler/compiler/0.9.7/pom) | [mvn jdk8 w](royale-compiler-0.9.7.buildspec) | [result](royale-maven-plugin-0.9.7.buildinfo): [20 :heavy_check_mark:  5 :warning:](royale-maven-plugin-0.9.7.buildcompare) [:mag:](royale-maven-plugin-0.9.7.diffoscope) | 20M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

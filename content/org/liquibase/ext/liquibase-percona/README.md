@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/liquibase/liquibase-percona.git](https://github.com/liquibase/liquibase-percona.git)
 
-rebuilding **16 releases** of org.liquibase.ext:liquibase-percona:
-- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **17 releases** of org.liquibase.ext:liquibase-percona:
+- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.9.1](https://search.maven.org/artifact/org.liquibase.ext/liquibase-percona/4.9.1/pom) | | | |
+| [4.9.1](https://search.maven.org/artifact/org.liquibase.ext/liquibase-percona/4.9.1/pom) | [mvn jdk11](liquibase-percona-4.9.1.buildspec) | [result](liquibase-percona-4.9.1.buildinfo): [3 :heavy_check_mark: ](liquibase-percona-4.9.1.buildcompare) | 115K |
 | [4.9.0](https://search.maven.org/artifact/org.liquibase.ext/liquibase-percona/4.9.0/pom) | [mvn jdk11](liquibase-percona-4.9.0.buildspec) | [result](liquibase-percona-4.9.0.buildinfo): [3 :heavy_check_mark: ](liquibase-percona-4.9.0.buildcompare) | 115K |
 | [4.8.0](https://search.maven.org/artifact/org.liquibase.ext/liquibase-percona/4.8.0/pom) | [mvn jdk11](liquibase-percona-4.8.0.buildspec) | [result](liquibase-percona-4.8.0.buildinfo): [3 :heavy_check_mark: ](liquibase-percona-4.8.0.buildcompare) | 115K |
 | [4.7.1](https://search.maven.org/artifact/org.liquibase.ext/liquibase-percona/4.7.1/pom) | [mvn jdk11](liquibase-percona-4.7.1.buildspec) | [result](liquibase-percona-4.7.1.buildinfo): [3 :heavy_check_mark: ](liquibase-percona-4.7.1.buildcompare) | 115K |
@@ -30,3 +30,5 @@ rebuilding **16 releases** of org.liquibase.ext:liquibase-percona:
 | [4.3.3](https://search.maven.org/artifact/org.liquibase.ext/liquibase-percona/4.3.3/pom) | [mvn jdk8](liquibase-percona-4.3.3.buildspec) | [result](liquibase-percona-4.3.3.buildinfo): [3 :heavy_check_mark: ](liquibase-percona-4.3.3.buildcompare) | 109K |
 | [4.3.2](https://search.maven.org/artifact/org.liquibase.ext/liquibase-percona/4.3.2/pom) | [mvn jdk8](liquibase-percona-4.3.2.buildspec) | [result](liquibase-percona-4.3.2.buildinfo): [3 :heavy_check_mark: ](liquibase-percona-4.3.2.buildcompare) | 109K |
 | [4.3.1](https://search.maven.org/artifact/org.liquibase.ext/liquibase-percona/4.3.1/pom) | [mvn jdk8](liquibase-percona-4.3.1.buildspec) | [result](liquibase-percona-4.3.1.buildinfo): [1 :heavy_check_mark:  1 :warning:](liquibase-percona-4.3.1.buildcompare) [:mag:](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/liquibase/ext/liquibase-percona/liquibase-percona-4.3.1.diffoscope) | 66K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

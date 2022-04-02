@@ -22,3 +22,5 @@ rebuilding **1 releases** of com.ongres.stringprep:parent:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [2.0](https://search.maven.org/artifact/com.ongres.stringprep/parent/2.0/pom) | [mvn jdk11](stringprep-2.0.buildspec) | [result](parent-2.0.buildinfo): [7 :heavy_check_mark:  3 :warning:](parent-2.0.buildcompare) [:memo:](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/ongres/stringprep/parent-2.0.diffoscope) | 114K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

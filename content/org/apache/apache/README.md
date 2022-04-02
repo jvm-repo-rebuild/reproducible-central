@@ -16,3 +16,5 @@ rebuilding **3 releases** of org.apache:apache:
 | [25](https://search.maven.org/artifact/org.apache/apache/25/pom) | [mvn jdk8](apache-25.buildspec) | [result](apache-25.buildinfo): [2 :heavy_check_mark: ](apache-25.buildcompare) | 44K |
 | [24](https://search.maven.org/artifact/org.apache/apache/24/pom) | [mvn jdk8](apache-24.buildspec) | [result](apache-24.buildinfo): [ 1 :warning:](apache-24.buildcompare) [:memo:](https://issues.apache.org/jira/browse/MPOM-265) | 23K |
 | [23](https://search.maven.org/artifact/org.apache/apache/23/pom) | [mvn jdk8](apache-23.buildspec) | [result](apache-23.buildinfo): [1 :heavy_check_mark: ](apache-23.buildcompare) | 18K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

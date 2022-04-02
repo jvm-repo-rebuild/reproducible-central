@@ -74,3 +74,5 @@ rebuilding **21 releases** of net.sourceforge.pmd:pmd:
 | [6.26.0](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/6.26.0/pom) | [mvn jdk11](pmd-6.26.0.buildspec) | [result](pmd-doc-6.26.0.buildinfo): [100 :heavy_check_mark: ](pmd-doc-6.26.0.buildcompare) | 16M |
 | [6.25.0](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/6.25.0/pom) | [mvn jdk11](pmd-6.25.0.buildspec) | [result](pmd-doc-6.25.0.buildinfo): [100 :heavy_check_mark: ](pmd-doc-6.25.0.buildcompare) | 16M |
 | [6.24.0](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/6.24.0/pom) | [mvn jdk11](pmd-6.24.0.buildspec) | [result](pmd-doc-6.24.0.buildinfo): [95 :heavy_check_mark: ](pmd-doc-6.24.0.buildcompare) | 16M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

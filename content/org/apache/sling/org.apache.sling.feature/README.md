@@ -14,3 +14,5 @@ rebuilding **1 releases** of org.apache.sling:org.apache.sling.feature:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [1.2.30](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature/1.2.30/pom) | [mvn jdk11](org.apache.sling.feature-1.2.30.buildspec) | [result](org.apache.sling.feature-1.2.30.buildinfo): [2 :heavy_check_mark:  2 :warning:](org.apache.sling.feature-1.2.30.buildcompare) [:memo:](https://github.com/apache/sling-org-apache-sling-feature/pull/30) | 1.5M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

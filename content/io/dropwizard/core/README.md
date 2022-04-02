@@ -77,3 +77,5 @@ rebuilding **26 releases** of io.dropwizard:dropwizard-project:
 | [2.0.12](https://search.maven.org/artifact/io.dropwizard/dropwizard-project/2.0.12/pom) | [mvn jdk8](dropwizard-2.0.12.buildspec) | [result](dropwizard-project-2.0.12.buildinfo): [87 :heavy_check_mark:  1 :warning:](dropwizard-project-2.0.12.buildcompare) | 1.4M |
 | [2.0.11](https://search.maven.org/artifact/io.dropwizard/dropwizard-project/2.0.11/pom) | [mvn jdk8](dropwizard-2.0.11.buildspec) | [result](dropwizard-project-2.0.11.buildinfo): [87 :heavy_check_mark:  1 :warning:](dropwizard-project-2.0.11.buildcompare) | 1.4M |
 | [2.0.10](https://search.maven.org/artifact/io.dropwizard/dropwizard-project/2.0.10/pom) | [mvn jdk8](dropwizard-2.0.10.buildspec) | [result](dropwizard-project-2.0.10.buildinfo): [87 :heavy_check_mark:  1 :warning:](dropwizard-project-2.0.10.buildcompare) | 1.4M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

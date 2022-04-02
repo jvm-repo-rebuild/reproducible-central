@@ -18,3 +18,5 @@ rebuilding **4 releases** of org.codehaus.plexus:plexus-components:
 | [6.4](https://search.maven.org/artifact/org.codehaus.plexus/plexus-components/6.4/pom) | [mvn jdk7](plexus-components-6.4.buildspec) | [result](plexus-components-6.4.buildinfo): [1 :heavy_check_mark:  2 :warning:](plexus-components-6.4.buildcompare) | 7.4K |
 | [6.3](https://search.maven.org/artifact/org.codehaus.plexus/plexus-components/6.3/pom) | | | |
 | [6.1](https://search.maven.org/artifact/org.codehaus.plexus/plexus-components/6.1/pom) | [mvn jdk7](plexus-components-6.1.buildspec) | [result](plexus-components-6.1.buildinfo): [2 :heavy_check_mark: ](plexus-components-6.1.buildcompare) | 3.0K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

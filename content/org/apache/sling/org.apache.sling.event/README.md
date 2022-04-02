@@ -18,3 +18,5 @@ rebuilding **5 releases** of org.apache.sling:org.apache.sling.event:
 | [4.2.22](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.event/4.2.22/pom) | [mvn jdk8](org.apache.sling.event-4.2.22.buildspec) | [result](org.apache.sling.event-4.2.22.buildinfo): [3 :heavy_check_mark:  1 :warning:](org.apache.sling.event-4.2.22.buildcompare) | 872K |
 | [4.2.20](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.event/4.2.20/pom) | [mvn jdk8](org.apache.sling.event-4.2.20.buildspec) | [result](org.apache.sling.event-4.2.20.buildinfo): [3 :heavy_check_mark:  1 :warning:](org.apache.sling.event-4.2.20.buildcompare) | 866K |
 | [4.2.18](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.event/4.2.18/pom) | [mvn jdk8](org.apache.sling.event-4.2.18.buildspec) | [result](org.apache.sling.event-4.2.18.buildinfo): [3 :heavy_check_mark:  1 :warning:](org.apache.sling.event-4.2.18.buildcompare) | 846K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -15,3 +15,5 @@ rebuilding **2 releases** of org.apache.sling:org.apache.sling.security:
 | -- | --------- | ------ | -- |
 | [1.1.24](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.security/1.1.24/pom) | [mvn jdk11](org.apache.sling.security-1.1.24.buildspec) | [result](org.apache.sling.security-1.1.24.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.security-1.1.24.buildcompare) | 92K |
 | [1.1.22](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.security/1.1.22/pom) | [mvn jdk11](org.apache.sling.security-1.1.22.buildspec) | [result](org.apache.sling.security-1.1.22.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.security-1.1.22.buildcompare) | 93K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

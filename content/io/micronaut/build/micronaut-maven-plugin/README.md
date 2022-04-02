@@ -7,12 +7,13 @@
 
 Source code: [https://github.com/micronaut-projects/micronaut-maven-plugin.git](https://github.com/micronaut-projects/micronaut-maven-plugin.git)
 
-rebuilding **20 releases** of io.micronaut.build:micronaut-maven-plugin:
-- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **21 releases** of io.micronaut.build:micronaut-maven-plugin:
+- **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.2.2](https://search.maven.org/artifact/io.micronaut.build/micronaut-maven-plugin/3.2.2/pom) | [mvn jdk8](micronaut-maven-plugin-3.2.2.buildspec) | [result](micronaut-maven-plugin-3.2.2.buildinfo): [3 :heavy_check_mark: ](micronaut-maven-plugin-3.2.2.buildcompare) | 169K |
 | [3.2.1](https://search.maven.org/artifact/io.micronaut.build/micronaut-maven-plugin/3.2.1/pom) | [mvn jdk8](micronaut-maven-plugin-3.2.1.buildspec) | [result](micronaut-maven-plugin-3.2.1.buildinfo): [3 :heavy_check_mark: ](micronaut-maven-plugin-3.2.1.buildcompare) | 169K |
 | [3.2.0](https://search.maven.org/artifact/io.micronaut.build/micronaut-maven-plugin/3.2.0/pom) | [mvn jdk8](micronaut-maven-plugin-3.2.0.buildspec) | [result](micronaut-maven-plugin-3.2.0.buildinfo): [3 :heavy_check_mark: ](micronaut-maven-plugin-3.2.0.buildcompare) | 170K |
 | [3.1.1](https://search.maven.org/artifact/io.micronaut.build/micronaut-maven-plugin/3.1.1/pom) | [mvn jdk8](micronaut-maven-plugin-3.1.1.buildspec) | [result](micronaut-maven-plugin-3.1.1.buildinfo): [3 :heavy_check_mark: ](micronaut-maven-plugin-3.1.1.buildcompare) | 140K |
@@ -34,3 +35,5 @@ rebuilding **20 releases** of io.micronaut.build:micronaut-maven-plugin:
 | [1.1.0.M1](https://search.maven.org/artifact/io.micronaut.build/micronaut-maven-plugin/1.1.0.M1/pom) | [mvn jdk8](micronaut-maven-plugin-1.1.0.M1.buildspec) | [result](micronaut-maven-plugin-1.1.0.M1.buildinfo): [3 :heavy_check_mark: ](micronaut-maven-plugin-1.1.0.M1.buildcompare) | 113K |
 | [1.0.0](https://search.maven.org/artifact/io.micronaut.build/micronaut-maven-plugin/1.0.0/pom) | [mvn jdk8](micronaut-maven-plugin-1.0.0.buildspec) | [result](micronaut-maven-plugin-1.0.0.buildinfo): [3 :heavy_check_mark: ](micronaut-maven-plugin-1.0.0.buildcompare) | 56K |
 | [1.0.0.RC4](https://search.maven.org/artifact/io.micronaut.build/micronaut-maven-plugin/1.0.0.RC4/pom) | [mvn jdk8](micronaut-maven-plugin-1.0.0.RC4.buildspec) | [result](micronaut-maven-plugin-1.0.0.RC4.buildinfo): [3 :heavy_check_mark: ](micronaut-maven-plugin-1.0.0.RC4.buildcompare) | 56K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

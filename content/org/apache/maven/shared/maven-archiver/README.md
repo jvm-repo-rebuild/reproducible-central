@@ -15,3 +15,5 @@ rebuilding **2 releases** of org.apache.maven:maven-archiver:
 | -- | --------- | ------ | -- |
 | [3.5.2](https://search.maven.org/artifact/org.apache.maven/maven-archiver/3.5.2/pom) | [mvn jdk8 w](maven-archiver-3.5.2.buildspec) | [result](maven-archiver-3.5.2.buildinfo): [4 :heavy_check_mark: ](maven-archiver-3.5.2.buildcompare) | 189K |
 | [3.5.1](https://search.maven.org/artifact/org.apache.maven/maven-archiver/3.5.1/pom) | [mvn jdk11 w](maven-archiver-3.5.1.buildspec) | [result](maven-archiver-3.5.1.buildinfo): [4 :heavy_check_mark: ](maven-archiver-3.5.1.buildcompare) | 189K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

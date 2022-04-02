@@ -15,3 +15,5 @@ rebuilding **2 releases** of org.apache.sling:org.apache.sling.javax.activation:
 | -- | --------- | ------ | -- |
 | [0.3.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.javax.activation/0.3.0/pom) | [mvn jdk8](org.apache.sling.javax.activation-0.3.0.buildspec) | [result](org.apache.sling.javax.activation-0.3.0.buildinfo): [5 :heavy_check_mark: ](org.apache.sling.javax.activation-0.3.0.buildcompare) | 154K |
 | [0.2.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.javax.activation/0.2.0/pom) | [mvn jdk8](org.apache.sling.javax.activation-0.2.0.buildspec) | [result](org.apache.sling.javax.activation-0.2.0.buildinfo): [4 :heavy_check_mark:  1 :warning:](org.apache.sling.javax.activation-0.2.0.buildcompare) | 145K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

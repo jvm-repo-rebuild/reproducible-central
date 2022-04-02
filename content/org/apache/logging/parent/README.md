@@ -15,3 +15,5 @@ rebuilding **2 releases** of org.apache.logging:logging-parent:
 | -- | --------- | ------ | -- |
 | [5](https://search.maven.org/artifact/org.apache.logging/logging-parent/5/pom) | [mvn jdk8](logging-parent-5.buildspec) | [result](logging-parent-5.buildinfo): [2 :heavy_check_mark: ](logging-parent-5.buildcompare) | 10K |
 | [4](https://search.maven.org/artifact/org.apache.logging/logging-parent/4/pom) | [mvn jdk8](logging-parent-4.buildspec) | [result](logging-parent-4.buildinfo): [1 :heavy_check_mark:  1 :warning:](logging-parent-4.buildcompare) [:mag:](logging-parent-4.diffoscope) [:memo:](https://github.com/apache/logging-parent/pull/3) | 10K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

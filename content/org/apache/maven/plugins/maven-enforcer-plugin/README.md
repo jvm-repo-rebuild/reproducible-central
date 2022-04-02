@@ -23,3 +23,5 @@ rebuilding **1 releases** of org.apache.maven.enforcer:enforcer:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [3.0.0](https://search.maven.org/artifact/org.apache.maven.enforcer/enforcer/3.0.0/pom) | [mvn jdk8 w](maven-enforcer-plugin-3.0.0.buildspec) | [result](enforcer-3.0.0.buildinfo): [16 :heavy_check_mark: ](enforcer-3.0.0.buildcompare) | 1.1M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

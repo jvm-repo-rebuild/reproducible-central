@@ -25,3 +25,5 @@ rebuilding **12 releases** of org.nlpub:watset:
 | [2.3.1](https://search.maven.org/artifact/org.nlpub/watset/2.3.1/pom) | [mvn jdk11](watset-2.3.1.buildspec) | [result](watset-2.3.1.buildinfo): [3 :heavy_check_mark: ](watset-2.3.1.buildcompare) | 195K |
 | [2.3.0](https://search.maven.org/artifact/org.nlpub/watset/2.3.0/pom) | [mvn jdk11](watset-2.3.0.buildspec) | [result](watset-2.3.0.buildinfo): [3 :heavy_check_mark: ](watset-2.3.0.buildcompare) | 194K |
 | [2.2.8](https://search.maven.org/artifact/org.nlpub/watset/2.2.8/pom) | [mvn jdk11](watset-2.2.8.buildspec) | [result](watset-2.2.8.buildinfo): [3 :heavy_check_mark: ](watset-2.2.8.buildcompare) | 179K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

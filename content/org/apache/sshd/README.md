@@ -36,3 +36,5 @@ rebuilding **2 releases** of org.apache.sshd:sshd:
 | [2.8.0](https://search.maven.org/artifact/org.apache.sshd/sshd/2.8.0/pom) | [mvn jdk8](sshd-2.8.0.buildspec) | [result](sshd-2.8.0.buildinfo): [31 :heavy_check_mark:  21 :warning:](sshd-2.8.0.buildcompare) [:mag:](sshd-2.8.0.diffoscope) | 61M |
 | [2.7.0](https://search.maven.org/artifact/org.apache.sshd/sshd/2.7.0/pom) | | | |
 | [2.6.0](https://search.maven.org/artifact/org.apache.sshd/sshd/2.6.0/pom) | [mvn jdk8](sshd-2.6.0.buildspec) | [result](sshd-2.6.0.buildinfo): [15 :heavy_check_mark:  21 :warning:](sshd-2.6.0.buildcompare) [:mag:](sshd-2.6.0.diffoscope) | 59M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

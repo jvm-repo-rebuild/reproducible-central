@@ -15,3 +15,5 @@ rebuilding **2 releases** of org.apache.sling:org.apache.sling.models.jacksonexp
 | -- | --------- | ------ | -- |
 | [1.1.2](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.models.jacksonexporter/1.1.2/pom) | [mvn jdk11 w](org.apache.sling.models.jacksonexporter-1.1.2.buildspec) | [result](org.apache.sling.models.jacksonexporter-1.1.2.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.models.jacksonexporter-1.1.2.buildcompare) | 118K |
 | [1.1.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.models.jacksonexporter/1.1.0/pom) | [mvn jdk11 w](org.apache.sling.models.jacksonexporter-1.1.0.buildspec) | [result](org.apache.sling.models.jacksonexporter-1.1.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.models.jacksonexporter-1.1.0.buildcompare) | 117K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -20,3 +20,5 @@ rebuilding **6 releases** of org.codehaus.plexus:plexus:
 | [6.3](https://search.maven.org/artifact/org.codehaus.plexus/plexus/6.3/pom) | | | |
 | [6.2](https://search.maven.org/artifact/org.codehaus.plexus/plexus/6.2/pom) | [mvn jdk7](plexus-pom-6.2.buildspec) | [result](plexus-6.2.buildinfo): [2 :heavy_check_mark: ](plexus-6.2.buildcompare) | 27K |
 | [6.1](https://search.maven.org/artifact/org.codehaus.plexus/plexus/6.1/pom) | [mvn jdk7](plexus-pom-6.1.buildspec) | [result](plexus-6.1.buildinfo): [2 :heavy_check_mark: ](plexus-6.1.buildcompare) | 26K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

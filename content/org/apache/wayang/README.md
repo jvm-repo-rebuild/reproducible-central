@@ -55,3 +55,5 @@ rebuilding **1 releases** of org.apache.wayang:wayang:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [0.6.0](https://search.maven.org/artifact/org.apache.wayang/wayang/0.6.0/pom) | [mvn jdk8](wayang-0.6.0.buildspec) | [result](wayang-0.6.0.buildinfo): [61 :heavy_check_mark:  26 :warning:](wayang-0.6.0.buildcompare) [:memo:](https://github.com/apache/incubator-wayang/pull/77) | 12M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

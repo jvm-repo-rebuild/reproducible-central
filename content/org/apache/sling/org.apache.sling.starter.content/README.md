@@ -15,3 +15,5 @@ rebuilding **2 releases** of org.apache.sling:org.apache.sling.starter.content:
 | -- | --------- | ------ | -- |
 | [1.0.12](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.starter.content/1.0.12/pom) | [mvn jdk11](org.apache.sling.starter.content-1.0.12.buildspec) | [result](org.apache.sling.starter.content-1.0.12.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.starter.content-1.0.12.buildcompare) | 468K |
 | [1.0.10](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.starter.content/1.0.10/pom) | [mvn jdk11](org.apache.sling.starter.content-1.0.10.buildspec) | [result](org.apache.sling.starter.content-1.0.10.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.starter.content-1.0.10.buildcompare) | 468K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

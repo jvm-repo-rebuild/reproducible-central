@@ -38,3 +38,5 @@ rebuilding **7 releases** of org.apache.jackrabbit.vault:jackrabbit-filevault:
 | [3.5.0](https://search.maven.org/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/3.5.0/pom) | [mvn jdk11](jackrabbit-filevault-3.5.0.buildspec) | [result](jackrabbit-filevault-3.5.0.buildinfo): [33 :heavy_check_mark:  7 :warning:](jackrabbit-filevault-3.5.0.buildcompare) | 27M |
 | [3.4.10](https://search.maven.org/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/3.4.10/pom) | [mvn jdk11](jackrabbit-filevault-3.4.10.buildspec) | [result](jackrabbit-filevault-3.4.10.buildinfo): [33 :heavy_check_mark:  9 :warning:](jackrabbit-filevault-3.4.10.buildcompare) | 26M |
 | [3.4.8](https://search.maven.org/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/3.4.8/pom) | [mvn jdk11](jackrabbit-filevault-3.4.8.buildspec) | [result](jackrabbit-filevault-3.4.8.buildinfo): [34 :heavy_check_mark:  8 :warning:](jackrabbit-filevault-3.4.8.buildcompare) | 26M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -14,3 +14,5 @@ rebuilding **1 releases** of org.mybatis:mybatis-parent:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [34](https://search.maven.org/artifact/org.mybatis/mybatis-parent/34/pom) | [mvn jdk11 w](mybatis-parent-34.buildspec) | [result](mybatis-parent-34.buildinfo): [2 :heavy_check_mark: ](mybatis-parent-34.buildcompare) | 50K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

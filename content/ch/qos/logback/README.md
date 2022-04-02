@@ -39,3 +39,5 @@ rebuilding **3 releases** of ch.qos.logback:logback-parent:
 | [1.3.0-alpha1](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.3.0-alpha1/pom) | | | |
 | [1.3.0-alpha0](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.3.0-alpha0/pom) | | | |
 | [1.2.11](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.2.11/pom) | [mvn jdk8 w](logback-1.2.11.buildspec) | [result](logback-parent-1.2.11.buildinfo): [18 :heavy_check_mark:  3 :warning:](logback-parent-1.2.11.buildcompare) [:mag:](logback-parent-1.2.11.diffoscope) | 3.1M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

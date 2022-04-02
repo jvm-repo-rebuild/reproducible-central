@@ -18,3 +18,5 @@ rebuilding **5 releases** of org.apache.jackrabbit:filevault-package-maven-plugi
 | [1.1.8](https://search.maven.org/artifact/org.apache.jackrabbit/filevault-package-maven-plugin/1.1.8/pom) | [mvn jdk11](filevault-package-maven-plugin-1.1.8.buildspec) | [result](filevault-package-maven-plugin-1.1.8.buildinfo): [4 :heavy_check_mark: ](filevault-package-maven-plugin-1.1.8.buildcompare) | 862K |
 | [1.1.6](https://search.maven.org/artifact/org.apache.jackrabbit/filevault-package-maven-plugin/1.1.6/pom) | [mvn jdk8](filevault-package-maven-plugin-1.1.6.buildspec) | [result](filevault-package-maven-plugin-1.1.6.buildinfo): [4 :heavy_check_mark: ](filevault-package-maven-plugin-1.1.6.buildcompare) | 848K |
 | [1.1.4](https://search.maven.org/artifact/org.apache.jackrabbit/filevault-package-maven-plugin/1.1.4/pom) | [mvn jdk8](filevault-package-maven-plugin-1.1.4.buildspec) | [result](filevault-package-maven-plugin-1.1.4.buildinfo): [4 :heavy_check_mark: ](filevault-package-maven-plugin-1.1.4.buildcompare) | 820K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

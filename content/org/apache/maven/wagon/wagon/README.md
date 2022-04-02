@@ -40,3 +40,5 @@ rebuilding **6 releases** of org.apache.maven.wagon:wagon:
 | [3.4.2](https://search.maven.org/artifact/org.apache.maven.wagon/wagon/3.4.2/pom) | [mvn jdk8 w](wagon-3.4.2.buildspec) | [result](wagon-webdav-jackrabbit-3.4.2.buildinfo): [50 :heavy_check_mark: ](wagon-webdav-jackrabbit-3.4.2.buildcompare) | 3.6M |
 | [3.4.1](https://search.maven.org/artifact/org.apache.maven.wagon/wagon/3.4.1/pom) | [mvn jdk8 w](wagon-3.4.1.buildspec) | [result](wagon-webdav-jackrabbit-3.4.1.buildinfo): [50 :heavy_check_mark: ](wagon-webdav-jackrabbit-3.4.1.buildcompare) | 3.6M |
 | [3.4.0](https://search.maven.org/artifact/org.apache.maven.wagon/wagon/3.4.0/pom) | [mvn jdk8 w](wagon-3.4.0.buildspec) | [result](wagon-webdav-jackrabbit-3.4.0.buildinfo): [50 :heavy_check_mark: ](wagon-webdav-jackrabbit-3.4.0.buildcompare) | 3.6M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

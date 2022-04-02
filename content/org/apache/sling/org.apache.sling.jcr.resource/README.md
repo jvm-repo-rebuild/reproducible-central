@@ -15,3 +15,5 @@ rebuilding **2 releases** of org.apache.sling:org.apache.sling.jcr.resource:
 | -- | --------- | ------ | -- |
 | [3.2.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.jcr.resource/3.2.0/pom) | [mvn jdk11](org.apache.sling.jcr.resource-3.2.0.buildspec) | [result](org.apache.sling.jcr.resource-3.2.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.jcr.resource-3.2.0.buildcompare) | 708K |
 | [3.1.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.jcr.resource/3.1.0/pom) | [mvn jdk11](org.apache.sling.jcr.resource-3.1.0.buildspec) | [result](org.apache.sling.jcr.resource-3.1.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.jcr.resource-3.1.0.buildcompare) | 677K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

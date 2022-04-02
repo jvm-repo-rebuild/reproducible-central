@@ -18,3 +18,5 @@ rebuilding **4 releases** of org.apache.sling:org.apache.sling.testing.resourcer
 | [1.2.2](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.testing.resourceresolver-mock/1.2.2/pom) | [mvn jdk11](org.apache.sling.testing.resourceresolver-mock-1.2.2.buildspec) | [result](org.apache.sling.testing.resourceresolver-mock-1.2.2.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.testing.resourceresolver-mock-1.2.2.buildcompare) | 175K |
 | [1.2.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.testing.resourceresolver-mock/1.2.0/pom) | | | |
 | [1.1.26](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.testing.resourceresolver-mock/1.1.26/pom) | [mvn jdk8 w](org.apache.sling.testing.resourceresolver-mock-1.1.26.buildspec) | [result](org.apache.sling.testing.resourceresolver-mock-1.1.26.buildinfo): [1 :heavy_check_mark:  3 :warning:](org.apache.sling.testing.resourceresolver-mock-1.1.26.buildcompare) [:mag:](org.apache.sling.testing.resourceresolver-mock-1.1.26.diffoscope) | 164K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

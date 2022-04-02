@@ -22,3 +22,5 @@ rebuilding **1 releases** of org.openapitools.openapidiff:openapi-diff-parent:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [2.0.1](https://search.maven.org/artifact/org.openapitools.openapidiff/openapi-diff-parent/2.0.1/pom) | [mvn jdk11](openapi-diff-2.0.1.buildspec) | [result](openapi-diff-parent-2.0.1.buildinfo): [11 :heavy_check_mark: ](openapi-diff-parent-2.0.1.buildcompare) | 14M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

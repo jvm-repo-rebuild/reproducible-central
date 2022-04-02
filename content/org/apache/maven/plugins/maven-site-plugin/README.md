@@ -17,3 +17,5 @@ rebuilding **4 releases** of org.apache.maven.plugins:maven-site-plugin:
 | [3.10.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-site-plugin/3.10.0/pom) | [mvn jdk8 w](maven-site-plugin-3.10.0.buildspec) | [result](maven-site-plugin-3.10.0.buildinfo): [4 :heavy_check_mark: ](maven-site-plugin-3.10.0.buildcompare) | 1.3M |
 | [3.9.1](https://search.maven.org/artifact/org.apache.maven.plugins/maven-site-plugin/3.9.1/pom) | [mvn jdk8](maven-site-plugin-3.9.1.buildspec) | [result](maven-site-plugin-3.9.1.buildinfo): [3 :heavy_check_mark:  1 :warning:](maven-site-plugin-3.9.1.buildcompare) | 1.2M |
 | [3.9.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-site-plugin/3.9.0/pom) | [mvn jdk7](maven-site-plugin-3.9.0.buildspec) | [result](maven-site-plugin-3.9.0.buildinfo): [1 :heavy_check_mark:  3 :warning:](maven-site-plugin-3.9.0.buildcompare) | 1.2M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

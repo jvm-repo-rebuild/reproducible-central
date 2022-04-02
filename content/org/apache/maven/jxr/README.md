@@ -22,3 +22,5 @@ rebuilding **2 releases** of org.apache.maven.jxr:jxr:
 | -- | --------- | ------ | -- |
 | [3.2.0](https://search.maven.org/artifact/org.apache.maven.jxr/jxr/3.2.0/pom) | [mvn jdk8](jxr-3.2.0.buildspec) | [result](jxr-3.2.0.buildinfo): [9 :heavy_check_mark: ](jxr-3.2.0.buildcompare) | 629K |
 | [3.1.1](https://search.maven.org/artifact/org.apache.maven.jxr/jxr/3.1.1/pom) | [mvn jdk8 w](jxr-3.1.1.buildspec) | [result](jxr-3.1.1.buildinfo): [9 :heavy_check_mark: ](jxr-3.1.1.buildcompare) | 636K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

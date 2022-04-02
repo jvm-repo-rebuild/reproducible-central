@@ -33,3 +33,5 @@ rebuilding **3 releases** of org.apache.maven.plugin-tools:maven-plugin-tools:
 | [3.6.4](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.6.4/pom) | [mvn jdk8](maven-plugin-tools-3.6.4.buildspec) | [result](maven-plugin-tools-3.6.4.buildinfo): [40 :heavy_check_mark: ](maven-plugin-tools-3.6.4.buildcompare) | 1.4M |
 | [3.6.2](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.6.2/pom) | [mvn jdk16 w](maven-plugin-tools-3.6.2.buildspec) | [result](maven-plugin-tools-3.6.2.buildinfo): [40 :heavy_check_mark: ](maven-plugin-tools-3.6.2.buildcompare) | 1.4M |
 | [3.6.1](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.6.1/pom) | [mvn jdk8 w](maven-plugin-tools-3.6.1.buildspec) | [result](maven-plugin-tools-3.6.1.buildinfo): [40 :heavy_check_mark: ](maven-plugin-tools-3.6.1.buildcompare) | 1.3M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

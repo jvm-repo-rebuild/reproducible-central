@@ -21,3 +21,5 @@ rebuilding **8 releases** of org.fusesource.jansi:jansi:
 | [2.3.0](https://search.maven.org/artifact/org.fusesource.jansi/jansi/2.3.0/pom) | [mvn jdk11](jansi-2.3.0.buildspec) | [result](jansi-2.3.0.buildinfo): [3 :heavy_check_mark: ](jansi-2.3.0.buildcompare) | 395K |
 | [2.2.0](https://search.maven.org/artifact/org.fusesource.jansi/jansi/2.2.0/pom) | [mvn jdk11](jansi-2.2.0.buildspec) | [result](jansi-2.2.0.buildinfo): [2 :heavy_check_mark:  1 :warning:](jansi-2.2.0.buildcompare) [:mag:](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/fusesource/jansi/jansi/jansi-2.2.0.diffoscope) [:memo:](https://github.com/fusesource/jansi/issues/192) | 613K |
 | [2.1.1](https://search.maven.org/artifact/org.fusesource.jansi/jansi/2.1.1/pom) | [mvn jdk11](jansi-2.1.1.buildspec) | [result](jansi-2.1.1.buildinfo): [2 :heavy_check_mark:  1 :warning:](jansi-2.1.1.buildcompare) [:memo:](https://github.com/fusesource/jansi/issues/185) | 602K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

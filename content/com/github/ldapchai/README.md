@@ -17,3 +17,5 @@ rebuilding **4 releases** of com.github.ldapchai:ldapchai:
 | [0.8.1](https://search.maven.org/artifact/com.github.ldapchai/ldapchai/0.8.1/pom) | [mvn jdk11](ldapchai-0.8.1.buildspec) | [result](ldapchai-0.8.1.buildinfo): [2 :heavy_check_mark:  1 :warning:](ldapchai-0.8.1.buildcompare) [:mag:](ldapchai-0.8.1.diffoscope) | 1.3M |
 | [0.8.0](https://search.maven.org/artifact/com.github.ldapchai/ldapchai/0.8.0/pom) | [mvn jdk15](ldapchai-0.8.0.buildspec) | [result](ldapchai-0.8.0.buildinfo): [1 :heavy_check_mark:  2 :warning:](ldapchai-0.8.0.buildcompare) [:memo:](https://github.com/ldapchai/ldapchai/pull/24) | 1.3M |
 | [0.7.6](https://search.maven.org/artifact/com.github.ldapchai/ldapchai/0.7.6/pom) | [mvn jdk14](ldapchai-0.7.6.buildspec) | [result](ldapchai-0.7.6.buildinfo): [1 :heavy_check_mark:  2 :warning:](ldapchai-0.7.6.buildcompare) | 1.3M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -18,3 +18,5 @@ rebuilding **5 releases** of org.apache.maven.plugins:maven-project-info-reports
 | [3.1.2](https://search.maven.org/artifact/org.apache.maven.plugins/maven-project-info-reports-plugin/3.1.2/pom) | [mvn jdk8 w](maven-project-info-reports-plugin-3.1.2.buildspec) | [result](maven-project-info-reports-plugin-3.1.2.buildinfo): [4 :heavy_check_mark: ](maven-project-info-reports-plugin-3.1.2.buildcompare) | 932K |
 | [3.1.1](https://search.maven.org/artifact/org.apache.maven.plugins/maven-project-info-reports-plugin/3.1.1/pom) | [mvn jdk8 w](maven-project-info-reports-plugin-3.1.1.buildspec) | [result](maven-project-info-reports-plugin-3.1.1.buildinfo): [4 :heavy_check_mark: ](maven-project-info-reports-plugin-3.1.1.buildcompare) | 925K |
 | [3.1.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-project-info-reports-plugin/3.1.0/pom) | [mvn jdk8 w](maven-project-info-reports-plugin-3.1.0.buildspec) | [result](maven-project-info-reports-plugin-3.1.0.buildinfo): [4 :heavy_check_mark: ](maven-project-info-reports-plugin-3.1.0.buildcompare) | 925K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

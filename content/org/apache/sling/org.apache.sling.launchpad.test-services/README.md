@@ -14,3 +14,5 @@ rebuilding **1 releases** of org.apache.sling:org.apache.sling.launchpad.test-se
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [12](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.launchpad.test-services/12/pom) | [mvn jdk11](org.apache.sling.launchpad.test-services-12.buildspec) | [result](org.apache.sling.launchpad.test-services-12.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.launchpad.test-services-12.buildcompare) | 551K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

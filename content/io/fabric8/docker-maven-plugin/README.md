@@ -21,3 +21,5 @@ rebuilding **8 releases** of io.fabric8:docker-maven-plugin:
 | [0.36.1](https://search.maven.org/artifact/io.fabric8/docker-maven-plugin/0.36.1/pom) | [mvn jdk11](docker-maven-plugin-0.36.1.buildspec) | [result](docker-maven-plugin-0.36.1.buildinfo): [2 :heavy_check_mark:  1 :warning:](docker-maven-plugin-0.36.1.buildcompare) [:mag:](docker-maven-plugin-0.36.1.diffoscope) | 998K |
 | [0.36.0](https://search.maven.org/artifact/io.fabric8/docker-maven-plugin/0.36.0/pom) | [mvn jdk11](docker-maven-plugin-0.36.0.buildspec) | [result](docker-maven-plugin-0.36.0.buildinfo): [2 :heavy_check_mark:  1 :warning:](docker-maven-plugin-0.36.0.buildcompare) | 997K |
 | [0.35.0](https://search.maven.org/artifact/io.fabric8/docker-maven-plugin/0.35.0/pom) | [mvn jdk11](docker-maven-plugin-0.35.0.buildspec) | [result](docker-maven-plugin-0.35.0.buildinfo): [3 :heavy_check_mark: ](docker-maven-plugin-0.35.0.buildcompare) | 992K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

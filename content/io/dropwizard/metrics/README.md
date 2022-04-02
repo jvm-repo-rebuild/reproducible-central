@@ -86,3 +86,5 @@ rebuilding **25 releases** of io.dropwizard.metrics:metrics-parent:
 | [4.1.12.1](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-parent/4.1.12.1/pom) | | | |
 | [4.1.12](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-parent/4.1.12/pom) | [mvn jdk11](dropwizard-metrics-4.1.12.buildspec) | [result](metrics-servlets-4.1.12.buildinfo): [68 :heavy_check_mark: ](metrics-servlets-4.1.12.buildcompare) | 675K |
 | [4.1.11](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-parent/4.1.11/pom) | [mvn jdk8](dropwizard-metrics-4.1.11.buildspec) | [result](metrics-servlets-4.1.11.buildinfo): [68 :heavy_check_mark: ](metrics-servlets-4.1.11.buildcompare) | 675K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

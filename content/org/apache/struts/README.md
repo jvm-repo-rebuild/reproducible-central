@@ -59,3 +59,5 @@ rebuilding **1 releases** of org.apache.struts:struts2-parent:
 | [2.5.28](https://search.maven.org/artifact/org.apache.struts/struts2-parent/2.5.28/pom) | | | |
 | [2.5.27](https://search.maven.org/artifact/org.apache.struts/struts2-parent/2.5.27/pom) | | | |
 | [2.5.26](https://search.maven.org/artifact/org.apache.struts/struts2-parent/2.5.26/pom) | [mvn jdk7](struts2-2.5.26.buildspec) | [result](struts2-assembly-2.5.26.buildinfo): [31 :heavy_check_mark:  29 :warning:](struts2-assembly-2.5.26.buildcompare) | 37M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

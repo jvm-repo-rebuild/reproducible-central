@@ -25,3 +25,5 @@ rebuilding **2 releases** of org.apache.maven.plugins:maven-release-plugin:
 | -- | --------- | ------ | -- |
 | [3.0.0-M5](https://search.maven.org/artifact/org.apache.maven.plugins/maven-release-plugin/3.0.0-M5/pom) | [mvn jdk8 w](maven-release-plugin-3.0.0-M5.buildspec) | [result](maven-release-3.0.0-M5.buildinfo): [18 :heavy_check_mark: ](maven-release-3.0.0-M5.buildcompare) | 2.4M |
 | [3.0.0-M4](https://search.maven.org/artifact/org.apache.maven.plugins/maven-release-plugin/3.0.0-M4/pom) | [mvn jdk8 w](maven-release-plugin-3.0.0-M4.buildspec) | [result](maven-release-3.0.0-M4.buildinfo): [18 :heavy_check_mark: ](maven-release-3.0.0-M4.buildcompare) | 2.4M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

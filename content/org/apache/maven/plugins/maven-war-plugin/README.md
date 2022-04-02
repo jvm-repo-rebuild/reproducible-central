@@ -16,3 +16,5 @@ rebuilding **3 releases** of org.apache.maven.plugins:maven-war-plugin:
 | [3.3.2](https://search.maven.org/artifact/org.apache.maven.plugins/maven-war-plugin/3.3.2/pom) | [mvn jdk8](maven-war-plugin-3.3.2.buildspec) | [result](maven-war-plugin-3.3.2.buildinfo): [4 :heavy_check_mark: ](maven-war-plugin-3.3.2.buildcompare) | 812K |
 | [3.3.1](https://search.maven.org/artifact/org.apache.maven.plugins/maven-war-plugin/3.3.1/pom) | [mvn jdk7](maven-war-plugin-3.3.1.buildspec) | [result](maven-war-plugin-3.3.1.buildinfo): [4 :heavy_check_mark: ](maven-war-plugin-3.3.1.buildcompare) | 804K |
 | [3.3.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-war-plugin/3.3.0/pom) | [mvn jdk8](maven-war-plugin-3.3.0.buildspec) | [result](maven-war-plugin-3.3.0.buildinfo): [4 :heavy_check_mark: ](maven-war-plugin-3.3.0.buildcompare) | 794K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

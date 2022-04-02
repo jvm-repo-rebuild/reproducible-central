@@ -24,3 +24,5 @@ rebuilding **5 releases** of org.codehaus.plexus:plexus-languages:
 | [1.0.7](https://search.maven.org/artifact/org.codehaus.plexus/plexus-languages/1.0.7/pom) | [mvn jdk11 w](plexus-languages-1.0.7.buildspec) | [result](plexus-java-1.0.7.buildinfo): [5 :heavy_check_mark:  1 :warning:](plexus-java-1.0.7.buildcompare) [:memo:](https://github.com/codehaus-plexus/plexus-languages/issues/59) | 567K |
 | [1.0.6](https://search.maven.org/artifact/org.codehaus.plexus/plexus-languages/1.0.6/pom) | [mvn jdk11 w](plexus-languages-1.0.6.buildspec) | [result](plexus-java-1.0.6.buildinfo): [5 :heavy_check_mark:  1 :warning:](plexus-java-1.0.6.buildcompare) [:memo:](https://github.com/codehaus-plexus/plexus-languages/issues/59) | 564K |
 | [1.0.5](https://search.maven.org/artifact/org.codehaus.plexus/plexus-languages/1.0.5/pom) | [mvn jdk9](plexus-languages-1.0.5.buildspec) | [result](plexus-java-1.0.5.buildinfo): [4 :heavy_check_mark:  1 :warning:](plexus-java-1.0.5.buildcompare) | 89K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

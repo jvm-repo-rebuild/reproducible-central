@@ -15,3 +15,5 @@ rebuilding **2 releases** of fr.vidal.oss:atom-jaxb:
 | -- | --------- | ------ | -- |
 | [1.0.1](https://search.maven.org/artifact/fr.vidal.oss/atom-jaxb/1.0.1/pom) | [mvn jdk8](atom-jaxb-1.0.1.buildspec) | [result](atom-jaxb-1.0.1.buildinfo): [4 :heavy_check_mark: ](atom-jaxb-1.0.1.buildcompare) | 155K |
 | [1.0.0](https://search.maven.org/artifact/fr.vidal.oss/atom-jaxb/1.0.0/pom) | [mvn jdk8](atom-jaxb-1.0.0.buildspec) | [result](atom-jaxb-1.0.0.buildinfo): [1 :heavy_check_mark:  3 :warning:](atom-jaxb-1.0.0.buildcompare) [:memo:](https://github.com/vidal-community/atom-jaxb/issues/54) | 155K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

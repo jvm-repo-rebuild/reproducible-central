@@ -14,3 +14,5 @@ rebuilding **1 releases** of org.apache.sling:org.apache.sling.models.caconfig:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [1.0.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.models.caconfig/1.0.0/pom) | [mvn jdk11 w](org.apache.sling.models.caconfig-1.0.0.buildspec) | [result](org.apache.sling.models.caconfig-1.0.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.models.caconfig-1.0.0.buildcompare) | 86K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

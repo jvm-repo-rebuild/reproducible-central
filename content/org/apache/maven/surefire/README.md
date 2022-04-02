@@ -43,3 +43,5 @@ rebuilding **1 releases** of org.apache.maven.surefire:surefire:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [3.0.0-M5](https://search.maven.org/artifact/org.apache.maven.surefire/surefire/3.0.0-M5/pom) | [mvn jdk8 w](surefire-3.0.0-M5.buildspec) | [result](surefire-shared-utils-3.0.0-M5.buildinfo): [45 :heavy_check_mark:  5 :warning:](surefire-shared-utils-3.0.0-M5.buildcompare) [:memo:](https://issues.apache.org/jira/browse/SUREFIRE-1802) | 8.9M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

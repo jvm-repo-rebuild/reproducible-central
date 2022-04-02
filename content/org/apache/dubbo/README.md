@@ -127,6 +127,7 @@ rebuilding **4 releases** of org.apache.dubbo:dubbo:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.7](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.0.7/pom) | | | |
 | [3.0.6](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.0.6/pom) | | | |
 | [3.0.5](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.0.5/pom) | [mvn jdk8](dubbo-3.0.5.buildspec) | [result](dubbo-parent-3.0.5.buildinfo): [155 :heavy_check_mark:  30 :warning:](dubbo-parent-3.0.5.buildcompare) [:mag:](dubbo-parent-3.0.5.diffoscope) | 16M |
 | [3.0.4](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.0.4/pom) | | | |
@@ -145,3 +146,5 @@ rebuilding **4 releases** of org.apache.dubbo:dubbo:
 | [2.7.9](https://search.maven.org/artifact/org.apache.dubbo/dubbo/2.7.9/pom) | [mvn jdk8](dubbo-2.7.9.buildspec) | [result](dubbo-parent-2.7.9.buildinfo): [122 :heavy_check_mark:  30 :warning:](dubbo-parent-2.7.9.buildcompare) [:mag:](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/dubbo/dubbo-parent-2.7.9.diffoscope) | 14M |
 | [2.7.8](https://search.maven.org/artifact/org.apache.dubbo/dubbo/2.7.8/pom) | [mvn jdk8](dubbo-2.7.8.buildspec) | [result](dubbo-metadata-processor-2.7.8.buildinfo): [148 :heavy_check_mark:  3 :warning:](dubbo-metadata-processor-2.7.8.buildcompare) | 35M |
 | [2.7.7](https://search.maven.org/artifact/org.apache.dubbo/dubbo/2.7.7/pom) | [mvn jdk8](dubbo-2.7.7.buildspec) | [result](dubbo-parent-2.7.7.buildinfo): [148 :heavy_check_mark:  2 :warning:](dubbo-parent-2.7.7.buildcompare) [:mag:](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/dubbo/dubbo-parent-2.7.7.diffoscope) | 13M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

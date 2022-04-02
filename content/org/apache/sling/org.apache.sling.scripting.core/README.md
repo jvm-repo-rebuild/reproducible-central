@@ -15,3 +15,5 @@ rebuilding **2 releases** of org.apache.sling:org.apache.sling.scripting.core:
 | -- | --------- | ------ | -- |
 | [2.4.4](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.scripting.core/2.4.4/pom) | [mvn jdk11](org.apache.sling.scripting.core-2.4.4.buildspec) | [result](org.apache.sling.scripting.core-2.4.4.buildinfo): [3 :heavy_check_mark:  1 :warning:](org.apache.sling.scripting.core-2.4.4.buildcompare) [:mag:](org.apache.sling.scripting.core-2.4.4.diffoscope) | 453K |
 | [2.4.2](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.scripting.core/2.4.2/pom) | [mvn jdk11](org.apache.sling.scripting.core-2.4.2.buildspec) | [result](org.apache.sling.scripting.core-2.4.2.buildinfo): [3 :heavy_check_mark:  1 :warning:](org.apache.sling.scripting.core-2.4.2.buildcompare) [:mag:](org.apache.sling.scripting.core-2.4.2.diffoscope) | 446K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

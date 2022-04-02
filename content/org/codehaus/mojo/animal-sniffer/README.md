@@ -26,3 +26,5 @@ rebuilding **2 releases** of org.codehaus.mojo:animal-sniffer-parent:
 | -- | --------- | ------ | -- |
 | [1.21](https://search.maven.org/artifact/org.codehaus.mojo/animal-sniffer-parent/1.21/pom) | [mvn jdk11](animal-sniffer-1.21.buildspec) | [result](animal-sniffer-parent-1.21.buildinfo): [20 :heavy_check_mark: ](animal-sniffer-parent-1.21.buildcompare) | 1.3M |
 | [1.20](https://search.maven.org/artifact/org.codehaus.mojo/animal-sniffer-parent/1.20/pom) | [mvn jdk11](animal-sniffer-1.20.buildspec) | [result](animal-sniffer-parent-1.20.buildinfo): [20 :heavy_check_mark: ](animal-sniffer-parent-1.20.buildcompare) | 1.3M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

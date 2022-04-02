@@ -14,3 +14,5 @@ rebuilding **1 releases** of org.apache.sling:org.apache.sling.settings:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [1.4.2](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.settings/1.4.2/pom) | [mvn jdk8](org.apache.sling.settings-1.4.2.buildspec) | [result](org.apache.sling.settings-1.4.2.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.settings-1.4.2.buildcompare) | 101K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

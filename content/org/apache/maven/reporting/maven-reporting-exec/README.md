@@ -15,3 +15,5 @@ rebuilding **2 releases** of org.apache.maven.reporting:maven-reporting-exec:
 | -- | --------- | ------ | -- |
 | [1.6.0](https://search.maven.org/artifact/org.apache.maven.reporting/maven-reporting-exec/1.6.0/pom) | [mvn jdk8 w](maven-reporting-exec-1.6.0.buildspec) | [result](maven-reporting-exec-1.6.0.buildinfo): [4 :heavy_check_mark: ](maven-reporting-exec-1.6.0.buildcompare) | 129K |
 | [1.5.1](https://search.maven.org/artifact/org.apache.maven.reporting/maven-reporting-exec/1.5.1/pom) | [mvn jdk7](maven-reporting-exec-1.5.1.buildspec) | [result](maven-reporting-exec-1.5.1.buildinfo): [4 :heavy_check_mark: ](maven-reporting-exec-1.5.1.buildcompare) | 128K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

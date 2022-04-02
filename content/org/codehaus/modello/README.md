@@ -36,3 +36,5 @@ rebuilding **1 releases** of org.codehaus.modello:modello:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [2.0.0](https://search.maven.org/artifact/org.codehaus.modello/modello/2.0.0/pom) | [mvn jdk8](modello-2.0.0.buildspec) | [result](modello-2.0.0.buildinfo): [53 :heavy_check_mark: ](modello-2.0.0.buildcompare) | 1.8M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

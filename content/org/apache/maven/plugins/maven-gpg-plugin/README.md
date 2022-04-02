@@ -14,3 +14,5 @@ rebuilding **1 releases** of org.apache.maven.plugins:maven-gpg-plugin:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [3.0.1](https://search.maven.org/artifact/org.apache.maven.plugins/maven-gpg-plugin/3.0.1/pom) | [mvn jdk8](maven-gpg-plugin-3.0.1.buildspec) | [result](maven-gpg-plugin-3.0.1.buildinfo): [3 :heavy_check_mark:  1 :warning:](maven-gpg-plugin-3.0.1.buildcompare) | 209K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

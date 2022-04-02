@@ -16,3 +16,5 @@ rebuilding **3 releases** of org.apache.sling:org.apache.sling.resourceresolver:
 | [1.8.4](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.resourceresolver/1.8.4/pom) | [mvn jdk11](org.apache.sling.resourceresolver-1.8.4.buildspec) | [result](org.apache.sling.resourceresolver-1.8.4.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.resourceresolver-1.8.4.buildcompare) | 893K |
 | [1.8.2](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.resourceresolver/1.8.2/pom) | [mvn jdk11](org.apache.sling.resourceresolver-1.8.2.buildspec) | [result](org.apache.sling.resourceresolver-1.8.2.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.resourceresolver-1.8.2.buildcompare) | 894K |
 | [1.8.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.resourceresolver/1.8.0/pom) | [mvn jdk11](org.apache.sling.resourceresolver-1.8.0.buildspec) | [result](org.apache.sling.resourceresolver-1.8.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.resourceresolver-1.8.0.buildcompare) | 881K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

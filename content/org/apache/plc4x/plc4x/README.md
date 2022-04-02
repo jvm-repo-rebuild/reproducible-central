@@ -79,3 +79,5 @@ rebuilding **1 releases** of org.apache.plc4x:plc4x-parent:
 | [0.9.0](https://search.maven.org/artifact/org.apache.plc4x/plc4x-parent/0.9.0/pom) | | | |
 | [0.8.0](https://search.maven.org/artifact/org.apache.plc4x/plc4x-parent/0.8.0/pom) | | | |
 | [0.7.0](https://search.maven.org/artifact/org.apache.plc4x/plc4x-parent/0.7.0/pom) | [mvn jdk11](plc4x-0.7.0.buildspec) | [result](plc4x-tools-0.7.0.buildinfo): [16 :heavy_check_mark:  51 :warning:](plc4x-tools-0.7.0.buildcompare) | 95M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

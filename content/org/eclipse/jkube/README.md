@@ -71,3 +71,5 @@ rebuilding **9 releases** of org.eclipse.jkube:jkube:
 | [1.2.0](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.2.0/pom) | [mvn jdk8](jkube-1.2.0.buildspec) | [result](jkube-1.2.0.buildinfo): [107 :heavy_check_mark: ](jkube-1.2.0.buildcompare) | 2.6M |
 | [1.1.1](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.1.1/pom) | [mvn jdk8](jkube-1.1.1.buildspec) | [result](jkube-1.1.1.buildinfo): [107 :heavy_check_mark: ](jkube-1.1.1.buildcompare) | 2.6M |
 | [1.1.0](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.1.0/pom) | [mvn jdk8](jkube-1.1.0.buildspec) | [result](jkube-1.1.0.buildinfo): [107 :heavy_check_mark: ](jkube-1.1.0.buildcompare) | 2.6M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

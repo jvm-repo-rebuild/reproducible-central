@@ -15,3 +15,5 @@ rebuilding **2 releases** of org.apache.sling:org.apache.sling.sitemap:
 | -- | --------- | ------ | -- |
 | [1.0.6](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.sitemap/1.0.6/pom) | [mvn jdk11](org.apache.sling.sitemap-1.0.6.buildspec) | [result](org.apache.sling.sitemap-1.0.6.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.sitemap-1.0.6.buildcompare) | 481K |
 | [1.0.4](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.sitemap/1.0.4/pom) | [mvn jdk11](org.apache.sling.sitemap-1.0.4.buildspec) | [result](org.apache.sling.sitemap-1.0.4.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.sitemap-1.0.4.buildcompare) | 406K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

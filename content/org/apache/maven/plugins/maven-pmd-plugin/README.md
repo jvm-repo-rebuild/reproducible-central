@@ -16,3 +16,5 @@ rebuilding **3 releases** of org.apache.maven.plugins:maven-pmd-plugin:
 | [3.16.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-pmd-plugin/3.16.0/pom) | [mvn jdk8](maven-pmd-plugin-3.16.0.buildspec) | [result](maven-pmd-plugin-3.16.0.buildinfo): [4 :heavy_check_mark: ](maven-pmd-plugin-3.16.0.buildcompare) | 807K |
 | [3.15.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-pmd-plugin/3.15.0/pom) | [mvn jdk8](maven-pmd-plugin-3.15.0.buildspec) | [result](maven-pmd-plugin-3.15.0.buildinfo): [4 :heavy_check_mark: ](maven-pmd-plugin-3.15.0.buildcompare) | 790K |
 | [3.14.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-pmd-plugin/3.14.0/pom) | [mvn jdk7](maven-pmd-plugin-3.14.0.buildspec) | [result](maven-pmd-plugin-3.14.0.buildinfo): [4 :heavy_check_mark: ](maven-pmd-plugin-3.14.0.buildcompare) | 722K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

@@ -27,3 +27,5 @@ rebuilding **7 releases** of io.wcm:io.wcm.handler.richtext:
 wcm-richtext-1.5.2.buildspec) | :x: | 169K |
 | [1.5.0](https://search.maven.org/artifact/io.wcm/io.wcm.handler.richtext/1.5.0/pom) | [mvn jdk11 w](wcm-richtext-1.5.0.buildspec) | [result](io.wcm.handler.richtext-1.5.0.buildinfo): [1 :heavy_check_mark:  2 :warning:](io.wcm.handler.richtext-1.5.0.buildcompare) | 150K |
 | [1.4.0](https://search.maven.org/artifact/io.wcm/io.wcm.handler.richtext/1.4.0/pom) | [mvn jdk8 w](wcm-richtext-1.4.0.buildspec) | [result](io.wcm.handler.richtext-1.4.0.buildinfo): [1 :heavy_check_mark:  2 :warning:](io.wcm.handler.richtext-1.4.0.buildcompare) | 150K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

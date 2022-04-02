@@ -14,3 +14,5 @@ rebuilding **1 releases** of org.apache.maven.plugins:maven-invoker-plugin:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [3.2.2](https://search.maven.org/artifact/org.apache.maven.plugins/maven-invoker-plugin/3.2.2/pom) | [mvn jdk11 w](maven-invoker-plugin-3.2.2.buildspec) | [result](maven-invoker-plugin-3.2.2.buildinfo): [4 :heavy_check_mark: ](maven-invoker-plugin-3.2.2.buildcompare) | 884K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

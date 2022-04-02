@@ -16,3 +16,5 @@ rebuilding **2 releases** of org.apache.maven.plugins:maven-wrapper-plugin:
 | [3.1.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-wrapper-plugin/3.1.0/pom) | | | |
 | [3.0.2](https://search.maven.org/artifact/org.apache.maven.plugins/maven-wrapper-plugin/3.0.2/pom) | [mvn jdk8 w](maven-wrapper-plugin-3.0.2.buildspec) | [result](maven-wrapper-plugin-3.0.2.buildinfo): [2 :heavy_check_mark:  2 :warning:](maven-wrapper-plugin-3.0.2.buildcompare) [:mag:](maven-wrapper-plugin-3.0.2.diffoscope) | 95K |
 | [3.0.1](https://search.maven.org/artifact/org.apache.maven.plugins/maven-wrapper-plugin/3.0.1/pom) | [mvn jdk8 w](maven-wrapper-plugin-3.0.1.buildspec) | [result](maven-wrapper-plugin-3.0.1.buildinfo): [4 :heavy_check_mark: ](maven-wrapper-plugin-3.0.1.buildcompare) | 89K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
