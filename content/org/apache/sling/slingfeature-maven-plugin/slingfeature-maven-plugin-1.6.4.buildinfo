@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling OSGi Feature Maven Plugin
+group-id=org.apache.sling
+artifact-id=slingfeature-maven-plugin
+version=1.6.4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-slingfeature-maven-plugin.git
+source.scm.tag=slingfeature-maven-plugin-1.6.4
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=slingfeature-maven-plugin-1.6.4.pom
+outputs.0.length=14181
+outputs.0.checksums.sha512=bf52d4c43a820c99daf07a1179f5f0cba04be6f33dbfe657335dbe5d1d9f069385f839301cc9d852365e28dc6f0b02ab0e659d6b1b5972bb746e5645cff9e756
+
+outputs.1.filename=slingfeature-maven-plugin-1.6.4.jar
+outputs.1.length=260318
+outputs.1.checksums.sha512=d7668ecea4eb65d913bb5dab4fa78689ed5092e49863e2d107b9f210934ef2dd4863befe9d393348bead6c976d148497db4da673fa223bdb18551f7d02278ec5
+
+outputs.2.filename=slingfeature-maven-plugin-1.6.4-source-release.zip
+outputs.2.length=298776
+outputs.2.checksums.sha512=e89b2fcb0da5cc9166031e6e78aa71af55aacfc089629518aef0674349aa5b868e010fbcaa2bb0002ec6f201f7612842eda8ef936e01ede1d44db4796ab3612b
+
+outputs.3.filename=slingfeature-maven-plugin-1.6.4-sources.jar
+outputs.3.length=148946
+outputs.3.checksums.sha512=8f46d8563042ad6c9f40c86338ac3e5e63740278eefdbfbc0a2fbe940ab10c4b6a4852fd5c317338b6f97477c5236887adedabc29fc099fd1681210359a4ee7b
+
+outputs.4.filename=slingfeature-maven-plugin-1.6.4-sources.jar
+outputs.4.length=148946
+outputs.4.checksums.sha512=8f46d8563042ad6c9f40c86338ac3e5e63740278eefdbfbc0a2fbe940ab10c4b6a4852fd5c317338b6f97477c5236887adedabc29fc099fd1681210359a4ee7b
