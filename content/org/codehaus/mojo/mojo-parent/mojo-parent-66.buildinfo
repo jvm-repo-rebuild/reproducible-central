@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=MojoHaus Parent
+group-id=org.codehaus.mojo
+artifact-id=mojo-parent
+version=66
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/mojo-parent.git
+source.scm.tag=mojo-parent-66
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=mojo-parent-66.pom
+outputs.0.length=35378
+outputs.0.checksums.sha512=470c8f353a596bab40589510ab25cd72197e031e62b25b012f81f787d795d60f7246a09284f535e056c9c4e9ab44abbc42f0a372413a1909adcde26167b351fd
+
+outputs.1.filename=mojo-parent-66-site.xml
+outputs.1.length=2253
+outputs.1.checksums.sha512=f995835893ea6157990105c52a83455c88666dbeac390ca93dad08179801190f714b310d449d8d18d0e8b5a59146e428bc490d370ed690b6856a588dd12c07e3
+
+outputs.2.filename=mojo-parent-66-source-release.zip
+outputs.2.length=12512
+outputs.2.checksums.sha512=1bf52f9879e19767aa204473ff56a03fbe185bdf089b5cba25182710d3fe986f991a340ee7a68a360e41e12c7d0a4157a58d7f7af6bc8a125b8eaa79658ca925
