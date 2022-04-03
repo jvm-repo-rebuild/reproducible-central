@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=OWASP AntiSamy
+group-id=org.owasp.antisamy
+artifact-id=antisamy
+version=1.6.6
+
+# source information
+source.scm.uri=scm:git:git@github.com:nahsra/antisamy.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=antisamy-1.6.6.pom
+outputs.0.length=21495
+outputs.0.checksums.sha512=b81f5ba5f01ac40d8a4ab5107a4cdef15ea0d87b4a3e03249b7145963a791f698f493e52e3ad098449c66946cfe37582b3f34e51d47c7d24de570723020eac15
+
+outputs.1.filename=antisamy-1.6.6.jar
+outputs.1.length=155205
+outputs.1.checksums.sha512=fba8fa4fda63bf9f285a1fb15213886239a7dbf18639b4c841c91d55cec5c3e6b6f0f667c50385f1d0497aa88b2d805321aa538d45ff03698009961c7c2d4b3c
+
+outputs.2.filename=antisamy-1.6.6-sources.jar
+outputs.2.length=147222
+outputs.2.checksums.sha512=f03ee587a0b3b0cbdb858d97181dfb2faa839eda0c7c213114431e71e01b78f1174841493fc375cbf901e752e46fbc8b266d4b2688812b72ab9c80187269a58c
