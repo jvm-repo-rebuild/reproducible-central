@@ -4,7 +4,7 @@ version=6.5.0
 
 display=${groupId}:${artifactId}
 
-gitRepo=https://github.com/jeremylong/DependencyCheck.git
+gitRepo=https://github.com/jeremylong/DependencyCheck
 gitTag=v${version}
 
 tool=mvn

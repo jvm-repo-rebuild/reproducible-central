@@ -4,7 +4,7 @@ target/reference/dependency-check-core-7.0.4.jar core/target/dependency-check-co
 ├── zipinfo {}
 │ @@ -1,8 +1,8 @@
 │ -Zip file size: 1022965 bytes, number of entries: 458
-│ +Zip file size: 1022956 bytes, number of entries: 458
+│ +Zip file size: 1022954 bytes, number of entries: 458
 │  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-30 10:37 META-INF/
 │  -rw-r--r--  2.0 unx      188 b- defN 22-Mar-30 10:37 META-INF/MANIFEST.MF
 │  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-30 10:37 META-INF/licenses/
@@ -24,7 +24,7 @@ target/reference/dependency-check-core-7.0.4.jar core/target/dependency-check-co
 │ +-rw-r--r--  2.0 unx     3366 b- defN 22-Mar-30 10:37 dependencycheck-cache.properties
 │  -rw-r--r--  2.0 unx     7112 b- defN 22-Mar-30 10:37 dependencycheck.properties
 │ --rw-r--r--  2.0 unx      793 b- defN 22-Mar-30 10:37 git.properties
-│ +-rw-r--r--  2.0 unx      800 b- defN 22-Mar-30 10:37 git.properties
+│ +-rw-r--r--  2.0 unx      796 b- defN 22-Mar-30 10:37 git.properties
 │  -rw-r--r--  2.0 unx     3361 b- defN 22-Mar-30 10:37 org/owasp/dependencycheck/AnalysisTask.class
 │  -rw-r--r--  2.0 unx     2870 b- defN 22-Mar-30 10:37 org/owasp/dependencycheck/Engine$Mode.class
 │  -rw-r--r--  2.0 unx    35981 b- defN 22-Mar-30 10:37 org/owasp/dependencycheck/Engine.class
@@ -41,7 +41,7 @@ target/reference/dependency-check-core-7.0.4.jar core/target/dependency-check-co
 │  -rw-r--r--  2.0 unx    29578 b- defN 22-Mar-30 10:37 META-INF/maven/org.owasp/dependency-check-core/pom.xml
 │  -rw-r--r--  2.0 unx       65 b- defN 22-Mar-30 10:37 META-INF/maven/org.owasp/dependency-check-core/pom.properties
 │ -458 files, 2645242 bytes uncompressed, 941653 bytes compressed:  64.4%
-│ +458 files, 2645214 bytes uncompressed, 941644 bytes compressed:  64.4%
+│ +458 files, 2645210 bytes uncompressed, 941642 bytes compressed:  64.4%
 ├── dependencycheck-cache.properties
 │ @@ -52,14 +52,14 @@
 │  jcs.region.NODEAUDIT.elementattributes.IsSpool=true
@@ -60,16 +60,13 @@ target/reference/dependency-check-core-7.0.4.jar core/target/dependency-check-co
 │  jcs.auxiliary.ODC.attributes.EventQueueType=POOLED
 │  jcs.auxiliary.ODC.attributes.EventQueuePoolName=disk_cache_event_queue
 ├── git.properties
-│ @@ -11,10 +11,10 @@
-│  git.commit.id.full=d200397644a691939b6b3c07c57740cd8a98f214
-│  git.commit.message.full=[maven-release-plugin] prepare release v7.0.4
+│ @@ -13,8 +13,8 @@
 │  git.commit.message.short=[maven-release-plugin] prepare release v7.0.4
 │  git.commit.time=2022-03-30T10\:37\:20Z
 │  git.dirty=false
 │  git.local.branch.ahead=NO_REMOTE
 │  git.local.branch.behind=NO_REMOTE
-│ -git.remote.origin.url=https\://github.com/jeremylong/DependencyCheck
-│ +git.remote.origin.url=https\://github.com/jeremylong/DependencyCheck.git
+│  git.remote.origin.url=https\://github.com/jeremylong/DependencyCheck
 │  git.tags=v7.0.4
 │ -git.total.commit.count=1
 │ +git.total.commit.count=8347
@@ -118,7 +115,7 @@ target/reference/dependency-check-cli-7.0.4-sources.jar cli/target/dependency-ch
 │  -rw-r--r--  2.0 unx       64 b- defN 22-Mar-30 10:37 META-INF/maven/org.owasp/dependency-check-cli/pom.properties
 │ -27 files, 123548 bytes uncompressed, 26702 bytes compressed:  78.4%
 │ +25 files, 123548 bytes uncompressed, 26702 bytes compressed:  78.4%
-├── zipnote «TEMP»/diffoscope_37rdrc2c_target/tmprjut_lx6.zip
+├── zipnote «TEMP»/diffoscope_bpub5g7__target/tmpiu0wqmjl.zip
 │ @@ -12,39 +12,33 @@
 │  
 │  Filename: org/owasp/dependencycheck/
@@ -187,14 +184,13 @@ target/reference/dependency-check-cli-7.0.4-sources.jar cli/target/dependency-ch
 ├── +++ /var/maven/app/cli/target/release/bin/completion-for-dependency-check.sh
 │┄ Files identical despite different names
 
-
 target/reference/dependency-check-maven-7.0.4.jar maven/target/dependency-check-maven-7.0.4.jar
 --- target/reference/dependency-check-maven-7.0.4.jar
 +++ maven/target/dependency-check-maven-7.0.4.jar
 ├── zipinfo {}
 │ @@ -1,32 +1,32 @@
 │ -Zip file size: 102196 bytes, number of entries: 30
-│ +Zip file size: 102207 bytes, number of entries: 30
+│ +Zip file size: 102205 bytes, number of entries: 30
 │  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-30 10:37 META-INF/
 │  -rw-r--r--  2.0 unx      196 b- defN 22-Mar-30 10:37 META-INF/MANIFEST.MF
 │  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-30 10:37 META-INF/maven/
@@ -209,7 +205,7 @@ target/reference/dependency-check-maven-7.0.4.jar maven/target/dependency-check-
 │  -rw-r--r--  2.0 unx   191634 b- defN 22-Mar-30 10:37 META-INF/maven/org.owasp/dependency-check-maven/plugin-help.xml
 │  -rw-r--r--  2.0 unx   218480 b- defN 22-Mar-30 10:37 META-INF/maven/plugin.xml
 │ --rw-r--r--  2.0 unx      793 b- defN 22-Mar-30 10:37 git.properties
-│ +-rw-r--r--  2.0 unx      800 b- defN 22-Mar-30 10:37 git.properties
+│ +-rw-r--r--  2.0 unx      796 b- defN 22-Mar-30 10:37 git.properties
 │  -rw-r--r--  2.0 unx      117 b- defN 22-Mar-30 10:37 mojo.properties
 │  -rw-r--r--  2.0 unx     9681 b- defN 22-Mar-30 10:37 org/owasp/dependencycheck/maven/AggregateMojo.class
 │  -rw-r--r--  2.0 unx     1243 b- defN 22-Mar-30 10:37 org/owasp/dependencycheck/maven/ArtifactScopeExcluded.class
@@ -228,18 +224,15 @@ target/reference/dependency-check-maven-7.0.4.jar maven/target/dependency-check-
 │  -rw-r--r--  2.0 unx     8891 b- defN 22-Mar-30 10:37 META-INF/maven/org.owasp/dependency-check-maven/pom.xml
 │  -rw-r--r--  2.0 unx       66 b- defN 22-Mar-30 10:37 META-INF/maven/org.owasp/dependency-check-maven/pom.properties
 │ -30 files, 534568 bytes uncompressed, 97544 bytes compressed:  81.8%
-│ +30 files, 534559 bytes uncompressed, 97555 bytes compressed:  81.8%
+│ +30 files, 534555 bytes uncompressed, 97553 bytes compressed:  81.8%
 ├── git.properties
-│ @@ -11,10 +11,10 @@
-│  git.commit.id.full=d200397644a691939b6b3c07c57740cd8a98f214
-│  git.commit.message.full=[maven-release-plugin] prepare release v7.0.4
+│ @@ -13,8 +13,8 @@
 │  git.commit.message.short=[maven-release-plugin] prepare release v7.0.4
 │  git.commit.time=2022-03-30T10\:37\:20Z
 │  git.dirty=false
 │  git.local.branch.ahead=NO_REMOTE
 │  git.local.branch.behind=NO_REMOTE
-│ -git.remote.origin.url=https\://github.com/jeremylong/DependencyCheck
-│ +git.remote.origin.url=https\://github.com/jeremylong/DependencyCheck.git
+│  git.remote.origin.url=https\://github.com/jeremylong/DependencyCheck
 │  git.tags=v7.0.4
 │ -git.total.commit.count=1
 │ +git.total.commit.count=8347
