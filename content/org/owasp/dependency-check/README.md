@@ -5,7 +5,7 @@
 
 ## Project: [org.owasp:dependency-check-parent](https://search.maven.org/artifact/org.owasp/dependency-check-parent/)
 
-Source code: [https://github.com/jeremylong/DependencyCheck.git](https://github.com/jeremylong/DependencyCheck.git)
+Source code: [https://github.com/jeremylong/DependencyCheck](https://github.com/jeremylong/DependencyCheck)
 
 <details><summary>This project defines 7 artifacts:</summary>
 
@@ -24,7 +24,7 @@ rebuilding **2 releases** of org.owasp:dependency-check-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [7.0.4](https://search.maven.org/artifact/org.owasp/dependency-check-parent/7.0.4/pom) | [mvn jdk8](dependency-check-7.0.4.buildspec) | [result](dependency-check-parent-7.0.4.buildinfo): [13 :heavy_check_mark:  9 :warning:](dependency-check-parent-7.0.4.buildcompare) [:mag:](target/dependency-check-parent-7.0.4.diffoscope) | 47M |
+| [7.0.4](https://search.maven.org/artifact/org.owasp/dependency-check-parent/7.0.4/pom) | [mvn jdk8](dependency-check-7.0.4.buildspec) | [result](dependency-check-parent-7.0.4.buildinfo): [13 :heavy_check_mark:  9 :warning:](dependency-check-parent-7.0.4.buildcompare) [:mag:](dependency-check-parent-7.0.4.diffoscope) | 47M |
 | [7.0.3](https://search.maven.org/artifact/org.owasp/dependency-check-parent/7.0.3/pom) | | | |
 | [7.0.2](https://search.maven.org/artifact/org.owasp/dependency-check-parent/7.0.2/pom) | | | |
 | [7.0.1](https://search.maven.org/artifact/org.owasp/dependency-check-parent/7.0.1/pom) | | | |
@@ -32,6 +32,6 @@ rebuilding **2 releases** of org.owasp:dependency-check-parent:
 | [6.5.3](https://search.maven.org/artifact/org.owasp/dependency-check-parent/6.5.3/pom) | | | |
 | [6.5.2](https://search.maven.org/artifact/org.owasp/dependency-check-parent/6.5.2/pom) | | | |
 | [6.5.1](https://search.maven.org/artifact/org.owasp/dependency-check-parent/6.5.1/pom) | | | |
-| [6.5.0](https://search.maven.org/artifact/org.owasp/dependency-check-parent/6.5.0/pom) | [mvn jdk8](dependency-check-6.5.0.buildspec) | [result](dependency-check-parent-6.5.0.buildinfo): [17 :heavy_check_mark:  5 :warning:](dependency-check-parent-6.5.0.buildcompare) [:mag:](target/dependency-check-parent-6.5.0.diffoscope) | 45M |
+| [6.5.0](https://search.maven.org/artifact/org.owasp/dependency-check-parent/6.5.0/pom) | [mvn jdk8](dependency-check-6.5.0.buildspec) | [result](dependency-check-parent-6.5.0.buildinfo): [17 :heavy_check_mark:  5 :warning:](dependency-check-parent-6.5.0.buildcompare) [:mag:](dependency-check-parent-6.5.0.diffoscope) | 45M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

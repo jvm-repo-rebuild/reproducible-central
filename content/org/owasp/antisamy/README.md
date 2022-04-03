@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/nahsra/antisamy.git](https://github.com/nahsra/antisamy.git)
 
-rebuilding **6 releases** of org.owasp.antisamy:antisamy:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **7 releases** of org.owasp.antisamy:antisamy:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.6.6](https://search.maven.org/artifact/org.owasp.antisamy/antisamy/1.6.6/pom) | | | |
+| [1.6.6](https://search.maven.org/artifact/org.owasp.antisamy/antisamy/1.6.6/pom) | [mvn jdk8](antisamy-1.6.6.buildspec) | [result](antisamy-1.6.6.buildinfo): [3 :heavy_check_mark: ](antisamy-1.6.6.buildcompare) | 317K |
 | [1.6.5](https://search.maven.org/artifact/org.owasp.antisamy/antisamy/1.6.5/pom) | [mvn jdk8](antisamy-1.6.5.buildspec) | [result](antisamy-1.6.5.buildinfo): [3 :heavy_check_mark: ](antisamy-1.6.5.buildcompare) | 316K |
 | [1.6.4](https://search.maven.org/artifact/org.owasp.antisamy/antisamy/1.6.4/pom) | [mvn jdk8](antisamy-1.6.4.buildspec) | [result](antisamy-1.6.4.buildinfo): [3 :heavy_check_mark: ](antisamy-1.6.4.buildcompare) | 304K |
 | [1.6.3](https://search.maven.org/artifact/org.owasp.antisamy/antisamy/1.6.3/pom) | [mvn jdk8](antisamy-1.6.3.buildspec) | [result](antisamy-1.6.3.buildinfo): [3 :heavy_check_mark: ](antisamy-1.6.3.buildcompare) | 304K |
