@@ -7,12 +7,13 @@
 
 Source code: [https://github.com/mojohaus/mojo-parent.git](https://github.com/mojohaus/mojo-parent.git)
 
-rebuilding **6 releases** of org.codehaus.mojo:mojo-parent:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **7 releases** of org.codehaus.mojo:mojo-parent:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [67](https://search.maven.org/artifact/org.codehaus.mojo/mojo-parent/67/pom) | [mvn jdk8](mojo-parent-67.buildspec) | [result](mojo-parent-67.buildinfo): [3 :heavy_check_mark: ](mojo-parent-67.buildcompare) | 49K |
 | [66](https://search.maven.org/artifact/org.codehaus.mojo/mojo-parent/66/pom) | [mvn jdk8](mojo-parent-66.buildspec) | [result](mojo-parent-66.buildinfo): [3 :heavy_check_mark: ](mojo-parent-66.buildcompare) | 49K |
 | [65](https://search.maven.org/artifact/org.codehaus.mojo/mojo-parent/65/pom) | [mvn jdk8](mojo-parent-65.buildspec) | [result](mojo-parent-65.buildinfo): [3 :heavy_check_mark: ](mojo-parent-65.buildcompare) | 49K |
 | [64](https://search.maven.org/artifact/org.codehaus.mojo/mojo-parent/64/pom) | [mvn jdk8](mojo-parent-64.buildspec) | [result](mojo-parent-64.buildinfo): [3 :heavy_check_mark: ](mojo-parent-64.buildcompare) | 48K |
