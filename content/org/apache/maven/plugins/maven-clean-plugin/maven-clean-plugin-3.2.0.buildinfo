@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Clean Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-clean-plugin
+version=3.2.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-clean-plugin.git
+source.scm.tag=maven-clean-plugin-3.2.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.filename=maven-clean-plugin-3.2.0.pom
+outputs.0.length=5309
+outputs.0.checksums.sha512=93e09773437c98ceca39e91f7ebd06d135013435823ac5324b0b70d42627b6b8d98c088847d3fba7f3ad2c4bf2dede1d3ae7723e2ddfaf0b3b95b5ed23738461
+
+outputs.1.filename=maven-clean-plugin-3.2.0.jar
+outputs.1.length=35678
+outputs.1.checksums.sha512=6616f6f41a8da330b9a20f45321c5e201dd0e9814c5f37c9c7a93225300821cc38f2f0882d6afec6817b7b0c21beb8d9dc1e744cc944de75185783ffc5e6ef91
+
+outputs.2.filename=maven-clean-plugin-3.2.0-source-release.zip
+outputs.2.length=143378
+outputs.2.checksums.sha512=c0b28aa05009948f9dc65cb3e55e332c1c000f88e2f81de848611ac9f0d4b446a4c4afc6f86961a07d0f40d9862fb294c608a6aa12be316dc457ff76b80d0cf9
+
+outputs.3.filename=maven-clean-plugin-3.2.0-sources.jar
+outputs.3.length=24254
+outputs.3.checksums.sha512=29d868ebbeaaa8a50a8b47aa872ecbbed653dfe22b5ddc1181dc8f732d6ed1b81f7e4ddf9adf979da5c5a2b02bcd063b16254087f160971b25a0f22b726026b4
