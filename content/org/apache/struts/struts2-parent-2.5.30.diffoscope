@@ -1,0 +1,71 @@
+target/reference/struts2-core-2.5.30.jar core/target/struts2-core-2.5.30.jar
+--- target/reference/struts2-core-2.5.30.jar
++++ core/target/struts2-core-2.5.30.jar
+├── zipinfo {}
+│ @@ -1,9 +1,9 @@
+│ -Zip file size: 1631109 bytes, number of entries: 1267
+│ --rw-r--r--  2.0 unx    28368 b- defN 22-Mar-15 13:49 META-INF/MANIFEST.MF
+│ +Zip file size: 1631110 bytes, number of entries: 1267
+│ +-rw-r--r--  2.0 unx    28369 b- defN 22-Mar-15 13:49 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-15 13:49 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-15 13:49 com/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-15 13:49 com/opensymphony/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-15 13:49 com/opensymphony/xwork2/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-15 13:49 com/opensymphony/xwork2/config/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-15 13:49 com/opensymphony/xwork2/config/entities/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-15 13:49 com/opensymphony/xwork2/config/impl/
+│ @@ -1262,8 +1262,8 @@
+│  -rw-r--r--  2.0 unx     1589 b- defN 22-Mar-15 13:49 xwork-validator-1.0.2.dtd
+│  -rw-r--r--  2.0 unx     1593 b- defN 22-Mar-15 13:49 xwork-validator-1.0.3.dtd
+│  -rw-r--r--  2.0 unx     1508 b- defN 22-Mar-15 13:49 xwork-validator-1.0.dtd
+│  -rw-r--r--  2.0 unx     1215 b- defN 22-Mar-15 13:49 xwork-validator-config-1.0.dtd
+│  -rw-r--r--  2.0 unx     1233 b- defN 22-Mar-15 13:49 xwork-validator-definition-1.0.dtd
+│  -rw-r--r--  2.0 unx    16499 b- defN 22-Mar-15 13:49 META-INF/maven/org.apache.struts/struts2-core/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 22-Mar-15 13:49 META-INF/maven/org.apache.struts/struts2-core/pom.properties
+│ -1267 files, 3747828 bytes uncompressed, 1402941 bytes compressed:  62.6%
+│ +1267 files, 3747829 bytes uncompressed, 1402942 bytes compressed:  62.6%
+├── META-INF/MANIFEST.MF
+│ @@ -305,20 +305,20 @@
+│   e.archive.xhtml;version="2.5.30",template.css_xhtml;version="2.5.30",
+
+│   template.simple;version="2.5.30",template.xhtml;version="2.5.30"
+
+│  Implementation-Title: Struts 2 Core
+
+│  Implementation-Version: 2.5.30
+
+│  Specification-Vendor: Apache Software Foundation
+
+│  Tool: Bnd-0.0.357
+
+│  Bundle-Name: Struts 2 Core
+
+│ -Created-By: 1.7.0_80 (Oracle Corporation)
+
+│ +Created-By: 1.7.0_211 (Oracle Corporation)
+
+│  Bundle-Vendor: Apache Software Foundation
+
+│  Implementation-Vendor: Apache Software Foundation
+
+│  Build-Jdk-Spec: 1.7
+
+│  Bundle-Version: 2.5.30
+
+│ -Bnd-LastModified: 1647352618694
+
+│ +Bnd-LastModified: 1649263555680
+
+│  Bundle-ManifestVersion: 2
+
+│  Specification-Title: Struts 2 Core
+
+│  Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+
+│  Bundle-Description: Apache Struts 2
+
+│  Import-Package: com.opensymphony.xwork2;version="2.5",com.opensymphony
+
+│   .xwork2.config;version="2.5",com.opensymphony.xwork2.config.entities;
+
+│   version="2.5",com.opensymphony.xwork2.config.impl;version="2.5",com.o
