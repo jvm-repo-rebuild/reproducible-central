@@ -1,0 +1,98 @@
+target/reference/reload4j-1.2.20.jar target/reload4j-1.2.20.jar
+--- target/reference/reload4j-1.2.20.jar
++++ target/reload4j-1.2.20.jar
+├── zipinfo {}
+│ @@ -1,9 +1,9 @@
+│ -Zip file size: 332351 bytes, number of entries: 243
+│ --rw-r--r--  2.0 unx     2358 b- defN 22-Apr-05 21:13 META-INF/MANIFEST.MF
+│ +Zip file size: 332342 bytes, number of entries: 243
+│ +-rw-r--r--  2.0 unx     2301 b- defN 22-Apr-05 21:13 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-05 21:13 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-05 21:13 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-05 21:13 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-05 21:13 org/apache/log4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-05 21:13 org/apache/log4j/chainsaw/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-05 21:13 org/apache/log4j/config/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-05 21:13 org/apache/log4j/helpers/
+│ @@ -238,8 +238,8 @@
+│  -rw-r--r--  2.0 unx     1496 b- defN 22-Apr-05 21:13 org/apache/log4j/xml/SAXErrorHandler.class
+│  -rw-r--r--  2.0 unx      286 b- defN 22-Apr-05 21:13 org/apache/log4j/xml/UnrecognizedElementHandler.class
+│  -rw-r--r--  2.0 unx     4109 b- defN 22-Apr-05 21:13 org/apache/log4j/xml/XMLLayout.class
+│  -rw-r--r--  2.0 unx      745 b- defN 22-Apr-05 21:13 org/apache/log4j/xml/XMLWatchdog.class
+│  -rw-r--r--  2.0 unx     7265 b- defN 22-Apr-05 21:13 org/apache/log4j/xml/log4j.dtd
+│  -rw-r--r--  2.0 unx    16175 b- defN 22-Apr-05 21:13 META-INF/maven/ch.qos.reload4j/reload4j/pom.xml
+│  -rw-r--r--  2.0 unx       62 b- defN 22-Apr-05 21:13 META-INF/maven/ch.qos.reload4j/reload4j/pom.properties
+│ -243 files, 646210 bytes uncompressed, 292689 bytes compressed:  54.7%
+│ +243 files, 646153 bytes uncompressed, 292680 bytes compressed:  54.7%
+├── META-INF/MANIFEST.MF
+│ @@ -10,15 +10,14 @@
+│  Import-Package: javax.jmdns;resolution:=optional,javax.jms;resolution:
+
+│   =optional,javax.mail;version="[1.4,2)";resolution:=optional,javax.mai
+
+│   l.internet;version="[1.4,2)";resolution:=optional,javax.naming,javax.
+
+│   xml.parsers,org.w3c.dom,org.xml.sax,org.xml.sax.helpers
+
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+
+│  Tool: Bnd-5.1.1.202006162103
+
+│  Implementation-Vendor: QOS.CH Sarl (Switzerland)
+
+│ -Originally-Created-By: Apache Maven Bundle Plugin 5.1.4
+
+│  Export-Package: org.apache.log4j;version="1.2.20";uses:="org.apache.lo
+
+│   g4j.helpers,org.apache.log4j.or,org.apache.log4j.spi",org.apache.log4
+
+│   j.config;version="1.2.20";uses:="org.apache.log4j",org.apache.log4j.h
+
+│   elpers;version="1.2.20";uses:="org.apache.log4j,org.apache.log4j.spi"
+
+│   ,org.apache.log4j.jdbc;version="1.2.20";uses:="org.apache.log4j,org.a
+
+│   pache.log4j.spi",org.apache.log4j.net;version="1.2.20";uses:="javax.j
+
+│   ms,javax.mail,javax.naming,org.apache.log4j,org.apache.log4j.helpers,
+
+target/reference/reload4j-1.2.20-tests.jar target/reload4j-1.2.20-tests.jar
+--- target/reference/reload4j-1.2.20-tests.jar
++++ target/reload4j-1.2.20-tests.jar
+├── zipinfo {}
+│ @@ -1,185 +1,185 @@
+│  Zip file size: 228773 bytes, number of entries: 183
+│ --rw-r--r--  2.0 unx     2301 b- defN 22-Feb-08 08:07 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 08:07 META-INF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 08:07 org/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 08:07 org/apache/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 08:07 org/apache/log4j/
+...
+│ +-rw-r--r--  2.0 unx     2301 b- defN 22-Apr-05 21:13 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-05 21:13 META-INF/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-05 21:13 org/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-05 21:13 org/apache/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-05 21:13 org/apache/log4j/
+...
+│  183 files, 454895 bytes uncompressed, 198815 bytes compressed:  56.3%
+
+target/reference/reload4j-1.2.20-sources.jar target/reload4j-1.2.20-sources.jar
+--- target/reference/reload4j-1.2.20-sources.jar
++++ target/reload4j-1.2.20-sources.jar
+├── zipinfo {}
+│ @@ -1,208 +1,208 @@
+│  Zip file size: 380289 bytes, number of entries: 206
+│ --rw-r--r--  2.0 unx      232 b- defN 22-Feb-08 08:07 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 08:07 META-INF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 08:07 org/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 08:07 org/apache/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Feb-08 08:07 org/apache/log4j/
+...
+│ +-rw-r--r--  2.0 unx      232 b- defN 22-Apr-05 21:13 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-05 21:13 META-INF/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-05 21:13 org/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-05 21:13 org/apache/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-05 21:13 org/apache/log4j/
+...
+│  206 files, 1119676 bytes uncompressed, 348137 bytes compressed:  68.9%
+
