@@ -1,0 +1,195 @@
+target/reference/surefire-3.0.0-M6-source-release.zip target/surefire-3.0.0-M6-source-release.zip
+--- target/reference/surefire-3.0.0-M6-source-release.zip
++++ target/surefire-3.0.0-M6-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 3515855 bytes, number of entries: 4258
+│ +Zip file size: 3520549 bytes, number of entries: 4262
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-30 21:49 surefire-3.0.0-M6/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-30 21:49 surefire-3.0.0-M6/.github/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-30 21:49 surefire-3.0.0-M6/.github/workflows/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-30 21:49 surefire-3.0.0-M6/maven-failsafe-plugin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-30 21:49 surefire-3.0.0-M6/maven-failsafe-plugin/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-30 21:49 surefire-3.0.0-M6/maven-failsafe-plugin/src/it/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-30 21:49 surefire-3.0.0-M6/maven-failsafe-plugin/src/it/jetty-war-test-failing/
+│ @@ -2291,14 +2291,15 @@
+│  -rw-r--r--  2.0 unx     1006 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/maven-failsafe-plugin/src/main/java/org/apache/maven/plugin/failsafe/package.html
+│  -rw-r--r--  2.0 unx     5808 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/maven-failsafe-plugin/src/main/java/org/apache/maven/plugin/failsafe/util/FailsafeSummaryXmlUtils.java
+│  -rw-r--r--  2.0 unx     4055 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/maven-failsafe-plugin/src/test/java/org/apache/maven/plugin/failsafe/IntegrationTestMojoTest.java
+│  -rw-r--r--  2.0 unx     1470 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/maven-failsafe-plugin/src/test/java/org/apache/maven/plugin/failsafe/JUnit4SuiteTest.java
+│  -rw-r--r--  2.0 unx     3823 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/maven-failsafe-plugin/src/test/java/org/apache/maven/plugin/failsafe/MarshallerUnmarshallerTest.java
+│  -rw-r--r--  2.0 unx     4205 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/maven-failsafe-plugin/src/test/java/org/apache/maven/plugin/failsafe/RunResultTest.java
+│  -rw-r--r--  2.0 unx     4524 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/maven-failsafe-plugin/src/test/resources/org/apache/maven/plugin/failsafe/failsafe-summary.xml
+│ +-rw-r--r--  2.0 unx     9648 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/maven-surefire-common/dependency-reduced-pom.xml
+│  -rw-r--r--  2.0 unx     6470 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/maven-surefire-common/pom.xml
+│  -rw-r--r--  2.0 unx   157721 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/AbstractSurefireMojo.java
+│  -rw-r--r--  2.0 unx     2016 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/ClasspathCache.java
+│  -rw-r--r--  2.0 unx     5745 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/CommonReflector.java
+│  -rw-r--r--  2.0 unx     4131 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/InPluginVMSurefireStarter.java
+│  -rw-r--r--  2.0 unx     1922 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/JdkAttributes.java
+│  -rw-r--r--  2.0 unx     1627 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/ResolvePathResultWrapper.java
+│ @@ -3568,14 +3569,15 @@
+│  -rw-r--r--  2.0 unx     1117 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-its/src/test/resources/surefire-162-charsetProvider/pom.xml
+│  -rw-r--r--  2.0 unx    22719 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-its/src/test/resources/surefire-162-charsetProvider/repo/jcharset/jcharset/1.2.1/jcharset-1.2.1.jar
+│  -rw-r--r--  2.0 unx       32 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-its/src/test/resources/surefire-162-charsetProvider/repo/jcharset/jcharset/1.2.1/jcharset-1.2.1.jar.md5
+│  -rw-r--r--  2.0 unx       40 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-its/src/test/resources/surefire-162-charsetProvider/repo/jcharset/jcharset/1.2.1/jcharset-1.2.1.jar.sha1
+│  -rw-r--r--  2.0 unx      273 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-its/src/test/resources/surefire-162-charsetProvider/repo/jcharset/jcharset/1.2.1/jcharset-1.2.1.pom
+│  -rw-r--r--  2.0 unx       32 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-its/src/test/resources/surefire-162-charsetProvider/repo/jcharset/jcharset/1.2.1/jcharset-1.2.1.pom.md5
+│  -rw-r--r--  2.0 unx       40 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-its/src/test/resources/surefire-162-charsetProvider/repo/jcharset/jcharset/1.2.1/jcharset-1.2.1.pom.sha1
+│ +-rw-r--r--  2.0 unx      586 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-its/src/test/resources/surefire-162-charsetProvider/repo/jcharset/jcharset/README.md
+│  -rw-r--r--  2.0 unx      292 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-its/src/test/resources/surefire-162-charsetProvider/repo/jcharset/jcharset/maven-metadata.xml
+│  -rw-r--r--  2.0 unx       32 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-its/src/test/resources/surefire-162-charsetProvider/repo/jcharset/jcharset/maven-metadata.xml.md5
+│  -rw-r--r--  2.0 unx       40 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-its/src/test/resources/surefire-162-charsetProvider/repo/jcharset/jcharset/maven-metadata.xml.sha1
+│  -rw-r--r--  2.0 unx     1291 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-its/src/test/resources/surefire-162-charsetProvider/src/test/java/charsetProvider/MSUREFIRE77TestCase.java
+│  -rw-r--r--  2.0 unx     3735 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-its/src/test/resources/surefire-1659-stream-corruption/pom.xml
+│  -rw-r--r--  2.0 unx      343 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-its/src/test/resources/surefire-1659-stream-corruption/src/test/java/com/example/demo/JUnitPlatformSampleTest.java
+│  -rw-r--r--  2.0 unx       47 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-its/src/test/resources/surefire-1659-stream-corruption/src/test/resources/jul-to-slf4j.properties
+│ @@ -4246,15 +4248,17 @@
+│  -rw-r--r--  2.0 unx     6818 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-report-parser/src/test/resources/test-reports/TEST-NoTimeTestCaseTest.xml
+│  -rw-r--r--  2.0 unx     5392 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-report-parser/src/test/resources/test-reports/TEST-classWithNoTests.NoMethodsTestCase.xml
+│  -rw-r--r--  2.0 unx    13442 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-report-parser/src/test/resources/test-reports/TEST-com.shape.CircleTest.xml
+│  -rw-r--r--  2.0 unx     9463 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-report-parser/src/test/resources/test-reports/TEST-com.shape.PointTest.xml
+│  -rw-r--r--  2.0 unx     5499 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-report-parser/src/test/resources/test-reports/TEST-junit.twoTestCaseSuite.WrapperTestSuite.xml
+│  -rw-r--r--  2.0 unx     7481 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-report-parser/src/test/resources/test-reports/com.shape.CircleTest.txt
+│  -rw-r--r--  2.0 unx     7536 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-report-parser/src/test/resources/test-reports/com.shapeclone.CircleTest.txt
+│ +-rw-r--r--  2.0 unx     4787 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-shadefire/dependency-reduced-pom.xml
+│  -rw-r--r--  2.0 unx     5765 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-shadefire/pom.xml
+│  -rw-r--r--  2.0 unx      973 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-shadefire/src/main/resources/META-INF/services/org.apache.maven.shadefire.surefire.spi.MasterProcessChannelProcessorFactory
+│  -rw-r--r--  2.0 unx      848 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-shadefire/src/main/resources/META-INF/services/org.apache.maven.surefire.api.provider.SurefireProvider
+│ +-rw-r--r--  2.0 unx     4291 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-shared-utils/dependency-reduced-pom.xml
+│  -rw-r--r--  2.0 unx     6114 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/surefire-shared-utils/pom.xml
+│  -rw-r--r--  2.0 unx      271 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/LICENSE
+│  -rw-r--r--  2.0 unx      178 b- defN 22-Mar-30 21:49 surefire-3.0.0-M6/NOTICE
+│ -4258 files, 7069604 bytes uncompressed, 2352431 bytes compressed:  66.7%
+│ +4262 files, 7088916 bytes uncompressed, 2356209 bytes compressed:  66.8%
+├── zipnote {}
+│ @@ -6882,14 +6882,17 @@
+│  
+│  Filename: surefire-3.0.0-M6/maven-failsafe-plugin/src/test/java/org/apache/maven/plugin/failsafe/RunResultTest.java
+│  Comment: 
+│  
+│  Filename: surefire-3.0.0-M6/maven-failsafe-plugin/src/test/resources/org/apache/maven/plugin/failsafe/failsafe-summary.xml
+│  Comment: 
+│  
+│ +Filename: surefire-3.0.0-M6/maven-surefire-common/dependency-reduced-pom.xml
+│ +Comment: 
+│ +
+│  Filename: surefire-3.0.0-M6/maven-surefire-common/pom.xml
+│  Comment: 
+│  
+│  Filename: surefire-3.0.0-M6/maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/AbstractSurefireMojo.java
+│  Comment: 
+│  
+│  Filename: surefire-3.0.0-M6/maven-surefire-common/src/main/java/org/apache/maven/plugin/surefire/ClasspathCache.java
+│ @@ -10713,14 +10716,17 @@
+│  
+│  Filename: surefire-3.0.0-M6/surefire-its/src/test/resources/surefire-162-charsetProvider/repo/jcharset/jcharset/1.2.1/jcharset-1.2.1.pom.md5
+│  Comment: 
+│  
+│  Filename: surefire-3.0.0-M6/surefire-its/src/test/resources/surefire-162-charsetProvider/repo/jcharset/jcharset/1.2.1/jcharset-1.2.1.pom.sha1
+│  Comment: 
+│  
+│ +Filename: surefire-3.0.0-M6/surefire-its/src/test/resources/surefire-162-charsetProvider/repo/jcharset/jcharset/README.md
+│ +Comment: 
+│ +
+│  Filename: surefire-3.0.0-M6/surefire-its/src/test/resources/surefire-162-charsetProvider/repo/jcharset/jcharset/maven-metadata.xml
+│  Comment: 
+│  
+│  Filename: surefire-3.0.0-M6/surefire-its/src/test/resources/surefire-162-charsetProvider/repo/jcharset/jcharset/maven-metadata.xml.md5
+│  Comment: 
+│  
+│  Filename: surefire-3.0.0-M6/surefire-its/src/test/resources/surefire-162-charsetProvider/repo/jcharset/jcharset/maven-metadata.xml.sha1
+│ @@ -12747,23 +12753,29 @@
+│  
+│  Filename: surefire-3.0.0-M6/surefire-report-parser/src/test/resources/test-reports/com.shape.CircleTest.txt
+│  Comment: 
+│  
+│  Filename: surefire-3.0.0-M6/surefire-report-parser/src/test/resources/test-reports/com.shapeclone.CircleTest.txt
+│  Comment: 
+│  
+│ +Filename: surefire-3.0.0-M6/surefire-shadefire/dependency-reduced-pom.xml
+│ +Comment: 
+│ +
+│  Filename: surefire-3.0.0-M6/surefire-shadefire/pom.xml
+│  Comment: 
+│  
+│  Filename: surefire-3.0.0-M6/surefire-shadefire/src/main/resources/META-INF/services/org.apache.maven.shadefire.surefire.spi.MasterProcessChannelProcessorFactory
+│  Comment: 
+│  
+│  Filename: surefire-3.0.0-M6/surefire-shadefire/src/main/resources/META-INF/services/org.apache.maven.surefire.api.provider.SurefireProvider
+│  Comment: 
+│  
+│ +Filename: surefire-3.0.0-M6/surefire-shared-utils/dependency-reduced-pom.xml
+│ +Comment: 
+│ +
+│  Filename: surefire-3.0.0-M6/surefire-shared-utils/pom.xml
+│  Comment: 
+│  
+│  Filename: surefire-3.0.0-M6/DEPENDENCIES
+│  Comment: 
+│  
+│  Filename: surefire-3.0.0-M6/LICENSE
+
+target/reference/surefire-api-3.0.0-M6.jar surefire-api/target/surefire-api-3.0.0-M6.jar
+--- target/reference/surefire-api-3.0.0-M6.jar
++++ surefire-api/target/surefire-api-3.0.0-M6.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 166869 bytes, number of entries: 166
+│ +Zip file size: 166982 bytes, number of entries: 166
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-30 21:49 META-INF/
+│  -rw-r--r--  2.0 unx      324 b- defN 22-Mar-30 21:49 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-30 21:49 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-30 21:49 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-30 21:49 org/apache/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-30 21:49 org/apache/maven/surefire/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-30 21:49 org/apache/maven/surefire/api/
+│ @@ -18,15 +18,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-30 21:49 org/apache/maven/surefire/api/suite/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-30 21:49 org/apache/maven/surefire/api/testset/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-30 21:49 org/apache/maven/surefire/api/util/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-30 21:49 org/apache/maven/surefire/api/util/internal/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-30 21:49 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-30 21:49 META-INF/maven/org.apache.maven.surefire/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-30 21:49 META-INF/maven/org.apache.maven.surefire/surefire-api/
+│ --rw-r--r--  2.0 unx      810 b- defN 22-Mar-30 21:49 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx     1663 b- defN 22-Mar-30 21:49 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Mar-30 21:49 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      169 b- defN 22-Mar-30 21:49 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     7075 b- defN 22-Mar-30 21:49 org/apache/maven/surefire/api/booter/BaseProviderFactory.class
+│  -rw-r--r--  2.0 unx      973 b- defN 22-Mar-30 21:49 org/apache/maven/surefire/api/booter/BiProperty.class
+│  -rw-r--r--  2.0 unx     3024 b- defN 22-Mar-30 21:49 org/apache/maven/surefire/api/booter/Command.class
+│  -rw-r--r--  2.0 unx     1062 b- defN 22-Mar-30 21:49 org/apache/maven/surefire/api/booter/Constants.class
+│  -rw-r--r--  2.0 unx     3059 b- defN 22-Mar-30 21:49 org/apache/maven/surefire/api/booter/DumpErrorSingleton.class
+│ @@ -161,8 +161,8 @@
+│  -rw-r--r--  2.0 unx     2185 b- defN 22-Mar-30 21:49 org/apache/maven/surefire/api/util/internal/ImmutableMap.class
+│  -rw-r--r--  2.0 unx     1447 b- defN 22-Mar-30 21:49 org/apache/maven/surefire/api/util/internal/ObjectUtils.class
+│  -rw-r--r--  2.0 unx     1601 b- defN 22-Mar-30 21:49 org/apache/maven/surefire/api/util/internal/StringUtils.class
+│  -rw-r--r--  2.0 unx     1130 b- defN 22-Mar-30 21:49 org/apache/maven/surefire/api/util/internal/TestClassMethodNameUtils.class
+│  -rw-r--r--  2.0 unx      360 b- defN 22-Mar-30 21:49 org/apache/maven/surefire/api/util/internal/WritableBufferedByteChannel.class
+│  -rw-r--r--  2.0 unx     3390 b- defN 22-Mar-30 21:49 META-INF/maven/org.apache.maven.surefire/surefire-api/pom.xml
+│  -rw-r--r--  2.0 unx       78 b- defN 22-Mar-30 21:49 META-INF/maven/org.apache.maven.surefire/surefire-api/pom.properties
+│ -166 files, 316664 bytes uncompressed, 134811 bytes compressed:  57.4%
+│ +166 files, 317517 bytes uncompressed, 134924 bytes compressed:  57.5%
+├── META-INF/DEPENDENCIES
+│ @@ -3,14 +3,22 @@
+│  // maven pom organized by organization.
+│  // ------------------------------------------------------------------
+│  
+│  SureFire API
+│  
+│  
+│  From: 'The Apache Software Foundation' (https://www.apache.org/)
+│ +  - Apache Commons IO (https://commons.apache.org/proper/commons-io/) commons-io:commons-io:jar:2.11.0
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Commons Compress (https://commons.apache.org/proper/commons-compress/) org.apache.commons:commons-compress:jar:1.21
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Commons Lang (https://commons.apache.org/proper/commons-lang/) org.apache.commons:commons-lang3:jar:3.12.0
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Maven Shared Utils (https://maven.apache.org/shared/maven-shared-utils/) org.apache.maven.shared:maven-shared-utils:jar:3.3.4
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - SureFire Logger API (https://maven.apache.org/surefire/surefire-logger-api/) org.apache.maven.surefire:surefire-logger-api:jar:3.0.0-M6
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Surefire Shared Utils (https://maven.apache.org/surefire/surefire-shared-utils/) org.apache.maven.surefire:surefire-shared-utils:jar:3.0.0-M6
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
