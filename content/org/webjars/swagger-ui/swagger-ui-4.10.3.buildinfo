@@ -1,0 +1,30 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Swagger UI
+group-id=org.webjars
+artifact-id=swagger-ui
+version=4.10.3
+
+# source information
+source.scm.uri=scm:git:https://github.com/webjars/swagger-ui.git
+source.scm.tag=swagger-ui-4.10.3
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=swagger-ui-4.10.3.pom
+outputs.0.length=6147
+outputs.0.checksums.sha512=ff79cb41e816648d874ef752a8b9aebe27e317121df5e4b4d147395dc2d920cbcc882afdc811213a2d60f992e1fb7387f31cda1758d892011cf456e37cf4fe77
+
+outputs.1.filename=swagger-ui-4.10.3.jar
+outputs.1.length=3662434
+outputs.1.checksums.sha512=f8829d6ad1d22bfe1ba4ae92640a024f1564730f2510f7d1c52bdb879b72fad0349adbca8ed14a7d76aa06b4789d1b628a95fb26e337083b920f1ee7bd65d178
