@@ -7,20 +7,23 @@
 
 Source code: [https://github.com/eclipse/transformer.git](https://github.com/eclipse/transformer.git)
 
-<details><summary>This project defines 4 artifacts:</summary>
+<details><summary>This project defines 6 artifacts:</summary>
 
 * [org.eclipse.transformer:org.eclipse.transformer](https://search.maven.org/artifact/org.eclipse.transformer/org.eclipse.transformer/)
 * [org.eclipse.transformer:org.eclipse.transformer.cli](https://search.maven.org/artifact/org.eclipse.transformer/org.eclipse.transformer.cli/)
+* [org.eclipse.transformer:org.eclipse.transformer.jakarta](https://search.maven.org/artifact/org.eclipse.transformer/org.eclipse.transformer.jakarta/)
 * [org.eclipse.transformer:org.eclipse.transformer.maven](https://search.maven.org/artifact/org.eclipse.transformer/org.eclipse.transformer.maven/)
 * [org.eclipse.transformer:org.eclipse.transformer.parent](https://search.maven.org/artifact/org.eclipse.transformer/org.eclipse.transformer.parent/)
+* [org.eclipse.transformer:transformer-maven-plugin](https://search.maven.org/artifact/org.eclipse.transformer/transformer-maven-plugin/)
 </details>
 
-rebuilding **1 releases** of org.eclipse.transformer:org.eclipse.transformer.parent:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **2 releases** of org.eclipse.transformer:org.eclipse.transformer.parent:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.4.0](https://search.maven.org/artifact/org.eclipse.transformer/org.eclipse.transformer.parent/0.4.0/pom) | [mvn jdk17](eclipse-transformer-0.4.0.buildspec) | [result](transformer-maven-plugin-0.4.0.buildinfo): [14 :heavy_check_mark: ](transformer-maven-plugin-0.4.0.buildcompare) | 961K |
 | [0.2.0](https://search.maven.org/artifact/org.eclipse.transformer/org.eclipse.transformer.parent/0.2.0/pom) | [mvn jdk8](eclipse-transformer-0.2.0.buildspec) | [result](org.eclipse.transformer.parent-0.2.0.buildinfo): [11 :heavy_check_mark: ](org.eclipse.transformer.parent-0.2.0.buildcompare) | 829K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

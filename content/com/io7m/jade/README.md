@@ -23,6 +23,7 @@ rebuilding **1 releases** of com.io7m.jade:com.io7m.jade:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.2](https://search.maven.org/artifact/com.io7m.jade/com.io7m.jade/1.0.2/pom) | | | |
 | [1.0.1](https://search.maven.org/artifact/com.io7m.jade/com.io7m.jade/1.0.1/pom) | [mvn jdk11](com.io7m.jade-1.0.1.buildspec) | [result](com.io7m.jade.documentation-1.0.1.buildinfo): [18 :heavy_check_mark:  5 :warning:](com.io7m.jade.documentation-1.0.1.buildcompare) | 580K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
