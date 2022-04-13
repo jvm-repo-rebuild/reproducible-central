@@ -1,0 +1,19 @@
+groupId=org.apache.aries.cdi
+artifactId=org.apache.aries.cdi
+version=1.1.5
+
+display=${groupId}
+
+gitRepo=https://github.com/apache/aries-cdi.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
