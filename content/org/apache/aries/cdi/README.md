@@ -29,12 +29,13 @@ Source code: [https://github.com/apache/aries-cdi.git](https://github.com/apache
 * [org.apache.aries.cdi:org.apache.aries.cdi.weld](https://search.maven.org/artifact/org.apache.aries.cdi/org.apache.aries.cdi.weld/)
 </details>
 
-rebuilding **1 releases** of org.apache.aries.cdi:org.apache.aries.cdi:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **2 releases** of org.apache.aries.cdi:org.apache.aries.cdi:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.1.5](https://search.maven.org/artifact/org.apache.aries.cdi/org.apache.aries.cdi/1.1.5/pom) | [mvn jdk8](aries-cdi-1.1.5.buildspec) | [result](org.apache.aries.cdi-1.1.5.buildinfo): [41 :heavy_check_mark: ](org.apache.aries.cdi-1.1.5.buildcompare) | 14M |
 | [1.1.4](https://search.maven.org/artifact/org.apache.aries.cdi/org.apache.aries.cdi/1.1.4/pom) | [mvn jdk8](aries-cdi-1.1.4.buildspec) | [result](org.apache.aries.cdi-1.1.4.buildinfo): [2 :heavy_check_mark:  30 :warning:](org.apache.aries.cdi-1.1.4.buildcompare) [:mag:](org.apache.aries.cdi-1.1.4.diffoscope) | 14M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
