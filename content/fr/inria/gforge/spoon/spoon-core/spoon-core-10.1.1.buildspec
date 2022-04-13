@@ -3,7 +3,7 @@
 # Central Repository coordinates for the Reference release
 groupId=fr.inria.gforge.spoon
 artifactId=spoon-core
-version=10.0.0
+version=10.1.1
 
 display=${groupId}:${artifactId}
 
