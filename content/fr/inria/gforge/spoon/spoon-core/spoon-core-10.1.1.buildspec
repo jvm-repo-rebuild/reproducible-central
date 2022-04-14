@@ -1,0 +1,31 @@
+# see instructions https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/BUILDSPEC.md
+
+# Central Repository coordinates for the Reference release
+groupId=fr.inria.gforge.spoon
+artifactId=spoon-core
+version=10.1.1
+
+display=${groupId}:${artifactId}
+
+# Source code
+gitRepo=https://github.com/inria/spoon.git
+gitTag=${artifactId}-${version}
+#sourceDistribution=https://archive.apache.org/dist/maven/scm/${artifactId}-${version}-source-release.zip
+#sourcePath=${artifactId}-${version}
+#sourceRmFiles=DEPENDENCIES LICENSE NOTICE
+
+# Rebuild environment prerequisites
+tool=mvn
+jdk=11
+newline=lf
+# or newline=crlf for Windows
+
+# Rebuild command
+command="mvn clean package -DskipDepClean -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+# Location of the buildinfo file generated during rebuild to record output fingerprints
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+# if the release is finally not reproducible, link to an issue tracker entry if one was created or diffoscope result
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
