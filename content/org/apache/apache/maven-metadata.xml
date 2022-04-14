@@ -3,8 +3,8 @@
   <groupId>org.apache</groupId>
   <artifactId>apache</artifactId>
   <versioning>
-    <latest>25</latest>
-    <release>25</release>
+    <latest>26</latest>
+    <release>26</release>
     <versions>
       <version>1</version>
       <version>2</version>
@@ -31,7 +31,8 @@
       <version>23</version>
       <version>24</version>
       <version>25</version>
+      <version>26</version>
     </versions>
-    <lastUpdated>20220221073646</lastUpdated>
+    <lastUpdated>20220413203625</lastUpdated>
   </versioning>
 </metadata>
