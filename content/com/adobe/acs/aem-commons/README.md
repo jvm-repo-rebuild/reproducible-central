@@ -23,6 +23,7 @@ rebuilding **1 releases** of com.adobe.acs:acs-aem-commons:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [5.3.0](https://search.maven.org/artifact/com.adobe.acs/acs-aem-commons/5.3.0/pom) | | | |
 | [5.2.0](https://search.maven.org/artifact/com.adobe.acs/acs-aem-commons/5.2.0/pom) | [mvn jdk8](acs-aem-commons-5.2.0.buildspec) | [result](acs-aem-commons-5.2.0.buildinfo): [9 :heavy_check_mark:  11 :warning:](acs-aem-commons-5.2.0.buildcompare) [:mag:](acs-aem-commons-5.2.0.diffoscope) | 112M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
