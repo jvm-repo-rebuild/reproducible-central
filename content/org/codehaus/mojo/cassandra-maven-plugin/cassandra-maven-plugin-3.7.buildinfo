@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Mojo's Cassandra Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=cassandra-maven-plugin
+version=3.7
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/cassandra-maven-plugin.git
+source.scm.tag=cassandra-maven-plugin-3.7
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=2.2.1
+
+# output
+
+outputs.0.filename=cassandra-maven-plugin-3.7.pom
+outputs.0.length=15922
+outputs.0.checksums.sha512=a11829de44d7ad2caccf260bc40b01f8aef40258976759c454e53830114873cd4fe325ca2387eae1989c1c88928a61fb37c520feef6641c9b4b83eb12b7d9d09
+
+outputs.1.filename=cassandra-maven-plugin-3.7.jar
+outputs.1.length=90761
+outputs.1.checksums.sha512=f4291aa934a3e9146b651f9da21247d9367f408180d5b193a10c3a1e3d8b8ba6bc5bd57e9d0e28fb6f41f981549226c37d32367e80f3c1b2b8f00efeff70fd65
+
+outputs.2.filename=cassandra-maven-plugin-3.7-source-release.zip
+outputs.2.length=95311
+outputs.2.checksums.sha512=a9c66678e8f3ed5a256350987ed479d7fa59166888f7247ac75ab0ae05ea88d6f6a70f0e5f60ccdeecf5ff32b51e7af11253861f8321f7319962d95055b7c0eb
+
+outputs.3.filename=cassandra-maven-plugin-3.7-sources.jar
+outputs.3.length=60459
+outputs.3.checksums.sha512=cb9ace4d85434b098dce2010a03c07006961321040fe2be6711eaa7016ff4c533d63e0945aef8fb9c493362be84192bab5aa943be4fe1f2361144937c82bc781

@@ -1,0 +1,7 @@
+version=3.7
+ok=4
+ko=0
+okFiles="cassandra-maven-plugin-3.7.pom cassandra-maven-plugin-3.7.jar cassandra-maven-plugin-3.7-source-release.zip cassandra-maven-plugin-3.7-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
