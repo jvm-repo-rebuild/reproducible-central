@@ -17,13 +17,13 @@ Source code: [https://github.com/Convex-Dev/convex.git](https://github.com/Conve
 * [world.convex:convex-peer](https://search.maven.org/artifact/world.convex/convex-peer/)
 </details>
 
-rebuilding **4 releases** of world.convex:convex:
+rebuilding **5 releases** of world.convex:convex:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:):
+- 5 had issues (some unreproducible artifacts :warning:):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.7.5](https://search.maven.org/artifact/world.convex/convex/0.7.5/pom) | | | |
+| [0.7.5](https://search.maven.org/artifact/world.convex/convex/0.7.5/pom) | [mvn jdk16 w](convex-0.7.5.buildspec) | :x: |  |
 | [0.7.4](https://search.maven.org/artifact/world.convex/convex/0.7.4/pom) | [mvn jdk16 w](convex-0.7.4.buildspec) | [result](convex-0.7.4.buildinfo): [17 :heavy_check_mark:  1 :warning:](convex-0.7.4.buildcompare) [:mag:](convex-0.7.4.diffoscope) | 49M |
 | [0.7.3](https://search.maven.org/artifact/world.convex/convex/0.7.3/pom) | [mvn jdk16 w](convex-0.7.3.buildspec) | [result](convex-0.7.3.buildinfo): [6 :heavy_check_mark:  12 :warning:](convex-0.7.3.buildcompare) [:mag:](convex-0.7.3.diffoscope) | 49M |
 | [0.7.2](https://search.maven.org/artifact/world.convex/convex/0.7.2/pom) | [mvn jdk16 w](convex-0.7.2.buildspec) | [result](convex-0.7.2.buildinfo): [6 :heavy_check_mark:  12 :warning:](convex-0.7.2.buildcompare) [:mag:](convex-0.7.2.diffoscope) [:memo:](https://github.com/Convex-Dev/convex/pull/348) | 49M |
