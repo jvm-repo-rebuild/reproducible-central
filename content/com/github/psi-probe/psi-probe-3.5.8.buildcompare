@@ -1,0 +1,29 @@
+version=3.5.8
+ok=7
+ko=22
+okFiles="psi-probe-3.5.8.pom psi-probe-core-3.5.8.pom psi-probe-rest-3.5.8.pom psi-probe-tomcat7-3.5.8.pom psi-probe-tomcat85-3.5.8.pom psi-probe-tomcat9-3.5.8.pom psi-probe-web-3.5.8.pom"
+koFiles="psi-probe-core-3.5.8.jar psi-probe-core-3.5.8-tests.jar psi-probe-core-3.5.8-sources.jar psi-probe-core-3.5.8-test-sources.jar psi-probe-rest-3.5.8.jar psi-probe-rest-3.5.8-sources.jar psi-probe-tomcat7-3.5.8.jar psi-probe-tomcat7-3.5.8-tests.jar psi-probe-tomcat7-3.5.8-sources.jar psi-probe-tomcat7-3.5.8-test-sources.jar psi-probe-tomcat85-3.5.8.jar psi-probe-tomcat85-3.5.8-tests.jar psi-probe-tomcat85-3.5.8-sources.jar psi-probe-tomcat85-3.5.8-test-sources.jar psi-probe-tomcat9-3.5.8.jar psi-probe-tomcat9-3.5.8-tests.jar psi-probe-tomcat9-3.5.8-sources.jar psi-probe-tomcat9-3.5.8-test-sources.jar psi-probe-web-3.5.8.war psi-probe-web-3.5.8-tests.jar psi-probe-web-3.5.8-sources.jar psi-probe-web-3.5.8-test-sources.jar"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/psi-probe-core-3.5.8.jar psi-probe-core/target/psi-probe-core-3.5.8.jar
+# diffoscope target/reference/psi-probe-core-3.5.8-tests.jar psi-probe-core/target/psi-probe-core-3.5.8-tests.jar
+# diffoscope target/reference/psi-probe-core-3.5.8-sources.jar psi-probe-core/target/psi-probe-core-3.5.8-sources.jar
+# diffoscope target/reference/psi-probe-core-3.5.8-test-sources.jar psi-probe-core/target/psi-probe-core-3.5.8-test-sources.jar
+# diffoscope target/reference/psi-probe-rest-3.5.8.jar psi-probe-rest/target/psi-probe-rest-3.5.8.jar
+# diffoscope target/reference/psi-probe-rest-3.5.8-sources.jar psi-probe-rest/target/psi-probe-rest-3.5.8-sources.jar
+# diffoscope target/reference/psi-probe-tomcat7-3.5.8.jar psi-probe-tomcat7/target/psi-probe-tomcat7-3.5.8.jar
+# diffoscope target/reference/psi-probe-tomcat7-3.5.8-tests.jar psi-probe-tomcat7/target/psi-probe-tomcat7-3.5.8-tests.jar
+# diffoscope target/reference/psi-probe-tomcat7-3.5.8-sources.jar psi-probe-tomcat7/target/psi-probe-tomcat7-3.5.8-sources.jar
+# diffoscope target/reference/psi-probe-tomcat7-3.5.8-test-sources.jar psi-probe-tomcat7/target/psi-probe-tomcat7-3.5.8-test-sources.jar
+# diffoscope target/reference/psi-probe-tomcat85-3.5.8.jar psi-probe-tomcat85/target/psi-probe-tomcat85-3.5.8.jar
+# diffoscope target/reference/psi-probe-tomcat85-3.5.8-tests.jar psi-probe-tomcat85/target/psi-probe-tomcat85-3.5.8-tests.jar
+# diffoscope target/reference/psi-probe-tomcat85-3.5.8-sources.jar psi-probe-tomcat85/target/psi-probe-tomcat85-3.5.8-sources.jar
+# diffoscope target/reference/psi-probe-tomcat85-3.5.8-test-sources.jar psi-probe-tomcat85/target/psi-probe-tomcat85-3.5.8-test-sources.jar
+# diffoscope target/reference/psi-probe-tomcat9-3.5.8.jar psi-probe-tomcat9/target/psi-probe-tomcat9-3.5.8.jar
+# diffoscope target/reference/psi-probe-tomcat9-3.5.8-tests.jar psi-probe-tomcat9/target/psi-probe-tomcat9-3.5.8-tests.jar
+# diffoscope target/reference/psi-probe-tomcat9-3.5.8-sources.jar psi-probe-tomcat9/target/psi-probe-tomcat9-3.5.8-sources.jar
+# diffoscope target/reference/psi-probe-tomcat9-3.5.8-test-sources.jar psi-probe-tomcat9/target/psi-probe-tomcat9-3.5.8-test-sources.jar
+# diffoscope target/reference/psi-probe-web-3.5.8.war psi-probe-web/target/probe.war
+# diffoscope target/reference/psi-probe-web-3.5.8-tests.jar psi-probe-web/target/probe-tests.jar
+# diffoscope target/reference/psi-probe-web-3.5.8-sources.jar psi-probe-web/target/probe-sources.jar
+# diffoscope target/reference/psi-probe-web-3.5.8-test-sources.jar psi-probe-web/target/probe-test-sources.jar

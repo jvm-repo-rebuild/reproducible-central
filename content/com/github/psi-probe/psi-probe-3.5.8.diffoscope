@@ -1,0 +1,80 @@
+target/reference/psi-probe-core-3.5.8.jar psi-probe-core/target/psi-probe-core-3.5.8.jar
+--- target/reference/psi-probe-core-3.5.8.jar
++++ psi-probe-core/target/psi-probe-core-3.5.8.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 508888 bytes, number of entries: 414
+│ +Zip file size: 508890 bytes, number of entries: 414
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-17 22:10 META-INF/
+│ --rw-r--r--  2.0 unx      673 b- defN 22-Apr-17 22:10 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx      689 b- defN 22-Apr-17 22:10 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-17 22:10 psiprobe/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-17 22:10 psiprobe/beans/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-17 22:10 psiprobe/beans/accessors/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-17 22:10 psiprobe/beans/stats/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-17 22:10 psiprobe/beans/stats/collectors/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-17 22:10 psiprobe/beans/stats/listeners/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-17 22:10 psiprobe/beans/stats/providers/
+│ @@ -409,8 +409,8 @@
+│  -rw-r--r--  2.0 unx      120 b- defN 22-Apr-17 22:10 psiprobe/tools/package-info.class
+│  -rw-r--r--  2.0 unx     2407 b- defN 22-Apr-17 22:10 psiprobe/tools/url/UrlParser.class
+│  -rw-r--r--  2.0 unx      124 b- defN 22-Apr-17 22:10 psiprobe/tools/url/package-info.class
+│  -rw-r--r--  2.0 unx     1971 b- defN 22-Apr-17 22:10 stats.properties
+│  -rw-r--r--  2.0 unx      487 b- defN 22-Apr-17 22:10 version.properties
+│  -rw-r--r--  2.0 unx    10209 b- defN 22-Apr-17 22:10 META-INF/maven/com.github.psi-probe/psi-probe-core/pom.xml
+│  -rw-r--r--  2.0 unx       72 b- defN 22-Apr-17 22:10 META-INF/maven/com.github.psi-probe/psi-probe-core/pom.properties
+│ -414 files, 981064 bytes uncompressed, 438838 bytes compressed:  55.3%
+│ +414 files, 981080 bytes uncompressed, 438840 bytes compressed:  55.3%
+├── META-INF/MANIFEST.MF
+│ @@ -1,23 +1,23 @@
+│  Manifest-Version: 1.0
+
+│  Created-By: Maven JAR Plugin 3.2.2
+
+│  Build-Jdk-Spec: 17
+
+│  Build-Tool: Apache Maven 3.8.5 (3599d3414f046de2324203b78ddcf9b5e4388aa0
+
+│   )
+
+│  Build-Jdk: 17.0.2 (Oracle Corporation)
+
+│ -Build-Os: Windows 10 (10.0; amd64)
+
+│ +Build-Os: Linux (5.10.104-linuxkit; amd64)
+
+│  Specification-Title: psi-probe-core
+
+│  Specification-Version: 3.5
+
+│  Specification-Vendor: psi-probe
+
+│  Implementation-Title: psi-probe-core
+
+│  Implementation-Version: 3.5.8
+
+│  Implementation-Vendor: psi-probe
+
+│ -Build-Time: 2022-04-18 00:30:29
+
+│ +Build-Time: 2022-04-19 08:38:21
+
+│  Copyright: 2022
+
+│  Git-Revision: c9cd8a53fbc5afda6d08186322efdaaedd7661f9
+
+│  Os-Arch: amd64
+
+│ -Os-Name: Windows 10
+
+│ -Os-Version: 10.0
+
+│ +Os-Name: Linux
+
+│ +Os-Version: 5.10.104-linuxkit
+
+│  X-Compile-Release-JDK: 8
+
+│  X-Compile-Source-JDK: 8
+
+│  X-Compile-Target-JDK: 8
