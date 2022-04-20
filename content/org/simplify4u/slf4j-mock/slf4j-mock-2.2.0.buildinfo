@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=SLF4J mock
+group-id=org.simplify4u
+artifact-id=slf4j-mock
+version=2.2.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:s4u/slf4j-mock.git
+source.scm.tag=v2.2.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=slf4j-mock-2.2.0.pom
+outputs.0.length=8443
+outputs.0.checksums.sha512=4224dbf8bd5d0307a4298b19294251138c4a001648e4d227d5d67390e818e38155903367a87e84238e4841717b5ad8496050037c7490be284144b10953a2cf89
+
+outputs.1.filename=slf4j-mock-2.2.0.jar
+outputs.1.length=30175
+outputs.1.checksums.sha512=91f13f7cdff5d1e60f1727467ae5686b9dbedd7d5d39ca2ea30b2ba780665e7a33de4b57d1a12481f54d003f707cca3936bc0a469914abc1cac8cff81d83a71b
+
+outputs.2.filename=slf4j-mock-2.2.0-sources.jar
+outputs.2.length=24203
+outputs.2.checksums.sha512=5587025cb4ccc8e7768f81369eccfacde35dafa3d3bd15f30ed7661266e9002ff12773431b1d60dced289665bde198b34c012038a50f939bab0e8118001a0a92
