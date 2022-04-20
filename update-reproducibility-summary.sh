@@ -66,7 +66,7 @@ do
         projectGa=$(cat $dir/*.buildinfo | grep coordinates | cut -d = -f 2 | sort -u | wc -l)
         if [ $projectGa -gt 1 ]
         then
-          echo "<details><summary>This project defines $projectGa artifacts:</summary>" >> $readme
+          echo "<details><summary>This project defines $projectGa modules:</summary>" >> $readme
           echo >> $readme
           for ga in $(cat $dir/*.buildinfo | grep coordinates | cut -d = -f 2 | sort -u)
           do
