@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/maven-release.git](https://github.com/apache/maven-release.git)
 
-<details><summary>This project defines 6 artifacts:</summary>
+<details><summary>This project defines 6 modules:</summary>
 
 * [org.apache.maven.plugins:maven-release-plugin](https://search.maven.org/artifact/org.apache.maven.plugins/maven-release-plugin/)
 * [org.apache.maven.release:maven-release](https://search.maven.org/artifact/org.apache.maven.release/maven-release/)

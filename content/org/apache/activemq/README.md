@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/activemq.git](https://github.com/apache/activemq.git)
 
-<details><summary>This project defines 42 artifacts:</summary>
+<details><summary>This project defines 42 modules:</summary>
 
 * [org.apache.activemq.tooling:activemq-junit](https://search.maven.org/artifact/org.apache.activemq.tooling/activemq-junit/)
 * [org.apache.activemq.tooling:activemq-maven-plugin](https://search.maven.org/artifact/org.apache.activemq.tooling/activemq-maven-plugin/)

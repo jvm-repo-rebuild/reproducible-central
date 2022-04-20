@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/tika.git](https://github.com/apache/tika.git)
 
-<details><summary>This project defines 89 artifacts:</summary>
+<details><summary>This project defines 89 modules:</summary>
 
 * [org.apache.tika:tika](https://search.maven.org/artifact/org.apache.tika/tika/)
 * [org.apache.tika:tika-age-recogniser](https://search.maven.org/artifact/org.apache.tika/tika-age-recogniser/)

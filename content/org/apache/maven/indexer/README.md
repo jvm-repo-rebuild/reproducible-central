@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/maven-indexer.git](https://github.com/apache/maven-indexer.git)
 
-<details><summary>This project defines 7 artifacts:</summary>
+<details><summary>This project defines 7 modules:</summary>
 
 * [org.apache.maven.indexer:indexer-cli](https://search.maven.org/artifact/org.apache.maven.indexer/indexer-cli/)
 * [org.apache.maven.indexer:indexer-core](https://search.maven.org/artifact/org.apache.maven.indexer/indexer-core/)

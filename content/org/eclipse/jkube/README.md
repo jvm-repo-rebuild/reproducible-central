@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/eclipse/jkube.git](https://github.com/eclipse/jkube.git)
 
-<details><summary>This project defines 45 artifacts:</summary>
+<details><summary>This project defines 45 modules:</summary>
 
 * [org.eclipse.jkube.kubernetes:org.eclipse.jkube.kubernetes.gradle.plugin](https://search.maven.org/artifact/org.eclipse.jkube.kubernetes/org.eclipse.jkube.kubernetes.gradle.plugin/)
 * [org.eclipse.jkube.openshift:org.eclipse.jkube.openshift.gradle.plugin](https://search.maven.org/artifact/org.eclipse.jkube.openshift/org.eclipse.jkube.openshift.gradle.plugin/)

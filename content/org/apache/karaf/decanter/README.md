@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/karaf-decanter.git](https://github.com/apache/karaf-decanter.git)
 
-<details><summary>This project defines 75 artifacts:</summary>
+<details><summary>This project defines 75 modules:</summary>
 
 * [org.apache.karaf.decanter.alerting:alerter](https://search.maven.org/artifact/org.apache.karaf.decanter.alerting/alerter/)
 * [org.apache.karaf.decanter.alerting:org.apache.karaf.decanter.alerting.camel](https://search.maven.org/artifact/org.apache.karaf.decanter.alerting/org.apache.karaf.decanter.alerting.camel/)

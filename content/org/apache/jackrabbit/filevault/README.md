@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/jackrabbit-filevault.git](https://github.com/apache/jackrabbit-filevault.git)
 
-<details><summary>This project defines 14 artifacts:</summary>
+<details><summary>This project defines 14 modules:</summary>
 
 * [org.apache.jackrabbit.vault:jackrabbit-filevault](https://search.maven.org/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/)
 * [org.apache.jackrabbit.vault:org.apache.jackrabbit.vault](https://search.maven.org/artifact/org.apache.jackrabbit.vault/org.apache.jackrabbit.vault/)

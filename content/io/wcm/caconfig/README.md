@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/wcm-io/wcm-io-caconfig.git](https://github.com/wcm-io/wcm-io-caconfig.git)
 
-<details><summary>This project defines 3 artifacts:</summary>
+<details><summary>This project defines 3 modules:</summary>
 
 * [io.wcm:io.wcm.caconfig.editor](https://search.maven.org/artifact/io.wcm/io.wcm.caconfig.editor/)
 * [io.wcm:io.wcm.caconfig.editor.package](https://search.maven.org/artifact/io.wcm/io.wcm.caconfig.editor.package/)

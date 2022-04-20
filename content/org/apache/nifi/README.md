@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi.git)
 
-<details><summary>This project defines 646 artifacts:</summary>
+<details><summary>This project defines 646 modules:</summary>
 
 * [org.apache.nifi.minifi:minifi](https://search.maven.org/artifact/org.apache.nifi.minifi/minifi/)
 * [org.apache.nifi.minifi:minifi-assembly](https://search.maven.org/artifact/org.apache.nifi.minifi/minifi-assembly/)

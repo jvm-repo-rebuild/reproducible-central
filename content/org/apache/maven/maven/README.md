@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/maven-jxr.git](https://github.com/apache/maven-jxr.git)
 
-<details><summary>This project defines 15 artifacts:</summary>
+<details><summary>This project defines 15 modules:</summary>
 
 * [org.apache.maven:apache-maven](https://search.maven.org/artifact/org.apache.maven/apache-maven/)
 * [org.apache.maven:maven](https://search.maven.org/artifact/org.apache.maven/maven/)

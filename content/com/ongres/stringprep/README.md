@@ -7,7 +7,7 @@
 
 Source code: [https://gitlab.com/ongresinc/stringprep.git](https://gitlab.com/ongresinc/stringprep.git)
 
-<details><summary>This project defines 4 artifacts:</summary>
+<details><summary>This project defines 4 modules:</summary>
 
 * [com.ongres.stringprep:nameprep](https://search.maven.org/artifact/com.ongres.stringprep/nameprep/)
 * [com.ongres.stringprep:parent](https://search.maven.org/artifact/com.ongres.stringprep/parent/)

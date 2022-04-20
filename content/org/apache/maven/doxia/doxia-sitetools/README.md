@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/maven-doxia-sitetools.git](https://github.com/apache/maven-doxia-sitetools.git)
 
-<details><summary>This project defines 6 artifacts:</summary>
+<details><summary>This project defines 6 modules:</summary>
 
 * [org.apache.maven.doxia:doxia-decoration-model](https://search.maven.org/artifact/org.apache.maven.doxia/doxia-decoration-model/)
 * [org.apache.maven.doxia:doxia-doc-renderer](https://search.maven.org/artifact/org.apache.maven.doxia/doxia-doc-renderer/)

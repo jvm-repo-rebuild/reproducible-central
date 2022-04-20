@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/osgi/osgi-test.git](https://github.com/osgi/osgi-test.git)
 
-<details><summary>This project defines 10 artifacts:</summary>
+<details><summary>This project defines 10 modules:</summary>
 
 * [org.osgi:org.osgi.test.assertj.framework](https://search.maven.org/artifact/org.osgi/org.osgi.test.assertj.framework/)
 * [org.osgi:org.osgi.test.assertj.log](https://search.maven.org/artifact/org.osgi/org.osgi.test.assertj.log/)

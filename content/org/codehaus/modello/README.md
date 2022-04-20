@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/codehaus-plexus/modello.git](https://github.com/codehaus-plexus/modello.git)
 
-<details><summary>This project defines 18 artifacts:</summary>
+<details><summary>This project defines 18 modules:</summary>
 
 * [org.codehaus.modello:modello](https://search.maven.org/artifact/org.codehaus.modello/modello/)
 * [org.codehaus.modello:modello-core](https://search.maven.org/artifact/org.codehaus.modello/modello-core/)

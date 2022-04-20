@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/mojohaus/animal-sniffer.git](https://github.com/mojohaus/animal-sniffer.git)
 
-<details><summary>This project defines 7 artifacts:</summary>
+<details><summary>This project defines 7 modules:</summary>
 
 * [org.codehaus.mojo:animal-sniffer](https://search.maven.org/artifact/org.codehaus.mojo/animal-sniffer/)
 * [org.codehaus.mojo:animal-sniffer-annotations](https://search.maven.org/artifact/org.codehaus.mojo/animal-sniffer-annotations/)

@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/struts.git](https://github.com/apache/struts.git)
 
-<details><summary>This project defines 35 artifacts:</summary>
+<details><summary>This project defines 35 modules:</summary>
 
 * [org.apache.struts:struts2-apps](https://search.maven.org/artifact/org.apache.struts/struts2-apps/)
 * [org.apache.struts:struts2-assembly](https://search.maven.org/artifact/org.apache.struts/struts2-assembly/)

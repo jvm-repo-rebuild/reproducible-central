@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/eclipse/transformer.git](https://github.com/eclipse/transformer.git)
 
-<details><summary>This project defines 6 artifacts:</summary>
+<details><summary>This project defines 6 modules:</summary>
 
 * [org.eclipse.transformer:org.eclipse.transformer](https://search.maven.org/artifact/org.eclipse.transformer/org.eclipse.transformer/)
 * [org.eclipse.transformer:org.eclipse.transformer.cli](https://search.maven.org/artifact/org.eclipse.transformer/org.eclipse.transformer.cli/)

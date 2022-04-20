@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/codehaus-plexus/plexus-interactivity.git](https://github.com/codehaus-plexus/plexus-interactivity.git)
 
-<details><summary>This project defines 3 artifacts:</summary>
+<details><summary>This project defines 3 modules:</summary>
 
 * [org.codehaus.plexus:plexus-interactivity](https://search.maven.org/artifact/org.codehaus.plexus/plexus-interactivity/)
 * [org.codehaus.plexus:plexus-interactivity-api](https://search.maven.org/artifact/org.codehaus.plexus/plexus-interactivity-api/)

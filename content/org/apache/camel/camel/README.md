@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/camel.git](https://github.com/apache/camel.git)
 
-<details><summary>This project defines 557 artifacts:</summary>
+<details><summary>This project defines 557 modules:</summary>
 
 * [org.apache.camel.archetypes:camel-archetype-api-component](https://search.maven.org/artifact/org.apache.camel.archetypes/camel-archetype-api-component/)
 * [org.apache.camel.archetypes:camel-archetype-cdi](https://search.maven.org/artifact/org.apache.camel.archetypes/camel-archetype-cdi/)

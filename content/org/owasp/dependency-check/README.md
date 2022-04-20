@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/jeremylong/DependencyCheck](https://github.com/jeremylong/DependencyCheck)
 
-<details><summary>This project defines 7 artifacts:</summary>
+<details><summary>This project defines 7 modules:</summary>
 
 * [org.owasp:dependency-check-ant](https://search.maven.org/artifact/org.owasp/dependency-check-ant/)
 * [org.owasp:dependency-check-cli](https://search.maven.org/artifact/org.owasp/dependency-check-cli/)

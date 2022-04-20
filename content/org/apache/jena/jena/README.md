@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/jena.git](https://github.com/apache/jena.git)
 
-<details><summary>This project defines 56 artifacts:</summary>
+<details><summary>This project defines 56 modules:</summary>
 
 * [org.apache.jena:apache-jena](https://search.maven.org/artifact/org.apache.jena/apache-jena/)
 * [org.apache.jena:apache-jena-fuseki](https://search.maven.org/artifact/org.apache.jena/apache-jena-fuseki/)

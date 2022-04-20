@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dubbo.git)
 
-<details><summary>This project defines 110 artifacts:</summary>
+<details><summary>This project defines 110 modules:</summary>
 
 * [org.apache.dubbo:dubbo](https://search.maven.org/artifact/org.apache.dubbo/dubbo/)
 * [org.apache.dubbo:dubbo-auth](https://search.maven.org/artifact/org.apache.dubbo/dubbo-auth/)

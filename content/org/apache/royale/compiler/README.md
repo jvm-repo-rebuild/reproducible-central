@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/royale-compiler.git](https://github.com/apache/royale-compiler.git)
 
-<details><summary>This project defines 12 artifacts:</summary>
+<details><summary>This project defines 12 modules:</summary>
 
 * [org.apache.royale.compiler:compiler](https://search.maven.org/artifact/org.apache.royale.compiler/compiler/)
 * [org.apache.royale.compiler:compiler-common](https://search.maven.org/artifact/org.apache.royale.compiler/compiler-common/)

@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/maven-parent.git](https://github.com/apache/maven-parent.git)
 
-<details><summary>This project defines 7 artifacts:</summary>
+<details><summary>This project defines 7 modules:</summary>
 
 * [org.apache.apache.resources:apache-resource-bundles](https://search.maven.org/artifact/org.apache.apache.resources/apache-resource-bundles/)
 * [org.apache.maven.doxia:doxia-tools](https://search.maven.org/artifact/org.apache.maven.doxia/doxia-tools/)

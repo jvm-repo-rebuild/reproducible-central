@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/maven-plugin-tools.git](https://github.com/apache/maven-plugin-tools.git)
 
-<details><summary>This project defines 13 artifacts:</summary>
+<details><summary>This project defines 13 modules:</summary>
 
 * [org.apache.maven.plugin-tools:maven-plugin-annotations](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-plugin-annotations/)
 * [org.apache.maven.plugin-tools:maven-plugin-tools](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/)

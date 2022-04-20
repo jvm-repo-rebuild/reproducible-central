@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/pmd/pmd.git](https://github.com/pmd/pmd.git)
 
-<details><summary>This project defines 36 artifacts:</summary>
+<details><summary>This project defines 36 modules:</summary>
 
 * [net.sourceforge.pmd:pmd](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/)
 * [net.sourceforge.pmd:pmd-apex](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-apex/)

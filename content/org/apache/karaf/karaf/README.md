@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/karaf.git](https://github.com/apache/karaf.git)
 
-<details><summary>This project defines 245 artifacts:</summary>
+<details><summary>This project defines 245 modules:</summary>
 
 * [org.apache.karaf.archetypes:karaf-assembly-archetype](https://search.maven.org/artifact/org.apache.karaf.archetypes/karaf-assembly-archetype/)
 * [org.apache.karaf.archetypes:karaf-blueprint-archetype](https://search.maven.org/artifact/org.apache.karaf.archetypes/karaf-blueprint-archetype/)

@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/plc4x-build-tools.git](https://github.com/apache/plc4x-build-tools.git)
 
-<details><summary>This project defines 5 artifacts:</summary>
+<details><summary>This project defines 5 modules:</summary>
 
 * [org.apache.plc4x.plugins:plc4x-code-generation-language-base](https://search.maven.org/artifact/org.apache.plc4x.plugins/plc4x-code-generation-language-base/)
 * [org.apache.plc4x.plugins:plc4x-code-generation-protocol-base](https://search.maven.org/artifact/org.apache.plc4x.plugins/plc4x-code-generation-protocol-base/)

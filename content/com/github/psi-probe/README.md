@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/psi-probe/psi-probe.git](https://github.com/psi-probe/psi-probe.git)
 
-<details><summary>This project defines 7 artifacts:</summary>
+<details><summary>This project defines 7 modules:</summary>
 
 * [com.github.psi-probe:psi-probe](https://search.maven.org/artifact/com.github.psi-probe/psi-probe/)
 * [com.github.psi-probe:psi-probe-core](https://search.maven.org/artifact/com.github.psi-probe/psi-probe-core/)

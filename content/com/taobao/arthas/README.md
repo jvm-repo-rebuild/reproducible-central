@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/alibaba/arthas.git](https://github.com/alibaba/arthas.git)
 
-<details><summary>This project defines 19 artifacts:</summary>
+<details><summary>This project defines 19 modules:</summary>
 
 * [com.taobao.arthas:arthas-agent](https://search.maven.org/artifact/com.taobao.arthas/arthas-agent/)
 * [com.taobao.arthas:arthas-agent-attach](https://search.maven.org/artifact/com.taobao.arthas/arthas-agent-attach/)

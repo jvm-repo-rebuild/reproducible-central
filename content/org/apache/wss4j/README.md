@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/ws-wss4j.git](https://github.com/apache/ws-wss4j.git)
 
-<details><summary>This project defines 10 artifacts:</summary>
+<details><summary>This project defines 10 modules:</summary>
 
 * [org.apache.wss4j:wss4j](https://search.maven.org/artifact/org.apache.wss4j/wss4j/)
 * [org.apache.wss4j:wss4j-bindings](https://search.maven.org/artifact/org.apache.wss4j/wss4j-bindings/)

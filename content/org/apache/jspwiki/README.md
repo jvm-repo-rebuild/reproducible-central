@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/jspwiki.git](https://github.com/apache/jspwiki.git)
 
-<details><summary>This project defines 33 artifacts:</summary>
+<details><summary>This project defines 33 modules:</summary>
 
 * [org.apache.jspwiki.it:jspwiki-it-builder](https://search.maven.org/artifact/org.apache.jspwiki.it/jspwiki-it-builder/)
 * [org.apache.jspwiki.it:jspwiki-it-test-cma](https://search.maven.org/artifact/org.apache.jspwiki.it/jspwiki-it-test-cma/)

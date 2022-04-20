@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/maven-archetype.git](https://github.com/apache/maven-archetype.git)
 
-<details><summary>This project defines 7 artifacts:</summary>
+<details><summary>This project defines 7 modules:</summary>
 
 * [org.apache.maven.archetype:archetype-catalog](https://search.maven.org/artifact/org.apache.maven.archetype/archetype-catalog/)
 * [org.apache.maven.archetype:archetype-common](https://search.maven.org/artifact/org.apache.maven.archetype/archetype-common/)

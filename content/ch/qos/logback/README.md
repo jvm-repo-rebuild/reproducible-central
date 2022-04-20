@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/qos-ch/logback.git](https://github.com/qos-ch/logback.git)
 
-<details><summary>This project defines 6 artifacts:</summary>
+<details><summary>This project defines 6 modules:</summary>
 
 * [ch.qos.logback:logback-access](https://search.maven.org/artifact/ch.qos.logback/logback-access/)
 * [ch.qos.logback:logback-classic](https://search.maven.org/artifact/ch.qos.logback/logback-classic/)

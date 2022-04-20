@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/any23.git](https://github.com/apache/any23.git)
 
-<details><summary>This project defines 8 artifacts:</summary>
+<details><summary>This project defines 8 modules:</summary>
 
 * [org.apache.any23:apache-any23](https://search.maven.org/artifact/org.apache.any23/apache-any23/)
 * [org.apache.any23:apache-any23-api](https://search.maven.org/artifact/org.apache.any23/apache-any23-api/)

@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/tomitribe/transformer.git](https://github.com/tomitribe/transformer.git)
 
-<details><summary>This project defines 4 artifacts:</summary>
+<details><summary>This project defines 4 modules:</summary>
 
 * [org.tomitribe.transformer:org.eclipse.transformer](https://search.maven.org/artifact/org.tomitribe.transformer/org.eclipse.transformer/)
 * [org.tomitribe.transformer:org.eclipse.transformer.cli](https://search.maven.org/artifact/org.tomitribe.transformer/org.eclipse.transformer.cli/)

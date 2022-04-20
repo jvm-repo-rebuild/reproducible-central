@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/incubator-wayang.git](https://github.com/apache/incubator-wayang.git)
 
-<details><summary>This project defines 37 artifacts:</summary>
+<details><summary>This project defines 37 modules:</summary>
 
 * [org.apache.wayang:wayang](https://search.maven.org/artifact/org.apache.wayang/wayang/)
 * [org.apache.wayang:wayang-api](https://search.maven.org/artifact/org.apache.wayang/wayang-api/)

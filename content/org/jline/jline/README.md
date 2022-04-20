@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/jline/jline3.git](https://github.com/jline/jline3.git)
 
-<details><summary>This project defines 14 artifacts:</summary>
+<details><summary>This project defines 14 modules:</summary>
 
 * [org.jline:jline](https://search.maven.org/artifact/org.jline/jline/)
 * [org.jline:jline-builtins](https://search.maven.org/artifact/org.jline/jline-builtins/)

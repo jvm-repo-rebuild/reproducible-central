@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/bndtools/bnd](https://github.com/bndtools/bnd)
 
-<details><summary>This project defines 9 artifacts:</summary>
+<details><summary>This project defines 9 modules:</summary>
 
 * [biz.aQute.bnd:bnd-baseline-maven-plugin](https://search.maven.org/artifact/biz.aQute.bnd/bnd-baseline-maven-plugin/)
 * [biz.aQute.bnd:bnd-export-maven-plugin](https://search.maven.org/artifact/biz.aQute.bnd/bnd-export-maven-plugin/)

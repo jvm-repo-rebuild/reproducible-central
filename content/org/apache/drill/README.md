@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/drill.git](https://github.com/apache/drill.git)
 
-<details><summary>This project defines 54 artifacts:</summary>
+<details><summary>This project defines 54 modules:</summary>
 
 * [org.apache.drill.contrib.data:drill-contrib-data-parent](https://search.maven.org/artifact/org.apache.drill.contrib.data/drill-contrib-data-parent/)
 * [org.apache.drill.contrib.data:tpch-sample-data](https://search.maven.org/artifact/org.apache.drill.contrib.data/tpch-sample-data/)

@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/dropwizard/metrics.git](https://github.com/dropwizard/metrics.git)
 
-<details><summary>This project defines 30 artifacts:</summary>
+<details><summary>This project defines 30 modules:</summary>
 
 * [io.dropwizard.metrics:metrics-annotation](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-annotation/)
 * [io.dropwizard.metrics:metrics-bom](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-bom/)

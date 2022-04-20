@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/maven-doxia.git](https://github.com/apache/maven-doxia.git)
 
-<details><summary>This project defines 19 artifacts:</summary>
+<details><summary>This project defines 19 modules:</summary>
 
 * [org.apache.maven.doxia:doxia](https://search.maven.org/artifact/org.apache.maven.doxia/doxia/)
 * [org.apache.maven.doxia:doxia-core](https://search.maven.org/artifact/org.apache.maven.doxia/doxia-core/)

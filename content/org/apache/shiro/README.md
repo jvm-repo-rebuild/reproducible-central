@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/shiro.git](https://github.com/apache/shiro.git)
 
-<details><summary>This project defines 31 artifacts:</summary>
+<details><summary>This project defines 31 modules:</summary>
 
 * [org.apache.shiro.tools:shiro-tools](https://search.maven.org/artifact/org.apache.shiro.tools/shiro-tools/)
 * [org.apache.shiro.tools:shiro-tools-hasher](https://search.maven.org/artifact/org.apache.shiro.tools/shiro-tools-hasher/)

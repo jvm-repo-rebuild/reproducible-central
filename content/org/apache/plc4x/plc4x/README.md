@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/plc4x.git](https://github.com/apache/plc4x.git)
 
-<details><summary>This project defines 58 artifacts:</summary>
+<details><summary>This project defines 58 modules:</summary>
 
 * [org.apache.plc4x:plc4j](https://search.maven.org/artifact/org.apache.plc4x/plc4j/)
 * [org.apache.plc4x:plc4j-apache-calcite](https://search.maven.org/artifact/org.apache.plc4x/plc4j-apache-calcite/)

@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/motlin/liftwizard.git](https://github.com/motlin/liftwizard.git)
 
-<details><summary>This project defines 139 artifacts:</summary>
+<details><summary>This project defines 139 modules:</summary>
 
 * [io.liftwizard:docs](https://search.maven.org/artifact/io.liftwizard/docs/)
 * [io.liftwizard:liftwizard](https://search.maven.org/artifact/io.liftwizard/liftwizard/)

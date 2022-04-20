@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/accumulo.git](https://github.com/apache/accumulo.git)
 
-<details><summary>This project defines 21 artifacts:</summary>
+<details><summary>This project defines 21 modules:</summary>
 
 * [org.apache.accumulo:accumulo](https://search.maven.org/artifact/org.apache.accumulo/accumulo/)
 * [org.apache.accumulo:accumulo-core](https://search.maven.org/artifact/org.apache.accumulo/accumulo-core/)

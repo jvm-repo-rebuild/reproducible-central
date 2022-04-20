@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/maven-resolver.git](https://github.com/apache/maven-resolver.git)
 
-<details><summary>This project defines 35 artifacts:</summary>
+<details><summary>This project defines 35 modules:</summary>
 
 * [org.apache.maven.plugins:maven-scm-plugin](https://search.maven.org/artifact/org.apache.maven.plugins/maven-scm-plugin/)
 * [org.apache.maven.scm:maven-scm](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/)

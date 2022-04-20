@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/Adobe-Consulting-Services/acs-aem-commons.git](https://github.com/Adobe-Consulting-Services/acs-aem-commons.git)
 
-<details><summary>This project defines 6 artifacts:</summary>
+<details><summary>This project defines 6 modules:</summary>
 
 * [com.adobe.acs:acs-aem-commons](https://search.maven.org/artifact/com.adobe.acs/acs-aem-commons/)
 * [com.adobe.acs:acs-aem-commons-bundle](https://search.maven.org/artifact/com.adobe.acs/acs-aem-commons-bundle/)

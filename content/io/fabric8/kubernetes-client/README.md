@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github.com/fabric8io/kubernetes-client.git)
 
-<details><summary>This project defines 119 artifacts:</summary>
+<details><summary>This project defines 119 modules:</summary>
 
 * [io.fabric8.kubernetes:karaf](https://search.maven.org/artifact/io.fabric8.kubernetes/karaf/)
 * [io.fabric8.kubernetes:kubernetes-karaf](https://search.maven.org/artifact/io.fabric8.kubernetes/kubernetes-karaf/)

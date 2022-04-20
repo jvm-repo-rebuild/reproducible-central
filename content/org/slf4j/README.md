@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/qos-ch/slf4j.git](https://github.com/qos-ch/slf4j.git)
 
-<details><summary>This project defines 16 artifacts:</summary>
+<details><summary>This project defines 16 modules:</summary>
 
 * [org.slf4j:integration](https://search.maven.org/artifact/org.slf4j/integration/)
 * [org.slf4j:jcl-over-slf4j](https://search.maven.org/artifact/org.slf4j/jcl-over-slf4j/)

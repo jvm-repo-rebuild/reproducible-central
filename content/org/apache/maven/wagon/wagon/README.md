@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/maven-surefire.git](https://github.com/apache/maven-surefire.git)
 
-<details><summary>This project defines 17 artifacts:</summary>
+<details><summary>This project defines 17 modules:</summary>
 
 * [org.apache.maven.wagon:wagon](https://search.maven.org/artifact/org.apache.maven.wagon/wagon/)
 * [org.apache.maven.wagon:wagon-file](https://search.maven.org/artifact/org.apache.maven.wagon/wagon-file/)

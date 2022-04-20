@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/codehaus-plexus/plexus-languages.git](https://github.com/codehaus-plexus/plexus-languages.git)
 
-<details><summary>This project defines 2 artifacts:</summary>
+<details><summary>This project defines 2 modules:</summary>
 
 * [org.codehaus.plexus:plexus-java](https://search.maven.org/artifact/org.codehaus.plexus/plexus-java/)
 * [org.codehaus.plexus:plexus-languages](https://search.maven.org/artifact/org.codehaus.plexus/plexus-languages/)

@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/quick-perf/quickperf.git](https://github.com/quick-perf/quickperf.git)
 
-<details><summary>This project defines 23 artifacts:</summary>
+<details><summary>This project defines 23 modules:</summary>
 
 * [org.quickperf:quick-perf](https://search.maven.org/artifact/org.quickperf/quick-perf/)
 * [org.quickperf:quick-perf-bom](https://search.maven.org/artifact/org.quickperf/quick-perf-bom/)

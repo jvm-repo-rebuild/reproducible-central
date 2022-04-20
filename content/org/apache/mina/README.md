@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/mina.git](https://github.com/apache/mina.git)
 
-<details><summary>This project defines 12 artifacts:</summary>
+<details><summary>This project defines 12 modules:</summary>
 
 * [org.apache.mina:mina-core](https://search.maven.org/artifact/org.apache.mina/mina-core/)
 * [org.apache.mina:mina-example](https://search.maven.org/artifact/org.apache.mina/mina-example/)

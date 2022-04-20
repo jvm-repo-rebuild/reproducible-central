@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/io7m/jade.git](https://github.com/io7m/jade.git)
 
-<details><summary>This project defines 6 artifacts:</summary>
+<details><summary>This project defines 6 modules:</summary>
 
 * [com.io7m.jade:com.io7m.jade](https://search.maven.org/artifact/com.io7m.jade/com.io7m.jade/)
 * [com.io7m.jade:com.io7m.jade.api](https://search.maven.org/artifact/com.io7m.jade/com.io7m.jade.api/)

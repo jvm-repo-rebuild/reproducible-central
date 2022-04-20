@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/maven-enforcer.git](https://github.com/apache/maven-enforcer.git)
 
-<details><summary>This project defines 5 artifacts:</summary>
+<details><summary>This project defines 5 modules:</summary>
 
 * [org.apache.maven.enforcer:enforcer](https://search.maven.org/artifact/org.apache.maven.enforcer/enforcer/)
 * [org.apache.maven.enforcer:enforcer-api](https://search.maven.org/artifact/org.apache.maven.enforcer/enforcer-api/)

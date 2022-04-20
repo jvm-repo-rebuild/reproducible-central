@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/codehaus-plexus/plexus-compiler.git](https://github.com/codehaus-plexus/plexus-compiler.git)
 
-<details><summary>This project defines 13 artifacts:</summary>
+<details><summary>This project defines 13 modules:</summary>
 
 * [org.codehaus.plexus:plexus-compiler](https://search.maven.org/artifact/org.codehaus.plexus/plexus-compiler/)
 * [org.codehaus.plexus:plexus-compiler-api](https://search.maven.org/artifact/org.codehaus.plexus/plexus-compiler-api/)

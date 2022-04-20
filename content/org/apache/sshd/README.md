@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/mina-sshd.git](https://github.com/apache/mina-sshd.git)
 
-<details><summary>This project defines 16 artifacts:</summary>
+<details><summary>This project defines 16 modules:</summary>
 
 * [org.apache.sshd:apache-sshd](https://search.maven.org/artifact/org.apache.sshd/apache-sshd/)
 * [org.apache.sshd:sshd](https://search.maven.org/artifact/org.apache.sshd/sshd/)

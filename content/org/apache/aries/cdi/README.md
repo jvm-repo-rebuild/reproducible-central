@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/aries-cdi.git](https://github.com/apache/aries-cdi.git)
 
-<details><summary>This project defines 18 artifacts:</summary>
+<details><summary>This project defines 18 modules:</summary>
 
 * [org.apache.aries.cdi:aries-cdi-feature](https://search.maven.org/artifact/org.apache.aries.cdi/aries-cdi-feature/)
 * [org.apache.aries.cdi:org.apache.aries.cdi](https://search.maven.org/artifact/org.apache.aries.cdi/org.apache.aries.cdi/)

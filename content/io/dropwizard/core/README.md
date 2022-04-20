@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/dropwizard/dropwizard.git](https://github.com/dropwizard/dropwizard.git)
 
-<details><summary>This project defines 34 artifacts:</summary>
+<details><summary>This project defines 34 modules:</summary>
 
 * [io.dropwizard.archetypes:dropwizard-archetypes](https://search.maven.org/artifact/io.dropwizard.archetypes/dropwizard-archetypes/)
 * [io.dropwizard.archetypes:java-simple](https://search.maven.org/artifact/io.dropwizard.archetypes/java-simple/)

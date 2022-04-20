@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/maven-surefire.git](https://github.com/apache/maven-surefire.git)
 
-<details><summary>This project defines 25 artifacts:</summary>
+<details><summary>This project defines 25 modules:</summary>
 
 * [org.apache.maven.plugins:maven-failsafe-plugin](https://search.maven.org/artifact/org.apache.maven.plugins/maven-failsafe-plugin/)
 * [org.apache.maven.plugins:maven-surefire-plugin](https://search.maven.org/artifact/org.apache.maven.plugins/maven-surefire-plugin/)

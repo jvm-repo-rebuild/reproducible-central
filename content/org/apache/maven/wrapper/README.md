@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/maven-wrapper.git](https://github.com/apache/maven-wrapper.git)
 
-<details><summary>This project defines 4 artifacts:</summary>
+<details><summary>This project defines 4 modules:</summary>
 
 * [org.apache.maven.plugins:maven-wrapper-plugin](https://search.maven.org/artifact/org.apache.maven.plugins/maven-wrapper-plugin/)
 * [org.apache.maven.wrapper:maven-wrapper](https://search.maven.org/artifact/org.apache.maven.wrapper/maven-wrapper/)

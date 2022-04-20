@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/mina-ftpserver.git](https://github.com/apache/mina-ftpserver.git)
 
-<details><summary>This project defines 8 artifacts:</summary>
+<details><summary>This project defines 8 modules:</summary>
 
 * [org.apache.ftpserver.examples:ftpserver-osgi-ftplet-service](https://search.maven.org/artifact/org.apache.ftpserver.examples/ftpserver-osgi-ftplet-service/)
 * [org.apache.ftpserver.examples:ftpserver-osgi-spring-service](https://search.maven.org/artifact/org.apache.ftpserver.examples/ftpserver-osgi-spring-service/)

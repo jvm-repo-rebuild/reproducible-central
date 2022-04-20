@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/OpenAPITools/openapi-diff.git](https://github.com/OpenAPITools/openapi-diff.git)
 
-<details><summary>This project defines 4 artifacts:</summary>
+<details><summary>This project defines 4 modules:</summary>
 
 * [org.openapitools.openapidiff:openapi-diff-cli](https://search.maven.org/artifact/org.openapitools.openapidiff/openapi-diff-cli/)
 * [org.openapitools.openapidiff:openapi-diff-core](https://search.maven.org/artifact/org.openapitools.openapidiff/openapi-diff-core/)

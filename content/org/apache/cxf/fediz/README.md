@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/cxf-fediz.git](https://github.com/apache/cxf-fediz.git)
 
-<details><summary>This project defines 49 artifacts:</summary>
+<details><summary>This project defines 49 modules:</summary>
 
 * [org.apache.cxf.fediz.examples.wsclientWebapp.webservice:common](https://search.maven.org/artifact/org.apache.cxf.fediz.examples.wsclientWebapp.webservice/common/)
 * [org.apache.cxf.fediz.examples.wsclientWebapp.webservice:fedizservice](https://search.maven.org/artifact/org.apache.cxf.fediz.examples.wsclientWebapp.webservice/fedizservice/)
