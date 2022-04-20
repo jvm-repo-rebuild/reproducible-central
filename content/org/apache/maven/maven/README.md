@@ -36,7 +36,7 @@ rebuilding **6 releases** of org.apache.maven:maven:
 | [3.8.4](https://search.maven.org/artifact/org.apache.maven/maven/3.8.4/pom) | [mvn jdk8 w](maven-3.8.4.buildspec) | [result](maven-3.8.4.buildinfo): [47 :heavy_check_mark: ](maven-3.8.4.buildcompare) | 28M |
 | [3.8.3](https://search.maven.org/artifact/org.apache.maven/maven/3.8.3/pom) | [mvn jdk8 w](maven-3.8.3.buildspec) | [result](maven-3.8.3.buildinfo): [47 :heavy_check_mark: ](maven-3.8.3.buildcompare) | 28M |
 | [3.8.2](https://search.maven.org/artifact/org.apache.maven/maven/3.8.2/pom) | [mvn jdk8 w](maven-3.8.2.buildspec) | [result](maven-3.8.2.buildinfo): [47 :heavy_check_mark: ](maven-3.8.2.buildcompare) | 29M |
-| [3.8.1](https://search.maven.org/artifact/org.apache.maven/maven/3.8.1/pom) | [mvn jdk8 w](maven-3.8.1.buildspec) | :x: | 29M |
+| [3.8.1](https://search.maven.org/artifact/org.apache.maven/maven/3.8.1/pom) | [mvn jdk8 w](maven-3.8.1.buildspec) | [result](maven-3.8.1.buildinfo): [17 :heavy_check_mark:  15 :warning:](maven-3.8.1.buildcompare) [:mag:](maven-3.8.1.diffoscope) [:memo:](https://issues.apache.org/jira/browse/MNG-7155) | 29M |
 | [3.6.3](https://search.maven.org/artifact/org.apache.maven/maven/3.6.3/pom) | [mvn jdk8 w](maven-3.6.3.buildspec) | [result](apache-maven-3.6.3.buildinfo): [2 :heavy_check_mark:  30 :warning:](apache-maven-3.6.3.buildcompare) [:memo:](https://issues.apache.org/jira/browse/MNG-6859) | 29M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
