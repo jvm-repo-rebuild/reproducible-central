@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Reporting API
+group-id=org.apache.maven.reporting
+artifact-id=maven-reporting-api
+version=4.0.0-M1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-reporting-api.git
+source.scm.tag=maven-reporting-api-4.0.0-M1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=maven-reporting-api-4.0.0-M1.pom
+outputs.0.length=3627
+outputs.0.checksums.sha512=827799d966cd4cf6ddf3a8775d320b52c7cc95d13ce34f85b5b2012c13bf4dacbf3d8b2df7228a61d0c02db1df55e42b4b5361555659bd2432dd0d1a35b56430
+
+outputs.1.filename=maven-reporting-api-4.0.0-M1.jar
+outputs.1.length=10531
+outputs.1.checksums.sha512=2f4168aee1c3d5298322012e06312459f1cc4511fb9f5dc28dce0c6424d539e8a424e2e1725c82eb084af4b1005424859cfb61dd541f033fe3f52b03201dc877
+
+outputs.2.filename=maven-reporting-api-4.0.0-M1-source-release.zip
+outputs.2.length=23460
+outputs.2.checksums.sha512=8c708914cc3cd0f50b464289d84ee9202cb9197028c3534373f4ba29367a997d0ae4fb10c9aa871e65f2b8c0bd27e366af91f5016b15fb48d4a46b9eab4a97e9
+
+outputs.3.filename=maven-reporting-api-4.0.0-M1-sources.jar
+outputs.3.length=12938
+outputs.3.checksums.sha512=99a4cba25df010d09f2abf2e43fa5da5c9bc0204666fc9fa48af4a4cba006902008b744093fb85da2111c87864937e8bf7076e387dc4f514b2bfa1c3a63abd00
