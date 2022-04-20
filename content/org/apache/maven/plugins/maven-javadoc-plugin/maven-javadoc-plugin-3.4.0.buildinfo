@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Javadoc Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-javadoc-plugin
+version=3.4.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-javadoc-plugin.git
+source.scm.tag=maven-javadoc-plugin-3.4.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.filename=maven-javadoc-plugin-3.4.0.pom
+outputs.0.length=21694
+outputs.0.checksums.sha512=d86aeeca9fe95c140dd6dfa1b9f75febfb70e06d5776f4fefef556c917325f44e095b4e1eeadf55732b518b9ae90e72ea625ef274a784aac7480736a5662d0af
+
+outputs.1.filename=maven-javadoc-plugin-3.4.0.jar
+outputs.1.length=521085
+outputs.1.checksums.sha512=13770ebf59c2e5506f71fa70d6141def6c620afd62e581efcc11f417c94729a158c79ace80db5257c9b951ead7ff120780a2432ec1b1b590c254296e54e48d68
+
+outputs.2.filename=maven-javadoc-plugin-3.4.0-source-release.zip
+outputs.2.length=3589985
+outputs.2.checksums.sha512=57850b2ec36f414dceb336fd0de47ffc3216cecfaf19771f3589242c978e8ea6af9bb077d1d22c0f0e8942c58fc9016de606543883e37b37b5eeb05dd61689ad
+
+outputs.3.filename=maven-javadoc-plugin-3.4.0-sources.jar
+outputs.3.length=189644
+outputs.3.checksums.sha512=e793806769f917ba4b84c262a499eeea80682f8d1e6c9582323fe89d538833b02d472e67ba487e022941c6af4a003d7c3927967bc07bbba82f0d05ca1a9ed38f
