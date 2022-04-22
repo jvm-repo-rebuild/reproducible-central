@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven AntRun Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-antrun-plugin
+version=3.1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-antrun-plugin.git
+source.scm.tag=maven-antrun-plugin-3.1.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.filename=maven-antrun-plugin-3.1.0.pom
+outputs.0.length=9105
+outputs.0.checksums.sha512=f8aba8a0d0d44bade88f65cc467fd5489f3f014c58d37cea0bdb3caa428deb9fbd6f0b139c7c69455a80df416eeac6e50a29ed07e77cd9f3c32ad5ea07dbee54
+
+outputs.1.filename=maven-antrun-plugin-3.1.0.jar
+outputs.1.length=41215
+outputs.1.checksums.sha512=5aa458fe7e2679a14d559cda98b6aa8b82669f37a4c964f776c308968553be6a2cbc91d33f340871b8a82e87e47f48aa77a119259896940bbb458cc7779c7ecd
+
+outputs.2.filename=maven-antrun-plugin-3.1.0-source-release.zip
+outputs.2.length=154858
+outputs.2.checksums.sha512=b83c59ebf3fe701d402444bb9d2938f099f090f57de1ebe4a8d02e9cf88df31f2b65dfa172aa17de4f85a48a9735df3a865ba05806fe59a3b8487fd659ffe4b9
+
+outputs.3.filename=maven-antrun-plugin-3.1.0-sources.jar
+outputs.3.length=32584
+outputs.3.checksums.sha512=92948020769af0f728264115036ce0d88215ab2f0002d35866baa3afb3b0a53ef1594cdc1d09f22d258323a9f6b3c5a13d37af4f201e1dae1e3da701866df1d1
