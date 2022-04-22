@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven EJB Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-ejb-plugin
+version=3.2.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-ejb-plugin.git
+source.scm.tag=maven-ejb-plugin-3.2.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.filename=maven-ejb-plugin-3.2.1.pom
+outputs.0.length=6962
+outputs.0.checksums.sha512=051958f2fb53721dae2f87dd68eb72f5063222f1a5114241032430b60e0dafa6099dbb221c2bbd386b4d7d95bc0fac2ad9bc8e647dab20ae954861e26ecff1fa
+
+outputs.1.filename=maven-ejb-plugin-3.2.1.jar
+outputs.1.length=29010
+outputs.1.checksums.sha512=7563b4f63057cf47d81dc864ca25a415be5d8cd7ebca76d32e44670c0b116b866084d22e36953abcdf5159234f8c8f68e800b36fd632581e4f5f73a4cde73350
+
+outputs.2.filename=maven-ejb-plugin-3.2.1-source-release.zip
+outputs.2.length=99655
+outputs.2.checksums.sha512=a763f77e9892e221cf95c390aa9ea58d484a7c74aeb71434f2009a5d9e0081ed6d93ba9303d9bcace5a022b59f5652b64ab5e0730589c8bf5ef19cb179247c2f
+
+outputs.3.filename=maven-ejb-plugin-3.2.1-sources.jar
+outputs.3.length=21543
+outputs.3.checksums.sha512=d5e8c6191b2f27fff4ec65da1ea193cde7bfabd917438ca90cfa43da8cb65cf8b52212613bd4bc9b56cfbb438e6839d9cd5b896875ae88f88a285e302e091099
