@@ -45,14 +45,16 @@ Source code: [https://github.com/dropwizard/dropwizard.git](https://github.com/d
 * [io.dropwizard:dropwizard-views-mustache](https://search.maven.org/artifact/io.dropwizard/dropwizard-views-mustache/)
 </details>
 
-rebuilding **30 releases** of io.dropwizard:dropwizard-project:
-- **27** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **32 releases** of io.dropwizard:dropwizard-project:
+- **29** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [4.0.0-beta.1](https://search.maven.org/artifact/io.dropwizard/dropwizard-project/4.0.0-beta.1/pom) | [mvn jdk11](dropwizard-4.0.0-beta.1.buildspec) | [result](dropwizard-project-4.0.0-beta.1.buildinfo): [91 :heavy_check_mark: ](dropwizard-project-4.0.0-beta.1.buildcompare) | 1.4M |
+| [3.0.0-beta.2](https://search.maven.org/artifact/io.dropwizard/dropwizard-project/3.0.0-beta.2/pom) | [mvn jdk11](dropwizard-3.0.0-beta.2.buildspec) | [result](dropwizard-project-3.0.0-beta.2.buildinfo): [91 :heavy_check_mark: ](dropwizard-project-3.0.0-beta.2.buildcompare) | 1.5M |
 | [3.0.0-beta.1](https://search.maven.org/artifact/io.dropwizard/dropwizard-project/3.0.0-beta.1/pom) | [mvn jdk11](dropwizard-3.0.0-beta.1.buildspec) | [result](dropwizard-project-3.0.0-beta.1.buildinfo): [91 :heavy_check_mark: ](dropwizard-project-3.0.0-beta.1.buildcompare) | 1.4M |
+| [2.1.0-beta.9](https://search.maven.org/artifact/io.dropwizard/dropwizard-project/2.1.0-beta.9/pom) | [mvn jdk8](dropwizard-2.1.0-beta.9.buildspec) | [result](dropwizard-project-2.1.0-beta.9.buildinfo): [91 :heavy_check_mark: ](dropwizard-project-2.1.0-beta.9.buildcompare) | 1.5M |
 | [2.1.0-beta.8](https://search.maven.org/artifact/io.dropwizard/dropwizard-project/2.1.0-beta.8/pom) | [mvn jdk8](dropwizard-2.1.0-beta.8.buildspec) | [result](dropwizard-project-2.1.0-beta.8.buildinfo): [91 :heavy_check_mark: ](dropwizard-project-2.1.0-beta.8.buildcompare) | 1.5M |
 | [2.1.0-beta.7](https://search.maven.org/artifact/io.dropwizard/dropwizard-project/2.1.0-beta.7/pom) | [mvn jdk8](dropwizard-2.1.0-beta.7.buildspec) | [result](dropwizard-project-2.1.0-beta.7.buildinfo): [91 :heavy_check_mark: ](dropwizard-project-2.1.0-beta.7.buildcompare) | 1.5M |
 | [2.1.0-beta.6](https://search.maven.org/artifact/io.dropwizard/dropwizard-project/2.1.0-beta.6/pom) | [mvn jdk8](dropwizard-2.1.0-beta.6.buildspec) | [result](dropwizard-project-2.1.0-beta.6.buildinfo): [91 :heavy_check_mark: ](dropwizard-project-2.1.0-beta.6.buildcompare) | 1.5M |
