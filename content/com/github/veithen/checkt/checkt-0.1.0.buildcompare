@@ -1,0 +1,7 @@
+version=0.1.0
+ok=10
+ko=0
+okFiles="checkt-0.1.0.pom checkt-0.1.0-source-release.zip checkt-annotations-0.1.0.pom checkt-annotations-0.1.0.jar checkt-annotations-0.1.0-sources.jar checkt-annotation-processor-0.1.0.pom checkt-annotation-processor-0.1.0.jar checkt-annotation-processor-0.1.0-sources.jar test-0.1.0.pom test-0.1.0.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
