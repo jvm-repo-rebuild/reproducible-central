@@ -1,0 +1,5 @@
+version=36
+ok=14
+ko=0
+okFiles="maven-parent-36.pom maven-parent-36-site.xml maven-parent-36-source-release.zip maven-extensions-36.pom maven-extensions-36-site.xml maven-plugins-36.pom maven-plugins-36-site.xml maven-shared-components-36.pom maven-shared-components-36-site.xml maven-skins-36.pom maven-skins-36-site.xml doxia-tools-36.pom doxia-tools-36-site.xml apache-resource-bundles-36.pom"
+koFiles=""
