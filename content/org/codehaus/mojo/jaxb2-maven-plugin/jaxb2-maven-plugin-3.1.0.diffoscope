@@ -1,0 +1,229 @@
+target/reference/jaxb2-maven-plugin-3.1.0.jar target/jaxb2-maven-plugin-3.1.0.jar
+--- target/reference/jaxb2-maven-plugin-3.1.0.jar
++++ target/jaxb2-maven-plugin-3.1.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 177026 bytes, number of entries: 113
+│ +Zip file size: 177018 bytes, number of entries: 113
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 23:10 META-INF/
+│  -rw-r--r--  2.0 unx       81 b- defN 22-Apr-20 23:10 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 23:10 META-INF/m2e/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 23:10 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 23:10 META-INF/maven/org.codehaus.mojo/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 23:10 META-INF/maven/org.codehaus.mojo/jaxb2-maven-plugin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 23:10 META-INF/plexus/
+│ @@ -23,30 +23,30 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/shared/environment/locale/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/shared/environment/logging/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/shared/environment/sysprops/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/shared/filters/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/shared/filters/pattern/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/shared/version/
+│  -rw-r--r--  2.0 unx     1141 b- defN 22-Apr-20 23:10 META-INF/m2e/lifecycle-mapping-metadata.xml
+│ --rw-r--r--  2.0 unx     8575 b- defN 22-Apr-20 23:10 META-INF/maven/dependencies.properties
+│ +-rw-r--r--  2.0 unx     8574 b- defN 22-Apr-20 23:10 META-INF/maven/dependencies.properties
+│  -rw-r--r--  2.0 unx    78394 b- defN 22-Apr-20 23:10 META-INF/maven/org.codehaus.mojo/jaxb2-maven-plugin/plugin-help.xml
+│  -rw-r--r--  2.0 unx   100979 b- defN 22-Apr-20 23:10 META-INF/maven/plugin.xml
+│  -rw-r--r--  2.0 unx      261 b- defN 22-Apr-20 23:10 META-INF/plexus/components.xml
+│  -rw-r--r--  2.0 unx      934 b- defN 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/AbstractJaxbMojo$1.class
+│  -rw-r--r--  2.0 unx    16458 b- defN 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/AbstractJaxbMojo.class
+│  -rw-r--r--  2.0 unx      330 b- defN 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/NoSchemasException.class
+│  -rw-r--r--  2.0 unx    15583 b- defN 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/javageneration/AbstractJavaGeneratorMojo.class
+│  -rw-r--r--  2.0 unx     2004 b- defN 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/javageneration/SourceContentType.class
+│  -rw-r--r--  2.0 unx     5119 b- defN 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/javageneration/TestXjcMojo.class
+│  -rw-r--r--  2.0 unx     2219 b- defN 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/javageneration/XjcLogAdapter.class
+│  -rw-r--r--  2.0 unx     5051 b- defN 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/javageneration/XjcMojo.class
+│  -rw-r--r--  2.0 unx      144 b- defN 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/javageneration/package-info.class
+│  -rw-r--r--  2.0 unx      129 b- defN 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/package-info.class
+│  -rw-r--r--  2.0 unx    21866 b- defN 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/schemageneration/AbstractXsdGeneratorMojo.class
+│ --rw-r--r--  2.0 unx    11039 b- defN 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/schemageneration/HelpMojo.class
+│ +-rw-r--r--  2.0 unx    11047 b- defN 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/schemageneration/HelpMojo.class
+│  -rw-r--r--  2.0 unx     6139 b- defN 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/schemageneration/SchemaGenerationMojo.class
+│  -rw-r--r--  2.0 unx     6279 b- defN 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/schemageneration/TestSchemaGenerationMojo.class
+│  -rw-r--r--  2.0 unx     1120 b- defN 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/schemageneration/XsdGeneratorHelper$1.class
+│  -rw-r--r--  2.0 unx      934 b- defN 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/schemageneration/XsdGeneratorHelper$2.class
+│  -rw-r--r--  2.0 unx    17685 b- defN 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/schemageneration/XsdGeneratorHelper.class
+│  -rw-r--r--  2.0 unx      146 b- defN 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/schemageneration/package-info.class
+│  -rw-r--r--  2.0 unx      246 b- defN 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/schemageneration/postprocessing/NodeProcessor.class
+│ @@ -108,8 +108,8 @@
+│  -rw-r--r--  2.0 unx      314 b- defN 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/shared/filters/pattern/StringConverter.class
+│  -rw-r--r--  2.0 unx      956 b- defN 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/shared/filters/pattern/ToStringConverter.class
+│  -rw-r--r--  2.0 unx      136 b- defN 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/shared/package-info.class
+│  -rw-r--r--  2.0 unx     2587 b- defN 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/shared/version/DependencyInfo.class
+│  -rw-r--r--  2.0 unx     6577 b- defN 22-Apr-20 23:10 org/codehaus/mojo/jaxb2/shared/version/DependsFileParser.class
+│  -rw-r--r--  2.0 unx    19695 b- defN 22-Apr-20 23:10 META-INF/maven/org.codehaus.mojo/jaxb2-maven-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       73 b- defN 22-Apr-20 23:10 META-INF/maven/org.codehaus.mojo/jaxb2-maven-plugin/pom.properties
+│ -113 files, 502950 bytes uncompressed, 153652 bytes compressed:  69.4%
+│ +113 files, 502957 bytes uncompressed, 153644 bytes compressed:  69.5%
+├── META-INF/maven/dependencies.properties
+│ @@ -1,9 +1,9 @@
+│  # Project dependencies generated by the Apache ServiceMix Maven Plugin
+
+│ -# Generated at: Thu Apr 21 01:30:56 CEST 2022
+
+│ +# Generated at: Fri Apr 22 12:16:16 UTC 2022
+
+│  
+
+│  groupId = org.codehaus.mojo
+
+│  artifactId = jaxb2-maven-plugin
+
+│  version = 3.1.0
+
+│  org.codehaus.mojo/jaxb2-maven-plugin/version = 3.1.0
+
+│  
+
+│  # dependencies
+├── org/codehaus/mojo/jaxb2/schemageneration/HelpMojo.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,499 +1,499 @@
+│ │    Compiled from "HelpMojo.java"
+│ │  public class org.codehaus.mojo.jaxb2.schemageneration.HelpMojo extends org.apache.maven.plugin.AbstractMojo
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+│ │ -  this_class: #8                          // org/codehaus/mojo/jaxb2/schemageneration/HelpMojo
+│ │ -  super_class: #2                         // org/apache/maven/plugin/AbstractMojo
+│ │ +  this_class: #2                          // org/codehaus/mojo/jaxb2/schemageneration/HelpMojo
+│ │ +  super_class: #4                         // org/apache/maven/plugin/AbstractMojo
+│ │    interfaces: 0, fields: 6, methods: 16, attributes: 2
+│ │  Constant pool:
+│ │ -    #1 = Methodref          #2.#3         // org/apache/maven/plugin/AbstractMojo."<init>":()V
+│ │ -    #2 = Class              #4            // org/apache/maven/plugin/AbstractMojo
+│ │ -    #3 = NameAndType        #5:#6         // "<init>":()V
+│ │ -    #4 = Utf8               org/apache/maven/plugin/AbstractMojo
+│ │ -    #5 = Utf8               <init>
+│ │ -    #6 = Utf8               ()V
+│ │ -    #7 = Methodref          #8.#9         // org/codehaus/mojo/jaxb2/schemageneration/HelpMojo.getLog:()Lorg/apache/maven/plugin/logging/Log;
+│ │ -    #8 = Class              #10           // org/codehaus/mojo/jaxb2/schemageneration/HelpMojo
+│ │ -    #9 = NameAndType        #11:#12       // getLog:()Lorg/apache/maven/plugin/logging/Log;
+│ │ -   #10 = Utf8               org/codehaus/mojo/jaxb2/schemageneration/HelpMojo
+│ │ -   #11 = Utf8               getLog
+│ │ -   #12 = Utf8               ()Lorg/apache/maven/plugin/logging/Log;
+│ │ -   #13 = String             #14           // load plugin-help.xml: /META-INF/maven/org.codehaus.mojo/jaxb2-maven-plugin/plugin-help.xml
+│ │ -   #14 = Utf8               load plugin-help.xml: /META-INF/maven/org.codehaus.mojo/jaxb2-maven-plugin/plugin-help.xml
+│ │ -   #15 = InterfaceMethodref #16.#17       // org/apache/maven/plugin/logging/Log.debug:(Ljava/lang/CharSequence;)V
+│ │ -   #16 = Class              #18           // org/apache/maven/plugin/logging/Log
+│ │ -   #17 = NameAndType        #19:#20       // debug:(Ljava/lang/CharSequence;)V
+│ │ -   #18 = Utf8               org/apache/maven/plugin/logging/Log
+│ │ -   #19 = Utf8               debug
+│ │ -   #20 = Utf8               (Ljava/lang/CharSequence;)V
+│ │ -   #21 = Methodref          #22.#23       // java/lang/Object.getClass:()Ljava/lang/Class;
+│ │ -   #22 = Class              #24           // java/lang/Object
+│ │ -   #23 = NameAndType        #25:#26       // getClass:()Ljava/lang/Class;
+│ │ -   #24 = Utf8               java/lang/Object
+│ │ -   #25 = Utf8               getClass
+│ │ -   #26 = Utf8               ()Ljava/lang/Class;
+│ │ -   #27 = String             #28           // /META-INF/maven/org.codehaus.mojo/jaxb2-maven-plugin/plugin-help.xml
+│ │ -   #28 = Utf8               /META-INF/maven/org.codehaus.mojo/jaxb2-maven-plugin/plugin-help.xml
+│ │ -   #29 = Methodref          #30.#31       // java/lang/Class.getResourceAsStream:(Ljava/lang/String;)Ljava/io/InputStream;
+│ │ -   #30 = Class              #32           // java/lang/Class
+│ │ -   #31 = NameAndType        #33:#34       // getResourceAsStream:(Ljava/lang/String;)Ljava/io/InputStream;
+│ │ -    #4 = Utf8               org/apache/maven/plugin/AbstractMojo
+│ │ -    #5 = Utf8               <init>
+│ │ -    #6 = Utf8               ()V
+│ │ -    #7 = Methodref          #8.#9         // org/codehaus/mojo/jaxb2/schemageneration/HelpMojo.getLog:()Lorg/apache/maven/plugin/logging/Log;
+│ │ -    #8 = Class              #10           // org/codehaus/mojo/jaxb2/schemageneration/HelpMojo
+│ │ -    #9 = NameAndType        #11:#12       // getLog:()Lorg/apache/maven/plugin/logging/Log;
+│ │ -   #10 = Utf8               org/codehaus/mojo/jaxb2/schemageneration/HelpMojo
+│ │ -   #11 = Utf8               getLog
+│ │ -   #12 = Utf8               ()Lorg/apache/maven/plugin/logging/Log;
+│ │ -   #13 = String             #14           // load plugin-help.xml: /META-INF/maven/org.codehaus.mojo/jaxb2-maven-plugin/plugin-help.xml
+│ │ -   #14 = Utf8               load plugin-help.xml: /META-INF/maven/org.codehaus.mojo/jaxb2-maven-plugin/plugin-help.xml
+│ │ -   #15 = InterfaceMethodref #16.#17       // org/apache/maven/plugin/logging/Log.debug:(Ljava/lang/CharSequence;)V
+│ │ -   #16 = Class              #18           // org/apache/maven/plugin/logging/Log
+│ │ -   #17 = NameAndType        #19:#20       // debug:(Ljava/lang/CharSequence;)V
+│ │ -   #18 = Utf8               org/apache/maven/plugin/logging/Log
+│ │ -   #19 = Utf8               debug
+│ │ -   #20 = Utf8               (Ljava/lang/CharSequence;)V
+│ │ -   #21 = Methodref          #22.#23       // java/lang/Object.getClass:()Ljava/lang/Class;
+│ │ -   #22 = Class              #24           // java/lang/Object
+│ │ -   #23 = NameAndType        #25:#26       // getClass:()Ljava/lang/Class;
+│ │ -   #24 = Utf8               java/lang/Object
+│ │ -   #25 = Utf8               getClass
+│ │ -   #26 = Utf8               ()Ljava/lang/Class;
+│ │ -   #27 = String             #28           // /META-INF/maven/org.codehaus.mojo/jaxb2-maven-plugin/plugin-help.xml
+│ │ -   #28 = Utf8               /META-INF/maven/org.codehaus.mojo/jaxb2-maven-plugin/plugin-help.xml
+│ │ -   #29 = Methodref          #30.#31       // java/lang/Class.getResourceAsStream:(Ljava/lang/String;)Ljava/io/InputStream;
+│ │ -   #30 = Class              #32           // java/lang/Class
+│ │ -   #31 = NameAndType        #33:#34       // getResourceAsStream:(Ljava/lang/String;)Ljava/io/InputStream;
+...
+│ │        LineNumberTable:
+│ │ -        line 433: 0
+│ │ -        line 434: 26
+│ │ -        line 437: 38
+│ │ -        line 440: 50
+│ │ +        line 432: 0
+│ │ +        line 433: 26
+│ │ +        line 436: 38
+│ │ +        line 439: 50
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      52     0 expression   Ljava/lang/String;
+│ │ -      StackMapTable: number_of_entries = 1
+│ │ -        frame_type = 50 /* same */
+│ │  }
+│ │  SourceFile: "HelpMojo.java"
+│ │  RuntimeInvisibleAnnotations:
+│ │ -  0: #443(#107=s#444,#445=Z#446,#447=Z#448)
+│ │ +  0: #6(#7=s#8,#9=Z#10,#11=Z#12)
+│ │      org.apache.maven.plugins.annotations.Mojo(
+│ │        name="help"
+│ │        requiresProject=false
+│ │        threadSafe=true
+│ │      )
+
+target/reference/jaxb2-maven-plugin-3.1.0-source-release.zip target/jaxb2-maven-plugin-3.1.0-source-release.zip
+--- target/reference/jaxb2-maven-plugin-3.1.0-source-release.zip
++++ target/jaxb2-maven-plugin-3.1.0-source-release.zip
+├── zipinfo {}
+│ @@ -1,13 +1,11 @@
+│ -Zip file size: 917247 bytes, number of entries: 677
+│ +Zip file size: 916925 bytes, number of entries: 675
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 23:10 jaxb2-maven-plugin-3.1.0/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 23:10 jaxb2-maven-plugin-3.1.0/.github/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 23:10 jaxb2-maven-plugin-3.1.0/.github/workflows/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 23:10 jaxb2-maven-plugin-3.1.0/Documentation/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 23:10 jaxb2-maven-plugin-3.1.0/Documentation/v3.1.0/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 23:10 jaxb2-maven-plugin-3.1.0/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 23:10 jaxb2-maven-plugin-3.1.0/src/it/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 23:10 jaxb2-maven-plugin-3.1.0/src/it/mjaxb-14/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 23:10 jaxb2-maven-plugin-3.1.0/src/it/mjaxb-14/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 23:10 jaxb2-maven-plugin-3.1.0/src/it/mjaxb-14/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 23:10 jaxb2-maven-plugin-3.1.0/src/it/mjaxb-14/src/main/dtd/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 23:10 jaxb2-maven-plugin-3.1.0/src/it/mjaxb-16/
+│ @@ -672,8 +670,8 @@
+│  -rw-r--r--  2.0 unx       69 b- defN 22-Apr-20 23:10 jaxb2-maven-plugin-3.1.0/src/test/resources/testdata/shared/not_a_dependency.properties
+│  -rw-r--r--  2.0 unx       23 b- defN 22-Apr-20 23:10 jaxb2-maven-plugin-3.1.0/src/test/resources/testdata/shared/standard/exclusions/someFile.log
+│  -rw-r--r--  2.0 unx       39 b- defN 22-Apr-20 23:10 jaxb2-maven-plugin-3.1.0/src/test/resources/testdata/shared/urlhandling/file with spaces.txt
+│  -rw-r--r--  2.0 unx      560 b- defN 22-Apr-20 23:10 jaxb2-maven-plugin-3.1.0/src/test/resources/testschemas/address.xsd
+│  -rw-r--r--  2.0 unx      563 b- defN 22-Apr-20 23:10 jaxb2-maven-plugin-3.1.0/src/test/resources/testschemas/address2.xsd
+│  -rw-r--r--  2.0 unx      563 b- defN 22-Apr-20 23:10 jaxb2-maven-plugin-3.1.0/src/test/resources/testschemas/address3.xsd
+│  -rw-r--r--  2.0 unx      339 b- defN 22-Apr-20 23:10 jaxb2-maven-plugin-3.1.0/src/test/resources/testschemas/address4.xsd
+│ -677 files, 1618971 bytes uncompressed, 757973 bytes compressed:  53.2%
+│ +675 files, 1618971 bytes uncompressed, 757973 bytes compressed:  53.2%
+├── zipnote {}
+│ @@ -3,20 +3,14 @@
+│  
+│  Filename: jaxb2-maven-plugin-3.1.0/.github/
+│  Comment: 
+│  
+│  Filename: jaxb2-maven-plugin-3.1.0/.github/workflows/
+│  Comment: 
+│  
+│ -Filename: jaxb2-maven-plugin-3.1.0/Documentation/
+│ -Comment: 
+│ -
+│ -Filename: jaxb2-maven-plugin-3.1.0/Documentation/v3.1.0/
+│ -Comment: 
+│ -
+│  Filename: jaxb2-maven-plugin-3.1.0/src/
+│  Comment: 
+│  
+│  Filename: jaxb2-maven-plugin-3.1.0/src/it/
+│  Comment: 
+│  
+│  Filename: jaxb2-maven-plugin-3.1.0/src/it/mjaxb-14/
+

@@ -1,0 +1,9 @@
+version=3.1.0
+ok=2
+ko=2
+okFiles="jaxb2-maven-plugin-3.1.0.pom jaxb2-maven-plugin-3.1.0-sources.jar"
+koFiles="jaxb2-maven-plugin-3.1.0.jar jaxb2-maven-plugin-3.1.0-source-release.zip"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/jaxb2-maven-plugin-3.1.0.jar target/jaxb2-maven-plugin-3.1.0.jar
+# diffoscope target/reference/jaxb2-maven-plugin-3.1.0-source-release.zip target/jaxb2-maven-plugin-3.1.0-source-release.zip
