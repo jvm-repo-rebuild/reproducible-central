@@ -152,6 +152,11 @@
       <url>https://splunk.jfrog.io/artifactory/ext-releases-local</url>
     </mirror>
     <mirror>
+      <id>restlet.talend.com</id>
+      <mirrorOf>restlet.talend.com</mirrorOf>
+      <url>https://maven.restlet.talend.com</url>
+    </mirror>
+    <mirror>
       <id>default</id>
       <mirrorOf>*</mirrorOf>
       <url>https://repo.maven.apache.org/maven2</url>

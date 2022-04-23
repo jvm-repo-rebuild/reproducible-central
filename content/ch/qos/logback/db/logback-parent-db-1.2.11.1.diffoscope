@@ -1,0 +1,240 @@
+1 / 11 target/reference/logback-core-db-1.2.11.1.jar logback-core-db/target/logback-core-db-1.2.11.1.jar
+--- target/reference/logback-core-db-1.2.11.1.jar
++++ logback-core-db/target/logback-core-db-1.2.11.1.jar
+├── zipinfo {}
+│ @@ -1,35 +1,35 @@
+│ -Zip file size: 22260 bytes, number of entries: 33
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 20:27 META-INF/
+│ --rw-r--r--  2.0 unx      130 bl defN 22-Apr-20 20:27 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 20:27 ch/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 20:27 ch/qos/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 20:27 ch/qos/logback/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 20:27 ch/qos/logback/core/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 20:27 ch/qos/logback/core/db/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 20:27 ch/qos/logback/core/db/dialect/
+│ --rw-r--r--  2.0 unx     3251 bl defN 22-Apr-20 20:27 ch/qos/logback/core/db/BindDataSourceToJNDIAction.class
+│ --rw-r--r--  2.0 unx      429 bl defN 22-Apr-20 20:27 ch/qos/logback/core/db/ConnectionSource.class
+│ --rw-r--r--  2.0 unx     3410 bl defN 22-Apr-20 20:27 ch/qos/logback/core/db/ConnectionSourceBase.class
+│ --rw-r--r--  2.0 unx     1722 bl defN 22-Apr-20 20:27 ch/qos/logback/core/db/DataSourceConnectionSource.class
+│ --rw-r--r--  2.0 unx     5974 bl defN 22-Apr-20 20:27 ch/qos/logback/core/db/DBAppenderBase.class
+│ --rw-r--r--  2.0 unx      789 bl defN 22-Apr-20 20:27 ch/qos/logback/core/db/DBHelper.class
+│ --rw-r--r--  2.0 unx     1136 bl defN 22-Apr-20 20:27 ch/qos/logback/core/db/dialect/DBUtil$1.class
+│ --rw-r--r--  2.0 unx     3939 bl defN 22-Apr-20 20:27 ch/qos/logback/core/db/dialect/DBUtil.class
+│ --rw-r--r--  2.0 unx      556 bl defN 22-Apr-20 20:27 ch/qos/logback/core/db/dialect/H2Dialect.class
+│ --rw-r--r--  2.0 unx      568 bl defN 22-Apr-20 20:27 ch/qos/logback/core/db/dialect/HSQLDBDialect.class
+│ --rw-r--r--  2.0 unx      570 bl defN 22-Apr-20 20:27 ch/qos/logback/core/db/dialect/MsSQLDialect.class
+│ --rw-r--r--  2.0 unx      580 bl defN 22-Apr-20 20:27 ch/qos/logback/core/db/dialect/MySQLDialect.class
+│ --rw-r--r--  2.0 unx      598 bl defN 22-Apr-20 20:27 ch/qos/logback/core/db/dialect/OracleDialect.class
+│ --rw-r--r--  2.0 unx      603 bl defN 22-Apr-20 20:27 ch/qos/logback/core/db/dialect/PostgreSQLDialect.class
+│ --rw-r--r--  2.0 unx      183 bl defN 22-Apr-20 20:27 ch/qos/logback/core/db/dialect/SQLDialect.class
+│ --rw-r--r--  2.0 unx     1519 bl defN 22-Apr-20 20:27 ch/qos/logback/core/db/dialect/SQLDialectCode.class
+│ --rw-r--r--  2.0 unx      580 bl defN 22-Apr-20 20:27 ch/qos/logback/core/db/dialect/SQLiteDialect.class
+│ --rw-r--r--  2.0 unx      606 bl defN 22-Apr-20 20:27 ch/qos/logback/core/db/dialect/SybaseSqlAnywhereDialect.class
+│ --rw-r--r--  2.0 unx     1993 bl defN 22-Apr-20 20:27 ch/qos/logback/core/db/DriverManagerConnectionSource.class
+│ --rw-r--r--  2.0 unx     2772 bl defN 22-Apr-20 20:27 ch/qos/logback/core/db/JNDIConnectionSource.class
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 20:27 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 20:27 META-INF/maven/ch.qos.logback.db/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 20:27 META-INF/maven/ch.qos.logback.db/logback-core-db/
+│ --rw-r--r--  2.0 unx     2304 bl defN 22-Apr-20 20:23 META-INF/maven/ch.qos.logback.db/logback-core-db/pom.xml
+│ --rw-r--r--  2.0 unx      133 bl defN 22-Apr-20 20:27 META-INF/maven/ch.qos.logback.db/logback-core-db/pom.properties
+│ -33 files, 34345 bytes uncompressed, 16702 bytes compressed:  51.4%
+│ +Zip file size: 22256 bytes, number of entries: 33
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 08:22 META-INF/
+│ +-rw-r--r--  2.0 unx      127 bl defN 22-Apr-23 08:22 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 08:22 ch/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 08:22 ch/qos/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 08:22 ch/qos/logback/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 08:22 ch/qos/logback/core/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 08:22 ch/qos/logback/core/db/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 08:22 ch/qos/logback/core/db/dialect/
+│ +-rw-r--r--  2.0 unx      429 bl defN 22-Apr-23 08:22 ch/qos/logback/core/db/ConnectionSource.class
+│ +-rw-r--r--  2.0 unx     3410 bl defN 22-Apr-23 08:22 ch/qos/logback/core/db/ConnectionSourceBase.class
+│ +-rw-r--r--  2.0 unx     1993 bl defN 22-Apr-23 08:22 ch/qos/logback/core/db/DriverManagerConnectionSource.class
+│ +-rw-r--r--  2.0 unx     3251 bl defN 22-Apr-23 08:22 ch/qos/logback/core/db/BindDataSourceToJNDIAction.class
+│ +-rw-r--r--  2.0 unx     1722 bl defN 22-Apr-23 08:22 ch/qos/logback/core/db/DataSourceConnectionSource.class
+│ +-rw-r--r--  2.0 unx     2772 bl defN 22-Apr-23 08:22 ch/qos/logback/core/db/JNDIConnectionSource.class
+│ +-rw-r--r--  2.0 unx     5974 bl defN 22-Apr-23 08:22 ch/qos/logback/core/db/DBAppenderBase.class
+│ +-rw-r--r--  2.0 unx      568 bl defN 22-Apr-23 08:22 ch/qos/logback/core/db/dialect/HSQLDBDialect.class
+│ +-rw-r--r--  2.0 unx      598 bl defN 22-Apr-23 08:22 ch/qos/logback/core/db/dialect/OracleDialect.class
+│ +-rw-r--r--  2.0 unx     1136 bl defN 22-Apr-23 08:22 ch/qos/logback/core/db/dialect/DBUtil$1.class
+│ +-rw-r--r--  2.0 unx     1519 bl defN 22-Apr-23 08:22 ch/qos/logback/core/db/dialect/SQLDialectCode.class
+│ +-rw-r--r--  2.0 unx      556 bl defN 22-Apr-23 08:22 ch/qos/logback/core/db/dialect/H2Dialect.class
+│ +-rw-r--r--  2.0 unx     3939 bl defN 22-Apr-23 08:22 ch/qos/logback/core/db/dialect/DBUtil.class
+│ +-rw-r--r--  2.0 unx      183 bl defN 22-Apr-23 08:22 ch/qos/logback/core/db/dialect/SQLDialect.class
+│ +-rw-r--r--  2.0 unx      603 bl defN 22-Apr-23 08:22 ch/qos/logback/core/db/dialect/PostgreSQLDialect.class
+│ +-rw-r--r--  2.0 unx      580 bl defN 22-Apr-23 08:22 ch/qos/logback/core/db/dialect/MySQLDialect.class
+│ +-rw-r--r--  2.0 unx      606 bl defN 22-Apr-23 08:22 ch/qos/logback/core/db/dialect/SybaseSqlAnywhereDialect.class
+│ +-rw-r--r--  2.0 unx      580 bl defN 22-Apr-23 08:22 ch/qos/logback/core/db/dialect/SQLiteDialect.class
+│ +-rw-r--r--  2.0 unx      570 bl defN 22-Apr-23 08:22 ch/qos/logback/core/db/dialect/MsSQLDialect.class
+│ +-rw-r--r--  2.0 unx      789 bl defN 22-Apr-23 08:22 ch/qos/logback/core/db/DBHelper.class
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 08:22 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 08:22 META-INF/maven/ch.qos.logback.db/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 08:22 META-INF/maven/ch.qos.logback.db/logback-core-db/
+│ +-rw-rw-r--  2.0 unx     2304 bl defN 22-Apr-23 08:22 META-INF/maven/ch.qos.logback.db/logback-core-db/pom.xml
+│ +-rw-r--r--  2.0 unx      132 bl defN 22-Apr-23 08:22 META-INF/maven/ch.qos.logback.db/logback-core-db/pom.properties
+│ +33 files, 34341 bytes uncompressed, 16698 bytes compressed:  51.4%
+├── zipnote «TEMP»/diffoscope_b2bh85gc_target/tmpusf42mjg.zip
+│ @@ -18,72 +18,72 @@
+│  
+│  Filename: ch/qos/logback/core/db/
+│  Comment: 
+│  
+│  Filename: ch/qos/logback/core/db/dialect/
+│  Comment: 
+│  
+│ -Filename: ch/qos/logback/core/db/BindDataSourceToJNDIAction.class
+│ -Comment: 
+│ -
+│  Filename: ch/qos/logback/core/db/ConnectionSource.class
+│  Comment: 
+│  
+│  Filename: ch/qos/logback/core/db/ConnectionSourceBase.class
+│  Comment: 
+│  
+│ -Filename: ch/qos/logback/core/db/DataSourceConnectionSource.class
+│ +Filename: ch/qos/logback/core/db/DriverManagerConnectionSource.class
+│  Comment: 
+│  
+│ -Filename: ch/qos/logback/core/db/DBAppenderBase.class
+│ +Filename: ch/qos/logback/core/db/BindDataSourceToJNDIAction.class
+│  Comment: 
+│  
+│ -Filename: ch/qos/logback/core/db/DBHelper.class
+│ +Filename: ch/qos/logback/core/db/DataSourceConnectionSource.class
+│  Comment: 
+│  
+│ -Filename: ch/qos/logback/core/db/dialect/DBUtil$1.class
+│ +Filename: ch/qos/logback/core/db/JNDIConnectionSource.class
+│  Comment: 
+│  
+│ -Filename: ch/qos/logback/core/db/dialect/DBUtil.class
+│ +Filename: ch/qos/logback/core/db/DBAppenderBase.class
+│  Comment: 
+│  
+│ -Filename: ch/qos/logback/core/db/dialect/H2Dialect.class
+│ +Filename: ch/qos/logback/core/db/dialect/HSQLDBDialect.class
+│  Comment: 
+│  
+│ -Filename: ch/qos/logback/core/db/dialect/HSQLDBDialect.class
+│ +Filename: ch/qos/logback/core/db/dialect/OracleDialect.class
+│  Comment: 
+│  
+│ -Filename: ch/qos/logback/core/db/dialect/MsSQLDialect.class
+│ +Filename: ch/qos/logback/core/db/dialect/DBUtil$1.class
+│  Comment: 
+│  
+│ -Filename: ch/qos/logback/core/db/dialect/MySQLDialect.class
+│ +Filename: ch/qos/logback/core/db/dialect/SQLDialectCode.class
+│  Comment: 
+│  
+│ -Filename: ch/qos/logback/core/db/dialect/OracleDialect.class
+│ +Filename: ch/qos/logback/core/db/dialect/H2Dialect.class
+│  Comment: 
+│  
+│ -Filename: ch/qos/logback/core/db/dialect/PostgreSQLDialect.class
+│ +Filename: ch/qos/logback/core/db/dialect/DBUtil.class
+│  Comment: 
+│  
+│  Filename: ch/qos/logback/core/db/dialect/SQLDialect.class
+│  Comment: 
+│  
+│ -Filename: ch/qos/logback/core/db/dialect/SQLDialectCode.class
+│ +Filename: ch/qos/logback/core/db/dialect/PostgreSQLDialect.class
+│  Comment: 
+│  
+│ -Filename: ch/qos/logback/core/db/dialect/SQLiteDialect.class
+│ +Filename: ch/qos/logback/core/db/dialect/MySQLDialect.class
+│  Comment: 
+│  
+│  Filename: ch/qos/logback/core/db/dialect/SybaseSqlAnywhereDialect.class
+│  Comment: 
+│  
+│ -Filename: ch/qos/logback/core/db/DriverManagerConnectionSource.class
+│ +Filename: ch/qos/logback/core/db/dialect/SQLiteDialect.class
+│  Comment: 
+│  
+│ -Filename: ch/qos/logback/core/db/JNDIConnectionSource.class
+│ +Filename: ch/qos/logback/core/db/dialect/MsSQLDialect.class
+│ +Comment: 
+│ +
+│ +Filename: ch/qos/logback/core/db/DBHelper.class
+│  Comment: 
+│  
+│  Filename: META-INF/maven/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/ch.qos.logback.db/
+│  Comment:
+├── META-INF/MANIFEST.MF
+│ @@ -1,6 +1,6 @@
+│  Manifest-Version: 1.0
+
+│  Archiver-Version: Plexus Archiver
+
+│ -Built-By: ceki
+
+│ -Created-By: Apache Maven 3.5.2
+
+│ -Build-Jdk: 1.8.0_311
+
+│ +Built-By: ?
+
+│ +Created-By: Apache Maven 3.6.3
+
+│ +Build-Jdk: 1.8.0_275
+
+├── META-INF/maven/ch.qos.logback.db/logback-core-db/pom.properties
+│ @@ -1,5 +1,5 @@
+│  #Generated by Apache Maven
+
+│ -#Wed Apr 20 20:27:26 CEST 2022
+
+│ +#Sat Apr 23 08:22:31 UTC 2022
+
+│  version=1.2.11.1
+
+│  groupId=ch.qos.logback.db
+
+│  artifactId=logback-core-db
+
+2 / 11 target/reference/logback-core-db-1.2.11.1-sources.jar logback-core-db/target/logback-core-db-1.2.11.1-sources.jar
+--- target/reference/logback-core-db-1.2.11.1-sources.jar
++++ logback-core-db/target/logback-core-db-1.2.11.1-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 21878 bytes, number of entries: 34
+│ +Zip file size: 21877 bytes, number of entries: 34
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Apr-20 19:24 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 19:24 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 19:24 ch/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 19:24 ch/qos/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 19:24 ch/qos/logback/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 19:24 ch/qos/logback/core/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-20 19:24 ch/qos/logback/core/db/
+│ @@ -28,9 +28,9 @@
+│  -rw-r--r--  2.0 unx      643 b- defN 22-Apr-20 19:24 ch/qos/logback/core/db/dialect/SQLDialect.java
+│  -rw-r--r--  2.0 unx      718 b- defN 22-Apr-20 19:24 ch/qos/logback/core/db/dialect/SQLDialectCode.java
+│  -rw-r--r--  2.0 unx      948 b- defN 22-Apr-20 19:24 ch/qos/logback/core/db/dialect/SQLiteDialect.java
+│  -rw-r--r--  2.0 unx     1005 b- defN 22-Apr-20 19:24 ch/qos/logback/core/db/dialect/SybaseSqlAnywhereDialect.java
+│  -rw-r--r--  2.0 unx      288 b- defN 22-Apr-20 19:24 ch/qos/logback/core/db/dialect/package.html
+│  -rw-r--r--  2.0 unx      625 b- defN 22-Apr-20 19:24 ch/qos/logback/core/db/package.html
+│  -rw-r--r--  2.0 unx     2304 b- defN 22-Apr-20 19:24 META-INF/maven/ch.qos.logback.db/logback-core-db/pom.xml
+│ --rw-r--r--  2.0 unx      133 b- defN 22-Apr-20 19:24 META-INF/maven/ch.qos.logback.db/logback-core-db/pom.properties
+│ -34 files, 42310 bytes uncompressed, 16584 bytes compressed:  60.8%
+│ +-rw-r--r--  2.0 unx      132 b- defN 22-Apr-20 19:24 META-INF/maven/ch.qos.logback.db/logback-core-db/pom.properties
+│ +34 files, 42309 bytes uncompressed, 16583 bytes compressed:  60.8%
+├── META-INF/maven/ch.qos.logback.db/logback-core-db/pom.properties
+│ @@ -1,5 +1,5 @@
+│  #Generated by Apache Maven
+
+│ -#Wed Apr 20 20:27:26 CEST 2022
+
+│ +#Sat Apr 23 08:22:31 UTC 2022
+
+│  version=1.2.11.1
+
+│  groupId=ch.qos.logback.db
+
+│  artifactId=logback-core-db
+
+...

@@ -1,0 +1,150 @@
+1 / 15 target/reference/helix-1.0.3-source-release.zip target/helix-1.0.3-source-release.zip
+--- target/reference/helix-1.0.3-source-release.zip
++++ target/helix-1.0.3-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 9924857 bytes, number of entries: 2693
+│ +Zip file size: 140124319 bytes, number of entries: 50672
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/.github/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/.github/ISSUE_TEMPLATE/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/.github/scripts/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/.github/workflows/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/helix-admin-webapp/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/helix-admin-webapp/src/
+│ @@ -270,15 +270,5705 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/helix-front/client/app/workflow/shared/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/helix-front/client/app/workflow/workflow-dag/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/helix-front/client/app/workflow/workflow-detail/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/helix-front/client/app/workflow/workflow-list/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/helix-front/client/assets/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/helix-front/client/environments/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/helix-front/client/testing/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/helix-front/dist/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/helix-front/dist/public/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/helix-front/dist/public/assets/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/helix-front/dist/server/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/helix-front/dist/server/controllers/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/helix-front/e2e/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/helix-front/etc/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/helix-front/node/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/helix-front/node/npm/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/helix-front/node/npm/.github/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/helix-front/node/npm/bin/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/helix-front/node/npm/bin/node-gyp-bin/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/helix-front/node/npm/changelogs/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/helix-front/node/npm/doc/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-15 04:20 helix-1.0.3/helix-front/node/npm/doc/cli/
+│ +-rw-r--r--  2.0 unx      236 b- defN 22-Apr-15 04:20 helix-1.0.3/helix-front/node_modules/...
+│ +-rw-r--r--  2.0 unx     4750 b- defN 22-Apr-15 04:20 helix-1.0.3/helix-front/node_modules/zone.js/package.json
+│  -rw-r--r--  2.0 unx   375936 b- defN 22-Apr-15 04:20 helix-1.0.3/helix-front/package-lock.json
+│  -rw-r--r--  2.0 unx     2546 b- defN 22-Apr-15 04:20 helix-1.0.3/helix-front/package.json
+│  -rw-r--r--  2.0 unx     4203 b- defN 22-Apr-15 04:20 helix-1.0.3/helix-front/pom.xml
+│  -rw-r--r--  2.0 unx      756 b- defN 22-Apr-15 04:20 helix-1.0.3/helix-front/protractor.conf.js
+│  -rw-r--r--  2.0 unx       79 b- defN 22-Apr-15 04:20 helix-1.0.3/helix-front/proxy.conf.json
+│  -rw-r--r--  2.0 unx     1950 b- defN 22-Apr-15 04:20 helix-1.0.3/helix-front/server/app.ts
+│  -rw-r--r--  2.0 unx      378 b- defN 22-Apr-15 04:20 helix-1.0.3/helix-front/server/config.ts
+│ @@ -2688,8 +50667,8 @@
+│  -rw-r--r--  2.0 unx     2962 b- defN 22-Apr-15 04:20 helix-1.0.3/zookeeper-api/src/test/java/org/apache/helix/zookeeper/routing/TestZkRoutingDataReader.java
+│  -rw-r--r--  2.0 unx     5434 b- defN 22-Apr-15 04:20 helix-1.0.3/zookeeper-api/src/test/java/org/apache/helix/zookeeper/util/TestRoutingDataManager.java
+│  -rw-r--r--  2.0 unx     3682 b- defN 22-Apr-15 04:20 helix-1.0.3/zookeeper-api/src/test/java/org/apache/helix/zookeeper/zkclient/TestPrefetchChangedData.java
+│  -rw-r--r--  2.0 unx     3385 b- defN 22-Apr-15 04:20 helix-1.0.3/zookeeper-api/src/test/java/org/apache/helix/zookeeper/zkclient/TestZkConnection.java
+│  -rw-r--r--  2.0 unx     2570 b- defN 22-Apr-15 04:20 helix-1.0.3/zookeeper-api/src/test/resources/log4j2.properties
+│  -rw-r--r--  2.0 unx     3873 b- defN 22-Apr-15 04:20 helix-1.0.3/zookeeper-api/zookeeper-api-1.0.3-SNAPSHOT.ivy
+│  -rw-r--r--  2.0 unx      262 b- defN 22-Apr-15 04:20 helix-1.0.3/DEPENDENCIES
+│ -2693 files, 20924856 bytes uncompressed, 9283809 bytes compressed:  55.6%
+│ +50672 files, 447220540 bytes uncompressed, 128385427 bytes compressed:  71.3%
+
+2 / 15 target/reference/metadata-store-directory-common-1.0.3.jar metadata-store-directory-common/target/metadata-store-directory-common-1.0.3.jar
+--- target/reference/metadata-store-directory-common-1.0.3.jar
++++ metadata-store-directory-common/target/metadata-store-directory-common-1.0.3.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 22144 bytes, number of entries: 29
+│ +Zip file size: 22148 bytes, number of entries: 29
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     1567 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     3442 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat      199 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.helix/
+│ @@ -21,11 +21,11 @@
+│  -rw----     2.0 fat      697 bl defN 80-Feb-01 00:00 org/apache/helix/msdcommon/datamodel/MetadataStoreRoutingData.class
+│  -rw----     2.0 fat     1875 bl defN 80-Feb-01 00:00 org/apache/helix/msdcommon/datamodel/TrieRoutingData$TrieNode.class
+│  -rw----     2.0 fat     7647 bl defN 80-Feb-01 00:00 org/apache/helix/msdcommon/datamodel/TrieRoutingData.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/helix/msdcommon/exception/
+│  -rw----     2.0 fat      444 bl defN 80-Feb-01 00:00 org/apache/helix/msdcommon/exception/InvalidRoutingDataException.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/helix/msdcommon/mock/
+│  -rw----     2.0 fat     1406 bl defN 80-Feb-01 00:00 org/apache/helix/msdcommon/mock/MockMetadataStoreDirectoryServer$SupportedHttpVerbs.class
+│ --rw----     2.0 fat     7892 bl defN 80-Feb-01 00:00 org/apache/helix/msdcommon/mock/MockMetadataStoreDirectoryServer.class
+│ +-rw----     2.0 fat     7906 bl defN 80-Feb-01 00:00 org/apache/helix/msdcommon/mock/MockMetadataStoreDirectoryServer.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/helix/msdcommon/util/
+│  -rw----     2.0 fat      553 bl defN 80-Feb-01 00:00 org/apache/helix/msdcommon/util/ZkValidationUtil.class
+│ -29 files, 43008 bytes uncompressed, 17012 bytes compressed:  60.4%
+│ +29 files, 43022 bytes uncompressed, 17016 bytes compressed:  60.4%
+├── org/apache/helix/msdcommon/datamodel/TrieRoutingData.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -808,15 +808,15 @@
+│ │          line 166: 73
+│ │          line 168: 75
+│ │          line 163: 77
+│ │          line 170: 83
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │             54      23     7 pathSection   Ljava/lang/String;
+│ │ -           69      11     3 nextNode   Lorg/apache/helix/msdcommon/datamodel/TrieRoutingData$TrieNode;
+│ │ +           69      14     3 nextNode   Lorg/apache/helix/msdcommon/datamodel/TrieRoutingData$TrieNode;
+│ │              0      85     0  this   Lorg/apache/helix/msdcommon/datamodel/TrieRoutingData;
+│ │              0      85     1  path   Ljava/lang/String;
+│ │             19      66     2 curNode   Lorg/apache/helix/msdcommon/datamodel/TrieRoutingData$TrieNode;
+│ │        StackMapTable: number_of_entries = 4
+│ │          frame_type = 14 /* same */
+│ │          frame_type = 255 /* full_frame */
+│ │            offset_delta = 25
+├── org/apache/helix/msdcommon/mock/MockMetadataStoreDirectoryServer.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,99 +1,99 @@
+│ │    Compiled from "MockMetadataStoreDirectoryServer.java"
+│ │  public class org.apache.helix.msdcommon.mock.MockMetadataStoreDirectoryServer
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+│ │ -  this_class: #35                         // org/apache/helix/msdcommon/mock/MockMetadataStoreDirectoryServer
+│ │ +  this_class: #36                         // org/apache/helix/msdcommon/mock/MockMetadataStoreDirectoryServer
+│ │    super_class: #84                        // java/lang/Object
+│ │    interfaces: 0, fields: 13, methods: 10, attributes: 3
+│ │  Constant pool:
+│ │ -    #1 = Methodref          #84.#169      // java/lang/Object."<init>":()V
+│ │ -    #2 = Methodref          #170.#171     // java/util/concurrent/Executors.newFixedThreadPool:(I)Ljava/util/concurrent/ExecutorService;
+│ │ -    #3 = Class              #172          // java/util/concurrent/ThreadPoolExecutor
+│ │ -    #4 = Fieldref           #35.#173      // org/apache/helix/msdcommon/mock/MockMetadataStoreDirectoryServer._executor:Ljava/util/concurrent/ThreadPoolExecutor;
+│ │ -    #5 = Methodref          #174.#175     // java/lang/String.isEmpty:()Z
+│ │ -    #6 = Class              #176          // java/lang/IllegalArgumentException
+│ │ -    #7 = String             #177          // hostname cannot be null or empty!
+│ │ -    #8 = Methodref          #6.#178       // java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+│ │ -    #9 = Integer            65535
+│ │ -   #10 = String             #179          // port is not a valid port!
+│ │ -   #11 = String             #180          // namespace cannot be null or empty!
+│ │ -   #12 = InterfaceMethodref #181.#175     // java/util/Map.isEmpty:()Z
+│ │ -   #13 = String             #182          // routingData cannot be null or empty!
+│ │ -   #14 = Fieldref           #35.#183      // org/apache/helix/msdcommon/mock/MockMetadataStoreDirectoryServer._hostname:Ljava/lang/String;
+│ │ -   #15 = Fieldref           #35.#184      // org/apache/helix/msdcommon/mock/MockMetadataStoreDirectoryServer._mockServerPort:I
+│ │ -   #16 = Fieldref           #35.#185      // org/apache/helix/msdcommon/mock/MockMetadataStoreDirectoryServer._namespace:Ljava/lang/String;
+│ │ -   #17 = Fieldref           #35.#186      // org/apache/helix/msdcommon/mock/MockMetadataStoreDirectoryServer._routingDataMap:Ljava/util/Map;
+│ │ -   #18 = Class              #187          // java/net/InetSocketAddress
+│ │ -   #19 = Methodref          #18.#188      // java/net/InetSocketAddress."<init>":(Ljava/lang/String;I)V
+│ │ -   #20 = Methodref          #189.#190     // com/sun/net/httpserver/HttpServer.create:(Ljava/net/InetSocketAddress;I)Lcom/sun/net/httpserver/HttpServer;
+│ │ -   #21 = Fieldref           #35.#191      // org/apache/helix/msdcommon/mock/MockMetadataStoreDirectoryServer._server:Lcom/sun/net/httpserver/HttpServer;
+│ │ -   #22 = Methodref          #35.#192      // org/apache/helix/msdcommon/mock/MockMetadataStoreDirectoryServer.generateContexts:()V
+│ │ -   #23 = Methodref          #189.#193     // com/sun/net/httpserver/HttpServer.setExecutor:(Ljava/util/concurrent/Executor;)V
+│ │ -   #24 = Methodref          #189.#194     // com/sun/net/httpserver/HttpServer.start:()V
+│ │ -   #25 = Fieldref           #35.#195      // org/apache/helix/msdcommon/mock/MockMetadataStoreDirectoryServer.LOG:Lorg/slf4j/Logger;
+│ │ -   #26 = Class              #196          // java/lang/StringBuilder
+│ │ -   #27 = Methodref          #26.#169      // java/lang/StringBuilder."<init>":()V
+│ │ -   #28 = String             #197          // Started MockMetadataStoreDirectoryServer at
+│ │ -   #29 = Methodref          #26.#198      // java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │ -   #30 = String             #199          // :
+│ │ -   #31 = Methodref          #26.#200      // java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+│ │ -   #32 = String             #201          // !
+...

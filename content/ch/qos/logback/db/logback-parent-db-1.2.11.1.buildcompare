@@ -1,0 +1,18 @@
+version=1.2.11.1
+ok=4
+ko=11
+okFiles="logback-parent-db-1.2.11.1.pom logback-core-db-1.2.11.1.pom logback-classic-db-1.2.11.1.pom logback-access-db-1.2.11.1.pom"
+koFiles="logback-core-db-1.2.11.1.jar logback-core-db-1.2.11.1-sources.jar logback-core-db-1.2.11.1-tests.jar logback-classic-db-1.2.11.1.jar logback-classic-db-1.2.11.1-sources.jar logback-classic-db-1.2.11.1-test-sources.jar logback-classic-db-1.2.11.1-tests.jar logback-access-db-1.2.11.1.jar logback-access-db-1.2.11.1-sources.jar logback-access-db-1.2.11.1-test-sources.jar logback-access-db-1.2.11.1-tests.jar"
+reference_java_version="1.8.0_311 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/logback-core-db-1.2.11.1.jar logback-core-db/target/logback-core-db-1.2.11.1.jar
+# diffoscope target/reference/logback-core-db-1.2.11.1-sources.jar logback-core-db/target/logback-core-db-1.2.11.1-sources.jar
+# diffoscope target/reference/logback-core-db-1.2.11.1-tests.jar logback-core-db/target/logback-core-db-1.2.11.1-tests.jar
+# diffoscope target/reference/logback-classic-db-1.2.11.1.jar logback-classic-db/target/logback-classic-db-1.2.11.1.jar
+# diffoscope target/reference/logback-classic-db-1.2.11.1-sources.jar logback-classic-db/target/logback-classic-db-1.2.11.1-sources.jar
+# diffoscope target/reference/logback-classic-db-1.2.11.1-test-sources.jar logback-classic-db/target/logback-classic-db-1.2.11.1-test-sources.jar
+# diffoscope target/reference/logback-classic-db-1.2.11.1-tests.jar logback-classic-db/target/logback-classic-db-1.2.11.1-tests.jar
+# diffoscope target/reference/logback-access-db-1.2.11.1.jar logback-access-db/target/logback-access-db-1.2.11.1.jar
+# diffoscope target/reference/logback-access-db-1.2.11.1-sources.jar logback-access-db/target/logback-access-db-1.2.11.1-sources.jar
+# diffoscope target/reference/logback-access-db-1.2.11.1-test-sources.jar logback-access-db/target/logback-access-db-1.2.11.1-test-sources.jar
+# diffoscope target/reference/logback-access-db-1.2.11.1-tests.jar logback-access-db/target/logback-access-db-1.2.11.1-tests.jar
