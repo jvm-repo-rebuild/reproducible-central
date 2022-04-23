@@ -66,9 +66,9 @@ Notice the anchor in the link.
 Nightly Rebuild: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
 
 <!-- BEGIN GENERATED INTRO -->
-rebuilding **840 releases** of **257 projects**:
+rebuilding **843 releases** of **259 projects**:
 - **576** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 264 had issues (some unreproducible artifacts :warning:):
+- 267 had issues (some unreproducible artifacts :warning:):
 
 <!-- END GENERATED INTRO -->
 
@@ -76,6 +76,7 @@ rebuilding **840 releases** of **257 projects**:
 | [Central Repository](https://search.maven.org/) groupId | artifactId(s) | versions | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
 | ----------------- | --------------- | --------- | -------- |
 | biz.aQute.bnd | <a name='biz.aQute.bnd:bnd-plugin-parent'></a>[bnd-plugin-parent](content/biz/aQute/bnd/plugins/README.md) | 5 | 5 :heavy_check_mark: |
+| ch.qos.logback.db | <a name='ch.qos.logback.db:logback-parent-db'></a>[logback-parent-db](content/ch/qos/logback/db/README.md) | 1 | 1 :warning: |
 | ch.qos.logback | <a name='ch.qos.logback:logback-parent'></a>[logback-parent](content/ch/qos/logback/README.md) | 3 | 1 :heavy_check_mark: / 2 :warning: |
 | ch.qos.reload4j | <a name='ch.qos.reload4j:reload4j'></a>[reload4j](content/ch/qos/reload4j/README.md) | 3 | 3 :warning: |
 | com.adobe.acs | <a name='com.adobe.acs:acs-aem-commons'></a>[acs-aem-commons](content/com/adobe/acs/aem-commons/README.md) | 1 | 1 :warning: |
@@ -84,6 +85,7 @@ rebuilding **840 releases** of **257 projects**:
 | com.github.package-url | <a name='com.github.package-url:packageurl-java'></a>[packageurl-java](content/com/github/package-url/packageurl-java/README.md) | 3 | 3 :heavy_check_mark: |
 | com.github.psi-probe | <a name='com.github.psi-probe:psi-probe'></a>[psi-probe](content/com/github/psi-probe/README.md) | 1 | 1 :warning: |
 | com.github.veithen.checkt | <a name='com.github.veithen.checkt:checkt'></a>[checkt](content/com/github/veithen/checkt/README.md) | 1 | 1 :heavy_check_mark: |
+|  | <a name=':'></a>[](content/com/github/veithen/jrel/README.md) | 0 | 0 :warning: |
 | com.github.veithen.maven | <a name='com.github.veithen.maven:java-format-maven-plugin'></a>[java-format-maven-plugin](content/com/github/veithen/maven/java-format-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | com.github.veithen | <a name='com.github.veithen:parent'></a>[parent](content/com/github/veithen/parent/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | com.io7m.jade | <a name='com.io7m.jade:com.io7m.jade'></a>[com.io7m.jade](content/com/io7m/jade/README.md) | 1 | 1 :warning: |
@@ -128,13 +130,14 @@ rebuilding **840 releases** of **257 projects**:
 | | <a name='org.apache.felix:org.apache.felix.http.parent'></a>[*.http.parent](content/org/apache/felix/http/parent/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.felix:maven-bundle-plugin'></a>[maven-bundle-plugin](content/org/apache/felix/maven-bundle-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.felix:felix-parent'></a>[felix-parent](content/org/apache/felix/pom/README.md) | 1 | 1 :heavy_check_mark: |
+| org.apache.helix | <a name='org.apache.helix:helix'></a>[helix](content/org/apache/helix/README.md) | 1 | 1 :warning: |
 | org.apache.httpcomponents | <a name='org.apache.httpcomponents:httpcomponents-parent'></a>[httpcomponents-parent](content/org/apache/httpcomponents/parent/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.jackrabbit | <a name='org.apache.jackrabbit:filevault-package-maven-plugin'></a>[filevault-package-maven-plugin](content/org/apache/jackrabbit/filevault-package-maven-plugin/README.md) | 5 | 5 :heavy_check_mark: |
 | org.apache.jackrabbit.vault | <a name='org.apache.jackrabbit.vault:jackrabbit-filevault'></a>[jackrabbit-filevault](content/org/apache/jackrabbit/filevault/README.md) | 7 | 7 :warning: |
 | org.apache.jena | <a name='org.apache.jena:jena'></a>[jena](content/org/apache/jena/jena/README.md) | 8 | 8 :warning: |
 | org.apache.jspwiki | <a name='org.apache.jspwiki:jspwiki-builder'></a>[jspwiki-builder](content/org/apache/jspwiki/README.md) | 5 | 5 :warning: |
 | org.apache.karaf | <a name='org.apache.karaf:decanter'></a>[decanter](content/org/apache/karaf/decanter/README.md) | 1 | 1 :warning: |
-| | <a name='org.apache.karaf:karaf'></a>[karaf](content/org/apache/karaf/karaf/README.md) | 2 | 2 :warning: |
+| | <a name='org.apache.karaf:karaf'></a>[karaf](content/org/apache/karaf/karaf/README.md) | 3 | 3 :warning: |
 | org.apache.logging | <a name='org.apache.logging:logging-parent'></a>[logging-parent](content/org/apache/logging/parent/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | org.apache.maven.archetype | <a name='org.apache.maven.archetype:maven-archetype'></a>[maven-archetype](content/org/apache/maven/archetype/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.maven.doxia | <a name='org.apache.maven.doxia:doxia-sitetools'></a>[doxia-sitetools](content/org/apache/maven/doxia/doxia-sitetools/README.md) | 5 | 5 :heavy_check_mark: |
@@ -332,7 +335,7 @@ rebuilding **840 releases** of **257 projects**:
 | org.webjars | <a name='org.webjars:flexmonster'></a>[flexmonster](content/org/webjars/flexmonster/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.webjars:swagger-ui'></a>[swagger-ui](content/org/webjars/swagger-ui/README.md) | 6 | 6 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 5 | 5 :warning: |
-| **Count:** | **257** | **840** | **576** :heavy_check_mark: **264** :warning: |
+| **Count:** | **259** | **843** | **576** :heavy_check_mark: **267** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ## Understanding What Is Behind
