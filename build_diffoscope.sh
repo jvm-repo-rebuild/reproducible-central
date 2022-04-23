@@ -1,11 +1,14 @@
 #!/usr/bin/env bash
 
+# path to .buildcompare file
 compare=$1
+# relative path to source code, usually buildcache/${artifactId}
 builddir=$2
 
 diffoscope_file=$(dirname ${compare})/$(basename ${compare} .buildcompare).diffoscope
+count="$(grep "^# diffoscope" ${compare} | wc -l)"
 
-echo -e "saving build diffoscope file to \033[1m${diffoscope_file}\033[0m"
+echo -e "saving build diffoscope file to \033[1m${diffoscope_file}\033[0m for $count issues"
 
 sed="sed"
 if [ "$(uname -s)" ==  "Darwin" ]
@@ -14,9 +17,11 @@ then
   sed="gsed"
 fi
 
+counter=0
 grep '# diffoscope ' ${compare} | ${sed} -e 's/# diffoscope //' | ( while read -r line
 do
-  echo -e "\033[1m$line\033[0m"
+  ((counter++))
+  echo -e "$counter / $count \033[1m$line\033[0m"
   docker run --rm -t -w /mnt -v $(pwd)/$(dirname ${compare})/${builddir}:/mnt:ro registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress $line
   echo
 done ) | tee ${diffoscope_file}
