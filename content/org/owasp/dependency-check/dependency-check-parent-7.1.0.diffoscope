@@ -1,0 +1,127 @@
+1 /        8 target/reference/dependency-check-utils-7.1.0.jar utils/target/dependency-check-utils-7.1.0.jar
+--- target/reference/dependency-check-utils-7.1.0.jar
++++ utils/target/dependency-check-utils-7.1.0.jar
+├── zipinfo {}
+│ @@ -1,20 +1,20 @@
+│ -Zip file size: 55052 bytes, number of entries: 41
+│ +Zip file size: 55055 bytes, number of entries: 41
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 09:43 META-INF/
+│  -rw-r--r--  2.0 unx      189 b- defN 22-Apr-23 09:43 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 09:43 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 09:43 org/owasp/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 09:43 org/owasp/dependencycheck/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 09:43 org/owasp/dependencycheck/utils/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 09:43 org/owasp/dependencycheck/utils/processing/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 09:43 org/owasp/dependencycheck/utils/search/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 09:43 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 09:43 META-INF/maven/org.owasp/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 09:43 META-INF/maven/org.owasp/dependency-check-utils/
+│ --rw-r--r--  2.0 unx      793 b- defN 22-Apr-23 09:43 git.properties
+│ +-rw-r--r--  2.0 unx      796 b- defN 22-Apr-23 09:43 git.properties
+│  -rw-r--r--  2.0 unx     5297 b- defN 22-Apr-23 09:43 org/owasp/dependencycheck/utils/Checksum.class
+│  -rw-r--r--  2.0 unx      619 b- defN 22-Apr-23 09:43 org/owasp/dependencycheck/utils/CveUrlParser.class
+│  -rw-r--r--  2.0 unx     1585 b- defN 22-Apr-23 09:43 org/owasp/dependencycheck/utils/DefaultCveUrlModifiedParser.class
+│  -rw-r--r--  2.0 unx      850 b- defN 22-Apr-23 09:43 org/owasp/dependencycheck/utils/DownloadFailedException.class
+│  -rw-r--r--  2.0 unx     5405 b- defN 22-Apr-23 09:43 org/owasp/dependencycheck/utils/Downloader.class
+│  -rw-r--r--  2.0 unx     1497 b- defN 22-Apr-23 09:43 org/owasp/dependencycheck/utils/ExpectedObjectInputStream.class
+│  -rw-r--r--  2.0 unx      838 b- defN 22-Apr-23 09:43 org/owasp/dependencycheck/utils/ExtractionException.class
+│ @@ -36,8 +36,8 @@
+│  -rw-r--r--  2.0 unx     3154 b- defN 22-Apr-23 09:43 org/owasp/dependencycheck/utils/processing/ProcessReader.class
+│  -rw-r--r--  2.0 unx     1499 b- defN 22-Apr-23 09:43 org/owasp/dependencycheck/utils/processing/Processor.class
+│  -rw-r--r--  2.0 unx      148 b- defN 22-Apr-23 09:43 org/owasp/dependencycheck/utils/processing/package-info.class
+│  -rw-r--r--  2.0 unx     3163 b- defN 22-Apr-23 09:43 org/owasp/dependencycheck/utils/search/FileContentSearch.class
+│  -rw-r--r--  2.0 unx      144 b- defN 22-Apr-23 09:43 org/owasp/dependencycheck/utils/search/package-info.class
+│  -rw-r--r--  2.0 unx     4390 b- defN 22-Apr-23 09:43 META-INF/maven/org.owasp/dependency-check-utils/pom.xml
+│  -rw-r--r--  2.0 unx       66 b- defN 22-Apr-23 09:43 META-INF/maven/org.owasp/dependency-check-utils/pom.properties
+│ -41 files, 104851 bytes uncompressed, 48008 bytes compressed:  54.2%
+│ +41 files, 104854 bytes uncompressed, 48011 bytes compressed:  54.2%
+├── git.properties
+│ @@ -13,8 +13,8 @@
+│  git.commit.message.short=[maven-release-plugin] prepare release v7.1.0
+│  git.commit.time=2022-04-23T09\:43\:11Z
+│  git.dirty=false
+│  git.local.branch.ahead=NO_REMOTE
+│  git.local.branch.behind=NO_REMOTE
+│  git.remote.origin.url=https\://github.com/jeremylong/DependencyCheck
+│  git.tags=v7.1.0
+│ -git.total.commit.count=1
+│ +git.total.commit.count=8459
+
+7 /        8 target/reference/dependency-check-maven-7.1.0.jar maven/target/dependency-check-maven-7.1.0.jar
+--- target/reference/dependency-check-maven-7.1.0.jar
++++ maven/target/dependency-check-maven-7.1.0.jar
+├── zipinfo {}
+│ @@ -1,32 +1,32 @@
+│ -Zip file size: 102257 bytes, number of entries: 30
+│ +Zip file size: 102266 bytes, number of entries: 30
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 09:43 META-INF/
+│  -rw-r--r--  2.0 unx      196 b- defN 22-Apr-23 09:43 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 09:43 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 09:43 META-INF/maven/org.owasp/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 09:43 META-INF/maven/org.owasp/dependency-check-maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 09:43 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 09:43 org/owasp/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 09:43 org/owasp/dependencycheck/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-23 09:43 org/owasp/dependencycheck/maven/
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Apr-23 09:43 META-INF/LICENSE.txt
+│  -rw-r--r--  2.0 unx      505 b- defN 22-Apr-23 09:43 META-INF/NOTICE.txt
+│  -rw-r--r--  2.0 unx   191634 b- defN 22-Apr-23 09:43 META-INF/maven/org.owasp/dependency-check-maven/plugin-help.xml
+│  -rw-r--r--  2.0 unx   218480 b- defN 22-Apr-23 09:43 META-INF/maven/plugin.xml
+│ --rw-r--r--  2.0 unx      793 b- defN 22-Apr-23 09:43 git.properties
+│ +-rw-r--r--  2.0 unx      796 b- defN 22-Apr-23 09:43 git.properties
+│  -rw-r--r--  2.0 unx      245 b- defN 22-Apr-23 09:43 mojo.properties
+│  -rw-r--r--  2.0 unx     9681 b- defN 22-Apr-23 09:43 org/owasp/dependencycheck/maven/AggregateMojo.class
+│  -rw-r--r--  2.0 unx     1243 b- defN 22-Apr-23 09:43 org/owasp/dependencycheck/maven/ArtifactScopeExcluded.class
+│  -rw-r--r--  2.0 unx      974 b- defN 22-Apr-23 09:43 org/owasp/dependencycheck/maven/ArtifactTypeExcluded.class
+│  -rw-r--r--  2.0 unx    64432 b- defN 22-Apr-23 09:43 org/owasp/dependencycheck/maven/BaseDependencyCheckMojo.class
+│  -rw-r--r--  2.0 unx     2673 b- defN 22-Apr-23 09:43 org/owasp/dependencycheck/maven/CheckMojo.class
+│  -rw-r--r--  2.0 unx     1781 b- defN 22-Apr-23 09:43 org/owasp/dependencycheck/maven/FilteringDependencyTransitiveNodeVisitor.class
+│ --rw-r--r--  2.0 unx    11134 b- defN 22-Apr-23 09:43 org/owasp/dependencycheck/maven/HelpMojo.class
+│ +-rw-r--r--  2.0 unx    11118 b- defN 22-Apr-23 09:43 org/owasp/dependencycheck/maven/HelpMojo.class
+│  -rw-r--r--  2.0 unx     1066 b- defN 22-Apr-23 09:43 org/owasp/dependencycheck/maven/Mshared998Util$M31ArtifactResult.class
+│  -rw-r--r--  2.0 unx     1905 b- defN 22-Apr-23 09:43 org/owasp/dependencycheck/maven/Mshared998Util.class
+│  -rw-r--r--  2.0 unx     2587 b- defN 22-Apr-23 09:43 org/owasp/dependencycheck/maven/PurgeMojo.class
+│  -rw-r--r--  2.0 unx      953 b- defN 22-Apr-23 09:43 org/owasp/dependencycheck/maven/Retirejs.class
+│  -rw-r--r--  2.0 unx     3962 b- defN 22-Apr-23 09:43 org/owasp/dependencycheck/maven/UpdateMojo.class
+│  -rw-r--r--  2.0 unx      137 b- defN 22-Apr-23 09:43 org/owasp/dependencycheck/maven/package-info.class
+│  -rw-r--r--  2.0 unx     8891 b- defN 22-Apr-23 09:43 META-INF/maven/org.owasp/dependency-check-maven/pom.xml
+│  -rw-r--r--  2.0 unx       66 b- defN 22-Apr-23 09:43 META-INF/maven/org.owasp/dependency-check-maven/pom.properties
+│ -30 files, 534696 bytes uncompressed, 97605 bytes compressed:  81.7%
+│ +30 files, 534683 bytes uncompressed, 97614 bytes compressed:  81.7%
+├── git.properties
+│ @@ -13,8 +13,8 @@
+│  git.commit.message.short=[maven-release-plugin] prepare release v7.1.0
+│  git.commit.time=2022-04-23T09\:43\:11Z
+│  git.dirty=false
+│  git.local.branch.ahead=NO_REMOTE
+│  git.local.branch.behind=NO_REMOTE
+│  git.remote.origin.url=https\://github.com/jeremylong/DependencyCheck
+│  git.tags=v7.1.0
+│ -git.total.commit.count=1
+│ +git.total.commit.count=8459
+├── org/owasp/dependencycheck/maven/HelpMojo.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,514 +1,499 @@
+│ │    Compiled from "HelpMojo.java"
+│ │  public class org.owasp.dependencycheck.maven.HelpMojo extends org.apache.maven.plugin.AbstractMojo
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+│ │ -  this_class: #3                          // org/owasp/dependencycheck/maven/HelpMojo
+│ │ -  super_class: #123                       // org/apache/maven/plugin/AbstractMojo
+│ │ +  this_class: #2                          // org/owasp/dependencycheck/maven/HelpMojo
+│ │ +  super_class: #4                         // org/apache/maven/plugin/AbstractMojo
+│ │    interfaces: 0, fields: 6, methods: 16, attributes: 2
+│ │  Constant pool:
+│ │ -    #1 = Methodref          #123.#275     // org/apache/maven/plugin/AbstractMojo."<init>":()V
+│ │ -    #2 = Methodref          #3.#276       // org/owasp/dependencycheck/maven/HelpMojo.getLog:()Lorg/apache/maven/plugin/logging/Log;
+│ │ -    #3 = Class              #277          // org/owasp/dependencycheck/maven/HelpMojo
+│ │ -    #4 = String             #278          // load plugin-help.xml: /META-INF/maven/org.owasp/dependency-check-maven/plugin-help.xml
+...
+│ │ -  #181 = Utf8               version
+│ │ -  #182 = Utf8               id
+│ │ +    #1 = Utf8               org/owasp/dependencycheck/maven/HelpMojo
+│ │ +    #2 = Class              #1            // org/owasp/dependencycheck/maven/HelpMojo
+│ │ +    #3 = Utf8               org/apache/maven/plugin/AbstractMojo
+│ │ +    #4 = Class              #3            // org/apache/maven/plugin/AbstractMojo
+...
