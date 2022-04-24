@@ -13,6 +13,7 @@ rebuilding **9 releases** of org.owasp.antisamy:antisamy:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.6.8](https://search.maven.org/artifact/org.owasp.antisamy/antisamy/1.6.8/pom) | | | |
 | [1.6.7](https://search.maven.org/artifact/org.owasp.antisamy/antisamy/1.6.7/pom) | [mvn jdk8](antisamy-1.6.7.buildspec) | [result](antisamy-1.6.7.buildinfo): [3 :heavy_check_mark: ](antisamy-1.6.7.buildcompare) | 318K |
 | [1.6.6.1](https://search.maven.org/artifact/org.owasp.antisamy/antisamy/1.6.6.1/pom) | [mvn jdk8](antisamy-1.6.6.1.buildspec) | [result](antisamy-1.6.6.1.buildinfo): [3 :heavy_check_mark: ](antisamy-1.6.6.1.buildcompare) | 318K |
 | [1.6.6](https://search.maven.org/artifact/org.owasp.antisamy/antisamy/1.6.6/pom) | [mvn jdk8](antisamy-1.6.6.buildspec) | [result](antisamy-1.6.6.buildinfo): [3 :heavy_check_mark: ](antisamy-1.6.6.buildcompare) | 317K |
