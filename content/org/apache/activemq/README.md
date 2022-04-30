@@ -53,12 +53,13 @@ Source code: [https://github.com/apache/activemq.git](https://github.com/apache/
 * [org.apache.activemq:apache-activemq](https://search.maven.org/artifact/org.apache.activemq/apache-activemq/)
 </details>
 
-rebuilding **2 releases** of org.apache.activemq:activemq-parent:
+rebuilding **3 releases** of org.apache.activemq:activemq-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:):
+- 3 had issues (some unreproducible artifacts :warning:):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [5.17.1](https://search.maven.org/artifact/org.apache.activemq/activemq-parent/5.17.1/pom) | [mvn jdk11](activemq-5.17.1.buildspec) | [result](activemq-parent-5.17.1.buildinfo): [107 :heavy_check_mark:  19 :warning:](activemq-parent-5.17.1.buildcompare) [:memo:](https://github.com/apache/activemq/pull/836) | 207M |
 | [5.17.0](https://search.maven.org/artifact/org.apache.activemq/activemq-parent/5.17.0/pom) | [mvn jdk11](activemq-5.17.0.buildspec) | [result](activemq-parent-5.17.0.buildinfo): [111 :heavy_check_mark:  18 :warning:](activemq-parent-5.17.0.buildcompare) [:mag:](activemq-parent-5.17.0.diffoscope) | 207M |
 | [5.16.4](https://search.maven.org/artifact/org.apache.activemq/activemq-parent/5.16.4/pom) | [mvn jdk8](activemq-5.16.4.buildspec) | [result](activemq-parent-5.16.4.buildinfo): [107 :heavy_check_mark:  28 :warning:](activemq-parent-5.16.4.buildcompare) [:mag:](activemq-parent-5.16.4.diffoscope) | 256M |
 

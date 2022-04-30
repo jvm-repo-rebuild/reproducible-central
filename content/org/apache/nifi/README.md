@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi.git)
 
-<details><summary>This project defines 646 modules:</summary>
+<details><summary>This project defines 649 modules:</summary>
 
 * [org.apache.nifi.minifi:minifi](https://search.maven.org/artifact/org.apache.nifi.minifi/minifi/)
 * [org.apache.nifi.minifi:minifi-assembly](https://search.maven.org/artifact/org.apache.nifi.minifi/minifi-assembly/)
@@ -148,6 +148,7 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-bin-manager](https://search.maven.org/artifact/org.apache.nifi/nifi-bin-manager/)
 * [org.apache.nifi:nifi-bootstrap](https://search.maven.org/artifact/org.apache.nifi/nifi-bootstrap/)
 * [org.apache.nifi:nifi-bootstrap-utils](https://search.maven.org/artifact/org.apache.nifi/nifi-bootstrap-utils/)
+* [org.apache.nifi:nifi-build](https://search.maven.org/artifact/org.apache.nifi/nifi-build/)
 * [org.apache.nifi:nifi-cassandra-bundle](https://search.maven.org/artifact/org.apache.nifi/nifi-cassandra-bundle/)
 * [org.apache.nifi:nifi-cassandra-distributedmapcache-service](https://search.maven.org/artifact/org.apache.nifi/nifi-cassandra-distributedmapcache-service/)
 * [org.apache.nifi:nifi-cassandra-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-cassandra-nar/)
@@ -463,6 +464,7 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-property-protection-factory](https://search.maven.org/artifact/org.apache.nifi/nifi-property-protection-factory/)
 * [org.apache.nifi:nifi-property-protection-gcp](https://search.maven.org/artifact/org.apache.nifi/nifi-property-protection-gcp/)
 * [org.apache.nifi:nifi-property-protection-hashicorp](https://search.maven.org/artifact/org.apache.nifi/nifi-property-protection-hashicorp/)
+* [org.apache.nifi:nifi-property-protection-loader](https://search.maven.org/artifact/org.apache.nifi/nifi-property-protection-loader/)
 * [org.apache.nifi:nifi-property-protection-shared](https://search.maven.org/artifact/org.apache.nifi/nifi-property-protection-shared/)
 * [org.apache.nifi:nifi-property-utils](https://search.maven.org/artifact/org.apache.nifi/nifi-property-utils/)
 * [org.apache.nifi:nifi-provenance-repository-bundle](https://search.maven.org/artifact/org.apache.nifi/nifi-provenance-repository-bundle/)
@@ -654,15 +656,17 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-windows-event-log-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-windows-event-log-nar/)
 * [org.apache.nifi:nifi-windows-event-log-processors](https://search.maven.org/artifact/org.apache.nifi/nifi-windows-event-log-processors/)
 * [org.apache.nifi:nifi-write-ahead-log](https://search.maven.org/artifact/org.apache.nifi/nifi-write-ahead-log/)
+* [org.apache.nifi:nifi-xml-processing](https://search.maven.org/artifact/org.apache.nifi/nifi-xml-processing/)
 * [org.apache.nifi:nifi-yandex-processors](https://search.maven.org/artifact/org.apache.nifi/nifi-yandex-processors/)
 </details>
 
-rebuilding **1 releases** of org.apache.nifi:nifi:
+rebuilding **2 releases** of org.apache.nifi:nifi:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:):
+- 2 had issues (some unreproducible artifacts :warning:):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.16.1](https://search.maven.org/artifact/org.apache.nifi/nifi/1.16.1/pom) | [mvn jdk8](nifi-1.16.1.buildspec) | [result](nifi-1.16.1.buildinfo): [1282 :heavy_check_mark:  371 :warning:](nifi-1.16.1.buildcompare) [:memo:](https://github.com/apache/nifi/pull/5915) | 3.2G |
 | [1.16.0](https://search.maven.org/artifact/org.apache.nifi/nifi/1.16.0/pom) | [mvn jdk8](nifi-1.16.0.buildspec) | [result](nifi-1.16.0.buildinfo): [1273 :heavy_check_mark:  371 :warning:](nifi-1.16.0.buildcompare) [:mag:](nifi-1.16.0.diffoscope) [:memo:](https://github.com/apache/nifi/pull/5915) | 3.4G |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

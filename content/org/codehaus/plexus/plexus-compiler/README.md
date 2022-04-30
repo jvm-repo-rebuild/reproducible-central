@@ -30,6 +30,7 @@ rebuilding **7 releases** of org.codehaus.plexus:plexus-compiler:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.12.0](https://search.maven.org/artifact/org.codehaus.plexus/plexus-compiler/2.12.0/pom) | | | |
 | [2.11.1](https://search.maven.org/artifact/org.codehaus.plexus/plexus-compiler/2.11.1/pom) | [mvn jdk11](plexus-compiler-2.11.1.buildspec) | [result](plexus-compiler-2.11.1.buildinfo): [31 :heavy_check_mark: ](plexus-compiler-2.11.1.buildcompare) | 489K |
 | [2.11.0](https://search.maven.org/artifact/org.codehaus.plexus/plexus-compiler/2.11.0/pom) | [mvn jdk11](plexus-compiler-2.11.0.buildspec) | [result](plexus-compiler-2.11.0.buildinfo): [31 :heavy_check_mark: ](plexus-compiler-2.11.0.buildcompare) | 481K |
 | [2.10.0](https://search.maven.org/artifact/org.codehaus.plexus/plexus-compiler/2.10.0/pom) | [mvn jdk11](plexus-compiler-2.10.0.buildspec) | [result](plexus-compiler-2.10.0.buildinfo): [32 :heavy_check_mark: ](plexus-compiler-2.10.0.buildcompare) | 481K |
