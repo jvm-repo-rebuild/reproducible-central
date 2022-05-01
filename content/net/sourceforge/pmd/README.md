@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/pmd/pmd.git](https://github.com/pmd/pmd.git)
 
-<details><summary>This project defines 36 modules:</summary>
+<details><summary>This project defines 37 modules:</summary>
 
 * [net.sourceforge.pmd:pmd](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/)
 * [net.sourceforge.pmd:pmd-apex](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-apex/)
@@ -21,6 +21,7 @@ Source code: [https://github.com/pmd/pmd.git](https://github.com/pmd/pmd.git)
 * [net.sourceforge.pmd:pmd-fortran](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-fortran/)
 * [net.sourceforge.pmd:pmd-go](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-go/)
 * [net.sourceforge.pmd:pmd-groovy](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-groovy/)
+* [net.sourceforge.pmd:pmd-html](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-html/)
 * [net.sourceforge.pmd:pmd-java](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-java/)
 * [net.sourceforge.pmd:pmd-java8](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-java8/)
 * [net.sourceforge.pmd:pmd-javascript](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-javascript/)
@@ -47,13 +48,13 @@ Source code: [https://github.com/pmd/pmd.git](https://github.com/pmd/pmd.git)
 * [net.sourceforge.pmd:pmd-xml](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-xml/)
 </details>
 
-rebuilding **21 releases** of net.sourceforge.pmd:pmd:
-- **20** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **22 releases** of net.sourceforge.pmd:pmd:
+- **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [6.45.0](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/6.45.0/pom) | | | |
+| [6.45.0](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/6.45.0/pom) | [mvn jdk11](pmd-6.45.0.buildspec) | [result](pmd-6.45.0.buildinfo): [103 :heavy_check_mark: ](pmd-6.45.0.buildcompare) | 16M |
 | [6.44.0](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/6.44.0/pom) | [mvn jdk11](pmd-6.44.0.buildspec) | [result](pmd-6.44.0.buildinfo): [100 :heavy_check_mark: ](pmd-6.44.0.buildcompare) | 16M |
 | [6.43.0](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/6.43.0/pom) | [mvn jdk11](pmd-6.43.0.buildspec) | [result](pmd-6.43.0.buildinfo): [100 :heavy_check_mark: ](pmd-6.43.0.buildcompare) | 16M |
 | [6.42.0](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/6.42.0/pom) | [mvn jdk11](pmd-6.42.0.buildspec) | [result](pmd-6.42.0.buildinfo): [100 :heavy_check_mark: ](pmd-6.42.0.buildcompare) | 16M |
