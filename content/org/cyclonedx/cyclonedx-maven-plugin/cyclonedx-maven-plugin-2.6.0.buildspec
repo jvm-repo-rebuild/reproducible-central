@@ -1,0 +1,17 @@
+groupId=org.cyclonedx
+artifactId=cyclonedx-maven-plugin
+display=${groupId}:${artifactId}
+version=2.6.0
+
+gitRepo=https://github.com/cyclonedx/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildinfo.ignore=cyclonedx.xml,cyclonedx.json"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/cyclonedx/cyclonedx-maven-plugin/cyclonedx-maven-plugin-2.2.0.diffoscope
+#issue=https://github.com/CycloneDX/cyclonedx-maven-plugin/issues/84
