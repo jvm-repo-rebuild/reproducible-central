@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/maven-site-plugin.git](https://github.com/apache/maven-site-plugin.git)
 
-rebuilding **5 releases** of org.apache.maven.plugins:maven-site-plugin:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **6 releases** of org.apache.maven.plugins:maven-site-plugin:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.0.0-M1](https://search.maven.org/artifact/org.apache.maven.plugins/maven-site-plugin/4.0.0-M1/pom) | | | |
+| [4.0.0-M1](https://search.maven.org/artifact/org.apache.maven.plugins/maven-site-plugin/4.0.0-M1/pom) | [mvn jdk8 w](maven-site-plugin-4.0.0-M1.buildspec) | [result](maven-site-plugin-4.0.0-M1.buildinfo): [4 :heavy_check_mark: ](maven-site-plugin-4.0.0-M1.buildcompare) | 1.3M |
 | [3.12.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-site-plugin/3.12.0/pom) | [mvn jdk8 w](maven-site-plugin-3.12.0.buildspec) | [result](maven-site-plugin-3.12.0.buildinfo): [4 :heavy_check_mark: ](maven-site-plugin-3.12.0.buildcompare) | 1.3M |
 | [3.11.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-site-plugin/3.11.0/pom) | [mvn jdk8 w](maven-site-plugin-3.11.0.buildspec) | [result](maven-site-plugin-3.11.0.buildinfo): [4 :heavy_check_mark: ](maven-site-plugin-3.11.0.buildcompare) | 1.3M |
 | [3.10.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-site-plugin/3.10.0/pom) | [mvn jdk8 w](maven-site-plugin-3.10.0.buildspec) | [result](maven-site-plugin-3.10.0.buildinfo): [4 :heavy_check_mark: ](maven-site-plugin-3.10.0.buildcompare) | 1.3M |

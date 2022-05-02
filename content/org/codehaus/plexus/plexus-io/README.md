@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.codehaus.plexus:plexus-io:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.3.1](https://search.maven.org/artifact/org.codehaus.plexus/plexus-io/3.3.1/pom) | | | |
 | [3.3.0](https://search.maven.org/artifact/org.codehaus.plexus/plexus-io/3.3.0/pom) | [mvn jdk8](plexus-io-3.3.0.buildspec) | [result](plexus-io-3.3.0.buildinfo): [4 :heavy_check_mark: ](plexus-io-3.3.0.buildcompare) | 251K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
