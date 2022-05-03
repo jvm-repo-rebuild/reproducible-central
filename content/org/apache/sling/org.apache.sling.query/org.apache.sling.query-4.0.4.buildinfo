@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Query
+group-id=org.apache.sling
+artifact-id=org.apache.sling.query
+version=4.0.4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-query.git
+source.scm.tag=org.apache.sling.query-4.0.4
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.query-4.0.4.pom
+outputs.0.length=3948
+outputs.0.checksums.sha512=1b03f652158245b40b204ec652165d9430d9f781c72a0b0e3591ee1dee65b75da9bff5f2dd3fbc2a3f4f98eba6c0cfa1b3ce0150be30cf138ab44cd9788642a5
+
+outputs.1.filename=org.apache.sling.query-4.0.4.jar
+outputs.1.length=131545
+outputs.1.checksums.sha512=ada9ea67343ead0486828836cfbf85749c43c67ec134f95825610488f59df171992816018253dfff5ff76052509546a65c149113c0d1a4bf1b3cba741cc391ea
+
+outputs.2.filename=org.apache.sling.query-4.0.4-source-release.zip
+outputs.2.length=143910
+outputs.2.checksums.sha512=775c36eb17e31a8bac14f275093cafbd35927eeca914cc647ac9dc72c72690a53123539c1422086419d433df77b2a01d38eb2421537440ffdcbde8e1d409df5f
+
+outputs.3.filename=org.apache.sling.query-4.0.4-sources.jar
+outputs.3.length=89803
+outputs.3.checksums.sha512=d95758dec82aa2ba9bcd1a870fb7bbf42a648a521877c09593a1536a670cef1f77674a4232467b0884f3368f0578de6abfbb37870f10df23fa395f84d2b2b341
+
+outputs.4.filename=org.apache.sling.query-4.0.4-sources.jar
+outputs.4.length=89803
+outputs.4.checksums.sha512=d95758dec82aa2ba9bcd1a870fb7bbf42a648a521877c09593a1536a670cef1f77674a4232467b0884f3368f0578de6abfbb37870f10df23fa395f84d2b2b341
