@@ -3,8 +3,8 @@
   <groupId>org.apache.sling</groupId>
   <artifactId>org.apache.sling.models.impl</artifactId>
   <versioning>
-    <latest>1.5.0</latest>
-    <release>1.5.0</release>
+    <latest>1.5.2</latest>
+    <release>1.5.2</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0.2</version>
@@ -30,7 +30,8 @@
       <version>1.4.14</version>
       <version>1.4.16</version>
       <version>1.5.0</version>
+      <version>1.5.2</version>
     </versions>
-    <lastUpdated>20211210092916</lastUpdated>
+    <lastUpdated>20220503120148</lastUpdated>
   </versioning>
 </metadata>
