@@ -1,0 +1,115 @@
+1 / 44 target/reference/tika-parser-zip-commons-2.4.0.jar tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-zip-commons/target/tika-parser-zip-commons-2.4.0.jar
+--- target/reference/tika-parser-zip-commons-2.4.0.jar
++++ tika-parsers/tika-parsers-standard/tika-parsers-standard-modules/tika-parser-zip-commons/target/tika-parser-zip-commons-2.4.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 44400 bytes, number of entries: 48
+│ +Zip file size: 44406 bytes, number of entries: 48
+│  -rw-r--r--  2.0 unx     2141 b- defN 22-Apr-28 17:31 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-28 17:31 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-28 17:31 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-28 17:31 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-28 17:31 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-28 17:31 org/apache/tika/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Apr-28 17:31 org/apache/tika/detect/
+│ @@ -43,8 +43,8 @@
+│  -rw-r--r--  2.0 unx     3063 b- defN 22-Apr-28 17:31 org/apache/tika/detect/zip/StreamingZipContainerDetector.class
+│  -rw-r--r--  2.0 unx      694 b- defN 22-Apr-28 17:31 org/apache/tika/detect/zip/ZipContainerDetector.class
+│  -rw-r--r--  2.0 unx     1027 b- defN 22-Apr-28 17:31 org/apache/tika/detect/zip/ZipContainerDetectorBase$1.class
+│  -rw-r--r--  2.0 unx     3378 b- defN 22-Apr-28 17:31 org/apache/tika/detect/zip/ZipContainerDetectorBase.class
+│  -rw-r--r--  2.0 unx     4928 b- defN 22-Apr-28 17:31 org/apache/tika/zip/utils/ZipSalvager.class
+│  -rw-r--r--  2.0 unx     2215 b- defN 22-Apr-28 17:31 META-INF/maven/org.apache.tika/tika-parser-zip-commons/pom.xml
+│  -rw-r--r--  2.0 unx       73 b- defN 22-Apr-28 17:31 META-INF/maven/org.apache.tika/tika-parser-zip-commons/pom.properties
+│ -48 files, 82819 bytes uncompressed, 36494 bytes compressed:  55.9%
+│ +48 files, 82819 bytes uncompressed, 36500 bytes compressed:  55.9%
+├── META-INF/MANIFEST.MF
+│ @@ -23,17 +23,17 @@
+│   nal;version="[1.21,2)",org.apache.commons.io;resolution:=optional;ver
+
+│   sion="[1.4,2)",org.apache.commons.io.input;resolution:=optional;versi
+
+│   on="[1.4,2)",org.slf4j;resolution:=optional;version="[1.7,2)",org.xml
+
+│   .sax;resolution:=optional,org.xml.sax.helpers;resolution:=optional
+
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+│  Tool: Bnd-5.1.1.202006162103
+
+│  Implementation-Vendor: The Apache Software Foundation
+
+│ -Export-Package: org.apache.tika.zip.utils;version="2.4.0",org.apache.t
+
+│ - ika.detect.zip;uses:="org.apache.commons.compress.archivers.zip,org.a
+
+│ - pache.tika.config,org.apache.tika.detect,org.apache.tika.io,org.apach
+
+│ - e.tika.metadata,org.apache.tika.mime";version="2.4.0"
+
+│ +Export-Package: org.apache.tika.detect.zip;uses:="org.apache.commons.c
+
+│ + ompress.archivers.zip,org.apache.tika.config,org.apache.tika.detect,o
+
+│ + rg.apache.tika.io,org.apache.tika.metadata,org.apache.tika.mime";vers
+
+│ + ion="2.4.0",org.apache.tika.zip.utils;version="2.4.0"
+
+│  Bundle-Name: Apache Tika ZIP commons
+
+│  Bundle-Version: 2.4.0
+
+│  Build-Jdk-Spec: 1.8
+
+│  Created-By: Apache Maven Bundle Plugin 5.1.4
+
+│  Specification-Version: 2.4
+
+...
+
+
+# maven-shade-plugin 3.2.4 has an issue with timestamps in unexplained circumsptances:
+# why does 21-Nov-20 20:25 from reference become 21-Nov-21 01:25 in rebuild?
+# why does 20-May-14 07:15 from reference become 20-May-14 11:15 in rebuild?
+
+21 / 44 target/reference/tika-parser-nlp-package-2.4.0.jar tika-parsers/tika-parsers-ml/tika-parser-nlp-package/target/tika-parser-nlp-package-2.4.0.jar
+--- target/reference/tika-parser-nlp-package-2.4.0.jar
++++ tika-parsers/tika-parsers-ml/tika-parser-nlp-package/target/tika-parser-nlp-package-2.4.0.jar
+├── zipinfo {}
+│ @@ -9868,1231 +9868,1231 @@
+│  -rw----     2.0 fat     2653 bl defN 22-Apr-08 17:41 schemas/wsdl/ws-addr-wsdl.xsd
+│  -rw----     2.0 fat     5591 bl defN 22-Apr-08 17:41 schemas/wsdl/ws-addr.xsd
+│  -rw----     2.0 fat     1606 bl defN 22-Apr-08 17:41 schemas/wsdl/wsdl.xjb
+│  -rw----     2.0 fat    12126 bl defN 22-Apr-08 17:41 schemas/wsdl/wsdl.xsd
+│  -rw----     2.0 fat     8198 bl defN 22-Apr-08 17:41 schemas/wsdl/wsrm.xsd
+│  -rw----     2.0 fat      932 bl defN 22-Apr-08 17:41 schemas/wsdl/xmime.xsd
+│  -rw----     2.0 fat     5840 bl defN 22-Apr-08 17:41 schemas/wsdl/xml.xsd
+│ --rw----     2.0 fat        0 bl defN 21-Nov-20 20:25 META-INF/maven/com.fasterxml.woodstox/
+│ --rw----     2.0 fat        0 bl defN 21-Nov-20 20:25 META-INF/maven/com.fasterxml.woodstox/woodstox-core/
+│ --rw----     2.0 fat       70 bl defN 21-Nov-20 20:25 META-INF/maven/com.fasterxml.woodstox/woodstox-core/pom.properties
+│ --rw----     2.0 fat    15917 bl defN 21-Nov-20 20:25 META-INF/maven/com.fasterxml.woodstox/woodstox-core/pom.xml
+│ --rw----     2.0 fat        0 bl defN 21-Nov-20 20:25 com/ctc/
+│ --rw----     2.0 fat        0 bl defN 21-Nov-20 20:25 com/ctc/wstx/
+│ --rw----     2.0 fat        0 bl defN 21-Nov-20 20:25 com/ctc/wstx/api/
+...
+│ --rw----     2.0 fat      722 bl defN 20-May-14 07:15 org/codehaus/stax2/validation/XMLValidationSchema.class
+│ --rw----     2.0 fat     7795 bl defN 20-May-14 07:15 org/codehaus/stax2/validation/XMLValidationSchemaFactory.class
+│ --rw----     2.0 fat     1801 bl defN 20-May-14 07:15 org/codehaus/stax2/validation/XMLValidator.class
+│ +-rw----     2.0 fat        0 bl defN 21-Nov-21 01:25 META-INF/maven/com.fasterxml.woodstox/
+│ +-rw----     2.0 fat        0 bl defN 21-Nov-21 01:25 META-INF/maven/com.fasterxml.woodstox/woodstox-core/
+│ +-rw----     2.0 fat       70 bl defN 21-Nov-21 01:25 META-INF/maven/com.fasterxml.woodstox/woodstox-core/pom.properties
+│ +-rw----     2.0 fat    15917 bl defN 21-Nov-21 01:25 META-INF/maven/com.fasterxml.woodstox/woodstox-core/pom.xml
+│ +-rw----     2.0 fat        0 bl defN 21-Nov-21 01:25 com/ctc/
+│ +-rw----     2.0 fat        0 bl defN 21-Nov-21 01:25 com/ctc/wstx/
+│ +-rw----     2.0 fat        0 bl defN 21-Nov-21 01:25 com/ctc/wstx/api/
+...
+│ +-rw----     2.0 fat      722 bl defN 20-May-14 11:15 org/codehaus/stax2/validation/XMLValidationSchema.class
+│ +-rw----     2.0 fat     7795 bl defN 20-May-14 11:15 org/codehaus/stax2/validation/XMLValidationSchemaFactory.class
+│ +-rw----     2.0 fat     1801 bl defN 20-May-14 11:15 org/codehaus/stax2/validation/XMLValidator.class
+│  -rw----     2.0 fat        0 bl defN 21-Sep-14 14:41 META-INF/maven/org.apache.ws.xmlschema/
+│  -rw----     2.0 fat        0 bl defN 21-Sep-14 14:41 META-INF/maven/org.apache.ws.xmlschema/xmlschema-core/
+│  -rw----     2.0 fat      146 bl defN 21-Sep-14 14:41 META-INF/maven/org.apache.ws.xmlschema/xmlschema-core/pom.properties
+│  -rw----     2.0 fat     6857 bl defN 21-Sep-14 14:41 META-INF/maven/org.apache.ws.xmlschema/xmlschema-core/pom.xml
+│  -rw----     2.0 fat        0 bl defN 21-Sep-14 14:41 org/apache/ws/
+│  -rw----     2.0 fat        0 bl defN 21-Sep-14 14:41 org/apache/ws/commons/
+│  -rw----     2.0 fat        0 bl defN 21-Sep-14 14:41 org/apache/ws/commons/schema/
+...
