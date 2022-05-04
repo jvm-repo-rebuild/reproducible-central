@@ -5,7 +5,7 @@
 
 ## Project: [org.apache.sling:org.apache.sling.models.jacksonexporter](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.models.jacksonexporter/)
 
-Source code: [https://github.com/apache/sling-org-apache-sling-launchpad-test-services.git](https://github.com/apache/sling-org-apache-sling-launchpad-test-services.git)
+Source code: [https://github.com/apache/sling-org-apache-sling-models-impl.git](https://github.com/apache/sling-org-apache-sling-models-impl.git)
 
 rebuilding **2 releases** of org.apache.sling:org.apache.sling.models.jacksonexporter:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
