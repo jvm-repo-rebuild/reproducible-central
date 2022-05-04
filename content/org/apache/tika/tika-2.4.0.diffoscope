@@ -70,6 +70,7 @@
 # maven-shade-plugin 3.2.4 has an issue with timestamps in unexplained circumsptances:
 # why does 21-Nov-20 20:25 from reference become 21-Nov-21 01:25 in rebuild?
 # why does 20-May-14 07:15 from reference become 20-May-14 11:15 in rebuild?
+=> issue created https://issues.apache.org/jira/browse/MSHADE-420
 
 21 / 44 target/reference/tika-parser-nlp-package-2.4.0.jar tika-parsers/tika-parsers-ml/tika-parser-nlp-package/target/tika-parser-nlp-package-2.4.0.jar
 --- target/reference/tika-parser-nlp-package-2.4.0.jar
