@@ -1,0 +1,46 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache XML Security for Java
+group-id=org.apache.santuario
+artifact-id=xmlsec
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/santuario-xml-security-java.git
+source.scm.tag=xmlsec-3.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=xmlsec-3.0.0.pom
+outputs.0.length=30046
+outputs.0.checksums.sha512=c5dee9d1afff81edcc24d16a9d47b053270760469a4743762168976fb7f21456a6f694322aadb557b4236c20ca96db6fa9f65e8f9c07400256a0d93c4f2fab85
+
+outputs.1.filename=xmlsec-3.0.0.jar
+outputs.1.length=1129309
+outputs.1.checksums.sha512=e3d929c5f1f2a95034458d08b039edfc3f098a31ec3dfd60fea5549711551cfcd63a47abb4429df96a6a0f88eb1069e49df4799e9ca166971833c8dc57e7dd14
+
+outputs.2.filename=xmlsec-3.0.0-tests.jar
+outputs.2.length=2018275
+outputs.2.checksums.sha512=e922bf33fcb34b46f80a5c35ff0cf384841771201adcd1fd3a19773b527df0908651533750d7bcd8c7a1f60e92e8cc885b0db0ff3c31b7491f71655015be0ced
+
+outputs.3.filename=xmlsec-3.0.0-source-release.zip
+outputs.3.length=2573762
+outputs.3.checksums.sha512=e92fe01e05a430b1760da9b690bdaf46dff3ac4b4e6479231bb0680e0d4699e94b7bcbc9b5bb1d3f26ab5e53c802f69688a549d1c13f68374a9ca849b58c7e10
+
+outputs.4.filename=xmlsec-3.0.0-sources.jar
+outputs.4.length=880025
+outputs.4.checksums.sha512=03d9eff245d2cfe0faef0880b055b3a20d537cf02c6b0eafaaea849779bf2fadba258a44331118c9960696e7e3053b2f3e79fe46618c567b392a9a1028826648
+
+outputs.5.filename=xmlsec-3.0.0-sources.jar
+outputs.5.length=880025
+outputs.5.checksums.sha512=03d9eff245d2cfe0faef0880b055b3a20d537cf02c6b0eafaaea849779bf2fadba258a44331118c9960696e7e3053b2f3e79fe46618c567b392a9a1028826648
