@@ -1,0 +1,47 @@
+1 / 1 target/reference/indexer-reader-6.2.0.jar indexer-reader/target/indexer-reader-6.2.0.jar
+--- target/reference/indexer-reader-6.2.0.jar
++++ indexer-reader/target/indexer-reader-6.2.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 46015 bytes, number of entries: 43
+│ +Zip file size: 46013 bytes, number of entries: 43
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     1457 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat      273 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat      180 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.maven.indexer/
+│ @@ -38,8 +38,8 @@
+│  -rw----     2.0 fat     1334 bl defN 80-Feb-01 00:00 org/apache/maven/index/reader/resource/BufferedResourceHandler.class
+│  -rw----     2.0 fat     1452 bl defN 80-Feb-01 00:00 org/apache/maven/index/reader/resource/BufferedWritableResource.class
+│  -rw----     2.0 fat     1748 bl defN 80-Feb-01 00:00 org/apache/maven/index/reader/resource/BufferedWritableResourceHandler.class
+│  -rw----     2.0 fat     1524 bl defN 80-Feb-01 00:00 org/apache/maven/index/reader/resource/PathWritableResource.class
+│  -rw----     2.0 fat     1595 bl defN 80-Feb-01 00:00 org/apache/maven/index/reader/resource/PathWritableResourceHandler.class
+│  -rw----     2.0 fat     1262 bl defN 80-Feb-01 00:00 org/apache/maven/index/reader/resource/UriResourceHandler.class
+│  -rw----     2.0 fat     1035 bl defN 80-Feb-01 00:00 org/apache/maven/index/reader/resource/UrlResource.class
+│ -43 files, 86276 bytes uncompressed, 38111 bytes compressed:  55.8%
+│ +43 files, 86276 bytes uncompressed, 38109 bytes compressed:  55.8%
+├── META-INF/MANIFEST.MF
+│ @@ -13,17 +13,17 @@
+│  Bundle-Vendor: The Apache Software Foundation
+│  Bundle-Version: 6.2.0
+│  Created-By: Apache Maven Bundle Plugin 5.1.4
+│  Export-Package: org.apache.maven.index.reader;version="6.0",org.apache
+│   .maven.index.reader.resource;uses:="org.apache.maven.index.reader";ve
+│   rsion="6.2.0"
+│  Import-Package: org.apache.maven.index.reader;version="[6.0,7)"
+│ -Include-Resource: META-INF/NOTICE=target/maven-shared-archive-resource
+│ - s/META-INF/NOTICE,META-INF/LICENSE=target/maven-shared-archive-resour
+│ - ces/META-INF/LICENSE,META-INF/DEPENDENCIES=target/maven-shared-archiv
+│ - e-resources/META-INF/DEPENDENCIES,org/apache/maven/index/reader/packa
+│ +Include-Resource: META-INF/DEPENDENCIES=target/maven-shared-archive-re
+│ + sources/META-INF/DEPENDENCIES,META-INF/NOTICE=target/maven-shared-arc
+│ + hive-resources/META-INF/NOTICE,META-INF/LICENSE=target/maven-shared-a
+│ + rchive-resources/META-INF/LICENSE,org/apache/maven/index/reader/packa
+│   geinfo=src/main/java/org/apache/maven/index/reader/packageinfo
+│  Private-Package: org.apache.maven.index.reader,org.apache.maven.index.
+│   reader.resource
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+│  Tool: Bnd-5.1.1.202006162103
+
