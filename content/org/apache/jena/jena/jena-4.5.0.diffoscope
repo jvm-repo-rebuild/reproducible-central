@@ -1,0 +1,814 @@
+1 / 11 target/reference/jena-fuseki-server-4.5.0.jar jena-fuseki2/jena-fuseki-server/target/jena-fuseki-server-4.5.0.jar
+--- target/reference/jena-fuseki-server-4.5.0.jar
++++ jena-fuseki2/jena-fuseki-server/target/jena-fuseki-server-4.5.0.jar
+├── zipinfo {}
+│ @@ -1369,25 +1369,25 @@
+│  -rw----     2.0 fat     6752 bl defN 21-Jan-26 14:03 javax/servlet/ServletRequestWrapper.class
+│  -rw----     2.0 fat      213 bl defN 21-Jan-26 14:03 javax/servlet/SingleThreadModel.class
+│  -rw----     2.0 fat      653 bl defN 21-Jan-26 14:03 javax/servlet/ServletContextAttributeListener.class
+│  -rw----     2.0 fat     2508 bl defN 21-Jan-26 14:03 javax/servlet/HttpConstraintElement.class
+│  -rw----     2.0 fat      344 bl defN 21-Jan-26 14:03 javax/servlet/AsyncListener.class
+│  -rw----     2.0 fat      372 bl defN 21-Jan-26 14:03 javax/servlet/ServletContainerInitializer.class
+│  -rw----     2.0 fat      277 bl defN 21-Jan-26 14:03 javax/servlet/WriteListener.class
+│ --rw----     2.0 fat      839 bl defN 19-Aug-21 13:46 javax/servlet/LocalStrings_fr.properties
+│ --rw----     2.0 fat     1441 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings_es.properties
+│ --rw----     2.0 fat     1400 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings_fr.properties
+│ --rw----     2.0 fat     2102 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings_ja.properties
+│ --rw----     2.0 fat     1636 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings.properties
+│ --rw----     2.0 fat     1098 bl defN 19-Aug-21 13:46 javax/servlet/http/package.html
+│ --rw----     2.0 fat      874 bl defN 19-Aug-21 13:46 javax/servlet/LocalStrings_ja.properties
+│ --rw----     2.0 fat     1028 bl defN 19-Aug-21 13:46 javax/servlet/descriptor/package.html
+│ --rw----     2.0 fat     1055 bl defN 19-Aug-21 13:46 javax/servlet/annotation/package.html
+│ --rw----     2.0 fat      904 bl defN 19-Aug-21 13:46 javax/servlet/LocalStrings.properties
+│ --rw----     2.0 fat     1265 bl defN 19-Aug-21 13:46 javax/servlet/package.html
+│ +-rw----     2.0 fat      839 bl defN 19-Aug-21 12:46 javax/servlet/LocalStrings_fr.properties
+│ +-rw----     2.0 fat     1441 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings_es.properties
+│ +-rw----     2.0 fat     1400 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings_fr.properties
+│ +-rw----     2.0 fat     2102 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings_ja.properties
+│ +-rw----     2.0 fat     1636 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings.properties
+│ +-rw----     2.0 fat     1098 bl defN 19-Aug-21 12:46 javax/servlet/http/package.html
+│ +-rw----     2.0 fat      874 bl defN 19-Aug-21 12:46 javax/servlet/LocalStrings_ja.properties
+│ +-rw----     2.0 fat     1028 bl defN 19-Aug-21 12:46 javax/servlet/descriptor/package.html
+│ +-rw----     2.0 fat     1055 bl defN 19-Aug-21 12:46 javax/servlet/annotation/package.html
+│ +-rw----     2.0 fat      904 bl defN 19-Aug-21 12:46 javax/servlet/LocalStrings.properties
+│ +-rw----     2.0 fat     1265 bl defN 19-Aug-21 12:46 javax/servlet/package.html
+│  -rw----     2.0 fat        0 bl defN 18-Nov-20 16:36 javax/servlet/resources/
+│  -rw----     2.0 fat    23849 bl defN 18-Nov-20 16:36 javax/servlet/resources/javaee_web_services_1_2.xsd
+│  -rw----     2.0 fat    48641 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-common_3_1.xsd
+│  -rw----     2.0 fat    31147 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-app_2_3.dtd
+│  -rw----     2.0 fat    26765 bl defN 18-Nov-20 16:36 javax/servlet/resources/javaee_web_services_client_1_4.xsd
+│  -rw----     2.0 fat    37061 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-app_2_4.xsd
+│  -rw----     2.0 fat    14192 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-app_4_0.xsd
+
+2 / 11 target/reference/jena-fuseki-webapp-4.5.0-sources.jar jena-fuseki2/jena-fuseki-webapp/target/jena-fuseki-webapp-4.5.0-sources.jar
+--- target/reference/jena-fuseki-webapp-4.5.0-sources.jar
++++ jena-fuseki2/jena-fuseki-webapp/target/jena-fuseki-webapp-4.5.0-sources.jar
+├── zipinfo {}
+│ @@ -1,36 +1,32 @@
+│ -Zip file size: 6317536 bytes, number of entries: 121
+│ +Zip file size: 6312976 bytes, number of entries: 117
+│  -rw-r--r--  2.0 unx       64 b- defN 22-May-01 13:36 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 org/apache/jena/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 org/apache/jena/fuseki/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 org/apache/jena/fuseki/authz/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 org/apache/jena/fuseki/cmd/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 org/apache/jena/fuseki/mgt/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 org/apache/jena/fuseki/webapp/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 org/apache/jena/fuseki/webapp/templates/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/Release/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/Release/jena/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/Release/jena/target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/WEB-INF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/css/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/img/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /var/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /var/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /var/maven/app/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /var/maven/app/jena-fuseki2/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/WEB-INF/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/css/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/img/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 META-INF/maven/org.apache.jena/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 META-INF/maven/org.apache.jena/jena-fuseki-webapp/
+│  -rw-r--r--  2.0 unx    20680 b- defN 22-May-01 13:36 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-May-01 13:36 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      160 b- defN 22-May-01 13:36 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     2228 b- defN 22-May-01 13:36 org/apache/jena/fuseki/authz/AuthorizationFilter403.java
+│ @@ -60,64 +56,64 @@
+│  -rw-r--r--  2.0 unx     1120 b- defN 22-May-01 13:36 org/apache/jena/fuseki/webapp/templates/config-mem
+│  -rw-r--r--  2.0 unx     1338 b- defN 22-May-01 13:36 org/apache/jena/fuseki/webapp/templates/config-tdb
+│  -rw-r--r--  2.0 unx     1191 b- defN 22-May-01 13:36 org/apache/jena/fuseki/webapp/templates/config-tdb-dir
+│  -rw-r--r--  2.0 unx     1204 b- defN 22-May-01 13:36 org/apache/jena/fuseki/webapp/templates/config-tdb-mem
+│  -rw-r--r--  2.0 unx     1286 b- defN 22-May-01 13:36 org/apache/jena/fuseki/webapp/templates/config-tdb2
+│  -rw-r--r--  2.0 unx     1187 b- defN 22-May-01 13:36 org/apache/jena/fuseki/webapp/templates/config-tdb2-dir
+│  -rw-r--r--  2.0 unx     1195 b- defN 22-May-01 13:36 org/apache/jena/fuseki/webapp/templates/config-tdb2-mem
+│ --rw-r--r--  2.0 unx     9304 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/WEB-INF/web.xml
+│ --rw-r--r--  2.0 unx     1085 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/favicon.ico
+│ --rw-r--r--  2.0 unx     1837 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/log4j2.properties
+│ --rw-r--r--  2.0 unx      854 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/index.html
+│ --rw-r--r--  2.0 unx   227438 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/css/app.72188d5c.css
+│ --rw-r--r--  2.0 unx     5861 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/css/datasetEdit.2e48400c.css
+│ --rw-r--r--  2.0 unx    32389 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/css/datasetQuery.94ef8ecd.css
+│ --rw-r--r--  2.0 unx     4064 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/img/logo.03d0f38c.svg
+│ --rw-r--r--  2.0 unx    10925 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/462-legacy.5326316f.js
+│ --rw-r--r--  2.0 unx    11356 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/462-legacy.5326316f.js.map
+│ --rw-r--r--  2.0 unx    10133 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/462.e3b0917b.js
+│ --rw-r--r--  2.0 unx    10047 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/462.e3b0917b.js.map
+│ --rw-r--r--  2.0 unx     6166 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/727-legacy.0b1d32c0.js
+│ --rw-r--r--  2.0 unx    34529 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/727-legacy.0b1d32c0.js.map
+│ --rw-r--r--  2.0 unx    61020 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/app-legacy.646b6eb2.js
+│ --rw-r--r--  2.0 unx    80631 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/app-legacy.646b6eb2.js.map
+│ --rw-r--r--  2.0 unx    56322 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/app.97546a17.js
+│ --rw-r--r--  2.0 unx    80625 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/app.97546a17.js.map
+│ --rw-r--r--  2.0 unx  1270206 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/chunk-vendors-legacy.13008a42.js
+│ --rw-r--r--  2.0 unx  5042364 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/chunk-vendors-legacy.13008a42.js.map
+│ --rw-r--r--  2.0 unx  1236146 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/chunk-vendors.c8c5d43e.js
+│ --rw-r--r--  2.0 unx  4859892 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/chunk-vendors.c8c5d43e.js.map
+│ --rw-r--r--  2.0 unx   200222 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetEdit-legacy.baece094.js
+│ --rw-r--r--  2.0 unx   717582 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetEdit-legacy.baece094.js.map
+│ --rw-r--r--  2.0 unx   198638 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetEdit.ec57b8b7.js
+│ --rw-r--r--  2.0 unx   715931 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetEdit.ec57b8b7.js.map
+│ --rw-r--r--  2.0 unx    25931 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetInfo-legacy.52fc5f8e.js
+│ --rw-r--r--  2.0 unx    23725 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetInfo-legacy.52fc5f8e.js.map
+│ --rw-r--r--  2.0 unx    24915 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetInfo.e2e3173c.js
+│ --rw-r--r--  2.0 unx    23170 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetInfo.e2e3173c.js.map
+│ --rw-r--r--  2.0 unx  1210749 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetQuery-legacy.dfb8d58b.js
+│ --rw-r--r--  2.0 unx  2699672 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetQuery-legacy.dfb8d58b.js.map
+│ --rw-r--r--  2.0 unx  1205113 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetQuery.2bf77f14.js
+│ --rw-r--r--  2.0 unx  2670456 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetQuery.2bf77f14.js.map
+│ --rw-r--r--  2.0 unx    56674 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetUpload-legacy.438d20d0.js
+│ --rw-r--r--  2.0 unx   154082 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetUpload-legacy.438d20d0.js.map
+│ --rw-r--r--  2.0 unx    49617 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetUpload.814f1895.js
+│ --rw-r--r--  2.0 unx   117818 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetUpload.814f1895.js.map
+│ --rw-r--r--  2.0 unx     3446 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/documentation-legacy.914044ff.js
+│ --rw-r--r--  2.0 unx     4838 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/documentation-legacy.914044ff.js.map
+│ --rw-r--r--  2.0 unx     3439 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/documentation.914044ff.js
+│ --rw-r--r--  2.0 unx     4831 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/documentation.914044ff.js.map
+│ --rw-r--r--  2.0 unx    21464 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/manageDatasets-legacy.89b274cd.js
+│ --rw-r--r--  2.0 unx    25179 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/manageDatasets-legacy.89b274cd.js.map
+│ --rw-r--r--  2.0 unx    21037 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/manageDatasets.bda64b1a.js
+│ --rw-r--r--  2.0 unx    25252 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/manageDatasets.bda64b1a.js.map
+│ --rw-r--r--  2.0 unx    13572 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/newDataset-legacy.688382ab.js
+│ --rw-r--r--  2.0 unx    15470 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/newDataset-legacy.688382ab.js.map
+│ --rw-r--r--  2.0 unx    13269 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/newDataset.06bff3a3.js
+│ --rw-r--r--  2.0 unx    15695 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/newDataset.06bff3a3.js.map
+│ --rw-r--r--  2.0 unx    17848 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/tasks-legacy.fc7f5852.js
+│ --rw-r--r--  2.0 unx    33961 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/tasks-legacy.fc7f5852.js.map
+│ --rw-r--r--  2.0 unx    13008 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/tasks.75b706e8.js
+│ --rw-r--r--  2.0 unx    12250 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/tasks.75b706e8.js.map
+│ +-rw-r--r--  2.0 unx     9304 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/WEB-INF/web.xml
+│ +-rw-r--r--  2.0 unx     1085 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/favicon.ico
+│ +-rw-r--r--  2.0 unx     1837 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/log4j2.properties
+│ +-rw-r--r--  2.0 unx      854 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/index.html
+│ +-rw-r--r--  2.0 unx   227438 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/css/app.72188d5c.css
+│ +-rw-r--r--  2.0 unx     5861 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/css/datasetEdit.2e48400c.css
+│ +-rw-r--r--  2.0 unx    32389 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/css/datasetQuery.94ef8ecd.css
+│ +-rw-r--r--  2.0 unx     4064 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/img/logo.03d0f38c.svg
+│ +-rw-r--r--  2.0 unx    10813 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/462-legacy.965d371f.js
+│ +-rw-r--r--  2.0 unx    11356 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/462-legacy.965d371f.js.map
+│ +-rw-r--r--  2.0 unx    10021 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/462.02fb963c.js
+│ +-rw-r--r--  2.0 unx    10047 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/462.02fb963c.js.map
+│ +-rw-r--r--  2.0 unx     6166 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/727-legacy.0b1d32c0.js
+│ +-rw-r--r--  2.0 unx    34529 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/727-legacy.0b1d32c0.js.map
+│ +-rw-r--r--  2.0 unx    60460 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/app-legacy.78454fc0.js
+│ +-rw-r--r--  2.0 unx    80631 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/app-legacy.78454fc0.js.map
+│ +-rw-r--r--  2.0 unx    55762 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/app.df817392.js
+│ +-rw-r--r--  2.0 unx    80625 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/app.df817392.js.map
+│ +-rw-r--r--  2.0 unx  1270206 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/chunk-vendors-legacy.13008a42.js
+│ +-rw-r--r--  2.0 unx  5042364 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/chunk-vendors-legacy.13008a42.js.map
+│ +-rw-r--r--  2.0 unx  1236146 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/chunk-vendors.c8c5d43e.js
+│ +-rw-r--r--  2.0 unx  4859892 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/chunk-vendors.c8c5d43e.js.map
+│ +-rw-r--r--  2.0 unx   200110 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetEdit-legacy.c776a16a.js
+│ +-rw-r--r--  2.0 unx   717582 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetEdit-legacy.c776a16a.js.map
+│ +-rw-r--r--  2.0 unx   198526 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetEdit.3fcbf1c5.js
+│ +-rw-r--r--  2.0 unx   715930 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetEdit.3fcbf1c5.js.map
+│ +-rw-r--r--  2.0 unx    25819 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetInfo-legacy.57a38327.js
+│ +-rw-r--r--  2.0 unx    23725 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetInfo-legacy.57a38327.js.map
+│ +-rw-r--r--  2.0 unx    24803 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetInfo.5aeb4e2c.js
+│ +-rw-r--r--  2.0 unx    23170 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetInfo.5aeb4e2c.js.map
+│ +-rw-r--r--  2.0 unx  1210693 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetQuery-legacy.d6fb2e89.js
+│ +-rw-r--r--  2.0 unx  2699672 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetQuery-legacy.d6fb2e89.js.map
+│ +-rw-r--r--  2.0 unx  1205057 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetQuery.79b7e9c0.js
+│ +-rw-r--r--  2.0 unx  2670456 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetQuery.79b7e9c0.js.map
+│ +-rw-r--r--  2.0 unx    56618 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetUpload-legacy.f068264e.js
+│ +-rw-r--r--  2.0 unx   154082 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetUpload-legacy.f068264e.js.map
+│ +-rw-r--r--  2.0 unx    49561 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetUpload.7397cf42.js
+│ +-rw-r--r--  2.0 unx   117818 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/datasetUpload.7397cf42.js.map
+│ +-rw-r--r--  2.0 unx     3390 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/documentation-legacy.6a0f20a2.js
+│ +-rw-r--r--  2.0 unx     4838 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/documentation-legacy.6a0f20a2.js.map
+│ +-rw-r--r--  2.0 unx     3383 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/documentation.6a0f20a2.js
+│ +-rw-r--r--  2.0 unx     4831 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/documentation.6a0f20a2.js.map
+│ +-rw-r--r--  2.0 unx    21352 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/manageDatasets-legacy.033c578b.js
+│ +-rw-r--r--  2.0 unx    25179 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/manageDatasets-legacy.033c578b.js.map
+│ +-rw-r--r--  2.0 unx    20925 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/manageDatasets.8588cbc1.js
+│ +-rw-r--r--  2.0 unx    25252 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/manageDatasets.8588cbc1.js.map
+│ +-rw-r--r--  2.0 unx    13460 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/newDataset-legacy.27557d84.js
+│ +-rw-r--r--  2.0 unx    15470 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/newDataset-legacy.27557d84.js.map
+│ +-rw-r--r--  2.0 unx    13157 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/newDataset.0d439f31.js
+│ +-rw-r--r--  2.0 unx    15695 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/newDataset.0d439f31.js.map
+│ +-rw-r--r--  2.0 unx    17736 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/tasks-legacy.f07b59d4.js
+│ +-rw-r--r--  2.0 unx    33961 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/tasks-legacy.f07b59d4.js.map
+│ +-rw-r--r--  2.0 unx    12896 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/tasks.9ba45d3a.js
+│ +-rw-r--r--  2.0 unx    12250 b- defN 22-May-01 13:36 /var/maven/app/jena-fuseki2/jena-fuseki-webapp/target/webapp/static/js/tasks.9ba45d3a.js.map
+│  -rw-r--r--  2.0 unx     6177 b- defN 22-May-01 13:36 META-INF/maven/org.apache.jena/jena-fuseki-webapp/pom.xml
+│  -rw-r--r--  2.0 unx       68 b- defN 22-May-01 13:36 META-INF/maven/org.apache.jena/jena-fuseki-webapp/pom.properties
+│ -121 files, 23577037 bytes uncompressed, 6289038 bytes compressed:  73.3%
+│ +117 files, 23574236 bytes uncompressed, 6288560 bytes compressed:  73.3%
+...
+
+3 / 11 target/reference/jena-fuseki-war-4.5.0.war jena-fuseki2/jena-fuseki-war/target/jena-fuseki-war-4.5.0.war
+--- target/reference/jena-fuseki-war-4.5.0.war
++++ jena-fuseki2/jena-fuseki-war/target/jena-fuseki-war-4.5.0.war
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 37796241 bytes, number of entries: 147
+│ +Zip file size: 37795763 bytes, number of entries: 147
+│  -rw-r--r--  2.0 unx       81 b- defN 22-May-01 13:36 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 WEB-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 WEB-INF/classes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 WEB-INF/classes/META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 WEB-INF/lib/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 static/
+│ @@ -94,56 +94,56 @@
+│  -rw-r--r--  2.0 unx     1085 b- defN 22-May-01 13:36 favicon.ico
+│  -rw-r--r--  2.0 unx      854 b- defN 22-May-01 13:36 index.html
+│  -rw-r--r--  2.0 unx     1837 b- defN 22-May-01 13:36 log4j2.properties
+│  -rw-r--r--  2.0 unx   227438 b- defN 22-May-01 13:36 static/css/app.72188d5c.css
+│  -rw-r--r--  2.0 unx     5861 b- defN 22-May-01 13:36 static/css/datasetEdit.2e48400c.css
+│  -rw-r--r--  2.0 unx    32389 b- defN 22-May-01 13:36 static/css/datasetQuery.94ef8ecd.css
+│  -rw-r--r--  2.0 unx     4064 b- defN 22-May-01 13:36 static/img/logo.03d0f38c.svg
+│ --rw-r--r--  2.0 unx    10925 b- defN 22-May-01 13:36 static/js/462-legacy.5326316f.js
+│ --rw-r--r--  2.0 unx    11356 b- defN 22-May-01 13:36 static/js/462-legacy.5326316f.js.map
+│ --rw-r--r--  2.0 unx    10133 b- defN 22-May-01 13:36 static/js/462.e3b0917b.js
+│ --rw-r--r--  2.0 unx    10047 b- defN 22-May-01 13:36 static/js/462.e3b0917b.js.map
+│ +-rw-r--r--  2.0 unx    10813 b- defN 22-May-01 13:36 static/js/462-legacy.965d371f.js
+│ +-rw-r--r--  2.0 unx    11356 b- defN 22-May-01 13:36 static/js/462-legacy.965d371f.js.map
+│ +-rw-r--r--  2.0 unx    10021 b- defN 22-May-01 13:36 static/js/462.02fb963c.js
+│ +-rw-r--r--  2.0 unx    10047 b- defN 22-May-01 13:36 static/js/462.02fb963c.js.map
+│  -rw-r--r--  2.0 unx     6166 b- defN 22-May-01 13:36 static/js/727-legacy.0b1d32c0.js
+│  -rw-r--r--  2.0 unx    34529 b- defN 22-May-01 13:36 static/js/727-legacy.0b1d32c0.js.map
+│ --rw-r--r--  2.0 unx    61020 b- defN 22-May-01 13:36 static/js/app-legacy.646b6eb2.js
+│ --rw-r--r--  2.0 unx    80631 b- defN 22-May-01 13:36 static/js/app-legacy.646b6eb2.js.map
+│ --rw-r--r--  2.0 unx    56322 b- defN 22-May-01 13:36 static/js/app.97546a17.js
+│ --rw-r--r--  2.0 unx    80625 b- defN 22-May-01 13:36 static/js/app.97546a17.js.map
+│ +-rw-r--r--  2.0 unx    60460 b- defN 22-May-01 13:36 static/js/app-legacy.78454fc0.js
+│ +-rw-r--r--  2.0 unx    80631 b- defN 22-May-01 13:36 static/js/app-legacy.78454fc0.js.map
+│ +-rw-r--r--  2.0 unx    55762 b- defN 22-May-01 13:36 static/js/app.df817392.js
+│ +-rw-r--r--  2.0 unx    80625 b- defN 22-May-01 13:36 static/js/app.df817392.js.map
+│  -rw-r--r--  2.0 unx  1270206 b- defN 22-May-01 13:36 static/js/chunk-vendors-legacy.13008a42.js
+│  -rw-r--r--  2.0 unx  5042364 b- defN 22-May-01 13:36 static/js/chunk-vendors-legacy.13008a42.js.map
+│  -rw-r--r--  2.0 unx  1236146 b- defN 22-May-01 13:36 static/js/chunk-vendors.c8c5d43e.js
+│  -rw-r--r--  2.0 unx  4859892 b- defN 22-May-01 13:36 static/js/chunk-vendors.c8c5d43e.js.map
+│ --rw-r--r--  2.0 unx   200222 b- defN 22-May-01 13:36 static/js/datasetEdit-legacy.baece094.js
+│ --rw-r--r--  2.0 unx   717582 b- defN 22-May-01 13:36 static/js/datasetEdit-legacy.baece094.js.map
+│ --rw-r--r--  2.0 unx   198638 b- defN 22-May-01 13:36 static/js/datasetEdit.ec57b8b7.js
+│ --rw-r--r--  2.0 unx   715931 b- defN 22-May-01 13:36 static/js/datasetEdit.ec57b8b7.js.map
+│ --rw-r--r--  2.0 unx    25931 b- defN 22-May-01 13:36 static/js/datasetInfo-legacy.52fc5f8e.js
+│ --rw-r--r--  2.0 unx    23725 b- defN 22-May-01 13:36 static/js/datasetInfo-legacy.52fc5f8e.js.map
+│ --rw-r--r--  2.0 unx    24915 b- defN 22-May-01 13:36 static/js/datasetInfo.e2e3173c.js
+│ --rw-r--r--  2.0 unx    23170 b- defN 22-May-01 13:36 static/js/datasetInfo.e2e3173c.js.map
+│ --rw-r--r--  2.0 unx  1210749 b- defN 22-May-01 13:36 static/js/datasetQuery-legacy.dfb8d58b.js
+│ --rw-r--r--  2.0 unx  2699672 b- defN 22-May-01 13:36 static/js/datasetQuery-legacy.dfb8d58b.js.map
+│ --rw-r--r--  2.0 unx  1205113 b- defN 22-May-01 13:36 static/js/datasetQuery.2bf77f14.js
+│ --rw-r--r--  2.0 unx  2670456 b- defN 22-May-01 13:36 static/js/datasetQuery.2bf77f14.js.map
+│ --rw-r--r--  2.0 unx    56674 b- defN 22-May-01 13:36 static/js/datasetUpload-legacy.438d20d0.js
+│ --rw-r--r--  2.0 unx   154082 b- defN 22-May-01 13:36 static/js/datasetUpload-legacy.438d20d0.js.map
+│ --rw-r--r--  2.0 unx    49617 b- defN 22-May-01 13:36 static/js/datasetUpload.814f1895.js
+│ --rw-r--r--  2.0 unx   117818 b- defN 22-May-01 13:36 static/js/datasetUpload.814f1895.js.map
+│ --rw-r--r--  2.0 unx     3446 b- defN 22-May-01 13:36 static/js/documentation-legacy.914044ff.js
+│ --rw-r--r--  2.0 unx     4838 b- defN 22-May-01 13:36 static/js/documentation-legacy.914044ff.js.map
+│ --rw-r--r--  2.0 unx     3439 b- defN 22-May-01 13:36 static/js/documentation.914044ff.js
+│ --rw-r--r--  2.0 unx     4831 b- defN 22-May-01 13:36 static/js/documentation.914044ff.js.map
+│ --rw-r--r--  2.0 unx    21464 b- defN 22-May-01 13:36 static/js/manageDatasets-legacy.89b274cd.js
+│ --rw-r--r--  2.0 unx    25179 b- defN 22-May-01 13:36 static/js/manageDatasets-legacy.89b274cd.js.map
+│ --rw-r--r--  2.0 unx    21037 b- defN 22-May-01 13:36 static/js/manageDatasets.bda64b1a.js
+│ --rw-r--r--  2.0 unx    25252 b- defN 22-May-01 13:36 static/js/manageDatasets.bda64b1a.js.map
+│ --rw-r--r--  2.0 unx    13572 b- defN 22-May-01 13:36 static/js/newDataset-legacy.688382ab.js
+│ --rw-r--r--  2.0 unx    15470 b- defN 22-May-01 13:36 static/js/newDataset-legacy.688382ab.js.map
+│ --rw-r--r--  2.0 unx    13269 b- defN 22-May-01 13:36 static/js/newDataset.06bff3a3.js
+│ --rw-r--r--  2.0 unx    15695 b- defN 22-May-01 13:36 static/js/newDataset.06bff3a3.js.map
+│ --rw-r--r--  2.0 unx    17848 b- defN 22-May-01 13:36 static/js/tasks-legacy.fc7f5852.js
+│ --rw-r--r--  2.0 unx    33961 b- defN 22-May-01 13:36 static/js/tasks-legacy.fc7f5852.js.map
+│ --rw-r--r--  2.0 unx    13008 b- defN 22-May-01 13:36 static/js/tasks.75b706e8.js
+│ --rw-r--r--  2.0 unx    12250 b- defN 22-May-01 13:36 static/js/tasks.75b706e8.js.map
+│ +-rw-r--r--  2.0 unx   200110 b- defN 22-May-01 13:36 static/js/datasetEdit-legacy.c776a16a.js
+│ +-rw-r--r--  2.0 unx   717582 b- defN 22-May-01 13:36 static/js/datasetEdit-legacy.c776a16a.js.map
+│ +-rw-r--r--  2.0 unx   198526 b- defN 22-May-01 13:36 static/js/datasetEdit.3fcbf1c5.js
+│ +-rw-r--r--  2.0 unx   715930 b- defN 22-May-01 13:36 static/js/datasetEdit.3fcbf1c5.js.map
+│ +-rw-r--r--  2.0 unx    25819 b- defN 22-May-01 13:36 static/js/datasetInfo-legacy.57a38327.js
+│ +-rw-r--r--  2.0 unx    23725 b- defN 22-May-01 13:36 static/js/datasetInfo-legacy.57a38327.js.map
+│ +-rw-r--r--  2.0 unx    24803 b- defN 22-May-01 13:36 static/js/datasetInfo.5aeb4e2c.js
+│ +-rw-r--r--  2.0 unx    23170 b- defN 22-May-01 13:36 static/js/datasetInfo.5aeb4e2c.js.map
+│ +-rw-r--r--  2.0 unx  1210693 b- defN 22-May-01 13:36 static/js/datasetQuery-legacy.d6fb2e89.js
+│ +-rw-r--r--  2.0 unx  2699672 b- defN 22-May-01 13:36 static/js/datasetQuery-legacy.d6fb2e89.js.map
+│ +-rw-r--r--  2.0 unx  1205057 b- defN 22-May-01 13:36 static/js/datasetQuery.79b7e9c0.js
+│ +-rw-r--r--  2.0 unx  2670456 b- defN 22-May-01 13:36 static/js/datasetQuery.79b7e9c0.js.map
+│ +-rw-r--r--  2.0 unx    56618 b- defN 22-May-01 13:36 static/js/datasetUpload-legacy.f068264e.js
+│ +-rw-r--r--  2.0 unx   154082 b- defN 22-May-01 13:36 static/js/datasetUpload-legacy.f068264e.js.map
+│ +-rw-r--r--  2.0 unx    49561 b- defN 22-May-01 13:36 static/js/datasetUpload.7397cf42.js
+│ +-rw-r--r--  2.0 unx   117818 b- defN 22-May-01 13:36 static/js/datasetUpload.7397cf42.js.map
+│ +-rw-r--r--  2.0 unx     3390 b- defN 22-May-01 13:36 static/js/documentation-legacy.6a0f20a2.js
+│ +-rw-r--r--  2.0 unx     4838 b- defN 22-May-01 13:36 static/js/documentation-legacy.6a0f20a2.js.map
+│ +-rw-r--r--  2.0 unx     3383 b- defN 22-May-01 13:36 static/js/documentation.6a0f20a2.js
+│ +-rw-r--r--  2.0 unx     4831 b- defN 22-May-01 13:36 static/js/documentation.6a0f20a2.js.map
+│ +-rw-r--r--  2.0 unx    21352 b- defN 22-May-01 13:36 static/js/manageDatasets-legacy.033c578b.js
+│ +-rw-r--r--  2.0 unx    25179 b- defN 22-May-01 13:36 static/js/manageDatasets-legacy.033c578b.js.map
+│ +-rw-r--r--  2.0 unx    20925 b- defN 22-May-01 13:36 static/js/manageDatasets.8588cbc1.js
+│ +-rw-r--r--  2.0 unx    25252 b- defN 22-May-01 13:36 static/js/manageDatasets.8588cbc1.js.map
+│ +-rw-r--r--  2.0 unx    13460 b- defN 22-May-01 13:36 static/js/newDataset-legacy.27557d84.js
+│ +-rw-r--r--  2.0 unx    15470 b- defN 22-May-01 13:36 static/js/newDataset-legacy.27557d84.js.map
+│ +-rw-r--r--  2.0 unx    13157 b- defN 22-May-01 13:36 static/js/newDataset.0d439f31.js
+│ +-rw-r--r--  2.0 unx    15695 b- defN 22-May-01 13:36 static/js/newDataset.0d439f31.js.map
+│ +-rw-r--r--  2.0 unx    17736 b- defN 22-May-01 13:36 static/js/tasks-legacy.f07b59d4.js
+│ +-rw-r--r--  2.0 unx    33961 b- defN 22-May-01 13:36 static/js/tasks-legacy.f07b59d4.js.map
+│ +-rw-r--r--  2.0 unx    12896 b- defN 22-May-01 13:36 static/js/tasks.9ba45d3a.js
+│ +-rw-r--r--  2.0 unx    12250 b- defN 22-May-01 13:36 static/js/tasks.9ba45d3a.js.map
+│  -rw-r--r--  2.0 unx     3638 b- defN 22-May-01 13:36 META-INF/maven/org.apache.jena/jena-fuseki-war/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 22-May-01 13:36 META-INF/maven/org.apache.jena/jena-fuseki-war/pom.properties
+│ -147 files, 58448576 bytes uncompressed, 37774945 bytes compressed:  35.4%
+│ +147 files, 58445775 bytes uncompressed, 37774467 bytes compressed:  35.4%
+...
+
+5 / 11 target/reference/jena-fuseki-docker-4.5.0.zip jena-fuseki2/jena-fuseki-docker/target/jena-fuseki-docker-4.5.0.zip
+--- target/reference/jena-fuseki-docker-4.5.0.zip
++++ jena-fuseki2/jena-fuseki-docker/target/jena-fuseki-docker-4.5.0.zip
+├── zipinfo {}
+│ @@ -1,11 +1,11 @@
+│  Zip file size: 11538 bytes, number of entries: 9
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 jena-fuseki-docker-4.5.0/
+│ --rw-r--r--  2.0 unx    11358 b- defN 22-May-01 13:36 jena-fuseki-docker-4.5.0/LICENSE
+│ --rw-r--r--  2.0 unx      182 b- defN 22-May-01 13:36 jena-fuseki-docker-4.5.0/NOTICE
+│ +-rw-rw-r--  2.0 unx    11358 b- defN 22-May-01 13:36 jena-fuseki-docker-4.5.0/LICENSE
+│ +-rw-rw-r--  2.0 unx      182 b- defN 22-May-01 13:36 jena-fuseki-docker-4.5.0/NOTICE
+│  -rw-r--r--  2.0 unx     3341 b- defN 22-May-01 13:36 jena-fuseki-docker-4.5.0/Dockerfile
+│  -rw-r--r--  2.0 unx     3661 b- defN 22-May-01 13:36 jena-fuseki-docker-4.5.0/README.md
+│  -rw-r--r--  2.0 unx     1179 b- defN 22-May-01 13:36 jena-fuseki-docker-4.5.0/docker-compose.yaml
+│  -rw-r--r--  2.0 unx     3384 b- defN 22-May-01 13:36 jena-fuseki-docker-4.5.0/download.sh
+│  -rw-r--r--  2.0 unx      180 b- defN 22-May-01 13:36 jena-fuseki-docker-4.5.0/entrypoint.sh
+│  -rw-r--r--  2.0 unx     2215 b- defN 22-May-01 13:36 jena-fuseki-docker-4.5.0/log4j2.properties
+│  9 files, 25500 bytes uncompressed, 10198 bytes compressed:  60.0%
+
+6 / 11 target/reference/apache-jena-fuseki-4.5.0.zip jena-fuseki2/apache-jena-fuseki/target/apache-jena-fuseki-4.5.0.zip
+--- target/reference/apache-jena-fuseki-4.5.0.zip
++++ jena-fuseki2/apache-jena-fuseki/target/apache-jena-fuseki-4.5.0.zip
+├── zipinfo {}
+│ @@ -1,19 +1,19 @@
+│ -Zip file size: 39642933 bytes, number of entries: 81
+│ +Zip file size: 39642455 bytes, number of entries: 81
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 apache-jena-fuseki-4.5.0/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 apache-jena-fuseki-4.5.0/bin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/WEB-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/css/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/img/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/
+│ --rw-r--r--  2.0 unx    36975 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/LICENSE
+│ --rw-r--r--  2.0 unx     8914 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/NOTICE
+│ --rw-r--r--  2.0 unx     1151 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/README
+│ +-rw-rw-r--  2.0 unx    36975 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/LICENSE
+│ +-rw-rw-r--  2.0 unx     8914 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/NOTICE
+│ +-rw-rw-r--  2.0 unx     1151 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/README
+│  -rw-r--r--  2.0 unx    12339 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/fuseki
+│  -rw-r--r--  2.0 unx     1264 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/fuseki-server.bat
+│  -rw-r--r--  2.0 unx     2217 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/fuseki.service
+│  -rw-r--r--  2.0 unx     2124 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/log4j2.properties
+│  -rwxr-xr-x  2.0 unx    18731 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/bin/s-delete
+│  -rwxr-xr-x  2.0 unx    18731 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/bin/s-get
+│  -rwxr-xr-x  2.0 unx    18731 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/bin/s-head
+│ @@ -29,55 +29,55 @@
+│  -rw-r--r--  2.0 unx     1085 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/favicon.ico
+│  -rw-r--r--  2.0 unx      854 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/index.html
+│  -rw-r--r--  2.0 unx     1837 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/log4j2.properties
+│  -rw-r--r--  2.0 unx   227438 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/css/app.72188d5c.css
+│  -rw-r--r--  2.0 unx     5861 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/css/datasetEdit.2e48400c.css
+│  -rw-r--r--  2.0 unx    32389 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/css/datasetQuery.94ef8ecd.css
+│  -rw-r--r--  2.0 unx     4064 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/img/logo.03d0f38c.svg
+│ --rw-r--r--  2.0 unx    10925 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/462-legacy.5326316f.js
+│ --rw-r--r--  2.0 unx    11356 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/462-legacy.5326316f.js.map
+│ --rw-r--r--  2.0 unx    10133 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/462.e3b0917b.js
+│ --rw-r--r--  2.0 unx    10047 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/462.e3b0917b.js.map
+│ +-rw-r--r--  2.0 unx    10813 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/462-legacy.965d371f.js
+│ +-rw-r--r--  2.0 unx    11356 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/462-legacy.965d371f.js.map
+│ +-rw-r--r--  2.0 unx    10021 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/462.02fb963c.js
+│ +-rw-r--r--  2.0 unx    10047 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/462.02fb963c.js.map
+│  -rw-r--r--  2.0 unx     6166 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/727-legacy.0b1d32c0.js
+│  -rw-r--r--  2.0 unx    34529 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/727-legacy.0b1d32c0.js.map
+│ --rw-r--r--  2.0 unx    61020 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/app-legacy.646b6eb2.js
+│ --rw-r--r--  2.0 unx    80631 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/app-legacy.646b6eb2.js.map
+│ --rw-r--r--  2.0 unx    56322 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/app.97546a17.js
+│ --rw-r--r--  2.0 unx    80625 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/app.97546a17.js.map
+│ +-rw-r--r--  2.0 unx    60460 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/app-legacy.78454fc0.js
+│ +-rw-r--r--  2.0 unx    80631 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/app-legacy.78454fc0.js.map
+│ +-rw-r--r--  2.0 unx    55762 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/app.df817392.js
+│ +-rw-r--r--  2.0 unx    80625 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/app.df817392.js.map
+│  -rw-r--r--  2.0 unx  1270206 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/chunk-vendors-legacy.13008a42.js
+│  -rw-r--r--  2.0 unx  5042364 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/chunk-vendors-legacy.13008a42.js.map
+│  -rw-r--r--  2.0 unx  1236146 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/chunk-vendors.c8c5d43e.js
+│  -rw-r--r--  2.0 unx  4859892 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/chunk-vendors.c8c5d43e.js.map
+│ --rw-r--r--  2.0 unx   200222 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetEdit-legacy.baece094.js
+│ --rw-r--r--  2.0 unx   717582 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetEdit-legacy.baece094.js.map
+│ --rw-r--r--  2.0 unx   198638 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetEdit.ec57b8b7.js
+│ --rw-r--r--  2.0 unx   715931 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetEdit.ec57b8b7.js.map
+│ --rw-r--r--  2.0 unx    25931 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetInfo-legacy.52fc5f8e.js
+│ --rw-r--r--  2.0 unx    23725 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetInfo-legacy.52fc5f8e.js.map
+│ --rw-r--r--  2.0 unx    24915 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetInfo.e2e3173c.js
+│ --rw-r--r--  2.0 unx    23170 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetInfo.e2e3173c.js.map
+│ --rw-r--r--  2.0 unx  1210749 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetQuery-legacy.dfb8d58b.js
+│ --rw-r--r--  2.0 unx  2699672 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetQuery-legacy.dfb8d58b.js.map
+│ --rw-r--r--  2.0 unx  1205113 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetQuery.2bf77f14.js
+│ --rw-r--r--  2.0 unx  2670456 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetQuery.2bf77f14.js.map
+│ --rw-r--r--  2.0 unx    56674 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetUpload-legacy.438d20d0.js
+│ --rw-r--r--  2.0 unx   154082 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetUpload-legacy.438d20d0.js.map
+│ --rw-r--r--  2.0 unx    49617 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetUpload.814f1895.js
+│ --rw-r--r--  2.0 unx   117818 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetUpload.814f1895.js.map
+│ --rw-r--r--  2.0 unx     3446 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/documentation-legacy.914044ff.js
+│ --rw-r--r--  2.0 unx     4838 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/documentation-legacy.914044ff.js.map
+│ --rw-r--r--  2.0 unx     3439 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/documentation.914044ff.js
+│ --rw-r--r--  2.0 unx     4831 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/documentation.914044ff.js.map
+│ --rw-r--r--  2.0 unx    21464 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/manageDatasets-legacy.89b274cd.js
+│ --rw-r--r--  2.0 unx    25179 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/manageDatasets-legacy.89b274cd.js.map
+│ --rw-r--r--  2.0 unx    21037 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/manageDatasets.bda64b1a.js
+│ --rw-r--r--  2.0 unx    25252 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/manageDatasets.bda64b1a.js.map
+│ --rw-r--r--  2.0 unx    13572 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/newDataset-legacy.688382ab.js
+│ --rw-r--r--  2.0 unx    15470 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/newDataset-legacy.688382ab.js.map
+│ --rw-r--r--  2.0 unx    13269 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/newDataset.06bff3a3.js
+│ --rw-r--r--  2.0 unx    15695 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/newDataset.06bff3a3.js.map
+│ --rw-r--r--  2.0 unx    17848 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/tasks-legacy.fc7f5852.js
+│ --rw-r--r--  2.0 unx    33961 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/tasks-legacy.fc7f5852.js.map
+│ --rw-r--r--  2.0 unx    13008 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/tasks.75b706e8.js
+│ --rw-r--r--  2.0 unx    12250 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/tasks.75b706e8.js.map
+│ +-rw-r--r--  2.0 unx   200110 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetEdit-legacy.c776a16a.js
+│ +-rw-r--r--  2.0 unx   717582 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetEdit-legacy.c776a16a.js.map
+│ +-rw-r--r--  2.0 unx   198526 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetEdit.3fcbf1c5.js
+│ +-rw-r--r--  2.0 unx   715930 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetEdit.3fcbf1c5.js.map
+│ +-rw-r--r--  2.0 unx    25819 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetInfo-legacy.57a38327.js
+│ +-rw-r--r--  2.0 unx    23725 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetInfo-legacy.57a38327.js.map
+│ +-rw-r--r--  2.0 unx    24803 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetInfo.5aeb4e2c.js
+│ +-rw-r--r--  2.0 unx    23170 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetInfo.5aeb4e2c.js.map
+│ +-rw-r--r--  2.0 unx  1210693 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetQuery-legacy.d6fb2e89.js
+│ +-rw-r--r--  2.0 unx  2699672 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetQuery-legacy.d6fb2e89.js.map
+│ +-rw-r--r--  2.0 unx  1205057 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetQuery.79b7e9c0.js
+│ +-rw-r--r--  2.0 unx  2670456 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetQuery.79b7e9c0.js.map
+│ +-rw-r--r--  2.0 unx    56618 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetUpload-legacy.f068264e.js
+│ +-rw-r--r--  2.0 unx   154082 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetUpload-legacy.f068264e.js.map
+│ +-rw-r--r--  2.0 unx    49561 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetUpload.7397cf42.js
+│ +-rw-r--r--  2.0 unx   117818 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/datasetUpload.7397cf42.js.map
+│ +-rw-r--r--  2.0 unx     3390 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/documentation-legacy.6a0f20a2.js
+│ +-rw-r--r--  2.0 unx     4838 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/documentation-legacy.6a0f20a2.js.map
+│ +-rw-r--r--  2.0 unx     3383 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/documentation.6a0f20a2.js
+│ +-rw-r--r--  2.0 unx     4831 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/documentation.6a0f20a2.js.map
+│ +-rw-r--r--  2.0 unx    21352 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/manageDatasets-legacy.033c578b.js
+│ +-rw-r--r--  2.0 unx    25179 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/manageDatasets-legacy.033c578b.js.map
+│ +-rw-r--r--  2.0 unx    20925 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/manageDatasets.8588cbc1.js
+│ +-rw-r--r--  2.0 unx    25252 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/manageDatasets.8588cbc1.js.map
+│ +-rw-r--r--  2.0 unx    13460 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/newDataset-legacy.27557d84.js
+│ +-rw-r--r--  2.0 unx    15470 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/newDataset-legacy.27557d84.js.map
+│ +-rw-r--r--  2.0 unx    13157 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/newDataset.0d439f31.js
+│ +-rw-r--r--  2.0 unx    15695 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/newDataset.0d439f31.js.map
+│ +-rw-r--r--  2.0 unx    17736 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/tasks-legacy.f07b59d4.js
+│ +-rw-r--r--  2.0 unx    33961 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/tasks-legacy.f07b59d4.js.map
+│ +-rw-r--r--  2.0 unx    12896 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/tasks.9ba45d3a.js
+│ +-rw-r--r--  2.0 unx    12250 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/webapp/static/js/tasks.9ba45d3a.js.map
+│  -rw-r--r--  2.0 unx 37115791 b- defN 22-May-01 13:36 apache-jena-fuseki-4.5.0/fuseki-server.jar
+│ -81 files, 60745989 bytes uncompressed, 39627559 bytes compressed:  34.8%
+│ +81 files, 60743188 bytes uncompressed, 39627081 bytes compressed:  34.8%
+...
+
+8 / 11 target/reference/jena-fuseki-geosparql-4.5.0.jar jena-fuseki2/jena-fuseki-geosparql/target/jena-fuseki-geosparql-4.5.0.jar
+--- target/reference/jena-fuseki-geosparql-4.5.0.jar
++++ jena-fuseki2/jena-fuseki-geosparql/target/jena-fuseki-geosparql-4.5.0.jar
+├── zipinfo {}
+│ @@ -18207,25 +18207,25 @@
+│  -rw----     2.0 fat     6752 bl defN 21-Jan-26 14:03 javax/servlet/ServletRequestWrapper.class
+│  -rw----     2.0 fat      213 bl defN 21-Jan-26 14:03 javax/servlet/SingleThreadModel.class
+│  -rw----     2.0 fat      653 bl defN 21-Jan-26 14:03 javax/servlet/ServletContextAttributeListener.class
+│  -rw----     2.0 fat     2508 bl defN 21-Jan-26 14:03 javax/servlet/HttpConstraintElement.class
+│  -rw----     2.0 fat      344 bl defN 21-Jan-26 14:03 javax/servlet/AsyncListener.class
+│  -rw----     2.0 fat      372 bl defN 21-Jan-26 14:03 javax/servlet/ServletContainerInitializer.class
+│  -rw----     2.0 fat      277 bl defN 21-Jan-26 14:03 javax/servlet/WriteListener.class
+│ --rw----     2.0 fat      839 bl defN 19-Aug-21 13:46 javax/servlet/LocalStrings_fr.properties
+│ --rw----     2.0 fat     1441 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings_es.properties
+│ --rw----     2.0 fat     1400 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings_fr.properties
+│ --rw----     2.0 fat     2102 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings_ja.properties
+│ --rw----     2.0 fat     1636 bl defN 19-Aug-21 13:46 javax/servlet/http/LocalStrings.properties
+│ --rw----     2.0 fat     1098 bl defN 19-Aug-21 13:46 javax/servlet/http/package.html
+│ --rw----     2.0 fat      874 bl defN 19-Aug-21 13:46 javax/servlet/LocalStrings_ja.properties
+│ --rw----     2.0 fat     1028 bl defN 19-Aug-21 13:46 javax/servlet/descriptor/package.html
+│ --rw----     2.0 fat     1055 bl defN 19-Aug-21 13:46 javax/servlet/annotation/package.html
+│ --rw----     2.0 fat      904 bl defN 19-Aug-21 13:46 javax/servlet/LocalStrings.properties
+│ --rw----     2.0 fat     1265 bl defN 19-Aug-21 13:46 javax/servlet/package.html
+│ +-rw----     2.0 fat      839 bl defN 19-Aug-21 12:46 javax/servlet/LocalStrings_fr.properties
+│ +-rw----     2.0 fat     1441 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings_es.properties
+│ +-rw----     2.0 fat     1400 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings_fr.properties
+│ +-rw----     2.0 fat     2102 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings_ja.properties
+│ +-rw----     2.0 fat     1636 bl defN 19-Aug-21 12:46 javax/servlet/http/LocalStrings.properties
+│ +-rw----     2.0 fat     1098 bl defN 19-Aug-21 12:46 javax/servlet/http/package.html
+│ +-rw----     2.0 fat      874 bl defN 19-Aug-21 12:46 javax/servlet/LocalStrings_ja.properties
+│ +-rw----     2.0 fat     1028 bl defN 19-Aug-21 12:46 javax/servlet/descriptor/package.html
+│ +-rw----     2.0 fat     1055 bl defN 19-Aug-21 12:46 javax/servlet/annotation/package.html
+│ +-rw----     2.0 fat      904 bl defN 19-Aug-21 12:46 javax/servlet/LocalStrings.properties
+│ +-rw----     2.0 fat     1265 bl defN 19-Aug-21 12:46 javax/servlet/package.html
+│  -rw----     2.0 fat        0 bl defN 18-Nov-20 16:36 javax/servlet/resources/
+│  -rw----     2.0 fat    23849 bl defN 18-Nov-20 16:36 javax/servlet/resources/javaee_web_services_1_2.xsd
+│  -rw----     2.0 fat    48641 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-common_3_1.xsd
+│  -rw----     2.0 fat    31147 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-app_2_3.dtd
+│  -rw----     2.0 fat    26765 bl defN 18-Nov-20 16:36 javax/servlet/resources/javaee_web_services_client_1_4.xsd
+│  -rw----     2.0 fat    37061 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-app_2_4.xsd
+│  -rw----     2.0 fat    14192 bl defN 18-Nov-20 16:36 javax/servlet/resources/web-app_4_0.xsd
+
+9 / 11 target/reference/jena-permissions-4.5.0-sources.jar jena-permissions/target/jena-permissions-4.5.0-sources.jar
+--- target/reference/jena-permissions-4.5.0-sources.jar
++++ jena-permissions/target/jena-permissions-4.5.0-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 135586 bytes, number of entries: 108
+│ +Zip file size: 134360 bytes, number of entries: 104
+│  -rw-r--r--  2.0 unx       64 b- defN 22-May-01 13:36 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 org/apache/jena/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 org/apache/jena/permissions/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 org/apache/jena/permissions/graph/
+│ @@ -12,30 +12,26 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 org/apache/jena/permissions/model/impl/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 org/apache/jena/permissions/query/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 org/apache/jena/permissions/query/rewriter/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 org/apache/jena/permissions/utils/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 org/apache/jena/permissions/example/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 org/apache/jena/permissions/example/readonly/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/Release/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/Release/jena/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/Release/jena/target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-permissions/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/example/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /var/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /var/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /var/maven/app/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /var/maven/app/jena-permissions/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /var/maven/app/jena-permissions/target/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /var/maven/app/jena-permissions/target/classes/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /var/maven/app/jena-permissions/target/classes/org/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /var/maven/app/jena-permissions/target/classes/org/apache/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /var/maven/app/jena-permissions/target/classes/org/apache/jena/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/example/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 META-INF/maven/org.apache.jena/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 META-INF/maven/org.apache.jena/jena-permissions/
+│  -rw-r--r--  2.0 unx     8824 b- defN 22-May-01 13:36 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-May-01 13:36 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      191 b- defN 22-May-01 13:36 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     2273 b- defN 22-May-01 13:36 org/apache/jena/permissions/AssemblerConstants.java
+│ @@ -98,13 +94,13 @@
+│  -rw-r--r--  2.0 unx     2338 b- defN 22-May-01 13:36 org/apache/jena/permissions/utils/RDFListIterator.java
+│  -rw-r--r--  2.0 unx     2732 b- defN 22-May-01 13:36 org/apache/jena/permissions/utils/RDFListSecFilter.java
+│  -rw-r--r--  2.0 unx     4960 b- defN 22-May-01 13:36 org/apache/jena/permissions/example/ExampleEvaluator.java
+│  -rw-r--r--  2.0 unx     3685 b- defN 22-May-01 13:36 org/apache/jena/permissions/example/SecurityExample.java
+│  -rw-r--r--  2.0 unx     8650 b- defN 22-May-01 13:36 org/apache/jena/permissions/example/ShiroExampleEvaluator.java
+│  -rw-r--r--  2.0 unx     3315 b- defN 22-May-01 13:36 org/apache/jena/permissions/example/readonly/ReadOnlyEval.java
+│  -rw-r--r--  2.0 unx      917 b- defN 22-May-01 13:36 org/apache/jena/permissions/example/readonly/package-info.java
+│ --rw-r--r--  2.0 unx     1341 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/example/example.ttl
+│ --rw-r--r--  2.0 unx     3981 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/config.ttl
+│ --rw-r--r--  2.0 unx     1368 b- defN 22-May-01 13:36 /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/shiro.ini
+│ +-rw-r--r--  2.0 unx     1341 b- defN 22-May-01 13:36 /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/example/example.ttl
+│ +-rw-r--r--  2.0 unx     3981 b- defN 22-May-01 13:36 /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/config.ttl
+│ +-rw-r--r--  2.0 unx     1368 b- defN 22-May-01 13:36 /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/shiro.ini
+│  -rw-r--r--  2.0 unx     8109 b- defN 22-May-01 13:36 META-INF/maven/org.apache.jena/jena-permissions/pom.xml
+│  -rw-r--r--  2.0 unx       66 b- defN 22-May-01 13:36 META-INF/maven/org.apache.jena/jena-permissions/pom.properties
+│ -108 files, 649200 bytes uncompressed, 115960 bytes compressed:  82.1%
+│ +104 files, 649200 bytes uncompressed, 115960 bytes compressed:  82.1%
+├── zipnote «TEMP»/diffoscope_pspykg87_target/tmp4hjhq2ub.zip
+│ @@ -45,60 +45,48 @@
+│  
+│  Filename: org/apache/jena/permissions/example/readonly/
+│  Comment: 
+│  
+│  Filename: /
+│  Comment: 
+│  
+│ -Filename: /home/
+│ +Filename: /var/
+│  Comment: 
+│  
+│ -Filename: /home/afs/
+│ +Filename: /var/maven/
+│  Comment: 
+│  
+│ -Filename: /home/afs/ASF/
+│ +Filename: /var/maven/app/
+│  Comment: 
+│  
+│ -Filename: /home/afs/ASF/Release/
+│ +Filename: /var/maven/app/jena-permissions/
+│  Comment: 
+│  
+│ -Filename: /home/afs/ASF/Release/jena/
+│ +Filename: /var/maven/app/jena-permissions/target/
+│  Comment: 
+│  
+│ -Filename: /home/afs/ASF/Release/jena/target/
+│ +Filename: /var/maven/app/jena-permissions/target/classes/
+│  Comment: 
+│  
+│ -Filename: /home/afs/ASF/Release/jena/target/checkout/
+│ +Filename: /var/maven/app/jena-permissions/target/classes/org/
+│  Comment: 
+│  
+│ -Filename: /home/afs/ASF/Release/jena/target/checkout/jena-permissions/
+│ +Filename: /var/maven/app/jena-permissions/target/classes/org/apache/
+│  Comment: 
+│  
+│ -Filename: /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/
+│ +Filename: /var/maven/app/jena-permissions/target/classes/org/apache/jena/
+│  Comment: 
+│  
+│ -Filename: /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/
+│ +Filename: /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/
+│  Comment: 
+│  
+│ -Filename: /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/
+│ +Filename: /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/example/
+│  Comment: 
+│  
+│ -Filename: /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/
+│ -Comment: 
+│ -
+│ -Filename: /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/
+│ -Comment: 
+│ -
+│ -Filename: /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/
+│ -Comment: 
+│ -
+│ -Filename: /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/example/
+│ -Comment: 
+│ -
+│ -Filename: /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/
+│ +Filename: /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.jena/
+│  Comment: 
+│ @@ -303,21 +291,21 @@
+│  
+│  Filename: org/apache/jena/permissions/example/readonly/ReadOnlyEval.java
+│  Comment: 
+│  
+│  Filename: org/apache/jena/permissions/example/readonly/package-info.java
+│  Comment: 
+│  
+│ -Filename: /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/example/example.ttl
+│ +Filename: /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/example/example.ttl
+│  Comment: 
+│  
+│ -Filename: /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/config.ttl
+│ +Filename: /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/config.ttl
+│  Comment: 
+│  
+│ -Filename: /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/shiro.ini
+│ +Filename: /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/shiro.ini
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.jena/jena-permissions/pom.xml
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.jena/jena-permissions/pom.properties
+│  Comment:
+│   --- /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/example/example.ttl
+├── +++ /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/example/example.ttl
+│┄ Files identical despite different names
+│   --- /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/config.ttl
+├── +++ /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/config.ttl
+│┄ Files identical despite different names
+│   --- /home/afs/ASF/Release/jena/target/checkout/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/shiro.ini
+├── +++ /var/maven/app/jena-permissions/target/classes/org/apache/jena/security/example/fuseki/shiro.ini
+│┄ Files identical despite different names
+
+10 / 11 target/reference/jena-jdbc-core-4.5.0.jar jena-jdbc/jena-jdbc-core/target/jena-jdbc-core-4.5.0.jar
+--- target/reference/jena-jdbc-core-4.5.0.jar
++++ jena-jdbc/jena-jdbc-core/target/jena-jdbc-core-4.5.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 123526 bytes, number of entries: 74
+│ +Zip file size: 123532 bytes, number of entries: 74
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 META-INF/
+│  -rw-r--r--  2.0 unx      400 b- defN 22-May-01 13:36 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 org/apache/jena/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 org/apache/jena/jdbc/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-01 13:36 org/apache/jena/jdbc/connections/
+│ @@ -24,15 +24,15 @@
+│  -rw-r--r--  2.0 unx      179 b- defN 22-May-01 13:36 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     1561 b- defN 22-May-01 13:36 jena-jdbc-log4j.properties
+│  -rw-r--r--  2.0 unx     4570 b- defN 22-May-01 13:36 org/apache/jena/jdbc/JdbcCompatibility.class
+│  -rw-r--r--  2.0 unx    21607 b- defN 22-May-01 13:36 org/apache/jena/jdbc/JenaDriver.class
+│  -rw-r--r--  2.0 unx      931 b- defN 22-May-01 13:36 org/apache/jena/jdbc/JenaJDBC.class
+│  -rw-r--r--  2.0 unx     5934 b- defN 22-May-01 13:36 org/apache/jena/jdbc/connections/DatasetConnection.class
+│  -rw-r--r--  2.0 unx    18633 b- defN 22-May-01 13:36 org/apache/jena/jdbc/connections/JenaConnection.class
+│ --rw-r--r--  2.0 unx      415 b- defN 22-May-01 13:36 org/apache/jena/jdbc/jdbc-properties.xml
+│ +-rw-r--r--  2.0 unx      418 b- defN 22-May-01 13:36 org/apache/jena/jdbc/jdbc-properties.xml
+│  -rw-r--r--  2.0 unx     1115 b- defN 22-May-01 13:36 org/apache/jena/jdbc/metadata/DatasetMetadata.class
+│  -rw-r--r--  2.0 unx    26624 b- defN 22-May-01 13:36 org/apache/jena/jdbc/metadata/JenaMetadata.class
+│  -rw-r--r--  2.0 unx    11332 b- defN 22-May-01 13:36 org/apache/jena/jdbc/metadata/MetadataSchema.class
+│  -rw-r--r--  2.0 unx    28837 b- defN 22-May-01 13:36 org/apache/jena/jdbc/metadata/results/MetaResultSet.class
+│  -rw-r--r--  2.0 unx      820 b- defN 22-May-01 13:36 org/apache/jena/jdbc/metadata/results/MetaResultSetMetadata.class
+│  -rw-r--r--  2.0 unx     1041 b- defN 22-May-01 13:36 org/apache/jena/jdbc/postprocessing/ResultsPostProcessor.class
+│  -rw-r--r--  2.0 unx      553 b- defN 22-May-01 13:36 org/apache/jena/jdbc/preprocessing/CommandPreProcessor.class
+│ @@ -69,8 +69,8 @@
+│  -rw-r--r--  2.0 unx     3328 b- defN 22-May-01 13:36 org/apache/jena/jdbc/statements/DatasetStatement.class
+│  -rw-r--r--  2.0 unx    16581 b- defN 22-May-01 13:36 org/apache/jena/jdbc/statements/JenaPreparedStatement.class
+│  -rw-r--r--  2.0 unx    19875 b- defN 22-May-01 13:36 org/apache/jena/jdbc/statements/JenaStatement.class
+│  -rw-r--r--  2.0 unx     2921 b- defN 22-May-01 13:36 org/apache/jena/jdbc/statements/metadata/JenaParameterMetadata.class
+│  -rw-r--r--  2.0 unx     8803 b- defN 22-May-01 13:36 org/apache/jena/jdbc/utils/JdbcNodeUtils.class
+│  -rw-r--r--  2.0 unx     3382 b- defN 22-May-01 13:36 META-INF/maven/org.apache.jena/jena-jdbc-core/pom.xml
+│  -rw-r--r--  2.0 unx       64 b- defN 22-May-01 13:36 META-INF/maven/org.apache.jena/jena-jdbc-core/pom.properties
+│ -74 files, 303943 bytes uncompressed, 110860 bytes compressed:  63.5%
+│ +74 files, 303946 bytes uncompressed, 110866 bytes compressed:  63.5%
+├── org/apache/jena/jdbc/jdbc-properties.xml
+│ ├── org/apache/jena/jdbc/jdbc-properties.xml
+│ │ @@ -1,9 +1,9 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <!DOCTYPE properties
+│ │    SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
+│ │  <!--  Licensed under the terms of http://www.apache.org/licenses/LICENSE-2.0 -->
+│ │  <properties version="1.0">
+│ │    <comment>Jena JDBC System Properties</comment>
+│ │    <entry key="org.apache.jena.jdbc.version">4.5.0</entry>
+│ │ -  <entry key="org.apache.jena.jdbc.build.datetime">${build.time.xsd}</entry>
+│ │ +  <entry key="org.apache.jena.jdbc.build.datetime">2022-05-01T13:58:04Z</entry>
+│ │  </properties>
+
+11 / 11 target/reference/jena-jdbc-driver-bundle-4.5.0.jar jena-jdbc/jena-jdbc-driver-bundle/target/jena-jdbc-driver-bundle-4.5.0.jar
+--- target/reference/jena-jdbc-driver-bundle-4.5.0.jar
++++ jena-jdbc/jena-jdbc-driver-bundle/target/jena-jdbc-driver-bundle-4.5.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 23389315 bytes, number of entries: 14773
+│ +Zip file size: 23389321 bytes, number of entries: 14773
+│  -rw----     2.0 fat        0 bX defN 22-May-01 13:36 META-INF/
+│  -rw----     2.0 fat      419 bl defN 22-May-01 13:36 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     8185 bl defN 22-May-01 13:36 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat        0 bl defN 22-May-01 13:36 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 22-May-01 13:36 META-INF/maven/org.apache.jena/
+│  -rw----     2.0 fat        0 bl defN 22-May-01 13:36 META-INF/maven/org.apache.jena/jena-jdbc-driver-bundle/
+│  -rw----     2.0 fat     6174 bl defN 22-May-01 13:36 META-INF/maven/org.apache.jena/jena-jdbc-driver-bundle/pom.xml
+│ @@ -24,15 +24,15 @@
+│  -rw----     2.0 fat     1561 bl defN 22-May-01 13:36 jena-jdbc-log4j.properties
+│  -rw----     2.0 fat     4570 bl defN 22-May-01 13:36 org/apache/jena/jdbc/JdbcCompatibility.class
+│  -rw----     2.0 fat    21607 bl defN 22-May-01 13:36 org/apache/jena/jdbc/JenaDriver.class
+│  -rw----     2.0 fat      931 bl defN 22-May-01 13:36 org/apache/jena/jdbc/JenaJDBC.class
+│  -rw----     2.0 fat        0 bl defN 22-May-01 13:36 org/apache/jena/jdbc/connections/
+│  -rw----     2.0 fat     5934 bl defN 22-May-01 13:36 org/apache/jena/jdbc/connections/DatasetConnection.class
+│  -rw----     2.0 fat    18633 bl defN 22-May-01 13:36 org/apache/jena/jdbc/connections/JenaConnection.class
+│ --rw----     2.0 fat      415 bl defN 22-May-01 13:36 org/apache/jena/jdbc/jdbc-properties.xml
+│ +-rw----     2.0 fat      418 bl defN 22-May-01 13:36 org/apache/jena/jdbc/jdbc-properties.xml
+│  -rw----     2.0 fat        0 bl defN 22-May-01 13:36 org/apache/jena/jdbc/metadata/
+│  -rw----     2.0 fat     1115 bl defN 22-May-01 13:36 org/apache/jena/jdbc/metadata/DatasetMetadata.class
+│  -rw----     2.0 fat    26624 bl defN 22-May-01 13:36 org/apache/jena/jdbc/metadata/JenaMetadata.class
+│  -rw----     2.0 fat    11332 bl defN 22-May-01 13:36 org/apache/jena/jdbc/metadata/MetadataSchema.class
+│  -rw----     2.0 fat        0 bl defN 22-May-01 13:36 org/apache/jena/jdbc/metadata/results/
+│  -rw----     2.0 fat    28837 bl defN 22-May-01 13:36 org/apache/jena/jdbc/metadata/results/MetaResultSet.class
+│  -rw----     2.0 fat      820 bl defN 22-May-01 13:36 org/apache/jena/jdbc/metadata/results/MetaResultSetMetadata.class
+│ @@ -14768,8 +14768,8 @@
+│  -rw----     2.0 fat      897 bl defN 22-May-01 13:36 META-INF/services/org.apache.logging.log4j.util.PropertySource
+│  -rw----     2.0 fat      119 bl defN 22-May-01 13:36 META-INF/services/java.sql.Driver
+│  -rw----     2.0 fat       39 bl defN 22-May-01 13:36 META-INF/services/com.fasterxml.jackson.core.JsonFactory
+│  -rw----     2.0 fat       44 bl defN 22-May-01 13:36 META-INF/services/com.fasterxml.jackson.core.ObjectCodec
+│  -rw----     2.0 fat      855 bl defN 22-May-01 13:36 META-INF/services/javax.annotation.processing.Processor
+│  -rw----     2.0 fat      251 bl defN 22-May-01 13:36 META-INF/services/org.apache.commons.logging.LogFactory
+│  -rw----     2.0 fat     5348 bl defN 22-May-01 13:36 META-INF/NOTICE
+│ -14773 files, 53139163 bytes uncompressed, 20191077 bytes compressed:  62.0%
+│ +14773 files, 53139166 bytes uncompressed, 20191083 bytes compressed:  62.0%
+├── org/apache/jena/jdbc/jdbc-properties.xml
+│ ├── org/apache/jena/jdbc/jdbc-properties.xml
+│ │ @@ -1,9 +1,9 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <!DOCTYPE properties
+│ │    SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
+│ │  <!--  Licensed under the terms of http://www.apache.org/licenses/LICENSE-2.0 -->
+│ │  <properties version="1.0">
+│ │    <comment>Jena JDBC System Properties</comment>
+│ │    <entry key="org.apache.jena.jdbc.version">4.5.0</entry>
+│ │ -  <entry key="org.apache.jena.jdbc.build.datetime">${build.time.xsd}</entry>
+│ │ +  <entry key="org.apache.jena.jdbc.build.datetime">2022-05-01T13:58:04Z</entry>
+│ │  </properties>
+
