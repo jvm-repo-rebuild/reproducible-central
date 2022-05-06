@@ -1,0 +1,7 @@
+version=5.2.7
+ok=4
+ko=0
+okFiles="hsac-fitnesse-fixtures-5.2.7.pom hsac-fitnesse-fixtures-5.2.7.jar hsac-fitnesse-fixtures-5.2.7-standalone.zip hsac-fitnesse-fixtures-5.2.7-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
