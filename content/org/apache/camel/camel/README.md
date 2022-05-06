@@ -576,6 +576,7 @@ rebuilding **1 releases** of org.apache.camel:camel:
 | -- | --------- | ------ | -- |
 | [3.16.0](https://search.maven.org/artifact/org.apache.camel/camel/3.16.0/pom) | | | |
 | [3.15.0](https://search.maven.org/artifact/org.apache.camel/camel/3.15.0/pom) | | | |
+| [3.14.3](https://search.maven.org/artifact/org.apache.camel/camel/3.14.3/pom) | | | |
 | [3.14.2](https://search.maven.org/artifact/org.apache.camel/camel/3.14.2/pom) | | | |
 | [3.14.1](https://search.maven.org/artifact/org.apache.camel/camel/3.14.1/pom) | | | |
 | [3.14.0](https://search.maven.org/artifact/org.apache.camel/camel/3.14.0/pom) | | | |

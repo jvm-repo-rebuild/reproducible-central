@@ -66,9 +66,9 @@ Notice the anchor in the link.
 Nightly Rebuild: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
 
 <!-- BEGIN GENERATED INTRO -->
-rebuilding **868 releases** of **262 projects**:
-- **593** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 275 had issues (some unreproducible artifacts :warning:):
+rebuilding **872 releases** of **262 projects**:
+- **594** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- 278 had issues (some unreproducible artifacts :warning:):
 
 <!-- END GENERATED INTRO -->
 
@@ -116,7 +116,7 @@ rebuilding **868 releases** of **262 projects**:
 | | <a name='io.wcm:io.wcm.wcm.ui.granite'></a>[*.wcm.ui.granite](content/io/wcm/wcm/ui/granite/README.md) | 4 | 4 :heavy_check_mark: |
 | net.nicoulaj.maven.plugins | <a name='net.nicoulaj.maven.plugins:checksum-maven-plugin'></a>[checksum-maven-plugin](content/net/nicoulaj/maven/plugins/checksum-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | net.sourceforge.pmd | <a name='net.sourceforge.pmd:pmd'></a>[pmd](content/net/sourceforge/pmd/README.md) | 22 | 21 :heavy_check_mark: / 1 :warning: |
-| nl.hsac | <a name='nl.hsac:hsac-fitnesse-fixtures'></a>[hsac-fitnesse-fixtures](content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 27 | 16 :heavy_check_mark: / 11 :warning: |
+| nl.hsac | <a name='nl.hsac:hsac-fitnesse-fixtures'></a>[hsac-fitnesse-fixtures](content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 28 | 17 :heavy_check_mark: / 11 :warning: |
 | org.apache.accumulo | <a name='org.apache.accumulo:accumulo'></a>[accumulo](content/org/apache/accumulo/README.md) | 3 | 3 :warning: |
 | org.apache.activemq | <a name='org.apache.activemq:activemq-parent'></a>[activemq-parent](content/org/apache/activemq/README.md) | 4 | 4 :warning: |
 | org.apache.any23 | <a name='org.apache.any23:apache-any23'></a>[apache-any23](content/org/apache/any23/README.md) | 1 | 1 :warning: |
@@ -134,7 +134,7 @@ rebuilding **868 releases** of **262 projects**:
 | org.apache.httpcomponents | <a name='org.apache.httpcomponents:httpcomponents-parent'></a>[httpcomponents-parent](content/org/apache/httpcomponents/parent/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.jackrabbit | <a name='org.apache.jackrabbit:filevault-package-maven-plugin'></a>[filevault-package-maven-plugin](content/org/apache/jackrabbit/filevault-package-maven-plugin/README.md) | 5 | 5 :heavy_check_mark: |
 | org.apache.jackrabbit.vault | <a name='org.apache.jackrabbit.vault:jackrabbit-filevault'></a>[jackrabbit-filevault](content/org/apache/jackrabbit/filevault/README.md) | 7 | 7 :warning: |
-| org.apache.jena | <a name='org.apache.jena:jena'></a>[jena](content/org/apache/jena/jena/README.md) | 8 | 8 :warning: |
+| org.apache.jena | <a name='org.apache.jena:jena'></a>[jena](content/org/apache/jena/jena/README.md) | 9 | 9 :warning: |
 | org.apache.jspwiki | <a name='org.apache.jspwiki:jspwiki-builder'></a>[jspwiki-builder](content/org/apache/jspwiki/README.md) | 5 | 5 :warning: |
 | org.apache.karaf | <a name='org.apache.karaf:decanter'></a>[decanter](content/org/apache/karaf/decanter/README.md) | 1 | 1 :warning: |
 | | <a name='org.apache.karaf:karaf'></a>[karaf](content/org/apache/karaf/karaf/README.md) | 3 | 3 :warning: |
@@ -142,7 +142,7 @@ rebuilding **868 releases** of **262 projects**:
 | org.apache.maven.archetype | <a name='org.apache.maven.archetype:maven-archetype'></a>[maven-archetype](content/org/apache/maven/archetype/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.maven.doxia | <a name='org.apache.maven.doxia:doxia-sitetools'></a>[doxia-sitetools](content/org/apache/maven/doxia/doxia-sitetools/README.md) | 5 | 5 :heavy_check_mark: |
 | | <a name='org.apache.maven.doxia:doxia'></a>[doxia](content/org/apache/maven/doxia/doxia/README.md) | 5 | 5 :heavy_check_mark: |
-| org.apache.maven.indexer | <a name='org.apache.maven.indexer:maven-indexer'></a>[maven-indexer](content/org/apache/maven/indexer/README.md) | 1 | 1 :warning: |
+| org.apache.maven.indexer | <a name='org.apache.maven.indexer:maven-indexer'></a>[maven-indexer](content/org/apache/maven/indexer/README.md) | 2 | 2 :warning: |
 | org.apache.maven.jxr | <a name='org.apache.maven.jxr:jxr'></a>[jxr](content/org/apache/maven/jxr/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.maven | <a name='org.apache.maven:maven'></a>[maven](content/org/apache/maven/maven/README.md) | 6 | 3 :heavy_check_mark: / 3 :warning: |
 | | <a name='org.apache.maven:maven-parent'></a>[maven-parent](content/org/apache/maven/parent/README.md) | 3 | 1 :heavy_check_mark: / 2 :warning: |
@@ -243,7 +243,7 @@ rebuilding **868 releases** of **262 projects**:
 | | <a name='org.apache.sling:org.apache.sling.javax.activation'></a>[*.javax.activation](content/org/apache/sling/org.apache.sling.javax.activation/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.apache.sling:org.apache.sling.jcr.contentloader'></a>[*.jcr.contentloader](content/org/apache/sling/org.apache.sling.jcr.contentloader/README.md) | 3 | 3 :warning: |
 | | <a name='org.apache.sling:org.apache.sling.jcr.jackrabbit.accessmanager'></a>[*.jcr.jackrabbit.accessmanager](content/org/apache/sling/org.apache.sling.jcr.jackrabbit.accessmanager/README.md) | 1 | 1 :warning: |
-| | <a name='org.apache.sling:org.apache.sling.jcr.jackrabbit.usermanager'></a>[*.jcr.jackrabbit.usermanager](content/org/apache/sling/org.apache.sling.jcr.jackrabbit.usermanager/README.md) | 4 | 4 :warning: |
+| | <a name='org.apache.sling:org.apache.sling.jcr.jackrabbit.usermanager'></a>[*.jcr.jackrabbit.usermanager](content/org/apache/sling/org.apache.sling.jcr.jackrabbit.usermanager/README.md) | 5 | 5 :warning: |
 | | <a name='org.apache.sling:org.apache.sling.jcr.maintenance'></a>[*.jcr.maintenance](content/org/apache/sling/org.apache.sling.jcr.maintenance/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.jcr.packageinit'></a>[*.jcr.packageinit](content/org/apache/sling/org.apache.sling.jcr.packageinit/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.jcr.resource'></a>[*.jcr.resource](content/org/apache/sling/org.apache.sling.jcr.resource/README.md) | 2 | 2 :heavy_check_mark: |
@@ -338,7 +338,7 @@ rebuilding **868 releases** of **262 projects**:
 | org.webjars | <a name='org.webjars:flexmonster'></a>[flexmonster](content/org/webjars/flexmonster/README.md) | 5 | 5 :heavy_check_mark: |
 | | <a name='org.webjars:swagger-ui'></a>[swagger-ui](content/org/webjars/swagger-ui/README.md) | 6 | 6 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 5 | 5 :warning: |
-| **Count:** | **262** | **868** | **593** :heavy_check_mark: **275** :warning: |
+| **Count:** | **262** | **872** | **594** :heavy_check_mark: **278** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ## Understanding What Is Behind

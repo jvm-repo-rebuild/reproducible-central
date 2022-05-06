@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/jena.git](https://github.com/apache/jena.git)
 
-<details><summary>This project defines 56 modules:</summary>
+<details><summary>This project defines 57 modules:</summary>
 
 * [org.apache.jena:apache-jena](https://search.maven.org/artifact/org.apache.jena/apache-jena/)
 * [org.apache.jena:apache-jena-fuseki](https://search.maven.org/artifact/org.apache.jena/apache-jena-fuseki/)
@@ -41,6 +41,7 @@ Source code: [https://github.com/apache/jena.git](https://github.com/apache/jena
 * [org.apache.jena:jena-fuseki-geosparql](https://search.maven.org/artifact/org.apache.jena/jena-fuseki-geosparql/)
 * [org.apache.jena:jena-fuseki-main](https://search.maven.org/artifact/org.apache.jena/jena-fuseki-main/)
 * [org.apache.jena:jena-fuseki-server](https://search.maven.org/artifact/org.apache.jena/jena-fuseki-server/)
+* [org.apache.jena:jena-fuseki-ui](https://search.maven.org/artifact/org.apache.jena/jena-fuseki-ui/)
 * [org.apache.jena:jena-fuseki-war](https://search.maven.org/artifact/org.apache.jena/jena-fuseki-war/)
 * [org.apache.jena:jena-fuseki-webapp](https://search.maven.org/artifact/org.apache.jena/jena-fuseki-webapp/)
 * [org.apache.jena:jena-geosparql](https://search.maven.org/artifact/org.apache.jena/jena-geosparql/)
@@ -67,14 +68,15 @@ Source code: [https://github.com/apache/jena.git](https://github.com/apache/jena
 * [org.apache.jena:jena-text-es](https://search.maven.org/artifact/org.apache.jena/jena-text-es/)
 </details>
 
-rebuilding **8 releases** of org.apache.jena:jena:
+rebuilding **9 releases** of org.apache.jena:jena:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 8 had issues (some unreproducible artifacts :warning:):
+- 9 had issues (some unreproducible artifacts :warning:):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.5.0](https://search.maven.org/artifact/org.apache.jena/jena/4.5.0/pom) | [mvn jdk17](jena-4.5.0.buildspec) | [result](jena-4.5.0.buildinfo): [165 :heavy_check_mark:  11 :warning:](jena-4.5.0.buildcompare) [:mag:](jena-4.5.0.diffoscope) | 340M |
 | [4.4.0](https://search.maven.org/artifact/org.apache.jena/jena/4.4.0/pom) | | | |
-| [4.3.2](https://search.maven.org/artifact/org.apache.jena/jena/4.3.2/pom) | [mvn jdk11](jena-4.3.2.buildspec) | [result](jena-4.3.2.buildinfo): [154 :heavy_check_mark:  19 :warning:](jena-4.3.2.buildcompare) [:mag:](jena-4.3.2.diffoscope) | 381M |
+| [4.3.2](https://search.maven.org/artifact/org.apache.jena/jena/4.3.2/pom) | [mvn jdk11](jena-4.3.2.buildspec) | [result](jena-4.3.2.buildinfo): [154 :heavy_check_mark:  19 :warning:](jena-4.3.2.buildcompare) | 381M |
 | [4.3.1](https://search.maven.org/artifact/org.apache.jena/jena/4.3.1/pom) | | | |
 | [4.3.0](https://search.maven.org/artifact/org.apache.jena/jena/4.3.0/pom) | | | |
 | [4.2.0](https://search.maven.org/artifact/org.apache.jena/jena/4.2.0/pom) | [mvn jdk11](jena-4.2.0.buildspec) | [result](jena-4.2.0.buildinfo): [116 :heavy_check_mark:  14 :warning:](jena-4.2.0.buildcompare) [:mag:](jena-4.2.0.diffoscope) | 367M |

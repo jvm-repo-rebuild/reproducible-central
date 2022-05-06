@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/maven-indexer.git](https://github.com/apache/maven-indexer.git)
 
-<details><summary>This project defines 7 modules:</summary>
+<details><summary>This project defines 10 modules:</summary>
 
 * [org.apache.maven.indexer:indexer-cli](https://search.maven.org/artifact/org.apache.maven.indexer/indexer-cli/)
 * [org.apache.maven.indexer:indexer-core](https://search.maven.org/artifact/org.apache.maven.indexer/indexer-core/)
@@ -16,14 +16,18 @@ Source code: [https://github.com/apache/maven-indexer.git](https://github.com/ap
 * [org.apache.maven.indexer:indexer-reader](https://search.maven.org/artifact/org.apache.maven.indexer/indexer-reader/)
 * [org.apache.maven.indexer:maven-indexer](https://search.maven.org/artifact/org.apache.maven.indexer/maven-indexer/)
 * [org.apache.maven.indexer:maven-indexer-examples](https://search.maven.org/artifact/org.apache.maven.indexer/maven-indexer-examples/)
+* [org.apache.maven.indexer:search-api](https://search.maven.org/artifact/org.apache.maven.indexer/search-api/)
+* [org.apache.maven.indexer:search-backend-indexer](https://search.maven.org/artifact/org.apache.maven.indexer/search-backend-indexer/)
+* [org.apache.maven.indexer:search-backend-smo](https://search.maven.org/artifact/org.apache.maven.indexer/search-backend-smo/)
 </details>
 
-rebuilding **1 releases** of org.apache.maven.indexer:maven-indexer:
+rebuilding **2 releases** of org.apache.maven.indexer:maven-indexer:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:):
+- 2 had issues (some unreproducible artifacts :warning:):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [6.2.0](https://search.maven.org/artifact/org.apache.maven.indexer/maven-indexer/6.2.0/pom) | [mvn jdk17](maven-indexer-6.2.0.buildspec) | [result](maven-indexer-6.2.0.buildinfo): [28 :heavy_check_mark:  1 :warning:](maven-indexer-6.2.0.buildcompare) [:mag:](maven-indexer-6.2.0.diffoscope) [:memo:](https://issues.apache.org/jira/browse/MINDEXER-156) | 37M |
 | [6.1.1](https://search.maven.org/artifact/org.apache.maven.indexer/maven-indexer/6.1.1/pom) | [mvn jdk8](maven-indexer-6.1.1.buildspec) | [result](maven-indexer-6.1.1.buildinfo): [19 :heavy_check_mark:  1 :warning:](maven-indexer-6.1.1.buildcompare) | 37M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
