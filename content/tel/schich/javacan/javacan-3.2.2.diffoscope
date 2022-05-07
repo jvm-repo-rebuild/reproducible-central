@@ -1,0 +1,188 @@
+1 / 9 target/reference/javacan-core-3.2.2-x86_64.jar core/target/javacan-core-3.2.2-x86_64.jar
+--- target/reference/javacan-core-3.2.2-x86_64.jar
++++ core/target/javacan-core-3.2.2-x86_64.jar
+├── zipinfo {}
+│ @@ -1,11 +1,11 @@
+│ -Zip file size: 10542 bytes, number of entries: 9
+│ +Zip file size: 10527 bytes, number of entries: 9
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/
+│  -rw-r--r--  2.0 unx       82 b- defN 22-May-05 23:41 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 native/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/tel.schich/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/
+│  -rw-r--r--  2.0 unx    33920 b- defN 22-May-05 23:41 native/libjavacan-core.so
+│  -rw-r--r--  2.0 unx     1175 b- defN 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/pom.xml
+│  -rw-r--r--  2.0 unx       57 b- defN 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/pom.properties
+│ -9 files, 35234 bytes uncompressed, 9356 bytes compressed:  73.4%
+│ +9 files, 35234 bytes uncompressed, 9341 bytes compressed:  73.5%
+├── native/libjavacan-core.so
+...
+
+2 / 9 target/reference/javacan-core-3.2.2-x86_32.jar core/target/javacan-core-3.2.2-x86_32.jar
+--- target/reference/javacan-core-3.2.2-x86_32.jar
++++ core/target/javacan-core-3.2.2-x86_32.jar
+├── zipinfo {}
+│ @@ -1,11 +1,11 @@
+│ -Zip file size: 11488 bytes, number of entries: 9
+│ +Zip file size: 11470 bytes, number of entries: 9
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/
+│  -rw-r--r--  2.0 unx       82 b- defN 22-May-05 23:41 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 native/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/tel.schich/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/
+│  -rw-r--r--  2.0 unx    32168 b- defN 22-May-05 23:41 native/libjavacan-core.so
+│  -rw-r--r--  2.0 unx     1175 b- defN 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/pom.xml
+│  -rw-r--r--  2.0 unx       57 b- defN 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/pom.properties
+│ -9 files, 33482 bytes uncompressed, 10302 bytes compressed:  69.2%
+│ +9 files, 33482 bytes uncompressed, 10284 bytes compressed:  69.3%
+├── native/libjavacan-core.so
+...
+
+3 / 9 target/reference/javacan-core-3.2.2-armv6.jar core/target/javacan-core-3.2.2-armv6.jar
+--- target/reference/javacan-core-3.2.2-armv6.jar
++++ core/target/javacan-core-3.2.2-armv6.jar
+├── zipinfo {}
+│ @@ -1,11 +1,11 @@
+│ -Zip file size: 12413 bytes, number of entries: 9
+│ +Zip file size: 12401 bytes, number of entries: 9
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/
+│  -rw-r--r--  2.0 unx       82 b- defN 22-May-05 23:41 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 native/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/tel.schich/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/
+│  -rw-r--r--  2.0 unx    31552 b- defN 22-May-05 23:41 native/libjavacan-core.so
+│  -rw-r--r--  2.0 unx     1175 b- defN 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/pom.xml
+│  -rw-r--r--  2.0 unx       57 b- defN 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/pom.properties
+│ -9 files, 32866 bytes uncompressed, 11227 bytes compressed:  65.8%
+│ +9 files, 32866 bytes uncompressed, 11215 bytes compressed:  65.9%
+├── native/libjavacan-core.so
+...
+
+4 / 9 target/reference/javacan-core-3.2.2-armv7.jar core/target/javacan-core-3.2.2-armv7.jar
+--- target/reference/javacan-core-3.2.2-armv7.jar
++++ core/target/javacan-core-3.2.2-armv7.jar
+├── zipinfo {}
+│ @@ -1,11 +1,11 @@
+│ -Zip file size: 14516 bytes, number of entries: 9
+│ +Zip file size: 14508 bytes, number of entries: 9
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/
+│  -rw-r--r--  2.0 unx       82 b- defN 22-May-05 23:41 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 native/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/tel.schich/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/
+│  -rw-r--r--  2.0 unx    38936 b- defN 22-May-05 23:41 native/libjavacan-core.so
+│  -rw-r--r--  2.0 unx     1175 b- defN 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/pom.xml
+│  -rw-r--r--  2.0 unx       57 b- defN 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/pom.properties
+│ -9 files, 40250 bytes uncompressed, 13330 bytes compressed:  66.9%
+│ +9 files, 40250 bytes uncompressed, 13322 bytes compressed:  66.9%
+├── native/libjavacan-core.so
+...
+
+5 / 9 target/reference/javacan-core-3.2.2-armv7a.jar core/target/javacan-core-3.2.2-armv7a.jar
+--- target/reference/javacan-core-3.2.2-armv7a.jar
++++ core/target/javacan-core-3.2.2-armv7a.jar
+├── zipinfo {}
+│ @@ -1,11 +1,11 @@
+│ -Zip file size: 12351 bytes, number of entries: 9
+│ +Zip file size: 12353 bytes, number of entries: 9
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/
+│  -rw-r--r--  2.0 unx       82 b- defN 22-May-05 23:41 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 native/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/tel.schich/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/
+│  -rw-r--r--  2.0 unx    31560 b- defN 22-May-05 23:41 native/libjavacan-core.so
+│  -rw-r--r--  2.0 unx     1175 b- defN 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/pom.xml
+│  -rw-r--r--  2.0 unx       57 b- defN 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/pom.properties
+│ -9 files, 32874 bytes uncompressed, 11165 bytes compressed:  66.0%
+│ +9 files, 32874 bytes uncompressed, 11167 bytes compressed:  66.0%
+├── native/libjavacan-core.so
+...
+
+6 / 9 target/reference/javacan-core-3.2.2-armv7l.jar core/target/javacan-core-3.2.2-armv7l.jar
+--- target/reference/javacan-core-3.2.2-armv7l.jar
++++ core/target/javacan-core-3.2.2-armv7l.jar
+├── zipinfo {}
+│ @@ -1,11 +1,11 @@
+│ -Zip file size: 25974 bytes, number of entries: 9
+│ +Zip file size: 25977 bytes, number of entries: 9
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/
+│  -rw-r--r--  2.0 unx       82 b- defN 22-May-05 23:41 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 native/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/tel.schich/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/
+│  -rw-r--r--  2.0 unx    59552 b- defN 22-May-05 23:41 native/libjavacan-core.so
+│  -rw-r--r--  2.0 unx     1175 b- defN 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/pom.xml
+│  -rw-r--r--  2.0 unx       57 b- defN 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/pom.properties
+│ -9 files, 60866 bytes uncompressed, 24788 bytes compressed:  59.3%
+│ +9 files, 60866 bytes uncompressed, 24791 bytes compressed:  59.3%
+├── native/libjavacan-core.so
+...
+
+7 / 9 target/reference/javacan-core-3.2.2-aarch64.jar core/target/javacan-core-3.2.2-aarch64.jar
+--- target/reference/javacan-core-3.2.2-aarch64.jar
++++ core/target/javacan-core-3.2.2-aarch64.jar
+├── zipinfo {}
+│ @@ -1,11 +1,11 @@
+│ -Zip file size: 11001 bytes, number of entries: 9
+│ +Zip file size: 10987 bytes, number of entries: 9
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/
+│  -rw-r--r--  2.0 unx       82 b- defN 22-May-05 23:41 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 native/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/tel.schich/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/
+│  -rw-r--r--  2.0 unx    35792 b- defN 22-May-05 23:41 native/libjavacan-core.so
+│  -rw-r--r--  2.0 unx     1175 b- defN 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/pom.xml
+│  -rw-r--r--  2.0 unx       57 b- defN 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/pom.properties
+│ -9 files, 37106 bytes uncompressed, 9815 bytes compressed:  73.5%
+│ +9 files, 37106 bytes uncompressed, 9801 bytes compressed:  73.6%
+├── native/libjavacan-core.so
+...
+
+8 / 9 target/reference/javacan-core-3.2.2-riscv32.jar core/target/javacan-core-3.2.2-riscv32.jar
+--- target/reference/javacan-core-3.2.2-riscv32.jar
++++ core/target/javacan-core-3.2.2-riscv32.jar
+├── zipinfo {}
+│ @@ -1,11 +1,11 @@
+│ -Zip file size: 13233 bytes, number of entries: 9
+│ +Zip file size: 13224 bytes, number of entries: 9
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/
+│  -rw-r--r--  2.0 unx       82 b- defN 22-May-05 23:41 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 native/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/tel.schich/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/
+│  -rw-r--r--  2.0 unx    32784 b- defN 22-May-05 23:41 native/libjavacan-core.so
+│  -rw-r--r--  2.0 unx     1175 b- defN 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/pom.xml
+│  -rw-r--r--  2.0 unx       57 b- defN 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/pom.properties
+│ -9 files, 34098 bytes uncompressed, 12047 bytes compressed:  64.7%
+│ +9 files, 34098 bytes uncompressed, 12038 bytes compressed:  64.7%
+├── native/libjavacan-core.so
+...
+
+9 / 9 target/reference/javacan-core-3.2.2-riscv64.jar core/target/javacan-core-3.2.2-riscv64.jar
+--- target/reference/javacan-core-3.2.2-riscv64.jar
++++ core/target/javacan-core-3.2.2-riscv64.jar
+├── zipinfo {}
+│ @@ -1,11 +1,11 @@
+│ -Zip file size: 8837 bytes, number of entries: 9
+│ +Zip file size: 8832 bytes, number of entries: 9
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/
+│  -rw-r--r--  2.0 unx       82 b- defN 22-May-05 23:41 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 native/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/tel.schich/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/
+│  -rw-r--r--  2.0 unx    25304 b- defN 22-May-05 23:41 native/libjavacan-core.so
+│  -rw-r--r--  2.0 unx     1175 b- defN 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/pom.xml
+│  -rw-r--r--  2.0 unx       57 b- defN 22-May-05 23:41 META-INF/maven/tel.schich/javacan-core/pom.properties
+│ -9 files, 26618 bytes uncompressed, 7651 bytes compressed:  71.3%
+│ +9 files, 26618 bytes uncompressed, 7646 bytes compressed:  71.3%
+├── native/libjavacan-core.so
+...

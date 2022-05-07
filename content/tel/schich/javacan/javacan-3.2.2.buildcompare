@@ -1,0 +1,16 @@
+version=3.2.2
+ok=16
+ko=9
+okFiles="javacan-3.2.2.pom javacan-core-3.2.2.pom javacan-core-3.2.2.jar javacan-core-3.2.2-sources.jar javacan-epoll-3.2.2.pom javacan-epoll-3.2.2.jar javacan-epoll-3.2.2-sources.jar javacan-epoll-3.2.2-x86_64.jar javacan-epoll-3.2.2-x86_32.jar javacan-epoll-3.2.2-armv6.jar javacan-epoll-3.2.2-armv7.jar javacan-epoll-3.2.2-armv7a.jar javacan-epoll-3.2.2-armv7l.jar javacan-epoll-3.2.2-aarch64.jar javacan-epoll-3.2.2-riscv32.jar javacan-epoll-3.2.2-riscv64.jar"
+koFiles="javacan-core-3.2.2-x86_64.jar javacan-core-3.2.2-x86_32.jar javacan-core-3.2.2-armv6.jar javacan-core-3.2.2-armv7.jar javacan-core-3.2.2-armv7a.jar javacan-core-3.2.2-armv7l.jar javacan-core-3.2.2-aarch64.jar javacan-core-3.2.2-riscv32.jar javacan-core-3.2.2-riscv64.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/javacan-core-3.2.2-x86_64.jar core/target/javacan-core-3.2.2-x86_64.jar
+# diffoscope target/reference/javacan-core-3.2.2-x86_32.jar core/target/javacan-core-3.2.2-x86_32.jar
+# diffoscope target/reference/javacan-core-3.2.2-armv6.jar core/target/javacan-core-3.2.2-armv6.jar
+# diffoscope target/reference/javacan-core-3.2.2-armv7.jar core/target/javacan-core-3.2.2-armv7.jar
+# diffoscope target/reference/javacan-core-3.2.2-armv7a.jar core/target/javacan-core-3.2.2-armv7a.jar
+# diffoscope target/reference/javacan-core-3.2.2-armv7l.jar core/target/javacan-core-3.2.2-armv7l.jar
+# diffoscope target/reference/javacan-core-3.2.2-aarch64.jar core/target/javacan-core-3.2.2-aarch64.jar
+# diffoscope target/reference/javacan-core-3.2.2-riscv32.jar core/target/javacan-core-3.2.2-riscv32.jar
+# diffoscope target/reference/javacan-core-3.2.2-riscv64.jar core/target/javacan-core-3.2.2-riscv64.jar
