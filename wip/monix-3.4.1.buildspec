@@ -1,0 +1,16 @@
+groupId=io.monix
+artifactId=monix_2.13
+display=${groupId}:monix
+version=3.4.1
+
+gitRepo=https://github.com/monix/monix.git
+gitTag=v${version}
+
+tool=sbt
+jdk=8
+newline=lf
+
+command="sbt clean ci-all"
+buildinfo="target/scala-*/monix*_*-$version.buildinfo */target/scala-*/monix*_*-$version.buildinfo"
+
+issue=
