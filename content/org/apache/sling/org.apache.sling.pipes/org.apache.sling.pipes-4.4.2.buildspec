@@ -1,17 +1,17 @@
 groupId=org.apache.sling
-artifactId=org.apache.sling.resourcemerger
-display=${groupId}:.resourcemerger
-version=1.4.0
+artifactId=org.apache.sling.pipes
+display=${groupId}:.pipes
+version=4.4.2
 
 gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git
 gitTag=${artifactId}-${version}
 
 tool=mvn
-jdk=11
+jdk=8
 newline=lf
 
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-#diffoscope=${artifactId}-${version}.diffoscope
-issue=
+diffoscope=${artifactId}-${version}.diffoscope
+issue=https://issues.apache.org/jira/browse/SM-5021
