@@ -60,7 +60,7 @@ rebuilding **25 releases** of io.dropwizard.metrics:metrics-parent:
 | [4.2.0-rc.3](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-parent/4.2.0-rc.3/pom) | | | |
 | [4.2.0-rc.2](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-parent/4.2.0-rc.2/pom) | | | |
 | [4.2.0-rc.1](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-parent/4.2.0-rc.1/pom) | | | |
-| [4.2.0-beta.4](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-parent/4.2.0-beta.4/pom) | [mvn jdk11](dropwizard-metrics-4.2.0-beta.4.buildspec) | :x: | 629K |
+| [4.2.0-beta.4](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-parent/4.2.0-beta.4/pom) | [mvn jdk11](dropwizard-metrics-4.2.0-beta.4.buildspec) | [result](metrics-parent-4.2.0-beta.4.buildinfo): [30 :heavy_check_mark:  28 :warning:](metrics-parent-4.2.0-beta.4.buildcompare) | 629K |
 | [4.2.0-beta.3](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-parent/4.2.0-beta.3/pom) | [mvn jdk11](dropwizard-metrics-4.2.0-beta.3.buildspec) | [result](metrics-servlets-4.2.0-beta.3.buildinfo): [58 :heavy_check_mark: ](metrics-servlets-4.2.0-beta.3.buildcompare) | 627K |
 | [4.2.0-beta.2](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-parent/4.2.0-beta.2/pom) | [mvn jdk11](dropwizard-metrics-4.2.0-beta.2.buildspec) | [result](metrics-servlets-4.2.0-beta.2.buildinfo): [58 :heavy_check_mark: ](metrics-servlets-4.2.0-beta.2.buildcompare) | 627K |
 | [4.2.0-beta.1](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-parent/4.2.0-beta.1/pom) | [mvn jdk11](dropwizard-metrics-4.2.0-beta.1.buildspec) | [result](metrics-servlets-4.2.0-beta.1.buildinfo): [56 :heavy_check_mark: ](metrics-servlets-4.2.0-beta.1.buildcompare) | 620K |
