@@ -5,7 +5,7 @@ version=1.6.8
 display=${groupId}:${artifactId}
 
 gitRepo=https://github.com/nahsra/${artifactId}.git
-gitTag=a0ec25d2ec70b794e6a78f6251c21735696ea832
+gitTag=v${version}
 
 tool=mvn
 jdk=8
