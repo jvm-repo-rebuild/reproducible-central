@@ -7,7 +7,7 @@ display=${groupId}:${artifactId}
 gitRepo=https://github.com/apache/mina-ftpserver.git
 gitTag=ftpserver-${version}
 
-tool=mvn
+tool=mvn-3.8.5
 jdk=8
 newline=lf
 

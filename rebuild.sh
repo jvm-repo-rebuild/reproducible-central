@@ -87,9 +87,18 @@ fi
 echo -e "\033[1m$(pwd)\033[0m"
 
 mvnBuildDocker() {
-  local mvnCommand mvnImage crlfDocker
+  local mvnCommand mvnImage crlfDocker mvnVersion
   mvnCommand="$1"
   crlfDocker="no"
+
+  mvnVersion="3.6.3"
+  case ${tool} in
+    mvn-*)
+      mvnVersion="$(echo "$tool" | cut -d - -f 2)"
+    ;;
+    *)
+  esac
+
   # select Docker image to match required JDK version: https://hub.docker.com/_/maven
   case ${jdk} in
     6 | 7)
@@ -97,19 +106,19 @@ mvnBuildDocker() {
       crlfDocker="yes"
       ;;
     8)
-      mvnImage=maven:3.6.3-jdk-${jdk}-slim
+      mvnImage=maven:${mvnVersion}-jdk-${jdk}-slim
       ;;
     9)
       mvnImage=maven:3-jdk-${jdk}-slim
       ;;
     14)
-      mvnImage=maven:3.6.3-jdk-${jdk}
+      mvnImage=maven:${mvnVersion}-jdk-${jdk}
       ;;
     15 | 16 | 17)
-      mvnImage=maven:3.6.3-openjdk-${jdk}-slim
+      mvnImage=maven:${mvnVersion}-openjdk-${jdk}-slim
       ;;
     *)
-      mvnImage=maven:3.6.3-jdk-${jdk}-slim
+      mvnImage=maven:${mvnVersion}-jdk-${jdk}-slim
   esac
 
   echo "Rebuilding using Docker image ${mvnImage}"
@@ -136,7 +145,7 @@ mvnBuildDocker() {
 mvnBuildLocal() {
   local mvnCommand="$1"
 
-  echo "Rebuilding using local JDK ${jdk}"
+  echo "Rebuilding using local JDK and Maven: expected jdk=${jdk}"
   # TODO need to define settings with ${base}/repository local repository to avoid mixing reproducible-central dependencies with day to day builds
   if [[ "${newline}" == crlf* ]]
   then
@@ -235,7 +244,7 @@ rebuildToolGradle() {
 }
 
 case ${tool} in
-  mvn)
+  mvn*)
     rebuildToolMvn
     ;;
   sbt)

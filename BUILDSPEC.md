@@ -28,6 +28,7 @@ sourceRmFiles=DEPENDENCIES LICENSE NOTICE
 
 # Rebuild environment prerequisites
 tool=mvn
+# or tool=mvn-3.8.5 is default 3.6.3 version does not match your prerequisites (available version may be limited by images available on Dockerhub)
 jdk=8
 newline=crlf
 # crlf for Windows, lf for Unix
