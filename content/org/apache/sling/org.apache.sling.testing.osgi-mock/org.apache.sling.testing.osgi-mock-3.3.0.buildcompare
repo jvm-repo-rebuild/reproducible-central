@@ -1,0 +1,7 @@
+version=3.3.0
+ok=21
+ko=0
+okFiles="org.apache.sling.testing.osgi-mock.parent-3.3.0.pom org.apache.sling.testing.osgi-mock.parent-3.3.0-source-release.zip org.apache.sling.testing.osgi-mock.test-services-3.3.0.pom org.apache.sling.testing.osgi-mock.test-services-3.3.0.jar org.apache.sling.testing.osgi-mock.test-services-3.3.0-source-release.zip org.apache.sling.testing.osgi-mock.test-services-3.3.0-sources.jar org.apache.sling.testing.osgi-mock.core-3.3.0.pom org.apache.sling.testing.osgi-mock.core-3.3.0.jar org.apache.sling.testing.osgi-mock.core-3.3.0-source-release.zip org.apache.sling.testing.osgi-mock.core-3.3.0-sources.jar org.apache.sling.testing.osgi-mock.core-3.3.0-tests.jar org.apache.sling.testing.osgi-mock.junit4-3.3.0.pom org.apache.sling.testing.osgi-mock.junit4-3.3.0.jar org.apache.sling.testing.osgi-mock.junit4-3.3.0-source-release.zip org.apache.sling.testing.osgi-mock.junit4-3.3.0-sources.jar org.apache.sling.testing.osgi-mock.junit5-3.3.0.pom org.apache.sling.testing.osgi-mock.junit5-3.3.0.jar org.apache.sling.testing.osgi-mock.junit5-3.3.0-source-release.zip org.apache.sling.testing.osgi-mock.junit5-3.3.0-sources.jar org.apache.sling.testing.osgi-mock-3.3.0.pom org.apache.sling.testing.osgi-mock-3.3.0-source-release.zip"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
