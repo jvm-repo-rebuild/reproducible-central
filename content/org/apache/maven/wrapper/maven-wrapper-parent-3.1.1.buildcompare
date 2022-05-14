@@ -1,0 +1,7 @@
+version=3.1.1
+ok=14
+ko=0
+okFiles="maven-wrapper-parent-3.1.1.pom maven-wrapper-parent-3.1.1-site.xml maven-wrapper-3.1.1.pom maven-wrapper-3.1.1.jar maven-wrapper-3.1.1-source-release.zip maven-wrapper-3.1.1-sources.jar maven-wrapper-distribution-3.1.1.pom maven-wrapper-distribution-3.1.1-site.xml maven-wrapper-distribution-3.1.1-script.zip maven-wrapper-distribution-3.1.1-source.zip maven-wrapper-distribution-3.1.1-bin.zip maven-wrapper-plugin-3.1.1.pom maven-wrapper-plugin-3.1.1.jar maven-wrapper-plugin-3.1.1-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

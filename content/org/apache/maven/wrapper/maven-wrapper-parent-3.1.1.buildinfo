@@ -1,0 +1,87 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Wrapper
+group-id=org.apache.maven.wrapper
+artifact-id=maven-wrapper-parent
+version=3.1.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-wrapper.git
+source.scm.tag=maven-wrapper-3.1.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=maven-wrapper-plugin
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.maven.wrapper:maven-wrapper-parent
+
+outputs.0.0.filename=maven-wrapper-parent-3.1.1.pom
+outputs.0.0.length=3659
+outputs.0.0.checksums.sha512=cc95279a28eb457df226ef177993e89767feec9cb8292c54e87abf83caee402e88c7a99bc6246373c7c10e5e3c3e95635f4966af40a7dd02ca155ae86bab9c97
+
+outputs.0.1.filename=maven-wrapper-parent-3.1.1-site.xml
+outputs.0.1.length=1668
+outputs.0.1.checksums.sha512=e201705e36fb0e7488abfe74a8f645bc2c7beb43ff2a793763e42df3f6873ad95e6c7f3257792ce47c7f36c1c26d582c495685849f647e6155d4e0070ab2a9cf
+
+outputs.1.coordinates=org.apache.maven.wrapper:maven-wrapper
+
+outputs.1.0.filename=maven-wrapper-3.1.1.pom
+outputs.1.0.length=3519
+outputs.1.0.checksums.sha512=17e2f4d072590529f734ffcf6ea682ea3d63ae9582714e18af45af4b4c8c43022537aff1ffe3a8e44cbd9b55403af2aee553d80891b17baa907d5de4a375f4a4
+
+outputs.1.1.filename=maven-wrapper-3.1.1.jar
+outputs.1.1.length=59925
+outputs.1.1.checksums.sha512=7cb7f5bd675975a62e847f4484bdc71f61bc2321383b60eebf6c22b30b2bdb7cf0e8f5e1b5a252e5efbddd2d7f8f8d82cb9063e1511d093978be19b4d65986ef
+
+outputs.1.2.filename=maven-wrapper-3.1.1-source-release.zip
+outputs.1.2.length=127137
+outputs.1.2.checksums.sha512=b110aef3a123c5f1ab77669c53baee3b1a71471ad672af4812d39ef302234f64789edd89f70f20c169eb5d4cc45fb4a94a24f64f98adbf863d0e5013a762aea0
+
+outputs.1.3.filename=maven-wrapper-3.1.1-sources.jar
+outputs.1.3.length=36801
+outputs.1.3.checksums.sha512=842a32da02d8e8e9656a4d9bbdf91b54a7de395d80539a631fac4a3c91a8c2f34be5c28747d6be8cd2f4acd606587f44ca0df70f71de04975bbe33eb16164d72
+
+outputs.2.coordinates=org.apache.maven.wrapper:maven-wrapper-distribution
+
+outputs.2.0.filename=maven-wrapper-distribution-3.1.1.pom
+outputs.2.0.length=2511
+outputs.2.0.checksums.sha512=3deade823f784bbe137b7c1a9adc0b7264e9dd6fead34632fcf3539a1d39a2b757c4eeb8fc1c9eedeae6cd0bf6b133d05cb83e5bd8eb38a427ac62f138e680c1
+
+outputs.2.1.filename=maven-wrapper-distribution-3.1.1-site.xml
+outputs.2.1.length=1111
+outputs.2.1.checksums.sha512=c8ba0687aec59491305fb05a7135dd182312e826dca2ea2d06900faaff26e6f7a463831e628e6aa9d58f213a4e1b26e1ede393f3131d0575dd383cc324fd217c
+
+outputs.2.2.filename=maven-wrapper-distribution-3.1.1-script.zip
+outputs.2.2.length=7801
+outputs.2.2.checksums.sha512=52ec45e4f77c505f3f82859f77fa1e22f343d5cd380ab824d660ed48a714d888edef7a6495786b2ad4fdab6bac560400c9ccfa619659752fc80a877a3a80b5d8
+
+outputs.2.3.filename=maven-wrapper-distribution-3.1.1-source.zip
+outputs.2.3.length=10103
+outputs.2.3.checksums.sha512=f48c9480d99593455688d7d49a0357242ee788f5c01aa1129c03f5594b9a2f2fc0652cef236558bbfa9059daeb011781994417860f3a38d5a1ccc76bb4539744
+
+outputs.2.4.filename=maven-wrapper-distribution-3.1.1-bin.zip
+outputs.2.4.length=61217
+outputs.2.4.checksums.sha512=7e8bc60e26187f94bf6c449483813ae6bed11813063df686702f4439046b4f954743a5a01288639756624ed097e946a30f7352a7524f4c5dcae53b4d0ac50543
+
+outputs.3.coordinates=org.apache.maven.plugins:maven-wrapper-plugin
+
+outputs.3.0.filename=maven-wrapper-plugin-3.1.1.pom
+outputs.3.0.length=6123
+outputs.3.0.checksums.sha512=33231aa33f77494261c5b724f5891ff81dad262543cd5846fe2b77545672b5d26aa6fc500161312b1e45023d0437a61978e9cf371710af84f3b3c1e81bd08674
+
+outputs.3.1.filename=maven-wrapper-plugin-3.1.1.jar
+outputs.3.1.length=25347
+outputs.3.1.checksums.sha512=85e1fe9f68282f8b9326e5595d98e6d2e0b4f27b2181719bd2202441ef20d2e26b59a8aac68bc7d6ffb8153986d703adbec5c1a2762318cd979fc2ab56061bb1
+
+outputs.3.2.filename=maven-wrapper-plugin-3.1.1-sources.jar
+outputs.3.2.length=16824
+outputs.3.2.checksums.sha512=f02f3e407a56955afc7dcc96ba1e4106544034725c4ed6a557dc4655b45077fbe0eaf3b6f49af39236d0858257067ab98e872c31d95819a281fe405d387e0540
