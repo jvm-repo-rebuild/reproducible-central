@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Testing Resource Resolver Mock
+group-id=org.apache.sling
+artifact-id=org.apache.sling.testing.resourceresolver-mock
+version=1.3.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-testing-resourceresolver-mock.git
+source.scm.tag=org.apache.sling.testing.resourceresolver-mock-1.3.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.testing.resourceresolver-mock-1.3.0.pom
+outputs.0.length=7248
+outputs.0.checksums.sha512=b5c39ea0a15afd1a9c2588766a4f2c461f796b85e864be0e122f998dca1b0e2f948055837880c5c9765795b993c5a49571b33fca52b8968ed50a43bb4bd28be3
+
+outputs.1.filename=org.apache.sling.testing.resourceresolver-mock-1.3.0.jar
+outputs.1.length=36539
+outputs.1.checksums.sha512=c5f8f4f4ba7448c40d9ac0d4ef946e4dd8f1158895c254c32e927d7767c508f46fc39c979de173a9ace57fa04baaee729e46e2fc1e28559e79e3c84ca4dfeef2
+
+outputs.2.filename=org.apache.sling.testing.resourceresolver-mock-1.3.0-source-release.zip
+outputs.2.length=55735
+outputs.2.checksums.sha512=eb0f9df422185d0fa2c34d8bd1a154215a06d059833924f910f2011fb770801a45fbe74e8f98f0e8008c8d7358858aa3a4fdd44fe70f983c005f3ee700179871
+
+outputs.3.filename=org.apache.sling.testing.resourceresolver-mock-1.3.0-sources.jar
+outputs.3.length=31240
+outputs.3.checksums.sha512=84b4e8f8c984e5495d76c919cdc28e050ee52fc828cd9a4900a800893b546a4a8f2350159fadbdf6108b27f05b4e92b3fa492053a1ef3aad7978d9770a9ef579
+
+outputs.4.filename=org.apache.sling.testing.resourceresolver-mock-1.3.0-sources.jar
+outputs.4.length=31240
+outputs.4.checksums.sha512=84b4e8f8c984e5495d76c919cdc28e050ee52fc828cd9a4900a800893b546a4a8f2350159fadbdf6108b27f05b4e92b3fa492053a1ef3aad7978d9770a9ef579
