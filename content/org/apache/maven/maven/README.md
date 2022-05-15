@@ -28,7 +28,7 @@ Source code: [https://github.com/apache/maven-jxr.git](https://github.com/apache
 
 rebuilding **6 releases** of org.apache.maven:maven:
 - **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:):
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |

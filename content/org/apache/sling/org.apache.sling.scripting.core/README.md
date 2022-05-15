@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-scripting-core.git](https://github.com/apache/sling-org-apache-sling-scripting-core.git)
 
-rebuilding **3 releases** of org.apache.sling:org.apache.sling.scripting.core:
+rebuilding **4 releases** of org.apache.sling:org.apache.sling.scripting.core:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:):
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.4.8](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.scripting.core/2.4.8/pom) | | | |
+| [2.4.8](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.scripting.core/2.4.8/pom) | [mvn jdk11](org.apache.sling.scripting.core-2.4.8.buildspec) | [result](org.apache.sling.scripting.core-2.4.8.buildinfo): [3 :heavy_check_mark:  1 :warning:](org.apache.sling.scripting.core-2.4.8.buildcompare) [:mag:](org.apache.sling.scripting.core-2.4.8.diffoscope) | 454K |
 | [2.4.6](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.scripting.core/2.4.6/pom) | [mvn jdk11](org.apache.sling.scripting.core-2.4.6.buildspec) | [result](org.apache.sling.scripting.core-2.4.6.buildinfo): [3 :heavy_check_mark:  1 :warning:](org.apache.sling.scripting.core-2.4.6.buildcompare) [:mag:](org.apache.sling.scripting.core-2.4.6.diffoscope) | 454K |
 | [2.4.4](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.scripting.core/2.4.4/pom) | [mvn jdk11](org.apache.sling.scripting.core-2.4.4.buildspec) | [result](org.apache.sling.scripting.core-2.4.4.buildinfo): [3 :heavy_check_mark:  1 :warning:](org.apache.sling.scripting.core-2.4.4.buildcompare) [:mag:](org.apache.sling.scripting.core-2.4.4.diffoscope) | 453K |
 | [2.4.2](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.scripting.core/2.4.2/pom) | [mvn jdk11](org.apache.sling.scripting.core-2.4.2.buildspec) | [result](org.apache.sling.scripting.core-2.4.2.buildinfo): [3 :heavy_check_mark:  1 :warning:](org.apache.sling.scripting.core-2.4.2.buildcompare) [:mag:](org.apache.sling.scripting.core-2.4.2.diffoscope) | 446K |

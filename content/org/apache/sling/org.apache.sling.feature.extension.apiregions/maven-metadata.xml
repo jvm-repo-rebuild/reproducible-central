@@ -3,8 +3,8 @@
   <groupId>org.apache.sling</groupId>
   <artifactId>org.apache.sling.feature.extension.apiregions</artifactId>
   <versioning>
-    <latest>1.5.0</latest>
-    <release>1.5.0</release>
+    <latest>1.6.0</latest>
+    <release>1.6.0</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0.2</version>
@@ -35,7 +35,8 @@
       <version>1.4.2</version>
       <version>1.4.4</version>
       <version>1.5.0</version>
+      <version>1.6.0</version>
     </versions>
-    <lastUpdated>20220127093127</lastUpdated>
+    <lastUpdated>20220515075726</lastUpdated>
   </versioning>
 </metadata>

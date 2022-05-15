@@ -9,7 +9,7 @@ Source code: [https://github.com/nahsra/antisamy.git](https://github.com/nahsra/
 
 rebuilding **10 releases** of org.owasp.antisamy:antisamy:
 - **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:):
+- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |

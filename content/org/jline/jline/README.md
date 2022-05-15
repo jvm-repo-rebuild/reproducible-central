@@ -27,7 +27,7 @@ Source code: [https://github.com/jline/jline3.git](https://github.com/jline/jlin
 
 rebuilding **2 releases** of org.jline:jline-parent:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:):
+- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |

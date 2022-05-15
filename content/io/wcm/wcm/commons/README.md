@@ -9,7 +9,7 @@ Source code: [https://github.com/wcm-io/wcm-io-wcm.git](https://github.com/wcm-i
 
 rebuilding **2 releases** of io.wcm:io.wcm.wcm.commons:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:):
+- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |

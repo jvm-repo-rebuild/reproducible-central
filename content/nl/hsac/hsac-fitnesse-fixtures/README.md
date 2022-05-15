@@ -9,7 +9,7 @@ Source code: [https://github.com/fhoeben/hsac-fitnesse-fixtures.git](https://git
 
 rebuilding **28 releases** of nl.hsac:hsac-fitnesse-fixtures:
 - **17** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 11 had issues (some unreproducible artifacts :warning:):
+- 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |

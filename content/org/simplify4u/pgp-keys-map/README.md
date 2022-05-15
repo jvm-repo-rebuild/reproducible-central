@@ -9,7 +9,7 @@ Source code: [git@github.com:s4u/pgp-keys-map.git](git@github.com:s4u/pgp-keys-m
 
 rebuilding **13 releases** of org.simplify4u:pgp-keys-map:
 - **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:):
+- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |

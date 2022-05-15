@@ -9,7 +9,7 @@ Source code: [https://github.com/apache/felix-dev.git](https://github.com/apache
 
 rebuilding **4 releases** of org.apache.felix:maven-bundle-plugin:
 - **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:):
+- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |

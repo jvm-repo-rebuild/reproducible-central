@@ -58,7 +58,7 @@ Source code: [https://github.com/eclipse/jkube.git](https://github.com/eclipse/j
 
 rebuilding **9 releases** of org.eclipse.jkube:jkube:
 - **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:):
+- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |

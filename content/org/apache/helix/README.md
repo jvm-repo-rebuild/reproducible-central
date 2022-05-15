@@ -24,7 +24,7 @@ Source code: [https://github.com/apache/helix.git](https://github.com/apache/hel
 
 rebuilding **1 releases** of org.apache.helix:helix:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |

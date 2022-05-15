@@ -132,7 +132,7 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 
 rebuilding **7 releases** of io.fabric8:kubernetes-client-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 7 had issues (some unreproducible artifacts :warning:):
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -140,7 +140,7 @@ rebuilding **7 releases** of io.fabric8:kubernetes-client-project:
 | [5.12.1](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/5.12.1/pom) | | | |
 | [5.12.0](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/5.12.0/pom) | | | |
 | [5.11.2](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/5.11.2/pom) | | | |
-| [5.11.1](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/5.11.1/pom) | [mvn jdk8](kubernetes-client-5.11.1.buildspec) | [result](kubernetes-client-project-5.11.1.buildinfo): [287 :heavy_check_mark:  73 :warning:](kubernetes-client-project-5.11.1.buildcompare) [:mag:](kubernetes-client-project-5.11.1.diffoscope) | 110M |
+| [5.11.1](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/5.11.1/pom) | [mvn jdk8](kubernetes-client-5.11.1.buildspec) | [result](kubernetes-client-project-5.11.1.buildinfo): [287 :heavy_check_mark:  73 :warning:](kubernetes-client-project-5.11.1.buildcompare) [:mag:](kubernetes-client-project-5.11.1.diffoscope) [:memo:](https://github.com/fabric8io/kubernetes-client/commit/52d2445f042215d6e89e0514bd43c44ae193ac63) | 110M |
 | [5.11.0](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/5.11.0/pom) | | | |
 | [5.10.2](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/5.10.2/pom) | | | |
 | [5.10.1](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/5.10.1/pom) | | | |

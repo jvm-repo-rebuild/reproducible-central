@@ -50,7 +50,7 @@ Source code: [https://github.com/pmd/pmd.git](https://github.com/pmd/pmd.git)
 
 rebuilding **22 releases** of net.sourceforge.pmd:pmd:
 - **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |

@@ -23,7 +23,7 @@ Source code: [https://github.com/osgi/osgi-test.git](https://github.com/osgi/osg
 
 rebuilding **3 releases** of org.osgi:org.osgi.test.parent:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |

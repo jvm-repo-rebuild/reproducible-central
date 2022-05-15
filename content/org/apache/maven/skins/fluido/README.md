@@ -9,7 +9,7 @@ Source code: [https://github.com/apache/maven-fluido-skin.git](https://github.co
 
 rebuilding **2 releases** of org.apache.maven.skins:maven-fluido-skin:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:):
+- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
