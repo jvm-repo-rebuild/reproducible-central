@@ -14,4 +14,4 @@ command="mvn -Prelease-sign-artifacts clean package -DskipTests -Dmaven.javadoc.
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope
-issue=https://issues.apache.org/jira/browse/FELIX-6496
+issue=https://github.com/dropwizard/metrics/pull/2601
