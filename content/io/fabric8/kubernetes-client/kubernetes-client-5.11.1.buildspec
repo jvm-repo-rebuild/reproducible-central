@@ -24,4 +24,4 @@ buildinfo=target/${artifactId}-${version}.buildinfo
 
 # if the release is finally not reproducible, link to an issue tracker entry if one was created or diffoscope result
 diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://github.com/fabric8io/kubernetes-client/commit/52d2445f042215d6e89e0514bd43c44ae193ac63
