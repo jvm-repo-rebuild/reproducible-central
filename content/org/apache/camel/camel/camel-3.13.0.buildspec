@@ -21,4 +21,4 @@ buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope
 # if the release is finally not reproducible, link to an issue tracker entry if one was created
-issue=
+issue=https://github.com/apache/camel/pull/7563
