@@ -173,8 +173,12 @@ rebuildToolMvn() {
   buildcompare="$(dirname "${buildinfo}")/$(basename ${buildinfo} .buildinfo).buildcompare"
   dos2unix ${buildcompare} || fatal "failed to convert buildcompare newlines"
   cp ${buildcompare} ../.. || fatal "failed to copy buildcompare file"
+}
 
-  echo
+displayResult() {
+  local buildcompare version ok ko okFiles koFiles reference_java_version reference_os_name
+  buildcompare="$(dirname "${buildinfo}")/$(basename ${buildinfo} .buildinfo).buildcompare"
+
   echo -e "rebuild from \033[1m${buildspec}\033[0m"
   local compare=""
   for f in ${buildcompare}
@@ -240,7 +244,71 @@ rebuildToolSbt() {
 
 # rebuild with Gradle tool (tool=gradle)
 rebuildToolGradle() {
-  fatal "rebuild with Gradle tool not yet implemented"
+  local jdkImage
+  case ${jdk} in
+    11)
+      jdkImage="openjdk:11.0.14.1"
+  esac
+
+  echo "Rebuilding using Docker image ${jdkImage}"
+
+  [ -d central ] || \rm -rf central
+  [ -d repository ] || \rm -rf repository
+
+  local docker_command="docker run -it --rm --name rebuild-central -v $PWD:/var/gradle/app -v $PWD:/var/gradle/.m2 -v $base/.sbt:/var/gradle/.sbt -v $base/.bnd:/.bnd -u $(id -u ${USER}):$(id -g ${USER}) -e MAVEN_CONFIG=/var/gradle/.m2 -w /var/gradle/app"
+  local gradle_docker_params="-Duser.home=/var/gradle"
+  echo -e "\033[2m${docker_command} ${jdkImage} \033[1m${command} ${gradle_docker_params}\033[0m"
+  ${docker_command} ${jdkImage} ${command} ${gradle_docker_params}
+
+  echo "computing ${buildinfo} and ${buildcompare}"
+  echo "name=${display}" > ${buildinfo}
+  echo "group-id=${groupId}" >> ${buildinfo}
+  echo "artifact-id=${artifactId}" >> ${buildinfo}
+  echo >> ${buildinfo}
+  echo "build-tool=gradle" >> ${buildinfo}
+  echo "java.version=${jdk}" >> ${buildinfo}
+  echo "os.name=${newline}" >> ${buildinfo}
+  local ok=()
+  local okFiles=()
+  local ko=()
+  local koFiles=()
+  for f in $(find repository -type f | cut -c 12-| grep -v /maven-metadata-local.xml | grep -v javadoc.jar | sort)
+  do
+    d=$(dirname $f)
+    [ -d central/$d ] || mkdir -p central/$d
+    wget -q https://repo.maven.apache.org/maven2/$f -O central/$f
+
+    echo >> ${buildinfo}
+    echo "$f" >> ${buildinfo}
+    echo "$(sha512sum repository/$f)" >> ${buildinfo}
+    echo "$(sha512sum central/$f)" >> ${buildinfo}
+
+    diff repository/$f central/$f
+    if [ $? -eq 0 ]
+    then
+      ok+=($f)
+      okFiles+=( $(basename $f) )
+    else
+      ko+=($f)
+      koFiles+=( $(basename $f) )
+    fi
+  done
+
+  buildcompare="$(basename ${buildinfo} .buildinfo).buildcompare"
+  echo "version=${version}" > ${buildcompare}
+  echo "ok=${#ok[@]}" >> ${buildcompare}
+  echo "ko=${#ko[@]}" >> ${buildcompare}
+  echo "okFiles=\"${okFiles[@]}\"" >> ${buildcompare}
+  echo "koFiles=\"${koFiles[@]}\"" >> ${buildcompare}
+  # TODO reference_java_version
+  # TODO reference_os_name
+  for f in ${ko[@]}
+  do
+    echo "# diffoscope repository/$f central/$f" >> ${buildcompare}
+  done
+
+  cp ${buildinfo} ../.. || fatal "failed to copy buildinfo file"
+  cp ${buildcompare} ../.. || fatal "failed to copy buildcompare file"
 }
 
 case ${tool} in
@@ -256,6 +324,9 @@ case ${tool} in
   *)
     fatal "build tool not yet supported: ${tool}"
 esac
+
+echo
+displayResult
 
 #git reset --hard
 
