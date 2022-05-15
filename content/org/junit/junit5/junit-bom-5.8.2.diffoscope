@@ -1,0 +1,518 @@
+1 / 38 repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar central/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar
+--- repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar
++++ central/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar
+├── zipinfo {}
+│ @@ -1,7 +1,7 @@
+│ -Zip file size: 6365 bytes, number of entries: 5
+│ +Zip file size: 6363 bytes, number of entries: 5
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat      633 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat      627 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat      316 bl defN 80-Feb-01 00:00 META-INF/LICENSE-notice.md
+│  -rw----     2.0 fat    14235 bl defN 80-Feb-01 00:00 META-INF/LICENSE.md
+│  -rw----     2.0 fat      269 bl defN 80-Feb-01 00:00 module-info.class
+│ -5 files, 15453 bytes uncompressed, 5693 bytes compressed:  63.2%
+│ +5 files, 15447 bytes uncompressed, 5691 bytes compressed:  63.2%
+├── META-INF/MANIFEST.MF
+│ @@ -1,17 +1,17 @@
+│  Manifest-Version: 1.0
+
+│ -Build-Date: 2022-05-15
+
+│ +Build-Date: 2021-11-28
+
+│  Build-Revision: f58cd419755846f1476e8d15783438de8d7aede4
+
+│ -Build-Time: 15:09:48.008+0000
+
+│ +Build-Time: 16:37:17.410+0100
+
+│  Built-By: JUnit Team
+
+│  Bundle-ManifestVersion: 2
+
+│  Bundle-Name: JUnit Jupiter (Aggregator)
+
+│  Bundle-SymbolicName: junit-jupiter
+
+│  Bundle-Version: 5.8.2
+
+│ -Created-By: 11.0.14.1 (Oracle Corporation 11.0.14.1+1)
+
+│ +Created-By: 11.0.13 (Eclipse Adoptium 11.0.13+8)
+
+│  Implementation-Title: junit-jupiter
+
+│  Implementation-Vendor: junit.org
+
+│  Implementation-Version: 5.8.2
+
+│  Import-Package: org.junit.platform.commons.logging;status=INTERNAL;ver
+
+│   sion="[1.8,2)"
+
+│  Specification-Title: junit-jupiter
+
+│  Specification-Vendor: junit.org
+
+2 / 38 repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.module central/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.module
+--- repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.module
++++ central/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.module
+│   --- repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.module
+├── +++ central/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.module
+│┄ Differences: {'replace': "OrderedDict([('formatVersion', '1.1'), ('component', OrderedDict([('group', "
+│┄             "'org.junit.jupiter'), ('module', 'junit-jupiter'), ('version', '5.8.2'), "
+│┄             "('attributes', OrderedDict([('org.gradle.status', 'release')]))])), ('createdBy', "
+│┄             "OrderedDict([('gradle', OrderedDict([('version', '7.2')]))])), ('variants', "
+│┄             "[OrderedDict([('name', 'apiElements'), ('attributes', "
+│┄             "OrderedDict([('org.gradle.category', 'library'), ('org.gradle.d […]
+│ @@ -47,20 +47,20 @@
+│                      "version": {
+│                          "requires": "5.8.2"
+│                      }
+│                  }
+│              ],
+│              "files": [
+│                  {
+│ -                    "md5": "c43a25460f985beabe3fc7a3130f0e6e",
+│ +                    "md5": "1597913594e58c0c75269c51e3b3d6d6",
+│                      "name": "junit-jupiter-5.8.2.jar",
+│ -                    "sha1": "46f7145d6d3b8de4e4aee58f1e0a44fb1713645d",
+│ -                    "sha256": "848baa6df44204256f8cf9060dca68ed2f281ec779185a3143c576958cafd890",
+│ -                    "sha512": "d2fca3feb04255475a5528d69621af38d68884d0138acdbd5fb0e3c8f7e761159496a29908edb458d9446f697004addb172808715af68281e224e6e6085bbf08",
+│ -                    "size": 6365,
+│ +                    "sha1": "5a817b1e63f1217e5c586090c45e681281f097ad",
+│ +                    "sha256": "4f5c1cc6432244cd16e36aa0e02b74bce34a81ff95a13d63d50951ec4ce3f4bd",
+│ +                    "sha512": "861c78bcda89c5be7a55e79d6d6dda9ddf5802ec0e62346dd26ab7da97a135955c2ccd12b8ecbada8307e514057f2e652bcb6953c33f2dbf887457197314c328",
+│ +                    "size": 6363,
+│                      "url": "junit-jupiter-5.8.2.jar"
+│                  }
+│              ],
+│              "name": "apiElements"
+│          },
+│          {
+│              "attributes": {
+│ @@ -102,20 +102,20 @@
+│                      "version": {
+│                          "requires": "5.8.2"
+│                      }
+│                  }
+│              ],
+│              "files": [
+│                  {
+│ -                    "md5": "c43a25460f985beabe3fc7a3130f0e6e",
+│ +                    "md5": "1597913594e58c0c75269c51e3b3d6d6",
+│                      "name": "junit-jupiter-5.8.2.jar",
+│ -                    "sha1": "46f7145d6d3b8de4e4aee58f1e0a44fb1713645d",
+│ -                    "sha256": "848baa6df44204256f8cf9060dca68ed2f281ec779185a3143c576958cafd890",
+│ -                    "sha512": "d2fca3feb04255475a5528d69621af38d68884d0138acdbd5fb0e3c8f7e761159496a29908edb458d9446f697004addb172808715af68281e224e6e6085bbf08",
+│ -                    "size": 6365,
+│ +                    "sha1": "5a817b1e63f1217e5c586090c45e681281f097ad",
+│ +                    "sha256": "4f5c1cc6432244cd16e36aa0e02b74bce34a81ff95a13d63d50951ec4ce3f4bd",
+│ +                    "sha512": "861c78bcda89c5be7a55e79d6d6dda9ddf5802ec0e62346dd26ab7da97a135955c2ccd12b8ecbada8307e514057f2e652bcb6953c33f2dbf887457197314c328",
+│ +                    "size": 6363,
+│                      "url": "junit-jupiter-5.8.2.jar"
+│                  }
+│              ],
+│              "name": "runtimeElements"
+│          },
+│          {
+│              "attributes": {
+
+...
+
+11 / 38 repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar central/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar
+--- repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar
++++ central/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar
+├── zipinfo {}
+│ @@ -1,12 +1,21 @@
+│ -Zip file size: 100342 bytes, number of entries: 63
+│ +Zip file size: 100450 bytes, number of entries: 63
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1754 bl defN 22-May-15 15:12 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1748 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat      316 bl defN 80-Feb-01 00:00 META-INF/LICENSE-notice.md
+│  -rw----     2.0 fat    14235 bl defN 80-Feb-01 00:00 META-INF/LICENSE.md
+│ +-rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/versions/9/
+│ +-rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/versions/9/org/
+│ +-rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/versions/9/org/junit/
+│ +-rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/versions/9/org/junit/platform/
+│ +-rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/versions/9/org/junit/platform/commons/
+│ +-rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/versions/9/org/junit/platform/commons/util/
+│ +-rw----     2.0 fat     4859 bl defN 80-Feb-01 00:00 META-INF/versions/9/org/junit/platform/commons/util/ModuleUtils$ModuleReferenceScanner.class
+│ +-rw----     2.0 fat    10721 bl defN 80-Feb-01 00:00 META-INF/versions/9/org/junit/platform/commons/util/ModuleUtils.class
+│ +-rw----     2.0 fat     1082 bl defN 80-Feb-01 00:00 module-info.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/junit/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/junit/platform/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/junit/platform/commons/
+│  -rw----     2.0 fat      885 bl defN 80-Feb-01 00:00 org/junit/platform/commons/JUnitException.class
+│  -rw----     2.0 fat      969 bl defN 80-Feb-01 00:00 org/junit/platform/commons/PreconditionViolationException.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/junit/platform/commons/annotation/
+│ @@ -49,17 +58,8 @@
+│  -rw----     2.0 fat     5783 bl defN 80-Feb-01 00:00 org/junit/platform/commons/util/Preconditions.class
+│  -rw----     2.0 fat     1418 bl defN 80-Feb-01 00:00 org/junit/platform/commons/util/ReflectionUtils$HierarchyTraversalMode.class
+│  -rw----     2.0 fat    51353 bl defN 80-Feb-01 00:00 org/junit/platform/commons/util/ReflectionUtils.class
+│  -rw----     2.0 fat     2586 bl defN 80-Feb-01 00:00 org/junit/platform/commons/util/RuntimeUtils.class
+│  -rw----     2.0 fat     5289 bl defN 80-Feb-01 00:00 org/junit/platform/commons/util/StringUtils.class
+│  -rw----     2.0 fat     2713 bl defN 80-Feb-01 00:00 org/junit/platform/commons/util/ToStringBuilder.class
+│  -rw----     2.0 fat      982 bl defN 80-Feb-01 00:00 org/junit/platform/commons/util/UnrecoverableExceptions.class
+│ --rw----     1.0 fat        0 b- stor 22-May-15 15:12 META-INF/versions/9/
+│ --rw----     1.0 fat        0 b- stor 22-May-15 15:12 META-INF/versions/9/org/
+│ --rw----     1.0 fat        0 b- stor 22-May-15 15:12 META-INF/versions/9/org/junit/
+│ --rw----     1.0 fat        0 b- stor 22-May-15 15:12 META-INF/versions/9/org/junit/platform/
+│ --rw----     1.0 fat        0 b- stor 22-May-15 15:12 META-INF/versions/9/org/junit/platform/commons/
+│ --rw----     1.0 fat        0 b- stor 22-May-15 15:12 META-INF/versions/9/org/junit/platform/commons/util/
+│ --rw----     2.0 fat     4859 bl defN 22-May-15 15:12 META-INF/versions/9/org/junit/platform/commons/util/ModuleUtils$ModuleReferenceScanner.class
+│ --rw----     2.0 fat    10721 bl defN 22-May-15 15:12 META-INF/versions/9/org/junit/platform/commons/util/ModuleUtils.class
+│ --rw----     2.0 fat     1082 bl defN 22-May-15 15:12 module-info.class
+│ -63 files, 236919 bytes uncompressed, 88738 bytes compressed:  62.5%
+│ +63 files, 236913 bytes uncompressed, 88750 bytes compressed:  62.5%
+├── zipnote «TEMP»/diffoscope_hun6ztvk_182/tmpoojjq1dn.zip
+│ @@ -6,14 +6,41 @@
+│  
+│  Filename: META-INF/LICENSE-notice.md
+│  Comment: 
+│  
+│  Filename: META-INF/LICENSE.md
+│  Comment: 
+│  
+│ +Filename: META-INF/versions/9/
+│ +Comment: 
+│ +
+│ +Filename: META-INF/versions/9/org/
+│ +Comment: 
+│ +
+│ +Filename: META-INF/versions/9/org/junit/
+│ +Comment: 
+│ +
+│ +Filename: META-INF/versions/9/org/junit/platform/
+│ +Comment: 
+│ +
+│ +Filename: META-INF/versions/9/org/junit/platform/commons/
+│ +Comment: 
+│ +
+│ +Filename: META-INF/versions/9/org/junit/platform/commons/util/
+│ +Comment: 
+│ +
+│ +Filename: META-INF/versions/9/org/junit/platform/commons/util/ModuleUtils$ModuleReferenceScanner.class
+│ +Comment: 
+│ +
+│ +Filename: META-INF/versions/9/org/junit/platform/commons/util/ModuleUtils.class
+│ +Comment: 
+│ +
+│ +Filename: module-info.class
+│ +Comment: 
+│ +
+│  Filename: org/
+│  Comment: 
+│  
+│  Filename: org/junit/
+│  Comment: 
+│  
+│  Filename: org/junit/platform/
+│ @@ -156,35 +183,8 @@
+│  
+│  Filename: org/junit/platform/commons/util/ToStringBuilder.class
+│  Comment: 
+│  
+│  Filename: org/junit/platform/commons/util/UnrecoverableExceptions.class
+│  Comment: 
+│  
+│ -Filename: META-INF/versions/9/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/versions/9/org/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/versions/9/org/junit/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/versions/9/org/junit/platform/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/versions/9/org/junit/platform/commons/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/versions/9/org/junit/platform/commons/util/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/versions/9/org/junit/platform/commons/util/ModuleUtils$ModuleReferenceScanner.class
+│ -Comment: 
+│ -
+│ -Filename: META-INF/versions/9/org/junit/platform/commons/util/ModuleUtils.class
+│ -Comment: 
+│ -
+│ -Filename: module-info.class
+│ -Comment: 
+│ -
+│  Zip file comment:
+├── META-INF/MANIFEST.MF
+│ @@ -1,17 +1,17 @@
+│  Manifest-Version: 1.0
+
+│ -Build-Date: 2022-05-15
+
+│ +Build-Date: 2021-11-28
+
+│  Build-Revision: f58cd419755846f1476e8d15783438de8d7aede4
+
+│ -Build-Time: 15:09:48.008+0000
+
+│ +Build-Time: 16:37:17.410+0100
+
+│  Built-By: JUnit Team
+
+│  Bundle-ManifestVersion: 2
+
+│  Bundle-Name: JUnit Platform Commons
+
+│  Bundle-SymbolicName: junit-platform-commons
+
+│  Bundle-Version: 1.8.2
+
+│ -Created-By: 11.0.14.1 (Oracle Corporation 11.0.14.1+1)
+
+│ +Created-By: 11.0.13 (Eclipse Adoptium 11.0.13+8)
+
+│  Export-Package: org.junit.platform.commons;version="1.8.2";status=STABLE
+
+│   ;uses:="org.apiguardian.api,org.junit.platform.commons.util",org.junit.
+
+│   platform.commons.annotation;version="1.8.2";status=STABLE;uses:="org.ap
+
+│   iguardian.api",org.junit.platform.commons.function;version="1.8.2";stat
+
+│   us=MAINTAINED;uses:="org.apiguardian.api",org.junit.platform.commons.lo
+
+│   gging;version="1.8.2";status=INTERNAL;mandatory:=status;uses:="org.apig
+
+│   uardian.api",org.junit.platform.commons.support;version="1.8.2";status=
+
+...
+
+13 / 38 repository/org/junit/platform/junit-platform-console/1.8.2/junit-platform-console-1.8.2.jar central/org/junit/platform/junit-platform-console/1.8.2/junit-platform-console-1.8.2.jar
+--- repository/org/junit/platform/junit-platform-console/1.8.2/junit-platform-console-1.8.2.jar
++++ central/org/junit/platform/junit-platform-console/1.8.2/junit-platform-console-1.8.2.jar
+├── zipinfo {}
+│ @@ -1,15 +1,16 @@
+│ -Zip file size: 488166 bytes, number of entries: 260
+│ +Zip file size: 488164 bytes, number of entries: 260
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1843 bl defN 22-May-15 15:12 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1837 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat      316 bl defN 80-Feb-01 00:00 META-INF/LICENSE-notice.md
+│  -rw----     2.0 fat    10482 bl defN 80-Feb-01 00:00 META-INF/LICENSE-picocli.md
+│  -rw----     2.0 fat    14235 bl defN 80-Feb-01 00:00 META-INF/LICENSE.md
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/services/
+│  -rw----     2.0 fat       55 bl defN 80-Feb-01 00:00 META-INF/services/java.util.spi.ToolProvider
+│ +-rw----     2.0 fat      728 bl defN 80-Feb-01 00:00 module-info.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/junit/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/junit/platform/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/junit/platform/console/
+│  -rw----     2.0 fat     4536 bl defN 80-Feb-01 00:00 org/junit/platform/console/ConsoleLauncher.class
+│  -rw----     2.0 fat     2482 bl defN 80-Feb-01 00:00 org/junit/platform/console/ConsoleLauncherExecutionResult.class
+│  -rw----     2.0 fat     1272 bl defN 80-Feb-01 00:00 org/junit/platform/console/ConsoleLauncherToolProvider.class
+│ @@ -254,9 +255,8 @@
+│  -rw----     2.0 fat     2091 bl defN 80-Feb-01 00:00 org/junit/platform/console/tasks/CustomContextClassLoaderExecutor.class
+│  -rw----     2.0 fat    10411 bl defN 80-Feb-01 00:00 org/junit/platform/console/tasks/DiscoveryRequestCreator.class
+│  -rw----     2.0 fat     6503 bl defN 80-Feb-01 00:00 org/junit/platform/console/tasks/FlatPrintingListener.class
+│  -rw----     2.0 fat     3540 bl defN 80-Feb-01 00:00 org/junit/platform/console/tasks/TreeNode.class
+│  -rw----     2.0 fat     8859 bl defN 80-Feb-01 00:00 org/junit/platform/console/tasks/TreePrinter.class
+│  -rw----     2.0 fat     5528 bl defN 80-Feb-01 00:00 org/junit/platform/console/tasks/TreePrintingListener.class
+│  -rw----     2.0 fat     8880 bl defN 80-Feb-01 00:00 org/junit/platform/console/tasks/VerboseTreePrintingListener.class
+│ --rw----     2.0 fat      728 bl defN 22-May-15 15:12 module-info.class
+│ -260 files, 1228514 bytes uncompressed, 425684 bytes compressed:  65.3%
+│ +260 files, 1228508 bytes uncompressed, 425682 bytes compressed:  65.3%
+├── zipnote «TEMP»/diffoscope_52ikvdgv_182/tmpf3sn8zfx.zip
+│ @@ -15,14 +15,17 @@
+│  
+│  Filename: META-INF/services/
+│  Comment: 
+│  
+│  Filename: META-INF/services/java.util.spi.ToolProvider
+│  Comment: 
+│  
+│ +Filename: module-info.class
+│ +Comment: 
+│ +
+│  Filename: org/
+│  Comment: 
+│  
+│  Filename: org/junit/
+│  Comment: 
+│  
+│  Filename: org/junit/platform/
+│ @@ -771,11 +774,8 @@
+│  
+│  Filename: org/junit/platform/console/tasks/TreePrintingListener.class
+│  Comment: 
+│  
+│  Filename: org/junit/platform/console/tasks/VerboseTreePrintingListener.class
+│  Comment: 
+│  
+│ -Filename: module-info.class
+│ -Comment: 
+│ -
+│  Zip file comment:
+├── META-INF/MANIFEST.MF
+│ @@ -1,17 +1,17 @@
+│  Manifest-Version: 1.0
+
+│ -Build-Date: 2022-05-15
+
+│ +Build-Date: 2021-11-28
+
+│  Build-Revision: f58cd419755846f1476e8d15783438de8d7aede4
+
+│ -Build-Time: 15:09:48.008+0000
+
+│ +Build-Time: 16:37:17.410+0100
+
+│  Built-By: JUnit Team
+
+│  Bundle-ManifestVersion: 2
+
+│  Bundle-Name: JUnit Platform Console
+
+│  Bundle-SymbolicName: junit-platform-console
+
+│  Bundle-Version: 1.8.2
+
+│ -Created-By: 11.0.14.1 (Oracle Corporation 11.0.14.1+1)
+
+│ +Created-By: 11.0.13 (Eclipse Adoptium 11.0.13+8)
+
+│  Export-Package: org.junit.platform.console;version="1.8.2";status=MAINTA
+
+│   INED;uses:="org.apiguardian.api,org.junit.platform.console.options,org.
+
+│   junit.platform.launcher.listeners",org.junit.platform.console.options;v
+
+│   ersion="1.8.2";status=INTERNAL;mandatory:=status;uses:="org.apiguardian
+
+│   .api,org.junit.platform.engine",org.junit.platform.console.tasks;versio
+
+│   n="1.8.2";status=INTERNAL;mandatory:=status;uses:="org.apiguardian.api,
+
+│   org.junit.platform.console.options,org.junit.platform.launcher.listener
+
+...
+
+19 / 38 repository/org/junit/platform/junit-platform-jfr/1.8.2/junit-platform-jfr-1.8.2.jar central/org/junit/platform/junit-platform-jfr/1.8.2/junit-platform-jfr-1.8.2.jar
+--- repository/org/junit/platform/junit-platform-jfr/1.8.2/junit-platform-jfr-1.8.2.jar
++++ central/org/junit/platform/junit-platform-jfr/1.8.2/junit-platform-jfr-1.8.2.jar
+├── zipinfo {}
+│ @@ -1,16 +1,16 @@
+│ -Zip file size: 19122 bytes, number of entries: 24
+│ +Zip file size: 19119 bytes, number of entries: 24
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat     1152 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1146 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat      316 bl defN 80-Feb-01 00:00 META-INF/LICENSE-notice.md
+│  -rw----     2.0 fat    14235 bl defN 80-Feb-01 00:00 META-INF/LICENSE.md
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/services/
+│  -rw----     2.0 fat       56 bl defN 80-Feb-01 00:00 META-INF/services/org.junit.platform.launcher.LauncherDiscoveryListener
+│  -rw----     2.0 fat       56 bl defN 80-Feb-01 00:00 META-INF/services/org.junit.platform.launcher.TestExecutionListener
+│ --rw----     2.0 fat      563 bl defN 80-Feb-01 00:00 module-info.class
+│ +-rw----     2.0 fat      561 bl defN 80-Feb-01 00:00 module-info.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/junit/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/junit/platform/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/junit/platform/jfr/
+│  -rw----     2.0 fat      640 bl defN 80-Feb-01 00:00 org/junit/platform/jfr/FlightRecordingDiscoveryListener$DiscoveryEvent.class
+│  -rw----     2.0 fat      955 bl defN 80-Feb-01 00:00 org/junit/platform/jfr/FlightRecordingDiscoveryListener$EngineDiscoveryEvent.class
+│  -rw----     2.0 fat      927 bl defN 80-Feb-01 00:00 org/junit/platform/jfr/FlightRecordingDiscoveryListener$LauncherDiscoveryEvent.class
+│ @@ -19,8 +19,8 @@
+│  -rw----     2.0 fat      906 bl defN 80-Feb-01 00:00 org/junit/platform/jfr/FlightRecordingExecutionListener$ReportEntryEvent.class
+│  -rw----     2.0 fat      781 bl defN 80-Feb-01 00:00 org/junit/platform/jfr/FlightRecordingExecutionListener$SkippedTestEvent.class
+│  -rw----     2.0 fat     1678 bl defN 80-Feb-01 00:00 org/junit/platform/jfr/FlightRecordingExecutionListener$TestEvent.class
+│  -rw----     2.0 fat      968 bl defN 80-Feb-01 00:00 org/junit/platform/jfr/FlightRecordingExecutionListener$TestExecutionEvent.class
+│  -rw----     2.0 fat      890 bl defN 80-Feb-01 00:00 org/junit/platform/jfr/FlightRecordingExecutionListener$TestPlanExecutionEvent.class
+│  -rw----     2.0 fat     6782 bl defN 80-Feb-01 00:00 org/junit/platform/jfr/FlightRecordingExecutionListener.class
+│  -rw----     2.0 fat      500 bl defN 80-Feb-01 00:00 org/junit/platform/jfr/UniqueId.class
+│ -24 files, 35745 bytes uncompressed, 14542 bytes compressed:  59.3%
+│ +24 files, 35737 bytes uncompressed, 14539 bytes compressed:  59.3%
+├── META-INF/MANIFEST.MF
+│ @@ -1,17 +1,17 @@
+│  Manifest-Version: 1.0
+
+│ -Build-Date: 2022-05-15
+
+│ +Build-Date: 2021-11-28
+
+│  Build-Revision: f58cd419755846f1476e8d15783438de8d7aede4
+
+│ -Build-Time: 15:09:48.008+0000
+
+│ +Build-Time: 16:37:17.410+0100
+
+│  Built-By: JUnit Team
+
+│  Bundle-ManifestVersion: 2
+
+│  Bundle-Name: JUnit Platform Flight Recorder Support
+
+│  Bundle-SymbolicName: junit-platform-jfr
+
+│  Bundle-Version: 1.8.2
+
+│ -Created-By: 11.0.14.1 (Oracle Corporation 11.0.14.1+1)
+
+│ +Created-By: 11.0.13 (Eclipse Adoptium 11.0.13+8)
+
+│  Export-Package: org.junit.platform.jfr;version="1.8.2";status=EXPERIME
+
+│   NTAL;uses:="org.apiguardian.api,org.junit.platform.engine,org.junit.p
+
+│   latform.engine.reporting,org.junit.platform.launcher"
+
+│  Implementation-Title: junit-platform-jfr
+
+│  Implementation-Vendor: junit.org
+
+│  Implementation-Version: 1.8.2
+
+│  Import-Package: org.apiguardian.api;resolution:=optional;version="[1.1
+├── module-info.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -10,15 +10,15 @@
+│ │     #1 = Class              #18            // "module-info"
+│ │     #2 = Utf8               SourceFile
+│ │     #3 = Utf8               module-info.java
+│ │     #4 = Utf8               Module
+│ │     #5 = Module             #19            // "org.junit.platform.jfr"
+│ │     #6 = Utf8               1.8.2
+│ │     #7 = Module             #20            // "java.base"
+│ │ -   #8 = Utf8               11.0.14.1
+│ │ +   #8 = Utf8               11.0.13
+│ │     #9 = Module             #21            // "jdk.jfr"
+│ │    #10 = Module             #22            // "org.apiguardian.api"
+│ │    #11 = Utf8               1.1.2
+│ │    #12 = Module             #23            // "org.junit.platform.engine"
+│ │    #13 = Module             #24            // "org.junit.platform.launcher"
+│ │    #14 = Class              #25            // org/junit/platform/launcher/LauncherDiscoveryListener
+│ │    #15 = Class              #26            // org/junit/platform/jfr/FlightRecordingDiscoveryListener
+│ │ @@ -39,17 +39,17 @@
+│ │  }
+│ │  SourceFile: "module-info.java"
+│ │  Module:
+│ │    #5,0                                    // "org.junit.platform.jfr"
+│ │    #6                                      // 1.8.2
+│ │    5                                       // requires
+│ │      #7,8000                                 // "java.base" ACC_MANDATED
+│ │ -    #8                                      // 11.0.14.1
+│ │ +    #8                                      // 11.0.13
+│ │      #9,0                                    // "jdk.jfr"
+│ │ -    #8                                      // 11.0.14.1
+│ │ +    #8                                      // 11.0.13
+│ │      #10,40                                  // "org.apiguardian.api" ACC_STATIC_PHASE
+│ │      #11                                     // 1.1.2
+│ │      #12,0                                   // "org.junit.platform.engine"
+│ │      #0
+│ │      #13,0                                   // "org.junit.platform.launcher"
+│ │      #0
+│ │    0                                       // exports
+
+...

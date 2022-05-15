@@ -1,0 +1,17 @@
+groupId=org.junit
+artifactId=junit-bom
+display=${groupId}:${artifactId}
+version=5.8.2
+
+gitRepo=https://github.com/junit-team/junit5.git
+gitTag=r${version}
+
+tool=gradle
+jdk=11
+newline=lf
+
+command="./gradlew --no-daemon clean assemble publishToMavenLocal -x test -x signMavenPublication"
+buildinfo=${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=

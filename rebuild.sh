@@ -283,7 +283,7 @@ rebuildToolGradle() {
     echo "$(sha512sum repository/$f)" >> ${buildinfo}
     echo "$(sha512sum central/$f)" >> ${buildinfo}
 
-    diff repository/$f central/$f
+    diff -q repository/$f central/$f > /dev/null
     if [ $? -eq 0 ]
     then
       ok+=($f)
