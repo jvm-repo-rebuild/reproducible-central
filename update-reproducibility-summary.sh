@@ -114,7 +114,7 @@ do
 
   echo "rebuilding **${countVersion} releases** of ${groupId}:${artifactId}:" >> $readme
   echo "- **${countVersionOk}** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:)," >> $readme
-  echo "- $((countVersion - countVersionOk)) had issues (some unreproducible artifacts :warning:):" >> $readme
+  echo "- $((countVersion - countVersionOk)) had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):" >> $readme
   echo >> $readme
   echo "| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |" >> $readme
   echo "| -- | --------- | ------ | -- |" >> $readme
