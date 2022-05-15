@@ -252,8 +252,8 @@ rebuildToolGradle() {
 
   echo "Rebuilding using Docker image ${jdkImage}"
 
-  [ -d central ] || \rm -rf central
-  [ -d repository ] || \rm -rf repository
+  [ -d central ] && \rm -rf central
+  [ -d repository ] && \rm -rf repository
 
   local docker_command="docker run -it --rm --name rebuild-central -v $PWD:/var/gradle/app -v $PWD:/var/gradle/.m2 -v $base/.sbt:/var/gradle/.sbt -v $base/.bnd:/.bnd -u $(id -u ${USER}):$(id -g ${USER}) -e MAVEN_CONFIG=/var/gradle/.m2 -w /var/gradle/app"
   local gradle_docker_params="-Duser.home=/var/gradle"
