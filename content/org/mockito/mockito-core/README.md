@@ -7,6 +7,17 @@
 
 Source code: [https://github.com/mockito/mockito.git](https://github.com/mockito/mockito.git)
 
+<details><summary>This project defines 7 modules:</summary>
+
+* [org.mockito:mockito-android](https://search.maven.org/artifact/org.mockito/mockito-android/)
+* [org.mockito:mockito-bom](https://search.maven.org/artifact/org.mockito/mockito-bom/)
+* [org.mockito:mockito-core](https://search.maven.org/artifact/org.mockito/mockito-core/)
+* [org.mockito:mockito-errorprone](https://search.maven.org/artifact/org.mockito/mockito-errorprone/)
+* [org.mockito:mockito-inline](https://search.maven.org/artifact/org.mockito/mockito-inline/)
+* [org.mockito:mockito-junit-jupiter](https://search.maven.org/artifact/org.mockito/mockito-junit-jupiter/)
+* [org.mockito:mockito-proxy](https://search.maven.org/artifact/org.mockito/mockito-proxy/)
+</details>
+
 rebuilding **1 releases** of org.mockito:mockito-core:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
@@ -15,6 +26,6 @@ rebuilding **1 releases** of org.mockito:mockito-core:
 | -- | --------- | ------ | -- |
 | [4.5.1](https://search.maven.org/artifact/org.mockito/mockito-core/4.5.1/pom) | | | |
 | [4.5.0](https://search.maven.org/artifact/org.mockito/mockito-core/4.5.0/pom) | | | |
-| [4.4.0](https://search.maven.org/artifact/org.mockito/mockito-core/4.4.0/pom) | [gradle jdk11](mockito-4.4.0.buildspec) | [result](mockito-core-4.4.0.buildinfo): [7 :heavy_check_mark:  12 :warning:](mockito-core-4.4.0.buildcompare) [:mag:](mockito-core-4.4.0.diffoscope) |  |
+| [4.4.0](https://search.maven.org/artifact/org.mockito/mockito-core/4.4.0/pom) | [gradle jdk11](mockito-4.4.0.buildspec) | [result](mockito-core-4.4.0.buildinfo): [7 :heavy_check_mark:  12 :warning:](mockito-core-4.4.0.buildcompare) [:mag:](mockito-core-4.4.0.diffoscope) | 1.2M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

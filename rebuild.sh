@@ -260,6 +260,7 @@ rebuildToolGradle() {
   echo -e "\033[2m${docker_command} ${jdkImage} \033[1m${command} ${gradle_docker_params}\033[0m"
   ${docker_command} ${jdkImage} ${command} ${gradle_docker_params}
 
+  buildcompare="$(basename ${buildinfo} .buildinfo).buildcompare"
   echo "computing ${buildinfo} and ${buildcompare}"
   echo "name=${display}" > ${buildinfo}
   echo "group-id=${groupId}" >> ${buildinfo}
@@ -272,26 +273,40 @@ rebuildToolGradle() {
   local okFiles=()
   local ko=()
   local koFiles=()
-  for f in $(find repository -type f | cut -c 12-| grep -v /maven-metadata-local.xml | grep -v javadoc.jar | sort)
+  local n=0
+  local i=0
+  for pom in $(find repository -type f -name "*.pom" | cut -c 12- | sort)
   do
-    d=$(dirname $f)
+    ((n++))
+    d=$(dirname $pom)
     [ -d central/$d ] || mkdir -p central/$d
-    wget -q https://repo.maven.apache.org/maven2/$f -O central/$f
-
     echo >> ${buildinfo}
-    echo "$f" >> ${buildinfo}
-    echo "$(sha512sum repository/$f)" >> ${buildinfo}
-    echo "$(sha512sum central/$f)" >> ${buildinfo}
+    ga_dir=$(dirname $d)
+    g_dir=$(dirname $ga_dir)
+    echo "outputs.${n}.coordinates=$(echo "$g_dir" | sed s_/_._g):$(basename $ga_dir)" >> ${buildinfo}
+    echo >> ${buildinfo}
 
-    diff -q repository/$f central/$f > /dev/null
-    if [ $? -eq 0 ]
-    then
-      ok+=($f)
-      okFiles+=( $(basename $f) )
-    else
-      ko+=($f)
-      koFiles+=( $(basename $f) )
-    fi
+    i=0
+    for f in `find repository/$d -maxdepth 1 -type f | grep -v "\-javadoc.jar" | cut -c 12- | sort`
+    do
+      wget -q https://repo.maven.apache.org/maven2/$f -O central/$f
+
+      echo "outputs.${n}.${i}.filename=$(basename $f)" >> ${buildinfo}
+      echo "outputs.${n}.${i}.length=$(du -b repository/$f | cut -f 1)" >> ${buildinfo}
+      echo "outputs.${n}.${i}.checksums.sha512=$(sha512sum repository/$f | cut -f 1)" >> ${buildinfo}
+      echo >> ${buildinfo}
+      ((i++))
+
+      diff -q repository/$f central/$f > /dev/null
+      if [ $? -eq 0 ]
+      then
+        ok+=($f)
+        okFiles+=( $(basename $f) )
+      else
+        ko+=($f)
+        koFiles+=( $(basename $f) )
+      fi
+    done
   done
 
   buildcompare="$(basename ${buildinfo} .buildinfo).buildcompare"
