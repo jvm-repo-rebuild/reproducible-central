@@ -1,0 +1,1488 @@
+1 / 12 repository/org/mockito/mockito-android/4.4.0/mockito-android-4.4.0.jar central/org/mockito/mockito-android/4.4.0/mockito-android-4.4.0.jar
+--- repository/org/mockito/mockito-android/4.4.0/mockito-android-4.4.0.jar
++++ central/org/mockito/mockito-android/4.4.0/mockito-android-4.4.0.jar
+├── zipinfo {}
+│ @@ -5,11 +5,11 @@
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 org/mockito/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 org/mockito/android/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 org/mockito/android/internal/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 org/mockito/android/internal/creation/
+│  -rw-r--r--  2.0 unx     3214 b- defN 80-Feb-01 00:00 org/mockito/android/internal/creation/AndroidByteBuddyMockMaker.class
+│  -rw-r--r--  2.0 unx     2105 b- defN 80-Feb-01 00:00 org/mockito/android/internal/creation/AndroidLoadingStrategy.class
+│  -rw-r--r--  2.0 unx     4329 b- defN 80-Feb-01 00:00 org/mockito/android/internal/creation/AndroidTempFileLocator.class
+│ -drwxrwxr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 mockito-extensions/
+│ --rw-rw-r--  2.0 unx       63 b- defN 80-Feb-01 00:00 mockito-extensions/org.mockito.plugins.MockMaker
+│ --rw-rw-r--  2.0 unx     1080 b- defN 80-Feb-01 00:00 LICENSE
+│ +drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 mockito-extensions/
+│ +-rw-r--r--  2.0 unx       63 b- defN 80-Feb-01 00:00 mockito-extensions/org.mockito.plugins.MockMaker
+│ +-rw-r--r--  2.0 unx     1080 b- defN 80-Feb-01 00:00 LICENSE
+│  13 files, 10816 bytes uncompressed, 5482 bytes compressed:  49.3%
+
+2 / 12 repository/org/mockito/mockito-android/4.4.0/mockito-android-4.4.0-sources.jar central/org/mockito/mockito-android/4.4.0/mockito-android-4.4.0-sources.jar
+--- repository/org/mockito/mockito-android/4.4.0/mockito-android-4.4.0-sources.jar
++++ central/org/mockito/mockito-android/4.4.0/mockito-android-4.4.0-sources.jar
+├── zipinfo {}
+│ @@ -1,15 +1,15 @@
+│  Zip file size: 5195 bytes, number of entries: 13
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 META-INF/
+│  -rw-r--r--  2.0 unx       25 b- defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ -drwxrwxr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 mockito-extensions/
+│ --rw-rw-r--  2.0 unx       63 b- defN 80-Feb-01 00:00 mockito-extensions/org.mockito.plugins.MockMaker
+│ -drwxrwxr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 org/
+│ -drwxrwxr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 org/mockito/
+│ -drwxrwxr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 org/mockito/android/
+│ -drwxrwxr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 org/mockito/android/internal/
+│ -drwxrwxr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 org/mockito/android/internal/creation/
+│ --rw-rw-r--  2.0 unx     2268 b- defN 80-Feb-01 00:00 org/mockito/android/internal/creation/AndroidByteBuddyMockMaker.java
+│ --rw-rw-r--  2.0 unx     1618 b- defN 80-Feb-01 00:00 org/mockito/android/internal/creation/AndroidLoadingStrategy.java
+│ --rw-rw-r--  2.0 unx     3566 b- defN 80-Feb-01 00:00 org/mockito/android/internal/creation/AndroidTempFileLocator.java
+│ --rw-rw-r--  2.0 unx     1080 b- defN 80-Feb-01 00:00 LICENSE
+│ +drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 mockito-extensions/
+│ +-rw-r--r--  2.0 unx       63 b- defN 80-Feb-01 00:00 mockito-extensions/org.mockito.plugins.MockMaker
+│ +drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 org/
+│ +drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 org/mockito/
+│ +drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 org/mockito/android/
+│ +drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 org/mockito/android/internal/
+│ +drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 org/mockito/android/internal/creation/
+│ +-rw-r--r--  2.0 unx     2268 b- defN 80-Feb-01 00:00 org/mockito/android/internal/creation/AndroidByteBuddyMockMaker.java
+│ +-rw-r--r--  2.0 unx     1618 b- defN 80-Feb-01 00:00 org/mockito/android/internal/creation/AndroidLoadingStrategy.java
+│ +-rw-r--r--  2.0 unx     3566 b- defN 80-Feb-01 00:00 org/mockito/android/internal/creation/AndroidTempFileLocator.java
+│ +-rw-r--r--  2.0 unx     1080 b- defN 80-Feb-01 00:00 LICENSE
+│  13 files, 8620 bytes uncompressed, 3377 bytes compressed:  60.8%
+
+3 / 12 repository/org/mockito/mockito-core/4.4.0/mockito-core-4.4.0.jar central/org/mockito/mockito-core/4.4.0/mockito-core-4.4.0.jar
+--- repository/org/mockito/mockito-core/4.4.0/mockito-core-4.4.0.jar
++++ central/org/mockito/mockito-core/4.4.0/mockito-core-4.4.0.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 670819 bytes, number of entries: 654
+│ +Zip file size: 672829 bytes, number of entries: 656
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat    15696 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat    15836 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     1080 bl defN 80-Feb-01 00:00 LICENSE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/mockito/
+│  -rw----     2.0 fat     7321 bl defN 80-Feb-01 00:00 org/mockito/AdditionalAnswers.class
+│  -rw----     2.0 fat     8334 bl defN 80-Feb-01 00:00 org/mockito/AdditionalMatchers.class
+│  -rw----     2.0 fat     2338 bl defN 80-Feb-01 00:00 org/mockito/Answers.class
+│  -rw----     2.0 fat     1871 bl defN 80-Feb-01 00:00 org/mockito/ArgumentCaptor.class
+│ @@ -128,15 +128,15 @@
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/mockito/internal/configuration/injection/scanner/
+│  -rw----     2.0 fat     2524 bl defN 80-Feb-01 00:00 org/mockito/internal/configuration/injection/scanner/InjectMocksScanner.class
+│  -rw----     2.0 fat     2740 bl defN 80-Feb-01 00:00 org/mockito/internal/configuration/injection/scanner/MockScanner.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/mockito/internal/configuration/plugins/
+│  -rw----     2.0 fat     4531 bl defN 80-Feb-01 00:00 org/mockito/internal/configuration/plugins/DefaultMockitoPlugins.class
+│  -rw----     2.0 fat      551 bl defN 80-Feb-01 00:00 org/mockito/internal/configuration/plugins/DefaultPluginSwitch.class
+│  -rw----     2.0 fat     1321 bl defN 80-Feb-01 00:00 org/mockito/internal/configuration/plugins/PluginFileReader.class
+│ --rw----     2.0 fat     3119 bl defN 80-Feb-01 00:00 org/mockito/internal/configuration/plugins/PluginFinder.class
+│ +-rw----     2.0 fat     3095 bl defN 80-Feb-01 00:00 org/mockito/internal/configuration/plugins/PluginFinder.class
+│  -rw----     2.0 fat     4751 bl defN 80-Feb-01 00:00 org/mockito/internal/configuration/plugins/PluginInitializer.class
+│  -rw----     2.0 fat     1715 bl defN 80-Feb-01 00:00 org/mockito/internal/configuration/plugins/PluginLoader$1.class
+│  -rw----     2.0 fat     1578 bl defN 80-Feb-01 00:00 org/mockito/internal/configuration/plugins/PluginLoader$2.class
+│  -rw----     2.0 fat     3832 bl defN 80-Feb-01 00:00 org/mockito/internal/configuration/plugins/PluginLoader.class
+│  -rw----     2.0 fat     3377 bl defN 80-Feb-01 00:00 org/mockito/internal/configuration/plugins/PluginRegistry.class
+│  -rw----     2.0 fat     1743 bl defN 80-Feb-01 00:00 org/mockito/internal/configuration/plugins/Plugins.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/
+│ @@ -144,67 +144,69 @@
+│  -rw----     2.0 fat    12021 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/MockSettingsImpl.class
+│  -rw----     2.0 fat     1426 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/SuspendMethod.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/
+│  -rw----     2.0 fat      447 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/ByteBuddyCrossClassLoaderSerializationSupport$CrossClassLoaderSerializableMock.class
+│  -rw----     2.0 fat     4010 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/ByteBuddyCrossClassLoaderSerializationSupport$CrossClassLoaderSerializationProxy.class
+│  -rw----     2.0 fat     5123 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/ByteBuddyCrossClassLoaderSerializationSupport$MockitoMockObjectInputStream.class
+│  -rw----     2.0 fat     1741 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/ByteBuddyCrossClassLoaderSerializationSupport$MockitoMockObjectOutputStream.class
+│ --rw----     2.0 fat     3620 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/ByteBuddyCrossClassLoaderSerializationSupport.class
+│ +-rw----     2.0 fat     3616 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/ByteBuddyCrossClassLoaderSerializationSupport.class
+│  -rw----     2.0 fat     5356 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/ByteBuddyMockMaker.class
+│  -rw----     2.0 fat      698 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/BytecodeGenerator.class
+│  -rw----     2.0 fat      402 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/ClassCreatingMockMaker.class
+│  -rw----     2.0 fat      392 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/ConstructionCallback.class
+│  -rw----     2.0 fat     5916 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/InlineByteBuddyMockMaker.class
+│  -rw----     2.0 fat      297 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator$1.class
+│  -rw----     2.0 fat     1181 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator$ParameterWritingVisitorWrapper$MethodParameterStrippingMethodVisitor.class
+│  -rw----     2.0 fat     4234 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator$ParameterWritingVisitorWrapper$ParameterAddingClassVisitor.class
+│  -rw----     2.0 fat     3895 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator$ParameterWritingVisitorWrapper.class
+│ --rw----     2.0 fat    21751 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.class
+│ +-rw----     2.0 fat    21747 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.class
+│  -rw----     2.0 fat     1857 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker$1.class
+│  -rw----     2.0 fat     4770 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker$InlineConstructionMockContext.class
+│  -rw----     2.0 fat     7616 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker$InlineConstructionMockControl.class
+│  -rw----     2.0 fat     3987 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker$InlineStaticMockControl.class
+│ --rw----     2.0 fat    30009 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker.class
+│ +-rw----     2.0 fat    30099 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker.class
+│  -rw----     2.0 fat      342 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/MockAccess.class
+│  -rw----     2.0 fat     1868 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/MockFeatures.class
+│  -rw----     2.0 fat      276 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/MockMethodAdvice$1.class
+│  -rw----     2.0 fat     9385 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/MockMethodAdvice$ConstructorShortcut$1.class
+│  -rw----     2.0 fat     6140 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/MockMethodAdvice$ConstructorShortcut.class
+│  -rw----     2.0 fat     2332 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/MockMethodAdvice$ForEquals.class
+│  -rw----     2.0 fat     2251 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/MockMethodAdvice$ForHashCode.class
+│  -rw----     2.0 fat     2144 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/MockMethodAdvice$ForReadObject.class
+│  -rw----     2.0 fat     3382 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/MockMethodAdvice$ForStatic.class
+│  -rw----     2.0 fat      450 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/MockMethodAdvice$Identifier.class
+│  -rw----     2.0 fat     2287 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/MockMethodAdvice$RealMethodCall.class
+│  -rw----     2.0 fat     1143 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/MockMethodAdvice$ReturnValueWrapper.class
+│  -rw----     2.0 fat     1265 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/MockMethodAdvice$SelfCallInfo.class
+│ --rw----     2.0 fat     3344 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/MockMethodAdvice$SerializableRealMethodCall.class
+│ +-rw----     2.0 fat     3340 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/MockMethodAdvice$SerializableRealMethodCall.class
+│  -rw----     2.0 fat     2239 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/MockMethodAdvice$StaticMethodCall.class
+│  -rw----     2.0 fat    17653 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/MockMethodAdvice.class
+│  -rw----     2.0 fat     3120 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/MockMethodInterceptor$DispatcherDefaultingToRealMethod.class
+│  -rw----     2.0 fat      885 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/MockMethodInterceptor$ForEquals.class
+│  -rw----     2.0 fat      793 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/MockMethodInterceptor$ForHashCode.class
+│  -rw----     2.0 fat     1345 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/MockMethodInterceptor$ForWriteReplace.class
+│ --rw----     2.0 fat     3730 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.class
+│ +-rw----     2.0 fat     3726 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.class
+│  -rw----     2.0 fat      267 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/ModuleHandler$1.class
+│  -rw----     2.0 fat    12596 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/ModuleHandler$ModuleSystemFound.class
+│  -rw----     2.0 fat     2056 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/ModuleHandler$NoModuleSystemFound.class
+│  -rw----     2.0 fat     1942 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/ModuleHandler.class
+│  -rw----     2.0 fat     1853 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker$1.class
+│  -rw----     2.0 fat     9328 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/SubclassByteBuddyMockMaker.class
+│  -rw----     2.0 fat    18877 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/SubclassBytecodeGenerator.class
+│  -rw----     2.0 fat      297 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/SubclassInjectionLoader$1.class
+│  -rw----     2.0 fat     3676 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/SubclassInjectionLoader$WithLookup.class
+│  -rw----     2.0 fat     2195 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/SubclassInjectionLoader$WithReflection.class
+│  -rw----     2.0 fat     3775 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/SubclassInjectionLoader.class
+│  -rw----     2.0 fat      459 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/SubclassLoader.class
+│  -rw----     2.0 fat      312 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/TypeCachingBytecodeGenerator$1.class
+│  -rw----     2.0 fat     2255 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/TypeCachingBytecodeGenerator$MockitoMockKey.class
+│ --rw----     2.0 fat     5025 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/TypeCachingBytecodeGenerator.class
+│ +-rw----     2.0 fat     5017 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/TypeCachingBytecodeGenerator.class
+│  -rw----     2.0 fat     1777 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/TypeSupport.class
+│ +-rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/inject/
+│ +-rw----     2.0 fat     4434 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/bytebuddy/inject/MockMethodDispatcher.raw
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/instance/
+│  -rw----     2.0 fat     7601 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/instance/ConstructorInstantiator.class
+│  -rw----     2.0 fat     1448 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/instance/DefaultInstantiatorProvider.class
+│  -rw----     2.0 fat      964 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/instance/ObjenesisInstantiator.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/proxy/
+│  -rw----     2.0 fat      274 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/proxy/InvokeDefaultProxy$1.class
+│  -rw----     2.0 fat     3342 bl defN 80-Feb-01 00:00 org/mockito/internal/creation/proxy/InvokeDefaultProxy$InvokeDefaultRealMethod.class
+│ @@ -242,22 +244,22 @@
+│  -rw----     2.0 fat      735 bl defN 80-Feb-01 00:00 org/mockito/internal/exceptions/stacktrace/DefaultStackTraceCleanerProvider.class
+│  -rw----     2.0 fat     3696 bl defN 80-Feb-01 00:00 org/mockito/internal/exceptions/stacktrace/StackTraceFilter.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/mockito/internal/exceptions/util/
+│  -rw----     2.0 fat     1856 bl defN 80-Feb-01 00:00 org/mockito/internal/exceptions/util/ScenarioPrinter.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/mockito/internal/framework/
+│  -rw----     2.0 fat     2281 bl defN 80-Feb-01 00:00 org/mockito/internal/framework/DefaultMockitoFramework.class
+│  -rw----     2.0 fat     1113 bl defN 80-Feb-01 00:00 org/mockito/internal/framework/DefaultMockitoSession$1.class
+│ --rw----     2.0 fat     4300 bl defN 80-Feb-01 00:00 org/mockito/internal/framework/DefaultMockitoSession.class
+│ +-rw----     2.0 fat     4296 bl defN 80-Feb-01 00:00 org/mockito/internal/framework/DefaultMockitoSession.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/mockito/internal/hamcrest/
+│  -rw----     2.0 fat     1343 bl defN 80-Feb-01 00:00 org/mockito/internal/hamcrest/HamcrestArgumentMatcher.class
+│  -rw----     2.0 fat      877 bl defN 80-Feb-01 00:00 org/mockito/internal/hamcrest/MatcherGenericTypeExtractor.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/mockito/internal/handler/
+│  -rw----     2.0 fat     3530 bl defN 80-Feb-01 00:00 org/mockito/internal/handler/InvocationNotifierHandler.class
+│  -rw----     2.0 fat     1319 bl defN 80-Feb-01 00:00 org/mockito/internal/handler/MockHandlerFactory.class
+│ --rw----     2.0 fat     5579 bl defN 80-Feb-01 00:00 org/mockito/internal/handler/MockHandlerImpl.class
+│ +-rw----     2.0 fat     5575 bl defN 80-Feb-01 00:00 org/mockito/internal/handler/MockHandlerImpl.class
+│  -rw----     2.0 fat     2412 bl defN 80-Feb-01 00:00 org/mockito/internal/handler/NotifiedMethodInvocationReport.class
+│  -rw----     2.0 fat     2006 bl defN 80-Feb-01 00:00 org/mockito/internal/handler/NullResultGuardian.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/mockito/internal/invocation/
+│  -rw----     2.0 fat      178 bl defN 80-Feb-01 00:00 org/mockito/internal/invocation/AbstractAwareMethod.class
+│  -rw----     2.0 fat      300 bl defN 80-Feb-01 00:00 org/mockito/internal/invocation/ArgumentMatcherAction.class
+│  -rw----     2.0 fat     2572 bl defN 80-Feb-01 00:00 org/mockito/internal/invocation/ArgumentsProcessor.class
+│  -rw----     2.0 fat     3993 bl defN 80-Feb-01 00:00 org/mockito/internal/invocation/DefaultInvocationFactory.class
+│ @@ -311,30 +313,30 @@
+│  -rw----     2.0 fat      234 bl defN 80-Feb-01 00:00 org/mockito/internal/junit/TestFinishedEvent.class
+│  -rw----     2.0 fat      807 bl defN 80-Feb-01 00:00 org/mockito/internal/junit/UniversalTestListener$1.class
+│  -rw----     2.0 fat     4622 bl defN 80-Feb-01 00:00 org/mockito/internal/junit/UniversalTestListener.class
+│  -rw----     2.0 fat     2371 bl defN 80-Feb-01 00:00 org/mockito/internal/junit/UnnecessaryStubbingsReporter.class
+│  -rw----     2.0 fat     2622 bl defN 80-Feb-01 00:00 org/mockito/internal/junit/UnusedStubbings.class
+│  -rw----     2.0 fat     1375 bl defN 80-Feb-01 00:00 org/mockito/internal/junit/UnusedStubbingsFinder$1.class
+│  -rw----     2.0 fat     3303 bl defN 80-Feb-01 00:00 org/mockito/internal/junit/UnusedStubbingsFinder.class
+│ --rw----     2.0 fat     1664 bl defN 80-Feb-01 00:00 org/mockito/internal/junit/VerificationCollectorImpl$1.class
+│ +-rw----     2.0 fat     1660 bl defN 80-Feb-01 00:00 org/mockito/internal/junit/VerificationCollectorImpl$1.class
+│  -rw----     2.0 fat     1342 bl defN 80-Feb-01 00:00 org/mockito/internal/junit/VerificationCollectorImpl$2.class
+│  -rw----     2.0 fat     2046 bl defN 80-Feb-01 00:00 org/mockito/internal/junit/VerificationCollectorImpl$VerificationWrapper.class
+│  -rw----     2.0 fat     2897 bl defN 80-Feb-01 00:00 org/mockito/internal/junit/VerificationCollectorImpl.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/mockito/internal/listeners/
+│  -rw----     2.0 fat      186 bl defN 80-Feb-01 00:00 org/mockito/internal/listeners/AutoCleanableListener.class
+│  -rw----     2.0 fat     1816 bl defN 80-Feb-01 00:00 org/mockito/internal/listeners/StubbingLookupNotifier$Event.class
+│  -rw----     2.0 fat     2258 bl defN 80-Feb-01 00:00 org/mockito/internal/listeners/StubbingLookupNotifier.class
+│  -rw----     2.0 fat     2075 bl defN 80-Feb-01 00:00 org/mockito/internal/listeners/VerificationStartedNotifier$Event.class
+│  -rw----     2.0 fat     3256 bl defN 80-Feb-01 00:00 org/mockito/internal/listeners/VerificationStartedNotifier.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/mockito/internal/matchers/
+│  -rw----     2.0 fat     1342 bl defN 80-Feb-01 00:00 org/mockito/internal/matchers/And.class
+│  -rw----     2.0 fat      890 bl defN 80-Feb-01 00:00 org/mockito/internal/matchers/Any.class
+│  -rw----     2.0 fat     2463 bl defN 80-Feb-01 00:00 org/mockito/internal/matchers/ArrayEquals.class
+│  -rw----     2.0 fat      191 bl defN 80-Feb-01 00:00 org/mockito/internal/matchers/CapturesArguments.class
+│ --rw----     2.0 fat     2714 bl defN 80-Feb-01 00:00 org/mockito/internal/matchers/CapturingMatcher.class
+│ +-rw----     2.0 fat     2702 bl defN 80-Feb-01 00:00 org/mockito/internal/matchers/CapturingMatcher.class
+│  -rw----     2.0 fat      969 bl defN 80-Feb-01 00:00 org/mockito/internal/matchers/CompareEqual.class
+│  -rw----     2.0 fat     1683 bl defN 80-Feb-01 00:00 org/mockito/internal/matchers/CompareTo.class
+│  -rw----     2.0 fat     1164 bl defN 80-Feb-01 00:00 org/mockito/internal/matchers/Contains.class
+│  -rw----     2.0 fat      310 bl defN 80-Feb-01 00:00 org/mockito/internal/matchers/ContainsExtraTypeInfo.class
+│  -rw----     2.0 fat     1131 bl defN 80-Feb-01 00:00 org/mockito/internal/matchers/EndsWith.class
+│  -rw----     2.0 fat     1358 bl defN 80-Feb-01 00:00 org/mockito/internal/matchers/Equality.class
+│  -rw----     2.0 fat     2105 bl defN 80-Feb-01 00:00 org/mockito/internal/matchers/Equals.class
+│ @@ -375,24 +377,24 @@
+│  -rw----     2.0 fat      921 bl defN 80-Feb-01 00:00 org/mockito/internal/progress/ThreadSafeMockingProgress.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/mockito/internal/reporting/
+│  -rw----     2.0 fat      898 bl defN 80-Feb-01 00:00 org/mockito/internal/reporting/Discrepancy.class
+│  -rw----     2.0 fat      922 bl defN 80-Feb-01 00:00 org/mockito/internal/reporting/Pluralizer.class
+│  -rw----     2.0 fat     4147 bl defN 80-Feb-01 00:00 org/mockito/internal/reporting/PrintSettings.class
+│  -rw----     2.0 fat     3478 bl defN 80-Feb-01 00:00 org/mockito/internal/reporting/SmartPrinter.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/mockito/internal/runners/
+│ --rw----     2.0 fat     2245 bl defN 80-Feb-01 00:00 org/mockito/internal/runners/DefaultInternalRunner$1$1.class
+│ +-rw----     2.0 fat     2241 bl defN 80-Feb-01 00:00 org/mockito/internal/runners/DefaultInternalRunner$1$1.class
+│  -rw----     2.0 fat     2681 bl defN 80-Feb-01 00:00 org/mockito/internal/runners/DefaultInternalRunner$1$2.class
+│  -rw----     2.0 fat     2788 bl defN 80-Feb-01 00:00 org/mockito/internal/runners/DefaultInternalRunner$1.class
+│  -rw----     2.0 fat     1863 bl defN 80-Feb-01 00:00 org/mockito/internal/runners/DefaultInternalRunner.class
+│  -rw----     2.0 fat      309 bl defN 80-Feb-01 00:00 org/mockito/internal/runners/InternalRunner.class
+│  -rw----     2.0 fat     1093 bl defN 80-Feb-01 00:00 org/mockito/internal/runners/RunnerFactory$1.class
+│  -rw----     2.0 fat     1286 bl defN 80-Feb-01 00:00 org/mockito/internal/runners/RunnerFactory$2.class
+│  -rw----     2.0 fat     1117 bl defN 80-Feb-01 00:00 org/mockito/internal/runners/RunnerFactory$3.class
+│  -rw----     2.0 fat     3358 bl defN 80-Feb-01 00:00 org/mockito/internal/runners/RunnerFactory.class
+│ --rw----     2.0 fat     2385 bl defN 80-Feb-01 00:00 org/mockito/internal/runners/StrictRunner.class
+│ +-rw----     2.0 fat     2381 bl defN 80-Feb-01 00:00 org/mockito/internal/runners/StrictRunner.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/mockito/internal/runners/util/
+│  -rw----     2.0 fat      765 bl defN 80-Feb-01 00:00 org/mockito/internal/runners/util/FailureDetector.class
+│  -rw----     2.0 fat     1907 bl defN 80-Feb-01 00:00 org/mockito/internal/runners/util/RunnerProvider.class
+│  -rw----     2.0 fat      945 bl defN 80-Feb-01 00:00 org/mockito/internal/runners/util/TestMethodsFinder.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/mockito/internal/session/
+│  -rw----     2.0 fat     3260 bl defN 80-Feb-01 00:00 org/mockito/internal/session/DefaultMockitoSessionBuilder.class
+│  -rw----     2.0 fat      832 bl defN 80-Feb-01 00:00 org/mockito/internal/session/MockitoLoggerAdapter.class
+│ @@ -480,26 +482,26 @@
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/mockito/internal/util/concurrent/
+│  -rw----     2.0 fat     1420 bl defN 80-Feb-01 00:00 org/mockito/internal/util/concurrent/DetachedThreadLocal$1.class
+│  -rw----     2.0 fat     1523 bl defN 80-Feb-01 00:00 org/mockito/internal/util/concurrent/DetachedThreadLocal$2.class
+│  -rw----     2.0 fat      970 bl defN 80-Feb-01 00:00 org/mockito/internal/util/concurrent/DetachedThreadLocal$3.class
+│  -rw----     2.0 fat     1369 bl defN 80-Feb-01 00:00 org/mockito/internal/util/concurrent/DetachedThreadLocal$Cleaner.class
+│  -rw----     2.0 fat     3934 bl defN 80-Feb-01 00:00 org/mockito/internal/util/concurrent/DetachedThreadLocal.class
+│  -rw----     2.0 fat      273 bl defN 80-Feb-01 00:00 org/mockito/internal/util/concurrent/WeakConcurrentMap$1.class
+│ --rw----     2.0 fat     3239 bl defN 80-Feb-01 00:00 org/mockito/internal/util/concurrent/WeakConcurrentMap$EntryIterator.class
+│ +-rw----     2.0 fat     3235 bl defN 80-Feb-01 00:00 org/mockito/internal/util/concurrent/WeakConcurrentMap$EntryIterator.class
+│  -rw----     2.0 fat     1327 bl defN 80-Feb-01 00:00 org/mockito/internal/util/concurrent/WeakConcurrentMap$LatentKey.class
+│  -rw----     2.0 fat     2376 bl defN 80-Feb-01 00:00 org/mockito/internal/util/concurrent/WeakConcurrentMap$SimpleEntry.class
+│  -rw----     2.0 fat     1487 bl defN 80-Feb-01 00:00 org/mockito/internal/util/concurrent/WeakConcurrentMap$WeakKey.class
+│  -rw----     2.0 fat     1935 bl defN 80-Feb-01 00:00 org/mockito/internal/util/concurrent/WeakConcurrentMap$WithInlinedExpunction.class
+│  -rw----     2.0 fat     5114 bl defN 80-Feb-01 00:00 org/mockito/internal/util/concurrent/WeakConcurrentMap.class
+│  -rw----     2.0 fat      956 bl defN 80-Feb-01 00:00 org/mockito/internal/util/concurrent/WeakConcurrentSet$1.class
+│  -rw----     2.0 fat     1353 bl defN 80-Feb-01 00:00 org/mockito/internal/util/concurrent/WeakConcurrentSet$Cleaner.class
+│  -rw----     2.0 fat     1781 bl defN 80-Feb-01 00:00 org/mockito/internal/util/concurrent/WeakConcurrentSet$ReducingIterator.class
+│  -rw----     2.0 fat     3314 bl defN 80-Feb-01 00:00 org/mockito/internal/util/concurrent/WeakConcurrentSet.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/mockito/internal/util/io/
+│ --rw----     2.0 fat     2652 bl defN 80-Feb-01 00:00 org/mockito/internal/util/io/IOUtil.class
+│ +-rw----     2.0 fat     2648 bl defN 80-Feb-01 00:00 org/mockito/internal/util/io/IOUtil.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/mockito/internal/util/reflection/
+│  -rw----     2.0 fat     3462 bl defN 80-Feb-01 00:00 org/mockito/internal/util/reflection/BeanPropertySetter.class
+│  -rw----     2.0 fat     1111 bl defN 80-Feb-01 00:00 org/mockito/internal/util/reflection/FieldInitializationReport.class
+│  -rw----     2.0 fat      436 bl defN 80-Feb-01 00:00 org/mockito/internal/util/reflection/FieldInitializer$ConstructorArgumentResolver.class
+│  -rw----     2.0 fat      381 bl defN 80-Feb-01 00:00 org/mockito/internal/util/reflection/FieldInitializer$ConstructorInstantiator.class
+│  -rw----     2.0 fat     3366 bl defN 80-Feb-01 00:00 org/mockito/internal/util/reflection/FieldInitializer$NoArgConstructorInstantiator.class
+│  -rw----     2.0 fat     2587 bl defN 80-Feb-01 00:00 org/mockito/internal/util/reflection/FieldInitializer$ParameterizedConstructorInstantiator$1.class
+│ @@ -521,18 +523,18 @@
+│  -rw----     2.0 fat     2590 bl defN 80-Feb-01 00:00 org/mockito/internal/util/reflection/GenericMetadataSupport$TypeVarBoundedType.class
+│  -rw----     2.0 fat     4755 bl defN 80-Feb-01 00:00 org/mockito/internal/util/reflection/GenericMetadataSupport$TypeVariableReturnType.class
+│  -rw----     2.0 fat     2271 bl defN 80-Feb-01 00:00 org/mockito/internal/util/reflection/GenericMetadataSupport$WildCardBoundedType.class
+│  -rw----     2.0 fat     9901 bl defN 80-Feb-01 00:00 org/mockito/internal/util/reflection/GenericMetadataSupport.class
+│  -rw----     2.0 fat     2114 bl defN 80-Feb-01 00:00 org/mockito/internal/util/reflection/GenericTypeExtractor.class
+│  -rw----     2.0 fat     3666 bl defN 80-Feb-01 00:00 org/mockito/internal/util/reflection/InstanceField.class
+│  -rw----     2.0 fat      724 bl defN 80-Feb-01 00:00 org/mockito/internal/util/reflection/InstrumentationMemberAccessor$Dispatcher.class
+│ --rw----     2.0 fat    15405 bl defN 80-Feb-01 00:00 org/mockito/internal/util/reflection/InstrumentationMemberAccessor.class
+│ +-rw----     2.0 fat    15401 bl defN 80-Feb-01 00:00 org/mockito/internal/util/reflection/InstrumentationMemberAccessor.class
+│  -rw----     2.0 fat     2336 bl defN 80-Feb-01 00:00 org/mockito/internal/util/reflection/LenientCopyTool.class
+│  -rw----     2.0 fat     3019 bl defN 80-Feb-01 00:00 org/mockito/internal/util/reflection/ModuleMemberAccessor.class
+│ --rw----     2.0 fat     5283 bl defN 80-Feb-01 00:00 org/mockito/internal/util/reflection/ReflectionMemberAccessor.class
+│ +-rw----     2.0 fat     5267 bl defN 80-Feb-01 00:00 org/mockito/internal/util/reflection/ReflectionMemberAccessor.class
+│  -rw----     2.0 fat     2747 bl defN 80-Feb-01 00:00 org/mockito/internal/util/reflection/SuperTypesLastSorter.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/mockito/internal/verification/
+│  -rw----     2.0 fat     2584 bl defN 80-Feb-01 00:00 org/mockito/internal/verification/AtLeast.class
+│  -rw----     2.0 fat     2914 bl defN 80-Feb-01 00:00 org/mockito/internal/verification/AtMost.class
+│  -rw----     2.0 fat     2526 bl defN 80-Feb-01 00:00 org/mockito/internal/verification/Calls.class
+│  -rw----     2.0 fat      300 bl defN 80-Feb-01 00:00 org/mockito/internal/verification/DefaultRegisteredInvocations$1.class
+│  -rw----     2.0 fat     1563 bl defN 80-Feb-01 00:00 org/mockito/internal/verification/DefaultRegisteredInvocations$RemoveToString.class
+│ @@ -649,8 +651,8 @@
+│  -rw----     2.0 fat     2331 bl defN 80-Feb-01 00:00 org/mockito/verification/After.class
+│  -rw----     2.0 fat     3065 bl defN 80-Feb-01 00:00 org/mockito/verification/Timeout.class
+│  -rw----     2.0 fat      421 bl defN 80-Feb-01 00:00 org/mockito/verification/VerificationAfterDelay.class
+│  -rw----     2.0 fat      383 bl defN 80-Feb-01 00:00 org/mockito/verification/VerificationEvent.class
+│  -rw----     2.0 fat      671 bl defN 80-Feb-01 00:00 org/mockito/verification/VerificationMode.class
+│  -rw----     2.0 fat      265 bl defN 80-Feb-01 00:00 org/mockito/verification/VerificationStrategy.class
+│  -rw----     2.0 fat      369 bl defN 80-Feb-01 00:00 org/mockito/verification/VerificationWithTimeout.class
+│ -654 files, 1317605 bytes uncompressed, 536971 bytes compressed:  59.2%
+│ +656 files, 1322161 bytes uncompressed, 538561 bytes compressed:  59.3%
+├── zipnote «TEMP»/diffoscope_kl6wsgdo_440/tmpz6x2_38s.zip
+│ @@ -600,14 +600,20 @@
+│  
+│  Filename: org/mockito/internal/creation/bytebuddy/TypeCachingBytecodeGenerator.class
+│  Comment: 
+│  
+│  Filename: org/mockito/internal/creation/bytebuddy/TypeSupport.class
+│  Comment: 
+│  
+│ +Filename: org/mockito/internal/creation/bytebuddy/inject/
+│ +Comment: 
+│ +
+│ +Filename: org/mockito/internal/creation/bytebuddy/inject/MockMethodDispatcher.raw
+│ +Comment: 
+│ +
+│  Filename: org/mockito/internal/creation/instance/
+│  Comment: 
+│  
+│  Filename: org/mockito/internal/creation/instance/ConstructorInstantiator.class
+│  Comment: 
+│  
+│  Filename: org/mockito/internal/creation/instance/DefaultInstantiatorProvider.class
+├── META-INF/MANIFEST.MF
+│ @@ -22,130 +22,132 @@
+│   kito,org.mockito.internal.creation.settings,org.mockito.internal.invo
+
+│   cation,org.mockito.listeners,org.mockito.mock,org.mockito.stubbing",o
+
+│   rg.mockito.internal.creation.bytebuddy;status=INTERNAL;mandatory:=sta
+
+│   tus;version="4.4.0";uses:="net.bytebuddy.dynamic.loading,net.bytebudd
+
+│   y.implementation.bind.annotation,org.mockito,org.mockito.creation.ins
+
+│   tance,org.mockito.internal.creation.bytebuddy.inject,org.mockito.inte
+
+│   rnal.util.concurrent,org.mockito.invocation,org.mockito.mock,org.mock
+
+│ - ito.plugins",org.mockito.internal.creation.instance;status=INTERNAL;m
+
+│ - andatory:=status;version="4.4.0";uses:="org.mockito.creation.instance
+
+│ - ,org.mockito.mock,org.mockito.plugins",org.mockito.internal.creation.
+
+│ - proxy;status=INTERNAL;mandatory:=status;version="4.4.0";uses:="org.mo
+
+│ - ckito.invocation,org.mockito.mock,org.mockito.plugins",org.mockito.in
+
+│ - ternal.creation.settings;status=INTERNAL;mandatory:=status;version="4
+
+│ - .4.0";uses:="org.mockito.listeners,org.mockito.mock,org.mockito.stubb
+
+│ - ing",org.mockito.internal.creation.util;status=INTERNAL;mandatory:=st
+
+│ - atus;version="4.4.0",org.mockito.internal.debugging;status=INTERNAL;m
+
+│ - andatory:=status;version="4.4.0";uses:="org.mockito.internal.exceptio
+
+│ - ns.stacktrace,org.mockito.internal.invocation,org.mockito.invocation,
+
+│ - org.mockito.listeners",org.mockito.internal.exceptions;status=INTERNA
+
+│ - L;mandatory:=status;version="4.4.0";uses:="org.mockito.exceptions.bas
+
+│ - e,org.mockito.exceptions.misusing,org.mockito.exceptions.verification
+
+│ - ,org.mockito.internal.matchers,org.mockito.internal.reporting,org.moc
+
+│ - kito.invocation,org.mockito.listeners,org.mockito.mock",org.mockito.i
+
+│ - nternal.exceptions.stacktrace;status=INTERNAL;mandatory:=status;versi
+
+│ - on="4.4.0";uses:="org.mockito.exceptions.stacktrace,org.mockito.plugi
+
+│ - ns",org.mockito.internal.exceptions.util;status=INTERNAL;mandatory:=s
+
+│ - tatus;version="4.4.0";uses:="org.mockito.internal.exceptions",org.moc
+
+│ - kito.internal.framework;status=INTERNAL;mandatory:=status;version="4.
+
+│ - 4.0";uses:="org.mockito,org.mockito.invocation,org.mockito.listeners,
+
+│ - org.mockito.plugins,org.mockito.quality",org.mockito.internal.hamcres
+
+│ - t;status=INTERNAL;mandatory:=status;version="4.4.0";uses:="org.hamcre
+
+│ - st,org.mockito",org.mockito.internal.handler;status=INTERNAL;mandator
+
+│ - y:=status;version="4.4.0";uses:="org.mockito.invocation,org.mockito.l
+
+│ - isteners,org.mockito.mock",org.mockito.internal.invocation;status=INT
+
+│ - ERNAL;mandatory:=status;version="4.4.0";uses:="org.mockito,org.mockit
+
+│ - o.internal.exceptions,org.mockito.internal.invocation.mockref,org.moc
+
+│ - kito.internal.progress,org.mockito.internal.verification.api,org.mock
+
+│ - ito.invocation,org.mockito.mock",org.mockito.internal.invocation.find
+
+│ - er;status=INTERNAL;mandatory:=status;version="4.4.0";uses:="org.mocki
+
+│ - to.invocation,org.mockito.stubbing",org.mockito.internal.invocation.m
+
+│ - ockref;status=INTERNAL;mandatory:=status;version="4.4.0",org.mockito.
+
+│ - internal.junit;status=INTERNAL;mandatory:=status;version="4.4.0";uses
+
+│ - :="org.junit.runner,org.junit.runner.notification,org.junit.runners.m
+
+│ - odel,org.mockito.exceptions.base,org.mockito.internal.listeners,org.m
+
+│ - ockito.invocation,org.mockito.junit,org.mockito.listeners,org.mockito
+
+│ - .mock,org.mockito.plugins,org.mockito.quality",org.mockito.internal.l
+
+│ - isteners;status=INTERNAL;mandatory:=status;version="4.4.0";uses:="org
+
+│ - .mockito,org.mockito.internal.creation.settings,org.mockito.invocatio
+
+│ - n,org.mockito.listeners,org.mockito.stubbing",org.mockito.internal.ma
+
+│ - tchers;status=INTERNAL;mandatory:=status;version="4.4.0";uses:="org.m
+
+│ - ockito,org.mockito.invocation",org.mockito.internal.matchers.apacheco
+
+│ - mmons;status=INTERNAL;mandatory:=status;version="4.4.0";uses:="org.mo
+
+│ - ckito",org.mockito.internal.matchers.text;status=INTERNAL;mandatory:=
+
+│ - status;version="4.4.0";uses:="org.mockito,org.mockito.internal.report
+
+│ - ing",org.mockito.internal.progress;status=INTERNAL;mandatory:=status;
+
+│ - version="4.4.0";uses:="org.mockito,org.mockito.internal.matchers,org.
+
+│ - mockito.listeners,org.mockito.mock,org.mockito.stubbing,org.mockito.v
+
+│ - erification",org.mockito.internal.reporting;status=INTERNAL;mandatory
+
+│ - :=status;version="4.4.0";uses:="org.mockito,org.mockito.invocation",o
+
+│ - rg.mockito.internal.runners;status=INTERNAL;mandatory:=status;version
+
+│ - ="4.4.0";uses:="org.junit.runner,org.junit.runner.manipulation,org.ju
+
+│ - nit.runner.notification,org.junit.runners.model,org.mockito.internal.
+
+│ - junit,org.mockito.internal.util",org.mockito.internal.runners.util;st
+
+│ - atus=INTERNAL;mandatory:=status;version="4.4.0";uses:="org.junit.runn
+
+│ - er.notification,org.mockito.internal.runners",org.mockito.internal.se
+
+│ - ssion;status=INTERNAL;mandatory:=status;version="4.4.0";uses:="org.mo
+
+│ - ckito,org.mockito.plugins,org.mockito.quality,org.mockito.session",or
+
+│ - g.mockito.internal.stubbing;status=INTERNAL;mandatory:=status;version
+
+│ - ="4.4.0";uses:="org.mockito.internal.invocation,org.mockito.invocatio
+
+│ - n,org.mockito.mock,org.mockito.quality,org.mockito.stubbing",org.mock
+
+│ - ito.internal.stubbing.answers;status=INTERNAL;mandatory:=status;versi
+
+│ - on="4.4.0";uses:="org.mockito.internal.invocation,org.mockito.invocat
+
+│ - ion,org.mockito.stubbing",org.mockito.internal.stubbing.defaultanswer
+
+│ - s;status=INTERNAL;mandatory:=status;version="4.4.0";uses:="org.mockit
+
+│ - o.internal.util.reflection,org.mockito.invocation,org.mockito.stubbin
+
+│ - g",org.mockito.internal.util;status=INTERNAL;mandatory:=status;versio
+
+│ - n="4.4.0";uses:="org.mockito,org.mockito.internal.stubbing,org.mockit
+
+│ - o.invocation,org.mockito.mock,org.mockito.plugins,org.mockito.stubbin
+
+│ - g",org.mockito.internal.util.collections;status=INTERNAL;mandatory:=s
+
+│ - tatus;version="4.4.0",org.mockito.internal.util.concurrent;status=INT
+
+│ - ERNAL;mandatory:=status;version="4.4.0",org.mockito.internal.util.io;
+
+│ + ito.plugins",org.mockito.internal.creation.bytebuddy.inject;status=IN
+
+│ + TERNAL;mandatory:=status;version="4.4.0",org.mockito.internal.creatio
+
+│ + n.instance;status=INTERNAL;mandatory:=status;version="4.4.0";uses:="o
+
+│ + rg.mockito.creation.instance,org.mockito.mock,org.mockito.plugins",or
+
+│ + g.mockito.internal.creation.proxy;status=INTERNAL;mandatory:=status;v
+
+│ + ersion="4.4.0";uses:="org.mockito.invocation,org.mockito.mock,org.moc
+
+│ + kito.plugins",org.mockito.internal.creation.settings;status=INTERNAL;
+
+│ + mandatory:=status;version="4.4.0";uses:="org.mockito.listeners,org.mo
+
+│ + ckito.mock,org.mockito.stubbing",org.mockito.internal.creation.util;s
+
+│ + tatus=INTERNAL;mandatory:=status;version="4.4.0",org.mockito.internal
+
+│ + .debugging;status=INTERNAL;mandatory:=status;version="4.4.0";uses:="o
+
+│ + rg.mockito.internal.exceptions.stacktrace,org.mockito.internal.invoca
+
+│ + tion,org.mockito.invocation,org.mockito.listeners",org.mockito.intern
+
+│ + al.exceptions;status=INTERNAL;mandatory:=status;version="4.4.0";uses:
+
+│ + ="org.mockito.exceptions.base,org.mockito.exceptions.misusing,org.moc
+
+│ + kito.exceptions.verification,org.mockito.internal.matchers,org.mockit
+
+│ + o.internal.reporting,org.mockito.invocation,org.mockito.listeners,org
+
+│ + .mockito.mock",org.mockito.internal.exceptions.stacktrace;status=INTE
+
+│ + RNAL;mandatory:=status;version="4.4.0";uses:="org.mockito.exceptions.
+
+│ + stacktrace,org.mockito.plugins",org.mockito.internal.exceptions.util;
+
+│ + status=INTERNAL;mandatory:=status;version="4.4.0";uses:="org.mockito.
+
+│ + internal.exceptions",org.mockito.internal.framework;status=INTERNAL;m
+
+│ + andatory:=status;version="4.4.0";uses:="org.mockito,org.mockito.invoc
+
+│ + ation,org.mockito.listeners,org.mockito.plugins,org.mockito.quality",
+
+│ + org.mockito.internal.hamcrest;status=INTERNAL;mandatory:=status;versi
+
+│ + on="4.4.0";uses:="org.hamcrest,org.mockito",org.mockito.internal.hand
+
+│ + ler;status=INTERNAL;mandatory:=status;version="4.4.0";uses:="org.mock
+
+│ + ito.invocation,org.mockito.listeners,org.mockito.mock",org.mockito.in
+
+│ + ternal.invocation;status=INTERNAL;mandatory:=status;version="4.4.0";u
+
+│ + ses:="org.mockito,org.mockito.internal.exceptions,org.mockito.interna
+
+│ + l.invocation.mockref,org.mockito.internal.progress,org.mockito.intern
+
+│ + al.verification.api,org.mockito.invocation,org.mockito.mock",org.mock
+
+│ + ito.internal.invocation.finder;status=INTERNAL;mandatory:=status;vers
+
+│ + ion="4.4.0";uses:="org.mockito.invocation,org.mockito.stubbing",org.m
+
+│ + ockito.internal.invocation.mockref;status=INTERNAL;mandatory:=status;
+
+│ + version="4.4.0",org.mockito.internal.junit;status=INTERNAL;mandatory:
+
+│ + =status;version="4.4.0";uses:="org.junit.runner,org.junit.runner.noti
+
+│ + fication,org.junit.runners.model,org.mockito.exceptions.base,org.mock
+
+│ + ito.internal.listeners,org.mockito.invocation,org.mockito.junit,org.m
+
+│ + ockito.listeners,org.mockito.mock,org.mockito.plugins,org.mockito.qua
+
+│ + lity",org.mockito.internal.listeners;status=INTERNAL;mandatory:=statu
+
+│ + s;version="4.4.0";uses:="org.mockito,org.mockito.internal.creation.se
+
+│ + ttings,org.mockito.invocation,org.mockito.listeners,org.mockito.stubb
+
+│ + ing",org.mockito.internal.matchers;status=INTERNAL;mandatory:=status;
+
+│ + version="4.4.0";uses:="org.mockito,org.mockito.invocation",org.mockit
+
+│ + o.internal.matchers.apachecommons;status=INTERNAL;mandatory:=status;v
+
+│ + ersion="4.4.0";uses:="org.mockito",org.mockito.internal.matchers.text
+
+│ + ;status=INTERNAL;mandatory:=status;version="4.4.0";uses:="org.mockito
+
+│ + ,org.mockito.internal.reporting",org.mockito.internal.progress;status
+
+│ + =INTERNAL;mandatory:=status;version="4.4.0";uses:="org.mockito,org.mo
+
+│ + ckito.internal.matchers,org.mockito.listeners,org.mockito.mock,org.mo
+
+│ + ckito.stubbing,org.mockito.verification",org.mockito.internal.reporti
+
+│ + ng;status=INTERNAL;mandatory:=status;version="4.4.0";uses:="org.mocki
+
+│ + to,org.mockito.invocation",org.mockito.internal.runners;status=INTERN
+
+│ + AL;mandatory:=status;version="4.4.0";uses:="org.junit.runner,org.juni
+
+│ + t.runner.manipulation,org.junit.runner.notification,org.junit.runners
+
+│ + .model,org.mockito.internal.junit,org.mockito.internal.util",org.mock
+
+│ + ito.internal.runners.util;status=INTERNAL;mandatory:=status;version="
+
+│ + 4.4.0";uses:="org.junit.runner.notification,org.mockito.internal.runn
+
+│ + ers",org.mockito.internal.session;status=INTERNAL;mandatory:=status;v
+
+│ + ersion="4.4.0";uses:="org.mockito,org.mockito.plugins,org.mockito.qua
+
+│ + lity,org.mockito.session",org.mockito.internal.stubbing;status=INTERN
+
+│ + AL;mandatory:=status;version="4.4.0";uses:="org.mockito.internal.invo
+
+│ + cation,org.mockito.invocation,org.mockito.mock,org.mockito.quality,or
+
+│ + g.mockito.stubbing",org.mockito.internal.stubbing.answers;status=INTE
+
+│ + RNAL;mandatory:=status;version="4.4.0";uses:="org.mockito.internal.in
+
+│ + vocation,org.mockito.invocation,org.mockito.stubbing",org.mockito.int
+
+│ + ernal.stubbing.defaultanswers;status=INTERNAL;mandatory:=status;versi
+
+│ + on="4.4.0";uses:="org.mockito.internal.util.reflection,org.mockito.in
+
+│ + vocation,org.mockito.stubbing",org.mockito.internal.util;status=INTER
+
+│ + NAL;mandatory:=status;version="4.4.0";uses:="org.mockito,org.mockito.
+
+│ + internal.stubbing,org.mockito.invocation,org.mockito.mock,org.mockito
+
+│ + .plugins,org.mockito.stubbing",org.mockito.internal.util.collections;
+
+│   status=INTERNAL;mandatory:=status;version="4.4.0",org.mockito.interna
+
+│ - l.util.reflection;status=INTERNAL;mandatory:=status;version="4.4.0";u
+
+│ - ses:="org.mockito.internal.util.collections,org.mockito.plugins",org.
+
+│ - mockito.internal.verification;status=INTERNAL;mandatory:=status;versi
+
+│ - on="4.4.0";uses:="org.mockito.internal,org.mockito.internal.invocatio
+
+│ - n,org.mockito.internal.stubbing,org.mockito.internal.util,org.mockito
+
+│ - .internal.verification.api,org.mockito.invocation,org.mockito.listene
+
+│ - rs,org.mockito.verification",org.mockito.internal.verification.api;st
+
+│ - atus=INTERNAL;mandatory:=status;version="4.4.0";uses:="org.mockito.in
+
+│ - vocation",org.mockito.internal.verification.argumentmatching;status=I
+
+│ - NTERNAL;mandatory:=status;version="4.4.0";uses:="org.mockito",org.moc
+
+│ - kito.internal.verification.checkers;status=INTERNAL;mandatory:=status
+
+│ - ;version="4.4.0";uses:="org.mockito.internal.reporting,org.mockito.in
+
+│ - ternal.verification.api,org.mockito.invocation",org.mockito;version="
+
+│ - 4.4.0";uses:="org.mockito.exceptions.misusing,org.mockito.invocation,
+
+│ - org.mockito.listeners,org.mockito.mock,org.mockito.plugins,org.mockit
+
+│ - o.quality,org.mockito.session,org.mockito.stubbing,org.mockito.verifi
+
+│ - cation",org.mockito.codegen;version="4.4.0",org.mockito.configuration
+
+│ - ;version="4.4.0";uses:="org.mockito.stubbing",org.mockito.creation.in
+
+│ - stance;version="4.4.0";uses:="org.mockito.exceptions.base",org.mockit
+
+│ - o.exceptions.base;version="4.4.0",org.mockito.exceptions.misusing;ver
+
+│ - sion="4.4.0";uses:="org.mockito.exceptions.base",org.mockito.exceptio
+
+│ - ns.stacktrace;version="4.4.0",org.mockito.exceptions.verification;ver
+
+│ - sion="4.4.0";uses:="org.mockito.exceptions.base",org.mockito.exceptio
+
+│ - ns.verification.junit;version="4.4.0";uses:="junit.framework",org.moc
+
+│ - kito.exceptions.verification.opentest4j;version="4.4.0";uses:="org.op
+
+│ - entest4j",org.mockito.hamcrest;version="4.4.0";uses:="org.hamcrest",o
+
+│ - rg.mockito.invocation;version="4.4.0";uses:="org.mockito,org.mockito.
+
+│ - mock",org.mockito.junit;version="4.4.0";uses:="org.junit.rules,org.ju
+
+│ - nit.runner,org.junit.runner.manipulation,org.junit.runner.notificatio
+
+│ - n,org.mockito.exceptions.base,org.mockito.quality",org.mockito.listen
+
+│ - ers;version="4.4.0";uses:="org.mockito.invocation,org.mockito.mock,or
+
+│ - g.mockito.stubbing,org.mockito.verification",org.mockito.mock;version
+
+│ - ="4.4.0";uses:="org.mockito,org.mockito.listeners,org.mockito.stubbin
+
+│ - g",org.mockito.plugins;version="4.4.0";uses:="org.mockito,org.mockito
+
+│ - .creation.instance,org.mockito.exceptions.stacktrace,org.mockito.invo
+
+│ - cation,org.mockito.mock",org.mockito.quality;version="4.4.0",org.mock
+
+│ - ito.session;version="4.4.0";uses:="org.mockito,org.mockito.exceptions
+
+│ - .misusing,org.mockito.quality",org.mockito.stubbing;version="4.4.0";u
+
+│ - ses:="org.mockito,org.mockito.invocation,org.mockito.quality",org.moc
+
+│ - kito.verification;version="4.4.0";uses:="org.mockito.internal.verific
+
+│ - ation,org.mockito.internal.verification.api"
+
+│ + l.util.concurrent;status=INTERNAL;mandatory:=status;version="4.4.0",o
+
+│ + rg.mockito.internal.util.io;status=INTERNAL;mandatory:=status;version
+
+│ + ="4.4.0",org.mockito.internal.util.reflection;status=INTERNAL;mandato
+
+│ + ry:=status;version="4.4.0";uses:="org.mockito.internal.util.collectio
+
+│ + ns,org.mockito.plugins",org.mockito.internal.verification;status=INTE
+
+│ + RNAL;mandatory:=status;version="4.4.0";uses:="org.mockito.internal,or
+
+│ + g.mockito.internal.invocation,org.mockito.internal.stubbing,org.mocki
+
+│ + to.internal.util,org.mockito.internal.verification.api,org.mockito.in
+
+│ + vocation,org.mockito.listeners,org.mockito.verification",org.mockito.
+
+│ + internal.verification.api;status=INTERNAL;mandatory:=status;version="
+
+│ + 4.4.0";uses:="org.mockito.invocation",org.mockito.internal.verificati
+
+│ + on.argumentmatching;status=INTERNAL;mandatory:=status;version="4.4.0"
+
+│ + ;uses:="org.mockito",org.mockito.internal.verification.checkers;statu
+
+│ + s=INTERNAL;mandatory:=status;version="4.4.0";uses:="org.mockito.inter
+
+│ + nal.reporting,org.mockito.internal.verification.api,org.mockito.invoc
+
+│ + ation",org.mockito;version="4.4.0";uses:="org.mockito.exceptions.misu
+
+│ + sing,org.mockito.invocation,org.mockito.listeners,org.mockito.mock,or
+
+│ + g.mockito.plugins,org.mockito.quality,org.mockito.session,org.mockito
+
+│ + .stubbing,org.mockito.verification",org.mockito.codegen;version="4.4.
+
+│ + 0",org.mockito.configuration;version="4.4.0";uses:="org.mockito.stubb
+
+│ + ing",org.mockito.creation.instance;version="4.4.0";uses:="org.mockito
+
+│ + .exceptions.base",org.mockito.exceptions.base;version="4.4.0",org.moc
+
+│ + kito.exceptions.misusing;version="4.4.0";uses:="org.mockito.exception
+
+│ + s.base",org.mockito.exceptions.stacktrace;version="4.4.0",org.mockito
+
+│ + .exceptions.verification;version="4.4.0";uses:="org.mockito.exception
+
+│ + s.base",org.mockito.exceptions.verification.junit;version="4.4.0";use
+
+│ + s:="junit.framework",org.mockito.exceptions.verification.opentest4j;v
+
+│ + ersion="4.4.0";uses:="org.opentest4j",org.mockito.hamcrest;version="4
+
+│ + .4.0";uses:="org.hamcrest",org.mockito.invocation;version="4.4.0";use
+
+│ + s:="org.mockito,org.mockito.mock",org.mockito.junit;version="4.4.0";u
+
+│ + ses:="org.junit.rules,org.junit.runner,org.junit.runner.manipulation,
+
+│ + org.junit.runner.notification,org.mockito.exceptions.base,org.mockito
+
+│ + .quality",org.mockito.listeners;version="4.4.0";uses:="org.mockito.in
+
+│ + vocation,org.mockito.mock,org.mockito.stubbing,org.mockito.verificati
+
+│ + on",org.mockito.mock;version="4.4.0";uses:="org.mockito,org.mockito.l
+
+│ + isteners,org.mockito.stubbing",org.mockito.plugins;version="4.4.0";us
+
+│ + es:="org.mockito,org.mockito.creation.instance,org.mockito.exceptions
+
+│ + .stacktrace,org.mockito.invocation,org.mockito.mock",org.mockito.qual
+
+│ + ity;version="4.4.0",org.mockito.session;version="4.4.0";uses:="org.mo
+
+│ + ckito,org.mockito.exceptions.misusing,org.mockito.quality",org.mockit
+
+│ + o.stubbing;version="4.4.0";uses:="org.mockito,org.mockito.invocation,
+
+│ + org.mockito.quality",org.mockito.verification;version="4.4.0";uses:="
+
+│ + org.mockito.internal.verification,org.mockito.internal.verification.a
+
+│ + pi"
+
+│  Import-Package: net.bytebuddy;version="[1.6.0,2.0)",net.bytebuddy.agen
+
+│   t;version="[1.6.0,2.0)",net.bytebuddy.asm;version="[1.6.0,2.0)",net.b
+
+│   ytebuddy.description;version="[1.6.0,2.0)",net.bytebuddy.description.
+
+│   field;version="[1.6.0,2.0)",net.bytebuddy.description.method;version=
+
+│   "[1.6.0,2.0)",net.bytebuddy.description.modifier;version="[1.6.0,2.0)
+
+│   ",net.bytebuddy.description.type;version="[1.6.0,2.0)",net.bytebuddy.
+
+│   dynamic;version="[1.6.0,2.0)",net.bytebuddy.dynamic.loading;version="
+
+│ @@ -175,49 +177,50 @@
+│   sion="[4.4,5)";status=INTERNAL,org.mockito.internal.configuration;ver
+
+│   sion="[4.4,5)";status=INTERNAL,org.mockito.internal.configuration.inj
+
+│   ection;version="[4.4,5)";status=INTERNAL,org.mockito.internal.configu
+
+│   ration.injection.filter;version="[4.4,5)";status=INTERNAL,org.mockito
+
+│   .internal.configuration.injection.scanner;version="[4.4,5)";status=IN
+
+│   TERNAL,org.mockito.internal.configuration.plugins;version="[4.4,5)";s
+
+│   tatus=INTERNAL,org.mockito.internal.creation;version="[4.4,5)";status
+
+│ - =INTERNAL,org.mockito.internal.creation.bytebuddy.inject,org.mockito.
+
+│ - internal.creation.instance;version="[4.4,5)";status=INTERNAL,org.mock
+
+│ - ito.internal.creation.settings;version="[4.4,5)";status=INTERNAL,org.
+
+│ - mockito.internal.debugging;version="[4.4,5)";status=INTERNAL,org.mock
+
+│ - ito.internal.exceptions;version="[4.4,5)";status=INTERNAL,org.mockito
+
+│ - .internal.exceptions.stacktrace;version="[4.4,5)";status=INTERNAL,org
+
+│ - .mockito.internal.exceptions.util;version="[4.4,5)";status=INTERNAL,o
+
+│ - rg.mockito.internal.framework;version="[4.4,5)";status=INTERNAL,org.m
+
+│ - ockito.internal.hamcrest;version="[4.4,5)";status=INTERNAL,org.mockit
+
+│ - o.internal.handler;version="[4.4,5)";status=INTERNAL,org.mockito.inte
+
+│ - rnal.invocation;version="[4.4,5)";status=INTERNAL,org.mockito.interna
+
+│ - l.invocation.finder;version="[4.4,5)";status=INTERNAL,org.mockito.int
+
+│ - ernal.invocation.mockref;version="[4.4,5)";status=INTERNAL,org.mockit
+
+│ - o.internal.junit;version="[4.4,5)";status=INTERNAL,org.mockito.intern
+
+│ - al.listeners;version="[4.4,5)";status=INTERNAL,org.mockito.internal.m
+
+│ - atchers;version="[4.4,5)";status=INTERNAL,org.mockito.internal.matche
+
+│ - rs.apachecommons;version="[4.4,5)";status=INTERNAL,org.mockito.intern
+
+│ - al.matchers.text;version="[4.4,5)";status=INTERNAL,org.mockito.intern
+
+│ - al.progress;version="[4.4,5)";status=INTERNAL,org.mockito.internal.re
+
+│ - porting;version="[4.4,5)";status=INTERNAL,org.mockito.internal.runner
+
+│ - s;version="[4.4,5)";status=INTERNAL,org.mockito.internal.runners.util
+
+│ - ;version="[4.4,5)";status=INTERNAL,org.mockito.internal.session;versi
+
+│ - on="[4.4,5)";status=INTERNAL,org.mockito.internal.stubbing;version="[
+
+│ - 4.4,5)";status=INTERNAL,org.mockito.internal.stubbing.answers;version
+
+│ - ="[4.4,5)";status=INTERNAL,org.mockito.internal.stubbing.defaultanswe
+
+│ - rs;version="[4.4,5)";status=INTERNAL,org.mockito.internal.util;versio
+
+│ - n="[4.4,5)";status=INTERNAL,org.mockito.internal.util.collections;ver
+
+│ - sion="[4.4,5)";status=INTERNAL,org.mockito.internal.util.concurrent;v
+
+│ - ersion="[4.4,5)";status=INTERNAL,org.mockito.internal.util.io;version
+
+│ - ="[4.4,5)";status=INTERNAL,org.mockito.internal.util.reflection;versi
+
+│ - on="[4.4,5)";status=INTERNAL,org.mockito.internal.verification;versio
+
+│ - n="[4.4,5)";status=INTERNAL,org.mockito.internal.verification.api;ver
+
+│ - sion="[4.4,5)";status=INTERNAL,org.mockito.internal.verification.argu
+
+│ - mentmatching;version="[4.4,5)";status=INTERNAL,org.mockito.internal.v
+
+│ - erification.checkers;version="[4.4,5)";status=INTERNAL,org.mockito.in
+
+│ - vocation;version="[4.4,5)",org.mockito.junit;version="[4.4,5)",org.mo
+
+│ - ckito.listeners;version="[4.4,5)",org.mockito.mock;version="[4.4,5)",
+
+│ - org.mockito.plugins;version="[4.4,5)",org.mockito.quality;version="[4
+
+│ - .4,5)",org.mockito.session;version="[4.4,5)",org.mockito.stubbing;ver
+
+│ - sion="[4.4,5)",org.mockito.verification;version="[4.4,5)"
+
+│ + =INTERNAL,org.mockito.internal.creation.bytebuddy.inject;version="[4.
+
+│ + 4,5)";status=INTERNAL,org.mockito.internal.creation.instance;version=
+
+│ + "[4.4,5)";status=INTERNAL,org.mockito.internal.creation.settings;vers
+
+│ + ion="[4.4,5)";status=INTERNAL,org.mockito.internal.debugging;version=
+
+│ + "[4.4,5)";status=INTERNAL,org.mockito.internal.exceptions;version="[4
+
+│ + .4,5)";status=INTERNAL,org.mockito.internal.exceptions.stacktrace;ver
+
+│ + sion="[4.4,5)";status=INTERNAL,org.mockito.internal.exceptions.util;v
+
+│ + ersion="[4.4,5)";status=INTERNAL,org.mockito.internal.framework;versi
+
+│ + on="[4.4,5)";status=INTERNAL,org.mockito.internal.hamcrest;version="[
+
+│ + 4.4,5)";status=INTERNAL,org.mockito.internal.handler;version="[4.4,5)
+
+│ + ";status=INTERNAL,org.mockito.internal.invocation;version="[4.4,5)";s
+
+│ + tatus=INTERNAL,org.mockito.internal.invocation.finder;version="[4.4,5
+
+│ + )";status=INTERNAL,org.mockito.internal.invocation.mockref;version="[
+
+│ + 4.4,5)";status=INTERNAL,org.mockito.internal.junit;version="[4.4,5)";
+
+│ + status=INTERNAL,org.mockito.internal.listeners;version="[4.4,5)";stat
+
+│ + us=INTERNAL,org.mockito.internal.matchers;version="[4.4,5)";status=IN
+
+│ + TERNAL,org.mockito.internal.matchers.apachecommons;version="[4.4,5)";
+
+│ + status=INTERNAL,org.mockito.internal.matchers.text;version="[4.4,5)";
+
+│ + status=INTERNAL,org.mockito.internal.progress;version="[4.4,5)";statu
+
+│ + s=INTERNAL,org.mockito.internal.reporting;version="[4.4,5)";status=IN
+
+│ + TERNAL,org.mockito.internal.runners;version="[4.4,5)";status=INTERNAL
+
+│ + ,org.mockito.internal.runners.util;version="[4.4,5)";status=INTERNAL,
+
+│ + org.mockito.internal.session;version="[4.4,5)";status=INTERNAL,org.mo
+
+│ + ckito.internal.stubbing;version="[4.4,5)";status=INTERNAL,org.mockito
+
+│ + .internal.stubbing.answers;version="[4.4,5)";status=INTERNAL,org.mock
+
+│ + ito.internal.stubbing.defaultanswers;version="[4.4,5)";status=INTERNA
+
+│ + L,org.mockito.internal.util;version="[4.4,5)";status=INTERNAL,org.moc
+
+│ + kito.internal.util.collections;version="[4.4,5)";status=INTERNAL,org.
+
+│ + mockito.internal.util.concurrent;version="[4.4,5)";status=INTERNAL,or
+
+│ + g.mockito.internal.util.io;version="[4.4,5)";status=INTERNAL,org.mock
+
+│ + ito.internal.util.reflection;version="[4.4,5)";status=INTERNAL,org.mo
+
+│ + ckito.internal.verification;version="[4.4,5)";status=INTERNAL,org.moc
+
+│ + kito.internal.verification.api;version="[4.4,5)";status=INTERNAL,org.
+
+│ + mockito.internal.verification.argumentmatching;version="[4.4,5)";stat
+
+│ + us=INTERNAL,org.mockito.internal.verification.checkers;version="[4.4,
+
+│ + 5)";status=INTERNAL,org.mockito.invocation;version="[4.4,5)",org.mock
+
+│ + ito.junit;version="[4.4,5)",org.mockito.listeners;version="[4.4,5)",o
+
+│ + rg.mockito.mock;version="[4.4,5)",org.mockito.plugins;version="[4.4,5
+
+│ + )",org.mockito.quality;version="[4.4,5)",org.mockito.session;version=
+
+│ + "[4.4,5)",org.mockito.stubbing;version="[4.4,5)",org.mockito.verifica
+
+│ + tion;version="[4.4,5)"
+
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+├── org/mockito/internal/configuration/plugins/PluginFinder.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -232,25 +232,22 @@
+│ │        LineNumberTable:
+│ │          line 25: 0
+│ │          line 26: 26
+│ │          line 28: 29
+│ │          line 29: 35
+│ │          line 30: 49
+│ │          line 43: 54
+│ │ -        line 33: 59
+│ │          line 35: 62
+│ │          line 43: 76
+│ │ -        line 36: 81
+│ │          line 38: 84
+│ │          line 43: 88
+│ │          line 38: 93
+│ │          line 39: 96
+│ │          line 40: 98
+│ │          line 43: 127
+│ │ -        line 44: 134
+│ │          line 46: 137
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │             49      47     5 pluginClassName   Ljava/lang/String;
+│ │             98      29     5     e   Ljava/lang/Exception;
+│ │             29     108     4     s   Ljava/io/InputStream;
+│ │             26     111     3 resource   Ljava/net/URL;
+│ │ @@ -362,25 +359,22 @@
+│ │          line 50: 0
+│ │          line 51: 8
+│ │          line 52: 35
+│ │          line 54: 38
+│ │          line 55: 45
+│ │          line 56: 59
+│ │          line 69: 64
+│ │ -        line 59: 69
+│ │          line 61: 72
+│ │          line 69: 86
+│ │ -        line 62: 91
+│ │          line 64: 94
+│ │          line 69: 103
+│ │          line 70: 108
+│ │          line 65: 111
+│ │          line 66: 113
+│ │          line 69: 143
+│ │ -        line 70: 150
+│ │          line 71: 153
+│ │          line 72: 156
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │             59      44     6 pluginClassName   Ljava/lang/String;
+│ │            113      30     6     e   Ljava/lang/Exception;
+│ │             38     115     5     s   Ljava/io/InputStream;
+├── org/mockito/internal/creation/bytebuddy/ByteBuddyCrossClassLoaderSerializationSupport.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -332,15 +332,14 @@
+│ │          line 124: 68
+│ │          line 125: 81
+│ │          line 129: 141
+│ │          line 131: 174
+│ │          line 126: 184
+│ │          line 135: 192
+│ │          line 136: 198
+│ │ -        line 137: 207
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │             67     125     3 mockName   Lorg/mockito/mock/MockName;
+│ │             81     111     4 mockedType   Ljava/lang/String;
+│ │             62     130     2   ioe   Ljava/io/IOException;
+│ │              0     210     0  this   Lorg/mockito/internal/creation/bytebuddy/ByteBuddyCrossClassLoaderSerializationSupport;
+│ │              0     210     1 mockitoMock   Ljava/lang/Object;
+├── org/mockito/internal/creation/bytebuddy/InlineBytecodeGenerator.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1683,15 +1683,14 @@
+│ │          line 288: 309
+│ │          line 289: 311
+│ │          line 290: 341
+│ │          line 291: 351
+│ │          line 292: 361
+│ │          line 293: 364
+│ │          line 295: 393
+│ │ -        line 296: 400
+│ │          line 298: 403
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │             38     105     5  type   Ljava/lang/Class;
+│ │            181      20     6 target   Ljava/lang/Class;
+│ │            151      56     4     t   Ljava/lang/Throwable;
+│ │            254      47     4 throwable   Ljava/lang/Throwable;
+├── org/mockito/internal/creation/bytebuddy/InlineDelegateByteBuddyMockMaker.class
+│ ├── procyon -ec {}
+│ │ @@ -402,26 +402,34 @@
+│ │                      }
+│ │                      outputStream.closeEntry();
+│ │                  }
+│ │                  finally {
+│ │                      outputStream.close();
+│ │                  }
+│ │                  final JarFile jarfile = new JarFile(boot);
+│ │ +                Throwable t = null;
+│ │                  try {
+│ │                      instrumentation.appendToBootstrapClassLoaderSearch(jarfile);
+│ │ -                    jarfile.close();
+│ │                  }
+│ │ -                catch (Throwable t) {
+│ │ -                    try {
+│ │ -                        jarfile.close();
+│ │ +                catch (Throwable t2) {
+│ │ +                    t = t2;
+│ │ +                    throw t2;
+│ │ +                }
+│ │ +                finally {
+│ │ +                    if (t != null) {
+│ │ +                        try {
+│ │ +                            jarfile.close();
+│ │ +                        }
+│ │ +                        catch (Throwable exception) {
+│ │ +                            t.addSuppressed(exception);
+│ │ +                        }
+│ │                      }
+│ │ -                    catch (Throwable exception) {
+│ │ -                        t.addSuppressed(exception);
+│ │ +                    else {
+│ │ +                        jarfile.close();
+│ │                      }
+│ │ -                    throw t;
+│ │                  }
+│ │                  try {
+│ │                      Class.forName("org.mockito.internal.creation.bytebuddy.inject.MockMethodDispatcher", false, null);
+│ │                  }
+│ │                  catch (ClassNotFoundException cnfe) {
+│ │                      throw new IllegalStateException(StringUtil.join(new Object[] { "Mockito failed to inject the MockMethodDispatcher class into the bootstrap class loader", "", "It seems like your current VM does not support the instrumentation API correctly." }), cnfe);
+│ │                  }
+├── org/mockito/internal/creation/bytebuddy/MockMethodAdvice$SerializableRealMethodCall.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -263,15 +263,14 @@
+│ │          line 268: 32
+│ │          line 270: 42
+│ │          line 272: 46
+│ │          line 274: 62
+│ │          line 276: 81
+│ │          line 274: 92
+│ │          line 276: 95
+│ │ -        line 277: 108
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0     111     0  this   Lorg/mockito/internal/creation/bytebuddy/MockMethodAdvice$SerializableRealMethodCall;
+│ │              8     103     1 method   Ljava/lang/reflect/Method;
+│ │             25      86     2 mockMethodDispatcher   Lorg/mockito/internal/creation/bytebuddy/inject/MockMethodDispatcher;
+│ │             62      49     3 previous   Ljava/lang/Object;
+│ │        StackMapTable: number_of_entries = 2
+├── org/mockito/internal/creation/bytebuddy/MockMethodAdvice.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1392,15 +1392,15 @@
+│ │          line 333: 112
+│ │          line 327: 124
+│ │          line 336: 130
+│ │          line 337: 135
+│ │          line 338: 146
+│ │          line 339: 152
+│ │          line 340: 165
+│ │ -        line 341: 173
+│ │ +        line 341: 182
+│ │          line 342: 187
+│ │          line 343: 205
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │             72      52     8   key   Ljava/lang/String;
+│ │             82      42     9 elementIndex   I
+│ │             44      80     7 element   Ljava/lang/StackTraceElement;
+├── org/mockito/internal/creation/bytebuddy/MockMethodInterceptor.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -275,15 +275,14 @@
+│ │          line 80: 0
+│ │          line 82: 8
+│ │          line 83: 23
+│ │          line 82: 26
+│ │          line 91: 33
+│ │          line 82: 40
+│ │          line 91: 43
+│ │ -        line 92: 52
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      55     0  this   Lorg/mockito/internal/creation/bytebuddy/MockMethodInterceptor;
+│ │              0      55     1  mock   Ljava/lang/Object;
+│ │              0      55     2 invokedMethod   Ljava/lang/reflect/Method;
+│ │              0      55     3 arguments   [Ljava/lang/Object;
+│ │              0      55     4 realMethod   Lorg/mockito/internal/invocation/RealMethod;
+├── org/mockito/internal/creation/bytebuddy/TypeCachingBytecodeGenerator.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -332,15 +332,14 @@
+│ │          line 39: 79
+│ │          line 49: 81
+│ │          line 50: 82
+│ │          line 51: 87
+│ │          line 52: 94
+│ │          line 54: 99
+│ │          line 57: 101
+│ │ -        line 58: 117
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │             22      59     2 classLoader   Ljava/lang/ClassLoader;
+│ │             87      14     3 cause   Ljava/lang/Throwable;
+│ │             82      19     2 exception   Ljava/lang/IllegalArgumentException;
+│ │              0     120     0  this   Lorg/mockito/internal/creation/bytebuddy/TypeCachingBytecodeGenerator;
+│ │              0     120     1 params   Lorg/mockito/internal/creation/bytebuddy/MockFeatures;
+│ │ @@ -438,15 +437,14 @@
+│ │        LineNumberTable:
+│ │          line 73: 0
+│ │          line 75: 14
+│ │          line 76: 21
+│ │          line 78: 30
+│ │          line 79: 44
+│ │          line 78: 47
+│ │ -        line 79: 62
+│ │          line 80: 64
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      65     0  this   Lorg/mockito/internal/creation/bytebuddy/TypeCachingBytecodeGenerator;
+│ │        StackMapTable: number_of_entries = 2
+│ │          frame_type = 111 /* same_locals_1_stack_item */
+│ │            stack = [ class java/lang/Throwable ]
+├── org/mockito/internal/framework/DefaultMockitoSession.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -394,15 +394,14 @@
+│ │          line 74: 0
+│ │          line 77: 13
+│ │          line 91: 29
+│ │          line 93: 33
+│ │          line 96: 36
+│ │          line 97: 40
+│ │          line 96: 43
+│ │ -        line 97: 48
+│ │          line 98: 50
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      51     0  this   Lorg/mockito/internal/framework/DefaultMockitoSession;
+│ │              0      51     1 failure   Ljava/lang/Throwable;
+│ │        StackMapTable: number_of_entries = 3
+│ │          frame_type = 36 /* same */
+├── org/mockito/internal/handler/MockHandlerImpl.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -416,15 +416,14 @@
+│ │          line 93: 185
+│ │          line 99: 188
+│ │          line 100: 193
+│ │          line 103: 199
+│ │          line 107: 207
+│ │          line 103: 217
+│ │          line 107: 220
+│ │ -        line 108: 232
+│ │          line 110: 235
+│ │          line 111: 252
+│ │          line 120: 258
+│ │          line 121: 266
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │             27      10     2 invocationMatcher   Lorg/mockito/internal/invocation/InvocationMatcher;
+├── org/mockito/internal/junit/VerificationCollectorImpl$1.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -136,15 +136,14 @@
+│ │          line 43: 22
+│ │          line 45: 25
+│ │          line 44: 28
+│ │          line 46: 33
+│ │          line 43: 36
+│ │          line 45: 40
+│ │          line 44: 43
+│ │ -        line 46: 48
+│ │          line 47: 50
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      51     0  this   Lorg/mockito/internal/junit/VerificationCollectorImpl$1;
+│ │        StackMapTable: number_of_entries = 2
+│ │          frame_type = 100 /* same_locals_1_stack_item */
+│ │            stack = [ class java/lang/Throwable ]
+├── org/mockito/internal/matchers/CapturingMatcher.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -248,15 +248,14 @@
+│ │          line 39: 0
+│ │          line 41: 9
+│ │          line 42: 21
+│ │          line 45: 25
+│ │          line 47: 46
+│ │          line 45: 55
+│ │          line 47: 57
+│ │ -        line 48: 67
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      69     0  this   Lorg/mockito/internal/matchers/CapturingMatcher;
+│ │        LocalVariableTypeTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      69     0  this   Lorg/mockito/internal/matchers/CapturingMatcher<TT;>;
+│ │        StackMapTable: number_of_entries = 2
+│ │ @@ -295,15 +294,14 @@
+│ │               9    21    32   any
+│ │        LineNumberTable:
+│ │          line 52: 0
+│ │          line 54: 9
+│ │          line 56: 21
+│ │          line 54: 30
+│ │          line 56: 32
+│ │ -        line 57: 42
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      44     0  this   Lorg/mockito/internal/matchers/CapturingMatcher;
+│ │        LocalVariableTypeTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      44     0  this   Lorg/mockito/internal/matchers/CapturingMatcher<TT;>;
+│ │        StackMapTable: number_of_entries = 1
+│ │ @@ -340,15 +338,14 @@
+│ │               9    20    32   any
+│ │        LineNumberTable:
+│ │          line 62: 0
+│ │          line 64: 9
+│ │          line 66: 20
+│ │          line 67: 29
+│ │          line 66: 32
+│ │ -        line 67: 42
+│ │          line 68: 44
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      45     0  this   Lorg/mockito/internal/matchers/CapturingMatcher;
+│ │              0      45     1 argument   Ljava/lang/Object;
+│ │        LocalVariableTypeTable:
+│ │          Start  Length  Slot  Name   Signature
+├── org/mockito/internal/runners/DefaultInternalRunner$1$1.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -188,15 +188,14 @@
+│ │          line 50: 49
+│ │          line 52: 60
+│ │          line 55: 62
+│ │          line 57: 69
+│ │          line 58: 73
+│ │          line 57: 82
+│ │          line 58: 87
+│ │ -        line 60: 93
+│ │          line 61: 95
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │             57       3     1 closeable   Ljava/lang/AutoCloseable;
+│ │              0      96     0  this   Lorg/mockito/internal/runners/DefaultInternalRunner$1$1;
+│ │             62      34     1 closeable   Ljava/lang/AutoCloseable;
+│ │        StackMapTable: number_of_entries = 5
+├── org/mockito/internal/runners/StrictRunner.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -200,15 +200,14 @@
+│ │          line 35: 8
+│ │          line 37: 16
+│ │          line 40: 26
+│ │          line 41: 31
+│ │          line 43: 41
+│ │          line 44: 51
+│ │          line 43: 54
+│ │ -        line 44: 66
+│ │          line 46: 69
+│ │          line 53: 83
+│ │          line 55: 92
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      93     0  this   Lorg/mockito/internal/runners/StrictRunner;
+│ │              0      93     1 notifier   Lorg/junit/runner/notification/RunNotifier;
+├── org/mockito/internal/util/concurrent/WeakConcurrentMap$EntryIterator.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -273,15 +273,14 @@
+│ │        LineNumberTable:
+│ │          line 333: 0
+│ │          line 334: 7
+│ │          line 337: 15
+│ │          line 339: 36
+│ │          line 337: 40
+│ │          line 339: 42
+│ │ -        line 340: 47
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      49     0  this   Lorg/mockito/internal/util/concurrent/WeakConcurrentMap$EntryIterator;
+│ │        LocalVariableTypeTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      49     0  this   Lorg/mockito/internal/util/concurrent/WeakConcurrentMap<TK;TV;>.EntryIterator;
+│ │        StackMapTable: number_of_entries = 2
+├── org/mockito/internal/util/io/IOUtil.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -183,15 +183,14 @@
+│ │          line 32: 2
+│ │          line 33: 18
+│ │          line 37: 23
+│ │          line 38: 27
+│ │          line 34: 30
+│ │          line 35: 31
+│ │          line 37: 59
+│ │ -        line 38: 65
+│ │          line 39: 68
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │             31      28     3     e   Ljava/lang/Exception;
+│ │              0      69     0  text   Ljava/lang/String;
+│ │              0      69     1 output   Ljava/io/File;
+│ │              2      67     2    pw   Ljava/io/PrintWriter;
+├── org/mockito/internal/util/reflection/InstrumentationMemberAccessor.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1466,15 +1466,14 @@
+│ │          line 324: 199
+│ │          line 325: 209
+│ │          line 327: 217
+│ │          line 329: 236
+│ │          line 330: 241
+│ │          line 329: 254
+│ │          line 330: 261
+│ │ -        line 332: 271
+│ │          line 339: 274
+│ │          line 333: 277
+│ │          line 334: 279
+│ │          line 335: 284
+│ │          line 337: 290
+│ │          line 340: 328
+│ │        LocalVariableTable:
+├── org/mockito/internal/util/reflection/ReflectionMemberAccessor.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -285,15 +285,14 @@
+│ │          line 29: 25
+│ │          line 30: 28
+│ │          line 34: 30
+│ │          line 35: 33
+│ │          line 36: 35
+│ │          line 37: 61
+│ │          line 39: 76
+│ │ -        line 40: 83
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │             30       3     4     e   Ljava/lang/Exception;
+│ │             35      41     4     e   Ljava/lang/RuntimeException;
+│ │              0      86     0  this   Lorg/mockito/internal/util/reflection/ReflectionMemberAccessor;
+│ │              0      86     1 constructor   Ljava/lang/reflect/Constructor;
+│ │              0      86     2 onConstruction   Lorg/mockito/plugins/MemberAccessor$OnConstruction;
+│ │ @@ -371,15 +370,14 @@
+│ │          line 54: 13
+│ │          line 48: 18
+│ │          line 49: 21
+│ │          line 50: 23
+│ │          line 51: 26
+│ │          line 52: 28
+│ │          line 54: 66
+│ │ -        line 55: 73
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │             23       3     4     e   Ljava/lang/Exception;
+│ │             28      38     4     e   Ljava/lang/RuntimeException;
+│ │              0      76     0  this   Lorg/mockito/internal/util/reflection/ReflectionMemberAccessor;
+│ │              0      76     1 method   Ljava/lang/reflect/Method;
+│ │              0      76     2 target   Ljava/lang/Object;
+│ │ @@ -451,15 +449,14 @@
+│ │          line 68: 11
+│ │          line 62: 16
+│ │          line 63: 18
+│ │          line 64: 19
+│ │          line 65: 21
+│ │          line 66: 22
+│ │          line 68: 59
+│ │ -        line 69: 66
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │             19       2     3     e   Ljava/lang/Exception;
+│ │             22      37     3     e   Ljava/lang/RuntimeException;
+│ │              0      69     0  this   Lorg/mockito/internal/util/reflection/ReflectionMemberAccessor;
+│ │              0      69     1 field   Ljava/lang/reflect/Field;
+│ │              0      69     2 target   Ljava/lang/Object;
+│ │ @@ -530,15 +527,14 @@
+│ │          line 82: 11
+│ │          line 83: 16
+│ │          line 77: 19
+│ │          line 78: 21
+│ │          line 79: 24
+│ │          line 80: 26
+│ │          line 82: 64
+│ │ -        line 83: 71
+│ │          line 84: 74
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │             21       3     4     e   Ljava/lang/Exception;
+│ │             26      38     4     e   Ljava/lang/RuntimeException;
+│ │              0      75     0  this   Lorg/mockito/internal/util/reflection/ReflectionMemberAccessor;
+│ │              0      75     1 field   Ljava/lang/reflect/Field;
+
+...

@@ -1,0 +1,83 @@
+name=org.mockito:mockito-core
+group-id=org.mockito
+artifact-id=mockito-core
+
+build-tool=gradle
+java.version=11
+os.name=lf
+
+org/mockito/mockito-android/4.4.0/mockito-android-4.4.0.jar
+7737c2c4d5525ce286f1a436f2cc547e08ce8b7da07e1fd3fd9d920f8ee7f8db3b1d6f2ab63e1f807803aaebf36da6e97b14976e392bae329a3fe654f8fb35ff  repository/org/mockito/mockito-android/4.4.0/mockito-android-4.4.0.jar
+a1acd91172e084eb5ef7f1d4a04f4532fe6fe7dcb212bf457ed9d463eaf2141c56830f5a7f102b7f2f0cd1652ab25a7bfffd06e85b0379f8ed5c85282a89a9a5  central/org/mockito/mockito-android/4.4.0/mockito-android-4.4.0.jar
+
+org/mockito/mockito-android/4.4.0/mockito-android-4.4.0.pom
+8c7b11d25bcb3d428409f7fb059468bc73883485bba65d61e242c0eb774bcdb410f1ab981cf06b7b3ea814b18dcda7f5fca0e5c3c5cffb9adc9342623e029055  repository/org/mockito/mockito-android/4.4.0/mockito-android-4.4.0.pom
+8c7b11d25bcb3d428409f7fb059468bc73883485bba65d61e242c0eb774bcdb410f1ab981cf06b7b3ea814b18dcda7f5fca0e5c3c5cffb9adc9342623e029055  central/org/mockito/mockito-android/4.4.0/mockito-android-4.4.0.pom
+
+org/mockito/mockito-android/4.4.0/mockito-android-4.4.0-sources.jar
+202ce13a18b8045f995c6d3603ac46cadeb24c9cea96bc3fe1fe94243426da21c6756951a5e58b996d4277fd4fbe4e515feb55ffbbe5b1caf157670ae11dd76d  repository/org/mockito/mockito-android/4.4.0/mockito-android-4.4.0-sources.jar
+1b5ea0c844928207f9bfb22f5589168a780acbf6c5cb8abffa5221a2b7792d5bd3c0c126a6557679de8fce1bb032859985ce3b85d639693831a3707135af1da8  central/org/mockito/mockito-android/4.4.0/mockito-android-4.4.0-sources.jar
+
+org/mockito/mockito-bom/4.4.0/mockito-bom-4.4.0.pom
+bed91d5e60ef6747189c9b77b6b73245952eac3f70f1c8b716bfe85fe6140cca0b32afe37260dd1e16f856161ae4024e26dcd6b709d9a12ca1ccaa52dd8dc961  repository/org/mockito/mockito-bom/4.4.0/mockito-bom-4.4.0.pom
+bed91d5e60ef6747189c9b77b6b73245952eac3f70f1c8b716bfe85fe6140cca0b32afe37260dd1e16f856161ae4024e26dcd6b709d9a12ca1ccaa52dd8dc961  central/org/mockito/mockito-bom/4.4.0/mockito-bom-4.4.0.pom
+
+org/mockito/mockito-core/4.4.0/mockito-core-4.4.0.jar
+84e638ce057708a8a086f0d873fc078ad160ff9fe9673b03fa95123a9ab9ad33e0cbd5345b92c7391de484124458b5fb877b12ed6ab00dbc37349c27cd5f7ae9  repository/org/mockito/mockito-core/4.4.0/mockito-core-4.4.0.jar
+af02f32cf80496bf0662cd01b2265b243c17dda5a2c668aa2d3e39ed7df1f96a92a5a8e7f253dd2772ee7e61ae57d7783dddec830bb240ab49f68e02830653ac  central/org/mockito/mockito-core/4.4.0/mockito-core-4.4.0.jar
+
+org/mockito/mockito-core/4.4.0/mockito-core-4.4.0.pom
+6dbef860bd20428bda44e844468f4ffa2bc90730f1bd3f3ce296d8e69fc42a63aad6a18b6446270edb2fb8e12357af735abf03a60afff89f5c09dfce600cf40e  repository/org/mockito/mockito-core/4.4.0/mockito-core-4.4.0.pom
+6dbef860bd20428bda44e844468f4ffa2bc90730f1bd3f3ce296d8e69fc42a63aad6a18b6446270edb2fb8e12357af735abf03a60afff89f5c09dfce600cf40e  central/org/mockito/mockito-core/4.4.0/mockito-core-4.4.0.pom
+
+org/mockito/mockito-core/4.4.0/mockito-core-4.4.0-sources.jar
+91e89184d779a3778c1fdca6e1931676d73492a70b63d54479effd9d5a42ff0bf0a080f16d8ad9f7550590f860108ef4489c187a347ff604c09d76a130742567  repository/org/mockito/mockito-core/4.4.0/mockito-core-4.4.0-sources.jar
+a172e0b35c27bdb1804baf274f025135d7e6b5de18060bc76ed2182ace39c2b419eccfd05d1c607c19da9bc5b2603a2cc24d3a883528f64ca73ebdd80fe4fc3d  central/org/mockito/mockito-core/4.4.0/mockito-core-4.4.0-sources.jar
+
+org/mockito/mockito-errorprone/4.4.0/mockito-errorprone-4.4.0.jar
+5f5bcd72580422aee737a04f2d97597b0ebfe2e8510d4aef2ef6219e761099691ce49b1e4489a78b6b06287b9b4234d3239515269a669514c73bd0312e2e7431  repository/org/mockito/mockito-errorprone/4.4.0/mockito-errorprone-4.4.0.jar
+3e0dc1aa52890fe3a54f4cc063edad25e7be18905b67503766e597cfe8c6336bf8641c9ba935a2e877e1266b5e1f980965b17b953f3acef21d5afc6acee28cb0  central/org/mockito/mockito-errorprone/4.4.0/mockito-errorprone-4.4.0.jar
+
+org/mockito/mockito-errorprone/4.4.0/mockito-errorprone-4.4.0.pom
+eae5b3755fb4ae16dadc9eebe6c0612ddc38ce1a8634560a48d96ca4288c46d892fd1b2cc5579c3fb441e264e4201f369c3167732d32778c4397891deba74963  repository/org/mockito/mockito-errorprone/4.4.0/mockito-errorprone-4.4.0.pom
+eae5b3755fb4ae16dadc9eebe6c0612ddc38ce1a8634560a48d96ca4288c46d892fd1b2cc5579c3fb441e264e4201f369c3167732d32778c4397891deba74963  central/org/mockito/mockito-errorprone/4.4.0/mockito-errorprone-4.4.0.pom
+
+org/mockito/mockito-errorprone/4.4.0/mockito-errorprone-4.4.0-sources.jar
+039bb34d54c12563a46f213f270098f52a593789ed7af4ddf7d292318c51382b387a8d2b294bca82175ae21321cc02343016cfa01be98fe774a20039c9861068  repository/org/mockito/mockito-errorprone/4.4.0/mockito-errorprone-4.4.0-sources.jar
+fb0540c2e79442febe68b10fe0dedb512098a74af94af994161fef61b5f75528fa73677c0e39572d4e96f12d856c0ce74c362e46aed6cce1075a60bd763dbbbe  central/org/mockito/mockito-errorprone/4.4.0/mockito-errorprone-4.4.0-sources.jar
+
+org/mockito/mockito-inline/4.4.0/mockito-inline-4.4.0.jar
+0efc506c4cd2865c235a7464c3898622ec131938d9755724aeeca7bf416644fc127477d5e4e357fd1840cb3d41a1ada33e0d7bc81ab0693c0af7e75e5b19ae0f  repository/org/mockito/mockito-inline/4.4.0/mockito-inline-4.4.0.jar
+9c948cf7fc88f7f747faba78a03497b2ff6153a9d944fa2e1a477dadc4528afc21721854e3d43d53e190d5abe24dbfad69eaf37457e67a34ac099b332bea1350  central/org/mockito/mockito-inline/4.4.0/mockito-inline-4.4.0.jar
+
+org/mockito/mockito-inline/4.4.0/mockito-inline-4.4.0.pom
+d19d0a5c01f500cf83ee49d9c55173d97ef4cca6fb8f53de79f1b21ded965f181e81af9aeea395a15236e8cba28b75b0bb709ccfbad049020c8cfaa54b345743  repository/org/mockito/mockito-inline/4.4.0/mockito-inline-4.4.0.pom
+d19d0a5c01f500cf83ee49d9c55173d97ef4cca6fb8f53de79f1b21ded965f181e81af9aeea395a15236e8cba28b75b0bb709ccfbad049020c8cfaa54b345743  central/org/mockito/mockito-inline/4.4.0/mockito-inline-4.4.0.pom
+
+org/mockito/mockito-inline/4.4.0/mockito-inline-4.4.0-sources.jar
+0efc506c4cd2865c235a7464c3898622ec131938d9755724aeeca7bf416644fc127477d5e4e357fd1840cb3d41a1ada33e0d7bc81ab0693c0af7e75e5b19ae0f  repository/org/mockito/mockito-inline/4.4.0/mockito-inline-4.4.0-sources.jar
+9c948cf7fc88f7f747faba78a03497b2ff6153a9d944fa2e1a477dadc4528afc21721854e3d43d53e190d5abe24dbfad69eaf37457e67a34ac099b332bea1350  central/org/mockito/mockito-inline/4.4.0/mockito-inline-4.4.0-sources.jar
+
+org/mockito/mockito-junit-jupiter/4.4.0/mockito-junit-jupiter-4.4.0.jar
+4b4f3370dd45b183d758cea0adc43c44bbace1a79a15836865c1949c63c94421b2886feb8b53ff156a795ebeb3f1cef3017f00b18f59d5f05ea48d8db3ea2f32  repository/org/mockito/mockito-junit-jupiter/4.4.0/mockito-junit-jupiter-4.4.0.jar
+26ca10ae514f2386564eed0828f8606785eb229033878b66b19a0abd20eda1ab1d55e7434be438f39e10fd4fc10d50e2075883e6d07822ed2af230319dc3040c  central/org/mockito/mockito-junit-jupiter/4.4.0/mockito-junit-jupiter-4.4.0.jar
+
+org/mockito/mockito-junit-jupiter/4.4.0/mockito-junit-jupiter-4.4.0.pom
+74364c1b2698293e8cec632bb1ba808658e6514e723c7c1f55fbbf665889d2877ce9b586aec899baea5aeacf62e0f2d53c8e24b38b520af5d4b85f6e01756812  repository/org/mockito/mockito-junit-jupiter/4.4.0/mockito-junit-jupiter-4.4.0.pom
+74364c1b2698293e8cec632bb1ba808658e6514e723c7c1f55fbbf665889d2877ce9b586aec899baea5aeacf62e0f2d53c8e24b38b520af5d4b85f6e01756812  central/org/mockito/mockito-junit-jupiter/4.4.0/mockito-junit-jupiter-4.4.0.pom
+
+org/mockito/mockito-junit-jupiter/4.4.0/mockito-junit-jupiter-4.4.0-sources.jar
+dba216bcf783655c438d8696a15478f420d5d34b4a954cd860dd672f6bff15a68fd18f1ccd1e371e1134b626627e52676ca05c67050f1c9293ca9427df472fb5  repository/org/mockito/mockito-junit-jupiter/4.4.0/mockito-junit-jupiter-4.4.0-sources.jar
+4f3325780810f1b3996bd32ea6da7db7270a52736c072b42b0afc9b25f13509125d7f57006bfd58781bd372de7e95aaf16f190b48f2b81ba7a92e00958308a15  central/org/mockito/mockito-junit-jupiter/4.4.0/mockito-junit-jupiter-4.4.0-sources.jar
+
+org/mockito/mockito-proxy/4.4.0/mockito-proxy-4.4.0.jar
+840663e83b6981b420e5c096e587aa55ec3059855b700786c447a4e145b83ad8e8d88237a7d30005421653bffe59b44b4fc6b3ada62342b3271df3fc4bf60ba7  repository/org/mockito/mockito-proxy/4.4.0/mockito-proxy-4.4.0.jar
+7cb3ed171b186fb8582f08c7c710ce66374f236aa544386c1a56e941ee4fc28a5ced0ab1356439cd3cb34ea93389bdd268eef1cb56c3e644fb86f69446b0197d  central/org/mockito/mockito-proxy/4.4.0/mockito-proxy-4.4.0.jar
+
+org/mockito/mockito-proxy/4.4.0/mockito-proxy-4.4.0.pom
+6830b4042ff77ffb3d8ca2b5614979bea07172956f3d61a186dd595ec852dd77dd26ca8a9a0703ffa10ec5e575176c2527db90a54877511ff28ae8701f884a75  repository/org/mockito/mockito-proxy/4.4.0/mockito-proxy-4.4.0.pom
+6830b4042ff77ffb3d8ca2b5614979bea07172956f3d61a186dd595ec852dd77dd26ca8a9a0703ffa10ec5e575176c2527db90a54877511ff28ae8701f884a75  central/org/mockito/mockito-proxy/4.4.0/mockito-proxy-4.4.0.pom
+
+org/mockito/mockito-proxy/4.4.0/mockito-proxy-4.4.0-sources.jar
+840663e83b6981b420e5c096e587aa55ec3059855b700786c447a4e145b83ad8e8d88237a7d30005421653bffe59b44b4fc6b3ada62342b3271df3fc4bf60ba7  repository/org/mockito/mockito-proxy/4.4.0/mockito-proxy-4.4.0-sources.jar
+7cb3ed171b186fb8582f08c7c710ce66374f236aa544386c1a56e941ee4fc28a5ced0ab1356439cd3cb34ea93389bdd268eef1cb56c3e644fb86f69446b0197d  central/org/mockito/mockito-proxy/4.4.0/mockito-proxy-4.4.0-sources.jar

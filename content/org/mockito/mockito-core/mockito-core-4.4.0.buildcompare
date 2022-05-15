@@ -1,0 +1,17 @@
+version=4.4.0
+ok=7
+ko=12
+okFiles="mockito-android-4.4.0.pom mockito-bom-4.4.0.pom mockito-core-4.4.0.pom mockito-errorprone-4.4.0.pom mockito-inline-4.4.0.pom mockito-junit-jupiter-4.4.0.pom mockito-proxy-4.4.0.pom"
+koFiles="mockito-android-4.4.0.jar mockito-android-4.4.0-sources.jar mockito-core-4.4.0.jar mockito-core-4.4.0-sources.jar mockito-errorprone-4.4.0.jar mockito-errorprone-4.4.0-sources.jar mockito-inline-4.4.0.jar mockito-inline-4.4.0-sources.jar mockito-junit-jupiter-4.4.0.jar mockito-junit-jupiter-4.4.0-sources.jar mockito-proxy-4.4.0.jar mockito-proxy-4.4.0-sources.jar"
+# diffoscope repository/org/mockito/mockito-android/4.4.0/mockito-android-4.4.0.jar central/org/mockito/mockito-android/4.4.0/mockito-android-4.4.0.jar
+# diffoscope repository/org/mockito/mockito-android/4.4.0/mockito-android-4.4.0-sources.jar central/org/mockito/mockito-android/4.4.0/mockito-android-4.4.0-sources.jar
+# diffoscope repository/org/mockito/mockito-core/4.4.0/mockito-core-4.4.0.jar central/org/mockito/mockito-core/4.4.0/mockito-core-4.4.0.jar
+# diffoscope repository/org/mockito/mockito-core/4.4.0/mockito-core-4.4.0-sources.jar central/org/mockito/mockito-core/4.4.0/mockito-core-4.4.0-sources.jar
+# diffoscope repository/org/mockito/mockito-errorprone/4.4.0/mockito-errorprone-4.4.0.jar central/org/mockito/mockito-errorprone/4.4.0/mockito-errorprone-4.4.0.jar
+# diffoscope repository/org/mockito/mockito-errorprone/4.4.0/mockito-errorprone-4.4.0-sources.jar central/org/mockito/mockito-errorprone/4.4.0/mockito-errorprone-4.4.0-sources.jar
+# diffoscope repository/org/mockito/mockito-inline/4.4.0/mockito-inline-4.4.0.jar central/org/mockito/mockito-inline/4.4.0/mockito-inline-4.4.0.jar
+# diffoscope repository/org/mockito/mockito-inline/4.4.0/mockito-inline-4.4.0-sources.jar central/org/mockito/mockito-inline/4.4.0/mockito-inline-4.4.0-sources.jar
+# diffoscope repository/org/mockito/mockito-junit-jupiter/4.4.0/mockito-junit-jupiter-4.4.0.jar central/org/mockito/mockito-junit-jupiter/4.4.0/mockito-junit-jupiter-4.4.0.jar
+# diffoscope repository/org/mockito/mockito-junit-jupiter/4.4.0/mockito-junit-jupiter-4.4.0-sources.jar central/org/mockito/mockito-junit-jupiter/4.4.0/mockito-junit-jupiter-4.4.0-sources.jar
+# diffoscope repository/org/mockito/mockito-proxy/4.4.0/mockito-proxy-4.4.0.jar central/org/mockito/mockito-proxy/4.4.0/mockito-proxy-4.4.0.jar
+# diffoscope repository/org/mockito/mockito-proxy/4.4.0/mockito-proxy-4.4.0-sources.jar central/org/mockito/mockito-proxy/4.4.0/mockito-proxy-4.4.0-sources.jar
