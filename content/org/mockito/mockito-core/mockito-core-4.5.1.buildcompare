@@ -1,0 +1,15 @@
+version=4.5.1
+ok=9
+ko=10
+okFiles="mockito-android-4.5.1.pom mockito-bom-4.5.1.pom mockito-core-4.5.1.jar mockito-core-4.5.1.pom mockito-errorprone-4.5.1.pom mockito-inline-4.5.1.pom mockito-junit-jupiter-4.5.1.jar mockito-junit-jupiter-4.5.1.pom mockito-proxy-4.5.1.pom"
+koFiles="mockito-android-4.5.1.jar mockito-android-4.5.1-sources.jar mockito-core-4.5.1-sources.jar mockito-errorprone-4.5.1.jar mockito-errorprone-4.5.1-sources.jar mockito-inline-4.5.1.jar mockito-inline-4.5.1-sources.jar mockito-junit-jupiter-4.5.1-sources.jar mockito-proxy-4.5.1.jar mockito-proxy-4.5.1-sources.jar"
+# diffoscope repository/org/mockito/mockito-android/4.5.1/mockito-android-4.5.1.jar central/org/mockito/mockito-android/4.5.1/mockito-android-4.5.1.jar
+# diffoscope repository/org/mockito/mockito-android/4.5.1/mockito-android-4.5.1-sources.jar central/org/mockito/mockito-android/4.5.1/mockito-android-4.5.1-sources.jar
+# diffoscope repository/org/mockito/mockito-core/4.5.1/mockito-core-4.5.1-sources.jar central/org/mockito/mockito-core/4.5.1/mockito-core-4.5.1-sources.jar
+# diffoscope repository/org/mockito/mockito-errorprone/4.5.1/mockito-errorprone-4.5.1.jar central/org/mockito/mockito-errorprone/4.5.1/mockito-errorprone-4.5.1.jar
+# diffoscope repository/org/mockito/mockito-errorprone/4.5.1/mockito-errorprone-4.5.1-sources.jar central/org/mockito/mockito-errorprone/4.5.1/mockito-errorprone-4.5.1-sources.jar
+# diffoscope repository/org/mockito/mockito-inline/4.5.1/mockito-inline-4.5.1.jar central/org/mockito/mockito-inline/4.5.1/mockito-inline-4.5.1.jar
+# diffoscope repository/org/mockito/mockito-inline/4.5.1/mockito-inline-4.5.1-sources.jar central/org/mockito/mockito-inline/4.5.1/mockito-inline-4.5.1-sources.jar
+# diffoscope repository/org/mockito/mockito-junit-jupiter/4.5.1/mockito-junit-jupiter-4.5.1-sources.jar central/org/mockito/mockito-junit-jupiter/4.5.1/mockito-junit-jupiter-4.5.1-sources.jar
+# diffoscope repository/org/mockito/mockito-proxy/4.5.1/mockito-proxy-4.5.1.jar central/org/mockito/mockito-proxy/4.5.1/mockito-proxy-4.5.1.jar
+# diffoscope repository/org/mockito/mockito-proxy/4.5.1/mockito-proxy-4.5.1-sources.jar central/org/mockito/mockito-proxy/4.5.1/mockito-proxy-4.5.1-sources.jar

@@ -1,0 +1,21 @@
+1 / 10 repository/org/mockito/mockito-android/4.5.1/mockito-android-4.5.1.jar central/org/mockito/mockito-android/4.5.1/mockito-android-4.5.1.jar
+--- repository/org/mockito/mockito-android/4.5.1/mockito-android-4.5.1.jar
++++ central/org/mockito/mockito-android/4.5.1/mockito-android-4.5.1.jar
+├── zipinfo {}
+│ @@ -5,11 +5,11 @@
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 org/mockito/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 org/mockito/android/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 org/mockito/android/internal/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 org/mockito/android/internal/creation/
+│  -rw-r--r--  2.0 unx     3214 b- defN 80-Feb-01 00:00 org/mockito/android/internal/creation/AndroidByteBuddyMockMaker.class
+│  -rw-r--r--  2.0 unx     2105 b- defN 80-Feb-01 00:00 org/mockito/android/internal/creation/AndroidLoadingStrategy.class
+│  -rw-r--r--  2.0 unx     4329 b- defN 80-Feb-01 00:00 org/mockito/android/internal/creation/AndroidTempFileLocator.class
+│ -drwxrwxr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 mockito-extensions/
+│ --rw-rw-r--  2.0 unx       63 b- defN 80-Feb-01 00:00 mockito-extensions/org.mockito.plugins.MockMaker
+│ --rw-rw-r--  2.0 unx     1080 b- defN 80-Feb-01 00:00 LICENSE
+│ +drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 mockito-extensions/
+│ +-rw-r--r--  2.0 unx       63 b- defN 80-Feb-01 00:00 mockito-extensions/org.mockito.plugins.MockMaker
+│ +-rw-r--r--  2.0 unx     1080 b- defN 80-Feb-01 00:00 LICENSE
+│  13 files, 10816 bytes uncompressed, 5482 bytes compressed:  49.3%
+
+...
