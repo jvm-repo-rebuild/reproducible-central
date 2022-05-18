@@ -66,9 +66,9 @@ Notice the anchor in the link.
 Nightly Rebuild: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
 
 <!-- BEGIN GENERATED INTRO -->
-rebuilding **891 releases** of **268 projects**:
-- **608** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 283 had issues (some unreproducible artifacts :warning:):
+rebuilding **896 releases** of **268 projects**:
+- **612** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- 284 had issues (some unreproducible artifacts :warning:):
 
 <!-- END GENERATED INTRO -->
 
@@ -78,7 +78,7 @@ rebuilding **891 releases** of **268 projects**:
 | biz.aQute.bnd | <a name='biz.aQute.bnd:bnd-plugin-parent'></a>[bnd-plugin-parent](content/biz/aQute/bnd/plugins/README.md) | 5 | 5 :heavy_check_mark: |
 | ch.qos.logback.db | <a name='ch.qos.logback.db:logback-parent-db'></a>[logback-parent-db](content/ch/qos/logback/db/README.md) | 1 | 1 :warning: |
 | ch.qos.logback | <a name='ch.qos.logback:logback-parent'></a>[logback-parent](content/ch/qos/logback/README.md) | 3 | 1 :heavy_check_mark: / 2 :warning: |
-| ch.qos.reload4j | <a name='ch.qos.reload4j:reload4j'></a>[reload4j](content/ch/qos/reload4j/README.md) | 3 | 3 :warning: |
+| ch.qos.reload4j | <a name='ch.qos.reload4j:reload4j'></a>[reload4j](content/ch/qos/reload4j/README.md) | 4 | 4 :warning: |
 | com.adobe.acs | <a name='com.adobe.acs:acs-aem-commons'></a>[acs-aem-commons](content/com/adobe/acs/aem-commons/README.md) | 1 | 1 :warning: |
 | com.github.adangel.liquibase.ext | <a name='com.github.adangel.liquibase.ext:liquibase-percona'></a>[liquibase-percona](content/com/github/adangel/liquibase/ext/liquibase-percona/README.md) | 1 | 1 :heavy_check_mark: |
 | com.github.ldapchai | <a name='com.github.ldapchai:ldapchai'></a>[ldapchai](content/com/github/ldapchai/README.md) | 4 | 4 :warning: |
@@ -103,7 +103,7 @@ rebuilding **891 releases** of **268 projects**:
 | | <a name='io.github.albertus82:unexepack'></a>[unexepack](content/io/github/albertus82/unexepack/README.md) | 3 | 3 :warning: |
 | io.github.derkrischan | <a name='io.github.derkrischan:jpdftest'></a>[jpdftest](content/io/github/derkrischan/jpdftest/README.md) | 3 | 3 :heavy_check_mark: |
 | io.liftwizard | <a name='io.liftwizard:liftwizard'></a>[liftwizard](content/io/liftwizard/README.md) | 23 | 23 :heavy_check_mark: |
-| io.micronaut.build | <a name='io.micronaut.build:micronaut-maven-plugin'></a>[micronaut-maven-plugin](content/io/micronaut/build/micronaut-maven-plugin/README.md) | 22 | 22 :heavy_check_mark: |
+| io.micronaut.build | <a name='io.micronaut.build:micronaut-maven-plugin'></a>[micronaut-maven-plugin](content/io/micronaut/build/micronaut-maven-plugin/README.md) | 23 | 23 :heavy_check_mark: |
 | io.wcm | <a name='io.wcm:io.wcm.caconfig.editor.parent'></a>[*.caconfig.editor.parent](content/io/wcm/caconfig/README.md) | 4 | 4 :warning: |
 | | <a name='io.wcm:io.wcm.handler.link'></a>[*.handler.link](content/io/wcm/handler/link/README.md) | 4 | 4 :warning: |
 | | <a name='io.wcm:io.wcm.handler.media'></a>[*.handler.media](content/io/wcm/handler/media/README.md) | 5 | 5 :heavy_check_mark: |
@@ -185,14 +185,14 @@ rebuilding **891 releases** of **268 projects**:
 | org.apache.maven.shared | <a name='org.apache.maven.shared:maven-artifact-transfer'></a>[maven-artifact-transfer](content/org/apache/maven/shared/maven-artifact-transfer/README.md) | 1 | 1 :warning: |
 | | <a name='org.apache.maven.shared:maven-common-artifact-filters'></a>[maven-common-artifact-filters](content/org/apache/maven/shared/maven-common-artifact-filters/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.maven.shared:maven-dependency-analyzer'></a>[maven-dependency-analyzer](content/org/apache/maven/shared/maven-dependency-analyzer/README.md) | 3 | 3 :heavy_check_mark: |
-| | <a name='org.apache.maven.shared:maven-dependency-tree'></a>[maven-dependency-tree](content/org/apache/maven/shared/maven-dependency-tree/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='org.apache.maven.shared:maven-dependency-tree'></a>[maven-dependency-tree](content/org/apache/maven/shared/maven-dependency-tree/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.maven.shared:maven-filtering'></a>[maven-filtering](content/org/apache/maven/shared/maven-filtering/README.md) | 1 | 1 :warning: |
 | | <a name='org.apache.maven.shared:maven-invoker'></a>[maven-invoker](content/org/apache/maven/shared/maven-invoker/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.maven.shared:maven-script-interpreter'></a>[maven-script-interpreter](content/org/apache/maven/shared/maven-script-interpreter/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.maven.shared:maven-shared-resources'></a>[maven-shared-resources](content/org/apache/maven/shared/maven-shared-resources/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.maven.shared:maven-shared-utils'></a>[maven-shared-utils](content/org/apache/maven/shared/maven-shared-utils/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.maven.shared:maven-verifier'></a>[maven-verifier](content/org/apache/maven/shared/maven-verifier/README.md) | 3 | 3 :heavy_check_mark: |
-| org.apache.maven.skins | <a name='org.apache.maven.skins:maven-fluido-skin'></a>[maven-fluido-skin](content/org/apache/maven/skins/fluido/README.md) | 2 | 2 :heavy_check_mark: |
+| org.apache.maven.skins | <a name='org.apache.maven.skins:maven-fluido-skin'></a>[maven-fluido-skin](content/org/apache/maven/skins/fluido/README.md) | 3 | 3 :heavy_check_mark: |
 | org.apache.maven.surefire | <a name='org.apache.maven.surefire:surefire'></a>[surefire](content/org/apache/maven/surefire/README.md) | 2 | 2 :warning: |
 | org.apache.maven.wagon | <a name='org.apache.maven.wagon:wagon'></a>[wagon](content/org/apache/maven/wagon/wagon/README.md) | 6 | 6 :heavy_check_mark: |
 | org.apache.maven.wrapper | <a name='org.apache.maven.wrapper:maven-wrapper-parent'></a>[maven-wrapper-parent](content/org/apache/maven/wrapper/README.md) | 2 | 2 :heavy_check_mark: |
@@ -339,11 +339,11 @@ rebuilding **891 releases** of **268 projects**:
 | org.slf4j | <a name='org.slf4j:slf4j-parent'></a>[slf4j-parent](content/org/slf4j/README.md) | 1 | 1 :warning: |
 | org.sonatype.nexus.archetypes | <a name='org.sonatype.nexus.archetypes:nexus-format-archetype'></a>[nexus-format-archetype](content/org/sonatype/nexus/archetypes/nexus-format-archetype/README.md) | 1 | 1 :heavy_check_mark: |
 | org.tomitribe.transformer | <a name='org.tomitribe.transformer:org.eclipse.transformer.parent'></a>[org.eclipse.transformer.parent](content/org/tomitribe/transformer/README.md) | 2 | 2 :heavy_check_mark: |
-| org.webjars | <a name='org.webjars:flexmonster'></a>[flexmonster](content/org/webjars/flexmonster/README.md) | 5 | 5 :heavy_check_mark: |
+| org.webjars | <a name='org.webjars:flexmonster'></a>[flexmonster](content/org/webjars/flexmonster/README.md) | 6 | 6 :heavy_check_mark: |
 | | <a name='org.webjars:swagger-ui'></a>[swagger-ui](content/org/webjars/swagger-ui/README.md) | 6 | 6 :heavy_check_mark: |
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 5 | 5 :warning: |
-| **Count:** | **268** | **891** | **608** :heavy_check_mark: **283** :warning: |
+| **Count:** | **268** | **896** | **612** :heavy_check_mark: **284** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ## Understanding What Is Behind
