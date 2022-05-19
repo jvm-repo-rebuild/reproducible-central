@@ -574,6 +574,7 @@ rebuilding **1 releases** of org.apache.camel:camel:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.17.0](https://search.maven.org/artifact/org.apache.camel/camel/3.17.0/pom) | | | |
 | [3.16.0](https://search.maven.org/artifact/org.apache.camel/camel/3.16.0/pom) | | | |
 | [3.15.0](https://search.maven.org/artifact/org.apache.camel/camel/3.15.0/pom) | | | |
 | [3.14.3](https://search.maven.org/artifact/org.apache.camel/camel/3.14.3/pom) | | | |
