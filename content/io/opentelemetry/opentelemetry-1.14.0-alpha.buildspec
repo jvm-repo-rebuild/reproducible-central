@@ -1,10 +1,10 @@
 groupId=io.opentelemetry.instrumentation
 artifactId=opentelemetry-instrumentation-api
 display=${groupId}:${artifactId}
-version=1.14.0
+version=1.14.0-alpha
 
 gitRepo=https://github.com/open-telemetry/opentelemetry-java-instrumentation.git
-gitTag=v${version}
+gitTag=v$(echo "${version}" | cut -d \- -f 1)
 
 tool=gradle
 jdk=11
