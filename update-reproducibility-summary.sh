@@ -82,7 +82,8 @@ do
       ((globalVersion++))
 
       echo -n "| [${version}](https://search.maven.org/artifact/${groupId}/${artifactId}/${version}/pom) " >> ${t}
-      echo -n "| [$(echo "${tool}"  | cut -d - -f 1) jdk${jdk}" >> ${t}
+      echo -n "| [$(echo "${tool}"  | cut -d - -f 1)" >> ${t}
+      [[ "${tool}" == "gradle" ]] || echo -n " jdk${jdk}" >> ${t} # chosen JDK is used only to launch Gradle, not build code, then not relevant
       [[ "${newline}" == crlf* ]] && echo -n " w" >> ${t}
       echo -n "](${buildspec}) | " >> ${t}
       [ -f "${dir}/${_buildinfo}" ] && echo -n "[result](${_buildinfo}): " >> ${t}
