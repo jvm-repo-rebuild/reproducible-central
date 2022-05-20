@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/camel.git](https://github.com/apache/camel.git)
 
-<details><summary>This project defines 557 modules:</summary>
+<details><summary>This project defines 582 modules:</summary>
 
 * [org.apache.camel.archetypes:camel-archetype-api-component](https://search.maven.org/artifact/org.apache.camel.archetypes/camel-archetype-api-component/)
 * [org.apache.camel.archetypes:camel-archetype-cdi](https://search.maven.org/artifact/org.apache.camel.archetypes/camel-archetype-cdi/)
@@ -78,6 +78,7 @@ Source code: [https://github.com/apache/camel.git](https://github.com/apache/cam
 * [org.apache.camel:camel-aws2-translate](https://search.maven.org/artifact/org.apache.camel/camel-aws2-translate/)
 * [org.apache.camel:camel-azure-cosmosdb](https://search.maven.org/artifact/org.apache.camel/camel-azure-cosmosdb/)
 * [org.apache.camel:camel-azure-eventhubs](https://search.maven.org/artifact/org.apache.camel/camel-azure-eventhubs/)
+* [org.apache.camel:camel-azure-key-vault](https://search.maven.org/artifact/org.apache.camel/camel-azure-key-vault/)
 * [org.apache.camel:camel-azure-parent](https://search.maven.org/artifact/org.apache.camel/camel-azure-parent/)
 * [org.apache.camel:camel-azure-servicebus](https://search.maven.org/artifact/org.apache.camel/camel-azure-servicebus/)
 * [org.apache.camel:camel-azure-storage-blob](https://search.maven.org/artifact/org.apache.camel/camel-azure-storage-blob/)
@@ -105,13 +106,17 @@ Source code: [https://github.com/apache/camel.git](https://github.com/apache/cam
 * [org.apache.camel:camel-caffeine-lrucache](https://search.maven.org/artifact/org.apache.camel/camel-caffeine-lrucache/)
 * [org.apache.camel:camel-cassandraql](https://search.maven.org/artifact/org.apache.camel/camel-cassandraql/)
 * [org.apache.camel:camel-catalog](https://search.maven.org/artifact/org.apache.camel/camel-catalog/)
+* [org.apache.camel:camel-catalog-console](https://search.maven.org/artifact/org.apache.camel/camel-catalog-console/)
 * [org.apache.camel:camel-catalog-lucene](https://search.maven.org/artifact/org.apache.camel/camel-catalog-lucene/)
 * [org.apache.camel:camel-catalog-maven](https://search.maven.org/artifact/org.apache.camel/camel-catalog-maven/)
 * [org.apache.camel:camel-cbor](https://search.maven.org/artifact/org.apache.camel/camel-cbor/)
 * [org.apache.camel:camel-cdi](https://search.maven.org/artifact/org.apache.camel/camel-cdi/)
+* [org.apache.camel:camel-cdi-jta](https://search.maven.org/artifact/org.apache.camel/camel-cdi-jta/)
+* [org.apache.camel:camel-cdi-main](https://search.maven.org/artifact/org.apache.camel/camel-cdi-main/)
 * [org.apache.camel:camel-chatscript](https://search.maven.org/artifact/org.apache.camel/camel-chatscript/)
 * [org.apache.camel:camel-chunk](https://search.maven.org/artifact/org.apache.camel/camel-chunk/)
 * [org.apache.camel:camel-cloud](https://search.maven.org/artifact/org.apache.camel/camel-cloud/)
+* [org.apache.camel:camel-cloudevents](https://search.maven.org/artifact/org.apache.camel/camel-cloudevents/)
 * [org.apache.camel:camel-cluster](https://search.maven.org/artifact/org.apache.camel/camel-cluster/)
 * [org.apache.camel:camel-cm-sms](https://search.maven.org/artifact/org.apache.camel/camel-cm-sms/)
 * [org.apache.camel:camel-cmis](https://search.maven.org/artifact/org.apache.camel/camel-cmis/)
@@ -119,10 +124,12 @@ Source code: [https://github.com/apache/camel.git](https://github.com/apache/cam
 * [org.apache.camel:camel-cometd](https://search.maven.org/artifact/org.apache.camel/camel-cometd/)
 * [org.apache.camel:camel-component-maven-plugin](https://search.maven.org/artifact/org.apache.camel/camel-component-maven-plugin/)
 * [org.apache.camel:camel-componentdsl](https://search.maven.org/artifact/org.apache.camel/camel-componentdsl/)
+* [org.apache.camel:camel-console](https://search.maven.org/artifact/org.apache.camel/camel-console/)
 * [org.apache.camel:camel-consul](https://search.maven.org/artifact/org.apache.camel/camel-consul/)
 * [org.apache.camel:camel-controlbus](https://search.maven.org/artifact/org.apache.camel/camel-controlbus/)
 * [org.apache.camel:camel-corda](https://search.maven.org/artifact/org.apache.camel/camel-corda/)
 * [org.apache.camel:camel-core](https://search.maven.org/artifact/org.apache.camel/camel-core/)
+* [org.apache.camel:camel-core-all](https://search.maven.org/artifact/org.apache.camel/camel-core-all/)
 * [org.apache.camel:camel-core-catalog](https://search.maven.org/artifact/org.apache.camel/camel-core-catalog/)
 * [org.apache.camel:camel-core-engine](https://search.maven.org/artifact/org.apache.camel/camel-core-engine/)
 * [org.apache.camel:camel-core-languages](https://search.maven.org/artifact/org.apache.camel/camel-core-languages/)
@@ -144,11 +151,14 @@ Source code: [https://github.com/apache/camel.git](https://github.com/apache/cam
 * [org.apache.camel:camel-datasonnet](https://search.maven.org/artifact/org.apache.camel/camel-datasonnet/)
 * [org.apache.camel:camel-debezium-common](https://search.maven.org/artifact/org.apache.camel/camel-debezium-common/)
 * [org.apache.camel:camel-debezium-common-parent](https://search.maven.org/artifact/org.apache.camel/camel-debezium-common-parent/)
+* [org.apache.camel:camel-debezium-db2](https://search.maven.org/artifact/org.apache.camel/camel-debezium-db2/)
 * [org.apache.camel:camel-debezium-mongodb](https://search.maven.org/artifact/org.apache.camel/camel-debezium-mongodb/)
 * [org.apache.camel:camel-debezium-mysql](https://search.maven.org/artifact/org.apache.camel/camel-debezium-mysql/)
+* [org.apache.camel:camel-debezium-oracle](https://search.maven.org/artifact/org.apache.camel/camel-debezium-oracle/)
 * [org.apache.camel:camel-debezium-parent](https://search.maven.org/artifact/org.apache.camel/camel-debezium-parent/)
 * [org.apache.camel:camel-debezium-postgres](https://search.maven.org/artifact/org.apache.camel/camel-debezium-postgres/)
 * [org.apache.camel:camel-debezium-sqlserver](https://search.maven.org/artifact/org.apache.camel/camel-debezium-sqlserver/)
+* [org.apache.camel:camel-debug](https://search.maven.org/artifact/org.apache.camel/camel-debug/)
 * [org.apache.camel:camel-dependencies](https://search.maven.org/artifact/org.apache.camel/camel-dependencies/)
 * [org.apache.camel:camel-digitalocean](https://search.maven.org/artifact/org.apache.camel/camel-digitalocean/)
 * [org.apache.camel:camel-direct](https://search.maven.org/artifact/org.apache.camel/camel-direct/)
@@ -160,13 +170,16 @@ Source code: [https://github.com/apache/camel.git](https://github.com/apache/cam
 * [org.apache.camel:camel-dozer](https://search.maven.org/artifact/org.apache.camel/camel-dozer/)
 * [org.apache.camel:camel-drill](https://search.maven.org/artifact/org.apache.camel/camel-drill/)
 * [org.apache.camel:camel-dropbox](https://search.maven.org/artifact/org.apache.camel/camel-dropbox/)
+* [org.apache.camel:camel-dsl-modeline](https://search.maven.org/artifact/org.apache.camel/camel-dsl-modeline/)
 * [org.apache.camel:camel-dsl-support](https://search.maven.org/artifact/org.apache.camel/camel-dsl-support/)
+* [org.apache.camel:camel-dynamic-router](https://search.maven.org/artifact/org.apache.camel/camel-dynamic-router/)
 * [org.apache.camel:camel-ehcache](https://search.maven.org/artifact/org.apache.camel/camel-ehcache/)
 * [org.apache.camel:camel-eip-documentation-enricher-maven-plugin](https://search.maven.org/artifact/org.apache.camel/camel-eip-documentation-enricher-maven-plugin/)
 * [org.apache.camel:camel-elasticsearch-rest](https://search.maven.org/artifact/org.apache.camel/camel-elasticsearch-rest/)
 * [org.apache.camel:camel-elsql](https://search.maven.org/artifact/org.apache.camel/camel-elsql/)
 * [org.apache.camel:camel-elytron](https://search.maven.org/artifact/org.apache.camel/camel-elytron/)
 * [org.apache.camel:camel-endpointdsl](https://search.maven.org/artifact/org.apache.camel/camel-endpointdsl/)
+* [org.apache.camel:camel-endpointdsl-support](https://search.maven.org/artifact/org.apache.camel/camel-endpointdsl-support/)
 * [org.apache.camel:camel-etc](https://search.maven.org/artifact/org.apache.camel/camel-etc/)
 * [org.apache.camel:camel-etcd](https://search.maven.org/artifact/org.apache.camel/camel-etcd/)
 * [org.apache.camel:camel-etcd3](https://search.maven.org/artifact/org.apache.camel/camel-etcd3/)
@@ -194,6 +207,7 @@ Source code: [https://github.com/apache/camel.git](https://github.com/apache/cam
 * [org.apache.camel:camel-google-mail](https://search.maven.org/artifact/org.apache.camel/camel-google-mail/)
 * [org.apache.camel:camel-google-parent](https://search.maven.org/artifact/org.apache.camel/camel-google-parent/)
 * [org.apache.camel:camel-google-pubsub](https://search.maven.org/artifact/org.apache.camel/camel-google-pubsub/)
+* [org.apache.camel:camel-google-secret-manager](https://search.maven.org/artifact/org.apache.camel/camel-google-secret-manager/)
 * [org.apache.camel:camel-google-sheets](https://search.maven.org/artifact/org.apache.camel/camel-google-sheets/)
 * [org.apache.camel:camel-google-storage](https://search.maven.org/artifact/org.apache.camel/camel-google-storage/)
 * [org.apache.camel:camel-gora](https://search.maven.org/artifact/org.apache.camel/camel-gora/)
@@ -220,6 +234,7 @@ Source code: [https://github.com/apache/camel.git](https://github.com/apache/cam
 * [org.apache.camel:camel-huawei-parent](https://search.maven.org/artifact/org.apache.camel/camel-huawei-parent/)
 * [org.apache.camel:camel-huaweicloud-common](https://search.maven.org/artifact/org.apache.camel/camel-huaweicloud-common/)
 * [org.apache.camel:camel-huaweicloud-dms](https://search.maven.org/artifact/org.apache.camel/camel-huaweicloud-dms/)
+* [org.apache.camel:camel-huaweicloud-frs](https://search.maven.org/artifact/org.apache.camel/camel-huaweicloud-frs/)
 * [org.apache.camel:camel-huaweicloud-functiongraph](https://search.maven.org/artifact/org.apache.camel/camel-huaweicloud-functiongraph/)
 * [org.apache.camel:camel-huaweicloud-iam](https://search.maven.org/artifact/org.apache.camel/camel-huaweicloud-iam/)
 * [org.apache.camel:camel-huaweicloud-imagerecognition](https://search.maven.org/artifact/org.apache.camel/camel-huaweicloud-imagerecognition/)
@@ -274,6 +289,7 @@ Source code: [https://github.com/apache/camel.git](https://github.com/apache/cam
 * [org.apache.camel:camel-jpa](https://search.maven.org/artifact/org.apache.camel/camel-jpa/)
 * [org.apache.camel:camel-js-dsl](https://search.maven.org/artifact/org.apache.camel/camel-js-dsl/)
 * [org.apache.camel:camel-jsch](https://search.maven.org/artifact/org.apache.camel/camel-jsch/)
+* [org.apache.camel:camel-jsh-dsl](https://search.maven.org/artifact/org.apache.camel/camel-jsh-dsl/)
 * [org.apache.camel:camel-jslt](https://search.maven.org/artifact/org.apache.camel/camel-jslt/)
 * [org.apache.camel:camel-json-patch](https://search.maven.org/artifact/org.apache.camel/camel-json-patch/)
 * [org.apache.camel:camel-json-validator](https://search.maven.org/artifact/org.apache.camel/camel-json-validator/)
@@ -287,6 +303,10 @@ Source code: [https://github.com/apache/camel.git](https://github.com/apache/cam
 * [org.apache.camel:camel-kamelet](https://search.maven.org/artifact/org.apache.camel/camel-kamelet/)
 * [org.apache.camel:camel-kamelet-main](https://search.maven.org/artifact/org.apache.camel/camel-kamelet-main/)
 * [org.apache.camel:camel-kamelet-reify](https://search.maven.org/artifact/org.apache.camel/camel-kamelet-reify/)
+* [org.apache.camel:camel-knative](https://search.maven.org/artifact/org.apache.camel/camel-knative/)
+* [org.apache.camel:camel-knative-api](https://search.maven.org/artifact/org.apache.camel/camel-knative-api/)
+* [org.apache.camel:camel-knative-http](https://search.maven.org/artifact/org.apache.camel/camel-knative-http/)
+* [org.apache.camel:camel-knative-parent](https://search.maven.org/artifact/org.apache.camel/camel-knative-parent/)
 * [org.apache.camel:camel-kotlin-dsl](https://search.maven.org/artifact/org.apache.camel/camel-kotlin-dsl/)
 * [org.apache.camel:camel-kubernetes](https://search.maven.org/artifact/org.apache.camel/camel-kubernetes/)
 * [org.apache.camel:camel-kudu](https://search.maven.org/artifact/org.apache.camel/camel-kudu/)
@@ -361,6 +381,7 @@ Source code: [https://github.com/apache/camel.git](https://github.com/apache/cam
 * [org.apache.camel:camel-quartz](https://search.maven.org/artifact/org.apache.camel/camel-quartz/)
 * [org.apache.camel:camel-quickfix](https://search.maven.org/artifact/org.apache.camel/camel-quickfix/)
 * [org.apache.camel:camel-rabbitmq](https://search.maven.org/artifact/org.apache.camel/camel-rabbitmq/)
+* [org.apache.camel:camel-reactive-executor-tomcat](https://search.maven.org/artifact/org.apache.camel/camel-reactive-executor-tomcat/)
 * [org.apache.camel:camel-reactive-executor-vertx](https://search.maven.org/artifact/org.apache.camel/camel-reactive-executor-vertx/)
 * [org.apache.camel:camel-reactive-streams](https://search.maven.org/artifact/org.apache.camel/camel-reactive-streams/)
 * [org.apache.camel:camel-reactor](https://search.maven.org/artifact/org.apache.camel/camel-reactor/)
@@ -383,6 +404,7 @@ Source code: [https://github.com/apache/camel.git](https://github.com/apache/cam
 * [org.apache.camel:camel-rxjava](https://search.maven.org/artifact/org.apache.camel/camel-rxjava/)
 * [org.apache.camel:camel-saga](https://search.maven.org/artifact/org.apache.camel/camel-saga/)
 * [org.apache.camel:camel-salesforce](https://search.maven.org/artifact/org.apache.camel/camel-salesforce/)
+* [org.apache.camel:camel-salesforce-codegen](https://search.maven.org/artifact/org.apache.camel/camel-salesforce-codegen/)
 * [org.apache.camel:camel-salesforce-parent](https://search.maven.org/artifact/org.apache.camel/camel-salesforce-parent/)
 * [org.apache.camel:camel-sap-netweaver](https://search.maven.org/artifact/org.apache.camel/camel-sap-netweaver/)
 * [org.apache.camel:camel-saxon](https://search.maven.org/artifact/org.apache.camel/camel-saxon/)
@@ -436,6 +458,7 @@ Source code: [https://github.com/apache/camel.git](https://github.com/apache/cam
 * [org.apache.camel:camel-telegram](https://search.maven.org/artifact/org.apache.camel/camel-telegram/)
 * [org.apache.camel:camel-test](https://search.maven.org/artifact/org.apache.camel/camel-test/)
 * [org.apache.camel:camel-test-cdi](https://search.maven.org/artifact/org.apache.camel/camel-test-cdi/)
+* [org.apache.camel:camel-test-cdi-junit5](https://search.maven.org/artifact/org.apache.camel/camel-test-cdi-junit5/)
 * [org.apache.camel:camel-test-infra-activemq](https://search.maven.org/artifact/org.apache.camel/camel-test-infra-activemq/)
 * [org.apache.camel:camel-test-infra-arangodb](https://search.maven.org/artifact/org.apache.camel/camel-test-infra-arangodb/)
 * [org.apache.camel:camel-test-infra-artemis](https://search.maven.org/artifact/org.apache.camel/camel-test-infra-artemis/)
@@ -479,6 +502,7 @@ Source code: [https://github.com/apache/camel.git](https://github.com/apache/cam
 * [org.apache.camel:camel-test-infra-xmpp](https://search.maven.org/artifact/org.apache.camel/camel-test-infra-xmpp/)
 * [org.apache.camel:camel-test-infra-zookeeper](https://search.maven.org/artifact/org.apache.camel/camel-test-infra-zookeeper/)
 * [org.apache.camel:camel-test-junit5](https://search.maven.org/artifact/org.apache.camel/camel-test-junit5/)
+* [org.apache.camel:camel-test-main-junit5](https://search.maven.org/artifact/org.apache.camel/camel-test-main-junit5/)
 * [org.apache.camel:camel-test-parent](https://search.maven.org/artifact/org.apache.camel/camel-test-parent/)
 * [org.apache.camel:camel-test-spring](https://search.maven.org/artifact/org.apache.camel/camel-test-spring/)
 * [org.apache.camel:camel-test-spring-junit5](https://search.maven.org/artifact/org.apache.camel/camel-test-spring-junit5/)
@@ -496,6 +520,7 @@ Source code: [https://github.com/apache/camel.git](https://github.com/apache/cam
 * [org.apache.camel:camel-twilio](https://search.maven.org/artifact/org.apache.camel/camel-twilio/)
 * [org.apache.camel:camel-twitter](https://search.maven.org/artifact/org.apache.camel/camel-twitter/)
 * [org.apache.camel:camel-typeconverterscan-test](https://search.maven.org/artifact/org.apache.camel/camel-typeconverterscan-test/)
+* [org.apache.camel:camel-uberjar-main](https://search.maven.org/artifact/org.apache.camel/camel-uberjar-main/)
 * [org.apache.camel:camel-undertow](https://search.maven.org/artifact/org.apache.camel/camel-undertow/)
 * [org.apache.camel:camel-undertow-spring-security](https://search.maven.org/artifact/org.apache.camel/camel-undertow-spring-security/)
 * [org.apache.camel:camel-univocity-parsers](https://search.maven.org/artifact/org.apache.camel/camel-univocity-parsers/)
@@ -568,13 +593,13 @@ Source code: [https://github.com/apache/camel.git](https://github.com/apache/cam
 * [org.apache.camel:tooling-parent](https://search.maven.org/artifact/org.apache.camel/tooling-parent/)
 </details>
 
-rebuilding **1 releases** of org.apache.camel:camel:
+rebuilding **2 releases** of org.apache.camel:camel:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.17.0](https://search.maven.org/artifact/org.apache.camel/camel/3.17.0/pom) | | | |
+| [3.17.0](https://search.maven.org/artifact/org.apache.camel/camel/3.17.0/pom) | [mvn jdk11](camel-3.17.0.buildspec) | [result](camel-3.17.0.buildinfo): [902 :heavy_check_mark:  660 :warning:](camel-3.17.0.buildcompare) [:mag:](camel-3.17.0.diffoscope) | 224M |
 | [3.16.0](https://search.maven.org/artifact/org.apache.camel/camel/3.16.0/pom) | | | |
 | [3.15.0](https://search.maven.org/artifact/org.apache.camel/camel/3.15.0/pom) | | | |
 | [3.14.3](https://search.maven.org/artifact/org.apache.camel/camel/3.14.3/pom) | | | |
