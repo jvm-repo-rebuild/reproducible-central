@@ -1,0 +1,755 @@
+2 / 660 target/reference/camel-tooling-util-3.17.0.jar tooling/camel-tooling-util/target/camel-tooling-util-3.17.0.jar
+--- target/reference/camel-tooling-util-3.17.0.jar
++++ tooling/camel-tooling-util/target/camel-tooling-util-3.17.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 52381 bytes, number of entries: 34
+│ +Zip file size: 52380 bytes, number of entries: 34
+│  -rw-r--r--  2.0 unx     1096 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/camel/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/camel/tooling/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/camel/tooling/util/
+│ @@ -29,8 +29,8 @@
+│  -rw-r--r--  2.0 unx    27175 b- defN 80-000-00 04:08 org/apache/camel/tooling/util/srcgen/JavaClass.class
+│  -rw-r--r--  2.0 unx     1257 b- defN 80-000-00 04:08 org/apache/camel/tooling/util/srcgen/Javadoc.class
+│  -rw-r--r--  2.0 unx    10190 b- defN 80-000-00 04:08 org/apache/camel/tooling/util/srcgen/Method.class
+│  -rw-r--r--  2.0 unx     1577 b- defN 80-000-00 04:08 org/apache/camel/tooling/util/srcgen/Param.class
+│  -rw-r--r--  2.0 unx     4598 b- defN 80-000-00 04:08 org/apache/camel/tooling/util/srcgen/Property.class
+│  -rw-r--r--  2.0 unx     4092 b- defN 80-000-00 04:08 META-INF/maven/org.apache.camel/camel-tooling-util/pom.xml
+│  -rw-r--r--  2.0 unx       70 b- defN 80-000-00 04:08 META-INF/maven/org.apache.camel/camel-tooling-util/pom.properties
+│ -34 files, 115083 bytes uncompressed, 46907 bytes compressed:  59.2%
+│ +34 files, 115083 bytes uncompressed, 46906 bytes compressed:  59.2%
+├── META-INF/MANIFEST.MF
+│ @@ -12,14 +12,14 @@
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+
+│  Bundle-ManifestVersion: 2
+
+│  Bundle-Name: camel-tooling-util
+
+│  Bundle-SymbolicName: org.apache.camel.camel-tooling-util
+
+│  Bundle-Vendor: The Apache Software Foundation
+
+│  Bundle-Version: 3.17.0
+
+│  Export-Package: org.apache.camel.tooling.util;version="3.17.0"
+
+│ -Include-Resource: META-INF/NOTICE.txt=src/main/resources/META-INF/NOTICE
+
+│ - .txt,META-INF/LICENSE.txt=src/main/resources/META-INF/LICENSE.txt
+
+│ +Include-Resource: META-INF/LICENSE.txt=src/main/resources/META-INF/LICEN
+
+│ + SE.txt,META-INF/NOTICE.txt=src/main/resources/META-INF/NOTICE.txt
+
+│  Karaf-Info: Camel;camel-tooling-util=3.17.0
+
+│  Private-Package: org.apache.camel.tooling.util.srcgen
+
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+
+│  Tool: Bnd-5.1.1.202006162103
+
+3 / 660 target/reference/tooling-parent-3.17.0.pom tooling/parent/target/tooling-parent-3.17.0.pom
+--- target/reference/tooling-parent-3.17.0.pom
++++ tooling/parent/target/tooling-parent-3.17.0.pom
+@@ -58,24 +58,24 @@
+       <dependency>
+         <groupId>org.apache.maven</groupId>
+         <artifactId>maven-core</artifactId>
+         <version>${maven-version}</version>
+         <scope>provided</scope>
+         <exclusions>
+           <exclusion>
+-            <groupId>org.slf4j</groupId>
+             <artifactId>slf4j-jdk14</artifactId>
++            <groupId>org.slf4j</groupId>
+           </exclusion>
+           <exclusion>
+-            <groupId>org.slf4j</groupId>
+             <artifactId>jcl-over-slf4j</artifactId>
++            <groupId>org.slf4j</groupId>
+           </exclusion>
+           <exclusion>
+-            <groupId>org.slf4j</groupId>
+             <artifactId>slf4j-nop</artifactId>
++            <groupId>org.slf4j</groupId>
+           </exclusion>
+         </exclusions>
+       </dependency>
+       <dependency>
+         <groupId>org.apache.maven</groupId>
+         <artifactId>maven-model</artifactId>
+         <version>${maven-version}</version>
+@@ -131,16 +131,16 @@
+       <dependency>
+         <groupId>org.apache.maven</groupId>
+         <artifactId>maven-plugin-descriptor</artifactId>
+         <version>${maven-maven-plugin-descriptor-version}</version>
+         <scope>provided</scope>
+         <exclusions>
+           <exclusion>
+-            <groupId>log4j</groupId>
+             <artifactId>log4j</artifactId>
++            <groupId>log4j</groupId>
+           </exclusion>
+         </exclusions>
+       </dependency>
+       <dependency>
+         <groupId>org.apache.maven</groupId>
+         <artifactId>maven-project</artifactId>
+         <version>${maven-project-version}</version>
+
+545 / 660 target/reference/camel-stitch-3.17.0.jar components/camel-stitch/target/camel-stitch-3.17.0.jar
+--- target/reference/camel-stitch-3.17.0.jar
++++ components/camel-stitch/target/camel-stitch-3.17.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 60229 bytes, number of entries: 58
+│ +Zip file size: 60239 bytes, number of entries: 58
+│ @@ -17,15 +17,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/camel/component/stitch/client/models/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/camel/component/stitch/operations/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.camel/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.camel/camel-stitch/
+│  -rw-r--r--  2.0 unx    11359 b- defN 80-000-00 04:08 META-INF/LICENSE.txt
+│  -rw-r--r--  2.0 unx      596 b- defN 80-000-00 04:08 META-INF/NOTICE.txt
+│ --rw-r--r--  2.0 unx    10157 b- defN 80-000-00 04:08 META-INF/jandex.idx
+│ +-rw-r--r--  2.0 unx    10158 b- defN 80-000-00 04:08 META-INF/jandex.idx
+│  -rw-r--r--  2.0 unx      114 b- defN 80-000-00 04:08 META-INF/services/org/apache/camel/component/stitch
+│  -rw-r--r--  2.0 unx      219 b- defN 80-000-00 04:08 META-INF/services/org/apache/camel/component.properties
+│  -rw-r--r--  2.0 unx      124 b- defN 80-000-00 04:08 META-INF/services/org/apache/camel/configurer/stitch-component
+│  -rw-r--r--  2.0 unx      123 b- defN 80-000-00 04:08 META-INF/services/org/apache/camel/configurer/stitch-endpoint
+│  -rw-r--r--  2.0 unx      123 b- defN 80-000-00 04:08 META-INF/services/org/apache/camel/urifactory/stitch-endpoint
+│  -rw-r--r--  2.0 unx      210 b- defN 80-000-00 04:08 component.properties
+│  -rw-r--r--  2.0 unx     2464 b- defN 80-000-00 04:08 org/apache/camel/component/stitch/StitchComponent.class
+│ @@ -53,8 +53,8 @@
+│ -58 files, 135116 bytes uncompressed, 50215 bytes compressed:  62.8%
+│ +58 files, 135117 bytes uncompressed, 50225 bytes compressed:  62.8%
+
+646 / 660 target/reference/org.apache.camel.tests.mock-javamail_1.7-3.17.0.pom tests/test-bundles/mock-javamail_1.7/dependency-reduced-pom.xml
+--- target/reference/org.apache.camel.tests.mock-javamail_1.7-3.17.0.pom
++++ tests/test-bundles/mock-javamail_1.7/dependency-reduced-pom.xml
+@@ -139,214 +139,195 @@
+ 000008a0: 2020 2020 2020 2020 203c 2f67 6f61 6c73           </goals
+ 000008b0: 3e0d 0a20 2020 2020 2020 2020 2020 2020  >..             
+ 000008c0: 2020 203c 636f 6e66 6967 7572 6174 696f     <configuratio
+ 000008d0: 6e3e 0d0a 2020 2020 2020 2020 2020 2020  n>..            
+ 000008e0: 2020 2020 2020 3c66 6169 6c4f 6e45 7272        <failOnErr
+ 000008f0: 6f72 3e66 616c 7365 3c2f 6661 696c 4f6e  or>false</failOn
+ 00000900: 4572 726f 723e 0d0a 2020 2020 2020 2020  Error>..        
+-00000910: 2020 2020 2020 2020 2020 3c73 6f75 7263            <sourc
+-00000920: 653e 383c 2f73 6f75 7263 653e 0d0a 2020  e>8</source>..  
+-00000930: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00000940: 3c61 6464 6974 696f 6e61 6c4f 7074 696f  <additionalOptio
+-00000950: 6e73 3e24 7b6a 6176 6164 6f63 2e6f 7074  ns>${javadoc.opt
+-00000960: 737d 3c2f 6164 6469 7469 6f6e 616c 4f70  s}</additionalOp
+-00000970: 7469 6f6e 733e 0d0a 2020 2020 2020 2020  tions>..        
+-00000980: 2020 2020 2020 2020 2020 3c64 6f63 6c69            <docli
+-00000990: 6e74 3e6e 6f6e 653c 2f64 6f63 6c69 6e74  nt>none</doclint
+-000009a0: 3e0d 0a20 2020 2020 2020 2020 2020 2020  >..             
+-000009b0: 2020 2020 203c 6174 7461 6368 3e74 7275       <attach>tru
+-000009c0: 653c 2f61 7474 6163 683e 0d0a 2020 2020  e</attach>..    
+-000009d0: 2020 2020 2020 2020 2020 2020 2020 3c71                <q
+-000009e0: 7569 6574 3e74 7275 653c 2f71 7569 6574  uiet>true</quiet
+-000009f0: 3e0d 0a20 2020 2020 2020 2020 2020 2020  >..             
+-00000a00: 2020 2020 203c 626f 7474 6f6d 3e41 7061       <bottom>Apa
+-00000a10: 6368 6520 4361 6d65 6c3c 2f62 6f74 746f  che Camel</botto
+-00000a20: 6d3e 0d0a 2020 2020 2020 2020 2020 2020  m>..            
+-00000a30: 2020 2020 2020 3c64 6574 6563 744f 6666        <detectOff
+-00000a40: 6c69 6e65 4c69 6e6b 733e 6661 6c73 653c  lineLinks>false<
+-00000a50: 2f64 6574 6563 744f 6666 6c69 6e65 4c69  /detectOfflineLi
+-00000a60: 6e6b 733e 0d0a 2020 2020 2020 2020 2020  nks>..          
+-00000a70: 2020 2020 2020 2020 3c6a 6176 6164 6f63          <javadoc
+-00000a80: 5665 7273 696f 6e3e 312e 382e 303c 2f6a  Version>1.8.0</j
+-00000a90: 6176 6164 6f63 5665 7273 696f 6e3e 0d0a  avadocVersion>..
+-00000aa0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00000ab0: 2020 3c65 6e63 6f64 696e 673e 5554 462d    <encoding>UTF-
+-00000ac0: 383c 2f65 6e63 6f64 696e 673e 0d0a 2020  8</encoding>..  
+-00000ad0: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00000ae0: 3c6e 6f74 696d 6573 7461 6d70 3e74 7275  <notimestamp>tru
+-00000af0: 653c 2f6e 6f74 696d 6573 7461 6d70 3e0d  e</notimestamp>.
+-00000b00: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
+-00000b10: 203c 2f63 6f6e 6669 6775 7261 7469 6f6e   </configuration
+-00000b20: 3e0d 0a20 2020 2020 2020 2020 2020 2020  >..             
+-00000b30: 203c 2f65 7865 6375 7469 6f6e 3e0d 0a20   </execution>.. 
+-00000b40: 2020 2020 2020 2020 2020 203c 2f65 7865             </exe
+-00000b50: 6375 7469 6f6e 733e 0d0a 2020 2020 2020  cutions>..      
+-00000b60: 2020 2020 2020 3c63 6f6e 6669 6775 7261        <configura
+-00000b70: 7469 6f6e 3e0d 0a20 2020 2020 2020 2020  tion>..         
+-00000b80: 2020 2020 203c 6661 696c 4f6e 4572 726f       <failOnErro
+-00000b90: 723e 6661 6c73 653c 2f66 6169 6c4f 6e45  r>false</failOnE
+-00000ba0: 7272 6f72 3e0d 0a20 2020 2020 2020 2020  rror>..         
+-00000bb0: 2020 2020 203c 736f 7572 6365 3e38 3c2f       <source>8</
+-00000bc0: 736f 7572 6365 3e0d 0a20 2020 2020 2020  source>..       
+-00000bd0: 2020 2020 2020 203c 6164 6469 7469 6f6e         <addition
+-00000be0: 616c 4f70 7469 6f6e 733e 247b 6a61 7661  alOptions>${java
+-00000bf0: 646f 632e 6f70 7473 7d3c 2f61 6464 6974  doc.opts}</addit
+-00000c00: 696f 6e61 6c4f 7074 696f 6e73 3e0d 0a20  ionalOptions>.. 
+-00000c10: 2020 2020 2020 2020 2020 2020 203c 646f               <do
+-00000c20: 636c 696e 743e 6e6f 6e65 3c2f 646f 636c  clint>none</docl
+-00000c30: 696e 743e 0d0a 2020 2020 2020 2020 2020  int>..          
+-00000c40: 2020 2020 3c61 7474 6163 683e 7472 7565      <attach>true
+-00000c50: 3c2f 6174 7461 6368 3e0d 0a20 2020 2020  </attach>..     
+-00000c60: 2020 2020 2020 2020 203c 7175 6965 743e           <quiet>
+-00000c70: 7472 7565 3c2f 7175 6965 743e 0d0a 2020  true</quiet>..  
+-00000c80: 2020 2020 2020 2020 2020 2020 3c62 6f74              <bot
+-00000c90: 746f 6d3e 4170 6163 6865 2043 616d 656c  tom>Apache Camel
+-00000ca0: 3c2f 626f 7474 6f6d 3e0d 0a20 2020 2020  </bottom>..     
+-00000cb0: 2020 2020 2020 2020 203c 6465 7465 6374           <detect
+-00000cc0: 4f66 666c 696e 654c 696e 6b73 3e66 616c  OfflineLinks>fal
+-00000cd0: 7365 3c2f 6465 7465 6374 4f66 666c 696e  se</detectOfflin
+-00000ce0: 654c 696e 6b73 3e0d 0a20 2020 2020 2020  eLinks>..       
+-00000cf0: 2020 2020 2020 203c 6a61 7661 646f 6356         <javadocV
+-00000d00: 6572 7369 6f6e 3e31 2e38 2e30 3c2f 6a61  ersion>1.8.0</ja
+-00000d10: 7661 646f 6356 6572 7369 6f6e 3e0d 0a20  vadocVersion>.. 
+-00000d20: 2020 2020 2020 2020 2020 2020 203c 656e               <en
+-00000d30: 636f 6469 6e67 3e55 5446 2d38 3c2f 656e  coding>UTF-8</en
+-00000d40: 636f 6469 6e67 3e0d 0a20 2020 2020 2020  coding>..       
+-00000d50: 2020 2020 2020 203c 6e6f 7469 6d65 7374         <notimest
+-00000d60: 616d 703e 7472 7565 3c2f 6e6f 7469 6d65  amp>true</notime
+-00000d70: 7374 616d 703e 0d0a 2020 2020 2020 2020  stamp>..        
+-00000d80: 2020 2020 3c2f 636f 6e66 6967 7572 6174      </configurat
+-00000d90: 696f 6e3e 0d0a 2020 2020 2020 2020 2020  ion>..          
+-00000da0: 3c2f 706c 7567 696e 3e0d 0a20 2020 2020  </plugin>..     
+-00000db0: 2020 203c 2f70 6c75 6769 6e73 3e0d 0a20     </plugins>.. 
+-00000dc0: 2020 2020 203c 2f62 7569 6c64 3e0d 0a20       </build>.. 
+-00000dd0: 2020 2020 203c 7072 6f70 6572 7469 6573       <properties
+-00000de0: 3e0d 0a20 2020 2020 2020 203c 6f73 2e64  >..        <os.d
+-00000df0: 6574 6563 7465 642e 6172 6368 3e78 3836  etected.arch>x86
+-00000e00: 5f36 343c 2f6f 732e 6465 7465 6374 6564  _64</os.detected
+-00000e10: 2e61 7263 683e 0d0a 2020 2020 2020 2020  .arch>..        
+-00000e20: 3c6f 732e 6465 7465 6374 6564 2e72 656c  <os.detected.rel
+-00000e30: 6561 7365 2e76 6572 7369 6f6e 3e32 302e  ease.version>20.
+-00000e40: 3034 3c2f 6f73 2e64 6574 6563 7465 642e  04</os.detected.
+-00000e50: 7265 6c65 6173 652e 7665 7273 696f 6e3e  release.version>
+-00000e60: 0d0a 2020 2020 2020 2020 3c6f 732e 6465  ..        <os.de
+-00000e70: 7465 6374 6564 2e72 656c 6561 7365 2e6c  tected.release.l
+-00000e80: 696b 652e 6465 6269 616e 3e74 7275 653c  ike.debian>true<
+-00000e90: 2f6f 732e 6465 7465 6374 6564 2e72 656c  /os.detected.rel
+-00000ea0: 6561 7365 2e6c 696b 652e 6465 6269 616e  ease.like.debian
+-00000eb0: 3e0d 0a20 2020 2020 2020 203c 6f73 2e64  >..        <os.d
+-00000ec0: 6574 6563 7465 642e 6269 746e 6573 733e  etected.bitness>
+-00000ed0: 3634 3c2f 6f73 2e64 6574 6563 7465 642e  64</os.detected.
+-00000ee0: 6269 746e 6573 733e 0d0a 2020 2020 2020  bitness>..      
+-00000ef0: 2020 3c6f 732e 6465 7465 6374 6564 2e6e    <os.detected.n
+-00000f00: 616d 653e 6c69 6e75 783c 2f6f 732e 6465  ame>linux</os.de
+-00000f10: 7465 6374 6564 2e6e 616d 653e 0d0a 2020  tected.name>..  
+-00000f20: 2020 2020 2020 3c6f 732e 6465 7465 6374        <os.detect
+-00000f30: 6564 2e72 656c 6561 7365 2e6c 696b 652e  ed.release.like.
+-00000f40: 7562 756e 7475 3e74 7275 653c 2f6f 732e  ubuntu>true</os.
+-00000f50: 6465 7465 6374 6564 2e72 656c 6561 7365  detected.release
+-00000f60: 2e6c 696b 652e 7562 756e 7475 3e0d 0a20  .like.ubuntu>.. 
+-00000f70: 2020 2020 2020 203c 6f73 2e64 6574 6563         <os.detec
+-00000f80: 7465 642e 636c 6173 7369 6669 6572 3e6c  ted.classifier>l
+-00000f90: 696e 7578 2d78 3836 5f36 343c 2f6f 732e  inux-x86_64</os.
+-00000fa0: 6465 7465 6374 6564 2e63 6c61 7373 6966  detected.classif
+-00000fb0: 6965 723e 0d0a 2020 2020 2020 2020 3c6f  ier>..        <o
+-00000fc0: 732e 6465 7465 6374 6564 2e72 656c 6561  s.detected.relea
+-00000fd0: 7365 3e75 6275 6e74 753c 2f6f 732e 6465  se>ubuntu</os.de
+-00000fe0: 7465 6374 6564 2e72 656c 6561 7365 3e0d  tected.release>.
+-00000ff0: 0a20 2020 2020 203c 2f70 726f 7065 7274  .      </propert
+-00001000: 6965 733e 0d0a 2020 2020 3c2f 7072 6f66  ies>..    </prof
+-00001010: 696c 653e 0d0a 2020 3c2f 7072 6f66 696c  ile>..  </profil
+-00001020: 6573 3e0d 0a20 203c 6465 7065 6e64 656e  es>..  <dependen
+-00001030: 6369 6573 3e0d 0a20 2020 203c 6465 7065  cies>..    <depe
+-00001040: 6e64 656e 6379 3e0d 0a20 2020 2020 203c  ndency>..      <
+-00001050: 6772 6f75 7049 643e 6a75 6e69 743c 2f67  groupId>junit</g
+-00001060: 726f 7570 4964 3e0d 0a20 2020 2020 203c  roupId>..      <
+-00001070: 6172 7469 6661 6374 4964 3e6a 756e 6974  artifactId>junit
+-00001080: 3c2f 6172 7469 6661 6374 4964 3e0d 0a20  </artifactId>.. 
+-00001090: 2020 2020 203c 7665 7273 696f 6e3e 342e       <version>4.
+-000010a0: 3133 2e32 3c2f 7665 7273 696f 6e3e 0d0a  13.2</version>..
+-000010b0: 2020 2020 2020 3c73 636f 7065 3e63 6f6d        <scope>com
+-000010c0: 7069 6c65 3c2f 7363 6f70 653e 0d0a 2020  pile</scope>..  
+-000010d0: 2020 3c2f 6465 7065 6e64 656e 6379 3e0d    </dependency>.
+-000010e0: 0a20 2020 203c 6465 7065 6e64 656e 6379  .    <dependency
+-000010f0: 3e0d 0a20 2020 2020 203c 6772 6f75 7049  >..      <groupI
+-00001100: 643e 6f72 672e 6861 6d63 7265 7374 3c2f  d>org.hamcrest</
+-00001110: 6772 6f75 7049 643e 0d0a 2020 2020 2020  groupId>..      
+-00001120: 3c61 7274 6966 6163 7449 643e 6861 6d63  <artifactId>hamc
+-00001130: 7265 7374 2d63 6f72 653c 2f61 7274 6966  rest-core</artif
+-00001140: 6163 7449 643e 0d0a 2020 2020 2020 3c76  actId>..      <v
+-00001150: 6572 7369 6f6e 3e31 2e33 3c2f 7665 7273  ersion>1.3</vers
+-00001160: 696f 6e3e 0d0a 2020 2020 2020 3c73 636f  ion>..      <sco
+-00001170: 7065 3e63 6f6d 7069 6c65 3c2f 7363 6f70  pe>compile</scop
+-00001180: 653e 0d0a 2020 2020 3c2f 6465 7065 6e64  e>..    </depend
+-00001190: 656e 6379 3e0d 0a20 2020 203c 6465 7065  ency>..    <depe
+-000011a0: 6e64 656e 6379 3e0d 0a20 2020 2020 203c  ndency>..      <
+-000011b0: 6772 6f75 7049 643e 636f 6d2e 7375 6e2e  groupId>com.sun.
+-000011c0: 6d61 696c 3c2f 6772 6f75 7049 643e 0d0a  mail</groupId>..
+-000011d0: 2020 2020 2020 3c61 7274 6966 6163 7449        <artifactI
+-000011e0: 643e 6a61 6b61 7274 612e 6d61 696c 3c2f  d>jakarta.mail</
+-000011f0: 6172 7469 6661 6374 4964 3e0d 0a20 2020  artifactId>..   
+-00001200: 2020 203c 7665 7273 696f 6e3e 312e 362e     <version>1.6.
+-00001210: 373c 2f76 6572 7369 6f6e 3e0d 0a20 2020  7</version>..   
+-00001220: 2020 203c 7363 6f70 653e 636f 6d70 696c     <scope>compil
+-00001230: 653c 2f73 636f 7065 3e0d 0a20 2020 203c  e</scope>..    <
+-00001240: 2f64 6570 656e 6465 6e63 793e 0d0a 2020  /dependency>..  
+-00001250: 2020 3c64 6570 656e 6465 6e63 793e 0d0a    <dependency>..
+-00001260: 2020 2020 2020 3c67 726f 7570 4964 3e63        <groupId>c
+-00001270: 6f6d 2e73 756e 2e61 6374 6976 6174 696f  om.sun.activatio
+-00001280: 6e3c 2f67 726f 7570 4964 3e0d 0a20 2020  n</groupId>..   
+-00001290: 2020 203c 6172 7469 6661 6374 4964 3e6a     <artifactId>j
+-000012a0: 616b 6172 7461 2e61 6374 6976 6174 696f  akarta.activatio
+-000012b0: 6e3c 2f61 7274 6966 6163 7449 643e 0d0a  n</artifactId>..
+-000012c0: 2020 2020 2020 3c76 6572 7369 6f6e 3e31        <version>1
+-000012d0: 2e32 2e31 3c2f 7665 7273 696f 6e3e 0d0a  .2.1</version>..
+-000012e0: 2020 2020 2020 3c73 636f 7065 3e63 6f6d        <scope>com
+-000012f0: 7069 6c65 3c2f 7363 6f70 653e 0d0a 2020  pile</scope>..  
+-00001300: 2020 3c2f 6465 7065 6e64 656e 6379 3e0d    </dependency>.
+-00001310: 0a20 203c 2f64 6570 656e 6465 6e63 6965  .  </dependencie
+-00001320: 733e 0d0a 2020 3c70 726f 7065 7274 6965  s>..  <propertie
+-00001330: 733e 0d0a 2020 2020 3c70 6b67 4772 6f75  s>..    <pkgGrou
+-00001340: 7049 643e 6f72 672e 6a76 6e65 742e 6d6f  pId>org.jvnet.mo
+-00001350: 636b 2d6a 6176 616d 6169 6c3c 2f70 6b67  ck-javamail</pkg
+-00001360: 4772 6f75 7049 643e 0d0a 2020 2020 3c63  GroupId>..    <c
+-00001370: 616d 656c 2e6f 7367 692e 7072 6976 6174  amel.osgi.privat
+-00001380: 652e 706b 673e 4d45 5441 2d49 4e46 3b2d  e.pkg>META-INF;-
+-00001390: 7370 6c69 742d 7061 636b 6167 653a 3d6d  split-package:=m
+-000013a0: 6572 6765 2d66 6972 7374 2c0d 0a20 2020  erge-first,..   
+-000013b0: 2020 2020 2020 2020 204d 4554 412d 494e           META-IN
+-000013c0: 462e 7365 7276 6963 6573 3b2d 7370 6c69  F.services;-spli
+-000013d0: 742d 7061 636b 6167 653a 3d6d 6572 6765  t-package:=merge
+-000013e0: 2d66 6972 7374 0d0a 2020 2020 2020 2020  -first..        
+-000013f0: 2020 2020 4d45 5441 2d49 4e46 2e6d 6176      META-INF.mav
+-00001400: 656e 2e6f 7267 2e61 7061 6368 652e 6361  en.org.apache.ca
+-00001410: 6d65 6c2e 7465 7374 732a 3b2d 7370 6c69  mel.tests*;-spli
+-00001420: 742d 7061 636b 6167 653a 3d6d 6572 6765  t-package:=merge
+-00001430: 2d66 6972 7374 3c2f 6361 6d65 6c2e 6f73  -first</camel.os
+-00001440: 6769 2e70 7269 7661 7465 2e70 6b67 3e0d  gi.private.pkg>.
+-00001450: 0a20 2020 203c 6361 6d65 6c2e 6f73 6769  .    <camel.osgi
+-00001460: 2e65 7870 6f72 742e 706b 673e 6f72 672e  .export.pkg>org.
+-00001470: 6a76 6e65 742e 6d6f 636b 5f6a 6176 616d  jvnet.mock_javam
+-00001480: 6169 6c2a 3c2f 6361 6d65 6c2e 6f73 6769  ail*</camel.osgi
+-00001490: 2e65 7870 6f72 742e 706b 673e 0d0a 2020  .export.pkg>..  
+-000014a0: 2020 3c70 6b67 4172 7469 6661 6374 4964    <pkgArtifactId
+-000014b0: 3e6d 6f63 6b2d 6a61 7661 6d61 696c 3c2f  >mock-javamail</
+-000014c0: 706b 6741 7274 6966 6163 7449 643e 0d0a  pkgArtifactId>..
+-000014d0: 2020 2020 3c73 6572 7669 6365 6d69 782e      <servicemix.
+-000014e0: 6c65 6761 6c2e 7665 7273 696f 6e3e 312e  legal.version>1.
+-000014f0: 303c 2f73 6572 7669 6365 6d69 782e 6c65  0</servicemix.le
+-00001500: 6761 6c2e 7665 7273 696f 6e3e 0d0a 2020  gal.version>..  
+-00001510: 2020 3c63 616d 656c 2e6f 7367 692e 696d    <camel.osgi.im
+-00001520: 706f 7274 2e70 6b67 3e2a 3c2f 6361 6d65  port.pkg>*</came
+-00001530: 6c2e 6f73 6769 2e69 6d70 6f72 742e 706b  l.osgi.import.pk
+-00001540: 673e 0d0a 2020 2020 3c63 616d 656c 2e6f  g>..    <camel.o
+-00001550: 7367 692e 6578 706f 7274 3e24 7b63 616d  sgi.export>${cam
+-00001560: 656c 2e6f 7367 692e 6578 706f 7274 2e70  el.osgi.export.p
+-00001570: 6b67 7d2a 3b76 6572 7369 6f6e 3d24 7b70  kg}*;version=${p
+-00001580: 6b67 5665 7273 696f 6e7d 3b2d 7370 6c69  kgVersion};-spli
+-00001590: 742d 7061 636b 6167 653a 3d6d 6572 6765  t-package:=merge
+-000015a0: 2d66 6972 7374 3c2f 6361 6d65 6c2e 6f73  -first</camel.os
+-000015b0: 6769 2e65 7870 6f72 743e 0d0a 2020 2020  gi.export>..    
+-000015c0: 3c70 6b67 5665 7273 696f 6e3e 312e 373c  <pkgVersion>1.7<
+-000015d0: 2f70 6b67 5665 7273 696f 6e3e 0d0a 2020  /pkgVersion>..  
+-000015e0: 3c2f 7072 6f70 6572 7469 6573 3e0d 0a3c  </properties>..<
+-000015f0: 2f70 726f 6a65 6374 3e0d 0a              /project>..
++00000910: 2020 2020 2020 2020 2020 3c61 7474 6163            <attac
++00000920: 683e 7472 7565 3c2f 6174 7461 6368 3e0d  h>true</attach>.
++00000930: 0a20 2020 2020 2020 2020 2020 2020 2020  .               
++00000940: 2020 203c 736f 7572 6365 3e31 313c 2f73     <source>11</s
++00000950: 6f75 7263 653e 0d0a 2020 2020 2020 2020  ource>..        
++00000960: 2020 2020 2020 2020 2020 3c71 7569 6574            <quiet
++00000970: 3e74 7275 653c 2f71 7569 6574 3e0d 0a20  >true</quiet>.. 
++00000980: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00000990: 203c 626f 7474 6f6d 3e41 7061 6368 6520   <bottom>Apache 
++000009a0: 4361 6d65 6c3c 2f62 6f74 746f 6d3e 0d0a  Camel</bottom>..
++000009b0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++000009c0: 2020 3c64 6574 6563 744f 6666 6c69 6e65    <detectOffline
++000009d0: 4c69 6e6b 733e 6661 6c73 653c 2f64 6574  Links>false</det
++000009e0: 6563 744f 6666 6c69 6e65 4c69 6e6b 733e  ectOfflineLinks>
++000009f0: 0d0a 2020 2020 2020 2020 2020 2020 2020  ..              
++00000a00: 2020 2020 3c6a 6176 6164 6f63 5665 7273      <javadocVers
++00000a10: 696f 6e3e 312e 382e 303c 2f6a 6176 6164  ion>1.8.0</javad
++00000a20: 6f63 5665 7273 696f 6e3e 0d0a 2020 2020  ocVersion>..    
++00000a30: 2020 2020 2020 2020 2020 2020 2020 3c65                <e
++00000a40: 6e63 6f64 696e 673e 5554 462d 383c 2f65  ncoding>UTF-8</e
++00000a50: 6e63 6f64 696e 673e 0d0a 2020 2020 2020  ncoding>..      
++00000a60: 2020 2020 2020 2020 2020 2020 3c6e 6f74              <not
++00000a70: 696d 6573 7461 6d70 3e74 7275 653c 2f6e  imestamp>true</n
++00000a80: 6f74 696d 6573 7461 6d70 3e0d 0a20 2020  otimestamp>..   
++00000a90: 2020 2020 2020 2020 2020 2020 203c 2f63               </c
++00000aa0: 6f6e 6669 6775 7261 7469 6f6e 3e0d 0a20  onfiguration>.. 
++00000ab0: 2020 2020 2020 2020 2020 2020 203c 2f65               </e
++00000ac0: 7865 6375 7469 6f6e 3e0d 0a20 2020 2020  xecution>..     
++00000ad0: 2020 2020 2020 203c 2f65 7865 6375 7469         </executi
++00000ae0: 6f6e 733e 0d0a 2020 2020 2020 2020 2020  ons>..          
++00000af0: 2020 3c63 6f6e 6669 6775 7261 7469 6f6e    <configuration
++00000b00: 3e0d 0a20 2020 2020 2020 2020 2020 2020  >..             
++00000b10: 203c 6661 696c 4f6e 4572 726f 723e 6661   <failOnError>fa
++00000b20: 6c73 653c 2f66 6169 6c4f 6e45 7272 6f72  lse</failOnError
++00000b30: 3e0d 0a20 2020 2020 2020 2020 2020 2020  >..             
++00000b40: 203c 6174 7461 6368 3e74 7275 653c 2f61   <attach>true</a
++00000b50: 7474 6163 683e 0d0a 2020 2020 2020 2020  ttach>..        
++00000b60: 2020 2020 2020 3c73 6f75 7263 653e 3131        <source>11
++00000b70: 3c2f 736f 7572 6365 3e0d 0a20 2020 2020  </source>..     
++00000b80: 2020 2020 2020 2020 203c 7175 6965 743e           <quiet>
++00000b90: 7472 7565 3c2f 7175 6965 743e 0d0a 2020  true</quiet>..  
++00000ba0: 2020 2020 2020 2020 2020 2020 3c62 6f74              <bot
++00000bb0: 746f 6d3e 4170 6163 6865 2043 616d 656c  tom>Apache Camel
++00000bc0: 3c2f 626f 7474 6f6d 3e0d 0a20 2020 2020  </bottom>..     
++00000bd0: 2020 2020 2020 2020 203c 6465 7465 6374           <detect
++00000be0: 4f66 666c 696e 654c 696e 6b73 3e66 616c  OfflineLinks>fal
++00000bf0: 7365 3c2f 6465 7465 6374 4f66 666c 696e  se</detectOfflin
++00000c00: 654c 696e 6b73 3e0d 0a20 2020 2020 2020  eLinks>..       
++00000c10: 2020 2020 2020 203c 6a61 7661 646f 6356         <javadocV
++00000c20: 6572 7369 6f6e 3e31 2e38 2e30 3c2f 6a61  ersion>1.8.0</ja
++00000c30: 7661 646f 6356 6572 7369 6f6e 3e0d 0a20  vadocVersion>.. 
++00000c40: 2020 2020 2020 2020 2020 2020 203c 656e               <en
++00000c50: 636f 6469 6e67 3e55 5446 2d38 3c2f 656e  coding>UTF-8</en
++00000c60: 636f 6469 6e67 3e0d 0a20 2020 2020 2020  coding>..       
++00000c70: 2020 2020 2020 203c 6e6f 7469 6d65 7374         <notimest
++00000c80: 616d 703e 7472 7565 3c2f 6e6f 7469 6d65  amp>true</notime
++00000c90: 7374 616d 703e 0d0a 2020 2020 2020 2020  stamp>..        
++00000ca0: 2020 2020 3c2f 636f 6e66 6967 7572 6174      </configurat
++00000cb0: 696f 6e3e 0d0a 2020 2020 2020 2020 2020  ion>..          
++00000cc0: 3c2f 706c 7567 696e 3e0d 0a20 2020 2020  </plugin>..     
++00000cd0: 2020 203c 2f70 6c75 6769 6e73 3e0d 0a20     </plugins>.. 
++00000ce0: 2020 2020 203c 2f62 7569 6c64 3e0d 0a20       </build>.. 
++00000cf0: 2020 2020 203c 7072 6f70 6572 7469 6573       <properties
++00000d00: 3e0d 0a20 2020 2020 2020 203c 6f73 2e64  >..        <os.d
++00000d10: 6574 6563 7465 642e 6172 6368 3e78 3836  etected.arch>x86
++00000d20: 5f36 343c 2f6f 732e 6465 7465 6374 6564  _64</os.detected
++00000d30: 2e61 7263 683e 0d0a 2020 2020 2020 2020  .arch>..        
++00000d40: 3c6f 732e 6465 7465 6374 6564 2e72 656c  <os.detected.rel
++00000d50: 6561 7365 2e76 6572 7369 6f6e 3e31 303c  ease.version>10<
++00000d60: 2f6f 732e 6465 7465 6374 6564 2e72 656c  /os.detected.rel
++00000d70: 6561 7365 2e76 6572 7369 6f6e 3e0d 0a20  ease.version>.. 
++00000d80: 2020 2020 2020 203c 6f73 2e64 6574 6563         <os.detec
++00000d90: 7465 642e 7265 6c65 6173 652e 6c69 6b65  ted.release.like
++00000da0: 2e64 6562 6961 6e3e 7472 7565 3c2f 6f73  .debian>true</os
++00000db0: 2e64 6574 6563 7465 642e 7265 6c65 6173  .detected.releas
++00000dc0: 652e 6c69 6b65 2e64 6562 6961 6e3e 0d0a  e.like.debian>..
++00000dd0: 2020 2020 2020 2020 3c6f 732e 6465 7465          <os.dete
++00000de0: 6374 6564 2e62 6974 6e65 7373 3e36 343c  cted.bitness>64<
++00000df0: 2f6f 732e 6465 7465 6374 6564 2e62 6974  /os.detected.bit
++00000e00: 6e65 7373 3e0d 0a20 2020 2020 2020 203c  ness>..        <
++00000e10: 6f73 2e64 6574 6563 7465 642e 6e61 6d65  os.detected.name
++00000e20: 3e6c 696e 7578 3c2f 6f73 2e64 6574 6563  >linux</os.detec
++00000e30: 7465 642e 6e61 6d65 3e0d 0a20 2020 2020  ted.name>..     
++00000e40: 2020 203c 6f73 2e64 6574 6563 7465 642e     <os.detected.
++00000e50: 636c 6173 7369 6669 6572 3e6c 696e 7578  classifier>linux
++00000e60: 2d78 3836 5f36 343c 2f6f 732e 6465 7465  -x86_64</os.dete
++00000e70: 6374 6564 2e63 6c61 7373 6966 6965 723e  cted.classifier>
++00000e80: 0d0a 2020 2020 2020 2020 3c6f 732e 6465  ..        <os.de
++00000e90: 7465 6374 6564 2e72 656c 6561 7365 3e64  tected.release>d
++00000ea0: 6562 6961 6e3c 2f6f 732e 6465 7465 6374  ebian</os.detect
++00000eb0: 6564 2e72 656c 6561 7365 3e0d 0a20 2020  ed.release>..   
++00000ec0: 2020 203c 2f70 726f 7065 7274 6965 733e     </properties>
++00000ed0: 0d0a 2020 2020 3c2f 7072 6f66 696c 653e  ..    </profile>
++00000ee0: 0d0a 2020 3c2f 7072 6f66 696c 6573 3e0d  ..  </profiles>.
++00000ef0: 0a20 203c 6465 7065 6e64 656e 6369 6573  .  <dependencies
++00000f00: 3e0d 0a20 2020 203c 6465 7065 6e64 656e  >..    <dependen
++00000f10: 6379 3e0d 0a20 2020 2020 203c 6772 6f75  cy>..      <grou
++00000f20: 7049 643e 6a75 6e69 743c 2f67 726f 7570  pId>junit</group
++00000f30: 4964 3e0d 0a20 2020 2020 203c 6172 7469  Id>..      <arti
++00000f40: 6661 6374 4964 3e6a 756e 6974 3c2f 6172  factId>junit</ar
++00000f50: 7469 6661 6374 4964 3e0d 0a20 2020 2020  tifactId>..     
++00000f60: 203c 7665 7273 696f 6e3e 342e 3133 2e32   <version>4.13.2
++00000f70: 3c2f 7665 7273 696f 6e3e 0d0a 2020 2020  </version>..    
++00000f80: 2020 3c73 636f 7065 3e63 6f6d 7069 6c65    <scope>compile
++00000f90: 3c2f 7363 6f70 653e 0d0a 2020 2020 3c2f  </scope>..    </
++00000fa0: 6465 7065 6e64 656e 6379 3e0d 0a20 2020  dependency>..   
++00000fb0: 203c 6465 7065 6e64 656e 6379 3e0d 0a20   <dependency>.. 
++00000fc0: 2020 2020 203c 6772 6f75 7049 643e 6f72       <groupId>or
++00000fd0: 672e 6861 6d63 7265 7374 3c2f 6772 6f75  g.hamcrest</grou
++00000fe0: 7049 643e 0d0a 2020 2020 2020 3c61 7274  pId>..      <art
++00000ff0: 6966 6163 7449 643e 6861 6d63 7265 7374  ifactId>hamcrest
++00001000: 2d63 6f72 653c 2f61 7274 6966 6163 7449  -core</artifactI
++00001010: 643e 0d0a 2020 2020 2020 3c76 6572 7369  d>..      <versi
++00001020: 6f6e 3e31 2e33 3c2f 7665 7273 696f 6e3e  on>1.3</version>
++00001030: 0d0a 2020 2020 2020 3c73 636f 7065 3e63  ..      <scope>c
++00001040: 6f6d 7069 6c65 3c2f 7363 6f70 653e 0d0a  ompile</scope>..
++00001050: 2020 2020 3c2f 6465 7065 6e64 656e 6379      </dependency
++00001060: 3e0d 0a20 2020 203c 6465 7065 6e64 656e  >..    <dependen
++00001070: 6379 3e0d 0a20 2020 2020 203c 6772 6f75  cy>..      <grou
++00001080: 7049 643e 636f 6d2e 7375 6e2e 6d61 696c  pId>com.sun.mail
++00001090: 3c2f 6772 6f75 7049 643e 0d0a 2020 2020  </groupId>..    
++000010a0: 2020 3c61 7274 6966 6163 7449 643e 6a61    <artifactId>ja
++000010b0: 6b61 7274 612e 6d61 696c 3c2f 6172 7469  karta.mail</arti
++000010c0: 6661 6374 4964 3e0d 0a20 2020 2020 203c  factId>..      <
++000010d0: 7665 7273 696f 6e3e 312e 362e 373c 2f76  version>1.6.7</v
++000010e0: 6572 7369 6f6e 3e0d 0a20 2020 2020 203c  ersion>..      <
++000010f0: 7363 6f70 653e 636f 6d70 696c 653c 2f73  scope>compile</s
++00001100: 636f 7065 3e0d 0a20 2020 203c 2f64 6570  cope>..    </dep
++00001110: 656e 6465 6e63 793e 0d0a 2020 2020 3c64  endency>..    <d
++00001120: 6570 656e 6465 6e63 793e 0d0a 2020 2020  ependency>..    
++00001130: 2020 3c67 726f 7570 4964 3e63 6f6d 2e73    <groupId>com.s
++00001140: 756e 2e61 6374 6976 6174 696f 6e3c 2f67  un.activation</g
++00001150: 726f 7570 4964 3e0d 0a20 2020 2020 203c  roupId>..      <
++00001160: 6172 7469 6661 6374 4964 3e6a 616b 6172  artifactId>jakar
++00001170: 7461 2e61 6374 6976 6174 696f 6e3c 2f61  ta.activation</a
++00001180: 7274 6966 6163 7449 643e 0d0a 2020 2020  rtifactId>..    
++00001190: 2020 3c76 6572 7369 6f6e 3e31 2e32 2e31    <version>1.2.1
++000011a0: 3c2f 7665 7273 696f 6e3e 0d0a 2020 2020  </version>..    
++000011b0: 2020 3c73 636f 7065 3e63 6f6d 7069 6c65    <scope>compile
++000011c0: 3c2f 7363 6f70 653e 0d0a 2020 2020 3c2f  </scope>..    </
++000011d0: 6465 7065 6e64 656e 6379 3e0d 0a20 203c  dependency>..  <
++000011e0: 2f64 6570 656e 6465 6e63 6965 733e 0d0a  /dependencies>..
++000011f0: 2020 3c70 726f 7065 7274 6965 733e 0d0a    <properties>..
++00001200: 2020 2020 3c70 6b67 4772 6f75 7049 643e      <pkgGroupId>
++00001210: 6f72 672e 6a76 6e65 742e 6d6f 636b 2d6a  org.jvnet.mock-j
++00001220: 6176 616d 6169 6c3c 2f70 6b67 4772 6f75  avamail</pkgGrou
++00001230: 7049 643e 0d0a 2020 2020 3c63 616d 656c  pId>..    <camel
++00001240: 2e6f 7367 692e 7072 6976 6174 652e 706b  .osgi.private.pk
++00001250: 673e 4d45 5441 2d49 4e46 3b2d 7370 6c69  g>META-INF;-spli
++00001260: 742d 7061 636b 6167 653a 3d6d 6572 6765  t-package:=merge
++00001270: 2d66 6972 7374 2c0d 0a20 2020 2020 2020  -first,..       
++00001280: 2020 2020 204d 4554 412d 494e 462e 7365       META-INF.se
++00001290: 7276 6963 6573 3b2d 7370 6c69 742d 7061  rvices;-split-pa
++000012a0: 636b 6167 653a 3d6d 6572 6765 2d66 6972  ckage:=merge-fir
++000012b0: 7374 0d0a 2020 2020 2020 2020 2020 2020  st..            
++000012c0: 4d45 5441 2d49 4e46 2e6d 6176 656e 2e6f  META-INF.maven.o
++000012d0: 7267 2e61 7061 6368 652e 6361 6d65 6c2e  rg.apache.camel.
++000012e0: 7465 7374 732a 3b2d 7370 6c69 742d 7061  tests*;-split-pa
++000012f0: 636b 6167 653a 3d6d 6572 6765 2d66 6972  ckage:=merge-fir
++00001300: 7374 3c2f 6361 6d65 6c2e 6f73 6769 2e70  st</camel.osgi.p
++00001310: 7269 7661 7465 2e70 6b67 3e0d 0a20 2020  rivate.pkg>..   
++00001320: 203c 6361 6d65 6c2e 6f73 6769 2e65 7870   <camel.osgi.exp
++00001330: 6f72 742e 706b 673e 6f72 672e 6a76 6e65  ort.pkg>org.jvne
++00001340: 742e 6d6f 636b 5f6a 6176 616d 6169 6c2a  t.mock_javamail*
++00001350: 3c2f 6361 6d65 6c2e 6f73 6769 2e65 7870  </camel.osgi.exp
++00001360: 6f72 742e 706b 673e 0d0a 2020 2020 3c70  ort.pkg>..    <p
++00001370: 6b67 4172 7469 6661 6374 4964 3e6d 6f63  kgArtifactId>moc
++00001380: 6b2d 6a61 7661 6d61 696c 3c2f 706b 6741  k-javamail</pkgA
++00001390: 7274 6966 6163 7449 643e 0d0a 2020 2020  rtifactId>..    
++000013a0: 3c73 6572 7669 6365 6d69 782e 6c65 6761  <servicemix.lega
++000013b0: 6c2e 7665 7273 696f 6e3e 312e 303c 2f73  l.version>1.0</s
++000013c0: 6572 7669 6365 6d69 782e 6c65 6761 6c2e  ervicemix.legal.
++000013d0: 7665 7273 696f 6e3e 0d0a 2020 2020 3c63  version>..    <c
++000013e0: 616d 656c 2e6f 7367 692e 696d 706f 7274  amel.osgi.import
++000013f0: 2e70 6b67 3e2a 3c2f 6361 6d65 6c2e 6f73  .pkg>*</camel.os
++00001400: 6769 2e69 6d70 6f72 742e 706b 673e 0d0a  gi.import.pkg>..
++00001410: 2020 2020 3c63 616d 656c 2e6f 7367 692e      <camel.osgi.
++00001420: 6578 706f 7274 3e24 7b63 616d 656c 2e6f  export>${camel.o
++00001430: 7367 692e 6578 706f 7274 2e70 6b67 7d2a  sgi.export.pkg}*
++00001440: 3b76 6572 7369 6f6e 3d24 7b70 6b67 5665  ;version=${pkgVe
++00001450: 7273 696f 6e7d 3b2d 7370 6c69 742d 7061  rsion};-split-pa
++00001460: 636b 6167 653a 3d6d 6572 6765 2d66 6972  ckage:=merge-fir
++00001470: 7374 3c2f 6361 6d65 6c2e 6f73 6769 2e65  st</camel.osgi.e
++00001480: 7870 6f72 743e 0d0a 2020 2020 3c70 6b67  xport>..    <pkg
++00001490: 5665 7273 696f 6e3e 312e 373c 2f70 6b67  Version>1.7</pkg
++000014a0: 5665 7273 696f 6e3e 0d0a 2020 3c2f 7072  Version>..  </pr
++000014b0: 6f70 6572 7469 6573 3e0d 0a3c 2f70 726f  operties>..</pro
++000014c0: 6a65 6374 3e0d 0a                        ject>..
+
+647 / 660 target/reference/org.apache.camel.tests.mock-javamail_1.7-3.17.0.jar tests/test-bundles/mock-javamail_1.7/target/org.apache.camel.tests.mock-javamail_1.7-3.17.0.jar
+--- target/reference/org.apache.camel.tests.mock-javamail_1.7-3.17.0.jar
++++ tests/test-bundles/mock-javamail_1.7/target/org.apache.camel.tests.mock-javamail_1.7-3.17.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 19604 bytes, number of entries: 26
+│ +Zip file size: 19605 bytes, number of entries: 26
+│  -rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 META-INF/
+│  -rw----     2.0 fat     1116 bX defN 79-Nov-30 04:08 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     1493 bX defN 79-Nov-30 04:08 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bX defN 79-Nov-30 04:08 META-INF/LICENSE
+│  -rw----     2.0 fat    11359 bX defN 79-Nov-30 04:08 META-INF/LICENSE.txt
+│  -rw----     2.0 fat      169 bX defN 79-Nov-30 04:08 META-INF/NOTICE
+│  -rw----     2.0 fat      596 bX defN 79-Nov-30 04:08 META-INF/NOTICE.txt
+│ @@ -21,8 +21,8 @@
+│  -rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 org/
+│  -rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 org/jvnet/
+│  -rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 org/jvnet/mock_javamail/
+│  -rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 org/jvnet/mock_javamail/provider/
+│  -rw----     2.0 fat      654 bX defN 79-Nov-30 04:08 org/jvnet/mock_javamail/provider/IMAPProvider.class
+│  -rw----     2.0 fat      654 bX defN 79-Nov-30 04:08 org/jvnet/mock_javamail/provider/POP3Provider.class
+│  -rw----     2.0 fat      662 bX defN 79-Nov-30 04:08 org/jvnet/mock_javamail/provider/SMTPProvider.class
+│ -26 files, 37536 bytes uncompressed, 14954 bytes compressed:  60.2%
+│ +26 files, 37536 bytes uncompressed, 14955 bytes compressed:  60.2%
+├── META-INF/MANIFEST.MF
+│ @@ -5,15 +5,15 @@
+│   vamail-1.7
+
+│  Specification-Version: 3.17
+
+│  Specification-Vendor: The Apache Software Foundation
+
+│  Implementation-Title: Camel :: Integration Tests :: Test Bundles: mock-j
+
+│   avamail-1.7
+
+│  Implementation-Version: 3.17.0
+
+│  Implementation-Vendor: The Apache Software Foundation
+
+│ -Bnd-LastModified: 1652617554580
+
+│ +Bnd-LastModified: 1653032580945
+
+│  Bundle-Description: This bundle simply wraps mock-javamail-1.7.jar.
+
+│  Bundle-DocURL: https://www.apache.org/
+
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+
+│  Bundle-ManifestVersion: 2
+
+│  Bundle-Name: Camel :: Integration Tests :: Test Bundles: mock-javamail-1
+
+│   .7
+
+│  Bundle-SymbolicName: org.apache.camel.tests.mock-javamail_1.7
+├── META-INF/maven/org.apache.camel.tests/org.apache.camel.tests.mock-javamail_1.7/pom.xml
+│ ├── META-INF/maven/org.apache.camel.tests/org.apache.camel.tests.mock-javamail_1.7/pom.xml
+│ │ @@ -52,16 +52,16 @@
+│ │      <dependency>
+│ │        <groupId>org.jvnet.mock-javamail</groupId>
+│ │        <artifactId>mock-javamail</artifactId>
+│ │        <version>1.7</version>
+│ │        <scope>compile</scope>
+│ │        <exclusions>
+│ │          <exclusion>
+│ │ -          <groupId>javax.mail</groupId>
+│ │            <artifactId>mail</artifactId>
+│ │ +          <groupId>javax.mail</groupId>
+│ │          </exclusion>
+│ │        </exclusions>
+│ │      </dependency>
+│ │      <dependency>
+│ │        <groupId>com.sun.mail</groupId>
+│ │        <artifactId>jakarta.mail</artifactId>
+│ │        <version>1.6.7</version>
+
+
+660 / 660 target/reference/apache-camel-3.17.0-src.zip apache-camel/target/apache-camel-3.17.0-src.zip
+--- target/reference/apache-camel-3.17.0-src.zip
++++ apache-camel/target/apache-camel-3.17.0-src.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 65568140 bytes, number of entries: 51041
+│ +Zip file size: 65568084 bytes, number of entries: 51041
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 apache-camel-3.17.0/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 apache-camel-3.17.0/apache-camel/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 apache-camel-3.17.0/apache-camel/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 apache-camel-3.17.0/apache-camel/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 apache-camel-3.17.0/apache-camel/src/main/descriptors/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 apache-camel-3.17.0/apache-camel/src/main/release/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 apache-camel-3.17.0/apache-camel/src/main/resources/
+│ @@ -20702,15 +20702,15 @@
+│  -rw-r--r--  2.0 unx      367 b- defN 80-000-00 04:08 apache-camel-3.17.0/catalog/camel-catalog/src/generated/resources/org/apache/camel/catalog/others/tracing.json
+│  -rw-r--r--  2.0 unx      374 b- defN 80-000-00 04:08 apache-camel-3.17.0/catalog/camel-catalog/src/generated/resources/org/apache/camel/catalog/others/uberjar-main.json
+│  -rw-r--r--  2.0 unx      409 b- defN 80-000-00 04:08 apache-camel-3.17.0/catalog/camel-catalog/src/generated/resources/org/apache/camel/catalog/others/undertow-spring-security.json
+│  -rw-r--r--  2.0 unx      347 b- defN 80-000-00 04:08 apache-camel-3.17.0/catalog/camel-catalog/src/generated/resources/org/apache/camel/catalog/others/xml-io-dsl.json
+│  -rw-r--r--  2.0 unx      362 b- defN 80-000-00 04:08 apache-camel-3.17.0/catalog/camel-catalog/src/generated/resources/org/apache/camel/catalog/others/xml-jaxb-dsl.json
+│  -rw-r--r--  2.0 unx      368 b- defN 80-000-00 04:08 apache-camel-3.17.0/catalog/camel-catalog/src/generated/resources/org/apache/camel/catalog/others/zipkin.json
+│  -rw-r--r--  2.0 unx      737 b- defN 80-000-00 04:08 apache-camel-3.17.0/catalog/camel-catalog/src/generated/resources/org/apache/camel/catalog/others.properties
+│ --rw-r--r--  2.0 unx   645732 b- defN 80-000-00 04:08 apache-camel-3.17.0/catalog/camel-catalog/src/generated/resources/org/apache/camel/catalog/schemas/camel-spring.xsd
+│ +-rw-r--r--  2.0 unx   645731 b- defN 80-000-00 04:08 apache-camel-3.17.0/catalog/camel-catalog/src/generated/resources/org/apache/camel/catalog/schemas/camel-spring.xsd
+│  -rw-r--r--  2.0 unx    19611 b- defN 80-000-00 04:08 apache-camel-3.17.0/catalog/camel-catalog/src/main/java/org/apache/camel/catalog/CamelCatalog.java
+│  -rw-r--r--  2.0 unx     6043 b- defN 80-000-00 04:08 apache-camel-3.17.0/catalog/camel-catalog/src/main/java/org/apache/camel/catalog/CamelCatalogJSonSchemaResolver.java
+│  -rw-r--r--  2.0 unx    18585 b- defN 80-000-00 04:08 apache-camel-3.17.0/catalog/camel-catalog/src/main/java/org/apache/camel/catalog/DefaultCamelCatalog.java
+│  -rw-r--r--  2.0 unx     5375 b- defN 80-000-00 04:08 apache-camel-3.17.0/catalog/camel-catalog/src/main/java/org/apache/camel/catalog/DefaultRuntimeProvider.java
+│  -rw-r--r--  2.0 unx     1771 b- defN 80-000-00 04:08 apache-camel-3.17.0/catalog/camel-catalog/src/main/java/org/apache/camel/catalog/DefaultVersionManager.java
+│  -rw-r--r--  2.0 unx     1002 b- defN 80-000-00 04:08 apache-camel-3.17.0/catalog/camel-catalog/src/main/java/org/apache/camel/catalog/Kind.java
+│  -rw-r--r--  2.0 unx     2979 b- defN 80-000-00 04:08 apache-camel-3.17.0/catalog/camel-catalog/src/main/java/org/apache/camel/catalog/RuntimeProvider.java
+│ @@ -50527,15 +50527,15 @@
+│  -rw-r--r--  2.0 unx     2094 b- defN 80-000-00 04:08 apache-camel-3.17.0/tests/test-bundles/camel-validator-test-resources/pom.xml
+│  -rw-r--r--  2.0 unx     1316 b- defN 80-000-00 04:08 apache-camel-3.17.0/tests/test-bundles/camel-validator-test-resources/src/main/resources/org/apache/camel/component/validator/dotslash/child.xsd
+│  -rw-r--r--  2.0 unx     1275 b- defN 80-000-00 04:08 apache-camel-3.17.0/tests/test-bundles/camel-validator-test-resources/src/main/resources/org/apache/camel/component/validator/dotslash/parent.xsd
+│  -rw-r--r--  2.0 unx     1317 b- defN 80-000-00 04:08 apache-camel-3.17.0/tests/test-bundles/camel-validator-test-resources/src/main/resources/org/apache/camel/component/validator/doubleslash/child.xsd
+│  -rw-r--r--  2.0 unx     1275 b- defN 80-000-00 04:08 apache-camel-3.17.0/tests/test-bundles/camel-validator-test-resources/src/main/resources/org/apache/camel/component/validator/doubleslash/parent.xsd
+│  -rw-r--r--  2.0 unx     1317 b- defN 80-000-00 04:08 apache-camel-3.17.0/tests/test-bundles/camel-validator-test-resources/src/main/resources/org/apache/camel/component/validator/relativeparent/child/child.xsd
+│  -rw-r--r--  2.0 unx     1275 b- defN 80-000-00 04:08 apache-camel-3.17.0/tests/test-bundles/camel-validator-test-resources/src/main/resources/org/apache/camel/component/validator/relativeparent/parent.xsd
+│ --rw-r--r--  2.0 unx     5627 b- defN 80-000-00 04:08 apache-camel-3.17.0/tests/test-bundles/mock-javamail_1.7/dependency-reduced-pom.xml
+│ +-rw-r--r--  2.0 unx     5319 b- defN 80-000-00 04:08 apache-camel-3.17.0/tests/test-bundles/mock-javamail_1.7/dependency-reduced-pom.xml
+│  -rw-r--r--  2.0 unx     5184 b- defN 80-000-00 04:08 apache-camel-3.17.0/tests/test-bundles/mock-javamail_1.7/pom.xml
+│  -rw-r--r--  2.0 unx     1123 b- defN 80-000-00 04:08 apache-camel-3.17.0/tests/test-bundles/mock-javamail_1.7/src/main/java/org/jvnet/mock_javamail/provider/IMAPProvider.java
+│  -rw-r--r--  2.0 unx     1123 b- defN 80-000-00 04:08 apache-camel-3.17.0/tests/test-bundles/mock-javamail_1.7/src/main/java/org/jvnet/mock_javamail/provider/POP3Provider.java
+│  -rw-r--r--  2.0 unx     1130 b- defN 80-000-00 04:08 apache-camel-3.17.0/tests/test-bundles/mock-javamail_1.7/src/main/java/org/jvnet/mock_javamail/provider/SMTPProvider.java
+│  -rw-r--r--  2.0 unx    11359 b- defN 80-000-00 04:08 apache-camel-3.17.0/tests/test-bundles/mock-javamail_1.7/src/main/resources/META-INF/LICENSE.txt
+│  -rw-r--r--  2.0 unx      596 b- defN 80-000-00 04:08 apache-camel-3.17.0/tests/test-bundles/mock-javamail_1.7/src/main/resources/META-INF/NOTICE.txt
+│  -rw-r--r--  2.0 unx     1136 b- defN 80-000-00 04:08 apache-camel-3.17.0/tests/test-bundles/mock-javamail_1.7/src/main/resources/META-INF/javamail.default.providers
+│ @@ -51036,8 +51036,8 @@
+│  -rw-r--r--  2.0 unx     2332 b- defN 80-000-00 04:08 apache-camel-3.17.0/tooling/swagger-rest-dsl-generator/src/test/resources/MyRestRouteFilter.txt
+│  -rw-r--r--  2.0 unx     1012 b- defN 80-000-00 04:08 apache-camel-3.17.0/tooling/swagger-rest-dsl-generator/src/test/resources/SpringBootRestController.txt
+│  -rw-r--r--  2.0 unx    12321 b- defN 80-000-00 04:08 apache-camel-3.17.0/tooling/swagger-rest-dsl-generator/src/test/resources/SwaggerPetstore.txt
+│  -rw-r--r--  2.0 unx    12390 b- defN 80-000-00 04:08 apache-camel-3.17.0/tooling/swagger-rest-dsl-generator/src/test/resources/SwaggerPetstoreWithRestComponent.txt
+│  -rw-r--r--  2.0 unx     7699 b- defN 80-000-00 04:08 apache-camel-3.17.0/tooling/swagger-rest-dsl-generator/src/test/resources/SwaggerPetstoreWithRestComponentXml.txt
+│  -rw-r--r--  2.0 unx     7635 b- defN 80-000-00 04:08 apache-camel-3.17.0/tooling/swagger-rest-dsl-generator/src/test/resources/SwaggerPetstoreXml.txt
+│  -rw-r--r--  2.0 unx     1411 b- defN 80-000-00 04:08 apache-camel-3.17.0/tooling/swagger-rest-dsl-generator/src/test/resources/log4j2.properties
+│ -51041 files, 176965767 bytes uncompressed, 50804040 bytes compressed:  71.3%
+│ +51041 files, 176965458 bytes uncompressed, 50803984 bytes compressed:  71.3%
+├── apache-camel-3.17.0/catalog/camel-catalog/src/generated/resources/org/apache/camel/catalog/schemas/camel-spring.xsd
+│ @@ -388,15 +388,15 @@
+│        ]]></xs:documentation>
+│      </xs:annotation>
+│    </xs:element>
+│  
+│    <xs:element name="errorHandler" nillable="true" type="xs:anyType">
+│      <xs:annotation>
+│        <xs:documentation xml:lang="en"><![CDATA[
+│ -Error handler settings
+│ +Camel error handling.
+│        ]]></xs:documentation>
+│      </xs:annotation>
+│    </xs:element>
+│  
+│    <xs:element name="errorHandlerRef" type="tns:errorHandlerRefDefinition">
+│      <xs:annotation>
+│        <xs:documentation xml:lang="en"><![CDATA[
+├── apache-camel-3.17.0/tests/test-bundles/mock-javamail_1.7/dependency-reduced-pom.xml
+│ ├── apache-camel-3.17.0/tests/test-bundles/mock-javamail_1.7/dependency-reduced-pom.xml
+│ │ @@ -55,52 +55,47 @@
+│ │                <execution>
+│ │                  <id>attach-javadocs</id>
+│ │                  <goals>
+│ │                    <goal>jar</goal>
+│ │                  </goals>
+│ │                  <configuration>
+│ │                    <failOnError>false</failOnError>
+│ │ -                  <source>8</source>
+│ │ -                  <additionalOptions>${javadoc.opts}</additionalOptions>
+│ │ -                  <doclint>none</doclint>
+│ │                    <attach>true</attach>
+│ │ +                  <source>11</source>
+│ │                    <quiet>true</quiet>
+│ │                    <bottom>Apache Camel</bottom>
+│ │                    <detectOfflineLinks>false</detectOfflineLinks>
+│ │                    <javadocVersion>1.8.0</javadocVersion>
+│ │                    <encoding>UTF-8</encoding>
+│ │                    <notimestamp>true</notimestamp>
+│ │                  </configuration>
+│ │                </execution>
+│ │              </executions>
+│ │              <configuration>
+│ │                <failOnError>false</failOnError>
+│ │ -              <source>8</source>
+│ │ -              <additionalOptions>${javadoc.opts}</additionalOptions>
+│ │ -              <doclint>none</doclint>
+│ │                <attach>true</attach>
+│ │ +              <source>11</source>
+│ │                <quiet>true</quiet>
+│ │                <bottom>Apache Camel</bottom>
+│ │                <detectOfflineLinks>false</detectOfflineLinks>
+│ │                <javadocVersion>1.8.0</javadocVersion>
+│ │                <encoding>UTF-8</encoding>
+│ │                <notimestamp>true</notimestamp>
+│ │              </configuration>
+│ │            </plugin>
+│ │          </plugins>
+│ │        </build>
+│ │        <properties>
+│ │          <os.detected.arch>x86_64</os.detected.arch>
+│ │ -        <os.detected.release.version>20.04</os.detected.release.version>
+│ │ +        <os.detected.release.version>10</os.detected.release.version>
+│ │          <os.detected.release.like.debian>true</os.detected.release.like.debian>
+│ │          <os.detected.bitness>64</os.detected.bitness>
+│ │          <os.detected.name>linux</os.detected.name>
+│ │ -        <os.detected.release.like.ubuntu>true</os.detected.release.like.ubuntu>
+│ │          <os.detected.classifier>linux-x86_64</os.detected.classifier>
+│ │ -        <os.detected.release>ubuntu</os.detected.release>
+│ │ +        <os.detected.release>debian</os.detected.release>
+│ │        </properties>
+│ │      </profile>
+│ │    </profiles>
+│ │    <dependencies>
+│ │      <dependency>
+│ │        <groupId>junit</groupId>
+│ │        <artifactId>junit</artifactId>
