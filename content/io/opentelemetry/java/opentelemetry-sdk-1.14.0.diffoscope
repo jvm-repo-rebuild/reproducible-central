@@ -1,0 +1,85 @@
+129 / 129 repository/io/opentelemetry/opentelemetry-semconv/1.14.0-alpha/opentelemetry-semconv-1.14.0-alpha-sources.jar central/io/opentelemetry/opentelemetry-semconv/1.14.0-alpha/opentelemetry-semconv-1.14.0-alpha-sources.jar
+--- repository/io/opentelemetry/opentelemetry-semconv/1.14.0-alpha/opentelemetry-semconv-1.14.0-alpha-sources.jar
++++ central/io/opentelemetry/opentelemetry-semconv/1.14.0-alpha/opentelemetry-semconv-1.14.0-alpha-sources.jar
+├── zipinfo {}
+│ @@ -1,15 +1,15 @@
+│ -Zip file size: 22848 bytes, number of entries: 13
+│ -drwxr-xr-x  2.0 unx        0 b- defN 22-May-20 17:33 META-INF/
+│ --rw-r--r--  2.0 unx      178 b- defN 22-May-20 17:33 META-INF/MANIFEST.MF
+│ -drwxrwxr-x  2.0 unx        0 b- defN 22-May-20 17:30 io/
+│ -drwxrwxr-x  2.0 unx        0 b- defN 22-May-20 17:30 io/opentelemetry/
+│ -drwxrwxr-x  2.0 unx        0 b- defN 22-May-20 17:30 io/opentelemetry/semconv/
+│ -drwxrwxr-x  2.0 unx        0 b- defN 22-May-20 17:30 io/opentelemetry/semconv/resource/
+│ -drwxrwxr-x  2.0 unx        0 b- defN 22-May-20 17:30 io/opentelemetry/semconv/resource/attributes/
+│ --rw-rw-r--  2.0 unx    30253 b- defN 22-May-20 17:30 io/opentelemetry/semconv/resource/attributes/ResourceAttributes.java
+│ --rw-rw-r--  2.0 unx      362 b- defN 22-May-20 17:30 io/opentelemetry/semconv/resource/attributes/package-info.java
+│ -drwxrwxr-x  2.0 unx        0 b- defN 22-May-20 17:30 io/opentelemetry/semconv/trace/
+│ -drwxrwxr-x  2.0 unx        0 b- defN 22-May-20 17:30 io/opentelemetry/semconv/trace/attributes/
+│ --rw-rw-r--  2.0 unx    52349 b- defN 22-May-20 17:30 io/opentelemetry/semconv/trace/attributes/SemanticAttributes.java
+│ --rw-rw-r--  2.0 unx      353 b- defN 22-May-20 17:30 io/opentelemetry/semconv/trace/attributes/package-info.java
+│ -13 files, 83495 bytes uncompressed, 20878 bytes compressed:  75.0%
+│ +Zip file size: 22850 bytes, number of entries: 13
+│ +drwxr-xr-x  2.0 unx        0 b- defN 22-May-09 17:42 META-INF/
+│ +-rw-r--r--  2.0 unx      180 b- defN 22-May-09 17:42 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- defN 22-May-09 17:41 io/
+│ +drwxr-xr-x  2.0 unx        0 b- defN 22-May-09 17:41 io/opentelemetry/
+│ +drwxr-xr-x  2.0 unx        0 b- defN 22-May-09 17:41 io/opentelemetry/semconv/
+│ +drwxr-xr-x  2.0 unx        0 b- defN 22-May-09 17:41 io/opentelemetry/semconv/resource/
+│ +drwxr-xr-x  2.0 unx        0 b- defN 22-May-09 17:41 io/opentelemetry/semconv/resource/attributes/
+│ +-rw-r--r--  2.0 unx      362 b- defN 22-May-09 17:41 io/opentelemetry/semconv/resource/attributes/package-info.java
+│ +-rw-r--r--  2.0 unx    30253 b- defN 22-May-09 17:41 io/opentelemetry/semconv/resource/attributes/ResourceAttributes.java
+│ +drwxr-xr-x  2.0 unx        0 b- defN 22-May-09 17:41 io/opentelemetry/semconv/trace/
+│ +drwxr-xr-x  2.0 unx        0 b- defN 22-May-09 17:41 io/opentelemetry/semconv/trace/attributes/
+│ +-rw-r--r--  2.0 unx      353 b- defN 22-May-09 17:41 io/opentelemetry/semconv/trace/attributes/package-info.java
+│ +-rw-r--r--  2.0 unx    52349 b- defN 22-May-09 17:41 io/opentelemetry/semconv/trace/attributes/SemanticAttributes.java
+│ +13 files, 83497 bytes uncompressed, 20880 bytes compressed:  75.0%
+├── zipnote «TEMP»/diffoscope_fgiutkaq_1140alpha/tmp_ir6qsby.zip
+│ @@ -15,26 +15,26 @@
+│  
+│  Filename: io/opentelemetry/semconv/resource/
+│  Comment: 
+│  
+│  Filename: io/opentelemetry/semconv/resource/attributes/
+│  Comment: 
+│  
+│ -Filename: io/opentelemetry/semconv/resource/attributes/ResourceAttributes.java
+│ +Filename: io/opentelemetry/semconv/resource/attributes/package-info.java
+│  Comment: 
+│  
+│ -Filename: io/opentelemetry/semconv/resource/attributes/package-info.java
+│ +Filename: io/opentelemetry/semconv/resource/attributes/ResourceAttributes.java
+│  Comment: 
+│  
+│  Filename: io/opentelemetry/semconv/trace/
+│  Comment: 
+│  
+│  Filename: io/opentelemetry/semconv/trace/attributes/
+│  Comment: 
+│  
+│ -Filename: io/opentelemetry/semconv/trace/attributes/SemanticAttributes.java
+│ +Filename: io/opentelemetry/semconv/trace/attributes/package-info.java
+│  Comment: 
+│  
+│ -Filename: io/opentelemetry/semconv/trace/attributes/package-info.java
+│ +Filename: io/opentelemetry/semconv/trace/attributes/SemanticAttributes.java
+│  Comment: 
+│  
+│  Zip file comment:
+├── META-INF/MANIFEST.MF
+│ @@ -1,7 +1,7 @@
+│  Manifest-Version: 1.0
+
+│  Automatic-Module-Name: io.opentelemetry.semconv
+
+│ -Built-By: ?
+
+│ -Built-JDK: 11.0.14.1
+
+│ +Built-By: runner
+
+│ +Built-JDK: 17.0.3
+
+│  Implementation-Title: semconv
+
+│  Implementation-Version: 1.14.0-alpha
+
