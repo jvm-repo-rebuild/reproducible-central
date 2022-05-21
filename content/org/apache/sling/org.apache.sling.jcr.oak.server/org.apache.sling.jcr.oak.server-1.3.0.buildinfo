@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling JCR Oak Server
+group-id=org.apache.sling
+artifact-id=org.apache.sling.jcr.oak.server
+version=1.3.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-jcr-oak-server.git
+source.scm.tag=org.apache.sling.jcr.oak.server-1.3.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.jcr.oak.server-1.3.0.pom
+outputs.0.length=8604
+outputs.0.checksums.sha512=19c4d854e77acd9a28c890c418c1ebeb9d2ac1f17494edcb1802ae65b7dabb348a8164d58ab351418e6bb9f9a61cf60d40a016f985ed4910469b7eec10c1e306
+
+outputs.1.filename=org.apache.sling.jcr.oak.server-1.3.0.jar
+outputs.1.length=34948
+outputs.1.checksums.sha512=e091c54fab90a3e39395076af0c68fa65a52293ab2552852a9bdebcf751fd568a06c7dfa2293c72006df645a62f003922fbf70320751c20fa4cb680ce84a6c5d
+
+outputs.2.filename=org.apache.sling.jcr.oak.server-1.3.0-source-release.zip
+outputs.2.length=45063
+outputs.2.checksums.sha512=6fae66a4d72337c723a7e36c576a9645af9590025c8454de5cab4e89e29dd5bb0ab7c4b183f0a8a2f92bfe26a574fd0a3aed54401394b0016360db9212a3523b
+
+outputs.3.filename=org.apache.sling.jcr.oak.server-1.3.0-sources.jar
+outputs.3.length=20674
+outputs.3.checksums.sha512=e9736ff31830710d8e7c050ae997c868a3d9e680f80775c44301aee426bea92f7d18f47ffef52612022ed0a10b3ee7a70746d7502bc70a0b22e818387d9ade37
+
+outputs.4.filename=org.apache.sling.jcr.oak.server-1.3.0-sources.jar
+outputs.4.length=20674
+outputs.4.checksums.sha512=e9736ff31830710d8e7c050ae997c868a3d9e680f80775c44301aee426bea92f7d18f47ffef52612022ed0a10b3ee7a70746d7502bc70a0b22e818387d9ade37

@@ -1,0 +1,8 @@
+version=1.3.0
+ok=3
+ko=1
+okFiles="org.apache.sling.jcr.oak.server-1.3.0.pom org.apache.sling.jcr.oak.server-1.3.0-source-release.zip org.apache.sling.jcr.oak.server-1.3.0-sources.jar"
+koFiles="org.apache.sling.jcr.oak.server-1.3.0.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.sling.jcr.oak.server-1.3.0.jar target/org.apache.sling.jcr.oak.server-1.3.0.jar
