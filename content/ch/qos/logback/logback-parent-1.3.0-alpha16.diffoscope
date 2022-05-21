@@ -1,0 +1,470 @@
+# why is there this │ -Originally-Created-By: Apache Maven Bundle Plugin 5.1.6?
+# what is missing in the .buildspec?
+# on Export-Package issue, either Bnd-6.2.0 fix was incomplete, perhaps previous "Originally-Created-By" thing has more impact
+
+1 / 3 target/reference/logback-core-1.3.0-alpha16.jar logback-core/target/logback-core-1.3.0-alpha16.jar
+--- target/reference/logback-core-1.3.0-alpha16.jar
++++ logback-core/target/logback-core-1.3.0-alpha16.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 545638 bytes, number of entries: 484
+│ +Zip file size: 545526 bytes, number of entries: 484
+│  -rw----     1.0 fat        0 bx stor 22-May-19 13:46 META-INF/
+│ --rw----     2.0 fat     8818 bl defN 22-May-19 13:46 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     8197 bl defN 22-May-19 13:46 META-INF/MANIFEST.MF
+│  -rw----     1.0 fat        0 b- stor 22-May-19 13:46 META-INF/versions/
+│  -rw----     1.0 fat        0 b- stor 22-May-19 13:46 META-INF/versions/9/
+│  -rw----     1.0 fat        0 b- stor 22-May-19 13:46 ch/
+│  -rw----     1.0 fat        0 b- stor 22-May-19 13:46 ch/qos/
+│  -rw----     1.0 fat        0 b- stor 22-May-19 13:46 ch/qos/logback/
+│  -rw----     1.0 fat        0 b- stor 22-May-19 13:46 ch/qos/logback/core/
+│  -rw----     1.0 fat        0 b- stor 22-May-19 13:46 ch/qos/logback/core/boolex/
+│ @@ -478,9 +478,9 @@
+│  -rw----     2.0 fat     2775 bl defN 22-May-19 13:46 ch/qos/logback/core/util/StatusListenerConfigHelper.class
+│  -rw----     2.0 fat     5730 bl defN 22-May-19 13:46 ch/qos/logback/core/util/StatusPrinter.class
+│  -rw----     2.0 fat     2546 bl defN 22-May-19 13:46 ch/qos/logback/core/util/StringCollectionUtil.class
+│  -rw----     2.0 fat      538 bl defN 22-May-19 13:46 ch/qos/logback/core/util/SystemInfo.class
+│  -rw----     2.0 fat     1657 bl defN 22-May-19 13:46 ch/qos/logback/core/util/TimeUtil.class
+│  -rw----     2.0 fat     5012 bl defN 22-May-19 13:46 META-INF/maven/ch.qos.logback/logback-core/pom.xml
+│  -rw----     2.0 fat       69 bl defN 22-May-19 13:46 META-INF/maven/ch.qos.logback/logback-core/pom.properties
+│ --rw----     2.0 fat     2011 bX defN 22-May-19 11:46 META-INF/versions/9/module-info.class
+│ -484 files, 1004089 bytes uncompressed, 452892 bytes compressed:  54.9%
+│ +-rw----     2.0 fat     2011 bX defN 22-May-19 13:46 META-INF/versions/9/module-info.class
+│ +484 files, 1003468 bytes uncompressed, 452780 bytes compressed:  54.9%
+├── META-INF/MANIFEST.MF
+│ @@ -10,122 +10,113 @@
+│   u.org/licenses/old-licenses/lgpl-2.1.html
+
+│  Bundle-ManifestVersion: 2
+
+│  Bundle-Name: Logback Core Module
+
+│  Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+
+│  Bundle-SymbolicName: ch.qos.logback.core
+
+│  Bundle-Vendor: QOS.ch
+
+│  Bundle-Version: 1.3.0.alpha16
+
+│ -Export-Package: ch.qos.logback.core;version="1.3.0";uses:="ch.qos.logbac
+
+│ - k.core.encoder,ch.qos.logback.core.filter,ch.qos.logback.core.helpers,c
+
+│ - h.qos.logback.core.joran.spi,ch.qos.logback.core.spi,ch.qos.logback.cor
+
+│ - e.status,ch.qos.logback.core.util",ch.qos.logback.core.boolex;version="
+
+│ - 1.3.0";uses:="ch.qos.logback.core.spi",ch.qos.logback.core.encoder;vers
+
+│ - ion="1.3.0";uses:="ch.qos.logback.core,ch.qos.logback.core.spi",ch.qos.
+
+│ - logback.core.filter;version="1.3.0";uses:="ch.qos.logback.core.boolex,c
+
+│ - h.qos.logback.core.spi",ch.qos.logback.core.helpers;version="1.3.0";use
+
+│ - s:="ch.qos.logback.core",ch.qos.logback.core.hook;version="1.3.0";uses:
+
+│ - ="ch.qos.logback.core.spi,ch.qos.logback.core.util",ch.qos.logback.core
+
+│ - .html;version="1.3.0";uses:="ch.qos.logback.core,ch.qos.logback.core.pa
+
+│ - ttern",ch.qos.logback.core.joran;version="1.3.0";uses:="ch.qos.logback.
+
+│ - core,ch.qos.logback.core.joran.event,ch.qos.logback.core.joran.spi,ch.q
+
+│ - os.logback.core.joran.util.beans,ch.qos.logback.core.model,ch.qos.logba
+
+│ - ck.core.model.processor,ch.qos.logback.core.spi,org.xml.sax",ch.qos.log
+
+│ - back.core.joran.action;version="1.3.0";uses:="ch.qos.logback.core.joran
+
+│ - .spi,ch.qos.logback.core.joran.util,ch.qos.logback.core.model,ch.qos.lo
+
+│ - gback.core.model.processor,ch.qos.logback.core.spi,ch.qos.logback.core.
+
+│ - util,org.xml.sax",ch.qos.logback.core.joran.conditional;version="1.3.0"
+
+│ - ;uses:="ch.qos.logback.core.joran.action,ch.qos.logback.core.joran.spi,
+
+│ - ch.qos.logback.core.model,ch.qos.logback.core.spi,org.codehaus.commons.
+
+│ - compiler,org.xml.sax",ch.qos.logback.core.joran.event;version="1.3.0";u
+
+│ - ses:="ch.qos.logback.core,ch.qos.logback.core.joran.spi,ch.qos.logback.
+
+│ - core.spi,ch.qos.logback.core.status,org.xml.sax,org.xml.sax.helpers",ch
+
+│ - .qos.logback.core.joran.event.stax;version="1.3.0";uses:="ch.qos.logbac
+
+│ - k.core,ch.qos.logback.core.joran.spi,ch.qos.logback.core.spi,javax.xml.
+
+│ - stream,javax.xml.stream.events",ch.qos.logback.core.joran.node;version=
+
+│ - "1.3.0",ch.qos.logback.core.joran.spi;version="1.3.0";uses:="ch.qos.log
+
+│ - back.core,ch.qos.logback.core.joran.action,ch.qos.logback.core.joran.ev
+
+│ - ent,ch.qos.logback.core.model,ch.qos.logback.core.model.processor,ch.qo
+
+│ - s.logback.core.spi,ch.qos.logback.core.status,org.xml.sax",ch.qos.logba
+
+│ - ck.core.joran.util;version="1.3.0";uses:="ch.qos.logback.core,ch.qos.lo
+
+│ - gback.core.joran.spi,ch.qos.logback.core.joran.util.beans,ch.qos.logbac
+
+│ - k.core.spi,ch.qos.logback.core.util",ch.qos.logback.core.joran.util.bea
+
+│ - ns;version="1.3.0";uses:="ch.qos.logback.core,ch.qos.logback.core.spi",
+
+│ - ch.qos.logback.core.layout;version="1.3.0";uses:="ch.qos.logback.core",
+
+│ - ch.qos.logback.core.model;version="1.3.0";uses:="ch.qos.logback.core,ch
+
+│ - .qos.logback.core.joran.action,ch.qos.logback.core.model.processor",ch.
+
+│ - qos.logback.core.model.conditional;version="1.3.0";uses:="ch.qos.logbac
+
+│ - k.core.model",ch.qos.logback.core.model.processor;version="1.3.0";uses:
+
+│ - ="ch.qos.logback.core,ch.qos.logback.core.joran.action,ch.qos.logback.c
+
+│ - ore.joran.spi,ch.qos.logback.core.joran.util.beans,ch.qos.logback.core.
+
+│ - model,ch.qos.logback.core.spi",ch.qos.logback.core.model.processor.cond
+
+│ - itional;version="1.3.0";uses:="ch.qos.logback.core,ch.qos.logback.core.
+
+│ - model,ch.qos.logback.core.model.conditional,ch.qos.logback.core.model.p
+
+│ - rocessor",ch.qos.logback.core.model.util;version="1.3.0";uses:="ch.qos.
+
+│ - logback.core.model",ch.qos.logback.core.net;version="1.3.0";uses:="ch.q
+
+│ - os.logback.core,ch.qos.logback.core.boolex,ch.qos.logback.core.helpers,
+
+│ - ch.qos.logback.core.net.ssl,ch.qos.logback.core.pattern,ch.qos.logback.
+
+│ - core.sift,ch.qos.logback.core.spi,ch.qos.logback.core.util,jakarta.mail
+
+│ - ,jakarta.mail.internet,javax.net",ch.qos.logback.core.net.server;versio
+
+│ - n="1.3.0";uses:="ch.qos.logback.core,ch.qos.logback.core.net.ssl,ch.qos
+
+│ - .logback.core.spi,javax.net",ch.qos.logback.core.net.ssl;version="1.3.0
+
+│ - ";uses:="ch.qos.logback.core.joran.spi,ch.qos.logback.core.spi,javax.ne
+
+│ - t,javax.net.ssl",ch.qos.logback.core.pattern;version="1.3.0";uses:="ch.
+
+│ - qos.logback.core,ch.qos.logback.core.encoder,ch.qos.logback.core.spi,ch
+
+│ - .qos.logback.core.status",ch.qos.logback.core.pattern.color;version="1.
+
+│ - 3.0";uses:="ch.qos.logback.core.pattern",ch.qos.logback.core.pattern.pa
+
+│ - rser;version="1.3.0";uses:="ch.qos.logback.core.pattern,ch.qos.logback.
+
+│ - core.pattern.util,ch.qos.logback.core.spi",ch.qos.logback.core.pattern.
+
+│ - util;version="1.3.0",ch.qos.logback.core.property;version="1.3.0";uses:
+
+│ - ="ch.qos.logback.core",ch.qos.logback.core.read;version="1.3.0";uses:="
+
+│ - ch.qos.logback.core",ch.qos.logback.core.recovery;version="1.3.0";uses:
+
+│ - ="ch.qos.logback.core,ch.qos.logback.core.status",ch.qos.logback.core.r
+
+│ - olling;version="1.3.0";uses:="ch.qos.logback.core,ch.qos.logback.core.j
+
+│ - oran.spi,ch.qos.logback.core.rolling.helper,ch.qos.logback.core.spi,ch.
+
+│ - qos.logback.core.util",ch.qos.logback.core.rolling.helper;version="1.3.
+
+│ - 0";uses:="ch.qos.logback.core,ch.qos.logback.core.pattern,ch.qos.logbac
+
+│ - k.core.rolling,ch.qos.logback.core.spi",ch.qos.logback.core.sift;versio
+
+│ - n="1.3.0";uses:="ch.qos.logback.core,ch.qos.logback.core.joran.spi,ch.q
+
+│ - os.logback.core.model,ch.qos.logback.core.model.processor,ch.qos.logbac
+
+│ - k.core.spi,ch.qos.logback.core.util",ch.qos.logback.core.spi;version="1
+
+│ - .3.0";uses:="ch.qos.logback.core,ch.qos.logback.core.filter,ch.qos.logb
+
+│ - ack.core.helpers,ch.qos.logback.core.status",ch.qos.logback.core.status
+
+│ - ;version="1.3.0";uses:="ch.qos.logback.core,ch.qos.logback.core.spi,jak
+
+│ - arta.servlet,jakarta.servlet.http",ch.qos.logback.core.subst;version="1
+
+│ - .3.0";uses:="ch.qos.logback.core.spi",ch.qos.logback.core.util;version=
+
+│ - "1.3.0";uses:="ch.qos.logback.core,ch.qos.logback.core.rolling,ch.qos.l
+
+│ - ogback.core.rolling.helper,ch.qos.logback.core.spi,ch.qos.logback.core.
+
+│ - status,javax.naming"
+
+│ +Export-Package: ch.qos.logback.core;uses:="ch.qos.logback.core.encoder,c
+
+│ + h.qos.logback.core.filter,ch.qos.logback.core.helpers,ch.qos.logback.co
+
+│ + re.joran.spi,ch.qos.logback.core.spi,ch.qos.logback.core.status,ch.qos.
+
+│ + logback.core.util";version="1.3.0",ch.qos.logback.core.boolex;uses:="ch
+
+│ + .qos.logback.core.spi";version="1.3.0",ch.qos.logback.core.encoder;uses
+
+│ + :="ch.qos.logback.core,ch.qos.logback.core.spi";version="1.3.0",ch.qos.
+
+│ + logback.core.filter;uses:="ch.qos.logback.core.boolex,ch.qos.logback.co
+
+│ + re.spi";version="1.3.0",ch.qos.logback.core.helpers;uses:="ch.qos.logba
+
+│ + ck.core";version="1.3.0",ch.qos.logback.core.hook;uses:="ch.qos.logback
+
+│ + .core.spi,ch.qos.logback.core.util";version="1.3.0",ch.qos.logback.core
+
+│ + .html;uses:="ch.qos.logback.core,ch.qos.logback.core.pattern";version="
+
+│ + 1.3.0",ch.qos.logback.core.joran;uses:="ch.qos.logback.core,ch.qos.logb
+
+│ + ack.core.joran.event,ch.qos.logback.core.joran.spi,ch.qos.logback.core.
+
+│ + joran.util.beans,ch.qos.logback.core.model,ch.qos.logback.core.model.pr
+
+│ + ocessor,ch.qos.logback.core.spi,org.xml.sax";version="1.3.0",ch.qos.log
+
+│ + back.core.joran.action;uses:="ch.qos.logback.core.joran.spi,ch.qos.logb
+
+│ + ack.core.joran.util,ch.qos.logback.core.model,ch.qos.logback.core.model
+
+│ + .processor,ch.qos.logback.core.spi,ch.qos.logback.core.util,org.xml.sax
+
+│ + ";version="1.3.0",ch.qos.logback.core.joran.conditional;uses:="ch.qos.l
+
+│ + ogback.core.joran.action,ch.qos.logback.core.joran.spi,ch.qos.logback.c
+
+│ + ore.model,ch.qos.logback.core.spi,org.codehaus.commons.compiler,org.xml
+
+│ + .sax";version="1.3.0",ch.qos.logback.core.joran.event;uses:="ch.qos.log
+
+│ + back.core,ch.qos.logback.core.joran.spi,ch.qos.logback.core.spi,ch.qos.
+
+│ + logback.core.status,org.xml.sax,org.xml.sax.helpers";version="1.3.0",ch
+
+│ + .qos.logback.core.joran.event.stax;uses:="ch.qos.logback.core,ch.qos.lo
+
+│ + gback.core.joran.spi,ch.qos.logback.core.spi,javax.xml.stream,javax.xml
+
+│ + .stream.events";version="1.3.0",ch.qos.logback.core.joran.node;version=
+
+│ + "1.3.0",ch.qos.logback.core.joran.spi;uses:="ch.qos.logback.core,ch.qos
+
+│ + .logback.core.joran.action,ch.qos.logback.core.joran.event,ch.qos.logba
+
+│ + ck.core.model,ch.qos.logback.core.model.processor,ch.qos.logback.core.s
+
+│ + pi,ch.qos.logback.core.status,org.xml.sax";version="1.3.0",ch.qos.logba
+
+│ + ck.core.joran.util;uses:="ch.qos.logback.core,ch.qos.logback.core.joran
+
+│ + .spi,ch.qos.logback.core.joran.util.beans,ch.qos.logback.core.spi,ch.qo
+
+│ + s.logback.core.util";version="1.3.0",ch.qos.logback.core.joran.util.bea
+
+│ + ns;uses:="ch.qos.logback.core,ch.qos.logback.core.spi";version="1.3.0",
+
+│ + ch.qos.logback.core.layout;uses:="ch.qos.logback.core";version="1.3.0",
+
+│ + ch.qos.logback.core.model;uses:="ch.qos.logback.core,ch.qos.logback.cor
+
+│ + e.joran.action,ch.qos.logback.core.model.processor";version="1.3.0",ch.
+
+│ + qos.logback.core.model.conditional;uses:="ch.qos.logback.core.model";ve
+
+│ + rsion="1.3.0",ch.qos.logback.core.model.processor;uses:="ch.qos.logback
+
+│ + .core,ch.qos.logback.core.joran.action,ch.qos.logback.core.joran.spi,ch
+
+│ + .qos.logback.core.joran.util.beans,ch.qos.logback.core.model,ch.qos.log
+
+│ + back.core.spi";version="1.3.0",ch.qos.logback.core.model.processor.cond
+
+│ + itional;uses:="ch.qos.logback.core,ch.qos.logback.core.model,ch.qos.log
+
+│ + back.core.model.conditional,ch.qos.logback.core.model.processor";versio
+
+│ + n="1.3.0",ch.qos.logback.core.model.util;uses:="ch.qos.logback.core.mod
+
+│ + el";version="1.3.0",ch.qos.logback.core.net;uses:="ch.qos.logback.core,
+
+│ + ch.qos.logback.core.boolex,ch.qos.logback.core.helpers,ch.qos.logback.c
+
+│ + ore.net.ssl,ch.qos.logback.core.pattern,ch.qos.logback.core.sift,ch.qos
+
+│ + .logback.core.spi,ch.qos.logback.core.util,jakarta.mail,jakarta.mail.in
+
+│ + ternet,javax.net";version="1.3.0",ch.qos.logback.core.net.server;uses:=
+
+│ + "ch.qos.logback.core,ch.qos.logback.core.net.ssl,ch.qos.logback.core.sp
+
+│ + i,javax.net";version="1.3.0",ch.qos.logback.core.net.ssl;uses:="ch.qos.
+
+│ + logback.core.joran.spi,ch.qos.logback.core.spi,javax.net,javax.net.ssl"
+
+│ + ;version="1.3.0",ch.qos.logback.core.pattern;uses:="ch.qos.logback.core
+
+│ + ,ch.qos.logback.core.encoder,ch.qos.logback.core.spi,ch.qos.logback.cor
+
+│ + e.status";version="1.3.0",ch.qos.logback.core.pattern.color;uses:="ch.q
+
+│ + os.logback.core.pattern";version="1.3.0",ch.qos.logback.core.pattern.pa
+
+│ + rser;uses:="ch.qos.logback.core.pattern,ch.qos.logback.core.pattern.uti
+
+│ + l,ch.qos.logback.core.spi";version="1.3.0",ch.qos.logback.core.pattern.
+
+│ + util;version="1.3.0",ch.qos.logback.core.property;uses:="ch.qos.logback
+
+│ + .core";version="1.3.0",ch.qos.logback.core.read;uses:="ch.qos.logback.c
+
+│ + ore";version="1.3.0",ch.qos.logback.core.recovery;uses:="ch.qos.logback
+
+│ + .core,ch.qos.logback.core.status";version="1.3.0",ch.qos.logback.core.r
+
+│ + olling;uses:="ch.qos.logback.core,ch.qos.logback.core.joran.spi,ch.qos.
+
+│ + logback.core.rolling.helper,ch.qos.logback.core.spi,ch.qos.logback.core
+
+│ + .util";version="1.3.0",ch.qos.logback.core.rolling.helper;uses:="ch.qos
+
+│ + .logback.core,ch.qos.logback.core.pattern,ch.qos.logback.core.rolling,c
+
+│ + h.qos.logback.core.spi";version="1.3.0",ch.qos.logback.core.sift;uses:=
+
+│ + "ch.qos.logback.core,ch.qos.logback.core.joran.spi,ch.qos.logback.core.
+
+│ + model,ch.qos.logback.core.model.processor,ch.qos.logback.core.spi,ch.qo
+
+│ + s.logback.core.util";version="1.3.0",ch.qos.logback.core.spi;uses:="ch.
+
+│ + qos.logback.core,ch.qos.logback.core.filter,ch.qos.logback.core.helpers
+
+│ + ,ch.qos.logback.core.status";version="1.3.0",ch.qos.logback.core.status
+
+│ + ;uses:="ch.qos.logback.core,ch.qos.logback.core.spi,jakarta.servlet,jak
+
+│ + arta.servlet.http";version="1.3.0",ch.qos.logback.core.subst;uses:="ch.
+
+│ + qos.logback.core.spi";version="1.3.0",ch.qos.logback.core.util;uses:="c
+
+│ + h.qos.logback.core,ch.qos.logback.core.rolling,ch.qos.logback.core.roll
+
+│ + ing.helper,ch.qos.logback.core.spi,ch.qos.logback.core.status,javax.nam
+
+│ + ing";version="1.3.0"
+
+│  Import-Package: javax.naming;resolution:=optional,javax.net;resolution:=
+
+│   optional,javax.net.ssl;resolution:=optional,javax.xml.namespace;resolut
+
+│   ion:=optional,javax.xml.parsers;resolution:=optional,javax.xml.stream;r
+
+│   esolution:=optional,javax.xml.stream.events;resolution:=optional,org.xm
+
+│   l.sax;resolution:=optional,org.xml.sax.helpers;resolution:=optional,org
+
+│   .codehaus.janino;resolution:=optional;version="[3.1,4)",org.codehaus.co
+
+│   mmons.compiler;resolution:=optional;version="[3.1,4)",ch.qos.logback.co
+
+│ - re;version="[1.3,2)",ch.qos.logback.core.boolex;version="[1.3,2)",ch.qo
+
+│ - s.logback.core.encoder;version="[1.3,2)",ch.qos.logback.core.filter;ver
+
+│ - sion="[1.3,2)",ch.qos.logback.core.helpers;version="[1.3,2)",ch.qos.log
+
+│ - back.core.hook;version="[1.3,2)",ch.qos.logback.core.joran;version="[1.
+
+│ - 3,2)",ch.qos.logback.core.joran.action;version="[1.3,2)",ch.qos.logback
+
+│ - .core.joran.conditional;version="[1.3,2)",ch.qos.logback.core.joran.eve
+
+│ - nt;version="[1.3,2)",ch.qos.logback.core.joran.spi;version="[1.3,2)",ch
+
+│ - .qos.logback.core.joran.util;version="[1.3,2)",ch.qos.logback.core.jora
+
+│ - n.util.beans;version="[1.3,2)",ch.qos.logback.core.model;version="[1.3,
+
+│ - 2)",ch.qos.logback.core.model.conditional;version="[1.3,2)",ch.qos.logb
+
+│ - ack.core.model.processor;version="[1.3,2)",ch.qos.logback.core.model.pr
+
+│ - ocessor.conditional;version="[1.3,2)",ch.qos.logback.core.net;version="
+
+│ - [1.3,2)",ch.qos.logback.core.net.ssl;version="[1.3,2)",ch.qos.logback.c
+
+│ - ore.pattern;version="[1.3,2)",ch.qos.logback.core.pattern.parser;versio
+
+│ - n="[1.3,2)",ch.qos.logback.core.pattern.util;version="[1.3,2)",ch.qos.l
+
+│ - ogback.core.recovery;version="[1.3,2)",ch.qos.logback.core.rolling;vers
+
+│ - ion="[1.3,2)",ch.qos.logback.core.rolling.helper;version="[1.3,2)",ch.q
+
+│ - os.logback.core.sift;version="[1.3,2)",ch.qos.logback.core.spi;version=
+
+│ - "[1.3,2)",ch.qos.logback.core.status;version="[1.3,2)",ch.qos.logback.c
+
+│ - ore.subst;version="[1.3,2)",ch.qos.logback.core.util;version="[1.3,2)",
+
+│ - jakarta.mail;version="[2.0,3)";resolution:=optional,jakarta.mail.intern
+
+│ - et;version="[2.0,3)";resolution:=optional,jakarta.servlet;version="[5.0
+
+│ - ,6)";resolution:=optional,jakarta.servlet.http;version="[5.0,6)";resolu
+
+│ - tion:=optional,org.fusesource.jansi;resolution:=optional;version="[1.18
+
+│ - ,2)"
+
+│ -Originally-Created-By: Apache Maven Bundle Plugin 5.1.6
+
+│ + re,ch.qos.logback.core.boolex,ch.qos.logback.core.encoder,ch.qos.logbac
+
+│ + k.core.filter,ch.qos.logback.core.helpers,ch.qos.logback.core.hook,ch.q
+
+│ + os.logback.core.joran,ch.qos.logback.core.joran.action,ch.qos.logback.c
+
+│ + ore.joran.conditional,ch.qos.logback.core.joran.event,ch.qos.logback.co
+
+│ + re.joran.spi,ch.qos.logback.core.joran.util,ch.qos.logback.core.joran.u
+
+│ + til.beans,ch.qos.logback.core.model,ch.qos.logback.core.model.condition
+
+│ + al,ch.qos.logback.core.model.processor,ch.qos.logback.core.model.proces
+
+│ + sor.conditional,ch.qos.logback.core.net,ch.qos.logback.core.net.ssl,ch.
+
+│ + qos.logback.core.pattern,ch.qos.logback.core.pattern.parser,ch.qos.logb
+
+│ + ack.core.pattern.util,ch.qos.logback.core.recovery,ch.qos.logback.core.
+
+│ + rolling,ch.qos.logback.core.rolling.helper,ch.qos.logback.core.sift,ch.
+
+│ + qos.logback.core.spi,ch.qos.logback.core.status,ch.qos.logback.core.sub
+
+│ + st,ch.qos.logback.core.util,jakarta.mail;version="[2.0,3)";resolution:=
+
+│ + optional,jakarta.mail.internet;version="[2.0,3)";resolution:=optional,j
+
+│ + akarta.servlet;version="[5.0,6)";resolution:=optional,jakarta.servlet.h
+
+│ + ttp;version="[5.0,6)";resolution:=optional,org.fusesource.jansi;resolut
+
+│ + ion:=optional;version="[1.18,2)"
+
+│  Tool: Bnd-6.2.0.202202251641

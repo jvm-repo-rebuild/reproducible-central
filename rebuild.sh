@@ -92,11 +92,13 @@ mvnBuildDocker() {
   crlfDocker="no"
 
   mvnVersion="3.6.3"
+  case ${jdk} in
+    18)
+      mvnVersion="3"
+  esac
   case ${tool} in
     mvn-*)
       mvnVersion="$(echo "$tool" | cut -d - -f 2)"
-    ;;
-    *)
   esac
 
   # select Docker image to match required JDK version: https://hub.docker.com/_/maven
@@ -118,7 +120,7 @@ mvnBuildDocker() {
       mvnImage=maven:${mvnVersion}-openjdk-${jdk}-slim
       ;;
     *)
-      mvnImage=maven:${mvnVersion}-jdk-${jdk}-slim
+      mvnImage=maven:${mvnVersion}-openjdk-${jdk}-slim
   esac
 
   echo "Rebuilding using Docker image ${mvnImage}"
