@@ -25,8 +25,8 @@ mvn.aggregate.artifact-id=dubbo-native-plugin
 outputs.0.coordinates=org.apache.dubbo:dubbo-parent
 
 outputs.0.0.filename=dubbo-parent-3.0.5.pom
-outputs.0.0.length=28893
-outputs.0.0.checksums.sha512=8ff81e283c473508f47e369b003a29a422b5e99211625b809166e8680ba611efded8ac359695d247f8a7dcf7439795659cb7b52d75d466fdeeaa95ec1bc20ea0
+outputs.0.0.length=28890
+outputs.0.0.checksums.sha512=c5f2f08930d227d303c85b742566e7fde0f07af393143cc79f9b5d34d8ca17ff1dca704a65dac500db8c0d0aea7553a68bc27685af1268265d8d3aabe275fd4e
 
 outputs.1.coordinates=org.apache.dubbo:dubbo-common
 
@@ -699,20 +699,20 @@ outputs.54.2.checksums.sha512=c3c64aa0f7f1c9d26fc7882d3b9aa91420e2239d764b0ab7fd
 outputs.55.coordinates=org.apache.dubbo:dubbo
 
 outputs.55.0.filename=dubbo-3.0.5.pom
-outputs.55.0.length=50125
-outputs.55.0.checksums.sha512=c626936d7b2dd8782f08292fa8f105b831da690ccb0f13ca75754e5512e2039de93c48fd91dfa99062b5ff98e705dfd5de96372eedc662f484bd111d8cd40720
+outputs.55.0.length=50124
+outputs.55.0.checksums.sha512=1f4032447878230eccea8e07b7b05dcd40b70ff590327f9ba11125f8ee6d9c1f6a6aed5c35f32ac8c95ad07f780a389a7b7d052a9db81bc0fc710e80b77ae954
 
 outputs.55.1.filename=dubbo-3.0.5.jar
-outputs.55.1.length=3649809
-outputs.55.1.checksums.sha512=077b98a543428559d11569a03933c2f2c851b71cf5a42e73c628d2ae035c2b12188955436228eb22c969c1b023fc00943f603158cb8a8526a40ea08b2102fe91
+outputs.55.1.length=3649808
+outputs.55.1.checksums.sha512=9eaa7b67a649ca3e748019f0f9cad814984fa4da6f6dc03648a7bb9439330fb92ea1acb27bd05bdf6309146529f047e914bc7430298af36bb5ba2f247a35580f
 
 outputs.55.2.filename=dubbo-3.0.5-sources.jar
-outputs.55.2.length=2653858
-outputs.55.2.checksums.sha512=55de97c4ecfaf238fd389fdc875f766bcf1deb86c8a99cfc2bcbf9df81daff7a21bdcd2554a51a6fb35b1302cc0a44be2c81ee76ea1997804700a1def1a5c1ef
+outputs.55.2.length=2653857
+outputs.55.2.checksums.sha512=aa8b7f8e35dc5fdcc333a3baf21510b40bdec8ae93895d07a67674208be6fb020ca9ec58ede9c68621b636874eaba0c026ccc06f009ecc22ad8b1b4393dc84d7
 
 outputs.55.3.filename=dubbo-3.0.5-sources.jar
-outputs.55.3.length=2653858
-outputs.55.3.checksums.sha512=55de97c4ecfaf238fd389fdc875f766bcf1deb86c8a99cfc2bcbf9df81daff7a21bdcd2554a51a6fb35b1302cc0a44be2c81ee76ea1997804700a1def1a5c1ef
+outputs.55.3.length=2653857
+outputs.55.3.checksums.sha512=aa8b7f8e35dc5fdcc333a3baf21510b40bdec8ae93895d07a67674208be6fb020ca9ec58ede9c68621b636874eaba0c026ccc06f009ecc22ad8b1b4393dc84d7
 
 outputs.56.coordinates=org.apache.dubbo:dubbo-spring-boot
 
@@ -771,20 +771,20 @@ outputs.60.2.checksums.sha512=8e7ddc2e0909a06732814947e6f9845aded2c92c6e858a6e68
 outputs.61.coordinates=org.apache.dubbo:dubbo-dependencies-bom
 
 outputs.61.0.filename=dubbo-dependencies-bom-3.0.5.pom
-outputs.61.0.length=27328
-outputs.61.0.checksums.sha512=15d87bf647b6effca72bfba241b2c54f773dc986842806ade32874830c8cabf10d0cbd96030dcc4c41a759355ba1782c4160147211c78c30d2fde6ea47c96827
+outputs.61.0.length=27327
+outputs.61.0.checksums.sha512=29176294198981f58afd460907d9a3f0facfc5e1fb16f6cb1faa8c179fdca693059905847f79d60dd1eb265c2f2c449ae2b8676f603d2503840e1a44f33a95ac
 
 outputs.62.coordinates=org.apache.dubbo:dubbo-distribution
 
 outputs.62.0.filename=dubbo-distribution-3.0.5.pom
-outputs.62.0.length=2627
-outputs.62.0.checksums.sha512=49d97f5ec9d5f81e0211323f8ea652704c67f3427b8fbf4446abfd15eb8aee3244074d9caa45dd254b9b86fa357b9c9afa1af8e25b4d5ea577042c0aba63a9dc
+outputs.62.0.length=2626
+outputs.62.0.checksums.sha512=1af278376142e196ffafa72b71a121e9e30678cee912e04341f3aabf5617bfdbf008d3e811c2cdfff570278fce065ff1db04286eff9d84f5ea9c678d66ed2e4c
 
 outputs.63.coordinates=org.apache.dubbo:dubbo-bom
 
 outputs.63.0.filename=dubbo-bom-3.0.5.pom
-outputs.63.0.length=12573
-outputs.63.0.checksums.sha512=bf17e4d8e02796214715455e29f855d657809c9fdfe874c54ed2aac315b040841e974a6c813bf1d7bfb9b36e7bf88e2ec2f2b0ee263399ef2783dcc0671ae068
+outputs.63.0.length=12572
+outputs.63.0.checksums.sha512=e12244bfeebae1a8eccd2fcd1921e987eaa0a3b2e81be83df1b8396da0faa29e4b6e10b338186b918b7882a43b9467e97756741e943a8e3e85dd65a7d3ff4323
 
 outputs.64.coordinates=org.apache.dubbo:dubbo-metrics
 
@@ -809,8 +809,8 @@ outputs.65.2.checksums.sha512=9dfbe809f25011a8f89acd0f65ad1be4f71be7aa878a53a526
 outputs.66.coordinates=org.apache.dubbo:dubbo-dependencies-zookeeper
 
 outputs.66.0.filename=dubbo-dependencies-zookeeper-3.0.5.pom
-outputs.66.0.length=4444
-outputs.66.0.checksums.sha512=4d0b7de99f644402b8106e621135507c5dece20655c5d0a8a35508c7d9bb0201dbac38d539572ad27976f4c87361c1502cb65ccc333d28271539a685a286888a
+outputs.66.0.length=4443
+outputs.66.0.checksums.sha512=ef5b52a59ada93aed93aea8a0f2e96d4e0ff72cbced2265fd6e2b52a08c38901981a01020341d5f93644110af5e1ab8cb0db2d2e9bc9e910b534786dc2ba58b7
 
 outputs.67.coordinates=org.apache.dubbo:dubbo-dependencies
 
