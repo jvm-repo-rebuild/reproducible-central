@@ -28,6 +28,6 @@ rebuilding **1 releases** of org.apache.helix:helix:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.0.3](https://search.maven.org/artifact/org.apache.helix/helix/1.0.3/pom) | [mvn jdk8](helix-1.0.3.buildspec) | [result](helix-1.0.3.buildinfo): [28 :heavy_check_mark:  15 :warning:](helix-1.0.3.buildcompare) | 289M |
+| [1.0.3](https://search.maven.org/artifact/org.apache.helix/helix/1.0.3/pom) | [mvn jdk8](helix-1.0.3.buildspec) | [result](helix-1.0.3.buildinfo): [28 :heavy_check_mark:  15 :warning:](helix-1.0.3.buildcompare) [:mag:](helix-1.0.3.diffoscope) | 289M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
