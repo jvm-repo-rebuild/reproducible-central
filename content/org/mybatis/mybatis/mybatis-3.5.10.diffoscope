@@ -1,0 +1,54 @@
+1 / 1 target/reference/mybatis-3.5.10.jar target/mybatis-3.5.10.jar
+--- target/reference/mybatis-3.5.10.jar
++++ target/mybatis-3.5.10.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1750950 bytes, number of entries: 1103
+│ +Zip file size: 1750949 bytes, number of entries: 1103
+│  -rw----     2.0 fat        0 bX defN 22-May-23 20:00 META-INF/
+│  -rw----     2.0 fat     5122 bl defN 22-May-23 20:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat    11358 bl defN 22-May-23 20:00 META-INF/LICENSE
+│  -rw----     2.0 fat     3194 bl defN 22-May-23 20:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 22-May-23 20:00 org/
+│  -rw----     2.0 fat        0 bl defN 22-May-23 20:00 org/apache/
+│  -rw----     2.0 fat        0 bl defN 22-May-23 20:00 org/apache/ibatis/
+│ @@ -1098,8 +1098,8 @@
+│  -rw----     2.0 fat     1038 bl defN 22-May-13 14:09 org/apache/ibatis/javassist/util/proxy/SecurityActions$6.class
+│  -rw----     2.0 fat     1194 bl defN 22-May-13 14:09 org/apache/ibatis/javassist/util/proxy/SecurityActions$7.class
+│  -rw----     2.0 fat     2220 bl defN 22-May-13 14:09 org/apache/ibatis/javassist/util/proxy/SecurityActions$8.class
+│  -rw----     2.0 fat     2714 bl defN 22-May-13 14:09 org/apache/ibatis/javassist/util/proxy/SecurityActions$TheUnsafe.class
+│  -rw----     2.0 fat     6581 bl defN 22-May-13 14:09 org/apache/ibatis/javassist/util/proxy/SecurityActions.class
+│  -rw----     2.0 fat     1497 bl defN 22-May-13 14:09 org/apache/ibatis/javassist/util/proxy/SerializedProxy$1.class
+│  -rw----     2.0 fat     4503 bl defN 22-May-13 14:09 org/apache/ibatis/javassist/util/proxy/SerializedProxy.class
+│ -1103 files, 3697162 bytes uncompressed, 1532512 bytes compressed:  58.6%
+│ +1103 files, 3697162 bytes uncompressed, 1532511 bytes compressed:  58.6%
+├── META-INF/MANIFEST.MF
+│ @@ -1,20 +1,20 @@
+│  Manifest-Version: 1.0
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+│  Bundle-SymbolicName: org.mybatis.mybatis
+│  Specification-Title: mybatis
+│  Bundle-DocURL: http://www.mybatis.org/mybatis-3
+│ -Include-Resource: META-INF/LICENSE=LICENSE,META-INF/NOTICE=NOTICE,org/
+│ - apache/ibatis/builder/xml/mybatis-mapper.xsd=src/main/java/org/apache
+│ - /ibatis/builder/xml/mybatis-mapper.xsd,org/apache/ibatis/builder/xml/
+│ +Include-Resource: META-INF/NOTICE=NOTICE,META-INF/LICENSE=LICENSE,org/
+│ + apache/ibatis/builder/xml/mybatis-config.xsd=src/main/java/org/apache
+│ + /ibatis/builder/xml/mybatis-config.xsd,org/apache/ibatis/builder/xml/
+│   mybatis-3-config.dtd=src/main/java/org/apache/ibatis/builder/xml/myba
+│ - tis-3-config.dtd,org/apache/ibatis/builder/xml/mybatis-config.xsd=src
+│ - /main/java/org/apache/ibatis/builder/xml/mybatis-config.xsd,org/apach
+│ - e/ibatis/builder/xml/mybatis-3-mapper.dtd=src/main/java/org/apache/ib
+│ - atis/builder/xml/mybatis-3-mapper.dtd
+│ + tis-3-config.dtd,org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd=s
+│ + rc/main/java/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd,org/a
+│ + pache/ibatis/builder/xml/mybatis-mapper.xsd=src/main/java/org/apache/
+│ + ibatis/builder/xml/mybatis-mapper.xsd
+│  Import-Package: javassist.util.proxy;resolution:=optional,javax.naming
+│   ;resolution:=optional,javax.sql;resolution:=optional,javax.xml.namesp
+│   ace;resolution:=optional,javax.xml.parsers;resolution:=optional,javax
+│   .xml.xpath;resolution:=optional,net.sf.cglib.proxy;resolution:=option
+│   al,ognl;resolution:=optional,org.apache.commons.logging;resolution:=o
+│   ptional,org.apache.log4j;resolution:=optional,org.apache.logging.log4
+│   j;resolution:=optional,org.apache.logging.log4j.message;resolution:=o
+
