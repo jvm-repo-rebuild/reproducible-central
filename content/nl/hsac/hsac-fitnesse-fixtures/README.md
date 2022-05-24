@@ -13,6 +13,7 @@ rebuilding **28 releases** of nl.hsac:hsac-fitnesse-fixtures:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [5.2.8](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.8/pom) | | | |
 | [5.2.7](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.7/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.7.buildspec) | [result](hsac-fitnesse-fixtures-5.2.7.buildinfo): [4 :heavy_check_mark: ](hsac-fitnesse-fixtures-5.2.7.buildcompare) | 71M |
 | [5.2.6](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.6/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.6.buildspec) | [result](hsac-fitnesse-fixtures-5.2.6.buildinfo): [4 :heavy_check_mark: ](hsac-fitnesse-fixtures-5.2.6.buildcompare) | 71M |
 | [5.2.5](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.5/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.5.buildspec) | [result](hsac-fitnesse-fixtures-5.2.5.buildinfo): [4 :heavy_check_mark: ](hsac-fitnesse-fixtures-5.2.5.buildcompare) | 71M |
