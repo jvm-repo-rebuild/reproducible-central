@@ -1,0 +1,7 @@
+version=2.2.20
+ok=4
+ko=0
+okFiles="org.apache.sling.xss-2.2.20.pom org.apache.sling.xss-2.2.20.jar org.apache.sling.xss-2.2.20-source-release.zip org.apache.sling.xss-2.2.20-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
