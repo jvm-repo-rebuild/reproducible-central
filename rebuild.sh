@@ -46,7 +46,7 @@ if [ ! -f maven-metadata.xml ]
 then
   metaUrl="https://repo.maven.apache.org/maven2/$(echo ${groupId} | tr '.' '/')/${artifactId}/maven-metadata.xml"
   echo -e "downloading \033[1m${metaUrl}\033[0m to $(pwd)"
-  curl $metaUrl --output maven-metadata.xml || fatal "failed to download maven-metadata.xml"
+  curl -s $metaUrl --output maven-metadata.xml || fatal "failed to download maven-metadata.xml"
   head -15 maven-metadata.xml
 fi
 
