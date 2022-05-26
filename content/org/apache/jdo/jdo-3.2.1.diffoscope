@@ -1,0 +1,54 @@
+1 / 1 target/reference/jdo-api-3.2.1.jar api/target/jdo-api-3.2.1.jar
+--- target/reference/jdo-api-3.2.1.jar
++++ api/target/jdo-api-3.2.1.jar
+├── zipinfo -v {}
+│ @@ -55,15 +55,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          2022 May 25 18:56:02
+│ -  32-bit CRC value (hex):                         99c8ec2d
+│ +  32-bit CRC value (hex):                         e03d1ce8
+│    compressed size:                                720 bytes
+│    uncompressed size:                              1812 bytes
+│    length of filename:                             20 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/MANIFEST.MF
+│ @@ -14,22 +14,22 @@
+│  Import-Package: javax.transaction;resolution:=optional;version="[1.3,2
+│   )",javax.jdo,javax.jdo.annotations,javax.jdo.datastore,javax.jdo.list
+│   ener,javax.jdo.metadata,javax.jdo.query,javax.jdo.spi,javax.naming,ja
+│   vax.rmi;version="[1.0,2)",javax.xml.parsers,org.w3c.dom,org.xml.sax
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+│  Tool: Bnd-5.1.1.202006162103
+│  Implementation-Vendor: The Apache Software Foundation
+│ -Export-Package: javax.jdo.annotations;uses:="javax.jdo";version="3.2.1
+│ - ",javax.jdo;uses:="javax.jdo.datastore,javax.jdo.listener,javax.jdo.m
+│ - etadata,javax.jdo.query,javax.jdo.spi,javax.naming,javax.transaction,
+│ - javax.xml.parsers,org.w3c.dom,org.xml.sax";version="3.2.1",javax.jdo.
+│ - datastore;version="3.2.1",javax.jdo.identity;uses:="javax.jdo.spi";ve
+│ - rsion="3.2.1",javax.jdo.listener;version="3.2.1",javax.jdo.metadata;u
+│ - ses:="javax.jdo,javax.jdo.annotations";version="3.2.1",javax.jdo.quer
+│ - y;version="3.2.1",javax.jdo.spi;uses:="javax.jdo,javax.xml.parsers,or
+│ +Export-Package: javax.jdo;uses:="javax.jdo.datastore,javax.jdo.listene
+│ + r,javax.jdo.metadata,javax.jdo.query,javax.jdo.spi,javax.naming,javax
+│ + .transaction,javax.xml.parsers,org.w3c.dom,org.xml.sax";version="3.2.
+│ + 1",javax.jdo.annotations;uses:="javax.jdo";version="3.2.1",javax.jdo.
+│ + query;version="3.2.1",javax.jdo.datastore;version="3.2.1",javax.jdo.i
+│ + dentity;uses:="javax.jdo.spi";version="3.2.1",javax.jdo.listener;vers
+│ + ion="3.2.1",javax.jdo.metadata;uses:="javax.jdo,javax.jdo.annotations
+│ + ";version="3.2.1",javax.jdo.spi;uses:="javax.jdo,javax.xml.parsers,or
+│   g.xml.sax";version="3.2.1"
+│  Bundle-Name: JDO API
+│  Bundle-Version: 3.2.1
+│  Bundle-Localization: plugin
+│  Build-Jdk-Spec: 1.8
+│  Created-By: Apache Maven Bundle Plugin 5.1.4
+│  Specification-Version: 3.2
+

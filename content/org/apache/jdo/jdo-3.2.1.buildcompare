@@ -1,0 +1,8 @@
+version=3.2.1
+ok=6
+ko=1
+okFiles="parent-pom-3.2.1.pom jdo-api-3.2.1.pom jdo-api-3.2.1-sources.jar jdo-3.2.1.pom jdo-3.2.1-source-release.zip jdo-3.2.1-source-release.tar.gz"
+koFiles="jdo-api-3.2.1.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/jdo-api-3.2.1.jar api/target/jdo-api-3.2.1.jar

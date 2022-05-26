@@ -1,13 +1,13 @@
-groupId=org.apache.jdo
+groupId=org.apache
 artifactId=jdo
 display=${groupId}:${artifactId}
-version=3.2
+version=3.2.1
 
 #gitRepo=https://github.com/apache/db-jdo.git
 #gitTag=v${version}
-sourceDistribution=https://repo.maven.apache.org/maven2/org/apache/jdo/${version}/jdo-${version}-source-release.zip
+sourceDistribution=https://archive.apache.org/dist/db/${artifactId}/${version}/${artifactId}-${version}-source-release.zip
 sourcePath=${artifactId}-${version}
-sourceRmFiles="DEPENDENCIES LICENSE NOTICE"
+sourceRmFiles="DEPENDENCIES"
 
 tool=mvn
 jdk=8
@@ -17,4 +17,4 @@ command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dg
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope
-issue=https://github.com/apache/db-jdo/pull/36
+issue=https://github.com/apache/db-jdo/pull/49
