@@ -1,0 +1,333 @@
+1 / 5 target/reference/xml-testsuite-1.4.0.jar testing/xml-testsuite/target/xml-testsuite-1.4.0.jar
+--- target/reference/xml-testsuite-1.4.0.jar
++++ testing/xml-testsuite/target/xml-testsuite-1.4.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 42232 bytes, number of entries: 64
+│ +Zip file size: 42234 bytes, number of entries: 64
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 META-INF/
+│  -rw-r--r--  2.0 unx      324 b- defN 22-Mar-13 11:17 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 org/apache/axiom/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 org/apache/axiom/ts/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 org/apache/axiom/ts/xml/
+│ @@ -59,8 +59,8 @@
+│  -rw-r--r--  2.0 unx      151 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/xml/dtd-full.xml
+│  -rw-r--r--  2.0 unx      146 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/xml/entity-reference-nested.xml
+│  -rw-r--r--  2.0 unx    90190 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/xml/large.xml
+│  -rw-r--r--  2.0 unx      314 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/xml/simple.xml
+│  -rw-r--r--  2.0 unx      799 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/xml/xop/spec-sample.msg
+│  -rw-r--r--  2.0 unx     5166 b- defN 22-Mar-13 11:17 META-INF/maven/org.apache.ws.commons.axiom/xml-testsuite/pom.xml
+│  -rw-r--r--  2.0 unx       75 b- defN 22-Mar-13 11:17 META-INF/maven/org.apache.ws.commons.axiom/xml-testsuite/pom.properties
+│ -64 files, 163046 bytes uncompressed, 32122 bytes compressed:  80.3%
+│ +64 files, 163046 bytes uncompressed, 32124 bytes compressed:  80.3%
+├── org/apache/axiom/ts/xml/bulk/filelist
+│┄ Ordering differences only
+│ @@ -1,25 +1,25 @@
+│ -AXIOM-124.xml
+│ -AXIS2-192.xml
+│ -AXIS2-565.xml
+│ -adjacent-cdata-sections.xml
+│  cdata.xml
+│ +namespaces2.xml
+│ +sigEncr.xml
+│ +AXIOM-124.xml
+│ +entity-reference-with-markup.xml
+│  character-references.xml
+│ +adjacent-cdata-sections.xml
+│ +large-cdata-section.xml
+│ +namespaces.xml
+│  default-namespace.xml
+│ -dtd.xml
+│ -entity-reference-external-subset.xml
+│ +null-namespace.xml
+│  entity-reference-internal-subset.xml
+│ -entity-reference-with-markup.xml
+│  iso-8859-1.xml
+│ -large-cdata-section.xml
+│ +xml-prefix.xml
+│ +processingInstruction.xml
+│ +namespaces3.xml
+│ +AXIS2-565.xml
+│  many-attributes.xml
+│ +spaces.xml
+│ +dtd.xml
+│ +entity-reference-external-subset.xml
+│  masked-namespace-declaration.xml
+│ -namespaces.xml
+│ -namespaces2.xml
+│ -namespaces3.xml
+│ -null-namespace.xml
+│ -processingInstruction.xml
+│  sax-attribute-namespace-bug.xml
+│ -sigEncr.xml
+│ -spaces.xml
+│  utf-8.xml
+│ -xml-prefix.xml
+│ +AXIS2-192.xml
+
+2 / 5 target/reference/xml-testsuite-1.4.0-sources.jar testing/xml-testsuite/target/xml-testsuite-1.4.0-sources.jar
+--- target/reference/xml-testsuite-1.4.0-sources.jar
++++ testing/xml-testsuite/target/xml-testsuite-1.4.0-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 38256 bytes, number of entries: 60
+│ +Zip file size: 38258 bytes, number of entries: 60
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Mar-13 11:17 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 org/apache/axiom/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 org/apache/axiom/ts/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 org/apache/axiom/ts/xml/
+│ @@ -55,8 +55,8 @@
+│  -rw-r--r--  2.0 unx      146 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/xml/entity-reference-nested.xml
+│  -rw-r--r--  2.0 unx    90190 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/xml/large.xml
+│  -rw-r--r--  2.0 unx      314 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/xml/simple.xml
+│  -rw-r--r--  2.0 unx      799 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/xml/xop/spec-sample.msg
+│  -rw-r--r--  2.0 unx      506 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/xml/bulk/filelist
+│  -rw-r--r--  2.0 unx     5166 b- defN 22-Mar-13 11:17 META-INF/maven/org.apache.ws.commons.axiom/xml-testsuite/pom.xml
+│  -rw-r--r--  2.0 unx       75 b- defN 22-Mar-13 11:17 META-INF/maven/org.apache.ws.commons.axiom/xml-testsuite/pom.properties
+│ -60 files, 162227 bytes uncompressed, 28830 bytes compressed:  82.2%
+│ +60 files, 162227 bytes uncompressed, 28832 bytes compressed:  82.2%
+├── org/apache/axiom/ts/xml/bulk/filelist
+│┄ Ordering differences only
+│ @@ -1,25 +1,25 @@
+│ -AXIOM-124.xml
+│ -AXIS2-192.xml
+│ -AXIS2-565.xml
+│ -adjacent-cdata-sections.xml
+│  cdata.xml
+│ +namespaces2.xml
+│ +sigEncr.xml
+│ +AXIOM-124.xml
+│ +entity-reference-with-markup.xml
+│  character-references.xml
+│ +adjacent-cdata-sections.xml
+│ +large-cdata-section.xml
+│ +namespaces.xml
+│  default-namespace.xml
+│ -dtd.xml
+│ -entity-reference-external-subset.xml
+│ +null-namespace.xml
+│  entity-reference-internal-subset.xml
+│ -entity-reference-with-markup.xml
+│  iso-8859-1.xml
+│ -large-cdata-section.xml
+│ +xml-prefix.xml
+│ +processingInstruction.xml
+│ +namespaces3.xml
+│ +AXIS2-565.xml
+│  many-attributes.xml
+│ +spaces.xml
+│ +dtd.xml
+│ +entity-reference-external-subset.xml
+│  masked-namespace-declaration.xml
+│ -namespaces.xml
+│ -namespaces2.xml
+│ -namespaces3.xml
+│ -null-namespace.xml
+│ -processingInstruction.xml
+│  sax-attribute-namespace-bug.xml
+│ -sigEncr.xml
+│ -spaces.xml
+│  utf-8.xml
+│ -xml-prefix.xml
+│ +AXIS2-192.xml
+
+3 / 5 target/reference/jaxp-testsuite-1.4.0.jar testing/jaxp-testsuite/target/jaxp-testsuite-1.4.0.jar
+--- target/reference/jaxp-testsuite-1.4.0.jar
++++ testing/jaxp-testsuite/target/jaxp-testsuite-1.4.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 2870303 bytes, number of entries: 47
+│ +Zip file size: 2870300 bytes, number of entries: 47
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 META-INF/
+│  -rw-r--r--  2.0 unx      324 b- defN 22-Mar-13 11:17 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 org/apache/axiom/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 org/apache/axiom/ts/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 org/apache/axiom/ts/jaxp/
+│ @@ -42,8 +42,8 @@
+│  -rw-r--r--  2.0 unx      962 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/jaxp/xslt/TestContentHandler.class
+│  -rw-r--r--  2.0 unx      772 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/jaxp/xslt/XSLTImplementation$1.class
+│  -rw-r--r--  2.0 unx      836 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/jaxp/xslt/XSLTImplementation$2.class
+│  -rw-r--r--  2.0 unx      822 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/jaxp/xslt/XSLTImplementation$3.class
+│  -rw-r--r--  2.0 unx     3589 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/jaxp/xslt/XSLTImplementation.class
+│  -rw-r--r--  2.0 unx     6678 b- defN 22-Mar-13 11:17 META-INF/maven/org.apache.ws.commons.axiom/jaxp-testsuite/pom.xml
+│  -rw-r--r--  2.0 unx       76 b- defN 22-Mar-13 11:17 META-INF/maven/org.apache.ws.commons.axiom/jaxp-testsuite/pom.properties
+│ -47 files, 3166064 bytes uncompressed, 2862631 bytes compressed:  9.6%
+│ +47 files, 3166064 bytes uncompressed, 2862628 bytes compressed:  9.6%
+├── org/apache/axiom/ts/jaxp/stax/filelist
+│┄ Ordering differences only
+│ @@ -1,5 +1,5 @@
+│ -woodstox-core-asl-4.4.1.jar
+│ -woodstox-core-5.3.0.jar
+│ +stax-1.2.0.jar
+│  woodstox-core-6.2.6.jar
+│ +woodstox-core-5.3.0.jar
+│  sjsxp-1.0.1.jar
+│ -stax-1.2.0.jar
+│ +woodstox-core-asl-4.4.1.jar
+
+4 / 5 target/reference/jaxp-testsuite-1.4.0-sources.jar testing/jaxp-testsuite/target/jaxp-testsuite-1.4.0-sources.jar
+--- target/reference/jaxp-testsuite-1.4.0-sources.jar
++++ testing/jaxp-testsuite/target/jaxp-testsuite-1.4.0-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 2862494 bytes, number of entries: 38
+│ +Zip file size: 2862491 bytes, number of entries: 38
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Mar-13 11:17 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 org/apache/axiom/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 org/apache/axiom/ts/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 org/apache/axiom/ts/jaxp/
+│ @@ -33,8 +33,8 @@
+│  -rw-r--r--  2.0 unx   332055 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/jaxp/stax/sjsxp-1.0.1.jar
+│  -rw-r--r--  2.0 unx   179346 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/jaxp/stax/stax-1.2.0.jar
+│  -rw-r--r--  2.0 unx   522360 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/jaxp/stax/woodstox-core-5.3.0.jar
+│  -rw-r--r--  2.0 unx  1584445 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/jaxp/stax/woodstox-core-6.2.6.jar
+│  -rw-r--r--  2.0 unx   486013 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/jaxp/stax/woodstox-core-asl-4.4.1.jar
+│  -rw-r--r--  2.0 unx     6678 b- defN 22-Mar-13 11:17 META-INF/maven/org.apache.ws.commons.axiom/jaxp-testsuite/pom.xml
+│  -rw-r--r--  2.0 unx       76 b- defN 22-Mar-13 11:17 META-INF/maven/org.apache.ws.commons.axiom/jaxp-testsuite/pom.properties
+│ -38 files, 3160660 bytes uncompressed, 2856518 bytes compressed:  9.6%
+│ +38 files, 3160660 bytes uncompressed, 2856515 bytes compressed:  9.6%
+├── org/apache/axiom/ts/jaxp/stax/filelist
+│┄ Ordering differences only
+│ @@ -1,5 +1,5 @@
+│ -woodstox-core-asl-4.4.1.jar
+│ -woodstox-core-5.3.0.jar
+│ +stax-1.2.0.jar
+│  woodstox-core-6.2.6.jar
+│ +woodstox-core-5.3.0.jar
+│  sjsxp-1.0.1.jar
+│ -stax-1.2.0.jar
+│ +woodstox-core-asl-4.4.1.jar
+
+5 / 5 target/reference/dom-testsuite-1.4.0.jar testing/dom-testsuite/target/dom-testsuite-1.4.0.jar
+--- target/reference/dom-testsuite-1.4.0.jar
++++ testing/dom-testsuite/target/dom-testsuite-1.4.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 2436861 bytes, number of entries: 1795
+│ +Zip file size: 2437511 bytes, number of entries: 1795
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 META-INF/
+│  -rw-r--r--  2.0 unx      324 b- defN 22-Mar-13 11:17 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 org/apache/axiom/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 org/apache/axiom/ts/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 org/apache/axiom/ts/dom/
+│ @@ -28,15 +28,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 org/w3c/domts/level3/core/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 META-INF/maven/org.apache.ws.commons.axiom/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Mar-13 11:17 META-INF/maven/org.apache.ws.commons.axiom/dom-testsuite/
+│  -rw-r--r--  2.0 unx     7959 b- defN 22-Mar-13 11:17 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Mar-13 11:17 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      169 b- defN 22-Mar-13 11:17 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx   228771 b- defN 22-Mar-13 11:17 builddef.lst
+│ +-rw-r--r--  2.0 unx   186301 b- defN 22-Mar-13 11:17 builddef.lst
+│  -rw-r--r--  2.0 unx      540 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/dom/DOMTestCase.class
+│  -rw-r--r--  2.0 unx    13535 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/dom/DOMTestSuiteBuilder.class
+│  -rw-r--r--  2.0 unx     1302 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/dom/DOMUtils.class
+│  -rw-r--r--  2.0 unx      295 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/dom/DocumentBuilderFactoryFactory.class
+│  -rw-r--r--  2.0 unx     2036 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/dom/attr/TestCloneNode.class
+│  -rw-r--r--  2.0 unx     1686 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/dom/attr/TestGetChildNodes.class
+│  -rw-r--r--  2.0 unx     1612 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/dom/attr/TestGetFirstChild.class
+│ @@ -170,15 +170,15 @@
+│  -rw-r--r--  2.0 unx     1701 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/dom/text/TestSplitTextWithoutParent.class
+│  -rw-r--r--  2.0 unx     1184 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/dom/w3c/DOMFeature$Signature.class
+│  -rw-r--r--  2.0 unx     7569 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/dom/w3c/DOMFeature.class
+│  -rw-r--r--  2.0 unx     1241 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/dom/w3c/DOMTSClassVisitor.class
+│  -rw-r--r--  2.0 unx     1117 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/dom/w3c/DOMTSMethodVisitor.class
+│  -rw-r--r--  2.0 unx     3631 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/dom/w3c/DOMTestDocumentBuilderFactoryImpl.class
+│  -rw-r--r--  2.0 unx     8711 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/dom/w3c/JUnitTestFramework.class
+│ --rw-r--r--  2.0 unx     5266 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/dom/w3c/ResolveURI.class
+│ +-rw-r--r--  2.0 unx     5241 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/dom/w3c/ResolveURI.class
+│  -rw-r--r--  2.0 unx     3741 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/dom/w3c/W3CDOMTestSuiteBuilder$1.class
+│  -rw-r--r--  2.0 unx     2951 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/dom/w3c/W3CDOMTestSuiteBuilder.class
+│  -rw-r--r--  2.0 unx     1085 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/dom/w3c/W3CTestCase.class
+│  -rw-r--r--  2.0 unx     1124 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/dom/w3c/level1/W3CDOMLevel1TestSuiteBuilder.class
+│  -rw-r--r--  2.0 unx     1124 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/dom/w3c/level2/W3CDOMLevel2TestSuiteBuilder.class
+│  -rw-r--r--  2.0 unx     1124 b- defN 22-Mar-13 11:17 org/apache/axiom/ts/dom/w3c/level3/W3CDOMLevel3TestSuiteBuilder.class
+│  -rw-r--r--  2.0 unx     1552 b- defN 22-Mar-13 11:17 org/w3c/domts/DOMErrorImpl.class
+│ @@ -1790,8 +1790,8 @@
+│  -rw-r--r--  2.0 unx     4181 b- defN 22-Mar-13 11:17 org/w3c/domts/level3/core/wellformed01.class
+│  -rw-r--r--  2.0 unx     3418 b- defN 22-Mar-13 11:17 org/w3c/domts/level3/core/wellformed02.class
+│  -rw-r--r--  2.0 unx     4272 b- defN 22-Mar-13 11:17 org/w3c/domts/level3/core/wellformed03.class
+│  -rw-r--r--  2.0 unx     3612 b- defN 22-Mar-13 11:17 org/w3c/domts/level3/core/wellformed04.class
+│  -rw-r--r--  2.0 unx     1843 b- defN 22-Mar-13 11:17 org/w3c/domts/level3/core/xhtml1-strict.dtd
+│  -rw-r--r--  2.0 unx    13106 b- defN 22-Mar-13 11:17 META-INF/maven/org.apache.ws.commons.axiom/dom-testsuite/pom.xml
+│  -rw-r--r--  2.0 unx       75 b- defN 22-Mar-13 11:17 META-INF/maven/org.apache.ws.commons.axiom/dom-testsuite/pom.properties
+│ -1795 files, 4630208 bytes uncompressed, 2103513 bytes compressed:  54.6%
+│ +1795 files, 4587713 bytes uncompressed, 2104163 bytes compressed:  54.1%
+├── builddef.lst
+│ @@ -1,1696 +1,1696 @@
+│  -Xajruntimetarget:1.5
+│  -1.8
+│  -encoding
+│  UTF-8
+│  -classpath
+│ -/home/rlapache/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/rlapache/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/rlapache/ws-axiom/target/checkout/testing/xml-truth/target/xml-truth-1.4.0.jar:/home/rlapache/.m2/repository/com/google/truth/truth/1.1.3/truth-1.1.3.jar:/home/rlapache/.m2/repository/com/google/guava/guava/30.1.1-android/guava-30.1.1-android.jar:/home/rlapache/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/rlapache/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/rlapache/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/rlapache/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/home/rlapache/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/rlapache/.m2/repository/org/checkerframework/checker-qual/3.13.0/checker-qual-3.13.0.jar:/home/rlapache/.m2/repository/com/google/auto/value/auto-value-annotations/1.8.1/auto-value-annotations-1.8.1.jar:/home/rlapache/.m2/repository/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar:/home/rlapache/.m2/repository/com/fasterxml/woodstox/woodstox-core/6.2.8/woodstox-core-6.2.8.jar:/home/rlapache/ws-axiom/target/checkout/testing/testutils/target/testutils-1.4.0.jar:/home/rlapache/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/rlapache/.m2/repository/org/osgi/org.osgi.framework/1.10.0/org.osgi.framework-1.10.0.jar:/home/rlapache/ws-axiom/target/checkout/testing/xml-testsuite/target/xml-testsuite-1.4.0.jar:/home/rlapache/ws-axiom/target/checkout/testing/multiton/target/multiton-1.4.0.jar:/home/rlapache/.m2/repository/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar:/home/rlapache/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/home/rlapache/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/rlapache/.m2/repository/xerces/xercesImpl/2.12.2/xercesImpl-2.12.2.jar:/home/rlapache/.m2/repository/org/aspectj/aspectjrt/1.9.9.1/aspectjrt-1.9.9.1.jar:/home/rlapache/.m2/repository/org/ow2/asm/asm/9.2/asm-9.2.jar:/home/rlapache/.m2/repository/org/mockito/mockito-core/4.5.1/mockito-core-4.5.1.jar:/home/rlapache/.m2/repository/net/bytebuddy/byte-buddy/1.12.9/byte-buddy-1.12.9.jar:/home/rlapache/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.9/byte-buddy-agent-1.12.9.jar:/home/rlapache/ws-axiom/target/checkout/testing/jaxp-testsuite/target/jaxp-testsuite-1.4.0.jar:/home/rlapache/.m2/repository/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar:/home/rlapache/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/home/rlapache/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/home/rlapache/.m2/repository/net/sf/saxon/Saxon-HE/9.9.1-8/Saxon-HE-9.9.1-8.jar:/home/rlapache/.m2/repository/crimson/crimson/1.1.3/crimson-1.1.3.jar:/home/rlapache/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/home/rlapache/ws-axiom/target/checkout/testing/dom-testsuite/target/classes
+│ +/var/maven/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/var/maven/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/var/maven/app/testing/xml-truth/target/xml-truth-1.4.0.jar:/var/maven/.m2/repository/com/google/truth/truth/1.1.3/truth-1.1.3.jar:/var/maven/.m2/repository/com/google/guava/guava/30.1.1-android/guava-30.1.1-android.jar:/var/maven/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/var/maven/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/var/maven/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/var/maven/.m2/repository/org/checkerframework/checker-compat-qual/2.5.5/checker-compat-qual-2.5.5.jar:/var/maven/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/var/maven/.m2/repository/org/checkerframework/checker-qual/3.13.0/checker-qual-3.13.0.jar:/var/maven/.m2/repository/com/google/auto/value/auto-value-annotations/1.8.1/auto-value-annotations-1.8.1.jar:/var/maven/.m2/repository/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar:/var/maven/.m2/repository/com/fasterxml/woodstox/woodstox-core/6.2.8/woodstox-core-6.2.8.jar:/var/maven/app/testing/testutils/target/testutils-1.4.0.jar:/var/maven/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/var/maven/.m2/repository/org/osgi/org.osgi.framework/1.10.0/org.osgi.framework-1.10.0.jar:/var/maven/app/testing/xml-testsuite/target/xml-testsuite-1.4.0.jar:/var/maven/app/testing/multiton/target/multiton-1.4.0.jar:/var/maven/.m2/repository/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar:/var/maven/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/var/maven/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/var/maven/.m2/repository/xerces/xercesImpl/2.12.2/xercesImpl-2.12.2.jar:/var/maven/.m2/repository/org/aspectj/aspectjrt/1.9.9.1/aspectjrt-1.9.9.1.jar:/var/maven/.m2/repository/org/ow2/asm/asm/9.2/asm-9.2.jar:/var/maven/.m2/repository/org/mockito/mockito-core/4.5.1/mockito-core-4.5.1.jar:/var/maven/.m2/repository/net/bytebuddy/byte-buddy/1.12.9/byte-buddy-1.12.9.jar:/var/maven/.m2/repository/net/bytebuddy/byte-buddy-agent/1.12.9/byte-buddy-agent-1.12.9.jar:/var/maven/app/testing/jaxp-testsuite/target/jaxp-testsuite-1.4.0.jar:/var/maven/.m2/repository/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar:/var/maven/.m2/repository/xalan/xalan/2.7.2/xalan-2.7.2.jar:/var/maven/.m2/repository/xalan/serializer/2.7.2/serializer-2.7.2.jar:/var/maven/.m2/repository/net/sf/saxon/Saxon-HE/9.9.1-8/Saxon-HE-9.9.1-8.jar:/var/maven/.m2/repository/crimson/crimson/1.1.3/crimson-1.1.3.jar:/var/maven/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/var/maven/app/testing/dom-testsuite/target/classes
+│  -d
+│ -/home/rlapache/ws-axiom/target/checkout/testing/dom-testsuite/target/classes
+│ +/var/maven/app/testing/dom-testsuite/target/classes
+│  -s
+│ -/home/rlapache/ws-axiom/target/checkout/testing/dom-testsuite/target/generated-sources/aspectj-maven-plugin
+│ -/home/rlapache/ws-axiom/target/checkout/testing/dom-testsuite/src/main/java/org/apache/axiom/ts/dom/DOMTestCase.java
+│ -/home/rlapache/ws-axiom/target/checkout/testing/dom-testsuite/src/main/java/org/apache/axiom/ts/dom/DOMTestSuiteBuilder.java
+│ -/home/rlapache/ws-axiom/target/checkout/testing/dom-testsuite/src/main/java/org/apache/axiom/ts/dom/DOMUtils.java
+│ -/home/rlapache/ws-axiom/target/checkout/testing/dom-testsuite/src/main/java/org/apache/axiom/ts/dom/DocumentBuilderFactoryFactory.java
+...
+│ -/home/rlapache/ws-axiom/target/checkout/testing/dom-testsuite/target/w3c/java/org/w3c/domts/level3/core/wellformed03.java
+│ -/home/rlapache/ws-axiom/target/checkout/testing/dom-testsuite/target/w3c/java/org/w3c/domts/level3/core/wellformed04.java
+│ +/var/maven/app/testing/dom-testsuite/target/generated-sources/aspectj-maven-plugin
+│ +/var/maven/app/testing/dom-testsuite/src/main/java/org/w3c/domts/DOMTestLoadException.java
+│ +/var/maven/app/testing/dom-testsuite/src/main/java/org/apache/axiom/ts/dom/builder/TestParseURI.java
+│ +/var/maven/app/testing/dom-testsuite/src/main/java/org/apache/axiom/ts/dom/builder/TestWhitespaceAroundDocumentElement.java
+..
+│ +/var/maven/app/testing/dom-testsuite/target/w3c/java/org/w3c/domts/DOMLocatorImpl.java
+│ +/var/maven/app/testing/dom-testsuite/target/w3c/java/org/w3c/domts/DOMTest.java
+├── org/apache/axiom/ts/dom/w3c/ResolveURI.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -146,15 +146,15 @@
+│ │    #137 = Utf8               Lorg/aspectj/internal/lang/annotation/ajcPrivileged;
+│ │    #138 = Utf8               org.aspectj.weaver.WeaverVersion
+│ │    #139 = Utf8               org.aspectj.weaver.Aspect
+│ │    #140 = Utf8               org.aspectj.weaver.Privileged
+│ │    #141 = Utf8               factory
+│ │    #142 = Utf8               Lorg/w3c/domts/DOMTestDocumentBuilderFactory;
+│ │    #143 = Utf8               org.aspectj.weaver.SourceContext
+│ │ -  #144 = Utf8               /home/rlapache/ws-axiom/target/checkout/testing/dom-testsuite/src/main/java/org/apache/axiom/ts/dom/w3c/ResolveURI.aj
+│ │ +  #144 = Utf8               /var/maven/app/testing/dom-testsuite/src/main/java/org/apache/axiom/ts/dom/w3c/ResolveURI.aj
+│ │    #145 = Utf8               org.aspectj.weaver.WeaverState
+│ │  {
+│ │    private static java.lang.Throwable ajc$initFailureCause;
+│ │      descriptor: Ljava/lang/Throwable;
+│ │      flags: (0x100a) ACC_PRIVATE, ACC_STATIC, ACC_SYNTHETIC
+│ │  
+│ │    public static org.apache.axiom.ts.dom.w3c.ResolveURI ajc$perSingletonInstance;
+│ │ @@ -398,15 +398,15 @@
+│ │     00 90 00 00 00 29 00 02 00 3E 00 3F 00 39 00 3D
+│ │     00 35 00 3E 00 3D 00 03 00 2E 00 03 00 3E 00 3F
+│ │     00 3A 00 3C 00 3B 00 16 00 04 00 25 00 01 00 15
+│ │     00 01 00 1E 00 2B 00 01 00 04 00 5D 00 0D 00 04
+│ │     00 26 00 95 00 3C 00 2E 00 67 00 37 00 1B 00 57
+│ │     00 0A 00 14 00 06 00 02
+│ │    org.aspectj.weaver.WeaverState: length = 0x4FB (unknown attribute)
+│ │ -   53 00 00 00 00 00 00 00 04 F1 00 91 00 00 0A B0
+│ │ +   53 00 00 00 00 00 00 00 04 F1 00 91 00 00 0A 97
+│ │     00 21 00 01 00 03 00 00 00 02 10 0A 00 05 00 06
+│ │     00 00 10 09 00 07 00 08 00 00 00 07 00 08 00 09
+│ │     00 0A 00 01 00 0B 00 00 00 4C 00 01 00 01 00 00
+│ │     00 0C B8 00 0C A7 00 08 4B 2A B3 00 0F B1 00 01
+│ │     00 00 00 03 00 06 00 11 00 03 00 13 00 00 00 06
+│ │     00 01 00 00 00 1E 00 14 00 00 00 02 00 00 00 15
+│ │     00 00 00 12 00 02 FF 00 06 00 01 07 00 11 00 01
+
