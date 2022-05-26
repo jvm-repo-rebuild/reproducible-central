@@ -1,0 +1,19 @@
+groupId=org.apache.beam
+artifactId=beam-sdks-java-core
+display=${groupId}:${artifactId}
+version=2.39.0
+
+gitRepo=https://github.com/apache/beam.git
+gitTag=v${version}
+
+tool=gradle
+jdk=11
+newline=lf
+
+command="./gradlew --no-daemon clean assemble publishToMavenLocal -x test -x goBuild -x setupVirtualenv -x sdist"
+buildinfo=${artifactId}-${version}.buildinfo
+#> Task :sdks:java:maven-archetypes:examples:generateSources FAILED
+#./generate-sources.sh: line 40: rsync: command not found
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
