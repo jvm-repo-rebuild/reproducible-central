@@ -1,5 +1,5 @@
 groupId=org.apache.isis
-artifactId=isis-all
+artifactId=isis-parent
 version=2.0.0-M7
 
 display=${groupId}:${artifactId}
@@ -13,9 +13,9 @@ newline=crlf
 
 # need to do mvn clean by hand, then create target directory in reactor root
 command="mvn package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
-# before run, need to use th 2.0.0-SNAPSHOT version for the aggregator root and after run, will need to rename to match release version
-buildinfo=target/${artifactId}-2.0.0-SNAPSHOT.buildinfo
-buildinfo=target/${artifactId}-${version}.buildinfo
+# before run, need to use the 2.0.0-SNAPSHOT version for the aggregator root and after run, will need to rename to match release version
+buildinfo=target/isis-all-2.0.0-SNAPSHOT.buildinfo
+#buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope
 issue=
