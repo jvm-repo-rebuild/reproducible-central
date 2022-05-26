@@ -1,4 +1,4 @@
-groupId=org.apache.camel
+groupId=org.apache.camel.k
 artifactId=camel-k-runtime-project
 version=1.9.1
 
