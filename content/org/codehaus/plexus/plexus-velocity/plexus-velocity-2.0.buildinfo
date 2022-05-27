@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Velocity Component
+group-id=org.codehaus.plexus
+artifact-id=plexus-velocity
+version=2.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:codehaus-plexus/plexus-velocity.git
+source.scm.tag=plexus-velocity-2.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=plexus-velocity-2.0.pom
+outputs.0.length=3445
+outputs.0.checksums.sha512=55bda9a81265781eea8a17888ef1d7bffaf9e18c9e46dd403ce0485c5940a518d9163c8ee45620611e0eec91e49a3f7ee5e5ae2bc0780d0443bad291160733f6
+
+outputs.1.filename=plexus-velocity-2.0.jar
+outputs.1.length=4819
+outputs.1.checksums.sha512=3b7cf640309dbb9bbe30348a7becf9ac94f37fd44ad5576a14aeb997e044acbea8613d31ab36917bb2af7095d3bddc73dc090ceac08d7f199b4ee14715256aab
+
+outputs.2.filename=plexus-velocity-2.0-source-release.zip
+outputs.2.length=15252
+outputs.2.checksums.sha512=f2e9d69ea8fb331dcab0b7d7374e1d470c208dd8c8a22678b24c679e99479e693584400611dd01a6ade310312299b9786eea081ce4ddd378ee08389524f1d74f
+
+outputs.3.filename=plexus-velocity-2.0-sources.jar
+outputs.3.length=5442
+outputs.3.checksums.sha512=8b6928bdfc7f1fcc8bb0114075abef0866675a91060b9d8d6b80836c048e1d757858b2310dc0d59189088e7c8051abb1034bc677db6286bae617b0d112e369d6
