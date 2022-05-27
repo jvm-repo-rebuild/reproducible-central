@@ -13,6 +13,7 @@ rebuilding **3 releases** of org.apache.felix:org.apache.felix.feature:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.0](https://search.maven.org/artifact/org.apache.felix/org.apache.felix.feature/1.0.0/pom) | | | |
 | [0.9.4-RC3](https://search.maven.org/artifact/org.apache.felix/org.apache.felix.feature/0.9.4-RC3/pom) | [mvn jdk8](felix-features-0.9.4-RC3.buildspec) | [result](org.apache.felix.feature-0.9.4-RC3.buildinfo): [5 :heavy_check_mark: ](org.apache.felix.feature-0.9.4-RC3.buildcompare) | 120K |
 | [0.9.2-RC2](https://search.maven.org/artifact/org.apache.felix/org.apache.felix.feature/0.9.2-RC2/pom) | [mvn jdk8](felix-features-0.9.2-RC2.buildspec) | [result](org.apache.felix.feature-0.9.2-RC2.buildinfo): [5 :heavy_check_mark: ](org.apache.felix.feature-0.9.2-RC2.buildcompare) | 120K |
 | [0.9.0-RC1](https://search.maven.org/artifact/org.apache.felix/org.apache.felix.feature/0.9.0-RC1/pom) | [mvn jdk8](felix-features-0.9.0-RC1.buildspec) | [result](org.apache.felix.feature-0.9.0-RC1.buildinfo): [5 :heavy_check_mark: ](org.apache.felix.feature-0.9.0-RC1.buildcompare) | 119K |
