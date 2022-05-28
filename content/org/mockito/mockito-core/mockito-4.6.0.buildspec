@@ -1,0 +1,17 @@
+groupId=org.mockito
+artifactId=mockito-core
+display=${groupId}:${artifactId}
+version=4.6.0
+
+gitRepo=https://github.com/mockito/mockito.git
+gitTag=v${version}
+
+tool=gradle
+jdk=11
+newline=lf
+
+command="./gradlew --no-daemon clean assemble publishToMavenLocal -x test"
+buildinfo=${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/mockito/mockito/pull/2642
