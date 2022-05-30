@@ -1,0 +1,8 @@
+version=2.9.26
+ok=1
+ko=1
+okFiles="flexmonster-2.9.26.pom"
+koFiles="flexmonster-2.9.26.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/flexmonster-2.9.26.jar target/flexmonster-2.9.26.jar
