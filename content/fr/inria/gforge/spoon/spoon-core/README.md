@@ -13,6 +13,7 @@ rebuilding **1 releases** of fr.inria.gforge.spoon:spoon-core:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [10.2.0-beta-9](https://search.maven.org/artifact/fr.inria.gforge.spoon/spoon-core/10.2.0-beta-9/pom) | | | |
 | [10.2.0-beta-8](https://search.maven.org/artifact/fr.inria.gforge.spoon/spoon-core/10.2.0-beta-8/pom) | | | |
 | [10.2.0-beta-7](https://search.maven.org/artifact/fr.inria.gforge.spoon/spoon-core/10.2.0-beta-7/pom) | | | |
 | [10.2.0-beta-6](https://search.maven.org/artifact/fr.inria.gforge.spoon/spoon-core/10.2.0-beta-6/pom) | | | |
