@@ -24,6 +24,7 @@ rebuilding **1 releases** of com.github.psi-probe:psi-probe:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.5.9](https://search.maven.org/artifact/com.github.psi-probe/psi-probe/3.5.9/pom) | | | |
 | [3.5.8](https://search.maven.org/artifact/com.github.psi-probe/psi-probe/3.5.8/pom) | [mvn jdk17 w](psi-probe-3.5.8.buildspec) | [result](psi-probe-3.5.8.buildinfo): [7 :heavy_check_mark:  22 :warning:](psi-probe-3.5.8.buildcompare) [:mag:](psi-probe-3.5.8.diffoscope) [:memo:](https://github.com/psi-probe/psi-probe/pull/2114) | 31M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

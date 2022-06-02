@@ -20,12 +20,13 @@ Source code: [https://github.com/bndtools/bnd](https://github.com/bndtools/bnd)
 * [biz.aQute.bnd:bnd-testing-maven-plugin](https://search.maven.org/artifact/biz.aQute.bnd/bnd-testing-maven-plugin/)
 </details>
 
-rebuilding **5 releases** of biz.aQute.bnd:bnd-plugin-parent:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **6 releases** of biz.aQute.bnd:bnd-plugin-parent:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [6.3.0](https://search.maven.org/artifact/biz.aQute.bnd/bnd-plugin-parent/6.3.0/pom) | [mvn jdk17](bnd-plugins-6.3.0.buildspec) | [result](bnd-reporter-maven-plugin-6.3.0.buildinfo): [25 :heavy_check_mark: ](bnd-reporter-maven-plugin-6.3.0.buildcompare) | 258K |
 | [6.2.0](https://search.maven.org/artifact/biz.aQute.bnd/bnd-plugin-parent/6.2.0/pom) | [mvn jdk17](bnd-plugins-6.2.0.buildspec) | [result](bnd-reporter-maven-plugin-6.2.0.buildinfo): [25 :heavy_check_mark: ](bnd-reporter-maven-plugin-6.2.0.buildcompare) | 258K |
 | [6.1.0](https://search.maven.org/artifact/biz.aQute.bnd/bnd-plugin-parent/6.1.0/pom) | [mvn jdk17](bnd-plugins-6.1.0.buildspec) | [result](bnd-reporter-maven-plugin-6.1.0.buildinfo): [25 :heavy_check_mark: ](bnd-reporter-maven-plugin-6.1.0.buildcompare) | 247K |
 | [6.0.0](https://search.maven.org/artifact/biz.aQute.bnd/bnd-plugin-parent/6.0.0/pom) | [mvn jdk8](bnd-plugins-6.0.0.buildspec) | [result](bnd-reporter-maven-plugin-6.0.0.buildinfo): [25 :heavy_check_mark: ](bnd-reporter-maven-plugin-6.0.0.buildcompare) | 242K |
