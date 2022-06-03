@@ -1,0 +1,7 @@
+version=6.2.1
+ok=29
+ko=0
+okFiles="maven-indexer-6.2.1.pom maven-indexer-6.2.1-site.xml maven-indexer-6.2.1-source-release.zip indexer-core-6.2.1.pom indexer-core-6.2.1.jar indexer-core-6.2.1-sources.jar indexer-core-6.2.1-shaded-lucene.jar indexer-cli-6.2.1.pom indexer-cli-6.2.1.jar indexer-cli-6.2.1-sources.jar indexer-reader-6.2.1.pom indexer-reader-6.2.1.jar indexer-reader-6.2.1-sources.jar maven-indexer-examples-6.2.1.pom indexer-examples-basic-6.2.1.pom indexer-examples-basic-6.2.1.jar indexer-examples-basic-6.2.1-sources.jar indexer-examples-spring-6.2.1.pom indexer-examples-spring-6.2.1.jar indexer-examples-spring-6.2.1-sources.jar search-api-6.2.1.pom search-api-6.2.1.jar search-api-6.2.1-sources.jar search-backend-indexer-6.2.1.pom search-backend-indexer-6.2.1.jar search-backend-indexer-6.2.1-sources.jar search-backend-smo-6.2.1.pom search-backend-smo-6.2.1.jar search-backend-smo-6.2.1-sources.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
