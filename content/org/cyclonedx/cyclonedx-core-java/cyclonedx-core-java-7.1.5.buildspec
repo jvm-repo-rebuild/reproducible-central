@@ -1,0 +1,17 @@
+groupId=org.cyclonedx
+artifactId=cyclonedx-core-java
+display=${groupId}:${artifactId}
+version=7.1.5
+
+gitRepo=https://github.com/cyclonedx/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildinfo.ignore=cyclonedx.xml,cyclonedx.json"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope="https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/$(echo ${groupId} | tr '.' '/')/${artifactId}/${artifactId}-${version}.diffoscope"
+issue=
