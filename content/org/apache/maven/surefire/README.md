@@ -36,12 +36,13 @@ Source code: [https://github.com/apache/maven-surefire.git](https://github.com/a
 * [org.apache.maven.surefire:surefire-testng-utils](https://search.maven.org/artifact/org.apache.maven.surefire/surefire-testng-utils/)
 </details>
 
-rebuilding **2 releases** of org.apache.maven.surefire:surefire:
+rebuilding **3 releases** of org.apache.maven.surefire:surefire:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.0-M7](https://search.maven.org/artifact/org.apache.maven.surefire/surefire/3.0.0-M7/pom) | [mvn jdk11](surefire-3.0.0-M7.buildspec) | [result](surefire-3.0.0-M7.buildinfo): [39 :heavy_check_mark:  36 :warning:](surefire-3.0.0-M7.buildcompare) [:mag:](surefire-3.0.0-M7.diffoscope) | 10M |
 | [3.0.0-M6](https://search.maven.org/artifact/org.apache.maven.surefire/surefire/3.0.0-M6/pom) | [mvn jdk8 w](surefire-3.0.0-M6.buildspec) | [result](surefire-3.0.0-M6.buildinfo): [38 :heavy_check_mark:  37 :warning:](surefire-3.0.0-M6.buildcompare) [:mag:](surefire-3.0.0-M6.diffoscope) [:memo:](https://issues.apache.org/jira/browse/SUREFIRE-1802) | 10M |
 | [3.0.0-M5](https://search.maven.org/artifact/org.apache.maven.surefire/surefire/3.0.0-M5/pom) | [mvn jdk8 w](surefire-3.0.0-M5.buildspec) | [result](surefire-shared-utils-3.0.0-M5.buildinfo): [45 :heavy_check_mark:  5 :warning:](surefire-shared-utils-3.0.0-M5.buildcompare) [:memo:](https://issues.apache.org/jira/browse/SUREFIRE-1802) | 8.9M |
 

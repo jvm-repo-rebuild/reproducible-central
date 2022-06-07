@@ -13,6 +13,7 @@ rebuilding **24 releases** of io.micronaut.build:micronaut-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.3.1](https://search.maven.org/artifact/io.micronaut.build/micronaut-maven-plugin/3.3.1/pom) | | | |
 | [3.3.0](https://search.maven.org/artifact/io.micronaut.build/micronaut-maven-plugin/3.3.0/pom) | [mvn jdk8](micronaut-maven-plugin-3.3.0.buildspec) | [result](micronaut-maven-plugin-3.3.0.buildinfo): [3 :heavy_check_mark: ](micronaut-maven-plugin-3.3.0.buildcompare) | 185K |
 | [3.2.4](https://search.maven.org/artifact/io.micronaut.build/micronaut-maven-plugin/3.2.4/pom) | [mvn jdk8](micronaut-maven-plugin-3.2.4.buildspec) | [result](micronaut-maven-plugin-3.2.4.buildinfo): [3 :heavy_check_mark: ](micronaut-maven-plugin-3.2.4.buildcompare) | 184K |
 | [3.2.3](https://search.maven.org/artifact/io.micronaut.build/micronaut-maven-plugin/3.2.3/pom) | [mvn jdk8](micronaut-maven-plugin-3.2.3.buildspec) | [result](micronaut-maven-plugin-3.2.3.buildinfo): [3 :heavy_check_mark: ](micronaut-maven-plugin-3.2.3.buildcompare) | 170K |
