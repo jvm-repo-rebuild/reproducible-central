@@ -1,0 +1,345 @@
+1 /       36 target/reference/surefire-api-3.0.0-M7.jar surefire-api/target/surefire-api-3.0.0-M7.jar
+--- target/reference/surefire-api-3.0.0-M7.jar
++++ surefire-api/target/surefire-api-3.0.0-M7.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 168510 bytes, number of entries: 166
+│ +Zip file size: 168623 bytes, number of entries: 166
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 META-INF/
+│  -rw-r--r--  2.0 unx      323 b- defN 22-Jun-03 09:23 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/apache/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/apache/maven/surefire/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/apache/maven/surefire/api/
+│ @@ -18,15 +18,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/apache/maven/surefire/api/suite/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/apache/maven/surefire/api/testset/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/apache/maven/surefire/api/util/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/apache/maven/surefire/api/util/internal/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 META-INF/maven/org.apache.maven.surefire/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 META-INF/maven/org.apache.maven.surefire/surefire-api/
+│ --rw-r--r--  2.0 unx      810 b- defN 22-Jun-03 09:23 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx     1663 b- defN 22-Jun-03 09:23 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Jun-03 09:23 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      169 b- defN 22-Jun-03 09:23 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     7069 b- defN 22-Jun-03 09:23 org/apache/maven/surefire/api/booter/BaseProviderFactory.class
+│  -rw-r--r--  2.0 unx      973 b- defN 22-Jun-03 09:23 org/apache/maven/surefire/api/booter/BiProperty.class
+│  -rw-r--r--  2.0 unx     3018 b- defN 22-Jun-03 09:23 org/apache/maven/surefire/api/booter/Command.class
+│  -rw-r--r--  2.0 unx     1062 b- defN 22-Jun-03 09:23 org/apache/maven/surefire/api/booter/Constants.class
+│  -rw-r--r--  2.0 unx     3049 b- defN 22-Jun-03 09:23 org/apache/maven/surefire/api/booter/DumpErrorSingleton.class
+│ @@ -161,8 +161,8 @@
+│  -rw-r--r--  2.0 unx     2167 b- defN 22-Jun-03 09:23 org/apache/maven/surefire/api/util/internal/ImmutableMap.class
+│  -rw-r--r--  2.0 unx     1444 b- defN 22-Jun-03 09:23 org/apache/maven/surefire/api/util/internal/ObjectUtils.class
+│  -rw-r--r--  2.0 unx     1598 b- defN 22-Jun-03 09:23 org/apache/maven/surefire/api/util/internal/StringUtils.class
+│  -rw-r--r--  2.0 unx     1127 b- defN 22-Jun-03 09:23 org/apache/maven/surefire/api/util/internal/TestClassMethodNameUtils.class
+│  -rw-r--r--  2.0 unx      360 b- defN 22-Jun-03 09:23 org/apache/maven/surefire/api/util/internal/WritableBufferedByteChannel.class
+│  -rw-r--r--  2.0 unx     3390 b- defN 22-Jun-03 09:23 META-INF/maven/org.apache.maven.surefire/surefire-api/pom.xml
+│  -rw-r--r--  2.0 unx       75 b- defN 22-Jun-03 09:23 META-INF/maven/org.apache.maven.surefire/surefire-api/pom.properties
+│ -166 files, 320449 bytes uncompressed, 136492 bytes compressed:  57.4%
+│ +166 files, 321302 bytes uncompressed, 136605 bytes compressed:  57.5%
+├── META-INF/DEPENDENCIES
+│ @@ -3,14 +3,22 @@
+│  // maven pom organized by organization.
+│  // ------------------------------------------------------------------
+│  
+│  SureFire API
+│  
+│  
+│  From: 'The Apache Software Foundation' (https://www.apache.org/)
+│ +  - Apache Commons IO (https://commons.apache.org/proper/commons-io/) commons-io:commons-io:jar:2.11.0
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Commons Compress (https://commons.apache.org/proper/commons-compress/) org.apache.commons:commons-compress:jar:1.21
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Commons Lang (https://commons.apache.org/proper/commons-lang/) org.apache.commons:commons-lang3:jar:3.12.0
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Maven Shared Utils (https://maven.apache.org/shared/maven-shared-utils/) org.apache.maven.shared:maven-shared-utils:jar:3.3.4
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - SureFire Logger API (https://maven.apache.org/surefire/surefire-logger-api/) org.apache.maven.surefire:surefire-logger-api:jar:3.0.0-M7
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Surefire Shared Utils (https://maven.apache.org/surefire/surefire-shared-utils/) org.apache.maven.surefire:surefire-shared-utils:jar:3.0.0-M7
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+...
+
+33 /       36 target/reference/maven-surefire-plugin-3.0.0-M7.jar maven-surefire-plugin/target/maven-surefire-plugin-3.0.0-M7.jar
+--- target/reference/maven-surefire-plugin-3.0.0-M7.jar
++++ maven-surefire-plugin/target/maven-surefire-plugin-3.0.0-M7.jar
+├── zipinfo {}
+│ @@ -1,21 +1,21 @@
+│ -Zip file size: 44051 bytes, number of entries: 19
+│ +Zip file size: 44153 bytes, number of entries: 19
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 META-INF/
+│  -rw-r--r--  2.0 unx      341 b- defN 22-Jun-03 09:23 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 META-INF/maven/org.apache.maven.plugins/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 META-INF/maven/org.apache.maven.plugins/maven-surefire-plugin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/apache/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/apache/maven/plugin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/apache/maven/plugin/surefire/
+│ --rw-r--r--  2.0 unx     3094 b- defN 22-Jun-03 09:23 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx     3752 b- defN 22-Jun-03 09:23 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Jun-03 09:23 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      178 b- defN 22-Jun-03 09:23 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx    57203 b- defN 22-Jun-03 09:23 META-INF/maven/org.apache.maven.plugins/maven-surefire-plugin/plugin-help.xml
+│ --rw-r--r--  2.0 unx    71562 b- defN 22-Jun-03 09:23 META-INF/maven/plugin.xml
+│ +-rw-r--r--  2.0 unx    72109 b- defN 22-Jun-03 09:23 META-INF/maven/plugin.xml
+│  -rw-r--r--  2.0 unx    11051 b- defN 22-Jun-03 09:23 org/apache/maven/plugin/surefire/HelpMojo.class
+│  -rw-r--r--  2.0 unx    13680 b- defN 22-Jun-03 09:23 org/apache/maven/plugin/surefire/SurefirePlugin.class
+│  -rw-r--r--  2.0 unx     7215 b- defN 22-Jun-03 09:23 META-INF/maven/org.apache.maven.plugins/maven-surefire-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       83 b- defN 22-Jun-03 09:23 META-INF/maven/org.apache.maven.plugins/maven-surefire-plugin/pom.properties
+│ -19 files, 175765 bytes uncompressed, 41317 bytes compressed:  76.5%
+│ +19 files, 176970 bytes uncompressed, 41419 bytes compressed:  76.6%
+├── META-INF/DEPENDENCIES
+│ @@ -17,16 +17,22 @@
+│  From: 'OW2' (http://www.ow2.org/)
+│    - asm (http://asm.ow2.io/) org.ow2.asm:asm:jar:9.2
+│      License: BSD-3-Clause  (https://asm.ow2.io/license.html)
+│  
+│  From: 'The Apache Software Foundation' (https://www.apache.org/)
+│    - Apache Commons IO (https://commons.apache.org/proper/commons-io/) commons-io:commons-io:jar:2.11.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Commons Compress (https://commons.apache.org/proper/commons-compress/) org.apache.commons:commons-compress:jar:1.21
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Commons Lang (https://commons.apache.org/proper/commons-lang/) org.apache.commons:commons-lang3:jar:3.12.0
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache Maven Common Artifact Filters (https://maven.apache.org/shared/maven-common-artifact-filters/) org.apache.maven.shared:maven-common-artifact-filters:jar:3.1.1
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Maven Shared Utils (https://maven.apache.org/shared/maven-shared-utils/) org.apache.maven.shared:maven-shared-utils:jar:3.3.4
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Maven Surefire Common (https://maven.apache.org/surefire/maven-surefire-common/) org.apache.maven.surefire:maven-surefire-common:jar:3.0.0-M7
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - SureFire API (https://maven.apache.org/surefire/surefire-api/) org.apache.maven.surefire:surefire-api:jar:3.0.0-M7
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - SureFire Booter (https://maven.apache.org/surefire/surefire-booter/) org.apache.maven.surefire:surefire-booter:jar:3.0.0-M7
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Surefire Extensions API (https://maven.apache.org/surefire/surefire-extensions-api/) org.apache.maven.surefire:surefire-extensions-api:jar:3.0.0-M7
+├── META-INF/maven/plugin.xml
+│ ├── META-INF/maven/plugin.xml
+│ │ @@ -1371,9 +1371,27 @@
+│ │      </dependency>
+│ │      <dependency>
+│ │        <groupId>org.apache.maven.surefire</groupId>
+│ │        <artifactId>surefire-shared-utils</artifactId>
+│ │        <type>jar</type>
+│ │        <version>3.0.0-M7</version>
+│ │      </dependency>
+│ │ +    <dependency>
+│ │ +      <groupId>org.apache.maven.shared</groupId>
+│ │ +      <artifactId>maven-shared-utils</artifactId>
+│ │ +      <type>jar</type>
+│ │ +      <version>3.3.4</version>
+│ │ +    </dependency>
+│ │ +    <dependency>
+│ │ +      <groupId>org.apache.commons</groupId>
+│ │ +      <artifactId>commons-lang3</artifactId>
+│ │ +      <type>jar</type>
+│ │ +      <version>3.12.0</version>
+│ │ +    </dependency>
+│ │ +    <dependency>
+│ │ +      <groupId>org.apache.commons</groupId>
+│ │ +      <artifactId>commons-compress</artifactId>
+│ │ +      <type>jar</type>
+│ │ +      <version>1.21</version>
+│ │ +    </dependency>
+│ │    </dependencies>
+│ │  </plugin>
+
+34 /       36 target/reference/maven-surefire-plugin-3.0.0-M7-sources.jar maven-surefire-plugin/target/maven-surefire-plugin-3.0.0-M7-sources.jar
+--- target/reference/maven-surefire-plugin-3.0.0-M7-sources.jar
++++ maven-surefire-plugin/target/maven-surefire-plugin-3.0.0-M7-sources.jar
+├── zipinfo {}
+│ @@ -1,19 +1,19 @@
+│ -Zip file size: 20538 bytes, number of entries: 17
+│ +Zip file size: 20599 bytes, number of entries: 17
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Jun-03 09:23 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/apache/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/apache/maven/plugin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/apache/maven/plugin/surefire/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 META-INF/maven/org.apache.maven.plugins/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 META-INF/maven/org.apache.maven.plugins/maven-surefire-plugin/
+│ --rw-r--r--  2.0 unx     3094 b- defN 22-Jun-03 09:23 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx     3752 b- defN 22-Jun-03 09:23 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Jun-03 09:23 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      178 b- defN 22-Jun-03 09:23 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx    33924 b- defN 22-Jun-03 09:23 org/apache/maven/plugin/surefire/SurefirePlugin.java
+│  -rw-r--r--  2.0 unx    14967 b- defN 22-Jun-03 09:23 org/apache/maven/plugin/surefire/HelpMojo.java
+│  -rw-r--r--  2.0 unx     7215 b- defN 22-Jun-03 09:23 META-INF/maven/org.apache.maven.plugins/maven-surefire-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       83 b- defN 22-Jun-03 09:23 META-INF/maven/org.apache.maven.plugins/maven-surefire-plugin/pom.properties
+│ -17 files, 70883 bytes uncompressed, 18164 bytes compressed:  74.4%
+│ +17 files, 71541 bytes uncompressed, 18225 bytes compressed:  74.5%
+├── META-INF/DEPENDENCIES
+│ @@ -17,16 +17,22 @@
+│  From: 'OW2' (http://www.ow2.org/)
+│    - asm (http://asm.ow2.io/) org.ow2.asm:asm:jar:9.2
+│      License: BSD-3-Clause  (https://asm.ow2.io/license.html)
+│  
+│  From: 'The Apache Software Foundation' (https://www.apache.org/)
+│    - Apache Commons IO (https://commons.apache.org/proper/commons-io/) commons-io:commons-io:jar:2.11.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Commons Compress (https://commons.apache.org/proper/commons-compress/) org.apache.commons:commons-compress:jar:1.21
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Commons Lang (https://commons.apache.org/proper/commons-lang/) org.apache.commons:commons-lang3:jar:3.12.0
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache Maven Common Artifact Filters (https://maven.apache.org/shared/maven-common-artifact-filters/) org.apache.maven.shared:maven-common-artifact-filters:jar:3.1.1
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Maven Shared Utils (https://maven.apache.org/shared/maven-shared-utils/) org.apache.maven.shared:maven-shared-utils:jar:3.3.4
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Maven Surefire Common (https://maven.apache.org/surefire/maven-surefire-common/) org.apache.maven.surefire:maven-surefire-common:jar:3.0.0-M7
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - SureFire API (https://maven.apache.org/surefire/surefire-api/) org.apache.maven.surefire:surefire-api:jar:3.0.0-M7
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - SureFire Booter (https://maven.apache.org/surefire/surefire-booter/) org.apache.maven.surefire:surefire-booter:jar:3.0.0-M7
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Surefire Extensions API (https://maven.apache.org/surefire/surefire-extensions-api/) org.apache.maven.surefire:surefire-extensions-api:jar:3.0.0-M7
+
+35 /       36 target/reference/maven-failsafe-plugin-3.0.0-M7.jar maven-failsafe-plugin/target/maven-failsafe-plugin-3.0.0-M7.jar
+--- target/reference/maven-failsafe-plugin-3.0.0-M7.jar
++++ maven-failsafe-plugin/target/maven-failsafe-plugin-3.0.0-M7.jar
+├── zipinfo {}
+│ @@ -1,24 +1,24 @@
+│ -Zip file size: 53514 bytes, number of entries: 22
+│ +Zip file size: 53616 bytes, number of entries: 22
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 META-INF/
+│  -rw-r--r--  2.0 unx      341 b- defN 22-Jun-03 09:23 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 META-INF/maven/org.apache.maven.plugins/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 META-INF/maven/org.apache.maven.plugins/maven-failsafe-plugin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/apache/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/apache/maven/plugin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/apache/maven/plugin/failsafe/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/apache/maven/plugin/failsafe/util/
+│ --rw-r--r--  2.0 unx     3094 b- defN 22-Jun-03 09:23 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx     3752 b- defN 22-Jun-03 09:23 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Jun-03 09:23 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      178 b- defN 22-Jun-03 09:23 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx    63872 b- defN 22-Jun-03 09:23 META-INF/maven/org.apache.maven.plugins/maven-failsafe-plugin/plugin-help.xml
+│ --rw-r--r--  2.0 unx    79263 b- defN 22-Jun-03 09:23 META-INF/maven/plugin.xml
+│ +-rw-r--r--  2.0 unx    79810 b- defN 22-Jun-03 09:23 META-INF/maven/plugin.xml
+│  -rw-r--r--  2.0 unx    11051 b- defN 22-Jun-03 09:23 org/apache/maven/plugin/failsafe/HelpMojo.class
+│  -rw-r--r--  2.0 unx    15450 b- defN 22-Jun-03 09:23 org/apache/maven/plugin/failsafe/IntegrationTestMojo.class
+│  -rw-r--r--  2.0 unx     8133 b- defN 22-Jun-03 09:23 org/apache/maven/plugin/failsafe/VerifyMojo.class
+│  -rw-r--r--  2.0 unx     5843 b- defN 22-Jun-03 09:23 org/apache/maven/plugin/failsafe/util/FailsafeSummaryXmlUtils.class
+│  -rw-r--r--  2.0 unx    12737 b- defN 22-Jun-03 09:23 META-INF/maven/org.apache.maven.plugins/maven-failsafe-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       83 b- defN 22-Jun-03 09:23 META-INF/maven/org.apache.maven.plugins/maven-failsafe-plugin/pom.properties
+│ -22 files, 211403 bytes uncompressed, 50234 bytes compressed:  76.2%
+│ +22 files, 212608 bytes uncompressed, 50336 bytes compressed:  76.3%
+├── META-INF/DEPENDENCIES
+│ @@ -17,16 +17,22 @@
+│  From: 'OW2' (http://www.ow2.org/)
+│    - asm (http://asm.ow2.io/) org.ow2.asm:asm:jar:9.2
+│      License: BSD-3-Clause  (https://asm.ow2.io/license.html)
+│  
+│  From: 'The Apache Software Foundation' (https://www.apache.org/)
+│    - Apache Commons IO (https://commons.apache.org/proper/commons-io/) commons-io:commons-io:jar:2.11.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Commons Compress (https://commons.apache.org/proper/commons-compress/) org.apache.commons:commons-compress:jar:1.21
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Commons Lang (https://commons.apache.org/proper/commons-lang/) org.apache.commons:commons-lang3:jar:3.12.0
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache Maven Common Artifact Filters (https://maven.apache.org/shared/maven-common-artifact-filters/) org.apache.maven.shared:maven-common-artifact-filters:jar:3.1.1
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Maven Shared Utils (https://maven.apache.org/shared/maven-shared-utils/) org.apache.maven.shared:maven-shared-utils:jar:3.3.4
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Maven Surefire Common (https://maven.apache.org/surefire/maven-surefire-common/) org.apache.maven.surefire:maven-surefire-common:jar:3.0.0-M7
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - SureFire API (https://maven.apache.org/surefire/surefire-api/) org.apache.maven.surefire:surefire-api:jar:3.0.0-M7
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - SureFire Booter (https://maven.apache.org/surefire/surefire-booter/) org.apache.maven.surefire:surefire-booter:jar:3.0.0-M7
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Surefire Extensions API (https://maven.apache.org/surefire/surefire-extensions-api/) org.apache.maven.surefire:surefire-extensions-api:jar:3.0.0-M7
+├── META-INF/maven/plugin.xml
+│ ├── META-INF/maven/plugin.xml
+│ │ @@ -1534,9 +1534,27 @@
+│ │      </dependency>
+│ │      <dependency>
+│ │        <groupId>org.apache.maven.surefire</groupId>
+│ │        <artifactId>surefire-shared-utils</artifactId>
+│ │        <type>jar</type>
+│ │        <version>3.0.0-M7</version>
+│ │      </dependency>
+│ │ +    <dependency>
+│ │ +      <groupId>org.apache.maven.shared</groupId>
+│ │ +      <artifactId>maven-shared-utils</artifactId>
+│ │ +      <type>jar</type>
+│ │ +      <version>3.3.4</version>
+│ │ +    </dependency>
+│ │ +    <dependency>
+│ │ +      <groupId>org.apache.commons</groupId>
+│ │ +      <artifactId>commons-lang3</artifactId>
+│ │ +      <type>jar</type>
+│ │ +      <version>3.12.0</version>
+│ │ +    </dependency>
+│ │ +    <dependency>
+│ │ +      <groupId>org.apache.commons</groupId>
+│ │ +      <artifactId>commons-compress</artifactId>
+│ │ +      <type>jar</type>
+│ │ +      <version>1.21</version>
+│ │ +    </dependency>
+│ │    </dependencies>
+│ │  </plugin>
+
+36 /       36 target/reference/maven-failsafe-plugin-3.0.0-M7-sources.jar maven-failsafe-plugin/target/maven-failsafe-plugin-3.0.0-M7-sources.jar
+--- target/reference/maven-failsafe-plugin-3.0.0-M7-sources.jar
++++ maven-failsafe-plugin/target/maven-failsafe-plugin-3.0.0-M7-sources.jar
+├── zipinfo {}
+│ @@ -1,23 +1,23 @@
+│ -Zip file size: 27910 bytes, number of entries: 21
+│ +Zip file size: 27973 bytes, number of entries: 21
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Jun-03 09:23 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/apache/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/apache/maven/plugin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/apache/maven/plugin/failsafe/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 org/apache/maven/plugin/failsafe/util/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 META-INF/maven/org.apache.maven.plugins/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-03 09:23 META-INF/maven/org.apache.maven.plugins/maven-failsafe-plugin/
+│ --rw-r--r--  2.0 unx     3094 b- defN 22-Jun-03 09:23 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx     3752 b- defN 22-Jun-03 09:23 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Jun-03 09:23 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      178 b- defN 22-Jun-03 09:23 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx    35804 b- defN 22-Jun-03 09:23 org/apache/maven/plugin/failsafe/IntegrationTestMojo.java
+│  -rw-r--r--  2.0 unx    11387 b- defN 22-Jun-03 09:23 org/apache/maven/plugin/failsafe/VerifyMojo.java
+│  -rw-r--r--  2.0 unx     1006 b- defN 22-Jun-03 09:23 org/apache/maven/plugin/failsafe/package.html
+│  -rw-r--r--  2.0 unx     5808 b- defN 22-Jun-03 09:23 org/apache/maven/plugin/failsafe/util/FailsafeSummaryXmlUtils.java
+│  -rw-r--r--  2.0 unx    14967 b- defN 22-Jun-03 09:23 org/apache/maven/plugin/failsafe/HelpMojo.java
+│  -rw-r--r--  2.0 unx    12737 b- defN 22-Jun-03 09:23 META-INF/maven/org.apache.maven.plugins/maven-failsafe-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       83 b- defN 22-Jun-03 09:23 META-INF/maven/org.apache.maven.plugins/maven-failsafe-plugin/pom.properties
+│ -21 files, 96486 bytes uncompressed, 24828 bytes compressed:  74.3%
+│ +21 files, 97144 bytes uncompressed, 24891 bytes compressed:  74.4%
+├── META-INF/DEPENDENCIES
+│ @@ -17,16 +17,22 @@
+│  From: 'OW2' (http://www.ow2.org/)
+│    - asm (http://asm.ow2.io/) org.ow2.asm:asm:jar:9.2
+│      License: BSD-3-Clause  (https://asm.ow2.io/license.html)
+│  
+│  From: 'The Apache Software Foundation' (https://www.apache.org/)
+│    - Apache Commons IO (https://commons.apache.org/proper/commons-io/) commons-io:commons-io:jar:2.11.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Commons Compress (https://commons.apache.org/proper/commons-compress/) org.apache.commons:commons-compress:jar:1.21
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Commons Lang (https://commons.apache.org/proper/commons-lang/) org.apache.commons:commons-lang3:jar:3.12.0
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache Maven Common Artifact Filters (https://maven.apache.org/shared/maven-common-artifact-filters/) org.apache.maven.shared:maven-common-artifact-filters:jar:3.1.1
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Maven Shared Utils (https://maven.apache.org/shared/maven-shared-utils/) org.apache.maven.shared:maven-shared-utils:jar:3.3.4
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Maven Surefire Common (https://maven.apache.org/surefire/maven-surefire-common/) org.apache.maven.surefire:maven-surefire-common:jar:3.0.0-M7
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - SureFire API (https://maven.apache.org/surefire/surefire-api/) org.apache.maven.surefire:surefire-api:jar:3.0.0-M7
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - SureFire Booter (https://maven.apache.org/surefire/surefire-booter/) org.apache.maven.surefire:surefire-booter:jar:3.0.0-M7
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Surefire Extensions API (https://maven.apache.org/surefire/surefire-extensions-api/) org.apache.maven.surefire:surefire-extensions-api:jar:3.0.0-M7
+
