@@ -1,0 +1,1033 @@
+...
+
+3 /       11 target/reference/struts2-convention-plugin-6.0.0.jar plugins/convention/target/struts2-convention-plugin-6.0.0.jar
+--- target/reference/struts2-convention-plugin-6.0.0.jar
++++ plugins/convention/target/struts2-convention-plugin-6.0.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 89096 bytes, number of entries: 63
+│ +Zip file size: 89097 bytes, number of entries: 63
+│  -rw-r--r--  2.0 unx     2307 b- defN 22-Jun-02 07:06 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 org/apache/struts2/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 org/apache/struts2/convention/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 org/apache/struts2/convention/annotation/
+│ @@ -58,8 +58,8 @@
+│  -rw-r--r--  2.0 unx      589 b- defN 22-Jun-02 07:06 org/apache/struts2/convention/annotation/Result.class
+│  -rw-r--r--  2.0 unx      518 b- defN 22-Jun-02 07:06 org/apache/struts2/convention/annotation/ResultPath.class
+│  -rw-r--r--  2.0 unx      469 b- defN 22-Jun-02 07:06 org/apache/struts2/convention/annotation/Results.class
+│  -rw-r--r--  2.0 unx    11897 b- defN 22-Jun-02 07:06 org/apache/struts2/convention/config/entities/ConventionConstantConfig.class
+│  -rw-r--r--  2.0 unx     4509 b- defN 22-Jun-02 07:06 struts-plugin.xml
+│  -rw-r--r--  2.0 unx     2883 b- defN 22-Jun-02 07:06 META-INF/maven/org.apache.struts/struts2-convention-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       77 b- defN 22-Jun-02 07:06 META-INF/maven/org.apache.struts/struts2-convention-plugin/pom.properties
+│ -63 files, 203105 bytes uncompressed, 77950 bytes compressed:  61.6%
+│ +63 files, 203105 bytes uncompressed, 77951 bytes compressed:  61.6%
+├── META-INF/MANIFEST.MF
+│ @@ -27,16 +27,16 @@
+│  Implementation-Vendor: Apache Software Foundation
+
+│  Export-Package: org.apache.struts2.convention;uses:="com.opensymphony.
+
+│   xwork2,com.opensymphony.xwork2.config,com.opensymphony.xwork2.config.
+
+│   entities,com.opensymphony.xwork2.inject,com.opensymphony.xwork2.util.
+
+│   finder,com.opensymphony.xwork2.util.location,javax.servlet,org.apache
+
+│   .struts2,org.apache.struts2.convention.annotation,org.apache.struts2.
+
+│   dispatcher,org.objectweb.asm";version="6.0.0",org.apache.struts2.conv
+
+│ - ention.config.entities;uses:="org.apache.struts2.config.entities";ver
+
+│ - sion="6.0.0",org.apache.struts2.convention.annotation;version="6.0.0"
+
+│ + ention.annotation;version="6.0.0",org.apache.struts2.convention.confi
+
+│ + g.entities;uses:="org.apache.struts2.config.entities";version="6.0.0"
+
+│  Bundle-Name: Struts 2 Convention Plugin
+
+│  Bundle-Version: 6.0.0
+
+│  Bundle-Activator: org.apache.struts2.osgi.StrutsActivator
+
+│  Build-Jdk-Spec: 1.8
+
+│  Created-By: Apache Maven Bundle Plugin 5.1.6
+
+│  Specification-Version: 6.0
+
+...
+
+10 /       11 target/reference/struts2-showcase-6.0.0.war apps/showcase/target/struts2-showcase.war
+--- target/reference/struts2-showcase-6.0.0.war
++++ apps/showcase/target/struts2-showcase.war
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 18459909 bytes, number of entries: 875
+│ +Zip file size: 18270226 bytes, number of entries: 661
+│  -rw-r--r--  2.0 unx       82 b- defN 22-Jun-02 07:06 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/actionchaining/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/bean-validation/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/classes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/classes/META-INF/
+│ @@ -49,53 +49,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/filedownload/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/fileupload/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/freemarker/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/hangman/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/lib/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/modelDriven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/person/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/myTemplateDir/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/myTemplateDir/myTheme/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/action/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/actionchaining/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/ajax/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/ajax/tree/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/application/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/async/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/chat/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/conversion/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/dao/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/exception/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/filedownload/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/fileupload/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/freemarker/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/hangman/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/model/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/modelDriven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/person/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/source/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/tag/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/tag/nonui/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/tag/nonui/actionPrefix/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/tag/nonui/actiontag/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/tag/nonui/debugtag/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/tag/nonui/iteratortag/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/tiles/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/token/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/validation/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/wait/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/xslt/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/template/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/src/java/template/ajaxErrorContainers/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/tags/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/tags/non-ui/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/tags/non-ui/actionPrefix/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/tags/non-ui/actionTag/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/tags/non-ui/ifTag/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/tags/non-ui/iteratorTag/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-02 07:06 WEB-INF/tags/ui/
+│ @@ -501,22 +462,22 @@
+│  -rw-r--r--  2.0 unx  1482625 b- defN 22-Jun-02 07:06 WEB-INF/lib/spring-core-5.3.20.jar
+│  -rw-r--r--  2.0 unx   289392 b- defN 22-Jun-02 07:06 WEB-INF/lib/spring-expression-5.3.20.jar
+│  -rw-r--r--  2.0 unx    24437 b- defN 22-Jun-02 07:06 WEB-INF/lib/spring-jcl-5.3.20.jar
+│  -rw-r--r--  2.0 unx  1639981 b- defN 22-Jun-02 07:06 WEB-INF/lib/spring-web-5.3.20.jar
+│  -rw-r--r--  2.0 unx    13779 b- defN 22-Jun-02 07:06 WEB-INF/lib/struts2-async-plugin-6.0.0.jar
+│  -rw-r--r--  2.0 unx    25918 b- defN 22-Jun-02 07:06 WEB-INF/lib/struts2-bean-validation-plugin-6.0.0.jar
+│  -rw-r--r--  2.0 unx    45264 b- defN 22-Jun-02 07:06 WEB-INF/lib/struts2-config-browser-plugin-6.0.0.jar
+│ --rw-r--r--  2.0 unx    89096 b- defN 22-Jun-02 07:06 WEB-INF/lib/struts2-convention-plugin-6.0.0.jar
+│ --rw-r--r--  2.0 unx  1583510 b- defN 22-Jun-02 07:06 WEB-INF/lib/struts2-core-6.0.0.jar
+│ +-rw-r--r--  2.0 unx    89097 b- defN 22-Jun-02 07:06 WEB-INF/lib/struts2-convention-plugin-6.0.0.jar
+│ +-rw-r--r--  2.0 unx  1583515 b- defN 22-Jun-02 07:06 WEB-INF/lib/struts2-core-6.0.0.jar
+│  -rw-r--r--  2.0 unx    10951 b- defN 22-Jun-02 07:06 WEB-INF/lib/struts2-dwr-plugin-6.0.0.jar
+│  -rw-r--r--  2.0 unx    81076 b- defN 22-Jun-02 07:06 WEB-INF/lib/struts2-json-plugin-6.0.0.jar
+│  -rw-r--r--  2.0 unx    36634 b- defN 22-Jun-02 07:06 WEB-INF/lib/struts2-sitemesh-plugin-6.0.0.jar
+│ --rw-r--r--  2.0 unx    31648 b- defN 22-Jun-02 07:06 WEB-INF/lib/struts2-spring-plugin-6.0.0.jar
+│ +-rw-r--r--  2.0 unx    31651 b- defN 22-Jun-02 07:06 WEB-INF/lib/struts2-spring-plugin-6.0.0.jar
+│  -rw-r--r--  2.0 unx    39867 b- defN 22-Jun-02 07:06 WEB-INF/lib/struts2-tiles-plugin-6.0.0.jar
+│ --rw-r--r--  2.0 unx    56599 b- defN 22-Jun-02 07:06 WEB-INF/lib/struts2-velocity-plugin-6.0.0.jar
+│ +-rw-r--r--  2.0 unx    56592 b- defN 22-Jun-02 07:06 WEB-INF/lib/struts2-velocity-plugin-6.0.0.jar
+│  -rw-r--r--  2.0 unx    30126 b- defN 22-Jun-02 07:06 WEB-INF/lib/tiles-api-3.0.8.jar
+│  -rw-r--r--  2.0 unx    11928 b- defN 22-Jun-02 07:06 WEB-INF/lib/tiles-autotag-core-runtime-1.2.jar
+│  -rw-r--r--  2.0 unx    81567 b- defN 22-Jun-02 07:06 WEB-INF/lib/tiles-core-3.0.8.jar
+│  -rw-r--r--  2.0 unx    18465 b- defN 22-Jun-02 07:06 WEB-INF/lib/tiles-el-3.0.8.jar
+│  -rw-r--r--  2.0 unx    23644 b- defN 22-Jun-02 07:06 WEB-INF/lib/tiles-freemarker-3.0.8.jar
+│  -rw-r--r--  2.0 unx    35405 b- defN 22-Jun-02 07:06 WEB-INF/lib/tiles-jsp-3.0.8.jar
+│  -rw-r--r--  2.0 unx    16319 b- defN 22-Jun-02 07:06 WEB-INF/lib/tiles-ognl-3.0.8.jar
+│ @@ -536,189 +497,14 @@
+│  -rw-r--r--  2.0 unx     2390 b- defN 22-Jun-02 07:06 WEB-INF/person/edit-person.jsp
+│  -rw-r--r--  2.0 unx     1930 b- defN 22-Jun-02 07:06 WEB-INF/person/list-people.ftl
+│  -rw-r--r--  2.0 unx     2465 b- defN 22-Jun-02 07:06 WEB-INF/person/new-person.ftl
+│  -rw-r--r--  2.0 unx     1577 b- defN 22-Jun-02 07:06 WEB-INF/showcase.jsp
+│  -rw-r--r--  2.0 unx     3370 b- defN 22-Jun-02 07:06 WEB-INF/sitemesh-decorator.tld
+│  -rw-r--r--  2.0 unx     3787 b- defN 22-Jun-02 07:06 WEB-INF/sitemesh-page.tld
+│  -rw-r--r--  2.0 unx     2931 b- defN 22-Jun-02 07:06 WEB-INF/sitemesh.xml
+│ --rw-r--r--  2.0 unx    10141 b- defN 22-Jun-02 07:06 WEB-INF/src/java/LICENSE.txt
+│ --rw-r--r--  2.0 unx      229 b- defN 22-Jun-02 07:06 WEB-INF/src/java/NOTICE.txt
+│ --rw-r--r--  2.0 unx      979 b- defN 22-Jun-02 07:06 WEB-INF/src/java/globalMessages.properties
+│ --rw-r--r--  2.0 unx      975 b- defN 22-Jun-02 07:06 WEB-INF/src/java/globalMessages_de.properties
+│ --rw-r--r--  2.0 unx      787 b- defN 22-Jun-02 07:06 WEB-INF/src/java/globalMessages_en.properties
+│ --rw-r--r--  2.0 unx     1354 b- defN 22-Jun-02 07:06 WEB-INF/src/java/log4j2.xml
+│ --rw-r--r--  2.0 unx      948 b- defN 22-Jun-02 07:06 WEB-INF/src/java/myTemplateDir/myTheme/myAnotherTemplate.ftl
+│ --rw-r--r--  2.0 unx     2224 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/DateAction.java
+│ --rw-r--r--  2.0 unx      826 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/DateAction.properties
+│ --rw-r--r--  2.0 unx     1523 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/DynamicTreeSelectAction.java
+│ --rw-r--r--  2.0 unx     7037 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/LotsOfOptiontransferselectAction.java
+│ --rw-r--r--  2.0 unx     1652 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/LotsOfRichtexteditorAction-lotsOfRichtexteditorSubmit-validation.xml
+│ --rw-r--r--  2.0 unx     1918 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/LotsOfRichtexteditorAction.java
+│ --rw-r--r--  2.0 unx     3639 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/MoreSelectsAction.java
+│ --rw-r--r--  2.0 unx     1232 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/ShowAjaxDynamicTreeAction.java
+│ --rw-r--r--  2.0 unx     1181 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/ShowDynamicTreeAction.java
+│ --rw-r--r--  2.0 unx      823 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/UITagExample-conversion.properties
+│ --rw-r--r--  2.0 unx     7702 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/UITagExample.java
+│ --rw-r--r--  2.0 unx     2895 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/action/AbstractCRUDAction.java
+│ --rw-r--r--  2.0 unx      828 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/action/EmployeeAction-conversion.properties
+│ --rw-r--r--  2.0 unx     1636 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/action/EmployeeAction-validation.xml
+│ --rw-r--r--  2.0 unx     3426 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/action/EmployeeAction.java
+│ --rw-r--r--  2.0 unx     1075 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/action/EmployeeAction.properties
+│ --rw-r--r--  2.0 unx     1104 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/action/EmployeeAction_de.properties
+│ --rw-r--r--  2.0 unx      787 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/action/EmployeeAction_en.properties
+│ --rw-r--r--  2.0 unx     2125 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/action/ExampleAction.java
+│ --rw-r--r--  2.0 unx     2062 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/action/JSPEvalAction.java
+│ --rw-r--r--  2.0 unx     1265 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/action/SkillAction-validation.xml
+│ --rw-r--r--  2.0 unx     2288 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/action/SkillAction.java
+│ --rw-r--r--  2.0 unx      920 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/action/SkillAction.properties
+│ --rw-r--r--  2.0 unx      942 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/action/SkillAction_de.properties
+│ --rw-r--r--  2.0 unx     1376 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/actionchaining/ActionChain1.java
+│ --rw-r--r--  2.0 unx     1625 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/actionchaining/ActionChain2.java
+│ --rw-r--r--  2.0 unx     1875 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/actionchaining/ActionChain3.java
+│ --rw-r--r--  2.0 unx     1345 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/ajax/AjaxTestAction.java
+│ --rw-r--r--  2.0 unx     1668 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/ajax/AutocompleterExampleAction.java
+│ --rw-r--r--  2.0 unx     1857 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/ajax/Example4ShowPanelAction.java
+│ --rw-r--r--  2.0 unx     1350 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/ajax/Example5Action.java
+│ --rw-r--r--  2.0 unx     2538 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/ajax/tree/Category.java
+│ --rw-r--r--  2.0 unx     1303 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/ajax/tree/GetCategory.java
+│ --rw-r--r--  2.0 unx     1031 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/ajax/tree/Toggle.java
+│ --rw-r--r--  2.0 unx     4141 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/application/MemoryStorage.java
+│ --rw-r--r--  2.0 unx     1652 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/application/Storage.java
+│ --rw-r--r--  2.0 unx     3560 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/application/TestDataProvider.java
+│ --rw-r--r--  2.0 unx     1949 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/async/AsyncFilter.java
+│ --rw-r--r--  2.0 unx     2106 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/async/ChatRoomAction.java
+│ --rw-r--r--  2.0 unx     1844 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/chat/ChatAuthenticationInterceptor.java
+│ --rw-r--r--  2.0 unx     1151 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/chat/ChatException.java
+│ --rw-r--r--  2.0 unx     1919 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/chat/ChatInterceptor.java
+│ --rw-r--r--  2.0 unx     1791 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/chat/ChatLoginAction.java
+│ --rw-r--r--  2.0 unx     1640 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/chat/ChatLogoutAction.java
+│ --rw-r--r--  2.0 unx     1378 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/chat/ChatMessage.java
+│ --rw-r--r--  2.0 unx     1343 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/chat/ChatService.java
+│ --rw-r--r--  2.0 unx     3902 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/chat/ChatServiceImpl.java
+│ --rw-r--r--  2.0 unx     1970 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/chat/ChatSessionListener.java
+│ --rw-r--r--  2.0 unx      932 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/chat/Constants.java
+│ --rw-r--r--  2.0 unx     1638 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/chat/CrudRoomAction.java
+│ --rw-r--r--  2.0 unx     2225 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/chat/DateConverter.java
+│ --rw-r--r--  2.0 unx     1780 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/chat/EnterRoomAction.java
+│ --rw-r--r--  2.0 unx     1709 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/chat/ExitRoomAction.java
+│ --rw-r--r--  2.0 unx     1771 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/chat/MessagesAvailableInRoomAction.java
+│ --rw-r--r--  2.0 unx     2474 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/chat/Room.java
+│ --rw-r--r--  2.0 unx     1449 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/chat/RoomsAvailableAction.java
+│ --rw-r--r--  2.0 unx     1948 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/chat/SendMessageToRoomAction.java
+│ --rw-r--r--  2.0 unx     1350 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/chat/User.java
+│ --rw-r--r--  2.0 unx     1450 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/chat/UsersAvailableAction.java
+│ --rw-r--r--  2.0 unx     1740 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/chat/UsersAvailableInRoomAction.java
+│ --rw-r--r--  2.0 unx     1190 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/conversion/Address.java
+│ --rw-r--r--  2.0 unx      908 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/conversion/AddressAction-conversion.properties
+│ --rw-r--r--  2.0 unx     1429 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/conversion/AddressAction.java
+│ --rw-r--r--  2.0 unx     1674 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/conversion/EnumTypeConverter.java
+│ --rw-r--r--  2.0 unx      976 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/conversion/OperationsEnum.java
+│ --rw-r--r--  2.0 unx      946 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/conversion/OperationsEnumAction-conversion.properties
+│ --rw-r--r--  2.0 unx     1703 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/conversion/OperationsEnumAction.java
+│ --rw-r--r--  2.0 unx     1207 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/conversion/Person.java
+│ --rw-r--r--  2.0 unx      851 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/conversion/PersonAction-conversion.properties
+│ --rw-r--r--  2.0 unx     1288 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/conversion/PersonAction.java
+│ --rw-r--r--  2.0 unx     2269 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/dao/AbstractDao.java
+│ --rw-r--r--  2.0 unx     1589 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/dao/Dao.java
+│ --rw-r--r--  2.0 unx     2011 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/dao/EmployeeDao.java
+│ --rw-r--r--  2.0 unx     1240 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/dao/SkillDao.java
+│ --rw-r--r--  2.0 unx     1237 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/exception/CreateException.java
+│ --rw-r--r--  2.0 unx     1239 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/exception/DeleteException.java
+│ --rw-r--r--  2.0 unx     1266 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/exception/DuplicateKeyException.java
+│ --rw-r--r--  2.0 unx     1237 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/exception/StorageException.java
+│ --rw-r--r--  2.0 unx     1240 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/exception/UpdateException.java
+│ --rw-r--r--  2.0 unx     2148 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/filedownload/FileDownloadAction.java
+│ --rw-r--r--  2.0 unx     1383 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/fileupload/FileUploadAction-validation.xml
+│ --rw-r--r--  2.0 unx     2508 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/fileupload/FileUploadAction.java
+│ --rw-r--r--  2.0 unx     2281 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/fileupload/MultipleFileUploadUsingArrayAction.java
+│ --rw-r--r--  2.0 unx      816 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/fileupload/MultipleFileUploadUsingListAction-conversion.properties
+│ --rw-r--r--  2.0 unx     2375 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/fileupload/MultipleFileUploadUsingListAction.java
+│ --rw-r--r--  2.0 unx     2044 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/freemarker/CustomFreemarkerManager.java
+│ --rw-r--r--  2.0 unx     1422 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/freemarker/CustomFreemarkerManagerUtil.java
+│ --rw-r--r--  2.0 unx     1784 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/freemarker/StandardTagsAction.java
+│ --rw-r--r--  2.0 unx     1775 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/hangman/GetUpdatedHangmanAction.java
+│ --rw-r--r--  2.0 unx     1655 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/hangman/GuessCharacterAction.java
+│ --rw-r--r--  2.0 unx     3533 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/hangman/Hangman.java
+│ --rw-r--r--  2.0 unx     1013 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/hangman/HangmanConstants.java
+│ --rw-r--r--  2.0 unx     1215 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/hangman/HangmanException.java
+│ --rw-r--r--  2.0 unx     1107 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/hangman/HangmanService.java
+│ --rw-r--r--  2.0 unx     2141 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/hangman/PropertiesVocabSource.java
+│ --rw-r--r--  2.0 unx     1689 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/hangman/StartHangmanAction.java
+│ --rw-r--r--  2.0 unx     2568 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/hangman/Vocab.java
+│ --rw-r--r--  2.0 unx      922 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/hangman/VocabSource.java
+│ --rw-r--r--  2.0 unx     3880 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/model/Employee.java
+│ --rw-r--r--  2.0 unx     1032 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/model/IdEntity.java
+│ --rw-r--r--  2.0 unx     1817 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/model/Skill.java
+│ --rw-r--r--  2.0 unx     1693 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/modelDriven/Gangster.java
+│ --rw-r--r--  2.0 unx     1374 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/modelDriven/ModelDrivenAction.java
+│ --rw-r--r--  2.0 unx      895 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/person/EditPersonAction-conversion.properties
+│ --rw-r--r--  2.0 unx     2221 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/person/EditPersonAction.java
+│ --rw-r--r--  2.0 unx     1583 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/person/ListPeopleAction.java
+│ --rw-r--r--  2.0 unx     1150 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/person/NewPersonAction-validation.xml
+│ --rw-r--r--  2.0 unx     1658 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/person/NewPersonAction.java
+│ --rw-r--r--  2.0 unx     1357 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/person/Person-validation.xml
+│ --rw-r--r--  2.0 unx     1908 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/person/Person.java
+│ --rw-r--r--  2.0 unx     1762 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/person/PersonManager.java
+│ --rw-r--r--  2.0 unx     1046 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/person/package-info.java
+│ --rw-r--r--  2.0 unx     6329 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/source/ViewSourceAction.java
+│ --rw-r--r--  2.0 unx     1314 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/tag/nonui/actionPrefix/SubmitAction.java
+│ --rw-r--r--  2.0 unx     1185 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/tag/nonui/actiontag/ActionTagDemo.java
+│ --rw-r--r--  2.0 unx     1211 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/tag/nonui/debugtag/DebugTagAction.java
+│ --rw-r--r--  2.0 unx     2270 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/tag/nonui/iteratortag/AppendIteratorTagDemo.java
+│ --rw-r--r--  2.0 unx     1334 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/tag/nonui/iteratortag/IteratorGeneratorTagDemo-validation.xml
+│ --rw-r--r--  2.0 unx     1642 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/tag/nonui/iteratortag/IteratorGeneratorTagDemo.java
+│ --rw-r--r--  2.0 unx     2276 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/tag/nonui/iteratortag/MergeIteratorTagDemo.java
+│ --rw-r--r--  2.0 unx     2069 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/tag/nonui/iteratortag/SubsetIteratorTagDemo.java
+│ --rw-r--r--  2.0 unx     1681 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/tiles/TilesAnnotationsAction.java
+│ --rw-r--r--  2.0 unx     2699 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/token/TokenAction.java
+│ --rw-r--r--  2.0 unx     1133 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/validation/AbstractValidationActionSupport.java
+│ --rw-r--r--  2.0 unx     6383 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/validation/AjaxFormSubmitAction.java
+│ --rw-r--r--  2.0 unx      951 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/validation/AjaxFormSubmitSuccessAction.java
+│ --rw-r--r--  2.0 unx     5554 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/validation/BeanValidationExampleAction.java
+│ --rw-r--r--  2.0 unx      854 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/validation/FieldValidatorsExampleAction-conversion.properties
+│ --rw-r--r--  2.0 unx     3502 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/validation/FieldValidatorsExampleAction-submitClientSideValidationExample-validation.xml
+│ --rw-r--r--  2.0 unx     3232 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/validation/FieldValidatorsExampleAction-submitFieldValidatorsExamples-validation.xml
+│ --rw-r--r--  2.0 unx     3777 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/validation/FieldValidatorsExampleAction.java
+│ --rw-r--r--  2.0 unx      844 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/validation/FieldValidatorsExampleAction.properties
+│ --rw-r--r--  2.0 unx     1387 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/validation/NonFieldValidatorsExampleAction-submitNonFieldValidatorsExamples-validation.xml
+│ --rw-r--r--  2.0 unx     1714 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/validation/NonFieldValidatorsExampleAction.java
+│ --rw-r--r--  2.0 unx     1753 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/validation/QuizAction-validation.xml
+│ --rw-r--r--  2.0 unx     1461 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/validation/QuizAction.java
+│ --rw-r--r--  2.0 unx     1472 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/validation/SubmitApplication-submitApplication-validation.xml
+│ --rw-r--r--  2.0 unx     1604 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/validation/SubmitApplication.java
+│ --rw-r--r--  2.0 unx     1481 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/validation/User-userContext-validation.xml
+│ --rw-r--r--  2.0 unx     1325 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/validation/User.java
+│ --rw-r--r--  2.0 unx     1330 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/validation/VisitorValidatorsExampleAction-submitVisitorValidatorsExamples-validation.xml
+│ --rw-r--r--  2.0 unx     1235 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/validation/VisitorValidatorsExampleAction.java
+│ --rw-r--r--  2.0 unx     1318 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/wait/LongProcessAction.java
+│ --rw-r--r--  2.0 unx     2627 b- defN 22-Jun-02 07:06 WEB-INF/src/java/org/apache/struts2/showcase/xslt/JVMAction.java
+│ --rw-r--r--  2.0 unx     1601 b- defN 22-Jun-02 07:06 WEB-INF/src/java/struts-actionchaining.xml
+│ --rw-r--r--  2.0 unx     1882 b- defN 22-Jun-02 07:06 WEB-INF/src/java/struts-async.xml
+│ --rw-r--r--  2.0 unx     4253 b- defN 22-Jun-02 07:06 WEB-INF/src/java/struts-conversion.xml
+│ --rw-r--r--  2.0 unx     2293 b- defN 22-Jun-02 07:06 WEB-INF/src/java/struts-filedownload.xml
+│ --rw-r--r--  2.0 unx     2440 b- defN 22-Jun-02 07:06 WEB-INF/src/java/struts-fileupload.xml
+│ --rw-r--r--  2.0 unx     1497 b- defN 22-Jun-02 07:06 WEB-INF/src/java/struts-freemarker.xml
+│ --rw-r--r--  2.0 unx     2613 b- defN 22-Jun-02 07:06 WEB-INF/src/java/struts-hangman.xml
+│ --rw-r--r--  2.0 unx     1723 b- defN 22-Jun-02 07:06 WEB-INF/src/java/struts-interactive.xml
+│ --rw-r--r--  2.0 unx     1630 b- defN 22-Jun-02 07:06 WEB-INF/src/java/struts-model-driven.xml
+│ --rw-r--r--  2.0 unx     1165 b- defN 22-Jun-02 07:06 WEB-INF/src/java/struts-person.xml
+│ --rw-r--r--  2.0 unx     8020 b- defN 22-Jun-02 07:06 WEB-INF/src/java/struts-tags-non-ui.xml
+│ --rw-r--r--  2.0 unx     5043 b- defN 22-Jun-02 07:06 WEB-INF/src/java/struts-tags-ui.xml
+│ --rw-r--r--  2.0 unx     1103 b- defN 22-Jun-02 07:06 WEB-INF/src/java/struts-tags.xml
+│ --rw-r--r--  2.0 unx     1767 b- defN 22-Jun-02 07:06 WEB-INF/src/java/struts-tiles.xml
+│ --rw-r--r--  2.0 unx     3678 b- defN 22-Jun-02 07:06 WEB-INF/src/java/struts-token.xml
+│ --rw-r--r--  2.0 unx     8022 b- defN 22-Jun-02 07:06 WEB-INF/src/java/struts-validation.xml
+│ --rw-r--r--  2.0 unx     2699 b- defN 22-Jun-02 07:06 WEB-INF/src/java/struts-wait.xml
+│ --rw-r--r--  2.0 unx     2058 b- defN 22-Jun-02 07:06 WEB-INF/src/java/struts-xslt.xml
+│ --rw-r--r--  2.0 unx     6383 b- defN 22-Jun-02 07:06 WEB-INF/src/java/struts.xml
+│ --rw-r--r--  2.0 unx     1390 b- defN 22-Jun-02 07:06 WEB-INF/src/java/template/ajaxErrorContainers/actionerror.ftl
+│ --rw-r--r--  2.0 unx     1345 b- defN 22-Jun-02 07:06 WEB-INF/src/java/template/ajaxErrorContainers/controlfooter.ftl
+│ --rw-r--r--  2.0 unx     2553 b- defN 22-Jun-02 07:06 WEB-INF/src/java/template/ajaxErrorContainers/controlheader-core.ftl
+│ --rw-r--r--  2.0 unx      803 b- defN 22-Jun-02 07:06 WEB-INF/src/java/template/ajaxErrorContainers/theme.properties
+│ --rw-r--r--  2.0 unx      861 b- defN 22-Jun-02 07:06 WEB-INF/src/java/velocity.properties
+│  -rw-r--r--  2.0 unx     1378 b- defN 22-Jun-02 07:06 WEB-INF/tags/non-ui/actionPrefix/actionPrefix.ftl
+│  -rw-r--r--  2.0 unx     2631 b- defN 22-Jun-02 07:06 WEB-INF/tags/non-ui/actionPrefix/actionPrefixExample.ftl
+│  -rw-r--r--  2.0 unx     1376 b- defN 22-Jun-02 07:06 WEB-INF/tags/non-ui/actionPrefix/methodPrefix.ftl
+│  -rw-r--r--  2.0 unx     1353 b- defN 22-Jun-02 07:06 WEB-INF/tags/non-ui/actionPrefix/normalSubmit.ftl
+│  -rw-r--r--  2.0 unx     1529 b- defN 22-Jun-02 07:06 WEB-INF/tags/non-ui/actionPrefix/redirectActionPrefix.ftl
+│  -rw-r--r--  2.0 unx      843 b- defN 22-Jun-02 07:06 WEB-INF/tags/non-ui/actionTag/includedPage.jsp
+│  -rw-r--r--  2.0 unx      851 b- defN 22-Jun-02 07:06 WEB-INF/tags/non-ui/actionTag/includedPage2.jsp
+│ @@ -870,8 +656,8 @@
+│  -rw-r--r--  2.0 unx      675 b- defN 22-Jun-02 07:06 styles/prettify.css
+│  -rw-r--r--  2.0 unx      992 b- defN 22-Jun-02 07:06 template/xhtml/mytemplate.jsp
+│  -rw-r--r--  2.0 unx     2382 b- defN 22-Jun-02 07:06 token/index.html
+│  -rw-r--r--  2.0 unx     1653 b- defN 22-Jun-02 07:06 wait/index.html
+│  -rw-r--r--  2.0 unx     1681 b- defN 22-Jun-02 07:06 xslt/environment.xsl
+│  -rw-r--r--  2.0 unx     9128 b- defN 22-Jun-02 07:06 META-INF/maven/org.apache.struts/struts2-showcase/pom.xml
+│  -rw-r--r--  2.0 unx       68 b- defN 22-Jun-02 07:06 META-INF/maven/org.apache.struts/struts2-showcase/pom.properties
+│ -875 files, 21927730 bytes uncompressed, 18297173 bytes compressed:  16.6%
+│ +661 files, 21575405 bytes uncompressed, 18152584 bytes compressed:  15.9%
+├── zipnote «TEMP»/diffoscope_re31rncg_target/tmp65_n2md5_.zip
+│ @@ -156,131 +156,14 @@
+│  
+│  Filename: WEB-INF/modelDriven/
+│  Comment: 
+│  
+│  Filename: WEB-INF/person/
+│  Comment: 
+│  
+│ -Filename: WEB-INF/src/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/myTemplateDir/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/myTemplateDir/myTheme/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/action/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/actionchaining/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/ajax/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/ajax/tree/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/application/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/async/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/chat/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/conversion/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/dao/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/exception/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/filedownload/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/fileupload/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/freemarker/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/hangman/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/model/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/modelDriven/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/person/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/source/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/tag/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/tag/nonui/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/tag/nonui/actionPrefix/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/tag/nonui/actiontag/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/tag/nonui/debugtag/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/tag/nonui/iteratortag/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/tiles/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/token/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/validation/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/wait/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/xslt/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/template/
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/template/ajaxErrorContainers/
+│ -Comment: 
+│ -
+│  Filename: WEB-INF/tags/
+│  Comment: 
+│  
+│  Filename: WEB-INF/tags/non-ui/
+│  Comment: 
+│  
+│  Filename: WEB-INF/tags/non-ui/actionPrefix/
+│ @@ -1617,539 +1500,14 @@
+│  
+│  Filename: WEB-INF/sitemesh-page.tld
+│  Comment: 
+│  
+│  Filename: WEB-INF/sitemesh.xml
+│  Comment: 
+│  
+│ -Filename: WEB-INF/src/java/LICENSE.txt
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/NOTICE.txt
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/globalMessages.properties
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/globalMessages_de.properties
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/globalMessages_en.properties
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/log4j2.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/myTemplateDir/myTheme/myAnotherTemplate.ftl
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/DateAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/DateAction.properties
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/DynamicTreeSelectAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/LotsOfOptiontransferselectAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/LotsOfRichtexteditorAction-lotsOfRichtexteditorSubmit-validation.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/LotsOfRichtexteditorAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/MoreSelectsAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/ShowAjaxDynamicTreeAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/ShowDynamicTreeAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/UITagExample-conversion.properties
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/UITagExample.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/action/AbstractCRUDAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/action/EmployeeAction-conversion.properties
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/action/EmployeeAction-validation.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/action/EmployeeAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/action/EmployeeAction.properties
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/action/EmployeeAction_de.properties
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/action/EmployeeAction_en.properties
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/action/ExampleAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/action/JSPEvalAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/action/SkillAction-validation.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/action/SkillAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/action/SkillAction.properties
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/action/SkillAction_de.properties
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/actionchaining/ActionChain1.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/actionchaining/ActionChain2.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/actionchaining/ActionChain3.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/ajax/AjaxTestAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/ajax/AutocompleterExampleAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/ajax/Example4ShowPanelAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/ajax/Example5Action.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/ajax/tree/Category.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/ajax/tree/GetCategory.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/ajax/tree/Toggle.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/application/MemoryStorage.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/application/Storage.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/application/TestDataProvider.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/async/AsyncFilter.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/async/ChatRoomAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/chat/ChatAuthenticationInterceptor.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/chat/ChatException.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/chat/ChatInterceptor.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/chat/ChatLoginAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/chat/ChatLogoutAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/chat/ChatMessage.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/chat/ChatService.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/chat/ChatServiceImpl.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/chat/ChatSessionListener.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/chat/Constants.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/chat/CrudRoomAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/chat/DateConverter.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/chat/EnterRoomAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/chat/ExitRoomAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/chat/MessagesAvailableInRoomAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/chat/Room.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/chat/RoomsAvailableAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/chat/SendMessageToRoomAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/chat/User.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/chat/UsersAvailableAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/chat/UsersAvailableInRoomAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/conversion/Address.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/conversion/AddressAction-conversion.properties
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/conversion/AddressAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/conversion/EnumTypeConverter.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/conversion/OperationsEnum.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/conversion/OperationsEnumAction-conversion.properties
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/conversion/OperationsEnumAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/conversion/Person.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/conversion/PersonAction-conversion.properties
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/conversion/PersonAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/dao/AbstractDao.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/dao/Dao.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/dao/EmployeeDao.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/dao/SkillDao.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/exception/CreateException.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/exception/DeleteException.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/exception/DuplicateKeyException.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/exception/StorageException.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/exception/UpdateException.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/filedownload/FileDownloadAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/fileupload/FileUploadAction-validation.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/fileupload/FileUploadAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/fileupload/MultipleFileUploadUsingArrayAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/fileupload/MultipleFileUploadUsingListAction-conversion.properties
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/fileupload/MultipleFileUploadUsingListAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/freemarker/CustomFreemarkerManager.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/freemarker/CustomFreemarkerManagerUtil.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/freemarker/StandardTagsAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/hangman/GetUpdatedHangmanAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/hangman/GuessCharacterAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/hangman/Hangman.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/hangman/HangmanConstants.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/hangman/HangmanException.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/hangman/HangmanService.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/hangman/PropertiesVocabSource.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/hangman/StartHangmanAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/hangman/Vocab.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/hangman/VocabSource.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/model/Employee.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/model/IdEntity.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/model/Skill.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/modelDriven/Gangster.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/modelDriven/ModelDrivenAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/person/EditPersonAction-conversion.properties
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/person/EditPersonAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/person/ListPeopleAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/person/NewPersonAction-validation.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/person/NewPersonAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/person/Person-validation.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/person/Person.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/person/PersonManager.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/person/package-info.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/source/ViewSourceAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/tag/nonui/actionPrefix/SubmitAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/tag/nonui/actiontag/ActionTagDemo.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/tag/nonui/debugtag/DebugTagAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/tag/nonui/iteratortag/AppendIteratorTagDemo.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/tag/nonui/iteratortag/IteratorGeneratorTagDemo-validation.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/tag/nonui/iteratortag/IteratorGeneratorTagDemo.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/tag/nonui/iteratortag/MergeIteratorTagDemo.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/tag/nonui/iteratortag/SubsetIteratorTagDemo.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/tiles/TilesAnnotationsAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/token/TokenAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/validation/AbstractValidationActionSupport.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/validation/AjaxFormSubmitAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/validation/AjaxFormSubmitSuccessAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/validation/BeanValidationExampleAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/validation/FieldValidatorsExampleAction-conversion.properties
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/validation/FieldValidatorsExampleAction-submitClientSideValidationExample-validation.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/validation/FieldValidatorsExampleAction-submitFieldValidatorsExamples-validation.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/validation/FieldValidatorsExampleAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/validation/FieldValidatorsExampleAction.properties
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/validation/NonFieldValidatorsExampleAction-submitNonFieldValidatorsExamples-validation.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/validation/NonFieldValidatorsExampleAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/validation/QuizAction-validation.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/validation/QuizAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/validation/SubmitApplication-submitApplication-validation.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/validation/SubmitApplication.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/validation/User-userContext-validation.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/validation/User.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/validation/VisitorValidatorsExampleAction-submitVisitorValidatorsExamples-validation.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/validation/VisitorValidatorsExampleAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/wait/LongProcessAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/org/apache/struts2/showcase/xslt/JVMAction.java
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/struts-actionchaining.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/struts-async.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/struts-conversion.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/struts-filedownload.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/struts-fileupload.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/struts-freemarker.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/struts-hangman.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/struts-interactive.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/struts-model-driven.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/struts-person.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/struts-tags-non-ui.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/struts-tags-ui.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/struts-tags.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/struts-tiles.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/struts-token.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/struts-validation.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/struts-wait.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/struts-xslt.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/struts.xml
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/template/ajaxErrorContainers/actionerror.ftl
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/template/ajaxErrorContainers/controlfooter.ftl
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/template/ajaxErrorContainers/controlheader-core.ftl
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/template/ajaxErrorContainers/theme.properties
+│ -Comment: 
+│ -
+│ -Filename: WEB-INF/src/java/velocity.properties
+│ -Comment: 
+│ -
+│  Filename: WEB-INF/tags/non-ui/actionPrefix/actionPrefix.ftl
+│  Comment: 
+│  
+│  Filename: WEB-INF/tags/non-ui/actionPrefix/actionPrefixExample.ftl
+│  Comment: 
+│  
+│  Filename: WEB-INF/tags/non-ui/actionPrefix/methodPrefix.ftl
+├── WEB-INF/lib/struts2-convention-plugin-6.0.0.jar

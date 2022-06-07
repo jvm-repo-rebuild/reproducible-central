@@ -157,6 +157,11 @@
       <url>https://maven.restlet.talend.com</url>
     </mirror>
     <mirror>
+      <id>jaspersoft-third-party</id>
+      <mirrorOf>jaspersoft-third-party</mirrorOf>
+      <url>https://jaspersoft.jfrog.io/jaspersoft/third-party-ce-artifacts/</url>
+    </mirror>
+    <mirror>
       <id>default</id>
       <mirrorOf>*</mirrorOf>
       <url>https://repo.maven.apache.org/maven2</url>
