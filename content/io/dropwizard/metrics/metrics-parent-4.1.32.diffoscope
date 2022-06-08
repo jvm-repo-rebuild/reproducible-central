@@ -1,0 +1,47 @@
+1 /        1 target/reference/metrics-healthchecks-4.1.32.jar metrics-healthchecks/target/metrics-healthchecks-4.1.32.jar
+--- target/reference/metrics-healthchecks-4.1.32.jar
++++ metrics-healthchecks/target/metrics-healthchecks-4.1.32.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 22810 bytes, number of entries: 27
+│ +Zip file size: 22814 bytes, number of entries: 27
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     1218 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-healthchecks/
+│  -rw----     2.0 fat       77 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-healthchecks/pom.properties
+│  -rw----     2.0 fat     2680 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-healthchecks/pom.xml
+│ @@ -22,8 +22,8 @@
+│  -rw----     2.0 fat     3166 bl defN 80-Feb-01 00:00 com/codahale/metrics/health/SharedHealthCheckRegistries.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/metrics/health/annotation/
+│  -rw----     2.0 fat     1253 bl defN 80-Feb-01 00:00 com/codahale/metrics/health/annotation/Async$InitialState.class
+│  -rw----     2.0 fat     1258 bl defN 80-Feb-01 00:00 com/codahale/metrics/health/annotation/Async$ScheduleType.class
+│  -rw----     2.0 fat     1167 bl defN 80-Feb-01 00:00 com/codahale/metrics/health/annotation/Async.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/codahale/metrics/health/jvm/
+│  -rw----     2.0 fat     1410 bl defN 80-Feb-01 00:00 com/codahale/metrics/health/jvm/ThreadDeadlockHealthCheck.class
+│ -27 files, 44070 bytes uncompressed, 17872 bytes compressed:  59.4%
+│ +27 files, 44070 bytes uncompressed, 17876 bytes compressed:  59.4%
+├── META-INF/MANIFEST.MF
+│ @@ -7,17 +7,17 @@
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Health Checks
+│  Bundle-SymbolicName: io.dropwizard.metrics.healthchecks
+│  Bundle-Version: 4.1.32
+│  Created-By: Apache Maven Bundle Plugin 5.1.6
+│  Export-Package: com.codahale.metrics.health;uses:="com.codahale.metric
+│ - s";version="4.1.32",com.codahale.metrics.health.jvm;uses:="com.codaha
+│ - le.metrics.health,com.codahale.metrics.jvm";version="4.1.32",com.coda
+│ - hale.metrics.health.annotation;version="4.1.32"
+│ + s";version="4.1.32",com.codahale.metrics.health.annotation;version="4
+│ + .1.32",com.codahale.metrics.health.jvm;uses:="com.codahale.metrics.he
+│ + alth,com.codahale.metrics.jvm";version="4.1.32"
+│  Implementation-Title: Metrics Health Checks
+│  Implementation-Version: 4.1.32
+│  Import-Package: org.slf4j;version="[1.6.0,2.0.0)",com.codahale.metrics
+│   ;version="[4.1,5)",com.codahale.metrics.health,com.codahale.metrics.h
+│   ealth.annotation,com.codahale.metrics.jvm;version="[4.1,5)";resolutio
+│   n:=optional
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
