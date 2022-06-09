@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus
+group-id=org.codehaus.plexus
+artifact-id=plexus
+version=9
+
+# source information
+source.scm.uri=scm:git:git@github.com:codehaus-plexus/plexus-pom.git
+source.scm.tag=plexus-9
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=plexus-9.pom
+outputs.0.length=25396
+outputs.0.checksums.sha512=570d37f1432242f4ed1ec7c4d8a2f3608eebb8b3a3e4c569b8944a9de5fe02f093741fa121694cb1a3382de7f85940b3cfdb59e133e24163ed99daabe657f331
+
+outputs.1.filename=plexus-9-site.xml
+outputs.1.length=2572
+outputs.1.checksums.sha512=f25f60fcb4d847272c34b11d182e89ee724eb49d20eb555a2f8566ca56b11e7f5423e84fbfcb86fe7d5af34749c36bbcf9018c88f15f7af7a881a35230fb50cb
+
+outputs.2.filename=plexus-9-source-release.zip
+outputs.2.length=28676
+outputs.2.checksums.sha512=bcf97c1a831de8cf8fdded96aa47ce100dc69b86e864ed2a2139f79bfa5eff60c423ff47309693f2da5821d849b1927db48b17db0fefdcf9ac60349a53129231
