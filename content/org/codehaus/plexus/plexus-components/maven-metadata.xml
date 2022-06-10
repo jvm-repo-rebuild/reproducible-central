@@ -3,8 +3,8 @@
   <groupId>org.codehaus.plexus</groupId>
   <artifactId>plexus-components</artifactId>
   <versioning>
-    <latest>6.6</latest>
-    <release>6.6</release>
+    <latest>10.0</latest>
+    <release>10.0</release>
     <versions>
       <version>1.1.3</version>
       <version>1.1.4</version>
@@ -33,7 +33,9 @@
       <version>6.4</version>
       <version>6.5</version>
       <version>6.6</version>
+      <version>9.0</version>
+      <version>10.0</version>
     </versions>
-    <lastUpdated>20210922084956</lastUpdated>
+    <lastUpdated>20220610100624</lastUpdated>
   </versioning>
 </metadata>

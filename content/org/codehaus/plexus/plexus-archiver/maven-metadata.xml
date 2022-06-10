@@ -3,8 +3,8 @@
   <groupId>org.codehaus.plexus</groupId>
   <artifactId>plexus-archiver</artifactId>
   <versioning>
-    <latest>4.2.7</latest>
-    <release>4.2.7</release>
+    <latest>4.3.0</latest>
+    <release>4.3.0</release>
     <versions>
       <version>1.0-alpha-3</version>
       <version>1.0-alpha-4</version>
@@ -74,7 +74,8 @@
       <version>4.2.5</version>
       <version>4.2.6</version>
       <version>4.2.7</version>
+      <version>4.3.0</version>
     </versions>
-    <lastUpdated>20220102112919</lastUpdated>
+    <lastUpdated>20220610170809</lastUpdated>
   </versioning>
 </metadata>

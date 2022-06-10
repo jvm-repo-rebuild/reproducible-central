@@ -7,12 +7,14 @@
 
 Source code: [https://github.com/codehaus-plexus/plexus-pom.git](https://github.com/codehaus-plexus/plexus-pom.git)
 
-rebuilding **6 releases** of org.codehaus.plexus:plexus:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **8 releases** of org.codehaus.plexus:plexus:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [10](https://search.maven.org/artifact/org.codehaus.plexus/plexus/10/pom) | [mvn jdk8](plexus-pom-10.buildspec) | [result](plexus-10.buildinfo): [3 :heavy_check_mark: ](plexus-10.buildcompare) | 56K |
+| [9](https://search.maven.org/artifact/org.codehaus.plexus/plexus/9/pom) | [mvn jdk8](plexus-pom-9.buildspec) | [result](plexus-9.buildinfo): [3 :heavy_check_mark: ](plexus-9.buildcompare) | 56K |
 | [8](https://search.maven.org/artifact/org.codehaus.plexus/plexus/8/pom) | [mvn jdk7](plexus-pom-8.buildspec) | [result](plexus-8.buildinfo): [3 :heavy_check_mark: ](plexus-8.buildcompare) | 56K |
 | [7](https://search.maven.org/artifact/org.codehaus.plexus/plexus/7/pom) | [mvn jdk7](plexus-pom-7.buildspec) | [result](plexus-7.buildinfo): [3 :heavy_check_mark: ](plexus-7.buildcompare) | 56K |
 | [6.5](https://search.maven.org/artifact/org.codehaus.plexus/plexus/6.5/pom) | [mvn jdk7](plexus-pom-6.5.buildspec) | [result](plexus-6.5.buildinfo): [3 :heavy_check_mark: ](plexus-6.5.buildcompare) | 56K |
