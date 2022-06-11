@@ -1,0 +1,7 @@
+version=3.1.0
+ok=16
+ko=0
+okFiles="enforcer-3.1.0.pom enforcer-3.1.0-site.xml enforcer-3.1.0-source-release.zip enforcer-api-3.1.0.pom enforcer-api-3.1.0.jar enforcer-api-3.1.0-sources.jar enforcer-rules-3.1.0.pom enforcer-rules-3.1.0.jar enforcer-rules-3.1.0-sources.jar enforcer-rules-3.1.0-tests.jar maven-enforcer-plugin-3.1.0.pom maven-enforcer-plugin-3.1.0.jar maven-enforcer-plugin-3.1.0-sources.jar maven-enforcer-extension-3.1.0.pom maven-enforcer-extension-3.1.0.jar maven-enforcer-extension-3.1.0-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
