@@ -1,0 +1,5 @@
+version=10.0
+ok=3
+ko=0
+okFiles="plexus-components-10.0.pom plexus-components-10.0-site.xml plexus-components-10.0-source-release.zip"
+koFiles=""
