@@ -66,8 +66,8 @@ Notice the anchor in the link.
 Nightly Rebuild: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
 
 <!-- BEGIN GENERATED INTRO -->
-rebuilding **957 releases** of **280 projects**:
-- **651** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **959 releases** of **280 projects**:
+- **653** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 306 had issues (some unreproducible artifacts :warning:):
 
 <!-- END GENERATED INTRO -->
@@ -97,7 +97,7 @@ rebuilding **957 releases** of **280 projects**:
 | io.dropwizard | <a name='io.dropwizard:dropwizard-project'></a>[dropwizard-project](content/io/dropwizard/core/README.md) | 33 | 30 :heavy_check_mark: / 3 :warning: |
 | io.dropwizard.metrics | <a name='io.dropwizard.metrics:metrics-parent'></a>[metrics-parent](content/io/dropwizard/metrics/README.md) | 26 | 11 :heavy_check_mark: / 15 :warning: |
 | io.dropwizard.metrics5 | <a name='io.dropwizard.metrics5:metrics-parent'></a>[metrics-parent](content/io/dropwizard/metrics5/README.md) | 5 | 1 :heavy_check_mark: / 4 :warning: |
-| io.fabric8 | <a name='io.fabric8:docker-maven-plugin'></a>[docker-maven-plugin](content/io/fabric8/docker-maven-plugin/README.md) | 9 | 7 :heavy_check_mark: / 2 :warning: |
+| io.fabric8 | <a name='io.fabric8:docker-maven-plugin'></a>[docker-maven-plugin](content/io/fabric8/docker-maven-plugin/README.md) | 10 | 8 :heavy_check_mark: / 2 :warning: |
 | | <a name='io.fabric8:kubernetes-client-project'></a>[kubernetes-client-project](content/io/fabric8/kubernetes-client/README.md) | 7 | 7 :warning: |
 | io.github.albertus82 | <a name='io.github.albertus82:jface-utils'></a>[jface-utils](content/io/github/albertus82/jface-utils/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='io.github.albertus82:unexepack'></a>[unexepack](content/io/github/albertus82/unexepack/README.md) | 3 | 3 :warning: |
@@ -151,7 +151,7 @@ rebuilding **957 releases** of **280 projects**:
 | | <a name='org.apache.maven.doxia:doxia'></a>[doxia](content/org/apache/maven/doxia/doxia/README.md) | 5 | 5 :heavy_check_mark: |
 | org.apache.maven.indexer | <a name='org.apache.maven.indexer:maven-indexer'></a>[maven-indexer](content/org/apache/maven/indexer/README.md) | 3 | 1 :heavy_check_mark: / 2 :warning: |
 | org.apache.maven.jxr | <a name='org.apache.maven.jxr:jxr'></a>[jxr](content/org/apache/maven/jxr/README.md) | 2 | 2 :heavy_check_mark: |
-| org.apache.maven | <a name='org.apache.maven:maven'></a>[maven](content/org/apache/maven/maven/README.md) | 6 | 3 :heavy_check_mark: / 3 :warning: |
+| org.apache.maven | <a name='org.apache.maven:maven'></a>[maven](content/org/apache/maven/maven/README.md) | 7 | 4 :heavy_check_mark: / 3 :warning: |
 | | <a name='org.apache.maven:maven-parent'></a>[maven-parent](content/org/apache/maven/parent/README.md) | 3 | 1 :heavy_check_mark: / 2 :warning: |
 | org.apache.maven.plugin-tools | <a name='org.apache.maven.plugin-tools:maven-plugin-tools'></a>[maven-plugin-tools](content/org/apache/maven/plugin-tools/maven-plugin-tools/README.md) | 3 | 3 :heavy_check_mark: |
 | org.apache.maven.plugins | <a name='org.apache.maven.plugins:maven-antrun-plugin'></a>[maven-antrun-plugin](content/org/apache/maven/plugins/maven-antrun-plugin/README.md) | 2 | 2 :heavy_check_mark: |
@@ -355,7 +355,7 @@ rebuilding **957 releases** of **280 projects**:
 | | <a name='org.webjars:swagger-ui'></a>[swagger-ui](content/org/webjars/swagger-ui/README.md) | 7 | 7 :heavy_check_mark: |
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 5 | 5 :warning: |
-| **Count:** | **280** | **957** | **651** :heavy_check_mark: **306** :warning: |
+| **Count:** | **280** | **959** | **653** :heavy_check_mark: **306** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ## Understanding What Is Behind

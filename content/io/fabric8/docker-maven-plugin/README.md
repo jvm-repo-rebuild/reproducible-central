@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/fabric8io/docker-maven-plugin.git](https://github.com/fabric8io/docker-maven-plugin.git)
 
-rebuilding **9 releases** of io.fabric8:docker-maven-plugin:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **10 releases** of io.fabric8:docker-maven-plugin:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.40.1](https://search.maven.org/artifact/io.fabric8/docker-maven-plugin/0.40.1/pom) | | | |
+| [0.40.1](https://search.maven.org/artifact/io.fabric8/docker-maven-plugin/0.40.1/pom) | [mvn jdk11](docker-maven-plugin-0.40.1.buildspec) | [result](docker-maven-plugin-0.40.1.buildinfo): [3 :heavy_check_mark: ](docker-maven-plugin-0.40.1.buildcompare) | 1.1M |
 | [0.40.0](https://search.maven.org/artifact/io.fabric8/docker-maven-plugin/0.40.0/pom) | [mvn jdk11](docker-maven-plugin-0.40.0.buildspec) | [result](docker-maven-plugin-0.40.0.buildinfo): [3 :heavy_check_mark: ](docker-maven-plugin-0.40.0.buildcompare) | 1.0M |
 | [0.39.1](https://search.maven.org/artifact/io.fabric8/docker-maven-plugin/0.39.1/pom) | [mvn jdk11](docker-maven-plugin-0.39.1.buildspec) | [result](docker-maven-plugin-0.39.1.buildinfo): [3 :heavy_check_mark: ](docker-maven-plugin-0.39.1.buildcompare) | 1007K |
 | [0.39.0](https://search.maven.org/artifact/io.fabric8/docker-maven-plugin/0.39.0/pom) | [mvn jdk11](docker-maven-plugin-0.39.0.buildspec) | [result](docker-maven-plugin-0.39.0.buildinfo): [3 :heavy_check_mark: ](docker-maven-plugin-0.39.0.buildcompare) | 1007K |
