@@ -1,0 +1,7 @@
+version=0.1.0
+ok=17
+ko=0
+okFiles="migratedb-0.1.0.pom migratedb-testlib-0.1.0.pom migratedb-testlib-0.1.0.jar migratedb-core-0.1.0.pom migratedb-core-0.1.0.jar migratedb-scanner-0.1.0.pom migratedb-scanner-0.1.0.jar migratedb-commandline-0.1.0.pom migratedb-commandline-0.1.0.jar migratedb-commandline-0.1.0-test-migrations-jar.jar migratedb-commandline-0.1.0.tar.gz migratedb-integration-tests-0.1.0.pom migratedb-integration-tests-0.1.0.jar migratedb-maven-plugin-0.1.0.pom migratedb-maven-plugin-0.1.0.jar migratedb-gradle-plugin-0.1.0.pom migratedb-test-report-aggregator-0.1.0.pom"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
