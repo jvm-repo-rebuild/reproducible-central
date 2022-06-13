@@ -32,9 +32,7 @@ rebuilding **7 releases** of org.apache.maven:maven:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.8.6](https://search.maven.org/artifact/org.apache.maven/maven/3.8.6/pom) | [mvn jdk8 w](maven-3.8.6.buildspec) | [result](maven-3.8.6.buildinfo): [47 :heavy_check_mark: ](maven-3.8.6.buildcompare) [:mag:](maven-3.8.6.diffoscope)
-[1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/org/apache/maven/maven/maven-3.8.6.buildspec[0m
- | 27M |
+| [3.8.6](https://search.maven.org/artifact/org.apache.maven/maven/3.8.6/pom) | [mvn jdk8 w](maven-3.8.6.buildspec) | [result](maven-3.8.6.buildinfo): [47 :heavy_check_mark: ](maven-3.8.6.buildcompare) | 27M |
 | [3.8.5](https://search.maven.org/artifact/org.apache.maven/maven/3.8.5/pom) | [mvn jdk8 w](maven-3.8.5.buildspec) | [result](maven-3.8.5.buildinfo): [43 :heavy_check_mark:  4 :warning:](maven-3.8.5.buildcompare) [:mag:](maven-3.8.5.diffoscope) | 27M |
 | [3.8.4](https://search.maven.org/artifact/org.apache.maven/maven/3.8.4/pom) | [mvn jdk8 w](maven-3.8.4.buildspec) | [result](maven-3.8.4.buildinfo): [47 :heavy_check_mark: ](maven-3.8.4.buildcompare) | 28M |
 | [3.8.3](https://search.maven.org/artifact/org.apache.maven/maven/3.8.3/pom) | [mvn jdk8 w](maven-3.8.3.buildspec) | [result](maven-3.8.3.buildinfo): [47 :heavy_check_mark: ](maven-3.8.3.buildcompare) | 28M |
