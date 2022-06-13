@@ -1,0 +1,7 @@
+version=0.14
+ok=22
+ko=0
+okFiles="apache-rat-project-0.14.pom apache-rat-project-0.14-site.xml apache-rat-api-0.14.pom apache-rat-api-0.14.jar apache-rat-api-0.14-sources.jar apache-rat-core-0.14.pom apache-rat-core-0.14.jar apache-rat-core-0.14-sources.jar apache-rat-plugin-0.14.pom apache-rat-plugin-0.14.jar apache-rat-plugin-0.14-sources.jar apache-rat-tasks-0.14.pom apache-rat-tasks-0.14.jar apache-rat-tasks-0.14-sources.jar apache-rat-0.14.pom apache-rat-0.14.jar apache-rat-0.14-bin.zip apache-rat-0.14-bin.tar.gz apache-rat-0.14-bin.tar.bz2 apache-rat-0.14-src.zip apache-rat-0.14-src.tar.gz apache-rat-0.14-src.tar.bz2"
+koFiles=""
+reference_java_version="16 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
