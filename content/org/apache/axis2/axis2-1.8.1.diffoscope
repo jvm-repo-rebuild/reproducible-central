@@ -1,0 +1,675 @@
+1 /       28 target/reference/axis2-kernel-1.8.1.jar modules/kernel/target/axis2-kernel-1.8.1.jar
+--- target/reference/axis2-kernel-1.8.1.jar
++++ modules/kernel/target/axis2-kernel-1.8.1.jar
+├── zipinfo -v {}
+│ @@ -11024,15 +11024,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          2022 Jun 7 19:27:36
+│ -  32-bit CRC value (hex):                         90ce6f39
+│ +  32-bit CRC value (hex):                         a39fc2d7
+│    compressed size:                                6507 bytes
+│    uncompressed size:                              19794 bytes
+│    length of filename:                             41 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── org/apache/axis2/i18n/resource.properties
+│ @@ -38,17 +38,17 @@
+│  # ISMESSAGEFILE TRUE
+│  
+│  #############################################################################
+│  # DO NOT TOUCH THESE PROPERTIES - THEY ARE AUTOMATICALLY UPDATED BY THE BUILD
+│  # PROCESS.
+│  axisVersion=Apache Axis2 version: 1.8.1
+│  axisVersionRaw=1.8.1
+│ -axisBuiltOnRaw=Jun 07, 2022 (03:44:37 EDT)
+│ +axisBuiltOnRaw=Jun 14, 2022 (05:32:10 UTC)
+│  axisUserAgent=Axis/1.8.1
+│ -builtOn=Built on Jun 07, 2022 (03:44:37 EDT)
+│ +builtOn=Built on Jun 14, 2022 (05:32:10 UTC)
+│  #############################################################################
+│  
+│  threadpoolshutdown=Thread pool is shut down.
+│  errorWhileSafeShutDown=Error during safe shutdown
+│  invaliduser=The user name is not valid.
+│  invalidSOAPversion=The SOAP URI is not valid. Axis2 supports SOAP Version 1.1 and 1.2 only.
+│  cannotInferTransport=The system cannot infer the transport information from the {0} URL.
+
+2 /       28 target/reference/addressing-1.8.1.mar modules/addressing/target/addressing-1.8.1.mar
+--- target/reference/addressing-1.8.1.mar
++++ modules/addressing/target/addressing-1.8.1.mar
+├── zipinfo {}
+│ @@ -1,24 +1,24 @@
+│ -Zip file size: 34404 bytes, number of entries: 22
+│ --rw-r--r--  2.0 unx      131 bl defN 22-Jun-07 15:45 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-07 15:45 META-INF/
+│ -drwxrwxr-x  2.0 unx        0 b- stor 22-Jun-07 15:45 org/
+│ -drwxrwxr-x  2.0 unx        0 b- stor 22-Jun-07 15:45 org/apache/
+│ -drwxrwxr-x  2.0 unx        0 b- stor 22-Jun-07 15:45 org/apache/axis2/
+│ -drwxrwxr-x  2.0 unx        0 b- stor 22-Jun-07 15:45 org/apache/axis2/handlers/
+│ -drwxrwxr-x  2.0 unx        0 b- stor 22-Jun-07 15:45 org/apache/axis2/handlers/addressing/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-07 15:45 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-07 15:45 META-INF/maven/org.apache.axis2/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-07 15:45 META-INF/maven/org.apache.axis2/addressing/
+│ --rw-rw-r--  2.0 unx     1236 bl defN 22-Jun-07 15:45 META-INF/NOTICE
+│ --rw-rw-r--  2.0 unx     6050 bl defN 22-Jun-07 15:45 org/apache/axis2/handlers/addressing/AddressingInFaultHandler.class
+│ --rw-rw-r--  2.0 unx     2018 bl defN 22-Jun-07 15:45 org/apache/axis2/handlers/addressing/Addressing.class
+│ --rw-rw-r--  2.0 unx    17367 bl defN 22-Jun-07 15:45 org/apache/axis2/handlers/addressing/AddressingOutHandler$WSAHeaderWriter.class
+│ --rw-rw-r--  2.0 unx     5235 bl defN 22-Jun-07 15:44 META-INF/maven/org.apache.axis2/addressing/pom.xml
+│ --rw-rw-r--  2.0 unx     2763 bl defN 22-Jun-07 15:45 META-INF/module.xml
+│ --rw-rw-r--  2.0 unx    17176 bl defN 22-Jun-07 15:45 org/apache/axis2/handlers/addressing/AddressingInHandler.class
+│ --rw-rw-r--  2.0 unx      122 bl defN 22-Jun-07 15:45 META-INF/maven/org.apache.axis2/addressing/pom.properties
+│ --rw-rw-r--  2.0 unx    11359 bl defN 22-Jun-07 15:45 META-INF/LICENSE
+│ --rw-rw-r--  2.0 unx     4443 bl defN 22-Jun-07 15:45 org/apache/axis2/handlers/addressing/AddressingOutHandler.class
+│ --rw-rw-r--  2.0 unx     5670 bl defN 22-Jun-07 15:45 org/apache/axis2/handlers/addressing/AddressingValidationHandler.class
+│ --rw-rw-r--  2.0 unx     4788 bl defN 22-Jun-07 15:45 META-INF/DEPENDENCIES
+│ -22 files, 78358 bytes uncompressed, 30930 bytes compressed:  60.5%
+│ +Zip file size: 34402 bytes, number of entries: 22
+│ +-rw-r--r--  2.0 unx      125 bl defN 22-Jun-14 17:32 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-14 17:32 META-INF/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-14 17:32 org/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-14 17:32 org/apache/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-14 17:32 org/apache/axis2/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-14 17:32 org/apache/axis2/handlers/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-14 17:32 org/apache/axis2/handlers/addressing/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-14 17:32 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-14 17:32 META-INF/maven/org.apache.axis2/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-14 17:32 META-INF/maven/org.apache.axis2/addressing/
+│ +-rw-r--r--  2.0 unx     4788 bl defN 22-Jun-14 17:32 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    17176 bl defN 22-Jun-14 17:32 org/apache/axis2/handlers/addressing/AddressingInHandler.class
+│ +-rw-r--r--  2.0 unx    17367 bl defN 22-Jun-14 17:32 org/apache/axis2/handlers/addressing/AddressingOutHandler$WSAHeaderWriter.class
+│ +-rw-r--r--  2.0 unx     1236 bl defN 22-Jun-14 17:32 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx     5670 bl defN 22-Jun-14 17:32 org/apache/axis2/handlers/addressing/AddressingValidationHandler.class
+│ +-rw-r--r--  2.0 unx    11359 bl defN 22-Jun-14 17:32 META-INF/LICENSE
+│ +-rw-r--r--  2.0 unx     4443 bl defN 22-Jun-14 17:32 org/apache/axis2/handlers/addressing/AddressingOutHandler.class
+│ +-rw-r--r--  2.0 unx      122 bl defN 22-Jun-14 17:32 META-INF/maven/org.apache.axis2/addressing/pom.properties
+│ +-rw-r--r--  2.0 unx     2018 bl defN 22-Jun-14 17:32 org/apache/axis2/handlers/addressing/Addressing.class
+│ +-rw-r--r--  2.0 unx     6050 bl defN 22-Jun-14 17:32 org/apache/axis2/handlers/addressing/AddressingInFaultHandler.class
+│ +-rw-r--r--  2.0 unx     5235 bl defN 22-Jun-14 17:05 META-INF/maven/org.apache.axis2/addressing/pom.xml
+│ +-rw-r--r--  2.0 unx     2763 bl defN 22-Jun-14 17:32 META-INF/module.xml
+│ +22 files, 78352 bytes uncompressed, 30928 bytes compressed:  60.5%
+├── zipnote «TEMP»/diffoscope_n37d6i9f_target/tmp13ktxxml_.zip
+│ @@ -24,44 +24,44 @@
+│  
+│  Filename: META-INF/maven/org.apache.axis2/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.axis2/addressing/
+│  Comment: 
+│  
+│ -Filename: META-INF/NOTICE
+│ +Filename: META-INF/DEPENDENCIES
+│  Comment: 
+│  
+│ -Filename: org/apache/axis2/handlers/addressing/AddressingInFaultHandler.class
+│ +Filename: org/apache/axis2/handlers/addressing/AddressingInHandler.class
+│  Comment: 
+│  
+│ -Filename: org/apache/axis2/handlers/addressing/Addressing.class
+│ +Filename: org/apache/axis2/handlers/addressing/AddressingOutHandler$WSAHeaderWriter.class
+│  Comment: 
+│  
+│ -Filename: org/apache/axis2/handlers/addressing/AddressingOutHandler$WSAHeaderWriter.class
+│ +Filename: META-INF/NOTICE
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/org.apache.axis2/addressing/pom.xml
+│ +Filename: org/apache/axis2/handlers/addressing/AddressingValidationHandler.class
+│  Comment: 
+│  
+│ -Filename: META-INF/module.xml
+│ +Filename: META-INF/LICENSE
+│  Comment: 
+│  
+│ -Filename: org/apache/axis2/handlers/addressing/AddressingInHandler.class
+│ +Filename: org/apache/axis2/handlers/addressing/AddressingOutHandler.class
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.axis2/addressing/pom.properties
+│  Comment: 
+│  
+│ -Filename: META-INF/LICENSE
+│ +Filename: org/apache/axis2/handlers/addressing/Addressing.class
+│  Comment: 
+│  
+│ -Filename: org/apache/axis2/handlers/addressing/AddressingOutHandler.class
+│ +Filename: org/apache/axis2/handlers/addressing/AddressingInFaultHandler.class
+│  Comment: 
+│  
+│ -Filename: org/apache/axis2/handlers/addressing/AddressingValidationHandler.class
+│ +Filename: META-INF/maven/org.apache.axis2/addressing/pom.xml
+│  Comment: 
+│  
+│ -Filename: META-INF/DEPENDENCIES
+│ +Filename: META-INF/module.xml
+│  Comment: 
+│  
+│  Zip file comment:
+├── META-INF/MANIFEST.MF
+│ @@ -1,6 +1,6 @@
+│  Manifest-Version: 1.0
+
+│  Archiver-Version: Plexus Archiver
+
+│ -Created-By: Apache Maven 3.8.1
+
+│ -Built-By: rlapache
+
+│ -Build-Jdk: 11.0.1
+
+│ +Created-By: Apache Maven 3.6.3
+
+│ +Built-By: ?
+
+│ +Build-Jdk: 11.0.10
+
+├── META-INF/maven/org.apache.axis2/addressing/pom.properties
+│ @@ -1,5 +1,5 @@
+│ -#Created by Apache Maven 3.8.1
+│ -#Tue Jun 07 15:45:28 EDT 2022
+│ +#Created by Apache Maven 3.6.3
+│ +#Tue Jun 14 17:32:45 UTC 2022
+│  groupId=org.apache.axis2
+│  artifactId=addressing
+│  version=1.8.1
+
+...
+
+13 /       28 target/reference/axis2-codegen-1.8.1.jar modules/codegen/target/axis2-codegen-1.8.1.jar
+--- target/reference/axis2-codegen-1.8.1.jar
++++ modules/codegen/target/axis2-codegen-1.8.1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 273407 bytes, number of entries: 153
+│ +Zip file size: 273403 bytes, number of entries: 153
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-07 19:27 META-INF/
+│  -rw-r--r--  2.0 unx      356 b- defN 22-Jun-07 19:27 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-07 19:27 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-07 19:27 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-07 19:27 org/apache/axis2/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-07 19:27 org/apache/axis2/util/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-07 19:27 org/apache/axis2/wsdl/
+│ @@ -148,8 +148,8 @@
+│  -rw-r--r--  2.0 unx     1205 b- defN 22-Jun-07 19:27 org/apache/axis2/wsdl/util/Constants.class
+│  -rw-r--r--  2.0 unx      971 b- defN 22-Jun-07 19:27 org/apache/axis2/wsdl/util/MessagePartInformationHolder.class
+│  -rw-r--r--  2.0 unx      837 b- defN 22-Jun-07 19:27 org/apache/axis2/wsdl/util/TypeTesterUtil.class
+│  -rw-r--r--  2.0 unx     3283 b- defN 22-Jun-07 19:27 org/apache/axis2/wsdl/util/WSDL2JavaOptionsValidator.class
+│  -rw-r--r--  2.0 unx     3310 b- defN 22-Jun-07 19:27 org/apache/axis2/wsdl/util/XSLTIncludeResolver.class
+│  -rw-r--r--  2.0 unx    11712 b- defN 22-Jun-07 19:27 META-INF/maven/org.apache.axis2/axis2-codegen/pom.xml
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Jun-07 19:27 META-INF/maven/org.apache.axis2/axis2-codegen/pom.properties
+│ -153 files, 869240 bytes uncompressed, 245227 bytes compressed:  71.8%
+│ +153 files, 869240 bytes uncompressed, 245223 bytes compressed:  71.8%
+├── org/apache/axis2/wsdl/template/c/ServiceSkeleton.xsl
+│ @@ -32,15 +32,15 @@
+│          <xsl:variable name="soapVersion"><xsl:value-of select="@soap-version"/></xsl:variable>
+│          <xsl:variable name="generateMsgCtx"><xsl:value-of select="@generateMsgCtx"/></xsl:variable>
+│  
+│          /**
+│           * <xsl:value-of select="@name"/>.c
+│           *
+│           * This file was auto-generated from WSDL for "<xsl:value-of select="$qname"/>" service
+│ -         * by the Apache Axis2 version: 1.8.1  Built on : Jun 07, 2022 (03:46:59 EDT)
+│ +         * by the Apache Axis2 version: 1.8.1  Built on : Jun 14, 2022 (05:33:28 UTC)
+│           *  <xsl:value-of select="$skeletonname"/>
+│           */
+│  
+│          #include "<xsl:value-of select="$svcop-prefix"/>.h"
+│          #include &lt;axis2_svc_skeleton.h&gt;
+│          #include &lt;stdio.h&gt;
+│          #include &lt;axis2_svc.h&gt;
+├── org/apache/axis2/wsdl/template/c/ServiceXMLTemplate.xsl
+│ @@ -18,15 +18,15 @@
+│    -->
+│  
+│  <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+│      <xsl:output method="xml" indent="yes" omit-xml-declaration="yes"/>
+│  
+│      <xsl:template match="/">
+│          <xsl:comment> This file was auto-generated from WSDL </xsl:comment>
+│ -        <xsl:comment> by the Apache Axis2 version: 1.8.1  Built on : Jun 07, 2022 (03:46:59 EDT) </xsl:comment>
+│ +        <xsl:comment> by the Apache Axis2 version: 1.8.1  Built on : Jun 14, 2022 (05:33:28 UTC) </xsl:comment>
+│          <xsl:apply-templates/>
+│      </xsl:template>
+│  
+│      <xsl:template match="interface">
+│          <xsl:variable name="servicename">
+│              <xsl:value-of select="translate(@servicename,':.-','___')"/>
+│          </xsl:variable>
+├── org/apache/axis2/wsdl/template/c/SkelHeaderTemplate.xsl
+│ @@ -26,15 +26,15 @@
+│      <xsl:variable name="generateMsgCtx"><xsl:value-of select="@generateMsgCtx"/></xsl:variable>
+│      <xsl:variable name="qname"><xsl:value-of select="@qname"/></xsl:variable>
+│  
+│      /**
+│       * <xsl:value-of select="@name"/>.h
+│       *
+│       * This file was auto-generated from WSDL for "<xsl:value-of select="$qname"/>" service
+│ -     * by the Apache Axis2/C version: 1.8.1  Built on : Jun 07, 2022 (03:46:59 EDT)
+│ +     * by the Apache Axis2/C version: 1.8.1  Built on : Jun 14, 2022 (05:33:28 UTC)
+│       * <xsl:value-of select="@name"/> Axis2/C skeleton for the axisService- Header file
+│       */
+│  
+│      #ifndef <xsl:value-of select="$caps_svc_name"/>_H
+│      #define <xsl:value-of select="$caps_svc_name"/>_H
+│  
+│  	#include &lt;axis2_svc_skeleton.h&gt;
+├── org/apache/axis2/wsdl/template/c/SkelSourceTemplate.xsl
+│ @@ -25,15 +25,15 @@
+│      <xsl:variable name="qname"><xsl:value-of select="@qname"/></xsl:variable>
+│      <xsl:variable name="generateMsgCtx"><xsl:value-of select="@generateMsgCtx"/></xsl:variable>
+│  
+│      /**
+│       * <xsl:value-of select="@name"/>.c
+│       *
+│       * This file was auto-generated from WSDL for "<xsl:value-of select="$qname"/>" service
+│ -     * by the Apache Axis2/C version: 1.8.1  Built on : Jun 07, 2022 (03:46:59 EDT)
+│ +     * by the Apache Axis2/C version: 1.8.1  Built on : Jun 14, 2022 (05:33:28 UTC)
+│       * <xsl:value-of select="@name"/> Axis2/C skeleton for the axisService
+│       */
+│  
+│       #include "<xsl:value-of select="@name"/>.h"
+│  
+│       <xsl:for-each select="method">
+│           <xsl:variable name="outputours"><xsl:value-of select="output/param/@ours"></xsl:value-of></xsl:variable>
+├── org/apache/axis2/wsdl/template/c/StubHeaderTemplate.xsl
+│ @@ -32,15 +32,15 @@
+│          <xsl:variable name="servicename"><xsl:value-of select="@servicename"/></xsl:variable>
+│          <xsl:variable name="caps_name"><xsl:value-of select="@caps-name"/></xsl:variable>
+│  
+│          /**
+│          * <xsl:value-of select="@name"/>.h
+│          *
+│          * This file was auto-generated from WSDL for "<xsl:value-of select="$qname"/>" service
+│ -        * by the Apache Axis2/Java version: 1.8.1  Built on : Jun 07, 2022 (03:46:59 EDT)
+│ +        * by the Apache Axis2/Java version: 1.8.1  Built on : Jun 14, 2022 (05:33:28 UTC)
+│          */
+│  
+│          #ifndef <xsl:value-of select="$caps_name"/>_H
+│          #define <xsl:value-of select="$caps_name"/>_H
+│  
+│          #include &lt;stdio.h&gt;
+│          #include &lt;axiom.h&gt;
+├── org/apache/axis2/wsdl/template/c/StubSourceTemplate.xsl
+│ @@ -33,15 +33,15 @@
+│        <xsl:variable name="servicename"><xsl:value-of select="@servicename"/></xsl:variable>
+│        <xsl:variable name="caps_name"><xsl:value-of select="@caps-name"/></xsl:variable>
+│  
+│        /**
+│         * <xsl:value-of select="@name"/>.c
+│         *
+│         * This file was auto-generated from WSDL for "<xsl:value-of select="$qname"/>" service
+│ -       * by the Apache Axis2/Java version: 1.8.1  Built on : Jun 07, 2022 (03:46:59 EDT)
+│ +       * by the Apache Axis2/Java version: 1.8.1  Built on : Jun 14, 2022 (05:33:28 UTC)
+│         */
+│  
+│        #include "<xsl:value-of select="@name"/>.h"
+│        #include &lt;axis2_msg.h&gt;
+│        #include &lt;axis2_policy_include.h&gt;
+│        #include &lt;neethi_engine.h&gt;
+├── org/apache/axis2/wsdl/template/general/ServiceXMLTemplate.xsl
+│ @@ -18,15 +18,15 @@
+│    -->
+
+│  
+
+│  <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+│      <xsl:output method="xml" indent="yes" omit-xml-declaration="yes"/>
+
+│  
+
+│      <xsl:template match="/">
+
+│          <xsl:comment> This file was auto-generated from WSDL </xsl:comment>
+
+│ -        <xsl:comment> by the Apache Axis2 version: 1.8.1  Built on : Jun 07, 2022 (03:46:59 EDT) </xsl:comment>
+
+│ +        <xsl:comment> by the Apache Axis2 version: 1.8.1  Built on : Jun 14, 2022 (05:33:28 UTC) </xsl:comment>
+
+│          <serviceGroup>
+
+│              <xsl:apply-templates/>
+
+│          </serviceGroup>
+
+│      </xsl:template>
+
+│  
+
+│      <xsl:template match="interfaces/interface">
+
+│          <xsl:variable name="package"><xsl:value-of select="@classpackage"/></xsl:variable>
+├── org/apache/axis2/wsdl/template/java/CallbackHandlerTemplate.xsl
+│ @@ -20,15 +20,15 @@
+│  <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+│      <xsl:output method="text"/>
+│      <xsl:template match="/callback">
+│  /**
+│   * <xsl:value-of select="@name"/>.java
+│   *
+│   * This file was auto-generated from WSDL
+│ - * by the Apache Axis2 version: 1.8.1  Built on : Jun 07, 2022 (03:46:59 EDT)
+│ + * by the Apache Axis2 version: 1.8.1  Built on : Jun 14, 2022 (05:33:28 UTC)
+│   */
+│  
+│      package <xsl:value-of select="@package"/>;
+│  
+│      /**
+│       *  <xsl:value-of select="@name"/> Callback class, Users can extend this class and implement
+│       *  their own receiveResult and receiveError methods.
+├── org/apache/axis2/wsdl/template/java/ExceptionTemplate.xsl
+│ @@ -20,15 +20,15 @@
+│  <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+│      <xsl:output method="text"/>
+
+│      <xsl:template match="/fault">
+
+│  /**
+
+│   * <xsl:value-of select="@name"/>.java
+
+│   *
+
+│   * This file was auto-generated from WSDL
+
+│ - * by the Apache Axis2 version: 1.8.1  Built on : Jun 07, 2022 (03:46:59 EDT)
+
+│ + * by the Apache Axis2 version: 1.8.1  Built on : Jun 14, 2022 (05:33:28 UTC)
+
+│   */
+
+│  
+
+│  package <xsl:value-of select="@package"/>;
+
+│  
+
+│  public class <xsl:value-of select="@shortName"/> extends <xsl:value-of select="@exceptionBaseClass"/>{
+
+│  
+
+│      private static final long serialVersionUID = <xsl:value-of select="@serialVersionUID"/>L;
+├── org/apache/axis2/wsdl/template/java/InterfaceImplementationTemplate.xsl
+│ @@ -39,15 +39,15 @@
+│          <xsl:variable name="isAsync"><xsl:value-of select="@isAsync"/></xsl:variable>
+│          <xsl:variable name="soapVersion"><xsl:value-of select="@soap-version"/></xsl:variable>
+│          <xsl:variable name="isbackcompatible" select="@isbackcompatible"/>
+│  /**
+│   * <xsl:value-of select="@name"/>.java
+│   *
+│   * This file was auto-generated from WSDL
+│ - * by the Apache Axis2 version: 1.8.1  Built on : Jun 07, 2022 (03:46:59 EDT)
+│ + * by the Apache Axis2 version: 1.8.1  Built on : Jun 14, 2022 (05:33:28 UTC)
+│   */
+│          package <xsl:value-of select="$package"/>;
+│  
+│          <!-- Put the MTOM enable flag -->
+│  
+│          /*
+│          *  <xsl:value-of select="@name"/> java implementation
+├── org/apache/axis2/wsdl/template/java/InterfaceTemplate.xsl
+│ @@ -36,15 +36,15 @@
+│      <xsl:variable name="package"><xsl:value-of select="@package"/></xsl:variable>
+
+│      <xsl:variable name="isbackcompatible" select="@isbackcompatible"/>
+
+│  
+
+│  /**
+
+│   * <xsl:value-of select="@name"/>.java
+
+│   *
+
+│   * This file was auto-generated from WSDL
+
+│ - * by the Apache Axis2 version: 1.8.1  Built on : Jun 07, 2022 (03:46:59 EDT)
+
+│ + * by the Apache Axis2 version: 1.8.1  Built on : Jun 14, 2022 (05:33:28 UTC)
+
+│   */
+
+│  
+
+│      package <xsl:value-of select="$package"/>;
+
+│  
+
+│      /*
+
+│       *  <xsl:value-of select="@name"/> java interface
+
+│       */
+├── org/apache/axis2/wsdl/template/java/JaxwsExceptionTemplate.xsl
+│ @@ -28,15 +28,15 @@
+│  import <xsl:value-of select="@value"/>;</xsl:for-each>
+│  <xsl:text>
+│  </xsl:text>
+│  /**
+│   * <xsl:value-of select="@name"/>.java
+│   *
+│   * This class was auto-generated from WSDL.
+│ - * Apache Axis2 version: 1.8.1  Built on : Jun 07, 2022 (03:46:59 EDT)
+│ + * Apache Axis2 version: 1.8.1  Built on : Jun 14, 2022 (05:33:28 UTC)
+│   *
+│   */
+│  <xsl:for-each select="annotation">
+│      <xsl:variable name="annoparamcount" select="count(param)"/>
+│  @<xsl:value-of select="@name"/>(<xsl:for-each select="param">
+│          <xsl:choose>
+│              <xsl:when test="$annoparamcount = position()">
+├── org/apache/axis2/wsdl/template/java/JaxwsServiceClassTemplate.xsl
+│ @@ -33,15 +33,15 @@
+│  import java.net.MalformedURLException;
+│  import javax.xml.ws.Service;<!--<xsl:for-each select="importList/import">-->
+│  <!--import <xsl:value-of select="@value"/>;</xsl:for-each>-->
+│  /**
+│   * <xsl:value-of select="@name"/>.java
+│   *
+│   * This class was auto-generated from WSDL.
+│ - * Apache Axis2 version: 1.8.1  Built on : Jun 07, 2022 (03:46:59 EDT)
+│ + * Apache Axis2 version: 1.8.1  Built on : Jun 14, 2022 (05:33:28 UTC)
+│   *
+│   */
+│  <xsl:for-each select="annotation">
+│      <xsl:variable name="annoparamcount" select="count(param)"/>
+│  @<xsl:value-of select="@name"/>(<xsl:for-each select="param">
+│          <xsl:choose>
+│              <xsl:when test="$annoparamcount = position()">
+├── org/apache/axis2/wsdl/template/java/JaxwsServiceEndpointInterfaceImplTemplate.xsl
+│ @@ -23,15 +23,15 @@
+│      <xsl:variable name="targetNs" select="/javaConstruct/@targetNamespace"/>
+│      <xsl:template match="javaConstruct">package <xsl:value-of select="@package"/>;
+│  
+│  /**
+│   * <xsl:value-of select="@name"/>.java
+│   *
+│   * This class was auto-generated from WSDL.
+│ - * Apache Axis2 version: 1.8.1  Built on : Jun 07, 2022 (03:46:59 EDT)
+│ + * Apache Axis2 version: 1.8.1  Built on : Jun 14, 2022 (05:33:28 UTC)
+│   */
+│  <xsl:for-each select="annotation">
+│      <xsl:variable name="annoparamcount" select="count(param)"/>
+│  @<xsl:value-of select="@name"/>(<xsl:for-each select="param">
+│          <xsl:choose>
+│              <xsl:when test="$annoparamcount = position()">
+│                  <xsl:value-of select="@type"/>
+├── org/apache/axis2/wsdl/template/java/JaxwsServiceEndpointInterfaceTemplate.xsl
+│ @@ -26,15 +26,15 @@
+│  import <xsl:value-of select="@value"/>;</xsl:for-each>
+│  <xsl:text>
+│  </xsl:text>
+│  /**
+│   * <xsl:value-of select="@name"/>.java
+│   *
+│   * This class was auto-generated from WSDL.
+│ - * Apache Axis2 version: 1.8.1  Built on : Jun 07, 2022 (03:46:59 EDT)
+│ + * Apache Axis2 version: 1.8.1  Built on : Jun 14, 2022 (05:33:28 UTC)
+│   */
+│  <xsl:for-each select="annotation">
+│      <xsl:variable name="annoparamcount" select="count(param)"/>
+│  @<xsl:value-of select="@name"/>(<xsl:for-each select="param">
+│          <xsl:choose>
+│              <xsl:when test="$annoparamcount = position()">
+│                  <xsl:value-of select="@type"/>
+├── org/apache/axis2/wsdl/template/java/JaxwsServiceXMLTemplate.xsl
+│ @@ -18,15 +18,15 @@
+│    -->
+│  
+│  <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+│      <xsl:output method="xml" indent="yes" omit-xml-declaration="yes"/>
+│  
+│      <xsl:template match="/">
+│          <xsl:comment> This file was auto-generated from WSDL </xsl:comment>
+│ -        <xsl:comment> Apache Axis2 version: 1.8.1  Built on : Jun 07, 2022 (03:46:59 EDT) </xsl:comment>
+│ +        <xsl:comment> Apache Axis2 version: 1.8.1  Built on : Jun 14, 2022 (05:33:28 UTC) </xsl:comment>
+│          <serviceGroup>
+│              <xsl:apply-templates/>
+│          </serviceGroup>
+│      </xsl:template>
+│  
+│      <xsl:template match="interfaces/interface">
+│          <xsl:variable name="package"><xsl:value-of select="@classpackage"/></xsl:variable>
+├── org/apache/axis2/wsdl/template/java/MessageReceiverTemplate.xsl
+│ @@ -34,15 +34,15 @@
+│  
+│          <xsl:variable name="skeletonname"><xsl:value-of select="@skeletonInterfaceName"/></xsl:variable>
+│          <xsl:variable name="isbackcompatible" select="@isbackcompatible"/>
+│  /**
+│   * <xsl:value-of select="@name"/>.java
+│   *
+│   * This file was auto-generated from WSDL
+│ - * by the Apache Axis2 version: 1.8.1  Built on : Jun 07, 2022 (03:46:59 EDT)
+│ + * by the Apache Axis2 version: 1.8.1  Built on : Jun 14, 2022 (05:33:28 UTC)
+│   */
+│          package <xsl:value-of select="@package"/>;
+│  
+│          /**
+│          *  <xsl:value-of select="@name"/> message receiver
+│          */
+│  
+│ @@ -318,15 +318,15 @@
+│      <xsl:template match="/interface[@basereceiver='org.apache.axis2.receivers.AbstractMessageReceiver']">
+│          <xsl:variable name="skeletonname"><xsl:value-of select="@skeletonInterfaceName"/></xsl:variable>
+│  
+│  /**
+│   * <xsl:value-of select="@name"/>.java
+│   *
+│   * This file was auto-generated from WSDL
+│ - * by the Apache Axis2 version: 1.8.1  Built on : Jun 07, 2022 (03:46:59 EDT)
+│ + * by the Apache Axis2 version: 1.8.1  Built on : Jun 14, 2022 (05:33:28 UTC)
+│   */
+│          package <xsl:value-of select="@package"/>;
+│  
+│          /**
+│          *  <xsl:value-of select="@name"/> message receiver
+│          */
+│  
+│ @@ -436,15 +436,15 @@
+│          <xsl:variable name="skeletonname"><xsl:value-of select="@skeletonInterfaceName"/></xsl:variable>
+│          <xsl:variable name="isbackcompatible" select="@isbackcompatible"/>
+│  
+│  /**
+│   * <xsl:value-of select="@name"/>.java
+│   *
+│   * This file was auto-generated from WSDL
+│ - * by the Apache Axis2 version: 1.8.1  Built on : Jun 07, 2022 (03:46:59 EDT)
+│ + * by the Apache Axis2 version: 1.8.1  Built on : Jun 14, 2022 (05:33:28 UTC)
+│   */
+│          package <xsl:value-of select="@package"/>;
+│  
+│          /**
+│          *  <xsl:value-of select="@name"/> message receiver
+│          */
+├── org/apache/axis2/wsdl/template/java/SkeletonInterfaceTemplate.xsl
+│ @@ -20,15 +20,15 @@
+│  <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+│      <xsl:output method="text"/>
+
+│      <xsl:template match="/interface">
+
+│  /**
+
+│   * <xsl:value-of select="@name"/>.java
+
+│   *
+
+│   * This file was auto-generated from WSDL
+
+│ - * by the Apache Axis2 version: 1.8.1  Built on : Jun 07, 2022 (03:46:59 EDT)
+
+│ + * by the Apache Axis2 version: 1.8.1  Built on : Jun 14, 2022 (05:33:28 UTC)
+
+│   */
+
+│      package <xsl:value-of select="@package"/>;
+
+│      /**
+
+│       *  <xsl:value-of select="@name"/> java skeleton interface for the axisService
+
+│       */
+
+│      public interface <xsl:value-of select="@name"></xsl:value-of> {
+
+│       <xsl:variable name="isbackcompatible" select="@isbackcompatible"/>
+├── org/apache/axis2/wsdl/template/java/SkeletonTemplate.xsl
+│ @@ -20,15 +20,15 @@
+│  <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+│      <xsl:output method="text"/>
+
+│      <xsl:template match="/interface">
+
+│  /**
+
+│   * <xsl:value-of select="@name"/>.java
+
+│   *
+
+│   * This file was auto-generated from WSDL
+
+│ - * by the Apache Axis2 version: 1.8.1  Built on : Jun 07, 2022 (03:46:59 EDT)
+
+│ + * by the Apache Axis2 version: 1.8.1  Built on : Jun 14, 2022 (05:33:28 UTC)
+
+│   */
+
+│      package <xsl:value-of select="@package"/>;
+
+│      /**
+
+│       *  <xsl:value-of select="@name"/> java skeleton for the axisService
+
+│       */
+
+│      public class <xsl:value-of select="@name"></xsl:value-of>
+
+│          <xsl:if test="@skeletonInterfaceName"> implements <xsl:value-of select="@skeletonInterfaceName"/></xsl:if>{
+├── org/apache/axis2/wsdl/template/java/TestClassTemplate.xsl
+│ @@ -31,15 +31,15 @@
+│      <xsl:variable name="isAsync"><xsl:value-of select="@isAsync"/></xsl:variable>
+│      <xsl:variable name="isbackcompatible" select="@isbackcompatible"/>
+│  
+│  /**
+│   * <xsl:value-of select="@name"/>.java
+│   *
+│   * This file was auto-generated from WSDL
+│ - * by the Apache Axis2 version: 1.8.1  Built on : Jun 07, 2022 (03:46:59 EDT)
+│ + * by the Apache Axis2 version: 1.8.1  Built on : Jun 14, 2022 (05:33:28 UTC)
+│   */
+│      package <xsl:value-of select="$package"/>;
+│  
+│      /*
+│       *  <xsl:value-of select="@name"/> Junit test case
+│      */
+
+...
