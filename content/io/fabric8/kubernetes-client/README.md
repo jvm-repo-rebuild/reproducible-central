@@ -136,6 +136,7 @@ rebuilding **7 releases** of io.fabric8:kubernetes-client-project:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [6.0.0-RC1](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/6.0.0-RC1/pom) | | | |
 | [5.12.2](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/5.12.2/pom) | | | |
 | [5.12.1](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/5.12.1/pom) | | | |
 | [5.12.0](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/5.12.0/pom) | | | |

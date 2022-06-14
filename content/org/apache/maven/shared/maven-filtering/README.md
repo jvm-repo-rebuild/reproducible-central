@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.apache.maven.shared:maven-filtering:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.3.0](https://search.maven.org/artifact/org.apache.maven.shared/maven-filtering/3.3.0/pom) | | | |
 | [3.2.0](https://search.maven.org/artifact/org.apache.maven.shared/maven-filtering/3.2.0/pom) | [mvn jdk8 w](maven-filtering-3.2.0.buildspec) | [result](maven-filtering-3.2.0.buildinfo): [1 :heavy_check_mark:  3 :warning:](maven-filtering-3.2.0.buildcompare) [:mag:](maven-filtering-3.2.0.diffoscope) | 263K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
