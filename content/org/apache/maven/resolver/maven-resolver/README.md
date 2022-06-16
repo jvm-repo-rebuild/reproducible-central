@@ -27,13 +27,13 @@ Source code: [https://github.com/apache/maven-resolver.git](https://github.com/a
 * [org.apache.maven.resolver:maven-resolver-util](https://search.maven.org/artifact/org.apache.maven.resolver/maven-resolver-util/)
 </details>
 
-rebuilding **9 releases** of org.apache.maven.resolver:maven-resolver:
-- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **10 releases** of org.apache.maven.resolver:maven-resolver:
+- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.8.1](https://search.maven.org/artifact/org.apache.maven.resolver/maven-resolver/1.8.1/pom) | | | |
+| [1.8.1](https://search.maven.org/artifact/org.apache.maven.resolver/maven-resolver/1.8.1/pom) | [mvn jdk8 w](maven-resolver-1.8.1.buildspec) | [result](maven-resolver-1.8.1.buildinfo): [42 :heavy_check_mark: ](maven-resolver-1.8.1.buildcompare) | 3.2M |
 | [1.8.0](https://search.maven.org/artifact/org.apache.maven.resolver/maven-resolver/1.8.0/pom) | [mvn jdk8 w](maven-resolver-1.8.0.buildspec) | [result](maven-resolver-1.8.0.buildinfo): [42 :heavy_check_mark: ](maven-resolver-1.8.0.buildcompare) | 3.2M |
 | [1.7.3](https://search.maven.org/artifact/org.apache.maven.resolver/maven-resolver/1.7.3/pom) | [mvn jdk8 w](maven-resolver-1.7.3.buildspec) | [result](maven-resolver-1.7.3.buildinfo): [42 :heavy_check_mark: ](maven-resolver-1.7.3.buildcompare) | 3.0M |
 | [1.7.2](https://search.maven.org/artifact/org.apache.maven.resolver/maven-resolver/1.7.2/pom) | [mvn jdk8 w](maven-resolver-1.7.2.buildspec) | [result](maven-resolver-1.7.2.buildinfo): [42 :heavy_check_mark: ](maven-resolver-1.7.2.buildcompare) | 3.0M |

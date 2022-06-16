@@ -13,6 +13,7 @@ rebuilding **5 releases** of io.wcm:io.wcm.handler.media:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.14.4](https://search.maven.org/artifact/io.wcm/io.wcm.handler.media/1.14.4/pom) | | | |
 | [1.14.2](https://search.maven.org/artifact/io.wcm/io.wcm.handler.media/1.14.2/pom) | | | |
 | [1.14.0](https://search.maven.org/artifact/io.wcm/io.wcm.handler.media/1.14.0/pom) | | | |
 | [1.13.8](https://search.maven.org/artifact/io.wcm/io.wcm.handler.media/1.13.8/pom) | | | |

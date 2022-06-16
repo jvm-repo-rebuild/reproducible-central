@@ -666,6 +666,7 @@ rebuilding **3 releases** of org.apache.nifi:nifi:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.16.3](https://search.maven.org/artifact/org.apache.nifi/nifi/1.16.3/pom) | | | |
 | [1.16.2](https://search.maven.org/artifact/org.apache.nifi/nifi/1.16.2/pom) | [mvn jdk8](nifi-1.16.2.buildspec) | [result](nifi-1.16.2.buildinfo): [1282 :heavy_check_mark:  371 :warning:](nifi-1.16.2.buildcompare) [:memo:](https://github.com/apache/nifi/pull/5915) | 3.2G |
 | [1.16.1](https://search.maven.org/artifact/org.apache.nifi/nifi/1.16.1/pom) | [mvn jdk8](nifi-1.16.1.buildspec) | [result](nifi-1.16.1.buildinfo): [1282 :heavy_check_mark:  371 :warning:](nifi-1.16.1.buildcompare) [:memo:](https://github.com/apache/nifi/pull/5915) | 3.2G |
 | [1.16.0](https://search.maven.org/artifact/org.apache.nifi/nifi/1.16.0/pom) | [mvn jdk8](nifi-1.16.0.buildspec) | [result](nifi-1.16.0.buildinfo): [1273 :heavy_check_mark:  371 :warning:](nifi-1.16.0.buildcompare) [:mag:](nifi-1.16.0.diffoscope) [:memo:](https://github.com/apache/nifi/pull/5915) | 3.4G |
