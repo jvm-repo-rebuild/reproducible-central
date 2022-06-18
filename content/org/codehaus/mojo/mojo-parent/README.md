@@ -13,6 +13,7 @@ rebuilding **7 releases** of org.codehaus.mojo:mojo-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [68](https://search.maven.org/artifact/org.codehaus.mojo/mojo-parent/68/pom) | | | |
 | [67](https://search.maven.org/artifact/org.codehaus.mojo/mojo-parent/67/pom) | [mvn jdk8](mojo-parent-67.buildspec) | [result](mojo-parent-67.buildinfo): [3 :heavy_check_mark: ](mojo-parent-67.buildcompare) | 49K |
 | [66](https://search.maven.org/artifact/org.codehaus.mojo/mojo-parent/66/pom) | [mvn jdk8](mojo-parent-66.buildspec) | [result](mojo-parent-66.buildinfo): [3 :heavy_check_mark: ](mojo-parent-66.buildcompare) | 49K |
 | [65](https://search.maven.org/artifact/org.codehaus.mojo/mojo-parent/65/pom) | [mvn jdk8](mojo-parent-65.buildspec) | [result](mojo-parent-65.buildinfo): [3 :heavy_check_mark: ](mojo-parent-65.buildcompare) | 49K |

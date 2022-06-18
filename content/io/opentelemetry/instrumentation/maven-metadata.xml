@@ -3,8 +3,8 @@
   <groupId>io.opentelemetry.instrumentation</groupId>
   <artifactId>opentelemetry-instrumentation-api</artifactId>
   <versioning>
-    <latest>1.14.0-alpha</latest>
-    <release>1.14.0-alpha</release>
+    <latest>1.15.0-alpha</latest>
+    <release>1.15.0-alpha</release>
     <versions>
       <version>0.12.0</version>
       <version>0.12.1</version>
@@ -47,7 +47,8 @@
       <version>1.13.0-alpha</version>
       <version>1.13.1-alpha</version>
       <version>1.14.0-alpha</version>
+      <version>1.15.0-alpha</version>
     </versions>
-    <lastUpdated>20220517060511</lastUpdated>
+    <lastUpdated>20220617002427</lastUpdated>
   </versioning>
 </metadata>

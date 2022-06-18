@@ -26,6 +26,7 @@ rebuilding **1 releases** of de.unentscheidbar:migratedb:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.2.0](https://search.maven.org/artifact/de.unentscheidbar/migratedb/0.2.0/pom) | | | |
 | [0.1.0](https://search.maven.org/artifact/de.unentscheidbar/migratedb/0.1.0/pom) | [mvn jdk11](migratedb-0.1.0.buildspec) | [result](migratedb-0.1.0.buildinfo): [17 :heavy_check_mark: ](migratedb-0.1.0.buildcompare) | 4.3M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
