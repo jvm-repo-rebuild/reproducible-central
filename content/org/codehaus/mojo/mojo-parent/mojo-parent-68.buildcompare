@@ -1,0 +1,5 @@
+version=68
+ok=3
+ko=0
+okFiles="mojo-parent-68.pom mojo-parent-68-site.xml mojo-parent-68-source-release.zip"
+koFiles=""
