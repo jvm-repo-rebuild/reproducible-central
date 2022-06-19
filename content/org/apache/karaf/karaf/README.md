@@ -272,6 +272,7 @@ rebuilding **3 releases** of org.apache.karaf:karaf:
 | [4.3.1](https://search.maven.org/artifact/org.apache.karaf/karaf/4.3.1/pom) | | | |
 | [4.3.0](https://search.maven.org/artifact/org.apache.karaf/karaf/4.3.0/pom) | | | |
 | [4.3.0.RC1](https://search.maven.org/artifact/org.apache.karaf/karaf/4.3.0.RC1/pom) | | | |
+| [4.2.16](https://search.maven.org/artifact/org.apache.karaf/karaf/4.2.16/pom) | | | |
 | [4.2.15](https://search.maven.org/artifact/org.apache.karaf/karaf/4.2.15/pom) | | | |
 | [4.2.14](https://search.maven.org/artifact/org.apache.karaf/karaf/4.2.14/pom) | | | |
 | [4.2.13](https://search.maven.org/artifact/org.apache.karaf/karaf/4.2.13/pom) | [mvn jdk8](karaf-4.2.13.buildspec) | [result](karaf-4.2.13.buildinfo): [460 :heavy_check_mark:  108 :warning:](karaf-4.2.13.buildcompare) [:mag:](karaf-4.2.13.diffoscope) | 695M |
