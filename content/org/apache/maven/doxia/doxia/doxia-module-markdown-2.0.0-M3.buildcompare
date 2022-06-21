@@ -1,0 +1,7 @@
+version=2.0.0-M3
+ok=33
+ko=0
+okFiles="doxia-2.0.0-M3.pom doxia-2.0.0-M3-site.xml doxia-2.0.0-M3-source-release.zip doxia-sink-api-2.0.0-M3.pom doxia-sink-api-2.0.0-M3.jar doxia-sink-api-2.0.0-M3-sources.jar doxia-test-docs-2.0.0-M3.pom doxia-test-docs-2.0.0-M3.jar doxia-test-docs-2.0.0-M3-sources.jar doxia-core-2.0.0-M3.pom doxia-core-2.0.0-M3.jar doxia-core-2.0.0-M3-sources.jar doxia-core-2.0.0-M3-tests.jar doxia-modules-2.0.0-M3.pom doxia-modules-2.0.0-M3-site.xml doxia-module-apt-2.0.0-M3.pom doxia-module-apt-2.0.0-M3.jar doxia-module-apt-2.0.0-M3-sources.jar doxia-module-fml-2.0.0-M3.pom doxia-module-fml-2.0.0-M3.jar doxia-module-fml-2.0.0-M3-sources.jar doxia-module-xdoc-2.0.0-M3.pom doxia-module-xdoc-2.0.0-M3.jar doxia-module-xdoc-2.0.0-M3-sources.jar doxia-module-xhtml-2.0.0-M3.pom doxia-module-xhtml-2.0.0-M3.jar doxia-module-xhtml-2.0.0-M3-sources.jar doxia-module-xhtml5-2.0.0-M3.pom doxia-module-xhtml5-2.0.0-M3.jar doxia-module-xhtml5-2.0.0-M3-sources.jar doxia-module-markdown-2.0.0-M3.pom doxia-module-markdown-2.0.0-M3.jar doxia-module-markdown-2.0.0-M3-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
