@@ -1,0 +1,443 @@
+1 /      109 target/reference/kubernetes-model-common-6.0.0-RC1.jar kubernetes-model-generator/kubernetes-model-common/target/kubernetes-model-common-6.0.0-RC1.jar
+--- target/reference/kubernetes-model-common-6.0.0-RC1.jar
++++ kubernetes-model-generator/kubernetes-model-common/target/kubernetes-model-common-6.0.0-RC1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 19691 bytes, number of entries: 31
+│ +Zip file size: 19692 bytes, number of entries: 31
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     2120 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     3624 bl defN 80-Feb-01 00:00 META-INF/jandex.idx
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/kubernetes-model-common/
+│  -rw----     2.0 fat       72 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/kubernetes-model-common/pom.properties
+│ @@ -26,8 +26,8 @@
+│  -rw----     2.0 fat      519 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/model/annotation/Version.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/model/jackson/
+│  -rw----     2.0 fat      668 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/model/jackson/JsonUnwrappedDeserializer$CancelUnwrapped.class
+│  -rw----     2.0 fat    11578 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/model/jackson/JsonUnwrappedDeserializer.class
+│  -rw----     2.0 fat     1243 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/model/jackson/UnwrappedTypeResolverBuilder.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/model/util/
+│  -rw----     2.0 fat     3468 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/model/util/Helper.class
+│ -31 files, 31262 bytes uncompressed, 14145 bytes compressed:  54.8%
+│ +31 files, 31262 bytes uncompressed, 14146 bytes compressed:  54.8%
+├── META-INF/MANIFEST.MF
+│ @@ -23,15 +23,15 @@
+│   ="[2.13,3)",com.fasterxml.jackson.databind.introspect;version="[2.13,
+
+│   3)",com.fasterxml.jackson.databind.jsontype;version="[2.13,3)",com.fa
+
+│   sterxml.jackson.databind.jsontype.impl;version="[2.13,3)",com.fasterx
+
+│   ml.jackson.databind.node;version="[2.13,3)",com.fasterxml.jackson.dat
+
+│   abind.util;version="[2.13,3)",io.fabric8.kubernetes.model.annotation
+
+│  Include-Resource: ,/META-INF/jandex.idx=target/classes/META-INF/jandex
+
+│   .idx
+
+│ -Java-Version: 1.8.0_332
+
+│ +Java-Version: 1.8.0_282
+
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+│  Scm-Connection: scm:git:git@github.com:fabric8io/kubernetes-client.git
+
+│   /kubernetes-model-generator/kubernetes-model-common
+
+│  Scm-Revision: ${buildNumber}
+
+│  Scm-Url: http://github.com/fabric8io/kubernetes-client/kubernetes-mode
+
+│   l-generator/kubernetes-model-common/
+
+│  Specification-Title: Fabric8 :: Kubernetes Model :: Common
+
+2 /      109 target/reference/kubernetes-model-core-6.0.0-RC1.jar kubernetes-model-generator/kubernetes-model-core/target/kubernetes-model-core-6.0.0-RC1.jar
+--- target/reference/kubernetes-model-core-6.0.0-RC1.jar
++++ kubernetes-model-generator/kubernetes-model-core/target/kubernetes-model-core-6.0.0-RC1.jar
+├── zipinfo {}
+│ @@ -1,11 +1,11 @@
+│ -Zip file size: 4328083 bytes, number of entries: 2554
+│ +Zip file size: 4328066 bytes, number of entries: 2554
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     6527 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat   956103 bl defN 80-Feb-01 00:00 META-INF/jandex.idx
+│ +-rw----     2.0 fat   956349 bl defN 80-Feb-01 00:00 META-INF/jandex.idx
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/kubernetes-model-core/
+│  -rw----     2.0 fat       70 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/kubernetes-model-core/pom.properties
+│  -rw----     2.0 fat     8665 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/kubernetes-model-core/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/services/
+│  -rw----     2.0 fat       62 bl defN 80-Feb-01 00:00 META-INF/services/io.fabric8.kubernetes.api.KubernetesResourceMappingProvider
+│ @@ -2549,8 +2549,8 @@
+│  -rw----     2.0 fat    14790 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/internal/KubernetesDeserializer$Mapping.class
+│  -rw----     2.0 fat     1186 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/internal/KubernetesDeserializer$TypeKey.class
+│  -rw----     2.0 fat     7048 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/internal/KubernetesDeserializer.class
+│  -rw----     2.0 fat      652 bl defN 80-Feb-01 00:00 manifest.vm
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 schema/
+│  -rw----     2.0 fat   245763 bl defN 80-Feb-01 00:00 schema/kube-schema.json
+│  -rw----     2.0 fat   425107 bl defN 80-Feb-01 00:00 schema/validation-schema.json
+│ -2554 files, 12802580 bytes uncompressed, 3723747 bytes compressed:  70.9%
+│ +2554 files, 12802826 bytes uncompressed, 3723730 bytes compressed:  70.9%
+├── META-INF/MANIFEST.MF
+│ @@ -76,23 +76,23 @@
+│   lpha1;resolution:=optional,io.fabric8.openshift.api.model.miscellaneo
+
+│   us.cloudcredential.v1;resolution:=optional,io.fabric8.openshift.api.m
+
+│   odel.miscellaneous.cncf.cni.v1;resolution:=optional,io.fabric8.opensh
+
+│   ift.api.model.miscellaneous.imageregistry.operator.v1;resolution:=opt
+
+│   ional,io.fabric8.openshift.api.model.miscellaneous.metal3.v1alpha1;re
+
+│   solution:=optional,io.fabric8.openshift.api.model.miscellaneous.netwo
+
+│   rk.operator.v1;resolution:=optional
+
+│ -Include-Resource: manifest.vm=src/main/resources/manifest.vm,META-INF/
+
+│ - services/io.fabric8.kubernetes.api.KubernetesResourceMappingProvider=
+
+│ - src/main/resources/META-INF/services/io.fabric8.kubernetes.api.Kubern
+
+│ - etesResourceMappingProvider,schema/validation-schema.json=src/main/re
+
+│ - sources/schema/validation-schema.json,schema/kube-schema.json=src/mai
+
+│ - n/resources/schema/kube-schema.json,/META-INF/jandex.idx=target/class
+
+│ +Include-Resource: META-INF/services/io.fabric8.kubernetes.api.Kubernet
+
+│ + esResourceMappingProvider=src/main/resources/META-INF/services/io.fab
+
+│ + ric8.kubernetes.api.KubernetesResourceMappingProvider,manifest.vm=src
+
+│ + /main/resources/manifest.vm,schema/kube-schema.json=src/main/resource
+
+│ + s/schema/kube-schema.json,schema/validation-schema.json=src/main/reso
+
+│ + urces/schema/validation-schema.json,/META-INF/jandex.idx=target/class
+
+│   es/META-INF/jandex.idx,/core.properties=target/classes/core.propertie
+
+│   s,
+
+│ -Java-Version: 1.8.0_332
+
+│ +Java-Version: 1.8.0_282
+
+│  Private-Package: io.fabric8.kubernetes.internal,schema
+
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+│  Scm-Connection: scm:git:git@github.com:fabric8io/kubernetes-client.git
+
+│   /kubernetes-model-generator/kubernetes-model-core
+
+│  Scm-Revision: ${buildNumber}
+
+│  Scm-Url: http://github.com/fabric8io/kubernetes-client/kubernetes-mode
+
+│   l-generator/kubernetes-model-core/
+├── io/fabric8/kubernetes/api/model/WatchEventFluent.class
+│ ├── procyon -ec {}
+│ │ @@ -56,26 +56,26 @@
+│ │      
+│ │      A withAuthInfoObject(final AuthInfo p0);
+│ │      
+│ │      WatchEventFluent.AuthInfoObjectNested<A> withNewAuthInfoObject();
+│ │      
+│ │      WatchEventFluent.AuthInfoObjectNested<A> withNewAuthInfoObjectLike(final AuthInfo p0);
+│ │      
+│ │ -    A withAPIServiceObject(final APIService p0);
+│ │ -    
+│ │ -    WatchEventFluent.APIServiceObjectNested<A> withNewAPIServiceObject();
+│ │ -    
+│ │ -    WatchEventFluent.APIServiceObjectNested<A> withNewAPIServiceObjectLike(final APIService p0);
+│ │ -    
+│ │      A withResourceRequirementsObject(final ResourceRequirements p0);
+│ │      
+│ │      WatchEventFluent.ResourceRequirementsObjectNested<A> withNewResourceRequirementsObject();
+│ │      
+│ │      WatchEventFluent.ResourceRequirementsObjectNested<A> withNewResourceRequirementsObjectLike(final ResourceRequirements p0);
+│ │      
+│ │ +    A withAPIServiceObject(final APIService p0);
+│ │ +    
+│ │ +    WatchEventFluent.APIServiceObjectNested<A> withNewAPIServiceObject();
+│ │ +    
+│ │ +    WatchEventFluent.APIServiceObjectNested<A> withNewAPIServiceObjectLike(final APIService p0);
+│ │ +    
+│ │      A withConfigMapKeySelectorObject(final ConfigMapKeySelector p0);
+│ │      
+│ │      WatchEventFluent.ConfigMapKeySelectorObjectNested<A> withNewConfigMapKeySelectorObject();
+│ │      
+│ │      WatchEventFluent.ConfigMapKeySelectorObjectNested<A> withNewConfigMapKeySelectorObjectLike(final ConfigMapKeySelector p0);
+│ │      
+│ │      A withNewConfigMapKeySelectorObject(final String p0, final String p1, final Boolean p2);
+...
+├── io/fabric8/kubernetes/api/model/WatchEventFluentImpl$APIServiceObjectNestedImpl.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -95,17 +95,17 @@
+│ │          13: dup
+│ │          14: aload_0
+│ │          15: aload_2
+│ │          16: invokespecial #4                  // Method io/fabric8/kubernetes/api/model/APIServiceBuilder."<init>":(Lio/fabric8/kubernetes/api/model/APIServiceFluent;Lio/fabric8/kubernetes/api/model/APIService;)V
+│ │          19: putfield      #5                  // Field builder:Lio/fabric8/kubernetes/api/model/APIServiceBuilder;
+│ │          22: return
+│ │        LineNumberTable:
+│ │ -        line 3117: 0
+│ │ -        line 3118: 9
+│ │ -        line 3119: 22
+│ │ +        line 3133: 0
+│ │ +        line 3134: 9
+│ │ +        line 3135: 22
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      23     0  this   Lio/fabric8/kubernetes/api/model/WatchEventFluentImpl$APIServiceObjectNestedImpl;
+│ │              0      23     1 this$0   Lio/fabric8/kubernetes/api/model/WatchEventFluentImpl;
+│ │              0      23     2  item   Lio/fabric8/kubernetes/api/model/APIService;
+│ │        LocalVariableTypeTable:
+│ │          Start  Length  Slot  Name   Signature
+...
+├── io/fabric8/kubernetes/api/model/WatchEventFluentImpl$ClusterObjectNestedImpl.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -95,17 +95,17 @@
+│ │          13: dup
+│ │          14: aload_0
+│ │          15: aload_2
+│ │          16: invokespecial #4                  // Method io/fabric8/kubernetes/api/model/ClusterBuilder."<init>":(Lio/fabric8/kubernetes/api/model/ClusterFluent;Lio/fabric8/kubernetes/api/model/Cluster;)V
+│ │          19: putfield      #5                  // Field builder:Lio/fabric8/kubernetes/api/model/ClusterBuilder;
+│ │          22: return
+│ │        LineNumberTable:
+│ │ -        line 6573: 0
+│ │ -        line 6574: 9
+│ │ -        line 6575: 22
+│ │ +        line 6557: 0
+│ │ +        line 6558: 9
+│ │ +        line 6559: 22
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      23     0  this   Lio/fabric8/kubernetes/api/model/WatchEventFluentImpl$ClusterObjectNestedImpl;
+│ │              0      23     1 this$0   Lio/fabric8/kubernetes/api/model/WatchEventFluentImpl;
+│ │              0      23     2  item   Lio/fabric8/kubernetes/api/model/Cluster;
+│ │        LocalVariableTypeTable:
+│ │          Start  Length  Slot  Name   Signature
+...
+├── io/fabric8/kubernetes/api/model/WatchEventFluentImpl.class
+│ ├── procyon -ec {}
+│ │ @@ -59,58 +59,58 @@
+│ │              this.object = (VisitableBuilder<? extends KubernetesResource, ?>)new CSIPersistentVolumeSourceBuilder((CSIPersistentVolumeSource)object);
+│ │              this._visitables.get((Object)"object").add(this.object);
+│ │          }
+│ │          if (object instanceof AuthInfo) {
+│ │              this.object = (VisitableBuilder<? extends KubernetesResource, ?>)new AuthInfoBuilder((AuthInfo)object);
+│ │              this._visitables.get((Object)"object").add(this.object);
+│ │          }
+│ │ -        if (object instanceof APIService) {
+│ │ -            this.object = (VisitableBuilder<? extends KubernetesResource, ?>)new APIServiceBuilder((APIService)object);
+│ │ -            this._visitables.get((Object)"object").add(this.object);
+│ │ -        }
+│ │          if (object instanceof ResourceRequirements) {
+│ │              this.object = (VisitableBuilder<? extends KubernetesResource, ?>)new ResourceRequirementsBuilder((ResourceRequirements)object);
+│ │              this._visitables.get((Object)"object").add(this.object);
+│ │          }
+│ │ +        if (object instanceof APIService) {
+│ │ +            this.object = (VisitableBuilder<? extends KubernetesResource, ?>)new APIServiceBuilder((APIService)object);
+│ │ +            this._visitables.get((Object)"object").add(this.object);
+│ │ +        }
+│ │          if (object instanceof ConfigMapKeySelector) {
+│ │              this.object = (VisitableBuilder<? extends KubernetesResource, ?>)new ConfigMapKeySelectorBuilder((ConfigMapKeySelector)object);
+│ │              this._visitables.get((Object)"object").add(this.object);
+│ │          }
+│ │          if (object instanceof HostPathVolumeSource) {
+│ │              this.object = (VisitableBuilder<? extends KubernetesResource, ?>)new HostPathVolumeSourceBuilder((HostPathVolumeSource)object);
+│ │              this._visitables.get((Object)"object").add(this.object);
+│ │          }
+...
+
+3 /      109 target/reference/kubernetes-model-core-6.0.0-RC1-sources.jar kubernetes-model-generator/kubernetes-model-core/target/kubernetes-model-core-6.0.0-RC1-sources.jar
+--- target/reference/kubernetes-model-core-6.0.0-RC1-sources.jar
++++ kubernetes-model-generator/kubernetes-model-core/target/kubernetes-model-core-6.0.0-RC1-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1369267 bytes, number of entries: 1046
+│ +Zip file size: 1369288 bytes, number of entries: 1046
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Jun-13 09:30 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-13 09:30 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-13 09:30 io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-13 09:30 io/fabric8/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-13 09:30 io/fabric8/kubernetes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-13 09:30 io/fabric8/kubernetes/api/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-13 09:30 io/fabric8/kubernetes/api/model/
+│ @@ -1041,8 +1041,8 @@
+│  -rw-r--r--  2.0 unx     7948 b- defN 22-Jun-13 09:30 io/fabric8/kubernetes/api/model/version/InfoFluentImpl.java
+│  -rw-r--r--  2.0 unx       62 b- defN 22-Jun-13 09:30 META-INF/services/io.fabric8.kubernetes.api.KubernetesResourceMappingProvider
+│  -rw-r--r--  2.0 unx      652 b- defN 22-Jun-13 09:30 manifest.vm
+│  -rw-r--r--  2.0 unx   245763 b- defN 22-Jun-13 09:30 schema/kube-schema.json
+│  -rw-r--r--  2.0 unx   425107 b- defN 22-Jun-13 09:30 schema/validation-schema.json
+│  -rw-r--r--  2.0 unx     8665 b- defN 22-Jun-13 09:30 META-INF/maven/io.fabric8/kubernetes-model-core/pom.xml
+│  -rw-r--r--  2.0 unx       70 b- defN 22-Jun-13 09:30 META-INF/maven/io.fabric8/kubernetes-model-core/pom.properties
+│ -1046 files, 7893870 bytes uncompressed, 1168861 bytes compressed:  85.2%
+│ +1046 files, 7893870 bytes uncompressed, 1168882 bytes compressed:  85.2%
+├── io/fabric8/kubernetes/api/model/WatchEventFluent.java
+│ @@ -46,50 +46,50 @@
+│    public io.fabric8.kubernetes.api.model.WatchEventFluent.PodTemplateSpecObjectNested<A> withNewPodTemplateSpecObjectLike(PodTemplateSpec item);
+│    public A withCSIPersistentVolumeSourceObject(CSIPersistentVolumeSource cSIPersistentVolumeSourceObject);
+│    public WatchEventFluent.CSIPersistentVolumeSourceObjectNested<A> withNewCSIPersistentVolumeSourceObject();
+│    public io.fabric8.kubernetes.api.model.WatchEventFluent.CSIPersistentVolumeSourceObjectNested<A> withNewCSIPersistentVolumeSourceObjectLike(io.fabric8.kubernetes.api.model.CSIPersistentVolumeSource item);
+│    public A withAuthInfoObject(AuthInfo authInfoObject);
+│    public WatchEventFluent.AuthInfoObjectNested<A> withNewAuthInfoObject();
+│    public io.fabric8.kubernetes.api.model.WatchEventFluent.AuthInfoObjectNested<A> withNewAuthInfoObjectLike(io.fabric8.kubernetes.api.model.AuthInfo item);
+│ -  public A withAPIServiceObject(APIService aPIServiceObject);
+│ -  public WatchEventFluent.APIServiceObjectNested<A> withNewAPIServiceObject();
+│ -  public io.fabric8.kubernetes.api.model.WatchEventFluent.APIServiceObjectNested<A> withNewAPIServiceObjectLike(io.fabric8.kubernetes.api.model.APIService item);
+│    public A withResourceRequirementsObject(ResourceRequirements resourceRequirementsObject);
+│    public WatchEventFluent.ResourceRequirementsObjectNested<A> withNewResourceRequirementsObject();
+│    public io.fabric8.kubernetes.api.model.WatchEventFluent.ResourceRequirementsObjectNested<A> withNewResourceRequirementsObjectLike(io.fabric8.kubernetes.api.model.ResourceRequirements item);
+│ +  public A withAPIServiceObject(APIService aPIServiceObject);
+│ +  public WatchEventFluent.APIServiceObjectNested<A> withNewAPIServiceObject();
+│ +  public io.fabric8.kubernetes.api.model.WatchEventFluent.APIServiceObjectNested<A> withNewAPIServiceObjectLike(io.fabric8.kubernetes.api.model.APIService item);
+│    public A withConfigMapKeySelectorObject(ConfigMapKeySelector configMapKeySelectorObject);
+│    public WatchEventFluent.ConfigMapKeySelectorObjectNested<A> withNewConfigMapKeySelectorObject();
+│    public io.fabric8.kubernetes.api.model.WatchEventFluent.ConfigMapKeySelectorObjectNested<A> withNewConfigMapKeySelectorObjectLike(ConfigMapKeySelector item);
+│    public A withNewConfigMapKeySelectorObject(java.lang.String key,java.lang.String name,java.lang.Boolean optional);
+│    public A withHostPathVolumeSourceObject(HostPathVolumeSource hostPathVolumeSourceObject);
+│    public WatchEventFluent.HostPathVolumeSourceObjectNested<A> withNewHostPathVolumeSourceObject();
+...
+
+4 /      109 target/reference/kubernetes-model-rbac-6.0.0-RC1.jar kubernetes-model-generator/kubernetes-model-rbac/target/kubernetes-model-rbac-6.0.0-RC1.jar
+--- target/reference/kubernetes-model-rbac-6.0.0-RC1.jar
++++ kubernetes-model-generator/kubernetes-model-rbac/target/kubernetes-model-rbac-6.0.0-RC1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 175249 bytes, number of entries: 99
+│ +Zip file size: 175257 bytes, number of entries: 99
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     2018 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat    35875 bl defN 80-Feb-01 00:00 META-INF/jandex.idx
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/kubernetes-model-rbac/
+│  -rw----     2.0 fat       70 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/kubernetes-model-rbac/pom.properties
+│ @@ -94,8 +94,8 @@
+│  -rw----     2.0 fat     1464 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/api/model/rbac/SubjectFluent.class
+│  -rw----     2.0 fat     6440 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/api/model/rbac/SubjectFluentImpl.class
+│  -rw----     2.0 fat      652 bl defN 80-Feb-01 00:00 manifest.vm
+│  -rw----     2.0 fat      197 bl defN 80-Feb-01 00:00 rbac.properties
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 schema/
+│  -rw----     2.0 fat    20718 bl defN 80-Feb-01 00:00 schema/kube-schema.json
+│  -rw----     2.0 fat    34635 bl defN 80-Feb-01 00:00 schema/validation-schema.json
+│ -99 files, 535380 bytes uncompressed, 154187 bytes compressed:  71.2%
+│ +99 files, 535380 bytes uncompressed, 154195 bytes compressed:  71.2%
+├── META-INF/MANIFEST.MF
+│ @@ -17,20 +17,20 @@
+│  Implementation-URL: http://fabric8.io/kubernetes-model-generator/kuber
+
+│   netes-model-rbac/
+
+│  Import-Package: com.fasterxml.jackson.annotation;version="[2.13,3)",co
+
+│   m.fasterxml.jackson.databind;version="[2.13,3)",com.fasterxml.jackson
+
+│   .databind.annotation;version="[2.13,3)",io.fabric8.kubernetes.api.bui
+
+│   lder;version="[6.0,7)",io.fabric8.kubernetes.api.model,io.fabric8.kub
+
+│   ernetes.model.annotation;version="[6.0,7)"
+
+│ -Include-Resource: manifest.vm=src/main/resources/manifest.vm,schema/va
+
+│ - lidation-schema.json=src/main/resources/schema/validation-schema.json
+
+│ - ,schema/kube-schema.json=src/main/resources/schema/kube-schema.json,/
+
+│ +Include-Resource: manifest.vm=src/main/resources/manifest.vm,schema/ku
+
+│ + be-schema.json=src/main/resources/schema/kube-schema.json,schema/vali
+
+│ + dation-schema.json=src/main/resources/schema/validation-schema.json,/
+
+│   META-INF/jandex.idx=target/classes/META-INF/jandex.idx,/rbac.properti
+
+│   es=target/classes/rbac.properties,
+
+│ -Java-Version: 1.8.0_332
+
+│ +Java-Version: 1.8.0_282
+
+│  Private-Package: schema
+
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+│  Scm-Connection: scm:git:git@github.com:fabric8io/kubernetes-client.git
+
+│   /kubernetes-model-generator/kubernetes-model-rbac
+
+│  Scm-Revision: ${buildNumber}
+
+│  Scm-Url: http://github.com/fabric8io/kubernetes-client/kubernetes-mode
+
+│   l-generator/kubernetes-model-rbac/
+├── rbac.properties
+│ @@ -1,5 +1,5 @@
+│  
+│ -io.fabric8.kubernetes.api.model.rbac.RoleBinding
+│  io.fabric8.kubernetes.api.model.rbac.ClusterRoleBinding
+│ +io.fabric8.kubernetes.api.model.rbac.RoleBinding
+│  io.fabric8.kubernetes.api.model.rbac.Role
+│  io.fabric8.kubernetes.api.model.rbac.ClusterRole
+
+...
+
+51 /      109 target/reference/knative-model-6.0.0-RC1.jar extensions/knative/model/target/knative-model-6.0.0-RC1.jar
+--- target/reference/knative-model-6.0.0-RC1.jar
++++ extensions/knative/model/target/knative-model-6.0.0-RC1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1896260 bytes, number of entries: 1111
+│ +Zip file size: 1896249 bytes, number of entries: 1111
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     7386 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat   358192 bl defN 80-Feb-01 00:00 META-INF/jandex.idx
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/knative-model/
+│  -rw----     2.0 fat       62 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/knative-model/pom.properties
+│ @@ -1106,8 +1106,8 @@
+│  -rw----     2.0 fat     8830 bl defN 80-Feb-01 00:00 io/fabric8/knative/sources/v1/SinkBindingStatusFluent.class
+│  -rw----     2.0 fat     2908 bl defN 80-Feb-01 00:00 io/fabric8/knative/sources/v1/SinkBindingStatusFluentImpl$CeAttributesNestedImpl.class
+│  -rw----     2.0 fat     2679 bl defN 80-Feb-01 00:00 io/fabric8/knative/sources/v1/SinkBindingStatusFluentImpl$ConditionsNestedImpl.class
+│  -rw----     2.0 fat    24963 bl defN 80-Feb-01 00:00 io/fabric8/knative/sources/v1/SinkBindingStatusFluentImpl.class
+│  -rw----     2.0 fat     1318 bl defN 80-Feb-01 00:00 model.properties
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 schema/
+│  -rw----     2.0 fat   176088 bl defN 80-Feb-01 00:00 schema/knative-schema.json
+│ -1111 files, 5510926 bytes uncompressed, 1633542 bytes compressed:  70.4%
+│ +1111 files, 5510926 bytes uncompressed, 1633531 bytes compressed:  70.4%
+├── model.properties
+│ @@ -12,16 +12,16 @@
+│  io.fabric8.knative.sources.v1.SinkBinding
+│  io.fabric8.knative.eventing.contrib.kafka.v1beta1.KafkaSource
+│  io.fabric8.knative.eventing.contrib.gitlab.v1alpha1.GitLabSource
+│  io.fabric8.knative.sources.v1.ContainerSource
+│  io.fabric8.knative.eventing.contrib.kafka.v1beta1.KafkaChannel
+│  io.fabric8.knative.eventing.contrib.couchdb.v1alpha1.CouchDbSource
+│  io.fabric8.knative.eventing.contrib.kafka.v1beta1.KafkaBinding
+│ -io.fabric8.knative.eventing.contrib.prometheus.v1alpha1.PrometheusSource
+│  io.fabric8.knative.eventing.contrib.github.v1alpha1.GitHubSource
+│ +io.fabric8.knative.eventing.contrib.prometheus.v1alpha1.PrometheusSource
+│  io.fabric8.knative.serving.v1.Configuration
+│  io.fabric8.knative.eventing.contrib.github.v1alpha1.GitHubBinding
+│ -io.fabric8.knative.sources.v1.PingSource
+│  io.fabric8.knative.eventing.v1beta1.EventType
+│ +io.fabric8.knative.sources.v1.PingSource
+│  io.fabric8.knative.serving.v1.Route
+│  io.fabric8.knative.messaging.v1.Channel
+│  io.fabric8.knative.eventing.v1.Broker
+
+...
