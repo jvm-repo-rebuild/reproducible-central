@@ -1,0 +1,7 @@
+version=1.4.0
+ok=14
+ko=0
+okFiles="mrm-1.4.0.pom mrm-1.4.0-site.xml mrm-1.4.0-source-release.zip mrm-api-1.4.0.pom mrm-api-1.4.0.jar mrm-api-1.4.0-sources.jar mrm-servlet-1.4.0.pom mrm-servlet-1.4.0.jar mrm-servlet-1.4.0-sources.jar mrm-webapp-1.4.0.pom mrm-webapp-1.4.0.war mrm-maven-plugin-1.4.0.pom mrm-maven-plugin-1.4.0.jar mrm-maven-plugin-1.4.0-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
