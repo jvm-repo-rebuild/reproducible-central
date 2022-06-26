@@ -3,8 +3,8 @@ artifactId=org.apache.sling.testing.caconfig-mock-plugin
 display=${groupId}:.testing.caconfig-mock-plugin
 version=1.3.6
 
-#gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git
-#gitTag=${artifactId}-${version}
+gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git
+gitTag=${artifactId}-${version}
 # reference build done on Windows, Git checkout does not match reference, need to use Apache source-release.zip
 sourceDistribution=https://repo1.maven.org/maven2/org/apache/sling/${artifactId}/${version}/${artifactId}-${version}-source-release.zip
 sourcePath=${artifactId}-${version}

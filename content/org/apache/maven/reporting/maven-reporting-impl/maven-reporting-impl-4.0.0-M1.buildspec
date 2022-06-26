@@ -3,8 +3,8 @@ artifactId=maven-reporting-impl
 display=${groupId}:m-reporting-impl
 version=4.0.0-M1
 
-#gitRepo=https://github.com/apache/${artifactId}.git
-#gitTag=${artifactId}-${version}
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${artifactId}-${version}
 sourceDistribution=https://archive.apache.org/dist/maven/reporting/${artifactId}-${version}-source-release.zip
 sourcePath=${artifactId}-${version}
 sourceRmFiles="DEPENDENCIES LICENSE NOTICE"

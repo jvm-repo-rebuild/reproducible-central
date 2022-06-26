@@ -3,8 +3,8 @@ artifactId=jdo
 display=${groupId}:${artifactId}
 version=3.2
 
-#gitRepo=https://github.com/apache/db-jdo.git
-#gitTag=v${version}
+gitRepo=https://github.com/apache/db-jdo.git
+gitTag=v${version}
 sourceDistribution=https://repo.maven.apache.org/maven2/org/apache/jdo/${version}/jdo-${version}-source-release.zip
 sourcePath=${artifactId}-${version}
 sourceRmFiles="DEPENDENCIES LICENSE NOTICE"

@@ -3,8 +3,8 @@ artifactId=jdo
 display=${groupId}:${artifactId}
 version=3.2.1
 
-#gitRepo=https://github.com/apache/db-jdo.git
-#gitTag=v${version}
+gitRepo=https://github.com/apache/db-jdo.git
+gitTag=v${version}
 sourceDistribution=https://archive.apache.org/dist/db/${artifactId}/${version}/${artifactId}-${version}-source-release.zip
 sourcePath=${artifactId}-${version}
 sourceRmFiles="DEPENDENCIES"

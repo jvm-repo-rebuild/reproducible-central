@@ -3,8 +3,8 @@ artifactId=maven-scm
 display=${groupId}:${artifactId}
 version=1.12.0
 
-#gitRepo=https://github.com/apache/${artifactId}.git
-#gitTag=${artifactId}-${version}
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${artifactId}-${version}
 sourceDistribution=https://archive.apache.org/dist/maven/scm/${artifactId}-${version}-source-release.zip
 sourcePath=${artifactId}-${version}
 sourceRmFiles="DEPENDENCIES LICENSE NOTICE"

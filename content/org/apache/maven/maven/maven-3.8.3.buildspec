@@ -3,8 +3,8 @@ artifactId=maven
 display=${groupId}:${artifactId}
 version=3.8.3
 
-#gitRepo=https://github.com/apache/${artifactId}.git
-#gitTag=${artifactId}-${version}
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${artifactId}-${version}
 sourceDistribution=https://archive.apache.org/dist/maven/maven-3/${version}/source/apache-maven-${version}-src.zip
 sourcePath=apache-maven-${version}
 sourceRmFiles=DEPENDENCIES

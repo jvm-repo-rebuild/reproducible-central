@@ -3,8 +3,8 @@ artifactId=org.apache.sling.query
 display=${groupId}:.query
 version=4.0.4
 
-#gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git
-#gitTag=${artifactId}-${version}
+gitRepo=https://github.com/apache/sling-$(echo ${artifactId} | tr '.' '-').git
+gitTag=${artifactId}-${version}
 sourceDistribution=https://archive.apache.org/dist/sling/${artifactId}-${version}-source-release.zip
 sourcePath=${artifactId}-${version}
 sourceRmFiles="DEPENDENCIES NOTICE"

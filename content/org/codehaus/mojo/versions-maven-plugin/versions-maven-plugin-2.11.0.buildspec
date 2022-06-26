@@ -3,8 +3,8 @@ artifactId=versions-maven-plugin
 display=${groupId}:${artifactId}
 version=2.11.0
 
-#gitRepo=https://github.com/mojohaus/${artifactId}.git
-#gitTag=${artifactId}-${version}
+gitRepo=https://github.com/mojohaus/${artifactId}.git
+gitTag=${artifactId}-${version}
 sourceDistribution=https://repo.maven.apache.org/maven2/org/codehaus/mojo/${artifactId}/${version}/${artifactId}-${version}-source-release.zip
 sourcePath=${artifactId}-${version}
 sourceRmFiles=""
