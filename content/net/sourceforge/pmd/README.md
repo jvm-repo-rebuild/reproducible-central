@@ -48,13 +48,13 @@ Source code: [https://github.com/pmd/pmd.git](https://github.com/pmd/pmd.git)
 * [net.sourceforge.pmd:pmd-xml](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-xml/)
 </details>
 
-rebuilding **23 releases** of net.sourceforge.pmd:pmd:
-- **22** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **24 releases** of net.sourceforge.pmd:pmd:
+- **23** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [6.47.0](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/6.47.0/pom) | | | |
+| [6.47.0](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/6.47.0/pom) | [mvn jdk11](pmd-6.47.0.buildspec) | [result](pmd-6.47.0.buildinfo): [103 :heavy_check_mark: ](pmd-6.47.0.buildcompare) | 17M |
 | [6.46.0](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/6.46.0/pom) | [mvn jdk11](pmd-6.46.0.buildspec) | [result](pmd-6.46.0.buildinfo): [103 :heavy_check_mark: ](pmd-6.46.0.buildcompare) | 17M |
 | [6.45.0](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/6.45.0/pom) | [mvn jdk11](pmd-6.45.0.buildspec) | [result](pmd-6.45.0.buildinfo): [103 :heavy_check_mark: ](pmd-6.45.0.buildcompare) | 16M |
 | [6.44.0](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/6.44.0/pom) | [mvn jdk11](pmd-6.44.0.buildspec) | [result](pmd-6.44.0.buildinfo): [100 :heavy_check_mark: ](pmd-6.44.0.buildcompare) | 16M |

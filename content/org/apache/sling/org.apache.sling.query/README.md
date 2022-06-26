@@ -5,7 +5,7 @@
 
 ## Project: [org.apache.sling:org.apache.sling.query](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.query/)
 
-Source code: [https://github.com/apache/sling-org-apache-sling-pipes.git](https://github.com/apache/sling-org-apache-sling-pipes.git)
+Source code: [https://github.com/apache/sling-org-apache-sling-query.git](https://github.com/apache/sling-org-apache-sling-query.git)
 
 rebuilding **1 releases** of org.apache.sling:org.apache.sling.query:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),

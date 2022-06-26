@@ -5,7 +5,7 @@
 
 ## Project: [org.apache.sling:org.apache.sling.caconfig.api](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.caconfig.api/)
 
-Source code: [https://github.com/apache/sling-org-apache-sling-bundleresource-impl.git](https://github.com/apache/sling-org-apache-sling-bundleresource-impl.git)
+Source code: [https://github.com/apache/sling-org-apache-sling-caconfig-api.git](https://github.com/apache/sling-org-apache-sling-caconfig-api.git)
 
 rebuilding **1 releases** of org.apache.sling:org.apache.sling.caconfig.api:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),

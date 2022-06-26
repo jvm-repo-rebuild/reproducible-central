@@ -5,7 +5,7 @@
 
 ## Project: [org.apache.maven.reporting:maven-reporting-impl](https://search.maven.org/artifact/org.apache.maven.reporting/maven-reporting-impl/)
 
-Source code: [https://github.com/apache/maven-reporting-exec.git](https://github.com/apache/maven-reporting-exec.git)
+Source code: [https://github.com/apache/maven-reporting-impl.git](https://github.com/apache/maven-reporting-impl.git)
 
 rebuilding **2 releases** of org.apache.maven.reporting:maven-reporting-impl:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),

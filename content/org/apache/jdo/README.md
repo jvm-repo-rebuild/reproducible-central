@@ -5,7 +5,7 @@
 
 ## Project: [org.apache:jdo](https://search.maven.org/artifact/org.apache/jdo/)
 
-Source code: [https://github.com/apache/jackrabbit-filevault.git](https://github.com/apache/jackrabbit-filevault.git)
+Source code: [https://github.com/apache/db-jdo.git](https://github.com/apache/db-jdo.git)
 
 <details><summary>This project defines 3 modules:</summary>
 

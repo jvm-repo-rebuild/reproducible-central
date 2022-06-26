@@ -5,7 +5,7 @@
 
 ## Project: [org.apache.sling:org.apache.sling.testing.jcr-mock](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.testing.jcr-mock/)
 
-Source code: [https://github.com/apache/sling-org-apache-sling-testing-clients.git](https://github.com/apache/sling-org-apache-sling-testing-clients.git)
+Source code: [https://github.com/apache/sling-org-apache-sling-testing-jcr-mock.git](https://github.com/apache/sling-org-apache-sling-testing-jcr-mock.git)
 
 rebuilding **2 releases** of org.apache.sling:org.apache.sling.testing.jcr-mock:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),

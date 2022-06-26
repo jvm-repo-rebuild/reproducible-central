@@ -5,7 +5,7 @@
 
 ## Project: [org.apache.sling:org.apache.sling.fsresource](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.fsresource/)
 
-Source code: [https://github.com/apache/sling-org-apache-sling-feature.git](https://github.com/apache/sling-org-apache-sling-feature.git)
+Source code: [https://github.com/apache/sling-org-apache-sling-fsresource.git](https://github.com/apache/sling-org-apache-sling-fsresource.git)
 
 rebuilding **1 releases** of org.apache.sling:org.apache.sling.fsresource:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),

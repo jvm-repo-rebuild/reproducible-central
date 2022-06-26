@@ -5,7 +5,7 @@
 
 ## Project: [org.apache.maven:maven](https://search.maven.org/artifact/org.apache.maven/maven/)
 
-Source code: [https://github.com/apache/maven-jxr.git](https://github.com/apache/maven-jxr.git)
+Source code: [https://github.com/apache/maven.git](https://github.com/apache/maven.git)
 
 <details><summary>This project defines 15 modules:</summary>
 

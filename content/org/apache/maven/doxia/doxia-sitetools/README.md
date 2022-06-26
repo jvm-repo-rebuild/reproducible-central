@@ -5,7 +5,7 @@
 
 ## Project: [org.apache.maven.doxia:doxia-sitetools](https://search.maven.org/artifact/org.apache.maven.doxia/doxia-sitetools/)
 
-Source code: [https://github.com/apache/maven-archetype.git](https://github.com/apache/maven-archetype.git)
+Source code: [https://github.com/apache/maven-doxia-sitetools.git](https://github.com/apache/maven-doxia-sitetools.git)
 
 <details><summary>This project defines 6 modules:</summary>
 

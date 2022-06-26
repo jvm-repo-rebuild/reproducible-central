@@ -5,7 +5,7 @@
 
 ## Project: [org.apache.maven.scm:maven-scm](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/)
 
-Source code: [https://github.com/apache/maven-resolver.git](https://github.com/apache/maven-resolver.git)
+Source code: [https://github.com/apache/maven-scm.git](https://github.com/apache/maven-scm.git)
 
 <details><summary>This project defines 35 modules:</summary>
 

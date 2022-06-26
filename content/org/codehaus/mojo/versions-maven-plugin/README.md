@@ -5,7 +5,7 @@
 
 ## Project: [org.codehaus.mojo:versions-maven-plugin](https://search.maven.org/artifact/org.codehaus.mojo/versions-maven-plugin/)
 
-Source code: [https://github.com/mojohaus/taglist-maven-plugin.git](https://github.com/mojohaus/taglist-maven-plugin.git)
+Source code: [https://github.com/mojohaus/versions-maven-plugin.git](https://github.com/mojohaus/versions-maven-plugin.git)
 
 rebuilding **4 releases** of org.codehaus.mojo:versions-maven-plugin:
 - **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),

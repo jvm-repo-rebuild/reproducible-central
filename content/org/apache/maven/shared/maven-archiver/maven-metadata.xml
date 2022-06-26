@@ -3,8 +3,8 @@
   <groupId>org.apache.maven</groupId>
   <artifactId>maven-archiver</artifactId>
   <versioning>
-    <latest>3.5.2</latest>
-    <release>3.5.2</release>
+    <latest>3.6.0</latest>
+    <release>3.6.0</release>
     <versions>
       <version>2.0-alpha-1</version>
       <version>2.0-alpha-2</version>
@@ -37,7 +37,8 @@
       <version>3.5.0</version>
       <version>3.5.1</version>
       <version>3.5.2</version>
+      <version>3.6.0</version>
     </versions>
-    <lastUpdated>20220105125633</lastUpdated>
+    <lastUpdated>20220626125803</lastUpdated>
   </versioning>
 </metadata>

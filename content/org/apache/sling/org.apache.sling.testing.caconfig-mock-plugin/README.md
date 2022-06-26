@@ -5,7 +5,7 @@
 
 ## Project: [org.apache.sling:org.apache.sling.testing.caconfig-mock-plugin](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.testing.caconfig-mock-plugin/)
 
-Source code: [https://github.com/apache/sling-org-apache-sling-tenant.git](https://github.com/apache/sling-org-apache-sling-tenant.git)
+Source code: [https://github.com/apache/sling-org-apache-sling-testing-caconfig-mock-plugin.git](https://github.com/apache/sling-org-apache-sling-testing-caconfig-mock-plugin.git)
 
 rebuilding **3 releases** of org.apache.sling:org.apache.sling.testing.caconfig-mock-plugin:
 - **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
