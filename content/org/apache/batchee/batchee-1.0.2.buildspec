@@ -1,0 +1,21 @@
+groupId=org.apache.batchee
+artifactId=batchee
+display=${groupId}:${artifactId}
+version=1.0.2
+
+gitRepo=https://github.com/apache/geronimo-${artifactId}.git
+gitTag=${artifactId}-${version}
+#sourceDistribution=https://archive.apache.org/dist/tomee/${artifactId}-${version}/${artifactId}-${version}-source-release.zip
+#sourcePath=${artifactId}-${version}
+#sourceRmFiles="DEPENDENCIES LICENSE NOTICE"
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/apache/geronimo-batchee/pull/7
