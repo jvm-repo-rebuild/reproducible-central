@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.apache.sling:maven-enforcer-rules:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.1.0](https://search.maven.org/artifact/org.apache.sling/maven-enforcer-rules/1.1.0/pom) | | | |
 | [1.0.0](https://search.maven.org/artifact/org.apache.sling/maven-enforcer-rules/1.0.0/pom) | [mvn jdk11](maven-enforcer-rules-1.0.0.buildspec) | [result](maven-enforcer-rules-1.0.0.buildinfo): [4 :heavy_check_mark: ](maven-enforcer-rules-1.0.0.buildcompare) | 72K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

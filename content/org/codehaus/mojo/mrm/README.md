@@ -22,6 +22,7 @@ rebuilding **1 releases** of org.codehaus.mojo:mrm:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.4.1](https://search.maven.org/artifact/org.codehaus.mojo/mrm/1.4.1/pom) | | | |
 | [1.4.0](https://search.maven.org/artifact/org.codehaus.mojo/mrm/1.4.0/pom) | [mvn jdk11](mrm-1.4.0.buildspec) | [result](mrm-1.4.0.buildinfo): [14 :heavy_check_mark: ](mrm-1.4.0.buildcompare) | 5.2M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
