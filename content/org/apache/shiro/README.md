@@ -48,6 +48,7 @@ rebuilding **1 releases** of org.apache.shiro:shiro-root:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.9.1](https://search.maven.org/artifact/org.apache.shiro/shiro-root/1.9.1/pom) | | | |
 | [1.9.0](https://search.maven.org/artifact/org.apache.shiro/shiro-root/1.9.0/pom) | [mvn jdk11](shiro-1.9.0.buildspec) | [result](shiro-root-1.9.0.buildinfo): [34 :heavy_check_mark:  49 :warning:](shiro-root-1.9.0.buildcompare) [:mag:](shiro-root-1.9.0.diffoscope) | 5.5M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
