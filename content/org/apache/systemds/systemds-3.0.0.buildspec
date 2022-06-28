@@ -1,0 +1,17 @@
+groupId=org.apache.systemds
+artifactId=systemds
+display=${groupId}:${artifactId}
+version=3.0.0
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${version}-rc2
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn -Pdistribution clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=

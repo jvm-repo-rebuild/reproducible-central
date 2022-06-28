@@ -1,0 +1,50 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache SystemDS
+group-id=org.apache.systemds
+artifact-id=systemds
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-apache-parent.git/systemds
+source.scm.tag=3.0.0-rc2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=systemds-3.0.0.pom
+outputs.0.length=35568
+outputs.0.checksums.sha512=d6da90abe7aea806058c252b092e14962fcd418c89af33f4ba810a9aed42cfa44cdf884182b4bfd1ebf515db02e2913fc0ab4145402a19a5d1eda6872d3d9e85
+
+outputs.1.filename=systemds-3.0.0.jar
+outputs.1.length=7492110
+outputs.1.checksums.sha512=3dc2221a831fdfe38a1ece391de095012a9d1f8cb5abb3b3b629ac5477fd2cb5467a8eb045677ccca15a09dc26a59b5ae9e31c9ce4a2a9e80bd5ae74d2c60eaf
+
+outputs.2.filename=systemds-3.0.0-src.tgz
+outputs.2.length=44082900
+outputs.2.checksums.sha512=3c984f5eb9b592cde1f7c77d35f6503f8b68ef0e58f1de137ec7d9ecd22bc6a291faeb200f60f3f967b0cd9bdc7c60a435e93a10b246035533bf1c3f58194e71
+
+outputs.3.filename=systemds-3.0.0-src.zip
+outputs.3.length=57085549
+outputs.3.checksums.sha512=f2149f594608c918218d38e58be1fe14b6827bd85bc2168121381d4467ebb5d45173cf1e32e817898aa2ba718d1078a67c2526415c5d1a7f155747c0cd0a1fd4
+
+outputs.4.filename=systemds-3.0.0-extra.jar
+outputs.4.length=2969101
+outputs.4.checksums.sha512=3ad30eb95249ea1d0f2d58082736f6fa957b6d88a23926dc5058ebd72809a880f5cf983ec27d96e85c6e2356be6fa84b8afb9be96716f66cc2d5913313779a1e
+
+outputs.5.filename=systemds-3.0.0-bin.tgz
+outputs.5.length=117316375
+outputs.5.checksums.sha512=d14858418d0535168d9474f556332c0a75a2ebc6a80030401bba1ddc44139fba264bb5eb949034b1a41be374eb13a0dfedac76443cc63bd530cc090334cc888d
+
+outputs.6.filename=systemds-3.0.0-bin.zip
+outputs.6.length=117604192
+outputs.6.checksums.sha512=43aa5168ae5c73be595fea72623a7e62f115e14be6cc0c9ad1f969222b778640afba12557ad246be32d80e628bd0c33afc2d0f16499df8463ebeb8592a52a862

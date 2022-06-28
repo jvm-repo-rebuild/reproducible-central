@@ -1,0 +1,159 @@
+need to upgrade maven-shade-plugin
+1 / 6 target/reference/systemds-3.0.0.jar target/systemds-3.0.0.jar
+--- target/reference/systemds-3.0.0.jar
++++ target/systemds-3.0.0.jar
+├── zipinfo {}
+│ @@ -1,3092 +1,3092 @@
+│  Zip file size: 7492110 bytes, number of entries: 3090
+│ --rw----     2.0 fat      370 bX defN 22-Jun-15 16:31 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat        0 bl defN 22-Jun-15 16:31 META-INF/
+│ --rw----     2.0 fat    68410 bl defN 22-Jun-15 16:31 META-INF/DEPENDENCIES
+...
+│ --rw----     2.0 fat    19713 bl defN 22-Jun-15 16:32 META-INF/LICENSE
+│ --rw----     2.0 fat      171 bl defN 22-Jun-15 16:32 META-INF/NOTICE
+│ +-rw----     2.0 fat      370 bX defN 22-Jun-28 12:37 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat        0 bl defN 22-Jun-28 12:37 META-INF/
+│ +-rw----     2.0 fat    68410 bl defN 22-Jun-28 12:37 META-INF/DEPENDENCIES
+...
+│ +-rw----     2.0 fat    19713 bl defN 22-Jun-28 12:37 META-INF/LICENSE
+│ +-rw----     2.0 fat      171 bl defN 22-Jun-28 12:37 META-INF/NOTICE
+│  3090 files, 17908440 bytes uncompressed, 6827538 bytes compressed:  61.9%
+
+2 / 6 target/reference/systemds-3.0.0-src.tgz target/systemds-3.0.0-src.tgz
+--- target/reference/systemds-3.0.0-src.tgz
++++ target/systemds-3.0.0-src.tgz
+├── systemds-3.0.0-src.tgz-content
+│ ├── file list
+│ │ @@ -4518,16 +4518,14 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)   376145 1970-01-01 00:00:01.000000 systemds-3.0.0-src/docs/site/img/dml-language-reference/Conv2d_backward_data2.gif
+│ │  -rw-r--r--   0 root         (0) root         (0)     5190 1970-01-01 00:00:01.000000 systemds-3.0.0-src/docs/site/install.md
+│ │  -rw-r--r--   0 root         (0) root         (0)     4083 1970-01-01 00:00:01.000000 systemds-3.0.0-src/docs/site/native-backend.md
+│ │  -rw-r--r--   0 root         (0) root         (0)     3513 1970-01-01 00:00:01.000000 systemds-3.0.0-src/docs/site/run.md
+│ │  -rw-r--r--   0 root         (0) root         (0)     5237 1970-01-01 00:00:01.000000 systemds-3.0.0-src/docs/site/windows-source-installation.md
+│ │  -rw-r--r--   0 root         (0) root         (0)     1925 1970-01-01 00:00:01.000000 systemds-3.0.0-src/docs/updateAPI.sh
+│ │  -rw-r--r--   0 root         (0) root         (0)    35568 1970-01-01 00:00:01.000000 systemds-3.0.0-src/pom.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)    35572 1970-01-01 00:00:01.000000 systemds-3.0.0-src/pom.xml.releaseBackup
+│ │ --rw-r--r--   0 root         (0) root         (0)     1078 1970-01-01 00:00:01.000000 systemds-3.0.0-src/release.properties
+│ │  -rw-r--r--   0 root         (0) root         (0)     6438 1970-01-01 00:00:01.000000 systemds-3.0.0-src/scripts/algorithms/ALS-CG.dml
+│ │  -rw-r--r--   0 root         (0) root         (0)     6720 1970-01-01 00:00:01.000000 systemds-3.0.0-src/scripts/algorithms/ALS-DS.dml
+│ │  -rw-r--r--   0 root         (0) root         (0)     3220 1970-01-01 00:00:01.000000 systemds-3.0.0-src/scripts/algorithms/ALS_predict.dml
+│ │  -rw-r--r--   0 root         (0) root         (0)     4658 1970-01-01 00:00:01.000000 systemds-3.0.0-src/scripts/algorithms/ALS_topk_predict.dml
+│ │  -rw-r--r--   0 root         (0) root         (0)     7148 1970-01-01 00:00:01.000000 systemds-3.0.0-src/scripts/algorithms/Cox-predict.dml
+│ │  -rw-r--r--   0 root         (0) root         (0)    17778 1970-01-01 00:00:01.000000 systemds-3.0.0-src/scripts/algorithms/Cox.dml
+│ │  -rw-r--r--   0 root         (0) root         (0)     9879 1970-01-01 00:00:01.000000 systemds-3.0.0-src/scripts/algorithms/CsplineCG.dml
+│ ├── systemds-3.0.0-src/src/main/java/org/apache/sysds/parser/dml/DmlBaseListener.java
+│ │ @@ -1,8 +1,8 @@
+│ │ -// Generated from org/apache/sysds/parser/dml/Dml.g4 by ANTLR 4.8
+│ │ +// Generated from org\apache\sysds\parser\dml\Dml.g4 by ANTLR 4.8
+│ │  package org.apache.sysds.parser.dml;
+│ │  
+│ │  /*
+│ │   * Licensed to the Apache Software Foundation (ASF) under one
+│ │   * or more contributor license agreements.  See the NOTICE file
+│ │   * distributed with this work for additional information
+│ │   * regarding copyright ownership.  The ASF licenses this file
+│ ├── systemds-3.0.0-src/src/main/java/org/apache/sysds/parser/dml/DmlLexer.java
+│ │ @@ -1,8 +1,8 @@
+│ │ -// Generated from org/apache/sysds/parser/dml/Dml.g4 by ANTLR 4.8
+│ │ +// Generated from org\apache\sysds\parser\dml\Dml.g4 by ANTLR 4.8
+│ │  package org.apache.sysds.parser.dml;
+│ │  
+│ │  /*
+│ │   * Licensed to the Apache Software Foundation (ASF) under one
+│ │   * or more contributor license agreements.  See the NOTICE file
+│ │   * distributed with this work for additional information
+│ │   * regarding copyright ownership.  The ASF licenses this file
+│ ├── systemds-3.0.0-src/src/main/java/org/apache/sysds/parser/dml/DmlListener.java
+│ │ @@ -1,8 +1,8 @@
+│ │ -// Generated from org/apache/sysds/parser/dml/Dml.g4 by ANTLR 4.8
+│ │ +// Generated from org\apache\sysds\parser\dml\Dml.g4 by ANTLR 4.8
+│ │  package org.apache.sysds.parser.dml;
+│ │  
+│ │  /*
+│ │   * Licensed to the Apache Software Foundation (ASF) under one
+│ │   * or more contributor license agreements.  See the NOTICE file
+│ │   * distributed with this work for additional information
+│ │   * regarding copyright ownership.  The ASF licenses this file
+│ ├── systemds-3.0.0-src/src/main/java/org/apache/sysds/parser/dml/DmlParser.java
+│ │ @@ -1,8 +1,8 @@
+│ │ -// Generated from org/apache/sysds/parser/dml/Dml.g4 by ANTLR 4.8
+│ │ +// Generated from org\apache\sysds\parser\dml\Dml.g4 by ANTLR 4.8
+│ │  package org.apache.sysds.parser.dml;
+│ │  
+│ │  /*
+│ │   * Licensed to the Apache Software Foundation (ASF) under one
+│ │   * or more contributor license agreements.  See the NOTICE file
+│ │   * distributed with this work for additional information
+│ │   * regarding copyright ownership.  The ASF licenses this file
+
+...
+
+4 / 6 target/reference/systemds-3.0.0-extra.jar target/systemds-3.0.0-extra.jar
+--- target/reference/systemds-3.0.0-extra.jar
++++ target/systemds-3.0.0-extra.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 2969100 bytes, number of entries: 395
+│ +Zip file size: 2969101 bytes, number of entries: 395
+│  -rw-r--r--  2.0 unx      161 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 jcuda/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 jcuda/driver/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 jcuda/nvrtc/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 jcuda/runtime/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/
+│ @@ -390,8 +390,8 @@
+│  -rw-r--r--  2.0 unx   214768 b- defN 80-000-00 04:08 lib/libJCublas-10.2.0-linux-x86_64.so
+│  -rw-r--r--  2.0 unx  1064672 b- defN 80-000-00 04:08 lib/libJCublas2-10.2.0-linux-x86_64.so
+│  -rw-r--r--  2.0 unx  1602696 b- defN 80-000-00 04:08 lib/libJCusparse-10.2.0-linux-x86_64.so
+│  -rw-r--r--  2.0 unx  1333224 b- defN 80-000-00 04:08 lib/libJCusolver-10.2.0-linux-x86_64.so
+│  -rw-r--r--  2.0 unx   432440 b- defN 80-000-00 04:08 lib/libJCudnn-10.2.0-linux-x86_64.so
+│  -rw-r--r--  2.0 unx    13183 b- defN 80-000-00 04:08 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      171 b- defN 80-000-00 04:08 META-INF/NOTICE
+│ -395 files, 10640719 bytes uncompressed, 2910668 bytes compressed:  72.7%
+│ +395 files, 10640719 bytes uncompressed, 2910669 bytes compressed:  72.7%
+├── META-INF/MANIFEST.MF
+│ @@ -1,7 +1,7 @@
+│  Manifest-Version: 1.0
+
+│  Created-By: Maven Archiver 3.5.0
+
+│  Build-Jdk-Spec: 11
+
+│  Artifact-Id: systemds-extra
+
+│ -Build-Time: 2022-06-15 16:31:50 UTC
+
+│ +Build-Time: 2022-06-28 12:36:47 UTC
+
+│  Version: 3.0.0
+
+5 / 6 target/reference/systemds-3.0.0-bin.tgz target/systemds-3.0.0-bin.tgz
+--- target/reference/systemds-3.0.0-bin.tgz
++++ target/systemds-3.0.0-bin.tgz
+├── systemds-3.0.0-bin.tgz-content
+│ ├── file list
+│ │ @@ -1,9 +1,9 @@
+│ │ --rw-rw-r--   0 root         (0) root         (0)  2969100 1970-01-01 00:00:01.000000 systemds-3.0.0-bin/lib/systemds-3.0.0-extra.jar
+│ │ --rw-rw-r--   0 root         (0) root         (0)  7492110 1970-01-01 00:00:01.000000 systemds-3.0.0-bin/systemds-3.0.0.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)  2969101 1970-01-01 00:00:01.000000 systemds-3.0.0-bin/lib/systemds-3.0.0-extra.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)  7492110 1970-01-01 00:00:01.000000 systemds-3.0.0-bin/systemds-3.0.0.jar
+│ │  -rw-rw-r--   0 root         (0) root         (0)     1299 1970-01-01 00:00:01.000000 systemds-3.0.0-bin/conf/log4j.properties
+│ │  -rw-rw-r--   0 root         (0) root         (0)     6759 1970-01-01 00:00:01.000000 systemds-3.0.0-bin/conf/SystemDS-config.xml
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 1970-01-01 00:00:01.000000 systemds-3.0.0-bin/scripts/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 1970-01-01 00:00:01.000000 systemds-3.0.0-bin/scripts/algorithms/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 1970-01-01 00:00:01.000000 systemds-3.0.0-bin/scripts/aws/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 1970-01-01 00:00:01.000000 systemds-3.0.0-bin/scripts/builtin/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 1970-01-01 00:00:01.000000 systemds-3.0.0-bin/scripts/datagen/
+│ ├── systemds-3.0.0-bin/lib/systemds-3.0.0-extra.jar
+...
+│ ├── systemds-3.0.0-bin/systemds-3.0.0.jar
+...
+│ ├── systemds-3.0.0-bin/lib/systemds-3.0.0.jar
+...
+├── systemds-3.0.0-bin/lib/systemds-3.0.0-extra.jar
+...
+├── systemds-3.0.0-bin/systemds-3.0.0.jar
+..
+├── systemds-3.0.0-bin/lib/systemds-3.0.0.jar
+...
