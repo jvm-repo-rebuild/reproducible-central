@@ -42,13 +42,13 @@ Source code: [https://github.com/apache/shiro.git](https://github.com/apache/shi
 * [org.apache.shiro:shiro-web](https://search.maven.org/artifact/org.apache.shiro/shiro-web/)
 </details>
 
-rebuilding **1 releases** of org.apache.shiro:shiro-root:
+rebuilding **2 releases** of org.apache.shiro:shiro-root:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.9.1](https://search.maven.org/artifact/org.apache.shiro/shiro-root/1.9.1/pom) | | | |
-| [1.9.0](https://search.maven.org/artifact/org.apache.shiro/shiro-root/1.9.0/pom) | [mvn jdk11](shiro-1.9.0.buildspec) | [result](shiro-root-1.9.0.buildinfo): [34 :heavy_check_mark:  49 :warning:](shiro-root-1.9.0.buildcompare) [:mag:](shiro-root-1.9.0.diffoscope) | 5.5M |
+| [1.9.1](https://search.maven.org/artifact/org.apache.shiro/shiro-root/1.9.1/pom) | [mvn jdk11](shiro-1.9.1.buildspec) | [result](shiro-root-1.9.1.buildinfo): [58 :heavy_check_mark:  25 :warning:](shiro-root-1.9.1.buildcompare) [:mag:](shiro-root-1.9.1.diffoscope) [:memo:](https://github.com/apache/shiro/pull/365) | 5.5M |
+| [1.9.0](https://search.maven.org/artifact/org.apache.shiro/shiro-root/1.9.0/pom) | [mvn jdk11](shiro-1.9.0.buildspec) | [result](shiro-root-1.9.0.buildinfo): [34 :heavy_check_mark:  49 :warning:](shiro-root-1.9.0.buildcompare) [:mag:](shiro-root-1.9.0.diffoscope) [:memo:](https://github.com/apache/shiro/pull/351) | 5.5M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

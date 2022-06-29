@@ -66,9 +66,9 @@ Notice the anchor in the link.
 Nightly Rebuild: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
 
 <!-- BEGIN GENERATED INTRO -->
-rebuilding **999 releases** of **291 projects**:
-- **685** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 314 had issues (some unreproducible artifacts :warning:):
+rebuilding **1001 releases** of **291 projects**:
+- **686** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- 315 had issues (some unreproducible artifacts :warning:):
 
 <!-- END GENERATED INTRO -->
 
@@ -218,7 +218,7 @@ rebuilding **999 releases** of **291 projects**:
 | org.apache.rat | <a name='org.apache.rat:apache-rat-project'></a>[apache-rat-project](content/org/apache/rat/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.royale.compiler | <a name='org.apache.royale.compiler:compiler'></a>[compiler](content/org/apache/royale/compiler/README.md) | 1 | 1 :warning: |
 | org.apache.santuario | <a name='org.apache.santuario:xmlsec'></a>[xmlsec](content/org/apache/santuario/xmlsec/README.md) | 1 | 1 :warning: |
-| org.apache.shiro | <a name='org.apache.shiro:shiro-root'></a>[shiro-root](content/org/apache/shiro/README.md) | 1 | 1 :warning: |
+| org.apache.shiro | <a name='org.apache.shiro:shiro-root'></a>[shiro-root](content/org/apache/shiro/README.md) | 2 | 2 :warning: |
 | org.apache.sling | <a name='org.apache.sling:htl-maven-plugin'></a>[htl-maven-plugin](content/org/apache/sling/htl-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.sling:jspc-maven-plugin'></a>[jspc-maven-plugin](content/org/apache/sling/jspc-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.sling:maven-enforcer-rules'></a>[maven-enforcer-rules](content/org/apache/sling/maven-enforcer-rules/README.md) | 2 | 2 :heavy_check_mark: |
@@ -362,11 +362,11 @@ rebuilding **999 releases** of **291 projects**:
 | org.slf4j | <a name='org.slf4j:slf4j-parent'></a>[slf4j-parent](content/org/slf4j/README.md) | 1 | 1 :warning: |
 | org.sonatype.nexus.archetypes | <a name='org.sonatype.nexus.archetypes:nexus-format-archetype'></a>[nexus-format-archetype](content/org/sonatype/nexus/archetypes/nexus-format-archetype/README.md) | 1 | 1 :heavy_check_mark: |
 | org.tomitribe.transformer | <a name='org.tomitribe.transformer:org.eclipse.transformer.parent'></a>[org.eclipse.transformer.parent](content/org/tomitribe/transformer/README.md) | 2 | 2 :heavy_check_mark: |
-| org.webjars | <a name='org.webjars:flexmonster'></a>[flexmonster](content/org/webjars/flexmonster/README.md) | 8 | 7 :heavy_check_mark: / 1 :warning: |
+| org.webjars | <a name='org.webjars:flexmonster'></a>[flexmonster](content/org/webjars/flexmonster/README.md) | 9 | 8 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.webjars:swagger-ui'></a>[swagger-ui](content/org/webjars/swagger-ui/README.md) | 7 | 7 :heavy_check_mark: |
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 5 | 5 :warning: |
-| **Count:** | **291** | **999** | **685** :heavy_check_mark: **314** :warning: |
+| **Count:** | **291** | **1001** | **686** :heavy_check_mark: **315** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ## Understanding What Is Behind
