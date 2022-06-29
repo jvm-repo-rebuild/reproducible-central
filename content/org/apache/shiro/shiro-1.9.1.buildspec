@@ -1,7 +1,7 @@
 groupId=org.apache.shiro
 artifactId=shiro-root
 display=${groupId}:${artifactId}
-version=1.9.0
+version=1.9.1
 
 gitRepo=https://github.com/apache/shiro.git
 gitTag=${artifactId}-${version}
@@ -15,4 +15,4 @@ command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dg
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope
-issue=https://github.com/apache/shiro/pull/351
+issue=https://github.com/apache/shiro/pull/365

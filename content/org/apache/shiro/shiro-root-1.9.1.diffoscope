@@ -1,0 +1,165 @@
+# release uses docs profile, that configures another (older) maven-source-plugin...
+1 / 25 target/reference/shiro-lang-1.9.1-sources.jar lang/target/shiro-lang-1.9.1-sources.jar
+--- target/reference/shiro-lang-1.9.1-sources.jar
++++ lang/target/shiro-lang-1.9.1-sources.jar
+├── zipinfo {}
+│ @@ -1,45 +1,45 @@
+│ -Zip file size: 58479 bytes, number of entries: 43
+│ --rw-r--r--  2.0 unx       96 bl defN 22-Jun-23 15:02 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-23 15:02 META-INF/
+...
+│ --rw-r--r--  2.0 unx     6151 bl defN 22-Jun-23 15:01 org/apache/shiro/codec/Hex.java
+│ --rw-r--r--  2.0 unx     3237 bl defN 22-Jun-23 15:01 META-INF/maven/org.apache.shiro/shiro-lang/pom.xml
+│ -43 files, 173844 bytes uncompressed, 51795 bytes compressed:  70.2%
+│ +Zip file size: 57902 bytes, number of entries: 43
+│ +-rw-r--r--  2.0 unx       64 b- defN 22-Jun-23 18:51 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-23 18:51 META-INF/
+...
+│ +-rw-r--r--  2.0 unx     2008 b- defN 22-Jun-23 18:51 org/apache/shiro/util/UnknownClassException.java
+│ +-rw-r--r--  2.0 unx     3237 b- defN 22-Jun-23 18:51 META-INF/maven/org.apache.shiro/shiro-lang/pom.xml
+│ +-rw-r--r--  2.0 unx       61 b- defN 22-Jun-23 18:51 META-INF/maven/org.apache.shiro/shiro-lang/pom.properties
+│ +43 files, 173781 bytes uncompressed, 51746 bytes compressed:  70.2%
+...
+├── META-INF/MANIFEST.MF
+│ @@ -1,5 +1,3 @@
+│  Manifest-Version: 1.0
+
+│ -Created-By: Apache Maven 3.8.4
+
+│ -Built-By: bdemers
+
+│ -Build-Jdk: 11.0.14
+
+│ +Created-By: Maven Source Plugin 3.2.1
+
+├── META-INF/maven/org.apache.shiro/shiro-lang/pom.properties
+│ @@ -1,4 +1,3 @@
+│ -#Created by Apache Maven 3.8.4
+│ -groupId=org.apache.shiro
+│  artifactId=shiro-lang
+│ +groupId=org.apache.shiro
+│  version=1.9.1
+
+...
+
+# ReflectionBuilderTest.class is built from ReflectionBuilderTest.groovy: is there a reproducibility issue in Groovy compiler?
+8 / 25 target/reference/shiro-config-ogdl-1.9.1-tests.jar config/ogdl/target/shiro-config-ogdl-1.9.1-tests.jar
+--- target/reference/shiro-config-ogdl-1.9.1-tests.jar
++++ config/ogdl/target/shiro-config-ogdl-1.9.1-tests.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 42933 bytes, number of entries: 26
+│ +Zip file size: 43001 bytes, number of entries: 26
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-23 18:51 META-INF/
+│  -rw-r--r--  2.0 unx      370 b- defN 22-Jun-23 18:51 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-23 18:51 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-23 18:51 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-23 18:51 org/apache/shiro/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-23 18:51 org/apache/shiro/config/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-23 18:51 org/apache/shiro/config/event/
+│ @@ -13,16 +13,16 @@
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Jun-23 18:51 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      640 b- defN 22-Jun-23 18:51 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     4111 b- defN 22-Jun-23 18:51 org/apache/shiro/config/CommonsInterpolatorTest.class
+│  -rw-r--r--  2.0 unx     6176 b- defN 22-Jun-23 18:51 org/apache/shiro/config/CompositeBean.class
+│  -rw-r--r--  2.0 unx     3610 b- defN 22-Jun-23 18:51 org/apache/shiro/config/DefaultInterpolatorTest.class
+│  -rw-r--r--  2.0 unx     2858 b- defN 22-Jun-23 18:51 org/apache/shiro/config/InitializableBean.class
+│  -rw-r--r--  2.0 unx     5971 b- defN 22-Jun-23 18:51 org/apache/shiro/config/RecordingBeanListener.class
+│ --rw-r--r--  2.0 unx    34968 b- defN 22-Jun-23 18:51 org/apache/shiro/config/ReflectionBuilderTest.class
+│ +-rw-r--r--  2.0 unx    35141 b- defN 22-Jun-23 18:51 org/apache/shiro/config/ReflectionBuilderTest.class
+│  -rw-r--r--  2.0 unx     5165 b- defN 22-Jun-23 18:51 org/apache/shiro/config/SimpleBean.class
+│  -rw-r--r--  2.0 unx     3889 b- defN 22-Jun-23 18:51 org/apache/shiro/config/SimpleBeanFactory.class
+│  -rw-r--r--  2.0 unx     6477 b- defN 22-Jun-23 18:51 org/apache/shiro/config/SimpleEnum.class
+│  -rw-r--r--  2.0 unx     4705 b- defN 22-Jun-23 18:51 org/apache/shiro/config/event/BeanEventTest$MyBeanEvent.class
+│  -rw-r--r--  2.0 unx     5071 b- defN 22-Jun-23 18:51 org/apache/shiro/config/event/BeanEventTest.class
+│  -rw-r--r--  2.0 unx     4195 b- defN 22-Jun-23 18:51 META-INF/maven/org.apache.shiro/shiro-config-ogdl/pom.xml
+│  -rw-r--r--  2.0 unx       68 b- defN 22-Jun-23 18:51 META-INF/maven/org.apache.shiro/shiro-config-ogdl/pom.properties
+│ -26 files, 101958 bytes uncompressed, 39095 bytes compressed:  61.7%
+│ +26 files, 102131 bytes uncompressed, 39163 bytes compressed:  61.7%
+├── org/apache/shiro/config/ReflectionBuilderTest.class
+│ ├── procyon -ec {}
+│ │ @@ -46,51 +46,51 @@
+│ │          final CallSite[] $getCallSiteArray = $getCallSiteArray();
+│ │          final ReflectionBuilder builder = (ReflectionBuilder)ScriptBytecodeAdapter.castToType($getCallSiteArray[0].callConstructor((Object)ReflectionBuilder.class), (Class)ReflectionBuilder.class);
+│ │          final CompositeBean cBean = (CompositeBean)ScriptBytecodeAdapter.castToType($getCallSiteArray[1].callConstructor((Object)CompositeBean.class), (Class)CompositeBean.class);
+│ │          $getCallSiteArray[2].call((Object)builder, (Object)cBean, (Object)"stringProp", (Object)"hello world");
+│ │          $getCallSiteArray[3].call((Object)builder, (Object)cBean, (Object)"booleanProp", (Object)Boolean.valueOf(true));
+│ │          $getCallSiteArray[4].call((Object)builder, (Object)cBean, (Object)"intProp", (Object)Integer.valueOf(42));
+│ │          $getCallSiteArray[5].call((Object)builder, (Object)cBean, (Object)"simpleBean", $getCallSiteArray[6].callConstructor((Object)SimpleBean.class));
+│ │ -        $getCallSiteArray[7].callStatic((Class)Assert.class, (Object)Boolean.valueOf(ScriptBytecodeAdapter.compareEqual($getCallSiteArray[8].callGetProperty((Object)cBean), (Object)"hello world")));
+│ │ -        $getCallSiteArray[9].callStatic((Class)Assert.class, $getCallSiteArray[10].callGetProperty((Object)cBean));
+│ │ -        $getCallSiteArray[11].callStatic((Class)Assert.class, (Object)Boolean.valueOf(ScriptBytecodeAdapter.compareEqual($getCallSiteArray[12].callGetProperty((Object)cBean), (Object)Integer.valueOf(42))));
+│ │ -        $getCallSiteArray[13].callStatic((Class)Assert.class, (Object)Boolean.valueOf($getCallSiteArray[14].callGetProperty((Object)cBean) instanceof SimpleBean));
+│ │ +        $getCallSiteArray[7].callStatic((Class)Assert.class, (Object)Boolean.valueOf(ScriptBytecodeAdapter.compareEqual($getCallSiteArray[8].callGroovyObjectGetProperty((Object)cBean), (Object)"hello world")));
+│ │ +        $getCallSiteArray[9].callStatic((Class)Assert.class, $getCallSiteArray[10].callGroovyObjectGetProperty((Object)cBean));
+│ │ +        $getCallSiteArray[11].callStatic((Class)Assert.class, (Object)Boolean.valueOf(ScriptBytecodeAdapter.compareEqual($getCallSiteArray[12].callGroovyObjectGetProperty((Object)cBean), (Object)Integer.valueOf(42))));
+│ │ +        $getCallSiteArray[13].callStatic((Class)Assert.class, (Object)Boolean.valueOf($getCallSiteArray[14].callGroovyObjectGetProperty((Object)cBean) instanceof SimpleBean));
+│ │      }
+│ │      
+│ │      @Test
+│ │      public void testMapEntryAssignment() {
+│ │          final CallSite[] $getCallSiteArray = $getCallSiteArray();
+│ │          final ReflectionBuilder builder = (ReflectionBuilder)ScriptBytecodeAdapter.castToType($getCallSiteArray[15].callConstructor((Object)ReflectionBuilder.class), (Class)ReflectionBuilder.class);
+│ │          final CompositeBean cBean = (CompositeBean)ScriptBytecodeAdapter.castToType($getCallSiteArray[16].callConstructor((Object)CompositeBean.class), (Class)CompositeBean.class);
+│ │ -        ScriptBytecodeAdapter.setProperty((Object)ScriptBytecodeAdapter.createMap(new Object[] { "simpleBean1", $getCallSiteArray[17].callConstructor((Object)SimpleBean.class) }), (Class)null, (Object)cBean, (String)"simpleBeanMap");
+│ │ +        ScriptBytecodeAdapter.setGroovyObjectProperty((Object)ScriptBytecodeAdapter.createMap(new Object[] { "simpleBean1", $getCallSiteArray[17].callConstructor((Object)SimpleBean.class) }), (Class)ReflectionBuilderTest.class, (GroovyObject)cBean, (String)"simpleBeanMap");
+│ │          $getCallSiteArray[18].call((Object)builder, (Object)cBean, (Object)"simpleBeanMap[simpleBean2]", $getCallSiteArray[19].callConstructor((Object)SimpleBean.class));
+│ │ -        $getCallSiteArray[20].callStatic((Class)Assert.class, (Object)Boolean.valueOf($getCallSiteArray[21].call($getCallSiteArray[22].callGetProperty((Object)cBean), (Object)"simpleBean2") instanceof SimpleBean));
+│ │ +        $getCallSiteArray[20].callStatic((Class)Assert.class, (Object)Boolean.valueOf($getCallSiteArray[21].call($getCallSiteArray[22].callGroovyObjectGetProperty((Object)cBean), (Object)"simpleBean2") instanceof SimpleBean));
+│ │      }
+│ │      
+│ │      @Test
+│ │      public void testArrayEntryAssignment() {
+│ │          final CallSite[] $getCallSiteArray = $getCallSiteArray();
+│ │          final ReflectionBuilder builder = (ReflectionBuilder)ScriptBytecodeAdapter.castToType($getCallSiteArray[23].callConstructor((Object)ReflectionBuilder.class), (Class)ReflectionBuilder.class);
+│ │          final CompositeBean cBean = (CompositeBean)ScriptBytecodeAdapter.castToType($getCallSiteArray[24].callConstructor((Object)CompositeBean.class), (Class)CompositeBean.class);
+│ │ -        ScriptBytecodeAdapter.setProperty((Object)new CompositeBean[1], (Class)null, (Object)cBean, (String)"compositeBeanArray");
+│ │ +        ScriptBytecodeAdapter.setGroovyObjectProperty((Object)new CompositeBean[1], (Class)ReflectionBuilderTest.class, (GroovyObject)cBean, (String)"compositeBeanArray");
+│ │          $getCallSiteArray[25].call((Object)builder, (Object)cBean, (Object)"compositeBeanArray[0]", $getCallSiteArray[26].callConstructor((Object)CompositeBean.class));
+│ │ -        $getCallSiteArray[27].callStatic((Class)Assert.class, (Object)Boolean.valueOf($getCallSiteArray[28].call($getCallSiteArray[29].callGetProperty((Object)cBean), (Object)Integer.valueOf(0)) instanceof CompositeBean));
+│ │ +        $getCallSiteArray[27].callStatic((Class)Assert.class, (Object)Boolean.valueOf($getCallSiteArray[28].call($getCallSiteArray[29].callGroovyObjectGetProperty((Object)cBean), (Object)Integer.valueOf(0)) instanceof CompositeBean));
+│ │      }
+│ │      
+│ │      @Test
+│ │      public void testNestedPathAssignment() {
+│ │          final CallSite[] $getCallSiteArray = $getCallSiteArray();
+│ │          final ReflectionBuilder builder = (ReflectionBuilder)ScriptBytecodeAdapter.castToType($getCallSiteArray[30].callConstructor((Object)ReflectionBuilder.class), (Class)ReflectionBuilder.class);
+│ │          final CompositeBean cbean1 = (CompositeBean)ScriptBytecodeAdapter.castToType($getCallSiteArray[31].callConstructor((Object)CompositeBean.class, (Object)"cbean1"), (Class)CompositeBean.class);
+│ │ -        ScriptBytecodeAdapter.setProperty((Object)ScriptBytecodeAdapter.createMap(new Object[] { "cbean2", $getCallSiteArray[32].callConstructor((Object)CompositeBean.class, (Object)"cbean2") }), (Class)null, (Object)cbean1, (String)"compositeBeanMap");
+│ │ -        ScriptBytecodeAdapter.setProperty((Object)new CompositeBean[2], (Class)null, $getCallSiteArray[33].call($getCallSiteArray[34].callGetProperty((Object)cbean1), (Object)"cbean2"), (String)"compositeBeanArray");
+│ │ +        ScriptBytecodeAdapter.setGroovyObjectProperty((Object)ScriptBytecodeAdapter.createMap(new Object[] { "cbean2", $getCallSiteArray[32].callConstructor((Object)CompositeBean.class, (Object)"cbean2") }), (Class)ReflectionBuilderTest.class, (GroovyObject)cbean1, (String)"compositeBeanMap");
+│ │ +        ScriptBytecodeAdapter.setProperty((Object)new CompositeBean[2], (Class)null, $getCallSiteArray[33].call($getCallSiteArray[34].callGroovyObjectGetProperty((Object)cbean1), (Object)"cbean2"), (String)"compositeBeanArray");
+│ │          $getCallSiteArray[35].call((Object)builder, (Object)cbean1, (Object)"compositeBeanMap[cbean2].compositeBeanArray[0]", $getCallSiteArray[36].callConstructor((Object)CompositeBean.class, (Object)"cbean3"));
+│ │          $getCallSiteArray[37].call((Object)builder, (Object)cbean1, (Object)"compositeBeanMap[cbean2].compositeBeanArray[0].simpleBean", $getCallSiteArray[38].callConstructor((Object)SimpleBean.class, (Object)"sbean1"));
+│ │ -        $getCallSiteArray[39].callStatic((Class)Assert.class, (Object)Boolean.valueOf(ScriptBytecodeAdapter.compareEqual($getCallSiteArray[40].callGetProperty($getCallSiteArray[41].call($getCallSiteArray[42].callGetProperty($getCallSiteArray[43].call($getCallSiteArray[44].callGetProperty((Object)cbean1), (Object)"cbean2")), (Object)Integer.valueOf(0))), (Object)"cbean3")));
+│ │ -        $getCallSiteArray[45].callStatic((Class)Assert.class, (Object)Boolean.valueOf(ScriptBytecodeAdapter.compareEqual($getCallSiteArray[46].callGetProperty($getCallSiteArray[47].callGetProperty($getCallSiteArray[48].call($getCallSiteArray[49].callGetProperty($getCallSiteArray[50].call($getCallSiteArray[51].callGetProperty((Object)cbean1), (Object)"cbean2")), (Object)Integer.valueOf(0)))), (Object)"sbean1")));
+│ │ +        $getCallSiteArray[39].callStatic((Class)Assert.class, (Object)Boolean.valueOf(ScriptBytecodeAdapter.compareEqual($getCallSiteArray[40].callGetProperty($getCallSiteArray[41].call($getCallSiteArray[42].callGetProperty($getCallSiteArray[43].call($getCallSiteArray[44].callGroovyObjectGetProperty((Object)cbean1), (Object)"cbean2")), (Object)Integer.valueOf(0))), (Object)"cbean3")));
+│ │ +        $getCallSiteArray[45].callStatic((Class)Assert.class, (Object)Boolean.valueOf(ScriptBytecodeAdapter.compareEqual($getCallSiteArray[46].callGetProperty($getCallSiteArray[47].callGetProperty($getCallSiteArray[48].call($getCallSiteArray[49].callGetProperty($getCallSiteArray[50].call($getCallSiteArray[51].callGroovyObjectGetProperty((Object)cbean1), (Object)"cbean2")), (Object)Integer.valueOf(0)))), (Object)"sbean1")));
+│ │      }
+│ │      
+│ │      @Test
+│ │      public void testNestedMapAssignmentWithPeriodDelimitedKeys() {
+│ │          final CallSite[] $getCallSiteArray = $getCallSiteArray();
+│ │          final Object ini = $getCallSiteArray[52].callConstructor((Object)Ini.class);
+│ │          $getCallSiteArray[53].call(ini, (Object)"\n            simpleBean = org.apache.shiro.config.SimpleBean\n            simpleBean.mapProp[java.naming.security.protocol] = ssl\n            simpleBean.mapProp[com.sun.jndi.ldap.connect.pool] = true\n            simpleBean.mapProp[com.sun.jndi.ldap.connect.pool.protocol] = plain ssl\n        ");
+│ │ @@ -522,16 +522,16 @@
+│ │          final CallSite[] $getCallSiteArray = $getCallSiteArray();
+│ │          final Object ini = $getCallSiteArray[442].callConstructor((Object)Ini.class);
+│ │          $getCallSiteArray[443].call(ini, (Object)"\n            simpleBean = org.apache.shiro.config.SimpleBean\n            simpleBean.name = testEnum\n            simpleBean.simpleEnum = FOO\n        ");
+│ │          final ReflectionBuilder builder = (ReflectionBuilder)ScriptBytecodeAdapter.castToType($getCallSiteArray[444].callConstructor((Object)ReflectionBuilder.class), (Class)ReflectionBuilder.class);
+│ │          final Map objects = (Map)ScriptBytecodeAdapter.castToType($getCallSiteArray[445].call((Object)builder, $getCallSiteArray[446].call($getCallSiteArray[447].call($getCallSiteArray[448].call(ini)))), (Class)Map.class);
+│ │          $getCallSiteArray[449].callStatic((Class)Assert.class, (Object)objects, $getCallSiteArray[450].callStatic((Class)Matchers.class, $getCallSiteArray[451].callStatic((Class)Matchers.class, (Object)Integer.valueOf(0))));
+│ │          final SimpleBean bean = (SimpleBean)ScriptBytecodeAdapter.castToType($getCallSiteArray[452].call((Object)objects, (Object)"simpleBean"), (Class)SimpleBean.class);
+│ │ -        $getCallSiteArray[453].callStatic((Class)Assert.class, $getCallSiteArray[454].callGetProperty((Object)bean), $getCallSiteArray[455].callStatic((Class)Matchers.class, (Object)"testEnum"));
+│ │ -        $getCallSiteArray[456].callStatic((Class)Assert.class, $getCallSiteArray[457].callGetProperty((Object)bean), $getCallSiteArray[458].callStatic((Class)Matchers.class, $getCallSiteArray[459].callGetProperty((Object)SimpleEnum.class)));
+│ │ +        $getCallSiteArray[453].callStatic((Class)Assert.class, $getCallSiteArray[454].callGroovyObjectGetProperty((Object)bean), $getCallSiteArray[455].callStatic((Class)Matchers.class, (Object)"testEnum"));
+│ │ +        $getCallSiteArray[456].callStatic((Class)Assert.class, $getCallSiteArray[457].callGroovyObjectGetProperty((Object)bean), $getCallSiteArray[458].callStatic((Class)Matchers.class, $getCallSiteArray[459].callGetProperty((Object)SimpleEnum.class)));
+│ │      }
+│ │      
+│ │      @Test
+│ │      public void testSimpleInterpolation() {
+│ │          final CallSite[] $getCallSiteArray = $getCallSiteArray();
+│ │          final Map defs = (Map)ScriptBytecodeAdapter.castToType($getCallSiteArray[460].callConstructor((Object)LinkedHashMap.class), (Class)Map.class);
+│ │          $getCallSiteArray[461].call((Object)defs, (Object)"simpleBeanFactory", (Object)"org.apache.shiro.config.SimpleBeanFactory");
+
+...
