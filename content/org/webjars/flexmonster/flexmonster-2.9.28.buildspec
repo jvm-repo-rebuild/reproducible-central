@@ -1,0 +1,18 @@
+groupId=org.webjars
+artifactId=flexmonster
+version=2.9.28
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/webjars/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
