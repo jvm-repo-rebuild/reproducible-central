@@ -13,6 +13,7 @@ rebuilding **3 releases** of org.apache.maven.skins:maven-fluido-skin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.11.1](https://search.maven.org/artifact/org.apache.maven.skins/maven-fluido-skin/1.11.1/pom) | | | |
 | [1.11.0](https://search.maven.org/artifact/org.apache.maven.skins/maven-fluido-skin/1.11.0/pom) | [mvn jdk8 w](maven-fluido-skin-1.11.0.buildspec) | [result](maven-fluido-skin-1.11.0.buildinfo): [4 :heavy_check_mark: ](maven-fluido-skin-1.11.0.buildcompare) | 1.4M |
 | [1.10.0](https://search.maven.org/artifact/org.apache.maven.skins/maven-fluido-skin/1.10.0/pom) | [mvn jdk8](maven-fluido-skin-1.10.0.buildspec) | [result](maven-fluido-skin-1.10.0.buildinfo): [4 :heavy_check_mark: ](maven-fluido-skin-1.10.0.buildcompare) | 1.3M |
 | [1.9](https://search.maven.org/artifact/org.apache.maven.skins/maven-fluido-skin/1.9/pom) | [mvn jdk8 w](maven-fluido-skin-1.9.buildspec) | [result](maven-fluido-skin-1.9.buildinfo): [4 :heavy_check_mark: ](maven-fluido-skin-1.9.buildcompare) | 1.3M |
