@@ -1,0 +1,21 @@
+groupId=wtf.metio.yosql
+artifactId=yosql
+version=2022.6.29
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/metio/${artifactId}.git
+gitTag=${version}
+# need to run mvn versions:set -DnewVersion=${version} -DgenerateBackupPoms=false
+# which sadly sets project.build.outputTimestamp to current time = non-reproducible value...
+
+tool=mvn
+jdk=17
+newline=lf
+
+command="mvn -P release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=
+issue=
