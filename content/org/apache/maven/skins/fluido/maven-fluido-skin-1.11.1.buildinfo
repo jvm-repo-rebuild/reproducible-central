@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Fluido Skin
+group-id=org.apache.maven.skins
+artifact-id=maven-fluido-skin
+version=1.11.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-fluido-skin.git
+source.scm.tag=maven-fluido-skin-1.11.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=maven-fluido-skin-1.11.1.pom
+outputs.0.length=32402
+outputs.0.checksums.sha512=b33a7530283d07fdae3605e65bc6505a91bac04517206eac8e129a2a5b3fd151ed59efc7c1154777fb6ab031fcc661b06191f369945e3e9b8042679ce805c170
+
+outputs.1.filename=maven-fluido-skin-1.11.1.jar
+outputs.1.length=356183
+outputs.1.checksums.sha512=3f0e05c29ec9ef641d1b15ad1617bd1d35f91f3df07bcae3a1d6c5a6e8770eb9f11923d1a726e0873caca659d377258f5ddff60c49655ac5fee3df3635d3d29f
+
+outputs.2.filename=maven-fluido-skin-1.11.1-source-release.zip
+outputs.2.length=635880
+outputs.2.checksums.sha512=fc736585cc78d7d76cbfb8d21cd45258c8cf219480f937ad9e4d532e51cd33e3243ef8734573246accd095ccf1172d5f02e1c7777d0eb21c74c707f7b778328b
+
+outputs.3.filename=maven-fluido-skin-1.11.1-sources.jar
+outputs.3.length=349763
+outputs.3.checksums.sha512=8efe049e9d1d154cefd16fd40c01f724f262b5d2a7dcea3848ce134703583ce06162c887f32c6cfe678758b4f6f446121fcb57ce3d4fd7f1542f40fffbe7a093
