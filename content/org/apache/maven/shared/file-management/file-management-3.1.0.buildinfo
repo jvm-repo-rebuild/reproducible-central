@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven File Management API
+group-id=org.apache.maven.shared
+artifact-id=file-management
+version=3.1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-file-management.git
+source.scm.tag=file-management-3.1.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=file-management-3.1.0.pom
+outputs.0.length=4487
+outputs.0.checksums.sha512=1e24c01e065f912839341f0af9c73ad6c643c3f5a055623fa25d0a7f77531e4ee150b0dcc89b0eb15731182fa62a6efeee67c0e32a06a09412eb68fb4aaa57a9
+
+outputs.1.filename=file-management-3.1.0.jar
+outputs.1.length=36328
+outputs.1.checksums.sha512=0fdc3236960e059d58eb8fd723ef4258f2d6f44a55b8ec75264f426af14d419aaf767cc673eb939a407936ba48c87023b1a117fec2f590bcf5eb0ca5d76acbf8
+
+outputs.2.filename=file-management-3.1.0-source-release.zip
+outputs.2.length=58226
+outputs.2.checksums.sha512=c8f04509d46df7aa162f0b4bbcdea21f1182cd880181a13ae5f912087dfd00767e7faab742ccda325d0f5289a8bb7ae06c56371bda54d0504a754c863c0362da
+
+outputs.3.filename=file-management-3.1.0-sources.jar
+outputs.3.length=35446
+outputs.3.checksums.sha512=cad1ce0d6544e6c41d5ff02f2556637c9e81a1d7ac89fb14935623527658260bb8042326653ec515f7b805f9f20e8917b879b1923e3b242bb69298605f175731
