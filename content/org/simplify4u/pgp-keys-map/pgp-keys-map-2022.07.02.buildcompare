@@ -1,0 +1,6 @@
+version=2022.07.02
+ok=2
+ko=0
+okFiles="pgp-keys-map-2022.07.02.pom pgp-keys-map-2022.07.02.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
