@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Health Check Support Bundle
+group-id=org.apache.sling
+artifact-id=org.apache.sling.hc.support
+version=1.0.8
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-hc-support.git
+source.scm.tag=org.apache.sling.hc.support-1.0.8
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.hc.support-1.0.8.pom
+outputs.0.length=8074
+outputs.0.checksums.sha512=c05d08840b7ea615d8460aad6473c078951207bcccaf54040ebbba225a0cd0e6c133a76afcf7e92cffab3f80468f69ef2367158abd497b9690f375f09c7a7f46
+
+outputs.1.filename=org.apache.sling.hc.support-1.0.8.jar
+outputs.1.length=29814
+outputs.1.checksums.sha512=08fe1941bd53a32428fe70667bd7787bb1364a281b41407bc7941aa853a230c3e0e9ba716b29e2d29152cb9d8a15f72a03baf97c9f75ff5f21ef4059588e340b
+
+outputs.2.filename=org.apache.sling.hc.support-1.0.8-source-release.zip
+outputs.2.length=28354
+outputs.2.checksums.sha512=d15460f6d4c5778394172251dccda01231b080a6f270e25b8fb0195985be88e61b616f48bc7049385ade2aff14fb6033fb85b5df0f98adb719805d3d1eb15b8d
+
+outputs.3.filename=org.apache.sling.hc.support-1.0.8-sources.jar
+outputs.3.length=15316
+outputs.3.checksums.sha512=5e25e1cdf02e057cfa3c8660309500ec483ca0359c8ca26bc92867bec7b3b5f0546ef43a15efd3547c7d9143a5f6567d758e5fef3cda7f1c7106c9ee2fe5c3bc
+
+outputs.4.filename=org.apache.sling.hc.support-1.0.8-sources.jar
+outputs.4.length=15316
+outputs.4.checksums.sha512=5e25e1cdf02e057cfa3c8660309500ec483ca0359c8ca26bc92867bec7b3b5f0546ef43a15efd3547c7d9143a5f6567d758e5fef3cda7f1c7106c9ee2fe5c3bc
