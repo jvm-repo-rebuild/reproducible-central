@@ -1,0 +1,10 @@
+version=0.5.0
+ok=0
+ko=3
+okFiles=""
+koFiles="transformer-maven-plugin-0.5.0.pom transformer-maven-plugin-0.5.0.jar transformer-maven-plugin-0.5.0-sources.jar"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope maven-plugins/transformer-maven-plugin/target/reference/transformer-maven-plugin-0.5.0.pom maven-plugins/transformer-maven-plugin/.flattened-pom.xml
+# diffoscope maven-plugins/transformer-maven-plugin/target/reference/transformer-maven-plugin-0.5.0.jar maven-plugins/transformer-maven-plugin/target/transformer-maven-plugin-0.5.0.jar
+# diffoscope maven-plugins/transformer-maven-plugin/target/reference/transformer-maven-plugin-0.5.0-sources.jar maven-plugins/transformer-maven-plugin/target/transformer-maven-plugin-0.5.0-sources.jar

@@ -1,0 +1,26 @@
+# see instructions https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/BUILDSPEC.md
+
+# Central Repository coordinates for the Reference release
+groupId=org.eclipse.transformer
+artifactId=org.eclipse.transformer.parent
+version=0.5.0
+
+display=${groupId}
+
+# Source code
+gitRepo=https://github.com/eclipse/transformer.git
+gitTag=${version}
+
+# Rebuild environment prerequisites
+tool=mvn
+jdk=17
+newline=lf
+
+# Rebuild command
+command="mvn -Prelease clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Drevision=${version}"
+
+# Location of the buildinfo file generated during rebuild to record output fingerprints
+buildinfo=maven-plugins/transformer-maven-plugin/target/transformer-maven-plugin-${version}.buildinfo
+
+# if the release is finally not reproducible, link to an issue tracker entry if one was created
+issue=
