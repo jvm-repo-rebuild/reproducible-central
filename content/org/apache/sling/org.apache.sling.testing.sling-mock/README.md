@@ -22,6 +22,7 @@ rebuilding **1 releases** of org.apache.sling:org.apache.sling.testing.sling-moc
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.3.2](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.testing.sling-mock/3.3.2/pom) | | | |
 | [3.3.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.testing.sling-mock/3.3.0/pom) | [mvn jdk11 w](org.apache.sling.testing.sling-mock-3.3.0.buildspec) | [result](org.apache.sling.testing.sling-mock-3.3.0.buildinfo): [17 :heavy_check_mark: ](org.apache.sling.testing.sling-mock-3.3.0.buildcompare) | 820K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

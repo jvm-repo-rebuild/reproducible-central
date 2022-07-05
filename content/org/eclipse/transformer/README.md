@@ -23,6 +23,7 @@ rebuilding **2 releases** of org.eclipse.transformer:org.eclipse.transformer.par
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.5.0](https://search.maven.org/artifact/org.eclipse.transformer/org.eclipse.transformer.parent/0.5.0/pom) | | | |
 | [0.4.0](https://search.maven.org/artifact/org.eclipse.transformer/org.eclipse.transformer.parent/0.4.0/pom) | [mvn jdk17](eclipse-transformer-0.4.0.buildspec) | [result](transformer-maven-plugin-0.4.0.buildinfo): [14 :heavy_check_mark: ](transformer-maven-plugin-0.4.0.buildcompare) | 961K |
 | [0.2.0](https://search.maven.org/artifact/org.eclipse.transformer/org.eclipse.transformer.parent/0.2.0/pom) | [mvn jdk8](eclipse-transformer-0.2.0.buildspec) | [result](org.eclipse.transformer.parent-0.2.0.buildinfo): [11 :heavy_check_mark: ](org.eclipse.transformer.parent-0.2.0.buildcompare) | 829K |
 
