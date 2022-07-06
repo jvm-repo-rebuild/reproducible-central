@@ -1,0 +1,7 @@
+version=0.6.0
+ok=4
+ko=0
+okFiles="p2-maven-connector-0.6.0.pom p2-maven-connector-0.6.0.jar p2-maven-connector-0.6.0-sources.jar p2-maven-connector-0.6.0-source-release.zip"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

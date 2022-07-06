@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=p2-maven-connector
+group-id=com.github.veithen.maven
+artifact-id=p2-maven-connector
+version=0.6.0
+
+# source information
+source.scm.uri=scm:git:http://github.com/veithen/p2-maven-connector.git
+source.scm.tag=0.6.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=p2-maven-connector-0.6.0.pom
+outputs.0.length=16958
+outputs.0.checksums.sha512=14ab07b8a532ca5c6af246d1a2ae771653aa14b1d3e1fdd43ed895728f1b8e391a221354f0509e8dda58eb450f5d2ffd85e6f4e9929de3063882690fb8d09f9d
+
+outputs.1.filename=p2-maven-connector-0.6.0.jar
+outputs.1.length=32093
+outputs.1.checksums.sha512=6e762ff6d631310dd8f8956ee0bd45abcbb90c8498bfc1b10256178df2921dd35dbdbc2cdd4b09672df13542f346b9f08d98922c3bf6beb249a57eec7939bae4
+
+outputs.2.filename=p2-maven-connector-0.6.0-sources.jar
+outputs.2.length=25174
+outputs.2.checksums.sha512=9e2ba9cae6e38b153fa4ffd87ab2b6f23a666421528788451d6a7060bc77b3934dc1ac0d76cdacfee70c5166fa07f2d86ca00b1291a81b87ca133bc1a96af351
+
+outputs.3.filename=p2-maven-connector-0.6.0-source-release.zip
+outputs.3.length=38857
+outputs.3.checksums.sha512=9bbcdc47a5abfb498df664f4009312ad03319b1cac1529540ac7c9034d5ab6da457be692ff6fec5402240a70c140bc967cd215a595289d286c6c734a645fbe67
