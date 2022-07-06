@@ -1,0 +1,7 @@
+version=0.4.0
+ok=17
+ko=0
+okFiles="daemon-0.4.0.pom daemon-0.4.0-source-release.zip daemon-api-0.4.0.pom daemon-api-0.4.0.jar daemon-api-0.4.0-sources.jar daemon-launcher-protocol-0.4.0.pom daemon-launcher-protocol-0.4.0.jar daemon-launcher-protocol-0.4.0-sources.jar daemon-launcher-0.4.0.pom daemon-launcher-0.4.0.jar daemon-launcher-0.4.0-sources.jar daemon-maven-plugin-0.4.0.pom daemon-maven-plugin-0.4.0.jar daemon-maven-plugin-0.4.0-sources.jar jetty-daemon-0.4.0.pom jetty-daemon-0.4.0.jar jetty-daemon-0.4.0-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
