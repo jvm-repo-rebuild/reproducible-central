@@ -140,6 +140,7 @@ rebuilding **5 releases** of org.apache.dubbo:dubbo:
 | [3.0.1](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.0.1/pom) | | | |
 | [3.0.0.preview](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.0.0.preview/pom) | | | |
 | [3.0.0](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.0.0/pom) | | | |
+| [2.7.16](https://search.maven.org/artifact/org.apache.dubbo/dubbo/2.7.16/pom) | | | |
 | [2.7.15](https://search.maven.org/artifact/org.apache.dubbo/dubbo/2.7.15/pom) | | | |
 | [2.7.14](https://search.maven.org/artifact/org.apache.dubbo/dubbo/2.7.14/pom) | | | |
 | [2.7.13](https://search.maven.org/artifact/org.apache.dubbo/dubbo/2.7.13/pom) | | | |
