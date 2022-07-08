@@ -66,8 +66,8 @@ Notice the anchor in the link.
 Nightly Rebuild: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
 
 <!-- BEGIN GENERATED INTRO -->
-rebuilding **1018 releases** of **297 projects**:
-- **701** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **1021 releases** of **297 projects**:
+- **704** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 317 had issues (some unreproducible artifacts :warning:):
 
 <!-- END GENERATED INTRO -->
@@ -162,7 +162,7 @@ rebuilding **1018 releases** of **297 projects**:
 | org.apache.maven.plugin-tools | <a name='org.apache.maven.plugin-tools:maven-plugin-tools'></a>[maven-plugin-tools](content/org/apache/maven/plugin-tools/maven-plugin-tools/README.md) | 3 | 3 :heavy_check_mark: |
 | org.apache.maven.plugins | <a name='org.apache.maven.plugins:maven-antrun-plugin'></a>[maven-antrun-plugin](content/org/apache/maven/plugins/maven-antrun-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-artifact-plugin'></a>[maven-artifact-plugin](content/org/apache/maven/plugins/maven-artifact-plugin/README.md) | 4 | 4 :heavy_check_mark: |
-| | <a name='org.apache.maven.plugins:maven-assembly-plugin'></a>[maven-assembly-plugin](content/org/apache/maven/plugins/maven-assembly-plugin/README.md) | 2 | 2 :heavy_check_mark: |
+| | <a name='org.apache.maven.plugins:maven-assembly-plugin'></a>[maven-assembly-plugin](content/org/apache/maven/plugins/maven-assembly-plugin/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-checkstyle-plugin'></a>[maven-checkstyle-plugin](content/org/apache/maven/plugins/maven-checkstyle-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-clean-plugin'></a>[maven-clean-plugin](content/org/apache/maven/plugins/maven-clean-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-compiler-plugin'></a>[maven-compiler-plugin](content/org/apache/maven/plugins/maven-compiler-plugin/README.md) | 3 | 3 :heavy_check_mark: |
@@ -322,7 +322,7 @@ rebuilding **1018 releases** of **297 projects**:
 | | <a name='org.codehaus.mojo:flatten-maven-plugin'></a>[flatten-maven-plugin](content/org/codehaus/mojo/flatten-maven-plugin/README.md) | 1 | 1 :warning: |
 | | <a name='org.codehaus.mojo:jaxb2-maven-plugin'></a>[jaxb2-maven-plugin](content/org/codehaus/mojo/jaxb2-maven-plugin/README.md) | 1 | 1 :warning: |
 | | <a name='org.codehaus.mojo:l10n-maven-plugin'></a>[l10n-maven-plugin](content/org/codehaus/mojo/l10n-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
-| | <a name='org.codehaus.mojo:mojo-parent'></a>[mojo-parent](content/org/codehaus/mojo/mojo-parent/README.md) | 8 | 8 :heavy_check_mark: |
+| | <a name='org.codehaus.mojo:mojo-parent'></a>[mojo-parent](content/org/codehaus/mojo/mojo-parent/README.md) | 9 | 9 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:mrm'></a>[mrm](content/org/codehaus/mojo/mrm/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:properties-maven-plugin'></a>[properties-maven-plugin](content/org/codehaus/mojo/properties-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:taglist-maven-plugin'></a>[taglist-maven-plugin](content/org/codehaus/mojo/taglist-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
@@ -355,7 +355,7 @@ rebuilding **1018 releases** of **297 projects**:
 | | <a name='org.mybatis:mybatis'></a>[mybatis](content/org/mybatis/mybatis/README.md) | 1 | 1 :warning: |
 | | <a name='org.mybatis:mybatis-parent'></a>[mybatis-parent](content/org/mybatis/parent/README.md) | 1 | 1 :heavy_check_mark: |
 | org.nlpub | <a name='org.nlpub:watset'></a>[watset](content/org/nlpub/watset/README.md) | 12 | 11 :heavy_check_mark: / 1 :warning: |
-| org.openapitools.openapidiff | <a name='org.openapitools.openapidiff:openapi-diff-parent'></a>[openapi-diff-parent](content/org/openapitools/openapidiff/README.md) | 2 | 2 :heavy_check_mark: |
+| org.openapitools.openapidiff | <a name='org.openapitools.openapidiff:openapi-diff-parent'></a>[openapi-diff-parent](content/org/openapitools/openapidiff/README.md) | 3 | 3 :heavy_check_mark: |
 | org.osgi | <a name='org.osgi:org.osgi.test.parent'></a>[*.test.parent](content/org/osgi/test/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | org.owasp.antisamy | <a name='org.owasp.antisamy:antisamy'></a>[antisamy](content/org/owasp/antisamy/README.md) | 10 | 10 :heavy_check_mark: |
 | org.owasp | <a name='org.owasp:dependency-check-parent'></a>[dependency-check-parent](content/org/owasp/dependency-check/README.md) | 3 | 3 :warning: |
@@ -372,7 +372,7 @@ rebuilding **1018 releases** of **297 projects**:
 | | <a name='org.webjars:webjars-locator-core'></a>[webjars-locator-core](content/org/webjars/webjars-locator-core/README.md) | 1 | 1 :heavy_check_mark: |
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 5 | 5 :warning: |
-| **Count:** | **297** | **1018** | **701** :heavy_check_mark: **317** :warning: |
+| **Count:** | **297** | **1021** | **704** :heavy_check_mark: **317** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ## Understanding What Is Behind

@@ -13,6 +13,7 @@ rebuilding **3 releases** of org.codehaus.mojo:extra-enforcer-rules:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.6.0](https://search.maven.org/artifact/org.codehaus.mojo/extra-enforcer-rules/1.6.0/pom) | | | |
 | [1.5.1](https://search.maven.org/artifact/org.codehaus.mojo/extra-enforcer-rules/1.5.1/pom) | [mvn jdk11](extra-enforcer-rules-1.5.1.buildspec) | [result](extra-enforcer-rules-1.5.1.buildinfo): [4 :heavy_check_mark: ](extra-enforcer-rules-1.5.1.buildcompare) | 280K |
 | [1.5](https://search.maven.org/artifact/org.codehaus.mojo/extra-enforcer-rules/1.5/pom) | [mvn jdk11](extra-enforcer-rules-1.5.buildspec) | [result](extra-enforcer-rules-1.5.buildinfo): [4 :heavy_check_mark: ](extra-enforcer-rules-1.5.buildcompare) | 279K |
 | [1.4](https://search.maven.org/artifact/org.codehaus.mojo/extra-enforcer-rules/1.4/pom) | [mvn jdk11](extra-enforcer-rules-1.4.buildspec) | [result](extra-enforcer-rules-1.4.buildinfo): [4 :heavy_check_mark: ](extra-enforcer-rules-1.4.buildcompare) | 278K |
