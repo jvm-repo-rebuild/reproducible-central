@@ -162,6 +162,7 @@ rebuilding **8 releases** of io.fabric8:kubernetes-client-project:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [6.0.0](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/6.0.0/pom) | | | |
 | [6.0.0-RC1](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/6.0.0-RC1/pom) | [mvn jdk8](kubernetes-client-6.0.0-RC1.buildspec) | [result](kubernetes-client-project-6.0.0-RC1.buildinfo): [336 :heavy_check_mark:  109 :warning:](kubernetes-client-project-6.0.0-RC1.buildcompare) [:mag:](kubernetes-client-project-6.0.0-RC1.diffoscope) | 147M |
 | [5.12.2](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/5.12.2/pom) | | | |
 | [5.12.1](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/5.12.1/pom) | | | |

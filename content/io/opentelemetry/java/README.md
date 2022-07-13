@@ -62,6 +62,7 @@ rebuilding **1 releases** of io.opentelemetry:opentelemetry-sdk:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.16.0](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk/1.16.0/pom) | | | |
 | [1.15.0](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk/1.15.0/pom) | | | |
 | [1.14.0](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk/1.14.0/pom) | [gradle](opentelemetry-sdk-1.14.0.buildspec) | [result](opentelemetry-sdk-1.14.0.buildinfo): [47 :heavy_check_mark:  129 :warning:](opentelemetry-api-1.14.0.buildcompare) [:mag:](opentelemetry-sdk-1.14.0.diffoscope) [:memo:](https://github.com/open-telemetry/opentelemetry-java/issues/4488) | 2.9M |
 
