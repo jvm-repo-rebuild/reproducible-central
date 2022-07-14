@@ -13,6 +13,7 @@ rebuilding **4 releases** of org.apache:apache:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [27](https://search.maven.org/artifact/org.apache/apache/27/pom) | | | |
 | [26](https://search.maven.org/artifact/org.apache/apache/26/pom) | [mvn jdk8](apache-26.buildspec) | [result](apache-26.buildinfo): [2 :heavy_check_mark: ](apache-26.buildcompare) | 45K |
 | [25](https://search.maven.org/artifact/org.apache/apache/25/pom) | [mvn jdk8](apache-25.buildspec) | [result](apache-25.buildinfo): [2 :heavy_check_mark: ](apache-25.buildcompare) | 44K |
 | [24](https://search.maven.org/artifact/org.apache/apache/24/pom) | [mvn jdk8](apache-24.buildspec) | [result](apache-24.buildinfo): [ 1 :warning:](apache-24.buildcompare) [:memo:](https://issues.apache.org/jira/browse/MPOM-265) | 23K |
