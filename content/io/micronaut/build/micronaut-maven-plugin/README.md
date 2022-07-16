@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/micronaut-projects/micronaut-maven-plugin.git](https://github.com/micronaut-projects/micronaut-maven-plugin.git)
 
-rebuilding **26 releases** of io.micronaut.build:micronaut-maven-plugin:
-- **26** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **27 releases** of io.micronaut.build:micronaut-maven-plugin:
+- **27** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.4.0-RC2](https://search.maven.org/artifact/io.micronaut.build/micronaut-maven-plugin/3.4.0-RC2/pom) | | | |
+| [3.4.0-RC2](https://search.maven.org/artifact/io.micronaut.build/micronaut-maven-plugin/3.4.0-RC2/pom) | [mvn jdk8](micronaut-maven-plugin-3.4.0-RC2.buildspec) | [result](micronaut-maven-plugin-3.4.0-RC2.buildinfo): [3 :heavy_check_mark: ](micronaut-maven-plugin-3.4.0-RC2.buildcompare) | 215K |
 | [3.4.0-RC1](https://search.maven.org/artifact/io.micronaut.build/micronaut-maven-plugin/3.4.0-RC1/pom) | [mvn jdk8](micronaut-maven-plugin-3.4.0-RC1.buildspec) | [result](micronaut-maven-plugin-3.4.0-RC1.buildinfo): [3 :heavy_check_mark: ](micronaut-maven-plugin-3.4.0-RC1.buildcompare) | 214K |
 | [3.3.1](https://search.maven.org/artifact/io.micronaut.build/micronaut-maven-plugin/3.3.1/pom) | [mvn jdk8](micronaut-maven-plugin-3.3.1.buildspec) | [result](micronaut-maven-plugin-3.3.1.buildinfo): [3 :heavy_check_mark: ](micronaut-maven-plugin-3.3.1.buildcompare) | 185K |
 | [3.3.0](https://search.maven.org/artifact/io.micronaut.build/micronaut-maven-plugin/3.3.0/pom) | [mvn jdk8](micronaut-maven-plugin-3.3.0.buildspec) | [result](micronaut-maven-plugin-3.3.0.buildinfo): [3 :heavy_check_mark: ](micronaut-maven-plugin-3.3.0.buildcompare) | 185K |

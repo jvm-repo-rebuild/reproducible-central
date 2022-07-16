@@ -66,8 +66,8 @@ Notice the anchor in the link.
 Nightly Rebuild: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
 
 <!-- BEGIN GENERATED INTRO -->
-rebuilding **1028 releases** of **297 projects**:
-- **711** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **1033 releases** of **298 projects**:
+- **716** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 317 had issues (some unreproducible artifacts :warning:):
 
 <!-- END GENERATED INTRO -->
@@ -107,7 +107,7 @@ rebuilding **1028 releases** of **297 projects**:
 | | <a name='io.github.albertus82:unexepack'></a>[unexepack](content/io/github/albertus82/unexepack/README.md) | 3 | 3 :warning: |
 | io.github.derkrischan | <a name='io.github.derkrischan:jpdftest'></a>[jpdftest](content/io/github/derkrischan/jpdftest/README.md) | 3 | 3 :heavy_check_mark: |
 | io.liftwizard | <a name='io.liftwizard:liftwizard'></a>[liftwizard](content/io/liftwizard/README.md) | 24 | 24 :heavy_check_mark: |
-| io.micronaut.build | <a name='io.micronaut.build:micronaut-maven-plugin'></a>[micronaut-maven-plugin](content/io/micronaut/build/micronaut-maven-plugin/README.md) | 26 | 26 :heavy_check_mark: |
+| io.micronaut.build | <a name='io.micronaut.build:micronaut-maven-plugin'></a>[micronaut-maven-plugin](content/io/micronaut/build/micronaut-maven-plugin/README.md) | 27 | 27 :heavy_check_mark: |
 | io.opentelemetry.instrumentation | <a name='io.opentelemetry.instrumentation:opentelemetry-instrumentation-api'></a>[opentelemetry-instrumentation-api](content/io/opentelemetry/instrumentation/README.md) | 1 | 1 :warning: |
 | io.opentelemetry | <a name='io.opentelemetry:opentelemetry-sdk'></a>[opentelemetry-sdk](content/io/opentelemetry/java/README.md) | 1 | 1 :warning: |
 | io.wcm | <a name='io.wcm:io.wcm.caconfig.editor.parent'></a>[*.caconfig.editor.parent](content/io/wcm/caconfig/README.md) | 4 | 4 :warning: |
@@ -128,7 +128,7 @@ rebuilding **1028 releases** of **297 projects**:
 | org.apache.accumulo | <a name='org.apache.accumulo:accumulo'></a>[accumulo](content/org/apache/accumulo/README.md) | 3 | 3 :warning: |
 | org.apache.activemq | <a name='org.apache.activemq:activemq-parent'></a>[activemq-parent](content/org/apache/activemq/README.md) | 4 | 4 :warning: |
 | org.apache.any23 | <a name='org.apache.any23:apache-any23'></a>[apache-any23](content/org/apache/any23/README.md) | 1 | 1 :warning: |
-| org.apache | <a name='org.apache:apache'></a>[apache](content/org/apache/apache/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
+| org.apache | <a name='org.apache:apache'></a>[apache](content/org/apache/apache/README.md) | 5 | 4 :heavy_check_mark: / 1 :warning: |
 | org.apache.aries.cdi | <a name='org.apache.aries.cdi:org.apache.aries.cdi'></a>[org.apache.aries.cdi](content/org/apache/aries/cdi/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | org.apache.axis2 | <a name='org.apache.axis2:axis2'></a>[axis2](content/org/apache/axis2/README.md) | 1 | 1 :warning: |
 | org.apache.batchee | <a name='org.apache.batchee:batchee'></a>[batchee](content/org/apache/batchee/README.md) | 1 | 1 :warning: |
@@ -139,7 +139,7 @@ rebuilding **1028 releases** of **297 projects**:
 | org.apache.dubbo | <a name='org.apache.dubbo:dubbo'></a>[dubbo](content/org/apache/dubbo/README.md) | 5 | 5 :warning: |
 | org.apache.felix | <a name='org.apache.felix:org.apache.felix.feature'></a>[*.feature](content/org/apache/felix/features/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.apache.felix:org.apache.felix.http.parent'></a>[*.http.parent](content/org/apache/felix/http/parent/README.md) | 1 | 1 :heavy_check_mark: |
-| | <a name='org.apache.felix:maven-bundle-plugin'></a>[maven-bundle-plugin](content/org/apache/felix/maven-bundle-plugin/README.md) | 4 | 4 :heavy_check_mark: |
+| | <a name='org.apache.felix:maven-bundle-plugin'></a>[maven-bundle-plugin](content/org/apache/felix/maven-bundle-plugin/README.md) | 5 | 5 :heavy_check_mark: |
 | | <a name='org.apache.felix:felix-parent'></a>[felix-parent](content/org/apache/felix/pom/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.helix | <a name='org.apache.helix:helix'></a>[helix](content/org/apache/helix/README.md) | 1 | 1 :warning: |
 | org.apache.httpcomponents | <a name='org.apache.httpcomponents:httpcomponents-parent'></a>[httpcomponents-parent](content/org/apache/httpcomponents/parent/README.md) | 1 | 1 :heavy_check_mark: |
@@ -318,6 +318,7 @@ rebuilding **1028 releases** of **297 projects**:
 | org.codehaus.mojo | <a name='org.codehaus.mojo:animal-sniffer-parent'></a>[animal-sniffer-parent](content/org/codehaus/mojo/animal-sniffer/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:aspectj-maven-plugin'></a>[aspectj-maven-plugin](content/org/codehaus/mojo/aspectj-maven-plugin/README.md) | 1 | 1 :warning: |
 | | <a name='org.codehaus.mojo:cassandra-maven-plugin'></a>[cassandra-maven-plugin](content/org/codehaus/mojo/cassandra-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='org.codehaus.mojo:exec-maven-plugin'></a>[exec-maven-plugin](content/org/codehaus/mojo/exec-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:extra-enforcer-rules'></a>[extra-enforcer-rules](content/org/codehaus/mojo/extra-enforcer-rules/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:flatten-maven-plugin'></a>[flatten-maven-plugin](content/org/codehaus/mojo/flatten-maven-plugin/README.md) | 1 | 1 :warning: |
 | | <a name='org.codehaus.mojo:jaxb2-maven-plugin'></a>[jaxb2-maven-plugin](content/org/codehaus/mojo/jaxb2-maven-plugin/README.md) | 1 | 1 :warning: |
@@ -339,7 +340,7 @@ rebuilding **1028 releases** of **297 projects**:
 | | <a name='org.codehaus.plexus:plexus-utils'></a>[plexus-utils](content/org/codehaus/plexus/plexus-utils/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.codehaus.plexus:plexus-velocity'></a>[plexus-velocity](content/org/codehaus/plexus/plexus-velocity/README.md) | 2 | 2 :heavy_check_mark: |
 | org.complate | <a name='org.complate:complate-core'></a>[complate-core](content/org/complate/README.md) | 1 | 1 :heavy_check_mark: |
-| org.cyclonedx | <a name='org.cyclonedx:cyclonedx-core-java'></a>[cyclonedx-core-java](content/org/cyclonedx/cyclonedx-core-java/README.md) | 22 | 22 :heavy_check_mark: |
+| org.cyclonedx | <a name='org.cyclonedx:cyclonedx-core-java'></a>[cyclonedx-core-java](content/org/cyclonedx/cyclonedx-core-java/README.md) | 23 | 23 :heavy_check_mark: |
 | | <a name='org.cyclonedx:cyclonedx-maven-plugin'></a>[cyclonedx-maven-plugin](content/org/cyclonedx/cyclonedx-maven-plugin/README.md) | 12 | 12 :heavy_check_mark: |
 | org.eclipse.jkube | <a name='org.eclipse.jkube:jkube'></a>[jkube](content/org/eclipse/jkube/README.md) | 10 | 10 :heavy_check_mark: |
 | org.eclipse.transformer | <a name='org.eclipse.transformer:org.eclipse.transformer.parent'></a>[*.parent](content/org/eclipse/transformer/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
@@ -372,7 +373,7 @@ rebuilding **1028 releases** of **297 projects**:
 | | <a name='org.webjars:webjars-locator-core'></a>[webjars-locator-core](content/org/webjars/webjars-locator-core/README.md) | 1 | 1 :heavy_check_mark: |
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 5 | 5 :warning: |
-| **Count:** | **297** | **1028** | **711** :heavy_check_mark: **317** :warning: |
+| **Count:** | **298** | **1033** | **716** :heavy_check_mark: **317** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ## Understanding What Is Behind

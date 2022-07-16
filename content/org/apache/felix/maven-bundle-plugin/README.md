@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/felix-dev.git](https://github.com/apache/felix-dev.git)
 
-rebuilding **4 releases** of org.apache.felix:maven-bundle-plugin:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **5 releases** of org.apache.felix:maven-bundle-plugin:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [5.1.7](https://search.maven.org/artifact/org.apache.felix/maven-bundle-plugin/5.1.7/pom) | | | |
+| [5.1.7](https://search.maven.org/artifact/org.apache.felix/maven-bundle-plugin/5.1.7/pom) | [mvn jdk8](maven-bundle-plugin-5.1.7.buildspec) | [result](maven-bundle-plugin-5.1.7.buildinfo): [5 :heavy_check_mark: ](maven-bundle-plugin-5.1.7.buildcompare) | 3.0M |
 | [5.1.6](https://search.maven.org/artifact/org.apache.felix/maven-bundle-plugin/5.1.6/pom) | [mvn jdk11](maven-bundle-plugin-5.1.6.buildspec) | [result](maven-bundle-plugin-5.1.6.buildinfo): [5 :heavy_check_mark: ](maven-bundle-plugin-5.1.6.buildcompare) | 3.0M |
 | [5.1.5](https://search.maven.org/artifact/org.apache.felix/maven-bundle-plugin/5.1.5/pom) | [mvn jdk8](maven-bundle-plugin-5.1.5.buildspec) | [result](maven-bundle-plugin-5.1.5.buildinfo): [5 :heavy_check_mark: ](maven-bundle-plugin-5.1.5.buildcompare) | 3.0M |
 | [5.1.4](https://search.maven.org/artifact/org.apache.felix/maven-bundle-plugin/5.1.4/pom) | [mvn jdk8](maven-bundle-plugin-5.1.4.buildspec) | [result](maven-bundle-plugin-5.1.4.buildinfo): [5 :heavy_check_mark: ](maven-bundle-plugin-5.1.4.buildcompare) | 3.0M |
