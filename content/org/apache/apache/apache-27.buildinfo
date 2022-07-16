@@ -1,0 +1,30 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=The Apache Software Foundation
+group-id=org.apache
+artifact-id=apache
+version=27
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-apache-parent.git
+source.scm.tag=apache-27
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=apache-27.pom
+outputs.0.length=20363
+outputs.0.checksums.sha512=35e0254ae70a1b2756e63fde157355a138b0924a7298136135c14092a00e36a7207c46f96c12824f7ce41bf80315594c0c65b832fe9df0a1a4f8b7fd97b59da6
+
+outputs.1.filename=apache-27-source-release.zip
+outputs.1.length=24818
+outputs.1.checksums.sha512=0e84fd2073944a86bfe1eeb36a2553bb3530c1799ed23f2cbc67334176f08d9c67e98bd96de040bc8fb3d789bd38ea0d7eafe85fc790b3f1eebfde34ce230d6f

@@ -1,0 +1,5 @@
+version=27
+ok=2
+ko=0
+okFiles="apache-27.pom apache-27-source-release.zip"
+koFiles=""
