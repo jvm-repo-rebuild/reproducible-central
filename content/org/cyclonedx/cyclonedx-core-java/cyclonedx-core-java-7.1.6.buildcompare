@@ -1,0 +1,7 @@
+version=7.1.6
+ok=3
+ko=0
+okFiles="cyclonedx-core-java-7.1.6.pom cyclonedx-core-java-7.1.6.jar cyclonedx-core-java-7.1.6-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
