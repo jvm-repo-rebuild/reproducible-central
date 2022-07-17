@@ -13,6 +13,7 @@ rebuilding **3 releases** of org.apache.sling:org.apache.sling.feature.analyser:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.6.6](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.analyser/1.6.6/pom) | | | |
 | [1.6.4](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.analyser/1.6.4/pom) | [mvn jdk14](org.apache.sling.feature.analyser-1.6.4.buildspec) | [result](org.apache.sling.feature.analyser-1.6.4.buildinfo): [2 :heavy_check_mark:  2 :warning:](org.apache.sling.feature.analyser-1.6.4.buildcompare) [:memo:](https://github.com/apache/sling-org-apache-sling-feature-analyser/pull/36) | 670K |
 | [1.6.2](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.analyser/1.6.2/pom) | [mvn jdk15](org.apache.sling.feature.analyser-1.6.2.buildspec) | [result](org.apache.sling.feature.analyser-1.6.2.buildinfo): [2 :heavy_check_mark:  2 :warning:](org.apache.sling.feature.analyser-1.6.2.buildcompare) [:mag:](org.apache.sling.feature.analyser-1.6.2.diffoscope) [:memo:](https://github.com/apache/sling-org-apache-sling-feature-analyser/pull/36) | 669K |
 | [1.6.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.analyser/1.6.0/pom) | | | |
