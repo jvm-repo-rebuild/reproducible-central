@@ -31,6 +31,7 @@ rebuilding **1 releases** of org.apache.mina:mina-parent:
 | -- | --------- | ------ | -- |
 | [3.0.0-M2](https://search.maven.org/artifact/org.apache.mina/mina-parent/3.0.0-M2/pom) | | | |
 | [3.0.0-M1](https://search.maven.org/artifact/org.apache.mina/mina-parent/3.0.0-M1/pom) | | | |
+| [2.2.0](https://search.maven.org/artifact/org.apache.mina/mina-parent/2.2.0/pom) | | | |
 | [2.1.6](https://search.maven.org/artifact/org.apache.mina/mina-parent/2.1.6/pom) | [mvn jdk8](mina-2.1.6.buildspec) | [result](mina-parent-2.1.6.buildinfo): [28 :heavy_check_mark:  10 :warning:](mina-parent-2.1.6.buildcompare) [:mag:](mina-parent-2.1.6.diffoscope) | 4.5M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
