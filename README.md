@@ -66,8 +66,8 @@ Notice the anchor in the link.
 Nightly Rebuild: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
 
 <!-- BEGIN GENERATED INTRO -->
-rebuilding **1035 releases** of **298 projects**:
-- **718** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **1040 releases** of **298 projects**:
+- **723** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 317 had issues (some unreproducible artifacts :warning:):
 
 <!-- END GENERATED INTRO -->
@@ -178,7 +178,7 @@ rebuilding **1035 releases** of **298 projects**:
 | | <a name='org.apache.maven.plugins:maven-jlink-plugin'></a>[maven-jlink-plugin](content/org/apache/maven/plugins/maven-jlink-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-pdf-plugin'></a>[maven-pdf-plugin](content/org/apache/maven/plugins/maven-pdf-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-pmd-plugin'></a>[maven-pmd-plugin](content/org/apache/maven/plugins/maven-pmd-plugin/README.md) | 4 | 4 :heavy_check_mark: |
-| | <a name='org.apache.maven.plugins:maven-project-info-reports-plugin'></a>[maven-project-info-reports-plugin](content/org/apache/maven/plugins/maven-project-info-reports-plugin/README.md) | 6 | 5 :heavy_check_mark: / 1 :warning: |
+| | <a name='org.apache.maven.plugins:maven-project-info-reports-plugin'></a>[maven-project-info-reports-plugin](content/org/apache/maven/plugins/maven-project-info-reports-plugin/README.md) | 7 | 6 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.apache.maven.plugins:maven-release-plugin'></a>[maven-release-plugin](content/org/apache/maven/plugins/maven-release-plugin/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-resources-plugin'></a>[maven-resources-plugin](content/org/apache/maven/plugins/maven-resources-plugin/README.md) | 1 | 1 :warning: |
 | | <a name='org.apache.maven.plugins:maven-scm-publish-plugin'></a>[maven-scm-publish-plugin](content/org/apache/maven/plugins/maven-scm-publish-plugin/README.md) | 1 | 1 :heavy_check_mark: |
@@ -243,9 +243,9 @@ rebuilding **1035 releases** of **298 projects**:
 | | <a name='org.apache.sling:org.apache.sling.distribution.journal.kafka'></a>[*.distribution.journal.kafka](content/org/apache/sling/org.apache.sling.distribution.journal.kafka/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.distribution.journal.messages'></a>[*.distribution.journal.messages](content/org/apache/sling/org.apache.sling.distribution.journal.messages/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.distribution.journal'></a>[*.distribution.journal](content/org/apache/sling/org.apache.sling.distribution.journal/README.md) | 2 | 2 :heavy_check_mark: |
-| | <a name='org.apache.sling:org.apache.sling.engine'></a>[*.engine](content/org/apache/sling/org.apache.sling.engine/README.md) | 2 | 2 :heavy_check_mark: |
+| | <a name='org.apache.sling:org.apache.sling.engine'></a>[*.engine](content/org/apache/sling/org.apache.sling.engine/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.event'></a>[*.event](content/org/apache/sling/org.apache.sling.event/README.md) | 7 | 7 :warning: |
-| | <a name='org.apache.sling:org.apache.sling.feature.analyser'></a>[*.feature.analyser](content/org/apache/sling/org.apache.sling.feature.analyser/README.md) | 3 | 3 :warning: |
+| | <a name='org.apache.sling:org.apache.sling.feature.analyser'></a>[*.feature.analyser](content/org/apache/sling/org.apache.sling.feature.analyser/README.md) | 4 | 1 :heavy_check_mark: / 3 :warning: |
 | | <a name='org.apache.sling:org.apache.sling.feature.cpconverter'></a>[*.feature.cpconverter](content/org/apache/sling/org.apache.sling.feature.cpconverter/README.md) | 4 | 4 :warning: |
 | | <a name='org.apache.sling:org.apache.sling.feature.extension.apiregions'></a>[*.feature.extension.apiregions](content/org/apache/sling/org.apache.sling.feature.extension.apiregions/README.md) | 6 | 6 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.feature.extension.unpack'></a>[*.feature.extension.unpack](content/org/apache/sling/org.apache.sling.feature.extension.unpack/README.md) | 1 | 1 :warning: |
@@ -305,7 +305,7 @@ rebuilding **1035 releases** of **298 projects**:
 | | <a name='org.apache.sling:org.apache.sling.testing.sling-mock'></a>[*.testing.sling-mock](content/org/apache/sling/org.apache.sling.testing.sling-mock/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.xss'></a>[*.xss](content/org/apache/sling/org.apache.sling.xss/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.sling:scriptingbundle-maven-plugin'></a>[scriptingbundle-maven-plugin](content/org/apache/sling/scriptingbundle-maven-plugin/README.md) | 3 | 3 :warning: |
-| | <a name='org.apache.sling:slingfeature-maven-plugin'></a>[slingfeature-maven-plugin](content/org/apache/sling/slingfeature-maven-plugin/README.md) | 6 | 3 :heavy_check_mark: / 3 :warning: |
+| | <a name='org.apache.sling:slingfeature-maven-plugin'></a>[slingfeature-maven-plugin](content/org/apache/sling/slingfeature-maven-plugin/README.md) | 7 | 4 :heavy_check_mark: / 3 :warning: |
 | org.apache.sshd | <a name='org.apache.sshd:sshd'></a>[sshd](content/org/apache/sshd/README.md) | 2 | 2 :warning: |
 | org.apache.struts | <a name='org.apache.struts:struts2-parent'></a>[struts2-parent](content/org/apache/struts/README.md) | 4 | 4 :warning: |
 | org.apache.systemds | <a name='org.apache.systemds:systemds'></a>[systemds](content/org/apache/systemds/README.md) | 1 | 1 :warning: |
@@ -331,7 +331,7 @@ rebuilding **1035 releases** of **298 projects**:
 | | <a name='org.codehaus.mojo:wagon-maven-plugin'></a>[wagon-maven-plugin](content/org/codehaus/mojo/wagon-maven-plugin/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | org.codehaus.plexus | <a name='org.codehaus.plexus:plexus-archiver'></a>[plexus-archiver](content/org/codehaus/plexus/plexus-archiver/README.md) | 8 | 7 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.codehaus.plexus:plexus-cipher'></a>[plexus-cipher](content/org/codehaus/plexus/plexus-cipher/README.md) | 1 | 1 :heavy_check_mark: |
-| | <a name='org.codehaus.plexus:plexus-compiler'></a>[plexus-compiler](content/org/codehaus/plexus/plexus-compiler/README.md) | 8 | 6 :heavy_check_mark: / 2 :warning: |
+| | <a name='org.codehaus.plexus:plexus-compiler'></a>[plexus-compiler](content/org/codehaus/plexus/plexus-compiler/README.md) | 9 | 7 :heavy_check_mark: / 2 :warning: |
 | | <a name='org.codehaus.plexus:plexus-components'></a>[plexus-components](content/org/codehaus/plexus/plexus-components/README.md) | 6 | 5 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.codehaus.plexus:plexus-interactivity'></a>[plexus-interactivity](content/org/codehaus/plexus/plexus-interactivity/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.plexus:plexus-io'></a>[plexus-io](content/org/codehaus/plexus/plexus-io/README.md) | 3 | 3 :heavy_check_mark: |
@@ -373,7 +373,7 @@ rebuilding **1035 releases** of **298 projects**:
 | | <a name='org.webjars:webjars-locator-core'></a>[webjars-locator-core](content/org/webjars/webjars-locator-core/README.md) | 1 | 1 :heavy_check_mark: |
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 5 | 5 :warning: |
-| **Count:** | **298** | **1035** | **718** :heavy_check_mark: **317** :warning: |
+| **Count:** | **298** | **1040** | **723** :heavy_check_mark: **317** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ## Understanding What Is Behind
