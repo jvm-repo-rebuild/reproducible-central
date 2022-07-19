@@ -1,0 +1,46 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Feature Model Analyser
+group-id=org.apache.sling
+artifact-id=org.apache.sling.feature.analyser
+version=1.6.6
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-feature-analyser.git
+source.scm.tag=org.apache.sling.feature.analyser-1.6.6
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.feature.analyser-1.6.6.pom
+outputs.0.length=8665
+outputs.0.checksums.sha512=5c25cfb4c69225290f383e2aa3f1b61cfe789d69d672b3a94be73e6b1d40f9f2b987ff71c8d857eae2c63404e607f867a14afc4f06ac1477c1e88b037a2fc5fc
+
+outputs.1.filename=org.apache.sling.feature.analyser-1.6.6.jar
+outputs.1.length=200082
+outputs.1.checksums.sha512=27c8347b2437ea0a5d5d689549d70216422526219b733dc49de5fd6d79d10b410fefbc2e0dbf9592728a9fa4e6f32869d7f63f394166d6abed534b9ff7afeffd
+
+outputs.2.filename=org.apache.sling.feature.analyser-1.6.6-source-release.zip
+outputs.2.length=198576
+outputs.2.checksums.sha512=78870802000286166ca93414e02b65013aeda2ecbcee2504d8a7ca5fb9161f4fb77782efa52053014ba35d20dc581709785a4e4d795f36773ac80b8d84172c34
+
+outputs.3.filename=org.apache.sling.feature.analyser-1.6.6-sources.jar
+outputs.3.length=92503
+outputs.3.checksums.sha512=762a9fe372ff7462b423d9f1c558e0f1eac6cf54b5ed71f0e19180558032d979b252faa70d7462bb0ba79dd2e14aee3cd52adecca3efce81b268df97af2e01fc
+
+outputs.4.filename=org.apache.sling.feature.analyser-1.6.6-sources.jar
+outputs.4.length=92503
+outputs.4.checksums.sha512=762a9fe372ff7462b423d9f1c558e0f1eac6cf54b5ed71f0e19180558032d979b252faa70d7462bb0ba79dd2e14aee3cd52adecca3efce81b268df97af2e01fc
+
+outputs.5.filename=org.apache.sling.feature.analyser-1.6.6-sources.jar
+outputs.5.length=92503
+outputs.5.checksums.sha512=762a9fe372ff7462b423d9f1c558e0f1eac6cf54b5ed71f0e19180558032d979b252faa70d7462bb0ba79dd2e14aee3cd52adecca3efce81b268df97af2e01fc
