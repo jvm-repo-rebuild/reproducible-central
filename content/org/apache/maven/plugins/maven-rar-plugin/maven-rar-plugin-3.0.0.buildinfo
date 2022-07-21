@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven RAR Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-rar-plugin
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-rar-plugin.git
+source.scm.tag=maven-rar-plugin-3.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.3.9
+
+# output
+
+outputs.0.filename=maven-rar-plugin-3.0.0.pom
+outputs.0.length=7208
+outputs.0.checksums.sha512=489d47f49e7c42e408b96765de4055ec6c262a46563ae3643341ddd19469eb024afaba314a286bdcfe9b5b6f8cf124a3719e27f0b5b66eaa9134256f4430f2b6
+
+outputs.1.filename=maven-rar-plugin-3.0.0.jar
+outputs.1.length=30959
+outputs.1.checksums.sha512=fff1b90557f261bc3aa12961aee7ae067c0f5b659f70c5eb7101ce9124d4cfcfb18012f244e66ff7c6e38bc95870c256c421d75e49eb4513144040e1cb8bfce6
+
+outputs.2.filename=maven-rar-plugin-3.0.0-source-release.zip
+outputs.2.length=74443
+outputs.2.checksums.sha512=661a4ff1f12970f86e481c219dd08f072d85f13b3f7e27adef57cf5de94003059d6a8d90b050ead0dc7c3037bd3c451d9a0da68658235cd64f8a7f9664181962
+
+outputs.3.filename=maven-rar-plugin-3.0.0-sources.jar
+outputs.3.length=20993
+outputs.3.checksums.sha512=4340621eb44585b6ac6d44fe4afa6ad2c9c6b5eae36d4ef7a23c5d160c0e4a3677d0eecab1f1e3b60ae73c5c0108676cfef13ce44bc7ba8029f634b3d1986a4d
