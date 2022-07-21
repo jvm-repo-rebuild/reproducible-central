@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Remote Resources Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-remote-resources-plugin
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-remote-resources-plugin.git
+source.scm.tag=maven-remote-resources-plugin-3.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.filename=maven-remote-resources-plugin-3.0.0.pom
+outputs.0.length=13064
+outputs.0.checksums.sha512=aba38f964ed08f55ce9ca8ebb8b28edb10eef5cc9015da91eb2d235359dc9fba2b1b9a48f9bbb61abf3433358443d58a219e0ebd473944ba52bb1297fb1d8025
+
+outputs.1.filename=maven-remote-resources-plugin-3.0.0.jar
+outputs.1.length=80864
+outputs.1.checksums.sha512=55d132311b5d90a3d508fbd2b1e1983f0615982a38ace61ed662ea833f1e8e888aa14966115625a643d41af3aed04969f5a6aa84ae381b05274961ab2a63558a
+
+outputs.2.filename=maven-remote-resources-plugin-3.0.0-source-release.zip
+outputs.2.length=193060
+outputs.2.checksums.sha512=cc0e9c4e57c207d2f3f777588fe5d15f8ac429ff3bcd7d0ae0e300ca29ff0fd471f7bc932afa1ba0a735fd4b428d3ef00f1f5b248af37af25b5cd7a26e30a663
+
+outputs.3.filename=maven-remote-resources-plugin-3.0.0-sources.jar
+outputs.3.length=50811
+outputs.3.checksums.sha512=b1202cbd62e8358253044f57da2a54a2cc682c520b34021610fd886316f8684cda1a9e7f722f38405679752c1a428f2a28e5844d222cf73b93e17ff630ed8b55
