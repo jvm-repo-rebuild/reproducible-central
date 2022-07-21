@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Common Artifact Filters
+group-id=org.apache.maven.shared
+artifact-id=maven-common-artifact-filters
+version=3.3.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-common-artifact-filters.git
+source.scm.tag=maven-common-artifact-filters-3.3.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=maven-common-artifact-filters-3.3.1.pom
+outputs.0.length=5487
+outputs.0.checksums.sha512=42f1f55e0cb531740de414e655366e681b6d4a04c6127bdfb11cc3bb6039a895a85fd112d601fa0db7f01bfc04675ff08eb999633367dfa83e723ce112106160
+
+outputs.1.filename=maven-common-artifact-filters-3.3.1.jar
+outputs.1.length=62697
+outputs.1.checksums.sha512=c06da7d9f1206aba47ecce36a1d798d9c501a67f021d8a6b12eb918d60006c497f7a37c53dc37e2a696d3e37e99b7ff0dcdd2427e6348d9ff556edb3bb4a1ba5
+
+outputs.2.filename=maven-common-artifact-filters-3.3.1-source-release.zip
+outputs.2.length=112948
+outputs.2.checksums.sha512=f88c5d5537a80bc8bde69aafdf38fc34608eb30291f6512df189f89eb21fb8174050bf3a12ffe6b6655f504f638c4e9784c3dc93ebdff5b437e76ee79841c5f3
+
+outputs.3.filename=maven-common-artifact-filters-3.3.1-sources.jar
+outputs.3.length=57760
+outputs.3.checksums.sha512=64c5a6da5ac21aed4b1f59efe06a1502521f22bd390a6bdadc719321aa7a5a2011fa57ca5baec2331ff186e63efa949305c278f68c6619ae2edc4dd80a4aa508
