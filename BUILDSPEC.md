@@ -24,7 +24,7 @@ gitTag=${artifactId}-${version}
 # or use source zip archive
 sourceDistribution=https://archive.apache.org/dist/maven/scm/${artifactId}-${version}-source-release.zip
 sourcePath=${artifactId}-${version}
-sourceRmFiles=DEPENDENCIES LICENSE NOTICE
+sourceRmFiles="DEPENDENCIES LICENSE NOTICE"
 
 # Rebuild environment prerequisites
 tool=mvn
