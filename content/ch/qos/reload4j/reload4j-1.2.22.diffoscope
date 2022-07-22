@@ -1,0 +1,88 @@
+1 /        2 target/reference/reload4j-1.2.22.jar target/reload4j-1.2.22.jar
+--- target/reference/reload4j-1.2.22.jar
++++ target/reload4j-1.2.22.jar
+├── zipinfo {}
+│ @@ -1,9 +1,9 @@
+│ -Zip file size: 332398 bytes, number of entries: 243
+│ --rw-r--r--  2.0 unx     2358 b- defN 22-Jul-21 11:17 META-INF/MANIFEST.MF
+│ +Zip file size: 332390 bytes, number of entries: 243
+│ +-rw-r--r--  2.0 unx     2301 b- defN 22-Jul-21 11:17 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-21 11:17 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-21 11:17 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-21 11:17 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-21 11:17 org/apache/log4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-21 11:17 org/apache/log4j/chainsaw/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-21 11:17 org/apache/log4j/config/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-21 11:17 org/apache/log4j/helpers/
+│ @@ -238,8 +238,8 @@
+│  -rw-r--r--  2.0 unx     1496 b- defN 22-Jul-21 11:17 org/apache/log4j/xml/SAXErrorHandler.class
+│  -rw-r--r--  2.0 unx      286 b- defN 22-Jul-21 11:17 org/apache/log4j/xml/UnrecognizedElementHandler.class
+│  -rw-r--r--  2.0 unx     4109 b- defN 22-Jul-21 11:17 org/apache/log4j/xml/XMLLayout.class
+│  -rw-r--r--  2.0 unx      745 b- defN 22-Jul-21 11:17 org/apache/log4j/xml/XMLWatchdog.class
+│  -rw-r--r--  2.0 unx     7028 b- defN 22-Jul-21 11:17 org/apache/log4j/xml/log4j.dtd
+│  -rw-r--r--  2.0 unx    15675 b- defN 22-Jul-21 11:17 META-INF/maven/ch.qos.reload4j/reload4j/pom.xml
+│  -rw-r--r--  2.0 unx       59 b- defN 22-Jul-21 11:17 META-INF/maven/ch.qos.reload4j/reload4j/pom.properties
+│ -243 files, 645505 bytes uncompressed, 292736 bytes compressed:  54.7%
+│ +243 files, 645448 bytes uncompressed, 292728 bytes compressed:  54.6%
+├── META-INF/MANIFEST.MF
+│ @@ -10,15 +10,14 @@
+│  Import-Package: javax.jmdns;resolution:=optional,javax.jms;resolution:
+│   =optional,javax.mail;version="[1.4,2)";resolution:=optional,javax.mai
+│   l.internet;version="[1.4,2)";resolution:=optional,javax.naming,javax.
+│   xml.parsers,org.w3c.dom,org.xml.sax,org.xml.sax.helpers
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+│  Tool: Bnd-5.1.1.202006162103
+│  Implementation-Vendor: QOS.CH Sarl (Switzerland)
+│ -Originally-Created-By: Apache Maven Bundle Plugin 5.1.4
+│  Export-Package: org.apache.log4j;version="1.2.22";uses:="org.apache.lo
+│   g4j.helpers,org.apache.log4j.or,org.apache.log4j.spi",org.apache.log4
+│   j.config;version="1.2.22";uses:="org.apache.log4j",org.apache.log4j.h
+│   elpers;version="1.2.22";uses:="org.apache.log4j,org.apache.log4j.spi"
+│   ,org.apache.log4j.jdbc;version="1.2.22";uses:="org.apache.log4j,org.a
+│   pache.log4j.spi",org.apache.log4j.net;version="1.2.22";uses:="javax.j
+│   ms,javax.mail,javax.naming,org.apache.log4j,org.apache.log4j.helpers,
+
+2 /        2 target/reference/reload4j-1.2.22-tests.jar target/reload4j-1.2.22-tests.jar
+--- target/reference/reload4j-1.2.22-tests.jar
++++ target/reload4j-1.2.22-tests.jar
+├── zipinfo {}
+│ @@ -1,9 +1,9 @@
+│ -Zip file size: 228716 bytes, number of entries: 183
+│ --rw-r--r--  2.0 unx     2358 b- defN 22-Jul-21 11:17 META-INF/MANIFEST.MF
+│ +Zip file size: 228708 bytes, number of entries: 183
+│ +-rw-r--r--  2.0 unx     2301 b- defN 22-Jul-21 11:17 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-21 11:17 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-21 11:17 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-21 11:17 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-21 11:17 org/apache/log4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-21 11:17 org/apache/log4j/customLogger/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-21 11:17 org/apache/log4j/defaultInit/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-21 11:17 org/apache/log4j/helpers/
+│ @@ -178,8 +178,8 @@
+│  -rw-r--r--  2.0 unx     1519 b- defN 22-Jul-21 11:17 org/apache/log4j/xml/XLevel.class
+│  -rw-r--r--  2.0 unx      585 b- defN 22-Jul-21 11:17 org/apache/log4j/xml/XMLLayoutTest$ProblemLevel.class
+│  -rw-r--r--  2.0 unx     9431 b- defN 22-Jul-21 11:17 org/apache/log4j/xml/XMLLayoutTest.class
+│  -rw-r--r--  2.0 unx      780 b- defN 22-Jul-21 11:17 org/apache/log4j/xml/XMLLayoutTestCase$X.class
+│  -rw-r--r--  2.0 unx     6030 b- defN 22-Jul-21 11:17 org/apache/log4j/xml/XMLLayoutTestCase.class
+│  -rw-r--r--  2.0 unx    15675 b- defN 22-Jul-21 11:17 META-INF/maven/ch.qos.reload4j/reload4j/pom.xml
+│  -rw-r--r--  2.0 unx       59 b- defN 22-Jul-21 11:17 META-INF/maven/ch.qos.reload4j/reload4j/pom.properties
+│ -183 files, 454202 bytes uncompressed, 198758 bytes compressed:  56.2%
+│ +183 files, 454145 bytes uncompressed, 198750 bytes compressed:  56.2%
+├── META-INF/MANIFEST.MF
+│ @@ -10,15 +10,14 @@
+│  Import-Package: javax.jmdns;resolution:=optional,javax.jms;resolution:
+│   =optional,javax.mail;version="[1.4,2)";resolution:=optional,javax.mai
+│   l.internet;version="[1.4,2)";resolution:=optional,javax.naming,javax.
+│   xml.parsers,org.w3c.dom,org.xml.sax,org.xml.sax.helpers
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+│  Tool: Bnd-5.1.1.202006162103
+│  Implementation-Vendor: QOS.CH Sarl (Switzerland)
+│ -Originally-Created-By: Apache Maven Bundle Plugin 5.1.4
+│  Export-Package: org.apache.log4j;version="1.2.22";uses:="org.apache.lo
+│   g4j.helpers,org.apache.log4j.or,org.apache.log4j.spi",org.apache.log4
+│   j.config;version="1.2.22";uses:="org.apache.log4j",org.apache.log4j.h
+│   elpers;version="1.2.22";uses:="org.apache.log4j,org.apache.log4j.spi"
+│   ,org.apache.log4j.jdbc;version="1.2.22";uses:="org.apache.log4j,org.a
+│   pache.log4j.spi",org.apache.log4j.net;version="1.2.22";uses:="javax.j
+│   ms,javax.mail,javax.naming,org.apache.log4j,org.apache.log4j.helpers,
+

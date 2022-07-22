@@ -1,0 +1,9 @@
+version=1.2.22
+ok=2
+ko=2
+okFiles="reload4j-1.2.22.pom reload4j-1.2.22-sources.jar"
+koFiles="reload4j-1.2.22.jar reload4j-1.2.22-tests.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/reload4j-1.2.22.jar target/reload4j-1.2.22.jar
+# diffoscope target/reference/reload4j-1.2.22-tests.jar target/reload4j-1.2.22-tests.jar
