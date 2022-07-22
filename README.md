@@ -66,9 +66,9 @@ Notice the anchor in the link.
 Nightly Rebuild: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
 
 <!-- BEGIN GENERATED INTRO -->
-rebuilding **1048 releases** of **301 projects**:
+rebuilding **1049 releases** of **301 projects**:
 - **731** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 317 had issues (some unreproducible artifacts :warning:):
+- 318 had issues (some unreproducible artifacts :warning:):
 
 <!-- END GENERATED INTRO -->
 
@@ -78,7 +78,7 @@ rebuilding **1048 releases** of **301 projects**:
 | biz.aQute.bnd | <a name='biz.aQute.bnd:bnd-plugin-parent'></a>[bnd-plugin-parent](content/biz/aQute/bnd/plugins/README.md) | 7 | 7 :heavy_check_mark: |
 | ch.qos.logback.db | <a name='ch.qos.logback.db:logback-parent-db'></a>[logback-parent-db](content/ch/qos/logback/db/README.md) | 1 | 1 :warning: |
 | ch.qos.logback | <a name='ch.qos.logback:logback-parent'></a>[logback-parent](content/ch/qos/logback/README.md) | 4 | 1 :heavy_check_mark: / 3 :warning: |
-| ch.qos.reload4j | <a name='ch.qos.reload4j:reload4j'></a>[reload4j](content/ch/qos/reload4j/README.md) | 4 | 4 :warning: |
+| ch.qos.reload4j | <a name='ch.qos.reload4j:reload4j'></a>[reload4j](content/ch/qos/reload4j/README.md) | 5 | 5 :warning: |
 | com.adobe.acs | <a name='com.adobe.acs:acs-aem-commons'></a>[acs-aem-commons](content/com/adobe/acs/aem-commons/README.md) | 1 | 1 :warning: |
 | com.github.adangel.liquibase.ext | <a name='com.github.adangel.liquibase.ext:liquibase-percona'></a>[liquibase-percona](content/com/github/adangel/liquibase/ext/liquibase-percona/README.md) | 1 | 1 :heavy_check_mark: |
 | com.github.ldapchai | <a name='com.github.ldapchai:ldapchai'></a>[ldapchai](content/com/github/ldapchai/README.md) | 4 | 4 :warning: |
@@ -376,7 +376,7 @@ rebuilding **1048 releases** of **301 projects**:
 | | <a name='org.webjars:webjars-locator-core'></a>[webjars-locator-core](content/org/webjars/webjars-locator-core/README.md) | 1 | 1 :heavy_check_mark: |
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 5 | 5 :warning: |
-| **Count:** | **301** | **1048** | **731** :heavy_check_mark: **317** :warning: |
+| **Count:** | **301** | **1049** | **731** :heavy_check_mark: **318** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ## Understanding What Is Behind
