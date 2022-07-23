@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=nifi-nar-maven-plugin
+group-id=org.apache.nifi
+artifact-id=nifi-nar-maven-plugin
+version=1.3.5
+
+# source information
+source.scm.uri=scm:git:git://git.apache.org/nifi-maven.git
+source.scm.tag=nifi-nar-maven-plugin-1.3.5-RC1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.1.0
+
+# output
+
+outputs.0.filename=nifi-nar-maven-plugin-1.3.5.pom
+outputs.0.length=22678
+outputs.0.checksums.sha512=2b7aa66619e7728244fff860e2158dc6716033bc013f3f0c3b3d0af319a080a815f280c7fe38d9d8d33a817b1a4f2d20bb3d3e3975800c34e42327d396295cfb
+
+outputs.1.filename=nifi-nar-maven-plugin-1.3.5.jar
+outputs.1.length=72219
+outputs.1.checksums.sha512=3854340575658f254fa32b196253787344b66937d0510e691097a98953ba1f24e1090be78f9e7d575d67d1ce7245d9fc5b11a1a53ce65cb05108e0de0b8164ba
+
+outputs.2.filename=nifi-nar-maven-plugin-1.3.5-source-release.zip
+outputs.2.length=43076
+outputs.2.checksums.sha512=9fcc487a197a8d3c5cd297696eb303015c9cde32f89541682dfac921e862c1f1ee8ba5e41573eeb7a5b5190b95c3b49443fca9ed5d5a3f7768a4ea1b031829af
+
+outputs.3.filename=nifi-nar-maven-plugin-1.3.5-sources.jar
+outputs.3.length=43208
+outputs.3.checksums.sha512=fafe02d749d64cf233280e7bf4371d6037647f419d2a82286f1817c41bb618733bcd7d942df57b804a9d3d559fa5df7fe2a85de389b08f6fbf752c2a5621427f
