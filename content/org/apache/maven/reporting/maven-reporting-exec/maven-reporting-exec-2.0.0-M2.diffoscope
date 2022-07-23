@@ -1,0 +1,60 @@
+1 /        1 target/reference/maven-reporting-exec-2.0.0-M2-source-release.zip target/maven-reporting-exec-2.0.0-M2-source-release.zip
+--- target/reference/maven-reporting-exec-2.0.0-M2-source-release.zip
++++ target/maven-reporting-exec-2.0.0-M2-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 59392 bytes, number of entries: 77
+│ +Zip file size: 61890 bytes, number of entries: 78
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/.github/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/.github/workflows/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/src/it/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/src/it/aether/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/src/it/forked-lifecycle/
+│ @@ -41,14 +41,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/src/test/java/org/apache/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/src/test/java/org/apache/maven/reporting/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/src/test/java/org/apache/maven/reporting/exec/
+│  -rw-r--r--  2.0 unx     1304 b- defN 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/.asf.yaml
+│  -rw-r--r--  2.0 unx     1013 b- defN 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/.github/workflows/maven-verify.yml
+│  -rw-r--r--  2.0 unx      852 b- defN 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/Jenkinsfile
+│  -rw-r--r--  2.0 unx     5951 b- defN 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/README.md
+│ +-rw-r--r--  2.0 unx    13702 b- defN 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/dependency-reduced-pom.xml
+│  -rw-r--r--  2.0 unx     9319 b- defN 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/pom.xml
+│  -rw-r--r--  2.0 unx      825 b- defN 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/src/it/aether/invoker.properties
+│  -rw-r--r--  2.0 unx     2318 b- defN 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/src/it/aether/pom.xml
+│  -rw-r--r--  2.0 unx      825 b- defN 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/src/it/forked-lifecycle/invoker.properties
+│  -rw-r--r--  2.0 unx     2477 b- defN 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/src/it/forked-lifecycle/pom.xml
+│  -rw-r--r--  2.0 unx      973 b- defN 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/src/it/forked-lifecycle/src/main/java/it/Test.java
+│  -rw-r--r--  2.0 unx      829 b- defN 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/src/it/pluginManagement_dependencies/invoker.properties
+│ @@ -72,8 +73,8 @@
+│  -rw-r--r--  2.0 unx      969 b- defN 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/src/site/resources/download.cgi
+│  -rw-r--r--  2.0 unx     1599 b- defN 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/src/site/site.xml
+│  -rw-r--r--  2.0 unx     4993 b- defN 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/src/site/xdoc/download.xml.vm
+│  -rw-r--r--  2.0 unx    14107 b- defN 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/src/test/java/org/apache/maven/reporting/exec/TestDefaultMavenReportExecutor.java
+│  -rw-r--r--  2.0 unx     5836 b- defN 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/LICENSE
+│  -rw-r--r--  2.0 unx      188 b- defN 22-Jul-20 20:03 maven-reporting-exec-2.0.0-M2/NOTICE
+│ -77 files, 142854 bytes uncompressed, 43778 bytes compressed:  69.4%
+│ +78 files, 156556 bytes uncompressed, 46088 bytes compressed:  70.6%
+├── zipnote {}
+│ @@ -132,14 +132,17 @@
+│  
+│  Filename: maven-reporting-exec-2.0.0-M2/Jenkinsfile
+│  Comment: 
+│  
+│  Filename: maven-reporting-exec-2.0.0-M2/README.md
+│  Comment: 
+│  
+│ +Filename: maven-reporting-exec-2.0.0-M2/dependency-reduced-pom.xml
+│ +Comment: 
+│ +
+│  Filename: maven-reporting-exec-2.0.0-M2/pom.xml
+│  Comment: 
+│  
+│  Filename: maven-reporting-exec-2.0.0-M2/src/it/aether/invoker.properties
+│  Comment: 
+│  
+│  Filename: maven-reporting-exec-2.0.0-M2/src/it/aether/pom.xml
+
