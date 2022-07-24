@@ -1,0 +1,7 @@
+version=3.4.2
+ok=4
+ko=0
+okFiles="maven-assembly-plugin-3.4.2.pom maven-assembly-plugin-3.4.2.jar maven-assembly-plugin-3.4.2-source-release.zip maven-assembly-plugin-3.4.2-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
