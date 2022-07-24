@@ -18,12 +18,13 @@ Source code: [https://github.com/apache/maven-parent.git](https://github.com/apa
 * [org.apache.maven:maven-parent](https://search.maven.org/artifact/org.apache.maven/maven-parent/)
 </details>
 
-rebuilding **3 releases** of org.apache.maven:maven-parent:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **4 releases** of org.apache.maven:maven-parent:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [37](https://search.maven.org/artifact/org.apache.maven/maven-parent/37/pom) | [mvn jdk8](maven-parent-37.buildspec) | [result](maven-parent-37.buildinfo): [14 :heavy_check_mark: ](maven-parent-37.buildcompare) | 154K |
 | [36](https://search.maven.org/artifact/org.apache.maven/maven-parent/36/pom) | [mvn jdk8](maven-parent-36.buildspec) | [result](maven-parent-36.buildinfo): [14 :heavy_check_mark: ](maven-parent-36.buildcompare) | 154K |
 | [35](https://search.maven.org/artifact/org.apache.maven/maven-parent/35/pom) | [mvn jdk8](maven-parent-35.buildspec) | [result](maven-parent-35.buildinfo): [13 :heavy_check_mark:  1 :warning:](maven-parent-35.buildcompare) | 152K |
 | [34](https://search.maven.org/artifact/org.apache.maven/maven-parent/34/pom) | [mvn jdk8](maven-parent-34.buildspec) | [result](maven-parent-34.buildinfo): [13 :heavy_check_mark:  1 :warning:](maven-parent-34.buildcompare) | 148K |
