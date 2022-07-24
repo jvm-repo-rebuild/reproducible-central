@@ -1,0 +1,5 @@
+version=37
+ok=14
+ko=0
+okFiles="maven-parent-37.pom maven-parent-37-site.xml maven-parent-37-source-release.zip maven-extensions-37.pom maven-extensions-37-site.xml maven-plugins-37.pom maven-plugins-37-site.xml maven-shared-components-37.pom maven-shared-components-37-site.xml maven-skins-37.pom maven-skins-37-site.xml doxia-tools-37.pom doxia-tools-37-site.xml apache-resource-bundles-37.pom"
+koFiles=""
