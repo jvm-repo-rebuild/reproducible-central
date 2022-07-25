@@ -23,16 +23,16 @@ Source code: [https://github.com/apache/mina.git](https://github.com/apache/mina
 * [org.apache.mina:mina-transport-apr](https://search.maven.org/artifact/org.apache.mina/mina-transport-apr/)
 </details>
 
-rebuilding **1 releases** of org.apache.mina:mina-parent:
+rebuilding **3 releases** of org.apache.mina:mina-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [3.0.0-M2](https://search.maven.org/artifact/org.apache.mina/mina-parent/3.0.0-M2/pom) | | | |
 | [3.0.0-M1](https://search.maven.org/artifact/org.apache.mina/mina-parent/3.0.0-M1/pom) | | | |
-| [2.2.1](https://search.maven.org/artifact/org.apache.mina/mina-parent/2.2.1/pom) | | | |
-| [2.2.0](https://search.maven.org/artifact/org.apache.mina/mina-parent/2.2.0/pom) | | | |
+| [2.2.1](https://search.maven.org/artifact/org.apache.mina/mina-parent/2.2.1/pom) | [mvn jdk8](mina-2.2.1.buildspec) | [result](mina-parent-2.2.1.buildinfo): [36 :heavy_check_mark:  2 :warning:](mina-parent-2.2.1.buildcompare) [:mag:](mina-parent-2.2.1.diffoscope) | 3.5M |
+| [2.2.0](https://search.maven.org/artifact/org.apache.mina/mina-parent/2.2.0/pom) | [mvn jdk8](mina-2.2.0.buildspec) | [result](mina-parent-2.2.0.buildinfo): [36 :heavy_check_mark:  2 :warning:](mina-parent-2.2.0.buildcompare) [:mag:](mina-parent-2.2.0.diffoscope) | 3.5M |
 | [2.1.6](https://search.maven.org/artifact/org.apache.mina/mina-parent/2.1.6/pom) | [mvn jdk8](mina-2.1.6.buildspec) | [result](mina-parent-2.1.6.buildinfo): [28 :heavy_check_mark:  10 :warning:](mina-parent-2.1.6.buildcompare) [:mag:](mina-parent-2.1.6.diffoscope) | 4.5M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
