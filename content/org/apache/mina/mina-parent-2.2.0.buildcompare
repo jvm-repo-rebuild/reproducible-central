@@ -1,0 +1,9 @@
+version=2.2.0
+ok=36
+ko=2
+okFiles="mina-parent-2.2.0.pom mina-parent-2.2.0-source-release.zip mina-legal-2.2.0.pom mina-legal-2.2.0.jar mina-legal-2.2.0-sources.jar mina-core-2.2.0.pom mina-core-2.2.0.jar mina-core-2.2.0-sources.jar mina-transport-apr-2.2.0.pom mina-transport-apr-2.2.0.jar mina-transport-apr-2.2.0-sources.jar mina-filter-compression-2.2.0.pom mina-filter-compression-2.2.0.jar mina-filter-compression-2.2.0-sources.jar mina-statemachine-2.2.0.pom mina-statemachine-2.2.0.jar mina-statemachine-2.2.0-sources.jar mina-integration-beans-2.2.0.pom mina-integration-beans-2.2.0.jar mina-integration-beans-2.2.0-sources.jar mina-integration-xbean-2.2.0.pom mina-integration-xbean-2.2.0.xsd mina-integration-xbean-2.2.0-schema.html mina-integration-xbean-2.2.0.xsd.html mina-integration-ognl-2.2.0.pom mina-integration-ognl-2.2.0.jar mina-integration-ognl-2.2.0-sources.jar mina-integration-jmx-2.2.0.pom mina-integration-jmx-2.2.0.jar mina-integration-jmx-2.2.0-sources.jar mina-example-2.2.0.pom mina-example-2.2.0.jar mina-example-2.2.0-sources.jar mina-http-2.2.0.pom mina-http-2.2.0.jar mina-http-2.2.0-sources.jar"
+koFiles="mina-integration-xbean-2.2.0.jar mina-integration-xbean-2.2.0-sources.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/mina-integration-xbean-2.2.0.jar mina-integration-xbean/target/mina-integration-xbean-2.2.0.jar
+# diffoscope target/reference/mina-integration-xbean-2.2.0-sources.jar mina-integration-xbean/target/mina-integration-xbean-2.2.0-sources.jar
