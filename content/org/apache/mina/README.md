@@ -31,7 +31,7 @@ rebuilding **3 releases** of org.apache.mina:mina-parent:
 | -- | --------- | ------ | -- |
 | [3.0.0-M2](https://search.maven.org/artifact/org.apache.mina/mina-parent/3.0.0-M2/pom) | | | |
 | [3.0.0-M1](https://search.maven.org/artifact/org.apache.mina/mina-parent/3.0.0-M1/pom) | | | |
-| [2.2.1](https://search.maven.org/artifact/org.apache.mina/mina-parent/2.2.1/pom) | [mvn jdk8](mina-2.2.1.buildspec) | [result](mina-parent-2.2.1.buildinfo): [36 :heavy_check_mark:  2 :warning:](mina-parent-2.2.1.buildcompare) [:mag:](mina-parent-2.2.1.diffoscope) | 3.5M |
+| [2.2.1](https://search.maven.org/artifact/org.apache.mina/mina-parent/2.2.1/pom) | [mvn jdk8](mina-2.2.1.buildspec) | [result](mina-parent-2.2.1.buildinfo): [36 :heavy_check_mark:  2 :warning:](mina-parent-2.2.1.buildcompare) [:mag:](mina-parent-2.2.1.diffoscope) [:memo:](https://github.com/jvm-repo-rebuild/reproducible-central/issues/84) | 3.5M |
 | [2.2.0](https://search.maven.org/artifact/org.apache.mina/mina-parent/2.2.0/pom) | [mvn jdk8](mina-2.2.0.buildspec) | [result](mina-parent-2.2.0.buildinfo): [36 :heavy_check_mark:  2 :warning:](mina-parent-2.2.0.buildcompare) [:mag:](mina-parent-2.2.0.diffoscope) | 3.5M |
 | [2.1.6](https://search.maven.org/artifact/org.apache.mina/mina-parent/2.1.6/pom) | [mvn jdk8](mina-2.1.6.buildspec) | [result](mina-parent-2.1.6.buildinfo): [28 :heavy_check_mark:  10 :warning:](mina-parent-2.1.6.buildcompare) [:mag:](mina-parent-2.1.6.diffoscope) | 4.5M |
 
