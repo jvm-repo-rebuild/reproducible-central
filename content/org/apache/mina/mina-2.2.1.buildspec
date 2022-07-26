@@ -15,4 +15,4 @@ command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dg
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://github.com/jvm-repo-rebuild/reproducible-central/issues/84
