@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Resources Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-resources-plugin
+version=3.3.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-resources-plugin.git
+source.scm.tag=maven-resources-plugin-3.3.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.filename=maven-resources-plugin-3.3.0.pom
+outputs.0.length=8499
+outputs.0.checksums.sha512=cd5d2f6e34f1f3a024e9f21b7e99309c3499117fc6534fb233102de500677e88abdaf3653043418bf93f5e3e2e685399fe791870b86b145ea6000f0045cbb9fa
+
+outputs.1.filename=maven-resources-plugin-3.3.0.jar
+outputs.1.length=31760
+outputs.1.checksums.sha512=ab0575d7c23b80929d252d8f55cebd925633bf7dd89558a06e4931e928a91995331ef95edb5713a05fa9cfa30910b87b6d9555a8b57153de5fc6f7a82a61d370
+
+outputs.2.filename=maven-resources-plugin-3.3.0-source-release.zip
+outputs.2.length=947699
+outputs.2.checksums.sha512=c7df1d5713d08c942d2f6b3a1b3d8463e3b5ef284470bb0efc2bbb241c5f224747e43007c9af6bdef82d4e220d926dbf490a959b6c290bc9c0106db70fc74752
+
+outputs.3.filename=maven-resources-plugin-3.3.0-sources.jar
+outputs.3.length=23834
+outputs.3.checksums.sha512=188b0b203376980e0ff7c500c57e4edc4b00676c6c5864ab5d5fdecd9c3e1b8d70caf0b9107a05933301740425390645dbc4de58cee028881b375bffc761d317
