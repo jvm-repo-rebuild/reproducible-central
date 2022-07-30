@@ -36,6 +36,7 @@ rebuilding **14 releases** of com.taobao.arthas:arthas-all:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.6.4](https://search.maven.org/artifact/com.taobao.arthas/arthas-all/3.6.4/pom) | | | |
 | [3.6.3](https://search.maven.org/artifact/com.taobao.arthas/arthas-all/3.6.3/pom) | | | |
 | [3.6.2](https://search.maven.org/artifact/com.taobao.arthas/arthas-all/3.6.2/pom) | | | |
 | [3.6.1](https://search.maven.org/artifact/com.taobao.arthas/arthas-all/3.6.1/pom) | | | |
