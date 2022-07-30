@@ -1,0 +1,18 @@
+groupId=org.apache.directory.project
+artifactId=project
+version=46
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/apache/directory-${artifactId}.git
+gitTag=${version}
+
+tool=mvn-3.8.6
+jdk=8
+newline=lf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
