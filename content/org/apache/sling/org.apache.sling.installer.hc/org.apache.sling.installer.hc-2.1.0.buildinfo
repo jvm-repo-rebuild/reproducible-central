@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Installer Health Checks
+group-id=org.apache.sling
+artifact-id=org.apache.sling.installer.hc
+version=2.1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-installer-hc.git
+source.scm.tag=org.apache.sling.installer.hc-2.1.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.installer.hc-2.1.0.pom
+outputs.0.length=4348
+outputs.0.checksums.sha512=97b4f0ef33b5b37ca76c3f5f3155e0012d1dffd97f656caabea570efe9295c1a4a10fc12b2b616c08aca5c70b9f414aa5b967613d77b5b847c96f007a530ac8c
+
+outputs.1.filename=org.apache.sling.installer.hc-2.1.0.jar
+outputs.1.length=17097
+outputs.1.checksums.sha512=0226aced7b0abcd6151777471c48a80d0098611e744d2e03b15ba11459733bd2bb6a33110c7fff33b9022234b1bed9d52fdbe587c26ef0b2e7ccdff100e703b5
+
+outputs.2.filename=org.apache.sling.installer.hc-2.1.0-source-release.zip
+outputs.2.length=17325
+outputs.2.checksums.sha512=9b322cc86d6502a91bfe7e1ccb1ab143d8d9327b2ec5fa11a329430992f24f7627720e2ad01546014b6f716093a4cd04f37b5274f7a87d61f52aaa00b286f33d
+
+outputs.3.filename=org.apache.sling.installer.hc-2.1.0-sources.jar
+outputs.3.length=11350
+outputs.3.checksums.sha512=6bee216fb7e01b31b451c05451738cf0d59800efc549ae3338323252e0639fa40381171791d116ef58e504423a6730d697bbfdec356bb13a1a910a36d84bac02
+
+outputs.4.filename=org.apache.sling.installer.hc-2.1.0-sources.jar
+outputs.4.length=11350
+outputs.4.checksums.sha512=6bee216fb7e01b31b451c05451738cf0d59800efc549ae3338323252e0639fa40381171791d116ef58e504423a6730d697bbfdec356bb13a1a910a36d84bac02
