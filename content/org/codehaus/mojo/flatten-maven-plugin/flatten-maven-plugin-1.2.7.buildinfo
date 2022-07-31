@@ -31,8 +31,8 @@ outputs.1.length=111902
 outputs.1.checksums.sha512=6840fe0d08b7f6f57d2d9c0d4783690a6923fbf015c6e5b7a924f9bacb7a2755d7d1792ac702175398916ab902c67d251b4c15301cb2f7ee6ce77e3b6ef9dce2
 
 outputs.2.filename=flatten-maven-plugin-1.2.7-source-release.zip
-outputs.2.length=295248
-outputs.2.checksums.sha512=d706f42f660041657784611435493410d323b1758f280dfa04ba0c04478ba100651decc3ff3d1b3920f0e32ae18e4ffd1302337a45bf90c4552c3f91e61c637a
+outputs.2.length=294285
+outputs.2.checksums.sha512=d632cfe39286c35f9dc00dd02ef4b23631a1e8a2086cd753e14b24b27d563a8a0fa36da4437cc033df5a23758644b7e1b4051f432296d0e7ee65fabf342381c8
 
 outputs.3.filename=flatten-maven-plugin-1.2.7-sources.jar
 outputs.3.length=52005

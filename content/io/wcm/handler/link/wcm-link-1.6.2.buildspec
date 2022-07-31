@@ -16,5 +16,5 @@ command="mvn -f link/pom.xml -Pio.wcm clean package -DskipTests -Dmaven.javadoc.
 
 buildinfo=link/target/${artifactId}-${version}.buildinfo
 
-diffoscope=https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/$(echo ${groupId} | tr '.' '/')/handler/${artifactId}-${version}.diffoscope
+#diffoscope=${artifactId}-${version}.diffoscope
 issue=
