@@ -15,6 +15,7 @@ rebuilding **3 releases** of org.apache.maven.reporting:maven-reporting-api:
 | -- | --------- | ------ | -- |
 | [4.0.0-M2](https://search.maven.org/artifact/org.apache.maven.reporting/maven-reporting-api/4.0.0-M2/pom) | [mvn jdk8 w](maven-reporting-api-4.0.0-M2.buildspec) | [result](maven-reporting-api-4.0.0-M2.buildinfo): [4 :heavy_check_mark: ](maven-reporting-api-4.0.0-M2.buildcompare) | 49K |
 | [4.0.0-M1](https://search.maven.org/artifact/org.apache.maven.reporting/maven-reporting-api/4.0.0-M1/pom) | [mvn jdk8 w](maven-reporting-api-4.0.0-M1.buildspec) | [result](maven-reporting-api-4.0.0-M1.buildinfo): [4 :heavy_check_mark: ](maven-reporting-api-4.0.0-M1.buildcompare) | 50K |
+| [3.1.1](https://search.maven.org/artifact/org.apache.maven.reporting/maven-reporting-api/3.1.1/pom) | | | |
 | [3.1.0](https://search.maven.org/artifact/org.apache.maven.reporting/maven-reporting-api/3.1.0/pom) | [mvn jdk8 w](maven-reporting-api-3.1.0.buildspec) | [result](maven-reporting-api-3.1.0.buildinfo): [4 :heavy_check_mark: ](maven-reporting-api-3.1.0.buildcompare) | 51K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

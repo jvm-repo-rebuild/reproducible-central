@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/pmd/pmd.git](https://github.com/pmd/pmd.git)
 
-<details><summary>This project defines 37 modules:</summary>
+<details><summary>This project defines 39 modules:</summary>
 
 * [net.sourceforge.pmd:pmd](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/)
 * [net.sourceforge.pmd:pmd-apex](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-apex/)
@@ -19,6 +19,7 @@ Source code: [https://github.com/pmd/pmd.git](https://github.com/pmd/pmd.git)
 * [net.sourceforge.pmd:pmd-dist](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-dist/)
 * [net.sourceforge.pmd:pmd-doc](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-doc/)
 * [net.sourceforge.pmd:pmd-fortran](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-fortran/)
+* [net.sourceforge.pmd:pmd-gherkin](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-gherkin/)
 * [net.sourceforge.pmd:pmd-go](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-go/)
 * [net.sourceforge.pmd:pmd-groovy](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-groovy/)
 * [net.sourceforge.pmd:pmd-html](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-html/)
@@ -43,18 +44,19 @@ Source code: [https://github.com/pmd/pmd.git](https://github.com/pmd/pmd.git)
 * [net.sourceforge.pmd:pmd-scala_2.13](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-scala_2.13/)
 * [net.sourceforge.pmd:pmd-swift](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-swift/)
 * [net.sourceforge.pmd:pmd-test](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-test/)
+* [net.sourceforge.pmd:pmd-test-schema](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-test-schema/)
 * [net.sourceforge.pmd:pmd-visualforce](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-visualforce/)
 * [net.sourceforge.pmd:pmd-vm](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-vm/)
 * [net.sourceforge.pmd:pmd-xml](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-xml/)
 </details>
 
-rebuilding **24 releases** of net.sourceforge.pmd:pmd:
-- **23** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **25 releases** of net.sourceforge.pmd:pmd:
+- **24** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [6.48.0](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/6.48.0/pom) | | | |
+| [6.48.0](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/6.48.0/pom) | [mvn jdk11](pmd-6.48.0.buildspec) | [result](pmd-6.48.0.buildinfo): [109 :heavy_check_mark: ](pmd-6.48.0.buildcompare) | 17M |
 | [6.47.0](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/6.47.0/pom) | [mvn jdk11](pmd-6.47.0.buildspec) | [result](pmd-6.47.0.buildinfo): [103 :heavy_check_mark: ](pmd-6.47.0.buildcompare) | 17M |
 | [6.46.0](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/6.46.0/pom) | [mvn jdk11](pmd-6.46.0.buildspec) | [result](pmd-6.46.0.buildinfo): [103 :heavy_check_mark: ](pmd-6.46.0.buildcompare) | 17M |
 | [6.45.0](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/6.45.0/pom) | [mvn jdk11](pmd-6.45.0.buildspec) | [result](pmd-6.45.0.buildinfo): [103 :heavy_check_mark: ](pmd-6.45.0.buildcompare) | 16M |

@@ -3,8 +3,8 @@
   <groupId>org.mybatis</groupId>
   <artifactId>mybatis-parent</artifactId>
   <versioning>
-    <latest>34</latest>
-    <release>34</release>
+    <latest>35</latest>
+    <release>35</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0.1</version>
@@ -39,7 +39,8 @@
       <version>32</version>
       <version>33</version>
       <version>34</version>
+      <version>35</version>
     </versions>
-    <lastUpdated>20220217155541</lastUpdated>
+    <lastUpdated>20220731035334</lastUpdated>
   </versioning>
 </metadata>

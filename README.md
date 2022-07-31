@@ -66,9 +66,9 @@ Notice the anchor in the link.
 Nightly Rebuild: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
 
 <!-- BEGIN GENERATED INTRO -->
-rebuilding **1068 releases** of **303 projects**:
-- **748** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 320 had issues (some unreproducible artifacts :warning:):
+rebuilding **1071 releases** of **303 projects**:
+- **752** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- 319 had issues (some unreproducible artifacts :warning:):
 
 <!-- END GENERATED INTRO -->
 
@@ -122,7 +122,7 @@ rebuilding **1068 releases** of **303 projects**:
 | | <a name='io.wcm:io.wcm.wcm.ui.granite'></a>[*.wcm.ui.granite](content/io/wcm/wcm/ui/granite/README.md) | 4 | 4 :heavy_check_mark: |
 | net.nicoulaj.maven.plugins | <a name='net.nicoulaj.maven.plugins:checksum-maven-plugin'></a>[checksum-maven-plugin](content/net/nicoulaj/maven/plugins/checksum-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | net.revelc.code | <a name='net.revelc.code:impsort-maven-plugin'></a>[impsort-maven-plugin](content/net/revelc/code/impsort-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
-| net.sourceforge.pmd | <a name='net.sourceforge.pmd:pmd'></a>[pmd](content/net/sourceforge/pmd/README.md) | 24 | 23 :heavy_check_mark: / 1 :warning: |
+| net.sourceforge.pmd | <a name='net.sourceforge.pmd:pmd'></a>[pmd](content/net/sourceforge/pmd/README.md) | 25 | 24 :heavy_check_mark: / 1 :warning: |
 | | <a name='net.sourceforge.pmd:pmd-build-tools-config'></a>[pmd-build-tools-config](content/net/sourceforge/pmd/pmd-build-tools-config/README.md) | 1 | 1 :heavy_check_mark: |
 | nl.hsac | <a name='nl.hsac:hsac-fitnesse-fixtures'></a>[hsac-fitnesse-fixtures](content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 32 | 21 :heavy_check_mark: / 11 :warning: |
 | org.apache.accumulo | <a name='org.apache.accumulo:accumulo'></a>[accumulo](content/org/apache/accumulo/README.md) | 3 | 3 :warning: |
@@ -151,7 +151,7 @@ rebuilding **1068 releases** of **303 projects**:
 | org.apache.jena | <a name='org.apache.jena:jena'></a>[jena](content/org/apache/jena/jena/README.md) | 9 | 9 :warning: |
 | org.apache.jspwiki | <a name='org.apache.jspwiki:jspwiki-builder'></a>[jspwiki-builder](content/org/apache/jspwiki/README.md) | 5 | 5 :warning: |
 | org.apache.karaf | <a name='org.apache.karaf:decanter'></a>[decanter](content/org/apache/karaf/decanter/README.md) | 1 | 1 :warning: |
-| | <a name='org.apache.karaf:karaf'></a>[karaf](content/org/apache/karaf/karaf/README.md) | 3 | 3 :warning: |
+| | <a name='org.apache.karaf:karaf'></a>[karaf](content/org/apache/karaf/karaf/README.md) | 4 | 4 :warning: |
 | org.apache.logging | <a name='org.apache.logging:logging-parent'></a>[logging-parent](content/org/apache/logging/parent/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | org.apache.maven.archetype | <a name='org.apache.maven.archetype:maven-archetype'></a>[maven-archetype](content/org/apache/maven/archetype/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.maven.doxia | <a name='org.apache.maven.doxia:doxia-sitetools'></a>[doxia-sitetools](content/org/apache/maven/doxia/doxia-sitetools/README.md) | 6 | 6 :heavy_check_mark: |
@@ -198,7 +198,7 @@ rebuilding **1068 releases** of **303 projects**:
 | | <a name='org.apache.maven.reporting:maven-reporting-impl'></a>[maven-reporting-impl](content/org/apache/maven/reporting/maven-reporting-impl/README.md) | 3 | 3 :heavy_check_mark: |
 | org.apache.maven.resolver | <a name='org.apache.maven.resolver:maven-resolver-ant-tasks'></a>[maven-resolver-ant-tasks](content/org/apache/maven/resolver/maven-resolver-ant-tasks/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.apache.maven.resolver:maven-resolver'></a>[maven-resolver](content/org/apache/maven/resolver/maven-resolver/README.md) | 11 | 10 :heavy_check_mark: / 1 :warning: |
-| org.apache.maven.scm | <a name='org.apache.maven.scm:maven-scm'></a>[maven-scm](content/org/apache/maven/scm/README.md) | 5 | 5 :heavy_check_mark: |
+| org.apache.maven.scm | <a name='org.apache.maven.scm:maven-scm'></a>[maven-scm](content/org/apache/maven/scm/README.md) | 6 | 6 :heavy_check_mark: |
 | org.apache.maven.shared | <a name='org.apache.maven.shared:file-management'></a>[file-management](content/org/apache/maven/shared/file-management/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.maven | <a name='org.apache.maven:maven-archiver'></a>[maven-archiver](content/org/apache/maven/shared/maven-archiver/README.md) | 3 | 3 :heavy_check_mark: |
 | org.apache.maven.shared | <a name='org.apache.maven.shared:maven-artifact-transfer'></a>[maven-artifact-transfer](content/org/apache/maven/shared/maven-artifact-transfer/README.md) | 1 | 1 :warning: |
@@ -321,11 +321,11 @@ rebuilding **1068 releases** of **303 projects**:
 | org.apache.wss4j | <a name='org.apache.wss4j:wss4j'></a>[wss4j](content/org/apache/wss4j/README.md) | 1 | 1 :warning: |
 | org.codehaus.modello | <a name='org.codehaus.modello:modello'></a>[modello](content/org/codehaus/modello/README.md) | 1 | 1 :heavy_check_mark: |
 | org.codehaus.mojo | <a name='org.codehaus.mojo:animal-sniffer-parent'></a>[animal-sniffer-parent](content/org/codehaus/mojo/animal-sniffer/README.md) | 2 | 2 :heavy_check_mark: |
-| | <a name='org.codehaus.mojo:aspectj-maven-plugin'></a>[aspectj-maven-plugin](content/org/codehaus/mojo/aspectj-maven-plugin/README.md) | 1 | 1 :warning: |
+| | <a name='org.codehaus.mojo:aspectj-maven-plugin'></a>[aspectj-maven-plugin](content/org/codehaus/mojo/aspectj-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:cassandra-maven-plugin'></a>[cassandra-maven-plugin](content/org/codehaus/mojo/cassandra-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:exec-maven-plugin'></a>[exec-maven-plugin](content/org/codehaus/mojo/exec-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:extra-enforcer-rules'></a>[extra-enforcer-rules](content/org/codehaus/mojo/extra-enforcer-rules/README.md) | 5 | 5 :heavy_check_mark: |
-| | <a name='org.codehaus.mojo:flatten-maven-plugin'></a>[flatten-maven-plugin](content/org/codehaus/mojo/flatten-maven-plugin/README.md) | 1 | 1 :warning: |
+| | <a name='org.codehaus.mojo:flatten-maven-plugin'></a>[flatten-maven-plugin](content/org/codehaus/mojo/flatten-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:jaxb2-maven-plugin'></a>[jaxb2-maven-plugin](content/org/codehaus/mojo/jaxb2-maven-plugin/README.md) | 1 | 1 :warning: |
 | | <a name='org.codehaus.mojo:l10n-maven-plugin'></a>[l10n-maven-plugin](content/org/codehaus/mojo/l10n-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:mojo-parent'></a>[mojo-parent](content/org/codehaus/mojo/mojo-parent/README.md) | 9 | 9 :heavy_check_mark: |
@@ -378,7 +378,7 @@ rebuilding **1068 releases** of **303 projects**:
 | | <a name='org.webjars:webjars-locator-core'></a>[webjars-locator-core](content/org/webjars/webjars-locator-core/README.md) | 1 | 1 :heavy_check_mark: |
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 5 | 5 :warning: |
-| **Count:** | **303** | **1068** | **748** :heavy_check_mark: **320** :warning: |
+| **Count:** | **303** | **1071** | **752** :heavy_check_mark: **319** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ## Understanding What Is Behind
