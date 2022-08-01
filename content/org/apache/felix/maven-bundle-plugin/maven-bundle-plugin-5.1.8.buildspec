@@ -1,0 +1,17 @@
+groupId=org.apache.felix
+artifactId=maven-bundle-plugin
+display=${groupId}:${artifactId}
+version=5.1.8
+
+gitRepo=https://github.com/apache/felix-dev.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+root=tools/maven-bundle-plugin
+command="mvn -f ${root} -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=${root}/target/${artifactId}-${version}.buildinfo
+
+issue=
