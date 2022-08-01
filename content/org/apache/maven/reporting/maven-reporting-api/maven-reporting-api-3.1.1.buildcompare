@@ -1,0 +1,7 @@
+version=3.1.1
+ok=4
+ko=0
+okFiles="maven-reporting-api-3.1.1.pom maven-reporting-api-3.1.1.jar maven-reporting-api-3.1.1-source-release.zip maven-reporting-api-3.1.1-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
