@@ -66,8 +66,8 @@ Notice the anchor in the link.
 Nightly Rebuild: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
 
 <!-- BEGIN GENERATED INTRO -->
-rebuilding **1071 releases** of **303 projects**:
-- **752** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **1076 releases** of **304 projects**:
+- **757** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 319 had issues (some unreproducible artifacts :warning:):
 
 <!-- END GENERATED INTRO -->
@@ -101,7 +101,7 @@ rebuilding **1071 releases** of **303 projects**:
 | io.dropwizard | <a name='io.dropwizard:dropwizard-project'></a>[dropwizard-project](content/io/dropwizard/core/README.md) | 39 | 36 :heavy_check_mark: / 3 :warning: |
 | io.dropwizard.metrics | <a name='io.dropwizard.metrics:metrics-parent'></a>[metrics-parent](content/io/dropwizard/metrics/README.md) | 28 | 11 :heavy_check_mark: / 17 :warning: |
 | io.dropwizard.metrics5 | <a name='io.dropwizard.metrics5:metrics-parent'></a>[metrics-parent](content/io/dropwizard/metrics5/README.md) | 5 | 1 :heavy_check_mark: / 4 :warning: |
-| io.fabric8 | <a name='io.fabric8:docker-maven-plugin'></a>[docker-maven-plugin](content/io/fabric8/docker-maven-plugin/README.md) | 10 | 8 :heavy_check_mark: / 2 :warning: |
+| io.fabric8 | <a name='io.fabric8:docker-maven-plugin'></a>[docker-maven-plugin](content/io/fabric8/docker-maven-plugin/README.md) | 11 | 9 :heavy_check_mark: / 2 :warning: |
 | | <a name='io.fabric8:kubernetes-client-project'></a>[kubernetes-client-project](content/io/fabric8/kubernetes-client/README.md) | 8 | 8 :warning: |
 | io.github.albertus82 | <a name='io.github.albertus82:jface-utils'></a>[jface-utils](content/io/github/albertus82/jface-utils/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='io.github.albertus82:unexepack'></a>[unexepack](content/io/github/albertus82/unexepack/README.md) | 3 | 3 :warning: |
@@ -140,7 +140,7 @@ rebuilding **1071 releases** of **303 projects**:
 | org.apache.dubbo | <a name='org.apache.dubbo:dubbo'></a>[dubbo](content/org/apache/dubbo/README.md) | 5 | 5 :warning: |
 | org.apache.felix | <a name='org.apache.felix:org.apache.felix.feature'></a>[*.feature](content/org/apache/felix/features/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.apache.felix:org.apache.felix.http.parent'></a>[*.http.parent](content/org/apache/felix/http/parent/README.md) | 1 | 1 :heavy_check_mark: |
-| | <a name='org.apache.felix:maven-bundle-plugin'></a>[maven-bundle-plugin](content/org/apache/felix/maven-bundle-plugin/README.md) | 5 | 5 :heavy_check_mark: |
+| | <a name='org.apache.felix:maven-bundle-plugin'></a>[maven-bundle-plugin](content/org/apache/felix/maven-bundle-plugin/README.md) | 6 | 6 :heavy_check_mark: |
 | | <a name='org.apache.felix:felix-parent'></a>[felix-parent](content/org/apache/felix/pom/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.helix | <a name='org.apache.helix:helix'></a>[helix](content/org/apache/helix/README.md) | 1 | 1 :warning: |
 | org.apache.httpcomponents | <a name='org.apache.httpcomponents:httpcomponents-parent'></a>[httpcomponents-parent](content/org/apache/httpcomponents/parent/README.md) | 1 | 1 :heavy_check_mark: |
@@ -193,7 +193,7 @@ rebuilding **1071 releases** of **303 projects**:
 | | <a name='org.apache.maven.plugins:maven-toolchains-plugin'></a>[maven-toolchains-plugin](content/org/apache/maven/plugins/maven-toolchains-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-war-plugin'></a>[maven-war-plugin](content/org/apache/maven/plugins/maven-war-plugin/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-wrapper-plugin'></a>[maven-wrapper-plugin](content/org/apache/maven/plugins/maven-wrapper-plugin/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
-| org.apache.maven.reporting | <a name='org.apache.maven.reporting:maven-reporting-api'></a>[maven-reporting-api](content/org/apache/maven/reporting/maven-reporting-api/README.md) | 3 | 3 :heavy_check_mark: |
+| org.apache.maven.reporting | <a name='org.apache.maven.reporting:maven-reporting-api'></a>[maven-reporting-api](content/org/apache/maven/reporting/maven-reporting-api/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.apache.maven.reporting:maven-reporting-exec'></a>[maven-reporting-exec](content/org/apache/maven/reporting/maven-reporting-exec/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.apache.maven.reporting:maven-reporting-impl'></a>[maven-reporting-impl](content/org/apache/maven/reporting/maven-reporting-impl/README.md) | 3 | 3 :heavy_check_mark: |
 | org.apache.maven.resolver | <a name='org.apache.maven.resolver:maven-resolver-ant-tasks'></a>[maven-resolver-ant-tasks](content/org/apache/maven/resolver/maven-resolver-ant-tasks/README.md) | 4 | 4 :heavy_check_mark: |
@@ -322,6 +322,7 @@ rebuilding **1071 releases** of **303 projects**:
 | org.codehaus.modello | <a name='org.codehaus.modello:modello'></a>[modello](content/org/codehaus/modello/README.md) | 1 | 1 :heavy_check_mark: |
 | org.codehaus.mojo | <a name='org.codehaus.mojo:animal-sniffer-parent'></a>[animal-sniffer-parent](content/org/codehaus/mojo/animal-sniffer/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:aspectj-maven-plugin'></a>[aspectj-maven-plugin](content/org/codehaus/mojo/aspectj-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='org.codehaus.mojo:buildplan-maven-plugin'></a>[buildplan-maven-plugin](content/org/codehaus/mojo/buildplan-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:cassandra-maven-plugin'></a>[cassandra-maven-plugin](content/org/codehaus/mojo/cassandra-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:exec-maven-plugin'></a>[exec-maven-plugin](content/org/codehaus/mojo/exec-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:extra-enforcer-rules'></a>[extra-enforcer-rules](content/org/codehaus/mojo/extra-enforcer-rules/README.md) | 5 | 5 :heavy_check_mark: |
@@ -359,7 +360,7 @@ rebuilding **1071 releases** of **303 projects**:
 | org.mybatis.dynamic-sql | <a name='org.mybatis.dynamic-sql:mybatis-dynamic-sql'></a>[mybatis-dynamic-sql](content/org/mybatis/dynamic-sql/README.md) | 1 | 1 :warning: |
 | org.mybatis | <a name='org.mybatis:mybatis-guice'></a>[mybatis-guice](content/org/mybatis/guice/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.mybatis:mybatis'></a>[mybatis](content/org/mybatis/mybatis/README.md) | 1 | 1 :warning: |
-| | <a name='org.mybatis:mybatis-parent'></a>[mybatis-parent](content/org/mybatis/parent/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='org.mybatis:mybatis-parent'></a>[mybatis-parent](content/org/mybatis/parent/README.md) | 2 | 2 :heavy_check_mark: |
 | org.nlpub | <a name='org.nlpub:watset'></a>[watset](content/org/nlpub/watset/README.md) | 12 | 11 :heavy_check_mark: / 1 :warning: |
 | org.openapitools.openapidiff | <a name='org.openapitools.openapidiff:openapi-diff-parent'></a>[openapi-diff-parent](content/org/openapitools/openapidiff/README.md) | 4 | 4 :heavy_check_mark: |
 | org.osgi | <a name='org.osgi:org.osgi.test.parent'></a>[*.test.parent](content/org/osgi/test/README.md) | 5 | 4 :heavy_check_mark: / 1 :warning: |
@@ -378,7 +379,7 @@ rebuilding **1071 releases** of **303 projects**:
 | | <a name='org.webjars:webjars-locator-core'></a>[webjars-locator-core](content/org/webjars/webjars-locator-core/README.md) | 1 | 1 :heavy_check_mark: |
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 5 | 5 :warning: |
-| **Count:** | **303** | **1071** | **752** :heavy_check_mark: **319** :warning: |
+| **Count:** | **304** | **1076** | **757** :heavy_check_mark: **319** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ## Understanding What Is Behind
