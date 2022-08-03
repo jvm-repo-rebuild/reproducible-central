@@ -50,6 +50,7 @@ rebuilding **5 releases** of org.apache.jspwiki:jspwiki-builder:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.11.3](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-builder/2.11.3/pom) | | | |
 | [2.11.2](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-builder/2.11.2/pom) | [mvn jdk8 w](jspwiki-2.11.2.buildspec) | [result](jspwiki-builder-2.11.2.buildinfo): [107 :heavy_check_mark:  1 :warning:](jspwiki-builder-2.11.2.buildcompare) [:mag:](jspwiki-builder-2.11.2.diffoscope) | 293M |
 | [2.11.1](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-builder/2.11.1/pom) | [mvn jdk8 w](jspwiki-2.11.1.buildspec) | [result](jspwiki-builder-2.11.1.buildinfo): [104 :heavy_check_mark:  1 :warning:](jspwiki-builder-2.11.1.buildcompare) [:mag:](jspwiki-builder-2.11.1.diffoscope) | 292M |
 | [2.11.0](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-builder/2.11.0/pom) | [mvn jdk8 w](jspwiki-2.11.0.buildspec) | [result](jspwiki-builder-2.11.0.buildinfo): [70 :heavy_check_mark:  1 :warning:](jspwiki-builder-2.11.0.buildcompare) [:mag:](jspwiki-builder-2.11.0.diffoscope) | 291M |

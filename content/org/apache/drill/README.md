@@ -71,6 +71,7 @@ rebuilding **1 releases** of org.apache.drill:drill-root:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.20.2](https://search.maven.org/artifact/org.apache.drill/drill-root/1.20.2/pom) | | | |
 | [1.20.0-hadoop2](https://search.maven.org/artifact/org.apache.drill/drill-root/1.20.0-hadoop2/pom) | | | |
 | [1.20.0](https://search.maven.org/artifact/org.apache.drill/drill-root/1.20.0/pom) | [mvn jdk8](drill-1.20.0.buildspec) | [result](drill-root-1.20.0.buildinfo): [93 :heavy_check_mark:  101 :warning:](drill-root-1.20.0.buildcompare) [:mag:](drill-root-1.20.0.diffoscope) [:memo:](https://github.com/apache/drill/pull/2484) | 646M |
 

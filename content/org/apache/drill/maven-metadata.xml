@@ -3,8 +3,8 @@
   <groupId>org.apache.drill</groupId>
   <artifactId>drill-root</artifactId>
   <versioning>
-    <latest>1.20.0-hadoop2</latest>
-    <release>1.20.0-hadoop2</release>
+    <latest>1.20.2</latest>
+    <release>1.20.2</release>
     <versions>
       <version>1.1.0</version>
       <version>1.2.0</version>
@@ -27,7 +27,8 @@
       <version>1.19.0</version>
       <version>1.20.0</version>
       <version>1.20.0-hadoop2</version>
+      <version>1.20.2</version>
     </versions>
-    <lastUpdated>20220225080836</lastUpdated>
+    <lastUpdated>20220803083706</lastUpdated>
   </versioning>
 </metadata>
