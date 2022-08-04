@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/jspwiki.git](https://github.com/apache/jspwiki.git)
 
-<details><summary>This project defines 33 modules:</summary>
+<details><summary>This project defines 35 modules:</summary>
 
 * [org.apache.jspwiki.it:jspwiki-it-builder](https://search.maven.org/artifact/org.apache.jspwiki.it/jspwiki-it-builder/)
 * [org.apache.jspwiki.it:jspwiki-it-test-cma](https://search.maven.org/artifact/org.apache.jspwiki.it/jspwiki-it-test-cma/)
@@ -35,6 +35,7 @@ Source code: [https://github.com/apache/jspwiki.git](https://github.com/apache/j
 * [org.apache.jspwiki:jspwiki-builder](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-builder/)
 * [org.apache.jspwiki:jspwiki-cache](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-cache/)
 * [org.apache.jspwiki:jspwiki-event](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-event/)
+* [org.apache.jspwiki:jspwiki-http](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-http/)
 * [org.apache.jspwiki:jspwiki-kendra-searchprovider](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-kendra-searchprovider/)
 * [org.apache.jspwiki:jspwiki-main](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-main/)
 * [org.apache.jspwiki:jspwiki-markdown](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-markdown/)
@@ -42,15 +43,16 @@ Source code: [https://github.com/apache/jspwiki.git](https://github.com/apache/j
 * [org.apache.jspwiki:jspwiki-tika-searchprovider](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-tika-searchprovider/)
 * [org.apache.jspwiki:jspwiki-util](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-util/)
 * [org.apache.jspwiki:jspwiki-war](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-war/)
+* [org.apache.jspwiki:jspwiki-wysiwyg](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-wysiwyg/)
 </details>
 
-rebuilding **5 releases** of org.apache.jspwiki:jspwiki-builder:
+rebuilding **6 releases** of org.apache.jspwiki:jspwiki-builder:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.11.3](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-builder/2.11.3/pom) | | | |
+| [2.11.3](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-builder/2.11.3/pom) | [mvn jdk8 w](jspwiki-2.11.3.buildspec) | [result](jspwiki-builder-2.11.3.buildinfo): [111 :heavy_check_mark:  1 :warning:](jspwiki-builder-2.11.3.buildcompare) [:mag:](jspwiki-builder-2.11.3.diffoscope) | 297M |
 | [2.11.2](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-builder/2.11.2/pom) | [mvn jdk8 w](jspwiki-2.11.2.buildspec) | [result](jspwiki-builder-2.11.2.buildinfo): [107 :heavy_check_mark:  1 :warning:](jspwiki-builder-2.11.2.buildcompare) [:mag:](jspwiki-builder-2.11.2.diffoscope) | 293M |
 | [2.11.1](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-builder/2.11.1/pom) | [mvn jdk8 w](jspwiki-2.11.1.buildspec) | [result](jspwiki-builder-2.11.1.buildinfo): [104 :heavy_check_mark:  1 :warning:](jspwiki-builder-2.11.1.buildcompare) [:mag:](jspwiki-builder-2.11.1.diffoscope) | 292M |
 | [2.11.0](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-builder/2.11.0/pom) | [mvn jdk8 w](jspwiki-2.11.0.buildspec) | [result](jspwiki-builder-2.11.0.buildinfo): [70 :heavy_check_mark:  1 :warning:](jspwiki-builder-2.11.0.buildcompare) [:mag:](jspwiki-builder-2.11.0.diffoscope) | 291M |
