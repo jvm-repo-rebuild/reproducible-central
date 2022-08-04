@@ -1,66 +1,77 @@
-target/reference/jspwiki-main-2.11.1-tests.jar jspwiki-main/target/jspwiki-main-2.11.1-tests.jar
---- target/reference/jspwiki-main-2.11.1-tests.jar
-+++ jspwiki-main/target/jspwiki-main-2.11.1-tests.jar
+1 /        1 target/reference/jspwiki-main-2.11.3-tests.jar jspwiki-main/target/jspwiki-main-2.11.3-tests.jar
+--- target/reference/jspwiki-main-2.11.3-tests.jar
++++ jspwiki-main/target/jspwiki-main-2.11.3-tests.jar
 ├── zipinfo {}
 │ @@ -1,681 +1,10 @@
-│ -Zip file size: 214256 bytes, number of entries: 755
-│ +Zip file size: 72260 bytes, number of entries: 82
-│  -rw-r--r--  2.0 unx      375 b- defN 21-Dec-15 16:10 META-INF/MANIFEST.MF
-│  drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-15 16:10 META-INF/
-│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-15 16:10 1639585240820-org.apache.wiki.attachment.AttachmentManagerTest-setUp/
-│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-15 16:10 1639585241718-org.apache.wiki.attachment.AttachmentManagerTest-setUp/
-│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-15 16:10 1639585241794-org.apache.wiki.attachment.AttachmentManagerTest-setUp/
-│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-15 16:10 1639585241848-org.apache.wiki.attachment.AttachmentManagerTest-setUp/
-│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-15 16:10 1639585241912-org.apache.wiki.attachment.AttachmentManagerTest-setUp/
-│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-15 16:10 1639585241974-org.apache.wiki.attachment.AttachmentManagerTest-setUp/
+│ -Zip file size: 217456 bytes, number of entries: 756
+│ +Zip file size: 75541 bytes, number of entries: 83
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 META-INF/
+│  -rw-r--r--  2.0 unx      375 b- defN 22-Jul-30 11:39 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 1659183284872-org.apache.wiki.attachment.AttachmentManagerTest-init/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 1659183285767-org.apache.wiki.attachment.AttachmentManagerTest-init/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 1659183285847-org.apache.wiki.attachment.AttachmentManagerTest-init/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 1659183285896-org.apache.wiki.attachment.AttachmentManagerTest-init/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 1659183285952-org.apache.wiki.attachment.AttachmentManagerTest-init/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 1659183286012-org.apache.wiki.attachment.AttachmentManagerTest-init/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 1659183286069-org.apache.wiki.attachment.AttachmentManagerTest-init/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 1659183286121-org.apache.wiki.attachment.AttachmentManagerTest-init/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 1659183286169-org.apache.wiki.attachment.AttachmentManagerTest-init/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 1659183286229-org.apache.wiki.attachment.AttachmentManagerTest-init/
 ...
-│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-15 16:10 1639585299862-org.apache.wiki.xmlrpc.RPCHandlerTest-init/
-│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-15 16:10 1639585299885-org.apache.wiki.xmlrpc.RPCHandlerTest-init/
-│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-15 16:10 1639585299906-org.apache.wiki.xmlrpc.RPCHandlerTest-init/
-│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-15 16:10 1639585299936-org.apache.wiki.xmlrpc.RPCHandlerTest-init/
-│ -drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-15 16:10 1639585299959-org.apache.wiki.xmlrpc.RPCHandlerTest-init/
-│  drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-15 16:10 WEB-INF/
-│  drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-15 16:10 ini/
-│  drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-15 16:10 org/
-│  drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-15 16:10 org/apache/
-│  drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-15 16:10 org/apache/wiki/
-│  drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-15 16:10 org/apache/wiki/ajax/
-│  drwxr-xr-x  2.0 unx        0 b- stor 21-Dec-15 16:10 org/apache/wiki/attachment/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 1659183345048-org.apache.wiki.workflow.WorkflowTest-init/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 1659183345059-org.apache.wiki.workflow.WorkflowTest-init/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 1659183345071-org.apache.wiki.workflow.WorkflowTest-init/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 1659183345079-org.apache.wiki.workflow.WorkflowTest-init/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 1659183345095-org.apache.wiki.workflow.WorkflowTest-init/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 1659183345107-org.apache.wiki.workflow.WorkflowTest-init/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 1659183345119-org.apache.wiki.xmlrpc.RPCHandlerTest-init/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 1659183345151-org.apache.wiki.xmlrpc.RPCHandlerTest-init/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 1659183345179-org.apache.wiki.xmlrpc.RPCHandlerTest-init/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 1659183345199-org.apache.wiki.xmlrpc.RPCHandlerTest-init/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 1659183345235-org.apache.wiki.xmlrpc.RPCHandlerTest-init/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 1659183345259-org.apache.wiki.xmlrpc.RPCHandlerTest-init/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 WEB-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 ini/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 org/apache/wiki/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 org/apache/wiki/ajax/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-30 11:39 org/apache/wiki/attachment/
 │ @@ -716,16 +45,15 @@
-│  -rw-r--r--  2.0 unx    11358 b- defN 21-Dec-15 16:10 META-INF/LICENSE
-│  -rw-r--r--  2.0 unx      180 b- defN 21-Dec-15 16:10 META-INF/NOTICE
-│  -rw-r--r--  2.0 unx     1180 b- defN 21-Dec-15 16:10 SamplePlugin2.class
-│  -rw-r--r--  2.0 unx     7022 b- defN 21-Dec-15 16:10 TestPlugins.txt
-│  -rw-r--r--  2.0 unx     6282 b- defN 21-Dec-15 16:10 TextFormattingRules.txt
-│  -rw-r--r--  2.0 unx    13660 b- defN 21-Dec-15 16:10 WEB-INF/web.xml
-│  -rw-r--r--  2.0 unx     1273 b- defN 21-Dec-15 16:10 filters.xml
-│ --rw-r--r--  2.0 unx      879 b- defN 21-Dec-15 16:10 groupdatabase.xml
-│ --rw-r--r--  2.0 unx     1235 b- defN 21-Dec-15 16:10 groupdatabase.xml.old
-│ +-rw-r--r--  2.0 unx     1679 b- defN 21-Dec-15 16:10 groupdatabase.xml
-│  -rw-r--r--  2.0 unx     7148 b- defN 21-Dec-15 16:10 ini/jspwiki.properties
-│  -rw-r--r--  2.0 unx     1401 b- defN 21-Dec-15 16:10 ini/jspwiki_module.xml
-│  -rw-r--r--  2.0 unx     3255 b- defN 21-Dec-15 16:10 jspwiki-custom.properties
-│  -rw-r--r--  2.0 unx     1412 b- defN 21-Dec-15 16:10 jspwiki-testUserPolicy.policy
-│  -rw-r--r--  2.0 unx     1487 b- defN 21-Dec-15 16:10 jspwiki-vers-custom.properties
-│  -rw-r--r--  2.0 unx     5821 b- defN 21-Dec-15 16:10 jspwiki.policy
-│  -rw-r--r--  2.0 unx     5662 b- defN 21-Dec-15 16:10 org/apache/wiki/HsqlDbUtils.class
-│ @@ -745,13 +73,12 @@
-│  -rw-r--r--  2.0 unx     4917 b- defN 21-Dec-15 16:10 org/apache/wiki/providers/CounterProvider.class
-│  -rw-r--r--  2.0 unx     4156 b- defN 21-Dec-15 16:10 org/apache/wiki/providers/VerySimpleProvider.class
-│  -rw-r--r--  2.0 unx      608 b- defN 21-Dec-15 16:10 org/apache/wiki/stress/Benchmark.class
-│  -rw-r--r--  2.0 unx     4736 b- defN 21-Dec-15 16:10 org/apache/wiki/stress/StressTestVersioningProvider.class
-│  -rw-r--r--  2.0 unx     1345 b- defN 21-Dec-15 16:10 org/apache/wiki/web/StreamRedirector.class
-│  -rw-r--r--  2.0 unx     1668 b- defN 21-Dec-15 16:10 org/apache/wiki/web/TestContainer$ShutdownHandler.class
-│  -rw-r--r--  2.0 unx    10072 b- defN 21-Dec-15 16:10 org/apache/wiki/web/TestContainer.class
-│ --rw-r--r--  2.0 unx     2890 b- defN 21-Dec-15 16:10 userdatabase.xml
-│ --rw-r--r--  2.0 unx     3288 b- defN 21-Dec-15 16:10 userdatabase.xml.old
-│ --rw-r--r--  2.0 unx     3842 b- defN 21-Dec-15 16:10 wkflmgr.ser
-│ +-rw-r--r--  2.0 unx     3085 b- defN 21-Dec-15 16:10 userdatabase.xml
-│ +-rw-r--r--  2.0 unx     3770 b- defN 21-Dec-15 16:10 wkflmgr.ser
-│  -rw-r--r--  2.0 unx     8388 b- defN 21-Dec-15 16:10 META-INF/maven/org.apache.jspwiki/jspwiki-main/pom.xml
-│  -rw-r--r--  2.0 unx       69 b- defN 21-Dec-15 16:10 META-INF/maven/org.apache.jspwiki/jspwiki-main/pom.properties
-│ -755 files, 163158 bytes uncompressed, 62644 bytes compressed:  61.6%
-│ +82 files, 159558 bytes uncompressed, 61508 bytes compressed:  61.5%
+│  -rw-r--r--  2.0 unx      180 b- defN 22-Jul-30 11:39 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     1180 b- defN 22-Jul-30 11:39 SamplePlugin2.class
+│  -rw-r--r--  2.0 unx     7022 b- defN 22-Jul-30 11:39 TestPlugins.txt
+│  -rw-r--r--  2.0 unx     6282 b- defN 22-Jul-30 11:39 TextFormattingRules.txt
+│  -rw-r--r--  2.0 unx    13660 b- defN 22-Jul-30 11:39 WEB-INF/web.xml
+│  -rw-r--r--  2.0 unx     4102 b- defN 22-Jul-30 11:39 ehcache-jspwiki-small.xml
+│  -rw-r--r--  2.0 unx     1273 b- defN 22-Jul-30 11:39 filters.xml
+│ --rw-r--r--  2.0 unx      879 b- defN 22-Jul-30 11:39 groupdatabase.xml
+│ --rw-r--r--  2.0 unx     1237 b- defN 22-Jul-30 11:39 groupdatabase.xml.old
+│ +-rw-r--r--  2.0 unx     1679 b- defN 22-Jul-30 11:39 groupdatabase.xml
+│  -rw-r--r--  2.0 unx     7148 b- defN 22-Jul-30 11:39 ini/jspwiki.properties
+│  -rw-r--r--  2.0 unx     1401 b- defN 22-Jul-30 11:39 ini/jspwiki_module.xml
+│  -rw-r--r--  2.0 unx     3255 b- defN 22-Jul-30 11:39 jspwiki-custom.properties
+│  -rw-r--r--  2.0 unx     1412 b- defN 22-Jul-30 11:39 jspwiki-testUserPolicy.policy
+│  -rw-r--r--  2.0 unx     1487 b- defN 22-Jul-30 11:39 jspwiki-vers-custom.properties
+│  -rw-r--r--  2.0 unx     5821 b- defN 22-Jul-30 11:39 jspwiki.policy
+│  -rw-r--r--  2.0 unx     5644 b- defN 22-Jul-30 11:39 org/apache/wiki/HsqlDbUtils.class
+│ @@ -746,13 +74,12 @@
+│  -rw-r--r--  2.0 unx     4872 b- defN 22-Jul-30 11:39 org/apache/wiki/providers/CounterProvider.class
+│  -rw-r--r--  2.0 unx     4147 b- defN 22-Jul-30 11:39 org/apache/wiki/providers/VerySimpleProvider.class
+│  -rw-r--r--  2.0 unx      608 b- defN 22-Jul-30 11:39 org/apache/wiki/stress/Benchmark.class
+│  -rw-r--r--  2.0 unx     4308 b- defN 22-Jul-30 11:39 org/apache/wiki/stress/StressTestVersioningProvider.class
+│  -rw-r--r--  2.0 unx     1345 b- defN 22-Jul-30 11:39 org/apache/wiki/web/StreamRedirector.class
+│  -rw-r--r--  2.0 unx     1674 b- defN 22-Jul-30 11:39 org/apache/wiki/web/TestContainer$ShutdownHandler.class
+│  -rw-r--r--  2.0 unx    10086 b- defN 22-Jul-30 11:39 org/apache/wiki/web/TestContainer.class
+│ --rw-r--r--  2.0 unx     2898 b- defN 22-Jul-30 11:39 userdatabase.xml
+│ --rw-r--r--  2.0 unx     3298 b- defN 22-Jul-30 11:39 userdatabase.xml.old
+│ --rw-r--r--  2.0 unx     3842 b- defN 22-Jul-30 11:39 wkflmgr.ser
+│ +-rw-r--r--  2.0 unx     3085 b- defN 22-Jul-30 11:39 userdatabase.xml
+│ +-rw-r--r--  2.0 unx     3770 b- defN 22-Jul-30 11:39 wkflmgr.ser
+│  -rw-r--r--  2.0 unx     9880 b- defN 22-Jul-30 11:39 META-INF/maven/org.apache.jspwiki/jspwiki-main/pom.xml
+│  -rw-r--r--  2.0 unx       69 b- defN 22-Jul-30 11:39 META-INF/maven/org.apache.jspwiki/jspwiki-main/pom.properties
+│ -756 files, 171160 bytes uncompressed, 65772 bytes compressed:  61.6%
+│ +83 files, 167540 bytes uncompressed, 64643 bytes compressed:  61.4%
 ├── groupdatabase.xml
 │ ├── groupdatabase.xml
 │ │ @@ -1,16 +1,34 @@
@@ -125,18 +136,18 @@ target/reference/jspwiki-main-2.11.1-tests.jar jspwiki-main/target/jspwiki-main-
 │ │ +    under the License.  
 │ │ +-->
 │ │  <users>
-│ │ -  <user uid="-7739839977499061014" loginName="janne" wikiName="JanneJalkanen" fullName="Janne Jalkanen" email="janne@ecyrd.com" password="{SHA-256}AeJQgAgYDAf2WZiqPJ2l6cGdGC/PgWmkjZmkjrBEV6SW/HlclZGlIg==" created="2006.06.25 at 14:50:54:000 EDT" lastModified="2021.12.15 at 17:21:17:540 CET" lockExpiry="">
+│ │ -  <user uid="-7739839977499061014" loginName="janne" wikiName="JanneJalkanen" fullName="Janne Jalkanen" email="janne@ecyrd.com" password="{SHA-256}AeJQgAgYDAf2WZiqPJ2l6cGdGC/PgWmkjZmkjrBEV6SW/HlclZGlIg==" created="2006.06.25 at 14:50:54:000 EDT" lastModified="2022.07.30 at 14:15:21:497 CEST" lockExpiry="">
 │ │ -    <attributes>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAN3CAAAAAQAAAACdAAKYXR0cmlidXRlMXQAEXNvbWUgcmFuZG9tIHZhbHVldAAKYXR0cmlidXRlMnQADWFub3RoZXIgdmFsdWV4</attributes>
 │ │ +  <user uid="-7739839977499061014" email="janne@ecyrd.com" fullName="Janne Jalkanen" loginName="janne" password="{SHA-256}AeJQgAgYDAf2WZiqPJ2l6cGdGC/PgWmkjZmkjrBEV6SW/HlclZGlIg==" wikiName="JanneJalkanen" created="2006.06.25 at 14:50:54:000 EDT" lastModified="2006.01.26 at 14:50:54:000 EST">
 │ │ +    <attributes>rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAACdAAKYXR0cmlidXRlMXQAEXNvbWUgcmFuZG9tIHZhbHVldAAKYXR0cmlidXRlMnQADWFub3RoZXIgdmFsdWV4</attributes>
 │ │    </user>
-│ │ -  <user uid="d9a49369-4163-4b0b-9d6f-354a49f91d8f" loginName="user" wikiName="" fullName="" email="jspwiki.tests@mailinator.com" password="{SHA-256}3Pb24XmZkg2jFjxeVyPyCcyvp48R96IBrBlEc1MQ2nbmipK+92XOLA==" created="2006.06.25 at 14:50:54:000 EDT" lastModified="2021.12.15 at 17:21:17:489 CET" lockExpiry=""/>
-│ │ -  <user uid="6c2ed69e-e401-4448-96e9-7ac9b40d366c" loginName="admin" wikiName="Administrator" fullName="Administrator" email="admin@locahost" password="{SHA-256}GhBTV3JJKzol+lHhL2qDprdzYnairKitbsH64zt2rPDfcaqvuObfKQ==" created="2006.06.25 at 14:50:54:000 EDT" lastModified="2021.12.15 at 17:20:41:594 CET" lockExpiry=""/>
-│ │ -  <user uid="12f7dba3-8ec6-48aa-836b-9f15bad05d1a" loginName="Alice" wikiName="Alice" fullName="Alice" email="alice@example.com" password="{SHA-256}NnLYkrdTsJcVTLDu9uHu/DWDGGkVUhJzjcMuL+K8KafNt9T6C+af0A==" created="2006.06.25 at 14:50:54:000 EDT" lastModified="2021.12.15 at 17:20:43:096 CET" lockExpiry=""/>
-│ │ -  <user uid="6169c40e-c400-43cd-8f26-75297a086e96" loginName="Bob" wikiName="Bob" fullName="Bob" email="bob@example.com" password="{SHA-256}7mBDhoTwg55GsoYR2AvF12GsZuAb1rWcoY4KnXC/AHTO4+zdiHtQMg==" created="2006.06.25 at 14:50:54:000 EDT" lastModified="2021.12.15 at 17:20:42:984 CET" lockExpiry=""/>
-│ │ -  <user uid="a3f67be7-b2f7-4c47-921d-1231d7f1e601" loginName="Charlie" wikiName="Charlie" fullName="Charlie" email="charlie@example.com" password="{SHA-256}EQ3Y6yCsHvTpTssHJK9ouWqUsZfzQNJA6DzqrU7tyPTY8WUXNXccPQ==" created="2006.06.25 at 14:50:54:000 EDT" lastModified="2021.12.15 at 17:20:43:390 CET" lockExpiry=""/>
-│ │ -  <user uid="174a4dbd-3f05-43b0-8eb0-385dbfd9650b" loginName="Fred" wikiName="FredFlintstone" fullName="Fred Flintstone" email="fred@example.com" password="{SHA-256}JqQFz0DJL/oPnuaBvae4rHreo+7v5vZIBUl/w+5F9xlHlPh0M0nIiA==" created="2006.06.25 at 14:50:54:000 EDT" lastModified="2021.12.15 at 17:20:43:390 CET" lockExpiry=""/>
-│ │ -  <user uid="5082e328-ab17-4f07-8b45-7db60c564d52" loginName="Biff" wikiName="Biff" fullName="Biff" email="biff@example.com" password="{SHA-256}DbgLbFsKYcj3fGISvpA5zWA5Cxhgg8jkQZTmewhCsnVagbB+Iq7AKg==" created="2006.06.25 at 14:50:54:000 EDT" lastModified="2021.12.15 at 17:20:43:390 CET" lockExpiry=""/>
+│ │ -  <user uid="2dc74cd8-9b5f-4b5a-92b2-54bb6fe56072" loginName="user" wikiName="" fullName="" email="jspwiki.tests@mailinator.com" password="{SHA-256}+BWYVvQRYqiZbFgxvTmFMBcH/T11vnFXIDMlW88fSuCTlc73CQKTBg==" created="2006.06.25 at 14:50:54:000 EDT" lastModified="2022.07.30 at 14:15:21:433 CEST" lockExpiry=""/>
+│ │ -  <user uid="cb2eee1f-38b4-4427-bcdf-d9ed6ef0a386" loginName="admin" wikiName="Administrator" fullName="Administrator" email="admin@locahost" password="{SHA-256}o/pk4+VVR5+gIUKDHtA1ah7zuAMknbUeKMTGaJxKzLV8Ot8WvPpkAA==" created="2006.06.25 at 14:50:54:000 EDT" lastModified="2022.07.30 at 14:14:45:635 CEST" lockExpiry=""/>
+│ │ -  <user uid="637ae00c-1b82-4f79-ae0c-6a9f21b26d65" loginName="Alice" wikiName="Alice" fullName="Alice" email="alice@example.com" password="{SHA-256}vr1mcQHOyZkYPxE4HyKbgbg6qEconTeLJpAFGy76f72rMsNPPxJNDw==" created="2006.06.25 at 14:50:54:000 EDT" lastModified="2022.07.30 at 14:14:47:129 CEST" lockExpiry=""/>
+│ │ -  <user uid="74a74a12-0803-42db-a68a-6b2ad86cf019" loginName="Bob" wikiName="Bob" fullName="Bob" email="bob@example.com" password="{SHA-256}+IL6fFUmQsdHc+qh77eyVAG+ixZPtZTRS/ftC5JYj2EQsEpF8LkRiQ==" created="2006.06.25 at 14:50:54:000 EDT" lastModified="2022.07.30 at 14:14:47:017 CEST" lockExpiry=""/>
+│ │ -  <user uid="4826a1ac-5521-4dc8-96a8-8d478fea7e0a" loginName="Charlie" wikiName="Charlie" fullName="Charlie" email="charlie@example.com" password="{SHA-256}Ig6w7F05bqjxfMWKN9Z5siPDN8h/KbF0EjF9s4cJMr+gCzJTkjP94g==" created="2006.06.25 at 14:50:54:000 EDT" lastModified="2022.07.30 at 14:14:47:417 CEST" lockExpiry=""/>
+│ │ -  <user uid="e6b07950-ae7c-4317-a200-a297dfee79af" loginName="Fred" wikiName="FredFlintstone" fullName="Fred Flintstone" email="fred@example.com" password="{SHA-256}rHTxj49eEZqQ2UCYnYreh9ptZUXetD+XYY4mSK+WSF0+mKpzMZcUyA==" created="2006.06.25 at 14:50:54:000 EDT" lastModified="2022.07.30 at 14:14:47:421 CEST" lockExpiry=""/>
+│ │ -  <user uid="30bad160-d6d6-4527-aaa0-9399c2cd4dd6" loginName="Biff" wikiName="Biff" fullName="Biff" email="biff@example.com" password="{SHA-256}vg6P+sLx93NYv/yUbZDGiFggt98/UDvHS+mCBQ7KjVUF03dE650wNQ==" created="2006.06.25 at 14:50:54:000 EDT" lastModified="2022.07.30 at 14:14:47:421 CEST" lockExpiry=""/>
 │ │ +  <user uid="-8629747547991531672" email="user@example.com" loginName="user" password="{SSHA}iQWmcKE8PyO965jh4+VNLYbxagaDdS0nC9GmuQ==" created="2006.06.25 at 14:50:54:000 EDT" lastModified="2006.01.26 at 14:50:54:000 EST"/>
 │ │ +  <user loginName="admin" wikiName="Administrator" fullName="Administrator" email="admin@locahost" password="{SSHA}6YNKYMwXICUf5pMvYUZumgbFCxZMT2njtUQtJw==" created="2006.06.25 at 14:50:54:000 EDT" lastModified="2006.01.26 at 14:50:54:000 EST"/>
 │ │ +  <user loginName="Alice" wikiName="Alice" fullName="Alice" email="alice@example.com" password="{SSHA}3V4zI5W6mT+x5NIHKI2KFQIYBdnAYKNOE9Aj+Q==" created="2006.06.25 at 14:50:54:000 EDT" lastModified="2006.01.26 at 14:50:54:000 EST"/>
@@ -148,7 +159,7 @@ target/reference/jspwiki-main-2.11.1-tests.jar jspwiki-main/target/jspwiki-main-
 ├── wkflmgr.ser
 │ @@ -1,9 +1,9 @@
 │  00000000: aced 0005 7710 0000 0000 0000 0006 0000  ....w...........
-│ -00000010: 017d bee6 3c81 7372 0031 6a61 7661 2e75  .}..<.sr.1java.u
+│ -00000010: 0182 4f08 acc1 7372 0031 6a61 7661 2e75  ..O...sr.1java.u
 │ +00000010: 0171 e5ec 34e6 7372 0031 6a61 7661 2e75  .q..4.sr.1java.u
 │  00000020: 7469 6c2e 636f 6e63 7572 7265 6e74 2e43  til.concurrent.C
 │  00000030: 6f6e 6375 7272 656e 7448 6173 684d 6170  oncurrentHashMap
@@ -270,7 +281,7 @@ target/reference/jspwiki-main-2.11.1-tests.jar jspwiki-main/target/jspwiki-main-
 │ -00000b20: 6661 756c 744f 7574 636f 6d65 7100 7e00  faultOutcomeq.~.
 │ -00000b30: 494c 0007 6d5f 6661 6374 7371 007e 0042  IL..m_factsq.~.B
 │ -00000b40: 7871 007e 0047 0101 0000 0001 7371 007e  xq.~.G......sq.~
-│ -00000b50: 004b 7708 0000 017d bee6 3c7f 7873 7100  .Kw....}..<.xsq.
+│ -00000b50: 004b 7708 0000 0182 4f08 acc1 7873 7100  .Kw.....O...xsq.
 │ -00000b60: 7e00 4d00 0000 0077 0400 0000 0078 7400  ~.M....w.....xt.
 │ -00000b70: 1964 6563 6973 696f 6e2e 6564 6974 5769  .decision.editWi
 │ -00000b80: 6b69 4170 7072 6f76 616c 7371 007e 0050  kiApprovalsq.~.P
@@ -281,12 +292,12 @@ target/reference/jspwiki-main-2.11.1-tests.jar jspwiki-main/target/jspwiki-main-
 │ -00000bd0: 1000 0000 0273 7100 7e00 5001 7400 186f  .....sq.~.P.t..o
 │ -00000be0: 7574 636f 6d65 2e64 6563 6973 696f 6e2e  utcome.decision.
 │ -00000bf0: 6170 7072 6f76 6573 7100 7e00 4501 0100  approvesq.~.E...
-│ -00000c00: 0000 0173 7100 7e00 4b77 0800 0001 7dbe  ...sq.~.Kw....}.
-│ -00000c10: e63c 8078 7371 007e 004d 0000 0000 7704  .<.xsq.~.M....w.
+│ -00000c00: 0000 0173 7100 7e00 4b77 0800 0001 824f  ...sq.~.Kw.....O
+│ -00000c10: 08ac c178 7371 007e 004d 0000 0000 7704  ...xsq.~.M....w.
 │ -00000c20: 0000 0000 7871 007e 004f 7371 007e 0050  ....xq.~.Osq.~.P
 │ -00000c30: 0174 0015 6f75 7463 6f6d 652e 7374 6570  .t..outcome.step
 │ -00000c40: 2e63 6f6d 706c 6574 6573 7100 7e00 4b77  .completesq.~.Kw
-│ -00000c50: 0800 0001 7dbe e63c 8078 7371 007e 0054  ....}..<.xsq.~.T
+│ -00000c50: 0800 0001 824f 08ac c178 7371 007e 0054  .....O...xsq.~.T
 │ -00000c60: 3f40 0000 0000 000c 7708 0000 0010 0000  ?@......w.......
 │ -00000c70: 0002 7100 7e00 5170 7371 007e 0050 0174  ..q.~.Qpsq.~.P.t
 │ -00000c80: 0012 6f75 7463 6f6d 652e 7374 6570 2e61  ..outcome.step.a
