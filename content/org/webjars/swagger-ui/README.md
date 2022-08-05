@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/webjars/swagger-ui.git](https://github.com/webjars/swagger-ui.git)
 
-rebuilding **7 releases** of org.webjars:swagger-ui:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **8 releases** of org.webjars:swagger-ui:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.13.2](https://search.maven.org/artifact/org.webjars/swagger-ui/4.13.2/pom) | | | |
+| [4.13.2](https://search.maven.org/artifact/org.webjars/swagger-ui/4.13.2/pom) | [mvn jdk8](swagger-ui-4.13.2.buildspec) | [result](swagger-ui-4.13.2.buildinfo): [2 :heavy_check_mark: ](swagger-ui-4.13.2.buildcompare) | 3.5M |
 | [4.11.1](https://search.maven.org/artifact/org.webjars/swagger-ui/4.11.1/pom) | [mvn jdk8](swagger-ui-4.11.1.buildspec) | [result](swagger-ui-4.11.1.buildinfo): [2 :heavy_check_mark: ](swagger-ui-4.11.1.buildcompare) | 3.6M |
 | [4.10.3](https://search.maven.org/artifact/org.webjars/swagger-ui/4.10.3/pom) | [mvn jdk8](swagger-ui-4.10.3.buildspec) | [result](swagger-ui-4.10.3.buildinfo): [2 :heavy_check_mark: ](swagger-ui-4.10.3.buildcompare) | 3.5M |
 | [4.9.1](https://search.maven.org/artifact/org.webjars/swagger-ui/4.9.1/pom) | [mvn jdk8](swagger-ui-4.9.1.buildspec) | [result](swagger-ui-4.9.1.buildinfo): [2 :heavy_check_mark: ](swagger-ui-4.9.1.buildcompare) | 3.3M |
