@@ -163,11 +163,22 @@ rebuildToolMvn() {
   #local mvn_rebuild="${command} -V -e artifact:compare -Dbuildinfo.reproducible"
   local mvn_rebuild="${command} -V -e org.apache.maven.plugins:maven-artifact-plugin:3.3.0:compare -Dbuildinfo.reproducible"
 
-  # by default, build with Docker
-  # TODO: on parameter, use instead mvnBuildLocal after selecting JDK
-  #   jenv shell ${jdk}
-  #   sdk use java ${jdk}
-  mvnBuildDocker "${mvn_rebuild}" || fatal "failed to build"
+  if [[ "${command}" == SHELL* ]]
+  then
+    # open a shell to do manual rebuild
+    echo
+    mvn -v
+    echo
+    echo "opening interactive shell: please run rebuild with required JDK then exit to continue:"
+    echo -e "    \033[1m$(echo "${mvn_rebuild}" | cut -c 6-)\033[0m"
+    ${SHELL} -i
+  else
+    # by default, build with Docker
+    # TODO: on parameter, use instead mvnBuildLocal after selecting JDK
+    #   jenv shell ${jdk}
+    #   sdk use java ${jdk}
+    mvnBuildDocker "${mvn_rebuild}" || fatal "failed to build"
+  fi
 
   dos2unix ${buildinfo} || fatal "failed to convert buildinfo newlines"
   cp ${buildinfo} ../.. || fatal "failed to copy buildinfo file"

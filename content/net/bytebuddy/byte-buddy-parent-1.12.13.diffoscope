@@ -1,0 +1,1300 @@
+1 /        4 target/reference/byte-buddy-dep-1.12.13.jar byte-buddy-dep/target/byte-buddy-dep-1.12.13.jar
+--- target/reference/byte-buddy-dep-1.12.13.jar
++++ byte-buddy-dep/target/byte-buddy-dep-1.12.13.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 3655877 bytes, number of entries: 2649
+│ +Zip file size: 3655803 bytes, number of entries: 2649
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  -rw-r--r--  2.0 unx       82 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 net/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 net/bytebuddy/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 net/bytebuddy/agent/
+│ @@ -1163,33 +1163,33 @@
+│  -rw-r--r--  2.0 unx     2903 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$Compound.class
+│  -rw-r--r--  2.0 unx     1947 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForClassLoader$BootLoaderProxyCreationAction.class
+│  -rw-r--r--  2.0 unx     2388 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForClassLoader$WeaklyReferenced.class
+│ --rw-r--r--  2.0 unx     7064 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForClassLoader.class
+│ --rw-r--r--  2.0 unx     2452 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForFolder.class
+│ +-rw-r--r--  2.0 unx     7062 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForClassLoader.class
+│ +-rw-r--r--  2.0 unx     2450 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForFolder.class
+│  -rw-r--r--  2.0 unx     2378 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation$ClassLoadingDelegate$Default$BootLoaderProxyCreationAction.class
+│  -rw-r--r--  2.0 unx     2861 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation$ClassLoadingDelegate$Default.class
+│  -rw-r--r--  2.0 unx     4062 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation$ClassLoadingDelegate$Explicit.class
+│  -rw-r--r--  2.0 unx     3435 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation$ClassLoadingDelegate$ForDelegatingClassLoader$Dispatcher$CreationAction.class
+│  -rw-r--r--  2.0 unx      950 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation$ClassLoadingDelegate$ForDelegatingClassLoader$Dispatcher$Initializable.class
+│  -rw-r--r--  2.0 unx     4523 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation$ClassLoadingDelegate$ForDelegatingClassLoader$Dispatcher$Resolved.class
+│  -rw-r--r--  2.0 unx     2388 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation$ClassLoadingDelegate$ForDelegatingClassLoader$Dispatcher$Unresolved.class
+│  -rw-r--r--  2.0 unx     1420 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation$ClassLoadingDelegate$ForDelegatingClassLoader$Dispatcher.class
+│  -rw-r--r--  2.0 unx     4649 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation$ClassLoadingDelegate$ForDelegatingClassLoader.class
+│  -rw-r--r--  2.0 unx     1053 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation$ClassLoadingDelegate.class
+│  -rw-r--r--  2.0 unx     1129 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation$Dispatcher.class
+│  -rw-r--r--  2.0 unx     2707 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation$ExtractionClassFileTransformer.class
+│ --rw-r--r--  2.0 unx     7795 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation.class
+│ --rw-r--r--  2.0 unx     4953 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForJarFile.class
+│ +-rw-r--r--  2.0 unx     7800 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation.class
+│ +-rw-r--r--  2.0 unx     4951 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForJarFile.class
+│  -rw-r--r--  2.0 unx     2843 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForModule$WeaklyReferenced.class
+│ --rw-r--r--  2.0 unx     5320 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForModule.class
+│ --rw-r--r--  2.0 unx     6094 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForModuleFile.class
+│ +-rw-r--r--  2.0 unx     5318 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForModule.class
+│ +-rw-r--r--  2.0 unx     6092 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForModuleFile.class
+│  -rw-r--r--  2.0 unx     1845 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForUrl$ClassLoaderCreationAction.class
+│  -rw-r--r--  2.0 unx     3510 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$ForUrl.class
+│  -rw-r--r--  2.0 unx     1571 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/ClassFileLocator$NoOp.class
+│ @@ -1253,15 +1253,15 @@
+│  -rw-r--r--  2.0 unx    23787 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/DynamicType$Builder.class
+│  -rw-r--r--  2.0 unx     3060 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/DynamicType$Default$Loaded.class
+│  -rw-r--r--  2.0 unx     5179 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/DynamicType$Default$Unloaded.class
+│ --rw-r--r--  2.0 unx    10625 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/DynamicType$Default.class
+│ +-rw-r--r--  2.0 unx    10587 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/DynamicType$Default.class
+│  -rw-r--r--  2.0 unx      572 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/DynamicType$Loaded.class
+│  -rw-r--r--  2.0 unx     1327 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/DynamicType$Unloaded.class
+│  -rw-r--r--  2.0 unx     1376 b- defN 80-000-00 04:08 net/bytebuddy/dynamic/DynamicType.class
+│ @@ -2644,8 +2644,8 @@
+│  -rw-r--r--  2.0 unx      384 b- defN 80-000-00 04:08 net/bytebuddy/utility/visitor/package-info.class
+│  -rw-r--r--  2.0 unx    51956 b- defN 80-000-00 04:08 META-INF/maven/net.bytebuddy/byte-buddy-dep/pom.xml
+│  -rw-r--r--  2.0 unx       64 b- defN 80-000-00 04:08 META-INF/maven/net.bytebuddy/byte-buddy-dep/pom.properties
+│ -2649 files, 8948349 bytes uncompressed, 3058647 bytes compressed:  65.8%
+│ +2649 files, 8948306 bytes uncompressed, 3058573 bytes compressed:  65.8%
+├── net/bytebuddy/dynamic/ClassFileLocator$ForClassLoader.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -633,15 +633,15 @@
+│ │          Start  Length  Slot  Name   Signature
+│ │              0       1     0  this   Lnet/bytebuddy/dynamic/ClassFileLocator$ForClassLoader;
+│ │  
+│ │    protected static net.bytebuddy.dynamic.ClassFileLocator$Resolution locate(java.lang.ClassLoader, java.lang.String) throws java.io.IOException;
+│ │      descriptor: (Ljava/lang/ClassLoader;Ljava/lang/String;)Lnet/bytebuddy/dynamic/ClassFileLocator$Resolution;
+│ │      flags: (0x000c) ACC_PROTECTED, ACC_STATIC
+│ │      Code:
+│ │ -      stack=5, locals=6, args_size=2
+│ │ +      stack=5, locals=5, args_size=2
+│ │           0: aload_0
+│ │           1: new           #16                 // class java/lang/StringBuilder
+│ │           4: dup
+│ │           5: invokespecial #17                 // Method java/lang/StringBuilder."<init>":()V
+│ │           8: aload_1
+│ │           9: bipush        46
+│ │          11: bipush        47
+│ │ @@ -649,55 +649,54 @@
+│ │          16: invokevirtual #19                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │          19: ldc           #37                 // String .class
+│ │          21: invokevirtual #19                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │          24: invokevirtual #21                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+│ │          27: invokevirtual #38                 // Method java/lang/ClassLoader.getResourceAsStream:(Ljava/lang/String;)Ljava/io/InputStream;
+│ │          30: astore_2
+│ │          31: aload_2
+│ │ -        32: ifnull        71
+│ │ +        32: ifnull        65
+│ │          35: new           #39                 // class net/bytebuddy/dynamic/ClassFileLocator$Resolution$Explicit
+│ │          38: dup
+│ │          39: getstatic     #40                 // Field net/bytebuddy/utility/StreamDrainer.DEFAULT:Lnet/bytebuddy/utility/StreamDrainer;
+│ │          42: aload_2
+│ │          43: invokevirtual #41                 // Method net/bytebuddy/utility/StreamDrainer.drain:(Ljava/io/InputStream;)[B
+│ │          46: invokespecial #42                 // Method net/bytebuddy/dynamic/ClassFileLocator$Resolution$Explicit."<init>":([B)V
+│ │          49: astore_3
+│ │ -        50: jsr           63
+│ │ -        53: aload_3
+│ │ -        54: areturn
+│ │ -        55: astore        4
+│ │ -        57: jsr           63
+│ │ -        60: aload         4
+│ │ -        62: athrow
+│ │ -        63: astore        5
+│ │ -        65: aload_2
+│ │ -        66: invokevirtual #43                 // Method java/io/InputStream.close:()V
+│ │ -        69: ret           5
+│ │ -        71: new           #44                 // class net/bytebuddy/dynamic/ClassFileLocator$Resolution$Illegal
+│ │ -        74: dup
+│ │ -        75: aload_1
+│ │ -        76: invokespecial #45                 // Method net/bytebuddy/dynamic/ClassFileLocator$Resolution$Illegal."<init>":(Ljava/lang/String;)V
+│ │ -        79: areturn
+│ │ +        50: aload_2
+│ │ +        51: invokevirtual #43                 // Method java/io/InputStream.close:()V
+│ │ +        54: aload_3
+│ │ +        55: areturn
+│ │ +        56: astore        4
+│ │ +        58: aload_2
+│ │ +        59: invokevirtual #43                 // Method java/io/InputStream.close:()V
+│ │ +        62: aload         4
+│ │ +        64: athrow
+│ │ +        65: new           #44                 // class net/bytebuddy/dynamic/ClassFileLocator$Resolution$Illegal
+│ │ +        68: dup
+│ │ +        69: aload_1
+│ │ +        70: invokespecial #45                 // Method net/bytebuddy/dynamic/ClassFileLocator$Resolution$Illegal."<init>":(Ljava/lang/String;)V
+│ │ +        73: areturn
+│ │        Exception table:
+│ │           from    to  target type
+│ │ -            35    53    55   any
+│ │ -            55    60    55   any
+│ │ +            35    50    56   any
+│ │ +            56    58    56   any
+│ │        LineNumberTable:
+│ │          line 453: 0
+│ │          line 454: 31
+│ │          line 456: 35
+│ │ -        line 458: 55
+│ │ -        line 459: 60
+│ │ -        line 458: 65
+│ │ -        line 461: 71
+│ │ +        line 458: 50
+│ │ +        line 456: 54
+│ │ +        line 458: 56
+│ │ +        line 459: 62
+│ │ +        line 461: 65
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │ -            0      80     0 classLoader   Ljava/lang/ClassLoader;
+│ │ -            0      80     1  name   Ljava/lang/String;
+│ │ -           31      49     2 inputStream   Ljava/io/InputStream;
+│ │ +            0      74     0 classLoader   Ljava/lang/ClassLoader;
+│ │ +            0      74     1  name   Ljava/lang/String;
+│ │ +           31      43     2 inputStream   Ljava/io/InputStream;
+│ │      Exceptions:
+│ │        throws java.io.IOException
+│ │  
+│ │    static {};
+│ │      descriptor: ()V
+│ │      flags: (0x0008) ACC_STATIC
+│ │      Code:
+├── net/bytebuddy/dynamic/ClassFileLocator$ForFolder.class
+...
+├── net/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation.class
+...
+├── net/bytebuddy/dynamic/ClassFileLocator$ForJarFile.class
+...
+├── net/bytebuddy/dynamic/ClassFileLocator$ForModule.class
+...
+├── net/bytebuddy/dynamic/ClassFileLocator$ForModuleFile.class
+...
+├── net/bytebuddy/dynamic/DynamicType$Default.class
+...
+
+2 /        4 target/reference/byte-buddy-1.12.13.jar byte-buddy/target/byte-buddy-1.12.13.jar
+--- target/reference/byte-buddy-1.12.13.jar
++++ byte-buddy/target/byte-buddy-1.12.13.jar
+├── zipinfo {}
+│ @@ -1,2661 +1,2661 @@
+│ -Zip file size: 3886571 bytes, number of entries: 2705
+│ --rw----     2.0 fat     2613 bX defN 79-Nov-30 04:08 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 META-INF/
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 META-INF/licenses/
+│ --rw----     2.0 fat     1567 bX defN 79-Nov-30 04:08 META-INF/licenses/ASM
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 META-INF/versions/
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 META-INF/versions/9/
+│ --rw----     2.0 fat     2071 bX defN 79-Nov-30 04:08 META-INF/versions/9/module-info.class
+...
+│ +Zip file size: 3886497 bytes, number of entries: 2705
+│ +-rw----     2.0 fat     2613 bX defN 79-Nov-30 03:08 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 03:08 META-INF/
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 03:08 META-INF/licenses/
+│ +-rw----     2.0 fat     1567 bX defN 79-Nov-30 03:08 META-INF/licenses/ASM
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 03:08 META-INF/versions/
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 03:08 META-INF/versions/9/
+│ +-rw----     2.0 fat     2071 bX defN 79-Nov-30 03:08 META-INF/versions/9/module-info.class
+...
+│ +-rw----     2.0 fat    12598 bX defN 79-Nov-30 03:08 net/bytebuddy/utility/visitor/StackAwareMethodVisitor.class
+│ +-rw----     2.0 fat      384 bX defN 79-Nov-30 03:08 net/bytebuddy/utility/visitor/package-info.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/
+│  -rw----     2.0 fat     1998 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/AnnotationVisitor.class
+│  -rw----     2.0 fat     8450 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/AnnotationWriter.class
+│  -rw----     2.0 fat     1531 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/Attribute$Set.class
+│  -rw----     2.0 fat     4088 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/Attribute.class
+│  -rw----     2.0 fat     4734 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/ByteVector.class
+│ @@ -2699,9 +2699,9 @@
+│  -rw----     2.0 fat     7023 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/commons/MethodRemapper.class
+│  -rw----     2.0 fat     3136 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/commons/ModuleHashesAttribute.class
+│  -rw----     2.0 fat     2421 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/commons/ModuleRemapper.class
+│  -rw----     2.0 fat     2438 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/commons/RecordComponentRemapper.class
+│  -rw----     2.0 fat     6597 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/commons/Remapper.class
+│  -rw----     2.0 fat     3760 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/commons/SignatureRemapper.class
+│  -rw----     2.0 fat     2151 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/commons/SimpleRemapper.class
+│ --rw----     2.0 fat    10293 bX defN 79-Nov-30 04:08 META-INF/LICENSE
+│ -2705 files, 9215768 bytes uncompressed, 3189571 bytes compressed:  65.4%
+│ +-rw----     2.0 fat    10293 bX defN 79-Nov-30 03:08 META-INF/LICENSE
+│ +2705 files, 9215725 bytes uncompressed, 3189497 bytes compressed:  65.4%
+├── net/bytebuddy/dynamic/ClassFileLocator$ForClassLoader.class
+...
+├── net/bytebuddy/dynamic/ClassFileLocator$ForFolder.class
+...
+├── net/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation.class
+...
+├── net/bytebuddy/dynamic/ClassFileLocator$ForJarFile.class
+...
+├── net/bytebuddy/dynamic/ClassFileLocator$ForModule.class
+...
+├── net/bytebuddy/dynamic/ClassFileLocator$ForModuleFile.class
+...
+├── net/bytebuddy/dynamic/DynamicType$Default.class
+...
+
+3 /        4 target/reference/byte-buddy-1.12.13-sources.jar byte-buddy/target/byte-buddy-1.12.13-sources.jar
+--- target/reference/byte-buddy-1.12.13-sources.jar
++++ byte-buddy/target/byte-buddy-1.12.13-sources.jar
+│┄ Archive contents identical but files differ, possibly due to different compression levels. Falling back to binary comparison.
+├── zipinfo {}
+│ @@ -1,369 +1,369 @@
+│  Zip file size: 1337062 bytes, number of entries: 413
+│ --rw----     2.0 fat       64 bX defN 79-Nov-30 04:08 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 net/
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 net/bytebuddy/
+│ --rw----     2.0 fat    91934 bX defN 79-Nov-30 04:08 net/bytebuddy/ByteBuddy.java
+...
+│ --rw----     2.0 fat      783 bX defN 79-Nov-30 04:08 net/bytebuddy/utility/visitor/package-info.java
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 META-INF/
+│ --rw----     2.0 fat      598 bX defN 79-Nov-30 04:08 META-INF/NOTICE
+│ --rw----     2.0 fat     2112 bX defN 79-Nov-30 04:08 net/bytebuddy/build/CachedReturnPlugin$Advice$Object.class
+│ --rw----     2.0 fat     1914 bX defN 79-Nov-30 04:08 net/bytebuddy/build/CachedReturnPlugin$Advice$boolean.class
+│ --rw----     2.0 fat     1889 bX defN 79-Nov-30 04:08 net/bytebuddy/build/CachedReturnPlugin$Advice$byte.class
+│ --rw----     2.0 fat     1889 bX defN 79-Nov-30 04:08 net/bytebuddy/build/CachedReturnPlugin$Advice$char.class
+│ --rw----     2.0 fat     1897 bX defN 79-Nov-30 04:08 net/bytebuddy/build/CachedReturnPlugin$Advice$double.class
+│ --rw----     2.0 fat     1894 bX defN 79-Nov-30 04:08 net/bytebuddy/build/CachedReturnPlugin$Advice$float.class
+│ --rw----     2.0 fat     1886 bX defN 79-Nov-30 04:08 net/bytebuddy/build/CachedReturnPlugin$Advice$int.class
+│ --rw----     2.0 fat     1891 bX defN 79-Nov-30 04:08 net/bytebuddy/build/CachedReturnPlugin$Advice$long.class
+│ --rw----     2.0 fat     1892 bX defN 79-Nov-30 04:08 net/bytebuddy/build/CachedReturnPlugin$Advice$short.class
+│ +-rw----     2.0 fat       64 bX defN 79-Nov-30 03:08 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 03:08 net/
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 03:08 net/bytebuddy/
+│ +-rw----     2.0 fat    91934 bX defN 79-Nov-30 03:08 net/bytebuddy/ByteBuddy.java
+│ +-rw----     2.0 fat    22473 bX defN 79-Nov-30 03:08 net/bytebuddy/ClassFileVersion.java
+...
+│ +-rw----     2.0 fat      783 bX defN 79-Nov-30 03:08 net/bytebuddy/utility/visitor/package-info.java
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 03:08 META-INF/
+│ +-rw----     2.0 fat      598 bX defN 79-Nov-30 03:08 META-INF/NOTICE
+│ +-rw----     2.0 fat     2112 bX defN 79-Nov-30 03:08 net/bytebuddy/build/CachedReturnPlugin$Advice$Object.class
+│ +-rw----     2.0 fat     1914 bX defN 79-Nov-30 03:08 net/bytebuddy/build/CachedReturnPlugin$Advice$boolean.class
+│ +-rw----     2.0 fat     1889 bX defN 79-Nov-30 03:08 net/bytebuddy/build/CachedReturnPlugin$Advice$byte.class
+│ +-rw----     2.0 fat     1889 bX defN 79-Nov-30 03:08 net/bytebuddy/build/CachedReturnPlugin$Advice$char.class
+│ +-rw----     2.0 fat     1897 bX defN 79-Nov-30 03:08 net/bytebuddy/build/CachedReturnPlugin$Advice$double.class
+│ +-rw----     2.0 fat     1894 bX defN 79-Nov-30 03:08 net/bytebuddy/build/CachedReturnPlugin$Advice$float.class
+│ +-rw----     2.0 fat     1886 bX defN 79-Nov-30 03:08 net/bytebuddy/build/CachedReturnPlugin$Advice$int.class
+│ +-rw----     2.0 fat     1891 bX defN 79-Nov-30 03:08 net/bytebuddy/build/CachedReturnPlugin$Advice$long.class
+│ +-rw----     2.0 fat     1892 bX defN 79-Nov-30 03:08 net/bytebuddy/build/CachedReturnPlugin$Advice$short.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/
+│  -rw----     2.0 fat     6260 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/AnnotationVisitor.java
+│  -rw----     2.0 fat    27713 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/AnnotationWriter.java
+│  -rw----     2.0 fat    16848 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/Attribute.java
+│  -rw----     2.0 fat    13503 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/ByteVector.java
+│  -rw----     2.0 fat   171216 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/ClassReader.java
+│ @@ -407,9 +407,9 @@
+│  -rw----     2.0 fat    11098 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/commons/MethodRemapper.java
+│  -rw----     2.0 fat     5084 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/commons/ModuleHashesAttribute.java
+│  -rw----     2.0 fat     4858 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/commons/ModuleRemapper.java
+│  -rw----     2.0 fat     5417 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/commons/RecordComponentRemapper.java
+│  -rw----     2.0 fat    14562 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/commons/Remapper.java
+│  -rw----     2.0 fat     5713 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/commons/SignatureRemapper.java
+│  -rw----     2.0 fat     4367 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/commons/SimpleRemapper.java
+│ --rw----     2.0 fat    10141 bX defN 79-Nov-30 04:08 META-INF/LICENSE
+│ +-rw----     2.0 fat    10141 bX defN 79-Nov-30 03:08 META-INF/LICENSE
+│  413 files, 7974200 bytes uncompressed, 1251794 bytes compressed:  84.3%
+
+4 /        4 target/reference/byte-buddy-benchmark-1.12.13.jar byte-buddy-benchmark/target/byte-buddy-benchmark-1.12.13.jar
+--- target/reference/byte-buddy-benchmark-1.12.13.jar
++++ byte-buddy-benchmark/target/byte-buddy-benchmark-1.12.13.jar
+├── zipinfo {}
+│ @@ -1,2810 +1,2810 @@
+│ -Zip file size: 7887900 bytes, number of entries: 5131
+│ --rw----     2.0 fat      116 bX defN 79-Nov-30 04:08 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 META-INF/
+│ --rw----     2.0 fat    10823 bX defN 79-Nov-30 04:08 META-INF/BenchmarkList
+│ --rw----     2.0 fat     3727 bX defN 79-Nov-30 04:08 META-INF/CompilerHints
+...
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 META-INF/maven/net.bytebuddy/byte-buddy-dep/
+│ --rw----     2.0 fat    51956 bX defN 79-Nov-30 04:08 META-INF/maven/net.bytebuddy/byte-buddy-dep/pom.xml
+│ --rw----     2.0 fat       64 bX defN 79-Nov-30 04:08 META-INF/maven/net.bytebuddy/byte-buddy-dep/pom.properties
+│ +Zip file size: 7887826 bytes, number of entries: 5131
+│ +-rw----     2.0 fat      116 bX defN 79-Nov-30 03:08 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 03:08 META-INF/
+│ +-rw----     2.0 fat    10823 bX defN 79-Nov-30 03:08 META-INF/BenchmarkList
+│ +-rw----     2.0 fat     3727 bX defN 79-Nov-30 03:08 META-INF/CompilerHints
+...
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 03:08 META-INF/maven/net.bytebuddy/byte-buddy-dep/
+│ +-rw----     2.0 fat    51956 bX defN 79-Nov-30 03:08 META-INF/maven/net.bytebuddy/byte-buddy-dep/pom.xml
+│ +-rw----     2.0 fat       64 bX defN 79-Nov-30 03:08 META-INF/maven/net.bytebuddy/byte-buddy-dep/pom.properties
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/objectweb/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/objectweb/asm/
+│  -rw----     2.0 fat     1974 bl defN 80-Feb-01 00:00 org/objectweb/asm/AnnotationVisitor.class
+│  -rw----     2.0 fat     8250 bl defN 80-Feb-01 00:00 org/objectweb/asm/AnnotationWriter.class
+│  -rw----     2.0 fat     1499 bl defN 80-Feb-01 00:00 org/objectweb/asm/Attribute$Set.class
+│  -rw----     2.0 fat     3972 bl defN 80-Feb-01 00:00 org/objectweb/asm/Attribute.class
+│ @@ -5126,8 +5126,8 @@
+│  -rw----     2.0 fat    19944 bl defN 13-Apr-02 21:25 META-INF/LICENSE.txt
+│  -rw----     2.0 fat     3915 bl defN 13-Apr-02 21:25 META-INF/NOTICE.txt
+│  -rwx---     2.0 fat        0 bl defN 13-Apr-02 21:21 META-INF/maven/org.apache.commons/
+│  -rwx---     2.0 fat        0 bl defN 13-Apr-02 21:21 META-INF/maven/org.apache.commons/commons-math3/
+│  -rw----     2.0 fat    17431 bl defN 13-Apr-02 21:21 META-INF/maven/org.apache.commons/commons-math3/pom.xml
+│  -rw----     2.0 fat      115 bl defN 13-Apr-02 21:28 META-INF/maven/org.apache.commons/commons-math3/pom.properties
+│  -rw----     2.0 fat    31640 bl defN 19-Aug-12 10:29 META-INF/LICENSE
+│ -5131 files, 17735715 bytes uncompressed, 6697238 bytes compressed:  62.2%
+│ +5131 files, 17735672 bytes uncompressed, 6697164 bytes compressed:  62.2%
+├── net/bytebuddy/dynamic/ClassFileLocator$ForClassLoader.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -633,15 +633,15 @@
+│ │          Start  Length  Slot  Name   Signature
+│ │              0       1     0  this   Lnet/bytebuddy/dynamic/ClassFileLocator$ForClassLoader;
+│ │  
+│ │    protected static net.bytebuddy.dynamic.ClassFileLocator$Resolution locate(java.lang.ClassLoader, java.lang.String) throws java.io.IOException;
+│ │      descriptor: (Ljava/lang/ClassLoader;Ljava/lang/String;)Lnet/bytebuddy/dynamic/ClassFileLocator$Resolution;
+│ │      flags: (0x000c) ACC_PROTECTED, ACC_STATIC
+│ │      Code:
+│ │ -      stack=5, locals=6, args_size=2
+│ │ +      stack=5, locals=5, args_size=2
+│ │           0: aload_0
+│ │           1: new           #16                 // class java/lang/StringBuilder
+│ │           4: dup
+│ │           5: invokespecial #17                 // Method java/lang/StringBuilder."<init>":()V
+│ │           8: aload_1
+│ │           9: bipush        46
+│ │          11: bipush        47
+│ │ @@ -649,55 +649,54 @@
+│ │          16: invokevirtual #19                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │          19: ldc           #37                 // String .class
+│ │          21: invokevirtual #19                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │          24: invokevirtual #21                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+│ │          27: invokevirtual #38                 // Method java/lang/ClassLoader.getResourceAsStream:(Ljava/lang/String;)Ljava/io/InputStream;
+│ │          30: astore_2
+│ │          31: aload_2
+│ │ -        32: ifnull        71
+│ │ +        32: ifnull        65
+│ │          35: new           #39                 // class net/bytebuddy/dynamic/ClassFileLocator$Resolution$Explicit
+│ │          38: dup
+│ │          39: getstatic     #40                 // Field net/bytebuddy/utility/StreamDrainer.DEFAULT:Lnet/bytebuddy/utility/StreamDrainer;
+│ │          42: aload_2
+│ │          43: invokevirtual #41                 // Method net/bytebuddy/utility/StreamDrainer.drain:(Ljava/io/InputStream;)[B
+│ │          46: invokespecial #42                 // Method net/bytebuddy/dynamic/ClassFileLocator$Resolution$Explicit."<init>":([B)V
+│ │          49: astore_3
+│ │ -        50: jsr           63
+│ │ -        53: aload_3
+│ │ -        54: areturn
+│ │ -        55: astore        4
+│ │ -        57: jsr           63
+│ │ -        60: aload         4
+│ │ -        62: athrow
+│ │ -        63: astore        5
+│ │ -        65: aload_2
+│ │ -        66: invokevirtual #43                 // Method java/io/InputStream.close:()V
+│ │ -        69: ret           5
+│ │ -        71: new           #44                 // class net/bytebuddy/dynamic/ClassFileLocator$Resolution$Illegal
+│ │ -        74: dup
+│ │ -        75: aload_1
+│ │ -        76: invokespecial #45                 // Method net/bytebuddy/dynamic/ClassFileLocator$Resolution$Illegal."<init>":(Ljava/lang/String;)V
+│ │ -        79: areturn
+│ │ +        50: aload_2
+│ │ +        51: invokevirtual #43                 // Method java/io/InputStream.close:()V
+│ │ +        54: aload_3
+│ │ +        55: areturn
+│ │ +        56: astore        4
+│ │ +        58: aload_2
+│ │ +        59: invokevirtual #43                 // Method java/io/InputStream.close:()V
+│ │ +        62: aload         4
+│ │ +        64: athrow
+│ │ +        65: new           #44                 // class net/bytebuddy/dynamic/ClassFileLocator$Resolution$Illegal
+│ │ +        68: dup
+│ │ +        69: aload_1
+│ │ +        70: invokespecial #45                 // Method net/bytebuddy/dynamic/ClassFileLocator$Resolution$Illegal."<init>":(Ljava/lang/String;)V
+│ │ +        73: areturn
+│ │        Exception table:
+│ │           from    to  target type
+│ │ -            35    53    55   any
+│ │ -            55    60    55   any
+│ │ +            35    50    56   any
+│ │ +            56    58    56   any
+│ │        LineNumberTable:
+│ │          line 453: 0
+│ │          line 454: 31
+│ │          line 456: 35
+│ │ -        line 458: 55
+│ │ -        line 459: 60
+│ │ -        line 458: 65
+│ │ -        line 461: 71
+│ │ +        line 458: 50
+│ │ +        line 456: 54
+│ │ +        line 458: 56
+│ │ +        line 459: 62
+│ │ +        line 461: 65
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │ -            0      80     0 classLoader   Ljava/lang/ClassLoader;
+│ │ -            0      80     1  name   Ljava/lang/String;
+│ │ -           31      49     2 inputStream   Ljava/io/InputStream;
+│ │ +            0      74     0 classLoader   Ljava/lang/ClassLoader;
+│ │ +            0      74     1  name   Ljava/lang/String;
+│ │ +           31      43     2 inputStream   Ljava/io/InputStream;
+│ │      Exceptions:
+│ │        throws java.io.IOException
+│ │  
+│ │    static {};
+│ │      descriptor: ()V
+│ │      flags: (0x0008) ACC_STATIC
+│ │      Code:
+├── net/bytebuddy/dynamic/ClassFileLocator$ForFolder.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -157,15 +157,15 @@
+│ │              0      10     0  this   Lnet/bytebuddy/dynamic/ClassFileLocator$ForFolder;
+│ │              0      10     1 folder   Ljava/io/File;
+│ │  
+│ │    public net.bytebuddy.dynamic.ClassFileLocator$Resolution locate(java.lang.String) throws java.io.IOException;
+│ │      descriptor: (Ljava/lang/String;)Lnet/bytebuddy/dynamic/ClassFileLocator$Resolution;
+│ │      flags: (0x0001) ACC_PUBLIC
+│ │      Code:
+│ │ -      stack=7, locals=7, args_size=2
+│ │ +      stack=7, locals=6, args_size=2
+│ │           0: new           #3                  // class java/io/File
+│ │           3: dup
+│ │           4: aload_0
+│ │           5: getfield      #2                  // Field folder:Ljava/io/File;
+│ │           8: new           #4                  // class java/lang/StringBuilder
+│ │          11: dup
+│ │          12: invokespecial #5                  // Method java/lang/StringBuilder."<init>":()V
+│ │ @@ -177,62 +177,61 @@
+│ │          27: ldc           #10                 // String .class
+│ │          29: invokevirtual #8                  // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │          32: invokevirtual #11                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+│ │          35: invokespecial #12                 // Method java/io/File."<init>":(Ljava/io/File;Ljava/lang/String;)V
+│ │          38: astore_2
+│ │          39: aload_2
+│ │          40: invokevirtual #13                 // Method java/io/File.exists:()Z
+│ │ -        43: ifeq          93
+│ │ +        43: ifeq          87
+│ │          46: new           #14                 // class java/io/FileInputStream
+│ │          49: dup
+│ │          50: aload_2
+│ │          51: invokespecial #15                 // Method java/io/FileInputStream."<init>":(Ljava/io/File;)V
+│ │          54: astore_3
+│ │          55: new           #16                 // class net/bytebuddy/dynamic/ClassFileLocator$Resolution$Explicit
+│ │          58: dup
+│ │          59: getstatic     #17                 // Field net/bytebuddy/utility/StreamDrainer.DEFAULT:Lnet/bytebuddy/utility/StreamDrainer;
+│ │          62: aload_3
+│ │          63: invokevirtual #18                 // Method net/bytebuddy/utility/StreamDrainer.drain:(Ljava/io/InputStream;)[B
+│ │          66: invokespecial #19                 // Method net/bytebuddy/dynamic/ClassFileLocator$Resolution$Explicit."<init>":([B)V
+│ │          69: astore        4
+│ │ -        71: jsr           85
+│ │ -        74: aload         4
+│ │ -        76: areturn
+│ │ -        77: astore        5
+│ │ -        79: jsr           85
+│ │ -        82: aload         5
+│ │ -        84: athrow
+│ │ -        85: astore        6
+│ │ -        87: aload_3
+│ │ -        88: invokevirtual #20                 // Method java/io/InputStream.close:()V
+│ │ -        91: ret           6
+│ │ -        93: new           #21                 // class net/bytebuddy/dynamic/ClassFileLocator$Resolution$Illegal
+│ │ -        96: dup
+│ │ -        97: aload_1
+│ │ -        98: invokespecial #22                 // Method net/bytebuddy/dynamic/ClassFileLocator$Resolution$Illegal."<init>":(Ljava/lang/String;)V
+│ │ -       101: areturn
+│ │ +        71: aload_3
+│ │ +        72: invokevirtual #20                 // Method java/io/InputStream.close:()V
+│ │ +        75: aload         4
+│ │ +        77: areturn
+│ │ +        78: astore        5
+│ │ +        80: aload_3
+│ │ +        81: invokevirtual #20                 // Method java/io/InputStream.close:()V
+│ │ +        84: aload         5
+│ │ +        86: athrow
+│ │ +        87: new           #21                 // class net/bytebuddy/dynamic/ClassFileLocator$Resolution$Illegal
+│ │ +        90: dup
+│ │ +        91: aload_1
+│ │ +        92: invokespecial #22                 // Method net/bytebuddy/dynamic/ClassFileLocator$Resolution$Illegal."<init>":(Ljava/lang/String;)V
+│ │ +        95: areturn
+│ │        Exception table:
+│ │           from    to  target type
+│ │ -            55    74    77   any
+│ │ -            77    82    77   any
+│ │ +            55    71    78   any
+│ │ +            78    80    78   any
+│ │        LineNumberTable:
+│ │          line 1080: 0
+│ │          line 1081: 39
+│ │          line 1082: 46
+│ │          line 1084: 55
+│ │ -        line 1086: 77
+│ │ -        line 1087: 82
+│ │ -        line 1086: 87
+│ │ -        line 1089: 93
+│ │ +        line 1086: 71
+│ │ +        line 1084: 75
+│ │ +        line 1086: 78
+│ │ +        line 1087: 84
+│ │ +        line 1089: 87
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │ -           55      38     3 inputStream   Ljava/io/InputStream;
+│ │ -            0     102     0  this   Lnet/bytebuddy/dynamic/ClassFileLocator$ForFolder;
+│ │ -            0     102     1  name   Ljava/lang/String;
+│ │ -           39      63     2  file   Ljava/io/File;
+│ │ +           55      32     3 inputStream   Ljava/io/InputStream;
+│ │ +            0      96     0  this   Lnet/bytebuddy/dynamic/ClassFileLocator$ForFolder;
+│ │ +            0      96     1  name   Ljava/lang/String;
+│ │ +           39      57     2  file   Ljava/io/File;
+│ │      Exceptions:
+│ │        throws java.io.IOException
+│ │  
+│ │    public void close();
+│ │      descriptor: ()V
+│ │      flags: (0x0001) ACC_PUBLIC
+│ │      Code:
+├── net/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -551,15 +551,15 @@
+│ │              0      13     1  type   Ljava/lang/Class<*>;
+│ │      Signature: #111                         // (Ljava/lang/instrument/Instrumentation;Ljava/lang/Class<*>;)Lnet/bytebuddy/dynamic/ClassFileLocator;
+│ │  
+│ │    public net.bytebuddy.dynamic.ClassFileLocator$Resolution locate(java.lang.String);
+│ │      descriptor: (Ljava/lang/String;)Lnet/bytebuddy/dynamic/ClassFileLocator$Resolution;
+│ │      flags: (0x0001) ACC_PUBLIC
+│ │      Code:
+│ │ -      stack=7, locals=7, args_size=2
+│ │ +      stack=7, locals=6, args_size=2
+│ │           0: new           #43                 // class net/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation$ExtractionClassFileTransformer
+│ │           3: dup
+│ │           4: aload_0
+│ │           5: getfield      #17                 // Field classLoadingDelegate:Lnet/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation$ClassLoadingDelegate;
+│ │           8: invokeinterface #44,  1           // InterfaceMethod net/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation$ClassLoadingDelegate.getClassLoader:()Ljava/lang/ClassLoader;
+│ │          13: aload_1
+│ │          14: invokespecial #45                 // Method net/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation$ExtractionClassFileTransformer."<init>":(Ljava/lang/ClassLoader;Ljava/lang/String;)V
+│ │ @@ -594,66 +594,68 @@
+│ │          75: invokespecial #51                 // Method net/bytebuddy/dynamic/ClassFileLocator$Resolution$Illegal."<init>":(Ljava/lang/String;)V
+│ │          78: goto          89
+│ │          81: new           #52                 // class net/bytebuddy/dynamic/ClassFileLocator$Resolution$Explicit
+│ │          84: dup
+│ │          85: aload_3
+│ │          86: invokespecial #53                 // Method net/bytebuddy/dynamic/ClassFileLocator$Resolution$Explicit."<init>":([B)V
+│ │          89: astore        4
+│ │ -        91: jsr           105
+│ │ -        94: aload         4
+│ │ -        96: areturn
+│ │ -        97: astore        5
+│ │ -        99: jsr           105
+│ │ -       102: aload         5
+│ │ -       104: athrow
+│ │ -       105: astore        6
+│ │ +        91: aload_0
+│ │ +        92: getfield      #16                 // Field instrumentation:Ljava/lang/instrument/Instrumentation;
+│ │ +        95: aload_2
+│ │ +        96: invokeinterface #54,  2           // InterfaceMethod java/lang/instrument/Instrumentation.removeTransformer:(Ljava/lang/instrument/ClassFileTransformer;)Z
+│ │ +       101: pop
+│ │ +       102: aload         4
+│ │ +       104: areturn
+│ │ +       105: astore        5
+│ │         107: aload_0
+│ │         108: getfield      #16                 // Field instrumentation:Ljava/lang/instrument/Instrumentation;
+│ │         111: aload_2
+│ │         112: invokeinterface #54,  2           // InterfaceMethod java/lang/instrument/Instrumentation.removeTransformer:(Ljava/lang/instrument/ClassFileTransformer;)Z
+│ │         117: pop
+│ │ -       118: ret           6
+│ │ -       120: astore_2
+│ │ -       121: aload_2
+│ │ -       122: athrow
+│ │ -       123: astore_2
+│ │ -       124: new           #50                 // class net/bytebuddy/dynamic/ClassFileLocator$Resolution$Illegal
+│ │ -       127: dup
+│ │ -       128: aload_1
+│ │ -       129: invokespecial #51                 // Method net/bytebuddy/dynamic/ClassFileLocator$Resolution$Illegal."<init>":(Ljava/lang/String;)V
+│ │ -       132: areturn
+│ │ +       118: aload         5
+│ │ +       120: athrow
+│ │ +       121: astore_2
+│ │ +       122: aload_2
+│ │ +       123: athrow
+│ │ +       124: astore_2
+│ │ +       125: new           #50                 // class net/bytebuddy/dynamic/ClassFileLocator$Resolution$Illegal
+│ │ +       128: dup
+│ │ +       129: aload_1
+│ │ +       130: invokespecial #51                 // Method net/bytebuddy/dynamic/ClassFileLocator$Resolution$Illegal."<init>":(Ljava/lang/String;)V
+│ │ +       133: areturn
+│ │        Exception table:
+│ │           from    to  target type
+│ │ -            32    94    97   any
+│ │ -            97   102    97   any
+│ │ -             0    94   120   Class java/lang/RuntimeException
+│ │ -            97   120   120   Class java/lang/RuntimeException
+│ │ -             0    94   123   Class java/lang/Exception
+│ │ -            97   120   123   Class java/lang/Exception
+│ │ +            32    91   105   any
+│ │ +           105   107   105   any
+│ │ +             0   102   121   Class java/lang/RuntimeException
+│ │ +           105   121   121   Class java/lang/RuntimeException
+│ │ +             0   102   124   Class java/lang/Exception
+│ │ +           105   121   124   Class java/lang/Exception
+│ │        LineNumberTable:
+│ │          line 1295: 0
+│ │          line 1296: 18
+│ │          line 1298: 32
+│ │          line 1299: 61
+│ │          line 1300: 66
+│ │ -        line 1304: 97
+│ │ -        line 1305: 102
+│ │ -        line 1304: 107
+│ │ -        line 1306: 120
+│ │ -        line 1307: 121
+│ │ -        line 1308: 123
+│ │ -        line 1309: 124
+│ │ +        line 1304: 91
+│ │ +        line 1300: 102
+│ │ +        line 1304: 105
+│ │ +        line 1305: 118
+│ │ +        line 1306: 121
+│ │ +        line 1307: 122
+│ │ +        line 1308: 124
+│ │ +        line 1309: 125
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │ -           66      31     3 binaryRepresentation   [B
+│ │ -           18     102     2 classFileTransformer   Lnet/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation$ExtractionClassFileTransformer;
+│ │ -          121       2     2 exception   Ljava/lang/RuntimeException;
+│ │ -          124       9     2 ignored   Ljava/lang/Exception;
+│ │ -            0     133     0  this   Lnet/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation;
+│ │ -            0     133     1  name   Ljava/lang/String;
+│ │ +           66      39     3 binaryRepresentation   [B
+│ │ +           18     103     2 classFileTransformer   Lnet/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation$ExtractionClassFileTransformer;
+│ │ +          122       2     2 exception   Ljava/lang/RuntimeException;
+│ │ +          125       9     2 ignored   Ljava/lang/Exception;
+│ │ +            0     134     0  this   Lnet/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation;
+│ │ +            0     134     1  name   Ljava/lang/String;
+│ │  
+│ │    public void close();
+│ │      descriptor: ()V
+│ │      flags: (0x0001) ACC_PUBLIC
+│ │      Code:
+│ │        stack=0, locals=1, args_size=1
+│ │           0: return
+├── net/bytebuddy/dynamic/ClassFileLocator$ForJarFile.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -472,15 +472,15 @@
+│ │      Exceptions:
+│ │        throws java.io.IOException
+│ │  
+│ │    public net.bytebuddy.dynamic.ClassFileLocator$Resolution locate(java.lang.String) throws java.io.IOException;
+│ │      descriptor: (Ljava/lang/String;)Lnet/bytebuddy/dynamic/ClassFileLocator$Resolution;
+│ │      flags: (0x0001) ACC_PUBLIC
+│ │      Code:
+│ │ -      stack=5, locals=7, args_size=2
+│ │ +      stack=5, locals=6, args_size=2
+│ │           0: aload_0
+│ │           1: getfield      #2                  // Field jarFile:Ljava/util/jar/JarFile;
+│ │           4: new           #35                 // class java/lang/StringBuilder
+│ │           7: dup
+│ │           8: invokespecial #36                 // Method java/lang/StringBuilder."<init>":()V
+│ │          11: aload_1
+│ │          12: bipush        46
+│ │ @@ -507,44 +507,43 @@
+│ │          56: new           #49                 // class net/bytebuddy/dynamic/ClassFileLocator$Resolution$Explicit
+│ │          59: dup
+│ │          60: getstatic     #50                 // Field net/bytebuddy/utility/StreamDrainer.DEFAULT:Lnet/bytebuddy/utility/StreamDrainer;
+│ │          63: aload_3
+│ │          64: invokevirtual #51                 // Method net/bytebuddy/utility/StreamDrainer.drain:(Ljava/io/InputStream;)[B
+│ │          67: invokespecial #52                 // Method net/bytebuddy/dynamic/ClassFileLocator$Resolution$Explicit."<init>":([B)V
+│ │          70: astore        4
+│ │ -        72: jsr           86
+│ │ -        75: aload         4
+│ │ -        77: areturn
+│ │ -        78: astore        5
+│ │ -        80: jsr           86
+│ │ -        83: aload         5
+│ │ -        85: athrow
+│ │ -        86: astore        6
+│ │ -        88: aload_3
+│ │ -        89: invokevirtual #53                 // Method java/io/InputStream.close:()V
+│ │ -        92: ret           6
+│ │ +        72: aload_3
+│ │ +        73: invokevirtual #53                 // Method java/io/InputStream.close:()V
+│ │ +        76: aload         4
+│ │ +        78: areturn
+│ │ +        79: astore        5
+│ │ +        81: aload_3
+│ │ +        82: invokevirtual #53                 // Method java/io/InputStream.close:()V
+│ │ +        85: aload         5
+│ │ +        87: athrow
+│ │        Exception table:
+│ │           from    to  target type
+│ │ -            56    75    78   any
+│ │ -            78    83    78   any
+│ │ +            56    72    79   any
+│ │ +            79    81    79   any
+│ │        LineNumberTable:
+│ │          line 847: 0
+│ │          line 848: 34
+│ │          line 849: 38
+│ │          line 851: 47
+│ │          line 853: 56
+│ │ -        line 855: 78
+│ │ -        line 856: 83
+│ │ -        line 855: 88
+│ │ +        line 855: 72
+│ │ +        line 853: 76
+│ │ +        line 855: 79
+│ │ +        line 856: 85
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │ -           56      38     3 inputStream   Ljava/io/InputStream;
+│ │ -            0      94     0  this   Lnet/bytebuddy/dynamic/ClassFileLocator$ForJarFile;
+│ │ -            0      94     1  name   Ljava/lang/String;
+│ │ -           34      60     2 zipEntry   Ljava/util/zip/ZipEntry;
+│ │ +           56      32     3 inputStream   Ljava/io/InputStream;
+│ │ +            0      88     0  this   Lnet/bytebuddy/dynamic/ClassFileLocator$ForJarFile;
+│ │ +            0      88     1  name   Ljava/lang/String;
+│ │ +           34      54     2 zipEntry   Ljava/util/zip/ZipEntry;
+│ │      Exceptions:
+│ │        throws java.io.IOException
+│ │  
+│ │    public void close() throws java.io.IOException;
+│ │      descriptor: ()V
+│ │      flags: (0x0001) ACC_PUBLIC
+│ │      Code:
+├── net/bytebuddy/dynamic/ClassFileLocator$ForModule.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -439,15 +439,15 @@
+│ │      Exceptions:
+│ │        throws java.io.IOException
+│ │  
+│ │    protected static net.bytebuddy.dynamic.ClassFileLocator$Resolution locate(net.bytebuddy.utility.JavaModule, java.lang.String) throws java.io.IOException;
+│ │      descriptor: (Lnet/bytebuddy/utility/JavaModule;Ljava/lang/String;)Lnet/bytebuddy/dynamic/ClassFileLocator$Resolution;
+│ │      flags: (0x000c) ACC_PROTECTED, ACC_STATIC
+│ │      Code:
+│ │ -      stack=5, locals=6, args_size=2
+│ │ +      stack=5, locals=5, args_size=2
+│ │           0: aload_0
+│ │           1: new           #37                 // class java/lang/StringBuilder
+│ │           4: dup
+│ │           5: invokespecial #38                 // Method java/lang/StringBuilder."<init>":()V
+│ │           8: aload_1
+│ │           9: bipush        46
+│ │          11: bipush        47
+│ │ @@ -455,55 +455,54 @@
+│ │          16: invokevirtual #40                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │          19: ldc           #42                 // String .class
+│ │          21: invokevirtual #40                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │          24: invokevirtual #43                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+│ │          27: invokevirtual #44                 // Method net/bytebuddy/utility/JavaModule.getResourceAsStream:(Ljava/lang/String;)Ljava/io/InputStream;
+│ │          30: astore_2
+│ │          31: aload_2
+│ │ -        32: ifnull        71
+│ │ +        32: ifnull        65
+│ │          35: new           #45                 // class net/bytebuddy/dynamic/ClassFileLocator$Resolution$Explicit
+│ │          38: dup
+│ │          39: getstatic     #46                 // Field net/bytebuddy/utility/StreamDrainer.DEFAULT:Lnet/bytebuddy/utility/StreamDrainer;
+│ │          42: aload_2
+│ │          43: invokevirtual #47                 // Method net/bytebuddy/utility/StreamDrainer.drain:(Ljava/io/InputStream;)[B
+│ │          46: invokespecial #48                 // Method net/bytebuddy/dynamic/ClassFileLocator$Resolution$Explicit."<init>":([B)V
+│ │          49: astore_3
+│ │ -        50: jsr           63
+│ │ -        53: aload_3
+│ │ -        54: areturn
+│ │ -        55: astore        4
+│ │ -        57: jsr           63
+│ │ -        60: aload         4
+│ │ -        62: athrow
+│ │ -        63: astore        5
+│ │ -        65: aload_2
+│ │ -        66: invokevirtual #49                 // Method java/io/InputStream.close:()V
+│ │ -        69: ret           5
+│ │ -        71: new           #50                 // class net/bytebuddy/dynamic/ClassFileLocator$Resolution$Illegal
+│ │ -        74: dup
+│ │ -        75: aload_1
+│ │ -        76: invokespecial #51                 // Method net/bytebuddy/dynamic/ClassFileLocator$Resolution$Illegal."<init>":(Ljava/lang/String;)V
+│ │ -        79: areturn
+│ │ +        50: aload_2
+│ │ +        51: invokevirtual #49                 // Method java/io/InputStream.close:()V
+│ │ +        54: aload_3
+│ │ +        55: areturn
+│ │ +        56: astore        4
+│ │ +        58: aload_2
+│ │ +        59: invokevirtual #49                 // Method java/io/InputStream.close:()V
+│ │ +        62: aload         4
+│ │ +        64: athrow
+│ │ +        65: new           #50                 // class net/bytebuddy/dynamic/ClassFileLocator$Resolution$Illegal
+│ │ +        68: dup
+│ │ +        69: aload_1
+│ │ +        70: invokespecial #51                 // Method net/bytebuddy/dynamic/ClassFileLocator$Resolution$Illegal."<init>":(Ljava/lang/String;)V
+│ │ +        73: areturn
+│ │        Exception table:
+│ │           from    to  target type
+│ │ -            35    53    55   any
+│ │ -            55    60    55   any
+│ │ +            35    50    56   any
+│ │ +            56    58    56   any
+│ │        LineNumberTable:
+│ │          line 646: 0
+│ │          line 647: 31
+│ │          line 649: 35
+│ │ -        line 651: 55
+│ │ -        line 652: 60
+│ │ -        line 651: 65
+│ │ -        line 654: 71
+│ │ +        line 651: 50
+│ │ +        line 649: 54
+│ │ +        line 651: 56
+│ │ +        line 652: 62
+│ │ +        line 654: 65
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │ -            0      80     0 module   Lnet/bytebuddy/utility/JavaModule;
+│ │ -            0      80     1 typeName   Ljava/lang/String;
+│ │ -           31      49     2 inputStream   Ljava/io/InputStream;
+│ │ +            0      74     0 module   Lnet/bytebuddy/utility/JavaModule;
+│ │ +            0      74     1 typeName   Ljava/lang/String;
+│ │ +           31      43     2 inputStream   Ljava/io/InputStream;
+│ │      Exceptions:
+│ │        throws java.io.IOException
+│ │  
+│ │    public void close();
+│ │      descriptor: ()V
+│ │      flags: (0x0001) ACC_PUBLIC
+│ │      Code:
+├── net/bytebuddy/dynamic/ClassFileLocator$ForModuleFile.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -696,15 +696,15 @@
+│ │      Exceptions:
+│ │        throws java.io.IOException
+│ │  
+│ │    public net.bytebuddy.dynamic.ClassFileLocator$Resolution locate(java.lang.String) throws java.io.IOException;
+│ │      descriptor: (Ljava/lang/String;)Lnet/bytebuddy/dynamic/ClassFileLocator$Resolution;
+│ │      flags: (0x0001) ACC_PUBLIC
+│ │      Code:
+│ │ -      stack=5, locals=7, args_size=2
+│ │ +      stack=5, locals=6, args_size=2
+│ │           0: aload_0
+│ │           1: getfield      #2                  // Field zipFile:Ljava/util/zip/ZipFile;
+│ │           4: new           #15                 // class java/lang/StringBuilder
+│ │           7: dup
+│ │           8: invokespecial #16                 // Method java/lang/StringBuilder."<init>":()V
+│ │          11: ldc           #52                 // String classes/
+│ │          13: invokevirtual #18                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │ @@ -733,44 +733,43 @@
+│ │          61: new           #59                 // class net/bytebuddy/dynamic/ClassFileLocator$Resolution$Explicit
+│ │          64: dup
+│ │          65: getstatic     #60                 // Field net/bytebuddy/utility/StreamDrainer.DEFAULT:Lnet/bytebuddy/utility/StreamDrainer;
+│ │          68: aload_3
+│ │          69: invokevirtual #61                 // Method net/bytebuddy/utility/StreamDrainer.drain:(Ljava/io/InputStream;)[B
+│ │          72: invokespecial #62                 // Method net/bytebuddy/dynamic/ClassFileLocator$Resolution$Explicit."<init>":([B)V
+│ │          75: astore        4
+│ │ -        77: jsr           91
+│ │ -        80: aload         4
+│ │ -        82: areturn
+│ │ -        83: astore        5
+│ │ -        85: jsr           91
+│ │ -        88: aload         5
+│ │ -        90: athrow
+│ │ -        91: astore        6
+│ │ -        93: aload_3
+│ │ -        94: invokevirtual #63                 // Method java/io/InputStream.close:()V
+│ │ -        97: ret           6
+│ │ +        77: aload_3
+│ │ +        78: invokevirtual #63                 // Method java/io/InputStream.close:()V
+│ │ +        81: aload         4
+│ │ +        83: areturn
+│ │ +        84: astore        5
+│ │ +        86: aload_3
+│ │ +        87: invokevirtual #63                 // Method java/io/InputStream.close:()V
+│ │ +        90: aload         5
+│ │ +        92: athrow
+│ │        Exception table:
+│ │           from    to  target type
+│ │ -            61    80    83   any
+│ │ -            83    88    83   any
+│ │ +            61    77    84   any
+│ │ +            84    86    84   any
+│ │        LineNumberTable:
+│ │          line 1033: 0
+│ │          line 1034: 39
+│ │          line 1035: 43
+│ │          line 1037: 52
+│ │          line 1039: 61
+│ │ -        line 1041: 83
+│ │ -        line 1042: 88
+│ │ -        line 1041: 93
+│ │ +        line 1041: 77
+│ │ +        line 1039: 81
+│ │ +        line 1041: 84
+│ │ +        line 1042: 90
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │ -           61      38     3 inputStream   Ljava/io/InputStream;
+│ │ -            0      99     0  this   Lnet/bytebuddy/dynamic/ClassFileLocator$ForModuleFile;
+│ │ -            0      99     1  name   Ljava/lang/String;
+│ │ -           39      60     2 zipEntry   Ljava/util/zip/ZipEntry;
+│ │ +           61      32     3 inputStream   Ljava/io/InputStream;
+│ │ +            0      93     0  this   Lnet/bytebuddy/dynamic/ClassFileLocator$ForModuleFile;
+│ │ +            0      93     1  name   Ljava/lang/String;
+│ │ +           39      54     2 zipEntry   Ljava/util/zip/ZipEntry;
+│ │      Exceptions:
+│ │        throws java.io.IOException
+│ │  
+│ │    public void close() throws java.io.IOException;
+│ │      descriptor: ()V
+│ │      flags: (0x0001) ACC_PUBLIC
+│ │      Code:
+├── net/bytebuddy/dynamic/DynamicType$Default.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -876,81 +876,78 @@
+│ │         113: aload_3
+│ │         114: invokespecial #52                 // Method java/io/FileOutputStream."<init>":(Ljava/io/File;)V
+│ │         117: astore        4
+│ │         119: aload         4
+│ │         121: aload_0
+│ │         122: getfield      #3                  // Field binaryRepresentation:[B
+│ │         125: invokevirtual #53                 // Method java/io/OutputStream.write:([B)V
+│ │ -       128: jsr           142
+│ │ -       131: goto          151
+│ │ -       134: astore        5
+│ │ -       136: jsr           142
+│ │ -       139: aload         5
+│ │ -       141: athrow
+│ │ -       142: astore        6
+│ │ -       144: aload         4
+│ │ -       146: invokevirtual #54                 // Method java/io/OutputStream.close:()V
+│ │ -       149: ret           6
+│ │ -       151: aload_2
+│ │ -       152: aload_0
+│ │ -       153: getfield      #2                  // Field typeDescription:Lnet/bytebuddy/description/type/TypeDescription;
+│ │ -       156: aload_3
+│ │ -       157: invokeinterface #20,  3           // InterfaceMethod java/util/Map.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+│ │ -       162: pop
+│ │ -       163: aload_0
+│ │ -       164: getfield      #5                  // Field auxiliaryTypes:Ljava/util/List;
+│ │ -       167: invokeinterface #10,  1           // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;
+│ │ -       172: astore        5
+│ │ -       174: aload         5
+│ │ -       176: invokeinterface #11,  1           // InterfaceMethod java/util/Iterator.hasNext:()Z
+│ │ -       181: ifeq          213
+│ │ -       184: aload         5
+│ │ -       186: invokeinterface #12,  1           // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+│ │ -       191: checkcast     #13                 // class net/bytebuddy/dynamic/DynamicType
+│ │ -       194: astore        6
+│ │ -       196: aload_2
+│ │ -       197: aload         6
+│ │ -       199: aload_1
+│ │ -       200: invokeinterface #55,  2           // InterfaceMethod net/bytebuddy/dynamic/DynamicType.saveIn:(Ljava/io/File;)Ljava/util/Map;
+│ │ -       205: invokeinterface #22,  2           // InterfaceMethod java/util/Map.putAll:(Ljava/util/Map;)V
+│ │ -       210: goto          174
+│ │ -       213: aload_2
+│ │ -       214: areturn
+│ │ +       128: aload         4
+│ │ +       130: invokevirtual #54                 // Method java/io/OutputStream.close:()V
+│ │ +       133: goto          146
+│ │ +       136: astore        5
+│ │ +       138: aload         4
+│ │ +       140: invokevirtual #54                 // Method java/io/OutputStream.close:()V
+│ │ +       143: aload         5
+│ │ +       145: athrow
+│ │ +       146: aload_2
+│ │ +       147: aload_0
+│ │ +       148: getfield      #2                  // Field typeDescription:Lnet/bytebuddy/description/type/TypeDescription;
+│ │ +       151: aload_3
+│ │ +       152: invokeinterface #20,  3           // InterfaceMethod java/util/Map.put:(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+│ │ +       157: pop
+│ │ +       158: aload_0
+│ │ +       159: getfield      #5                  // Field auxiliaryTypes:Ljava/util/List;
+│ │ +       162: invokeinterface #10,  1           // InterfaceMethod java/util/List.iterator:()Ljava/util/Iterator;
+│ │ +       167: astore        5
+│ │ +       169: aload         5
+│ │ +       171: invokeinterface #11,  1           // InterfaceMethod java/util/Iterator.hasNext:()Z
+│ │ +       176: ifeq          208
+│ │ +       179: aload         5
+│ │ +       181: invokeinterface #12,  1           // InterfaceMethod java/util/Iterator.next:()Ljava/lang/Object;
+│ │ +       186: checkcast     #13                 // class net/bytebuddy/dynamic/DynamicType
+│ │ +       189: astore        6
+│ │ +       191: aload_2
+│ │ +       192: aload         6
+│ │ +       194: aload_1
+│ │ +       195: invokeinterface #55,  2           // InterfaceMethod net/bytebuddy/dynamic/DynamicType.saveIn:(Ljava/io/File;)Ljava/util/Map;
+│ │ +       200: invokeinterface #22,  2           // InterfaceMethod java/util/Map.putAll:(Ljava/util/Map;)V
+│ │ +       205: goto          169
+│ │ +       208: aload_2
+│ │ +       209: areturn
+│ │        Exception table:
+│ │           from    to  target type
+│ │ -           119   131   134   any
+│ │ -           134   139   134   any
+│ │ +           119   128   136   any
+│ │ +           136   138   136   any
+│ │        LineNumberTable:
+│ │          line 6012: 0
+│ │          line 6013: 8
+│ │          line 6014: 52
+│ │          line 6015: 79
+│ │          line 6017: 109
+│ │          line 6019: 119
+│ │ -        line 6020: 128
+│ │ -        line 6022: 131
+│ │ -        line 6021: 134
+│ │ -        line 6022: 139
+│ │ -        line 6021: 144
+│ │ -        line 6023: 151
+│ │ -        line 6024: 163
+│ │ -        line 6025: 196
+│ │ -        line 6026: 210
+│ │ -        line 6027: 213
+│ │ +        line 6021: 128
+│ │ +        line 6022: 133
+│ │ +        line 6021: 136
+│ │ +        line 6022: 143
+│ │ +        line 6023: 146
+│ │ +        line 6024: 158
+│ │ +        line 6025: 191
+│ │ +        line 6026: 205
+│ │ +        line 6027: 208
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │ -          196      14     6 auxiliaryType   Lnet/bytebuddy/dynamic/DynamicType;
+│ │ -            0     215     0  this   Lnet/bytebuddy/dynamic/DynamicType$Default;
+│ │ -            0     215     1 folder   Ljava/io/File;
+│ │ -            8     207     2 files   Ljava/util/Map;
+│ │ -           52     163     3 target   Ljava/io/File;
+│ │ -          119      96     4 outputStream   Ljava/io/OutputStream;
+│ │ +          191      14     6 auxiliaryType   Lnet/bytebuddy/dynamic/DynamicType;
+│ │ +            0     210     0  this   Lnet/bytebuddy/dynamic/DynamicType$Default;
+│ │ +            0     210     1 folder   Ljava/io/File;
+│ │ +            8     202     2 files   Ljava/util/Map;
+│ │ +           52     158     3 target   Ljava/io/File;
+│ │ +          119      91     4 outputStream   Ljava/io/OutputStream;
+│ │        LocalVariableTypeTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │ -            8     207     2 files   Ljava/util/Map<Lnet/bytebuddy/description/type/TypeDescription;Ljava/io/File;>;
+│ │ +            8     202     2 files   Ljava/util/Map<Lnet/bytebuddy/description/type/TypeDescription;Ljava/io/File;>;
+│ │      Exceptions:
+│ │        throws java.io.IOException
+│ │      Signature: #189                         // (Ljava/io/File;)Ljava/util/Map<Lnet/bytebuddy/description/type/TypeDescription;Ljava/io/File;>;
+│ │  
+│ │    public java.io.File inject(java.io.File, java.io.File) throws java.io.IOException;
+│ │      descriptor: (Ljava/io/File;Ljava/io/File;)Ljava/io/File;
+│ │      flags: (0x0001) ACC_PUBLIC
+│ │ @@ -1009,15 +1006,15 @@
+│ │      Exceptions:
+│ │        throws java.io.IOException
+│ │  
+│ │    private java.io.File doInject(java.io.File, java.io.File) throws java.io.IOException;
+│ │      descriptor: (Ljava/io/File;Ljava/io/File;)Ljava/io/File;
+│ │      flags: (0x0002) ACC_PRIVATE
+│ │      Code:
+│ │ -      stack=5, locals=16, args_size=3
+│ │ +      stack=5, locals=14, args_size=3
+│ │           0: new           #64                 // class java/util/jar/JarInputStream
+│ │           3: dup
+│ │           4: new           #65                 // class java/io/FileInputStream
+│ │           7: dup
+│ │           8: aload_1
+│ │           9: invokespecial #66                 // Method java/io/FileInputStream."<init>":(Ljava/io/File;)V
+│ │          12: invokespecial #67                 // Method java/util/jar/JarInputStream."<init>":(Ljava/io/InputStream;)V
+│ │ @@ -1183,42 +1180,38 @@
+│ │         417: aload         10
+│ │         419: invokeinterface #82,  1           // InterfaceMethod java/util/Map$Entry.getValue:()Ljava/lang/Object;
+│ │         424: checkcast     #86                 // class "[B"
+│ │         427: invokevirtual #92                 // Method java/util/jar/JarOutputStream.write:([B)V
+│ │         430: aload         5
+│ │         432: invokevirtual #94                 // Method java/util/jar/JarOutputStream.closeEntry:()V
+│ │         435: goto          371
+│ │ -       438: jsr           452
+│ │ -       441: goto          461
+│ │ -       444: astore        12
+│ │ -       446: jsr           452
+│ │ -       449: aload         12
+│ │ -       451: athrow
+│ │ -       452: astore        13
+│ │ -       454: aload         5
+│ │ -       456: invokevirtual #96                 // Method java/util/jar/JarOutputStream.close:()V
+│ │ -       459: ret           13
+│ │ -       461: jsr           475
+│ │ -       464: goto          483
+│ │ -       467: astore        14
+│ │ -       469: jsr           475
+│ │ -       472: aload         14
+│ │ -       474: athrow
+│ │ -       475: astore        15
+│ │ -       477: aload_3
+│ │ -       478: invokevirtual #97                 // Method java/util/jar/JarInputStream.close:()V
+│ │ -       481: ret           15
+│ │ -       483: aload_2
+│ │ -       484: areturn
+│ │ +       438: aload         5
+│ │ +       440: invokevirtual #96                 // Method java/util/jar/JarOutputStream.close:()V
+│ │ +       443: goto          456
+│ │ +       446: astore        12
+│ │ +       448: aload         5
+│ │ +       450: invokevirtual #96                 // Method java/util/jar/JarOutputStream.close:()V
+│ │ +       453: aload         12
+│ │ +       455: athrow
+│ │ +       456: aload_3
+│ │ +       457: invokevirtual #97                 // Method java/util/jar/JarInputStream.close:()V
+│ │ +       460: goto          472
+│ │ +       463: astore        13
+│ │ +       465: aload_3
+│ │ +       466: invokevirtual #97                 // Method java/util/jar/JarInputStream.close:()V
+│ │ +       469: aload         13
+│ │ +       471: athrow
+│ │ +       472: aload_2
+│ │ +       473: areturn
+│ │        Exception table:
+│ │           from    to  target type
+│ │ -           105   441   444   any
+│ │ -           444   449   444   any
+│ │ -            16   464   467   any
+│ │ -           467   472   467   any
+│ │ +           105   438   446   any
+│ │ +           446   448   446   any
+│ │ +            16   456   463   any
+│ │ +           463   465   463   any
+│ │        LineNumberTable:
+│ │          line 6056: 0
+│ │          line 6058: 16
+│ │          line 6059: 30
+│ │          line 6061: 57
+│ │          line 6062: 63
+│ │          line 6066: 105
+│ │ @@ -1241,41 +1234,39 @@
+│ │          line 6087: 349
+│ │          line 6088: 354
+│ │          line 6089: 357
+│ │          line 6090: 393
+│ │          line 6091: 415
+│ │          line 6092: 430
+│ │          line 6093: 435
+│ │ -        line 6094: 438
+│ │ -        line 6096: 441
+│ │ -        line 6095: 444
+│ │ -        line 6096: 449
+│ │ -        line 6095: 454
+│ │ -        line 6097: 461
+│ │ -        line 6099: 464
+│ │ -        line 6098: 467
+│ │ -        line 6099: 472
+│ │ -        line 6098: 477
+│ │ -        line 6100: 483
+│ │ +        line 6095: 438
+│ │ +        line 6096: 443
+│ │ +        line 6095: 446
+│ │ +        line 6096: 453
+│ │ +        line 6098: 456
+│ │ +        line 6099: 460
+│ │ +        line 6098: 463
+│ │ +        line 6099: 469
+│ │ +        line 6100: 472
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │            156      48     9 entry   Ljava/util/Map$Entry;
+│ │            292      26    10 buffer   [B
+│ │            301      17    11 index   I
+│ │            273      81     9 replacement   [B
+│ │            393      42    10 entry   Ljava/util/Map$Entry;
+│ │            111     327     6 rawAuxiliaryTypes   Ljava/util/Map;
+│ │            120     318     7 files   Ljava/util/Map;
+│ │            253     185     8 jarEntry   Ljava/util/jar/JarEntry;
+│ │ -           63     398     4 manifest   Ljava/util/jar/Manifest;
+│ │ -          105     356     5 outputStream   Ljava/util/jar/JarOutputStream;
+│ │ -            0     485     0  this   Lnet/bytebuddy/dynamic/DynamicType$Default;
+│ │ -            0     485     1 sourceJar   Ljava/io/File;
+│ │ -            0     485     2 targetJar   Ljava/io/File;
+│ │ -           16     469     3 inputStream   Ljava/util/jar/JarInputStream;
+│ │ +           63     393     4 manifest   Ljava/util/jar/Manifest;
+│ │ +          105     351     5 outputStream   Ljava/util/jar/JarOutputStream;
+│ │ +            0     474     0  this   Lnet/bytebuddy/dynamic/DynamicType$Default;
+│ │ +            0     474     1 sourceJar   Ljava/io/File;
+│ │ +            0     474     2 targetJar   Ljava/io/File;
+│ │ +           16     458     3 inputStream   Ljava/util/jar/JarInputStream;
+│ │        LocalVariableTypeTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │            156      48     9 entry   Ljava/util/Map$Entry<Lnet/bytebuddy/description/type/TypeDescription;[B>;
+│ │            393      42    10 entry   Ljava/util/Map$Entry<Ljava/lang/String;[B>;
+│ │            111     327     6 rawAuxiliaryTypes   Ljava/util/Map<Lnet/bytebuddy/description/type/TypeDescription;[B>;
+│ │            120     318     7 files   Ljava/util/Map<Ljava/lang/String;[B>;
+│ │      Exceptions:
+│ │ @@ -1313,15 +1304,15 @@
+│ │      Exceptions:
+│ │        throws java.io.IOException
+│ │  
+│ │    public java.io.File toJar(java.io.File, java.util.jar.Manifest) throws java.io.IOException;
+│ │      descriptor: (Ljava/io/File;Ljava/util/jar/Manifest;)Ljava/io/File;
+│ │      flags: (0x0001) ACC_PUBLIC
+│ │      Code:
+│ │ -      stack=5, locals=8, args_size=3
+│ │ +      stack=5, locals=7, args_size=3
+│ │           0: aload_1
+│ │           1: invokevirtual #68                 // Method java/io/File.isFile:()Z
+│ │           4: ifne          41
+│ │           7: aload_1
+│ │           8: invokevirtual #69                 // Method java/io/File.createNewFile:()Z
+│ │          11: ifne          41
+│ │          14: new           #47                 // class java/lang/IllegalArgumentException
+│ │ @@ -1398,55 +1389,52 @@
+│ │         196: invokevirtual #87                 // Method java/util/jar/JarOutputStream.putNextEntry:(Ljava/util/zip/ZipEntry;)V
+│ │         199: aload_3
+│ │         200: aload_0
+│ │         201: getfield      #3                  // Field binaryRepresentation:[B
+│ │         204: invokevirtual #92                 // Method java/util/jar/JarOutputStream.write:([B)V
+│ │         207: aload_3
+│ │         208: invokevirtual #94                 // Method java/util/jar/JarOutputStream.closeEntry:()V
+│ │ -       211: jsr           225
+│ │ -       214: goto          233
+│ │ -       217: astore        6
+│ │ -       219: jsr           225
+│ │ -       222: aload         6
+│ │ -       224: athrow
+│ │ -       225: astore        7
+│ │ -       227: aload_3
+│ │ -       228: invokevirtual #96                 // Method java/util/jar/JarOutputStream.close:()V
+│ │ -       231: ret           7
+│ │ -       233: aload_1
+│ │ -       234: areturn
+│ │ +       211: aload_3
+│ │ +       212: invokevirtual #96                 // Method java/util/jar/JarOutputStream.close:()V
+│ │ +       215: goto          227
+│ │ +       218: astore        6
+│ │ +       220: aload_3
+│ │ +       221: invokevirtual #96                 // Method java/util/jar/JarOutputStream.close:()V
+│ │ +       224: aload         6
+│ │ +       226: athrow
+│ │ +       227: aload_1
+│ │ +       228: areturn
+│ │        Exception table:
+│ │           from    to  target type
+│ │ -            58   214   217   any
+│ │ -           217   222   217   any
+│ │ +            58   211   218   any
+│ │ +           218   220   218   any
+│ │        LineNumberTable:
+│ │          line 6116: 0
+│ │          line 6117: 14
+│ │          line 6119: 41
+│ │          line 6121: 58
+│ │          line 6122: 96
+│ │          line 6123: 140
+│ │          line 6124: 154
+│ │          line 6125: 158
+│ │          line 6126: 161
+│ │          line 6127: 199
+│ │          line 6128: 207
+│ │ -        line 6129: 211
+│ │ -        line 6131: 214
+│ │ -        line 6130: 217
+│ │ -        line 6131: 222
+│ │ -        line 6130: 227
+│ │ -        line 6132: 233
+│ │ +        line 6130: 211
+│ │ +        line 6131: 215
+│ │ +        line 6130: 218
+│ │ +        line 6131: 224
+│ │ +        line 6132: 227
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │             96      62     5 entry   Ljava/util/Map$Entry;
+│ │ -            0     235     0  this   Lnet/bytebuddy/dynamic/DynamicType$Default;
+│ │ -            0     235     1  file   Ljava/io/File;
+│ │ -            0     235     2 manifest   Ljava/util/jar/Manifest;
+│ │ -           58     177     3 outputStream   Ljava/util/jar/JarOutputStream;
+│ │ +            0     229     0  this   Lnet/bytebuddy/dynamic/DynamicType$Default;
+│ │ +            0     229     1  file   Ljava/io/File;
+│ │ +            0     229     2 manifest   Ljava/util/jar/Manifest;
+│ │ +           58     171     3 outputStream   Ljava/util/jar/JarOutputStream;
+│ │        LocalVariableTypeTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │             96      62     5 entry   Ljava/util/Map$Entry<Lnet/bytebuddy/description/type/TypeDescription;[B>;
+│ │      Exceptions:
+│ │        throws java.io.IOException
+│ │  
+│ │    public boolean equals(java.lang.Object);
+

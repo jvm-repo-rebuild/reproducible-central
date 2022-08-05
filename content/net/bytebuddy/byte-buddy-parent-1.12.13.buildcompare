@@ -1,0 +1,11 @@
+version=1.12.13
+ok=18
+ko=4
+okFiles="byte-buddy-parent-1.12.13.pom byte-buddy-agent-1.12.13.pom byte-buddy-agent-1.12.13.jar byte-buddy-agent-1.12.13-sources.jar byte-buddy-dep-1.12.13.pom byte-buddy-dep-1.12.13-sources.jar byte-buddy-1.12.13.pom byte-buddy-benchmark-1.12.13.pom byte-buddy-benchmark-1.12.13-sources.jar byte-buddy-android-1.12.13.pom byte-buddy-android-1.12.13.jar byte-buddy-android-1.12.13-sources.jar byte-buddy-maven-plugin-1.12.13.pom byte-buddy-maven-plugin-1.12.13.jar byte-buddy-maven-plugin-1.12.13-sources.jar byte-buddy-gradle-plugin-1.12.13.pom byte-buddy-gradle-plugin-1.12.13.jar byte-buddy-gradle-plugin-1.12.13-sources.jar"
+koFiles="byte-buddy-dep-1.12.13.jar byte-buddy-1.12.13.jar byte-buddy-1.12.13-sources.jar byte-buddy-benchmark-1.12.13.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/byte-buddy-dep-1.12.13.jar byte-buddy-dep/target/byte-buddy-dep-1.12.13.jar
+# diffoscope target/reference/byte-buddy-1.12.13.jar byte-buddy/target/byte-buddy-1.12.13.jar
+# diffoscope target/reference/byte-buddy-1.12.13-sources.jar byte-buddy/target/byte-buddy-1.12.13-sources.jar
+# diffoscope target/reference/byte-buddy-benchmark-1.12.13.jar byte-buddy-benchmark/target/byte-buddy-benchmark-1.12.13.jar
