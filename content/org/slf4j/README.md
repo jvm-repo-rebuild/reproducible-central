@@ -33,6 +33,7 @@ rebuilding **1 releases** of org.slf4j:slf4j-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.0-beta0](https://search.maven.org/artifact/org.slf4j/slf4j-parent/2.0.0-beta0/pom) | | | |
 | [2.0.0-alpha7](https://search.maven.org/artifact/org.slf4j/slf4j-parent/2.0.0-alpha7/pom) | | | |
 | [2.0.0-alpha6](https://search.maven.org/artifact/org.slf4j/slf4j-parent/2.0.0-alpha6/pom) | | | |
 | [2.0.0-alpha5](https://search.maven.org/artifact/org.slf4j/slf4j-parent/2.0.0-alpha5/pom) | | | |
