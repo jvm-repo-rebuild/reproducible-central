@@ -366,6 +366,9 @@
 │  import javax.servlet.*;
 ...
 
+# configured nar plugin 1.3.5 should generate reproducible output (includes https://github.com/apache/nifi-maven/pull/16)
+# but it seems the value is dependant on the timezone of the build (2022-07-27T22:00:37Z in UTC+2, 2022-07-27T13:00:37Z is probably UTC-7)
+# => issue https://issues.apache.org/jira/browse/NIFI-10325 created
 13 /      172 target/reference/nifi-jetty-bundle-1.17.0.nar nifi-nar-bundles/nifi-jetty-bundle/target/nifi-jetty-bundle-1.17.0.nar
 --- target/reference/nifi-jetty-bundle-1.17.0.nar
 +++ nifi-nar-bundles/nifi-jetty-bundle/target/nifi-jetty-bundle-1.17.0.nar
@@ -872,6 +875,7 @@
 │  00015280: 2020 2020 2020 2264 6573 6372 6970 7469        "descripti
 ...
 
+# TODO add include-grpc profile in buildspec (and eventually include-ranger) defined in nifi-nar-bundle/pom.xml
 172 /      172 target/reference/nifi-runtime-manifest-1.17.0-sources.jar nifi-manifest/nifi-runtime-manifest/target/nifi-runtime-manifest-1.17.0-sources.jar
 --- target/reference/nifi-runtime-manifest-1.17.0-sources.jar
 +++ nifi-manifest/nifi-runtime-manifest/target/nifi-runtime-manifest-1.17.0-sources.jar
