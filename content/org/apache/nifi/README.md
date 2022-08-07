@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi.git)
 
-<details><summary>This project defines 649 modules:</summary>
+<details><summary>This project defines 663 modules:</summary>
 
 * [org.apache.nifi.minifi:minifi](https://search.maven.org/artifact/org.apache.nifi.minifi/minifi/)
 * [org.apache.nifi.minifi:minifi-assembly](https://search.maven.org/artifact/org.apache.nifi.minifi/minifi-assembly/)
@@ -95,6 +95,11 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi.registry:nifi-registry-web-docs](https://search.maven.org/artifact/org.apache.nifi.registry/nifi-registry-web-docs/)
 * [org.apache.nifi.registry:nifi-registry-web-ui](https://search.maven.org/artifact/org.apache.nifi.registry/nifi-registry-web-ui/)
 * [org.apache.nifi:c2](https://search.maven.org/artifact/org.apache.nifi/c2/)
+* [org.apache.nifi:c2-client-api](https://search.maven.org/artifact/org.apache.nifi/c2-client-api/)
+* [org.apache.nifi:c2-client-base](https://search.maven.org/artifact/org.apache.nifi/c2-client-base/)
+* [org.apache.nifi:c2-client-bundle](https://search.maven.org/artifact/org.apache.nifi/c2-client-bundle/)
+* [org.apache.nifi:c2-client-http](https://search.maven.org/artifact/org.apache.nifi/c2-client-http/)
+* [org.apache.nifi:c2-client-service](https://search.maven.org/artifact/org.apache.nifi/c2-client-service/)
 * [org.apache.nifi:c2-protocol](https://search.maven.org/artifact/org.apache.nifi/c2-protocol/)
 * [org.apache.nifi:c2-protocol-api](https://search.maven.org/artifact/org.apache.nifi/c2-protocol-api/)
 * [org.apache.nifi:c2-protocol-component-api](https://search.maven.org/artifact/org.apache.nifi/c2-protocol-component-api/)
@@ -234,6 +239,7 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-extension-manifest-parser](https://search.maven.org/artifact/org.apache.nifi/nifi-extension-manifest-parser/)
 * [org.apache.nifi:nifi-extension-utils](https://search.maven.org/artifact/org.apache.nifi/nifi-extension-utils/)
 * [org.apache.nifi:nifi-external](https://search.maven.org/artifact/org.apache.nifi/nifi-external/)
+* [org.apache.nifi:nifi-external-resource-utils](https://search.maven.org/artifact/org.apache.nifi/nifi-external-resource-utils/)
 * [org.apache.nifi:nifi-file-authorizer](https://search.maven.org/artifact/org.apache.nifi/nifi-file-authorizer/)
 * [org.apache.nifi:nifi-flow-encryptor](https://search.maven.org/artifact/org.apache.nifi/nifi-flow-encryptor/)
 * [org.apache.nifi:nifi-flowfile-packager](https://search.maven.org/artifact/org.apache.nifi/nifi-flowfile-packager/)
@@ -251,6 +257,7 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-framework-components](https://search.maven.org/artifact/org.apache.nifi/nifi-framework-components/)
 * [org.apache.nifi:nifi-framework-core](https://search.maven.org/artifact/org.apache.nifi/nifi-framework-core/)
 * [org.apache.nifi:nifi-framework-core-api](https://search.maven.org/artifact/org.apache.nifi/nifi-framework-core-api/)
+* [org.apache.nifi:nifi-framework-external-resource-utils](https://search.maven.org/artifact/org.apache.nifi/nifi-framework-external-resource-utils/)
 * [org.apache.nifi:nifi-framework-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-framework-nar/)
 * [org.apache.nifi:nifi-framework-nar-loading-utils](https://search.maven.org/artifact/org.apache.nifi/nifi-framework-nar-loading-utils/)
 * [org.apache.nifi:nifi-framework-nar-utils](https://search.maven.org/artifact/org.apache.nifi/nifi-framework-nar-utils/)
@@ -337,6 +344,7 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-influxdb-processors](https://search.maven.org/artifact/org.apache.nifi/nifi-influxdb-processors/)
 * [org.apache.nifi:nifi-jetty](https://search.maven.org/artifact/org.apache.nifi/nifi-jetty/)
 * [org.apache.nifi:nifi-jetty-bundle](https://search.maven.org/artifact/org.apache.nifi/nifi-jetty-bundle/)
+* [org.apache.nifi:nifi-jetty-configuration](https://search.maven.org/artifact/org.apache.nifi/nifi-jetty-configuration/)
 * [org.apache.nifi:nifi-jms-bundle](https://search.maven.org/artifact/org.apache.nifi/nifi-jms-bundle/)
 * [org.apache.nifi:nifi-jms-cf-service](https://search.maven.org/artifact/org.apache.nifi/nifi-jms-cf-service/)
 * [org.apache.nifi:nifi-jms-cf-service-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-jms-cf-service-nar/)
@@ -507,6 +515,9 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-riemann-bundle](https://search.maven.org/artifact/org.apache.nifi/nifi-riemann-bundle/)
 * [org.apache.nifi:nifi-riemann-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-riemann-nar/)
 * [org.apache.nifi:nifi-riemann-processors](https://search.maven.org/artifact/org.apache.nifi/nifi-riemann-processors/)
+* [org.apache.nifi:nifi-rocksdb-bundle](https://search.maven.org/artifact/org.apache.nifi/nifi-rocksdb-bundle/)
+* [org.apache.nifi:nifi-rocksdb-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-rocksdb-nar/)
+* [org.apache.nifi:nifi-rocksdb-repository](https://search.maven.org/artifact/org.apache.nifi/nifi-rocksdb-repository/)
 * [org.apache.nifi:nifi-rocksdb-utils](https://search.maven.org/artifact/org.apache.nifi/nifi-rocksdb-utils/)
 * [org.apache.nifi:nifi-rules-action-handler-bundle](https://search.maven.org/artifact/org.apache.nifi/nifi-rules-action-handler-bundle/)
 * [org.apache.nifi:nifi-rules-action-handler-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-rules-action-handler-nar/)
@@ -516,6 +527,9 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-runtime-manifest](https://search.maven.org/artifact/org.apache.nifi/nifi-runtime-manifest/)
 * [org.apache.nifi:nifi-runtime-manifest-core](https://search.maven.org/artifact/org.apache.nifi/nifi-runtime-manifest-core/)
 * [org.apache.nifi:nifi-runtime-manifest-test](https://search.maven.org/artifact/org.apache.nifi/nifi-runtime-manifest-test/)
+* [org.apache.nifi:nifi-salesforce-bundle](https://search.maven.org/artifact/org.apache.nifi/nifi-salesforce-bundle/)
+* [org.apache.nifi:nifi-salesforce-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-salesforce-nar/)
+* [org.apache.nifi:nifi-salesforce-processors](https://search.maven.org/artifact/org.apache.nifi/nifi-salesforce-processors/)
 * [org.apache.nifi:nifi-schema-registry-service-api](https://search.maven.org/artifact/org.apache.nifi/nifi-schema-registry-service-api/)
 * [org.apache.nifi:nifi-schema-utils](https://search.maven.org/artifact/org.apache.nifi/nifi-schema-utils/)
 * [org.apache.nifi:nifi-scripting-bundle](https://search.maven.org/artifact/org.apache.nifi/nifi-scripting-bundle/)
@@ -666,7 +680,7 @@ rebuilding **4 releases** of org.apache.nifi:nifi:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.17.0](https://search.maven.org/artifact/org.apache.nifi/nifi/1.17.0/pom) | [mvn jdk8](nifi-1.17.0.buildspec) | :x: |  |
+| [1.17.0](https://search.maven.org/artifact/org.apache.nifi/nifi/1.17.0/pom) | [mvn jdk8](nifi-1.17.0.buildspec) | [result](nifi-1.17.0.buildinfo): [1497 :heavy_check_mark:  172 :warning:](nifi-1.17.0.buildcompare) [:mag:](nifi-1.17.0.diffoscope) | 2.9G |
 | [1.16.3](https://search.maven.org/artifact/org.apache.nifi/nifi/1.16.3/pom) | | | |
 | [1.16.2](https://search.maven.org/artifact/org.apache.nifi/nifi/1.16.2/pom) | [mvn jdk8](nifi-1.16.2.buildspec) | [result](nifi-1.16.2.buildinfo): [1282 :heavy_check_mark:  371 :warning:](nifi-1.16.2.buildcompare) [:memo:](https://github.com/apache/nifi/pull/5915) | 3.2G |
 | [1.16.1](https://search.maven.org/artifact/org.apache.nifi/nifi/1.16.1/pom) | [mvn jdk8](nifi-1.16.1.buildspec) | [result](nifi-1.16.1.buildinfo): [1282 :heavy_check_mark:  371 :warning:](nifi-1.16.1.buildcompare) [:memo:](https://github.com/apache/nifi/pull/5915) | 3.2G |
