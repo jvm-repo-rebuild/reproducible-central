@@ -1,3 +1,4 @@
+# see https://github.com/antlr/antlr3/pull/209
 1 /      172 target/reference/nifi-expression-language-1.17.0-sources.jar nifi-commons/nifi-expression-language/target/nifi-expression-language-1.17.0-sources.jar
 --- target/reference/nifi-expression-language-1.17.0-sources.jar
 +++ nifi-commons/nifi-expression-language/target/nifi-expression-language-1.17.0-sources.jar
