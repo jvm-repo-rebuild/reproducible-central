@@ -1,0 +1,1142 @@
+1 /        3 target/reference/hsac-fitnesse-fixtures-5.2.12.jar target/hsac-fitnesse-fixtures-5.2.12.jar
+--- target/reference/hsac-fitnesse-fixtures-5.2.12.jar
++++ target/hsac-fitnesse-fixtures-5.2.12.jar
+├── zipinfo {}
+│ @@ -1,11 +1,10 @@
+│ -Zip file size: 673339 bytes, number of entries: 370
+│ +Zip file size: 499838 bytes, number of entries: 306
+│  -rw-r--r--  2.0 unx       82 b- defN 22-Aug-08 12:53 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 META-INF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 META-INF/apidocs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 js/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 nl/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 nl/hsac/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 nl/hsac/fitnesse/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 nl/hsac/fitnesse/fixture/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 nl/hsac/fitnesse/fixture/fit/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 nl/hsac/fitnesse/fixture/leanapps/
+│ @@ -28,77 +27,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 nl/hsac/fitnesse/slim/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 nl/hsac/fitnesse/slim/converter/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 nl/hsac/fitnesse/slim/interaction/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 templates/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 META-INF/maven/nl.hsac/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 META-INF/maven/nl.hsac/hsac-fitnesse-fixtures/
+│ --rw-r--r--  2.0 unx    15288 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.ClearStoredVariablesFixture.json
+│ --rw-r--r--  2.0 unx    23591 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.CompareValuesFixture.json
+│ --rw-r--r--  2.0 unx     2087 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapColumnFixture.ParameterBinding.json
+│ --rw-r--r--  2.0 unx     1717 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapColumnFixture.SaveBinding.json
+│ --rw-r--r--  2.0 unx    21892 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapColumnFixture.json
+│ --rw-r--r--  2.0 unx    22190 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapDefinitionFixture.json
+│ --rw-r--r--  2.0 unx    14509 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapParameter.json
+│ --rw-r--r--  2.0 unx    16084 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.OurColumnFixture.json
+│ --rw-r--r--  2.0 unx    23022 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.ReadFileFromFtpServerFixture.json
+│ --rw-r--r--  2.0 unx    27504 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.ServiceAndCheckMapColumnFixture.json
+│ --rw-r--r--  2.0 unx    31206 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.SoapCallMapColumnFixture.json
+│ --rw-r--r--  2.0 unx    13102 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.SymbolsFixture.json
+│ --rw-r--r--  2.0 unx    29219 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.TemplateBasedMapColumnFixture.json
+│ --rw-r--r--  2.0 unx    32180 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.leanapps.LalCallColumnFixture.json
+│ --rw-r--r--  2.0 unx    13712 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.leanapps.LalPolicyXPaths.json
+│ --rw-r--r--  2.0 unx    27283 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.leanapps.LalResponse.json
+│ --rw-r--r--  2.0 unx    19471 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.leanapps.ReportXmlFixture.json
+│ --rw-r--r--  2.0 unx     6718 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.Base64Fixture.json
+│ --rw-r--r--  2.0 unx     8808 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.CompareFixture.json
+│ --rw-r--r--  2.0 unx     9934 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.DateFormatFixture.json
+│ --rw-r--r--  2.0 unx     8287 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.DateTimeCalculatorFixture.json
+│ --rw-r--r--  2.0 unx    19682 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.ExecuteProgramTest.json
+│ --rw-r--r--  2.0 unx    28007 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.FileFixture.json
+│ --rw-r--r--  2.0 unx    17149 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.FreemarkerFixture.json
+│ --rw-r--r--  2.0 unx     5851 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.HtmlFixture.json
+│ --rw-r--r--  2.0 unx    16043 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.HttpClientSetup.json
+│ --rw-r--r--  2.0 unx      502 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.HttpTest.RepeatLastCall.json
+│ --rw-r--r--  2.0 unx    50037 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.HttpTest.json
+│ --rw-r--r--  2.0 unx     9444 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.JsonFixture.json
+│ --rw-r--r--  2.0 unx    56350 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.JsonHttpTest.json
+│ --rw-r--r--  2.0 unx    16048 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.ListFixture.json
+│ --rw-r--r--  2.0 unx    25414 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.MapFixture.json
+│ --rw-r--r--  2.0 unx     7871 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.MapOfMapsFixture.json
+│ --rw-r--r--  2.0 unx     5323 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.MockServerMessageReport.json
+│ --rw-r--r--  2.0 unx    14625 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.MockXmlServerSetup.json
+│ --rw-r--r--  2.0 unx    31831 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.PropertiesFileFixture.json
+│ --rw-r--r--  2.0 unx    21042 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.ScriptLanguageFixture.json
+│ --rw-r--r--  2.0 unx     2753 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixture.FunctionalCompletion.json
+│ --rw-r--r--  2.0 unx     1247 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixture.Negate.json
+│ --rw-r--r--  2.0 unx      857 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixture.RepeatCompletion.json
+│ --rw-r--r--  2.0 unx     4533 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixture.json
+│ --rw-r--r--  2.0 unx     6975 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixtureException.json
+│ --rw-r--r--  2.0 unx    14898 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixtureWithMap.json
+│ --rw-r--r--  2.0 unx     6368 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixtureWithMapHelper.json
+│ --rw-r--r--  2.0 unx     7494 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimTableFixture.json
+│ --rw-r--r--  2.0 unx     6921 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.StopTestException.json
+│ --rw-r--r--  2.0 unx     1844 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.StopTestFixture.json
+│ --rw-r--r--  2.0 unx    14927 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.StringFixture.json
+│ --rw-r--r--  2.0 unx    11368 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.TimerFixture.json
+│ --rw-r--r--  2.0 unx    31186 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.ValuesFileFixture.json
+│ --rw-r--r--  2.0 unx     9806 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.XmlFixture.json
+│ --rw-r--r--  2.0 unx    57316 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.XmlHttpTest.json
+│ --rw-r--r--  2.0 unx    32944 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.YamlFileFixture.json
+│ --rw-r--r--  2.0 unx     3054 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.BrowserTest.ConditionBasedRepeatUntil.json
+│ --rw-r--r--  2.0 unx   140677 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.BrowserTest.json
+│ --rw-r--r--  2.0 unx    18460 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.LayoutTest.json
+│ --rw-r--r--  2.0 unx   141946 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.Ng2BrowserTest.json
+│ --rw-r--r--  2.0 unx   146544 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.NgBrowserTest.json
+│ --rw-r--r--  2.0 unx   142185 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.NgBrowserTestBase.json
+│ --rw-r--r--  2.0 unx     4695 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.RichFacesTest.AjaxTimeout.json
+│ --rw-r--r--  2.0 unx   142798 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.RichFacesTest.json
+│ --rw-r--r--  2.0 unx    16139 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.SeleniumDriverSetup.json
+│ --rw-r--r--  2.0 unx     6089 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.TimeoutStopTestException.json
+│  -rw-r--r--  2.0 unx    10180 b- defN 22-Aug-08 12:53 js/dragDropSim.js
+│  -rw-r--r--  2.0 unx    24197 b- defN 22-Aug-08 12:53 nl/hsac/fitnesse/fixture/Environment.class
+│  -rw-r--r--  2.0 unx     1226 b- defN 22-Aug-08 12:53 nl/hsac/fitnesse/fixture/fit/ClearStoredVariablesFixture.class
+│  -rw-r--r--  2.0 unx     2091 b- defN 22-Aug-08 12:53 nl/hsac/fitnesse/fixture/fit/CompareValuesFixture.class
+│  -rw-r--r--  2.0 unx      254 b- defN 22-Aug-08 12:53 nl/hsac/fitnesse/fixture/fit/MapColumnFixture$1.class
+│  -rw-r--r--  2.0 unx     1351 b- defN 22-Aug-08 12:53 nl/hsac/fitnesse/fixture/fit/MapColumnFixture$MapBinding.class
+│  -rw-r--r--  2.0 unx      769 b- defN 22-Aug-08 12:53 nl/hsac/fitnesse/fixture/fit/MapColumnFixture$NoSuchSymbolException.class
+│ @@ -365,8 +301,8 @@
+│  -rw-r--r--  2.0 unx      399 b- defN 22-Aug-08 12:53 templates/LBExchangeRate.ftl.xml
+│  -rw-r--r--  2.0 unx      401 b- defN 22-Aug-08 12:53 templates/generatedSuite.ftl.wiki
+│  -rw-r--r--  2.0 unx       13 b- defN 22-Aug-08 12:53 templates/greeting.ftl
+│  -rw-r--r--  2.0 unx       82 b- defN 22-Aug-08 12:53 templates/greeting.ftl.html
+│  -rw-r--r--  2.0 unx      268 b- defN 22-Aug-08 12:53 templates/samplePost.ftl.xml
+│  -rw-r--r--  2.0 unx    23474 b- defN 22-Aug-08 12:53 META-INF/maven/nl.hsac/hsac-fitnesse-fixtures/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 22-Aug-08 12:53 META-INF/maven/nl.hsac/hsac-fitnesse-fixtures/pom.properties
+│ -370 files, 2746739 bytes uncompressed, 602987 bytes compressed:  78.1%
+│ +306 files, 1079692 bytes uncompressed, 443292 bytes compressed:  58.9%
+├── zipnote «TEMP»/diffoscope_a9l8xhy2_target/tmp9f0dnqve_.zip
+│ @@ -1,16 +1,13 @@
+│  Filename: META-INF/MANIFEST.MF
+│  Comment: 
+│  
+│  Filename: META-INF/
+│  Comment: 
+│  
+│ -Filename: META-INF/apidocs/
+│ -Comment: 
+│ -
+│  Filename: js/
+│  Comment: 
+│  
+│  Filename: nl/
+│  Comment: 
+│  
+│  Filename: nl/hsac/
+│ @@ -93,203 +90,14 @@
+│  
+│  Filename: META-INF/maven/nl.hsac/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/nl.hsac/hsac-fitnesse-fixtures/
+│  Comment: 
+│  
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.ClearStoredVariablesFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.CompareValuesFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapColumnFixture.ParameterBinding.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapColumnFixture.SaveBinding.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapColumnFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapDefinitionFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapParameter.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.OurColumnFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.ReadFileFromFtpServerFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.ServiceAndCheckMapColumnFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.SoapCallMapColumnFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.SymbolsFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.TemplateBasedMapColumnFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.leanapps.LalCallColumnFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.leanapps.LalPolicyXPaths.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.leanapps.LalResponse.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.leanapps.ReportXmlFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.Base64Fixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.CompareFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.DateFormatFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.DateTimeCalculatorFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.ExecuteProgramTest.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.FileFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.FreemarkerFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.HtmlFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.HttpClientSetup.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.HttpTest.RepeatLastCall.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.HttpTest.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.JsonFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.JsonHttpTest.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.ListFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.MapFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.MapOfMapsFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.MockServerMessageReport.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.MockXmlServerSetup.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.PropertiesFileFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.ScriptLanguageFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixture.FunctionalCompletion.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixture.Negate.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixture.RepeatCompletion.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixtureException.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixtureWithMap.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixtureWithMapHelper.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimTableFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.StopTestException.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.StopTestFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.StringFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.TimerFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.ValuesFileFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.XmlFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.XmlHttpTest.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.YamlFileFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.BrowserTest.ConditionBasedRepeatUntil.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.BrowserTest.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.LayoutTest.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.Ng2BrowserTest.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.NgBrowserTest.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.NgBrowserTestBase.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.RichFacesTest.AjaxTimeout.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.RichFacesTest.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.SeleniumDriverSetup.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.TimeoutStopTestException.json
+│ -Comment: 
+│ -
+│  Filename: js/dragDropSim.js
+│  Comment: 
+│  
+│  Filename: nl/hsac/fitnesse/fixture/Environment.class
+│  Comment: 
+│  
+│  Filename: nl/hsac/fitnesse/fixture/fit/ClearStoredVariablesFixture.class
+
+2 /        3 target/reference/hsac-fitnesse-fixtures-5.2.12-standalone.zip target/hsac-fitnesse-fixtures-5.2.12-standalone.zip
+--- target/reference/hsac-fitnesse-fixtures-5.2.12-standalone.zip
++++ target/hsac-fitnesse-fixtures-5.2.12-standalone.zip
+├── zipinfo {}
+│ @@ -1,10 +1,9 @@
+│ -Zip file size: 73347508 bytes, number of entries: 705
+│ +Zip file size: 36477720 bytes, number of entries: 623
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 FitNesseRoot/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 webdrivers/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 FitNesseRoot/FrontPage/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 FitNesseRoot/HsacAcceptanceTests/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 FitNesseRoot/HsacAcceptanceTests/SlimTests/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 FitNesseRoot/HsacAcceptanceTests/SlimTests/BrowserTest/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 FitNesseRoot/HsacAcceptanceTests/SlimTests/BrowserTest/FrameHandlingTests/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 FitNesseRoot/HsacAcceptanceTests/SlimTests/BrowserTest/GridTests/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 FitNesseRoot/HsacAcceptanceTests/SlimTests/BrowserTest/RepeatUntilTests/
+│ @@ -20,16 +19,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 FitNesseRoot/HsacExamples/SlimTests/UtilityFixtures/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 FitNesseRoot/HsacExamples/SlimTests/UtilityFixtures/GeneratedSymbolicLinkSuite/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 FitNesseRoot/HsacExamples/SlimTests/UtilityFixtures/GeneratedSymbolicLinkSuite/_TestDefinition/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 FitNesseRoot/HsacExamples/SlimTests/UtilityFixtures/GeneratedSymbolicLinkSuite/_TestDefinition/ParameterizedTests/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 FitNesseRoot/HsacExamples/TaggedTestcases/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 FitNesseRoot/PlugIns/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 fixtures/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 fixtures/META-INF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 fixtures/META-INF/apidocs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 fixtures/js/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 fixtures/nl/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 fixtures/nl/hsac/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 fixtures/nl/hsac/fitnesse/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 fixtures/nl/hsac/fitnesse/fixture/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 fixtures/nl/hsac/fitnesse/fixture/fit/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 fixtures/nl/hsac/fitnesse/fixture/leanapps/
+│ @@ -55,18 +52,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 fixtures/templates/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 plugins/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 FitNesseRoot/files/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 FitNesseRoot/files/galenExamples/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 FitNesseRoot/files/httpPostExamples/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 FitNesseRoot/files/xmlTestExamples/
+│  -rw-r--r--  2.0 unx       19 b- defN 22-Aug-08 12:53 FitNesseRoot/.gitattributes
+│ --rwxr-xr-x  2.0 unx 16539120 b- defN 22-Aug-08 12:53 webdrivers/chromedriver-mac-64bit
+│ --rwxr-xr-x  2.0 unx 14983184 b- defN 22-Aug-08 12:53 webdrivers/chromedriver-mac_m1-64bit
+│ --rwxr-xr-x  2.0 unx  5125424 b- defN 22-Aug-08 12:53 webdrivers/geckodriver-mac-64bit
+│ --rwxr-xr-x  2.0 unx  4540592 b- defN 22-Aug-08 12:53 webdrivers/geckodriver-mac_m1-64bit
+│  -rw-r--r--  2.0 unx     1150 b- defN 22-Aug-08 12:53 FitNesseRoot/FrontPage/content.txt
+│  -rw-r--r--  2.0 unx      196 b- defN 22-Aug-08 12:53 FitNesseRoot/FrontPage/properties.xml
+│  -rw-r--r--  2.0 unx      280 b- defN 22-Aug-08 12:53 FitNesseRoot/HsacAcceptanceTests/FitTests.wiki
+│  -rw-r--r--  2.0 unx     3071 b- defN 22-Aug-08 12:53 FitNesseRoot/HsacAcceptanceTests/SlimTests/BrowserTest/AccessShadowDomTest.wiki
+│  -rw-r--r--  2.0 unx      793 b- defN 22-Aug-08 12:53 FitNesseRoot/HsacAcceptanceTests/SlimTests/BrowserTest/AlertHandlingTest.wiki
+│  -rw-r--r--  2.0 unx     1776 b- defN 22-Aug-08 12:53 FitNesseRoot/HsacAcceptanceTests/SlimTests/BrowserTest/AlertOptionalHandlingTest.wiki
+│  -rw-r--r--  2.0 unx     1414 b- defN 22-Aug-08 12:53 FitNesseRoot/HsacAcceptanceTests/SlimTests/BrowserTest/AriaLabelledTest.wiki
+│ @@ -252,77 +245,14 @@
+│  -rw-r--r--  2.0 unx      155 b- defN 22-Aug-08 12:53 FitNesseRoot/HsacExamples/TaggedTestcases/T004.wiki
+│  -rw-r--r--  2.0 unx      162 b- defN 22-Aug-08 12:53 FitNesseRoot/HsacExamples/TaggedTestcases/T005.wiki
+│  -rw-r--r--  2.0 unx      139 b- defN 22-Aug-08 12:53 FitNesseRoot/HsacExamples/TaggedTestcases/T006NoTags.wiki
+│  -rw-r--r--  2.0 unx     2929 b- defN 22-Aug-08 12:53 FitNesseRoot/HsacExamples/TaggedTestcases.wiki
+│  -rw-r--r--  2.0 unx    11732 b- defN 22-Aug-08 12:53 FitNesseRoot/HsacExamples.wiki
+│  -rw-r--r--  2.0 unx      364 b- defN 22-Aug-08 12:53 FitNesseRoot/PlugIns/properties.xml
+│  -rw-r--r--  2.0 unx  5191309 b- defN 22-Aug-08 12:53 fitnesse-standalone.jar
+│ --rw-r--r--  2.0 unx    15288 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.ClearStoredVariablesFixture.json
+│ --rw-r--r--  2.0 unx    23591 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.CompareValuesFixture.json
+│ --rw-r--r--  2.0 unx     2087 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapColumnFixture.ParameterBinding.json
+│ --rw-r--r--  2.0 unx     1717 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapColumnFixture.SaveBinding.json
+│ --rw-r--r--  2.0 unx    21892 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapColumnFixture.json
+│ --rw-r--r--  2.0 unx    22190 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapDefinitionFixture.json
+│ --rw-r--r--  2.0 unx    14509 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapParameter.json
+│ --rw-r--r--  2.0 unx    16084 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.OurColumnFixture.json
+│ --rw-r--r--  2.0 unx    23022 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.ReadFileFromFtpServerFixture.json
+│ --rw-r--r--  2.0 unx    27504 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.ServiceAndCheckMapColumnFixture.json
+│ --rw-r--r--  2.0 unx    31206 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.SoapCallMapColumnFixture.json
+│ --rw-r--r--  2.0 unx    13102 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.SymbolsFixture.json
+│ --rw-r--r--  2.0 unx    29219 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.TemplateBasedMapColumnFixture.json
+│ --rw-r--r--  2.0 unx    32180 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.leanapps.LalCallColumnFixture.json
+│ --rw-r--r--  2.0 unx    13712 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.leanapps.LalPolicyXPaths.json
+│ --rw-r--r--  2.0 unx    27283 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.leanapps.LalResponse.json
+│ --rw-r--r--  2.0 unx    19471 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.leanapps.ReportXmlFixture.json
+│ --rw-r--r--  2.0 unx     6718 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.Base64Fixture.json
+│ --rw-r--r--  2.0 unx     8808 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.CompareFixture.json
+│ --rw-r--r--  2.0 unx     9934 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.DateFormatFixture.json
+│ --rw-r--r--  2.0 unx     8287 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.DateTimeCalculatorFixture.json
+│ --rw-r--r--  2.0 unx    19682 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.ExecuteProgramTest.json
+│ --rw-r--r--  2.0 unx    28007 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.FileFixture.json
+│ --rw-r--r--  2.0 unx    17149 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.FreemarkerFixture.json
+│ --rw-r--r--  2.0 unx     5851 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.HtmlFixture.json
+│ --rw-r--r--  2.0 unx    16043 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.HttpClientSetup.json
+│ --rw-r--r--  2.0 unx      502 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.HttpTest.RepeatLastCall.json
+│ --rw-r--r--  2.0 unx    50037 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.HttpTest.json
+│ --rw-r--r--  2.0 unx     9444 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.JsonFixture.json
+│ --rw-r--r--  2.0 unx    56350 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.JsonHttpTest.json
+│ --rw-r--r--  2.0 unx    16048 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.ListFixture.json
+│ --rw-r--r--  2.0 unx    25414 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.MapFixture.json
+│ --rw-r--r--  2.0 unx     7871 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.MapOfMapsFixture.json
+│ --rw-r--r--  2.0 unx     5323 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.MockServerMessageReport.json
+│ --rw-r--r--  2.0 unx    14625 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.MockXmlServerSetup.json
+│ --rw-r--r--  2.0 unx    31831 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.PropertiesFileFixture.json
+│ --rw-r--r--  2.0 unx    21042 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.ScriptLanguageFixture.json
+│ --rw-r--r--  2.0 unx     2753 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixture.FunctionalCompletion.json
+│ --rw-r--r--  2.0 unx     1247 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixture.Negate.json
+│ --rw-r--r--  2.0 unx      857 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixture.RepeatCompletion.json
+│ --rw-r--r--  2.0 unx     4533 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixture.json
+│ --rw-r--r--  2.0 unx     6975 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixtureException.json
+│ --rw-r--r--  2.0 unx    14898 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixtureWithMap.json
+│ --rw-r--r--  2.0 unx     6368 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixtureWithMapHelper.json
+│ --rw-r--r--  2.0 unx     7494 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimTableFixture.json
+│ --rw-r--r--  2.0 unx     6921 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.StopTestException.json
+│ --rw-r--r--  2.0 unx     1844 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.StopTestFixture.json
+│ --rw-r--r--  2.0 unx    14927 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.StringFixture.json
+│ --rw-r--r--  2.0 unx    11368 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.TimerFixture.json
+│ --rw-r--r--  2.0 unx    31186 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.ValuesFileFixture.json
+│ --rw-r--r--  2.0 unx     9806 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.XmlFixture.json
+│ --rw-r--r--  2.0 unx    57316 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.XmlHttpTest.json
+│ --rw-r--r--  2.0 unx    32944 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.YamlFileFixture.json
+│ --rw-r--r--  2.0 unx     3054 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.BrowserTest.ConditionBasedRepeatUntil.json
+│ --rw-r--r--  2.0 unx   140677 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.BrowserTest.json
+│ --rw-r--r--  2.0 unx    18460 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.LayoutTest.json
+│ --rw-r--r--  2.0 unx   141946 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.Ng2BrowserTest.json
+│ --rw-r--r--  2.0 unx   146544 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.NgBrowserTest.json
+│ --rw-r--r--  2.0 unx   142185 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.NgBrowserTestBase.json
+│ --rw-r--r--  2.0 unx     4695 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.RichFacesTest.AjaxTimeout.json
+│ --rw-r--r--  2.0 unx   142798 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.RichFacesTest.json
+│ --rw-r--r--  2.0 unx    16139 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.SeleniumDriverSetup.json
+│ --rw-r--r--  2.0 unx     6089 b- defN 22-Aug-08 12:53 fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.TimeoutStopTestException.json
+│  -rw-r--r--  2.0 unx    29489 b- defN 22-Aug-08 12:53 fixtures/accessors-smart-2.4.7.jar
+│  -rw-r--r--  2.0 unx   121790 b- defN 22-Aug-08 12:53 fixtures/asm-9.1.jar
+│  -rw-r--r--  2.0 unx   451655 b- defN 22-Aug-08 12:53 fixtures/async-http-client-2.12.3.jar
+│  -rw-r--r--  2.0 unx     9939 b- defN 22-Aug-08 12:53 fixtures/async-http-client-netty-utils-2.12.3.jar
+│  -rw-r--r--  2.0 unx   110952 b- defN 22-Aug-08 12:53 fixtures/auto-common-1.2.jar
+│  -rw-r--r--  2.0 unx    12617 b- defN 22-Aug-08 12:53 fixtures/auto-service-1.0.1.jar
+│  -rw-r--r--  2.0 unx     3174 b- defN 22-Aug-08 12:53 fixtures/auto-service-annotations-1.0.1.jar
+│ @@ -681,27 +611,15 @@
+│  -rw-r--r--  2.0 unx      401 b- defN 22-Aug-08 12:53 fixtures/templates/generatedSuite.ftl.wiki
+│  -rw-r--r--  2.0 unx       13 b- defN 22-Aug-08 12:53 fixtures/templates/greeting.ftl
+│  -rw-r--r--  2.0 unx       82 b- defN 22-Aug-08 12:53 fixtures/templates/greeting.ftl.html
+│  -rw-r--r--  2.0 unx      268 b- defN 22-Aug-08 12:53 fixtures/templates/samplePost.ftl.xml
+│  -rw-r--r--  2.0 unx   246864 b- defN 22-Aug-08 12:53 plugins/hsac-fitnesse-plugin-1.32.2.jar
+│  -rw-r--r--  2.0 unx  4228725 b- defN 22-Aug-08 12:53 plugins/toolchain-fitnesse-plugin-2.0.14-jar-with-dependencies.jar
+│  -rw-r--r--  2.0 unx        0 b- defN 22-Aug-08 12:53 plugins.properties
+│ --rw-r--r--  2.0 unx      187 b- defN 22-Aug-08 12:53 webdrivers/chromedriver-mac-64bit.version
+│ --rw-r--r--  2.0 unx      193 b- defN 22-Aug-08 12:53 webdrivers/chromedriver-mac_m1-64bit.version
+│ --rw-r--r--  2.0 unx 11884544 b- defN 22-Aug-08 12:53 webdrivers/chromedriver-windows-32bit.exe
+│ --rw-r--r--  2.0 unx      191 b- defN 22-Aug-08 12:53 webdrivers/chromedriver-windows-32bit.version
+│ --rw-r--r--  2.0 unx 15277488 b- defN 22-Aug-08 12:53 webdrivers/edgedriver-windows-64bit.exe
+│ --rw-r--r--  2.0 unx      220 b- defN 22-Aug-08 12:53 webdrivers/edgedriver-windows-64bit.version
+│ --rw-r--r--  2.0 unx      197 b- defN 22-Aug-08 12:53 webdrivers/geckodriver-mac-64bit.version
+│ --rw-r--r--  2.0 unx      208 b- defN 22-Aug-08 12:53 webdrivers/geckodriver-mac_m1-64bit.version
+│ --rw-r--r--  2.0 unx  3738640 b- defN 22-Aug-08 12:53 webdrivers/geckodriver-windows-64bit.exe
+│ --rw-r--r--  2.0 unx      198 b- defN 22-Aug-08 12:53 webdrivers/geckodriver-windows-64bit.version
+│ --rw-r--r--  2.0 unx  3057152 b- defN 22-Aug-08 12:53 webdrivers/internetexplorerdriver-windows-32bit.exe
+│ --rw-r--r--  2.0 unx      216 b- defN 22-Aug-08 12:53 webdrivers/internetexplorerdriver-windows-32bit.version
+│  -rw-r--r--  2.0 unx      263 b- defN 22-Aug-08 12:53 FitNesseRoot/files/galenExamples/menuHighlight.gspec
+│  -rw-r--r--  2.0 unx    13264 b- defN 22-Aug-08 12:53 FitNesseRoot/files/httpPostExamples/test.pdf
+│  -rw-r--r--  2.0 unx     1522 b- defN 22-Aug-08 12:53 FitNesseRoot/files/httpPostExamples/test.png
+│  -rw-r--r--  2.0 unx       90 b- defN 22-Aug-08 12:53 FitNesseRoot/files/httpPostExamples/testFile.txt
+│  -rw-r--r--  2.0 unx      604 b- defN 22-Aug-08 12:53 FitNesseRoot/files/xmlTestExamples/invalid_shiporder.xml
+│  -rw-r--r--  2.0 unx     1155 b- defN 22-Aug-08 12:53 FitNesseRoot/files/xmlTestExamples/shiporder_schema.xsd
+│  -rw-r--r--  2.0 unx      621 b- defN 22-Aug-08 12:53 FitNesseRoot/files/xmlTestExamples/valid_shiporder.xml
+│ -705 files, 120150686 bytes uncompressed, 73204518 bytes compressed:  39.1%
+│ +623 files, 43335885 bytes uncompressed, 36352438 bytes compressed:  16.1%
+├── zipnote {}
+│ @@ -1,13 +1,10 @@
+│  Filename: FitNesseRoot/
+│  Comment: 
+│  
+│ -Filename: webdrivers/
+│ -Comment: 
+│ -
+│  Filename: FitNesseRoot/FrontPage/
+│  Comment: 
+│  
+│  Filename: FitNesseRoot/HsacAcceptanceTests/
+│  Comment: 
+│  
+│  Filename: FitNesseRoot/HsacAcceptanceTests/SlimTests/
+│ @@ -69,20 +66,14 @@
+│  
+│  Filename: FitNesseRoot/PlugIns/
+│  Comment: 
+│  
+│  Filename: fixtures/
+│  Comment: 
+│  
+│ -Filename: fixtures/META-INF/
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/
+│ -Comment: 
+│ -
+│  Filename: fixtures/js/
+│  Comment: 
+│  
+│  Filename: fixtures/nl/
+│  Comment: 
+│  
+│  Filename: fixtures/nl/hsac/
+│ @@ -174,26 +165,14 @@
+│  
+│  Filename: FitNesseRoot/files/xmlTestExamples/
+│  Comment: 
+│  
+│  Filename: FitNesseRoot/.gitattributes
+│  Comment: 
+│  
+│ -Filename: webdrivers/chromedriver-mac-64bit
+│ -Comment: 
+│ -
+│ -Filename: webdrivers/chromedriver-mac_m1-64bit
+│ -Comment: 
+│ -
+│ -Filename: webdrivers/geckodriver-mac-64bit
+│ -Comment: 
+│ -
+│ -Filename: webdrivers/geckodriver-mac_m1-64bit
+│ -Comment: 
+│ -
+│  Filename: FitNesseRoot/FrontPage/content.txt
+│  Comment: 
+│  
+│  Filename: FitNesseRoot/FrontPage/properties.xml
+│  Comment: 
+│  
+│  Filename: FitNesseRoot/HsacAcceptanceTests/FitTests.wiki
+│ @@ -765,203 +744,14 @@
+│  
+│  Filename: FitNesseRoot/PlugIns/properties.xml
+│  Comment: 
+│  
+│  Filename: fitnesse-standalone.jar
+│  Comment: 
+│  
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.ClearStoredVariablesFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.CompareValuesFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapColumnFixture.ParameterBinding.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapColumnFixture.SaveBinding.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapColumnFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapDefinitionFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapParameter.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.OurColumnFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.ReadFileFromFtpServerFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.ServiceAndCheckMapColumnFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.SoapCallMapColumnFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.SymbolsFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.TemplateBasedMapColumnFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.leanapps.LalCallColumnFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.leanapps.LalPolicyXPaths.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.leanapps.LalResponse.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.leanapps.ReportXmlFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.Base64Fixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.CompareFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.DateFormatFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.DateTimeCalculatorFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.ExecuteProgramTest.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.FileFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.FreemarkerFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.HtmlFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.HttpClientSetup.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.HttpTest.RepeatLastCall.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.HttpTest.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.JsonFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.JsonHttpTest.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.ListFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.MapFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.MapOfMapsFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.MockServerMessageReport.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.MockXmlServerSetup.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.PropertiesFileFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.ScriptLanguageFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixture.FunctionalCompletion.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixture.Negate.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixture.RepeatCompletion.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixtureException.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixtureWithMap.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixtureWithMapHelper.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimTableFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.StopTestException.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.StopTestFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.StringFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.TimerFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.ValuesFileFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.XmlFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.XmlHttpTest.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.YamlFileFixture.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.BrowserTest.ConditionBasedRepeatUntil.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.BrowserTest.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.LayoutTest.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.Ng2BrowserTest.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.NgBrowserTest.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.NgBrowserTestBase.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.RichFacesTest.AjaxTimeout.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.RichFacesTest.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.SeleniumDriverSetup.json
+│ -Comment: 
+│ -
+│ -Filename: fixtures/META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.TimeoutStopTestException.json
+│ -Comment: 
+│ -
+│  Filename: fixtures/accessors-smart-2.4.7.jar
+│  Comment: 
+│  
+│  Filename: fixtures/asm-9.1.jar
+│  Comment: 
+│  
+│  Filename: fixtures/async-http-client-2.12.3.jar
+│ @@ -2052,50 +1842,14 @@
+│  
+│  Filename: plugins/toolchain-fitnesse-plugin-2.0.14-jar-with-dependencies.jar
+│  Comment: 
+│  
+│  Filename: plugins.properties
+│  Comment: 
+│  
+│ -Filename: webdrivers/chromedriver-mac-64bit.version
+│ -Comment: 
+│ -
+│ -Filename: webdrivers/chromedriver-mac_m1-64bit.version
+│ -Comment: 
+│ -
+│ -Filename: webdrivers/chromedriver-windows-32bit.exe
+│ -Comment: 
+│ -
+│ -Filename: webdrivers/chromedriver-windows-32bit.version
+│ -Comment: 
+│ -
+│ -Filename: webdrivers/edgedriver-windows-64bit.exe
+│ -Comment: 
+│ -
+│ -Filename: webdrivers/edgedriver-windows-64bit.version
+│ -Comment: 
+│ -
+│ -Filename: webdrivers/geckodriver-mac-64bit.version
+│ -Comment: 
+│ -
+│ -Filename: webdrivers/geckodriver-mac_m1-64bit.version
+│ -Comment: 
+│ -
+│ -Filename: webdrivers/geckodriver-windows-64bit.exe
+│ -Comment: 
+│ -
+│ -Filename: webdrivers/geckodriver-windows-64bit.version
+│ -Comment: 
+│ -
+│ -Filename: webdrivers/internetexplorerdriver-windows-32bit.exe
+│ -Comment: 
+│ -
+│ -Filename: webdrivers/internetexplorerdriver-windows-32bit.version
+│ -Comment: 
+│ -
+│  Filename: FitNesseRoot/files/galenExamples/menuHighlight.gspec
+│  Comment: 
+│  
+│  Filename: FitNesseRoot/files/httpPostExamples/test.pdf
+│  Comment: 
+│  
+│  Filename: FitNesseRoot/files/httpPostExamples/test.png
+
+3 /        3 target/reference/hsac-fitnesse-fixtures-5.2.12-sources.jar target/hsac-fitnesse-fixtures-5.2.12-sources.jar
+--- target/reference/hsac-fitnesse-fixtures-5.2.12-sources.jar
++++ target/hsac-fitnesse-fixtures-5.2.12-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 453268 bytes, number of entries: 298
+│ +Zip file size: 279767 bytes, number of entries: 234
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Aug-08 12:53 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 nl/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 nl/hsac/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 nl/hsac/fitnesse/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 nl/hsac/fitnesse/fixture/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 nl/hsac/fitnesse/fixture/fit/
+│ @@ -22,15 +22,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 nl/hsac/fitnesse/junit/reportmerge/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 nl/hsac/fitnesse/junit/reportmerge/writer/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 nl/hsac/fitnesse/junit/selenium/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 nl/hsac/fitnesse/sample/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 nl/hsac/fitnesse/slim/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 nl/hsac/fitnesse/slim/converter/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 nl/hsac/fitnesse/slim/interaction/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 META-INF/apidocs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 js/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 templates/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 META-INF/maven/nl.hsac/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 12:53 META-INF/maven/nl.hsac/hsac-fitnesse-fixtures/
+│  -rw-r--r--  2.0 unx    29570 b- defN 22-Aug-08 12:53 nl/hsac/fitnesse/fixture/Environment.java
+│  -rw-r--r--  2.0 unx      660 b- defN 22-Aug-08 12:53 nl/hsac/fitnesse/fixture/fit/ClearStoredVariablesFixture.java
+│ @@ -221,80 +220,17 @@
+│  -rw-r--r--  2.0 unx     1273 b- defN 22-Aug-08 12:53 nl/hsac/fitnesse/sample/ToLithuanianLitaFixture.java
+│  -rw-r--r--  2.0 unx      235 b- defN 22-Aug-08 12:53 nl/hsac/fitnesse/sample/ToLithuanianLitaRetryingFixture.java
+│  -rw-r--r--  2.0 unx     3826 b- defN 22-Aug-08 12:53 nl/hsac/fitnesse/slim/converter/NumberedListConverter.java
+│  -rw-r--r--  2.0 unx      462 b- defN 22-Aug-08 12:53 nl/hsac/fitnesse/slim/converter/ObjectConverter.java
+│  -rw-r--r--  2.0 unx      952 b- defN 22-Aug-08 12:53 nl/hsac/fitnesse/slim/interaction/ExceptionHelper.java
+│  -rw-r--r--  2.0 unx     8297 b- defN 22-Aug-08 12:53 nl/hsac/fitnesse/slim/interaction/FixtureFactory.java
+│  -rw-r--r--  2.0 unx     1135 b- defN 22-Aug-08 12:53 nl/hsac/fitnesse/slim/interaction/ReflectionHelper.java
+│ --rw-r--r--  2.0 unx    15288 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.ClearStoredVariablesFixture.json
+│ --rw-r--r--  2.0 unx    23591 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.CompareValuesFixture.json
+│ --rw-r--r--  2.0 unx     2087 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapColumnFixture.ParameterBinding.json
+│ --rw-r--r--  2.0 unx     1717 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapColumnFixture.SaveBinding.json
+│ --rw-r--r--  2.0 unx    21892 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapColumnFixture.json
+│ --rw-r--r--  2.0 unx    22190 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapDefinitionFixture.json
+│ --rw-r--r--  2.0 unx    14509 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapParameter.json
+│ --rw-r--r--  2.0 unx    16084 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.OurColumnFixture.json
+│ --rw-r--r--  2.0 unx    23022 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.ReadFileFromFtpServerFixture.json
+│ --rw-r--r--  2.0 unx    27504 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.ServiceAndCheckMapColumnFixture.json
+│ --rw-r--r--  2.0 unx    31206 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.SoapCallMapColumnFixture.json
+│ --rw-r--r--  2.0 unx    13102 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.SymbolsFixture.json
+│ --rw-r--r--  2.0 unx    29219 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.TemplateBasedMapColumnFixture.json
+│ --rw-r--r--  2.0 unx    32180 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.leanapps.LalCallColumnFixture.json
+│ --rw-r--r--  2.0 unx    13712 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.leanapps.LalPolicyXPaths.json
+│ --rw-r--r--  2.0 unx    27283 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.leanapps.LalResponse.json
+│ --rw-r--r--  2.0 unx    19471 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.leanapps.ReportXmlFixture.json
+│ --rw-r--r--  2.0 unx     6718 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.Base64Fixture.json
+│ --rw-r--r--  2.0 unx     8808 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.CompareFixture.json
+│ --rw-r--r--  2.0 unx     9934 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.DateFormatFixture.json
+│ --rw-r--r--  2.0 unx     8287 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.DateTimeCalculatorFixture.json
+│ --rw-r--r--  2.0 unx    19682 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.ExecuteProgramTest.json
+│ --rw-r--r--  2.0 unx    28007 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.FileFixture.json
+│ --rw-r--r--  2.0 unx    17149 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.FreemarkerFixture.json
+│ --rw-r--r--  2.0 unx     5851 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.HtmlFixture.json
+│ --rw-r--r--  2.0 unx    16043 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.HttpClientSetup.json
+│ --rw-r--r--  2.0 unx      502 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.HttpTest.RepeatLastCall.json
+│ --rw-r--r--  2.0 unx    50037 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.HttpTest.json
+│ --rw-r--r--  2.0 unx     9444 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.JsonFixture.json
+│ --rw-r--r--  2.0 unx    56350 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.JsonHttpTest.json
+│ --rw-r--r--  2.0 unx    16048 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.ListFixture.json
+│ --rw-r--r--  2.0 unx    25414 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.MapFixture.json
+│ --rw-r--r--  2.0 unx     7871 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.MapOfMapsFixture.json
+│ --rw-r--r--  2.0 unx     5323 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.MockServerMessageReport.json
+│ --rw-r--r--  2.0 unx    14625 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.MockXmlServerSetup.json
+│ --rw-r--r--  2.0 unx    31831 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.PropertiesFileFixture.json
+│ --rw-r--r--  2.0 unx    21042 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.ScriptLanguageFixture.json
+│ --rw-r--r--  2.0 unx     2753 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixture.FunctionalCompletion.json
+│ --rw-r--r--  2.0 unx     1247 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixture.Negate.json
+│ --rw-r--r--  2.0 unx      857 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixture.RepeatCompletion.json
+│ --rw-r--r--  2.0 unx     4533 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixture.json
+│ --rw-r--r--  2.0 unx     6975 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixtureException.json
+│ --rw-r--r--  2.0 unx    14898 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixtureWithMap.json
+│ --rw-r--r--  2.0 unx     6368 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixtureWithMapHelper.json
+│ --rw-r--r--  2.0 unx     7494 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimTableFixture.json
+│ --rw-r--r--  2.0 unx     6921 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.StopTestException.json
+│ --rw-r--r--  2.0 unx     1844 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.StopTestFixture.json
+│ --rw-r--r--  2.0 unx    14927 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.StringFixture.json
+│ --rw-r--r--  2.0 unx    11368 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.TimerFixture.json
+│ --rw-r--r--  2.0 unx    31186 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.ValuesFileFixture.json
+│ --rw-r--r--  2.0 unx     9806 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.XmlFixture.json
+│ --rw-r--r--  2.0 unx    57316 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.XmlHttpTest.json
+│ --rw-r--r--  2.0 unx    32944 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.YamlFileFixture.json
+│ --rw-r--r--  2.0 unx     3054 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.BrowserTest.ConditionBasedRepeatUntil.json
+│ --rw-r--r--  2.0 unx   140677 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.BrowserTest.json
+│ --rw-r--r--  2.0 unx    18460 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.LayoutTest.json
+│ --rw-r--r--  2.0 unx   141946 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.Ng2BrowserTest.json
+│ --rw-r--r--  2.0 unx   146544 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.NgBrowserTest.json
+│ --rw-r--r--  2.0 unx   142185 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.NgBrowserTestBase.json
+│ --rw-r--r--  2.0 unx     4695 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.RichFacesTest.AjaxTimeout.json
+│ --rw-r--r--  2.0 unx   142798 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.RichFacesTest.json
+│ --rw-r--r--  2.0 unx    16139 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.SeleniumDriverSetup.json
+│ --rw-r--r--  2.0 unx     6089 b- defN 22-Aug-08 12:53 META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.TimeoutStopTestException.json
+│  -rw-r--r--  2.0 unx    10180 b- defN 22-Aug-08 12:53 js/dragDropSim.js
+│  -rw-r--r--  2.0 unx      399 b- defN 22-Aug-08 12:53 templates/ConversionRate.ftl.xml
+│  -rw-r--r--  2.0 unx      399 b- defN 22-Aug-08 12:53 templates/LBExchangeRate.ftl.xml
+│  -rw-r--r--  2.0 unx      401 b- defN 22-Aug-08 12:53 templates/generatedSuite.ftl.wiki
+│  -rw-r--r--  2.0 unx       13 b- defN 22-Aug-08 12:53 templates/greeting.ftl
+│  -rw-r--r--  2.0 unx       82 b- defN 22-Aug-08 12:53 templates/greeting.ftl.html
+│  -rw-r--r--  2.0 unx      268 b- defN 22-Aug-08 12:53 templates/samplePost.ftl.xml
+│  -rw-r--r--  2.0 unx    23474 b- defN 22-Aug-08 12:53 META-INF/maven/nl.hsac/hsac-fitnesse-fixtures/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 22-Aug-08 12:53 META-INF/maven/nl.hsac/hsac-fitnesse-fixtures/pom.properties
+│ -298 files, 2643965 bytes uncompressed, 397744 bytes compressed:  85.0%
+│ +234 files, 976918 bytes uncompressed, 238049 bytes compressed:  75.6%
+├── zipnote «TEMP»/diffoscope_bj4rc37l_target/tmp8sri35os_.zip
+│ @@ -75,17 +75,14 @@
+│  
+│  Filename: nl/hsac/fitnesse/slim/converter/
+│  Comment: 
+│  
+│  Filename: nl/hsac/fitnesse/slim/interaction/
+│  Comment: 
+│  
+│ -Filename: META-INF/apidocs/
+│ -Comment: 
+│ -
+│  Filename: js/
+│  Comment: 
+│  
+│  Filename: templates/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/
+│ @@ -672,203 +669,14 @@
+│  
+│  Filename: nl/hsac/fitnesse/slim/interaction/FixtureFactory.java
+│  Comment: 
+│  
+│  Filename: nl/hsac/fitnesse/slim/interaction/ReflectionHelper.java
+│  Comment: 
+│  
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.ClearStoredVariablesFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.CompareValuesFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapColumnFixture.ParameterBinding.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapColumnFixture.SaveBinding.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapColumnFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapDefinitionFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.MapParameter.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.OurColumnFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.ReadFileFromFtpServerFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.ServiceAndCheckMapColumnFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.SoapCallMapColumnFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.SymbolsFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.fit.TemplateBasedMapColumnFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.leanapps.LalCallColumnFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.leanapps.LalPolicyXPaths.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.leanapps.LalResponse.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.leanapps.ReportXmlFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.Base64Fixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.CompareFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.DateFormatFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.DateTimeCalculatorFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.ExecuteProgramTest.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.FileFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.FreemarkerFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.HtmlFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.HttpClientSetup.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.HttpTest.RepeatLastCall.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.HttpTest.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.JsonFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.JsonHttpTest.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.ListFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.MapFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.MapOfMapsFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.MockServerMessageReport.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.MockXmlServerSetup.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.PropertiesFileFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.ScriptLanguageFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixture.FunctionalCompletion.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixture.Negate.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixture.RepeatCompletion.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixtureException.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixtureWithMap.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimFixtureWithMapHelper.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.SlimTableFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.StopTestException.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.StopTestFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.StringFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.TimerFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.ValuesFileFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.XmlFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.XmlHttpTest.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.YamlFileFixture.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.BrowserTest.ConditionBasedRepeatUntil.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.BrowserTest.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.LayoutTest.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.Ng2BrowserTest.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.NgBrowserTest.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.NgBrowserTestBase.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.RichFacesTest.AjaxTimeout.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.RichFacesTest.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.SeleniumDriverSetup.json
+│ -Comment: 
+│ -
+│ -Filename: META-INF/apidocs/nl.hsac.fitnesse.fixture.slim.web.TimeoutStopTestException.json
+│ -Comment: 
+│ -
+│  Filename: js/dragDropSim.js
+│  Comment: 
+│  
+│  Filename: templates/ConversionRate.ftl.xml
+│  Comment: 
+│  
+│  Filename: templates/LBExchangeRate.ftl.xml
+
