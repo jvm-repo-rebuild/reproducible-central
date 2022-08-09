@@ -1,0 +1,827 @@
+1 /       13 target/reference/syncope-2.1.12-source-release.zip target/syncope-2.1.12-source-release.zip
+--- target/reference/syncope-2.1.12-source-release.zip
++++ target/syncope-2.1.12-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 11160961 bytes, number of entries: 6127
+│ +Zip file size: 11162208 bytes, number of entries: 6128
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 syncope-2.1.12/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 syncope-2.1.12/.github/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 syncope-2.1.12/.github/workflows/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 syncope-2.1.12/archetype/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 syncope-2.1.12/archetype/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 syncope-2.1.12/archetype/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 syncope-2.1.12/archetype/src/main/resources/
+│ @@ -1513,14 +1513,15 @@
+│  -rw-r--r--  2.0 unx    14863 b- defN 22-Aug-05 08:41 syncope-2.1.12/archetype/pom.xml
+│  -rw-r--r--  2.0 unx     3414 b- defN 22-Aug-05 08:41 syncope-2.1.12/archetype/src/main/resources/META-INF/maven/archetype-metadata.xml
+│  -rw-r--r--  2.0 unx     1881 b- defN 22-Aug-05 08:41 syncope-2.1.12/archetype/src/main/resources/archetype-resources/common/pom.xml
+│  -rw-r--r--  2.0 unx     4704 b- defN 22-Aug-05 08:41 syncope-2.1.12/archetype/src/main/resources/archetype-resources/console/pom.xml
+│  -rw-r--r--  2.0 unx     7615 b- defN 22-Aug-05 08:41 syncope-2.1.12/archetype/src/main/resources/archetype-resources/core/pom.xml
+│  -rw-r--r--  2.0 unx     3593 b- defN 22-Aug-05 08:41 syncope-2.1.12/archetype/src/main/resources/archetype-resources/core/src/test/resources/addFlowableToContent.xsl
+│  -rw-r--r--  2.0 unx    13601 b- defN 22-Aug-05 08:41 syncope-2.1.12/archetype/src/main/resources/archetype-resources/enduser/pom.xml
+│ +-rw-r--r--  2.0 unx     3167 b- defN 22-Aug-05 08:41 syncope-2.1.12/archetype/src/main/resources/archetype-resources/pom.xml
+│  -rw-r--r--  2.0 unx     3157 b- defN 22-Aug-05 08:41 syncope-2.1.12/archetype/src/main/resources/meta-pom.xml
+│  -rw-r--r--  2.0 unx     1565 b- defN 22-Aug-05 08:41 syncope-2.1.12/archetype/src/main/resources/properties2pom.xsl
+│  -rw-r--r--  2.0 unx      961 b- defN 22-Aug-05 08:41 syncope-2.1.12/archetype/src/test/resources/projects/default/archetype.properties
+│  -rw-r--r--  2.0 unx        0 b- defN 22-Aug-05 08:41 syncope-2.1.12/archetype/src/test/resources/projects/default/goal.txt
+│  -rw-r--r--  2.0 unx    43287 b- defN 22-Aug-05 08:41 syncope-2.1.12/client/cli/LICENSE
+│  -rw-r--r--  2.0 unx     1976 b- defN 22-Aug-05 08:41 syncope-2.1.12/client/cli/NOTICE
+│  -rw-r--r--  2.0 unx     6014 b- defN 22-Aug-05 08:41 syncope-2.1.12/client/cli/pom.xml
+│ @@ -6122,8 +6123,8 @@
+│  -rw-r--r--  2.0 unx    62987 b- defN 22-Aug-05 08:41 syncope-2.1.12/standalone/LICENSE
+│  -rw-r--r--  2.0 unx    10159 b- defN 22-Aug-05 08:41 syncope-2.1.12/standalone/NOTICE
+│  -rw-r--r--  2.0 unx    13161 b- defN 22-Aug-05 08:41 syncope-2.1.12/standalone/pom.xml
+│  -rw-r--r--  2.0 unx     1438 b- defN 22-Aug-05 08:41 syncope-2.1.12/standalone/src/assemble/standalone-zip.xml
+│  -rw-r--r--  2.0 unx      620 b- defN 22-Aug-05 08:41 syncope-2.1.12/standalone/src/main/resources/README
+│  -rw-r--r--  2.0 unx      979 b- defN 22-Aug-05 08:41 syncope-2.1.12/standalone/src/main/resources/setenv.bat
+│  -rw-r--r--  2.0 unx      960 b- defN 22-Aug-05 08:41 syncope-2.1.12/standalone/src/main/resources/setenv.sh
+│ -6127 files, 22553962 bytes uncompressed, 9476543 bytes compressed:  58.0%
+│ +6128 files, 22557129 bytes uncompressed, 9477572 bytes compressed:  58.0%
+├── zipnote {}
+│ @@ -4548,14 +4548,17 @@
+│  
+│  Filename: syncope-2.1.12/archetype/src/main/resources/archetype-resources/core/src/test/resources/addFlowableToContent.xsl
+│  Comment: 
+│  
+│  Filename: syncope-2.1.12/archetype/src/main/resources/archetype-resources/enduser/pom.xml
+│  Comment: 
+│  
+│ +Filename: syncope-2.1.12/archetype/src/main/resources/archetype-resources/pom.xml
+│ +Comment: 
+│ +
+│  Filename: syncope-2.1.12/archetype/src/main/resources/meta-pom.xml
+│  Comment: 
+│  
+│  Filename: syncope-2.1.12/archetype/src/main/resources/properties2pom.xsl
+│  Comment: 
+│  
+│  Filename: syncope-2.1.12/archetype/src/test/resources/projects/default/archetype.properties
+
+2 /       13 target/reference/syncope-2.1.12-source-release.zip.sha512 target/syncope-2.1.12-source-release.zip.sha512
+--- target/reference/syncope-2.1.12-source-release.zip.sha512
++++ target/syncope-2.1.12-source-release.zip.sha512
+@@ -1 +1 @@
+-3973879d834d9ca8fac2a145b3727f6d37cac337cd735ce0541af2f4f34d23fe09cdf949cf60b274c197aa18b3779b8e7ecefb11c9613c34b466d63585e11670
++81d4d79c6600f4883da469bb0a08523967ce962ef485f6b6f2b81680aaa427c8c9df427f6c39febe87a40d6d20ea429fd949752dcbdbfaed2d08386c4aaa075b
+
+3 /       13 target/reference/syncope-core-spring-2.1.12.jar core/spring/target/syncope-core-spring-2.1.12.jar
+--- target/reference/syncope-core-spring-2.1.12.jar
++++ core/spring/target/syncope-core-spring-2.1.12.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 89220 bytes, number of entries: 58
+│ +Zip file size: 89251 bytes, number of entries: 58
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/
+│  -rw-r--r--  2.0 unx      350 b- defN 22-Aug-05 08:41 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 org/apache/syncope/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 org/apache/syncope/core/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 org/apache/syncope/core/spring/
+│ @@ -49,12 +49,12 @@
+│  -rw-r--r--  2.0 unx     1288 b- defN 22-Aug-05 08:41 org/apache/syncope/core/spring/security/SyncopeBasicAuthenticationEntryPoint.class
+│  -rw-r--r--  2.0 unx     3977 b- defN 22-Aug-05 08:41 org/apache/syncope/core/spring/security/SyncopeGrantedAuthority.class
+│  -rw-r--r--  2.0 unx      962 b- defN 22-Aug-05 08:41 org/apache/syncope/core/spring/security/SyncopeJWTSSOProvider$1.class
+│  -rw-r--r--  2.0 unx     4992 b- defN 22-Aug-05 08:41 org/apache/syncope/core/spring/security/SyncopeJWTSSOProvider.class
+│  -rw-r--r--  2.0 unx    10575 b- defN 22-Aug-05 08:41 org/apache/syncope/core/spring/security/UsernamePasswordAuthenticationProvider.class
+│  -rw-r--r--  2.0 unx     3797 b- defN 22-Aug-05 08:41 org/apache/syncope/core/spring/security/jws/AccessTokenJwsSignatureProvider.class
+│  -rw-r--r--  2.0 unx     3860 b- defN 22-Aug-05 08:41 org/apache/syncope/core/spring/security/jws/AccessTokenJwsSignatureVerifier.class
+│ --rw-r--r--  2.0 unx     1556 b- defN 22-Aug-05 08:41 security.properties
+│ +-rw-r--r--  2.0 unx     1603 b- defN 22-Aug-05 08:41 security.properties
+│  -rw-r--r--  2.0 unx     6860 b- defN 22-Aug-05 08:41 securityContext.xml
+│  -rw-r--r--  2.0 unx     4250 b- defN 22-Aug-05 08:41 META-INF/maven/org.apache.syncope.core/syncope-core-spring/pom.xml
+│  -rw-r--r--  2.0 unx       78 b- defN 22-Aug-05 08:41 META-INF/maven/org.apache.syncope.core/syncope-core-spring/pom.properties
+│ -58 files, 210143 bytes uncompressed, 78440 bytes compressed:  62.7%
+│ +58 files, 210190 bytes uncompressed, 78471 bytes compressed:  62.7%
+├── security.properties
+│ @@ -10,15 +10,15 @@
+│  #
+│  # Unless required by applicable law or agreed to in writing,
+│  # software distributed under the License is distributed on an
+│  # "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+│  # KIND, either express or implied.  See the License for the
+│  # specific language governing permissions and limitations
+│  # under the License.
+│ -conf.directory=/home/ilgrosso/work/syncope/syncope/target/checkout/core/spring/target/test-classes
+│ +conf.directory=/Users/hboutemy/dev/maven/other/reproducible-central/content/org/apache/syncope/buildcache/syncope/core/spring/target/test-classes
+│  
+│  adminUser=admin
+│  adminPassword=DE088591C00CC98B36F5ADAAF7DA2B004CF7F2FE7BBB45B766B6409876E2F3DB13C7905C6AA59464
+│  adminPasswordAlgorithm=SSHA256
+│  
+│  anonymousUser=anonymous
+│  anonymousKey=anonymousKey
+
+4 /       13 target/reference/syncope-core-persistence-jpa-2.1.12.jar core/persistence-jpa/target/syncope-core-persistence-jpa-2.1.12.jar
+--- target/reference/syncope-core-persistence-jpa-2.1.12.jar
++++ core/persistence-jpa/target/syncope-core-persistence-jpa-2.1.12.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 725536 bytes, number of entries: 299
+│ +Zip file size: 725563 bytes, number of entries: 299
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/
+│  -rw-r--r--  2.0 unx      368 b- defN 22-Aug-05 08:41 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 audit/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 domains/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 org/apache/syncope/
+│ @@ -289,13 +289,13 @@
+│  -rw-r--r--  2.0 unx     3046 b- defN 22-Aug-05 08:41 org/apache/syncope/core/persistence/jpa/validation/entity/SchemaKeyValidator.class
+│  -rw-r--r--  2.0 unx     1183 b- defN 22-Aug-05 08:41 org/springframework/orm/jpa/vendor/OpenJpaDialect$OpenJpaConnectionHandle.class
+│  -rw-r--r--  2.0 unx     2148 b- defN 22-Aug-05 08:41 org/springframework/orm/jpa/vendor/OpenJpaDialect$OpenJpaTransactionData.class
+│  -rw-r--r--  2.0 unx     2912 b- defN 22-Aug-05 08:41 org/springframework/orm/jpa/vendor/OpenJpaDialect.class
+│  -rw-r--r--  2.0 unx     1159 b- defN 22-Aug-05 08:41 org/springframework/orm/jpa/vendor/OpenJpaVendorAdapter$1.class
+│  -rw-r--r--  2.0 unx     3478 b- defN 22-Aug-05 08:41 org/springframework/orm/jpa/vendor/OpenJpaVendorAdapter.class
+│  -rw-r--r--  2.0 unx     1302 b- defN 22-Aug-05 08:41 persistence-enhance.xml
+│ --rw-r--r--  2.0 unx     1740 b- defN 22-Aug-05 08:41 persistence.properties
+│ +-rw-r--r--  2.0 unx     1787 b- defN 22-Aug-05 08:41 persistence.properties
+│  -rw-r--r--  2.0 unx     3093 b- defN 22-Aug-05 08:41 persistenceContext.xml
+│  -rw-r--r--  2.0 unx     7190 b- defN 22-Aug-05 08:41 views.xml
+│  -rw-r--r--  2.0 unx     7407 b- defN 22-Aug-05 08:41 META-INF/maven/org.apache.syncope.core/syncope-core-persistence-jpa/pom.xml
+│  -rw-r--r--  2.0 unx       87 b- defN 22-Aug-05 08:41 META-INF/maven/org.apache.syncope.core/syncope-core-persistence-jpa/pom.properties
+│ -299 files, 1897187 bytes uncompressed, 663200 bytes compressed:  65.0%
+│ +299 files, 1897234 bytes uncompressed, 663227 bytes compressed:  65.0%
+├── persistence.properties
+│ @@ -10,15 +10,15 @@
+│  #
+│  # Unless required by applicable law or agreed to in writing,
+│  # software distributed under the License is distributed on an
+│  # "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+│  # KIND, either express or implied.  See the License for the
+│  # specific language governing permissions and limitations
+│  # under the License.
+│ -content.directory=/home/ilgrosso/work/syncope/syncope/target/checkout/core/persistence-jpa/target/test-classes
+│ +content.directory=/Users/hboutemy/dev/maven/other/reproducible-central/content/org/apache/syncope/buildcache/syncope/core/persistence-jpa/target/test-classes
+│  entity.factory=org.apache.syncope.core.persistence.jpa.entity.JPAEntityFactory
+│  plainSchema.dao=org.apache.syncope.core.persistence.jpa.dao.JPAPlainSchemaDAO
+│  plainAttr.dao=org.apache.syncope.core.persistence.jpa.dao.JPAPlainAttrDAO
+│  plainAttrValue.dao=org.apache.syncope.core.persistence.jpa.dao.JPAPlainAttrValueDAO
+│  any.search.dao=org.apache.syncope.core.persistence.jpa.dao.JPAAnySearchDAO
+│  any.search.visitor=org.apache.syncope.core.persistence.api.search.SearchCondVisitor
+│  user.dao=org.apache.syncope.core.persistence.jpa.dao.JPAUserDAO
+
+5 /       13 target/reference/syncope-core-persistence-jpa-json-2.1.12.jar core/persistence-jpa-json/target/syncope-core-persistence-jpa-json-2.1.12.jar
+--- target/reference/syncope-core-persistence-jpa-json-2.1.12.jar
++++ core/persistence-jpa-json/target/syncope-core-persistence-jpa-json-2.1.12.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 143148 bytes, number of entries: 112
+│ +Zip file size: 143204 bytes, number of entries: 112
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/
+│  -rw-r--r--  2.0 unx      378 b- defN 22-Aug-05 08:41 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 audit/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 domains/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 myjson/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 myjson/domains/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 org/
+│ @@ -33,15 +33,15 @@
+│  -rw-r--r--  2.0 unx     5955 b- defN 22-Aug-05 08:41 META-INF/spring-orm-myjson.xml
+│  -rw-r--r--  2.0 unx     5960 b- defN 22-Aug-05 08:41 META-INF/spring-orm-pgjsonb.xml
+│  -rw-r--r--  2.0 unx      997 b- defN 22-Aug-05 08:41 audit/audit_myjson.sql
+│  -rw-r--r--  2.0 unx     1067 b- defN 22-Aug-05 08:41 audit/audit_pgjsonb.sql
+│  -rw-r--r--  2.0 unx    11104 b- defN 22-Aug-05 08:41 domains/MasterContent.xml
+│  -rw-r--r--  2.0 unx     1246 b- defN 22-Aug-05 08:41 myjson/domains/Master.properties
+│  -rw-r--r--  2.0 unx     3291 b- defN 22-Aug-05 08:41 myjson/indexes.xml
+│ --rw-r--r--  2.0 unx     1793 b- defN 22-Aug-05 08:41 myjson/persistence.properties
+│ +-rw-r--r--  2.0 unx     1840 b- defN 22-Aug-05 08:41 myjson/persistence.properties
+│  -rw-r--r--  2.0 unx     6212 b- defN 22-Aug-05 08:41 myjson/views.xml
+│  -rw-r--r--  2.0 unx     2036 b- defN 22-Aug-05 08:41 org/apache/syncope/core/persistence/api/dao/JPAJSONAnyDAO.class
+│  -rw-r--r--  2.0 unx      674 b- defN 22-Aug-05 08:41 org/apache/syncope/core/persistence/api/entity/JSONAttributable.class
+│  -rw-r--r--  2.0 unx      525 b- defN 22-Aug-05 08:41 org/apache/syncope/core/persistence/api/entity/JSONLAPlainAttr.class
+│  -rw-r--r--  2.0 unx      511 b- defN 22-Aug-05 08:41 org/apache/syncope/core/persistence/api/entity/JSONPlainAttr.class
+│  -rw-r--r--  2.0 unx     1010 b- defN 22-Aug-05 08:41 org/apache/syncope/core/persistence/jpa/dao/AbstractJPAJSONAnyDAO$1.class
+│  -rw-r--r--  2.0 unx    15814 b- defN 22-Aug-05 08:41 org/apache/syncope/core/persistence/jpa/dao/AbstractJPAJSONAnyDAO.class
+│ @@ -103,12 +103,12 @@
+│  -rw-r--r--  2.0 unx      968 b- defN 22-Aug-05 08:41 org/apache/syncope/core/persistence/jpa/entity/user/JPAJSONUserListener$1.class
+│  -rw-r--r--  2.0 unx     2163 b- defN 22-Aug-05 08:41 org/apache/syncope/core/persistence/jpa/entity/user/JPAJSONUserListener.class
+│  -rw-r--r--  2.0 unx      953 b- defN 22-Aug-05 08:41 org/apache/syncope/core/persistence/jpa/validation/entity/JPAJSONAttributableCheck.class
+│  -rw-r--r--  2.0 unx     5630 b- defN 22-Aug-05 08:41 org/apache/syncope/core/persistence/jpa/validation/entity/JPAJSONAttributableValidator.class
+│  -rw-r--r--  2.0 unx     1310 b- defN 22-Aug-05 08:41 persistence-enhance.xml
+│  -rw-r--r--  2.0 unx     1166 b- defN 22-Aug-05 08:41 pgjsonb/domains/Master.properties
+│  -rw-r--r--  2.0 unx     4966 b- defN 22-Aug-05 08:41 pgjsonb/indexes.xml
+│ --rw-r--r--  2.0 unx     1793 b- defN 22-Aug-05 08:41 pgjsonb/persistence.properties
+│ +-rw-r--r--  2.0 unx     1840 b- defN 22-Aug-05 08:41 pgjsonb/persistence.properties
+│  -rw-r--r--  2.0 unx     4342 b- defN 22-Aug-05 08:41 pgjsonb/views.xml
+│  -rw-r--r--  2.0 unx    13549 b- defN 22-Aug-05 08:41 META-INF/maven/org.apache.syncope.core/syncope-core-persistence-jpa-json/pom.xml
+│  -rw-r--r--  2.0 unx       92 b- defN 22-Aug-05 08:41 META-INF/maven/org.apache.syncope.core/syncope-core-persistence-jpa-json/pom.properties
+│ -112 files, 381865 bytes uncompressed, 121718 bytes compressed:  68.1%
+│ +112 files, 381959 bytes uncompressed, 121774 bytes compressed:  68.1%
+├── myjson/persistence.properties
+│ @@ -10,15 +10,15 @@
+│  #
+│  # Unless required by applicable law or agreed to in writing,
+│  # software distributed under the License is distributed on an
+│  # "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+│  # KIND, either express or implied.  See the License for the
+│  # specific language governing permissions and limitations
+│  # under the License.
+│ -content.directory=/home/ilgrosso/work/syncope/syncope/target/checkout/core/persistence-jpa-json/target/test-classes
+│ +content.directory=/Users/hboutemy/dev/maven/other/reproducible-central/content/org/apache/syncope/buildcache/syncope/core/persistence-jpa-json/target/test-classes
+│  entity.factory=org.apache.syncope.core.persistence.jpa.entity.MyJPAJSONEntityFactory
+│  plainSchema.dao=org.apache.syncope.core.persistence.jpa.dao.MyJPAJSONPlainSchemaDAO
+│  plainAttr.dao=org.apache.syncope.core.persistence.jpa.dao.JPAJSONPlainAttrDAO
+│  plainAttrValue.dao=org.apache.syncope.core.persistence.jpa.dao.JPAJSONPlainAttrValueDAO
+│  any.search.dao=org.apache.syncope.core.persistence.jpa.dao.MyJPAJSONAnySearchDAO
+│  any.search.visitor=org.apache.syncope.core.persistence.api.search.SearchCondVisitor
+│  user.dao=org.apache.syncope.core.persistence.jpa.dao.JPAJSONUserDAO
+├── pgjsonb/persistence.properties
+│ @@ -10,15 +10,15 @@
+│  #
+│  # Unless required by applicable law or agreed to in writing,
+│  # software distributed under the License is distributed on an
+│  # "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+│  # KIND, either express or implied.  See the License for the
+│  # specific language governing permissions and limitations
+│  # under the License.
+│ -content.directory=/home/ilgrosso/work/syncope/syncope/target/checkout/core/persistence-jpa-json/target/test-classes
+│ +content.directory=/Users/hboutemy/dev/maven/other/reproducible-central/content/org/apache/syncope/buildcache/syncope/core/persistence-jpa-json/target/test-classes
+│  entity.factory=org.apache.syncope.core.persistence.jpa.entity.PGJPAJSONEntityFactory
+│  plainSchema.dao=org.apache.syncope.core.persistence.jpa.dao.PGJPAJSONPlainSchemaDAO
+│  plainAttr.dao=org.apache.syncope.core.persistence.jpa.dao.JPAJSONPlainAttrDAO
+│  plainAttrValue.dao=org.apache.syncope.core.persistence.jpa.dao.JPAJSONPlainAttrValueDAO
+│  any.search.dao=org.apache.syncope.core.persistence.jpa.dao.PGJPAJSONAnySearchDAO
+│  any.search.visitor=org.apache.syncope.core.persistence.api.search.SearchCondVisitor
+│  user.dao=org.apache.syncope.core.persistence.jpa.dao.JPAJSONUserDAO
+
+6 /       13 target/reference/syncope-core-provisioning-java-2.1.12.jar core/provisioning-java/target/syncope-core-provisioning-java-2.1.12.jar
+--- target/reference/syncope-core-provisioning-java-2.1.12.jar
++++ core/provisioning-java/target/syncope-core-provisioning-java-2.1.12.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 568896 bytes, number of entries: 190
+│ +Zip file size: 568952 bytes, number of entries: 190
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/
+│  -rw-r--r--  2.0 unx      372 b- defN 22-Aug-05 08:41 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 org/apache/syncope/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 org/apache/syncope/core/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 org/apache/syncope/core/provisioning/
+│ @@ -20,16 +20,16 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 quartz/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/maven/org.apache.syncope.core/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/maven/org.apache.syncope.core/syncope-core-provisioning-java/
+│  -rw-r--r--  2.0 unx    16758 b- defN 22-Aug-05 08:41 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Aug-05 08:41 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      194 b- defN 22-Aug-05 08:41 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx      898 b- defN 22-Aug-05 08:41 connid.properties
+│ --rw-r--r--  2.0 unx     1233 b- defN 22-Aug-05 08:41 mail.properties
+│ +-rw-r--r--  2.0 unx      945 b- defN 22-Aug-05 08:41 connid.properties
+│ +-rw-r--r--  2.0 unx     1280 b- defN 22-Aug-05 08:41 mail.properties
+│  -rw-r--r--  2.0 unx     1673 b- defN 22-Aug-05 08:41 org/apache/syncope/core/provisioning/java/AsyncConnectorFacade$1.class
+│  -rw-r--r--  2.0 unx     9636 b- defN 22-Aug-05 08:41 org/apache/syncope/core/provisioning/java/AsyncConnectorFacade.class
+│  -rw-r--r--  2.0 unx     1309 b- defN 22-Aug-05 08:41 org/apache/syncope/core/provisioning/java/ConnIdBundleManagerImpl$1.class
+│  -rw-r--r--  2.0 unx    13111 b- defN 22-Aug-05 08:41 org/apache/syncope/core/provisioning/java/ConnIdBundleManagerImpl.class
+│  -rw-r--r--  2.0 unx     1948 b- defN 22-Aug-05 08:41 org/apache/syncope/core/provisioning/java/ConnectorFacadeProxy$1.class
+│  -rw-r--r--  2.0 unx    24528 b- defN 22-Aug-05 08:41 org/apache/syncope/core/provisioning/java/ConnectorFacadeProxy.class
+│  -rw-r--r--  2.0 unx    14356 b- defN 22-Aug-05 08:41 org/apache/syncope/core/provisioning/java/ConnectorManager.class
+│ @@ -185,8 +185,8 @@
+│  -rw-r--r--  2.0 unx     6221 b- defN 22-Aug-05 08:41 quartz/tables_mysql.sql
+│  -rw-r--r--  2.0 unx     7869 b- defN 22-Aug-05 08:41 quartz/tables_mysql_innodb.sql
+│  -rw-r--r--  2.0 unx     8746 b- defN 22-Aug-05 08:41 quartz/tables_oracle.sql
+│  -rw-r--r--  2.0 unx     7610 b- defN 22-Aug-05 08:41 quartz/tables_postgres.sql
+│  -rw-r--r--  2.0 unx    10492 b- defN 22-Aug-05 08:41 quartz/tables_sqlServer.sql
+│  -rw-r--r--  2.0 unx     6520 b- defN 22-Aug-05 08:41 META-INF/maven/org.apache.syncope.core/syncope-core-provisioning-java/pom.xml
+│  -rw-r--r--  2.0 unx       89 b- defN 22-Aug-05 08:41 META-INF/maven/org.apache.syncope.core/syncope-core-provisioning-java/pom.properties
+│ -190 files, 1588919 bytes uncompressed, 528002 bytes compressed:  66.8%
+│ +190 files, 1589013 bytes uncompressed, 528058 bytes compressed:  66.8%
+├── connid.properties
+│ @@ -10,8 +10,8 @@
+│  #
+│  # Unless required by applicable law or agreed to in writing,
+│  # software distributed under the License is distributed on an
+│  # "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+│  # KIND, either express or implied.  See the License for the
+│  # specific language governing permissions and limitations
+│  # under the License.
+│ -connid.locations=file:/home/ilgrosso/work/syncope/syncope/target/checkout/core/provisioning-java/target/bundles/
+│ +connid.locations=file:/Users/hboutemy/dev/maven/other/reproducible-central/content/org/apache/syncope/buildcache/syncope/core/provisioning-java/target/bundles/
+├── mail.properties
+│ @@ -10,15 +10,15 @@
+│  #
+│  # Unless required by applicable law or agreed to in writing,
+│  # software distributed under the License is distributed on an
+│  # "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+│  # KIND, either express or implied.  See the License for the
+│  # specific language governing permissions and limitations
+│  # under the License.
+│ -conf.directory=/home/ilgrosso/work/syncope/syncope/target/checkout/core/provisioning-java/target/test-classes
+│ +conf.directory=/Users/hboutemy/dev/maven/other/reproducible-central/content/org/apache/syncope/buildcache/syncope/core/provisioning-java/target/test-classes
+│  
+│  smtpHost=none.syncope.apache.org
+│  smtpPort=25
+│  smtpUser=
+│  smtpPassword=
+│  smtpProtocol=smtp
+│  smtpEncoding=UTF-8
+
+7 /       13 target/reference/syncope-core-logic-2.1.12.jar core/logic/target/syncope-core-logic-2.1.12.jar
+--- target/reference/syncope-core-logic-2.1.12.jar
++++ core/logic/target/syncope-core-logic-2.1.12.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 218440 bytes, number of entries: 92
+│ +Zip file size: 218477 bytes, number of entries: 92
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/
+│  -rw-r--r--  2.0 unx      348 b- defN 22-Aug-05 08:41 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/org/apache/logging/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/org/apache/logging/log4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/org/apache/logging/log4j/core/
+│ @@ -20,15 +20,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/maven/org.apache.syncope.core/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/maven/org.apache.syncope.core/syncope-core-logic/
+│  -rw-r--r--  2.0 unx    25129 b- defN 22-Aug-05 08:41 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Aug-05 08:41 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      182 b- defN 22-Aug-05 08:41 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx      190 b- defN 22-Aug-05 08:41 META-INF/org/apache/logging/log4j/core/config/plugins/Log4j2Plugins.dat
+│  -rw-r--r--  2.0 unx      994 b- defN 22-Aug-05 08:41 logic.properties
+│ --rw-r--r--  2.0 unx     1951 b- defN 22-Aug-05 08:41 logicContext.xml
+│ +-rw-r--r--  2.0 unx     1977 b- defN 22-Aug-05 08:41 logicContext.xml
+│  -rw-r--r--  2.0 unx    10098 b- defN 22-Aug-05 08:41 org/apache/syncope/core/logic/AbstractAnyLogic.class
+│  -rw-r--r--  2.0 unx     2145 b- defN 22-Aug-05 08:41 org/apache/syncope/core/logic/AbstractExecutableLogic.class
+│  -rw-r--r--  2.0 unx      853 b- defN 22-Aug-05 08:41 org/apache/syncope/core/logic/AbstractJobLogic$1.class
+│  -rw-r--r--  2.0 unx     7059 b- defN 22-Aug-05 08:41 org/apache/syncope/core/logic/AbstractJobLogic.class
+│  -rw-r--r--  2.0 unx     1558 b- defN 22-Aug-05 08:41 org/apache/syncope/core/logic/AbstractLogic.class
+│  -rw-r--r--  2.0 unx     1411 b- defN 22-Aug-05 08:41 org/apache/syncope/core/logic/AbstractResourceAssociator.class
+│  -rw-r--r--  2.0 unx      767 b- defN 22-Aug-05 08:41 org/apache/syncope/core/logic/AbstractTransactionalLogic.class
+│ @@ -87,8 +87,8 @@
+│  -rw-r--r--  2.0 unx     3015 b- defN 22-Aug-05 08:41 org/apache/syncope/core/logic/init/EntitlementLoader.class
+│  -rw-r--r--  2.0 unx     5078 b- defN 22-Aug-05 08:41 org/apache/syncope/core/logic/init/LoggerAccessor.class
+│  -rw-r--r--  2.0 unx    10944 b- defN 22-Aug-05 08:41 org/apache/syncope/core/logic/init/LoggerLoader.class
+│  -rw-r--r--  2.0 unx     4798 b- defN 22-Aug-05 08:41 org/apache/syncope/core/logic/init/LogicStartStop.class
+│  -rw-r--r--  2.0 unx     3087 b- defN 22-Aug-05 08:41 org/apache/syncope/core/logic/init/TaskExecutorUnloader.class
+│  -rw-r--r--  2.0 unx     5515 b- defN 22-Aug-05 08:41 META-INF/maven/org.apache.syncope.core/syncope-core-logic/pom.xml
+│  -rw-r--r--  2.0 unx       77 b- defN 22-Aug-05 08:41 META-INF/maven/org.apache.syncope.core/syncope-core-logic/pom.properties
+│ -92 files, 584928 bytes uncompressed, 202746 bytes compressed:  65.3%
+│ +92 files, 584954 bytes uncompressed, 202783 bytes compressed:  65.3%
+├── logicContext.xml
+│ ├── logicContext.xml
+│ │ @@ -18,14 +18,14 @@
+│ │  under the License.
+│ │  -->
+│ │  <beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop" xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="http://www.springframework.org/schema/beans                            http://www.springframework.org/schema/beans/spring-beans.xsd                            http://www.springframework.org/schema/aop                             http://www.springframework.org/schema/aop/spring-aop.xsd                            http://www.springframework.org/schema/context                            http://www.springframework.org/schema/context/spring-context.xsd">
+│ │    <bean id="version" class="java.lang.String">
+│ │      <constructor-arg value="2.1.12"/>
+│ │    </bean>
+│ │    <bean id="buildNumber" class="java.lang.String">
+│ │ -    <constructor-arg value="syncope-2.1.12"/>
+│ │ +    <constructor-arg value="36ed57ace0131948020c504745ba643268c4716e"/>
+│ │    </bean>
+│ │    <aop:aspectj-autoproxy/>
+│ │    <context:component-scan base-package="org.apache.syncope.core.logic"/>
+│ │    <bean class="${logicInvocationHandler}"/>
+│ │    <bean class="${classPathScanImplementationLookup}"/>
+│ │  </beans>
+
+8 /       13 target/reference/syncope-client-console-2.1.12.jar client/console/target/syncope-client-console-2.1.12.jar
+--- target/reference/syncope-client-console-2.1.12.jar
++++ client/console/target/syncope-client-console-2.1.12.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 4478821 bytes, number of entries: 2846
+│ +Zip file size: 4478847 bytes, number of entries: 2846
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/
+│  -rw-r--r--  2.0 unx      356 b- defN 22-Aug-05 08:41 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/cxf/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/resources/css/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/resources/css/AdminLTE_plugins/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/resources/css/AdminLTE_plugins/dataTables/
+│ @@ -119,15 +119,15 @@
+│  -rw-r--r--  2.0 unx     2698 b- defN 22-Aug-05 08:41 META-INF/resources/img/logo-mini.png
+│  -rw-r--r--  2.0 unx     8913 b- defN 22-Aug-05 08:41 META-INF/resources/img/logo.png
+│  -rw-r--r--  2.0 unx     7131 b- defN 22-Aug-05 08:41 META-INF/resources/js/accessibility.js
+│  -rw-r--r--  2.0 unx     2529 b- defN 22-Aug-05 08:41 META-INF/resources/js/copyToClipboard.js
+│  -rw-r--r--  2.0 unx     7910 b- defN 22-Aug-05 08:41 META-INF/resources/js/topology.js
+│  -rw-r--r--  2.0 unx     1831 b- defN 22-Aug-05 08:41 META-INF/web-fragment.xml
+│  -rw-r--r--  2.0 unx    18376 b- defN 22-Aug-05 08:41 MIMETypes.json
+│ --rw-r--r--  2.0 unx     2444 b- defN 22-Aug-05 08:41 console.properties
+│ +-rw-r--r--  2.0 unx     2491 b- defN 22-Aug-05 08:41 console.properties
+│  -rw-r--r--  2.0 unx     1794 b- defN 22-Aug-05 08:41 org/apache/syncope/client/console/BookmarkablePageLinkBuilder.class
+│  -rw-r--r--  2.0 unx      618 b- defN 22-Aug-05 08:41 org/apache/syncope/client/console/PreferenceManager$1.class
+│  -rw-r--r--  2.0 unx     8838 b- defN 22-Aug-05 08:41 org/apache/syncope/client/console/PreferenceManager.class
+│  -rw-r--r--  2.0 unx     1409 b- defN 22-Aug-05 08:41 org/apache/syncope/client/console/SyncopeConsoleApplication$1.class
+│  -rw-r--r--  2.0 unx     1133 b- defN 22-Aug-05 08:41 org/apache/syncope/client/console/SyncopeConsoleApplication$2.class
+│  -rw-r--r--  2.0 unx    18428 b- defN 22-Aug-05 08:41 org/apache/syncope/client/console/SyncopeConsoleApplication.class
+│  -rw-r--r--  2.0 unx     3105 b- defN 22-Aug-05 08:41 org/apache/syncope/client/console/SyncopeConsoleApplication.properties
+│ @@ -2841,8 +2841,8 @@
+│  -rw-r--r--  2.0 unx      986 b- defN 22-Aug-05 08:41 org/apache/syncope/client/console/wizards/role/RoleWizardBuilder$Privileges.html
+│  -rw-r--r--  2.0 unx     3079 b- defN 22-Aug-05 08:41 org/apache/syncope/client/console/wizards/role/RoleWizardBuilder$Realms.class
+│  -rw-r--r--  2.0 unx      978 b- defN 22-Aug-05 08:41 org/apache/syncope/client/console/wizards/role/RoleWizardBuilder$Realms.html
+│  -rw-r--r--  2.0 unx     4289 b- defN 22-Aug-05 08:41 org/apache/syncope/client/console/wizards/role/RoleWizardBuilder.class
+│  -rw-r--r--  2.0 unx     2269 b- defN 22-Aug-05 08:41 org/apache/syncope/client/console/wizards/role/RoleWrapper.class
+│  -rw-r--r--  2.0 unx     7752 b- defN 22-Aug-05 08:41 META-INF/maven/org.apache.syncope.client/syncope-client-console/pom.xml
+│  -rw-r--r--  2.0 unx       83 b- defN 22-Aug-05 08:41 META-INF/maven/org.apache.syncope.client/syncope-client-console/pom.properties
+│ -2846 files, 8389337 bytes uncompressed, 3846549 bytes compressed:  54.2%
+│ +2846 files, 8389384 bytes uncompressed, 3846575 bytes compressed:  54.2%
+├── console.properties
+│ @@ -10,15 +10,15 @@
+│  #
+│  # Unless required by applicable law or agreed to in writing,
+│  # software distributed under the License is distributed on an
+│  # "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+│  # KIND, either express or implied.  See the License for the
+│  # specific language governing permissions and limitations
+│  # under the License.
+│ -console.directory=/home/ilgrosso/work/syncope/syncope/target/checkout/client/console/target/test-classes
+│ +console.directory=/Users/hboutemy/dev/maven/other/reproducible-central/content/org/apache/syncope/buildcache/syncope/client/console/target/test-classes
+│  
+│  anonymousUser=anonymous
+│  anonymousKey=anonymousKey
+│  
+│  scheme=http
+│  host=localhost
+│  port=8080
+
+9 /       13 target/reference/syncope-client-enduser-2.1.12.jar client/enduser/target/syncope-client-enduser-2.1.12.jar
+--- target/reference/syncope-client-enduser-2.1.12.jar
++++ client/enduser/target/syncope-client-enduser-2.1.12.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 281346 bytes, number of entries: 229
+│ +Zip file size: 281375 bytes, number of entries: 229
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/
+│  -rw-r--r--  2.0 unx      356 b- defN 22-Aug-05 08:41 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/resources/app/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/resources/app/css/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/resources/app/css/accessibility/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/resources/app/css/templates/
+│ @@ -154,15 +154,15 @@
+│  -rw-r--r--  2.0 unx     2056 b- defN 22-Aug-05 08:41 META-INF/resources/app/views/user-requests.html
+│  -rw-r--r--  2.0 unx     2151 b- defN 22-Aug-05 08:41 META-INF/resources/app/views/user-resources.html
+│  -rw-r--r--  2.0 unx     2157 b- defN 22-Aug-05 08:41 META-INF/resources/app/views/user-virtual-schemas.html
+│  -rw-r--r--  2.0 unx      939 b- defN 22-Aug-05 08:41 META-INF/resources/app/views/validationMessage.html
+│  -rw-r--r--  2.0 unx     1817 b- defN 22-Aug-05 08:41 META-INF/web-fragment.xml
+│  -rw-r--r--  2.0 unx        2 b- defN 22-Aug-05 08:41 customFormAttributes.json
+│  -rw-r--r--  2.0 unx     2359 b- defN 22-Aug-05 08:41 customTemplate.json
+│ --rw-r--r--  2.0 unx     1104 b- defN 22-Aug-05 08:41 enduser.properties
+│ +-rw-r--r--  2.0 unx     1151 b- defN 22-Aug-05 08:41 enduser.properties
+│  -rw-r--r--  2.0 unx      883 b- defN 22-Aug-05 08:41 org/apache/syncope/client/enduser/SyncopeEnduserApplication$1.class
+│  -rw-r--r--  2.0 unx      883 b- defN 22-Aug-05 08:41 org/apache/syncope/client/enduser/SyncopeEnduserApplication$2.class
+│  -rw-r--r--  2.0 unx      929 b- defN 22-Aug-05 08:41 org/apache/syncope/client/enduser/SyncopeEnduserApplication$3$1.class
+│  -rw-r--r--  2.0 unx      929 b- defN 22-Aug-05 08:41 org/apache/syncope/client/enduser/SyncopeEnduserApplication$3$2.class
+│  -rw-r--r--  2.0 unx     2593 b- defN 22-Aug-05 08:41 org/apache/syncope/client/enduser/SyncopeEnduserApplication$3.class
+│  -rw-r--r--  2.0 unx     2425 b- defN 22-Aug-05 08:41 org/apache/syncope/client/enduser/SyncopeEnduserApplication$4.class
+│  -rw-r--r--  2.0 unx     1133 b- defN 22-Aug-05 08:41 org/apache/syncope/client/enduser/SyncopeEnduserApplication$5.class
+│ @@ -224,8 +224,8 @@
+│  -rw-r--r--  2.0 unx     1721 b- defN 22-Aug-05 08:41 org/apache/syncope/client/enduser/resources/UserSelfReadResource$1.class
+│  -rw-r--r--  2.0 unx    10685 b- defN 22-Aug-05 08:41 org/apache/syncope/client/enduser/resources/UserSelfReadResource.class
+│  -rw-r--r--  2.0 unx    15683 b- defN 22-Aug-05 08:41 org/apache/syncope/client/enduser/resources/UserSelfUpdateResource.class
+│  -rw-r--r--  2.0 unx     1558 b- defN 22-Aug-05 08:41 org/apache/syncope/client/enduser/util/SaltGenerator.class
+│  -rw-r--r--  2.0 unx     6170 b- defN 22-Aug-05 08:41 org/apache/syncope/client/enduser/util/Validation.class
+│  -rw-r--r--  2.0 unx     6425 b- defN 22-Aug-05 08:41 META-INF/maven/org.apache.syncope.client/syncope-client-enduser/pom.xml
+│  -rw-r--r--  2.0 unx       83 b- defN 22-Aug-05 08:41 META-INF/maven/org.apache.syncope.client/syncope-client-enduser/pom.properties
+│ -229 files, 626677 bytes uncompressed, 240092 bytes compressed:  61.7%
+│ +229 files, 626724 bytes uncompressed, 240121 bytes compressed:  61.7%
+├── enduser.properties
+│ @@ -10,15 +10,15 @@
+│  #
+│  # Unless required by applicable law or agreed to in writing,
+│  # software distributed under the License is distributed on an
+│  # "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+│  # KIND, either express or implied.  See the License for the
+│  # specific language governing permissions and limitations
+│  # under the License.
+│ -enduser.directory=/home/ilgrosso/work/syncope/syncope/target/checkout/client/enduser/target/test-classes
+│ +enduser.directory=/Users/hboutemy/dev/maven/other/reproducible-central/content/org/apache/syncope/buildcache/syncope/client/enduser/target/test-classes
+│  
+│  domain=Master
+│  
+│  anonymousUser=anonymous
+│  anonymousKey=anonymousKey
+│  adminUser=admin
+│  useGZIPCompression=true
+
+10 /       13 target/reference/syncope-fit-build-tools-2.1.12.war fit/build-tools/target/syncope-fit-build-tools-2.1.12.war
+--- target/reference/syncope-fit-build-tools-2.1.12.war
++++ fit/build-tools/target/syncope-fit-build-tools-2.1.12.war
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 127168156 bytes, number of entries: 220
+│ +Zip file size: 127168155 bytes, number of entries: 220
+│  -rw-r--r--  2.0 unx       82 b- defN 22-Aug-05 08:41 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 WEB-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 WEB-INF/bundles/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 WEB-INF/classes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 WEB-INF/classes/META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 WEB-INF/classes/META-INF/cxf/
+│ @@ -215,8 +215,8 @@
+│  -rw-r--r--  2.0 unx   512742 b- defN 22-Aug-05 08:41 WEB-INF/lib/woodstox-core-5.0.3.jar
+│  -rw-r--r--  2.0 unx   186758 b- defN 22-Aug-05 08:41 WEB-INF/lib/wsdl4j-1.6.3.jar
+│  -rw-r--r--  2.0 unx    84091 b- defN 22-Aug-05 08:41 WEB-INF/lib/xml-resolver-1.2.jar
+│  -rw-r--r--  2.0 unx   173293 b- defN 22-Aug-05 08:41 WEB-INF/lib/xmlschema-core-2.2.5.jar
+│  -rw-r--r--  2.0 unx     2850 b- defN 22-Aug-05 08:41 WEB-INF/web.xml
+│  -rw-r--r--  2.0 unx    12435 b- defN 22-Aug-05 08:41 META-INF/maven/org.apache.syncope.fit/syncope-fit-build-tools/pom.xml
+│  -rw-r--r--  2.0 unx       81 b- defN 22-Aug-05 08:41 META-INF/maven/org.apache.syncope.fit/syncope-fit-build-tools/pom.properties
+│ -220 files, 132543003 bytes uncompressed, 127131386 bytes compressed:  4.1%
+│ +220 files, 132543003 bytes uncompressed, 127131385 bytes compressed:  4.1%
+├── WEB-INF/bundles/net.tirasa.connid.bundles.soap-1.4.5-bundle.jar
+│┄ Archive contents identical but files differ, possibly due to different compression levels. Falling back to binary comparison.
+│ ├── zipinfo {}
+│ │ @@ -1,17 +1,17 @@
+│ │  Zip file size: 50370 bytes, number of entries: 18
+│ │ -drwxr-xr-x  2.0 unx        0 bx stor 22-Aug-05 11:07 META-INF/
+│ │ --rw-r--r--  2.0 unx      242 b- defN 22-Aug-05 11:07 META-INF/MANIFEST.MF
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 11:07 lib/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 11:07 net/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 11:07 net/tirasa/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 11:07 net/tirasa/connid/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 11:07 net/tirasa/connid/bundles/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 11:07 net/tirasa/connid/bundles/soap/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 11:07 net/tirasa/connid/bundles/soap/cxf/
+│ │ +drwxr-xr-x  2.0 unx        0 bx stor 22-Aug-09 19:18 META-INF/
+│ │ +-rw-r--r--  2.0 unx      242 b- defN 22-Aug-09 19:18 META-INF/MANIFEST.MF
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-09 19:18 lib/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-09 19:18 net/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-09 19:18 net/tirasa/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-09 19:18 net/tirasa/connid/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-09 19:18 net/tirasa/connid/bundles/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-09 19:18 net/tirasa/connid/bundles/soap/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-09 19:18 net/tirasa/connid/bundles/soap/cxf/
+│ │  -rw-r--r--  2.0 unx    24952 b- defN 22-Apr-27 13:37 META-INF/LICENSE
+│ │  -rw-r--r--  2.0 unx     1073 b- defN 22-Apr-27 13:37 META-INF/NOTICE
+│ │  -rw-r--r--  2.0 unx    25479 b- defN 22-Apr-27 13:37 lib/soap-utilities-1.4.5.jar
+│ │  -rw-r--r--  2.0 unx     1050 b- defN 22-Apr-27 13:37 net/tirasa/connid/bundles/soap/Messages.properties
+│ │  -rw-r--r--  2.0 unx     3237 b- defN 22-Apr-27 13:37 net/tirasa/connid/bundles/soap/WebServiceConfiguration.class
+│ │  -rw-r--r--  2.0 unx     4928 b- defN 22-Apr-27 13:37 net/tirasa/connid/bundles/soap/WebServiceConnection.class
+│ │  -rw-r--r--  2.0 unx    26719 b- defN 22-Apr-27 13:37 net/tirasa/connid/bundles/soap/WebServiceConnector.class
+│ ├── WEB-INF/bundles/net.tirasa.connid.bundles.soap-1.4.5-bundle.jar
+│ │ @@ -1,41 +1,41 @@
+│ │ -00000000: 504b 0304 0a00 0008 0000 ec58 0555 0000  PK.........X.U..
+│ │ +00000000: 504b 0304 0a00 0008 0000 469a 0955 0000  PK........F..U..
+│ │  00000010: 0000 0000 0000 0000 0000 0900 0400 4d45  ..............ME
+│ │  00000020: 5441 2d49 4e46 2ffe ca00 0050 4b03 040a  TA-INF/....PK...
+│ │ -00000030: 0000 0808 00eb 5805 55d1 f115 4f9e 0000  ......X.U...O...
+│ │ +00000030: 0000 0808 0045 9a09 55d1 f115 4f9e 0000  .....E..U...O...
+│ │  00000040: 00f2 0000 0014 0000 004d 4554 412d 494e  .........META-IN
+│ │  00000050: 462f 4d41 4e49 4645 5354 2e4d 4665 8dc1  F/MANIFEST.MFe..
+│ │  00000060: 0a83 3010 44ef 01ff 213f 9045 db0a c59b  ..0.D...!?.E....
+│ │  00000070: 0a3d 14ec a5d0 fb36 d962 a8dd 4812 2dfd  .=.....6.b..H.-.
+│ │  00000080: fb46 4f82 d779 f366 3a64 fba2 10d5 837c  .FO..y.f:d.....|
+│ │  00000090: b08e 2b59 409e 899a 3749 3da2 ee49 a62c  ..+Y@...7I=..I.,
+│ │  000000a0: c122 87e2 9089 d613 4632 aaf9 55b2 c399  ."......F2..U...
+│ │  000000b0: 58d6 5ef7 7626 2f8f 502e 13ad 6326 1d9d  X.^.v&/.P...c&..
+│ │  000000c0: 6f26 3603 a98b c70f 7d9d 7f6f 9e4a 58df  o&6.....}..o.JX.
+│ │  000000d0: 9ac9 0e46 5dcd 5bdd 47d2 0b38 effd 8d76  ...F].[.G..8...v
+│ │  000000e0: 8272 cf6f 69be 924c 11a2 f518 1074 2a58  .r.oi..L.....t*X
+│ │  000000f0: 03cf 1507 080e c74c 64e2 0f50 4b03 040a  .......Ld..PK...
+│ │ -00000100: 0000 0800 00ec 5805 5500 0000 0000 0000  ......X.U.......
+│ │ +00000100: 0000 0800 0046 9a09 5500 0000 0000 0000  .....F..U.......
+│ │  00000110: 0000 0000 0004 0000 006c 6962 2f50 4b03  .........lib/PK.
+│ │ -00000120: 040a 0000 0800 00ec 5805 5500 0000 0000  ........X.U.....
+│ │ +00000120: 040a 0000 0800 0046 9a09 5500 0000 0000  .......F..U.....
+│ │  00000130: 0000 0000 0000 0004 0000 006e 6574 2f50  ...........net/P
+│ │ -00000140: 4b03 040a 0000 0800 00ec 5805 5500 0000  K.........X.U...
+│ │ +00000140: 4b03 040a 0000 0800 0046 9a09 5500 0000  K........F..U...
+│ │  00000150: 0000 0000 0000 0000 000b 0000 006e 6574  .............net
+│ │  00000160: 2f74 6972 6173 612f 504b 0304 0a00 0008  /tirasa/PK......
+│ │ -00000170: 0000 ec58 0555 0000 0000 0000 0000 0000  ...X.U..........
+│ │ +00000170: 0000 469a 0955 0000 0000 0000 0000 0000  ..F..U..........
+│ │  00000180: 0000 1200 0000 6e65 742f 7469 7261 7361  ......net/tirasa
+│ │  00000190: 2f63 6f6e 6e69 642f 504b 0304 0a00 0008  /connid/PK......
+│ │ -000001a0: 0000 ec58 0555 0000 0000 0000 0000 0000  ...X.U..........
+│ │ +000001a0: 0000 469a 0955 0000 0000 0000 0000 0000  ..F..U..........
+│ │  000001b0: 0000 1a00 0000 6e65 742f 7469 7261 7361  ......net/tirasa
+│ │  000001c0: 2f63 6f6e 6e69 642f 6275 6e64 6c65 732f  /connid/bundles/
+│ │ -000001d0: 504b 0304 0a00 0008 0000 ec58 0555 0000  PK.........X.U..
+│ │ +000001d0: 504b 0304 0a00 0008 0000 469a 0955 0000  PK........F..U..
+│ │  000001e0: 0000 0000 0000 0000 0000 1f00 0000 6e65  ..............ne
+│ │  000001f0: 742f 7469 7261 7361 2f63 6f6e 6e69 642f  t/tirasa/connid/
+│ │  00000200: 6275 6e64 6c65 732f 736f 6170 2f50 4b03  bundles/soap/PK.
+│ │ -00000210: 040a 0000 0800 00ec 5805 5500 0000 0000  ........X.U.....
+│ │ +00000210: 040a 0000 0800 0046 9a09 5500 0000 0000  .......F..U.....
+│ │  00000220: 0000 0000 0000 0023 0000 006e 6574 2f74  .......#...net/t
+│ │  00000230: 6972 6173 612f 636f 6e6e 6964 2f62 756e  irasa/connid/bun
+│ │  00000240: 646c 6573 2f73 6f61 702f 6378 662f 504b  dles/soap/cxf/PK
+│ │  00000250: 0304 0a00 0008 0800 b86c 9b54 edea 6caf  .........l.T..l.
+│ │  00000260: 571f 0000 7861 0000 1000 0000 4d45 5441  W...xa......META
+│ │  00000270: 2d49 4e46 2f4c 4943 454e 5345 dd3c db72  -INF/LICENSE.<.r
+│ │  00000280: dbc8 95ef f88a 5e55 6d59 da82 3993 c924  ......^UmY..9..$
+│ │ @@ -3053,46 +3053,46 @@
+│ │  0000bec0: b326 ebe0 0277 2d64 7191 705f c24b 78ae  .&...w-dq.p_.Kx.
+│ │  0000bed0: 006f 3d41 1b23 6c3e 723d 8171 0643 a4e6  .o=A.#l>r=.q.C..
+│ │  0000bee0: 9502 bc57 3c78 0595 8737 8817 3d78 0598  ...W<x...7..=x..
+│ │  0000bef0: 7b21 dfc1 6ec2 7807 d584 f40e 0ec8 38e3  {!..n.x.......8.
+│ │  0000bf00: 7b9a 0bff 00f6 efe8 6435 9df5 aaa9 d5ab  {.......d5......
+│ │  0000bf10: a6f2 2682 d69a c363 6b05 e577 3544 5cab  ..&....ck..w5D\.
+│ │  0000bf20: 1497 2ef7 2c58 2b21 89c9 21f8 9ffd 2f50  ....,X+!..!.../P
+│ │ -0000bf30: 4b01 0214 030a 0000 0800 00ec 5805 5500  K...........X.U.
+│ │ +0000bf30: 4b01 0214 030a 0000 0800 0046 9a09 5500  K..........F..U.
+│ │  0000bf40: 0000 0000 0000 0000 0000 0009 0004 0000  ................
+│ │  0000bf50: 0000 0000 0010 00ed 4100 0000 004d 4554  ........A....MET
+│ │  0000bf60: 412d 494e 462f feca 0000 504b 0102 1403  A-INF/....PK....
+│ │ -0000bf70: 0a00 0008 0800 eb58 0555 d1f1 154f 9e00  .......X.U...O..
+│ │ +0000bf70: 0a00 0008 0800 459a 0955 d1f1 154f 9e00  ......E..U...O..
+│ │  0000bf80: 0000 f200 0000 1400 0000 0000 0000 0000  ................
+│ │  0000bf90: 0000 a481 2b00 0000 4d45 5441 2d49 4e46  ....+...META-INF
+│ │  0000bfa0: 2f4d 414e 4946 4553 542e 4d46 504b 0102  /MANIFEST.MFPK..
+│ │ -0000bfb0: 1403 0a00 0008 0000 ec58 0555 0000 0000  .........X.U....
+│ │ +0000bfb0: 1403 0a00 0008 0000 469a 0955 0000 0000  ........F..U....
+│ │  0000bfc0: 0000 0000 0000 0000 0400 0000 0000 0000  ................
+│ │  0000bfd0: 0000 1000 ed41 fb00 0000 6c69 622f 504b  .....A....lib/PK
+│ │ -0000bfe0: 0102 1403 0a00 0008 0000 ec58 0555 0000  ...........X.U..
+│ │ +0000bfe0: 0102 1403 0a00 0008 0000 469a 0955 0000  ..........F..U..
+│ │  0000bff0: 0000 0000 0000 0000 0000 0400 0000 0000  ................
+│ │  0000c000: 0000 0000 1000 ed41 1d01 0000 6e65 742f  .......A....net/
+│ │ -0000c010: 504b 0102 1403 0a00 0008 0000 ec58 0555  PK...........X.U
+│ │ +0000c010: 504b 0102 1403 0a00 0008 0000 469a 0955  PK..........F..U
+│ │  0000c020: 0000 0000 0000 0000 0000 0000 0b00 0000  ................
+│ │  0000c030: 0000 0000 0000 1000 ed41 3f01 0000 6e65  .........A?...ne
+│ │  0000c040: 742f 7469 7261 7361 2f50 4b01 0214 030a  t/tirasa/PK.....
+│ │ -0000c050: 0000 0800 00ec 5805 5500 0000 0000 0000  ......X.U.......
+│ │ +0000c050: 0000 0800 0046 9a09 5500 0000 0000 0000  .....F..U.......
+│ │  0000c060: 0000 0000 0012 0000 0000 0000 0000 0010  ................
+│ │  0000c070: 00ed 4168 0100 006e 6574 2f74 6972 6173  ..Ah...net/tiras
+│ │  0000c080: 612f 636f 6e6e 6964 2f50 4b01 0214 030a  a/connid/PK.....
+│ │ -0000c090: 0000 0800 00ec 5805 5500 0000 0000 0000  ......X.U.......
+│ │ +0000c090: 0000 0800 0046 9a09 5500 0000 0000 0000  .....F..U.......
+│ │  0000c0a0: 0000 0000 001a 0000 0000 0000 0000 0010  ................
+│ │  0000c0b0: 00ed 4198 0100 006e 6574 2f74 6972 6173  ..A....net/tiras
+│ │  0000c0c0: 612f 636f 6e6e 6964 2f62 756e 646c 6573  a/connid/bundles
+│ │ -0000c0d0: 2f50 4b01 0214 030a 0000 0800 00ec 5805  /PK...........X.
+│ │ +0000c0d0: 2f50 4b01 0214 030a 0000 0800 0046 9a09  /PK..........F..
+│ │  0000c0e0: 5500 0000 0000 0000 0000 0000 001f 0000  U...............
+│ │  0000c0f0: 0000 0000 0000 0010 00ed 41d0 0100 006e  ..........A....n
+│ │  0000c100: 6574 2f74 6972 6173 612f 636f 6e6e 6964  et/tirasa/connid
+│ │  0000c110: 2f62 756e 646c 6573 2f73 6f61 702f 504b  /bundles/soap/PK
+│ │ -0000c120: 0102 1403 0a00 0008 0000 ec58 0555 0000  ...........X.U..
+│ │ +0000c120: 0102 1403 0a00 0008 0000 469a 0955 0000  ..........F..U..
+│ │  0000c130: 0000 0000 0000 0000 0000 2300 0000 0000  ..........#.....
+│ │  0000c140: 0000 0000 1000 ed41 0d02 0000 6e65 742f  .......A....net/
+│ │  0000c150: 7469 7261 7361 2f63 6f6e 6e69 642f 6275  tirasa/connid/bu
+│ │  0000c160: 6e64 6c65 732f 736f 6170 2f63 7866 2f50  ndles/soap/cxf/P
+│ │  0000c170: 4b01 0214 030a 0000 0808 00b8 6c9b 54ed  K...........l.T.
+│ │  0000c180: ea6c af57 1f00 0078 6100 0010 0000 0000  .l.W...xa.......
+│ │  0000c190: 0000 0000 0000 00a4 814e 0200 004d 4554  .........N...MET
+
+11 /       13 target/reference/syncope-ext-saml2sp-agent-2.1.12.jar ext/saml2sp/agent/target/syncope-ext-saml2sp-agent-2.1.12.jar
+--- target/reference/syncope-ext-saml2sp-agent-2.1.12.jar
++++ ext/saml2sp/agent/target/syncope-ext-saml2sp-agent-2.1.12.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 30189 bytes, number of entries: 32
+│ +Zip file size: 30219 bytes, number of entries: 32
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/
+│  -rw-r--r--  2.0 unx      366 b- defN 22-Aug-05 08:41 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/resources/saml2sp/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 org/apache/syncope/
+│ @@ -24,11 +24,11 @@
+│  -rw-r--r--  2.0 unx     5163 b- defN 22-Aug-05 08:41 org/apache/syncope/ext/saml2lsp/agent/AbstractSAML2SPServlet.class
+│  -rw-r--r--  2.0 unx     5918 b- defN 22-Aug-05 08:41 org/apache/syncope/ext/saml2lsp/agent/AssertionConsumer.class
+│  -rw-r--r--  2.0 unx     1113 b- defN 22-Aug-05 08:41 org/apache/syncope/ext/saml2lsp/agent/Constants.class
+│  -rw-r--r--  2.0 unx     3663 b- defN 22-Aug-05 08:41 org/apache/syncope/ext/saml2lsp/agent/Login.class
+│  -rw-r--r--  2.0 unx     6059 b- defN 22-Aug-05 08:41 org/apache/syncope/ext/saml2lsp/agent/Logout.class
+│  -rw-r--r--  2.0 unx     3205 b- defN 22-Aug-05 08:41 org/apache/syncope/ext/saml2lsp/agent/Metadata.class
+│  -rw-r--r--  2.0 unx     3554 b- defN 22-Aug-05 08:41 org/apache/syncope/ext/saml2lsp/agent/SAML2SPAgentSetup.class
+│ --rw-r--r--  2.0 unx     1027 b- defN 22-Aug-05 08:41 saml2sp-agent.properties
+│ +-rw-r--r--  2.0 unx     1074 b- defN 22-Aug-05 08:41 saml2sp-agent.properties
+│  -rw-r--r--  2.0 unx     3911 b- defN 22-Aug-05 08:41 META-INF/maven/org.apache.syncope.ext.saml2sp/syncope-ext-saml2sp-agent/pom.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-Aug-05 08:41 META-INF/maven/org.apache.syncope.ext.saml2sp/syncope-ext-saml2sp-agent/pom.properties
+│ -32 files, 62941 bytes uncompressed, 25273 bytes compressed:  59.8%
+│ +32 files, 62988 bytes uncompressed, 25303 bytes compressed:  59.8%
+├── saml2sp-agent.properties
+│ @@ -10,15 +10,15 @@
+│  #
+│  # Unless required by applicable law or agreed to in writing,
+│  # software distributed under the License is distributed on an
+│  # "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+│  # KIND, either express or implied.  See the License for the
+│  # specific language governing permissions and limitations
+│  # under the License.
+│ -conf.directory=/home/ilgrosso/work/syncope/syncope/target/checkout/ext/saml2sp/agent/target/test-classes
+│ +conf.directory=/Users/hboutemy/dev/maven/other/reproducible-central/content/org/apache/syncope/buildcache/syncope/ext/saml2sp/agent/target/test-classes
+│  
+│  anonymousUser=anonymous
+│  anonymousKey=anonymousKey
+│  
+│  scheme=http
+│  host=localhost
+│  port=8080
+
+12 /       13 target/reference/syncope-ext-oidcclient-agent-2.1.12.jar ext/oidcclient/agent/target/syncope-ext-oidcclient-agent-2.1.12.jar
+--- target/reference/syncope-ext-oidcclient-agent-2.1.12.jar
++++ ext/oidcclient/agent/target/syncope-ext-oidcclient-agent-2.1.12.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 26661 bytes, number of entries: 30
+│ +Zip file size: 26689 bytes, number of entries: 30
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/
+│  -rw-r--r--  2.0 unx      372 b- defN 22-Aug-05 08:41 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/resources/oidcclient/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 org/apache/syncope/
+│ @@ -16,17 +16,17 @@
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Aug-05 08:41 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      194 b- defN 22-Aug-05 08:41 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     1197 b- defN 22-Aug-05 08:41 META-INF/resources/oidcclient/loginError.jsp
+│  -rw-r--r--  2.0 unx     1289 b- defN 22-Aug-05 08:41 META-INF/resources/oidcclient/loginSuccess.jsp
+│  -rw-r--r--  2.0 unx     1198 b- defN 22-Aug-05 08:41 META-INF/resources/oidcclient/logoutError.jsp
+│  -rw-r--r--  2.0 unx     1014 b- defN 22-Aug-05 08:41 META-INF/resources/oidcclient/logoutSuccess.jsp
+│  -rw-r--r--  2.0 unx     1169 b- defN 22-Aug-05 08:41 META-INF/web-fragment.xml
+│ --rw-r--r--  2.0 unx     1030 b- defN 22-Aug-05 08:41 oidcclient-agent.properties
+│ +-rw-r--r--  2.0 unx     1077 b- defN 22-Aug-05 08:41 oidcclient-agent.properties
+│  -rw-r--r--  2.0 unx     3777 b- defN 22-Aug-05 08:41 org/apache/syncope/ext/oidcclient/agent/BeforeLogout.class
+│  -rw-r--r--  2.0 unx     6194 b- defN 22-Aug-05 08:41 org/apache/syncope/ext/oidcclient/agent/CodeConsumer.class
+│  -rw-r--r--  2.0 unx     1148 b- defN 22-Aug-05 08:41 org/apache/syncope/ext/oidcclient/agent/Constants.class
+│  -rw-r--r--  2.0 unx     5000 b- defN 22-Aug-05 08:41 org/apache/syncope/ext/oidcclient/agent/Login.class
+│  -rw-r--r--  2.0 unx     3144 b- defN 22-Aug-05 08:41 org/apache/syncope/ext/oidcclient/agent/Logout.class
+│  -rw-r--r--  2.0 unx     3575 b- defN 22-Aug-05 08:41 org/apache/syncope/ext/oidcclient/agent/OIDCClientAgentSetup.class
+│  -rw-r--r--  2.0 unx     3932 b- defN 22-Aug-05 08:41 META-INF/maven/org.apache.syncope.ext.oidcclient/syncope-ext-oidcclient-agent/pom.xml
+│  -rw-r--r--  2.0 unx       97 b- defN 22-Aug-05 08:41 META-INF/maven/org.apache.syncope.ext.oidcclient/syncope-ext-oidcclient-agent/pom.properties
+│ -30 files, 55806 bytes uncompressed, 22051 bytes compressed:  60.5%
+│ +30 files, 55853 bytes uncompressed, 22079 bytes compressed:  60.5%
+├── oidcclient-agent.properties
+│ @@ -10,15 +10,15 @@
+│  #
+│  # Unless required by applicable law or agreed to in writing,
+│  # software distributed under the License is distributed on an
+│  # "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+│  # KIND, either express or implied.  See the License for the
+│  # specific language governing permissions and limitations
+│  # under the License.
+│ -conf.directory=/home/ilgrosso/work/syncope/syncope/target/checkout/ext/oidcclient/agent/target/test-classes
+│ +conf.directory=/Users/hboutemy/dev/maven/other/reproducible-central/content/org/apache/syncope/buildcache/syncope/ext/oidcclient/agent/target/test-classes
+│  
+│  anonymousUser=anonymous
+│  anonymousKey=anonymousKey
+│  
+│  scheme=http
+│  host=localhost
+│  port=8080
+
+13 /       13 target/reference/syncope-archetype-2.1.12-sources.jar archetype/target/syncope-archetype-2.1.12-sources.jar
+--- target/reference/syncope-archetype-2.1.12-sources.jar
++++ archetype/target/syncope-archetype-2.1.12-sources.jar
+├── zipinfo {}
+│ @@ -1,301 +1,306 @@
+│ -Zip file size: 386542 bytes, number of entries: 299
+│ +Zip file size: 412582 bytes, number of entries: 304
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Aug-05 08:41 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 archetype-resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 archetype-resources/common/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 archetype-resources/console/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 archetype-resources/core/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 archetype-resources/core/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 archetype-resources/core/src/test/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 archetype-resources/core/src/test/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 archetype-resources/enduser/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 /
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 /home/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 /home/ilgrosso/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 /home/ilgrosso/work/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 /home/ilgrosso/work/syncope/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 /home/ilgrosso/work/syncope/syncope/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 /home/ilgrosso/work/syncope/syncope/target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 /home/ilgrosso/work/syncope/syncope/target/checkout/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 /home/ilgrosso/work/syncope/syncope/target/checkout/archetype/
+...
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 /home/ilgrosso/work/syncope/syncope/target/checkout/archetype/target/classes/archetype-resources/enduser/src/main/webapp/WEB-INF/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 /Users/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 /Users/hboutemy/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 /Users/hboutemy/dev/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 /Users/hboutemy/dev/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 /Users/hboutemy/dev/maven/other/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 /Users/hboutemy/dev/maven/other/reproducible-central/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 /Users/hboutemy/dev/maven/other/reproducible-central/content/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 /Users/hboutemy/dev/maven/other/reproducible-central/content/org/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 /Users/hboutemy/dev/maven/other/reproducible-central/content/org/apache/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 /Users/hboutemy/dev/maven/other/reproducible-central/content/org/apache/syncope/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 /Users/hboutemy/dev/maven/other/reproducible-central/content/org/apache/syncope/buildcache/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 /Users/hboutemy/dev/maven/other/reproducible-central/content/org/apache/syncope/buildcache/syncope/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 /Users/hboutemy/dev/maven/other/reproducible-central/content/org/apache/syncope/buildcache/syncope/archetype/
+...
+archetype-resources/enduser/src/test/resources/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 /Users/hboutemy/dev/maven/other/reproducible-central/content/org/apache/syncope/buildcache/syncope/archetype/target/classes/archetype-resources/enduser/src/main/webapp/WEB-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/maven/org.apache.syncope/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-05 08:41 META-INF/maven/org.apache.syncope/syncope-archetype/
+│  -rw-r--r--  2.0 unx      274 b- defN 22-Aug-05 08:41 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Aug-05 08:41 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      181 b- defN 22-Aug-05 08:41 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     3414 b- defN 22-Aug-05 08:41 META-INF/maven/archetype-metadata.xml
+│  -rw-r--r--  2.0 unx     1881 b- defN 22-Aug-05 08:41 archetype-resources/common/pom.xml
+│  -rw-r--r--  2.0 unx     4704 b- defN 22-Aug-05 08:41 archetype-resources/console/pom.xml
+│  -rw-r--r--  2.0 unx     7615 b- defN 22-Aug-05 08:41 archetype-resources/core/pom.xml
+│  -rw-r--r--  2.0 unx     3593 b- defN 22-Aug-05 08:41 archetype-resources/core/src/test/resources/addFlowableToContent.xsl
+│  -rw-r--r--  2.0 unx    13601 b- defN 22-Aug-05 08:41 archetype-resources/enduser/pom.xml
+│  -rw-r--r--  2.0 unx     3167 b- defN 22-Aug-05 08:41 archetype-resources/pom.xml
+│  -rw-r--r--  2.0 unx     3157 b- defN 22-Aug-05 08:41 meta-pom.xml
+│  -rw-r--r--  2.0 unx     1565 b- defN 22-Aug-05 08:41 properties2pom.xsl
+/src/main/webapp/WEB-INF/weblogic.xml
+│  -rw-r--r--  2.0 unx    14863 b- defN 22-Aug-05 08:41 META-INF/maven/org.apache.syncope/syncope-archetype/pom.xml
+│  -rw-r--r--  2.0 unx       71 b- defN 22-Aug-05 08:41 META-INF/maven/org.apache.syncope/syncope-archetype/pom.properties
+│ -299 files, 1003326 bytes uncompressed, 285928 bytes compressed:  71.5%
+│ +304 files, 1003326 bytes uncompressed, 285928 bytes compressed:  71.5%
