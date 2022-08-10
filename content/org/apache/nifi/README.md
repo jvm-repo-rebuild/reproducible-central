@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi.git)
 
-<details><summary>This project defines 663 modules:</summary>
+<details><summary>This project defines 666 modules:</summary>
 
 * [org.apache.nifi.minifi:minifi](https://search.maven.org/artifact/org.apache.nifi.minifi/minifi/)
 * [org.apache.nifi.minifi:minifi-assembly](https://search.maven.org/artifact/org.apache.nifi.minifi/minifi-assembly/)
@@ -278,6 +278,9 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-groovyx-bundle](https://search.maven.org/artifact/org.apache.nifi/nifi-groovyx-bundle/)
 * [org.apache.nifi:nifi-groovyx-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-groovyx-nar/)
 * [org.apache.nifi:nifi-groovyx-processors](https://search.maven.org/artifact/org.apache.nifi/nifi-groovyx-processors/)
+* [org.apache.nifi:nifi-grpc-bundle](https://search.maven.org/artifact/org.apache.nifi/nifi-grpc-bundle/)
+* [org.apache.nifi:nifi-grpc-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-grpc-nar/)
+* [org.apache.nifi:nifi-grpc-processors](https://search.maven.org/artifact/org.apache.nifi/nifi-grpc-processors/)
 * [org.apache.nifi:nifi-h2](https://search.maven.org/artifact/org.apache.nifi/nifi-h2/)
 * [org.apache.nifi:nifi-h2-database](https://search.maven.org/artifact/org.apache.nifi/nifi-h2-database/)
 * [org.apache.nifi:nifi-h2-database-migrator](https://search.maven.org/artifact/org.apache.nifi/nifi-h2-database-migrator/)
@@ -680,7 +683,7 @@ rebuilding **4 releases** of org.apache.nifi:nifi:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.17.0](https://search.maven.org/artifact/org.apache.nifi/nifi/1.17.0/pom) | [mvn jdk8](nifi-1.17.0.buildspec) | [result](nifi-1.17.0.buildinfo): [1497 :heavy_check_mark:  172 :warning:](nifi-1.17.0.buildcompare) [:mag:](nifi-1.17.0.diffoscope) | 2.9G |
+| [1.17.0](https://search.maven.org/artifact/org.apache.nifi/nifi/1.17.0/pom) | [mvn jdk8](nifi-1.17.0.buildspec) | [result](nifi-1.17.0.buildinfo): [1505 :heavy_check_mark:  171 :warning:](nifi-1.17.0.buildcompare) [:mag:](nifi-1.17.0.diffoscope) | 2.9G |
 | [1.16.3](https://search.maven.org/artifact/org.apache.nifi/nifi/1.16.3/pom) | | | |
 | [1.16.2](https://search.maven.org/artifact/org.apache.nifi/nifi/1.16.2/pom) | [mvn jdk8](nifi-1.16.2.buildspec) | [result](nifi-1.16.2.buildinfo): [1282 :heavy_check_mark:  371 :warning:](nifi-1.16.2.buildcompare) [:memo:](https://github.com/apache/nifi/pull/5915) | 3.2G |
 | [1.16.1](https://search.maven.org/artifact/org.apache.nifi/nifi/1.16.1/pom) | [mvn jdk8](nifi-1.16.1.buildspec) | [result](nifi-1.16.1.buildinfo): [1282 :heavy_check_mark:  371 :warning:](nifi-1.16.1.buildcompare) [:memo:](https://github.com/apache/nifi/pull/5915) | 3.2G |

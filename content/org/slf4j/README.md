@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/qos-ch/slf4j.git](https://github.com/qos-ch/slf4j.git)
 
-<details><summary>This project defines 16 modules:</summary>
+<details><summary>This project defines 17 modules:</summary>
 
 * [org.slf4j:integration](https://search.maven.org/artifact/org.slf4j/integration/)
 * [org.slf4j:jcl-over-slf4j](https://search.maven.org/artifact/org.slf4j/jcl-over-slf4j/)
@@ -18,6 +18,7 @@ Source code: [https://github.com/qos-ch/slf4j.git](https://github.com/qos-ch/slf
 * [org.slf4j:slf4j-api](https://search.maven.org/artifact/org.slf4j/slf4j-api/)
 * [org.slf4j:slf4j-ext](https://search.maven.org/artifact/org.slf4j/slf4j-ext/)
 * [org.slf4j:slf4j-jcl](https://search.maven.org/artifact/org.slf4j/slf4j-jcl/)
+* [org.slf4j:slf4j-jdk-platform-logging](https://search.maven.org/artifact/org.slf4j/slf4j-jdk-platform-logging/)
 * [org.slf4j:slf4j-jdk14](https://search.maven.org/artifact/org.slf4j/slf4j-jdk14/)
 * [org.slf4j:slf4j-log4j12](https://search.maven.org/artifact/org.slf4j/slf4j-log4j12/)
 * [org.slf4j:slf4j-migrator](https://search.maven.org/artifact/org.slf4j/slf4j-migrator/)
@@ -27,13 +28,13 @@ Source code: [https://github.com/qos-ch/slf4j.git](https://github.com/qos-ch/slf
 * [org.slf4j:slf4j-simple](https://search.maven.org/artifact/org.slf4j/slf4j-simple/)
 </details>
 
-rebuilding **1 releases** of org.slf4j:slf4j-parent:
+rebuilding **2 releases** of org.slf4j:slf4j-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.0.0-beta1](https://search.maven.org/artifact/org.slf4j/slf4j-parent/2.0.0-beta1/pom) | | | |
+| [2.0.0-beta1](https://search.maven.org/artifact/org.slf4j/slf4j-parent/2.0.0-beta1/pom) | [mvn jdk18](slf4j-2.0.0-beta1.buildspec) | [result](slf4j-parent-2.0.0-beta1.buildinfo): [32 :heavy_check_mark:  7 :warning:](slf4j-parent-2.0.0-beta1.buildcompare) [:mag:](slf4j-parent-2.0.0-beta1.diffoscope) [:memo:](https://github.com/jvm-repo-rebuild/reproducible-central/issues/77) | 536K |
 | [2.0.0-beta0](https://search.maven.org/artifact/org.slf4j/slf4j-parent/2.0.0-beta0/pom) | | | |
 | [2.0.0-alpha7](https://search.maven.org/artifact/org.slf4j/slf4j-parent/2.0.0-alpha7/pom) | | | |
 | [2.0.0-alpha6](https://search.maven.org/artifact/org.slf4j/slf4j-parent/2.0.0-alpha6/pom) | | | |

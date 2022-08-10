@@ -24,9 +24,10 @@
       <version>2.4</version>
       <version>3.0.0</version>
       <version>3.1.0</version>
+      <version>3.2.0</version>
       <version>4.0.0-M1</version>
       <version>4.0.0-M2</version>
     </versions>
-    <lastUpdated>20220708113735</lastUpdated>
+    <lastUpdated>20220809194541</lastUpdated>
   </versioning>
 </metadata>
