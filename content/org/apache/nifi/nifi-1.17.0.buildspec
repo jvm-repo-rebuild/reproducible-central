@@ -10,7 +10,7 @@ tool=mvn
 jdk=8
 newline=lf
 
-command="SHELL export LC_ALL=en_US.UTF-8 ; MAVEN_OPTS='-Duser.country=US -Duser.language=en' mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+command="SHELL export LC_ALL=en_US.UTF-8 ; MAVEN_OPTS='-Duser.country=US -Duser.language=en' mvn -Papache-release,include-grpc,include-ranger clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope
