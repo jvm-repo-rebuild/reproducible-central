@@ -1,0 +1,332 @@
+1 /        7 target/reference/slf4j-api-2.0.0-beta1.jar slf4j-api/target/slf4j-api-2.0.0-beta1.jar
+--- target/reference/slf4j-api-2.0.0-beta1.jar
++++ slf4j-api/target/slf4j-api-2.0.0-beta1.jar
+│┄ Archive contents identical but files differ, possibly due to different compression levels. Falling back to binary comparison.
+├── zipinfo {}
+│ @@ -60,9 +60,9 @@
+│  -rw----     2.0 fat     1522 bl defN 22-Aug-06 21:30 org/slf4j/spi/LoggingEventBuilder.class
+│  -rw----     2.0 fat      732 bl defN 22-Aug-06 21:30 org/slf4j/spi/MDCAdapter.class
+│  -rw----     2.0 fat      249 bl defN 22-Aug-06 21:30 org/slf4j/spi/MarkerFactoryBinder.class
+│  -rw----     2.0 fat     3163 bl defN 22-Aug-06 21:30 org/slf4j/spi/NOPLoggingEventBuilder.class
+│  -rw----     2.0 fat      389 bl defN 22-Aug-06 21:30 org/slf4j/spi/SLF4JServiceProvider.class
+│  -rw----     2.0 fat     1617 bl defN 22-Aug-06 21:30 META-INF/maven/org.slf4j/slf4j-api/pom.xml
+│  -rw----     2.0 fat       59 bl defN 22-Aug-06 21:30 META-INF/maven/org.slf4j/slf4j-api/pom.properties
+│ --rw----     2.0 fat      339 bX defN 22-Aug-06 19:30 META-INF/versions/9/module-info.class
+│ +-rw----     2.0 fat      339 bX defN 22-Aug-06 21:30 META-INF/versions/9/module-info.class
+│  66 files, 125296 bytes uncompressed, 50971 bytes compressed:  59.3%
+│   --- target/reference/slf4j-api-2.0.0-beta1.jar
+├── +++ slf4j-api/target/slf4j-api-2.0.0-beta1.jar
+│ @@ -3483,15 +3483,15 @@
+│  0000d9a0: 2fca 2f2d 008a e417 a5eb 8145 b9ca 528b  /./-.......E..R.
+│  0000d9b0: 8a33 f3f3 6c8d f40c f40c 7493 524b 120d  .3..l.....t.RK..
+│  0000d9c0: b900 504b 0708 caa8 471e 3800 0000 3b00  ..PK....G.8...;.
+│  0000d9d0: 0000 504b 0304 1400 0808 0800 c0ab 0655  ..PK...........U
+│  0000d9e0: 0000 0000 0000 0000 0000 0000 2500 0900  ............%...
+│  0000d9f0: 4d45 5441 2d49 4e46 2f76 6572 7369 6f6e  META-INF/version
+│  0000da00: 732f 392f 6d6f 6475 6c65 2d69 6e66 6f2e  s/9/module-info.
+│ -0000da10: 636c 6173 7355 5405 0001 38c1 ee62 554f  classUT...8..bUO
+│ +0000da10: 636c 6173 7355 5405 0001 58dd ee62 554f  classUT...X..bUO
+│  0000da20: 4152 c240 10ec 1124 1224 8859 7d80 7736  AR.@...$.$.Y}.w6
+│  0000da30: d1c2 2f70 b0b4 8aaa bc60 0903 2e46 96da  ../p.....`...F..
+│  0000da40: 859c 7d97 071f e0a3 2c36 8b8a cea1 67a6  ..}.....,6....g.
+│  0000da50: bb67 a6e6 f3eb fd03 c03d ae09 bd57 33df  .g.......=...W3.
+│  0000da60: 553c d2eb 8589 4084 8b3f 845c a95a 11ba  U<....@..?.\.Z..
+│  0000da70: c62e a5ab 16e3 558a b61f b993 b9cc 4733  ......U.......G3
+│  0000da80: deaa db83 9805 5120 220c 7edb 8c6b 5e6f  ......Q ".~..k^o
+│ @@ -3829,9 +3829,9 @@
+│  0000ef40: 346a 2f73 6c66 346a 2d61 7069 2f70 6f6d  4j/slf4j-api/pom
+│  0000ef50: 2e70 726f 7065 7274 6965 7350 4b01 0214  .propertiesPK...
+│  0000ef60: 0014 0008 0808 00c0 ab06 5578 e3cf 3de3  ..........Ux..=.
+│  0000ef70: 0000 0053 0100 0025 0009 0000 0000 0000  ...S...%........
+│  0000ef80: 0000 0000 00d2 d900 004d 4554 412d 494e  .........META-IN
+│  0000ef90: 462f 7665 7273 696f 6e73 2f39 2f6d 6f64  F/versions/9/mod
+│  0000efa0: 756c 652d 696e 666f 2e63 6c61 7373 5554  ule-info.classUT
+│ -0000efb0: 0500 0138 c1ee 6250 4b05 0600 0000 0042  ...8..bPK......B
+│ +0000efb0: 0500 0158 ddee 6250 4b05 0600 0000 0042  ...X..bPK......B
+│  0000efc0: 0042 00a6 1400 0011 db00 0000 00         .B...........
+
+2 /        7 target/reference/slf4j-simple-2.0.0-beta1.jar slf4j-simple/target/slf4j-simple-2.0.0-beta1.jar
+--- target/reference/slf4j-simple-2.0.0-beta1.jar
++++ slf4j-simple/target/slf4j-simple-2.0.0-beta1.jar
+│┄ Archive contents identical but files differ, possibly due to different compression levels. Falling back to binary comparison.
+├── zipinfo {}
+│ @@ -16,9 +16,9 @@
+│  -rw----     2.0 fat     1396 bl defN 22-Aug-06 21:30 org/slf4j/simple/OutputChoice.class
+│  -rw----     2.0 fat     8479 bl defN 22-Aug-06 21:30 org/slf4j/simple/SimpleLogger.class
+│  -rw----     2.0 fat     6920 bl defN 22-Aug-06 21:30 org/slf4j/simple/SimpleLoggerConfiguration.class
+│  -rw----     2.0 fat     1338 bl defN 22-Aug-06 21:30 org/slf4j/simple/SimpleLoggerFactory.class
+│  -rw----     2.0 fat     1369 bl defN 22-Aug-06 21:30 org/slf4j/simple/SimpleServiceProvider.class
+│  -rw----     2.0 fat     1068 bl defN 22-Aug-06 21:30 META-INF/maven/org.slf4j/slf4j-simple/pom.xml
+│  -rw----     2.0 fat       62 bl defN 22-Aug-06 21:30 META-INF/maven/org.slf4j/slf4j-simple/pom.properties
+│ --rw----     2.0 fat      329 bX defN 22-Aug-06 19:30 META-INF/versions/9/module-info.class
+│ +-rw----     2.0 fat      329 bX defN 22-Aug-06 21:30 META-INF/versions/9/module-info.class
+│  22 files, 24058 bytes uncompressed, 11684 bytes compressed:  51.4%
+│   --- target/reference/slf4j-simple-2.0.0-beta1.jar
+├── +++ slf4j-simple/target/slf4j-simple-2.0.0-beta1.jar
+│ @@ -805,15 +805,15 @@
+│  00003240: ca2f 2d00 0ae6 17a5 eb81 25b8 ca52 8b8a  ./-.......%..R..
+│  00003250: 33f3 f36c 8df4 0cf4 0c74 9352 4b12 0db9  3..l.....t.RK...
+│  00003260: 0050 4b07 08b6 68d9 8b3b 0000 003e 0000  .PK...h..;...>..
+│  00003270: 0050 4b03 0414 0008 0808 00c0 ab06 5500  .PK...........U.
+│  00003280: 0000 0000 0000 0000 0000 0025 0009 004d  ...........%...M
+│  00003290: 4554 412d 494e 462f 7665 7273 696f 6e73  ETA-INF/versions
+│  000032a0: 2f39 2f6d 6f64 756c 652d 696e 666f 2e63  /9/module-info.c
+│ -000032b0: 6c61 7373 5554 0500 0138 c1ee 6265 4f5b  lassUT...8..beO[
+│ +000032b0: 6c61 7373 5554 0500 0158 ddee 6265 4f5b  lassUT...X..beO[
+│  000032c0: 6ec2 400c 1cf3 4a81 96d2 8613 f0c1 1f1b  n.@...J.........
+│  000032d0: 40f4 0a7c 54ad 8494 132c 8983 9606 166d  @..|T....,.....m
+│  000032e0: 4abe 3917 1f1c 8043 a13a 898a 506b 69ed  J.9....C.:..Pki.
+│  000032f0: 19ef cc48 be5c 4f67 006f 1810 ba5b 1b1f  ...H.\Og.o...[..
+│  00003300: 521e 9b5d 623d 10a1 7fb7 501b 9d6b 5959  R..]b=....P..kYY
+│  00003310: b756 599a cc37 2a33 db7d ca3e 1ae2 9ca9  .VY..7*3.}.>....
+│  00003320: 899a 8c57 fcad a795 2628 3541 a519 c023  ...W....&(5A...#
+│ @@ -926,9 +926,9 @@
+│  000039d0: 2f73 6c66 346a 2d73 696d 706c 652f 706f  /slf4j-simple/po
+│  000039e0: 6d2e 7072 6f70 6572 7469 6573 504b 0102  m.propertiesPK..
+│  000039f0: 1400 1400 0808 0800 c0ab 0655 a12f 5c96  ...........U./\.
+│  00003a00: d900 0000 4901 0000 2500 0900 0000 0000  ....I...%.......
+│  00003a10: 0000 0000 0000 7132 0000 4d45 5441 2d49  ......q2..META-I
+│  00003a20: 4e46 2f76 6572 7369 6f6e 732f 392f 6d6f  NF/versions/9/mo
+│  00003a30: 6475 6c65 2d69 6e66 6f2e 636c 6173 7355  dule-info.classU
+│ -00003a40: 5405 0001 38c1 ee62 504b 0506 0000 0000  T...8..bPK......
+│ +00003a40: 5405 0001 58dd ee62 504b 0506 0000 0000  T...X..bPK......
+│  00003a50: 1600 1600 a206 0000 a633 0000 0000       .........3....
+
+3 /        7 target/reference/slf4j-nop-2.0.0-beta1.jar slf4j-nop/target/slf4j-nop-2.0.0-beta1.jar
+--- target/reference/slf4j-nop-2.0.0-beta1.jar
++++ slf4j-nop/target/slf4j-nop-2.0.0-beta1.jar
+│┄ Archive contents identical but files differ, possibly due to different compression levels. Falling back to binary comparison.
+├── zipinfo {}
+│ @@ -10,9 +10,9 @@
+│  -rw----     1.0 fat        0 b- stor 22-Aug-06 21:30 META-INF/maven/
+│  -rw----     1.0 fat        0 b- stor 22-Aug-06 21:30 META-INF/maven/org.slf4j/
+│  -rw----     1.0 fat        0 b- stor 22-Aug-06 21:30 META-INF/maven/org.slf4j/slf4j-nop/
+│  -rw----     2.0 fat       32 bl defN 22-Aug-06 21:30 META-INF/services/org.slf4j.spi.SLF4JServiceProvider
+│  -rw----     2.0 fat     1352 bl defN 22-Aug-06 21:30 org/slf4j/nop/NOPServiceProvider.class
+│  -rw----     2.0 fat      843 bl defN 22-Aug-06 21:30 META-INF/maven/org.slf4j/slf4j-nop/pom.xml
+│  -rw----     2.0 fat       59 bl defN 22-Aug-06 21:30 META-INF/maven/org.slf4j/slf4j-nop/pom.properties
+│ --rw----     2.0 fat      317 bX defN 22-Aug-06 19:30 META-INF/versions/9/module-info.class
+│ +-rw----     2.0 fat      317 bX defN 22-Aug-06 21:30 META-INF/versions/9/module-info.class
+│  16 files, 3263 bytes uncompressed, 1637 bytes compressed:  49.8%
+│   --- target/reference/slf4j-nop-2.0.0-beta1.jar
+├── +++ slf4j-nop/target/slf4j-nop-2.0.0-beta1.jar
+│ @@ -143,15 +143,15 @@
+│  000008e0: e04a 2fca 2f2d 008a e417 a5eb 8145 b9ca  .J/./-.......E..
+│  000008f0: 528b 8a33 f3f3 6c8d f40c f40c 7493 524b  R..3..l.....t.RK
+│  00000900: 120d b900 504b 0708 8343 3e65 3800 0000  ....PK...C>e8...
+│  00000910: 3b00 0000 504b 0304 1400 0808 0800 c0ab  ;...PK..........
+│  00000920: 0655 0000 0000 0000 0000 0000 0000 2500  .U............%.
+│  00000930: 0900 4d45 5441 2d49 4e46 2f76 6572 7369  ..META-INF/versi
+│  00000940: 6f6e 732f 392f 6d6f 6475 6c65 2d69 6e66  ons/9/module-inf
+│ -00000950: 6f2e 636c 6173 7355 5405 0001 38c1 ee62  o.classUT...8..b
+│ +00000950: 6f2e 636c 6173 7355 5405 0001 58dd ee62  o.classUT...X..b
+│  00000960: 654e 6d4e c240 149c 2748 e54b d172 00c3  eNmN.@..'H.K.r..
+│  00000970: 7fb6 68e0 0afc 30a2 4d7a 82a5 3cc8 62e9  ..h...0.Mz..<.b.
+│  00000980: 365b e96f cee5 0f0f e0a1 0caf 6d44 8c93  6[.o........mD..
+│  00000990: ecbe 997d 3393 fdfa fef8 0430 c390 d0dd  ...}3......0....
+│  000009a0: d9d5 3ee1 b149 d7d6 0311 0667 0f6a ab0b  ..>..I.....g.j..
+│  000009b0: 4de8 5bb7 5179 b29e 6e55 6a33 1f4d 893d  M.[.Qy..nUj3.M.=
+│  000009c0: aa89 9a8c 97fc ae1f 6a43 5019 0231 0ce1  ........jCP..1..
+│ @@ -230,10 +230,10 @@
+│  00000e50: 2e73 6c66 346a 2f73 6c66 346a 2d6e 6f70  .slf4j/slf4j-nop
+│  00000e60: 2f70 6f6d 2e70 726f 7065 7274 6965 7350  /pom.propertiesP
+│  00000e70: 4b01 0214 0014 0008 0808 00c0 ab06 5576  K.............Uv
+│  00000e80: b999 6ed8 0000 003d 0100 0025 0009 0000  ..n....=...%....
+│  00000e90: 0000 0000 0000 0000 0014 0900 004d 4554  .............MET
+│  00000ea0: 412d 494e 462f 7665 7273 696f 6e73 2f39  A-INF/versions/9
+│  00000eb0: 2f6d 6f64 756c 652d 696e 666f 2e63 6c61  /module-info.cla
+│ -00000ec0: 7373 5554 0500 0138 c1ee 6250 4b05 0600  ssUT...8..bPK...
+│ +00000ec0: 7373 5554 0500 0158 ddee 6250 4b05 0600  ssUT...X..bPK...
+│  00000ed0: 0000 0010 0010 0083 0400 0048 0a00 0000  ...........H....
+│  00000ee0: 00                                       .
+
+4 /        7 target/reference/slf4j-jdk14-2.0.0-beta1.jar slf4j-jdk14/target/slf4j-jdk14-2.0.0-beta1.jar
+--- target/reference/slf4j-jdk14-2.0.0-beta1.jar
++++ slf4j-jdk14/target/slf4j-jdk14-2.0.0-beta1.jar
+│┄ Archive contents identical but files differ, possibly due to different compression levels. Falling back to binary comparison.
+├── zipinfo {}
+│ @@ -13,9 +13,9 @@
+│  -rw----     2.0 fat       32 bl defN 22-Aug-06 21:30 META-INF/services/org.slf4j.spi.SLF4JServiceProvider
+│  -rw----     2.0 fat      818 bl defN 22-Aug-06 21:30 org/slf4j/jul/JDK14LoggerAdapter$1.class
+│  -rw----     2.0 fat     7465 bl defN 22-Aug-06 21:30 org/slf4j/jul/JDK14LoggerAdapter.class
+│  -rw----     2.0 fat     1589 bl defN 22-Aug-06 21:30 org/slf4j/jul/JDK14LoggerFactory.class
+│  -rw----     2.0 fat     1352 bl defN 22-Aug-06 21:30 org/slf4j/jul/JULServiceProvider.class
+│  -rw----     2.0 fat     1058 bl defN 22-Aug-06 21:30 META-INF/maven/org.slf4j/slf4j-jdk14/pom.xml
+│  -rw----     2.0 fat       61 bl defN 22-Aug-06 21:30 META-INF/maven/org.slf4j/slf4j-jdk14/pom.properties
+│ --rw----     2.0 fat      341 bX defN 22-Aug-06 19:30 META-INF/versions/9/module-info.class
+│ +-rw----     2.0 fat      341 bX defN 22-Aug-06 21:30 META-INF/versions/9/module-info.class
+│  19 files, 13574 bytes uncompressed, 6680 bytes compressed:  50.8%
+│   --- target/reference/slf4j-jdk14-2.0.0-beta1.jar
+├── +++ slf4j-jdk14/target/slf4j-jdk14-2.0.0-beta1.jar
+│ @@ -474,15 +474,15 @@
+│  00001d90: 17a5 eb81 c5b9 ca52 8b8a 33f3 f36c 8df4  .......R..3..l..
+│  00001da0: 0cf4 0c74 9352 4b12 0db9 0050 4b07 08fe  ...t.RK....PK...
+│  00001db0: e809 c33a 0000 003d 0000 0050 4b03 0414  ...:...=...PK...
+│  00001dc0: 0008 0808 00c0 ab06 5500 0000 0000 0000  ........U.......
+│  00001dd0: 0000 0000 0025 0009 004d 4554 412d 494e  .....%...META-IN
+│  00001de0: 462f 7665 7273 696f 6e73 2f39 2f6d 6f64  F/versions/9/mod
+│  00001df0: 756c 652d 696e 666f 2e63 6c61 7373 5554  ule-info.classUT
+│ -00001e00: 0500 0138 c1ee 6265 50cb 4ec3 3010 9ca5  ...8..beP.N.0...
+│ +00001e00: 0500 0158 ddee 6265 50cb 4ec3 3010 9ca5  ...X..beP.N.0...
+│  00001e10: a5a1 4f1e 2e9c 1127 2e75 0a2a bfd0 4355  ..O....'.u.*..CU
+│  00001e20: a44a 111f e0a6 aee5 606a e490 9cfb 5d1c  .J......`j....].
+│  00001e30: fa01 7c14 6293 0a0a 6225 7b67 3cb3 6bed  ..|.b...b%{g<.k.
+│  00001e40: 7e7c beef 003c e08a d07d f1ab c2e9 91dd  ~|...<...}......
+│  00001e50: ac7d 0422 9cfd 7a90 992a 15a1 ef83 91b9  .}."..z..*......
+│  00001e60: 5b4f 3299 154e a0c9 65f7 722c c7a3 a57e  [O2..N..e.r,...~
+│  00001e70: 5377 7b43 5c1b 6236 0c11 11da 55a9 5caa  Sw{C\.b6....U.\.
+│ @@ -578,9 +578,9 @@
+│  00002410: 736c 6634 6a2d 6a64 6b31 342f 706f 6d2e  slf4j-jdk14/pom.
+│  00002420: 7072 6f70 6572 7469 6573 504b 0102 1400  propertiesPK....
+│  00002430: 1400 0808 0800 c0ab 0655 7d97 a05b e800  .........U}..[..
+│  00002440: 0000 5501 0000 2500 0900 0000 0000 0000  ..U...%.........
+│  00002450: 0000 0000 bb1d 0000 4d45 5441 2d49 4e46  ........META-INF
+│  00002460: 2f76 6572 7369 6f6e 732f 392f 6d6f 6475  /versions/9/modu
+│  00002470: 6c65 2d69 6e66 6f2e 636c 6173 7355 5405  le-info.classUT.
+│ -00002480: 0001 38c1 ee62 504b 0506 0000 0000 1300  ..8..bPK........
+│ +00002480: 0001 58dd ee62 504b 0506 0000 0000 1300  ..X..bPK........
+│  00002490: 1300 8705 0000 ff1e 0000 0000            ............
+
+5 /        7 target/reference/slf4j-jdk-platform-logging-2.0.0-beta1.jar slf4j-jdk-platform-logging/target/slf4j-jdk-platform-logging-2.0.0-beta1.jar
+--- target/reference/slf4j-jdk-platform-logging-2.0.0-beta1.jar
++++ slf4j-jdk-platform-logging/target/slf4j-jdk-platform-logging-2.0.0-beta1.jar
+│┄ Archive contents identical but files differ, possibly due to different compression levels. Falling back to binary comparison.
+├── zipinfo {}
+│ @@ -13,9 +13,9 @@
+│  -rw----     2.0 fat       55 bl defN 22-Aug-06 21:30 META-INF/services/java.lang.System$LoggerFinder
+│  -rw----     2.0 fat     1488 bl defN 22-Aug-06 21:30 org/slf4j/jdk/platform/logging/SLF4JPlarformLoggerFactory.class
+│  -rw----     2.0 fat      974 bl defN 22-Aug-06 21:30 org/slf4j/jdk/platform/logging/SLF4JPlatformLogger$1.class
+│  -rw----     2.0 fat     5423 bl defN 22-Aug-06 21:30 org/slf4j/jdk/platform/logging/SLF4JPlatformLogger.class
+│  -rw----     2.0 fat     1057 bl defN 22-Aug-06 21:30 org/slf4j/jdk/platform/logging/SLF4JSystemLoggerFinder.class
+│  -rw----     2.0 fat     2428 bl defN 22-Aug-06 21:30 META-INF/maven/org.slf4j/slf4j-jdk-platform-logging/pom.xml
+│  -rw----     2.0 fat       76 bl defN 22-Aug-06 21:30 META-INF/maven/org.slf4j/slf4j-jdk-platform-logging/pom.properties
+│ --rw----     2.0 fat      436 bX defN 22-Aug-06 19:30 module-info.class
+│ +-rw----     2.0 fat      436 bX defN 22-Aug-06 21:30 module-info.class
+│  19 files, 12633 bytes uncompressed, 5647 bytes compressed:  55.3%
+│   --- target/reference/slf4j-jdk-platform-logging-2.0.0-beta1.jar
+├── +++ slf4j-jdk-platform-logging/target/slf4j-jdk-platform-logging-2.0.0-beta1.jar
+│ @@ -414,15 +414,15 @@
+│  000019d0: 2929 d5f9 35dc fb50 3427 3c75 0f7e d4b4  ))..5..P4'<u.~..
+│  000019e0: 1528 e182 5e51 13cb 0d95 8972 2343 c24f  .(..^Q.....r#C.O
+│  000019f0: ff0b 0bd9 d9cc 1b65 646e 7eb5 ce3a 38a2  .......edn~..:8.
+│  00001a00: e262 3e50 4b07 0821 8ece b648 0000 004c  .b>PK..!...H...L
+│  00001a10: 0000 0050 4b03 0414 0008 0808 00c0 ab06  ...PK...........
+│  00001a20: 5500 0000 0000 0000 0000 0000 0011 0009  U...............
+│  00001a30: 006d 6f64 756c 652d 696e 666f 2e63 6c61  .module-info.cla
+│ -00001a40: 7373 5554 0500 0138 c1ee 627d 904d 4ec3  ssUT...8..b}.MN.
+│ +00001a40: 7373 5554 0500 0158 ddee 627d 904d 4ec3  ssUT...X..b}.MN.
+│  00001a50: 3010 859f 2134 342d bf29 3f1b 5820 b6b5  0...!44-.)?.X ..
+│  00001a60: 0b2a 5c00 2912 a848 4839 81db 3856 52c7  .*\.)..HH9..8VR.
+│  00001a70: 4671 8ac4 aee7 62c1 0138 14c2 4928 2a2c  Fq....b..8..I(*,
+│  00001a80: 98c5 d8cf 33df 1bdb 1f9f 6fef 006e 704a  ....3.....o..npJ
+│  00001a90: d02b 4cb2 5062 98e9 d4f8 2004 fb6b 0734  .+L.Pb.... ..k.4
+│  00001aa0: e72f 9ce0 dc94 925a 958e 739a 2773 faac  ./.....Z..s.'s..
+│  00001ab0: 7895 9ab2 a0ca 4899 6919 c273 3ed7 7444  x.....H.i..s>.tD
+│ @@ -528,10 +528,10 @@
+│  000020f0: 6f72 672e 736c 6634 6a2f 736c 6634 6a2d  org.slf4j/slf4j-
+│  00002100: 6a64 6b2d 706c 6174 666f 726d 2d6c 6f67  jdk-platform-log
+│  00002110: 6769 6e67 2f70 6f6d 2e70 726f 7065 7274  ging/pom.propert
+│  00002120: 6965 7350 4b01 0214 0014 0008 0808 00c0  iesPK...........
+│  00002130: ab06 55bf cab2 b112 0100 00b4 0100 0011  ..U.............
+│  00002140: 0009 0000 0000 0000 0000 0000 0013 1a00  ................
+│  00002150: 006d 6f64 756c 652d 696e 666f 2e63 6c61  .module-info.cla
+│ -00002160: 7373 5554 0500 0138 c1ee 6250 4b05 0600  ssUT...8..bPK...
+│ +00002160: 7373 5554 0500 0158 ddee 6250 4b05 0600  ssUT...X..bPK...
+│  00002170: 0000 0013 0013 00fe 0500 006d 1b00 0000  ...........m....
+│  00002180: 00                                       .
+
+6 /        7 target/reference/jcl-over-slf4j-2.0.0-beta1.jar jcl-over-slf4j/target/jcl-over-slf4j-2.0.0-beta1.jar
+--- target/reference/jcl-over-slf4j-2.0.0-beta1.jar
++++ jcl-over-slf4j/target/jcl-over-slf4j-2.0.0-beta1.jar
+│┄ Archive contents identical but files differ, possibly due to different compression levels. Falling back to binary comparison.
+├── zipinfo {}
+│ @@ -19,9 +19,9 @@
+│  -rw----     2.0 fat     2063 bl defN 22-Aug-06 21:30 org/apache/commons/logging/impl/NoOpLog.class
+│  -rw----     2.0 fat     3539 bl defN 22-Aug-06 21:30 org/apache/commons/logging/impl/SLF4JLocationAwareLog.class
+│  -rw----     2.0 fat     2999 bl defN 22-Aug-06 21:30 org/apache/commons/logging/impl/SLF4JLog.class
+│  -rw----     2.0 fat     4088 bl defN 22-Aug-06 21:30 org/apache/commons/logging/impl/SLF4JLogFactory.class
+│  -rw----     2.0 fat     9972 bl defN 22-Aug-06 21:30 org/apache/commons/logging/impl/SimpleLog.class
+│  -rw----     2.0 fat     1236 bl defN 22-Aug-06 21:30 META-INF/maven/org.slf4j/jcl-over-slf4j/pom.xml
+│  -rw----     2.0 fat       64 bl defN 22-Aug-06 21:30 META-INF/maven/org.slf4j/jcl-over-slf4j/pom.properties
+│ --rw----     2.0 fat      304 bX defN 22-Aug-06 19:30 META-INF/versions/9/module-info.class
+│ +-rw----     2.0 fat      304 bX defN 22-Aug-06 21:30 META-INF/versions/9/module-info.class
+│  25 files, 31767 bytes uncompressed, 13502 bytes compressed:  57.5%
+│   --- target/reference/jcl-over-slf4j-2.0.0-beta1.jar
+├── +++ jcl-over-slf4j/target/jcl-over-slf4j-2.0.0-beta1.jar
+│ @@ -937,15 +937,15 @@
+│  00003a80: 0ae7 17a5 eb41 4480 72c5 99f9 79b6 467a  .....AD.r...y.Fz
+│  00003a90: 067a 06ba 49a9 2589 865c 0050 4b07 0876  .z..I.%..\.PK..v
+│  00003aa0: b40e 383b 0000 0040 0000 0050 4b03 0414  ..8;...@...PK...
+│  00003ab0: 0008 0808 00c0 ab06 5500 0000 0000 0000  ........U.......
+│  00003ac0: 0000 0000 0025 0009 004d 4554 412d 494e  .....%...META-IN
+│  00003ad0: 462f 7665 7273 696f 6e73 2f39 2f6d 6f64  F/versions/9/mod
+│  00003ae0: 756c 652d 696e 666f 2e63 6c61 7373 5554  ule-info.classUT
+│ -00003af0: 0500 0138 c1ee 6275 8e39 0ec2 400c 45bf  ...8..bu.9..@.E.
+│ +00003af0: 0500 0158 ddee 6275 8e39 0ec2 400c 45bf  ...X..bu.9..@.E.
+│  00003b00: d9f7 2d54 3448 f44c 0282 2bd0 2121 7182  ..-T4H.L..+.!!q.
+│  00003b10: 4918 86c0 2483 12a0 e65c 141c 8043 2126  I...$....\...C!&
+│  00003b20: 2408 1a7e 61fb db4f b61f cfdb 1dc0 1c3d  $..~a..O.......=
+│  00003b30: 423d d09b b312 633f dcea 3288 d0f9 69b0  B=....c?..2...i.
+│  00003b40: 3dbf 70c2 4047 92f1 23f7 7682 793a 0874  =.p.@G..#.v.y:.t
+│  00003b50: 1833 a5a5 f443 69a1 6076 4c99 c39c b12b  .3...Ci.`vL....+
+│  00003b60: 4e7c 92d2 764a db19 6d67 741f 65c2 f0ff  N|..vJ..mgt.e...
+│ @@ -1075,10 +1075,10 @@
+│  00004320: 2e73 6c66 346a 2f6a 636c 2d6f 7665 722d  .slf4j/jcl-over-
+│  00004330: 736c 6634 6a2f 706f 6d2e 7072 6f70 6572  slf4j/pom.proper
+│  00004340: 7469 6573 504b 0102 1400 1400 0808 0800  tiesPK..........
+│  00004350: c0ab 0655 3aa8 80a4 c800 0000 3001 0000  ...U:.......0...
+│  00004360: 2500 0900 0000 0000 0000 0000 0000 ab3a  %..............:
+│  00004370: 0000 4d45 5441 2d49 4e46 2f76 6572 7369  ..META-INF/versi
+│  00004380: 6f6e 732f 392f 6d6f 6475 6c65 2d69 6e66  ons/9/module-inf
+│ -00004390: 6f2e 636c 6173 7355 5405 0001 38c1 ee62  o.classUT...8..b
+│ +00004390: 6f2e 636c 6173 7355 5405 0001 58dd ee62  o.classUT...X..b
+│  000043a0: 504b 0506 0000 0000 1900 1900 d107 0000  PK..............
+│  000043b0: cf3b 0000 0000                           .;....
+
+7 /        7 target/reference/log4j-over-slf4j-2.0.0-beta1.jar log4j-over-slf4j/target/log4j-over-slf4j-2.0.0-beta1.jar
+--- target/reference/log4j-over-slf4j-2.0.0-beta1.jar
++++ log4j-over-slf4j/target/log4j-over-slf4j-2.0.0-beta1.jar
+│┄ Archive contents identical but files differ, possibly due to different compression levels. Falling back to binary comparison.
+├── zipinfo {}
+│ @@ -40,9 +40,9 @@
+│  -rw----     2.0 fat      208 bl defN 22-Aug-06 21:30 org/apache/log4j/spi/LoggerFactory.class
+│  -rw----     2.0 fat      914 bl defN 22-Aug-06 21:30 org/apache/log4j/spi/LoggerRepository.class
+│  -rw----     2.0 fat      303 bl defN 22-Aug-06 21:30 org/apache/log4j/spi/LoggingEvent.class
+│  -rw----     2.0 fat      160 bl defN 22-Aug-06 21:30 org/apache/log4j/spi/OptionHandler.class
+│  -rw----     2.0 fat     2011 bl defN 22-Aug-06 21:30 org/apache/log4j/xml/DOMConfigurator.class
+│  -rw----     2.0 fat     1162 bl defN 22-Aug-06 21:30 META-INF/maven/org.slf4j/log4j-over-slf4j/pom.xml
+│  -rw----     2.0 fat       66 bl defN 22-Aug-06 21:30 META-INF/maven/org.slf4j/log4j-over-slf4j/pom.properties
+│ --rw----     2.0 fat      360 bX defN 22-Aug-06 19:30 META-INF/versions/9/module-info.class
+│ +-rw----     2.0 fat      360 bX defN 22-Aug-06 21:30 META-INF/versions/9/module-info.class
+│  46 files, 38542 bytes uncompressed, 18357 bytes compressed:  52.4%
+│   --- target/reference/log4j-over-slf4j-2.0.0-beta1.jar
+├── +++ log4j-over-slf4j/target/log4j-over-slf4j-2.0.0-beta1.jar
+│ @@ -1340,15 +1340,15 @@
+│  000053b0: a5eb 4144 8072 c599 f979 b646 7a06 7a06  ..AD.r...y.Fz.z.
+│  000053c0: ba49 a925 8986 5c00 504b 0708 8912 7248  .I.%..\.PK....rH
+│  000053d0: 3d00 0000 4200 0000 504b 0304 1400 0808  =...B...PK......
+│  000053e0: 0800 c0ab 0655 0000 0000 0000 0000 0000  .....U..........
+│  000053f0: 0000 2500 0900 4d45 5441 2d49 4e46 2f76  ..%...META-INF/v
+│  00005400: 6572 7369 6f6e 732f 392f 6d6f 6475 6c65  ersions/9/module
+│  00005410: 2d69 6e66 6f2e 636c 6173 7355 5405 0001  -info.classUT...
+│ -00005420: 38c1 ee62 6d8f 4d4e c330 1046 bfe9 7f53  8..bm.MN.0.F...S
+│ +00005420: 58dd ee62 6d8f 4d4e c330 1046 bfe9 7f53  X..bm.MN.0.F...S
+│  00005430: 0885 18e8 25ea 940a 361c 801d 1212 2770  ....%...6.....'p
+│  00005440: c334 4d71 7114 53c4 b2e7 62c1 0138 1462  .4Mqq.S...b..8.b
+│  00005450: 6c84 40c0 2c66 fccd 7b8b f1db fbcb 2b80  l.@.,f..{.....+.
+│  00005460: 0b4c 08a3 8dbb db5a 9e56 0f4b d707 11c6  .L.....Z.V.K....
+│  00005470: 3f16 7a6d 9e0c a16b 5d79 bece d011 7dae  ?.zm...k]y....}.
+│  00005480: 677a 365d f0a3 3913 d735 656e 6a53 ac38  gz6]..9..5enjS.8
+│  00005490: 8f8e 429f 30f9 bdcd 576c 6b6e bcc2 90a0  ..B.0...Wlkn....
+│ @@ -1581,9 +1581,9 @@
+│  000062c0: 6f76 6572 2d73 6c66 346a 2f70 6f6d 2e70  over-slf4j/pom.p
+│  000062d0: 726f 7065 7274 6965 7350 4b01 0214 0014  ropertiesPK.....
+│  000062e0: 0008 0808 00c0 ab06 55be 7c79 e3e1 0000  ........U.|y....
+│  000062f0: 0068 0100 0025 0009 0000 0000 0000 0000  .h...%..........
+│  00006300: 0000 00d8 5300 004d 4554 412d 494e 462f  ....S..META-INF/
+│  00006310: 7665 7273 696f 6e73 2f39 2f6d 6f64 756c  versions/9/modul
+│  00006320: 652d 696e 666f 2e63 6c61 7373 5554 0500  e-info.classUT..
+│ -00006330: 0138 c1ee 6250 4b05 0600 0000 002e 002e  .8..bPK.........
+│ +00006330: 0158 ddee 6250 4b05 0600 0000 002e 002e  .X..bPK.........
+│  00006340: 0020 0e00 0015 5500 0000 00              . ....U....
+

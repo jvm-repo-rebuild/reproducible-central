@@ -1,0 +1,17 @@
+groupId=org.slf4j
+artifactId=slf4j-parent
+display=${groupId}:slf4j
+version=2.0.0-beta1
+
+gitRepo=https://github.com/qos-ch/slf4j.git
+gitTag=v_${version}
+
+tool=mvn
+jdk=18
+newline=lf
+
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/jvm-repo-rebuild/reproducible-central/issues/77
