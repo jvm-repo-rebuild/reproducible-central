@@ -602,6 +602,7 @@
 │ │            <displayName>Username</displayName>
 ...
 
+# https://issues.apache.org/jira/browse/ARCHETYPE-590 => upgrade maven-archetype-plugin to 3.2.0
 148 /      172 target/reference/nifi-processor-bundle-archetype-1.17.0.jar nifi-maven-archetypes/nifi-processor-bundle-archetype/target/nifi-processor-bundle-archetype-1.17.0.jar
 --- target/reference/nifi-processor-bundle-archetype-1.17.0.jar
 +++ nifi-maven-archetypes/nifi-processor-bundle-archetype/target/nifi-processor-bundle-archetype-1.17.0.jar
@@ -778,8 +779,7 @@
 │  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-27 20:00 META-INF/maven/
 │  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-27 20:00 META-INF/maven/org.apache.nifi/
 │  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-27 20:00 META-INF/maven/org.apache.nifi/nifi-runtime-manifest/
-│ --rw-r--r--  2.0 unx    62238 b- defN 22-Jul-27 20:00 META-INF/DEPENDENCIES
-│ +-rw-r--r--  2.0 unx    62017 b- defN 22-Jul-27 20:00 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    62238 b- defN 22-Jul-27 20:00 META-INF/DEPENDENCIES
 │  -rw-r--r--  2.0 unx    11358 b- defN 22-Jul-27 20:00 META-INF/LICENSE
 │  -rw-r--r--  2.0 unx      162 b- defN 22-Jul-27 20:00 META-INF/NOTICE
 │ --rw-r--r--  2.0 unx     1236 b- defN 22-Jul-27 20:00 build.properties
@@ -790,24 +790,6 @@
 │  -rw-r--r--  2.0 unx       72 b- defN 22-Jul-27 20:00 META-INF/maven/org.apache.nifi/nifi-runtime-manifest/pom.properties
 │ -12 files, 4409423 bytes uncompressed, 410206 bytes compressed:  90.7%
 │ +12 files, 4393757 bytes uncompressed, 408634 bytes compressed:  90.7%
-├── META-INF/DEPENDENCIES
-│ @@ -225,16 +225,14 @@
-│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
-│    - nifi-gcp-services-api-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-gcp-bundle/nifi-gcp-services-api-nar) org.apache.nifi:nifi-gcp-services-api-nar:nar:1.17.0
-│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
-│    - nifi-geohash-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-geohash-bundle/nifi-geohash-nar) org.apache.nifi:nifi-geohash-nar:nar:1.17.0
-│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
-│    - nifi-groovyx-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-groovyx-bundle/nifi-groovyx-nar) org.apache.nifi:nifi-groovyx-nar:nar:1.17.0
-│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
-│ -  - nifi-grpc-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-grpc-bundle/nifi-grpc-nar) org.apache.nifi:nifi-grpc-nar:nar:1.17.0
-│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
-│    - nifi-hadoop-dbcp-service-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-standard-services/nifi-hadoop-dbcp-service-bundle/nifi-hadoop-dbcp-service-nar) org.apache.nifi:nifi-hadoop-dbcp-service-nar:nar:1.17.0
-│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
-│    - nifi-hadoop-libraries-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-hadoop-libraries-bundle/nifi-hadoop-libraries-nar) org.apache.nifi:nifi-hadoop-libraries-nar:nar:1.17.0
-│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
-│    - nifi-hadoop-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-hadoop-bundle/nifi-hadoop-nar) org.apache.nifi:nifi-hadoop-nar:nar:1.17.0
-│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
-│    - nifi-hashicorp-vault-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-hashicorp-vault-bundle/nifi-hashicorp-vault-nar) org.apache.nifi:nifi-hashicorp-vault-nar:nar:1.17.0
 ├── build.properties
 │ @@ -12,18 +12,18 @@
 │  # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -875,44 +857,3 @@
 │ +00015270: 224e 6f6e 6522 2c0a 2020 2020 2020 2020  "None",.        
 │  00015280: 2020 2020 2020 2264 6573 6372 6970 7469        "descripti
 ...
-
-# TODO add include-grpc profile in buildspec (and eventually include-ranger) defined in nifi-nar-bundle/pom.xml
-172 /      172 target/reference/nifi-runtime-manifest-1.17.0-sources.jar nifi-manifest/nifi-runtime-manifest/target/nifi-runtime-manifest-1.17.0-sources.jar
---- target/reference/nifi-runtime-manifest-1.17.0-sources.jar
-+++ nifi-manifest/nifi-runtime-manifest/target/nifi-runtime-manifest-1.17.0-sources.jar
-├── zipinfo {}
-│ @@ -1,13 +1,13 @@
-│ -Zip file size: 15543 bytes, number of entries: 11
-│ +Zip file size: 15526 bytes, number of entries: 11
-│  -rw-r--r--  2.0 unx       64 b- defN 22-Jul-27 20:00 META-INF/MANIFEST.MF
-│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-27 20:00 META-INF/
-│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-27 20:00 META-INF/maven/
-│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-27 20:00 META-INF/maven/org.apache.nifi/
-│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-27 20:00 META-INF/maven/org.apache.nifi/nifi-runtime-manifest/
-│ --rw-r--r--  2.0 unx    62238 b- defN 22-Jul-27 20:00 META-INF/DEPENDENCIES
-│ +-rw-r--r--  2.0 unx    62017 b- defN 22-Jul-27 20:00 META-INF/DEPENDENCIES
-│  -rw-r--r--  2.0 unx    11358 b- defN 22-Jul-27 20:00 META-INF/LICENSE
-│  -rw-r--r--  2.0 unx      162 b- defN 22-Jul-27 20:00 META-INF/NOTICE
-│  -rw-r--r--  2.0 unx     1189 b- defN 22-Jul-27 20:00 build.properties
-│  -rw-r--r--  2.0 unx     7104 b- defN 22-Jul-27 20:00 META-INF/maven/org.apache.nifi/nifi-runtime-manifest/pom.xml
-│  -rw-r--r--  2.0 unx       72 b- defN 22-Jul-27 20:00 META-INF/maven/org.apache.nifi/nifi-runtime-manifest/pom.properties
-│ -11 files, 82187 bytes uncompressed, 14039 bytes compressed:  82.9%
-│ +11 files, 81966 bytes uncompressed, 14022 bytes compressed:  82.9%
-├── META-INF/DEPENDENCIES
-│ @@ -225,16 +225,14 @@
-│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
-│    - nifi-gcp-services-api-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-gcp-bundle/nifi-gcp-services-api-nar) org.apache.nifi:nifi-gcp-services-api-nar:nar:1.17.0
-│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
-│    - nifi-geohash-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-geohash-bundle/nifi-geohash-nar) org.apache.nifi:nifi-geohash-nar:nar:1.17.0
-│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
-│    - nifi-groovyx-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-groovyx-bundle/nifi-groovyx-nar) org.apache.nifi:nifi-groovyx-nar:nar:1.17.0
-│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
-│ -  - nifi-grpc-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-grpc-bundle/nifi-grpc-nar) org.apache.nifi:nifi-grpc-nar:nar:1.17.0
-│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
-│    - nifi-hadoop-dbcp-service-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-standard-services/nifi-hadoop-dbcp-service-bundle/nifi-hadoop-dbcp-service-nar) org.apache.nifi:nifi-hadoop-dbcp-service-nar:nar:1.17.0
-│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
-│    - nifi-hadoop-libraries-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-hadoop-libraries-bundle/nifi-hadoop-libraries-nar) org.apache.nifi:nifi-hadoop-libraries-nar:nar:1.17.0
-│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
-│    - nifi-hadoop-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-hadoop-bundle/nifi-hadoop-nar) org.apache.nifi:nifi-hadoop-nar:nar:1.17.0
-│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
-│    - nifi-hashicorp-vault-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-hashicorp-vault-bundle/nifi-hashicorp-vault-nar) org.apache.nifi:nifi-hashicorp-vault-nar:nar:1.17.0
