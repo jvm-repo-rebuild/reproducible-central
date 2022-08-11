@@ -1,0 +1,17 @@
+groupId=org.apache.avro
+artifactId=avro-toplevel
+display=${groupId}:${artifactId}
+version=1.11.1
+
+gitRepo=https://github.com/apache/avro.git
+gitTag=release-${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="SHELL ./build.sh docker
+mvn -Pdist clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
