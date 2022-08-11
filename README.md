@@ -26,7 +26,7 @@ You can rebuild a project release by running:
 ```
 ./rebuild.sh content/<path/to/...>/<project>-<version>.buildspec
 ```
-`rebuild.sh` script will use the build specification file (= [`.buildspec` file](BUILDSPEC.md)) to choose a Docker image to rebuild the project and check output against Central Repository reference binaries.
+[`rebuild.sh` script](./rebuild.sh) will use the build specification file (= [`.buildspec` file](BUILDSPEC.md)) to choose a Docker image to rebuild the project and check output against Central Repository reference binaries.
 
 </details>
 
