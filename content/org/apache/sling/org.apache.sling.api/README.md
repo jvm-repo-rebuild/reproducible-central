@@ -13,6 +13,7 @@ rebuilding **6 releases** of org.apache.sling:org.apache.sling.api:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.26.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.api/2.26.0/pom) | | | |
 | [2.25.4](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.api/2.25.4/pom) | [mvn jdk11](org.apache.sling.api-2.25.4.buildspec) | [result](org.apache.sling.api-2.25.4.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.api-2.25.4.buildcompare) | 1.1M |
 | [2.25.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.api/2.25.0/pom) | [mvn jdk11](org.apache.sling.api-2.25.0.buildspec) | [result](org.apache.sling.api-2.25.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.api-2.25.0.buildcompare) | 1.1M |
 | [2.24.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.api/2.24.0/pom) | [mvn jdk11](org.apache.sling.api-2.24.0.buildspec) | [result](org.apache.sling.api-2.24.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.api-2.24.0.buildcompare) | 1020K |

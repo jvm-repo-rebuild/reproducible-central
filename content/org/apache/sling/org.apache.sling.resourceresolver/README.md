@@ -13,6 +13,7 @@ rebuilding **5 releases** of org.apache.sling:org.apache.sling.resourceresolver:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.10.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.resourceresolver/1.10.0/pom) | | | |
 | [1.9.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.resourceresolver/1.9.0/pom) | [mvn jdk11](org.apache.sling.resourceresolver-1.9.0.buildspec) | [result](org.apache.sling.resourceresolver-1.9.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.resourceresolver-1.9.0.buildcompare) | 900K |
 | [1.8.6](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.resourceresolver/1.8.6/pom) | [mvn jdk11](org.apache.sling.resourceresolver-1.8.6.buildspec) | [result](org.apache.sling.resourceresolver-1.8.6.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.resourceresolver-1.8.6.buildcompare) | 893K |
 | [1.8.4](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.resourceresolver/1.8.4/pom) | [mvn jdk11](org.apache.sling.resourceresolver-1.8.4.buildspec) | [result](org.apache.sling.resourceresolver-1.8.4.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.resourceresolver-1.8.4.buildcompare) | 893K |

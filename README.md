@@ -66,8 +66,8 @@ Notice the anchor in the link.
 Nightly Rebuild: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
 
 <!-- BEGIN GENERATED INTRO -->
-rebuilding **1091 releases** of **308 projects**:
-- **764** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **1092 releases** of **309 projects**:
+- **765** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 327 had issues (some unreproducible artifacts :warning:):
 
 <!-- END GENERATED INTRO -->
@@ -131,6 +131,7 @@ rebuilding **1091 releases** of **308 projects**:
 | org.apache.any23 | <a name='org.apache.any23:apache-any23'></a>[apache-any23](content/org/apache/any23/README.md) | 1 | 1 :warning: |
 | org.apache | <a name='org.apache:apache'></a>[apache](content/org/apache/apache/README.md) | 5 | 4 :heavy_check_mark: / 1 :warning: |
 | org.apache.aries.cdi | <a name='org.apache.aries.cdi:org.apache.aries.cdi'></a>[org.apache.aries.cdi](content/org/apache/aries/cdi/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
+| org.apache.avro | <a name='org.apache.avro:avro-toplevel'></a>[avro-toplevel](content/org/apache/avro/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.axis2 | <a name='org.apache.axis2:axis2'></a>[axis2](content/org/apache/axis2/README.md) | 1 | 1 :warning: |
 | org.apache.batchee | <a name='org.apache.batchee:batchee'></a>[batchee](content/org/apache/batchee/README.md) | 1 | 1 :warning: |
 | org.apache.camel.k | <a name='org.apache.camel.k:camel-k-runtime-project'></a>[camel-k-runtime-project](content/org/apache/camel/camel-k-runtime/README.md) | 4 | 4 :warning: |
@@ -383,7 +384,7 @@ rebuilding **1091 releases** of **308 projects**:
 | | <a name='org.webjars:webjars-locator-core'></a>[webjars-locator-core](content/org/webjars/webjars-locator-core/README.md) | 1 | 1 :heavy_check_mark: |
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 5 | 5 :warning: |
-| **Count:** | **308** | **1091** | **764** :heavy_check_mark: **327** :warning: |
+| **Count:** | **309** | **1092** | **765** :heavy_check_mark: **327** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ## Understanding What Is Behind
