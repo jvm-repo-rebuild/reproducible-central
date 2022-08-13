@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling API
+group-id=org.apache.sling
+artifact-id=org.apache.sling.api
+version=2.26.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-api.git
+source.scm.tag=org.apache.sling.api-2.26.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.api-2.26.0.pom
+outputs.0.length=8689
+outputs.0.checksums.sha512=efa979456caff4292030a5fd938fe7cd61bd7efdfe0cad30002527eaa47b64060b767f2b10281878d776156dc5a2e83a6260a31fa1f8b29a77ecf589376de203
+
+outputs.1.filename=org.apache.sling.api-2.26.0.jar
+outputs.1.length=197756
+outputs.1.checksums.sha512=bbd64f09fc845f2881075d00ccbd46b1ede4e05aebdba9cb5ddd6d780dfa54345d3a4650c222a48f7feed4b235967493d41845d9863af739fb2e55618cd2ebc7
+
+outputs.2.filename=org.apache.sling.api-2.26.0-source-release.zip
+outputs.2.length=348773
+outputs.2.checksums.sha512=8aaa621e7e7cee3b78428730789cd7bd7da901f0ac6cb6e032f49a5c368ac4440ee0fde4e9460590f443354aeedc190848689ed3e1270cd9dbca65691bee87b0
+
+outputs.3.filename=org.apache.sling.api-2.26.0-sources.jar
+outputs.3.length=256591
+outputs.3.checksums.sha512=88c74e6c7a7d5d1e5c845d1ee4e1afa1fa56c24599d4a431068935728cb65a3fe0cb76e516d9115ece76952b7aedc7e6ff6fe05f97b40aff5d54ee076a0e8f42
+
+outputs.4.filename=org.apache.sling.api-2.26.0-sources.jar
+outputs.4.length=256591
+outputs.4.checksums.sha512=88c74e6c7a7d5d1e5c845d1ee4e1afa1fa56c24599d4a431068935728cb65a3fe0cb76e516d9115ece76952b7aedc7e6ff6fe05f97b40aff5d54ee076a0e8f42
