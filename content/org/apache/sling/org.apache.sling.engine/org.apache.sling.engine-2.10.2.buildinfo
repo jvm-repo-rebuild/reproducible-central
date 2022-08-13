@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Engine
+group-id=org.apache.sling
+artifact-id=org.apache.sling.engine
+version=2.10.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-engine.git
+source.scm.tag=org.apache.sling.engine-2.10.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.engine-2.10.2.pom
+outputs.0.length=10638
+outputs.0.checksums.sha512=08bb7d93b3b372370e0be11eda02719c78f79564ee3ab0fb737524e9097a7e1659c95eb7a9a9132d6155bf80d2917ac341ae851fa57be1980156d7eb3920c63f
+
+outputs.1.filename=org.apache.sling.engine-2.10.2.jar
+outputs.1.length=213350
+outputs.1.checksums.sha512=ec1593cd0579766a07a1573a4640cdf23a92af962d4bbd6d465dc437f1198876cc7b2715553714c2df6c57ae6ae9fa359113213934dd74439f5d8186c5a46f60
+
+outputs.2.filename=org.apache.sling.engine-2.10.2-source-release.zip
+outputs.2.length=204062
+outputs.2.checksums.sha512=b8ae4b5beeb573f7f3ba3b4d010f71f3270144962bfe4f53538870b62b1f7033dc8830d93959e5f21e036947f26a78e9a024089254ebac45ab2574664d51d57b
+
+outputs.3.filename=org.apache.sling.engine-2.10.2-sources.jar
+outputs.3.length=151097
+outputs.3.checksums.sha512=3473c4da50e993661a78398485fb04a3941f639d7fe8293eb57f9af5634932987a893e11bbe946d38e985dafe8912bc870c093f7245b7b9d76348a1bf67d3d98
+
+outputs.4.filename=org.apache.sling.engine-2.10.2-sources.jar
+outputs.4.length=151097
+outputs.4.checksums.sha512=3473c4da50e993661a78398485fb04a3941f639d7fe8293eb57f9af5634932987a893e11bbe946d38e985dafe8912bc870c093f7245b7b9d76348a1bf67d3d98
