@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Models Context-Aware Configuration
+group-id=org.apache.sling
+artifact-id=org.apache.sling.models.caconfig
+version=1.0.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-models-caconfig.git
+source.scm.tag=org.apache.sling.models.caconfig-1.0.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.models.caconfig-1.0.2.pom
+outputs.0.length=6517
+outputs.0.checksums.sha512=fd2e9b819fefc38363f7968ca278394ef14347307460d7d5d2fb538352437f173763394269ccc8b54aca1a1ef450012db2c587f1658f79f21347d7b8cde1785c
+
+outputs.1.filename=org.apache.sling.models.caconfig-1.0.2.jar
+outputs.1.length=15372
+outputs.1.checksums.sha512=f56245ce1d748f76f3dccba375b6da3b93c8e56c28ef0eef20cb7a606722e39df1a602dd96dbb44539638c0685fb005465b3254c5c9c79fd249b2e00677cb2e5
+
+outputs.2.filename=org.apache.sling.models.caconfig-1.0.2-source-release.zip
+outputs.2.length=39105
+outputs.2.checksums.sha512=7f101b85875a0ff40240ee655335029878fc0f63289003487217935591eedbf1611ce494ee31b94994035ea68fdabfcf3de47b8a21b2ed11acd77a9babe10219
+
+outputs.3.filename=org.apache.sling.models.caconfig-1.0.2-sources.jar
+outputs.3.length=13724
+outputs.3.checksums.sha512=6e4f3c56c5400850993e9f6f28ff82fd0873d94a3ebc6061f682d38ab7caed5df468a76c28a5cc23522d560ba2ba987b77405ba9439335403f4fa4dda6534d11
+
+outputs.4.filename=org.apache.sling.models.caconfig-1.0.2-sources.jar
+outputs.4.length=13724
+outputs.4.checksums.sha512=6e4f3c56c5400850993e9f6f28ff82fd0873d94a3ebc6061f682d38ab7caed5df468a76c28a5cc23522d560ba2ba987b77405ba9439335403f4fa4dda6534d11
