@@ -66,8 +66,8 @@ Notice the anchor in the link.
 Nightly Rebuild: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
 
 <!-- BEGIN GENERATED INTRO -->
-rebuilding **1097 releases** of **309 projects**:
-- **769** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **1101 releases** of **310 projects**:
+- **773** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 328 had issues (some unreproducible artifacts :warning:):
 
 <!-- END GENERATED INTRO -->
@@ -179,11 +179,11 @@ rebuilding **1097 releases** of **309 projects**:
 | | <a name='org.apache.maven.plugins:maven-install-plugin'></a>[maven-install-plugin](content/org/apache/maven/plugins/maven-install-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-invoker-plugin'></a>[maven-invoker-plugin](content/org/apache/maven/plugins/maven-invoker-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-jar-plugin'></a>[maven-jar-plugin](content/org/apache/maven/plugins/maven-jar-plugin/README.md) | 2 | 2 :heavy_check_mark: |
-| | <a name='org.apache.maven.plugins:maven-javadoc-plugin'></a>[maven-javadoc-plugin](content/org/apache/maven/plugins/maven-javadoc-plugin/README.md) | 5 | 3 :heavy_check_mark: / 2 :warning: |
+| | <a name='org.apache.maven.plugins:maven-javadoc-plugin'></a>[maven-javadoc-plugin](content/org/apache/maven/plugins/maven-javadoc-plugin/README.md) | 6 | 4 :heavy_check_mark: / 2 :warning: |
 | | <a name='org.apache.maven.plugins:maven-jlink-plugin'></a>[maven-jlink-plugin](content/org/apache/maven/plugins/maven-jlink-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-pdf-plugin'></a>[maven-pdf-plugin](content/org/apache/maven/plugins/maven-pdf-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-pmd-plugin'></a>[maven-pmd-plugin](content/org/apache/maven/plugins/maven-pmd-plugin/README.md) | 4 | 4 :heavy_check_mark: |
-| | <a name='org.apache.maven.plugins:maven-project-info-reports-plugin'></a>[maven-project-info-reports-plugin](content/org/apache/maven/plugins/maven-project-info-reports-plugin/README.md) | 7 | 6 :heavy_check_mark: / 1 :warning: |
+| | <a name='org.apache.maven.plugins:maven-project-info-reports-plugin'></a>[maven-project-info-reports-plugin](content/org/apache/maven/plugins/maven-project-info-reports-plugin/README.md) | 8 | 7 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.apache.maven.plugins:maven-rar-plugin'></a>[maven-rar-plugin](content/org/apache/maven/plugins/maven-rar-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-release-plugin'></a>[maven-release-plugin](content/org/apache/maven/plugins/maven-release-plugin/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-remote-resources-plugin'></a>[maven-remote-resources-plugin](content/org/apache/maven/plugins/maven-remote-resources-plugin/README.md) | 1 | 1 :heavy_check_mark: |
@@ -293,7 +293,8 @@ rebuilding **1097 releases** of **309 projects**:
 | | <a name='org.apache.sling:org.apache.sling.scripting.core'></a>[*.scripting.core](content/org/apache/sling/org.apache.sling.scripting.core/README.md) | 4 | 4 :warning: |
 | | <a name='org.apache.sling:org.apache.sling.scripting.sightly.repl'></a>[*.scripting.sightly.repl](content/org/apache/sling/org.apache.sling.scripting.sightly.repl/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.scripting.sightly.testing-content'></a>[*.scripting.sightly.testing-content](content/org/apache/sling/org.apache.sling.scripting.sightly.testing-content/README.md) | 1 | 1 :heavy_check_mark: |
-| | <a name='org.apache.sling:org.apache.sling.scripting.sightly'></a>[*.scripting.sightly](content/org/apache/sling/org.apache.sling.scripting.sightly/README.md) | 4 | 4 :heavy_check_mark: |
+| | <a name='org.apache.sling:org.apache.sling.resourcemerger'></a>[*.resourcemerger](content/org/apache/sling/org.apache.sling.scripting.sightly.testing/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='org.apache.sling:org.apache.sling.scripting.sightly'></a>[*.scripting.sightly](content/org/apache/sling/org.apache.sling.scripting.sightly/README.md) | 5 | 5 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.scripting.spi'></a>[*.scripting.spi](content/org/apache/sling/org.apache.sling.scripting.spi/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.security'></a>[*.security](content/org/apache/sling/org.apache.sling.security/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.servlets.annotations'></a>[*.servlets.annotations](content/org/apache/sling/org.apache.sling.servlets.annotations/README.md) | 1 | 1 :heavy_check_mark: |
@@ -384,7 +385,7 @@ rebuilding **1097 releases** of **309 projects**:
 | | <a name='org.webjars:webjars-locator-core'></a>[webjars-locator-core](content/org/webjars/webjars-locator-core/README.md) | 1 | 1 :heavy_check_mark: |
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 5 | 5 :warning: |
-| **Count:** | **309** | **1097** | **769** :heavy_check_mark: **328** :warning: |
+| **Count:** | **310** | **1101** | **773** :heavy_check_mark: **328** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ## Understanding What Is Behind
