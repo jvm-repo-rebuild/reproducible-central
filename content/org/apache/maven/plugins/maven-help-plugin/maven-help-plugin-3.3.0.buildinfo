@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Help Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-help-plugin
+version=3.3.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-help-plugin.git
+source.scm.tag=maven-help-plugin-3.3.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.filename=maven-help-plugin-3.3.0.pom
+outputs.0.length=11216
+outputs.0.checksums.sha512=adc65ee3bf004ef9587e4c252ec64549e43ff1d6aed781502b458a5ee36d4bb79e6a3318fd806ea988e1065c80f6959ac4884e23fd81e9b7fadf2894f47a4df7
+
+outputs.1.filename=maven-help-plugin-3.3.0.jar
+outputs.1.length=84057
+outputs.1.checksums.sha512=e7de6f2e925f04818f29cf998c7d2dbced0e8bae892c45aaec52f6fa0c276bc1e17fccd1f844d45f9405c8b2d29686b1ef58dd484c7d26604993ce2f2d1cb8b3
+
+outputs.2.filename=maven-help-plugin-3.3.0-source-release.zip
+outputs.2.length=178345
+outputs.2.checksums.sha512=a33f460119cc11324a7e706199e323fbd5bd06835b448f5d2839fc8632cc71a64c454a7e1c56146f31a9e06e4fe4f895481c1271fbcc74454df14f7ba5109774
+
+outputs.3.filename=maven-help-plugin-3.3.0-sources.jar
+outputs.3.length=53939
+outputs.3.checksums.sha512=b705e025501b12830d2da123cf9a7389989882efbfb84a3b50b31bac10af7e997b7de074e8ab0a4810a65bdaade58b352c62a80f1569de9acb944cccceaa14a7
