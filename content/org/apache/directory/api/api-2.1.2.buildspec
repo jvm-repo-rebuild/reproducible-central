@@ -1,0 +1,18 @@
+groupId=org.apache.directory.api
+artifactId=api-parent
+version=2.1.2
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/apache/directory-ldap-api.git
+gitTag=${version}
+
+tool=mvn-3.8.6
+jdk=8
+newline=lf
+
+command="mvn -Papache-release clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
