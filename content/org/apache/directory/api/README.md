@@ -50,6 +50,7 @@ rebuilding **1 releases** of org.apache.directory.api:api-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.1.2](https://search.maven.org/artifact/org.apache.directory.api/api-parent/2.1.2/pom) | | | |
 | [2.1.1](https://search.maven.org/artifact/org.apache.directory.api/api-parent/2.1.1/pom) | [mvn jdk8](api-2.1.1.buildspec) | [result](api-parent-2.1.1.buildinfo): [93 :heavy_check_mark: ](api-parent-2.1.1.buildcompare) | 51M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
