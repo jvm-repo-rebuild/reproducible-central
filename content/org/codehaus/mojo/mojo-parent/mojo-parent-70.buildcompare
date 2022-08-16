@@ -1,0 +1,5 @@
+version=70
+ok=4
+ko=0
+okFiles="mojo-parent-70.pom mojo-parent-70-site.xml mojo-parent-70-config.jar mojo-parent-70-source-release.zip"
+koFiles=""
