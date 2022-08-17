@@ -66,8 +66,8 @@ Notice the anchor in the link.
 Nightly Rebuild: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
 
 <!-- BEGIN GENERATED INTRO -->
-rebuilding **1103 releases** of **310 projects**:
-- **774** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **1107 releases** of **311 projects**:
+- **778** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 329 had issues (some unreproducible artifacts :warning:):
 
 <!-- END GENERATED INTRO -->
@@ -137,7 +137,7 @@ rebuilding **1103 releases** of **310 projects**:
 | org.apache.camel.k | <a name='org.apache.camel.k:camel-k-runtime-project'></a>[camel-k-runtime-project](content/org/apache/camel/camel-k-runtime/README.md) | 4 | 4 :warning: |
 | org.apache.camel | <a name='org.apache.camel:camel'></a>[camel](content/org/apache/camel/camel/README.md) | 2 | 2 :warning: |
 | org.apache.cxf.fediz | <a name='org.apache.cxf.fediz:fediz'></a>[fediz](content/org/apache/cxf/fediz/README.md) | 1 | 1 :warning: |
-| org.apache.directory.api | <a name='org.apache.directory.api:api-parent'></a>[api-parent](content/org/apache/directory/api/README.md) | 1 | 1 :heavy_check_mark: |
+| org.apache.directory.api | <a name='org.apache.directory.api:api-parent'></a>[api-parent](content/org/apache/directory/api/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.directory.project | <a name='org.apache.directory.project:project'></a>[project](content/org/apache/directory/project/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.drill | <a name='org.apache.drill:drill-root'></a>[drill-root](content/org/apache/drill/README.md) | 1 | 1 :warning: |
 | org.apache.dubbo | <a name='org.apache.dubbo:dubbo'></a>[dubbo](content/org/apache/dubbo/README.md) | 5 | 5 :warning: |
@@ -176,6 +176,7 @@ rebuilding **1103 releases** of **310 projects**:
 | | <a name='org.apache.maven.plugins:maven-ejb-plugin'></a>[maven-ejb-plugin](content/org/apache/maven/plugins/maven-ejb-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.maven.enforcer | <a name='org.apache.maven.enforcer:enforcer'></a>[enforcer](content/org/apache/maven/plugins/maven-enforcer-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.maven.plugins | <a name='org.apache.maven.plugins:maven-gpg-plugin'></a>[maven-gpg-plugin](content/org/apache/maven/plugins/maven-gpg-plugin/README.md) | 1 | 1 :warning: |
+| | <a name='org.apache.maven.plugins:maven-help-plugin'></a>[maven-help-plugin](content/org/apache/maven/plugins/maven-help-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-install-plugin'></a>[maven-install-plugin](content/org/apache/maven/plugins/maven-install-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-invoker-plugin'></a>[maven-invoker-plugin](content/org/apache/maven/plugins/maven-invoker-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-jar-plugin'></a>[maven-jar-plugin](content/org/apache/maven/plugins/maven-jar-plugin/README.md) | 2 | 2 :heavy_check_mark: |
@@ -325,13 +326,13 @@ rebuilding **1103 releases** of **310 projects**:
 | org.apache.ws.commons.axiom | <a name='org.apache.ws.commons.axiom:axiom'></a>[axiom](content/org/apache/ws/commons/axiom/README.md) | 1 | 1 :warning: |
 | org.apache.wss4j | <a name='org.apache.wss4j:wss4j'></a>[wss4j](content/org/apache/wss4j/README.md) | 1 | 1 :warning: |
 | org.codehaus.modello | <a name='org.codehaus.modello:modello'></a>[modello](content/org/codehaus/modello/README.md) | 1 | 1 :heavy_check_mark: |
-| org.codehaus.mojo | <a name='org.codehaus.mojo:animal-sniffer-parent'></a>[animal-sniffer-parent](content/org/codehaus/mojo/animal-sniffer/README.md) | 2 | 2 :heavy_check_mark: |
+| org.codehaus.mojo | <a name='org.codehaus.mojo:animal-sniffer-parent'></a>[animal-sniffer-parent](content/org/codehaus/mojo/animal-sniffer/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:aspectj-maven-plugin'></a>[aspectj-maven-plugin](content/org/codehaus/mojo/aspectj-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:buildplan-maven-plugin'></a>[buildplan-maven-plugin](content/org/codehaus/mojo/buildplan-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:cassandra-maven-plugin'></a>[cassandra-maven-plugin](content/org/codehaus/mojo/cassandra-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:exec-maven-plugin'></a>[exec-maven-plugin](content/org/codehaus/mojo/exec-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:extra-enforcer-rules'></a>[extra-enforcer-rules](content/org/codehaus/mojo/extra-enforcer-rules/README.md) | 5 | 5 :heavy_check_mark: |
-| | <a name='org.codehaus.mojo:flatten-maven-plugin'></a>[flatten-maven-plugin](content/org/codehaus/mojo/flatten-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='org.codehaus.mojo:flatten-maven-plugin'></a>[flatten-maven-plugin](content/org/codehaus/mojo/flatten-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:jaxb2-maven-plugin'></a>[jaxb2-maven-plugin](content/org/codehaus/mojo/jaxb2-maven-plugin/README.md) | 1 | 1 :warning: |
 | | <a name='org.codehaus.mojo:l10n-maven-plugin'></a>[l10n-maven-plugin](content/org/codehaus/mojo/l10n-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:mojo-parent'></a>[mojo-parent](content/org/codehaus/mojo/mojo-parent/README.md) | 10 | 10 :heavy_check_mark: |
@@ -385,7 +386,7 @@ rebuilding **1103 releases** of **310 projects**:
 | | <a name='org.webjars:webjars-locator-core'></a>[webjars-locator-core](content/org/webjars/webjars-locator-core/README.md) | 1 | 1 :heavy_check_mark: |
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 5 | 5 :warning: |
-| **Count:** | **310** | **1103** | **774** :heavy_check_mark: **329** :warning: |
+| **Count:** | **311** | **1107** | **778** :heavy_check_mark: **329** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ## Understanding What Is Behind
