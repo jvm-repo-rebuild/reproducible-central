@@ -1,0 +1,65 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven JXR Parent
+group-id=org.apache.maven.jxr
+artifact-id=jxr
+version=3.3.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-jxr.git
+source.scm.tag=jxr-3.3.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=maven-jxr-plugin
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.maven.jxr:jxr
+
+outputs.0.0.filename=jxr-3.3.0.pom
+outputs.0.0.length=6174
+outputs.0.0.checksums.sha512=9e5fea1371428b90120d510ac2101e3ef9f439fd895b6247d5208bfa5cec3bd14275f01db04a7c6e7698eb47cee8e6ea13e2c4c07f554f27f6dda57b13518454
+
+outputs.0.1.filename=jxr-3.3.0-site.xml
+outputs.0.1.length=1677
+outputs.0.1.checksums.sha512=4072b889588506225a45bd5dce13bcbbba53bdcdfa30294573eae73083e41833b1b624ac424f5716bd359cc1f832240ab77d57d52c220b362f1c543b401d740a
+
+outputs.0.2.filename=jxr-3.3.0-source-release.zip
+outputs.0.2.length=371754
+outputs.0.2.checksums.sha512=3455fcd6dec1a56d20737f7aa0253ff6c18a0b0e6ccdd7da05c70e46211c980224875108d8460ca6d75f46ccae6431559f03e481eb044a82d0b457c8eab16df7
+
+outputs.1.coordinates=org.apache.maven:maven-jxr
+
+outputs.1.0.filename=maven-jxr-3.3.0.pom
+outputs.1.0.length=3780
+outputs.1.0.checksums.sha512=cc73c57673624bb3265e2f5615e37246b08881e23762d36d0937ebb013be9960a787bd612a053e7b0c2c6a5d9c617be3ff9c03fe12e76b6af339200f9517e19b
+
+outputs.1.1.filename=maven-jxr-3.3.0.jar
+outputs.1.1.length=71854
+outputs.1.1.checksums.sha512=87304b77f67066f629b4016cbd0ec286c84b63a69ec2d2744dc3d7c8f2b0970b15f9df9c10d095bce6a4508ff38188394ea7d327829f9f2aed20e9a555ab26cf
+
+outputs.1.2.filename=maven-jxr-3.3.0-sources.jar
+outputs.1.2.length=70361
+outputs.1.2.checksums.sha512=5d9b775eea3743439d3a497411175a9394605af8ce1f18b31afceb4bb6cb13761164e3a6dfd0c53c4a7bde51f02d5d93ac515793cd09fa547f0d1e26c7839b4b
+
+outputs.2.coordinates=org.apache.maven.plugins:maven-jxr-plugin
+
+outputs.2.0.filename=maven-jxr-plugin-3.3.0.pom
+outputs.2.0.length=8290
+outputs.2.0.checksums.sha512=272b03d121be80c128eb205a56488714e44c1fe76e6aa8809db0b2dd4104c390947ced54b5b43f0b729d5ccc34d832904ef9b7fa4f71606ff63b25b9676d196a
+
+outputs.2.1.filename=maven-jxr-plugin-3.3.0.jar
+outputs.2.1.length=65719
+outputs.2.1.checksums.sha512=08a62b67835344789c626a1be7250bafa6e25e10b9a275e6f4dcda256c4944ec3869288d71ff83be4e092dde58efc5db1294ccd7c643678ed3bd50daa5a8331a
+
+outputs.2.2.filename=maven-jxr-plugin-3.3.0-sources.jar
+outputs.2.2.length=56110
+outputs.2.2.checksums.sha512=96d74d3494fdd839e47c85368eb21bdc124c5a00a0b17c1c7c533aa7646546c0f6234e6d52d947f87f3af43f485785a407facca7a49e3bbc699ae76de5a1e1a7
