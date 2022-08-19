@@ -14,12 +14,13 @@ Source code: [https://github.com/apache/maven-jxr.git](https://github.com/apache
 * [org.apache.maven:maven-jxr](https://search.maven.org/artifact/org.apache.maven/maven-jxr/)
 </details>
 
-rebuilding **2 releases** of org.apache.maven.jxr:jxr:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **3 releases** of org.apache.maven.jxr:jxr:
+- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.3.0](https://search.maven.org/artifact/org.apache.maven.jxr/jxr/3.3.0/pom) | [mvn jdk8 w](jxr-3.3.0.buildspec) | [result](jxr-3.3.0.buildinfo): [9 :heavy_check_mark: ](jxr-3.3.0.buildcompare) | 641K |
 | [3.2.0](https://search.maven.org/artifact/org.apache.maven.jxr/jxr/3.2.0/pom) | [mvn jdk8](jxr-3.2.0.buildspec) | [result](jxr-3.2.0.buildinfo): [9 :heavy_check_mark: ](jxr-3.2.0.buildcompare) | 629K |
 | [3.1.1](https://search.maven.org/artifact/org.apache.maven.jxr/jxr/3.1.1/pom) | [mvn jdk8 w](jxr-3.1.1.buildspec) | [result](jxr-3.1.1.buildinfo): [9 :heavy_check_mark: ](jxr-3.1.1.buildcompare) | 636K |
 
