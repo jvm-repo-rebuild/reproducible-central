@@ -89,13 +89,13 @@ Source code: [https://github.com/apache/syncope.git](https://github.com/apache/s
 * [org.apache.syncope:syncope-fit](https://search.maven.org/artifact/org.apache.syncope/syncope-fit/)
 </details>
 
-rebuilding **1 releases** of org.apache.syncope:syncope:
+rebuilding **2 releases** of org.apache.syncope:syncope:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.0.0-M0](https://search.maven.org/artifact/org.apache.syncope/syncope/3.0.0-M0/pom) | | | |
+| [3.0.0-M0](https://search.maven.org/artifact/org.apache.syncope/syncope/3.0.0-M0/pom) | [mvn jdk11](syncope-3.0.0-M0.buildspec) | :x: |  |
 | [2.1.12](https://search.maven.org/artifact/org.apache.syncope/syncope/2.1.12/pom) | [mvn jdk8](syncope-2.1.12.buildspec) | [result](syncope-2.1.12.buildinfo): [198 :heavy_check_mark:  13 :warning:](syncope-2.1.12.buildcompare) [:mag:](syncope-2.1.12.diffoscope) | 154M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
