@@ -128,6 +128,7 @@ rebuilding **5 releases** of org.apache.dubbo:dubbo:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.1.0](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.1.0/pom) | | | |
 | [3.0.10](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.0.10/pom) | | | |
 | [3.0.9](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.0.9/pom) | | | |
 | [3.0.8](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.0.8/pom) | | | |
