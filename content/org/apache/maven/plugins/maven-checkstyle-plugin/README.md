@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.apache.maven.plugins:maven-checkstyle-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.2.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-checkstyle-plugin/3.2.0/pom) | | | |
 | [3.1.2](https://search.maven.org/artifact/org.apache.maven.plugins/maven-checkstyle-plugin/3.1.2/pom) | [mvn jdk11 w](maven-checkstyle-plugin-3.1.2.buildspec) | [result](maven-checkstyle-plugin-3.1.2.buildinfo): [4 :heavy_check_mark: ](maven-checkstyle-plugin-3.1.2.buildcompare) | 637K |
 | [3.1.1](https://search.maven.org/artifact/org.apache.maven.plugins/maven-checkstyle-plugin/3.1.1/pom) | [mvn jdk8](maven-checkstyle-plugin-3.1.1.buildspec) | [result](maven-checkstyle-plugin-3.1.1.buildinfo): [4 :heavy_check_mark: ](maven-checkstyle-plugin-3.1.1.buildcompare) | 626K |
 
