@@ -1,0 +1,50 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Content-Package to Feature Model Converter
+group-id=org.apache.sling
+artifact-id=org.apache.sling.feature.cpconverter
+version=1.1.18
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-feature-cpconverter.git
+source.scm.tag=org.apache.sling.feature.cpconverter-1.1.18
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.feature.cpconverter-1.1.18.pom
+outputs.0.length=21743
+outputs.0.checksums.sha512=e34819c4e8ecfb6ef4a43da3f2d4ec853b4799523314791349b0e579ef2b601da5834ce32e70a4010cbd045f562f9b82dbccd0e20612e1d735fdb0dce2496b80
+
+outputs.1.filename=org.apache.sling.feature.cpconverter-1.1.18.jar
+outputs.1.length=250190
+outputs.1.checksums.sha512=1b6a4b71e97c9d9d9f70336453f73c82dcda331e16f30bd3d07858822b7b68b324eea6c06ddcba94ff0198dfd450d53d9a620f624af1d9c5f2b2cf50d3ebd95b
+
+outputs.2.filename=org.apache.sling.feature.cpconverter-1.1.18-source-release.zip
+outputs.2.length=1968023
+outputs.2.checksums.sha512=9a129b9a7d23e07ee3d3e904f3e58613e2a7273327f781afcffb9dd60611c3f0205dc1787c3787fc4626611437f33f2345836b6b0df5dda7a7c5c4f8f2490614
+
+outputs.3.filename=org.apache.sling.feature.cpconverter-1.1.18.tar.gz
+outputs.3.length=8619408
+outputs.3.checksums.sha512=bdb3a8cd50f96bdc4dd3a72d312019572ecf24b4ceb33def472521326e1456bdc72207dc762d117a88b0154b1055c8d43437a650f932e402913736b73ae245cb
+
+outputs.4.filename=org.apache.sling.feature.cpconverter-1.1.18.zip
+outputs.4.length=8638973
+outputs.4.checksums.sha512=1a8f6859b73de755d1b448bee8d26a20de9d9eb167819adcf5c140b87b0470529c58f4f1d6e2c6aefb50109ca9b49bc361bae560ffd853b68eb2cc5eeff57145
+
+outputs.5.filename=org.apache.sling.feature.cpconverter-1.1.18-sources.jar
+outputs.5.length=183302
+outputs.5.checksums.sha512=b5f9d93f3f1bc4dbe4eaa3fd5c4aec27d3751af43184351c229ae1ed377c68cca980109b95298c1281f242b421105623f481818dc5f40810a4241bda11c784aa
+
+outputs.6.filename=org.apache.sling.feature.cpconverter-1.1.18-sources.jar
+outputs.6.length=183302
+outputs.6.checksums.sha512=b5f9d93f3f1bc4dbe4eaa3fd5c4aec27d3751af43184351c229ae1ed377c68cca980109b95298c1281f242b421105623f481818dc5f40810a4241bda11c784aa
