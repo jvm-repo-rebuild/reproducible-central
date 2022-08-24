@@ -7,12 +7,13 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-api.git](https://github.com/apache/sling-org-apache-sling-api.git)
 
-rebuilding **7 releases** of org.apache.sling:org.apache.sling.api:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **8 releases** of org.apache.sling:org.apache.sling.api:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.27.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.api/2.27.0/pom) | [mvn jdk11](org.apache.sling.api-2.27.0.buildspec) | [result](org.apache.sling.api-2.27.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.api-2.27.0.buildcompare) | 1.1M |
 | [2.26.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.api/2.26.0/pom) | [mvn jdk11](org.apache.sling.api-2.26.0.buildspec) | [result](org.apache.sling.api-2.26.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.api-2.26.0.buildcompare) | 1.1M |
 | [2.25.4](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.api/2.25.4/pom) | [mvn jdk11](org.apache.sling.api-2.25.4.buildspec) | [result](org.apache.sling.api-2.25.4.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.api-2.25.4.buildcompare) | 1.1M |
 | [2.25.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.api/2.25.0/pom) | [mvn jdk11](org.apache.sling.api-2.25.0.buildspec) | [result](org.apache.sling.api-2.25.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.api-2.25.0.buildcompare) | 1.1M |
