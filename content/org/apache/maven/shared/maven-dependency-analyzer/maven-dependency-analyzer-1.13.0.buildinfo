@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Dependency Analyzer
+group-id=org.apache.maven.shared
+artifact-id=maven-dependency-analyzer
+version=1.13.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-dependency-analyzer.git
+source.scm.tag=maven-dependency-analyzer-1.13.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=maven-dependency-analyzer-1.13.0.pom
+outputs.0.length=5527
+outputs.0.checksums.sha512=8cb105d70a7c5ae19308f386577a096d5529bc4f6617393a545e0d8c0907a9998b787bcec53653df6ff045cedb69931c75a97649936509de4fb8004bcf4e3295
+
+outputs.1.filename=maven-dependency-analyzer-1.13.0.jar
+outputs.1.length=37347
+outputs.1.checksums.sha512=8d76abb41b6bee19e94b25a117b386d6f24a80f9ca28f9ff008c6b97bcdd8ed50b923901442cd6d5bd5d8462a28c74570cc5eadc7d4f97f800010e920de01012
+
+outputs.2.filename=maven-dependency-analyzer-1.13.0-source-release.zip
+outputs.2.length=169740
+outputs.2.checksums.sha512=38a981884b3a91ca35ffb23cb1d5676075b699528dcc29904a27f91659d77bc053612058852af76010e0c46b682b89a37cde7b5a36f9c6e4d09e5c5562586c63
+
+outputs.3.filename=maven-dependency-analyzer-1.13.0-sources.jar
+outputs.3.length=37416
+outputs.3.checksums.sha512=01329f1302df720f06007fdb2cbbb6ee708e3e806946bc81687aaab0f7a4c068d0045ace43bb7fe9f7081945685fbf3300d6ae0e9150bbfdb3901d0942d1a6a5
