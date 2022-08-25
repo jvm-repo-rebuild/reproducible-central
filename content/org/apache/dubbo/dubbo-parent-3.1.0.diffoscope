@@ -1,0 +1,417 @@
+1 /       14 target/reference/dubbo-parent-3.1.0.pom .flattened-pom.xml
+--- target/reference/dubbo-parent-3.1.0.pom
++++ .flattened-pom.xml
+│   --- target/reference/dubbo-parent-3.1.0.pom
+├── +++ .flattened-pom.xml
+│ @@ -478,17 +478,16 @@
+│      </profile>
+│      <profile>
+│        <id>javadoc-lint</id>
+│        <activation>
+│          <jdk>[1.8,)</jdk>
+│        </activation>
+│        <properties>
+│ -        <os.detected.release.version>20.04</os.detected.release.version>
+│ -        <os.detected.release.like.ubuntu>true</os.detected.release.like.ubuntu>
+│ -        <os.detected.release>ubuntu</os.detected.release>
+│ +        <os.detected.release.version>10</os.detected.release.version>
+│ +        <os.detected.release>debian</os.detected.release>
+│          <os.detected.name>linux</os.detected.name>
+│          <os.detected.release.like.debian>true</os.detected.release.like.debian>
+│          <doclint>none</doclint>
+│          <os.detected.classifier>linux-x86_64</os.detected.classifier>
+│          <os.detected.arch>x86_64</os.detected.arch>
+│        </properties>
+│      </profile>
+│ @@ -589,17 +588,16 @@
+│                  <scope>compile</scope>
+│                </dependency>
+│              </dependencies>
+│            </plugin>
+│          </plugins>
+│        </build>
+│        <properties>
+│ -        <os.detected.release.version>20.04</os.detected.release.version>
+│ -        <os.detected.release.like.ubuntu>true</os.detected.release.like.ubuntu>
+│ -        <os.detected.release>ubuntu</os.detected.release>
+│ +        <os.detected.release.version>10</os.detected.release.version>
+│ +        <os.detected.release>debian</os.detected.release>
+│          <os.detected.name>linux</os.detected.name>
+│          <os.detected.release.like.debian>true</os.detected.release.like.debian>
+│          <os.detected.classifier>linux-x86_64</os.detected.classifier>
+│          <os.detected.arch>x86_64</os.detected.arch>
+│        </properties>
+│      </profile>
+│      <profile>
+│ @@ -709,23 +707,22 @@
+│                  <arg>--digest-algo=SHA512</arg>
+│                </gpgArguments>
+│              </configuration>
+│            </plugin>
+│          </plugins>
+│        </build>
+│        <properties>
+│ -        <os.detected.name>linux</os.detected.name>
+│ +        <os.detected.release.version>10</os.detected.release.version>
+│          <log4j2_version>2.17.2</log4j2_version>
+│ -        <os.detected.arch>x86_64</os.detected.arch>
+│ +        <os.detected.release>debian</os.detected.release>
+│ +        <os.detected.name>linux</os.detected.name>
+│ +        <os.detected.release.like.debian>true</os.detected.release.like.debian>
+│          <jacoco.skip>false</jacoco.skip>
+│          <os.detected.classifier>linux-x86_64</os.detected.classifier>
+│ -        <os.detected.release.version>20.04</os.detected.release.version>
+│ -        <os.detected.release.like.ubuntu>true</os.detected.release.like.ubuntu>
+│ -        <os.detected.release.like.debian>true</os.detected.release.like.debian>
+│ -        <os.detected.release>ubuntu</os.detected.release>
+│ +        <os.detected.arch>x86_64</os.detected.arch>
+│        </properties>
+│      </profile>
+│      <profile>
+│        <id>licenseCheck</id>
+│        <build>
+│          <plugins>
+│            <plugin>
+
+2 /       14 target/reference/dubbo-compiler-3.1.0.jar dubbo-compiler/target/dubbo-compiler-3.1.0.jar
+--- target/reference/dubbo-compiler-3.1.0.jar
++++ dubbo-compiler/target/dubbo-compiler-3.1.0.jar
+├── zipinfo {}
+│ @@ -1,44 +1,44 @@
+│ -Zip file size: 45307 bytes, number of entries: 42
+│ --rw-r--r--  2.0 unx     1141 bl defN 22-Aug-17 22:13 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-17 22:13 META-INF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-17 22:13 org/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-17 22:13 org/apache/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-17 22:13 org/apache/dubbo/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-17 22:13 org/apache/dubbo/gen/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-17 22:13 org/apache/dubbo/gen/grpc/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-17 22:13 org/apache/dubbo/gen/grpc/reactive/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-17 22:13 org/apache/dubbo/gen/tri/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-17 22:13 org/apache/dubbo/gen/tri/reactive/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-17 22:13 org/apache/dubbo/gen/dubbo/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-17 22:13 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-17 22:13 META-INF/maven/org.apache.dubbo/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-17 22:13 META-INF/maven/org.apache.dubbo/dubbo-compiler/
+│ --rw-r--r--  2.0 unx     8113 bl defN 22-Aug-17 22:13 ReactorDubbo3TripleStub.mustache
+│ --rw-r--r--  2.0 unx      949 bl defN 22-Aug-17 22:13 org/apache/dubbo/gen/grpc/DubboGrpcGenerator.class
+│ --rw-r--r--  2.0 unx     2851 bl defN 22-Aug-17 22:13 DubboStub3Single.mustache
+│ --rw-r--r--  2.0 unx      364 bl defN 22-Aug-17 22:13 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx      995 bl defN 22-Aug-17 22:13 org/apache/dubbo/gen/grpc/reactive/ReactorDubboGrpcGenerator.class
+│ --rw-r--r--  2.0 unx      975 bl defN 22-Aug-17 22:13 org/apache/dubbo/gen/grpc/reactive/RxDubboGrpcGenerator.class
+│ --rw-r--r--  2.0 unx     4984 bl defN 22-Aug-17 22:13 META-INF/DEPENDENCIES
+│ --rw-r--r--  2.0 unx    15894 bl defN 22-Aug-17 22:13 META-INF/LICENSE
+│ --rw-r--r--  2.0 unx     4431 bl defN 22-Aug-17 22:13 org/apache/dubbo/gen/AbstractGenerator$ServiceContext.class
+│ --rw-r--r--  2.0 unx    18100 bl defN 22-Aug-17 22:13 org/apache/dubbo/gen/AbstractGenerator.class
+│ --rw-r--r--  2.0 unx     1888 bl defN 22-Aug-17 22:13 DubboStub.mustache
+│ --rw-r--r--  2.0 unx     2402 bl defN 22-Aug-17 22:13 Dubbo3InterfaceStub.mustache
+│ --rw-r--r--  2.0 unx    11176 bl defN 22-Aug-17 22:13 DubboGrpcStub.mustache
+│ --rw-r--r--  2.0 unx    10061 bl defN 22-Aug-17 22:13 Dubbo3TripleStub.mustache
+│ --rw-r--r--  2.0 unx     7741 bl defN 22-Aug-17 22:13 META-INF/INDEX.LIST
+│ --rw-r--r--  2.0 unx     8364 bl defN 22-Aug-17 22:13 ReactorDubboGrpcStub.mustache
+│ --rw-r--r--  2.0 unx     1472 bl defN 22-Aug-17 22:13 ReactorDubbo3TripleInterfaceStub.mustache
+│ --rw-r--r--  2.0 unx     2879 bl defN 22-Aug-17 22:13 Dubbo3TripleInterfaceStub.mustache
+│ --rw-r--r--  2.0 unx     2367 bl defN 22-Aug-17 22:13 org/apache/dubbo/gen/AbstractGenerator$MethodContext.class
+│ --rw-r--r--  2.0 unx     1549 bl defN 22-Aug-17 22:13 org/apache/dubbo/gen/tri/reactive/ReactorDubbo3TripleGenerator.class
+│ --rw-r--r--  2.0 unx     1496 bl defN 22-Aug-17 22:13 org/apache/dubbo/gen/tri/Dubbo3TripleGenerator.class
+│ --rw-r--r--  2.0 unx      935 bl defN 22-Aug-17 22:13 org/apache/dubbo/gen/dubbo/DubboGenerator.class
+│ --rw-r--r--  2.0 unx     1380 bl defN 22-Aug-17 22:13 org/apache/dubbo/gen/dubbo/Dubbo3Generator.class
+│ --rw-r--r--  2.0 unx      241 bl defN 22-Aug-17 22:13 org/apache/dubbo/gen/AbstractGenerator$1.class
+│ --rw-r--r--  2.0 unx     9943 bl defN 22-Aug-17 22:13 RxDubboGrpcStub.mustache
+│ --rw-r--r--  2.0 unx     1027 bl defN 22-Aug-17 22:13 Dubbo3Stub.mustache
+│ --rw-r--r--  2.0 unx     4017 bl defN 22-Aug-17 22:13 META-INF/maven/org.apache.dubbo/dubbo-compiler/pom.xml
+│ --rw-r--r--  2.0 unx       96 bl defN 22-Aug-17 22:13 META-INF/maven/org.apache.dubbo/dubbo-compiler/pom.properties
+│ -42 files, 127831 bytes uncompressed, 38819 bytes compressed:  69.6%
+│ +Zip file size: 45306 bytes, number of entries: 42
+│ +-rw-r--r--  2.0 unx     1138 bl defN 22-Aug-25 19:43 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-25 19:43 META-INF/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-25 19:43 org/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-25 19:43 org/apache/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-25 19:43 org/apache/dubbo/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-25 19:43 org/apache/dubbo/gen/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-25 19:43 org/apache/dubbo/gen/dubbo/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-25 19:43 org/apache/dubbo/gen/grpc/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-25 19:43 org/apache/dubbo/gen/grpc/reactive/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-25 19:43 org/apache/dubbo/gen/tri/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-25 19:43 org/apache/dubbo/gen/tri/reactive/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-25 19:43 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-25 19:43 META-INF/maven/org.apache.dubbo/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-25 19:43 META-INF/maven/org.apache.dubbo/dubbo-compiler/
+│ +-rw-r--r--  2.0 unx     2402 bl defN 22-Aug-25 19:43 Dubbo3InterfaceStub.mustache
+│ +-rw-r--r--  2.0 unx     2851 bl defN 22-Aug-25 19:43 DubboStub3Single.mustache
+│ +-rw-r--r--  2.0 unx      364 bl defN 22-Aug-25 19:43 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx      241 bl defN 22-Aug-25 19:43 org/apache/dubbo/gen/AbstractGenerator$1.class
+│ +-rw-r--r--  2.0 unx      935 bl defN 22-Aug-25 19:43 org/apache/dubbo/gen/dubbo/DubboGenerator.class
+│ +-rw-r--r--  2.0 unx     1549 bl defN 22-Aug-25 19:43 org/apache/dubbo/gen/tri/reactive/ReactorDubbo3TripleGenerator.class
+│ +-rw-r--r--  2.0 unx     2879 bl defN 22-Aug-25 19:43 Dubbo3TripleInterfaceStub.mustache
+│ +-rw-r--r--  2.0 unx     4984 bl defN 22-Aug-25 19:43 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx     1472 bl defN 22-Aug-25 19:43 ReactorDubbo3TripleInterfaceStub.mustache
+│ +-rw-r--r--  2.0 unx     9943 bl defN 22-Aug-25 19:43 RxDubboGrpcStub.mustache
+│ +-rw-r--r--  2.0 unx     1380 bl defN 22-Aug-25 19:43 org/apache/dubbo/gen/dubbo/Dubbo3Generator.class
+│ +-rw-r--r--  2.0 unx     1027 bl defN 22-Aug-25 19:43 Dubbo3Stub.mustache
+│ +-rw-r--r--  2.0 unx    15894 bl defN 22-Aug-25 19:43 META-INF/LICENSE
+│ +-rw-r--r--  2.0 unx      995 bl defN 22-Aug-25 19:43 org/apache/dubbo/gen/grpc/reactive/ReactorDubboGrpcGenerator.class
+│ +-rw-r--r--  2.0 unx     7741 bl defN 22-Aug-25 19:43 META-INF/INDEX.LIST
+│ +-rw-r--r--  2.0 unx    11176 bl defN 22-Aug-25 19:43 DubboGrpcStub.mustache
+│ +-rw-r--r--  2.0 unx     8364 bl defN 22-Aug-25 19:43 ReactorDubboGrpcStub.mustache
+│ +-rw-r--r--  2.0 unx    18100 bl defN 22-Aug-25 19:43 org/apache/dubbo/gen/AbstractGenerator.class
+│ +-rw-r--r--  2.0 unx     1496 bl defN 22-Aug-25 19:43 org/apache/dubbo/gen/tri/Dubbo3TripleGenerator.class
+│ +-rw-r--r--  2.0 unx     1888 bl defN 22-Aug-25 19:43 DubboStub.mustache
+│ +-rw-r--r--  2.0 unx     8113 bl defN 22-Aug-25 19:43 ReactorDubbo3TripleStub.mustache
+│ +-rw-r--r--  2.0 unx     4431 bl defN 22-Aug-25 19:43 org/apache/dubbo/gen/AbstractGenerator$ServiceContext.class
+│ +-rw-r--r--  2.0 unx      949 bl defN 22-Aug-25 19:43 org/apache/dubbo/gen/grpc/DubboGrpcGenerator.class
+│ +-rw-r--r--  2.0 unx     4017 bl defN 22-Aug-25 19:43 META-INF/maven/org.apache.dubbo/dubbo-compiler/pom.xml
+│ +-rw-r--r--  2.0 unx    10061 bl defN 22-Aug-25 19:43 Dubbo3TripleStub.mustache
+│ +-rw-r--r--  2.0 unx     2367 bl defN 22-Aug-25 19:43 org/apache/dubbo/gen/AbstractGenerator$MethodContext.class
+│ +-rw-r--r--  2.0 unx      975 bl defN 22-Aug-25 19:43 org/apache/dubbo/gen/grpc/reactive/RxDubboGrpcGenerator.class
+│ +-rw-r--r--  2.0 unx       96 bl defN 22-Aug-25 19:43 META-INF/maven/org.apache.dubbo/dubbo-compiler/pom.properties
+│ +42 files, 127828 bytes uncompressed, 38818 bytes compressed:  69.6%
+├── META-INF/MANIFEST.MF
+│ @@ -1,23 +1,23 @@
+│  Manifest-Version: 1.0
+
+│  Implementation-Title: dubbo-compiler
+
+│  Implementation-Version: 3.1.0
+
+│ -Built-By: root
+
+│ +Built-By: ?
+
+│  Specification-Vendor: The Apache Software Foundation
+
+│  Specification-Title: dubbo-compiler
+
+│  Implementation-Vendor-Id: org.apache.dubbo
+
+│  Class-Path: jprotoc-1.2.1.jar javax.annotation-api-1.3.2.jar grpc-core
+
+│   -1.44.0.jar grpc-api-1.44.0.jar gson-2.8.9.jar annotations-4.1.1.4.ja
+
+│   r animal-sniffer-annotations-1.19.jar error_prone_annotations-2.9.0.j
+
+│   ar guava-30.1.1-android.jar failureaccess-1.0.1.jar listenablefuture-
+
+│   9999.0-empty-to-avoid-conflict-with-guava.jar checker-compat-qual-2.5
+
+│   .5.jar j2objc-annotations-1.3.jar perfmark-api-0.23.0.jar grpc-stub-1
+
+│   .44.0.jar grpc-protobuf-1.44.0.jar jsr305-3.0.2.jar protobuf-java-3.1
+
+│   1.0.jar proto-google-common-protos-2.0.1.jar grpc-protobuf-lite-1.44.
+
+│   0.jar grpc-context-1.44.0.jar grpc-contrib-0.8.1.jar
+
+│  Implementation-Vendor: The Apache Software Foundation
+
+│  Main-Class: org.apache.dubbo.gen.grpc.DubboGrpcGenerator
+
+│ -Created-By: Apache Maven 3.8.1
+
+│ -Build-Jdk: 1.8.0_342
+
+│ +Created-By: Apache Maven 3.6.3
+
+│ +Build-Jdk: 1.8.0_282
+
+│  Implementation-URL: https://github.com/apache/dubbo/dubbo-compiler
+
+│  Specification-Version: 3.1.0
+├── META-INF/maven/org.apache.dubbo/dubbo-compiler/pom.properties
+│ @@ -1,4 +1,4 @@
+│ -#Created by Apache Maven 3.8.1
+│ +#Created by Apache Maven 3.6.3
+│  version=3.1.0
+│  groupId=org.apache.dubbo
+│  artifactId=dubbo-compiler
+
+3 /       14 target/reference/dubbo-compiler-3.1.0-sources.jar dubbo-compiler/target/dubbo-compiler-3.1.0-sources.jar
+--- target/reference/dubbo-compiler-3.1.0-sources.jar
++++ dubbo-compiler/target/dubbo-compiler-3.1.0-sources.jar
+├── zipinfo {}
+│ @@ -1,40 +1,40 @@
+│ -Zip file size: 36205 bytes, number of entries: 38
+│ --rw-r--r--  2.0 unx       95 bl defN 22-Aug-17 22:13 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-17 22:13 META-INF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-16 19:57 org/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-16 19:57 org/apache/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-16 19:57 org/apache/dubbo/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-16 19:57 org/apache/dubbo/gen/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-16 19:57 org/apache/dubbo/gen/grpc/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-16 19:57 org/apache/dubbo/gen/grpc/reactive/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-17 22:11 org/apache/dubbo/gen/tri/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-17 22:11 org/apache/dubbo/gen/tri/reactive/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-16 19:57 org/apache/dubbo/gen/dubbo/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-17 22:13 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-17 22:13 META-INF/maven/org.apache.dubbo/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-17 22:13 META-INF/maven/org.apache.dubbo/dubbo-compiler/
+│ --rw-r--r--  2.0 unx      171 bl defN 22-Aug-17 22:13 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx     1386 bl defN 22-Aug-16 19:57 org/apache/dubbo/gen/dubbo/DubboGenerator.java
+│ --rw-r--r--  2.0 unx     1472 bl defN 22-Aug-17 22:11 ReactorDubbo3TripleInterfaceStub.mustache
+│ --rw-r--r--  2.0 unx    10061 bl defN 22-Aug-16 19:57 Dubbo3TripleStub.mustache
+│ --rw-r--r--  2.0 unx     4984 bl defN 22-Aug-17 22:13 META-INF/DEPENDENCIES
+│ --rw-r--r--  2.0 unx     1830 bl defN 22-Aug-16 19:57 org/apache/dubbo/gen/dubbo/Dubbo3Generator.java
+│ --rw-r--r--  2.0 unx     2879 bl defN 22-Aug-16 19:57 Dubbo3TripleInterfaceStub.mustache
+│ --rw-r--r--  2.0 unx    11176 bl defN 22-Aug-16 19:57 DubboGrpcStub.mustache
+│ --rw-r--r--  2.0 unx    11358 bl defN 22-Aug-17 22:13 META-INF/LICENSE
+│ --rw-r--r--  2.0 unx    16318 bl defN 22-Aug-16 19:57 org/apache/dubbo/gen/AbstractGenerator.java
+│ --rw-r--r--  2.0 unx       96 bl defN 22-Aug-17 22:13 META-INF/maven/org.apache.dubbo/dubbo-compiler/pom.properties
+│ --rw-r--r--  2.0 unx     1438 bl defN 22-Aug-16 19:57 org/apache/dubbo/gen/grpc/reactive/ReactorDubboGrpcGenerator.java
+│ --rw-r--r--  2.0 unx     8113 bl defN 22-Aug-17 22:11 ReactorDubbo3TripleStub.mustache
+│ --rw-r--r--  2.0 unx     2402 bl defN 22-Aug-16 19:57 Dubbo3InterfaceStub.mustache
+│ --rw-r--r--  2.0 unx     1417 bl defN 22-Aug-16 19:57 org/apache/dubbo/gen/grpc/reactive/RxDubboGrpcGenerator.java
+│ --rw-r--r--  2.0 unx     2851 bl defN 22-Aug-16 19:57 DubboStub3Single.mustache
+│ --rw-r--r--  2.0 unx     4017 bl defN 22-Aug-17 22:13 META-INF/maven/org.apache.dubbo/dubbo-compiler/pom.xml
+│ --rw-r--r--  2.0 unx     1387 bl defN 22-Aug-16 19:57 org/apache/dubbo/gen/grpc/DubboGrpcGenerator.java
+│ --rw-r--r--  2.0 unx     8364 bl defN 22-Aug-16 19:57 ReactorDubboGrpcStub.mustache
+│ --rw-r--r--  2.0 unx     1027 bl defN 22-Aug-16 19:57 Dubbo3Stub.mustache
+│ --rw-r--r--  2.0 unx     1937 bl defN 22-Aug-17 22:11 org/apache/dubbo/gen/tri/reactive/ReactorDubbo3TripleGenerator.java
+│ --rw-r--r--  2.0 unx     9943 bl defN 22-Aug-16 19:57 RxDubboGrpcStub.mustache
+│ --rw-r--r--  2.0 unx     1894 bl defN 22-Aug-16 19:57 org/apache/dubbo/gen/tri/Dubbo3TripleGenerator.java
+│ --rw-r--r--  2.0 unx     1888 bl defN 22-Aug-16 19:57 DubboStub.mustache
+│ -38 files, 108504 bytes uncompressed, 30465 bytes compressed:  71.9%
+│ +Zip file size: 36201 bytes, number of entries: 38
+│ +-rw-r--r--  2.0 unx       92 bl defN 22-Aug-25 19:43 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-25 19:43 META-INF/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-25 19:33 org/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-25 19:33 org/apache/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-25 19:33 org/apache/dubbo/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-25 19:33 org/apache/dubbo/gen/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-25 19:33 org/apache/dubbo/gen/dubbo/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-25 19:33 org/apache/dubbo/gen/grpc/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-25 19:33 org/apache/dubbo/gen/grpc/reactive/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-25 19:33 org/apache/dubbo/gen/tri/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-25 19:33 org/apache/dubbo/gen/tri/reactive/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-25 19:43 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-25 19:43 META-INF/maven/org.apache.dubbo/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-25 19:43 META-INF/maven/org.apache.dubbo/dubbo-compiler/
+│ +-rw-r--r--  2.0 unx     4984 bl defN 22-Aug-25 19:43 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx     1387 bl defN 22-Aug-25 19:33 org/apache/dubbo/gen/grpc/DubboGrpcGenerator.java
+│ +-rw-r--r--  2.0 unx     1027 bl defN 22-Aug-25 19:33 Dubbo3Stub.mustache
+│ +-rw-r--r--  2.0 unx     1472 bl defN 22-Aug-25 19:33 ReactorDubbo3TripleInterfaceStub.mustache
+│ +-rw-r--r--  2.0 unx     9943 bl defN 22-Aug-25 19:33 RxDubboGrpcStub.mustache
+│ +-rw-r--r--  2.0 unx    11358 bl defN 22-Aug-25 19:43 META-INF/LICENSE
+│ +-rw-r--r--  2.0 unx     1438 bl defN 22-Aug-25 19:33 org/apache/dubbo/gen/grpc/reactive/ReactorDubboGrpcGenerator.java
+│ +-rw-r--r--  2.0 unx     2402 bl defN 22-Aug-25 19:33 Dubbo3InterfaceStub.mustache
+│ +-rw-r--r--  2.0 unx     2851 bl defN 22-Aug-25 19:33 DubboStub3Single.mustache
+│ +-rw-r--r--  2.0 unx       96 bl defN 22-Aug-25 19:43 META-INF/maven/org.apache.dubbo/dubbo-compiler/pom.properties
+│ +-rw-r--r--  2.0 unx      171 bl defN 22-Aug-25 19:43 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx     1417 bl defN 22-Aug-25 19:33 org/apache/dubbo/gen/grpc/reactive/RxDubboGrpcGenerator.java
+│ +-rw-r--r--  2.0 unx     1937 bl defN 22-Aug-25 19:33 org/apache/dubbo/gen/tri/reactive/ReactorDubbo3TripleGenerator.java
+│ +-rw-r--r--  2.0 unx    11176 bl defN 22-Aug-25 19:33 DubboGrpcStub.mustache
+│ +-rw-r--r--  2.0 unx     8364 bl defN 22-Aug-25 19:33 ReactorDubboGrpcStub.mustache
+│ +-rw-r--r--  2.0 unx    16318 bl defN 22-Aug-25 19:33 org/apache/dubbo/gen/AbstractGenerator.java
+│ +-rw-r--r--  2.0 unx     1894 bl defN 22-Aug-25 19:33 org/apache/dubbo/gen/tri/Dubbo3TripleGenerator.java
+│ +-rw-r--r--  2.0 unx    10061 bl defN 22-Aug-25 19:33 Dubbo3TripleStub.mustache
+│ +-rw-r--r--  2.0 unx     4017 bl defN 22-Aug-25 19:43 META-INF/maven/org.apache.dubbo/dubbo-compiler/pom.xml
+│ +-rw-r--r--  2.0 unx     1386 bl defN 22-Aug-25 19:33 org/apache/dubbo/gen/dubbo/DubboGenerator.java
+│ +-rw-r--r--  2.0 unx     2879 bl defN 22-Aug-25 19:33 Dubbo3TripleInterfaceStub.mustache
+│ +-rw-r--r--  2.0 unx     8113 bl defN 22-Aug-25 19:33 ReactorDubbo3TripleStub.mustache
+│ +-rw-r--r--  2.0 unx     1830 bl defN 22-Aug-25 19:33 org/apache/dubbo/gen/dubbo/Dubbo3Generator.java
+│ +-rw-r--r--  2.0 unx     1888 bl defN 22-Aug-25 19:33 DubboStub.mustache
+│ +38 files, 108501 bytes uncompressed, 30461 bytes compressed:  71.9%
+├── META-INF/MANIFEST.MF
+│ @@ -1,5 +1,5 @@
+│  Manifest-Version: 1.0
+
+│ -Built-By: root
+
+│ -Created-By: Apache Maven 3.8.1
+
+│ -Build-Jdk: 1.8.0_342
+
+│ +Built-By: ?
+
+│ +Created-By: Apache Maven 3.6.3
+
+│ +Build-Jdk: 1.8.0_282
+
+├── META-INF/maven/org.apache.dubbo/dubbo-compiler/pom.properties
+│ @@ -1,4 +1,4 @@
+│ -#Created by Apache Maven 3.8.1
+│ +#Created by Apache Maven 3.6.3
+│  version=3.1.0
+│  groupId=org.apache.dubbo
+│  artifactId=dubbo-compiler
+
+4 /       14 target/reference/dubbo-compiler-3.1.0-osx-x86_64.exe dubbo-compiler/target/dubbo-compiler-3.1.0-osx-x86_64.exe
+--- target/reference/dubbo-compiler-3.1.0-osx-x86_64.exe
++++ dubbo-compiler/target/dubbo-compiler-3.1.0-osx-x86_64.exe
+├── strings -a -n 8 {}
+│ @@ -7958,97 +7958,96 @@
+│  _pthread_mutex_lock
+│  _pthread_mutex_unlock
+│  _pthread_sigmask
+│  _setitimer
+│  _sigaction
+│  _sigaltstack
+│  META-INF/MANIFEST.MF
+│ -izhW+Ohd
+│  META-INF/PK
+│  org/apache/PK
+│  org/apache/dubbo/PK
+│  org/apache/dubbo/gen/PK
+│ +org/apache/dubbo/gen/dubbo/PK
+│  org/apache/dubbo/gen/grpc/PK
+│  org/apache/dubbo/gen/grpc/reactive/PK
+│  org/apache/dubbo/gen/tri/PK
+│  org/apache/dubbo/gen/tri/reactive/PK
+│ -org/apache/dubbo/gen/dubbo/PK
+│  META-INF/maven/PK
+│  META-INF/maven/org.apache.dubbo/PK
+│  META-INF/maven/org.apache.dubbo/dubbo-compiler/PK
+│ -ReactorDubbo3TripleStub.mustache
+│ -org/apache/dubbo/gen/grpc/DubboGrpcGenerator.class
+│ +Dubbo3InterfaceStub.mustache
+│  DubboStub3Single.mustache
+│  META-INF/NOTICE}
+│ -org/apache/dubbo/gen/grpc/reactive/ReactorDubboGrpcGenerator.class
+│ -org/apache/dubbo/gen/grpc/reactive/RxDubboGrpcGenerator.class
+│ +org/apache/dubbo/gen/AbstractGenerator$1.class
+│ +org/apache/dubbo/gen/dubbo/DubboGenerator.class
+│ +org/apache/dubbo/gen/tri/reactive/ReactorDubbo3TripleGenerator.class
+│ +Dubbo3TripleInterfaceStub.mustache
+│  META-INF/DEPENDENCIES
+│  FxrT>wRh
+│ +ReactorDubbo3TripleInterfaceStub.mustache
+│ +RxDubboGrpcStub.mustache
+│ +H9m4%"~S
+│ +org/apache/dubbo/gen/dubbo/Dubbo3Generator.class
+│ +Dubbo3Stub.mustacheeRMo
+│  META-INF/LICENSE
+│  ys?H?'b8
+...
+
+6 /       14 target/reference/dubbo-compiler-3.1.0-windows-x86_64.exe dubbo-compiler/target/dubbo-compiler-3.1.0-windows-x86_64.exe
+--- target/reference/dubbo-compiler-3.1.0-windows-x86_64.exe
++++ dubbo-compiler/target/dubbo-compiler-3.1.0-windows-x86_64.exe
+│┄ Format-specific differences are supported for PE32 files but no file-specific differences were detected; falling back to a binary diff. file(1) reports: PE32+ executable (console) x86-64 (stripped to external PDB), for MS Windows
+...
+
+7 /       14 target/reference/dubbo-3.1.0.pom dubbo-distribution/dubbo-all/.flattened-pom.xml
+--- target/reference/dubbo-3.1.0.pom
++++ dubbo-distribution/dubbo-all/.flattened-pom.xml
+│   --- target/reference/dubbo-3.1.0.pom
+├── +++ dubbo-distribution/dubbo-all/.flattened-pom.xml
+│ @@ -854,17 +854,16 @@
+│                <doctitle>Apache Dubbo 3.1.0 API</doctitle>
+│                <windowtitle>Apache Dubbo 3.1.0 API</windowtitle>
+│              </configuration>
+│            </plugin>
+│          </plugins>
+│        </build>
+│        <properties>
+│ -        <os.detected.release.version>20.04</os.detected.release.version>
+│ -        <os.detected.release.like.ubuntu>true</os.detected.release.like.ubuntu>
+│ -        <os.detected.release>ubuntu</os.detected.release>
+│ +        <os.detected.release.version>10</os.detected.release.version>
+│ +        <os.detected.release>debian</os.detected.release>
+│          <os.detected.name>linux</os.detected.name>
+│          <os.detected.release.like.debian>true</os.detected.release.like.debian>
+│          <os.detected.classifier>linux-x86_64</os.detected.classifier>
+│          <os.detected.arch>x86_64</os.detected.arch>
+│        </properties>
+│      </profile>
+│    </profiles>
+
+...

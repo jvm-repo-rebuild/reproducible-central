@@ -1,0 +1,17 @@
+groupId=org.apache.dubbo
+artifactId=dubbo
+display=${groupId}:${artifactId}
+version=3.1.0
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn -Prelease clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-parent-${version}.buildinfo
+
+diffoscope=${artifactId}-parent-${version}.diffoscope
+issue=
