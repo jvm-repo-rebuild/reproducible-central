@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dubbo.git)
 
-<details><summary>This project defines 111 modules:</summary>
+<details><summary>This project defines 115 modules:</summary>
 
 * [org.apache.dubbo:dubbo](https://search.maven.org/artifact/org.apache.dubbo/dubbo/)
 * [org.apache.dubbo:dubbo-auth](https://search.maven.org/artifact/org.apache.dubbo/dubbo-auth/)
@@ -15,6 +15,7 @@ Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dub
 * [org.apache.dubbo:dubbo-cluster](https://search.maven.org/artifact/org.apache.dubbo/dubbo-cluster/)
 * [org.apache.dubbo:dubbo-common](https://search.maven.org/artifact/org.apache.dubbo/dubbo-common/)
 * [org.apache.dubbo:dubbo-compatible](https://search.maven.org/artifact/org.apache.dubbo/dubbo-compatible/)
+* [org.apache.dubbo:dubbo-compiler](https://search.maven.org/artifact/org.apache.dubbo/dubbo-compiler/)
 * [org.apache.dubbo:dubbo-config](https://search.maven.org/artifact/org.apache.dubbo/dubbo-config/)
 * [org.apache.dubbo:dubbo-config-api](https://search.maven.org/artifact/org.apache.dubbo/dubbo-config-api/)
 * [org.apache.dubbo:dubbo-config-spring](https://search.maven.org/artifact/org.apache.dubbo/dubbo-config-spring/)
@@ -37,6 +38,7 @@ Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dub
 * [org.apache.dubbo:dubbo-filter](https://search.maven.org/artifact/org.apache.dubbo/dubbo-filter/)
 * [org.apache.dubbo:dubbo-filter-cache](https://search.maven.org/artifact/org.apache.dubbo/dubbo-filter-cache/)
 * [org.apache.dubbo:dubbo-filter-validation](https://search.maven.org/artifact/org.apache.dubbo/dubbo-filter-validation/)
+* [org.apache.dubbo:dubbo-kubernetes](https://search.maven.org/artifact/org.apache.dubbo/dubbo-kubernetes/)
 * [org.apache.dubbo:dubbo-metadata](https://search.maven.org/artifact/org.apache.dubbo/dubbo-metadata/)
 * [org.apache.dubbo:dubbo-metadata-api](https://search.maven.org/artifact/org.apache.dubbo/dubbo-metadata-api/)
 * [org.apache.dubbo:dubbo-metadata-definition-protobuf](https://search.maven.org/artifact/org.apache.dubbo/dubbo-metadata-definition-protobuf/)
@@ -104,6 +106,7 @@ Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dub
 * [org.apache.dubbo:dubbo-serialization-api](https://search.maven.org/artifact/org.apache.dubbo/dubbo-serialization-api/)
 * [org.apache.dubbo:dubbo-serialization-avro](https://search.maven.org/artifact/org.apache.dubbo/dubbo-serialization-avro/)
 * [org.apache.dubbo:dubbo-serialization-fastjson](https://search.maven.org/artifact/org.apache.dubbo/dubbo-serialization-fastjson/)
+* [org.apache.dubbo:dubbo-serialization-fastjson2](https://search.maven.org/artifact/org.apache.dubbo/dubbo-serialization-fastjson2/)
 * [org.apache.dubbo:dubbo-serialization-fst](https://search.maven.org/artifact/org.apache.dubbo/dubbo-serialization-fst/)
 * [org.apache.dubbo:dubbo-serialization-gson](https://search.maven.org/artifact/org.apache.dubbo/dubbo-serialization-gson/)
 * [org.apache.dubbo:dubbo-serialization-hessian2](https://search.maven.org/artifact/org.apache.dubbo/dubbo-serialization-hessian2/)
@@ -120,15 +123,16 @@ Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dub
 * [org.apache.dubbo:dubbo-spring-boot-autoconfigure-compatible](https://search.maven.org/artifact/org.apache.dubbo/dubbo-spring-boot-autoconfigure-compatible/)
 * [org.apache.dubbo:dubbo-spring-boot-compatible](https://search.maven.org/artifact/org.apache.dubbo/dubbo-spring-boot-compatible/)
 * [org.apache.dubbo:dubbo-spring-boot-starter](https://search.maven.org/artifact/org.apache.dubbo/dubbo-spring-boot-starter/)
+* [org.apache.dubbo:dubbo-xds](https://search.maven.org/artifact/org.apache.dubbo/dubbo-xds/)
 </details>
 
-rebuilding **5 releases** of org.apache.dubbo:dubbo:
+rebuilding **6 releases** of org.apache.dubbo:dubbo:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.1.0](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.1.0/pom) | | | |
+| [3.1.0](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.1.0/pom) | [mvn jdk8](dubbo-3.1.0.buildspec) | [result](dubbo-parent-3.1.0.buildinfo): [178 :heavy_check_mark:  14 :warning:](dubbo-parent-3.1.0.buildcompare) [:mag:](dubbo-parent-3.1.0.diffoscope) | 24M |
 | [3.0.11](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.0.11/pom) | | | |
 | [3.0.10](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.0.10/pom) | | | |
 | [3.0.9](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.0.9/pom) | | | |
