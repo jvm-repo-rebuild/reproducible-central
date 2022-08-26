@@ -1,6 +1,6 @@
 # see instructions https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/BUILDSPEC.md
 
-# Central Repository coordinates for the Reference release
+# Central Repository coordinates for the Reference release (for multi-module, pick an artitrary module)
 groupId=
 artifactId=
 version=
@@ -16,9 +16,11 @@ gitTag=${artifactId}-${version}
 
 # Rebuild environment prerequisites
 tool=mvn
+# or tool=mvn-3.8.5 if default 3.6.3 version does not match your prerequisites (available version may be limited by images available on Dockerhub)
+# or tool=gradle or tool=sbt
 jdk=8
 newline=lf
-# or newline=crlf for Windows
+# crlf for Windows, lf for Unix
 
 # Rebuild command
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
