@@ -1,0 +1,48 @@
+1 /        1 target/reference/gemLibPki-0.9.2.jar target/gemLibPki-0.9.2.jar
+--- target/reference/gemLibPki-0.9.2.jar
++++ target/gemLibPki-0.9.2.jar
+├── zipinfo -v {}
+│ @@ -1173,15 +1173,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          2022 Aug 24 14:07:06
+│ -  32-bit CRC value (hex):                         ccaf234b
+│ +  32-bit CRC value (hex):                         ce327b19
+│    compressed size:                                6615 bytes
+│    uncompressed size:                              17316 bytes
+│    length of filename:                             57 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── de/gematik/pki/gemlibpki/ocsp/OcspResponseGenerator.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1076,21 +1076,21 @@
+│ │         621: invokestatic  #324                // Method createOcspResp:(Leu/europa/esig/dss/spi/x509/revocation/ocsp/OCSPRespStatus;Lorg/bouncycastle/cert/ocsp/BasicOCSPResp;)Lorg/bouncycastle/cert/ocsp/OCSPResp;
+│ │         624: areturn
+│ │        LineNumberTable:
+│ │          line 156: 0
+│ │          line 158: 36
+│ │          line 159: 42
+│ │          line 160: 63
+│ │ -        line 161: 81
+│ │ +        line 157: 81
+│ │          line 163: 84
+│ │          line 164: 93
+│ │          line 167: 98
+│ │          line 166: 106
+│ │          line 168: 114
+│ │ -        line 169: 124
+│ │ +        line 162: 124
+│ │          line 170: 127
+│ │          line 174: 144
+│ │          line 176: 153
+│ │          line 178: 160
+│ │          line 179: 167
+│ │          line 181: 179
+│ │          line 184: 189
+
