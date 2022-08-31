@@ -1,0 +1,35 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=CQ Maven Plugin
+group-id=io.wcm.maven.plugins
+artifact-id=cq-maven-plugin
+version=1.2.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/wcm-io/io.wcm.maven.plugins.cq-maven-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.5.0
+
+# output
+
+outputs.0.filename=cq-maven-plugin-1.2.0.pom
+outputs.0.length=7939
+outputs.0.checksums.sha512=550dee07437091f19cc045d80f554846711accfe3714c65cc1b63a0b85d066462307d3d97978a174d045f3d16b4e9aff4427c74993c8e14d616741de9ed36171
+
+outputs.1.filename=cq-maven-plugin-1.2.0.jar
+outputs.1.length=18713
+outputs.1.checksums.sha512=3e7f31b497ac13689a289969b452ed893c23f6229c1c0854b3aea894b067d6e55a5d94f81146e3a7c712c672b456726ef9a90b6db1b869ad92c1d9e72429c3c9
+
+outputs.2.filename=cq-maven-plugin-1.2.0-sources.jar
+outputs.2.length=11082
+outputs.2.checksums.sha512=9051e45cf926ce8572b4bd880a032ae7f2e63d63f157cfea2cbd0cef3c3155d3ba3df4e37f2db9a5547b8ff2955cf81ad6996d3b775b6ed7910b9e40e64ec0c7

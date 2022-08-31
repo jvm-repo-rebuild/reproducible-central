@@ -1,0 +1,17 @@
+groupId=io.wcm.maven.plugins
+artifactId=cq-maven-plugin
+display=${groupId}-tooling:parent_toplevel
+version=1.2.0
+
+gitRepo=https://github.com/wcm-io/${groupId}.${artifactId}.git
+gitTag=${version}
+
+tool=mvn
+jdk=11
+newline=crlf-nogit
+
+command="mvn -Pio.wcm clean package -DskipTests -Dmaven.buildNumber.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
