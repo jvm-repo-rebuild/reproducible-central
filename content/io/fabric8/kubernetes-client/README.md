@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github.com/fabric8io/kubernetes-client.git)
 
-<details><summary>This project defines 145 modules:</summary>
+<details><summary>This project defines 147 modules:</summary>
 
 * [io.fabric8.kubernetes:karaf](https://search.maven.org/artifact/io.fabric8.kubernetes/karaf/)
 * [io.fabric8.kubernetes:kubernetes-karaf](https://search.maven.org/artifact/io.fabric8.kubernetes/kubernetes-karaf/)
@@ -78,6 +78,7 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:kubernetes-model-events](https://search.maven.org/artifact/io.fabric8/kubernetes-model-events/)
 * [io.fabric8:kubernetes-model-extensions](https://search.maven.org/artifact/io.fabric8/kubernetes-model-extensions/)
 * [io.fabric8:kubernetes-model-flowcontrol](https://search.maven.org/artifact/io.fabric8/kubernetes-model-flowcontrol/)
+* [io.fabric8:kubernetes-model-gatewayapi](https://search.maven.org/artifact/io.fabric8/kubernetes-model-gatewayapi/)
 * [io.fabric8:kubernetes-model-generator](https://search.maven.org/artifact/io.fabric8/kubernetes-model-generator/)
 * [io.fabric8:kubernetes-model-jsonschema2pojo](https://search.maven.org/artifact/io.fabric8/kubernetes-model-jsonschema2pojo/)
 * [io.fabric8:kubernetes-model-metrics](https://search.maven.org/artifact/io.fabric8/kubernetes-model-metrics/)
@@ -109,6 +110,7 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:openshift-client-api](https://search.maven.org/artifact/io.fabric8/openshift-client-api/)
 * [io.fabric8:openshift-model](https://search.maven.org/artifact/io.fabric8/openshift-model/)
 * [io.fabric8:openshift-model-clusterautoscaling](https://search.maven.org/artifact/io.fabric8/openshift-model-clusterautoscaling/)
+* [io.fabric8:openshift-model-config](https://search.maven.org/artifact/io.fabric8/openshift-model-config/)
 * [io.fabric8:openshift-model-console](https://search.maven.org/artifact/io.fabric8/openshift-model-console/)
 * [io.fabric8:openshift-model-hive](https://search.maven.org/artifact/io.fabric8/openshift-model-hive/)
 * [io.fabric8:openshift-model-installer](https://search.maven.org/artifact/io.fabric8/openshift-model-installer/)
@@ -156,13 +158,13 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:volumesnapshot-tests](https://search.maven.org/artifact/io.fabric8/volumesnapshot-tests/)
 </details>
 
-rebuilding **8 releases** of io.fabric8:kubernetes-client-project:
+rebuilding **9 releases** of io.fabric8:kubernetes-client-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [6.1.1](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/6.1.1/pom) | | | |
+| [6.1.1](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/6.1.1/pom) | [mvn jdk8](kubernetes-client-6.1.1.buildspec) | [result](kubernetes-client-project-6.1.1.buildinfo): [340 :heavy_check_mark:  112 :warning:](kubernetes-client-project-6.1.1.buildcompare) [:mag:](kubernetes-client-project-6.1.1.diffoscope) [:memo:](https://github.com/fabric8io/kubernetes-client/issues/4380) | 157M |
 | [6.1.0](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/6.1.0/pom) | | | |
 | [6.0.0](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/6.0.0/pom) | | | |
 | [6.0.0-RC1](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/6.0.0-RC1/pom) | [mvn jdk8](kubernetes-client-6.0.0-RC1.buildspec) | [result](kubernetes-client-project-6.0.0-RC1.buildinfo): [336 :heavy_check_mark:  109 :warning:](kubernetes-client-project-6.0.0-RC1.buildcompare) [:mag:](kubernetes-client-project-6.0.0-RC1.diffoscope) | 147M |
