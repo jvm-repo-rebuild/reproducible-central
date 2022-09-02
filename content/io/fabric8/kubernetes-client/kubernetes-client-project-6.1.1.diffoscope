@@ -1,0 +1,138 @@
+# PR provided to project: https://github.com/fabric8io/kubernetes-client/pull/4379
+# this affects all modules under kubernetes-model-generator
+1 / 112 target/reference/kubernetes-model-common-6.1.1.jar kubernetes-model-generator/kubernetes-model-common/target/kubernetes-model-common-6.1.1.jar
+--- target/reference/kubernetes-model-common-6.1.1.jar
++++ kubernetes-model-generator/kubernetes-model-common/target/kubernetes-model-common-6.1.1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 29199 bytes, number of entries: 37
+│ +Zip file size: 29200 bytes, number of entries: 37
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     2439 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     5692 bl defN 80-Feb-01 00:00 META-INF/jandex.idx
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/kubernetes-model-common/
+│  -rw----     2.0 fat       68 bl defN 80-Feb-01 00:00 META-INF/maven/io.fabric8/kubernetes-model-common/pom.properties
+│ @@ -32,8 +32,8 @@
+│  -rw----     2.0 fat     1436 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/model/jackson/UnmatchedFieldTypeModule$1$1.class
+│  -rw----     2.0 fat     3194 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/model/jackson/UnmatchedFieldTypeModule$1.class
+│  -rw----     2.0 fat     3588 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/model/jackson/UnmatchedFieldTypeModule$2.class
+│  -rw----     2.0 fat     3003 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/model/jackson/UnmatchedFieldTypeModule.class
+│  -rw----     2.0 fat     1243 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/model/jackson/UnwrappedTypeResolverBuilder.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/model/util/
+│  -rw----     2.0 fat     3468 bl defN 80-Feb-01 00:00 io/fabric8/kubernetes/model/util/Helper.class
+│ -37 files, 52939 bytes uncompressed, 22281 bytes compressed:  57.9%
+│ +37 files, 52939 bytes uncompressed, 22282 bytes compressed:  57.9%
+├── META-INF/MANIFEST.MF
+│ @@ -28,15 +28,15 @@
+│   .databind.jsontype.impl;version="[2.13,3)",com.fasterxml.jackson.data
+
+│   bind.module;version="[2.13,3)",com.fasterxml.jackson.databind.node;ve
+
+│   rsion="[2.13,3)",com.fasterxml.jackson.databind.ser;version="[2.13,3)
+
+│   ",com.fasterxml.jackson.databind.util;version="[2.13,3)",io.fabric8.k
+
+│   ubernetes.model.annotation,org.slf4j;version="[1.7,2)"
+
+│  Include-Resource: ,/META-INF/jandex.idx=target/classes/META-INF/jandex
+
+│   .idx
+
+│ -Java-Version: 1.8.0_345
+
+│ +Java-Version: 1.8.0_275
+
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+│  Scm-Connection: scm:git:git@github.com:fabric8io/kubernetes-client.git
+
+│   /kubernetes-model-generator/kubernetes-model-common
+
+│  Scm-Revision: ${buildNumber}
+
+│  Scm-Url: http://github.com/fabric8io/kubernetes-client/kubernetes-mode
+
+│   l-generator/kubernetes-model-common/
+
+│  Specification-Title: Fabric8 :: Kubernetes Model :: Common
+
+# this issue in generated source impacts also binary output...
+# and other modules under kubernetes-model-generator
+3 / 112 target/reference/kubernetes-model-core-6.1.1-sources.jar kubernetes-model-generator/kubernetes-model-core/target/kubernetes-model-core-6.1.1-sources.jar
+--- target/reference/kubernetes-model-core-6.1.1-sources.jar
++++ kubernetes-model-generator/kubernetes-model-core/target/kubernetes-model-core-6.1.1-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1331928 bytes, number of entries: 1046
+│ +Zip file size: 1331977 bytes, number of entries: 1046
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Sep-01 09:38 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-01 09:38 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-01 09:38 io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-01 09:38 io/fabric8/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-01 09:38 io/fabric8/kubernetes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-01 09:38 io/fabric8/kubernetes/api/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-01 09:38 io/fabric8/kubernetes/api/model/
+│ @@ -1041,8 +1041,8 @@
+│  -rw-r--r--  2.0 unx     7358 b- defN 22-Sep-01 09:38 io/fabric8/kubernetes/api/model/version/InfoFluentImpl.java
+│  -rw-r--r--  2.0 unx       62 b- defN 22-Sep-01 09:38 META-INF/services/io.fabric8.kubernetes.api.KubernetesResourceMappingProvider
+│  -rw-r--r--  2.0 unx      652 b- defN 22-Sep-01 09:38 manifest.vm
+│  -rw-r--r--  2.0 unx   245763 b- defN 22-Sep-01 09:38 schema/kube-schema.json
+│  -rw-r--r--  2.0 unx   425107 b- defN 22-Sep-01 09:38 schema/validation-schema.json
+│  -rw-r--r--  2.0 unx     8661 b- defN 22-Sep-01 09:38 META-INF/maven/io.fabric8/kubernetes-model-core/pom.xml
+│  -rw-r--r--  2.0 unx       66 b- defN 22-Sep-01 09:38 META-INF/maven/io.fabric8/kubernetes-model-core/pom.properties
+│ -1046 files, 6922243 bytes uncompressed, 1131522 bytes compressed:  83.7%
+│ +1046 files, 6922243 bytes uncompressed, 1131571 bytes compressed:  83.7%
+├── io/fabric8/kubernetes/api/model/WatchEventFluent.java
+│┄ Ordering differences only
+│ @@ -46,50 +46,50 @@
+│    public WatchEventFluent.PodTemplateSpecObjectNested<A> withNewPodTemplateSpecObjectLike(PodTemplateSpec item);
+│    public A withCSIPersistentVolumeSourceObject(CSIPersistentVolumeSource cSIPersistentVolumeSourceObject);
+│    public WatchEventFluent.CSIPersistentVolumeSourceObjectNested<A> withNewCSIPersistentVolumeSourceObject();
+│    public WatchEventFluent.CSIPersistentVolumeSourceObjectNested<A> withNewCSIPersistentVolumeSourceObjectLike(CSIPersistentVolumeSource item);
+│    public A withAuthInfoObject(AuthInfo authInfoObject);
+│    public WatchEventFluent.AuthInfoObjectNested<A> withNewAuthInfoObject();
+│    public WatchEventFluent.AuthInfoObjectNested<A> withNewAuthInfoObjectLike(AuthInfo item);
+│ -  public A withAPIServiceObject(APIService aPIServiceObject);
+│ -  public WatchEventFluent.APIServiceObjectNested<A> withNewAPIServiceObject();
+│ -  public WatchEventFluent.APIServiceObjectNested<A> withNewAPIServiceObjectLike(APIService item);
+│    public A withResourceRequirementsObject(ResourceRequirements resourceRequirementsObject);
+│    public WatchEventFluent.ResourceRequirementsObjectNested<A> withNewResourceRequirementsObject();
+│    public WatchEventFluent.ResourceRequirementsObjectNested<A> withNewResourceRequirementsObjectLike(ResourceRequirements item);
+│ +  public A withAPIServiceObject(APIService aPIServiceObject);
+│ +  public WatchEventFluent.APIServiceObjectNested<A> withNewAPIServiceObject();
+│ +  public WatchEventFluent.APIServiceObjectNested<A> withNewAPIServiceObjectLike(APIService item);
+│    public A withConfigMapKeySelectorObject(ConfigMapKeySelector configMapKeySelectorObject);
+│    public WatchEventFluent.ConfigMapKeySelectorObjectNested<A> withNewConfigMapKeySelectorObject();
+│    public WatchEventFluent.ConfigMapKeySelectorObjectNested<A> withNewConfigMapKeySelectorObjectLike(ConfigMapKeySelector item);
+│    public A withNewConfigMapKeySelectorObject(String key,String name,Boolean optional);
+...
+
+...
+
+# ignoring jandex.idx that is not reproducible: 
+
+112 / 112 target/reference/java-generator-cli-6.1.1.sh java-generator/cli/target/java-gen
+--- target/reference/java-generator-cli-6.1.1.sh
++++ java-generator/cli/target/java-gen
+@@ -367753,631969 +367753,631970 @@
+ 0059c880: d3e5 b71a b6bf e20e b65c ac62 de67 17d5  .........\.b.g..
+ 0059c890: 72e5 1350 4b07 0878 800a 9138 0100 003b  r..PK..x...8...;
+ 0059c8a0: 0300 0050 4b03 0414 0008 0808 0000 0041  ...PK..........A
+ 0059c8b0: 0000 0000 0000 0000 0000 0000 0036 0000  .............6..
+ 0059c8c0: 0069 6f2f 6661 6272 6963 382f 6b75 6265  .io/fabric8/kube
+ 0059c8d0: 726e 6574 6573 2f61 7069 2f6d 6f64 656c  rnetes/api/model
+ 0059c8e0: 2f57 6174 6368 4576 656e 7446 6c75 656e  /WatchEventFluen
+-0059c8f0: 742e 636c 6173 73d5 7d09 9ce4 44d5 78d2  t.class.}...D.x.
+-0059c900: 9da4 93ac ca0d a2c8 29b0 9c0b 8888 2c22  ........).....,"
+-0059c910: b333 3bbb e35e c3cc b0a0 1cda 3b9d dd6d  .3;..^......;..m
+-0059c920: e8e9 1ebb 7b76 7710 4551 1445 1104 1151  ....{vw.EQ.E...Q
+...
++00f41240: 732f 696f 2e66 6162 7269 6338 2e6b 7562  s/io.fabric8.kub
++00f41250: 6572 6e65 7465 732e 6170 692e 4b75 6265  ernetes.api.Kube
++00f41260: 726e 6574 6573 5265 736f 7572 6365 4d61  rnetesResourceMa
++00f41270: 7070 696e 6750 726f 7669 6465 7250 4b05  ppingProviderPK.
++00f41280: 0600 0000 0067 2567 257c 0711 00d5 0ae3  .....g%g%|......
++00f41290: 0000 00                                  ...
+
