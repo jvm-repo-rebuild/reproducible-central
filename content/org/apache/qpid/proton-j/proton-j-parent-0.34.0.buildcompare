@@ -1,0 +1,7 @@
+version=0.34.0
+ok=7
+ko=0
+okFiles="proton-j-parent-0.34.0.pom proton-j-0.34.0.pom proton-j-0.34.0.jar proton-j-0.34.0-sources.jar apache-qpid-proton-j-0.34.0.pom apache-qpid-proton-j-0.34.0-bin.tar.gz apache-qpid-proton-j-0.34.0-src.tar.gz"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
