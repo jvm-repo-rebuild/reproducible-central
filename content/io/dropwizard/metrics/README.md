@@ -47,6 +47,7 @@ rebuilding **29 releases** of io.dropwizard.metrics:metrics-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.2.12](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-parent/4.2.12/pom) | | | |
 | [4.2.11](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-parent/4.2.11/pom) | [mvn jdk11](dropwizard-metrics-4.2.11.buildspec) | [result](metrics-parent-4.2.11.buildinfo): [85 :heavy_check_mark:  1 :warning:](metrics-parent-4.2.11.buildcompare) [:mag:](metrics-parent-4.2.11.diffoscope) | 935K |
 | [4.2.10](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-parent/4.2.10/pom) | [mvn jdk11](dropwizard-metrics-4.2.10.buildspec) | [result](metrics-parent-4.2.10.buildinfo): [83 :heavy_check_mark:  3 :warning:](metrics-parent-4.2.10.buildcompare) [:mag:](metrics-parent-4.2.10.diffoscope) | 935K |
 | [4.2.9](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-parent/4.2.9/pom) | [mvn jdk11](dropwizard-metrics-4.2.9.buildspec) | [result](metrics-parent-4.2.9.buildinfo): [84 :heavy_check_mark:  2 :warning:](metrics-parent-4.2.9.buildcompare) [:mag:](metrics-parent-4.2.9.diffoscope) | 934K |

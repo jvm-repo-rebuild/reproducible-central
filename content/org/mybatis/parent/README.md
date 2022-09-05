@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.mybatis:mybatis-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [36](https://search.maven.org/artifact/org.mybatis/mybatis-parent/36/pom) | | | |
 | [35](https://search.maven.org/artifact/org.mybatis/mybatis-parent/35/pom) | [mvn jdk11 w](mybatis-parent-35.buildspec) | [result](mybatis-parent-35.buildinfo): [2 :heavy_check_mark: ](mybatis-parent-35.buildcompare) | 53K |
 | [34](https://search.maven.org/artifact/org.mybatis/mybatis-parent/34/pom) | [mvn jdk11 w](mybatis-parent-34.buildspec) | [result](mybatis-parent-34.buildinfo): [2 :heavy_check_mark: ](mybatis-parent-34.buildcompare) | 50K |
 
