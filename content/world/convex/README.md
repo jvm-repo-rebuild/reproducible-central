@@ -24,6 +24,7 @@ rebuilding **5 releases** of world.convex:convex:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.7.7](https://search.maven.org/artifact/world.convex/convex/0.7.7/pom) | | | |
 | [0.7.6](https://search.maven.org/artifact/world.convex/convex/0.7.6/pom) | | | |
 | [0.7.5](https://search.maven.org/artifact/world.convex/convex/0.7.5/pom) | [mvn jdk16 w](convex-0.7.5.buildspec) | [result](convex-0.7.5.buildinfo): [17 :heavy_check_mark:  4 :warning:](convex-0.7.5.buildcompare) | 49M |
 | [0.7.4](https://search.maven.org/artifact/world.convex/convex/0.7.4/pom) | [mvn jdk16 w](convex-0.7.4.buildspec) | [result](convex-0.7.4.buildinfo): [17 :heavy_check_mark:  1 :warning:](convex-0.7.4.buildcompare) [:mag:](convex-0.7.4.diffoscope) | 49M |

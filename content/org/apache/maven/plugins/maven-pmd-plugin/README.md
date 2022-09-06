@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/maven-pmd-plugin.git](https://github.com/apache/maven-pmd-plugin.git)
 
-rebuilding **5 releases** of org.apache.maven.plugins:maven-pmd-plugin:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **6 releases** of org.apache.maven.plugins:maven-pmd-plugin:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.19.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-pmd-plugin/3.19.0/pom) | | | |
+| [3.19.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-pmd-plugin/3.19.0/pom) | [mvn jdk8](maven-pmd-plugin-3.19.0.buildspec) | [result](maven-pmd-plugin-3.19.0.buildinfo): [4 :heavy_check_mark: ](maven-pmd-plugin-3.19.0.buildcompare) | 831K |
 | [3.18.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-pmd-plugin/3.18.0/pom) | [mvn jdk8 w](maven-pmd-plugin-3.18.0.buildspec) | [result](maven-pmd-plugin-3.18.0.buildinfo): [4 :heavy_check_mark: ](maven-pmd-plugin-3.18.0.buildcompare) | 838K |
 | [3.17.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-pmd-plugin/3.17.0/pom) | [mvn jdk8](maven-pmd-plugin-3.17.0.buildspec) | [result](maven-pmd-plugin-3.17.0.buildinfo): [4 :heavy_check_mark: ](maven-pmd-plugin-3.17.0.buildcompare) | 825K |
 | [3.16.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-pmd-plugin/3.16.0/pom) | [mvn jdk8](maven-pmd-plugin-3.16.0.buildspec) | [result](maven-pmd-plugin-3.16.0.buildinfo): [4 :heavy_check_mark: ](maven-pmd-plugin-3.16.0.buildcompare) | 807K |

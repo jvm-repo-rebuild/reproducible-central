@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/mybatis/parent.git](https://github.com/mybatis/parent.git)
 
-rebuilding **2 releases** of org.mybatis:mybatis-parent:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **3 releases** of org.mybatis:mybatis-parent:
+- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [36](https://search.maven.org/artifact/org.mybatis/mybatis-parent/36/pom) | | | |
+| [36](https://search.maven.org/artifact/org.mybatis/mybatis-parent/36/pom) | [mvn jdk11 w](mybatis-parent-36.buildspec) | [result](mybatis-parent-36.buildinfo): [2 :heavy_check_mark: ](mybatis-parent-36.buildcompare) | 53K |
 | [35](https://search.maven.org/artifact/org.mybatis/mybatis-parent/35/pom) | [mvn jdk11 w](mybatis-parent-35.buildspec) | [result](mybatis-parent-35.buildinfo): [2 :heavy_check_mark: ](mybatis-parent-35.buildcompare) | 53K |
 | [34](https://search.maven.org/artifact/org.mybatis/mybatis-parent/34/pom) | [mvn jdk11 w](mybatis-parent-34.buildspec) | [result](mybatis-parent-34.buildinfo): [2 :heavy_check_mark: ](mybatis-parent-34.buildcompare) | 50K |
 

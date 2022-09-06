@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/dropwizard/metrics.git](https://github.com/dropwizard/metrics.git)
 
-<details><summary>This project defines 30 modules:</summary>
+<details><summary>This project defines 32 modules:</summary>
 
 * [io.dropwizard.metrics:metrics-annotation](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-annotation/)
 * [io.dropwizard.metrics:metrics-bom](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-bom/)
@@ -36,18 +36,20 @@ Source code: [https://github.com/dropwizard/metrics.git](https://github.com/drop
 * [io.dropwizard.metrics:metrics-jvm](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-jvm/)
 * [io.dropwizard.metrics:metrics-log4j2](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-log4j2/)
 * [io.dropwizard.metrics:metrics-logback](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-logback/)
+* [io.dropwizard.metrics:metrics-logback13](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-logback13/)
+* [io.dropwizard.metrics:metrics-logback14](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-logback14/)
 * [io.dropwizard.metrics:metrics-parent](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-parent/)
 * [io.dropwizard.metrics:metrics-servlet](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-servlet/)
 * [io.dropwizard.metrics:metrics-servlets](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-servlets/)
 </details>
 
-rebuilding **29 releases** of io.dropwizard.metrics:metrics-parent:
+rebuilding **30 releases** of io.dropwizard.metrics:metrics-parent:
 - **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 18 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 19 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.2.12](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-parent/4.2.12/pom) | | | |
+| [4.2.12](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-parent/4.2.12/pom) | [mvn jdk11](dropwizard-metrics-4.2.12.buildspec) | [result](metrics-parent-4.2.12.buildinfo): [91 :heavy_check_mark:  1 :warning:](metrics-parent-4.2.12.buildcompare) [:mag:](metrics-parent-4.2.12.diffoscope) | 956K |
 | [4.2.11](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-parent/4.2.11/pom) | [mvn jdk11](dropwizard-metrics-4.2.11.buildspec) | [result](metrics-parent-4.2.11.buildinfo): [85 :heavy_check_mark:  1 :warning:](metrics-parent-4.2.11.buildcompare) [:mag:](metrics-parent-4.2.11.diffoscope) | 935K |
 | [4.2.10](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-parent/4.2.10/pom) | [mvn jdk11](dropwizard-metrics-4.2.10.buildspec) | [result](metrics-parent-4.2.10.buildinfo): [83 :heavy_check_mark:  3 :warning:](metrics-parent-4.2.10.buildcompare) [:mag:](metrics-parent-4.2.10.diffoscope) | 935K |
 | [4.2.9](https://search.maven.org/artifact/io.dropwizard.metrics/metrics-parent/4.2.9/pom) | [mvn jdk11](dropwizard-metrics-4.2.9.buildspec) | [result](metrics-parent-4.2.9.buildinfo): [84 :heavy_check_mark:  2 :warning:](metrics-parent-4.2.9.buildcompare) [:mag:](metrics-parent-4.2.9.diffoscope) | 934K |
