@@ -74,6 +74,7 @@ rebuilding **9 releases** of org.apache.jena:jena:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.6.1](https://search.maven.org/artifact/org.apache.jena/jena/4.6.1/pom) | | | |
 | [4.6.0](https://search.maven.org/artifact/org.apache.jena/jena/4.6.0/pom) | | | |
 | [4.5.0](https://search.maven.org/artifact/org.apache.jena/jena/4.5.0/pom) | [mvn jdk17](jena-4.5.0.buildspec) | [result](jena-4.5.0.buildinfo): [165 :heavy_check_mark:  11 :warning:](jena-4.5.0.buildcompare) [:mag:](jena-4.5.0.diffoscope) | 340M |
 | [4.4.0](https://search.maven.org/artifact/org.apache.jena/jena/4.4.0/pom) | | | |

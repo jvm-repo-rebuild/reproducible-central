@@ -33,6 +33,7 @@ rebuilding **2 releases** of org.apache.sshd:sshd:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.9.1](https://search.maven.org/artifact/org.apache.sshd/sshd/2.9.1/pom) | | | |
 | [2.9.0](https://search.maven.org/artifact/org.apache.sshd/sshd/2.9.0/pom) | | | |
 | [2.8.0](https://search.maven.org/artifact/org.apache.sshd/sshd/2.8.0/pom) | [mvn jdk8](sshd-2.8.0.buildspec) | [result](sshd-2.8.0.buildinfo): [31 :heavy_check_mark:  21 :warning:](sshd-2.8.0.buildcompare) [:mag:](sshd-2.8.0.diffoscope) | 61M |
 | [2.7.0](https://search.maven.org/artifact/org.apache.sshd/sshd/2.7.0/pom) | | | |
