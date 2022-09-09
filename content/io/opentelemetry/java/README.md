@@ -62,6 +62,7 @@ rebuilding **1 releases** of io.opentelemetry:opentelemetry-sdk:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.18.0](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk/1.18.0/pom) | | | |
 | [1.17.0](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk/1.17.0/pom) | | | |
 | [1.16.0](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk/1.16.0/pom) | | | |
 | [1.15.0](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk/1.15.0/pom) | | | |
