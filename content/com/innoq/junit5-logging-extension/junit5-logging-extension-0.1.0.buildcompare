@@ -1,0 +1,8 @@
+version=0.1.0
+ok=1
+ko=1
+okFiles="junit5-logging-extension-0.1.0.pom"
+koFiles="junit5-logging-extension-0.1.0.jar"
+reference_java_version="1.8.0_332 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/junit5-logging-extension-0.1.0.jar target/junit5-logging-extension-0.1.0.jar

@@ -1,0 +1,30 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JUnit5 logging extensions
+group-id=com.innoq
+artifact-id=junit5-logging-extension
+version=0.1.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/innoq/junit5-logging-extension
+source.scm.tag=0.1.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=junit5-logging-extension-0.1.0.pom
+outputs.0.length=6638
+outputs.0.checksums.sha512=ca6c62773deb2664b033b7026b1628028acec3e19d257702bacf301a30ef408c18f5951ca0207638de03e7a994223c33f277638ebd964b7caf1e5073e9b707cd
+
+outputs.1.filename=junit5-logging-extension-0.1.0.jar
+outputs.1.length=7613
+outputs.1.checksums.sha512=2bd384a2838704482003e9542471fcb691f6e1c35ded907668fa84bd81310f5c60c4d41a906aa85e2a51b57c8b777378409d257b76d2f16dfa77ab3a8ca15729

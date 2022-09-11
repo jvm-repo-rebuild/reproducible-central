@@ -1,0 +1,17 @@
+groupId=com.innoq
+artifactId=junit5-logging-extension
+display=${groupId}:${artifactId}
+version=0.1.0
+
+gitRepo=https://github.com/innoq/${artifactId}.git
+gitTag=${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/innoq/junit5-logging-extension/pull/2
