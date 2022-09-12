@@ -1,0 +1,839 @@
+# javadoc is not reproducible, then impacts Gradle .module hashes...
+# this issue (stupidly) affects every module :(
+# we'll probably need to drop reproducibility checks of .module files because the issue is systematic and detected by checks on individual files
+1 / 268 repository/io/opentelemetry/instrumentation/opentelemetry-apache-dbcp-2.0/1.17.0-alpha/opentelemetry-apache-dbcp-2.0-1.17.0-alpha.module central/io/opentelemetry/instrumentation/opentelemetry-apache-dbcp-2.0/1.17.0-alpha/opentelemetry-apache-dbcp-2.0-1.17.0-alpha.module
+--- repository/io/opentelemetry/instrumentation/opentelemetry-apache-dbcp-2.0/1.17.0-alpha/opentelemetry-apache-dbcp-2.0-1.17.0-alpha.module
++++ central/io/opentelemetry/instrumentation/opentelemetry-apache-dbcp-2.0/1.17.0-alpha/opentelemetry-apache-dbcp-2.0-1.17.0-alpha.module
+├── Pretty-printed
+│┄ Similarity: 0.9981398809523809%
+│┄ Differences: {"'variants'": "{2: {'files': {0: {'size': 117942, 'sha512': "
+│┄                "'288e55f7b0e5f1c389fb4103de5ba1211e312f75e07857c05ea8f79a59a33f412ceec6e177566dcbcf734793dc062a13559e27f72515198ab08d0d7c11b18ed0', "
+│┄                "'sha256': '82c009d1b7d71949edbeb74daca8131a6b3f4c74d82659bef0af7a6af09bccf1', "
+│┄                "'sha1': '027042c04520ef3689116828d596dae09bd76e9f', 'md5': "
+│┄                "'2707b20626ca85e1269c6a0fa7da9393'}}}}"}
+│ @@ -143,20 +143,20 @@
+│                  "org.gradle.category": "documentation",
+│                  "org.gradle.dependency.bundling": "external",
+│                  "org.gradle.docstype": "javadoc",
+│                  "org.gradle.usage": "java-runtime"
+│              },
+│              "files": [
+│                  {
+│ -                    "md5": "74d74baf1d2a11e9f0b462a05e1d553f",
+│ +                    "md5": "2707b20626ca85e1269c6a0fa7da9393",
+│                      "name": "opentelemetry-apache-dbcp-2.0-1.17.0-alpha-javadoc.jar",
+│ -                    "sha1": "ea6bdf4b1aee45787ed360d8612457b52a411574",
+│ -                    "sha256": "55bd425f720a5a69b4a0e5389530b32d14a698af6923db5fda0aeba57c8146b1",
+│ -                    "sha512": "104184924d7d1871419bf552e75bade744f8ea550428a27c630c9d7aad69e77be2193cec5a1d45c83f872d7490cd51c8a6b298ab6285535fdfab1037d5535707",
+│ -                    "size": 109054,
+│ +                    "sha1": "027042c04520ef3689116828d596dae09bd76e9f",
+│ +                    "sha256": "82c009d1b7d71949edbeb74daca8131a6b3f4c74d82659bef0af7a6af09bccf1",
+│ +                    "sha512": "288e55f7b0e5f1c389fb4103de5ba1211e312f75e07857c05ea8f79a59a33f412ceec6e177566dcbcf734793dc062a13559e27f72515198ab08d0d7c11b18ed0",
+│ +                    "size": 117942,
+│                      "url": "opentelemetry-apache-dbcp-2.0-1.17.0-alpha-javadoc.jar"
+│                  }
+│              ],
+│              "name": "javadocElements"
+│          },
+│          {
+│              "attributes": {
+
+...
+
+115 / 268 repository/io/opentelemetry/javaagent/instrumentation/opentelemetry-javaagent-internal-lambda-java9/1.17.0-alpha/opentelemetry-javaagent-internal-lambda-java9-1.17.0-alpha.jar central/io/opentelemetry/javaagent/instrumentation/opentelemetry-javaagent-internal-lambda-java9/1.17.0-alpha/opentelemetry-javaagent-internal-lambda-java9-1.17.0-alpha.jar
+--- repository/io/opentelemetry/javaagent/instrumentation/opentelemetry-javaagent-internal-lambda-java9/1.17.0-alpha/opentelemetry-javaagent-internal-lambda-java9-1.17.0-alpha.jar
++++ central/io/opentelemetry/javaagent/instrumentation/opentelemetry-javaagent-internal-lambda-java9/1.17.0-alpha/opentelemetry-javaagent-internal-lambda-java9-1.17.0-alpha.jar
+├── zipinfo {}
+│ @@ -1,15 +1,15 @@
+│ -Zip file size: 2758 bytes, number of entries: 13
+│ +Zip file size: 2761 bytes, number of entries: 13
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 META-INF/
+│  -rw-r--r--  2.0 unx      227 b- defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 io/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 io/opentelemetry/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/internal/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/internal/lambda/
+│  -rw-r--r--  2.0 unx     1323 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/internal/lambda/Java9LambdaTransformer.class
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 META-INF/io/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 META-INF/io/opentelemetry/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 META-INF/io/opentelemetry/instrumentation/
+│  -rw-r--r--  2.0 unx       20 b- defN 80-Feb-01 00:00 META-INF/io/opentelemetry/instrumentation/io.opentelemetry.internal-lambda-java9.properties
+│ -13 files, 1570 bytes uncompressed, 772 bytes compressed:  50.8%
+│ +13 files, 1570 bytes uncompressed, 775 bytes compressed:  50.6%
+├── io/opentelemetry/javaagent/instrumentation/internal/lambda/Java9LambdaTransformer.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,63 +1,63 @@
+│ │    Compiled from "Java9LambdaTransformer.java"
+│ │  public final class io.opentelemetry.javaagent.instrumentation.internal.lambda.Java9LambdaTransformer
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+│ │ -  this_class: #5                          // io/opentelemetry/javaagent/instrumentation/internal/lambda/Java9LambdaTransformer
+│ │ -  super_class: #6                         // java/lang/Object
+│ │ +  this_class: #23                         // io/opentelemetry/javaagent/instrumentation/internal/lambda/Java9LambdaTransformer
+│ │ +  super_class: #2                         // java/lang/Object
+│ │    interfaces: 0, fields: 0, methods: 2, attributes: 1
+│ │  Constant pool:
+│ │ -   #1 = Methodref          #6.#32         // java/lang/Object."<init>":()V
+│ │ -   #2 = Methodref          #33.#34        // java/lang/Class.getModule:()Ljava/lang/Module;
+│ │ -   #3 = Methodref          #33.#35        // java/lang/Class.getClassLoader:()Ljava/lang/ClassLoader;
+│ │ -   #4 = InterfaceMethodref #36.#37        // java/lang/instrument/ClassFileTransformer.transform:(Ljava/lang/Module;Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/lang/Class;Ljava/security/ProtectionDomain;[B)[B
+│ │ -   #5 = Class              #38            // io/opentelemetry/javaagent/instrumentation/internal/lambda/Java9LambdaTransformer
+│ │ -   #6 = Class              #39            // java/lang/Object
+│ │ -   #7 = Utf8               <init>
+│ │ -   #8 = Utf8               ()V
+│ │ -   #9 = Utf8               Code
+│ │ -  #10 = Utf8               LineNumberTable
+│ │ -  #11 = Utf8               LocalVariableTable
+│ │ -  #12 = Utf8               this
+│ │ -  #13 = Utf8               Lio/opentelemetry/javaagent/instrumentation/internal/lambda/Java9LambdaTransformer;
+│ │ -  #14 = Utf8               transform
+│ │ -  #15 = Utf8               (Ljava/lang/instrument/ClassFileTransformer;[BLjava/lang/String;Ljava/lang/Class;)[B
+│ │ -  #16 = Utf8               transformer
+│ │ -  #17 = Utf8               Ljava/lang/instrument/ClassFileTransformer;
+│ │ -  #18 = Utf8               classBytes
+│ │ -  #19 = Utf8               [B
+│ │ -  #20 = Utf8               slashClassName
+│ │ -  #21 = Utf8               Ljava/lang/String;
+│ │ -  #22 = Utf8               targetClass
+│ │ -  #23 = Utf8               Ljava/lang/Class;
+│ │ -  #24 = Utf8               LocalVariableTypeTable
+│ │ -  #25 = Utf8               Ljava/lang/Class<*>;
+│ │ -  #26 = Utf8               Exceptions
+│ │ -  #27 = Class              #40            // java/lang/instrument/IllegalClassFormatException
+│ │ -  #28 = Utf8               Signature
+│ │ -  #29 = Utf8               (Ljava/lang/instrument/ClassFileTransformer;[BLjava/lang/String;Ljava/lang/Class<*>;)[B
+│ │ -  #30 = Utf8               SourceFile
+│ │ -  #31 = Utf8               Java9LambdaTransformer.java
+│ │ -  #32 = NameAndType        #7:#8          // "<init>":()V
+│ │ -  #33 = Class              #41            // java/lang/Class
+│ │ -  #34 = NameAndType        #42:#43        // getModule:()Ljava/lang/Module;
+│ │ -  #35 = NameAndType        #44:#45        // getClassLoader:()Ljava/lang/ClassLoader;
+│ │ -  #36 = Class              #46            // java/lang/instrument/ClassFileTransformer
+│ │ -  #37 = NameAndType        #14:#47        // transform:(Ljava/lang/Module;Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/lang/Class;Ljava/security/ProtectionDomain;[B)[B
+│ │ -  #38 = Utf8               io/opentelemetry/javaagent/instrumentation/internal/lambda/Java9LambdaTransformer
+│ │ -  #39 = Utf8               java/lang/Object
+│ │ -  #40 = Utf8               java/lang/instrument/IllegalClassFormatException
+│ │ -  #41 = Utf8               java/lang/Class
+│ │ -  #42 = Utf8               getModule
+│ │ -  #43 = Utf8               ()Ljava/lang/Module;
+│ │ -  #44 = Utf8               getClassLoader
+│ │ -  #45 = Utf8               ()Ljava/lang/ClassLoader;
+│ │ -  #46 = Utf8               java/lang/instrument/ClassFileTransformer
+│ │ -  #47 = Utf8               (Ljava/lang/Module;Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/lang/Class;Ljava/security/ProtectionDomain;[B)[B
+│ │ +   #1 = Methodref          #2.#3          // java/lang/Object."<init>":()V
+│ │ +   #2 = Class              #4             // java/lang/Object
+│ │ +   #3 = NameAndType        #5:#6          // "<init>":()V
+│ │ +   #4 = Utf8               java/lang/Object
+│ │ +   #5 = Utf8               <init>
+│ │ +   #6 = Utf8               ()V
+│ │ +   #7 = Methodref          #8.#9          // java/lang/Class.getModule:()Ljava/lang/Module;
+│ │ +   #8 = Class              #10            // java/lang/Class
+│ │ +   #9 = NameAndType        #11:#12        // getModule:()Ljava/lang/Module;
+│ │ +  #10 = Utf8               java/lang/Class
+│ │ +  #11 = Utf8               getModule
+│ │ +  #12 = Utf8               ()Ljava/lang/Module;
+│ │ +  #13 = Methodref          #8.#14         // java/lang/Class.getClassLoader:()Ljava/lang/ClassLoader;
+│ │ +  #14 = NameAndType        #15:#16        // getClassLoader:()Ljava/lang/ClassLoader;
+│ │ +  #15 = Utf8               getClassLoader
+│ │ +  #16 = Utf8               ()Ljava/lang/ClassLoader;
+│ │ +  #17 = InterfaceMethodref #18.#19        // java/lang/instrument/ClassFileTransformer.transform:(Ljava/lang/Module;Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/lang/Class;Ljava/security/ProtectionDomain;[B)[B
+│ │ +  #18 = Class              #20            // java/lang/instrument/ClassFileTransformer
+│ │ +  #19 = NameAndType        #21:#22        // transform:(Ljava/lang/Module;Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/lang/Class;Ljava/security/ProtectionDomain;[B)[B
+│ │ +  #20 = Utf8               java/lang/instrument/ClassFileTransformer
+│ │ +  #21 = Utf8               transform
+│ │ +  #22 = Utf8               (Ljava/lang/Module;Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/lang/Class;Ljava/security/ProtectionDomain;[B)[B
+│ │ +  #23 = Class              #24            // io/opentelemetry/javaagent/instrumentation/internal/lambda/Java9LambdaTransformer
+│ │ +  #24 = Utf8               io/opentelemetry/javaagent/instrumentation/internal/lambda/Java9LambdaTransformer
+│ │ +  #25 = Utf8               Code
+│ │ +  #26 = Utf8               LineNumberTable
+│ │ +  #27 = Utf8               LocalVariableTable
+│ │ +  #28 = Utf8               this
+│ │ +  #29 = Utf8               Lio/opentelemetry/javaagent/instrumentation/internal/lambda/Java9LambdaTransformer;
+│ │ +  #30 = Utf8               (Ljava/lang/instrument/ClassFileTransformer;[BLjava/lang/String;Ljava/lang/Class;)[B
+│ │ +  #31 = Utf8               transformer
+│ │ +  #32 = Utf8               Ljava/lang/instrument/ClassFileTransformer;
+│ │ +  #33 = Utf8               classBytes
+│ │ +  #34 = Utf8               [B
+│ │ +  #35 = Utf8               slashClassName
+│ │ +  #36 = Utf8               Ljava/lang/String;
+│ │ +  #37 = Utf8               targetClass
+│ │ +  #38 = Utf8               Ljava/lang/Class;
+│ │ +  #39 = Utf8               LocalVariableTypeTable
+│ │ +  #40 = Utf8               Ljava/lang/Class<*>;
+│ │ +  #41 = Utf8               Exceptions
+│ │ +  #42 = Class              #43            // java/lang/instrument/IllegalClassFormatException
+│ │ +  #43 = Utf8               java/lang/instrument/IllegalClassFormatException
+│ │ +  #44 = Utf8               Signature
+│ │ +  #45 = Utf8               (Ljava/lang/instrument/ClassFileTransformer;[BLjava/lang/String;Ljava/lang/Class<*>;)[B
+│ │ +  #46 = Utf8               SourceFile
+│ │ +  #47 = Utf8               Java9LambdaTransformer.java
+│ │  {
+│ │    private io.opentelemetry.javaagent.instrumentation.internal.lambda.Java9LambdaTransformer();
+│ │      descriptor: ()V
+│ │      flags: (0x0002) ACC_PRIVATE
+│ │      Code:
+│ │        stack=1, locals=1, args_size=1
+│ │           0: aload_0
+│ │ @@ -72,22 +72,22 @@
+│ │    public static byte[] transform(java.lang.instrument.ClassFileTransformer, byte[], java.lang.String, java.lang.Class<?>) throws java.lang.instrument.IllegalClassFormatException;
+│ │      descriptor: (Ljava/lang/instrument/ClassFileTransformer;[BLjava/lang/String;Ljava/lang/Class;)[B
+│ │      flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+│ │      Code:
+│ │        stack=7, locals=4, args_size=4
+│ │           0: aload_0
+│ │           1: aload_3
+│ │ -         2: invokevirtual #2                  // Method java/lang/Class.getModule:()Ljava/lang/Module;
+│ │ +         2: invokevirtual #7                  // Method java/lang/Class.getModule:()Ljava/lang/Module;
+│ │           5: aload_3
+│ │ -         6: invokevirtual #3                  // Method java/lang/Class.getClassLoader:()Ljava/lang/ClassLoader;
+│ │ +         6: invokevirtual #13                 // Method java/lang/Class.getClassLoader:()Ljava/lang/ClassLoader;
+│ │           9: aload_2
+│ │          10: aconst_null
+│ │          11: aconst_null
+│ │          12: aload_1
+│ │ -        13: invokeinterface #4,  7            // InterfaceMethod java/lang/instrument/ClassFileTransformer.transform:(Ljava/lang/Module;Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/lang/Class;Ljava/security/ProtectionDomain;[B)[B
+│ │ +        13: invokeinterface #17,  7           // InterfaceMethod java/lang/instrument/ClassFileTransformer.transform:(Ljava/lang/Module;Ljava/lang/ClassLoader;Ljava/lang/String;Ljava/lang/Class;Ljava/security/ProtectionDomain;[B)[B
+│ │          18: areturn
+│ │        LineNumberTable:
+│ │          line 22: 0
+│ │          line 23: 2
+│ │          line 24: 6
+│ │          line 22: 13
+│ │        LocalVariableTable:
+│ │ @@ -97,10 +97,10 @@
+│ │              0      19     2 slashClassName   Ljava/lang/String;
+│ │              0      19     3 targetClass   Ljava/lang/Class;
+│ │        LocalVariableTypeTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      19     3 targetClass   Ljava/lang/Class<*>;
+│ │      Exceptions:
+│ │        throws java.lang.instrument.IllegalClassFormatException
+│ │ -    Signature: #29                          // (Ljava/lang/instrument/ClassFileTransformer;[BLjava/lang/String;Ljava/lang/Class<*>;)[B
+│ │ +    Signature: #45                          // (Ljava/lang/instrument/ClassFileTransformer;[BLjava/lang/String;Ljava/lang/Class<*>;)[B
+│ │  }
+│ │  SourceFile: "Java9LambdaTransformer.java"
+
+
+214 / 268 repository/io/opentelemetry/javaagent/instrumentation/opentelemetry-javaagent-rmi/1.17.0-alpha/opentelemetry-javaagent-rmi-1.17.0-alpha.jar central/io/opentelemetry/javaagent/instrumentation/opentelemetry-javaagent-rmi/1.17.0-alpha/opentelemetry-javaagent-rmi-1.17.0-alpha.jar
+--- repository/io/opentelemetry/javaagent/instrumentation/opentelemetry-javaagent-rmi/1.17.0-alpha/opentelemetry-javaagent-rmi-1.17.0-alpha.jar
++++ central/io/opentelemetry/javaagent/instrumentation/opentelemetry-javaagent-rmi/1.17.0-alpha/opentelemetry-javaagent-rmi-1.17.0-alpha.jar
+├── zipinfo {}
+│ @@ -1,26 +1,26 @@
+│ -Zip file size: 37142 bytes, number of entries: 44
+│ +Zip file size: 37495 bytes, number of entries: 44
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 META-INF/
+│  -rw-r--r--  2.0 unx      227 b- defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 META-INF/services/
+│  -rw-r--r--  2.0 unx      357 b- defN 80-Feb-01 00:00 META-INF/services/io.opentelemetry.javaagent.extension.instrumentation.InstrumentationModule
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 io/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 io/opentelemetry/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/client/
+│ --rw-r--r--  2.0 unx     2193 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/client/RmiClientAttributesGetter.class
+│ +-rw-r--r--  2.0 unx     2252 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/client/RmiClientAttributesGetter.class
+│  -rw-r--r--  2.0 unx     1879 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/client/RmiClientInstrumentationModule.class
+│  -rw-r--r--  2.0 unx     2727 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/client/RmiClientSingletons.class
+│  -rw-r--r--  2.0 unx     2887 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/client/UnicastRefInstrumentation$InvokeAdvice.class
+│  -rw-r--r--  2.0 unx     2332 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/client/UnicastRefInstrumentation.class
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/context/
+│ --rw-r--r--  2.0 unx     2741 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPayload$ContextPayloadGetter.class
+│ --rw-r--r--  2.0 unx     2290 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPayload$ContextPayloadSetter.class
+│ +-rw-r--r--  2.0 unx     2800 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPayload$ContextPayloadGetter.class
+│ +-rw-r--r--  2.0 unx     2349 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPayload$ContextPayloadSetter.class
+│  -rw-r--r--  2.0 unx     3892 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPayload.class
+│  -rw-r--r--  2.0 unx     5255 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPropagator.class
+│  -rw-r--r--  2.0 unx     7301 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/context/RmiContextPropagationInstrumentationModule.class
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/context/client/
+│  -rw-r--r--  2.0 unx     2871 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/context/client/RmiClientContextInstrumentation$StreamRemoteCallConstructorAdvice.class
+│  -rw-r--r--  2.0 unx     4977 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/context/client/RmiClientContextInstrumentation.class
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/context/jpms/
+│ @@ -32,15 +32,15 @@
+│  -rw-r--r--  2.0 unx      574 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/context/server/ContextDispatcher$NoopRemote.class
+│  -rw-r--r--  2.0 unx     3208 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/context/server/ContextDispatcher.class
+│  -rw-r--r--  2.0 unx     1795 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/context/server/RmiServerContextInstrumentation$ObjectTableAdvice.class
+│  -rw-r--r--  2.0 unx     2327 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/context/server/RmiServerContextInstrumentation.class
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/server/
+│  -rw-r--r--  2.0 unx     4279 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/server/RemoteServerInstrumentation$PublicMethodAdvice.class
+│  -rw-r--r--  2.0 unx     2306 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/server/RemoteServerInstrumentation.class
+│ --rw-r--r--  2.0 unx     2353 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/server/RmiServerAttributesGetter.class
+│ +-rw-r--r--  2.0 unx     2412 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/server/RmiServerAttributesGetter.class
+│  -rw-r--r--  2.0 unx     1881 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/server/RmiServerInstrumentationModule.class
+│  -rw-r--r--  2.0 unx     2791 b- defN 80-Feb-01 00:00 io/opentelemetry/javaagent/instrumentation/rmi/server/RmiServerSingletons.class
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 META-INF/io/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 META-INF/io/opentelemetry/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 META-INF/io/opentelemetry/instrumentation/
+│  -rw-r--r--  2.0 unx       20 b- defN 80-Feb-01 00:00 META-INF/io/opentelemetry/instrumentation/io.opentelemetry.rmi.properties
+│ -44 files, 74147 bytes uncompressed, 27530 bytes compressed:  62.9%
+│ +44 files, 74383 bytes uncompressed, 27883 bytes compressed:  62.5%
+├── io/opentelemetry/javaagent/instrumentation/rmi/client/RmiClientAttributesGetter.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,118 +1,120 @@
+│ │    Compiled from "RmiClientAttributesGetter.java"
+│ │  final class io.opentelemetry.javaagent.instrumentation.rmi.client.RmiClientAttributesGetter extends java.lang.Enum<io.opentelemetry.javaagent.instrumentation.rmi.client.RmiClientAttributesGetter> implements io.opentelemetry.instrumentation.api.instrumenter.rpc.RpcAttributesGetter<java.lang.reflect.Method>
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x4030) ACC_FINAL, ACC_SUPER, ACC_ENUM
+│ │ -  this_class: #4                          // io/opentelemetry/javaagent/instrumentation/rmi/client/RmiClientAttributesGetter
+│ │ -  super_class: #18                        // java/lang/Enum
+│ │ -  interfaces: 1, fields: 2, methods: 10, attributes: 2
+│ │ +  this_class: #1                          // io/opentelemetry/javaagent/instrumentation/rmi/client/RmiClientAttributesGetter
+│ │ +  super_class: #17                        // java/lang/Enum
+│ │ +  interfaces: 1, fields: 2, methods: 11, attributes: 2
+│ │  Constant pool:
+│ │ -   #1 = Fieldref           #4.#48         // io/opentelemetry/javaagent/instrumentation/rmi/client/RmiClientAttributesGetter.$VALUES:[Lio/opentelemetry/javaagent/instrumentation/rmi/client/RmiClientAttributesGetter;
+│ │ -   #2 = Methodref          #49.#50        // "[Lio/opentelemetry/javaagent/instrumentation/rmi/client/RmiClientAttributesGetter;".clone:()Ljava/lang/Object;
+│ │ -   #3 = Class              #23            // "[Lio/opentelemetry/javaagent/instrumentation/rmi/client/RmiClientAttributesGetter;"
+│ │ -   #4 = Class              #51            // io/opentelemetry/javaagent/instrumentation/rmi/client/RmiClientAttributesGetter
+...
+│ │ -Signature: #45                          // Ljava/lang/Enum<Lio/opentelemetry/javaagent/instrumentation/rmi/client/RmiClientAttributesGetter;>;Lio/opentelemetry/instrumentation/api/instrumenter/rpc/RpcAttributesGetter<Ljava/lang/reflect/Method;>;
+│ │ +Signature: #72                          // Ljava/lang/Enum<Lio/opentelemetry/javaagent/instrumentation/rmi/client/RmiClientAttributesGetter;>;Lio/opentelemetry/instrumentation/api/instrumenter/rpc/RpcAttributesGetter<Ljava/lang/reflect/Method;>;
+│ │  SourceFile: "RmiClientAttributesGetter.java"
+├── io/opentelemetry/javaagent/instrumentation/rmi/client/RmiClientInstrumentationModule.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,73 +1,73 @@
+│ │    Compiled from "RmiClientInstrumentationModule.java"
+│ │  public class io.opentelemetry.javaagent.instrumentation.rmi.client.RmiClientInstrumentationModule extends io.opentelemetry.javaagent.extension.instrumentation.InstrumentationModule implements io.opentelemetry.javaagent.tooling.muzzle.InstrumentationModuleMuzzle
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+│ │ -  this_class: #8                          // io/opentelemetry/javaagent/instrumentation/rmi/client/RmiClientInstrumentationModule
+│ │ -  super_class: #9                         // io/opentelemetry/javaagent/extension/instrumentation/InstrumentationModule
+│ │ +  this_class: #24                         // io/opentelemetry/javaagent/instrumentation/rmi/client/RmiClientInstrumentationModule
+│ │ +  super_class: #8                         // io/opentelemetry/javaagent/extension/instrumentation/InstrumentationModule
+│ │    interfaces: 1, fields: 0, methods: 5, attributes: 2
+│ │  Constant pool:
+│ │ -   #1 = String             #27            // rmi
+│ │ -   #2 = Class              #28            // java/lang/String
+│ │ -   #3 = String             #29            // rmi-client
+...
+│ │  RuntimeInvisibleAnnotations:
+│ │ -  0: #24(#25=[c#26])
+│ │ +  0: #38(#39=[c#40])
+│ │      com.google.auto.service.AutoService(
+│ │        value=[class Lio/opentelemetry/javaagent/extension/instrumentation/InstrumentationModule;]
+│ │      )
+├── io/opentelemetry/javaagent/instrumentation/rmi/client/RmiClientSingletons.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,137 +1,137 @@
+│ │    Compiled from "RmiClientSingletons.java"
+│ │  public final class io.opentelemetry.javaagent.instrumentation.rmi.client.RmiClientSingletons
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x0031) ACC_PUBLIC, ACC_FINAL, ACC_SUPER
+│ │ -  this_class: #12                         // io/opentelemetry/javaagent/instrumentation/rmi/client/RmiClientSingletons
+│ │ -  super_class: #13                        // java/lang/Object
+│ │ +  this_class: #2                          // io/opentelemetry/javaagent/instrumentation/rmi/client/RmiClientSingletons
+│ │ +  super_class: #8                         // java/lang/Object
+│ │    interfaces: 0, fields: 1, methods: 3, attributes: 1
+...
+├── io/opentelemetry/javaagent/instrumentation/rmi/client/UnicastRefInstrumentation$InvokeAdvice.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,116 +1,116 @@
+│ │    Compiled from "UnicastRefInstrumentation.java"
+│ │  public class io.opentelemetry.javaagent.instrumentation.rmi.client.UnicastRefInstrumentation$InvokeAdvice
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+│ │ -  this_class: #9                          // io/opentelemetry/javaagent/instrumentation/rmi/client/UnicastRefInstrumentation$InvokeAdvice
+│ │ -  super_class: #10                        // java/lang/Object
+│ │ +  this_class: #44                         // io/opentelemetry/javaagent/instrumentation/rmi/client/UnicastRefInstrumentation$InvokeAdvice
+│ │ +  super_class: #2                         // java/lang/Object
+│ │    interfaces: 0, fields: 0, methods: 3, attributes: 2
+...
+│ │  InnerClasses:
+│ │ -  public static #17= #9 of #72;           // InvokeAdvice=class io/opentelemetry/javaagent/instrumentation/rmi/client/UnicastRefInstrumentation$InvokeAdvice of class io/opentelemetry/javaagent/instrumentation/rmi/client/UnicastRefInstrumentation
+│ │ -  public static #33= #32 of #76;          // OnMethodEnter=class net/bytebuddy/asm/Advice$OnMethodEnter of class net/bytebuddy/asm/Advice
+│ │ -  public static #39= #38 of #76;          // Argument=class net/bytebuddy/asm/Advice$Argument of class net/bytebuddy/asm/Advice
+│ │ -  public static #44= #43 of #76;          // Local=class net/bytebuddy/asm/Advice$Local of class net/bytebuddy/asm/Advice
+│ │ -  public static #52= #51 of #76;          // OnMethodExit=class net/bytebuddy/asm/Advice$OnMethodExit of class net/bytebuddy/asm/Advice
+│ │ -  public static #56= #55 of #76;          // Thrown=class net/bytebuddy/asm/Advice$Thrown of class net/bytebuddy/asm/Advice
+│ │ +  public static #83= #44 of #81;          // InvokeAdvice=class io/opentelemetry/javaagent/instrumentation/rmi/client/UnicastRefInstrumentation$InvokeAdvice of class io/opentelemetry/javaagent/instrumentation/rmi/client/UnicastRefInstrumentation
+│ │ +  public static #88= #84 of #86;          // OnMethodEnter=class net/bytebuddy/asm/Advice$OnMethodEnter of class net/bytebuddy/asm/Advice
+│ │ +  public static #91= #89 of #86;          // Argument=class net/bytebuddy/asm/Advice$Argument of class net/bytebuddy/asm/Advice
+│ │ +  public static #94= #92 of #86;          // Local=class net/bytebuddy/asm/Advice$Local of class net/bytebuddy/asm/Advice
+│ │ +  public static #97= #95 of #86;          // OnMethodExit=class net/bytebuddy/asm/Advice$OnMethodExit of class net/bytebuddy/asm/Advice
+│ │ +  public static #100= #98 of #86;         // Thrown=class net/bytebuddy/asm/Advice$Thrown of class net/bytebuddy/asm/Advice
+├── io/opentelemetry/javaagent/instrumentation/rmi/client/UnicastRefInstrumentation.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,107 +1,107 @@
+│ │    Compiled from "UnicastRefInstrumentation.java"
+│ │  public class io.opentelemetry.javaagent.instrumentation.rmi.client.UnicastRefInstrumentation implements io.opentelemetry.javaagent.extension.instrumentation.TypeInstrumentation
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+│ │ -  this_class: #19                         // io/opentelemetry/javaagent/instrumentation/rmi/client/UnicastRefInstrumentation
+│ │ -  super_class: #20                        // java/lang/Object
+│ │ +  this_class: #66                         // io/opentelemetry/javaagent/instrumentation/rmi/client/UnicastRefInstrumentation
+│ │ +  super_class: #2                         // java/lang/Object
+│ │    interfaces: 1, fields: 0, methods: 3, attributes: 2
+...
+│ │  SourceFile: "UnicastRefInstrumentation.java"
+│ │  InnerClasses:
+│ │ -  public static #23= #22 of #19;          // InvokeAdvice=class io/opentelemetry/javaagent/instrumentation/rmi/client/UnicastRefInstrumentation$InvokeAdvice of class io/opentelemetry/javaagent/instrumentation/rmi/client/UnicastRefInstrumentation
+│ │ -  public static #69= #48 of #73;          // Junction=class net/bytebuddy/matcher/ElementMatcher$Junction of class net/bytebuddy/matcher/ElementMatcher
+│ │ +  public static #88= #22 of #86;          // Junction=class net/bytebuddy/matcher/ElementMatcher$Junction of class net/bytebuddy/matcher/ElementMatcher
+│ │ +  public static #91= #89 of #66;          // InvokeAdvice=class io/opentelemetry/javaagent/instrumentation/rmi/client/UnicastRefInstrumentation$InvokeAdvice of class io/opentelemetry/javaagent/instrumentation/rmi/client/UnicastRefInstrumentation
+├── io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPayload$ContextPayloadGetter.class
+│ ├── procyon -ec {}
+│ │ @@ -17,10 +17,10 @@
+│ │      
+│ │      public String get(final ContextPayload carrier, final String key) {
+│ │          return ContextPayload.access$000(carrier).get(key);
+│ │      }
+│ │      
+│ │      static {
+│ │          ContextPayloadGetter.INSTANCE = new ContextPayloadGetter("INSTANCE", 0);
+│ │ -        ContextPayloadGetter.$VALUES = new ContextPayloadGetter[] { ContextPayloadGetter.INSTANCE };
+│ │ +        ContextPayloadGetter.$VALUES = $values();
+│ │      }
+│ │  }
+├── io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPayload$ContextPayloadSetter.class
+│ ├── procyon -ec {}
+│ │ @@ -13,10 +13,10 @@
+│ │      
+│ │      public void set(final ContextPayload carrier, final String key, final String value) {
+│ │          ContextPayload.access$000(carrier).put(key, value);
+│ │      }
+│ │      
+│ │      static {
+│ │          ContextPayloadSetter.INSTANCE = new ContextPayloadSetter("INSTANCE", 0);
+│ │ -        ContextPayloadSetter.$VALUES = new ContextPayloadSetter[] { ContextPayloadSetter.INSTANCE };
+│ │ +        ContextPayloadSetter.$VALUES = $values();
+│ │      }
+│ │  }
+├── io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPayload.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,196 +1,196 @@
+│ │    Compiled from "ContextPayload.java"
+│ │  public class io.opentelemetry.javaagent.instrumentation.rmi.context.ContextPayload
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+│ │ -  this_class: #6                          // io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPayload
+│ │ -  super_class: #26                        // java/lang/Object
+│ │ +  this_class: #2                          // io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPayload
+│ │ +  super_class: #17                        // java/lang/Object
+│ │    interfaces: 0, fields: 2, methods: 8, attributes: 2
+...
+│ │  SourceFile: "ContextPayload.java"
+│ │  InnerClasses:
+│ │ -  private static final #28= #27 of #6;    // ContextPayloadSetter=class io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPayload$ContextPayloadSetter of class io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPayload
+│ │ -  private static final #31= #30 of #6;    // ContextPayloadGetter=class io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPayload$ContextPayloadGetter of class io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPayload
+│ │ +  private static final #144= #33 of #2;   // ContextPayloadSetter=class io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPayload$ContextPayloadSetter of class io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPayload
+│ │ +  private static final #145= #87 of #2;   // ContextPayloadGetter=class io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPayload$ContextPayloadGetter of class io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPayload
+├── io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPropagator.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,230 +1,230 @@
+│ │    Compiled from "ContextPropagator.java"
+│ │  public class io.opentelemetry.javaagent.instrumentation.rmi.context.ContextPropagator
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+│ │ -  this_class: #6                          // io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPropagator
+│ │ -  super_class: #48                        // java/lang/Object
+│ │ +  this_class: #8                          // io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPropagator
+│ │ +  super_class: #2                         // java/lang/Object
+│ │    interfaces: 0, fields: 8, methods: 7, attributes: 1
+...
+├── io/opentelemetry/javaagent/instrumentation/rmi/context/RmiContextPropagationInstrumentationModule.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,71 +1,71 @@
+│ │    Compiled from "RmiContextPropagationInstrumentationModule.java"
+│ │  public class io.opentelemetry.javaagent.instrumentation.rmi.context.RmiContextPropagationInstrumentationModule extends io.opentelemetry.javaagent.extension.instrumentation.InstrumentationModule implements io.opentelemetry.javaagent.tooling.muzzle.InstrumentationModuleMuzzle
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+│ │ -  this_class: #11                         // io/opentelemetry/javaagent/instrumentation/rmi/context/RmiContextPropagationInstrumentationModule
+│ │ -  super_class: #12                        // io/opentelemetry/javaagent/extension/instrumentation/InstrumentationModule
+│ │ +  this_class: #29                         // io/opentelemetry/javaagent/instrumentation/rmi/context/RmiContextPropagationInstrumentationModule
+│ │ +  super_class: #8                         // io/opentelemetry/javaagent/extension/instrumentation/InstrumentationModule
+│ │    interfaces: 1, fields: 0, methods: 5, attributes: 2
+...
+│ │  SourceFile: "RmiContextPropagationInstrumentationModule.java"
+│ │  RuntimeInvisibleAnnotations:
+│ │ -  0: #27(#28=[c#29])
+│ │ +  0: #43(#44=[c#45])
+│ │      com.google.auto.service.AutoService(
+│ │        value=[class Lio/opentelemetry/javaagent/extension/instrumentation/InstrumentationModule;]
+│ │      )
+├── io/opentelemetry/javaagent/instrumentation/rmi/context/client/RmiClientContextInstrumentation$StreamRemoteCallConstructorAdvice.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,117 +1,117 @@
+│ │    Compiled from "RmiClientContextInstrumentation.java"
+│ │  public class io.opentelemetry.javaagent.instrumentation.rmi.context.client.RmiClientContextInstrumentation$StreamRemoteCallConstructorAdvice
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+│ │ -  this_class: #13                         // io/opentelemetry/javaagent/instrumentation/rmi/context/client/RmiClientContextInstrumentation$StreamRemoteCallConstructorAdvice
+│ │ -  super_class: #14                        // java/lang/Object
+│ │ +  this_class: #56                         // io/opentelemetry/javaagent/instrumentation/rmi/context/client/RmiClientContextInstrumentation$StreamRemoteCallConstructorAdvice
+│ │ +  super_class: #2                         // java/lang/Object
+│ │    interfaces: 0, fields: 0, methods: 2, attributes: 2
+...
+│ │  SourceFile: "RmiClientContextInstrumentation.java"
+│ │  InnerClasses:
+│ │ -  public static #21= #13 of #72;          // StreamRemoteCallConstructorAdvice=class io/opentelemetry/javaagent/instrumentation/rmi/context/client/RmiClientContextInstrumentation$StreamRemoteCallConstructorAdvice of class io/opentelemetry/javaagent/instrumentation/rmi/context/client/RmiClientContextInstrumentation
+│ │ -  public static #43= #42 of #77;          // OnMethodEnter=class net/bytebuddy/asm/Advice$OnMethodEnter of class net/bytebuddy/asm/Advice
+│ │ -  public static #49= #48 of #77;          // Argument=class net/bytebuddy/asm/Advice$Argument of class net/bytebuddy/asm/Advice
+│ │ +  public static #93= #56 of #91;          // StreamRemoteCallConstructorAdvice=class io/opentelemetry/javaagent/instrumentation/rmi/context/client/RmiClientContextInstrumentation$StreamRemoteCallConstructorAdvice of class io/opentelemetry/javaagent/instrumentation/rmi/context/client/RmiClientContextInstrumentation
+│ │ +  public static #98= #94 of #96;          // OnMethodEnter=class net/bytebuddy/asm/Advice$OnMethodEnter of class net/bytebuddy/asm/Advice
+│ │ +  public static #101= #99 of #96;         // Argument=class net/bytebuddy/asm/Advice$Argument of class net/bytebuddy/asm/Advice
+├── io/opentelemetry/javaagent/instrumentation/rmi/context/client/RmiClientContextInstrumentation.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,205 +1,205 @@
+│ │    Compiled from "RmiClientContextInstrumentation.java"
+│ │  public class io.opentelemetry.javaagent.instrumentation.rmi.context.client.RmiClientContextInstrumentation implements io.opentelemetry.javaagent.extension.instrumentation.TypeInstrumentation
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+│ │ -  this_class: #31                         // io/opentelemetry/javaagent/instrumentation/rmi/context/client/RmiClientContextInstrumentation
+│ │ -  super_class: #32                        // java/lang/Object
+│ │ +  this_class: #122                        // io/opentelemetry/javaagent/instrumentation/rmi/context/client/RmiClientContextInstrumentation
+│ │ +  super_class: #2                         // java/lang/Object
+│ │    interfaces: 1, fields: 0, methods: 4, attributes: 3
+...
+│ │  SourceFile: "RmiClientContextInstrumentation.java"
+│ │ -InnerClasses:
+│ │ -  public static #35= #34 of #31;          // StreamRemoteCallConstructorAdvice=class io/opentelemetry/javaagent/instrumentation/rmi/context/client/RmiClientContextInstrumentation$StreamRemoteCallConstructorAdvice of class io/opentelemetry/javaagent/instrumentation/rmi/context/client/RmiClientContextInstrumentation
+│ │ -  public static #54= #53 of #115;         // Builder=class net/bytebuddy/dynamic/DynamicType$Builder of class net/bytebuddy/dynamic/DynamicType
+│ │ -  public static #119= #76 of #125;        // Junction=class net/bytebuddy/matcher/ElementMatcher$Junction of class net/bytebuddy/matcher/ElementMatcher
+│ │ -  public static #143= #142 of #178;       // Transformer=class net/bytebuddy/agent/builder/AgentBuilder$Transformer of class net/bytebuddy/agent/builder/AgentBuilder
+│ │ -  public static #170= #109 of #168;       // UsingInstrumentation=class net/bytebuddy/dynamic/loading/ClassInjector$UsingInstrumentation of class net/bytebuddy/dynamic/loading/ClassInjector
+│ │ -  public static final #184= #183 of #187; // Lookup=class java/lang/invoke/MethodHandles$Lookup of class java/lang/invoke/MethodHandles
+│ │  BootstrapMethods:
+│ │ -  0: #89 REF_invokeStatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+│ │ +  0: #154 REF_invokeStatic java/lang/invoke/LambdaMetafactory.metafactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+│ │      Method arguments:
+│ │ -      #90 (Lnet/bytebuddy/dynamic/DynamicType$Builder;Lnet/bytebuddy/description/type/TypeDescription;Ljava/lang/ClassLoader;Lnet/bytebuddy/utility/JavaModule;)Lnet/bytebuddy/dynamic/DynamicType$Builder;
+│ │ -      #91 REF_invokeStatic io/opentelemetry/javaagent/instrumentation/rmi/context/client/RmiClientContextInstrumentation.lambda$transform$0:(Lnet/bytebuddy/dynamic/DynamicType$Builder;Lnet/bytebuddy/description/type/TypeDescription;Ljava/lang/ClassLoader;Lnet/bytebuddy/utility/JavaModule;)Lnet/bytebuddy/dynamic/DynamicType$Builder;
+│ │ -      #90 (Lnet/bytebuddy/dynamic/DynamicType$Builder;Lnet/bytebuddy/description/type/TypeDescription;Ljava/lang/ClassLoader;Lnet/bytebuddy/utility/JavaModule;)Lnet/bytebuddy/dynamic/DynamicType$Builder;
+│ │ +      #161 (Lnet/bytebuddy/dynamic/DynamicType$Builder;Lnet/bytebuddy/description/type/TypeDescription;Ljava/lang/ClassLoader;Lnet/bytebuddy/utility/JavaModule;)Lnet/bytebuddy/dynamic/DynamicType$Builder;
+│ │ +      #162 REF_invokeStatic io/opentelemetry/javaagent/instrumentation/rmi/context/client/RmiClientContextInstrumentation.lambda$transform$0:(Lnet/bytebuddy/dynamic/DynamicType$Builder;Lnet/bytebuddy/description/type/TypeDescription;Ljava/lang/ClassLoader;Lnet/bytebuddy/utility/JavaModule;)Lnet/bytebuddy/dynamic/DynamicType$Builder;
+│ │ +      #161 (Lnet/bytebuddy/dynamic/DynamicType$Builder;Lnet/bytebuddy/description/type/TypeDescription;Ljava/lang/ClassLoader;Lnet/bytebuddy/utility/JavaModule;)Lnet/bytebuddy/dynamic/DynamicType$Builder;
+│ │ +InnerClasses:
+│ │ +  public static #168= #26 of #166;        // Junction=class net/bytebuddy/matcher/ElementMatcher$Junction of class net/bytebuddy/matcher/ElementMatcher
+│ │ +  public static #173= #169 of #171;       // Transformer=class net/bytebuddy/agent/builder/AgentBuilder$Transformer of class net/bytebuddy/agent/builder/AgentBuilder
+│ │ +  public static #176= #117 of #174;       // UsingInstrumentation=class net/bytebuddy/dynamic/loading/ClassInjector$UsingInstrumentation of class net/bytebuddy/dynamic/loading/ClassInjector
+│ │ +  public static #179= #177 of #122;       // StreamRemoteCallConstructorAdvice=class io/opentelemetry/javaagent/instrumentation/rmi/context/client/RmiClientContextInstrumentation$StreamRemoteCallConstructorAdvice of class io/opentelemetry/javaagent/instrumentation/rmi/context/client/RmiClientContextInstrumentation
+│ │ +  public static #184= #180 of #182;       // Builder=class net/bytebuddy/dynamic/DynamicType$Builder of class net/bytebuddy/dynamic/DynamicType
+│ │ +  public static final #189= #185 of #187; // Lookup=class java/lang/invoke/MethodHandles$Lookup of class java/lang/invoke/MethodHandles
+├── io/opentelemetry/javaagent/instrumentation/rmi/context/jpms/ExposeRmiModuleInstrumentation$1.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,86 +1,86 @@
+│ │    Compiled from "ExposeRmiModuleInstrumentation.java"
+│ │  class io.opentelemetry.javaagent.instrumentation.rmi.context.jpms.ExposeRmiModuleInstrumentation$1 extends net.bytebuddy.matcher.ElementMatcher$Junction$AbstractBase<net.bytebuddy.description.type.TypeDescription>
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x0020) ACC_SUPER
+│ │ -  this_class: #7                          // io/opentelemetry/javaagent/instrumentation/rmi/context/jpms/ExposeRmiModuleInstrumentation$1
+│ │ +  this_class: #2                          // io/opentelemetry/javaagent/instrumentation/rmi/context/jpms/ExposeRmiModuleInstrumentation$1
+│ │    super_class: #8                         // net/bytebuddy/matcher/ElementMatcher$Junction$AbstractBase
+│ │    interfaces: 0, fields: 1, methods: 3, attributes: 4
+...
+│ │ -Signature: #29                          // Lnet/bytebuddy/matcher/ElementMatcher$Junction$AbstractBase<Lnet/bytebuddy/description/type/TypeDescription;>;
+│ │ +Signature: #42                          // Lnet/bytebuddy/matcher/ElementMatcher$Junction$AbstractBase<Lnet/bytebuddy/description/type/TypeDescription;>;
+│ │  SourceFile: "ExposeRmiModuleInstrumentation.java"
+│ │ -EnclosingMethod: #33.#34                // io.opentelemetry.javaagent.instrumentation.rmi.context.jpms.ExposeRmiModuleInstrumentation.typeMatcher
+│ │ +EnclosingMethod: #14.#46                // io.opentelemetry.javaagent.instrumentation.rmi.context.jpms.ExposeRmiModuleInstrumentation.typeMatcher
+│ │  InnerClasses:
+│ │ -  #7;                                     // class io/opentelemetry/javaagent/instrumentation/rmi/context/jpms/ExposeRmiModuleInstrumentation$1
+│ │ -  public static #27= #26 of #44;          // Junction=class net/bytebuddy/matcher/ElementMatcher$Junction of class net/bytebuddy/matcher/ElementMatcher
+│ │ -  public static abstract #28= #8 of #26;  // AbstractBase=class net/bytebuddy/matcher/ElementMatcher$Junction$AbstractBase of class net/bytebuddy/matcher/ElementMatcher$Junction
+│ │ +  #2;                                     // class io/opentelemetry/javaagent/instrumentation/rmi/context/jpms/ExposeRmiModuleInstrumentation$1
+│ │ +  public static #54= #50 of #52;          // Junction=class net/bytebuddy/matcher/ElementMatcher$Junction of class net/bytebuddy/matcher/ElementMatcher
+│ │ +  public static abstract #55= #8 of #50;  // AbstractBase=class net/bytebuddy/matcher/ElementMatcher$Junction$AbstractBase of class net/bytebuddy/matcher/ElementMatcher$Junction
+├── io/opentelemetry/javaagent/instrumentation/rmi/context/jpms/ExposeRmiModuleInstrumentation$2.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,96 +1,96 @@
+│ │    Compiled from "ExposeRmiModuleInstrumentation.java"
+│ │  class io.opentelemetry.javaagent.instrumentation.rmi.context.jpms.ExposeRmiModuleInstrumentation$2 extends net.bytebuddy.matcher.ElementMatcher$Junction$AbstractBase<java.lang.ClassLoader>
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x0020) ACC_SUPER
+│ │ -  this_class: #6                          // io/opentelemetry/javaagent/instrumentation/rmi/context/jpms/ExposeRmiModuleInstrumentation$2
+│ │ -  super_class: #7                         // net/bytebuddy/matcher/ElementMatcher$Junction$AbstractBase
+│ │ +  this_class: #2                          // io/opentelemetry/javaagent/instrumentation/rmi/context/jpms/ExposeRmiModuleInstrumentation$2
+│ │ +  super_class: #8                         // net/bytebuddy/matcher/ElementMatcher$Junction$AbstractBase
+│ │    interfaces: 0, fields: 1, methods: 3, attributes: 4
+...
+│ │ -Signature: #28                          // Lnet/bytebuddy/matcher/ElementMatcher$Junction$AbstractBase<Ljava/lang/ClassLoader;>;
+│ │ +Signature: #36                          // Lnet/bytebuddy/matcher/ElementMatcher$Junction$AbstractBase<Ljava/lang/ClassLoader;>;
+│ │  SourceFile: "ExposeRmiModuleInstrumentation.java"
+│ │ -EnclosingMethod: #32.#33                // io.opentelemetry.javaagent.instrumentation.rmi.context.jpms.ExposeRmiModuleInstrumentation.classLoaderOptimization
+│ │ +EnclosingMethod: #40.#42                // io.opentelemetry.javaagent.instrumentation.rmi.context.jpms.ExposeRmiModuleInstrumentation.classLoaderOptimization
+│ │  InnerClasses:
+│ │ -  #6;                                     // class io/opentelemetry/javaagent/instrumentation/rmi/context/jpms/ExposeRmiModuleInstrumentation$2
+│ │ -  public static #26= #25 of #42;          // Junction=class net/bytebuddy/matcher/ElementMatcher$Junction of class net/bytebuddy/matcher/ElementMatcher
+│ │ -  public static abstract #27= #7 of #25;  // AbstractBase=class net/bytebuddy/matcher/ElementMatcher$Junction$AbstractBase of class net/bytebuddy/matcher/ElementMatcher$Junction
+│ │ +  #2;                                     // class io/opentelemetry/javaagent/instrumentation/rmi/context/jpms/ExposeRmiModuleInstrumentation$2
+│ │ +  public static #50= #46 of #48;          // Junction=class net/bytebuddy/matcher/ElementMatcher$Junction of class net/bytebuddy/matcher/ElementMatcher
+│ │ +  public static abstract #51= #8 of #46;  // AbstractBase=class net/bytebuddy/matcher/ElementMatcher$Junction$AbstractBase of class net/bytebuddy/matcher/ElementMatcher$Junction
+├── io/opentelemetry/javaagent/instrumentation/rmi/context/jpms/ExposeRmiModuleInstrumentation.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,211 +1,211 @@
+│ │    Compiled from "ExposeRmiModuleInstrumentation.java"
+│ │  public class io.opentelemetry.javaagent.instrumentation.rmi.context.jpms.ExposeRmiModuleInstrumentation implements io.opentelemetry.javaagent.extension.instrumentation.TypeInstrumentation
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+│ │ -  this_class: #29                         // io/opentelemetry/javaagent/instrumentation/rmi/context/jpms/ExposeRmiModuleInstrumentation
+│ │ -  super_class: #32                        // java/lang/Object
+│ │ +  this_class: #2                          // io/opentelemetry/javaagent/instrumentation/rmi/context/jpms/ExposeRmiModuleInstrumentation
+│ │ +  super_class: #8                         // java/lang/Object
+│ │    interfaces: 1, fields: 2, methods: 7, attributes: 3
+...
+│ │ +InnerClasses:
+│ │ +  #16;                                    // class io/opentelemetry/javaagent/instrumentation/rmi/context/jpms/ExposeRmiModuleInstrumentation$1
+│ │ +  public static #177= #30 of #175;        // Junction=class net/bytebuddy/matcher/ElementMatcher$Junction of class net/bytebuddy/matcher/ElementMatcher
+│ │ +  #35;                                    // class io/opentelemetry/javaagent/instrumentation/rmi/context/jpms/ExposeRmiModuleInstrumentation$2
+│ │ +  public static #182= #178 of #180;       // Transformer=class net/bytebuddy/agent/builder/AgentBuilder$Transformer of class net/bytebuddy/agent/builder/AgentBuilder
+│ │ +  public static #185= #87 of #183;        // UsingInstrumentation=class net/bytebuddy/dynamic/loading/ClassInjector$UsingInstrumentation of class net/bytebuddy/dynamic/loading/ClassInjector
+│ │ +  public static #190= #186 of #188;       // Builder=class net/bytebuddy/dynamic/DynamicType$Builder of class net/bytebuddy/dynamic/DynamicType
+│ │ +  public static final #195= #191 of #193; // Lookup=class java/lang/invoke/MethodHandles$Lookup of class java/lang/invoke/MethodHandles
+├── io/opentelemetry/javaagent/instrumentation/rmi/context/jpms/RmiJpmsInstrumentationModule.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,115 +1,115 @@
+│ │    Compiled from "RmiJpmsInstrumentationModule.java"
+│ │  public class io.opentelemetry.javaagent.instrumentation.rmi.context.jpms.RmiJpmsInstrumentationModule extends io.opentelemetry.javaagent.extension.instrumentation.InstrumentationModule implements io.opentelemetry.javaagent.tooling.muzzle.InstrumentationModuleMuzzle
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+│ │ -  this_class: #8                          // io/opentelemetry/javaagent/instrumentation/rmi/context/jpms/RmiJpmsInstrumentationModule
+│ │ -  super_class: #9                         // io/opentelemetry/javaagent/extension/instrumentation/InstrumentationModule
+│ │ +  this_class: #24                         // io/opentelemetry/javaagent/instrumentation/rmi/context/jpms/RmiJpmsInstrumentationModule
+│ │ +  super_class: #8                         // io/opentelemetry/javaagent/extension/instrumentation/InstrumentationModule
+│ │    interfaces: 1, fields: 0, methods: 5, attributes: 2
+...
+
+
+263 / 268 repository/io/opentelemetry/javaagent/opentelemetry-javaagent/1.17.0/opentelemetry-javaagent-1.17.0.jar central/io/opentelemetry/javaagent/opentelemetry-javaagent/1.17.0/opentelemetry-javaagent-1.17.0.jar
+--- repository/io/opentelemetry/javaagent/opentelemetry-javaagent/1.17.0/opentelemetry-javaagent-1.17.0.jar
++++ central/io/opentelemetry/javaagent/opentelemetry-javaagent/1.17.0/opentelemetry-javaagent-1.17.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 13571381 bytes, number of entries: 9933
+│ +Zip file size: 13571478 bytes, number of entries: 9933
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 META-INF/
+│  -rw-r--r--  2.0 unx      461 b- defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 META-INF/licenses/
+│  -rw-r--r--  2.0 unx    19239 b- defN 80-Feb-01 00:00 META-INF/licenses/licenses.md
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 META-INF/licenses/byte-buddy-dep-1.12.10.jar/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 META-INF/licenses/byte-buddy-dep-1.12.10.jar/META-INF/
+│  -rw-r--r--  2.0 unx    10140 b- defN 80-Feb-01 00:00 META-INF/licenses/byte-buddy-dep-1.12.10.jar/META-INF/LICENSE
+│ @@ -3144,22 +3144,22 @@
+│  -rw-r--r--  2.0 unx     3974 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/restlet/v2_0/RestletSingletons.classdata
+│  -rw-r--r--  2.0 unx     2492 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/restlet/v2_0/RouteInstrumentation$RouteBeforeHandleAdvice.classdata
+│  -rw-r--r--  2.0 unx     2344 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/restlet/v2_0/RouteInstrumentation.classdata
+│  -rw-r--r--  2.0 unx     4629 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/restlet/v2_0/ServerInstrumentation$ServerHandleAdvice.classdata
+│  -rw-r--r--  2.0 unx     2256 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/restlet/v2_0/ServerInstrumentation.classdata
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/client/
+│ --rw-r--r--  2.0 unx     2224 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/client/RmiClientAttributesGetter.classdata
+│ +-rw-r--r--  2.0 unx     2286 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/client/RmiClientAttributesGetter.classdata
+│  -rw-r--r--  2.0 unx     1879 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/client/RmiClientInstrumentationModule.classdata
+│  -rw-r--r--  2.0 unx     3169 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/client/RmiClientSingletons.classdata
+│  -rw-r--r--  2.0 unx     3397 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/client/UnicastRefInstrumentation$InvokeAdvice.classdata
+│  -rw-r--r--  2.0 unx     2332 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/client/UnicastRefInstrumentation.classdata
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/context/
+│ --rw-r--r--  2.0 unx     2806 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPayload$ContextPayloadGetter.classdata
+│ --rw-r--r--  2.0 unx     2355 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPayload$ContextPayloadSetter.classdata
+│ +-rw-r--r--  2.0 unx     2868 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPayload$ContextPayloadGetter.classdata
+│ +-rw-r--r--  2.0 unx     2417 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPayload$ContextPayloadSetter.classdata
+│  -rw-r--r--  2.0 unx     4440 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPayload.classdata
+│  -rw-r--r--  2.0 unx     5540 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPropagator.classdata
+│  -rw-r--r--  2.0 unx     7301 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/context/RmiContextPropagationInstrumentationModule.classdata
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/context/client/
+│  -rw-r--r--  2.0 unx     3296 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/context/client/RmiClientContextInstrumentation$StreamRemoteCallConstructorAdvice.classdata
+│  -rw-r--r--  2.0 unx     4977 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/context/client/RmiClientContextInstrumentation.classdata
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/context/jpms/
+│ @@ -3171,15 +3171,15 @@
+│  -rw-r--r--  2.0 unx      574 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/context/server/ContextDispatcher$NoopRemote.classdata
+│  -rw-r--r--  2.0 unx     3548 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/context/server/ContextDispatcher.classdata
+│  -rw-r--r--  2.0 unx     1795 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/context/server/RmiServerContextInstrumentation$ObjectTableAdvice.classdata
+│  -rw-r--r--  2.0 unx     2327 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/context/server/RmiServerContextInstrumentation.classdata
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/server/
+│  -rw-r--r--  2.0 unx     4959 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/server/RemoteServerInstrumentation$PublicMethodAdvice.classdata
+│  -rw-r--r--  2.0 unx     2306 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/server/RemoteServerInstrumentation.classdata
+│ --rw-r--r--  2.0 unx     2452 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/server/RmiServerAttributesGetter.classdata
+│ +-rw-r--r--  2.0 unx     2514 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/server/RmiServerAttributesGetter.classdata
+│  -rw-r--r--  2.0 unx     1881 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/server/RmiServerInstrumentationModule.classdata
+│  -rw-r--r--  2.0 unx     3267 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rmi/server/RmiServerSingletons.classdata
+│  drwxr-xr-x  2.0 unx        0 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rocketmq/
+│  -rw-r--r--  2.0 unx     2498 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rocketmq/RocketMqClientHooks.classdata
+│  -rw-r--r--  2.0 unx     1662 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rocketmq/RocketMqConsumerInstrumentation$StartAdvice.classdata
+│  -rw-r--r--  2.0 unx     2137 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rocketmq/RocketMqConsumerInstrumentation.classdata
+│  -rw-r--r--  2.0 unx    11140 b- defN 80-Feb-01 00:00 inst/io/opentelemetry/javaagent/instrumentation/rocketmq/RocketMqInstrumentationModule.classdata
+│ @@ -9928,8 +9928,8 @@
+│  -rw-r--r--  2.0 unx     2761 b- defN 80-Feb-01 00:00 inst/zipkin2/v1/V1BinaryAnnotation.classdata
+│  -rw-r--r--  2.0 unx     4261 b- defN 80-Feb-01 00:00 inst/zipkin2/v1/V1Span$Builder.classdata
+│  -rw-r--r--  2.0 unx     4876 b- defN 80-Feb-01 00:00 inst/zipkin2/v1/V1Span.classdata
+│  -rw-r--r--  2.0 unx     9226 b- defN 80-Feb-01 00:00 inst/zipkin2/v1/V1SpanConverter.classdata
+│  -rw-r--r--  2.0 unx      755 b- defN 80-Feb-01 00:00 inst/zipkin2/v1/V2SpanConverter$1.classdata
+│  -rw-r--r--  2.0 unx     2836 b- defN 80-Feb-01 00:00 inst/zipkin2/v1/V2SpanConverter$V1SpanMetadata.classdata
+│  -rw-r--r--  2.0 unx     3818 b- defN 80-Feb-01 00:00 inst/zipkin2/v1/V2SpanConverter.classdata
+│ -9933 files, 30965346 bytes uncompressed, 11246865 bytes compressed:  63.7%
+│ +9933 files, 30965594 bytes uncompressed, 11246962 bytes compressed:  63.7%
+├── inst/io/opentelemetry/javaagent/instrumentation/rmi/client/RmiClientAttributesGetter.classdata
+│┄ Command `'javap -verbose -constants -s -l -private {}'` failed with exit code 1. Standard output:
+│┄     Error: class not found: /tmp/diffoscope_u1s_5rmy_1170/tmphosoa038_ZipContainer/RmiClientAttributesGetter.classdata
+│ @@ -1,8 +1,8 @@
+│ -00000000: cafe babe 0000 0034 0048 0100 4f69 6f2f  .......4.H..Oio/
+│ +00000000: cafe babe 0000 0034 004b 0100 4f69 6f2f  .......4.K..Oio/
+│  00000010: 6f70 656e 7465 6c65 6d65 7472 792f 6a61  opentelemetry/ja
+│  00000020: 7661 6167 656e 742f 696e 7374 7275 6d65  vaagent/instrume
+│  00000030: 6e74 6174 696f 6e2f 726d 692f 636c 6965  ntation/rmi/clie
+│  00000040: 6e74 2f52 6d69 436c 6965 6e74 4174 7472  nt/RmiClientAttr
+│  00000050: 6962 7574 6573 4765 7474 6572 0700 0101  ibutesGetter....
+│  00000060: 00db 4c6a 6176 612f 6c61 6e67 2f45 6e75  ..Ljava/lang/Enu
+│  00000070: 6d3c 4c69 6f2f 6f70 656e 7465 6c65 6d65  m<Lio/openteleme
+│ @@ -82,58 +82,62 @@
+│  00000510: 0767 6574 4e61 6d65 0100 1428 294c 6a61  .getName...()Lja
+│  00000520: 7661 2f6c 616e 672f 5374 7269 6e67 3b0c  va/lang/String;.
+│  00000530: 0032 0033 0a00 3100 340a 002b 0034 0100  .2.3..1.4..+.4..
+│  00000540: 2628 4c6a 6176 612f 6c61 6e67 2f4f 626a  &(Ljava/lang/Obj
+│  00000550: 6563 743b 294c 6a61 7661 2f6c 616e 672f  ect;)Ljava/lang/
+│  00000560: 5374 7269 6e67 3b0c 0027 0024 0a00 0200  String;..'.$....
+│  00000570: 380c 0029 0024 0a00 0200 3a0c 0023 0024  8..).$....:..#.$
+│ -00000580: 0a00 0200 3c01 0008 3c63 6c69 6e69 743e  ....<...<clinit>
+│ -00000590: 0800 090a 0002 0020 0c00 0900 0a09 0002  ....... ........
+│ -000005a0: 0041 0100 0443 6f64 6501 000f 4c69 6e65  .A...Code...Line
+│ -000005b0: 4e75 6d62 6572 5461 626c 6501 0012 4c6f  NumberTable...Lo
+│ -000005c0: 6361 6c56 6172 6961 626c 6554 6162 6c65  calVariableTable
+│ -000005d0: 0100 0953 6967 6e61 7475 7265 0100 0a53  ...Signature...S
+│ -000005e0: 6f75 7263 6546 696c 6540 3000 0200 0500  ourceFile@0.....
+│ -000005f0: 0100 0700 0240 1900 0900 0a00 0010 1a00  .....@..........
+│ -00000600: 0b00 0c00 0000 0a00 0900 0d00 0e00 0100  ................
+│ -00000610: 4300 0000 2200 0100 0000 0000 0ab2 0010  C..."...........
+│ -00000620: b600 15c0 0011 b000 0000 0100 4400 0000  ............D...
+│ -00000630: 0600 0100 0000 0b00 0900 1600 1700 0100  ................
+│ -00000640: 4300 0000 3400 0200 0100 0000 0a12 022a  C...4..........*
+│ -00000650: b800 1ac0 0002 b000 0000 0200 4400 0000  ............D...
+│ -00000660: 0600 0100 0000 0b00 4500 0000 0c00 0100  ........E.......
+│ -00000670: 0000 0a00 1b00 1c00 0000 0200 1d00 1e00  ................
+│ -00000680: 0200 4300 0000 3100 0300 0300 0000 072a  ..C...1........*
+│ -00000690: 2b1c b700 21b1 0000 0002 0044 0000 0006  +...!......D....
+│ -000006a0: 0001 0000 000b 0045 0000 000c 0001 0000  .......E........
+│ -000006b0: 0007 0022 000a 0000 0046 0000 0002 001f  ...".....F......
+│ -000006c0: 0001 0023 0024 0001 0043 0000 0037 0001  ...#.$...C...7..
+│ -000006d0: 0002 0000 0003 1226 b000 0000 0200 4400  .......&......D.
+│ -000006e0: 0000 0600 0100 0000 1000 4500 0000 1600  ..........E.....
+│ -000006f0: 0200 0000 0300 2200 0a00 0000 0000 0300  ......".........
+│ -00000700: 2700 2800 0100 0100 2900 2400 0100 4300  '.(.....).$...C.
+│ -00000710: 0000 3c00 0100 0200 0000 082b b600 2fb6  ..<........+../.
+│ -00000720: 0035 b000 0000 0200 4400 0000 0600 0100  .5......D.......
+│ -00000730: 0000 1500 4500 0000 1600 0200 0000 0800  ....E...........
+│ -00000740: 2200 0a00 0000 0000 0800 2700 2800 0100  ".........'.(...
+│ -00000750: 0100 2700 2400 0100 4300 0000 3900 0100  ..'.$...C...9...
+│ -00000760: 0200 0000 052b b600 36b0 0000 0002 0044  .....+..6......D
+│ -00000770: 0000 0006 0001 0000 001a 0045 0000 0016  ...........E....
+│ -00000780: 0002 0000 0005 0022 000a 0000 0000 0005  ......."........
+│ -00000790: 0027 0028 0001 1041 0027 0037 0001 0043  .'.(...A.'.7...C
+│ -000007a0: 0000 0033 0002 0002 0000 0009 2a2b c000  ...3........*+..
+│ -000007b0: 2bb6 0039 b000 0000 0200 4400 0000 0600  +..9......D.....
+│ -000007c0: 0100 0000 0b00 4500 0000 0c00 0100 0000  ......E.........
+│ -000007d0: 0900 2200 0a00 0010 4100 2900 3700 0100  ..".....A.).7...
+│ -000007e0: 4300 0000 3300 0200 0200 0000 092a 2bc0  C...3........*+.
+│ -000007f0: 002b b600 3bb0 0000 0002 0044 0000 0006  .+..;......D....
+│ -00000800: 0001 0000 000b 0045 0000 000c 0001 0000  .......E........
+│ -00000810: 0009 0022 000a 0000 1041 0023 0037 0001  ...".....A.#.7..
+│ -00000820: 0043 0000 0033 0002 0002 0000 0009 2a2b  .C...3........*+
+│ -00000830: c000 2bb6 003d b000 0000 0200 4400 0000  ..+..=......D...
+│ -00000840: 0600 0100 0000 0b00 4500 0000 0c00 0100  ........E.......
+│ -00000850: 0000 0900 2200 0a00 0000 0800 3e00 1f00  ....".......>...
+│ -00000860: 0100 4300 0000 3700 0400 0000 0000 1bbb  ..C...7.........
+│ -00000870: 0002 5912 3f03 b700 40b3 0042 04bd 0002  ..Y.?...@..B....
+│ -00000880: 5903 b200 4253 b300 10b1 0000 0001 0044  Y...BS.........D
+│ -00000890: 0000 000a 0002 0000 000c 000d 000b 0002  ................
+│ -000008a0: 0046 0000 0002 0003 0047 0000 0002 0008  .F.......G......
+│ +00000580: 0a00 0200 3c01 0007 2476 616c 7565 730c  ....<...$values.
+│ +00000590: 0009 000a 0900 0200 3f01 0008 3c63 6c69  ........?...<cli
+│ +000005a0: 6e69 743e 0800 090a 0002 0020 0c00 3e00  nit>....... ..>.
+│ +000005b0: 0e0a 0002 0044 0100 0443 6f64 6501 000f  .....D...Code...
+│ +000005c0: 4c69 6e65 4e75 6d62 6572 5461 626c 6501  LineNumberTable.
+│ +000005d0: 0012 4c6f 6361 6c56 6172 6961 626c 6554  ..LocalVariableT
+│ +000005e0: 6162 6c65 0100 0953 6967 6e61 7475 7265  able...Signature
+│ +000005f0: 0100 0a53 6f75 7263 6546 696c 6540 3000  ...SourceFile@0.
+│ +00000600: 0200 0500 0100 0700 0240 1900 0900 0a00  .........@......
+│ +00000610: 0010 1a00 0b00 0c00 0000 0b00 0900 0d00  ................
+│ +00000620: 0e00 0100 4600 0000 2200 0100 0000 0000  ....F...".......
+│ +00000630: 0ab2 0010 b600 15c0 0011 b000 0000 0100  ................
+│ +00000640: 4700 0000 0600 0100 0000 0b00 0900 1600  G...............
+│ +00000650: 1700 0100 4600 0000 3400 0200 0100 0000  ....F...4.......
+│ +00000660: 0a12 022a b800 1ac0 0002 b000 0000 0200  ...*............
+│ +00000670: 4700 0000 0600 0100 0000 0b00 4800 0000  G...........H...
+│ +00000680: 0c00 0100 0000 0a00 1b00 1c00 0000 0200  ................
+│ +00000690: 1d00 1e00 0200 4600 0000 3100 0300 0300  ......F...1.....
+│ +000006a0: 0000 072a 2b1c b700 21b1 0000 0002 0047  ...*+...!......G
+│ +000006b0: 0000 0006 0001 0000 000b 0048 0000 000c  ...........H....
+│ +000006c0: 0001 0000 0007 0022 000a 0000 0049 0000  .......".....I..
+│ +000006d0: 0002 001f 0001 0023 0024 0001 0046 0000  .......#.$...F..
+│ +000006e0: 0037 0001 0002 0000 0003 1226 b000 0000  .7.........&....
+│ +000006f0: 0200 4700 0000 0600 0100 0000 1000 4800  ..G...........H.
+│ +00000700: 0000 1600 0200 0000 0300 2200 0a00 0000  ..........".....
+│ +00000710: 0000 0300 2700 2800 0100 0100 2900 2400  ....'.(.....).$.
+│ +00000720: 0100 4600 0000 3c00 0100 0200 0000 082b  ..F...<........+
+│ +00000730: b600 2fb6 0035 b000 0000 0200 4700 0000  ../..5......G...
+│ +00000740: 0600 0100 0000 1500 4800 0000 1600 0200  ........H.......
+│ +00000750: 0000 0800 2200 0a00 0000 0000 0800 2700  ....".........'.
+│ +00000760: 2800 0100 0100 2700 2400 0100 4600 0000  (.....'.$...F...
+│ +00000770: 3900 0100 0200 0000 052b b600 36b0 0000  9........+..6...
+│ +00000780: 0002 0047 0000 0006 0001 0000 001a 0048  ...G...........H
+│ +00000790: 0000 0016 0002 0000 0005 0022 000a 0000  ..........."....
+│ +000007a0: 0000 0005 0027 0028 0001 1041 0027 0037  .....'.(...A.'.7
+│ +000007b0: 0001 0046 0000 0033 0002 0002 0000 0009  ...F...3........
+│ +000007c0: 2a2b c000 2bb6 0039 b000 0000 0200 4700  *+..+..9......G.
+│ +000007d0: 0000 0600 0100 0000 0b00 4800 0000 0c00  ..........H.....
+│ +000007e0: 0100 0000 0900 2200 0a00 0010 4100 2900  ......".....A.).
+│ +000007f0: 3700 0100 4600 0000 3300 0200 0200 0000  7...F...3.......
+│ +00000800: 092a 2bc0 002b b600 3bb0 0000 0002 0047  .*+..+..;......G
+│ +00000810: 0000 0006 0001 0000 000b 0048 0000 000c  ...........H....
+│ +00000820: 0001 0000 0009 0022 000a 0000 1041 0023  .......".....A.#
+│ +00000830: 0037 0001 0046 0000 0033 0002 0002 0000  .7...F...3......
+│ +00000840: 0009 2a2b c000 2bb6 003d b000 0000 0200  ..*+..+..=......
+│ +00000850: 4700 0000 0600 0100 0000 0b00 4800 0000  G...........H...
+│ +00000860: 0c00 0100 0000 0900 2200 0a00 0010 0a00  ........".......
+│ +00000870: 3e00 0e00 0100 4600 0000 2300 0400 0000  >.....F...#.....
+│ +00000880: 0000 0b04 bd00 0259 03b2 0040 53b0 0000  .......Y...@S...
+│ +00000890: 0001 0047 0000 0006 0001 0000 000b 0008  ...G............
+│ +000008a0: 0041 001f 0001 0046 0000 0030 0004 0000  .A.....F...0....
+│ +000008b0: 0000 0014 bb00 0259 1242 03b7 0043 b300  .......Y.B...C..
+│ +000008c0: 40b8 0045 b300 10b1 0000 0001 0047 0000  @..E.........G..
+│ +000008d0: 000a 0002 0000 000c 000d 000b 0002 0049  ...............I
+│ +000008e0: 0000 0002 0003 004a 0000 0002 0008       .......J......
+├── inst/io/opentelemetry/javaagent/instrumentation/rmi/client/UnicastRefInstrumentation.classdata
+│┄ Command `'javap -verbose -constants -s -l -private {}'` failed with exit code 1. Standard output:
+│┄     Error: class not found: /tmp/diffoscope_u1s_5rmy_1170/tmp4ds61psw_ZipContainer/UnicastRefInstrumentation.classdata
+...
+├── inst/io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPayload$ContextPayloadGetter.classdata
+│┄ Command `'javap -verbose -constants -s -l -private {}'` failed with exit code 1. Standard output:
+│┄     Error: class not found: /tmp/diffoscope_u1s_5rmy_1170/tmpwaiuvrjw_ZipContainer/ContextPayload$ContextPayloadGetter.classdata
+...
+├── inst/io/opentelemetry/javaagent/instrumentation/rmi/context/ContextPayload$ContextPayloadSetter.classdata
+│┄ Command `'javap -verbose -constants -s -l -private {}'` failed with exit code 1. Standard output:
+│┄     Error: class not found: /tmp/diffoscope_u1s_5rmy_1170/tmp5liryqvg_ZipContainer/ContextPayload$ContextPayloadSetter.classdata
+...
+├── inst/io/opentelemetry/javaagent/instrumentation/rmi/context/client/RmiClientContextInstrumentation.classdata
+│┄ Command `'javap -verbose -constants -s -l -private {}'` failed with exit code 1. Standard output:
+│┄     Error: class not found: /tmp/diffoscope_u1s_5rmy_1170/tmph8ji0wyv_ZipContainer/RmiClientContextInstrumentation.classdata
+...
+├── inst/io/opentelemetry/javaagent/instrumentation/rmi/context/jpms/ExposeRmiModuleInstrumentation.classdata
+│┄ Command `'javap -verbose -constants -s -l -private {}'` failed with exit code 1. Standard output:
+│┄     Error: class not found: /tmp/diffoscope_u1s_5rmy_1170/tmpbmwmf3i8_ZipContainer/ExposeRmiModuleInstrumentation.classdata
+...
+├── inst/io/opentelemetry/javaagent/instrumentation/rmi/context/server/RmiServerContextInstrumentation.classdata
+│┄ Command `'javap -verbose -constants -s -l -private {}'` failed with exit code 1. Standard output:
+│┄     Error: class not found: /tmp/diffoscope_u1s_5rmy_1170/tmpe4lo79dp_ZipContainer/RmiServerContextInstrumentation.classdata
+...
+├── inst/io/opentelemetry/javaagent/instrumentation/rmi/server/RemoteServerInstrumentation.classdata
+│┄ Command `'javap -verbose -constants -s -l -private {}'` failed with exit code 1. Standard output:
+│┄     Error: class not found: /tmp/diffoscope_u1s_5rmy_1170/tmpxnnvchc0_ZipContainer/RemoteServerInstrumentation.classdata
+...
+├── inst/io/opentelemetry/javaagent/instrumentation/rmi/server/RmiServerAttributesGetter.classdata
+│┄ Command `'javap -verbose -constants -s -l -private {}'` failed with exit code 1. Standard output:
+│┄     Error: class not found: /tmp/diffoscope_u1s_5rmy_1170/tmpfzoz3_sn_ZipContainer/RmiServerAttributesGetter.classdata
+...
