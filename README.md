@@ -66,9 +66,9 @@ Notice the anchor in the link.
 Nightly Rebuild: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
 
 <!-- BEGIN GENERATED INTRO -->
-rebuilding **1141 releases** of **315 projects**:
+rebuilding **1142 releases** of **315 projects**:
 - **805** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 336 had issues (some unreproducible artifacts :warning:):
+- 337 had issues (some unreproducible artifacts :warning:):
 
 <!-- END GENERATED INTRO -->
 
@@ -110,7 +110,7 @@ rebuilding **1141 releases** of **315 projects**:
 | io.github.derkrischan | <a name='io.github.derkrischan:jpdftest'></a>[jpdftest](content/io/github/derkrischan/jpdftest/README.md) | 3 | 3 :heavy_check_mark: |
 | io.liftwizard | <a name='io.liftwizard:liftwizard'></a>[liftwizard](content/io/liftwizard/README.md) | 24 | 24 :heavy_check_mark: |
 | io.micronaut.build | <a name='io.micronaut.build:micronaut-maven-plugin'></a>[micronaut-maven-plugin](content/io/micronaut/build/micronaut-maven-plugin/README.md) | 29 | 29 :heavy_check_mark: |
-| io.opentelemetry.instrumentation | <a name='io.opentelemetry.instrumentation:opentelemetry-instrumentation-api'></a>[opentelemetry-instrumentation-api](content/io/opentelemetry/instrumentation/README.md) | 1 | 1 :warning: |
+| io.opentelemetry.instrumentation | <a name='io.opentelemetry.instrumentation:opentelemetry-instrumentation-api'></a>[opentelemetry-instrumentation-api](content/io/opentelemetry/instrumentation/README.md) | 2 | 2 :warning: |
 | io.opentelemetry | <a name='io.opentelemetry:opentelemetry-sdk'></a>[opentelemetry-sdk](content/io/opentelemetry/java/README.md) | 1 | 1 :warning: |
 | io.wcm | <a name='io.wcm:io.wcm.caconfig.editor.parent'></a>[*.caconfig.editor.parent](content/io/wcm/io.wcm.caconfig/README.md) | 4 | 4 :warning: |
 | | <a name='io.wcm:io.wcm.handler.link'></a>[*.handler.link](content/io/wcm/io.wcm.handler/link/README.md) | 4 | 4 :warning: |
@@ -390,7 +390,7 @@ rebuilding **1141 releases** of **315 projects**:
 | | <a name='org.webjars:webjars-locator-core'></a>[webjars-locator-core](content/org/webjars/webjars-locator-core/README.md) | 1 | 1 :heavy_check_mark: |
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 5 | 5 :warning: |
-| **Count:** | **315** | **1141** | **805** :heavy_check_mark: **336** :warning: |
+| **Count:** | **315** | **1142** | **805** :heavy_check_mark: **337** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ## Understanding What Is Behind
