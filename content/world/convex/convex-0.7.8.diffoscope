@@ -1,0 +1,170 @@
+1 / 1 target/reference/convex-core-0.7.8-sources.jar convex-core/target/convex-core-0.7.8-sources.jar
+--- target/reference/convex-core-0.7.8-sources.jar
++++ convex-core/target/convex-core-0.7.8-sources.jar
+├── zipinfo -v {}
+│ @@ -7423,16 +7423,16 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          2020 Feb 2 00:00:00
+│ -  32-bit CRC value (hex):                         19992ad3
+│ -  compressed size:                                810 bytes
+│ +  32-bit CRC value (hex):                         92f55712
+│ +  compressed size:                                808 bytes
+│    uncompressed size:                              8920 bytes
+│    length of filename:                             53 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (100644 octal):            -rw-r--r--
+│ @@ -7441,16 +7441,16 @@
+│    There is no file comment.
+│  
+│  Central directory entry #258:
+│  ---------------------------
+│  
+│    convex/core/lang/reader/antlr/ConvexLexer.interp
+│  
+│ -  offset of local header from start of archive:   384462
+│ -                                                  (000000000005DDCEh) bytes
+│ +  offset of local header from start of archive:   384460
+│ +                                                  (000000000005DDCCh) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│ @@ -7470,27 +7470,27 @@
+│    There is no file comment.
+│  
+│  Central directory entry #259:
+│  ---------------------------
+│  
+│    convex/core/lang/reader/antlr/ConvexLexer.java
+│  
+│ -  offset of local header from start of archive:   387315
+│ -                                                  (000000000005E8F3h) bytes
+│ +  offset of local header from start of archive:   387313
+│ +                                                  (000000000005E8F1h) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          2020 Feb 2 00:00:00
+│ -  32-bit CRC value (hex):                         f2d2ec24
+│ -  compressed size:                                3975 bytes
+│ +  32-bit CRC value (hex):                         b3aa5b1a
+│ +  compressed size:                                3977 bytes
+│    uncompressed size:                              11947 bytes
+│    length of filename:                             46 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (100644 octal):            -rw-r--r--
+│ @@ -7510,16 +7510,16 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          2020 Feb 2 00:00:00
+│ -  32-bit CRC value (hex):                         75ff75c7
+│ -  compressed size:                                840 bytes
+│ +  32-bit CRC value (hex):                         5bd0d246
+│ +  compressed size:                                838 bytes
+│    uncompressed size:                              8107 bytes
+│    length of filename:                             49 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (100644 octal):            -rw-r--r--
+│ @@ -7528,27 +7528,27 @@
+│    There is no file comment.
+│  
+│  Central directory entry #261:
+│  ---------------------------
+│  
+│    convex/core/lang/reader/antlr/ConvexParser.java
+│  
+│ -  offset of local header from start of archive:   392285
+│ -                                                  (000000000005FC5Dh) bytes
+│ +  offset of local header from start of archive:   392283
+│ +                                                  (000000000005FC5Bh) bytes
+│    file system or operating system of origin:      Unix
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          2020 Feb 2 00:00:00
+│ -  32-bit CRC value (hex):                         094c55c6
+│ -  compressed size:                                5641 bytes
+│ +  32-bit CRC value (hex):                         772c3075
+│ +  compressed size:                                5643 bytes
+│    uncompressed size:                              41094 bytes
+│    length of filename:                             47 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│    Unix file attributes (100644 octal):            -rw-r--r--
+├── convex/core/lang/reader/antlr/ConvexBaseListener.java
+│ @@ -1,8 +1,8 @@
+│ -// Generated from convex\core\lang\reader\antlr\Convex.g4 by ANTLR 4.9.2
+│ +// Generated from convex/core/lang/reader/antlr/Convex.g4 by ANTLR 4.9.2
+│  package convex.core.lang.reader.antlr;
+│  
+│  import org.antlr.v4.runtime.ParserRuleContext;
+│  import org.antlr.v4.runtime.tree.ErrorNode;
+│  import org.antlr.v4.runtime.tree.TerminalNode;
+│  
+│  /**
+├── convex/core/lang/reader/antlr/ConvexLexer.java
+│ @@ -1,8 +1,8 @@
+│ -// Generated from convex\core\lang\reader\antlr\Convex.g4 by ANTLR 4.9.2
+│ +// Generated from convex/core/lang/reader/antlr/Convex.g4 by ANTLR 4.9.2
+│  package convex.core.lang.reader.antlr;
+│  import org.antlr.v4.runtime.Lexer;
+│  import org.antlr.v4.runtime.CharStream;
+│  import org.antlr.v4.runtime.Token;
+│  import org.antlr.v4.runtime.TokenStream;
+│  import org.antlr.v4.runtime.*;
+│  import org.antlr.v4.runtime.atn.*;
+├── convex/core/lang/reader/antlr/ConvexListener.java
+│ @@ -1,8 +1,8 @@
+│ -// Generated from convex\core\lang\reader\antlr\Convex.g4 by ANTLR 4.9.2
+│ +// Generated from convex/core/lang/reader/antlr/Convex.g4 by ANTLR 4.9.2
+│  package convex.core.lang.reader.antlr;
+│  import org.antlr.v4.runtime.tree.ParseTreeListener;
+│  
+│  /**
+│   * This interface defines a complete listener for a parse tree produced by
+│   * {@link ConvexParser}.
+│   */
+├── convex/core/lang/reader/antlr/ConvexParser.java
+│ @@ -1,8 +1,8 @@
+│ -// Generated from convex\core\lang\reader\antlr\Convex.g4 by ANTLR 4.9.2
+│ +// Generated from convex/core/lang/reader/antlr/Convex.g4 by ANTLR 4.9.2
+│  package convex.core.lang.reader.antlr;
+│  import org.antlr.v4.runtime.atn.*;
+│  import org.antlr.v4.runtime.dfa.DFA;
+│  import org.antlr.v4.runtime.*;
+│  import org.antlr.v4.runtime.misc.*;
+│  import org.antlr.v4.runtime.tree.*;
+│  import java.util.List;
+
