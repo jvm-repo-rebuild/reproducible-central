@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/Convex-Dev/convex.git](https://github.com/Convex-Dev/convex.git)
 
-<details><summary>This project defines 7 modules:</summary>
+<details><summary>This project defines 8 modules:</summary>
 
 * [world.convex:convex](https://search.maven.org/artifact/world.convex/convex/)
 * [world.convex:convex-benchmarks](https://search.maven.org/artifact/world.convex/convex-benchmarks/)
@@ -16,15 +16,16 @@ Source code: [https://github.com/Convex-Dev/convex.git](https://github.com/Conve
 * [world.convex:convex-gui](https://search.maven.org/artifact/world.convex/convex-gui/)
 * [world.convex:convex-java](https://search.maven.org/artifact/world.convex/convex-java/)
 * [world.convex:convex-peer](https://search.maven.org/artifact/world.convex/convex-peer/)
+* [world.convex:convex-restapi](https://search.maven.org/artifact/world.convex/convex-restapi/)
 </details>
 
-rebuilding **5 releases** of world.convex:convex:
+rebuilding **6 releases** of world.convex:convex:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.7.8](https://search.maven.org/artifact/world.convex/convex/0.7.8/pom) | | | |
+| [0.7.8](https://search.maven.org/artifact/world.convex/convex/0.7.8/pom) | [mvn jdk17 w](convex-0.7.8.buildspec) | [result](convex-0.7.8.buildinfo): [24 :heavy_check_mark:  1 :warning:](convex-0.7.8.buildcompare) [:mag:](convex-0.7.8.diffoscope) [:memo:](https://github.com/Convex-Dev/convex/pull/400) | 83M |
 | [0.7.7](https://search.maven.org/artifact/world.convex/convex/0.7.7/pom) | | | |
 | [0.7.6](https://search.maven.org/artifact/world.convex/convex/0.7.6/pom) | | | |
 | [0.7.5](https://search.maven.org/artifact/world.convex/convex/0.7.5/pom) | [mvn jdk16 w](convex-0.7.5.buildspec) | [result](convex-0.7.5.buildinfo): [17 :heavy_check_mark:  4 :warning:](convex-0.7.5.buildcompare) | 49M |

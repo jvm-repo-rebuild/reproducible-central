@@ -23,7 +23,9 @@ rebuilding **5 releases** of ch.qos.logback:logback-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.4.1](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.4.1/pom) | | | |
 | [1.4.0](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.4.0/pom) | | | |
+| [1.3.1](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.3.1/pom) | | | |
 | [1.3.0](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.3.0/pom) | | | |
 | [1.3.0-beta0](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.3.0-beta0/pom) | [mvn jdk18](logback-1.3.0-beta0.buildspec) | [result](logback-parent-1.3.0-beta0.buildinfo): [13 :heavy_check_mark:  3 :warning:](logback-parent-1.3.0-beta0.buildcompare) [:mag:](logback-parent-1.3.0-beta0.diffoscope) | 3.0M |
 | [1.3.0-alpha16](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.3.0-alpha16/pom) | [mvn jdk18](logback-1.3.0-alpha16.buildspec) | [result](logback-parent-1.3.0-alpha16.buildinfo): [13 :heavy_check_mark:  3 :warning:](logback-parent-1.3.0-alpha16.buildcompare) [:mag:](logback-parent-1.3.0-alpha16.diffoscope) | 3.0M |
