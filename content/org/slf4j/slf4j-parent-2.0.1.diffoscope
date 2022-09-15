@@ -1,0 +1,112 @@
+1 / 7 target/reference/slf4j-api-2.0.1.jar slf4j-api/target/slf4j-api-2.0.1.jar
+--- target/reference/slf4j-api-2.0.1.jar
++++ slf4j-api/target/slf4j-api-2.0.1.jar
+├── zipinfo {}
+│ @@ -60,9 +60,9 @@
+│  -rw----     2.0 fat     1522 bl defN 22-Sep-14 14:26 org/slf4j/spi/LoggingEventBuilder.class
+│  -rw----     2.0 fat      732 bl defN 22-Sep-14 14:26 org/slf4j/spi/MDCAdapter.class
+│  -rw----     2.0 fat      268 bl defN 22-Sep-14 14:26 org/slf4j/spi/MarkerFactoryBinder.class
+│  -rw----     2.0 fat     3163 bl defN 22-Sep-14 14:26 org/slf4j/spi/NOPLoggingEventBuilder.class
+│  -rw----     2.0 fat      389 bl defN 22-Sep-14 14:26 org/slf4j/spi/SLF4JServiceProvider.class
+│  -rw----     2.0 fat     1611 bl defN 22-Sep-14 14:26 META-INF/maven/org.slf4j/slf4j-api/pom.xml
+│  -rw----     2.0 fat       53 bl defN 22-Sep-14 14:26 META-INF/maven/org.slf4j/slf4j-api/pom.properties
+│ --rw----     2.0 fat      333 bX defN 22-Sep-14 12:26 META-INF/versions/9/module-info.class
+│ +-rw----     2.0 fat      333 bX defN 22-Sep-14 14:26 META-INF/versions/9/module-info.class
+│  66 files, 125294 bytes uncompressed, 50970 bytes compressed:  59.3%
+
+2 / 7 target/reference/slf4j-simple-2.0.1.jar slf4j-simple/target/slf4j-simple-2.0.1.jar
+--- target/reference/slf4j-simple-2.0.1.jar
++++ slf4j-simple/target/slf4j-simple-2.0.1.jar
+├── zipinfo {}
+│ @@ -16,9 +16,9 @@
+│  -rw----     2.0 fat     1396 bl defN 22-Sep-14 14:26 org/slf4j/simple/OutputChoice.class
+│  -rw----     2.0 fat     8479 bl defN 22-Sep-14 14:26 org/slf4j/simple/SimpleLogger.class
+│  -rw----     2.0 fat     6920 bl defN 22-Sep-14 14:26 org/slf4j/simple/SimpleLoggerConfiguration.class
+│  -rw----     2.0 fat     1338 bl defN 22-Sep-14 14:26 org/slf4j/simple/SimpleLoggerFactory.class
+│  -rw----     2.0 fat     1369 bl defN 22-Sep-14 14:26 org/slf4j/simple/SimpleServiceProvider.class
+│  -rw----     2.0 fat     1062 bl defN 22-Sep-14 14:26 META-INF/maven/org.slf4j/slf4j-simple/pom.xml
+│  -rw----     2.0 fat       56 bl defN 22-Sep-14 14:26 META-INF/maven/org.slf4j/slf4j-simple/pom.properties
+│ --rw----     2.0 fat      323 bX defN 22-Sep-14 12:26 META-INF/versions/9/module-info.class
+│ +-rw----     2.0 fat      323 bX defN 22-Sep-14 14:26 META-INF/versions/9/module-info.class
+│  22 files, 23995 bytes uncompressed, 11658 bytes compressed:  51.4%
+
+3 / 7 target/reference/slf4j-nop-2.0.1.jar slf4j-nop/target/slf4j-nop-2.0.1.jar
+--- target/reference/slf4j-nop-2.0.1.jar
++++ slf4j-nop/target/slf4j-nop-2.0.1.jar
+├── zipinfo {}
+│ @@ -10,9 +10,9 @@
+│  -rw----     1.0 fat        0 b- stor 22-Sep-14 14:26 META-INF/maven/
+│  -rw----     1.0 fat        0 b- stor 22-Sep-14 14:26 META-INF/maven/org.slf4j/
+│  -rw----     1.0 fat        0 b- stor 22-Sep-14 14:26 META-INF/maven/org.slf4j/slf4j-nop/
+│  -rw----     2.0 fat       32 bl defN 22-Sep-14 14:26 META-INF/services/org.slf4j.spi.SLF4JServiceProvider
+│  -rw----     2.0 fat     1352 bl defN 22-Sep-14 14:26 org/slf4j/nop/NOPServiceProvider.class
+│  -rw----     2.0 fat      837 bl defN 22-Sep-14 14:26 META-INF/maven/org.slf4j/slf4j-nop/pom.xml
+│  -rw----     2.0 fat       53 bl defN 22-Sep-14 14:26 META-INF/maven/org.slf4j/slf4j-nop/pom.properties
+│ --rw----     2.0 fat      311 bX defN 22-Sep-14 12:26 META-INF/versions/9/module-info.class
+│ +-rw----     2.0 fat      311 bX defN 22-Sep-14 14:26 META-INF/versions/9/module-info.class
+│  16 files, 3200 bytes uncompressed, 1611 bytes compressed:  49.7%
+
+4 / 7 target/reference/slf4j-jdk14-2.0.1.jar slf4j-jdk14/target/slf4j-jdk14-2.0.1.jar
+--- target/reference/slf4j-jdk14-2.0.1.jar
++++ slf4j-jdk14/target/slf4j-jdk14-2.0.1.jar
+├── zipinfo {}
+│ @@ -13,9 +13,9 @@
+│  -rw----     2.0 fat       32 bl defN 22-Sep-14 14:26 META-INF/services/org.slf4j.spi.SLF4JServiceProvider
+│  -rw----     2.0 fat      818 bl defN 22-Sep-14 14:26 org/slf4j/jul/JDK14LoggerAdapter$1.class
+│  -rw----     2.0 fat     7465 bl defN 22-Sep-14 14:26 org/slf4j/jul/JDK14LoggerAdapter.class
+│  -rw----     2.0 fat     1589 bl defN 22-Sep-14 14:26 org/slf4j/jul/JDK14LoggerFactory.class
+│  -rw----     2.0 fat     1352 bl defN 22-Sep-14 14:26 org/slf4j/jul/JULServiceProvider.class
+│  -rw----     2.0 fat     1052 bl defN 22-Sep-14 14:26 META-INF/maven/org.slf4j/slf4j-jdk14/pom.xml
+│  -rw----     2.0 fat       55 bl defN 22-Sep-14 14:26 META-INF/maven/org.slf4j/slf4j-jdk14/pom.properties
+│ --rw----     2.0 fat      335 bX defN 22-Sep-14 12:26 META-INF/versions/9/module-info.class
+│ +-rw----     2.0 fat      335 bX defN 22-Sep-14 14:26 META-INF/versions/9/module-info.class
+│  19 files, 13511 bytes uncompressed, 6650 bytes compressed:  50.8%
+
+5 / 7 target/reference/slf4j-jdk-platform-logging-2.0.1.jar slf4j-jdk-platform-logging/target/slf4j-jdk-platform-logging-2.0.1.jar
+--- target/reference/slf4j-jdk-platform-logging-2.0.1.jar
++++ slf4j-jdk-platform-logging/target/slf4j-jdk-platform-logging-2.0.1.jar
+├── zipinfo {}
+│ @@ -13,9 +13,9 @@
+│  -rw----     2.0 fat       55 bl defN 22-Sep-14 14:26 META-INF/services/java.lang.System$LoggerFinder
+│  -rw----     2.0 fat     1488 bl defN 22-Sep-14 14:26 org/slf4j/jdk/platform/logging/SLF4JPlarformLoggerFactory.class
+│  -rw----     2.0 fat      974 bl defN 22-Sep-14 14:26 org/slf4j/jdk/platform/logging/SLF4JPlatformLogger$1.class
+│  -rw----     2.0 fat     5423 bl defN 22-Sep-14 14:26 org/slf4j/jdk/platform/logging/SLF4JPlatformLogger.class
+│  -rw----     2.0 fat     1057 bl defN 22-Sep-14 14:26 org/slf4j/jdk/platform/logging/SLF4JSystemLoggerFinder.class
+│  -rw----     2.0 fat     2422 bl defN 22-Sep-14 14:26 META-INF/maven/org.slf4j/slf4j-jdk-platform-logging/pom.xml
+│  -rw----     2.0 fat       70 bl defN 22-Sep-14 14:26 META-INF/maven/org.slf4j/slf4j-jdk-platform-logging/pom.properties
+│ --rw----     2.0 fat      430 bX defN 22-Sep-14 12:26 module-info.class
+│ +-rw----     2.0 fat      430 bX defN 22-Sep-14 14:26 module-info.class
+│  19 files, 12591 bytes uncompressed, 5627 bytes compressed:  55.3%
+
+6 / 7 target/reference/jcl-over-slf4j-2.0.1.jar jcl-over-slf4j/target/jcl-over-slf4j-2.0.1.jar
+--- target/reference/jcl-over-slf4j-2.0.1.jar
++++ jcl-over-slf4j/target/jcl-over-slf4j-2.0.1.jar
+├── zipinfo {}
+│ @@ -19,9 +19,9 @@
+│  -rw----     2.0 fat     2063 bl defN 22-Sep-14 14:26 org/apache/commons/logging/impl/NoOpLog.class
+│  -rw----     2.0 fat     3539 bl defN 22-Sep-14 14:26 org/apache/commons/logging/impl/SLF4JLocationAwareLog.class
+│  -rw----     2.0 fat     2999 bl defN 22-Sep-14 14:26 org/apache/commons/logging/impl/SLF4JLog.class
+│  -rw----     2.0 fat     4088 bl defN 22-Sep-14 14:26 org/apache/commons/logging/impl/SLF4JLogFactory.class
+│  -rw----     2.0 fat     9972 bl defN 22-Sep-14 14:26 org/apache/commons/logging/impl/SimpleLog.class
+│  -rw----     2.0 fat     1230 bl defN 22-Sep-14 14:26 META-INF/maven/org.slf4j/jcl-over-slf4j/pom.xml
+│  -rw----     2.0 fat       58 bl defN 22-Sep-14 14:26 META-INF/maven/org.slf4j/jcl-over-slf4j/pom.properties
+│ --rw----     2.0 fat      298 bX defN 22-Sep-14 12:26 META-INF/versions/9/module-info.class
+│ +-rw----     2.0 fat      298 bX defN 22-Sep-14 14:26 META-INF/versions/9/module-info.class
+│  25 files, 31722 bytes uncompressed, 13478 bytes compressed:  57.5%
+
+7 / 7 target/reference/log4j-over-slf4j-2.0.1.jar log4j-over-slf4j/target/log4j-over-slf4j-2.0.1.jar
+--- target/reference/log4j-over-slf4j-2.0.1.jar
++++ log4j-over-slf4j/target/log4j-over-slf4j-2.0.1.jar
+├── zipinfo {}
+│ @@ -40,9 +40,9 @@
+│  -rw----     2.0 fat      208 bl defN 22-Sep-14 14:26 org/apache/log4j/spi/LoggerFactory.class
+│  -rw----     2.0 fat      914 bl defN 22-Sep-14 14:26 org/apache/log4j/spi/LoggerRepository.class
+│  -rw----     2.0 fat      303 bl defN 22-Sep-14 14:26 org/apache/log4j/spi/LoggingEvent.class
+│  -rw----     2.0 fat      160 bl defN 22-Sep-14 14:26 org/apache/log4j/spi/OptionHandler.class
+│  -rw----     2.0 fat     2011 bl defN 22-Sep-14 14:26 org/apache/log4j/xml/DOMConfigurator.class
+│  -rw----     2.0 fat     1156 bl defN 22-Sep-14 14:26 META-INF/maven/org.slf4j/log4j-over-slf4j/pom.xml
+│  -rw----     2.0 fat       60 bl defN 22-Sep-14 14:26 META-INF/maven/org.slf4j/log4j-over-slf4j/pom.properties
+│ --rw----     2.0 fat      354 bX defN 22-Sep-14 12:26 META-INF/versions/9/module-info.class
+│ +-rw----     2.0 fat      354 bX defN 22-Sep-14 14:26 META-INF/versions/9/module-info.class
+│  46 files, 38512 bytes uncompressed, 18334 bytes compressed:  52.4%
+
