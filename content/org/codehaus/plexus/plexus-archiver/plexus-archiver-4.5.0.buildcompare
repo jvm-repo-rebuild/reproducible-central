@@ -1,0 +1,7 @@
+version=4.5.0
+ok=4
+ko=0
+okFiles="plexus-archiver-4.5.0.pom plexus-archiver-4.5.0.jar plexus-archiver-4.5.0-source-release.zip plexus-archiver-4.5.0-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
