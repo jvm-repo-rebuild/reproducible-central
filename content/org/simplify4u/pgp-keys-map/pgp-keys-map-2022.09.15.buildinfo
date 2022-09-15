@@ -1,0 +1,30 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=PGP keys map to maven artifacts
+group-id=org.simplify4u
+artifact-id=pgp-keys-map
+version=2022.09.15
+
+# source information
+source.scm.uri=scm:git:git@github.com:s4u/pgp-keys-map.git
+source.scm.tag=v2022.09.15
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=pgp-keys-map-2022.09.15.pom
+outputs.0.length=10154
+outputs.0.checksums.sha512=6ff0eb6fad30f3ac4668fad5fd0c3c321a29a4de904a9709310c94cf5595b991fbad3f918dc6eaee76167ad50d60e158c923056a4c79732a810a22a1482146bf
+
+outputs.1.filename=pgp-keys-map-2022.09.15.jar
+outputs.1.length=17460
+outputs.1.checksums.sha512=327eaae79b68a6277c2ed2961741f98d4a407f3245a04598e27115d07960867c60d9ad75f58a059117d10a161311da863ee9bf5b01b6539119ae6787436daed2
