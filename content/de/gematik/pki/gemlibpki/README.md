@@ -13,6 +13,7 @@ rebuilding **1 releases** of de.gematik.pki.gemlibpki:gemLibPki:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.9.3](https://search.maven.org/artifact/de.gematik.pki.gemlibpki/gemLibPki/0.9.3/pom) | | | |
 | [0.9.2](https://search.maven.org/artifact/de.gematik.pki.gemlibpki/gemLibPki/0.9.2/pom) | [mvn jdk17](gemLibPki-0.9.2.buildspec) | [result](gemLibPki-0.9.2.buildinfo): [2 :heavy_check_mark:  1 :warning:](gemLibPki-0.9.2.buildcompare) | 192K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

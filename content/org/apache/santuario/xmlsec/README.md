@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.apache.santuario:xmlsec:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.1](https://search.maven.org/artifact/org.apache.santuario/xmlsec/3.0.1/pom) | | | |
 | [3.0.0](https://search.maven.org/artifact/org.apache.santuario/xmlsec/3.0.0/pom) | [mvn jdk8](xmlsec-3.0.0.buildspec) | [result](xmlsec-3.0.0.buildinfo): [3 :heavy_check_mark:  2 :warning:](xmlsec-3.0.0.buildcompare) [:mag:](xmlsec-3.0.0.diffoscope) | 7.2M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
