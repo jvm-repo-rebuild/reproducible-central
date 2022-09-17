@@ -1,0 +1,51 @@
+1 / 1 target/reference/gemLibPki-0.9.3.jar target/gemLibPki-0.9.3.jar
+--- target/reference/gemLibPki-0.9.3.jar
++++ target/gemLibPki-0.9.3.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 114393 bytes, number of entries: 67
+│ +Zip file size: 114392 bytes, number of entries: 67
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-16 13:35 META-INF/
+│  -rw-r--r--  2.0 unx       81 b- defN 22-Sep-16 13:35 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-16 13:35 de/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-16 13:35 de/gematik/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-16 13:35 de/gematik/pki/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-16 13:35 de/gematik/pki/gemlibpki/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-16 13:35 de/gematik/pki/gemlibpki/certificate/
+│ @@ -62,8 +62,8 @@
+│  -rw-r--r--  2.0 unx     2774 b- defN 22-Sep-16 13:35 de/gematik/pki/gemlibpki/utils/CertReader.class
+│  -rw-r--r--  2.0 unx     2612 b- defN 22-Sep-16 13:35 de/gematik/pki/gemlibpki/utils/GemlibPkiUtils.class
+│  -rw-r--r--  2.0 unx     2325 b- defN 22-Sep-16 13:35 de/gematik/pki/gemlibpki/utils/P12Container$P12ContainerBuilder.class
+│  -rw-r--r--  2.0 unx     1772 b- defN 22-Sep-16 13:35 de/gematik/pki/gemlibpki/utils/P12Container.class
+│  -rw-r--r--  2.0 unx     3530 b- defN 22-Sep-16 13:35 de/gematik/pki/gemlibpki/utils/P12Reader.class
+│  -rw-r--r--  2.0 unx    15850 b- defN 22-Sep-16 13:35 META-INF/maven/de.gematik.pki.gemlibpki/gemLibPki/pom.xml
+│  -rw-r--r--  2.0 unx       68 b- defN 22-Sep-16 13:35 META-INF/maven/de.gematik.pki.gemlibpki/gemLibPki/pom.properties
+│ -67 files, 268232 bytes uncompressed, 102365 bytes compressed:  61.8%
+│ +67 files, 268232 bytes uncompressed, 102364 bytes compressed:  61.8%
+├── de/gematik/pki/gemlibpki/ocsp/OcspResponseGenerator.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1079,21 +1079,21 @@
+│ │         625: invokestatic  #324                // Method createOcspResp:(Leu/europa/esig/dss/spi/x509/revocation/ocsp/OCSPRespStatus;Lorg/bouncycastle/cert/ocsp/BasicOCSPResp;)Lorg/bouncycastle/cert/ocsp/OCSPResp;
+│ │         628: areturn
+│ │        LineNumberTable:
+│ │          line 156: 0
+│ │          line 158: 36
+│ │          line 159: 42
+│ │          line 160: 63
+│ │ -        line 161: 81
+│ │ +        line 157: 81
+│ │          line 163: 84
+│ │          line 164: 93
+│ │          line 165: 104
+│ │          line 167: 110
+│ │          line 168: 118
+│ │ -        line 169: 128
+│ │ +        line 162: 128
+│ │          line 170: 131
+│ │          line 174: 148
+│ │          line 176: 157
+│ │          line 178: 164
+│ │          line 179: 171
+│ │          line 181: 183
+│ │          line 184: 193
+
