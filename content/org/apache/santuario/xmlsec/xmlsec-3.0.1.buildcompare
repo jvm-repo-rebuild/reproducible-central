@@ -1,0 +1,9 @@
+version=3.0.1
+ok=3
+ko=2
+okFiles="xmlsec-3.0.1.pom xmlsec-3.0.1-tests.jar xmlsec-3.0.1-source-release.zip"
+koFiles="xmlsec-3.0.1.jar xmlsec-3.0.1-sources.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/xmlsec-3.0.1.jar target/xmlsec-3.0.1.jar
+# diffoscope target/reference/xmlsec-3.0.1-sources.jar target/xmlsec-3.0.1-sources.jar
