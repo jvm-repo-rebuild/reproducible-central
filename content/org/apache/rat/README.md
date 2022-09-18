@@ -23,6 +23,7 @@ rebuilding **1 releases** of org.apache.rat:apache-rat-project:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.15](https://search.maven.org/artifact/org.apache.rat/apache-rat-project/0.15/pom) | | | |
 | [0.14](https://search.maven.org/artifact/org.apache.rat/apache-rat-project/0.14/pom) | [mvn jdk16](apache-rat-0.14.buildspec) | [result](apache-rat-project-0.14.buildinfo): [22 :heavy_check_mark: ](apache-rat-project-0.14.buildcompare) | 12M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
