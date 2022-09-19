@@ -1,0 +1,8 @@
+version=3.5.11
+ok=2
+ko=1
+okFiles="mybatis-3.5.11.pom mybatis-3.5.11-sources.jar"
+koFiles="mybatis-3.5.11.jar"
+reference_java_version="15 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/mybatis-3.5.11.jar target/mybatis-3.5.11.jar
