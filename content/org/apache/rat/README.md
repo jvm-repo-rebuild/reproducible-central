@@ -17,13 +17,13 @@ Source code: [https://github.com/apache/creadur-rat.git](https://github.com/apac
 * [org.apache.rat:apache-rat-tasks](https://search.maven.org/artifact/org.apache.rat/apache-rat-tasks/)
 </details>
 
-rebuilding **1 releases** of org.apache.rat:apache-rat-project:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **2 releases** of org.apache.rat:apache-rat-project:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.15](https://search.maven.org/artifact/org.apache.rat/apache-rat-project/0.15/pom) | | | |
+| [0.15](https://search.maven.org/artifact/org.apache.rat/apache-rat-project/0.15/pom) | [mvn jdk16](apache-rat-0.15.buildspec) | [result](apache-rat-project-0.15.buildinfo): [22 :heavy_check_mark: ](apache-rat-project-0.15.buildcompare) | 12M |
 | [0.14](https://search.maven.org/artifact/org.apache.rat/apache-rat-project/0.14/pom) | [mvn jdk16](apache-rat-0.14.buildspec) | [result](apache-rat-project-0.14.buildinfo): [22 :heavy_check_mark: ](apache-rat-project-0.14.buildcompare) | 12M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
