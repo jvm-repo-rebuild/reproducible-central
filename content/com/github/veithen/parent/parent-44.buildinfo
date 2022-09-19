@@ -1,0 +1,26 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.github.veithen parent POM
+group-id=com.github.veithen
+artifact-id=parent
+version=44
+
+# source information
+source.scm.uri=scm:git:http://github.com/veithen/parent.git
+source.scm.tag=44
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=parent-44.pom
+outputs.0.length=33771
+outputs.0.checksums.sha512=b3a6bf8f17b980e14206dcf82c0cdbfaf137beea1d78f8630b9b45e3e428a037ad01e1b0635cb2be41dc30cc6d5c4d0b3a3494503b523d295f60126ae478b50d
