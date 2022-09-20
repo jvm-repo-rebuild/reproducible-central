@@ -110,6 +110,11 @@
       <url>https://adoptopenjdk.jfrog.io/adoptopenjdk/jmc-libs</url>
     </mirror>
     <mirror>
+      <id>gradle-repository</id>
+      <mirrorOf>gradle-repository</mirrorOf>
+      <url>https://repo.gradle.org/gradle/libs-releases-local</url>
+    </mirror>
+    <mirror>
       <id>repo.gradle.org</id>
       <mirrorOf>repo.gradle.org</mirrorOf>
       <url>https://repo.gradle.org/gradle/libs-releases-local/</url>

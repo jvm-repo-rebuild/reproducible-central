@@ -1,0 +1,199 @@
+1 / 3 target/reference/jsign-core-4.2-sources.jar jsign-core/target/jsign-core-4.2-sources.jar
+--- target/reference/jsign-core-4.2-sources.jar
++++ jsign-core/target/jsign-core-4.2-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 115496 bytes, number of entries: 88
+│ +Zip file size: 115689 bytes, number of entries: 88
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Sep-19 12:00 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-19 12:00 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-19 12:00 net/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-19 12:00 net/jsign/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-19 12:00 net/jsign/asn1/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-19 12:00 net/jsign/asn1/authenticode/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-19 12:00 net/jsign/cat/
+│ @@ -11,28 +11,28 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-19 12:00 net/jsign/msi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-19 12:00 net/jsign/pe/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-19 12:00 net/jsign/script/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-19 12:00 net/jsign/timestamp/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-19 12:00 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-19 12:00 META-INF/maven/net.jsign/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-19 12:00 META-INF/maven/net.jsign/jsign-core/
+│ --rw-r--r--  2.0 unx    21238 b- defN 22-Sep-19 12:00 net/jsign/AuthenticodeSigner.java
+│ --rw-r--r--  2.0 unx     4846 b- defN 22-Sep-19 12:00 net/jsign/ChannelUtils.java
+│ +-rw-r--r--  2.0 unx    21756 b- defN 22-Sep-19 12:00 net/jsign/AuthenticodeSigner.java
+│ +-rw-r--r--  2.0 unx     4987 b- defN 22-Sep-19 12:00 net/jsign/ChannelUtils.java
+│  -rw-r--r--  2.0 unx      917 b- defN 22-Sep-19 12:00 net/jsign/Console.java
+│  -rw-r--r--  2.0 unx     3865 b- defN 22-Sep-19 12:00 net/jsign/DigestAlgorithm.java
+│  -rw-r--r--  2.0 unx     5465 b- defN 22-Sep-19 12:00 net/jsign/KeyStoreUtils.java
+│  -rw-r--r--  2.0 unx     9804 b- defN 22-Sep-19 12:00 net/jsign/PESigner.java
+│  -rw-r--r--  2.0 unx     7732 b- defN 22-Sep-19 12:00 net/jsign/PVK.java
+│  -rw-r--r--  2.0 unx     5132 b- defN 22-Sep-19 12:00 net/jsign/PrivateKeyUtils.java
+│  -rw-r--r--  2.0 unx     2198 b- defN 22-Sep-19 12:00 net/jsign/ProviderUtils.java
+│ --rw-r--r--  2.0 unx     5417 b- defN 22-Sep-19 12:00 net/jsign/Signable.java
+│ +-rw-r--r--  2.0 unx     5576 b- defN 22-Sep-19 12:00 net/jsign/Signable.java
+│  -rw-r--r--  2.0 unx     1011 b- defN 22-Sep-19 12:00 net/jsign/SignerException.java
+│  -rw-r--r--  2.0 unx    26988 b- defN 22-Sep-19 12:00 net/jsign/SignerHelper.java
+│  -rw-r--r--  2.0 unx     1477 b- defN 22-Sep-19 12:00 net/jsign/StdOutConsole.java
+│ --rw-r--r--  2.0 unx     4819 b- defN 22-Sep-19 12:00 net/jsign/YubiKey.java
+│ +-rw-r--r--  2.0 unx     4955 b- defN 22-Sep-19 12:00 net/jsign/YubiKey.java
+│  -rw-r--r--  2.0 unx     2761 b- defN 22-Sep-19 12:00 net/jsign/asn1/authenticode/AuthenticodeDigestCalculatorProvider.java
+│  -rw-r--r--  2.0 unx     3419 b- defN 22-Sep-19 12:00 net/jsign/asn1/authenticode/AuthenticodeObjectIdentifiers.java
+│  -rw-r--r--  2.0 unx     2269 b- defN 22-Sep-19 12:00 net/jsign/asn1/authenticode/AuthenticodeSignedData.java
+│  -rw-r--r--  2.0 unx     2610 b- defN 22-Sep-19 12:00 net/jsign/asn1/authenticode/AuthenticodeSignedDataGenerator.java
+│  -rw-r--r--  2.0 unx     1770 b- defN 22-Sep-19 12:00 net/jsign/asn1/authenticode/AuthenticodeTimeStampRequest.java
+│  -rw-r--r--  2.0 unx     1890 b- defN 22-Sep-19 12:00 net/jsign/asn1/authenticode/FilteredAttributeTableGenerator.java
+│  -rw-r--r--  2.0 unx     1703 b- defN 22-Sep-19 12:00 net/jsign/asn1/authenticode/SpcAttributeTypeAndOptionalValue.java
+│ @@ -41,30 +41,30 @@
+│  -rw-r--r--  2.0 unx     2214 b- defN 22-Sep-19 12:00 net/jsign/asn1/authenticode/SpcPeImageData.java
+│  -rw-r--r--  2.0 unx     1899 b- defN 22-Sep-19 12:00 net/jsign/asn1/authenticode/SpcSerializedObject.java
+│  -rw-r--r--  2.0 unx     2302 b- defN 22-Sep-19 12:00 net/jsign/asn1/authenticode/SpcSipInfo.java
+│  -rw-r--r--  2.0 unx     2410 b- defN 22-Sep-19 12:00 net/jsign/asn1/authenticode/SpcSpOpusInfo.java
+│  -rw-r--r--  2.0 unx     1705 b- defN 22-Sep-19 12:00 net/jsign/asn1/authenticode/SpcStatementType.java
+│  -rw-r--r--  2.0 unx     1627 b- defN 22-Sep-19 12:00 net/jsign/asn1/authenticode/SpcString.java
+│  -rw-r--r--  2.0 unx     1358 b- defN 22-Sep-19 12:00 net/jsign/asn1/authenticode/SpcUuid.java
+│ --rw-r--r--  2.0 unx     5426 b- defN 22-Sep-19 12:00 net/jsign/cat/CatalogFile.java
+│ --rw-r--r--  2.0 unx     6846 b- defN 22-Sep-19 12:00 net/jsign/jca/AzureKeyVaultSigningService.java
+│ --rw-r--r--  2.0 unx     8969 b- defN 22-Sep-19 12:00 net/jsign/jca/DigiCertOneSigningService.java
+│ --rw-r--r--  2.0 unx     9040 b- defN 22-Sep-19 12:00 net/jsign/jca/ESignerSigningService.java
+│ --rw-r--r--  2.0 unx     7437 b- defN 22-Sep-19 12:00 net/jsign/jca/GoogleCloudSigningService.java
+│ --rw-r--r--  2.0 unx     4339 b- defN 22-Sep-19 12:00 net/jsign/jca/RESTClient.java
+│ --rw-r--r--  2.0 unx     2300 b- defN 22-Sep-19 12:00 net/jsign/jca/SigningService.java
+│ +-rw-r--r--  2.0 unx     5591 b- defN 22-Sep-19 12:00 net/jsign/cat/CatalogFile.java
+│ +-rw-r--r--  2.0 unx     7019 b- defN 22-Sep-19 12:00 net/jsign/jca/AzureKeyVaultSigningService.java
+│ +-rw-r--r--  2.0 unx     9188 b- defN 22-Sep-19 12:00 net/jsign/jca/DigiCertOneSigningService.java
+│ +-rw-r--r--  2.0 unx     9248 b- defN 22-Sep-19 12:00 net/jsign/jca/ESignerSigningService.java
+│ +-rw-r--r--  2.0 unx     7614 b- defN 22-Sep-19 12:00 net/jsign/jca/GoogleCloudSigningService.java
+│ +-rw-r--r--  2.0 unx     4450 b- defN 22-Sep-19 12:00 net/jsign/jca/RESTClient.java
+│ +-rw-r--r--  2.0 unx     2375 b- defN 22-Sep-19 12:00 net/jsign/jca/SigningService.java
+│  -rw-r--r--  2.0 unx     2778 b- defN 22-Sep-19 12:00 net/jsign/jca/SigningServiceJcaProvider.java
+│ --rw-r--r--  2.0 unx     3702 b- defN 22-Sep-19 12:00 net/jsign/jca/SigningServiceKeyStore.java
+│ +-rw-r--r--  2.0 unx     3833 b- defN 22-Sep-19 12:00 net/jsign/jca/SigningServiceKeyStore.java
+│  -rw-r--r--  2.0 unx     1947 b- defN 22-Sep-19 12:00 net/jsign/jca/SigningServicePrivateKey.java
+│  -rw-r--r--  2.0 unx     2612 b- defN 22-Sep-19 12:00 net/jsign/jca/SigningServiceSignature.java
+│  -rw-r--r--  2.0 unx     2227 b- defN 22-Sep-19 12:00 net/jsign/mscab/CABSignature.java
+│  -rw-r--r--  2.0 unx     2467 b- defN 22-Sep-19 12:00 net/jsign/mscab/CFFolder.java
+│  -rw-r--r--  2.0 unx     8057 b- defN 22-Sep-19 12:00 net/jsign/mscab/CFHeader.java
+│ --rw-r--r--  2.0 unx    11007 b- defN 22-Sep-19 12:00 net/jsign/mscab/MSCabinetFile.java
+│ --rw-r--r--  2.0 unx    11335 b- defN 22-Sep-19 12:00 net/jsign/msi/MSIFile.java
+│ +-rw-r--r--  2.0 unx    11295 b- defN 22-Sep-19 12:00 net/jsign/mscab/MSCabinetFile.java
+│ +-rw-r--r--  2.0 unx    11627 b- defN 22-Sep-19 12:00 net/jsign/msi/MSIFile.java
+│  -rw-r--r--  2.0 unx     2897 b- defN 22-Sep-19 12:00 net/jsign/msi/MSIStreamName.java
+│  -rw-r--r--  2.0 unx     3742 b- defN 22-Sep-19 12:00 net/jsign/pe/CertificateTableEntry.java
+│  -rw-r--r--  2.0 unx     1241 b- defN 22-Sep-19 12:00 net/jsign/pe/CertificateType.java
+│  -rw-r--r--  2.0 unx     2797 b- defN 22-Sep-19 12:00 net/jsign/pe/DataDirectory.java
+│  -rw-r--r--  2.0 unx     1998 b- defN 22-Sep-19 12:00 net/jsign/pe/DataDirectoryType.java
+│  -rw-r--r--  2.0 unx     2345 b- defN 22-Sep-19 12:00 net/jsign/pe/MachineType.java
+│  -rw-r--r--  2.0 unx    36386 b- defN 22-Sep-19 12:00 net/jsign/pe/PEFile.java
+│ @@ -72,19 +72,19 @@
+│  -rw-r--r--  2.0 unx     3393 b- defN 22-Sep-19 12:00 net/jsign/pe/PEImageChecksum.java
+│  -rw-r--r--  2.0 unx     5924 b- defN 22-Sep-19 12:00 net/jsign/pe/Section.java
+│  -rw-r--r--  2.0 unx     5055 b- defN 22-Sep-19 12:00 net/jsign/pe/SectionFlag.java
+│  -rw-r--r--  2.0 unx     1787 b- defN 22-Sep-19 12:00 net/jsign/pe/Subsystem.java
+│  -rw-r--r--  2.0 unx     2522 b- defN 22-Sep-19 12:00 net/jsign/script/JScript.java
+│  -rw-r--r--  2.0 unx     2623 b- defN 22-Sep-19 12:00 net/jsign/script/PowerShellScript.java
+│  -rw-r--r--  2.0 unx     2730 b- defN 22-Sep-19 12:00 net/jsign/script/PowerShellXMLScript.java
+│ --rw-r--r--  2.0 unx    11283 b- defN 22-Sep-19 12:00 net/jsign/script/SignableScript.java
+│ +-rw-r--r--  2.0 unx    11606 b- defN 22-Sep-19 12:00 net/jsign/script/SignableScript.java
+│  -rw-r--r--  2.0 unx     2569 b- defN 22-Sep-19 12:00 net/jsign/script/VBScript.java
+│  -rw-r--r--  2.0 unx     2480 b- defN 22-Sep-19 12:00 net/jsign/script/WSHScript.java
+│  -rw-r--r--  2.0 unx     2599 b- defN 22-Sep-19 12:00 net/jsign/script/WindowsScript.java
+│  -rw-r--r--  2.0 unx     3982 b- defN 22-Sep-19 12:00 net/jsign/timestamp/AuthenticodeTimestamper.java
+│  -rw-r--r--  2.0 unx     3883 b- defN 22-Sep-19 12:00 net/jsign/timestamp/RFC3161Timestamper.java
+│  -rw-r--r--  2.0 unx     8067 b- defN 22-Sep-19 12:00 net/jsign/timestamp/Timestamper.java
+│  -rw-r--r--  2.0 unx     1070 b- defN 22-Sep-19 12:00 net/jsign/timestamp/TimestampingException.java
+│  -rw-r--r--  2.0 unx     1312 b- defN 22-Sep-19 12:00 net/jsign/timestamp/TimestampingMode.java
+│  -rw-r--r--  2.0 unx     4176 b- defN 22-Sep-19 12:00 META-INF/maven/net.jsign/jsign-core/pom.xml
+│  -rw-r--r--  2.0 unx       55 b- defN 22-Sep-19 12:00 META-INF/maven/net.jsign/jsign-core/pom.properties
+│ -88 files, 343067 bytes uncompressed, 102806 bytes compressed:  70.0%
+│ +88 files, 346183 bytes uncompressed, 102999 bytes compressed:  70.2%
+├── net/jsign/AuthenticodeSigner.java
+│ @@ -1,518 +1,518 @@
+│ -/**
+│ - * Copyright 2019 Emmanuel Bourg
+│ - *
+│ - * Licensed under the Apache License, Version 2.0 (the "License");
+│ - * you may not use this file except in compliance with the License.
+│ - * You may obtain a copy of the License at
+│ - *
+│ - *     http://www.apache.org/licenses/LICENSE-2.0
+│ - *
+│ - * Unless required by applicable law or agreed to in writing, software
+│ - * distributed under the License is distributed on an "AS IS" BASIS,
+│ - * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+│ - * See the License for the specific language governing permissions and
+│ - * limitations under the License.
+│ - */
+...
+│ -        signerInformation = SignerInformation.replaceUnsignedAttributes(signerInformation, unsignedAttributes);
+│ -        return CMSSignedData.replaceSigners(primary, new SignerInformationStore(signerInformation));
+│ -    }
+│ -}
+│ +/**
+
+│ + * Copyright 2019 Emmanuel Bourg
+
+│ + *
+
+│ + * Licensed under the Apache License, Version 2.0 (the "License");
+
+│ + * you may not use this file except in compliance with the License.
+
+│ + * You may obtain a copy of the License at
+
+│ + *
+
+│ + *     http://www.apache.org/licenses/LICENSE-2.0
+
+│ + *
+
+│ + * Unless required by applicable law or agreed to in writing, software
+
+│ + * distributed under the License is distributed on an "AS IS" BASIS,
+
+│ + * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+│ + * See the License for the specific language governing permissions and
+
+│ + * limitations under the License.
+
+│ + */
+...
+│ +        signerInformation = SignerInformation.replaceUnsignedAttributes(signerInformation, unsignedAttributes);
+
+│ +        return CMSSignedData.replaceSigners(primary, new SignerInformationStore(signerInformation));
+
+│ +    }
+
+│ +}
+# crlf conversion issues
+
+# TODO see how build is configured to avoid publishing -tests.jar to Maven Central
+2 / 3 target/reference/jsign-core-4.2-tests.jar jsign-core/target/jsign-core-4.2-tests.jar
+/srv/diffoscope/bin/diffoscope: target/reference/jsign-core-4.2-tests.jar: No such file or directory
+
+3 / 3 target/reference/jsign-4.2.jar jsign/target/jsign-4.2.jar
+--- target/reference/jsign-4.2.jar
++++ jsign/target/jsign-4.2.jar
+├── zipinfo {}
+│ @@ -1,1028 +1,1028 @@
+│  Zip file size: 1227925 bytes, number of entries: 1026
+│ --rw----     1.0 fat      114 b- defN 22-Sep-19 15:12 META-INF/MANIFEST.MF
+│ --rw----     1.0 fat     1783 b- defN 22-Sep-19 15:12 net/jsign/AuthenticodeSigner$1.class
+│ --rw----     1.0 fat    17039 b- defN 22-Sep-19 15:12 net/jsign/AuthenticodeSigner.class
+│ --rw----     1.0 fat     4686 b- defN 22-Sep-19 15:12 net/jsign/ChannelUtils.class
+...
+│ --rw----     1.0 fat     1516 b- defN 22-Sep-19 15:12 net/jsign/commons/cli/MissingOptionException.class
+│ --rw----     1.0 fat     6300 b- defN 22-Sep-19 15:12 net/jsign/commons/cli/Option.class
+│ --rw----     1.0 fat      378 b- defN 22-Sep-19 15:12 net/jsign/commons/cli/ParseException.class
+│ +-rw----     1.0 fat      114 b- defN 22-Sep-20 10:29 META-INF/MANIFEST.MF
+│ +-rw----     1.0 fat     1783 b- defN 22-Sep-20 10:29 net/jsign/AuthenticodeSigner$1.class
+│ +-rw----     1.0 fat    17039 b- defN 22-Sep-20 10:29 net/jsign/AuthenticodeSigner.class
+│ +-rw----     1.0 fat     4686 b- defN 22-Sep-20 10:29 net/jsign/ChannelUtils.class
+...
+│ +-rw----     1.0 fat     1516 b- defN 22-Sep-20 10:29 net/jsign/commons/cli/MissingOptionException.class
+│ +-rw----     1.0 fat     6300 b- defN 22-Sep-20 10:29 net/jsign/commons/cli/Option.class
+│ +-rw----     1.0 fat      378 b- defN 22-Sep-20 10:29 net/jsign/commons/cli/ParseException.class
+│  1026 files, 2371385 bytes uncompressed, 1038987 bytes compressed:  56.2%
+

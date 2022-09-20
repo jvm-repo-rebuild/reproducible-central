@@ -1,0 +1,10 @@
+version=4.2
+ok=17
+ko=3
+okFiles="jsign-parent-4.2.pom jsign-core-4.2.pom jsign-core-4.2.jar jsign-ant-4.2.pom jsign-ant-4.2.jar jsign-ant-4.2-sources.jar jsign-cli-4.2.pom jsign-cli-4.2.jar jsign-cli-4.2-sources.jar jsign-4.2.pom jsign-4.2-sources.jar jsign-maven-plugin-4.2.pom jsign-maven-plugin-4.2.jar jsign-maven-plugin-4.2-sources.jar jsign-gradle-plugin-4.2.pom jsign-gradle-plugin-4.2.jar jsign-gradle-plugin-4.2-sources.jar"
+koFiles="jsign-core-4.2-sources.jar jsign-core-4.2-tests.jar jsign-4.2.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/jsign-core-4.2-sources.jar jsign-core/target/jsign-core-4.2-sources.jar
+# diffoscope target/reference/jsign-core-4.2-tests.jar jsign-core/target/jsign-core-4.2-tests.jar
+# diffoscope target/reference/jsign-4.2.jar jsign/target/jsign-4.2.jar
