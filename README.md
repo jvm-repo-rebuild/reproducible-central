@@ -66,8 +66,8 @@ Notice the anchor in the link.
 Nightly Rebuild: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
 
 <!-- BEGIN GENERATED INTRO -->
-rebuilding **1173 releases** of **318 projects**:
-- **829** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **1174 releases** of **318 projects**:
+- **830** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 344 had issues (some unreproducible artifacts :warning:):
 
 <!-- END GENERATED INTRO -->
@@ -242,7 +242,7 @@ rebuilding **1173 releases** of **318 projects**:
 | | <a name='org.apache.sling:maven-enforcer-rules'></a>[maven-enforcer-rules](content/org/apache/sling/maven-enforcer-rules/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.adapter'></a>[*.adapter](content/org/apache/sling/org.apache.sling.adapter/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.api'></a>[*.api](content/org/apache/sling/org.apache.sling.api/README.md) | 8 | 8 :heavy_check_mark: |
-| | <a name='org.apache.sling:org.apache.sling.auth.core'></a>[*.auth.core](content/org/apache/sling/org.apache.sling.auth.core/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='org.apache.sling:org.apache.sling.auth.core'></a>[*.auth.core](content/org/apache/sling/org.apache.sling.auth.core/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.bundleresource.impl'></a>[*.bundleresource.impl](content/org/apache/sling/org.apache.sling.bundleresource.impl/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.caconfig.api'></a>[*.caconfig.api](content/org/apache/sling/org.apache.sling.caconfig.api/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.caconfig.impl'></a>[*.caconfig.impl](content/org/apache/sling/org.apache.sling.caconfig.impl/README.md) | 1 | 1 :heavy_check_mark: |
@@ -393,7 +393,7 @@ rebuilding **1173 releases** of **318 projects**:
 | | <a name='org.webjars:webjars-locator-core'></a>[webjars-locator-core](content/org/webjars/webjars-locator-core/README.md) | 1 | 1 :heavy_check_mark: |
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 6 | 6 :warning: |
-| **Count:** | **318** | **1173** | **829** :heavy_check_mark: **344** :warning: |
+| **Count:** | **318** | **1174** | **830** :heavy_check_mark: **344** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ## Understanding What Is Behind

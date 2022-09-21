@@ -13,6 +13,7 @@ rebuilding **1 releases** of com.fasterxml:oss-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [47](https://search.maven.org/artifact/com.fasterxml/oss-parent/47/pom) | | | |
 | [46](https://search.maven.org/artifact/com.fasterxml/oss-parent/46/pom) | [mvn jdk11](oss-parent-46.buildspec) | [result](oss-parent-46.buildinfo): [2 :heavy_check_mark: ](oss-parent-46.buildcompare) | 25K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
