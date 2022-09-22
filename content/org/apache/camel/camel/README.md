@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/camel.git](https://github.com/apache/camel.git)
 
-<details><summary>This project defines 582 modules:</summary>
+<details><summary>This project defines 593 modules:</summary>
 
 * [org.apache.camel.archetypes:camel-archetype-api-component](https://search.maven.org/artifact/org.apache.camel.archetypes/camel-archetype-api-component/)
 * [org.apache.camel.archetypes:camel-archetype-cdi](https://search.maven.org/artifact/org.apache.camel.archetypes/camel-archetype-cdi/)
@@ -145,6 +145,14 @@ Source code: [https://github.com/apache/camel.git](https://github.com/apache/cam
 * [org.apache.camel:camel-csimple-maven-plugin](https://search.maven.org/artifact/org.apache.camel/camel-csimple-maven-plugin/)
 * [org.apache.camel:camel-csv](https://search.maven.org/artifact/org.apache.camel/camel-csv/)
 * [org.apache.camel:camel-cxf](https://search.maven.org/artifact/org.apache.camel/camel-cxf/)
+* [org.apache.camel:camel-cxf-common](https://search.maven.org/artifact/org.apache.camel/camel-cxf-common/)
+* [org.apache.camel:camel-cxf-parent](https://search.maven.org/artifact/org.apache.camel/camel-cxf-parent/)
+* [org.apache.camel:camel-cxf-rest](https://search.maven.org/artifact/org.apache.camel/camel-cxf-rest/)
+* [org.apache.camel:camel-cxf-soap](https://search.maven.org/artifact/org.apache.camel/camel-cxf-soap/)
+* [org.apache.camel:camel-cxf-spring-common](https://search.maven.org/artifact/org.apache.camel/camel-cxf-spring-common/)
+* [org.apache.camel:camel-cxf-spring-rest](https://search.maven.org/artifact/org.apache.camel/camel-cxf-spring-rest/)
+* [org.apache.camel:camel-cxf-spring-soap](https://search.maven.org/artifact/org.apache.camel/camel-cxf-spring-soap/)
+* [org.apache.camel:camel-cxf-spring-transport](https://search.maven.org/artifact/org.apache.camel/camel-cxf-spring-transport/)
 * [org.apache.camel:camel-cxf-transport](https://search.maven.org/artifact/org.apache.camel/camel-cxf-transport/)
 * [org.apache.camel:camel-dataformat](https://search.maven.org/artifact/org.apache.camel/camel-dataformat/)
 * [org.apache.camel:camel-dataset](https://search.maven.org/artifact/org.apache.camel/camel-dataset/)
@@ -222,6 +230,7 @@ Source code: [https://github.com/apache/camel.git](https://github.com/apache/cam
 * [org.apache.camel:camel-grpc](https://search.maven.org/artifact/org.apache.camel/camel-grpc/)
 * [org.apache.camel:camel-gson](https://search.maven.org/artifact/org.apache.camel/camel-gson/)
 * [org.apache.camel:camel-guava-eventbus](https://search.maven.org/artifact/org.apache.camel/camel-guava-eventbus/)
+* [org.apache.camel:camel-hashicorp-vault](https://search.maven.org/artifact/org.apache.camel/camel-hashicorp-vault/)
 * [org.apache.camel:camel-hazelcast](https://search.maven.org/artifact/org.apache.camel/camel-hazelcast/)
 * [org.apache.camel:camel-hbase](https://search.maven.org/artifact/org.apache.camel/camel-hbase/)
 * [org.apache.camel:camel-hdfs](https://search.maven.org/artifact/org.apache.camel/camel-hdfs/)
@@ -287,6 +296,7 @@ Source code: [https://github.com/apache/camel.git](https://github.com/apache/cam
 * [org.apache.camel:camel-jooq](https://search.maven.org/artifact/org.apache.camel/camel-jooq/)
 * [org.apache.camel:camel-joor](https://search.maven.org/artifact/org.apache.camel/camel-joor/)
 * [org.apache.camel:camel-jpa](https://search.maven.org/artifact/org.apache.camel/camel-jpa/)
+* [org.apache.camel:camel-jq](https://search.maven.org/artifact/org.apache.camel/camel-jq/)
 * [org.apache.camel:camel-js-dsl](https://search.maven.org/artifact/org.apache.camel/camel-js-dsl/)
 * [org.apache.camel:camel-jsch](https://search.maven.org/artifact/org.apache.camel/camel-jsch/)
 * [org.apache.camel:camel-jsh-dsl](https://search.maven.org/artifact/org.apache.camel/camel-jsh-dsl/)
@@ -480,6 +490,7 @@ Source code: [https://github.com/apache/camel.git](https://github.com/apache/cam
 * [org.apache.camel:camel-test-infra-fhir](https://search.maven.org/artifact/org.apache.camel/camel-test-infra-fhir/)
 * [org.apache.camel:camel-test-infra-ftp](https://search.maven.org/artifact/org.apache.camel/camel-test-infra-ftp/)
 * [org.apache.camel:camel-test-infra-google-pubsub](https://search.maven.org/artifact/org.apache.camel/camel-test-infra-google-pubsub/)
+* [org.apache.camel:camel-test-infra-hashicorp-vault](https://search.maven.org/artifact/org.apache.camel/camel-test-infra-hashicorp-vault/)
 * [org.apache.camel:camel-test-infra-hbase](https://search.maven.org/artifact/org.apache.camel/camel-test-infra-hbase/)
 * [org.apache.camel:camel-test-infra-hdfs](https://search.maven.org/artifact/org.apache.camel/camel-test-infra-hdfs/)
 * [org.apache.camel:camel-test-infra-ignite](https://search.maven.org/artifact/org.apache.camel/camel-test-infra-ignite/)
@@ -593,13 +604,13 @@ Source code: [https://github.com/apache/camel.git](https://github.com/apache/cam
 * [org.apache.camel:tooling-parent](https://search.maven.org/artifact/org.apache.camel/tooling-parent/)
 </details>
 
-rebuilding **2 releases** of org.apache.camel:camel:
+rebuilding **3 releases** of org.apache.camel:camel:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.18.2](https://search.maven.org/artifact/org.apache.camel/camel/3.18.2/pom) | | | |
+| [3.18.2](https://search.maven.org/artifact/org.apache.camel/camel/3.18.2/pom) | [mvn jdk11](camel-3.18.2.buildspec) | [result](camel-3.18.2.buildinfo): [1156 :heavy_check_mark:  435 :warning:](camel-3.18.2.buildcompare) [:mag:](camel-3.18.2.diffoscope) [:memo:](https://github.com/apache/camel/pull/7665) | 226M |
 | [3.18.1](https://search.maven.org/artifact/org.apache.camel/camel/3.18.1/pom) | | | |
 | [3.18.0](https://search.maven.org/artifact/org.apache.camel/camel/3.18.0/pom) | | | |
 | [3.17.0](https://search.maven.org/artifact/org.apache.camel/camel/3.17.0/pom) | [mvn jdk11](camel-3.17.0.buildspec) | [result](camel-3.17.0.buildinfo): [1122 :heavy_check_mark:  440 :warning:](camel-3.17.0.buildcompare) [:mag:](camel-3.17.0.diffoscope) [:memo:](https://github.com/apache/camel/pull/7665) | 224M |
