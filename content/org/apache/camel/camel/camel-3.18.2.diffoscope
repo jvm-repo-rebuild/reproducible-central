@@ -1,0 +1,388 @@
+# many many jars non-reproducible just because jandex.idx included is not
+
+2 / 435 target/reference/camel-util-3.18.2.jar core/camel-util/target/camel-util-3.18.2.jar
+--- target/reference/camel-util-3.18.2.jar
++++ core/camel-util/target/camel-util-3.18.2.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 191040 bytes, number of entries: 120
+│ +Zip file size: 191047 bytes, number of entries: 120
+│  -rw-r--r--  2.0 unx     1662 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/services/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/services/org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/services/org/apache/camel/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│ @@ -13,15 +13,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/camel/util/concurrent/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/camel/util/function/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.camel/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.camel/camel-util/
+│  -rw-r--r--  2.0 unx    11359 b- defN 80-000-00 04:08 META-INF/LICENSE.txt
+│  -rw-r--r--  2.0 unx      596 b- defN 80-000-00 04:08 META-INF/NOTICE.txt
+│ --rw-r--r--  2.0 unx    34507 b- defN 80-000-00 04:08 META-INF/jandex.idx
+│ +-rw-r--r--  2.0 unx    34518 b- defN 80-000-00 04:08 META-INF/jandex.idx
+│  -rw-r--r--  2.0 unx      204 b- defN 80-000-00 04:08 META-INF/services/org/apache/camel/other.properties
+│  -rw-r--r--  2.0 unx     7679 b- defN 80-000-00 04:08 org/apache/camel/util/AntPathMatcher.class
+│  -rw-r--r--  2.0 unx     3771 b- defN 80-000-00 04:08 org/apache/camel/util/BaseOrderedProperties.class
+│  -rw-r--r--  2.0 unx      591 b- defN 80-000-00 04:08 org/apache/camel/util/BufferCaster.class
+│  -rw-r--r--  2.0 unx     2497 b- defN 80-000-00 04:08 org/apache/camel/util/CamelCaseOrderedProperties.class
+│  -rw-r--r--  2.0 unx     2002 b- defN 80-000-00 04:08 org/apache/camel/util/CamelURIParser.class
+│  -rw-r--r--  2.0 unx      900 b- defN 80-000-00 04:08 org/apache/camel/util/CaseInsensitiveMap.class
+│ @@ -115,8 +115,8 @@
+│  -rw-r--r--  2.0 unx      460 b- defN 80-000-00 04:08 org/apache/camel/util/function/ThrowingToLongFunction.class
+│  -rw-r--r--  2.0 unx      561 b- defN 80-000-00 04:08 org/apache/camel/util/function/ThrowingTriConsumer.class
+│  -rw-r--r--  2.0 unx      470 b- defN 80-000-00 04:08 org/apache/camel/util/function/TriConsumer.class
+│  -rw-r--r--  2.0 unx      195 b- defN 80-000-00 04:08 other.properties
+│  -rw-r--r--  2.0 unx      321 b- defN 80-000-00 04:08 util.json
+│  -rw-r--r--  2.0 unx     2294 b- defN 80-000-00 04:08 META-INF/maven/org.apache.camel/camel-util/pom.xml
+│  -rw-r--r--  2.0 unx       62 b- defN 80-000-00 04:08 META-INF/maven/org.apache.camel/camel-util/pom.properties
+│ -120 files, 381051 bytes uncompressed, 171092 bytes compressed:  55.1%
+│ +120 files, 381062 bytes uncompressed, 171099 bytes compressed:  55.1%
+├── META-INF/MANIFEST.MF
+│ @@ -12,18 +12,18 @@
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+
+│  Bundle-ManifestVersion: 2
+
+│  Bundle-Name: camel-util
+
+│  Bundle-SymbolicName: org.apache.camel.camel-util
+
+│  Bundle-Vendor: The Apache Software Foundation
+
+│  Bundle-Version: 3.18.2
+
+│  Export-Package: org.apache.camel.util;version="3.18.2";uses:="javax.nami
+
+│ - ng,org.apache.camel.util.function,org.slf4j",org.apache.camel.util.back
+
+│ - off;version="3.18.2";uses:="org.apache.camel.util.function",org.apache.
+
+│ - camel.util.concurrent;version="3.18.2";uses:="org.apache.camel.util.fun
+
+│ - ction",org.apache.camel.util.function;version="3.18.2"
+
+│ + ng,org.apache.camel.util.function,org.slf4j",org.apache.camel.util.func
+
+│ + tion;version="3.18.2",org.apache.camel.util.backoff;version="3.18.2";us
+
+│ + es:="org.apache.camel.util.function",org.apache.camel.util.concurrent;v
+
+│ + ersion="3.18.2";uses:="org.apache.camel.util.function"
+
+│  Import-Package: org.apache.camel;version="[3.18,3.19)",org.apache.camel.
+
+│   support;version="[3.18,3.19)",java.io,java.lang,java.lang.annotation,ja
+
+│   va.lang.invoke,java.lang.reflect,java.net,java.nio,java.nio.channels,ja
+
+│   va.nio.charset,java.nio.file,java.nio.file.attribute,java.text,java.tim
+
+│   e,java.util,java.util.concurrent,java.util.concurrent.atomic,java.util.
+
+│   concurrent.locks,java.util.function,java.util.regex,java.util.stream,ja
+
+│   vax.naming,org.slf4j;version="[1.7,2)",org.w3c.dom
+
+...
+
+348 / 435 target/reference/camel-soap-3.18.2-sources.jar components/camel-soap/target/camel-soap-3.18.2-sources.jar
+--- target/reference/camel-soap-3.18.2-sources.jar
++++ components/camel-soap/target/camel-soap-3.18.2-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 60528 bytes, number of entries: 70
+│ +Zip file size: 60531 bytes, number of entries: 70
+│  -rw-r--r--  2.0 unx      213 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/camel/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/camel/dataformat/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 org/apache/camel/dataformat/soap/
+│ @@ -65,8 +65,8 @@
+│  -rw-r--r--  2.0 unx      112 b- defN 80-000-00 04:08 META-INF/services/org/apache/camel/dataformat/soap
+│  -rw-r--r--  2.0 unx      201 b- defN 80-000-00 04:08 META-INF/services/org/apache/camel/dataformat.properties
+│  -rw-r--r--  2.0 unx     3946 b- defN 80-000-00 04:08 org/apache/camel/dataformat/soap/soap.json
+│  -rw-r--r--  2.0 unx      180 b- defN 80-000-00 04:08 org/w3/_2003/_05/soap_envelope/jaxb.index
+│  -rw-r--r--  2.0 unx       92 b- defN 80-000-00 04:08 org/xmlsoap/schemas/soap/envelope/jaxb.index
+│  -rw-r--r--  2.0 unx     8053 b- defN 80-000-00 04:08 META-INF/maven/org.apache.camel/camel-soap/pom.xml
+│  -rw-r--r--  2.0 unx       62 b- defN 80-000-00 04:08 META-INF/maven/org.apache.camel/camel-soap/pom.properties
+│ -70 files, 155980 bytes uncompressed, 49602 bytes compressed:  68.2%
+│ +70 files, 155980 bytes uncompressed, 49605 bytes compressed:  68.2%
+├── org/w3/_2003/_05/soap_envelope/Body.java
+│ @@ -1,12 +1,12 @@
+│  //
+│  // This file was generated by the Eclipse Implementation of JAXB, v2.3.5 
+│  // See https://eclipse-ee4j.github.io/jaxb-ri 
+│  // Any modifications to this file will be lost upon recompilation of the source schema. 
+│ -// Generated on: 2022.09.05 at 07:33:37 AM UTC 
+│ +// Generated on: 2022.09.22 at 07:45:14 AM UTC 
+│  //
+│  
+│  
+│  package org.w3._2003._05.soap_envelope;
+│  
+│  import java.util.ArrayList;
+│  import java.util.Collection;
+...
+
+...
+
+426 / 435 target/reference/org.apache.camel.tests.mock-javamail_1.7-3.18.2.pom tests/test-bundles/mock-javamail_1.7/dependency-reduced-pom.xml
+--- target/reference/org.apache.camel.tests.mock-javamail_1.7-3.18.2.pom
++++ tests/test-bundles/mock-javamail_1.7/dependency-reduced-pom.xml
+│   --- target/reference/org.apache.camel.tests.mock-javamail_1.7-3.18.2.pom
+├── +++ tests/test-bundles/mock-javamail_1.7/dependency-reduced-pom.xml
+│ @@ -55,52 +55,47 @@
+│                <execution>
+│                  <id>attach-javadocs</id>
+│                  <goals>
+│                    <goal>jar</goal>
+│                  </goals>
+│                  <configuration>
+│                    <failOnError>false</failOnError>
+│ -                  <source>8</source>
+│ -                  <additionalOptions>${javadoc.opts}</additionalOptions>
+│ -                  <doclint>none</doclint>
+│                    <attach>true</attach>
+│ +                  <source>11</source>
+│                    <quiet>true</quiet>
+│                    <bottom>Apache Camel</bottom>
+│                    <detectOfflineLinks>false</detectOfflineLinks>
+│                    <javadocVersion>1.8.0</javadocVersion>
+│                    <encoding>UTF-8</encoding>
+│                    <notimestamp>true</notimestamp>
+│                  </configuration>
+│                </execution>
+│              </executions>
+│              <configuration>
+│                <failOnError>false</failOnError>
+│ -              <source>8</source>
+│ -              <additionalOptions>${javadoc.opts}</additionalOptions>
+│ -              <doclint>none</doclint>
+│                <attach>true</attach>
+│ +              <source>11</source>
+│                <quiet>true</quiet>
+│                <bottom>Apache Camel</bottom>
+│                <detectOfflineLinks>false</detectOfflineLinks>
+│                <javadocVersion>1.8.0</javadocVersion>
+│                <encoding>UTF-8</encoding>
+│                <notimestamp>true</notimestamp>
+│              </configuration>
+│            </plugin>
+│          </plugins>
+│        </build>
+│        <properties>
+│          <os.detected.arch>x86_64</os.detected.arch>
+│ -        <os.detected.release.version>20.04</os.detected.release.version>
+│ +        <os.detected.release.version>11</os.detected.release.version>
+│          <os.detected.release.like.debian>true</os.detected.release.like.debian>
+│          <os.detected.bitness>64</os.detected.bitness>
+│          <os.detected.name>linux</os.detected.name>
+│ -        <os.detected.release.like.ubuntu>true</os.detected.release.like.ubuntu>
+│          <os.detected.classifier>linux-x86_64</os.detected.classifier>
+│ -        <os.detected.release>ubuntu</os.detected.release>
+│ +        <os.detected.release>debian</os.detected.release>
+│        </properties>
+│      </profile>
+│    </profiles>
+│    <dependencies>
+│      <dependency>
+│        <groupId>junit</groupId>
+│        <artifactId>junit</artifactId>
+
+...
+
+434 / 435 target/reference/camel-typeconverterscan-test-3.18.2.jar tests/camel-typeconverterscan-test/target/camel-typeconverterscan-test-3.18.2.jar
+--- target/reference/camel-typeconverterscan-test-3.18.2.jar
++++ tests/camel-typeconverterscan-test/target/camel-typeconverterscan-test-3.18.2.jar
+├── zipinfo {}
+│ @@ -1,11 +1,11 @@
+│ -Zip file size: 6843 bytes, number of entries: 9
+│ +Zip file size: 6844 bytes, number of entries: 9
+│  -rw-r--r--  2.0 unx      858 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.camel/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.camel/camel-typeconverterscan-test/
+│  -rw-r--r--  2.0 unx    11359 b- defN 80-000-00 04:08 META-INF/LICENSE.txt
+│  -rw-r--r--  2.0 unx      596 b- defN 80-000-00 04:08 META-INF/NOTICE.txt
+│  -rw-r--r--  2.0 unx     1920 b- defN 80-000-00 04:08 META-INF/maven/org.apache.camel/camel-typeconverterscan-test/pom.xml
+│  -rw-r--r--  2.0 unx       80 b- defN 80-000-00 04:08 META-INF/maven/org.apache.camel/camel-typeconverterscan-test/pom.properties
+│ -9 files, 14813 bytes uncompressed, 5499 bytes compressed:  62.9%
+│ +9 files, 14813 bytes uncompressed, 5500 bytes compressed:  62.9%
+├── META-INF/MANIFEST.MF
+│ @@ -3,15 +3,15 @@
+│  Build-Jdk-Spec: 11
+
+│  Specification-Title: Camel :: Integration Tests :: TypeConverter Scan
+
+│  Specification-Version: 3.18
+
+│  Specification-Vendor: The Apache Software Foundation
+
+│  Implementation-Title: Camel :: Integration Tests :: TypeConverter Scan
+
+│  Implementation-Version: 3.18.2
+
+│  Implementation-Vendor: The Apache Software Foundation
+
+│ -Bnd-LastModified: 1662364470426
+
+│ +Bnd-LastModified: 1663833009952
+
+│  Bundle-Description: Tests the type converter package scanning
+
+│  Bundle-DocURL: https://www.apache.org/
+
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+
+│  Bundle-ManifestVersion: 2
+
+│  Bundle-Name: Camel :: Integration Tests :: TypeConverter Scan
+
+│  Bundle-SymbolicName: org.apache.camel.typeconverterscan-test
+
+│  Bundle-Vendor: The Apache Software Foundation
+
+435 / 435 target/reference/apache-camel-3.18.2-src.zip apache-camel/target/apache-camel-3.18.2-src.zip
+--- target/reference/apache-camel-3.18.2-src.zip
++++ apache-camel/target/apache-camel-3.18.2-src.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 66448477 bytes, number of entries: 51771
+│ +Zip file size: 66448419 bytes, number of entries: 51771
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 apache-camel-3.18.2/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 apache-camel-3.18.2/apache-camel/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 apache-camel-3.18.2/apache-camel/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 apache-camel-3.18.2/apache-camel/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 apache-camel-3.18.2/apache-camel/src/main/descriptors/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 apache-camel-3.18.2/apache-camel/src/main/release/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 apache-camel-3.18.2/apache-camel/src/main/resources/
+│ @@ -21064,15 +21064,15 @@
+│  -rw-r--r--  2.0 unx      367 b- defN 80-000-00 04:08 apache-camel-3.18.2/catalog/camel-catalog/src/generated/resources/org/apache/camel/catalog/others/tracing.json
+│  -rw-r--r--  2.0 unx      409 b- defN 80-000-00 04:08 apache-camel-3.18.2/catalog/camel-catalog/src/generated/resources/org/apache/camel/catalog/others/undertow-spring-security.json
+│  -rw-r--r--  2.0 unx      347 b- defN 80-000-00 04:08 apache-camel-3.18.2/catalog/camel-catalog/src/generated/resources/org/apache/camel/catalog/others/xml-io-dsl.json
+│  -rw-r--r--  2.0 unx      362 b- defN 80-000-00 04:08 apache-camel-3.18.2/catalog/camel-catalog/src/generated/resources/org/apache/camel/catalog/others/xml-jaxb-dsl.json
+│  -rw-r--r--  2.0 unx      332 b- defN 80-000-00 04:08 apache-camel-3.18.2/catalog/camel-catalog/src/generated/resources/org/apache/camel/catalog/others/yaml-dsl.json
+│  -rw-r--r--  2.0 unx      368 b- defN 80-000-00 04:08 apache-camel-3.18.2/catalog/camel-catalog/src/generated/resources/org/apache/camel/catalog/others/zipkin.json
+│  -rw-r--r--  2.0 unx      744 b- defN 80-000-00 04:08 apache-camel-3.18.2/catalog/camel-catalog/src/generated/resources/org/apache/camel/catalog/others.properties
+│ --rw-r--r--  2.0 unx   648586 b- defN 80-000-00 04:08 apache-camel-3.18.2/catalog/camel-catalog/src/generated/resources/org/apache/camel/catalog/schemas/camel-spring.xsd
+│ +-rw-r--r--  2.0 unx   648585 b- defN 80-000-00 04:08 apache-camel-3.18.2/catalog/camel-catalog/src/generated/resources/org/apache/camel/catalog/schemas/camel-spring.xsd
+│  -rw-r--r--  2.0 unx    20141 b- defN 80-000-00 04:08 apache-camel-3.18.2/catalog/camel-catalog/src/main/java/org/apache/camel/catalog/CamelCatalog.java
+│  -rw-r--r--  2.0 unx     6043 b- defN 80-000-00 04:08 apache-camel-3.18.2/catalog/camel-catalog/src/main/java/org/apache/camel/catalog/CamelCatalogJSonSchemaResolver.java
+│  -rw-r--r--  2.0 unx    19975 b- defN 80-000-00 04:08 apache-camel-3.18.2/catalog/camel-catalog/src/main/java/org/apache/camel/catalog/DefaultCamelCatalog.java
+│  -rw-r--r--  2.0 unx     5375 b- defN 80-000-00 04:08 apache-camel-3.18.2/catalog/camel-catalog/src/main/java/org/apache/camel/catalog/DefaultRuntimeProvider.java
+│  -rw-r--r--  2.0 unx     2116 b- defN 80-000-00 04:08 apache-camel-3.18.2/catalog/camel-catalog/src/main/java/org/apache/camel/catalog/DefaultVersionManager.java
+│  -rw-r--r--  2.0 unx     1002 b- defN 80-000-00 04:08 apache-camel-3.18.2/catalog/camel-catalog/src/main/java/org/apache/camel/catalog/Kind.java
+│  -rw-r--r--  2.0 unx     2979 b- defN 80-000-00 04:08 apache-camel-3.18.2/catalog/camel-catalog/src/main/java/org/apache/camel/catalog/RuntimeProvider.java
+│ @@ -51255,15 +51255,15 @@
+│  -rw-r--r--  2.0 unx     2094 b- defN 80-000-00 04:08 apache-camel-3.18.2/tests/test-bundles/camel-validator-test-resources/pom.xml
+│  -rw-r--r--  2.0 unx     1316 b- defN 80-000-00 04:08 apache-camel-3.18.2/tests/test-bundles/camel-validator-test-resources/src/main/resources/org/apache/camel/component/validator/dotslash/child.xsd
+│  -rw-r--r--  2.0 unx     1275 b- defN 80-000-00 04:08 apache-camel-3.18.2/tests/test-bundles/camel-validator-test-resources/src/main/resources/org/apache/camel/component/validator/dotslash/parent.xsd
+│  -rw-r--r--  2.0 unx     1317 b- defN 80-000-00 04:08 apache-camel-3.18.2/tests/test-bundles/camel-validator-test-resources/src/main/resources/org/apache/camel/component/validator/doubleslash/child.xsd
+│  -rw-r--r--  2.0 unx     1275 b- defN 80-000-00 04:08 apache-camel-3.18.2/tests/test-bundles/camel-validator-test-resources/src/main/resources/org/apache/camel/component/validator/doubleslash/parent.xsd
+│  -rw-r--r--  2.0 unx     1317 b- defN 80-000-00 04:08 apache-camel-3.18.2/tests/test-bundles/camel-validator-test-resources/src/main/resources/org/apache/camel/component/validator/relativeparent/child/child.xsd
+│  -rw-r--r--  2.0 unx     1275 b- defN 80-000-00 04:08 apache-camel-3.18.2/tests/test-bundles/camel-validator-test-resources/src/main/resources/org/apache/camel/component/validator/relativeparent/parent.xsd
+│ --rw-r--r--  2.0 unx     5627 b- defN 80-000-00 04:08 apache-camel-3.18.2/tests/test-bundles/mock-javamail_1.7/dependency-reduced-pom.xml
+│ +-rw-r--r--  2.0 unx     5319 b- defN 80-000-00 04:08 apache-camel-3.18.2/tests/test-bundles/mock-javamail_1.7/dependency-reduced-pom.xml
+│  -rw-r--r--  2.0 unx     5184 b- defN 80-000-00 04:08 apache-camel-3.18.2/tests/test-bundles/mock-javamail_1.7/pom.xml
+│  -rw-r--r--  2.0 unx     1123 b- defN 80-000-00 04:08 apache-camel-3.18.2/tests/test-bundles/mock-javamail_1.7/src/main/java/org/jvnet/mock_javamail/provider/IMAPProvider.java
+│  -rw-r--r--  2.0 unx     1123 b- defN 80-000-00 04:08 apache-camel-3.18.2/tests/test-bundles/mock-javamail_1.7/src/main/java/org/jvnet/mock_javamail/provider/POP3Provider.java
+│  -rw-r--r--  2.0 unx     1130 b- defN 80-000-00 04:08 apache-camel-3.18.2/tests/test-bundles/mock-javamail_1.7/src/main/java/org/jvnet/mock_javamail/provider/SMTPProvider.java
+│  -rw-r--r--  2.0 unx    11359 b- defN 80-000-00 04:08 apache-camel-3.18.2/tests/test-bundles/mock-javamail_1.7/src/main/resources/META-INF/LICENSE.txt
+│  -rw-r--r--  2.0 unx      596 b- defN 80-000-00 04:08 apache-camel-3.18.2/tests/test-bundles/mock-javamail_1.7/src/main/resources/META-INF/NOTICE.txt
+│  -rw-r--r--  2.0 unx     1136 b- defN 80-000-00 04:08 apache-camel-3.18.2/tests/test-bundles/mock-javamail_1.7/src/main/resources/META-INF/javamail.default.providers
+│ @@ -51766,8 +51766,8 @@
+│  -rw-r--r--  2.0 unx     2332 b- defN 80-000-00 04:08 apache-camel-3.18.2/tooling/swagger-rest-dsl-generator/src/test/resources/MyRestRouteFilter.txt
+│  -rw-r--r--  2.0 unx     1012 b- defN 80-000-00 04:08 apache-camel-3.18.2/tooling/swagger-rest-dsl-generator/src/test/resources/SpringBootRestController.txt
+│  -rw-r--r--  2.0 unx    12321 b- defN 80-000-00 04:08 apache-camel-3.18.2/tooling/swagger-rest-dsl-generator/src/test/resources/SwaggerPetstore.txt
+│  -rw-r--r--  2.0 unx    12390 b- defN 80-000-00 04:08 apache-camel-3.18.2/tooling/swagger-rest-dsl-generator/src/test/resources/SwaggerPetstoreWithRestComponent.txt
+│  -rw-r--r--  2.0 unx     7699 b- defN 80-000-00 04:08 apache-camel-3.18.2/tooling/swagger-rest-dsl-generator/src/test/resources/SwaggerPetstoreWithRestComponentXml.txt
+│  -rw-r--r--  2.0 unx     7635 b- defN 80-000-00 04:08 apache-camel-3.18.2/tooling/swagger-rest-dsl-generator/src/test/resources/SwaggerPetstoreXml.txt
+│  -rw-r--r--  2.0 unx     1411 b- defN 80-000-00 04:08 apache-camel-3.18.2/tooling/swagger-rest-dsl-generator/src/test/resources/log4j2.properties
+│ -51771 files, 179631794 bytes uncompressed, 51444807 bytes compressed:  71.4%
+│ +51771 files, 179631485 bytes uncompressed, 51444749 bytes compressed:  71.4%
+├── apache-camel-3.18.2/catalog/camel-catalog/src/generated/resources/org/apache/camel/catalog/schemas/camel-spring.xsd
+│ ├── apache-camel-3.18.2/catalog/camel-catalog/src/generated/resources/org/apache/camel/catalog/schemas/camel-spring.xsd
+│ │ @@ -340,15 +340,15 @@
+│ │  Enriches a message with data from a secondary resource
+│ │        ]]></xs:documentation>
+│ │      </xs:annotation>
+│ │    </xs:element>
+│ │    <xs:element name="errorHandler" nillable="true" type="xs:anyType">
+│ │      <xs:annotation>
+│ │        <xs:documentation xml:lang="en"><![CDATA[
+│ │ -Error handler settings
+│ │ +Camel error handling.
+│ │        ]]></xs:documentation>
+│ │      </xs:annotation>
+│ │    </xs:element>
+│ │    <xs:element name="errorHandlerRef" type="tns:errorHandlerRefDefinition">
+│ │      <xs:annotation>
+│ │        <xs:documentation xml:lang="en"><![CDATA[
+│ │  Dead letter channel error handler.
+├── apache-camel-3.18.2/tests/test-bundles/mock-javamail_1.7/dependency-reduced-pom.xml
+│ ├── apache-camel-3.18.2/tests/test-bundles/mock-javamail_1.7/dependency-reduced-pom.xml
+│ │ @@ -55,52 +55,47 @@
+│ │                <execution>
+│ │                  <id>attach-javadocs</id>
+│ │                  <goals>
+│ │                    <goal>jar</goal>
+│ │                  </goals>
+│ │                  <configuration>
+│ │                    <failOnError>false</failOnError>
+│ │ -                  <source>8</source>
+│ │ -                  <additionalOptions>${javadoc.opts}</additionalOptions>
+│ │ -                  <doclint>none</doclint>
+│ │                    <attach>true</attach>
+│ │ +                  <source>11</source>
+│ │                    <quiet>true</quiet>
+│ │                    <bottom>Apache Camel</bottom>
+│ │                    <detectOfflineLinks>false</detectOfflineLinks>
+│ │                    <javadocVersion>1.8.0</javadocVersion>
+│ │                    <encoding>UTF-8</encoding>
+│ │                    <notimestamp>true</notimestamp>
+│ │                  </configuration>
+│ │                </execution>
+│ │              </executions>
+│ │              <configuration>
+│ │                <failOnError>false</failOnError>
+│ │ -              <source>8</source>
+│ │ -              <additionalOptions>${javadoc.opts}</additionalOptions>
+│ │ -              <doclint>none</doclint>
+│ │                <attach>true</attach>
+│ │ +              <source>11</source>
+│ │                <quiet>true</quiet>
+│ │                <bottom>Apache Camel</bottom>
+│ │                <detectOfflineLinks>false</detectOfflineLinks>
+│ │                <javadocVersion>1.8.0</javadocVersion>
+│ │                <encoding>UTF-8</encoding>
+│ │                <notimestamp>true</notimestamp>
+│ │              </configuration>
+│ │            </plugin>
+│ │          </plugins>
+│ │        </build>
+│ │        <properties>
+│ │          <os.detected.arch>x86_64</os.detected.arch>
+│ │ -        <os.detected.release.version>20.04</os.detected.release.version>
+│ │ +        <os.detected.release.version>11</os.detected.release.version>
+│ │          <os.detected.release.like.debian>true</os.detected.release.like.debian>
+│ │          <os.detected.bitness>64</os.detected.bitness>
+│ │          <os.detected.name>linux</os.detected.name>
+│ │ -        <os.detected.release.like.ubuntu>true</os.detected.release.like.ubuntu>
+│ │          <os.detected.classifier>linux-x86_64</os.detected.classifier>
+│ │ -        <os.detected.release>ubuntu</os.detected.release>
+│ │ +        <os.detected.release>debian</os.detected.release>
+│ │        </properties>
+│ │      </profile>
+│ │    </profiles>
+│ │    <dependencies>
+│ │      <dependency>
+│ │        <groupId>junit</groupId>
+│ │        <artifactId>junit</artifactId>
+

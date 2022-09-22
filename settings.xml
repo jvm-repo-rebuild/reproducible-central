@@ -136,6 +136,11 @@
       <!--url>https://maven.repository.redhat.com/ga/</url-->
     </mirror>
     <mirror>
+      <id>redhat</id>
+      <mirrorOf>redhat</mirrorOf>
+      <url>https://maven.repository.redhat.com/ga/</url>
+    </mirror>
+    <mirror>
         <!-- needed for content/net/sourceforge/pmd/pmd-6.42.0.buildspec -->
         <id>jcenter</id>
         <mirrorOf>jcenter</mirrorOf>
