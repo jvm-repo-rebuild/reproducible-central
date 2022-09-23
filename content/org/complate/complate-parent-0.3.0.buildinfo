@@ -1,0 +1,71 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=complate adapter for Java
+group-id=org.complate
+artifact-id=complate-parent
+version=0.3.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/complate/complate-java
+source.scm.tag=v0.3.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=complate-nashorn
+
+# aggregated output
+
+outputs.0.coordinates=org.complate:complate-parent
+
+outputs.0.0.filename=complate-parent-0.3.0.pom
+outputs.0.0.length=11241
+outputs.0.0.checksums.sha512=2f32c3be31119aee1f416abd5ab096eaed2ab212a7ed5ecad40a9817b3f77d55a396c883be5346cb96306317bb95815171d5a2363f52d34e68c469c0282a19c9
+
+outputs.1.coordinates=org.complate:complate-core
+
+outputs.1.0.filename=complate-core-0.3.0.pom
+outputs.1.0.length=2365
+outputs.1.0.checksums.sha512=86b14aef90d7cf811d1dcb31667e100d178a1f3757190b7e20312d120cdc44758534a2e6221d17814ddd9a81721a1d103b4d2d7d0316963779c6e8b6a1ccf41a
+
+outputs.1.1.filename=complate-core-0.3.0.jar
+outputs.1.1.length=9870
+outputs.1.1.checksums.sha512=2a5eb2d129619256a6ea8046869b9ebbd6ca2026afd13b4dd57363c7b6c3c64b8a52ab1ca9491a0648a0f76c380a9cba65ad3f40126ea8032f83cf063ce0a688
+
+outputs.1.2.filename=complate-core-0.3.0-sources.jar
+outputs.1.2.length=13061
+outputs.1.2.checksums.sha512=3361e9e3800293b56f8d122cb6864cadd762b8a408711e875b6ef1c4bec17486438621a887ba61993d40c92b91d1d0ccd44c40e42d469252dd15f86a162fb629
+
+outputs.2.coordinates=org.complate:complate-graal
+
+outputs.2.0.filename=complate-graal-0.3.0.pom
+outputs.2.0.length=2124
+outputs.2.0.checksums.sha512=f2ca92d01c10e13fccf76a4918299e412d21833fc12423aa713c8acf0089d5c1f404f6f0b1a41e7c7511d2c9cd8d8c6d0e80dbee248041e591b4f9f693defbc8
+
+outputs.2.1.filename=complate-graal-0.3.0.jar
+outputs.2.1.length=8253
+outputs.2.1.checksums.sha512=1363209f74794fdd3b308edba3d7c3cbc88ef8593a99e2e29cc6dca6d069935425d9555e17fb5e9c3fc2bb74c8d56600c257aaab3aaf4dcce9595b3fbaa0ba5c
+
+outputs.2.2.filename=complate-graal-0.3.0-sources.jar
+outputs.2.2.length=6047
+outputs.2.2.checksums.sha512=ebd747f7c82d1aac1ef8a72e576d67accf8a96bcff3cb9f6a38dd01eef3a55e4c688effdead67e01fce220aa88cc694634d42ea714fa07879ba1edaa60c0d275
+
+outputs.3.coordinates=org.complate:complate-nashorn
+
+outputs.3.0.filename=complate-nashorn-0.3.0.pom
+outputs.3.0.length=2153
+outputs.3.0.checksums.sha512=94ddf345c315c23dc0edd3df81152583269cba46f3d46b80ce176576f95e161b91a2c15ca38e3114766f02d3aaf1f12b6cffc4c6bb9a57735a68f4838196a14b
+
+outputs.3.1.filename=complate-nashorn-0.3.0.jar
+outputs.3.1.length=5722
+outputs.3.1.checksums.sha512=05e28658206fe56b9afb9db0e7006749b7c358e214213ac5470219e1a59a1663e6ed873f4ec538467364e00a227d6b812bcc748e753de94e9f9c22aec58566b7
+
+outputs.3.2.filename=complate-nashorn-0.3.0-sources.jar
+outputs.3.2.length=4005
+outputs.3.2.checksums.sha512=857fe59311d0ee452d14cf6729ba18087246a807942b93ac5735da750247d6d3eadd59a056fcfe03d4af21e06372117a8db62f47167734f056f425634f6570f4
