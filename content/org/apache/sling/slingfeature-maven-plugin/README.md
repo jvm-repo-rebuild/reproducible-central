@@ -7,12 +7,13 @@
 
 Source code: [https://github.com/apache/sling-slingfeature-maven-plugin.git](https://github.com/apache/sling-slingfeature-maven-plugin.git)
 
-rebuilding **7 releases** of org.apache.sling:slingfeature-maven-plugin:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **8 releases** of org.apache.sling:slingfeature-maven-plugin:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.6.8](https://search.maven.org/artifact/org.apache.sling/slingfeature-maven-plugin/1.6.8/pom) | [mvn jdk11](slingfeature-maven-plugin-1.6.8.buildspec) | [result](slingfeature-maven-plugin-1.6.8.buildinfo): [4 :heavy_check_mark: ](slingfeature-maven-plugin-1.6.8.buildcompare) | 852K |
 | [1.6.6](https://search.maven.org/artifact/org.apache.sling/slingfeature-maven-plugin/1.6.6/pom) | [mvn jdk11](slingfeature-maven-plugin-1.6.6.buildspec) | [result](slingfeature-maven-plugin-1.6.6.buildinfo): [4 :heavy_check_mark: ](slingfeature-maven-plugin-1.6.6.buildcompare) | 851K |
 | [1.6.4](https://search.maven.org/artifact/org.apache.sling/slingfeature-maven-plugin/1.6.4/pom) | [mvn jdk11](slingfeature-maven-plugin-1.6.4.buildspec) | [result](slingfeature-maven-plugin-1.6.4.buildinfo): [4 :heavy_check_mark: ](slingfeature-maven-plugin-1.6.4.buildcompare) | 851K |
 | [1.6.2](https://search.maven.org/artifact/org.apache.sling/slingfeature-maven-plugin/1.6.2/pom) | [mvn jdk15](slingfeature-maven-plugin-1.6.2.buildspec) | [result](slingfeature-maven-plugin-1.6.2.buildinfo): [4 :heavy_check_mark: ](slingfeature-maven-plugin-1.6.2.buildcompare) | 846K |

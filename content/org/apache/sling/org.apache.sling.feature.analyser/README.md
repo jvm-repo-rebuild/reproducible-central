@@ -7,12 +7,15 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-feature-analyser.git](https://github.com/apache/sling-org-apache-sling-feature-analyser.git)
 
-rebuilding **4 releases** of org.apache.sling:org.apache.sling.feature.analyser:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **5 releases** of org.apache.sling:org.apache.sling.feature.analyser:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.6.8](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.analyser/1.6.8/pom) | [mvn jdk11](org.apache.sling.feature.analyser-1.6.8.buildspec) | [result](org.apache.sling.feature.analyser-1.6.8.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.feature.analyser-1.6.8.buildcompare) [:memo:](https://github.com/apache/sling-org-apache-sling-feature-analyser/pull/36)
+[1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/org/apache/sling/org.apache.sling.feature.analyser/org.apache.sling.feature.analyser-1.6.8.buildspec[0m
+ | 670K |
 | [1.6.6](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.analyser/1.6.6/pom) | [mvn jdk11](org.apache.sling.feature.analyser-1.6.6.buildspec) | [result](org.apache.sling.feature.analyser-1.6.6.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.feature.analyser-1.6.6.buildcompare) [:memo:](https://github.com/apache/sling-org-apache-sling-feature-analyser/pull/36)
 [1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/org/apache/sling/org.apache.sling.feature.analyser/org.apache.sling.feature.analyser-1.6.6.buildspec[0m
  | 669K |
