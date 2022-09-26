@@ -4,7 +4,7 @@ Rebuilding artifacts from (Maven) Central Repository
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
 As part of [Reproducible Builds efforts for the JVM](https://reproducible-builds.org/docs/jvm/), this "**Reproducible Central**" project is an attempt at:
-1. writing [`.buildspec`rebuild instructions](BUILDSPEC.md) for the artifacts available in the [Central Repository](https://search.maven.org/),
+1. writing [`.buildspec`rebuild instructions](doc/BUILDSPEC.md) for the artifacts available in the [Central Repository](https://search.maven.org/),
 equivalent to the packaging instructions that are maintained by every Linux distribution
 (for example Debian's [debian/rules](https://www.debian.org/doc/debian-policy/ch-source#s-debianrules) or ArchLinux's PKGBUILD), whatever the build tool used (Central Repository is not used by Maven only)
 2. show the level of reproducibility obtained using previous instructions: how many output files from the rebuild are strictly equal to reference in Central Repository, how many output files are not yet reproducible and should be improved before the next release?
@@ -26,7 +26,7 @@ You can rebuild a project release by running:
 ```
 ./rebuild.sh content/<path/to/...>/<project>-<version>.buildspec
 ```
-[`rebuild.sh` script](./rebuild.sh) will use the build specification file (= [`.buildspec` file](BUILDSPEC.md)) to choose a Docker image to rebuild the project and check output against Central Repository reference binaries.
+[`rebuild.sh` script](./rebuild.sh) will use the build specification file (= [`.buildspec` file](doc/BUILDSPEC.md)) to choose a Docker image to rebuild the project and check output against Central Repository reference binaries.
 
 </details>
 
@@ -34,7 +34,7 @@ You can rebuild a project release by running:
 
 If you know a project released to Central Repository that is expected to provide Reproducible Builds, please tell us by opening an issue with details.
 
-You can also choose one from our [list of projects waiting for a `.buildspec`](https://github.com/jvm-repo-rebuild/reproducible-central/labels/buildspec): follow our [instructions to write a new `.buildspec`)](BUILDSPEC.md#writing-a-new-buildspec) that you can contribute back with a PR.
+You can also choose one from our [list of projects waiting for a `.buildspec`](https://github.com/jvm-repo-rebuild/reproducible-central/labels/buildspec): follow our [instructions to write a new `.buildspec`)](doc/BUILDSPEC.md#writing-a-new-buildspec) that you can contribute back with a PR.
 
 </details>
 
@@ -44,7 +44,7 @@ If a rebuild published here is not fully reproducible (it has some :warning:), t
 
 You'll need to rebuild the release yourself (see previous instructions), then use [diffoscope](https://diffoscope.org/) :mag: to easily explore precise difference
 between reference file from Central Repository and effective rebuild file, then debug up to the root cause of this unwanted difference:
-- rebuilder bug: if the improvement has to happen at [buildspec](BUILDSPEC.md) or [rebuild script](rebuild.sh) level, don't hesitate to open an issue or a PR here,
+- rebuilder bug: if the improvement has to happen at [buildspec](doc/BUILDSPEC.md) or [rebuild script](rebuild.sh) level, don't hesitate to open an issue or a PR here,
 - upstream project reproducibility issue :memo:: please contact the upstream project and help them improve the reproducibility for their next release, creating an issue in their issue tracker and adding it to Reproducible Central buildspec as `issue` parameter that will link to it with a :memo:.
 
 </details>
@@ -407,7 +407,7 @@ rebuilding **1195 releases** of **327 projects**:
 
 ## Understanding What Is Behind
 
-see [history](HISTORY.md)
+see [history](doc/HISTORY.md)
 
 #
 

@@ -10,7 +10,7 @@ As per Central Repository [upload requirements](https://maven.apache.org/reposit
 
 # Format
 
-**Reproducible Central** rebuild instructions are defined in a `.buildspec` file that will be used by [`rebuild.sh`](rebuild.sh) script. A `.buildspec` file is de-facto a Bash shell script defining a few variables that `rebuild.sh` will use to do the rebuild:
+**Reproducible Central** rebuild instructions are defined in a `.buildspec` file that will be used by [`rebuild.sh`](../rebuild.sh) script. A `.buildspec` file is de-facto a Bash shell script defining a few variables that `rebuild.sh` will use to do the rebuild:
 
 ```
 # Central Repository coordinates for the Reference release (for multi-module, pick an artitrary module)
@@ -49,7 +49,7 @@ issue=https://github.com/project_org/${artifactId}/issues/xx
 
 To facilitate the job, here are step by step instructions:
 
-1. copy `template.buildspec` to `wip/` directory with appropriate final name: `cp template.buildspec wip/[project]-[version].buildspec`
+1. copy `doc/template.buildspec` to `wip/` directory with appropriate final name: `cp doc/template.buildspec wip/[project]-[version].buildspec`
 2. update the file with data from the project release you're rebuilding (look at `.pom` content): fill empty values, update default value with content customized to your project. See next "Parameters" section to get more details on each parameter definition.
 3. try to rebuild from your buildspec: `./rebuild.sh wip/[project]-[version].buildspec`
 4. if result shows some differences between the rebuilt and reference artifacts, copy paste the [diffoscope](https://diffoscope.org/) commands provided to find differences, then fix buildspec instructions as much as possible
