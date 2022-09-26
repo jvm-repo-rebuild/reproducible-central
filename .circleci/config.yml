@@ -29,7 +29,7 @@ jobs:
 #          pattern: update-reproducibility-summary.sh
       - run:
           command: |
-            ./update-reproducibility-summary.sh
+            ./bin/update-reproducibility-summary.sh
       - run:
           name: Configure git
           command: |
