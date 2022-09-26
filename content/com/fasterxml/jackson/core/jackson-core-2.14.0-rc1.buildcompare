@@ -1,0 +1,8 @@
+version=2.14.0-rc1
+ok=1
+ko=3
+okFiles="jackson-core-2.14.0-rc1.pom"
+koFiles="jackson-core-2.14.0-rc1.jar jackson-core-2.14.0-rc1-sources.jar jackson-core-2.14.0-rc1.module"
+# diffoscope target/reference/jackson-core-2.14.0-rc1.jar target/jackson-core-2.14.0-rc1.jar
+# diffoscope target/reference/jackson-core-2.14.0-rc1-sources.jar target/jackson-core-2.14.0-rc1-sources.jar
+# diffoscope target/reference/jackson-core-2.14.0-rc1.module target/publications/maven/module.json

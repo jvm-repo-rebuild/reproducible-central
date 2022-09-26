@@ -1,0 +1,166 @@
+1 / 3 target/reference/jackson-core-2.14.0-rc1.jar target/jackson-core-2.14.0-rc1.jar
+--- target/reference/jackson-core-2.14.0-rc1.jar
++++ target/jackson-core-2.14.0-rc1.jar
+├── zipinfo {}
+│ @@ -1,191 +1,191 @@
+│  Zip file size: 456045 bytes, number of entries: 189
+│ --rw----     2.0 fat        0 bX defN 80-Feb-01 08:00 META-INF/
+│ --rw----     2.0 fat     4090 bx defN 80-Feb-01 08:00 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat    11358 bX defN 80-Feb-01 08:00 META-INF/LICENSE
+│ --rw----     2.0 fat      667 bX defN 80-Feb-01 08:00 META-INF/NOTICE
+...
+│ --rw----     2.0 fat     5101 bX defN 80-Feb-01 08:00 com/fasterxml/jackson/core/util/VersionUtil.class
+│ --rw----     2.0 fat      137 bX defN 80-Feb-01 08:00 com/fasterxml/jackson/core/util/package-info.class
+│ --rw----     1.0 fat        0 bx stor 22-Sep-25 20:55 META-INF/versions/
+│ --rw----     1.0 fat        0 bx stor 22-Sep-25 20:55 META-INF/versions/9/
+│ --rw----     2.0 fat      702 bx defN 22-Sep-25 20:55 META-INF/versions/9/module-info.class
+│ +-rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ +-rw----     2.0 fat     4090 bx defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat    11358 bX defN 80-Feb-01 00:00 META-INF/LICENSE
+│ +-rw----     2.0 fat      667 bX defN 80-Feb-01 00:00 META-INF/NOTICE
+...
+│ +-rw----     2.0 fat     5101 bX defN 80-Feb-01 00:00 com/fasterxml/jackson/core/util/VersionUtil.class
+│ +-rw----     2.0 fat      137 bX defN 80-Feb-01 00:00 com/fasterxml/jackson/core/util/package-info.class
+│ +-rw----     1.0 fat        0 bx stor 22-Sep-26 16:55 META-INF/versions/
+│ +-rw----     1.0 fat        0 bx stor 22-Sep-26 16:55 META-INF/versions/9/
+│ +-rw----     2.0 fat      702 bx defN 22-Sep-26 16:55 META-INF/versions/9/module-info.class
+│  189 files, 906602 bytes uncompressed, 417596 bytes compressed:  53.9%
+├── META-INF/MANIFEST.MF
+│ @@ -14,15 +14,15 @@
+│   ,3)",com.fasterxml.jackson.core.json.async;version="[2.14,3)",com.fas
+
+│   terxml.jackson.core.sym;version="[2.14,3)",com.fasterxml.jackson.core
+
+│   .type;version="[2.14,3)",com.fasterxml.jackson.core.util;version="[2.
+
+│   14,3)"
+
+│  Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.servi
+
+│   celoader.registrar)(version>=1.0.0)(!(version>=2.0.0)))",osgi.ee;filt
+
+│   er:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+│ -Implementation-Build-Date: 2022-09-25 20:54:51+0000
+
+│ +Implementation-Build-Date: 2022-09-26 16:55:28+0000
+
+│  Provide-Capability: osgi.service;objectClass:List<String>="com.fasterx
+
+│   ml.jackson.core.JsonFactory";effective:=active,osgi.serviceloader;osg
+
+│   i.serviceloader="com.fasterxml.jackson.core.JsonFactory";register:="c
+
+│   om.fasterxml.jackson.core.JsonFactory"
+
+│  Export-Package: com.fasterxml.jackson.core;version="2.14.0.rc1";uses:=
+
+│   "com.fasterxml.jackson.core.async,com.fasterxml.jackson.core.exc,com.
+
+│   fasterxml.jackson.core.format,com.fasterxml.jackson.core.io,com.faste
+
+2 / 3 target/reference/jackson-core-2.14.0-rc1-sources.jar target/jackson-core-2.14.0-rc1-sources.jar
+--- target/reference/jackson-core-2.14.0-rc1-sources.jar
++++ target/jackson-core-2.14.0-rc1-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 495002 bytes, number of entries: 168
+│ +Zip file size: 495003 bytes, number of entries: 168
+│  -rw-r--r--  2.0 unx      374 b- defN 22-Sep-25 20:53 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-25 20:53 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-25 20:53 com/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-25 20:53 com/fasterxml/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-25 20:53 com/fasterxml/jackson/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-25 20:53 com/fasterxml/jackson/core/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-25 20:53 com/fasterxml/jackson/core/async/
+│ @@ -163,8 +163,8 @@
+│  -rw-r--r--  2.0 unx      104 b- defN 22-Sep-25 20:53 com/fasterxml/jackson/core/util/package-info.java
+│  -rw-r--r--  2.0 unx      602 b- defN 22-Sep-25 20:53 com/fasterxml/jackson/core/json/PackageVersion.java
+│  -rw-r--r--  2.0 unx      667 b- defN 22-Sep-25 20:53 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx       39 b- defN 22-Sep-25 20:53 META-INF/services/com.fasterxml.jackson.core.JsonFactory
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Sep-25 20:53 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx     6365 b- defN 22-Sep-25 20:53 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml
+│  -rw-r--r--  2.0 unx       78 b- defN 22-Sep-25 20:53 META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.properties
+│ -168 files, 2102883 bytes uncompressed, 465710 bytes compressed:  77.9%
+│ +168 files, 2102883 bytes uncompressed, 465711 bytes compressed:  77.9%
+├── META-INF/MANIFEST.MF
+│ @@ -4,9 +4,9 @@
+│  X-Compile-Target-JDK: 1.8
+
+│  Specification-Vendor: FasterXML
+
+│  Specification-Title: Jackson-core
+
+│  X-Compile-Source-JDK: 1.8
+
+│  Created-By: Maven Source Plugin 3.2.1
+
+│  Specification-Version: 2.14
+
+│  Implementation-Vendor: FasterXML
+
+│ -Implementation-Build-Date: 2022-09-25 20:54:51+0000
+
+│ +Implementation-Build-Date: 2022-09-26 16:55:28+0000
+
+
+3 / 3 target/reference/jackson-core-2.14.0-rc1.module target/publications/maven/module.json
+--- target/reference/jackson-core-2.14.0-rc1.module
++++ target/publications/maven/module.json
+├── Pretty-printed
+│┄ Similarity: 0.9955357142857143%
+│┄ Differences: {"'variants'": "{0: {'files': {0: {'sha512': "
+│┄                "'1076d5ba3b2437d707810473b3fac63c17f96a9accbc4e1d4c0aa2574d962e64a581b047d918c280cfe229036a0d480294556118766a87a8872def6cde177e39', "
+│┄                "'sha256': '3f0690a401036c1963bafbd01f04820fb53cdfee2d44c47584c591278cd3c81f', "
+│┄                "'sha1': '649a91d72f88099fbfd02dd3ec2b394b5f409402', 'md5': "
+│┄                "'ff3e9eb78957cc37bed6cecb5d97e897'}}}, 1: {'files': {0: {'sha512': "
+│┄                "'1076d5ba3b2437d707810473b3fac63c17f96a9a […]
+│ @@ -32,19 +32,19 @@
+│                      "version": {
+│                          "requires": "2.14.0-rc1"
+│                      }
+│                  }
+│              ],
+│              "files": [
+│                  {
+│ -                    "md5": "b4aa9d426ef7dd8dcd02df6f7546e02f",
+│ +                    "md5": "ff3e9eb78957cc37bed6cecb5d97e897",
+│                      "name": "jackson-core-2.14.0-rc1.jar",
+│ -                    "sha1": "a5d9b5fa8d49aea385608f14d0cc269bf9489525",
+│ -                    "sha256": "f1682648076002f4040ecb27c61f696dcad0f571ae6753153312ef66ff851917",
+│ -                    "sha512": "83bd14f171de94efca8a8805b0ddd417131280e3c2007d183282d4c0905eb62cae31ddfc0f54c6ca20d0db6b4dfa1e8e6fd536f8e5ee3d8563a965dd89c33ab1",
+│ +                    "sha1": "649a91d72f88099fbfd02dd3ec2b394b5f409402",
+│ +                    "sha256": "3f0690a401036c1963bafbd01f04820fb53cdfee2d44c47584c591278cd3c81f",
+│ +                    "sha512": "1076d5ba3b2437d707810473b3fac63c17f96a9accbc4e1d4c0aa2574d962e64a581b047d918c280cfe229036a0d480294556118766a87a8872def6cde177e39",
+│                      "size": 456045,
+│                      "url": "jackson-core-2.14.0-rc1.jar"
+│                  }
+│              ],
+│              "name": "apiElements"
+│          },
+│          {
+│ @@ -65,19 +65,19 @@
+│                      "version": {
+│                          "requires": "2.14.0-rc1"
+│                      }
+│                  }
+│              ],
+│              "files": [
+│                  {
+│ -                    "md5": "b4aa9d426ef7dd8dcd02df6f7546e02f",
+│ +                    "md5": "ff3e9eb78957cc37bed6cecb5d97e897",
+│                      "name": "jackson-core-2.14.0-rc1.jar",
+│ -                    "sha1": "a5d9b5fa8d49aea385608f14d0cc269bf9489525",
+│ -                    "sha256": "f1682648076002f4040ecb27c61f696dcad0f571ae6753153312ef66ff851917",
+│ -                    "sha512": "83bd14f171de94efca8a8805b0ddd417131280e3c2007d183282d4c0905eb62cae31ddfc0f54c6ca20d0db6b4dfa1e8e6fd536f8e5ee3d8563a965dd89c33ab1",
+│ +                    "sha1": "649a91d72f88099fbfd02dd3ec2b394b5f409402",
+│ +                    "sha256": "3f0690a401036c1963bafbd01f04820fb53cdfee2d44c47584c591278cd3c81f",
+│ +                    "sha512": "1076d5ba3b2437d707810473b3fac63c17f96a9accbc4e1d4c0aa2574d962e64a581b047d918c280cfe229036a0d480294556118766a87a8872def6cde177e39",
+│                      "size": 456045,
+│                      "url": "jackson-core-2.14.0-rc1.jar"
+│                  }
+│              ],
+│              "name": "runtimeElements"
+│          }
+│      ]
+
