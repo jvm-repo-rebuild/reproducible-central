@@ -1,0 +1,7 @@
+version=2.0.0-M1
+ok=4
+ko=0
+okFiles="maven-verifier-2.0.0-M1.pom maven-verifier-2.0.0-M1.jar maven-verifier-2.0.0-M1-source-release.zip maven-verifier-2.0.0-M1-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
