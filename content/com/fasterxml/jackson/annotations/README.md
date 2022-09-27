@@ -13,6 +13,6 @@ rebuilding **1 releases** of com.fasterxml.jackson.core:jackson-annotations:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.14.0-rc1](https://search.maven.org/artifact/com.fasterxml.jackson.core/jackson-annotations/2.14.0-rc1/pom) | [mvn jdk8](jackson-annotations-2.14.0-rc1.buildspec) | [result](jackson-annotations-2.14.0-rc1.buildinfo): [1 :heavy_check_mark:  3 :warning:](jackson-annotations-2.14.0-rc1.buildcompare) [:mag:](jackson-annotations-2.14.0-rc1.diffoscope) | 162K |
+| [2.14.0-rc1](https://search.maven.org/artifact/com.fasterxml.jackson.core/jackson-annotations/2.14.0-rc1/pom) | [mvn jdk8](jackson-annotations-2.14.0-rc1.buildspec) | [result](jackson-annotations-2.14.0-rc1.buildinfo): [1 :heavy_check_mark:  3 :warning:](jackson-annotations-2.14.0-rc1.buildcompare) [:mag:](jackson-annotations-2.14.0-rc1.diffoscope) [:memo:](https://github.com/FasterXML/oss-parent/pull/55) | 162K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

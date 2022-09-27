@@ -23,6 +23,6 @@ rebuilding **1 releases** of com.fasterxml.jackson.jr:jackson-jr-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.14.0-rc1](https://search.maven.org/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.14.0-rc1/pom) | [mvn jdk8](jackson-jr-2.14.0-rc1.buildspec) | [result](jackson-jr-parent-2.14.0-rc1.buildinfo): [6 :heavy_check_mark:  14 :warning:](jackson-jr-parent-2.14.0-rc1.buildcompare) | 1.5M |
+| [2.14.0-rc1](https://search.maven.org/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.14.0-rc1/pom) | [mvn jdk8](jackson-jr-2.14.0-rc1.buildspec) | [result](jackson-jr-parent-2.14.0-rc1.buildinfo): [6 :heavy_check_mark:  14 :warning:](jackson-jr-parent-2.14.0-rc1.buildcompare) [:memo:](https://github.com/FasterXML/oss-parent/pull/55) | 1.5M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
