@@ -1,0 +1,65 @@
+1 /        2 target/reference/protonj2-1.0.0-M9.jar protonj2/target/protonj2-1.0.0-M9.jar
+--- target/reference/protonj2-1.0.0-M9.jar
++++ protonj2/target/protonj2-1.0.0-M9.jar
+├── zipinfo {}
+│ @@ -1,548 +1,548 @@
+│ -Zip file size: 833076 bytes, number of entries: 546
+│ --rw----     2.0 fat        0 bX defN 22-Sep-20 17:20 META-INF/
+│ --rw----     2.0 fat     7753 bl defN 22-Sep-20 17:20 META-INF/MANIFEST.MF
+...
+│ --rw----     2.0 fat      712 bl defN 22-Sep-20 17:20 org/apache/qpid/protonj2/types/transport/SessionError.class
+│ --rw----     2.0 fat    12667 bl defN 22-Sep-20 17:20 org/apache/qpid/protonj2/types/transport/Transfer.class
+│ -546 files, 2113445 bytes uncompressed, 711028 bytes compressed:  66.4%
+│ +Zip file size: 833077 bytes, number of entries: 546
+│ +-rw----     2.0 fat        0 bX defN 22-Sep-28 13:01 META-INF/
+│ +-rw----     2.0 fat     7753 bl defN 22-Sep-28 13:01 META-INF/MANIFEST.MF
+...
+│ +-rw----     2.0 fat      712 bl defN 22-Sep-28 13:01 org/apache/qpid/protonj2/types/transport/SessionError.class
+│ +-rw----     2.0 fat    12667 bl defN 22-Sep-28 13:01 org/apache/qpid/protonj2/types/transport/Transfer.class
+│ +546 files, 2113445 bytes uncompressed, 711029 bytes compressed:  66.4%
+├── META-INF/MANIFEST.MF
+│ @@ -1,9 +1,9 @@
+│  Manifest-Version: 1.0
+
+│ -Bnd-LastModified: 1663694458579
+
+│ +Bnd-LastModified: 1664370079788
+
+│  Build-Jdk-Spec: 11
+
+│  Bundle-Description: AMQP 1.0 protocol engine and codec library
+
+│  Bundle-DocURL: https://www.apache.org/
+
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+
+│  Bundle-ManifestVersion: 2
+
+│  Bundle-Name: Qpid ProtonJ2 AMQP Protocol Library
+
+│  Bundle-SymbolicName: org.apache.qpid.protonj2
+
+2 /        2 target/reference/apache-qpid-protonj2-1.0.0-M9-bin.tar.gz apache-qpid-protonj2/target/apache-qpid-protonj2-1.0.0-M9-bin.tar.gz
+--- target/reference/apache-qpid-protonj2-1.0.0-M9-bin.tar.gz
++++ apache-qpid-protonj2/target/apache-qpid-protonj2-1.0.0-M9-bin.tar.gz
+├── apache-qpid-protonj2-1.0.0-M9-bin.tar
+│ ├── file list
+│ │ @@ -29,15 +29,15 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)     2825 2022-09-20 17:05:44.000000 apache-qpid-protonj2-1.0.0-M9/examples/src/main/java/org/apache/qpid/protonj2/client/examples/reconnect/ReconnectSender.java
+│ │  -rw-r--r--   0 root         (0) root         (0)     1102 2022-09-20 17:05:44.000000 apache-qpid-protonj2-1.0.0-M9/examples/src/main/resources/simplelogger.properties
+│ │  -rw-r--r--   0 root         (0) root         (0)     1104 2022-09-20 17:05:44.000000 apache-qpid-protonj2-1.0.0-M9/examples/src/test/resources/simplelogger.properties
+│ │  -rw-r--r--   0 root         (0) root         (0)     1811 2022-09-20 17:05:44.000000 apache-qpid-protonj2-1.0.0-M9/examples/README.md
+│ │  -rw-r--r--   0 root         (0) root         (0)     2156 2022-09-20 17:05:44.000000 apache-qpid-protonj2-1.0.0-M9/examples/pom.xml
+│ │  -rw-r--r--   0 root         (0) root         (0)    20306 2022-09-20 17:05:44.000000 apache-qpid-protonj2-1.0.0-M9/docs/Configuration.md
+│ │  -rw-r--r--   0 root         (0) root         (0)      275 2022-09-20 17:05:44.000000 apache-qpid-protonj2-1.0.0-M9/docs/README.md
+│ │ --rw-r--r--   0 root         (0) root         (0)   833076 2022-09-20 17:05:44.000000 apache-qpid-protonj2-1.0.0-M9/lib/protonj2-1.0.0-M9.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)   833077 2022-09-20 17:05:44.000000 apache-qpid-protonj2-1.0.0-M9/lib/protonj2-1.0.0-M9.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   331431 2022-09-20 17:05:44.000000 apache-qpid-protonj2-1.0.0-M9/lib/protonj2-client-1.0.0-M9.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    41125 2022-09-20 17:05:44.000000 apache-qpid-protonj2-1.0.0-M9/lib/slf4j-api-1.7.36.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   304664 2022-09-20 17:05:44.000000 apache-qpid-protonj2-1.0.0-M9/lib/netty-buffer-4.1.82.Final.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   653880 2022-09-20 17:05:44.000000 apache-qpid-protonj2-1.0.0-M9/lib/netty-common-4.1.82.Final.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   538569 2022-09-20 17:05:44.000000 apache-qpid-protonj2-1.0.0-M9/lib/netty-handler-4.1.82.Final.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    37776 2022-09-20 17:05:44.000000 apache-qpid-protonj2-1.0.0-M9/lib/netty-resolver-4.1.82.Final.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    43684 2022-09-20 17:05:44.000000 apache-qpid-protonj2-1.0.0-M9/lib/netty-transport-native-unix-common-4.1.82.Final.jar
+│ ├── apache-qpid-protonj2-1.0.0-M9/lib/protonj2-1.0.0-M9.jar
+...

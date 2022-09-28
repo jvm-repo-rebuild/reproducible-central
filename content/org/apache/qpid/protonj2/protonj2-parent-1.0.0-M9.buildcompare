@@ -1,0 +1,9 @@
+version=1.0.0-M9
+ok=11
+ko=2
+okFiles="protonj2-parent-1.0.0-M9.pom protonj2-test-driver-1.0.0-M9.pom protonj2-test-driver-1.0.0-M9.jar protonj2-test-driver-1.0.0-M9-sources.jar protonj2-1.0.0-M9.pom protonj2-1.0.0-M9-sources.jar protonj2-client-1.0.0-M9.pom protonj2-client-1.0.0-M9.jar protonj2-client-1.0.0-M9-sources.jar apache-qpid-protonj2-1.0.0-M9.pom apache-qpid-protonj2-1.0.0-M9-src.tar.gz"
+koFiles="protonj2-1.0.0-M9.jar apache-qpid-protonj2-1.0.0-M9-bin.tar.gz"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/protonj2-1.0.0-M9.jar protonj2/target/protonj2-1.0.0-M9.jar
+# diffoscope target/reference/apache-qpid-protonj2-1.0.0-M9-bin.tar.gz apache-qpid-protonj2/target/apache-qpid-protonj2-1.0.0-M9-bin.tar.gz
