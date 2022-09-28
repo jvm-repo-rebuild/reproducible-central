@@ -13,6 +13,7 @@ rebuilding **5 releases** of org.apache.sling:org.apache.sling.testing.clients:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.16](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.testing.clients/3.0.16/pom) | | | |
 | [3.0.14](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.testing.clients/3.0.14/pom) | [mvn jdk11](org.apache.sling.testing.clients-3.0.14.buildspec) | [result](org.apache.sling.testing.clients-3.0.14.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.testing.clients-3.0.14.buildcompare) | 568K |
 | [3.0.12](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.testing.clients/3.0.12/pom) | [mvn jdk11](org.apache.sling.testing.clients-3.0.12.buildspec) | [result](org.apache.sling.testing.clients-3.0.12.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.testing.clients-3.0.12.buildcompare) | 551K |
 | [3.0.10](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.testing.clients/3.0.10/pom) | [mvn jdk11](org.apache.sling.testing.clients-3.0.10.buildspec) | [result](org.apache.sling.testing.clients-3.0.10.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.testing.clients-3.0.10.buildcompare) | 550K |

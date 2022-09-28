@@ -66,9 +66,9 @@ Notice the anchor in the link.
 Nightly Rebuild: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
 
 <!-- BEGIN GENERATED INTRO -->
-rebuilding **1190 releases** of **325 projects**:
-- **841** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 349 had issues (some unreproducible artifacts :warning:):
+rebuilding **1192 releases** of **326 projects**:
+- **842** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- 350 had issues (some unreproducible artifacts :warning:):
 
 <!-- END GENERATED INTRO -->
 
@@ -84,7 +84,7 @@ rebuilding **1190 releases** of **325 projects**:
 | | <a name='com.fasterxml.jackson.core:jackson-core'></a>[jackson-core](content/com/fasterxml/jackson/core/README.md) | 1 | 1 :warning: |
 | | <a name='com.fasterxml.jackson.core:jackson-databind'></a>[jackson-databind](content/com/fasterxml/jackson/databind/README.md) | 1 | 1 :warning: |
 | com.fasterxml.jackson.jr | <a name='com.fasterxml.jackson.jr:jackson-jr-parent'></a>[jackson-jr-parent](content/com/fasterxml/jackson/jr/README.md) | 1 | 1 :warning: |
-| com.fasterxml | <a name='com.fasterxml:oss-parent'></a>[oss-parent](content/com/fasterxml/oss-parent/README.md) | 2 | 2 :heavy_check_mark: |
+| com.fasterxml | <a name='com.fasterxml:oss-parent'></a>[oss-parent](content/com/fasterxml/oss-parent/README.md) | 3 | 3 :heavy_check_mark: |
 | com.github.adangel.liquibase.ext | <a name='com.github.adangel.liquibase.ext:liquibase-percona'></a>[liquibase-percona](content/com/github/adangel/liquibase/ext/liquibase-percona/README.md) | 1 | 1 :heavy_check_mark: |
 | com.github.ldapchai | <a name='com.github.ldapchai:ldapchai'></a>[ldapchai](content/com/github/ldapchai/README.md) | 4 | 4 :warning: |
 | com.github.package-url | <a name='com.github.package-url:packageurl-java'></a>[packageurl-java](content/com/github/package-url/packageurl-java/README.md) | 3 | 3 :heavy_check_mark: |
@@ -239,6 +239,7 @@ rebuilding **1190 releases** of **325 projects**:
 | org.apache.plc4x | <a name='org.apache.plc4x:plc4x-parent'></a>[plc4x-parent](content/org/apache/plc4x/plc4x/README.md) | 1 | 1 :warning: |
 | org.apache.qpid | <a name='org.apache.qpid:qpid-jms-parent'></a>[qpid-jms-parent](content/org/apache/qpid/jms/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.qpid:proton-j-parent'></a>[proton-j-parent](content/org/apache/qpid/proton-j/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='org.apache.qpid:protonj2-parent'></a>[protonj2-parent](content/org/apache/qpid/protonj2/README.md) | 1 | 1 :warning: |
 | org.apache.rat | <a name='org.apache.rat:apache-rat-project'></a>[apache-rat-project](content/org/apache/rat/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.royale.compiler | <a name='org.apache.royale.compiler:compiler'></a>[compiler](content/org/apache/royale/compiler/README.md) | 1 | 1 :warning: |
 | org.apache.santuario | <a name='org.apache.santuario:xmlsec'></a>[xmlsec](content/org/apache/santuario/xmlsec/README.md) | 2 | 2 :warning: |
@@ -400,7 +401,7 @@ rebuilding **1190 releases** of **325 projects**:
 | | <a name='org.webjars:webjars-locator-core'></a>[webjars-locator-core](content/org/webjars/webjars-locator-core/README.md) | 1 | 1 :heavy_check_mark: |
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 6 | 6 :warning: |
-| **Count:** | **325** | **1190** | **841** :heavy_check_mark: **349** :warning: |
+| **Count:** | **326** | **1192** | **842** :heavy_check_mark: **350** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 ## Understanding What Is Behind
