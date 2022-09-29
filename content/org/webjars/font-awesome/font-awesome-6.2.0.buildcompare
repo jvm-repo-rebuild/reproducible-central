@@ -1,0 +1,7 @@
+version=6.2.0
+ok=2
+ko=0
+okFiles="font-awesome-6.2.0.pom font-awesome-6.2.0.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
