@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.apache.sling:org.apache.sling.auth.core:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.6.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.auth.core/1.6.0/pom) | | | |
 | [1.5.8](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.auth.core/1.5.8/pom) | [mvn jdk11](org.apache.sling.auth.core-1.5.8.buildspec) | [result](org.apache.sling.auth.core-1.5.8.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.auth.core-1.5.8.buildcompare) | 406K |
 | [1.5.6](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.auth.core/1.5.6/pom) | [mvn jdk11](org.apache.sling.auth.core-1.5.6.buildspec) | [result](org.apache.sling.auth.core-1.5.6.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.auth.core-1.5.6.buildcompare) | 406K |
 

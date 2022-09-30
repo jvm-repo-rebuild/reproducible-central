@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/webjars/swagger-ui.git](https://github.com/webjars/swagger-ui.git)
 
-rebuilding **9 releases** of org.webjars:swagger-ui:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **11 releases** of org.webjars:swagger-ui:
+- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.14.2](https://search.maven.org/artifact/org.webjars/swagger-ui/4.14.2/pom) | | | |
-| [4.14.1](https://search.maven.org/artifact/org.webjars/swagger-ui/4.14.1/pom) | | | |
+| [4.14.2](https://search.maven.org/artifact/org.webjars/swagger-ui/4.14.2/pom) | [mvn jdk8](swagger-ui-4.14.2.buildspec) | [result](swagger-ui-4.14.2.buildinfo): [2 :heavy_check_mark: ](swagger-ui-4.14.2.buildcompare) | 3.5M |
+| [4.14.1](https://search.maven.org/artifact/org.webjars/swagger-ui/4.14.1/pom) | [mvn jdk8](swagger-ui-4.14.1.buildspec) | [result](swagger-ui-4.14.1.buildinfo): [2 :heavy_check_mark: ](swagger-ui-4.14.1.buildcompare) | 3.5M |
 | [4.14.0](https://search.maven.org/artifact/org.webjars/swagger-ui/4.14.0/pom) | [mvn jdk8](swagger-ui-4.14.0.buildspec) | [result](swagger-ui-4.14.0.buildinfo): [2 :heavy_check_mark: ](swagger-ui-4.14.0.buildcompare) | 3.5M |
 | [4.13.2](https://search.maven.org/artifact/org.webjars/swagger-ui/4.13.2/pom) | [mvn jdk8](swagger-ui-4.13.2.buildspec) | [result](swagger-ui-4.13.2.buildinfo): [2 :heavy_check_mark: ](swagger-ui-4.13.2.buildcompare) | 3.5M |
 | [4.11.1](https://search.maven.org/artifact/org.webjars/swagger-ui/4.11.1/pom) | [mvn jdk8](swagger-ui-4.11.1.buildspec) | [result](swagger-ui-4.11.1.buildinfo): [2 :heavy_check_mark: ](swagger-ui-4.11.1.buildcompare) | 3.6M |
