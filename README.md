@@ -14,6 +14,7 @@ Its objectives are to provide:
    rebuilding **1198 releases** of **328 projects**:
    - **848** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 350 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+
 <!-- END GENERATED INTRO -->
 
 ## Rebuild Detailed Results
