@@ -1,0 +1,7 @@
+version=4.14.2
+ok=2
+ko=0
+okFiles="swagger-ui-4.14.2.pom swagger-ui-4.14.2.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
