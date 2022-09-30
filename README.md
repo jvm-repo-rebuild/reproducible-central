@@ -9,20 +9,14 @@ This project is the [Java part](https://reproducible-builds.org/docs/jvm/) of th
 
 Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
-2) [**A list of reproducible releases published to Maven Central**](#rebuild-results)
-
-If you are interested in the origins of this project, you can read the [history page](doc/HISTORY.md).
-
-## Rebuild Results
-
-Nightly Rebuild: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
-
-<!-- BEGIN GENERATED INTRO -->
-rebuilding **1198 releases** of **328 projects**:
-- **848** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 350 had issues (some unreproducible artifacts :warning:):
-
+2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
+   <!-- BEGIN GENERATED INTRO -->
+   rebuilding **1198 releases** of **328 projects**:
+   - **848** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 350 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 <!-- END GENERATED INTRO -->
+
+## Rebuild Detailed Results
 
 <!-- BEGIN GENERATED RESULTS TABLE -->
 | [Central Repository](https://search.maven.org/) groupId | artifactId(s) | versions | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |
@@ -357,3 +351,5 @@ rebuilding **1198 releases** of **328 projects**:
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 6 | 6 :warning: |
 | **Count:** | **328** | **1198** | **848** :heavy_check_mark: **350** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
+
+Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)

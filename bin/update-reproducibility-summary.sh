@@ -147,14 +147,14 @@ done
 
 echo "| **Count:** | **${countGa}** | **${globalVersion}** | **${globalVersionOk}** :heavy_check_mark: **$((globalVersion - globalVersionOk))** :warning: |" >> ${summary}
 
-echo "rebuilding **${globalVersion} releases** of **${countGa} projects**:" > summary-intro.md
-echo "- **${globalVersionOk}** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:)," >> summary-intro.md
-echo "- $((globalVersion - globalVersionOk)) had issues (some unreproducible artifacts :warning:):" >> summary-intro.md
+echo "   rebuilding **${globalVersion} releases** of **${countGa} projects**:" > summary-intro.md
+echo "   - **${globalVersionOk}** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:)," >> summary-intro.md
+echo "   - $((globalVersion - globalVersionOk)) releases are only partially reproducible (contain some unreproducible artifacts :warning:)" >> summary-intro.md
 echo >> summary-intro.md
 
 lead='^<!-- BEGIN GENERATED RESULTS TABLE -->$'
 tail='^<!-- END GENERATED RESULTS TABLE -->$'
-lead_intro='^<!-- BEGIN GENERATED INTRO -->$'
+lead_intro='^   <!-- BEGIN GENERATED INTRO -->$'
 tail_intro='^<!-- END GENERATED INTRO -->$'
 sed -e "/$lead/,/$tail/{ /$lead/{p; r summary-table.md
         }; /$tail/p; d }" README.md | \
