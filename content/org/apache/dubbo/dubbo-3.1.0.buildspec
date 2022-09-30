@@ -14,4 +14,4 @@ command="mvn -Prelease clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-parent-${version}.buildinfo
 
 diffoscope=${artifactId}-parent-${version}.diffoscope
-issue=
+issue=https://github.com/apache/dubbo/pull/10700
