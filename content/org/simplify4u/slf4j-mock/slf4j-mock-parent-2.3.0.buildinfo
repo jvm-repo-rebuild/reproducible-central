@@ -1,0 +1,87 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=SLF4J mock parent
+group-id=org.simplify4u
+artifact-id=slf4j-mock-parent
+version=2.3.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:s4u/slf4j-mock.git
+source.scm.tag=v2.3.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=slf4j-mock-coverage-report
+
+# aggregated output
+
+outputs.0.coordinates=org.simplify4u:slf4j-mock-parent
+
+outputs.0.0.filename=slf4j-mock-parent-2.3.0.pom
+outputs.0.0.length=9234
+outputs.0.0.checksums.sha512=710e958e5091bfad3a6049a40a2b87c7451b0f27a0dbfc08e0e9947a038690f2051c53922a0578819a1df5dd5b8f0adc561988823b5480e5e3fd857e44e9aaf4
+
+outputs.1.coordinates=org.simplify4u:slf4j-mock-common
+
+outputs.1.0.filename=slf4j-mock-common-2.3.0.pom
+outputs.1.0.length=2399
+outputs.1.0.checksums.sha512=bb90f0cc95f68530063333245aa70e0c70513c05686f5a474eebf1d78d6c60fd1fba7e4e7133520c103bcf82301d6c005844a870ca3de9e7345b3c59595f2d55
+
+outputs.1.1.filename=slf4j-mock-common-2.3.0.jar
+outputs.1.1.length=17248
+outputs.1.1.checksums.sha512=eedca1359195377e8ec6038b9f0675d79266688fd86fd1ab07162cae415305a408e6795448d7c6fe44f36d98e91a63e6485910827287b99195a432ef7e5b3bc8
+
+outputs.1.2.filename=slf4j-mock-common-2.3.0-sources.jar
+outputs.1.2.length=13586
+outputs.1.2.checksums.sha512=7310ba7aa707a3b6c0c0a366563c6ba8db16a01b53d492cee79e01f9da7fb3d85be4cd7b6e2788c7c85ece735f62005e2f19dfe8f82d32e9b6a437bde015dcb3
+
+outputs.2.coordinates=org.simplify4u:slf4j-mock-tests
+
+outputs.2.0.filename=slf4j-mock-tests-2.3.0.pom
+outputs.2.0.length=3641
+outputs.2.0.checksums.sha512=0b90f70a0430d085facb99a0d7f777a7247934fe70e37e9811066838bd65c401959a37283fad3de4125a0101f6f670e0bcf2f993de8207571a1d16844d4ed40e
+
+outputs.2.1.filename=slf4j-mock-tests-2.3.0.jar
+outputs.2.1.length=2183
+outputs.2.1.checksums.sha512=073a887a894a1776359e58f8c0103040d9fb198de5211f85ef692efc41d8387cb12c15296130ae673df2ef068b3c8f84a957e43d2b9e219254a2167d352aca89
+
+outputs.3.coordinates=org.simplify4u:slf4j-mock
+
+outputs.3.0.filename=slf4j-mock-2.3.0.pom
+outputs.3.0.length=4537
+outputs.3.0.checksums.sha512=45379f692aa1f34c0fd43e05c38804de52ee7a3e9e4645a800ce733fef3fcb4cf74c07189c980f6d8f5b31c5f8a74772ec434914d3315dc9b2bfc193e0297b1c
+
+outputs.3.1.filename=slf4j-mock-2.3.0.jar
+outputs.3.1.length=16054
+outputs.3.1.checksums.sha512=d3f0a2eb76c8c6d7ed8c173fcd4da0f8e4da634bc598c694df71fb96d104712456e7ac6b8eb31853be4095a184f1251050af85ab321ee984941aa7187d926ef2
+
+outputs.3.2.filename=slf4j-mock-2.3.0-sources.jar
+outputs.3.2.length=13833
+outputs.3.2.checksums.sha512=75c606abe62b871ea2797d58123212005dacfccdedae954af2ec4760d1184a28b3b0174b715d859938b44f18aa4134217f27cf3f48086255d6fafff5903602ea
+
+outputs.4.coordinates=org.simplify4u:slf4j2-mock
+
+outputs.4.0.filename=slf4j2-mock-2.3.0.pom
+outputs.4.0.length=4540
+outputs.4.0.checksums.sha512=3f91514343e1046234a2b30aaf0808d693426a894db3800974d172f15380b73c7478b90fc284cfc51948560a79669235e4a06c21d83314d4c94eaeb3930e442a
+
+outputs.4.1.filename=slf4j2-mock-2.3.0.jar
+outputs.4.1.length=15644
+outputs.4.1.checksums.sha512=78cce300fa42b642f5b36ac3b98bf132e68a89ac8fca01a5bec0ad766c07800a3c58522ee662c2219d6f230db2bb7bbd521a35586e7dc8ba2af2337d56819fdf
+
+outputs.4.2.filename=slf4j2-mock-2.3.0-sources.jar
+outputs.4.2.length=14447
+outputs.4.2.checksums.sha512=15cfe4cf4a4299e6699dac4a3ec9cdc4bd72a89bb409e344955669b079664de4c86b83e172ad851407c2da0724f5e92ea9d9ec572d9d6d71d2cf8cdf2a5159bd
+
+outputs.5.coordinates=org.simplify4u:slf4j-mock-coverage-report
+
+outputs.5.0.filename=slf4j-mock-coverage-report-2.3.0.pom
+outputs.5.0.length=3749
+outputs.5.0.checksums.sha512=b5792033a3d6a9d7fd55f4da1febbd012c4bd6009cb4c2f83b5008611d0f6f89fb533bfb782043ef42db233508c0feecfcbe603733ff2713b3c4753017a8e84a

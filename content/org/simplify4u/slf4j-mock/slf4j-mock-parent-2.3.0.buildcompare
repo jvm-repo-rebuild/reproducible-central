@@ -1,0 +1,13 @@
+version=2.3.0
+ok=10
+#ko=3
+ko=0
+okFiles="slf4j-mock-parent-2.3.0.pom slf4j-mock-common-2.3.0.pom slf4j-mock-common-2.3.0.jar slf4j-mock-common-2.3.0-sources.jar slf4j-mock-2.3.0.pom slf4j-mock-2.3.0.jar slf4j-mock-2.3.0-sources.jar slf4j2-mock-2.3.0.pom slf4j2-mock-2.3.0.jar slf4j2-mock-2.3.0-sources.jar"
+#koFiles="slf4j-mock-tests-2.3.0.pom slf4j-mock-tests-2.3.0.jar slf4j-mock-coverage-report-2.3.0.pom"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# artifact:compare needs a new feature: https://issues.apache.org/jira/browse/MARTIFACT-34
+# diffoscope target/reference/slf4j-mock-tests-2.3.0.pom slf4j-mock-tests/pom.xml
+# diffoscope target/reference/slf4j-mock-tests-2.3.0.jar slf4j-mock-tests/target/slf4j-mock-tests-2.3.0.jar
+# diffoscope target/reference/slf4j-mock-coverage-report-2.3.0.pom slf4j-mock-coverage-report/pom.xml
