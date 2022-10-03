@@ -113,6 +113,7 @@ rebuilding **5 releases** of org.apache.tika:tika:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.5.0](https://search.maven.org/artifact/org.apache.tika/tika/2.5.0/pom) | | | |
 | [2.4.1](https://search.maven.org/artifact/org.apache.tika/tika/2.4.1/pom) | | | |
 | [2.4.0](https://search.maven.org/artifact/org.apache.tika/tika/2.4.0/pom) | [mvn jdk8](tika-2.4.0.buildspec) | [result](tika-2.4.0.buildinfo): [272 :heavy_check_mark:  44 :warning:](tika-2.4.0.buildcompare) [:mag:](tika-2.4.0.diffoscope) | 1.2G |
 | [2.3.0](https://search.maven.org/artifact/org.apache.tika/tika/2.3.0/pom) | [mvn jdk8](tika-2.3.0.buildspec) | [result](tika-2.3.0.buildinfo): [214 :heavy_check_mark:  74 :warning:](tika-2.3.0.buildcompare) [:mag:](tika-2.3.0.diffoscope) | 1.8G |
