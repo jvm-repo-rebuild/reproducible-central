@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.apache.sling:org.apache.sling.xss:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.3.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.xss/2.3.0/pom) | | | |
 | [2.2.20](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.xss/2.2.20/pom) | [mvn jdk11](org.apache.sling.xss-2.2.20.buildspec) | [result](org.apache.sling.xss-2.2.20.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.xss-2.2.20.buildcompare) | 6.9M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
