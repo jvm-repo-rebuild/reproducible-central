@@ -75,6 +75,7 @@ rebuilding **1 releases** of org.apache.plc4x:plc4x-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.10.0](https://search.maven.org/artifact/org.apache.plc4x/plc4x-parent/0.10.0/pom) | | | |
 | [0.9.1](https://search.maven.org/artifact/org.apache.plc4x/plc4x-parent/0.9.1/pom) | | | |
 | [0.9.0](https://search.maven.org/artifact/org.apache.plc4x/plc4x-parent/0.9.0/pom) | | | |
 | [0.8.0](https://search.maven.org/artifact/org.apache.plc4x/plc4x-parent/0.8.0/pom) | | | |
