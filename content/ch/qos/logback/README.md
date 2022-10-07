@@ -27,6 +27,7 @@ rebuilding **5 releases** of ch.qos.logback:logback-parent:
 | [1.4.2](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.4.2/pom) | | | |
 | [1.4.1](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.4.1/pom) | | | |
 | [1.4.0](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.4.0/pom) | | | |
+| [1.3.4](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.3.4/pom) | | | |
 | [1.3.3](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.3.3/pom) | | | |
 | [1.3.2](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.3.2/pom) | | | |
 | [1.3.1](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.3.1/pom) | | | |
