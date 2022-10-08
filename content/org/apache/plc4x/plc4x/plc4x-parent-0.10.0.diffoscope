@@ -1,0 +1,383 @@
+1 / 66 target/reference/plc4x-code-generation-protocol-test-0.10.0.jar code-generation/protocol-test/target/plc4x-code-generation-protocol-test-0.10.0.jar
+--- target/reference/plc4x-code-generation-protocol-test-0.10.0.jar
++++ code-generation/protocol-test/target/plc4x-code-generation-protocol-test-0.10.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 10556 bytes, number of entries: 18
+│ +Zip file size: 10555 bytes, number of entries: 18
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-03 15:32 META-INF/
+│  -rw-r--r--  2.0 unx     1718 b- defN 22-Oct-03 15:32 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-03 15:32 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-03 15:32 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-03 15:32 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-03 15:32 org/apache/plc4x/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-03 15:32 org/apache/plc4x/protocol/
+│ @@ -13,8 +13,8 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-03 15:32 META-INF/maven/org.apache.plc4x/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-03 15:32 META-INF/maven/org.apache.plc4x/plc4x-code-generation-protocol-test/
+│  -rw-r--r--  2.0 unx      835 b- defN 22-Oct-03 15:32 META-INF/services/org.apache.plc4x.plugins.codegenerator.protocol.Protocol
+│  -rw-r--r--  2.0 unx     2222 b- defN 22-Oct-03 15:32 org/apache/plc4x/protocol/test/TestProtocol.class
+│  -rw-r--r--  2.0 unx    16998 b- defN 22-Oct-03 15:32 protocols/test/test.mspec
+│  -rw-r--r--  2.0 unx     7594 b- defN 22-Oct-03 15:32 META-INF/maven/org.apache.plc4x/plc4x-code-generation-protocol-test/pom.xml
+│  -rw-r--r--  2.0 unx       87 b- defN 22-Oct-03 15:32 META-INF/maven/org.apache.plc4x/plc4x-code-generation-protocol-test/pom.properties
+│ -18 files, 29454 bytes uncompressed, 8004 bytes compressed:  72.8%
+│ +18 files, 29454 bytes uncompressed, 8003 bytes compressed:  72.8%
+├── META-INF/MANIFEST.MF
+│ @@ -20,15 +20,15 @@
+│   lugins.codegenerator.protocol,org.apache.plc4x.plugins.codegenerator.ty
+
+│   pes.exceptions";version="0.10.0"
+
+│  Import-Package: java.io,java.lang,java.lang.invoke,java.util,org.apache.
+
+│   plc4x.plugins.codegenerator.language.mspec.parser,org.apache.plc4x.plug
+
+│   ins.codegenerator.language.mspec.protocol,org.apache.plc4x.plugins.code
+
+│   generator.protocol,org.apache.plc4x.plugins.codegenerator.types.excepti
+
+│   ons
+
+│ -Include-Resource: META-INF/services/org.apache.plc4x.plugins.codegenerat
+
+│ +Include-Resource: protocols/test/test.mspec=src/main/resources/protocols
+
+│ + /test/test.mspec,META-INF/services/org.apache.plc4x.plugins.codegenerat
+
+│   or.protocol.Protocol=src/main/resources/META-INF/services/org.apache.pl
+
+│ - c4x.plugins.codegenerator.protocol.Protocol,protocols/test/test.mspec=s
+
+│ - rc/main/resources/protocols/test/test.mspec
+
+│ + c4x.plugins.codegenerator.protocol.Protocol
+
+│  Private-Package: protocols.test
+
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+
+│  Tool: Bnd-6.3.1.202206071316
+
+2 / 66 target/reference/plc4j-api-0.10.0.jar plc4j/api/target/plc4j-api-0.10.0.jar
+--- target/reference/plc4j-api-0.10.0.jar
++++ plc4j/api/target/plc4j-api-0.10.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 49908 bytes, number of entries: 91
+│ +Zip file size: 49900 bytes, number of entries: 91
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-03 15:32 META-INF/
+│  -rw-r--r--  2.0 unx     2804 b- defN 22-Oct-03 15:32 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-03 15:32 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-03 15:32 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-03 15:32 org/apache/plc4x/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-03 15:32 org/apache/plc4x/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-03 15:32 org/apache/plc4x/java/api/
+│ @@ -86,8 +86,8 @@
+│  -rw-r--r--  2.0 unx     2781 b- defN 22-Oct-03 15:32 org/apache/plc4x/java/api/types/PlcResponseCode.class
+│  -rw-r--r--  2.0 unx     2310 b- defN 22-Oct-03 15:32 org/apache/plc4x/java/api/types/PlcSubscriptionType.class
+│  -rw-r--r--  2.0 unx     3824 b- defN 22-Oct-03 15:32 org/apache/plc4x/java/api/types/PlcValueType.class
+│  -rw-r--r--  2.0 unx     2268 b- defN 22-Oct-03 15:32 org/apache/plc4x/java/api/value/PlcValue.class
+│  -rw-r--r--  2.0 unx      868 b- defN 22-Oct-03 15:32 org/apache/plc4x/java/api/value/PlcValueHandler.class
+│  -rw-r--r--  2.0 unx     2210 b- defN 22-Oct-03 15:32 META-INF/maven/org.apache.plc4x/plc4j-api/pom.xml
+│  -rw-r--r--  2.0 unx       61 b- defN 22-Oct-03 15:32 META-INF/maven/org.apache.plc4x/plc4j-api/pom.properties
+│ -91 files, 74053 bytes uncompressed, 33270 bytes compressed:  55.1%
+│ +91 files, 74053 bytes uncompressed, 33262 bytes compressed:  55.1%
+├── META-INF/MANIFEST.MF
+│ @@ -13,37 +13,37 @@
+│  Bundle-ManifestVersion: 2
+
+│  Bundle-Name: PLC4J: API
+
+│  Bundle-SymbolicName: org.apache.plc4x.plc4j-api
+
+│  Bundle-Vendor: The Apache Software Foundation
+
+│  Bundle-Version: 0.10.0
+
+│  Export-Package: org.apache.plc4x.java;uses:="org.apache.plc4x.java.api,o
+
+│   rg.apache.plc4x.java.api.authentication,org.apache.plc4x.java.api.excep
+
+│ - tions";version="0.10.0",org.apache.plc4x.java.api.messages;uses:="org.a
+
+│ - pache.plc4x.java.api.model,org.apache.plc4x.java.api.types,org.apache.p
+
+│ - lc4x.java.api.value";version="0.10.0",org.apache.plc4x.java.api.types;v
+
+│ - ersion="0.10.0",org.apache.plc4x.java.api.listener;version="0.10.0",org
+
+│ - .apache.plc4x.java.api.value;uses:="com.fasterxml.jackson.annotation,or
+
+│ - g.apache.plc4x.java.api.model,org.apache.plc4x.java.api.types";version=
+
+│ - "0.10.0",org.apache.plc4x.java.api;uses:="org.apache.plc4x.java.api.aut
+
+│ - hentication,org.apache.plc4x.java.api.exceptions,org.apache.plc4x.java.
+
+│ - api.listener,org.apache.plc4x.java.api.messages,org.apache.plc4x.java.a
+
+│ - pi.metadata,org.apache.plc4x.java.api.model";version="0.10.0",org.apach
+
+│ - e.plc4x.java.api.exceptions;version="0.10.0",org.apache.plc4x.java.api.
+
+│ - model;uses:="com.fasterxml.jackson.annotation,org.apache.plc4x.java.api
+
+│ - .messages,org.apache.plc4x.java.api.types";version="0.10.0",org.apache.
+
+│ - plc4x.java.api.authentication;version="0.10.0",org.apache.plc4x.java.ap
+
+│ - i.metadata;version="0.10.0"
+
+│ + tions";version="0.10.0",org.apache.plc4x.java.api;uses:="org.apache.plc
+
+│ + 4x.java.api.authentication,org.apache.plc4x.java.api.exceptions,org.apa
+
+│ + che.plc4x.java.api.listener,org.apache.plc4x.java.api.messages,org.apac
+
+│ + he.plc4x.java.api.metadata,org.apache.plc4x.java.api.model";version="0.
+
+│ + 10.0",org.apache.plc4x.java.api.metadata;version="0.10.0",org.apache.pl
+
+│ + c4x.java.api.authentication;version="0.10.0",org.apache.plc4x.java.api.
+
+│ + messages;uses:="org.apache.plc4x.java.api.model,org.apache.plc4x.java.a
+
+│ + pi.types,org.apache.plc4x.java.api.value";version="0.10.0",org.apache.p
+
+│ + lc4x.java.api.value;uses:="com.fasterxml.jackson.annotation,org.apache.
+
+│ + plc4x.java.api.model,org.apache.plc4x.java.api.types";version="0.10.0",
+
+│ + org.apache.plc4x.java.api.model;uses:="com.fasterxml.jackson.annotation
+
+│ + ,org.apache.plc4x.java.api.messages,org.apache.plc4x.java.api.types";ve
+
+│ + rsion="0.10.0",org.apache.plc4x.java.api.listener;version="0.10.0",org.
+
+│ + apache.plc4x.java.api.types;version="0.10.0",org.apache.plc4x.java.api.
+
+│ + exceptions;version="0.10.0"
+
+│  Import-Package: com.fasterxml.jackson.annotation;resolution:=optional;ve
+
+│   rsion="[2.14,3)",org.apache.commons.lang3;version="[3.12,4)",org.apache
+
+│   .plc4x.java.api,org.apache.plc4x.java.api.authentication,org.apache.plc
+
+│   4x.java.api.exceptions,org.apache.plc4x.java.api.listener,org.apache.pl
+
+│   c4x.java.api.messages,org.apache.plc4x.java.api.metadata,org.apache.plc
+
+│   4x.java.api.model,org.apache.plc4x.java.api.types,org.apache.plc4x.java
+
+│   .api.value,org.slf4j;version="[2.0,3)"
+
+│ -Private-Package: org.apache.plc4x.java,org.apache.plc4x.java.api.message
+
+│ - s,org.apache.plc4x.java.api.types,org.apache.plc4x.java.api.listener,or
+
+│ - g.apache.plc4x.java.api.value,org.apache.plc4x.java.api,org.apache.plc4
+
+│ - x.java.api.exceptions,org.apache.plc4x.java.api.model,org.apache.plc4x.
+
+│ - java.api.authentication,org.apache.plc4x.java.api.metadata
+
+│ +Private-Package: org.apache.plc4x.java,org.apache.plc4x.java.api,org.apa
+
+│ + che.plc4x.java.api.metadata,org.apache.plc4x.java.api.authentication,or
+
+│ + g.apache.plc4x.java.api.messages,org.apache.plc4x.java.api.value,org.ap
+
+│ + ache.plc4x.java.api.model,org.apache.plc4x.java.api.listener,org.apache
+
+│ + .plc4x.java.api.types,org.apache.plc4x.java.api.exceptions
+
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+│  Tool: Bnd-6.3.1.202206071316
+
+...
+
+62 / 66 target/reference/plc4j-nifi-plc4x-nar-0.10.0.nar plc4j/integrations/apache-nifi/nifi-plc4x-nar/target/plc4j-nifi-plc4x-nar-0.10.0.nar
+--- target/reference/plc4j-nifi-plc4x-nar-0.10.0.nar
++++ plc4j/integrations/apache-nifi/nifi-plc4x-nar/target/plc4j-nifi-plc4x-nar-0.10.0.nar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 26165087 bytes, number of entries: 79
+│ +Zip file size: 26165103 bytes, number of entries: 79
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-03 15:32 META-INF/
+│  -rw-r--r--  2.0 unx      433 b- defN 22-Oct-03 15:32 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-03 15:32 META-INF/bundled-dependencies/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-03 15:32 META-INF/docs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-03 15:32 META-INF/docs/additional-details/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-03 15:32 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-03 15:32 META-INF/maven/org.apache.plc4x/
+│ @@ -41,41 +41,41 @@
+│  -rw-r--r--  2.0 unx   482048 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/netty-transport-4.1.79.Final.jar
+│  -rw-r--r--  2.0 unx    49981 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/nifi-avro-record-utils-1.17.0.jar
+│  -rw-r--r--  2.0 unx    19570 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/nifi-security-socket-ssl-1.17.0.jar
+│  -rw-r--r--  2.0 unx    62786 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/nifi-standard-record-utils-1.17.0.jar
+│  -rw-r--r--  2.0 unx   179707 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/nifi-utils-1.17.0.jar
+│  -rw-r--r--  2.0 unx  1280881 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/pcap4j-core-1.8.2.jar
+│  -rw-r--r--  2.0 unx   152874 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/pcap4j-packetfactory-static-1.8.2.jar
+│ --rw-r--r--  2.0 unx    49908 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/plc4j-api-0.10.0.jar
+│ +-rw-r--r--  2.0 unx    49900 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/plc4j-api-0.10.0.jar
+│  -rw-r--r--  2.0 unx    13619 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/plc4j-connection-pool-0.10.0.jar
+│ --rw-r--r--  2.0 unx    65281 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/plc4j-driver-ab-eth-0.10.0.jar
+│ --rw-r--r--  2.0 unx   281115 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/plc4j-driver-ads-0.10.0.jar
+│ --rw-r--r--  2.0 unx    45990 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/plc4j-driver-can-0.10.0.jar
+│ --rw-r--r--  2.0 unx   193574 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/plc4j-driver-canopen-0.10.0.jar
+│ --rw-r--r--  2.0 unx    86366 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/plc4j-driver-eip-0.10.0.jar
+│ --rw-r--r--  2.0 unx   783304 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/plc4j-driver-knxnetip-0.10.0.jar
+│ --rw-r--r--  2.0 unx   250403 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/plc4j-driver-modbus-0.10.0.jar
+│ +-rw-r--r--  2.0 unx    65274 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/plc4j-driver-ab-eth-0.10.0.jar
+│ +-rw-r--r--  2.0 unx   281125 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/plc4j-driver-ads-0.10.0.jar
+│ +-rw-r--r--  2.0 unx    46010 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/plc4j-driver-can-0.10.0.jar
+│ +-rw-r--r--  2.0 unx   193581 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/plc4j-driver-canopen-0.10.0.jar
+│ +-rw-r--r--  2.0 unx    86373 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/plc4j-driver-eip-0.10.0.jar
+│ +-rw-r--r--  2.0 unx   783309 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/plc4j-driver-knxnetip-0.10.0.jar
+│ +-rw-r--r--  2.0 unx   250405 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/plc4j-driver-modbus-0.10.0.jar
+│  -rw-r--r--  2.0 unx  1442705 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/plc4j-driver-opcua-0.10.0.jar
+...
+│  -rw-r--r--  2.0 unx     3134 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/vavr-match-0.10.4.jar
+│  -rw-r--r--  2.0 unx  1585771 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/woodstox-core-6.3.1.jar
+│  -rw-r--r--  2.0 unx   209452 b- defN 22-Oct-03 15:32 META-INF/bundled-dependencies/zip4j-2.11.2.jar
+│ --rw-r--r--  2.0 unx  1141595 b- defN 22-Oct-03 15:32 META-INF/docs/extension-manifest.xml
+│ +-rw-r--r--  2.0 unx  1141586 b- defN 22-Oct-03 15:32 META-INF/docs/extension-manifest.xml
+│  -rw-r--r--  2.0 unx     5675 b- defN 22-Oct-03 15:32 META-INF/maven/org.apache.plc4x/plc4j-nifi-plc4x-nar/pom.xml
+│  -rw-r--r--  2.0 unx       72 b- defN 22-Oct-03 15:32 META-INF/maven/org.apache.plc4x/plc4j-nifi-plc4x-nar/pom.properties
+│ -79 files, 30266715 bytes uncompressed, 26150597 bytes compressed:  13.6%
+│ +79 files, 30266733 bytes uncompressed, 26150613 bytes compressed:  13.6%
+├── META-INF/MANIFEST.MF
+│ @@ -6,10 +6,10 @@
+│  Nar-Version: 0.10.0
+
+│  Nar-Dependency-Group: org.apache.nifi
+
+│  Nar-Dependency-Id: nifi-standard-nar
+
+│  Nar-Dependency-Version: 1.17.0
+
+│  Build-Tag: v0.10.0
+
+│  Build-Branch: UNKNOWN
+
+│  Build-Revision: cac8254
+
+│ -Build-Timestamp: 2022-10-03T10:32:15Z
+
+│ +Build-Timestamp: 2022-10-03T17:32:15Z
+
+│  Clone-During-Instance-Class-Loading: false
+├── META-INF/bundled-dependencies/plc4j-api-0.10.0.jar
+...
+├── META-INF/bundled-dependencies/plc4j-driver-ab-eth-0.10.0.jar
+...
+├── META-INF/docs/extension-manifest.xml
+│ ├── META-INF/docs/extension-manifest.xml
+│ │ @@ -2876,15 +2876,15 @@
+│ │            <displayName>Encryption Algorithm</displayName>
+│ │            <description>The Encryption Algorithm to use</description>
+│ │            <defaultValue>AES_GCM</defaultValue>
+│ │            <allowableValues>
+│ │              <allowableValue>
+│ │                <displayName>MD5_128AES</displayName>
+│ │                <value>MD5_128AES</value>
+│ │ -              <description>org.apache.nifi.security.util.EncryptionMethod@79ca44aa[Algorithm name=PBEWITHMD5AND128BITAES-CBC-OPENSSL,Requires unlimited strength JCE policy=false,Algorithm Provider=BC,Compatible with strong KDFs=false,Keyed cipher=false]</description>
+│ │ +              <description>org.apache.nifi.security.util.EncryptionMethod@77cd6128[Algorithm name=PBEWITHMD5AND128BITAES-CBC-OPENSSL,Requires unlimited strength JCE policy=false,Algorithm Provider=BC,Compatible with strong KDFs=false,Keyed cipher=false]</description>
+│ │              </allowableValue>
+│ │              <allowableValue>
+│ │                <displayName>MD5_192AES</displayName>
+│ │                <value>MD5_192AES</value>
+│ │                <description>EncryptionMethod[Algorithm name=PBEWITHMD5AND192BITAES-CBC-OPENSSL,Requires unlimited strength JCE policy=true,Algorithm Provider=BC,Compatible with strong KDFs=false,Keyed cipher=false]</description>
+│ │              </allowableValue>
+│ │              <allowableValue>
+│ │ @@ -6022,15 +6022,15 @@
+│ │            <expressionLanguageScope>NONE</expressionLanguageScope>
+│ │            <dynamicallyModifiesClasspath>false</dynamicallyModifiesClasspath>
+│ │            <dynamic>false</dynamic>
+│ │          </property>
+│ │          <property>
+│ │            <name>Log level when permission denied</name>
+│ │            <displayName>Log level when permission denied</displayName>
+│ │ -          <description>Log level to use in case user christoferdutz does not have sufficient permissions to read the file</description>
+│ │ +          <description>Log level to use in case user herve does not have sufficient permissions to read the file</description>
+│ │            <defaultValue>ERROR</defaultValue>
+│ │            <allowableValues>
+│ │              <allowableValue>
+│ │                <displayName>TRACE</displayName>
+│ │                <value>TRACE</value>
+│ │                <description/>
+│ │              </allowableValue>
+│ │ @@ -11818,16 +11818,16 @@
+│ │            <expressionLanguageSupported>true</expressionLanguageSupported>
+│ │            <expressionLanguageScope>VARIABLE_REGISTRY</expressionLanguageScope>
+│ │            <dynamicallyModifiesClasspath>true</dynamicallyModifiesClasspath>
+│ │            <dynamic>false</dynamic>
+│ │            <resourceDefinition>
+│ │              <cardinality>MULTIPLE</cardinality>
+│ │              <resourceTypes>
+│ │ -              <resourceType>DIRECTORY</resourceType>
+│ │                <resourceType>FILE</resourceType>
+│ │ +              <resourceType>DIRECTORY</resourceType>
+│ │              </resourceTypes>
+│ │            </resourceDefinition>
+│ │            <dependencies>
+│ │              <dependency>
+│ │                <propertyName>jolt-spec</propertyName>
+│ │                <propertyDisplayName>Jolt Specification</propertyDisplayName>
+│ │                <dependentValues>
+│ │ @@ -16447,16 +16447,16 @@
+│ │            <expressionLanguageSupported>true</expressionLanguageSupported>
+│ │            <expressionLanguageScope>FLOWFILE_ATTRIBUTES</expressionLanguageScope>
+│ │            <dynamicallyModifiesClasspath>false</dynamicallyModifiesClasspath>
+│ │            <dynamic>false</dynamic>
+│ │            <resourceDefinition>
+│ │              <cardinality>SINGLE</cardinality>
+│ │              <resourceTypes>
+│ │ -              <resourceType>TEXT</resourceType>
+│ │                <resourceType>FILE</resourceType>
+│ │ +              <resourceType>TEXT</resourceType>
+│ │              </resourceTypes>
+│ │            </resourceDefinition>
+│ │            <dependencies>
+│ │              <dependency>
+│ │                <propertyName>Delimiter Strategy</propertyName>
+│ │                <propertyDisplayName>Delimiter Strategy</propertyDisplayName>
+│ │                <dependentValues>
+│ │ @@ -16482,16 +16482,16 @@
+│ │            <expressionLanguageSupported>true</expressionLanguageSupported>
+│ │            <expressionLanguageScope>FLOWFILE_ATTRIBUTES</expressionLanguageScope>
+│ │            <dynamicallyModifiesClasspath>false</dynamicallyModifiesClasspath>
+│ │            <dynamic>false</dynamic>
+│ │            <resourceDefinition>
+│ │              <cardinality>SINGLE</cardinality>
+│ │              <resourceTypes>
+│ │ -              <resourceType>TEXT</resourceType>
+│ │                <resourceType>FILE</resourceType>
+│ │ +              <resourceType>TEXT</resourceType>
+│ │              </resourceTypes>
+│ │            </resourceDefinition>
+│ │            <dependencies>
+│ │              <dependency>
+│ │                <propertyName>Delimiter Strategy</propertyName>
+│ │                <propertyDisplayName>Delimiter Strategy</propertyDisplayName>
+│ │                <dependentValues>
+│ │ @@ -16517,16 +16517,16 @@
+│ │            <expressionLanguageSupported>true</expressionLanguageSupported>
+│ │            <expressionLanguageScope>FLOWFILE_ATTRIBUTES</expressionLanguageScope>
+│ │            <dynamicallyModifiesClasspath>false</dynamicallyModifiesClasspath>
+│ │            <dynamic>false</dynamic>
+│ │            <resourceDefinition>
+│ │              <cardinality>SINGLE</cardinality>
+│ │              <resourceTypes>
+│ │ -              <resourceType>TEXT</resourceType>
+│ │                <resourceType>FILE</resourceType>
+│ │ +              <resourceType>TEXT</resourceType>
+│ │              </resourceTypes>
+│ │            </resourceDefinition>
+│ │            <dependencies>
+│ │              <dependency>
+│ │                <propertyName>Delimiter Strategy</propertyName>
+│ │                <propertyDisplayName>Delimiter Strategy</propertyDisplayName>
+│ │                <dependentValues>
