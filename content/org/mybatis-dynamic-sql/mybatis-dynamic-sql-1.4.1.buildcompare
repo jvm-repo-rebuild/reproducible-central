@@ -1,0 +1,8 @@
+version=1.4.1
+ok=2
+ko=1
+okFiles="mybatis-dynamic-sql-1.4.1.pom mybatis-dynamic-sql-1.4.1-sources.jar"
+koFiles="mybatis-dynamic-sql-1.4.1.jar"
+reference_java_version="18 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/mybatis-dynamic-sql-1.4.1.jar target/mybatis-dynamic-sql-1.4.1.jar
