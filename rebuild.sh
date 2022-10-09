@@ -120,7 +120,7 @@ mvnBuildDocker() {
       mvnImage=maven:${mvnVersion}-openjdk-${jdk}-slim
       ;;
     *)
-      mvnImage=maven:${mvnVersion}-openjdk-${jdk}-slim
+      mvnImage=maven:${mvnVersion}-eclipse-temurin-${jdk}-alpine
   esac
 
   echo "Rebuilding using Docker image ${mvnImage}"
