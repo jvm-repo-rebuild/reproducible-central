@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **1209 releases** of **329 projects**:
+   rebuilding **1210 releases** of **329 projects**:
    - **856** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 353 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - 354 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
 
@@ -24,7 +24,7 @@ Its objectives are to provide:
 | ----------------- | --------------- | --------- | -------- |
 | biz.aQute.bnd | <a name='biz.aQute.bnd:bnd-plugin-parent'></a>[bnd-plugin-parent](content/biz/aQute/bnd/plugins/README.md) | 7 | 7 :heavy_check_mark: |
 | ch.qos.logback.db | <a name='ch.qos.logback.db:logback-parent-db'></a>[logback-parent-db](content/ch/qos/logback/db/README.md) | 1 | 1 :warning: |
-| ch.qos.logback | <a name='ch.qos.logback:logback-parent'></a>[logback-parent](content/ch/qos/logback/README.md) | 5 | 1 :heavy_check_mark: / 4 :warning: |
+| ch.qos.logback | <a name='ch.qos.logback:logback-parent'></a>[logback-parent](content/ch/qos/logback/README.md) | 6 | 1 :heavy_check_mark: / 5 :warning: |
 | ch.qos.reload4j | <a name='ch.qos.reload4j:reload4j'></a>[reload4j](content/ch/qos/reload4j/README.md) | 5 | 5 :warning: |
 | com.adobe.acs | <a name='com.adobe.acs:acs-aem-commons'></a>[acs-aem-commons](content/com/adobe/acs/aem-commons/README.md) | 1 | 1 :warning: |
 | com.fasterxml.jackson.core | <a name='com.fasterxml.jackson.core:jackson-annotations'></a>[jackson-annotations](content/com/fasterxml/jackson/annotations/README.md) | 1 | 1 :warning: |
@@ -351,7 +351,7 @@ Its objectives are to provide:
 | | <a name='org.webjars:webjars-locator-core'></a>[webjars-locator-core](content/org/webjars/webjars-locator-core/README.md) | 1 | 1 :heavy_check_mark: |
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 6 | 6 :warning: |
-| **Count:** | **329** | **1209** | **856** :heavy_check_mark: **353** :warning: |
+| **Count:** | **329** | **1210** | **856** :heavy_check_mark: **354** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)

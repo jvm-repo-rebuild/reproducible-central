@@ -27,6 +27,7 @@ rebuilding **1 releases** of org.apache.wss4j:wss4j:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.0](https://search.maven.org/artifact/org.apache.wss4j/wss4j/3.0.0/pom) | | | |
 | [2.4.1](https://search.maven.org/artifact/org.apache.wss4j/wss4j/2.4.1/pom) | | | |
 | [2.4.0](https://search.maven.org/artifact/org.apache.wss4j/wss4j/2.4.0/pom) | [mvn jdk8](wss4j-2.4.0.buildspec) | [result](wss4j-2.4.0.buildinfo): [10 :heavy_check_mark:  12 :warning:](wss4j-2.4.0.buildcompare) [:mag:](wss4j-2.4.0.diffoscope) [:memo:](https://github.com/apache/ws-wss4j/commit/39e6356d19fc98c42f74953556738dfaa9b7e01e) | 6.5M |
 
