@@ -172,6 +172,11 @@
       <url>https://jaspersoft.jfrog.io/jaspersoft/third-party-ce-artifacts/</url>
     </mirror>
     <mirror>
+      <id>shibboleth</id>
+      <mirrorOf>B_shibboleth</mirrorOf>
+      <url>https://build.shibboleth.net/nexus/content/repositories/releases/</url>
+    </mirror>
+    <mirror>
       <id>default</id>
       <mirrorOf>*</mirrorOf>
       <url>https://repo.maven.apache.org/maven2</url>

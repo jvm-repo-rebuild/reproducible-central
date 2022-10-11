@@ -116,7 +116,7 @@ mvnBuildDocker() {
     14)
       mvnImage=maven:${mvnVersion}-jdk-${jdk}
       ;;
-    15 | 16 | 17)
+    11 | 15 | 16 | 17)
       mvnImage=maven:${mvnVersion}-openjdk-${jdk}-slim
       ;;
     *)
