@@ -1,0 +1,70 @@
+1 /        9 target/reference/jackson-jr-objects-2.14.0-rc2.jar jr-objects/target/jackson-jr-objects-2.14.0-rc2.jar
+--- target/reference/jackson-jr-objects-2.14.0-rc2.jar
++++ jr-objects/target/jackson-jr-objects-2.14.0-rc2.jar
+│┄ Archive contents identical but files differ, possibly due to different compression levels. Falling back to binary comparison.
+# ???
+# probably caused by moditect-maven-plugin:1.0.0.RC2:add-module-info
+
+# module.json difference is just a consequence of previous issue on .jar
+
+2 /        9 target/reference/jackson-jr-objects-2.14.0-rc2.module jr-objects/target/publications/maven/module.json
+--- target/reference/jackson-jr-objects-2.14.0-rc2.module
++++ jr-objects/target/publications/maven/module.json
+├── Pretty-printed
+│┄ Similarity: 0.9955357142857143%
+│┄ Differences: {"'variants'": "{0: {'files': {0: {'sha512': "
+│┄                "'6c1ee6cb76f792579c564275d573528e4dcfdfe0f2ffbb06d516efeefb1e3202275e257aec26d1b1a29e09c4c43a561426b7a75d96ca1d8afb3a9158337ed255', "
+│┄                "'sha256': '1dab475c4280b79bb32785aa5810020ca326c446f5216cc3405d8d71d5cd165a', "
+│┄                "'sha1': '1ee5e887d8d7c40bcc01fef49cbaf6aaf07bb239', 'md5': "
+│┄                "'7d51815826ef1fe861392de65255dc68'}}}, 1: {'files': {0: {'sha512': "
+│┄                "'6c1ee6cb76f792579c564275d573528e4dcfdfe0 […]
+│ @@ -39,19 +39,19 @@
+│                      "version": {
+│                          "requires": "2.14.0-rc2"
+│                      }
+│                  }
+│              ],
+│              "files": [
+│                  {
+│ -                    "md5": "1bc945c4072a4b07b94254bfe7eb475",
+│ +                    "md5": "7d51815826ef1fe861392de65255dc68",
+│                      "name": "jackson-jr-objects-2.14.0-rc2.jar",
+│ -                    "sha1": "b9249ab7f70f7343ce431f923d49332538431b9e",
+│ -                    "sha256": "1f599d4c73d581acad63ff3cd2c42c395a94e90deb8d3a1f12a5aaeb602d6a18",
+│ -                    "sha512": "ae0ae3c13ca027d9b0d70ed850b3fc0e5db2d41e58947e5ce3633d694f6c9bbffee52e6bc36a3419d7635c5bae6e9b19f3d7357db5d6157c277e7ae3d947b453",
+│ +                    "sha1": "1ee5e887d8d7c40bcc01fef49cbaf6aaf07bb239",
+│ +                    "sha256": "1dab475c4280b79bb32785aa5810020ca326c446f5216cc3405d8d71d5cd165a",
+│ +                    "sha512": "6c1ee6cb76f792579c564275d573528e4dcfdfe0f2ffbb06d516efeefb1e3202275e257aec26d1b1a29e09c4c43a561426b7a75d96ca1d8afb3a9158337ed255",
+│                      "size": 100645,
+│                      "url": "jackson-jr-objects-2.14.0-rc2.jar"
+│                  }
+│              ],
+│              "name": "apiElements"
+│          },
+│          {
+│ @@ -79,19 +79,19 @@
+│                      "version": {
+│                          "requires": "2.14.0-rc2"
+│                      }
+│                  }
+│              ],
+│              "files": [
+│                  {
+│ -                    "md5": "1bc945c4072a4b07b94254bfe7eb475",
+│ +                    "md5": "7d51815826ef1fe861392de65255dc68",
+│                      "name": "jackson-jr-objects-2.14.0-rc2.jar",
+│ -                    "sha1": "b9249ab7f70f7343ce431f923d49332538431b9e",
+│ -                    "sha256": "1f599d4c73d581acad63ff3cd2c42c395a94e90deb8d3a1f12a5aaeb602d6a18",
+│ -                    "sha512": "ae0ae3c13ca027d9b0d70ed850b3fc0e5db2d41e58947e5ce3633d694f6c9bbffee52e6bc36a3419d7635c5bae6e9b19f3d7357db5d6157c277e7ae3d947b453",
+│ +                    "sha1": "1ee5e887d8d7c40bcc01fef49cbaf6aaf07bb239",
+│ +                    "sha256": "1dab475c4280b79bb32785aa5810020ca326c446f5216cc3405d8d71d5cd165a",
+│ +                    "sha512": "6c1ee6cb76f792579c564275d573528e4dcfdfe0f2ffbb06d516efeefb1e3202275e257aec26d1b1a29e09c4c43a561426b7a75d96ca1d8afb3a9158337ed255",
+│                      "size": 100645,
+│                      "url": "jackson-jr-objects-2.14.0-rc2.jar"
+│                  }
+│              ],
+│              "name": "runtimeElements"
+│          }
+│      ]
+
+...

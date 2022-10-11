@@ -1,0 +1,16 @@
+version=2.14.0-rc2
+ok=11
+ko=9
+okFiles="jackson-jr-parent-2.14.0-rc2.pom jackson-jr-objects-2.14.0-rc2.pom jackson-jr-objects-2.14.0-rc2-sources.jar jackson-jr-retrofit2-2.14.0-rc2.pom jackson-jr-retrofit2-2.14.0-rc2-sources.jar jackson-jr-stree-2.14.0-rc2.pom jackson-jr-stree-2.14.0-rc2-sources.jar jackson-jr-annotation-support-2.14.0-rc2.pom jackson-jr-annotation-support-2.14.0-rc2-sources.jar jackson-jr-all-2.14.0-rc2.pom jackson-jr-all-2.14.0-rc2-sources.jar"
+koFiles="jackson-jr-objects-2.14.0-rc2.jar jackson-jr-objects-2.14.0-rc2.module jackson-jr-retrofit2-2.14.0-rc2.jar jackson-jr-retrofit2-2.14.0-rc2.module jackson-jr-stree-2.14.0-rc2.jar jackson-jr-stree-2.14.0-rc2.module jackson-jr-annotation-support-2.14.0-rc2.jar jackson-jr-annotation-support-2.14.0-rc2.module jackson-jr-all-2.14.0-rc2.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/jackson-jr-objects-2.14.0-rc2.jar jr-objects/target/jackson-jr-objects-2.14.0-rc2.jar
+# diffoscope target/reference/jackson-jr-objects-2.14.0-rc2.module jr-objects/target/publications/maven/module.json
+# diffoscope target/reference/jackson-jr-retrofit2-2.14.0-rc2.jar jr-retrofit2/target/jackson-jr-retrofit2-2.14.0-rc2.jar
+# diffoscope target/reference/jackson-jr-retrofit2-2.14.0-rc2.module jr-retrofit2/target/publications/maven/module.json
+# diffoscope target/reference/jackson-jr-stree-2.14.0-rc2.jar jr-stree/target/jackson-jr-stree-2.14.0-rc2.jar
+# diffoscope target/reference/jackson-jr-stree-2.14.0-rc2.module jr-stree/target/publications/maven/module.json
+# diffoscope target/reference/jackson-jr-annotation-support-2.14.0-rc2.jar jr-annotation-support/target/jackson-jr-annotation-support-2.14.0-rc2.jar
+# diffoscope target/reference/jackson-jr-annotation-support-2.14.0-rc2.module jr-annotation-support/target/publications/maven/module.json
+# diffoscope target/reference/jackson-jr-all-2.14.0-rc2.jar jr-all/target/jackson-jr-all-2.14.0-rc2.jar
