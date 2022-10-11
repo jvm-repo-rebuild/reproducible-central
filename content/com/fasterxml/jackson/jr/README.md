@@ -17,13 +17,13 @@ Source code: [https://github.com/FasterXML/jackson-jr.git](https://github.com/Fa
 * [com.fasterxml.jackson.jr:jackson-jr-stree](https://search.maven.org/artifact/com.fasterxml.jackson.jr/jackson-jr-stree/)
 </details>
 
-rebuilding **1 releases** of com.fasterxml.jackson.jr:jackson-jr-parent:
+rebuilding **2 releases** of com.fasterxml.jackson.jr:jackson-jr-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.14.0-rc2](https://search.maven.org/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.14.0-rc2/pom) | | | |
+| [2.14.0-rc2](https://search.maven.org/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.14.0-rc2/pom) | [mvn jdk8](jackson-jr-2.14.0-rc2.buildspec) | [result](jackson-jr-parent-2.14.0-rc2.buildinfo): [11 :heavy_check_mark:  9 :warning:](jackson-jr-parent-2.14.0-rc2.buildcompare) [:mag:](jackson-jr-parent-2.14.0-rc2.diffoscope) | 1.5M |
 | [2.14.0-rc1](https://search.maven.org/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.14.0-rc1/pom) | [mvn jdk8](jackson-jr-2.14.0-rc1.buildspec) | [result](jackson-jr-parent-2.14.0-rc1.buildinfo): [6 :heavy_check_mark:  14 :warning:](jackson-jr-parent-2.14.0-rc1.buildcompare) [:memo:](https://github.com/FasterXML/oss-parent/pull/55) | 1.5M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
