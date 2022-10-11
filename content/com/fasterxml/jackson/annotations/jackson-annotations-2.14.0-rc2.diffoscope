@@ -1,0 +1,68 @@
+1 /        2 target/reference/jackson-annotations-2.14.0-rc2.jar target/jackson-annotations-2.14.0-rc2.jar
+--- target/reference/jackson-annotations-2.14.0-rc2.jar
++++ target/jackson-annotations-2.14.0-rc2.jar
+│┄ Archive contents identical but files differ, possibly due to different compression levels. Falling back to binary comparison.
+# ???
+# probably caused by moditect-maven-plugin:1.0.0.RC2:add-module-info
+
+# module.json difference is just a consequence of previous issue on .jar
+2 /        2 target/reference/jackson-annotations-2.14.0-rc2.module target/publications/maven/module.json
+--- target/reference/jackson-annotations-2.14.0-rc2.module
++++ target/publications/maven/module.json
+├── Pretty-printed
+│┄ Similarity: 0.9955357142857143%
+│┄ Differences: {"'variants'": "{0: {'files': {0: {'sha512': "
+│┄                "'d6447b606d4ff9b5c13e8ce9c7c8e34d07a91279b1e1c839bdf25f8fa70abf550e2a29e3be0e3d57f86a9dd6b3c2303d5b693dc2cb832397d93a9d837cd0e0cf', "
+│┄                "'sha256': 'd6671e8cbfa7cd8a8c37ab72d7bd6d2fc5ce594ec8f86f489a3dbe4fe1559376', "
+│┄                "'sha1': 'ce9d61654fb008afeceb2e52fb6b221d8f7d3aa5', 'md5': "
+│┄                "'e2fb0224e4f3113a7ad733c31a7161f8'}}}, 1: {'files': {0: {'sha512': "
+│┄                "'d6447b606d4ff9b5c13e8ce9c7c8e34d07a91279 […]
+│ @@ -32,19 +32,19 @@
+│                      "version": {
+│                          "requires": "2.14.0-rc2"
+│                      }
+│                  }
+│              ],
+│              "files": [
+│                  {
+│ -                    "md5": "a362fde575c78e4c45c37b5b3d086837",
+│ +                    "md5": "e2fb0224e4f3113a7ad733c31a7161f8",
+│                      "name": "jackson-annotations-2.14.0-rc2.jar",
+│ -                    "sha1": "639d6070794c10bbc966ba9637c9d3fdddb625e6",
+│ -                    "sha256": "4e610a35accc8085781f7501244dfe0cb9cb5cde672ee055a0d1925ff4529f5f",
+│ -                    "sha512": "b02dee88e45ac7060cb146e804979feff338f045c0fd84dabd19ec9a481ef694305397be766eb6426976867058f8dabd56d44a0c9dee3ba4c6be50ebad53d9c5",
+│ +                    "sha1": "ce9d61654fb008afeceb2e52fb6b221d8f7d3aa5",
+│ +                    "sha256": "d6671e8cbfa7cd8a8c37ab72d7bd6d2fc5ce594ec8f86f489a3dbe4fe1559376",
+│ +                    "sha512": "d6447b606d4ff9b5c13e8ce9c7c8e34d07a91279b1e1c839bdf25f8fa70abf550e2a29e3be0e3d57f86a9dd6b3c2303d5b693dc2cb832397d93a9d837cd0e0cf",
+│                      "size": 76104,
+│                      "url": "jackson-annotations-2.14.0-rc2.jar"
+│                  }
+│              ],
+│              "name": "apiElements"
+│          },
+│          {
+│ @@ -65,19 +65,19 @@
+│                      "version": {
+│                          "requires": "2.14.0-rc2"
+│                      }
+│                  }
+│              ],
+│              "files": [
+│                  {
+│ -                    "md5": "a362fde575c78e4c45c37b5b3d086837",
+│ +                    "md5": "e2fb0224e4f3113a7ad733c31a7161f8",
+│                      "name": "jackson-annotations-2.14.0-rc2.jar",
+│ -                    "sha1": "639d6070794c10bbc966ba9637c9d3fdddb625e6",
+│ -                    "sha256": "4e610a35accc8085781f7501244dfe0cb9cb5cde672ee055a0d1925ff4529f5f",
+│ -                    "sha512": "b02dee88e45ac7060cb146e804979feff338f045c0fd84dabd19ec9a481ef694305397be766eb6426976867058f8dabd56d44a0c9dee3ba4c6be50ebad53d9c5",
+│ +                    "sha1": "ce9d61654fb008afeceb2e52fb6b221d8f7d3aa5",
+│ +                    "sha256": "d6671e8cbfa7cd8a8c37ab72d7bd6d2fc5ce594ec8f86f489a3dbe4fe1559376",
+│ +                    "sha512": "d6447b606d4ff9b5c13e8ce9c7c8e34d07a91279b1e1c839bdf25f8fa70abf550e2a29e3be0e3d57f86a9dd6b3c2303d5b693dc2cb832397d93a9d837cd0e0cf",
+│                      "size": 76104,
+│                      "url": "jackson-annotations-2.14.0-rc2.jar"
+│                  }
+│              ],
+│              "name": "runtimeElements"
+│          }
+│      ]
+
