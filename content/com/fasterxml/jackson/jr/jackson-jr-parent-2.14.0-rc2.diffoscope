@@ -6,7 +6,6 @@
 # probably caused by moditect-maven-plugin:1.0.0.RC2:add-module-info
 
 # module.json difference is just a consequence of previous issue on .jar
-
 2 /        9 target/reference/jackson-jr-objects-2.14.0-rc2.module jr-objects/target/publications/maven/module.json
 --- target/reference/jackson-jr-objects-2.14.0-rc2.module
 +++ jr-objects/target/publications/maven/module.json

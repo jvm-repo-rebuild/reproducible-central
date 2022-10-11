@@ -1,0 +1,68 @@
+1 /        2 target/reference/jackson-databind-2.14.0-rc2.jar target/jackson-databind-2.14.0-rc2.jar
+--- target/reference/jackson-databind-2.14.0-rc2.jar
++++ target/jackson-databind-2.14.0-rc2.jar
+│┄ Archive contents identical but files differ, possibly due to different compression levels. Falling back to binary comparison.
+# ???
+# probably caused by moditect-maven-plugin:1.0.0.RC2:add-module-info
+
+# module.json difference is just a consequence of previous issue on .jar
+2 /        2 target/reference/jackson-databind-2.14.0-rc2.module target/publications/maven/module.json
+--- target/reference/jackson-databind-2.14.0-rc2.module
++++ target/publications/maven/module.json
+├── Pretty-printed
+│┄ Similarity: 0.9955357142857143%
+│┄ Differences: {"'variants'": "{0: {'files': {0: {'sha512': "
+│┄                "'8387eecd7c6a7b658e38b56d7722835f1eba5e010416e2225de94af50da75c8cc86f6c4bff975e95734b70d2619435adab0a0de4607841cecf0fd1622e30636a', "
+│┄                "'sha256': '57fd3fb09fc371659a91a722c0d423c08adc2f5b11135f0e06fce608bb578ef', "
+│┄                "'sha1': 'd6e28849cf1c8fba8502faafb18dac1356bfcd71', 'md5': "
+│┄                "'4c905f8836fb7008c66dc393fb342f75'}}}, 1: {'files': {0: {'sha512': "
+│┄                "'8387eecd7c6a7b658e38b56d7722835f1eba5e010 […]
+│ @@ -46,19 +46,19 @@
+│                      "version": {
+│                          "requires": "2.14.0-rc2"
+│                      }
+│                  }
+│              ],
+│              "files": [
+│                  {
+│ -                    "md5": "6b1bef6ed0cee22a4bb1a7c89938e562",
+│ +                    "md5": "4c905f8836fb7008c66dc393fb342f75",
+│                      "name": "jackson-databind-2.14.0-rc2.jar",
+│ -                    "sha1": "22fe816e20567772909b58617515e07e6dea71aa",
+│ -                    "sha256": "11bbe2794800fa69bf49c63ad24419822ada6852ac739664ee35620168ccb1ec",
+│ -                    "sha512": "929a4772aad5aa7067aa162e7fd7c6ff84ae0d4cdeea58720d55b450004d45944de4db4c8cc41b1ba1a4fdd0e130e32684b544f7f0d96b46bd0e805526136b07",
+│ +                    "sha1": "d6e28849cf1c8fba8502faafb18dac1356bfcd71",
+│ +                    "sha256": "57fd3fb09fc371659a91a722c0d423c08adc2f5b11135f0e06fce608bb578ef",
+│ +                    "sha512": "8387eecd7c6a7b658e38b56d7722835f1eba5e010416e2225de94af50da75c8cc86f6c4bff975e95734b70d2619435adab0a0de4607841cecf0fd1622e30636a",
+│                      "size": 1617553,
+│                      "url": "jackson-databind-2.14.0-rc2.jar"
+│                  }
+│              ],
+│              "name": "apiElements"
+│          },
+│          {
+│ @@ -93,19 +93,19 @@
+│                      "version": {
+│                          "requires": "2.14.0-rc2"
+│                      }
+│                  }
+│              ],
+│              "files": [
+│                  {
+│ -                    "md5": "6b1bef6ed0cee22a4bb1a7c89938e562",
+│ +                    "md5": "4c905f8836fb7008c66dc393fb342f75",
+│                      "name": "jackson-databind-2.14.0-rc2.jar",
+│ -                    "sha1": "22fe816e20567772909b58617515e07e6dea71aa",
+│ -                    "sha256": "11bbe2794800fa69bf49c63ad24419822ada6852ac739664ee35620168ccb1ec",
+│ -                    "sha512": "929a4772aad5aa7067aa162e7fd7c6ff84ae0d4cdeea58720d55b450004d45944de4db4c8cc41b1ba1a4fdd0e130e32684b544f7f0d96b46bd0e805526136b07",
+│ +                    "sha1": "d6e28849cf1c8fba8502faafb18dac1356bfcd71",
+│ +                    "sha256": "57fd3fb09fc371659a91a722c0d423c08adc2f5b11135f0e06fce608bb578ef",
+│ +                    "sha512": "8387eecd7c6a7b658e38b56d7722835f1eba5e010416e2225de94af50da75c8cc86f6c4bff975e95734b70d2619435adab0a0de4607841cecf0fd1622e30636a",
+│                      "size": 1617553,
+│                      "url": "jackson-databind-2.14.0-rc2.jar"
+│                  }
+│              ],
+│              "name": "runtimeElements"
+│          }
+│      ]
+
