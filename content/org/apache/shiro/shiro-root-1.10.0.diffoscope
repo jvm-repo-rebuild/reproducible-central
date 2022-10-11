@@ -1,0 +1,2234 @@
+# AspectJ seems to introduce noise...
+1 /        3 target/reference/shiro-aspectj-1.10.0.jar support/aspectj/target/shiro-aspectj-1.10.0.jar
+--- target/reference/shiro-aspectj-1.10.0.jar
++++ support/aspectj/target/shiro-aspectj-1.10.0.jar
+├── zipinfo {}
+│ @@ -1,20 +1,20 @@
+│ -Zip file size: 13299 bytes, number of entries: 18
+│ +Zip file size: 13411 bytes, number of entries: 18
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     1456 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     3475 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat      640 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.shiro/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.shiro/shiro-aspectj/
+│  -rw----     2.0 fat       65 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.shiro/shiro-aspectj/pom.properties
+│  -rw----     2.0 fat     4063 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.shiro/shiro-aspectj/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/shiro/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/shiro/aspectj/
+│ --rw----     2.0 fat     2247 bl defN 80-Feb-01 00:00 org/apache/shiro/aspectj/AspectjAnnotationsAuthorizingMethodInterceptor.class
+│ --rw----     2.0 fat     2195 bl defN 80-Feb-01 00:00 org/apache/shiro/aspectj/BeforeAdviceMethodInvocationAdapter.class
+│ +-rw----     2.0 fat     2324 bl defN 80-Feb-01 00:00 org/apache/shiro/aspectj/AspectjAnnotationsAuthorizingMethodInterceptor.class
+│ +-rw----     2.0 fat     2267 bl defN 80-Feb-01 00:00 org/apache/shiro/aspectj/BeforeAdviceMethodInvocationAdapter.class
+│  -rw----     2.0 fat     6364 bl defN 80-Feb-01 00:00 org/apache/shiro/aspectj/ShiroAnnotationAuthorizingAspect.class
+│  -rw----     2.0 fat      130 bl defN 80-Feb-01 00:00 org/apache/shiro/aspectj/package-info.class
+│ -18 files, 31993 bytes uncompressed, 10427 bytes compressed:  67.4%
+│ +18 files, 32142 bytes uncompressed, 10539 bytes compressed:  67.2%
+├── org/apache/shiro/aspectj/AspectjAnnotationsAuthorizingMethodInterceptor.class
+│ ├── procyon -ec {}
+│ │ @@ -1,27 +1,27 @@
+│ │  
+│ │  package org.apache.shiro.aspectj;
+│ │  
+│ │ -import org.slf4j.LoggerFactory;
+│ │  import org.apache.shiro.aop.MethodInvocation;
+│ │  import java.util.Arrays;
+│ │  import org.aspectj.lang.reflect.MethodSignature;
+│ │  import org.aspectj.lang.JoinPoint;
+│ │ +import org.slf4j.LoggerFactory;
+│ │  import org.slf4j.Logger;
+│ │  import org.apache.shiro.authz.aop.AnnotationsAuthorizingMethodInterceptor;
+│ │  
+│ │  public class AspectjAnnotationsAuthorizingMethodInterceptor extends AnnotationsAuthorizingMethodInterceptor
+│ │  {
+│ │      private static final Logger log;
+│ │      
+│ │ +    static {
+│ │ +        log = LoggerFactory.getLogger((Class)AspectjAnnotationsAuthorizingMethodInterceptor.class);
+│ │ +    }
+│ │ +    
+│ │      protected void performBeforeInterception(final JoinPoint aJoinPoint) throws Throwable {
+│ │          if (AspectjAnnotationsAuthorizingMethodInterceptor.log.isTraceEnabled()) {
+│ │              AspectjAnnotationsAuthorizingMethodInterceptor.log.trace("#### Invoking a method decorated with a Shiro annotation\n\tkind       : " + aJoinPoint.getKind() + "\n\tjoinPoint  : " + aJoinPoint + "\n\tannotations: " + Arrays.toString((Object[])((MethodSignature)aJoinPoint.getSignature()).getMethod().getAnnotations()) + "\n\ttarget     : " + aJoinPoint.getTarget());
+│ │          }
+│ │          final BeforeAdviceMethodInvocationAdapter mi = BeforeAdviceMethodInvocationAdapter.createFrom(aJoinPoint);
+│ │          super.invoke((MethodInvocation)mi);
+│ │      }
+│ │ -    
+│ │ -    static {
+│ │ -        log = LoggerFactory.getLogger((Class)AspectjAnnotationsAuthorizingMethodInterceptor.class);
+│ │ -    }
+│ │  }
+├── org/apache/shiro/aspectj/BeforeAdviceMethodInvocationAdapter.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,107 +1,105 @@
+│ │    Compiled from "BeforeAdviceMethodInvocationAdapter.java"
+│ │  public class org.apache.shiro.aspectj.BeforeAdviceMethodInvocationAdapter implements org.apache.shiro.aop.MethodInvocation
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+│ │ -  this_class: #3                          // org/apache/shiro/aspectj/BeforeAdviceMethodInvocationAdapter
+│ │ -  super_class: #22                        // java/lang/Object
+│ │ +  this_class: #1                          // org/apache/shiro/aspectj/BeforeAdviceMethodInvocationAdapter
+│ │ +  super_class: #3                         // java/lang/Object
+...
+├── org/apache/shiro/aspectj/package-info.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,18 +1,18 @@
+│ │    Compiled from "package-info.java"
+│ │  interface org.apache.shiro.aspectj.package-info
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x1600) ACC_INTERFACE, ACC_ABSTRACT, ACC_SYNTHETIC
+│ │ -  this_class: #2                          // "org/apache/shiro/aspectj/package-info"
+│ │ -  super_class: #4                         // java/lang/Object
+│ │ +  this_class: #1                          // "org/apache/shiro/aspectj/package-info"
+│ │ +  super_class: #3                         // java/lang/Object
+│ │    interfaces: 0, fields: 0, methods: 0, attributes: 1
+│ │  Constant pool:
+│ │ -  #1 = Utf8               org/apache/shiro/aspectj/package-info
+│ │ -  #2 = Class              #1              // "org/apache/shiro/aspectj/package-info"
+│ │ -  #3 = Utf8               java/lang/Object
+│ │ -  #4 = Class              #3              // java/lang/Object
+│ │ -  #5 = Utf8               package-info.java
+│ │ -  #6 = Utf8               SourceFile
+│ │ +  #1 = Class              #2              // "org/apache/shiro/aspectj/package-info"
+│ │ +  #2 = Utf8               org/apache/shiro/aspectj/package-info
+│ │ +  #3 = Class              #4              // java/lang/Object
+│ │ +  #4 = Utf8               java/lang/Object
+│ │ +  #5 = Utf8               SourceFile
+│ │ +  #6 = Utf8               package-info.java
+│ │  {
+│ │  }
+│ │  SourceFile: "package-info.java"
+
+2 /        3 target/reference/shiro-tools-hasher-1.10.0-cli.jar tools/hasher/target/shiro-tools-hasher-1.10.0-cli.jar
+--- target/reference/shiro-tools-hasher-1.10.0-cli.jar
++++ tools/hasher/target/shiro-tools-hasher-1.10.0-cli.jar
+├── zipinfo {}
+│ @@ -1,25 +1,37 @@
+│ -Zip file size: 536535 bytes, number of entries: 512
+│ +Zip file size: 551881 bytes, number of entries: 540
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 META-INF/
+│  -rw-r--r--  2.0 unx      129 b- defN 22-Oct-07 15:06 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-core/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/aop/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/authc/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/authc/credential/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/authc/pam/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/authz/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/authz/annotation/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/authz/aop/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/authz/permission/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/cache/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/codec/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/concurrent/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/config/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/config/event/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/crypto/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/crypto/hash/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/crypto/hash/format/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/dao/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/env/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/event/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/event/support/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/jndi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/ldap/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/mgt/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/realm/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/realm/activedirectory/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/realm/jdbc/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/realm/jndi/
+│ @@ -27,128 +39,45 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/realm/text/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/session/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/session/mgt/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/session/mgt/eis/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/subject/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/subject/support/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/util/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/codec/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/io/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/cache/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/crypto/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/crypto/hash/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/crypto/hash/format/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/config/event/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/event/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/event/support/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-lang/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-cache/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-crypto-hash/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-crypto-core/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-crypto-cipher/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-config-core/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-config-ogdl/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-event/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/commons/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/commons/cli/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 META-INF/maven/commons-cli/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 META-INF/maven/commons-cli/commons-cli/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/slf4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/slf4j/impl/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 META-INF/maven/org.slf4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 META-INF/maven/org.slf4j/slf4j-simple/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/slf4j/event/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/slf4j/helpers/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/slf4j/spi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 META-INF/maven/org.slf4j/slf4j-api/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 META-INF/maven/org.apache.shiro.tools/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 META-INF/maven/org.apache.shiro.tools/shiro-tools-hasher/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/tools/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Oct-07 15:06 org/apache/shiro/tools/hasher/
+│ --rw-r--r--  2.0 unx    11358 b- defN 22-Oct-07 15:06 META-INF/LICENSE.txt
+│ --rw-r--r--  2.0 unx      173 b- defN 22-Oct-07 15:06 META-INF/NOTICE.txt
+│ --rw-r--r--  2.0 unx     1641 b- defN 22-Oct-07 15:06 org/apache/commons/cli/AlreadySelectedException.class
+│ --rw-r--r--  2.0 unx     2005 b- defN 22-Oct-07 15:06 org/apache/commons/cli/AmbiguousOptionException.class
+│ --rw-r--r--  2.0 unx      676 b- defN 22-Oct-07 15:06 org/apache/commons/cli/BasicParser.class
+│ --rw-r--r--  2.0 unx     1078 b- defN 22-Oct-07 15:06 org/apache/commons/cli/CommandLine$Builder.class
+│ --rw-r--r--  2.0 unx     7044 b- defN 22-Oct-07 15:06 org/apache/commons/cli/CommandLine.class
+│ --rw-r--r--  2.0 unx      423 b- defN 22-Oct-07 15:06 org/apache/commons/cli/CommandLineParser.class
+│ --rw-r--r--  2.0 unx      233 b- defN 22-Oct-07 15:06 org/apache/commons/cli/DefaultParser$1.class
+│ --rw-r--r--  2.0 unx     1298 b- defN 22-Oct-07 15:06 org/apache/commons/cli/DefaultParser$Builder.class
+│ --rw-r--r--  2.0 unx    11874 b- defN 22-Oct-07 15:06 org/apache/commons/cli/DefaultParser.class
+│ --rw-r--r--  2.0 unx     1941 b- defN 22-Oct-07 15:06 org/apache/commons/cli/GnuParser.class
+│ --rw-r--r--  2.0 unx      233 b- defN 22-Oct-07 15:06 org/apache/commons/cli/HelpFormatter$1.class
+│ --rw-r--r--  2.0 unx     1386 b- defN 22-Oct-07 15:06 org/apache/commons/cli/HelpFormatter$OptionComparator.class
+│ --rw-r--r--  2.0 unx    13719 b- defN 22-Oct-07 15:06 org/apache/commons/cli/HelpFormatter.class
+│ --rw-r--r--  2.0 unx     1055 b- defN 22-Oct-07 15:06 org/apache/commons/cli/MissingArgumentException.class
+│ --rw-r--r--  2.0 unx     1782 b- defN 22-Oct-07 15:06 org/apache/commons/cli/MissingOptionException.class
+│ --rw-r--r--  2.0 unx      212 b- defN 22-Oct-07 15:06 org/apache/commons/cli/Option$1.class
+│ --rw-r--r--  2.0 unx     4086 b- defN 22-Oct-07 15:06 org/apache/commons/cli/Option$Builder.class
+│ --rw-r--r--  2.0 unx     9468 b- defN 22-Oct-07 15:06 org/apache/commons/cli/Option.class
+│ --rw-r--r--  2.0 unx     3885 b- defN 22-Oct-07 15:06 org/apache/commons/cli/OptionBuilder.class
+│ --rw-r--r--  2.0 unx     3004 b- defN 22-Oct-07 15:06 org/apache/commons/cli/OptionGroup.class
+│ --rw-r--r--  2.0 unx     1464 b- defN 22-Oct-07 15:06 org/apache/commons/cli/OptionValidator.class
+│ --rw-r--r--  2.0 unx     5953 b- defN 22-Oct-07 15:06 org/apache/commons/cli/Options.class
+│ --rw-r--r--  2.0 unx      444 b- defN 22-Oct-07 15:06 org/apache/commons/cli/ParseException.class
+│ --rw-r--r--  2.0 unx     7331 b- defN 22-Oct-07 15:06 org/apache/commons/cli/Parser.class
+│ --rw-r--r--  2.0 unx     3310 b- defN 22-Oct-07 15:06 org/apache/commons/cli/PatternOptionBuilder.class
+│ --rw-r--r--  2.0 unx     4365 b- defN 22-Oct-07 15:06 org/apache/commons/cli/PosixParser.class
+│ --rw-r--r--  2.0 unx     4353 b- defN 22-Oct-07 15:06 org/apache/commons/cli/TypeHandler.class
+│ --rw-r--r--  2.0 unx      772 b- defN 22-Oct-07 15:06 org/apache/commons/cli/UnrecognizedOptionException.class
+│ --rw-r--r--  2.0 unx     1063 b- defN 22-Oct-07 15:06 org/apache/commons/cli/Util.class
+│ --rw-r--r--  2.0 unx    15417 b- defN 22-Oct-07 15:06 META-INF/maven/commons-cli/commons-cli/pom.xml
+│ --rw-r--r--  2.0 unx       57 b- defN 22-Oct-07 15:06 META-INF/maven/commons-cli/commons-cli/pom.properties
+│ --rw-r--r--  2.0 unx      895 b- defN 22-Oct-07 15:06 org/slf4j/impl/OutputChoice$1.class
+│ --rw-r--r--  2.0 unx     1328 b- defN 22-Oct-07 15:06 org/slf4j/impl/OutputChoice$OutputChoiceType.class
+│ --rw-r--r--  2.0 unx     1330 b- defN 22-Oct-07 15:06 org/slf4j/impl/OutputChoice.class
+│ --rw-r--r--  2.0 unx    10423 b- defN 22-Oct-07 15:06 org/slf4j/impl/SimpleLogger.class
+│ --rw-r--r--  2.0 unx     1298 b- defN 22-Oct-07 15:06 org/slf4j/impl/SimpleLoggerConfiguration$1.class
+│ --rw-r--r--  2.0 unx     5839 b- defN 22-Oct-07 15:06 org/slf4j/impl/SimpleLoggerConfiguration.class
+│ --rw-r--r--  2.0 unx     1289 b- defN 22-Oct-07 15:06 org/slf4j/impl/SimpleLoggerFactory.class
+│ --rw-r--r--  2.0 unx     1069 b- defN 22-Oct-07 15:06 org/slf4j/impl/StaticLoggerBinder.class
+│ --rw-r--r--  2.0 unx      790 b- defN 22-Oct-07 15:06 org/slf4j/impl/StaticMDCBinder.class
+│ --rw-r--r--  2.0 unx      935 b- defN 22-Oct-07 15:06 org/slf4j/impl/StaticMarkerBinder.class
+│ --rw-r--r--  2.0 unx     1021 b- defN 22-Oct-07 15:06 META-INF/maven/org.slf4j/slf4j-simple/pom.xml
+│ --rw-r--r--  2.0 unx       60 b- defN 22-Oct-07 15:06 META-INF/maven/org.slf4j/slf4j-simple/pom.properties
+│ --rw-r--r--  2.0 unx      180 b- defN 22-Oct-07 15:06 org/slf4j/ILoggerFactory.class
+│ --rw-r--r--  2.0 unx      272 b- defN 22-Oct-07 15:06 org/slf4j/IMarkerFactory.class
+│ --rw-r--r--  2.0 unx     1375 b- defN 22-Oct-07 15:06 org/slf4j/Logger.class
+│ --rw-r--r--  2.0 unx    12547 b- defN 22-Oct-07 15:06 org/slf4j/LoggerFactory.class
+│ --rw-r--r--  2.0 unx      177 b- defN 22-Oct-07 15:06 org/slf4j/MDC$1.class
+│ --rw-r--r--  2.0 unx      749 b- defN 22-Oct-07 15:06 org/slf4j/MDC$MDCCloseable.class
+│ --rw-r--r--  2.0 unx     3675 b- defN 22-Oct-07 15:06 org/slf4j/MDC.class
+│ --rw-r--r--  2.0 unx      666 b- defN 22-Oct-07 15:06 org/slf4j/Marker.class
+│ --rw-r--r--  2.0 unx     1621 b- defN 22-Oct-07 15:06 org/slf4j/MarkerFactory.class
+│ --rw-r--r--  2.0 unx      594 b- defN 22-Oct-07 15:06 org/slf4j/event/EventConstants.class
+│ --rw-r--r--  2.0 unx     9842 b- defN 22-Oct-07 15:06 org/slf4j/event/EventRecodingLogger.class
+│ --rw-r--r--  2.0 unx     1489 b- defN 22-Oct-07 15:06 org/slf4j/event/Level.class
+│ --rw-r--r--  2.0 unx      432 b- defN 22-Oct-07 15:06 org/slf4j/event/LoggingEvent.class
+│ --rw-r--r--  2.0 unx     2615 b- defN 22-Oct-07 15:06 org/slf4j/event/SubstituteLoggingEvent.class
+│ --rw-r--r--  2.0 unx     1233 b- defN 22-Oct-07 15:06 org/slf4j/helpers/BasicMDCAdapter$1.class
+│ --rw-r--r--  2.0 unx     2618 b- defN 22-Oct-07 15:06 org/slf4j/helpers/BasicMDCAdapter.class
+│ --rw-r--r--  2.0 unx     3285 b- defN 22-Oct-07 15:06 org/slf4j/helpers/BasicMarker.class
+│ --rw-r--r--  2.0 unx     1634 b- defN 22-Oct-07 15:06 org/slf4j/helpers/BasicMarkerFactory.class
+│ --rw-r--r--  2.0 unx     1091 b- defN 22-Oct-07 15:06 org/slf4j/helpers/FormattingTuple.class
+│ --rw-r--r--  2.0 unx     4773 b- defN 22-Oct-07 15:06 org/slf4j/helpers/MarkerIgnoringBase.class
+│ --rw-r--r--  2.0 unx     7553 b- defN 22-Oct-07 15:06 org/slf4j/helpers/MessageFormatter.class
+│ --rw-r--r--  2.0 unx     3267 b- defN 22-Oct-07 15:06 org/slf4j/helpers/NOPLogger.class
+│ --rw-r--r--  2.0 unx      584 b- defN 22-Oct-07 15:06 org/slf4j/helpers/NOPLoggerFactory.class
+│ --rw-r--r--  2.0 unx     1249 b- defN 22-Oct-07 15:06 org/slf4j/helpers/NOPMDCAdapter.class
+│ --rw-r--r--  2.0 unx      823 b- defN 22-Oct-07 15:06 org/slf4j/helpers/NamedLoggerBase.class
+│ --rw-r--r--  2.0 unx    10262 b- defN 22-Oct-07 15:06 org/slf4j/helpers/SubstituteLogger.class
+│ --rw-r--r--  2.0 unx     2199 b- defN 22-Oct-07 15:06 org/slf4j/helpers/SubstituteLoggerFactory.class
+│ --rw-r--r--  2.0 unx      196 b- defN 22-Oct-07 15:06 org/slf4j/helpers/Util$1.class
+│ --rw-r--r--  2.0 unx      765 b- defN 22-Oct-07 15:06 org/slf4j/helpers/Util$ClassContextSecurityManager.class
+│ --rw-r--r--  2.0 unx     2952 b- defN 22-Oct-07 15:06 org/slf4j/helpers/Util.class
+│ --rw-r--r--  2.0 unx      455 b- defN 22-Oct-07 15:06 org/slf4j/spi/LocationAwareLogger.class
+│ --rw-r--r--  2.0 unx      249 b- defN 22-Oct-07 15:06 org/slf4j/spi/LoggerFactoryBinder.class
+│ --rw-r--r--  2.0 unx      529 b- defN 22-Oct-07 15:06 org/slf4j/spi/MDCAdapter.class
+│ --rw-r--r--  2.0 unx      249 b- defN 22-Oct-07 15:06 org/slf4j/spi/MarkerFactoryBinder.class
+│ --rw-r--r--  2.0 unx     2743 b- defN 22-Oct-07 15:06 META-INF/maven/org.slf4j/slf4j-api/pom.xml
+│ --rw-r--r--  2.0 unx       57 b- defN 22-Oct-07 15:06 META-INF/maven/org.slf4j/slf4j-api/pom.properties
+│ --rw-r--r--  2.0 unx       76 b- defN 22-Oct-07 15:06 META-INF/maven/org.apache.shiro.tools/shiro-tools-hasher/pom.properties
+│ --rw-r--r--  2.0 unx     4012 b- defN 22-Oct-07 15:06 META-INF/maven/org.apache.shiro.tools/shiro-tools-hasher/pom.xml
+│ --rw-r--r--  2.0 unx    17571 b- defN 22-Oct-07 15:06 org/apache/shiro/tools/hasher/Hasher.class
+│  -rw-r--r--  2.0 unx     2843 b- defN 22-Oct-07 15:06 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Oct-07 15:06 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      640 b- defN 22-Oct-07 15:06 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx       62 b- defN 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-core/pom.properties
+│ +-rw-r--r--  2.0 unx     4973 b- defN 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-core/pom.xml
+│  -rw-r--r--  2.0 unx     1762 b- defN 22-Oct-07 15:06 org/apache/shiro/SecurityUtils.class
+│ +-rw-r--r--  2.0 unx      743 b- defN 22-Oct-07 15:06 org/apache/shiro/ShiroException.class
+│  -rw-r--r--  2.0 unx      701 b- defN 22-Oct-07 15:06 org/apache/shiro/UnavailableSecurityManagerException.class
+│  -rw-r--r--  2.0 unx     1299 b- defN 22-Oct-07 15:06 org/apache/shiro/aop/AnnotationHandler.class
+│  -rw-r--r--  2.0 unx     2203 b- defN 22-Oct-07 15:06 org/apache/shiro/aop/AnnotationMethodInterceptor.class
+│  -rw-r--r--  2.0 unx      406 b- defN 22-Oct-07 15:06 org/apache/shiro/aop/AnnotationResolver.class
+│  -rw-r--r--  2.0 unx     1951 b- defN 22-Oct-07 15:06 org/apache/shiro/aop/DefaultAnnotationResolver.class
+│  -rw-r--r--  2.0 unx      263 b- defN 22-Oct-07 15:06 org/apache/shiro/aop/MethodInterceptor.class
+│  -rw-r--r--  2.0 unx      547 b- defN 22-Oct-07 15:06 org/apache/shiro/aop/MethodInterceptorSupport.class
+│ @@ -243,30 +172,125 @@
+│  -rw-r--r--  2.0 unx      237 b- defN 22-Oct-07 15:06 org/apache/shiro/authz/permission/PermissionResolver.class
+│  -rw-r--r--  2.0 unx      253 b- defN 22-Oct-07 15:06 org/apache/shiro/authz/permission/PermissionResolverAware.class
+│  -rw-r--r--  2.0 unx      341 b- defN 22-Oct-07 15:06 org/apache/shiro/authz/permission/RolePermissionResolver.class
+│  -rw-r--r--  2.0 unx      269 b- defN 22-Oct-07 15:06 org/apache/shiro/authz/permission/RolePermissionResolverAware.class
+│  -rw-r--r--  2.0 unx     4586 b- defN 22-Oct-07 15:06 org/apache/shiro/authz/permission/WildcardPermission.class
+│  -rw-r--r--  2.0 unx     1053 b- defN 22-Oct-07 15:06 org/apache/shiro/authz/permission/WildcardPermissionResolver.class
+│  -rw-r--r--  2.0 unx      139 b- defN 22-Oct-07 15:06 org/apache/shiro/authz/permission/package-info.class
+│ +-rw-r--r--  2.0 unx     3005 b- defN 22-Oct-07 15:06 org/apache/shiro/cache/AbstractCacheManager.class
+│ +-rw-r--r--  2.0 unx      682 b- defN 22-Oct-07 15:06 org/apache/shiro/cache/Cache.class
+│ +-rw-r--r--  2.0 unx      760 b- defN 22-Oct-07 15:06 org/apache/shiro/cache/CacheException.class
+│ +-rw-r--r--  2.0 unx      389 b- defN 22-Oct-07 15:06 org/apache/shiro/cache/CacheManager.class
+│ +-rw-r--r--  2.0 unx      207 b- defN 22-Oct-07 15:06 org/apache/shiro/cache/CacheManagerAware.class
+│ +-rw-r--r--  2.0 unx     3210 b- defN 22-Oct-07 15:06 org/apache/shiro/cache/MapCache.class
+│ +-rw-r--r--  2.0 unx      692 b- defN 22-Oct-07 15:06 org/apache/shiro/cache/MemoryConstrainedCacheManager.class
+│ +-rw-r--r--  2.0 unx      128 b- defN 22-Oct-07 15:06 org/apache/shiro/cache/package-info.class
+│ +-rw-r--r--  2.0 unx     6183 b- defN 22-Oct-07 15:06 org/apache/shiro/codec/Base64.class
+│ +-rw-r--r--  2.0 unx      760 b- defN 22-Oct-07 15:06 org/apache/shiro/codec/CodecException.class
+│ +-rw-r--r--  2.0 unx     5472 b- defN 22-Oct-07 15:06 org/apache/shiro/codec/CodecSupport.class
+│ +-rw-r--r--  2.0 unx     2306 b- defN 22-Oct-07 15:06 org/apache/shiro/codec/H64.class
+│ +-rw-r--r--  2.0 unx     2215 b- defN 22-Oct-07 15:06 org/apache/shiro/codec/Hex.class
+│ +-rw-r--r--  2.0 unx      128 b- defN 22-Oct-07 15:06 org/apache/shiro/codec/package-info.class
+│  -rw-r--r--  2.0 unx     1612 b- defN 22-Oct-07 15:06 org/apache/shiro/concurrent/SubjectAwareExecutor.class
+│  -rw-r--r--  2.0 unx     6394 b- defN 22-Oct-07 15:06 org/apache/shiro/concurrent/SubjectAwareExecutorService.class
+│  -rw-r--r--  2.0 unx     3743 b- defN 22-Oct-07 15:06 org/apache/shiro/concurrent/SubjectAwareScheduledExecutorService.class
+│  -rw-r--r--  2.0 unx      133 b- defN 22-Oct-07 15:06 org/apache/shiro/concurrent/package-info.class
+│ +-rw-r--r--  2.0 unx     1450 b- defN 22-Oct-07 15:06 org/apache/shiro/config/CommonsInterpolator.class
+│ +-rw-r--r--  2.0 unx      786 b- defN 22-Oct-07 15:06 org/apache/shiro/config/ConfigurationException.class
+│ +-rw-r--r--  2.0 unx      526 b- defN 22-Oct-07 15:06 org/apache/shiro/config/DefaultInterpolator.class
+│ +-rw-r--r--  2.0 unx      205 b- defN 22-Oct-07 15:06 org/apache/shiro/config/Ini$1.class
+│ +-rw-r--r--  2.0 unx     7277 b- defN 22-Oct-07 15:06 org/apache/shiro/config/Ini$Section.class
+│ +-rw-r--r--  2.0 unx    11451 b- defN 22-Oct-07 15:06 org/apache/shiro/config/Ini.class
+│  -rw-r--r--  2.0 unx     4122 b- defN 22-Oct-07 15:06 org/apache/shiro/config/IniFactorySupport.class
+│  -rw-r--r--  2.0 unx    10206 b- defN 22-Oct-07 15:06 org/apache/shiro/config/IniSecurityManagerFactory.class
+│ +-rw-r--r--  2.0 unx      192 b- defN 22-Oct-07 15:06 org/apache/shiro/config/Interpolator.class
+│ +-rw-r--r--  2.0 unx     1032 b- defN 22-Oct-07 15:06 org/apache/shiro/config/ReflectionBuilder$1.class
+│ +-rw-r--r--  2.0 unx     1886 b- defN 22-Oct-07 15:06 org/apache/shiro/config/ReflectionBuilder$AssignmentStatement.class
+│ +-rw-r--r--  2.0 unx     3420 b- defN 22-Oct-07 15:06 org/apache/shiro/config/ReflectionBuilder$BeanConfiguration.class
+│ +-rw-r--r--  2.0 unx     4647 b- defN 22-Oct-07 15:06 org/apache/shiro/config/ReflectionBuilder$BeanConfigurationProcessor.class
+│ +-rw-r--r--  2.0 unx     2250 b- defN 22-Oct-07 15:06 org/apache/shiro/config/ReflectionBuilder$InstantiationStatement.class
+│ +-rw-r--r--  2.0 unx     2515 b- defN 22-Oct-07 15:06 org/apache/shiro/config/ReflectionBuilder$Statement.class
+│ +-rw-r--r--  2.0 unx    24334 b- defN 22-Oct-07 15:06 org/apache/shiro/config/ReflectionBuilder.class
+│ +-rw-r--r--  2.0 unx      231 b- defN 22-Oct-07 15:06 org/apache/shiro/config/ResourceConfigurable.class
+│ +-rw-r--r--  2.0 unx      828 b- defN 22-Oct-07 15:06 org/apache/shiro/config/UnresolveableReferenceException.class
+│ +-rw-r--r--  2.0 unx     1185 b- defN 22-Oct-07 15:06 org/apache/shiro/config/event/BeanEvent.class
+│ +-rw-r--r--  2.0 unx      759 b- defN 22-Oct-07 15:06 org/apache/shiro/config/event/ConfiguredBeanEvent.class
+│ +-rw-r--r--  2.0 unx      756 b- defN 22-Oct-07 15:06 org/apache/shiro/config/event/DestroyedBeanEvent.class
+│ +-rw-r--r--  2.0 unx      762 b- defN 22-Oct-07 15:06 org/apache/shiro/config/event/InitializedBeanEvent.class
+│ +-rw-r--r--  2.0 unx      765 b- defN 22-Oct-07 15:06 org/apache/shiro/config/event/InstantiatedBeanEvent.class
+│ +-rw-r--r--  2.0 unx     1494 b- defN 22-Oct-07 15:06 org/apache/shiro/config/event/LoggingBeanEventListener.class
+│ +-rw-r--r--  2.0 unx      129 b- defN 22-Oct-07 15:06 org/apache/shiro/config/package-info.class
+│ +-rw-r--r--  2.0 unx     1541 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/AbstractSymmetricCipherService.class
+│ +-rw-r--r--  2.0 unx     1450 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/AesCipherService.class
+│ +-rw-r--r--  2.0 unx      578 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/BlowfishCipherService.class
+│ +-rw-r--r--  2.0 unx      375 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/CipherService.class
+│ +-rw-r--r--  2.0 unx      684 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/CryptoException.class
+│ +-rw-r--r--  2.0 unx     5666 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/DefaultBlockCipherService.class
+│ +-rw-r--r--  2.0 unx    12486 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/JcaCipherService.class
+│ +-rw-r--r--  2.0 unx     1502 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/OperationMode.class
+│ +-rw-r--r--  2.0 unx     2136 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/PaddingScheme.class
+│ +-rw-r--r--  2.0 unx      254 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/RandomNumberGenerator.class
+│ +-rw-r--r--  2.0 unx     2105 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/SecureRandomNumberGenerator.class
+│ +-rw-r--r--  2.0 unx      722 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/UnknownAlgorithmException.class
+│ +-rw-r--r--  2.0 unx     6852 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/AbstractHash.class
+│ +-rw-r--r--  2.0 unx      447 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/ConfigurableHashService.class
+│ +-rw-r--r--  2.0 unx     5066 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/DefaultHashService.class
+│ +-rw-r--r--  2.0 unx      295 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/Hash.class
+│ +-rw-r--r--  2.0 unx     1982 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/HashRequest$Builder.class
+│ +-rw-r--r--  2.0 unx      384 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/HashRequest.class
+│ +-rw-r--r--  2.0 unx      236 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/HashService.class
+│ +-rw-r--r--  2.0 unx     1520 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/Md2Hash.class
+│ +-rw-r--r--  2.0 unx     1520 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/Md5Hash.class
+│ +-rw-r--r--  2.0 unx     1526 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/Sha1Hash.class
+│ +-rw-r--r--  2.0 unx     1536 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/Sha256Hash.class
+│ +-rw-r--r--  2.0 unx     1536 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/Sha384Hash.class
+│ +-rw-r--r--  2.0 unx     1536 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/Sha512Hash.class
+│ +-rw-r--r--  2.0 unx     5761 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/SimpleHash.class
+│ +-rw-r--r--  2.0 unx     1384 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/SimpleHashRequest.class
+│ +-rw-r--r--  2.0 unx      714 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/format/Base64Format.class
+│ +-rw-r--r--  2.0 unx     5269 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/format/DefaultHashFormatFactory.class
+│ +-rw-r--r--  2.0 unx      212 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/format/HashFormat.class
+│ +-rw-r--r--  2.0 unx      244 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/format/HashFormatFactory.class
+│ +-rw-r--r--  2.0 unx      702 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/format/HexFormat.class
+│ +-rw-r--r--  2.0 unx      324 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/format/ModularCryptFormat.class
+│ +-rw-r--r--  2.0 unx      281 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/format/ParsableHashFormat.class
+│ +-rw-r--r--  2.0 unx     2269 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/format/ProvidedHashFormat.class
+│ +-rw-r--r--  2.0 unx     3478 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/format/Shiro1CryptFormat.class
+│ +-rw-r--r--  2.0 unx      134 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/package-info.class
+│ +-rw-r--r--  2.0 unx      129 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/package-info.class
+│  -rw-r--r--  2.0 unx      577 b- defN 22-Oct-07 15:06 org/apache/shiro/dao/DataAccessException.class
+│  -rw-r--r--  2.0 unx      616 b- defN 22-Oct-07 15:06 org/apache/shiro/dao/InvalidResourceUsageException.class
+│  -rw-r--r--  2.0 unx      126 b- defN 22-Oct-07 15:06 org/apache/shiro/dao/package-info.class
+│  -rw-r--r--  2.0 unx      946 b- defN 22-Oct-07 15:06 org/apache/shiro/env/BasicIniEnvironment.class
+│  -rw-r--r--  2.0 unx     4030 b- defN 22-Oct-07 15:06 org/apache/shiro/env/DefaultEnvironment.class
+│  -rw-r--r--  2.0 unx      196 b- defN 22-Oct-07 15:06 org/apache/shiro/env/Environment.class
+│  -rw-r--r--  2.0 unx      580 b- defN 22-Oct-07 15:06 org/apache/shiro/env/EnvironmentException.class
+│  -rw-r--r--  2.0 unx      425 b- defN 22-Oct-07 15:06 org/apache/shiro/env/NamedObjectEnvironment.class
+│  -rw-r--r--  2.0 unx      593 b- defN 22-Oct-07 15:06 org/apache/shiro/env/RequiredTypeException.class
+│  -rw-r--r--  2.0 unx      126 b- defN 22-Oct-07 15:06 org/apache/shiro/env/package-info.class
+│ +-rw-r--r--  2.0 unx      533 b- defN 22-Oct-07 15:06 org/apache/shiro/event/Event.class
+│ +-rw-r--r--  2.0 unx      202 b- defN 22-Oct-07 15:06 org/apache/shiro/event/EventBus.class
+│ +-rw-r--r--  2.0 unx      191 b- defN 22-Oct-07 15:06 org/apache/shiro/event/EventBusAware.class
+│ +-rw-r--r--  2.0 unx      434 b- defN 22-Oct-07 15:06 org/apache/shiro/event/Subscribe.class
+│ +-rw-r--r--  2.0 unx     2372 b- defN 22-Oct-07 15:06 org/apache/shiro/event/support/AnnotationEventListenerResolver.class
+│ +-rw-r--r--  2.0 unx     2586 b- defN 22-Oct-07 15:06 org/apache/shiro/event/support/DefaultEventBus$Subscription.class
+│ +-rw-r--r--  2.0 unx     4798 b- defN 22-Oct-07 15:06 org/apache/shiro/event/support/DefaultEventBus.class
+│ +-rw-r--r--  2.0 unx      982 b- defN 22-Oct-07 15:06 org/apache/shiro/event/support/EventClassComparator.class
+│ +-rw-r--r--  2.0 unx      222 b- defN 22-Oct-07 15:06 org/apache/shiro/event/support/EventListener.class
+│ +-rw-r--r--  2.0 unx     1601 b- defN 22-Oct-07 15:06 org/apache/shiro/event/support/EventListenerComparator.class
+│ +-rw-r--r--  2.0 unx      328 b- defN 22-Oct-07 15:06 org/apache/shiro/event/support/EventListenerResolver.class
+│ +-rw-r--r--  2.0 unx     2776 b- defN 22-Oct-07 15:06 org/apache/shiro/event/support/SingleArgumentMethodEventListener.class
+│ +-rw-r--r--  2.0 unx      245 b- defN 22-Oct-07 15:06 org/apache/shiro/event/support/TypedEventListener.class
+│ +-rw-r--r--  2.0 unx     1441 b- defN 22-Oct-07 15:06 org/apache/shiro/io/ClassResolvingObjectInputStream.class
+│ +-rw-r--r--  2.0 unx     3025 b- defN 22-Oct-07 15:06 org/apache/shiro/io/DefaultSerializer.class
+│ +-rw-r--r--  2.0 unx     3345 b- defN 22-Oct-07 15:06 org/apache/shiro/io/ResourceUtils.class
+│ +-rw-r--r--  2.0 unx      778 b- defN 22-Oct-07 15:06 org/apache/shiro/io/SerializationException.class
+│ +-rw-r--r--  2.0 unx      393 b- defN 22-Oct-07 15:06 org/apache/shiro/io/Serializer.class
+│ +-rw-r--r--  2.0 unx     1631 b- defN 22-Oct-07 15:06 org/apache/shiro/io/XmlSerializer.class
+│ +-rw-r--r--  2.0 unx      125 b- defN 22-Oct-07 15:06 org/apache/shiro/io/package-info.class
+│  -rw-r--r--  2.0 unx      251 b- defN 22-Oct-07 15:06 org/apache/shiro/jndi/JndiCallback.class
+│  -rw-r--r--  2.0 unx     3295 b- defN 22-Oct-07 15:06 org/apache/shiro/jndi/JndiLocator.class
+│  -rw-r--r--  2.0 unx     2252 b- defN 22-Oct-07 15:06 org/apache/shiro/jndi/JndiObjectFactory.class
+│  -rw-r--r--  2.0 unx     1375 b- defN 22-Oct-07 15:06 org/apache/shiro/jndi/JndiTemplate$1.class
+│  -rw-r--r--  2.0 unx     1039 b- defN 22-Oct-07 15:06 org/apache/shiro/jndi/JndiTemplate$2.class
+│  -rw-r--r--  2.0 unx     1041 b- defN 22-Oct-07 15:06 org/apache/shiro/jndi/JndiTemplate$3.class
+│  -rw-r--r--  2.0 unx      944 b- defN 22-Oct-07 15:06 org/apache/shiro/jndi/JndiTemplate$4.class
+│ @@ -376,139 +400,143 @@
+│  -rw-r--r--  2.0 unx      452 b- defN 22-Oct-07 15:06 org/apache/shiro/subject/support/DisabledSessionException.class
+│  -rw-r--r--  2.0 unx     2268 b- defN 22-Oct-07 15:06 org/apache/shiro/subject/support/SubjectCallable.class
+│  -rw-r--r--  2.0 unx     1560 b- defN 22-Oct-07 15:06 org/apache/shiro/subject/support/SubjectRunnable.class
+│  -rw-r--r--  2.0 unx     1931 b- defN 22-Oct-07 15:06 org/apache/shiro/subject/support/SubjectThreadState.class
+│  -rw-r--r--  2.0 unx      138 b- defN 22-Oct-07 15:06 org/apache/shiro/subject/support/package-info.class
+│  -rw-r--r--  2.0 unx     1401 b- defN 22-Oct-07 15:06 org/apache/shiro/util/AbstractFactory.class
+│  -rw-r--r--  2.0 unx     5414 b- defN 22-Oct-07 15:06 org/apache/shiro/util/AntPathMatcher.class
+│ --rw-r--r--  2.0 unx     2430 b- defN 22-Oct-07 15:06 org/apache/shiro/util/CollectionUtils.class
+│ --rw-r--r--  2.0 unx     1553 b- defN 22-Oct-07 15:06 org/apache/shiro/util/JavaEnvironment.class
+│ --rw-r--r--  2.0 unx     1972 b- defN 22-Oct-07 15:06 org/apache/shiro/util/JdbcUtils.class
+│ --rw-r--r--  2.0 unx     4280 b- defN 22-Oct-07 15:06 org/apache/shiro/util/MapContext.class
+│ --rw-r--r--  2.0 unx      191 b- defN 22-Oct-07 15:06 org/apache/shiro/util/PatternMatcher.class
+│ --rw-r--r--  2.0 unx     2571 b- defN 22-Oct-07 15:06 org/apache/shiro/util/PermissionUtils.class
+│ --rw-r--r--  2.0 unx     1409 b- defN 22-Oct-07 15:06 org/apache/shiro/util/RegExPatternMatcher.class
+│ --rw-r--r--  2.0 unx      231 b- defN 22-Oct-07 15:06 org/apache/shiro/util/ThreadContext$1.class
+│ --rw-r--r--  2.0 unx     1613 b- defN 22-Oct-07 15:06 org/apache/shiro/util/ThreadContext$InheritableThreadLocalMap.class
+│ --rw-r--r--  2.0 unx     4909 b- defN 22-Oct-07 15:06 org/apache/shiro/util/ThreadContext.class
+│ --rw-r--r--  2.0 unx      180 b- defN 22-Oct-07 15:06 org/apache/shiro/util/ThreadState.class
+│ --rw-r--r--  2.0 unx      127 b- defN 22-Oct-07 15:06 org/apache/shiro/util/package-info.class
+│ --rw-r--r--  2.0 unx      743 b- defN 22-Oct-07 15:06 org/apache/shiro/ShiroException.class
+│ --rw-r--r--  2.0 unx     6183 b- defN 22-Oct-07 15:06 org/apache/shiro/codec/Base64.class
+│ --rw-r--r--  2.0 unx      760 b- defN 22-Oct-07 15:06 org/apache/shiro/codec/CodecException.class
+│ --rw-r--r--  2.0 unx     5472 b- defN 22-Oct-07 15:06 org/apache/shiro/codec/CodecSupport.class
+│ --rw-r--r--  2.0 unx     2306 b- defN 22-Oct-07 15:06 org/apache/shiro/codec/H64.class
+│ --rw-r--r--  2.0 unx     2215 b- defN 22-Oct-07 15:06 org/apache/shiro/codec/Hex.class
+│ --rw-r--r--  2.0 unx      128 b- defN 22-Oct-07 15:06 org/apache/shiro/codec/package-info.class
+│ --rw-r--r--  2.0 unx     1441 b- defN 22-Oct-07 15:06 org/apache/shiro/io/ClassResolvingObjectInputStream.class
+│ --rw-r--r--  2.0 unx     3025 b- defN 22-Oct-07 15:06 org/apache/shiro/io/DefaultSerializer.class
+│ --rw-r--r--  2.0 unx     3345 b- defN 22-Oct-07 15:06 org/apache/shiro/io/ResourceUtils.class
+│ --rw-r--r--  2.0 unx      778 b- defN 22-Oct-07 15:06 org/apache/shiro/io/SerializationException.class
+│ --rw-r--r--  2.0 unx      393 b- defN 22-Oct-07 15:06 org/apache/shiro/io/Serializer.class
+│ --rw-r--r--  2.0 unx     1631 b- defN 22-Oct-07 15:06 org/apache/shiro/io/XmlSerializer.class
+│ --rw-r--r--  2.0 unx      125 b- defN 22-Oct-07 15:06 org/apache/shiro/io/package-info.class
+│  -rw-r--r--  2.0 unx     5906 b- defN 22-Oct-07 15:06 org/apache/shiro/util/Assert.class
+│  -rw-r--r--  2.0 unx     2865 b- defN 22-Oct-07 15:06 org/apache/shiro/util/ByteSource$Util.class
+│  -rw-r--r--  2.0 unx      312 b- defN 22-Oct-07 15:06 org/apache/shiro/util/ByteSource.class
+│  -rw-r--r--  2.0 unx      784 b- defN 22-Oct-07 15:06 org/apache/shiro/util/ClassUtils$1.class
+│  -rw-r--r--  2.0 unx      774 b- defN 22-Oct-07 15:06 org/apache/shiro/util/ClassUtils$2.class
+│  -rw-r--r--  2.0 unx      784 b- defN 22-Oct-07 15:06 org/apache/shiro/util/ClassUtils$3.class
+│  -rw-r--r--  2.0 unx      366 b- defN 22-Oct-07 15:06 org/apache/shiro/util/ClassUtils$ClassLoaderAccessor.class
+│  -rw-r--r--  2.0 unx     2516 b- defN 22-Oct-07 15:06 org/apache/shiro/util/ClassUtils$ExceptionIgnoringAccessor.class
+│  -rw-r--r--  2.0 unx     7416 b- defN 22-Oct-07 15:06 org/apache/shiro/util/ClassUtils.class
+│ +-rw-r--r--  2.0 unx     2430 b- defN 22-Oct-07 15:06 org/apache/shiro/util/CollectionUtils.class
+│  -rw-r--r--  2.0 unx      197 b- defN 22-Oct-07 15:06 org/apache/shiro/util/Destroyable.class
+│  -rw-r--r--  2.0 unx      241 b- defN 22-Oct-07 15:06 org/apache/shiro/util/Factory.class
+│  -rw-r--r--  2.0 unx      210 b- defN 22-Oct-07 15:06 org/apache/shiro/util/Initializable.class
+│  -rw-r--r--  2.0 unx      782 b- defN 22-Oct-07 15:06 org/apache/shiro/util/InstantiationException.class
+│ +-rw-r--r--  2.0 unx     1553 b- defN 22-Oct-07 15:06 org/apache/shiro/util/JavaEnvironment.class
+│ +-rw-r--r--  2.0 unx     1972 b- defN 22-Oct-07 15:06 org/apache/shiro/util/JdbcUtils.class
+│  -rw-r--r--  2.0 unx     2554 b- defN 22-Oct-07 15:06 org/apache/shiro/util/LifecycleUtils.class
+│ +-rw-r--r--  2.0 unx     4280 b- defN 22-Oct-07 15:06 org/apache/shiro/util/MapContext.class
+│  -rw-r--r--  2.0 unx      161 b- defN 22-Oct-07 15:06 org/apache/shiro/util/Nameable.class
+│ +-rw-r--r--  2.0 unx      191 b- defN 22-Oct-07 15:06 org/apache/shiro/util/PatternMatcher.class
+│ +-rw-r--r--  2.0 unx     2571 b- defN 22-Oct-07 15:06 org/apache/shiro/util/PermissionUtils.class
+│ +-rw-r--r--  2.0 unx     1409 b- defN 22-Oct-07 15:06 org/apache/shiro/util/RegExPatternMatcher.class
+│  -rw-r--r--  2.0 unx      240 b- defN 22-Oct-07 15:06 org/apache/shiro/util/SimpleByteSource$1.class
+│  -rw-r--r--  2.0 unx      968 b- defN 22-Oct-07 15:06 org/apache/shiro/util/SimpleByteSource$BytesHelper.class
+│  -rw-r--r--  2.0 unx     2824 b- defN 22-Oct-07 15:06 org/apache/shiro/util/SimpleByteSource.class
+│  -rw-r--r--  2.0 unx      225 b- defN 22-Oct-07 15:06 org/apache/shiro/util/SoftHashMap$1.class
+│  -rw-r--r--  2.0 unx     1509 b- defN 22-Oct-07 15:06 org/apache/shiro/util/SoftHashMap$SoftValue.class
+│  -rw-r--r--  2.0 unx     6650 b- defN 22-Oct-07 15:06 org/apache/shiro/util/SoftHashMap.class
+│  -rw-r--r--  2.0 unx     8081 b- defN 22-Oct-07 15:06 org/apache/shiro/util/StringUtils.class
+│ +-rw-r--r--  2.0 unx      231 b- defN 22-Oct-07 15:06 org/apache/shiro/util/ThreadContext$1.class
+│ +-rw-r--r--  2.0 unx     1613 b- defN 22-Oct-07 15:06 org/apache/shiro/util/ThreadContext$InheritableThreadLocalMap.class
+│ +-rw-r--r--  2.0 unx     4909 b- defN 22-Oct-07 15:06 org/apache/shiro/util/ThreadContext.class
+│ +-rw-r--r--  2.0 unx      180 b- defN 22-Oct-07 15:06 org/apache/shiro/util/ThreadState.class
+│  -rw-r--r--  2.0 unx      779 b- defN 22-Oct-07 15:06 org/apache/shiro/util/UnknownClassException.class
+│ --rw-r--r--  2.0 unx     3005 b- defN 22-Oct-07 15:06 org/apache/shiro/cache/AbstractCacheManager.class
+│ --rw-r--r--  2.0 unx      682 b- defN 22-Oct-07 15:06 org/apache/shiro/cache/Cache.class
+│ --rw-r--r--  2.0 unx      760 b- defN 22-Oct-07 15:06 org/apache/shiro/cache/CacheException.class
+│ --rw-r--r--  2.0 unx      389 b- defN 22-Oct-07 15:06 org/apache/shiro/cache/CacheManager.class
+│ --rw-r--r--  2.0 unx      207 b- defN 22-Oct-07 15:06 org/apache/shiro/cache/CacheManagerAware.class
+│ --rw-r--r--  2.0 unx     3210 b- defN 22-Oct-07 15:06 org/apache/shiro/cache/MapCache.class
+│ --rw-r--r--  2.0 unx      692 b- defN 22-Oct-07 15:06 org/apache/shiro/cache/MemoryConstrainedCacheManager.class
+│ --rw-r--r--  2.0 unx      128 b- defN 22-Oct-07 15:06 org/apache/shiro/cache/package-info.class
+│ --rw-r--r--  2.0 unx     6852 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/AbstractHash.class
+│ --rw-r--r--  2.0 unx      447 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/ConfigurableHashService.class
+│ --rw-r--r--  2.0 unx     5066 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/DefaultHashService.class
+│ --rw-r--r--  2.0 unx      295 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/Hash.class
+│ --rw-r--r--  2.0 unx     1982 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/HashRequest$Builder.class
+│ --rw-r--r--  2.0 unx      384 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/HashRequest.class
+│ --rw-r--r--  2.0 unx      236 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/HashService.class
+│ --rw-r--r--  2.0 unx     1520 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/Md2Hash.class
+│ --rw-r--r--  2.0 unx     1520 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/Md5Hash.class
+│ --rw-r--r--  2.0 unx     1526 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/Sha1Hash.class
+│ --rw-r--r--  2.0 unx     1536 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/Sha256Hash.class
+│ --rw-r--r--  2.0 unx     1536 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/Sha384Hash.class
+│ --rw-r--r--  2.0 unx     1536 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/Sha512Hash.class
+│ --rw-r--r--  2.0 unx     5761 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/SimpleHash.class
+│ --rw-r--r--  2.0 unx     1384 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/SimpleHashRequest.class
+│ --rw-r--r--  2.0 unx      714 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/format/Base64Format.class
+│ --rw-r--r--  2.0 unx     5269 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/format/DefaultHashFormatFactory.class
+│ --rw-r--r--  2.0 unx      212 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/format/HashFormat.class
+│ --rw-r--r--  2.0 unx      244 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/format/HashFormatFactory.class
+│ --rw-r--r--  2.0 unx      702 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/format/HexFormat.class
+│ --rw-r--r--  2.0 unx      324 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/format/ModularCryptFormat.class
+│ --rw-r--r--  2.0 unx      281 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/format/ParsableHashFormat.class
+│ --rw-r--r--  2.0 unx     2269 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/format/ProvidedHashFormat.class
+│ --rw-r--r--  2.0 unx     3478 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/format/Shiro1CryptFormat.class
+│ --rw-r--r--  2.0 unx      134 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/hash/package-info.class
+│ --rw-r--r--  2.0 unx      684 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/CryptoException.class
+│ --rw-r--r--  2.0 unx      254 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/RandomNumberGenerator.class
+│ --rw-r--r--  2.0 unx     2105 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/SecureRandomNumberGenerator.class
+│ --rw-r--r--  2.0 unx      722 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/UnknownAlgorithmException.class
+│ --rw-r--r--  2.0 unx     1541 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/AbstractSymmetricCipherService.class
+│ --rw-r--r--  2.0 unx     1450 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/AesCipherService.class
+│ --rw-r--r--  2.0 unx      578 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/BlowfishCipherService.class
+│ --rw-r--r--  2.0 unx      375 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/CipherService.class
+│ --rw-r--r--  2.0 unx     5666 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/DefaultBlockCipherService.class
+│ --rw-r--r--  2.0 unx    12486 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/JcaCipherService.class
+│ --rw-r--r--  2.0 unx     1502 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/OperationMode.class
+│ --rw-r--r--  2.0 unx     2136 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/PaddingScheme.class
+│ --rw-r--r--  2.0 unx      129 b- defN 22-Oct-07 15:06 org/apache/shiro/crypto/package-info.class
+│ --rw-r--r--  2.0 unx      786 b- defN 22-Oct-07 15:06 org/apache/shiro/config/ConfigurationException.class
+│ --rw-r--r--  2.0 unx      205 b- defN 22-Oct-07 15:06 org/apache/shiro/config/Ini$1.class
+│ --rw-r--r--  2.0 unx     7277 b- defN 22-Oct-07 15:06 org/apache/shiro/config/Ini$Section.class
+│ --rw-r--r--  2.0 unx    11451 b- defN 22-Oct-07 15:06 org/apache/shiro/config/Ini.class
+│ --rw-r--r--  2.0 unx      231 b- defN 22-Oct-07 15:06 org/apache/shiro/config/ResourceConfigurable.class
+│ --rw-r--r--  2.0 unx      129 b- defN 22-Oct-07 15:06 org/apache/shiro/config/package-info.class
+│ --rw-r--r--  2.0 unx     1450 b- defN 22-Oct-07 15:06 org/apache/shiro/config/CommonsInterpolator.class
+│ --rw-r--r--  2.0 unx      526 b- defN 22-Oct-07 15:06 org/apache/shiro/config/DefaultInterpolator.class
+│ --rw-r--r--  2.0 unx      192 b- defN 22-Oct-07 15:06 org/apache/shiro/config/Interpolator.class
+│ --rw-r--r--  2.0 unx     1032 b- defN 22-Oct-07 15:06 org/apache/shiro/config/ReflectionBuilder$1.class
+│ --rw-r--r--  2.0 unx     1886 b- defN 22-Oct-07 15:06 org/apache/shiro/config/ReflectionBuilder$AssignmentStatement.class
+│ --rw-r--r--  2.0 unx     3420 b- defN 22-Oct-07 15:06 org/apache/shiro/config/ReflectionBuilder$BeanConfiguration.class
+│ --rw-r--r--  2.0 unx     4647 b- defN 22-Oct-07 15:06 org/apache/shiro/config/ReflectionBuilder$BeanConfigurationProcessor.class
+│ --rw-r--r--  2.0 unx     2250 b- defN 22-Oct-07 15:06 org/apache/shiro/config/ReflectionBuilder$InstantiationStatement.class
+│ --rw-r--r--  2.0 unx     2515 b- defN 22-Oct-07 15:06 org/apache/shiro/config/ReflectionBuilder$Statement.class
+│ --rw-r--r--  2.0 unx    24334 b- defN 22-Oct-07 15:06 org/apache/shiro/config/ReflectionBuilder.class
+│ --rw-r--r--  2.0 unx      828 b- defN 22-Oct-07 15:06 org/apache/shiro/config/UnresolveableReferenceException.class
+│ --rw-r--r--  2.0 unx     1185 b- defN 22-Oct-07 15:06 org/apache/shiro/config/event/BeanEvent.class
+│ --rw-r--r--  2.0 unx      759 b- defN 22-Oct-07 15:06 org/apache/shiro/config/event/ConfiguredBeanEvent.class
+│ --rw-r--r--  2.0 unx      756 b- defN 22-Oct-07 15:06 org/apache/shiro/config/event/DestroyedBeanEvent.class
+│ --rw-r--r--  2.0 unx      762 b- defN 22-Oct-07 15:06 org/apache/shiro/config/event/InitializedBeanEvent.class
+│ --rw-r--r--  2.0 unx      765 b- defN 22-Oct-07 15:06 org/apache/shiro/config/event/InstantiatedBeanEvent.class
+│ --rw-r--r--  2.0 unx     1494 b- defN 22-Oct-07 15:06 org/apache/shiro/config/event/LoggingBeanEventListener.class
+│ --rw-r--r--  2.0 unx      533 b- defN 22-Oct-07 15:06 org/apache/shiro/event/Event.class
+│ --rw-r--r--  2.0 unx      202 b- defN 22-Oct-07 15:06 org/apache/shiro/event/EventBus.class
+│ --rw-r--r--  2.0 unx      191 b- defN 22-Oct-07 15:06 org/apache/shiro/event/EventBusAware.class
+│ --rw-r--r--  2.0 unx      434 b- defN 22-Oct-07 15:06 org/apache/shiro/event/Subscribe.class
+│ --rw-r--r--  2.0 unx     2372 b- defN 22-Oct-07 15:06 org/apache/shiro/event/support/AnnotationEventListenerResolver.class
+│ --rw-r--r--  2.0 unx     2586 b- defN 22-Oct-07 15:06 org/apache/shiro/event/support/DefaultEventBus$Subscription.class
+│ --rw-r--r--  2.0 unx     4798 b- defN 22-Oct-07 15:06 org/apache/shiro/event/support/DefaultEventBus.class
+│ --rw-r--r--  2.0 unx      982 b- defN 22-Oct-07 15:06 org/apache/shiro/event/support/EventClassComparator.class
+│ --rw-r--r--  2.0 unx      222 b- defN 22-Oct-07 15:06 org/apache/shiro/event/support/EventListener.class
+│ --rw-r--r--  2.0 unx     1601 b- defN 22-Oct-07 15:06 org/apache/shiro/event/support/EventListenerComparator.class
+│ --rw-r--r--  2.0 unx      328 b- defN 22-Oct-07 15:06 org/apache/shiro/event/support/EventListenerResolver.class
+│ --rw-r--r--  2.0 unx     2776 b- defN 22-Oct-07 15:06 org/apache/shiro/event/support/SingleArgumentMethodEventListener.class
+│ --rw-r--r--  2.0 unx      245 b- defN 22-Oct-07 15:06 org/apache/shiro/event/support/TypedEventListener.class
+│ -512 files, 1037218 bytes uncompressed, 450711 bytes compressed:  56.5%
+│ +-rw-r--r--  2.0 unx      127 b- defN 22-Oct-07 15:06 org/apache/shiro/util/package-info.class
+│ +-rw-r--r--  2.0 unx       62 b- defN 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-lang/pom.properties
+│ +-rw-r--r--  2.0 unx     3238 b- defN 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-lang/pom.xml
+│ +-rw-r--r--  2.0 unx       63 b- defN 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-cache/pom.properties
+│ +-rw-r--r--  2.0 unx     2362 b- defN 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-cache/pom.xml
+│ +-rw-r--r--  2.0 unx       69 b- defN 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-crypto-hash/pom.properties
+│ +-rw-r--r--  2.0 unx     3134 b- defN 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-crypto-hash/pom.xml
+│ +-rw-r--r--  2.0 unx       69 b- defN 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-crypto-core/pom.properties
+│ +-rw-r--r--  2.0 unx     2398 b- defN 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-crypto-core/pom.xml
+│ +-rw-r--r--  2.0 unx       71 b- defN 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-crypto-cipher/pom.properties
+│ +-rw-r--r--  2.0 unx     3130 b- defN 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-crypto-cipher/pom.xml
+│ +-rw-r--r--  2.0 unx       69 b- defN 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-config-core/pom.properties
+│ +-rw-r--r--  2.0 unx     2393 b- defN 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-config-core/pom.xml
+│ +-rw-r--r--  2.0 unx       69 b- defN 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-config-ogdl/pom.properties
+│ +-rw-r--r--  2.0 unx     4145 b- defN 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-config-ogdl/pom.xml
+│ +-rw-r--r--  2.0 unx       63 b- defN 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-event/pom.properties
+│ +-rw-r--r--  2.0 unx     2362 b- defN 22-Oct-07 15:06 META-INF/maven/org.apache.shiro/shiro-event/pom.xml
+│ +-rw-r--r--  2.0 unx    11358 b- defN 22-Oct-07 15:06 META-INF/LICENSE.txt
+│ +-rw-r--r--  2.0 unx      173 b- defN 22-Oct-07 15:06 META-INF/NOTICE.txt
+│ +-rw-r--r--  2.0 unx     1641 b- defN 22-Oct-07 15:06 org/apache/commons/cli/AlreadySelectedException.class
+│ +-rw-r--r--  2.0 unx     2005 b- defN 22-Oct-07 15:06 org/apache/commons/cli/AmbiguousOptionException.class
+│ +-rw-r--r--  2.0 unx      676 b- defN 22-Oct-07 15:06 org/apache/commons/cli/BasicParser.class
+│ +-rw-r--r--  2.0 unx     1078 b- defN 22-Oct-07 15:06 org/apache/commons/cli/CommandLine$Builder.class
+│ +-rw-r--r--  2.0 unx     7044 b- defN 22-Oct-07 15:06 org/apache/commons/cli/CommandLine.class
+│ +-rw-r--r--  2.0 unx      423 b- defN 22-Oct-07 15:06 org/apache/commons/cli/CommandLineParser.class
+│ +-rw-r--r--  2.0 unx      233 b- defN 22-Oct-07 15:06 org/apache/commons/cli/DefaultParser$1.class
+│ +-rw-r--r--  2.0 unx     1298 b- defN 22-Oct-07 15:06 org/apache/commons/cli/DefaultParser$Builder.class
+│ +-rw-r--r--  2.0 unx    11874 b- defN 22-Oct-07 15:06 org/apache/commons/cli/DefaultParser.class
+│ +-rw-r--r--  2.0 unx     1941 b- defN 22-Oct-07 15:06 org/apache/commons/cli/GnuParser.class
+│ +-rw-r--r--  2.0 unx      233 b- defN 22-Oct-07 15:06 org/apache/commons/cli/HelpFormatter$1.class
+│ +-rw-r--r--  2.0 unx     1386 b- defN 22-Oct-07 15:06 org/apache/commons/cli/HelpFormatter$OptionComparator.class
+│ +-rw-r--r--  2.0 unx    13719 b- defN 22-Oct-07 15:06 org/apache/commons/cli/HelpFormatter.class
+│ +-rw-r--r--  2.0 unx     1055 b- defN 22-Oct-07 15:06 org/apache/commons/cli/MissingArgumentException.class
+│ +-rw-r--r--  2.0 unx     1782 b- defN 22-Oct-07 15:06 org/apache/commons/cli/MissingOptionException.class
+│ +-rw-r--r--  2.0 unx      212 b- defN 22-Oct-07 15:06 org/apache/commons/cli/Option$1.class
+│ +-rw-r--r--  2.0 unx     4086 b- defN 22-Oct-07 15:06 org/apache/commons/cli/Option$Builder.class
+│ +-rw-r--r--  2.0 unx     9468 b- defN 22-Oct-07 15:06 org/apache/commons/cli/Option.class
+│ +-rw-r--r--  2.0 unx     3885 b- defN 22-Oct-07 15:06 org/apache/commons/cli/OptionBuilder.class
+│ +-rw-r--r--  2.0 unx     3004 b- defN 22-Oct-07 15:06 org/apache/commons/cli/OptionGroup.class
+│ +-rw-r--r--  2.0 unx     1464 b- defN 22-Oct-07 15:06 org/apache/commons/cli/OptionValidator.class
+│ +-rw-r--r--  2.0 unx     5953 b- defN 22-Oct-07 15:06 org/apache/commons/cli/Options.class
+│ +-rw-r--r--  2.0 unx      444 b- defN 22-Oct-07 15:06 org/apache/commons/cli/ParseException.class
+│ +-rw-r--r--  2.0 unx     7331 b- defN 22-Oct-07 15:06 org/apache/commons/cli/Parser.class
+│ +-rw-r--r--  2.0 unx     3310 b- defN 22-Oct-07 15:06 org/apache/commons/cli/PatternOptionBuilder.class
+│ +-rw-r--r--  2.0 unx     4365 b- defN 22-Oct-07 15:06 org/apache/commons/cli/PosixParser.class
+│ +-rw-r--r--  2.0 unx     4353 b- defN 22-Oct-07 15:06 org/apache/commons/cli/TypeHandler.class
+│ +-rw-r--r--  2.0 unx      772 b- defN 22-Oct-07 15:06 org/apache/commons/cli/UnrecognizedOptionException.class
+│ +-rw-r--r--  2.0 unx     1063 b- defN 22-Oct-07 15:06 org/apache/commons/cli/Util.class
+│ +-rw-r--r--  2.0 unx    15417 b- defN 22-Oct-07 15:06 META-INF/maven/commons-cli/commons-cli/pom.xml
+│ +-rw-r--r--  2.0 unx       57 b- defN 22-Oct-07 15:06 META-INF/maven/commons-cli/commons-cli/pom.properties
+│ +-rw-r--r--  2.0 unx      895 b- defN 22-Oct-07 15:06 org/slf4j/impl/OutputChoice$1.class
+│ +-rw-r--r--  2.0 unx     1328 b- defN 22-Oct-07 15:06 org/slf4j/impl/OutputChoice$OutputChoiceType.class
+│ +-rw-r--r--  2.0 unx     1330 b- defN 22-Oct-07 15:06 org/slf4j/impl/OutputChoice.class
+│ +-rw-r--r--  2.0 unx    10423 b- defN 22-Oct-07 15:06 org/slf4j/impl/SimpleLogger.class
+│ +-rw-r--r--  2.0 unx     1298 b- defN 22-Oct-07 15:06 org/slf4j/impl/SimpleLoggerConfiguration$1.class
+│ +-rw-r--r--  2.0 unx     5839 b- defN 22-Oct-07 15:06 org/slf4j/impl/SimpleLoggerConfiguration.class
+│ +-rw-r--r--  2.0 unx     1289 b- defN 22-Oct-07 15:06 org/slf4j/impl/SimpleLoggerFactory.class
+│ +-rw-r--r--  2.0 unx     1069 b- defN 22-Oct-07 15:06 org/slf4j/impl/StaticLoggerBinder.class
+│ +-rw-r--r--  2.0 unx      790 b- defN 22-Oct-07 15:06 org/slf4j/impl/StaticMDCBinder.class
+│ +-rw-r--r--  2.0 unx      935 b- defN 22-Oct-07 15:06 org/slf4j/impl/StaticMarkerBinder.class
+│ +-rw-r--r--  2.0 unx     1021 b- defN 22-Oct-07 15:06 META-INF/maven/org.slf4j/slf4j-simple/pom.xml
+│ +-rw-r--r--  2.0 unx       60 b- defN 22-Oct-07 15:06 META-INF/maven/org.slf4j/slf4j-simple/pom.properties
+│ +-rw-r--r--  2.0 unx      180 b- defN 22-Oct-07 15:06 org/slf4j/ILoggerFactory.class
+│ +-rw-r--r--  2.0 unx      272 b- defN 22-Oct-07 15:06 org/slf4j/IMarkerFactory.class
+│ +-rw-r--r--  2.0 unx     1375 b- defN 22-Oct-07 15:06 org/slf4j/Logger.class
+│ +-rw-r--r--  2.0 unx    12547 b- defN 22-Oct-07 15:06 org/slf4j/LoggerFactory.class
+│ +-rw-r--r--  2.0 unx      177 b- defN 22-Oct-07 15:06 org/slf4j/MDC$1.class
+│ +-rw-r--r--  2.0 unx      749 b- defN 22-Oct-07 15:06 org/slf4j/MDC$MDCCloseable.class
+│ +-rw-r--r--  2.0 unx     3675 b- defN 22-Oct-07 15:06 org/slf4j/MDC.class
+│ +-rw-r--r--  2.0 unx      666 b- defN 22-Oct-07 15:06 org/slf4j/Marker.class
+│ +-rw-r--r--  2.0 unx     1621 b- defN 22-Oct-07 15:06 org/slf4j/MarkerFactory.class
+│ +-rw-r--r--  2.0 unx      594 b- defN 22-Oct-07 15:06 org/slf4j/event/EventConstants.class
+│ +-rw-r--r--  2.0 unx     9842 b- defN 22-Oct-07 15:06 org/slf4j/event/EventRecodingLogger.class
+│ +-rw-r--r--  2.0 unx     1489 b- defN 22-Oct-07 15:06 org/slf4j/event/Level.class
+│ +-rw-r--r--  2.0 unx      432 b- defN 22-Oct-07 15:06 org/slf4j/event/LoggingEvent.class
+│ +-rw-r--r--  2.0 unx     2615 b- defN 22-Oct-07 15:06 org/slf4j/event/SubstituteLoggingEvent.class
+│ +-rw-r--r--  2.0 unx     1233 b- defN 22-Oct-07 15:06 org/slf4j/helpers/BasicMDCAdapter$1.class
+│ +-rw-r--r--  2.0 unx     2618 b- defN 22-Oct-07 15:06 org/slf4j/helpers/BasicMDCAdapter.class
+│ +-rw-r--r--  2.0 unx     3285 b- defN 22-Oct-07 15:06 org/slf4j/helpers/BasicMarker.class
+│ +-rw-r--r--  2.0 unx     1634 b- defN 22-Oct-07 15:06 org/slf4j/helpers/BasicMarkerFactory.class
+│ +-rw-r--r--  2.0 unx     1091 b- defN 22-Oct-07 15:06 org/slf4j/helpers/FormattingTuple.class
+│ +-rw-r--r--  2.0 unx     4773 b- defN 22-Oct-07 15:06 org/slf4j/helpers/MarkerIgnoringBase.class
+│ +-rw-r--r--  2.0 unx     7553 b- defN 22-Oct-07 15:06 org/slf4j/helpers/MessageFormatter.class
+│ +-rw-r--r--  2.0 unx     3267 b- defN 22-Oct-07 15:06 org/slf4j/helpers/NOPLogger.class
+│ +-rw-r--r--  2.0 unx      584 b- defN 22-Oct-07 15:06 org/slf4j/helpers/NOPLoggerFactory.class
+│ +-rw-r--r--  2.0 unx     1249 b- defN 22-Oct-07 15:06 org/slf4j/helpers/NOPMDCAdapter.class
+│ +-rw-r--r--  2.0 unx      823 b- defN 22-Oct-07 15:06 org/slf4j/helpers/NamedLoggerBase.class
+│ +-rw-r--r--  2.0 unx    10262 b- defN 22-Oct-07 15:06 org/slf4j/helpers/SubstituteLogger.class
+│ +-rw-r--r--  2.0 unx     2199 b- defN 22-Oct-07 15:06 org/slf4j/helpers/SubstituteLoggerFactory.class
+│ +-rw-r--r--  2.0 unx      196 b- defN 22-Oct-07 15:06 org/slf4j/helpers/Util$1.class
+│ +-rw-r--r--  2.0 unx      765 b- defN 22-Oct-07 15:06 org/slf4j/helpers/Util$ClassContextSecurityManager.class
+│ +-rw-r--r--  2.0 unx     2952 b- defN 22-Oct-07 15:06 org/slf4j/helpers/Util.class
+│ +-rw-r--r--  2.0 unx      455 b- defN 22-Oct-07 15:06 org/slf4j/spi/LocationAwareLogger.class
+│ +-rw-r--r--  2.0 unx      249 b- defN 22-Oct-07 15:06 org/slf4j/spi/LoggerFactoryBinder.class
+│ +-rw-r--r--  2.0 unx      529 b- defN 22-Oct-07 15:06 org/slf4j/spi/MDCAdapter.class
+│ +-rw-r--r--  2.0 unx      249 b- defN 22-Oct-07 15:06 org/slf4j/spi/MarkerFactoryBinder.class
+│ +-rw-r--r--  2.0 unx     2743 b- defN 22-Oct-07 15:06 META-INF/maven/org.slf4j/slf4j-api/pom.xml
+│ +-rw-r--r--  2.0 unx       57 b- defN 22-Oct-07 15:06 META-INF/maven/org.slf4j/slf4j-api/pom.properties
+│ +-rw-r--r--  2.0 unx       76 b- defN 22-Oct-07 15:06 META-INF/maven/org.apache.shiro.tools/shiro-tools-hasher/pom.properties
+│ +-rw-r--r--  2.0 unx     4012 b- defN 22-Oct-07 15:06 META-INF/maven/org.apache.shiro.tools/shiro-tools-hasher/pom.xml
+│ +-rw-r--r--  2.0 unx    17571 b- defN 22-Oct-07 15:06 org/apache/shiro/tools/hasher/Hasher.class
+│ +540 files, 1065950 bytes uncompressed, 460931 bytes compressed:  56.8%
+├── zipnote «TEMP»/diffoscope_n2uvn71k_target/tmpy8m7bcqq_.zip
+│ @@ -1,13 +1,22 @@
+│  Filename: META-INF/
+│  Comment: 
+│  
+│  Filename: META-INF/MANIFEST.MF
+│  Comment: 
+│  
+│ +Filename: META-INF/maven/
+│ +Comment: 
+│ +
+│ +Filename: META-INF/maven/org.apache.shiro/
+│ +Comment: 
+│ +
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-core/
+│ +Comment: 
+│ +
+│  Filename: org/
+│  Comment: 
+│  
+│  Filename: org/apache/
+│  Comment: 
+│  
+│  Filename: org/apache/shiro/
+│ @@ -33,26 +42,53 @@
+│  
+│  Filename: org/apache/shiro/authz/aop/
+│  Comment: 
+│  
+│  Filename: org/apache/shiro/authz/permission/
+│  Comment: 
+│  
+│ +Filename: org/apache/shiro/cache/
+│ +Comment: 
+│ +
+│ +Filename: org/apache/shiro/codec/
+│ +Comment: 
+│ +
+│  Filename: org/apache/shiro/concurrent/
+│  Comment: 
+│  
+│  Filename: org/apache/shiro/config/
+│  Comment: 
+│  
+│ +Filename: org/apache/shiro/config/event/
+│ +Comment: 
+│ +
+│ +Filename: org/apache/shiro/crypto/
+│ +Comment: 
+│ +
+│ +Filename: org/apache/shiro/crypto/hash/
+│ +Comment: 
+│ +
+│ +Filename: org/apache/shiro/crypto/hash/format/
+│ +Comment: 
+│ +
+│  Filename: org/apache/shiro/dao/
+│  Comment: 
+│  
+│  Filename: org/apache/shiro/env/
+│  Comment: 
+│  
+│ +Filename: org/apache/shiro/event/
+│ +Comment: 
+│ +
+│ +Filename: org/apache/shiro/event/support/
+│ +Comment: 
+│ +
+│ +Filename: org/apache/shiro/io/
+│ +Comment: 
+│ +
+│  Filename: org/apache/shiro/jndi/
+│  Comment: 
+│  
+│  Filename: org/apache/shiro/ldap/
+│  Comment: 
+│  
+│  Filename: org/apache/shiro/mgt/
+│ @@ -90,50 +126,44 @@
+│  
+│  Filename: org/apache/shiro/subject/support/
+│  Comment: 
+│  
+│  Filename: org/apache/shiro/util/
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/codec/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/shiro/io/
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-lang/
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/cache/
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-cache/
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-crypto-hash/
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-crypto-core/
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/format/
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-crypto-cipher/
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/config/event/
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-config-core/
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/event/
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-config-ogdl/
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/event/support/
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-event/
+│  Comment: 
+│  
+│  Filename: org/apache/commons/
+│  Comment: 
+│  
+│  Filename: org/apache/commons/cli/
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/
+│ -Comment: 
+│ -
+│  Filename: META-INF/maven/commons-cli/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/commons-cli/commons-cli/
+│  Comment: 
+│  
+│  Filename: org/slf4j/
+│ @@ -168,630 +198,672 @@
+│  
+│  Filename: org/apache/shiro/tools/
+│  Comment: 
+│  
+│  Filename: org/apache/shiro/tools/hasher/
+│  Comment: 
+│  
+│ -Filename: META-INF/LICENSE.txt
+│ +Filename: META-INF/DEPENDENCIES
+│  Comment: 
+│  
+│ -Filename: META-INF/NOTICE.txt
+│ +Filename: META-INF/LICENSE
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/AlreadySelectedException.class
+│ +Filename: META-INF/NOTICE
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/AmbiguousOptionException.class
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-core/pom.properties
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/BasicParser.class
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-core/pom.xml
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/CommandLine$Builder.class
+│ +Filename: org/apache/shiro/SecurityUtils.class
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/CommandLine.class
+│ +Filename: org/apache/shiro/ShiroException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/CommandLineParser.class
+│ +Filename: org/apache/shiro/UnavailableSecurityManagerException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/DefaultParser$1.class
+│ +Filename: org/apache/shiro/aop/AnnotationHandler.class
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/DefaultParser$Builder.class
+│ +Filename: org/apache/shiro/aop/AnnotationMethodInterceptor.class
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/DefaultParser.class
+│ +Filename: org/apache/shiro/aop/AnnotationResolver.class
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/GnuParser.class
+│ +Filename: org/apache/shiro/aop/DefaultAnnotationResolver.class
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/HelpFormatter$1.class
+│ +Filename: org/apache/shiro/aop/MethodInterceptor.class
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/HelpFormatter$OptionComparator.class
+│ +Filename: org/apache/shiro/aop/MethodInterceptorSupport.class
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/HelpFormatter.class
+│ +Filename: org/apache/shiro/aop/MethodInvocation.class
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/MissingArgumentException.class
+│ +Filename: org/apache/shiro/aop/package-info.class
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/MissingOptionException.class
+│ +Filename: org/apache/shiro/authc/AbstractAuthenticator.class
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/Option$1.class
+│ +Filename: org/apache/shiro/authc/Account.class
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/Option$Builder.class
+│ +Filename: org/apache/shiro/authc/AccountException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/Option.class
+│ +Filename: org/apache/shiro/authc/AuthenticationException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/OptionBuilder.class
+│ +Filename: org/apache/shiro/authc/AuthenticationInfo.class
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/OptionGroup.class
+│ +Filename: org/apache/shiro/authc/AuthenticationListener.class
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/OptionValidator.class
+│ +Filename: org/apache/shiro/authc/AuthenticationToken.class
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/Options.class
+│ +Filename: org/apache/shiro/authc/Authenticator.class
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/ParseException.class
+│ +Filename: org/apache/shiro/authc/BearerToken.class
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/Parser.class
+│ +Filename: org/apache/shiro/authc/ConcurrentAccessException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/PatternOptionBuilder.class
+│ +Filename: org/apache/shiro/authc/CredentialsException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/PosixParser.class
+│ +Filename: org/apache/shiro/authc/DisabledAccountException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/TypeHandler.class
+│ +Filename: org/apache/shiro/authc/ExcessiveAttemptsException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/UnrecognizedOptionException.class
+│ +Filename: org/apache/shiro/authc/ExpiredCredentialsException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/commons/cli/Util.class
+│ +Filename: org/apache/shiro/authc/HostAuthenticationToken.class
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/commons-cli/commons-cli/pom.xml
+│ +Filename: org/apache/shiro/authc/IncorrectCredentialsException.class
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/commons-cli/commons-cli/pom.properties
+│ +Filename: org/apache/shiro/authc/LockedAccountException.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/impl/OutputChoice$1.class
+│ +Filename: org/apache/shiro/authc/LogoutAware.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/impl/OutputChoice$OutputChoiceType.class
+│ +Filename: org/apache/shiro/authc/MergableAuthenticationInfo.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/impl/OutputChoice.class
+│ +Filename: org/apache/shiro/authc/RememberMeAuthenticationToken.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/impl/SimpleLogger.class
+│ +Filename: org/apache/shiro/authc/SaltedAuthenticationInfo.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/impl/SimpleLoggerConfiguration$1.class
+│ +Filename: org/apache/shiro/authc/SimpleAccount.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/impl/SimpleLoggerConfiguration.class
+│ +Filename: org/apache/shiro/authc/SimpleAuthenticationInfo.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/impl/SimpleLoggerFactory.class
+│ +Filename: org/apache/shiro/authc/UnknownAccountException.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/impl/StaticLoggerBinder.class
+│ +Filename: org/apache/shiro/authc/UsernamePasswordToken.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/impl/StaticMDCBinder.class
+│ +Filename: org/apache/shiro/authc/credential/AllowAllCredentialsMatcher.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/impl/StaticMarkerBinder.class
+│ +Filename: org/apache/shiro/authc/credential/CredentialsMatcher.class
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/org.slf4j/slf4j-simple/pom.xml
+│ +Filename: org/apache/shiro/authc/credential/DefaultPasswordService.class
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/org.slf4j/slf4j-simple/pom.properties
+│ +Filename: org/apache/shiro/authc/credential/HashedCredentialsMatcher.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/ILoggerFactory.class
+│ +Filename: org/apache/shiro/authc/credential/HashingPasswordService.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/IMarkerFactory.class
+│ +Filename: org/apache/shiro/authc/credential/Md2CredentialsMatcher.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/Logger.class
+│ +Filename: org/apache/shiro/authc/credential/Md5CredentialsMatcher.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/LoggerFactory.class
+│ +Filename: org/apache/shiro/authc/credential/PasswordMatcher.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/MDC$1.class
+│ +Filename: org/apache/shiro/authc/credential/PasswordService.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/MDC$MDCCloseable.class
+│ +Filename: org/apache/shiro/authc/credential/Sha1CredentialsMatcher.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/MDC.class
+│ +Filename: org/apache/shiro/authc/credential/Sha256CredentialsMatcher.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/Marker.class
+│ +Filename: org/apache/shiro/authc/credential/Sha384CredentialsMatcher.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/MarkerFactory.class
+│ +Filename: org/apache/shiro/authc/credential/Sha512CredentialsMatcher.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/event/EventConstants.class
+│ +Filename: org/apache/shiro/authc/credential/SimpleCredentialsMatcher.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/event/EventRecodingLogger.class
+│ +Filename: org/apache/shiro/authc/credential/package-info.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/event/Level.class
+│ +Filename: org/apache/shiro/authc/package-info.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/event/LoggingEvent.class
+│ +Filename: org/apache/shiro/authc/pam/AbstractAuthenticationStrategy.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/event/SubstituteLoggingEvent.class
+│ +Filename: org/apache/shiro/authc/pam/AllSuccessfulStrategy.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/helpers/BasicMDCAdapter$1.class
+│ +Filename: org/apache/shiro/authc/pam/AtLeastOneSuccessfulStrategy.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/helpers/BasicMDCAdapter.class
+│ +Filename: org/apache/shiro/authc/pam/AuthenticationStrategy.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/helpers/BasicMarker.class
+│ +Filename: org/apache/shiro/authc/pam/FirstSuccessfulStrategy.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/helpers/BasicMarkerFactory.class
+│ +Filename: org/apache/shiro/authc/pam/ModularRealmAuthenticator.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/helpers/FormattingTuple.class
+│ +Filename: org/apache/shiro/authc/pam/ShortCircuitIterationException.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/helpers/MarkerIgnoringBase.class
+│ +Filename: org/apache/shiro/authc/pam/UnsupportedTokenException.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/helpers/MessageFormatter.class
+│ +Filename: org/apache/shiro/authc/pam/package-info.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/helpers/NOPLogger.class
+│ +Filename: org/apache/shiro/authz/AuthorizationException.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/helpers/NOPLoggerFactory.class
+│ +Filename: org/apache/shiro/authz/AuthorizationInfo.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/helpers/NOPMDCAdapter.class
+│ +Filename: org/apache/shiro/authz/Authorizer.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/helpers/NamedLoggerBase.class
+│ +Filename: org/apache/shiro/authz/HostUnauthorizedException.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/helpers/SubstituteLogger.class
+│ +Filename: org/apache/shiro/authz/ModularRealmAuthorizer.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/helpers/SubstituteLoggerFactory.class
+│ +Filename: org/apache/shiro/authz/Permission.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/helpers/Util$1.class
+│ +Filename: org/apache/shiro/authz/SimpleAuthorizationInfo.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/helpers/Util$ClassContextSecurityManager.class
+│ +Filename: org/apache/shiro/authz/SimpleRole.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/helpers/Util.class
+│ +Filename: org/apache/shiro/authz/UnauthenticatedException.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/spi/LocationAwareLogger.class
+│ +Filename: org/apache/shiro/authz/UnauthorizedException.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/spi/LoggerFactoryBinder.class
+│ +Filename: org/apache/shiro/authz/annotation/Logical.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/spi/MDCAdapter.class
+│ +Filename: org/apache/shiro/authz/annotation/RequiresAuthentication.class
+│  Comment: 
+│  
+│ -Filename: org/slf4j/spi/MarkerFactoryBinder.class
+│ +Filename: org/apache/shiro/authz/annotation/RequiresGuest.class
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/org.slf4j/slf4j-api/pom.xml
+│ +Filename: org/apache/shiro/authz/annotation/RequiresPermissions.class
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/org.slf4j/slf4j-api/pom.properties
+│ +Filename: org/apache/shiro/authz/annotation/RequiresRoles.class
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/org.apache.shiro.tools/shiro-tools-hasher/pom.properties
+│ +Filename: org/apache/shiro/authz/annotation/RequiresUser.class
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/org.apache.shiro.tools/shiro-tools-hasher/pom.xml
+│ +Filename: org/apache/shiro/authz/annotation/package-info.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/tools/hasher/Hasher.class
+│ +Filename: org/apache/shiro/authz/aop/AnnotationsAuthorizingMethodInterceptor.class
+│  Comment: 
+│  
+│ -Filename: META-INF/DEPENDENCIES
+│ +Filename: org/apache/shiro/authz/aop/AuthenticatedAnnotationHandler.class
+│  Comment: 
+│  
+│ -Filename: META-INF/LICENSE
+│ +Filename: org/apache/shiro/authz/aop/AuthenticatedAnnotationMethodInterceptor.class
+│  Comment: 
+│  
+│ -Filename: META-INF/NOTICE
+│ +Filename: org/apache/shiro/authz/aop/AuthorizingAnnotationHandler.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/SecurityUtils.class
+│ +Filename: org/apache/shiro/authz/aop/AuthorizingAnnotationMethodInterceptor.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/UnavailableSecurityManagerException.class
+│ +Filename: org/apache/shiro/authz/aop/AuthorizingMethodInterceptor.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/aop/AnnotationHandler.class
+│ +Filename: org/apache/shiro/authz/aop/GuestAnnotationHandler.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/aop/AnnotationMethodInterceptor.class
+│ +Filename: org/apache/shiro/authz/aop/GuestAnnotationMethodInterceptor.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/aop/AnnotationResolver.class
+│ +Filename: org/apache/shiro/authz/aop/PermissionAnnotationHandler.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/aop/DefaultAnnotationResolver.class
+│ +Filename: org/apache/shiro/authz/aop/PermissionAnnotationMethodInterceptor.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/aop/MethodInterceptor.class
+│ +Filename: org/apache/shiro/authz/aop/RoleAnnotationHandler.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/aop/MethodInterceptorSupport.class
+│ +Filename: org/apache/shiro/authz/aop/RoleAnnotationMethodInterceptor.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/aop/MethodInvocation.class
+│ +Filename: org/apache/shiro/authz/aop/UserAnnotationHandler.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/aop/package-info.class
+│ +Filename: org/apache/shiro/authz/aop/UserAnnotationMethodInterceptor.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/AbstractAuthenticator.class
+│ +Filename: org/apache/shiro/authz/aop/package-info.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/Account.class
+│ +Filename: org/apache/shiro/authz/package-info.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/AccountException.class
+│ +Filename: org/apache/shiro/authz/permission/AllPermission.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/AuthenticationException.class
+│ +Filename: org/apache/shiro/authz/permission/DomainPermission.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/AuthenticationInfo.class
+│ +Filename: org/apache/shiro/authz/permission/InvalidPermissionStringException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/AuthenticationListener.class
+│ +Filename: org/apache/shiro/authz/permission/PermissionResolver.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/AuthenticationToken.class
+│ +Filename: org/apache/shiro/authz/permission/PermissionResolverAware.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/Authenticator.class
+│ +Filename: org/apache/shiro/authz/permission/RolePermissionResolver.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/BearerToken.class
+│ +Filename: org/apache/shiro/authz/permission/RolePermissionResolverAware.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/ConcurrentAccessException.class
+│ +Filename: org/apache/shiro/authz/permission/WildcardPermission.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/CredentialsException.class
+│ +Filename: org/apache/shiro/authz/permission/WildcardPermissionResolver.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/DisabledAccountException.class
+│ +Filename: org/apache/shiro/authz/permission/package-info.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/ExcessiveAttemptsException.class
+│ +Filename: org/apache/shiro/cache/AbstractCacheManager.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/ExpiredCredentialsException.class
+│ +Filename: org/apache/shiro/cache/Cache.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/HostAuthenticationToken.class
+│ +Filename: org/apache/shiro/cache/CacheException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/IncorrectCredentialsException.class
+│ +Filename: org/apache/shiro/cache/CacheManager.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/LockedAccountException.class
+│ +Filename: org/apache/shiro/cache/CacheManagerAware.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/LogoutAware.class
+│ +Filename: org/apache/shiro/cache/MapCache.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/MergableAuthenticationInfo.class
+│ +Filename: org/apache/shiro/cache/MemoryConstrainedCacheManager.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/RememberMeAuthenticationToken.class
+│ +Filename: org/apache/shiro/cache/package-info.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/SaltedAuthenticationInfo.class
+│ +Filename: org/apache/shiro/codec/Base64.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/SimpleAccount.class
+│ +Filename: org/apache/shiro/codec/CodecException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/SimpleAuthenticationInfo.class
+│ +Filename: org/apache/shiro/codec/CodecSupport.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/UnknownAccountException.class
+│ +Filename: org/apache/shiro/codec/H64.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/UsernamePasswordToken.class
+│ +Filename: org/apache/shiro/codec/Hex.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/credential/AllowAllCredentialsMatcher.class
+│ +Filename: org/apache/shiro/codec/package-info.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/credential/CredentialsMatcher.class
+│ +Filename: org/apache/shiro/concurrent/SubjectAwareExecutor.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/credential/DefaultPasswordService.class
+│ +Filename: org/apache/shiro/concurrent/SubjectAwareExecutorService.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/credential/HashedCredentialsMatcher.class
+│ +Filename: org/apache/shiro/concurrent/SubjectAwareScheduledExecutorService.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/credential/HashingPasswordService.class
+│ +Filename: org/apache/shiro/concurrent/package-info.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/credential/Md2CredentialsMatcher.class
+│ +Filename: org/apache/shiro/config/CommonsInterpolator.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/credential/Md5CredentialsMatcher.class
+│ +Filename: org/apache/shiro/config/ConfigurationException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/credential/PasswordMatcher.class
+│ +Filename: org/apache/shiro/config/DefaultInterpolator.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/credential/PasswordService.class
+│ +Filename: org/apache/shiro/config/Ini$1.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/credential/Sha1CredentialsMatcher.class
+│ +Filename: org/apache/shiro/config/Ini$Section.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/credential/Sha256CredentialsMatcher.class
+│ +Filename: org/apache/shiro/config/Ini.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/credential/Sha384CredentialsMatcher.class
+│ +Filename: org/apache/shiro/config/IniFactorySupport.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/credential/Sha512CredentialsMatcher.class
+│ +Filename: org/apache/shiro/config/IniSecurityManagerFactory.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/credential/SimpleCredentialsMatcher.class
+│ +Filename: org/apache/shiro/config/Interpolator.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/credential/package-info.class
+│ +Filename: org/apache/shiro/config/ReflectionBuilder$1.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/package-info.class
+│ +Filename: org/apache/shiro/config/ReflectionBuilder$AssignmentStatement.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/pam/AbstractAuthenticationStrategy.class
+│ +Filename: org/apache/shiro/config/ReflectionBuilder$BeanConfiguration.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/pam/AllSuccessfulStrategy.class
+│ +Filename: org/apache/shiro/config/ReflectionBuilder$BeanConfigurationProcessor.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/pam/AtLeastOneSuccessfulStrategy.class
+│ +Filename: org/apache/shiro/config/ReflectionBuilder$InstantiationStatement.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/pam/AuthenticationStrategy.class
+│ +Filename: org/apache/shiro/config/ReflectionBuilder$Statement.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/pam/FirstSuccessfulStrategy.class
+│ +Filename: org/apache/shiro/config/ReflectionBuilder.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/pam/ModularRealmAuthenticator.class
+│ +Filename: org/apache/shiro/config/ResourceConfigurable.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/pam/ShortCircuitIterationException.class
+│ +Filename: org/apache/shiro/config/UnresolveableReferenceException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/pam/UnsupportedTokenException.class
+│ +Filename: org/apache/shiro/config/event/BeanEvent.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authc/pam/package-info.class
+│ +Filename: org/apache/shiro/config/event/ConfiguredBeanEvent.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/AuthorizationException.class
+│ +Filename: org/apache/shiro/config/event/DestroyedBeanEvent.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/AuthorizationInfo.class
+│ +Filename: org/apache/shiro/config/event/InitializedBeanEvent.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/Authorizer.class
+│ +Filename: org/apache/shiro/config/event/InstantiatedBeanEvent.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/HostUnauthorizedException.class
+│ +Filename: org/apache/shiro/config/event/LoggingBeanEventListener.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/ModularRealmAuthorizer.class
+│ +Filename: org/apache/shiro/config/package-info.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/Permission.class
+│ +Filename: org/apache/shiro/crypto/AbstractSymmetricCipherService.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/SimpleAuthorizationInfo.class
+│ +Filename: org/apache/shiro/crypto/AesCipherService.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/SimpleRole.class
+│ +Filename: org/apache/shiro/crypto/BlowfishCipherService.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/UnauthenticatedException.class
+│ +Filename: org/apache/shiro/crypto/CipherService.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/UnauthorizedException.class
+│ +Filename: org/apache/shiro/crypto/CryptoException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/annotation/Logical.class
+│ +Filename: org/apache/shiro/crypto/DefaultBlockCipherService.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/annotation/RequiresAuthentication.class
+│ +Filename: org/apache/shiro/crypto/JcaCipherService.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/annotation/RequiresGuest.class
+│ +Filename: org/apache/shiro/crypto/OperationMode.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/annotation/RequiresPermissions.class
+│ +Filename: org/apache/shiro/crypto/PaddingScheme.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/annotation/RequiresRoles.class
+│ +Filename: org/apache/shiro/crypto/RandomNumberGenerator.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/annotation/RequiresUser.class
+│ +Filename: org/apache/shiro/crypto/SecureRandomNumberGenerator.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/annotation/package-info.class
+│ +Filename: org/apache/shiro/crypto/UnknownAlgorithmException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/aop/AnnotationsAuthorizingMethodInterceptor.class
+│ +Filename: org/apache/shiro/crypto/hash/AbstractHash.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/aop/AuthenticatedAnnotationHandler.class
+│ +Filename: org/apache/shiro/crypto/hash/ConfigurableHashService.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/aop/AuthenticatedAnnotationMethodInterceptor.class
+│ +Filename: org/apache/shiro/crypto/hash/DefaultHashService.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/aop/AuthorizingAnnotationHandler.class
+│ +Filename: org/apache/shiro/crypto/hash/Hash.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/aop/AuthorizingAnnotationMethodInterceptor.class
+│ +Filename: org/apache/shiro/crypto/hash/HashRequest$Builder.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/aop/AuthorizingMethodInterceptor.class
+│ +Filename: org/apache/shiro/crypto/hash/HashRequest.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/aop/GuestAnnotationHandler.class
+│ +Filename: org/apache/shiro/crypto/hash/HashService.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/aop/GuestAnnotationMethodInterceptor.class
+│ +Filename: org/apache/shiro/crypto/hash/Md2Hash.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/aop/PermissionAnnotationHandler.class
+│ +Filename: org/apache/shiro/crypto/hash/Md5Hash.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/aop/PermissionAnnotationMethodInterceptor.class
+│ +Filename: org/apache/shiro/crypto/hash/Sha1Hash.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/aop/RoleAnnotationHandler.class
+│ +Filename: org/apache/shiro/crypto/hash/Sha256Hash.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/aop/RoleAnnotationMethodInterceptor.class
+│ +Filename: org/apache/shiro/crypto/hash/Sha384Hash.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/aop/UserAnnotationHandler.class
+│ +Filename: org/apache/shiro/crypto/hash/Sha512Hash.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/aop/UserAnnotationMethodInterceptor.class
+│ +Filename: org/apache/shiro/crypto/hash/SimpleHash.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/aop/package-info.class
+│ +Filename: org/apache/shiro/crypto/hash/SimpleHashRequest.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/package-info.class
+│ +Filename: org/apache/shiro/crypto/hash/format/Base64Format.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/permission/AllPermission.class
+│ +Filename: org/apache/shiro/crypto/hash/format/DefaultHashFormatFactory.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/permission/DomainPermission.class
+│ +Filename: org/apache/shiro/crypto/hash/format/HashFormat.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/permission/InvalidPermissionStringException.class
+│ +Filename: org/apache/shiro/crypto/hash/format/HashFormatFactory.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/permission/PermissionResolver.class
+│ +Filename: org/apache/shiro/crypto/hash/format/HexFormat.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/permission/PermissionResolverAware.class
+│ +Filename: org/apache/shiro/crypto/hash/format/ModularCryptFormat.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/permission/RolePermissionResolver.class
+│ +Filename: org/apache/shiro/crypto/hash/format/ParsableHashFormat.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/permission/RolePermissionResolverAware.class
+│ +Filename: org/apache/shiro/crypto/hash/format/ProvidedHashFormat.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/permission/WildcardPermission.class
+│ +Filename: org/apache/shiro/crypto/hash/format/Shiro1CryptFormat.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/permission/WildcardPermissionResolver.class
+│ +Filename: org/apache/shiro/crypto/hash/package-info.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/authz/permission/package-info.class
+│ +Filename: org/apache/shiro/crypto/package-info.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/concurrent/SubjectAwareExecutor.class
+│ +Filename: org/apache/shiro/dao/DataAccessException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/concurrent/SubjectAwareExecutorService.class
+│ +Filename: org/apache/shiro/dao/InvalidResourceUsageException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/concurrent/SubjectAwareScheduledExecutorService.class
+│ +Filename: org/apache/shiro/dao/package-info.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/concurrent/package-info.class
+│ +Filename: org/apache/shiro/env/BasicIniEnvironment.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/config/IniFactorySupport.class
+│ +Filename: org/apache/shiro/env/DefaultEnvironment.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/config/IniSecurityManagerFactory.class
+│ +Filename: org/apache/shiro/env/Environment.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/dao/DataAccessException.class
+│ +Filename: org/apache/shiro/env/EnvironmentException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/dao/InvalidResourceUsageException.class
+│ +Filename: org/apache/shiro/env/NamedObjectEnvironment.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/dao/package-info.class
+│ +Filename: org/apache/shiro/env/RequiredTypeException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/env/BasicIniEnvironment.class
+│ +Filename: org/apache/shiro/env/package-info.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/env/DefaultEnvironment.class
+│ +Filename: org/apache/shiro/event/Event.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/env/Environment.class
+│ +Filename: org/apache/shiro/event/EventBus.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/env/EnvironmentException.class
+│ +Filename: org/apache/shiro/event/EventBusAware.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/env/NamedObjectEnvironment.class
+│ +Filename: org/apache/shiro/event/Subscribe.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/env/RequiredTypeException.class
+│ +Filename: org/apache/shiro/event/support/AnnotationEventListenerResolver.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/env/package-info.class
+│ +Filename: org/apache/shiro/event/support/DefaultEventBus$Subscription.class
+│ +Comment: 
+│ +
+│ +Filename: org/apache/shiro/event/support/DefaultEventBus.class
+│ +Comment: 
+│ +
+│ +Filename: org/apache/shiro/event/support/EventClassComparator.class
+│ +Comment: 
+│ +
+│ +Filename: org/apache/shiro/event/support/EventListener.class
+│ +Comment: 
+│ +
+│ +Filename: org/apache/shiro/event/support/EventListenerComparator.class
+│ +Comment: 
+│ +
+│ +Filename: org/apache/shiro/event/support/EventListenerResolver.class
+│ +Comment: 
+│ +
+│ +Filename: org/apache/shiro/event/support/SingleArgumentMethodEventListener.class
+│ +Comment: 
+│ +
+│ +Filename: org/apache/shiro/event/support/TypedEventListener.class
+│ +Comment: 
+│ +
+│ +Filename: org/apache/shiro/io/ClassResolvingObjectInputStream.class
+│ +Comment: 
+│ +
+│ +Filename: org/apache/shiro/io/DefaultSerializer.class
+│ +Comment: 
+│ +
+│ +Filename: org/apache/shiro/io/ResourceUtils.class
+│ +Comment: 
+│ +
+│ +Filename: org/apache/shiro/io/SerializationException.class
+│ +Comment: 
+│ +
+│ +Filename: org/apache/shiro/io/Serializer.class
+│ +Comment: 
+│ +
+│ +Filename: org/apache/shiro/io/XmlSerializer.class
+│ +Comment: 
+│ +
+│ +Filename: org/apache/shiro/io/package-info.class
+│  Comment: 
+│  
+│  Filename: org/apache/shiro/jndi/JndiCallback.class
+│  Comment: 
+│  
+│  Filename: org/apache/shiro/jndi/JndiLocator.class
+│  Comment: 
+│ @@ -1137,401 +1209,413 @@
+│  
+│  Filename: org/apache/shiro/util/AbstractFactory.class
+│  Comment: 
+│  
+│  Filename: org/apache/shiro/util/AntPathMatcher.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/CollectionUtils.class
+│ +Filename: org/apache/shiro/util/Assert.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/JavaEnvironment.class
+│ +Filename: org/apache/shiro/util/ByteSource$Util.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/JdbcUtils.class
+│ +Filename: org/apache/shiro/util/ByteSource.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/MapContext.class
+│ +Filename: org/apache/shiro/util/ClassUtils$1.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/PatternMatcher.class
+│ +Filename: org/apache/shiro/util/ClassUtils$2.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/PermissionUtils.class
+│ +Filename: org/apache/shiro/util/ClassUtils$3.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/RegExPatternMatcher.class
+│ +Filename: org/apache/shiro/util/ClassUtils$ClassLoaderAccessor.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/ThreadContext$1.class
+│ +Filename: org/apache/shiro/util/ClassUtils$ExceptionIgnoringAccessor.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/ThreadContext$InheritableThreadLocalMap.class
+│ +Filename: org/apache/shiro/util/ClassUtils.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/ThreadContext.class
+│ +Filename: org/apache/shiro/util/CollectionUtils.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/ThreadState.class
+│ +Filename: org/apache/shiro/util/Destroyable.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/package-info.class
+│ +Filename: org/apache/shiro/util/Factory.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/ShiroException.class
+│ +Filename: org/apache/shiro/util/Initializable.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/codec/Base64.class
+│ +Filename: org/apache/shiro/util/InstantiationException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/codec/CodecException.class
+│ +Filename: org/apache/shiro/util/JavaEnvironment.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/codec/CodecSupport.class
+│ +Filename: org/apache/shiro/util/JdbcUtils.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/codec/H64.class
+│ +Filename: org/apache/shiro/util/LifecycleUtils.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/codec/Hex.class
+│ +Filename: org/apache/shiro/util/MapContext.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/codec/package-info.class
+│ +Filename: org/apache/shiro/util/Nameable.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/io/ClassResolvingObjectInputStream.class
+│ +Filename: org/apache/shiro/util/PatternMatcher.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/io/DefaultSerializer.class
+│ +Filename: org/apache/shiro/util/PermissionUtils.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/io/ResourceUtils.class
+│ +Filename: org/apache/shiro/util/RegExPatternMatcher.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/io/SerializationException.class
+│ +Filename: org/apache/shiro/util/SimpleByteSource$1.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/io/Serializer.class
+│ +Filename: org/apache/shiro/util/SimpleByteSource$BytesHelper.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/io/XmlSerializer.class
+│ +Filename: org/apache/shiro/util/SimpleByteSource.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/io/package-info.class
+│ +Filename: org/apache/shiro/util/SoftHashMap$1.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/Assert.class
+│ +Filename: org/apache/shiro/util/SoftHashMap$SoftValue.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/ByteSource$Util.class
+│ +Filename: org/apache/shiro/util/SoftHashMap.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/ByteSource.class
+│ +Filename: org/apache/shiro/util/StringUtils.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/ClassUtils$1.class
+│ +Filename: org/apache/shiro/util/ThreadContext$1.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/ClassUtils$2.class
+│ +Filename: org/apache/shiro/util/ThreadContext$InheritableThreadLocalMap.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/ClassUtils$3.class
+│ +Filename: org/apache/shiro/util/ThreadContext.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/ClassUtils$ClassLoaderAccessor.class
+│ +Filename: org/apache/shiro/util/ThreadState.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/ClassUtils$ExceptionIgnoringAccessor.class
+│ +Filename: org/apache/shiro/util/UnknownClassException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/ClassUtils.class
+│ +Filename: org/apache/shiro/util/package-info.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/Destroyable.class
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-lang/pom.properties
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/Factory.class
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-lang/pom.xml
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/Initializable.class
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-cache/pom.properties
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/InstantiationException.class
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-cache/pom.xml
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/LifecycleUtils.class
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-crypto-hash/pom.properties
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/Nameable.class
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-crypto-hash/pom.xml
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/SimpleByteSource$1.class
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-crypto-core/pom.properties
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/SimpleByteSource$BytesHelper.class
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-crypto-core/pom.xml
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/SimpleByteSource.class
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-crypto-cipher/pom.properties
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/SoftHashMap$1.class
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-crypto-cipher/pom.xml
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/SoftHashMap$SoftValue.class
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-config-core/pom.properties
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/SoftHashMap.class
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-config-core/pom.xml
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/StringUtils.class
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-config-ogdl/pom.properties
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/util/UnknownClassException.class
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-config-ogdl/pom.xml
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/cache/AbstractCacheManager.class
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-event/pom.properties
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/cache/Cache.class
+│ +Filename: META-INF/maven/org.apache.shiro/shiro-event/pom.xml
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/cache/CacheException.class
+│ +Filename: META-INF/LICENSE.txt
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/cache/CacheManager.class
+│ +Filename: META-INF/NOTICE.txt
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/cache/CacheManagerAware.class
+│ +Filename: org/apache/commons/cli/AlreadySelectedException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/cache/MapCache.class
+│ +Filename: org/apache/commons/cli/AmbiguousOptionException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/cache/MemoryConstrainedCacheManager.class
+│ +Filename: org/apache/commons/cli/BasicParser.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/cache/package-info.class
+│ +Filename: org/apache/commons/cli/CommandLine$Builder.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/AbstractHash.class
+│ +Filename: org/apache/commons/cli/CommandLine.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/ConfigurableHashService.class
+│ +Filename: org/apache/commons/cli/CommandLineParser.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/DefaultHashService.class
+│ +Filename: org/apache/commons/cli/DefaultParser$1.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/Hash.class
+│ +Filename: org/apache/commons/cli/DefaultParser$Builder.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/HashRequest$Builder.class
+│ +Filename: org/apache/commons/cli/DefaultParser.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/HashRequest.class
+│ +Filename: org/apache/commons/cli/GnuParser.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/HashService.class
+│ +Filename: org/apache/commons/cli/HelpFormatter$1.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/Md2Hash.class
+│ +Filename: org/apache/commons/cli/HelpFormatter$OptionComparator.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/Md5Hash.class
+│ +Filename: org/apache/commons/cli/HelpFormatter.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/Sha1Hash.class
+│ +Filename: org/apache/commons/cli/MissingArgumentException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/Sha256Hash.class
+│ +Filename: org/apache/commons/cli/MissingOptionException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/Sha384Hash.class
+│ +Filename: org/apache/commons/cli/Option$1.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/Sha512Hash.class
+│ +Filename: org/apache/commons/cli/Option$Builder.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/SimpleHash.class
+│ +Filename: org/apache/commons/cli/Option.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/SimpleHashRequest.class
+│ +Filename: org/apache/commons/cli/OptionBuilder.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/format/Base64Format.class
+│ +Filename: org/apache/commons/cli/OptionGroup.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/format/DefaultHashFormatFactory.class
+│ +Filename: org/apache/commons/cli/OptionValidator.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/format/HashFormat.class
+│ +Filename: org/apache/commons/cli/Options.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/format/HashFormatFactory.class
+│ +Filename: org/apache/commons/cli/ParseException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/format/HexFormat.class
+│ +Filename: org/apache/commons/cli/Parser.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/format/ModularCryptFormat.class
+│ +Filename: org/apache/commons/cli/PatternOptionBuilder.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/format/ParsableHashFormat.class
+│ +Filename: org/apache/commons/cli/PosixParser.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/format/ProvidedHashFormat.class
+│ +Filename: org/apache/commons/cli/TypeHandler.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/format/Shiro1CryptFormat.class
+│ +Filename: org/apache/commons/cli/UnrecognizedOptionException.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/hash/package-info.class
+│ +Filename: org/apache/commons/cli/Util.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/CryptoException.class
+│ +Filename: META-INF/maven/commons-cli/commons-cli/pom.xml
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/RandomNumberGenerator.class
+│ +Filename: META-INF/maven/commons-cli/commons-cli/pom.properties
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/SecureRandomNumberGenerator.class
+│ +Filename: org/slf4j/impl/OutputChoice$1.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/UnknownAlgorithmException.class
+│ +Filename: org/slf4j/impl/OutputChoice$OutputChoiceType.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/AbstractSymmetricCipherService.class
+│ +Filename: org/slf4j/impl/OutputChoice.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/AesCipherService.class
+│ +Filename: org/slf4j/impl/SimpleLogger.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/BlowfishCipherService.class
+│ +Filename: org/slf4j/impl/SimpleLoggerConfiguration$1.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/CipherService.class
+│ +Filename: org/slf4j/impl/SimpleLoggerConfiguration.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/DefaultBlockCipherService.class
+│ +Filename: org/slf4j/impl/SimpleLoggerFactory.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/JcaCipherService.class
+│ +Filename: org/slf4j/impl/StaticLoggerBinder.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/OperationMode.class
+│ +Filename: org/slf4j/impl/StaticMDCBinder.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/PaddingScheme.class
+│ +Filename: org/slf4j/impl/StaticMarkerBinder.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/crypto/package-info.class
+│ +Filename: META-INF/maven/org.slf4j/slf4j-simple/pom.xml
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/config/ConfigurationException.class
+│ +Filename: META-INF/maven/org.slf4j/slf4j-simple/pom.properties
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/config/Ini$1.class
+│ +Filename: org/slf4j/ILoggerFactory.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/config/Ini$Section.class
+│ +Filename: org/slf4j/IMarkerFactory.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/config/Ini.class
+│ +Filename: org/slf4j/Logger.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/config/ResourceConfigurable.class
+│ +Filename: org/slf4j/LoggerFactory.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/config/package-info.class
+│ +Filename: org/slf4j/MDC$1.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/config/CommonsInterpolator.class
+│ +Filename: org/slf4j/MDC$MDCCloseable.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/config/DefaultInterpolator.class
+│ +Filename: org/slf4j/MDC.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/config/Interpolator.class
+│ +Filename: org/slf4j/Marker.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/config/ReflectionBuilder$1.class
+│ +Filename: org/slf4j/MarkerFactory.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/config/ReflectionBuilder$AssignmentStatement.class
+│ +Filename: org/slf4j/event/EventConstants.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/config/ReflectionBuilder$BeanConfiguration.class
+│ +Filename: org/slf4j/event/EventRecodingLogger.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/config/ReflectionBuilder$BeanConfigurationProcessor.class
+│ +Filename: org/slf4j/event/Level.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/config/ReflectionBuilder$InstantiationStatement.class
+│ +Filename: org/slf4j/event/LoggingEvent.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/config/ReflectionBuilder$Statement.class
+│ +Filename: org/slf4j/event/SubstituteLoggingEvent.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/config/ReflectionBuilder.class
+│ +Filename: org/slf4j/helpers/BasicMDCAdapter$1.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/config/UnresolveableReferenceException.class
+│ +Filename: org/slf4j/helpers/BasicMDCAdapter.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/config/event/BeanEvent.class
+│ +Filename: org/slf4j/helpers/BasicMarker.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/config/event/ConfiguredBeanEvent.class
+│ +Filename: org/slf4j/helpers/BasicMarkerFactory.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/config/event/DestroyedBeanEvent.class
+│ +Filename: org/slf4j/helpers/FormattingTuple.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/config/event/InitializedBeanEvent.class
+│ +Filename: org/slf4j/helpers/MarkerIgnoringBase.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/config/event/InstantiatedBeanEvent.class
+│ +Filename: org/slf4j/helpers/MessageFormatter.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/config/event/LoggingBeanEventListener.class
+│ +Filename: org/slf4j/helpers/NOPLogger.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/event/Event.class
+│ +Filename: org/slf4j/helpers/NOPLoggerFactory.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/event/EventBus.class
+│ +Filename: org/slf4j/helpers/NOPMDCAdapter.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/event/EventBusAware.class
+│ +Filename: org/slf4j/helpers/NamedLoggerBase.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/event/Subscribe.class
+│ +Filename: org/slf4j/helpers/SubstituteLogger.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/event/support/AnnotationEventListenerResolver.class
+│ +Filename: org/slf4j/helpers/SubstituteLoggerFactory.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/event/support/DefaultEventBus$Subscription.class
+│ +Filename: org/slf4j/helpers/Util$1.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/event/support/DefaultEventBus.class
+│ +Filename: org/slf4j/helpers/Util$ClassContextSecurityManager.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/event/support/EventClassComparator.class
+│ +Filename: org/slf4j/helpers/Util.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/event/support/EventListener.class
+│ +Filename: org/slf4j/spi/LocationAwareLogger.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/event/support/EventListenerComparator.class
+│ +Filename: org/slf4j/spi/LoggerFactoryBinder.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/event/support/EventListenerResolver.class
+│ +Filename: org/slf4j/spi/MDCAdapter.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/event/support/SingleArgumentMethodEventListener.class
+│ +Filename: org/slf4j/spi/MarkerFactoryBinder.class
+│  Comment: 
+│  
+│ -Filename: org/apache/shiro/event/support/TypedEventListener.class
+│ +Filename: META-INF/maven/org.slf4j/slf4j-api/pom.xml
+│ +Comment: 
+│ +
+│ +Filename: META-INF/maven/org.slf4j/slf4j-api/pom.properties
+│ +Comment: 
+│ +
+│ +Filename: META-INF/maven/org.apache.shiro.tools/shiro-tools-hasher/pom.properties
+│ +Comment: 
+│ +
+│ +Filename: META-INF/maven/org.apache.shiro.tools/shiro-tools-hasher/pom.xml
+│ +Comment: 
+│ +
+│ +Filename: org/apache/shiro/tools/hasher/Hasher.class
+│  Comment: 
+│  
+│  Zip file comment:
+
+# sums previous issues
+3 /        3 target/reference/shiro-all-1.10.0.jar all/target/shiro-all-1.10.0.jar
