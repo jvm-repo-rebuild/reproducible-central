@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jackson-core
+group-id=com.fasterxml.jackson.core
+artifact-id=jackson-core
+version=2.14.0-rc2
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-core.git
+source.scm.tag=jackson-core-2.14.0-rc2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=jackson-core-2.14.0-rc2.pom
+outputs.0.length=6365
+outputs.0.checksums.sha512=22ad53caee3f6c71eb12b908d8abed79598cda137c1e42af2717d85cbb55ee15bbdc30df27aebc366b418680064f6829448e2c6161988facef60d02a8a5d17b7
+
+outputs.1.filename=jackson-core-2.14.0-rc2.jar
+outputs.1.length=458060
+outputs.1.checksums.sha512=27ca269d47ab3842b642c54ec39a6f9e6cce93c4b75a850e7c849cb781e7d49eca1786ee46ad8fd693b5eed73515ca0ef6cc841e68db49b21a60daad4d5421c4
+
+outputs.2.filename=jackson-core-2.14.0-rc2-sources.jar
+outputs.2.length=496614
+outputs.2.checksums.sha512=5d1f5bdf295cbdb55e1f91efc5fb9d650630d050391e245453be431e1d10fbcf80147c449d905cfc9dac17a35350db8e3bed18f1edf8e993b28ad1011abcbb6e
+
+outputs.3.filename=jackson-core-2.14.0-rc2.module
+outputs.3.length=2522
+outputs.3.checksums.sha512=010166dcd9663e529b8ddd2ad998dc90111f5c60b189de06c0b1b854dfab92f089ff0013be6efd65ab4d965f5de271d8e086a5ad216164d2168033ac97f51996

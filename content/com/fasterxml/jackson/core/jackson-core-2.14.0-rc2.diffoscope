@@ -1,0 +1,66 @@
+1 /        2 target/reference/jackson-core-2.14.0-rc2.jar target/jackson-core-2.14.0-rc2.jar
+--- target/reference/jackson-core-2.14.0-rc2.jar
++++ target/jackson-core-2.14.0-rc2.jar
+│┄ Archive contents identical but files differ, possibly due to different compression levels. Falling back to binary comparison.
+# ???
+
+2 /        2 target/reference/jackson-core-2.14.0-rc2.module target/publications/maven/module.json
+--- target/reference/jackson-core-2.14.0-rc2.module
++++ target/publications/maven/module.json
+├── Pretty-printed
+│┄ Similarity: 0.9955357142857143%
+│┄ Differences: {"'variants'": "{0: {'files': {0: {'sha512': "
+│┄                "'27ca269d47ab3842b642c54ec39a6f9e6cce93c4b75a850e7c849cb781e7d49eca1786ee46ad8fd693b5eed73515ca0ef6cc841e68db49b21a60daad4d5421c4', "
+│┄                "'sha256': '5feded0b2be986a04b9ffb1d06c169b7e9fb5af6ca27e01c474bc5034891b14a', "
+│┄                "'sha1': '812f963cb2c1681ddaf5a7ede1e7b4691163c8eb', 'md5': "
+│┄                "'b4fb96483736f4edf4b20e52dc05a087'}}}, 1: {'files': {0: {'sha512': "
+│┄                "'27ca269d47ab3842b642c54ec39a6f9e6cce93c4 […]
+│ @@ -32,19 +32,19 @@
+│                      "version": {
+│                          "requires": "2.14.0-rc2"
+│                      }
+│                  }
+│              ],
+│              "files": [
+│                  {
+│ -                    "md5": "7e4f3729a607c062aa938beba0f95177",
+│ +                    "md5": "b4fb96483736f4edf4b20e52dc05a087",
+│                      "name": "jackson-core-2.14.0-rc2.jar",
+│ -                    "sha1": "16f52b48723470c8e8a7f8f3fe80c5093eb3e9c3",
+│ -                    "sha256": "b00a27cc7c317964dca315b865aee3b72941c7b2f49099e83d4e5110909b8092",
+│ -                    "sha512": "9abf1fb9d9a5c52a78e1be2d96836b41af47b3b1b556d8cf488559e46df61ea22dbf613a13eda843c45b7127358227a84c45555b8daf6f7f1800c51b278d8a39",
+│ +                    "sha1": "812f963cb2c1681ddaf5a7ede1e7b4691163c8eb",
+│ +                    "sha256": "5feded0b2be986a04b9ffb1d06c169b7e9fb5af6ca27e01c474bc5034891b14a",
+│ +                    "sha512": "27ca269d47ab3842b642c54ec39a6f9e6cce93c4b75a850e7c849cb781e7d49eca1786ee46ad8fd693b5eed73515ca0ef6cc841e68db49b21a60daad4d5421c4",
+│                      "size": 458060,
+│                      "url": "jackson-core-2.14.0-rc2.jar"
+│                  }
+│              ],
+│              "name": "apiElements"
+│          },
+│          {
+│ @@ -65,19 +65,19 @@
+│                      "version": {
+│                          "requires": "2.14.0-rc2"
+│                      }
+│                  }
+│              ],
+│              "files": [
+│                  {
+│ -                    "md5": "7e4f3729a607c062aa938beba0f95177",
+│ +                    "md5": "b4fb96483736f4edf4b20e52dc05a087",
+│                      "name": "jackson-core-2.14.0-rc2.jar",
+│ -                    "sha1": "16f52b48723470c8e8a7f8f3fe80c5093eb3e9c3",
+│ -                    "sha256": "b00a27cc7c317964dca315b865aee3b72941c7b2f49099e83d4e5110909b8092",
+│ -                    "sha512": "9abf1fb9d9a5c52a78e1be2d96836b41af47b3b1b556d8cf488559e46df61ea22dbf613a13eda843c45b7127358227a84c45555b8daf6f7f1800c51b278d8a39",
+│ +                    "sha1": "812f963cb2c1681ddaf5a7ede1e7b4691163c8eb",
+│ +                    "sha256": "5feded0b2be986a04b9ffb1d06c169b7e9fb5af6ca27e01c474bc5034891b14a",
+│ +                    "sha512": "27ca269d47ab3842b642c54ec39a6f9e6cce93c4b75a850e7c849cb781e7d49eca1786ee46ad8fd693b5eed73515ca0ef6cc841e68db49b21a60daad4d5421c4",
+│                      "size": 458060,
+│                      "url": "jackson-core-2.14.0-rc2.jar"
+│                  }
+│              ],
+│              "name": "runtimeElements"
+│          }
+│      ]
+
