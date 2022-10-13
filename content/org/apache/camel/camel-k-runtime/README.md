@@ -105,6 +105,7 @@ rebuilding **4 releases** of org.apache.camel.k:camel-k-runtime-project:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.15.0](https://search.maven.org/artifact/org.apache.camel.k/camel-k-runtime-project/1.15.0/pom) | | | |
 | [1.14.0](https://search.maven.org/artifact/org.apache.camel.k/camel-k-runtime-project/1.14.0/pom) | | | |
 | [1.13.0](https://search.maven.org/artifact/org.apache.camel.k/camel-k-runtime-project/1.13.0/pom) | [mvn jdk11](camel-k-runtime-1.13.0.buildspec) | [result](camel-k-runtime-project-1.13.0.buildinfo): [177 :heavy_check_mark:  22 :warning:](camel-k-runtime-project-1.13.0.buildcompare) [:mag:](camel-k-runtime-project-1.13.0.diffoscope) | 3.3M |
 | [1.12.0](https://search.maven.org/artifact/org.apache.camel.k/camel-k-runtime-project/1.12.0/pom) | [mvn jdk11](camel-k-runtime-1.12.0.buildspec) | [result](camel-k-runtime-project-1.12.0.buildinfo): [191 :heavy_check_mark:  30 :warning:](camel-k-runtime-project-1.12.0.buildcompare) [:mag:](camel-k-runtime-project-1.12.0.diffoscope) | 3.7M |

@@ -309,6 +309,7 @@ rebuilding **2 releases** of io.opentelemetry.instrumentation:opentelemetry-inst
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.19.0](https://search.maven.org/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.19.0/pom) | | | |
 | [1.18.0](https://search.maven.org/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.18.0/pom) | | | |
 | [1.17.0-alpha](https://search.maven.org/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.17.0-alpha/pom) | [gradle](opentelemetry-1.17.0-alpha.buildspec) | [result](opentelemetry-instrumentation-api-1.17.0-alpha.buildinfo): [834 :heavy_check_mark:  268 :warning:](opentelemetry-instrumentation-api-1.17.0-alpha.buildcompare) [:mag:](opentelemetry-instrumentation-api-1.17.0-alpha.diffoscope) | 56M |
 | [1.16.0-alpha](https://search.maven.org/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.16.0-alpha/pom) | | | |

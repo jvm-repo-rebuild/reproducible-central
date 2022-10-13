@@ -13,6 +13,7 @@ rebuilding **4 releases** of io.wcm:io.wcm.wcm.ui.granite:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.9.8](https://search.maven.org/artifact/io.wcm/io.wcm.wcm.ui.granite/1.9.8/pom) | | | |
 | [1.9.6](https://search.maven.org/artifact/io.wcm/io.wcm.wcm.ui.granite/1.9.6/pom) | | | |
 | [1.9.4](https://search.maven.org/artifact/io.wcm/io.wcm.wcm.ui.granite/1.9.4/pom) | | | |
 | [1.9.2](https://search.maven.org/artifact/io.wcm/io.wcm.wcm.ui.granite/1.9.2/pom) | | | |
