@@ -3,7 +3,7 @@ Reproducible Builds for Maven Central Repository
 
 This project is the [Java part](https://reproducible-builds.org/docs/jvm/) of the [Reproducible Builds](https://reproducible-builds.org/) effort:
 
-[![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
+[![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg)](https://reproducible-builds.org/) _an independently-verifiable path from source to binary code_
 
 --------------------------------------------------------------------------------------------------------------------------
 
