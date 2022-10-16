@@ -11,7 +11,7 @@ jdk=8
 newline=lf
 
 # added "test bundle:manifest" invocation to simulate the effective release process done in 2 mvn runs: see https://github.com/qos-ch/reload4j/issues/57
-command="mvn clean test bundle:manifest package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+command="mvn clean test bundle:manifest package -DskipTests"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=
