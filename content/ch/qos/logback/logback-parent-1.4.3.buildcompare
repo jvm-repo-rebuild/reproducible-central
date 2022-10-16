@@ -1,0 +1,7 @@
+version=1.4.3
+ok=16
+ko=0
+okFiles="logback-parent-1.4.3.pom logback-core-1.4.3.pom logback-core-1.4.3.jar logback-core-1.4.3-sources.jar logback-core-1.4.3-test-sources.jar logback-core-1.4.3-tests.jar logback-classic-1.4.3.pom logback-classic-1.4.3.jar logback-classic-1.4.3-sources.jar logback-classic-1.4.3-test-sources.jar logback-classic-1.4.3-tests.jar logback-access-1.4.3.pom logback-access-1.4.3.jar logback-access-1.4.3-sources.jar logback-access-1.4.3-test-sources.jar logback-access-1.4.3-tests.jar"
+koFiles=""
+reference_java_version="19 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
