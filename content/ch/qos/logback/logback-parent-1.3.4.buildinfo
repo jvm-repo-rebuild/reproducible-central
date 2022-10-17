@@ -35,8 +35,8 @@ outputs.1.0.length=5375
 outputs.1.0.checksums.sha512=0d2733170ed71faf23d9918c05156bd6ac2b5ed94dcca4d131364b8a3ff1d4c3578601bcaafd0b2d5202cd28a4a344825e9a1f7f86b807e986fd8d4410f40427
 
 outputs.1.1.filename=logback-core-1.3.4.jar
-outputs.1.1.length=563887
-outputs.1.1.checksums.sha512=f3681c4ffdef1f6d3b609c39d3eb0a9a53876173f0de034f29387e245e02a71c8f1bac458ce6c05c40f0ab5dff13c5c0b3ea2517a3468eb727c612ba9814b9f9
+outputs.1.1.length=563976
+outputs.1.1.checksums.sha512=5bd82c8639bef1d9b4722353efede06739411d6cc58d1e4366138faf33002eb329eb68734d83c8d4f36a91f4861a3c53e77bbe32cd52ca7683c678cff3136e79
 
 outputs.1.2.filename=logback-core-1.3.4-sources.jar
 outputs.1.2.length=448382
@@ -57,8 +57,8 @@ outputs.2.0.length=11683
 outputs.2.0.checksums.sha512=5fefba14f4936f936886e48cf6eadcb28fe1d6232c713929eabcd85865ecad95096a6da763cd7b24b4df430bc96a42a71321c1f581540dbe63b906cac16ee25e
 
 outputs.2.1.filename=logback-classic-1.3.4.jar
-outputs.2.1.length=260422
-outputs.2.1.checksums.sha512=d6d080cf85a9175ce57fa37aa40c121f0cbd8c47c1f827a3e1d00581ae2d6b0c559da05e2c1118d25e87f19a2316920f981d3402b98ac60e5c6acba54299a5d7
+outputs.2.1.length=260451
+outputs.2.1.checksums.sha512=e337d42efc8b88a4c6b97866b96cfb3270da4f54b90ec4d0dd6ceda4f4ce60f7f6c04f23047bdba78076d2e85f113adfdd204162f3f8714b72a3ab7b9421a751
 
 outputs.2.2.filename=logback-classic-1.3.4-sources.jar
 outputs.2.2.length=219279
@@ -69,8 +69,8 @@ outputs.2.3.length=291521
 outputs.2.3.checksums.sha512=55e934ba44fc6518feb262428fd6f8e87469b1818d63852642c45f8d5b2cd7b6a01cf6636f98097db489d553683f409f8deaf65497d5493502418d326225d91a
 
 outputs.2.4.filename=logback-classic-1.3.4-tests.jar
-outputs.2.4.length=425639
-outputs.2.4.checksums.sha512=c0ca9f06e423c0b2441ea274fb4f420e3f96db2d2145beccb5af95db5dc39a32876d51e683c6d355be95f974228997a1f6bb83cb68587dca75676c8e220b7fe0
+outputs.2.4.length=425668
+outputs.2.4.checksums.sha512=4689270638866748f57be9fc73f55efec0501229c08423010de8a21d50ac2d174e52ac17bb26289fc025dedc55a4707ae52f7bd891f3ead7c7a72c466fa55cce
 
 outputs.3.coordinates=ch.qos.logback:logback-access
 
@@ -79,8 +79,8 @@ outputs.3.0.length=5057
 outputs.3.0.checksums.sha512=50c2075ff1d49fcd47a97e8118e65368591bc2cef9411ddf7de6657912d7ec84a120e1f79cfa0894762a23ebe07e3a7f6fed912f8beae1a8be5c48d327ec084e
 
 outputs.3.1.filename=logback-access-1.3.4.jar
-outputs.3.1.length=107439
-outputs.3.1.checksums.sha512=173b8f115acaf601a2f1a6f5a8360d616043a4702c6a0a473c02b5ffa2b586e93ed99406451135ab0a852d927c726bccd1c05cc1e5b102c7340dc9e9854e3620
+outputs.3.1.length=107481
+outputs.3.1.checksums.sha512=62fb9366c4298879fe3cf73c2a1892dedcb7b159b5ce0ec276f5df9a8852beb9f614560985ce752c27f0444a42ee1382da08bd51071f801626c1baafd5ed8821
 
 outputs.3.2.filename=logback-access-1.3.4-sources.jar
 outputs.3.2.length=94383
@@ -91,5 +91,5 @@ outputs.3.3.length=30280
 outputs.3.3.checksums.sha512=cfcb1141092e62226febbfdd0e57e46ab298c7d6e8d1e6c9bd70e1aa34dd266094616c617699d729b338bc9dfae3ff156e4ac02c06536ced4a19c486384cb1d9
 
 outputs.3.4.filename=logback-access-1.3.4-tests.jar
-outputs.3.4.length=44057
-outputs.3.4.checksums.sha512=e794820a360714d8f483358ad465098f47ebfac3afa5d2f753018ff4b3314b2de8384b80abd2f1f777eed28ebbbc61a2ecfb5667beddc731e942568226dff65a
+outputs.3.4.length=44099
+outputs.3.4.checksums.sha512=39d26ca71eb9c87227d559007c6637e01dd844c88948939cdfee33c3580501b8cc6ef944250483c630c26183d889000768b8d4356b34e22ad9cc9e7f0890f970

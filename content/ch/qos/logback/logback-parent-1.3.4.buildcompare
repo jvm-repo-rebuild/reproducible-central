@@ -1,12 +1,7 @@
 version=1.3.4
-ok=11
-ko=5
-okFiles="logback-parent-1.3.4.pom logback-core-1.3.4.pom logback-core-1.3.4-sources.jar logback-core-1.3.4-test-sources.jar logback-core-1.3.4-tests.jar logback-classic-1.3.4.pom logback-classic-1.3.4-sources.jar logback-classic-1.3.4-test-sources.jar logback-access-1.3.4.pom logback-access-1.3.4-sources.jar logback-access-1.3.4-test-sources.jar"
-koFiles="logback-core-1.3.4.jar logback-classic-1.3.4.jar logback-classic-1.3.4-tests.jar logback-access-1.3.4.jar logback-access-1.3.4-tests.jar"
+ok=16
+ko=0
+okFiles="logback-parent-1.3.4.pom logback-core-1.3.4.pom logback-core-1.3.4.jar logback-core-1.3.4-sources.jar logback-core-1.3.4-test-sources.jar logback-core-1.3.4-tests.jar logback-classic-1.3.4.pom logback-classic-1.3.4.jar logback-classic-1.3.4-sources.jar logback-classic-1.3.4-test-sources.jar logback-classic-1.3.4-tests.jar logback-access-1.3.4.pom logback-access-1.3.4.jar logback-access-1.3.4-sources.jar logback-access-1.3.4-test-sources.jar logback-access-1.3.4-tests.jar"
+koFiles=""
 reference_java_version="19 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
-# diffoscope target/reference/logback-core-1.3.4.jar logback-core/target/logback-core-1.3.4.jar
-# diffoscope target/reference/logback-classic-1.3.4.jar logback-classic/target/logback-classic-1.3.4.jar
-# diffoscope target/reference/logback-classic-1.3.4-tests.jar logback-classic/target/logback-classic-1.3.4-tests.jar
-# diffoscope target/reference/logback-access-1.3.4.jar logback-access/target/logback-access-1.3.4.jar
-# diffoscope target/reference/logback-access-1.3.4-tests.jar logback-access/target/logback-access-1.3.4-tests.jar
