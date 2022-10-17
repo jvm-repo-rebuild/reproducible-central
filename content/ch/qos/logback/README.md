@@ -24,9 +24,7 @@ rebuilding **8 releases** of ch.qos.logback:logback-parent:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [1.4.4](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.4.4/pom) | [mvn jdk19](logback-1.4.4.buildspec) | [result](logback-parent-1.4.4.buildinfo): [16 :heavy_check_mark: ](logback-parent-1.4.4.buildcompare) | 3.1M |
-| [1.4.3](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.4.3/pom) | [mvn jdk19](logback-1.4.3.buildspec) | [result](logback-parent-1.4.3.buildinfo): [16 :heavy_check_mark: ](logback-parent-1.4.3.buildcompare) [:mag:](logback-parent-1.4.3.diffoscope)
-[1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/ch/qos/logback/logback-1.4.3.buildspec[0m
- | 3.1M |
+| [1.4.3](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.4.3/pom) | [mvn jdk19](logback-1.4.3.buildspec) | [result](logback-parent-1.4.3.buildinfo): [16 :heavy_check_mark: ](logback-parent-1.4.3.buildcompare) | 3.1M |
 | [1.4.2](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.4.2/pom) | | | |
 | [1.4.1](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.4.1/pom) | | | |
 | [1.4.0](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.4.0/pom) | | | |
