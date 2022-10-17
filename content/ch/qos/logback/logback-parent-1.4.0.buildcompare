@@ -1,0 +1,10 @@
+version=1.4.0
+ok=13
+ko=3
+okFiles="logback-parent-1.4.0.pom logback-core-1.4.0.pom logback-core-1.4.0-sources.jar logback-core-1.4.0-test-sources.jar logback-core-1.4.0-tests.jar logback-classic-1.4.0.pom logback-classic-1.4.0-sources.jar logback-classic-1.4.0-test-sources.jar logback-classic-1.4.0-tests.jar logback-access-1.4.0.pom logback-access-1.4.0-sources.jar logback-access-1.4.0-test-sources.jar logback-access-1.4.0-tests.jar"
+koFiles="logback-core-1.4.0.jar logback-classic-1.4.0.jar logback-access-1.4.0.jar"
+reference_java_version="18 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/logback-core-1.4.0.jar logback-core/target/logback-core-1.4.0.jar
+# diffoscope target/reference/logback-classic-1.4.0.jar logback-classic/target/logback-classic-1.4.0.jar
+# diffoscope target/reference/logback-access-1.4.0.jar logback-access/target/logback-access-1.4.0.jar
