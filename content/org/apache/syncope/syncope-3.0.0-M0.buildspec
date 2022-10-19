@@ -12,7 +12,8 @@ jdk=11
 newline=lf
 
 # [ERROR] Failed to execute goal org.apache.geronimo.genesis.plugins:tools-maven-plugin:1.4:verify-legal-files (verify-legal-files) on project syncope-client-idrepo-enduser: Artifact does not contain any legal files: syncope-client-idrepo-enduser-3.0.0-M0-sources.jar -> [Help 1]
-# missing git in Docker image
+# no idea how to avoid this failure when building...
+# (notice: using SHELL because missing git in Docker image)
 command="SHELL mvn -Papache-release clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dcargo.maven.skip -Ddocker.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
