@@ -36,6 +36,7 @@ rebuilding **6 releases** of org.apache.maven.doxia:doxia:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.0-M4](https://search.maven.org/artifact/org.apache.maven.doxia/doxia/2.0.0-M4/pom) | | | |
 | [2.0.0-M3](https://search.maven.org/artifact/org.apache.maven.doxia/doxia/2.0.0-M3/pom) | [mvn jdk8 w](doxia-2.0.0-M3.buildspec) | [result](doxia-module-markdown-2.0.0-M3.buildinfo): [33 :heavy_check_mark: ](doxia-module-markdown-2.0.0-M3.buildcompare) | 1.7M |
 | [2.0.0-M2](https://search.maven.org/artifact/org.apache.maven.doxia/doxia/2.0.0-M2/pom) | [mvn jdk8 w](doxia-2.0.0-M2.buildspec) | [result](doxia-module-markdown-2.0.0-M2.buildinfo): [33 :heavy_check_mark: ](doxia-module-markdown-2.0.0-M2.buildcompare) | 1.7M |
 | [2.0.0-M1](https://search.maven.org/artifact/org.apache.maven.doxia/doxia/2.0.0-M1/pom) | [mvn jdk8 w](doxia-2.0.0-M1.buildspec) | [result](doxia-module-markdown-2.0.0-M1.buildinfo): [33 :heavy_check_mark: ](doxia-module-markdown-2.0.0-M1.buildcompare) | 1.7M |
