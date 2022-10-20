@@ -13,6 +13,7 @@ rebuilding **3 releases** of io.wcm:io.wcm.handler.richtext:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.6.2](https://search.maven.org/artifact/io.wcm/io.wcm.handler.richtext/1.6.2/pom) | | | |
 | [1.6.0](https://search.maven.org/artifact/io.wcm/io.wcm.handler.richtext/1.6.0/pom) | | | |
 | [1.5.8](https://search.maven.org/artifact/io.wcm/io.wcm.handler.richtext/1.5.8/pom) | | | |
 | [1.5.6](https://search.maven.org/artifact/io.wcm/io.wcm.handler.richtext/1.5.6/pom) | | | |
