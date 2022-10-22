@@ -7,14 +7,10 @@ display=${groupId}:${artifactId}
 gitRepo=https://github.com/PicnicSupermarket/${artifactId}.git
 gitTag=v${version}
 
-# XXX: Once `rebuild.sh` supports the combination (tool=mvn-3.8.6, jdk=17) use
-# that, and drop `license:add-third-party@check-third-party-licenses` and
-# `-Dverification.skip` from the build command below.
-# See https://github.com/jvm-repo-rebuild/reproducible-central/issues/90.
-tool=mvn-3.8.5
+tool=mvn-3.8.6
 jdk=17
 newline=lf
 
-command="mvn -Prelease clean license:add-third-party@check-third-party-licenses package -Dverification.skip -DskipTests -Dgpg.skip"
+command="mvn -Prelease clean package -DskipTests -Dgpg.skip"
 
 buildinfo=target/${artifactId}-${version}.buildinfo
