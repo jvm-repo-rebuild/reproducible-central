@@ -11,6 +11,8 @@ summary="summary-table.md"
 echo "| [Central Repository](https://search.maven.org/) groupId | artifactId(s) | versions | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |" > ${summary}
 echo "| ----------------- | --------------- | --------- | -------- |" >> ${summary}
 prevGroupId=
+stats="stats.txt"
+echo -n > $stats
 
 for metadata in $(find content -name "maven-metadata.xml" -print | grep -v buildcache | sort)
 do
@@ -49,6 +51,7 @@ do
       diffoscope=
       issue=
       . $dir/${buildspec}
+      printf "%-9s %3d\n" ${tool} ${jdk} >> $stats
       if [ ! -f "${readme}" ]
       then
         ((countGa++))
@@ -152,19 +155,27 @@ echo "   - **${globalVersionOk}** releases are confirmed **fully reproducible** 
 echo "   - $((globalVersion - globalVersionOk)) releases are only partially reproducible (contain some unreproducible artifacts :warning:)" >> summary-intro.md
 echo >> summary-intro.md
 
+sort $stats | uniq -c > stats.md
+rm $stats
+
 lead='^<!-- BEGIN GENERATED RESULTS TABLE -->$'
 tail='^<!-- END GENERATED RESULTS TABLE -->$'
 lead_intro='^   <!-- BEGIN GENERATED INTRO -->$'
 tail_intro='^<!-- END GENERATED INTRO -->$'
+lead_stats='^<!-- BEGIN GENERATED STATS -->$'
+tail_stats='^<!-- END GENERATED STATS -->$'
 sed -e "/$lead/,/$tail/{ /$lead/{p; r summary-table.md
         }; /$tail/p; d }" README.md | \
     sed -e "/$lead_intro/,/$tail_intro/{ /$lead_intro/{p; r summary-intro.md
+        }; /$tail_intro/p; d }" | \
+    sed -e "/$lead_stats/,/$tail_stats/{ /$lead_stats/{p; r stats.md
         }; /$tail_intro/p; d }" > README.md.tmp
 
 mv README.md.tmp README.md
 
 rm summary-intro.md
 rm summary-table.md
+rm stats.md
 
 if grep "unexpected issue" README.md; then
   echo "Uh oh, found 'unexpected issue' in README.md."

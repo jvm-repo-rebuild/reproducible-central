@@ -357,3 +357,29 @@ Its objectives are to provide:
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
+
+### Tool x JDK statistics
+
+<!-- BEGIN GENERATED STATS -->
+     10 gradle     11
+     26 mvn         7
+    638 mvn         8
+      1 mvn         9
+    465 mvn        11
+      4 mvn        14
+      9 mvn        15
+     10 mvn        16
+     36 mvn        17
+      6 mvn        18
+      1 mvn        19
+      2 mvn-3.5.4   8
+      1 mvn-3.8.5   8
+      6 mvn-3.8.5  11
+      5 mvn-3.8.5  17
+     13 mvn-3.8.6   8
+      1 mvn-3.8.6  11
+      5 mvn-3.8.6  17
+      2 mvn-3.8.6  18
+      3 mvn-3.8.6  19
+      2 sbt         8
+<!-- END GENERATED STATS -->
