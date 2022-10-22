@@ -27,17 +27,21 @@ You can rebuild a project release by running:
 ```
 [`rebuild.sh` script](./rebuild.sh) will use the build specification file (= [`.buildspec` file](BUILDSPEC.md)) to choose a Docker image to rebuild the project and check output against Central Repository reference binaries.
 
+For example:
+```
+./rebuild.sh content/org/apache/maven/shared/archiver/maven-archiver-3.5.1.buildspec
+```
 
 ### 2) Contribute to a new _buildspec_
 
-If you know of a project released to Central Repository that is expected to provide Reproducible Builds, please tell us by opening an issue with details.
+If you know of a project released to Central Repository that has enabled Reproducible Builds (see [Configuring Build Tools for Reproducible Builds](https://reproducible-builds.org/docs/jvm/#configuring-build-tools-for-reproducible-builds)), please tell us by opening an issue with details.
 
 You can also choose one from our [list of projects waiting for a `.buildspec`](https://github.com/jvm-repo-rebuild/reproducible-central/labels/buildspec): follow our [instructions to write a new `.buildspec`)](BUILDSPEC.md#writing-a-new-buildspec) that you can contribute back with a PR.
 
 
 ### 3) Improve Reproducibility Score Of A Project Release
 
-If a rebuild published here is not fully reproducible (it has some :warning:), there is an issue: please help to improve the situation.
+If a rebuild published here is not fully reproducible (it still has some :warning: after having applied [Configuring Build Tools for Reproducible Builds](https://reproducible-builds.org/docs/jvm/#configuring-build-tools-for-reproducible-builds)), there is an issue: please help to improve the situation.
 
 You'll need to rebuild the release yourself (see previous instructions), then use [diffoscope](https://diffoscope.org/) :mag: to easily explore the precise difference
 between the reference file from Central Repository and the effective rebuild file, then debug up to the root cause of this unwanted difference:
