@@ -1,0 +1,7 @@
+version=0.16
+ok=4
+ko=0
+okFiles="reproducible-build-maven-plugin-0.16.pom reproducible-build-maven-plugin-0.16.jar reproducible-build-maven-plugin-0.16-sources.jar reproducible-build-maven-plugin-0.16-source-release.zip"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
