@@ -102,13 +102,34 @@ mvnBuildDocker() {
   esac
 
   # select Docker image to match required JDK version: https://hub.docker.com/_/maven
-  mvnImage=$(
-    printf "%s\n" maven:{${mvnVersion},3}-{jdk,openjdk,eclipse-temurin}-${jdk}{-alpine,-slim,} \
-      | while read image; do
-          docker manifest inspect ${image} > /dev/null 2>&1 && echo ${image}
-        done \
-      | head -n 1
-  )
+  case ${jdk} in
+    6 | 7)
+      mvnImage=maven:3.6.1-jdk-${jdk}-alpine
+      crlfDocker="yes"
+      ;;
+    8)
+      mvnImage=maven:${mvnVersion}-jdk-${jdk}-slim
+      ;;
+    9)
+      mvnImage=maven:3-jdk-${jdk}-slim
+      ;;
+    14)
+      mvnImage=maven:${mvnVersion}-jdk-${jdk}
+      ;;
+    11 | 15 | 16)
+      mvnImage=maven:${mvnVersion}-openjdk-${jdk}-slim
+      ;;
+    *)
+      mvnImage=maven:${mvnVersion}-eclipse-temurin-${jdk}-alpine
+  esac
+  if ! docker pull -q ${mvnImage} > /dev/null 2>&1; then
+    for image in maven:{${mvnVersion},3}-eclipse-temurin-${jdk}-alpine; do
+      if docker pull -q ${image} > /dev/null 2>&1; then
+        mvnImage=${image}
+        break
+      fi
+    done
+  fi
 
   echo "Rebuilding using Docker image ${mvnImage}"
   local docker_command="docker run -it --rm --name rebuild-central -v $PWD:/var/maven/app -v $base:/var/maven/.m2 -v $base/.sbt:/var/maven/.sbt -v $base/.npm:/.npm -v $base/.bnd:/.bnd -u $(id -u ${USER}):$(id -g ${USER}) -e MAVEN_CONFIG=/var/maven/.m2 -w /var/maven/app"
