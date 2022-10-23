@@ -361,6 +361,8 @@ Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/re
 
 ### Tool x JDK statistics
 
+Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK target release:
+
 <!-- BEGIN GENERATED STATS -->
      10 gradle     11
      26 mvn         7
