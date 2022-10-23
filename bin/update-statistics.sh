@@ -27,8 +27,17 @@ mvnImage() {
     6 | 7)
       mvnImage=maven:3.6.1-jdk-${jdk}-alpine
       ;;
+    8)
+      mvnImage=maven:3.6.3-jdk-${jdk}-slim
+      ;;
     9)
       mvnImage=maven:3-jdk-${jdk}-slim
+      ;;
+    14)
+      mvnImage=maven:3.6.3-jdk-${jdk}
+      ;;
+    15)
+      mvnImage=maven:3.6.3-openjdk-${jdk}
       ;;
     *)
       mvnImage=maven:3.6.3-jdk-${jdk}-slim
