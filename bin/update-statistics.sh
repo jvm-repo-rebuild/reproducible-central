@@ -23,13 +23,16 @@ mvnImage() {
   tool="$1"
   jdk="$2"
 
-case ${jdk} in
-  6 | 7)
-    mvnImage=maven:3.6.1-jdk-${jdk}-alpine
-    ;;
-  *)
-    mvnImage=maven:3.6.3-jdk-${jdk}-slim
-esac
+  case ${jdk} in
+    6 | 7)
+      mvnImage=maven:3.6.1-jdk-${jdk}-alpine
+      ;;
+    9)
+      mvnImage=maven:3-jdk-${jdk}-slim
+      ;;
+    *)
+      mvnImage=maven:3.6.3-jdk-${jdk}-slim
+  esac
 }
 
 sort tmp-tool-jdk | uniq | grep "mvn" | while read val
