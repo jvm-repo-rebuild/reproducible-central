@@ -12,6 +12,7 @@ do
   . ${buildspec}
   printf "%-9s %3d\n" ${tool} ${jdk} >> tmp-tool-jdk
   printf "%-9s %3d ${buildspec}\n" ${tool} ${jdk} >> doc/buildspecs.txt
+  [ -f $(dirname ${buildspec})/maven-metadata.xml ] || echo "no maven-metadata.xml for ${buildspec}"
 done
 
 cat tmp-tool-jdk | wc -l > doc/buildspec-stats.txt
