@@ -1,7 +1,7 @@
 groupId=org.codehaus.plexus
 artifactId=plexus-utils
 display=${groupId}:${artifactId}
-version=3.4.2
+version=3.5.0
 
 gitRepo=https://github.com/codehaus-plexus/${artifactId}.git
 gitTag=${artifactId}-${version}

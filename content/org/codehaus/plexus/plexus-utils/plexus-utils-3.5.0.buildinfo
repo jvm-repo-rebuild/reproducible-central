@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Common Utilities
+group-id=org.codehaus.plexus
+artifact-id=plexus-utils
+version=3.5.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:codehaus-plexus/plexus-utils.git
+source.scm.tag=plexus-utils-3.5.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=plexus-utils-3.5.0.pom
+outputs.0.length=8012
+outputs.0.checksums.sha512=97c75c0916ed99c1ffb52aeb8a3bd962fa04e7df11a1bf7ed4b602fa4144a30c0240ed15f08b97876538c521ef7a39ff5933b24aa4d7b69956caa33ae5697147
+
+outputs.1.filename=plexus-utils-3.5.0.jar
+outputs.1.length=267216
+outputs.1.checksums.sha512=c407b29e12379b6024e65a67bfad6f0c698fa5ddee74b03463ec8b0296e1089aadd81a5220d6e8f17bd5fb13718685744b3f168bdd56093af055e13f4e58affb
+
+outputs.2.filename=plexus-utils-3.5.0-source-release.zip
+outputs.2.length=849577
+outputs.2.checksums.sha512=2c3351b79089ef55e481b3ed136688606ebd74f02b3d591456739ccb73f1672fa9c31a24a13eff888356f73b48e804edb6c3bf5aa30a6ebedcaab1b8f44808bc
+
+outputs.3.filename=plexus-utils-3.5.0-sources.jar
+outputs.3.length=271744
+outputs.3.checksums.sha512=65b92c5176b221a1dc463e2d8125cbc6a5d406d3178bbfec928d2d6924f19b1b8525a3087d8651f371e4ab67dd3d23bdc5209175e5a034ec5a45291b8cacfb5c
