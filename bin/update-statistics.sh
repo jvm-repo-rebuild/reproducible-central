@@ -53,6 +53,9 @@ mvnImage() {
     *)
       mvnImage=maven:${mvnVersion}-openjdk-${jdk}-slim
   esac
+
+  # check image existence
+  docker manifest inspect ${mvnImage} > /dev/null 2>&1 || echo "image ${mvnImage} does not exist for $tool JDK $jdk"
 }
 
 sort tmp-tool-jdk | uniq | grep "mvn" | while read val
