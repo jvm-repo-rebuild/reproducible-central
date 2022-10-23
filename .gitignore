@@ -10,3 +10,6 @@ settings-docker.xml
 
 # ci config for local ci build
 .circleci/local-config.yml
+
+doc/buildspecs.txt
+
