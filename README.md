@@ -385,3 +385,4 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       2 mvn-3.8.6  18
       3 mvn-3.8.6  19
       2 sbt         8
+<!-- END GENERATED STATS -->

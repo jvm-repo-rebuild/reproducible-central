@@ -169,7 +169,7 @@ sed -e "/$lead/,/$tail/{ /$lead/{p; r summary-table.md
     sed -e "/$lead_intro/,/$tail_intro/{ /$lead_intro/{p; r summary-intro.md
         }; /$tail_intro/p; d }" | \
     sed -e "/$lead_stats/,/$tail_stats/{ /$lead_stats/{p; r stats.md
-        }; /$tail_intro/p; d }" > README.md.tmp
+        }; /$tail_stats/p; d }" > README.md.tmp
 
 mv README.md.tmp README.md
 
