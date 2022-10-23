@@ -1,0 +1,8 @@
+version=3.4.2
+ok=3
+ko=1
+okFiles="plexus-utils-3.4.2.pom plexus-utils-3.4.2.jar plexus-utils-3.4.2-sources.jar"
+koFiles="plexus-utils-3.4.2-source-release.zip"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/plexus-utils-3.4.2-source-release.zip target/plexus-utils-3.4.2-source-release.zip

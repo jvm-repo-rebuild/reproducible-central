@@ -1,0 +1,295 @@
+1 / 1 target/reference/plexus-utils-3.4.2-source-release.zip target/plexus-utils-3.4.2-source-release.zip
+--- target/reference/plexus-utils-3.4.2-source-release.zip
++++ target/plexus-utils-3.4.2-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 849467 bytes, number of entries: 544
+│ +Zip file size: 849479 bytes, number of entries: 544
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-17 20:30 plexus-utils-3.4.2/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-17 20:30 plexus-utils-3.4.2/.github/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-17 20:30 plexus-utils-3.4.2/.github/workflows/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-17 20:30 plexus-utils-3.4.2/jira/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-17 20:30 plexus-utils-3.4.2/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-17 20:30 plexus-utils-3.4.2/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-17 20:30 plexus-utils-3.4.2/src/main/java/
+│ @@ -84,14 +84,16 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P24/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P32/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P66/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P80/
+│ +lrwxr-xr-x  2.0 unx        9 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/symlinks/src/symDir
+│ +lrwxr-xr-x  2.0 unx       18 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/symlinks/src/symLinkToDirOnTheOutside
+│  -rw-r--r--  2.0 unx      215 b- defN 22-May-17 20:30 plexus-utils-3.4.2/.github/dependabot.yml
+│  -rw-r--r--  2.0 unx       67 b- defN 22-May-17 20:30 plexus-utils-3.4.2/.github/release-drafter.yml
+│  -rw-r--r--  2.0 unx     2131 b- defN 22-May-17 20:30 plexus-utils-3.4.2/.github/workflows/codeql-analysis.yml
+│  -rw-r--r--  2.0 unx      961 b- defN 22-May-17 20:30 plexus-utils-3.4.2/.github/workflows/maven.yml
+│  -rw-r--r--  2.0 unx      262 b- defN 22-May-17 20:30 plexus-utils-3.4.2/.github/workflows/release-drafter.yml
+│  -rw-r--r--  2.0 unx    11558 b- defN 22-May-17 20:30 plexus-utils-3.4.2/LICENSE.txt
+│  -rw-r--r--  2.0 unx      103 b- defN 22-May-17 20:30 plexus-utils-3.4.2/NOTICE.txt
+│ @@ -436,52 +438,50 @@
+│  -rw-r--r--  2.0 unx       24 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/symlinks/dirOnTheOutside/FileInDirOnTheOutside.txt
+│  -rw-r--r--  2.0 unx       32 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/symlinks/onTheOutside.txt
+│  -rw-r--r--  2.0 unx      144 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/symlinks/regen.sh
+│  -rw-r--r--  2.0 unx       28 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/symlinks/src/aRegularDir/aRegularFile.txt
+│  -rw-r--r--  2.0 unx       39 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/symlinks/src/fileR.txt
+│  -rw-r--r--  2.0 unx        7 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/symlinks/src/fileW.txt
+│  -rw-r--r--  2.0 unx        5 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/symlinks/src/fileX.txt
+│ --rw-r--r--  2.0 unx       10 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/symlinks/src/symDir
+│ --rw-r--r--  2.0 unx       19 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/symlinks/src/symLinkToDirOnTheOutside
+│ --rw-r--r--  2.0 unx       19 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/symlinks/src/symLinkToFileOnTheOutside
+│ --rw-r--r--  2.0 unx        9 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/symlinks/src/symR
+│ --rw-r--r--  2.0 unx        9 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/symlinks/src/symW
+│ --rw-r--r--  2.0 unx        9 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/symlinks/src/symX
+│ +lrw-r--r--  2.0 unx       19 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/symlinks/src/symLinkToFileOnTheOutside
+│ +lrw-r--r--  2.0 unx        9 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/symlinks/src/symR
+│ +lrw-r--r--  2.0 unx        9 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/symlinks/src/symW
+│ +lrw-r--r--  2.0 unx        9 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/symlinks/src/symX
+│  -rw-r--r--  2.0 unx       23 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/symlinks/src/targetDir/targetFile.txt
+│  -rw-r--r--  2.0 unx    13824 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/symlinks/symlinks.tar
+│  -rw-r--r--  2.0 unx     1628 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/symlinks/symlinks.zip
+│  -rw-r--r--  2.0 unx       14 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/test.txt
+│  -rw-r--r--  2.0 unx     4616 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/test.xdoc.xhtml
+│  -rw-r--r--  2.0 unx     3162 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/testDocument.xhtml
+│  -rw-r--r--  2.0 unx     4813 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xml/pom.xml
+│  -rw-r--r--  2.0 unx    61975 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xml/test-encoding-ISO-8859-1.xml
+│  -rw-r--r--  2.0 unx      162 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xml/test-entities-DOS.xml
+│ --rw-r--r--  2.0 unx      157 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xml/test-entities-UNIX.xml
+│ +-rw-r--r--  2.0 unx      162 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xml/test-entities-UNIX.xml
+│  -rw-r--r--  2.0 unx      516 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xml/test-entities-in-attr-DOS.xml
+│ --rw-r--r--  2.0 unx      508 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xml/test-entities-in-attr-UNIX.xml
+│ +-rw-r--r--  2.0 unx      516 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xml/test-entities-in-attr-UNIX.xml
+│  -rw-r--r--  2.0 unx      112 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/eduni/misc/001.xml
+│  -rw-r--r--  2.0 unx      112 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/eduni/misc/002.xml
+│  -rw-r--r--  2.0 unx      112 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/eduni/misc/003.xml
+│  -rw-r--r--  2.0 unx      112 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/eduni/misc/004.xml
+│  -rw-r--r--  2.0 unx       92 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/eduni/misc/005.xml
+│  -rw-r--r--  2.0 unx       74 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/eduni/misc/006.xml
+│  -rw-r--r--  2.0 unx       52 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/eduni/misc/007.xml
+│  -rw-r--r--  2.0 unx       86 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/eduni/misc/008.xml
+│ --rw-r--r--  2.0 unx       32 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/eduni/misc/009.xml
+│ +-rw-r--r--  2.0 unx       45 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/eduni/misc/009.xml
+│  -rw-r--r--  2.0 unx     1595 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/eduni/misc/ht-bh.xml
+│  -rw-r--r--  2.0 unx      581 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/eduni/misc/xmlconf.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n01.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n02.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n03.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n04.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n05.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n06.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n07.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n08.xml
+│ --rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n09.xml
+│ +-rw-r--r--  2.0 unx       85 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n09.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n10.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n11.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n12.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n13.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n14.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n15.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n16.xml
+│ @@ -489,15 +489,15 @@
+│  -rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n18.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n19.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n20.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n21.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n22.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n23.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n24.xml
+│ --rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n25.xml
+│ +-rw-r--r--  2.0 unx       85 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n25.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n26.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n27.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n28.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n29.xml
+│  -rw-r--r--  2.0 unx       95 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n30.xml
+│  -rw-r--r--  2.0 unx       95 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n31.xml
+│  -rw-r--r--  2.0 unx       95 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n32.xml
+│ @@ -539,8 +539,8 @@
+│  -rw-r--r--  2.0 unx      138 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P66/ibm66n15.xml
+│  -rw-r--r--  2.0 unx      189 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P80/ibm80n01.xml
+│  -rw-r--r--  2.0 unx      181 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P80/ibm80n02.xml
+│  -rw-r--r--  2.0 unx      180 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P80/ibm80n03.xml
+│  -rw-r--r--  2.0 unx      185 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P80/ibm80n04.xml
+│  -rw-r--r--  2.0 unx      185 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P80/ibm80n05.xml
+│  -rw-r--r--  2.0 unx      193 b- defN 22-May-17 20:30 plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P80/ibm80n06.xml
+│ -544 files, 3529525 bytes uncompressed, 741231 bytes compressed:  79.0%
+│ +544 files, 3529537 bytes uncompressed, 741243 bytes compressed:  79.0%
+├── zipnote {}
+│ @@ -261,14 +261,20 @@
+│  
+│  Filename: plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P66/
+│  Comment: 
+│  
+│  Filename: plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P80/
+│  Comment: 
+│  
+│ +Filename: plexus-utils-3.4.2/src/test/resources/symlinks/src/symDir
+│ +Comment: 
+│ +
+│ +Filename: plexus-utils-3.4.2/src/test/resources/symlinks/src/symLinkToDirOnTheOutside
+│ +Comment: 
+│ +
+│  Filename: plexus-utils-3.4.2/.github/dependabot.yml
+│  Comment: 
+│  
+│  Filename: plexus-utils-3.4.2/.github/release-drafter.yml
+│  Comment: 
+│  
+│  Filename: plexus-utils-3.4.2/.github/workflows/codeql-analysis.yml
+│ @@ -1317,20 +1323,14 @@
+│  
+│  Filename: plexus-utils-3.4.2/src/test/resources/symlinks/src/fileW.txt
+│  Comment: 
+│  
+│  Filename: plexus-utils-3.4.2/src/test/resources/symlinks/src/fileX.txt
+│  Comment: 
+│  
+│ -Filename: plexus-utils-3.4.2/src/test/resources/symlinks/src/symDir
+│ -Comment: 
+│ -
+│ -Filename: plexus-utils-3.4.2/src/test/resources/symlinks/src/symLinkToDirOnTheOutside
+│ -Comment: 
+│ -
+│  Filename: plexus-utils-3.4.2/src/test/resources/symlinks/src/symLinkToFileOnTheOutside
+│  Comment: 
+│  
+│  Filename: plexus-utils-3.4.2/src/test/resources/symlinks/src/symR
+│  Comment: 
+│  
+│  Filename: plexus-utils-3.4.2/src/test/resources/symlinks/src/symW
+├── plexus-utils-3.4.2/src/test/resources/symlinks/src/symDir
+│ @@ -1 +1 @@
+│ -targetDir/
+│ +targetDir
+├── plexus-utils-3.4.2/src/test/resources/symlinks/src/symLinkToDirOnTheOutside
+│ @@ -1 +1 @@
+│ -../dirOnTheOutside/
+│ +../dirOnTheOutside
+├── plexus-utils-3.4.2/src/test/resources/xml/test-entities-UNIX.xml
+│┄ Format-specific differences are supported for XML files but no file-specific differences were detected; falling back to a binary diff. file(1) reports: XML 1.0 document, ASCII text
+│ @@ -1,10 +1,11 @@
+│  00000000: 3c3f 786d 6c20 7665 7273 696f 6e3d 2231  <?xml version="1
+│  00000010: 2e30 2220 656e 636f 6469 6e67 3d22 5554  .0" encoding="UT
+│ -00000020: 462d 3822 3f3e 0a3c 2144 4f43 5459 5045  F-8"?>.<!DOCTYPE
+│ -00000030: 2064 6f63 756d 656e 7420 5b0a 3c21 454e   document [.<!EN
+│ -00000040: 5449 5459 2066 6c6f 2022 2623 7831 3539  TITY flo "&#x159
+│ -00000050: 3b22 3e0a 3c21 454e 5449 5459 206d 7943  ;">.<!ENTITY myC
+│ -00000060: 7573 746f 6d45 6e74 6974 7920 2226 666c  ustomEntity "&fl
+│ -00000070: 6f3b 223e 0a5d 3e0a 3c64 6f63 756d 656e  o;">.]>.<documen
+│ -00000080: 743e 266d 7943 7573 746f 6d45 6e74 6974  t>&myCustomEntit
+│ -00000090: 793b 3c2f 646f 6375 6d65 6e74 3e         y;</document>
+│ +00000020: 462d 3822 3f3e 0d0a 3c21 444f 4354 5950  F-8"?>..<!DOCTYP
+│ +00000030: 4520 646f 6375 6d65 6e74 205b 0d0a 3c21  E document [..<!
+│ +00000040: 454e 5449 5459 2066 6c6f 2022 2623 7831  ENTITY flo "&#x1
+│ +00000050: 3539 3b22 3e0d 0a3c 2145 4e54 4954 5920  59;">..<!ENTITY 
+│ +00000060: 6d79 4375 7374 6f6d 456e 7469 7479 2022  myCustomEntity "
+│ +00000070: 2666 6c6f 3b22 3e0d 0a5d 3e0d 0a3c 646f  &flo;">..]>..<do
+│ +00000080: 6375 6d65 6e74 3e26 6d79 4375 7374 6f6d  cument>&myCustom
+│ +00000090: 456e 7469 7479 3b3c 2f64 6f63 756d 656e  Entity;</documen
+│ +000000a0: 743e                                     t>
+├── plexus-utils-3.4.2/src/test/resources/xml/test-entities-in-attr-UNIX.xml
+│┄ Format-specific differences are supported for XML files but no file-specific differences were detected; falling back to a binary diff. file(1) reports: XML 1.0 document, ASCII text
+│ @@ -1,32 +1,33 @@
+│  00000000: 3c3f 786d 6c20 7665 7273 696f 6e3d 2231  <?xml version="1
+│  00000010: 2e30 2220 656e 636f 6469 6e67 3d22 5554  .0" encoding="UT
+│ -00000020: 462d 3822 3f3e 0a3c 2144 4f43 5459 5045  F-8"?>.<!DOCTYPE
+│ -00000030: 2064 6f63 756d 656e 7420 5b0a 3c21 454e   document [.<!EN
+│ -00000040: 5449 5459 206e 6273 7020 2020 2226 2331  TITY nbsp   "&#1
+│ -00000050: 3630 3b22 3e20 3c21 2d2d 206e 6f2d 6272  60;"> <!-- no-br
+│ -00000060: 6561 6b20 7370 6163 6520 3d20 6e6f 6e2d  eak space = non-
+│ -00000070: 6272 6561 6b69 6e67 2073 7061 6365 2c20  breaking space, 
+│ -00000080: 552b 3030 4130 2049 534f 6e75 6d20 2d2d  U+00A0 ISOnum --
+│ -00000090: 3e0a 3c21 454e 5449 5459 2041 6c70 6861  >.<!ENTITY Alpha
+│ -000000a0: 2020 2020 2226 2339 3133 3b22 3e20 3c21      "&#913;"> <!
+│ -000000b0: 2d2d 2067 7265 656b 2063 6170 6974 616c  -- greek capital
+│ -000000c0: 206c 6574 7465 7220 616c 7068 612c 2055   letter alpha, U
+│ -000000d0: 2b30 3339 3120 2d2d 3e0a 3c21 454e 5449  +0391 -->.<!ENTI
+│ -000000e0: 5459 2074 7269 7450 6f73 2020 2226 2378  TY tritPos  "&#x
+│ -000000f0: 3164 3765 643b 223e 203c 212d 2d20 4d41  1d7ed;"> <!-- MA
+│ -00000100: 5448 454d 4154 4943 414c 2053 414e 532d  THEMATICAL SANS-
+│ -00000110: 5345 5249 4620 424f 4c44 2044 4947 4954  SERIF BOLD DIGIT
+│ -00000120: 204f 4e45 202d 2d3e 0a3c 2145 4e54 4954   ONE -->.<!ENTIT
+│ -00000130: 5920 666c 6f20 2226 2378 3135 393b 223e  Y flo "&#x159;">
+│ -00000140: 0a3c 2145 4e54 4954 5920 6d79 4375 7374  .<!ENTITY myCust
+│ -00000150: 6f6d 456e 7469 7479 2022 2666 6c6f 3b22  omEntity "&flo;"
+│ -00000160: 3e0a 5d3e 0a3c 646f 6375 6d65 6e74 206e  >.]>.<document n
+│ -00000170: 616d 653d 2273 6563 7469 6f6e 206e 616d  ame="section nam
+│ -00000180: 6520 7769 7468 2065 6e74 6974 6965 733a  e with entities:
+│ -00000190: 2027 2661 6d70 3b27 2027 2641 6c70 6861   '&amp;' '&Alpha
+│ -000001a0: 3b27 2027 266c 743b 2720 2726 6e62 7370  ;' '&lt;' '&nbsp
+│ -000001b0: 3b27 2027 2667 743b 2720 2726 7472 6974  ;' '&gt;' '&trit
+│ -000001c0: 506f 733b 2720 2726 6170 6f73 3b27 2027  Pos;' '&apos;' '
+│ -000001d0: 2666 6c6f 3b27 2027 2671 756f 743b 2722  &flo;' '&quot;'"
+│ -000001e0: 3e26 6d79 4375 7374 6f6d 456e 7469 7479  >&myCustomEntity
+│ -000001f0: 3b3c 2f64 6f63 756d 656e 743e            ;</document>
+│ +00000020: 462d 3822 3f3e 0d0a 3c21 444f 4354 5950  F-8"?>..<!DOCTYP
+│ +00000030: 4520 646f 6375 6d65 6e74 205b 0d0a 3c21  E document [..<!
+│ +00000040: 454e 5449 5459 206e 6273 7020 2020 2226  ENTITY nbsp   "&
+│ +00000050: 2331 3630 3b22 3e20 3c21 2d2d 206e 6f2d  #160;"> <!-- no-
+│ +00000060: 6272 6561 6b20 7370 6163 6520 3d20 6e6f  break space = no
+│ +00000070: 6e2d 6272 6561 6b69 6e67 2073 7061 6365  n-breaking space
+│ +00000080: 2c20 552b 3030 4130 2049 534f 6e75 6d20  , U+00A0 ISOnum 
+│ +00000090: 2d2d 3e0d 0a3c 2145 4e54 4954 5920 416c  -->..<!ENTITY Al
+│ +000000a0: 7068 6120 2020 2022 2623 3931 333b 223e  pha    "&#913;">
+│ +000000b0: 203c 212d 2d20 6772 6565 6b20 6361 7069   <!-- greek capi
+│ +000000c0: 7461 6c20 6c65 7474 6572 2061 6c70 6861  tal letter alpha
+│ +000000d0: 2c20 552b 3033 3931 202d 2d3e 0d0a 3c21  , U+0391 -->..<!
+│ +000000e0: 454e 5449 5459 2074 7269 7450 6f73 2020  ENTITY tritPos  
+│ +000000f0: 2226 2378 3164 3765 643b 223e 203c 212d  "&#x1d7ed;"> <!-
+│ +00000100: 2d20 4d41 5448 454d 4154 4943 414c 2053  - MATHEMATICAL S
+│ +00000110: 414e 532d 5345 5249 4620 424f 4c44 2044  ANS-SERIF BOLD D
+│ +00000120: 4947 4954 204f 4e45 202d 2d3e 0d0a 3c21  IGIT ONE -->..<!
+│ +00000130: 454e 5449 5459 2066 6c6f 2022 2623 7831  ENTITY flo "&#x1
+│ +00000140: 3539 3b22 3e0d 0a3c 2145 4e54 4954 5920  59;">..<!ENTITY 
+│ +00000150: 6d79 4375 7374 6f6d 456e 7469 7479 2022  myCustomEntity "
+│ +00000160: 2666 6c6f 3b22 3e0d 0a5d 3e0d 0a3c 646f  &flo;">..]>..<do
+│ +00000170: 6375 6d65 6e74 206e 616d 653d 2273 6563  cument name="sec
+│ +00000180: 7469 6f6e 206e 616d 6520 7769 7468 2065  tion name with e
+│ +00000190: 6e74 6974 6965 733a 2027 2661 6d70 3b27  ntities: '&amp;'
+│ +000001a0: 2027 2641 6c70 6861 3b27 2027 266c 743b   '&Alpha;' '&lt;
+│ +000001b0: 2720 2726 6e62 7370 3b27 2027 2667 743b  ' '&nbsp;' '&gt;
+│ +000001c0: 2720 2726 7472 6974 506f 733b 2720 2726  ' '&tritPos;' '&
+│ +000001d0: 6170 6f73 3b27 2027 2666 6c6f 3b27 2027  apos;' '&flo;' '
+│ +000001e0: 2671 756f 743b 2722 3e26 6d79 4375 7374  &quot;'">&myCust
+│ +000001f0: 6f6d 456e 7469 7479 3b3c 2f64 6f63 756d  omEntity;</docum
+│ +00000200: 656e 743e                                ent>
+├── plexus-utils-3.4.2/src/test/resources/xmlconf/eduni/misc/009.xml
+│ @@ -1 +1 @@
+│ -﻿㰿硭氠敮捯摩湧㴧畴昭㠧㼾㱸⼾ഊ
+│ +﻿㰿硭氠敮捯摩湧㴧畴昭㠧㼾㱸⼾
+│ ├── encoding
+│ │ @@ -1 +1 @@
+│ │ -utf-16be
+│ │ +utf-8
+├── plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n09.xml
+│ @@ -1,6 +1,6 @@
+│ -<!DOCTYPE book [
+│ -<!ELEMENT book ANY>
+│ -]>
+│ -<!-- IllegalChar #x08
+│ - in p02:  -->
+│ -<book/>
+│ +<!DOCTYPE book [
+│ +<!ELEMENT book ANY>
+│ +]>
+│ +<!-- IllegalChar #x08
+│ + in p02:  -->
+│ +<book/>
+├── plexus-utils-3.4.2/src/test/resources/xmlconf/ibm/not-wf/P02/ibm02n25.xml
+│ @@ -1,6 +1,6 @@
+│ -<!DOCTYPE book [
+│ -<!ELEMENT book ANY>
+│ -]>
+│ -<!-- IllegalChar #x1b
+│ - in p02:  -->
+│ -<book/>
+│ +<!DOCTYPE book [
+│ +<!ELEMENT book ANY>
+│ +]>
+│ +<!-- IllegalChar #x1b
+│ + in p02:  -->
+│ +<book/>
+
