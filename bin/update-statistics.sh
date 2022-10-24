@@ -48,7 +48,7 @@ mvnImage() {
     14)
       mvnImage=maven:${mvnVersion}-jdk-${jdk}
       ;;
-    15 | 16 | 17)
+    11 | 15 | 16 | 17)
       mvnImage=maven:${mvnVersion}-openjdk-${jdk}-slim
       ;;
     *)
@@ -56,7 +56,8 @@ mvnImage() {
   esac
 
   # check image existence
-  docker manifest inspect ${mvnImage} > /dev/null 2>&1 || echo "image ${mvnImage} does not exist for $tool JDK $jdk"
+  echo -n -e "checking image ${mvnImage}                     \r"
+  docker inspect ${mvnImage} > /dev/null 2>&1 || echo "image ${mvnImage} does not exist for $tool JDK $jdk"
 }
 
 sort tmp-tool-jdk | uniq | grep "mvn" | while read val
