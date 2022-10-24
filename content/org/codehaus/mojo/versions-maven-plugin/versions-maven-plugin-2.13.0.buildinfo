@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Versions Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=versions-maven-plugin
+version=2.13.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/versions-maven-plugin.git
+source.scm.tag=2.13.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.filename=versions-maven-plugin-2.13.0.pom
+outputs.0.length=15898
+outputs.0.checksums.sha512=88661aa53092b9de2d3f66cedb9503f6aebf0884136ab6159c5d0207afd89513f81e3cb2ed9ed745856996fb114df234eca5317105eeba1140acd0cacd6a0859
+
+outputs.1.filename=versions-maven-plugin-2.13.0.jar
+outputs.1.length=416203
+outputs.1.checksums.sha512=6464c92cfdf76dcdfee0f5538b54abe5e16e72d0c5696e57c0b130b4e4a22fed985e401ab9cfd7de4e65c347074df852b3355fd9142e7f6705a628e588653c5d
+
+outputs.2.filename=versions-maven-plugin-2.13.0-source-release.zip
+outputs.2.length=928952
+outputs.2.checksums.sha512=d7ae46b70ef13ad8141363d699f1b479550bd573e3e1af7c25ac0ee14ce81082ad79f8fee68e88045699b4dd12a523a8623fdecaf4097328b60ac8ead64de31f
+
+outputs.3.filename=versions-maven-plugin-2.13.0-sources.jar
+outputs.3.length=279516
+outputs.3.checksums.sha512=73b3af248ae842dde84e137d10aeb99e1437c62a1b7327a663dccaaf5ff2418c62d38f09ce0d614e74637cbaf2463447e1d7e8fe615329aa00298e94a774c01e
