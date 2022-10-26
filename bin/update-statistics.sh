@@ -7,6 +7,7 @@ echo -n > doc/buildspecs.txt
 
 tool=mvn
 
+echo -n -e "extracting tool+jdk from all .buildspec...\r"
 for buildspec in $(find content -name "*.buildspec" -print)
 do
   . ${buildspec}
@@ -57,14 +58,16 @@ mvnImage() {
 
   # check image existence
   echo -n -e "checking image ${mvnImage}                     \r"
-  docker inspect ${mvnImage} > /dev/null 2>&1 || echo "image ${mvnImage} does not exist for $tool JDK $jdk"
+  docker pull -q ${mvnImage} > /dev/null 2>&1 || echo "image ${mvnImage} does not exist for $tool JDK $jdk, see https://hub.docker.com/_/maven/tags?name=$(echo "${mvnImage}" | cut -c 7-)"
 }
 
+echo "checking Docker images existence for mvn* tool on each jdk"
 sort tmp-tool-jdk | uniq | grep "mvn" | while read val
 do
   mvnImage $val
   echo "$val $mvnImage" >> doc/buildspec-stats.txt
 done
+echo
 
 rm tmp-tool-jdk
 cat doc/buildspec-stats.txt
