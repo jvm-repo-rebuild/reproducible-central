@@ -1,0 +1,7 @@
+version=3.4.1
+ok=4
+ko=0
+okFiles="maven-shade-plugin-3.4.1.pom maven-shade-plugin-3.4.1.jar maven-shade-plugin-3.4.1-source-release.zip maven-shade-plugin-3.4.1-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
