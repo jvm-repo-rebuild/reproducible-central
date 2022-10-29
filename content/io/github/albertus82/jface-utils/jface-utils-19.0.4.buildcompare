@@ -1,0 +1,7 @@
+version=19.0.4
+ok=3
+ko=0
+okFiles="jface-utils-19.0.4.pom jface-utils-19.0.4.jar jface-utils-19.0.4-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

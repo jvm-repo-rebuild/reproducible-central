@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JFaceUtils
+group-id=io.github.albertus82
+artifact-id=jface-utils
+version=19.0.4
+
+# source information
+source.scm.uri=scm:git:https://github.com/albertus82/jface-utils.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=jface-utils-19.0.4.pom
+outputs.0.length=7148
+outputs.0.checksums.sha512=95f027379e15f939a4d6764840acc6bab4ab1340632901128754f4846b9ab1c5c1aeea19748b8514d781f6aab49c8236530e2702945db384677f2c276c32e85d
+
+outputs.1.filename=jface-utils-19.0.4.jar
+outputs.1.length=518953
+outputs.1.checksums.sha512=4668a81a7e91cd9762370dd291c98d3a712d1041f33fb843229973611bc3bf68f6db42f00d7f287d3f8aec1f4969aefc5723a70ba7ee1bab898f92c22f9cefef
+
+outputs.2.filename=jface-utils-19.0.4-sources.jar
+outputs.2.length=268530
+outputs.2.checksums.sha512=a88a189d7d0a2d380f60d3191cfd9798f0843534452a5e026c4a7d1b2ab13e0b5ecf94ead11b0d1fa94feb14136ddd51e6a92195b872165602840dc130250e2c
