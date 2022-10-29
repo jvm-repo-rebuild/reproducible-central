@@ -46,13 +46,13 @@ Source code: [https://github.com/apache/maven-scm.git](https://github.com/apache
 * [org.apache.maven.scm:maven-scm-test](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-test/)
 </details>
 
-rebuilding **6 releases** of org.apache.maven.scm:maven-scm:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **7 releases** of org.apache.maven.scm:maven-scm:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.0.0-M3](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/2.0.0-M3/pom) | | | |
+| [2.0.0-M3](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/2.0.0-M3/pom) | [mvn jdk8 w](maven-scm-2.0.0-M3.buildspec) | [result](maven-scm-2.0.0-M3.buildinfo): [55 :heavy_check_mark: ](maven-scm-2.0.0-M3.buildcompare) | 7.6M |
 | [2.0.0-M2](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/2.0.0-M2/pom) | [mvn jdk8 w](maven-scm-2.0.0-M2.buildspec) | [result](maven-scm-2.0.0-M2.buildinfo): [55 :heavy_check_mark: ](maven-scm-2.0.0-M2.buildcompare) | 7.6M |
 | [2.0.0-M1](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/2.0.0-M1/pom) | [mvn jdk8 w](maven-scm-2.0.0-M1.buildspec) | [result](maven-scm-2.0.0-M1.buildinfo): [55 :heavy_check_mark: ](maven-scm-2.0.0-M1.buildcompare) | 4.3M |
 | [1.13.0](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/1.13.0/pom) | [mvn jdk8 w](maven-scm-1.13.0.buildspec) | [result](maven-scm-1.13.0.buildinfo): [99 :heavy_check_mark: ](maven-scm-1.13.0.buildcompare) | 9.3M |

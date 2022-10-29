@@ -56,6 +56,7 @@ rebuilding **27 releases** of net.sourceforge.pmd:pmd:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [6.51.0](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/6.51.0/pom) | | | |
 | [6.50.0](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/6.50.0/pom) | [mvn jdk11](pmd-6.50.0.buildspec) | [result](pmd-6.50.0.buildinfo): [109 :heavy_check_mark: ](pmd-6.50.0.buildcompare) | 17M |
 | [6.49.0](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/6.49.0/pom) | [mvn jdk11](pmd-6.49.0.buildspec) | [result](pmd-6.49.0.buildinfo): [109 :heavy_check_mark: ](pmd-6.49.0.buildcompare) | 17M |
 | [6.48.0](https://search.maven.org/artifact/net.sourceforge.pmd/pmd/6.48.0/pom) | [mvn jdk11](pmd-6.48.0.buildspec) | [result](pmd-6.48.0.buildinfo): [109 :heavy_check_mark: ](pmd-6.48.0.buildcompare) | 17M |
