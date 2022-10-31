@@ -95,6 +95,7 @@ rebuilding **2 releases** of org.apache.syncope:syncope:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.0-M2](https://search.maven.org/artifact/org.apache.syncope/syncope/3.0.0-M2/pom) | | | |
 | [3.0.0-M1](https://search.maven.org/artifact/org.apache.syncope/syncope/3.0.0-M1/pom) | | | |
 | [3.0.0-M0](https://search.maven.org/artifact/org.apache.syncope/syncope/3.0.0-M0/pom) | [mvn jdk11](syncope-3.0.0-M0.buildspec) | :x: |  |
 | [2.1.12](https://search.maven.org/artifact/org.apache.syncope/syncope/2.1.12/pom) | [mvn jdk8](syncope-2.1.12.buildspec) | [result](syncope-2.1.12.buildinfo): [198 :heavy_check_mark:  13 :warning:](syncope-2.1.12.buildcompare) [:mag:](syncope-2.1.12.diffoscope) | 154M |
