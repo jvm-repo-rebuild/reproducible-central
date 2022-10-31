@@ -1,9 +1,21 @@
+# why is file timestamp changed from "80-Feb-01 08:00" to "80-Feb-01 00:00"?
+# and issue with non-reproducible module-info.class timestamp
 1 /        2 target/reference/jackson-annotations-2.14.0-rc2.jar target/jackson-annotations-2.14.0-rc2.jar
 --- target/reference/jackson-annotations-2.14.0-rc2.jar
 +++ target/jackson-annotations-2.14.0-rc2.jar
-│┄ Archive contents identical but files differ, possibly due to different compression levels. Falling back to binary comparison.
-# ???
-# probably caused by moditect-maven-plugin:1.0.0.RC2:add-module-info
+├── zipinfo {}
+│ @@ -1,87 +1,87 @@
+│  Zip file size: 76104 bytes, number of entries: 85
+│ --rw----     2.0 fat        0 bX defN 80-Feb-01 08:00 META-INF/
+│ --rw----     2.0 fat      999 bX defN 80-Feb-01 08:00 META-INF/MANIFEST.MF
+│
+...
+│ --rw----     2.0 fat      194 bx defN 22-Oct-10 23:22 module-info.class
+│ +-rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ +-rw----     2.0 fat      999 bX defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+...
+│ +-rw----     2.0 fat      194 bx defN 22-Oct-31 07:50 module-info.class
+│  85 files, 138198 bytes uncompressed, 58648 bytes compressed:  57.6%
 
 # module.json difference is just a consequence of previous issue on .jar
 2 /        2 target/reference/jackson-annotations-2.14.0-rc2.module target/publications/maven/module.json
