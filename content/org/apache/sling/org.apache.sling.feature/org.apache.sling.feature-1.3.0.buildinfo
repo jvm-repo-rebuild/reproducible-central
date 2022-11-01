@@ -1,0 +1,46 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Feature Model
+group-id=org.apache.sling
+artifact-id=org.apache.sling.feature
+version=1.3.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-feature.git
+source.scm.tag=org.apache.sling.feature-1.3.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.feature-1.3.0.pom
+outputs.0.length=6563
+outputs.0.checksums.sha512=c1468f8c399a79c1150ca738d387bdb91073a81bcf5e3b8082cf6108c330d39099c0d73d76737596c54286d4211fcd33b2a8484c48a77c758e88a8516f10284c
+
+outputs.1.filename=org.apache.sling.feature-1.3.0.jar
+outputs.1.length=210154
+outputs.1.checksums.sha512=5bb96a06903877a92f7d573a265a002184c52a5cbcc0bb540a5a2892509f57eac0d6d20d8405f75540fff64698efc4e6c4f21d9e59e0904fb0439ea5a86cdca5
+
+outputs.2.filename=org.apache.sling.feature-1.3.0-source-release.zip
+outputs.2.length=973791
+outputs.2.checksums.sha512=1525ee156ee054b74699e4a172461273f49b1dc48f71c70811bccb5508269e25a79f8d3fa7eee6e9c161abf8cc49d921a442c3202fe4bbb8a822bacff3cde265
+
+outputs.3.filename=org.apache.sling.feature-1.3.0-sources.jar
+outputs.3.length=107872
+outputs.3.checksums.sha512=dc7fc679d213e95ce9f36c1d1dfbfcd0afff438930dc059d06ee15e40efa951dad529e0127d13ab73ee6613e141bffe0355f54a2f11639b5f52793fee0dc6ba2
+
+outputs.4.filename=org.apache.sling.feature-1.3.0-sources.jar
+outputs.4.length=107872
+outputs.4.checksums.sha512=dc7fc679d213e95ce9f36c1d1dfbfcd0afff438930dc059d06ee15e40efa951dad529e0127d13ab73ee6613e141bffe0355f54a2f11639b5f52793fee0dc6ba2
+
+outputs.5.filename=org.apache.sling.feature-1.3.0-sources.jar
+outputs.5.length=107872
+outputs.5.checksums.sha512=dc7fc679d213e95ce9f36c1d1dfbfcd0afff438930dc059d06ee15e40efa951dad529e0127d13ab73ee6613e141bffe0355f54a2f11639b5f52793fee0dc6ba2
