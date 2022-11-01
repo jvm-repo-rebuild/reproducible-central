@@ -38,6 +38,7 @@ rebuilding **3 releases** of org.apache.accumulo:accumulo:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.1.0](https://search.maven.org/artifact/org.apache.accumulo/accumulo/2.1.0/pom) | | | |
 | [2.0.1](https://search.maven.org/artifact/org.apache.accumulo/accumulo/2.0.1/pom) | | | |
 | [2.0.0](https://search.maven.org/artifact/org.apache.accumulo/accumulo/2.0.0/pom) | | | |
 | [2.0.0-alpha-2](https://search.maven.org/artifact/org.apache.accumulo/accumulo/2.0.0-alpha-2/pom) | | | |
