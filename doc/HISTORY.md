@@ -101,7 +101,7 @@ For each project, an `analyze.sh` script is written to detect the key environmen
   Notice: __multi-module Maven build__ (root artifactId = `jansi-project`, modules = `jansi` & `example`, groupId = [`org.fusesource.jansi`](https://repo.maven.apache.org/maven2/org/fusesource/jansi/))\
   See [results](https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/org/fusesource/jansi/jansi-project)\
   __Learning__: For future automation, it's more convenient to place rebuild instructions on root artifact and let modules point to the root
-  (and ignore the fact that the useul artifact is jansi and the git repository name jansi.git is the id of a module instead of the root artifactId):
+  (and ignore the fact that the useful artifact is jansi and the git repository name jansi.git is the id of a module instead of the root artifactId):
   this will permit a Maven plugin to automatically adapt buildinfo format in root vs modules
 
 - [Maven (core)](https://maven.apache.org/ref/) = `org.apache.maven:`[`apache-maven:2.0.10+`](https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/)\

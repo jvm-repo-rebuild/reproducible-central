@@ -9,7 +9,7 @@ equivalent to the packaging instructions that are maintained by every Linux dist
 
 ## Reproducible journey
 
-If you want to start playing with the replayable builds, we recommend the following steps.
+If you want to start playing with the reproducible builds, we recommend the following steps.
 
 ### 1) Rebuild Yourself To Check Results
 
