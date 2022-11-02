@@ -23,6 +23,7 @@ rebuilding **3 releases** of org.apache.maven.plugins:maven-release-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.0-M7](https://search.maven.org/artifact/org.apache.maven.plugins/maven-release-plugin/3.0.0-M7/pom) | | | |
 | [3.0.0-M6](https://search.maven.org/artifact/org.apache.maven.plugins/maven-release-plugin/3.0.0-M6/pom) | [mvn jdk8](maven-release-plugin-3.0.0-M6.buildspec) | [result](maven-release-3.0.0-M6.buildinfo): [18 :heavy_check_mark: ](maven-release-3.0.0-M6.buildcompare) | 2.4M |
 | [3.0.0-M5](https://search.maven.org/artifact/org.apache.maven.plugins/maven-release-plugin/3.0.0-M5/pom) | [mvn jdk8 w](maven-release-plugin-3.0.0-M5.buildspec) | [result](maven-release-3.0.0-M5.buildinfo): [18 :heavy_check_mark: ](maven-release-3.0.0-M5.buildcompare) | 2.4M |
 | [3.0.0-M4](https://search.maven.org/artifact/org.apache.maven.plugins/maven-release-plugin/3.0.0-M4/pom) | [mvn jdk8 w](maven-release-plugin-3.0.0-M4.buildspec) | [result](maven-release-3.0.0-M4.buildinfo): [18 :heavy_check_mark: ](maven-release-3.0.0-M4.buildcompare) | 2.4M |

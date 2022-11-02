@@ -309,6 +309,7 @@ rebuilding **2 releases** of io.opentelemetry.instrumentation:opentelemetry-inst
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.19.2](https://search.maven.org/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.19.2/pom) | | | |
 | [1.19.1](https://search.maven.org/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.19.1/pom) | | | |
 | [1.19.0](https://search.maven.org/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.19.0/pom) | | | |
 | [1.18.0](https://search.maven.org/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.18.0/pom) | | | |
