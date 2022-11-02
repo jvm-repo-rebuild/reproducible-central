@@ -1,0 +1,7 @@
+version=0.46
+ok=3
+ko=0
+okFiles="webjars-locator-0.46.pom webjars-locator-0.46.jar webjars-locator-0.46-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
