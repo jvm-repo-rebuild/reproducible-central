@@ -7,15 +7,19 @@
 
 Source code: [https://github.com/apache/accumulo.git](https://github.com/apache/accumulo.git)
 
-<details><summary>This project defines 21 modules:</summary>
+<details><summary>This project defines 25 modules:</summary>
 
 * [org.apache.accumulo:accumulo](https://search.maven.org/artifact/org.apache.accumulo/accumulo/)
+* [org.apache.accumulo:accumulo-compaction-coordinator](https://search.maven.org/artifact/org.apache.accumulo/accumulo-compaction-coordinator/)
+* [org.apache.accumulo:accumulo-compactor](https://search.maven.org/artifact/org.apache.accumulo/accumulo-compactor/)
 * [org.apache.accumulo:accumulo-core](https://search.maven.org/artifact/org.apache.accumulo/accumulo-core/)
 * [org.apache.accumulo:accumulo-docs](https://search.maven.org/artifact/org.apache.accumulo/accumulo-docs/)
 * [org.apache.accumulo:accumulo-examples-simple](https://search.maven.org/artifact/org.apache.accumulo/accumulo-examples-simple/)
 * [org.apache.accumulo:accumulo-fate](https://search.maven.org/artifact/org.apache.accumulo/accumulo-fate/)
 * [org.apache.accumulo:accumulo-gc](https://search.maven.org/artifact/org.apache.accumulo/accumulo-gc/)
+* [org.apache.accumulo:accumulo-hadoop-mapreduce](https://search.maven.org/artifact/org.apache.accumulo/accumulo-hadoop-mapreduce/)
 * [org.apache.accumulo:accumulo-iterator-test-harness](https://search.maven.org/artifact/org.apache.accumulo/accumulo-iterator-test-harness/)
+* [org.apache.accumulo:accumulo-manager](https://search.maven.org/artifact/org.apache.accumulo/accumulo-manager/)
 * [org.apache.accumulo:accumulo-master](https://search.maven.org/artifact/org.apache.accumulo/accumulo-master/)
 * [org.apache.accumulo:accumulo-maven-plugin](https://search.maven.org/artifact/org.apache.accumulo/accumulo-maven-plugin/)
 * [org.apache.accumulo:accumulo-minicluster](https://search.maven.org/artifact/org.apache.accumulo/accumulo-minicluster/)
@@ -32,13 +36,13 @@ Source code: [https://github.com/apache/accumulo.git](https://github.com/apache/
 * [org.apache.accumulo:accumulo-tserver](https://search.maven.org/artifact/org.apache.accumulo/accumulo-tserver/)
 </details>
 
-rebuilding **3 releases** of org.apache.accumulo:accumulo:
+rebuilding **4 releases** of org.apache.accumulo:accumulo:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.1.0](https://search.maven.org/artifact/org.apache.accumulo/accumulo/2.1.0/pom) | | | |
+| [2.1.0](https://search.maven.org/artifact/org.apache.accumulo/accumulo/2.1.0/pom) | [mvn jdk11](accumulo-2.1.0.buildspec) | [result](accumulo-project-2.1.0.buildinfo): [48 :heavy_check_mark:  2 :warning:](accumulo-project-2.1.0.buildcompare) [:mag:](accumulo-project-2.1.0.diffoscope) | 30M |
 | [2.0.1](https://search.maven.org/artifact/org.apache.accumulo/accumulo/2.0.1/pom) | | | |
 | [2.0.0](https://search.maven.org/artifact/org.apache.accumulo/accumulo/2.0.0/pom) | | | |
 | [2.0.0-alpha-2](https://search.maven.org/artifact/org.apache.accumulo/accumulo/2.0.0-alpha-2/pom) | | | |
