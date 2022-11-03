@@ -1,0 +1,175 @@
+1 /        2 target/reference/accumulo-2.1.0-src.tar.gz target/accumulo-2.1.0-source-release.tar.gz
+--- target/reference/accumulo-2.1.0-src.tar.gz
++++ target/accumulo-2.1.0-source-release.tar.gz
+│   --- accumulo-2.1.0-src.tar
+├── +++ accumulo-2.1.0-source-release.tar
+│ ├── file list
+│ │ @@ -1,3229 +1,3229 @@
+│ │ -drwxr-xr-x   0 christopher  (1000) christopher  (1000)        0 2022-10-27 05:45:33.000000 accumulo-2.1.0/
+│ │ -drwxr-xr-x   0 christopher  (1000) christopher  (1000)        0 2022-10-27 05:45:31.000000 accumulo-2.1.0/.github/
+...
+│ │ --rw-r--r--   0 christopher  (1000) christopher  (1000)     8719 2022-10-27 05:45:31.000000 accumulo-2.1.0/test/src/test/java/org/apache/accumulo/test/util/CertUtilsTest.java
+│ │ --rwxr-xr-x   0 christopher  (1000) christopher  (1000)     1728 2022-10-27 05:45:31.000000 accumulo-2.1.0/test/src/test/scripts/run-test.sh
+│ │ +drwxr-xr-x   0 hboutemy   (501) staff       (20)        0 2022-11-03 06:24:01.000000 accumulo-2.1.0/
+│ │ +drwxr-xr-x   0 hboutemy   (501) staff       (20)        0 2022-11-03 06:18:23.000000 accumulo-2.1.0/core/
+...
+│ │ +-rw-r--r--   0 hboutemy   (501) staff       (20)     2434 2022-11-02 23:37:51.000000 accumulo-2.1.0/iterator-test-harness/src/main/java/org/apache/accumulo/iteratortest/testcases/DeepCopyTestCase.java
+│ │ +-rw-r--r--   0 hboutemy   (501) staff       (20)     1677 2022-11-02 23:37:51.000000 accumulo-2.1.0/src/site/site.xml
+
+2 /        2 target/reference/accumulo-2.1.0-bin.tar.gz assemble/target/accumulo-2.1.0-bin.tar.gz
+--- target/reference/accumulo-2.1.0-bin.tar.gz
++++ assemble/target/accumulo-2.1.0-bin.tar.gz
+├── accumulo-2.1.0-bin.tar
+│ ├── file list
+│ │ @@ -5,106 +5,24 @@
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     4954 2022-10-27 05:44:26.000000 accumulo-2.1.0/bin/accumulo-util
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2022-10-27 05:44:26.000000 accumulo-2.1.0/conf/
+│ │  -rw-r--r--   0 root         (0) root         (0)     6093 2022-10-27 05:44:26.000000 accumulo-2.1.0/conf/accumulo-env.sh
+│ │  -rw-r--r--   0 root         (0) root         (0)     1351 2022-10-27 05:44:26.000000 accumulo-2.1.0/conf/accumulo.properties
+│ │  -rw-r--r--   0 root         (0) root         (0)     3512 2022-10-27 05:44:26.000000 accumulo-2.1.0/conf/log4j2-service.properties
+│ │  -rw-r--r--   0 root         (0) root         (0)     1502 2022-10-27 05:44:26.000000 accumulo-2.1.0/conf/log4j2.properties
+│ │  -rw-r--r--   0 root         (0) root         (0)     3874 2022-10-27 05:44:26.000000 accumulo-2.1.0/conf/accumulo-client.properties
+│ │ --rw-r--r--   0 root         (0) root         (0)     1808 2022-10-27 05:44:26.000000 accumulo-2.1.0/conf/jshell-init.jsh
+│ │ +-rw-r--r--   0 root         (0) root         (0)      841 2022-10-27 05:44:26.000000 accumulo-2.1.0/conf/jshell-init.jsh
+│ │  -rw-r--r--   0 root         (0) root         (0)     5030 2022-10-27 05:44:26.000000 accumulo-2.1.0/README.md
+│ │  -rw-r--r--   0 root         (0) root         (0)    53220 2022-10-27 05:44:26.000000 accumulo-2.1.0/LICENSE
+│ │  -rw-r--r--   0 root         (0) root         (0)     2663 2022-10-27 05:44:26.000000 accumulo-2.1.0/NOTICE
+│ │ --rw-r--r--   0 root         (0) root         (0)    88407 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jcommander-1.82.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    67815 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/classmate-1.5.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    75717 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jackson-annotations-2.13.4.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   374895 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jackson-core-2.13.4.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1531681 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jackson-databind-2.13.4.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    31296 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jackson-jakarta-rs-base-2.13.4.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    15641 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jackson-jakarta-rs-json-provider-2.13.4.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    31652 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jackson-module-jakarta-xmlbind-annotations-2.13.4.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   745492 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/caffeine-3.1.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   265030 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/gson-2.9.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)     4617 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/failureaccess-1.0.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  2959479 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/guava-31.1-jre.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1671418 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/protobuf-java-3.21.7.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    84626 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/disruptor-3.4.4.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    26147 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/istack-commons-runtime-4.1.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    58284 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/commons-cli-1.5.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   353793 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/commons-codec-1.15.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   327135 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/commons-io-2.11.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    61829 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/commons-logging-1.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   658036 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/micrometer-core-1.9.5.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   127675 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/opentelemetry-api-1.19.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    45617 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/opentelemetry-context-1.19.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    32067 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/opentelemetry-semconv-1.19.0-alpha.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    47824 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jakarta.activation-api-2.0.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    25414 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jakarta.annotation-api-2.0.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    80563 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jakarta.el-api-4.0.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    10128 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jakarta.inject-api-2.0.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   307850 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jakarta.servlet-api-5.0.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    92678 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jakarta.validation-api-3.0.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   138761 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jakarta.ws.rs-api-3.0.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   128941 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jakarta.xml.bind-api-3.0.1.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    44020 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/accumulo-compaction-coordinator-2.1.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    34529 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/accumulo-compactor-2.1.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)  7043283 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/accumulo-core-2.1.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    57655 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/accumulo-gc-2.1.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   121096 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/accumulo-hadoop-mapreduce-2.1.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   372524 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/accumulo-manager-2.1.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    87112 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/accumulo-minicluster-2.1.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   740848 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/accumulo-monitor-2.1.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    13497 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/accumulo-native-2.1.0.tar.gz
+│ │  -rw-r--r--   0 root         (0) root         (0)   787483 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/accumulo-server-base-2.1.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   291900 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/accumulo-shell-2.1.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    52929 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/accumulo-start-2.1.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   613126 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/accumulo-tserver-2.1.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   751914 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/commons-collections4-4.4.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   632505 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/commons-configuration2-2.8.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   587402 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/commons-lang3-3.12.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  2213560 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/commons-math3-3.6.1.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   238400 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/commons-text-1.10.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   529136 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/commons-vfs2-2.9.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   832024 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/datasketches-java-3.3.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1502280 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/htrace-core4-4.1.0-incubating.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   348997 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/log4j-1.2-api-2.19.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   317566 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/log4j-api-2.19.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1864386 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/log4j-core-2.19.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    13332 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/log4j-jcl-2.19.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    31044 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/log4j-jul-2.19.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    27721 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/log4j-slf4j2-impl-2.19.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    36176 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/log4j-web-2.19.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   353816 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/libthrift-0.17.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   249202 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jetty-http-11.0.12.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   216195 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jetty-io-11.0.12.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   121067 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jetty-security-11.0.12.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   795327 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jetty-server-11.0.12.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   165933 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jetty-servlet-11.0.12.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   566410 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jetty-util-11.0.12.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1715750 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/freemarker-2.3.31.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   173677 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jakarta.el-4.0.2.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   201467 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/hk2-api-3.0.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   203950 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/hk2-locator-3.0.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   131796 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/hk2-utils-3.0.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   140703 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jaxb-core-4.0.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   918392 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jaxb-runtime-4.0.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    74257 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/txw2-4.0.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    50568 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jersey-container-jetty-http-3.0.8.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    32369 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jersey-container-servlet-3.0.8.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    73405 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jersey-container-servlet-core-3.0.8.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   267454 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jersey-client-3.0.8.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1204842 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jersey-common-3.0.8.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   956410 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jersey-server-3.0.8.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    59696 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jersey-bean-validation-3.0.8.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    84046 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jersey-entity-filtering-3.0.8.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    53937 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jersey-mvc-3.0.8.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    23954 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jersey-mvc-freemarker-3.0.8.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    78984 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jersey-hk2-3.0.8.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    95649 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jersey-media-jaxb-3.0.8.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    80130 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jersey-media-json-jackson-3.0.8.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   173763 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/HdrHistogram-2.1.12.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)  1328694 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/hibernate-validator-7.0.5.Final.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   794137 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/javassist-3.29.2-GA.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    62562 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jboss-logging-3.5.0.Final.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   994664 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/jline-3.21.0.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    29779 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/LatencyUtils-2.0.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    61409 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/slf4j-api-2.0.3.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   331715 2022-10-27 05:44:26.000000 accumulo-2.1.0/lib/snakeyaml-1.33.jar
+│ ├── accumulo-2.1.0/conf/jshell-init.jsh
+│ │ @@ -1,36 +1,21 @@
+│ │  // Accumulo Client API
+│ │ -import org.apache.accumulo.core.client.*;
+│ │ -import org.apache.accumulo.core.client.admin.*;
+│ │ -import org.apache.accumulo.core.client.admin.compaction.*;
+│ │ -import org.apache.accumulo.core.client.lexicoder.*;
+│ │ -import org.apache.accumulo.core.client.mapred.*;
+│ │ -import org.apache.accumulo.core.client.mapreduce.*;
+│ │ -import org.apache.accumulo.core.client.mapreduce.lib.partition.*;
+│ │ -import org.apache.accumulo.core.client.replication.*;
+│ │ -import org.apache.accumulo.core.client.rfile.*;
+│ │ -import org.apache.accumulo.core.client.sample.*;
+│ │ -import org.apache.accumulo.core.client.security.*;
+│ │ -import org.apache.accumulo.core.client.security.tokens.*;
+│ │ -import org.apache.accumulo.core.client.summary.*;
+│ │ -import org.apache.accumulo.core.client.summary.summarizers.*;
+│ │ +import .*;
+│ │  
+│ │  // Accumulo Data API
+│ │ -import org.apache.accumulo.core.data.*;
+│ │ -import org.apache.accumulo.core.data.constraints.*;
+│ │ +import .*;
+│ │  
+│ │  // Accumulo Security API
+│ │ -import org.apache.accumulo.core.security.*;
+│ │ +import .*;
+│ │  
+│ │  // Accumulo MiniCluster API
+│ │ -import org.apache.accumulo.minicluster.*;
+│ │ +import .*;
+│ │  
+│ │  // Accumulo Hadoop API
+│ │ -import org.apache.accumulo.hadoop.mapreduce.*;
+│ │ -import org.apache.accumulo.hadoop.mapreduce.partition.*;
+│ │ +import .*;
+│ │  
+│ │  // Essential Hadoop API
+│ │  import org.apache.hadoop.io.Text;
+│ │  
+│ │  // Initialization Code
+│ │  System.out.println("Preparing JShell for Apache Accumulo");
+│ │  System.out.println();
+

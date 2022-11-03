@@ -1,0 +1,9 @@
+version=2.1.0
+ok=48
+ko=2
+okFiles="accumulo-project-2.1.0.pom accumulo-project-2.1.0-site.xml accumulo-start-2.1.0.pom accumulo-start-2.1.0.jar accumulo-start-2.1.0-sources.jar accumulo-core-2.1.0.pom accumulo-core-2.1.0.jar accumulo-core-2.1.0-sources.jar accumulo-server-base-2.1.0.pom accumulo-server-base-2.1.0.jar accumulo-server-base-2.1.0-sources.jar accumulo-compaction-coordinator-2.1.0.pom accumulo-compaction-coordinator-2.1.0.jar accumulo-compaction-coordinator-2.1.0-sources.jar accumulo-compactor-2.1.0.pom accumulo-compactor-2.1.0.jar accumulo-compactor-2.1.0-sources.jar accumulo-gc-2.1.0.pom accumulo-gc-2.1.0.jar accumulo-gc-2.1.0-sources.jar accumulo-manager-2.1.0.pom accumulo-manager-2.1.0.jar accumulo-manager-2.1.0-sources.jar accumulo-monitor-2.1.0.pom accumulo-monitor-2.1.0.jar accumulo-monitor-2.1.0-sources.jar accumulo-tserver-2.1.0.pom accumulo-tserver-2.1.0.jar accumulo-tserver-2.1.0-sources.jar accumulo-minicluster-2.1.0.pom accumulo-minicluster-2.1.0.jar accumulo-minicluster-2.1.0-sources.jar accumulo-native-2.1.0.pom accumulo-native-2.1.0.tar.gz accumulo-shell-2.1.0.pom accumulo-shell-2.1.0.jar accumulo-shell-2.1.0-sources.jar accumulo-iterator-test-harness-2.1.0.pom accumulo-iterator-test-harness-2.1.0.jar accumulo-iterator-test-harness-2.1.0-sources.jar accumulo-test-2.1.0.pom accumulo-test-2.1.0.jar accumulo-test-2.1.0-sources.jar accumulo-hadoop-mapreduce-2.1.0.pom accumulo-hadoop-mapreduce-2.1.0.jar accumulo-hadoop-mapreduce-2.1.0-sources.jar accumulo-2.1.0.pom accumulo-master-2.1.0.pom"
+koFiles="accumulo-2.1.0-src.tar.gz accumulo-2.1.0-bin.tar.gz"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/accumulo-2.1.0-src.tar.gz target/accumulo-2.1.0-source-release.tar.gz
+# diffoscope target/reference/accumulo-2.1.0-bin.tar.gz assemble/target/accumulo-2.1.0-bin.tar.gz
