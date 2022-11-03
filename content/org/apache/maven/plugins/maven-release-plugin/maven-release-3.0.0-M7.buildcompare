@@ -1,0 +1,7 @@
+version=3.0.0-M7
+ok=18
+ko=0
+okFiles="maven-release-3.0.0-M7.pom maven-release-3.0.0-M7-site.xml maven-release-3.0.0-M7-source-release.zip maven-release-api-3.0.0-M7.pom maven-release-api-3.0.0-M7.jar maven-release-api-3.0.0-M7-sources.jar maven-release-manager-3.0.0-M7.pom maven-release-manager-3.0.0-M7.jar maven-release-manager-3.0.0-M7-sources.jar maven-release-oddeven-policy-3.0.0-M7.pom maven-release-oddeven-policy-3.0.0-M7.jar maven-release-oddeven-policy-3.0.0-M7-sources.jar maven-release-semver-policy-3.0.0-M7.pom maven-release-semver-policy-3.0.0-M7.jar maven-release-semver-policy-3.0.0-M7-sources.jar maven-release-plugin-3.0.0-M7.pom maven-release-plugin-3.0.0-M7.jar maven-release-plugin-3.0.0-M7-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"

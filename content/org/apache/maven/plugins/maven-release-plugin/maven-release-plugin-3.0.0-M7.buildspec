@@ -1,0 +1,20 @@
+groupId=org.apache.maven.plugins
+artifactId=maven-release-plugin
+baseArtifactId=maven-release
+display=${groupId}:${artifactId}
+version=3.0.0-M7
+
+gitRepo=https://github.com/apache/${baseArtifactId}.git
+gitTag=${baseArtifactId}-${version}
+sourceDistribution=https://archive.apache.org/dist/maven/release/maven-release-${version}-source-release.zip
+sourcePath=maven-release-${version}
+sourceRmFiles="DEPENDENCIES LICENSE NOTICE"
+
+tool=mvn
+jdk=8
+newline=crlf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${baseArtifactId}-${version}.buildinfo
+
+issue=
