@@ -1,0 +1,7 @@
+version=4.7.2.2
+ok=3
+ko=0
+okFiles="spotbugs-maven-plugin-4.7.2.2.pom spotbugs-maven-plugin-4.7.2.2.jar spotbugs-maven-plugin-4.7.2.2-sources.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
