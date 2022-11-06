@@ -122,6 +122,17 @@ mvnBuildDocker() {
     *)
       mvnImage=maven:${mvnVersion}-eclipse-temurin-${jdk}-alpine
   esac
+  if ! docker pull -q ${mvnImage} > /dev/null 2>&1
+  then
+    for image in maven:{${mvnVersion},3}-eclipse-temurin-${jdk}-alpine
+    do
+      if docker pull -q ${image} > /dev/null 2>&1
+      then
+        mvnImage=${image}
+        break
+      fi
+    done
+  fi
 
   echo "Rebuilding using Docker image ${mvnImage}"
   local docker_command="docker run -it --rm --name rebuild-central -v $PWD:/var/maven/app -v $base:/var/maven/.m2 -v $base/.sbt:/var/maven/.sbt -v $base/.npm:/.npm -v $base/.bnd:/.bnd -u $(id -u ${USER}):$(id -g ${USER}) -e MAVEN_CONFIG=/var/maven/.m2 -w /var/maven/app"

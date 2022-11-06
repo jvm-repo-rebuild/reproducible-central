@@ -29,13 +29,13 @@ mvn        15 maven:3.6.3-openjdk-15-slim
 mvn        16 maven:3.6.3-openjdk-16-slim
 mvn        17 maven:3.6.3-openjdk-17-slim
 mvn        18 maven:3-openjdk-18-slim
-mvn        19 maven:3.6.3-openjdk-19-slim
+mvn        19 maven:3-eclipse-temurin-19-alpine
 mvn-3.5.4   8 maven:3.5.4-jdk-8-slim
 mvn-3.8.5   8 maven:3.8.5-jdk-8-slim
 mvn-3.8.5  11 maven:3.8.5-openjdk-11-slim
 mvn-3.8.5  17 maven:3.8.5-openjdk-17-slim
 mvn-3.8.6   8 maven:3.8.6-jdk-8-slim
 mvn-3.8.6  11 maven:3.8.6-openjdk-11-slim
-mvn-3.8.6  17 maven:3.8.6-openjdk-17-slim
+mvn-3.8.6  17 maven:3.8.6-eclipse-temurin-17-alpine
 mvn-3.8.6  18 maven:3.8.6-openjdk-18-slim
-mvn-3.8.6  19 maven:3.8.6-openjdk-19-slim
+mvn-3.8.6  19 maven:3.8.6-eclipse-temurin-19-alpine

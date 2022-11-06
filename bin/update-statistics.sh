@@ -55,6 +55,17 @@ mvnImage() {
     *)
       mvnImage=maven:${mvnVersion}-openjdk-${jdk}-slim
   esac
+  if ! docker pull -q ${mvnImage} > /dev/null 2>&1
+  then
+    for image in maven:{${mvnVersion},3}-eclipse-temurin-${jdk}-alpine
+    do
+      if docker pull -q ${image} > /dev/null 2>&1
+      then
+        mvnImage=${image}
+        break
+      fi
+    done
+  fi
 
   # check image existence
   echo -n -e "checking image ${mvnImage}                     \r"
@@ -67,7 +78,7 @@ do
   mvnImage $val
   echo "$val $mvnImage" >> doc/buildspec-stats.txt
 done
-echo
+echo "                                                         "
 
 rm tmp-tool-jdk
 cat doc/buildspec-stats.txt
