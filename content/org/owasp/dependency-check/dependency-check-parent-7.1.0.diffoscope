@@ -1,3 +1,4 @@
+# same same for all 8 jars
 1 /        8 target/reference/dependency-check-utils-7.1.0.jar utils/target/dependency-check-utils-7.1.0.jar
 --- target/reference/dependency-check-utils-7.1.0.jar
 +++ utils/target/dependency-check-utils-7.1.0.jar
@@ -43,8 +44,9 @@
 │  git.local.branch.ahead=NO_REMOTE
 │  git.local.branch.behind=NO_REMOTE
 │  git.remote.origin.url=https\://github.com/jeremylong/DependencyCheck
-│  git.tags=v7.1.0
+│ -git.tags=v7.1.0
 │ -git.total.commit.count=1
+│ +git.tags=v7.1.0,v7.1.1,v7.1.2,v7.2.0,v7.2.1,v7.3.0
 │ +git.total.commit.count=8459
 
 7 /        8 target/reference/dependency-check-maven-7.1.0.jar maven/target/dependency-check-maven-7.1.0.jar
