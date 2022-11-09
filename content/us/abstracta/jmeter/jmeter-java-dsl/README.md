@@ -28,6 +28,7 @@ rebuilding **2 releases** of us.abstracta.jmeter:jmeter-java-dsl-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.1](https://search.maven.org/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.1/pom) | | | |
 | [1.0.2](https://search.maven.org/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.0.2/pom) | [mvn jdk8](jmeter-java-dsl-1.0.2.buildspec) | [result](jmeter-java-dsl-parent-1.0.2.buildinfo): [32 :heavy_check_mark: ](jmeter-java-dsl-parent-1.0.2.buildcompare) | 24M |
 | [1.0.1](https://search.maven.org/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.0.1/pom) | [mvn jdk8](jmeter-java-dsl-1.0.1.buildspec) | [result](jmeter-java-dsl-parent-1.0.1.buildinfo): [32 :heavy_check_mark: ](jmeter-java-dsl-parent-1.0.1.buildcompare) | 24M |
 
