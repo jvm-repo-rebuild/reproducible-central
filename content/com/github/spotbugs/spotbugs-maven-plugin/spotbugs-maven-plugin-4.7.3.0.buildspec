@@ -1,0 +1,18 @@
+groupId=com.github.spotbugs
+artifactId=spotbugs-maven-plugin
+version=4.7.3.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/spotbugs/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.8.6
+jdk=17
+newline=crlf
+
+command="mvn clean package -Prelease -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
