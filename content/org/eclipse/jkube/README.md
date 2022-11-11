@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/eclipse/jkube.git](https://github.com/eclipse/jkube.git)
 
-<details><summary>This project defines 46 modules:</summary>
+<details><summary>This project defines 49 modules:</summary>
 
 * [org.eclipse.jkube.kubernetes:org.eclipse.jkube.kubernetes.gradle.plugin](https://search.maven.org/artifact/org.eclipse.jkube.kubernetes/org.eclipse.jkube.kubernetes.gradle.plugin/)
 * [org.eclipse.jkube.openshift:org.eclipse.jkube.openshift.gradle.plugin](https://search.maven.org/artifact/org.eclipse.jkube.openshift/org.eclipse.jkube.openshift.gradle.plugin/)
@@ -36,12 +36,15 @@ Source code: [https://github.com/eclipse/jkube.git](https://github.com/eclipse/j
 * [org.eclipse.jkube:jkube-kit-generator-webapp](https://search.maven.org/artifact/org.eclipse.jkube/jkube-kit-generator-webapp/)
 * [org.eclipse.jkube:jkube-kit-generator-wildfly-swarm](https://search.maven.org/artifact/org.eclipse.jkube/jkube-kit-generator-wildfly-swarm/)
 * [org.eclipse.jkube:jkube-kit-micronaut](https://search.maven.org/artifact/org.eclipse.jkube/jkube-kit-micronaut/)
+* [org.eclipse.jkube:jkube-kit-microprofile](https://search.maven.org/artifact/org.eclipse.jkube/jkube-kit-microprofile/)
 * [org.eclipse.jkube:jkube-kit-openliberty](https://search.maven.org/artifact/org.eclipse.jkube/jkube-kit-openliberty/)
 * [org.eclipse.jkube:jkube-kit-parent](https://search.maven.org/artifact/org.eclipse.jkube/jkube-kit-parent/)
 * [org.eclipse.jkube:jkube-kit-profiles](https://search.maven.org/artifact/org.eclipse.jkube/jkube-kit-profiles/)
 * [org.eclipse.jkube:jkube-kit-quarkus](https://search.maven.org/artifact/org.eclipse.jkube/jkube-kit-quarkus/)
+* [org.eclipse.jkube:jkube-kit-remote-dev](https://search.maven.org/artifact/org.eclipse.jkube/jkube-kit-remote-dev/)
 * [org.eclipse.jkube:jkube-kit-resource-helm](https://search.maven.org/artifact/org.eclipse.jkube/jkube-kit-resource-helm/)
 * [org.eclipse.jkube:jkube-kit-resource-service](https://search.maven.org/artifact/org.eclipse.jkube/jkube-kit-resource-service/)
+* [org.eclipse.jkube:jkube-kit-smallrye](https://search.maven.org/artifact/org.eclipse.jkube/jkube-kit-smallrye/)
 * [org.eclipse.jkube:jkube-kit-spring-boot](https://search.maven.org/artifact/org.eclipse.jkube/jkube-kit-spring-boot/)
 * [org.eclipse.jkube:jkube-kit-thorntail](https://search.maven.org/artifact/org.eclipse.jkube/jkube-kit-thorntail/)
 * [org.eclipse.jkube:jkube-kit-vertx](https://search.maven.org/artifact/org.eclipse.jkube/jkube-kit-vertx/)
@@ -57,13 +60,13 @@ Source code: [https://github.com/eclipse/jkube.git](https://github.com/eclipse/j
 * [org.eclipse.jkube:openshift-maven-plugin-parent](https://search.maven.org/artifact/org.eclipse.jkube/openshift-maven-plugin-parent/)
 </details>
 
-rebuilding **12 releases** of org.eclipse.jkube:jkube:
-- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **13 releases** of org.eclipse.jkube:jkube:
+- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.10.0](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.10.0/pom) | | | |
+| [1.10.0](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.10.0/pom) | [mvn jdk8](jkube-1.10.0.buildspec) | [result](jkube-1.10.0.buildinfo): [117 :heavy_check_mark: ](jkube-1.10.0.buildcompare) | 3.0M |
 | [1.9.1](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.9.1/pom) | [mvn jdk8](jkube-1.9.1.buildspec) | [result](jkube-1.9.1.buildinfo): [108 :heavy_check_mark: ](jkube-1.9.1.buildcompare) | 3.0M |
 | [1.9.0](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.9.0/pom) | [mvn jdk8](jkube-1.9.0.buildspec) | [result](jkube-1.9.0.buildinfo): [108 :heavy_check_mark: ](jkube-1.9.0.buildcompare) | 3.0M |
 | [1.8.0](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.8.0/pom) | [mvn jdk8](jkube-1.8.0.buildspec) | [result](jkube-1.8.0.buildinfo): [113 :heavy_check_mark: ](jkube-1.8.0.buildcompare) | 2.8M |

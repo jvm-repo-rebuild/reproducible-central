@@ -22,6 +22,7 @@ rebuilding **2 releases** of org.apache.qpid:protonj2-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.0-M11](https://search.maven.org/artifact/org.apache.qpid/protonj2-parent/1.0.0-M11/pom) | | | |
 | [1.0.0-M10](https://search.maven.org/artifact/org.apache.qpid/protonj2-parent/1.0.0-M10/pom) | [mvn jdk11](protonj2-1.0.0-M10.buildspec) | [result](protonj2-parent-1.0.0-M10.buildinfo): [13 :heavy_check_mark: ](protonj2-parent-1.0.0-M10.buildcompare) | 7.9M |
 | [1.0.0-M9](https://search.maven.org/artifact/org.apache.qpid/protonj2-parent/1.0.0-M9/pom) | [mvn jdk11](protonj2-1.0.0-M9.buildspec) | [result](protonj2-parent-1.0.0-M9.buildinfo): [11 :heavy_check_mark:  2 :warning:](protonj2-parent-1.0.0-M9.buildcompare) [:mag:](protonj2-parent-1.0.0-M9.diffoscope) [:memo:](https://github.com/apache/qpid-protonj2/pull/4) | 7.9M |
 
