@@ -1,0 +1,7 @@
+version=4.6.0
+ok=4
+ko=0
+okFiles="plexus-archiver-4.6.0.pom plexus-archiver-4.6.0.jar plexus-archiver-4.6.0-source-release.zip plexus-archiver-4.6.0-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
