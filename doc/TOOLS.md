@@ -15,7 +15,7 @@ If you want to start playing with the reproducible builds, we recommend the foll
 
 Prerequisites:
     
-    * [Docker](https://www.docker.com)
+    * [Docker](https://www.docker.com) or [podman](https://podman.io/)
     
     * `dos2unix` - DOS to MAC/UNIX text file format converter. 
       
@@ -25,6 +25,12 @@ You can rebuild a project release by running:
 ```
 ./rebuild.sh content/<path/to/...>/<project>-<version>.buildspec
 ```
+
+In case you would like to use podman as a container engine, you can use the following command:
+```
+./rebuild.sh content/<path/to/...>/<project>-<version>.buildspec podman
+```
+
 [`rebuild.sh` script](./rebuild.sh) will use the build specification file (= [`.buildspec` file](BUILDSPEC.md)) to choose a Docker image to rebuild the project and check output against Central Repository reference binaries.
 
 For example:

@@ -86,6 +86,15 @@ fi
 
 echo -e "\033[1m$(pwd)\033[0m"
 
+containerEngine() {
+  if [[ ${container_engine} == "podman" ]]
+  then
+    podman "$1"
+  else
+    docker "$1"
+  fi
+}
+
 mvnBuildDocker() {
   local mvnCommand mvnImage crlfDocker mvnVersion
   mvnCommand="$1"
@@ -122,11 +131,11 @@ mvnBuildDocker() {
     *)
       mvnImage=maven:${mvnVersion}-eclipse-temurin-${jdk}-alpine
   esac
-  if ! docker pull -q ${mvnImage} > /dev/null 2>&1
+  if ! containerEngine pull -q ${mvnImage} > /dev/null 2>&1
   then
     for image in maven:{${mvnVersion},3}-eclipse-temurin-${jdk}-alpine
     do
-      if docker pull -q ${image} > /dev/null 2>&1
+      if containerEngine pull -q ${image} > /dev/null 2>&1
       then
         mvnImage=${image}
         break
@@ -135,7 +144,7 @@ mvnBuildDocker() {
   fi
 
   echo "Rebuilding using Docker image ${mvnImage}"
-  local docker_command="docker run -it --rm --name rebuild-central -v $PWD:/var/maven/app -v $base:/var/maven/.m2 -v $base/.sbt:/var/maven/.sbt -v $base/.npm:/.npm -v $base/.bnd:/.bnd -u $(id -u ${USER}):$(id -g ${USER}) -e MAVEN_CONFIG=/var/maven/.m2 -w /var/maven/app"
+  local docker_command="${container_engine} run -it --rm --name rebuild-central -v $PWD:/var/maven/app -v $base:/var/maven/.m2 -v $base/.sbt:/var/maven/.sbt -v $base/.npm:/.npm -v $base/.bnd:/.bnd -u $(id -u ${USER}):$(id -g ${USER}) -e MAVEN_CONFIG=/var/maven/.m2 -w /var/maven/app"
   local mvn_docker_params="-Duser.home=/var/maven"
   if [[ "${newline}" == crlf* ]]
   then
@@ -228,7 +237,6 @@ displayResult() {
     fi
     echo -e "build available in \033[1m$(dirname ${buildspec})/buildcache/${artifactId}\033[0m, where you can execute \033[36mdiffoscope\033[0m"
     grep '# diffoscope ' ${buildcompare}
-#    echo -e "run \033[36mdiffoscope\033[0m as container with \033[1mdocker run --rm -t -w /mnt -v $(pwd):/mnt:ro registry.salsa.debian.org/reproducible-builds/diffoscope\033[0m"
     echo -e "To see every differences between current rebuild and reference, run:"
     if [ -z "${sourcePath}" ]
     then
@@ -259,7 +267,7 @@ rebuildToolSbt() {
   [ -d $base/.cache ] || mkdir $base/.cache
   [ -d $base/.ivy2 ] || mkdir $base/.ivy2
   [ -d $base/.sbt ] || mkdir $base/.sbt
-  local docker_command="docker run -it --rm --name rebuild-central -v $base/.cache:/home/sbtuser/.cache -v $base/.ivy2:/home/sbtuser/.ivy2 -v $base/.sbt:/home/sbtuser/.sbt -v $PWD:/home/sbtuser/dev -u "$(id -u):$(id -g)" -w /home/sbtuser/dev --env HOME=/home/sbtuser"
+  local docker_command="${container_engine} run -it --rm --name rebuild-central -v $base/.cache:/home/sbtuser/.cache -v $base/.ivy2:/home/sbtuser/.ivy2 -v $base/.sbt:/home/sbtuser/.sbt -v $PWD:/home/sbtuser/dev -u "$(id -u):$(id -g)" -w /home/sbtuser/dev --env HOME=/home/sbtuser"
   ${docker_command} ${sbtImage} ${command} -Duser.home=/home/sbtuser
 
   dos2unix ${buildinfo} || fatal "failed to convert buildinfo newlines"
@@ -279,7 +287,7 @@ rebuildToolGradle() {
   [ -d central ] && \rm -rf central
   [ -d repository ] && \rm -rf repository
 
-  local docker_command="docker run -it --rm --name rebuild-central -v $PWD:/var/gradle/app -v $PWD:/var/gradle/.m2 -v $base/.sbt:/var/gradle/.sbt -v $base/.bnd:/.bnd -u $(id -u ${USER}):$(id -g ${USER}) -e MAVEN_CONFIG=/var/gradle/.m2 -w /var/gradle/app"
+  local docker_command="${container_engine} run -it --rm --name rebuild-central -v $PWD:/var/gradle/app -v $PWD:/var/gradle/.m2 -v $base/.sbt:/var/gradle/.sbt -v $base/.bnd:/.bnd -u $(id -u ${USER}):$(id -g ${USER}) -e MAVEN_CONFIG=/var/gradle/.m2 -w /var/gradle/app"
   local gradle_docker_params="-Duser.home=/var/gradle"
   echo -e "\033[2m${docker_command} ${jdkImage} \033[1m${command} ${gradle_docker_params}\033[0m"
   ${docker_command} ${jdkImage} ${command} ${gradle_docker_params}
@@ -349,6 +357,12 @@ rebuildToolGradle() {
   cp ${buildinfo} ../.. || fatal "failed to copy buildinfo file"
   cp ${buildcompare} ../.. || fatal "failed to copy buildcompare file"
 }
+
+container_engine="docker"
+if [[ "$2" == "podman" ]]
+then
+  container_engine="podman"
+fi
 
 case ${tool} in
   mvn*)
