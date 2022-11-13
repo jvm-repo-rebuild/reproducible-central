@@ -13,3 +13,5 @@ settings-docker.xml
 
 doc/buildspecs.txt
 
+# IDE local folders
+.idea/
