@@ -105,6 +105,7 @@ rebuilding **4 releases** of org.apache.camel.k:camel-k-runtime-project:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.15.2](https://search.maven.org/artifact/org.apache.camel.k/camel-k-runtime-project/1.15.2/pom) | | | |
 | [1.15.1](https://search.maven.org/artifact/org.apache.camel.k/camel-k-runtime-project/1.15.1/pom) | | | |
 | [1.15.0](https://search.maven.org/artifact/org.apache.camel.k/camel-k-runtime-project/1.15.0/pom) | | | |
 | [1.14.0](https://search.maven.org/artifact/org.apache.camel.k/camel-k-runtime-project/1.14.0/pom) | | | |
