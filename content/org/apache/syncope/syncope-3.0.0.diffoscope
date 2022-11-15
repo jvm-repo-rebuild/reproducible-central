@@ -1,0 +1,369 @@
+1 / 7 target/reference/syncope-core-starter-3.0.0.jar core/starter/target/syncope-core-starter-3.0.0.jar
+--- target/reference/syncope-core-starter-3.0.0.jar
++++ core/starter/target/syncope-core-starter-3.0.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 2662688 bytes, number of entries: 51
+│ +Zip file size: 2662740 bytes, number of entries: 51
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 META-INF/
+│  -rw-r--r--  2.0 unx      374 b- defN 22-Nov-11 08:25 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 META-INF/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 org/apache/syncope/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 org/apache/syncope/core/
+│ @@ -30,24 +30,24 @@
+│  -rw-r--r--  2.0 unx   311848 b- defN 22-Nov-11 08:25 META-INF/resources/swagger-ui-standalone-preset.js
+│  -rw-r--r--  2.0 unx   493172 b- defN 22-Nov-11 08:25 META-INF/resources/swagger-ui-standalone-preset.js.map
+│  -rw-r--r--  2.0 unx   144681 b- defN 22-Nov-11 08:25 META-INF/resources/swagger-ui.css
+│  -rw-r--r--  2.0 unx   250984 b- defN 22-Nov-11 08:25 META-INF/resources/swagger-ui.css.map
+│  -rw-r--r--  2.0 unx   254993 b- defN 22-Nov-11 08:25 META-INF/resources/swagger-ui.js
+│  -rw-r--r--  2.0 unx   280092 b- defN 22-Nov-11 08:25 META-INF/resources/swagger-ui.js.map
+│  -rw-r--r--  2.0 unx     2305 b- defN 22-Nov-11 08:25 banner.txt
+│ --rw-r--r--  2.0 unx     4162 b- defN 22-Nov-11 08:25 core.properties
+│ --rw-r--r--  2.0 unx     1043 b- defN 22-Nov-11 08:25 git.properties
+│ +-rw-r--r--  2.0 unx     4246 b- defN 22-Nov-11 08:25 core.properties
+│ +-rw-r--r--  2.0 unx     1036 b- defN 22-Nov-11 08:25 git.properties
+│  -rw-r--r--  2.0 unx     1221 b- defN 22-Nov-11 08:25 org/apache/syncope/core/starter/SwaggerUIInitializer.class
+│  -rw-r--r--  2.0 unx     1772 b- defN 22-Nov-11 08:25 org/apache/syncope/core/starter/SyncopeCoreApplication$DefaultSyncopeStarterEventListener.class
+│  -rw-r--r--  2.0 unx      797 b- defN 22-Nov-11 08:25 org/apache/syncope/core/starter/SyncopeCoreApplication$SyncopeStarterEventListener.class
+│  -rw-r--r--  2.0 unx    10173 b- defN 22-Nov-11 08:25 org/apache/syncope/core/starter/SyncopeCoreApplication.class
+│  -rw-r--r--  2.0 unx     4856 b- defN 22-Nov-11 08:25 org/apache/syncope/core/starter/SyncopeCoreStart.class
+│  -rw-r--r--  2.0 unx     4932 b- defN 22-Nov-11 08:25 org/apache/syncope/core/starter/SyncopeCoreStop.class
+│  -rw-r--r--  2.0 unx     2958 b- defN 22-Nov-11 08:25 org/apache/syncope/core/starter/TaskExecutorUnloader.class
+│  -rw-r--r--  2.0 unx    21060 b- defN 22-Nov-11 08:25 org/apache/syncope/core/starter/actuate/DefaultSyncopeCoreInfoContributor.class
+│  -rw-r--r--  2.0 unx     4257 b- defN 22-Nov-11 08:25 org/apache/syncope/core/starter/actuate/DomainsHealthIndicator.class
+│  -rw-r--r--  2.0 unx     2844 b- defN 22-Nov-11 08:25 org/apache/syncope/core/starter/actuate/EntityCacheEndpoint.class
+│  -rw-r--r--  2.0 unx     7981 b- defN 22-Nov-11 08:25 org/apache/syncope/core/starter/actuate/ExternalResourcesHealthIndicator.class
+│  -rw-r--r--  2.0 unx      668 b- defN 22-Nov-11 08:25 org/apache/syncope/core/starter/actuate/SyncopeCoreInfoContributor.class
+│  -rw-r--r--  2.0 unx     6468 b- defN 22-Nov-11 08:25 META-INF/maven/org.apache.syncope.core/syncope-core-starter/pom.xml
+│  -rw-r--r--  2.0 unx       78 b- defN 22-Nov-11 08:25 META-INF/maven/org.apache.syncope.core/syncope-core-starter/pom.properties
+│ -51 files, 8674528 bytes uncompressed, 2654588 bytes compressed:  69.4%
+│ +51 files, 8674605 bytes uncompressed, 2654640 bytes compressed:  69.4%
+├── core.properties
+│ @@ -20,15 +20,15 @@
+│  
+│  version=3.0.0
+│  
+│  server.servlet.encoding.charset=UTF-8
+│  server.servlet.encoding.enabled=true
+│  server.servlet.encoding.force=true
+│  
+│ -conf.directory=/home/ilgrosso/work/syncope/syncope/target/checkout/core/starter/target/test-classes
+│ +conf.directory=/home/hboutemy/work/reproducible-central/content/org/apache/syncope/buildcache/syncope/core/starter/target/test-classes
+│  
+│  server.servlet.contextPath=/syncope
+│  cxf.path=/rest
+│  
+│  management.endpoints.web.exposure.include=health,info,loggers,entityCache
+│  management.endpoint.health.show-details=ALWAYS
+│  
+│ @@ -63,15 +63,15 @@
+│  
+│  provisioning.propagationTaskExecutorAsyncExecutor.corePoolSize=5
+│  provisioning.propagationTaskExecutorAsyncExecutor.maxPoolSize=25
+│  provisioning.propagationTaskExecutorAsyncExecutor.queueCapacity=100
+│  
+│  provisioning.virAttrCacheSpec=maximumSize=5000,expireAfterAccess=1m
+│  
+│ -provisioning.connIdLocation=file:/home/ilgrosso/work/syncope/syncope/target/checkout/core/starter/target/bundles/
+│ +provisioning.connIdLocation=file:/home/hboutemy/work/reproducible-central/content/org/apache/syncope/buildcache/syncope/core/starter/target/bundles/
+│  
+│  provisioning.quartz.delegate=org.quartz.impl.jdbcjobstore.PostgreSQLDelegate
+│  provisioning.quartz.sql=tables_postgres.sql
+│  provisioning.quartz.disableInstance=false
+│  
+│  provisioning.smtp.host=none.syncope.apache.org
+│  provisioning.smtp.port=25
+├── git.properties
+│ @@ -1,13 +1,13 @@
+│  #Generated by Git-Commit-Id-Plugin
+│  git.branch=d4a8b1eb53b246c42acb757739637be02838a082
+│ -git.build.host=betulla
+│ +git.build.host=orchid
+│  git.build.time=2022-11-11T09\:25\:36+0100
+│ -git.build.user.email=ilgrosso@apache.org
+│ -git.build.user.name=Francesco Chicchiricc\u00F2
+│ +git.build.user.email=hboutemy@apache.org
+│ +git.build.user.name=Herv\u00E9 Boutemy
+│  git.build.version=3.0.0
+│  git.closest.tag.commit.count=0
+│  git.closest.tag.name=syncope-3.0.0
+│  git.commit.author.time=2022-11-11T09\:32\:06+0100
+│  git.commit.committer.time=2022-11-11T09\:32\:06+0100
+│  git.commit.id=d4a8b1eb53b246c42acb757739637be02838a082
+│  git.commit.id.abbrev=d4a8b1e
+│ @@ -19,8 +19,8 @@
+│  git.commit.user.email=ilgrosso@apache.org
+│  git.commit.user.name=Francesco Chicchiricc\u00F2
+│  git.dirty=false
+│  git.local.branch.ahead=NO_REMOTE
+│  git.local.branch.behind=NO_REMOTE
+│  git.remote.origin.url=https\://gitbox.apache.org/repos/asf/syncope.git
+│  git.tags=syncope-3.0.0
+│ -git.total.commit.count=1
+│ +git.total.commit.count=7910
+
+# same git.properties issue
+2 / 7 target/reference/syncope-client-idrepo-console-3.0.0.jar client/idrepo/console/target/syncope-client-idrepo-console-3.0.0.jar
+3 / 7 target/reference/syncope-client-idrepo-enduser-3.0.0.jar client/idrepo/enduser/target/syncope-client-idrepo-enduser-3.0.0.jar
+4 / 7 target/reference/syncope-sra-3.0.0.jar sra/target/syncope-sra-3.0.0.jar
+5 / 7 target/reference/syncope-wa-starter-3.0.0.jar wa/starter/target/syncope-wa-starter-3.0.0.jar
+
+4 / 7 target/reference/syncope-sra-3.0.0.jar sra/target/syncope-sra-3.0.0.jar
+--- target/reference/syncope-sra-3.0.0.jar
++++ sra/target/syncope-sra-3.0.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 166333 bytes, number of entries: 95
+│ +Zip file size: 166382 bytes, number of entries: 95
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 META-INF/
+│  -rw-r--r--  2.0 unx      332 b- defN 22-Nov-11 08:25 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 org/apache/syncope/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 org/apache/syncope/sra/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 org/apache/syncope/sra/actuate/
+│ @@ -20,16 +20,16 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 META-INF/maven/org.apache.syncope/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 META-INF/maven/org.apache.syncope/syncope-sra/
+│  -rw-r--r--  2.0 unx    41903 b- defN 22-Nov-11 08:25 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    55363 b- defN 22-Nov-11 08:25 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx     5024 b- defN 22-Nov-11 08:25 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx      142 b- defN 22-Nov-11 08:25 META-INF/build-info.properties
+│  -rw-r--r--  2.0 unx     2305 b- defN 22-Nov-11 08:25 banner.txt
+│ --rw-r--r--  2.0 unx     1043 b- defN 22-Nov-11 08:25 git.properties
+│ --rw-r--r--  2.0 unx     2971 b- defN 22-Nov-11 08:25 log4j2.xml
+│ +-rw-r--r--  2.0 unx     1036 b- defN 22-Nov-11 08:25 git.properties
+│ +-rw-r--r--  2.0 unx     3139 b- defN 22-Nov-11 08:25 log4j2.xml
+│  -rw-r--r--  2.0 unx     2680 b- defN 22-Nov-11 08:25 org/apache/syncope/sra/ApplicationContextUtils.class
+│  -rw-r--r--  2.0 unx     3861 b- defN 22-Nov-11 08:25 org/apache/syncope/sra/RouteProvider$1.class
+│  -rw-r--r--  2.0 unx    48666 b- defN 22-Nov-11 08:25 org/apache/syncope/sra/RouteProvider.class
+│  -rw-r--r--  2.0 unx     1356 b- defN 22-Nov-11 08:25 org/apache/syncope/sra/SRAProperties$AMType.class
+│  -rw-r--r--  2.0 unx     1095 b- defN 22-Nov-11 08:25 org/apache/syncope/sra/SRAProperties$CAS.class
+│  -rw-r--r--  2.0 unx     1032 b- defN 22-Nov-11 08:25 org/apache/syncope/sra/SRAProperties$Global.class
+│  -rw-r--r--  2.0 unx     2740 b- defN 22-Nov-11 08:25 org/apache/syncope/sra/SRAProperties$OAUTH2.class
+│ @@ -90,8 +90,8 @@
+│  -rw-r--r--  2.0 unx     9145 b- defN 22-Nov-11 08:25 org/apache/syncope/sra/security/saml2/SAML2WebSsoAuthenticationWebFilter.class
+│  -rw-r--r--  2.0 unx     1343 b- defN 22-Nov-11 08:25 org/apache/syncope/sra/security/web/server/DoNothingIfCommittedServerRedirectStrategy.class
+│  -rw-r--r--  2.0 unx     4670 b- defN 22-Nov-11 08:25 org/apache/syncope/sra/session/CacheManagerReactiveSessionRepository.class
+│  -rw-r--r--  2.0 unx     2780 b- defN 22-Nov-11 08:25 org/apache/syncope/sra/session/SessionUtils.class
+│  -rw-r--r--  2.0 unx     1562 b- defN 22-Nov-11 08:25 sra.properties
+│  -rw-r--r--  2.0 unx    12222 b- defN 22-Nov-11 08:25 META-INF/maven/org.apache.syncope/syncope-sra/pom.xml
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Nov-11 08:25 META-INF/maven/org.apache.syncope/syncope-sra/pom.properties
+│ -95 files, 477872 bytes uncompressed, 149047 bytes compressed:  68.8%
+│ +95 files, 478033 bytes uncompressed, 149096 bytes compressed:  68.8%
+...
+├── log4j2.xml
+│ ├── log4j2.xml
+│ │ @@ -15,24 +15,24 @@
+│ │  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+│ │  KIND, either express or implied.  See the License for the
+│ │  specific language governing permissions and limitations
+│ │  under the License.
+│ │  -->
+│ │  <configuration status="WARN">
+│ │    <appenders>
+│ │ -    <RollingRandomAccessFile name="main" fileName="/home/ilgrosso/work/syncope/syncope/target/checkout/sra/target/log/sra.log" filePattern="/home/ilgrosso/work/syncope/syncope/target/checkout/sra/target/log/sra-%d{yyyy-MM-dd}.log.gz" immediateFlush="false" append="true">
+│ │ +    <RollingRandomAccessFile name="main" fileName="/home/hboutemy/work/reproducible-central/content/org/apache/syncope/buildcache/syncope/sra/target/log/sra.log" filePattern="/home/hboutemy/work/reproducible-central/content/org/apache/syncope/buildcache/syncope/sra/target/log/sra-%d{yyyy-MM-dd}.log.gz" immediateFlush="false" append="true">
+│ │        <PatternLayout>
+│ │          <pattern>%d{HH:mm:ss.SSS} %-5level %logger - %msg%n</pattern>
+│ │        </PatternLayout>
+│ │        <Policies>
+│ │          <TimeBasedTriggeringPolicy/>
+│ │          <SizeBasedTriggeringPolicy size="250 MB"/>
+│ │        </Policies>
+│ │      </RollingRandomAccessFile>
+│ │ -    <RollingRandomAccessFile name="access" fileName="/home/ilgrosso/work/syncope/syncope/target/checkout/sra/target/log/sra-access.log" filePattern="/home/ilgrosso/work/syncope/syncope/target/checkout/sra/target/log/sra-access-%d{yyyy-MM-dd}.log.gz" immediateFlush="false" append="true">
+│ │ +    <RollingRandomAccessFile name="access" fileName="/home/hboutemy/work/reproducible-central/content/org/apache/syncope/buildcache/syncope/sra/target/log/sra-access.log" filePattern="/home/hboutemy/work/reproducible-central/content/org/apache/syncope/buildcache/syncope/sra/target/log/sra-access-%d{yyyy-MM-dd}.log.gz" immediateFlush="false" append="true">
+│ │        <PatternLayout>
+│ │          <pattern>%d{HH:mm:ss.SSS} %-5level %logger - %msg%n</pattern>
+│ │        </PatternLayout>
+│ │        <Policies>
+│ │          <TimeBasedTriggeringPolicy/>
+│ │          <SizeBasedTriggeringPolicy size="250 MB"/>
+│ │        </Policies>
+
+5 / 7 target/reference/syncope-wa-starter-3.0.0.jar wa/starter/target/syncope-wa-starter-3.0.0.jar
+--- target/reference/syncope-wa-starter-3.0.0.jar
++++ wa/starter/target/syncope-wa-starter-3.0.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 116909 bytes, number of entries: 85
+│ +Zip file size: 116961 bytes, number of entries: 85
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 META-INF/
+│  -rw-r--r--  2.0 unx      370 b- defN 22-Nov-11 08:25 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 org/apache/syncope/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 org/apache/syncope/wa/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 org/apache/syncope/wa/starter/
+...
+│ @@ -77,11 +77,11 @@
+│  -rw-r--r--  2.0 unx    10060 b- defN 22-Nov-11 08:25 org/apache/syncope/wa/starter/u2f/WAU2FDeviceRepository.class
+│  -rw-r--r--  2.0 unx     1041 b- defN 22-Nov-11 08:25 org/apache/syncope/wa/starter/webauthn/WAWebAuthnCredentialRepository$1.class
+│  -rw-r--r--  2.0 unx     1061 b- defN 22-Nov-11 08:25 org/apache/syncope/wa/starter/webauthn/WAWebAuthnCredentialRepository$2.class
+│  -rw-r--r--  2.0 unx     8766 b- defN 22-Nov-11 08:25 org/apache/syncope/wa/starter/webauthn/WAWebAuthnCredentialRepository.class
+│  -rw-r--r--  2.0 unx      641 b- defN 22-Nov-11 08:25 syncope/static/images/favicon.png
+│  -rw-r--r--  2.0 unx     8913 b- defN 22-Nov-11 08:25 syncope/static/images/logo.png
+│  -rw-r--r--  2.0 unx     1479 b- defN 22-Nov-11 08:25 thymeleaf/templates/fragments/footer.html
+│ --rw-r--r--  2.0 unx     4480 b- defN 22-Nov-11 08:25 wa.properties
+│ +-rw-r--r--  2.0 unx     4606 b- defN 22-Nov-11 08:25 wa.properties
+│  -rw-r--r--  2.0 unx    16722 b- defN 22-Nov-11 08:25 META-INF/maven/org.apache.syncope.wa/syncope-wa-starter/pom.xml
+│  -rw-r--r--  2.0 unx       74 b- defN 22-Nov-11 08:25 META-INF/maven/org.apache.syncope.wa/syncope-wa-starter/pom.properties
+│ -85 files, 345877 bytes uncompressed, 102569 bytes compressed:  70.3%
+│ +85 files, 345996 bytes uncompressed, 102621 bytes compressed:  70.3%
+...
+├── wa.properties
+│ @@ -63,25 +63,25 @@
+│  
+│  wa.anonymousUser=anonymous
+│  wa.anonymousKey=anonymousKey
+│  
+│  wa.useGZIPCompression=true
+│  
+│  # Conf directories
+│ -conf.directory=/home/ilgrosso/work/syncope/syncope/target/checkout/wa/starter/target/test-classes
+│ -cas.standalone.configuration-directory=/home/ilgrosso/work/syncope/syncope/target/checkout/wa/starter/target/test-classes
+│ +conf.directory=/home/hboutemy/work/reproducible-central/content/org/apache/syncope/buildcache/syncope/wa/starter/target/test-classes
+│ +cas.standalone.configuration-directory=/home/hboutemy/work/reproducible-central/content/org/apache/syncope/buildcache/syncope/wa/starter/target/test-classes
+│  
+│  cas.server.name=http://localhost:8080
+│  cas.server.prefix=${cas.server.name}/syncope-wa
+│  cas.server.scope=syncope.org
+│  
+│  cas.logout.follow-service-redirects=true
+│  
+│  cas.authn.saml-idp.core.entity-id=${cas.server.prefix}/saml
+│ -cas.authn.saml-idp.metadata.http.metadata-backup-location=file:/home/ilgrosso/work/syncope/syncope/target/checkout/wa/starter/target/test-classes/saml
+│ +cas.authn.saml-idp.metadata.http.metadata-backup-location=file:/home/hboutemy/work/reproducible-central/content/org/apache/syncope/buildcache/syncope/wa/starter/target/test-classes/saml
+│  
+│  cas.authn.oidc.core.issuer=${cas.server.prefix}/oidc
+│  cas.authn.oidc.discovery.id-token-signing-alg-values-supported=RS256,RS384,RS512,PS256,PS384,PS512,ES256,ES384,ES512,HS256,HS384,HS512
+│  cas.authn.oidc.discovery.user-info-signing-alg-values-supported=RS256,RS384,RS512,PS256,PS384,PS512,ES256,ES384,ES512,HS256,HS384,HS512
+│  cas.authn.oauth.core.user-profile-view-type=FLAT
+│  
+│  # Disable access to the login endpoint
+
+6 / 7 target/reference/syncope-fit-build-tools-3.0.0.war fit/build-tools/target/syncope-fit-build-tools-3.0.0.war
+--- target/reference/syncope-fit-build-tools-3.0.0.war
++++ fit/build-tools/target/syncope-fit-build-tools-3.0.0.war
+├── zipinfo -v {}
+│ @@ -1108,15 +1108,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          2022 Nov 11 08:25:36
+│ -  32-bit CRC value (hex):                         81f091b4
+│ +  32-bit CRC value (hex):                         531042b3
+│    compressed size:                                48845 bytes
+│    uncompressed size:                              50370 bytes
+│    length of filename:                             71 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── WEB-INF/classes/bundles/net.tirasa.connid.bundles.soap-1.4.5-bundle.jar
+│ ├── zipinfo {}
+│ │ @@ -1,17 +1,17 @@
+│ │  Zip file size: 50370 bytes, number of entries: 18
+│ │ -drwxr-xr-x  2.0 unx        0 bx stor 22-Nov-11 09:50 META-INF/
+│ │ --rw-r--r--  2.0 unx      242 b- defN 22-Nov-11 09:50 META-INF/MANIFEST.MF
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 09:50 lib/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 09:50 net/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 09:50 net/tirasa/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 09:50 net/tirasa/connid/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 09:50 net/tirasa/connid/bundles/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 09:50 net/tirasa/connid/bundles/soap/
+│ │ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 09:50 net/tirasa/connid/bundles/soap/cxf/
+│ │ +drwxr-xr-x  2.0 unx        0 bx stor 22-Nov-15 08:43 META-INF/
+│ │ +-rw-r--r--  2.0 unx      242 b- defN 22-Nov-15 08:43 META-INF/MANIFEST.MF
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-15 08:43 lib/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-15 08:43 net/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-15 08:43 net/tirasa/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-15 08:43 net/tirasa/connid/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-15 08:43 net/tirasa/connid/bundles/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-15 08:43 net/tirasa/connid/bundles/soap/
+│ │ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-15 08:43 net/tirasa/connid/bundles/soap/cxf/
+│ │  -rw-r--r--  2.0 unx    24952 b- defN 22-Apr-27 13:37 META-INF/LICENSE
+│ │  -rw-r--r--  2.0 unx     1073 b- defN 22-Apr-27 13:37 META-INF/NOTICE
+│ │  -rw-r--r--  2.0 unx    25479 b- defN 22-Apr-27 13:37 lib/soap-utilities-1.4.5.jar
+│ │  -rw-r--r--  2.0 unx     1050 b- defN 22-Apr-27 13:37 net/tirasa/connid/bundles/soap/Messages.properties
+│ │  -rw-r--r--  2.0 unx     3237 b- defN 22-Apr-27 13:37 net/tirasa/connid/bundles/soap/WebServiceConfiguration.class
+│ │  -rw-r--r--  2.0 unx     4928 b- defN 22-Apr-27 13:37 net/tirasa/connid/bundles/soap/WebServiceConnection.class
+│ │  -rw-r--r--  2.0 unx    26719 b- defN 22-Apr-27 13:37 net/tirasa/connid/bundles/soap/WebServiceConnector.class
+
+7 / 7 target/reference/syncope-archetype-3.0.0-sources.jar archetype/target/syncope-archetype-3.0.0-sources.jar
+--- target/reference/syncope-archetype-3.0.0-sources.jar
++++ archetype/target/syncope-archetype-3.0.0-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 199130 bytes, number of entries: 179
+│ +Zip file size: 211840 bytes, number of entries: 184
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Nov-11 08:25 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 archetype-resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 archetype-resources/common/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 archetype-resources/console/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 archetype-resources/core/
+│ @@ -11,73 +11,78 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 archetype-resources/core/src/test/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 archetype-resources/enduser/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 archetype-resources/fit/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 archetype-resources/sra/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 archetype-resources/wa/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 /
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 /home/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 /home/ilgrosso/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 /home/ilgrosso/work/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 /home/ilgrosso/work/syncope/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 /home/ilgrosso/work/syncope/syncope/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 /home/ilgrosso/work/syncope/syncope/target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 /home/ilgrosso/work/syncope/syncope/target/checkout/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 /home/ilgrosso/work/syncope/syncope/target/checkout/archetype/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 /home/ilgrosso/work/syncope/syncope/target/checkout/archetype/target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 /home/ilgrosso/work/syncope/syncope/target/checkout/archetype/target/classes/
+...
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 /home/ilgrosso/work/syncope/syncope/target/checkout/archetype/target/classes/archetype-resources/fit/src/test/resources/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 /home/hboutemy/work/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 /home/hboutemy/work/reproducible-central/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 /home/hboutemy/work/reproducible-central/content/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 /home/hboutemy/work/reproducible-central/content/org/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 /home/hboutemy/work/reproducible-central/content/org/apache/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 /home/hboutemy/work/reproducible-central/content/org/apache/syncope/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 /home/hboutemy/work/reproducible-central/content/org/apache/syncope/buildcache/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 /home/hboutemy/work/reproducible-central/content/org/apache/syncope/buildcache/syncope/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 /home/hboutemy/work/reproducible-central/content/org/apache/syncope/buildcache/syncope/archetype/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 /home/hboutemy/work/reproducible-central/content/org/apache/syncope/buildcache/syncope/archetype/target/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 /home/hboutemy/work/reproducible-central/content/org/apache/syncope/buildcache/syncope/archetype/target/classes/
+...
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 /home/hboutemy/work/reproducible-central/content/org/apache/syncope/buildcache/syncope/archetype/target/classes/archetype-resources/fit/src/test/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 META-INF/maven/org.apache.syncope/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-11 08:25 META-INF/maven/org.apache.syncope/syncope-archetype/
+│  -rw-r--r--  2.0 unx      274 b- defN 22-Nov-11 08:25 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Nov-11 08:25 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      181 b- defN 22-Nov-11 08:25 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     4593 b- defN 22-Nov-11 08:25 META-INF/maven/archetype-metadata.xml
+│  -rw-r--r--  2.0 unx     1889 b- defN 22-Nov-11 08:25 archetype-resources/common/pom.xml
+│ @@ -87,95 +92,95 @@
+│  -rw-r--r--  2.0 unx     5584 b- defN 22-Nov-11 08:25 archetype-resources/enduser/pom.xml
+│  -rw-r--r--  2.0 unx    12671 b- defN 22-Nov-11 08:25 archetype-resources/fit/pom.xml
+│  -rw-r--r--  2.0 unx     4485 b- defN 22-Nov-11 08:25 archetype-resources/pom.xml
+│  -rw-r--r--  2.0 unx     2895 b- defN 22-Nov-11 08:25 archetype-resources/sra/pom.xml
+│  -rw-r--r--  2.0 unx     4240 b- defN 22-Nov-11 08:25 archetype-resources/wa/pom.xml
+│  -rw-r--r--  2.0 unx     4477 b- defN 22-Nov-11 08:25 meta-pom.xml
+│  -rw-r--r--  2.0 unx     1565 b- defN 22-Nov-11 08:25 properties2pom.xsl
+│ --rw-r--r--  2.0 unx     3940 b- defN 22-Nov-11 08:25 /home/ilgrosso/work/syncope/syncope/target/checkout/archetype/target/classes/archetype-resources/core/src/main/resources/core.properties
+...
+│ --rw-r--r--  2.0 unx     5606 b- defN 22-Nov-11 08:25 /home/ilgrosso/work/syncope/syncope/target/checkout/archetype/target/classes/archetype-resources/fit/src/test/resources/keystore.jks
+│ +-rw-r--r--  2.0 unx     3940 b- defN 22-Nov-11 08:25 /home/hboutemy/work/reproducible-central/content/org/apache/syncope/buildcache/syncope/archetype/target/classes/archetype-resources/core/src/main/resources/core.properties
+...
+│ +-rw-r--r--  2.0 unx     5606 b- defN 22-Nov-11 08:25 /home/hboutemy/work/reproducible-central/content/org/apache/syncope/buildcache/syncope/archetype/target/classes/archetype-resources/fit/src/test/resources/keystore.jks
+│  -rw-r--r--  2.0 unx    13137 b- defN 22-Nov-11 08:25 META-INF/maven/org.apache.syncope/syncope-archetype/pom.xml
+│  -rw-r--r--  2.0 unx       70 b- defN 22-Nov-11 08:25 META-INF/maven/org.apache.syncope/syncope-archetype/pom.properties
+│ -179 files, 633749 bytes uncompressed, 146586 bytes compressed:  76.9%
+│ +184 files, 633749 bytes uncompressed, 146586 bytes compressed:  76.9%
