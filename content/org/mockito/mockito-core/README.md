@@ -18,14 +18,14 @@ Source code: [https://github.com/mockito/mockito.git](https://github.com/mockito
 * [org.mockito:mockito-proxy](https://search.maven.org/artifact/org.mockito/mockito-proxy/)
 </details>
 
-rebuilding **6 releases** of org.mockito:mockito-core:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **8 releases** of org.mockito:mockito-core:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.9.0](https://search.maven.org/artifact/org.mockito/mockito-core/4.9.0/pom) | | | |
-| [4.8.1](https://search.maven.org/artifact/org.mockito/mockito-core/4.8.1/pom) | | | |
+| [4.9.0](https://search.maven.org/artifact/org.mockito/mockito-core/4.9.0/pom) | [gradle](mockito-4.9.0.buildspec) | [result](mockito-core-4.9.0.buildinfo): [19 :heavy_check_mark: ](mockito-core-4.9.0.buildcompare) | 1.3M |
+| [4.8.1](https://search.maven.org/artifact/org.mockito/mockito-core/4.8.1/pom) | [gradle](mockito-4.8.1.buildspec) | [result](mockito-core-4.8.1.buildinfo): [19 :heavy_check_mark: ](mockito-core-4.8.1.buildcompare) | 1.3M |
 | [4.8.0](https://search.maven.org/artifact/org.mockito/mockito-core/4.8.0/pom) | [gradle](mockito-4.8.0.buildspec) | [result](mockito-core-4.8.0.buildinfo): [19 :heavy_check_mark: ](mockito-core-4.8.0.buildcompare) | 1.3M |
 | [4.7.0](https://search.maven.org/artifact/org.mockito/mockito-core/4.7.0/pom) | [gradle](mockito-4.7.0.buildspec) | [result](mockito-core-4.7.0.buildinfo): [19 :heavy_check_mark: ](mockito-core-4.7.0.buildcompare) | 1.2M |
 | [4.6.1](https://search.maven.org/artifact/org.mockito/mockito-core/4.6.1/pom) | [gradle](mockito-4.6.1.buildspec) | [result](mockito-core-4.6.1.buildinfo): [19 :heavy_check_mark: ](mockito-core-4.6.1.buildcompare) | 1.2M |
