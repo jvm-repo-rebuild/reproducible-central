@@ -13,6 +13,7 @@ rebuilding **15 releases** of org.simplify4u:pgp-keys-map:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2022.11.15](https://search.maven.org/artifact/org.simplify4u/pgp-keys-map/2022.11.15/pom) | | | |
 | [2022.09.15](https://search.maven.org/artifact/org.simplify4u/pgp-keys-map/2022.09.15/pom) | [mvn jdk8](pgp-keys-map-2022.09.15.buildspec) | [result](pgp-keys-map-2022.09.15.buildinfo): [2 :heavy_check_mark: ](pgp-keys-map-2022.09.15.buildcompare) | 27K |
 | [2022.07.02](https://search.maven.org/artifact/org.simplify4u/pgp-keys-map/2022.07.02/pom) | [mvn jdk8](pgp-keys-map-2022.07.02.buildspec) | [result](pgp-keys-map-2022.07.02.buildinfo): [2 :heavy_check_mark: ](pgp-keys-map-2022.07.02.buildcompare) | 27K |
 | [2022.05.12](https://search.maven.org/artifact/org.simplify4u/pgp-keys-map/2022.05.12/pom) | [mvn jdk8](pgp-keys-map-2022.05.12.buildspec) | [result](pgp-keys-map-2022.05.12.buildinfo): [2 :heavy_check_mark: ](pgp-keys-map-2022.05.12.buildcompare) | 27K |
