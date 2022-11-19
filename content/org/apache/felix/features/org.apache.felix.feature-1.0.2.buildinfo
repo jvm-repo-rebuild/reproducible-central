@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=OSGi Feature Model API
+group-id=org.apache.felix
+artifact-id=org.apache.felix.feature
+version=1.0.2
+
+# source information
+source.scm.uri=scm:git:https://github.com/apache/felix-dev.git
+source.scm.tag=org.apache.felix.feature-1.0.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.felix.feature-1.0.2.pom
+outputs.0.length=5844
+outputs.0.checksums.sha512=e7e1a51db108ff24fd55bb1a64e1de32ad55f996c0b38f12b53f9e253435b17a02aa20e4d1349e78974369318b417924fe9444accd029c722e2c9d8d619f5068
+
+outputs.1.filename=org.apache.felix.feature-1.0.2.jar
+outputs.1.length=41094
+outputs.1.checksums.sha512=7cd41e005b63e21e28cc646364cb6f43c9bebc0ee0003fbd0065711007b8ba6ee84a8f21ddc01f8d8b4d2af51a2632ed0803feebc8e508c33027dfc3eed450a9
+
+outputs.2.filename=org.apache.felix.feature-1.0.2-source-release.zip
+outputs.2.length=33835
+outputs.2.checksums.sha512=69a62c4e7c597a18dde4cd603e45c47fdf0fa1b83fd2afcd2ade0d0d30c0fbd199cc766a10c47de2483d2cf88af84ad7cfb7dd184db9dea3cf6f16ff23303975
+
+outputs.3.filename=org.apache.felix.feature-1.0.2-source-release.tar.gz
+outputs.3.length=17569
+outputs.3.checksums.sha512=ffe8622642eff840cc741823604893baf60f37f37f79abfedd7865e0542af2d0c1fc58679d2717854110e919aed45e40ec21acd0c991e31e428a87ac9a1a4dec
+
+outputs.4.filename=org.apache.felix.feature-1.0.2-sources.jar
+outputs.4.length=23988
+outputs.4.checksums.sha512=a4a5e9c5d2c82caeee1a6bf3c85cd864630b09a07ba361ad5d0dd5e9583ec5c6ed682fbf1dd712871cc67df8fa8c926a82ee7a0e5cac4b7b889092a473487fae

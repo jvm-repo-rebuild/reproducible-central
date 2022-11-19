@@ -1,0 +1,17 @@
+groupId=org.apache.felix
+artifactId=org.apache.felix.feature
+display=${groupId}:${artifactId}
+version=1.0.2
+
+gitRepo=https://github.com/apache/felix-dev.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+root=features/
+command="mvn -f ${root} -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=${root}/target/${artifactId}-${version}.buildinfo
+
+issue=
