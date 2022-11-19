@@ -3,14 +3,15 @@
   <groupId>io.github.albertus82</groupId>
   <artifactId>unexepack</artifactId>
   <versioning>
-    <latest>0.2.1</latest>
-    <release>0.2.1</release>
+    <latest>0.2.2</latest>
+    <release>0.2.2</release>
     <versions>
       <version>0.1.0</version>
       <version>0.1.1</version>
       <version>0.2.0</version>
       <version>0.2.1</version>
+      <version>0.2.2</version>
     </versions>
-    <lastUpdated>20220213205418</lastUpdated>
+    <lastUpdated>20221118223250</lastUpdated>
   </versioning>
 </metadata>
