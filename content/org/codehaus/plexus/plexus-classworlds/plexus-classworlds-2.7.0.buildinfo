@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Classworlds
+group-id=org.codehaus.plexus
+artifact-id=plexus-classworlds
+version=2.7.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:codehaus-plexus/plexus-classworlds.git
+source.scm.tag=plexus-classworlds-2.7.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=plexus-classworlds-2.7.0.pom
+outputs.0.length=7647
+outputs.0.checksums.sha512=44b2559e150149049103a00de24aba0015014cd74e9b19562fe8d9353b4791c13f559078beb2ff0324ab955d0ad337ce0b453b49415103307e30edcfcc0aa4cf
+
+outputs.1.filename=plexus-classworlds-2.7.0.jar
+outputs.1.length=53341
+outputs.1.checksums.sha512=8057b6c7d52aaa61a51aba6ec613e8bd1a094d62a84d50a37bfe7776ff53780f1602b6169242c3a60b28c9d496458baaac5377575553e4af881643490ccda912
+
+outputs.2.filename=plexus-classworlds-2.7.0-source-release.zip
+outputs.2.length=124959
+outputs.2.checksums.sha512=cb7106f7610cae3b24c1f7559d2038b199fbaf33ed5917a69b1fd29819e9abdd92514c7cc126d8683e03c493f3f9a9c085433ad8fe569d3dd7e02d8caacee3d4
+
+outputs.3.filename=plexus-classworlds-2.7.0-sources.jar
+outputs.3.length=53911
+outputs.3.checksums.sha512=6fb23e716879547503b724fdd092262de4ca696d72ad3b90311112eea54db481bfe5487c3d993d700923892a7e7d977b815010259dbd88e78df48f6c91aa2149
