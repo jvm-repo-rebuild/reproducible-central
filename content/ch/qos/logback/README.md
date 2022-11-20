@@ -17,13 +17,13 @@ Source code: [https://github.com/qos-ch/logback.git](https://github.com/qos-ch/l
 * [ch.qos.logback:logback-site](https://search.maven.org/artifact/ch.qos.logback/logback-site/)
 </details>
 
-rebuilding **10 releases** of ch.qos.logback:logback-parent:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **11 releases** of ch.qos.logback:logback-parent:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.4.5](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.4.5/pom) | | | |
+| [1.4.5](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.4.5/pom) | [mvn jdk19](logback-1.4.5.buildspec) | [result](logback-parent-1.4.5.buildinfo): [16 :heavy_check_mark: ](logback-parent-1.4.5.buildcompare) | 3.1M |
 | [1.4.4](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.4.4/pom) | [mvn jdk19](logback-1.4.4.buildspec) | [result](logback-parent-1.4.4.buildinfo): [16 :heavy_check_mark: ](logback-parent-1.4.4.buildcompare) | 3.1M |
 | [1.4.3](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.4.3/pom) | [mvn jdk19](logback-1.4.3.buildspec) | [result](logback-parent-1.4.3.buildinfo): [16 :heavy_check_mark: ](logback-parent-1.4.3.buildcompare) | 3.1M |
 | [1.4.2](https://search.maven.org/artifact/ch.qos.logback/logback-parent/1.4.2/pom) | | | |

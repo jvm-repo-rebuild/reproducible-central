@@ -22,15 +22,15 @@ Source code: [https://github.com/abstracta/jmeter-java-dsl.git](https://github.c
 * [us.abstracta.jmeter:jmeter-java-dsl-wrapper](https://search.maven.org/artifact/us.abstracta.jmeter/jmeter-java-dsl-wrapper/)
 </details>
 
-rebuilding **2 releases** of us.abstracta.jmeter:jmeter-java-dsl-parent:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **5 releases** of us.abstracta.jmeter:jmeter-java-dsl-parent:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.3](https://search.maven.org/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.3/pom) | | | |
-| [1.2](https://search.maven.org/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.2/pom) | | | |
-| [1.1](https://search.maven.org/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.1/pom) | | | |
+| [1.3](https://search.maven.org/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.3/pom) | [mvn jdk8](jmeter-java-dsl-1.3.buildspec) | [result](jmeter-java-dsl-parent-1.3.buildinfo): [32 :heavy_check_mark: ](jmeter-java-dsl-parent-1.3.buildcompare) | 24M |
+| [1.2](https://search.maven.org/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.2/pom) | [mvn jdk8](jmeter-java-dsl-1.2.buildspec) | [result](jmeter-java-dsl-parent-1.2.buildinfo): [32 :heavy_check_mark: ](jmeter-java-dsl-parent-1.2.buildcompare) | 24M |
+| [1.1](https://search.maven.org/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.1/pom) | [mvn jdk8](jmeter-java-dsl-1.1.buildspec) | [result](jmeter-java-dsl-parent-1.1.buildinfo): [32 :heavy_check_mark: ](jmeter-java-dsl-parent-1.1.buildcompare) | 24M |
 | [1.0.2](https://search.maven.org/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.0.2/pom) | [mvn jdk8](jmeter-java-dsl-1.0.2.buildspec) | [result](jmeter-java-dsl-parent-1.0.2.buildinfo): [32 :heavy_check_mark: ](jmeter-java-dsl-parent-1.0.2.buildcompare) | 24M |
 | [1.0.1](https://search.maven.org/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.0.1/pom) | [mvn jdk8](jmeter-java-dsl-1.0.1.buildspec) | [result](jmeter-java-dsl-parent-1.0.1.buildinfo): [32 :heavy_check_mark: ](jmeter-java-dsl-parent-1.0.1.buildcompare) | 24M |
 

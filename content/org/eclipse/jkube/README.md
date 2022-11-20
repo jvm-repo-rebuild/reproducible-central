@@ -60,13 +60,13 @@ Source code: [https://github.com/eclipse/jkube.git](https://github.com/eclipse/j
 * [org.eclipse.jkube:openshift-maven-plugin-parent](https://search.maven.org/artifact/org.eclipse.jkube/openshift-maven-plugin-parent/)
 </details>
 
-rebuilding **13 releases** of org.eclipse.jkube:jkube:
-- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **14 releases** of org.eclipse.jkube:jkube:
+- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.10.1](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.10.1/pom) | | | |
+| [1.10.1](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.10.1/pom) | [mvn jdk8](jkube-1.10.1.buildspec) | [result](jkube-1.10.1.buildinfo): [117 :heavy_check_mark: ](jkube-1.10.1.buildcompare) | 3.0M |
 | [1.10.0](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.10.0/pom) | [mvn jdk8](jkube-1.10.0.buildspec) | [result](jkube-1.10.0.buildinfo): [117 :heavy_check_mark: ](jkube-1.10.0.buildcompare) | 3.0M |
 | [1.9.1](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.9.1/pom) | [mvn jdk8](jkube-1.9.1.buildspec) | [result](jkube-1.9.1.buildinfo): [108 :heavy_check_mark: ](jkube-1.9.1.buildcompare) | 3.0M |
 | [1.9.0](https://search.maven.org/artifact/org.eclipse.jkube/jkube/1.9.0/pom) | [mvn jdk8](jkube-1.9.0.buildspec) | [result](jkube-1.9.0.buildinfo): [108 :heavy_check_mark: ](jkube-1.9.0.buildcompare) | 3.0M |
