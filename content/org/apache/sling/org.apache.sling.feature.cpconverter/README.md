@@ -13,6 +13,7 @@ rebuilding **6 releases** of org.apache.sling:org.apache.sling.feature.cpconvert
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.1.24](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.cpconverter/1.1.24/pom) | | | |
 | [1.1.22](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.cpconverter/1.1.22/pom) | | | |
 | [1.1.20](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.cpconverter/1.1.20/pom) | [mvn jdk11](org.apache.sling.feature.cpconverter-1.1.20.buildspec) | [result](org.apache.sling.feature.cpconverter-1.1.20.buildinfo): [4 :heavy_check_mark:  2 :warning:](org.apache.sling.feature.cpconverter-1.1.20.buildcompare) | 19M |
 | [1.1.18](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.cpconverter/1.1.18/pom) | [mvn jdk11](org.apache.sling.feature.cpconverter-1.1.18.buildspec) | [result](org.apache.sling.feature.cpconverter-1.1.18.buildinfo): [4 :heavy_check_mark:  2 :warning:](org.apache.sling.feature.cpconverter-1.1.18.buildcompare) | 19M |
