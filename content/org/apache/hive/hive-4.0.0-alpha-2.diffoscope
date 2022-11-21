@@ -1,0 +1,435 @@
+1 / 20 target/reference/hive-4.0.0-alpha-2-source-release.zip target/hive-4.0.0-alpha-2-source-release.zip
+--- target/reference/hive-4.0.0-alpha-2-source-release.zip
++++ target/hive-4.0.0-alpha-2-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 49367537 bytes, number of entries: 23011
+│ +Zip file size: 49282860 bytes, number of entries: 23010
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-10 09:19 hive-4.0.0-alpha-2/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-10 09:19 hive-4.0.0-alpha-2/.github/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-10 09:19 hive-4.0.0-alpha-2/.github/actions/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-10 09:19 hive-4.0.0-alpha-2/.github/actions/spelling/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-10 09:19 hive-4.0.0-alpha-2/.github/workflows/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-10 09:19 hive-4.0.0-alpha-2/accumulo-handler/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-10 09:19 hive-4.0.0-alpha-2/accumulo-handler/src/
+│ @@ -2603,15 +2603,15 @@
+│  -rw-r--r--  2.0 unx     6252 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/cli/src/java/org/apache/hadoop/hive/cli/OptionsProcessor.java
+│  -rw-r--r--  2.0 unx     9744 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/cli/src/java/org/apache/hadoop/hive/cli/RCFileCat.java
+│  -rw-r--r--  2.0 unx    17372 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/cli/src/test/org/apache/hadoop/hive/cli/TestCliDriverMethods.java
+│  -rw-r--r--  2.0 unx     1373 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/cli/src/test/org/apache/hadoop/hive/cli/TestCliSessionState.java
+│  -rw-r--r--  2.0 unx     2790 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/cli/src/test/org/apache/hadoop/hive/cli/TestOptionsProcessor.java
+│  -rw-r--r--  2.0 unx     6626 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/cli/src/test/org/apache/hadoop/hive/cli/TestRCFileCat.java
+│  -rw-r--r--  2.0 unx    13789 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/common/pom.xml
+│ --rw-r--r--  2.0 unx      500 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/common/src/gen/org/apache/hive/common/package-info.java
+│ +-rw-r--r--  2.0 unx      384 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/common/src/gen/org/apache/hive/common/package-info.java
+│  -rw-r--r--  2.0 unx     6527 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/common/src/java/org/apache/hadoop/hive/ant/GenHiveTemplate.java
+│  -rw-r--r--  2.0 unx     2581 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/common/src/java/org/apache/hadoop/hive/common/BlobStorageUtils.java
+│  -rw-r--r--  2.0 unx     8233 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/common/src/java/org/apache/hadoop/hive/common/CompressionUtils.java
+│  -rw-r--r--  2.0 unx    11127 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/common/src/java/org/apache/hadoop/hive/common/CopyOnFirstWriteProperties.java
+│  -rw-r--r--  2.0 unx    49008 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/common/src/java/org/apache/hadoop/hive/common/FileUtils.java
+│  -rw-r--r--  2.0 unx    10395 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/common/src/java/org/apache/hadoop/hive/common/GcTimeMonitor.java
+│  -rw-r--r--  2.0 unx     6299 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/common/src/java/org/apache/hadoop/hive/common/HeapMemoryMonitor.java
+│ @@ -2767,15 +2767,14 @@
+│  -rw-r--r--  2.0 unx     5455 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/common/src/test/org/apache/hive/common/util/TestHiveStringUtils.java
+│  -rw-r--r--  2.0 unx     5795 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/common/src/test/org/apache/hive/common/util/TestRetryUtilities.java
+│  -rw-r--r--  2.0 unx     1452 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/common/src/test/org/apache/hive/common/util/TestShutdownHookManager.java
+│  -rw-r--r--  2.0 unx     7091 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/common/src/test/org/apache/hive/common/util/TestTimestampParser.java
+│  -rw-r--r--  2.0 unx     2246 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/common/src/test/resources/hive-exec-log4j2-test.properties
+│  -rw-r--r--  2.0 unx     2623 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/common/src/test/resources/hive-log4j2-test.properties
+│  -rw-r--r--  2.0 unx     1329 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/conf/configuration.xsl
+│ --rw-r--r--  2.0 unx   401141 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/conf/hive-default.xml.template
+│  -rw-r--r--  2.0 unx     2365 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/conf/hive-env.sh.template
+│  -rw-r--r--  2.0 unx      917 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/conf/hive-site.xml
+│  -rw-r--r--  2.0 unx     2060 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/conf/ivysettings.xml
+│  -rw-r--r--  2.0 unx     3580 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/contrib/data/files/s3.log
+│  -rw-r--r--  2.0 unx     3745 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/contrib/pom.xml
+│  -rw-r--r--  2.0 unx     5000 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/contrib/src/java/org/apache/hadoop/hive/contrib/fileformat/base64/Base64TextInputFormat.java
+│  -rw-r--r--  2.0 unx     4125 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/contrib/src/java/org/apache/hadoop/hive/contrib/fileformat/base64/Base64TextOutputFormat.java
+│ @@ -21924,15 +21923,15 @@
+│  -rw-r--r--  2.0 unx  2145076 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/standalone-metastore/metastore-common/src/gen/thrift/gen-py/hive_metastore/ThriftHiveMetastore.py
+│  -rw-r--r--  2.0 unx       57 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/standalone-metastore/metastore-common/src/gen/thrift/gen-py/hive_metastore/__init__.py
+│  -rw-r--r--  2.0 unx     1844 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/standalone-metastore/metastore-common/src/gen/thrift/gen-py/hive_metastore/constants.py
+│  -rw-r--r--  2.0 unx  1254745 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/standalone-metastore/metastore-common/src/gen/thrift/gen-py/hive_metastore/ttypes.py
+│  -rw-r--r--  2.0 unx     1757 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/standalone-metastore/metastore-common/src/gen/thrift/gen-rb/hive_metastore_constants.rb
+│  -rw-r--r--  2.0 unx   273162 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/standalone-metastore/metastore-common/src/gen/thrift/gen-rb/hive_metastore_types.rb
+│  -rw-r--r--  2.0 unx   541040 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/standalone-metastore/metastore-common/src/gen/thrift/gen-rb/thrift_hive_metastore.rb
+│ --rw-r--r--  2.0 unx      547 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/standalone-metastore/metastore-common/src/gen/version/org/apache/hadoop/hive/metastore/annotation/package-info.java
+│ +-rw-r--r--  2.0 unx      431 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/standalone-metastore/metastore-common/src/gen/version/org/apache/hadoop/hive/metastore/annotation/package-info.java
+│  -rw-r--r--  2.0 unx     3361 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/common/SSLZookeeperFactory.java
+│  -rw-r--r--  2.0 unx    13334 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/common/StatsSetupConst.java
+│  -rw-r--r--  2.0 unx     1440 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/common/ZKDeRegisterWatcher.java
+│  -rw-r--r--  2.0 unx    15109 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/common/ZooKeeperHiveHelper.java
+│  -rw-r--r--  2.0 unx     2186 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/common/classification/RetrySemantics.java
+│  -rw-r--r--  2.0 unx     9239 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/common/metrics/LegacyMetrics.java
+│  -rw-r--r--  2.0 unx     1658 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/standalone-metastore/metastore-common/src/main/java/org/apache/hadoop/hive/common/metrics/MetricsMBean.java
+│ @@ -23006,8 +23005,8 @@
+│  -rw-r--r--  2.0 unx     3171 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/upgrade-acid/pre-upgrade/src/test/java/org/apache/hadoop/hive/upgrade/acid/TestCloseableThreadLocal.java
+│  -rw-r--r--  2.0 unx    20607 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/upgrade-acid/pre-upgrade/src/test/java/org/apache/hadoop/hive/upgrade/acid/TestPreUpgradeTool.java
+│  -rw-r--r--  2.0 unx     2728 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/upgrade-acid/pre-upgrade/src/test/java/org/apache/hadoop/hive/upgrade/acid/TestRunOptions.java
+│  -rw-r--r--  2.0 unx     1705 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/vector-code-gen/pom.xml
+│  -rw-r--r--  2.0 unx   219097 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/vector-code-gen/src/org/apache/hadoop/hive/tools/GenVectorCode.java
+│  -rw-r--r--  2.0 unx    18996 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/vector-code-gen/src/org/apache/hadoop/hive/tools/GenVectorTestCode.java
+│  -rw-r--r--  2.0 unx      444 b- defN 22-Jul-10 09:19 hive-4.0.0-alpha-2/DEPENDENCIES
+│ -23011 files, 238497242 bytes uncompressed, 43570779 bytes compressed:  81.7%
+│ +23010 files, 238095869 bytes uncompressed, 43486276 bytes compressed:  81.7%
+├── zipnote {}
+│ @@ -8310,17 +8310,14 @@
+│  
+│  Filename: hive-4.0.0-alpha-2/common/src/test/resources/hive-log4j2-test.properties
+│  Comment: 
+│  
+│  Filename: hive-4.0.0-alpha-2/conf/configuration.xsl
+│  Comment: 
+│  
+│ -Filename: hive-4.0.0-alpha-2/conf/hive-default.xml.template
+│ -Comment: 
+│ -
+│  Filename: hive-4.0.0-alpha-2/conf/hive-env.sh.template
+│  Comment: 
+│  
+│  Filename: hive-4.0.0-alpha-2/conf/hive-site.xml
+│  Comment: 
+│  
+│  Filename: hive-4.0.0-alpha-2/conf/ivysettings.xml
+├── hive-4.0.0-alpha-2/common/src/gen/org/apache/hive/common/package-info.java
+│ @@ -1,8 +1,8 @@
+│  /*
+│   * Generated by saveVersion.sh
+│   */
+│  @HiveVersionAnnotation(version="4.0.0-alpha-2", shortVersion="4.0.0-alpha-2",
+│ -                         revision="36f5d91acb0fac00a5d46049bd45b744fe9aaab6", branch="branch-4.0.0-alpha-2",
+│ -                         user="denyskuzmenko", date="Mon Nov 7 18:56:27 CET 2022", url="git://KuzmenkoDenys-MBP15.local/Users/denyskuzmenko/projects/hive/releases/hive",
+│ -                         srcChecksum="f1575452aad9aec9977ae6f8b42ef58c")
+│ +                         revision="Unknown", branch="Unknown",
+│ +                         user="", date="Sun Nov 20 18:25:38 UTC 2022", url="file:///var/maven/app",
+│ +                         srcChecksum="3f2c49fbbecd7f07be9aa90964fcad16")
+│  package org.apache.hive.common;
+├── hive-4.0.0-alpha-2/standalone-metastore/metastore-common/src/gen/version/org/apache/hadoop/hive/metastore/annotation/package-info.java
+│ @@ -1,8 +1,8 @@
+│  /*
+│   * Generated by saveVersion.sh
+│   */
+│  @MetastoreVersionAnnotation(version="4.0.0-alpha-2", shortVersion="4.0.0-alpha-2",
+│ -                         revision="36f5d91acb0fac00a5d46049bd45b744fe9aaab6", branch="branch-4.0.0-alpha-2",
+│ -                         user="denyskuzmenko", date="Mon Nov 7 18:56:00 CET 2022", url="git://KuzmenkoDenys-MBP15.local/Users/denyskuzmenko/projects/hive/releases/hive/standalone-metastore",
+│ -                         srcChecksum="9a3c4ae7506b46da1b5d056a7671f4cd")
+│ +                         revision="Unknown", branch="Unknown",
+│ +                         user="", date="Sun Nov 20 18:25:32 UTC 2022", url="file:///var/maven/app/standalone-metastore",
+│ +                         srcChecksum="e436bde92c7f157ed3756c6f27b5c43a")
+│  package org.apache.hadoop.hive.metastore.annotation;
+
+...
+
+8 / 20 target/reference/hive-parser-4.0.0-alpha-2-sources.jar parser/target/hive-parser-4.0.0-alpha-2-sources.jar
+--- target/reference/hive-parser-4.0.0-alpha-2-sources.jar
++++ parser/target/hive-parser-4.0.0-alpha-2-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 819500 bytes, number of entries: 65
+│ +Zip file size: 819456 bytes, number of entries: 65
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Jul-10 09:19 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-10 09:19 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-10 09:19 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-10 09:19 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-10 09:19 org/apache/hadoop/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-10 09:19 org/apache/hadoop/hive/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-10 09:19 org/apache/hadoop/hive/ql/
+│ @@ -60,8 +60,8 @@
+│  -rw-r--r--  2.0 unx   664225 b- defN 22-Jul-10 09:19 org/apache/hadoop/hive/ql/parse/HiveParser_FromClauseParser.java
+│  -rw-r--r--  2.0 unx  1404907 b- defN 22-Jul-10 09:19 org/apache/hadoop/hive/ql/parse/HiveParser_IdentifiersParser.java
+│  -rw-r--r--  2.0 unx    55426 b- defN 22-Jul-10 09:19 org/apache/hadoop/hive/ql/parse/HiveParser_PrepareStatementParser.java
+│  -rw-r--r--  2.0 unx   285954 b- defN 22-Jul-10 09:19 org/apache/hadoop/hive/ql/parse/HiveParser_ResourcePlanParser.java
+│  -rw-r--r--  2.0 unx   284613 b- defN 22-Jul-10 09:19 org/apache/hadoop/hive/ql/parse/HiveParser_SelectClauseParser.java
+│  -rw-r--r--  2.0 unx     3786 b- defN 22-Jul-10 09:19 META-INF/maven/org.apache.hive/hive-parser/pom.xml
+│  -rw-r--r--  2.0 unx       69 b- defN 22-Jul-10 09:19 META-INF/maven/org.apache.hive/hive-parser/pom.properties
+│ -65 files, 6643730 bytes uncompressed, 809260 bytes compressed:  87.8%
+│ +65 files, 6643730 bytes uncompressed, 809216 bytes compressed:  87.8%
+├── org/apache/hadoop/hive/ql/parse/HintParser.java
+│ @@ -1,8 +1,8 @@
+│ -// $ANTLR 3.5.2 org/apache/hadoop/hive/ql/parse/HintParser.g 2022-11-07 18:56:54
+│ +// $ANTLR 3.5.2 org/apache/hadoop/hive/ql/parse/HintParser.g 2022-11-20 18:29:44
+│  
+│  package org.apache.hadoop.hive.ql.parse;
+│  
+│  import org.apache.hadoop.conf.Configuration;
+│  import org.apache.hadoop.hive.conf.HiveConf;
+│  
+│  
+│ @@ -823,15 +823,15 @@
+│  
+│  					}
+│  					break;
+│  
+│  			}
+│  
+│  			// AST REWRITE
+│ -			// elements: hintName, hintArgs
+│ +			// elements: hintArgs, hintName
+│  			// token labels: 
+│  			// rule labels: retval
+│  			// token list labels: 
+│  			// rule list labels: 
+│  			// wildcard labels: 
+│  			retval.tree = root_0;
+│  			RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.getTree():null);
+..
+├── org/apache/hadoop/hive/ql/parse/HiveParser.java
+│ @@ -1,8 +1,8 @@
+│ -// $ANTLR 3.5.2 org/apache/hadoop/hive/ql/parse/HiveParser.g 2022-11-07 19:16:39
+│ +// $ANTLR 3.5.2 org/apache/hadoop/hive/ql/parse/HiveParser.g 2022-11-20 18:29:42
+│  
+│  package org.apache.hadoop.hive.ql.parse;
+│  
+│  import java.util.Arrays;
+│  import java.util.ArrayList;
+│  import java.util.Collection;
+│  import java.util.HashMap;
+│ @@ -1728,15 +1728,15 @@
+│  
+│  					pushFollow(FOLLOW_execStatement_in_explainStatement1569);
+│  					execStatement7=execStatement();
+│  					state._fsp--;
+│  					if (state.failed) return retval;
+│  					if ( state.backtracking==0 ) stream_execStatement.add(execStatement7.getTree());
+│  					// AST REWRITE
+│ -					// elements: explainOption, execStatement
+│ +					// elements: execStatement, explainOption
+│  					// token labels: 
+│  					// rule labels: retval
+│  					// token list labels: 
+│  					// rule list labels: 
+│  					// wildcard labels: 
+│  					if ( state.backtracking==0 ) {
+│  					retval.tree = root_0;
+...
+│  	// $ANTLR end synpred24_HiveParser
+│  
+│  	// Delegated rules
+│ -	public HiveParser_AlterClauseParser.alterStatementSuffixDropConstraint_return alterStatementSuffixDropConstraint() throws RecognitionException { return gAlterClauseParser.alterStatementSuffixDropConstraint(); }
+│ +	public HiveParser_IdentifiersParser.precedenceAmpersandOperator_return precedenceAmpersandOperator() throws RecognitionException { return gIdentifiersParser.precedenceAmpersandOperator(); }
+│  
+│ -	public HiveParser_FromClauseParser.valuesTableConstructor_return valuesTableConstructor() throws RecognitionException { return gFromClauseParser.valuesTableConstructor(); }
+│ +	public HiveParser_FromClauseParser.tableName_return tableName() throws RecognitionException { return gFromClauseParser.tableName(); }
+...
+│  
+│  	public final boolean synpred18_HiveParser() {
+│  		state.backtracking++;
+│  		int start = input.mark();
+│  		try {
+│  			synpred18_HiveParser_fragment(); // can never throw exception
+│  		} catch (RecognitionException re) {
+...
+
+...
+
+11 / 20 target/reference/hive-exec-4.0.0-alpha-2.jar ql/target/hive-exec-4.0.0-alpha-2.jar
+--- target/reference/hive-exec-4.0.0-alpha-2.jar
++++ ql/target/hive-exec-4.0.0-alpha-2.jar
+├── zipinfo {}
+│ @@ -1,15211 +1,15211 @@
+│ -Zip file size: 69954929 bytes, number of entries: 37801
+│ --rw----     2.0 fat        0 bX defN 22-Nov-07 19:19 META-INF/
+│ +Zip file size: 69954828 bytes, number of entries: 37801
+│ +-rw----     2.0 fat        0 bX defN 22-Nov-20 18:30 META-INF/
+│  -rw----     2.0 fat      343 bl defN 22-Jul-10 09:19 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat    69128 bl defN 22-Jul-10 09:19 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 22-Jul-10 09:19 META-INF/LICENSE
+│  -rw----     2.0 fat      171 bl defN 22-Jul-10 09:19 META-INF/NOTICE
+│ --rw----     2.0 fat        0 bl defN 22-Nov-07 19:19 META-INF/org/
+│ --rw----     2.0 fat        0 bl defN 22-Nov-07 19:19 META-INF/org/apache/
+│ --rw----     2.0 fat        0 bl defN 22-Nov-07 19:19 META-INF/org/apache/logging/
+│ --rw----     2.0 fat        0 bl defN 22-Nov-07 19:19 META-INF/org/apache/logging/log4j/
+│ --rw----     2.0 fat        0 bl defN 22-Nov-07 19:19 META-INF/org/apache/logging/log4j/core/
+│ --rw----     2.0 fat        0 bl defN 22-Nov-07 19:19 META-INF/org/apache/logging/log4j/core/config/
+│ --rw----     2.0 fat        0 bl defN 22-Nov-07 19:19 META-INF/org/apache/logging/log4j/core/config/plugins/
+│ +-rw----     2.0 fat        0 bl defN 22-Nov-20 18:30 META-INF/org/
+│ +-rw----     2.0 fat        0 bl defN 22-Nov-20 18:30 META-INF/org/apache/
+│ +-rw----     2.0 fat        0 bl defN 22-Nov-20 18:30 META-INF/org/apache/logging/
+│ +-rw----     2.0 fat        0 bl defN 22-Nov-20 18:30 META-INF/org/apache/logging/log4j/
+│ +-rw----     2.0 fat        0 bl defN 22-Nov-20 18:30 META-INF/org/apache/logging/log4j/core/
+│ +-rw----     2.0 fat        0 bl defN 22-Nov-20 18:30 META-INF/org/apache/logging/log4j/core/config/
+│ +-rw----     2.0 fat        0 bl defN 22-Nov-20 18:30 META-INF/org/apache/logging/log4j/core/config/plugins/
+...
+
+13 / 20 target/reference/hive-jdbc-4.0.0-alpha-2-standalone.jar jdbc/target/hive-jdbc-4.0.0-alpha-2-standalone.jar
+--- target/reference/hive-jdbc-4.0.0-alpha-2-standalone.jar
++++ jdbc/target/hive-jdbc-4.0.0-alpha-2-standalone.jar
+├── zipinfo {}
+│ @@ -1,22300 +1,22300 @@
+│ -Zip file size: 73675197 bytes, number of entries: 45806
+│ --rw----     2.0 fat        0 bX defN 22-Nov-07 19:23 META-INF/
+│ +Zip file size: 73675048 bytes, number of entries: 45806
+│ +-rw----     2.0 fat        0 bX defN 22-Nov-20 18:30 META-INF/
+│  -rw----     2.0 fat      323 bl defN 22-Jul-10 09:19 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat    54679 bl defN 22-Jul-10 09:19 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 22-Jul-10 09:19 META-INF/LICENSE
+│  -rw----     2.0 fat      161 bl defN 22-Jul-10 09:19 META-INF/NOTICE
+│ --rw----     2.0 fat        0 bl defN 22-Nov-07 19:23 META-INF/services/
+│ +-rw----     2.0 fat        0 bl defN 22-Nov-20 18:30 META-INF/services/
+│  -rw----     2.0 fat       32 bl defN 22-Jul-10 09:19 META-INF/services/java.sql.Driver
+│ --rw----     2.0 fat        0 bl defN 22-Nov-07 19:23 org/
+│ --rw----     2.0 fat        0 bl defN 22-Nov-07 19:23 org/apache/
+│ --rw----     2.0 fat        0 bl defN 22-Nov-07 19:23 org/apache/hive/
+│ --rw----     2.0 fat        0 bl defN 22-Nov-07 19:23 org/apache/hive/jdbc/
+...
+
+14 / 20 target/reference/hive-druid-handler-4.0.0-alpha-2.jar druid-handler/target/hive-druid-handler-4.0.0-alpha-2.jar
+--- target/reference/hive-druid-handler-4.0.0-alpha-2.jar
++++ druid-handler/target/hive-druid-handler-4.0.0-alpha-2.jar
+├── zipinfo {}
+│ @@ -1,14816 +1,14816 @@
+│  Zip file size: 53401182 bytes, number of entries: 29190
+│ --rw----     2.0 fat        0 bX defN 22-Nov-07 19:25 META-INF/
+│ +-rw----     2.0 fat        0 bX defN 22-Nov-20 18:30 META-INF/
+│  -rw----     2.0 fat      341 bl defN 22-Jul-10 09:19 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat    63283 bl defN 22-Jul-10 09:19 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 22-Jul-10 09:19 META-INF/LICENSE
+│  -rw----     2.0 fat      170 bl defN 22-Jul-10 09:19 META-INF/NOTICE
+│ --rw----     2.0 fat        0 bl defN 22-Nov-07 19:25 org/
+│ --rw----     2.0 fat        0 bl defN 22-Nov-07 19:25 org/apache/
+│ --rw----     2.0 fat        0 bl defN 22-Nov-07 19:25 org/apache/hadoop/
+│ --rw----     2.0 fat        0 bl defN 22-Nov-07 19:25 org/apache/hadoop/hive/
+│ --rw----     2.0 fat        0 bl defN 22-Nov-07 19:25 org/apache/hadoop/hive/druid/
+...
+
+17 / 20 target/reference/hive-webhcat-4.0.0-alpha-2.jar hcatalog/webhcat/svr/target/hive-webhcat-4.0.0-alpha-2.jar
+--- target/reference/hive-webhcat-4.0.0-alpha-2.jar
++++ hcatalog/webhcat/svr/target/hive-webhcat-4.0.0-alpha-2.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 240114 bytes, number of entries: 129
+│ +Zip file size: 229390 bytes, number of entries: 128
+│  -rw-r--r--  2.0 unx      347 b- defN 22-Jul-10 09:19 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-10 09:19 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-10 09:19 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-10 09:19 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-10 09:19 org/apache/hive/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-10 09:19 org/apache/hive/hcatalog/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-10 09:19 org/apache/hive/hcatalog/templeton/
+│ @@ -119,13 +119,12 @@
+│  -rw-r--r--  2.0 unx     1294 b- defN 22-Jul-10 09:19 org/apache/hive/hcatalog/templeton/tool/TempletonStorage.class
+│  -rw-r--r--  2.0 unx     1522 b- defN 22-Jul-10 09:19 org/apache/hive/hcatalog/templeton/tool/TempletonUtils$1.class
+│  -rw-r--r--  2.0 unx    15240 b- defN 22-Jul-10 09:19 org/apache/hive/hcatalog/templeton/tool/TempletonUtils.class
+│  -rw-r--r--  2.0 unx     4339 b- defN 22-Jul-10 09:19 org/apache/hive/hcatalog/templeton/tool/TrivialExecService.class
+│  -rw-r--r--  2.0 unx     6068 b- defN 22-Jul-10 09:19 org/apache/hive/hcatalog/templeton/tool/ZooKeeperCleanup.class
+│  -rw-r--r--  2.0 unx      972 b- defN 22-Jul-10 09:19 org/apache/hive/hcatalog/templeton/tool/ZooKeeperStorage$1.class
+│  -rw-r--r--  2.0 unx    12290 b- defN 22-Jul-10 09:19 org/apache/hive/hcatalog/templeton/tool/ZooKeeperStorage.class
+│ --rw-r--r--  2.0 unx    76678 b- defN 22-Jul-10 09:19 resourcedoc.xml
+│  -rw-r--r--  2.0 unx    13903 b- defN 22-Jul-10 09:19 webhcat-default.xml
+│  -rw-r--r--  2.0 unx     2708 b- defN 22-Jul-10 09:19 webhcat-log4j2.properties
+│  -rw-r--r--  2.0 unx     9577 b- defN 22-Jul-10 09:19 META-INF/maven/org.apache.hive.hcatalog/hive-webhcat/pom.xml
+│  -rw-r--r--  2.0 unx       79 b- defN 22-Jul-10 09:19 META-INF/maven/org.apache.hive.hcatalog/hive-webhcat/pom.properties
+│ -129 files, 609224 bytes uncompressed, 216080 bytes compressed:  64.5%
+│ +128 files, 532546 bytes uncompressed, 205462 bytes compressed:  61.4%
+├── zipnote «TEMP»/diffoscope_j0pgubzp_target/tmpxic48n10_.zip
+│ @@ -366,17 +366,14 @@
+│  
+│  Filename: org/apache/hive/hcatalog/templeton/tool/ZooKeeperStorage$1.class
+│  Comment: 
+│  
+│  Filename: org/apache/hive/hcatalog/templeton/tool/ZooKeeperStorage.class
+│  Comment: 
+│  
+│ -Filename: resourcedoc.xml
+│ -Comment: 
+│ -
+│  Filename: webhcat-default.xml
+│  Comment: 
+│  
+│  Filename: webhcat-log4j2.properties
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.hive.hcatalog/hive-webhcat/pom.xml
+
+18 / 20 target/reference/hive-kudu-handler-4.0.0-alpha-2.jar kudu-handler/target/hive-kudu-handler-4.0.0-alpha-2.jar
+--- target/reference/hive-kudu-handler-4.0.0-alpha-2.jar
++++ kudu-handler/target/hive-kudu-handler-4.0.0-alpha-2.jar
+├── zipinfo {}
+│ @@ -1,7699 +1,7699 @@
+│  Zip file size: 14575469 bytes, number of entries: 7697
+│ --rw----     2.0 fat        0 bX defN 22-Nov-07 19:28 META-INF/
+│ +-rw----     2.0 fat        0 bX defN 22-Nov-20 18:31 META-INF/
+│  -rw----     2.0 fat      339 bl defN 22-Jul-10 09:19 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat      893 bl defN 22-Jul-10 09:19 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 22-Jul-10 09:19 META-INF/LICENSE
+│  -rw----     2.0 fat      169 bl defN 22-Jul-10 09:19 META-INF/NOTICE
+│ --rw----     2.0 fat        0 bl defN 22-Nov-07 19:28 org/
+│ --rw----     2.0 fat        0 bl defN 22-Nov-07 19:28 org/apache/
+│ --rw----     2.0 fat        0 bl defN 22-Nov-07 19:28 org/apache/hadoop/
+│ --rw----     2.0 fat        0 bl defN 22-Nov-07 19:28 org/apache/hadoop/hive/
+│ --rw----     2.0 fat        0 bl defN 22-Nov-07 19:28 org/apache/hadoop/hive/kudu/
+│ --rw----     2.0 fat     1158 bl defN 22-Nov-07 19:28 org/apache/hadoop/hive/kudu/KuduHiveUtils$1.class
+│ --rw----     2.0 fat     6718 bl defN 22-Nov-07 19:28 org/apache/hadoop/hive/kudu/KuduHiveUtils.class
+│ --rw----     2.0 fat     2422 bl defN 22-Nov-07 19:28 org/apache/hadoop/hive/kudu/KuduInputFormat$KuduInputSplit.class
+│ --rw----     2.0 fat     6012 bl defN 22-Nov-07 19:28 org/apache/hadoop/hive/kudu/KuduInputFormat$KuduRecordReader.class
+│ --rw----     2.0 fat    10912 bl defN 22-Nov-07 19:28 org/apache/hadoop/hive/kudu/KuduInputFormat.class
+│ --rw----     2.0 fat     1177 bl defN 22-Nov-07 19:28 org/apache/hadoop/hive/kudu/KuduOutputFormat$KuduOuputComitter.class
+│ --rw----     2.0 fat     6324 bl defN 22-Nov-07 19:28 org/apache/hadoop/hive/kudu/KuduOutputFormat$KuduRecordWriter.class
+│ --rw----     2.0 fat     3612 bl defN 22-Nov-07 19:28 org/apache/hadoop/hive/kudu/KuduOutputFormat.class
+│ --rw----     2.0 fat     1753 bl defN 22-Nov-07 19:28 org/apache/hadoop/hive/kudu/KuduPredicateHandler$1.class
+│ --rw----     2.0 fat    12140 bl defN 22-Nov-07 19:28 org/apache/hadoop/hive/kudu/KuduPredicateHandler.class
+│ --rw----     2.0 fat     2155 bl defN 22-Nov-07 19:28 org/apache/hadoop/hive/kudu/KuduSerDe$1.class
+│ --rw----     2.0 fat    14172 bl defN 22-Nov-07 19:28 org/apache/hadoop/hive/kudu/KuduSerDe.class
+│ --rw----     2.0 fat     8425 bl defN 22-Nov-07 19:28 org/apache/hadoop/hive/kudu/KuduStorageHandler.class
+│ --rw----     2.0 fat     3077 bl defN 22-Nov-07 19:28 org/apache/hadoop/hive/kudu/KuduWritable.class
+│ --rw----     2.0 fat        0 bl defN 22-Nov-07 19:28 META-INF/maven/
+│ --rw----     2.0 fat        0 bl defN 22-Nov-07 19:28 META-INF/maven/org.apache.hive/
+│ --rw----     2.0 fat        0 bl defN 22-Nov-07 19:28 META-INF/maven/org.apache.hive/hive-kudu-handler/
+│ +-rw----     2.0 fat        0 bl defN 22-Nov-20 18:31 org/
+│ +-rw----     2.0 fat        0 bl defN 22-Nov-20 18:31 org/apache/
+│ +-rw----     2.0 fat        0 bl defN 22-Nov-20 18:31 org/apache/hadoop/
+│ +-rw----     2.0 fat        0 bl defN 22-Nov-20 18:31 org/apache/hadoop/hive/
+│ +-rw----     2.0 fat        0 bl defN 22-Nov-20 18:31 org/apache/hadoop/hive/kudu/
+│ +-rw----     2.0 fat     1158 bl defN 22-Nov-20 18:31 org/apache/hadoop/hive/kudu/KuduHiveUtils$1.class
+│ +-rw----     2.0 fat     6718 bl defN 22-Nov-20 18:31 org/apache/hadoop/hive/kudu/KuduHiveUtils.class
+│ +-rw----     2.0 fat     2422 bl defN 22-Nov-20 18:31 org/apache/hadoop/hive/kudu/KuduInputFormat$KuduInputSplit.class
+│ +-rw----     2.0 fat     6012 bl defN 22-Nov-20 18:31 org/apache/hadoop/hive/kudu/KuduInputFormat$KuduRecordReader.class
+│ +-rw----     2.0 fat    10912 bl defN 22-Nov-20 18:31 org/apache/hadoop/hive/kudu/KuduInputFormat.class
+│ +-rw----     2.0 fat     1177 bl defN 22-Nov-20 18:31 org/apache/hadoop/hive/kudu/KuduOutputFormat$KuduOuputComitter.class
+│ +-rw----     2.0 fat     6324 bl defN 22-Nov-20 18:31 org/apache/hadoop/hive/kudu/KuduOutputFormat$KuduRecordWriter.class
+│ +-rw----     2.0 fat     3612 bl defN 22-Nov-20 18:31 org/apache/hadoop/hive/kudu/KuduOutputFormat.class
+│ +-rw----     2.0 fat     1753 bl defN 22-Nov-20 18:31 org/apache/hadoop/hive/kudu/KuduPredicateHandler$1.class
+│ +-rw----     2.0 fat    12140 bl defN 22-Nov-20 18:31 org/apache/hadoop/hive/kudu/KuduPredicateHandler.class
+│ +-rw----     2.0 fat     2155 bl defN 22-Nov-20 18:31 org/apache/hadoop/hive/kudu/KuduSerDe$1.class
+│ +-rw----     2.0 fat    14172 bl defN 22-Nov-20 18:31 org/apache/hadoop/hive/kudu/KuduSerDe.class
+│ +-rw----     2.0 fat     8425 bl defN 22-Nov-20 18:31 org/apache/hadoop/hive/kudu/KuduStorageHandler.class
+│ +-rw----     2.0 fat     3077 bl defN 22-Nov-20 18:31 org/apache/hadoop/hive/kudu/KuduWritable.class
+│ +-rw----     2.0 fat        0 bl defN 22-Nov-20 18:31 META-INF/maven/
+│ +-rw----     2.0 fat        0 bl defN 22-Nov-20 18:31 META-INF/maven/org.apache.hive/
+│ +-rw----     2.0 fat        0 bl defN 22-Nov-20 18:31 META-INF/maven/org.apache.hive/hive-kudu-handler/
+...
+
+20 / 20 target/reference/hive-metastore-benchmarks-4.0.0-alpha-2.jar standalone-metastore/metastore-tools/metastore-benchmarks/target/hive-metastore-benchmarks-4.0.0-alpha-2.jar
+--- target/reference/hive-metastore-benchmarks-4.0.0-alpha-2.jar
++++ standalone-metastore/metastore-tools/metastore-benchmarks/target/hive-metastore-benchmarks-4.0.0-alpha-2.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 124374 bytes, number of entries: 74
+│ +Zip file size: 124375 bytes, number of entries: 74
+│  -rw-r--r--  2.0 unx      355 b- defN 22-Jul-10 09:19 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-10 09:19 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-10 09:19 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-10 09:19 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-10 09:19 org/apache/hadoop/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-10 09:19 org/apache/hadoop/hive/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jul-10 09:19 org/apache/hadoop/hive/metastore/
+│ @@ -69,8 +69,8 @@
+│  -rw-r--r--  2.0 unx      495 b- defN 22-Jul-10 09:19 org/apache/hadoop/hive/metastore/tools/generated/ACIDBenchmarks_TestOpenTxn_jmhType.class
+│  -rw-r--r--  2.0 unx     4431 b- defN 22-Jul-10 09:19 org/apache/hadoop/hive/metastore/tools/generated/ACIDBenchmarks_TestOpenTxn_jmhType_B1.class
+│  -rw-r--r--  2.0 unx     1619 b- defN 22-Jul-10 09:19 org/apache/hadoop/hive/metastore/tools/generated/ACIDBenchmarks_TestOpenTxn_jmhType_B2.class
+│  -rw-r--r--  2.0 unx     4348 b- defN 22-Jul-10 09:19 org/apache/hadoop/hive/metastore/tools/generated/ACIDBenchmarks_TestOpenTxn_jmhType_B3.class
+│  -rw-r--r--  2.0 unx    17891 b- defN 22-Jul-10 09:19 org/apache/hadoop/hive/metastore/tools/generated/ACIDBenchmarks_TestOpenTxn_openTxn_jmhTest.class
+│  -rw-r--r--  2.0 unx     7149 b- defN 22-Jul-10 09:19 META-INF/maven/org.apache.hive/hive-metastore-benchmarks/pom.xml
+│  -rw-r--r--  2.0 unx       83 b- defN 22-Jul-10 09:19 META-INF/maven/org.apache.hive/hive-metastore-benchmarks/pom.properties
+│ -74 files, 353660 bytes uncompressed, 107828 bytes compressed:  69.5%
+│ +74 files, 353660 bytes uncompressed, 107829 bytes compressed:  69.5%
+├── META-INF/BenchmarkList
+│┄ Ordering differences only
+│ @@ -1,4 +1,4 @@
+│ -JMH S 79 org.apache.hadoop.hive.metastore.tools.ACIDBenchmarks.TestAllocateTableWriteIds S 119 org.apache.hadoop.hive.metastore.tools.generated.ACIDBenchmarks_TestAllocateTableWriteIds_allocateTableWriteIds_jmhTest S 21 allocateTableWriteIds S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E M 1 7 howMany 1 1 1 E E E 
+│ -JMH S 65 org.apache.hadoop.hive.metastore.tools.ACIDBenchmarks.TestOpenTxn S 91 org.apache.hadoop.hive.metastore.tools.generated.ACIDBenchmarks_TestOpenTxn_openTxn_jmhTest S 7 openTxn S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E M 1 7 howMany 1 1 1 E E E 
+│  JMH S 65 org.apache.hadoop.hive.metastore.tools.ACIDBenchmarks.TestLocking S 88 org.apache.hadoop.hive.metastore.tools.generated.ACIDBenchmarks_TestLocking_lock_jmhTest S 4 lock S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E M 2 7 howMany 1 1 1 11 nPartitions 1 1 0 E E E 
+│ +JMH S 65 org.apache.hadoop.hive.metastore.tools.ACIDBenchmarks.TestOpenTxn S 91 org.apache.hadoop.hive.metastore.tools.generated.ACIDBenchmarks_TestOpenTxn_openTxn_jmhTest S 7 openTxn S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E M 1 7 howMany 1 1 1 E E E 
+│ +JMH S 79 org.apache.hadoop.hive.metastore.tools.ACIDBenchmarks.TestAllocateTableWriteIds S 119 org.apache.hadoop.hive.metastore.tools.generated.ACIDBenchmarks_TestAllocateTableWriteIds_allocateTableWriteIds_jmhTest S 21 allocateTableWriteIds S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E M 1 7 howMany 1 1 1 E E E 
+│  JMH S 74 org.apache.hadoop.hive.metastore.tools.ACIDBenchmarks.TestGetValidWriteIds S 109 org.apache.hadoop.hive.metastore.tools.generated.ACIDBenchmarks_TestGetValidWriteIds_getValidWriteIds_jmhTest S 16 getValidWriteIds S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E M 1 7 howMany 1 1 1 E E E
+

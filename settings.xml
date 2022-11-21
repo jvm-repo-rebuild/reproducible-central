@@ -172,9 +172,19 @@
       <url>https://jaspersoft.jfrog.io/jaspersoft/third-party-ce-artifacts/</url>
     </mirror>
     <mirror>
-      <id>shibboleth</id>
+      <id>B_shibboleth</id>
       <mirrorOf>B_shibboleth</mirrorOf>
       <url>https://build.shibboleth.net/nexus/content/repositories/releases/</url>
+    </mirror>
+    <mirror>
+      <id>shibboleth</id>
+      <mirrorOf>shibboleth</mirrorOf>
+      <url>https://build.shibboleth.net/nexus/content/repositories/releases/</url>
+    </mirror>
+    <mirror>
+      <id>sigar</id>
+      <mirrorOf>sigar</mirrorOf>
+      <url>https://repository.jboss.org/nexus/content/repositories/thirdparty-uploads/</url>
     </mirror>
     <mirror>
       <id>default</id>
