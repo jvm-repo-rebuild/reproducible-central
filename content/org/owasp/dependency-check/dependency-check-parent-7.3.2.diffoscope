@@ -1,0 +1,50 @@
+1 / 8 target/reference/dependency-check-utils-7.3.2.jar utils/target/dependency-check-utils-7.3.2.jar
+--- target/reference/dependency-check-utils-7.3.2.jar
++++ utils/target/dependency-check-utils-7.3.2.jar
+├── zipinfo {}
+│ @@ -1,20 +1,20 @@
+│ -Zip file size: 55207 bytes, number of entries: 41
+│ +Zip file size: 55209 bytes, number of entries: 41
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-18 11:46 META-INF/
+│  -rw-r--r--  2.0 unx      189 b- defN 22-Nov-18 11:46 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-18 11:46 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-18 11:46 org/owasp/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-18 11:46 org/owasp/dependencycheck/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-18 11:46 org/owasp/dependencycheck/utils/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-18 11:46 org/owasp/dependencycheck/utils/processing/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-18 11:46 org/owasp/dependencycheck/utils/search/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-18 11:46 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-18 11:46 META-INF/maven/org.owasp/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-18 11:46 META-INF/maven/org.owasp/dependency-check-utils/
+│ --rw-r--r--  2.0 unx      793 b- defN 22-Nov-18 11:46 git.properties
+│ +-rw-r--r--  2.0 unx      796 b- defN 22-Nov-18 11:46 git.properties
+│  -rw-r--r--  2.0 unx     5297 b- defN 22-Nov-18 11:46 org/owasp/dependencycheck/utils/Checksum.class
+│  -rw-r--r--  2.0 unx      619 b- defN 22-Nov-18 11:46 org/owasp/dependencycheck/utils/CveUrlParser.class
+│  -rw-r--r--  2.0 unx     1585 b- defN 22-Nov-18 11:46 org/owasp/dependencycheck/utils/DefaultCveUrlModifiedParser.class
+│  -rw-r--r--  2.0 unx      850 b- defN 22-Nov-18 11:46 org/owasp/dependencycheck/utils/DownloadFailedException.class
+│  -rw-r--r--  2.0 unx     5402 b- defN 22-Nov-18 11:46 org/owasp/dependencycheck/utils/Downloader.class
+│  -rw-r--r--  2.0 unx     1497 b- defN 22-Nov-18 11:46 org/owasp/dependencycheck/utils/ExpectedObjectInputStream.class
+│  -rw-r--r--  2.0 unx      838 b- defN 22-Nov-18 11:46 org/owasp/dependencycheck/utils/ExtractionException.class
+│ @@ -36,8 +36,8 @@
+│  -rw-r--r--  2.0 unx     3154 b- defN 22-Nov-18 11:46 org/owasp/dependencycheck/utils/processing/ProcessReader.class
+│  -rw-r--r--  2.0 unx     1499 b- defN 22-Nov-18 11:46 org/owasp/dependencycheck/utils/processing/Processor.class
+│  -rw-r--r--  2.0 unx      148 b- defN 22-Nov-18 11:46 org/owasp/dependencycheck/utils/processing/package-info.class
+│  -rw-r--r--  2.0 unx     3163 b- defN 22-Nov-18 11:46 org/owasp/dependencycheck/utils/search/FileContentSearch.class
+│  -rw-r--r--  2.0 unx      144 b- defN 22-Nov-18 11:46 org/owasp/dependencycheck/utils/search/package-info.class
+│  -rw-r--r--  2.0 unx     4440 b- defN 22-Nov-18 11:46 META-INF/maven/org.owasp/dependency-check-utils/pom.xml
+│  -rw-r--r--  2.0 unx       66 b- defN 22-Nov-18 11:46 META-INF/maven/org.owasp/dependency-check-utils/pom.properties
+│ -41 files, 105253 bytes uncompressed, 48163 bytes compressed:  54.2%
+│ +41 files, 105256 bytes uncompressed, 48165 bytes compressed:  54.2%
+├── git.properties
+│ @@ -13,8 +13,8 @@
+│  git.commit.message.short=[maven-release-plugin] prepare release v7.3.2
+│  git.commit.time=2022-11-18T11\:46\:38Z
+│  git.dirty=false
+│  git.local.branch.ahead=NO_REMOTE
+│  git.local.branch.behind=NO_REMOTE
+│  git.remote.origin.url=https\://github.com/jeremylong/DependencyCheck
+│  git.tags=v7.3.2
+│ -git.total.commit.count=1
+│ +git.total.commit.count=9052
+
+...
