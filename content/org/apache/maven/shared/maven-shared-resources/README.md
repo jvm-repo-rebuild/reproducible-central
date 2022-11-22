@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.apache.maven.shared:maven-shared-resources:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [5](https://search.maven.org/artifact/org.apache.maven.shared/maven-shared-resources/5/pom) | | | |
 | [4](https://search.maven.org/artifact/org.apache.maven.shared/maven-shared-resources/4/pom) | [mvn jdk17 w](maven-shared-resources-4.buildspec) | [result](maven-shared-resources-4.buildinfo): [4 :heavy_check_mark: ](maven-shared-resources-4.buildcompare) | 54K |
 | [3](https://search.maven.org/artifact/org.apache.maven.shared/maven-shared-resources/3/pom) | [mvn jdk17 w](maven-shared-resources-3.buildspec) | [result](maven-shared-resources-3.buildinfo): [4 :heavy_check_mark: ](maven-shared-resources-3.buildcompare) | 53K |
 

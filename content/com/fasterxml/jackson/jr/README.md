@@ -23,6 +23,7 @@ rebuilding **2 releases** of com.fasterxml.jackson.jr:jackson-jr-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.14.1](https://search.maven.org/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.14.1/pom) | | | |
 | [2.14.0](https://search.maven.org/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.14.0/pom) | | | |
 | [2.14.0-rc3](https://search.maven.org/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.14.0-rc3/pom) | | | |
 | [2.14.0-rc2](https://search.maven.org/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.14.0-rc2/pom) | [mvn jdk8](jackson-jr-2.14.0-rc2.buildspec) | [result](jackson-jr-parent-2.14.0-rc2.buildinfo): [11 :heavy_check_mark:  9 :warning:](jackson-jr-parent-2.14.0-rc2.buildcompare) [:mag:](jackson-jr-parent-2.14.0-rc2.diffoscope) | 1.5M |
