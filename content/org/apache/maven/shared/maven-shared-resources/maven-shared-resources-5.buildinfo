@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Shared Resources
+group-id=org.apache.maven.shared
+artifact-id=maven-shared-resources
+version=5
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-shared-resources.git
+source.scm.tag=maven-shared-resources-5
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=maven-shared-resources-5.pom
+outputs.0.length=3404
+outputs.0.checksums.sha512=05120cded31741c10d8b95e32789c8037b23380bed018e1bf179c9aa8a186205df31a3a3cc7271bc1ad02face64607f5bfd2017e9a4c9e9f922233d2f5b3667b
+
+outputs.1.filename=maven-shared-resources-5.jar
+outputs.1.length=18423
+outputs.1.checksums.sha512=644a82ffd03f67e4b852200cdfe6f4588f8994ea13ee8268cece78422c93bd9d01c536f71a3660be6b662067b18776d11939231b65082a818ab3bac05b20e78d
+
+outputs.2.filename=maven-shared-resources-5-source-release.zip
+outputs.2.length=29435
+outputs.2.checksums.sha512=9c96665917fb767da1b1bba5e84f7f9e30e098252bbd81b1dc677be810404afa72b64597d00b3ae51930dcf31065df7a6652538e6f665e583699080989550732
+
+outputs.3.filename=maven-shared-resources-5-sources.jar
+outputs.3.length=18318
+outputs.3.checksums.sha512=c82c3bc13eabbd02216739a41d342f930494dbe49f886c0b6be6aca557bef9502fed835c287e44ce24de2b532fa7ecd023369faa86ce4cf733ab0a397fa7cf21
