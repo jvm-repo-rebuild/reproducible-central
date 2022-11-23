@@ -1,0 +1,5 @@
+version=38
+ok=14
+ko=0
+okFiles="maven-parent-38.pom maven-parent-38-site.xml maven-parent-38-source-release.zip maven-extensions-38.pom maven-extensions-38-site.xml maven-plugins-38.pom maven-plugins-38-site.xml maven-shared-components-38.pom maven-shared-components-38-site.xml maven-skins-38.pom maven-skins-38-site.xml doxia-tools-38.pom doxia-tools-38-site.xml apache-resource-bundles-38.pom"
+koFiles=""
