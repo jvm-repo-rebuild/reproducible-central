@@ -1,0 +1,7 @@
+version=2.14.1
+ok=2
+ko=2
+okFiles="jackson-databind-2.14.1.pom jackson-databind-2.14.1-sources.jar"
+koFiles="jackson-databind-2.14.1.jar jackson-databind-2.14.1.module"
+# diffoscope target/reference/jackson-databind-2.14.1.jar target/jackson-databind-2.14.1.jar
+# diffoscope target/reference/jackson-databind-2.14.1.module target/publications/maven/module.json
