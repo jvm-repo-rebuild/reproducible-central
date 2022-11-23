@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Gherkin Utils
+group-id=io.cucumber
+artifact-id=gherkin-utils
+version=8.0.2
+
+# source information
+source.scm.uri=scm:git:git://github.com/cucumber/common.git
+source.scm.tag=v8.0.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=gherkin-utils-8.0.2.pom
+outputs.0.length=1658
+outputs.0.checksums.sha512=035d03a748d0e0b7e7f0f41d040e410ecb508a65af2a85a55e9eeb91ea08d2f4e4f599ea42093a7e5b6957abdb76c87e5f559721fd25e3b2a2930c1b146d56ad
+
+outputs.1.filename=gherkin-utils-8.0.2.jar
+outputs.1.length=16481
+outputs.1.checksums.sha512=37b5bf015ac4f9a1f8379f9ca52c1493adee6b759d7c8bd6c720e2e70a1da8f660da8749473799f0b0abe6fb1f1b095650637972d9fb8aa7c6a24a471cd6dee3
+
+outputs.2.filename=gherkin-utils-8.0.2-sources.jar
+outputs.2.length=8738
+outputs.2.checksums.sha512=2206205b8de7ffb0cb75788fbdf6b4f2db5ae88431a4982724824c4f2883347b53eeac227993d3351974fe91ca69cad1218effba07c93850973af213fa518790
