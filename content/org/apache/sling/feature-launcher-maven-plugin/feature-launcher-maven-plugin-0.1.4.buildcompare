@@ -1,0 +1,7 @@
+version=0.1.4
+ok=4
+ko=0
+okFiles="feature-launcher-maven-plugin-0.1.4.pom feature-launcher-maven-plugin-0.1.4.jar feature-launcher-maven-plugin-0.1.4-source-release.zip feature-launcher-maven-plugin-0.1.4-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
