@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.mybatis:mybatis-cdi:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.1.3](https://search.maven.org/artifact/org.mybatis/mybatis-cdi/1.1.3/pom) | | | |
 | [1.1.2](https://search.maven.org/artifact/org.mybatis/mybatis-cdi/1.1.2/pom) | [mvn jdk11 w](mybatis-cdi-1.1.2.buildspec) | [result](mybatis-cdi-1.1.2.buildinfo): [2 :heavy_check_mark:  1 :warning:](mybatis-cdi-1.1.2.buildcompare) [:mag:](mybatis-cdi-1.1.2.diffoscope) [:memo:](https://issues.apache.org/jira/browse/FELIX-6496) | 61K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
