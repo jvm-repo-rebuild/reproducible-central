@@ -7,13 +7,15 @@
 
 Source code: [https://github.com/mybatis/cdi.git](https://github.com/mybatis/cdi.git)
 
-rebuilding **1 releases** of org.mybatis:mybatis-cdi:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **2 releases** of org.mybatis:mybatis-cdi:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.1.3](https://search.maven.org/artifact/org.mybatis/mybatis-cdi/1.1.3/pom) | | | |
+| [1.1.3](https://search.maven.org/artifact/org.mybatis/mybatis-cdi/1.1.3/pom) | [mvn jdk17 w](mybatis-cdi-1.1.3.buildspec) | [result](mybatis-cdi-1.1.3.buildinfo): [3 :heavy_check_mark: ](mybatis-cdi-1.1.3.buildcompare) [:mag:](mybatis-cdi-1.1.3.diffoscope) [:memo:](https://issues.apache.org/jira/browse/FELIX-6496)
+[1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/org/mybatis/cdi/mybatis-cdi-1.1.3.buildspec[0m
+ | 62K |
 | [1.1.2](https://search.maven.org/artifact/org.mybatis/mybatis-cdi/1.1.2/pom) | [mvn jdk11 w](mybatis-cdi-1.1.2.buildspec) | [result](mybatis-cdi-1.1.2.buildinfo): [2 :heavy_check_mark:  1 :warning:](mybatis-cdi-1.1.2.buildcompare) [:mag:](mybatis-cdi-1.1.2.diffoscope) [:memo:](https://issues.apache.org/jira/browse/FELIX-6496) | 61K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

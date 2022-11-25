@@ -34,6 +34,7 @@ rebuilding **5 releases** of org.slf4j:slf4j-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.5](https://search.maven.org/artifact/org.slf4j/slf4j-parent/2.0.5/pom) | | | |
 | [2.0.4](https://search.maven.org/artifact/org.slf4j/slf4j-parent/2.0.4/pom) | [mvn jdk19](slf4j-2.0.4.buildspec) | [result](slf4j-parent-2.0.4.buildinfo): [39 :heavy_check_mark: ](slf4j-parent-2.0.4.buildcompare) | 538K |
 | [2.0.3](https://search.maven.org/artifact/org.slf4j/slf4j-parent/2.0.3/pom) | [mvn jdk19](slf4j-2.0.3.buildspec) | [result](slf4j-parent-2.0.3.buildinfo): [39 :heavy_check_mark: ](slf4j-parent-2.0.3.buildcompare) | 537K |
 | [2.0.2](https://search.maven.org/artifact/org.slf4j/slf4j-parent/2.0.2/pom) | | | |
