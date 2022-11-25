@@ -1,0 +1,7 @@
+version=10
+ok=3
+ko=0
+okFiles="base-bundle-descriptor-10.pom base-bundle-descriptor-10.jar base-bundle-descriptor-10-sources.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"

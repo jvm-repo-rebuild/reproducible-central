@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=MyBatis base bundle descriptor
+group-id=org.mybatis
+artifact-id=base-bundle-descriptor
+version=10
+
+# source information
+source.scm.uri=scm:git:ssh://github.com/mybatis/base-bundle-descriptor.git
+source.scm.tag=base-bundle-descriptor-10
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=base-bundle-descriptor-10.pom
+outputs.0.length=3078
+outputs.0.checksums.sha512=bc3b94080916823d68f8599b15f1ff6c83b9da5f4c743c9b15d1c5e5931e67d5140a94861fecfcd8df25a36395408c513e82ebb3a24463d3cd9b0802a3689c55
+
+outputs.1.filename=base-bundle-descriptor-10.jar
+outputs.1.length=3722
+outputs.1.checksums.sha512=416aa3a2d38226224ae6f2aeafe58e3430e791d59ce00a041d008c06004c21b2e26a17e854ef8b9855ebd3d71bb3b52f0a4e319eb6f4669a476420401c24b2af
+
+outputs.2.filename=base-bundle-descriptor-10-sources.jar
+outputs.2.length=3508
+outputs.2.checksums.sha512=6ac06a9b6678fec125c1551fcf8dbcf58a4840243850e5448ed80e86e20194b740673ed4091dd257fb979b715401292c66a0ec62a6e9455eddffdac7ff4f0c4a
