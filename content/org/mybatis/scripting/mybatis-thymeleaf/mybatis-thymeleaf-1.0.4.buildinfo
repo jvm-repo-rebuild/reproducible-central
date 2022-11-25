@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=MyBatis Thymeleaf
+group-id=org.mybatis.scripting
+artifact-id=mybatis-thymeleaf
+version=1.0.4
+
+# source information
+source.scm.uri=scm:git:ssh://github.com/mybatis/thymeleaf-scripting.git
+source.scm.tag=mybatis-thymeleaf-1.0.4
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=mybatis-thymeleaf-1.0.4.pom
+outputs.0.length=7173
+outputs.0.checksums.sha512=9a587aef6d15e910b16bfa066059dc4ae0c018fd43318fb46bb4f4463469fc0b0df280296adab7a41ad2d1caee73e2ed45c5c4d35f4ccea2439cf9fe29fff093
+
+outputs.1.filename=mybatis-thymeleaf-1.0.4.jar
+outputs.1.length=71822
+outputs.1.checksums.sha512=e405b74d9df252308b2403b0b6a535075757ec8a8b9ef1cfb7a881c47dbfab2738d89c3ad9c1fae768fd48c6f432808cf468279e99e91a4967b49ad221245620
+
+outputs.2.filename=mybatis-thymeleaf-1.0.4-sources.jar
+outputs.2.length=44164
+outputs.2.checksums.sha512=185f25a7d9c12d0922f50b7658255c92a69a1ac46b512b7c53af375d5702fd8f41db509024e8c51ad6126768f1f7cd5f976d6e800ebbc200133ebf40cfa6560f
