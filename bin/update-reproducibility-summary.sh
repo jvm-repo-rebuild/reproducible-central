@@ -14,7 +14,11 @@ prevGroupId=
 stats="stats.txt"
 echo -n > $stats
 
-for metadata in $(find content -name "maven-metadata.xml" -print | grep -v buildcache | sort)
+for m in `find content -name "maven-metadata.xml" -print | grep -v buildcache | sed 's_/maven-metadata.xml__'`
+do
+  echo "${m##*/} ${m%/*}"
+done | sort -k 2 | while read -r p ; do echo "${p##* }/${p% *}/maven-metadata.xml"; done > maven-metadata
+for metadata in `cat maven-metadata`
 do
   groupId=$(cat "${metadata}" | grep 'groupId>' | cut -d '>' -f 2 | cut -d '<' -f 1)
   artifactId=$(cat "${metadata}" | grep 'artifactId>' | cut -d '>' -f 2 | cut -d '<' -f 1)

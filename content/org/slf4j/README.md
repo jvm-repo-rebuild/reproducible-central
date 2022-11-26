@@ -28,13 +28,13 @@ Source code: [https://github.com/qos-ch/slf4j.git](https://github.com/qos-ch/slf
 * [org.slf4j:slf4j-simple](https://search.maven.org/artifact/org.slf4j/slf4j-simple/)
 </details>
 
-rebuilding **5 releases** of org.slf4j:slf4j-parent:
+rebuilding **6 releases** of org.slf4j:slf4j-parent:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.0.5](https://search.maven.org/artifact/org.slf4j/slf4j-parent/2.0.5/pom) | | | |
+| [2.0.5](https://search.maven.org/artifact/org.slf4j/slf4j-parent/2.0.5/pom) | [mvn jdk19](slf4j-2.0.5.buildspec) | [result](slf4j-parent-2.0.5.buildinfo): [33 :heavy_check_mark:  6 :warning:](slf4j-parent-2.0.5.buildcompare) [:mag:](slf4j-parent-2.0.5.diffoscope) | 538K |
 | [2.0.4](https://search.maven.org/artifact/org.slf4j/slf4j-parent/2.0.4/pom) | [mvn jdk19](slf4j-2.0.4.buildspec) | [result](slf4j-parent-2.0.4.buildinfo): [39 :heavy_check_mark: ](slf4j-parent-2.0.4.buildcompare) | 538K |
 | [2.0.3](https://search.maven.org/artifact/org.slf4j/slf4j-parent/2.0.3/pom) | [mvn jdk19](slf4j-2.0.3.buildspec) | [result](slf4j-parent-2.0.3.buildinfo): [39 :heavy_check_mark: ](slf4j-parent-2.0.3.buildcompare) | 537K |
 | [2.0.2](https://search.maven.org/artifact/org.slf4j/slf4j-parent/2.0.2/pom) | | | |
