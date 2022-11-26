@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=mybatis-spring
+group-id=org.mybatis
+artifact-id=mybatis-spring
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:ssh://github.com/mybatis/spring.git
+source.scm.tag=mybatis-spring-3.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=18
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=mybatis-spring-3.0.0.pom
+outputs.0.length=12430
+outputs.0.checksums.sha512=23b819791b8b170390d74e55a9e74d67e6c261be0dd5bfcd2ad6fb2a1c2753e9666374c9bdce60321a45a874f51e297dc2ecd8bc8a3c184c2c6a092417d867c2
+
+outputs.1.filename=mybatis-spring-3.0.0.jar
+outputs.1.length=76044
+outputs.1.checksums.sha512=cab64301dd19a89e4e7e50b4e80a1d585917802e3a469d77fb7775381fefa34f41b4a8c786032f2bd3d11bb449c504e03e568cce12b7567238a974458062e4ff
+
+outputs.2.filename=mybatis-spring-3.0.0-sources.jar
+outputs.2.length=202245
+outputs.2.checksums.sha512=ed9b563b11a82151226021a9b728de9ce4fe8137cf5c0f2f8b06a8511274a2700f56caafc62be9d636a6912ab923cb9b0d72a1fc2974b4d4926ee7b3d312fb51
