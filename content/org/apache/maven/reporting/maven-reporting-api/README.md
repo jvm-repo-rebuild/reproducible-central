@@ -13,6 +13,7 @@ rebuilding **4 releases** of org.apache.maven.reporting:maven-reporting-api:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.0.0-M3](https://search.maven.org/artifact/org.apache.maven.reporting/maven-reporting-api/4.0.0-M3/pom) | | | |
 | [4.0.0-M2](https://search.maven.org/artifact/org.apache.maven.reporting/maven-reporting-api/4.0.0-M2/pom) | [mvn jdk8 w](maven-reporting-api-4.0.0-M2.buildspec) | [result](maven-reporting-api-4.0.0-M2.buildinfo): [4 :heavy_check_mark: ](maven-reporting-api-4.0.0-M2.buildcompare) | 49K |
 | [4.0.0-M1](https://search.maven.org/artifact/org.apache.maven.reporting/maven-reporting-api/4.0.0-M1/pom) | [mvn jdk8 w](maven-reporting-api-4.0.0-M1.buildspec) | [result](maven-reporting-api-4.0.0-M1.buildinfo): [4 :heavy_check_mark: ](maven-reporting-api-4.0.0-M1.buildcompare) | 50K |
 | [3.1.1](https://search.maven.org/artifact/org.apache.maven.reporting/maven-reporting-api/3.1.1/pom) | [mvn jdk8 w](maven-reporting-api-3.1.1.buildspec) | [result](maven-reporting-api-3.1.1.buildinfo): [4 :heavy_check_mark: ](maven-reporting-api-3.1.1.buildcompare) | 50K |
