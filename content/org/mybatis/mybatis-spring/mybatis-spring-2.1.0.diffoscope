@@ -1,0 +1,151 @@
+# /Users/ave/repo/mybatis-spring/target/ vs /var/maven/app/target/
+1 / 2 target/reference/mybatis-spring-2.1.0.jar target/mybatis-spring-2.1.0.jar
+--- target/reference/mybatis-spring-2.1.0.jar
++++ target/mybatis-spring-2.1.0.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 74929 bytes, number of entries: 63
+│ +Zip file size: 74835 bytes, number of entries: 63
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 META-INF/
+│ --rw-r--r--  2.0 unx    10911 b- defN 22-Nov-25 12:31 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx     9743 b- defN 22-Nov-25 12:31 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 org/mybatis/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 org/mybatis/logging/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 org/mybatis/spring/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 org/mybatis/spring/annotation/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 org/mybatis/spring/batch/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 org/mybatis/spring/batch/builder/
+│ @@ -58,8 +58,8 @@
+│  -rw-r--r--  2.0 unx     1841 b- defN 22-Nov-25 12:31 org/mybatis/spring/support/SqlSessionDaoSupport.class
+│  -rw-r--r--  2.0 unx      132 b- defN 22-Nov-25 12:31 org/mybatis/spring/support/package-info.class
+│  -rw-r--r--  2.0 unx     4124 b- defN 22-Nov-25 12:31 org/mybatis/spring/transaction/SpringManagedTransaction.class
+│  -rw-r--r--  2.0 unx     1339 b- defN 22-Nov-25 12:31 org/mybatis/spring/transaction/SpringManagedTransactionFactory.class
+│  -rw-r--r--  2.0 unx      136 b- defN 22-Nov-25 12:31 org/mybatis/spring/transaction/package-info.class
+│  -rw-r--r--  2.0 unx    11302 b- defN 22-Nov-25 12:31 META-INF/maven/org.mybatis/mybatis-spring/pom.xml
+│  -rw-r--r--  2.0 unx       60 b- defN 22-Nov-25 12:31 META-INF/maven/org.mybatis/mybatis-spring/pom.properties
+│ -63 files, 184660 bytes uncompressed, 64715 bytes compressed:  65.0%
+│ +63 files, 183492 bytes uncompressed, 64621 bytes compressed:  64.8%
+├── META-INF/MANIFEST.MF
+│ @@ -48,117 +48,101 @@
+│   .springframework.core.io,org.springframework.core.io.support,org.spring
+
+│   framework.core.type,org.springframework.core.type.classreading,org.spri
+
+│   ngframework.core.type.filter,org.springframework.dao,org.springframewor
+
+│   k.dao.support,org.springframework.jdbc,org.springframework.jdbc.datasou
+
+│   rce,org.springframework.jdbc.support,org.springframework.transaction,or
+
+│   g.springframework.transaction.support,org.springframework.util,org.w3c.
+
+│   dom
+
+│ -Include-Resource: META-INF/LICENSE=LICENSE,META-INF/NOTICE=NOTICE,org/my
+
+│ - batis/spring/config/mybatis-spring.xsd=src/main/resources/org/mybatis/s
+
+│ - pring/config/mybatis-spring.xsd,META-INF/spring.schemas=src/main/resour
+
+│ - ces/META-INF/spring.schemas,META-INF/spring.handlers=src/main/resources
+
+│ - /META-INF/spring.handlers,{/Users/ave/repo/mybatis-spring/target/site-s
+
+│ - rc/site_zh.xml=src/site/site_zh.xml},{/Users/ave/repo/mybatis-spring/ta
+...
+│ - wn/boot.md},{/Users/ave/repo/mybatis-spring/target/site-src/es/markdown
+
+│ - /batch.md=src/site/es/markdown/batch.md},{/Users/ave/repo/mybatis-sprin
+
+│ - g/target/site-src/site.xml=src/site/site.xml}
+
+│ +Include-Resource: META-INF/LICENSE=LICENSE,META-INF/NOTICE=NOTICE,META-I
+
+│ + NF/spring.handlers=src/main/resources/META-INF/spring.handlers,META-INF
+
+│ + /spring.schemas=src/main/resources/META-INF/spring.schemas,org/mybatis/
+
+│ + spring/config/mybatis-spring.xsd=src/main/resources/org/mybatis/spring/
+
+│ + config/mybatis-spring.xsd,{/var/maven/app/target/site-src/ja/markdown/f
+
+│ + actorybean.md=src/site/ja/markdown/factorybean.md},{/var/maven/app/targ
+...
+│ + s/css/site.css},{/var/maven/app/target/site-src/resources/ko/css/site.c
+
+│ + ss=src/site/resources/ko/css/site.css},{/var/maven/app/target/site-src/
+
+│ + resources/zh/css/site.css=src/site/resources/zh/css/site.css}
+
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+│  Tool: Bnd-6.3.1.202206071316
+
+2 / 2 target/reference/mybatis-spring-2.1.0-sources.jar target/mybatis-spring-2.1.0-sources.jar
+--- target/reference/mybatis-spring-2.1.0-sources.jar
++++ target/mybatis-spring-2.1.0-sources.jar
+├── zipinfo {}
+│ @@ -1,48 +1,47 @@
+│ -Zip file size: 205186 bytes, number of entries: 153
+│ +Zip file size: 202098 bytes, number of entries: 152
+│  -rw-r--r--  2.0 unx      461 b- defN 22-Nov-25 12:31 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 org/mybatis/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 org/mybatis/logging/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 org/mybatis/spring/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 org/mybatis/spring/annotation/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 org/mybatis/spring/batch/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 org/mybatis/spring/batch/builder/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 org/mybatis/spring/config/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 org/mybatis/spring/mapper/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 org/mybatis/spring/support/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 org/mybatis/spring/transaction/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 /
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 /Users/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 /Users/ave/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 /Users/ave/repo/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 /Users/ave/repo/mybatis-spring/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 /Users/ave/repo/mybatis-spring/target/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 /Users/ave/repo/mybatis-spring/target/site-src/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 /Users/ave/repo/mybatis-spring/target/site-src/es/
+...
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 /Users/ave/repo/mybatis-spring/target/site-src/zh/markdown/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 /var/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 /var/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 /var/maven/app/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 /var/maven/app/target/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 /var/maven/app/target/site-src/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 /var/maven/app/target/site-src/es/
+...
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 /var/maven/app/target/site-src/zh/markdown/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 META-INF/maven/org.mybatis/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-25 12:31 META-INF/maven/org.mybatis/mybatis-spring/
+│  -rw-r--r--  2.0 unx     1377 b- defN 22-Nov-25 12:31 org/mybatis/logging/Logger.java
+│  -rw-r--r--  2.0 unx     1111 b- defN 22-Nov-25 12:31 org/mybatis/logging/LoggerFactory.java
+│  -rw-r--r--  2.0 unx     4333 b- defN 22-Nov-25 12:31 org/mybatis/spring/MyBatisExceptionTranslator.java
+│  -rw-r--r--  2.0 unx     1475 b- defN 22-Nov-25 12:31 org/mybatis/spring/MyBatisSystemException.java
+│ @@ -76,80 +75,80 @@
+│  -rw-r--r--  2.0 unx     1623 b- defN 22-Nov-25 12:31 org/mybatis/spring/transaction/SpringManagedTransactionFactory.java
+│  -rw-r--r--  2.0 unx      738 b- defN 22-Nov-25 12:31 org/mybatis/spring/transaction/package-info.java
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Nov-25 12:31 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx     1554 b- defN 22-Nov-25 12:31 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx       85 b- defN 22-Nov-25 12:31 META-INF/spring.handlers
+│  -rw-r--r--  2.0 unx      186 b- defN 22-Nov-25 12:31 META-INF/spring.schemas
+│  -rw-r--r--  2.0 unx     6137 b- defN 22-Nov-25 12:31 org/mybatis/spring/config/mybatis-spring.xsd
+│ --rw-r--r--  2.0 unx      617 b- defN 22-Nov-25 12:31 /Users/ave/repo/mybatis-spring/target/site-src/es/markdown/README.md
+│ --rw-r--r--  2.0 unx    15748 b- defN 22-Nov-25 12:31 /Users/ave/repo/mybatis-spring/target/site-src/es/markdown/batch.md
+...
+│ --rw-r--r--  2.0 unx     5826 b- defN 22-Nov-25 12:31 /Users/ave/repo/mybatis-spring/target/site-src/zh/markdown/transactions.md
+│ --rw-r--r--  2.0 unx     1551 b- defN 22-Nov-25 12:31 /Users/ave/repo/mybatis-spring/target/site-src/zh/markdown/using-api.md
+│ +-rw-r--r--  2.0 unx      617 b- defN 22-Nov-25 12:31 /var/maven/app/target/site-src/es/markdown/README.md
+│ +-rw-r--r--  2.0 unx    15748 b- defN 22-Nov-25 12:31 /var/maven/app/target/site-src/es/markdown/batch.md
+...
+│ +-rw-r--r--  2.0 unx     5826 b- defN 22-Nov-25 12:31 /var/maven/app/target/site-src/zh/markdown/transactions.md
+│ +-rw-r--r--  2.0 unx     1551 b- defN 22-Nov-25 12:31 /var/maven/app/target/site-src/zh/markdown/using-api.md
+│  -rw-r--r--  2.0 unx    11302 b- defN 22-Nov-25 12:31 META-INF/maven/org.mybatis/mybatis-spring/pom.xml
+│  -rw-r--r--  2.0 unx       60 b- defN 22-Nov-25 12:31 META-INF/maven/org.mybatis/mybatis-spring/pom.properties
+│ -153 files, 500959 bytes uncompressed, 176790 bytes compressed:  64.7%
+│ +152 files, 500959 bytes uncompressed, 176790 bytes compressed:  64.7%

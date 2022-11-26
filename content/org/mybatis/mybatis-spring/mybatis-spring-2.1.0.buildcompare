@@ -1,0 +1,9 @@
+version=2.1.0
+ok=1
+ko=2
+okFiles="mybatis-spring-2.1.0.pom"
+koFiles="mybatis-spring-2.1.0.jar mybatis-spring-2.1.0-sources.jar"
+reference_java_version="15 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/mybatis-spring-2.1.0.jar target/mybatis-spring-2.1.0.jar
+# diffoscope target/reference/mybatis-spring-2.1.0-sources.jar target/mybatis-spring-2.1.0-sources.jar
