@@ -1,0 +1,441 @@
+1 / 6 target/reference/slf4j-simple-2.0.5.jar slf4j-simple/target/slf4j-simple-2.0.5.jar
+--- target/reference/slf4j-simple-2.0.5.jar
++++ slf4j-simple/target/slf4j-simple-2.0.5.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 15068 bytes, number of entries: 22
+│ +Zip file size: 15066 bytes, number of entries: 22
+│  -rw----     2.0 fat     1062 bX defN 22-Nov-25 11:38 META-INF/MANIFEST.MF
+│  -rw----     1.0 fat        0 b- stor 22-Nov-25 11:38 META-INF/
+│  -rw----     1.0 fat        0 b- stor 22-Nov-25 11:38 META-INF/services/
+│  -rw----     1.0 fat        0 b- stor 22-Nov-25 11:38 META-INF/versions/
+│  -rw----     1.0 fat        0 b- stor 22-Nov-25 11:38 META-INF/versions/9/
+│  -rw----     1.0 fat        0 b- stor 22-Nov-25 11:38 org/
+│  -rw----     1.0 fat        0 b- stor 22-Nov-25 11:38 org/slf4j/
+│ @@ -17,8 +17,8 @@
+│  -rw----     2.0 fat     8491 bl defN 22-Nov-25 11:38 org/slf4j/simple/SimpleLogger.class
+│  -rw----     2.0 fat     6920 bl defN 22-Nov-25 11:38 org/slf4j/simple/SimpleLoggerConfiguration.class
+│  -rw----     2.0 fat     1338 bl defN 22-Nov-25 11:38 org/slf4j/simple/SimpleLoggerFactory.class
+│  -rw----     2.0 fat     1369 bl defN 22-Nov-25 11:38 org/slf4j/simple/SimpleServiceProvider.class
+│  -rw----     2.0 fat     1062 bl defN 22-Nov-25 11:38 META-INF/maven/org.slf4j/slf4j-simple/pom.xml
+│  -rw----     2.0 fat       56 bl defN 22-Nov-25 11:38 META-INF/maven/org.slf4j/slf4j-simple/pom.properties
+│  -rw----     2.0 fat      323 bl defN 22-Nov-25 11:38 META-INF/versions/9/module-info.class
+│ -22 files, 24412 bytes uncompressed, 11828 bytes compressed:  51.5%
+│ +22 files, 24412 bytes uncompressed, 11826 bytes compressed:  51.6%
+├── META-INF/versions/9/module-info.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,22 +1,22 @@
+│ │    Compiled from "module-info.java"
+│ │ -module org.slf4j.simple@2.0.4
+│ │ +module org.slf4j.simple@2.0.5
+│ │    minor version: 0
+│ │    major version: 53
+│ │    flags: (0x8000) ACC_MODULE
+│ │    this_class: #2                          // "module-info"
+│ │    super_class: #0
+│ │    interfaces: 0, fields: 0, methods: 0, attributes: 3
+│ │  Constant pool:
+│ │     #1 = Utf8               module-info
+│ │     #2 = Class              #1             // "module-info"
+│ │     #3 = Utf8               module-info.java
+│ │     #4 = Utf8               org.slf4j.simple
+│ │     #5 = Module             #4             // "org.slf4j.simple"
+│ │ -   #6 = Utf8               2.0.4
+│ │ +   #6 = Utf8               2.0.5
+│ │     #7 = Utf8               org/slf4j/simple
+│ │     #8 = Package            #7             // org/slf4j/simple
+│ │     #9 = Utf8               java.base
+│ │    #10 = Module             #9             // "java.base"
+│ │    #11 = Utf8               org.slf4j
+│ │    #12 = Module             #11            // "org.slf4j"
+│ │    #13 = Utf8               org/slf4j/spi/SLF4JServiceProvider
+│ │ @@ -27,20 +27,20 @@
+│ │    #18 = Utf8               Module
+│ │    #19 = Utf8               ModulePackages
+│ │  {
+│ │  }
+│ │  SourceFile: "module-info.java"
+│ │  Module:
+│ │    #5,0                                    // "org.slf4j.simple"
+│ │ -  #6                                      // 2.0.4
+│ │ +  #6                                      // 2.0.5
+│ │    2                                       // requires
+│ │      #10,8000                                // "java.base" ACC_MANDATED
+│ │      #0
+│ │      #12,0                                   // "org.slf4j"
+│ │ -    #6                                      // 2.0.4
+│ │ +    #6                                      // 2.0.5
+│ │    0                                       // exports
+│ │    0                                       // opens
+│ │    0                                       // uses
+│ │    1                                       // provides
+│ │      #14                                     // org/slf4j/spi/SLF4JServiceProvider with ... 1
+│ │        #16                                     // ... with org/slf4j/simple/SimpleServiceProvider
+│ │  ModulePackages:
+
+2 / 6 target/reference/slf4j-nop-2.0.5.jar slf4j-nop/target/slf4j-nop-2.0.5.jar
+--- target/reference/slf4j-nop-2.0.5.jar
++++ slf4j-nop/target/slf4j-nop-2.0.5.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 3928 bytes, number of entries: 16
+│ +Zip file size: 3929 bytes, number of entries: 16
+│  -rw----     2.0 fat     1007 bX defN 22-Nov-25 11:38 META-INF/MANIFEST.MF
+│  -rw----     1.0 fat        0 b- stor 22-Nov-25 11:38 META-INF/
+│  -rw----     1.0 fat        0 b- stor 22-Nov-25 11:38 META-INF/services/
+│  -rw----     1.0 fat        0 b- stor 22-Nov-25 11:38 META-INF/versions/
+│  -rw----     1.0 fat        0 b- stor 22-Nov-25 11:38 META-INF/versions/9/
+│  -rw----     1.0 fat        0 b- stor 22-Nov-25 11:38 org/
+│  -rw----     1.0 fat        0 b- stor 22-Nov-25 11:38 org/slf4j/
+│ @@ -11,8 +11,8 @@
+│  -rw----     1.0 fat        0 b- stor 22-Nov-25 11:38 META-INF/maven/org.slf4j/
+│  -rw----     1.0 fat        0 b- stor 22-Nov-25 11:38 META-INF/maven/org.slf4j/slf4j-nop/
+│  -rw----     2.0 fat       32 bl defN 22-Nov-25 11:38 META-INF/services/org.slf4j.spi.SLF4JServiceProvider
+│  -rw----     2.0 fat     1352 bl defN 22-Nov-25 11:38 org/slf4j/nop/NOPServiceProvider.class
+│  -rw----     2.0 fat      837 bl defN 22-Nov-25 11:38 META-INF/maven/org.slf4j/slf4j-nop/pom.xml
+│  -rw----     2.0 fat       53 bl defN 22-Nov-25 11:38 META-INF/maven/org.slf4j/slf4j-nop/pom.properties
+│  -rw----     2.0 fat      311 bl defN 22-Nov-25 11:38 META-INF/versions/9/module-info.class
+│ -16 files, 3592 bytes uncompressed, 1774 bytes compressed:  50.6%
+│ +16 files, 3592 bytes uncompressed, 1775 bytes compressed:  50.6%
+├── META-INF/versions/9/module-info.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,22 +1,22 @@
+│ │    Compiled from "module-info.java"
+│ │ -module org.slf4j.nop@2.0.4
+│ │ +module org.slf4j.nop@2.0.5
+│ │    minor version: 0
+│ │    major version: 53
+│ │    flags: (0x8000) ACC_MODULE
+│ │    this_class: #2                          // "module-info"
+│ │    super_class: #0
+│ │    interfaces: 0, fields: 0, methods: 0, attributes: 3
+│ │  Constant pool:
+│ │     #1 = Utf8               module-info
+│ │     #2 = Class              #1             // "module-info"
+│ │     #3 = Utf8               module-info.java
+│ │     #4 = Utf8               org.slf4j.nop
+│ │     #5 = Module             #4             // "org.slf4j.nop"
+│ │ -   #6 = Utf8               2.0.4
+│ │ +   #6 = Utf8               2.0.5
+│ │     #7 = Utf8               org/slf4j/nop
+│ │     #8 = Package            #7             // org/slf4j/nop
+│ │     #9 = Utf8               java.base
+│ │    #10 = Module             #9             // "java.base"
+│ │    #11 = Utf8               org.slf4j
+│ │    #12 = Module             #11            // "org.slf4j"
+│ │    #13 = Utf8               org/slf4j/spi/SLF4JServiceProvider
+│ │ @@ -27,20 +27,20 @@
+│ │    #18 = Utf8               Module
+│ │    #19 = Utf8               ModulePackages
+│ │  {
+│ │  }
+│ │  SourceFile: "module-info.java"
+│ │  Module:
+│ │    #5,0                                    // "org.slf4j.nop"
+│ │ -  #6                                      // 2.0.4
+│ │ +  #6                                      // 2.0.5
+│ │    2                                       // requires
+│ │      #10,8000                                // "java.base" ACC_MANDATED
+│ │      #0
+│ │      #12,0                                   // "org.slf4j"
+│ │ -    #6                                      // 2.0.4
+│ │ +    #6                                      // 2.0.5
+│ │    0                                       // exports
+│ │    0                                       // opens
+│ │    0                                       // uses
+│ │    1                                       // provides
+│ │      #14                                     // org/slf4j/spi/SLF4JServiceProvider with ... 1
+│ │        #16                                     // ... with org/slf4j/nop/NOPServiceProvider
+│ │  ModulePackages:
+
+3 / 6 target/reference/slf4j-jdk14-2.0.5.jar slf4j-jdk14/target/slf4j-jdk14-2.0.5.jar
+--- target/reference/slf4j-jdk14-2.0.5.jar
++++ slf4j-jdk14/target/slf4j-jdk14-2.0.5.jar
+├── zipinfo -v {}
+│ @@ -558,15 +558,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│    file last modified on (DOS date/time):          2022 Nov 25 11:38:00
+│ -  32-bit CRC value (hex):                         65087978
+│ +  32-bit CRC value (hex):                         1b7f370e
+│    compressed size:                                227 bytes
+│    uncompressed size:                              335 bytes
+│    length of filename:                             37 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/versions/9/module-info.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,22 +1,22 @@
+│ │    Compiled from "module-info.java"
+│ │ -module org.slf4j.jul@2.0.4
+│ │ +module org.slf4j.jul@2.0.5
+│ │    minor version: 0
+│ │    major version: 53
+│ │    flags: (0x8000) ACC_MODULE
+│ │    this_class: #2                          // "module-info"
+│ │    super_class: #0
+│ │    interfaces: 0, fields: 0, methods: 0, attributes: 3
+│ │  Constant pool:
+│ │     #1 = Utf8               module-info
+│ │     #2 = Class              #1             // "module-info"
+│ │     #3 = Utf8               module-info.java
+│ │     #4 = Utf8               org.slf4j.jul
+│ │     #5 = Module             #4             // "org.slf4j.jul"
+│ │ -   #6 = Utf8               2.0.4
+│ │ +   #6 = Utf8               2.0.5
+│ │     #7 = Utf8               org/slf4j/jul
+│ │     #8 = Package            #7             // org/slf4j/jul
+│ │     #9 = Utf8               java.base
+│ │    #10 = Module             #9             // "java.base"
+│ │    #11 = Utf8               org.slf4j
+│ │    #12 = Module             #11            // "org.slf4j"
+│ │    #13 = Utf8               java.logging
+│ │ @@ -29,20 +29,20 @@
+│ │    #20 = Utf8               Module
+│ │    #21 = Utf8               ModulePackages
+│ │  {
+│ │  }
+│ │  SourceFile: "module-info.java"
+│ │  Module:
+│ │    #5,0                                    // "org.slf4j.jul"
+│ │ -  #6                                      // 2.0.4
+│ │ +  #6                                      // 2.0.5
+│ │    3                                       // requires
+│ │      #10,8000                                // "java.base" ACC_MANDATED
+│ │      #0
+│ │      #12,0                                   // "org.slf4j"
+│ │ -    #6                                      // 2.0.4
+│ │ +    #6                                      // 2.0.5
+│ │      #14,0                                   // "java.logging"
+│ │      #0
+│ │    0                                       // exports
+│ │    0                                       // opens
+│ │    0                                       // uses
+│ │    1                                       // provides
+│ │      #16                                     // org/slf4j/spi/SLF4JServiceProvider with ... 1
+
+4 / 6 target/reference/slf4j-jdk-platform-logging-2.0.5.jar slf4j-jdk-platform-logging/target/slf4j-jdk-platform-logging-2.0.5.jar
+--- target/reference/slf4j-jdk-platform-logging-2.0.5.jar
++++ slf4j-jdk-platform-logging/target/slf4j-jdk-platform-logging-2.0.5.jar
+├── zipinfo -v {}
+│ @@ -558,15 +558,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│    file last modified on (DOS date/time):          2022 Nov 25 11:38:00
+│ -  32-bit CRC value (hex):                         cca4321c
+│ +  32-bit CRC value (hex):                         92311e7c
+│    compressed size:                                268 bytes
+│    uncompressed size:                              430 bytes
+│    length of filename:                             17 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── module-info.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,22 +1,22 @@
+│ │    Compiled from "module-info.java"
+│ │ -module org.slf4j.jdk.platform.logging@2.0.4
+│ │ +module org.slf4j.jdk.platform.logging@2.0.5
+│ │    minor version: 0
+│ │    major version: 53
+│ │    flags: (0x8000) ACC_MODULE
+│ │    this_class: #2                          // "module-info"
+│ │    super_class: #0
+│ │    interfaces: 0, fields: 0, methods: 0, attributes: 4
+│ │  Constant pool:
+│ │     #1 = Utf8               module-info
+│ │     #2 = Class              #1             // "module-info"
+│ │     #3 = Utf8               module-info.java
+│ │     #4 = Utf8               org.slf4j.jdk.platform.logging
+│ │     #5 = Module             #4             // "org.slf4j.jdk.platform.logging"
+│ │ -   #6 = Utf8               2.0.4
+│ │ +   #6 = Utf8               2.0.5
+│ │     #7 = Utf8               org/slf4j/jdk/platform/logging
+│ │     #8 = Package            #7             // org/slf4j/jdk/platform/logging
+│ │     #9 = Utf8               java.base
+│ │    #10 = Module             #9             // "java.base"
+│ │    #11 = Utf8               org.slf4j
+│ │    #12 = Module             #11            // "org.slf4j"
+│ │    #13 = Utf8               java/lang/System$LoggerFinder
+│ │ @@ -33,20 +33,20 @@
+│ │  {
+│ │  }
+│ │  InnerClasses:
+│ │    public static abstract #19= #14 of #18; // LoggerFinder=class java/lang/System$LoggerFinder of class java/lang/System
+│ │  SourceFile: "module-info.java"
+│ │  Module:
+│ │    #5,0                                    // "org.slf4j.jdk.platform.logging"
+│ │ -  #6                                      // 2.0.4
+│ │ +  #6                                      // 2.0.5
+│ │    2                                       // requires
+│ │      #10,8000                                // "java.base" ACC_MANDATED
+│ │      #0
+│ │      #12,0                                   // "org.slf4j"
+│ │ -    #6                                      // 2.0.4
+│ │ +    #6                                      // 2.0.5
+│ │    0                                       // exports
+│ │    0                                       // opens
+│ │    0                                       // uses
+│ │    1                                       // provides
+│ │      #14                                     // java/lang/System$LoggerFinder with ... 1
+│ │        #16                                     // ... with org/slf4j/jdk/platform/logging/SLF4JSystemLoggerFinder
+│ │  ModulePackages:
+
+5 / 6 target/reference/jcl-over-slf4j-2.0.5.jar jcl-over-slf4j/target/jcl-over-slf4j-2.0.5.jar
+--- target/reference/jcl-over-slf4j-2.0.5.jar
++++ jcl-over-slf4j/target/jcl-over-slf4j-2.0.5.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 17293 bytes, number of entries: 25
+│ +Zip file size: 17294 bytes, number of entries: 25
+│  -rw----     2.0 fat      639 bX defN 22-Nov-25 11:38 META-INF/MANIFEST.MF
+│  -rw----     1.0 fat        0 b- stor 22-Nov-25 11:38 META-INF/
+│  -rw----     1.0 fat        0 b- stor 22-Nov-25 11:38 META-INF/services/
+│  -rw----     1.0 fat        0 b- stor 22-Nov-25 11:38 META-INF/versions/
+│  -rw----     1.0 fat        0 b- stor 22-Nov-25 11:38 META-INF/versions/9/
+│  -rw----     1.0 fat        0 b- stor 22-Nov-25 11:38 org/
+│  -rw----     1.0 fat        0 b- stor 22-Nov-25 11:38 org/apache/
+│ @@ -20,8 +20,8 @@
+│  -rw----     2.0 fat     3539 bl defN 22-Nov-25 11:38 org/apache/commons/logging/impl/SLF4JLocationAwareLog.class
+│  -rw----     2.0 fat     2999 bl defN 22-Nov-25 11:38 org/apache/commons/logging/impl/SLF4JLog.class
+│  -rw----     2.0 fat     4088 bl defN 22-Nov-25 11:38 org/apache/commons/logging/impl/SLF4JLogFactory.class
+│  -rw----     2.0 fat     9972 bl defN 22-Nov-25 11:38 org/apache/commons/logging/impl/SimpleLog.class
+│  -rw----     2.0 fat     1230 bl defN 22-Nov-25 11:38 META-INF/maven/org.slf4j/jcl-over-slf4j/pom.xml
+│  -rw----     2.0 fat       58 bl defN 22-Nov-25 11:38 META-INF/maven/org.slf4j/jcl-over-slf4j/pom.properties
+│  -rw----     2.0 fat      298 bl defN 22-Nov-25 11:38 META-INF/versions/9/module-info.class
+│ -25 files, 31722 bytes uncompressed, 13479 bytes compressed:  57.5%
+│ +25 files, 31722 bytes uncompressed, 13480 bytes compressed:  57.5%
+├── META-INF/versions/9/module-info.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,22 +1,22 @@
+│ │    Compiled from "module-info.java"
+│ │ -module org.apache.commons.logging@2.0.4
+│ │ +module org.apache.commons.logging@2.0.5
+│ │    minor version: 0
+│ │    major version: 53
+│ │    flags: (0x8000) ACC_MODULE
+│ │    this_class: #2                          // "module-info"
+│ │    super_class: #0
+│ │    interfaces: 0, fields: 0, methods: 0, attributes: 3
+│ │  Constant pool:
+│ │     #1 = Utf8               module-info
+│ │     #2 = Class              #1             // "module-info"
+│ │     #3 = Utf8               module-info.java
+│ │     #4 = Utf8               org.apache.commons.logging
+│ │     #5 = Module             #4             // "org.apache.commons.logging"
+│ │ -   #6 = Utf8               2.0.4
+│ │ +   #6 = Utf8               2.0.5
+│ │     #7 = Utf8               org/apache/commons/logging
+│ │     #8 = Package            #7             // org/apache/commons/logging
+│ │     #9 = Utf8               org/apache/commons/logging/impl
+│ │    #10 = Package            #9             // org/apache/commons/logging/impl
+│ │    #11 = Utf8               java.base
+│ │    #12 = Module             #11            // "java.base"
+│ │    #13 = Utf8               org.slf4j
+│ │ @@ -25,20 +25,20 @@
+│ │    #16 = Utf8               Module
+│ │    #17 = Utf8               ModulePackages
+│ │  {
+│ │  }
+│ │  SourceFile: "module-info.java"
+│ │  Module:
+│ │    #5,0                                    // "org.apache.commons.logging"
+│ │ -  #6                                      // 2.0.4
+│ │ +  #6                                      // 2.0.5
+│ │    2                                       // requires
+│ │      #12,8000                                // "java.base" ACC_MANDATED
+│ │      #0
+│ │      #14,0                                   // "org.slf4j"
+│ │ -    #6                                      // 2.0.4
+│ │ +    #6                                      // 2.0.5
+│ │    1                                       // exports
+│ │      #8,0                                    // org/apache/commons/logging
+│ │    0                                       // opens
+│ │    0                                       // uses
+│ │    0                                       // provides
+│ │  ModulePackages:
+│ │    #8                                      // org.apache.commons.logging
+
+6 / 6 target/reference/log4j-over-slf4j-2.0.5.jar log4j-over-slf4j/target/log4j-over-slf4j-2.0.5.jar
+--- target/reference/log4j-over-slf4j-2.0.5.jar
++++ log4j-over-slf4j/target/log4j-over-slf4j-2.0.5.jar
+├── zipinfo -v {}
+│ @@ -1389,15 +1389,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│    file last modified on (DOS date/time):          2022 Nov 25 11:38:00
+│ -  32-bit CRC value (hex):                         f562ab5e
+│ +  32-bit CRC value (hex):                         ff3d2ca2
+│    compressed size:                                220 bytes
+│    uncompressed size:                              354 bytes
+│    length of filename:                             37 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/versions/9/module-info.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,22 +1,22 @@
+│ │    Compiled from "module-info.java"
+│ │ -module log4j@2.0.4
+│ │ +module log4j@2.0.5
+│ │    minor version: 0
+│ │    major version: 53
+│ │    flags: (0x8000) ACC_MODULE
+│ │    this_class: #2                          // "module-info"
+│ │    super_class: #0
+│ │    interfaces: 0, fields: 0, methods: 0, attributes: 3
+│ │  Constant pool:
+│ │     #1 = Utf8               module-info
+│ │     #2 = Class              #1             // "module-info"
+│ │     #3 = Utf8               module-info.java
+│ │     #4 = Utf8               log4j
+│ │     #5 = Module             #4             // log4j
+│ │ -   #6 = Utf8               2.0.4
+│ │ +   #6 = Utf8               2.0.5
+│ │     #7 = Utf8               org/apache/log4j
+│ │     #8 = Package            #7             // org/apache/log4j
+│ │     #9 = Utf8               org/apache/log4j/helpers
+│ │    #10 = Package            #9             // org/apache/log4j/helpers
+│ │    #11 = Utf8               org/apache/log4j/spi
+│ │    #12 = Package            #11            // org/apache/log4j/spi
+│ │    #13 = Utf8               org/apache/log4j/xml
+│ │ @@ -31,20 +31,20 @@
+│ │    #22 = Utf8               Module
+│ │    #23 = Utf8               ModulePackages
+│ │  {
+│ │  }
+│ │  SourceFile: "module-info.java"
+│ │  Module:
+│ │    #5,0                                    // log4j
+│ │ -  #6                                      // 2.0.4
+│ │ +  #6                                      // 2.0.5
+│ │    3                                       // requires
+│ │      #16,8000                                // "java.base" ACC_MANDATED
+│ │      #0
+│ │      #18,0                                   // "org.slf4j"
+│ │ -    #6                                      // 2.0.4
+│ │ +    #6                                      // 2.0.5
+│ │      #20,0                                   // "java.xml"
+│ │      #0
+│ │    4                                       // exports
+│ │      #8,0                                    // org/apache/log4j
+│ │      #10,0                                   // org/apache/log4j/helpers
+│ │      #12,0                                   // org/apache/log4j/spi
+│ │      #14,0                                   // org/apache/log4j/xml
+
