@@ -1,0 +1,11 @@
+version=2.3.0
+ok=7
+ko=4
+okFiles="mybatis-spring-boot-2.3.0.pom mybatis-spring-boot-autoconfigure-2.3.0.pom mybatis-spring-boot-starter-2.3.0.pom mybatis-spring-boot-starter-2.3.0.jar mybatis-spring-boot-test-autoconfigure-2.3.0.pom mybatis-spring-boot-starter-test-2.3.0.pom mybatis-spring-boot-starter-test-2.3.0.jar"
+koFiles="mybatis-spring-boot-autoconfigure-2.3.0.jar mybatis-spring-boot-autoconfigure-2.3.0-sources.jar mybatis-spring-boot-test-autoconfigure-2.3.0.jar mybatis-spring-boot-test-autoconfigure-2.3.0-sources.jar"
+reference_java_version="18 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/mybatis-spring-boot-autoconfigure-2.3.0.jar mybatis-spring-boot-autoconfigure/target/mybatis-spring-boot-autoconfigure-2.3.0.jar
+# diffoscope target/reference/mybatis-spring-boot-autoconfigure-2.3.0-sources.jar mybatis-spring-boot-autoconfigure/target/mybatis-spring-boot-autoconfigure-2.3.0-sources.jar
+# diffoscope target/reference/mybatis-spring-boot-test-autoconfigure-2.3.0.jar mybatis-spring-boot-test-autoconfigure/target/mybatis-spring-boot-test-autoconfigure-2.3.0.jar
+# diffoscope target/reference/mybatis-spring-boot-test-autoconfigure-2.3.0-sources.jar mybatis-spring-boot-test-autoconfigure/target/mybatis-spring-boot-test-autoconfigure-2.3.0-sources.jar

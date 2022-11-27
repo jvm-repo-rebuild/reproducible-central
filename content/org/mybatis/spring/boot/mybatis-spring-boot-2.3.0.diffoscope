@@ -1,0 +1,139 @@
+1 / 4 target/reference/mybatis-spring-boot-autoconfigure-2.3.0.jar mybatis-spring-boot-autoconfigure/target/mybatis-spring-boot-autoconfigure-2.3.0.jar
+--- target/reference/mybatis-spring-boot-autoconfigure-2.3.0.jar
++++ mybatis-spring-boot-autoconfigure/target/mybatis-spring-boot-autoconfigure-2.3.0.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 30283 bytes, number of entries: 34
+│ +Zip file size: 30250 bytes, number of entries: 34
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 META-INF/
+│ --rw-r--r--  2.0 unx     4595 b- defN 22-Nov-26 02:47 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx     4289 b- defN 22-Nov-26 02:47 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 META-INF/spring/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 org/mybatis/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 org/mybatis/spring/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 org/mybatis/spring/boot/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 org/mybatis/spring/boot/autoconfigure/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 META-INF/maven/
+│ @@ -29,8 +29,8 @@
+│  -rw-r--r--  2.0 unx     1512 b- defN 22-Nov-26 02:47 org/mybatis/spring/boot/autoconfigure/MybatisLanguageDriverAutoConfiguration.class
+│  -rw-r--r--  2.0 unx     6114 b- defN 22-Nov-26 02:47 org/mybatis/spring/boot/autoconfigure/MybatisProperties.class
+│  -rw-r--r--  2.0 unx     4186 b- defN 22-Nov-26 02:47 org/mybatis/spring/boot/autoconfigure/SpringBootVFS.class
+│  -rw-r--r--  2.0 unx      323 b- defN 22-Nov-26 02:47 org/mybatis/spring/boot/autoconfigure/SqlSessionFactoryBeanCustomizer.class
+│  -rw-r--r--  2.0 unx      143 b- defN 22-Nov-26 02:47 org/mybatis/spring/boot/autoconfigure/package-info.class
+│  -rw-r--r--  2.0 unx     3982 b- defN 22-Nov-26 02:47 META-INF/maven/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure/pom.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-Nov-26 02:47 META-INF/maven/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure/pom.properties
+│ -34 files, 85324 bytes uncompressed, 23397 bytes compressed:  72.6%
+│ +34 files, 85018 bytes uncompressed, 23364 bytes compressed:  72.5%
+├── META-INF/MANIFEST.MF
+│ @@ -39,39 +39,35 @@
+│   gframework.core.io.support,org.springframework.core.type,org.springfram
+
+│   ework.util
+
+│  Include-Resource: {META-INF/additional-spring-configuration-metadata.jso
+
+│   n=src/main/resources/META-INF/additional-spring-configuration-metadata.
+
+│   json},{META-INF/spring.factories=src/main/resources/META-INF/spring.fac
+
+│   tories},{META-INF/spring/org.springframework.boot.autoconfigure.AutoCon
+
+│   figuration.imports=src/main/resources/META-INF/spring/org.springframewo
+
+│ - rk.boot.autoconfigure.AutoConfiguration.imports},{/Users/ave/repo/mybat
+
+│ - is-spring-boot/mybatis-spring-boot-autoconfigure/target/site-src/site_z
+
+...
+
+│ - ces/ko/css/site.css=src/site/resources/ko/css/site.css},{/Users/ave/rep
+
+│ - o/mybatis-spring-boot/mybatis-spring-boot-autoconfigure/target/site-src
+
+│ - /resources/es/css/site.css=src/site/resources/es/css/site.css},{/Users/
+
+│ - ave/repo/mybatis-spring-boot/mybatis-spring-boot-autoconfigure/target/s
+
+│ - ite-src/zh/markdown/index.md=src/site/zh/markdown/index.md},{/Users/ave
+
+│ - /repo/mybatis-spring-boot/mybatis-spring-boot-autoconfigure/target/site
+
+│ - -src/site.xml=src/site/site.xml}
+
+│ + rk.boot.autoconfigure.AutoConfiguration.imports},{/var/maven/app/mybati
+
+│ + s-spring-boot-autoconfigure/target/site-src/site_zh.xml=src/site/site_z
+
+...
+
+│ + =src/site/resources/ko/css/site.css},{/var/maven/app/mybatis-spring-boo
+
+│ + t-autoconfigure/target/site-src/resources/zh/css/site.css=src/site/reso
+
+│ + urces/zh/css/site.css}
+
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+│  Tool: Bnd-6.3.1.202206071316
+
+2 / 4 target/reference/mybatis-spring-boot-autoconfigure-2.3.0-sources.jar mybatis-spring-boot-autoconfigure/target/mybatis-spring-boot-autoconfigure-2.3.0-sources.jar
+--- target/reference/mybatis-spring-boot-autoconfigure-2.3.0-sources.jar
++++ mybatis-spring-boot-autoconfigure/target/mybatis-spring-boot-autoconfigure-2.3.0-sources.jar
+├── zipinfo {}
+│ @@ -1,66 +1,61 @@
+│ -Zip file size: 45462 bytes, number of entries: 64
+│ +Zip file size: 43618 bytes, number of entries: 59
+│  -rw-r--r--  2.0 unx      518 b- defN 22-Nov-26 02:47 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 META-INF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 com/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 com/dc/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 com/dc/demo/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 com/dc/demo/Entity/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 org/mybatis/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 org/mybatis/spring/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 org/mybatis/spring/boot/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 org/mybatis/spring/boot/autoconfigure/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 META-INF/spring/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 /
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 /Users/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 /Users/ave/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 /Users/ave/repo/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 /Users/ave/repo/mybatis-spring-boot/
+..
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 /Users/ave/repo/mybatis-spring-boot/mybatis-spring-boot-autoconfigure/target/site-src/zh/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 /Users/ave/repo/mybatis-spring-boot/mybatis-spring-boot-autoconfigure/target/site-src/zh/markdown/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 /var/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 /var/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 /var/maven/app/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 /var/maven/app/mybatis-spring-boot-autoconfigure/
+..
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 /var/maven/app/mybatis-spring-boot-autoconfigure/target/site-src/zh/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 /var/maven/app/mybatis-spring-boot-autoconfigure/target/site-src/zh/markdown/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 META-INF/maven/org.mybatis.spring.boot/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-26 02:47 META-INF/maven/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure/
+│  -rw-r--r--  2.0 unx     1179 b- defN 22-Nov-26 02:47 org/mybatis/spring/boot/autoconfigure/ConfigurationCustomizer.java
+│  -rw-r--r--  2.0 unx    14747 b- defN 22-Nov-26 02:47 org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.java
+│  -rw-r--r--  2.0 unx     1404 b- defN 22-Nov-26 02:47 org/mybatis/spring/boot/autoconfigure/MybatisDependsOnDatabaseInitializationDetector.java
+│  -rw-r--r--  2.0 unx     5564 b- defN 22-Nov-26 02:47 org/mybatis/spring/boot/autoconfigure/MybatisLanguageDriverAutoConfiguration.java
+│  -rw-r--r--  2.0 unx     5889 b- defN 22-Nov-26 02:47 org/mybatis/spring/boot/autoconfigure/MybatisProperties.java
+│  -rw-r--r--  2.0 unx     2852 b- defN 22-Nov-26 02:47 org/mybatis/spring/boot/autoconfigure/SpringBootVFS.java
+│  -rw-r--r--  2.0 unx     1207 b- defN 22-Nov-26 02:47 org/mybatis/spring/boot/autoconfigure/SqlSessionFactoryBeanCustomizer.java
+│  -rw-r--r--  2.0 unx      732 b- defN 22-Nov-26 02:47 org/mybatis/spring/boot/autoconfigure/package-info.java
+│  -rw-r--r--  2.0 unx     2159 b- defN 22-Nov-26 02:47 META-INF/additional-spring-configuration-metadata.json
+│  -rw-r--r--  2.0 unx      140 b- defN 22-Nov-26 02:47 META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports
+│  -rw-r--r--  2.0 unx     1078 b- defN 22-Nov-26 02:47 META-INF/spring.factories
+│ --rw-r--r--  2.0 unx    16127 b- defN 22-Nov-26 02:47 /Users/ave/repo/mybatis-spring-boot/mybatis-spring-boot-autoconfigure/target/site-src/markdown/index.md
+...
+│ --rw-r--r--  2.0 unx    18902 b- defN 22-Nov-26 02:47 /Users/ave/repo/mybatis-spring-boot/mybatis-spring-boot-autoconfigure/target/site-src/zh/markdown/index.md
+│ +-rw-r--r--  2.0 unx    16127 b- defN 22-Nov-26 02:47 /var/maven/app/mybatis-spring-boot-autoconfigure/target/site-src/markdown/index.md
+...
+│ +-rw-r--r--  2.0 unx    18902 b- defN 22-Nov-26 02:47 /var/maven/app/mybatis-spring-boot-autoconfigure/target/site-src/zh/markdown/index.md
+│  -rw-r--r--  2.0 unx     3982 b- defN 22-Nov-26 02:47 META-INF/maven/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure/pom.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 22-Nov-26 02:47 META-INF/maven/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure/pom.properties
+│ -64 files, 90782 bytes uncompressed, 31826 bytes compressed:  64.9%
+│ +59 files, 90782 bytes uncompressed, 31826 bytes compressed:  64.9%
+
+...
