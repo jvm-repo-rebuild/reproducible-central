@@ -1,0 +1,7 @@
+version=5.2.3
+ok=2
+ko=0
+okFiles="bootstrap-5.2.3.pom bootstrap-5.2.3.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
