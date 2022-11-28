@@ -1,0 +1,8 @@
+version=20.2.0
+ok=2
+ko=1
+okFiles="html-formatter-20.2.0.pom html-formatter-20.2.0-sources.jar"
+koFiles="html-formatter-20.2.0.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/html-formatter-20.2.0.jar target/html-formatter-20.2.0.jar
