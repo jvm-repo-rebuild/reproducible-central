@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=reload4j
+group-id=ch.qos.reload4j
+artifact-id=reload4j
+version=1.2.24
+
+# source information
+source.scm.uri=scm:git@github.com:qos-ch/reload4j.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=reload4j-1.2.24.pom
+outputs.0.length=15752
+outputs.0.checksums.sha512=31cf94d8919507481497afbb962311f23c3c48424cb91ff39b87d3a170fab3efb99c3e2dcfe7458185b5e89a55819dc170ca7e028778ddc3f7f329a1b583d161
+
+outputs.1.filename=reload4j-1.2.24.jar
+outputs.1.length=332010
+outputs.1.checksums.sha512=17c17fec8a7290f63bd662b444dc27cd9a2f8463e812da834e6d0956b83b0360c24f4190c6024eb979ebee1a2608362ec88a57ccd2f7b2b164a9e6e23bff8a1c
+
+outputs.2.filename=reload4j-1.2.24-tests.jar
+outputs.2.length=228755
+outputs.2.checksums.sha512=79509f759d7dcf6a592ff20a3402e271920a7f5091433b34484f21f56681816ed47cdcb1a5411ebc5ff933d786d487f7bae4f33f0902113b6b9f13c244865afe
+
+outputs.3.filename=reload4j-1.2.24-sources.jar
+outputs.3.length=379015
+outputs.3.checksums.sha512=bd18f8f09e4c266d1107e4399a44db2a9550f4b676fa6df5d590f82c8caa798a212b589283d8e9eaf82e4c478e477fa86050fbc43c039fa9da525ee94152361a
