@@ -683,6 +683,7 @@ rebuilding **4 releases** of org.apache.nifi:nifi:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.19.0](https://search.maven.org/artifact/org.apache.nifi/nifi/1.19.0/pom) | | | |
 | [1.18.0](https://search.maven.org/artifact/org.apache.nifi/nifi/1.18.0/pom) | | | |
 | [1.17.0](https://search.maven.org/artifact/org.apache.nifi/nifi/1.17.0/pom) | [mvn jdk8](nifi-1.17.0.buildspec) | [result](nifi-1.17.0.buildinfo): [1505 :heavy_check_mark:  171 :warning:](nifi-1.17.0.buildcompare) [:mag:](nifi-1.17.0.diffoscope) [:memo:](https://github.com/apache/nifi/pull/6500) | 2.9G |
 | [1.16.3](https://search.maven.org/artifact/org.apache.nifi/nifi/1.16.3/pom) | | | |

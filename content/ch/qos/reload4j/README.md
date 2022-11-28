@@ -13,6 +13,7 @@ rebuilding **6 releases** of ch.qos.reload4j:reload4j:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.2.24](https://search.maven.org/artifact/ch.qos.reload4j/reload4j/1.2.24/pom) | | | |
 | [1.2.23](https://search.maven.org/artifact/ch.qos.reload4j/reload4j/1.2.23/pom) | [mvn jdk8](reload4j-1.2.23.buildspec) | [result](reload4j-1.2.23.buildinfo): [3 :heavy_check_mark:  1 :warning:](reload4j-1.2.23.buildcompare) | 933K |
 | [1.2.22](https://search.maven.org/artifact/ch.qos.reload4j/reload4j/1.2.22/pom) | [mvn jdk8](reload4j-1.2.22.buildspec) | [result](reload4j-1.2.22.buildinfo): [4 :heavy_check_mark: ](reload4j-1.2.22.buildcompare) | 933K |
 | [1.2.21](https://search.maven.org/artifact/ch.qos.reload4j/reload4j/1.2.21/pom) | [mvn jdk8](reload4j-1.2.21.buildspec) | [result](reload4j-1.2.21.buildinfo): [3 :heavy_check_mark:  1 :warning:](reload4j-1.2.21.buildcompare) [:mag:](reload4j-1.2.21.diffoscope) [:memo:](https://github.com/qos-ch/reload4j/issues/57) | 933K |
