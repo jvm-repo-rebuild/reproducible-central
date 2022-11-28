@@ -1,0 +1,331 @@
+1 / 6 target/reference/dubbo-3.1.2.jar dubbo-distribution/dubbo-all/target/dubbo-3.1.2.jar
+--- target/reference/dubbo-3.1.2.jar
++++ dubbo-distribution/dubbo-all/target/dubbo-3.1.2.jar
+├── zipinfo {}
+│ @@ -5,267 +5,14 @@
+│  -rw----     2.0 fat    15894 bl defN 20-Apr-01 08:04 META-INF/LICENSE
+│  -rw----     2.0 fat      364 bl defN 20-Apr-01 08:04 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo/
+│  -rw----     2.0 fat    47610 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo/pom.xml
+│  -rw----     2.0 fat       56 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo/pom.properties
+│ --rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-config-api/
+│ --rw----     2.0 fat     6915 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-config-api/pom.xml
+│ --rw----     2.0 fat       67 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-config-api/pom.properties
+│ --rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/compat/
+│ --rw----     2.0 fat    83797 bl defN 20-Apr-01 08:04 META-INF/compat/dubbo.xsd
+...
+│ --rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-xds/
+│ --rw----     2.0 fat     3957 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-xds/pom.xml
+│ --rw----     2.0 fat       60 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-xds/pom.properties
+│ --rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-reactive/
+│ --rw----     2.0 fat     2065 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-reactive/pom.xml
+│ --rw----     2.0 fat       65 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-reactive/pom.properties
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/dubbo/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/dubbo/internal/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/dubbo/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/
+│  -rw----     2.0 fat      822 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/ConfigInitializer.class
+│ @@ -313,14 +60,22 @@
+│  -rw----     2.0 fat     3534 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/metadata/MetadataServiceURLParamsMetadataCustomizer.class
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/utils/
+│  -rw----     2.0 fat     5879 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/utils/CompositeReferenceCache.class
+│  -rw----     2.0 fat    28997 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/utils/ConfigValidationUtils.class
+│  -rw----     2.0 fat     2194 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/utils/DefaultConfigValidator.class
+│  -rw----     2.0 fat      495 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/utils/SimpleReferenceCache$KeyGenerator.class
+│  -rw----     2.0 fat    11701 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/utils/SimpleReferenceCache.class
+│ +-rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-config-api/
+│ +-rw----     2.0 fat     6915 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-config-api/pom.xml
+│ +-rw----     2.0 fat       67 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-config-api/pom.properties
+│ +-rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/compat/
+│ +-rw----     2.0 fat    83797 bl defN 20-Apr-01 08:04 META-INF/compat/dubbo.xsd
+│ +-rw----     2.0 fat    95165 bl defN 20-Apr-01 08:04 META-INF/dubbo.xsd
+│ +-rw----     2.0 fat      199 bl defN 20-Apr-01 08:04 META-INF/spring.handlers
+│ +-rw----     2.0 fat      144 bl defN 20-Apr-01 08:04 META-INF/spring.schemas
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/spring/
+│  -rw----     2.0 fat     5276 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/spring/ConfigCenterBean.class
+│  -rw----     2.0 fat      346 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/spring/Constants.class
+│  -rw----     2.0 fat      249 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/spring/ReferenceBean$1.class
+│  -rw----     2.0 fat     1643 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/spring/ReferenceBean$DubboReferenceLazyInitTargetSource.class
+│  -rw----     2.0 fat     9429 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/spring/ReferenceBean.class
+│  -rw----     2.0 fat     5167 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/spring/ServiceBean.class
+│ @@ -395,14 +150,17 @@
+│  -rw----     2.0 fat     5275 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/spring/status/DataSourceStatusChecker.class
+│  -rw----     2.0 fat     4269 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/spring/status/SpringStatusChecker.class
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/spring/util/
+│  -rw----     2.0 fat     7140 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/spring/util/DubboAnnotationUtils.class
+│  -rw----     2.0 fat     8984 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/spring/util/DubboBeanUtils.class
+│  -rw----     2.0 fat     5309 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/spring/util/EnvironmentUtils.class
+│  -rw----     2.0 fat     4486 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/spring/util/SpringCompatUtils.class
+│ +-rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-config-spring/
+│ +-rw----     2.0 fat     8667 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-config-spring/pom.xml
+│ +-rw----     2.0 fat       70 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-config-spring/pom.properties
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/dubbo/registry/
+│  -rw----     2.0 fat     1042 bl defN 20-Apr-01 08:04 org/apache/dubbo/registry/AddressListener.class
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/dubbo/rpc/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/dubbo/rpc/cluster/
+│  -rw----     2.0 fat     2112 bl defN 20-Apr-01 08:04 org/apache/dubbo/rpc/cluster/CacheableRouterFactory.class
+│  -rw----     2.0 fat     1822 bl defN 20-Apr-01 08:04 org/apache/dubbo/rpc/cluster/Cluster.class
+│  -rw----     2.0 fat     1201 bl defN 20-Apr-01 08:04 org/apache/dubbo/rpc/cluster/ClusterInvoker.class
+...
+
+2 / 6 target/reference/dubbo-3.1.2-sources.jar dubbo-distribution/dubbo-all/target/dubbo-3.1.2-sources.jar
+--- target/reference/dubbo-3.1.2-sources.jar
++++ dubbo-distribution/dubbo-all/target/dubbo-3.1.2-sources.jar
+├── zipinfo {}
+│ @@ -5,216 +5,14 @@
+│  -rw----     2.0 fat    11358 bl defN 20-Apr-01 08:04 META-INF/LICENSE
+│  -rw----     2.0 fat      162 bl defN 20-Apr-01 08:04 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo/
+│  -rw----     2.0 fat    47610 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo/pom.xml
+│  -rw----     2.0 fat       56 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo/pom.properties
+│ --rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-config-api/
+│ --rw----     2.0 fat     6915 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-config-api/pom.xml
+│ --rw----     2.0 fat       67 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-config-api/pom.properties
+...
+│ --rw----     2.0 fat     2065 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-reactive/pom.xml
+│ --rw----     2.0 fat       65 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-reactive/pom.properties
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/dubbo/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/
+│  -rw----     2.0 fat     1225 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/ConfigInitializer.java
+│  -rw----     2.0 fat     1204 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/ConfigPostProcessor.java
+│  -rw----     2.0 fat     2478 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/ConfigScopeModelInitializer.java
+│ @@ -259,14 +57,17 @@
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/utils/
+│  -rw----     2.0 fat     4886 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/utils/CompositeReferenceCache.java
+│  -rw----     2.0 fat    35800 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/utils/ConfigValidationUtils.java
+│  -rw----     2.0 fat     2932 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/utils/DefaultConfigValidator.java
+│  -rw----     2.0 fat    10840 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/utils/SimpleReferenceCache.java
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/dubbo/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/dubbo/internal/
+│ +-rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-config-api/
+│ +-rw----     2.0 fat     6915 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-config-api/pom.xml
+│ +-rw----     2.0 fat       67 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-config-api/pom.properties
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/spring/
+│  -rw----     2.0 fat     4625 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/spring/ConfigCenterBean.java
+│  -rw----     2.0 fat     1642 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/spring/Constants.java
+│  -rw----     2.0 fat    12625 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/spring/ReferenceBean.java
+│  -rw----     2.0 fat     4905 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/spring/ServiceBean.java
+│  -rw----     2.0 fat     1462 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/spring/SpringScopeModelInitializer.java
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/dubbo/config/spring/beans/
+...
+
+3 / 6 target/reference/dubbo-dependencies-bom-3.1.2.pom dubbo-dependencies-bom/.flattened-pom.xml
+--- target/reference/dubbo-dependencies-bom-3.1.2.pom
++++ dubbo-dependencies-bom/.flattened-pom.xml
+│   --- target/reference/dubbo-dependencies-bom-3.1.2.pom
+├── +++ dubbo-dependencies-bom/.flattened-pom.xml
+│ @@ -835,14 +835,17 @@
+│                  <arg>--digest-algo=SHA512</arg>
+│                </gpgArguments>
+│              </configuration>
+│            </plugin>
+│          </plugins>
+│        </build>
+│        <properties>
+│ -        <os.detected.name>osx</os.detected.name>
+│ -        <os.detected.classifier>osx-x86_64</os.detected.classifier>
+│ +        <os.detected.release.version>10</os.detected.release.version>
+│ +        <os.detected.release>debian</os.detected.release>
+│ +        <os.detected.name>linux</os.detected.name>
+│ +        <os.detected.release.like.debian>true</os.detected.release.like.debian>
+│ +        <os.detected.classifier>linux-x86_64</os.detected.classifier>
+│          <os.detected.arch>x86_64</os.detected.arch>
+│        </properties>
+│      </profile>
+│    </profiles>
+│  </project>
+
+4 / 6 target/reference/dubbo-dependencies-zookeeper-3.1.2.pom dubbo-dependencies/dubbo-dependencies-zookeeper/.flattened-pom.xml
+--- target/reference/dubbo-dependencies-zookeeper-3.1.2.pom
++++ dubbo-dependencies/dubbo-dependencies-zookeeper/.flattened-pom.xml
+│   --- target/reference/dubbo-dependencies-zookeeper-3.1.2.pom
+├── +++ dubbo-dependencies/dubbo-dependencies-zookeeper/.flattened-pom.xml
+│ @@ -107,14 +107,17 @@
+│                  <arg>--digest-algo=SHA512</arg>
+│                </gpgArguments>
+│              </configuration>
+│            </plugin>
+│          </plugins>
+│        </build>
+│        <properties>
+│ -        <os.detected.name>osx</os.detected.name>
+│ -        <os.detected.classifier>osx-x86_64</os.detected.classifier>
+│ +        <os.detected.release.version>10</os.detected.release.version>
+│ +        <os.detected.release>debian</os.detected.release>
+│ +        <os.detected.name>linux</os.detected.name>
+│ +        <os.detected.release.like.debian>true</os.detected.release.like.debian>
+│ +        <os.detected.classifier>linux-x86_64</os.detected.classifier>
+│          <os.detected.arch>x86_64</os.detected.arch>
+│        </properties>
+│      </profile>
+│    </profiles>
+│  </project>
+
+5 / 6 target/reference/dubbo-dependencies-zookeeper-curator5-3.1.2.pom dubbo-dependencies/dubbo-dependencies-zookeeper-curator5/.flattened-pom.xml
+--- target/reference/dubbo-dependencies-zookeeper-curator5-3.1.2.pom
++++ dubbo-dependencies/dubbo-dependencies-zookeeper-curator5/.flattened-pom.xml
+│   --- target/reference/dubbo-dependencies-zookeeper-curator5-3.1.2.pom
+├── +++ dubbo-dependencies/dubbo-dependencies-zookeeper-curator5/.flattened-pom.xml
+│ @@ -161,14 +161,17 @@
+│                  <arg>--digest-algo=SHA512</arg>
+│                </gpgArguments>
+│              </configuration>
+│            </plugin>
+│          </plugins>
+│        </build>
+│        <properties>
+│ -        <os.detected.name>osx</os.detected.name>
+│ -        <os.detected.classifier>osx-x86_64</os.detected.classifier>
+│ +        <os.detected.release.version>10</os.detected.release.version>
+│ +        <os.detected.release>debian</os.detected.release>
+│ +        <os.detected.name>linux</os.detected.name>
+│ +        <os.detected.release.like.debian>true</os.detected.release.like.debian>
+│ +        <os.detected.classifier>linux-x86_64</os.detected.classifier>
+│          <os.detected.arch>x86_64</os.detected.arch>
+│        </properties>
+│      </profile>
+│    </profiles>
+│  </project>
+
+6 / 6 target/reference/dubbo-native-plugin-3.1.2-sources.jar dubbo-native-plugin/target/dubbo-native-plugin-3.1.2-sources.jar
+--- target/reference/dubbo-native-plugin-3.1.2-sources.jar
++++ dubbo-native-plugin/target/dubbo-native-plugin-3.1.2-sources.jar
+├── zipinfo {}
+│ @@ -1,35 +1,15 @@
+│ -Zip file size: 23785 bytes, number of entries: 45
+│ +Zip file size: 21067 bytes, number of entries: 25
+│  -rw-r--r--  2.0 unx       64 b- defN 20-Apr-01 08:04 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/cache/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/common/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/common/metrics/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/common/serialize/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/common/threadpool/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/maven/plugin/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/metadata/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/metadata/report/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/monitor/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/registry/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/registry/xds/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/remoting/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/remoting/api/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/remoting/api/pu/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/remoting/exchange/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/remoting/http/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/rpc/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/rpc/cluster/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/rpc/cluster/router/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/rpc/cluster/router/state/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/validation/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 META-INF/native-image/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-native-plugin/
+│  -rw-r--r--  2.0 unx    13113 b- defN 20-Apr-01 08:04 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 20-Apr-01 08:04 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      176 b- defN 20-Apr-01 08:04 META-INF/NOTICE
+│ @@ -40,8 +20,8 @@
+│  -rw-r--r--  2.0 unx        4 b- defN 20-Apr-01 08:04 META-INF/native-image/jni-config.json
+│  -rw-r--r--  2.0 unx      155 b- defN 20-Apr-01 08:04 META-INF/native-image/proxy-config.json
+│  -rw-r--r--  2.0 unx    57556 b- defN 20-Apr-01 08:04 META-INF/native-image/reflect-config.json
+│  -rw-r--r--  2.0 unx     5761 b- defN 20-Apr-01 08:04 META-INF/native-image/resource-config.json
+│  -rw-r--r--  2.0 unx        4 b- defN 20-Apr-01 08:04 META-INF/native-image/serialization-config.json
+│  -rw-r--r--  2.0 unx     3240 b- defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-native-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       70 b- defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-native-plugin/pom.properties
+│ -45 files, 105509 bytes uncompressed, 17517 bytes compressed:  83.4%
+│ +25 files, 105509 bytes uncompressed, 17517 bytes compressed:  83.4%
+├── zipnote «TEMP»/diffoscope_ogtd6r13_target/tmp16a_31b5_.zip
+│ @@ -9,80 +9,20 @@
+│  
+│  Filename: org/apache/
+│  Comment: 
+│  
+│  Filename: org/apache/dubbo/
+│  Comment: 
+│  
+│ -Filename: org/apache/dubbo/cache/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/dubbo/common/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/dubbo/common/metrics/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/dubbo/common/serialize/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/dubbo/common/threadpool/
+│ -Comment: 
+│ -
+│  Filename: org/apache/dubbo/maven/
+│  Comment: 
+│  
+│  Filename: org/apache/dubbo/maven/plugin/
+│  Comment: 
+│  
+│ -Filename: org/apache/dubbo/metadata/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/dubbo/metadata/report/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/dubbo/monitor/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/dubbo/registry/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/dubbo/registry/xds/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/dubbo/remoting/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/dubbo/remoting/api/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/dubbo/remoting/api/pu/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/dubbo/remoting/exchange/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/dubbo/remoting/http/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/dubbo/rpc/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/dubbo/rpc/cluster/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/dubbo/rpc/cluster/router/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/dubbo/rpc/cluster/router/state/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/dubbo/validation/
+│ -Comment: 
+│ -
+│  Filename: META-INF/native-image/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.dubbo/
+
