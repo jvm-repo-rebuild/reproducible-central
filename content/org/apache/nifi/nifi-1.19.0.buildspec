@@ -14,4 +14,4 @@ command="SHELL export LC_ALL=en_US.UTF-8 ; MAVEN_OPTS='-Duser.country=US -Duser.
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://issues.apache.org/jira/browse/NIFI-10892
