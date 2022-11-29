@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dubbo.git)
 
-<details><summary>This project defines 115 modules:</summary>
+<details><summary>This project defines 116 modules:</summary>
 
 * [org.apache.dubbo:dubbo](https://search.maven.org/artifact/org.apache.dubbo/dubbo/)
 * [org.apache.dubbo:dubbo-auth](https://search.maven.org/artifact/org.apache.dubbo/dubbo-auth/)
@@ -59,6 +59,7 @@ Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dub
 * [org.apache.dubbo:dubbo-parent](https://search.maven.org/artifact/org.apache.dubbo/dubbo-parent/)
 * [org.apache.dubbo:dubbo-plugin](https://search.maven.org/artifact/org.apache.dubbo/dubbo-plugin/)
 * [org.apache.dubbo:dubbo-qos](https://search.maven.org/artifact/org.apache.dubbo/dubbo-qos/)
+* [org.apache.dubbo:dubbo-reactive](https://search.maven.org/artifact/org.apache.dubbo/dubbo-reactive/)
 * [org.apache.dubbo:dubbo-registry](https://search.maven.org/artifact/org.apache.dubbo/dubbo-registry/)
 * [org.apache.dubbo:dubbo-registry-api](https://search.maven.org/artifact/org.apache.dubbo/dubbo-registry-api/)
 * [org.apache.dubbo:dubbo-registry-consul](https://search.maven.org/artifact/org.apache.dubbo/dubbo-registry-consul/)
@@ -126,16 +127,16 @@ Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dub
 * [org.apache.dubbo:dubbo-xds](https://search.maven.org/artifact/org.apache.dubbo/dubbo-xds/)
 </details>
 
-rebuilding **6 releases** of org.apache.dubbo:dubbo:
+rebuilding **7 releases** of org.apache.dubbo:dubbo:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [3.2.0-beta.2](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.2.0-beta.2/pom) | | | |
 | [3.2.0-beta.1](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.2.0-beta.1/pom) | | | |
 | [3.1.3](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.1.3/pom) | | | |
-| [3.1.2](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.1.2/pom) | | | |
+| [3.1.2](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.1.2/pom) | [mvn jdk8](dubbo-3.1.2.buildspec) | [result](dubbo-parent-3.1.2.buildinfo): [189 :heavy_check_mark:  6 :warning:](dubbo-parent-3.1.2.buildcompare) [:mag:](dubbo-parent-3.1.2.diffoscope) | 24M |
 | [3.1.1](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.1.1/pom) | | | |
 | [3.1.0](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.1.0/pom) | [mvn jdk8](dubbo-3.1.0.buildspec) | [result](dubbo-parent-3.1.0.buildinfo): [178 :heavy_check_mark:  14 :warning:](dubbo-parent-3.1.0.buildcompare) [:mag:](dubbo-parent-3.1.0.diffoscope) [:memo:](https://github.com/apache/dubbo/pull/10700) | 24M |
 | [3.0.12](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.0.12/pom) | | | |
