@@ -1,0 +1,1336 @@
+1 / 200 target/reference/nifi-nar-utils-1.19.0.jar nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/nifi-nar-utils-1.19.0.jar
+--- target/reference/nifi-nar-utils-1.19.0.jar
++++ nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/nifi-nar-utils-1.19.0.jar
+├── zipinfo {}
+│ @@ -1,23 +1,23 @@
+│ -Zip file size: 52132 bytes, number of entries: 35
+│ +Zip file size: 52147 bytes, number of entries: 35
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 META-INF/
+│  -rw-r--r--  2.0 unx      305 b- defN 22-Nov-23 02:12 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 org/apache/nifi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 org/apache/nifi/nar/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 org/apache/nifi/util/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 META-INF/maven/org.apache.nifi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 META-INF/maven/org.apache.nifi/nifi-nar-utils/
+│  -rw-r--r--  2.0 unx      264 b- defN 22-Nov-23 02:12 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Nov-23 02:12 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      155 b- defN 22-Nov-23 02:12 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx      959 b- defN 22-Nov-23 02:12 META-INF/aop.xml
+│ --rw-r--r--  2.0 unx     2177 b- defN 22-Nov-23 02:12 builddef.lst
+│ +-rw-r--r--  2.0 unx     2509 b- defN 22-Nov-23 02:12 builddef.lst
+│  -rw-r--r--  2.0 unx     8132 b- defN 22-Nov-23 02:12 org/apache/nifi/nar/AbstractNativeLibHandlingClassLoader.class
+│  -rw-r--r--  2.0 unx     1920 b- defN 22-Nov-23 02:12 org/apache/nifi/nar/FileDigestUtils.class
+│  -rw-r--r--  2.0 unx     5806 b- defN 22-Nov-23 02:12 org/apache/nifi/nar/LoadNativeLibAspect.class
+│  -rw-r--r--  2.0 unx     3563 b- defN 22-Nov-23 02:12 org/apache/nifi/nar/NarBundleUtil.class
+│  -rw-r--r--  2.0 unx      859 b- defN 22-Nov-23 02:12 org/apache/nifi/nar/NarClassLoader$1.class
+│  -rw-r--r--  2.0 unx     4121 b- defN 22-Nov-23 02:12 org/apache/nifi/nar/NarClassLoader.class
+│  -rw-r--r--  2.0 unx      233 b- defN 22-Nov-23 02:12 org/apache/nifi/nar/NarClassLoaders$1.class
+│ @@ -30,8 +30,8 @@
+│  -rw-r--r--  2.0 unx      754 b- defN 22-Nov-23 02:12 org/apache/nifi/nar/NarUnpacker$1.class
+│  -rw-r--r--  2.0 unx    30671 b- defN 22-Nov-23 02:12 org/apache/nifi/nar/NarUnpacker.class
+│  -rw-r--r--  2.0 unx      872 b- defN 22-Nov-23 02:12 org/apache/nifi/nar/OSUtil.class
+│  -rw-r--r--  2.0 unx     2439 b- defN 22-Nov-23 02:12 org/apache/nifi/nar/SystemBundle.class
+│  -rw-r--r--  2.0 unx     5042 b- defN 22-Nov-23 02:12 org/apache/nifi/util/FileUtils.class
+│  -rw-r--r--  2.0 unx     4761 b- defN 22-Nov-23 02:12 META-INF/maven/org.apache.nifi/nifi-nar-utils/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 22-Nov-23 02:12 META-INF/maven/org.apache.nifi/nifi-nar-utils/pom.properties
+│ -35 files, 110697 bytes uncompressed, 47168 bytes compressed:  57.4%
+│ +35 files, 111029 bytes uncompressed, 47183 bytes compressed:  57.5%
+├── builddef.lst
+│ @@ -6,13 +6,13 @@
+│  -showWeaveInfo
+│  -source
+│  1.8
+│  -target
+│  1.8
+│  -verbose
+│  -classpath
+│ -/Users/jwitt/development/nifi.git/target/checkout/nifi-commons/nifi-properties/target/nifi-properties-1.19.0.jar:/Users/jwitt/development/nifi.git/target/checkout/nifi-api/target/nifi-api-1.19.0.jar:/Users/jwitt/development/nifi.git/target/checkout/nifi-framework-api/target/nifi-framework-api-1.19.0.jar:/Users/jwitt/development/nifi.git/target/checkout/nifi-server-api/target/nifi-server-api-1.19.0.jar:/Users/jwitt/.m2/repository/org/aspectj/aspectjrt/1.9.6/aspectjrt-1.9.6.jar:/Users/jwitt/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/jwitt/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.jar:/Users/jwitt/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.jar:/Users/jwitt/.m2/repository/org/junit/vintage/junit-vintage-engine/5.9.1/junit-vintage-engine-5.9.1.jar:/Users/jwitt/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.1/junit-jupiter-params-5.9.1.jar:/Users/jwitt/.m2/repository/org/mockito/mockito-core/3.12.4/mockito-core-3.12.4.jar:/Users/jwitt/.m2/repository/org/mockito/mockito-junit-jupiter/3.12.4/mockito-junit-jupiter-3.12.4.jar:/Users/jwitt/.m2/repository/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar:/Users/jwitt/.m2/repository/org/codehaus/groovy/groovy-test/3.0.9/groovy-test-3.0.9.jar:/Users/jwitt/development/nifi.git/target/checkout/nifi-commons/nifi-property-utils/target/nifi-property-utils-1.19.0.jar:/Users/jwitt/development/nifi.git/target/checkout/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/classes
+│ +/home/herve/dev/maven/misc/reproducible-central/content/org/apache/nifi/buildcache/nifi/nifi-commons/nifi-properties/target/nifi-properties-1.19.0.jar:/home/herve/dev/maven/misc/reproducible-central/content/org/apache/nifi/buildcache/nifi/nifi-api/target/nifi-api-1.19.0.jar:/home/herve/dev/maven/misc/reproducible-central/content/org/apache/nifi/buildcache/nifi/nifi-framework-api/target/nifi-framework-api-1.19.0.jar:/home/herve/dev/maven/misc/reproducible-central/content/org/apache/nifi/buildcache/nifi/nifi-server-api/target/nifi-server-api-1.19.0.jar:/home/herve/.m2/repository/org/aspectj/aspectjrt/1.9.6/aspectjrt-1.9.6.jar:/home/herve/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/herve/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.jar:/home/herve/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.jar:/home/herve/.m2/repository/org/junit/vintage/junit-vintage-engine/5.9.1/junit-vintage-engine-5.9.1.jar:/home/herve/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.1/junit-jupiter-params-5.9.1.jar:/home/herve/.m2/repository/org/mockito/mockito-core/3.12.4/mockito-core-3.12.4.jar:/home/herve/.m2/repository/org/mockito/mockito-junit-jupiter/3.12.4/mockito-junit-jupiter-3.12.4.jar:/home/herve/.m2/repository/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar:/home/herve/.m2/repository/org/codehaus/groovy/groovy-test/3.0.9/groovy-test-3.0.9.jar:/home/herve/dev/maven/misc/reproducible-central/content/org/apache/nifi/buildcache/nifi/nifi-commons/nifi-property-utils/target/nifi-property-utils-1.19.0.jar:/home/herve/dev/maven/misc/reproducible-central/content/org/apache/nifi/buildcache/nifi/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/classes
+│  -d
+│ -/Users/jwitt/development/nifi.git/target/checkout/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/classes
+│ +/home/herve/dev/maven/misc/reproducible-central/content/org/apache/nifi/buildcache/nifi/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/classes
+│  -s
+│ -/Users/jwitt/development/nifi.git/target/checkout/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/generated-sources/aspectj-maven-plugin
+│ -/Users/jwitt/development/nifi.git/target/checkout/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-nar-utils/src/main/java/org/apache/nifi/nar/LoadNativeLibAspect.java
+│ +/home/herve/dev/maven/misc/reproducible-central/content/org/apache/nifi/buildcache/nifi/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/generated-sources/aspectj-maven-plugin
+│ +/home/herve/dev/maven/misc/reproducible-central/content/org/apache/nifi/buildcache/nifi/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-nar-utils/src/main/java/org/apache/nifi/nar/LoadNativeLibAspect.java
+
+2 / 200 target/reference/nifi-authorizer-1.19.0.jar nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-authorizer/target/nifi-authorizer-1.19.0.jar
+--- target/reference/nifi-authorizer-1.19.0.jar
++++ nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-authorizer/target/nifi-authorizer-1.19.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 45534 bytes, number of entries: 39
+│ +Zip file size: 45535 bytes, number of entries: 39
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 META-INF/
+│  -rw-r--r--  2.0 unx      307 b- defN 22-Nov-23 02:12 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 META-INF/JAXB/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 org/apache/nifi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 org/apache/nifi/authorization/
+│ @@ -34,8 +34,8 @@
+│  -rw-r--r--  2.0 unx     1735 b- defN 22-Nov-23 02:12 org/apache/nifi/authorization/generated/Authorizer.class
+│  -rw-r--r--  2.0 unx     1729 b- defN 22-Nov-23 02:12 org/apache/nifi/authorization/generated/Authorizers.class
+│  -rw-r--r--  2.0 unx     1483 b- defN 22-Nov-23 02:12 org/apache/nifi/authorization/generated/ObjectFactory.class
+│  -rw-r--r--  2.0 unx     1315 b- defN 22-Nov-23 02:12 org/apache/nifi/authorization/generated/Property.class
+│  -rw-r--r--  2.0 unx     1563 b- defN 22-Nov-23 02:12 org/apache/nifi/authorization/generated/UserGroupProvider.class
+│  -rw-r--r--  2.0 unx     7262 b- defN 22-Nov-23 02:12 META-INF/maven/org.apache.nifi/nifi-authorizer/pom.xml
+│  -rw-r--r--  2.0 unx       66 b- defN 22-Nov-23 02:12 META-INF/maven/org.apache.nifi/nifi-authorizer/pom.properties
+│ -39 files, 116272 bytes uncompressed, 39156 bytes compressed:  66.3%
+│ +39 files, 116272 bytes uncompressed, 39157 bytes compressed:  66.3%
+├── META-INF/JAXB/episode_current.xjb
+│ ├── META-INF/JAXB/episode_current.xjb
+│ │ @@ -1,15 +1,15 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" version="2.1">
+│ │    <!--
+│ │  
+│ │  This file was generated by the JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.3.2 
+│ │  See <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+│ │  Any modifications to this file will be lost upon recompilation of the source schema. 
+│ │ -Generated on: 2022.11.22 at 07:28:20 PM MST 
+│ │ +Generated on: 2022.11.29 at 12:34:14 AM CET 
+│ │  
+│ │    -->
+│ │    <jaxb:bindings scd="x-schema::">
+│ │      <jaxb:schemaBindings map="false">
+│ │        <jaxb:package name="org.apache.nifi.authorization.generated"/>
+│ │      </jaxb:schemaBindings>
+│ │      <jaxb:bindings scd="authorizers">
+
+3 / 200 target/reference/nifi-authorizer-1.19.0-sources.jar nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-authorizer/target/nifi-authorizer-1.19.0-sources.jar
+--- target/reference/nifi-authorizer-1.19.0-sources.jar
++++ nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-authorizer/target/nifi-authorizer-1.19.0-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 34863 bytes, number of entries: 34
+│ +Zip file size: 34864 bytes, number of entries: 34
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Nov-23 02:12 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 org/apache/nifi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 org/apache/nifi/authorization/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 META-INF/JAXB/
+│ @@ -29,8 +29,8 @@
+│  -rw-r--r--  2.0 unx     1785 b- defN 22-Nov-23 02:12 org/apache/nifi/authorization/generated/ObjectFactory.java
+│  -rw-r--r--  2.0 unx     2512 b- defN 22-Nov-23 02:12 org/apache/nifi/authorization/generated/Property.java
+│  -rw-r--r--  2.0 unx     3089 b- defN 22-Nov-23 02:12 org/apache/nifi/authorization/generated/UserGroupProvider.java
+│  -rw-r--r--  2.0 unx     1388 b- defN 22-Nov-23 02:12 nifi-authorizer-context.xml
+│  -rw-r--r--  2.0 unx     3165 b- defN 22-Nov-23 02:12 authorizers.xsd
+│  -rw-r--r--  2.0 unx     7262 b- defN 22-Nov-23 02:12 META-INF/maven/org.apache.nifi/nifi-authorizer/pom.xml
+│  -rw-r--r--  2.0 unx       66 b- defN 22-Nov-23 02:12 META-INF/maven/org.apache.nifi/nifi-authorizer/pom.properties
+│ -34 files, 127572 bytes uncompressed, 29465 bytes compressed:  76.9%
+│ +34 files, 127572 bytes uncompressed, 29466 bytes compressed:  76.9%
+├── META-INF/JAXB/episode_current.xjb
+│ ├── META-INF/JAXB/episode_current.xjb
+│ │ @@ -1,15 +1,15 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" version="2.1">
+│ │    <!--
+│ │  
+│ │  This file was generated by the JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.3.2 
+│ │  See <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+│ │  Any modifications to this file will be lost upon recompilation of the source schema. 
+│ │ -Generated on: 2022.11.22 at 07:28:20 PM MST 
+│ │ +Generated on: 2022.11.29 at 12:34:14 AM CET 
+│ │  
+│ │    -->
+│ │    <jaxb:bindings scd="x-schema::">
+│ │      <jaxb:schemaBindings map="false">
+│ │        <jaxb:package name="org.apache.nifi.authorization.generated"/>
+│ │      </jaxb:schemaBindings>
+│ │      <jaxb:bindings scd="authorizers">
+
+...
+
+8 / 200 target/reference/nifi-web-api-1.19.0.war nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-api/target/nifi-web-api-1.19.0.war
+--- target/reference/nifi-web-api-1.19.0.war
++++ nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-api/target/nifi-web-api-1.19.0.war
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1560160 bytes, number of entries: 396
+│ +Zip file size: 1560219 bytes, number of entries: 396
+│  -rw-r--r--  2.0 unx       82 b- defN 22-Nov-23 02:12 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 WEB-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 WEB-INF/classes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 WEB-INF/classes/META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 WEB-INF/classes/images/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 WEB-INF/classes/org/
+│ @@ -388,11 +388,11 @@
+│  -rw-r--r--  2.0 unx    12943 b- defN 22-Nov-23 02:12 WEB-INF/lib/simpleclient_servlet_common-0.16.0.jar
+│  -rw-r--r--  2.0 unx     3405 b- defN 22-Nov-23 02:12 WEB-INF/lib/simpleclient_tracer_common-0.16.0.jar
+│  -rw-r--r--  2.0 unx     4338 b- defN 22-Nov-23 02:12 WEB-INF/lib/simpleclient_tracer_otel-0.16.0.jar
+│  -rw-r--r--  2.0 unx     4611 b- defN 22-Nov-23 02:12 WEB-INF/lib/simpleclient_tracer_otel_agent-0.16.0.jar
+│  -rw-r--r--  2.0 unx     2883 b- defN 22-Nov-23 02:12 WEB-INF/web.xml
+│  -rw-r--r--  2.0 unx     5931 b- defN 22-Nov-23 02:12 docs/rest-api/images/bgNifiLogo.png
+│  -rw-r--r--  2.0 unx     1150 b- defN 22-Nov-23 02:12 docs/rest-api/images/nifi16.ico
+│ --rw-r--r--  2.0 unx  2745194 b- defN 22-Nov-23 02:12 docs/rest-api/index.html
+│ +-rw-r--r--  2.0 unx  2746000 b- defN 22-Nov-23 02:12 docs/rest-api/index.html
+│  -rw-r--r--  2.0 unx    17507 b- defN 22-Nov-23 02:12 META-INF/maven/org.apache.nifi/nifi-web-api/pom.xml
+│  -rw-r--r--  2.0 unx       63 b- defN 22-Nov-23 02:12 META-INF/maven/org.apache.nifi/nifi-web-api/pom.properties
+│ -396 files, 6188279 bytes uncompressed, 1475392 bytes compressed:  76.2%
+│ +396 files, 6189085 bytes uncompressed, 1475451 bytes compressed:  76.2%
+├── docs/rest-api/index.html
+│ @@ -44991,32 +44991,32 @@
+│                          
+│                              
+│                              
+│                                  string
+│                              
+│                          
+│                      </td>
+│ -                    <td>optional</td>
+│ -                    <td>The group of the bundle
+│ +                    <td>required</td>
+│ +                    <td>The group id of the bundle
+│                          
+│                          </td>
+│                  </tr>
+│              
+│                  <tr>
+│                      <td>artifact</td>
+│                      <td>
+│                          
+│                              
+│                              
+│                                  string
+│                              
+│                          
+│                      </td>
+│ -                    <td>optional</td>
+│ -                    <td>The artifact of the bundle
+│ +                    <td>required</td>
+│ +                    <td>The artifact id of the bundle
+│                          
+│                          </td>
+│                  </tr>
+│              
+│                  <tr>
+│                      <td>version</td>
+│                      <td>
+...
+
+9 / 200 target/reference/nifi-web-ui-1.19.0.war nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-ui/target/nifi-web-ui-1.19.0.war
+--- target/reference/nifi-web-ui-1.19.0.war
++++ nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-ui/target/nifi-web-ui-1.19.0.war
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 4251737 bytes, number of entries: 674
+│ +Zip file size: 4251733 bytes, number of entries: 674
+│  -rw-r--r--  2.0 unx       82 b- defN 22-Nov-23 02:12 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 WEB-INF/classes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 WEB-INF/classes/META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 WEB-INF/classes/filters/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 WEB-INF/classes/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 WEB-INF/classes/org/apache/
+│ @@ -261,16 +261,16 @@
+│  -rw-r--r--  2.0 unx     5160 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/message_002dpane_jsp.java
+│  -rw-r--r--  2.0 unx     5287 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/ok_002ddialog_jsp.class
+│  -rw-r--r--  2.0 unx     4654 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/ok_002ddialog_jsp.java
+│  -rw-r--r--  2.0 unx    16443 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/processor_002ddetails_jsp.class
+│  -rw-r--r--  2.0 unx    16328 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/processor_002ddetails_jsp.java
+│  -rw-r--r--  2.0 unx     5472 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/provenance/lineage_002dquery_002ddialog_jsp.class
+│  -rw-r--r--  2.0 unx     4807 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/provenance/lineage_002dquery_002ddialog_jsp.java
+│ --rw-r--r--  2.0 unx    11005 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/provenance/provenance_002dcontent_jsp.class
+│ --rw-r--r--  2.0 unx    12283 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/provenance/provenance_002dcontent_jsp.java
+│ +-rw-r--r--  2.0 unx    10478 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/provenance/provenance_002dcontent_jsp.class
+│ +-rw-r--r--  2.0 unx    11823 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/provenance/provenance_002dcontent_jsp.java
+│  -rw-r--r--  2.0 unx    16196 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/provenance/provenance_002devent_002ddetails_002ddialog_jsp.class
+│  -rw-r--r--  2.0 unx    16071 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/provenance/provenance_002devent_002ddetails_002ddialog_jsp.java
+│  -rw-r--r--  2.0 unx     5487 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/provenance/provenance_002dquery_002ddialog_jsp.class
+│  -rw-r--r--  2.0 unx     4816 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/provenance/provenance_002dquery_002ddialog_jsp.java
+│  -rw-r--r--  2.0 unx     9106 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/provenance/provenance_002dsearch_002ddialog_jsp.class
+│  -rw-r--r--  2.0 unx     8647 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/provenance/provenance_002dsearch_002ddialog_jsp.java
+│  -rw-r--r--  2.0 unx     6066 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/status_002dhistory_002ddialog_jsp.class
+│ @@ -289,16 +289,16 @@
+│  -rw-r--r--  2.0 unx     5924 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/summary/cluster_002dremote_002dprocess_002dgroup_002dsummary_002ddialog_jsp.java
+│  -rw-r--r--  2.0 unx     8255 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/summary/summary_002dcontent_jsp.class
+│  -rw-r--r--  2.0 unx     7789 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/summary/summary_002dcontent_jsp.java
+│  -rw-r--r--  2.0 unx    15598 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/summary/system_002ddiagnostics_002ddialog_jsp.class
+│  -rw-r--r--  2.0 unx    15378 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/summary/system_002ddiagnostics_002ddialog_jsp.java
+│  -rw-r--r--  2.0 unx     5493 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/summary/view_002dsingle_002dnode_002ddialog_jsp.class
+│  -rw-r--r--  2.0 unx     4817 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/summary/view_002dsingle_002dnode_002ddialog_jsp.java
+│ --rw-r--r--  2.0 unx     8009 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/templates/templates_002dcontent_jsp.class
+│ --rw-r--r--  2.0 unx     7919 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/templates/templates_002dcontent_jsp.java
+│ +-rw-r--r--  2.0 unx     8535 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/templates/templates_002dcontent_jsp.class
+│ +-rw-r--r--  2.0 unx     8377 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/templates/templates_002dcontent_jsp.java
+│  -rw-r--r--  2.0 unx     5451 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/users/user_002ddelete_002ddialog_jsp.class
+│  -rw-r--r--  2.0 unx     4791 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/users/user_002ddelete_002ddialog_jsp.java
+│  -rw-r--r--  2.0 unx     6568 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/users/user_002ddialog_jsp.class
+│  -rw-r--r--  2.0 unx     6025 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/users/user_002ddialog_jsp.java
+│  -rw-r--r--  2.0 unx     5802 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/users/user_002dpolicies_002ddialog_jsp.class
+│  -rw-r--r--  2.0 unx     5154 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/users/user_002dpolicies_002ddialog_jsp.java
+│  -rw-r--r--  2.0 unx     6277 b- defN 22-Nov-23 02:12 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/users/users_002dcontent_jsp.class
+│ @@ -669,8 +669,8 @@
+│  -rw-r--r--  2.0 unx    41525 b- defN 22-Nov-23 02:12 js/nf/templates/nf-templates-all.js
+│  -rw-r--r--  2.0 unx    11610 b- defN 22-Nov-23 02:12 js/nf/templates/nf-templates-all.js.gz
+│  -rw-r--r--  2.0 unx    55954 b- defN 22-Nov-23 02:12 js/nf/users/nf-users-all.js
+│  -rw-r--r--  2.0 unx    14386 b- defN 22-Nov-23 02:12 js/nf/users/nf-users-all.js.gz
+│  -rw-r--r--  2.0 unx     1618 b- defN 22-Nov-23 02:12 views/nf-ng-breadcrumbs-directive-view.html
+│  -rw-r--r--  2.0 unx    74122 b- defN 22-Nov-23 02:12 META-INF/maven/org.apache.nifi/nifi-web-ui/pom.xml
+│  -rw-r--r--  2.0 unx       62 b- defN 22-Nov-23 02:12 META-INF/maven/org.apache.nifi/nifi-web-ui/pom.properties
+│ -674 files, 10578113 bytes uncompressed, 4128809 bytes compressed:  61.0%
+│ +674 files, 10578110 bytes uncompressed, 4128805 bytes compressed:  61.0%
+├── WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/banners_002dmain_jsp.java
+│ @@ -1,11 +1,11 @@
+│  /*
+│   * Generated by the Jasper component of Apache Tomcat
+│   * Version: JspC/ApacheTomcat8
+│ - * Generated at: 2022-11-23 02:30:06 UTC
+│ + * Generated at: 2022-11-28 23:35:18 UTC
+│   * Note: The last modified time of this file was set to
+│   *       the last modified time of the source file after
+│   *       generation to assist with modification tracking.
+│   */
+│  package org.apache.jsp.WEB_002dINF.partials;
+│  
+│  import javax.servlet.*;
+...
+├── WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/templates/templates_002dcontent_jsp.class
+│ ├── procyon -ec {}
+│ │ @@ -15,14 +15,15 @@
+│ │  import javax.servlet.ServletRequest;
+│ │  import javax.servlet.Servlet;
+│ │  import javax.servlet.DispatcherType;
+│ │  import javax.servlet.http.HttpServletResponse;
+│ │  import javax.servlet.http.HttpServletRequest;
+│ │  import org.apache.jasper.runtime.InstanceManagerFactory;
+│ │  import java.util.HashSet;
+│ │ +import java.util.HashMap;
+│ │  import org.apache.tomcat.InstanceManager;
+│ │  import javax.el.ExpressionFactory;
+│ │  import org.apache.jasper.runtime.TagHandlerPool;
+│ │  import java.util.Set;
+│ │  import java.util.Map;
+│ │  import javax.servlet.jsp.JspFactory;
+│ │  import org.apache.jasper.runtime.JspSourceImports;
+│ │ @@ -37,14 +38,16 @@
+│ │      private static final Set<String> _jspx_imports_classes;
+│ │      private TagHandlerPool _005fjspx_005ftagPool_005fc_005fout_0026_005fvalue_005fnobody;
+│ │      private volatile ExpressionFactory _el_expressionfactory;
+│ │      private volatile InstanceManager _jsp_instancemanager;
+│ │      
+│ │      static {
+│ │          _jspxFactory = JspFactory.getDefaultFactory();
+│ │ +        (templates_002dcontent_jsp._jspx_dependants = new HashMap<String, Long>(2)).put("file:/home/herve/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar", Long.valueOf(1665214444898L));
+│ │ +        templates_002dcontent_jsp._jspx_dependants.put("jar:file:/home/herve/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/META-INF/c.tld", Long.valueOf(1425975070000L));
+│ │          (_jspx_imports_packages = new HashSet<String>()).add("javax.servlet");
+│ │          templates_002dcontent_jsp._jspx_imports_packages.add("javax.servlet.http");
+│ │          templates_002dcontent_jsp._jspx_imports_packages.add("javax.servlet.jsp");
+│ │          _jspx_imports_classes = null;
+│ │      }
+│ │      
+│ │      public Map<String, Long> getDependants() {
+├── WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/templates/templates_002dcontent_jsp.java
+│ @@ -1,11 +1,11 @@
+│  /*
+│   * Generated by the Jasper component of Apache Tomcat
+│   * Version: JspC/ApacheTomcat8
+│ - * Generated at: 2022-11-23 02:30:06 UTC
+│ + * Generated at: 2022-11-28 23:35:17 UTC
+│   * Note: The last modified time of this file was set to
+│   *       the last modified time of the source file after
+│   *       generation to assist with modification tracking.
+│   */
+│  package org.apache.jsp.WEB_002dINF.partials.templates;
+│  
+│  import javax.servlet.*;
+│ @@ -17,14 +17,20 @@
+│                   org.apache.jasper.runtime.JspSourceImports {
+│  
+│    private static final javax.servlet.jsp.JspFactory _jspxFactory =
+│            javax.servlet.jsp.JspFactory.getDefaultFactory();
+│  
+│    private static java.util.Map<java.lang.String,java.lang.Long> _jspx_dependants;
+│  
+│ +  static {
+│ +    _jspx_dependants = new java.util.HashMap<java.lang.String,java.lang.Long>(2);
+│ +    _jspx_dependants.put("file:/home/herve/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar", Long.valueOf(1665214444898L));
+│ +    _jspx_dependants.put("jar:file:/home/herve/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/META-INF/c.tld", Long.valueOf(1425975070000L));
+│ +  }
+│ +
+│    private static final java.util.Set<java.lang.String> _jspx_imports_packages;
+│  
+│    private static final java.util.Set<java.lang.String> _jspx_imports_classes;
+│  
+│    static {
+│      _jspx_imports_packages = new java.util.HashSet<>();
+│      _jspx_imports_packages.add("javax.servlet");
+...
+├── WEB-INF/web.xml
+│ ├── WEB-INF/web.xml
+│ │ @@ -163,762 +163,762 @@
+│ │      <param-name>org.eclipse.jetty.jsp.precompiled</param-name>
+│ │      <param-value>true</param-value>
+│ │    </context-param>
+│ │    <!--
+│ │  Automatically created by Apache Tomcat JspC.
+│ │  -->
+│ │    <servlet>
+│ │ -    <servlet-name>org.apache.jsp.WEB_002dINF.partials.status_002dhistory_002ddialog_jsp</servlet-name>
+│ │ -    <servlet-class>org.apache.jsp.WEB_002dINF.partials.status_002dhistory_002ddialog_jsp</servlet-class>
+│ │ -  </servlet>
+│ │ -  <servlet>
+│ │ -    <servlet-name>org.apache.jsp.WEB_002dINF.partials.canvas.remote_002dport_002dconfiguration_jsp</servlet-name>
+│ │ -    <servlet-class>org.apache.jsp.WEB_002dINF.partials.canvas.remote_002dport_002dconfiguration_jsp</servlet-class>
+│ │ +    <servlet-name>org.apache.jsp.WEB_002dINF.partials.message_002dpane_jsp</servlet-name>
+│ │ +    <servlet-class>org.apache.jsp.WEB_002dINF.partials.message_002dpane_jsp</servlet-class>
+│ │    </servlet>
+│ │    <servlet>
+│ │ -    <servlet-name>org.apache.jsp.WEB_002dINF.partials.banners_002dutility_jsp</servlet-name>
+│ │ -    <servlet-class>org.apache.jsp.WEB_002dINF.partials.banners_002dutility_jsp</servlet-class>
+│ │ +    <servlet-name>org.apache.jsp.WEB_002dINF.partials.login.login_002dprogress_jsp</servlet-name>
+│ │ +    <servlet-class>org.apache.jsp.WEB_002dINF.partials.login.login_002dprogress_jsp</servlet-class>
+│ │    </servlet>
+...
+│ │    </servlet-mapping>
+│ │    <!--
+│ │  End of content automatically created by Apache Tomcat JspC.
+│ │  -->
+│ │  </web-app>
+
+10 / 200 target/reference/nifi-jetty-bundle-1.19.0.nar nifi-nar-bundles/nifi-jetty-bundle/target/nifi-jetty-bundle-1.19.0.nar
+--- target/reference/nifi-jetty-bundle-1.19.0.nar
++++ nifi-nar-bundles/nifi-jetty-bundle/target/nifi-jetty-bundle-1.19.0.nar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 7292413 bytes, number of entries: 45
+│ +Zip file size: 7292414 bytes, number of entries: 45
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 META-INF/
+│  -rw-r--r--  2.0 unx      329 b- defN 22-Nov-23 02:12 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 META-INF/bundled-dependencies/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 META-INF/docs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 META-INF/docs/additional-details/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 META-INF/maven/org.apache.nifi/
+│ @@ -40,8 +40,8 @@
+│  -rw-r--r--  2.0 unx   140313 b- defN 22-Nov-23 02:12 META-INF/bundled-dependencies/jetty-webapp-9.4.49.v20220914.jar
+│  -rw-r--r--  2.0 unx    68298 b- defN 22-Nov-23 02:12 META-INF/bundled-dependencies/jetty-xml-9.4.49.v20220914.jar
+│  -rw-r--r--  2.0 unx   206430 b- defN 22-Nov-23 02:12 META-INF/bundled-dependencies/taglibs-standard-impl-1.2.5.jar
+│  -rw-r--r--  2.0 unx    40153 b- defN 22-Nov-23 02:12 META-INF/bundled-dependencies/taglibs-standard-spec-1.2.5.jar
+│  -rw-r--r--  2.0 unx      309 b- defN 22-Nov-23 02:12 META-INF/docs/extension-manifest.xml
+│  -rw-r--r--  2.0 unx     3922 b- defN 22-Nov-23 02:12 META-INF/maven/org.apache.nifi/nifi-jetty-bundle/pom.xml
+│  -rw-r--r--  2.0 unx       68 b- defN 22-Nov-23 02:12 META-INF/maven/org.apache.nifi/nifi-jetty-bundle/pom.properties
+│ -45 files, 7812185 bytes uncompressed, 7284473 bytes compressed:  6.8%
+│ +45 files, 7812185 bytes uncompressed, 7284474 bytes compressed:  6.8%
+├── META-INF/MANIFEST.MF
+│ @@ -1,10 +1,10 @@
+│  Manifest-Version: 1.0
+
+│  Build-Branch: UNKNOWN
+
+│ -Build-Timestamp: 2022-11-22T19:12:20Z
+
+│ +Build-Timestamp: 2022-11-23T03:12:20Z
+
+│  Clone-During-Instance-Class-Loading: false
+
+│  Nar-Version: 1.19.0
+
+│  Build-Tag: nifi-1.19.0-RC1
+
+│  Build-Revision: ec87bf9
+
+│  Nar-Id: nifi-jetty-bundle
+
+│  Nar-Group: org.apache.nifi
+
+│  Build-Jdk-Spec: 1.8
+...
+
+198 / 200 target/reference/nifi-toolkit-api-1.19.0-sources.jar nifi-toolkit/nifi-toolkit-api/target/nifi-toolkit-api-1.19.0-sources.jar
+--- target/reference/nifi-toolkit-api-1.19.0-sources.jar
++++ nifi-toolkit/nifi-toolkit-api/target/nifi-toolkit-api-1.19.0-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 797203 bytes, number of entries: 441
+│ +Zip file size: 797084 bytes, number of entries: 441
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Nov-23 02:12 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 org/apache/nifi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 org/apache/nifi/api/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 org/apache/nifi/api/toolkit/
+│ @@ -83,15 +83,15 @@
+│  -rw-r--r--  2.0 unx     3885 b- defN 22-Nov-23 02:12 org/apache/nifi/api/toolkit/model/BatchSettingsDTO.java
+│  -rw-r--r--  2.0 unx     3801 b- defN 22-Nov-23 02:12 org/apache/nifi/api/toolkit/model/BatchSize.java
+│  -rw-r--r--  2.0 unx     5820 b- defN 22-Nov-23 02:12 org/apache/nifi/api/toolkit/model/BuildInfo.java
+│  -rw-r--r--  2.0 unx     3780 b- defN 22-Nov-23 02:12 org/apache/nifi/api/toolkit/model/BulletinBoardDTO.java
+│  -rw-r--r--  2.0 unx     2821 b- defN 22-Nov-23 02:12 org/apache/nifi/api/toolkit/model/BulletinBoardEntity.java
+│  -rw-r--r--  2.0 unx     7299 b- defN 22-Nov-23 02:12 org/apache/nifi/api/toolkit/model/BulletinDTO.java
+│  -rw-r--r--  2.0 unx     6010 b- defN 22-Nov-23 02:12 org/apache/nifi/api/toolkit/model/BulletinEntity.java
+│ --rw-r--r--  2.0 unx     3625 b- defN 22-Nov-23 02:12 org/apache/nifi/api/toolkit/model/Bundle.java
+│ +-rw-r--r--  2.0 unx     4564 b- defN 22-Nov-23 02:12 org/apache/nifi/api/toolkit/model/Bundle.java
+│  -rw-r--r--  2.0 unx     3667 b- defN 22-Nov-23 02:12 org/apache/nifi/api/toolkit/model/BundleDTO.java
+│  -rw-r--r--  2.0 unx     3854 b- defN 22-Nov-23 02:12 org/apache/nifi/api/toolkit/model/ClassLoaderDiagnosticsDTO.java
+│  -rw-r--r--  2.0 unx     2845 b- defN 22-Nov-23 02:12 org/apache/nifi/api/toolkit/model/ClusteSummaryEntity.java
+│  -rw-r--r--  2.0 unx     3528 b- defN 22-Nov-23 02:12 org/apache/nifi/api/toolkit/model/ClusterDTO.java
+│  -rw-r--r--  2.0 unx     2629 b- defN 22-Nov-23 02:12 org/apache/nifi/api/toolkit/model/ClusterEntity.java
+│  -rw-r--r--  2.0 unx     3174 b- defN 22-Nov-23 02:12 org/apache/nifi/api/toolkit/model/ClusterSearchResultsEntity.java
+│  -rw-r--r--  2.0 unx     6033 b- defN 22-Nov-23 02:12 org/apache/nifi/api/toolkit/model/ClusterSummaryDTO.java
+│ @@ -436,8 +436,8 @@
+│  -rw-r--r--  2.0 unx    28527 b- defN 22-Nov-23 02:12 org/apache/nifi/api/toolkit/model/VersionedProcessor.java
+│  -rw-r--r--  2.0 unx     6181 b- defN 22-Nov-23 02:12 org/apache/nifi/api/toolkit/model/VersionedPropertyDescriptor.java
+│  -rw-r--r--  2.0 unx    13944 b- defN 22-Nov-23 02:12 org/apache/nifi/api/toolkit/model/VersionedRemoteGroupPort.java
+│  -rw-r--r--  2.0 unx    19786 b- defN 22-Nov-23 02:12 org/apache/nifi/api/toolkit/model/VersionedRemoteProcessGroup.java
+│  -rw-r--r--  2.0 unx     5318 b- defN 22-Nov-23 02:12 org/apache/nifi/api/toolkit/model/VersionedResourceDefinition.java
+│  -rw-r--r--  2.0 unx     5869 b- defN 22-Nov-23 02:12 META-INF/maven/org.apache.nifi/nifi-toolkit-api/pom.xml
+│  -rw-r--r--  2.0 unx       67 b- defN 22-Nov-23 02:12 META-INF/maven/org.apache.nifi/nifi-toolkit-api/pom.properties
+│ -441 files, 3478740 bytes uncompressed, 712665 bytes compressed:  79.5%
+│ +441 files, 3479679 bytes uncompressed, 712546 bytes compressed:  79.5%
+├── org/apache/nifi/api/toolkit/ApiClient.java
+│ @@ -47,15 +47,15 @@
+│  import java.util.regex.Pattern;
+│  
+│  import org.apache.nifi.api.toolkit.auth.Authentication;
+│  import org.apache.nifi.api.toolkit.auth.HttpBasicAuth;
+│  import org.apache.nifi.api.toolkit.auth.ApiKeyAuth;
+│  import org.apache.nifi.api.toolkit.auth.OAuth;
+│  
+│ -@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2022-11-22T19:58:47.751-07:00")
+│ +@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2022-11-29T00:53:02.161+01:00")
+│  public class ApiClient {
+│    protected Map<String, String> defaultHeaderMap = new HashMap<String, String>();
+│    protected String basePath = "http://localhost/nifi-api";
+│    protected boolean debugging = false;
+│    protected int connectionTimeout = 0;
+│    private int readTimeout = 0;
+...
+├── org/apache/nifi/api/toolkit/model/Bundle.java
+│ @@ -16,112 +16,136 @@
+│  import java.util.Objects;
+│  import java.util.Arrays;
+│  import com.fasterxml.jackson.annotation.JsonProperty;
+│  import com.fasterxml.jackson.annotation.JsonCreator;
+│  import com.fasterxml.jackson.annotation.JsonValue;
+│  import io.swagger.annotations.ApiModel;
+│  import io.swagger.annotations.ApiModelProperty;
+│ +import org.apache.nifi.api.toolkit.model.ComponentManifest;
+│  
+│  /**
+│   * Bundle
+│   */
+│ -@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2022-11-22T19:58:47.751-07:00")
+│ +@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2022-11-29T00:53:02.161+01:00")
+│  public class Bundle {
+│    @JsonProperty("group")
+│    private String group = null;
+│  
+│    @JsonProperty("artifact")
+│    private String artifact = null;
+│  
+│    @JsonProperty("version")
+│    private String version = null;
+│  
+│ +  @JsonProperty("componentManifest")
+│ +  private ComponentManifest componentManifest = null;
+│ +
+│    public Bundle group(String group) {
+│      this.group = group;
+│      return this;
+│    }
+│  
+│     /**
+│ -   * The group of the bundle
+│ +   * The group id of the bundle
+│     * @return group
+│    **/
+│ -  @ApiModelProperty(value = "The group of the bundle")
+│ +  @ApiModelProperty(required = true, value = "The group id of the bundle")
+│    public String getGroup() {
+│      return group;
+│    }
+│  
+│    public void setGroup(String group) {
+│      this.group = group;
+│    }
+│  
+│    public Bundle artifact(String artifact) {
+...
+
+199 / 200 target/reference/nifi-runtime-manifest-1.19.0.jar nifi-manifest/nifi-runtime-manifest/target/nifi-runtime-manifest-1.19.0.jar
+--- target/reference/nifi-runtime-manifest-1.19.0.jar
++++ nifi-manifest/nifi-runtime-manifest/target/nifi-runtime-manifest-1.19.0.jar
+├── zipinfo {}
+│ @@ -1,14 +1,14 @@
+│ -Zip file size: 427917 bytes, number of entries: 12
+│ +Zip file size: 428417 bytes, number of entries: 12
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 META-INF/
+│  -rw-r--r--  2.0 unx      319 b- defN 22-Nov-23 02:12 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 META-INF/maven/org.apache.nifi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 META-INF/maven/org.apache.nifi/nifi-runtime-manifest/
+│ --rw-r--r--  2.0 unx    67359 b- defN 22-Nov-23 02:12 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    81609 b- defN 22-Nov-23 02:12 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Nov-23 02:12 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      162 b- defN 22-Nov-23 02:12 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     1241 b- defN 22-Nov-23 02:12 build.properties
+│ --rw-r--r--  2.0 unx  4347882 b- defN 22-Nov-23 02:12 nifi-runtime-manifest.json
+│ +-rw-r--r--  2.0 unx  4348107 b- defN 22-Nov-23 02:12 nifi-runtime-manifest.json
+│  -rw-r--r--  2.0 unx     7055 b- defN 22-Nov-23 02:12 META-INF/maven/org.apache.nifi/nifi-runtime-manifest/pom.xml
+│  -rw-r--r--  2.0 unx       72 b- defN 22-Nov-23 02:12 META-INF/maven/org.apache.nifi/nifi-runtime-manifest/pom.properties
+│ -12 files, 4435448 bytes uncompressed, 426285 bytes compressed:  90.4%
+│ +12 files, 4449923 bytes uncompressed, 426785 bytes compressed:  90.4%
+├── META-INF/DEPENDENCIES
+│ @@ -23,16 +23,16 @@
+│      License: BSD  (https://github.com/googleapis/gax-java/blob/master/LICENSE)
+│    - FindBugs-jsr305 (http://findbugs.sourceforge.net/) com.google.code.findbugs:jsr305:jar:3.0.2
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Gson (https://github.com/google/gson/gson) com.google.code.gson:gson:jar:2.10
+│      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Guava InternalFutureFailureAccess and InternalFutures (https://github.com/google/guava/failureaccess) com.google.guava:failureaccess:bundle:1.0.1
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Guava: Google Core Libraries for Java (https://github.com/google/guava) com.google.guava:guava:bundle:31.1-jre
+│ -    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Guava: Google Core Libraries for Java (https://github.com/google/guava/guava) com.google.guava:guava:bundle:27.0-jre
+│ +    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Guava ListenableFuture only (https://github.com/google/guava/listenablefuture) com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - J2ObjC Annotations (https://github.com/google/j2objc/) com.google.j2objc:j2objc-annotations:jar:1.3
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Protocol Buffers [Core] (https://developers.google.com/protocol-buffers/protobuf-java/) com.google.protobuf:protobuf-java:bundle:3.20.1
+│      License: BSD-3-Clause  (https://opensource.org/licenses/BSD-3-Clause)
+│    - Protocol Buffers [Util] (https://developers.google.com/protocol-buffers/protobuf-java-util/) com.google.protobuf:protobuf-java-util:bundle:3.20.1
+│ @@ -45,14 +45,16 @@
+│      License: MIT License 
+│    - msal4j-persistence-extension (https://github.com/AzureAD/microsoft-authentication-extensions-for-java) com.microsoft.azure:msal4j-persistence-extension:jar:1.1.0
+│      License: MIT License 
+│    - okhttp (https://square.github.io/okhttp/) com.squareup.okhttp3:okhttp:jar:4.10.0
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - okio (https://github.com/square/okio/) com.squareup.okio:okio-jvm:jar:3.0.0
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - dnsjava (http://www.dnsjava.org) dnsjava:dnsjava:jar:2.1.7
+│ +    License: BSD 2-Clause license  (http://opensource.org/licenses/BSD-2-Clause)
+│    - io.grpc:grpc-alts (https://github.com/grpc/grpc-java) io.grpc:grpc-alts:jar:1.46.0
+│      License: Apache 2.0  (https://opensource.org/licenses/Apache-2.0)
+│    - io.grpc:grpc-api (https://github.com/grpc/grpc-java) io.grpc:grpc-api:jar:1.46.0
+│      License: Apache 2.0  (https://opensource.org/licenses/Apache-2.0)
+│    - io.grpc:grpc-auth (https://github.com/grpc/grpc-java) io.grpc:grpc-auth:jar:1.46.0
+│      License: Apache 2.0  (https://opensource.org/licenses/Apache-2.0)
+│    - io.grpc:grpc-context (https://github.com/grpc/grpc-java) io.grpc:grpc-context:jar:1.46.0
+│ @@ -79,28 +81,36 @@
+│      License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - OpenCensus (https://github.com/census-instrumentation/opencensus-java) io.opencensus:opencensus-contrib-http-util:jar:0.31.1
+│      License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - OpenCensus (https://github.com/census-instrumentation/opencensus-proto) io.opencensus:opencensus-proto:jar:0.2.0
+│      License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - perfmark:perfmark-api (https://github.com/perfmark/perfmark) io.perfmark:perfmark-api:jar:0.25.0
+│      License: Apache 2.0  (https://opensource.org/licenses/Apache-2.0)
+│ +  - JavaBeans Activation Framework (JAF) (http://java.sun.com/products/javabeans/jaf/index.jsp) javax.activation:activation:jar:1.1
+│ +    License: Common Development and Distribution License (CDDL) v1.0  (https://glassfish.dev.java.net/public/CDDLv1.0.html)
+│ +  - jsp-api  javax.servlet.jsp:jsp-api:jar:2.1
+│ +
+│ +  - Streaming API for XML  javax.xml.stream:stax-api:jar:1.0-2
+│ +    License: GNU General Public Library  (http://www.gnu.org/licenses/gpl.txt)    License: COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0  (http://www.sun.com/cddl/cddl.html)
+│    - Java Native Access (https://github.com/java-native-access/jna) net.java.dev.jna:jna:jar:5.5.0
+│      License: LGPL, version 2.1  (http://www.gnu.org/licenses/licenses.html)    License: Apache License v2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Java Native Access Platform (https://github.com/java-native-access/jna) net.java.dev.jna:jna-platform:jar:5.6.0
+│      License: LGPL, version 2.1  (http://www.gnu.org/licenses/licenses.html)    License: Apache License v2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - AspectJ weaver (https://www.eclipse.org/aspectj/) org.aspectj:aspectjweaver:jar:1.9.6
+│      License: Eclipse Public License - v 1.0  (http://www.eclipse.org/legal/epl-v10.html)
+│    - Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs (https://www.bouncycastle.org/java.html) org.bouncycastle:bcpkix-jdk18on:jar:1.71
+│      License: Bouncy Castle Licence  (https://www.bouncycastle.org/licence.html)
+│    - Bouncy Castle Provider (https://www.bouncycastle.org/java.html) org.bouncycastle:bcprov-jdk18on:jar:1.71
+│      License: Bouncy Castle Licence  (https://www.bouncycastle.org/licence.html)
+│    - Bouncy Castle ASN.1 Extension and Utility APIs (https://www.bouncycastle.org/java.html) org.bouncycastle:bcutil-jdk18on:jar:1.71
+│      License: Bouncy Castle Licence  (https://www.bouncycastle.org/licence.html)
+│    - Checker Qual (https://checkerframework.org) org.checkerframework:checker-qual:jar:3.22.0
+│      License: The MIT License  (http://opensource.org/licenses/MIT)
+│ +  - Jettison  org.codehaus.jettison:jettison:bundle:1.1
+│ +
+│    - org.conscrypt:conscrypt-openjdk-uber (https://conscrypt.org/) org.conscrypt:conscrypt-openjdk-uber:jar:2.5.1
+│      License: Apache 2  (https://www.apache.org/licenses/LICENSE-2.0)
+│    - IntelliJ IDEA Annotations (http://www.jetbrains.org) org.jetbrains:annotations:jar:13.0
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Kotlin Stdlib (https://kotlinlang.org/) org.jetbrains.kotlin:kotlin-stdlib:jar:1.7.20
+│      License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Kotlin Stdlib Common (https://kotlinlang.org/) org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.7.20
+│ @@ -373,14 +383,18 @@
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│    - nifi-property-utils (https://nifi.apache.org/nifi-commons/nifi-property-utils) org.apache.nifi:nifi-property-utils:jar:1.19.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│    - nifi-provenance-repository-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-provenance-repository-bundle/nifi-provenance-repository-nar) org.apache.nifi:nifi-provenance-repository-nar:nar:1.19.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│    - nifi-proxy-configuration-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-standard-services/nifi-proxy-configuration-bundle/nifi-proxy-configuration-nar) org.apache.nifi:nifi-proxy-configuration-nar:nar:1.19.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ +  - nifi-ranger-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-ranger-bundle/nifi-ranger-nar) org.apache.nifi:nifi-ranger-nar:nar:1.19.0
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ +  - nifi-ranger-resources (https://nifi.apache.org/nifi-nar-bundles/nifi-ranger-bundle/nifi-ranger-resources) org.apache.nifi:nifi-ranger-resources:jar:1.19.0
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│    - nifi-record-serialization-services-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-standard-services/nifi-record-serialization-services-bundle/nifi-record-serialization-services-nar) org.apache.nifi:nifi-record-serialization-services-nar:nar:1.19.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│    - nifi-record-sink-service-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-standard-services/nifi-record-sink-service-bundle/nifi-record-sink-service-nar) org.apache.nifi:nifi-record-sink-service-nar:nar:1.19.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│    - nifi-redis-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-redis-bundle/nifi-redis-nar) org.apache.nifi:nifi-redis-nar:nar:1.19.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│    - nifi-redis-service-api-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-redis-bundle/nifi-redis-service-api-nar) org.apache.nifi:nifi-redis-service-api-nar:nar:1.19.0
+│ @@ -470,25 +484,37 @@
+│    - nifi-workday-processors-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-workday-bundle/nifi-workday-processors-nar) org.apache.nifi:nifi-workday-processors-nar:nar:1.19.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│    - nifi-xml-processing (https://nifi.apache.org/nifi-commons/nifi-xml-processing) org.apache.nifi:nifi-xml-processing:jar:1.19.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│    - nifi-zendesk-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-zendesk-bundle/nifi-zendesk-nar) org.apache.nifi:nifi-zendesk-nar:nar:1.19.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│  
+│ +From: 'Apache Software Foundation' (https://www.apache.org)
+│ +  - Apache Hadoop Annotations  org.apache.hadoop:hadoop-annotations:jar:3.3.0
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Hadoop Auth  org.apache.hadoop:hadoop-auth:jar:3.3.0
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Hadoop Common  org.apache.hadoop:hadoop-common:jar:3.3.0
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Hadoop shaded Protobuf 3.7 (https://www.apache.org/hadoop-thirdparty/hadoop-shaded-protobuf_3_7/) org.apache.hadoop.thirdparty:hadoop-shaded-protobuf_3_7:jar:1.0.0
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +
+│  From: 'Chemouni Uriel' (https://urielch.github.io/)
+│    - ASM based accessors helper used by json-smart (https://urielch.github.io/) net.minidev:accessors-smart:bundle:2.4.8
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - JSON Small and Fast Parser (https://urielch.github.io/) net.minidev:json-smart:bundle:2.4.8
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│ +From: 'Connect2id Ltd.' (http://connect2id.com)
+│ +  - Nimbus JOSE+JWT (https://bitbucket.org/connect2id/nimbus-jose-jwt) com.nimbusds:nimbus-jose-jwt:jar:7.9
+│ +    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +
+│  From: 'Connect2id Ltd.' (https://connect2id.com)
+│    - Nimbus Content Type (https://bitbucket.org/connect2id/nimbus-content-type) com.nimbusds:content-type:jar:2.1
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Nimbus JOSE+JWT (https://bitbucket.org/connect2id/nimbus-jose-jwt) com.nimbusds:nimbus-jose-jwt:jar:9.9.3
+│ -    License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - OAuth 2.0 SDK with OpenID Connect extensions (https://bitbucket.org/connect2id/oauth-2.0-sdk-with-openid-connect-extensions) com.nimbusds:oauth2-oidc-sdk:jar:9.7
+│      License: Apache License, version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.html‎)
+│  
+│  From: 'Connect2id Ltd.' (https://connect2id.com/)
+│    - Nimbus LangTag (https://bitbucket.org/connect2id/nimbus-language-tags) com.nimbusds:lang-tag:jar:1.5
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│ @@ -503,31 +529,39 @@
+│      License: Eclipse Distribution License - v 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+│    - JAXB Runtime (https://eclipse-ee4j.github.io/jaxb-ri/) org.glassfish.jaxb:jaxb-runtime:jar:2.3.5
+│      License: Eclipse Distribution License - v 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+│    - TXW2 Runtime (https://eclipse-ee4j.github.io/jaxb-ri/) org.glassfish.jaxb:txw2:jar:2.3.5
+│      License: Eclipse Distribution License - v 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+│  
+│  From: 'FasterXML' (http://fasterxml.com)
+│ -  - Woodstox (https://github.com/FasterXML/woodstox) com.fasterxml.woodstox:woodstox-core:bundle:6.4.0
+│ +  - Woodstox (https://github.com/FasterXML/woodstox) com.fasterxml.woodstox:woodstox-core:bundle:5.0.3
+│      License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Jackson (http://jackson.codehaus.org) org.codehaus.jackson:jackson-core-asl:jar:1.9.2
+│ +    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - JAX-RS provider for JSON content type (http://jackson.codehaus.org) org.codehaus.jackson:jackson-jaxrs:jar:1.9.2
+│ +    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)    License: GNU Lesser General Public License (LGPL), Version 2.1  (http://www.fsf.org/licensing/licenses/lgpl.txt)
+│ +  - Data Mapper for Jackson (http://jackson.codehaus.org) org.codehaus.jackson:jackson-mapper-asl:jar:1.9.2
+│ +    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Xml Compatibility extensions for Jackson (http://jackson.codehaus.org) org.codehaus.jackson:jackson-xc:jar:1.9.2
+│ +    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)    License: GNU Lesser General Public License (LGPL), Version 2.1  (http://www.fsf.org/licensing/licenses/lgpl.txt)
+│  
+│  From: 'FasterXML' (http://fasterxml.com/)
+│    - Jackson-annotations (https://github.com/FasterXML/jackson) com.fasterxml.jackson.core:jackson-annotations:bundle:2.14.0
+│      License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Jackson-core (https://github.com/FasterXML/jackson-core) com.fasterxml.jackson.core:jackson-core:bundle:2.14.0
+│      License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - jackson-databind (https://github.com/FasterXML/jackson) com.fasterxml.jackson.core:jackson-databind:bundle:2.14.0
+│      License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Jackson-dataformat-XML (https://github.com/FasterXML/jackson-dataformat-xml) com.fasterxml.jackson.dataformat:jackson-dataformat-xml:bundle:2.14.0
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Jackson datatype: JSR310 (https://github.com/FasterXML/jackson-modules-java8/jackson-datatype-jsr310) com.fasterxml.jackson.datatype:jackson-datatype-jsr310:bundle:2.14.0
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│  From: 'fasterxml.com' (http://fasterxml.com)
+│ -  - Stax2 API (http://github.com/FasterXML/stax2-api) org.codehaus.woodstox:stax2-api:bundle:4.2.1
+│ +  - Stax2 API (http://wiki.fasterxml.com/WoodstoxStax2) org.codehaus.woodstox:stax2-api:bundle:3.1.4
+│      License: The BSD License  (http://www.opensource.org/licenses/bsd-license.php)
+│  
+│  From: 'GlassFish Community' (https://javaee.github.io/glassfish)
+│    - javax.annotation API (http://jcp.org/en/jsr/detail?id=250) javax.annotation:javax.annotation-api:jar:1.3.2
+│      License: CDDL + GPLv2 with classpath exception  (https://github.com/javaee/javax.annotation/blob/master/LICENSE)
+│  
+│  From: 'Google' (http://www.google.com/)
+│ @@ -554,14 +588,18 @@
+│    - proto-google-common-protos (https://github.com/googleapis/java-iam/proto-google-common-protos) com.google.api.grpc:proto-google-common-protos:jar:2.8.3
+│      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - proto-google-iam-v1 (https://github.com/googleapis/java-iam/proto-google-iam-v1) com.google.api.grpc:proto-google-iam-v1:jar:1.3.4
+│      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Google Cloud KMS (https://github.com/googleapis/java-kms) com.google.cloud:google-cloud-kms:jar:2.5.1
+│      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│ +From: 'JCraft,Inc.' (http://www.jcraft.com/)
+│ +  - JSch (http://www.jcraft.com/jsch/) com.jcraft:jsch:jar:0.1.55
+│ +    License: Revised BSD  (http://www.jcraft.com/jsch/LICENSE.txt)
+│ +
+│  From: 'Microsoft Corporation' (http://microsoft.com)
+│    - Microsoft Azure Java Core Library (https://github.com/Azure/azure-sdk-for-java) com.azure:azure-core:jar:1.26.0
+│      License: The MIT License (MIT)  (http://opensource.org/licenses/MIT)
+│    - Microsoft Azure OkHttp HTTP Client Library (https://github.com/Azure/azure-sdk-for-java) com.azure:azure-core-http-okhttp:jar:1.7.10
+│      License: The MIT License (MIT)  (http://opensource.org/licenses/MIT)
+│    - Microsoft Azure client library for Identity (https://github.com/Azure/azure-sdk-for-java) com.azure:azure-identity:jar:1.4.6
+│      License: The MIT License (MIT)  (http://opensource.org/licenses/MIT)
+│ @@ -575,14 +613,30 @@
+│      License: MIT license  (http://www.opensource.org/licenses/mit-license.php)
+│  
+│  From: 'Oracle' (http://www.oracle.com)
+│    - Jakarta Mail API (http://eclipse-ee4j.github.io/mail/jakarta.mail) com.sun.mail:jakarta.mail:jar:1.6.7
+│      License: EPL 2.0  (http://www.eclipse.org/legal/epl-2.0)    License: GPL2 w/ CPE  (https://www.gnu.org/software/classpath/license.html)    License: EDL 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+│    - Jakarta Mail API jar (http://eclipse-ee4j.github.io/mail/jakarta.mail-api) jakarta.mail:jakarta.mail-api:jar:1.6.7
+│      License: EPL 2.0  (http://www.eclipse.org/legal/epl-2.0)    License: GPL2 w/ CPE  (https://www.gnu.org/software/classpath/license.html)    License: EDL 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+│ +  - JavaBeans Activation Framework API jar (http://java.net/all/javax.activation-api/) javax.activation:javax.activation-api:jar:1.2.0
+│ +    License: CDDL/GPLv2+CE  (https://github.com/javaee/activation/blob/master/LICENSE.txt)
+│ +
+│ +From: 'Oracle Corporation' (http://www.oracle.com/)
+│ +  - jersey-core (https://jersey.java.net/jersey-core/) com.sun.jersey:jersey-core:jar:1.19
+│ +    License: CDDL 1.1  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)    License: GPL2 w/ CPE  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)
+│ +  - jersey-json (https://jersey.java.net/jersey-json/) com.sun.jersey:jersey-json:jar:1.19
+│ +    License: CDDL 1.1  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)    License: GPL2 w/ CPE  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)
+│ +  - jersey-server (https://jersey.java.net/jersey-server/) com.sun.jersey:jersey-server:jar:1.19
+│ +    License: CDDL 1.1  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)    License: GPL2 w/ CPE  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)
+│ +  - jersey-servlet (https://jersey.java.net/jersey-servlet/) com.sun.jersey:jersey-servlet:jar:1.19
+│ +    License: CDDL 1.1  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)    License: GPL2 w/ CPE  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)
+│ +  - JAXB RI (http://jaxb.java.net/) com.sun.xml.bind:jaxb-impl:jar:2.2.3-1
+│ +    License: CDDL 1.1  (https://glassfish.java.net/public/CDDL+GPL_1_1.html)    License: GPL2 w/ CPE  (https://glassfish.java.net/public/CDDL+GPL_1_1.html)
+│ +  - JAXB API bundle for GlassFish V3 (https://jaxb.dev.java.net/) javax.xml.bind:jaxb-api:jar:2.2.2
+│ +    License: CDDL 1.1  (https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html)    License: GPL2 w/ CPE  (https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html)
+│  
+│  From: 'OW2' (http://www.ow2.org/)
+│    - asm (http://asm.ow2.io/) org.ow2.asm:asm:jar:9.1
+│      License: BSD-3-Clause  (https://asm.ow2.io/license.html)
+│  
+│  From: 'Pivotal Software, Inc.' (https://www.spring.io)
+│    - Spring Vault Core (https://projects.spring.io/spring-vault/spring-vault-core/) org.springframework.vault:spring-vault-core:jar:2.3.2
+│ @@ -604,28 +658,120 @@
+│    - Spring Expression Language (SpEL) (https://github.com/spring-projects/spring-framework) org.springframework:spring-expression:jar:5.3.23
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│    - Spring Commons Logging Bridge (https://github.com/spring-projects/spring-framework) org.springframework:spring-jcl:jar:5.3.23
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│    - Spring Web (https://github.com/spring-projects/spring-framework) org.springframework:spring-web:jar:5.3.23
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│  
+│ +From: 'Sun Microsystems, Inc' (http://www.sun.com/)
+│ +  - jsr311-api (https://jsr311.dev.java.net) javax.ws.rs:jsr311-api:jar:1.1.1
+│ +    License: CDDL License  (http://www.opensource.org/licenses/cddl1.php)
+│ +
+│  From: 'The Apache Software Foundation' (http://www.apache.org/)
+│ +  - Apache Commons Collections (http://commons.apache.org/collections/) commons-collections:commons-collections:jar:3.2.2
+│ +    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Commons Compress (http://commons.apache.org/proper/commons-compress/) org.apache.commons:commons-compress:jar:1.8.1
+│ +    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Commons Math (http://commons.apache.org/math/) org.apache.commons:commons-math3:jar:3.1.1
+│ +    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Curator Client (http://curator.apache.org/curator-client) org.apache.curator:curator-client:bundle:4.2.0
+│ +    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Curator Framework (http://curator.apache.org/curator-framework) org.apache.curator:curator-framework:bundle:4.2.0
+│ +    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Curator Recipes (http://curator.apache.org/curator-recipes) org.apache.curator:curator-recipes:bundle:4.2.0
+│ +    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - htrace-core4 (http://incubator.apache.org/projects/htrace.html) org.apache.htrace:htrace-core4:jar:4.1.0-incubating
+│ +    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache HttpClient (http://hc.apache.org/httpcomponents-client) org.apache.httpcomponents:httpclient:jar:4.5.13
+│      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache HttpCore (http://hc.apache.org/httpcomponents-core-ga) org.apache.httpcomponents:httpcore:jar:4.4.15
+│      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Yetus - Audience Annotations (https://yetus.apache.org/audience-annotations) org.apache.yetus:audience-annotations:jar:0.5.0
+│ +    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│  From: 'The Apache Software Foundation' (https://www.apache.org/)
+│ +  - Apache Commons BeanUtils (https://commons.apache.org/proper/commons-beanutils/) commons-beanutils:commons-beanutils:jar:1.9.4
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Commons CLI (https://commons.apache.org/proper/commons-cli/) commons-cli:commons-cli:jar:1.5.0
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache Commons Codec (https://commons.apache.org/proper/commons-codec/) commons-codec:commons-codec:jar:1.15
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Commons IO (https://commons.apache.org/proper/commons-io/) commons-io:commons-io:jar:2.11.0
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Commons Net (http://commons.apache.org/proper/commons-net/) commons-net:commons-net:jar:3.6
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Avro (https://avro.apache.org) org.apache.avro:avro:bundle:1.11.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Commons Configuration (http://commons.apache.org/proper/commons-configuration/) org.apache.commons:commons-configuration2:jar:2.1.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache Commons Lang (https://commons.apache.org/proper/commons-lang/) org.apache.commons:commons-lang3:jar:3.12.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache Commons Text (https://commons.apache.org/proper/commons-text) org.apache.commons:commons-text:jar:1.10.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerby-kerb Admin (http://directory.apache.org/kerby/kerby-kerb/kerb-admin) org.apache.kerby:kerb-admin:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerby-kerb Client (http://directory.apache.org/kerby/kerby-kerb/kerb-client) org.apache.kerby:kerb-client:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerby-kerb Common (http://directory.apache.org/kerby/kerby-kerb/kerb-common) org.apache.kerby:kerb-common:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerby-kerb core (http://directory.apache.org/kerby/kerby-kerb/kerb-core) org.apache.kerby:kerb-core:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerby-kerb Crypto (http://directory.apache.org/kerby/kerby-kerb/kerb-crypto) org.apache.kerby:kerb-crypto:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerby-kerb Identity (http://directory.apache.org/kerby/kerby-kerb/kerb-identity) org.apache.kerby:kerb-identity:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerby-kerb Server (http://directory.apache.org/kerby/kerby-kerb/kerb-server) org.apache.kerby:kerb-server:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerb Simple Kdc (http://directory.apache.org/kerby/kerby-kerb/kerb-simplekdc) org.apache.kerby:kerb-simplekdc:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerby-kerb Util (http://directory.apache.org/kerby/kerby-kerb/kerb-util) org.apache.kerby:kerb-util:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerby ASN1 Project (http://directory.apache.org/kerby/kerby-common/kerby-asn1) org.apache.kerby:kerby-asn1:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerby Config (http://directory.apache.org/kerby/kerby-common/kerby-config) org.apache.kerby:kerby-config:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerby PKIX Project (http://directory.apache.org/kerby/kerby-pkix) org.apache.kerby:kerby-pkix:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerby Util (http://directory.apache.org/kerby/kerby-common/kerby-util) org.apache.kerby:kerby-util:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerby XDR Project (http://directory.apache.org/kerby/kerby-common/kerby-xdr) org.apache.kerby:kerby-xdr:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Token provider (http://directory.apache.org/kerby/kerby-provider/token-provider) org.apache.kerby:token-provider:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Credential Builder (http://ranger.apache.org/credentialbuilder/) org.apache.ranger:credentialbuilder:jar:2.3.0
+│ +    License: Apache 2.0 License  (http://www.apache.org/licenses/LICENSE-2.0.html)
+│ +  - Apache ZooKeeper - Server (http://zookeeper.apache.org/zookeeper) org.apache.zookeeper:zookeeper:jar:3.5.6
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache ZooKeeper - Jute (http://zookeeper.apache.org/zookeeper-jute) org.apache.zookeeper:zookeeper-jute:jar:3.5.6
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +
+│ +From: 'The Netty Project' (https://netty.io/)
+│ +  - Netty/Buffer (https://netty.io/netty-buffer/) io.netty:netty-buffer:jar:4.1.85.Final
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ +  - Netty/Codec (https://netty.io/netty-codec/) io.netty:netty-codec:jar:4.1.85.Final
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ +  - Netty/Common (https://netty.io/netty-common/) io.netty:netty-common:jar:4.1.85.Final
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ +  - Netty/Handler (https://netty.io/netty-handler/) io.netty:netty-handler:jar:4.1.85.Final
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ +  - Netty/Resolver (https://netty.io/netty-resolver/) io.netty:netty-resolver:jar:4.1.85.Final
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ +  - Netty/Transport (https://netty.io/netty-transport/) io.netty:netty-transport:jar:4.1.85.Final
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ +  - Netty/Transport/Classes/Epoll (https://netty.io/netty-transport-classes-epoll/) io.netty:netty-transport-classes-epoll:jar:4.1.85.Final
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ +  - Netty/Transport/Native/Epoll (https://netty.io/netty-transport-native-epoll/) io.netty:netty-transport-native-epoll:jar:4.1.85.Final
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ +  - Netty/Transport/Native/Unix/Common (https://netty.io/netty-transport-native-unix-common/) io.netty:netty-transport-native-unix-common:jar:4.1.85.Final
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│  
+│  From: 'ThreeTen.org' (https://www.threeten.org)
+│    - ThreeTen backport (https://www.threeten.org/threetenbp) org.threeten:threetenbp:jar:1.6.0
+│      License: BSD 3-clause  (https://raw.githubusercontent.com/ThreeTen/threetenbp/master/LICENSE.txt)
+│  
+│ +From: 'Webtide' (https://webtide.com)
+│ +  - Jetty :: Utilities (https://eclipse.org/jetty/jetty-util) org.eclipse.jetty:jetty-util:jar:9.4.49.v20220914
+│ +    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (https://www.eclipse.org/org/documents/epl-v10.php)
+│ +
+├── build.properties
+│ @@ -12,18 +12,18 @@
+│  # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+│  # See the License for the specific language governing permissions and
+│  # limitations under the License.
+│  
+│  Project-Version:1.19.0
+│  Build-Branch:UNKNOWN
+│  Build-Revision:ec87bf9
+│ -Build-Timestamp:2022-11-23T02:58:57Z
+│ -Built-By:jwitt
+│ -Maven-Home:/opt/homebrew/Cellar/maven/3.8.6/libexec
+│ +Build-Timestamp:2022-11-28T23:53:06Z
+│ +Built-By:herve
+│ +Maven-Home:/home/herve/.sdkman/candidates/maven/current
+│  Maven-Version:3.8.6
+│  Created-By:Apache Maven 3.8.6 (84538c9988a25aec085021c365c560670ad80f63)
+│ -Build-Java-Home:/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre
+│ +Build-Java-Home:/home/herve/.sdkman/candidates/java/8.0.345-zulu/jre
+│  Build-Jdk:1.8.0_345
+│  Build-Jdk-Vendor:Azul Systems, Inc.
+│ -Build-Arch:aarch64
+│ -Build-Os:Mac OS X
+│ -Build-Os-Version:12.6.1
+│ +Build-Arch:amd64
+│ +Build-Os:Linux
+│ +Build-Os-Version:5.15.0-53-generic
+├── nifi-runtime-manifest.json
+│ @@ -5,271739 +5,271753 @@
+│  00000040: 7369 6f6e 2220 3a20 2231 2e31 392e 3022  sion" : "1.19.0"
+│  00000050: 2c0a 2020 2262 7569 6c64 496e 666f 2220  ,.  "buildInfo" 
+│  00000060: 3a20 7b0a 2020 2020 2276 6572 7369 6f6e  : {.    "version
+│  00000070: 2220 3a20 2231 2e31 392e 3022 2c0a 2020  " : "1.19.0",.  
+│  00000080: 2020 2272 6576 6973 696f 6e22 203a 2022    "revision" : "
+│  00000090: 6563 3837 6266 3922 2c0a 2020 2020 2274  ec87bf9",.    "t
+│  000000a0: 696d 6573 7461 6d70 2220 3a20 3136 3639  imestamp" : 1669
+│ -000000b0: 3139 3735 3337 3030 302c 0a20 2020 2022  197537000,.    "
+│ +000000b0: 3637 3539 3836 3030 302c 0a20 2020 2022  675986000,.    "
+│  000000c0: 636f 6d70 696c 6572 2220 3a20 2241 7a75  compiler" : "Azu
+│  000000d0: 6c20 5379 7374 656d 732c 2049 6e63 2e20  l Systems, Inc. 
+│  000000e0: 312e 382e 305f 3334 3522 0a20 207d 2c0a  1.8.0_345".  },.
+│  000000f0: 2020 2262 756e 646c 6573 2220 3a20 5b20    "bundles" : [ 
+│  00000100: 7b0a 2020 2020 2267 726f 7570 2220 3a20  {.    "group" : 
+│  00000110: 226f 7267 2e61 7061 6368 652e 6e69 6669  "org.apache.nifi
+│  00000120: 222c 0a20 2020 2022 6172 7469 6661 6374  ",.    "artifact
+...
+
+200 / 200 target/reference/nifi-runtime-manifest-1.19.0-sources.jar nifi-manifest/nifi-runtime-manifest/target/nifi-runtime-manifest-1.19.0-sources.jar
+--- target/reference/nifi-runtime-manifest-1.19.0-sources.jar
++++ nifi-manifest/nifi-runtime-manifest/target/nifi-runtime-manifest-1.19.0-sources.jar
+├── zipinfo {}
+│ @@ -1,13 +1,13 @@
+│ -Zip file size: 15827 bytes, number of entries: 11
+│ +Zip file size: 17785 bytes, number of entries: 11
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Nov-23 02:12 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 META-INF/maven/org.apache.nifi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-23 02:12 META-INF/maven/org.apache.nifi/nifi-runtime-manifest/
+│ --rw-r--r--  2.0 unx    67359 b- defN 22-Nov-23 02:12 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    81609 b- defN 22-Nov-23 02:12 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Nov-23 02:12 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      162 b- defN 22-Nov-23 02:12 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     1189 b- defN 22-Nov-23 02:12 build.properties
+│  -rw-r--r--  2.0 unx     7055 b- defN 22-Nov-23 02:12 META-INF/maven/org.apache.nifi/nifi-runtime-manifest/pom.xml
+│  -rw-r--r--  2.0 unx       72 b- defN 22-Nov-23 02:12 META-INF/maven/org.apache.nifi/nifi-runtime-manifest/pom.properties
+│ -11 files, 87259 bytes uncompressed, 14323 bytes compressed:  83.6%
+│ +11 files, 101509 bytes uncompressed, 16281 bytes compressed:  84.0%
+├── META-INF/DEPENDENCIES
+│ @@ -23,16 +23,16 @@
+│      License: BSD  (https://github.com/googleapis/gax-java/blob/master/LICENSE)
+│    - FindBugs-jsr305 (http://findbugs.sourceforge.net/) com.google.code.findbugs:jsr305:jar:3.0.2
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Gson (https://github.com/google/gson/gson) com.google.code.gson:gson:jar:2.10
+│      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Guava InternalFutureFailureAccess and InternalFutures (https://github.com/google/guava/failureaccess) com.google.guava:failureaccess:bundle:1.0.1
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Guava: Google Core Libraries for Java (https://github.com/google/guava) com.google.guava:guava:bundle:31.1-jre
+│ -    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Guava: Google Core Libraries for Java (https://github.com/google/guava/guava) com.google.guava:guava:bundle:27.0-jre
+│ +    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Guava ListenableFuture only (https://github.com/google/guava/listenablefuture) com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - J2ObjC Annotations (https://github.com/google/j2objc/) com.google.j2objc:j2objc-annotations:jar:1.3
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Protocol Buffers [Core] (https://developers.google.com/protocol-buffers/protobuf-java/) com.google.protobuf:protobuf-java:bundle:3.20.1
+│      License: BSD-3-Clause  (https://opensource.org/licenses/BSD-3-Clause)
+│    - Protocol Buffers [Util] (https://developers.google.com/protocol-buffers/protobuf-java-util/) com.google.protobuf:protobuf-java-util:bundle:3.20.1
+│ @@ -45,14 +45,16 @@
+│      License: MIT License 
+│    - msal4j-persistence-extension (https://github.com/AzureAD/microsoft-authentication-extensions-for-java) com.microsoft.azure:msal4j-persistence-extension:jar:1.1.0
+│      License: MIT License 
+│    - okhttp (https://square.github.io/okhttp/) com.squareup.okhttp3:okhttp:jar:4.10.0
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - okio (https://github.com/square/okio/) com.squareup.okio:okio-jvm:jar:3.0.0
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - dnsjava (http://www.dnsjava.org) dnsjava:dnsjava:jar:2.1.7
+│ +    License: BSD 2-Clause license  (http://opensource.org/licenses/BSD-2-Clause)
+│    - io.grpc:grpc-alts (https://github.com/grpc/grpc-java) io.grpc:grpc-alts:jar:1.46.0
+│      License: Apache 2.0  (https://opensource.org/licenses/Apache-2.0)
+│    - io.grpc:grpc-api (https://github.com/grpc/grpc-java) io.grpc:grpc-api:jar:1.46.0
+│      License: Apache 2.0  (https://opensource.org/licenses/Apache-2.0)
+│    - io.grpc:grpc-auth (https://github.com/grpc/grpc-java) io.grpc:grpc-auth:jar:1.46.0
+│      License: Apache 2.0  (https://opensource.org/licenses/Apache-2.0)
+│    - io.grpc:grpc-context (https://github.com/grpc/grpc-java) io.grpc:grpc-context:jar:1.46.0
+│ @@ -79,28 +81,36 @@
+│      License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - OpenCensus (https://github.com/census-instrumentation/opencensus-java) io.opencensus:opencensus-contrib-http-util:jar:0.31.1
+│      License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - OpenCensus (https://github.com/census-instrumentation/opencensus-proto) io.opencensus:opencensus-proto:jar:0.2.0
+│      License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - perfmark:perfmark-api (https://github.com/perfmark/perfmark) io.perfmark:perfmark-api:jar:0.25.0
+│      License: Apache 2.0  (https://opensource.org/licenses/Apache-2.0)
+│ +  - JavaBeans Activation Framework (JAF) (http://java.sun.com/products/javabeans/jaf/index.jsp) javax.activation:activation:jar:1.1
+│ +    License: Common Development and Distribution License (CDDL) v1.0  (https://glassfish.dev.java.net/public/CDDLv1.0.html)
+│ +  - jsp-api  javax.servlet.jsp:jsp-api:jar:2.1
+│ +
+│ +  - Streaming API for XML  javax.xml.stream:stax-api:jar:1.0-2
+│ +    License: GNU General Public Library  (http://www.gnu.org/licenses/gpl.txt)    License: COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0  (http://www.sun.com/cddl/cddl.html)
+│    - Java Native Access (https://github.com/java-native-access/jna) net.java.dev.jna:jna:jar:5.5.0
+│      License: LGPL, version 2.1  (http://www.gnu.org/licenses/licenses.html)    License: Apache License v2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Java Native Access Platform (https://github.com/java-native-access/jna) net.java.dev.jna:jna-platform:jar:5.6.0
+│      License: LGPL, version 2.1  (http://www.gnu.org/licenses/licenses.html)    License: Apache License v2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - AspectJ weaver (https://www.eclipse.org/aspectj/) org.aspectj:aspectjweaver:jar:1.9.6
+│      License: Eclipse Public License - v 1.0  (http://www.eclipse.org/legal/epl-v10.html)
+│    - Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs (https://www.bouncycastle.org/java.html) org.bouncycastle:bcpkix-jdk18on:jar:1.71
+│      License: Bouncy Castle Licence  (https://www.bouncycastle.org/licence.html)
+│    - Bouncy Castle Provider (https://www.bouncycastle.org/java.html) org.bouncycastle:bcprov-jdk18on:jar:1.71
+│      License: Bouncy Castle Licence  (https://www.bouncycastle.org/licence.html)
+│    - Bouncy Castle ASN.1 Extension and Utility APIs (https://www.bouncycastle.org/java.html) org.bouncycastle:bcutil-jdk18on:jar:1.71
+│      License: Bouncy Castle Licence  (https://www.bouncycastle.org/licence.html)
+│    - Checker Qual (https://checkerframework.org) org.checkerframework:checker-qual:jar:3.22.0
+│      License: The MIT License  (http://opensource.org/licenses/MIT)
+│ +  - Jettison  org.codehaus.jettison:jettison:bundle:1.1
+│ +
+│    - org.conscrypt:conscrypt-openjdk-uber (https://conscrypt.org/) org.conscrypt:conscrypt-openjdk-uber:jar:2.5.1
+│      License: Apache 2  (https://www.apache.org/licenses/LICENSE-2.0)
+│    - IntelliJ IDEA Annotations (http://www.jetbrains.org) org.jetbrains:annotations:jar:13.0
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Kotlin Stdlib (https://kotlinlang.org/) org.jetbrains.kotlin:kotlin-stdlib:jar:1.7.20
+│      License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Kotlin Stdlib Common (https://kotlinlang.org/) org.jetbrains.kotlin:kotlin-stdlib-common:jar:1.7.20
+│ @@ -373,14 +383,18 @@
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│    - nifi-property-utils (https://nifi.apache.org/nifi-commons/nifi-property-utils) org.apache.nifi:nifi-property-utils:jar:1.19.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│    - nifi-provenance-repository-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-provenance-repository-bundle/nifi-provenance-repository-nar) org.apache.nifi:nifi-provenance-repository-nar:nar:1.19.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│    - nifi-proxy-configuration-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-standard-services/nifi-proxy-configuration-bundle/nifi-proxy-configuration-nar) org.apache.nifi:nifi-proxy-configuration-nar:nar:1.19.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ +  - nifi-ranger-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-ranger-bundle/nifi-ranger-nar) org.apache.nifi:nifi-ranger-nar:nar:1.19.0
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ +  - nifi-ranger-resources (https://nifi.apache.org/nifi-nar-bundles/nifi-ranger-bundle/nifi-ranger-resources) org.apache.nifi:nifi-ranger-resources:jar:1.19.0
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│    - nifi-record-serialization-services-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-standard-services/nifi-record-serialization-services-bundle/nifi-record-serialization-services-nar) org.apache.nifi:nifi-record-serialization-services-nar:nar:1.19.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│    - nifi-record-sink-service-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-standard-services/nifi-record-sink-service-bundle/nifi-record-sink-service-nar) org.apache.nifi:nifi-record-sink-service-nar:nar:1.19.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│    - nifi-redis-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-redis-bundle/nifi-redis-nar) org.apache.nifi:nifi-redis-nar:nar:1.19.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│    - nifi-redis-service-api-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-redis-bundle/nifi-redis-service-api-nar) org.apache.nifi:nifi-redis-service-api-nar:nar:1.19.0
+│ @@ -470,25 +484,37 @@
+│    - nifi-workday-processors-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-workday-bundle/nifi-workday-processors-nar) org.apache.nifi:nifi-workday-processors-nar:nar:1.19.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│    - nifi-xml-processing (https://nifi.apache.org/nifi-commons/nifi-xml-processing) org.apache.nifi:nifi-xml-processing:jar:1.19.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│    - nifi-zendesk-nar (https://nifi.apache.org/nifi-nar-bundles/nifi-zendesk-bundle/nifi-zendesk-nar) org.apache.nifi:nifi-zendesk-nar:nar:1.19.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│  
+│ +From: 'Apache Software Foundation' (https://www.apache.org)
+│ +  - Apache Hadoop Annotations  org.apache.hadoop:hadoop-annotations:jar:3.3.0
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Hadoop Auth  org.apache.hadoop:hadoop-auth:jar:3.3.0
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Hadoop Common  org.apache.hadoop:hadoop-common:jar:3.3.0
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Hadoop shaded Protobuf 3.7 (https://www.apache.org/hadoop-thirdparty/hadoop-shaded-protobuf_3_7/) org.apache.hadoop.thirdparty:hadoop-shaded-protobuf_3_7:jar:1.0.0
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +
+│  From: 'Chemouni Uriel' (https://urielch.github.io/)
+│    - ASM based accessors helper used by json-smart (https://urielch.github.io/) net.minidev:accessors-smart:bundle:2.4.8
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - JSON Small and Fast Parser (https://urielch.github.io/) net.minidev:json-smart:bundle:2.4.8
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│ +From: 'Connect2id Ltd.' (http://connect2id.com)
+│ +  - Nimbus JOSE+JWT (https://bitbucket.org/connect2id/nimbus-jose-jwt) com.nimbusds:nimbus-jose-jwt:jar:7.9
+│ +    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +
+│  From: 'Connect2id Ltd.' (https://connect2id.com)
+│    - Nimbus Content Type (https://bitbucket.org/connect2id/nimbus-content-type) com.nimbusds:content-type:jar:2.1
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Nimbus JOSE+JWT (https://bitbucket.org/connect2id/nimbus-jose-jwt) com.nimbusds:nimbus-jose-jwt:jar:9.9.3
+│ -    License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - OAuth 2.0 SDK with OpenID Connect extensions (https://bitbucket.org/connect2id/oauth-2.0-sdk-with-openid-connect-extensions) com.nimbusds:oauth2-oidc-sdk:jar:9.7
+│      License: Apache License, version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.html‎)
+│  
+│  From: 'Connect2id Ltd.' (https://connect2id.com/)
+│    - Nimbus LangTag (https://bitbucket.org/connect2id/nimbus-language-tags) com.nimbusds:lang-tag:jar:1.5
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│ @@ -503,31 +529,39 @@
+│      License: Eclipse Distribution License - v 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+│    - JAXB Runtime (https://eclipse-ee4j.github.io/jaxb-ri/) org.glassfish.jaxb:jaxb-runtime:jar:2.3.5
+│      License: Eclipse Distribution License - v 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+│    - TXW2 Runtime (https://eclipse-ee4j.github.io/jaxb-ri/) org.glassfish.jaxb:txw2:jar:2.3.5
+│      License: Eclipse Distribution License - v 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+│  
+│  From: 'FasterXML' (http://fasterxml.com)
+│ -  - Woodstox (https://github.com/FasterXML/woodstox) com.fasterxml.woodstox:woodstox-core:bundle:6.4.0
+│ +  - Woodstox (https://github.com/FasterXML/woodstox) com.fasterxml.woodstox:woodstox-core:bundle:5.0.3
+│      License: The Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Jackson (http://jackson.codehaus.org) org.codehaus.jackson:jackson-core-asl:jar:1.9.2
+│ +    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - JAX-RS provider for JSON content type (http://jackson.codehaus.org) org.codehaus.jackson:jackson-jaxrs:jar:1.9.2
+│ +    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)    License: GNU Lesser General Public License (LGPL), Version 2.1  (http://www.fsf.org/licensing/licenses/lgpl.txt)
+│ +  - Data Mapper for Jackson (http://jackson.codehaus.org) org.codehaus.jackson:jackson-mapper-asl:jar:1.9.2
+│ +    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Xml Compatibility extensions for Jackson (http://jackson.codehaus.org) org.codehaus.jackson:jackson-xc:jar:1.9.2
+│ +    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)    License: GNU Lesser General Public License (LGPL), Version 2.1  (http://www.fsf.org/licensing/licenses/lgpl.txt)
+│  
+│  From: 'FasterXML' (http://fasterxml.com/)
+│    - Jackson-annotations (https://github.com/FasterXML/jackson) com.fasterxml.jackson.core:jackson-annotations:bundle:2.14.0
+│      License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Jackson-core (https://github.com/FasterXML/jackson-core) com.fasterxml.jackson.core:jackson-core:bundle:2.14.0
+│      License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - jackson-databind (https://github.com/FasterXML/jackson) com.fasterxml.jackson.core:jackson-databind:bundle:2.14.0
+│      License: The Apache Software License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Jackson-dataformat-XML (https://github.com/FasterXML/jackson-dataformat-xml) com.fasterxml.jackson.dataformat:jackson-dataformat-xml:bundle:2.14.0
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Jackson datatype: JSR310 (https://github.com/FasterXML/jackson-modules-java8/jackson-datatype-jsr310) com.fasterxml.jackson.datatype:jackson-datatype-jsr310:bundle:2.14.0
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│  From: 'fasterxml.com' (http://fasterxml.com)
+│ -  - Stax2 API (http://github.com/FasterXML/stax2-api) org.codehaus.woodstox:stax2-api:bundle:4.2.1
+│ +  - Stax2 API (http://wiki.fasterxml.com/WoodstoxStax2) org.codehaus.woodstox:stax2-api:bundle:3.1.4
+│      License: The BSD License  (http://www.opensource.org/licenses/bsd-license.php)
+│  
+│  From: 'GlassFish Community' (https://javaee.github.io/glassfish)
+│    - javax.annotation API (http://jcp.org/en/jsr/detail?id=250) javax.annotation:javax.annotation-api:jar:1.3.2
+│      License: CDDL + GPLv2 with classpath exception  (https://github.com/javaee/javax.annotation/blob/master/LICENSE)
+│  
+│  From: 'Google' (http://www.google.com/)
+│ @@ -554,14 +588,18 @@
+│    - proto-google-common-protos (https://github.com/googleapis/java-iam/proto-google-common-protos) com.google.api.grpc:proto-google-common-protos:jar:2.8.3
+│      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - proto-google-iam-v1 (https://github.com/googleapis/java-iam/proto-google-iam-v1) com.google.api.grpc:proto-google-iam-v1:jar:1.3.4
+│      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Google Cloud KMS (https://github.com/googleapis/java-kms) com.google.cloud:google-cloud-kms:jar:2.5.1
+│      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│ +From: 'JCraft,Inc.' (http://www.jcraft.com/)
+│ +  - JSch (http://www.jcraft.com/jsch/) com.jcraft:jsch:jar:0.1.55
+│ +    License: Revised BSD  (http://www.jcraft.com/jsch/LICENSE.txt)
+│ +
+│  From: 'Microsoft Corporation' (http://microsoft.com)
+│    - Microsoft Azure Java Core Library (https://github.com/Azure/azure-sdk-for-java) com.azure:azure-core:jar:1.26.0
+│      License: The MIT License (MIT)  (http://opensource.org/licenses/MIT)
+│    - Microsoft Azure OkHttp HTTP Client Library (https://github.com/Azure/azure-sdk-for-java) com.azure:azure-core-http-okhttp:jar:1.7.10
+│      License: The MIT License (MIT)  (http://opensource.org/licenses/MIT)
+│    - Microsoft Azure client library for Identity (https://github.com/Azure/azure-sdk-for-java) com.azure:azure-identity:jar:1.4.6
+│      License: The MIT License (MIT)  (http://opensource.org/licenses/MIT)
+│ @@ -575,14 +613,30 @@
+│      License: MIT license  (http://www.opensource.org/licenses/mit-license.php)
+│  
+│  From: 'Oracle' (http://www.oracle.com)
+│    - Jakarta Mail API (http://eclipse-ee4j.github.io/mail/jakarta.mail) com.sun.mail:jakarta.mail:jar:1.6.7
+│      License: EPL 2.0  (http://www.eclipse.org/legal/epl-2.0)    License: GPL2 w/ CPE  (https://www.gnu.org/software/classpath/license.html)    License: EDL 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+│    - Jakarta Mail API jar (http://eclipse-ee4j.github.io/mail/jakarta.mail-api) jakarta.mail:jakarta.mail-api:jar:1.6.7
+│      License: EPL 2.0  (http://www.eclipse.org/legal/epl-2.0)    License: GPL2 w/ CPE  (https://www.gnu.org/software/classpath/license.html)    License: EDL 1.0  (http://www.eclipse.org/org/documents/edl-v10.php)
+│ +  - JavaBeans Activation Framework API jar (http://java.net/all/javax.activation-api/) javax.activation:javax.activation-api:jar:1.2.0
+│ +    License: CDDL/GPLv2+CE  (https://github.com/javaee/activation/blob/master/LICENSE.txt)
+│ +
+│ +From: 'Oracle Corporation' (http://www.oracle.com/)
+│ +  - jersey-core (https://jersey.java.net/jersey-core/) com.sun.jersey:jersey-core:jar:1.19
+│ +    License: CDDL 1.1  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)    License: GPL2 w/ CPE  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)
+│ +  - jersey-json (https://jersey.java.net/jersey-json/) com.sun.jersey:jersey-json:jar:1.19
+│ +    License: CDDL 1.1  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)    License: GPL2 w/ CPE  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)
+│ +  - jersey-server (https://jersey.java.net/jersey-server/) com.sun.jersey:jersey-server:jar:1.19
+│ +    License: CDDL 1.1  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)    License: GPL2 w/ CPE  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)
+│ +  - jersey-servlet (https://jersey.java.net/jersey-servlet/) com.sun.jersey:jersey-servlet:jar:1.19
+│ +    License: CDDL 1.1  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)    License: GPL2 w/ CPE  (http://glassfish.java.net/public/CDDL+GPL_1_1.html)
+│ +  - JAXB RI (http://jaxb.java.net/) com.sun.xml.bind:jaxb-impl:jar:2.2.3-1
+│ +    License: CDDL 1.1  (https://glassfish.java.net/public/CDDL+GPL_1_1.html)    License: GPL2 w/ CPE  (https://glassfish.java.net/public/CDDL+GPL_1_1.html)
+│ +  - JAXB API bundle for GlassFish V3 (https://jaxb.dev.java.net/) javax.xml.bind:jaxb-api:jar:2.2.2
+│ +    License: CDDL 1.1  (https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html)    License: GPL2 w/ CPE  (https://glassfish.dev.java.net/public/CDDL+GPL_1_1.html)
+│  
+│  From: 'OW2' (http://www.ow2.org/)
+│    - asm (http://asm.ow2.io/) org.ow2.asm:asm:jar:9.1
+│      License: BSD-3-Clause  (https://asm.ow2.io/license.html)
+│  
+│  From: 'Pivotal Software, Inc.' (https://www.spring.io)
+│    - Spring Vault Core (https://projects.spring.io/spring-vault/spring-vault-core/) org.springframework.vault:spring-vault-core:jar:2.3.2
+│ @@ -604,28 +658,120 @@
+│    - Spring Expression Language (SpEL) (https://github.com/spring-projects/spring-framework) org.springframework:spring-expression:jar:5.3.23
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│    - Spring Commons Logging Bridge (https://github.com/spring-projects/spring-framework) org.springframework:spring-jcl:jar:5.3.23
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│    - Spring Web (https://github.com/spring-projects/spring-framework) org.springframework:spring-web:jar:5.3.23
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│  
+│ +From: 'Sun Microsystems, Inc' (http://www.sun.com/)
+│ +  - jsr311-api (https://jsr311.dev.java.net) javax.ws.rs:jsr311-api:jar:1.1.1
+│ +    License: CDDL License  (http://www.opensource.org/licenses/cddl1.php)
+│ +
+│  From: 'The Apache Software Foundation' (http://www.apache.org/)
+│ +  - Apache Commons Collections (http://commons.apache.org/collections/) commons-collections:commons-collections:jar:3.2.2
+│ +    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Commons Compress (http://commons.apache.org/proper/commons-compress/) org.apache.commons:commons-compress:jar:1.8.1
+│ +    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Commons Math (http://commons.apache.org/math/) org.apache.commons:commons-math3:jar:3.1.1
+│ +    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Curator Client (http://curator.apache.org/curator-client) org.apache.curator:curator-client:bundle:4.2.0
+│ +    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Curator Framework (http://curator.apache.org/curator-framework) org.apache.curator:curator-framework:bundle:4.2.0
+│ +    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Curator Recipes (http://curator.apache.org/curator-recipes) org.apache.curator:curator-recipes:bundle:4.2.0
+│ +    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - htrace-core4 (http://incubator.apache.org/projects/htrace.html) org.apache.htrace:htrace-core4:jar:4.1.0-incubating
+│ +    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache HttpClient (http://hc.apache.org/httpcomponents-client) org.apache.httpcomponents:httpclient:jar:4.5.13
+│      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache HttpCore (http://hc.apache.org/httpcomponents-core-ga) org.apache.httpcomponents:httpcore:jar:4.4.15
+│      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Yetus - Audience Annotations (https://yetus.apache.org/audience-annotations) org.apache.yetus:audience-annotations:jar:0.5.0
+│ +    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│  From: 'The Apache Software Foundation' (https://www.apache.org/)
+│ +  - Apache Commons BeanUtils (https://commons.apache.org/proper/commons-beanutils/) commons-beanutils:commons-beanutils:jar:1.9.4
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Commons CLI (https://commons.apache.org/proper/commons-cli/) commons-cli:commons-cli:jar:1.5.0
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache Commons Codec (https://commons.apache.org/proper/commons-codec/) commons-codec:commons-codec:jar:1.15
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Commons IO (https://commons.apache.org/proper/commons-io/) commons-io:commons-io:jar:2.11.0
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Commons Net (http://commons.apache.org/proper/commons-net/) commons-net:commons-net:jar:3.6
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Avro (https://avro.apache.org) org.apache.avro:avro:bundle:1.11.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Commons Configuration (http://commons.apache.org/proper/commons-configuration/) org.apache.commons:commons-configuration2:jar:2.1.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache Commons Lang (https://commons.apache.org/proper/commons-lang/) org.apache.commons:commons-lang3:jar:3.12.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache Commons Text (https://commons.apache.org/proper/commons-text) org.apache.commons:commons-text:jar:1.10.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerby-kerb Admin (http://directory.apache.org/kerby/kerby-kerb/kerb-admin) org.apache.kerby:kerb-admin:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerby-kerb Client (http://directory.apache.org/kerby/kerby-kerb/kerb-client) org.apache.kerby:kerb-client:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerby-kerb Common (http://directory.apache.org/kerby/kerby-kerb/kerb-common) org.apache.kerby:kerb-common:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerby-kerb core (http://directory.apache.org/kerby/kerby-kerb/kerb-core) org.apache.kerby:kerb-core:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerby-kerb Crypto (http://directory.apache.org/kerby/kerby-kerb/kerb-crypto) org.apache.kerby:kerb-crypto:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerby-kerb Identity (http://directory.apache.org/kerby/kerby-kerb/kerb-identity) org.apache.kerby:kerb-identity:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerby-kerb Server (http://directory.apache.org/kerby/kerby-kerb/kerb-server) org.apache.kerby:kerb-server:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerb Simple Kdc (http://directory.apache.org/kerby/kerby-kerb/kerb-simplekdc) org.apache.kerby:kerb-simplekdc:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerby-kerb Util (http://directory.apache.org/kerby/kerby-kerb/kerb-util) org.apache.kerby:kerb-util:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerby ASN1 Project (http://directory.apache.org/kerby/kerby-common/kerby-asn1) org.apache.kerby:kerby-asn1:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerby Config (http://directory.apache.org/kerby/kerby-common/kerby-config) org.apache.kerby:kerby-config:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerby PKIX Project (http://directory.apache.org/kerby/kerby-pkix) org.apache.kerby:kerby-pkix:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerby Util (http://directory.apache.org/kerby/kerby-common/kerby-util) org.apache.kerby:kerby-util:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Kerby XDR Project (http://directory.apache.org/kerby/kerby-common/kerby-xdr) org.apache.kerby:kerby-xdr:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Token provider (http://directory.apache.org/kerby/kerby-provider/token-provider) org.apache.kerby:token-provider:jar:1.0.1
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Credential Builder (http://ranger.apache.org/credentialbuilder/) org.apache.ranger:credentialbuilder:jar:2.3.0
+│ +    License: Apache 2.0 License  (http://www.apache.org/licenses/LICENSE-2.0.html)
+│ +  - Apache ZooKeeper - Server (http://zookeeper.apache.org/zookeeper) org.apache.zookeeper:zookeeper:jar:3.5.6
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache ZooKeeper - Jute (http://zookeeper.apache.org/zookeeper-jute) org.apache.zookeeper:zookeeper-jute:jar:3.5.6
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +
+│ +From: 'The Netty Project' (https://netty.io/)
+│ +  - Netty/Buffer (https://netty.io/netty-buffer/) io.netty:netty-buffer:jar:4.1.85.Final
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ +  - Netty/Codec (https://netty.io/netty-codec/) io.netty:netty-codec:jar:4.1.85.Final
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ +  - Netty/Common (https://netty.io/netty-common/) io.netty:netty-common:jar:4.1.85.Final
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ +  - Netty/Handler (https://netty.io/netty-handler/) io.netty:netty-handler:jar:4.1.85.Final
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ +  - Netty/Resolver (https://netty.io/netty-resolver/) io.netty:netty-resolver:jar:4.1.85.Final
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ +  - Netty/Transport (https://netty.io/netty-transport/) io.netty:netty-transport:jar:4.1.85.Final
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ +  - Netty/Transport/Classes/Epoll (https://netty.io/netty-transport-classes-epoll/) io.netty:netty-transport-classes-epoll:jar:4.1.85.Final
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ +  - Netty/Transport/Native/Epoll (https://netty.io/netty-transport-native-epoll/) io.netty:netty-transport-native-epoll:jar:4.1.85.Final
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ +  - Netty/Transport/Native/Unix/Common (https://netty.io/netty-transport-native-unix-common/) io.netty:netty-transport-native-unix-common:jar:4.1.85.Final
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│  
+│  From: 'ThreeTen.org' (https://www.threeten.org)
+│    - ThreeTen backport (https://www.threeten.org/threetenbp) org.threeten:threetenbp:jar:1.6.0
+│      License: BSD 3-clause  (https://raw.githubusercontent.com/ThreeTen/threetenbp/master/LICENSE.txt)
+│  
+│ +From: 'Webtide' (https://webtide.com)
+│ +  - Jetty :: Utilities (https://eclipse.org/jetty/jetty-util) org.eclipse.jetty:jetty-util:jar:9.4.49.v20220914
+│ +    License: Apache Software License - Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)    License: Eclipse Public License - Version 1.0  (https://www.eclipse.org/org/documents/epl-v10.php)
+│ +
+
