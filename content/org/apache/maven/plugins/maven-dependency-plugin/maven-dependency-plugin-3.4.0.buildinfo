@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Dependency Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-dependency-plugin
+version=3.4.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-dependency-plugin.git
+source.scm.tag=maven-dependency-plugin-3.4.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.filename=maven-dependency-plugin-3.4.0.pom
+outputs.0.length=16069
+outputs.0.checksums.sha512=e80891a4fca72f5e4d60c181dbfaedf5455e3d2b9faef0fa2b716d24193308ad51cb94092a0ad55238e3503b1409f03643f57b6ef07146a549b2ac7788ff1b99
+
+outputs.1.filename=maven-dependency-plugin-3.4.0.jar
+outputs.1.length=188586
+outputs.1.checksums.sha512=04180cde75b67d90e8a2e5467fc218deead00d583474b3de8b43a95b957796acf4edf6d6b38ad9b700632676830c02a73ac5d974f2ba50f0ea5ff77109a3e9dd
+
+outputs.2.filename=maven-dependency-plugin-3.4.0-source-release.zip
+outputs.2.length=669358
+outputs.2.checksums.sha512=27a6fc8e589e5922c2a87a685d52a1c38a30b062e803d42fb7c97a39613fbef525a0920daa40144584c7cc36bad03e6c7bc2fa59b095fde3f8ecc660b0daba21
+
+outputs.3.filename=maven-dependency-plugin-3.4.0-sources.jar
+outputs.3.length=138057
+outputs.3.checksums.sha512=bb0892c28e0a6b59fbdf0002c7b2cd8c5e225257a8403f6a94356979abb2dfeae1704a07e2d9508fb8e39e7a252962c0d667bdb396ce505f79d593f085b4e963
