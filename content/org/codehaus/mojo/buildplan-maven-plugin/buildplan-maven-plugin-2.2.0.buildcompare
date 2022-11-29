@@ -1,0 +1,7 @@
+version=2.2.0
+ok=3
+ko=0
+okFiles="buildplan-maven-plugin-2.2.0.pom buildplan-maven-plugin-2.2.0.jar buildplan-maven-plugin-2.2.0-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

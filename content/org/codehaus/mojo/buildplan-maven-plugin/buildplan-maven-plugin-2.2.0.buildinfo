@@ -1,0 +1,35 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=BuildPlan Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=buildplan-maven-plugin
+version=2.2.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/buildplan-maven-plugin.git
+source.scm.tag=v2.2.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.filename=buildplan-maven-plugin-2.2.0.pom
+outputs.0.length=14266
+outputs.0.checksums.sha512=18dd9c9ee9cb745816e5ed8720148823665202ac01ec4e3c28c95e31abd90f677243ad43b863b889496deea2b88b2f6820a56f13848b46651dc2a0f27f626924
+
+outputs.1.filename=buildplan-maven-plugin-2.2.0.jar
+outputs.1.length=48234
+outputs.1.checksums.sha512=af814f28e36f0687eadc545c6b1146ccb5f47e2ec1d5f8d79ad1a839798110cc9b0344b94c4c8dc97d105f2d1daa61f8585f799983866f3f565b5146cb7c3666
+
+outputs.2.filename=buildplan-maven-plugin-2.2.0-sources.jar
+outputs.2.length=30473
+outputs.2.checksums.sha512=74e9e67e2331dda745a979b1caa549fa4603099c446072ff6dac810350e46ca181ebc68f5657f1d55476dfe6bb554d95373f61e0afb1d8bf98e3a53694d8d2cb
