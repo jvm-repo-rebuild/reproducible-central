@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Tooling Support Source
+group-id=org.apache.sling
+artifact-id=org.apache.sling.tooling.support.source
+version=1.1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-tooling-support-source.git
+source.scm.tag=org.apache.sling.tooling.support.source-1.1.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.tooling.support.source-1.1.0.pom
+outputs.0.length=4851
+outputs.0.checksums.sha512=41475de538fca72fc57f573ad24d07ca823526ae2b15d61e839a3fad04d471c1fa16310c3c386b06b4b71d66f30e6c4194be837f32bab760b70d661617d6d0fd
+
+outputs.1.filename=org.apache.sling.tooling.support.source-1.1.0.jar
+outputs.1.length=22445
+outputs.1.checksums.sha512=020afd2684aaf89e6240b7c0956353049036a16edb891df5a1a83837c2a439acd64352bb537a4a9db51a1f6e28673edfe1ec47b414246c906e5352c068d85d08
+
+outputs.2.filename=org.apache.sling.tooling.support.source-1.1.0-source-release.zip
+outputs.2.length=31599
+outputs.2.checksums.sha512=68ebe799393923fd686055425cfb6dc348dead99c70e1e8d7d84b2e39ff37c9a328e33c3684a2a289ba64e8878abacc360c852b3a0fdf0f950ced3ec9575cef5
+
+outputs.3.filename=org.apache.sling.tooling.support.source-1.1.0-sources.jar
+outputs.3.length=16442
+outputs.3.checksums.sha512=7135bb3372ac5163876dff626a48241a8c4279622ae361da27ebed207db32bebd7184f2fa3368a0760ed4628adfef75742bde28c0c73ba67ebf68d39b7ec2f4b
+
+outputs.4.filename=org.apache.sling.tooling.support.source-1.1.0-sources.jar
+outputs.4.length=16442
+outputs.4.checksums.sha512=7135bb3372ac5163876dff626a48241a8c4279622ae361da27ebed207db32bebd7184f2fa3368a0760ed4628adfef75742bde28c0c73ba67ebf68d39b7ec2f4b
