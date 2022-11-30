@@ -1,0 +1,35 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Bnd Reporter Maven Plugin
+group-id=biz.aQute.bnd
+artifact-id=bnd-reporter-maven-plugin
+version=6.4.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/bndtools/bnd.git
+source.scm.tag=6.4.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.3.9
+
+# output
+
+outputs.0.filename=bnd-reporter-maven-plugin-6.4.0.pom
+outputs.0.length=4191
+outputs.0.checksums.sha512=72b9fb4e12ebff0e16057c05f89be9091ee4e6b6b91618806a3bf3e5f161eac73b3a86592c2f53c966ac890ed3d3dc4a2901792e12dc7afadf412ecd2035c05f
+
+outputs.1.filename=bnd-reporter-maven-plugin-6.4.0.jar
+outputs.1.length=42195
+outputs.1.checksums.sha512=7fa282a3a14145bb4e4b3e995e0bcffc8565f9ff7ed2466e0d422daa3f8326ce30a5c8e253be7ac15c6dc992b699858aec97eb2c54fa66b8031b159fd464f12b
+
+outputs.2.filename=bnd-reporter-maven-plugin-6.4.0-sources.jar
+outputs.2.length=21972
+outputs.2.checksums.sha512=0e1f6ef90176c6c08095c36532addb8cbb1bfa57aebcf1ba23eef432bdb07c8359dd476b1cb25865f3b6a229c7110acd44dedb230f64b1df00aa76c55de3222f
