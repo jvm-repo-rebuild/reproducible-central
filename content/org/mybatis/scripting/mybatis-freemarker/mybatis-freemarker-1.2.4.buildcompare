@@ -1,0 +1,7 @@
+version=1.2.4
+ok=3
+ko=0
+okFiles="mybatis-freemarker-1.2.4.pom mybatis-freemarker-1.2.4.jar mybatis-freemarker-1.2.4-sources.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
