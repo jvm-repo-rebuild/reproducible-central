@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **1344 releases** of **352 projects**:
-   - **967** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 377 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **1350 releases** of **355 projects**:
+   - **972** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 378 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
 
@@ -55,7 +55,7 @@ Its objectives are to provide:
 | de.unentscheidbar | <a name='de.unentscheidbar:migratedb'></a>[migratedb](content/de/unentscheidbar/migratedb/README.md) | 2 | 2 :heavy_check_mark: |
 | fr.inria.gforge.spoon | <a name='fr.inria.gforge.spoon:spoon-core'></a>[spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 1 | 1 :heavy_check_mark: |
 | fr.vidal.oss | <a name='fr.vidal.oss:atom-jaxb'></a>[atom-jaxb](content/fr/vidal/oss/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
-| io.liftwizard | <a name='io.liftwizard:liftwizard'></a>[liftwizard](content/io/liftwizard/README.md) | 26 | 26 :heavy_check_mark: |
+| io.liftwizard | <a name='io.liftwizard:liftwizard'></a>[liftwizard](content/io/liftwizard/README.md) | 27 | 27 :heavy_check_mark: |
 | io.cucumber | <a name='io.cucumber:cucumber-expressions'></a>[cucumber-expressions](content/io/cucumber/cucumber-expressions/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='io.cucumber:gherkin-utils'></a>[gherkin-utils](content/io/cucumber/gherkin-utils/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='io.cucumber:html-formatter'></a>[html-formatter](content/io/cucumber/html-formatter/README.md) | 1 | 1 :warning: |
@@ -108,6 +108,7 @@ Its objectives are to provide:
 | org.apache.jspwiki | <a name='org.apache.jspwiki:jspwiki-builder'></a>[jspwiki-builder](content/org/apache/jspwiki/README.md) | 6 | 6 :warning: |
 | org.apache.mina | <a name='org.apache.mina:mina-parent'></a>[mina-parent](content/org/apache/mina/README.md) | 3 | 3 :warning: |
 | org.apache.nifi | <a name='org.apache.nifi:nifi'></a>[nifi](content/org/apache/nifi/README.md) | 5 | 5 :warning: |
+| org.apache.orc | <a name='org.apache.orc:orc'></a>[orc](content/org/apache/orc/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.rat | <a name='org.apache.rat:apache-rat-project'></a>[apache-rat-project](content/org/apache/rat/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.shiro | <a name='org.apache.shiro:shiro-root'></a>[shiro-root](content/org/apache/shiro/README.md) | 3 | 3 :warning: |
 | org.apache.sshd | <a name='org.apache.sshd:sshd'></a>[sshd](content/org/apache/sshd/README.md) | 2 | 2 :warning: |
@@ -117,6 +118,7 @@ Its objectives are to provide:
 | org.apache.tika | <a name='org.apache.tika:tika'></a>[tika](content/org/apache/tika/README.md) | 5 | 5 :warning: |
 | org.apache.wayang | <a name='org.apache.wayang:wayang'></a>[wayang](content/org/apache/wayang/README.md) | 1 | 1 :warning: |
 | org.apache.wss4j | <a name='org.apache.wss4j:wss4j'></a>[wss4j](content/org/apache/wss4j/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
+| org.apache.activemq | <a name='org.apache.activemq:artemis-pom'></a>[artemis-pom](content/org/apache/activemq/artemis/README.md) | 1 | 1 :warning: |
 | org.apache.aries.cdi | <a name='org.apache.aries.cdi:org.apache.aries.cdi'></a>[org.apache.aries.cdi](content/org/apache/aries/cdi/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | org.apache.camel | <a name='org.apache.camel:camel'></a>[camel](content/org/apache/camel/camel/README.md) | 4 | 4 :warning: |
 | org.apache.camel.k | <a name='org.apache.camel.k:camel-k-runtime-project'></a>[camel-k-runtime-project](content/org/apache/camel/camel-k-runtime/README.md) | 4 | 4 :warning: |
@@ -180,8 +182,8 @@ Its objectives are to provide:
 | | <a name='org.apache.maven.plugins:maven-war-plugin'></a>[maven-war-plugin](content/org/apache/maven/plugins/maven-war-plugin/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-wrapper-plugin'></a>[maven-wrapper-plugin](content/org/apache/maven/plugins/maven-wrapper-plugin/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | org.apache.maven.reporting | <a name='org.apache.maven.reporting:maven-reporting-api'></a>[maven-reporting-api](content/org/apache/maven/reporting/maven-reporting-api/README.md) | 5 | 5 :heavy_check_mark: |
-| | <a name='org.apache.maven.reporting:maven-reporting-exec'></a>[maven-reporting-exec](content/org/apache/maven/reporting/maven-reporting-exec/README.md) | 4 | 4 :heavy_check_mark: |
-| | <a name='org.apache.maven.reporting:maven-reporting-impl'></a>[maven-reporting-impl](content/org/apache/maven/reporting/maven-reporting-impl/README.md) | 4 | 4 :heavy_check_mark: |
+| | <a name='org.apache.maven.reporting:maven-reporting-exec'></a>[maven-reporting-exec](content/org/apache/maven/reporting/maven-reporting-exec/README.md) | 5 | 5 :heavy_check_mark: |
+| | <a name='org.apache.maven.reporting:maven-reporting-impl'></a>[maven-reporting-impl](content/org/apache/maven/reporting/maven-reporting-impl/README.md) | 5 | 5 :heavy_check_mark: |
 | org.apache.maven.resolver | <a name='org.apache.maven.resolver:maven-resolver'></a>[maven-resolver](content/org/apache/maven/resolver/maven-resolver/README.md) | 14 | 13 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.apache.maven.resolver:maven-resolver-ant-tasks'></a>[maven-resolver-ant-tasks](content/org/apache/maven/resolver/maven-resolver-ant-tasks/README.md) | 4 | 4 :heavy_check_mark: |
 | org.apache.maven | <a name='org.apache.maven:maven-archiver'></a>[maven-archiver](content/org/apache/maven/shared/archiver/README.md) | 3 | 3 :heavy_check_mark: |
@@ -350,7 +352,8 @@ Its objectives are to provide:
 | | <a name='org.mybatis:mybatis-parent'></a>[mybatis-parent](content/org/mybatis/parent/README.md) | 3 | 3 :heavy_check_mark: |
 | org.mybatis.caches | <a name='org.mybatis.caches:mybatis-caffeine'></a>[mybatis-caffeine](content/org/mybatis/caches/mybatis-caffeine/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.mybatis.caches:mybatis-ehcache'></a>[mybatis-ehcache](content/org/mybatis/caches/mybatis-ehcache/README.md) | 1 | 1 :heavy_check_mark: |
-| org.mybatis.scripting | <a name='org.mybatis.scripting:mybatis-thymeleaf'></a>[mybatis-thymeleaf](content/org/mybatis/scripting/mybatis-thymeleaf/README.md) | 1 | 1 :heavy_check_mark: |
+| org.mybatis.scripting | <a name='org.mybatis.scripting:mybatis-freemarker'></a>[mybatis-freemarker](content/org/mybatis/scripting/mybatis-freemarker/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='org.mybatis.scripting:mybatis-thymeleaf'></a>[mybatis-thymeleaf](content/org/mybatis/scripting/mybatis-thymeleaf/README.md) | 1 | 1 :heavy_check_mark: |
 | org.mybatis.spring.boot | <a name='org.mybatis.spring.boot:mybatis-spring-boot'></a>[mybatis-spring-boot](content/org/mybatis/spring/boot/README.md) | 1 | 1 :warning: |
 | org.nlpub | <a name='org.nlpub:watset'></a>[watset](content/org/nlpub/watset/README.md) | 12 | 11 :heavy_check_mark: / 1 :warning: |
 | org.openapitools.openapidiff | <a name='org.openapitools.openapidiff:openapi-diff-parent'></a>[openapi-diff-parent](content/org/openapitools/openapidiff/README.md) | 5 | 5 :heavy_check_mark: |
@@ -374,7 +377,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 5 | 5 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 6 | 6 :warning: |
-| **Count:** | **352** | **1344** | **967** :heavy_check_mark: **377** :warning: |
+| **Count:** | **355** | **1350** | **972** :heavy_check_mark: **378** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -386,20 +389,20 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      12 gradle     11
      26 mvn         7
-    673 mvn         8
+    675 mvn         8
       1 mvn         9
-    499 mvn        11
+    501 mvn        11
       4 mvn        14
      10 mvn        15
      10 mvn        16
-     44 mvn        17
+     45 mvn        17
       8 mvn        18
       4 mvn        19
       2 mvn-3.5.4   8
       1 mvn-3.8.5   8
       9 mvn-3.8.5  11
       4 mvn-3.8.5  17
-     14 mvn-3.8.6   8
+     15 mvn-3.8.6   8
       1 mvn-3.8.6  11
      14 mvn-3.8.6  17
       2 mvn-3.8.6  18

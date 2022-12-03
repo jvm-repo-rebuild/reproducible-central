@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/motlin/liftwizard.git](https://github.com/motlin/liftwizard.git)
 
-<details><summary>This project defines 139 modules:</summary>
+<details><summary>This project defines 141 modules:</summary>
 
 * [io.liftwizard:docs](https://search.maven.org/artifact/io.liftwizard/docs/)
 * [io.liftwizard:liftwizard](https://search.maven.org/artifact/io.liftwizard/liftwizard/)
@@ -27,6 +27,7 @@ Source code: [https://github.com/motlin/liftwizard.git](https://github.com/motli
 * [io.liftwizard:liftwizard-bundle-graphql](https://search.maven.org/artifact/io.liftwizard/liftwizard-bundle-graphql/)
 * [io.liftwizard:liftwizard-bundle-h2](https://search.maven.org/artifact/io.liftwizard/liftwizard-bundle-h2/)
 * [io.liftwizard:liftwizard-bundle-healthcheck-common-pool](https://search.maven.org/artifact/io.liftwizard/liftwizard-bundle-healthcheck-common-pool/)
+* [io.liftwizard:liftwizard-bundle-liquibase-migration](https://search.maven.org/artifact/io.liftwizard/liftwizard-bundle-liquibase-migration/)
 * [io.liftwizard:liftwizard-bundle-logging-config](https://search.maven.org/artifact/io.liftwizard/liftwizard-bundle-logging-config/)
 * [io.liftwizard:liftwizard-bundle-logging-http](https://search.maven.org/artifact/io.liftwizard/liftwizard-bundle-logging-http/)
 * [io.liftwizard:liftwizard-bundle-logging-uncaught-exception-handler](https://search.maven.org/artifact/io.liftwizard/liftwizard-bundle-logging-uncaught-exception-handler/)
@@ -55,6 +56,7 @@ Source code: [https://github.com/motlin/liftwizard.git](https://github.com/motli
 * [io.liftwizard:liftwizard-config-graphql](https://search.maven.org/artifact/io.liftwizard/liftwizard-config-graphql/)
 * [io.liftwizard:liftwizard-config-h2](https://search.maven.org/artifact/io.liftwizard/liftwizard-config-h2/)
 * [io.liftwizard:liftwizard-config-healthcheck-common-pool](https://search.maven.org/artifact/io.liftwizard/liftwizard-config-healthcheck-common-pool/)
+* [io.liftwizard:liftwizard-config-liquibase-migration](https://search.maven.org/artifact/io.liftwizard/liftwizard-config-liquibase-migration/)
 * [io.liftwizard:liftwizard-config-logging-buffered](https://search.maven.org/artifact/io.liftwizard/liftwizard-config-logging-buffered/)
 * [io.liftwizard:liftwizard-config-logging-config](https://search.maven.org/artifact/io.liftwizard/liftwizard-config-logging-config/)
 * [io.liftwizard:liftwizard-config-logging-filter-janino](https://search.maven.org/artifact/io.liftwizard/liftwizard-config-logging-filter-janino/)
@@ -150,13 +152,13 @@ Source code: [https://github.com/motlin/liftwizard.git](https://github.com/motli
 * [io.liftwizard:liftwizard-uuid](https://search.maven.org/artifact/io.liftwizard/liftwizard-uuid/)
 </details>
 
-rebuilding **26 releases** of io.liftwizard:liftwizard:
-- **26** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **27 releases** of io.liftwizard:liftwizard:
+- **27** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.28.0](https://search.maven.org/artifact/io.liftwizard/liftwizard/0.28.0/pom) | | | |
+| [0.28.0](https://search.maven.org/artifact/io.liftwizard/liftwizard/0.28.0/pom) | [mvn jdk11](liftwizard-0.28.0.buildspec) | [result](liftwizard-0.28.0.buildinfo): [375 :heavy_check_mark: ](liftwizard-0.28.0.buildcompare) | 2.0M |
 | [0.27.0](https://search.maven.org/artifact/io.liftwizard/liftwizard/0.27.0/pom) | [mvn jdk11](liftwizard-0.27.0.buildspec) | [result](liftwizard-0.27.0.buildinfo): [375 :heavy_check_mark: ](liftwizard-0.27.0.buildcompare) | 2.0M |
 | [0.26.0](https://search.maven.org/artifact/io.liftwizard/liftwizard/0.26.0/pom) | [mvn jdk11](liftwizard-0.26.0.buildspec) | [result](liftwizard-0.26.0.buildinfo): [375 :heavy_check_mark: ](liftwizard-0.26.0.buildcompare) | 2.0M |
 | [0.25.0](https://search.maven.org/artifact/io.liftwizard/liftwizard/0.25.0/pom) | [mvn jdk11](liftwizard-0.25.0.buildspec) | [result](liftwizard-0.25.0.buildinfo): [375 :heavy_check_mark: ](liftwizard-0.25.0.buildcompare) | 2.0M |

@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.mybatis:mybatis-guice:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.18](https://search.maven.org/artifact/org.mybatis/mybatis-guice/3.18/pom) | | | |
 | [3.17](https://search.maven.org/artifact/org.mybatis/mybatis-guice/3.17/pom) | [mvn jdk11 w](mybatis-guice-3.17.buildspec) | [result](mybatis-guice-3.17.buildinfo): [3 :heavy_check_mark: ](mybatis-guice-3.17.buildcompare) | 239K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
