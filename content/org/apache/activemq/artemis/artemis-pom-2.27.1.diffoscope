@@ -1,0 +1,359 @@
+1 / 8 target/reference/artemis-amqp-protocol-2.27.1.jar artemis-protocols/artemis-amqp-protocol/target/artemis-amqp-protocol-2.27.1.jar
+--- target/reference/artemis-amqp-protocol-2.27.1.jar
++++ artemis-protocols/artemis-amqp-protocol/target/artemis-amqp-protocol-2.27.1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 373020 bytes, number of entries: 199
+│ +Zip file size: 373017 bytes, number of entries: 199
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 META-INF/
+│  -rw-r--r--  2.0 unx    13290 b- defN 22-Nov-28 15:33 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 OSGI-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 org/apache/activemq/
+│ @@ -194,8 +194,8 @@
+│  -rw-r--r--  2.0 unx     5814 b- defN 22-Nov-28 15:33 org/apache/activemq/artemis/protocol/amqp/util/NettyReadable.class
+│  -rw-r--r--  2.0 unx     3489 b- defN 22-Nov-28 15:33 org/apache/activemq/artemis/protocol/amqp/util/NettyWritable.class
+│  -rw-r--r--  2.0 unx      990 b- defN 22-Nov-28 15:33 org/apache/activemq/artemis/protocol/amqp/util/TLSEncode$1.class
+│  -rw-r--r--  2.0 unx     1037 b- defN 22-Nov-28 15:33 org/apache/activemq/artemis/protocol/amqp/util/TLSEncode$EncoderDecoderPair.class
+│  -rw-r--r--  2.0 unx     1240 b- defN 22-Nov-28 15:33 org/apache/activemq/artemis/protocol/amqp/util/TLSEncode.class
+│  -rw-r--r--  2.0 unx     6027 b- defN 22-Nov-28 15:33 META-INF/maven/org.apache.activemq/artemis-amqp-protocol/pom.xml
+│  -rw-r--r--  2.0 unx       76 b- defN 22-Nov-28 15:33 META-INF/maven/org.apache.activemq/artemis-amqp-protocol/pom.properties
+│ -199 files, 907682 bytes uncompressed, 328066 bytes compressed:  63.9%
+│ +199 files, 907682 bytes uncompressed, 328063 bytes compressed:  63.9%
+├── META-INF/MANIFEST.MF
+│ @@ -13,113 +13,113 @@
+│  Bundle-DocURL: https://www.apache.org/
+
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+
+│  Bundle-ManifestVersion: 2
+
+│  Bundle-Name: ActiveMQ Artemis AMQP Protocol
+
+│  Bundle-SymbolicName: org.apache.activemq.artemis-amqp-protocol
+
+│  Bundle-Vendor: The Apache Software Foundation
+
+│  Bundle-Version: 2.27.1
+
+│ -Export-Package: org.apache.activemq.artemis.protocol.amqp.broker;uses:="
+
+│ - io.netty.buffer,io.netty.channel,javax.management.openmbean,javax.secur
+
+...
+│ - .security,org.apache.activemq.artemis.core.server,org.apache.activemq.a
+
+│ - rtemis.core.server.routing,org.apache.activemq.artemis.core.settings.im
+
+│ +Export-Package: org.apache.activemq.artemis.protocol.amqp.client;uses:="
+
+│ + io.netty.channel,org.apache.activemq.artemis.api.core,org.apache.active
+
+...
+│ + s.protocol.amqp.proton,org.apache.activemq.artemis.utils.collections,or
+
+│   g.apache.qpid.proton.amqp,org.apache.qpid.proton.engine";version="2.27.
+
+│   1"
+
+│  Implementation-Version: 2.27.1
+
+│  Import-Package: io.netty.buffer;version="[4.1,5)",io.netty.channel;versi
+
+│   on="[4.1,5)",io.netty.channel.group;version="[4.1,5)",io.netty.util.col
+
+│   lection;version="[4.1,5)",io.netty.util.concurrent;version="[4.1,5)",ja
+
+│   va.io,java.lang,java.lang.invoke,java.net,java.nio,java.nio.charset,jav
+
+...
+
+4 / 8 target/reference/artemis-website-2.27.1.jar artemis-website/target/artemis-website-2.27.1.jar
+--- target/reference/artemis-website-2.27.1.jar
++++ artemis-website/target/artemis-website-2.27.1.jar
+├── zipinfo {}
+│ @@ -1,276 +1,26 @@
+│ -Zip file size: 6974219 bytes, number of entries: 274
+│ +Zip file size: 46816 bytes, number of entries: 24
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 META-INF/
+│  -rw-r--r--  2.0 unx      346 b- defN 22-Nov-28 15:33 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 examples/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 hacking-guide/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 hacking-guide/gitbook/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 hacking-guide/gitbook/fonts/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 hacking-guide/gitbook/fonts/fontawesome/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 hacking-guide/gitbook/gitbook-plugin-fontsettings/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 hacking-guide/gitbook/gitbook-plugin-highlight/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 hacking-guide/gitbook/gitbook-plugin-lunr/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 hacking-guide/gitbook/gitbook-plugin-search/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 hacking-guide/gitbook/images/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 hacking-guide/images/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 images/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 migration-guide/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 migration-guide/gitbook/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 migration-guide/gitbook/fonts/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 migration-guide/gitbook/fonts/fontawesome/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 migration-guide/gitbook/gitbook-plugin-fontsettings/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 migration-guide/gitbook/gitbook-plugin-highlight/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 migration-guide/gitbook/gitbook-plugin-lunr/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 migration-guide/gitbook/gitbook-plugin-search/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 migration-guide/gitbook/images/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 migration-guide/images/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 styles/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 styles/impact/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 styles/impact/css/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 user-manual/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 user-manual/diagrams/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 user-manual/gitbook/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 user-manual/gitbook/fonts/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 user-manual/gitbook/fonts/fontawesome/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 user-manual/gitbook/gitbook-plugin-fontsettings/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 user-manual/gitbook/gitbook-plugin-highlight/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 user-manual/gitbook/gitbook-plugin-lunr/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 user-manual/gitbook/gitbook-plugin-search/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 user-manual/gitbook/images/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 user-manual/images/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 META-INF/maven/org.apache.activemq/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Nov-28 15:33 META-INF/maven/org.apache.activemq/artemis-website/
+│ --rw-r--r--  2.0 unx     9642 b- defN 22-Nov-28 15:33 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx      274 b- defN 22-Nov-28 15:33 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Nov-28 15:33 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      176 b- defN 22-Nov-28 15:33 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     3176 b- defN 22-Nov-28 15:33 examples/index.html
+│ --rw-r--r--  2.0 unx    12562 b- defN 22-Nov-28 15:33 hacking-guide/building.html
+│ --rw-r--r--  2.0 unx    10901 b- defN 22-Nov-28 15:33 hacking-guide/code-coverage-report.html
+│ --rw-r--r--  2.0 unx    19507 b- defN 22-Nov-28 15:33 hacking-guide/code.html
+│ --rw-r--r--  2.0 unx    11010 b- defN 22-Nov-28 15:33 hacking-guide/formatting.html
+│ --rw-r--r--  2.0 unx   109688 b- defN 22-Nov-28 15:33 hacking-guide/gitbook/fonts/fontawesome/FontAwesome.otf
+│ --rw-r--r--  2.0 unx    70807 b- defN 22-Nov-28 15:33 hacking-guide/gitbook/fonts/fontawesome/fontawesome-webfont.eot
+│ --rw-r--r--  2.0 unx   365616 b- defN 22-Nov-28 15:33 hacking-guide/gitbook/fonts/fontawesome/fontawesome-webfont.svg
+│ --rw-r--r--  2.0 unx   142072 b- defN 22-Nov-28 15:33 hacking-guide/gitbook/fonts/fontawesome/fontawesome-webfont.ttf
+│ --rw-r--r--  2.0 unx    83588 b- defN 22-Nov-28 15:33 hacking-guide/gitbook/fonts/fontawesome/fontawesome-webfont.woff
+│ --rw-r--r--  2.0 unx    66624 b- defN 22-Nov-28 15:33 hacking-guide/gitbook/fonts/fontawesome/fontawesome-webfont.woff2
+│ --rw-r--r--  2.0 unx     6447 b- defN 22-Nov-28 15:33 hacking-guide/gitbook/gitbook-plugin-fontsettings/fontsettings.js
+│ --rw-r--r--  2.0 unx     8596 b- defN 22-Nov-28 15:33 hacking-guide/gitbook/gitbook-plugin-fontsettings/website.css
+│ --rw-r--r--  2.0 unx     2865 b- defN 22-Nov-28 15:33 hacking-guide/gitbook/gitbook-plugin-highlight/ebook.css
+│ --rw-r--r--  2.0 unx    31446 b- defN 22-Nov-28 15:33 hacking-guide/gitbook/gitbook-plugin-highlight/website.css
+│ --rw-r--r--  2.0 unx    15005 b- defN 22-Nov-28 15:33 hacking-guide/gitbook/gitbook-plugin-lunr/lunr.min.js
+│ --rw-r--r--  2.0 unx     1616 b- defN 22-Nov-28 15:33 hacking-guide/gitbook/gitbook-plugin-lunr/search-lunr.js
+│ --rw-r--r--  2.0 unx    15005 b- defN 22-Nov-28 15:33 hacking-guide/gitbook/gitbook-plugin-search/lunr.min.js
+│ --rw-r--r--  2.0 unx     1268 b- defN 22-Nov-28 15:33 hacking-guide/gitbook/gitbook-plugin-search/search-engine.js
+│ --rw-r--r--  2.0 unx      974 b- defN 22-Nov-28 15:33 hacking-guide/gitbook/gitbook-plugin-search/search.css
+│ --rw-r--r--  2.0 unx     6368 b- defN 22-Nov-28 15:33 hacking-guide/gitbook/gitbook-plugin-search/search.js
+│ --rw-r--r--  2.0 unx   101696 b- defN 22-Nov-28 15:33 hacking-guide/gitbook/gitbook.js
+│ --rw-r--r--  2.0 unx     4817 b- defN 22-Nov-28 15:33 hacking-guide/gitbook/images/apple-touch-icon-precomposed-152.png
+│ --rw-r--r--  2.0 unx     4286 b- defN 22-Nov-28 15:33 hacking-guide/gitbook/images/favicon.ico
+│ --rw-r--r--  2.0 unx    51107 b- defN 22-Nov-28 15:33 hacking-guide/gitbook/style.css
+│ --rw-r--r--  2.0 unx   109931 b- defN 22-Nov-28 15:33 hacking-guide/gitbook/theme.js
+│ --rw-r--r--  2.0 unx    10876 b- defN 22-Nov-28 15:33 hacking-guide/history.html
+│ --rw-r--r--  2.0 unx    19714 b- defN 22-Nov-28 15:33 hacking-guide/ide.html
+│ --rw-r--r--  2.0 unx    29377 b- defN 22-Nov-28 15:33 hacking-guide/images/activemq-logo.png
+│ --rw-r--r--  2.0 unx     9574 b- defN 22-Nov-28 15:33 hacking-guide/index.html
+│ --rw-r--r--  2.0 unx    18458 b- defN 22-Nov-28 15:33 hacking-guide/maintainers.html
+│ --rw-r--r--  2.0 unx    10531 b- defN 22-Nov-28 15:33 hacking-guide/notice.html
+│ --rw-r--r--  2.0 unx   268871 b- defN 22-Nov-28 15:33 hacking-guide/search_index.json
+│ --rw-r--r--  2.0 unx    18863 b- defN 22-Nov-28 15:33 hacking-guide/tests.html
+│ --rw-r--r--  2.0 unx    15998 b- defN 22-Nov-28 15:33 hacking-guide/validating-releases.html
+│ +-rw-r--r--  2.0 unx     1556 b- defN 22-Nov-28 15:33 hacking-guide/index.html
+│  -rw-r--r--  2.0 unx    29377 b- defN 22-Nov-28 15:33 images/activemq-logo.png
+│  -rw-r--r--  2.0 unx     2715 b- defN 22-Nov-28 15:33 index.html
+│ --rw-r--r--  2.0 unx    13861 b- defN 22-Nov-28 15:33 migration-guide/VirtualTopics.html
+│ --rw-r--r--  2.0 unx    12545 b- defN 22-Nov-28 15:33 migration-guide/authentication.html
+│ --rw-r--r--  2.0 unx    23451 b- defN 22-Nov-28 15:33 migration-guide/authorization.html
+│ --rw-r--r--  2.0 unx    14244 b- defN 22-Nov-28 15:33 migration-guide/configuration.html
+│ --rw-r--r--  2.0 unx    16247 b- defN 22-Nov-28 15:33 migration-guide/connectors.html
+│ --rw-r--r--  2.0 unx    13224 b- defN 22-Nov-28 15:33 migration-guide/destinations.html
+│ --rw-r--r--  2.0 unx   109688 b- defN 22-Nov-28 15:33 migration-guide/gitbook/fonts/fontawesome/FontAwesome.otf
+│ --rw-r--r--  2.0 unx    70807 b- defN 22-Nov-28 15:33 migration-guide/gitbook/fonts/fontawesome/fontawesome-webfont.eot
+│ --rw-r--r--  2.0 unx   365616 b- defN 22-Nov-28 15:33 migration-guide/gitbook/fonts/fontawesome/fontawesome-webfont.svg
+│ --rw-r--r--  2.0 unx   142072 b- defN 22-Nov-28 15:33 migration-guide/gitbook/fonts/fontawesome/fontawesome-webfont.ttf
+│ --rw-r--r--  2.0 unx    83588 b- defN 22-Nov-28 15:33 migration-guide/gitbook/fonts/fontawesome/fontawesome-webfont.woff
+│ --rw-r--r--  2.0 unx    66624 b- defN 22-Nov-28 15:33 migration-guide/gitbook/fonts/fontawesome/fontawesome-webfont.woff2
+│ --rw-r--r--  2.0 unx     6447 b- defN 22-Nov-28 15:33 migration-guide/gitbook/gitbook-plugin-fontsettings/fontsettings.js
+│ --rw-r--r--  2.0 unx     8596 b- defN 22-Nov-28 15:33 migration-guide/gitbook/gitbook-plugin-fontsettings/website.css
+│ --rw-r--r--  2.0 unx     2865 b- defN 22-Nov-28 15:33 migration-guide/gitbook/gitbook-plugin-highlight/ebook.css
+│ --rw-r--r--  2.0 unx    31446 b- defN 22-Nov-28 15:33 migration-guide/gitbook/gitbook-plugin-highlight/website.css
+│ --rw-r--r--  2.0 unx    15005 b- defN 22-Nov-28 15:33 migration-guide/gitbook/gitbook-plugin-lunr/lunr.min.js
+│ --rw-r--r--  2.0 unx     1616 b- defN 22-Nov-28 15:33 migration-guide/gitbook/gitbook-plugin-lunr/search-lunr.js
+│ --rw-r--r--  2.0 unx    15005 b- defN 22-Nov-28 15:33 migration-guide/gitbook/gitbook-plugin-search/lunr.min.js
+│ --rw-r--r--  2.0 unx     1268 b- defN 22-Nov-28 15:33 migration-guide/gitbook/gitbook-plugin-search/search-engine.js
+│ --rw-r--r--  2.0 unx      974 b- defN 22-Nov-28 15:33 migration-guide/gitbook/gitbook-plugin-search/search.css
+│ --rw-r--r--  2.0 unx     6368 b- defN 22-Nov-28 15:33 migration-guide/gitbook/gitbook-plugin-search/search.js
+│ --rw-r--r--  2.0 unx   101696 b- defN 22-Nov-28 15:33 migration-guide/gitbook/gitbook.js
+│ --rw-r--r--  2.0 unx     4817 b- defN 22-Nov-28 15:33 migration-guide/gitbook/images/apple-touch-icon-precomposed-152.png
+│ --rw-r--r--  2.0 unx     4286 b- defN 22-Nov-28 15:33 migration-guide/gitbook/images/favicon.ico
+│ --rw-r--r--  2.0 unx    51107 b- defN 22-Nov-28 15:33 migration-guide/gitbook/style.css
+│ --rw-r--r--  2.0 unx   109931 b- defN 22-Nov-28 15:33 migration-guide/gitbook/theme.js
+│ --rw-r--r--  2.0 unx    29377 b- defN 22-Nov-28 15:33 migration-guide/images/activemq-logo.png
+│ --rw-r--r--  2.0 unx     9855 b- defN 22-Nov-28 15:33 migration-guide/index.html
+│ --rw-r--r--  2.0 unx    14620 b- defN 22-Nov-28 15:33 migration-guide/key-differences.html
+│ --rw-r--r--  2.0 unx    11209 b- defN 22-Nov-28 15:33 migration-guide/message-store.html
+│ --rw-r--r--  2.0 unx    10513 b- defN 22-Nov-28 15:33 migration-guide/notice.html
+│ --rw-r--r--  2.0 unx    11169 b- defN 22-Nov-28 15:33 migration-guide/preface.html
+│ --rw-r--r--  2.0 unx   200847 b- defN 22-Nov-28 15:33 migration-guide/search_index.json
+│ --rw-r--r--  2.0 unx    13690 b- defN 22-Nov-28 15:33 migration-guide/ssl.html
+│  -rw-r--r--  2.0 unx     5680 b- defN 22-Nov-28 15:33 styles/impact/css/pygmentize.css
+│  -rw-r--r--  2.0 unx     6052 b- defN 22-Nov-28 15:33 styles/impact/css/site.css
+│ --rw-r--r--  2.0 unx     5640 b- defN 22-Nov-28 15:33 user-manual/02-27-00-scripts-profiles-windows.diff
+│ --rw-r--r--  2.0 unx     2010 b- defN 22-Nov-28 15:33 user-manual/02-27-00-scripts-profiles.diff
+│ --rw-r--r--  2.0 unx    35454 b- defN 22-Nov-28 15:33 user-manual/activation-tools.html
+│ --rw-r--r--  2.0 unx    64963 b- defN 22-Nov-28 15:33 user-manual/address-model.html
+│ --rw-r--r--  2.0 unx    63224 b- defN 22-Nov-28 15:33 user-manual/address-settings.html
+│ --rw-r--r--  2.0 unx    60623 b- defN 22-Nov-28 15:33 user-manual/amqp-broker-connections.html
+│ --rw-r--r--  2.0 unx    45175 b- defN 22-Nov-28 15:33 user-manual/amqp.html
+│ --rw-r--r--  2.0 unx    39448 b- defN 22-Nov-28 15:33 user-manual/architecture.html
+│ --rw-r--r--  2.0 unx    44532 b- defN 22-Nov-28 15:33 user-manual/broker-plugins.html
+│ --rw-r--r--  2.0 unx    34903 b- defN 22-Nov-28 15:33 user-manual/cdi-integration.html
+│ --rw-r--r--  2.0 unx    32849 b- defN 22-Nov-28 15:33 user-manual/client-classpath-jakarta.html
+│ --rw-r--r--  2.0 unx    38670 b- defN 22-Nov-28 15:33 user-manual/client-classpath-jms.html
+│ --rw-r--r--  2.0 unx    36803 b- defN 22-Nov-28 15:33 user-manual/client-classpath.html
+│ --rw-r--r--  2.0 unx    38777 b- defN 22-Nov-28 15:33 user-manual/client-reconnection.html
+│ --rw-r--r--  2.0 unx    95369 b- defN 22-Nov-28 15:33 user-manual/clusters.html
+│ --rw-r--r--  2.0 unx    60816 b- defN 22-Nov-28 15:33 user-manual/config-reload.html
+│ --rw-r--r--  2.0 unx    85663 b- defN 22-Nov-28 15:33 user-manual/configuration-index.html
+│ --rw-r--r--  2.0 unx    67520 b- defN 22-Nov-28 15:33 user-manual/configuring-transports.html
+│ --rw-r--r--  2.0 unx    55582 b- defN 22-Nov-28 15:33 user-manual/connection-routers.html
+│ --rw-r--r--  2.0 unx    42223 b- defN 22-Nov-28 15:33 user-manual/connection-ttl.html
+│ --rw-r--r--  2.0 unx    35210 b- defN 22-Nov-28 15:33 user-manual/consumer-priority.html
+│ --rw-r--r--  2.0 unx     1463 b- defN 22-Nov-28 15:33 user-manual/copied-message-properties.md
+│ --rw-r--r--  2.0 unx    47235 b- defN 22-Nov-28 15:33 user-manual/core-bridges.html
+│ --rw-r--r--  2.0 unx    45060 b- defN 22-Nov-28 15:33 user-manual/core.html
+│ --rw-r--r--  2.0 unx    38081 b- defN 22-Nov-28 15:33 user-manual/critical-analysis.html
+│ --rw-r--r--  2.0 unx    51008 b- defN 22-Nov-28 15:33 user-manual/data-tools.html
+│ --rw-r--r--  2.0 unx    44560 b- defN 22-Nov-28 15:33 user-manual/diagrams/anycast.svg
+│ --rw-r--r--  2.0 unx    12645 b- defN 22-Nov-28 15:33 user-manual/diagrams/architecture-diagrams.odg
+│ --rw-r--r--  2.0 unx    12149 b- defN 22-Nov-28 15:33 user-manual/diagrams/broker-connection-diagrams.odg
+│ --rw-r--r--  2.0 unx     3177 b- defN 22-Nov-28 15:33 user-manual/diagrams/envelope.svg
+│ --rw-r--r--  2.0 unx    16917 b- defN 22-Nov-28 15:33 user-manual/diagrams/ha-colocated.odg
+│ --rw-r--r--  2.0 unx    11620 b- defN 22-Nov-28 15:33 user-manual/diagrams/ha-replicated-store.odg
+│ --rw-r--r--  2.0 unx    15455 b- defN 22-Nov-28 15:33 user-manual/diagrams/ha-scaledown.odg
+│ --rw-r--r--  2.0 unx    10650 b- defN 22-Nov-28 15:33 user-manual/diagrams/ha-shared-store.odg
+│ --rw-r--r--  2.0 unx    52802 b- defN 22-Nov-28 15:33 user-manual/diagrams/multicast.svg
+│ --rw-r--r--  2.0 unx     3427 b- defN 22-Nov-28 15:33 user-manual/diagrams/queue.svg
+│ --rw-r--r--  2.0 unx    42362 b- defN 22-Nov-28 15:33 user-manual/diverts.html
+│ --rw-r--r--  2.0 unx    40406 b- defN 22-Nov-28 15:33 user-manual/duplicate-detection.html
+│ --rw-r--r--  2.0 unx    39816 b- defN 22-Nov-28 15:33 user-manual/embedding-activemq.html
+│ --rw-r--r--  2.0 unx    77153 b- defN 22-Nov-28 15:33 user-manual/examples.html
+│ --rw-r--r--  2.0 unx    36064 b- defN 22-Nov-28 15:33 user-manual/exclusive-queues.html
+│ --rw-r--r--  2.0 unx    56664 b- defN 22-Nov-28 15:33 user-manual/federation-address.html
+│ --rw-r--r--  2.0 unx    54395 b- defN 22-Nov-28 15:33 user-manual/federation-queue.html
+│ --rw-r--r--  2.0 unx    42285 b- defN 22-Nov-28 15:33 user-manual/federation.html
+│ --rw-r--r--  2.0 unx    38960 b- defN 22-Nov-28 15:33 user-manual/filter-expressions.html
+│ --rw-r--r--  2.0 unx    46720 b- defN 22-Nov-28 15:33 user-manual/flow-control.html
+│ --rw-r--r--  2.0 unx   109688 b- defN 22-Nov-28 15:33 user-manual/gitbook/fonts/fontawesome/FontAwesome.otf
+│ --rw-r--r--  2.0 unx    70807 b- defN 22-Nov-28 15:33 user-manual/gitbook/fonts/fontawesome/fontawesome-webfont.eot
+│ --rw-r--r--  2.0 unx   365616 b- defN 22-Nov-28 15:33 user-manual/gitbook/fonts/fontawesome/fontawesome-webfont.svg
+│ --rw-r--r--  2.0 unx   142072 b- defN 22-Nov-28 15:33 user-manual/gitbook/fonts/fontawesome/fontawesome-webfont.ttf
+│ --rw-r--r--  2.0 unx    83588 b- defN 22-Nov-28 15:33 user-manual/gitbook/fonts/fontawesome/fontawesome-webfont.woff
+│ --rw-r--r--  2.0 unx    66624 b- defN 22-Nov-28 15:33 user-manual/gitbook/fonts/fontawesome/fontawesome-webfont.woff2
+│ --rw-r--r--  2.0 unx     6447 b- defN 22-Nov-28 15:33 user-manual/gitbook/gitbook-plugin-fontsettings/fontsettings.js
+│ --rw-r--r--  2.0 unx     8596 b- defN 22-Nov-28 15:33 user-manual/gitbook/gitbook-plugin-fontsettings/website.css
+│ --rw-r--r--  2.0 unx     2865 b- defN 22-Nov-28 15:33 user-manual/gitbook/gitbook-plugin-highlight/ebook.css
+│ --rw-r--r--  2.0 unx    31446 b- defN 22-Nov-28 15:33 user-manual/gitbook/gitbook-plugin-highlight/website.css
+│ --rw-r--r--  2.0 unx    15005 b- defN 22-Nov-28 15:33 user-manual/gitbook/gitbook-plugin-lunr/lunr.min.js
+│ --rw-r--r--  2.0 unx     1616 b- defN 22-Nov-28 15:33 user-manual/gitbook/gitbook-plugin-lunr/search-lunr.js
+│ --rw-r--r--  2.0 unx    15005 b- defN 22-Nov-28 15:33 user-manual/gitbook/gitbook-plugin-search/lunr.min.js
+│ --rw-r--r--  2.0 unx     1268 b- defN 22-Nov-28 15:33 user-manual/gitbook/gitbook-plugin-search/search-engine.js
+│ --rw-r--r--  2.0 unx      974 b- defN 22-Nov-28 15:33 user-manual/gitbook/gitbook-plugin-search/search.css
+│ --rw-r--r--  2.0 unx     6368 b- defN 22-Nov-28 15:33 user-manual/gitbook/gitbook-plugin-search/search.js
+│ --rw-r--r--  2.0 unx   101696 b- defN 22-Nov-28 15:33 user-manual/gitbook/gitbook.js
+│ --rw-r--r--  2.0 unx     4817 b- defN 22-Nov-28 15:33 user-manual/gitbook/images/apple-touch-icon-precomposed-152.png
+│ --rw-r--r--  2.0 unx     4286 b- defN 22-Nov-28 15:33 user-manual/gitbook/images/favicon.ico
+│ --rw-r--r--  2.0 unx    51107 b- defN 22-Nov-28 15:33 user-manual/gitbook/style.css
+│ --rw-r--r--  2.0 unx   109931 b- defN 22-Nov-28 15:33 user-manual/gitbook/theme.js
+│ --rw-r--r--  2.0 unx    34190 b- defN 22-Nov-28 15:33 user-manual/graceful-shutdown.html
+│ --rw-r--r--  2.0 unx   107065 b- defN 22-Nov-28 15:33 user-manual/ha.html
+│ --rw-r--r--  2.0 unx    48908 b- defN 22-Nov-28 15:33 user-manual/images/30K.png
+│ --rw-r--r--  2.0 unx    38510 b- defN 22-Nov-28 15:33 user-manual/images/90K.png
+│ --rw-r--r--  2.0 unx    29377 b- defN 22-Nov-28 15:33 user-manual/images/activemq-logo.png
+│ --rw-r--r--  2.0 unx    39429 b- defN 22-Nov-28 15:33 user-manual/images/anycast.png
+│ --rw-r--r--  2.0 unx    76604 b- defN 22-Nov-28 15:33 user-manual/images/architecture1.jpg
+│ --rw-r--r--  2.0 unx    27525 b- defN 22-Nov-28 15:33 user-manual/images/architecture2.jpg
+│ --rw-r--r--  2.0 unx    15699 b- defN 22-Nov-28 15:33 user-manual/images/architecture3.jpg
+│ --rw-r--r--  2.0 unx    10583 b- defN 22-Nov-28 15:33 user-manual/images/broker-connection-DR.jpg
+│ --rw-r--r--  2.0 unx    12504 b- defN 22-Nov-28 15:33 user-manual/images/broker-connection-failover.jpg
+│ --rw-r--r--  2.0 unx    95086 b- defN 22-Nov-28 15:33 user-manual/images/connection_router_workflow.png
+│ --rw-r--r--  2.0 unx   177874 b- defN 22-Nov-28 15:33 user-manual/images/console-artemis-plugin.png
+│ --rw-r--r--  2.0 unx   997956 b- defN 22-Nov-28 15:33 user-manual/images/console-login.png
+│ --rw-r--r--  2.0 unx   270714 b- defN 22-Nov-28 15:33 user-manual/images/federated-queue-symmetric.gif
+│ --rw-r--r--  2.0 unx   145435 b- defN 22-Nov-28 15:33 user-manual/images/federated-queue-symmetric.png
+│ --rw-r--r--  2.0 unx   148964 b- defN 22-Nov-28 15:33 user-manual/images/federated-queue.gif
+│ --rw-r--r--  2.0 unx   439926 b- defN 22-Nov-28 15:33 user-manual/images/federated-world-wide-mesh.png
+│ --rw-r--r--  2.0 unx   212153 b- defN 22-Nov-28 15:33 user-manual/images/federation-address-complete-graph.png
+│ --rw-r--r--  2.0 unx   177250 b- defN 22-Nov-28 15:33 user-manual/images/federation-address-fan-out.png
+│ --rw-r--r--  2.0 unx   146752 b- defN 22-Nov-28 15:33 user-manual/images/federation-address-ring.png
+│ --rw-r--r--  2.0 unx   157487 b- defN 22-Nov-28 15:33 user-manual/images/federation-address-symetric.png
+│ --rw-r--r--  2.0 unx   169995 b- defN 22-Nov-28 15:33 user-manual/images/federation-address.png
+│ --rw-r--r--  2.0 unx    19713 b- defN 22-Nov-28 15:33 user-manual/images/ha-colocated.png
+│ --rw-r--r--  2.0 unx    21496 b- defN 22-Nov-28 15:33 user-manual/images/ha-replicated-store.png
+│ --rw-r--r--  2.0 unx    16525 b- defN 22-Nov-28 15:33 user-manual/images/ha-scaledown.png
+│ --rw-r--r--  2.0 unx    14147 b- defN 22-Nov-28 15:33 user-manual/images/ha-shared-store.png
+│ --rw-r--r--  2.0 unx    42725 b- defN 22-Nov-28 15:33 user-manual/images/hot_test.png
+│ --rw-r--r--  2.0 unx    12103 b- defN 22-Nov-28 15:33 user-manual/images/management_api_redirect_sequence.png
+│ --rw-r--r--  2.0 unx    46881 b- defN 22-Nov-28 15:33 user-manual/images/multicast.png
+│ --rw-r--r--  2.0 unx    11955 b- defN 22-Nov-28 15:33 user-manual/images/native_redirect_sequence.png
+│ --rw-r--r--  2.0 unx    56536 b- defN 22-Nov-28 15:33 user-manual/images/test.png
+│ --rw-r--r--  2.0 unx    32852 b- defN 22-Nov-28 15:33 user-manual/index.html
+│ --rw-r--r--  2.0 unx    39893 b- defN 22-Nov-28 15:33 user-manual/intercepting-operations.html
+│ --rw-r--r--  2.0 unx    45373 b- defN 22-Nov-28 15:33 user-manual/jms-bridge.html
+│ --rw-r--r--  2.0 unx    33677 b- defN 22-Nov-28 15:33 user-manual/jms-core-mapping.html
+│ --rw-r--r--  2.0 unx    35779 b- defN 22-Nov-28 15:33 user-manual/karaf.html
+│ --rw-r--r--  2.0 unx    45567 b- defN 22-Nov-28 15:33 user-manual/large-messages.html
+│ --rw-r--r--  2.0 unx    42499 b- defN 22-Nov-28 15:33 user-manual/last-value-queues.html
+│ --rw-r--r--  2.0 unx    36553 b- defN 22-Nov-28 15:33 user-manual/libaio.html
+│ --rw-r--r--  2.0 unx    41536 b- defN 22-Nov-28 15:33 user-manual/logging.html
+│ --rw-r--r--  2.0 unx    38753 b- defN 22-Nov-28 15:33 user-manual/management-console.html
+│ --rw-r--r--  2.0 unx    86525 b- defN 22-Nov-28 15:33 user-manual/management.html
+│ --rw-r--r--  2.0 unx    61871 b- defN 22-Nov-28 15:33 user-manual/masking-passwords.html
+│ --rw-r--r--  2.0 unx    52147 b- defN 22-Nov-28 15:33 user-manual/maven-plugin.html
+│ --rw-r--r--  2.0 unx    43291 b- defN 22-Nov-28 15:33 user-manual/message-expiry.html
+│ --rw-r--r--  2.0 unx    55297 b- defN 22-Nov-28 15:33 user-manual/message-grouping.html
+│ --rw-r--r--  2.0 unx    48169 b- defN 22-Nov-28 15:33 user-manual/messaging-concepts.html
+│ --rw-r--r--  2.0 unx    40114 b- defN 22-Nov-28 15:33 user-manual/metrics.html
+│ --rw-r--r--  2.0 unx    50220 b- defN 22-Nov-28 15:33 user-manual/mqtt.html
+│ --rw-r--r--  2.0 unx    47547 b- defN 22-Nov-28 15:33 user-manual/network-isolation.html
+│ --rw-r--r--  2.0 unx    36260 b- defN 22-Nov-28 15:33 user-manual/non-destructive-queues.html
+│ --rw-r--r--  2.0 unx    33674 b- defN 22-Nov-28 15:33 user-manual/notice.html
+│ --rw-r--r--  2.0 unx    40558 b- defN 22-Nov-28 15:33 user-manual/openwire.html
+│ --rw-r--r--  2.0 unx    45397 b- defN 22-Nov-28 15:33 user-manual/paging.html
+│ --rw-r--r--  2.0 unx    60307 b- defN 22-Nov-28 15:33 user-manual/perf-tools.html
+│ --rw-r--r--  2.0 unx    48342 b- defN 22-Nov-28 15:33 user-manual/perf-tuning.html
+│ --rw-r--r--  2.0 unx    68177 b- defN 22-Nov-28 15:33 user-manual/persistence.html
+│ --rw-r--r--  2.0 unx    36471 b- defN 22-Nov-28 15:33 user-manual/pre-acknowledge.html
+│ --rw-r--r--  2.0 unx    34824 b- defN 22-Nov-28 15:33 user-manual/preface.html
+│ --rw-r--r--  2.0 unx    33715 b- defN 22-Nov-28 15:33 user-manual/project-info.html
+│ --rw-r--r--  2.0 unx    37330 b- defN 22-Nov-28 15:33 user-manual/protocols-interoperability.html
+│ --rw-r--r--  2.0 unx    34797 b- defN 22-Nov-28 15:33 user-manual/resource-limits.html
+│ --rw-r--r--  2.0 unx    37145 b- defN 22-Nov-28 15:33 user-manual/restart-sequence.html
+│ --rw-r--r--  2.0 unx    37740 b- defN 22-Nov-28 15:33 user-manual/retroactive-addresses.html
+│ --rw-r--r--  2.0 unx    42511 b- defN 22-Nov-28 15:33 user-manual/ring-queues.html
+│ --rw-r--r--  2.0 unx    34472 b- defN 22-Nov-28 15:33 user-manual/scheduled-messages.html
+│ --rw-r--r--  2.0 unx  3969024 b- defN 22-Nov-28 15:33 user-manual/search_index.json
+│ --rw-r--r--  2.0 unx   128733 b- defN 22-Nov-28 15:33 user-manual/security.html
+│ --rw-r--r--  2.0 unx    40762 b- defN 22-Nov-28 15:33 user-manual/send-guarantees.html
+│ --rw-r--r--  2.0 unx    35213 b- defN 22-Nov-28 15:33 user-manual/slow-consumers.html
+│ --rw-r--r--  2.0 unx    33682 b- defN 22-Nov-28 15:33 user-manual/spring-integration.html
+│ --rw-r--r--  2.0 unx    59178 b- defN 22-Nov-28 15:33 user-manual/stomp.html
+│ --rw-r--r--  2.0 unx      215 b- defN 22-Nov-28 15:33 user-manual/syntax.md
+│ --rw-r--r--  2.0 unx    38167 b- defN 22-Nov-28 15:33 user-manual/thread-pooling.html
+│ --rw-r--r--  2.0 unx    36545 b- defN 22-Nov-28 15:33 user-manual/tomcat.html
+│ --rw-r--r--  2.0 unx    34267 b- defN 22-Nov-28 15:33 user-manual/transaction-config.html
+│ --rw-r--r--  2.0 unx    36113 b- defN 22-Nov-28 15:33 user-manual/transformers.html
+│ --rw-r--r--  2.0 unx    48691 b- defN 22-Nov-28 15:33 user-manual/undelivered-messages.html
+│ --rw-r--r--  2.0 unx    37580 b- defN 22-Nov-28 15:33 user-manual/unit-testing.html
+│ --rw-r--r--  2.0 unx    37270 b- defN 22-Nov-28 15:33 user-manual/upgrading.html
+│ --rw-r--r--  2.0 unx    53948 b- defN 22-Nov-28 15:33 user-manual/using-jms.html
+│ --rw-r--r--  2.0 unx    56747 b- defN 22-Nov-28 15:33 user-manual/using-server.html
+│ --rw-r--r--  2.0 unx    86326 b- defN 22-Nov-28 15:33 user-manual/versions.html
+│ --rw-r--r--  2.0 unx    44447 b- defN 22-Nov-28 15:33 user-manual/web-server.html
+│ --rw-r--r--  2.0 unx    34373 b- defN 22-Nov-28 15:33 user-manual/wildcard-routing.html
+│ --rw-r--r--  2.0 unx    35477 b- defN 22-Nov-28 15:33 user-manual/wildcard-syntax.html
+│ +-rw-r--r--  2.0 unx     1536 b- defN 22-Nov-28 15:33 user-manual/index.html
+│  -rw-r--r--  2.0 unx    17396 b- defN 22-Nov-28 15:33 META-INF/maven/org.apache.activemq/artemis-website/pom.xml
+│  -rw-r--r--  2.0 unx       70 b- defN 22-Nov-28 15:33 META-INF/maven/org.apache.activemq/artemis-website/pom.properties
+│ -274 files, 16571284 bytes uncompressed, 6932955 bytes compressed:  58.2%
+│ +24 files, 79712 bytes uncompressed, 43884 bytes compressed:  44.9%
+...
