@@ -86,15 +86,6 @@ fi
 
 echo -e "\033[1m$(pwd)\033[0m"
 
-containerEngine() {
-  if [[ ${container_engine} == "podman" ]]
-  then
-    podman "$1"
-  else
-    docker "$1"
-  fi
-}
-
 mvnBuildDocker() {
   local mvnCommand mvnImage crlfDocker mvnVersion
   mvnCommand="$1"
@@ -131,11 +122,11 @@ mvnBuildDocker() {
     *)
       mvnImage=maven:${mvnVersion}-eclipse-temurin-${jdk}-alpine
   esac
-  if ! containerEngine pull -q ${mvnImage} > /dev/null 2>&1
+  if ! ${container_engine} pull -q ${mvnImage} > /dev/null 2>&1
   then
     for image in maven:{${mvnVersion},3}-eclipse-temurin-${jdk}-alpine
     do
-      if containerEngine pull -q ${image} > /dev/null 2>&1
+      if ${container_engine} pull -q ${image} > /dev/null 2>&1
       then
         mvnImage=${image}
         break
