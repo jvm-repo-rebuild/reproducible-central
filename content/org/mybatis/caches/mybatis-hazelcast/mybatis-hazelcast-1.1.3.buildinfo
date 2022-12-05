@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=mybatis-hazelcast
+group-id=org.mybatis.caches
+artifact-id=mybatis-hazelcast
+version=1.1.3
+
+# source information
+source.scm.uri=scm:git:ssh://github.com/mybatis/hazelcast-cache.git
+source.scm.tag=mybatis-hazelcast-1.1.3
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=mybatis-hazelcast-1.1.3.pom
+outputs.0.length=4189
+outputs.0.checksums.sha512=95806d31e2225158e3a1502132866b37e2e7b9b4b549790ec96e8ba9db0c7546758d8f99e96a3e7fbbf082758ddc6caffb0d322f65a24c9c1d3b254ed3b8d6c9
+
+outputs.1.filename=mybatis-hazelcast-1.1.3.jar
+outputs.1.length=13020
+outputs.1.checksums.sha512=5deafb573d4b9cd57479c07aeeceeb0f41889dbd7e36333bc70418eac3aaba69bc1e4a76698bca9f835335692f80df33736ba21aeb16e43d1f4eb64ed6e05515
+
+outputs.2.filename=mybatis-hazelcast-1.1.3-sources.jar
+outputs.2.length=13640
+outputs.2.checksums.sha512=4a633e7b788fe1711809f0cdd4d64b0b46d4d09f7732ed5857bfc3f9feb5b06a05894d7a893578bfeae2f2e14ae2d569f3d77891ad2118163284a87f8df547dc
