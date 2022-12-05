@@ -1,0 +1,7 @@
+version=2.5.0
+ok=3
+ko=0
+okFiles="mybatis2-2.5.0.pom mybatis2-2.5.0.jar mybatis2-2.5.0-sources.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
