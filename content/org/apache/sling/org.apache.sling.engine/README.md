@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-engine.git](https://github.com/apache/sling-org-apache-sling-engine.git)
 
-rebuilding **7 releases** of org.apache.sling:org.apache.sling.engine:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **8 releases** of org.apache.sling:org.apache.sling.engine:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.13.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.engine/2.13.0/pom) | | | |
+| [2.13.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.engine/2.13.0/pom) | [mvn jdk11](org.apache.sling.engine-2.13.0.buildspec) | [result](org.apache.sling.engine-2.13.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.engine-2.13.0.buildcompare) | 723K |
 | [2.12.2](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.engine/2.12.2/pom) | [mvn jdk11](org.apache.sling.engine-2.12.2.buildspec) | [result](org.apache.sling.engine-2.12.2.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.engine-2.12.2.buildcompare) | 721K |
 | [2.12.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.engine/2.12.0/pom) | [mvn jdk11](org.apache.sling.engine-2.12.0.buildspec) | [result](org.apache.sling.engine-2.12.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.engine-2.12.0.buildcompare) | 720K |
 | [2.11.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.engine/2.11.0/pom) | [mvn jdk11 w](org.apache.sling.engine-2.11.0.buildspec) | [result](org.apache.sling.engine-2.11.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.engine-2.11.0.buildcompare) | 720K |
