@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Scripting HTL Engine
+group-id=org.apache.sling
+artifact-id=org.apache.sling.scripting.sightly
+version=1.4.22-1.4.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-scripting-sightly.git
+source.scm.tag=org.apache.sling.scripting.sightly-1.4.22-1.4.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.scripting.sightly-1.4.22-1.4.0.pom
+outputs.0.length=15735
+outputs.0.checksums.sha512=9f1a621b1c9310c852223967c4ba162e61f92b4fe5109921c16a10e9083e9f7e7337a6eea408daa0054fdd049859ad4de5ceb06c41f9e52d81fcf684246f00f3
+
+outputs.1.filename=org.apache.sling.scripting.sightly-1.4.22-1.4.0.jar
+outputs.1.length=126918
+outputs.1.checksums.sha512=555956002e1b32b8d02ea0b8eebbe529a7aff0f09d07d4898e9c980b9bbac5b7ce06d787785fc21cfe3261ca79a3cbf80319e3f279aaebd8f8efa9005dcb8721
+
+outputs.2.filename=org.apache.sling.scripting.sightly-1.4.22-1.4.0-source-release.zip
+outputs.2.length=117452
+outputs.2.checksums.sha512=1138c4e348135bd9e1b8beb0598e71f80b452d6ea1ea46d8961de13391cf42db9cc34ea8474155b68bf6e934eb3a286dc22c6ed9cade9d1f16d7361e87969c43
+
+outputs.3.filename=org.apache.sling.scripting.sightly-1.4.22-1.4.0-sources.jar
+outputs.3.length=80682
+outputs.3.checksums.sha512=48ef0e2a5c31f6a0dbacc6df585991714d7c6ee12c406f966a79ff15048f8e72d4d03dc7303a22fbe7786cf1e1f90000ade9c988c5e72633d7d6d009f4d72e3a
+
+outputs.4.filename=org.apache.sling.scripting.sightly-1.4.22-1.4.0-sources.jar
+outputs.4.length=80682
+outputs.4.checksums.sha512=48ef0e2a5c31f6a0dbacc6df585991714d7c6ee12c406f966a79ff15048f8e72d4d03dc7303a22fbe7786cf1e1f90000ade9c988c5e72633d7d6d009f4d72e3a
