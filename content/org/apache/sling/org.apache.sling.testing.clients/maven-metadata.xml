@@ -3,8 +3,8 @@
   <groupId>org.apache.sling</groupId>
   <artifactId>org.apache.sling.testing.clients</artifactId>
   <versioning>
-    <latest>3.0.16</latest>
-    <release>3.0.16</release>
+    <latest>3.0.18</latest>
+    <release>3.0.18</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0.1</version>
@@ -28,7 +28,8 @@
       <version>3.0.12</version>
       <version>3.0.14</version>
       <version>3.0.16</version>
+      <version>3.0.18</version>
     </versions>
-    <lastUpdated>20220928085815</lastUpdated>
+    <lastUpdated>20221208085502</lastUpdated>
   </versioning>
 </metadata>
