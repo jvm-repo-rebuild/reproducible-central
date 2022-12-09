@@ -1,0 +1,8 @@
+version=7.4.1
+ok=21
+ko=1
+okFiles="dependency-check-parent-7.4.1.pom dependency-check-utils-7.4.1.pom dependency-check-utils-7.4.1.jar dependency-check-utils-7.4.1-sources.jar dependency-check-core-7.4.1.pom dependency-check-core-7.4.1.jar dependency-check-core-7.4.1-sources.jar dependency-check-core-7.4.1-tests.jar dependency-check-cli-7.4.1.pom dependency-check-cli-7.4.1.jar dependency-check-cli-7.4.1-sources.jar dependency-check-cli-7.4.1-release.zip dependency-check-ant-7.4.1.pom dependency-check-ant-7.4.1.jar dependency-check-ant-7.4.1-sources.jar dependency-check-ant-7.4.1-release.zip dependency-check-maven-7.4.1.pom dependency-check-maven-7.4.1-sources.jar dependency-check-plugin-7.4.1.pom dependency-check-plugin-7.4.1.jar dependency-check-plugin-7.4.1-sources.jar"
+koFiles="dependency-check-maven-7.4.1.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/dependency-check-maven-7.4.1.jar maven/target/dependency-check-maven-7.4.1.jar

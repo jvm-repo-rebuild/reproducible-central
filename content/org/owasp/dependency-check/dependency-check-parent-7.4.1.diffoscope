@@ -1,0 +1,150 @@
+1 / 1 target/reference/dependency-check-maven-7.4.1.jar maven/target/dependency-check-maven-7.4.1.jar
+--- target/reference/dependency-check-maven-7.4.1.jar
++++ maven/target/dependency-check-maven-7.4.1.jar
+├── zipinfo {}
+│ @@ -8,15 +8,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-09 11:07 org/owasp/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-09 11:07 org/owasp/dependency_check_maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-09 11:07 org/owasp/dependencycheck/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-09 11:07 org/owasp/dependencycheck/maven/
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Dec-09 11:07 META-INF/LICENSE.txt
+│  -rw-r--r--  2.0 unx      505 b- defN 22-Dec-09 11:07 META-INF/NOTICE.txt
+│  -rw-r--r--  2.0 unx   198271 b- defN 22-Dec-09 11:07 META-INF/maven/org.owasp/dependency-check-maven/plugin-help.xml
+│ --rw-r--r--  2.0 unx   224745 b- defN 22-Dec-09 11:07 META-INF/maven/plugin.xml
+│ +-rw-r--r--  2.0 unx   224759 b- defN 22-Dec-09 11:07 META-INF/maven/plugin.xml
+│  -rw-r--r--  2.0 unx      720 b- defN 22-Dec-09 11:07 git.properties
+│  -rw-r--r--  2.0 unx      245 b- defN 22-Dec-09 11:07 mojo.properties
+│  -rw-r--r--  2.0 unx    11273 b- defN 22-Dec-09 11:07 org/owasp/dependency_check_maven/HelpMojo.class
+│  -rw-r--r--  2.0 unx     9456 b- defN 22-Dec-09 11:07 org/owasp/dependencycheck/maven/AggregateMojo.class
+│  -rw-r--r--  2.0 unx     1243 b- defN 22-Dec-09 11:07 org/owasp/dependencycheck/maven/ArtifactScopeExcluded.class
+│  -rw-r--r--  2.0 unx      974 b- defN 22-Dec-09 11:07 org/owasp/dependencycheck/maven/ArtifactTypeExcluded.class
+│  -rw-r--r--  2.0 unx    65428 b- defN 22-Dec-09 11:07 org/owasp/dependencycheck/maven/BaseDependencyCheckMojo.class
+│ @@ -26,8 +26,8 @@
+│  -rw-r--r--  2.0 unx     1905 b- defN 22-Dec-09 11:07 org/owasp/dependencycheck/maven/Mshared998Util.class
+│  -rw-r--r--  2.0 unx     2587 b- defN 22-Dec-09 11:07 org/owasp/dependencycheck/maven/PurgeMojo.class
+│  -rw-r--r--  2.0 unx      953 b- defN 22-Dec-09 11:07 org/owasp/dependencycheck/maven/Retirejs.class
+│  -rw-r--r--  2.0 unx     3962 b- defN 22-Dec-09 11:07 org/owasp/dependencycheck/maven/UpdateMojo.class
+│  -rw-r--r--  2.0 unx      137 b- defN 22-Dec-09 11:07 org/owasp/dependencycheck/maven/package-info.class
+│  -rw-r--r--  2.0 unx     8543 b- defN 22-Dec-09 11:07 META-INF/maven/org.owasp/dependency-check-maven/pom.xml
+│  -rw-r--r--  2.0 unx       66 b- defN 22-Dec-09 11:07 META-INF/maven/org.owasp/dependency-check-maven/pom.properties
+│ -31 files, 548087 bytes uncompressed, 98888 bytes compressed:  82.0%
+│ +31 files, 548101 bytes uncompressed, 98888 bytes compressed:  82.0%
+├── META-INF/maven/plugin.xml
+│ ├── META-INF/maven/plugin.xml
+│ │ @@ -4283,20 +4283,14 @@
+│ │      <dependency>
+│ │        <groupId>org.sonatype.goodies</groupId>
+│ │        <artifactId>package-url-java</artifactId>
+│ │        <type>jar</type>
+│ │        <version>1.1.1</version>
+│ │      </dependency>
+│ │      <dependency>
+│ │ -      <groupId>javax.inject</groupId>
+│ │ -      <artifactId>javax.inject</artifactId>
+│ │ -      <type>jar</type>
+│ │ -      <version>1</version>
+│ │ -    </dependency>
+│ │ -    <dependency>
+│ │        <groupId>org.slf4j</groupId>
+│ │        <artifactId>jcl-over-slf4j</artifactId>
+│ │        <type>jar</type>
+│ │        <version>1.7.28</version>
+│ │      </dependency>
+│ │      <dependency>
+│ │        <groupId>joda-time</groupId>
+│ │ @@ -4427,36 +4421,36 @@
+│ │      <dependency>
+│ │        <groupId>org.owasp</groupId>
+│ │        <artifactId>dependency-check-utils</artifactId>
+│ │        <type>jar</type>
+│ │        <version>7.4.1</version>
+│ │      </dependency>
+│ │      <dependency>
+│ │ -      <groupId>org.eclipse.aether</groupId>
+│ │ -      <artifactId>aether-api</artifactId>
+│ │ +      <groupId>org.codehaus.plexus</groupId>
+│ │ +      <artifactId>plexus-classworlds</artifactId>
+│ │        <type>jar</type>
+│ │ -      <version>0.9.0.M2</version>
+│ │ +      <version>2.6.0</version>
+│ │      </dependency>
+│ │      <dependency>
+│ │ -      <groupId>org.eclipse.aether</groupId>
+│ │ -      <artifactId>aether-util</artifactId>
+│ │ +      <groupId>org.apache.maven.shared</groupId>
+│ │ +      <artifactId>maven-shared-utils</artifactId>
+│ │        <type>jar</type>
+│ │ -      <version>0.9.0.M2</version>
+│ │ +      <version>3.3.3</version>
+│ │      </dependency>
+│ │      <dependency>
+│ │ -      <groupId>org.codehaus.plexus</groupId>
+│ │ -      <artifactId>plexus-classworlds</artifactId>
+│ │ +      <groupId>javax.inject</groupId>
+│ │ +      <artifactId>javax.inject</artifactId>
+│ │        <type>jar</type>
+│ │ -      <version>2.4.2</version>
+│ │ +      <version>1</version>
+│ │      </dependency>
+│ │      <dependency>
+│ │        <groupId>org.codehaus.plexus</groupId>
+│ │        <artifactId>plexus-component-annotations</artifactId>
+│ │        <type>jar</type>
+│ │ -      <version>1.5.5</version>
+│ │ +      <version>2.1.0</version>
+│ │      </dependency>
+│ │      <dependency>
+│ │        <groupId>org.apache.maven.shared</groupId>
+│ │        <artifactId>file-management</artifactId>
+│ │        <type>jar</type>
+│ │        <version>3.1.0</version>
+│ │      </dependency>
+│ │ @@ -4499,14 +4493,26 @@
+│ │      <dependency>
+│ │        <groupId>org.apache.maven.shared</groupId>
+│ │        <artifactId>maven-dependency-tree</artifactId>
+│ │        <type>jar</type>
+│ │        <version>3.2.1</version>
+│ │      </dependency>
+│ │      <dependency>
+│ │ +      <groupId>org.eclipse.aether</groupId>
+│ │ +      <artifactId>aether-util</artifactId>
+│ │ +      <type>jar</type>
+│ │ +      <version>1.0.0.v20140518</version>
+│ │ +    </dependency>
+│ │ +    <dependency>
+│ │ +      <groupId>org.eclipse.aether</groupId>
+│ │ +      <artifactId>aether-api</artifactId>
+│ │ +      <type>jar</type>
+│ │ +      <version>1.0.0.v20140518</version>
+│ │ +    </dependency>
+│ │ +    <dependency>
+│ │        <groupId>org.apache.maven.shared</groupId>
+│ │        <artifactId>maven-artifact-transfer</artifactId>
+│ │        <type>jar</type>
+│ │        <version>0.13.1</version>
+│ │      </dependency>
+│ │      <dependency>
+│ │        <groupId>org.apache.maven.shared</groupId>
+│ │ @@ -4529,20 +4535,14 @@
+│ │      <dependency>
+│ │        <groupId>org.sonatype.sisu</groupId>
+│ │        <artifactId>sisu-guice</artifactId>
+│ │        <type>jar</type>
+│ │        <version>2.1.7</version>
+│ │      </dependency>
+│ │      <dependency>
+│ │ -      <groupId>org.apache.maven.shared</groupId>
+│ │ -      <artifactId>maven-shared-utils</artifactId>
+│ │ -      <type>jar</type>
+│ │ -      <version>3.3.3</version>
+│ │ -    </dependency>
+│ │ -    <dependency>
+│ │        <groupId>com.google.code.findbugs</groupId>
+│ │        <artifactId>jsr305</artifactId>
+│ │        <type>jar</type>
+│ │        <version>3.0.2</version>
+│ │      </dependency>
+│ │      <dependency>
+│ │        <groupId>org.jetbrains</groupId>
+
