@@ -1,0 +1,128 @@
+1 /        2 target/reference/commons-compress-1.22.jar target/commons-compress-1.22.jar
+--- target/reference/commons-compress-1.22.jar
++++ target/commons-compress-1.22.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 1039712 bytes, number of entries: 575
+│ +Zip file size: 1039695 bytes, number of entries: 575
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 META-INF/
+│ --rw-r--r--  2.0 unx     3987 b- defN 22-Sep-18 13:49 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx     3926 b- defN 22-Sep-18 13:49 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 org/apache/commons/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 org/apache/commons/compress/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 org/apache/commons/compress/archivers/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 org/apache/commons/compress/archivers/ar/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 org/apache/commons/compress/archivers/arj/
+│ @@ -570,8 +570,8 @@
+│  -rw-r--r--  2.0 unx     1385 b- defN 22-Sep-18 13:49 org/apache/commons/compress/utils/OsgiUtils.class
+│  -rw-r--r--  2.0 unx     3204 b- defN 22-Sep-18 13:49 org/apache/commons/compress/utils/SeekableInMemoryByteChannel.class
+│  -rw-r--r--  2.0 unx     2687 b- defN 22-Sep-18 13:49 org/apache/commons/compress/utils/ServiceLoaderIterator.class
+│  -rw-r--r--  2.0 unx      879 b- defN 22-Sep-18 13:49 org/apache/commons/compress/utils/Sets.class
+│  -rw-r--r--  2.0 unx      871 b- defN 22-Sep-18 13:49 org/apache/commons/compress/utils/SkipShieldingInputStream.class
+│  -rw-r--r--  2.0 unx    21750 b- defN 22-Sep-18 13:49 META-INF/maven/org.apache.commons/commons-compress/pom.xml
+│  -rw-r--r--  2.0 unx       68 b- defN 22-Sep-18 13:49 META-INF/maven/org.apache.commons/commons-compress/pom.properties
+│ -575 files, 2099179 bytes uncompressed, 916892 bytes compressed:  56.3%
+│ +575 files, 2099118 bytes uncompressed, 916875 bytes compressed:  56.3%
+├── META-INF/MANIFEST.MF
+│ @@ -1,15 +1,15 @@
+│  Manifest-Version: 1.0
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+│  Bundle-SymbolicName: org.apache.commons.commons-compress
+│  Implementation-Vendor-Id: org.apache
+│  Specification-Title: Apache Commons Compress
+│  Bundle-DocURL: https://commons.apache.org/proper/commons-compress/
+│ -Include-Resource: META-INF/NOTICE.txt=NOTICE.txt,META-INF/LICENSE.txt=
+│ - LICENSE.txt
+│ +Include-Resource: META-INF/LICENSE.txt=LICENSE.txt,META-INF/NOTICE.txt
+│ + =NOTICE.txt
+│  Import-Package: org.tukaani.xz;resolution:=optional,org.brotli.dec;res
+│   olution:=optional,com.github.luben.zstd;resolution:=optional,org.obje
+│   ctweb.asm;resolution:=optional,javax.crypto;resolution:=optional,java
+│   x.crypto.spec;resolution:=optional
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+│  Main-Class: org.apache.commons.compress.archivers.Lister
+│  Export-Package: org.apache.commons.compress;version="1.22",org.apache.
+│ @@ -55,16 +55,14 @@
+│  Automatic-Module-Name: org.apache.commons.compress
+│  Implementation-Version: 1.22
+│  Specification-Vendor: The Apache Software Foundation
+│  Bundle-ManifestVersion: 2
+│  Bundle-Vendor: The Apache Software Foundation
+│  Tool: Bnd-6.3.1.202206071316
+│  Implementation-Vendor: The Apache Software Foundation
+│ -Originally-Created-By: Apache Maven Bundle Plugin 5.1.8
+│  Bundle-Version: 1.22.0
+│  X-Compile-Target-JDK: 1.8
+│ -Implementation-Build: UNKNOWN@r${buildNumber}; 2022-10-25 19:44:41+000
+│ - 0
+│ +Implementation-Build: UNKNOWN_BRANCH@r??????; 2022-12-09 16:28:43+0000
+│  X-Compile-Source-JDK: 1.8
+│  Created-By: Apache Maven Bundle Plugin 5.1.8
+│  Specification-Version: 1.22
+
+2 /        2 target/reference/commons-compress-1.22-tests.jar target/commons-compress-1.22-tests.jar
+--- target/reference/commons-compress-1.22-tests.jar
++++ target/commons-compress-1.22-tests.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 47526415 bytes, number of entries: 701
+│ +Zip file size: 47526398 bytes, number of entries: 701
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 META-INF/
+│ --rw-r--r--  2.0 unx     3987 b- defN 22-Sep-18 13:49 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx     3926 b- defN 22-Sep-18 13:49 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 COMPRESS-320/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 COMPRESS-380/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 COMPRESS-477/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 COMPRESS-477/split_zip_created_by_winrar/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 COMPRESS-477/split_zip_created_by_zip/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 COMPRESS-490/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 COMPRESS-612/
+│ @@ -696,8 +696,8 @@
+│  -rw-r--r--  2.0 unx  3931934 b- defN 22-Sep-18 13:49 zip64support.tar.bz2
+│  -rw-r--r--  2.0 unx    18348 b- defN 22-Sep-18 13:49 zipbomb.xlsx
+│  -rw-r--r--  2.0 unx       97 b- defN 22-Sep-18 13:49 zstandard.testdata
+│  -rw-r--r--  2.0 unx       94 b- defN 22-Sep-18 13:49 zstandard.testdata.zst
+│  -rw-r--r--  2.0 unx    10240 b- defN 22-Sep-18 13:49 zstd-tests.tar
+│  -rw-r--r--  2.0 unx    21750 b- defN 22-Sep-18 13:49 META-INF/maven/org.apache.commons/commons-compress/pom.xml
+│  -rw-r--r--  2.0 unx       68 b- defN 22-Sep-18 13:49 META-INF/maven/org.apache.commons/commons-compress/pom.properties
+│ -701 files, 73726607 bytes uncompressed, 47406665 bytes compressed:  35.7%
+│ +701 files, 73726546 bytes uncompressed, 47406648 bytes compressed:  35.7%
+├── META-INF/MANIFEST.MF
+│ @@ -1,15 +1,15 @@
+│  Manifest-Version: 1.0
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+│  Bundle-SymbolicName: org.apache.commons.commons-compress
+│  Implementation-Vendor-Id: org.apache
+│  Specification-Title: Apache Commons Compress
+│  Bundle-DocURL: https://commons.apache.org/proper/commons-compress/
+│ -Include-Resource: META-INF/NOTICE.txt=NOTICE.txt,META-INF/LICENSE.txt=
+│ - LICENSE.txt
+│ +Include-Resource: META-INF/LICENSE.txt=LICENSE.txt,META-INF/NOTICE.txt
+│ + =NOTICE.txt
+│  Import-Package: org.tukaani.xz;resolution:=optional,org.brotli.dec;res
+│   olution:=optional,com.github.luben.zstd;resolution:=optional,org.obje
+│   ctweb.asm;resolution:=optional,javax.crypto;resolution:=optional,java
+│   x.crypto.spec;resolution:=optional
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+│  Main-Class: org.apache.commons.compress.archivers.Lister
+│  Export-Package: org.apache.commons.compress;version="1.22",org.apache.
+│ @@ -55,16 +55,14 @@
+│  Automatic-Module-Name: org.apache.commons.compress
+│  Implementation-Version: 1.22
+│  Specification-Vendor: The Apache Software Foundation
+│  Bundle-ManifestVersion: 2
+│  Bundle-Vendor: The Apache Software Foundation
+│  Tool: Bnd-6.3.1.202206071316
+│  Implementation-Vendor: The Apache Software Foundation
+│ -Originally-Created-By: Apache Maven Bundle Plugin 5.1.8
+│  Bundle-Version: 1.22.0
+│  X-Compile-Target-JDK: 1.8
+│ -Implementation-Build: UNKNOWN@r${buildNumber}; 2022-10-25 19:44:41+000
+│ - 0
+│ +Implementation-Build: UNKNOWN_BRANCH@r??????; 2022-12-09 16:28:43+0000
+│  X-Compile-Source-JDK: 1.8
+│  Created-By: Apache Maven Bundle Plugin 5.1.8
+│  Specification-Version: 1.22
+
