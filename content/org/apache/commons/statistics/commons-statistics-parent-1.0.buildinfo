@@ -1,0 +1,55 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Statistics
+group-id=org.apache.commons
+artifact-id=commons-statistics-parent
+version=1.0
+
+# source information
+source.scm.uri=scm:git:http://gitbox.apache.org/repos/asf/commons-statistics.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=commons-statistics-distribution
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.commons:commons-statistics-parent
+
+outputs.0.0.filename=commons-statistics-parent-1.0.pom
+outputs.0.0.length=25644
+outputs.0.0.checksums.sha512=1512407cd0428336bc9226d03eb71d9882a1921a88884d7b93b31c48cc4b1a203da442012defc05bebe909202cd6815e6d7fd2e068413a8d928cfec0f8686661
+
+outputs.0.1.filename=commons-statistics-parent-1.0-site.xml
+outputs.0.1.length=3078
+outputs.0.1.checksums.sha512=90a7200da7d83de47bd85d6ec15c336747563fcddec4dd15ea8977fa1bfb76739e68ec6c8d0d964c422ddfe1951246d42a6721390e8c6c47e3e1b9da65158dfe
+
+outputs.1.coordinates=org.apache.commons:commons-statistics-distribution
+
+outputs.1.0.filename=commons-statistics-distribution-1.0.pom
+outputs.1.0.length=2973
+outputs.1.0.checksums.sha512=793c9beca025bc597ebe8440b1b29bc6d1d9fd1ef4ee04a015df40a487fa94cd01ff69c806526da440c1a9ab5721a4481fc341f2aacad800df1282275fede401
+
+outputs.1.1.filename=commons-statistics-distribution-1.0.jar
+outputs.1.1.length=89173
+outputs.1.1.checksums.sha512=b687b1463f6c28bd52d0a69b61f4891efb6499f5f3e24321bb111e4efd0311bec7cee6d508b5c8e92b03917432266b029ff959a38ab2831233156532f7579401
+
+outputs.1.2.filename=commons-statistics-distribution-1.0-tests.jar
+outputs.1.2.length=855807
+outputs.1.2.checksums.sha512=9392cfd8ea5111f7e6b51d7d0457160dbe2d568bcf6cb0a681e91ad1affe4004adeb66ff88f7366464f4fdd2f8e2c8c13b2930210486ff073792be043f9f1fb0
+
+outputs.1.3.filename=commons-statistics-distribution-1.0-sources.jar
+outputs.1.3.length=101087
+outputs.1.3.checksums.sha512=9c578847c8efb015e23d49d0ec5dd38ece83e5d5fc7ff22651d832a13028e86342d2850b45ecbd7eae1c850c5edea693b331c4067ed991a4201493a7bedd062e
+
+outputs.1.4.filename=commons-statistics-distribution-1.0-test-sources.jar
+outputs.1.4.length=807248
+outputs.1.4.checksums.sha512=69ea36aa922d51ad6e11952d5f6c20e3823fb40adb2f9ffa9145ccb4f63c23443ebb189eba9045dd9d8b26edc7501bb29c69df37fe86b2e369fd4a1a02fe3d62

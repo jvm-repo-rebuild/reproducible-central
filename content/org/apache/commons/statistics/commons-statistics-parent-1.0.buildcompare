@@ -1,0 +1,9 @@
+version=1.0
+ok=5
+ko=2
+okFiles="commons-statistics-parent-1.0.pom commons-statistics-parent-1.0-site.xml commons-statistics-distribution-1.0.pom commons-statistics-distribution-1.0-sources.jar commons-statistics-distribution-1.0-test-sources.jar"
+koFiles="commons-statistics-distribution-1.0.jar commons-statistics-distribution-1.0-tests.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/commons-statistics-distribution-1.0.jar commons-statistics-distribution/target/commons-statistics-distribution-1.0.jar
+# diffoscope target/reference/commons-statistics-distribution-1.0-tests.jar commons-statistics-distribution/target/commons-statistics-distribution-1.0-tests.jar

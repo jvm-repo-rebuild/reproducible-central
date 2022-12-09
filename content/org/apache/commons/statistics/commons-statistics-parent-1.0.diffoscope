@@ -1,0 +1,86 @@
+1 /        2 target/reference/commons-statistics-distribution-1.0.jar commons-statistics-distribution/target/commons-statistics-distribution-1.0.jar
+--- target/reference/commons-statistics-distribution-1.0.jar
++++ commons-statistics-distribution/target/commons-statistics-distribution-1.0.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 89204 bytes, number of entries: 61
+│ +Zip file size: 89173 bytes, number of entries: 61
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 META-INF/
+│ --rw-r--r--  2.0 unx     1517 b- defN 22-Sep-18 13:49 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx     1480 b- defN 22-Sep-18 13:49 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 org/apache/commons/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 org/apache/commons/statistics/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 org/apache/commons/statistics/distribution/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 META-INF/maven/org.apache.commons/
+│ @@ -56,8 +56,8 @@
+│  -rw-r--r--  2.0 unx     4342 b- defN 22-Sep-18 13:49 org/apache/commons/statistics/distribution/UniformContinuousDistribution.class
+│  -rw-r--r--  2.0 unx     4604 b- defN 22-Sep-18 13:49 org/apache/commons/statistics/distribution/UniformDiscreteDistribution.class
+│  -rw-r--r--  2.0 unx     4917 b- defN 22-Sep-18 13:49 org/apache/commons/statistics/distribution/WeibullDistribution.class
+│  -rw-r--r--  2.0 unx     4898 b- defN 22-Sep-18 13:49 org/apache/commons/statistics/distribution/ZipfDistribution.class
+│  -rw-r--r--  2.0 unx      148 b- defN 22-Sep-18 13:49 org/apache/commons/statistics/distribution/package-info.class
+│  -rw-r--r--  2.0 unx     2973 b- defN 22-Sep-18 13:49 META-INF/maven/org.apache.commons/commons-statistics-distribution/pom.xml
+│  -rw-r--r--  2.0 unx       82 b- defN 22-Sep-18 13:49 META-INF/maven/org.apache.commons/commons-statistics-distribution/pom.properties
+│ -61 files, 178825 bytes uncompressed, 76782 bytes compressed:  57.1%
+│ +61 files, 178788 bytes uncompressed, 76751 bytes compressed:  57.1%
+├── META-INF/MANIFEST.MF
+│ @@ -21,13 +21,12 @@
+│  Specification-Vendor: The Apache Software Foundation
+│  Bundle-ManifestVersion: 2
+│  Bundle-Vendor: The Apache Software Foundation
+│  Tool: Bnd-6.3.1.202206071316
+│  Implementation-Vendor: The Apache Software Foundation
+│  Bundle-Version: 1.0.0
+│  X-Compile-Target-JDK: 1.8
+│ -Implementation-Build: 37c9488d9e75ce23b30f2282cc8621ac19afa43c; 2022-1
+│ - 2-01 16:14:10+0000
+│ +Implementation-Build: ??????; 2022-12-09 16:39:52+0000
+│  X-Compile-Source-JDK: 1.8
+│  Created-By: Apache Maven Bundle Plugin 5.1.8
+│  Specification-Version: 1.0
+
+2 /        2 target/reference/commons-statistics-distribution-1.0-tests.jar commons-statistics-distribution/target/commons-statistics-distribution-1.0-tests.jar
+--- target/reference/commons-statistics-distribution-1.0-tests.jar
++++ commons-statistics-distribution/target/commons-statistics-distribution-1.0-tests.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 855838 bytes, number of entries: 260
+│ +Zip file size: 855807 bytes, number of entries: 260
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 META-INF/
+│ --rw-r--r--  2.0 unx     1517 b- defN 22-Sep-18 13:49 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx     1480 b- defN 22-Sep-18 13:49 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 org/apache/commons/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 org/apache/commons/statistics/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 org/apache/commons/statistics/distribution/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Sep-18 13:49 META-INF/maven/org.apache.commons/
+│ @@ -255,8 +255,8 @@
+│  -rw-r--r--  2.0 unx     2034 b- defN 22-Sep-18 13:49 org/apache/commons/statistics/distribution/test.zipf.1.properties
+│  -rw-r--r--  2.0 unx     2093 b- defN 22-Sep-18 13:49 org/apache/commons/statistics/distribution/test.zipf.2.properties
+│  -rw-r--r--  2.0 unx     2543 b- defN 22-Sep-18 13:49 org/apache/commons/statistics/distribution/test.zipf.3.properties
+│  -rw-r--r--  2.0 unx     1302 b- defN 22-Sep-18 13:49 org/apache/commons/statistics/distribution/test.zipf.4.properties
+│  -rw-r--r--  2.0 unx    24287 b- defN 22-Sep-18 13:49 org/apache/commons/statistics/distribution/xsqrt2pi.csv
+│  -rw-r--r--  2.0 unx     2973 b- defN 22-Sep-18 13:49 META-INF/maven/org.apache.commons/commons-statistics-distribution/pom.xml
+│  -rw-r--r--  2.0 unx       82 b- defN 22-Sep-18 13:49 META-INF/maven/org.apache.commons/commons-statistics-distribution/pom.properties
+│ -260 files, 1828664 bytes uncompressed, 800424 bytes compressed:  56.2%
+│ +260 files, 1828627 bytes uncompressed, 800393 bytes compressed:  56.2%
+├── META-INF/MANIFEST.MF
+│ @@ -21,13 +21,12 @@
+│  Specification-Vendor: The Apache Software Foundation
+│  Bundle-ManifestVersion: 2
+│  Bundle-Vendor: The Apache Software Foundation
+│  Tool: Bnd-6.3.1.202206071316
+│  Implementation-Vendor: The Apache Software Foundation
+│  Bundle-Version: 1.0.0
+│  X-Compile-Target-JDK: 1.8
+│ -Implementation-Build: 37c9488d9e75ce23b30f2282cc8621ac19afa43c; 2022-1
+│ - 2-01 16:14:10+0000
+│ +Implementation-Build: ??????; 2022-12-09 16:39:52+0000
+│  X-Compile-Source-JDK: 1.8
+│  Created-By: Apache Maven Bundle Plugin 5.1.8
+│  Specification-Version: 1.0
+
