@@ -1,0 +1,46 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons BCEL
+group-id=org.apache.bcel
+artifact-id=bcel
+version=6.7.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-bcel.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=bcel-6.7.0.pom
+outputs.0.length=22094
+outputs.0.checksums.sha512=15b4cdd54a65627156d73049cdc9c649ca86c7acc4a10f71168e93a2419ed380bef44cd8b0883c06fa9f65b146243d692bf748697bc514c1890e6f00852d643c
+
+outputs.1.filename=bcel-6.7.0.jar
+outputs.1.length=716107
+outputs.1.checksums.sha512=ec8104d10e5e1758aa92eef4ef150e553c03336497e64c32ebc7b8aa07df73e78796f1917b991678cde899c3133d7ed9017010147c894334d92ca285b4c657d3
+
+outputs.2.filename=bcel-6.7.0-tests.jar
+outputs.2.length=472707
+outputs.2.checksums.sha512=8ed70b4258087f7a0d3f4c83cb9b7d56184701fae059093846b1f2c2ab6632f1e8b79ca72decafb5e2ebbb5b3becfb2818b73295d1b5fdcce0713ab4284ea929
+
+outputs.3.filename=bcel-6.7.0-sources.jar
+outputs.3.length=694036
+outputs.3.checksums.sha512=cbb3d2feb83f2e78626822dc64235c02d619d5e13442b52e115748d5618af0f78868f4e29d16e577cb1c78653fab92ee9d8de1dd89777e03eb0f4941805cca0a
+
+outputs.4.filename=bcel-6.7.0-test-sources.jar
+outputs.4.length=234167
+outputs.4.checksums.sha512=ca894df73511b4b06c2a9c876fec7f43cdbb13554b23be5af0b6e429a68e4f8e84faf1236c313166a4dbb62dba8768a47006c4a3e0cb5a5885b003eace07434c
+
+outputs.5.filename=bcel-6.7.0-sources.jar
+outputs.5.length=694036
+outputs.5.checksums.sha512=cbb3d2feb83f2e78626822dc64235c02d619d5e13442b52e115748d5618af0f78868f4e29d16e577cb1c78653fab92ee9d8de1dd89777e03eb0f4941805cca0a

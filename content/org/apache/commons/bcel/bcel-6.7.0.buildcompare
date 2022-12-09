@@ -1,0 +1,9 @@
+version=6.7.0
+ok=3
+ko=2
+okFiles="bcel-6.7.0.pom bcel-6.7.0-sources.jar bcel-6.7.0-test-sources.jar"
+koFiles="bcel-6.7.0.jar bcel-6.7.0-tests.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/bcel-6.7.0.jar target/bcel-6.7.0.jar
+# diffoscope target/reference/bcel-6.7.0-tests.jar target/bcel-6.7.0-tests.jar
