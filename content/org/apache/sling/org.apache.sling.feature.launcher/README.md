@@ -13,6 +13,7 @@ rebuilding **4 releases** of org.apache.sling:org.apache.sling.feature.launcher:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.2.2](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.launcher/1.2.2/pom) | | | |
 | [1.2.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.launcher/1.2.0/pom) | [mvn jdk11](org.apache.sling.feature.launcher-1.2.0.buildspec) | [result](org.apache.sling.feature.launcher-1.2.0.buildinfo): [4 :heavy_check_mark:  2 :warning:](org.apache.sling.feature.launcher-1.2.0.buildcompare) [:mag:](org.apache.sling.feature.launcher-1.2.0.diffoscope) | 3.8M |
 | [1.1.28](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.launcher/1.1.28/pom) | [mvn jdk11](org.apache.sling.feature.launcher-1.1.28.buildspec) | [result](org.apache.sling.feature.launcher-1.1.28.buildinfo): [4 :heavy_check_mark:  2 :warning:](org.apache.sling.feature.launcher-1.1.28.buildcompare) [:mag:](org.apache.sling.feature.launcher-1.1.28.diffoscope) | 3.8M |
 | [1.1.26](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.launcher/1.1.26/pom) | [mvn jdk11](org.apache.sling.feature.launcher-1.1.26.buildspec) | [result](org.apache.sling.feature.launcher-1.1.26.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.feature.launcher-1.1.26.buildcompare) | 899K |
