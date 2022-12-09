@@ -1,0 +1,7 @@
+version=3.7.1
+ok=24
+ko=0
+okFiles="psi-probe-3.7.1.pom psi-probe-core-3.7.1.pom psi-probe-core-3.7.1.jar psi-probe-core-3.7.1-tests.jar psi-probe-core-3.7.1-sources.jar psi-probe-core-3.7.1-test-sources.jar psi-probe-rest-3.7.1.pom psi-probe-rest-3.7.1.jar psi-probe-rest-3.7.1-sources.jar psi-probe-tomcat85-3.7.1.pom psi-probe-tomcat85-3.7.1.jar psi-probe-tomcat85-3.7.1-tests.jar psi-probe-tomcat85-3.7.1-sources.jar psi-probe-tomcat85-3.7.1-test-sources.jar psi-probe-tomcat9-3.7.1.pom psi-probe-tomcat9-3.7.1.jar psi-probe-tomcat9-3.7.1-tests.jar psi-probe-tomcat9-3.7.1-sources.jar psi-probe-tomcat9-3.7.1-test-sources.jar psi-probe-web-3.7.1.pom psi-probe-web-3.7.1.war psi-probe-web-3.7.1-tests.jar psi-probe-web-3.7.1-sources.jar psi-probe-web-3.7.1-test-sources.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
