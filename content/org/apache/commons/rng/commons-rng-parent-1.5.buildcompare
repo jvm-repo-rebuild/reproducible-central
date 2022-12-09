@@ -1,0 +1,7 @@
+version=1.5
+ok=22
+ko=0
+okFiles="commons-rng-parent-1.5.pom commons-rng-parent-1.5-site.xml commons-rng-client-api-1.5.pom commons-rng-client-api-1.5.jar commons-rng-client-api-1.5-tests.jar commons-rng-client-api-1.5-sources.jar commons-rng-client-api-1.5-test-sources.jar commons-rng-core-1.5.pom commons-rng-core-1.5.jar commons-rng-core-1.5-tests.jar commons-rng-core-1.5-sources.jar commons-rng-core-1.5-test-sources.jar commons-rng-simple-1.5.pom commons-rng-simple-1.5.jar commons-rng-simple-1.5-tests.jar commons-rng-simple-1.5-sources.jar commons-rng-simple-1.5-test-sources.jar commons-rng-sampling-1.5.pom commons-rng-sampling-1.5.jar commons-rng-sampling-1.5-tests.jar commons-rng-sampling-1.5-sources.jar commons-rng-sampling-1.5-test-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
