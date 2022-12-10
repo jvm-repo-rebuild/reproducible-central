@@ -1,0 +1,1993 @@
+1 / 1 target/reference/watset-2.8.1.jar target/watset.jar
+--- target/reference/watset-2.8.1.jar
++++ target/watset.jar
+├── zipnote «TEMP»/diffoscope__bv7z9ds_target/tmp_6wij932_.zip
+│ @@ -1,25 +1,43 @@
+│ -Filename: META-INF/MANIFEST.MF
+│ +Filename: META-INF/
+│  Comment: 
+│  
+│ -Filename: META-INF/
+│ +Filename: META-INF/MANIFEST.MF
+│  Comment: 
+│  
+│  Filename: org/
+│  Comment: 
+│  
+│  Filename: org/nlpub/
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/cli/
+│  Comment: 
+│  
+│ +Filename: org/nlpub/watset/eval/
+│ +Comment: 
+│ +
+│ +Filename: org/nlpub/watset/graph/
+│ +Comment: 
+│ +
+│ +Filename: org/nlpub/watset/util/
+│ +Comment: 
+│ +
+│ +Filename: META-INF/maven/
+│ +Comment: 
+│ +
+│ +Filename: META-INF/maven/org.nlpub/
+│ +Comment: 
+│ +
+│ +Filename: META-INF/maven/org.nlpub/watset/
+│ +Comment: 
+│ +
+│  Filename: org/nlpub/watset/cli/Application$1.class
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/cli/Application$ParseStatus.class
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/cli/Application.class
+│ @@ -96,17 +114,14 @@
+│  
+│  Filename: org/nlpub/watset/cli/WatsetGetter.class
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/cli/package-info.class
+│  Comment: 
+│  
+│ -Filename: org/nlpub/watset/eval/
+│ -Comment: 
+│ -
+│  Filename: org/nlpub/watset/eval/CachedNormalizedModifiedPurity.class
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/eval/Measurer$Measurement.class
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/eval/Measurer.class
+│ @@ -123,17 +138,14 @@
+│  
+│  Filename: org/nlpub/watset/eval/Sampling.class
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/eval/package-info.class
+│  Comment: 
+│  
+│ -Filename: org/nlpub/watset/graph/
+│ -Comment: 
+│ -
+│  Filename: org/nlpub/watset/graph/ChineseWhispers$Builder.class
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/graph/ChineseWhispers$Implementation.class
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/graph/ChineseWhispers.class
+│ @@ -252,17 +264,14 @@
+│  
+│  Filename: org/nlpub/watset/graph/WatsetClustering.class
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/graph/package-info.class
+│  Comment: 
+│  
+│ -Filename: org/nlpub/watset/util/
+│ -Comment: 
+│ -
+│  Filename: org/nlpub/watset/util/ABCFormat.class
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/util/ClusteringAlgorithmProvider$1.class
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/util/ClusteringAlgorithmProvider$ProvidingAlgorithm.class
+│ @@ -312,1865 +321,14 @@
+│  
+│  Filename: org/nlpub/watset/util/Word2VecFormat.class
+│  Comment: 
+│  
+│  Filename: org/nlpub/watset/util/package-info.class
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/org.nlpub/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/org.nlpub/watset/
+│ -Comment: 
+│ -
+│  Filename: META-INF/maven/org.nlpub/watset/pom.xml
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.nlpub/watset/pom.properties
+│  Comment: 
+│  
+│ -Filename: org/jgrapht/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/Graph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/CollectionUtil.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/SupplierException.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/TypeUtil.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/SupplierUtil$ConstructorSupplier$SerializedForm.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/DoublyLinkedList$ListNodeIterator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/DoublyLinkedList$ListNodeImpl.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/ModifiableInteger.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/DoublyLinkedList$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/DoublyLinkedList$NodeIterator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/LiveIterableWrapper.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/ArrayUnenforcedSet$SetForEquality.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/DoublyLinkedList.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/SupplierUtil.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/DoublyLinkedList$ListNodeIteratorImpl.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/SupplierUtil$ConstructorSupplier.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/VertexToIntegerMapping.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/DoublyLinkedList$ListNode.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/util/ArrayUnenforcedSet.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/IntrusiveEdge.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/Multigraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/DefaultDirectedWeightedGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/specifics/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/specifics/DirectedSpecifics.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/specifics/FastLookupUndirectedSpecifics.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/specifics/FastLookupDirectedSpecifics.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/specifics/ArrayUnenforcedSetEdgeSetFactory.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/specifics/DirectedEdgeContainer.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/specifics/Specifics.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/specifics/UndirectedEdgeContainer.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/specifics/UndirectedSpecifics.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/AbstractBaseGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/FastLookupGraphSpecificsStrategy.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/IntrusiveWeightedEdge.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/EdgeReversedGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/GraphSpecificsStrategy.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/DefaultGraphType$Builder.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/InvalidGraphWalkException.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/WeightedIntrusiveEdgesSpecifics.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/builder/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/builder/GraphBuilder.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/builder/GraphTypeBuilder.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/builder/AbstractGraphBuilder.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/DefaultGraphIterables.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/DirectedMultigraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/UniformIntrusiveEdgesSpecifics.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/WeightedMultigraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/SimpleWeightedGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/IntrusiveEdgeException.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/DirectedPseudograph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/DefaultDirectedGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/DefaultUndirectedGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/GraphWalk.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/DirectedWeightedMultigraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/SimpleDirectedWeightedGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/DefaultUndirectedWeightedGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/SimpleGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/AsUnmodifiableGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/BaseIntrusiveEdgesSpecifics.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/AsUndirectedGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/Pseudograph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/DirectedWeightedPseudograph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/WeightedPseudograph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/DefaultGraphType.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/SimpleDirectedGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/GraphDelegator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/DefaultWeightedEdge.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/AbstractGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/IntrusiveEdgesSpecifics.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/DefaultEdge.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/EdgeSetFactory.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/AsSubgraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/graph/AsSubgraph$BaseGraphListener.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/GraphMetrics.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/GraphTests.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/ListenableGraph.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/generate/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/generate/ComplementGraphGenerator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/generate/GraphGenerator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/GraphIterables.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/event/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/event/VertexSetListener.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/event/TraversalListener.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/event/ConnectedComponentTraversalEvent.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/event/GraphVertexChangeEvent.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/event/GraphListener.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/event/GraphEdgeChangeEvent.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/event/VertexTraversalEvent.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/event/GraphChangeEvent.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/event/EdgeTraversalEvent.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/event/TraversalListenerAdapter.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/GraphPath.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/Graphs.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/util/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/util/VertexDegreeComparator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/util/NeighborCache$Neighbors.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/util/ToleranceDoubleComparator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/util/NeighborCache.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/util/UnionFind.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/util/VertexDegreeComparator$Order.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/util/UnorderedPair.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/util/Pair.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/cycle/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/cycle/WeakChordalityInspector.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/cycle/HierholzerEulerianCycle$EdgeNode.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/cycle/HierholzerEulerianCycle$VertexNode.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/cycle/HierholzerEulerianCycle.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/cycle/ChordalityInspector.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/cycle/BergeGraphInspector.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/cycle/ChordalityInspector$IterationOrder.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/shortestpath/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/shortestpath/FloydWarshallShortestPaths$FloydWarshallSingleSourcePaths.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/shortestpath/GraphMeasurer.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/shortestpath/DijkstraShortestPath.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/shortestpath/DijkstraClosestFirstIterator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/shortestpath/BaseShortestPathAlgorithm.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/shortestpath/TreeSingleSourcePathsImpl.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/shortestpath/FloydWarshallShortestPaths.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/shortestpath/ListSingleSourcePathsImpl.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/SpanningTreeAlgorithm.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/StrongConnectivityAlgorithm.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/PartitioningAlgorithm$Partitioning.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/SpanningTreeAlgorithm$SpanningTree.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/ClusteringAlgorithm$ClusteringImpl.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/PlanarityTestingAlgorithm.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/ShortestPathAlgorithm$SingleSourcePaths.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/PartitioningAlgorithm$PartitioningImpl.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/ClusteringAlgorithm$Clustering.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/ShortestPathAlgorithm.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/EdgeScoringAlgorithm.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/PartitioningAlgorithm.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/PlanarityTestingAlgorithm$Embedding.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/EulerianCycleAlgorithm.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/PlanarityTestingAlgorithm$EmbeddingImpl.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/SpanningTreeAlgorithm$SpanningTreeImpl.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/interfaces/ClusteringAlgorithm.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/spanning/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/spanning/PrimMinimumSpanningTree$VertexInfo.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/spanning/PrimMinimumSpanningTree.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/planar/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/planar/BoyerMyrvoldPlanarityInspector$Node.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/planar/BoyerMyrvoldPlanarityInspector$Edge.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/planar/BoyerMyrvoldPlanarityInspector$MergeInfo.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/planar/BoyerMyrvoldPlanarityInspector.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/planar/BoyerMyrvoldPlanarityInspector$OuterFaceCirculator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/planar/BoyerMyrvoldPlanarityInspector$SearchInfo.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/planar/BoyerMyrvoldPlanarityInspector$OrientDfsStackInfo.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/scoring/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/scoring/EdgeBetweennessCentrality$WeightedAlgorithm.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/scoring/EdgeBetweennessCentrality.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/scoring/EdgeBetweennessCentrality$OverflowStrategy.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/scoring/EdgeBetweennessCentrality$Algorithm.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/partition/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/partition/BipartitePartitioning.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/clustering/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/clustering/GirvanNewmanClustering.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/clustering/KSpanningTreeClustering.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/connectivity/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/connectivity/BiconnectivityInspector.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/connectivity/AbstractStrongConnectivityInspector.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/connectivity/ConnectivityInspector.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/connectivity/KosarajuStrongConnectivityInspector$VertexData2.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/connectivity/KosarajuStrongConnectivityInspector$VertexData1.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/connectivity/KosarajuStrongConnectivityInspector$VertexData.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/connectivity/ConnectivityInspector$MyTraversalListener.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/alg/connectivity/KosarajuStrongConnectivityInspector.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/GraphType.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/traverse/
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/traverse/BreadthFirstIterator$SearchNodeData.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/traverse/GraphIterator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/traverse/AbstractGraphIterator$FlyweightEdgeEvent.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/traverse/LexBreadthFirstIterator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/traverse/CrossComponentIterator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/traverse/BreadthFirstIterator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/traverse/AbstractGraphIterator.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/traverse/LexBreadthFirstIterator$BucketList.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/traverse/LexBreadthFirstIterator$BucketList$Bucket.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/traverse/AbstractGraphIterator$FlyweightVertexEvent.class
+│ -Comment: 
+│ -
+│ -Filename: org/jgrapht/traverse/MaximumCardinalityIterator.class
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/org.jgrapht/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/org.jgrapht/jgrapht-core/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/org.jgrapht/jgrapht-core/pom.xml
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/org.jgrapht/jgrapht-core/pom.properties
+│ -Comment: 
+│ -
+│ -Filename: org/jheaps/
+│ -Comment: 
+│ -
+│ -Filename: org/jheaps/AddressableHeap$Handle.class
+│ -Comment: 
+│ -
+│ -Filename: org/jheaps/tree/
+│ -Comment: 
+│ -
+│ -Filename: org/jheaps/tree/FibonacciHeap.class
+│ -Comment: 
+│ -
+│ -Filename: org/jheaps/tree/PairingHeap$Node.class
+│ -Comment: 
+│ -
+│ -Filename: org/jheaps/tree/PairingHeap.class
+│ -Comment: 
+│ -
+│ -Filename: org/jheaps/MergeableAddressableHeap.class
+│ -Comment: 
+│ -
+│ -Filename: org/jheaps/annotations/
+│ -Comment: 
+│ -
+│ -Filename: org/jheaps/annotations/ConstantTime.class
+│ -Comment: 
+│ -
+│ -Filename: org/jheaps/annotations/LogarithmicTime.class
+│ -Comment: 
+│ -
+│ -Filename: org/jheaps/AddressableHeap.class
+│ -Comment: 
+│ -
+│ -Filename: org/jheaps/tree/FibonacciHeap$Node.class
+│ -Comment: 
+│ -
+│ -Filename: META-INF/LICENSE.txt
+│ -Comment: 
+│ -
+│ -Filename: META-INF/NOTICE.txt
+│ -Comment: 
+│ -
+│ -Filename: org/apache/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/clustering/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/clustering/KMeansPlusPlusClusterer$EmptyClusterStrategy.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/clustering/Clusterer.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/clustering/KMeansPlusPlusClusterer$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/clustering/evaluation/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/clustering/evaluation/SumOfClusterVariances.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/clustering/evaluation/ClusterEvaluator.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/clustering/DoublePoint.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/clustering/KMeansPlusPlusClusterer.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/clustering/Clusterable.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/clustering/CentroidCluster.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/clustering/MultiKMeansPlusPlusClusterer.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/clustering/Cluster.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/distance/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/distance/EuclideanDistance.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/ml/distance/DistanceMeasure.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$6.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$3$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$6$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/DifferentiableUnivariateFunction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$8.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$18.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/MultivariateVectorFunction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$17.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$9.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$14.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$16$2.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$7.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$18$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/differentiation/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/differentiation/UnivariateDifferentiableFunction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/differentiation/DerivativeStructure$DataTransferObject.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/differentiation/DerivativeStructure.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/differentiation/DSCompiler.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/differentiation/MultivariateDifferentiableFunction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/differentiation/MultivariateDifferentiableVectorFunction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/differentiation/DerivativeStructure$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$16.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/DifferentiableMultivariateVectorFunction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$15.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$3.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/DifferentiableMultivariateFunction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$19.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$2.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/function/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/function/Constant.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/function/Divide.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/function/Identity.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/function/Add.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/function/Multiply.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/MultivariateFunction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$12.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/BivariateFunction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$10.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/UnivariateFunction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$13.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$5.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/solvers/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/solvers/BaseUnivariateSolver.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/solvers/AbstractUnivariateSolver.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/solvers/AllowedSolution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/solvers/BaseAbstractUnivariateSolver.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/solvers/UnivariateSolver.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/solvers/BrentSolver.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/solvers/UnivariateSolverUtils.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/solvers/BracketedUnivariateSolver.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$14$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$11.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$16$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$4.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/FunctionUtils$9$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/analysis/MultivariateMatrixFunction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/descriptive/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/descriptive/AbstractStorelessUnivariateStatistic.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/descriptive/WeightedEvaluation.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/descriptive/StorelessUnivariateStatistic.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/descriptive/summary/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/descriptive/summary/Sum.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/descriptive/AbstractUnivariateStatistic.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/descriptive/moment/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/descriptive/moment/Variance.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/descriptive/moment/SecondMoment.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/descriptive/moment/FirstMoment.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/descriptive/moment/Mean.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/stat/descriptive/UnivariateStatistic.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/SchurTransformer.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealVector$SparseEntryIterator.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/AbstractRealMatrix$5.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/TriDiagonalTransformer.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/QRDecomposition$Solver.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/MatrixUtils$BigFractionMatrixConverter.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/AbstractRealMatrix.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/ArrayFieldVector.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/SingularValueDecomposition$Solver.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/EigenDecomposition$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/DefaultRealMatrixPreservingVisitor.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/AbstractRealMatrix$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/BlockFieldMatrix.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/AbstractRealMatrix$4.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/SingularValueDecomposition.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/DefaultRealMatrixChangingVisitor.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/AbstractRealMatrix$2.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/FieldMatrix.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealMatrixChangingVisitor.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/QRDecomposition.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/DiagonalMatrix.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/SparseRealVector.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/NonSquareMatrixException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealVector$2.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/MatrixDimensionMismatchException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/NonSymmetricMatrixException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealMatrixFormat.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealVectorChangingVisitor.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/AbstractFieldMatrix$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/DecompositionSolver.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/OpenMapRealMatrix.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealMatrix.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/FieldVectorChangingVisitor.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/FieldVectorPreservingVisitor.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealVector$2$2.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/ArrayRealVector.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/AnyMatrix.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/FieldMatrixPreservingVisitor.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/HessenbergTransformer.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/DefaultFieldMatrixChangingVisitor.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealVectorFormat.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/EigenDecomposition.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealLinearOperator.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealVector$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealVectorPreservingVisitor.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/MatrixUtils.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealVector.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/AbstractRealMatrix$3.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/QRDecomposition$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/SchurTransformer$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/Array2DRowRealMatrix.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/SingularValueDecomposition$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealVector$2$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/AbstractFieldMatrix$3.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/DefaultFieldMatrixPreservingVisitor.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/MatrixUtils$FractionMatrixConverter.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/FieldVector.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealMatrixPreservingVisitor.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/BlockRealMatrix.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/AbstractFieldMatrix.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/SchurTransformer$ShiftInfo.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/Array2DRowFieldMatrix.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/SingularMatrixException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/SparseRealMatrix.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealVector$Entry.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/EigenDecomposition$Solver.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/FieldMatrixChangingVisitor.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/RealVector$2$UnmodifiableEntry.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/linear/AbstractFieldMatrix$2.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/Field.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/FieldElement.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/PoissonDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/ExponentialDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/WeibullDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/AbstractRealDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/SaddlePointExpansion.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/BetaDistribution$ChengBetaSampler.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/BetaDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/BinomialDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/AbstractIntegerDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/UniformIntegerDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/ZipfDistribution$ZipfRejectionInversionSampler.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/ZipfDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/PascalDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/CauchyDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/FDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/IntegerDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/GammaDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/TDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/NormalDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/HypergeometricDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/RealDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/ChiSquaredDistribution.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/distribution/AbstractRealDistribution$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/complex/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/complex/ComplexField$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/complex/ComplexField$LazyHolder.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/complex/Complex.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/complex/ComplexField.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/random/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/random/RandomGeneratorFactory.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/random/RandomData.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/random/BitsStreamGenerator.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/random/Well19937c.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/random/JDKRandomGenerator.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/random/RandomGeneratorFactory$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/random/AbstractWell.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/random/RandomGenerator.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/random/RandomDataImpl.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/random/RandomDataGenerator.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/RealFieldElement.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/MathArithmeticException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/NumberIsTooSmallException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/MathIllegalNumberException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/MathParseException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/OutOfRangeException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/MathInternalError.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/MultiDimensionMismatchException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/DimensionMismatchException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/ZeroException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/NumberIsTooLargeException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/NoBracketingException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/NoDataException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/NotPositiveException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/ConvergenceException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/NotANumberException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/NonMonotonicSequenceException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/NotFiniteNumberException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/NullArgumentException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/MathIllegalStateException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/TooManyEvaluationsException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/MathUnsupportedOperationException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/MaxCountExceededException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/NotStrictlyPositiveException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/util/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/util/Localizable.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/util/ArgUtils.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/util/ExceptionContext.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/util/ExceptionContextProvider.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/util/LocalizedFormats.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/exception/MathIllegalArgumentException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/fraction/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/fraction/FractionConversionException.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/fraction/FractionField$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/fraction/BigFractionField.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/fraction/BigFractionField$LazyHolder.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/fraction/FractionField$LazyHolder.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/fraction/Fraction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/fraction/BigFractionField$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/fraction/FractionField.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/fraction/BigFraction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/special/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/special/Beta$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/special/Beta.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/special/Gamma$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/special/Erf.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/special/Gamma.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/Combinations$IterationOrder.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/MathArrays$2.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/MathArrays$Function.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/OpenIntToDoubleHashMap$Iterator.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/FastMathCalc.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/FastMath$ExpIntTable.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/Combinations$LexicographicComparator.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/FastMath$Split.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/Combinations.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/ResizableDoubleArray$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/OpenIntToDoubleHashMap.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/MathArrays$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/ResizableDoubleArray.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/IntegerSequence.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/MathArrays$OrderDirection.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/CompositeFormat.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/FastMath$lnMant.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/IntegerSequence$Range.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/FastMathLiteralArrays.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/IntegerSequence$Incrementor$MaxCountExceededCallback.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/MathUtils.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/ResizableDoubleArray$ExpansionMode.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/ArithmeticUtils.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/Combinations$SingletonIterator.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/MathArrays$Position.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/IntegerSequence$Incrementor$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/MathArrays$PairDoubleInteger.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/CombinatoricsUtils.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/DoubleArray.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/ContinuedFraction.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/MathArrays$3.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/FastMath$ExpFracTable.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/FastMath$CodyWaite.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/Combinations$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/MathArrays.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/Combinations$LexicographicIterator.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/OpenIntToDoubleHashMap$1.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/IntegerSequence$Incrementor.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/FastMath.class
+│ -Comment: 
+│ -
+│ -Filename: org/apache/commons/math3/util/Precision.class
+│ -Comment: 
+│ -
+│ -Filename: assets/
+│ -Comment: 
+│ -
+│ -Filename: assets/org/
+│ -Comment: 
+│ -
+│ -Filename: assets/org/apache/
+│ -Comment: 
+│ -
+│ -Filename: assets/org/apache/commons/
+│ -Comment: 
+│ -
+│ -Filename: assets/org/apache/commons/math3/
+│ -Comment: 
+│ -
+│ -Filename: assets/org/apache/commons/math3/random/
+│ -Comment: 
+│ -
+│ -Filename: assets/org/apache/commons/math3/random/new-joe-kuo-6.1000
+│ -Comment: 
+│ -
+│ -Filename: assets/org/apache/commons/math3/exception/
+│ -Comment: 
+│ -
+│ -Filename: assets/org/apache/commons/math3/exception/util/
+│ -Comment: 
+│ -
+│ -Filename: assets/org/apache/commons/math3/exception/util/LocalizedFormats_fr.properties
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/org.apache.commons/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/org.apache.commons/commons-math3/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/org.apache.commons/commons-math3/pom.xml
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/org.apache.commons/commons-math3/pom.properties
+│ -Comment: 
+│ -
+│ -Filename: com/
+│ -Comment: 
+│ -
+│ -Filename: com/beust/
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/BaseConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/BigDecimalConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/BooleanConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/CommaParameterSplitter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/DefaultListConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/DoubleConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/EnumConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/FileConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/FloatConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/IntegerConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/IParameterSplitter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/ISO8601DateConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/LongConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/NoConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/PathConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/StringConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/URIConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/converters/URLConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/DefaultUsageFormatter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/DynamicParameter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/FuzzyMap$IKey.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/FuzzyMap.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/IDefaultProvider.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/internal/
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/internal/Console.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/internal/DefaultConsole.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/internal/DefaultConverterFactory.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/internal/JDK6Console.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/internal/Lists.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/internal/Maps.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/internal/Nullable.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/internal/Sets.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/IParameterizedParser.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/IParameterValidator.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/IParameterValidator2.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/IStringConverter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/IStringConverterFactory.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/IStringConverterInstanceFactory.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/IUsageFormatter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/IValueValidator.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/IVariableArity.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/JCommander$1.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/JCommander$2.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/JCommander$Builder.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/JCommander$DefaultVariableArity.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/JCommander$MainParameter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/JCommander$Options$1.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/JCommander$Options.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/JCommander$ProgramName.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/JCommander.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/MissingCommandException.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/Parameter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/ParameterDescription$SubParameterIndex.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/ParameterDescription.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/ParameterException.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/Parameterized.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/Parameters.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/ParametersDelegate.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/parser/
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/parser/DefaultParameterizedParser.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/ResourceBundle.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/StringKey.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/Strings.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/SubParameter.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/validators/
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/validators/NoValidator.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/validators/NoValueValidator.class
+│ -Comment: 
+│ -
+│ -Filename: com/beust/jcommander/WrappedParameter.class
+│ -Comment: 
+│ -
+│ -Filename: net/
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/PythonException.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/InvalidOpcodeException.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/IObjectConstructor.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/Unpickler.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/AnyClassConstructor.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/OperatorAttrGetterForCalendarTz$CalendarLocalizer.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/ComplexNumber.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/ExceptionConstructor.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/OperatorAttrGetterForCalendarTz.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/Reconstructor.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/ClassDictConstructor.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/ArrayConstructor.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/ClassDict.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/TimeZoneConstructor.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/TimeDelta.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/DateTimeConstructor.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/OperatorAttrGetterForCalendarTz$AttrGetterForTz.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/SetConstructor.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/ByteArrayConstructor.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/Tzinfo.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/objects/Time.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/PickleException.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/PickleUtils.class
+│ -Comment: 
+│ -
+│ -Filename: net/razorvine/pickle/UnpickleStack.class
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/net.razorvine/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/net.razorvine/pickle/
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/net.razorvine/pickle/pom.xml
+│ -Comment: 
+│ -
+│ -Filename: META-INF/maven/net.razorvine/pickle/pom.properties
+│ -Comment: 
+│ -
+│  Zip file comment:
+├── filetype from file(1)
+│ @@ -1 +1 @@
+│ -Java archive data (JAR)
+│ +Zip archive data, at least v1.0 to extract, compression method=store
+├── META-INF/MANIFEST.MF
+│ @@ -1,9 +1,8 @@
+│  Manifest-Version: 1.0
+
+│  Created-By: Maven JAR Plugin 3.3.0
+
+│  Build-Jdk-Spec: 11
+
+│  Specification-Title: Watset
+
+│  Specification-Version: 2.8
+
+│  Implementation-Title: Watset
+
+│  Implementation-Version: 2.8.1
+
+│ -Main-Class: org.nlpub.watset.cli.Application
+
+
