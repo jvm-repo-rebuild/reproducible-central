@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=MyBatis Velocity
+group-id=org.mybatis.scripting
+artifact-id=mybatis-velocity
+version=2.1.2
+
+# source information
+source.scm.uri=scm:git:ssh://github.com/mybatis/velocity-scripting.git
+source.scm.tag=mybatis-velocity-2.1.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=mybatis-velocity-2.1.2.pom
+outputs.0.length=4404
+outputs.0.checksums.sha512=e9ff1db86f3d3a335c25ee5350f3b824455e3cc36cf93f543b04ce77307037e9c18adac44295b26f965f06482a3e920cf8cf577e380baedcddd7c14885047dc3
+
+outputs.1.filename=mybatis-velocity-2.1.2.jar
+outputs.1.length=43498
+outputs.1.checksums.sha512=d8afd6efd295f09a97d299e0f61f9d9f5c2b0cb572aa6d8bf7d55cb5145bcc4ad791e4654c0e0a754726f7cccf427ce67785ecb78c8640071a46c44119ad3651
+
+outputs.2.filename=mybatis-velocity-2.1.2-sources.jar
+outputs.2.length=28909
+outputs.2.checksums.sha512=b45a7d29a28d6957814bc57b1b037ed01cb37b88abacae8346bfbc20cc3af6a6fe3c355a711d4c34bb3deb6757f334a7d07cd13fc34717f831060720c7b37b3f
