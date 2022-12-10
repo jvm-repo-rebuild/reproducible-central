@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Watset
+group-id=org.nlpub
+artifact-id=watset
+version=2.8.2
+
+# source information
+source.scm.uri=scm:git:https://github.com/nlpub/watset-java
+source.scm.tag=2.8.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=watset-2.8.2.pom
+outputs.0.length=11532
+outputs.0.checksums.sha512=8172c9a23923e17be40a99a60540ef4e06df832b7a12a114dba4f178afdeba6c0ac6662c8b328ff4f23c5b3548ae11417079de210437df236c936d9c8bb9b3bc
+
+outputs.1.filename=watset-2.8.2.jar
+outputs.1.length=127006
+outputs.1.checksums.sha512=c7ec88ad222990426367a91e031a5f2914dd42e0bdebaad25b4f902ced7943948c40aee3bd14780088f7f4e415d9a251eeb30a5b0f78dd7b46587fd74f0ea6af
+
+outputs.2.filename=watset-2.8.2-sources.jar
+outputs.2.length=80544
+outputs.2.checksums.sha512=91f5569bc71537457c60b16dd74bb723a9cd4166e35317ff81214d334ec47a61a3c8e01dc95204473cb6e2141f915c41513f9fd13f5a023952326d82efe365d7
