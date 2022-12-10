@@ -7,12 +7,14 @@
 
 Source code: [https://github.com/nlpub/watset-java](https://github.com/nlpub/watset-java)
 
-rebuilding **12 releases** of org.nlpub:watset:
+rebuilding **14 releases** of org.nlpub:watset:
 - **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.8.2](https://search.maven.org/artifact/org.nlpub/watset/2.8.2/pom) | [mvn jdk11](watset-2.8.2.buildspec) | [result](watset-2.8.2.buildinfo): [2 :heavy_check_mark:  1 :warning:](watset-2.8.2.buildcompare) [:mag:](watset-2.8.2.diffoscope) | 214K |
+| [2.8.1](https://search.maven.org/artifact/org.nlpub/watset/2.8.1/pom) | [mvn jdk11](watset-2.8.1.buildspec) | [result](watset-2.8.1.buildinfo): [2 :heavy_check_mark:  1 :warning:](watset-2.8.1.buildcompare) [:mag:](watset-2.8.1.diffoscope) | 214K |
 | [2.8.0](https://search.maven.org/artifact/org.nlpub/watset/2.8.0/pom) | [mvn jdk11](watset-2.8.0.buildspec) | [result](watset-2.8.0.buildinfo): [2 :heavy_check_mark:  1 :warning:](watset-2.8.0.buildcompare) [:mag:](watset-2.8.0.diffoscope) | 214K |
 | [2.7.2](https://search.maven.org/artifact/org.nlpub/watset/2.7.2/pom) | [mvn jdk11](watset-2.7.2.buildspec) | [result](watset-2.7.2.buildinfo): [3 :heavy_check_mark: ](watset-2.7.2.buildcompare) | 214K |
 | [2.7.0](https://search.maven.org/artifact/org.nlpub/watset/2.7.0/pom) | [mvn jdk11](watset-2.7.0.buildspec) | [result](watset-2.7.0.buildinfo): [3 :heavy_check_mark: ](watset-2.7.0.buildcompare) | 214K |

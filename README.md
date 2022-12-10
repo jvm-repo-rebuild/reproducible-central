@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **1375 releases** of **362 projects**:
-   - **993** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 382 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **1384 releases** of **363 projects**:
+   - **999** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 385 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
 
@@ -49,7 +49,7 @@ Its objectives are to provide:
 | com.io7m.jade | <a name='com.io7m.jade:com.io7m.jade'></a>[com.io7m.jade](content/com/io7m/jade/README.md) | 2 | 2 :warning: |
 | com.ongres.stringprep | <a name='com.ongres.stringprep:parent'></a>[parent](content/com/ongres/stringprep/README.md) | 1 | 1 :warning: |
 | com.scalapenos | <a name='com.scalapenos:stamina_2.11'></a>[stamina_2.11](content/com/scalapenos/stamina/README.md) | 2 | 2 :heavy_check_mark: |
-| com.spotify | <a name='com.spotify:github-client'></a>[github-client](content/com/spotify/github-client/README.md) | 1 | 1 :heavy_check_mark: |
+| com.spotify | <a name='com.spotify:github-client'></a>[github-client](content/com/spotify/github-client/README.md) | 2 | 2 :heavy_check_mark: |
 | com.taobao.arthas | <a name='com.taobao.arthas:arthas-all'></a>[arthas-all](content/com/taobao/arthas/README.md) | 14 | 14 :warning: |
 | de.gematik.pki.gemlibpki | <a name='de.gematik.pki.gemlibpki:gemLibPki'></a>[gemLibPki](content/de/gematik/pki/gemlibpki/README.md) | 2 | 2 :warning: |
 | de.unentscheidbar | <a name='de.unentscheidbar:migratedb'></a>[migratedb](content/de/unentscheidbar/migratedb/README.md) | 2 | 2 :heavy_check_mark: |
@@ -245,7 +245,7 @@ Its objectives are to provide:
 | | <a name='org.apache.sling:org.apache.sling.feature'></a>[*.feature](content/org/apache/sling/org.apache.sling.feature/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.apache.sling:org.apache.sling.feature.analyser'></a>[*.feature.analyser](content/org/apache/sling/org.apache.sling.feature.analyser/README.md) | 5 | 2 :heavy_check_mark: / 3 :warning: |
 | | <a name='org.apache.sling:org.apache.sling.feature.cpconverter'></a>[*.feature.cpconverter](content/org/apache/sling/org.apache.sling.feature.cpconverter/README.md) | 6 | 6 :warning: |
-| | <a name='org.apache.sling:org.apache.sling.feature.extension.apiregions'></a>[*.feature.extension.apiregions](content/org/apache/sling/org.apache.sling.feature.extension.apiregions/README.md) | 6 | 6 :heavy_check_mark: |
+| | <a name='org.apache.sling:org.apache.sling.feature.extension.apiregions'></a>[*.feature.extension.apiregions](content/org/apache/sling/org.apache.sling.feature.extension.apiregions/README.md) | 8 | 8 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.feature.extension.unpack'></a>[*.feature.extension.unpack](content/org/apache/sling/org.apache.sling.feature.extension.unpack/README.md) | 1 | 1 :warning: |
 | | <a name='org.apache.sling:org.apache.sling.feature.launcher'></a>[*.feature.launcher](content/org/apache/sling/org.apache.sling.feature.launcher/README.md) | 4 | 2 :heavy_check_mark: / 2 :warning: |
 | | <a name='org.apache.sling:org.apache.sling.fsresource'></a>[*.fsresource](content/org/apache/sling/org.apache.sling.fsresource/README.md) | 1 | 1 :heavy_check_mark: |
@@ -347,14 +347,14 @@ Its objectives are to provide:
 | org.jline | <a name='org.jline:jline-parent'></a>[jline-parent](content/org/jline/jline/README.md) | 2 | 2 :heavy_check_mark: |
 | org.jrivard.xmlchai | <a name='org.jrivard.xmlchai:xmlchai'></a>[xmlchai](content/org/jrivard/xmlchai/README.md) | 1 | 1 :warning: |
 | org.junit | <a name='org.junit:junit-bom'></a>[junit-bom](content/org/junit/junit5/README.md) | 1 | 1 :warning: |
-| org.liquibase.ext | <a name='org.liquibase.ext:liquibase-percona'></a>[liquibase-percona](content/org/liquibase/ext/liquibase-percona/README.md) | 26 | 25 :heavy_check_mark: / 1 :warning: |
+| org.liquibase.ext | <a name='org.liquibase.ext:liquibase-percona'></a>[liquibase-percona](content/org/liquibase/ext/liquibase-percona/README.md) | 27 | 26 :heavy_check_mark: / 1 :warning: |
 | org.mockito | <a name='org.mockito:mockito-core'></a>[mockito-core](content/org/mockito/mockito-core/README.md) | 8 | 6 :heavy_check_mark: / 2 :warning: |
 | org.mybatis | <a name='org.mybatis:base-bundle-descriptor'></a>[base-bundle-descriptor](content/org/mybatis/base-bundle-descriptor/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.mybatis:mybatis-cdi'></a>[mybatis-cdi](content/org/mybatis/cdi/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.mybatis:mybatis-guice'></a>[mybatis-guice](content/org/mybatis/guice/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.mybatis:mybatis'></a>[mybatis](content/org/mybatis/mybatis/README.md) | 2 | 2 :warning: |
 | org.mybatis.dynamic-sql | <a name='org.mybatis.dynamic-sql:mybatis-dynamic-sql'></a>[mybatis-dynamic-sql](content/org/mybatis/mybatis-dynamic-sql/README.md) | 2 | 2 :warning: |
-| org.mybatis | <a name='org.mybatis:mybatis-spring'></a>[mybatis-spring](content/org/mybatis/mybatis-spring/README.md) | 2 | 2 :warning: |
+| org.mybatis | <a name='org.mybatis:mybatis-spring'></a>[mybatis-spring](content/org/mybatis/mybatis-spring/README.md) | 3 | 1 :heavy_check_mark: / 2 :warning: |
 | | <a name='org.mybatis:mybatis2'></a>[mybatis2](content/org/mybatis/mybatis2/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.mybatis:mybatis-parent'></a>[mybatis-parent](content/org/mybatis/parent/README.md) | 3 | 3 :heavy_check_mark: |
 | org.mybatis.caches | <a name='org.mybatis.caches:mybatis-caffeine'></a>[mybatis-caffeine](content/org/mybatis/caches/mybatis-caffeine/README.md) | 2 | 2 :heavy_check_mark: |
@@ -362,12 +362,13 @@ Its objectives are to provide:
 | | <a name='org.mybatis.caches:mybatis-hazelcast'></a>[mybatis-hazelcast](content/org/mybatis/caches/mybatis-hazelcast/README.md) | 3 | 3 :heavy_check_mark: |
 | org.mybatis.scripting | <a name='org.mybatis.scripting:mybatis-freemarker'></a>[mybatis-freemarker](content/org/mybatis/scripting/mybatis-freemarker/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.mybatis.scripting:mybatis-thymeleaf'></a>[mybatis-thymeleaf](content/org/mybatis/scripting/mybatis-thymeleaf/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='org.mybatis.scripting:mybatis-velocity'></a>[mybatis-velocity](content/org/mybatis/scripting/mybatis-velocity/README.md) | 1 | 1 :heavy_check_mark: |
 | org.mybatis.spring.boot | <a name='org.mybatis.spring.boot:mybatis-spring-boot'></a>[mybatis-spring-boot](content/org/mybatis/spring/boot/README.md) | 1 | 1 :warning: |
-| org.nlpub | <a name='org.nlpub:watset'></a>[watset](content/org/nlpub/watset/README.md) | 12 | 11 :heavy_check_mark: / 1 :warning: |
+| org.nlpub | <a name='org.nlpub:watset'></a>[watset](content/org/nlpub/watset/README.md) | 14 | 11 :heavy_check_mark: / 3 :warning: |
 | org.openapitools.openapidiff | <a name='org.openapitools.openapidiff:openapi-diff-parent'></a>[openapi-diff-parent](content/org/openapitools/openapidiff/README.md) | 5 | 5 :heavy_check_mark: |
 | org.osgi | <a name='org.osgi:org.osgi.test.parent'></a>[*.test.parent](content/org/osgi/test/README.md) | 5 | 4 :heavy_check_mark: / 1 :warning: |
 | org.owasp.antisamy | <a name='org.owasp.antisamy:antisamy'></a>[antisamy](content/org/owasp/antisamy/README.md) | 13 | 13 :heavy_check_mark: |
-| org.owasp | <a name='org.owasp:dependency-check-parent'></a>[dependency-check-parent](content/org/owasp/dependency-check/README.md) | 5 | 1 :heavy_check_mark: / 4 :warning: |
+| org.owasp | <a name='org.owasp:dependency-check-parent'></a>[dependency-check-parent](content/org/owasp/dependency-check/README.md) | 6 | 1 :heavy_check_mark: / 5 :warning: |
 | org.simplify4u | <a name='org.simplify4u:pgp-keys-map'></a>[pgp-keys-map](content/org/simplify4u/pgp-keys-map/README.md) | 16 | 16 :heavy_check_mark: |
 | | <a name='org.simplify4u:slf4j-mock'></a>[slf4j-mock](content/org/simplify4u/slf4j-mock/README.md) | 4 | 4 :heavy_check_mark: |
 | org.simplify4u.plugins | <a name='org.simplify4u.plugins:pgpverify-maven-plugin'></a>[pgpverify-maven-plugin](content/org/simplify4u/plugins/pgpverify-maven-plugin/README.md) | 7 | 7 :heavy_check_mark: |
@@ -385,7 +386,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 5 | 5 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 6 | 6 :warning: |
-| **Count:** | **362** | **1375** | **993** :heavy_check_mark: **382** :warning: |
+| **Count:** | **363** | **1384** | **999** :heavy_check_mark: **385** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -397,13 +398,13 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      12 gradle     11
      26 mvn         7
-    684 mvn         8
+    685 mvn         8
       1 mvn         9
-    511 mvn        11
+    517 mvn        11
       4 mvn        14
      10 mvn        15
      10 mvn        16
-     50 mvn        17
+     52 mvn        17
       8 mvn        18
       4 mvn        19
       2 mvn-3.5.4   8

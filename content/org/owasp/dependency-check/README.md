@@ -18,13 +18,13 @@ Source code: [https://github.com/jeremylong/DependencyCheck](https://github.com/
 * [org.owasp:dependency-check-utils](https://search.maven.org/artifact/org.owasp/dependency-check-utils/)
 </details>
 
-rebuilding **5 releases** of org.owasp:dependency-check-parent:
+rebuilding **6 releases** of org.owasp:dependency-check-parent:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [7.4.1](https://search.maven.org/artifact/org.owasp/dependency-check-parent/7.4.1/pom) | | | |
+| [7.4.1](https://search.maven.org/artifact/org.owasp/dependency-check-parent/7.4.1/pom) | [mvn jdk8](dependency-check-7.4.1.buildspec) | [result](dependency-check-parent-7.4.1.buildinfo): [21 :heavy_check_mark:  1 :warning:](dependency-check-parent-7.4.1.buildcompare) [:mag:](dependency-check-parent-7.4.1.diffoscope) | 59M |
 | [7.4.0](https://search.maven.org/artifact/org.owasp/dependency-check-parent/7.4.0/pom) | [mvn jdk8](dependency-check-7.4.0.buildspec) | [result](dependency-check-parent-7.4.0.buildinfo): [22 :heavy_check_mark: ](dependency-check-parent-7.4.0.buildcompare) | 59M |
 | [7.3.2](https://search.maven.org/artifact/org.owasp/dependency-check-parent/7.3.2/pom) | [mvn jdk8](dependency-check-7.3.2.buildspec) | [result](dependency-check-parent-7.3.2.buildinfo): [14 :heavy_check_mark:  8 :warning:](dependency-check-parent-7.3.2.buildcompare) [:mag:](dependency-check-parent-7.3.2.diffoscope) [:memo:](https://github.com/jeremylong/DependencyCheck/issues/5026) | 59M |
 | [7.3.1](https://search.maven.org/artifact/org.owasp/dependency-check-parent/7.3.1/pom) | | | |
