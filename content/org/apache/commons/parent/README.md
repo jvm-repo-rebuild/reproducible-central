@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.apache.commons:commons-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [55](https://search.maven.org/artifact/org.apache.commons/commons-parent/55/pom) | | | |
 | [54](https://search.maven.org/artifact/org.apache.commons/commons-parent/54/pom) | | | |
 | [53](https://search.maven.org/artifact/org.apache.commons/commons-parent/53/pom) | [mvn jdk8](commons-parent-53.buildspec) | [result](commons-parent-53.buildinfo): [2 :heavy_check_mark: ](commons-parent-53.buildcompare) | 87K |
 
