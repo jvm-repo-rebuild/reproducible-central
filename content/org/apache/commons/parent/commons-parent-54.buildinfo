@@ -1,0 +1,30 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Parent
+group-id=org.apache.commons
+artifact-id=commons-parent
+version=54
+
+# source information
+source.scm.uri=scm:git:http://gitbox.apache.org/repos/asf/commons-parent.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=commons-parent-54.pom
+outputs.0.length=81895
+outputs.0.checksums.sha512=abfdff8e12322f72110d99151edde96ecc5d2bd0628f7182ca4111431475f8e2d004e6da5383d003d619d1bc84e4bfcaf1627c4e1753eec76a500aa4935ce6af
+
+outputs.1.filename=commons-parent-54-site.xml
+outputs.1.length=6373
+outputs.1.checksums.sha512=735ffceca46a0574d430b4e1213a2462b9475143c0788913312b8af117eaf3b7c02a075aaf6d9b30d2560822339651cb511b838f6c9f2bced46de1fc1227c5ff
