@@ -1,0 +1,5 @@
+version=55
+ok=2
+ko=0
+okFiles="commons-parent-55.pom commons-parent-55-site.xml"
+koFiles=""
