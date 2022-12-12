@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=mybatis-ignite
+group-id=org.mybatis.caches
+artifact-id=mybatis-ignite
+version=1.1.1
+
+# source information
+source.scm.uri=scm:git:ssh://github.com/mybatis/ignite-cache.git
+source.scm.tag=mybatis-ignite-1.1.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=mybatis-ignite-1.1.1.pom
+outputs.0.length=5674
+outputs.0.checksums.sha512=0b94b2c570800d66bebcc8e5943c15afc1713b90eb5041800d7c5ae955856e9a245570376ea7ee2b44fcc034cea5575f45d4fe9a798a427c15582bc2177a08bb
+
+outputs.1.filename=mybatis-ignite-1.1.1.jar
+outputs.1.length=11958
+outputs.1.checksums.sha512=e97d611d69072909de37048ae96e71d8527556d30e4e8d7ec5c00f074c0468e513db4ae419b2fedf3180cb7b958cf665d6fcc37c42429d0da8f96b23ad99572b
+
+outputs.2.filename=mybatis-ignite-1.1.1-sources.jar
+outputs.2.length=10871
+outputs.2.checksums.sha512=75e0d4994730851213c58cb714a74f520cd6980d7e48d4766796ce38b4170036a3924659e71ace55f8306fed2d55e5b9b5686033f646e83e01712237c41079f9
