@@ -7,14 +7,14 @@
 
 Source code: [https://github.com/fhoeben/hsac-fitnesse-fixtures.git](https://github.com/fhoeben/hsac-fitnesse-fixtures.git)
 
-rebuilding **41 releases** of nl.hsac:hsac-fitnesse-fixtures:
-- **30** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **43 releases** of nl.hsac:hsac-fitnesse-fixtures:
+- **32** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [5.2.23](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.23/pom) | | | |
-| [5.2.22](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.22/pom) | | | |
+| [5.2.23](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.23/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.23.buildspec) | [result](hsac-fitnesse-fixtures-5.2.23.buildinfo): [4 :heavy_check_mark: ](hsac-fitnesse-fixtures-5.2.23.buildcompare) | 80M |
+| [5.2.22](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.22/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.22.buildspec) | [result](hsac-fitnesse-fixtures-5.2.22.buildinfo): [4 :heavy_check_mark: ](hsac-fitnesse-fixtures-5.2.22.buildcompare) | 80M |
 | [5.2.21](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.21/pom) | | | |
 | [5.2.20](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.20/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.20.buildspec) | [result](hsac-fitnesse-fixtures-5.2.20.buildinfo): [4 :heavy_check_mark: ](hsac-fitnesse-fixtures-5.2.20.buildcompare) | 74M |
 | [5.2.19](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.19/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.19.buildspec) | [result](hsac-fitnesse-fixtures-5.2.19.buildinfo): [4 :heavy_check_mark: ](hsac-fitnesse-fixtures-5.2.19.buildcompare) | 74M |

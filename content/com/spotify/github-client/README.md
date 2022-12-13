@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/spotify/github-java-client.git](https://github.com/spotify/github-java-client.git)
 
-rebuilding **2 releases** of com.spotify:github-client:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **3 releases** of com.spotify:github-client:
+- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.1.48](https://search.maven.org/artifact/com.spotify/github-client/0.1.48/pom) | | | |
+| [0.1.48](https://search.maven.org/artifact/com.spotify/github-client/0.1.48/pom) | [mvn jdk11](github-client-0.1.48.buildspec) | [result](github-client-0.1.48.buildinfo): [3 :heavy_check_mark: ](github-client-0.1.48.buildcompare) | 2.1M |
 | [0.1.47](https://search.maven.org/artifact/com.spotify/github-client/0.1.47/pom) | [mvn jdk11](github-client-0.1.47.buildspec) | [result](github-client-0.1.47.buildinfo): [3 :heavy_check_mark: ](github-client-0.1.47.buildcompare) | 2.1M |
 | [0.1.46](https://search.maven.org/artifact/com.spotify/github-client/0.1.46/pom) | [mvn jdk11](github-client-0.1.46.buildspec) | [result](github-client-0.1.46.buildinfo): [3 :heavy_check_mark: ](github-client-0.1.46.buildcompare) | 2.1M |
 
