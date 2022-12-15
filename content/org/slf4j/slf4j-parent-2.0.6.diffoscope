@@ -1,0 +1,149 @@
+1 / 3 target/reference/slf4j-api-2.0.6.jar slf4j-api/target/slf4j-api-2.0.6.jar
+--- target/reference/slf4j-api-2.0.6.jar
++++ slf4j-api/target/slf4j-api-2.0.6.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 62531 bytes, number of entries: 66
+│ +Zip file size: 62534 bytes, number of entries: 66
+│  -rw----     2.0 fat     1449 bX defN 22-Dec-12 19:10 META-INF/MANIFEST.MF
+│  -rw----     1.0 fat        0 b- stor 22-Dec-12 19:10 META-INF/
+│  -rw----     1.0 fat        0 b- stor 22-Dec-12 19:10 META-INF/versions/
+│  -rw----     1.0 fat        0 b- stor 22-Dec-12 19:10 META-INF/versions/9/
+│  -rw----     1.0 fat        0 b- stor 22-Dec-12 19:10 org/
+│  -rw----     1.0 fat        0 b- stor 22-Dec-12 19:10 org/slf4j/
+│  -rw----     1.0 fat        0 b- stor 22-Dec-12 19:10 org/slf4j/event/
+│ @@ -61,8 +61,8 @@
+│  -rw----     2.0 fat      732 bl defN 22-Dec-12 19:10 org/slf4j/spi/MDCAdapter.class
+│  -rw----     2.0 fat      268 bl defN 22-Dec-12 19:10 org/slf4j/spi/MarkerFactoryBinder.class
+│  -rw----     2.0 fat     3163 bl defN 22-Dec-12 19:10 org/slf4j/spi/NOPLoggingEventBuilder.class
+│  -rw----     2.0 fat      389 bl defN 22-Dec-12 19:10 org/slf4j/spi/SLF4JServiceProvider.class
+│  -rw----     2.0 fat     1612 bl defN 22-Dec-12 19:10 META-INF/maven/org.slf4j/slf4j-api/pom.xml
+│  -rw----     2.0 fat       53 bl defN 22-Dec-12 19:10 META-INF/maven/org.slf4j/slf4j-api/pom.properties
+│  -rw----     2.0 fat      333 bl defN 22-Dec-12 19:10 META-INF/versions/9/module-info.class
+│ -66 files, 128498 bytes uncompressed, 52131 bytes compressed:  59.4%
+│ +66 files, 128498 bytes uncompressed, 52134 bytes compressed:  59.4%
+├── META-INF/MANIFEST.MF
+│ @@ -6,19 +6,19 @@
+│  Bundle-License: http://www.opensource.org/licenses/mit-license.php
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: SLF4J API Module
+│  Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+│  Bundle-SymbolicName: org.slf4j.api
+│  Bundle-Vendor: QOS.ch
+│  Bundle-Version: 2.0.6
+│ -Export-Package: org.slf4j;version="2.0.6";uses:="org.slf4j.event,org.slf
+│ - 4j.helpers,org.slf4j.spi",org.slf4j.event;version="2.0.6";uses:="org.sl
+│ - f4j,org.slf4j.helpers",org.slf4j.helpers;version="2.0.6";uses:="org.slf
+│ - 4j,org.slf4j.event,org.slf4j.spi",org.slf4j.spi;version="2.0.6";uses:="
+│ - org.slf4j,org.slf4j.event,org.slf4j.helpers",META-INF.versions.9;versio
+│ +Export-Package: org.slf4j.spi;version="2.0.6";uses:="org.slf4j,org.slf4j
+│ + .event,org.slf4j.helpers",org.slf4j;version="2.0.6";uses:="org.slf4j.ev
+│ + ent,org.slf4j.helpers,org.slf4j.spi",org.slf4j.helpers;version="2.0.6";
+│ + uses:="org.slf4j,org.slf4j.event,org.slf4j.spi",org.slf4j.event;version
+│ + ="2.0.6";uses:="org.slf4j,org.slf4j.helpers",META-INF.versions.9;versio
+│   n="2.0.6"
+│  Implementation-Title: slf4j-api
+│  Implementation-Version: 2.0.6
+│  Import-Package: org.slf4j;version="[2.0,3)",org.slf4j.event;version="[2.
+│   0,3)",org.slf4j.helpers;version="[2.0,3)",org.slf4j.spi;version="[2.0,3
+│   )"
+│  Multi-Release: true
+
+2 / 3 target/reference/slf4j-ext-2.0.6.jar slf4j-ext/target/slf4j-ext-2.0.6.jar
+--- target/reference/slf4j-ext-2.0.6.jar
++++ slf4j-ext/target/slf4j-ext-2.0.6.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 37838 bytes, number of entries: 38
+│ +Zip file size: 37839 bytes, number of entries: 38
+│  -rw-r--r--  2.0 unx     1447 b- defN 22-Dec-12 19:10 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-12 19:10 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-12 19:10 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-12 19:10 org/slf4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-12 19:10 org/slf4j/agent/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-12 19:10 org/slf4j/cal10n/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-12 19:10 org/slf4j/ext/
+│ @@ -33,8 +33,8 @@
+│  -rw-r--r--  2.0 unx     2941 b- defN 22-Dec-12 19:10 org/slf4j/profiler/StopWatch.class
+│  -rw-r--r--  2.0 unx      394 b- defN 22-Dec-12 19:10 org/slf4j/profiler/TimeInstrument.class
+│  -rw-r--r--  2.0 unx     1121 b- defN 22-Dec-12 19:10 org/slf4j/profiler/TimeInstrumentStatus.class
+│  -rw-r--r--  2.0 unx      801 b- defN 22-Dec-12 19:10 org/slf4j/profiler/Util$1.class
+│  -rw-r--r--  2.0 unx     3021 b- defN 22-Dec-12 19:10 org/slf4j/profiler/Util.class
+│  -rw-r--r--  2.0 unx     2512 b- defN 22-Dec-12 19:10 META-INF/maven/org.slf4j/slf4j-ext/pom.xml
+│  -rw-r--r--  2.0 unx       53 b- defN 22-Dec-12 19:10 META-INF/maven/org.slf4j/slf4j-ext/pom.properties
+│ -38 files, 72777 bytes uncompressed, 32552 bytes compressed:  55.3%
+│ +38 files, 72777 bytes uncompressed, 32553 bytes compressed:  55.3%
+├── META-INF/MANIFEST.MF
+│ @@ -9,18 +9,18 @@
+│  Bundle-License: http://www.opensource.org/licenses/mit-license.php
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: SLF4J Extensions Module
+│  Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+│  Bundle-SymbolicName: org.slf4j.ext
+│  Bundle-Vendor: QOS.ch
+│  Bundle-Version: 2.0.6
+│ -Export-Package: org.slf4j.ext;version="2.0.6";uses:="org.slf4j",org.slf4
+│ - j.agent;version="2.0.6",org.slf4j.instrumentation;uses:=javassist;versi
+│ - on="2.0.6",org.slf4j.cal10n;version="2.0.6";uses:="ch.qos.cal10n,org.sl
+│ - f4j,org.slf4j.ext",org.slf4j.profiler;version="2.0.6";uses:="org.slf4j"
+│ +Export-Package: org.slf4j.agent;version="2.0.6",org.slf4j.profiler;versi
+│ + on="2.0.6";uses:="org.slf4j",org.slf4j.cal10n;version="2.0.6";uses:="ch
+│ + .qos.cal10n,org.slf4j,org.slf4j.ext",org.slf4j.instrumentation;uses:=ja
+│ + vassist;version="2.0.6",org.slf4j.ext;version="2.0.6";uses:="org.slf4j"
+│   ,org.slf4j;version="2.0.6"
+│  Implementation-Title: slf4j-ext
+│  Implementation-Version: 2.0.6
+│  Import-Package: ch.qos.cal10n;resolution:=optional,javassist;resolution:
+│   =optional,javassist.bytecode;resolution:=optional,org.slf4j;version="[2
+│   .0,3)",org.slf4j.ext;version="[2.0,3)",org.slf4j.helpers;version="[2.0,
+│   3)",org.slf4j.instrumentation,org.slf4j.spi;version="[2.0,3)"
+
+3 / 3 target/reference/log4j-over-slf4j-2.0.6.jar log4j-over-slf4j/target/log4j-over-slf4j-2.0.6.jar
+--- target/reference/log4j-over-slf4j-2.0.6.jar
++++ log4j-over-slf4j/target/log4j-over-slf4j-2.0.6.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 25604 bytes, number of entries: 46
+│ +Zip file size: 25602 bytes, number of entries: 46
+│  -rw----     2.0 fat     1270 bX defN 22-Dec-12 19:10 META-INF/MANIFEST.MF
+│  -rw----     1.0 fat        0 b- stor 22-Dec-12 19:10 META-INF/
+│  -rw----     1.0 fat        0 b- stor 22-Dec-12 19:10 META-INF/versions/
+│  -rw----     1.0 fat        0 b- stor 22-Dec-12 19:10 META-INF/versions/9/
+│  -rw----     1.0 fat        0 b- stor 22-Dec-12 19:10 org/
+│  -rw----     1.0 fat        0 b- stor 22-Dec-12 19:10 org/apache/
+│  -rw----     1.0 fat        0 b- stor 22-Dec-12 19:10 org/apache/log4j/
+│ @@ -41,8 +41,8 @@
+│  -rw----     2.0 fat      914 bl defN 22-Dec-12 19:10 org/apache/log4j/spi/LoggerRepository.class
+│  -rw----     2.0 fat      303 bl defN 22-Dec-12 19:10 org/apache/log4j/spi/LoggingEvent.class
+│  -rw----     2.0 fat      160 bl defN 22-Dec-12 19:10 org/apache/log4j/spi/OptionHandler.class
+│  -rw----     2.0 fat     2011 bl defN 22-Dec-12 19:10 org/apache/log4j/xml/DOMConfigurator.class
+│  -rw----     2.0 fat     1156 bl defN 22-Dec-12 19:10 META-INF/maven/org.slf4j/log4j-over-slf4j/pom.xml
+│  -rw----     2.0 fat       60 bl defN 22-Dec-12 19:10 META-INF/maven/org.slf4j/log4j-over-slf4j/pom.properties
+│  -rw----     2.0 fat      354 bl defN 22-Dec-12 19:10 META-INF/versions/9/module-info.class
+│ -46 files, 39043 bytes uncompressed, 18560 bytes compressed:  52.5%
+│ +46 files, 39043 bytes uncompressed, 18558 bytes compressed:  52.5%
+├── META-INF/MANIFEST.MF
+│ @@ -7,18 +7,18 @@
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Log4j Implemented Over SLF4J
+│  Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+│  Bundle-SymbolicName: org.slf4j.log4j-over-slf4j
+│  Bundle-Vendor: QOS.ch
+│  Bundle-Version: 2.0.6
+│  Export-Package: org.apache.log4j;version="1.2.22";uses:="org.apache.log4
+│ - j.spi,org.slf4j",org.apache.log4j.helpers;version="1.2.22",org.apache.l
+│ - og4j.xml;version="1.2.22";uses:="javax.xml.parsers,org.apache.log4j.spi
+│ - ,org.w3c.dom",org.apache.log4j.spi;version="1.2.22";uses:="org.apache.l
+│ - og4j",META-INF.versions.9;version="2.0.6"
+│ + j.spi,org.slf4j",org.apache.log4j.spi;version="1.2.22";uses:="org.apach
+│ + e.log4j",org.apache.log4j.helpers;version="1.2.22",org.apache.log4j.xml
+│ + ;version="1.2.22";uses:="javax.xml.parsers,org.apache.log4j.spi,org.w3c
+│ + .dom",META-INF.versions.9;version="2.0.6"
+│  Implementation-Title: log4j-over-slf4j
+│  Implementation-Version: 2.0.6
+│  Import-Package: javax.xml.parsers,org.apache.log4j;version="[1.2,2)",org
+│   .apache.log4j.helpers;version="[1.2,2)",org.apache.log4j.spi;version="[
+│   1.2,2)",org.slf4j;version="[2.0,3)",org.slf4j.spi;version="[2.0,3)",org
+│   .w3c.dom
+│  Multi-Release: true
+
