@@ -13,6 +13,7 @@ rebuilding **4 releases** of io.wcm:io.wcm.handler.link:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.10.0](https://search.maven.org/artifact/io.wcm/io.wcm.handler.link/1.10.0/pom) | | | |
 | [1.9.2](https://search.maven.org/artifact/io.wcm/io.wcm.handler.link/1.9.2/pom) | | | |
 | [1.9.0](https://search.maven.org/artifact/io.wcm/io.wcm.handler.link/1.9.0/pom) | | | |
 | [1.8.0](https://search.maven.org/artifact/io.wcm/io.wcm.handler.link/1.8.0/pom) | | | |

@@ -13,6 +13,7 @@ rebuilding **1 releases** of net.sourceforge.pmd:pmd-build-tools-config:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [19](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-build-tools-config/19/pom) | | | |
 | [18](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-build-tools-config/18/pom) | [mvn jdk11](pmd-build-tools-config-18.buildspec) | [result](pmd-build-tools-config-18.buildinfo): [3 :heavy_check_mark: ](pmd-build-tools-config-18.buildcompare) | 39K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
