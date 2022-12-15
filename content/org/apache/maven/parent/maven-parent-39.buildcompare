@@ -1,0 +1,5 @@
+version=39
+ok=14
+ko=0
+okFiles="maven-parent-39.pom maven-parent-39-site.xml maven-parent-39-source-release.zip maven-extensions-39.pom maven-extensions-39-site.xml maven-plugins-39.pom maven-plugins-39-site.xml maven-shared-components-39.pom maven-shared-components-39-site.xml maven-skins-39.pom maven-skins-39-site.xml doxia-tools-39.pom doxia-tools-39-site.xml apache-resource-bundles-39.pom"
+koFiles=""
