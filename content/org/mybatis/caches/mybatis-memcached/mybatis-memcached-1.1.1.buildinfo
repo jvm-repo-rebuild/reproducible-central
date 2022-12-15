@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=mybatis-memcached
+group-id=org.mybatis.caches
+artifact-id=mybatis-memcached
+version=1.1.1
+
+# source information
+source.scm.uri=scm:git:ssh://github.com/mybatis/memcached-cache.git
+source.scm.tag=mybatis-memcached-1.1.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=mybatis-memcached-1.1.1.pom
+outputs.0.length=4369
+outputs.0.checksums.sha512=0c42d6ce91dd055c629576b2ea6940ed6397855f0915e77fe7a5b590c212953b6b645ae30ffa1e9e913e68578ab653ca0794f6ea859cf503e1b2b1a81f92536a
+
+outputs.1.filename=mybatis-memcached-1.1.1.jar
+outputs.1.length=31029
+outputs.1.checksums.sha512=ce950f20e72ca292305dcbe1eccc41b00851fd38a0ed11f24620640b09b43ab98cddfe2735bc890c6b7af8040271c9fc2294de042ce03421fa87ef363e7a848b
+
+outputs.2.filename=mybatis-memcached-1.1.1-sources.jar
+outputs.2.length=27426
+outputs.2.checksums.sha512=68b3a5a56a48470657db42a18c1fd397ac14c1c4a0ef7335dcdf9883b324fc868b6f9a0aeb86c4d9f5430c2d2201b34467b04d36deaafd184d237e9f3e07050d
