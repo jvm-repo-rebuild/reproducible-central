@@ -1,0 +1,5 @@
+version=29
+ok=2
+ko=0
+okFiles="apache-29.pom apache-29-source-release.zip"
+koFiles=""

@@ -1,0 +1,30 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=The Apache Software Foundation
+group-id=org.apache
+artifact-id=apache
+version=29
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-apache-parent.git
+source.scm.tag=apache-29
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=apache-29.pom
+outputs.0.length=20721
+outputs.0.checksums.sha512=b8e94236974ff8eab99826c7f38d21559d171176670dcaf8f35fbdcb40a2d3f4e0246bc811a8ef58d5444f4e03bd82937c7213676d15c03f013795786109d183
+
+outputs.1.filename=apache-29-source-release.zip
+outputs.1.length=24404
+outputs.1.checksums.sha512=c1abe5433052918e5a7dde8e0338f809e0fb7a82fbb7db4d0509e2ceae7cb7e1acf88957c2a6447bc8064952df441d9235030b97764ec3842222b8508d1a2489
