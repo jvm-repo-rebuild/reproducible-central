@@ -1,0 +1,36 @@
+1 / 4 target/reference/byte-buddy-1.12.20.jar byte-buddy/target/byte-buddy-1.12.20.jar
+--- target/reference/byte-buddy-1.12.20.jar
++++ byte-buddy/target/byte-buddy-1.12.20.jar
+├── zipinfo {}
+│ @@ -1,2698 +1,2698 @@
+│  Zip file size: 3958592 bytes, number of entries: 2742
+│ --rw----     2.0 fat     2613 bX defN 79-Nov-30 04:08 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 META-INF/
+...
+│ --rw----     2.0 fat    12598 bX defN 79-Nov-30 04:08 net/bytebuddy/utility/visitor/StackAwareMethodVisitor.class
+│ --rw----     2.0 fat      384 bX defN 79-Nov-30 04:08 net/bytebuddy/utility/visitor/package-info.class
+│ +-rw----     2.0 fat     2613 bX defN 79-Nov-30 03:08 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 03:08 META-INF/
+...
+│ +-rw----     2.0 fat    12598 bX defN 79-Nov-30 03:08 net/bytebuddy/utility/visitor/StackAwareMethodVisitor.class
+│ +-rw----     2.0 fat      384 bX defN 79-Nov-30 03:08 net/bytebuddy/utility/visitor/package-info.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/
+│  -rw----     2.0 fat     2119 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/AnnotationVisitor.class
+│  -rw----     2.0 fat     8450 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/AnnotationWriter.class
+│  -rw----     2.0 fat     1531 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/Attribute$Set.class
+│  -rw----     2.0 fat     4088 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/Attribute.class
+│  -rw----     2.0 fat     4734 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/ByteVector.class
+│ @@ -2736,9 +2736,9 @@
+│  -rw----     2.0 fat     7023 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/commons/MethodRemapper.class
+│  -rw----     2.0 fat     3136 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/commons/ModuleHashesAttribute.class
+│  -rw----     2.0 fat     2421 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/commons/ModuleRemapper.class
+│  -rw----     2.0 fat     2438 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/commons/RecordComponentRemapper.class
+│  -rw----     2.0 fat     6736 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/commons/Remapper.class
+│  -rw----     2.0 fat     3760 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/commons/SignatureRemapper.class
+│  -rw----     2.0 fat     2151 bl defN 80-Feb-01 00:00 net/bytebuddy/jar/asm/commons/SimpleRemapper.class
+│ --rw----     2.0 fat    10293 bX defN 79-Nov-30 04:08 META-INF/LICENSE
+│ +-rw----     2.0 fat    10293 bX defN 79-Nov-30 03:08 META-INF/LICENSE
+│  2742 files, 9391574 bytes uncompressed, 3252642 bytes compressed:  65.4%
+
+...
