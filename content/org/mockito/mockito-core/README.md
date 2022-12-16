@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/mockito/mockito.git](https://github.com/mockito/mockito.git)
 
-<details><summary>This project defines 7 modules:</summary>
+<details><summary>This project defines 8 modules:</summary>
 
 * [org.mockito:mockito-android](https://search.maven.org/artifact/org.mockito/mockito-android/)
 * [org.mockito:mockito-bom](https://search.maven.org/artifact/org.mockito/mockito-bom/)
@@ -16,15 +16,16 @@ Source code: [https://github.com/mockito/mockito.git](https://github.com/mockito
 * [org.mockito:mockito-inline](https://search.maven.org/artifact/org.mockito/mockito-inline/)
 * [org.mockito:mockito-junit-jupiter](https://search.maven.org/artifact/org.mockito/mockito-junit-jupiter/)
 * [org.mockito:mockito-proxy](https://search.maven.org/artifact/org.mockito/mockito-proxy/)
+* [org.mockito:mockito-subclass](https://search.maven.org/artifact/org.mockito/mockito-subclass/)
 </details>
 
-rebuilding **8 releases** of org.mockito:mockito-core:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **9 releases** of org.mockito:mockito-core:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.10.0](https://search.maven.org/artifact/org.mockito/mockito-core/4.10.0/pom) | | | |
+| [4.10.0](https://search.maven.org/artifact/org.mockito/mockito-core/4.10.0/pom) | [gradle](mockito-4.10.0.buildspec) | [result](mockito-core-4.10.0.buildinfo): [22 :heavy_check_mark: ](mockito-core-4.10.0.buildcompare) | 1.3M |
 | [4.9.0](https://search.maven.org/artifact/org.mockito/mockito-core/4.9.0/pom) | [gradle](mockito-4.9.0.buildspec) | [result](mockito-core-4.9.0.buildinfo): [19 :heavy_check_mark: ](mockito-core-4.9.0.buildcompare) | 1.3M |
 | [4.8.1](https://search.maven.org/artifact/org.mockito/mockito-core/4.8.1/pom) | [gradle](mockito-4.8.1.buildspec) | [result](mockito-core-4.8.1.buildinfo): [19 :heavy_check_mark: ](mockito-core-4.8.1.buildcompare) | 1.3M |
 | [4.8.0](https://search.maven.org/artifact/org.mockito/mockito-core/4.8.0/pom) | [gradle](mockito-4.8.0.buildspec) | [result](mockito-core-4.8.0.buildinfo): [19 :heavy_check_mark: ](mockito-core-4.8.0.buildcompare) | 1.3M |

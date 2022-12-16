@@ -13,6 +13,7 @@ rebuilding **5 releases** of org.apache.jackrabbit:filevault-package-maven-plugi
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.3.2](https://search.maven.org/artifact/org.apache.jackrabbit/filevault-package-maven-plugin/1.3.2/pom) | | | |
 | [1.3.0](https://search.maven.org/artifact/org.apache.jackrabbit/filevault-package-maven-plugin/1.3.0/pom) | [mvn jdk11](filevault-package-maven-plugin-1.3.0.buildspec) | [result](filevault-package-maven-plugin-1.3.0.buildinfo): [4 :heavy_check_mark: ](filevault-package-maven-plugin-1.3.0.buildcompare) | 934K |
 | [1.2.2](https://search.maven.org/artifact/org.apache.jackrabbit/filevault-package-maven-plugin/1.2.2/pom) | [mvn jdk11](filevault-package-maven-plugin-1.2.2.buildspec) | [result](filevault-package-maven-plugin-1.2.2.buildinfo): [4 :heavy_check_mark: ](filevault-package-maven-plugin-1.2.2.buildcompare) | 901K |
 | [1.1.8](https://search.maven.org/artifact/org.apache.jackrabbit/filevault-package-maven-plugin/1.1.8/pom) | [mvn jdk11](filevault-package-maven-plugin-1.1.8.buildspec) | [result](filevault-package-maven-plugin-1.1.8.buildinfo): [4 :heavy_check_mark: ](filevault-package-maven-plugin-1.1.8.buildcompare) | 862K |
