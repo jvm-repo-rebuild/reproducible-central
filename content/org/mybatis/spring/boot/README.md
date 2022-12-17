@@ -22,6 +22,7 @@ rebuilding **1 releases** of org.mybatis.spring.boot:mybatis-spring-boot:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.1](https://search.maven.org/artifact/org.mybatis.spring.boot/mybatis-spring-boot/3.0.1/pom) | | | |
 | [3.0.0](https://search.maven.org/artifact/org.mybatis.spring.boot/mybatis-spring-boot/3.0.0/pom) | | | |
 | [2.3.0](https://search.maven.org/artifact/org.mybatis.spring.boot/mybatis-spring-boot/2.3.0/pom) | [mvn jdk18](mybatis-spring-boot-2.3.0.buildspec) | [result](mybatis-spring-boot-2.3.0.buildinfo): [7 :heavy_check_mark:  4 :warning:](mybatis-spring-boot-2.3.0.buildcompare) [:mag:](mybatis-spring-boot-2.3.0.diffoscope) [:memo:](https://github.com/mybatis/spring-boot-starter/pull/759) | 137K |
 

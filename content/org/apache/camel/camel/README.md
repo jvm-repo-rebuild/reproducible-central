@@ -627,6 +627,7 @@ rebuilding **4 releases** of org.apache.camel:camel:
 | [3.17.0](https://search.maven.org/artifact/org.apache.camel/camel/3.17.0/pom) | [mvn jdk11](camel-3.17.0.buildspec) | [result](camel-3.17.0.buildinfo): [1122 :heavy_check_mark:  440 :warning:](camel-3.17.0.buildcompare) [:mag:](camel-3.17.0.diffoscope) [:memo:](https://github.com/apache/camel/pull/7665) | 224M |
 | [3.16.0](https://search.maven.org/artifact/org.apache.camel/camel/3.16.0/pom) | | | |
 | [3.15.0](https://search.maven.org/artifact/org.apache.camel/camel/3.15.0/pom) | | | |
+| [3.14.7](https://search.maven.org/artifact/org.apache.camel/camel/3.14.7/pom) | | | |
 | [3.14.6](https://search.maven.org/artifact/org.apache.camel/camel/3.14.6/pom) | | | |
 | [3.14.5](https://search.maven.org/artifact/org.apache.camel/camel/3.14.5/pom) | | | |
 | [3.14.4](https://search.maven.org/artifact/org.apache.camel/camel/3.14.4/pom) | | | |

@@ -3,8 +3,8 @@
   <groupId>io.cucumber</groupId>
   <artifactId>messages</artifactId>
   <versioning>
-    <latest>20.0.0</latest>
-    <release>20.0.0</release>
+    <latest>21.0.1</latest>
+    <release>21.0.1</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0.2</version>
@@ -70,7 +70,8 @@
       <version>19.1.3</version>
       <version>19.1.4</version>
       <version>20.0.0</version>
+      <version>21.0.1</version>
     </versions>
-    <lastUpdated>20221114143850</lastUpdated>
+    <lastUpdated>20221217142324</lastUpdated>
   </versioning>
 </metadata>

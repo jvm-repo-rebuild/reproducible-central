@@ -13,6 +13,7 @@ rebuilding **1 releases** of io.cucumber:messages:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [21.0.1](https://search.maven.org/artifact/io.cucumber/messages/21.0.1/pom) | | | |
 | [20.0.0](https://search.maven.org/artifact/io.cucumber/messages/20.0.0/pom) | [mvn jdk11](messages-20.0.0.buildspec) | [result](messages-20.0.0.buildinfo): [3 :heavy_check_mark: ](messages-20.0.0.buildcompare) | 140K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

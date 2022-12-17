@@ -13,6 +13,7 @@ rebuilding **1 releases** of com.github.hazendaz:javabean-tester:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.5.0](https://search.maven.org/artifact/com.github.hazendaz/javabean-tester/2.5.0/pom) | | | |
 | [2.5.0-M3](https://search.maven.org/artifact/com.github.hazendaz/javabean-tester/2.5.0-M3/pom) | [mvn jdk17 w](javabean-tester-2.5.0-M3.buildspec) | [result](javabean-tester-2.5.0-M3.buildinfo): [5 :heavy_check_mark: ](javabean-tester-2.5.0-M3.buildcompare) | 187K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
