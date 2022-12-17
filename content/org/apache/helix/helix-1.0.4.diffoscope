@@ -1,0 +1,472 @@
+1 / 17 target/reference/helix-1.0.4-source-release.zip target/helix-1.0.4-source-release.zip
+--- target/reference/helix-1.0.4-source-release.zip
++++ target/helix-1.0.4-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 10283877 bytes, number of entries: 2765
+│ +Zip file size: 197992505 bytes, number of entries: 68486
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/.github/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/.github/ISSUE_TEMPLATE/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/.github/scripts/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/.github/workflows/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/helix-admin-webapp/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/helix-admin-webapp/src/
+│ @@ -271,14 +271,7030 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/helix-front/client/app/workflow/workflow-dag/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/helix-front/client/app/workflow/workflow-detail/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/helix-front/client/app/workflow/workflow-list/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/helix-front/client/assets/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/helix-front/client/environments/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/helix-front/client/testing/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/helix-front/e2e/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/helix-front/node/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/helix-front/node/yarn/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/helix-front/node/yarn/dist/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/helix-front/node/yarn/dist/bin/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/helix-front/node/yarn/dist/lib/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/helix-front/node_modules/
+...
+│ +drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/helix-front/node_modules/zone.js/testing/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/helix-front/server/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/helix-front/server/controllers/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/helix-lock/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/helix-lock/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/helix-lock/src/assemble/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/helix-lock/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Jun-09 20:11 helix-1.0.4/helix-lock/src/main/config/
+│ @@ -2036,14 +9052,58719 @@
+│  -rw-r--r--  2.0 unx      296 b- defN 22-Jun-09 20:11 helix-1.0.4/helix-front/client/tsconfig.spec.json
+│  -rw-r--r--  2.0 unx      104 b- defN 22-Jun-09 20:11 helix-1.0.4/helix-front/client/typings.d.ts
+│  -rw-r--r--  2.0 unx     2119 b- defN 22-Jun-09 20:11 helix-1.0.4/helix-front/e2e/.eslintrc.json
+│  -rw-r--r--  2.0 unx      305 b- defN 22-Jun-09 20:11 helix-1.0.4/helix-front/e2e/app.e2e-spec.ts
+│  -rw-r--r--  2.0 unx      211 b- defN 22-Jun-09 20:11 helix-1.0.4/helix-front/e2e/app.po.ts
+│  -rw-r--r--  2.0 unx      193 b- defN 22-Jun-09 20:11 helix-1.0.4/helix-front/e2e/tsconfig.e2e.json
+│  -rw-r--r--  2.0 unx     1258 b- defN 22-Jun-09 20:11 helix-1.0.4/helix-front/karma.conf.js
+│ +-rw-r--r--  2.0 unx 74421432 b- defN 22-Jun-09 20:11 helix-1.0.4/helix-front/node/node
+│ +-rw-r--r--  2.0 unx     1355 b- defN 22-Jun-09 20:11 helix-1.0.4/helix-front/node/yarn/dist/LICENSE
+│ +-rw-r--r--  2.0 unx     3353 b- defN 22-Jun-09 20:11 helix-1.0.4/helix-front/node/yarn/dist/README.md
+...
+│ +-rw-r--r--  2.0 unx    56324 b- defN 22-Jun-09 20:11 helix-1.0.4/helix-front/node_modules/zone.js/zone.d.ts
+│ +-rw-r--r--  2.0 unx    11252 b- defN 22-Jun-09 20:11 helix-1.0.4/helix-front/node_modules/zone.js/zone_externs.js
+│  -rw-r--r--  2.0 unx     3866 b- defN 22-Jun-09 20:11 helix-1.0.4/helix-front/package.json
+│  -rw-r--r--  2.0 unx     4291 b- defN 22-Jun-09 20:11 helix-1.0.4/helix-front/pom.xml
+│  -rw-r--r--  2.0 unx      756 b- defN 22-Jun-09 20:11 helix-1.0.4/helix-front/protractor.conf.js
+│  -rw-r--r--  2.0 unx       79 b- defN 22-Jun-09 20:11 helix-1.0.4/helix-front/proxy.conf.json
+│  -rw-r--r--  2.0 unx     1952 b- defN 22-Jun-09 20:11 helix-1.0.4/helix-front/server/app.ts
+│  -rw-r--r--  2.0 unx      378 b- defN 22-Jun-09 20:11 helix-1.0.4/helix-front/server/config.ts
+│  -rw-r--r--  2.0 unx      182 b- defN 22-Jun-09 20:11 helix-1.0.4/helix-front/server/controllers/d.ts
+│ @@ -2760,8 +68481,8 @@
+│  -rw-r--r--  2.0 unx     2962 b- defN 22-Jun-09 20:11 helix-1.0.4/zookeeper-api/src/test/java/org/apache/helix/zookeeper/routing/TestZkRoutingDataReader.java
+│  -rw-r--r--  2.0 unx     5434 b- defN 22-Jun-09 20:11 helix-1.0.4/zookeeper-api/src/test/java/org/apache/helix/zookeeper/util/TestRoutingDataManager.java
+│  -rw-r--r--  2.0 unx     3682 b- defN 22-Jun-09 20:11 helix-1.0.4/zookeeper-api/src/test/java/org/apache/helix/zookeeper/zkclient/TestPrefetchChangedData.java
+│  -rw-r--r--  2.0 unx     3385 b- defN 22-Jun-09 20:11 helix-1.0.4/zookeeper-api/src/test/java/org/apache/helix/zookeeper/zkclient/TestZkConnection.java
+│  -rw-r--r--  2.0 unx     2570 b- defN 22-Jun-09 20:11 helix-1.0.4/zookeeper-api/src/test/resources/log4j2.properties
+│  -rw-r--r--  2.0 unx     3722 b- defN 22-Jun-09 20:11 helix-1.0.4/zookeeper-api/zookeeper-api-1.0.5-SNAPSHOT.ivy
+│  -rw-r--r--  2.0 unx      262 b- defN 22-Jun-09 20:11 helix-1.0.4/DEPENDENCIES
+│ -2765 files, 21331844 bytes uncompressed, 9626491 bytes compressed:  54.9%
+│ +68486 files, 639613178 bytes uncompressed, 181616467 bytes compressed:  71.6%
+├── zipnote {}
+│ @@ -822,5307 +822,202470 @@
+│  
+│  Filename: helix-1.0.4/helix-front/client/testing/
+│  Comment: 
+│  
+│  Filename: helix-1.0.4/helix-front/e2e/
+│  Comment: 
+│  
+│ +Filename: helix-1.0.4/helix-front/node/
+│ +Comment: 
+│ +
+│ +Filename: helix-1.0.4/helix-front/node/yarn/
+│ +Comment: 
+│ +
+│ +Filename: helix-1.0.4/helix-front/node/yarn/dist/
+│ +Comment: 
+│ +
+│ +Filename: helix-1.0.4/helix-front/node/yarn/dist/bin/
+│ +Comment: 
+│ +
+│ +Filename: helix-1.0.4/helix-front/node/yarn/dist/lib/
+│ +Comment: 
+│ +
+│ +Filename: helix-1.0.4/helix-front/node_modules/
+│ +Comment: 
+...
+│ +
+│ +Filename: helix-1.0.4/helix-front/node_modules/zone.js/testing/
+│ +Comment: 
+│ +
+│  Filename: helix-1.0.4/helix-front/server/
+│  Comment: 
+│  
+│ -Filename: helix-1.0.4/helix-front/server/controllers/
+│ +Filename: helix-1.0.4/helix-front/server/controllers/
+│ +Comment: 
+│ +
+│ +Filename: helix-1.0.4/helix-lock/
+│ +Comment: 
+│ +
+│ +Filename: helix-1.0.4/helix-lock/src/
+│ +Comment: 
+│ +
+...
+│ +Filename: helix-1.0.4/helix-lock/src/test/resources/
+│ +Comment: 
+│ +
+│ +Filename: helix-1.0.4/helix-rest/
+│ +Comment: 
+│ +
+│ +Filename: helix-1.0.4/helix-rest/src/
+│ +Comment: 
+│ +
+│ +Filename: helix-1.0.4/helix-rest/src/assemble/
+│ +Comment: 
+│ +
+...
+│ +Filename: helix-1.0.4/helix-front/node_modules/zone.js/zone.d.ts
+│ +Comment: 
+│ +
+│ +Filename: helix-1.0.4/helix-front/node_modules/zone.js/zone_externs.js
+│  Comment: 
+│  
+│  Filename: helix-1.0.4/helix-front/package.json
+│  Comment: 
+│  
+│  Filename: helix-1.0.4/helix-front/pom.xml
+│  Comment:
+
+2 / 17 target/reference/metadata-store-directory-common-1.0.4.jar metadata-store-directory-common/target/metadata-store-directory-common-1.0.4.jar
+--- target/reference/metadata-store-directory-common-1.0.4.jar
++++ metadata-store-directory-common/target/metadata-store-directory-common-1.0.4.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 22458 bytes, number of entries: 29
+│ +Zip file size: 22462 bytes, number of entries: 29
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     1567 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     4789 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat      199 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.helix/
+│ @@ -21,11 +21,11 @@
+│  -rw----     2.0 fat      697 bl defN 80-Feb-01 00:00 org/apache/helix/msdcommon/datamodel/MetadataStoreRoutingData.class
+│  -rw----     2.0 fat     1875 bl defN 80-Feb-01 00:00 org/apache/helix/msdcommon/datamodel/TrieRoutingData$TrieNode.class
+│  -rw----     2.0 fat     7647 bl defN 80-Feb-01 00:00 org/apache/helix/msdcommon/datamodel/TrieRoutingData.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/helix/msdcommon/exception/
+│  -rw----     2.0 fat      444 bl defN 80-Feb-01 00:00 org/apache/helix/msdcommon/exception/InvalidRoutingDataException.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/helix/msdcommon/mock/
+│  -rw----     2.0 fat     1406 bl defN 80-Feb-01 00:00 org/apache/helix/msdcommon/mock/MockMetadataStoreDirectoryServer$SupportedHttpVerbs.class
+│ --rw----     2.0 fat     7892 bl defN 80-Feb-01 00:00 org/apache/helix/msdcommon/mock/MockMetadataStoreDirectoryServer.class
+│ +-rw----     2.0 fat     7906 bl defN 80-Feb-01 00:00 org/apache/helix/msdcommon/mock/MockMetadataStoreDirectoryServer.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/helix/msdcommon/util/
+│  -rw----     2.0 fat      553 bl defN 80-Feb-01 00:00 org/apache/helix/msdcommon/util/ZkValidationUtil.class
+│ -29 files, 44364 bytes uncompressed, 17326 bytes compressed:  60.9%
+│ +29 files, 44378 bytes uncompressed, 17330 bytes compressed:  60.9%
+├── org/apache/helix/msdcommon/datamodel/TrieRoutingData.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -808,15 +808,15 @@
+│ │          line 166: 73
+│ │          line 168: 75
+│ │          line 163: 77
+│ │          line 170: 83
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │             54      23     7 pathSection   Ljava/lang/String;
+│ │ -           69      11     3 nextNode   Lorg/apache/helix/msdcommon/datamodel/TrieRoutingData$TrieNode;
+│ │ +           69      14     3 nextNode   Lorg/apache/helix/msdcommon/datamodel/TrieRoutingData$TrieNode;
+│ │              0      85     0  this   Lorg/apache/helix/msdcommon/datamodel/TrieRoutingData;
+│ │              0      85     1  path   Ljava/lang/String;
+│ │             19      66     2 curNode   Lorg/apache/helix/msdcommon/datamodel/TrieRoutingData$TrieNode;
+│ │        StackMapTable: number_of_entries = 4
+│ │          frame_type = 14 /* same */
+│ │          frame_type = 255 /* full_frame */
+│ │            offset_delta = 25
+├── org/apache/helix/msdcommon/mock/MockMetadataStoreDirectoryServer.class
+│ ├── procyon -ec {}
+│ │ @@ -84,15 +84,15 @@
+│ │      }
+│ │      
+│ │      private HttpHandler createHttpHandler(final Map<String, Object> keyValuePairs) {
+│ │          return httpExchange -> {
+│ │              final OutputStream outputStream = httpExchange.getResponseBody();
+│ │              String htmlResponse;
+│ │              if (MockMetadataStoreDirectoryServer.SupportedHttpVerbs.GET.name().equals(httpExchange.getRequestMethod())) {
+│ │ -                htmlResponse = MockMetadataStoreDirectoryServer.OBJECT_MAPPER.writeValueAsString((Object)map);
+│ │ +                htmlResponse = MockMetadataStoreDirectoryServer.OBJECT_MAPPER.writeValueAsString((Object)keyValuePairs);
+│ │                  httpExchange.sendResponseHeaders(200, htmlResponse.length());
+│ │              }
+│ │              else {
+│ │                  htmlResponse = httpExchange.getRequestMethod() + " is not supported!\n";
+│ │                  httpExchange.sendResponseHeaders(501, htmlResponse.length());
+│ │              }
+│ │              outputStream.write(htmlResponse.getBytes());
+
+3 / 17 target/reference/zookeeper-api-1.0.4.jar zookeeper-api/target/zookeeper-api-1.0.4.jar
+--- target/reference/zookeeper-api-1.0.4.jar
++++ zookeeper-api/target/zookeeper-api-1.0.4.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 224430 bytes, number of entries: 169
+│ +Zip file size: 224818 bytes, number of entries: 169
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     6724 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     7964 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat      181 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.helix/
+│ @@ -13,23 +13,23 @@
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/helix/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/helix/zookeeper/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/helix/zookeeper/api/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/helix/zookeeper/api/client/
+│  -rw----     2.0 fat     1089 bl defN 80-Feb-01 00:00 org/apache/helix/zookeeper/api/client/ChildrenSubscribeResult.class
+│  -rw----     2.0 fat     4194 bl defN 80-Feb-01 00:00 org/apache/helix/zookeeper/api/client/HelixZkClient$ZkClientConfig.class
+│ --rw----     2.0 fat     2024 bl defN 80-Feb-01 00:00 org/apache/helix/zookeeper/api/client/HelixZkClient$ZkConnectionConfig.class
+│ +-rw----     2.0 fat     2028 bl defN 80-Feb-01 00:00 org/apache/helix/zookeeper/api/client/HelixZkClient$ZkConnectionConfig.class
+│  -rw----     2.0 fat      518 bl defN 80-Feb-01 00:00 org/apache/helix/zookeeper/api/client/HelixZkClient.class
+│  -rw----     2.0 fat      278 bl defN 80-Feb-01 00:00 org/apache/helix/zookeeper/api/client/RealmAwareZkClient$1.class
+│  -rw----     2.0 fat     1964 bl defN 80-Feb-01 00:00 org/apache/helix/zookeeper/api/client/RealmAwareZkClient$I0ItecIZkStateListenerImpl.class
+│ --rw----     2.0 fat     4736 bl defN 80-Feb-01 00:00 org/apache/helix/zookeeper/api/client/RealmAwareZkClient$RealmAwareZkClientConfig.class
+│ +-rw----     2.0 fat     4740 bl defN 80-Feb-01 00:00 org/apache/helix/zookeeper/api/client/RealmAwareZkClient$RealmAwareZkClientConfig.class
+│  -rw----     2.0 fat     3965 bl defN 80-Feb-01 00:00 org/apache/helix/zookeeper/api/client/RealmAwareZkClient$RealmAwareZkConnectionConfig$Builder.class
+│ --rw----     2.0 fat     3182 bl defN 80-Feb-01 00:00 org/apache/helix/zookeeper/api/client/RealmAwareZkClient$RealmAwareZkConnectionConfig.class
+│ +-rw----     2.0 fat     3186 bl defN 80-Feb-01 00:00 org/apache/helix/zookeeper/api/client/RealmAwareZkClient$RealmAwareZkConnectionConfig.class
+│  -rw----     2.0 fat     1336 bl defN 80-Feb-01 00:00 org/apache/helix/zookeeper/api/client/RealmAwareZkClient$RealmMode.class
+│ --rw----     2.0 fat    12869 bl defN 80-Feb-01 00:00 org/apache/helix/zookeeper/api/client/RealmAwareZkClient.class
+│ +-rw----     2.0 fat    12892 bl defN 80-Feb-01 00:00 org/apache/helix/zookeeper/api/client/RealmAwareZkClient.class
+│  -rw----     2.0 fat     1181 bl defN 80-Feb-01 00:00 org/apache/helix/zookeeper/api/client/ZkClientType.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/helix/zookeeper/api/factory/
+│  -rw----     2.0 fat     1393 bl defN 80-Feb-01 00:00 org/apache/helix/zookeeper/api/factory/RealmAwareZkClientFactory.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/helix/zookeeper/constant/
+│  -rw----     2.0 fat      444 bl defN 80-Feb-01 00:00 org/apache/helix/zookeeper/constant/RoutingDataConstants.class
+│  -rw----     2.0 fat     2183 bl defN 80-Feb-01 00:00 org/apache/helix/zookeeper/constant/RoutingDataReaderType.class
+│  -rw----     2.0 fat      595 bl defN 80-Feb-01 00:00 org/apache/helix/zookeeper/constant/RoutingSystemPropertyKeys.class
+...
+│ -169 files, 507269 bytes uncompressed, 188498 bytes compressed:  62.8%
+│ +169 files, 508039 bytes uncompressed, 188886 bytes compressed:  62.8%
+├── org/apache/helix/zookeeper/api/client/HelixZkClient$ZkConnectionConfig.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -168,14 +168,15 @@
+│ │          line 52: 0
+│ │          line 53: 5
+│ │          line 55: 7
+│ │          line 56: 14
+│ │          line 58: 16
+│ │          line 59: 21
+│ │          line 60: 50
+│ │ +        line 59: 72
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      73     0  this   Lorg/apache/helix/zookeeper/api/client/HelixZkClient$ZkConnectionConfig;
+│ │              0      73     1   obj   Ljava/lang/Object;
+│ │             21      52     2 configObj   Lorg/apache/helix/zookeeper/api/client/HelixZkClient$ZkConnectionConfig;
+│ │        StackMapTable: number_of_entries = 6
+│ │          frame_type = 7 /* same */
+├── org/apache/helix/zookeeper/api/client/RealmAwareZkClient$RealmAwareZkClientConfig.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -494,14 +494,15 @@
+│ │          62: areturn
+│ │        LineNumberTable:
+│ │          line 656: 0
+│ │          line 657: 18
+│ │          line 658: 32
+│ │          line 659: 49
+│ │          line 660: 59
+│ │ +        line 656: 62
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0      63     0  this   Lorg/apache/helix/zookeeper/api/client/RealmAwareZkClient$RealmAwareZkClientConfig;
+│ │  }
+│ │  SourceFile: "RealmAwareZkClient.java"
+│ │  InnerClasses:
+│ │    public static #50= #31 of #1;           // RealmAwareZkClientConfig=class org/apache/helix/zookeeper/api/client/RealmAwareZkClient$RealmAwareZkClientConfig of class org/apache/helix/zookeeper/api/client/RealmAwareZkClient
+...
+├── org/apache/helix/zookeeper/api/client/RealmAwareZkClient.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,328 +1,330 @@
+│ │    Compiled from "RealmAwareZkClient.java"
+│ │  public interface org.apache.helix.zookeeper.api.client.RealmAwareZkClient
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x0601) ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+│ │ -  this_class: #37                         // org/apache/helix/zookeeper/api/client/RealmAwareZkClient
+│ │ -  super_class: #38                        // java/lang/Object
+│ │ +  this_class: #38                         // org/apache/helix/zookeeper/api/client/RealmAwareZkClient
+│ │ +  super_class: #39                        // java/lang/Object
+│ │    interfaces: 0, fields: 3, methods: 88, attributes: 2
+│ │  Constant pool:
+│ │ -    #1 = Class              #236          // org/apache/helix/zookeeper/api/client/RealmAwareZkClient$I0ItecIZkStateListenerImpl
+│ │ -    #2 = Methodref          #1.#237       // org/apache/helix/zookeeper/api/client/RealmAwareZkClient$I0ItecIZkStateListenerImpl."<init>":(Lorg/apache/helix/zookeeper/zkclient/IZkStateListener;)V
+│ │ -    #3 = InterfaceMethodref #37.#238      // org/apache/helix/zookeeper/api/client/RealmAwareZkClient.subscribeStateChanges:(Lorg/apache/helix/zookeeper/zkclient/deprecated/IZkStateListener;)V
+│ │ -    #4 = InterfaceMethodref #37.#239      // org/apache/helix/zookeeper/api/client/RealmAwareZkClient.unsubscribeStateChanges:(Lorg/apache/helix/zookeeper/zkclient/deprecated/IZkStateListener;)V
+│ │ -    #5 = InterfaceMethodref #37.#240      // org/apache/helix/zookeeper/api/client/RealmAwareZkClient.waitUntilConnected:(JLjava/util/concurrent/TimeUnit;)Z
+│ │ -    #6 = Class              #241          // org/apache/helix/zookeeper/zkclient/exception/ZkTimeoutException
+...
+│ │ -  #310 = Utf8               (Ljava/lang/String;)Lorg/apache/helix/zookeeper/constant/RoutingDataReaderType;
+│ │ -  #311 = Utf8               (Lorg/apache/helix/zookeeper/constant/RoutingDataReaderType;Ljava/lang/String;)Lorg/apache/helix/msdcommon/datamodel/MetadataStoreRoutingData;
+│ │ -  #312 = Utf8               org/apache/helix/zookeeper/zkclient/callback/ZkAsyncCallbacks
+│ │ +    #1 = Class              #237          // java/lang/Integer
+│ │ +    #2 = Class              #238          // org/apache/helix/zookeeper/api/client/RealmAwareZkClient$I0ItecIZkStateListenerImpl
+│ │ +    #3 = Methodref          #2.#239       // org/apache/helix/zookeeper/api/client/RealmAwareZkClient$I0ItecIZkStateListenerImpl."<init>":(Lorg/apache/helix/zookeeper/zkclient/IZkStateListener;)V
+│ │ +    #4 = InterfaceMethodref #38.#240      // org/apache/helix/zookeeper/api/client/RealmAwareZkClient.subscribeStateChanges:(Lorg/apache/helix/zookeeper/zkclient/deprecated/IZkStateListener;)V
+│ │ +    #5 = InterfaceMethodref #38.#241      // org/apache/helix/zookeeper/api/client/RealmAwareZkClient.unsubscribeStateChanges:(Lorg/apache/helix/zookeeper/zkclient/deprecated/IZkStateListener;)V
+│ │ +    #6 = InterfaceMethodref #38.#242      // org/apache/helix/zookeeper/api/client/RealmAwareZkClient.waitUntilConnected:(JLjava/util/concurrent/TimeUnit;)Z
+...
+│ │ +  #313 = Utf8               (Lorg/apache/helix/zookeeper/constant/RoutingDataReaderType;Ljava/lang/String;)Lorg/apache/helix/msdcommon/datamodel/MetadataStoreRoutingData;
+│ │ +  #314 = Utf8               org/apache/helix/zookeeper/zkclient/callback/ZkAsyncCallbacks
+│ │  {
+│ │    public static final int DEFAULT_OPERATION_TIMEOUT = 2147483647;
+│ │      descriptor: I
+│ │      flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+│ │      ConstantValue: int 2147483647
+│ │  
+│ │    public static final int DEFAULT_CONNECTION_TIMEOUT = 60000;
+│ │ @@ -335,17 +337,17 @@
+│ │      flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+│ │      ConstantValue: int 30000
+│ │  
+│ │    public abstract java.util.List<java.lang.String> subscribeChildChanges(java.lang.String, org.apache.helix.zookeeper.zkclient.IZkChildListener);
+│ │      descriptor: (Ljava/lang/String;Lorg/apache/helix/zookeeper/zkclient/IZkChildListener;)Ljava/util/List;
+│ │      flags: (0x0401) ACC_PUBLIC, ACC_ABSTRACT
+│ │      Deprecated: true
+│ │ -    Signature: #60                          // (Ljava/lang/String;Lorg/apache/helix/zookeeper/zkclient/IZkChildListener;)Ljava/util/List<Ljava/lang/String;>;
+│ │ +    Signature: #61                          // (Ljava/lang/String;Lorg/apache/helix/zookeeper/zkclient/IZkChildListener;)Ljava/util/List<Ljava/lang/String;>;
+│ │      RuntimeVisibleAnnotations:
+│ │ -      0: #62()
+│ │ +      0: #63()
+│ │          java.lang.Deprecated
+...
+
+...
+
+
+15 / 17 target/reference/helix-front-1.0.4-pkg.tar helix-front/target/helix-front-1.0.4-pkg.tar
+--- target/reference/helix-front-1.0.4-pkg.tar
++++ helix-front/target/helix-front-1.0.4-pkg.tar
+├── file list
+│ @@ -31,15 +31,15 @@
+│  -rw-r--r--   0 root         (0) root         (0)      663 2022-06-09 20:11:46.000000 helix-front-1.0.4/dist/server/routes.js
+│  -rw-r--r--   0 root         (0) root         (0)      586 2022-06-09 20:11:46.000000 helix-front-1.0.4/dist/server/routes.js.map
+│  drwxr-xr-x   0 root         (0) root         (0)        0 2022-06-09 20:11:46.000000 helix-front-1.0.4/node/
+│  drwxr-xr-x   0 root         (0) root         (0)        0 2022-06-09 20:11:46.000000 helix-front-1.0.4/node/yarn/
+│  drwxr-xr-x   0 root         (0) root         (0)        0 2022-06-09 20:11:46.000000 helix-front-1.0.4/node/yarn/dist/
+│  drwxr-xr-x   0 root         (0) root         (0)        0 2022-06-09 20:11:46.000000 helix-front-1.0.4/node/yarn/dist/bin/
+│  drwxr-xr-x   0 root         (0) root         (0)        0 2022-06-09 20:11:46.000000 helix-front-1.0.4/node/yarn/dist/lib/
+│ --rw-r--r--   0 root         (0) root         (0) 76198704 2022-06-09 20:11:46.000000 helix-front-1.0.4/node/node
+│ +-rw-r--r--   0 root         (0) root         (0) 74421432 2022-06-09 20:11:46.000000 helix-front-1.0.4/node/node
+│  -rw-r--r--   0 root         (0) root         (0)     1355 2022-06-09 20:11:46.000000 helix-front-1.0.4/node/yarn/dist/LICENSE
+│  -rw-r--r--   0 root         (0) root         (0)     3353 2022-06-09 20:11:46.000000 helix-front-1.0.4/node/yarn/dist/README.md
+│  -rw-r--r--   0 root         (0) root         (0)     1025 2022-06-09 20:11:46.000000 helix-front-1.0.4/node/yarn/dist/bin/yarn
+│  -rw-r--r--   0 root         (0) root         (0)       34 2022-06-09 20:11:46.000000 helix-front-1.0.4/node/yarn/dist/bin/yarn.cmd
+│  -rw-r--r--   0 root         (0) root         (0)     1015 2022-06-09 20:11:46.000000 helix-front-1.0.4/node/yarn/dist/bin/yarn.js
+│  -rw-r--r--   0 root         (0) root         (0)       42 2022-06-09 20:11:46.000000 helix-front-1.0.4/node/yarn/dist/bin/yarnpkg
+│  -rw-r--r--   0 root         (0) root         (0)       30 2022-06-09 20:11:46.000000 helix-front-1.0.4/node/yarn/dist/bin/yarnpkg.cmd
+...
+
+16 / 17 target/reference/helix-view-aggregator-1.0.4.jar helix-view-aggregator/target/helix-view-aggregator-1.0.4.jar
+--- target/reference/helix-view-aggregator-1.0.4.jar
++++ helix-view-aggregator/target/helix-view-aggregator-1.0.4.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 45257 bytes, number of entries: 37
+│ +Zip file size: 45278 bytes, number of entries: 37
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     2611 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     9902 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat      183 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.helix/
+│ @@ -14,26 +14,26 @@
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/helix/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/helix/view/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/helix/view/aggregator/
+│  -rw----     2.0 fat     1761 bl defN 80-Feb-01 00:00 org/apache/helix/view/aggregator/HelixViewAggregator$1.class
+│  -rw----     2.0 fat     1504 bl defN 80-Feb-01 00:00 org/apache/helix/view/aggregator/HelixViewAggregator$2.class
+│  -rw----     2.0 fat     1055 bl defN 80-Feb-01 00:00 org/apache/helix/view/aggregator/HelixViewAggregator$3.class
+│  -rw----     2.0 fat     1906 bl defN 80-Feb-01 00:00 org/apache/helix/view/aggregator/HelixViewAggregator$RefreshViewClusterTask.class
+│ --rw----     2.0 fat    16622 bl defN 80-Feb-01 00:00 org/apache/helix/view/aggregator/HelixViewAggregator.class
+│ +-rw----     2.0 fat    16642 bl defN 80-Feb-01 00:00 org/apache/helix/view/aggregator/HelixViewAggregator.class
+│  -rw----     2.0 fat      858 bl defN 80-Feb-01 00:00 org/apache/helix/view/aggregator/HelixViewAggregatorMain$1.class
+│ --rw----     2.0 fat     5007 bl defN 80-Feb-01 00:00 org/apache/helix/view/aggregator/HelixViewAggregatorMain.class
+│ +-rw----     2.0 fat     5011 bl defN 80-Feb-01 00:00 org/apache/helix/view/aggregator/HelixViewAggregatorMain.class
+│  -rw----     2.0 fat     5013 bl defN 80-Feb-01 00:00 org/apache/helix/view/aggregator/SourceClusterConfigChangeAction.class
+│  -rw----     2.0 fat      826 bl defN 80-Feb-01 00:00 org/apache/helix/view/aggregator/ViewClusterRefresher$1.class
+│  -rw----     2.0 fat     2131 bl defN 80-Feb-01 00:00 org/apache/helix/view/aggregator/ViewClusterRefresher$ClusterPropertyDiff.class
+│ --rw----     2.0 fat    12371 bl defN 80-Feb-01 00:00 org/apache/helix/view/aggregator/ViewClusterRefresher.class
+│ +-rw----     2.0 fat    12383 bl defN 80-Feb-01 00:00 org/apache/helix/view/aggregator/ViewClusterRefresher.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/helix/view/common/
+│  -rw----     2.0 fat     1431 bl defN 80-Feb-01 00:00 org/apache/helix/view/common/ClusterViewEvent$Type.class
+│  -rw----     2.0 fat     1211 bl defN 80-Feb-01 00:00 org/apache/helix/view/common/ClusterViewEvent.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/helix/view/dataprovider/
+│  -rw----     2.0 fat      845 bl defN 80-Feb-01 00:00 org/apache/helix/view/dataprovider/SourceClusterDataProvider$1.class
+│  -rw----     2.0 fat     9447 bl defN 80-Feb-01 00:00 org/apache/helix/view/dataprovider/SourceClusterDataProvider.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/helix/view/monitoring/
+│  -rw----     2.0 fat     4301 bl defN 80-Feb-01 00:00 org/apache/helix/view/monitoring/ViewAggregatorMonitor.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/helix/view/statemodel/
+│  -rw----     2.0 fat     3455 bl defN 80-Feb-01 00:00 org/apache/helix/view/statemodel/DistViewAggregatorStateModel.class
+│  -rw----     2.0 fat     1182 bl defN 80-Feb-01 00:00 org/apache/helix/view/statemodel/DistViewAggregatorStateModelFactory.class
+│ -37 files, 99431 bytes uncompressed, 38455 bytes compressed:  61.3%
+│ +37 files, 99467 bytes uncompressed, 38476 bytes compressed:  61.3%
+├── org/apache/helix/view/aggregator/HelixViewAggregator.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -291,22 +291,22 @@
+│ │    #285 = Utf8               key
+│ │    #286 = Utf8               source
+│ │    #287 = Utf8               Lorg/apache/helix/api/config/ViewClusterSourceConfig;
+│ │    #288 = Class              #452          // org/apache/helix/view/aggregator/SourceClusterConfigChangeAction
+│ │    #289 = Class              #471          // org/apache/helix/api/config/ViewClusterSourceConfig
+│ │    #290 = Class              #525          // java/lang/Throwable
+│ │    #291 = Utf8               refreshViewCluster
+│ │ -  #292 = Utf8               Ljava/lang/IllegalArgumentException;
+│ │ -  #293 = Utf8               propertyType
+│ │ -  #294 = Utf8               Lorg/apache/helix/PropertyType;
+│ │ -  #295 = Utf8               startRefreshMs
+│ │ -  #296 = Utf8               dataProviderFailure
+│ │ -  #297 = Utf8               viewClusterFailure
+│ │ -  #298 = Utf8               providerView
+│ │ -  #299 = Utf8               Ljava/util/Set;
+│ │ +  #292 = Utf8               providerView
+│ │ +  #293 = Utf8               Ljava/util/Set;
+│ │ +  #294 = Utf8               Ljava/lang/IllegalArgumentException;
+│ │ +  #295 = Utf8               propertyType
+│ │ +  #296 = Utf8               Lorg/apache/helix/PropertyType;
+│ │ +  #297 = Utf8               startRefreshMs
+│ │ +  #298 = Utf8               dataProviderFailure
+│ │ +  #299 = Utf8               viewClusterFailure
+...
+
+17 / 17 target/reference/helix-view-aggregator-1.0.4-pkg.tar helix-view-aggregator/target/helix-view-aggregator-1.0.4-pkg.tar
+--- target/reference/helix-view-aggregator-1.0.4-pkg.tar
++++ helix-view-aggregator/target/helix-view-aggregator-1.0.4-pkg.tar
+├── file list
+│ @@ -155,20 +155,20 @@
+│  -rwxr-xr-x   0 root         (0) root         (0)    62983 2022-06-09 20:11:46.000000 helix-view-aggregator-1.0.4/repo/javax/activation/activation/1.1/activation-1.1.jar
+│  -rwxr-xr-x   0 root         (0) root         (0)    26586 2022-06-09 20:11:46.000000 helix-view-aggregator-1.0.4/repo/javax/annotation/javax.annotation-api/1.3.2/javax.annotation-api-1.3.2.jar
+│  -rwxr-xr-x   0 root         (0) root         (0)    89967 2022-06-09 20:11:46.000000 helix-view-aggregator-1.0.4/repo/javax/xml/bind/jaxb-api/2.1/jaxb-api-2.1.jar
+│  -rwxr-xr-x   0 root         (0) root         (0)    23346 2022-06-09 20:11:46.000000 helix-view-aggregator-1.0.4/repo/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar
+│  -rwxr-xr-x   0 root         (0) root         (0)   501879 2022-06-09 20:11:46.000000 helix-view-aggregator-1.0.4/repo/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar
+│  -rwxr-xr-x   0 root         (0) root         (0)   832410 2022-06-09 20:11:46.000000 helix-view-aggregator-1.0.4/repo/org/apache/commons/commons-math/2.1/commons-math-2.1.jar
+│  -rwxr-xr-x   0 root         (0) root         (0)  2213560 2022-06-09 20:11:46.000000 helix-view-aggregator-1.0.4/repo/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar
+│ --rwxr-xr-x   0 root         (0) root         (0)   259777 2022-06-09 20:11:46.000000 helix-view-aggregator-1.0.4/repo/org/apache/helix/helix-common/1.0.4/helix-common-1.0.4.jar
+│ --rwxr-xr-x   0 root         (0) root         (0)  2150783 2022-06-09 20:11:46.000000 helix-view-aggregator-1.0.4/repo/org/apache/helix/helix-core/1.0.4/helix-core-1.0.4.jar
+│ --rwxr-xr-x   0 root         (0) root         (0)    45257 2022-06-09 20:11:46.000000 helix-view-aggregator-1.0.4/repo/org/apache/helix/helix-view-aggregator/1.0.4/helix-view-aggregator-1.0.4.jar
+│ --rwxr-xr-x   0 root         (0) root         (0)    22458 2022-06-09 20:11:46.000000 helix-view-aggregator-1.0.4/repo/org/apache/helix/metadata-store-directory-common/1.0.4/metadata-store-directory-common-1.0.4.jar
+│ +-rwxr-xr-x   0 root         (0) root         (0)   260194 2022-06-09 20:11:46.000000 helix-view-aggregator-1.0.4/repo/org/apache/helix/helix-common/1.0.4/helix-common-1.0.4.jar
+│ +-rwxr-xr-x   0 root         (0) root         (0)  2152397 2022-06-09 20:11:46.000000 helix-view-aggregator-1.0.4/repo/org/apache/helix/helix-core/1.0.4/helix-core-1.0.4.jar
+│ +-rwxr-xr-x   0 root         (0) root         (0)    45278 2022-06-09 20:11:46.000000 helix-view-aggregator-1.0.4/repo/org/apache/helix/helix-view-aggregator/1.0.4/helix-view-aggregator-1.0.4.jar
+│ +-rwxr-xr-x   0 root         (0) root         (0)    22462 2022-06-09 20:11:46.000000 helix-view-aggregator-1.0.4/repo/org/apache/helix/metadata-store-directory-common/1.0.4/metadata-store-directory-common-1.0.4.jar
+│  -rwxr-xr-x   0 root         (0) root         (0)    23331 2022-06-09 20:11:46.000000 helix-view-aggregator-1.0.4/repo/org/apache/helix/metrics-common/1.0.4/metrics-common-1.0.4.jar
+│ --rwxr-xr-x   0 root         (0) root         (0)   224430 2022-06-09 20:11:46.000000 helix-view-aggregator-1.0.4/repo/org/apache/helix/zookeeper-api/1.0.4/zookeeper-api-1.0.4.jar
+│ +-rwxr-xr-x   0 root         (0) root         (0)   224818 2022-06-09 20:11:46.000000 helix-view-aggregator-1.0.4/repo/org/apache/helix/zookeeper-api/1.0.4/zookeeper-api-1.0.4.jar
+│  -rwxr-xr-x   0 root         (0) root         (0)   780321 2022-06-09 20:11:46.000000 helix-view-aggregator-1.0.4/repo/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar
+│  -rwxr-xr-x   0 root         (0) root         (0)   328593 2022-06-09 20:11:46.000000 helix-view-aggregator-1.0.4/repo/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
+│  -rwxr-xr-x   0 root         (0) root         (0)   301872 2022-06-09 20:11:46.000000 helix-view-aggregator-1.0.4/repo/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar
+│  -rwxr-xr-x   0 root         (0) root         (0)  1790452 2022-06-09 20:11:46.000000 helix-view-aggregator-1.0.4/repo/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar
+│  -rwxr-xr-x   0 root         (0) root         (0)    24279 2022-06-09 20:11:46.000000 helix-view-aggregator-1.0.4/repo/org/apache/logging/log4j/log4j-slf4j-impl/2.17.1/log4j-slf4j-impl-2.17.1.jar
+│  -rwxr-xr-x   0 root         (0) root         (0)    20437 2022-06-09 20:11:46.000000 helix-view-aggregator-1.0.4/repo/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.jar
+│  -rwxr-xr-x   0 root         (0) root         (0)   994800 2022-06-09 20:11:46.000000 helix-view-aggregator-1.0.4/repo/org/apache/zookeeper/zookeeper/3.5.9/zookeeper-3.5.9.jar
