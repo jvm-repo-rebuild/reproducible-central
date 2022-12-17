@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Jackrabbit FileVault - Package Maven Plugin
+group-id=org.apache.jackrabbit
+artifact-id=filevault-package-maven-plugin
+version=1.3.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/jackrabbit-filevault-package-maven-plugin.git
+source.scm.tag=filevault-package-maven-plugin-1.3.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.3.9
+
+# output
+
+outputs.0.filename=filevault-package-maven-plugin-1.3.2.pom
+outputs.0.length=39462
+outputs.0.checksums.sha512=52f090a0df84e1689bfa1a9d461603df90872bc891e1998da3ae3c2ebe1205455529e94b40ca6e8811a508451150f3cd27503df84dcd2343238be36f342a4f85
+
+outputs.1.filename=filevault-package-maven-plugin-1.3.2.jar
+outputs.1.length=180045
+outputs.1.checksums.sha512=ce1a4392c154757d1254deafb11a3bb87f308beb1c55fa195a740a1d79d4e3d9264ba7bb644257948aadc1c35dd7bc24c4f1e93231829bff3693382dd2c9f9c2
+
+outputs.2.filename=filevault-package-maven-plugin-1.3.2-source-release.zip
+outputs.2.length=645029
+outputs.2.checksums.sha512=72f818109ca27065e66f9df2c12ae09df0f68b2d80c75b38f5a3f42154564a24176165985cf733a7b72687b3c7035fee03519891a4aff21afb338f1ed28d59da
+
+outputs.3.filename=filevault-package-maven-plugin-1.3.2-sources.jar
+outputs.3.length=118218
+outputs.3.checksums.sha512=d745c556f1f4c40a1388d96e08fbaa2c1118249c325e106682561c4b4945c8cde138d052cf38cefc982f306c4b97cf86f60469e96d0ba70d22faec0397f224ca

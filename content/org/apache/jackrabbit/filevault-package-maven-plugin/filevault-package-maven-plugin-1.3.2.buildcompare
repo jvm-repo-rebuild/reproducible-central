@@ -1,0 +1,7 @@
+version=1.3.2
+ok=4
+ko=0
+okFiles="filevault-package-maven-plugin-1.3.2.pom filevault-package-maven-plugin-1.3.2.jar filevault-package-maven-plugin-1.3.2-source-release.zip filevault-package-maven-plugin-1.3.2-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
