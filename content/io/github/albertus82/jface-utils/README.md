@@ -13,6 +13,7 @@ rebuilding **6 releases** of io.github.albertus82:jface-utils:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [19.0.6](https://search.maven.org/artifact/io.github.albertus82/jface-utils/19.0.6/pom) | | | |
 | [19.0.5](https://search.maven.org/artifact/io.github.albertus82/jface-utils/19.0.5/pom) | [mvn jdk11](jface-utils-19.0.5.buildspec) | [result](jface-utils-19.0.5.buildinfo): [3 :heavy_check_mark: ](jface-utils-19.0.5.buildcompare) | 777K |
 | [19.0.4](https://search.maven.org/artifact/io.github.albertus82/jface-utils/19.0.4/pom) | [mvn jdk11](jface-utils-19.0.4.buildspec) | [result](jface-utils-19.0.4.buildinfo): [3 :heavy_check_mark: ](jface-utils-19.0.4.buildcompare) | 777K |
 | [19.0.3](https://search.maven.org/artifact/io.github.albertus82/jface-utils/19.0.3/pom) | [mvn jdk11](jface-utils-19.0.3.buildspec) | [result](jface-utils-19.0.3.buildinfo): [3 :heavy_check_mark: ](jface-utils-19.0.3.buildcompare) | 775K |
