@@ -29,8 +29,8 @@ outputs.0.0.length=31043
 outputs.0.0.checksums.sha512=8a9c68ad7b8cbbbd89ee503cc3cea77f5a64167e1314d20be50ee7e6b1085fb64abd8eeeae1f193fbfaa4d2f745811689de66fadc944e02fcd78fa449a73cb38
 
 outputs.0.1.filename=helix-1.0.4-source-release.zip
-outputs.0.1.length=197992505
-outputs.0.1.checksums.sha512=6c2c184f8734066842d19607b9cebad6fd2656f351084d018eee1c8d557c0975094f17fd20abf7e9403dda95b679ad480bdb63f2a20cc28fca9a41cdc193df06
+outputs.0.1.length=10283877
+outputs.0.1.checksums.sha512=a1a45c077d7b5c9f4ea389047c390ecba4a5bb68225edfb7216fa173df371e9a6bbaca1df06f6d6490ad0c2e24f27e05e51481c6cdded714c9645aee4998db8c
 
 outputs.1.coordinates=org.apache.helix:metrics-common
 
