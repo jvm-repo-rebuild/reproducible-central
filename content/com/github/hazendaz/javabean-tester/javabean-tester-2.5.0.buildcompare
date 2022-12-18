@@ -1,0 +1,8 @@
+version=2.5.0
+ok=4
+ko=1
+okFiles="javabean-tester-2.5.0.pom javabean-tester-2.5.0.jar javabean-tester-2.5.0-tests.jar javabean-tester-2.5.0-sources.jar"
+koFiles="javabean-tester-2.5.0-test-sources.jar"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/javabean-tester-2.5.0-test-sources.jar target/javabean-tester-2.5.0-test-sources.jar

@@ -1,0 +1,129 @@
+1 / 1 target/reference/javabean-tester-2.5.0-test-sources.jar target/javabean-tester-2.5.0-test-sources.jar
+--- target/reference/javabean-tester-2.5.0-test-sources.jar
++++ target/javabean-tester-2.5.0-test-sources.jar
+├── zipinfo -v {}
+│ @@ -627,15 +627,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          2022 Dec 17 17:40:42
+│ -  32-bit CRC value (hex):                         5c75645a
+│ +  32-bit CRC value (hex):                         87e837d6
+│    compressed size:                                451 bytes
+│    uncompressed size:                              815 bytes
+│    length of filename:                             38 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│ @@ -656,15 +656,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          2022 Dec 17 17:40:42
+│ -  32-bit CRC value (hex):                         d9f235e4
+│ +  32-bit CRC value (hex):                         2b1e0b34
+│    compressed size:                                673 bytes
+│    uncompressed size:                              1644 bytes
+│    length of filename:                             46 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│ @@ -685,15 +685,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          2022 Dec 17 17:40:42
+│ -  32-bit CRC value (hex):                         ec5e1b77
+│ +  32-bit CRC value (hex):                         aaf31d7a
+│    compressed size:                                787 bytes
+│    uncompressed size:                              2884 bytes
+│    length of filename:                             43 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+│ @@ -714,15 +714,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          2022 Dec 17 17:40:42
+│ -  32-bit CRC value (hex):                         1f94951a
+│ +  32-bit CRC value (hex):                         d49dafb0
+│    compressed size:                                826 bytes
+│    uncompressed size:                              4029 bytes
+│    length of filename:                             49 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── com/codebox/bean/SerializableBean.java
+│ @@ -1,11 +1,11 @@
+│  /*
+│   * JavaBean Tester (https://github.com/hazendaz/javabean-tester)
+│   *
+│ - * Copyright 2012-2022 Hazendaz.
+│ + * Copyright 2012-2021 Hazendaz.
+│   *
+│   * All rights reserved. This program and the accompanying materials
+│   * are made available under the terms of The Apache Software License,
+│   * Version 2.0 which accompanies this distribution, and is available at
+│   * http://www.apache.org/licenses/LICENSE-2.0.txt
+│   *
+│   * Contributors:
+├── com/codebox/builders/ExtensionBuilderTest.java
+│ @@ -1,11 +1,11 @@
+│  /*
+│   * JavaBean Tester (https://github.com/hazendaz/javabean-tester)
+│   *
+│ - * Copyright 2012-2022 Hazendaz.
+│ + * Copyright 2012-2021 Hazendaz.
+│   *
+│   * All rights reserved. This program and the accompanying materials
+│   * are made available under the terms of The Apache Software License,
+│   * Version 2.0 which accompanies this distribution, and is available at
+│   * http://www.apache.org/licenses/LICENSE-2.0.txt
+│   *
+│   * Contributors:
+├── com/codebox/instance/ClassInstanceTest.java
+│ @@ -1,11 +1,11 @@
+│  /*
+│   * JavaBean Tester (https://github.com/hazendaz/javabean-tester)
+│   *
+│ - * Copyright 2012-2022 Hazendaz.
+│ + * Copyright 2012-2021 Hazendaz.
+│   *
+│   * All rights reserved. This program and the accompanying materials
+│   * are made available under the terms of The Apache Software License,
+│   * Version 2.0 which accompanies this distribution, and is available at
+│   * http://www.apache.org/licenses/LICENSE-2.0.txt
+│   *
+│   * Contributors:
+├── com/codebox/instance/ConstructorInstanceTest.java
+│ @@ -1,11 +1,11 @@
+│  /*
+│   * JavaBean Tester (https://github.com/hazendaz/javabean-tester)
+│   *
+│ - * Copyright 2012-2022 Hazendaz.
+│ + * Copyright 2012-2021 Hazendaz.
+│   *
+│   * All rights reserved. This program and the accompanying materials
+│   * are made available under the terms of The Apache Software License,
+│   * Version 2.0 which accompanies this distribution, and is available at
+│   * http://www.apache.org/licenses/LICENSE-2.0.txt
+│   *
+│   * Contributors:
+
