@@ -1,0 +1,7 @@
+version=1.3.1
+ok=5
+ko=0
+okFiles="mybatis-scala-parent_2.13-1.3.1.pom mybatis-scala-parent_2.13-1.3.1-site.xml mybatis-scala-core_2.13-1.3.1.pom mybatis-scala-core_2.13-1.3.1.jar mybatis-scala-core_2.13-1.3.1-sources.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"

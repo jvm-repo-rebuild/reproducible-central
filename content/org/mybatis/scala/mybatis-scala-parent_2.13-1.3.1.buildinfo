@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=mybatis-scala-parent
+group-id=org.mybatis.scala
+artifact-id=mybatis-scala-parent_2.13
+version=1.3.1
+
+# source information
+source.scm.uri=scm:git:ssh://github.com/mybatis/scala.git
+source.scm.tag=mybatis-scala-parent_2.13-1.3.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=mybatis-scala-core_2.13
+
+# aggregated output
+
+outputs.0.coordinates=org.mybatis.scala:mybatis-scala-parent_2.13
+
+outputs.0.0.filename=mybatis-scala-parent_2.13-1.3.1.pom
+outputs.0.0.length=6124
+outputs.0.0.checksums.sha512=5f5225dab97866e09c14636fff3c4a25deb2c22cf1f6fb7ba66f3c207a94a3f516c9d45e8f63fb7f19fcf7a64059f8f473c4d257e5df756161511985618cd3bd
+
+outputs.0.1.filename=mybatis-scala-parent_2.13-1.3.1-site.xml
+outputs.0.1.length=1140
+outputs.0.1.checksums.sha512=bce09cbd67f5c65e6afd526d0141e56d6b26f54917ad24a40d00be27d29103a5c66a21f0a2b2b5fd6493a0b77073643d805ae28afcf8fbc241afdb4d0abf3d15
+
+outputs.1.coordinates=org.mybatis.scala:mybatis-scala-core_2.13
+
+outputs.1.0.filename=mybatis-scala-core_2.13-1.3.1.pom
+outputs.1.0.length=4266
+outputs.1.0.checksums.sha512=159ab4bd8015726cab885f55a911ac88d3b341b3656665b5c9d08102b79c8599d325e2415a30feb9b5fcee6f9255bd67403944800673a31615742a68b5eafef0
+
+outputs.1.1.filename=mybatis-scala-core_2.13-1.3.1.jar
+outputs.1.1.length=263145
+outputs.1.1.checksums.sha512=6fe7c6cb80ccbee227c66703c02292825b257f140790929807b7eb37adf979256ec90c3997fdff31f3bae68573d6675686cf247d92abf403fc9215bfb4bbc426
+
+outputs.1.2.filename=mybatis-scala-core_2.13-1.3.1-sources.jar
+outputs.1.2.length=52491
+outputs.1.2.checksums.sha512=39dd3fa3d943fc68282463e9494dc69d4f8502eecd506f72ed1e2148af21bd9f753dbdeb1e52a0f1c379e021d7dc3fa8948c6a9085c9d3416cdef82b085ab8e5
