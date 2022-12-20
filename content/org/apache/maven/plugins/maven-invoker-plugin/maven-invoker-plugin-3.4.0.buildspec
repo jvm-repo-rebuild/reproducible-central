@@ -1,0 +1,24 @@
+# see instructions https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/BUILDSPEC.md
+
+# Central Repository coordinates for the Reference release
+groupId=org.apache.maven.plugins
+artifactId=maven-invoker-plugin
+version=3.4.0
+
+display=${groupId}:${artifactId}
+
+# Source code
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+# Rebuild environment prerequisites
+tool=mvn
+jdk=11
+newline=lf
+
+# Rebuild command
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}/${artifactId}-${version}.diffoscope
+issue=
