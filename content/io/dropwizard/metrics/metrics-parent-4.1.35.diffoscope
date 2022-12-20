@@ -1,0 +1,91 @@
+1 / 2 target/reference/metrics-jdbi-4.1.35.jar metrics-jdbi/target/metrics-jdbi-4.1.35.jar
+--- target/reference/metrics-jdbi-4.1.35.jar
++++ metrics-jdbi/target/metrics-jdbi-4.1.35.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 19507 bytes, number of entries: 31
+│ +Zip file size: 19505 bytes, number of entries: 31
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat      987 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jdbi/
+│  -rw----     2.0 fat       69 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jdbi/pom.properties
+│  -rw----     2.0 fat     2448 bl defN 80-Feb-01 00:00 META-INF/maven/io.dropwizard.metrics/metrics-jdbi/pom.xml
+│ @@ -26,8 +26,8 @@
+│  -rw----     2.0 fat     2268 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi/strategies/NameStrategies.class
+│  -rw----     2.0 fat      273 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi/strategies/ShortNameStrategy$1.class
+│  -rw----     2.0 fat     2561 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi/strategies/ShortNameStrategy$ShortContextClassStrategy.class
+│  -rw----     2.0 fat     2715 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi/strategies/ShortNameStrategy$ShortSqlObjectStrategy.class
+│  -rw----     2.0 fat     1947 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi/strategies/ShortNameStrategy.class
+│  -rw----     2.0 fat      841 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi/strategies/SmartNameStrategy.class
+│  -rw----     2.0 fat      246 bl defN 80-Feb-01 00:00 com/codahale/metrics/jdbi/strategies/StatementNameStrategy.class
+│ -31 files, 30666 bytes uncompressed, 13311 bytes compressed:  56.6%
+│ +31 files, 30666 bytes uncompressed, 13309 bytes compressed:  56.6%
+├── META-INF/MANIFEST.MF
+│ @@ -5,17 +5,17 @@
+│   f query durations and rates.
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Integration for JDBI
+│  Bundle-SymbolicName: io.dropwizard.metrics.jdbi
+│  Bundle-Version: 4.1.35
+│  Created-By: Apache Maven Bundle Plugin 5.1.8
+│ -Export-Package: com.codahale.metrics.jdbi.strategies;uses:="org.skife.
+│ - jdbi.v2";version="4.1.35",com.codahale.metrics.jdbi;uses:="com.codaha
+│ - le.metrics,com.codahale.metrics.jdbi.strategies,org.skife.jdbi.v2";ve
+│ +Export-Package: com.codahale.metrics.jdbi;uses:="com.codahale.metrics,
+│ + com.codahale.metrics.jdbi.strategies,org.skife.jdbi.v2";version="4.1.
+│ + 35",com.codahale.metrics.jdbi.strategies;uses:="org.skife.jdbi.v2";ve
+│   rsion="4.1.35"
+│  Implementation-Title: Metrics Integration for JDBI
+│  Implementation-Version: 4.1.35
+│  Import-Package: com.codahale.metrics;version="[4.1,5)",com.codahale.me
+│   trics.jdbi.strategies,org.skife.jdbi.v2
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+│  Tool: Bnd-6.3.1.202206071316
+
+2 / 2 target/reference/metrics-jdbi3-4.1.35.jar metrics-jdbi3/target/metrics-jdbi3-4.1.35.jar
+--- target/reference/metrics-jdbi3-4.1.35.jar
++++ metrics-jdbi3/target/metrics-jdbi3-4.1.35.jar
+├── zipinfo -v {}
+│ @@ -61,15 +61,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│    file last modified on (DOS date/time):          1980 Feb 1 00:00:00
+│ -  32-bit CRC value (hex):                         187846ef
+│ +  32-bit CRC value (hex):                         6ede7698
+│    compressed size:                                491 bytes
+│    uncompressed size:                              1077 bytes
+│    length of filename:                             20 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/MANIFEST.MF
+│ @@ -5,17 +5,17 @@
+│   cts
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Metrics Integration for JDBI3
+│  Bundle-SymbolicName: io.dropwizard.metrics.jdbi3
+│  Bundle-Version: 4.1.35
+│  Created-By: Apache Maven Bundle Plugin 5.1.8
+│ -Export-Package: com.codahale.metrics.jdbi3.strategies;uses:="org.jdbi.
+│ - v3.core.statement";version="4.1.35",com.codahale.metrics.jdbi3;uses:=
+│ - "com.codahale.metrics,com.codahale.metrics.jdbi3.strategies,org.jdbi.
+│ +Export-Package: com.codahale.metrics.jdbi3;uses:="com.codahale.metrics
+│ + ,com.codahale.metrics.jdbi3.strategies,org.jdbi.v3.core.statement";ve
+│ + rsion="4.1.35",com.codahale.metrics.jdbi3.strategies;uses:="org.jdbi.
+│   v3.core.statement";version="4.1.35"
+│  Implementation-Title: Metrics Integration for JDBI3
+│  Implementation-Version: 4.1.35
+│  Import-Package: com.codahale.metrics;version="[4.1,5)",com.codahale.me
+│   trics.annotation;version="[4.1,5)",com.codahale.metrics.jdbi3.strateg
+│   ies,org.jdbi.v3.core.extension,org.jdbi.v3.core.statement
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
