@@ -1,0 +1,7 @@
+version=1.4
+ok=4
+ko=0
+okFiles="maven-script-interpreter-1.4.pom maven-script-interpreter-1.4.jar maven-script-interpreter-1.4-source-release.zip maven-script-interpreter-1.4-sources.jar"
+koFiles=""
+reference_java_version="19 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

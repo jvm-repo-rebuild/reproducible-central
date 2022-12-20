@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Script Interpreter
+group-id=org.apache.maven.shared
+artifact-id=maven-script-interpreter
+version=1.4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-script-interpreter.git
+source.scm.tag=maven-script-interpreter-1.4
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=19
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=maven-script-interpreter-1.4.pom
+outputs.0.length=4271
+outputs.0.checksums.sha512=55138118a09ef5e182675f032c94bab5bdbcb92a2276f3a2d2c73a22248dd6202d07ea6310b321ef6c599aaed9f156ba7766136c7019a8a91eeab190b7f2be5d
+
+outputs.1.filename=maven-script-interpreter-1.4.jar
+outputs.1.length=22545
+outputs.1.checksums.sha512=eb865a0c8b92d25c3d7205c87e12cfc167b34c592a8faf2e4c3cd49b594f96bd7f6ec4f3b56853b7d7ec558b7cc1ddd6488e3f9cda528a174ce0421084a75236
+
+outputs.2.filename=maven-script-interpreter-1.4-source-release.zip
+outputs.2.length=52998
+outputs.2.checksums.sha512=4173092f6ad44b9d1948596b9f7656b526e0f2e572130a05a56f5304839f7b56e498d16ce996c4a0e68dfd48616fa9c5d12f15eab308fe15fa46b96808fe8fc3
+
+outputs.3.filename=maven-script-interpreter-1.4-sources.jar
+outputs.3.length=22010
+outputs.3.checksums.sha512=f9ff6535058c7f19b0ab0a41a96eb6b31bb02bac76e275c09800e191a1fe586506419360baac98442aa3d36bcb0ffde0e2d9d55047133618486efa3e21c2c97a
