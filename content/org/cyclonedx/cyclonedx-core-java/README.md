@@ -13,6 +13,7 @@ rebuilding **26 releases** of org.cyclonedx:cyclonedx-core-java:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [7.3.1](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-core-java/7.3.1/pom) | | | |
 | [7.3.0](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-core-java/7.3.0/pom) | [mvn jdk8](cyclonedx-core-java-7.3.0.buildspec) | [result](cyclonedx-core-java-7.3.0.buildinfo): [3 :heavy_check_mark: ](cyclonedx-core-java-7.3.0.buildcompare) | 3.4M |
 | [7.2.1](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-core-java/7.2.1/pom) | [mvn jdk8](cyclonedx-core-java-7.2.1.buildspec) | [result](cyclonedx-core-java-7.2.1.buildinfo): [3 :heavy_check_mark: ](cyclonedx-core-java-7.2.1.buildcompare) | 3.4M |
 | [7.2.0](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-core-java/7.2.0/pom) | [mvn jdk8](cyclonedx-core-java-7.2.0.buildspec) | [result](cyclonedx-core-java-7.2.0.buildinfo): [3 :heavy_check_mark: ](cyclonedx-core-java-7.2.0.buildcompare) | 3.4M |

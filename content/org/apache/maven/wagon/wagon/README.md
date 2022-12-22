@@ -34,6 +34,7 @@ rebuilding **7 releases** of org.apache.maven.wagon:wagon:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.5.3](https://search.maven.org/artifact/org.apache.maven.wagon/wagon/3.5.3/pom) | | | |
 | [3.5.2](https://search.maven.org/artifact/org.apache.maven.wagon/wagon/3.5.2/pom) | [mvn jdk8 w](wagon-3.5.2.buildspec) | [result](wagon-3.5.2.buildinfo): [50 :heavy_check_mark: ](wagon-3.5.2.buildcompare) | 3.2M |
 | [3.5.1](https://search.maven.org/artifact/org.apache.maven.wagon/wagon/3.5.1/pom) | [mvn jdk8 w](wagon-3.5.1.buildspec) | [result](wagon-3.5.1.buildinfo): [50 :heavy_check_mark: ](wagon-3.5.1.buildcompare) | 3.2M |
 | [3.5.0](https://search.maven.org/artifact/org.apache.maven.wagon/wagon/3.5.0/pom) | [mvn jdk8 w](wagon-3.5.0.buildspec) | [result](wagon-3.5.0.buildinfo): [50 :heavy_check_mark: ](wagon-3.5.0.buildcompare) | 3.6M |
