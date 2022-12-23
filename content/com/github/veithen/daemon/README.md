@@ -23,6 +23,7 @@ rebuilding **2 releases** of com.github.veithen.daemon:daemon:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.5.0](https://search.maven.org/artifact/com.github.veithen.daemon/daemon/0.5.0/pom) | | | |
 | [0.4.1](https://search.maven.org/artifact/com.github.veithen.daemon/daemon/0.4.1/pom) | [mvn jdk11](daemon-0.4.1.buildspec) | [result](daemon-0.4.1.buildinfo): [17 :heavy_check_mark: ](daemon-0.4.1.buildcompare) | 353K |
 | [0.4.0](https://search.maven.org/artifact/com.github.veithen.daemon/daemon/0.4.0/pom) | [mvn jdk11](daemon-0.4.0.buildspec) | [result](daemon-0.4.0.buildinfo): [17 :heavy_check_mark: ](daemon-0.4.0.buildcompare) | 352K |
 

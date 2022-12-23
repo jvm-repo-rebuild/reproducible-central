@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/cyclonedx/cyclonedx-core-java.git](https://github.com/cyclonedx/cyclonedx-core-java.git)
 
-rebuilding **26 releases** of org.cyclonedx:cyclonedx-core-java:
-- **26** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **27 releases** of org.cyclonedx:cyclonedx-core-java:
+- **27** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [7.3.1](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-core-java/7.3.1/pom) | | | |
+| [7.3.1](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-core-java/7.3.1/pom) | [mvn jdk8](cyclonedx-core-java-7.3.1.buildspec) | [result](cyclonedx-core-java-7.3.1.buildinfo): [3 :heavy_check_mark: ](cyclonedx-core-java-7.3.1.buildcompare) | 3.4M |
 | [7.3.0](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-core-java/7.3.0/pom) | [mvn jdk8](cyclonedx-core-java-7.3.0.buildspec) | [result](cyclonedx-core-java-7.3.0.buildinfo): [3 :heavy_check_mark: ](cyclonedx-core-java-7.3.0.buildcompare) | 3.4M |
 | [7.2.1](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-core-java/7.2.1/pom) | [mvn jdk8](cyclonedx-core-java-7.2.1.buildspec) | [result](cyclonedx-core-java-7.2.1.buildinfo): [3 :heavy_check_mark: ](cyclonedx-core-java-7.2.1.buildcompare) | 3.4M |
 | [7.2.0](https://search.maven.org/artifact/org.cyclonedx/cyclonedx-core-java/7.2.0/pom) | [mvn jdk8](cyclonedx-core-java-7.2.0.buildspec) | [result](cyclonedx-core-java-7.2.0.buildinfo): [3 :heavy_check_mark: ](cyclonedx-core-java-7.2.0.buildcompare) | 3.4M |

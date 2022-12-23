@@ -66,6 +66,7 @@ rebuilding **1 releases** of org.apache.cxf.fediz:fediz:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.6.1](https://search.maven.org/artifact/org.apache.cxf.fediz/fediz/1.6.1/pom) | | | |
 | [1.6.0](https://search.maven.org/artifact/org.apache.cxf.fediz/fediz/1.6.0/pom) | [mvn jdk8](fediz-1.6.0.buildspec) | [result](fediz-1.6.0.buildinfo): [107 :heavy_check_mark:  22 :warning:](fediz-1.6.0.buildcompare) [:memo:](https://github.com/apache/cxf-fediz/pull/63) | 530M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
