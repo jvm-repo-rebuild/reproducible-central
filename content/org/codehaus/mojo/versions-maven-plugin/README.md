@@ -13,6 +13,7 @@ rebuilding **7 releases** of org.codehaus.mojo:versions-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.14.2](https://search.maven.org/artifact/org.codehaus.mojo/versions-maven-plugin/2.14.2/pom) | | | |
 | [2.14.1](https://search.maven.org/artifact/org.codehaus.mojo/versions-maven-plugin/2.14.1/pom) | | | |
 | [2.14.0](https://search.maven.org/artifact/org.codehaus.mojo/versions-maven-plugin/2.14.0/pom) | [mvn jdk8](versions-maven-plugin-2.14.0.buildspec) | :x: |  |
 | [2.13.0](https://search.maven.org/artifact/org.codehaus.mojo/versions-maven-plugin/2.13.0/pom) | [mvn jdk8](versions-maven-plugin-2.13.0.buildspec) | [result](versions-maven-plugin-2.13.0.buildinfo): [4 :heavy_check_mark: ](versions-maven-plugin-2.13.0.buildcompare) | 1.6M |
