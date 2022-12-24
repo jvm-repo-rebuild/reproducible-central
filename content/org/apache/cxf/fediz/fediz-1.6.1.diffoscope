@@ -1,0 +1,248 @@
+1 / 4 target/reference/common-1.6.1.jar examples/wsclientWebapp/webservice/common/target/common-1.6.1.jar
+--- target/reference/common-1.6.1.jar
++++ examples/wsclientWebapp/webservice/common/target/common-1.6.1.jar
+├── zipinfo {}
+│ @@ -1,24 +1,24 @@
+│ -Zip file size: 13651 bytes, number of entries: 22
+│ +Zip file size: 13626 bytes, number of entries: 22
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 META-INF/
+│  -rw-r--r--  2.0 unx      403 b- defN 22-Dec-19 12:23 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 org/apache/hello_world_soap_http/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 org/apache/hello_world_soap_http/types/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 wsdl/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 META-INF/maven/org.apache.cxf.fediz.examples.wsclientWebapp.webservice/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 META-INF/maven/org.apache.cxf.fediz.examples.wsclientWebapp.webservice/common/
+│  -rw-r--r--  2.0 unx      644 b- defN 22-Dec-19 12:23 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Dec-19 12:23 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      207 b- defN 22-Dec-19 12:23 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx      827 b- defN 22-Dec-19 12:23 org/apache/hello_world_soap_http/Greeter.class
+│ --rw-r--r--  2.0 unx     2998 b- defN 22-Dec-19 12:23 org/apache/hello_world_soap_http/GreeterService.class
+│ +-rw-r--r--  2.0 unx     2960 b- defN 22-Dec-19 12:23 org/apache/hello_world_soap_http/GreeterService.class
+│  -rw-r--r--  2.0 unx      598 b- defN 22-Dec-19 12:23 org/apache/hello_world_soap_http/types/GreetMe.class
+│  -rw-r--r--  2.0 unx      998 b- defN 22-Dec-19 12:23 org/apache/hello_world_soap_http/types/GreetMeResponse.class
+│  -rw-r--r--  2.0 unx      832 b- defN 22-Dec-19 12:23 org/apache/hello_world_soap_http/types/ObjectFactory.class
+│  -rw-r--r--  2.0 unx      369 b- defN 22-Dec-19 12:23 org/apache/hello_world_soap_http/types/package-info.class
+│  -rw-r--r--  2.0 unx     3576 b- defN 22-Dec-19 12:23 wsdl/hello_world.wsdl
+│  -rw-r--r--  2.0 unx     3177 b- defN 22-Dec-19 12:23 META-INF/maven/org.apache.cxf.fediz.examples.wsclientWebapp.webservice/common/pom.xml
+│  -rw-r--r--  2.0 unx       96 b- defN 22-Dec-19 12:23 META-INF/maven/org.apache.cxf.fediz.examples.wsclientWebapp.webservice/common/pom.properties
+│ -22 files, 26083 bytes uncompressed, 10235 bytes compressed:  60.8%
+│ +22 files, 26045 bytes uncompressed, 10210 bytes compressed:  60.8%
+├── org/apache/hello_world_soap_http/GreeterService.class
+│ ├── procyon -ec {}
+│ │ @@ -7,15 +7,15 @@
+│ │  import javax.xml.ws.WebEndpoint;
+│ │  import javax.xml.ws.WebServiceFeature;
+│ │  import javax.xml.namespace.QName;
+│ │  import java.net.URL;
+│ │  import javax.xml.ws.WebServiceClient;
+│ │  import javax.xml.ws.Service;
+│ │  
+│ │ -@WebServiceClient(name = "GreeterService", wsdlLocation = "file:/Users/coheigea/src/apache/cxf-fediz/target/checkout/examples/wsclientWebapp/webservice/common/src/main/resources/wsdl/hello_world.wsdl", targetNamespace = "http://apache.org/hello_world_soap_http")
+│ │ +@WebServiceClient(name = "GreeterService", wsdlLocation = "file:/var/maven/app/examples/wsclientWebapp/webservice/common/src/main/resources/wsdl/hello_world.wsdl", targetNamespace = "http://apache.org/hello_world_soap_http")
+│ │  public class GreeterService extends Service
+│ │  {
+│ │      public static final URL WSDL_LOCATION;
+│ │      public static final QName SERVICE;
+│ │      public static final QName GreeterSoapPort;
+│ │      
+│ │      public GreeterService(final URL wsdlLocation) {
+│ │ @@ -53,15 +53,15 @@
+│ │      }
+│ │      
+│ │      static {
+│ │          SERVICE = new QName("http://apache.org/hello_world_soap_http", "GreeterService");
+│ │          GreeterSoapPort = new QName("http://apache.org/hello_world_soap_http", "GreeterSoapPort");
+│ │          URL url = null;
+│ │          try {
+│ │ -            url = new URL("file:/Users/coheigea/src/apache/cxf-fediz/target/checkout/examples/wsclientWebapp/webservice/common/src/main/resources/wsdl/hello_world.wsdl");
+│ │ +            url = new URL("file:/var/maven/app/examples/wsclientWebapp/webservice/common/src/main/resources/wsdl/hello_world.wsdl");
+│ │          }
+│ │          catch (final MalformedURLException e) {
+│ │ -            Logger.getLogger(GreeterService.class.getName()).log(Level.INFO, "Can not initialize the default wsdl from {0}", "file:/Users/coheigea/src/apache/cxf-fediz/target/checkout/examples/wsclientWebapp/webservice/common/src/main/resources/wsdl/hello_world.wsdl");
+│ │ +            Logger.getLogger(GreeterService.class.getName()).log(Level.INFO, "Can not initialize the default wsdl from {0}", "file:/var/maven/app/examples/wsclientWebapp/webservice/common/src/main/resources/wsdl/hello_world.wsdl");
+│ │          }
+│ │          WSDL_LOCATION = url;
+│ │      }
+│ │  }
+
+2 / 4 target/reference/common-1.6.1-sources.jar examples/wsclientWebapp/webservice/common/target/common-1.6.1-sources.jar
+--- target/reference/common-1.6.1-sources.jar
++++ examples/wsclientWebapp/webservice/common/target/common-1.6.1-sources.jar
+├── zipinfo {}
+│ @@ -1,24 +1,24 @@
+│ -Zip file size: 13144 bytes, number of entries: 22
+│ +Zip file size: 13121 bytes, number of entries: 22
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Dec-19 12:23 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 org/apache/hello_world_soap_http/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 org/apache/hello_world_soap_http/types/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 wsdl/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 META-INF/maven/org.apache.cxf.fediz.examples.wsclientWebapp.webservice/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 META-INF/maven/org.apache.cxf.fediz.examples.wsclientWebapp.webservice/common/
+│  -rw-r--r--  2.0 unx      644 b- defN 22-Dec-19 12:23 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Dec-19 12:23 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      207 b- defN 22-Dec-19 12:23 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     1085 b- defN 22-Dec-19 12:23 org/apache/hello_world_soap_http/Greeter.java
+│ --rw-r--r--  2.0 unx     3051 b- defN 22-Dec-19 12:23 org/apache/hello_world_soap_http/GreeterService.java
+│ +-rw-r--r--  2.0 unx     2937 b- defN 22-Dec-19 12:23 org/apache/hello_world_soap_http/GreeterService.java
+│  -rw-r--r--  2.0 unx      805 b- defN 22-Dec-19 12:23 org/apache/hello_world_soap_http/types/GreetMe.java
+│  -rw-r--r--  2.0 unx     1554 b- defN 22-Dec-19 12:23 org/apache/hello_world_soap_http/types/GreetMeResponse.java
+│  -rw-r--r--  2.0 unx     1258 b- defN 22-Dec-19 12:23 org/apache/hello_world_soap_http/types/ObjectFactory.java
+│  -rw-r--r--  2.0 unx      214 b- defN 22-Dec-19 12:23 org/apache/hello_world_soap_http/types/package-info.java
+│  -rw-r--r--  2.0 unx     3576 b- defN 22-Dec-19 12:23 wsdl/hello_world.wsdl
+│  -rw-r--r--  2.0 unx     3177 b- defN 22-Dec-19 12:23 META-INF/maven/org.apache.cxf.fediz.examples.wsclientWebapp.webservice/common/pom.xml
+│  -rw-r--r--  2.0 unx       96 b- defN 22-Dec-19 12:23 META-INF/maven/org.apache.cxf.fediz.examples.wsclientWebapp.webservice/common/pom.properties
+│ -22 files, 27089 bytes uncompressed, 9740 bytes compressed:  64.0%
+│ +22 files, 26975 bytes uncompressed, 9717 bytes compressed:  64.0%
+├── org/apache/hello_world_soap_http/Greeter.java
+│ @@ -5,15 +5,15 @@
+│  import javax.jws.WebService;
+│  import javax.xml.bind.annotation.XmlSeeAlso;
+│  import javax.xml.ws.RequestWrapper;
+│  import javax.xml.ws.ResponseWrapper;
+│  
+│  /**
+│   * This class was generated by Apache CXF 3.5.5
+│ - * 2022-12-19T14:44:24.688Z
+│ + * 2022-12-24T14:51:16.675Z
+│   * Generated source version: 3.5.5
+│   *
+│   */
+│  @WebService(targetNamespace = "http://apache.org/hello_world_soap_http", name = "Greeter")
+│  @XmlSeeAlso({org.apache.hello_world_soap_http.types.ObjectFactory.class})
+│  public interface Greeter {
+├── org/apache/hello_world_soap_http/GreeterService.java
+│ @@ -6,35 +6,35 @@
+│  import javax.xml.ws.WebEndpoint;
+│  import javax.xml.ws.WebServiceClient;
+│  import javax.xml.ws.WebServiceFeature;
+│  import javax.xml.ws.Service;
+│  
+│  /**
+│   * This class was generated by Apache CXF 3.5.5
+│ - * 2022-12-19T14:44:24.732Z
+│ + * 2022-12-24T14:51:16.693Z
+│   * Generated source version: 3.5.5
+│   *
+│   */
+│  @WebServiceClient(name = "GreeterService",
+│ -                  wsdlLocation = "file:/Users/coheigea/src/apache/cxf-fediz/target/checkout/examples/wsclientWebapp/webservice/common/src/main/resources/wsdl/hello_world.wsdl",
+│ +                  wsdlLocation = "file:/var/maven/app/examples/wsclientWebapp/webservice/common/src/main/resources/wsdl/hello_world.wsdl",
+│                    targetNamespace = "http://apache.org/hello_world_soap_http")
+│  public class GreeterService extends Service {
+│  
+│      public final static URL WSDL_LOCATION;
+│  
+│      public final static QName SERVICE = new QName("http://apache.org/hello_world_soap_http", "GreeterService");
+│      public final static QName GreeterSoapPort = new QName("http://apache.org/hello_world_soap_http", "GreeterSoapPort");
+│      static {
+│          URL url = null;
+│          try {
+│ -            url = new URL("file:/Users/coheigea/src/apache/cxf-fediz/target/checkout/examples/wsclientWebapp/webservice/common/src/main/resources/wsdl/hello_world.wsdl");
+│ +            url = new URL("file:/var/maven/app/examples/wsclientWebapp/webservice/common/src/main/resources/wsdl/hello_world.wsdl");
+│          } catch (MalformedURLException e) {
+│              java.util.logging.Logger.getLogger(GreeterService.class.getName())
+│                  .log(java.util.logging.Level.INFO,
+│ -                     "Can not initialize the default wsdl from {0}", "file:/Users/coheigea/src/apache/cxf-fediz/target/checkout/examples/wsclientWebapp/webservice/common/src/main/resources/wsdl/hello_world.wsdl");
+│ +                     "Can not initialize the default wsdl from {0}", "file:/var/maven/app/examples/wsclientWebapp/webservice/common/src/main/resources/wsdl/hello_world.wsdl");
+│          }
+│          WSDL_LOCATION = url;
+│      }
+│  
+│      public GreeterService(URL wsdlLocation) {
+│          super(wsdlLocation, SERVICE);
+│      }
+
+3 / 4 target/reference/fedizservice-1.6.1.war examples/wsclientWebapp/webservice/service/target/fedizservice.war
+--- target/reference/fedizservice-1.6.1.war
++++ examples/wsclientWebapp/webservice/service/target/fedizservice.war
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 28939769 bytes, number of entries: 100
+│ +Zip file size: 28939741 bytes, number of entries: 100
+│  -rw-r--r--  2.0 unx       82 b- defN 22-Dec-19 12:23 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 WEB-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 WEB-INF/classes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 WEB-INF/classes/META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 WEB-INF/classes/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 WEB-INF/classes/org/apache/
+│ @@ -17,15 +17,15 @@
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Dec-19 12:23 WEB-INF/classes/META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      204 b- defN 22-Dec-19 12:23 WEB-INF/classes/META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     1439 b- defN 22-Dec-19 12:23 WEB-INF/classes/org/apache/cxf/fediz/examples/service/GreeterImpl.class
+│  -rw-r--r--  2.0 unx      272 b- defN 22-Dec-19 12:23 WEB-INF/classes/stsTruststore.properties
+│  -rw-r--r--  2.0 unx     3005 b- defN 22-Dec-19 12:23 WEB-INF/classes/ststrust.jks
+│  -rw-r--r--  2.0 unx   122445 b- defN 22-Dec-19 12:23 WEB-INF/lib/asm-9.4.jar
+│  -rw-r--r--  2.0 unx  4771726 b- defN 22-Dec-19 12:23 WEB-INF/lib/bcprov-jdk15on-1.64.jar
+│ --rw-r--r--  2.0 unx    13651 b- defN 22-Dec-19 12:23 WEB-INF/lib/common-1.6.1.jar
+│ +-rw-r--r--  2.0 unx    13626 b- defN 22-Dec-19 12:23 WEB-INF/lib/common-1.6.1.jar
+│  -rw-r--r--  2.0 unx   353793 b- defN 22-Dec-19 12:23 WEB-INF/lib/commons-codec-1.15.jar
+│  -rw-r--r--  2.0 unx   162471 b- defN 22-Dec-19 12:23 WEB-INF/lib/cryptacular-1.2.4.jar
+│  -rw-r--r--  2.0 unx  1435610 b- defN 22-Dec-19 12:23 WEB-INF/lib/cxf-core-3.5.5.jar
+│  -rw-r--r--  2.0 unx   182643 b- defN 22-Dec-19 12:23 WEB-INF/lib/cxf-rt-bindings-soap-3.5.5.jar
+│  -rw-r--r--  2.0 unx    38471 b- defN 22-Dec-19 12:23 WEB-INF/lib/cxf-rt-bindings-xml-3.5.5.jar
+│  -rw-r--r--  2.0 unx   115318 b- defN 22-Dec-19 12:23 WEB-INF/lib/cxf-rt-databinding-jaxb-3.5.5.jar
+│  -rw-r--r--  2.0 unx   371935 b- defN 22-Dec-19 12:23 WEB-INF/lib/cxf-rt-frontend-jaxws-3.5.5.jar
+│ @@ -95,8 +95,8 @@
+│  -rw-r--r--  2.0 unx    84091 b- defN 22-Dec-19 12:23 WEB-INF/lib/xml-resolver-1.2.jar
+│  -rw-r--r--  2.0 unx   173411 b- defN 22-Dec-19 12:23 WEB-INF/lib/xmlschema-core-2.3.0.jar
+│  -rw-r--r--  2.0 unx  1128579 b- defN 22-Dec-19 12:23 WEB-INF/lib/xmlsec-2.3.0.jar
+│  -rw-r--r--  2.0 unx     1697 b- defN 22-Dec-19 12:23 WEB-INF/web.xml
+│  -rw-r--r--  2.0 unx     5914 b- defN 22-Dec-19 12:23 WEB-INF/wsdl/hello_world.wsdl
+│  -rw-r--r--  2.0 unx     4223 b- defN 22-Dec-19 12:23 META-INF/maven/org.apache.cxf.fediz.examples.wsclientWebapp.webservice/fedizservice/pom.xml
+│  -rw-r--r--  2.0 unx      102 b- defN 22-Dec-19 12:23 META-INF/maven/org.apache.cxf.fediz.examples.wsclientWebapp.webservice/fedizservice/pom.properties
+│ -100 files, 32716618 bytes uncompressed, 28924707 bytes compressed:  11.6%
+│ +100 files, 32716593 bytes uncompressed, 28924679 bytes compressed:  11.6%
+├── WEB-INF/lib/common-1.6.1.jar
+...
+
+4 / 4 target/reference/webapp-1.6.1.war examples/wsclientWebapp/webapp/target/fedizhelloworld.war
+--- target/reference/webapp-1.6.1.war
++++ examples/wsclientWebapp/webapp/target/fedizhelloworld.war
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 25543040 bytes, number of entries: 108
+│ +Zip file size: 25543012 bytes, number of entries: 108
+│  -rw-r--r--  2.0 unx       82 b- defN 22-Dec-19 12:23 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 WEB-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 WEB-INF/classes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 WEB-INF/classes/META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 WEB-INF/classes/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-19 12:23 WEB-INF/classes/org/apache/
+│ @@ -21,15 +21,15 @@
+│  -rw-r--r--  2.0 unx     2300 b- defN 22-Dec-19 12:23 WEB-INF/classes/logging.properties
+│  -rw-r--r--  2.0 unx      866 b- defN 22-Dec-19 12:23 WEB-INF/classes/org/apache/cxf/fediz/example/ApplicationContextProvider.class
+│  -rw-r--r--  2.0 unx     2020 b- defN 22-Dec-19 12:23 WEB-INF/classes/org/apache/cxf/fediz/example/ClaimsCallbackHandler.class
+│  -rw-r--r--  2.0 unx     6348 b- defN 22-Dec-19 12:23 WEB-INF/classes/org/apache/cxf/fediz/example/FederationServlet.class
+│  -rw-r--r--  2.0 unx     2071 b- defN 22-Dec-19 12:23 WEB-INF/classes/rp-ssl-key.jks
+│  -rw-r--r--  2.0 unx     1534 b- defN 22-Dec-19 12:23 WEB-INF/classes/webappKeystore.jks
+│  -rw-r--r--  2.0 unx   122445 b- defN 22-Dec-19 12:23 WEB-INF/lib/asm-9.4.jar
+│ --rw-r--r--  2.0 unx    13651 b- defN 22-Dec-19 12:23 WEB-INF/lib/common-1.6.1.jar
+│ +-rw-r--r--  2.0 unx    13626 b- defN 22-Dec-19 12:23 WEB-INF/lib/common-1.6.1.jar
+│  -rw-r--r--  2.0 unx   353793 b- defN 22-Dec-19 12:23 WEB-INF/lib/commons-codec-1.15.jar
+│  -rw-r--r--  2.0 unx   162471 b- defN 22-Dec-19 12:23 WEB-INF/lib/cryptacular-1.2.4.jar
+│  -rw-r--r--  2.0 unx  1435610 b- defN 22-Dec-19 12:23 WEB-INF/lib/cxf-core-3.5.5.jar
+│  -rw-r--r--  2.0 unx   182643 b- defN 22-Dec-19 12:23 WEB-INF/lib/cxf-rt-bindings-soap-3.5.5.jar
+│  -rw-r--r--  2.0 unx    38471 b- defN 22-Dec-19 12:23 WEB-INF/lib/cxf-rt-bindings-xml-3.5.5.jar
+│  -rw-r--r--  2.0 unx   115318 b- defN 22-Dec-19 12:23 WEB-INF/lib/cxf-rt-databinding-jaxb-3.5.5.jar
+│  -rw-r--r--  2.0 unx   708250 b- defN 22-Dec-19 12:23 WEB-INF/lib/cxf-rt-frontend-jaxrs-3.5.5.jar
+│ @@ -103,8 +103,8 @@
+│  -rw-r--r--  2.0 unx     3090 b- defN 22-Dec-19 12:23 WEB-INF/web.xml
+│  -rw-r--r--  2.0 unx     5914 b- defN 22-Dec-19 12:23 WEB-INF/wsdl/hello_world.wsdl
+│  -rw-r--r--  2.0 unx     1047 b- defN 22-Dec-19 12:23 index.html
+│  -rw-r--r--  2.0 unx      354 b- defN 22-Dec-19 12:23 secure/service.jsp
+│  -rw-r--r--  2.0 unx     1047 b- defN 22-Dec-19 12:23 secure/test.html
+│  -rw-r--r--  2.0 unx     4815 b- defN 22-Dec-19 12:23 META-INF/maven/org.apache.cxf.fediz.examples.wsclientWebapp/webapp/pom.xml
+│  -rw-r--r--  2.0 unx       85 b- defN 22-Dec-19 12:23 META-INF/maven/org.apache.cxf.fediz.examples.wsclientWebapp/webapp/pom.properties
+│ -108 files, 28727478 bytes uncompressed, 25526968 bytes compressed:  11.1%
+│ +108 files, 28727453 bytes uncompressed, 25526940 bytes compressed:  11.1%
+├── WEB-INF/lib/common-1.6.1.jar
+...
