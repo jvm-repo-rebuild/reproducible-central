@@ -11,6 +11,6 @@ jdk=8
 newline=lf
 
 command="mvn -Pmojo-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
-buildinfo=target/${artifactId}-${version}.buildinfo
+buildinfo=${artifactId}/target/${artifactId}-${version}.buildinfo
 
 issue=
