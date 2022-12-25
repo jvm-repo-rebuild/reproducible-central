@@ -1,0 +1,7 @@
+version=2.14.1
+ok=23
+ko=0
+okFiles="versions-2.14.1.pom versions-2.14.1-source-release.zip versions-api-2.14.1.pom versions-api-2.14.1.jar versions-api-2.14.1-sources.jar versions-model-2.14.1.pom versions-model-2.14.1.jar versions-model-2.14.1-sources.jar versions-common-2.14.1.pom versions-common-2.14.1.jar versions-common-2.14.1-sources.jar versions-test-2.14.1.pom versions-test-2.14.1.jar versions-test-2.14.1-sources.jar versions-enforcer-2.14.1.pom versions-enforcer-2.14.1.jar versions-enforcer-2.14.1-sources.jar versions-model-report-2.14.1.pom versions-model-report-2.14.1.jar versions-model-report-2.14.1-sources.jar versions-maven-plugin-2.14.1.pom versions-maven-plugin-2.14.1.jar versions-maven-plugin-2.14.1-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
