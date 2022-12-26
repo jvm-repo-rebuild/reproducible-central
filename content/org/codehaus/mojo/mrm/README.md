@@ -16,13 +16,13 @@ Source code: [https://github.com/mojohaus/mrm.git](https://github.com/mojohaus/m
 * [org.codehaus.mojo:mrm-webapp](https://search.maven.org/artifact/org.codehaus.mojo/mrm-webapp/)
 </details>
 
-rebuilding **2 releases** of org.codehaus.mojo:mrm:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **3 releases** of org.codehaus.mojo:mrm:
+- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.5.0](https://search.maven.org/artifact/org.codehaus.mojo/mrm/1.5.0/pom) | | | |
+| [1.5.0](https://search.maven.org/artifact/org.codehaus.mojo/mrm/1.5.0/pom) | [mvn jdk8](mrm-1.5.0.buildspec) | [result](mrm-1.5.0.buildinfo): [11 :heavy_check_mark: ](mrm-1.5.0.buildcompare) | 378K |
 | [1.4.1](https://search.maven.org/artifact/org.codehaus.mojo/mrm/1.4.1/pom) | [mvn jdk8](mrm-1.4.1.buildspec) | [result](mrm-1.4.1.buildinfo): [14 :heavy_check_mark: ](mrm-1.4.1.buildcompare) | 5.3M |
 | [1.4.0](https://search.maven.org/artifact/org.codehaus.mojo/mrm/1.4.0/pom) | [mvn jdk11](mrm-1.4.0.buildspec) | [result](mrm-1.4.0.buildinfo): [14 :heavy_check_mark: ](mrm-1.4.0.buildcompare) | 5.2M |
 
