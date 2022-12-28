@@ -25,6 +25,7 @@ rebuilding **9 releases** of org.mockito:mockito-core:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.11.0](https://search.maven.org/artifact/org.mockito/mockito-core/4.11.0/pom) | | | |
 | [4.10.0](https://search.maven.org/artifact/org.mockito/mockito-core/4.10.0/pom) | [gradle](mockito-4.10.0.buildspec) | [result](mockito-core-4.10.0.buildinfo): [22 :heavy_check_mark: ](mockito-core-4.10.0.buildcompare) | 1.3M |
 | [4.9.0](https://search.maven.org/artifact/org.mockito/mockito-core/4.9.0/pom) | [gradle](mockito-4.9.0.buildspec) | [result](mockito-core-4.9.0.buildinfo): [19 :heavy_check_mark: ](mockito-core-4.9.0.buildcompare) | 1.3M |
 | [4.8.1](https://search.maven.org/artifact/org.mockito/mockito-core/4.8.1/pom) | [gradle](mockito-4.8.1.buildspec) | [result](mockito-core-4.8.1.buildinfo): [19 :heavy_check_mark: ](mockito-core-4.8.1.buildcompare) | 1.3M |

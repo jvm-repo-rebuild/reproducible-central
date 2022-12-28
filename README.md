@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **1431 releases** of **369 projects**:
-   - **1037** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **1434 releases** of **370 projects**:
+   - **1040** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 394 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
@@ -49,7 +49,7 @@ Its objectives are to provide:
 | com.io7m.jade | <a name='com.io7m.jade:com.io7m.jade'></a>[com.io7m.jade](content/com/io7m/jade/README.md) | 2 | 2 :warning: |
 | com.ongres.stringprep | <a name='com.ongres.stringprep:parent'></a>[parent](content/com/ongres/stringprep/README.md) | 1 | 1 :warning: |
 | com.scalapenos | <a name='com.scalapenos:stamina_2.11'></a>[stamina_2.11](content/com/scalapenos/stamina/README.md) | 2 | 2 :heavy_check_mark: |
-| com.spotify | <a name='com.spotify:github-client'></a>[github-client](content/com/spotify/github-client/README.md) | 4 | 4 :heavy_check_mark: |
+| com.spotify | <a name='com.spotify:github-client'></a>[github-client](content/com/spotify/github-client/README.md) | 5 | 5 :heavy_check_mark: |
 | com.taobao.arthas | <a name='com.taobao.arthas:arthas-all'></a>[arthas-all](content/com/taobao/arthas/README.md) | 14 | 14 :warning: |
 | de.gematik.pki.gemlibpki | <a name='de.gematik.pki.gemlibpki:gemLibPki'></a>[gemLibPki](content/de/gematik/pki/gemlibpki/README.md) | 2 | 2 :warning: |
 | de.unentscheidbar | <a name='de.unentscheidbar:migratedb'></a>[migratedb](content/de/unentscheidbar/migratedb/README.md) | 2 | 2 :heavy_check_mark: |
@@ -58,9 +58,10 @@ Its objectives are to provide:
 | io.liftwizard | <a name='io.liftwizard:liftwizard'></a>[liftwizard](content/io/liftwizard/README.md) | 30 | 30 :heavy_check_mark: |
 | io.cucumber | <a name='io.cucumber:cucumber-expressions'></a>[cucumber-expressions](content/io/cucumber/cucumber-expressions/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='io.cucumber:cucumber-jvm'></a>[cucumber-jvm](content/io/cucumber/cucumber-jvm/README.md) | 2 | 2 :heavy_check_mark: |
-| | <a name='io.cucumber:gherkin'></a>[gherkin](content/io/cucumber/gherkin/README.md) | 2 | 2 :heavy_check_mark: |
+| | <a name='io.cucumber:gherkin'></a>[gherkin](content/io/cucumber/gherkin/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='io.cucumber:gherkin-utils'></a>[gherkin-utils](content/io/cucumber/gherkin-utils/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='io.cucumber:html-formatter'></a>[html-formatter](content/io/cucumber/html-formatter/README.md) | 1 | 1 :warning: |
+| | <a name='io.cucumber:junit-xml-formatter'></a>[junit-xml-formatter](content/io/cucumber/junit-xml-formatter/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='io.cucumber:messages'></a>[messages](content/io/cucumber/messages/README.md) | 2 | 2 :heavy_check_mark: |
 | io.dropwizard | <a name='io.dropwizard:dropwizard-project'></a>[dropwizard-project](content/io/dropwizard/core/README.md) | 46 | 43 :heavy_check_mark: / 3 :warning: |
 | io.dropwizard.metrics | <a name='io.dropwizard.metrics:metrics-parent'></a>[metrics-parent](content/io/dropwizard/metrics/README.md) | 34 | 13 :heavy_check_mark: / 21 :warning: |
@@ -392,7 +393,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 5 | 5 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 6 | 6 :warning: |
-| **Count:** | **369** | **1431** | **1037** :heavy_check_mark: **394** :warning: |
+| **Count:** | **370** | **1434** | **1040** :heavy_check_mark: **394** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -406,7 +407,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      26 mvn         7
     705 mvn         8
       1 mvn         9
-    534 mvn        11
+    537 mvn        11
       4 mvn        14
      10 mvn        15
      10 mvn        16
