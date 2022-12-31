@@ -1,0 +1,7 @@
+version=3.8.7
+ok=47
+ko=0
+okFiles="maven-3.8.7.pom maven-3.8.7-site.xml maven-model-3.8.7.pom maven-model-3.8.7.jar maven-model-3.8.7-sources.jar maven-artifact-3.8.7.pom maven-artifact-3.8.7.jar maven-artifact-3.8.7-sources.jar maven-plugin-api-3.8.7.pom maven-plugin-api-3.8.7.jar maven-plugin-api-3.8.7-sources.jar maven-builder-support-3.8.7.pom maven-builder-support-3.8.7.jar maven-builder-support-3.8.7-sources.jar maven-model-builder-3.8.7.pom maven-model-builder-3.8.7.jar maven-model-builder-3.8.7-sources.jar maven-settings-3.8.7.pom maven-settings-3.8.7.jar maven-settings-3.8.7-sources.jar maven-settings-builder-3.8.7.pom maven-settings-builder-3.8.7.jar maven-settings-builder-3.8.7-sources.jar maven-repository-metadata-3.8.7.pom maven-repository-metadata-3.8.7.jar maven-repository-metadata-3.8.7-sources.jar maven-resolver-provider-3.8.7.pom maven-resolver-provider-3.8.7.jar maven-resolver-provider-3.8.7-sources.jar maven-core-3.8.7.pom maven-core-3.8.7.jar maven-core-3.8.7-sources.jar maven-slf4j-provider-3.8.7.pom maven-slf4j-provider-3.8.7.jar maven-slf4j-provider-3.8.7-sources.jar maven-embedder-3.8.7.pom maven-embedder-3.8.7.jar maven-embedder-3.8.7-sources.jar maven-compat-3.8.7.pom maven-compat-3.8.7.jar maven-compat-3.8.7-sources.jar apache-maven-3.8.7.pom apache-maven-3.8.7-site.xml apache-maven-3.8.7-bin.zip apache-maven-3.8.7-bin.tar.gz apache-maven-3.8.7-src.zip apache-maven-3.8.7-src.tar.gz"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
