@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **1437 releases** of **370 projects**:
-   - **1043** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **1440 releases** of **370 projects**:
+   - **1046** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 394 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
@@ -149,7 +149,7 @@ Its objectives are to provide:
 | org.apache.maven.enforcer | <a name='org.apache.maven.enforcer:enforcer'></a>[enforcer](content/org/apache/maven/enforcer/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.maven.indexer | <a name='org.apache.maven.indexer:maven-indexer'></a>[maven-indexer](content/org/apache/maven/indexer/README.md) | 5 | 3 :heavy_check_mark: / 2 :warning: |
 | org.apache.maven.jxr | <a name='org.apache.maven.jxr:jxr'></a>[jxr](content/org/apache/maven/jxr/README.md) | 3 | 3 :heavy_check_mark: |
-| org.apache.maven | <a name='org.apache.maven:maven'></a>[maven](content/org/apache/maven/maven/README.md) | 7 | 4 :heavy_check_mark: / 3 :warning: |
+| org.apache.maven | <a name='org.apache.maven:maven'></a>[maven](content/org/apache/maven/maven/README.md) | 8 | 5 :heavy_check_mark: / 3 :warning: |
 | | <a name='org.apache.maven:maven-parent'></a>[maven-parent](content/org/apache/maven/parent/README.md) | 6 | 4 :heavy_check_mark: / 2 :warning: |
 | org.apache.maven.scm | <a name='org.apache.maven.scm:maven-scm'></a>[maven-scm](content/org/apache/maven/scm/README.md) | 7 | 7 :heavy_check_mark: |
 | org.apache.maven.surefire | <a name='org.apache.maven.surefire:surefire'></a>[surefire](content/org/apache/maven/surefire/README.md) | 3 | 3 :warning: |
@@ -312,7 +312,7 @@ Its objectives are to provide:
 | | <a name='org.apache.sling:slingfeature-maven-plugin'></a>[slingfeature-maven-plugin](content/org/apache/sling/slingfeature-maven-plugin/README.md) | 8 | 5 :heavy_check_mark: / 3 :warning: |
 | org.apache.tomee | <a name='org.apache.tomee:jakartaee-api'></a>[jakartaee-api](content/org/apache/tomee/jakartaee-api/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.ws.commons.axiom | <a name='org.apache.ws.commons.axiom:axiom'></a>[axiom](content/org/apache/ws/commons/axiom/README.md) | 1 | 1 :warning: |
-| org.codehaus.modello | <a name='org.codehaus.modello:modello'></a>[modello](content/org/codehaus/modello/README.md) | 1 | 1 :heavy_check_mark: |
+| org.codehaus.modello | <a name='org.codehaus.modello:modello'></a>[modello](content/org/codehaus/modello/README.md) | 2 | 2 :heavy_check_mark: |
 | org.codehaus.mojo | <a name='org.codehaus.mojo:animal-sniffer-parent'></a>[animal-sniffer-parent](content/org/codehaus/mojo/animal-sniffer/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:aspectj-maven-plugin'></a>[aspectj-maven-plugin](content/org/codehaus/mojo/aspectj-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:buildplan-maven-plugin'></a>[buildplan-maven-plugin](content/org/codehaus/mojo/buildplan-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
@@ -360,7 +360,7 @@ Its objectives are to provide:
 | | <a name='org.mybatis:mybatis-2-spring'></a>[mybatis-2-spring](content/org/mybatis/mybatis-2-spring/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.mybatis:mybatis-spring'></a>[mybatis-spring](content/org/mybatis/mybatis-spring/README.md) | 3 | 1 :heavy_check_mark: / 2 :warning: |
 | | <a name='org.mybatis:mybatis2'></a>[mybatis2](content/org/mybatis/mybatis2/README.md) | 1 | 1 :heavy_check_mark: |
-| | <a name='org.mybatis:mybatis-parent'></a>[mybatis-parent](content/org/mybatis/parent/README.md) | 3 | 3 :heavy_check_mark: |
+| | <a name='org.mybatis:mybatis-parent'></a>[mybatis-parent](content/org/mybatis/parent/README.md) | 4 | 4 :heavy_check_mark: |
 | org.mybatis.scala | <a name='org.mybatis.scala:mybatis-scala-parent_2.13'></a>[mybatis-scala-parent_2.13](content/org/mybatis/scala/README.md) | 1 | 1 :heavy_check_mark: |
 | org.mybatis.caches | <a name='org.mybatis.caches:mybatis-caffeine'></a>[mybatis-caffeine](content/org/mybatis/caches/mybatis-caffeine/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.mybatis.caches:mybatis-ehcache'></a>[mybatis-ehcache](content/org/mybatis/caches/mybatis-ehcache/README.md) | 1 | 1 :heavy_check_mark: |
@@ -393,7 +393,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 5 | 5 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 6 | 6 :warning: |
-| **Count:** | **370** | **1437** | **1043** :heavy_check_mark: **394** :warning: |
+| **Count:** | **370** | **1440** | **1046** :heavy_check_mark: **394** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -405,9 +405,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      13 gradle     11
      26 mvn         7
-    708 mvn         8
+    710 mvn         8
       1 mvn         9
-    537 mvn        11
+    538 mvn        11
       4 mvn        14
      10 mvn        15
      10 mvn        16
