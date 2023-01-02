@@ -13,5 +13,6 @@ newline=lf
 command="mvn -f java/pom.xml -Psign-source-javadoc clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=java/target/${artifactId}-${version}.buildinfo
 
+# as discovered in issue, this buildspec does not run the expected npm build prerequisite: perhaps https://github.com/jvm-repo-rebuild/reproducible-central/issues/15 can be used once implemented
 diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://github.com/cucumber/html-formatter/issues/207
