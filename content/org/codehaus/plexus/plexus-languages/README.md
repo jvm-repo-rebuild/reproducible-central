@@ -13,13 +13,15 @@ Source code: [https://github.com/codehaus-plexus/plexus-languages.git](https://g
 * [org.codehaus.plexus:plexus-languages](https://search.maven.org/artifact/org.codehaus.plexus/plexus-languages/)
 </details>
 
-rebuilding **5 releases** of org.codehaus.plexus:plexus-languages:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **6 releases** of org.codehaus.plexus:plexus-languages:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.1.2](https://search.maven.org/artifact/org.codehaus.plexus/plexus-languages/1.1.2/pom) | | | |
+| [1.1.2](https://search.maven.org/artifact/org.codehaus.plexus/plexus-languages/1.1.2/pom) | [mvn jdk19](plexus-languages-1.1.2.buildspec) | [result](plexus-java-1.1.2.buildinfo): [6 :heavy_check_mark: ](plexus-java-1.1.2.buildcompare) [:memo:](https://github.com/codehaus-plexus/plexus-languages/issues/59)
+[1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/org/codehaus/plexus/plexus-languages/plexus-languages-1.1.2.buildspec[0m
+ | 570K |
 | [1.1.1](https://search.maven.org/artifact/org.codehaus.plexus/plexus-languages/1.1.1/pom) | [mvn jdk11](plexus-languages-1.1.1.buildspec) | [result](plexus-java-1.1.1.buildinfo): [5 :heavy_check_mark:  1 :warning:](plexus-java-1.1.1.buildcompare) [:memo:](https://github.com/codehaus-plexus/plexus-languages/issues/59) | 570K |
 | [1.1.0](https://search.maven.org/artifact/org.codehaus.plexus/plexus-languages/1.1.0/pom) | [mvn jdk11 w](plexus-languages-1.1.0.buildspec) | [result](plexus-java-1.1.0.buildinfo): [5 :heavy_check_mark:  1 :warning:](plexus-java-1.1.0.buildcompare) [:memo:](https://github.com/codehaus-plexus/plexus-languages/issues/59) | 569K |
 | [1.0.7](https://search.maven.org/artifact/org.codehaus.plexus/plexus-languages/1.0.7/pom) | [mvn jdk11 w](plexus-languages-1.0.7.buildspec) | [result](plexus-java-1.0.7.buildinfo): [5 :heavy_check_mark:  1 :warning:](plexus-java-1.0.7.buildcompare) [:memo:](https://github.com/codehaus-plexus/plexus-languages/issues/59) | 567K |

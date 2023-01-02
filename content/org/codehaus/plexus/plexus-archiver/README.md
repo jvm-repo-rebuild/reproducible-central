@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/codehaus-plexus/plexus-archiver.git](https://github.com/codehaus-plexus/plexus-archiver.git)
 
-rebuilding **10 releases** of org.codehaus.plexus:plexus-archiver:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **11 releases** of org.codehaus.plexus:plexus-archiver:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.6.1](https://search.maven.org/artifact/org.codehaus.plexus/plexus-archiver/4.6.1/pom) | | | |
+| [4.6.1](https://search.maven.org/artifact/org.codehaus.plexus/plexus-archiver/4.6.1/pom) | [mvn jdk19](plexus-archiver-4.6.1.buildspec) | [result](plexus-archiver-4.6.1.buildinfo): [4 :heavy_check_mark: ](plexus-archiver-4.6.1.buildcompare) | 1.5M |
 | [4.6.0](https://search.maven.org/artifact/org.codehaus.plexus/plexus-archiver/4.6.0/pom) | [mvn jdk11](plexus-archiver-4.6.0.buildspec) | [result](plexus-archiver-4.6.0.buildinfo): [4 :heavy_check_mark: ](plexus-archiver-4.6.0.buildcompare) | 1.5M |
 | [4.5.0](https://search.maven.org/artifact/org.codehaus.plexus/plexus-archiver/4.5.0/pom) | [mvn jdk8](plexus-archiver-4.5.0.buildspec) | [result](plexus-archiver-4.5.0.buildinfo): [4 :heavy_check_mark: ](plexus-archiver-4.5.0.buildcompare) | 1.5M |
 | [4.4.0](https://search.maven.org/artifact/org.codehaus.plexus/plexus-archiver/4.4.0/pom) | [mvn jdk17](plexus-archiver-4.4.0.buildspec) | [result](plexus-archiver-4.4.0.buildinfo): [4 :heavy_check_mark: ](plexus-archiver-4.4.0.buildcompare) | 1.4M |

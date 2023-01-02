@@ -14,6 +14,6 @@ rebuilding **1 releases** of io.cucumber:html-formatter:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [20.2.1](https://search.maven.org/artifact/io.cucumber/html-formatter/20.2.1/pom) | | | |
-| [20.2.0](https://search.maven.org/artifact/io.cucumber/html-formatter/20.2.0/pom) | [mvn jdk11](html-formatter-20.2.0.buildspec) | [result](html-formatter-20.2.0.buildinfo): [2 :heavy_check_mark:  1 :warning:](html-formatter-20.2.0.buildcompare) [:mag:](html-formatter-20.2.0.diffoscope) | 13K |
+| [20.2.0](https://search.maven.org/artifact/io.cucumber/html-formatter/20.2.0/pom) | [mvn jdk11](html-formatter-20.2.0.buildspec) | [result](html-formatter-20.2.0.buildinfo): [2 :heavy_check_mark:  1 :warning:](html-formatter-20.2.0.buildcompare) [:mag:](html-formatter-20.2.0.diffoscope) [:memo:](https://github.com/cucumber/html-formatter/issues/207) | 13K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
