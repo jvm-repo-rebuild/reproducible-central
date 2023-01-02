@@ -1,0 +1,16 @@
+groupId=org.codehaus.plexus
+artifactId=plexus-languages
+display=${groupId}:${artifactId}
+version=1.1.2
+
+gitRepo=https://github.com/codehaus-plexus/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=19
+newline=lf
+
+command="mvn -Pplexus-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=plexus-java/target/plexus-java-${version}.buildinfo
+
+issue=https://github.com/codehaus-plexus/plexus-languages/issues/59

@@ -1,0 +1,51 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Languages
+group-id=org.codehaus.plexus
+artifact-id=plexus-languages
+version=1.1.2
+
+# source information
+source.scm.uri=scm:git:htts://github.com/codehaus-plexus/plexus-languages.git
+source.scm.tag=plexus-languages-1.1.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=19
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=plexus-java
+
+# aggregated output
+
+outputs.0.coordinates=org.codehaus.plexus:plexus-languages
+
+outputs.0.0.filename=plexus-languages-1.1.2.pom
+outputs.0.0.length=4142
+outputs.0.0.checksums.sha512=b990e29087d510c2a3c67f852a8f9ede63bba60f61c09d02b30e03ad418ab850429cd2bd7a4af60927ec397b2c15db13023c7c1b6cabb317f88c369af27e7736
+
+outputs.0.1.filename=plexus-languages-1.1.2-site.xml
+outputs.0.1.length=1182
+outputs.0.1.checksums.sha512=c892fe16bb64af6d50a4b035792b82bfc1501675871dca207d3465159a63d1bc8e1e4ed738298a1401c901c548243ad6c261a2d3a5e7bcbd8f89b43c97ddb4f0
+
+outputs.0.2.filename=plexus-languages-1.1.2-source-release.zip
+outputs.0.2.length=487843
+outputs.0.2.checksums.sha512=e22fe7205cb25b23ab9dc80a3d1e642c02e34a51ac0528ea0d808df3d47ed57d446f7f9e7a9433ddbddee50784a4f8143518dff2f6c6476632b3b27c76213a11
+
+outputs.1.coordinates=org.codehaus.plexus:plexus-java
+
+outputs.1.0.filename=plexus-java-1.1.2.pom
+outputs.1.0.length=4972
+outputs.1.0.checksums.sha512=eef35dd18c39426e7dcc9fdf51d677ce53b71599d85a45652e277e74ac71bc25a341e416930f04e1a5f96d263f544f5dc4cc3dea93c01526bc522045020a8b35
+
+outputs.1.1.filename=plexus-java-1.1.2.jar
+outputs.1.1.length=54620
+outputs.1.1.checksums.sha512=7639bae6c5ba80d92be0688c3cb97955beaf999df4e23e41bf40dbb8bed1e146d64ede70ff244367a9050385c78c7b5098158b264326efb96150144de5a748c3
+
+outputs.1.2.filename=plexus-java-1.1.2-sources.jar
+outputs.1.2.length=30179
+outputs.1.2.checksums.sha512=61f98d3f9d99a74a113faa838c136ceeaac471ab1670ea7a1ad8daede543d4b7ffd37f25d6c474dce93599e453148e58fafb20957fdea833caf61bb122e80c5c
