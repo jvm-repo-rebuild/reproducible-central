@@ -1,0 +1,1104 @@
+1 /       23 target/reference/org.apache.aries.jax.rs-2.0.2-source-release.zip target/org.apache.aries.jax.rs-2.0.2-source-release.zip
+--- target/reference/org.apache.aries.jax.rs-2.0.2-source-release.zip
++++ target/org.apache.aries.jax.rs-2.0.2-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 449829 bytes, number of entries: 440
+│ +Zip file size: 449845 bytes, number of entries: 440
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/.github/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/.github/workflows/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/integrations/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/integrations/cxf-jettison/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/integrations/cxf-jettison/cxf-jettison-itest/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/integrations/cxf-jettison/cxf-jettison-itest/src/
+│ @@ -179,15 +179,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/jax-rs.whiteboard/src/test/java/org/apache/aries/jax/rs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/jax-rs.whiteboard/src/test/java/org/apache/aries/jax/rs/whiteboard/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/jax-rs.whiteboard/src/test/java/org/apache/aries/jax/rs/whiteboard/internal/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/jax-rs.whiteboard/src/test/java/org/apache/aries/jax/rs/whiteboard/internal/cxf/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/jax-rs.whiteboard/src/test/java/org/apache/aries/jax/rs/whiteboard/internal/introspection/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/jax-rs.whiteboard/src/test/java/test/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/jax-rs.whiteboard/src/test/java/test/types/
+│ --rw-r--r--  2.0 unx     4846 b- defN 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/.flattened-pom.xml
+│ +-rw-r--r--  2.0 unx     5084 b- defN 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/.flattened-pom.xml
+│  -rw-r--r--  2.0 unx      328 b- defN 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/.github/dependabot.yaml
+│  -rw-r--r--  2.0 unx     1481 b- defN 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/.github/workflows/maven.yml
+│  -rw-r--r--  2.0 unx      176 b- defN 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/.gitignore
+│  -rw-r--r--  2.0 unx      193 b- defN 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/.mailmap
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/LICENSE
+│  -rw-r--r--  2.0 unx     4192 b- defN 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/README.md
+│  -rw-r--r--  2.0 unx    15608 b- defN 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/changelog.md
+│ @@ -435,8 +435,8 @@
+│  -rw-r--r--  2.0 unx     1077 b- defN 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/jax-rs.whiteboard/src/test/java/test/types/PlainResourceSeveralOperationsWithNameBinding.java
+│  -rw-r--r--  2.0 unx     2180 b- defN 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/jax-rs.whiteboard/src/test/java/test/types/ResourceMethodInfoDTOWrapper.java
+│  -rw-r--r--  2.0 unx     1152 b- defN 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/jax-rs.whiteboard/src/test/java/test/types/ResourceWithSubResource.java
+│  -rw-r--r--  2.0 unx     1448 b- defN 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/jax-rs.whiteboard/src/test/java/test/types/SubResource.java
+│  -rw-r--r--  2.0 unx    34968 b- defN 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/pom.xml
+│  -rw-r--r--  2.0 unx     1179 b- defN 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/DEPENDENCIES
+│  -rw-r--r--  2.0 unx      202 b- defN 22-Dec-30 07:13 org.apache.aries.jax.rs-2.0.2/NOTICE
+│ -440 files, 1193468 bytes uncompressed, 328373 bytes compressed:  72.5%
+│ +440 files, 1193706 bytes uncompressed, 328389 bytes compressed:  72.5%
+├── org.apache.aries.jax.rs-2.0.2/.flattened-pom.xml
+│ ├── org.apache.aries.jax.rs-2.0.2/.flattened-pom.xml
+│ │ @@ -115,9 +115,17 @@
+│ │        <id>bnd-snapshots</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-snapshot/</url>
+│ │      </repository>
+│ │      <repository>
+│ │        <id>bnd-release</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-release/</url>
+│ │      </repository>
+│ │ +    <repository>
+│ │ +      <releases>
+│ │ +        <enabled>false</enabled>
+│ │ +      </releases>
+│ │ +      <id>apache.snapshots</id>
+│ │ +      <name>Apache Snapshot Repository</name>
+│ │ +      <url>https://repository.apache.org/snapshots</url>
+│ │ +    </repository>
+│ │    </repositories>
+│ │  </project>
+
+2 /       23 target/reference/org.apache.aries.jax.rs.whiteboard-2.0.2.pom jax-rs.whiteboard/.flattened-pom.xml
+--- target/reference/org.apache.aries.jax.rs.whiteboard-2.0.2.pom
++++ jax-rs.whiteboard/.flattened-pom.xml
+│   --- target/reference/org.apache.aries.jax.rs.whiteboard-2.0.2.pom
+├── +++ jax-rs.whiteboard/.flattened-pom.xml
+│ @@ -210,14 +210,22 @@
+│        <id>bnd-snapshots</id>
+│        <url>https://bndtools.jfrog.io/bndtools/libs-snapshot/</url>
+│      </repository>
+│      <repository>
+│        <id>bnd-release</id>
+│        <url>https://bndtools.jfrog.io/bndtools/libs-release/</url>
+│      </repository>
+│ +    <repository>
+│ +      <releases>
+│ +        <enabled>false</enabled>
+│ +      </releases>
+│ +      <id>apache.snapshots</id>
+│ +      <name>Apache Snapshot Repository</name>
+│ +      <url>https://repository.apache.org/snapshots</url>
+│ +    </repository>
+│    </repositories>
+│    <build>
+│      <plugins>
+│        <plugin>
+│          <groupId>biz.aQute.bnd</groupId>
+│          <artifactId>bnd-maven-plugin</artifactId>
+│          <version>6.4.0</version>
+
+3 /       23 target/reference/org.apache.aries.jax.rs.whiteboard-2.0.2.jar jax-rs.whiteboard/target/org.apache.aries.jax.rs.whiteboard-2.0.2.jar
+--- target/reference/org.apache.aries.jax.rs.whiteboard-2.0.2.jar
++++ jax-rs.whiteboard/target/org.apache.aries.jax.rs.whiteboard-2.0.2.jar
+├── zipinfo {}
+│ @@ -1,18 +1,18 @@
+│ -Zip file size: 125941 bytes, number of entries: 83
+│ +Zip file size: 125958 bytes, number of entries: 83
+│  -rw----     2.0 fat        0 bX defN 22-Dec-30 07:13 META-INF/
+│  -rw----     2.0 fat     5006 bl defN 22-Dec-30 07:13 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     7082 bl defN 22-Dec-30 07:13 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 22-Dec-30 07:13 META-INF/LICENSE
+│  -rw----     2.0 fat      182 bl defN 22-Dec-30 07:13 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.whiteboard/
+│  -rw----     2.0 fat       92 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.whiteboard/pom.properties
+│ --rw----     2.0 fat     7968 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.whiteboard/pom.xml
+│ +-rw----     2.0 fat     8206 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.whiteboard/pom.xml
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/services/
+│  -rw----     2.0 fat      110 bl defN 22-Dec-30 07:13 META-INF/services/javax.ws.rs.client.ClientBuilder
+│  -rw----     2.0 fat       87 bl defN 22-Dec-30 07:13 META-INF/services/javax.ws.rs.ext.RuntimeDelegate
+│  -rw----     2.0 fat       99 bl defN 22-Dec-30 07:13 META-INF/services/javax.ws.rs.sse.SseEventSource.Builder
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/versions/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/versions/9/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/versions/9/OSGI-INF/
+│ @@ -78,8 +78,8 @@
+│  -rw----     2.0 fat      943 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/whiteboard/internal/introspection/Proxies.class
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/whiteboard/internal/utils/
+│  -rw----     2.0 fat     4063 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/whiteboard/internal/utils/LogUtils.class
+│  -rw----     2.0 fat      214 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/whiteboard/internal/utils/PropertyHolder.class
+│  -rw----     2.0 fat     3906 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/whiteboard/internal/utils/ServiceTuple.class
+│  -rw----     2.0 fat    17979 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/whiteboard/internal/utils/Utils.class
+│  -rw----     2.0 fat     2105 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/whiteboard/package-info.class
+│ -83 files, 330842 bytes uncompressed, 108191 bytes compressed:  67.3%
+│ +83 files, 331080 bytes uncompressed, 108208 bytes compressed:  67.3%
+├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.whiteboard/pom.xml
+│ ├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.whiteboard/pom.xml
+│ │ @@ -210,14 +210,22 @@
+│ │        <id>bnd-snapshots</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-snapshot/</url>
+│ │      </repository>
+│ │      <repository>
+│ │        <id>bnd-release</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-release/</url>
+│ │      </repository>
+│ │ +    <repository>
+│ │ +      <releases>
+│ │ +        <enabled>false</enabled>
+│ │ +      </releases>
+│ │ +      <id>apache.snapshots</id>
+│ │ +      <name>Apache Snapshot Repository</name>
+│ │ +      <url>https://repository.apache.org/snapshots</url>
+│ │ +    </repository>
+│ │    </repositories>
+│ │    <build>
+│ │      <plugins>
+│ │        <plugin>
+│ │          <groupId>biz.aQute.bnd</groupId>
+│ │          <artifactId>bnd-maven-plugin</artifactId>
+│ │          <version>6.4.0</version>
+
+4 /       23 target/reference/org.apache.aries.jax.rs.whiteboard-2.0.2-sources.jar jax-rs.whiteboard/target/org.apache.aries.jax.rs.whiteboard-2.0.2-sources.jar
+--- target/reference/org.apache.aries.jax.rs.whiteboard-2.0.2-sources.jar
++++ jax-rs.whiteboard/target/org.apache.aries.jax.rs.whiteboard-2.0.2-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 67720 bytes, number of entries: 61
+│ +Zip file size: 67737 bytes, number of entries: 61
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Dec-30 07:13 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/aries/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/aries/jax/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/aries/jax/rs/
+│ @@ -54,10 +54,10 @@
+│  -rw-r--r--  2.0 unx      937 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/whiteboard/internal/utils/PropertyHolder.java
+│  -rw-r--r--  2.0 unx     2748 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/whiteboard/internal/utils/ServiceTuple.java
+│  -rw-r--r--  2.0 unx     9104 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/whiteboard/internal/utils/Utils.java
+│  -rw-r--r--  2.0 unx     4110 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/whiteboard/package-info.java
+│  -rw-r--r--  2.0 unx       68 b- defN 22-Dec-30 07:13 META-INF/services/javax.ws.rs.client.ClientBuilder
+│  -rw-r--r--  2.0 unx       45 b- defN 22-Dec-30 07:13 META-INF/services/javax.ws.rs.ext.RuntimeDelegate
+│  -rw-r--r--  2.0 unx       57 b- defN 22-Dec-30 07:13 META-INF/services/javax.ws.rs.sse.SseEventSource.Builder
+│ --rw-r--r--  2.0 unx     7968 b- defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.whiteboard/pom.xml
+│ +-rw-r--r--  2.0 unx     8206 b- defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.whiteboard/pom.xml
+│  -rw-r--r--  2.0 unx       92 b- defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.whiteboard/pom.properties
+│ -61 files, 239288 bytes uncompressed, 56276 bytes compressed:  76.5%
+│ +61 files, 239526 bytes uncompressed, 56293 bytes compressed:  76.5%
+├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.whiteboard/pom.xml
+│ ├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.whiteboard/pom.xml
+│ │ @@ -210,14 +210,22 @@
+│ │        <id>bnd-snapshots</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-snapshot/</url>
+│ │      </repository>
+│ │      <repository>
+│ │        <id>bnd-release</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-release/</url>
+│ │      </repository>
+│ │ +    <repository>
+│ │ +      <releases>
+│ │ +        <enabled>false</enabled>
+│ │ +      </releases>
+│ │ +      <id>apache.snapshots</id>
+│ │ +      <name>Apache Snapshot Repository</name>
+│ │ +      <url>https://repository.apache.org/snapshots</url>
+│ │ +    </repository>
+│ │    </repositories>
+│ │    <build>
+│ │      <plugins>
+│ │        <plugin>
+│ │          <groupId>biz.aQute.bnd</groupId>
+│ │          <artifactId>bnd-maven-plugin</artifactId>
+│ │          <version>6.4.0</version>
+
+5 /       23 target/reference/org.apache.aries.jax.rs.whiteboard-2.0.2-tests.jar jax-rs.whiteboard/target/org.apache.aries.jax.rs.whiteboard-2.0.2-tests.jar
+--- target/reference/org.apache.aries.jax.rs.whiteboard-2.0.2-tests.jar
++++ jax-rs.whiteboard/target/org.apache.aries.jax.rs.whiteboard-2.0.2-tests.jar
+├── zipinfo {}
+│ @@ -1,18 +1,18 @@
+│ -Zip file size: 23648 bytes, number of entries: 36
+│ +Zip file size: 23665 bytes, number of entries: 36
+│  -rw----     2.0 fat        0 bX defN 22-Dec-30 07:13 META-INF/
+│  -rw----     2.0 fat     2031 bl defN 22-Dec-30 07:13 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     7082 bl defN 22-Dec-30 07:13 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 22-Dec-30 07:13 META-INF/LICENSE
+│  -rw----     2.0 fat      182 bl defN 22-Dec-30 07:13 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.whiteboard/
+│  -rw----     2.0 fat       92 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.whiteboard/pom.properties
+│ --rw----     2.0 fat     7968 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.whiteboard/pom.xml
+│ +-rw----     2.0 fat     8206 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.whiteboard/pom.xml
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/jax/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/whiteboard/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/whiteboard/internal/
+│ @@ -31,8 +31,8 @@
+│  -rw----     2.0 fat      662 bl defN 22-Dec-30 07:13 test/types/PlainResourceSeveralOperations.class
+│  -rw----     2.0 fat      748 bl defN 22-Dec-30 07:13 test/types/PlainResourceSeveralOperationsCommonPath.class
+│  -rw----     2.0 fat      779 bl defN 22-Dec-30 07:13 test/types/PlainResourceSeveralOperationsDifferentPath.class
+│  -rw----     2.0 fat      668 bl defN 22-Dec-30 07:13 test/types/PlainResourceSeveralOperationsWithNameBinding.class
+│  -rw----     2.0 fat     1530 bl defN 22-Dec-30 07:13 test/types/ResourceMethodInfoDTOWrapper.class
+│  -rw----     2.0 fat      713 bl defN 22-Dec-30 07:13 test/types/ResourceWithSubResource.class
+│  -rw----     2.0 fat     1065 bl defN 22-Dec-30 07:13 test/types/SubResource.class
+│ -36 files, 48290 bytes uncompressed, 17128 bytes compressed:  64.5%
+│ +36 files, 48528 bytes uncompressed, 17145 bytes compressed:  64.7%
+├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.whiteboard/pom.xml
+│ ├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.whiteboard/pom.xml
+│ │ @@ -210,14 +210,22 @@
+│ │        <id>bnd-snapshots</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-snapshot/</url>
+│ │      </repository>
+│ │      <repository>
+│ │        <id>bnd-release</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-release/</url>
+│ │      </repository>
+│ │ +    <repository>
+│ │ +      <releases>
+│ │ +        <enabled>false</enabled>
+│ │ +      </releases>
+│ │ +      <id>apache.snapshots</id>
+│ │ +      <name>Apache Snapshot Repository</name>
+│ │ +      <url>https://repository.apache.org/snapshots</url>
+│ │ +    </repository>
+│ │    </repositories>
+│ │    <build>
+│ │      <plugins>
+│ │        <plugin>
+│ │          <groupId>biz.aQute.bnd</groupId>
+│ │          <artifactId>bnd-maven-plugin</artifactId>
+│ │          <version>6.4.0</version>
+
+6 /       23 target/reference/org.apache.aries.jax.rs.shiro.authc-2.0.2.pom integrations/shiro/shiro-authc/.flattened-pom.xml
+--- target/reference/org.apache.aries.jax.rs.shiro.authc-2.0.2.pom
++++ integrations/shiro/shiro-authc/.flattened-pom.xml
+│   --- target/reference/org.apache.aries.jax.rs.shiro.authc-2.0.2.pom
+├── +++ integrations/shiro/shiro-authc/.flattened-pom.xml
+│ @@ -134,14 +134,22 @@
+│        <id>bnd-snapshots</id>
+│        <url>https://bndtools.jfrog.io/bndtools/libs-snapshot/</url>
+│      </repository>
+│      <repository>
+│        <id>bnd-release</id>
+│        <url>https://bndtools.jfrog.io/bndtools/libs-release/</url>
+│      </repository>
+│ +    <repository>
+│ +      <releases>
+│ +        <enabled>false</enabled>
+│ +      </releases>
+│ +      <id>apache.snapshots</id>
+│ +      <name>Apache Snapshot Repository</name>
+│ +      <url>https://repository.apache.org/snapshots</url>
+│ +    </repository>
+│    </repositories>
+│    <build>
+│      <plugins>
+│        <plugin>
+│          <groupId>biz.aQute.bnd</groupId>
+│          <artifactId>bnd-maven-plugin</artifactId>
+│          <version>6.4.0</version>
+
+7 /       23 target/reference/org.apache.aries.jax.rs.shiro.authc-2.0.2.jar integrations/shiro/shiro-authc/target/org.apache.aries.jax.rs.shiro.authc-2.0.2.jar
+--- target/reference/org.apache.aries.jax.rs.shiro.authc-2.0.2.jar
++++ integrations/shiro/shiro-authc/target/org.apache.aries.jax.rs.shiro.authc-2.0.2.jar
+├── zipinfo {}
+│ @@ -1,24 +1,24 @@
+│ -Zip file size: 20135 bytes, number of entries: 22
+│ +Zip file size: 20151 bytes, number of entries: 22
+│  -rw----     2.0 fat        0 bX defN 22-Dec-30 07:13 META-INF/
+│  -rw----     2.0 fat     2012 bl defN 22-Dec-30 07:13 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     4989 bl defN 22-Dec-30 07:13 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 22-Dec-30 07:13 META-INF/LICENSE
+│  -rw----     2.0 fat      192 bl defN 22-Dec-30 07:13 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authc/
+│  -rw----     2.0 fat       93 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authc/pom.properties
+│ --rw----     2.0 fat     5548 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authc/pom.xml
+│ +-rw----     2.0 fat     5786 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authc/pom.xml
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/jax/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/shiro/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/shiro/authc/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/shiro/authc/impl/
+│  -rw----     2.0 fat     6472 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/shiro/authc/impl/SecurityManagerAssociatingFilter.class
+│  -rw----     2.0 fat     7637 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/shiro/authc/impl/ShiroAuthenticationActivator.class
+│  -rw----     2.0 fat     4237 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/shiro/authc/impl/ShiroAuthenticationFeature.class
+│  -rw----     2.0 fat     3854 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/shiro/authc/impl/ShiroAuthenticationFeatureProvider.class
+│ -22 files, 46392 bytes uncompressed, 16335 bytes compressed:  64.8%
+│ +22 files, 46630 bytes uncompressed, 16351 bytes compressed:  64.9%
+├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authc/pom.xml
+│ ├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authc/pom.xml
+│ │ @@ -134,14 +134,22 @@
+│ │        <id>bnd-snapshots</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-snapshot/</url>
+│ │      </repository>
+│ │      <repository>
+│ │        <id>bnd-release</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-release/</url>
+│ │      </repository>
+│ │ +    <repository>
+│ │ +      <releases>
+│ │ +        <enabled>false</enabled>
+│ │ +      </releases>
+│ │ +      <id>apache.snapshots</id>
+│ │ +      <name>Apache Snapshot Repository</name>
+│ │ +      <url>https://repository.apache.org/snapshots</url>
+│ │ +    </repository>
+│ │    </repositories>
+│ │    <build>
+│ │      <plugins>
+│ │        <plugin>
+│ │          <groupId>biz.aQute.bnd</groupId>
+│ │          <artifactId>bnd-maven-plugin</artifactId>
+│ │          <version>6.4.0</version>
+
+8 /       23 target/reference/org.apache.aries.jax.rs.shiro.authc-2.0.2-sources.jar integrations/shiro/shiro-authc/target/org.apache.aries.jax.rs.shiro.authc-2.0.2-sources.jar
+--- target/reference/org.apache.aries.jax.rs.shiro.authc-2.0.2-sources.jar
++++ integrations/shiro/shiro-authc/target/org.apache.aries.jax.rs.shiro.authc-2.0.2-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 16658 bytes, number of entries: 22
+│ +Zip file size: 16674 bytes, number of entries: 22
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Dec-30 07:13 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/aries/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/aries/jax/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/aries/jax/rs/
+│ @@ -15,10 +15,10 @@
+│  -rw-r--r--  2.0 unx     4989 b- defN 22-Dec-30 07:13 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Dec-30 07:13 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      192 b- defN 22-Dec-30 07:13 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     6431 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/shiro/authc/impl/SecurityManagerAssociatingFilter.java
+│  -rw-r--r--  2.0 unx     4739 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/shiro/authc/impl/ShiroAuthenticationActivator.java
+│  -rw-r--r--  2.0 unx     6003 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/shiro/authc/impl/ShiroAuthenticationFeature.java
+│  -rw-r--r--  2.0 unx     2548 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/shiro/authc/impl/ShiroAuthenticationFeatureProvider.java
+│ --rw-r--r--  2.0 unx     5548 b- defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authc/pom.xml
+│ +-rw-r--r--  2.0 unx     5786 b- defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authc/pom.xml
+│  -rw-r--r--  2.0 unx       93 b- defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authc/pom.properties
+│ -22 files, 41965 bytes uncompressed, 13226 bytes compressed:  68.5%
+│ +22 files, 42203 bytes uncompressed, 13242 bytes compressed:  68.6%
+├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authc/pom.xml
+│ ├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authc/pom.xml
+│ │ @@ -134,14 +134,22 @@
+│ │        <id>bnd-snapshots</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-snapshot/</url>
+│ │      </repository>
+│ │      <repository>
+│ │        <id>bnd-release</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-release/</url>
+│ │      </repository>
+│ │ +    <repository>
+│ │ +      <releases>
+│ │ +        <enabled>false</enabled>
+│ │ +      </releases>
+│ │ +      <id>apache.snapshots</id>
+│ │ +      <name>Apache Snapshot Repository</name>
+│ │ +      <url>https://repository.apache.org/snapshots</url>
+│ │ +    </repository>
+│ │    </repositories>
+│ │    <build>
+│ │      <plugins>
+│ │        <plugin>
+│ │          <groupId>biz.aQute.bnd</groupId>
+│ │          <artifactId>bnd-maven-plugin</artifactId>
+│ │          <version>6.4.0</version>
+
+9 /       23 target/reference/org.apache.aries.jax.rs.shiro.authz-2.0.2.pom integrations/shiro/shiro-authz/.flattened-pom.xml
+--- target/reference/org.apache.aries.jax.rs.shiro.authz-2.0.2.pom
++++ integrations/shiro/shiro-authz/.flattened-pom.xml
+│   --- target/reference/org.apache.aries.jax.rs.shiro.authz-2.0.2.pom
+├── +++ integrations/shiro/shiro-authz/.flattened-pom.xml
+│ @@ -134,14 +134,22 @@
+│        <id>bnd-snapshots</id>
+│        <url>https://bndtools.jfrog.io/bndtools/libs-snapshot/</url>
+│      </repository>
+│      <repository>
+│        <id>bnd-release</id>
+│        <url>https://bndtools.jfrog.io/bndtools/libs-release/</url>
+│      </repository>
+│ +    <repository>
+│ +      <releases>
+│ +        <enabled>false</enabled>
+│ +      </releases>
+│ +      <id>apache.snapshots</id>
+│ +      <name>Apache Snapshot Repository</name>
+│ +      <url>https://repository.apache.org/snapshots</url>
+│ +    </repository>
+│    </repositories>
+│    <build>
+│      <plugins>
+│        <plugin>
+│          <groupId>biz.aQute.bnd</groupId>
+│          <artifactId>bnd-maven-plugin</artifactId>
+│          <version>6.4.0</version>
+
+10 /       23 target/reference/org.apache.aries.jax.rs.shiro.authz-2.0.2.jar integrations/shiro/shiro-authz/target/org.apache.aries.jax.rs.shiro.authz-2.0.2.jar
+--- target/reference/org.apache.aries.jax.rs.shiro.authz-2.0.2.jar
++++ integrations/shiro/shiro-authz/target/org.apache.aries.jax.rs.shiro.authz-2.0.2.jar
+├── zipinfo {}
+│ @@ -1,22 +1,22 @@
+│ -Zip file size: 14330 bytes, number of entries: 20
+│ +Zip file size: 14346 bytes, number of entries: 20
+│  -rw----     2.0 fat        0 bX defN 22-Dec-30 07:13 META-INF/
+│  -rw----     2.0 fat     1708 bl defN 22-Dec-30 07:13 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     4988 bl defN 22-Dec-30 07:13 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 22-Dec-30 07:13 META-INF/LICENSE
+│  -rw----     2.0 fat      191 bl defN 22-Dec-30 07:13 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authz/
+│  -rw----     2.0 fat       93 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authz/pom.properties
+│ --rw----     2.0 fat     5546 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authz/pom.xml
+│ +-rw----     2.0 fat     5784 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authz/pom.xml
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/jax/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/shiro/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/shiro/authz/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/shiro/authz/impl/
+│  -rw----     2.0 fat     5068 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/shiro/authz/impl/ShiroAuthorizationActivator.class
+│  -rw----     2.0 fat     3474 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/shiro/authz/impl/ShiroAuthorizationFeature.class
+│ -20 files, 32426 bytes uncompressed, 11038 bytes compressed:  66.0%
+│ +20 files, 32664 bytes uncompressed, 11054 bytes compressed:  66.2%
+├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authz/pom.xml
+│ ├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authz/pom.xml
+│ │ @@ -134,14 +134,22 @@
+│ │        <id>bnd-snapshots</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-snapshot/</url>
+│ │      </repository>
+│ │      <repository>
+│ │        <id>bnd-release</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-release/</url>
+│ │      </repository>
+│ │ +    <repository>
+│ │ +      <releases>
+│ │ +        <enabled>false</enabled>
+│ │ +      </releases>
+│ │ +      <id>apache.snapshots</id>
+│ │ +      <name>Apache Snapshot Repository</name>
+│ │ +      <url>https://repository.apache.org/snapshots</url>
+│ │ +    </repository>
+│ │    </repositories>
+│ │    <build>
+│ │      <plugins>
+│ │        <plugin>
+│ │          <groupId>biz.aQute.bnd</groupId>
+│ │          <artifactId>bnd-maven-plugin</artifactId>
+│ │          <version>6.4.0</version>
+
+11 /       23 target/reference/org.apache.aries.jax.rs.shiro.authz-2.0.2-sources.jar integrations/shiro/shiro-authz/target/org.apache.aries.jax.rs.shiro.authz-2.0.2-sources.jar
+--- target/reference/org.apache.aries.jax.rs.shiro.authz-2.0.2-sources.jar
++++ integrations/shiro/shiro-authz/target/org.apache.aries.jax.rs.shiro.authz-2.0.2-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 12690 bytes, number of entries: 20
+│ +Zip file size: 12706 bytes, number of entries: 20
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Dec-30 07:13 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/aries/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/aries/jax/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/aries/jax/rs/
+│ @@ -13,10 +13,10 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authz/
+│  -rw-r--r--  2.0 unx     4988 b- defN 22-Dec-30 07:13 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Dec-30 07:13 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      191 b- defN 22-Dec-30 07:13 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     3696 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/shiro/authz/impl/ShiroAuthorizationActivator.java
+│  -rw-r--r--  2.0 unx     5315 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/shiro/authz/impl/ShiroAuthorizationFeature.java
+│ --rw-r--r--  2.0 unx     5546 b- defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authz/pom.xml
+│ +-rw-r--r--  2.0 unx     5784 b- defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authz/pom.xml
+│  -rw-r--r--  2.0 unx       93 b- defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authz/pom.properties
+│ -20 files, 31251 bytes uncompressed, 9730 bytes compressed:  68.9%
+│ +20 files, 31489 bytes uncompressed, 9746 bytes compressed:  69.0%
+├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authz/pom.xml
+│ ├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.shiro.authz/pom.xml
+│ │ @@ -134,14 +134,22 @@
+│ │        <id>bnd-snapshots</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-snapshot/</url>
+│ │      </repository>
+│ │      <repository>
+│ │        <id>bnd-release</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-release/</url>
+│ │      </repository>
+│ │ +    <repository>
+│ │ +      <releases>
+│ │ +        <enabled>false</enabled>
+│ │ +      </releases>
+│ │ +      <id>apache.snapshots</id>
+│ │ +      <name>Apache Snapshot Repository</name>
+│ │ +      <url>https://repository.apache.org/snapshots</url>
+│ │ +    </repository>
+│ │    </repositories>
+│ │    <build>
+│ │      <plugins>
+│ │        <plugin>
+│ │          <groupId>biz.aQute.bnd</groupId>
+│ │          <artifactId>bnd-maven-plugin</artifactId>
+│ │          <version>6.4.0</version>
+
+12 /       23 target/reference/org.apache.aries.jax.rs.jackson-2.0.2.pom integrations/jackson/jackson-jaxrs/.flattened-pom.xml
+--- target/reference/org.apache.aries.jax.rs.jackson-2.0.2.pom
++++ integrations/jackson/jackson-jaxrs/.flattened-pom.xml
+│   --- target/reference/org.apache.aries.jax.rs.jackson-2.0.2.pom
+├── +++ integrations/jackson/jackson-jaxrs/.flattened-pom.xml
+│ @@ -134,14 +134,22 @@
+│        <id>bnd-snapshots</id>
+│        <url>https://bndtools.jfrog.io/bndtools/libs-snapshot/</url>
+│      </repository>
+│      <repository>
+│        <id>bnd-release</id>
+│        <url>https://bndtools.jfrog.io/bndtools/libs-release/</url>
+│      </repository>
+│ +    <repository>
+│ +      <releases>
+│ +        <enabled>false</enabled>
+│ +      </releases>
+│ +      <id>apache.snapshots</id>
+│ +      <name>Apache Snapshot Repository</name>
+│ +      <url>https://repository.apache.org/snapshots</url>
+│ +    </repository>
+│    </repositories>
+│    <build>
+│      <plugins>
+│        <plugin>
+│          <groupId>biz.aQute.bnd</groupId>
+│          <artifactId>bnd-maven-plugin</artifactId>
+│          <version>6.4.0</version>
+
+13 /       23 target/reference/org.apache.aries.jax.rs.jackson-2.0.2.jar integrations/jackson/jackson-jaxrs/target/org.apache.aries.jax.rs.jackson-2.0.2.jar
+--- target/reference/org.apache.aries.jax.rs.jackson-2.0.2.jar
++++ integrations/jackson/jackson-jaxrs/target/org.apache.aries.jax.rs.jackson-2.0.2.jar
+├── zipinfo {}
+│ @@ -1,21 +1,21 @@
+│ -Zip file size: 14852 bytes, number of entries: 19
+│ +Zip file size: 14867 bytes, number of entries: 19
+│  -rw----     2.0 fat        0 bX defN 22-Dec-30 07:13 META-INF/
+│  -rw----     2.0 fat     1828 bl defN 22-Dec-30 07:13 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     3632 bl defN 22-Dec-30 07:13 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 22-Dec-30 07:13 META-INF/LICENSE
+│  -rw----     2.0 fat      189 bl defN 22-Dec-30 07:13 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jackson/
+│  -rw----     2.0 fat       89 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jackson/pom.properties
+│ --rw----     2.0 fat     5572 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jackson/pom.xml
+│ +-rw----     2.0 fat     5810 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jackson/pom.xml
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/jax/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/jackson/
+│  -rw----     2.0 fat     1733 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/jackson/JaxbJsonBundleActivator$1.class
+│  -rw----     2.0 fat     4924 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/jackson/JaxbJsonBundleActivator.class
+│  -rw----     2.0 fat     4459 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/jackson/JsonProviderPrototypeServiceFactory.class
+│ -19 files, 33784 bytes uncompressed, 11724 bytes compressed:  65.3%
+│ +19 files, 34022 bytes uncompressed, 11739 bytes compressed:  65.5%
+├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jackson/pom.xml
+│ ├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jackson/pom.xml
+│ │ @@ -134,14 +134,22 @@
+│ │        <id>bnd-snapshots</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-snapshot/</url>
+│ │      </repository>
+│ │      <repository>
+│ │        <id>bnd-release</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-release/</url>
+│ │      </repository>
+│ │ +    <repository>
+│ │ +      <releases>
+│ │ +        <enabled>false</enabled>
+│ │ +      </releases>
+│ │ +      <id>apache.snapshots</id>
+│ │ +      <name>Apache Snapshot Repository</name>
+│ │ +      <url>https://repository.apache.org/snapshots</url>
+│ │ +    </repository>
+│ │    </repositories>
+│ │    <build>
+│ │      <plugins>
+│ │        <plugin>
+│ │          <groupId>biz.aQute.bnd</groupId>
+│ │          <artifactId>bnd-maven-plugin</artifactId>
+│ │          <version>6.4.0</version>
+
+14 /       23 target/reference/org.apache.aries.jax.rs.jackson-2.0.2-sources.jar integrations/jackson/jackson-jaxrs/target/org.apache.aries.jax.rs.jackson-2.0.2-sources.jar
+--- target/reference/org.apache.aries.jax.rs.jackson-2.0.2-sources.jar
++++ integrations/jackson/jackson-jaxrs/target/org.apache.aries.jax.rs.jackson-2.0.2-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 11939 bytes, number of entries: 18
+│ +Zip file size: 11954 bytes, number of entries: 18
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Dec-30 07:13 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/aries/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/aries/jax/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/aries/jax/rs/
+│ @@ -11,10 +11,10 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jackson/
+│  -rw-r--r--  2.0 unx     3632 b- defN 22-Dec-30 07:13 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Dec-30 07:13 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      189 b- defN 22-Dec-30 07:13 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     4239 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/jackson/JaxbJsonBundleActivator.java
+│  -rw-r--r--  2.0 unx     3289 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/jackson/JsonProviderPrototypeServiceFactory.java
+│ --rw-r--r--  2.0 unx     5572 b- defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jackson/pom.xml
+│ +-rw-r--r--  2.0 unx     5810 b- defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jackson/pom.xml
+│  -rw-r--r--  2.0 unx       89 b- defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jackson/pom.properties
+│ -18 files, 28432 bytes uncompressed, 9329 bytes compressed:  67.2%
+│ +18 files, 28670 bytes uncompressed, 9344 bytes compressed:  67.4%
+├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jackson/pom.xml
+│ ├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jackson/pom.xml
+│ │ @@ -134,14 +134,22 @@
+│ │        <id>bnd-snapshots</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-snapshot/</url>
+│ │      </repository>
+│ │      <repository>
+│ │        <id>bnd-release</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-release/</url>
+│ │      </repository>
+│ │ +    <repository>
+│ │ +      <releases>
+│ │ +        <enabled>false</enabled>
+│ │ +      </releases>
+│ │ +      <id>apache.snapshots</id>
+│ │ +      <name>Apache Snapshot Repository</name>
+│ │ +      <url>https://repository.apache.org/snapshots</url>
+│ │ +    </repository>
+│ │    </repositories>
+│ │    <build>
+│ │      <plugins>
+│ │        <plugin>
+│ │          <groupId>biz.aQute.bnd</groupId>
+│ │          <artifactId>bnd-maven-plugin</artifactId>
+│ │          <version>6.4.0</version>
+
+15 /       23 target/reference/org.apache.aries.jax.rs.jaxb.json.cxf-jettison-2.0.2.pom integrations/cxf-jettison/cxf-jettison-jaxrs/.flattened-pom.xml
+--- target/reference/org.apache.aries.jax.rs.jaxb.json.cxf-jettison-2.0.2.pom
++++ integrations/cxf-jettison/cxf-jettison-jaxrs/.flattened-pom.xml
+│   --- target/reference/org.apache.aries.jax.rs.jaxb.json.cxf-jettison-2.0.2.pom
+├── +++ integrations/cxf-jettison/cxf-jettison-jaxrs/.flattened-pom.xml
+│ @@ -156,14 +156,22 @@
+│        <id>bnd-snapshots</id>
+│        <url>https://bndtools.jfrog.io/bndtools/libs-snapshot/</url>
+│      </repository>
+│      <repository>
+│        <id>bnd-release</id>
+│        <url>https://bndtools.jfrog.io/bndtools/libs-release/</url>
+│      </repository>
+│ +    <repository>
+│ +      <releases>
+│ +        <enabled>false</enabled>
+│ +      </releases>
+│ +      <id>apache.snapshots</id>
+│ +      <name>Apache Snapshot Repository</name>
+│ +      <url>https://repository.apache.org/snapshots</url>
+│ +    </repository>
+│    </repositories>
+│    <build>
+│      <plugins>
+│        <plugin>
+│          <groupId>biz.aQute.bnd</groupId>
+│          <artifactId>bnd-maven-plugin</artifactId>
+│          <version>6.4.0</version>
+
+16 /       23 target/reference/org.apache.aries.jax.rs.jaxb.json.cxf-jettison-2.0.2.jar integrations/cxf-jettison/cxf-jettison-jaxrs/target/org.apache.aries.jax.rs.jaxb.json.cxf-jettison-2.0.2.jar
+--- target/reference/org.apache.aries.jax.rs.jaxb.json.cxf-jettison-2.0.2.jar
++++ integrations/cxf-jettison/cxf-jettison-jaxrs/target/org.apache.aries.jax.rs.jaxb.json.cxf-jettison-2.0.2.jar
+├── zipinfo {}
+│ @@ -1,24 +1,24 @@
+│ -Zip file size: 20238 bytes, number of entries: 22
+│ +Zip file size: 20252 bytes, number of entries: 22
+│  -rw----     2.0 fat        0 bX defN 22-Dec-30 07:13 META-INF/
+│  -rw----     2.0 fat     2030 bl defN 22-Dec-30 07:13 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     6159 bl defN 22-Dec-30 07:13 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 22-Dec-30 07:13 META-INF/LICENSE
+│  -rw----     2.0 fat      194 bl defN 22-Dec-30 07:13 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jaxb.json.cxf-jettison/
+│  -rw----     2.0 fat      104 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jaxb.json.cxf-jettison/pom.properties
+│ --rw----     2.0 fat     6419 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jaxb.json.cxf-jettison/pom.xml
+│ +-rw----     2.0 fat     6657 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jaxb.json.cxf-jettison/pom.xml
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/jax/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/jaxb/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/jaxb/json/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/jaxb/json/activator/
+│  -rw----     2.0 fat     1326 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/jaxb/json/activator/JaxbJsonBundleActivator$1.class
+│  -rw----     2.0 fat     8902 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/jaxb/json/activator/JaxbJsonBundleActivator.class
+│  -rw----     2.0 fat    10465 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/jaxb/json/activator/JsonProviderPrototypeServiceFactory.class
+│  -rw----     2.0 fat     1808 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/jaxb/json/activator/PropertyWrapper.class
+│ -22 files, 48765 bytes uncompressed, 16392 bytes compressed:  66.4%
+│ +22 files, 49003 bytes uncompressed, 16406 bytes compressed:  66.5%
+├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jaxb.json.cxf-jettison/pom.xml
+│ ├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jaxb.json.cxf-jettison/pom.xml
+│ │ @@ -156,14 +156,22 @@
+│ │        <id>bnd-snapshots</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-snapshot/</url>
+│ │      </repository>
+│ │      <repository>
+│ │        <id>bnd-release</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-release/</url>
+│ │      </repository>
+│ │ +    <repository>
+│ │ +      <releases>
+│ │ +        <enabled>false</enabled>
+│ │ +      </releases>
+│ │ +      <id>apache.snapshots</id>
+│ │ +      <name>Apache Snapshot Repository</name>
+│ │ +      <url>https://repository.apache.org/snapshots</url>
+│ │ +    </repository>
+│ │    </repositories>
+│ │    <build>
+│ │      <plugins>
+│ │        <plugin>
+│ │          <groupId>biz.aQute.bnd</groupId>
+│ │          <artifactId>bnd-maven-plugin</artifactId>
+│ │          <version>6.4.0</version>
+
+17 /       23 target/reference/org.apache.aries.jax.rs.jaxb.json.cxf-jettison-2.0.2-sources.jar integrations/cxf-jettison/cxf-jettison-jaxrs/target/org.apache.aries.jax.rs.jaxb.json.cxf-jettison-2.0.2-sources.jar
+--- target/reference/org.apache.aries.jax.rs.jaxb.json.cxf-jettison-2.0.2-sources.jar
++++ integrations/cxf-jettison/cxf-jettison-jaxrs/target/org.apache.aries.jax.rs.jaxb.json.cxf-jettison-2.0.2-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 14783 bytes, number of entries: 21
+│ +Zip file size: 14797 bytes, number of entries: 21
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Dec-30 07:13 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/aries/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/aries/jax/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/aries/jax/rs/
+│ @@ -14,10 +14,10 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jaxb.json.cxf-jettison/
+│  -rw-r--r--  2.0 unx     6159 b- defN 22-Dec-30 07:13 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Dec-30 07:13 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      194 b- defN 22-Dec-30 07:13 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     5232 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/jaxb/json/activator/JaxbJsonBundleActivator.java
+│  -rw-r--r--  2.0 unx     7727 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/jaxb/json/activator/JsonProviderPrototypeServiceFactory.java
+│  -rw-r--r--  2.0 unx     1724 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/jaxb/json/activator/PropertyWrapper.java
+│ --rw-r--r--  2.0 unx     6419 b- defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jaxb.json.cxf-jettison/pom.xml
+│ +-rw-r--r--  2.0 unx     6657 b- defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jaxb.json.cxf-jettison/pom.xml
+│  -rw-r--r--  2.0 unx      104 b- defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jaxb.json.cxf-jettison/pom.properties
+│ -21 files, 38981 bytes uncompressed, 11529 bytes compressed:  70.4%
+│ +21 files, 39219 bytes uncompressed, 11543 bytes compressed:  70.6%
+├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jaxb.json.cxf-jettison/pom.xml
+│ ├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.jaxb.json.cxf-jettison/pom.xml
+│ │ @@ -156,14 +156,22 @@
+│ │        <id>bnd-snapshots</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-snapshot/</url>
+│ │      </repository>
+│ │      <repository>
+│ │        <id>bnd-release</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-release/</url>
+│ │      </repository>
+│ │ +    <repository>
+│ │ +      <releases>
+│ │ +        <enabled>false</enabled>
+│ │ +      </releases>
+│ │ +      <id>apache.snapshots</id>
+│ │ +      <name>Apache Snapshot Repository</name>
+│ │ +      <url>https://repository.apache.org/snapshots</url>
+│ │ +    </repository>
+│ │    </repositories>
+│ │    <build>
+│ │      <plugins>
+│ │        <plugin>
+│ │          <groupId>biz.aQute.bnd</groupId>
+│ │          <artifactId>bnd-maven-plugin</artifactId>
+│ │          <version>6.4.0</version>
+
+18 /       23 target/reference/org.apache.aries.jax.rs.openapi.resource-2.0.2.pom integrations/openapi/openapi-resource/.flattened-pom.xml
+--- target/reference/org.apache.aries.jax.rs.openapi.resource-2.0.2.pom
++++ integrations/openapi/openapi-resource/.flattened-pom.xml
+│   --- target/reference/org.apache.aries.jax.rs.openapi.resource-2.0.2.pom
+├── +++ integrations/openapi/openapi-resource/.flattened-pom.xml
+│ @@ -166,14 +166,22 @@
+│        <id>bnd-snapshots</id>
+│        <url>https://bndtools.jfrog.io/bndtools/libs-snapshot/</url>
+│      </repository>
+│      <repository>
+│        <id>bnd-release</id>
+│        <url>https://bndtools.jfrog.io/bndtools/libs-release/</url>
+│      </repository>
+│ +    <repository>
+│ +      <releases>
+│ +        <enabled>false</enabled>
+│ +      </releases>
+│ +      <id>apache.snapshots</id>
+│ +      <name>Apache Snapshot Repository</name>
+│ +      <url>https://repository.apache.org/snapshots</url>
+│ +    </repository>
+│    </repositories>
+│    <build>
+│      <plugins>
+│        <plugin>
+│          <groupId>biz.aQute.bnd</groupId>
+│          <artifactId>bnd-maven-plugin</artifactId>
+│          <version>6.4.0</version>
+
+19 /       23 target/reference/org.apache.aries.jax.rs.openapi.resource-2.0.2.jar integrations/openapi/openapi-resource/target/org.apache.aries.jax.rs.openapi.resource-2.0.2.jar
+--- target/reference/org.apache.aries.jax.rs.openapi.resource-2.0.2.jar
++++ integrations/openapi/openapi-resource/target/org.apache.aries.jax.rs.openapi.resource-2.0.2.jar
+├── zipinfo {}
+│ @@ -1,24 +1,24 @@
+│ -Zip file size: 21150 bytes, number of entries: 22
+│ +Zip file size: 21166 bytes, number of entries: 22
+│  -rw----     2.0 fat        0 bX defN 22-Dec-30 07:13 META-INF/
+│  -rw----     2.0 fat     2444 bl defN 22-Dec-30 07:13 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat    11638 bl defN 22-Dec-30 07:13 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 22-Dec-30 07:13 META-INF/LICENSE
+│  -rw----     2.0 fat      180 bl defN 22-Dec-30 07:13 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.openapi.resource/
+│  -rw----     2.0 fat       98 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.openapi.resource/pom.properties
+│ --rw----     2.0 fat     6627 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.openapi.resource/pom.xml
+│ +-rw----     2.0 fat     6865 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.openapi.resource/pom.xml
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/jax/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/openapi/
+│  -rw----     2.0 fat     1624 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/openapi/JaxrsWhiteboardScanner.class
+│  -rw----     2.0 fat     1640 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/openapi/OpenAPIWithModelResolvers.class
+│  -rw----     2.0 fat     6400 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/openapi/OpenApiBundleActivator.class
+│  -rw----     2.0 fat     3994 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/openapi/OpenApiPrototypeServiceFactory.class
+│  -rw----     2.0 fat     6544 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/openapi/OpenApiResource.class
+│  -rw----     2.0 fat     2768 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/openapi/PropertyWrapper.class
+│ -22 files, 55315 bytes uncompressed, 17372 bytes compressed:  68.6%
+│ +22 files, 55553 bytes uncompressed, 17388 bytes compressed:  68.7%
+├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.openapi.resource/pom.xml
+│ ├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.openapi.resource/pom.xml
+│ │ @@ -166,14 +166,22 @@
+│ │        <id>bnd-snapshots</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-snapshot/</url>
+│ │      </repository>
+│ │      <repository>
+│ │        <id>bnd-release</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-release/</url>
+│ │      </repository>
+│ │ +    <repository>
+│ │ +      <releases>
+│ │ +        <enabled>false</enabled>
+│ │ +      </releases>
+│ │ +      <id>apache.snapshots</id>
+│ │ +      <name>Apache Snapshot Repository</name>
+│ │ +      <url>https://repository.apache.org/snapshots</url>
+│ │ +    </repository>
+│ │    </repositories>
+│ │    <build>
+│ │      <plugins>
+│ │        <plugin>
+│ │          <groupId>biz.aQute.bnd</groupId>
+│ │          <artifactId>bnd-maven-plugin</artifactId>
+│ │          <version>6.4.0</version>
+
+20 /       23 target/reference/org.apache.aries.jax.rs.openapi.resource-2.0.2-sources.jar integrations/openapi/openapi-resource/target/org.apache.aries.jax.rs.openapi.resource-2.0.2-sources.jar
+--- target/reference/org.apache.aries.jax.rs.openapi.resource-2.0.2-sources.jar
++++ integrations/openapi/openapi-resource/target/org.apache.aries.jax.rs.openapi.resource-2.0.2-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 17481 bytes, number of entries: 22
+│ +Zip file size: 17497 bytes, number of entries: 22
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Dec-30 07:13 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/aries/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/aries/jax/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/aries/jax/rs/
+│ @@ -15,10 +15,10 @@
+│  -rw-r--r--  2.0 unx      180 b- defN 22-Dec-30 07:13 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     1895 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/openapi/JaxrsWhiteboardScanner.java
+│  -rw-r--r--  2.0 unx     1708 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/openapi/OpenAPIWithModelResolvers.java
+│  -rw-r--r--  2.0 unx     3118 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/openapi/OpenApiBundleActivator.java
+│  -rw-r--r--  2.0 unx     2599 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/openapi/OpenApiPrototypeServiceFactory.java
+│  -rw-r--r--  2.0 unx     3993 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/openapi/OpenApiResource.java
+│  -rw-r--r--  2.0 unx     2558 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/openapi/PropertyWrapper.java
+│ --rw-r--r--  2.0 unx     6627 b- defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.openapi.resource/pom.xml
+│ +-rw-r--r--  2.0 unx     6865 b- defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.openapi.resource/pom.xml
+│  -rw-r--r--  2.0 unx       98 b- defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.openapi.resource/pom.properties
+│ -22 files, 45836 bytes uncompressed, 14075 bytes compressed:  69.3%
+│ +22 files, 46074 bytes uncompressed, 14091 bytes compressed:  69.4%
+├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.openapi.resource/pom.xml
+│ ├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.openapi.resource/pom.xml
+│ │ @@ -166,14 +166,22 @@
+│ │        <id>bnd-snapshots</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-snapshot/</url>
+│ │      </repository>
+│ │      <repository>
+│ │        <id>bnd-release</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-release/</url>
+│ │      </repository>
+│ │ +    <repository>
+│ │ +      <releases>
+│ │ +        <enabled>false</enabled>
+│ │ +      </releases>
+│ │ +      <id>apache.snapshots</id>
+│ │ +      <name>Apache Snapshot Repository</name>
+│ │ +      <url>https://repository.apache.org/snapshots</url>
+│ │ +    </repository>
+│ │    </repositories>
+│ │    <build>
+│ │      <plugins>
+│ │        <plugin>
+│ │          <groupId>biz.aQute.bnd</groupId>
+│ │          <artifactId>bnd-maven-plugin</artifactId>
+│ │          <version>6.4.0</version>
+
+21 /       23 target/reference/org.apache.aries.jax.rs.rest.management-2.0.2.pom integrations/rest-management/rest-management/.flattened-pom.xml
+--- target/reference/org.apache.aries.jax.rs.rest.management-2.0.2.pom
++++ integrations/rest-management/rest-management/.flattened-pom.xml
+│   --- target/reference/org.apache.aries.jax.rs.rest.management-2.0.2.pom
+├── +++ integrations/rest-management/rest-management/.flattened-pom.xml
+│ @@ -148,14 +148,22 @@
+│        <id>bnd-snapshots</id>
+│        <url>https://bndtools.jfrog.io/bndtools/libs-snapshot/</url>
+│      </repository>
+│      <repository>
+│        <id>bnd-release</id>
+│        <url>https://bndtools.jfrog.io/bndtools/libs-release/</url>
+│      </repository>
+│ +    <repository>
+│ +      <releases>
+│ +        <enabled>false</enabled>
+│ +      </releases>
+│ +      <id>apache.snapshots</id>
+│ +      <name>Apache Snapshot Repository</name>
+│ +      <url>https://repository.apache.org/snapshots</url>
+│ +    </repository>
+│    </repositories>
+│    <build>
+│      <plugins>
+│        <plugin>
+│          <groupId>biz.aQute.bnd</groupId>
+│          <artifactId>bnd-maven-plugin</artifactId>
+│          <version>6.4.0</version>
+
+22 /       23 target/reference/org.apache.aries.jax.rs.rest.management-2.0.2.jar integrations/rest-management/rest-management/target/org.apache.aries.jax.rs.rest.management-2.0.2.jar
+--- target/reference/org.apache.aries.jax.rs.rest.management-2.0.2.jar
++++ integrations/rest-management/rest-management/target/org.apache.aries.jax.rs.rest.management-2.0.2.jar
+├── zipinfo {}
+│ @@ -1,18 +1,18 @@
+│ -Zip file size: 104153 bytes, number of entries: 78
+│ +Zip file size: 104169 bytes, number of entries: 78
+│  -rw----     2.0 fat        0 bX defN 22-Dec-30 07:13 META-INF/
+│  -rw----     2.0 fat     4035 bl defN 22-Dec-30 07:13 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat    12400 bl defN 22-Dec-30 07:13 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 22-Dec-30 07:13 META-INF/LICENSE
+│  -rw----     2.0 fat      192 bl defN 22-Dec-30 07:13 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.rest.management/
+│  -rw----     2.0 fat       97 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.rest.management/pom.properties
+│ --rw----     2.0 fat     6400 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.rest.management/pom.xml
+│ +-rw----     2.0 fat     6638 bl defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.rest.management/pom.xml
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/versions/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/versions/9/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 META-INF/versions/9/OSGI-INF/
+│  -rw----     2.0 fat     4041 bl defN 22-Dec-30 07:13 META-INF/versions/9/OSGI-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/
+│  -rw----     2.0 fat        0 bl defN 22-Dec-30 07:13 org/apache/aries/
+│ @@ -73,8 +73,8 @@
+│  -rw----     2.0 fat     6447 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/rest/management/schema/PropertiesAdapter.class
+│  -rw----     2.0 fat     1005 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/rest/management/schema/ServiceListSchema.class
+│  -rw----     2.0 fat     2414 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/rest/management/schema/ServiceSchema.class
+│  -rw----     2.0 fat     1022 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/rest/management/schema/ServiceSchemaAdapter$ServiceSchemaAdapted.class
+│  -rw----     2.0 fat     2088 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/rest/management/schema/ServiceSchemaAdapter.class
+│  -rw----     2.0 fat     1133 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/rest/management/schema/ServiceSchemaListSchema.class
+│  -rw----     2.0 fat      300 bl defN 22-Dec-30 07:13 org/apache/aries/jax/rs/rest/management/schema/package-info.class
+│ -78 files, 232108 bytes uncompressed, 87253 bytes compressed:  62.4%
+│ +78 files, 232346 bytes uncompressed, 87269 bytes compressed:  62.4%
+├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.rest.management/pom.xml
+│ ├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.rest.management/pom.xml
+│ │ @@ -148,14 +148,22 @@
+│ │        <id>bnd-snapshots</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-snapshot/</url>
+│ │      </repository>
+│ │      <repository>
+│ │        <id>bnd-release</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-release/</url>
+│ │      </repository>
+│ │ +    <repository>
+│ │ +      <releases>
+│ │ +        <enabled>false</enabled>
+│ │ +      </releases>
+│ │ +      <id>apache.snapshots</id>
+│ │ +      <name>Apache Snapshot Repository</name>
+│ │ +      <url>https://repository.apache.org/snapshots</url>
+│ │ +    </repository>
+│ │    </repositories>
+│ │    <build>
+│ │      <plugins>
+│ │        <plugin>
+│ │          <groupId>biz.aQute.bnd</groupId>
+│ │          <artifactId>bnd-maven-plugin</artifactId>
+│ │          <version>6.4.0</version>
+
+23 /       23 target/reference/org.apache.aries.jax.rs.rest.management-2.0.2-sources.jar integrations/rest-management/rest-management/target/org.apache.aries.jax.rs.rest.management-2.0.2-sources.jar
+--- target/reference/org.apache.aries.jax.rs.rest.management-2.0.2-sources.jar
++++ integrations/rest-management/rest-management/target/org.apache.aries.jax.rs.rest.management-2.0.2-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 72362 bytes, number of entries: 66
+│ +Zip file size: 72378 bytes, number of entries: 66
+│  -rw-r--r--  2.0 unx       64 b- defN 22-Dec-30 07:13 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/aries/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/aries/jax/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 07:13 org/apache/aries/jax/rs/
+│ @@ -59,10 +59,10 @@
+│  -rw-r--r--  2.0 unx     1928 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/rest/management/schema/FrameworkStartLevelSchema.java
+│  -rw-r--r--  2.0 unx     5619 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/rest/management/schema/PropertiesAdapter.java
+│  -rw-r--r--  2.0 unx     1379 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/rest/management/schema/ServiceListSchema.java
+│  -rw-r--r--  2.0 unx     2509 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/rest/management/schema/ServiceSchema.java
+│  -rw-r--r--  2.0 unx     2243 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/rest/management/schema/ServiceSchemaAdapter.java
+│  -rw-r--r--  2.0 unx     1445 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/rest/management/schema/ServiceSchemaListSchema.java
+│  -rw-r--r--  2.0 unx      976 b- defN 22-Dec-30 07:13 org/apache/aries/jax/rs/rest/management/schema/package-info.java
+│ --rw-r--r--  2.0 unx     6400 b- defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.rest.management/pom.xml
+│ +-rw-r--r--  2.0 unx     6638 b- defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.rest.management/pom.xml
+│  -rw-r--r--  2.0 unx       97 b- defN 22-Dec-30 07:13 META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.rest.management/pom.properties
+│ -66 files, 212539 bytes uncompressed, 59298 bytes compressed:  72.1%
+│ +66 files, 212777 bytes uncompressed, 59314 bytes compressed:  72.1%
+├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.rest.management/pom.xml
+│ ├── META-INF/maven/org.apache.aries.jax.rs/org.apache.aries.jax.rs.rest.management/pom.xml
+│ │ @@ -148,14 +148,22 @@
+│ │        <id>bnd-snapshots</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-snapshot/</url>
+│ │      </repository>
+│ │      <repository>
+│ │        <id>bnd-release</id>
+│ │        <url>https://bndtools.jfrog.io/bndtools/libs-release/</url>
+│ │      </repository>
+│ │ +    <repository>
+│ │ +      <releases>
+│ │ +        <enabled>false</enabled>
+│ │ +      </releases>
+│ │ +      <id>apache.snapshots</id>
+│ │ +      <name>Apache Snapshot Repository</name>
+│ │ +      <url>https://repository.apache.org/snapshots</url>
+│ │ +    </repository>
+│ │    </repositories>
+│ │    <build>
+│ │      <plugins>
+│ │        <plugin>
+│ │          <groupId>biz.aQute.bnd</groupId>
+│ │          <artifactId>bnd-maven-plugin</artifactId>
+│ │          <version>6.4.0</version>
+

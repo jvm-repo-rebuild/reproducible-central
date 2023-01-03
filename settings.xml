@@ -2,26 +2,6 @@
   <localRepository>${user.home}/.m2/repository</localRepository>
   <profiles>
     <profile>
-      <id>apache</id>
-      <activation>
-        <activeByDefault>true</activeByDefault>
-      </activation>
-      <pluginRepositories>
-        <pluginRepository>
-          <id>apache.org</id>
-          <name>Maven Plugin Snapshots</name>
-          <url>http://repository.apache.org/snapshots</url>
-          <releases>
-            <enabled>false</enabled>
-          </releases>
-          <snapshots>
-            <enabled>true</enabled>
-          </snapshots>
-        </pluginRepository>
-      </pluginRepositories>
-    </profile>
-
-    <profile>
       <id>io.wcm</id>
       <!-- see https://wcm.io/maven.html -->
       <repositories>
