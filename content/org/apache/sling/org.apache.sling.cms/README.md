@@ -7,6 +7,19 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-resourcemerger.git](https://github.com/apache/sling-org-apache-sling-resourcemerger.git)
 
+<details><summary>This project defines 9 modules:</summary>
+
+* [org.apache.sling:org.apache.sling.cms](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.cms/)
+* [org.apache.sling:org.apache.sling.cms.api](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.cms.api/)
+* [org.apache.sling:org.apache.sling.cms.archetype](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.cms.archetype/)
+* [org.apache.sling:org.apache.sling.cms.core](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.cms.core/)
+* [org.apache.sling:org.apache.sling.cms.feature](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.cms.feature/)
+* [org.apache.sling:org.apache.sling.cms.it](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.cms.it/)
+* [org.apache.sling:org.apache.sling.cms.login](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.cms.login/)
+* [org.apache.sling:org.apache.sling.cms.reference](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.cms.reference/)
+* [org.apache.sling:org.apache.sling.cms.ui](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.cms.ui/)
+</details>
+
 rebuilding **1 releases** of org.apache.sling:org.apache.sling.resourcemerger:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):

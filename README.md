@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **1443 releases** of **370 projects**:
-   - **1049** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **1446 releases** of **372 projects**:
+   - **1052** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 394 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
@@ -63,6 +63,7 @@ Its objectives are to provide:
 | | <a name='io.cucumber:html-formatter'></a>[html-formatter](content/io/cucumber/html-formatter/README.md) | 1 | 1 :warning: |
 | | <a name='io.cucumber:junit-xml-formatter'></a>[junit-xml-formatter](content/io/cucumber/junit-xml-formatter/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='io.cucumber:messages'></a>[messages](content/io/cucumber/messages/README.md) | 2 | 2 :heavy_check_mark: |
+| | <a name='io.cucumber:tag-expressions'></a>[tag-expressions](content/io/cucumber/tag-expressions/README.md) | 1 | 1 :heavy_check_mark: |
 | io.dropwizard | <a name='io.dropwizard:dropwizard-project'></a>[dropwizard-project](content/io/dropwizard/core/README.md) | 46 | 43 :heavy_check_mark: / 3 :warning: |
 | io.dropwizard.metrics | <a name='io.dropwizard.metrics:metrics-parent'></a>[metrics-parent](content/io/dropwizard/metrics/README.md) | 34 | 13 :heavy_check_mark: / 21 :warning: |
 | io.dropwizard.metrics5 | <a name='io.dropwizard.metrics5:metrics-parent'></a>[metrics-parent](content/io/dropwizard/metrics5/README.md) | 8 | 2 :heavy_check_mark: / 6 :warning: |
@@ -123,12 +124,13 @@ Its objectives are to provide:
 | org.apache.wss4j | <a name='org.apache.wss4j:wss4j'></a>[wss4j](content/org/apache/wss4j/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | org.apache.activemq | <a name='org.apache.activemq:artemis-pom'></a>[artemis-pom](content/org/apache/activemq/artemis/README.md) | 1 | 1 :warning: |
 | org.apache.aries.cdi | <a name='org.apache.aries.cdi:org.apache.aries.cdi'></a>[org.apache.aries.cdi](content/org/apache/aries/cdi/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
+| org.apache.aries.jax.rs | <a name='org.apache.aries.jax.rs:org.apache.aries.jax.rs'></a>[org.apache.aries.jax.rs](content/org/apache/aries/jax-rs/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.camel | <a name='org.apache.camel:camel'></a>[camel](content/org/apache/camel/camel/README.md) | 4 | 4 :warning: |
 | org.apache.camel.k | <a name='org.apache.camel.k:camel-k-runtime-project'></a>[camel-k-runtime-project](content/org/apache/camel/camel-k-runtime/README.md) | 4 | 4 :warning: |
 | org.apache.bcel | <a name='org.apache.bcel:bcel'></a>[bcel](content/org/apache/commons/bcel/README.md) | 1 | 1 :warning: |
 | org.apache.commons | <a name='org.apache.commons:commons-compress'></a>[commons-compress](content/org/apache/commons/compress/README.md) | 1 | 1 :warning: |
 | | <a name='org.apache.commons:commons-numbers-parent'></a>[commons-numbers-parent](content/org/apache/commons/numbers/README.md) | 1 | 1 :heavy_check_mark: |
-| | <a name='org.apache.commons:commons-parent'></a>[commons-parent](content/org/apache/commons/parent/README.md) | 3 | 3 :heavy_check_mark: |
+| | <a name='org.apache.commons:commons-parent'></a>[commons-parent](content/org/apache/commons/parent/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.apache.commons:commons-rng-parent'></a>[commons-rng-parent](content/org/apache/commons/rng/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.commons:commons-statistics-parent'></a>[commons-statistics-parent](content/org/apache/commons/statistics/README.md) | 1 | 1 :warning: |
 | org.apache.cxf.fediz | <a name='org.apache.cxf.fediz:fediz'></a>[fediz](content/org/apache/cxf/fediz/README.md) | 2 | 2 :warning: |
@@ -393,7 +395,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 5 | 5 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 6 | 6 :warning: |
-| **Count:** | **370** | **1443** | **1049** :heavy_check_mark: **394** :warning: |
+| **Count:** | **372** | **1446** | **1052** :heavy_check_mark: **394** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -405,9 +407,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      13 gradle     11
      26 mvn         7
-    710 mvn         8
+    711 mvn         8
       1 mvn         9
-    539 mvn        11
+    540 mvn        11
       4 mvn        14
      10 mvn        15
      10 mvn        16
@@ -416,7 +418,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       8 mvn        19
       2 mvn-3.5.4   8
       1 mvn-3.8.5   8
-     10 mvn-3.8.5  11
+     11 mvn-3.8.5  11
       5 mvn-3.8.5  17
      15 mvn-3.8.6   8
       1 mvn-3.8.6  11
