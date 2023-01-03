@@ -1,0 +1,145 @@
+1 / 4 target/reference/org.apache.sling.cms.core-1.1.4.jar core/target/org.apache.sling.cms.core-1.1.4.jar
+--- target/reference/org.apache.sling.cms.core-1.1.4.jar
++++ core/target/org.apache.sling.cms.core-1.1.4.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 273470 bytes, number of entries: 227
+│ +Zip file size: 273471 bytes, number of entries: 227
+│  -rw-r--r--  2.0 unx    16848 b- defN 22-Dec-16 03:33 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-16 03:33 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-16 03:33 OSGI-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-16 03:33 OSGI-INF/l10n/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-16 03:33 OSGI-INF/metatype/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-16 03:33 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-16 03:33 org/apache/
+│ @@ -222,8 +222,8 @@
+│  -rw-r--r--  2.0 unx     1163 b- defN 22-Dec-16 03:33 res/editinclude/edit.html
+│  -rw-r--r--  2.0 unx      966 b- defN 22-Dec-16 03:33 res/editinclude/end.html
+│  -rw-r--r--  2.0 unx     1045 b- defN 22-Dec-16 03:33 res/editinclude/header.html
+│  -rw-r--r--  2.0 unx     1190 b- defN 22-Dec-16 03:33 res/editinclude/reorder.html
+│  -rw-r--r--  2.0 unx     1285 b- defN 22-Dec-16 03:33 res/editinclude/start.html
+│  -rw-r--r--  2.0 unx     8798 b- defN 22-Dec-16 03:33 META-INF/maven/org.apache.sling/org.apache.sling.cms.core/pom.xml
+│  -rw-r--r--  2.0 unx       76 b- defN 22-Dec-16 03:33 META-INF/maven/org.apache.sling/org.apache.sling.cms.core/pom.properties
+│ -227 files, 549083 bytes uncompressed, 226874 bytes compressed:  58.7%
+│ +227 files, 549083 bytes uncompressed, 226875 bytes compressed:  58.7%
+├── META-INF/MANIFEST.MF
+│ @@ -171,17 +171,17 @@
+│   Resolver)";effective:=active;resolution:=optional,osgi.service;filter:=
+
+│   "(objectClass=org.apache.sling.i18n.ResourceBundleProvider)";effective:
+
+│   =active;resolution:=optional;cardinality:=multiple,osgi.service;filter:
+
+│   ="(objectClass=org.osgi.service.cm.ConfigurationAdmin)";effective:=acti
+
+│   ve,osgi.service;filter:="(objectClass=org.osgi.service.event.EventAdmin
+
+│   )";effective:=active,osgi.extender;filter:="(&(osgi.extender=osgi.compo
+
+│   nent)(version>=1.4.0)(!(version>=2.0.0)))",osgi.contract;osgi.contract=
+
+│ - JavaInject;filter:="(&(osgi.contract=JavaInject)(version=1.0.0))",osgi.
+
+│ - contract;osgi.contract=JavaJSONP;filter:="(&(osgi.contract=JavaJSONP)(v
+
+│ - ersion=1.1.0))",osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+│ + JavaJSONP;filter:="(&(osgi.contract=JavaJSONP)(version=1.1.0))",osgi.co
+
+│ + ntract;osgi.contract=JavaInject;filter:="(&(osgi.contract=JavaInject)(v
+
+│ + ersion=1.0.0))",osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+│  Service-Component: OSGI-INF/org.apache.sling.cms.core.i18n.impl.I18NProv
+
+│   iderImpl.xml,OSGI-INF/org.apache.sling.cms.core.insights.impl.InsightFa
+
+│   ctoryImpl.xml,OSGI-INF/org.apache.sling.cms.core.insights.impl.Insights
+
+│   WebConsole.xml,OSGI-INF/org.apache.sling.cms.core.insights.impl.provide
+
+│   rs.HTMLValdiatorInsightProvider.xml,OSGI-INF/org.apache.sling.cms.core.
+
+│   insights.impl.providers.PageSpeedInsightProvider.xml,OSGI-INF/org.apach
+
+│   e.sling.cms.core.insights.impl.providers.ReadabilityInsightProvider.xml
+
+2 / 4 target/reference/org.apache.sling.cms.feature-1.1.4.jar feature/target/org.apache.sling.cms-1.1.4.jar
+--- target/reference/org.apache.sling.cms.feature-1.1.4.jar
++++ feature/target/org.apache.sling.cms-1.1.4.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 206272387 bytes, number of entries: 1178
+│ +Zip file size: 206266145 bytes, number of entries: 1178
+│  -rw-r--r--  2.0 unx      582 b- defN 22-Dec-16 03:33 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-16 03:33 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-16 03:33 lib/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-16 03:33 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-16 03:33 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-16 03:33 org/apache/sling/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-16 03:33 org/apache/sling/cms/
+│ @@ -1169,12 +1169,12 @@
+│  -rw-r--r--  2.0 unx      600 b- defN 22-Dec-16 03:33 org/apache/sling/feature/io/json/FeatureJSONReader$BiConsumer_WithExceptions.class
+│  -rw-r--r--  2.0 unx     1169 b- defN 22-Dec-16 03:33 org/apache/sling/feature/io/json/FeatureJSONReader$MatchingRequirementImpl.class
+│  -rw-r--r--  2.0 unx      908 b- defN 22-Dec-16 03:33 org/apache/sling/feature/io/json/FeatureJSONWriter$1.class
+│  -rw-r--r--  2.0 unx      766 b- defN 22-Dec-16 03:33 org/apache/sling/feature/io/json/FeatureJSONWriter$2.class
+│  -rw-r--r--  2.0 unx      236 b- defN 22-Dec-16 03:33 org/apache/sling/feature/package-info.class
+│  -rw-r--r--  2.0 unx     5949 b- defN 22-Dec-16 03:33 META-INF/maven/org.apache.sling/org.apache.sling.feature/pom.xml
+│  -rw-r--r--  2.0 unx       76 b- defN 22-Dec-16 03:33 META-INF/maven/org.apache.sling/org.apache.sling.feature/pom.properties
+│ --rw-r--r--  2.0 unx 225664547 b- defN 22-Dec-16 03:33 lib/slingcms.far
+│ +-rw-r--r--  2.0 unx 225544708 b- defN 22-Dec-16 03:33 lib/slingcms.far
+│  -rw-r--r--  2.0 unx     1545 b- defN 22-Dec-16 03:33 org/apache/sling/cms/feature/Main.class
+│  -rw-r--r--  2.0 unx      287 b- defN 22-Dec-16 03:33 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx    11358 b- defN 22-Dec-16 03:33 META-INF/LICENSE
+│ -1178 files, 229176261 bytes uncompressed, 206059235 bytes compressed:  10.1%
+│ +1178 files, 229056422 bytes uncompressed, 206052993 bytes compressed:  10.0%
+├── lib/slingcms.far
+...
+
+3 / 4 target/reference/org.apache.sling.cms.feature-1.1.4-slingcms_standalone_far.far feature/target/org.apache.sling.cms.feature-1.1.4-slingcms_standalone_far.far
+--- target/reference/org.apache.sling.cms.feature-1.1.4-slingcms_standalone_far.far
++++ feature/target/org.apache.sling.cms.feature-1.1.4-slingcms_standalone_far.far
+├── zipinfo {}
+│ @@ -1,301 +1,301 @@
+│ -Zip file size: 225664547 bytes, number of entries: 299
+│ --rw----     2.0 fat      592 bX defN 22-Dec-15 22:39 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat   132564 bl defN 22-Dec-15 22:39 org/apache/sling/org.apache.sling.cms.feature/1.1.4/org.apache.sling.cms.feature-1.1.4-slingcms-standalone.slingosgifeature
+...
+│ --rw----     2.0 fat    11358 bl defN 22-Dec-15 22:39 META-INF/LICENSE
+│ --rw----     2.0 fat      287 bl defN 22-Dec-15 22:39 META-INF/NOTICE
+│ --rw----     2.0 fat     3180 bl defN 22-Dec-15 22:39 META-INF/DEPENDENCIES
+│ -299 files, 225549386 bytes uncompressed, 225583447 bytes compressed:  0.0%
+│ +Zip file size: 225544708 bytes, number of entries: 299
+│ +-rw----     2.0 fat      592 bX defN 23-Jan-03 07:11 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat   132564 bl defN 23-Jan-03 07:11 org/apache/sling/org.apache.sling.cms.feature/1.1.4/org.apache.sling.cms.feature-1.1.4-slingcms-standalone.slingosgifeature
+...
+│ +-rw----     2.0 fat    11358 bl defN 23-Jan-03 07:11 META-INF/LICENSE
+│ +-rw----     2.0 fat      287 bl defN 23-Jan-03 07:11 META-INF/NOTICE
+│ +-rw----     2.0 fat     3180 bl defN 23-Jan-03 07:11 META-INF/DEPENDENCIES
+│ +299 files, 225549387 bytes uncompressed, 225463608 bytes compressed:  0.0%
+├── org/apache/sling/org.apache.sling.cms.core/1.1.4/org.apache.sling.cms.core-1.1.4.jar
+...
+
+4 / 4 target/reference/org.apache.sling.cms.feature-1.1.4-slingcms_upgrade_far.far feature/target/org.apache.sling.cms.feature-1.1.4-slingcms_upgrade_far.far
+--- target/reference/org.apache.sling.cms.feature-1.1.4-slingcms_upgrade_far.far
++++ feature/target/org.apache.sling.cms.feature-1.1.4-slingcms_upgrade_far.far
+├── zipinfo {}
+│ @@ -1,298 +1,298 @@
+│ -Zip file size: 225619650 bytes, number of entries: 296
+│ --rw----     2.0 fat      583 bX defN 22-Dec-15 22:39 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat   109773 bl defN 22-Dec-15 22:39 org/apache/sling/org.apache.sling.cms.feature/1.1.4/org.apache.sling.cms.feature-1.1.4-slingcms-upgrade.slingosgifeature
+...
+│ --rw----     2.0 fat    11358 bl defN 22-Dec-15 22:39 META-INF/LICENSE
+│ --rw----     2.0 fat      287 bl defN 22-Dec-15 22:39 META-INF/NOTICE
+│ --rw----     2.0 fat     3180 bl defN 22-Dec-15 22:39 META-INF/DEPENDENCIES
+│ -296 files, 225505482 bytes uncompressed, 225539530 bytes compressed:  0.0%
+│ +Zip file size: 225519982 bytes, number of entries: 296
+│ +-rw----     2.0 fat      583 bX defN 23-Jan-03 07:11 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat   109773 bl defN 23-Jan-03 07:11 org/apache/sling/org.apache.sling.cms.feature/1.1.4/org.apache.sling.cms.feature-1.1.4-slingcms-upgrade.slingosgifeature
+...
+│ +-rw----     2.0 fat    11358 bl defN 23-Jan-03 07:11 META-INF/LICENSE
+│ +-rw----     2.0 fat      287 bl defN 23-Jan-03 07:11 META-INF/NOTICE
+│ +-rw----     2.0 fat     3180 bl defN 23-Jan-03 07:11 META-INF/DEPENDENCIES
+│ +296 files, 225505483 bytes uncompressed, 225439862 bytes compressed:  0.0%
+├── org/apache/sling/org.apache.sling.cms.core/1.1.4/org.apache.sling.cms.core-1.1.4.jar
+...
