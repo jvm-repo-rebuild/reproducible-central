@@ -14,12 +14,9 @@ If you want to start playing with the reproducible builds, we recommend the foll
 ### 1) Rebuild Yourself To Check Results
 
 Prerequisites:
-    
-    * [Docker](https://www.docker.com)
-    
-    * `dos2unix` - DOS to MAC/UNIX text file format converter. 
-      
-      Can be installed via [homebrew](https://brew.sh) on MAC via: `brew install dos2unix`.
+* [Docker](https://www.docker.com)
+* `dos2unix` - DOS to MAC/UNIX text file format converter. \
+   Can be installed via [homebrew](https://brew.sh) on MAC via: `brew install dos2unix`.
 
 You can rebuild a project release by running:
 ```
