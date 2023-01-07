@@ -1,0 +1,7 @@
+version=7.4.4
+ok=22
+ko=0
+okFiles="dependency-check-parent-7.4.4.pom dependency-check-utils-7.4.4.pom dependency-check-utils-7.4.4.jar dependency-check-utils-7.4.4-sources.jar dependency-check-core-7.4.4.pom dependency-check-core-7.4.4.jar dependency-check-core-7.4.4-sources.jar dependency-check-core-7.4.4-tests.jar dependency-check-cli-7.4.4.pom dependency-check-cli-7.4.4.jar dependency-check-cli-7.4.4-sources.jar dependency-check-cli-7.4.4-release.zip dependency-check-ant-7.4.4.pom dependency-check-ant-7.4.4.jar dependency-check-ant-7.4.4-sources.jar dependency-check-ant-7.4.4-release.zip dependency-check-maven-7.4.4.pom dependency-check-maven-7.4.4.jar dependency-check-maven-7.4.4-sources.jar dependency-check-plugin-7.4.4.pom dependency-check-plugin-7.4.4.jar dependency-check-plugin-7.4.4-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
