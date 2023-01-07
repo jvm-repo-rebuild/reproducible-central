@@ -18,13 +18,13 @@ Source code: [https://github.com/jeremylong/DependencyCheck](https://github.com/
 * [org.owasp:dependency-check-utils](https://search.maven.org/artifact/org.owasp/dependency-check-utils/)
 </details>
 
-rebuilding **8 releases** of org.owasp:dependency-check-parent:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **9 releases** of org.owasp:dependency-check-parent:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [7.4.4](https://search.maven.org/artifact/org.owasp/dependency-check-parent/7.4.4/pom) | | | |
+| [7.4.4](https://search.maven.org/artifact/org.owasp/dependency-check-parent/7.4.4/pom) | [mvn jdk8](dependency-check-7.4.4.buildspec) | [result](dependency-check-parent-7.4.4.buildinfo): [22 :heavy_check_mark: ](dependency-check-parent-7.4.4.buildcompare) | 59M |
 | [7.4.3](https://search.maven.org/artifact/org.owasp/dependency-check-parent/7.4.3/pom) | [mvn jdk8](dependency-check-7.4.3.buildspec) | [result](dependency-check-parent-7.4.3.buildinfo): [22 :heavy_check_mark: ](dependency-check-parent-7.4.3.buildcompare) | 59M |
 | [7.4.2](https://search.maven.org/artifact/org.owasp/dependency-check-parent/7.4.2/pom) | [mvn jdk8](dependency-check-7.4.2.buildspec) | [result](dependency-check-parent-7.4.2.buildinfo): [22 :heavy_check_mark: ](dependency-check-parent-7.4.2.buildcompare) | 59M |
 | [7.4.1](https://search.maven.org/artifact/org.owasp/dependency-check-parent/7.4.1/pom) | [mvn jdk8](dependency-check-7.4.1.buildspec) | [result](dependency-check-parent-7.4.1.buildinfo): [21 :heavy_check_mark:  1 :warning:](dependency-check-parent-7.4.1.buildcompare) [:mag:](dependency-check-parent-7.4.1.diffoscope) | 59M |
