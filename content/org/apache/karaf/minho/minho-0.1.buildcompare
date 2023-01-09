@@ -1,0 +1,7 @@
+version=0.1
+ok=54
+ko=0
+okFiles="minho-0.1.pom minho-0.1-source-release.zip minho-boot-0.1.pom minho-boot-0.1.jar minho-boot-0.1-sources.jar services-0.1.pom minho-banner-0.1.pom minho-banner-0.1.jar minho-banner-0.1-sources.jar minho-camel-0.1.pom minho-camel-0.1.jar minho-camel-0.1-sources.jar minho-classpath-0.1.pom minho-classpath-0.1.jar minho-classpath-0.1-sources.jar minho-config-json-0.1.pom minho-config-json-0.1.jar minho-config-json-0.1-sources.jar minho-config-properties-0.1.pom minho-config-properties-0.1.jar minho-config-properties-0.1-sources.jar minho-extractor-0.1.pom minho-extractor-0.1.jar minho-extractor-0.1-sources.jar minho-http-0.1.pom minho-http-0.1.jar minho-http-0.1-sources.jar minho-jmx-0.1.pom minho-jmx-0.1.jar minho-jmx-0.1-sources.jar minho-jpa-0.1.pom minho-jpa-0.1.jar minho-jpa-0.1-sources.jar minho-osgi-0.1.pom minho-osgi-0.1.jar minho-osgi-0.1-sources.jar minho-rest-0.1.pom minho-rest-0.1.jar minho-rest-0.1-sources.jar minho-spring-boot-0.1.pom minho-spring-boot-0.1.jar minho-spring-boot-0.1-sources.jar tooling-0.1.pom common-0.1.pom common-0.1.jar common-0.1-sources.jar cli-0.1.pom cli-0.1.jar cli-0.1.zip cli-0.1.tar.gz cli-0.1-sources.jar minho-maven-plugin-0.1.pom minho-maven-plugin-0.1.jar minho-maven-plugin-0.1-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
