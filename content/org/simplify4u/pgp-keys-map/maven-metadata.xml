@@ -3,8 +3,8 @@
   <groupId>org.simplify4u</groupId>
   <artifactId>pgp-keys-map</artifactId>
   <versioning>
-    <latest>2022.11.15</latest>
-    <release>2022.11.15</release>
+    <latest>2023.01.09</latest>
+    <release>2023.01.09</release>
     <versions>
       <version>2020.08</version>
       <version>2020.11</version>
@@ -26,7 +26,8 @@
       <version>2022.07.02</version>
       <version>2022.09.15</version>
       <version>2022.11.15</version>
+      <version>2023.01.09</version>
     </versions>
-    <lastUpdated>20221115221252</lastUpdated>
+    <lastUpdated>20230109171916</lastUpdated>
   </versioning>
 </metadata>
