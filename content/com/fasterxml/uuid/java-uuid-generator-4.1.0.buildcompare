@@ -1,0 +1,6 @@
+version=4.1.0
+ok=2
+ko=1
+okFiles="java-uuid-generator-4.1.0.pom java-uuid-generator-4.1.0-sources.jar"
+koFiles="java-uuid-generator-4.1.0.jar"
+# diffoscope target/reference/java-uuid-generator-4.1.0.jar target/java-uuid-generator-4.1.0.jar

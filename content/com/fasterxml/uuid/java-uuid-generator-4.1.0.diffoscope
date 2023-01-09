@@ -1,0 +1,18 @@
+1 / 1 target/reference/java-uuid-generator-4.1.0.jar target/java-uuid-generator-4.1.0.jar
+--- target/reference/java-uuid-generator-4.1.0.jar
++++ target/java-uuid-generator-4.1.0.jar
+├── zipinfo {}
+│ @@ -1,42 +1,42 @@
+│  Zip file size: 43231 bytes, number of entries: 40
+│ --rw----     2.0 fat        0 bX defN 80-Feb-01 08:00 META-INF/
+│ --rw----     2.0 fat     1648 bX defN 80-Feb-01 08:00 META-INF/MANIFEST.MF
+...
+│ --rw----     2.0 fat      124 bX defN 80-Feb-01 08:00 com/fasterxml/uuid/package-info.class
+│ --rw----     2.0 fat      211 bx defN 23-Jan-08 02:43 module-info.class
+│ +-rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ +-rw----     2.0 fat     1648 bX defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+...
+│ +-rw----     2.0 fat      124 bX defN 80-Feb-01 00:00 com/fasterxml/uuid/package-info.class
+│ +-rw----     2.0 fat      211 bx defN 23-Jan-09 07:41 module-info.class
+│  40 files, 73112 bytes uncompressed, 36260 bytes compressed:  50.4%
+
