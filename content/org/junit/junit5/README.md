@@ -37,6 +37,7 @@ rebuilding **1 releases** of org.junit:junit-bom:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [5.9.2](https://search.maven.org/artifact/org.junit/junit-bom/5.9.2/pom) | | | |
 | [5.9.1](https://search.maven.org/artifact/org.junit/junit-bom/5.9.1/pom) | | | |
 | [5.9.0](https://search.maven.org/artifact/org.junit/junit-bom/5.9.0/pom) | | | |
 | [5.9.0-RC1](https://search.maven.org/artifact/org.junit/junit-bom/5.9.0-RC1/pom) | | | |

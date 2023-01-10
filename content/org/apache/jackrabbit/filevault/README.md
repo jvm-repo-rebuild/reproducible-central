@@ -31,6 +31,7 @@ rebuilding **9 releases** of org.apache.jackrabbit.vault:jackrabbit-filevault:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.6.8](https://search.maven.org/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/3.6.8/pom) | | | |
 | [3.6.6](https://search.maven.org/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/3.6.6/pom) | [mvn jdk11](jackrabbit-filevault-3.6.6.buildspec) | [result](jackrabbit-filevault-3.6.6.buildinfo): [40 :heavy_check_mark: ](jackrabbit-filevault-3.6.6.buildcompare) | 26M |
 | [3.6.4](https://search.maven.org/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/3.6.4/pom) | [mvn jdk11](jackrabbit-filevault-3.6.4.buildspec) | [result](jackrabbit-filevault-3.6.4.buildinfo): [40 :heavy_check_mark: ](jackrabbit-filevault-3.6.4.buildcompare) | 26M |
 | [3.6.0](https://search.maven.org/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/3.6.0/pom) | [mvn jdk11](jackrabbit-filevault-3.6.0.buildspec) | [result](jackrabbit-filevault-3.6.0.buildinfo): [34 :heavy_check_mark:  6 :warning:](jackrabbit-filevault-3.6.0.buildcompare) [:mag:](jackrabbit-filevault-3.6.0.diffoscope) [:memo:](https://github.com/apache/jackrabbit-filevault/pull/214) | 25M |
