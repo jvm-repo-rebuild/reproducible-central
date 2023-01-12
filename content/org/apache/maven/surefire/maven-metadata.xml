@@ -3,8 +3,8 @@
   <groupId>org.apache.maven.surefire</groupId>
   <artifactId>surefire</artifactId>
   <versioning>
-    <latest>3.0.0-M7</latest>
-    <release>3.0.0-M7</release>
+    <latest>3.0.0-M8</latest>
+    <release>3.0.0-M8</release>
     <versions>
       <version>1.5</version>
       <version>1.5.1</version>
@@ -55,7 +55,8 @@
       <version>3.0.0-M5</version>
       <version>3.0.0-M6</version>
       <version>3.0.0-M7</version>
+      <version>3.0.0-M8</version>
     </versions>
-    <lastUpdated>20220606231813</lastUpdated>
+    <lastUpdated>20230111212429</lastUpdated>
   </versioning>
 </metadata>
