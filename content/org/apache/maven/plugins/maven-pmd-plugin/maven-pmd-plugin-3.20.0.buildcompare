@@ -1,0 +1,7 @@
+version=3.20.0
+ok=4
+ko=0
+okFiles="maven-pmd-plugin-3.20.0.pom maven-pmd-plugin-3.20.0.jar maven-pmd-plugin-3.20.0-source-release.zip maven-pmd-plugin-3.20.0-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
