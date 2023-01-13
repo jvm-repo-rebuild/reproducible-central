@@ -19,14 +19,14 @@ Source code: [https://github.com/raphw/byte-buddy.git](https://github.com/raphw/
 * [net.bytebuddy:byte-buddy-parent](https://search.maven.org/artifact/net.bytebuddy/byte-buddy-parent/)
 </details>
 
-rebuilding **3 releases** of net.bytebuddy:byte-buddy-parent:
+rebuilding **4 releases** of net.bytebuddy:byte-buddy-parent:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.12.22](https://search.maven.org/artifact/net.bytebuddy/byte-buddy-parent/1.12.22/pom) | | | |
-| [1.12.21](https://search.maven.org/artifact/net.bytebuddy/byte-buddy-parent/1.12.21/pom) | [mvn jdk8](byte-buddy-1.12.21.buildspec) | [result](byte-buddy-parent-1.12.21.buildinfo): [21 :heavy_check_mark:  1 :warning:](byte-buddy-parent-1.12.21.buildcompare) [:mag:](byte-buddy-parent-1.12.21.diffoscope) [:memo:](https://github.com/raphw/byte-buddy/pull/1371) | 19M |
+| [1.12.22](https://search.maven.org/artifact/net.bytebuddy/byte-buddy-parent/1.12.22/pom) | [mvn jdk8](byte-buddy-1.12.22.buildspec) | [result](byte-buddy-parent-1.12.22.buildinfo): [21 :heavy_check_mark:  1 :warning:](byte-buddy-parent-1.12.22.buildcompare) | 19M |
+| [1.12.21](https://search.maven.org/artifact/net.bytebuddy/byte-buddy-parent/1.12.21/pom) | [mvn jdk8](byte-buddy-1.12.21.buildspec) | [result](byte-buddy-parent-1.12.21.buildinfo): [21 :heavy_check_mark:  1 :warning:](byte-buddy-parent-1.12.21.buildcompare) [:mag:](byte-buddy-parent-1.12.21.diffoscope) | 19M |
 | [1.12.20](https://search.maven.org/artifact/net.bytebuddy/byte-buddy-parent/1.12.20/pom) | [mvn jdk8](byte-buddy-1.12.20.buildspec) | [result](byte-buddy-parent-1.12.20.buildinfo): [18 :heavy_check_mark:  4 :warning:](byte-buddy-parent-1.12.20.buildcompare) [:mag:](byte-buddy-parent-1.12.20.diffoscope) [:memo:](https://github.com/raphw/byte-buddy/pull/1371) | 19M |
 | [1.12.19](https://search.maven.org/artifact/net.bytebuddy/byte-buddy-parent/1.12.19/pom) | | | |
 | [1.12.18](https://search.maven.org/artifact/net.bytebuddy/byte-buddy-parent/1.12.18/pom) | | | |

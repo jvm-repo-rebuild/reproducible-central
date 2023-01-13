@@ -23,6 +23,7 @@ rebuilding **1 releases** of org.apache.orc:orc:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.8.2](https://search.maven.org/artifact/org.apache.orc/orc/1.8.2/pom) | | | |
 | [1.8.1](https://search.maven.org/artifact/org.apache.orc/orc/1.8.1/pom) | [mvn jdk8](orc-1.8.1.buildspec) | [result](orc-1.8.1.buildinfo): [35 :heavy_check_mark: ](orc-1.8.1.buildcompare) | 82M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

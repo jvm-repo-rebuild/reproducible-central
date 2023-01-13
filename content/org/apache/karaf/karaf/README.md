@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/karaf.git](https://github.com/apache/karaf.git)
 
-<details><summary>This project defines 245 modules:</summary>
+<details><summary>This project defines 252 modules:</summary>
 
 * [org.apache.karaf.archetypes:karaf-assembly-archetype](https://search.maven.org/artifact/org.apache.karaf.archetypes/karaf-assembly-archetype/)
 * [org.apache.karaf.archetypes:karaf-blueprint-archetype](https://search.maven.org/artifact/org.apache.karaf.archetypes/karaf-blueprint-archetype/)
@@ -73,6 +73,13 @@ Source code: [https://github.com/apache/karaf.git](https://github.com/apache/kar
 * [org.apache.karaf.examples:karaf-docker-example-dynamic-dist](https://search.maven.org/artifact/org.apache.karaf.examples/karaf-docker-example-dynamic-dist/)
 * [org.apache.karaf.examples:karaf-docker-example-static-dist](https://search.maven.org/artifact/org.apache.karaf.examples/karaf-docker-example-static-dist/)
 * [org.apache.karaf.examples:karaf-dump-example](https://search.maven.org/artifact/org.apache.karaf.examples/karaf-dump-example/)
+* [org.apache.karaf.examples:karaf-graphql-example](https://search.maven.org/artifact/org.apache.karaf.examples/karaf-graphql-example/)
+* [org.apache.karaf.examples:karaf-graphql-example-api](https://search.maven.org/artifact/org.apache.karaf.examples/karaf-graphql-example-api/)
+* [org.apache.karaf.examples:karaf-graphql-example-commands](https://search.maven.org/artifact/org.apache.karaf.examples/karaf-graphql-example-commands/)
+* [org.apache.karaf.examples:karaf-graphql-example-core](https://search.maven.org/artifact/org.apache.karaf.examples/karaf-graphql-example-core/)
+* [org.apache.karaf.examples:karaf-graphql-example-features](https://search.maven.org/artifact/org.apache.karaf.examples/karaf-graphql-example-features/)
+* [org.apache.karaf.examples:karaf-graphql-example-scr-servlet](https://search.maven.org/artifact/org.apache.karaf.examples/karaf-graphql-example-scr-servlet/)
+* [org.apache.karaf.examples:karaf-graphql-example-websocket](https://search.maven.org/artifact/org.apache.karaf.examples/karaf-graphql-example-websocket/)
 * [org.apache.karaf.examples:karaf-http-resource-example](https://search.maven.org/artifact/org.apache.karaf.examples/karaf-http-resource-example/)
 * [org.apache.karaf.examples:karaf-http-resource-example-features](https://search.maven.org/artifact/org.apache.karaf.examples/karaf-http-resource-example-features/)
 * [org.apache.karaf.examples:karaf-http-resource-example-whiteboard](https://search.maven.org/artifact/org.apache.karaf.examples/karaf-http-resource-example-whiteboard/)
@@ -256,13 +263,13 @@ Source code: [https://github.com/apache/karaf.git](https://github.com/apache/kar
 * [org.apache.karaf:org.apache.karaf.util](https://search.maven.org/artifact/org.apache.karaf/org.apache.karaf.util/)
 </details>
 
-rebuilding **4 releases** of org.apache.karaf:karaf:
+rebuilding **5 releases** of org.apache.karaf:karaf:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.4.3](https://search.maven.org/artifact/org.apache.karaf/karaf/4.4.3/pom) | | | |
+| [4.4.3](https://search.maven.org/artifact/org.apache.karaf/karaf/4.4.3/pom) | [mvn jdk11](karaf-4.4.3.buildspec) | [result](karaf-4.4.3.buildinfo): [511 :heavy_check_mark:  94 :warning:](karaf-4.4.3.buildcompare) [:mag:](karaf-4.4.3.diffoscope) | 271M |
 | [4.4.2](https://search.maven.org/artifact/org.apache.karaf/karaf/4.4.2/pom) | | | |
 | [4.4.1](https://search.maven.org/artifact/org.apache.karaf/karaf/4.4.1/pom) | | | |
 | [4.4.0](https://search.maven.org/artifact/org.apache.karaf/karaf/4.4.0/pom) | [mvn jdk11](karaf-4.4.0.buildspec) | [result](karaf-4.4.0.buildinfo): [487 :heavy_check_mark:  100 :warning:](karaf-4.4.0.buildcompare) [:memo:](https://github.com/apache/karaf/pull/1539) | 262M |

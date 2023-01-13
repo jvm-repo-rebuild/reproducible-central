@@ -21,8 +21,10 @@ rebuilding **2 releases** of org.apache.qpid:qpid-jms-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.2.0](https://search.maven.org/artifact/org.apache.qpid/qpid-jms-parent/2.2.0/pom) | | | |
 | [2.1.0](https://search.maven.org/artifact/org.apache.qpid/qpid-jms-parent/2.1.0/pom) | [mvn jdk11](qpid-jms-2.1.0.buildspec) | [result](qpid-jms-parent-2.1.0.buildinfo): [10 :heavy_check_mark: ](qpid-jms-parent-2.1.0.buildcompare) | 6.7M |
 | [2.0.0](https://search.maven.org/artifact/org.apache.qpid/qpid-jms-parent/2.0.0/pom) | | | |
+| [1.8.0](https://search.maven.org/artifact/org.apache.qpid/qpid-jms-parent/1.8.0/pom) | | | |
 | [1.7.0](https://search.maven.org/artifact/org.apache.qpid/qpid-jms-parent/1.7.0/pom) | [mvn jdk11](qpid-jms-1.7.0.buildspec) | [result](qpid-jms-parent-1.7.0.buildinfo): [10 :heavy_check_mark: ](qpid-jms-parent-1.7.0.buildcompare) | 6.7M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

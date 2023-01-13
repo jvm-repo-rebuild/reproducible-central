@@ -7,13 +7,13 @@
 
 Source code: [git@github.com:s4u/pgp-keys-map.git](git@github.com:s4u/pgp-keys-map.git)
 
-rebuilding **16 releases** of org.simplify4u:pgp-keys-map:
-- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **17 releases** of org.simplify4u:pgp-keys-map:
+- **17** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2023.01.09](https://search.maven.org/artifact/org.simplify4u/pgp-keys-map/2023.01.09/pom) | | | |
+| [2023.01.09](https://search.maven.org/artifact/org.simplify4u/pgp-keys-map/2023.01.09/pom) | [mvn jdk8](pgp-keys-map-2023.01.09.buildspec) | [result](pgp-keys-map-2023.01.09.buildinfo): [2 :heavy_check_mark: ](pgp-keys-map-2023.01.09.buildcompare) | 28K |
 | [2022.11.15](https://search.maven.org/artifact/org.simplify4u/pgp-keys-map/2022.11.15/pom) | [mvn jdk8](pgp-keys-map-2022.11.15.buildspec) | [result](pgp-keys-map-2022.11.15.buildinfo): [2 :heavy_check_mark: ](pgp-keys-map-2022.11.15.buildcompare) | 28K |
 | [2022.09.15](https://search.maven.org/artifact/org.simplify4u/pgp-keys-map/2022.09.15/pom) | [mvn jdk8](pgp-keys-map-2022.09.15.buildspec) | [result](pgp-keys-map-2022.09.15.buildinfo): [2 :heavy_check_mark: ](pgp-keys-map-2022.09.15.buildcompare) | 27K |
 | [2022.07.02](https://search.maven.org/artifact/org.simplify4u/pgp-keys-map/2022.07.02/pom) | [mvn jdk8](pgp-keys-map-2022.07.02.buildspec) | [result](pgp-keys-map-2022.07.02.buildinfo): [2 :heavy_check_mark: ](pgp-keys-map-2022.07.02.buildcompare) | 27K |
