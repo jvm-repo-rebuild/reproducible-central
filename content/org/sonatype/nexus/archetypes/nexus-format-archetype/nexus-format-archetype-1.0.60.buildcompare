@@ -1,0 +1,7 @@
+version=1.0.60
+ok=2
+ko=0
+okFiles="nexus-format-archetype-1.0.60.pom nexus-format-archetype-1.0.60.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
