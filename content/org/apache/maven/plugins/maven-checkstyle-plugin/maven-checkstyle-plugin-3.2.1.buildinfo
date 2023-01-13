@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Checkstyle Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-checkstyle-plugin
+version=3.2.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-checkstyle-plugin.git
+source.scm.tag=maven-checkstyle-plugin-3.2.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.filename=maven-checkstyle-plugin-3.2.1.pom
+outputs.0.length=15698
+outputs.0.checksums.sha512=a1d939edc769965784ffc38292696509584fb56ac07d62ac558431208d2acdf2e74c7a6ae37087dbc02acc45604f8c17ef523837280d52a2d70432700beea420
+
+outputs.1.filename=maven-checkstyle-plugin-3.2.1.jar
+outputs.1.length=110126
+outputs.1.checksums.sha512=6d5a993176704fe924476607858c6a4e3bb6579f88a62bda25a71f9af00d6cd97c4b57f6f4530462fcd1e877d418e297b96719263886ae521e0b12cf2a3fa33b
+
+outputs.2.filename=maven-checkstyle-plugin-3.2.1-source-release.zip
+outputs.2.length=463869
+outputs.2.checksums.sha512=06f1d89c3a06daccb6fff20af64885045cb6409d4f6ad441fa456723537b9e56105bb0264c4cbe2795ee50d1d4102ea8f2079796080549d5d467d7343bfc4d9b
+
+outputs.3.filename=maven-checkstyle-plugin-3.2.1-sources.jar
+outputs.3.length=78525
+outputs.3.checksums.sha512=2154d2f2966d106ab839c4198f0754ccb1bf55c1a40ce1e6486bc9f911f10c1bbcaf21ac61ecfd92def34c1ba32f7d7d6c85d3e86c04fcdca301c65a41538426
