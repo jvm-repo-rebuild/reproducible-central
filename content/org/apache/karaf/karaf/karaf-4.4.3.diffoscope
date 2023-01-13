@@ -1,0 +1,398 @@
+# https://issues.apache.org/jira/browse/MARTIFACT-33
+1 / 94 target/reference/features-4.4.3.pom features/pom.xml
+--- target/reference/features-4.4.3.pom
++++ features/pom.xml
+│   --- target/reference/features-4.4.3.pom
+├── +++ features/pom.xml
+│ @@ -15,27 +15,22 @@
+│          distributed under the License is distributed on an "AS IS" BASIS,
+│          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+│          See the License for the specific language governing permissions and
+│          limitations under the License.
+│      -->
+│    <modelVersion>4.0.0</modelVersion>
+│    <parent>
+│ -    <groupId>org.apache.karaf.assemblies</groupId>
+│ -    <artifactId>assemblies</artifactId>
+│ +    <groupId>org.apache.karaf</groupId>
+│ +    <artifactId>karaf</artifactId>
+│      <version>4.4.3</version>
+│      <relativePath>../pom.xml</relativePath>
+│    </parent>
+│ -  <groupId>org.apache.karaf.assemblies.features</groupId>
+│ +  <groupId>org.apache.karaf.features</groupId>
+│    <artifactId>features</artifactId>
+│    <packaging>pom</packaging>
+│ -  <name>Apache Karaf :: Assemblies :: Features</name>
+│ +  <name>Apache Karaf :: Features</name>
+│    <modules>
+│ -    <module>base</module>
+│ -    <module>framework</module>
+│ -    <module>static</module>
+│ -    <module>specs</module>
+│ -    <module>standard</module>
+│ -    <module>spring</module>
+│ -    <module>spring-legacy</module>
+│ -    <module>enterprise</module>
+│ +    <module>extension</module>
+│ +    <module>core</module>
+│ +    <module>command</module>
+│    </modules>
+│  </project>
+
+# happens for 68 jars
+2 / 94 target/reference/org.apache.karaf.features.core-4.4.3.jar features/core/target/org.apache.karaf.features.core-4.4.3.jar
+--- target/reference/org.apache.karaf.features.core-4.4.3.jar
++++ features/core/target/org.apache.karaf.features.core-4.4.3.jar
+├── zipinfo -v {}
+│ @@ -433,15 +433,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│    file last modified on (DOS date/time):          1980 Feb 1 00:00:00
+│ -  32-bit CRC value (hex):                         76d62fd9
+│ +  32-bit CRC value (hex):                         5c1bf6d0
+│    compressed size:                                119 bytes
+│    uncompressed size:                              143 bytes
+│    length of filename:                             72 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── OSGI-INF/karaf-tracker/org.apache.karaf.features.internal.osgi.Activator
+│ @@ -1,3 +1,3 @@
+│ -#Fri Jan 06 15:56:44 CET 2023
+│ +#Fri Jan 13 17:18:36 UTC 2023
+│  org.osgi.service.url.URLStreamHandlerService=(url.handler.protocol\=mvn)
+│  org.osgi.service.cm.ConfigurationAdmin=
+
+6 / 94 target/reference/org.apache.karaf.jaas.modules-4.4.3.jar jaas/modules/target/org.apache.karaf.jaas.modules-4.4.3.jar
+--- target/reference/org.apache.karaf.jaas.modules-4.4.3.jar
++++ jaas/modules/target/org.apache.karaf.jaas.modules-4.4.3.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1544320 bytes, number of entries: 1121
+│ +Zip file size: 1544314 bytes, number of entries: 1121
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     4018 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     2033 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat      188 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf.jaas/
+│ @@ -1116,8 +1116,8 @@
+│  -rw----     2.0 fat      621 bl defN 80-Feb-01 00:00 org/apache/karaf/util/ThreadUtils.class
+│  -rw----     2.0 fat     1298 bl defN 80-Feb-01 00:00 org/apache/karaf/util/Version.class
+│  -rw----     2.0 fat     6215 bl defN 80-Feb-01 00:00 org/apache/karaf/util/XmlUtils.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/karaf/util/tracker/
+│  -rw----     2.0 fat    18731 bl defN 80-Feb-01 00:00 org/apache/karaf/util/tracker/BaseActivator.class
+│  -rw----     2.0 fat     6749 bl defN 80-Feb-01 00:00 org/apache/karaf/util/tracker/SingleServiceTracker.class
+│  -rw----     2.0 fat     1002 bl defN 80-Feb-01 00:00 org/apache/karaf/util/versions.properties
+│ -1121 files, 2997569 bytes uncompressed, 1327274 bytes compressed:  55.7%
+│ +1121 files, 2997569 bytes uncompressed, 1327268 bytes compressed:  55.7%
+├── META-INF/MANIFEST.MF
+│ @@ -6,43 +6,43 @@
+│  Bundle-DocURL: http://karaf.apache.org/
+
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+
+│  Bundle-ManifestVersion: 2
+
+│  Bundle-Name: Apache Karaf :: JAAS :: Modules
+
+│  Bundle-SymbolicName: org.apache.karaf.jaas.modules
+
+│  Bundle-Vendor: The Apache Software Foundation
+
+│  Bundle-Version: 4.4.3
+
+│ -Export-Package: org.apache.karaf.jaas.modules.syncope;uses:="javax.sec
+
+│ - urity.auth,javax.security.auth.callback,javax.security.auth.login,org
+
+│ - .apache.karaf.jaas.boot.principal,org.apache.karaf.jaas.modules";vers
+
+│ - ion="4.4.3",org.apache.karaf.jaas.modules.krb5;uses:="javax.security.
+
+│ - auth,javax.security.auth.callback,javax.security.auth.login,javax.sec
+
+│ - urity.auth.spi";version="4.4.3",org.apache.karaf.jaas.modules;uses:="
+
+│ - javax.security.auth,javax.security.auth.callback,javax.security.auth.
+
+│ - login,javax.security.auth.spi,org.apache.karaf.jaas.boot.principal,or
+
+│ - g.osgi.framework";version="4.4.3",org.apache.karaf.jaas.modules.ldap;
+
+│ - uses:="javax.naming,javax.naming.directory,javax.naming.event,javax.n
+
+│ - et.ssl,javax.security.auth,javax.security.auth.callback,javax.securit
+
+│ - y.auth.login,org.apache.karaf.jaas.boot.principal,org.apache.karaf.ja
+
+│ - as.modules";version="4.4.3",org.apache.karaf.jaas.modules.osgi;uses:=
+
+│ - "javax.security.auth,javax.security.auth.callback,javax.security.auth
+
+│ - .login,org.apache.karaf.jaas.modules,org.osgi.service.cm";version="4.
+
+│ - 4.3",org.apache.karaf.jaas.modules.properties;uses:="javax.security.a
+
+│ - uth,javax.security.auth.callback,javax.security.auth.login,org.apache
+
+│ - .karaf.jaas.boot.principal,org.apache.karaf.jaas.modules,org.apache.k
+
+│ - araf.jaas.modules.encryption";version="4.4.3",org.apache.karaf.jaas.m
+
+│ - odules.publickey;uses:="javax.security.auth,javax.security.auth.callb
+
+│ - ack,javax.security.auth.login,org.apache.karaf.jaas.boot.principal,or
+
+│ - g.apache.karaf.jaas.modules";version="4.4.3",org.apache.karaf.jaas.mo
+
+│ - dules.jdbc;uses:="javax.security.auth,javax.security.auth.callback,ja
+
+│ - vax.security.auth.login,javax.sql,org.apache.karaf.jaas.boot.principa
+
+│ - l,org.apache.karaf.jaas.modules,org.apache.karaf.jaas.modules.encrypt
+
+│ - ion,org.osgi.framework";version="4.4.3",org.apache.karaf.jaas.modules
+
+│ - .audit;uses:="javax.security.auth,javax.security.auth.callback,javax.
+
+│ - security.auth.login,javax.security.auth.spi";version="4.4.3",org.apac
+
+│ - he.karaf.jaas.modules.encryption;uses:="org.apache.karaf.jaas.modules
+
+│ +Export-Package: org.apache.karaf.jaas.modules.properties;uses:="javax.
+
+│ + security.auth,javax.security.auth.callback,javax.security.auth.login,
+
+│ + org.apache.karaf.jaas.boot.principal,org.apache.karaf.jaas.modules,or
+
+│ + g.apache.karaf.jaas.modules.encryption";version="4.4.3",org.apache.ka
+
+│ + raf.jaas.modules.publickey;uses:="javax.security.auth,javax.security.
+
+│ + auth.callback,javax.security.auth.login,org.apache.karaf.jaas.boot.pr
+
+│ + incipal,org.apache.karaf.jaas.modules";version="4.4.3",org.apache.kar
+
+│ + af.jaas.modules;uses:="javax.security.auth,javax.security.auth.callba
+
+│ + ck,javax.security.auth.login,javax.security.auth.spi,org.apache.karaf
+
+│ + .jaas.boot.principal,org.osgi.framework";version="4.4.3",org.apache.k
+
+│ + araf.jaas.modules.osgi;uses:="javax.security.auth,javax.security.auth
+
+│ + .callback,javax.security.auth.login,org.apache.karaf.jaas.modules,org
+
+│ + .osgi.service.cm";version="4.4.3",org.apache.karaf.jaas.modules.krb5;
+
+│ + uses:="javax.security.auth,javax.security.auth.callback,javax.securit
+
+│ + y.auth.login,javax.security.auth.spi";version="4.4.3",org.apache.kara
+
+│ + f.jaas.modules.audit;uses:="javax.security.auth,javax.security.auth.c
+
+│ + allback,javax.security.auth.login,javax.security.auth.spi";version="4
+
+│ + .4.3",org.apache.karaf.jaas.modules.jdbc;uses:="javax.security.auth,j
+
+│ + avax.security.auth.callback,javax.security.auth.login,javax.sql,org.a
+
+│ + pache.karaf.jaas.boot.principal,org.apache.karaf.jaas.modules,org.apa
+
+│ + che.karaf.jaas.modules.encryption,org.osgi.framework";version="4.4.3"
+
+│ + ,org.apache.karaf.jaas.modules.encryption;uses:="org.apache.karaf.jaa
+
+│ + s.modules";version="4.4.3",org.apache.karaf.jaas.modules.syncope;uses
+
+│ + :="javax.security.auth,javax.security.auth.callback,javax.security.au
+
+│ + th.login,org.apache.karaf.jaas.boot.principal,org.apache.karaf.jaas.m
+
+│ + odules";version="4.4.3",org.apache.karaf.jaas.modules.ldap;uses:="jav
+
+│ + ax.naming,javax.naming.directory,javax.naming.event,javax.net.ssl,jav
+
+│ + ax.security.auth,javax.security.auth.callback,javax.security.auth.log
+
+│ + in,org.apache.karaf.jaas.boot.principal,org.apache.karaf.jaas.modules
+
+│   ";version="4.4.3"
+
+│  Import-Package: javax.net,org.apache.karaf.jaas.config;version="[4.4,5
+
+│   )",org.osgi.service.event;resolution:=optional;version="[1.4,2)",org.
+
+│   osgi.framework;version="[1,3)",com.sun.security.auth.module;resolutio
+
+│   n:=optional,javax.xml.bind;version="[2.2,3)",javax.crypto,javax.crypt
+
+│   o.spec,javax.naming,javax.naming.directory,javax.naming.event,javax.n
+
+│   aming.ldap,javax.net.ssl,javax.security.auth,javax.security.auth.call
+├── OSGI-INF/karaf-tracker/org.apache.karaf.jaas.modules.impl.Activator
+│ @@ -1,2 +1,2 @@
+│ -#Fri Jan 06 15:58:18 CET 2023
+│ +#Fri Jan 13 17:18:44 UTC 2023
+│  pid=org.apache.karaf.jaas
+
+
+22 / 94 target/reference/org.apache.karaf.http.core-4.4.3.jar http/target/org.apache.karaf.http.core-4.4.3.jar
+--- target/reference/org.apache.karaf.http.core-4.4.3.jar
++++ http/target/org.apache.karaf.http.core-4.4.3.jar
+├── zipinfo {}
+│ @@ -1,11 +1,11 @@
+│ -Zip file size: 1403891 bytes, number of entries: 1054
+│ +Zip file size: 1403894 bytes, number of entries: 1054
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     2420 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat     1342 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│ +-rw----     2.0 fat     1351 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat      185 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf.http/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf.http/org.apache.karaf.http.core/
+│  -rw----     2.0 fat       82 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf.http/org.apache.karaf.http.core/pom.properties
+│  -rw----     2.0 fat     5865 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf.http/org.apache.karaf.http.core/pom.xml
+│ @@ -1049,8 +1049,8 @@
+│  -rw----     2.0 fat    16960 bl defN 80-Feb-01 00:00 org/apache/karaf/http/core/internal/proxy/ProxyServlet.class
+│  -rw----     2.0 fat      703 bl defN 80-Feb-01 00:00 org/apache/karaf/http/core/internal/proxy/RandomBalancingPolicy.class
+│  -rw----     2.0 fat      800 bl defN 80-Feb-01 00:00 org/apache/karaf/http/core/internal/proxy/RoundRobinBalancingPolicy.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/karaf/util/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/karaf/util/tracker/
+│  -rw----     2.0 fat    18731 bl defN 80-Feb-01 00:00 org/apache/karaf/util/tracker/BaseActivator.class
+│  -rw----     2.0 fat     6749 bl defN 80-Feb-01 00:00 org/apache/karaf/util/tracker/SingleServiceTracker.class
+│ -1054 files, 2705636 bytes uncompressed, 1201055 bytes compressed:  55.6%
+│ +1054 files, 2705645 bytes uncompressed, 1201058 bytes compressed:  55.6%
+├── META-INF/DEPENDENCIES
+│ @@ -5,19 +5,19 @@
+│  
+│  Apache Karaf :: HTTP :: Core
+│  
+│  
+│  From: 'QOS.ch' (http://www.qos.ch)
+│    - JCL 1.2 implemented over SLF4J (http://www.slf4j.org) org.slf4j:jcl-over-slf4j:jar:1.7.32
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - SLF4J API Module (http://www.slf4j.org/slf4j-api) org.slf4j:slf4j-api:jar:1.7.32:compile
+│ -    License: MIT style  (http://www.slf4j.org/license.html)
+│ +  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.32
+│ +    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+│  
+│  From: 'The Apache Software Foundation' (http://www.apache.org/)
+│ -  - Apache Commons Logging (http://commons.apache.org/logging) commons-logging:commons-logging:jar:1.2:compile
+│ +  - Apache Commons Logging (http://commons.apache.org/proper/commons-logging/) commons-logging:commons-logging:jar:1.2
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache HttpClient (http://hc.apache.org/httpcomponents-client) org.apache.httpcomponents:httpclient:jar:4.5.13
+│      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache HttpCore (http://hc.apache.org/httpcomponents-core-ga) org.apache.httpcomponents:httpcore:jar:4.4.13
+│      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+├── OSGI-INF/karaf-tracker/org.apache.karaf.http.core.internal.osgi.Activator
+│ @@ -1,5 +1,5 @@
+│ -#Fri Jan 06 16:01:21 CET 2023
+│ +#Fri Jan 13 17:18:57 UTC 2023
+│  org.osgi.service.cm.ConfigurationAdmin=
+│  pid=org.apache.karaf.http
+│  org.osgi.service.http.HttpService=
+│  org.ops4j.pax.web.service.WebContainer=
+
+
+69 / 94 target/reference/manual-4.4.3.jar manual/target/manual-4.4.3.jar
+--- target/reference/manual-4.4.3.jar
++++ manual/target/manual-4.4.3.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1262939 bytes, number of entries: 285
+│ +Zip file size: 1262912 bytes, number of entries: 285
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat      854 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf/manual/
+│  -rw----     2.0 fat       57 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf/manual/pom.properties
+│  -rw----     2.0 fat    10854 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf/manual/pom.xml
+│ @@ -280,8 +280,8 @@
+│  -rw----     2.0 fat    53940 bl defN 80-Feb-01 00:00 start-stop.html
+│  -rw----     2.0 fat    43027 bl defN 80-Feb-01 00:00 tuning.html
+│  -rw----     2.0 fat    44732 bl defN 80-Feb-01 00:00 update-notes.html
+│  -rw----     2.0 fat    60749 bl defN 80-Feb-01 00:00 urls.html
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 user-guide/
+│  -rw----     2.0 fat    38336 bl defN 80-Feb-01 00:00 webconsole.html
+│  -rw----     2.0 fat    64839 bl defN 80-Feb-01 00:00 webcontainer.html
+│ -285 files, 3989845 bytes uncompressed, 1222165 bytes compressed:  69.4%
+│ +285 files, 3989845 bytes uncompressed, 1222138 bytes compressed:  69.4%
+├── archetypes.html
+│ @@ -939,12 +939,12 @@
+│  </div>
+│  </div>
+│  </div>
+│  </div>
+│  </div>
+│  <div id="footer">
+│  <div id="footer-text">
+│ -Last updated 2023-01-06 15:53:25 CET
+│ +Last updated 2023-01-13 17:18:18 UTC
+│  </div>
+│  </div>
+│  </body>
+│  </html>
+...
+
+70 / 94 target/reference/apache-karaf-4.4.3.tar.gz assemblies/apache-karaf/target/apache-karaf-4.4.3.tar.gz
+--- target/reference/apache-karaf-4.4.3.tar.gz
++++ assemblies/apache-karaf/target/apache-karaf-4.4.3.tar.gz
+├── apache-karaf-4.4.3.tar
+│ ├── file list
+│ │ @@ -1,1796 +1,1796 @@
+│ │ -drwxr-xr-x   0        0        0        0 2023-01-06 15:18:25.334361 apache-karaf-4.4.3/system/
+│ │ --rw-r--r--   0        0        0     1172 2023-01-06 15:18:25.339979 apache-karaf-4.4.3/system/README
+...
+│ │ --rw-r--r--   0        0        0     1075 2023-01-06 15:18:26.369569 apache-karaf-4.4.3/etc/org.apache.felix.eventadmin.impl.EventAdmin.cfg
+│ │ +-rw-r--r--   0        0        0     1833 2023-01-13 17:20:43.232691 apache-karaf-4.4.3/BUILDING.md
+│ │ +drwxr-xr-x   0        0        0        0 2023-01-13 17:20:43.236868 apache-karaf-4.4.3/lib/
+...
+│ │ +-rwxr-xr-x   0        0        0     2808 2023-01-13 17:20:44.159321 apache-karaf-4.4.3/bin/start
+
+...
+
+94 / 94 target/reference/tests-4.4.3.jar itests/test/target/tests-4.4.3.jar
+--- target/reference/tests-4.4.3.jar
++++ itests/test/target/tests-4.4.3.jar
+├── zipinfo {}
+│ @@ -1,13 +1,13 @@
+│ -Zip file size: 12809 bytes, number of entries: 11
+│ +Zip file size: 12810 bytes, number of entries: 11
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  -rw-r--r--  2.0 unx      380 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.karaf.itests/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.karaf.itests/tests/
+│  -rw-r--r--  2.0 unx    10719 b- defN 80-000-00 04:08 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 80-000-00 04:08 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      199 b- defN 80-000-00 04:08 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx    16983 b- defN 80-000-00 04:08 META-INF/maven/dependencies.properties
+│  -rw-r--r--  2.0 unx    16495 b- defN 80-000-00 04:08 META-INF/maven/org.apache.karaf.itests/tests/pom.xml
+│  -rw-r--r--  2.0 unx       63 b- defN 80-000-00 04:08 META-INF/maven/org.apache.karaf.itests/tests/pom.properties
+│ -11 files, 56197 bytes uncompressed, 11293 bytes compressed:  79.9%
+│ +11 files, 56197 bytes uncompressed, 11294 bytes compressed:  79.9%
+├── META-INF/maven/dependencies.properties
+│ @@ -1,9 +1,9 @@
+│  # Project dependencies generated by the Apache ServiceMix Maven Plugin
+│ -# Generated at: Fri Jan 06 17:08:50 CET 2023
+│ +# Generated at: Fri Jan 13 17:23:00 UTC 2023
+│  
+│  groupId = org.apache.karaf.itests
+│  artifactId = tests
+│  version = 4.4.3
+│  org.apache.karaf.itests/tests/version = 4.4.3
+│  
+│  # dependencies
+
