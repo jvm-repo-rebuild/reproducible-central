@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Doxia Tools :: Converter
+group-id=org.apache.maven.doxia
+artifact-id=doxia-converter
+version=1.3
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-doxia-converter.git
+source.scm.tag=doxia-converter-1.3
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=doxia-converter-1.3.pom
+outputs.0.length=8812
+outputs.0.checksums.sha512=0db8b4ab07652b1a1b4e9e8159b89635ff6356ef745521d11df2b6e87d87815468e84d11cb807457803053109095b31ceaa6a2437e4d47ec0a8d8198886c595d
+
+outputs.1.filename=doxia-converter-1.3.jar
+outputs.1.length=36222
+outputs.1.checksums.sha512=3eea03546851576c131d64b07303abcc9a81a912456e2214b3ea15319fbf6eb40dfa43d7ebd17bdd070b9147cb5eabba30927f28e15bcd1a98d9c4e1ed1b78cd
+
+outputs.2.filename=doxia-converter-1.3-source-release.zip
+outputs.2.length=77813
+outputs.2.checksums.sha512=fd82c96acd5bd8bc2dd84127d1c2143df57166f04bf0ac47f5d1b99728fe701126be4f1304388f6003fe81970bb4a9591f22b55eeece5023750d511d5b007aaf
+
+outputs.3.filename=doxia-converter-1.3-jar-with-dependencies.jar
+outputs.3.length=35323654
+outputs.3.checksums.sha512=e05cf5bfea67699e3185b9c838898aae7a7dbdc88d5504f0a99af48c695a8257de832d456eab8244f5adf12a4c2341b4be32c29b2135dae3bb49ca2b9bd011c3
+
+outputs.4.filename=doxia-converter-1.3-sources.jar
+outputs.4.length=33607
+outputs.4.checksums.sha512=b5e50266eed9dc7891f0652cb9fcbd54de38b78c7893f91183bbdb7911f666a451928c621d72b43bfbd63d98dff2e86e974eedee5b5bad2f79cd42c967a13f91

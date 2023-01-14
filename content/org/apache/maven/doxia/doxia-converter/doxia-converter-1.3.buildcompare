@@ -1,0 +1,7 @@
+version=1.3
+ok=5
+ko=0
+okFiles="doxia-converter-1.3.pom doxia-converter-1.3.jar doxia-converter-1.3-source-release.zip doxia-converter-1.3-jar-with-dependencies.jar doxia-converter-1.3-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
