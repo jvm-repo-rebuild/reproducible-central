@@ -14,4 +14,4 @@ command="mvn -Pmojo-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://github.com/mojohaus/jaxb2-maven-plugin/pull/243
