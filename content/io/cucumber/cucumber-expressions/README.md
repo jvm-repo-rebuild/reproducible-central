@@ -13,6 +13,7 @@ rebuilding **2 releases** of io.cucumber:cucumber-expressions:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [16.1.2](https://search.maven.org/artifact/io.cucumber/cucumber-expressions/16.1.2/pom) | | | |
 | [16.1.1](https://search.maven.org/artifact/io.cucumber/cucumber-expressions/16.1.1/pom) | [mvn jdk11](cucumber-expressions-16.1.1.buildspec) | [result](cucumber-expressions-16.1.1.buildinfo): [3 :heavy_check_mark: ](cucumber-expressions-16.1.1.buildcompare) | 114K |
 | [16.1.0](https://search.maven.org/artifact/io.cucumber/cucumber-expressions/16.1.0/pom) | [mvn jdk11](cucumber-expressions-16.1.0.buildspec) | [result](cucumber-expressions-16.1.0.buildinfo): [3 :heavy_check_mark: ](cucumber-expressions-16.1.0.buildcompare) | 114K |
 

@@ -31,6 +31,7 @@ rebuilding **2 releases** of org.jline:jline-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.22.0](https://search.maven.org/artifact/org.jline/jline-parent/3.22.0/pom) | | | |
 | [3.21.0](https://search.maven.org/artifact/org.jline/jline-parent/3.21.0/pom) | [mvn jdk11](jline-3.21.0.buildspec) | [result](jline-parent-3.21.0.buildinfo): [40 :heavy_check_mark: ](jline-parent-3.21.0.buildcompare) | 3.3M |
 | [3.20.0](https://search.maven.org/artifact/org.jline/jline-parent/3.20.0/pom) | [mvn jdk11](jline-3.20.0.buildspec) | [result](jline-parent-3.20.0.buildinfo): [40 :heavy_check_mark: ](jline-parent-3.20.0.buildcompare) | 3.3M |
 
