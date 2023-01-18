@@ -163,7 +163,7 @@ rebuilding **2 releases** of org.apache.syncope:syncope:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [3.0.1](https://search.maven.org/artifact/org.apache.syncope/syncope/3.0.1/pom) | | | |
-| [3.0.0](https://search.maven.org/artifact/org.apache.syncope/syncope/3.0.0/pom) | [mvn jdk11](syncope-3.0.0.buildspec) | [result](syncope-3.0.0.buildinfo): [259 :heavy_check_mark:  7 :warning:](syncope-3.0.0.buildcompare) [:mag:](syncope-3.0.0.diffoscope) | 163M |
+| [3.0.0](https://search.maven.org/artifact/org.apache.syncope/syncope/3.0.0/pom) | [mvn jdk11](syncope-3.0.0.buildspec) | [result](syncope-3.0.0.buildinfo): [259 :heavy_check_mark:  7 :warning:](syncope-3.0.0.buildcompare) [:mag:](syncope-3.0.0.diffoscope) [:memo:](https://github.com/apache/syncope/pull/402) | 163M |
 | [3.0.0-M2](https://search.maven.org/artifact/org.apache.syncope/syncope/3.0.0-M2/pom) | | | |
 | [3.0.0-M1](https://search.maven.org/artifact/org.apache.syncope/syncope/3.0.0-M1/pom) | | | |
 | [3.0.0-M0](https://search.maven.org/artifact/org.apache.syncope/syncope/3.0.0-M0/pom) | | | |
