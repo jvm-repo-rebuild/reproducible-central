@@ -159,6 +159,7 @@ rebuilding **30 releases** of io.liftwizard:liftwizard:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.32.0](https://search.maven.org/artifact/io.liftwizard/liftwizard/0.32.0/pom) | | | |
 | [0.31.0](https://search.maven.org/artifact/io.liftwizard/liftwizard/0.31.0/pom) | [mvn jdk11](liftwizard-0.31.0.buildspec) | [result](liftwizard-0.31.0.buildinfo): [351 :heavy_check_mark: ](liftwizard-0.31.0.buildcompare) | 1.9M |
 | [0.30.0](https://search.maven.org/artifact/io.liftwizard/liftwizard/0.30.0/pom) | [mvn jdk11](liftwizard-0.30.0.buildspec) | [result](liftwizard-0.30.0.buildinfo): [351 :heavy_check_mark: ](liftwizard-0.30.0.buildcompare) | 1.9M |
 | [0.29.0](https://search.maven.org/artifact/io.liftwizard/liftwizard/0.29.0/pom) | [mvn jdk11](liftwizard-0.29.0.buildspec) | [result](liftwizard-0.29.0.buildinfo): [375 :heavy_check_mark: ](liftwizard-0.29.0.buildcompare) | 2.0M |
