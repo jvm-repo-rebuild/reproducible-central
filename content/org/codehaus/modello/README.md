@@ -30,13 +30,13 @@ Source code: [https://github.com/codehaus-plexus/modello.git](https://github.com
 * [org.codehaus.modello:modello-test](https://search.maven.org/artifact/org.codehaus.modello/modello-test/)
 </details>
 
-rebuilding **2 releases** of org.codehaus.modello:modello:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **3 releases** of org.codehaus.modello:modello:
+- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.1.1](https://search.maven.org/artifact/org.codehaus.modello/modello/2.1.1/pom) | | | |
+| [2.1.1](https://search.maven.org/artifact/org.codehaus.modello/modello/2.1.1/pom) | [mvn jdk8](modello-2.1.1.buildspec) | [result](modello-2.1.1.buildinfo): [56 :heavy_check_mark: ](modello-2.1.1.buildcompare) | 2.0M |
 | [2.1.0](https://search.maven.org/artifact/org.codehaus.modello/modello/2.1.0/pom) | [mvn jdk8](modello-2.1.0.buildspec) | [result](modello-2.1.0.buildinfo): [56 :heavy_check_mark: ](modello-2.1.0.buildcompare) | 2.0M |
 | [2.0.0](https://search.maven.org/artifact/org.codehaus.modello/modello/2.0.0/pom) | [mvn jdk8](modello-2.0.0.buildspec) | [result](modello-2.0.0.buildinfo): [53 :heavy_check_mark: ](modello-2.0.0.buildcompare) | 1.8M |
 
