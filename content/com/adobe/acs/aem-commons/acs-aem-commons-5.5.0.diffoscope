@@ -1,0 +1,104 @@
+1 / 5 target/reference/acs-aem-commons-bundle-5.5.0.jar bundle/target/acs-aem-commons-bundle-5.5.0.jar
+--- target/reference/acs-aem-commons-bundle-5.5.0.jar
++++ bundle/target/acs-aem-commons-bundle-5.5.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 15024704 bytes, number of entries: 4502
+│ +Zip file size: 15024606 bytes, number of entries: 4502
+│  -rw----     2.0 fat        0 bX defN 23-Jan-19 19:27 META-INF/
+│  -rw----     2.0 fat    80280 bl defN 23-Jan-19 19:27 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat      612 bl defN 23-Jan-19 19:27 META-INF/COPYRIGHT
+│  -rw----     2.0 fat    11358 bl defN 23-Jan-19 19:27 META-INF/LICENSE
+│  -rw----     2.0 fat      722 bl defN 23-Jan-19 19:27 META-INF/audio.tld
+│  -rw----     2.0 fat      674 bl defN 23-Jan-19 19:27 META-INF/dam.tld
+│  -rw----     2.0 fat     1305 bl defN 23-Jan-19 19:27 META-INF/dhlm.tld
+│ @@ -4497,8 +4497,8 @@
+│  -rw----     2.0 fat      705 bl defN 20-Jun-11 15:51 acscommons/io/jsonwebtoken/impl/lang/Services$3.class
+│  -rw----     2.0 fat     2086 bl defN 20-Jun-11 15:51 acscommons/io/jsonwebtoken/impl/DefaultHeader.class
+│  -rw----     2.0 fat     2467 bl defN 20-Jun-11 15:51 acscommons/io/jsonwebtoken/impl/compression/DeflateCompressionCodec.class
+│  -rw----     2.0 fat        0 bl defN 20-Jun-11 15:51 acscommons/io/jsonwebtoken/gson/
+│  -rw----     2.0 fat        0 bl defN 20-Jun-11 15:51 acscommons/io/jsonwebtoken/gson/io/
+│  -rw----     2.0 fat     2708 bl defN 20-Jun-11 15:51 acscommons/io/jsonwebtoken/gson/io/GsonSerializer.class
+│  -rw----     2.0 fat     2565 bl defN 20-Jun-11 15:51 acscommons/io/jsonwebtoken/gson/io/GsonDeserializer.class
+│ -4502 files, 27906184 bytes uncompressed, 14029092 bytes compressed:  49.7%
+│ +4502 files, 27906184 bytes uncompressed, 14028994 bytes compressed:  49.7%
+├── OSGI-INF/l10n/com.adobe.acs.commons.auth.saml.impl.OktaLogoutHandler.properties
+│ @@ -1,8 +1,8 @@
+│ -#Thu Jan 19 15:03:56 EST 2023
+│ +#Fri Jan 20 07:26:12 GMT 2023
+│  com.adobe.acs.commons.auth.saml.impl.OktaLogoutHandler.description=Specific Authentication Handler to handle logout to Okta SSO Provider which, in some configurations, does not support traditional Single Logout
+│  com.adobe.acs.commons.auth.saml.impl.OktaLogoutHandler.from.uri.description=Description for from.uri
+│  com.adobe.acs.commons.auth.saml.impl.OktaLogoutHandler.from.uri.name=Property from.uri
+│  com.adobe.acs.commons.auth.saml.impl.OktaLogoutHandler.name=ACS AEM Commons - Okta Logout Handler
+│  com.adobe.acs.commons.auth.saml.impl.OktaLogoutHandler.okta.host.name.description=Description for okta.host.name
+│  com.adobe.acs.commons.auth.saml.impl.OktaLogoutHandler.okta.host.name.name=Property okta.host.name
+│  com.adobe.acs.commons.auth.saml.impl.OktaLogoutHandler.path.description=Description for path
+...
+
+2 / 5 target/reference/acs-aem-commons-oakpal-checks-5.5.0.opear oakpal-checks/target/acs-aem-commons-oakpal-checks-5.5.0.opear
+--- target/reference/acs-aem-commons-oakpal-checks-5.5.0.opear
++++ oakpal-checks/target/acs-aem-commons-oakpal-checks-5.5.0.opear
+├── zipinfo {}
+│ @@ -1,13 +1,13 @@
+│  Zip file size: 502889 bytes, number of entries: 11
+│ --rw-r--r--  2.0 unx      274 b- defN 23-Jan-19 15:05 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-19 15:05 META-INF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-19 15:05 lib/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-19 15:05 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-19 15:05 META-INF/maven/com.adobe.acs/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-19 15:05 META-INF/maven/com.adobe.acs/acs-aem-commons-oakpal-checks/
+│ --rw-r--r--  2.0 unx       94 b- defN 23-Jan-19 15:05 plan.json
+│ --rw-r--r--  2.0 unx    83783 b- defN 23-Jan-19 15:05 lib/acs-aem-commons-oakpal-checks-5.5.0.jar
+│ --rw-r--r--  2.0 unx   475256 b- defN 22-Sep-27 16:15 lib/osgi.core-6.0.0.jar
+│ --rw-r--r--  2.0 unx    14837 b- defN 23-Jan-19 15:03 META-INF/maven/com.adobe.acs/acs-aem-commons-oakpal-checks/pom.xml
+│ --rw-r--r--  2.0 unx       77 b- defN 23-Jan-19 15:05 META-INF/maven/com.adobe.acs/acs-aem-commons-oakpal-checks/pom.properties
+│ +-rw-r--r--  2.0 unx      274 b- defN 23-Jan-20 07:26 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-20 07:26 META-INF/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-20 07:26 lib/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-20 07:26 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-20 07:26 META-INF/maven/com.adobe.acs/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-20 07:26 META-INF/maven/com.adobe.acs/acs-aem-commons-oakpal-checks/
+│ +-rw-r--r--  2.0 unx       94 b- defN 23-Jan-20 07:26 plan.json
+│ +-rw-r--r--  2.0 unx    83783 b- defN 23-Jan-20 07:26 lib/acs-aem-commons-oakpal-checks-5.5.0.jar
+│ +-rw-r--r--  2.0 unx   475256 b- defN 22-Sep-20 05:45 lib/osgi.core-6.0.0.jar
+│ +-rw-rw-r--  2.0 unx    14837 b- defN 23-Jan-20 07:01 META-INF/maven/com.adobe.acs/acs-aem-commons-oakpal-checks/pom.xml
+│ +-rw-r--r--  2.0 unx       77 b- defN 23-Jan-20 07:26 META-INF/maven/com.adobe.acs/acs-aem-commons-oakpal-checks/pom.properties
+│  11 files, 574321 bytes uncompressed, 501331 bytes compressed:  12.7%
+
+3 / 5 target/reference/acs-aem-commons-ui.apps-5.5.0.zip ui.apps/target/acs-aem-commons-ui.apps-5.5.0.zip
+--- target/reference/acs-aem-commons-ui.apps-5.5.0.zip
++++ ui.apps/target/acs-aem-commons-ui.apps-5.5.0.zip
+├── zipinfo {}
+│ @@ -1,1480 +1,1480 @@
+│  Zip file size: 3400816 bytes, number of entries: 1478
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-19 19:27 META-INF/
+│  -rw-r--r--  2.0 unx      604 b- defN 23-Jan-19 19:27 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-19 19:27 META-INF/vault/
+│ +drwxrwxr-x  2.0 unx        0 b- stor 23-Jan-19 19:27 META-INF/vault/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-19 19:27 META-INF/vault/definition/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-19 19:27 jcr_root/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-19 19:27 jcr_root/apps/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-19 19:27 jcr_root/apps/acs-commons/
+...
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-19 19:27 jcr_root/apps/settings/dam/indesign/scripts/
+...
+│ +drwxrwxr-x  2.0 unx        0 b- stor 23-Jan-19 19:27 jcr_root/apps/settings/dam/indesign/scripts/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-19 19:27 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-19 19:27 META-INF/maven/com.adobe.acs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-19 19:27 META-INF/maven/com.adobe.acs/acs-aem-commons-ui.apps/
+│ --rw-r--r--  2.0 unx      913 b- defN 23-Jan-19 19:27 META-INF/vault/settings.xml
+│ --rw-r--r--  2.0 unx      800 b- defN 23-Jan-19 19:27 META-INF/vault/properties.xml
+│  -rw-r--r--  2.0 unx     6829 b- defN 23-Jan-19 19:27 META-INF/vault/nodetypes.cnd
+│  -rw-r--r--  2.0 unx     3600 b- defN 23-Jan-19 19:27 META-INF/vault/config.xml
+│ +-rw-r--r--  2.0 unx      800 b- defN 23-Jan-19 19:27 META-INF/vault/properties.xml
+│ +-rw-r--r--  2.0 unx      913 b- defN 23-Jan-19 19:27 META-INF/vault/settings.xml
+│ +-rw-rw-r--  2.0 unx     3096 b- defN 23-Jan-19 19:27 META-INF/vault/filter.xml
+│ +-rw-rw-r--  2.0 unx     3440 b- defN 23-Jan-19 19:27 META-INF/vault/definition/thumbnail.png
+...
+│  1478 files, 9830327 bytes uncompressed, 3068304 bytes compressed:  68.8%
+
+4 / 5 target/reference/acs-aem-commons-ui.content-5.5.0.zip ui.content/target/acs-aem-commons-ui.content-5.5.0.zip
+...
+
+5 / 5 target/reference/acs-aem-commons-content-5.5.0.zip content/target/acs-aem-commons-content-5.5.0.zip
+...
