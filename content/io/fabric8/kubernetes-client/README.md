@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github.com/fabric8io/kubernetes-client.git)
 
-<details><summary>This project defines 147 modules:</summary>
+<details><summary>This project defines 151 modules:</summary>
 
 * [io.fabric8.kubernetes:karaf](https://search.maven.org/artifact/io.fabric8.kubernetes/karaf/)
 * [io.fabric8.kubernetes:kubernetes-karaf](https://search.maven.org/artifact/io.fabric8.kubernetes/kubernetes-karaf/)
@@ -39,6 +39,7 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:crd-generator-apt](https://search.maven.org/artifact/io.fabric8/crd-generator-apt/)
 * [io.fabric8:crd-generator-parent](https://search.maven.org/artifact/io.fabric8/crd-generator-parent/)
 * [io.fabric8:crd-generator-test](https://search.maven.org/artifact/io.fabric8/crd-generator-test/)
+* [io.fabric8:generator-annotations](https://search.maven.org/artifact/io.fabric8/generator-annotations/)
 * [io.fabric8:istio-client](https://search.maven.org/artifact/io.fabric8/istio-client/)
 * [io.fabric8:istio-examples](https://search.maven.org/artifact/io.fabric8/istio-examples/)
 * [io.fabric8:istio-extension-pom](https://search.maven.org/artifact/io.fabric8/istio-extension-pom/)
@@ -63,6 +64,7 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:kubernetes-examples](https://search.maven.org/artifact/io.fabric8/kubernetes-examples/)
 * [io.fabric8:kubernetes-extensions](https://search.maven.org/artifact/io.fabric8/kubernetes-extensions/)
 * [io.fabric8:kubernetes-httpclient-okhttp](https://search.maven.org/artifact/io.fabric8/kubernetes-httpclient-okhttp/)
+* [io.fabric8:kubernetes-httpclient-vertx](https://search.maven.org/artifact/io.fabric8/kubernetes-httpclient-vertx/)
 * [io.fabric8:kubernetes-junit-jupiter](https://search.maven.org/artifact/io.fabric8/kubernetes-junit-jupiter/)
 * [io.fabric8:kubernetes-model](https://search.maven.org/artifact/io.fabric8/kubernetes-model/)
 * [io.fabric8:kubernetes-model-admissionregistration](https://search.maven.org/artifact/io.fabric8/kubernetes-model-admissionregistration/)
@@ -135,6 +137,8 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:tekton-extension-pom](https://search.maven.org/artifact/io.fabric8/tekton-extension-pom/)
 * [io.fabric8:tekton-mock](https://search.maven.org/artifact/io.fabric8/tekton-mock/)
 * [io.fabric8:tekton-model-triggers](https://search.maven.org/artifact/io.fabric8/tekton-model-triggers/)
+* [io.fabric8:tekton-model-triggers-v1alpha1](https://search.maven.org/artifact/io.fabric8/tekton-model-triggers-v1alpha1/)
+* [io.fabric8:tekton-model-triggers-v1beta1](https://search.maven.org/artifact/io.fabric8/tekton-model-triggers-v1beta1/)
 * [io.fabric8:tekton-model-v1alpha1](https://search.maven.org/artifact/io.fabric8/tekton-model-v1alpha1/)
 * [io.fabric8:tekton-model-v1beta1](https://search.maven.org/artifact/io.fabric8/tekton-model-v1beta1/)
 * [io.fabric8:tekton-tests](https://search.maven.org/artifact/io.fabric8/tekton-tests/)
@@ -158,13 +162,13 @@ Source code: [https://github.com/fabric8io/kubernetes-client.git](https://github
 * [io.fabric8:volumesnapshot-tests](https://search.maven.org/artifact/io.fabric8/volumesnapshot-tests/)
 </details>
 
-rebuilding **9 releases** of io.fabric8:kubernetes-client-project:
+rebuilding **10 releases** of io.fabric8:kubernetes-client-project:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 9 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 10 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [6.4.0](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/6.4.0/pom) | | | |
+| [6.4.0](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/6.4.0/pom) | [mvn jdk8](kubernetes-client-6.4.0.buildspec) | [result](kubernetes-client-project-6.4.0.buildinfo): [294 :heavy_check_mark:  135 :warning:](kubernetes-client-project-6.4.0.buildcompare) [:mag:](kubernetes-client-project-6.4.0.diffoscope) | 207M |
 | [6.3.1](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/6.3.1/pom) | | | |
 | [6.3.0](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/6.3.0/pom) | | | |
 | [6.2.0](https://search.maven.org/artifact/io.fabric8/kubernetes-client-project/6.2.0/pom) | | | |

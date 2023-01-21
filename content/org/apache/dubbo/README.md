@@ -136,6 +136,7 @@ rebuilding **7 releases** of org.apache.dubbo:dubbo:
 | [3.2.0-beta.3](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.2.0-beta.3/pom) | | | |
 | [3.2.0-beta.2](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.2.0-beta.2/pom) | | | |
 | [3.2.0-beta.1](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.2.0-beta.1/pom) | | | |
+| [3.1.5](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.1.5/pom) | | | |
 | [3.1.4](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.1.4/pom) | | | |
 | [3.1.3](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.1.3/pom) | | | |
 | [3.1.2](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.1.2/pom) | [mvn jdk8](dubbo-3.1.2.buildspec) | [result](dubbo-parent-3.1.2.buildinfo): [189 :heavy_check_mark:  6 :warning:](dubbo-parent-3.1.2.buildcompare) [:mag:](dubbo-parent-3.1.2.diffoscope) | 24M |
@@ -156,6 +157,7 @@ rebuilding **7 releases** of org.apache.dubbo:dubbo:
 | [3.0.1](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.0.1/pom) | | | |
 | [3.0.0.preview](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.0.0.preview/pom) | | | |
 | [3.0.0](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.0.0/pom) | | | |
+| [2.7.21](https://search.maven.org/artifact/org.apache.dubbo/dubbo/2.7.21/pom) | | | |
 | [2.7.20](https://search.maven.org/artifact/org.apache.dubbo/dubbo/2.7.20/pom) | | | |
 | [2.7.19](https://search.maven.org/artifact/org.apache.dubbo/dubbo/2.7.19/pom) | | | |
 | [2.7.18](https://search.maven.org/artifact/org.apache.dubbo/dubbo/2.7.18/pom) | | | |
