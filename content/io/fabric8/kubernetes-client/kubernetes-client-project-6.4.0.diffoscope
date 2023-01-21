@@ -1,0 +1,83 @@
+# jandex.idx
+
+# order for everything generated from K8S schemas
+3 / 135 target/reference/kubernetes-model-core-6.4.0-sources.jar kubernetes-model-generator/kubernetes-model-core/target/kubernetes-model-core-6.4.0-sources.jar
+--- target/reference/kubernetes-model-core-6.4.0-sources.jar
++++ kubernetes-model-generator/kubernetes-model-core/target/kubernetes-model-core-6.4.0-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1377111 bytes, number of entries: 1049
+│ +Zip file size: 1377171 bytes, number of entries: 1049
+│  -rw-r--r--  2.0 unx       64 b- defN 23-Jan-19 09:27 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-19 09:27 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-19 09:27 io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-19 09:27 io/fabric8/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-19 09:27 io/fabric8/kubernetes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-19 09:27 io/fabric8/kubernetes/api/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-19 09:27 io/fabric8/kubernetes/api/model/
+│ @@ -1044,8 +1044,8 @@
+│  -rw-r--r--  2.0 unx     7358 b- defN 23-Jan-19 09:27 io/fabric8/kubernetes/api/model/version/InfoFluentImpl.java
+│  -rw-r--r--  2.0 unx     2134 b- defN 23-Jan-19 09:27 META-INF/services/io.fabric8.kubernetes.api.model.KubernetesResource
+│  -rw-r--r--  2.0 unx      652 b- defN 23-Jan-19 09:27 manifest.vm
+│  -rw-r--r--  2.0 unx   245787 b- defN 23-Jan-19 09:27 schema/kube-schema.json
+│  -rw-r--r--  2.0 unx   425397 b- defN 23-Jan-19 09:27 schema/validation-schema.json
+│  -rw-r--r--  2.0 unx     8968 b- defN 23-Jan-19 09:27 META-INF/maven/io.fabric8/kubernetes-model-core/pom.xml
+│  -rw-r--r--  2.0 unx       66 b- defN 23-Jan-19 09:27 META-INF/maven/io.fabric8/kubernetes-model-core/pom.properties
+│ -1049 files, 7454018 bytes uncompressed, 1176263 bytes compressed:  84.2%
+│ +1049 files, 7454018 bytes uncompressed, 1176323 bytes compressed:  84.2%
+├── io/fabric8/kubernetes/api/model/NamedExtensionFluent.java
+│┄ Ordering differences only
+│ @@ -49,50 +49,50 @@
+│    public NamedExtensionFluent.PodTemplateSpecExtensionNested<A> withNewPodTemplateSpecExtensionLike(PodTemplateSpec item);
+│    public A withCSIPersistentVolumeSourceExtension(CSIPersistentVolumeSource cSIPersistentVolumeSourceExtension);
+│    public NamedExtensionFluent.CSIPersistentVolumeSourceExtensionNested<A> withNewCSIPersistentVolumeSourceExtension();
+│    public NamedExtensionFluent.CSIPersistentVolumeSourceExtensionNested<A> withNewCSIPersistentVolumeSourceExtensionLike(CSIPersistentVolumeSource item);
+│    public A withAuthInfoExtension(AuthInfo authInfoExtension);
+│    public NamedExtensionFluent.AuthInfoExtensionNested<A> withNewAuthInfoExtension();
+│    public NamedExtensionFluent.AuthInfoExtensionNested<A> withNewAuthInfoExtensionLike(AuthInfo item);
+│ -  public A withAPIServiceExtension(APIService aPIServiceExtension);
+│ -  public NamedExtensionFluent.APIServiceExtensionNested<A> withNewAPIServiceExtension();
+│ -  public NamedExtensionFluent.APIServiceExtensionNested<A> withNewAPIServiceExtensionLike(APIService item);
+│    public A withResourceRequirementsExtension(ResourceRequirements resourceRequirementsExtension);
+│    public NamedExtensionFluent.ResourceRequirementsExtensionNested<A> withNewResourceRequirementsExtension();
+│    public NamedExtensionFluent.ResourceRequirementsExtensionNested<A> withNewResourceRequirementsExtensionLike(ResourceRequirements item);
+│ +  public A withAPIServiceExtension(APIService aPIServiceExtension);
+│ +  public NamedExtensionFluent.APIServiceExtensionNested<A> withNewAPIServiceExtension();
+│ +  public NamedExtensionFluent.APIServiceExtensionNested<A> withNewAPIServiceExtensionLike(APIService item);
+│    public A withConfigMapKeySelectorExtension(ConfigMapKeySelector configMapKeySelectorExtension);
+...
+│ -  public interface AWSElasticBlockStoreVolumeSourceExtensionNested<N> extends Nested<N>,AWSElasticBlockStoreVolumeSourceFluent<NamedExtensionFluent.AWSElasticBlockStoreVolumeSourceExtensionNested<N>>{
+│ +  public interface ServiceAccountExtensionNested<N> extends Nested<N>,ServiceAccountFluent<NamedExtensionFluent.ServiceAccountExtensionNested<N>>{
+│      public N and();
+│ -    public N endAWSElasticBlockStoreVolumeSourceExtension();
+│ +    public N endServiceAccountExtension();
+│      
+│    }
+│    public interface PodIPExtensionNested<N> extends Nested<N>,PodIPFluent<NamedExtensionFluent.PodIPExtensionNested<N>>{
+│      public N and();
+│      public N endPodIPExtension();
+│      
+│    }
+...
+
+134 / 135 target/reference/java-generator-cli-6.4.0.sh java-generator/cli/target/java-gen
+--- target/reference/java-generator-cli-6.4.0.sh
++++ java-generator/cli/target/java-gen
+@@ -270524,824939 +270524,824940 @@
+ 00420bb0: d6bd 2423 65db df82 0462 42f1 fb88 f9ad  ..$#e....bB.....
+ 00420bc0: e39f e891 93ed 38c9 2bc3 34d3 11f5 64e2  ......8.+.4...d.
+ 00420bd0: f670 f415 f0e9 4213 1f75 06f1 efbc 186a  .p....B..u.....j
+ 00420be0: 9f37 c0d0 5877 050c dd3f 909f a1f5 9b39  .7..Xw...?.....9
+ 00420bf0: 3d06 8682 3b45 94dc 6728 94dc b386 e772  =...;E..g(.....r
+ 00420c00: fe22 c2a6 8bcb 1f63 5797 7b55 6cbf d91d  .".....cW.{Ul...
+ 00420c10: 6c39 5bc1 0267 1715 affc 0a50 4b03 0414  l9[..g.....PK...
+-00420c20: 0000 0808 0000 0041 009b a1ed ede3 6700  .......A......g.
++00420c20: 0000 0808 0000 0041 00ce 341c 76eb 6700  .......A..4.v.g.
+ 00420c30: 00f1 8f03 003a 0000 0069 6f2f 6661 6272  .....:...io/fabr
+ 00420c40: 6963 382f 6b75 6265 726e 6574 6573 2f61  ic8/kubernetes/a
+ 00420c50: 7069 2f6d 6f64 656c 2f4e 616d 6564 4578  pi/model/NamedEx
+ 00420c60: 7465 6e73 696f 6e46 6c75 656e 742e 636c  tensionFluent.cl
+-00420c70: 6173 73d5 3d07 9824 45d5 dd33 9d0f 15c9  ass.=..$E..3....
+-00420c80: 28a2 24c9 1c08 8202 027b bbb7 77eb a565  (.$......{..w..e
+-00420c90: 77b9 4394 3037 d377 3730 3bb3 ccce dedd  w.C.07.w70;.....
+...
