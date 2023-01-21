@@ -1,0 +1,20 @@
+1 / 1 target/reference/eforms-sdk-1.5.1-sources.jar target/eforms-sdk-1.5.1-sources.jar
+--- target/reference/eforms-sdk-1.5.1-sources.jar
++++ target/eforms-sdk-1.5.1-sources.jar
+├── zipinfo {}
+│ @@ -1,713 +1,711 @@
+│ -Zip file size: 11287732 bytes, number of entries: 711
+│ +Zip file size: 11252530 bytes, number of entries: 709
+│  -rw-r--r--  2.0 unx       64 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 /
+│ -drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 /home/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 /home/runner/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 /home/runner/work/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 /home/runner/work/eForms-SDK/
+...
+│ -drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 /home/runner/work/eForms-SDK/eForms-SDK/target/classes/eforms-sdk/view-templates/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 /var/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 /var/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 /var/maven/app/
+...

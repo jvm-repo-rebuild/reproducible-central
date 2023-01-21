@@ -1,0 +1,8 @@
+version=1.5.1
+ok=2
+ko=1
+okFiles="eforms-sdk-1.5.1.pom eforms-sdk-1.5.1.jar"
+koFiles="eforms-sdk-1.5.1-sources.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/eforms-sdk-1.5.1-sources.jar target/eforms-sdk-1.5.1-sources.jar
