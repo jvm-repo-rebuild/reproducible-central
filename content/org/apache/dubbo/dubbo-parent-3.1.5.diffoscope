@@ -1,0 +1,527 @@
+1 / 7 target/reference/dubbo-container-api-3.1.5-sources.jar dubbo-container/dubbo-container-api/target/dubbo-container-api-3.1.5-sources.jar
+--- target/reference/dubbo-container-api-3.1.5-sources.jar
++++ dubbo-container/dubbo-container-api/target/dubbo-container-api-3.1.5-sources.jar
+├── zipinfo {}
+│ @@ -1,25 +1,26 @@
+│ -Zip file size: 18326 bytes, number of entries: 23
+│ +Zip file size: 17473 bytes, number of entries: 24
+│  -rw-r--r--  2.0 unx       64 b- defN 20-Apr-01 08:04 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/container/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 META-INF/assembly/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 META-INF/assembly/bin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-container-api/
+│ +-rw-r--r--  2.0 unx     2268 b- defN 20-Apr-01 08:04 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    11358 b- defN 20-Apr-01 08:04 META-INF/LICENSE
+│ +-rw-r--r--  2.0 unx      176 b- defN 20-Apr-01 08:04 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     1140 b- defN 20-Apr-01 08:04 org/apache/dubbo/container/Container.java
+│  -rw-r--r--  2.0 unx     4656 b- defN 20-Apr-01 08:04 org/apache/dubbo/container/Main.java
+│  -rw-r--r--  2.0 unx     2943 b- defN 20-Apr-01 08:04 META-INF/assembly/bin/dump.sh
+│  -rw-r--r--  2.0 unx      832 b- defN 20-Apr-01 08:04 META-INF/assembly/bin/restart.sh
+│  -rw-r--r--  2.0 unx     1196 b- defN 20-Apr-01 08:04 META-INF/assembly/bin/server.sh
+│  -rw-r--r--  2.0 unx     1959 b- defN 20-Apr-01 08:04 META-INF/assembly/bin/start.bat
+│  -rw-r--r--  2.0 unx     5249 b- defN 20-Apr-01 08:04 META-INF/assembly/bin/start.sh
+│  -rw-r--r--  2.0 unx     1635 b- defN 20-Apr-01 08:04 META-INF/assembly/bin/stop.sh
+│ --rw-r--r--  2.0 unx    15894 b- defN 20-Apr-01 08:04 META-INF/LICENSE
+│ --rw-r--r--  2.0 unx      364 b- defN 20-Apr-01 08:04 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx     2335 b- defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-container-api/pom.xml
+│ +-rw-r--r--  2.0 unx     2325 b- defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-container-api/pom.xml
+│  -rw-r--r--  2.0 unx       70 b- defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-container-api/pom.properties
+│ -23 files, 38337 bytes uncompressed, 15272 bytes compressed:  60.2%
+│ +24 files, 35871 bytes uncompressed, 14301 bytes compressed:  60.1%
+├── zipnote «TEMP»/diffoscope_cp1s96iv_target/tmp7_50w4ok_.zip
+│ @@ -27,14 +27,23 @@
+│  
+│  Filename: META-INF/maven/org.apache.dubbo/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.dubbo/dubbo-container-api/
+│  Comment: 
+│  
+│ +Filename: META-INF/DEPENDENCIES
+│ +Comment: 
+│ +
+│ +Filename: META-INF/LICENSE
+│ +Comment: 
+│ +
+│ +Filename: META-INF/NOTICE
+│ +Comment: 
+│ +
+│  Filename: org/apache/dubbo/container/Container.java
+│  Comment: 
+│  
+│  Filename: org/apache/dubbo/container/Main.java
+│  Comment: 
+│  
+│  Filename: META-INF/assembly/bin/dump.sh
+│ @@ -51,20 +60,14 @@
+│  
+│  Filename: META-INF/assembly/bin/start.sh
+│  Comment: 
+│  
+│  Filename: META-INF/assembly/bin/stop.sh
+│  Comment: 
+│  
+│ -Filename: META-INF/LICENSE
+│ -Comment: 
+│ -
+│ -Filename: META-INF/NOTICE
+│ -Comment: 
+│ -
+│  Filename: META-INF/maven/org.apache.dubbo/dubbo-container-api/pom.xml
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.dubbo/dubbo-container-api/pom.properties
+│  Comment: 
+│  
+│  Zip file comment:
+├── META-INF/LICENSE
+│ @@ -196,94 +196,7 @@
+│         http://www.apache.org/licenses/LICENSE-2.0
+│  
+│     Unless required by applicable law or agreed to in writing, software
+│     distributed under the License is distributed on an "AS IS" BASIS,
+│     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+│     See the License for the specific language governing permissions and
+│     limitations under the License.
+│ -
+│ -
+│ -Apache Dubbo Submodules:
+│ -
+│ -Apache Dubbo includes a number of submodules with separate copyright notices
+│ -and license terms. Your use of these submodules is subject to the terms and
+│ -conditions of the following licenses.
+│ -
+│ -For the package org.apache.dubbo.common.threadlocal and org.apache.dubbo.common.timer:
+│ -
+│ -This product contains a modified portion of 'Netty', an event-driven asynchronous network application framework also
+│ - under a "Apache License 2.0" license, see https://github.com/netty/netty/blob/4.1/LICENSE.txt:
+│ -
+│ - * io.netty.util.concurrent.FastThreadLocal
+│ - * io.netty.util.internal.InternalThreadLocalMap
+│ - * io.netty.util.Timer
+│ - * io.netty.util.TimerTask
+│ - * io.netty.util.Timeout
+│ - * io.netty.util.HashedWheelTimer
+│ -
+│ -For the org.apache.dubbo.common.utils.CIDRUtils :
+│ -
+│ -This product contains a modified portion of 'edazdarevic.commons.net.CIDRUtils' published at
+│ -https://github.com/edazdarevic/CIDRUtils. The project is licensed under a MIT License:
+│ -    * The MIT License
+│ -    *
+│ -    * Copyright (c) 2013 Edin Dazdarevic (edin.dazdarevic@gmail.com)
+│ -    * Permission is hereby granted, free of charge, to any person obtaining a copy
+│ -    * of this software and associated documentation files (the "Software"), to deal
+│ -    * in the Software without restriction, including without limitation the rights
+│ -    * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+│ -    * copies of the Software, and to permit persons to whom the Software is
+│ -    * furnished to do so, subject to the following conditions:
+│ -    * The above copyright notice and this permission notice shall be included in
+│ -    * all copies or substantial portions of the Software.
+│ -    * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+│ -    * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+│ -    * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+│ -    * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+│ -    * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+│ -    * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+│ -    * THE SOFTWARE.
+│ -
+│ -For the file org.apache.dubbo.common.utils.Utf8Utils.java:
+│ -
+│ -This product contains a portion of the Protocol Buffers project, which is published at
+│ -https://developers.google.com/protocol-buffers/ and is licensed under the following License:
+│ -
+│ -    Copyright 2008 Google Inc.  All rights reserved.
+│ -
+│ -    Redistribution and use in source and binary forms, with or without
+│ -    modification, are permitted provided that the following conditions are
+│ -    met:
+│ -
+│ -        * Redistributions of source code must retain the above copyright
+│ -    notice, this list of conditions and the following disclaimer.
+│ -        * Redistributions in binary form must reproduce the above
+│ -    copyright notice, this list of conditions and the following disclaimer
+│ -    in the documentation and/or other materials provided with the
+│ -    distribution.
+│ -        * Neither the name of Google Inc. nor the names of its
+│ -    contributors may be used to endorse or promote products derived from
+│ -    this software without specific prior written permission.
+│ -
+│ -    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+│ -    "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+│ -    LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+│ -    A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+│ -    OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+│ -    SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+│ -    LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+│ -    DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+│ -    THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+│ -    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+│ -    OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+│ -
+│ -    Code generated by the Protocol Buffer compiler is owned by the owner
+│ -    of the input file used when generating it.  This code is not
+│ -    standalone and requires a support library to be linked with it.  This
+│ -    support library is itself covered by the above license.
+│ -
+│ -For the ca.proto in dubbo-registry-xds:
+│ -
+│ -This product contains a modified portion of 'Istio', an open platform to connect, manage, and secure microservices also
+│ - under a "Apache License 2.0" license, see https://github.com/istio/api/blob/master/LICENSE:
+│ -
+│ - * security/v1alpha1/ca.proto
+├── META-INF/NOTICE
+│ @@ -1,14 +1,8 @@
+│ -Apache Dubbo
+│ -Copyright 2018-2023 The Apache Software Foundation
+│ +
+│ +dubbo-container-api
+│ +Copyright 2011-2020 The Apache Software Foundation
+│  
+│  This product includes software developed at
+│  The Apache Software Foundation (http://www.apache.org/).
+│  
+│ -This product contains code form the Netty Project:
+│ -
+│ -The Netty Project
+│ -=================
+│ -Please visit the Netty web site for more information:
+│ -  * http://netty.io/
+│  
+│ -Copyright 2014 The Netty Project
+├── META-INF/maven/org.apache.dubbo/dubbo-container-api/pom.xml
+│ ├── META-INF/maven/org.apache.dubbo/dubbo-container-api/pom.xml
+│ │ @@ -11,40 +11,46 @@
+│ │  
+│ │    Unless required by applicable law or agreed to in writing, software
+│ │    distributed under the License is distributed on an "AS IS" BASIS,
+│ │    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+│ │    See the License for the specific language governing permissions and
+│ │    limitations under the License.
+│ │    -->
+│ │ -<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+│ │ +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │    <modelVersion>4.0.0</modelVersion>
+│ │    <parent>
+│ │      <groupId>org.apache.dubbo</groupId>
+│ │      <artifactId>dubbo-container</artifactId>
+│ │ -    <version>${revision}</version>
+│ │ -    <relativePath>../pom.xml</relativePath>
+│ │ +    <version>3.1.5</version>
+│ │    </parent>
+│ │ +  <groupId>org.apache.dubbo</groupId>
+│ │    <artifactId>dubbo-container-api</artifactId>
+│ │ -  <packaging>jar</packaging>
+│ │ +  <version>3.1.5</version>
+│ │    <name>${project.artifactId}</name>
+│ │    <description>The container module of dubbo project</description>
+│ │ +  <licenses>
+│ │ +    <license>
+│ │ +      <name>Apache License, Version 2.0</name>
+│ │ +      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+│ │ +      <distribution>repo</distribution>
+│ │ +    </license>
+│ │ +  </licenses>
+│ │    <properties>
+│ │      <skip_maven_deploy>false</skip_maven_deploy>
+│ │    </properties>
+│ │    <dependencies>
+│ │      <dependency>
+│ │        <groupId>org.apache.dubbo</groupId>
+│ │        <artifactId>dubbo-common</artifactId>
+│ │        <version>${project.parent.version}</version>
+│ │      </dependency>
+│ │    </dependencies>
+│ │    <build>
+│ │      <plugins>
+│ │        <plugin>
+│ │ -        <groupId>org.apache.maven.plugins</groupId>
+│ │          <artifactId>maven-jar-plugin</artifactId>
+│ │          <configuration>
+│ │            <archive>
+│ │              <addMavenDescriptor>true</addMavenDescriptor>
+│ │              <manifest>
+│ │                <mainClass>org.apache.dubbo.container.Main</mainClass>
+│ │              </manifest>
+
+2 / 7 target/reference/dubbo-compatible-3.1.5-sources.jar dubbo-compatible/target/dubbo-compatible-3.1.5-sources.jar
+--- target/reference/dubbo-compatible-3.1.5-sources.jar
++++ dubbo-compatible/target/dubbo-compatible-3.1.5-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 103537 bytes, number of entries: 144
+│ +Zip file size: 102961 bytes, number of entries: 139
+│  -rw-r--r--  2.0 unx       64 b- defN 20-Apr-01 08:04 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/cache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/cache/support/
+│ @@ -15,15 +15,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/common/store/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/common/threadpool/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/common/utils/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/config/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/config/spring/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/config/spring/context/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/config/spring/context/annotation/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/config/spring/schema/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/container/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/container/page/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/container/page/pages/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/monitor/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/qos/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/qos/command/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/registry/
+│ @@ -38,18 +37,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/rpc/cluster/loadbalance/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/rpc/protocol/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/rpc/protocol/dubbo/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/rpc/protocol/rest/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/rpc/protocol/rest/support/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/rpc/support/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/validation/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/container/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-compatible/
+│  -rw-r--r--  2.0 unx    26537 b- defN 20-Apr-01 08:04 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 20-Apr-01 08:04 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      173 b- defN 20-Apr-01 08:04 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx      913 b- defN 20-Apr-01 08:04 com/alibaba/dubbo/cache/Cache.java
+│ @@ -139,8 +134,8 @@
+│  -rw-r--r--  2.0 unx     5111 b- defN 20-Apr-01 08:04 com/alibaba/dubbo/rpc/protocol/dubbo/FutureAdapter.java
+│  -rw-r--r--  2.0 unx      961 b- defN 20-Apr-01 08:04 com/alibaba/dubbo/rpc/protocol/rest/support/ContentType.java
+│  -rw-r--r--  2.0 unx     2817 b- defN 20-Apr-01 08:04 com/alibaba/dubbo/rpc/support/RpcUtils.java
+│  -rw-r--r--  2.0 unx      933 b- defN 20-Apr-01 08:04 com/alibaba/dubbo/validation/Validation.java
+│  -rw-r--r--  2.0 unx      931 b- defN 20-Apr-01 08:04 com/alibaba/dubbo/validation/Validator.java
+│  -rw-r--r--  2.0 unx     4360 b- defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-compatible/pom.xml
+│  -rw-r--r--  2.0 unx       67 b- defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-compatible/pom.properties
+│ -144 files, 249167 bytes uncompressed, 81053 bytes compressed:  67.5%
+│ +139 files, 249167 bytes uncompressed, 81053 bytes compressed:  67.5%
+├── zipnote «TEMP»/diffoscope_pg7ewk_1_target/tmpxlqg2yid_.zip
+│ @@ -54,17 +54,14 @@
+│  
+│  Filename: com/alibaba/dubbo/config/spring/context/
+│  Comment: 
+│  
+│  Filename: com/alibaba/dubbo/config/spring/context/annotation/
+│  Comment: 
+│  
+│ -Filename: com/alibaba/dubbo/config/spring/schema/
+│ -Comment: 
+│ -
+│  Filename: com/alibaba/dubbo/container/
+│  Comment: 
+│  
+│  Filename: com/alibaba/dubbo/container/page/
+│  Comment: 
+│  
+│  Filename: com/alibaba/dubbo/container/page/pages/
+│ @@ -123,26 +120,14 @@
+│  
+│  Filename: com/alibaba/dubbo/rpc/support/
+│  Comment: 
+│  
+│  Filename: com/alibaba/dubbo/validation/
+│  Comment: 
+│  
+│ -Filename: org/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/dubbo/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/dubbo/container/
+│ -Comment: 
+│ -
+│  Filename: META-INF/maven/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.dubbo/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.dubbo/dubbo-compatible/
+
+3 / 7 target/reference/dubbo-3.1.5.jar dubbo-distribution/dubbo-all/target/dubbo-3.1.5.jar
+--- target/reference/dubbo-3.1.5.jar
++++ dubbo-distribution/dubbo-all/target/dubbo-3.1.5.jar
+├── zipinfo {}
+│ @@ -2508,193 +2508,193 @@
+│  -rw----     2.0 fat     2448 bl defN 20-Apr-01 08:04 org/apache/dubbo/registry/xds/util/protocol/message/Endpoint.class
+│  -rw----     2.0 fat     1904 bl defN 20-Apr-01 08:04 org/apache/dubbo/registry/xds/util/protocol/message/EndpointResult.class
+│  -rw----     2.0 fat     2155 bl defN 20-Apr-01 08:04 org/apache/dubbo/registry/xds/util/protocol/message/ListenerResult.class
+│  -rw----     2.0 fat     2487 bl defN 20-Apr-01 08:04 org/apache/dubbo/registry/xds/util/protocol/message/RouteResult.class
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-xds/
+│  -rw----     2.0 fat     4430 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-xds/pom.xml
+│  -rw----     2.0 fat       60 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-xds/pom.properties
+│ --rw----     2.0 fat     3928 bl defN 22-Sep-02 10:27 DENY_CLASS
+│ --rw----     2.0 fat        0 bl defN 22-Sep-02 10:27 com/alibaba/com/
+│ --rw----     2.0 fat        0 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/
+...
+│ --rw----     2.0 fat     2621 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/Hessian2Constants.class
+│ --rw----     2.0 fat     1575 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaDeserializer$IntFieldDeserializer.class
+│ +-rw----     2.0 fat     3928 bl defN 22-Sep-02 10:24 DENY_CLASS
+│ +-rw----     2.0 fat        0 bl defN 22-Sep-02 10:24 com/alibaba/com/
+│ +-rw----     2.0 fat        0 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/
+...
+│ +-rw----     2.0 fat     2621 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/Hessian2Constants.class
+│ +-rw----     2.0 fat     1575 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaDeserializer$IntFieldDeserializer.class
+│  -rw----     2.0 fat        0 bl defN 22-Sep-02 10:24 META-INF/maven/com.alibaba/
+│  -rw----     2.0 fat        0 bl defN 22-Sep-02 10:24 META-INF/maven/com.alibaba/hessian-lite/
+│  -rw----     2.0 fat     9692 bl defN 22-Sep-02 10:24 META-INF/maven/com.alibaba/hessian-lite/pom.xml
+│ --rw----     2.0 fat      109 bl defN 22-Sep-02 10:27 META-INF/maven/com.alibaba/hessian-lite/pom.properties
+│ +-rw----     2.0 fat      109 bl defN 22-Sep-02 10:24 META-INF/maven/com.alibaba/hessian-lite/pom.properties
+│  -rw----     2.0 fat       57 bl defN 20-Apr-01 08:04 META-INF/dubbo/internal/org.apache.dubbo.auth.spi.AccessKeyStorage
+│  -rw----     2.0 fat       55 bl defN 20-Apr-01 08:04 META-INF/dubbo/internal/org.apache.dubbo.auth.spi.Authenticator
+│  -rw----     2.0 fat      319 bl defN 20-Apr-01 08:04 META-INF/dubbo/internal/org.apache.dubbo.cache.CacheFactory
+│  -rwx---     2.0 fat      193 bl defN 20-Apr-01 08:04 META-INF/dubbo/internal/org.apache.dubbo.common.compiler.Compiler
+│  -rw----     2.0 fat      439 bl defN 20-Apr-01 08:04 META-INF/dubbo/internal/org.apache.dubbo.common.config.configcenter.DynamicConfigurationFactory
+│  -rw----     2.0 fat      109 bl defN 20-Apr-01 08:04 META-INF/dubbo/internal/org.apache.dubbo.common.context.ApplicationExt
+│  -rw----     2.0 fat      133 bl defN 20-Apr-01 08:04 META-INF/dubbo/internal/org.apache.dubbo.common.context.ModuleExt
+├── META-INF/maven/com.alibaba/hessian-lite/pom.properties
+│ @@ -1,5 +1,5 @@
+│  #Generated by Maven
+│ -#Fri Sep 02 10:27:09 CST 2022
+│ +#Fri Sep 02 10:24:17 CST 2022
+│  version=3.2.13
+│  groupId=com.alibaba
+│  artifactId=hessian-lite
+
+4 / 7 target/reference/dubbo-3.1.5-sources.jar dubbo-distribution/dubbo-all/target/dubbo-3.1.5-sources.jar
+--- target/reference/dubbo-3.1.5-sources.jar
++++ dubbo-distribution/dubbo-all/target/dubbo-3.1.5-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 2972771 bytes, number of entries: 2315
+│ +Zip file size: 2972802 bytes, number of entries: 2315
+│  -rw----     2.0 fat        0 bX defN 20-Apr-01 08:04 META-INF/
+│  -rw----     2.0 fat       64 bl defN 20-Apr-01 08:04 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat    54142 bl defN 20-Apr-01 08:04 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 20-Apr-01 08:04 META-INF/LICENSE
+│  -rw----     2.0 fat      162 bl defN 20-Apr-01 08:04 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/
+│ @@ -1003,15 +1003,15 @@
+│  -rw----     2.0 fat     2943 bl defN 20-Apr-01 08:04 META-INF/assembly/bin/dump.sh
+│  -rw----     2.0 fat      832 bl defN 20-Apr-01 08:04 META-INF/assembly/bin/restart.sh
+│  -rw----     2.0 fat     1196 bl defN 20-Apr-01 08:04 META-INF/assembly/bin/server.sh
+│  -rwx---     2.0 fat     1959 bl defN 20-Apr-01 08:04 META-INF/assembly/bin/start.bat
+│  -rw----     2.0 fat     5249 bl defN 20-Apr-01 08:04 META-INF/assembly/bin/start.sh
+│  -rw----     2.0 fat     1635 bl defN 20-Apr-01 08:04 META-INF/assembly/bin/stop.sh
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-container-api/
+│ --rw----     2.0 fat     2335 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-container-api/pom.xml
+│ +-rw----     2.0 fat     2325 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-container-api/pom.xml
+│  -rw----     2.0 fat       70 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-container-api/pom.properties
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/dubbo/container/spring/
+│  -rw----     2.0 fat     2497 bl defN 20-Apr-01 08:04 org/apache/dubbo/container/spring/SpringContainer.java
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-container-spring/
+│  -rw----     2.0 fat     2073 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-container-spring/pom.xml
+│  -rw----     2.0 fat       73 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-container-spring/pom.properties
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 org/apache/dubbo/cache/
+│ @@ -2310,8 +2310,8 @@
+│  -rw----     2.0 fat       57 bl defN 20-Apr-01 08:04 META-INF/dubbo/internal/org.apache.dubbo.rpc.PathResolver
+│  -rw----     2.0 fat      150 bl defN 20-Apr-01 08:04 META-INF/dubbo/internal/org.apache.dubbo.validation.Validation
+│  -rw----     2.0 fat      105 bl defN 20-Apr-01 08:04 META-INF/dubbo/internal/org.apache.dubbo.registry.client.metadata.ServiceInstanceNotificationCustomizer
+│  -rwx---     2.0 fat      172 bl defN 20-Apr-01 08:04 META-INF/dubbo/internal/org.apache.dubbo.rpc.protocol.tri.compressor.Compressor
+│  -rw----     2.0 fat      172 bl defN 20-Apr-01 08:04 META-INF/dubbo/internal/org.apache.dubbo.rpc.protocol.tri.compressor.DeCompressor
+│  -rw----     2.0 fat       83 bl defN 20-Apr-01 08:04 META-INF/dubbo/internal/org.apache.dubbo.remoting.api.pu.PortUnificationTransporter
+│  -rw----     2.0 fat      183 bl defN 20-Apr-01 08:04 META-INF/dubbo/internal/org.apache.dubbo.metadata.rest.ServiceRestMetadataResolver
+│ -2315 files, 9316568 bytes uncompressed, 2507439 bytes compressed:  73.1%
+│ +2315 files, 9316558 bytes uncompressed, 2507470 bytes compressed:  73.1%
+├── META-INF/maven/org.apache.dubbo/dubbo-container-api/pom.xml
+│ ├── META-INF/maven/org.apache.dubbo/dubbo-container-api/pom.xml
+│ │ @@ -11,40 +11,46 @@
+│ │  
+│ │    Unless required by applicable law or agreed to in writing, software
+│ │    distributed under the License is distributed on an "AS IS" BASIS,
+│ │    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+│ │    See the License for the specific language governing permissions and
+│ │    limitations under the License.
+│ │    -->
+│ │ -<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+│ │ +<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+│ │    <modelVersion>4.0.0</modelVersion>
+│ │    <parent>
+│ │      <groupId>org.apache.dubbo</groupId>
+│ │      <artifactId>dubbo-container</artifactId>
+│ │ -    <version>${revision}</version>
+│ │ -    <relativePath>../pom.xml</relativePath>
+│ │ +    <version>3.1.5</version>
+│ │    </parent>
+│ │ +  <groupId>org.apache.dubbo</groupId>
+│ │    <artifactId>dubbo-container-api</artifactId>
+│ │ -  <packaging>jar</packaging>
+│ │ +  <version>3.1.5</version>
+│ │    <name>${project.artifactId}</name>
+│ │    <description>The container module of dubbo project</description>
+│ │ +  <licenses>
+│ │ +    <license>
+│ │ +      <name>Apache License, Version 2.0</name>
+│ │ +      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+│ │ +      <distribution>repo</distribution>
+│ │ +    </license>
+│ │ +  </licenses>
+│ │    <properties>
+│ │      <skip_maven_deploy>false</skip_maven_deploy>
+│ │    </properties>
+│ │    <dependencies>
+│ │      <dependency>
+│ │        <groupId>org.apache.dubbo</groupId>
+│ │        <artifactId>dubbo-common</artifactId>
+│ │        <version>${project.parent.version}</version>
+│ │      </dependency>
+│ │    </dependencies>
+│ │    <build>
+│ │      <plugins>
+│ │        <plugin>
+│ │ -        <groupId>org.apache.maven.plugins</groupId>
+│ │          <artifactId>maven-jar-plugin</artifactId>
+│ │          <configuration>
+│ │            <archive>
+│ │              <addMavenDescriptor>true</addMavenDescriptor>
+│ │              <manifest>
+│ │                <mainClass>org.apache.dubbo.container.Main</mainClass>
+│ │              </manifest>
+
+5 / 7 target/reference/dubbo-dependencies-bom-3.1.5.pom dubbo-dependencies-bom/.flattened-pom.xml
+6 / 7 target/reference/dubbo-dependencies-zookeeper-3.1.5.pom dubbo-dependencies/dubbo-dependencies-zookeeper/.flattened-pom.xml
+7 / 7 target/reference/dubbo-dependencies-zookeeper-curator5-3.1.5.pom dubbo-dependencies/dubbo-dependencies-zookeeper-curator5/.flattened-pom.xml
+--- target/reference/dubbo-dependencies-zookeeper-curator5-3.1.5.pom
++++ dubbo-dependencies/dubbo-dependencies-zookeeper-curator5/.flattened-pom.xml
+│   --- target/reference/dubbo-dependencies-zookeeper-curator5-3.1.5.pom
+├── +++ dubbo-dependencies/dubbo-dependencies-zookeeper-curator5/.flattened-pom.xml
+│ @@ -161,14 +161,17 @@
+│                  <arg>--digest-algo=SHA512</arg>
+│                </gpgArguments>
+│              </configuration>
+│            </plugin>
+│          </plugins>
+│        </build>
+│        <properties>
+│ -        <os.detected.name>osx</os.detected.name>
+│ -        <os.detected.classifier>osx-x86_64</os.detected.classifier>
+│ +        <os.detected.release.version>11</os.detected.release.version>
+│ +        <os.detected.release>debian</os.detected.release>
+│ +        <os.detected.name>linux</os.detected.name>
+│ +        <os.detected.release.like.debian>true</os.detected.release.like.debian>
+│ +        <os.detected.classifier>linux-x86_64</os.detected.classifier>
+│          <os.detected.arch>x86_64</os.detected.arch>
+│        </properties>
+│      </profile>
+│    </profiles>
+│  </project>
+
