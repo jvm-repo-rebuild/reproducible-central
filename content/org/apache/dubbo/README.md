@@ -127,16 +127,16 @@ Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dub
 * [org.apache.dubbo:dubbo-xds](https://search.maven.org/artifact/org.apache.dubbo/dubbo-xds/)
 </details>
 
-rebuilding **7 releases** of org.apache.dubbo:dubbo:
+rebuilding **8 releases** of org.apache.dubbo:dubbo:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [3.2.0-beta.3](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.2.0-beta.3/pom) | | | |
 | [3.2.0-beta.2](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.2.0-beta.2/pom) | | | |
 | [3.2.0-beta.1](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.2.0-beta.1/pom) | | | |
-| [3.1.5](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.1.5/pom) | | | |
+| [3.1.5](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.1.5/pom) | [mvn jdk8](dubbo-3.1.5.buildspec) | [result](dubbo-parent-3.1.5.buildinfo): [188 :heavy_check_mark:  7 :warning:](dubbo-parent-3.1.5.buildcompare) [:mag:](dubbo-parent-3.1.5.diffoscope) | 22M |
 | [3.1.4](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.1.4/pom) | | | |
 | [3.1.3](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.1.3/pom) | | | |
 | [3.1.2](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.1.2/pom) | [mvn jdk8](dubbo-3.1.2.buildspec) | [result](dubbo-parent-3.1.2.buildinfo): [189 :heavy_check_mark:  6 :warning:](dubbo-parent-3.1.2.buildcompare) [:mag:](dubbo-parent-3.1.2.diffoscope) | 24M |

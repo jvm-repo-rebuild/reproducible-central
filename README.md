@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **1493 releases** of **377 projects**:
-   - **1091** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 402 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **1497 releases** of **377 projects**:
+   - **1093** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 404 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
 
@@ -96,7 +96,7 @@ Its objectives are to provide:
 | net.revelc.code | <a name='net.revelc.code:impsort-maven-plugin'></a>[impsort-maven-plugin](content/net/revelc/code/impsort-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | net.sourceforge.pmd | <a name='net.sourceforge.pmd:pmd'></a>[pmd](content/net/sourceforge/pmd/README.md) | 30 | 29 :heavy_check_mark: / 1 :warning: |
 | | <a name='net.sourceforge.pmd:pmd-build-tools-config'></a>[pmd-build-tools-config](content/net/sourceforge/pmd/pmd-build-tools-config/README.md) | 2 | 2 :heavy_check_mark: |
-| nl.hsac | <a name='nl.hsac:hsac-fitnesse-fixtures'></a>[hsac-fitnesse-fixtures](content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 45 | 34 :heavy_check_mark: / 11 :warning: |
+| nl.hsac | <a name='nl.hsac:hsac-fitnesse-fixtures'></a>[hsac-fitnesse-fixtures](content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 46 | 35 :heavy_check_mark: / 11 :warning: |
 | org.quickperf | <a name='org.quickperf:quick-perf'></a>[quick-perf](content/org/quickperf/README.md) | 3 | 3 :heavy_check_mark: |
 | org.slf4j | <a name='org.slf4j:slf4j-parent'></a>[slf4j-parent](content/org/slf4j/README.md) | 7 | 2 :heavy_check_mark: / 5 :warning: |
 | org.apache.accumulo | <a name='org.apache.accumulo:accumulo'></a>[accumulo](content/org/apache/accumulo/README.md) | 4 | 4 :warning: |
@@ -107,14 +107,14 @@ Its objectives are to provide:
 | org.apache.axis2 | <a name='org.apache.axis2:axis2'></a>[axis2](content/org/apache/axis2/README.md) | 1 | 1 :warning: |
 | org.apache.batchee | <a name='org.apache.batchee:batchee'></a>[batchee](content/org/apache/batchee/README.md) | 1 | 1 :warning: |
 | org.apache.drill | <a name='org.apache.drill:drill-root'></a>[drill-root](content/org/apache/drill/README.md) | 1 | 1 :warning: |
-| org.apache.dubbo | <a name='org.apache.dubbo:dubbo'></a>[dubbo](content/org/apache/dubbo/README.md) | 7 | 7 :warning: |
+| org.apache.dubbo | <a name='org.apache.dubbo:dubbo'></a>[dubbo](content/org/apache/dubbo/README.md) | 8 | 8 :warning: |
 | org.apache.helix | <a name='org.apache.helix:helix'></a>[helix](content/org/apache/helix/README.md) | 2 | 2 :warning: |
 | org.apache.hive | <a name='org.apache.hive:hive'></a>[hive](content/org/apache/hive/README.md) | 1 | 1 :warning: |
 | org.apache.isis | <a name='org.apache.isis:isis-parent'></a>[isis-parent](content/org/apache/isis/README.md) | 1 | 1 :warning: |
 | org.apache.jdo | <a name='org.apache.jdo:jdo'></a>[jdo](content/org/apache/jdo/README.md) | 2 | 2 :warning: |
 | org.apache.jspwiki | <a name='org.apache.jspwiki:jspwiki-builder'></a>[jspwiki-builder](content/org/apache/jspwiki/README.md) | 6 | 6 :warning: |
 | org.apache.mina | <a name='org.apache.mina:mina-parent'></a>[mina-parent](content/org/apache/mina/README.md) | 3 | 3 :warning: |
-| org.apache.orc | <a name='org.apache.orc:orc'></a>[orc](content/org/apache/orc/README.md) | 1 | 1 :heavy_check_mark: |
+| org.apache.orc | <a name='org.apache.orc:orc'></a>[orc](content/org/apache/orc/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | org.apache.rat | <a name='org.apache.rat:apache-rat-project'></a>[apache-rat-project](content/org/apache/rat/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.shiro | <a name='org.apache.shiro:shiro-root'></a>[shiro-root](content/org/apache/shiro/README.md) | 4 | 4 :warning: |
 | org.apache.sshd | <a name='org.apache.sshd:sshd'></a>[sshd](content/org/apache/sshd/README.md) | 2 | 2 :warning: |
@@ -400,7 +400,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 6 | 6 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 6 | 6 :warning: |
-| **Count:** | **377** | **1493** | **1091** :heavy_check_mark: **402** :warning: |
+| **Count:** | **377** | **1497** | **1093** :heavy_check_mark: **404** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -412,7 +412,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      13 gradle     11
      26 mvn         7
-    737 mvn         8
+    738 mvn         8
       1 mvn         9
     554 mvn        11
       4 mvn        14
@@ -425,7 +425,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.8.5   8
      11 mvn-3.8.5  11
       5 mvn-3.8.5  17
-     16 mvn-3.8.6   8
+     19 mvn-3.8.6   8
       1 mvn-3.8.6  11
      19 mvn-3.8.6  17
       2 mvn-3.8.6  18
