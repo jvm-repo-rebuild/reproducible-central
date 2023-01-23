@@ -1,0 +1,7 @@
+version=1.7.8
+ok=31
+ko=0
+okFiles="orc-1.7.8.pom orc-1.7.8-source-release.zip orc-shims-1.7.8.pom orc-shims-1.7.8.jar orc-shims-1.7.8-sources.jar orc-shims-1.7.8-test-sources.jar orc-shims-1.7.8-tests.jar orc-core-1.7.8.pom orc-core-1.7.8.jar orc-core-1.7.8-sources.jar orc-core-1.7.8-test-sources.jar orc-core-1.7.8-nohive.jar orc-core-1.7.8-tests.jar orc-mapreduce-1.7.8.pom orc-mapreduce-1.7.8.jar orc-mapreduce-1.7.8-sources.jar orc-mapreduce-1.7.8-test-sources.jar orc-mapreduce-1.7.8-nohive.jar orc-mapreduce-1.7.8-tests.jar orc-tools-1.7.8.pom orc-tools-1.7.8.jar orc-tools-1.7.8-sources.jar orc-tools-1.7.8-test-sources.jar orc-tools-1.7.8-uber.jar orc-tools-1.7.8-tests.jar orc-examples-1.7.8.pom orc-examples-1.7.8.jar orc-examples-1.7.8-uber.jar orc-examples-1.7.8-sources.jar orc-examples-1.7.8-test-sources.jar orc-examples-1.7.8-tests.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
