@@ -1,0 +1,82 @@
+1 / 1 target/reference/doxia-2.0.0-M5-source-release.zip target/doxia-2.0.0-M5-source-release.zip
+--- target/reference/doxia-2.0.0-M5-source-release.zip
++++ target/doxia-2.0.0-M5-source-release.zip
+├── zipinfo {}
+│ @@ -272,15 +272,18 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-22 18:22 doxia-2.0.0-M5/src/site/resources/images/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jan-22 18:22 doxia-2.0.0-M5/src/site/xdoc/
+│  -rw-r--r--  2.0 unx      475 b- defN 23-Jan-22 18:22 doxia-2.0.0-M5/.asf.yaml
+│  -rw-r--r--  2.0 unx      878 b- defN 23-Jan-22 18:22 doxia-2.0.0-M5/.git-blame-ignore-revs
+│  -rw-r--r--  2.0 unx     1656 b- defN 23-Jan-22 18:22 doxia-2.0.0-M5/.github/dependabot.yml
+│  -rw-r--r--  2.0 unx      971 b- defN 23-Jan-22 18:22 doxia-2.0.0-M5/.github/workflows/maven-verify.yml
+│  -rw-r--r--  2.0 unx      171 b- defN 23-Jan-22 18:22 doxia-2.0.0-M5/.gitignore
+│ +-rw-r--r--  2.0 unx      255 b- defN 23-Jan-22 18:22 doxia-2.0.0-M5/DEPENDENCIES
+│  -rw-r--r--  2.0 unx      852 b- defN 23-Jan-22 18:22 doxia-2.0.0-M5/Jenkinsfile
+│ +-rw-r--r--  2.0 unx    11358 b- defN 23-Jan-22 18:22 doxia-2.0.0-M5/LICENSE
+│ +-rw-r--r--  2.0 unx      162 b- defN 23-Jan-22 18:22 doxia-2.0.0-M5/NOTICE
+│  -rw-r--r--  2.0 unx     5848 b- defN 23-Jan-22 18:22 doxia-2.0.0-M5/README.md
+│  -rw-r--r--  2.0 unx     3554 b- defN 23-Jan-22 18:22 doxia-2.0.0-M5/doxia-core/pom.xml
+│  -rw-r--r--  2.0 unx     2561 b- defN 23-Jan-22 18:22 doxia-2.0.0-M5/doxia-core/src/main/java/org/apache/maven/doxia/DefaultDoxia.java
+│  -rw-r--r--  2.0 unx     2882 b- defN 23-Jan-22 18:22 doxia-2.0.0-M5/doxia-core/src/main/java/org/apache/maven/doxia/Doxia.java
+│  -rw-r--r--  2.0 unx     6937 b- defN 23-Jan-22 18:22 doxia-2.0.0-M5/doxia-core/src/main/java/org/apache/maven/doxia/index/IndexEntry.java
+│  -rw-r--r--  2.0 unx     8579 b- defN 23-Jan-22 18:22 doxia-2.0.0-M5/doxia-core/src/main/java/org/apache/maven/doxia/index/IndexingSink.java
+│  -rw-r--r--  2.0 unx     2083 b- defN 23-Jan-22 18:22 doxia-2.0.0-M5/doxia-core/src/main/java/org/apache/maven/doxia/macro/AbstractMacro.java
+│ @@ -552,11 +555,8 @@
+│  -rw-r--r--  2.0 unx    18572 b- defN 23-Jan-22 18:22 doxia-2.0.0-M5/pom.xml
+│  -rw-r--r--  2.0 unx      969 b- defN 23-Jan-22 18:22 doxia-2.0.0-M5/src/site/resources/download.cgi
+│  -rw-r--r--  2.0 unx    19941 b- defN 23-Jan-22 18:22 doxia-2.0.0-M5/src/site/resources/images/doxia-deps.png
+│  -rw-r--r--  2.0 unx     1901 b- defN 23-Jan-22 18:22 doxia-2.0.0-M5/src/site/site.xml
+│  -rw-r--r--  2.0 unx     2867 b- defN 23-Jan-22 18:22 doxia-2.0.0-M5/src/site/xdoc/download.xml.vm
+│  -rw-r--r--  2.0 unx    12594 b- defN 23-Jan-22 18:22 doxia-2.0.0-M5/src/site/xdoc/doxia-deps.odg
+│  -rw-r--r--  2.0 unx     2844 b- defN 23-Jan-22 18:22 doxia-2.0.0-M5/src/site/xdoc/index.xml
+│ --rw-r--r--  2.0 unx      255 b- defN 23-Jan-22 18:22 doxia-2.0.0-M5/DEPENDENCIES
+│ --rw-r--r--  2.0 unx    11358 b- defN 23-Jan-22 18:22 doxia-2.0.0-M5/LICENSE
+│ --rw-r--r--  2.0 unx      162 b- defN 23-Jan-22 18:22 doxia-2.0.0-M5/NOTICE
+│  560 files, 1925166 bytes uncompressed, 476498 bytes compressed:  75.2%
+├── zipnote {}
+│ @@ -825,17 +825,26 @@
+│  
+│  Filename: doxia-2.0.0-M5/.github/workflows/maven-verify.yml
+│  Comment: 
+│  
+│  Filename: doxia-2.0.0-M5/.gitignore
+│  Comment: 
+│  
+│ +Filename: doxia-2.0.0-M5/DEPENDENCIES
+│ +Comment: 
+│ +
+│  Filename: doxia-2.0.0-M5/Jenkinsfile
+│  Comment: 
+│  
+│ +Filename: doxia-2.0.0-M5/LICENSE
+│ +Comment: 
+│ +
+│ +Filename: doxia-2.0.0-M5/NOTICE
+│ +Comment: 
+│ +
+│  Filename: doxia-2.0.0-M5/README.md
+│  Comment: 
+│  
+│  Filename: doxia-2.0.0-M5/doxia-core/pom.xml
+│  Comment: 
+│  
+│  Filename: doxia-2.0.0-M5/doxia-core/src/main/java/org/apache/maven/doxia/DefaultDoxia.java
+│ @@ -1665,17 +1674,8 @@
+│  
+│  Filename: doxia-2.0.0-M5/src/site/xdoc/doxia-deps.odg
+│  Comment: 
+│  
+│  Filename: doxia-2.0.0-M5/src/site/xdoc/index.xml
+│  Comment: 
+│  
+│ -Filename: doxia-2.0.0-M5/DEPENDENCIES
+│ -Comment: 
+│ -
+│ -Filename: doxia-2.0.0-M5/LICENSE
+│ -Comment: 
+│ -
+│ -Filename: doxia-2.0.0-M5/NOTICE
+│ -Comment: 
+│ -
+│  Zip file comment:
+
