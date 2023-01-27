@@ -23,6 +23,7 @@ rebuilding **4 releases** of tech.picnic.error-prone-support:error-prone-support
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.8.0](https://search.maven.org/artifact/tech.picnic.error-prone-support/error-prone-support/0.8.0/pom) | | | |
 | [0.7.0](https://search.maven.org/artifact/tech.picnic.error-prone-support/error-prone-support/0.7.0/pom) | [mvn jdk17](error-prone-support-0.7.0.buildspec) | [result](error-prone-support-0.7.0.buildinfo): [15 :heavy_check_mark: ](error-prone-support-0.7.0.buildcompare) | 3.0M |
 | [0.6.0](https://search.maven.org/artifact/tech.picnic.error-prone-support/error-prone-support/0.6.0/pom) | [mvn jdk17](error-prone-support-0.6.0.buildspec) | [result](error-prone-support-0.6.0.buildinfo): [15 :heavy_check_mark: ](error-prone-support-0.6.0.buildcompare) | 2.8M |
 | [0.5.0](https://search.maven.org/artifact/tech.picnic.error-prone-support/error-prone-support/0.5.0/pom) | [mvn jdk17](error-prone-support-0.5.0.buildspec) | [result](error-prone-support-0.5.0.buildinfo): [15 :heavy_check_mark: ](error-prone-support-0.5.0.buildcompare) | 2.7M |
