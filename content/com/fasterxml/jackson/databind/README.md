@@ -13,6 +13,7 @@ rebuilding **3 releases** of com.fasterxml.jackson.core:jackson-databind:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.14.2](https://search.maven.org/artifact/com.fasterxml.jackson.core/jackson-databind/2.14.2/pom) | | | |
 | [2.14.1](https://search.maven.org/artifact/com.fasterxml.jackson.core/jackson-databind/2.14.1/pom) | [mvn jdk8](jackson-databind-2.14.1.buildspec) | [result](jackson-databind-2.14.1.buildinfo): [2 :heavy_check_mark:  2 :warning:](jackson-databind-2.14.1.buildcompare) [:mag:](jackson-databind-2.14.1.diffoscope) | 2.7M |
 | [2.14.0](https://search.maven.org/artifact/com.fasterxml.jackson.core/jackson-databind/2.14.0/pom) | | | |
 | [2.14.0-rc3](https://search.maven.org/artifact/com.fasterxml.jackson.core/jackson-databind/2.14.0-rc3/pom) | | | |

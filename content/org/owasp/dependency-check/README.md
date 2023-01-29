@@ -18,13 +18,13 @@ Source code: [https://github.com/jeremylong/DependencyCheck](https://github.com/
 * [org.owasp:dependency-check-utils](https://search.maven.org/artifact/org.owasp/dependency-check-utils/)
 </details>
 
-rebuilding **11 releases** of org.owasp:dependency-check-parent:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **12 releases** of org.owasp:dependency-check-parent:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [8.0.2](https://search.maven.org/artifact/org.owasp/dependency-check-parent/8.0.2/pom) | | | |
+| [8.0.2](https://search.maven.org/artifact/org.owasp/dependency-check-parent/8.0.2/pom) | [mvn jdk8](dependency-check-8.0.2.buildspec) | [result](dependency-check-parent-8.0.2.buildinfo): [22 :heavy_check_mark: ](dependency-check-parent-8.0.2.buildcompare) | 59M |
 | [8.0.1](https://search.maven.org/artifact/org.owasp/dependency-check-parent/8.0.1/pom) | [mvn jdk8](dependency-check-8.0.1.buildspec) | [result](dependency-check-parent-8.0.1.buildinfo): [22 :heavy_check_mark: ](dependency-check-parent-8.0.1.buildcompare) | 59M |
 | [8.0.0](https://search.maven.org/artifact/org.owasp/dependency-check-parent/8.0.0/pom) | [mvn jdk8](dependency-check-8.0.0.buildspec) | [result](dependency-check-parent-8.0.0.buildinfo): [22 :heavy_check_mark: ](dependency-check-parent-8.0.0.buildcompare) | 59M |
 | [7.4.4](https://search.maven.org/artifact/org.owasp/dependency-check-parent/7.4.4/pom) | [mvn jdk8](dependency-check-7.4.4.buildspec) | [result](dependency-check-parent-7.4.4.buildinfo): [22 :heavy_check_mark: ](dependency-check-parent-7.4.4.buildcompare) | 59M |
