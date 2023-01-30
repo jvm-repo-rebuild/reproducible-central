@@ -153,13 +153,13 @@ Source code: [https://github.com/motlin/liftwizard.git](https://github.com/motli
 * [io.liftwizard:liftwizard-uuid](https://search.maven.org/artifact/io.liftwizard/liftwizard-uuid/)
 </details>
 
-rebuilding **31 releases** of io.liftwizard:liftwizard:
-- **31** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **32 releases** of io.liftwizard:liftwizard:
+- **32** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.33.0](https://search.maven.org/artifact/io.liftwizard/liftwizard/0.33.0/pom) | | | |
+| [0.33.0](https://search.maven.org/artifact/io.liftwizard/liftwizard/0.33.0/pom) | [mvn jdk11](liftwizard-0.33.0.buildspec) | [result](liftwizard-0.33.0.buildinfo): [351 :heavy_check_mark: ](liftwizard-0.33.0.buildcompare) | 1.9M |
 | [0.32.0](https://search.maven.org/artifact/io.liftwizard/liftwizard/0.32.0/pom) | [mvn jdk11](liftwizard-0.32.0.buildspec) | [result](liftwizard-0.32.0.buildinfo): [351 :heavy_check_mark: ](liftwizard-0.32.0.buildcompare) | 1.9M |
 | [0.31.0](https://search.maven.org/artifact/io.liftwizard/liftwizard/0.31.0/pom) | [mvn jdk11](liftwizard-0.31.0.buildspec) | [result](liftwizard-0.31.0.buildinfo): [351 :heavy_check_mark: ](liftwizard-0.31.0.buildcompare) | 1.9M |
 | [0.30.0](https://search.maven.org/artifact/io.liftwizard/liftwizard/0.30.0/pom) | [mvn jdk11](liftwizard-0.30.0.buildspec) | [result](liftwizard-0.30.0.buildinfo): [351 :heavy_check_mark: ](liftwizard-0.30.0.buildcompare) | 1.9M |
