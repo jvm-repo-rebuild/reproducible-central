@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/fhoeben/hsac-fitnesse-fixtures.git](https://github.com/fhoeben/hsac-fitnesse-fixtures.git)
 
-rebuilding **48 releases** of nl.hsac:hsac-fitnesse-fixtures:
-- **37** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **49 releases** of nl.hsac:hsac-fitnesse-fixtures:
+- **38** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [5.2.29](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.29/pom) | | | |
+| [5.2.29](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.29/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.29.buildspec) | [result](hsac-fitnesse-fixtures-5.2.29.buildinfo): [4 :heavy_check_mark: ](hsac-fitnesse-fixtures-5.2.29.buildcompare) | 80M |
 | [5.2.28](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.28/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.28.buildspec) | [result](hsac-fitnesse-fixtures-5.2.28.buildinfo): [4 :heavy_check_mark: ](hsac-fitnesse-fixtures-5.2.28.buildcompare) | 80M |
 | [5.2.27](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.27/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.27.buildspec) | [result](hsac-fitnesse-fixtures-5.2.27.buildinfo): [4 :heavy_check_mark: ](hsac-fitnesse-fixtures-5.2.27.buildcompare) | 80M |
 | [5.2.26](https://search.maven.org/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.26/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.26.buildspec) | [result](hsac-fitnesse-fixtures-5.2.26.buildinfo): [4 :heavy_check_mark: ](hsac-fitnesse-fixtures-5.2.26.buildcompare) | 80M |

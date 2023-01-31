@@ -22,13 +22,13 @@ Source code: [https://github.com/abstracta/jmeter-java-dsl.git](https://github.c
 * [us.abstracta.jmeter:jmeter-java-dsl-wrapper](https://search.maven.org/artifact/us.abstracta.jmeter/jmeter-java-dsl-wrapper/)
 </details>
 
-rebuilding **8 releases** of us.abstracta.jmeter:jmeter-java-dsl-parent:
-- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **9 releases** of us.abstracta.jmeter:jmeter-java-dsl-parent:
+- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.7](https://search.maven.org/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.7/pom) | | | |
+| [1.7](https://search.maven.org/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.7/pom) | [mvn jdk8](jmeter-java-dsl-1.7.buildspec) | [result](jmeter-java-dsl-parent-1.7.buildinfo): [32 :heavy_check_mark: ](jmeter-java-dsl-parent-1.7.buildcompare) | 24M |
 | [1.6](https://search.maven.org/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.6/pom) | [mvn jdk8](jmeter-java-dsl-1.6.buildspec) | [result](jmeter-java-dsl-parent-1.6.buildinfo): [32 :heavy_check_mark: ](jmeter-java-dsl-parent-1.6.buildcompare) | 24M |
 | [1.5](https://search.maven.org/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.5/pom) | [mvn jdk8](jmeter-java-dsl-1.5.buildspec) | [result](jmeter-java-dsl-parent-1.5.buildinfo): [32 :heavy_check_mark: ](jmeter-java-dsl-parent-1.5.buildcompare) | 24M |
 | [1.4](https://search.maven.org/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.4/pom) | [mvn jdk8](jmeter-java-dsl-1.4.buildspec) | [result](jmeter-java-dsl-parent-1.4.buildinfo): [32 :heavy_check_mark: ](jmeter-java-dsl-parent-1.4.buildcompare) | 24M |

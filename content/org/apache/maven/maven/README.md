@@ -32,6 +32,7 @@ rebuilding **8 releases** of org.apache.maven:maven:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.0.0-alpha-4](https://search.maven.org/artifact/org.apache.maven/maven/4.0.0-alpha-4/pom) | | | |
 | [4.0.0-alpha-3](https://search.maven.org/artifact/org.apache.maven/maven/4.0.0-alpha-3/pom) | | | |
 | [4.0.0-alpha-2](https://search.maven.org/artifact/org.apache.maven/maven/4.0.0-alpha-2/pom) | | | |
 | [3.8.7](https://search.maven.org/artifact/org.apache.maven/maven/3.8.7/pom) | [mvn jdk8 w](maven-3.8.7.buildspec) | [result](maven-3.8.7.buildinfo): [47 :heavy_check_mark: ](maven-3.8.7.buildcompare) | 27M |

@@ -40,6 +40,7 @@ rebuilding **2 releases** of io.cucumber:cucumber-jvm:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [7.11.1](https://search.maven.org/artifact/io.cucumber/cucumber-jvm/7.11.1/pom) | | | |
 | [7.11.0](https://search.maven.org/artifact/io.cucumber/cucumber-jvm/7.11.0/pom) | | | |
 | [7.10.1](https://search.maven.org/artifact/io.cucumber/cucumber-jvm/7.10.1/pom) | [mvn jdk11](cucumber-jvm-7.10.1.buildspec) | [result](cucumber-jvm-7.10.1.buildinfo): [65 :heavy_check_mark: ](cucumber-jvm-7.10.1.buildcompare) | 5.3M |
 | [7.10.0](https://search.maven.org/artifact/io.cucumber/cucumber-jvm/7.10.0/pom) | [mvn jdk11](cucumber-jvm-7.10.0.buildspec) | [result](cucumber-jvm-7.10.0.buildinfo): [65 :heavy_check_mark: ](cucumber-jvm-7.10.0.buildcompare) | 5.3M |
