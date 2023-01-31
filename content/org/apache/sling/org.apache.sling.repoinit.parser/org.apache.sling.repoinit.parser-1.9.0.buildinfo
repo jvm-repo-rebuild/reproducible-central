@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Repoinit Parser
+group-id=org.apache.sling
+artifact-id=org.apache.sling.repoinit.parser
+version=1.9.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-repoinit-parser.git
+source.scm.tag=org.apache.sling.repoinit.parser-1.9.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.repoinit.parser-1.9.0.pom
+outputs.0.length=6236
+outputs.0.checksums.sha512=7647183d48e7e87d42750bc924363dd6e66ba8ce0d07259f2d65e3b57acab3613a913328df6c64144061e12760106f8503ed3891c5e077bdd7ab54d5204901d9
+
+outputs.1.filename=org.apache.sling.repoinit.parser-1.9.0.jar
+outputs.1.length=141858
+outputs.1.checksums.sha512=cda37cd06593f76d009cbc1bf9aa6e3454749229018a11281e9ad556084ce78f922fd922386f8db34207f874cf5d27659d42aea2dc356323aa6654d900cfbe63
+
+outputs.2.filename=org.apache.sling.repoinit.parser-1.9.0-source-release.zip
+outputs.2.length=131215
+outputs.2.checksums.sha512=cc5e4330a848a31da4b423677d575e84186bc9b15acda96dff2e59a45e1d3dd8ee8b4c18bdc6cd021deb5ce95bc00dc269220ec56c99df944e7d50759db77cc6
+
+outputs.3.filename=org.apache.sling.repoinit.parser-1.9.0-sources.jar
+outputs.3.length=96349
+outputs.3.checksums.sha512=4ed970978121fe1743d208e4b8c3f65f19e69e5e73364214a2294e57dcfca0cbc648e0ce00194da780fcdf1504a87f10322b37a83632b050c21ea51c4fc818a4
+
+outputs.4.filename=org.apache.sling.repoinit.parser-1.9.0-sources.jar
+outputs.4.length=96349
+outputs.4.checksums.sha512=4ed970978121fe1743d208e4b8c3f65f19e69e5e73364214a2294e57dcfca0cbc648e0ce00194da780fcdf1504a87f10322b37a83632b050c21ea51c4fc818a4
