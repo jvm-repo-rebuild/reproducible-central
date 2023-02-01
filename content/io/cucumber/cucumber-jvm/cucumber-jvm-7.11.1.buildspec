@@ -1,0 +1,16 @@
+groupId=io.cucumber
+artifactId=cucumber-jvm
+display=${groupId}:${artifactId}
+version=7.11.1
+
+gitRepo=https://github.com/cucumber/${artifactId}.git
+gitTag=v${version}
+
+tool=mvn
+jdk=17
+newline=lf
+
+command="mvn -Psign-source-javadoc clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
