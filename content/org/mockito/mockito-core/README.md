@@ -19,13 +19,13 @@ Source code: [https://github.com/mockito/mockito.git](https://github.com/mockito
 * [org.mockito:mockito-subclass](https://search.maven.org/artifact/org.mockito/mockito-subclass/)
 </details>
 
-rebuilding **12 releases** of org.mockito:mockito-core:
-- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **13 releases** of org.mockito:mockito-core:
+- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [5.1.1](https://search.maven.org/artifact/org.mockito/mockito-core/5.1.1/pom) | | | |
+| [5.1.1](https://search.maven.org/artifact/org.mockito/mockito-core/5.1.1/pom) | [gradle](mockito-5.1.1.buildspec) | [result](mockito-core-5.1.1.buildinfo): [22 :heavy_check_mark: ](mockito-core-5.1.1.buildcompare) | 1.3M |
 | [5.1.0](https://search.maven.org/artifact/org.mockito/mockito-core/5.1.0/pom) | [gradle](mockito-5.1.0.buildspec) | [result](mockito-core-5.1.0.buildinfo): [22 :heavy_check_mark: ](mockito-core-5.1.0.buildcompare) | 1.3M |
 | [5.0.0](https://search.maven.org/artifact/org.mockito/mockito-core/5.0.0/pom) | [gradle](mockito-5.0.0.buildspec) | [result](mockito-core-5.0.0.buildinfo): [22 :heavy_check_mark: ](mockito-core-5.0.0.buildcompare) | 1.3M |
 | [4.11.0](https://search.maven.org/artifact/org.mockito/mockito-core/4.11.0/pom) | [gradle](mockito-4.11.0.buildspec) | [result](mockito-core-4.11.0.buildinfo): [22 :heavy_check_mark: ](mockito-core-4.11.0.buildcompare) | 1.3M |

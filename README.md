@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **1518 releases** of **377 projects**:
-   - **1114** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **1523 releases** of **377 projects**:
+   - **1119** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 404 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
@@ -60,7 +60,7 @@ Its objectives are to provide:
 | fr.vidal.oss | <a name='fr.vidal.oss:atom-jaxb'></a>[atom-jaxb](content/fr/vidal/oss/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | io.liftwizard | <a name='io.liftwizard:liftwizard'></a>[liftwizard](content/io/liftwizard/README.md) | 32 | 32 :heavy_check_mark: |
 | io.cucumber | <a name='io.cucumber:cucumber-expressions'></a>[cucumber-expressions](content/io/cucumber/cucumber-expressions/README.md) | 3 | 3 :heavy_check_mark: |
-| | <a name='io.cucumber:cucumber-jvm'></a>[cucumber-jvm](content/io/cucumber/cucumber-jvm/README.md) | 2 | 2 :heavy_check_mark: |
+| | <a name='io.cucumber:cucumber-jvm'></a>[cucumber-jvm](content/io/cucumber/cucumber-jvm/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='io.cucumber:gherkin'></a>[gherkin](content/io/cucumber/gherkin/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='io.cucumber:gherkin-utils'></a>[gherkin-utils](content/io/cucumber/gherkin-utils/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='io.cucumber:html-formatter'></a>[html-formatter](content/io/cucumber/html-formatter/README.md) | 1 | 1 :warning: |
@@ -154,7 +154,7 @@ Its objectives are to provide:
 | org.apache.maven.enforcer | <a name='org.apache.maven.enforcer:enforcer'></a>[enforcer](content/org/apache/maven/enforcer/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.maven.indexer | <a name='org.apache.maven.indexer:maven-indexer'></a>[maven-indexer](content/org/apache/maven/indexer/README.md) | 5 | 3 :heavy_check_mark: / 2 :warning: |
 | org.apache.maven.jxr | <a name='org.apache.maven.jxr:jxr'></a>[jxr](content/org/apache/maven/jxr/README.md) | 3 | 3 :heavy_check_mark: |
-| org.apache.maven | <a name='org.apache.maven:maven'></a>[maven](content/org/apache/maven/maven/README.md) | 8 | 5 :heavy_check_mark: / 3 :warning: |
+| org.apache.maven | <a name='org.apache.maven:maven'></a>[maven](content/org/apache/maven/maven/README.md) | 10 | 7 :heavy_check_mark: / 3 :warning: |
 | | <a name='org.apache.maven:maven-parent'></a>[maven-parent](content/org/apache/maven/parent/README.md) | 6 | 4 :heavy_check_mark: / 2 :warning: |
 | org.apache.maven.scm | <a name='org.apache.maven.scm:maven-scm'></a>[maven-scm](content/org/apache/maven/scm/README.md) | 7 | 7 :heavy_check_mark: |
 | org.apache.maven.surefire | <a name='org.apache.maven.surefire:surefire'></a>[surefire](content/org/apache/maven/surefire/README.md) | 4 | 1 :heavy_check_mark: / 3 :warning: |
@@ -358,7 +358,7 @@ Its objectives are to provide:
 | org.jrivard.xmlchai | <a name='org.jrivard.xmlchai:xmlchai'></a>[xmlchai](content/org/jrivard/xmlchai/README.md) | 1 | 1 :warning: |
 | org.junit | <a name='org.junit:junit-bom'></a>[junit-bom](content/org/junit/junit5/README.md) | 1 | 1 :warning: |
 | org.liquibase.ext | <a name='org.liquibase.ext:liquibase-percona'></a>[liquibase-percona](content/org/liquibase/ext/liquibase-percona/README.md) | 28 | 27 :heavy_check_mark: / 1 :warning: |
-| org.mockito | <a name='org.mockito:mockito-core'></a>[mockito-core](content/org/mockito/mockito-core/README.md) | 12 | 10 :heavy_check_mark: / 2 :warning: |
+| org.mockito | <a name='org.mockito:mockito-core'></a>[mockito-core](content/org/mockito/mockito-core/README.md) | 13 | 11 :heavy_check_mark: / 2 :warning: |
 | org.mybatis | <a name='org.mybatis:base-bundle-descriptor'></a>[base-bundle-descriptor](content/org/mybatis/base-bundle-descriptor/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.mybatis:mybatis-cdi'></a>[mybatis-cdi](content/org/mybatis/cdi/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | org.mybatis.dynamic-sql | <a name='org.mybatis.dynamic-sql:mybatis-dynamic-sql'></a>[mybatis-dynamic-sql](content/org/mybatis/dynamic-sql/README.md) | 2 | 2 :warning: |
@@ -400,7 +400,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 9 | 9 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 6 | 6 :warning: |
-| **Count:** | **377** | **1518** | **1114** :heavy_check_mark: **404** :warning: |
+| **Count:** | **377** | **1523** | **1119** :heavy_check_mark: **404** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -410,15 +410,15 @@ Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/re
 Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK target release:
 
 <!-- BEGIN GENERATED STATS -->
-     16 gradle     11
+     17 gradle     11
      26 mvn         7
-    748 mvn         8
+    749 mvn         8
       1 mvn         9
     559 mvn        11
       4 mvn        14
      10 mvn        15
      10 mvn        16
-     59 mvn        17
+     62 mvn        17
      10 mvn        18
       8 mvn        19
       2 mvn-3.5.4   8
