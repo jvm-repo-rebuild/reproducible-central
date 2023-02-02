@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=eForms Core Library
+group-id=eu.europa.ted.eforms
+artifact-id=eforms-core-java
+version=1.0.1
+
+# source information
+source.scm.uri=scm:git:git://github.com/OP-TED/eforms-core-java.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=eforms-core-java-1.0.1.pom
+outputs.0.length=13827
+outputs.0.checksums.sha512=6b4b313f81ea16e2efc799f045685a64224836fa8277699ac88b4c11bfa58a302321c85a621c681943a17d02a4995482180e56003df8cfa17bd6994cb830a157
+
+outputs.1.filename=eforms-core-java-1.0.1.jar
+outputs.1.length=60593
+outputs.1.checksums.sha512=64693be43b32c31d0f263e5037b954cf36911f630bfd9064d5c652d4b014599beab472ac4e1e5ab75c1ab70bfcb8f9402e6bbb60292cd53544ee03786b296272
+
+outputs.2.filename=eforms-core-java-1.0.1-sources.jar
+outputs.2.length=38559
+outputs.2.checksums.sha512=69ec01e0b59e306155b2949eb6d3f0aaa52a9d7ba1f49125fc9dea7f0389ae8cf5ad3a074ee52ebb92e802d1756dfe6182161d84027219cbeda84239c94f7ae0

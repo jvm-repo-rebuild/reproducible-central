@@ -1,0 +1,9 @@
+version=1.0.1
+ok=1
+ko=2
+okFiles="eforms-core-java-1.0.1.pom"
+koFiles="eforms-core-java-1.0.1.jar eforms-core-java-1.0.1-sources.jar"
+reference_java_version="11.0.18 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/eforms-core-java-1.0.1.jar target/eforms-core-java-1.0.1.jar
+# diffoscope target/reference/eforms-core-java-1.0.1-sources.jar target/eforms-core-java-1.0.1-sources.jar
