@@ -64,6 +64,7 @@ rebuilding **1 releases** of org.apache.activemq:artemis-pom:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.28.0](https://search.maven.org/artifact/org.apache.activemq/artemis-pom/2.28.0/pom) | | | |
 | [2.27.1](https://search.maven.org/artifact/org.apache.activemq/artemis-pom/2.27.1/pom) | [mvn jdk11](artemis-2.27.1.buildspec) | [result](artemis-pom-2.27.1.buildinfo): [92 :heavy_check_mark:  8 :warning:](artemis-pom-2.27.1.buildcompare) [:mag:](artemis-pom-2.27.1.diffoscope) | 205M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
