@@ -113,6 +113,7 @@ rebuilding **5 releases** of org.apache.tika:tika:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.7.0](https://search.maven.org/artifact/org.apache.tika/tika/2.7.0/pom) | | | |
 | [2.6.0](https://search.maven.org/artifact/org.apache.tika/tika/2.6.0/pom) | | | |
 | [2.5.0](https://search.maven.org/artifact/org.apache.tika/tika/2.5.0/pom) | | | |
 | [2.4.1](https://search.maven.org/artifact/org.apache.tika/tika/2.4.1/pom) | | | |
