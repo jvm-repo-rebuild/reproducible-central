@@ -1,0 +1,89 @@
+1 /        2 target/reference/xmlchai-0.1.3.jar target/xmlchai-0.1.3.jar
+--- target/reference/xmlchai-0.1.3.jar
++++ target/xmlchai-0.1.3.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 24894 bytes, number of entries: 23
+│ +Zip file size: 24893 bytes, number of entries: 23
+│  -rw----     1.0 fat        0 bx stor 23-Feb-04 00:42 META-INF/
+│ --rw----     2.0 fat      547 bl defN 23-Feb-04 00:42 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat      583 bl defN 23-Feb-04 00:42 META-INF/MANIFEST.MF
+│  -rw----     1.0 fat        0 b- stor 23-Feb-04 00:42 org/
+│  -rw----     1.0 fat        0 b- stor 23-Feb-04 00:42 org/jrivard/
+│  -rw----     1.0 fat        0 b- stor 23-Feb-04 00:42 org/jrivard/xmlchai/
+│  -rw----     1.0 fat        0 b- stor 23-Feb-04 00:42 META-INF/maven/
+│  -rw----     1.0 fat        0 b- stor 23-Feb-04 00:42 META-INF/maven/org.jrivard.xmlchai/
+│  -rw----     1.0 fat        0 b- stor 23-Feb-04 00:42 META-INF/maven/org.jrivard.xmlchai/xmlchai/
+│  -rw----     2.0 fat     1063 bl defN 23-Feb-04 00:42 org/jrivard/xmlchai/AccessMode.class
+│ @@ -18,8 +18,8 @@
+│  -rw----     2.0 fat     1172 bl defN 23-Feb-04 00:42 org/jrivard/xmlchai/XmlFactory$OutputFlag.class
+│  -rw----     2.0 fat     1152 bl defN 23-Feb-04 00:42 org/jrivard/xmlchai/XmlFactory.class
+│  -rw----     2.0 fat     9243 bl defN 23-Feb-04 00:42 org/jrivard/xmlchai/XmlFactoryW3c.class
+│  -rw----     2.0 fat      125 bl defN 23-Feb-04 00:42 org/jrivard/xmlchai/package-info.class
+│  -rw----     2.0 fat    22982 bl defN 23-Feb-04 00:42 META-INF/maven/org.jrivard.xmlchai/xmlchai/pom.xml
+│  -rw----     2.0 fat       61 bl defN 23-Feb-04 00:42 META-INF/maven/org.jrivard.xmlchai/xmlchai/pom.properties
+│  -rw----     2.0 fat      287 bl defN 23-Feb-04 00:42 module-info.class
+│ -23 files, 63411 bytes uncompressed, 21332 bytes compressed:  66.4%
+│ +23 files, 63447 bytes uncompressed, 21331 bytes compressed:  66.4%
+├── META-INF/MANIFEST.MF
+│ @@ -1,15 +1,15 @@
+│  Manifest-Version: 1.0
+│  Archive-Type: jar
+│  Implementation-Build-Java-Version: 8
+│  Implementation-Title: XML Chai Library
+│  Implementation-URL: https://github.com/jrivard/xmlchai
+│  Implementation-Vendor: XML Chai Project
+│  Implementation-Version: 0.1.3
+│ -SCM-Git-Branch: main
+│ +SCM-Git-Branch: fd6ffb0565fbf22b846f878e06cfaa8582790b98
+│  SCM-Git-Commit-Dirty: false
+│  SCM-Git-Commit-ID: fd6ffb0565fbf22b846f878e06cfaa8582790b98
+│  SCM-Git-Commit-ID-Abbrev: fd6ffb0
+│  SCM-Git-Commit-ID-Description: v1_0_3
+│  SCM-Git-Commit-Timestamp: 2023-02-04T00:42:22Z
+│  SCM-Git-Remote-Origin-URL: https://github.com/jrivard/chaixml
+
+2 /        2 target/reference/xmlchai-0.1.3-sources.jar target/xmlchai-0.1.3-sources.jar
+--- target/reference/xmlchai-0.1.3-sources.jar
++++ target/xmlchai-0.1.3-sources.jar
+├── zipinfo {}
+│ @@ -1,9 +1,9 @@
+│ -Zip file size: 22515 bytes, number of entries: 22
+│ --rw-r--r--  2.0 unx      547 b- defN 23-Feb-04 00:42 META-INF/MANIFEST.MF
+│ +Zip file size: 22514 bytes, number of entries: 22
+│ +-rw-r--r--  2.0 unx      583 b- defN 23-Feb-04 00:42 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-04 00:42 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-04 00:42 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-04 00:42 org/jrivard/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-04 00:42 org/jrivard/xmlchai/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-04 00:42 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-04 00:42 META-INF/maven/org.jrivard.xmlchai/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-04 00:42 META-INF/maven/org.jrivard.xmlchai/xmlchai/
+│ @@ -17,8 +17,8 @@
+│  -rw-r--r--  2.0 unx     8889 b- defN 23-Feb-04 00:42 org/jrivard/xmlchai/XmlElement.java
+│  -rw-r--r--  2.0 unx    14344 b- defN 23-Feb-04 00:42 org/jrivard/xmlchai/XmlElementW3c.java
+│  -rw-r--r--  2.0 unx     4606 b- defN 23-Feb-04 00:42 org/jrivard/xmlchai/XmlFactory.java
+│  -rw-r--r--  2.0 unx     8133 b- defN 23-Feb-04 00:42 org/jrivard/xmlchai/XmlFactoryW3c.java
+│  -rw-r--r--  2.0 unx      873 b- defN 23-Feb-04 00:42 org/jrivard/xmlchai/package-info.java
+│  -rw-r--r--  2.0 unx    22982 b- defN 23-Feb-04 00:42 META-INF/maven/org.jrivard.xmlchai/xmlchai/pom.xml
+│  -rw-r--r--  2.0 unx       61 b- defN 23-Feb-04 00:42 META-INF/maven/org.jrivard.xmlchai/xmlchai/pom.properties
+│ -22 files, 78362 bytes uncompressed, 19411 bytes compressed:  75.2%
+│ +22 files, 78398 bytes uncompressed, 19410 bytes compressed:  75.2%
+├── META-INF/MANIFEST.MF
+│ @@ -1,15 +1,15 @@
+│  Manifest-Version: 1.0
+│  Archive-Type: jar
+│  Implementation-Build-Java-Version: 8
+│  Implementation-Title: XML Chai Library
+│  Implementation-URL: https://github.com/jrivard/xmlchai
+│  Implementation-Vendor: XML Chai Project
+│  Implementation-Version: 0.1.3
+│ -SCM-Git-Branch: main
+│ +SCM-Git-Branch: fd6ffb0565fbf22b846f878e06cfaa8582790b98
+│  SCM-Git-Commit-Dirty: false
+│  SCM-Git-Commit-ID: fd6ffb0565fbf22b846f878e06cfaa8582790b98
+│  SCM-Git-Commit-ID-Abbrev: fd6ffb0
+│  SCM-Git-Commit-ID-Description: v1_0_3
+│  SCM-Git-Commit-Timestamp: 2023-02-04T00:42:22Z
+│  SCM-Git-Remote-Origin-URL: https://github.com/jrivard/chaixml
+

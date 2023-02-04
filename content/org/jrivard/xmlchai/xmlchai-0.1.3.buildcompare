@@ -1,0 +1,7 @@
+version=0.1.3
+ok=1
+ko=2
+okFiles="xmlchai-0.1.3.pom"
+koFiles="xmlchai-0.1.3.jar xmlchai-0.1.3-sources.jar"
+# diffoscope target/reference/xmlchai-0.1.3.jar target/xmlchai-0.1.3.jar
+# diffoscope target/reference/xmlchai-0.1.3-sources.jar target/xmlchai-0.1.3-sources.jar
