@@ -71,10 +71,11 @@
       <version>3.8.5</version>
       <version>3.8.6</version>
       <version>3.8.7</version>
+      <version>3.9.0</version>
       <version>4.0.0-alpha-2</version>
       <version>4.0.0-alpha-3</version>
       <version>4.0.0-alpha-4</version>
     </versions>
-    <lastUpdated>20230131171137</lastUpdated>
+    <lastUpdated>20230206081335</lastUpdated>
   </versioning>
 </metadata>
