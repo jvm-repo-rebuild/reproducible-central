@@ -120,7 +120,7 @@ outputs.7.0.checksums.sha512=38c5ab3030805fa3ac008fedb6fd7662b68ad0d5c31e9ca921c
 
 outputs.7.1.filename=byte-buddy-gradle-plugin-1.12.21.jar
 outputs.7.1.length=100857
-outputs.7.1.checksums.sha512=21939b7f49e5c38980ce3b0ae2b868b6b04c74f06ccbaf732bb581d31146922b9cd3870e53d8257a096827033557c6f8a95d31ab116665c295e4350794d2b24e
+outputs.7.1.checksums.sha512=39c3508e301f05d44f60a32ad07086ec6c38228c1d1569f547c3e88974addad189023253166ae79b0d8df6d3864834dd33b56e2a8543e53a43d1319647dc7fcc
 
 outputs.7.2.filename=byte-buddy-gradle-plugin-1.12.21-sources.jar
 outputs.7.2.length=40690

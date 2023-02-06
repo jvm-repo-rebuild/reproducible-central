@@ -1,8 +1,7 @@
 version=1.12.22
-ok=21
-ko=1
-okFiles="byte-buddy-parent-1.12.22.pom byte-buddy-agent-1.12.22.pom byte-buddy-agent-1.12.22.jar byte-buddy-agent-1.12.22-sources.jar byte-buddy-dep-1.12.22.pom byte-buddy-dep-1.12.22.jar byte-buddy-dep-1.12.22-sources.jar byte-buddy-1.12.22.pom byte-buddy-1.12.22.jar byte-buddy-1.12.22-sources.jar byte-buddy-benchmark-1.12.22.pom byte-buddy-benchmark-1.12.22.jar byte-buddy-benchmark-1.12.22-sources.jar byte-buddy-android-1.12.22.pom byte-buddy-android-1.12.22.jar byte-buddy-android-1.12.22-sources.jar byte-buddy-maven-plugin-1.12.22.pom byte-buddy-maven-plugin-1.12.22.jar byte-buddy-maven-plugin-1.12.22-sources.jar byte-buddy-gradle-plugin-1.12.22.pom byte-buddy-gradle-plugin-1.12.22-sources.jar"
-koFiles="byte-buddy-gradle-plugin-1.12.22.jar"
+ok=22
+ko=0
+okFiles="byte-buddy-parent-1.12.22.pom byte-buddy-agent-1.12.22.pom byte-buddy-agent-1.12.22.jar byte-buddy-agent-1.12.22-sources.jar byte-buddy-dep-1.12.22.pom byte-buddy-dep-1.12.22.jar byte-buddy-dep-1.12.22-sources.jar byte-buddy-1.12.22.pom byte-buddy-1.12.22.jar byte-buddy-1.12.22-sources.jar byte-buddy-benchmark-1.12.22.pom byte-buddy-benchmark-1.12.22.jar byte-buddy-benchmark-1.12.22-sources.jar byte-buddy-android-1.12.22.pom byte-buddy-android-1.12.22.jar byte-buddy-android-1.12.22-sources.jar byte-buddy-maven-plugin-1.12.22.pom byte-buddy-maven-plugin-1.12.22.jar byte-buddy-maven-plugin-1.12.22-sources.jar byte-buddy-gradle-plugin-1.12.22.pom byte-buddy-gradle-plugin-1.12.22.jar byte-buddy-gradle-plugin-1.12.22-sources.jar"
+koFiles=""
 reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
-# diffoscope target/reference/byte-buddy-gradle-plugin-1.12.22.jar byte-buddy-gradle-plugin/target/byte-buddy-gradle-plugin-1.12.22.jar

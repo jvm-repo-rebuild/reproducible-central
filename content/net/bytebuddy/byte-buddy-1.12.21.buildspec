@@ -5,6 +5,7 @@ version=1.12.21
 
 gitRepo=https://github.com/raphw/byte-buddy.git
 gitTag=byte-buddy-${version}
+# require "set umask 0022" before cloning the Git repository to get the right non-writable group permission in byte-buddy-gradle-plugin-*.jar
 
 tool=mvn
 jdk=8
@@ -14,5 +15,5 @@ newline=lf
 command="SHELL mvn -Pextras,gradle-release clean package -DskipTests -Dmaven.javadoc.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-diffoscope=${artifactId}-${version}.diffoscope
+#diffoscope=${artifactId}-${version}.diffoscope
 issue=
