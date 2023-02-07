@@ -1,0 +1,15 @@
+version=3.8.1
+ok=16
+ko=8
+okFiles="parent-3.8.1.pom zookeeper-jute-3.8.1.pom zookeeper-jute-3.8.1.jar zookeeper-jute-3.8.1-tests.jar zookeeper-jute-3.8.1-sources.jar zookeeper-3.8.1.pom zookeeper-metrics-providers-3.8.1.pom zookeeper-prometheus-metrics-3.8.1.pom zookeeper-prometheus-metrics-3.8.1.jar zookeeper-prometheus-metrics-3.8.1-tests.jar zookeeper-prometheus-metrics-3.8.1-sources.jar zookeeper-it-3.8.1.pom zookeeper-it-3.8.1-sources.jar zookeeper-contrib-3.8.1.pom zookeeper-contrib-fatjar-3.8.1.pom zookeeper-contrib-fatjar-3.8.1.jar"
+koFiles="parent-3.8.1.tar.gz parent-3.8.1-source-release.zip zookeeper-jute-3.8.1-osgi.jar zookeeper-3.8.1.jar zookeeper-3.8.1-osgi.jar zookeeper-3.8.1-tests.jar zookeeper-3.8.1-sources.jar zookeeper-it-3.8.1.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/parent-3.8.1.tar.gz target/apache-zookeeper-3.8.1.tar.gz
+# diffoscope target/reference/parent-3.8.1-source-release.zip target/parent-3.8.1-source-release.zip
+# diffoscope target/reference/zookeeper-jute-3.8.1-osgi.jar zookeeper-jute/target/zookeeper-jute-3.8.1-osgi.jar
+# diffoscope target/reference/zookeeper-3.8.1.jar zookeeper-server/target/zookeeper-3.8.1.jar
+# diffoscope target/reference/zookeeper-3.8.1-osgi.jar zookeeper-server/target/zookeeper-3.8.1-osgi.jar
+# diffoscope target/reference/zookeeper-3.8.1-tests.jar zookeeper-server/target/zookeeper-3.8.1-tests.jar
+# diffoscope target/reference/zookeeper-3.8.1-sources.jar zookeeper-server/target/zookeeper-3.8.1-sources.jar
+# diffoscope target/reference/zookeeper-it-3.8.1.jar zookeeper-it/target/zookeeper-it-3.8.1.jar
