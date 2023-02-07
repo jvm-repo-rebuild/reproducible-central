@@ -1,0 +1,7 @@
+version=2.0.0-M4
+ok=15
+ko=0
+okFiles="doxia-sitetools-2.0.0-M4.pom doxia-sitetools-2.0.0-M4-site.xml doxia-sitetools-2.0.0-M4-source-release.zip doxia-decoration-model-2.0.0-M4.pom doxia-decoration-model-2.0.0-M4.jar doxia-decoration-model-2.0.0-M4-sources.jar doxia-skin-model-2.0.0-M4.pom doxia-skin-model-2.0.0-M4.jar doxia-skin-model-2.0.0-M4-sources.jar doxia-integration-tools-2.0.0-M4.pom doxia-integration-tools-2.0.0-M4.jar doxia-integration-tools-2.0.0-M4-sources.jar doxia-site-renderer-2.0.0-M4.pom doxia-site-renderer-2.0.0-M4.jar doxia-site-renderer-2.0.0-M4-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
