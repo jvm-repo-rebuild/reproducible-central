@@ -195,8 +195,9 @@
       <version>3.19.0</version>
       <version>3.20.0</version>
       <version>3.20.1</version>
+      <version>3.20.2</version>
       <version>4.0.0-M1</version>
     </versions>
-    <lastUpdated>20230204190846</lastUpdated>
+    <lastUpdated>20230207090255</lastUpdated>
   </versioning>
 </metadata>

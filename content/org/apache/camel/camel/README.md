@@ -619,6 +619,7 @@ rebuilding **4 releases** of org.apache.camel:camel:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [4.0.0-M1](https://search.maven.org/artifact/org.apache.camel/camel/4.0.0-M1/pom) | | | |
+| [3.20.2](https://search.maven.org/artifact/org.apache.camel/camel/3.20.2/pom) | | | |
 | [3.20.1](https://search.maven.org/artifact/org.apache.camel/camel/3.20.1/pom) | | | |
 | [3.20.0](https://search.maven.org/artifact/org.apache.camel/camel/3.20.0/pom) | | | |
 | [3.19.0](https://search.maven.org/artifact/org.apache.camel/camel/3.19.0/pom) | [mvn jdk11](camel-3.19.0.buildspec) | [result](camel-3.19.0.buildinfo): [1163 :heavy_check_mark:  446 :warning:](camel-3.19.0.buildcompare) | 259M |
