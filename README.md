@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **1534 releases** of **380 projects**:
-   - **1129** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 405 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **1537 releases** of **381 projects**:
+   - **1131** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 406 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
 
@@ -134,7 +134,8 @@ Its objectives are to provide:
 | org.apache.bcel | <a name='org.apache.bcel:bcel'></a>[bcel](content/org/apache/commons/bcel/README.md) | 1 | 1 :warning: |
 | org.apache.commons | <a name='org.apache.commons:commons-compress'></a>[commons-compress](content/org/apache/commons/compress/README.md) | 1 | 1 :warning: |
 | | <a name='org.apache.commons:commons-csv'></a>[commons-csv](content/org/apache/commons/csv/README.md) | 1 | 1 :heavy_check_mark: |
-| | <a name='org.apache.commons:commons-numbers-parent'></a>[commons-numbers-parent](content/org/apache/commons/numbers/README.md) | 1 | 1 :heavy_check_mark: |
+| commons-net | <a name='commons-net:commons-net'></a>[commons-net](content/org/apache/commons/net/README.md) | 1 | 1 :warning: |
+| org.apache.commons | <a name='org.apache.commons:commons-numbers-parent'></a>[commons-numbers-parent](content/org/apache/commons/numbers/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.commons:commons-parent'></a>[commons-parent](content/org/apache/commons/parent/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.apache.commons:commons-rng-parent'></a>[commons-rng-parent](content/org/apache/commons/rng/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.commons:commons-statistics-parent'></a>[commons-statistics-parent](content/org/apache/commons/statistics/README.md) | 1 | 1 :warning: |
@@ -167,7 +168,7 @@ Its objectives are to provide:
 | | <a name='org.apache.maven.doxia:doxia-sitetools'></a>[doxia-sitetools](content/org/apache/maven/doxia/doxia-sitetools/README.md) | 8 | 8 :heavy_check_mark: |
 | org.apache.maven.plugin-tools | <a name='org.apache.maven.plugin-tools:maven-plugin-tools'></a>[maven-plugin-tools](content/org/apache/maven/plugin-tools/maven-plugin-tools/README.md) | 5 | 5 :heavy_check_mark: |
 | org.apache.maven.plugins | <a name='org.apache.maven.plugins:maven-antrun-plugin'></a>[maven-antrun-plugin](content/org/apache/maven/plugins/maven-antrun-plugin/README.md) | 2 | 2 :heavy_check_mark: |
-| | <a name='org.apache.maven.plugins:maven-artifact-plugin'></a>[maven-artifact-plugin](content/org/apache/maven/plugins/maven-artifact-plugin/README.md) | 4 | 4 :heavy_check_mark: |
+| | <a name='org.apache.maven.plugins:maven-artifact-plugin'></a>[maven-artifact-plugin](content/org/apache/maven/plugins/maven-artifact-plugin/README.md) | 5 | 5 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-assembly-plugin'></a>[maven-assembly-plugin](content/org/apache/maven/plugins/maven-assembly-plugin/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-checkstyle-plugin'></a>[maven-checkstyle-plugin](content/org/apache/maven/plugins/maven-checkstyle-plugin/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-clean-plugin'></a>[maven-clean-plugin](content/org/apache/maven/plugins/maven-clean-plugin/README.md) | 1 | 1 :heavy_check_mark: |
@@ -393,7 +394,7 @@ Its objectives are to provide:
 | org.sonatype.nexus.archetypes | <a name='org.sonatype.nexus.archetypes:nexus-format-archetype'></a>[nexus-format-archetype](content/org/sonatype/nexus/archetypes/nexus-format-archetype/README.md) | 5 | 5 :heavy_check_mark: |
 | org.tomitribe.transformer | <a name='org.tomitribe.transformer:org.eclipse.transformer.parent'></a>[org.eclipse.transformer.parent](content/org/tomitribe/transformer/README.md) | 2 | 2 :heavy_check_mark: |
 | org.webjars | <a name='org.webjars:bootstrap'></a>[bootstrap](content/org/webjars/bootstrap/README.md) | 4 | 4 :heavy_check_mark: |
-| | <a name='org.webjars:flexmonster'></a>[flexmonster](content/org/webjars/flexmonster/README.md) | 24 | 23 :heavy_check_mark: / 1 :warning: |
+| | <a name='org.webjars:flexmonster'></a>[flexmonster](content/org/webjars/flexmonster/README.md) | 25 | 24 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.webjars:font-awesome'></a>[font-awesome](content/org/webjars/font-awesome/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.webjars:redoc'></a>[redoc](content/org/webjars/redoc/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.webjars:swagger-ui'></a>[swagger-ui](content/org/webjars/swagger-ui/README.md) | 14 | 14 :heavy_check_mark: |
@@ -403,7 +404,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 9 | 9 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 6 | 6 :warning: |
-| **Count:** | **380** | **1534** | **1129** :heavy_check_mark: **405** :warning: |
+| **Count:** | **381** | **1537** | **1131** :heavy_check_mark: **406** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -415,7 +416,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      17 gradle     11
      26 mvn         7
-    755 mvn         8
+    758 mvn         8
       1 mvn         9
     562 mvn        11
       4 mvn        14
