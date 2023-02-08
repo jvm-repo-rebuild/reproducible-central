@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Artifact Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-artifact-plugin
+version=3.4.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-artifact-plugin.git
+source.scm.tag=maven-artifact-plugin-3.4.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.filename=maven-artifact-plugin-3.4.0.pom
+outputs.0.length=7710
+outputs.0.checksums.sha512=1efd672ef1cb330fe893040c425ab5d368d09aa66029902e8a6c9125126b69bfb890490b9c0ef6dd0cb1889c2edaf4fe5cc8cb99bbbc2d72390eb34d9a14b609
+
+outputs.1.filename=maven-artifact-plugin-3.4.0.jar
+outputs.1.length=56331
+outputs.1.checksums.sha512=ef4cb2c6edf53ef5c4afa4f606a98877e33a188102790cbc4fbb7f28cfc5b7668d430a980db0ea06ced747bf307f1824dc2b53f1b21dee111115d0430140b9b9
+
+outputs.2.filename=maven-artifact-plugin-3.4.0-source-release.zip
+outputs.2.length=84117
+outputs.2.checksums.sha512=d936718f5662cf9369f408b8770dd351995d02851c1d610c445f77bec9469b9799dda287d5b0aa9662685f42e42e86022d3413407f91f17f22f964d26cb90c43
+
+outputs.3.filename=maven-artifact-plugin-3.4.0-sources.jar
+outputs.3.length=35551
+outputs.3.checksums.sha512=6016b5042926e42ad334f29726377e6b1755663b6700616be9a30bf094add7c498d56f4dc5877cbea7f0de3330416a7a1b8412ad8463fb5240e5aa2628cf4adc
