@@ -1,0 +1,50 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Net
+group-id=commons-net
+artifact-id=commons-net
+version=3.9.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-net
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=commons-net-3.9.0.pom
+outputs.0.length=24239
+outputs.0.checksums.sha512=ce71d08c57bd3ba04faaaa6b0f5a4b2d50bf0d97d85b1bae9e1d4494f3262ea93e6d4fe1a1ae4339b3d005703181f25df9ddb0862daf4d4e2bdb183bc7cfcab1
+
+outputs.1.filename=commons-net-3.9.0.jar
+outputs.1.length=316431
+outputs.1.checksums.sha512=c76a5e586ef9d7314683580442f9ecef3a3c32f85c0539cc62944d5d4471d1ab06f2e9f5a28f444a9add41541ecc6b6f639e4bf1961b2a29515bffe4d591e17d
+
+outputs.2.filename=commons-net-3.9.0-tests.jar
+outputs.2.length=183929
+outputs.2.checksums.sha512=5fea125ba37a40f7da1a0ad27191cad36e3892bf8c7820b998cf8780ef63e09ac75bb5a3fc3a177e4ac4467cd69c1e862572dbcf7778b4f930bf8df91c96f684
+
+outputs.3.filename=commons-net-3.9.0-sources.jar
+outputs.3.length=432704
+outputs.3.checksums.sha512=2fa5e645b5913394ab240443d73957c18173272c2004355bdcd0936ef40be73d7577e6c3167c49b5649f0899465c9c17de12dfba1e3dd179c7924f10f96ceac0
+
+outputs.4.filename=commons-net-3.9.0-test-sources.jar
+outputs.4.length=139462
+outputs.4.checksums.sha512=689220026210f434ef9bc53647a0567ba55e15cd9583229fc4187f8252c3766a3c943fe3f20c438bb8e1e06182d509c90c01013de4cebaa767f59b733475fd7a
+
+outputs.5.filename=commons-net-3.9.0-ftp.jar
+outputs.5.length=153894
+outputs.5.checksums.sha512=12e33190610ef8dbcc619ea737376c930748d17d95b2bd29f15d3edc3811b8e13b6e2b943893455fdb554b8037349c2bf430b35d422ed5eaf50713357cbed4c3
+
+outputs.6.filename=commons-net-3.9.0-examples.jar
+outputs.6.length=91834
+outputs.6.checksums.sha512=23a29c9937d47926aa1b759013d74c1bed25d3a168609bcc80a2229fae3c0eecc800a2f3a9d56ac5810fbcbb63e7ea58f978d820eed70066fe760c9326208ca7

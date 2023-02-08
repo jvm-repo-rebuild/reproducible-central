@@ -1,0 +1,9 @@
+version=3.9.0
+ok=5
+ko=2
+okFiles="commons-net-3.9.0.pom commons-net-3.9.0.jar commons-net-3.9.0-tests.jar commons-net-3.9.0-sources.jar commons-net-3.9.0-test-sources.jar"
+koFiles="commons-net-3.9.0-ftp.jar commons-net-3.9.0-examples.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/commons-net-3.9.0-ftp.jar target/commons-net-ftp-3.9.0.jar
+# diffoscope target/reference/commons-net-3.9.0-examples.jar target/commons-net-examples-3.9.0.jar

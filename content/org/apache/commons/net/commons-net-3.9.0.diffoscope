@@ -1,0 +1,98 @@
+1 / 2 target/reference/commons-net-3.9.0-ftp.jar target/commons-net-ftp-3.9.0.jar
+--- target/reference/commons-net-3.9.0-ftp.jar
++++ target/commons-net-ftp-3.9.0.jar
+├── zipinfo {}
+│ @@ -1,117 +1,117 @@
+│ -Zip file size: 153907 bytes, number of entries: 115
+│ -drwxr-xr-x  2.0 unx        0 bx stor 22-Nov-26 16:08 META-INF/
+...
+│ --rw-r--r--  2.0 unx      133 b- defN 22-Nov-26 16:08 org/apache/commons/net/util/package-info.class
+│ -115 files, 292698 bytes uncompressed, 134617 bytes compressed:  54.0%
+│ +Zip file size: 153894 bytes, number of entries: 115
+│ +drwxr-xr-x  2.0 unx        0 bx stor 23-Feb-08 06:42 META-INF/
+...
+│ +-rw-r--r--  2.0 unx      133 b- defN 23-Feb-08 06:42 org/apache/commons/net/util/package-info.class
+│ +115 files, 292683 bytes uncompressed, 134604 bytes compressed:  54.0%
+├── META-INF/MANIFEST.MF
+│ @@ -1,14 +1,13 @@
+│  Manifest-Version: 1.0
+
+│  Ant-Version: Apache Ant 1.10.12
+
+│ -Created-By: 1.8.0_352-bre_2022_11_16_01_10-b00 (Homebrew)
+
+│ +Created-By: 1.8.0_282-b08 (Oracle Corporation)
+
+│  Extension-Name: org.apache.commons.net
+
+│  Specification-Title: Apache Commons Net
+
+│  Implementation-Title: Apache Commons Net
+
+│  Implementation-Vendor: The Apache Software Foundation
+
+│  Implementation-Version: 3.9.0
+
+│  Implementation-Vendor-Id: org.apache
+
+│ -Implementation-Build: release@r${buildNumber}; 2022-11-26 21:05:59+000
+
+│ - 0
+
+│ +Implementation-Build: UNKNOWN_BRANCH@r??????; 2023-02-08 06:42:21+0000
+
+│  X-Compile-Source-JDK: 1.8
+
+│  X-Compile-Target-JDK: 1.8
+
+2 / 2 target/reference/commons-net-3.9.0-examples.jar target/commons-net-examples-3.9.0.jar
+--- target/reference/commons-net-3.9.0-examples.jar
++++ target/commons-net-examples-3.9.0.jar
+├── zipinfo {}
+│ @@ -1,59 +1,59 @@
+│ -Zip file size: 91846 bytes, number of entries: 57
+│ -drwxr-xr-x  2.0 unx        0 bx stor 22-Nov-26 16:08 META-INF/
+...
+│ --rw-r--r--  2.0 unx     2511 b- defN 22-Nov-26 16:08 org/apache/commons/net/examples/util/IOUtil.class
+│ -57 files, 163784 bytes uncompressed, 82282 bytes compressed:  49.8%
+│ +Zip file size: 91834 bytes, number of entries: 57
+│ +drwxr-xr-x  2.0 unx        0 bx stor 23-Feb-08 06:42 META-INF/
+...
+│ +-rw-r--r--  2.0 unx     2511 b- defN 23-Feb-08 06:42 org/apache/commons/net/examples/util/IOUtil.class
+│ +57 files, 163769 bytes uncompressed, 82270 bytes compressed:  49.8%
+├── META-INF/MANIFEST.MF
+│ @@ -1,16 +1,15 @@
+│  Manifest-Version: 1.0
+
+│  Ant-Version: Apache Ant 1.10.12
+
+│ -Created-By: 1.8.0_352-bre_2022_11_16_01_10-b00 (Homebrew)
+
+│ +Created-By: 1.8.0_282-b08 (Oracle Corporation)
+
+│  Extension-Name: org.apache.commons.net
+
+│  Specification-Title: Apache Commons Net
+
+│  Implementation-Title: Apache Commons Net
+
+│  Implementation-Vendor: The Apache Software Foundation
+
+│  Implementation-Version: 3.9.0
+
+│  Implementation-Vendor-Id: org.apache
+
+│ -Implementation-Build: release@r${buildNumber}; 2022-11-26 21:05:59+000
+
+│ - 0
+
+│ +Implementation-Build: UNKNOWN_BRANCH@r??????; 2023-02-08 06:42:21+0000
+
+│  X-Compile-Source-JDK: 1.8
+
+│  X-Compile-Target-JDK: 1.8
+
+│  Main-Class: org.apache.commons.net.examples.Main
+
+│  Class-Path: commons-net-3.9.0.jar
+
