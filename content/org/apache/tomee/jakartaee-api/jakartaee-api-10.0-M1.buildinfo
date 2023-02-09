@@ -1,0 +1,59 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache TomEE :: Jakarta EE 10 Full API
+group-id=org.apache.tomee
+artifact-id=jakartaee-api
+version=10.0-M1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/tomee-jakartaee-api.git
+source.scm.tag=jakartaee-api-10.0-M1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0
+
+# output
+
+outputs.0.filename=jakartaee-api-10.0-M1.pom
+outputs.0.length=52282
+outputs.0.checksums.sha512=e818c9c54afaf96a2a545767cbe1e1c61023298b2833b58e9f75d84a2df2715d35ba53a489d15fb8a8a7624d7c6896ac81cffc3158d0f2f66c09048fd92ac188
+
+outputs.1.filename=jakartaee-api-10.0-M1.jar
+outputs.1.length=1937378
+outputs.1.checksums.sha512=6a5f13fcd399c0844110e6650f0b4376a6ebce20c9f0f345ba5a61f3e8ffbe8cef3c175d6432e244f9865d35a25d45e0db58b8796f1c6ce3ddcece1c24f5765d
+
+outputs.2.filename=jakartaee-api-10.0-M1-source-release.zip
+outputs.2.length=33217
+outputs.2.checksums.sha512=f2a14647c099d613006d2cbbd585af3ba6f410d59fdf85526203327048567a8c08d0e5c5752cc10337dc46ce6e5fa9883f950705d7efc7c714b49d1f70e4d80f
+
+outputs.3.filename=jakartaee-api-10.0-M1.zip
+outputs.3.length=2260853
+outputs.3.checksums.sha512=1d7942feeb5ebd54494bd173378de6b6eb0768117e78029687a6469af5f235e29323f77ed0de1f6bc495d48918b0fd3bb8947c66bd62ae4dc1e7f15529ce9c20
+
+outputs.4.filename=jakartaee-api-10.0-M1-sources.jar
+outputs.4.length=3050267
+outputs.4.checksums.sha512=994f2ada7f336e388b7caae14980abf0a979b929d880afb54a4e03b233a5e9cd4c7a3ed87e8c6b09e9a9c5492be6ed93098a5dc8c04084f0387381757297eb38
+
+outputs.5.filename=jakartaee-api-10.0-M1-tomcat.jar
+outputs.5.length=1739788
+outputs.5.checksums.sha512=6ab2d7cc010dbe294cd3d371593c7932ba339222fea7e43a121468f14221f79a8415b42a0de98cc33fe60739dc625fa0dd7c1d5e8d79ee19960e050dd230b0d5
+
+outputs.6.filename=jakartaee-api-10.0-M1-tomcat-sources.jar
+outputs.6.length=2800291
+outputs.6.checksums.sha512=ef520945354a072b2f3286d6256a23eae469d97e0075722e7e6ab04b43e43cefbde517fb7920c83d84a8e1fafb1097dd157b7bcb4dcb0f90c900119603dc6d33
+
+outputs.7.filename=jakartaee-api-10.0-M1-sources.jar
+outputs.7.length=3050267
+outputs.7.checksums.sha512=994f2ada7f336e388b7caae14980abf0a979b929d880afb54a4e03b233a5e9cd4c7a3ed87e8c6b09e9a9c5492be6ed93098a5dc8c04084f0387381757297eb38
+
+outputs.8.filename=jakartaee-api-10.0-M1-features.xml
+outputs.8.length=4431
+outputs.8.checksums.sha512=b17e4dd4ac9b88d2f03cfb20bb2f0dc58e08906d612bf6b322289bb4d081e18e38a7bc6a2cbaa990535adf6803a9ec3b0f698557c1db2bb9a34260efaeda2a27
