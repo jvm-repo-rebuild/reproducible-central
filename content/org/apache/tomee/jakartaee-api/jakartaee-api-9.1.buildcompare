@@ -1,0 +1,7 @@
+version=9.1
+ok=8
+ko=0
+okFiles="jakartaee-api-9.1.pom jakartaee-api-9.1.jar jakartaee-api-9.1-source-release.zip jakartaee-api-9.1.zip jakartaee-api-9.1-sources.jar jakartaee-api-9.1-tomcat.jar jakartaee-api-9.1-tomcat-sources.jar jakartaee-api-9.1-features.xml"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
