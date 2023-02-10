@@ -25,6 +25,7 @@ rebuilding **5 releases** of net.bytebuddy:byte-buddy-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.13.0](https://search.maven.org/artifact/net.bytebuddy/byte-buddy-parent/1.13.0/pom) | | | |
 | [1.12.23](https://search.maven.org/artifact/net.bytebuddy/byte-buddy-parent/1.12.23/pom) | [mvn jdk8](byte-buddy-1.12.23.buildspec) | [result](byte-buddy-parent-1.12.23.buildinfo): [22 :heavy_check_mark: ](byte-buddy-parent-1.12.23.buildcompare) | 19M |
 | [1.12.22](https://search.maven.org/artifact/net.bytebuddy/byte-buddy-parent/1.12.22/pom) | [mvn jdk8](byte-buddy-1.12.22.buildspec) | [result](byte-buddy-parent-1.12.22.buildinfo): [22 :heavy_check_mark: ](byte-buddy-parent-1.12.22.buildcompare) | 19M |
 | [1.12.21](https://search.maven.org/artifact/net.bytebuddy/byte-buddy-parent/1.12.21/pom) | [mvn jdk8](byte-buddy-1.12.21.buildspec) | [result](byte-buddy-parent-1.12.21.buildinfo): [22 :heavy_check_mark: ](byte-buddy-parent-1.12.21.buildcompare) | 19M |
