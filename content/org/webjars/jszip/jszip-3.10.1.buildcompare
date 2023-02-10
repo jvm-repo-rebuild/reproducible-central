@@ -1,0 +1,7 @@
+version=3.10.1
+ok=2
+ko=0
+okFiles="jszip-3.10.1.pom jszip-3.10.1.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

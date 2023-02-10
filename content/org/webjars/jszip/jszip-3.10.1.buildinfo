@@ -1,0 +1,30 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JSZip
+group-id=org.webjars
+artifact-id=jszip
+version=3.10.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/webjars/jszip.git
+source.scm.tag=jszip-3.10.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=jszip-3.10.1.pom
+outputs.0.length=5647
+outputs.0.checksums.sha512=bedfc51becb5ea7b32fc437895413096e5ce4cb5d1c83bb76c5f29bde95f869df163da86e28a549226a5fb3cb1862decfe6a727e1fe4476027337048da1b2f71
+
+outputs.1.filename=jszip-3.10.1.jar
+outputs.1.length=121974
+outputs.1.checksums.sha512=60a7bfd2539fcfe1803718d29ccbd7c64aec101e849acd7fb1c25a5bafbdfe83ae9e41a5fadf72a2444c873536c7293f57e9d3191938b2da0801a9b7ad946791
