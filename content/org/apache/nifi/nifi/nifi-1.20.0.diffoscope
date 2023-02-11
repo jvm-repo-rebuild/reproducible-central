@@ -1,0 +1,1287 @@
+1 / 55 target/reference/nifi-nar-utils-1.20.0.jar nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/nifi-nar-utils-1.20.0.jar
+--- target/reference/nifi-nar-utils-1.20.0.jar
++++ nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/nifi-nar-utils-1.20.0.jar
+├── builddef.lst
+│ @@ -6,13 +6,13 @@
+│  -showWeaveInfo
+│  -source
+│  1.8
+│  -target
+│  1.8
+│  -verbose
+│  -classpath
+│ -/Users/jwitt/development/nifi.git/target/checkout/nifi-commons/nifi-properties/target/nifi-properties-1.20.0.jar:/Users/jwitt/development/nifi.git/target/checkout/nifi-api/target/nifi-api-1.20.0.jar:/Users/jwitt/development/nifi.git/target/checkout/nifi-framework-api/target/nifi-framework-api-1.20.0.jar:/Users/jwitt/development/nifi.git/target/checkout/nifi-server-api/target/nifi-server-api-1.20.0.jar:/Users/jwitt/.m2/repository/org/aspectj/aspectjrt/1.9.6/aspectjrt-1.9.6.jar:/Users/jwitt/.m2/repository/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6.jar:/Users/jwitt/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.jar:/Users/jwitt/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.jar:/Users/jwitt/.m2/repository/org/junit/vintage/junit-vintage-engine/5.9.1/junit-vintage-engine-5.9.1.jar:/Users/jwitt/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.1/junit-jupiter-params-5.9.1.jar:/Users/jwitt/.m2/repository/org/mockito/mockito-core/3.12.4/mockito-core-3.12.4.jar:/Users/jwitt/.m2/repository/org/mockito/mockito-junit-jupiter/3.12.4/mockito-junit-jupiter-3.12.4.jar:/Users/jwitt/.m2/repository/org/slf4j/slf4j-simple/2.0.6/slf4j-simple-2.0.6.jar:/Users/jwitt/.m2/repository/org/codehaus/groovy/groovy-test/3.0.14/groovy-test-3.0.14.jar:/Users/jwitt/development/nifi.git/target/checkout/nifi-commons/nifi-property-utils/target/nifi-property-utils-1.20.0.jar:/Users/jwitt/development/nifi.git/target/checkout/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/classes
+│ +/home/herve/dev/maven/misc/reproducible-central/content/org/apache/nifi/nifi/buildcache/nifi/nifi-commons/nifi-properties/target/nifi-properties-1.20.0.jar:/home/herve/dev/maven/misc/reproducible-central/content/org/apache/nifi/nifi/buildcache/nifi/nifi-api/target/nifi-api-1.20.0.jar:/home/herve/dev/maven/misc/reproducible-central/content/org/apache/nifi/nifi/buildcache/nifi/nifi-framework-api/target/nifi-framework-api-1.20.0.jar:/home/herve/dev/maven/misc/reproducible-central/content/org/apache/nifi/nifi/buildcache/nifi/nifi-server-api/target/nifi-server-api-1.20.0.jar:/home/herve/.m2/repository/org/aspectj/aspectjrt/1.9.6/aspectjrt-1.9.6.jar:/home/herve/.m2/repository/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6.jar:/home/herve/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.1/junit-jupiter-api-5.9.1.jar:/home/herve/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.1/junit-jupiter-engine-5.9.1.jar:/home/herve/.m2/repository/org/junit/vintage/junit-vintage-engine/5.9.1/junit-vintage-engine-5.9.1.jar:/home/herve/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.1/junit-jupiter-params-5.9.1.jar:/home/herve/.m2/repository/org/mockito/mockito-core/3.12.4/mockito-core-3.12.4.jar:/home/herve/.m2/repository/org/mockito/mockito-junit-jupiter/3.12.4/mockito-junit-jupiter-3.12.4.jar:/home/herve/.m2/repository/org/slf4j/slf4j-simple/2.0.6/slf4j-simple-2.0.6.jar:/home/herve/.m2/repository/org/codehaus/groovy/groovy-test/3.0.14/groovy-test-3.0.14.jar:/home/herve/dev/maven/misc/reproducible-central/content/org/apache/nifi/nifi/buildcache/nifi/nifi-commons/nifi-property-utils/target/nifi-property-utils-1.20.0.jar:/home/herve/dev/maven/misc/reproducible-central/content/org/apache/nifi/nifi/buildcache/nifi/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/classes
+│  -d
+│ -/Users/jwitt/development/nifi.git/target/checkout/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/classes
+│ +/home/herve/dev/maven/misc/reproducible-central/content/org/apache/nifi/nifi/buildcache/nifi/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/classes
+│  -s
+│ -/Users/jwitt/development/nifi.git/target/checkout/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/generated-sources/aspectj-maven-plugin
+│ -/Users/jwitt/development/nifi.git/target/checkout/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-nar-utils/src/main/java/org/apache/nifi/nar/LoadNativeLibAspect.java
+│ +/home/herve/dev/maven/misc/reproducible-central/content/org/apache/nifi/nifi/buildcache/nifi/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-nar-utils/target/generated-sources/aspectj-maven-plugin
+│ +/home/herve/dev/maven/misc/reproducible-central/content/org/apache/nifi/nifi/buildcache/nifi/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-nar-utils/src/main/java/org/apache/nifi/nar/LoadNativeLibAspect.java
+
+2 / 55 target/reference/nifi-authorizer-1.20.0.jar nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-authorizer/target/nifi-authorizer-1.20.0.jar
+--- target/reference/nifi-authorizer-1.20.0.jar
++++ nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-authorizer/target/nifi-authorizer-1.20.0.jar
+├── META-INF/JAXB/episode_current.xjb
+│ ├── META-INF/JAXB/episode_current.xjb
+│ │ @@ -1,15 +1,15 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" version="2.1">
+│ │    <!--
+│ │  
+│ │  This file was generated by the JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.3.2 
+│ │  See <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+│ │  Any modifications to this file will be lost upon recompilation of the source schema. 
+│ │ -Generated on: 2023.02.06 at 11:47:28 AM MST 
+│ │ +Generated on: 2023.02.11 at 01:01:02 AM CET 
+│ │  
+│ │    -->
+│ │    <jaxb:bindings scd="x-schema::">
+│ │      <jaxb:schemaBindings map="false">
+│ │        <jaxb:package name="org.apache.nifi.authorization.generated"/>
+│ │      </jaxb:schemaBindings>
+│ │      <jaxb:bindings scd="authorizers">
+
+3 / 55 target/reference/nifi-authorizer-1.20.0-sources.jar nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-authorizer/target/nifi-authorizer-1.20.0-sources.jar
+4 / 55 target/reference/nifi-web-security-1.20.0.jar nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-security/target/nifi-web-security-1.20.0.jar
+5 / 55 target/reference/nifi-web-security-1.20.0-sources.jar nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-security/target/nifi-web-security-1.20.0-sources.jar
+
+6 / 55 target/reference/nifi-file-authorizer-1.20.0.jar nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-file-authorizer/target/nifi-file-authorizer-1.20.0.jar
+--- target/reference/nifi-file-authorizer-1.20.0.jar
++++ nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-file-authorizer/target/nifi-file-authorizer-1.20.0.jar
+├── META-INF/JAXB/episode_authorizations.xjb
+│ ├── META-INF/JAXB/episode_authorizations.xjb
+│ │ @@ -1,15 +1,15 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" version="2.1">
+│ │    <!--
+│ │  
+│ │  This file was generated by the JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.3.2 
+│ │  See <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+│ │  Any modifications to this file will be lost upon recompilation of the source schema. 
+│ │ -Generated on: 2023.02.06 at 11:48:14 AM MST 
+│ │ +Generated on: 2023.02.11 at 01:01:24 AM CET 
+│ │  
+│ │    -->
+│ │    <jaxb:bindings scd="x-schema::">
+│ │      <jaxb:schemaBindings map="false">
+│ │        <jaxb:package name="org.apache.nifi.authorization.file.generated"/>
+│ │      </jaxb:schemaBindings>
+│ │      <jaxb:bindings scd="~Policy">
+├── META-INF/JAXB/episode_tenants.xjb
+│ ├── META-INF/JAXB/episode_tenants.xjb
+│ │ @@ -1,15 +1,15 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" version="2.1">
+│ │    <!--
+│ │  
+│ │  This file was generated by the JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.3.2 
+│ │  See <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+│ │  Any modifications to this file will be lost upon recompilation of the source schema. 
+│ │ -Generated on: 2023.02.06 at 11:48:14 AM MST 
+│ │ +Generated on: 2023.02.11 at 01:01:24 AM CET 
+│ │  
+│ │    -->
+│ │    <jaxb:bindings scd="x-schema::">
+│ │      <jaxb:schemaBindings map="false">
+│ │        <jaxb:package name="org.apache.nifi.authorization.file.tenants.generated"/>
+│ │      </jaxb:schemaBindings>
+│ │      <jaxb:bindings scd="~Group">
+├── META-INF/JAXB/episode_users.xjb
+│ ├── META-INF/JAXB/episode_users.xjb
+│ │ @@ -1,15 +1,15 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" version="2.1">
+│ │    <!--
+│ │  
+│ │  This file was generated by the JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.3.2 
+│ │  See <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+│ │  Any modifications to this file will be lost upon recompilation of the source schema. 
+│ │ -Generated on: 2023.02.06 at 11:48:14 AM MST 
+│ │ +Generated on: 2023.02.11 at 01:01:24 AM CET 
+│ │  
+│ │    -->
+│ │    <jaxb:bindings scd="x-schema::">
+│ │      <jaxb:schemaBindings map="false">
+│ │        <jaxb:package name="org.apache.nifi.user.generated"/>
+│ │      </jaxb:schemaBindings>
+│ │      <jaxb:bindings scd="users">
+
+7 / 55 target/reference/nifi-file-authorizer-1.20.0-sources.jar nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-file-authorizer/target/nifi-file-authorizer-1.20.0-sources.jar
+
+8 / 55 target/reference/nifi-web-api-1.20.0.war nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-api/target/nifi-web-api-1.20.0.war
+--- target/reference/nifi-web-api-1.20.0.war
++++ nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-api/target/nifi-web-api-1.20.0.war
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1564257 bytes, number of entries: 396
+│ +Zip file size: 1564258 bytes, number of entries: 396
+│  -rw-r--r--  2.0 unx       82 b- defN 23-Feb-06 18:30 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 WEB-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 WEB-INF/classes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 WEB-INF/classes/META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 WEB-INF/classes/images/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 WEB-INF/classes/org/
+│ @@ -391,8 +391,8 @@
+│  -rw-r--r--  2.0 unx     4611 b- defN 23-Feb-06 18:30 WEB-INF/lib/simpleclient_tracer_otel_agent-0.16.0.jar
+│  -rw-r--r--  2.0 unx     2883 b- defN 23-Feb-06 18:30 WEB-INF/web.xml
+│  -rw-r--r--  2.0 unx     5931 b- defN 23-Feb-06 18:30 docs/rest-api/images/bgNifiLogo.png
+│  -rw-r--r--  2.0 unx     1150 b- defN 23-Feb-06 18:30 docs/rest-api/images/nifi16.ico
+│  -rw-r--r--  2.0 unx  2766013 b- defN 23-Feb-06 18:30 docs/rest-api/index.html
+│  -rw-r--r--  2.0 unx    17507 b- defN 23-Feb-06 18:30 META-INF/maven/org.apache.nifi/nifi-web-api/pom.xml
+│  -rw-r--r--  2.0 unx       63 b- defN 23-Feb-06 18:30 META-INF/maven/org.apache.nifi/nifi-web-api/pom.properties
+│ -396 files, 6213808 bytes uncompressed, 1479487 bytes compressed:  76.2%
+│ +396 files, 6213808 bytes uncompressed, 1479488 bytes compressed:  76.2%
+├── docs/rest-api/index.html
+│┄ Ordering differences only
+│ @@ -60407,31 +60407,31 @@
+│                      <td>optional</td>
+│                      <td>
+│                          
+│                          </td>
+│                  </tr>
+│              
+│                  <tr>
+│ -                    <td>clientResponse</td>
+│ +                    <td>status</td>
+│                      <td>
+│                          
+│                              
+│ -                                <a class="type-link" href="javascript:void(0);">Response</a>
+│                              
+│ +                                integer (int32)
+...
+
+9 / 55 target/reference/nifi-web-ui-1.20.0.war nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-ui/target/nifi-web-ui-1.20.0.war
+--- target/reference/nifi-web-ui-1.20.0.war
++++ nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-web/nifi-web-ui/target/nifi-web-ui-1.20.0.war
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 4253884 bytes, number of entries: 674
+│ +Zip file size: 4253589 bytes, number of entries: 674
+│  -rw-r--r--  2.0 unx       82 b- defN 23-Feb-06 18:30 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/
+│ @@ -261,16 +261,16 @@
+│  -rw-r--r--  2.0 unx     5472 b- defN 23-Feb-06 18:30 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/provenance/lineage_002dquery_002ddialog_jsp.class
+│  -rw-r--r--  2.0 unx     4807 b- defN 23-Feb-06 18:30 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/provenance/lineage_002dquery_002ddialog_jsp.java
+│ --rw-r--r--  2.0 unx    11005 b- defN 23-Feb-06 18:30 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/provenance/provenance_002dcontent_jsp.class
+│ --rw-r--r--  2.0 unx    12283 b- defN 23-Feb-06 18:30 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/provenance/provenance_002dcontent_jsp.java
+│ +-rw-r--r--  2.0 unx    10478 b- defN 23-Feb-06 18:30 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/provenance/provenance_002dcontent_jsp.class
+│ +-rw-r--r--  2.0 unx    11823 b- defN 23-Feb-06 18:30 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/provenance/provenance_002dcontent_jsp.java
+│  -rw-r--r--  2.0 unx    16196 b- defN 23-Feb-06 18:30 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/provenance/provenance_002devent_002ddetails_002ddialog_jsp.class
+│  -rw-r--r--  2.0 unx    16071 b- defN 23-Feb-06 18:30 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/provenance/provenance_002devent_002ddetails_002ddialog_jsp.java
+│ @@ -289,16 +289,16 @@
+│  -rw-r--r--  2.0 unx     4817 b- defN 23-Feb-06 18:30 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/summary/view_002dsingle_002dnode_002ddialog_jsp.java
+│ --rw-r--r--  2.0 unx     8009 b- defN 23-Feb-06 18:30 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/templates/templates_002dcontent_jsp.class
+│ --rw-r--r--  2.0 unx     7919 b- defN 23-Feb-06 18:30 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/templates/templates_002dcontent_jsp.java
+│ +-rw-r--r--  2.0 unx     8535 b- defN 23-Feb-06 18:30 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/templates/templates_002dcontent_jsp.class
+│ +-rw-r--r--  2.0 unx     8377 b- defN 23-Feb-06 18:30 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/templates/templates_002dcontent_jsp.java
+│  -rw-r--r--  2.0 unx     5451 b- defN 23-Feb-06 18:30 WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/users/user_002ddelete_002ddialog_jsp.class
+│ @@ -669,8 +669,8 @@
+│  -rw-r--r--  2.0 unx       62 b- defN 23-Feb-06 18:30 META-INF/maven/org.apache.nifi/nifi-web-ui/pom.properties
+│ -674 files, 10583853 bytes uncompressed, 4130956 bytes compressed:  61.0%
+│ +674 files, 10583850 bytes uncompressed, 4130661 bytes compressed:  61.0%
+├── WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/banners_002dmain_jsp.java
+│ @@ -1,11 +1,11 @@
+│  /*
+│   * Generated by the Jasper component of Apache Tomcat
+│   * Version: JspC/ApacheTomcat8
+│ - * Generated at: 2023-02-06 18:49:15 UTC
+│ + * Generated at: 2023-02-11 00:02:02 UTC
+│   * Note: The last modified time of this file was set to
+│   *       the last modified time of the source file after
+│   *       generation to assist with modification tracking.
+│   */
+│  package org.apache.jsp.WEB_002dINF.partials;
+│  
+│  import javax.servlet.*;
+...
+├── WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/provenance/provenance_002dcontent_jsp.class
+│ ├── procyon -ec {}
+│ │ @@ -15,15 +15,14 @@
+│ │  import javax.servlet.ServletRequest;
+│ │  import javax.servlet.Servlet;
+│ │  import javax.servlet.DispatcherType;
+│ │  import javax.servlet.http.HttpServletResponse;
+│ │  import javax.servlet.http.HttpServletRequest;
+│ │  import org.apache.jasper.runtime.InstanceManagerFactory;
+│ │  import java.util.HashSet;
+│ │ -import java.util.HashMap;
+│ │  import org.apache.tomcat.InstanceManager;
+│ │  import javax.el.ExpressionFactory;
+│ │  import org.apache.jasper.runtime.TagHandlerPool;
+│ │  import java.util.Set;
+│ │  import java.util.Map;
+│ │  import javax.servlet.jsp.JspFactory;
+│ │  import org.apache.jasper.runtime.JspSourceImports;
+│ │ @@ -38,16 +37,14 @@
+│ │      private static final Set<String> _jspx_imports_classes;
+│ │      private TagHandlerPool _005fjspx_005ftagPool_005fc_005fout_0026_005fvalue_005fnobody;
+│ │      private volatile ExpressionFactory _el_expressionfactory;
+│ │      private volatile InstanceManager _jsp_instancemanager;
+│ │      
+│ │      static {
+│ │          _jspxFactory = JspFactory.getDefaultFactory();
+│ │ -        (provenance_002dcontent_jsp._jspx_dependants = new HashMap<String, Long>(2)).put("file:/Users/jwitt/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar", Long.valueOf(1664814858283L));
+│ │ -        provenance_002dcontent_jsp._jspx_dependants.put("jar:file:/Users/jwitt/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/META-INF/c.tld", Long.valueOf(1426003870000L));
+│ │          (_jspx_imports_packages = new HashSet<String>()).add("javax.servlet");
+│ │          provenance_002dcontent_jsp._jspx_imports_packages.add("javax.servlet.http");
+│ │          provenance_002dcontent_jsp._jspx_imports_packages.add("javax.servlet.jsp");
+│ │          _jspx_imports_classes = null;
+│ │      }
+│ │      
+│ │      public Map<String, Long> getDependants() {
+...
+├── WEB-INF/classes/org/apache/jsp/WEB_002dINF/partials/provenance/provenance_002dcontent_jsp.java
+│ @@ -1,11 +1,11 @@
+│  /*
+│   * Generated by the Jasper component of Apache Tomcat
+│   * Version: JspC/ApacheTomcat8
+│ - * Generated at: 2023-02-06 18:49:15 UTC
+│ + * Generated at: 2023-02-11 00:02:02 UTC
+│   * Note: The last modified time of this file was set to
+│   *       the last modified time of the source file after
+│ @@ -17,20 +17,14 @@
+│    private static java.util.Map<java.lang.String,java.lang.Long> _jspx_dependants;
+│  
+│ -  static {
+│ -    _jspx_dependants = new java.util.HashMap<java.lang.String,java.lang.Long>(2);
+│ -    _jspx_dependants.put("file:/Users/jwitt/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar", Long.valueOf(1664814858283L));
+│ -    _jspx_dependants.put("jar:file:/Users/jwitt/.m2/repository/org/apache/taglibs/taglibs-standard-impl/1.2.5/taglibs-standard-impl-1.2.5.jar!/META-INF/c.tld", Long.valueOf(1426003870000L));
+│ -  }
+│ -
+│    private static final java.util.Set<java.lang.String> _jspx_imports_packages;
+...
+├── WEB-INF/web.xml
+│ ├── WEB-INF/web.xml
+│ │ @@ -163,762 +163,762 @@
+│ │      <param-name>org.eclipse.jetty.jsp.precompiled</param-name>
+│ │      <param-value>true</param-value>
+│ │    </context-param>
+│ │    <!--
+│ │  Automatically created by Apache Tomcat JspC.
+│ │  -->
+│ │    <servlet>
+│ │ -    <servlet-name>org.apache.jsp.WEB_002dINF.partials.logout.logout_002dmessage_jsp</servlet-name>
+│ │ -    <servlet-class>org.apache.jsp.WEB_002dINF.partials.logout.logout_002dmessage_jsp</servlet-class>
+│ │ -  </servlet>
+│ │ -  <servlet>
+│ │ -    <servlet-name>org.apache.jsp.WEB_002dINF.partials.banners_002dutility_jsp</servlet-name>
+│ │ -    <servlet-class>org.apache.jsp.WEB_002dINF.partials.banners_002dutility_jsp</servlet-class>
+│ │ +    <servlet-name>org.apache.jsp.WEB_002dINF.partials.canvas.verification_002drequest_002dstatus_002ddialog_jsp</servlet-name>
+│ │ +    <servlet-class>org.apache.jsp.WEB_002dINF.partials.canvas.verification_002drequest_002dstatus_002ddialog_jsp</servlet-class>
+│ │    </servlet>
+│ │    <servlet>
+│ │      <servlet-name>org.apache.jsp.WEB_002dINF.partials.cluster.cluster_002dcontent_jsp</servlet-name>
+│ │      <servlet-class>org.apache.jsp.WEB_002dINF.partials.cluster.cluster_002dcontent_jsp</servlet-class>
+│ │    </servlet>
+│ │    <servlet>
+│ │      <servlet-name>org.apache.jsp.WEB_002dINF.partials.cluster.node_002ddetails_002ddialog_jsp</servlet-name>
+│ │      <servlet-class>org.apache.jsp.WEB_002dINF.partials.cluster.node_002ddetails_002ddialog_jsp</servlet-class>
+│ │    </servlet>
+│ │    <servlet>
+...
+│ │    <!--
+│ │  End of content automatically created by Apache Tomcat JspC.
+│ │  -->
+│ │  </web-app>
+
+12 / 55 target/reference/nifi-hadoop-nar-1.20.0.nar nifi-nar-bundles/nifi-hadoop-bundle/nifi-hadoop-nar/target/nifi-hadoop-nar-1.20.0.nar
+--- target/reference/nifi-hadoop-nar-1.20.0.nar
++++ nifi-nar-bundles/nifi-hadoop-bundle/nifi-hadoop-nar/target/nifi-hadoop-nar-1.20.0.nar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 8825604 bytes, number of entries: 36
+│ +Zip file size: 8825602 bytes, number of entries: 36
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/
+│  -rw-r--r--  2.0 unx      444 b- defN 23-Feb-06 18:30 META-INF/MANIFEST.MF
+│ @@ -31,8 +31,8 @@
+│  -rw-r--r--  2.0 unx       66 b- defN 23-Feb-06 18:30 META-INF/maven/org.apache.nifi/nifi-hadoop-nar/pom.properties
+│ -36 files, 10349337 bytes uncompressed, 8819126 bytes compressed:  14.8%
+│ +36 files, 10349337 bytes uncompressed, 8819124 bytes compressed:  14.8%
+├── META-INF/docs/extension-manifest.xml
+│ ├── META-INF/docs/extension-manifest.xml
+│ │ @@ -139,16 +139,16 @@
+│ │            <dynamic>false</dynamic>
+│ │            <resourceDefinition>
+│ │              <cardinality>MULTIPLE</cardinality>
+│ │              <resourceTypes>
+│ │ -              <resourceType>DIRECTORY</resourceType>
+│ │                <resourceType>FILE</resourceType>
+│ │ +              <resourceType>DIRECTORY</resourceType>
+│ │              </resourceTypes>
+│ │            </resourceDefinition>
+│ │          </property>
+│ │ @@ -376,16 +376,16 @@
+│ │            <dynamic>false</dynamic>
+│ │            <resourceDefinition>
+│ │              <cardinality>MULTIPLE</cardinality>
+│ │              <resourceTypes>
+│ │ -              <resourceType>DIRECTORY</resourceType>
+│ │                <resourceType>FILE</resourceType>
+│ │ +              <resourceType>DIRECTORY</resourceType>
+│ │              </resourceTypes>
+│ │            </resourceDefinition>
+│ │          </property>
+...
+
+20 / 55 target/reference/nifi-dbcp-service-nar-1.20.0.nar nifi-nar-bundles/nifi-standard-services/nifi-dbcp-service-bundle/nifi-dbcp-service-nar/target/nifi-dbcp-service-nar-1.20.0.nar
+21 / 55 target/reference/nifi-hbase_1_1_2-client-service-nar-1.20.0.nar nifi-nar-bundles/nifi-standard-services/nifi-hbase_1_1_2-client-service-bundle/nifi-hbase_1_1_2-client-service-nar/target/nifi-hbase_1_1_2-client-service-nar-1.20.0.nar
+22 / 55 target/reference/nifi-hbase_2-client-service-nar-1.20.0.nar nifi-nar-bundles/nifi-standard-services/nifi-hbase_2-client-service-bundle/nifi-hbase_2-client-service-nar/target/nifi-hbase_2-client-service-nar-1.20.0.nar
+23 / 55 target/reference/nifi-record-serialization-services-nar-1.20.0.nar nifi-nar-bundles/nifi-standard-services/nifi-record-serialization-services-bundle/nifi-record-serialization-services-nar/target/nifi-record-serialization-services-nar-1.20.0.nar
+24 / 55 target/reference/nifi-hadoop-dbcp-service-nar-1.20.0.nar nifi-nar-bundles/nifi-standard-services/nifi-hadoop-dbcp-service-bundle/nifi-hadoop-dbcp-service-nar/target/nifi-hadoop-dbcp-service-nar-1.20.0.nar
+26 / 55 target/reference/nifi-aws-nar-1.20.0.nar nifi-nar-bundles/nifi-aws-bundle/nifi-aws-nar/target/nifi-aws-nar-1.20.0.nar
+27 / 55 target/reference/nifi-enrich-nar-1.20.0.nar nifi-nar-bundles/nifi-enrich-bundle/nifi-enrich-nar/target/nifi-enrich-nar-1.20.0.nar
+30 / 55 target/reference/nifi-cdc-mysql-nar-1.20.0.nar nifi-nar-bundles/nifi-cdc/nifi-cdc-mysql-bundle/nifi-cdc-mysql-nar/target/nifi-cdc-mysql-nar-1.20.0.nar
+31 / 55 target/reference/nifi-jolt-record-nar-1.20.0.nar nifi-nar-bundles/nifi-jolt-record-bundle/nifi-jolt-record-nar/target/nifi-jolt-record-nar-1.20.0.nar
+32 / 55 target/reference/nifi-stateless-processor-nar-1.20.0.nar nifi-nar-bundles/nifi-stateless-processor-bundle/nifi-stateless-processor-nar/target/nifi-stateless-processor-nar-1.20.0.nar
+
+13 / 55 target/reference/nifi-standard-processors-1.20.0.jar nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/target/nifi-standard-processors-1.20.0.jar
+--- target/reference/nifi-standard-processors-1.20.0.jar
++++ nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/target/nifi-standard-processors-1.20.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 4964652 bytes, number of entries: 657
+│ +Zip file size: 4964653 bytes, number of entries: 657
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/
+│  -rw-r--r--  2.0 unx      325 b- defN 23-Feb-06 18:30 META-INF/MANIFEST.MF
+│ @@ -69,15 +69,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/maven/org.apache.nifi/nifi-standard-processors/
+│ --rw-r--r--  2.0 unx    31519 b- defN 23-Feb-06 18:30 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    31522 b- defN 23-Feb-06 18:30 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 23-Feb-06 18:30 META-INF/LICENSE
+│ @@ -652,8 +652,8 @@
+│  -rw-r--r--  2.0 unx       75 b- defN 23-Feb-06 18:30 META-INF/maven/org.apache.nifi/nifi-standard-processors/pom.properties
+│ -657 files, 8124311 bytes uncompressed, 4831640 bytes compressed:  40.5%
+│ +657 files, 8124314 bytes uncompressed, 4831641 bytes compressed:  40.5%
+├── META-INF/DEPENDENCIES
+│ @@ -9,15 +9,15 @@
+│  From: 'an unknown organization'
+│    - BCrypt Password Hashing Function (https://github.com/patrickfav/bcrypt/modules/bcrypt) at.favre.lib:bcrypt:bundle:0.9.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Bytes Utility Library (https://github.com/patrickfav/bytes-java) at.favre.lib:bytes:bundle:1.3.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - brotli4j (https://github.com/hyperxpro/Brotli4j/brotli4j) com.aayushatharva.brotli4j:brotli4j:jar:1.8.0
+│      License: Apache License 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ -  - native-osx-aarch64 (https://github.com/hyperxpro/Brotli4j/natives/native-osx-aarch64) com.aayushatharva.brotli4j:native-osx-aarch64:jar:1.8.0
+│ +  - native-linux-x86_64 (https://github.com/hyperxpro/Brotli4j/natives/native-linux-x86_64) com.aayushatharva.brotli4j:native-linux-x86_64:jar:1.8.0
+│      License: Apache License 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│    - Jolt Core (http://nexus.sonatype.org/oss-repository-hosting.html/bv-opensource-super-pom/jolt-parent/jolt-core) com.bazaarvoice.jolt:jolt-core:jar:0.1.7
+│  
+│    - Jolt Json Utils (http://nexus.sonatype.org/oss-repository-hosting.html/bv-opensource-super-pom/jolt-parent/json-utils) com.bazaarvoice.jolt:json-utils:jar:0.1.7
+│  
+│    - Internet Time Utility (https://github.com/ethlo/itu) com.ethlo.time:itu:jar:1.7.0
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+14 / 55 target/reference/nifi-standard-processors-1.20.0-sources.jar nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/target/nifi-standard-processors-1.20.0-sources.jar
+15 / 55 target/reference/nifi-standard-processors-1.20.0-tests.jar nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/target/nifi-standard-processors-1.20.0-tests.jar
+16 / 55 target/reference/nifi-standard-parameter-providers-1.20.0.jar nifi-nar-bundles/nifi-standard-bundle/nifi-standard-parameter-providers/target/nifi-standard-parameter-providers-1.20.0.jar
+17 / 55 target/reference/nifi-standard-parameter-providers-1.20.0-sources.jar nifi-nar-bundles/nifi-standard-bundle/nifi-standard-parameter-providers/target/nifi-standard-parameter-providers-1.20.0-sources.jar
+18 / 55 target/reference/nifi-standard-nar-1.20.0.nar nifi-nar-bundles/nifi-standard-bundle/nifi-standard-nar/target/nifi-standard-nar-1.20.0.nar
+19 / 55 target/reference/nifi-standard-nar-1.20.0-sources.jar nifi-nar-bundles/nifi-standard-bundle/nifi-standard-nar/target/nifi-standard-nar-1.20.0-sources.jar
+
+
+25 / 55 target/reference/nifi-kudu-nar-1.20.0.nar nifi-nar-bundles/nifi-kudu-bundle/nifi-kudu-nar/target/nifi-kudu-nar-1.20.0.nar
+--- target/reference/nifi-kudu-nar-1.20.0.nar
++++ nifi-nar-bundles/nifi-kudu-bundle/nifi-kudu-nar/target/nifi-kudu-nar-1.20.0.nar
+├── META-INF/docs/extension-manifest.xml
+│ ├── META-INF/docs/extension-manifest.xml
+│ │ @@ -322,15 +322,15 @@
+│ │            <dynamicallyModifiesClasspath>false</dynamicallyModifiesClasspath>
+│ │            <dynamic>false</dynamic>
+│ │          </property>
+│ │          <property>
+│ │            <name>worker-count</name>
+│ │            <displayName>Kudu Client Worker Count</displayName>
+│ │            <description>The maximum number of worker threads handling Kudu client read and write operations. Defaults to the number of available processors.</description>
+│ │ -          <defaultValue>10</defaultValue>
+│ │ +          <defaultValue>24</defaultValue>
+│ │            <required>true</required>
+│ │            <sensitive>false</sensitive>
+│ │            <expressionLanguageSupported>false</expressionLanguageSupported>
+│ │            <expressionLanguageScope>NONE</expressionLanguageScope>
+│ │            <dynamicallyModifiesClasspath>false</dynamicallyModifiesClasspath>
+│ │            <dynamic>false</dynamic>
+│ │          </property>
+
+
+28 / 55 target/reference/nifi-elasticsearch-nar-1.20.0.nar nifi-nar-bundles/nifi-elasticsearch-bundle/nifi-elasticsearch-nar/target/nifi-elasticsearch-nar-1.20.0.nar
+--- target/reference/nifi-elasticsearch-nar-1.20.0.nar
++++ nifi-nar-bundles/nifi-elasticsearch-bundle/nifi-elasticsearch-nar/target/nifi-elasticsearch-nar-1.20.0.nar
+├── META-INF/docs/extension-manifest.xml
+│ ├── META-INF/docs/extension-manifest.xml
+│ │ @@ -118,15 +118,15 @@
+│ │            <expressionLanguageScope>VARIABLE_REGISTRY</expressionLanguageScope>
+│ │            <dynamicallyModifiesClasspath>false</dynamicallyModifiesClasspath>
+│ │            <dynamic>false</dynamic>
+│ │          </property>
+│ │          <property>
+│ │            <name>proxy-configuration-service</name>
+│ │            <displayName>Proxy Configuration Service</displayName>
+│ │ -          <description>Specifies the Proxy Configuration Controller Service to proxy network requests. If set, it supersedes proxy settings configured per component. Supported proxies: SOCKS, HTTP + AuthN In case of SOCKS, it is not guaranteed that the selected SOCKS Version will be used by the processor.</description>
+│ │ +          <description>Specifies the Proxy Configuration Controller Service to proxy network requests. If set, it supersedes proxy settings configured per component. Supported proxies: HTTP + AuthN, SOCKS In case of SOCKS, it is not guaranteed that the selected SOCKS Version will be used by the processor.</description>
+│ │            <controllerServiceDefinition>
+│ │              <className>org.apache.nifi.proxy.ProxyConfigurationService</className>
+│ │              <groupId>org.apache.nifi</groupId>
+│ │              <artifactId>nifi-standard-services-api-nar</artifactId>
+│ │              <version>1.20.0</version>
+│ │            </controllerServiceDefinition>
+│ │            <required>false</required>
+│ │ @@ -380,15 +380,15 @@
+│ │            <expressionLanguageScope>VARIABLE_REGISTRY</expressionLanguageScope>
+│ │            <dynamicallyModifiesClasspath>false</dynamicallyModifiesClasspath>
+│ │            <dynamic>false</dynamic>
+│ │          </property>
+│ │          <property>
+│ │            <name>proxy-configuration-service</name>
+│ │            <displayName>Proxy Configuration Service</displayName>
+│ │ -          <description>Specifies the Proxy Configuration Controller Service to proxy network requests. If set, it supersedes proxy settings configured per component. Supported proxies: SOCKS, HTTP + AuthN In case of SOCKS, it is not guaranteed that the selected SOCKS Version will be used by the processor.</description>
+│ │ +          <description>Specifies the Proxy Configuration Controller Service to proxy network requests. If set, it supersedes proxy settings configured per component. Supported proxies: HTTP + AuthN, SOCKS In case of SOCKS, it is not guaranteed that the selected SOCKS Version will be used by the processor.</description>
+│ │            <controllerServiceDefinition>
+│ │              <className>org.apache.nifi.proxy.ProxyConfigurationService</className>
+│ │              <groupId>org.apache.nifi</groupId>
+│ │              <artifactId>nifi-standard-services-api-nar</artifactId>
+│ │              <version>1.20.0</version>
+│ │            </controllerServiceDefinition>
+│ │            <required>false</required>
+...
+
+29 / 55 target/reference/nifi-hive3-nar-1.20.0.nar nifi-nar-bundles/nifi-hive-bundle/nifi-hive3-nar/target/nifi-hive3-nar-1.20.0.nar
+├── META-INF/docs/extension-manifest.xml
+│ ├── META-INF/docs/extension-manifest.xml
+│ │ @@ -1812,22 +1812,22 @@
+│ │          <providedServiceAPI>
+│ │            <className>org.apache.nifi.dbcp.hive.HiveDBCPService</className>
+│ │            <groupId>org.apache.nifi</groupId>
+│ │            <artifactId>nifi-hive-services-api-nar</artifactId>
+│ │            <version>1.20.0</version>
+│ │          </providedServiceAPI>
+│ │          <providedServiceAPI>
+│ │ -          <className>org.apache.nifi.dbcp.DBCPService</className>
+│ │ +          <className>org.apache.nifi.dbcp.hive.Hive3DBCPService</className>
+│ │            <groupId>org.apache.nifi</groupId>
+│ │ -          <artifactId>nifi-standard-services-api-nar</artifactId>
+│ │ +          <artifactId>nifi-hive-services-api-nar</artifactId>
+│ │            <version>1.20.0</version>
+│ │          </providedServiceAPI>
+│ │          <providedServiceAPI>
+│ │ -          <className>org.apache.nifi.dbcp.hive.Hive3DBCPService</className>
+│ │ +          <className>org.apache.nifi.dbcp.DBCPService</className>
+│ │            <groupId>org.apache.nifi</groupId>
+│ │ -          <artifactId>nifi-hive-services-api-nar</artifactId>
+│ │ +          <artifactId>nifi-standard-services-api-nar</artifactId>
+│ │            <version>1.20.0</version>
+│ │          </providedServiceAPI>
+│ │        </providedServiceAPIs>
+│ │      </extension>
+│ │    </extensions>
+│ │  </extensionManifest>
+
+34 / 55 target/reference/nifi-docs-1.20.0-resources.zip nifi-docs/target/nifi-docs-1.20.0-resources.zip
+--- target/reference/nifi-docs-1.20.0-resources.zip
++++ nifi-docs/target/nifi-docs-1.20.0-resources.zip
+...
+├── html/expression-language-guide.html
+│ @@ -5061,12 +5061,12 @@
+│  </table>
+│  </div>
+│  </div>
+│  </div>
+│  </div>
+│  <div id="footer">
+│  <div id="footer-text">
+│ -Last updated 2023-02-06 12:12:34 -0700
+│ +Last updated 2023-02-11 01:14:43 +0100
+│  </div>
+│  </div>
+│  </body>
+│  </html>
+
+39 / 55 target/reference/dockermaven-1.20.0.pom nifi-docker/dockermaven/pom.xml
+--- target/reference/dockermaven-1.20.0.pom
++++ nifi-docker/dockermaven/pom.xml
+│   --- target/reference/dockermaven-1.20.0.pom
+├── +++ nifi-docker/dockermaven/pom.xml
+│ @@ -8,54 +8,102 @@
+│      by applicable law or agreed to in writing, software distributed under the
+│      License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS
+│      OF ANY KIND, either express or implied. See the License for the specific
+│      language governing permissions and limitations under the License. -->
+│  <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+│    <modelVersion>4.0.0</modelVersion>
+│    <parent>
+│ -    <artifactId>nifi-registry-docker-maven</artifactId>
+│ -    <groupId>org.apache.nifi.registry</groupId>
+│ +    <groupId>org.apache.nifi</groupId>
+│ +    <artifactId>nifi-docker</artifactId>
+│      <version>1.20.0</version>
+│    </parent>
+│    <artifactId>dockermaven</artifactId>
+│    <profiles>
+│      <profile>
+│        <id>docker</id>
+│ +      <dependencies>
+│ +        <dependency>
+│ +          <groupId>javax.activation</groupId>
+│ +          <artifactId>activation</artifactId>
+│ +          <version>1.1.1</version>
+│ +        </dependency>
+│ +      </dependencies>
+│        <build>
+│          <plugins>
+│            <plugin>
+│              <groupId>com.spotify</groupId>
+│              <artifactId>dockerfile-maven-plugin</artifactId>
+│              <executions>
+│                <execution>
+│ +                <id>default</id>
+│ +                <goals>
+│ +                  <goal>build</goal>
+│ +                </goals>
+│                  <configuration>
+│                    <buildArgs>
+│ +                    <IMAGE_NAME>${docker.image.name}</IMAGE_NAME>
+│ +                    <IMAGE_TAG>${docker.image.tag}</IMAGE_TAG>
+│ +                    <MAINTAINER>${docker.maintainer}</MAINTAINER>
+│                      <UID>1000</UID>
+│                      <GID>1000</GID>
+│ -                    <NIFI_REGISTRY_VERSION>${project.version}</NIFI_REGISTRY_VERSION>
+│ -                    <NIFI_REGISTRY_BINARY>target/nifi-registry-${project.version}-bin.zip</NIFI_REGISTRY_BINARY>
+│ +                    <NIFI_VERSION>${project.version}</NIFI_VERSION>
+│ +                    <NIFI_BINARY>target/nifi-${nifi.version}-bin.zip</NIFI_BINARY>
+│ +                    <NIFI_TOOLKIT_BINARY>target/nifi-toolkit-${nifi.version}-bin.zip</NIFI_TOOLKIT_BINARY>
+│ +                    <NIFI_SCRIPTS>target/sh</NIFI_SCRIPTS>
+│                    </buildArgs>
+│ -                  <repository>apache/nifi-registry</repository>
+│ +                  <repository>apache/nifi</repository>
+│                    <tag>${project.version}-dockermaven</tag>
+│                  </configuration>
+│                </execution>
+│              </executions>
+│            </plugin>
+│ -          <!-- Copy generated artifacts -->
+│ +          <!-- Copy generated artifact to nifi-docker -->
+│            <plugin>
+│              <artifactId>maven-antrun-plugin</artifactId>
+│ -            <version>1.8</version>
+│ +            <version>3.0.0</version>
+│              <executions>
+│                <execution>
+│ -                <id>copy-for-docker</id>
+│ +                <id>copy-scripts-for-docker</id>
+│ +                <phase>process-sources</phase>
+│ +                <configuration>
+│ +                  <target name="copy docker scripts to nifi-docker for image build">
+│ +                    <copy todir="${project.basedir}/target/sh" overwrite="true" flatten="true">
+│ +                      <fileset dir="${project.basedir}/../dockerhub/sh" includes="*.sh">
+│ +                        <include name="*.sh"/>
+│ +                      </fileset>
+│ +                    </copy>
+│ +                  </target>
+│ +                </configuration>
+│ +                <goals>
+│ +                  <goal>run</goal>
+│ +                </goals>
+│ +              </execution>
+│ +              <execution>
+│ +                <id>copy-nifi-assembly-for-docker</id>
+│ +                <phase>process-sources</phase>
+│ +                <configuration>
+│ +                  <target name="copy assembly to nifi-docker for image build">
+│ +                    <copy todir="${project.basedir}/target" overwrite="true" flatten="true">
+│ +                      <fileset dir="${project.basedir}/../../nifi-assembly/target" includes="*.zip">
+│ +                        <include name="*.zip"/>
+│ +                      </fileset>
+│ +                    </copy>
+│ +                  </target>
+│ +                </configuration>
+│ +                <goals>
+│ +                  <goal>run</goal>
+│ +                </goals>
+│ +              </execution>
+│ +              <execution>
+│ +                <id>copy-nifi-toolkit-assembly-for-docker</id>
+│                  <phase>process-sources</phase>
+│                  <configuration>
+│ -                  <target name="copy assembly to nifi-registry-docker for image build">
+│ +                  <target name="copy toolkit assembly to nifi-docker for image build">
+│                      <copy todir="${project.basedir}/target" overwrite="true" flatten="true">
+│ -                      <fileset dir="${project.basedir}/../../nifi-registry-assembly/target" includes="*.zip">
+│ +                      <fileset dir="${project.basedir}/../../nifi-toolkit/nifi-toolkit-assembly/target" includes="*.zip">
+│                          <include name="*.zip"/>
+│                        </fileset>
+│                      </copy>
+│                    </target>
+│                  </configuration>
+│                  <goals>
+│                    <goal>run</goal>
+│ @@ -70,22 +118,66 @@
+│                <execution>
+│                  <id>Docker integration tests</id>
+│                  <phase>integration-test</phase>
+│                  <goals>
+│                    <goal>exec</goal>
+│                  </goals>
+│                  <configuration>
+│ -                  <skip>${skipTests}</skip>
+│                    <arguments>
+│                      <argument>${project.version}-dockermaven</argument>
+│                      <argument>${project.version}</argument>
+│                    </arguments>
+│                    <executable>${project.basedir}/integration-test.sh</executable>
+│                  </configuration>
+│                </execution>
+│              </executions>
+│            </plugin>
+│          </plugins>
+│        </build>
+│      </profile>
+│ +    <profile>
+│ +      <id>docker-skip-tests</id>
+│ +      <activation>
+│ +        <property>
+│ +          <name>skipTests</name>
+│ +        </property>
+│ +      </activation>
+│ +      <build>
+│ +        <plugins>
+│ +          <plugin>
+│ +            <artifactId>exec-maven-plugin</artifactId>
+│ +            <groupId>org.codehaus.mojo</groupId>
+│ +            <executions>
+│ +              <execution>
+│ +                <id>Docker integration tests</id>
+│ +                <phase>none</phase>
+│ +              </execution>
+│ +            </executions>
+│ +          </plugin>
+│ +        </plugins>
+│ +      </build>
+│ +    </profile>
+│ +    <profile>
+│ +      <id>docker-test-skip-test</id>
+│ +      <activation>
+│ +        <property>
+│ +          <name>maven.test.skip</name>
+│ +          <value>true</value>
+│ +        </property>
+│ +      </activation>
+│ +      <build>
+│ +        <plugins>
+│ +          <plugin>
+│ +            <artifactId>exec-maven-plugin</artifactId>
+│ +            <groupId>org.codehaus.mojo</groupId>
+│ +            <executions>
+│ +              <execution>
+│ +                <id>Docker integration tests</id>
+│ +                <phase>none</phase>
+│ +              </execution>
+│ +            </executions>
+│ +          </plugin>
+│ +        </plugins>
+│ +      </build>
+│ +    </profile>
+│    </profiles>
+│  </project>
+
+40 / 55 target/reference/dockermaven-1.20.0.jar nifi-docker/dockermaven/target/dockermaven-1.20.0.jar
+--- target/reference/dockermaven-1.20.0.jar
++++ nifi-docker/dockermaven/target/dockermaven-1.20.0.jar
+├── zipinfo {}
+│ @@ -1,12 +1,12 @@
+│ -Zip file size: 7116 bytes, number of entries: 10
+│ +Zip file size: 7365 bytes, number of entries: 10
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/
+│  -rw-r--r--  2.0 unx      299 b- defN 23-Feb-06 18:30 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/maven/org.apache.nifi.registry/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/maven/org.apache.nifi.registry/dockermaven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/maven/org.apache.nifi/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/maven/org.apache.nifi/dockermaven/
+│  -rw-r--r--  2.0 unx      261 b- defN 23-Feb-06 18:30 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 23-Feb-06 18:30 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      152 b- defN 23-Feb-06 18:30 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx     4989 b- defN 23-Feb-06 18:30 META-INF/maven/org.apache.nifi.registry/dockermaven/pom.xml
+│ --rw-r--r--  2.0 unx       71 b- defN 23-Feb-06 18:30 META-INF/maven/org.apache.nifi.registry/dockermaven/pom.properties
+│ -10 files, 17130 bytes uncompressed, 5708 bytes compressed:  66.7%
+│ +-rw-r--r--  2.0 unx     9412 b- defN 23-Feb-06 18:30 META-INF/maven/org.apache.nifi/dockermaven/pom.xml
+│ +-rw-r--r--  2.0 unx       62 b- defN 23-Feb-06 18:30 META-INF/maven/org.apache.nifi/dockermaven/pom.properties
+│ +10 files, 21544 bytes uncompressed, 6029 bytes compressed:  72.0%
+├── zipnote «TEMP»/diffoscope_3mllmwp7_target/tmpyasegi1o_.zip
+│ @@ -3,29 +3,29 @@
+│  
+│  Filename: META-INF/MANIFEST.MF
+│  Comment: 
+│  
+│  Filename: META-INF/maven/
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/org.apache.nifi.registry/
+│ +Filename: META-INF/maven/org.apache.nifi/
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/org.apache.nifi.registry/dockermaven/
+│ +Filename: META-INF/maven/org.apache.nifi/dockermaven/
+│  Comment: 
+│  
+│  Filename: META-INF/DEPENDENCIES
+│  Comment: 
+│  
+│  Filename: META-INF/LICENSE
+│  Comment: 
+│  
+│  Filename: META-INF/NOTICE
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/org.apache.nifi.registry/dockermaven/pom.xml
+│ +Filename: META-INF/maven/org.apache.nifi/dockermaven/pom.xml
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/org.apache.nifi.registry/dockermaven/pom.properties
+│ +Filename: META-INF/maven/org.apache.nifi/dockermaven/pom.properties
+│  Comment: 
+│  
+│  Zip file comment:
+
+41 / 55 target/reference/dockermaven-1.20.0-sources.jar nifi-docker/dockermaven/target/dockermaven-1.20.0-sources.jar
+--- target/reference/dockermaven-1.20.0-sources.jar
++++ nifi-docker/dockermaven/target/dockermaven-1.20.0-sources.jar
+├── zipinfo {}
+│ @@ -1,12 +1,12 @@
+│ -Zip file size: 7024 bytes, number of entries: 10
+│ +Zip file size: 7273 bytes, number of entries: 10
+│  -rw-r--r--  2.0 unx       64 b- defN 23-Feb-06 18:30 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/maven/org.apache.nifi.registry/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/maven/org.apache.nifi.registry/dockermaven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/maven/org.apache.nifi/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/maven/org.apache.nifi/dockermaven/
+│  -rw-r--r--  2.0 unx      261 b- defN 23-Feb-06 18:30 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 23-Feb-06 18:30 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      152 b- defN 23-Feb-06 18:30 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx     4989 b- defN 23-Feb-06 18:30 META-INF/maven/org.apache.nifi.registry/dockermaven/pom.xml
+│ --rw-r--r--  2.0 unx       71 b- defN 23-Feb-06 18:30 META-INF/maven/org.apache.nifi.registry/dockermaven/pom.properties
+│ -10 files, 16895 bytes uncompressed, 5616 bytes compressed:  66.8%
+│ +-rw-r--r--  2.0 unx     9412 b- defN 23-Feb-06 18:30 META-INF/maven/org.apache.nifi/dockermaven/pom.xml
+│ +-rw-r--r--  2.0 unx       62 b- defN 23-Feb-06 18:30 META-INF/maven/org.apache.nifi/dockermaven/pom.properties
+│ +10 files, 21309 bytes uncompressed, 5937 bytes compressed:  72.1%
+├── zipnote «TEMP»/diffoscope_4wi8hfnd_target/tmpadn6klel_.zip
+│ @@ -3,29 +3,29 @@
+│  
+│  Filename: META-INF/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/org.apache.nifi.registry/
+│ +Filename: META-INF/maven/org.apache.nifi/
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/org.apache.nifi.registry/dockermaven/
+│ +Filename: META-INF/maven/org.apache.nifi/dockermaven/
+│  Comment: 
+│  
+│  Filename: META-INF/DEPENDENCIES
+│  Comment: 
+│  
+│  Filename: META-INF/LICENSE
+│  Comment: 
+│  
+│  Filename: META-INF/NOTICE
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/org.apache.nifi.registry/dockermaven/pom.xml
+│ +Filename: META-INF/maven/org.apache.nifi/dockermaven/pom.xml
+│  Comment: 
+│  
+│ -Filename: META-INF/maven/org.apache.nifi.registry/dockermaven/pom.properties
+│ +Filename: META-INF/maven/org.apache.nifi/dockermaven/pom.properties
+│  Comment: 
+│  
+│  Zip file comment:
+
+45 / 55 target/reference/nifi-registry-framework-1.20.0.jar nifi-registry/nifi-registry-core/nifi-registry-framework/target/nifi-registry-framework-1.20.0.jar
+--- target/reference/nifi-registry-framework-1.20.0.jar
++++ nifi-registry/nifi-registry-core/nifi-registry-framework/target/nifi-registry-framework-1.20.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 530658 bytes, number of entries: 366
+│ +Zip file size: 530657 bytes, number of entries: 366
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/
+│  -rw-r--r--  2.0 unx      323 b- defN 23-Feb-06 18:30 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/JAXB/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 db/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 db/migration/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 db/migration/default/
+│ @@ -361,8 +361,8 @@
+│  -rw-r--r--  2.0 unx     1119 b- defN 23-Feb-06 18:30 org/apache/nifi/registry/url/aliaser/generated/Alias.class
+│  -rw-r--r--  2.0 unx     1033 b- defN 23-Feb-06 18:30 org/apache/nifi/registry/url/aliaser/generated/Aliases.class
+│  -rw-r--r--  2.0 unx      850 b- defN 23-Feb-06 18:30 org/apache/nifi/registry/url/aliaser/generated/ObjectFactory.class
+│  -rw-r--r--  2.0 unx     2158 b- defN 23-Feb-06 18:30 providers.xsd
+│  -rw-r--r--  2.0 unx     3638 b- defN 23-Feb-06 18:30 tenants.xsd
+│  -rw-r--r--  2.0 unx    20200 b- defN 23-Feb-06 18:30 META-INF/maven/org.apache.nifi.registry/nifi-registry-framework/pom.xml
+│  -rw-r--r--  2.0 unx       83 b- defN 23-Feb-06 18:30 META-INF/maven/org.apache.nifi.registry/nifi-registry-framework/pom.properties
+│ -366 files, 1250623 bytes uncompressed, 456196 bytes compressed:  63.5%
+│ +366 files, 1250623 bytes uncompressed, 456195 bytes compressed:  63.5%
+├── META-INF/JAXB/episode_aliases.xjb
+│ ├── META-INF/JAXB/episode_aliases.xjb
+│ │ @@ -1,15 +1,15 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" version="2.1">
+│ │    <!--
+│ │  
+│ │  This file was generated by the JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.3.2 
+│ │  See <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+│ │  Any modifications to this file will be lost upon recompilation of the source schema. 
+│ │ -Generated on: 2023.02.06 at 12:17:02 PM MST 
+│ │ +Generated on: 2023.02.11 at 01:16:50 AM CET 
+│ │  
+│ │    -->
+│ │    <jaxb:bindings scd="x-schema::">
+│ │      <jaxb:schemaBindings map="false">
+│ │        <jaxb:package name="org.apache.nifi.registry.url.aliaser.generated"/>
+│ │      </jaxb:schemaBindings>
+│ │      <jaxb:bindings scd="aliases">
+├── META-INF/JAXB/episode_authorizations.xjb
+│ ├── META-INF/JAXB/episode_authorizations.xjb
+│ │ @@ -1,15 +1,15 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" version="2.1">
+│ │    <!--
+│ │  
+│ │  This file was generated by the JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.3.2 
+│ │  See <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+│ │  Any modifications to this file will be lost upon recompilation of the source schema. 
+│ │ -Generated on: 2023.02.06 at 12:17:02 PM MST 
+│ │ +Generated on: 2023.02.11 at 01:16:50 AM CET 
+│ │  
+│ │    -->
+│ │    <jaxb:bindings scd="x-schema::">
+│ │      <jaxb:schemaBindings map="false">
+│ │        <jaxb:package name="org.apache.nifi.registry.security.authorization.file.generated"/>
+│ │      </jaxb:schemaBindings>
+│ │      <jaxb:bindings scd="~Policy">
+├── META-INF/JAXB/episode_authorizers.xjb
+│ ├── META-INF/JAXB/episode_authorizers.xjb
+│ │ @@ -1,15 +1,15 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" version="2.1">
+│ │    <!--
+│ │  
+│ │  This file was generated by the JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.3.2 
+│ │  See <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+│ │  Any modifications to this file will be lost upon recompilation of the source schema. 
+│ │ -Generated on: 2023.02.06 at 12:17:02 PM MST 
+│ │ +Generated on: 2023.02.11 at 01:16:50 AM CET 
+│ │  
+│ │    -->
+│ │    <jaxb:bindings scd="x-schema::">
+│ │      <jaxb:schemaBindings map="false">
+│ │        <jaxb:package name="org.apache.nifi.registry.security.authorization.generated"/>
+│ │      </jaxb:schemaBindings>
+│ │      <jaxb:bindings scd="authorizers">
+├── META-INF/JAXB/episode_identity-providers.xjb
+│ ├── META-INF/JAXB/episode_identity-providers.xjb
+│ │ @@ -1,15 +1,15 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" version="2.1">
+│ │    <!--
+│ │  
+│ │  This file was generated by the JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.3.2 
+│ │  See <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+│ │  Any modifications to this file will be lost upon recompilation of the source schema. 
+│ │ -Generated on: 2023.02.06 at 12:17:03 PM MST 
+│ │ +Generated on: 2023.02.11 at 01:16:50 AM CET 
+│ │  
+│ │    -->
+│ │    <jaxb:bindings scd="x-schema::">
+│ │      <jaxb:schemaBindings map="false">
+│ │        <jaxb:package name="org.apache.nifi.registry.security.authentication.generated"/>
+│ │      </jaxb:schemaBindings>
+│ │      <jaxb:bindings scd="identityProviders">
+├── META-INF/JAXB/episode_providers.xjb
+│ ├── META-INF/JAXB/episode_providers.xjb
+│ │ @@ -1,15 +1,15 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" version="2.1">
+│ │    <!--
+│ │  
+│ │  This file was generated by the JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.3.2 
+│ │  See <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+│ │  Any modifications to this file will be lost upon recompilation of the source schema. 
+│ │ -Generated on: 2023.02.06 at 12:17:02 PM MST 
+│ │ +Generated on: 2023.02.11 at 01:16:50 AM CET 
+│ │  
+│ │    -->
+│ │    <jaxb:bindings scd="x-schema::">
+│ │      <jaxb:schemaBindings map="false">
+│ │        <jaxb:package name="org.apache.nifi.registry.provider.generated"/>
+│ │      </jaxb:schemaBindings>
+│ │      <jaxb:bindings scd="providers">
+├── META-INF/JAXB/episode_tenants.xjb
+│ ├── META-INF/JAXB/episode_tenants.xjb
+│ │ @@ -1,15 +1,15 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <jaxb:bindings xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" version="2.1">
+│ │    <!--
+│ │  
+│ │  This file was generated by the JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.3.2 
+│ │  See <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+│ │  Any modifications to this file will be lost upon recompilation of the source schema. 
+│ │ -Generated on: 2023.02.06 at 12:17:03 PM MST 
+│ │ +Generated on: 2023.02.11 at 01:16:50 AM CET 
+│ │  
+│ │    -->
+│ │    <jaxb:bindings scd="x-schema::">
+│ │      <jaxb:schemaBindings map="false">
+│ │        <jaxb:package name="org.apache.nifi.registry.security.authorization.file.tenants.generated"/>
+│ │      </jaxb:schemaBindings>
+│ │      <jaxb:bindings scd="~Group">
+
+46 / 55 target/reference/nifi-registry-framework-1.20.0-sources.jar nifi-registry/nifi-registry-core/nifi-registry-framework/target/nifi-registry-framework-1.20.0-sources.jar
+47 / 55 target/reference/nifi-registry-web-api-1.20.0.war nifi-registry/nifi-registry-core/nifi-registry-web-api/target/nifi-registry-web-api-1.20.0.war
+
+48 / 55 target/reference/nifi-registry-web-ui-1.20.0.war nifi-registry/nifi-registry-core/nifi-registry-web-ui/target/nifi-registry-web-ui-1.20.0.war
+--- target/reference/nifi-registry-web-ui-1.20.0.war
++++ nifi-registry/nifi-registry-core/nifi-registry-web-ui/target/nifi-registry-web-ui-1.20.0.war
+├── zipinfo {}
+│ @@ -42,16 +42,16 @@
+│  -rw-r--r--  2.0 unx   165548 b- defN 23-Feb-06 18:30 assets/fonts/fontawesome-webfont.ttf
+│  -rw-r--r--  2.0 unx    98024 b- defN 23-Feb-06 18:30 assets/fonts/fontawesome-webfont.woff
+│  -rw-r--r--  2.0 unx    77160 b- defN 23-Feb-06 18:30 assets/fonts/fontawesome-webfont.woff2
+│  -rw-r--r--  2.0 unx     2467 b- defN 23-Feb-06 18:30 assets/images/registry-background-logo.svg
+│  -rw-r--r--  2.0 unx     2365 b- defN 23-Feb-06 18:30 assets/images/registry-logo-web-app.svg
+│  -rw-r--r--  2.0 unx     1550 b- defN 23-Feb-06 18:30 index.html
+│  -rw-r--r--  2.0 unx     8098 b- defN 23-Feb-06 18:30 locale/messages.es.xlf
+│ --rw-r--r--  2.0 unx   252218 b- defN 23-Feb-06 18:30 nf-registry.bundle.min.b92be44820e9abf7f74a.js
+│ --rw-r--r--  2.0 unx    29720 b- defN 23-Feb-06 18:30 nf-registry.bundle.min.b92be44820e9abf7f74a.js.gz
+│ +-rw-r--r--  2.0 unx   252218 b- defN 23-Feb-06 18:30 nf-registry.bundle.min.cb9304d1aaf474382074.js
+│ +-rw-r--r--  2.0 unx    29720 b- defN 23-Feb-06 18:30 nf-registry.bundle.min.cb9304d1aaf474382074.js.gz
+│  -rw-r--r--  2.0 unx   345928 b- defN 23-Feb-06 18:30 nf-registry.style.min.f3149dda93b2e7181d22.css
+│  -rw-r--r--  2.0 unx    47407 b- defN 23-Feb-06 18:30 nf-registry.style.min.f3149dda93b2e7181d22.css.gz
+│  -rw-r--r--  2.0 unx     1030 b- defN 23-Feb-06 18:30 node_modules/@covalent/core/README.md
+│  -rw-r--r--  2.0 unx   418015 b- defN 23-Feb-06 18:30 node_modules/@covalent/core/common/platform.css
+│  -rw-r--r--  2.0 unx    60840 b- defN 23-Feb-06 18:30 node_modules/@covalent/core/common/styles/font/MaterialIcons-Regular-v48.woff2
+│  -rw-r--r--  2.0 unx     6361 b- defN 23-Feb-06 18:30 node_modules/@nifi-fds/core/README.md
+│  -rw-r--r--  2.0 unx     5316 b- defN 23-Feb-06 18:30 node_modules/font-awesome/README.md
+├── zipnote «TEMP»/diffoscope_k9yqvglv_target/tmp6xuc8ton_.zip
+│ @@ -135,18 +135,18 @@
+│  
+│  Filename: index.html
+│  Comment: 
+│  
+│  Filename: locale/messages.es.xlf
+│  Comment: 
+│  
+│ -Filename: nf-registry.bundle.min.b92be44820e9abf7f74a.js
+│ +Filename: nf-registry.bundle.min.cb9304d1aaf474382074.js
+│  Comment: 
+│  
+│ -Filename: nf-registry.bundle.min.b92be44820e9abf7f74a.js.gz
+│ +Filename: nf-registry.bundle.min.cb9304d1aaf474382074.js.gz
+│  Comment: 
+│  
+│  Filename: nf-registry.style.min.f3149dda93b2e7181d22.css
+│  Comment: 
+│  
+│  Filename: nf-registry.style.min.f3149dda93b2e7181d22.css.gz
+│  Comment:
+├── index.html
+│ @@ -23,9 +23,9 @@
+│      <meta name='viewport' content='width=device-width, initial-scale=1'>
+│      <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'/>
+│      <!-- Styles will be injected here by webpack -->
+│  <link rel="shortcut icon" href="registry-favicon.png"><link href="nf-registry.style.min.f3149dda93b2e7181d22.css" rel="stylesheet"></head>
+│  <body>
+│      <nf-registry-app></nf-registry-app>
+│      <!-- Scripts will be injected here by webpack -->
+│ -<script type="text/javascript" src="vendor.min.28beb2fc6b8c40e5cd64.js"></script><script type="text/javascript" src="nf-registry.bundle.min.b92be44820e9abf7f74a.js"></script></body>
+│ +<script type="text/javascript" src="vendor.min.28beb2fc6b8c40e5cd64.js"></script><script type="text/javascript" src="nf-registry.bundle.min.cb9304d1aaf474382074.js"></script></body>
+│  </html>
+├── nf-registry.style.min.f3149dda93b2e7181d22.css.gz
+│ ├── filetype from file(1)
+│ │ @@ -1 +1 @@
+│ │ -gzip compressed data, max compression
+│ │ +gzip compressed data, max compression, from Unix
+├── vendor.min.28beb2fc6b8c40e5cd64.js.gz
+│ ├── filetype from file(1)
+│ │ @@ -1 +1 @@
+│ │ -gzip compressed data, max compression
+│ │ +gzip compressed data, max compression, from Unix
+│   --- nf-registry.bundle.min.b92be44820e9abf7f74a.js
+├── +++ nf-registry.bundle.min.cb9304d1aaf474382074.js
+│┄ Files identical despite different names
+│   --- nf-registry.bundle.min.b92be44820e9abf7f74a.js.gz
+├── +++ nf-registry.bundle.min.cb9304d1aaf474382074.js.gz
+│┄ Files 0% similar despite different names
+│ ├── filetype from file(1)
+│ │ @@ -1 +1 @@
+│ │ -gzip compressed data, max compression
+│ │ +gzip compressed data, max compression, from Unix
+
+49 / 55 target/reference/nifi-registry-docs-1.20.0-resources.zip nifi-registry/nifi-registry-core/nifi-registry-docs/target/nifi-registry-docs-1.20.0-resources.zip
+--- target/reference/nifi-registry-docs-1.20.0-resources.zip
++++ nifi-registry/nifi-registry-core/nifi-registry-docs/target/nifi-registry-docs-1.20.0-resources.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 5321163 bytes, number of entries: 95
+│ +Zip file size: 5321164 bytes, number of entries: 95
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 html/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 html/images/
+│  -rw-r--r--  2.0 unx    12910 b- defN 23-Feb-06 18:30 LICENSE
+│  -rw-r--r--  2.0 unx      173 b- defN 23-Feb-06 18:30 NOTICE
+│  -rw-r--r--  2.0 unx   205124 b- defN 23-Feb-06 18:30 html/administration-guide.html
+│  -rw-r--r--  2.0 unx    30518 b- defN 23-Feb-06 18:30 html/asciidoc-mod.css
+│  -rw-r--r--  2.0 unx    48684 b- defN 23-Feb-06 18:30 html/getting-started.html
+│ @@ -90,8 +90,8 @@
+│  -rw-r--r--  2.0 unx    83547 b- defN 23-Feb-06 18:30 html/images/user_nav_name_edit.png
+│  -rw-r--r--  2.0 unx    98657 b- defN 23-Feb-06 18:30 html/images/user_special_privileges.png
+│  -rw-r--r--  2.0 unx    50482 b- defN 23-Feb-06 18:30 html/images/users_filter_by_name.png
+│  -rw-r--r--  2.0 unx    27133 b- defN 23-Feb-06 18:30 html/images/users_non_configurable.png
+│  -rw-r--r--  2.0 unx    59613 b- defN 23-Feb-06 18:30 html/images/users_sort_by_name.png
+│  -rw-r--r--  2.0 unx   554145 b- defN 23-Feb-06 18:30 html/rest-api.html
+│  -rw-r--r--  2.0 unx    73578 b- defN 23-Feb-06 18:30 html/user-guide.html
+│ -95 files, 27440157 bytes uncompressed, 5307535 bytes compressed:  80.7%
+│ +95 files, 27440157 bytes uncompressed, 5307536 bytes compressed:  80.7%
+├── html/getting-started.html
+│ @@ -759,12 +759,12 @@
+│  <p>Many of the members of the NiFi community are also available on Twitter and actively monitor for tweets that mention @apachenifi.</p>
+│  </div>
+│  </div>
+│  </div>
+│  </div>
+│  <div id="footer">
+│  <div id="footer-text">
+│ -Last updated 2023-02-06 12:18:09 -0700
+│ +Last updated 2023-02-11 01:17:42 +0100
+│  </div>
+│  </div>
+│  </body>
+│  </html>
+...
+
+53 / 55 target/reference/nifi-toolkit-api-1.20.0-sources.jar nifi-toolkit/nifi-toolkit-api/target/nifi-toolkit-api-1.20.0-sources.jar
+--- target/reference/nifi-toolkit-api-1.20.0-sources.jar
++++ nifi-toolkit/nifi-toolkit-api/target/nifi-toolkit-api-1.20.0-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 805079 bytes, number of entries: 445
+│ +Zip file size: 803807 bytes, number of entries: 445
+│  -rw-r--r--  2.0 unx       64 b- defN 23-Feb-06 18:30 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 org/apache/nifi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 org/apache/nifi/api/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 org/apache/nifi/api/toolkit/
+│ @@ -440,8 +440,8 @@
+│  -rw-r--r--  2.0 unx    28527 b- defN 23-Feb-06 18:30 org/apache/nifi/api/toolkit/model/VersionedProcessor.java
+│  -rw-r--r--  2.0 unx     6181 b- defN 23-Feb-06 18:30 org/apache/nifi/api/toolkit/model/VersionedPropertyDescriptor.java
+│  -rw-r--r--  2.0 unx    13944 b- defN 23-Feb-06 18:30 org/apache/nifi/api/toolkit/model/VersionedRemoteGroupPort.java
+│  -rw-r--r--  2.0 unx    19786 b- defN 23-Feb-06 18:30 org/apache/nifi/api/toolkit/model/VersionedRemoteProcessGroup.java
+│  -rw-r--r--  2.0 unx     5318 b- defN 23-Feb-06 18:30 org/apache/nifi/api/toolkit/model/VersionedResourceDefinition.java
+│  -rw-r--r--  2.0 unx     5869 b- defN 23-Feb-06 18:30 META-INF/maven/org.apache.nifi/nifi-toolkit-api/pom.xml
+│  -rw-r--r--  2.0 unx       67 b- defN 23-Feb-06 18:30 META-INF/maven/org.apache.nifi/nifi-toolkit-api/pom.properties
+│ -445 files, 3515841 bytes uncompressed, 719785 bytes compressed:  79.5%
+│ +445 files, 3515841 bytes uncompressed, 718513 bytes compressed:  79.6%
+├── org/apache/nifi/api/toolkit/ApiClient.java
+│ @@ -47,15 +47,15 @@
+│  import java.util.regex.Pattern;
+│  
+│  import org.apache.nifi.api.toolkit.auth.Authentication;
+│  import org.apache.nifi.api.toolkit.auth.HttpBasicAuth;
+│  import org.apache.nifi.api.toolkit.auth.ApiKeyAuth;
+│  import org.apache.nifi.api.toolkit.auth.OAuth;
+│  
+│ -@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-06T12:19:30.151-07:00")
+│ +@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-11T01:19:04.041+01:00")
+│  public class ApiClient {
+│    protected Map<String, String> defaultHeaderMap = new HashMap<String, String>();
+│    protected String basePath = "http://localhost/nifi-api";
+│    protected boolean debugging = false;
+│    protected int connectionTimeout = 0;
+│    private int readTimeout = 0;
+...
+├── org/apache/nifi/api/toolkit/model/NodeResponse.java
+│ @@ -25,15 +25,15 @@
+│  import org.apache.nifi.api.toolkit.model.NodeIdentifier;
+│  import org.apache.nifi.api.toolkit.model.Response;
+│  import org.apache.nifi.api.toolkit.model.Throwable;
+│  
+│  /**
+│   * NodeResponse
+│   */
+│ -@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-06T12:19:30.151-07:00")
+│ +@javax.annotation.Generated(value = "io.swagger.codegen.languages.JavaClientCodegen", date = "2023-02-11T01:19:04.041+01:00")
+│  public class NodeResponse {
+│    @JsonProperty("httpMethod")
+│    private String httpMethod = null;
+│  
+│    @JsonProperty("requestUri")
+│    private String requestUri = null;
+│  
+│ @@ -51,25 +51,25 @@
+│  
+│    @JsonProperty("requestId")
+│    private String requestId = null;
+│  
+│    @JsonProperty("inputStream")
+│    private InputStream inputStream = null;
+│  
+│ -  @JsonProperty("clientResponse")
+│ -  private Response clientResponse = null;
+│ -
+│ -  @JsonProperty("is5xx")
+│ -  private Boolean is5xx = null;
+│ +  @JsonProperty("status")
+│ +  private Integer status = null;
+│  
+│    @JsonProperty("is2xx")
+│    private Boolean is2xx = null;
+│  
+│ -  @JsonProperty("status")
+│ -  private Integer status = null;
+│ +  @JsonProperty("is5xx")
+│ +  private Boolean is5xx = null;
+│ +
+│ +  @JsonProperty("clientResponse")
+│ +  private Response clientResponse = null;
+│  
+│    public NodeResponse httpMethod(String httpMethod) {
+│      this.httpMethod = httpMethod;
+│      return this;
+│    }
+│  
+│     /**
+...
+
+54 / 55 target/reference/nifi-runtime-manifest-1.20.0.jar nifi-manifest/nifi-runtime-manifest/target/nifi-runtime-manifest-1.20.0.jar
+--- target/reference/nifi-runtime-manifest-1.20.0.jar
++++ nifi-manifest/nifi-runtime-manifest/target/nifi-runtime-manifest-1.20.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 954936 bytes, number of entries: 456
+│ +Zip file size: 955875 bytes, number of entries: 456
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/
+│  -rw-r--r--  2.0 unx      319 b- defN 23-Feb-06 18:30 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 docs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 docs/org.apache.nifi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 docs/org.apache.nifi/nifi-airtable-nar/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 docs/org.apache.nifi/nifi-airtable-nar/1.20.0/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 docs/org.apache.nifi/nifi-airtable-nar/1.20.0/org.apache.nifi.processors.airtable.QueryAirtableTable/
+│ @@ -275,18 +275,18 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 docs/org.apache.nifi/nifi-workday-processors-nar/1.20.0/org.apache.nifi.processors.workday.GetWorkdayReport/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 docs/org.apache.nifi/nifi-zendesk-nar/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 docs/org.apache.nifi/nifi-zendesk-nar/1.20.0/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 docs/org.apache.nifi/nifi-zendesk-nar/1.20.0/org.apache.nifi.processors.zendesk.GetZendesk/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/maven/org.apache.nifi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/maven/org.apache.nifi/nifi-runtime-manifest/
+│ --rw-r--r--  2.0 unx    69213 b- defN 23-Feb-06 18:30 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    83467 b- defN 23-Feb-06 18:30 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 23-Feb-06 18:30 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      162 b- defN 23-Feb-06 18:30 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx     1239 b- defN 23-Feb-06 18:30 build.properties
+│ +-rw-r--r--  2.0 unx     1240 b- defN 23-Feb-06 18:30 build.properties
+│  -rw-r--r--  2.0 unx     2722 b- defN 23-Feb-06 18:30 docs/org.apache.nifi/nifi-airtable-nar/1.20.0/org.apache.nifi.processors.airtable.QueryAirtableTable/additionalDetails.html
+│  -rw-r--r--  2.0 unx     2373 b- defN 23-Feb-06 18:30 docs/org.apache.nifi/nifi-ambari-nar/1.20.0/org.apache.nifi.reporting.ambari.AmbariReportingTask/additionalDetails.html
+│  -rw-r--r--  2.0 unx     4031 b- defN 23-Feb-06 18:30 docs/org.apache.nifi/nifi-amqp-nar/1.20.0/org.apache.nifi.amqp.processors.ConsumeAMQP/additionalDetails.html
+│  -rw-r--r--  2.0 unx     5854 b- defN 23-Feb-06 18:30 docs/org.apache.nifi/nifi-amqp-nar/1.20.0/org.apache.nifi.amqp.processors.PublishAMQP/additionalDetails.html
+│  -rw-r--r--  2.0 unx     5394 b- defN 23-Feb-06 18:30 docs/org.apache.nifi/nifi-asana-processors-nar/1.20.0/org.apache.nifi.processors.asana.GetAsanaObject/additionalDetails.html
+│  -rw-r--r--  2.0 unx    12176 b- defN 23-Feb-06 18:30 docs/org.apache.nifi/nifi-aws-nar/1.20.0/org.apache.nifi.processors.aws.dynamodb.PutDynamoDBRecord/additionalDetails.html
+│  -rw-r--r--  2.0 unx     2407 b- defN 23-Feb-06 18:30 docs/org.apache.nifi/nifi-aws-nar/1.20.0/org.apache.nifi.processors.aws.kinesis.stream.ConsumeKinesisStream/additionalDetails.html
+│ @@ -448,11 +448,11 @@
+│  -rw-r--r--  2.0 unx     2607 b- defN 23-Feb-06 18:30 docs/org.apache.nifi/nifi-standard-nar/1.20.0/org.apache.nifi.reporting.ganglia.StandardGangliaReporter/additionalDetails.html
+│  -rw-r--r--  2.0 unx    21021 b- defN 23-Feb-06 18:30 docs/org.apache.nifi/nifi-stateless-processor-nar/1.20.0/org.apache.nifi.processors.stateless.ExecuteStateless/additionalDetails.html
+│  -rw-r--r--  2.0 unx    21040 b- defN 23-Feb-06 18:30 docs/org.apache.nifi/nifi-update-attribute-nar/1.20.0/org.apache.nifi.processors.attributes.UpdateAttribute/additionalDetails.html
+│  -rw-r--r--  2.0 unx     2308 b- defN 23-Feb-06 18:30 docs/org.apache.nifi/nifi-websocket-processors-nar/1.20.0/org.apache.nifi.processors.websocket.ConnectWebSocket/additionalDetails.html
+│  -rw-r--r--  2.0 unx     4150 b- defN 23-Feb-06 18:30 docs/org.apache.nifi/nifi-windows-event-log-nar/1.20.0/org.apache.nifi.processors.windows.event.log.ConsumeWindowsEventLog/additionalDetails.html
+│  -rw-r--r--  2.0 unx     2772 b- defN 23-Feb-06 18:30 docs/org.apache.nifi/nifi-workday-processors-nar/1.20.0/org.apache.nifi.processors.workday.GetWorkdayReport/additionalDetails.html
+│  -rw-r--r--  2.0 unx     3375 b- defN 23-Feb-06 18:30 docs/org.apache.nifi/nifi-zendesk-nar/1.20.0/org.apache.nifi.processors.zendesk.GetZendesk/additionalDetails.html
+│ --rw-r--r--  2.0 unx  4919730 b- defN 23-Feb-06 18:30 nifi-runtime-manifest.json
+│ +-rw-r--r--  2.0 unx  4919955 b- defN 23-Feb-06 18:30 nifi-runtime-manifest.json
+│  -rw-r--r--  2.0 unx     6980 b- defN 23-Feb-06 18:30 META-INF/maven/org.apache.nifi/nifi-runtime-manifest/pom.xml
+│  -rw-r--r--  2.0 unx       72 b- defN 23-Feb-06 18:30 META-INF/maven/org.apache.nifi/nifi-runtime-manifest/pom.properties
+│ -456 files, 6029338 bytes uncompressed, 834760 bytes compressed:  86.2%
+│ +456 files, 6043818 bytes uncompressed, 835699 bytes compressed:  86.2%
+├── META-INF/DEPENDENCIES
+│ @@ -17,16 +17,16 @@
+│      License: Apache 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+│    - FindBugs-jsr305 (http://findbugs.sourceforge.net/) com.google.code.findbugs:jsr305:jar:3.0.2
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Gson (https://github.com/google/gson/gson) com.google.code.gson:gson:jar:2.10.1
+│      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Guava InternalFutureFailureAccess and InternalFutures (https://github.com/google/guava/failureaccess) com.google.guava:failureaccess:bundle:1.0.1
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Guava: Google Core Libraries for Java (https://github.com/google/guava) com.google.guava:guava:bundle:31.1-jre
+│ -    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Guava: Google Core Libraries for Java (https://github.com/google/guava/guava) com.google.guava:guava:bundle:27.0-jre
+│ +    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Guava ListenableFuture only (https://github.com/google/guava/listenablefuture) com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - J2ObjC Annotations (https://github.com/google/j2objc/) com.google.j2objc:j2objc-annotations:jar:1.3
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Protocol Buffers [Core] (https://developers.google.com/protocol-buffers/protobuf-java/) com.google.protobuf:protobuf-java:bundle:3.21.12
+│      License: BSD-3-Clause  (https://opensource.org/licenses/BSD-3-Clause)
+│    - Protocol Buffers [Util] (https://developers.google.com/protocol-buffers/protobuf-java-util/) com.google.protobuf:protobuf-java-util:bundle:3.21.12
+...
+├── build.properties
+│ @@ -12,18 +12,18 @@
+│  # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+│  # See the License for the specific language governing permissions and
+│  # limitations under the License.
+│  
+│  Project-Version:1.20.0
+│  Build-Branch:UNKNOWN
+│  Build-Revision:81296b5
+│ -Build-Timestamp:2023-02-06T19:19:39Z
+│ -Built-By:jwitt
+│ -Maven-Home:/opt/homebrew/Cellar/maven/3.8.6/libexec
+│ -Maven-Version:3.8.6
+│ -Created-By:Apache Maven 3.8.6 (84538c9988a25aec085021c365c560670ad80f63)
+│ -Build-Java-Home:/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/jre
+│ +Build-Timestamp:2023-02-11T00:19:08Z
+│ +Built-By:herve
+│ +Maven-Home:/home/herve/.sdkman/candidates/mvnd/current
+│ +Maven-Version:3.8.7
+│ +Created-By:Apache Maven 3.8.7 (b89d5959fcde851dcb1c8946a785a163f14e1e29)
+│ +Build-Java-Home:/home/herve/.sdkman/candidates/java/8.0.345-zulu/jre
+│  Build-Jdk:1.8.0_345
+│  Build-Jdk-Vendor:Azul Systems, Inc.
+│ -Build-Arch:aarch64
+│ -Build-Os:Mac OS X
+│ -Build-Os-Version:13.2
+│ +Build-Arch:amd64
+│ +Build-Os:Linux
+│ +Build-Os-Version:5.15.0-60-generic
+...
+
+55 / 55 target/reference/nifi-runtime-manifest-1.20.0-sources.jar nifi-manifest/nifi-runtime-manifest/target/nifi-runtime-manifest-1.20.0-sources.jar
+--- target/reference/nifi-runtime-manifest-1.20.0-sources.jar
++++ nifi-manifest/nifi-runtime-manifest/target/nifi-runtime-manifest-1.20.0-sources.jar
+├── zipinfo {}
+│ @@ -1,13 +1,13 @@
+│ -Zip file size: 15919 bytes, number of entries: 11
+│ +Zip file size: 17888 bytes, number of entries: 11
+│  -rw-r--r--  2.0 unx       64 b- defN 23-Feb-06 18:30 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/maven/org.apache.nifi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-06 18:30 META-INF/maven/org.apache.nifi/nifi-runtime-manifest/
+│ --rw-r--r--  2.0 unx    69213 b- defN 23-Feb-06 18:30 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    83467 b- defN 23-Feb-06 18:30 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 23-Feb-06 18:30 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      162 b- defN 23-Feb-06 18:30 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     1189 b- defN 23-Feb-06 18:30 build.properties
+│  -rw-r--r--  2.0 unx     6980 b- defN 23-Feb-06 18:30 META-INF/maven/org.apache.nifi/nifi-runtime-manifest/pom.xml
+│  -rw-r--r--  2.0 unx       72 b- defN 23-Feb-06 18:30 META-INF/maven/org.apache.nifi/nifi-runtime-manifest/pom.properties
+│ -11 files, 89038 bytes uncompressed, 14415 bytes compressed:  83.8%
+│ +11 files, 103292 bytes uncompressed, 16384 bytes compressed:  84.1%
+├── META-INF/DEPENDENCIES
+...
