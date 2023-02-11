@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi.git)
 
-<details><summary>This project defines 742 modules:</summary>
+<details><summary>This project defines 768 modules:</summary>
 
 * [org.apache.nifi.minifi:minifi](https://search.maven.org/artifact/org.apache.nifi.minifi/minifi/)
 * [org.apache.nifi.minifi:minifi-assembly](https://search.maven.org/artifact/org.apache.nifi.minifi/minifi-assembly/)
@@ -28,6 +28,7 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi.minifi:minifi-c2-provider-util](https://search.maven.org/artifact/org.apache.nifi.minifi/minifi-c2-provider-util/)
 * [org.apache.nifi.minifi:minifi-c2-service](https://search.maven.org/artifact/org.apache.nifi.minifi/minifi-c2-service/)
 * [org.apache.nifi.minifi:minifi-commons](https://search.maven.org/artifact/org.apache.nifi.minifi/minifi-commons/)
+* [org.apache.nifi.minifi:minifi-commons-api](https://search.maven.org/artifact/org.apache.nifi.minifi/minifi-commons-api/)
 * [org.apache.nifi.minifi:minifi-commons-schema](https://search.maven.org/artifact/org.apache.nifi.minifi/minifi-commons-schema/)
 * [org.apache.nifi.minifi:minifi-docker](https://search.maven.org/artifact/org.apache.nifi.minifi/minifi-docker/)
 * [org.apache.nifi.minifi:minifi-docs](https://search.maven.org/artifact/org.apache.nifi.minifi/minifi-docs/)
@@ -124,6 +125,13 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-amqp-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-amqp-nar/)
 * [org.apache.nifi:nifi-amqp-processors](https://search.maven.org/artifact/org.apache.nifi/nifi-amqp-processors/)
 * [org.apache.nifi:nifi-api](https://search.maven.org/artifact/org.apache.nifi/nifi-api/)
+* [org.apache.nifi:nifi-asana-bundle](https://search.maven.org/artifact/org.apache.nifi/nifi-asana-bundle/)
+* [org.apache.nifi:nifi-asana-processors](https://search.maven.org/artifact/org.apache.nifi/nifi-asana-processors/)
+* [org.apache.nifi:nifi-asana-processors-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-asana-processors-nar/)
+* [org.apache.nifi:nifi-asana-services](https://search.maven.org/artifact/org.apache.nifi/nifi-asana-services/)
+* [org.apache.nifi:nifi-asana-services-api](https://search.maven.org/artifact/org.apache.nifi/nifi-asana-services-api/)
+* [org.apache.nifi:nifi-asana-services-api-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-asana-services-api-nar/)
+* [org.apache.nifi:nifi-asana-services-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-asana-services-nar/)
 * [org.apache.nifi:nifi-asn1-bundle](https://search.maven.org/artifact/org.apache.nifi/nifi-asn1-bundle/)
 * [org.apache.nifi:nifi-asn1-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-asn1-nar/)
 * [org.apache.nifi:nifi-asn1-services](https://search.maven.org/artifact/org.apache.nifi/nifi-asn1-services/)
@@ -182,8 +190,12 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-cdc-mysql-bundle](https://search.maven.org/artifact/org.apache.nifi/nifi-cdc-mysql-bundle/)
 * [org.apache.nifi:nifi-cdc-mysql-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-cdc-mysql-nar/)
 * [org.apache.nifi:nifi-cdc-mysql-processors](https://search.maven.org/artifact/org.apache.nifi/nifi-cdc-mysql-processors/)
+* [org.apache.nifi:nifi-cipher-bundle](https://search.maven.org/artifact/org.apache.nifi/nifi-cipher-bundle/)
+* [org.apache.nifi:nifi-cipher-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-cipher-nar/)
+* [org.apache.nifi:nifi-cipher-processors](https://search.maven.org/artifact/org.apache.nifi/nifi-cipher-processors/)
 * [org.apache.nifi:nifi-client-dto](https://search.maven.org/artifact/org.apache.nifi/nifi-client-dto/)
 * [org.apache.nifi:nifi-commons](https://search.maven.org/artifact/org.apache.nifi/nifi-commons/)
+* [org.apache.nifi:nifi-conflict-resolution](https://search.maven.org/artifact/org.apache.nifi/nifi-conflict-resolution/)
 * [org.apache.nifi:nifi-confluent-platform-bundle](https://search.maven.org/artifact/org.apache.nifi/nifi-confluent-platform-bundle/)
 * [org.apache.nifi:nifi-confluent-platform-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-confluent-platform-nar/)
 * [org.apache.nifi:nifi-confluent-schema-registry-service](https://search.maven.org/artifact/org.apache.nifi/nifi-confluent-schema-registry-service/)
@@ -352,6 +364,7 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-hive-processors](https://search.maven.org/artifact/org.apache.nifi/nifi-hive-processors/)
 * [org.apache.nifi:nifi-hive-services-api](https://search.maven.org/artifact/org.apache.nifi/nifi-hive-services-api/)
 * [org.apache.nifi:nifi-hive-services-api-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-hive-services-api-nar/)
+* [org.apache.nifi:nifi-hive-test-utils](https://search.maven.org/artifact/org.apache.nifi/nifi-hive-test-utils/)
 * [org.apache.nifi:nifi-hive3-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-hive3-nar/)
 * [org.apache.nifi:nifi-hive3-processors](https://search.maven.org/artifact/org.apache.nifi/nifi-hive3-processors/)
 * [org.apache.nifi:nifi-hive_1_1-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-hive_1_1-nar/)
@@ -387,6 +400,9 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-influxdb-bundle](https://search.maven.org/artifact/org.apache.nifi/nifi-influxdb-bundle/)
 * [org.apache.nifi:nifi-influxdb-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-influxdb-nar/)
 * [org.apache.nifi:nifi-influxdb-processors](https://search.maven.org/artifact/org.apache.nifi/nifi-influxdb-processors/)
+* [org.apache.nifi:nifi-iotdb-bundle](https://search.maven.org/artifact/org.apache.nifi/nifi-iotdb-bundle/)
+* [org.apache.nifi:nifi-iotdb-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-iotdb-nar/)
+* [org.apache.nifi:nifi-iotdb-processors](https://search.maven.org/artifact/org.apache.nifi/nifi-iotdb-processors/)
 * [org.apache.nifi:nifi-jetty](https://search.maven.org/artifact/org.apache.nifi/nifi-jetty/)
 * [org.apache.nifi:nifi-jetty-bundle](https://search.maven.org/artifact/org.apache.nifi/nifi-jetty-bundle/)
 * [org.apache.nifi:nifi-jetty-configuration](https://search.maven.org/artifact/org.apache.nifi/nifi-jetty-configuration/)
@@ -478,6 +494,13 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-mqtt-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-mqtt-nar/)
 * [org.apache.nifi:nifi-mqtt-processors](https://search.maven.org/artifact/org.apache.nifi/nifi-mqtt-processors/)
 * [org.apache.nifi:nifi-nar-bundles](https://search.maven.org/artifact/org.apache.nifi/nifi-nar-bundles/)
+* [org.apache.nifi:nifi-nar-provider-assembly](https://search.maven.org/artifact/org.apache.nifi/nifi-nar-provider-assembly/)
+* [org.apache.nifi:nifi-nar-provider-processors](https://search.maven.org/artifact/org.apache.nifi/nifi-nar-provider-processors/)
+* [org.apache.nifi:nifi-nar-provider-processors-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-nar-provider-processors-nar/)
+* [org.apache.nifi:nifi-nar-provider-service](https://search.maven.org/artifact/org.apache.nifi/nifi-nar-provider-service/)
+* [org.apache.nifi:nifi-nar-provider-service-api](https://search.maven.org/artifact/org.apache.nifi/nifi-nar-provider-service-api/)
+* [org.apache.nifi:nifi-nar-provider-service-api-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-nar-provider-service-api-nar/)
+* [org.apache.nifi:nifi-nar-provider-service-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-nar-provider-service-nar/)
 * [org.apache.nifi:nifi-nar-utils](https://search.maven.org/artifact/org.apache.nifi/nifi-nar-utils/)
 * [org.apache.nifi:nifi-neo4j-3-cypher-service](https://search.maven.org/artifact/org.apache.nifi/nifi-neo4j-3-cypher-service/)
 * [org.apache.nifi:nifi-neo4j-3-cypher-service-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-neo4j-3-cypher-service-nar/)
@@ -589,6 +612,7 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-scripting-bundle](https://search.maven.org/artifact/org.apache.nifi/nifi-scripting-bundle/)
 * [org.apache.nifi:nifi-scripting-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-scripting-nar/)
 * [org.apache.nifi:nifi-scripting-processors](https://search.maven.org/artifact/org.apache.nifi/nifi-scripting-processors/)
+* [org.apache.nifi:nifi-security-crypto-key](https://search.maven.org/artifact/org.apache.nifi/nifi-security-crypto-key/)
 * [org.apache.nifi:nifi-security-kerberos](https://search.maven.org/artifact/org.apache.nifi/nifi-security-kerberos/)
 * [org.apache.nifi:nifi-security-kerberos-api](https://search.maven.org/artifact/org.apache.nifi/nifi-security-kerberos-api/)
 * [org.apache.nifi:nifi-security-kms](https://search.maven.org/artifact/org.apache.nifi/nifi-security-kms/)
@@ -623,6 +647,7 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-smb-processors](https://search.maven.org/artifact/org.apache.nifi/nifi-smb-processors/)
 * [org.apache.nifi:nifi-smb-smbj-client](https://search.maven.org/artifact/org.apache.nifi/nifi-smb-smbj-client/)
 * [org.apache.nifi:nifi-smb-smbj-client-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-smb-smbj-client-nar/)
+* [org.apache.nifi:nifi-smb-smbj-common](https://search.maven.org/artifact/org.apache.nifi/nifi-smb-smbj-common/)
 * [org.apache.nifi:nifi-snmp-bundle](https://search.maven.org/artifact/org.apache.nifi/nifi-snmp-bundle/)
 * [org.apache.nifi:nifi-snmp-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-snmp-nar/)
 * [org.apache.nifi:nifi-snmp-processors](https://search.maven.org/artifact/org.apache.nifi/nifi-snmp-processors/)
@@ -688,6 +713,7 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-system-test-extensions2](https://search.maven.org/artifact/org.apache.nifi/nifi-system-test-extensions2/)
 * [org.apache.nifi:nifi-system-test-extensions2-bundle](https://search.maven.org/artifact/org.apache.nifi/nifi-system-test-extensions2-bundle/)
 * [org.apache.nifi:nifi-system-test-extensions2-nar](https://search.maven.org/artifact/org.apache.nifi/nifi-system-test-extensions2-nar/)
+* [org.apache.nifi:nifi-system-test-nar-provider-bundles](https://search.maven.org/artifact/org.apache.nifi/nifi-system-test-nar-provider-bundles/)
 * [org.apache.nifi:nifi-system-test-suite](https://search.maven.org/artifact/org.apache.nifi/nifi-system-test-suite/)
 * [org.apache.nifi:nifi-system-tests](https://search.maven.org/artifact/org.apache.nifi/nifi-system-tests/)
 * [org.apache.nifi:nifi-tcp-bundle](https://search.maven.org/artifact/org.apache.nifi/nifi-tcp-bundle/)
@@ -753,13 +779,13 @@ Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi
 * [org.apache.nifi:nifi-zendesk-processors](https://search.maven.org/artifact/org.apache.nifi/nifi-zendesk-processors/)
 </details>
 
-rebuilding **5 releases** of org.apache.nifi:nifi:
+rebuilding **6 releases** of org.apache.nifi:nifi:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.20.0](https://search.maven.org/artifact/org.apache.nifi/nifi/1.20.0/pom) | | | |
+| [1.20.0](https://search.maven.org/artifact/org.apache.nifi/nifi/1.20.0/pom) | [mvn jdk8](nifi-1.20.0.buildspec) | [result](nifi-1.20.0.buildinfo): [1893 :heavy_check_mark:  55 :warning:](nifi-1.20.0.buildcompare) [:mag:](nifi-1.20.0.diffoscope) [:memo:](https://issues.apache.org/jira/browse/NIFI-10892) | 3.9G |
 | [1.19.1](https://search.maven.org/artifact/org.apache.nifi/nifi/1.19.1/pom) | | | |
 | [1.19.0](https://search.maven.org/artifact/org.apache.nifi/nifi/1.19.0/pom) | [mvn jdk8](nifi-1.19.0.buildspec) | [result](nifi-1.19.0.buildinfo): [1677 :heavy_check_mark:  200 :warning:](nifi-1.19.0.buildcompare) [:mag:](nifi-1.19.0.diffoscope) [:memo:](https://issues.apache.org/jira/browse/NIFI-10892) | 3.8G |
 | [1.18.0](https://search.maven.org/artifact/org.apache.nifi/nifi/1.18.0/pom) | | | |

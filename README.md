@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **1540 releases** of **381 projects**:
-   - **1134** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 406 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **1542 releases** of **382 projects**:
+   - **1135** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 407 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
 
@@ -219,7 +219,7 @@ Its objectives are to provide:
 | org.apache.maven.skins | <a name='org.apache.maven.skins:maven-fluido-skin'></a>[maven-fluido-skin](content/org/apache/maven/skins/fluido/README.md) | 6 | 6 :heavy_check_mark: |
 | org.apache.maven.wagon | <a name='org.apache.maven.wagon:wagon'></a>[wagon](content/org/apache/maven/wagon/wagon/README.md) | 8 | 8 :heavy_check_mark: |
 | org.apache.ftpserver | <a name='org.apache.ftpserver:ftpserver-parent'></a>[ftpserver-parent](content/org/apache/mina/ftpserver/README.md) | 1 | 1 :warning: |
-| org.apache.nifi | <a name='org.apache.nifi:nifi'></a>[nifi](content/org/apache/nifi/nifi/README.md) | 5 | 5 :warning: |
+| org.apache.nifi | <a name='org.apache.nifi:nifi'></a>[nifi](content/org/apache/nifi/nifi/README.md) | 6 | 6 :warning: |
 | | <a name='org.apache.nifi:nifi-nar-maven-plugin'></a>[nifi-nar-maven-plugin](content/org/apache/nifi/nifi-nar-maven-plugin/README.md) | 3 | 3 :heavy_check_mark: |
 | org.apache.plc4x | <a name='org.apache.plc4x:plc4x-parent'></a>[plc4x-parent](content/org/apache/plc4x/plc4x/README.md) | 2 | 2 :warning: |
 | org.apache.plc4x.plugins | <a name='org.apache.plc4x.plugins:plc4x-code-generation'></a>[plc4x-code-generation](content/org/apache/plc4x/plc4x-code-generation/README.md) | 1 | 1 :heavy_check_mark: |
@@ -396,6 +396,7 @@ Its objectives are to provide:
 | org.webjars | <a name='org.webjars:bootstrap'></a>[bootstrap](content/org/webjars/bootstrap/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.webjars:flexmonster'></a>[flexmonster](content/org/webjars/flexmonster/README.md) | 25 | 24 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.webjars:font-awesome'></a>[font-awesome](content/org/webjars/font-awesome/README.md) | 2 | 2 :heavy_check_mark: |
+| | <a name='org.webjars:jszip'></a>[jszip](content/org/webjars/jszip/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.webjars:redoc'></a>[redoc](content/org/webjars/redoc/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.webjars:swagger-ui'></a>[swagger-ui](content/org/webjars/swagger-ui/README.md) | 14 | 14 :heavy_check_mark: |
 | | <a name='org.webjars:webjars-locator'></a>[webjars-locator](content/org/webjars/webjars-locator/README.md) | 1 | 1 :heavy_check_mark: |
@@ -404,7 +405,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 9 | 9 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 6 | 6 :warning: |
-| **Count:** | **381** | **1540** | **1134** :heavy_check_mark: **406** :warning: |
+| **Count:** | **382** | **1542** | **1135** :heavy_check_mark: **407** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -416,7 +417,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      17 gradle     11
      26 mvn         7
-    759 mvn         8
+    761 mvn         8
       1 mvn         9
     563 mvn        11
       4 mvn        14
