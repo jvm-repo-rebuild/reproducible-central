@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.webjars:font-awesome:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [6.3.0](https://search.maven.org/artifact/org.webjars/font-awesome/6.3.0/pom) | | | |
 | [6.2.1](https://search.maven.org/artifact/org.webjars/font-awesome/6.2.1/pom) | [mvn jdk8](font-awesome-6.2.1.buildspec) | [result](font-awesome-6.2.1.buildinfo): [2 :heavy_check_mark: ](font-awesome-6.2.1.buildcompare) | 6.3M |
 | [6.2.0](https://search.maven.org/artifact/org.webjars/font-awesome/6.2.0/pom) | [mvn jdk8](font-awesome-6.2.0.buildspec) | [result](font-awesome-6.2.0.buildinfo): [2 :heavy_check_mark: ](font-awesome-6.2.0.buildcompare) | 6.3M |
 

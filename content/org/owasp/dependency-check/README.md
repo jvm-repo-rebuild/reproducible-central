@@ -24,6 +24,7 @@ rebuilding **12 releases** of org.owasp:dependency-check-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [8.1.0](https://search.maven.org/artifact/org.owasp/dependency-check-parent/8.1.0/pom) | | | |
 | [8.0.2](https://search.maven.org/artifact/org.owasp/dependency-check-parent/8.0.2/pom) | [mvn jdk8](dependency-check-8.0.2.buildspec) | [result](dependency-check-parent-8.0.2.buildinfo): [22 :heavy_check_mark: ](dependency-check-parent-8.0.2.buildcompare) | 59M |
 | [8.0.1](https://search.maven.org/artifact/org.owasp/dependency-check-parent/8.0.1/pom) | [mvn jdk8](dependency-check-8.0.1.buildspec) | [result](dependency-check-parent-8.0.1.buildinfo): [22 :heavy_check_mark: ](dependency-check-parent-8.0.1.buildcompare) | 59M |
 | [8.0.0](https://search.maven.org/artifact/org.owasp/dependency-check-parent/8.0.0/pom) | [mvn jdk8](dependency-check-8.0.0.buildspec) | [result](dependency-check-parent-8.0.0.buildinfo): [22 :heavy_check_mark: ](dependency-check-parent-8.0.0.buildcompare) | 59M |

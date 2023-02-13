@@ -13,6 +13,7 @@ rebuilding **8 releases** of org.apache.sling:org.apache.sling.feature.extension
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.extension.apiregions/2.0.0/pom) | | | |
 | [1.6.4](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.extension.apiregions/1.6.4/pom) | [mvn jdk11](org.apache.sling.feature.extension.apiregions-1.6.4.buildspec) | [result](org.apache.sling.feature.extension.apiregions-1.6.4.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.feature.extension.apiregions-1.6.4.buildcompare) | 585K |
 | [1.6.2](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.extension.apiregions/1.6.2/pom) | [mvn jdk11](org.apache.sling.feature.extension.apiregions-1.6.2.buildspec) | [result](org.apache.sling.feature.extension.apiregions-1.6.2.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.feature.extension.apiregions-1.6.2.buildcompare) | 551K |
 | [1.6.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.extension.apiregions/1.6.0/pom) | [mvn jdk11](org.apache.sling.feature.extension.apiregions-1.6.0.buildspec) | [result](org.apache.sling.feature.extension.apiregions-1.6.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.feature.extension.apiregions-1.6.0.buildcompare) | 551K |
