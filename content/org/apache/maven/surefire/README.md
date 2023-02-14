@@ -42,6 +42,7 @@ rebuilding **4 releases** of org.apache.maven.surefire:surefire:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.0-M9](https://search.maven.org/artifact/org.apache.maven.surefire/surefire/3.0.0-M9/pom) | | | |
 | [3.0.0-M8](https://search.maven.org/artifact/org.apache.maven.surefire/surefire/3.0.0-M8/pom) | [mvn jdk8 w](surefire-3.0.0-M8.buildspec) | [result](surefire-3.0.0-M8.buildinfo): [75 :heavy_check_mark: ](surefire-3.0.0-M8.buildcompare) | 10M |
 | [3.0.0-M7](https://search.maven.org/artifact/org.apache.maven.surefire/surefire/3.0.0-M7/pom) | [mvn jdk11](surefire-3.0.0-M7.buildspec) | [result](surefire-3.0.0-M7.buildinfo): [39 :heavy_check_mark:  36 :warning:](surefire-3.0.0-M7.buildcompare) [:mag:](surefire-3.0.0-M7.diffoscope) | 10M |
 | [3.0.0-M6](https://search.maven.org/artifact/org.apache.maven.surefire/surefire/3.0.0-M6/pom) | [mvn jdk8 w](surefire-3.0.0-M6.buildspec) | [result](surefire-3.0.0-M6.buildinfo): [38 :heavy_check_mark:  37 :warning:](surefire-3.0.0-M6.buildcompare) [:mag:](surefire-3.0.0-M6.diffoscope) [:memo:](https://issues.apache.org/jira/browse/SUREFIRE-1802) | 10M |
