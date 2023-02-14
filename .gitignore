@@ -18,4 +18,5 @@ settings-docker.xml
 
 doc/buildspecs.txt
 maven-metadata
+.docker/
 wip/maven-metadata.xml

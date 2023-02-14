@@ -1,0 +1,126 @@
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# https://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+FROM ubuntu:22.04
+
+ENV INSIDE_DOCKER Yes
+
+ARG DEBIAN_FRONTEND=noninteractive
+
+WORKDIR /root
+
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+
+#####
+# Disable suggests/recommends
+#####
+RUN echo APT::Install-Recommends "0"\; > /etc/apt/apt.conf.d/10disableextras
+RUN echo APT::Install-Suggests "0"\; >>  /etc/apt/apt.conf.d/10disableextras
+
+ENV DEBIAN_FRONTEND noninteractive
+ENV DEBCONF_TERSE true
+
+###
+# Because of repeated 404 errors on that site during `apt-get install`
+# --
+# Err:20 http://security.ubuntu.com/ubuntu jammy-updates/main amd64 libtiff5 amd64 4.3.0-6ubuntu0.3
+#    404  Not Found [IP: 185.125.190.36 80]
+###
+RUN sed -i 's@^\(deb http://security.ubuntu.com\)@# -------- Disabled because of 404 problems #\1@' /etc/apt/sources.list
+
+###
+# Update and install common packages
+###
+RUN apt clean cache \
+   && apt-get -q update \
+   && apt-get install -y software-properties-common apt-utils apt-transport-https ca-certificates
+
+RUN apt-get -q install -y --no-install-recommends \
+    bash-completion \
+    build-essential \
+    bzip2 \
+    wget \
+    curl \
+    docker.io \
+    git \
+    gnupg-agent \
+    rsync \
+    sudo \
+    vim \
+    locales \
+    wget \
+    time \
+    ruby \
+    tzdata \
+    diffoscope \
+    procyon-decompiler \
+    python3-tlsh \
+    tlsh-tools \
+    unzip \
+    less
+
+# By running the JDKs as a separate command they become a separate layer and thus we have less layers if we need to do more builds.
+RUN apt-get -q install -y --no-install-recommends \
+    @@JDKPACKAGES@@
+
+# Avoid out of memory errors in builds
+ENV MAVEN_OPTS -Xms256m -Xmx512m
+
+##################################################################################################
+# Better reproducibility: deliberately set a few key default settings to a very uncommon value
+#######
+
+###
+# Set the locale ( see https://stackoverflow.com/a/28406007/114196 )
+# Better reproducibility: deliberately set default locale VERY different from 'US'
+###
+ENV BUILD_LOCALE fi_FI
+
+###
+# Better reproducibility: deliberately set default umask VERY strange
+###
+ENV BUILD_UMASK=0055
+
+###
+# Better reproducibility: deliberately set default timezone VERY uncommon (only ~200 people in this timezone)
+###
+ENV BUILD_TIMEZONE=Australia/Eucla
+
+ENV TZ=${BUILD_TIMEZONE}
+ENV MAVEN_OPTS -Duser.timezone=${BUILD_TIMEZONE}
+RUN ln -fs /usr/share/zoneinfo/${BUILD_TIMEZONE} /etc/localtime && \
+    dpkg-reconfigure -f noninteractive tzdata
+
+##################################################################################################
+
+# --------------------------------
+# Install Maven ( https://maven.apache.org/download.cgi )
+ENV MAVEN_VERSION=@@MAVEN_VERSION@@
+RUN mkdir -p /usr/local/apache-maven
+RUN cd /usr/local/ && wget "https://www.apache.org/dyn/closer.lua?action=download&filename=/maven/maven-3/${MAVEN_VERSION}/binaries/apache-maven-${MAVEN_VERSION}-bin.tar.gz" -O "apache-maven-${MAVEN_VERSION}-bin.tar.gz"
+RUN cd /usr/local/ && tar xzf apache-maven-${MAVEN_VERSION}-bin.tar.gz --strip-components 1 -C /usr/local/apache-maven
+ENV M2_HOME /usr/local/apache-maven
+ENV PATH ${M2_HOME}/bin:${PATH}
+RUN ln -s /usr/local/apache-maven/bin/mvn /usr/bin/mvn
+
+###
+# The update-java-alternatives uses the config files like /usr/lib/jvm/.java-1.8.0-openjdk-amd64.jinfo
+# Some of these files contain a reference to mozilla-javaplugin.so which we do not need AND which does not exist
+# in this docker image. So we remove this reference as it will give a needless warning every time we switch JDK.
+###
+RUN sed -i '/^plugin mozilla-javaplugin.so.*$/d' /usr/lib/jvm/.java-*
+
+###
+# Activate the selected JDK as the default
+###
+RUN update-java-alternatives --set "$(update-java-alternatives -l | fgrep "@@JDK@@" | sed 's@ \+@ @g' | cut -d' ' -f1)"
