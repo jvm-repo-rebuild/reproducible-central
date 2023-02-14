@@ -45,6 +45,35 @@ buildinfo=target/${artifactId}-${version}.buildinfo
 issue=https://github.com/project_org/${artifactId}/issues/xx
 ```
 
+For building under maven with recent JDK versions a few more options are available
+```
+# Some projects need multiple JDK versions available via toolchains.
+# By setting the toolchains to the list of ('|' separated) desired major JDK versions these will be installed.
+# The appropriate toolchains.xml for these versions will be created, the version specified under `jdk=` will be used
+# to run maven on.
+jdk=17
+toolchains="8|11|17"
+
+# Some builds can only be reproduced if a few more specifics are set in the build environment.
+
+# Sets the umask to the provided value during the build. 
+# This is optional: If unspecified 0002 is used.
+umask=0022
+
+# Sets the timezone to the provided value during the build. 
+# This is optional: If unspecified UTC is used.
+timezone="Etc/GMT+7"
+
+# Sets the timezone to the provided value during the build. 
+# This is optional: If unspecified en_US is used.
+locale="en_US"
+
+# Set additional (!) MAVEN_OPTS that are appended to the MAVEN_OPTS provided by base build environment
+MAVEN_OPTS='-Duser.country=US -Duser.language=en'
+
+```
+
+
 ## Writing A New Buildspec
 
 To facilitate the job, here are step-by-step instructions:

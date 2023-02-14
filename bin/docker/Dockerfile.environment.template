@@ -1,0 +1,63 @@
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# https://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+FROM @@BASEIMAGE@@
+
+WORKDIR /root
+
+###
+# Add a welcome message and environment checks.
+###
+RUN [ -d /scripts ] || mkdir /scripts
+ADD docker/*.sh /scripts/
+ADD includes/bashcolors.sh /scripts/
+ADD includes/logging.sh /scripts/
+RUN chmod 755 /scripts/*.sh
+
+###
+# This will pick up the actual values for the mentioned environment settings.
+###
+ADD docker/mvn /usr/local/bin
+RUN chmod 755 /usr/local/bin/mvn
+ENV PATH /usr/local/bin/:${PATH}
+
+# Avoid out of memory errors in builds
+ENV MAVEN_OPTS -Xms256m -Xmx512m @@MAVEN_OPTS@@
+
+###
+# Better reproducibility: Make the desired locale explicit
+# Set the locale ( see https://stackoverflow.com/a/28406007/114196 )
+###
+ENV BUILD_LOCALE @@BUILD_LOCALE@@
+RUN [ -f /etc/locale.gen ] && sed -i "/${BUILD_LOCALE}.UTF-8/s/^# //g" /etc/locale.gen && locale-gen || true
+ENV LANG ${BUILD_LOCALE}.UTF-8
+ENV LANGUAGE ${BUILD_LOCALE}
+ENV LC_ALL ${BUILD_LOCALE}.UTF-8
+
+###
+# Better reproducibility: Make the desired umask explicit
+###
+ENV BUILD_UMASK=@@BUILD_UMASK@@
+
+###
+# Better reproducibility: Make the desired timezone explicit
+###
+ENV BUILD_TIMEZONE=@@BUILD_TIMEZONE@@
+
+ENV TZ=${BUILD_TIMEZONE}
+ENV MAVEN_OPTS -Duser.timezone=${BUILD_TIMEZONE}
+
+RUN ln -fs /usr/share/zoneinfo/${BUILD_TIMEZONE} /etc/localtime && \
+    dpkg-reconfigure -f noninteractive tzdata
+RUN cat /etc/timezone
+RUN ls -laF /etc/localtime

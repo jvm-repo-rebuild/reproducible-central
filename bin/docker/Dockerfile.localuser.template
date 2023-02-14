@@ -1,0 +1,33 @@
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# https://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+FROM @@BASEIMAGE@@
+
+
+###
+# Add a welcome message and environment checks.
+###
+RUN [ -d /scripts ] || mkdir /scripts
+ADD docker/*.sh /scripts/
+ADD includes/bashcolors.sh /scripts/
+ADD includes/logging.sh /scripts/
+RUN chmod 755 /scripts/*.sh
+
+###
+# Setup the environment for the current user running this build.
+###
+RUN /scripts/configure-for-user.sh "@@USER_NAME@@" "@@USER_ID@@" "@@GROUP_ID@@" "$(grep -F vboxsf /etc/group)"
+
+RUN mkdir -p /var/maven/.m2
+##TOOLCHAINS##RUN /scripts/generate-toolchains.sh > /var/maven/.m2/toolchains.xml
+RUN chown -R @@USER_ID@@:@@GROUP_ID@@ /var/maven/.m2

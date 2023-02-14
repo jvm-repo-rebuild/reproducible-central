@@ -23,6 +23,7 @@
 # Environment Variable Prerequisites
 #
 #   JAVA_HOME       Must point at your Java Development Kit installation.
+#   M2_HOME         Must point at your maven installation.
 #   MAVEN_OPTS      (Optional) Java runtime options used when Maven is executed.
 #   MAVEN_SKIP_RC   (Optional) Flag to disable loading of mavenrc files.
 # -----------------------------------------------------------------------------
@@ -47,23 +48,9 @@ case "`uname`" in
   MINGW*) mingw=true;;
 esac
 
-## resolve links - $0 may be a link to Maven's home
-PRG="/usr/share/maven/bin/mvncrlf"
-
-# need this for relative symlinks
-while [ -h "$PRG" ] ; do
-  ls=`ls -ld "$PRG"`
-  link=`expr "$ls" : '.*-> \(.*\)$'`
-  if expr "$link" : '/.*' > /dev/null; then
-    PRG="$link"
-  else
-    PRG="`dirname "$PRG"`/$link"
-  fi
-done
-
 saveddir=`pwd`
 
-MAVEN_HOME=`dirname "$PRG"`/..
+MAVEN_HOME=${M2_HOME}
 
 # make it fully qualified
 MAVEN_HOME=`cd "$MAVEN_HOME" && pwd`

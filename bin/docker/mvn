@@ -1,0 +1,16 @@
+#!/bin/bash
+
+. "/scripts/bashcolors.sh"
+. "/scripts/logging.sh"
+
+info "Generating /var/maven/.m2/toolchains.xml"
+. "/scripts/generate-toolchains.sh" > /var/maven/.m2/toolchains.xml
+
+# Better reproducibility: deliberately set the umask to something total insane
+umask ${BUILD_UMASK}
+warn "The UMASK    has been set to: $(umask)"
+warn "The Timezone has been set to:"
+# shellcheck disable=SC2154
+echo -e "${IYellow}$(sudo dpkg-reconfigure -f noninteractive tzdata)${Color_Off}"
+
+exec /usr/bin/mvn "$@"
