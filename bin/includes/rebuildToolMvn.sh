@@ -29,14 +29,24 @@ rebuildToolMvn() {
     mvn -v
     echo
     info "opening interactive shell: please run rebuild with required JDK then exit to continue:"
-    runlog "$(echo "${mvn_rebuild}" | sed 's/^SHELL//')"
+    runlog "${mvn_rebuild//SHELL /}"
     ${SHELL} -i
   else
-    # by default, build with Docker
-    # TODO: on parameter, use instead mvnBuildLocal after selecting JDK
-    #   jenv shell ${jdk}
-    #   sdk use java ${jdk}
-    mvnBuildDocker "${mvn_rebuild}" || fatal "failed to build"
+    if [[ "${command}" == DOCKER* ]]
+    then
+      # open a shell to do manual rebuild in Docker
+      warn "opening interactive shell in docker: please run rebuild with required JDK then exit to continue:"
+      runlog "${mvn_rebuild//DOCKER /}"
+
+      exit
+      mvnBuildDocker "bash -i"
+    else
+      # by default, build with Docker
+      # TODO: on parameter, use instead mvnBuildLocal after selecting JDK
+      #   jenv shell ${jdk}
+      #   sdk use java ${jdk}
+      mvnBuildDocker "${mvn_rebuild}" || fatal "failed to build"
+    fi
   fi
 
   dos2unix ${buildinfo} || fatal "failed to convert buildinfo newlines"

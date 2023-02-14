@@ -9,8 +9,14 @@ settings-docker.xml
 .DS_Store
 .gradle-enterprise/
 
+# IntelliJ IDEA
+.idea
+*.iml
+
 # ci config for local ci build
 .circleci/local-config.yml
 
 doc/buildspecs.txt
 maven-metadata
+.docker/
+wip/maven-metadata.xml
