@@ -13,6 +13,7 @@ rebuilding **3 releases** of org.apache.maven.plugins:maven-invoker-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.5.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-invoker-plugin/3.5.0/pom) | | | |
 | [3.4.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-invoker-plugin/3.4.0/pom) | [mvn jdk11](maven-invoker-plugin-3.4.0.buildspec) | [result](maven-invoker-plugin-3.4.0.buildinfo): [4 :heavy_check_mark: ](maven-invoker-plugin-3.4.0.buildcompare) | 914K |
 | [3.3.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-invoker-plugin/3.3.0/pom) | [mvn jdk8](maven-invoker-plugin-3.3.0.buildspec) | [result](maven-invoker-plugin-3.3.0.buildinfo): [4 :heavy_check_mark: ](maven-invoker-plugin-3.3.0.buildcompare) | 908K |
 | [3.2.2](https://search.maven.org/artifact/org.apache.maven.plugins/maven-invoker-plugin/3.2.2/pom) | [mvn jdk11 w](maven-invoker-plugin-3.2.2.buildspec) | [result](maven-invoker-plugin-3.2.2.buildinfo): [4 :heavy_check_mark: ](maven-invoker-plugin-3.2.2.buildcompare) | 884K |
