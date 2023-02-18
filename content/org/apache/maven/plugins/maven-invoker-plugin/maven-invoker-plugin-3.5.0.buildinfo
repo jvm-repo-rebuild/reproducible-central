@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Invoker Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-invoker-plugin
+version=3.5.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-invoker-plugin.git
+source.scm.tag=maven-invoker-plugin-3.5.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.filename=maven-invoker-plugin-3.5.0.pom
+outputs.0.length=16171
+outputs.0.checksums.sha512=3a219a8aba286a414e42b40ccf6d00d83c033937a644d2edb36e1ac4e12d510e299f6986a73efa53114f0a001ddc302709dff42d1cbea93fb65836ada24f2348
+
+outputs.1.filename=maven-invoker-plugin-3.5.0.jar
+outputs.1.length=133336
+outputs.1.checksums.sha512=426ec5fbce9247f73b64915b1814753d77a76c289da03b31eb16be66ce19b676eb766e52d8d1f2876d5521910bbee2f5241f6c72f94ddafc42f17644649cf69f
+
+outputs.2.filename=maven-invoker-plugin-3.5.0-source-release.zip
+outputs.2.length=706010
+outputs.2.checksums.sha512=a32657622fd69cd1964fbec1171175658735bb49826ebd96f7e27f9e4a87bdd477547a733736235db1284b7ebab9b5977263cf83d9d27bf88843a741f6ea2b31
+
+outputs.3.filename=maven-invoker-plugin-3.5.0-sources.jar
+outputs.3.length=80108
+outputs.3.checksums.sha512=bf7c5ab9f702ce25bc19f5a617b989717b363f8931b40805ba087f6e010ec38097864410ea71ef0bdf6ced14b08b577520a87b98b95d228284aa9cc8581c4f31
