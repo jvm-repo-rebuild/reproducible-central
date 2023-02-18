@@ -1,0 +1,152 @@
+1 / 8 target/reference/jackrabbit-jcr-commons-2.21.15.jar jackrabbit-jcr-commons/target/jackrabbit-jcr-commons-2.21.15.jar
+--- target/reference/jackrabbit-jcr-commons-2.21.15.jar
++++ jackrabbit-jcr-commons/target/jackrabbit-jcr-commons-2.21.15.jar
+├── META-INF/MANIFEST.MF
+│ @@ -6,53 +6,53 @@
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+
+│  Bundle-ManifestVersion: 2
+
+│  Bundle-Name: Jackrabbit JCR Commons
+
+│  Bundle-SymbolicName: org.apache.jackrabbit.jackrabbit-jcr-commons
+
+│  Bundle-Vendor: The Apache Software Foundation
+
+│  Bundle-Version: 2.21.15
+
+│  Created-By: Apache Maven Bundle Plugin 5.1.8
+
+│ -Export-Package: org.apache.jackrabbit;version="2.2",org.apache.jackrab
+
+...
+│ - sion,org.apache.jackrabbit.commons.predicate"
+
+│ +Export-Package: org.apache.jackrabbit.commons;version="2.4.0";uses:="j
+
+...
+│ + abbit.value;version="2.2.1";uses:="javax.jcr"
+
+│  Import-Package: org.apache.jackrabbit.api.security.user;version="[2.2,
+
+│   3)";resolution:=optional,javax.jcr;version="[2.0,3)",javax.jcr.lock;v
+
+│   ersion="[2.0,3)",javax.jcr.nodetype;version="[2.0,3)",javax.jcr.obser
+
+│   vation;version="[2.0,3)",javax.jcr.query;version="[2.0,3)",javax.jcr.
+
+│   query.qom;version="[2.0,3)",javax.jcr.security;version="[2.0,3)",java
+
+│   x.jcr.util;version="[2.0,3)",javax.jcr.version;version="[2.0,3)",java
+
+│   x.management.openmbean,javax.naming,javax.xml.namespace,javax.xml.par
+
+2 / 8 target/reference/jackrabbit-data-2.21.15.jar jackrabbit-data/target/jackrabbit-data-2.21.15.jar
+3 / 8 target/reference/jackrabbit-spi-commons-2.21.15.jar jackrabbit-spi-commons/target/jackrabbit-spi-commons-2.21.15.jar
+4 / 8 target/reference/jackrabbit-webdav-2.21.15.jar jackrabbit-webdav/target/jackrabbit-webdav-2.21.15.jar
+5 / 8 target/reference/jackrabbit-jcr-rmi-2.21.15.jar jackrabbit-jcr-rmi/target/jackrabbit-jcr-rmi-2.21.15.jar
+
+6 / 8 target/reference/jackrabbit-webapp-2.21.15.war jackrabbit-webapp/target/jackrabbit-webapp-2.21.15.war
+--- target/reference/jackrabbit-webapp-2.21.15.war
++++ jackrabbit-webapp/target/jackrabbit-webapp-2.21.15.war
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 50389107 bytes, number of entries: 191
+│ +Zip file size: 50389127 bytes, number of entries: 191
+│  -rw-r--r--  2.0 unx       82 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 WEB-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 WEB-INF/classes/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 WEB-INF/classes/META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 WEB-INF/classes/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 WEB-INF/classes/org/apache/
+│ @@ -69,22 +69,22 @@
+│  -rw-r--r--  2.0 unx  1567136 b- defN 80-000-00 04:08 WEB-INF/lib/fontbox-2.0.26.jar
+│  -rw-r--r--  2.0 unx   785639 b- defN 80-000-00 04:08 WEB-INF/lib/httpclient-4.5.14.jar
+│  -rw-r--r--  2.0 unx   327891 b- defN 80-000-00 04:08 WEB-INF/lib/httpcore-4.4.16.jar
+│  -rw-r--r--  2.0 unx    29807 b- defN 80-000-00 04:08 WEB-INF/lib/istack-commons-runtime-3.0.12.jar
+│  -rw-r--r--  2.0 unx  1309213 b- defN 80-000-00 04:08 WEB-INF/lib/jackcess-4.0.1.jar
+│  -rw-r--r--  2.0 unx    83893 b- defN 80-000-00 04:08 WEB-INF/lib/jackcess-encrypt-4.0.1.jar
+│  -rw-r--r--  2.0 unx  2360245 b- defN 80-000-00 04:08 WEB-INF/lib/jackrabbit-core-2.21.15.jar
+│ --rw-r--r--  2.0 unx   173765 b- defN 80-000-00 04:08 WEB-INF/lib/jackrabbit-data-2.21.15.jar
+│ --rw-r--r--  2.0 unx   405680 b- defN 80-000-00 04:08 WEB-INF/lib/jackrabbit-jcr-commons-2.21.15.jar
+│ --rw-r--r--  2.0 unx   238821 b- defN 80-000-00 04:08 WEB-INF/lib/jackrabbit-jcr-rmi-2.21.15.jar
+│ +-rw-r--r--  2.0 unx   173766 b- defN 80-000-00 04:08 WEB-INF/lib/jackrabbit-data-2.21.15.jar
+│ +-rw-r--r--  2.0 unx   405666 b- defN 80-000-00 04:08 WEB-INF/lib/jackrabbit-jcr-commons-2.21.15.jar
+│ +-rw-r--r--  2.0 unx   238841 b- defN 80-000-00 04:08 WEB-INF/lib/jackrabbit-jcr-rmi-2.21.15.jar
+│  -rw-r--r--  2.0 unx   368908 b- defN 80-000-00 04:08 WEB-INF/lib/jackrabbit-jcr-server-2.21.15.jar
+│  -rw-r--r--  2.0 unx    35627 b- defN 80-000-00 04:08 WEB-INF/lib/jackrabbit-jcr-servlet-2.21.15.jar
+│  -rw-r--r--  2.0 unx    28462 b- defN 80-000-00 04:08 WEB-INF/lib/jackrabbit-spi-2.21.15.jar
+│ --rw-r--r--  2.0 unx   804096 b- defN 80-000-00 04:08 WEB-INF/lib/jackrabbit-spi-commons-2.21.15.jar
+│ --rw-r--r--  2.0 unx   338706 b- defN 80-000-00 04:08 WEB-INF/lib/jackrabbit-webdav-2.21.15.jar
+│ +-rw-r--r--  2.0 unx   804104 b- defN 80-000-00 04:08 WEB-INF/lib/jackrabbit-spi-commons-2.21.15.jar
+│ +-rw-r--r--  2.0 unx   338720 b- defN 80-000-00 04:08 WEB-INF/lib/jackrabbit-webdav-2.21.15.jar
+│  -rw-r--r--  2.0 unx   628053 b- defN 80-000-00 04:08 WEB-INF/lib/jai-imageio-core-1.4.0.jar
+│  -rw-r--r--  2.0 unx    68453 b- defN 80-000-00 04:08 WEB-INF/lib/jakarta.activation-1.2.2.jar
+│  -rw-r--r--  2.0 unx   115638 b- defN 80-000-00 04:08 WEB-INF/lib/jakarta.xml.bind-api-2.3.3.jar
+│  -rw-r--r--  2.0 unx   108461 b- defN 80-000-00 04:08 WEB-INF/lib/java-libpst-0.9.3.jar
+│  -rw-r--r--  2.0 unx  1019386 b- defN 80-000-00 04:08 WEB-INF/lib/jaxb-runtime-2.3.6.jar
+│  -rw-r--r--  2.0 unx   143798 b- defN 80-000-00 04:08 WEB-INF/lib/jbig2-imageio-3.0.4.jar
+│  -rw-r--r--  2.0 unx    16555 b- defN 80-000-00 04:08 WEB-INF/lib/jcl-over-slf4j-1.7.36.jar
+│ @@ -186,8 +186,8 @@
+│  -rw-r--r--  2.0 unx     4367 b- defN 80-000-00 04:08 troubleshooting.jsp
+│  -rw-r--r--  2.0 unx     3777 b- defN 80-000-00 04:08 webdav-jcr.jsp
+│  -rw-r--r--  2.0 unx     4014 b- defN 80-000-00 04:08 webdav-remoting.jsp
+│  -rw-r--r--  2.0 unx     3609 b- defN 80-000-00 04:08 webdav-simple.jsp
+│  -rw-r--r--  2.0 unx     2227 b- defN 80-000-00 04:08 welcome.jsp
+│  -rw-r--r--  2.0 unx     7099 b- defN 80-000-00 04:08 META-INF/maven/org.apache.jackrabbit/jackrabbit-webapp/pom.xml
+│  -rw-r--r--  2.0 unx       75 b- defN 80-000-00 04:08 META-INF/maven/org.apache.jackrabbit/jackrabbit-webapp/pom.properties
+│ -191 files, 56523518 bytes uncompressed, 50361381 bytes compressed:  10.9%
+│ +191 files, 56523547 bytes uncompressed, 50361401 bytes compressed:  10.9%
+├── META-INF/MANIFEST.MF
+│ @@ -1,4 +1,4 @@
+│  Manifest-Version: 1.0
+
+│  Ant-Version: Apache Ant 1.10.12
+
+│ -Created-By: 1.8.0_352-8u352-ga-1~22.04-b08 (Private Build)
+
+│ +Created-By: 1.8.0_282-b08 (Oracle Corporation)
+
+8 / 8 target/reference/jackrabbit-jca-2.21.15.rar jackrabbit-jca/target/jackrabbit-jca-2.21.15.rar
+--- target/reference/jackrabbit-jca-2.21.15.rar
++++ jackrabbit-jca/target/jackrabbit-jca-2.21.15.rar
+├── zipinfo {}
+│ @@ -1,107 +1,107 @@
+│ -Zip file size: 47563060 bytes, number of entries: 105
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-07 06:34 META-INF/
+│ --rw-r--r--  2.0 unx      123 b- defN 23-Feb-07 06:34 META-INF/MANIFEST.MF
+...
+│ --rw-r--r--  2.0 unx      122 b- defN 23-Feb-07 06:34 META-INF/maven/org.apache.jackrabbit/jackrabbit-jca/pom.properties
+│ -105 files, 53239044 bytes uncompressed, 47549748 bytes compressed:  10.7%
+│ +Zip file size: 47563052 bytes, number of entries: 105
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-18 18:03 META-INF/
+│ +-rw-r--r--  2.0 unx      121 b- defN 23-Feb-18 18:03 META-INF/MANIFEST.MF
+...
+│ +-rw-r--r--  2.0 unx      122 b- defN 23-Feb-18 18:03 META-INF/maven/org.apache.jackrabbit/jackrabbit-jca/pom.properties
+│ +105 files, 53239037 bytes uncompressed, 47549740 bytes compressed:  10.7%
+├── META-INF/MANIFEST.MF
+│ @@ -1,6 +1,6 @@
+│  Manifest-Version: 1.0
+
+│  Archiver-Version: Plexus Archiver
+
+│  Created-By: Apache Maven
+
+│ -Built-By: jre
+
+│ -Build-Jdk: 1.8.0_352
+
+│ +Built-By: ?
+
+│ +Build-Jdk: 1.8.0_282
+
+├── META-INF/maven/org.apache.jackrabbit/jackrabbit-jca/pom.properties
+│ @@ -1,5 +1,5 @@
+│  #Generated by Maven
+│ -#Tue Feb 07 06:34:04 CET 2023
+│ +#Sat Feb 18 18:03:22 UTC 2023
+│  version=2.21.15
+│  groupId=org.apache.jackrabbit
+│  artifactId=jackrabbit-jca
+

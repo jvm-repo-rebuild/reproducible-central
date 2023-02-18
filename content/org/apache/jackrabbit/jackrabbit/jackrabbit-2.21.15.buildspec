@@ -1,0 +1,21 @@
+groupId=org.apache.jackrabbit
+artifactId=jackrabbit
+display=${groupId}:${artifactId}
+version=2.21.15
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${artifactId}-${version}
+# using source archive provides a few $Id$ substitutions that Git does not do
+sourceDistribution=https://archive.apache.org/dist/jackrabbit/${version}/jackrabbit-${version}-src.zip
+sourcePath=${artifactId}-${version}
+sourceRmFiles="DEPENDENCIES LICENSE NOTICE"
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn -Papache-release package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=
