@@ -1,0 +1,7 @@
+version=1.0.0
+ok=10
+ko=0
+okFiles="complate-parent-1.0.0.pom complate-core-1.0.0.pom complate-core-1.0.0.jar complate-core-1.0.0-sources.jar complate-graal-1.0.0.pom complate-graal-1.0.0.jar complate-graal-1.0.0-sources.jar complate-nashorn-1.0.0.pom complate-nashorn-1.0.0.jar complate-nashorn-1.0.0-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

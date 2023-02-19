@@ -1,0 +1,23 @@
+groupId=org.complate
+artifactId=complate-parent
+version=1.0.0
+
+display=${groupId}:${artifactId}
+
+# Source code
+gitRepo=https://github.com/complate/complate-java.git
+gitTag=v${version}
+
+# Rebuild environment prerequisites
+tool=mvn-3.9.0
+jdk=11
+newline=lf
+
+# Rebuild command
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+# Location of the buildinfo file generated during rebuild to record output fingerprints
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+# if the release is finally not reproducible, link to an issue tracker entry if one was created
+issue=
