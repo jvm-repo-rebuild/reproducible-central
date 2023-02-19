@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Feature Model Diff Tool
+group-id=org.apache.sling
+artifact-id=org.apache.sling.feature.diff
+version=0.1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-feature-diff.git
+source.scm.tag=org.apache.sling.feature.diff-0.1.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.feature.diff-0.1.0.pom
+outputs.0.length=3568
+outputs.0.checksums.sha512=fbc492d25bbd663c58fc3d0fa45840ec68cf95a5c861489fe2ea95a1f31ede598dc975a440afb9bcb83a56cc12c4918e12e5a062cacb4ef6e0ff0551710b91cf
+
+outputs.1.filename=org.apache.sling.feature.diff-0.1.0.jar
+outputs.1.length=22600
+outputs.1.checksums.sha512=245a2075bbdbf1b8f91f15e9733d0d33098b17e22cb4417d3453f324cc4402985db6ba60d05958ce5a1e28d411df723ac2226a3d7cbbb3d559c641dc08bac130
+
+outputs.2.filename=org.apache.sling.feature.diff-0.1.0-source-release.zip
+outputs.2.length=34032
+outputs.2.checksums.sha512=64d315da9d6f62b6ba1ec88bcc3fbffc6b27464ff54439675215f3d0d962334641d67659c1f4c5e8522e1f9d3f59ed484c0ecb18e1b7b89bae2d5d9cd294dbb8
+
+outputs.3.filename=org.apache.sling.feature.diff-0.1.0-sources.jar
+outputs.3.length=19484
+outputs.3.checksums.sha512=54367269a5acae4cac66a29083a81465477142c7a365f034647379f37ea7db7fb5545697c4aa9ed362a49af663b6ad789625270887e8d8c8efa76d301b21f0a2
+
+outputs.4.filename=org.apache.sling.feature.diff-0.1.0-sources.jar
+outputs.4.length=19484
+outputs.4.checksums.sha512=54367269a5acae4cac66a29083a81465477142c7a365f034647379f37ea7db7fb5545697c4aa9ed362a49af663b6ad789625270887e8d8c8efa76d301b21f0a2
