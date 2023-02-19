@@ -1,0 +1,120 @@
+1 / 2 target/reference/org.apache.sling.feature.cpconverter-1.3.0.tar.gz target/org.apache.sling.feature.cpconverter-1.3.0.tar.gz
+--- target/reference/org.apache.sling.feature.cpconverter-1.3.0.tar.gz
++++ target/org.apache.sling.feature.cpconverter-1.3.0.tar.gz
+├── org.apache.sling.feature.cpconverter-1.3.0.tar
+│ ├── file list
+│ │ @@ -1,10 +1,10 @@
+│ │  -rw-rw-rw-   0 root         (0) root         (0)     6009 2023-02-08 14:58:45.000000 org.apache.sling.feature.cpconverter-1.3.0/README.md
+│ │  -rw-r--r--   0 root         (0) root         (0)    17524 2023-02-08 14:58:45.000000 org.apache.sling.feature.cpconverter-1.3.0/LICENSE
+│ │ --rw-r--r--   0 root         (0) root         (0)      178 2023-02-08 14:58:45.000000 org.apache.sling.feature.cpconverter-1.3.0/NOTICE
+│ │ +-rw-rw-r--   0 root         (0) root         (0)      178 2023-02-08 14:58:45.000000 org.apache.sling.feature.cpconverter-1.3.0/NOTICE
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2023-02-08 14:58:45.000000 org.apache.sling.feature.cpconverter-1.3.0/bin/
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     3831 2023-02-08 14:58:45.000000 org.apache.sling.feature.cpconverter-1.3.0/bin/cp2fm
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     3286 2023-02-08 14:58:45.000000 org.apache.sling.feature.cpconverter-1.3.0/bin/cp2fm.bat
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2023-02-08 14:58:45.000000 org.apache.sling.feature.cpconverter-1.3.0/lib/
+│ │  -rw-r--r--   0 root         (0) root         (0)   588337 2023-02-08 14:58:45.000000 org.apache.sling.feature.cpconverter-1.3.0/lib/commons-collections-3.2.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   327135 2023-02-08 14:58:45.000000 org.apache.sling.feature.cpconverter-1.3.0/lib/commons-io-2.11.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   494856 2023-02-08 14:58:45.000000 org.apache.sling.feature.cpconverter-1.3.0/lib/commons-lang3-3.6.jar
+│ ├── org.apache.sling.feature.cpconverter-1.3.0/bin/cp2fm
+│ │ @@ -109,15 +109,15 @@
+│ │    [ -n "$CLASSPATH" ] && CLASSPATH=`cygpath --path --windows "$CLASSPATH"`
+│ │    [ -n "$JAVA_HOME" ] && JAVA_HOME=`cygpath --path --windows "$JAVA_HOME"`
+│ │    [ -n "$HOME" ] && HOME=`cygpath --path --windows "$HOME"`
+│ │    [ -n "$BASEDIR" ] && BASEDIR=`cygpath --path --windows "$BASEDIR"`
+│ │    [ -n "$REPO" ] && REPO=`cygpath --path --windows "$REPO"`
+│ │  fi
+│ │  
+│ │ -exec "$JAVACMD" $JAVA_OPTS -Dproject.artifactId=org.apache.sling.feature.cpconverter -Dproject.version=1.3.0 -Dbuild.timestamp=2023-02-08T14:59:29Z -Duser.timezone=UTC -Dfile.encoding=UTF-8 \
+│ │ +exec "$JAVACMD" $JAVA_OPTS -Dproject.artifactId=org.apache.sling.feature.cpconverter -Dproject.version=1.3.0 -Dbuild.timestamp=2023-02-19T14:25:57Z -Duser.timezone=UTC -Dfile.encoding=UTF-8 \
+│ │    -classpath "$CLASSPATH" \
+│ │    -Dapp.name="cp2fm" \
+│ │    -Dapp.pid="$$" \
+│ │    -Dapp.repo="$REPO" \
+│ │    -Dapp.home="$BASEDIR" \
+│ │    -Dbasedir="$BASEDIR" \
+│ │    org.apache.sling.feature.cpconverter.cli.ContentPackage2FeatureModelConverterLauncher \
+│ ├── org.apache.sling.feature.cpconverter-1.3.0/bin/cp2fm.bat
+│ │ @@ -74,15 +74,15 @@
+│ │  if NOT "%ENDORSED_DIR%" == "" set CLASSPATH="%BASEDIR%"\%ENDORSED_DIR%\*;%CLASSPATH%
+│ │  
+│ │  if NOT "%CLASSPATH_PREFIX%" == "" set CLASSPATH=%CLASSPATH_PREFIX%;%CLASSPATH%
+│ │  
+│ │  @REM Reaching here means variables are defined and arguments have been captured
+│ │  :endInit
+│ │  
+│ │ -%JAVACMD% %JAVA_OPTS% -Dproject.artifactId=org.apache.sling.feature.cpconverter -Dproject.version=1.3.0 -Dbuild.timestamp=2023-02-08T14:59:29Z -Duser.timezone=UTC -Dfile.encoding=UTF-8 -classpath %CLASSPATH% -Dapp.name="cp2fm" -Dapp.repo="%REPO%" -Dapp.home="%BASEDIR%" -Dbasedir="%BASEDIR%" org.apache.sling.feature.cpconverter.cli.ContentPackage2FeatureModelConverterLauncher %CMD_LINE_ARGS%
+│ │ +%JAVACMD% %JAVA_OPTS% -Dproject.artifactId=org.apache.sling.feature.cpconverter -Dproject.version=1.3.0 -Dbuild.timestamp=2023-02-19T14:25:57Z -Duser.timezone=UTC -Dfile.encoding=UTF-8 -classpath %CLASSPATH% -Dapp.name="cp2fm" -Dapp.repo="%REPO%" -Dapp.home="%BASEDIR%" -Dbasedir="%BASEDIR%" org.apache.sling.feature.cpconverter.cli.ContentPackage2FeatureModelConverterLauncher %CMD_LINE_ARGS%
+│ │  if %ERRORLEVEL% NEQ 0 goto error
+│ │  goto end
+│ │  
+│ │  :error
+│ │  if "%OS%"=="Windows_NT" @endlocal
+│ │  set ERROR_CODE=%ERRORLEVEL%
+
+2 / 2 target/reference/org.apache.sling.feature.cpconverter-1.3.0.zip target/org.apache.sling.feature.cpconverter-1.3.0.zip
+--- target/reference/org.apache.sling.feature.cpconverter-1.3.0.zip
++++ target/org.apache.sling.feature.cpconverter-1.3.0.zip
+├── zipinfo {}
+│ @@ -1,14 +1,14 @@
+│ -Zip file size: 8758615 bytes, number of entries: 45
+│ +Zip file size: 8758616 bytes, number of entries: 45
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-08 14:58 org.apache.sling.feature.cpconverter-1.3.0/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-08 14:58 org.apache.sling.feature.cpconverter-1.3.0/bin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-08 14:58 org.apache.sling.feature.cpconverter-1.3.0/lib/
+│  -rw-rw-rw-  2.0 unx     6009 b- defN 23-Feb-08 14:58 org.apache.sling.feature.cpconverter-1.3.0/README.md
+│  -rw-r--r--  2.0 unx    17524 b- defN 23-Feb-08 14:58 org.apache.sling.feature.cpconverter-1.3.0/LICENSE
+│ --rw-r--r--  2.0 unx      178 b- defN 23-Feb-08 14:58 org.apache.sling.feature.cpconverter-1.3.0/NOTICE
+│ +-rw-rw-r--  2.0 unx      178 b- defN 23-Feb-08 14:58 org.apache.sling.feature.cpconverter-1.3.0/NOTICE
+│  -rwxr-xr-x  2.0 unx     3831 b- defN 23-Feb-08 14:58 org.apache.sling.feature.cpconverter-1.3.0/bin/cp2fm
+│  -rwxr-xr-x  2.0 unx     3286 b- defN 23-Feb-08 14:58 org.apache.sling.feature.cpconverter-1.3.0/bin/cp2fm.bat
+│  -rw-r--r--  2.0 unx   588337 b- defN 23-Feb-08 14:58 org.apache.sling.feature.cpconverter-1.3.0/lib/commons-collections-3.2.2.jar
+│  -rw-r--r--  2.0 unx   327135 b- defN 23-Feb-08 14:58 org.apache.sling.feature.cpconverter-1.3.0/lib/commons-io-2.11.0.jar
+│  -rw-r--r--  2.0 unx   494856 b- defN 23-Feb-08 14:58 org.apache.sling.feature.cpconverter-1.3.0/lib/commons-lang3-3.6.jar
+│  -rw-r--r--  2.0 unx    39730 b- defN 23-Feb-08 14:58 org.apache.sling.feature.cpconverter-1.3.0/lib/jackrabbit-api-2.8.0.jar
+│  -rw-r--r--  2.0 unx   405692 b- defN 23-Feb-08 14:58 org.apache.sling.feature.cpconverter-1.3.0/lib/jackrabbit-jcr-commons-2.20.4.jar
+│ @@ -40,8 +40,8 @@
+│  -rw-r--r--  2.0 unx    12548 b- defN 23-Feb-08 14:58 org.apache.sling.feature.cpconverter-1.3.0/lib/org.osgi.util.function-1.0.0.jar
+│  -rw-r--r--  2.0 unx   242435 b- defN 23-Feb-08 14:58 org.apache.sling.feature.cpconverter-1.3.0/lib/picocli-3.6.0.jar
+│  -rw-r--r--  2.0 unx   263253 b- defN 23-Feb-08 14:58 org.apache.sling.feature.cpconverter-1.3.0/lib/plexus-utils-3.3.0.jar
+│  -rw-r--r--  2.0 unx    41203 b- defN 23-Feb-08 14:58 org.apache.sling.feature.cpconverter-1.3.0/lib/slf4j-api-1.7.25.jar
+│  -rw-r--r--  2.0 unx    15257 b- defN 23-Feb-08 14:58 org.apache.sling.feature.cpconverter-1.3.0/lib/slf4j-simple-1.7.25.jar
+│  -rw-r--r--  2.0 unx   113780 b- defN 23-Feb-08 14:58 org.apache.sling.feature.cpconverter-1.3.0/lib/stax-utils-20040917.jar
+│  -rw-r--r--  2.0 unx   584410 b- defN 23-Feb-08 14:58 org.apache.sling.feature.cpconverter-1.3.0/lib/vault-validation-3.6.0.jar
+│ -45 files, 9736560 bytes uncompressed, 8748613 bytes compressed:  10.1%
+│ +45 files, 9736560 bytes uncompressed, 8748614 bytes compressed:  10.1%
+├── org.apache.sling.feature.cpconverter-1.3.0/bin/cp2fm
+│ @@ -109,15 +109,15 @@
+│    [ -n "$CLASSPATH" ] && CLASSPATH=`cygpath --path --windows "$CLASSPATH"`
+│    [ -n "$JAVA_HOME" ] && JAVA_HOME=`cygpath --path --windows "$JAVA_HOME"`
+│    [ -n "$HOME" ] && HOME=`cygpath --path --windows "$HOME"`
+│    [ -n "$BASEDIR" ] && BASEDIR=`cygpath --path --windows "$BASEDIR"`
+│    [ -n "$REPO" ] && REPO=`cygpath --path --windows "$REPO"`
+│  fi
+│  
+│ -exec "$JAVACMD" $JAVA_OPTS -Dproject.artifactId=org.apache.sling.feature.cpconverter -Dproject.version=1.3.0 -Dbuild.timestamp=2023-02-08T14:59:29Z -Duser.timezone=UTC -Dfile.encoding=UTF-8 \
+│ +exec "$JAVACMD" $JAVA_OPTS -Dproject.artifactId=org.apache.sling.feature.cpconverter -Dproject.version=1.3.0 -Dbuild.timestamp=2023-02-19T14:25:57Z -Duser.timezone=UTC -Dfile.encoding=UTF-8 \
+│    -classpath "$CLASSPATH" \
+│    -Dapp.name="cp2fm" \
+│    -Dapp.pid="$$" \
+│    -Dapp.repo="$REPO" \
+│    -Dapp.home="$BASEDIR" \
+│    -Dbasedir="$BASEDIR" \
+│    org.apache.sling.feature.cpconverter.cli.ContentPackage2FeatureModelConverterLauncher \
+├── org.apache.sling.feature.cpconverter-1.3.0/bin/cp2fm.bat
+│ @@ -74,15 +74,15 @@
+│  if NOT "%ENDORSED_DIR%" == "" set CLASSPATH="%BASEDIR%"\%ENDORSED_DIR%\*;%CLASSPATH%
+│  
+│  if NOT "%CLASSPATH_PREFIX%" == "" set CLASSPATH=%CLASSPATH_PREFIX%;%CLASSPATH%
+│  
+│  @REM Reaching here means variables are defined and arguments have been captured
+│  :endInit
+│  
+│ -%JAVACMD% %JAVA_OPTS% -Dproject.artifactId=org.apache.sling.feature.cpconverter -Dproject.version=1.3.0 -Dbuild.timestamp=2023-02-08T14:59:29Z -Duser.timezone=UTC -Dfile.encoding=UTF-8 -classpath %CLASSPATH% -Dapp.name="cp2fm" -Dapp.repo="%REPO%" -Dapp.home="%BASEDIR%" -Dbasedir="%BASEDIR%" org.apache.sling.feature.cpconverter.cli.ContentPackage2FeatureModelConverterLauncher %CMD_LINE_ARGS%
+│ +%JAVACMD% %JAVA_OPTS% -Dproject.artifactId=org.apache.sling.feature.cpconverter -Dproject.version=1.3.0 -Dbuild.timestamp=2023-02-19T14:25:57Z -Duser.timezone=UTC -Dfile.encoding=UTF-8 -classpath %CLASSPATH% -Dapp.name="cp2fm" -Dapp.repo="%REPO%" -Dapp.home="%BASEDIR%" -Dbasedir="%BASEDIR%" org.apache.sling.feature.cpconverter.cli.ContentPackage2FeatureModelConverterLauncher %CMD_LINE_ARGS%
+│  if %ERRORLEVEL% NEQ 0 goto error
+│  goto end
+│  
+│  :error
+│  if "%OS%"=="Windows_NT" @endlocal
+│  set ERROR_CODE=%ERRORLEVEL%
+
