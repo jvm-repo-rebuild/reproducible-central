@@ -1,0 +1,8 @@
+version=0.11.0
+ok=2
+ko=1
+okFiles="gemLibPki-0.11.0.pom gemLibPki-0.11.0-sources.jar"
+koFiles="gemLibPki-0.11.0.jar"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/gemLibPki-0.11.0.jar target/gemLibPki-0.11.0.jar

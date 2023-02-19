@@ -1,0 +1,48 @@
+1 / 1 target/reference/gemLibPki-0.11.0.jar target/gemLibPki-0.11.0.jar
+--- target/reference/gemLibPki-0.11.0.jar
++++ target/gemLibPki-0.11.0.jar
+├── zipinfo -v {}
+│ @@ -1202,15 +1202,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          2023 Feb 14 09:00:50
+│ -  32-bit CRC value (hex):                         f7b40b3d
+│ +  32-bit CRC value (hex):                         f2e5821b
+│    compressed size:                                7164 bytes
+│    uncompressed size:                              19299 bytes
+│    length of filename:                             57 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── de/gematik/pki/gemlibpki/ocsp/OcspResponseGenerator.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1104,21 +1104,21 @@
+│ │         522: invokestatic  #277                // Method createOcspResp:(Leu/europa/esig/dss/spi/x509/revocation/ocsp/OCSPRespStatus;Lorg/bouncycastle/cert/ocsp/BasicOCSPResp;)Lorg/bouncycastle/cert/ocsp/OCSPResp;
+│ │         525: areturn
+│ │        LineNumberTable:
+│ │          line 174: 0
+│ │          line 176: 36
+│ │          line 177: 42
+│ │          line 178: 63
+│ │ -        line 179: 81
+│ │ +        line 175: 81
+│ │          line 181: 84
+│ │          line 182: 93
+│ │          line 183: 104
+│ │          line 185: 110
+│ │          line 186: 118
+│ │ -        line 187: 128
+│ │ +        line 180: 128
+│ │          line 188: 131
+│ │          line 192: 148
+│ │          line 194: 157
+│ │          line 196: 166
+│ │          line 197: 190
+│ │          line 199: 218
+│ │          line 200: 226
+

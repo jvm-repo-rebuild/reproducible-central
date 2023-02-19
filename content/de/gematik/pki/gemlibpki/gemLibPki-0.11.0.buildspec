@@ -1,0 +1,18 @@
+groupId=de.gematik.pki.gemlibpki
+artifactId=gemLibPki
+version=0.11.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/gematik/ref-GemLibPki.git
+gitTag=${version}
+
+tool=mvn
+jdk=17
+newline=lf
+
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=
