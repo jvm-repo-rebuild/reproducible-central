@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Site Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-site-plugin
+version=4.0.0-M5
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-site-plugin.git
+source.scm.tag=maven-site-plugin-4.0.0-M5
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.filename=maven-site-plugin-4.0.0-M5.pom
+outputs.0.length=19239
+outputs.0.checksums.sha512=012a406c70907241433a8a9f5cdfb3725f1764cfb7ff7a4e59caf886239e3082e31ce1c9b4db2173fe61e4a1eb44bc91f8b91f35ec2632bc25ac5f2ac2d4073d
+
+outputs.1.filename=maven-site-plugin-4.0.0-M5.jar
+outputs.1.length=116492
+outputs.1.checksums.sha512=5076d872de82795c3a91b411a278c943c1fc1db21e21f68105b723a202c7d5aa15bcd9d1edd1cff3e33f56b1405b6aecd95ca884e03523bcabc47c6bb535a78e
+
+outputs.2.filename=maven-site-plugin-4.0.0-M5-source-release.zip
+outputs.2.length=1092626
+outputs.2.checksums.sha512=7fd11f178420756658b06ded887adf0089a20a6c44bb73f5309e99b26b144f5d3a3dab80c8aac71eb99138a052fcb92aa5721ab95e79ea0f718d09f4d23ac4a2
+
+outputs.3.filename=maven-site-plugin-4.0.0-M5-sources.jar
+outputs.3.length=87235
+outputs.3.checksums.sha512=ffcb76a049e403a0c2dab86b60f054fabd4d9f3afe18d85112ee276b514654082539c5fab350e1e87d71f59817347398a1ecc577766a8b80ff9faef52a17930f
