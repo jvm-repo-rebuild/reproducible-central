@@ -1,0 +1,42 @@
+1 / 36 target/reference/surefire-api-3.0.0-M9.jar surefire-api/target/surefire-api-3.0.0-M9.jar
+--- target/reference/surefire-api-3.0.0-M9.jar
++++ surefire-api/target/surefire-api-3.0.0-M9.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 169689 bytes, number of entries: 166
+│ +Zip file size: 169801 bytes, number of entries: 166
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-10 06:11 META-INF/
+│  -rw-r--r--  2.0 unx      323 b- defN 23-Feb-10 06:11 META-INF/MANIFEST.MF
+│ @@ -18,15 +18,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-10 06:11 META-INF/maven/org.apache.maven.surefire/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-10 06:11 META-INF/maven/org.apache.maven.surefire/surefire-api/
+│ --rw-r--r--  2.0 unx      810 b- defN 23-Feb-10 06:11 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx     1663 b- defN 23-Feb-10 06:11 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 23-Feb-10 06:11 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      169 b- defN 23-Feb-10 06:11 META-INF/NOTICE
+│ @@ -161,8 +161,8 @@
+│  -rw-r--r--  2.0 unx     3390 b- defN 23-Feb-10 06:11 META-INF/maven/org.apache.maven.surefire/surefire-api/pom.xml
+│  -rw-r--r--  2.0 unx       75 b- defN 23-Feb-10 06:11 META-INF/maven/org.apache.maven.surefire/surefire-api/pom.properties
+│ -166 files, 322999 bytes uncompressed, 137671 bytes compressed:  57.4%
+│ +166 files, 323852 bytes uncompressed, 137783 bytes compressed:  57.5%
+├── META-INF/DEPENDENCIES
+│ @@ -3,14 +3,22 @@
+│  // maven pom organized by organization.
+│  // ------------------------------------------------------------------
+│  
+│  SureFire API
+│  
+│  
+│  From: 'The Apache Software Foundation' (https://www.apache.org/)
+│ +  - Apache Commons IO (https://commons.apache.org/proper/commons-io/) commons-io:commons-io:jar:2.11.0
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Commons Compress (https://commons.apache.org/proper/commons-compress/) org.apache.commons:commons-compress:jar:1.21
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Commons Lang (https://commons.apache.org/proper/commons-lang/) org.apache.commons:commons-lang3:jar:3.12.0
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ +  - Apache Maven Shared Utils (https://maven.apache.org/shared/maven-shared-utils/) org.apache.maven.shared:maven-shared-utils:jar:3.3.4
+│ +    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - SureFire Logger API (https://maven.apache.org/surefire/surefire-logger-api/) org.apache.maven.surefire:surefire-logger-api:jar:3.0.0-M9
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Surefire Shared Utils (https://maven.apache.org/surefire/surefire-shared-utils/) org.apache.maven.surefire:surefire-shared-utils:jar:3.0.0-M9
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
