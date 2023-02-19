@@ -1,0 +1,46 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Feature Model
+group-id=org.apache.sling
+artifact-id=org.apache.sling.feature
+version=2.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-feature.git
+source.scm.tag=org.apache.sling.feature-2.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.feature-2.0.0.pom
+outputs.0.length=6542
+outputs.0.checksums.sha512=58c2f7591cc0d05dd32f4f8cbb453f657b09cfbdeb0b8b5dda9c42107b682d714b88f9e9c50a127672dd6efb3fb284b4bebad7cd93f21d7bdbabb1db4cce26d2
+
+outputs.1.filename=org.apache.sling.feature-2.0.0.jar
+outputs.1.length=207894
+outputs.1.checksums.sha512=80ecde393fc01af6eaca7dfddae6eabd6cd331026b300b36a306a3501588286148c3a1d85459ca62556b4d0b7b902a09a5b1de121aa617f3a9777c983c72d907
+
+outputs.2.filename=org.apache.sling.feature-2.0.0-source-release.zip
+outputs.2.length=969316
+outputs.2.checksums.sha512=9fb2a646ec3d0d0fca3ab91351a7e78a46d2c32b9fe8db666d525a5deacc7c02ee7c940a15e71392c1bbfad5453e0de4eeac3499c3a85c9ff3a511e9c330fb3b
+
+outputs.3.filename=org.apache.sling.feature-2.0.0-sources.jar
+outputs.3.length=105617
+outputs.3.checksums.sha512=9a60d633159da966bf636db1edd7584f69f852adc32d7359b196c68ea2e6ecd83e0ea2719a2a302bece2cec58dffae3c3642e77c614368ed443beeb8e92a9a29
+
+outputs.4.filename=org.apache.sling.feature-2.0.0-sources.jar
+outputs.4.length=105617
+outputs.4.checksums.sha512=9a60d633159da966bf636db1edd7584f69f852adc32d7359b196c68ea2e6ecd83e0ea2719a2a302bece2cec58dffae3c3642e77c614368ed443beeb8e92a9a29
+
+outputs.5.filename=org.apache.sling.feature-2.0.0-sources.jar
+outputs.5.length=105617
+outputs.5.checksums.sha512=9a60d633159da966bf636db1edd7584f69f852adc32d7359b196c68ea2e6ecd83e0ea2719a2a302bece2cec58dffae3c3642e77c614368ed443beeb8e92a9a29
