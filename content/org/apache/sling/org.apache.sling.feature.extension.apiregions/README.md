@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-feature-extension-apiregions.git](https://github.com/apache/sling-org-apache-sling-feature-extension-apiregions.git)
 
-rebuilding **8 releases** of org.apache.sling:org.apache.sling.feature.extension.apiregions:
-- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **9 releases** of org.apache.sling:org.apache.sling.feature.extension.apiregions:
+- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.0.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.extension.apiregions/2.0.0/pom) | | | |
+| [2.0.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.extension.apiregions/2.0.0/pom) | [mvn jdk11](org.apache.sling.feature.extension.apiregions-2.0.0.buildspec) | [result](org.apache.sling.feature.extension.apiregions-2.0.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.feature.extension.apiregions-2.0.0.buildcompare) | 583K |
 | [1.6.4](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.extension.apiregions/1.6.4/pom) | [mvn jdk11](org.apache.sling.feature.extension.apiregions-1.6.4.buildspec) | [result](org.apache.sling.feature.extension.apiregions-1.6.4.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.feature.extension.apiregions-1.6.4.buildcompare) | 585K |
 | [1.6.2](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.extension.apiregions/1.6.2/pom) | [mvn jdk11](org.apache.sling.feature.extension.apiregions-1.6.2.buildspec) | [result](org.apache.sling.feature.extension.apiregions-1.6.2.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.feature.extension.apiregions-1.6.2.buildcompare) | 551K |
 | [1.6.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.feature.extension.apiregions/1.6.0/pom) | [mvn jdk11](org.apache.sling.feature.extension.apiregions-1.6.0.buildspec) | [result](org.apache.sling.feature.extension.apiregions-1.6.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.feature.extension.apiregions-1.6.0.buildcompare) | 551K |

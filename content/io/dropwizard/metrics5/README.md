@@ -47,14 +47,14 @@ Source code: [https://github.com/dropwizard/metrics.git](https://github.com/drop
 * [io.dropwizard.metrics5:metrics-servlets](https://search.maven.org/artifact/io.dropwizard.metrics5/metrics-servlets/)
 </details>
 
-rebuilding **8 releases** of io.dropwizard.metrics5:metrics-parent:
+rebuilding **9 releases** of io.dropwizard.metrics5:metrics-parent:
 - **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [5.0.0](https://search.maven.org/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0/pom) | | | |
-| [5.0.0-rc16](https://search.maven.org/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc16/pom) | | | |
+| [5.0.0-rc16](https://search.maven.org/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc16/pom) | [mvn jdk11](dropwizard-metrics-5.0.0-rc16.buildspec) | [result](metrics-parent-5.0.0-rc16.buildinfo): [90 :heavy_check_mark:  2 :warning:](metrics-parent-5.0.0-rc16.buildcompare) [:mag:](metrics-parent-5.0.0-rc16.diffoscope) | 1.1M |
 | [5.0.0-rc15](https://search.maven.org/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc15/pom) | [mvn jdk11](dropwizard-metrics-5.0.0-rc15.buildspec) | [result](metrics-parent-5.0.0-rc15.buildinfo): [102 :heavy_check_mark:  2 :warning:](metrics-parent-5.0.0-rc15.buildcompare) [:mag:](metrics-parent-5.0.0-rc15.diffoscope) | 1.2M |
 | [5.0.0-rc14](https://search.maven.org/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc14/pom) | [mvn jdk11](dropwizard-metrics-5.0.0-rc14.buildspec) | [result](metrics-parent-5.0.0-rc14.buildinfo): [102 :heavy_check_mark:  2 :warning:](metrics-parent-5.0.0-rc14.buildcompare) [:mag:](metrics-parent-5.0.0-rc14.diffoscope) | 1.2M |
 | [5.0.0-rc13](https://search.maven.org/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc13/pom) | [mvn jdk11](dropwizard-metrics-5.0.0-rc13.buildspec) | [result](metrics-parent-5.0.0-rc13.buildinfo): [101 :heavy_check_mark: ](metrics-parent-5.0.0-rc13.buildcompare) | 1.1M |
