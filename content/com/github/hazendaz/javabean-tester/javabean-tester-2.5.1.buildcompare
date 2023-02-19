@@ -1,0 +1,7 @@
+version=2.5.1
+ok=5
+ko=0
+okFiles="javabean-tester-2.5.1.pom javabean-tester-2.5.1.jar javabean-tester-2.5.1-tests.jar javabean-tester-2.5.1-sources.jar javabean-tester-2.5.1-test-sources.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
