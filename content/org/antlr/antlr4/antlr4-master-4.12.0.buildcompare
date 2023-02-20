@@ -1,0 +1,8 @@
+version=4.12.0
+ok=14
+ko=1
+okFiles="antlr4-master-4.12.0.pom antlr4-runtime-4.12.0.pom antlr4-runtime-4.12.0-sources.jar antlr4-4.12.0.pom antlr4-4.12.0.jar antlr4-4.12.0-sources.jar antlr4-4.12.0-complete.jar antlr4-maven-plugin-4.12.0.pom antlr4-maven-plugin-4.12.0.jar antlr4-runtime-testsuite-4.12.0.pom antlr4-runtime-testsuite-4.12.0.jar antlr4-runtime-testsuite-4.12.0-tests.jar antlr4-tool-testsuite-4.12.0.pom antlr4-tool-testsuite-4.12.0.jar"
+koFiles="antlr4-runtime-4.12.0.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/antlr4-runtime-4.12.0.jar runtime/Java/target/antlr4-runtime-4.12.0.jar

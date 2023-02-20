@@ -1,0 +1,58 @@
+1 / 1 target/reference/antlr4-runtime-4.12.0.jar runtime/Java/target/antlr4-runtime-4.12.0.jar
+--- target/reference/antlr4-runtime-4.12.0.jar
++++ runtime/Java/target/antlr4-runtime-4.12.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 326308 bytes, number of entries: 232
+│ +Zip file size: 326305 bytes, number of entries: 232
+│  -rw-r--r--  2.0 unx     1759 b- defN 23-Feb-19 20:35 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-19 20:35 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-19 20:35 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-19 20:35 org/antlr/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-19 20:35 org/antlr/v4/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-19 20:35 org/antlr/v4/runtime/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-19 20:35 org/antlr/v4/runtime/atn/
+│ @@ -227,8 +227,8 @@
+│  -rw-r--r--  2.0 unx     1733 b- defN 23-Feb-19 20:35 org/antlr/v4/runtime/tree/xpath/XPathRuleElement.class
+│  -rw-r--r--  2.0 unx      985 b- defN 23-Feb-19 20:35 org/antlr/v4/runtime/tree/xpath/XPathTokenAnywhereElement.class
+│  -rw-r--r--  2.0 unx     1835 b- defN 23-Feb-19 20:35 org/antlr/v4/runtime/tree/xpath/XPathTokenElement.class
+│  -rw-r--r--  2.0 unx     1018 b- defN 23-Feb-19 20:35 org/antlr/v4/runtime/tree/xpath/XPathWildcardAnywhereElement.class
+│  -rw-r--r--  2.0 unx     1523 b- defN 23-Feb-19 20:35 org/antlr/v4/runtime/tree/xpath/XPathWildcardElement.class
+│  -rw-r--r--  2.0 unx     3552 b- defN 23-Feb-19 20:35 META-INF/maven/org.antlr/antlr4-runtime/pom.xml
+│  -rw-r--r--  2.0 unx       59 b- defN 23-Feb-19 20:35 META-INF/maven/org.antlr/antlr4-runtime/pom.properties
+│ -232 files, 641178 bytes uncompressed, 287064 bytes compressed:  55.2%
+│ +232 files, 641178 bytes uncompressed, 287061 bytes compressed:  55.2%
+├── META-INF/MANIFEST.MF
+│ @@ -12,23 +12,23 @@
+│  Bundle-Name: ANTLR 4 Runtime
+│  Bundle-SymbolicName: org.antlr.antlr4-runtime
+│  Bundle-Vendor: ANTLR
+│  Bundle-Version: 4.12.0
+│  Export-Package: org.antlr.v4.runtime;uses:="org.antlr.v4.runtime.atn,org
+│   .antlr.v4.runtime.dfa,org.antlr.v4.runtime.misc,org.antlr.v4.runtime.tr
+│   ee,org.antlr.v4.runtime.tree.pattern";version="4.12.0",org.antlr.v4.run
+│ - time.misc;uses:="org.antlr.v4.runtime";version="4.12.0",org.antlr.v4.ru
+│ - ntime.tree;uses:="org.antlr.v4.runtime,org.antlr.v4.runtime.misc";versi
+│ - on="4.12.0",org.antlr.v4.runtime.tree.xpath;uses:="org.antlr.v4.runtime
+│ - ,org.antlr.v4.runtime.atn,org.antlr.v4.runtime.tree";version="4.12.0",o
+│ - rg.antlr.v4.runtime.tree.pattern;uses:="org.antlr.v4.runtime,org.antlr.
+│ - v4.runtime.misc,org.antlr.v4.runtime.tree";version="4.12.0",org.antlr.v
+│ - 4.runtime.dfa;uses:="org.antlr.v4.runtime,org.antlr.v4.runtime.atn";ver
+│ - sion="4.12.0",org.antlr.v4.runtime.atn;uses:="org.antlr.v4.runtime,org.
+│ - antlr.v4.runtime.dfa,org.antlr.v4.runtime.misc";version="4.12.0"
+│ + time.tree;uses:="org.antlr.v4.runtime,org.antlr.v4.runtime.misc";versio
+│ + n="4.12.0",org.antlr.v4.runtime.tree.pattern;uses:="org.antlr.v4.runtim
+│ + e,org.antlr.v4.runtime.misc,org.antlr.v4.runtime.tree";version="4.12.0"
+│ + ,org.antlr.v4.runtime.tree.xpath;uses:="org.antlr.v4.runtime,org.antlr.
+│ + v4.runtime.atn,org.antlr.v4.runtime.tree";version="4.12.0",org.antlr.v4
+│ + .runtime.misc;uses:="org.antlr.v4.runtime";version="4.12.0",org.antlr.v
+│ + 4.runtime.atn;uses:="org.antlr.v4.runtime,org.antlr.v4.runtime.dfa,org.
+│ + antlr.v4.runtime.misc";version="4.12.0",org.antlr.v4.runtime.dfa;uses:=
+│ + "org.antlr.v4.runtime,org.antlr.v4.runtime.atn";version="4.12.0"
+│  Import-Package: org.antlr.v4.gui;resolution:=optional,org.antlr.v4.runti
+│   me,org.antlr.v4.runtime.atn,org.antlr.v4.runtime.dfa,org.antlr.v4.runti
+│   me.misc,org.antlr.v4.runtime.tree,org.antlr.v4.runtime.tree.pattern,org
+│   .antlr.v4.runtime.tree.xpath
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+│  Tool: Bnd-6.3.1.202206071316
+
