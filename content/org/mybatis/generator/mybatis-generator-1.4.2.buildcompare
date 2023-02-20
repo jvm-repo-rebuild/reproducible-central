@@ -1,0 +1,9 @@
+version=1.4.2
+ok=7
+ko=2
+okFiles="mybatis-generator-1.4.2.pom mybatis-generator-1.4.2-site.xml mybatis-generator-core-1.4.2.pom mybatis-generator-core-1.4.2-sources.jar mybatis-generator-maven-plugin-1.4.2.pom mybatis-generator-maven-plugin-1.4.2.jar mybatis-generator-maven-plugin-1.4.2-sources.jar"
+koFiles="mybatis-generator-core-1.4.2.jar mybatis-generator-core-1.4.2-bundle.zip"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/mybatis-generator-core-1.4.2.jar mybatis-generator-core/target/mybatis-generator-core-1.4.2.jar
+# diffoscope target/reference/mybatis-generator-core-1.4.2-bundle.zip mybatis-generator-core/target/mybatis-generator-core-1.4.2-bundle.zip

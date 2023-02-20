@@ -1,0 +1,56 @@
+1 / 2 target/reference/mybatis-generator-core-1.4.2.jar mybatis-generator-core/target/mybatis-generator-core-1.4.2.jar
+--- target/reference/mybatis-generator-core-1.4.2.jar
++++ mybatis-generator-core/target/mybatis-generator-core-1.4.2.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 727268 bytes, number of entries: 510
+│ +Zip file size: 727277 bytes, number of entries: 510
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-19 22:36 META-INF/
+│  -rw-r--r--  2.0 unx     4205 b- defN 23-Feb-19 22:36 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-19 22:36 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-19 22:36 org/mybatis/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-19 22:36 org/mybatis/generator/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-19 22:36 org/mybatis/generator/ant/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Feb-19 22:36 org/mybatis/generator/api/
+│ @@ -505,8 +505,8 @@
+│  -rw-r--r--  2.0 unx     3554 b- defN 23-Feb-19 22:36 org/mybatis/generator/runtime/kotlin/elements/UpdateByPrimaryKeySelectiveMethodGenerator$Builder.class
+│  -rw-r--r--  2.0 unx     6673 b- defN 23-Feb-19 22:36 org/mybatis/generator/runtime/kotlin/elements/UpdateByPrimaryKeySelectiveMethodGenerator.class
+│  -rw-r--r--  2.0 unx      351 b- defN 23-Feb-19 22:36 org/mybatis/generator/runtime/kotlin/elements/UpdateSelectiveColumnsMethodGenerator$1.class
+│  -rw-r--r--  2.0 unx     3011 b- defN 23-Feb-19 22:36 org/mybatis/generator/runtime/kotlin/elements/UpdateSelectiveColumnsMethodGenerator$Builder.class
+│  -rw-r--r--  2.0 unx     6057 b- defN 23-Feb-19 22:36 org/mybatis/generator/runtime/kotlin/elements/UpdateSelectiveColumnsMethodGenerator.class
+│  -rw-r--r--  2.0 unx     7813 b- defN 23-Feb-19 22:36 META-INF/maven/org.mybatis.generator/mybatis-generator-core/pom.xml
+│  -rw-r--r--  2.0 unx       81 b- defN 23-Feb-19 22:36 META-INF/maven/org.mybatis.generator/mybatis-generator-core/pom.properties
+│ -510 files, 1704961 bytes uncompressed, 615672 bytes compressed:  63.9%
+│ +510 files, 1704961 bytes uncompressed, 615681 bytes compressed:  63.9%
+├── META-INF/MANIFEST.MF
+│ @@ -54,19 +54,19 @@
+│   ments;version="1.4.2",org.mybatis.generator.runtime.kotlin;version="1.4
+│   .2",org.mybatis.generator.runtime.kotlin.elements;version="1.4.2"
+│  Git-Revision: 32b746cf0e59a35531d96b52f8b826888ab6e587
+│  Import-Package: javax.xml.parsers,org.apache.commons.logging,org.apache.
+│   logging.log4j,org.apache.logging.log4j.message,org.apache.logging.log4j
+│   .spi,org.apache.tools.ant,org.apache.tools.ant.types,org.slf4j,org.slf4
+│   j.spi,org.w3c.dom,org.xml.sax
+│ -Include-Resource: {org/mybatis/generator/codegen/mybatis3/javamapper/ele
+│ - ments/sqlprovider/ApplyWhereMethod.txt=src/main/resources/org/mybatis/g
+│ - enerator/codegen/mybatis3/javamapper/elements/sqlprovider/ApplyWhereMet
+│ - hod.txt},{org/mybatis/generator/config/xml/mybatis-generator-config_1_0
+│ - .dtd=src/main/resources/org/mybatis/generator/config/xml/mybatis-genera
+│ - tor-config_1_0.dtd},{org/mybatis/generator/internal/util/messages/messa
+│ - ges.properties=src/main/resources/org/mybatis/generator/internal/util/m
+│ - essages/messages.properties},META-INF/LICENSE=LICENSE,META-INF/NOTICE=N
+│ +Include-Resource: {org/mybatis/generator/config/xml/mybatis-generator-co
+│ + nfig_1_0.dtd=src/main/resources/org/mybatis/generator/config/xml/mybati
+│ + s-generator-config_1_0.dtd},{org/mybatis/generator/internal/util/messag
+│ + es/messages.properties=src/main/resources/org/mybatis/generator/interna
+│ + l/util/messages/messages.properties},{org/mybatis/generator/codegen/myb
+│ + atis3/javamapper/elements/sqlprovider/ApplyWhereMethod.txt=src/main/res
+│ + ources/org/mybatis/generator/codegen/mybatis3/javamapper/elements/sqlpr
+│ + ovider/ApplyWhereMethod.txt},META-INF/LICENSE=LICENSE,META-INF/NOTICE=N
+│   OTICE
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+│  Tool: Bnd-6.4.0.202211291949
+
+2 / 2 target/reference/mybatis-generator-core-1.4.2-bundle.zip mybatis-generator-core/target/mybatis-generator-core-1.4.2-bundle.zip
+/srv/diffoscope/bin/diffoscope: target/reference/mybatis-generator-core-1.4.2-bundle.zip: No such file or directory
+

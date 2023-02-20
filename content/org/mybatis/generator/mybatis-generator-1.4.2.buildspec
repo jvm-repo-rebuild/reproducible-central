@@ -1,0 +1,18 @@
+groupId=org.mybatis.generator
+artifactId=mybatis-generator
+version=1.4.2
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/mybatis/generator.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=17
+newline=crlf
+
+command="mvn -f core -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=core/target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=

@@ -1,0 +1,69 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=MyBatis Generator
+group-id=org.mybatis.generator
+artifact-id=mybatis-generator
+version=1.4.2
+
+# source information
+source.scm.uri=scm:git:ssh://github.com/mybatis/generator.git
+source.scm.tag=mybatis-generator-1.4.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=mybatis-generator-maven-plugin
+
+# aggregated output
+
+outputs.0.coordinates=org.mybatis.generator:mybatis-generator
+
+outputs.0.0.filename=mybatis-generator-1.4.2.pom
+outputs.0.0.length=12503
+outputs.0.0.checksums.sha512=ca0e4354d78697bea0c0ee02915fff87e9de637d0aa369f4e5e8affb4ad8635eb4d6936e2c028cb99a7005ab56b3a2956245ca1bec002d788f76873f71aa547c
+
+outputs.0.1.filename=mybatis-generator-1.4.2-site.xml
+outputs.0.1.length=1031
+outputs.0.1.checksums.sha512=87491342592e109667fb8d0f66c30912da9d4936739fa33fa2cc22b8cd85b223e1ad0f207128024ca804c09536044566f4017d642aa9fc3e7881681540164b78
+
+outputs.1.coordinates=org.mybatis.generator:mybatis-generator-core
+
+outputs.1.0.filename=mybatis-generator-core-1.4.2.pom
+outputs.1.0.length=7813
+outputs.1.0.checksums.sha512=5193c3c39dd78053fa83dd33d1f92f584777d3a1c06ab7526ceb86bbcd4ff875232b0b1e7e888cdba9509d49a560d4f0132c9f30becba835a1e98851e37cd26e
+
+outputs.1.1.filename=mybatis-generator-core-1.4.2.jar
+outputs.1.1.length=727277
+outputs.1.1.checksums.sha512=f5fe18c284e4f002a47c7e102316146fd7a19b4baa03116e5739812e91195fd02e2f5652123183b70c66f0b3f3aba6aeb5d0e16ced2df61fec0e8189abdc250e
+
+outputs.1.2.filename=mybatis-generator-core-1.4.2-sources.jar
+outputs.1.2.length=485361
+outputs.1.2.checksums.sha512=29171c5471df72dc40e096bbc8ff2c0c5e1f2de7490459431c57221e750a748600db306e600a64d933013c0264159cb9615d2f0c1ecd26c64a8370ba5c74c9a3
+
+outputs.1.3.filename=mybatis-generator-core-1.4.2-sources.jar
+outputs.1.3.length=485361
+outputs.1.3.checksums.sha512=29171c5471df72dc40e096bbc8ff2c0c5e1f2de7490459431c57221e750a748600db306e600a64d933013c0264159cb9615d2f0c1ecd26c64a8370ba5c74c9a3
+
+outputs.1.4.filename=mybatis-generator-core-1.4.2-bundle.zip
+outputs.1.4.length=1066836
+outputs.1.4.checksums.sha512=b88dc75f4e80421eb21785feaa85b91acdaa69c881e571c33ac3b8ef61b091e6156f51e87f1ea08b61364d38060091f071fb9801abdff4d362f4b7c816bfece3
+
+outputs.2.coordinates=org.mybatis.generator:mybatis-generator-maven-plugin
+
+outputs.2.0.filename=mybatis-generator-maven-plugin-1.4.2.pom
+outputs.2.0.length=2939
+outputs.2.0.checksums.sha512=83e2b8c8aa465b7d57f64bcd5c6f655e207a8c914fe34be358209181ff39e8c281f31eff12160e5185250009a9fe15bf19a34cec577269d3204c90219cfa82af
+
+outputs.2.1.filename=mybatis-generator-maven-plugin-1.4.2.jar
+outputs.2.1.length=27837
+outputs.2.1.checksums.sha512=4198264665f4b718416f5db847e2d0aaf8aac7e8a18adfd0419581e3051b4d69ce7dafb7fa1b6f3f700f5632abcf09b0b01da6775b64dfd478ca590f9ac48521
+
+outputs.2.2.filename=mybatis-generator-maven-plugin-1.4.2-sources.jar
+outputs.2.2.length=19200
+outputs.2.2.checksums.sha512=ca5a2bd06d68dc5b1ad093badb2df81e4e1905e65293ef33b04a0e5954c222f8aea6267ca5229e248cc44de47291a2265b3c43a8e15a8f66aa83c3effe9d2ff4
