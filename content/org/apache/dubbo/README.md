@@ -138,6 +138,7 @@ rebuilding **8 releases** of org.apache.dubbo:dubbo:
 | [3.2.0-beta.3](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.2.0-beta.3/pom) | | | |
 | [3.2.0-beta.2](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.2.0-beta.2/pom) | | | |
 | [3.2.0-beta.1](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.2.0-beta.1/pom) | | | |
+| [3.1.7](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.1.7/pom) | | | |
 | [3.1.6](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.1.6/pom) | | | |
 | [3.1.5](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.1.5/pom) | [mvn jdk8](dubbo-3.1.5.buildspec) | [result](dubbo-parent-3.1.5.buildinfo): [188 :heavy_check_mark:  7 :warning:](dubbo-parent-3.1.5.buildcompare) [:mag:](dubbo-parent-3.1.5.diffoscope) | 22M |
 | [3.1.4](https://search.maven.org/artifact/org.apache.dubbo/dubbo/3.1.4/pom) | | | |
