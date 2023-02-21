@@ -156,13 +156,13 @@ Source code: [https://gitbox.apache.org/repos/asf/syncope.git](https://gitbox.ap
 * [org.apache.syncope:syncope-wa](https://search.maven.org/artifact/org.apache.syncope/syncope-wa/)
 </details>
 
-rebuilding **2 releases** of org.apache.syncope:syncope:
+rebuilding **3 releases** of org.apache.syncope:syncope:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.0.2](https://search.maven.org/artifact/org.apache.syncope/syncope/3.0.2/pom) | | | |
+| [3.0.2](https://search.maven.org/artifact/org.apache.syncope/syncope/3.0.2/pom) | [mvn jdk11](syncope-3.0.2.buildspec) | [result](syncope-3.0.2.buildinfo): [265 :heavy_check_mark:  1 :warning:](syncope-3.0.2.buildcompare) [:mag:](syncope-3.0.2.diffoscope) | 155M |
 | [3.0.1](https://search.maven.org/artifact/org.apache.syncope/syncope/3.0.1/pom) | | | |
 | [3.0.0](https://search.maven.org/artifact/org.apache.syncope/syncope/3.0.0/pom) | [mvn jdk11](syncope-3.0.0.buildspec) | [result](syncope-3.0.0.buildinfo): [259 :heavy_check_mark:  7 :warning:](syncope-3.0.0.buildcompare) [:mag:](syncope-3.0.0.diffoscope) [:memo:](https://github.com/apache/syncope/pull/402) | 163M |
 | [3.0.0-M2](https://search.maven.org/artifact/org.apache.syncope/syncope/3.0.0-M2/pom) | | | |
