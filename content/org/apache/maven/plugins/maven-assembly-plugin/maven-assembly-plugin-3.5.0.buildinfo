@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Assembly Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-assembly-plugin
+version=3.5.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-assembly-plugin.git
+source.scm.tag=maven-assembly-plugin-3.5.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.filename=maven-assembly-plugin-3.5.0.pom
+outputs.0.length=14280
+outputs.0.checksums.sha512=31792056fb5322b0935ab47dda20b0623535e722b01b4f0846df01a6ad1226c4e7c09ac17efcde7b500b328bd4cd842a5117cd6cfc16dfd37f567c68c7bb57dc
+
+outputs.1.filename=maven-assembly-plugin-3.5.0.jar
+outputs.1.length=253440
+outputs.1.checksums.sha512=7ea53b98ea1d5483248891ea59b34dee3fe49b0ed98c211b3e4daf2397f78ae63edf5ae17e059f4c5e44043e5c55cdd09e1608ce464df8eadacdeea047dfec18
+
+outputs.2.filename=maven-assembly-plugin-3.5.0-source-release.zip
+outputs.2.length=2231447
+outputs.2.checksums.sha512=1447cfa62f9a48b9c7f87ba9754789408d30690e168c49dbcae9f0dc6e35fd47c17879be05bcac2363e2bdfa55dd9396acd6562f6a4e9b8604d1719df4abde15
+
+outputs.3.filename=maven-assembly-plugin-3.5.0-sources.jar
+outputs.3.length=203578
+outputs.3.checksums.sha512=3df67dff967f342c7029745d4822a799db81d64e024a0e26aa9eb36f1d2a42787f696e6a2caac7564fb031b7729230631a59ccfbcc645efe13164945971e7c48
