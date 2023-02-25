@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **1575 releases** of **386 projects**:
-   - **1156** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 419 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **1581 releases** of **386 projects**:
+   - **1161** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 420 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
 
@@ -38,7 +38,7 @@ Its objectives are to provide:
 | com.github.adangel.liquibase.ext | <a name='com.github.adangel.liquibase.ext:liquibase-percona'></a>[liquibase-percona](content/com/github/adangel/liquibase/ext/liquibase-percona/README.md) | 1 | 1 :heavy_check_mark: |
 | com.github.hazendaz | <a name='com.github.hazendaz:javabean-tester'></a>[javabean-tester](content/com/github/hazendaz/javabean-tester/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | com.github.package-url | <a name='com.github.package-url:packageurl-java'></a>[packageurl-java](content/com/github/package-url/packageurl-java/README.md) | 3 | 3 :heavy_check_mark: |
-| com.github.spotbugs | <a name='com.github.spotbugs:spotbugs-maven-plugin'></a>[spotbugs-maven-plugin](content/com/github/spotbugs/spotbugs-maven-plugin/README.md) | 7 | 7 :heavy_check_mark: |
+| com.github.spotbugs | <a name='com.github.spotbugs:spotbugs-maven-plugin'></a>[spotbugs-maven-plugin](content/com/github/spotbugs/spotbugs-maven-plugin/README.md) | 8 | 8 :heavy_check_mark: |
 | com.github.veithen.checkt | <a name='com.github.veithen.checkt:checkt'></a>[checkt](content/com/github/veithen/checkt/README.md) | 1 | 1 :heavy_check_mark: |
 | com.github.veithen.daemon | <a name='com.github.veithen.daemon:daemon'></a>[daemon](content/com/github/veithen/daemon/README.md) | 3 | 3 :heavy_check_mark: |
 | com.github.veithen | <a name='com.github.veithen:jrel'></a>[jrel](content/com/github/veithen/jrel/README.md) | 1 | 1 :heavy_check_mark: |
@@ -68,7 +68,7 @@ Its objectives are to provide:
 | | <a name='io.cucumber:junit-xml-formatter'></a>[junit-xml-formatter](content/io/cucumber/junit-xml-formatter/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='io.cucumber:messages'></a>[messages](content/io/cucumber/messages/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='io.cucumber:tag-expressions'></a>[tag-expressions](content/io/cucumber/tag-expressions/README.md) | 2 | 2 :heavy_check_mark: |
-| io.dropwizard | <a name='io.dropwizard:dropwizard-project'></a>[dropwizard-project](content/io/dropwizard/core/README.md) | 47 | 44 :heavy_check_mark: / 3 :warning: |
+| io.dropwizard | <a name='io.dropwizard:dropwizard-project'></a>[dropwizard-project](content/io/dropwizard/core/README.md) | 50 | 47 :heavy_check_mark: / 3 :warning: |
 | io.dropwizard.metrics | <a name='io.dropwizard.metrics:metrics-parent'></a>[metrics-parent](content/io/dropwizard/metrics/README.md) | 34 | 13 :heavy_check_mark: / 21 :warning: |
 | io.dropwizard.metrics5 | <a name='io.dropwizard.metrics5:metrics-parent'></a>[metrics-parent](content/io/dropwizard/metrics5/README.md) | 9 | 2 :heavy_check_mark: / 7 :warning: |
 | io.fabric8 | <a name='io.fabric8:docker-maven-plugin'></a>[docker-maven-plugin](content/io/fabric8/docker-maven-plugin/README.md) | 13 | 11 :heavy_check_mark: / 2 :warning: |
@@ -152,7 +152,7 @@ Its objectives are to provide:
 | org.apache.jackrabbit | <a name='org.apache.jackrabbit:filevault-package-maven-plugin'></a>[filevault-package-maven-plugin](content/org/apache/jackrabbit/filevault-package-maven-plugin/README.md) | 6 | 6 :heavy_check_mark: |
 | | <a name='org.apache.jackrabbit:jackrabbit'></a>[jackrabbit](content/org/apache/jackrabbit/jackrabbit/README.md) | 1 | 1 :warning: |
 | org.apache.jena | <a name='org.apache.jena:jena'></a>[jena](content/org/apache/jena/jena/README.md) | 9 | 9 :warning: |
-| org.apache.karaf | <a name='org.apache.karaf:decanter'></a>[decanter](content/org/apache/karaf/decanter/README.md) | 1 | 1 :warning: |
+| org.apache.karaf | <a name='org.apache.karaf:decanter'></a>[decanter](content/org/apache/karaf/decanter/README.md) | 2 | 2 :warning: |
 | | <a name='org.apache.karaf:karaf'></a>[karaf](content/org/apache/karaf/karaf/README.md) | 5 | 5 :warning: |
 | org.apache.karaf.minho | <a name='org.apache.karaf.minho:minho'></a>[minho](content/org/apache/karaf/minho/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.logging | <a name='org.apache.logging:logging-parent'></a>[logging-parent](content/org/apache/logging/parent/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
@@ -256,7 +256,7 @@ Its objectives are to provide:
 | | <a name='org.apache.sling:org.apache.sling.distribution.journal'></a>[*.distribution.journal](content/org/apache/sling/org.apache.sling.distribution.journal/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.distribution.journal.kafka'></a>[*.distribution.journal.kafka](content/org/apache/sling/org.apache.sling.distribution.journal.kafka/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.distribution.journal.messages'></a>[*.distribution.journal.messages](content/org/apache/sling/org.apache.sling.distribution.journal.messages/README.md) | 1 | 1 :heavy_check_mark: |
-| | <a name='org.apache.sling:org.apache.sling.engine'></a>[*.engine](content/org/apache/sling/org.apache.sling.engine/README.md) | 8 | 8 :heavy_check_mark: |
+| | <a name='org.apache.sling:org.apache.sling.engine'></a>[*.engine](content/org/apache/sling/org.apache.sling.engine/README.md) | 9 | 9 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.event'></a>[*.event](content/org/apache/sling/org.apache.sling.event/README.md) | 7 | 7 :warning: |
 | | <a name='org.apache.sling:org.apache.sling.feature'></a>[*.feature](content/org/apache/sling/org.apache.sling.feature/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.apache.sling:org.apache.sling.feature.analyser'></a>[*.feature.analyser](content/org/apache/sling/org.apache.sling.feature.analyser/README.md) | 6 | 3 :heavy_check_mark: / 3 :warning: |
@@ -409,7 +409,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 9 | 9 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 6 | 6 :warning: |
-| **Count:** | **386** | **1575** | **1156** :heavy_check_mark: **419** :warning: |
+| **Count:** | **386** | **1581** | **1161** :heavy_check_mark: **420** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -421,9 +421,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      17 gradle     11
      26 mvn         7
-    772 mvn         8
+    773 mvn         8
       1 mvn         9
-    577 mvn        11
+    581 mvn        11
       4 mvn        14
      10 mvn        15
      10 mvn        16
@@ -436,7 +436,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn-3.8.5  17
      19 mvn-3.8.6   8
       1 mvn-3.8.6  11
-     22 mvn-3.8.6  17
+     23 mvn-3.8.6  17
       2 mvn-3.8.6  18
       4 mvn-3.8.6  19
       2 mvn-3.9.0  11

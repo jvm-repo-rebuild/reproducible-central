@@ -3,8 +3,8 @@
   <groupId>org.apache.activemq</groupId>
   <artifactId>activemq-parent</artifactId>
   <versioning>
-    <latest>5.17.3</latest>
-    <release>5.17.3</release>
+    <latest>5.17.4</latest>
+    <release>5.17.4</release>
     <versions>
       <version>4.1.1</version>
       <version>4.1.2</version>
@@ -76,7 +76,8 @@
       <version>5.17.1</version>
       <version>5.17.2</version>
       <version>5.17.3</version>
+      <version>5.17.4</version>
     </versions>
-    <lastUpdated>20230216161441</lastUpdated>
+    <lastUpdated>20230225063321</lastUpdated>
   </versioning>
 </metadata>

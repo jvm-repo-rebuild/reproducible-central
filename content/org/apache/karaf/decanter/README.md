@@ -86,13 +86,13 @@ Source code: [https://github.com/apache/karaf-decanter.git](https://github.com/a
 * [org.apache.karaf:decanter](https://search.maven.org/artifact/org.apache.karaf/decanter/)
 </details>
 
-rebuilding **1 releases** of org.apache.karaf:decanter:
+rebuilding **2 releases** of org.apache.karaf:decanter:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.10.0](https://search.maven.org/artifact/org.apache.karaf/decanter/2.10.0/pom) | | | |
-| [2.9.0](https://search.maven.org/artifact/org.apache.karaf/decanter/2.9.0/pom) | [mvn jdk8](karaf-decanter-2.9.0.buildspec) | [result](decanter-2.9.0.buildinfo): [261 :heavy_check_mark:  2 :warning:](decanter-2.9.0.buildcompare) [:mag:](decanter-2.9.0.diffoscope) | 166M |
+| [2.10.0](https://search.maven.org/artifact/org.apache.karaf/decanter/2.10.0/pom) | [mvn jdk11](karaf-decanter-2.10.0.buildspec) | [result](decanter-2.10.0.buildinfo): [262 :heavy_check_mark:  1 :warning:](decanter-2.10.0.buildcompare) [:mag:](decanter-2.10.0.diffoscope) | 143M |
+| [2.9.0](https://search.maven.org/artifact/org.apache.karaf/decanter/2.9.0/pom) | [mvn jdk8](karaf-decanter-2.9.0.buildspec) | [result](decanter-2.9.0.buildinfo): [261 :heavy_check_mark:  2 :warning:](decanter-2.9.0.buildcompare) [:mag:](decanter-2.9.0.diffoscope) [:memo:](https://github.com/apache/karaf-decanter/pull/306) | 166M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
