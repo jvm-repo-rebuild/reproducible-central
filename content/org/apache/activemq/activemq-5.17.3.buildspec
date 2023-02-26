@@ -1,0 +1,18 @@
+groupId=org.apache.activemq
+artifactId=activemq-parent
+version=5.17.3
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/apache/activemq.git
+gitTag=activemq-${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=
