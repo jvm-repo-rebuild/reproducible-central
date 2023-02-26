@@ -60,12 +60,12 @@ do
       then
         ((countGa++))
         # prepare README.md intro
-        echo "[$groupId:$artifactId](https://search.maven.org/artifact/${groupId}/${artifactId}/) RB check" > $readme
+        echo "[$groupId:$artifactId](https://central.sonatype.com/artifact/${groupId}/${artifactId}/versions) RB check" > $readme
         echo "=======" >> $readme
         echo >> $readme
         echo "[![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)" >> $readme
         echo >> $readme
-        echo "## Project: [$groupId:$artifactId](https://search.maven.org/artifact/${groupId}/${artifactId}/)" >> $readme
+        echo "## Project: [$groupId:$artifactId](https://central.sonatype.com/artifact/${groupId}/${artifactId}/versions)" >> $readme
         echo >> $readme
         echo "Source code: [$gitRepo]($gitRepo)" >> $readme
         echo >> $readme
