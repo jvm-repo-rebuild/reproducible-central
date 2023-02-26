@@ -1,9 +1,9 @@
-[io.wcm:io.wcm.wcm.commons](https://search.maven.org/artifact/io.wcm/io.wcm.wcm.commons/) RB check
+[io.wcm:io.wcm.wcm.commons](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.commons/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.wcm:io.wcm.wcm.commons](https://search.maven.org/artifact/io.wcm/io.wcm.wcm.commons/)
+## Project: [io.wcm:io.wcm.wcm.commons](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.commons/versions)
 
 Source code: [https://github.com/wcm-io/wcm-io-wcm.git](https://github.com/wcm-io/wcm-io-wcm.git)
 

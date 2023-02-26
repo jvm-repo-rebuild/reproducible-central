@@ -1,9 +1,9 @@
-[org.apache.directory.project:project](https://search.maven.org/artifact/org.apache.directory.project/project/) RB check
+[org.apache.directory.project:project](https://central.sonatype.com/artifact/org.apache.directory.project/project/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.directory.project:project](https://search.maven.org/artifact/org.apache.directory.project/project/)
+## Project: [org.apache.directory.project:project](https://central.sonatype.com/artifact/org.apache.directory.project/project/versions)
 
 Source code: [https://github.com/apache/directory-project.git](https://github.com/apache/directory-project.git)
 

@@ -1,9 +1,9 @@
-[org.apache.sling:org.apache.sling.distribution.journal.messages](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.distribution.journal.messages/) RB check
+[org.apache.sling:org.apache.sling.distribution.journal.messages](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.distribution.journal.messages/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.distribution.journal.messages](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.distribution.journal.messages/)
+## Project: [org.apache.sling:org.apache.sling.distribution.journal.messages](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.distribution.journal.messages/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-distribution-journal-messages.git](https://github.com/apache/sling-org-apache-sling-distribution-journal-messages.git)
 

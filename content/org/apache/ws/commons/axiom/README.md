@@ -1,9 +1,9 @@
-[org.apache.ws.commons.axiom:axiom](https://search.maven.org/artifact/org.apache.ws.commons.axiom/axiom/) RB check
+[org.apache.ws.commons.axiom:axiom](https://central.sonatype.com/artifact/org.apache.ws.commons.axiom/axiom/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.ws.commons.axiom:axiom](https://search.maven.org/artifact/org.apache.ws.commons.axiom/axiom/)
+## Project: [org.apache.ws.commons.axiom:axiom](https://central.sonatype.com/artifact/org.apache.ws.commons.axiom/axiom/versions)
 
 Source code: [https://github.com/apache/ws-axiom.git](https://github.com/apache/ws-axiom.git)
 

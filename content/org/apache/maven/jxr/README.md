@@ -1,9 +1,9 @@
-[org.apache.maven.jxr:jxr](https://search.maven.org/artifact/org.apache.maven.jxr/jxr/) RB check
+[org.apache.maven.jxr:jxr](https://central.sonatype.com/artifact/org.apache.maven.jxr/jxr/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.jxr:jxr](https://search.maven.org/artifact/org.apache.maven.jxr/jxr/)
+## Project: [org.apache.maven.jxr:jxr](https://central.sonatype.com/artifact/org.apache.maven.jxr/jxr/versions)
 
 Source code: [https://github.com/apache/maven-jxr.git](https://github.com/apache/maven-jxr.git)
 

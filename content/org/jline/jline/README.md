@@ -1,9 +1,9 @@
-[org.jline:jline-parent](https://search.maven.org/artifact/org.jline/jline-parent/) RB check
+[org.jline:jline-parent](https://central.sonatype.com/artifact/org.jline/jline-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.jline:jline-parent](https://search.maven.org/artifact/org.jline/jline-parent/)
+## Project: [org.jline:jline-parent](https://central.sonatype.com/artifact/org.jline/jline-parent/versions)
 
 Source code: [https://github.com/jline/jline3.git](https://github.com/jline/jline3.git)
 

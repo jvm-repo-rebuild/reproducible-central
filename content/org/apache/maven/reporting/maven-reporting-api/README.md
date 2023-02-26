@@ -1,9 +1,9 @@
-[org.apache.maven.reporting:maven-reporting-api](https://search.maven.org/artifact/org.apache.maven.reporting/maven-reporting-api/) RB check
+[org.apache.maven.reporting:maven-reporting-api](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-api/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.reporting:maven-reporting-api](https://search.maven.org/artifact/org.apache.maven.reporting/maven-reporting-api/)
+## Project: [org.apache.maven.reporting:maven-reporting-api](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-api/versions)
 
 Source code: [https://github.com/apache/maven-reporting-api.git](https://github.com/apache/maven-reporting-api.git)
 

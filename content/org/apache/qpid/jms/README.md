@@ -1,9 +1,9 @@
-[org.apache.qpid:qpid-jms-parent](https://search.maven.org/artifact/org.apache.qpid/qpid-jms-parent/) RB check
+[org.apache.qpid:qpid-jms-parent](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.qpid:qpid-jms-parent](https://search.maven.org/artifact/org.apache.qpid/qpid-jms-parent/)
+## Project: [org.apache.qpid:qpid-jms-parent](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/versions)
 
 Source code: [https://github.com/apache/qpid-jms.git](https://github.com/apache/qpid-jms.git)
 

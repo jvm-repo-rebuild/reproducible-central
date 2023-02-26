@@ -1,9 +1,9 @@
-[org.apache.axis2:axis2](https://search.maven.org/artifact/org.apache.axis2/axis2/) RB check
+[org.apache.axis2:axis2](https://central.sonatype.com/artifact/org.apache.axis2/axis2/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.axis2:axis2](https://search.maven.org/artifact/org.apache.axis2/axis2/)
+## Project: [org.apache.axis2:axis2](https://central.sonatype.com/artifact/org.apache.axis2/axis2/versions)
 
 Source code: [https://github.com/apache/axis-axis2-java-core.git](https://github.com/apache/axis-axis2-java-core.git)
 

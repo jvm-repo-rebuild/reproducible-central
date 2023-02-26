@@ -1,9 +1,9 @@
-[org.mybatis.caches:mybatis-hazelcast](https://search.maven.org/artifact/org.mybatis.caches/mybatis-hazelcast/) RB check
+[org.mybatis.caches:mybatis-hazelcast](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-hazelcast/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.mybatis.caches:mybatis-hazelcast](https://search.maven.org/artifact/org.mybatis.caches/mybatis-hazelcast/)
+## Project: [org.mybatis.caches:mybatis-hazelcast](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-hazelcast/versions)
 
 Source code: [https://github.com/mybatis/hazelcast-cache.git](https://github.com/mybatis/hazelcast-cache.git)
 

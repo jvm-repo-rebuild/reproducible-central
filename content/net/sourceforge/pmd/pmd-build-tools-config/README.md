@@ -1,9 +1,9 @@
-[net.sourceforge.pmd:pmd-build-tools-config](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-build-tools-config/) RB check
+[net.sourceforge.pmd:pmd-build-tools-config](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-build-tools-config/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [net.sourceforge.pmd:pmd-build-tools-config](https://search.maven.org/artifact/net.sourceforge.pmd/pmd-build-tools-config/)
+## Project: [net.sourceforge.pmd:pmd-build-tools-config](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-build-tools-config/versions)
 
 Source code: [https://github.com/pmd/build-tools.git](https://github.com/pmd/build-tools.git)
 

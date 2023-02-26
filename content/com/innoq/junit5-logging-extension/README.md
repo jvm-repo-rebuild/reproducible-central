@@ -1,9 +1,9 @@
-[com.innoq:junit5-logging-extension](https://search.maven.org/artifact/com.innoq/junit5-logging-extension/) RB check
+[com.innoq:junit5-logging-extension](https://central.sonatype.com/artifact/com.innoq/junit5-logging-extension/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.innoq:junit5-logging-extension](https://search.maven.org/artifact/com.innoq/junit5-logging-extension/)
+## Project: [com.innoq:junit5-logging-extension](https://central.sonatype.com/artifact/com.innoq/junit5-logging-extension/versions)
 
 Source code: [https://github.com/innoq/junit5-logging-extension.git](https://github.com/innoq/junit5-logging-extension.git)
 

@@ -1,9 +1,9 @@
-[com.io7m.jade:com.io7m.jade](https://search.maven.org/artifact/com.io7m.jade/com.io7m.jade/) RB check
+[com.io7m.jade:com.io7m.jade](https://central.sonatype.com/artifact/com.io7m.jade/com.io7m.jade/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.io7m.jade:com.io7m.jade](https://search.maven.org/artifact/com.io7m.jade/com.io7m.jade/)
+## Project: [com.io7m.jade:com.io7m.jade](https://central.sonatype.com/artifact/com.io7m.jade/com.io7m.jade/versions)
 
 Source code: [https://github.com/io7m/jade.git](https://github.com/io7m/jade.git)
 

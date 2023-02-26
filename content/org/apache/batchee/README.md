@@ -1,9 +1,9 @@
-[org.apache.batchee:batchee](https://search.maven.org/artifact/org.apache.batchee/batchee/) RB check
+[org.apache.batchee:batchee](https://central.sonatype.com/artifact/org.apache.batchee/batchee/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.batchee:batchee](https://search.maven.org/artifact/org.apache.batchee/batchee/)
+## Project: [org.apache.batchee:batchee](https://central.sonatype.com/artifact/org.apache.batchee/batchee/versions)
 
 Source code: [https://github.com/apache/geronimo-batchee.git](https://github.com/apache/geronimo-batchee.git)
 

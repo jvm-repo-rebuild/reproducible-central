@@ -1,9 +1,9 @@
-[org.apache.logging:logging-parent](https://search.maven.org/artifact/org.apache.logging/logging-parent/) RB check
+[org.apache.logging:logging-parent](https://central.sonatype.com/artifact/org.apache.logging/logging-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.logging:logging-parent](https://search.maven.org/artifact/org.apache.logging/logging-parent/)
+## Project: [org.apache.logging:logging-parent](https://central.sonatype.com/artifact/org.apache.logging/logging-parent/versions)
 
 Source code: [https://github.com/apache/logging-parent.git](https://github.com/apache/logging-parent.git)
 

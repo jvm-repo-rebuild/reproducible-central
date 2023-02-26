@@ -1,9 +1,9 @@
-[tel.schich:javacan](https://search.maven.org/artifact/tel.schich/javacan/) RB check
+[tel.schich:javacan](https://central.sonatype.com/artifact/tel.schich/javacan/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [tel.schich:javacan](https://search.maven.org/artifact/tel.schich/javacan/)
+## Project: [tel.schich:javacan](https://central.sonatype.com/artifact/tel.schich/javacan/versions)
 
 Source code: [https://github.com/pschichtel/JavaCAN.git](https://github.com/pschichtel/JavaCAN.git)
 

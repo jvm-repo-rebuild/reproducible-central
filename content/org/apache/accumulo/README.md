@@ -1,9 +1,9 @@
-[org.apache.accumulo:accumulo](https://search.maven.org/artifact/org.apache.accumulo/accumulo/) RB check
+[org.apache.accumulo:accumulo](https://central.sonatype.com/artifact/org.apache.accumulo/accumulo/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.accumulo:accumulo](https://search.maven.org/artifact/org.apache.accumulo/accumulo/)
+## Project: [org.apache.accumulo:accumulo](https://central.sonatype.com/artifact/org.apache.accumulo/accumulo/versions)
 
 Source code: [https://github.com/apache/accumulo.git](https://github.com/apache/accumulo.git)
 

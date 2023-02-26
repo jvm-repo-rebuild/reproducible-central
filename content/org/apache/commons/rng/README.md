@@ -1,9 +1,9 @@
-[org.apache.commons:commons-rng-parent](https://search.maven.org/artifact/org.apache.commons/commons-rng-parent/) RB check
+[org.apache.commons:commons-rng-parent](https://central.sonatype.com/artifact/org.apache.commons/commons-rng-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.commons:commons-rng-parent](https://search.maven.org/artifact/org.apache.commons/commons-rng-parent/)
+## Project: [org.apache.commons:commons-rng-parent](https://central.sonatype.com/artifact/org.apache.commons/commons-rng-parent/versions)
 
 Source code: [https://github.com/apache/commons-rng.git](https://github.com/apache/commons-rng.git)
 

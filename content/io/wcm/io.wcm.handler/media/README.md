@@ -1,9 +1,9 @@
-[io.wcm:io.wcm.handler.media](https://search.maven.org/artifact/io.wcm/io.wcm.handler.media/) RB check
+[io.wcm:io.wcm.handler.media](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.wcm:io.wcm.handler.media](https://search.maven.org/artifact/io.wcm/io.wcm.handler.media/)
+## Project: [io.wcm:io.wcm.handler.media](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.media/versions)
 
 Source code: [https://github.com/wcm-io/wcm-io-handler.git](https://github.com/wcm-io/wcm-io-handler.git)
 

@@ -1,9 +1,9 @@
-[org.complate:complate-spring-mvc](https://search.maven.org/artifact/org.complate/complate-spring-mvc/) RB check
+[org.complate:complate-spring-mvc](https://central.sonatype.com/artifact/org.complate/complate-spring-mvc/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.complate:complate-spring-mvc](https://search.maven.org/artifact/org.complate/complate-spring-mvc/)
+## Project: [org.complate:complate-spring-mvc](https://central.sonatype.com/artifact/org.complate/complate-spring-mvc/versions)
 
 Source code: [https://github.com/complate/complate-spring.git](https://github.com/complate/complate-spring.git)
 

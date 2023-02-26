@@ -1,9 +1,9 @@
-[org.mybatis.spring.boot:mybatis-spring-boot](https://search.maven.org/artifact/org.mybatis.spring.boot/mybatis-spring-boot/) RB check
+[org.mybatis.spring.boot:mybatis-spring-boot](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.mybatis.spring.boot:mybatis-spring-boot](https://search.maven.org/artifact/org.mybatis.spring.boot/mybatis-spring-boot/)
+## Project: [org.mybatis.spring.boot:mybatis-spring-boot](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot/versions)
 
 Source code: [https://github.com/mybatis/spring-boot-starter.git](https://github.com/mybatis/spring-boot-starter.git)
 

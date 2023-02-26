@@ -1,9 +1,9 @@
-[org.apache.systemds:systemds](https://search.maven.org/artifact/org.apache.systemds/systemds/) RB check
+[org.apache.systemds:systemds](https://central.sonatype.com/artifact/org.apache.systemds/systemds/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.systemds:systemds](https://search.maven.org/artifact/org.apache.systemds/systemds/)
+## Project: [org.apache.systemds:systemds](https://central.sonatype.com/artifact/org.apache.systemds/systemds/versions)
 
 Source code: [https://github.com/apache/systemds.git](https://github.com/apache/systemds.git)
 

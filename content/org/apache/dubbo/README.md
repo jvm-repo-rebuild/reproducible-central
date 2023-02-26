@@ -1,9 +1,9 @@
-[org.apache.dubbo:dubbo](https://search.maven.org/artifact/org.apache.dubbo/dubbo/) RB check
+[org.apache.dubbo:dubbo](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.dubbo:dubbo](https://search.maven.org/artifact/org.apache.dubbo/dubbo/)
+## Project: [org.apache.dubbo:dubbo](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/versions)
 
 Source code: [https://github.com/apache/dubbo.git](https://github.com/apache/dubbo.git)
 

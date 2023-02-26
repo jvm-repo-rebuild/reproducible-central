@@ -1,9 +1,9 @@
-[org.codehaus.mojo:extra-enforcer-rules](https://search.maven.org/artifact/org.codehaus.mojo/extra-enforcer-rules/) RB check
+[org.codehaus.mojo:extra-enforcer-rules](https://central.sonatype.com/artifact/org.codehaus.mojo/extra-enforcer-rules/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.codehaus.mojo:extra-enforcer-rules](https://search.maven.org/artifact/org.codehaus.mojo/extra-enforcer-rules/)
+## Project: [org.codehaus.mojo:extra-enforcer-rules](https://central.sonatype.com/artifact/org.codehaus.mojo/extra-enforcer-rules/versions)
 
 Source code: [https://github.com/mojohaus/extra-enforcer-rules.git](https://github.com/mojohaus/extra-enforcer-rules.git)
 

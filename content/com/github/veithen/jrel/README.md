@@ -1,9 +1,9 @@
-[com.github.veithen:jrel](https://search.maven.org/artifact/com.github.veithen/jrel/) RB check
+[com.github.veithen:jrel](https://central.sonatype.com/artifact/com.github.veithen/jrel/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.github.veithen:jrel](https://search.maven.org/artifact/com.github.veithen/jrel/)
+## Project: [com.github.veithen:jrel](https://central.sonatype.com/artifact/com.github.veithen/jrel/versions)
 
 Source code: [https://github.com/veithen/jrel.git](https://github.com/veithen/jrel.git)
 

@@ -1,9 +1,9 @@
-[us.abstracta.jmeter:jmeter-java-dsl-parent](https://search.maven.org/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/) RB check
+[us.abstracta.jmeter:jmeter-java-dsl-parent](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [us.abstracta.jmeter:jmeter-java-dsl-parent](https://search.maven.org/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/)
+## Project: [us.abstracta.jmeter:jmeter-java-dsl-parent](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/versions)
 
 Source code: [https://github.com/abstracta/jmeter-java-dsl.git](https://github.com/abstracta/jmeter-java-dsl.git)
 

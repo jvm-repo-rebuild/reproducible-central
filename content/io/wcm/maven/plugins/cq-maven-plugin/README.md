@@ -1,9 +1,9 @@
-[io.wcm.maven.plugins:cq-maven-plugin](https://search.maven.org/artifact/io.wcm.maven.plugins/cq-maven-plugin/) RB check
+[io.wcm.maven.plugins:cq-maven-plugin](https://central.sonatype.com/artifact/io.wcm.maven.plugins/cq-maven-plugin/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.wcm.maven.plugins:cq-maven-plugin](https://search.maven.org/artifact/io.wcm.maven.plugins/cq-maven-plugin/)
+## Project: [io.wcm.maven.plugins:cq-maven-plugin](https://central.sonatype.com/artifact/io.wcm.maven.plugins/cq-maven-plugin/versions)
 
 Source code: [https://github.com/wcm-io/io.wcm.maven.plugins.cq-maven-plugin.git](https://github.com/wcm-io/io.wcm.maven.plugins.cq-maven-plugin.git)
 

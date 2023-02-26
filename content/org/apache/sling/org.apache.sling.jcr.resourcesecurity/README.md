@@ -1,9 +1,9 @@
-[org.apache.sling:org.apache.sling.jcr.resourcesecurity](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.jcr.resourcesecurity/) RB check
+[org.apache.sling:org.apache.sling.jcr.resourcesecurity](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.resourcesecurity/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.jcr.resourcesecurity](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.jcr.resourcesecurity/)
+## Project: [org.apache.sling:org.apache.sling.jcr.resourcesecurity](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.resourcesecurity/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-jcr-resourcesecurity.git](https://github.com/apache/sling-org-apache-sling-jcr-resourcesecurity.git)
 

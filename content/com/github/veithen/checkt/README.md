@@ -1,9 +1,9 @@
-[com.github.veithen.checkt:checkt](https://search.maven.org/artifact/com.github.veithen.checkt/checkt/) RB check
+[com.github.veithen.checkt:checkt](https://central.sonatype.com/artifact/com.github.veithen.checkt/checkt/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.github.veithen.checkt:checkt](https://search.maven.org/artifact/com.github.veithen.checkt/checkt/)
+## Project: [com.github.veithen.checkt:checkt](https://central.sonatype.com/artifact/com.github.veithen.checkt/checkt/versions)
 
 Source code: [https://github.com/veithen/checkt.git](https://github.com/veithen/checkt.git)
 

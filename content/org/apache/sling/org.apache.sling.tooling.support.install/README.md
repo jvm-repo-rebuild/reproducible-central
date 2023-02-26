@@ -1,9 +1,9 @@
-[org.apache.sling:org.apache.sling.tooling.support.install](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.tooling.support.install/) RB check
+[org.apache.sling:org.apache.sling.tooling.support.install](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.tooling.support.install/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.tooling.support.install](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.tooling.support.install/)
+## Project: [org.apache.sling:org.apache.sling.tooling.support.install](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.tooling.support.install/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-tooling-support-install.git](https://github.com/apache/sling-org-apache-sling-tooling-support-install.git)
 

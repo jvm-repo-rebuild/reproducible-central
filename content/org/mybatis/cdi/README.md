@@ -1,9 +1,9 @@
-[org.mybatis:mybatis-cdi](https://search.maven.org/artifact/org.mybatis/mybatis-cdi/) RB check
+[org.mybatis:mybatis-cdi](https://central.sonatype.com/artifact/org.mybatis/mybatis-cdi/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.mybatis:mybatis-cdi](https://search.maven.org/artifact/org.mybatis/mybatis-cdi/)
+## Project: [org.mybatis:mybatis-cdi](https://central.sonatype.com/artifact/org.mybatis/mybatis-cdi/versions)
 
 Source code: [https://github.com/mybatis/cdi.git](https://github.com/mybatis/cdi.git)
 

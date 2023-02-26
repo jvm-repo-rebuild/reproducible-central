@@ -1,9 +1,9 @@
-[org.mybatis:mybatis-guice](https://search.maven.org/artifact/org.mybatis/mybatis-guice/) RB check
+[org.mybatis:mybatis-guice](https://central.sonatype.com/artifact/org.mybatis/mybatis-guice/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.mybatis:mybatis-guice](https://search.maven.org/artifact/org.mybatis/mybatis-guice/)
+## Project: [org.mybatis:mybatis-guice](https://central.sonatype.com/artifact/org.mybatis/mybatis-guice/versions)
 
 Source code: [https://github.com/mybatis/guice.git](https://github.com/mybatis/guice.git)
 

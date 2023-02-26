@@ -1,9 +1,9 @@
-[org.apache.maven.shared:maven-shared-resources](https://search.maven.org/artifact/org.apache.maven.shared/maven-shared-resources/) RB check
+[org.apache.maven.shared:maven-shared-resources](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-shared-resources/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.shared:maven-shared-resources](https://search.maven.org/artifact/org.apache.maven.shared/maven-shared-resources/)
+## Project: [org.apache.maven.shared:maven-shared-resources](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-shared-resources/versions)
 
 Source code: [https://github.com/apache/maven-shared-resources.git](https://github.com/apache/maven-shared-resources.git)
 

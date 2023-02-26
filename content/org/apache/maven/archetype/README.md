@@ -1,9 +1,9 @@
-[org.apache.maven.archetype:maven-archetype](https://search.maven.org/artifact/org.apache.maven.archetype/maven-archetype/) RB check
+[org.apache.maven.archetype:maven-archetype](https://central.sonatype.com/artifact/org.apache.maven.archetype/maven-archetype/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.archetype:maven-archetype](https://search.maven.org/artifact/org.apache.maven.archetype/maven-archetype/)
+## Project: [org.apache.maven.archetype:maven-archetype](https://central.sonatype.com/artifact/org.apache.maven.archetype/maven-archetype/versions)
 
 Source code: [https://github.com/apache/maven-archetype.git](https://github.com/apache/maven-archetype.git)
 

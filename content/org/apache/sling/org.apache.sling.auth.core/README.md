@@ -1,9 +1,9 @@
-[org.apache.sling:org.apache.sling.auth.core](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.auth.core/) RB check
+[org.apache.sling:org.apache.sling.auth.core](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.auth.core/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.auth.core](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.auth.core/)
+## Project: [org.apache.sling:org.apache.sling.auth.core](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.auth.core/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-auth-core.git](https://github.com/apache/sling-org-apache-sling-auth-core.git)
 

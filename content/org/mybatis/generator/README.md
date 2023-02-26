@@ -1,9 +1,9 @@
-[org.mybatis.generator:mybatis-generator](https://search.maven.org/artifact/org.mybatis.generator/mybatis-generator/) RB check
+[org.mybatis.generator:mybatis-generator](https://central.sonatype.com/artifact/org.mybatis.generator/mybatis-generator/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.mybatis.generator:mybatis-generator](https://search.maven.org/artifact/org.mybatis.generator/mybatis-generator/)
+## Project: [org.mybatis.generator:mybatis-generator](https://central.sonatype.com/artifact/org.mybatis.generator/mybatis-generator/versions)
 
 Source code: [https://github.com/mybatis/generator.git](https://github.com/mybatis/generator.git)
 

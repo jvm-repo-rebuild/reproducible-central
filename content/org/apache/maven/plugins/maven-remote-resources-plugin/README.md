@@ -1,9 +1,9 @@
-[org.apache.maven.plugins:maven-remote-resources-plugin](https://search.maven.org/artifact/org.apache.maven.plugins/maven-remote-resources-plugin/) RB check
+[org.apache.maven.plugins:maven-remote-resources-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-remote-resources-plugin/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.plugins:maven-remote-resources-plugin](https://search.maven.org/artifact/org.apache.maven.plugins/maven-remote-resources-plugin/)
+## Project: [org.apache.maven.plugins:maven-remote-resources-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-remote-resources-plugin/versions)
 
 Source code: [https://github.com/apache/maven-remote-resources-plugin.git](https://github.com/apache/maven-remote-resources-plugin.git)
 

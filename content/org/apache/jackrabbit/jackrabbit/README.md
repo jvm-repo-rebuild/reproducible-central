@@ -1,9 +1,9 @@
-[org.apache.jackrabbit:jackrabbit](https://search.maven.org/artifact/org.apache.jackrabbit/jackrabbit/) RB check
+[org.apache.jackrabbit:jackrabbit](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.jackrabbit:jackrabbit](https://search.maven.org/artifact/org.apache.jackrabbit/jackrabbit/)
+## Project: [org.apache.jackrabbit:jackrabbit](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit/versions)
 
 Source code: [https://github.com/apache/jackrabbit.git](https://github.com/apache/jackrabbit.git)
 

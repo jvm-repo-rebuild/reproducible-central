@@ -1,9 +1,9 @@
-[org.apache.mina:mina-parent](https://search.maven.org/artifact/org.apache.mina/mina-parent/) RB check
+[org.apache.mina:mina-parent](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.mina:mina-parent](https://search.maven.org/artifact/org.apache.mina/mina-parent/)
+## Project: [org.apache.mina:mina-parent](https://central.sonatype.com/artifact/org.apache.mina/mina-parent/versions)
 
 Source code: [https://github.com/apache/mina.git](https://github.com/apache/mina.git)
 

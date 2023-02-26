@@ -1,9 +1,9 @@
-[org.apache.sling:org.apache.sling.models.api](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.models.api/) RB check
+[org.apache.sling:org.apache.sling.models.api](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.models.api/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.models.api](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.models.api/)
+## Project: [org.apache.sling:org.apache.sling.models.api](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.models.api/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-models-api.git](https://github.com/apache/sling-org-apache-sling-models-api.git)
 

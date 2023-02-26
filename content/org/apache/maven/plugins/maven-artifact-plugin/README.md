@@ -1,9 +1,9 @@
-[org.apache.maven.plugins:maven-artifact-plugin](https://search.maven.org/artifact/org.apache.maven.plugins/maven-artifact-plugin/) RB check
+[org.apache.maven.plugins:maven-artifact-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-artifact-plugin/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.plugins:maven-artifact-plugin](https://search.maven.org/artifact/org.apache.maven.plugins/maven-artifact-plugin/)
+## Project: [org.apache.maven.plugins:maven-artifact-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-artifact-plugin/versions)
 
 Source code: [https://github.com/apache/maven-artifact-plugin.git](https://github.com/apache/maven-artifact-plugin.git)
 

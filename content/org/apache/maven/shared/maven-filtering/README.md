@@ -1,9 +1,9 @@
-[org.apache.maven.shared:maven-filtering](https://search.maven.org/artifact/org.apache.maven.shared/maven-filtering/) RB check
+[org.apache.maven.shared:maven-filtering](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-filtering/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.shared:maven-filtering](https://search.maven.org/artifact/org.apache.maven.shared/maven-filtering/)
+## Project: [org.apache.maven.shared:maven-filtering](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-filtering/versions)
 
 Source code: [https://github.com/apache/maven-filtering.git](https://github.com/apache/maven-filtering.git)
 

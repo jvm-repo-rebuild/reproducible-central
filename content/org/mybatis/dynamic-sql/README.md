@@ -1,9 +1,9 @@
-[org.mybatis.dynamic-sql:mybatis-dynamic-sql](https://search.maven.org/artifact/org.mybatis.dynamic-sql/mybatis-dynamic-sql/) RB check
+[org.mybatis.dynamic-sql:mybatis-dynamic-sql](https://central.sonatype.com/artifact/org.mybatis.dynamic-sql/mybatis-dynamic-sql/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.mybatis.dynamic-sql:mybatis-dynamic-sql](https://search.maven.org/artifact/org.mybatis.dynamic-sql/mybatis-dynamic-sql/)
+## Project: [org.mybatis.dynamic-sql:mybatis-dynamic-sql](https://central.sonatype.com/artifact/org.mybatis.dynamic-sql/mybatis-dynamic-sql/versions)
 
 Source code: [https://github.com/mybatis/mybatis-dynamic-sql.git](https://github.com/mybatis/mybatis-dynamic-sql.git)
 

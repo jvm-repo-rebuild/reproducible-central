@@ -1,9 +1,9 @@
-[io.cucumber:html-formatter](https://search.maven.org/artifact/io.cucumber/html-formatter/) RB check
+[io.cucumber:html-formatter](https://central.sonatype.com/artifact/io.cucumber/html-formatter/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.cucumber:html-formatter](https://search.maven.org/artifact/io.cucumber/html-formatter/)
+## Project: [io.cucumber:html-formatter](https://central.sonatype.com/artifact/io.cucumber/html-formatter/versions)
 
 Source code: [https://github.com/cucumber/html-formatter.git](https://github.com/cucumber/html-formatter.git)
 

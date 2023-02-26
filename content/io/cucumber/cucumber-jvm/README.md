@@ -1,9 +1,9 @@
-[io.cucumber:cucumber-jvm](https://search.maven.org/artifact/io.cucumber/cucumber-jvm/) RB check
+[io.cucumber:cucumber-jvm](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.cucumber:cucumber-jvm](https://search.maven.org/artifact/io.cucumber/cucumber-jvm/)
+## Project: [io.cucumber:cucumber-jvm](https://central.sonatype.com/artifact/io.cucumber/cucumber-jvm/versions)
 
 Source code: [https://github.com/cucumber/cucumber-jvm.git](https://github.com/cucumber/cucumber-jvm.git)
 

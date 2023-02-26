@@ -1,9 +1,9 @@
-[org.apache.maven:maven-parent](https://search.maven.org/artifact/org.apache.maven/maven-parent/) RB check
+[org.apache.maven:maven-parent](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven:maven-parent](https://search.maven.org/artifact/org.apache.maven/maven-parent/)
+## Project: [org.apache.maven:maven-parent](https://central.sonatype.com/artifact/org.apache.maven/maven-parent/versions)
 
 Source code: [https://github.com/apache/maven-parent.git](https://github.com/apache/maven-parent.git)
 

@@ -1,9 +1,9 @@
-[org.apache:apache](https://search.maven.org/artifact/org.apache/apache/) RB check
+[org.apache:apache](https://central.sonatype.com/artifact/org.apache/apache/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache:apache](https://search.maven.org/artifact/org.apache/apache/)
+## Project: [org.apache:apache](https://central.sonatype.com/artifact/org.apache/apache/versions)
 
 Source code: [https://github.com/apache/maven-apache-parent.git](https://github.com/apache/maven-apache-parent.git)
 

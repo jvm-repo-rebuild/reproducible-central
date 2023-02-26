@@ -1,9 +1,9 @@
-[org.apache.ftpserver:ftpserver-parent](https://search.maven.org/artifact/org.apache.ftpserver/ftpserver-parent/) RB check
+[org.apache.ftpserver:ftpserver-parent](https://central.sonatype.com/artifact/org.apache.ftpserver/ftpserver-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.ftpserver:ftpserver-parent](https://search.maven.org/artifact/org.apache.ftpserver/ftpserver-parent/)
+## Project: [org.apache.ftpserver:ftpserver-parent](https://central.sonatype.com/artifact/org.apache.ftpserver/ftpserver-parent/versions)
 
 Source code: [https://github.com/apache/mina-ftpserver.git](https://github.com/apache/mina-ftpserver.git)
 

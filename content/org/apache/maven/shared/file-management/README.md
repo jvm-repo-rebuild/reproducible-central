@@ -1,9 +1,9 @@
-[org.apache.maven.shared:file-management](https://search.maven.org/artifact/org.apache.maven.shared/file-management/) RB check
+[org.apache.maven.shared:file-management](https://central.sonatype.com/artifact/org.apache.maven.shared/file-management/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.shared:file-management](https://search.maven.org/artifact/org.apache.maven.shared/file-management/)
+## Project: [org.apache.maven.shared:file-management](https://central.sonatype.com/artifact/org.apache.maven.shared/file-management/versions)
 
 Source code: [https://github.com/apache/maven-file-management.git](https://github.com/apache/maven-file-management.git)
 

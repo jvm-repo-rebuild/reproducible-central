@@ -1,9 +1,9 @@
-[org.codehaus.mojo:tidy-maven-plugin](https://search.maven.org/artifact/org.codehaus.mojo/tidy-maven-plugin/) RB check
+[org.codehaus.mojo:tidy-maven-plugin](https://central.sonatype.com/artifact/org.codehaus.mojo/tidy-maven-plugin/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.codehaus.mojo:tidy-maven-plugin](https://search.maven.org/artifact/org.codehaus.mojo/tidy-maven-plugin/)
+## Project: [org.codehaus.mojo:tidy-maven-plugin](https://central.sonatype.com/artifact/org.codehaus.mojo/tidy-maven-plugin/versions)
 
 Source code: [https://github.com/mojohaus/tidy-maven-plugin.git](https://github.com/mojohaus/tidy-maven-plugin.git)
 

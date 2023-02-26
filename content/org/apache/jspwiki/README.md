@@ -1,9 +1,9 @@
-[org.apache.jspwiki:jspwiki-builder](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-builder/) RB check
+[org.apache.jspwiki:jspwiki-builder](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.jspwiki:jspwiki-builder](https://search.maven.org/artifact/org.apache.jspwiki/jspwiki-builder/)
+## Project: [org.apache.jspwiki:jspwiki-builder](https://central.sonatype.com/artifact/org.apache.jspwiki/jspwiki-builder/versions)
 
 Source code: [https://github.com/apache/jspwiki.git](https://github.com/apache/jspwiki.git)
 

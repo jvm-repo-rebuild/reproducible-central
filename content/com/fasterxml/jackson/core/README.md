@@ -1,9 +1,9 @@
-[com.fasterxml.jackson.core:jackson-core](https://search.maven.org/artifact/com.fasterxml.jackson.core/jackson-core/) RB check
+[com.fasterxml.jackson.core:jackson-core](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.fasterxml.jackson.core:jackson-core](https://search.maven.org/artifact/com.fasterxml.jackson.core/jackson-core/)
+## Project: [com.fasterxml.jackson.core:jackson-core](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/versions)
 
 Source code: [https://github.com/FasterXML/jackson-core.git](https://github.com/FasterXML/jackson-core.git)
 

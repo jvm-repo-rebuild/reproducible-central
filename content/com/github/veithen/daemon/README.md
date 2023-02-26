@@ -1,9 +1,9 @@
-[com.github.veithen.daemon:daemon](https://search.maven.org/artifact/com.github.veithen.daemon/daemon/) RB check
+[com.github.veithen.daemon:daemon](https://central.sonatype.com/artifact/com.github.veithen.daemon/daemon/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.github.veithen.daemon:daemon](https://search.maven.org/artifact/com.github.veithen.daemon/daemon/)
+## Project: [com.github.veithen.daemon:daemon](https://central.sonatype.com/artifact/com.github.veithen.daemon/daemon/versions)
 
 Source code: [https://github.com/veithen/daemon.git](https://github.com/veithen/daemon.git)
 

@@ -1,9 +1,9 @@
-[org.webjars:webjars-locator](https://search.maven.org/artifact/org.webjars/webjars-locator/) RB check
+[org.webjars:webjars-locator](https://central.sonatype.com/artifact/org.webjars/webjars-locator/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.webjars:webjars-locator](https://search.maven.org/artifact/org.webjars/webjars-locator/)
+## Project: [org.webjars:webjars-locator](https://central.sonatype.com/artifact/org.webjars/webjars-locator/versions)
 
 Source code: [https://github.com/webjars/webjars-locator.git](https://github.com/webjars/webjars-locator.git)
 

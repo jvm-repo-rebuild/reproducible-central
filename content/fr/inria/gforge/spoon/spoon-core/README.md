@@ -1,9 +1,9 @@
-[fr.inria.gforge.spoon:spoon-core](https://search.maven.org/artifact/fr.inria.gforge.spoon/spoon-core/) RB check
+[fr.inria.gforge.spoon:spoon-core](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [fr.inria.gforge.spoon:spoon-core](https://search.maven.org/artifact/fr.inria.gforge.spoon/spoon-core/)
+## Project: [fr.inria.gforge.spoon:spoon-core](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/versions)
 
 Source code: [https://github.com/inria/spoon.git](https://github.com/inria/spoon.git)
 

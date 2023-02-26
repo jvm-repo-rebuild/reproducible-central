@@ -1,9 +1,9 @@
-[io.wcm:io.wcm.caconfig.editor.parent](https://search.maven.org/artifact/io.wcm/io.wcm.caconfig.editor.parent/) RB check
+[io.wcm:io.wcm.caconfig.editor.parent](https://central.sonatype.com/artifact/io.wcm/io.wcm.caconfig.editor.parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.wcm:io.wcm.caconfig.editor.parent](https://search.maven.org/artifact/io.wcm/io.wcm.caconfig.editor.parent/)
+## Project: [io.wcm:io.wcm.caconfig.editor.parent](https://central.sonatype.com/artifact/io.wcm/io.wcm.caconfig.editor.parent/versions)
 
 Source code: [https://github.com/wcm-io/wcm-io-caconfig.git](https://github.com/wcm-io/wcm-io-caconfig.git)
 

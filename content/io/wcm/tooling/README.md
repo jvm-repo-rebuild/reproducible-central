@@ -1,9 +1,9 @@
-[io.wcm:io.wcm.parent_toplevel](https://search.maven.org/artifact/io.wcm/io.wcm.parent_toplevel/) RB check
+[io.wcm:io.wcm.parent_toplevel](https://central.sonatype.com/artifact/io.wcm/io.wcm.parent_toplevel/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.wcm:io.wcm.parent_toplevel](https://search.maven.org/artifact/io.wcm/io.wcm.parent_toplevel/)
+## Project: [io.wcm:io.wcm.parent_toplevel](https://central.sonatype.com/artifact/io.wcm/io.wcm.parent_toplevel/versions)
 
 Source code: [https://github.com/wcm-io/wcm-io-tooling.git](https://github.com/wcm-io/wcm-io-tooling.git)
 

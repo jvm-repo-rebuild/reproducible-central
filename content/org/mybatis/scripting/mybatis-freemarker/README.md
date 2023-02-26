@@ -1,9 +1,9 @@
-[org.mybatis.scripting:mybatis-freemarker](https://search.maven.org/artifact/org.mybatis.scripting/mybatis-freemarker/) RB check
+[org.mybatis.scripting:mybatis-freemarker](https://central.sonatype.com/artifact/org.mybatis.scripting/mybatis-freemarker/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.mybatis.scripting:mybatis-freemarker](https://search.maven.org/artifact/org.mybatis.scripting/mybatis-freemarker/)
+## Project: [org.mybatis.scripting:mybatis-freemarker](https://central.sonatype.com/artifact/org.mybatis.scripting/mybatis-freemarker/versions)
 
 Source code: [https://github.com/mybatis/freemarker-scripting.git](https://github.com/mybatis/freemarker-scripting.git)
 

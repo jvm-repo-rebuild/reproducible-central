@@ -1,9 +1,9 @@
-[fr.vidal.oss:atom-jaxb](https://search.maven.org/artifact/fr.vidal.oss/atom-jaxb/) RB check
+[fr.vidal.oss:atom-jaxb](https://central.sonatype.com/artifact/fr.vidal.oss/atom-jaxb/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [fr.vidal.oss:atom-jaxb](https://search.maven.org/artifact/fr.vidal.oss/atom-jaxb/)
+## Project: [fr.vidal.oss:atom-jaxb](https://central.sonatype.com/artifact/fr.vidal.oss/atom-jaxb/versions)
 
 Source code: [git@github.com:vidal-community/atom-jaxb.git](git@github.com:vidal-community/atom-jaxb.git)
 

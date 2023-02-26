@@ -1,9 +1,9 @@
-[org.apache.maven.doxia:doxia-sitetools](https://search.maven.org/artifact/org.apache.maven.doxia/doxia-sitetools/) RB check
+[org.apache.maven.doxia:doxia-sitetools](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-sitetools/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.doxia:doxia-sitetools](https://search.maven.org/artifact/org.apache.maven.doxia/doxia-sitetools/)
+## Project: [org.apache.maven.doxia:doxia-sitetools](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-sitetools/versions)
 
 Source code: [https://github.com/apache/maven-doxia-sitetools.git](https://github.com/apache/maven-doxia-sitetools.git)
 

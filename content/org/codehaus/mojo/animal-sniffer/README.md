@@ -1,9 +1,9 @@
-[org.codehaus.mojo:animal-sniffer-parent](https://search.maven.org/artifact/org.codehaus.mojo/animal-sniffer-parent/) RB check
+[org.codehaus.mojo:animal-sniffer-parent](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.codehaus.mojo:animal-sniffer-parent](https://search.maven.org/artifact/org.codehaus.mojo/animal-sniffer-parent/)
+## Project: [org.codehaus.mojo:animal-sniffer-parent](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-parent/versions)
 
 Source code: [https://github.com/mojohaus/animal-sniffer.git](https://github.com/mojohaus/animal-sniffer.git)
 

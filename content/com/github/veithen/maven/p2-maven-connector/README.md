@@ -1,9 +1,9 @@
-[com.github.veithen.maven:p2-maven-connector](https://search.maven.org/artifact/com.github.veithen.maven/p2-maven-connector/) RB check
+[com.github.veithen.maven:p2-maven-connector](https://central.sonatype.com/artifact/com.github.veithen.maven/p2-maven-connector/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.github.veithen.maven:p2-maven-connector](https://search.maven.org/artifact/com.github.veithen.maven/p2-maven-connector/)
+## Project: [com.github.veithen.maven:p2-maven-connector](https://central.sonatype.com/artifact/com.github.veithen.maven/p2-maven-connector/versions)
 
 Source code: [https://github.com/veithen/p2-maven-connector.git](https://github.com/veithen/p2-maven-connector.git)
 

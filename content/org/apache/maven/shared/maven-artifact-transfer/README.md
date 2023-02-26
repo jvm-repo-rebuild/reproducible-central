@@ -1,9 +1,9 @@
-[org.apache.maven.shared:maven-artifact-transfer](https://search.maven.org/artifact/org.apache.maven.shared/maven-artifact-transfer/) RB check
+[org.apache.maven.shared:maven-artifact-transfer](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-artifact-transfer/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.shared:maven-artifact-transfer](https://search.maven.org/artifact/org.apache.maven.shared/maven-artifact-transfer/)
+## Project: [org.apache.maven.shared:maven-artifact-transfer](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-artifact-transfer/versions)
 
 Source code: [https://github.com/apache/maven-artifact-transfer.git](https://github.com/apache/maven-artifact-transfer.git)
 

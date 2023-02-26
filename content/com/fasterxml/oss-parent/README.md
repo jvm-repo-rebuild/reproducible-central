@@ -1,9 +1,9 @@
-[com.fasterxml:oss-parent](https://search.maven.org/artifact/com.fasterxml/oss-parent/) RB check
+[com.fasterxml:oss-parent](https://central.sonatype.com/artifact/com.fasterxml/oss-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.fasterxml:oss-parent](https://search.maven.org/artifact/com.fasterxml/oss-parent/)
+## Project: [com.fasterxml:oss-parent](https://central.sonatype.com/artifact/com.fasterxml/oss-parent/versions)
 
 Source code: [https://github.com/FasterXML/oss-parent.git](https://github.com/FasterXML/oss-parent.git)
 

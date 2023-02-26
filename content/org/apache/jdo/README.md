@@ -1,9 +1,9 @@
-[org.apache:jdo](https://search.maven.org/artifact/org.apache/jdo/) RB check
+[org.apache:jdo](https://central.sonatype.com/artifact/org.apache/jdo/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache:jdo](https://search.maven.org/artifact/org.apache/jdo/)
+## Project: [org.apache:jdo](https://central.sonatype.com/artifact/org.apache/jdo/versions)
 
 Source code: [https://github.com/apache/db-jdo.git](https://github.com/apache/db-jdo.git)
 

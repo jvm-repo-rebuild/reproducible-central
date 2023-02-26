@@ -1,9 +1,9 @@
-[org.apache.royale.compiler:compiler](https://search.maven.org/artifact/org.apache.royale.compiler/compiler/) RB check
+[org.apache.royale.compiler:compiler](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.royale.compiler:compiler](https://search.maven.org/artifact/org.apache.royale.compiler/compiler/)
+## Project: [org.apache.royale.compiler:compiler](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler/versions)
 
 Source code: [https://github.com/apache/royale-compiler.git](https://github.com/apache/royale-compiler.git)
 

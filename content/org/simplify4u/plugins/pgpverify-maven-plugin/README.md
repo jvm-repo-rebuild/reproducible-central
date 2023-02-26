@@ -1,9 +1,9 @@
-[org.simplify4u.plugins:pgpverify-maven-plugin](https://search.maven.org/artifact/org.simplify4u.plugins/pgpverify-maven-plugin/) RB check
+[org.simplify4u.plugins:pgpverify-maven-plugin](https://central.sonatype.com/artifact/org.simplify4u.plugins/pgpverify-maven-plugin/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.simplify4u.plugins:pgpverify-maven-plugin](https://search.maven.org/artifact/org.simplify4u.plugins/pgpverify-maven-plugin/)
+## Project: [org.simplify4u.plugins:pgpverify-maven-plugin](https://central.sonatype.com/artifact/org.simplify4u.plugins/pgpverify-maven-plugin/versions)
 
 Source code: [git@github.com:s4u/pgpverify-maven-plugin.git](git@github.com:s4u/pgpverify-maven-plugin.git)
 

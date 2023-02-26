@@ -1,9 +1,9 @@
-[org.apache.maven.shared:maven-script-interpreter](https://search.maven.org/artifact/org.apache.maven.shared/maven-script-interpreter/) RB check
+[org.apache.maven.shared:maven-script-interpreter](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-script-interpreter/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.shared:maven-script-interpreter](https://search.maven.org/artifact/org.apache.maven.shared/maven-script-interpreter/)
+## Project: [org.apache.maven.shared:maven-script-interpreter](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-script-interpreter/versions)
 
 Source code: [https://github.com/apache/maven-script-interpreter.git](https://github.com/apache/maven-script-interpreter.git)
 

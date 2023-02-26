@@ -1,9 +1,9 @@
-[org.apache.sling:org.apache.sling.xss](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.xss/) RB check
+[org.apache.sling:org.apache.sling.xss](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.xss/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.xss](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.xss/)
+## Project: [org.apache.sling:org.apache.sling.xss](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.xss/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-xss.git](https://github.com/apache/sling-org-apache-sling-xss.git)
 

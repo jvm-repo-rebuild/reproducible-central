@@ -1,9 +1,9 @@
-[org.apache.rat:apache-rat-project](https://search.maven.org/artifact/org.apache.rat/apache-rat-project/) RB check
+[org.apache.rat:apache-rat-project](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-project/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.rat:apache-rat-project](https://search.maven.org/artifact/org.apache.rat/apache-rat-project/)
+## Project: [org.apache.rat:apache-rat-project](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-project/versions)
 
 Source code: [https://github.com/apache/creadur-rat.git](https://github.com/apache/creadur-rat.git)
 

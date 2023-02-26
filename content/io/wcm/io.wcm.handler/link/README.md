@@ -1,9 +1,9 @@
-[io.wcm:io.wcm.handler.link](https://search.maven.org/artifact/io.wcm/io.wcm.handler.link/) RB check
+[io.wcm:io.wcm.handler.link](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.link/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.wcm:io.wcm.handler.link](https://search.maven.org/artifact/io.wcm/io.wcm.handler.link/)
+## Project: [io.wcm:io.wcm.handler.link](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.link/versions)
 
 Source code: [https://github.com/wcm-io/wcm-io-handler.git](https://github.com/wcm-io/wcm-io-handler.git)
 

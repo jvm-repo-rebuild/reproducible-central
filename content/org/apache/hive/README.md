@@ -1,9 +1,9 @@
-[org.apache.hive:hive](https://search.maven.org/artifact/org.apache.hive/hive/) RB check
+[org.apache.hive:hive](https://central.sonatype.com/artifact/org.apache.hive/hive/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.hive:hive](https://search.maven.org/artifact/org.apache.hive/hive/)
+## Project: [org.apache.hive:hive](https://central.sonatype.com/artifact/org.apache.hive/hive/versions)
 
 Source code: [https://github.com/apache/hive.git](https://github.com/apache/hive.git)
 

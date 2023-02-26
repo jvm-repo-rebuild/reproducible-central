@@ -1,9 +1,9 @@
-[org.apache.plc4x.plugins:plc4x-site-skin](https://search.maven.org/artifact/org.apache.plc4x.plugins/plc4x-site-skin/) RB check
+[org.apache.plc4x.plugins:plc4x-site-skin](https://central.sonatype.com/artifact/org.apache.plc4x.plugins/plc4x-site-skin/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.plc4x.plugins:plc4x-site-skin](https://search.maven.org/artifact/org.apache.plc4x.plugins/plc4x-site-skin/)
+## Project: [org.apache.plc4x.plugins:plc4x-site-skin](https://central.sonatype.com/artifact/org.apache.plc4x.plugins/plc4x-site-skin/versions)
 
 Source code: [https://github.com/apache/plc4x-build-tools.git](https://github.com/apache/plc4x-build-tools.git)
 

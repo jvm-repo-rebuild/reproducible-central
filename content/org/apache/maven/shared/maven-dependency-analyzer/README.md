@@ -1,9 +1,9 @@
-[org.apache.maven.shared:maven-dependency-analyzer](https://search.maven.org/artifact/org.apache.maven.shared/maven-dependency-analyzer/) RB check
+[org.apache.maven.shared:maven-dependency-analyzer](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-dependency-analyzer/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.shared:maven-dependency-analyzer](https://search.maven.org/artifact/org.apache.maven.shared/maven-dependency-analyzer/)
+## Project: [org.apache.maven.shared:maven-dependency-analyzer](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-dependency-analyzer/versions)
 
 Source code: [https://github.com/apache/maven-dependency-analyzer.git](https://github.com/apache/maven-dependency-analyzer.git)
 

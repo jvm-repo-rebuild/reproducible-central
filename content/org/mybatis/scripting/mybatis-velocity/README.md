@@ -1,9 +1,9 @@
-[org.mybatis.scripting:mybatis-velocity](https://search.maven.org/artifact/org.mybatis.scripting/mybatis-velocity/) RB check
+[org.mybatis.scripting:mybatis-velocity](https://central.sonatype.com/artifact/org.mybatis.scripting/mybatis-velocity/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.mybatis.scripting:mybatis-velocity](https://search.maven.org/artifact/org.mybatis.scripting/mybatis-velocity/)
+## Project: [org.mybatis.scripting:mybatis-velocity](https://central.sonatype.com/artifact/org.mybatis.scripting/mybatis-velocity/versions)
 
 Source code: [https://github.com/mybatis/velocity-scripting.git](https://github.com/mybatis/velocity-scripting.git)
 

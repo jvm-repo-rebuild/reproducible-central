@@ -1,9 +1,9 @@
-[org.codehaus.modello:modello](https://search.maven.org/artifact/org.codehaus.modello/modello/) RB check
+[org.codehaus.modello:modello](https://central.sonatype.com/artifact/org.codehaus.modello/modello/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.codehaus.modello:modello](https://search.maven.org/artifact/org.codehaus.modello/modello/)
+## Project: [org.codehaus.modello:modello](https://central.sonatype.com/artifact/org.codehaus.modello/modello/versions)
 
 Source code: [https://github.com/codehaus-plexus/modello.git](https://github.com/codehaus-plexus/modello.git)
 

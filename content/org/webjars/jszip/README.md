@@ -1,9 +1,9 @@
-[org.webjars:jszip](https://search.maven.org/artifact/org.webjars/jszip/) RB check
+[org.webjars:jszip](https://central.sonatype.com/artifact/org.webjars/jszip/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.webjars:jszip](https://search.maven.org/artifact/org.webjars/jszip/)
+## Project: [org.webjars:jszip](https://central.sonatype.com/artifact/org.webjars/jszip/versions)
 
 Source code: [https://github.com/webjars/jszip.git](https://github.com/webjars/jszip.git)
 

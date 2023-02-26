@@ -1,9 +1,9 @@
-[org.simplify4u:slf4j-mock](https://search.maven.org/artifact/org.simplify4u/slf4j-mock/) RB check
+[org.simplify4u:slf4j-mock](https://central.sonatype.com/artifact/org.simplify4u/slf4j-mock/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.simplify4u:slf4j-mock](https://search.maven.org/artifact/org.simplify4u/slf4j-mock/)
+## Project: [org.simplify4u:slf4j-mock](https://central.sonatype.com/artifact/org.simplify4u/slf4j-mock/versions)
 
 Source code: [git@github.com:s4u/slf4j-mock.git](git@github.com:s4u/slf4j-mock.git)
 

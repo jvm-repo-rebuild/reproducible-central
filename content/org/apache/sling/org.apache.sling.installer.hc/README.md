@@ -1,9 +1,9 @@
-[org.apache.sling:org.apache.sling.installer.hc](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.installer.hc/) RB check
+[org.apache.sling:org.apache.sling.installer.hc](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.installer.hc/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.installer.hc](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.installer.hc/)
+## Project: [org.apache.sling:org.apache.sling.installer.hc](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.installer.hc/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-installer-hc.git](https://github.com/apache/sling-org-apache-sling-installer-hc.git)
 

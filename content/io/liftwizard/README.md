@@ -1,9 +1,9 @@
-[io.liftwizard:liftwizard](https://search.maven.org/artifact/io.liftwizard/liftwizard/) RB check
+[io.liftwizard:liftwizard](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.liftwizard:liftwizard](https://search.maven.org/artifact/io.liftwizard/liftwizard/)
+## Project: [io.liftwizard:liftwizard](https://central.sonatype.com/artifact/io.liftwizard/liftwizard/versions)
 
 Source code: [https://github.com/motlin/liftwizard.git](https://github.com/motlin/liftwizard.git)
 

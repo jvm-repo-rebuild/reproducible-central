@@ -1,9 +1,9 @@
-[com.github.psi-probe:psi-probe](https://search.maven.org/artifact/com.github.psi-probe/psi-probe/) RB check
+[com.github.psi-probe:psi-probe](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.github.psi-probe:psi-probe](https://search.maven.org/artifact/com.github.psi-probe/psi-probe/)
+## Project: [com.github.psi-probe:psi-probe](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/versions)
 
 Source code: [https://github.com/psi-probe/psi-probe.git](https://github.com/psi-probe/psi-probe.git)
 

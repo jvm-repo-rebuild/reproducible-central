@@ -1,9 +1,9 @@
-[org.webjars:font-awesome](https://search.maven.org/artifact/org.webjars/font-awesome/) RB check
+[org.webjars:font-awesome](https://central.sonatype.com/artifact/org.webjars/font-awesome/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.webjars:font-awesome](https://search.maven.org/artifact/org.webjars/font-awesome/)
+## Project: [org.webjars:font-awesome](https://central.sonatype.com/artifact/org.webjars/font-awesome/versions)
 
 Source code: [https://github.com/webjars/font-awesome.git](https://github.com/webjars/font-awesome.git)
 

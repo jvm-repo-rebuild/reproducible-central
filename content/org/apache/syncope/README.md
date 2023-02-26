@@ -1,9 +1,9 @@
-[org.apache.syncope:syncope](https://search.maven.org/artifact/org.apache.syncope/syncope/) RB check
+[org.apache.syncope:syncope](https://central.sonatype.com/artifact/org.apache.syncope/syncope/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.syncope:syncope](https://search.maven.org/artifact/org.apache.syncope/syncope/)
+## Project: [org.apache.syncope:syncope](https://central.sonatype.com/artifact/org.apache.syncope/syncope/versions)
 
 Source code: [https://gitbox.apache.org/repos/asf/syncope.git](https://gitbox.apache.org/repos/asf/syncope.git)
 

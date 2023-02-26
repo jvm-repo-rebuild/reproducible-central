@@ -1,9 +1,9 @@
-[org.apache.any23:apache-any23](https://search.maven.org/artifact/org.apache.any23/apache-any23/) RB check
+[org.apache.any23:apache-any23](https://central.sonatype.com/artifact/org.apache.any23/apache-any23/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.any23:apache-any23](https://search.maven.org/artifact/org.apache.any23/apache-any23/)
+## Project: [org.apache.any23:apache-any23](https://central.sonatype.com/artifact/org.apache.any23/apache-any23/versions)
 
 Source code: [https://github.com/apache/any23.git](https://github.com/apache/any23.git)
 

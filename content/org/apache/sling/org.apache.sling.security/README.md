@@ -1,9 +1,9 @@
-[org.apache.sling:org.apache.sling.security](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.security/) RB check
+[org.apache.sling:org.apache.sling.security](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.security/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.security](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.security/)
+## Project: [org.apache.sling:org.apache.sling.security](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.security/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-security.git](https://github.com/apache/sling-org-apache-sling-security.git)
 

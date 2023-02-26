@@ -1,9 +1,9 @@
-[org.apache.sling:org.apache.sling.commons.crypto](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.commons.crypto/) RB check
+[org.apache.sling:org.apache.sling.commons.crypto](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.commons.crypto/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.commons.crypto](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.commons.crypto/)
+## Project: [org.apache.sling:org.apache.sling.commons.crypto](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.commons.crypto/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-commons-crypto.git](https://github.com/apache/sling-org-apache-sling-commons-crypto.git)
 

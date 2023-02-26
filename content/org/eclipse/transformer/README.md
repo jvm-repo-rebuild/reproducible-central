@@ -1,9 +1,9 @@
-[org.eclipse.transformer:org.eclipse.transformer.parent](https://search.maven.org/artifact/org.eclipse.transformer/org.eclipse.transformer.parent/) RB check
+[org.eclipse.transformer:org.eclipse.transformer.parent](https://central.sonatype.com/artifact/org.eclipse.transformer/org.eclipse.transformer.parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.eclipse.transformer:org.eclipse.transformer.parent](https://search.maven.org/artifact/org.eclipse.transformer/org.eclipse.transformer.parent/)
+## Project: [org.eclipse.transformer:org.eclipse.transformer.parent](https://central.sonatype.com/artifact/org.eclipse.transformer/org.eclipse.transformer.parent/versions)
 
 Source code: [https://github.com/eclipse/transformer.git](https://github.com/eclipse/transformer.git)
 

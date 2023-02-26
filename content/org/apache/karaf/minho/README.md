@@ -1,9 +1,9 @@
-[org.apache.karaf.minho:minho](https://search.maven.org/artifact/org.apache.karaf.minho/minho/) RB check
+[org.apache.karaf.minho:minho](https://central.sonatype.com/artifact/org.apache.karaf.minho/minho/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.karaf.minho:minho](https://search.maven.org/artifact/org.apache.karaf.minho/minho/)
+## Project: [org.apache.karaf.minho:minho](https://central.sonatype.com/artifact/org.apache.karaf.minho/minho/versions)
 
 Source code: [https://github.com/apache/karaf-minho.git](https://github.com/apache/karaf-minho.git)
 

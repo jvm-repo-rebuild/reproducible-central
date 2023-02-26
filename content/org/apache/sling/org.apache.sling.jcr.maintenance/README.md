@@ -1,9 +1,9 @@
-[org.apache.sling:org.apache.sling.jcr.maintenance](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.jcr.maintenance/) RB check
+[org.apache.sling:org.apache.sling.jcr.maintenance](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.maintenance/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.jcr.maintenance](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.jcr.maintenance/)
+## Project: [org.apache.sling:org.apache.sling.jcr.maintenance](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.maintenance/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-jcr-maintenance.git](https://github.com/apache/sling-org-apache-sling-jcr-maintenance.git)
 

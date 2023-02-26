@@ -1,9 +1,9 @@
-[org.apache.maven.wagon:wagon](https://search.maven.org/artifact/org.apache.maven.wagon/wagon/) RB check
+[org.apache.maven.wagon:wagon](https://central.sonatype.com/artifact/org.apache.maven.wagon/wagon/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.wagon:wagon](https://search.maven.org/artifact/org.apache.maven.wagon/wagon/)
+## Project: [org.apache.maven.wagon:wagon](https://central.sonatype.com/artifact/org.apache.maven.wagon/wagon/versions)
 
 Source code: [https://github.com/apache/maven-wagon.git](https://github.com/apache/maven-wagon.git)
 

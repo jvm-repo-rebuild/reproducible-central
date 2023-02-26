@@ -1,9 +1,9 @@
-[org.apache.camel:camel](https://search.maven.org/artifact/org.apache.camel/camel/) RB check
+[org.apache.camel:camel](https://central.sonatype.com/artifact/org.apache.camel/camel/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.camel:camel](https://search.maven.org/artifact/org.apache.camel/camel/)
+## Project: [org.apache.camel:camel](https://central.sonatype.com/artifact/org.apache.camel/camel/versions)
 
 Source code: [https://github.com/apache/camel.git](https://github.com/apache/camel.git)
 

@@ -1,9 +1,9 @@
-[org.codehaus.plexus:plexus-classworlds](https://search.maven.org/artifact/org.codehaus.plexus/plexus-classworlds/) RB check
+[org.codehaus.plexus:plexus-classworlds](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-classworlds/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.codehaus.plexus:plexus-classworlds](https://search.maven.org/artifact/org.codehaus.plexus/plexus-classworlds/)
+## Project: [org.codehaus.plexus:plexus-classworlds](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-classworlds/versions)
 
 Source code: [https://github.com/codehaus-plexus/plexus-classworlds.git](https://github.com/codehaus-plexus/plexus-classworlds.git)
 

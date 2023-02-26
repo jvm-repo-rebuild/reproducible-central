@@ -1,9 +1,9 @@
-[org.apache.sling:org.apache.sling.repoinit.parser](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.repoinit.parser/) RB check
+[org.apache.sling:org.apache.sling.repoinit.parser](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.repoinit.parser/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.repoinit.parser](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.repoinit.parser/)
+## Project: [org.apache.sling:org.apache.sling.repoinit.parser](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.repoinit.parser/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-repoinit-parser.git](https://github.com/apache/sling-org-apache-sling-repoinit-parser.git)
 

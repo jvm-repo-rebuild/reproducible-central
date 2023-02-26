@@ -1,9 +1,9 @@
-[org.quickperf:quick-perf](https://search.maven.org/artifact/org.quickperf/quick-perf/) RB check
+[org.quickperf:quick-perf](https://central.sonatype.com/artifact/org.quickperf/quick-perf/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.quickperf:quick-perf](https://search.maven.org/artifact/org.quickperf/quick-perf/)
+## Project: [org.quickperf:quick-perf](https://central.sonatype.com/artifact/org.quickperf/quick-perf/versions)
 
 Source code: [https://github.com/quick-perf/quickperf.git](https://github.com/quick-perf/quickperf.git)
 

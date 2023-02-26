@@ -1,9 +1,9 @@
-[eu.europa.ted.eforms:eforms-sdk](https://search.maven.org/artifact/eu.europa.ted.eforms/eforms-sdk/) RB check
+[eu.europa.ted.eforms:eforms-sdk](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [eu.europa.ted.eforms:eforms-sdk](https://search.maven.org/artifact/eu.europa.ted.eforms/eforms-sdk/)
+## Project: [eu.europa.ted.eforms:eforms-sdk](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/versions)
 
 Source code: [https://github.com/OP-TED/eForms-SDK.git](https://github.com/OP-TED/eForms-SDK.git)
 

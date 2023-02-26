@@ -1,9 +1,9 @@
-[org.apache.felix:org.apache.felix.http.parent](https://search.maven.org/artifact/org.apache.felix/org.apache.felix.http.parent/) RB check
+[org.apache.felix:org.apache.felix.http.parent](https://central.sonatype.com/artifact/org.apache.felix/org.apache.felix.http.parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.felix:org.apache.felix.http.parent](https://search.maven.org/artifact/org.apache.felix/org.apache.felix.http.parent/)
+## Project: [org.apache.felix:org.apache.felix.http.parent](https://central.sonatype.com/artifact/org.apache.felix/org.apache.felix.http.parent/versions)
 
 Source code: [https://github.com/apache/felix-dev.git](https://github.com/apache/felix-dev.git)
 

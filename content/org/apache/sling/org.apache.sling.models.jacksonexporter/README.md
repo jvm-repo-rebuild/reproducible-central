@@ -1,9 +1,9 @@
-[org.apache.sling:org.apache.sling.models.jacksonexporter](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.models.jacksonexporter/) RB check
+[org.apache.sling:org.apache.sling.models.jacksonexporter](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.models.jacksonexporter/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.models.jacksonexporter](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.models.jacksonexporter/)
+## Project: [org.apache.sling:org.apache.sling.models.jacksonexporter](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.models.jacksonexporter/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-models-jacksonexporter.git](https://github.com/apache/sling-org-apache-sling-models-jacksonexporter.git)
 

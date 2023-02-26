@@ -1,9 +1,9 @@
-[io.cucumber:tag-expressions](https://search.maven.org/artifact/io.cucumber/tag-expressions/) RB check
+[io.cucumber:tag-expressions](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.cucumber:tag-expressions](https://search.maven.org/artifact/io.cucumber/tag-expressions/)
+## Project: [io.cucumber:tag-expressions](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/versions)
 
 Source code: [https://github.com/cucumber/tag-expressions.git](https://github.com/cucumber/tag-expressions.git)
 

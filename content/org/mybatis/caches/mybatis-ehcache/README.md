@@ -1,9 +1,9 @@
-[org.mybatis.caches:mybatis-ehcache](https://search.maven.org/artifact/org.mybatis.caches/mybatis-ehcache/) RB check
+[org.mybatis.caches:mybatis-ehcache](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-ehcache/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.mybatis.caches:mybatis-ehcache](https://search.maven.org/artifact/org.mybatis.caches/mybatis-ehcache/)
+## Project: [org.mybatis.caches:mybatis-ehcache](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-ehcache/versions)
 
 Source code: [https://github.com/mybatis/ehcache-cache.git](https://github.com/mybatis/ehcache-cache.git)
 

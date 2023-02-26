@@ -1,9 +1,9 @@
-[org.mybatis.caches:mybatis-ignite](https://search.maven.org/artifact/org.mybatis.caches/mybatis-ignite/) RB check
+[org.mybatis.caches:mybatis-ignite](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-ignite/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.mybatis.caches:mybatis-ignite](https://search.maven.org/artifact/org.mybatis.caches/mybatis-ignite/)
+## Project: [org.mybatis.caches:mybatis-ignite](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-ignite/versions)
 
 Source code: [https://github.com/mybatis/ignite-cache.git](https://github.com/mybatis/ignite-cache.git)
 

@@ -1,9 +1,9 @@
-[org.codehaus.plexus:plexus](https://search.maven.org/artifact/org.codehaus.plexus/plexus/) RB check
+[org.codehaus.plexus:plexus](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.codehaus.plexus:plexus](https://search.maven.org/artifact/org.codehaus.plexus/plexus/)
+## Project: [org.codehaus.plexus:plexus](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus/versions)
 
 Source code: [https://github.com/codehaus-plexus/plexus-pom.git](https://github.com/codehaus-plexus/plexus-pom.git)
 

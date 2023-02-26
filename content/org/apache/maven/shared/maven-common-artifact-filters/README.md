@@ -1,9 +1,9 @@
-[org.apache.maven.shared:maven-common-artifact-filters](https://search.maven.org/artifact/org.apache.maven.shared/maven-common-artifact-filters/) RB check
+[org.apache.maven.shared:maven-common-artifact-filters](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-common-artifact-filters/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.shared:maven-common-artifact-filters](https://search.maven.org/artifact/org.apache.maven.shared/maven-common-artifact-filters/)
+## Project: [org.apache.maven.shared:maven-common-artifact-filters](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-common-artifact-filters/versions)
 
 Source code: [https://github.com/apache/maven-common-artifact-filters.git](https://github.com/apache/maven-common-artifact-filters.git)
 

@@ -1,9 +1,9 @@
-[org.mybatis.caches:mybatis-caffeine](https://search.maven.org/artifact/org.mybatis.caches/mybatis-caffeine/) RB check
+[org.mybatis.caches:mybatis-caffeine](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-caffeine/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.mybatis.caches:mybatis-caffeine](https://search.maven.org/artifact/org.mybatis.caches/mybatis-caffeine/)
+## Project: [org.mybatis.caches:mybatis-caffeine](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-caffeine/versions)
 
 Source code: [https://github.com/mybatis/mybatis-caffeine.git](https://github.com/mybatis/mybatis-caffeine.git)
 

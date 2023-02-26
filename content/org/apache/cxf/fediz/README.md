@@ -1,9 +1,9 @@
-[org.apache.cxf.fediz:fediz](https://search.maven.org/artifact/org.apache.cxf.fediz/fediz/) RB check
+[org.apache.cxf.fediz:fediz](https://central.sonatype.com/artifact/org.apache.cxf.fediz/fediz/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.cxf.fediz:fediz](https://search.maven.org/artifact/org.apache.cxf.fediz/fediz/)
+## Project: [org.apache.cxf.fediz:fediz](https://central.sonatype.com/artifact/org.apache.cxf.fediz/fediz/versions)
 
 Source code: [https://github.com/apache/cxf-fediz.git](https://github.com/apache/cxf-fediz.git)
 

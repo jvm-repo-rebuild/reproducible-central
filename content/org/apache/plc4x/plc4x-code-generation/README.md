@@ -1,9 +1,9 @@
-[org.apache.plc4x.plugins:plc4x-code-generation](https://search.maven.org/artifact/org.apache.plc4x.plugins/plc4x-code-generation/) RB check
+[org.apache.plc4x.plugins:plc4x-code-generation](https://central.sonatype.com/artifact/org.apache.plc4x.plugins/plc4x-code-generation/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.plc4x.plugins:plc4x-code-generation](https://search.maven.org/artifact/org.apache.plc4x.plugins/plc4x-code-generation/)
+## Project: [org.apache.plc4x.plugins:plc4x-code-generation](https://central.sonatype.com/artifact/org.apache.plc4x.plugins/plc4x-code-generation/versions)
 
 Source code: [https://github.com/apache/plc4x-build-tools.git](https://github.com/apache/plc4x-build-tools.git)
 

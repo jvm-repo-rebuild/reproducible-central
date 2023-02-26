@@ -1,9 +1,9 @@
-[io.cucumber:gherkin-utils](https://search.maven.org/artifact/io.cucumber/gherkin-utils/) RB check
+[io.cucumber:gherkin-utils](https://central.sonatype.com/artifact/io.cucumber/gherkin-utils/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.cucumber:gherkin-utils](https://search.maven.org/artifact/io.cucumber/gherkin-utils/)
+## Project: [io.cucumber:gherkin-utils](https://central.sonatype.com/artifact/io.cucumber/gherkin-utils/versions)
 
 Source code: [https://github.com/cucumber/gherkin-utils.git](https://github.com/cucumber/gherkin-utils.git)
 

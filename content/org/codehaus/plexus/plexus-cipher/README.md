@@ -1,9 +1,9 @@
-[org.codehaus.plexus:plexus-cipher](https://search.maven.org/artifact/org.codehaus.plexus/plexus-cipher/) RB check
+[org.codehaus.plexus:plexus-cipher](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-cipher/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.codehaus.plexus:plexus-cipher](https://search.maven.org/artifact/org.codehaus.plexus/plexus-cipher/)
+## Project: [org.codehaus.plexus:plexus-cipher](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-cipher/versions)
 
 Source code: [https://github.com/codehaus-plexus/plexus-cipher.git](https://github.com/codehaus-plexus/plexus-cipher.git)
 

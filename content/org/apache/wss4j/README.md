@@ -1,9 +1,9 @@
-[org.apache.wss4j:wss4j](https://search.maven.org/artifact/org.apache.wss4j/wss4j/) RB check
+[org.apache.wss4j:wss4j](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.wss4j:wss4j](https://search.maven.org/artifact/org.apache.wss4j/wss4j/)
+## Project: [org.apache.wss4j:wss4j](https://central.sonatype.com/artifact/org.apache.wss4j/wss4j/versions)
 
 Source code: [https://github.com/apache/ws-wss4j.git](https://github.com/apache/ws-wss4j.git)
 

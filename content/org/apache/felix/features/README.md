@@ -1,9 +1,9 @@
-[org.apache.felix:org.apache.felix.feature](https://search.maven.org/artifact/org.apache.felix/org.apache.felix.feature/) RB check
+[org.apache.felix:org.apache.felix.feature](https://central.sonatype.com/artifact/org.apache.felix/org.apache.felix.feature/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.felix:org.apache.felix.feature](https://search.maven.org/artifact/org.apache.felix/org.apache.felix.feature/)
+## Project: [org.apache.felix:org.apache.felix.feature](https://central.sonatype.com/artifact/org.apache.felix/org.apache.felix.feature/versions)
 
 Source code: [https://github.com/apache/felix-dev.git](https://github.com/apache/felix-dev.git)
 
