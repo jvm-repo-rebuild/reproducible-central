@@ -25,12 +25,13 @@ Source code: [https://github.com/apache/maven-plugin-tools.git](https://github.c
 * [org.apache.maven.plugins:maven-plugin-report-plugin](https://search.maven.org/artifact/org.apache.maven.plugins/maven-plugin-report-plugin/)
 </details>
 
-rebuilding **5 releases** of org.apache.maven.plugin-tools:maven-plugin-tools:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **6 releases** of org.apache.maven.plugin-tools:maven-plugin-tools:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.8.1](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.8.1/pom) | [mvn jdk17](maven-plugin-tools-3.8.1.buildspec) | [result](maven-plugin-tools-3.8.1.buildinfo): [43 :heavy_check_mark: ](maven-plugin-tools-3.8.1.buildcompare) | 2.8M |
 | [3.7.1](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.7.1/pom) | [mvn jdk17](maven-plugin-tools-3.7.1.buildspec) | [result](maven-plugin-tools-3.7.1.buildinfo): [43 :heavy_check_mark: ](maven-plugin-tools-3.7.1.buildcompare) | 2.7M |
 | [3.7.0](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.7.0/pom) | [mvn jdk8](maven-plugin-tools-3.7.0.buildspec) | [result](maven-plugin-tools-3.7.0.buildinfo): [43 :heavy_check_mark: ](maven-plugin-tools-3.7.0.buildcompare) | 2.7M |
 | [3.6.4](https://search.maven.org/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.6.4/pom) | [mvn jdk8](maven-plugin-tools-3.6.4.buildspec) | [result](maven-plugin-tools-3.6.4.buildinfo): [40 :heavy_check_mark: ](maven-plugin-tools-3.6.4.buildcompare) | 1.4M |
