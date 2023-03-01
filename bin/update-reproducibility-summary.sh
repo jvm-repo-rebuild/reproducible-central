@@ -8,7 +8,7 @@ globalVersion=0
 globalVersionOk=0
 countGa=0
 summary="summary-table.md"
-echo "| [Central Repository](https://search.maven.org/) groupId | artifactId(s) | versions | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |" > ${summary}
+echo "| [Central Repository](https://central.sonatype.com/) groupId | artifactId(s) | versions | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |" > ${summary}
 echo "| ----------------- | --------------- | --------- | -------- |" >> ${summary}
 prevGroupId=
 stats="stats.txt"
@@ -60,12 +60,12 @@ do
       then
         ((countGa++))
         # prepare README.md intro
-        echo "[$groupId:$artifactId](https://central.sonatype.com/artifact/${groupId}/${artifactId}/versions) RB check" > $readme
+        echo "[$groupId:$artifactId](https://central.sonatype.com/artifact/${groupId}/${artifactId}/${version}/versions) RB check" > $readme
         echo "=======" >> $readme
         echo >> $readme
         echo "[![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)" >> $readme
         echo >> $readme
-        echo "## Project: [$groupId:$artifactId](https://central.sonatype.com/artifact/${groupId}/${artifactId}/versions)" >> $readme
+        echo "## Project: [$groupId:$artifactId](https://central.sonatype.com/artifact/${groupId}/${artifactId}/${version}/versions)" >> $readme
         echo >> $readme
         echo "Source code: [$gitRepo]($gitRepo)" >> $readme
         echo >> $readme
@@ -78,7 +78,7 @@ do
           for ga in $(cat $dir/*.buildinfo | grep coordinates | cut -d = -f 2 | sort -u)
           do
             gaDir=$(echo "$ga" | sed -e 's_:_/_')
-            echo "* [$ga](https://search.maven.org/artifact/${gaDir}/)" >> $readme
+            echo "* [$ga](https://central.sonatype.com/artifact/${gaDir}/${version})" >> $readme
           done
           echo "</details>" >> $readme
           echo >> $readme
@@ -88,7 +88,7 @@ do
       ((countVersion++))
       ((globalVersion++))
 
-      echo -n "| [${version}](https://search.maven.org/artifact/${groupId}/${artifactId}/${version}/pom) " >> ${t}
+      echo -n "| [${version}](https://central.sonatype.com/artifact/${groupId}/${artifactId}/${version}/pom) " >> ${t}
       echo -n "| [$(echo "${tool}"  | cut -d - -f 1)" >> ${t}
       [[ "${tool}" == "gradle" ]] || echo -n " jdk${jdk}" >> ${t} # chosen JDK is used only to launch Gradle, not build code, then not relevant
       [[ "${newline}" == crlf* ]] && echo -n " w" >> ${t}
@@ -114,7 +114,7 @@ do
       echo " | $(grep length= ${dir}/${_buildinfo} | cut -d = -f 2 | paste -sd+ - | bc | numfmt --to=iec) |" >> ${t}
     else
       # no buildspec, just list version to tmp
-      echo "| [${version}](https://search.maven.org/artifact/${groupId}/${artifactId}/${version}/pom) | | | |" >> "${t}"
+      echo "| [${version}](https://central.sonatype.com/artifact/${groupId}/${artifactId}/${version}/pom) | | | |" >> "${t}"
     fi
     # don't continue if it's the first version with buildspec
     [[ "$firstVersion" == "$version" ]] && break
