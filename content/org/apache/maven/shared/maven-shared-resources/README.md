@@ -1,9 +1,9 @@
-[org.apache.maven.shared:maven-shared-resources](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-shared-resources/versions) RB check
+[org.apache.maven.shared:maven-shared-resources](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-shared-resources/5/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.shared:maven-shared-resources](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-shared-resources/versions)
+## Project: [org.apache.maven.shared:maven-shared-resources](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-shared-resources/5/versions)
 
 Source code: [https://github.com/apache/maven-shared-resources.git](https://github.com/apache/maven-shared-resources.git)
 
@@ -13,8 +13,8 @@ rebuilding **3 releases** of org.apache.maven.shared:maven-shared-resources:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [5](https://search.maven.org/artifact/org.apache.maven.shared/maven-shared-resources/5/pom) | [mvn jdk17](maven-shared-resources-5.buildspec) | [result](maven-shared-resources-5.buildinfo): [4 :heavy_check_mark: ](maven-shared-resources-5.buildcompare) | 68K |
-| [4](https://search.maven.org/artifact/org.apache.maven.shared/maven-shared-resources/4/pom) | [mvn jdk17 w](maven-shared-resources-4.buildspec) | [result](maven-shared-resources-4.buildinfo): [4 :heavy_check_mark: ](maven-shared-resources-4.buildcompare) | 54K |
-| [3](https://search.maven.org/artifact/org.apache.maven.shared/maven-shared-resources/3/pom) | [mvn jdk17 w](maven-shared-resources-3.buildspec) | [result](maven-shared-resources-3.buildinfo): [4 :heavy_check_mark: ](maven-shared-resources-3.buildcompare) | 53K |
+| [5](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-shared-resources/5/pom) | [mvn jdk17](maven-shared-resources-5.buildspec) | [result](maven-shared-resources-5.buildinfo): [4 :heavy_check_mark: ](maven-shared-resources-5.buildcompare) | 68K |
+| [4](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-shared-resources/4/pom) | [mvn jdk17 w](maven-shared-resources-4.buildspec) | [result](maven-shared-resources-4.buildinfo): [4 :heavy_check_mark: ](maven-shared-resources-4.buildcompare) | 54K |
+| [3](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-shared-resources/3/pom) | [mvn jdk17 w](maven-shared-resources-3.buildspec) | [result](maven-shared-resources-3.buildinfo): [4 :heavy_check_mark: ](maven-shared-resources-3.buildcompare) | 53K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

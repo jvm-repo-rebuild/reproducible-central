@@ -1,9 +1,9 @@
-[org.apache.sling:org.apache.sling.jcr.resourcesecurity](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.resourcesecurity/versions) RB check
+[org.apache.sling:org.apache.sling.jcr.resourcesecurity](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.resourcesecurity/1.1.0/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.jcr.resourcesecurity](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.resourcesecurity/versions)
+## Project: [org.apache.sling:org.apache.sling.jcr.resourcesecurity](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.resourcesecurity/1.1.0/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-jcr-resourcesecurity.git](https://github.com/apache/sling-org-apache-sling-jcr-resourcesecurity.git)
 
@@ -13,6 +13,6 @@ rebuilding **1 releases** of org.apache.sling:org.apache.sling.jcr.resourcesecur
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.1.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.jcr.resourcesecurity/1.1.0/pom) | [mvn jdk11](org.apache.sling.jcr.resourcesecurity-1.1.0.buildspec) | [result](org.apache.sling.jcr.resourcesecurity-1.1.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.jcr.resourcesecurity-1.1.0.buildcompare) | 50K |
+| [1.1.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.resourcesecurity/1.1.0/pom) | [mvn jdk11](org.apache.sling.jcr.resourcesecurity-1.1.0.buildspec) | [result](org.apache.sling.jcr.resourcesecurity-1.1.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.jcr.resourcesecurity-1.1.0.buildcompare) | 50K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

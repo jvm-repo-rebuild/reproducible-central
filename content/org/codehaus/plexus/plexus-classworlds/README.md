@@ -1,9 +1,9 @@
-[org.codehaus.plexus:plexus-classworlds](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-classworlds/versions) RB check
+[org.codehaus.plexus:plexus-classworlds](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-classworlds/2.7.0/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.codehaus.plexus:plexus-classworlds](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-classworlds/versions)
+## Project: [org.codehaus.plexus:plexus-classworlds](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-classworlds/2.7.0/versions)
 
 Source code: [https://github.com/codehaus-plexus/plexus-classworlds.git](https://github.com/codehaus-plexus/plexus-classworlds.git)
 
@@ -13,6 +13,6 @@ rebuilding **1 releases** of org.codehaus.plexus:plexus-classworlds:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.7.0](https://search.maven.org/artifact/org.codehaus.plexus/plexus-classworlds/2.7.0/pom) | [mvn jdk8](plexus-classworlds-2.7.0.buildspec) | [result](plexus-classworlds-2.7.0.buildinfo): [4 :heavy_check_mark: ](plexus-classworlds-2.7.0.buildcompare) | 235K |
+| [2.7.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-classworlds/2.7.0/pom) | [mvn jdk8](plexus-classworlds-2.7.0.buildspec) | [result](plexus-classworlds-2.7.0.buildinfo): [4 :heavy_check_mark: ](plexus-classworlds-2.7.0.buildcompare) | 235K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

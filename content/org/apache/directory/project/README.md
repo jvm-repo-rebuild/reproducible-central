@@ -1,9 +1,9 @@
-[org.apache.directory.project:project](https://central.sonatype.com/artifact/org.apache.directory.project/project/versions) RB check
+[org.apache.directory.project:project](https://central.sonatype.com/artifact/org.apache.directory.project/project/46/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.directory.project:project](https://central.sonatype.com/artifact/org.apache.directory.project/project/versions)
+## Project: [org.apache.directory.project:project](https://central.sonatype.com/artifact/org.apache.directory.project/project/46/versions)
 
 Source code: [https://github.com/apache/directory-project.git](https://github.com/apache/directory-project.git)
 
@@ -13,6 +13,6 @@ rebuilding **1 releases** of org.apache.directory.project:project:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [46](https://search.maven.org/artifact/org.apache.directory.project/project/46/pom) | [mvn jdk8](project-46.buildspec) | [result](project-46.buildinfo): [3 :heavy_check_mark: ](project-46.buildcompare) | 81K |
+| [46](https://central.sonatype.com/artifact/org.apache.directory.project/project/46/pom) | [mvn jdk8](project-46.buildspec) | [result](project-46.buildinfo): [3 :heavy_check_mark: ](project-46.buildcompare) | 81K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

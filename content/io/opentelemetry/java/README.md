@@ -1,59 +1,59 @@
-[io.opentelemetry:opentelemetry-sdk](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/versions) RB check
+[io.opentelemetry:opentelemetry-sdk](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.14.0/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.opentelemetry:opentelemetry-sdk](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/versions)
+## Project: [io.opentelemetry:opentelemetry-sdk](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.14.0/versions)
 
 Source code: [https://github.com/open-telemetry/opentelemetry-java.git](https://github.com/open-telemetry/opentelemetry-java.git)
 
 <details><summary>This project defines 45 modules:</summary>
 
-* [io.opentelemetry:opentelemetry-api](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-api/)
-* [io.opentelemetry:opentelemetry-bom](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-bom/)
-* [io.opentelemetry:opentelemetry-bom-alpha](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-bom-alpha/)
-* [io.opentelemetry:opentelemetry-context](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-context/)
-* [io.opentelemetry:opentelemetry-exporter-jaeger](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-exporter-jaeger/)
-* [io.opentelemetry:opentelemetry-exporter-jaeger-proto](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-exporter-jaeger-proto/)
-* [io.opentelemetry:opentelemetry-exporter-jaeger-thrift](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-exporter-jaeger-thrift/)
-* [io.opentelemetry:opentelemetry-exporter-logging](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-exporter-logging/)
-* [io.opentelemetry:opentelemetry-exporter-logging-otlp](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-exporter-logging-otlp/)
-* [io.opentelemetry:opentelemetry-exporter-otlp](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-exporter-otlp/)
-* [io.opentelemetry:opentelemetry-exporter-otlp-common](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-exporter-otlp-common/)
-* [io.opentelemetry:opentelemetry-exporter-otlp-http-logs](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-exporter-otlp-http-logs/)
-* [io.opentelemetry:opentelemetry-exporter-otlp-http-metrics](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-exporter-otlp-http-metrics/)
-* [io.opentelemetry:opentelemetry-exporter-otlp-http-trace](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-exporter-otlp-http-trace/)
-* [io.opentelemetry:opentelemetry-exporter-otlp-logs](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-exporter-otlp-logs/)
-* [io.opentelemetry:opentelemetry-exporter-otlp-metrics](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-exporter-otlp-metrics/)
-* [io.opentelemetry:opentelemetry-exporter-otlp-trace](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-exporter-otlp-trace/)
-* [io.opentelemetry:opentelemetry-exporter-prometheus](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-exporter-prometheus/)
-* [io.opentelemetry:opentelemetry-exporter-zipkin](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-exporter-zipkin/)
-* [io.opentelemetry:opentelemetry-extension-annotations](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-extension-annotations/)
-* [io.opentelemetry:opentelemetry-extension-aws](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-extension-aws/)
-* [io.opentelemetry:opentelemetry-extension-incubator](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-extension-incubator/)
-* [io.opentelemetry:opentelemetry-extension-kotlin](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-extension-kotlin/)
-* [io.opentelemetry:opentelemetry-extension-noop-api](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-extension-noop-api/)
-* [io.opentelemetry:opentelemetry-extension-trace-propagators](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-extension-trace-propagators/)
-* [io.opentelemetry:opentelemetry-micrometer1-shim](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-micrometer1-shim/)
-* [io.opentelemetry:opentelemetry-opencensus-shim](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-opencensus-shim/)
-* [io.opentelemetry:opentelemetry-opentracing-shim](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-opentracing-shim/)
-* [io.opentelemetry:opentelemetry-sdk](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk/)
-* [io.opentelemetry:opentelemetry-sdk-common](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk-common/)
-* [io.opentelemetry:opentelemetry-sdk-extension-autoconfigure](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure/)
-* [io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/)
-* [io.opentelemetry:opentelemetry-sdk-extension-aws](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk-extension-aws/)
-* [io.opentelemetry:opentelemetry-sdk-extension-jaeger-remote-sampler](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk-extension-jaeger-remote-sampler/)
-* [io.opentelemetry:opentelemetry-sdk-extension-jfr-events](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk-extension-jfr-events/)
-* [io.opentelemetry:opentelemetry-sdk-extension-metric-incubator](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk-extension-metric-incubator/)
-* [io.opentelemetry:opentelemetry-sdk-extension-resources](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk-extension-resources/)
-* [io.opentelemetry:opentelemetry-sdk-extension-tracing-incubator](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk-extension-tracing-incubator/)
-* [io.opentelemetry:opentelemetry-sdk-extension-zpages](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk-extension-zpages/)
-* [io.opentelemetry:opentelemetry-sdk-logs](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk-logs/)
-* [io.opentelemetry:opentelemetry-sdk-logs-testing](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk-logs-testing/)
-* [io.opentelemetry:opentelemetry-sdk-metrics](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk-metrics/)
-* [io.opentelemetry:opentelemetry-sdk-testing](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk-testing/)
-* [io.opentelemetry:opentelemetry-sdk-trace](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk-trace/)
-* [io.opentelemetry:opentelemetry-semconv](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-semconv/)
+* [io.opentelemetry:opentelemetry-api](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-api/1.14.0)
+* [io.opentelemetry:opentelemetry-bom](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-bom/1.14.0)
+* [io.opentelemetry:opentelemetry-bom-alpha](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-bom-alpha/1.14.0)
+* [io.opentelemetry:opentelemetry-context](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-context/1.14.0)
+* [io.opentelemetry:opentelemetry-exporter-jaeger](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-exporter-jaeger/1.14.0)
+* [io.opentelemetry:opentelemetry-exporter-jaeger-proto](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-exporter-jaeger-proto/1.14.0)
+* [io.opentelemetry:opentelemetry-exporter-jaeger-thrift](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-exporter-jaeger-thrift/1.14.0)
+* [io.opentelemetry:opentelemetry-exporter-logging](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-exporter-logging/1.14.0)
+* [io.opentelemetry:opentelemetry-exporter-logging-otlp](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-exporter-logging-otlp/1.14.0)
+* [io.opentelemetry:opentelemetry-exporter-otlp](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-exporter-otlp/1.14.0)
+* [io.opentelemetry:opentelemetry-exporter-otlp-common](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-exporter-otlp-common/1.14.0)
+* [io.opentelemetry:opentelemetry-exporter-otlp-http-logs](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-exporter-otlp-http-logs/1.14.0)
+* [io.opentelemetry:opentelemetry-exporter-otlp-http-metrics](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-exporter-otlp-http-metrics/1.14.0)
+* [io.opentelemetry:opentelemetry-exporter-otlp-http-trace](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-exporter-otlp-http-trace/1.14.0)
+* [io.opentelemetry:opentelemetry-exporter-otlp-logs](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-exporter-otlp-logs/1.14.0)
+* [io.opentelemetry:opentelemetry-exporter-otlp-metrics](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-exporter-otlp-metrics/1.14.0)
+* [io.opentelemetry:opentelemetry-exporter-otlp-trace](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-exporter-otlp-trace/1.14.0)
+* [io.opentelemetry:opentelemetry-exporter-prometheus](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-exporter-prometheus/1.14.0)
+* [io.opentelemetry:opentelemetry-exporter-zipkin](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-exporter-zipkin/1.14.0)
+* [io.opentelemetry:opentelemetry-extension-annotations](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-extension-annotations/1.14.0)
+* [io.opentelemetry:opentelemetry-extension-aws](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-extension-aws/1.14.0)
+* [io.opentelemetry:opentelemetry-extension-incubator](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-extension-incubator/1.14.0)
+* [io.opentelemetry:opentelemetry-extension-kotlin](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-extension-kotlin/1.14.0)
+* [io.opentelemetry:opentelemetry-extension-noop-api](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-extension-noop-api/1.14.0)
+* [io.opentelemetry:opentelemetry-extension-trace-propagators](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-extension-trace-propagators/1.14.0)
+* [io.opentelemetry:opentelemetry-micrometer1-shim](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-micrometer1-shim/1.14.0)
+* [io.opentelemetry:opentelemetry-opencensus-shim](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-opencensus-shim/1.14.0)
+* [io.opentelemetry:opentelemetry-opentracing-shim](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-opentracing-shim/1.14.0)
+* [io.opentelemetry:opentelemetry-sdk](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.14.0)
+* [io.opentelemetry:opentelemetry-sdk-common](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-common/1.14.0)
+* [io.opentelemetry:opentelemetry-sdk-extension-autoconfigure](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.14.0)
+* [io.opentelemetry:opentelemetry-sdk-extension-autoconfigure-spi](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.14.0)
+* [io.opentelemetry:opentelemetry-sdk-extension-aws](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-extension-aws/1.14.0)
+* [io.opentelemetry:opentelemetry-sdk-extension-jaeger-remote-sampler](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-extension-jaeger-remote-sampler/1.14.0)
+* [io.opentelemetry:opentelemetry-sdk-extension-jfr-events](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-extension-jfr-events/1.14.0)
+* [io.opentelemetry:opentelemetry-sdk-extension-metric-incubator](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-extension-metric-incubator/1.14.0)
+* [io.opentelemetry:opentelemetry-sdk-extension-resources](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-extension-resources/1.14.0)
+* [io.opentelemetry:opentelemetry-sdk-extension-tracing-incubator](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-extension-tracing-incubator/1.14.0)
+* [io.opentelemetry:opentelemetry-sdk-extension-zpages](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-extension-zpages/1.14.0)
+* [io.opentelemetry:opentelemetry-sdk-logs](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-logs/1.14.0)
+* [io.opentelemetry:opentelemetry-sdk-logs-testing](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-logs-testing/1.14.0)
+* [io.opentelemetry:opentelemetry-sdk-metrics](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-metrics/1.14.0)
+* [io.opentelemetry:opentelemetry-sdk-testing](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-testing/1.14.0)
+* [io.opentelemetry:opentelemetry-sdk-trace](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk-trace/1.14.0)
+* [io.opentelemetry:opentelemetry-semconv](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-semconv/1.14.0)
 </details>
 
 rebuilding **1 releases** of io.opentelemetry:opentelemetry-sdk:
@@ -62,17 +62,17 @@ rebuilding **1 releases** of io.opentelemetry:opentelemetry-sdk:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.23.1](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk/1.23.1/pom) | | | |
-| [1.23.0](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk/1.23.0/pom) | | | |
-| [1.22.0](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk/1.22.0/pom) | | | |
-| [1.21.0](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk/1.21.0/pom) | | | |
-| [1.20.1](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk/1.20.1/pom) | | | |
-| [1.20.0](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk/1.20.0/pom) | | | |
-| [1.19.0](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk/1.19.0/pom) | | | |
-| [1.18.0](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk/1.18.0/pom) | | | |
-| [1.17.0](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk/1.17.0/pom) | | | |
-| [1.16.0](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk/1.16.0/pom) | | | |
-| [1.15.0](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk/1.15.0/pom) | | | |
-| [1.14.0](https://search.maven.org/artifact/io.opentelemetry/opentelemetry-sdk/1.14.0/pom) | [gradle](opentelemetry-sdk-1.14.0.buildspec) | [result](opentelemetry-sdk-1.14.0.buildinfo): [47 :heavy_check_mark:  129 :warning:](opentelemetry-api-1.14.0.buildcompare) [:mag:](opentelemetry-sdk-1.14.0.diffoscope) [:memo:](https://github.com/open-telemetry/opentelemetry-java/issues/4488) | 2.9M |
+| [1.23.1](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.23.1/pom) | | | |
+| [1.23.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.23.0/pom) | | | |
+| [1.22.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.22.0/pom) | | | |
+| [1.21.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.21.0/pom) | | | |
+| [1.20.1](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.20.1/pom) | | | |
+| [1.20.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.20.0/pom) | | | |
+| [1.19.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.19.0/pom) | | | |
+| [1.18.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.18.0/pom) | | | |
+| [1.17.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.17.0/pom) | | | |
+| [1.16.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.16.0/pom) | | | |
+| [1.15.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.15.0/pom) | | | |
+| [1.14.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.14.0/pom) | [gradle](opentelemetry-sdk-1.14.0.buildspec) | [result](opentelemetry-sdk-1.14.0.buildinfo): [47 :heavy_check_mark:  129 :warning:](opentelemetry-api-1.14.0.buildcompare) [:mag:](opentelemetry-sdk-1.14.0.diffoscope) [:memo:](https://github.com/open-telemetry/opentelemetry-java/issues/4488) | 2.9M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

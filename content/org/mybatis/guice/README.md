@@ -1,9 +1,9 @@
-[org.mybatis:mybatis-guice](https://central.sonatype.com/artifact/org.mybatis/mybatis-guice/versions) RB check
+[org.mybatis:mybatis-guice](https://central.sonatype.com/artifact/org.mybatis/mybatis-guice/3.18/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.mybatis:mybatis-guice](https://central.sonatype.com/artifact/org.mybatis/mybatis-guice/versions)
+## Project: [org.mybatis:mybatis-guice](https://central.sonatype.com/artifact/org.mybatis/mybatis-guice/3.18/versions)
 
 Source code: [https://github.com/mybatis/guice.git](https://github.com/mybatis/guice.git)
 
@@ -13,7 +13,7 @@ rebuilding **2 releases** of org.mybatis:mybatis-guice:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.18](https://search.maven.org/artifact/org.mybatis/mybatis-guice/3.18/pom) | [mvn jdk17 w](mybatis-guice-3.18.buildspec) | [result](mybatis-guice-3.18.buildinfo): [3 :heavy_check_mark: ](mybatis-guice-3.18.buildcompare) | 245K |
-| [3.17](https://search.maven.org/artifact/org.mybatis/mybatis-guice/3.17/pom) | [mvn jdk11 w](mybatis-guice-3.17.buildspec) | [result](mybatis-guice-3.17.buildinfo): [3 :heavy_check_mark: ](mybatis-guice-3.17.buildcompare) | 239K |
+| [3.18](https://central.sonatype.com/artifact/org.mybatis/mybatis-guice/3.18/pom) | [mvn jdk17 w](mybatis-guice-3.18.buildspec) | [result](mybatis-guice-3.18.buildinfo): [3 :heavy_check_mark: ](mybatis-guice-3.18.buildcompare) | 245K |
+| [3.17](https://central.sonatype.com/artifact/org.mybatis/mybatis-guice/3.17/pom) | [mvn jdk11 w](mybatis-guice-3.17.buildspec) | [result](mybatis-guice-3.17.buildinfo): [3 :heavy_check_mark: ](mybatis-guice-3.17.buildcompare) | 239K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

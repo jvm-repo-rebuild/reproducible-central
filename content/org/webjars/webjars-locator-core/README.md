@@ -1,9 +1,9 @@
-[org.webjars:webjars-locator-core](https://central.sonatype.com/artifact/org.webjars/webjars-locator-core/versions) RB check
+[org.webjars:webjars-locator-core](https://central.sonatype.com/artifact/org.webjars/webjars-locator-core/0.52/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.webjars:webjars-locator-core](https://central.sonatype.com/artifact/org.webjars/webjars-locator-core/versions)
+## Project: [org.webjars:webjars-locator-core](https://central.sonatype.com/artifact/org.webjars/webjars-locator-core/0.52/versions)
 
 Source code: [https://github.com/webjars/webjars-locator-core.git](https://github.com/webjars/webjars-locator-core.git)
 
@@ -13,6 +13,6 @@ rebuilding **1 releases** of org.webjars:webjars-locator-core:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.52](https://search.maven.org/artifact/org.webjars/webjars-locator-core/0.52/pom) | [mvn jdk8](webjars-locator-core-0.52.buildspec) | [result](webjars-locator-core-0.52.buildinfo): [3 :heavy_check_mark: ](webjars-locator-core-0.52.buildcompare) | 41K |
+| [0.52](https://central.sonatype.com/artifact/org.webjars/webjars-locator-core/0.52/pom) | [mvn jdk8](webjars-locator-core-0.52.buildspec) | [result](webjars-locator-core-0.52.buildinfo): [3 :heavy_check_mark: ](webjars-locator-core-0.52.buildcompare) | 41K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

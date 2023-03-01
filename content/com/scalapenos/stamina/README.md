@@ -1,9 +1,9 @@
-[com.scalapenos:stamina_2.11](https://central.sonatype.com/artifact/com.scalapenos/stamina_2.11/versions) RB check
+[com.scalapenos:stamina_2.11](https://central.sonatype.com/artifact/com.scalapenos/stamina_2.11/0.1.6/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.scalapenos:stamina_2.11](https://central.sonatype.com/artifact/com.scalapenos/stamina_2.11/versions)
+## Project: [com.scalapenos:stamina_2.11](https://central.sonatype.com/artifact/com.scalapenos/stamina_2.11/0.1.6/versions)
 
 Source code: [https://github.com/scalapenos/stamina.git](https://github.com/scalapenos/stamina.git)
 
@@ -13,7 +13,7 @@ rebuilding **2 releases** of com.scalapenos:stamina_2.11:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.1.6](https://search.maven.org/artifact/com.scalapenos/stamina_2.11/0.1.6/pom) | [sbt jdk8](stamina-0.1.6.buildspec) | [24 :heavy_check_mark: ](stamina-0.1.6.buildcompare) | 146K |
-| [0.1.5](https://search.maven.org/artifact/com.scalapenos/stamina_2.11/0.1.5/pom) | [sbt jdk8](stamina-0.1.5.buildspec) | [24 :heavy_check_mark: ](stamina-0.1.5.buildcompare) | 146K |
+| [0.1.6](https://central.sonatype.com/artifact/com.scalapenos/stamina_2.11/0.1.6/pom) | [sbt jdk8](stamina-0.1.6.buildspec) | [24 :heavy_check_mark: ](stamina-0.1.6.buildcompare) | 146K |
+| [0.1.5](https://central.sonatype.com/artifact/com.scalapenos/stamina_2.11/0.1.5/pom) | [sbt jdk8](stamina-0.1.5.buildspec) | [24 :heavy_check_mark: ](stamina-0.1.5.buildcompare) | 146K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

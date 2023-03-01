@@ -1,26 +1,26 @@
-[org.apache.royale.compiler:compiler](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler/versions) RB check
+[org.apache.royale.compiler:compiler](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler/0.9.7/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.royale.compiler:compiler](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler/versions)
+## Project: [org.apache.royale.compiler:compiler](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler/0.9.7/versions)
 
 Source code: [https://github.com/apache/royale-compiler.git](https://github.com/apache/royale-compiler.git)
 
 <details><summary>This project defines 12 modules:</summary>
 
-* [org.apache.royale.compiler:compiler](https://search.maven.org/artifact/org.apache.royale.compiler/compiler/)
-* [org.apache.royale.compiler:compiler-common](https://search.maven.org/artifact/org.apache.royale.compiler/compiler-common/)
-* [org.apache.royale.compiler:compiler-externc](https://search.maven.org/artifact/org.apache.royale.compiler/compiler-externc/)
-* [org.apache.royale.compiler:compiler-jx](https://search.maven.org/artifact/org.apache.royale.compiler/compiler-jx/)
-* [org.apache.royale.compiler:compiler-test-utils](https://search.maven.org/artifact/org.apache.royale.compiler/compiler-test-utils/)
-* [org.apache.royale.compiler:debugger](https://search.maven.org/artifact/org.apache.royale.compiler/debugger/)
-* [org.apache.royale.compiler:flex-compiler-oem](https://search.maven.org/artifact/org.apache.royale.compiler/flex-compiler-oem/)
-* [org.apache.royale.compiler:royale-ant-tasks](https://search.maven.org/artifact/org.apache.royale.compiler/royale-ant-tasks/)
-* [org.apache.royale.compiler:royale-compiler-parent](https://search.maven.org/artifact/org.apache.royale.compiler/royale-compiler-parent/)
-* [org.apache.royale.compiler:royale-maven-plugin](https://search.maven.org/artifact/org.apache.royale.compiler/royale-maven-plugin/)
-* [org.apache.royale.compiler:royaleunit-ant-tasks](https://search.maven.org/artifact/org.apache.royale.compiler/royaleunit-ant-tasks/)
-* [org.apache.royale.compiler:swfutils](https://search.maven.org/artifact/org.apache.royale.compiler/swfutils/)
+* [org.apache.royale.compiler:compiler](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler/0.9.7)
+* [org.apache.royale.compiler:compiler-common](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler-common/0.9.7)
+* [org.apache.royale.compiler:compiler-externc](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler-externc/0.9.7)
+* [org.apache.royale.compiler:compiler-jx](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler-jx/0.9.7)
+* [org.apache.royale.compiler:compiler-test-utils](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler-test-utils/0.9.7)
+* [org.apache.royale.compiler:debugger](https://central.sonatype.com/artifact/org.apache.royale.compiler/debugger/0.9.7)
+* [org.apache.royale.compiler:flex-compiler-oem](https://central.sonatype.com/artifact/org.apache.royale.compiler/flex-compiler-oem/0.9.7)
+* [org.apache.royale.compiler:royale-ant-tasks](https://central.sonatype.com/artifact/org.apache.royale.compiler/royale-ant-tasks/0.9.7)
+* [org.apache.royale.compiler:royale-compiler-parent](https://central.sonatype.com/artifact/org.apache.royale.compiler/royale-compiler-parent/0.9.7)
+* [org.apache.royale.compiler:royale-maven-plugin](https://central.sonatype.com/artifact/org.apache.royale.compiler/royale-maven-plugin/0.9.7)
+* [org.apache.royale.compiler:royaleunit-ant-tasks](https://central.sonatype.com/artifact/org.apache.royale.compiler/royaleunit-ant-tasks/0.9.7)
+* [org.apache.royale.compiler:swfutils](https://central.sonatype.com/artifact/org.apache.royale.compiler/swfutils/0.9.7)
 </details>
 
 rebuilding **1 releases** of org.apache.royale.compiler:compiler:
@@ -29,8 +29,8 @@ rebuilding **1 releases** of org.apache.royale.compiler:compiler:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.9.9](https://search.maven.org/artifact/org.apache.royale.compiler/compiler/0.9.9/pom) | | | |
-| [0.9.8](https://search.maven.org/artifact/org.apache.royale.compiler/compiler/0.9.8/pom) | | | |
-| [0.9.7](https://search.maven.org/artifact/org.apache.royale.compiler/compiler/0.9.7/pom) | [mvn jdk8 w](royale-compiler-0.9.7.buildspec) | [result](royale-maven-plugin-0.9.7.buildinfo): [20 :heavy_check_mark:  5 :warning:](royale-maven-plugin-0.9.7.buildcompare) [:mag:](royale-maven-plugin-0.9.7.diffoscope) | 20M |
+| [0.9.9](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler/0.9.9/pom) | | | |
+| [0.9.8](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler/0.9.8/pom) | | | |
+| [0.9.7](https://central.sonatype.com/artifact/org.apache.royale.compiler/compiler/0.9.7/pom) | [mvn jdk8 w](royale-compiler-0.9.7.buildspec) | [result](royale-maven-plugin-0.9.7.buildinfo): [20 :heavy_check_mark:  5 :warning:](royale-maven-plugin-0.9.7.buildcompare) [:mag:](royale-maven-plugin-0.9.7.diffoscope) | 20M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

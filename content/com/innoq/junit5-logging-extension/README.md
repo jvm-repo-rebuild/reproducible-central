@@ -1,9 +1,9 @@
-[com.innoq:junit5-logging-extension](https://central.sonatype.com/artifact/com.innoq/junit5-logging-extension/versions) RB check
+[com.innoq:junit5-logging-extension](https://central.sonatype.com/artifact/com.innoq/junit5-logging-extension/0.1.0/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.innoq:junit5-logging-extension](https://central.sonatype.com/artifact/com.innoq/junit5-logging-extension/versions)
+## Project: [com.innoq:junit5-logging-extension](https://central.sonatype.com/artifact/com.innoq/junit5-logging-extension/0.1.0/versions)
 
 Source code: [https://github.com/innoq/junit5-logging-extension.git](https://github.com/innoq/junit5-logging-extension.git)
 
@@ -13,6 +13,6 @@ rebuilding **1 releases** of com.innoq:junit5-logging-extension:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.1.0](https://search.maven.org/artifact/com.innoq/junit5-logging-extension/0.1.0/pom) | [mvn jdk8](junit5-logging-extension-0.1.0.buildspec) | [result](junit5-logging-extension-0.1.0.buildinfo): [1 :heavy_check_mark:  2 :warning:](junit5-logging-extension-0.1.0.buildcompare) [:mag:](junit5-logging-extension-0.1.0.diffoscope) [:memo:](https://github.com/innoq/junit5-logging-extension/pull/2) | 20K |
+| [0.1.0](https://central.sonatype.com/artifact/com.innoq/junit5-logging-extension/0.1.0/pom) | [mvn jdk8](junit5-logging-extension-0.1.0.buildspec) | [result](junit5-logging-extension-0.1.0.buildinfo): [1 :heavy_check_mark:  2 :warning:](junit5-logging-extension-0.1.0.buildcompare) [:mag:](junit5-logging-extension-0.1.0.diffoscope) [:memo:](https://github.com/innoq/junit5-logging-extension/pull/2) | 20K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

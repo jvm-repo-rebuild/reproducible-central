@@ -1,17 +1,17 @@
-[org.apache.qpid:proton-j-parent](https://central.sonatype.com/artifact/org.apache.qpid/proton-j-parent/versions) RB check
+[org.apache.qpid:proton-j-parent](https://central.sonatype.com/artifact/org.apache.qpid/proton-j-parent/0.34.0/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.qpid:proton-j-parent](https://central.sonatype.com/artifact/org.apache.qpid/proton-j-parent/versions)
+## Project: [org.apache.qpid:proton-j-parent](https://central.sonatype.com/artifact/org.apache.qpid/proton-j-parent/0.34.0/versions)
 
 Source code: [https://github.com/apache/qpid-proton-j.git](https://github.com/apache/qpid-proton-j.git)
 
 <details><summary>This project defines 3 modules:</summary>
 
-* [org.apache.qpid:apache-qpid-proton-j](https://search.maven.org/artifact/org.apache.qpid/apache-qpid-proton-j/)
-* [org.apache.qpid:proton-j](https://search.maven.org/artifact/org.apache.qpid/proton-j/)
-* [org.apache.qpid:proton-j-parent](https://search.maven.org/artifact/org.apache.qpid/proton-j-parent/)
+* [org.apache.qpid:apache-qpid-proton-j](https://central.sonatype.com/artifact/org.apache.qpid/apache-qpid-proton-j/0.34.0)
+* [org.apache.qpid:proton-j](https://central.sonatype.com/artifact/org.apache.qpid/proton-j/0.34.0)
+* [org.apache.qpid:proton-j-parent](https://central.sonatype.com/artifact/org.apache.qpid/proton-j-parent/0.34.0)
 </details>
 
 rebuilding **1 releases** of org.apache.qpid:proton-j-parent:
@@ -20,6 +20,6 @@ rebuilding **1 releases** of org.apache.qpid:proton-j-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.34.0](https://search.maven.org/artifact/org.apache.qpid/proton-j-parent/0.34.0/pom) | [mvn jdk17](proton-j-0.34.0.buildspec) | [result](proton-j-parent-0.34.0.buildinfo): [7 :heavy_check_mark: ](proton-j-parent-0.34.0.buildcompare) | 2.4M |
+| [0.34.0](https://central.sonatype.com/artifact/org.apache.qpid/proton-j-parent/0.34.0/pom) | [mvn jdk17](proton-j-0.34.0.buildspec) | [result](proton-j-parent-0.34.0.buildinfo): [7 :heavy_check_mark: ](proton-j-parent-0.34.0.buildcompare) | 2.4M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

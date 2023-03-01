@@ -1,21 +1,21 @@
-[org.codehaus.mojo:animal-sniffer-parent](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-parent/versions) RB check
+[org.codehaus.mojo:animal-sniffer-parent](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-parent/1.22/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.codehaus.mojo:animal-sniffer-parent](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-parent/versions)
+## Project: [org.codehaus.mojo:animal-sniffer-parent](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-parent/1.22/versions)
 
 Source code: [https://github.com/mojohaus/animal-sniffer.git](https://github.com/mojohaus/animal-sniffer.git)
 
 <details><summary>This project defines 7 modules:</summary>
 
-* [org.codehaus.mojo:animal-sniffer](https://search.maven.org/artifact/org.codehaus.mojo/animal-sniffer/)
-* [org.codehaus.mojo:animal-sniffer-annotations](https://search.maven.org/artifact/org.codehaus.mojo/animal-sniffer-annotations/)
-* [org.codehaus.mojo:animal-sniffer-ant-tasks](https://search.maven.org/artifact/org.codehaus.mojo/animal-sniffer-ant-tasks/)
-* [org.codehaus.mojo:animal-sniffer-enforcer-rule](https://search.maven.org/artifact/org.codehaus.mojo/animal-sniffer-enforcer-rule/)
-* [org.codehaus.mojo:animal-sniffer-maven-plugin](https://search.maven.org/artifact/org.codehaus.mojo/animal-sniffer-maven-plugin/)
-* [org.codehaus.mojo:animal-sniffer-parent](https://search.maven.org/artifact/org.codehaus.mojo/animal-sniffer-parent/)
-* [org.codehaus.mojo:java-boot-classpath-detector](https://search.maven.org/artifact/org.codehaus.mojo/java-boot-classpath-detector/)
+* [org.codehaus.mojo:animal-sniffer](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer/1.22)
+* [org.codehaus.mojo:animal-sniffer-annotations](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-annotations/1.22)
+* [org.codehaus.mojo:animal-sniffer-ant-tasks](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-ant-tasks/1.22)
+* [org.codehaus.mojo:animal-sniffer-enforcer-rule](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-enforcer-rule/1.22)
+* [org.codehaus.mojo:animal-sniffer-maven-plugin](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-maven-plugin/1.22)
+* [org.codehaus.mojo:animal-sniffer-parent](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-parent/1.22)
+* [org.codehaus.mojo:java-boot-classpath-detector](https://central.sonatype.com/artifact/org.codehaus.mojo/java-boot-classpath-detector/1.22)
 </details>
 
 rebuilding **3 releases** of org.codehaus.mojo:animal-sniffer-parent:
@@ -24,8 +24,8 @@ rebuilding **3 releases** of org.codehaus.mojo:animal-sniffer-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.22](https://search.maven.org/artifact/org.codehaus.mojo/animal-sniffer-parent/1.22/pom) | [mvn jdk11](animal-sniffer-1.22.buildspec) | [result](animal-sniffer-parent-1.22.buildinfo): [19 :heavy_check_mark: ](animal-sniffer-parent-1.22.buildcompare) | 369K |
-| [1.21](https://search.maven.org/artifact/org.codehaus.mojo/animal-sniffer-parent/1.21/pom) | [mvn jdk11](animal-sniffer-1.21.buildspec) | [result](animal-sniffer-parent-1.21.buildinfo): [20 :heavy_check_mark: ](animal-sniffer-parent-1.21.buildcompare) | 1.3M |
-| [1.20](https://search.maven.org/artifact/org.codehaus.mojo/animal-sniffer-parent/1.20/pom) | [mvn jdk11](animal-sniffer-1.20.buildspec) | [result](animal-sniffer-parent-1.20.buildinfo): [20 :heavy_check_mark: ](animal-sniffer-parent-1.20.buildcompare) | 1.3M |
+| [1.22](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-parent/1.22/pom) | [mvn jdk11](animal-sniffer-1.22.buildspec) | [result](animal-sniffer-parent-1.22.buildinfo): [19 :heavy_check_mark: ](animal-sniffer-parent-1.22.buildcompare) | 369K |
+| [1.21](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-parent/1.21/pom) | [mvn jdk11](animal-sniffer-1.21.buildspec) | [result](animal-sniffer-parent-1.21.buildinfo): [20 :heavy_check_mark: ](animal-sniffer-parent-1.21.buildcompare) | 1.3M |
+| [1.20](https://central.sonatype.com/artifact/org.codehaus.mojo/animal-sniffer-parent/1.20/pom) | [mvn jdk11](animal-sniffer-1.20.buildspec) | [result](animal-sniffer-parent-1.20.buildinfo): [20 :heavy_check_mark: ](animal-sniffer-parent-1.20.buildcompare) | 1.3M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

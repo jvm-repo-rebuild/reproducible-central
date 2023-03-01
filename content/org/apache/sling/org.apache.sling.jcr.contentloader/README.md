@@ -1,9 +1,9 @@
-[org.apache.sling:org.apache.sling.jcr.contentloader](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.contentloader/versions) RB check
+[org.apache.sling:org.apache.sling.jcr.contentloader](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.contentloader/2.6.0/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.jcr.contentloader](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.contentloader/versions)
+## Project: [org.apache.sling:org.apache.sling.jcr.contentloader](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.contentloader/2.6.0/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-jcr-contentloader.git](https://github.com/apache/sling-org-apache-sling-jcr-contentloader.git)
 
@@ -13,9 +13,9 @@ rebuilding **4 releases** of org.apache.sling:org.apache.sling.jcr.contentloader
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.6.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.jcr.contentloader/2.6.0/pom) | [mvn jdk11](org.apache.sling.jcr.contentloader-2.6.0.buildspec) | [result](org.apache.sling.jcr.contentloader-2.6.0.buildinfo): [3 :heavy_check_mark:  1 :warning:](org.apache.sling.jcr.contentloader-2.6.0.buildcompare) [:mag:](org.apache.sling.jcr.contentloader-2.6.0.diffoscope) [:memo:](https://github.com/apache/sling-org-apache-sling-jcr-contentloader/pull/21) | 505K |
-| [2.5.2](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.jcr.contentloader/2.5.2/pom) | [mvn jdk11](org.apache.sling.jcr.contentloader-2.5.2.buildspec) | [result](org.apache.sling.jcr.contentloader-2.5.2.buildinfo): [3 :heavy_check_mark:  1 :warning:](org.apache.sling.jcr.contentloader-2.5.2.buildcompare) [:mag:](org.apache.sling.jcr.contentloader-2.5.2.diffoscope) | 448K |
-| [2.5.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.jcr.contentloader/2.5.0/pom) | [mvn jdk11](org.apache.sling.jcr.contentloader-2.5.0.buildspec) | [result](org.apache.sling.jcr.contentloader-2.5.0.buildinfo): [3 :heavy_check_mark:  1 :warning:](org.apache.sling.jcr.contentloader-2.5.0.buildcompare) [:mag:](org.apache.sling.jcr.contentloader-2.5.0.diffoscope) | 447K |
-| [2.4.2](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.jcr.contentloader/2.4.2/pom) | [mvn jdk11](org.apache.sling.jcr.contentloader-2.4.2.buildspec) | [result](org.apache.sling.jcr.contentloader-2.4.2.buildinfo): [3 :heavy_check_mark:  1 :warning:](org.apache.sling.jcr.contentloader-2.4.2.buildcompare) [:mag:](org.apache.sling.jcr.contentloader-2.4.2.diffoscope) | 421K |
+| [2.6.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.contentloader/2.6.0/pom) | [mvn jdk11](org.apache.sling.jcr.contentloader-2.6.0.buildspec) | [result](org.apache.sling.jcr.contentloader-2.6.0.buildinfo): [3 :heavy_check_mark:  1 :warning:](org.apache.sling.jcr.contentloader-2.6.0.buildcompare) [:mag:](org.apache.sling.jcr.contentloader-2.6.0.diffoscope) [:memo:](https://github.com/apache/sling-org-apache-sling-jcr-contentloader/pull/21) | 505K |
+| [2.5.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.contentloader/2.5.2/pom) | [mvn jdk11](org.apache.sling.jcr.contentloader-2.5.2.buildspec) | [result](org.apache.sling.jcr.contentloader-2.5.2.buildinfo): [3 :heavy_check_mark:  1 :warning:](org.apache.sling.jcr.contentloader-2.5.2.buildcompare) [:mag:](org.apache.sling.jcr.contentloader-2.5.2.diffoscope) | 448K |
+| [2.5.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.contentloader/2.5.0/pom) | [mvn jdk11](org.apache.sling.jcr.contentloader-2.5.0.buildspec) | [result](org.apache.sling.jcr.contentloader-2.5.0.buildinfo): [3 :heavy_check_mark:  1 :warning:](org.apache.sling.jcr.contentloader-2.5.0.buildcompare) [:mag:](org.apache.sling.jcr.contentloader-2.5.0.diffoscope) | 447K |
+| [2.4.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.contentloader/2.4.2/pom) | [mvn jdk11](org.apache.sling.jcr.contentloader-2.4.2.buildspec) | [result](org.apache.sling.jcr.contentloader-2.4.2.buildinfo): [3 :heavy_check_mark:  1 :warning:](org.apache.sling.jcr.contentloader-2.4.2.buildcompare) [:mag:](org.apache.sling.jcr.contentloader-2.4.2.diffoscope) | 421K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

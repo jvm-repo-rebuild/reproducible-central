@@ -1,9 +1,9 @@
-[org.mybatis.caches:mybatis-ehcache](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-ehcache/versions) RB check
+[org.mybatis.caches:mybatis-ehcache](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-ehcache/1.2.3/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.mybatis.caches:mybatis-ehcache](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-ehcache/versions)
+## Project: [org.mybatis.caches:mybatis-ehcache](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-ehcache/1.2.3/versions)
 
 Source code: [https://github.com/mybatis/ehcache-cache.git](https://github.com/mybatis/ehcache-cache.git)
 
@@ -13,6 +13,6 @@ rebuilding **1 releases** of org.mybatis.caches:mybatis-ehcache:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.2.3](https://search.maven.org/artifact/org.mybatis.caches/mybatis-ehcache/1.2.3/pom) | [mvn jdk17 w](mybatis-ehcache-1.2.3.buildspec) | [result](mybatis-ehcache-1.2.3.buildinfo): [3 :heavy_check_mark: ](mybatis-ehcache-1.2.3.buildcompare) | 30K |
+| [1.2.3](https://central.sonatype.com/artifact/org.mybatis.caches/mybatis-ehcache/1.2.3/pom) | [mvn jdk17 w](mybatis-ehcache-1.2.3.buildspec) | [result](mybatis-ehcache-1.2.3.buildinfo): [3 :heavy_check_mark: ](mybatis-ehcache-1.2.3.buildcompare) | 30K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

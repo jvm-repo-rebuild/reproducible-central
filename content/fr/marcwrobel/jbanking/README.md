@@ -1,9 +1,9 @@
-[fr.marcwrobel:jbanking](https://central.sonatype.com/artifact/fr.marcwrobel/jbanking/versions) RB check
+[fr.marcwrobel:jbanking](https://central.sonatype.com/artifact/fr.marcwrobel/jbanking/4.1.0/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [fr.marcwrobel:jbanking](https://central.sonatype.com/artifact/fr.marcwrobel/jbanking/versions)
+## Project: [fr.marcwrobel:jbanking](https://central.sonatype.com/artifact/fr.marcwrobel/jbanking/4.1.0/versions)
 
 Source code: [https://github.com/marcwrobel/jbanking.git](https://github.com/marcwrobel/jbanking.git)
 
@@ -13,6 +13,6 @@ rebuilding **1 releases** of fr.marcwrobel:jbanking:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.1.0](https://search.maven.org/artifact/fr.marcwrobel/jbanking/4.1.0/pom) | [mvn jdk17](jbanking-4.1.0.buildspec) | [result](jbanking-4.1.0.buildinfo): [3 :heavy_check_mark: ](jbanking-4.1.0.buildcompare) | 186K |
+| [4.1.0](https://central.sonatype.com/artifact/fr.marcwrobel/jbanking/4.1.0/pom) | [mvn jdk17](jbanking-4.1.0.buildspec) | [result](jbanking-4.1.0.buildinfo): [3 :heavy_check_mark: ](jbanking-4.1.0.buildcompare) | 186K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

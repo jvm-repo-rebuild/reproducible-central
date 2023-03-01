@@ -1,49 +1,49 @@
-[org.apache.maven.scm:maven-scm](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/versions) RB check
+[org.apache.maven.scm:maven-scm](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.0.0-M3/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.scm:maven-scm](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/versions)
+## Project: [org.apache.maven.scm:maven-scm](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.0.0-M3/versions)
 
 Source code: [https://github.com/apache/maven-scm.git](https://github.com/apache/maven-scm.git)
 
 <details><summary>This project defines 35 modules:</summary>
 
-* [org.apache.maven.plugins:maven-scm-plugin](https://search.maven.org/artifact/org.apache.maven.plugins/maven-scm-plugin/)
-* [org.apache.maven.scm:maven-scm](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/)
-* [org.apache.maven.scm:maven-scm-api](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-api/)
-* [org.apache.maven.scm:maven-scm-client](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-client/)
-* [org.apache.maven.scm:maven-scm-manager-plexus](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-manager-plexus/)
-* [org.apache.maven.scm:maven-scm-managers](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-managers/)
-* [org.apache.maven.scm:maven-scm-provider-accurev](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-accurev/)
-* [org.apache.maven.scm:maven-scm-provider-bazaar](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-bazaar/)
-* [org.apache.maven.scm:maven-scm-provider-clearcase](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-clearcase/)
-* [org.apache.maven.scm:maven-scm-provider-cvs-commons](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-cvs-commons/)
-* [org.apache.maven.scm:maven-scm-provider-cvsexe](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-cvsexe/)
-* [org.apache.maven.scm:maven-scm-provider-cvsjava](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-cvsjava/)
-* [org.apache.maven.scm:maven-scm-provider-cvstest](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-cvstest/)
-* [org.apache.maven.scm:maven-scm-provider-git-commons](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-git-commons/)
-* [org.apache.maven.scm:maven-scm-provider-gitexe](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-gitexe/)
-* [org.apache.maven.scm:maven-scm-provider-gittest](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-gittest/)
-* [org.apache.maven.scm:maven-scm-provider-hg](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-hg/)
-* [org.apache.maven.scm:maven-scm-provider-integrity](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-integrity/)
-* [org.apache.maven.scm:maven-scm-provider-jazz](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-jazz/)
-* [org.apache.maven.scm:maven-scm-provider-jgit](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-jgit/)
-* [org.apache.maven.scm:maven-scm-provider-local](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-local/)
-* [org.apache.maven.scm:maven-scm-provider-perforce](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-perforce/)
-* [org.apache.maven.scm:maven-scm-provider-starteam](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-starteam/)
-* [org.apache.maven.scm:maven-scm-provider-svn-commons](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-svn-commons/)
-* [org.apache.maven.scm:maven-scm-provider-svnexe](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-svnexe/)
-* [org.apache.maven.scm:maven-scm-provider-svntest](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-svntest/)
-* [org.apache.maven.scm:maven-scm-provider-synergy](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-synergy/)
-* [org.apache.maven.scm:maven-scm-provider-tfs](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-tfs/)
-* [org.apache.maven.scm:maven-scm-provider-vss](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-provider-vss/)
-* [org.apache.maven.scm:maven-scm-providers](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-providers/)
-* [org.apache.maven.scm:maven-scm-providers-cvs](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-providers-cvs/)
-* [org.apache.maven.scm:maven-scm-providers-git](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-providers-git/)
-* [org.apache.maven.scm:maven-scm-providers-standard](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-providers-standard/)
-* [org.apache.maven.scm:maven-scm-providers-svn](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-providers-svn/)
-* [org.apache.maven.scm:maven-scm-test](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm-test/)
+* [org.apache.maven.plugins:maven-scm-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-scm-plugin/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-api](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-api/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-client](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-client/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-manager-plexus](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-manager-plexus/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-managers](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-managers/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-provider-accurev](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-provider-accurev/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-provider-bazaar](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-provider-bazaar/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-provider-clearcase](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-provider-clearcase/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-provider-cvs-commons](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-provider-cvs-commons/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-provider-cvsexe](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-provider-cvsexe/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-provider-cvsjava](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-provider-cvsjava/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-provider-cvstest](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-provider-cvstest/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-provider-git-commons](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-provider-git-commons/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-provider-gitexe](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-provider-gitexe/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-provider-gittest](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-provider-gittest/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-provider-hg](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-provider-hg/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-provider-integrity](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-provider-integrity/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-provider-jazz](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-provider-jazz/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-provider-jgit](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-provider-jgit/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-provider-local](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-provider-local/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-provider-perforce](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-provider-perforce/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-provider-starteam](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-provider-starteam/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-provider-svn-commons](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-provider-svn-commons/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-provider-svnexe](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-provider-svnexe/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-provider-svntest](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-provider-svntest/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-provider-synergy](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-provider-synergy/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-provider-tfs](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-provider-tfs/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-provider-vss](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-provider-vss/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-providers](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-providers/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-providers-cvs](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-providers-cvs/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-providers-git](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-providers-git/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-providers-standard](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-providers-standard/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-providers-svn](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-providers-svn/2.0.0-M3)
+* [org.apache.maven.scm:maven-scm-test](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm-test/2.0.0-M3)
 </details>
 
 rebuilding **7 releases** of org.apache.maven.scm:maven-scm:
@@ -52,12 +52,12 @@ rebuilding **7 releases** of org.apache.maven.scm:maven-scm:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.0.0-M3](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/2.0.0-M3/pom) | [mvn jdk8 w](maven-scm-2.0.0-M3.buildspec) | [result](maven-scm-2.0.0-M3.buildinfo): [55 :heavy_check_mark: ](maven-scm-2.0.0-M3.buildcompare) | 7.6M |
-| [2.0.0-M2](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/2.0.0-M2/pom) | [mvn jdk8 w](maven-scm-2.0.0-M2.buildspec) | [result](maven-scm-2.0.0-M2.buildinfo): [55 :heavy_check_mark: ](maven-scm-2.0.0-M2.buildcompare) | 7.6M |
-| [2.0.0-M1](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/2.0.0-M1/pom) | [mvn jdk8 w](maven-scm-2.0.0-M1.buildspec) | [result](maven-scm-2.0.0-M1.buildinfo): [55 :heavy_check_mark: ](maven-scm-2.0.0-M1.buildcompare) | 4.3M |
-| [1.13.0](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/1.13.0/pom) | [mvn jdk8 w](maven-scm-1.13.0.buildspec) | [result](maven-scm-1.13.0.buildinfo): [99 :heavy_check_mark: ](maven-scm-1.13.0.buildcompare) | 9.3M |
-| [1.12.2](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/1.12.2/pom) | [mvn jdk8 w](maven-scm-1.12.2.buildspec) | [result](maven-scm-1.12.2.buildinfo): [99 :heavy_check_mark: ](maven-scm-1.12.2.buildcompare) | 9.3M |
-| [1.12.0](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/1.12.0/pom) | [mvn jdk7 w](maven-scm-1.12.0.buildspec) | [result](maven-scm-1.12.0.buildinfo): [99 :heavy_check_mark: ](maven-scm-1.12.0.buildcompare) | 9.3M |
-| [1.11.3](https://search.maven.org/artifact/org.apache.maven.scm/maven-scm/1.11.3/pom) | [mvn jdk7 w](maven-scm-1.11.3.buildspec) | [result](maven-scm-1.11.3.buildinfo): [99 :heavy_check_mark: ](maven-scm-1.11.3.buildcompare) | 9.3M |
+| [2.0.0-M3](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.0.0-M3/pom) | [mvn jdk8 w](maven-scm-2.0.0-M3.buildspec) | [result](maven-scm-2.0.0-M3.buildinfo): [55 :heavy_check_mark: ](maven-scm-2.0.0-M3.buildcompare) | 7.6M |
+| [2.0.0-M2](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.0.0-M2/pom) | [mvn jdk8 w](maven-scm-2.0.0-M2.buildspec) | [result](maven-scm-2.0.0-M2.buildinfo): [55 :heavy_check_mark: ](maven-scm-2.0.0-M2.buildcompare) | 7.6M |
+| [2.0.0-M1](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.0.0-M1/pom) | [mvn jdk8 w](maven-scm-2.0.0-M1.buildspec) | [result](maven-scm-2.0.0-M1.buildinfo): [55 :heavy_check_mark: ](maven-scm-2.0.0-M1.buildcompare) | 4.3M |
+| [1.13.0](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/1.13.0/pom) | [mvn jdk8 w](maven-scm-1.13.0.buildspec) | [result](maven-scm-1.13.0.buildinfo): [99 :heavy_check_mark: ](maven-scm-1.13.0.buildcompare) | 9.3M |
+| [1.12.2](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/1.12.2/pom) | [mvn jdk8 w](maven-scm-1.12.2.buildspec) | [result](maven-scm-1.12.2.buildinfo): [99 :heavy_check_mark: ](maven-scm-1.12.2.buildcompare) | 9.3M |
+| [1.12.0](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/1.12.0/pom) | [mvn jdk7 w](maven-scm-1.12.0.buildspec) | [result](maven-scm-1.12.0.buildinfo): [99 :heavy_check_mark: ](maven-scm-1.12.0.buildcompare) | 9.3M |
+| [1.11.3](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/1.11.3/pom) | [mvn jdk7 w](maven-scm-1.11.3.buildspec) | [result](maven-scm-1.11.3.buildinfo): [99 :heavy_check_mark: ](maven-scm-1.11.3.buildcompare) | 9.3M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

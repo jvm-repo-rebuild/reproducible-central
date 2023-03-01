@@ -1,18 +1,18 @@
-[org.complate:complate-parent](https://central.sonatype.com/artifact/org.complate/complate-parent/versions) RB check
+[org.complate:complate-parent](https://central.sonatype.com/artifact/org.complate/complate-parent/1.0.0/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.complate:complate-parent](https://central.sonatype.com/artifact/org.complate/complate-parent/versions)
+## Project: [org.complate:complate-parent](https://central.sonatype.com/artifact/org.complate/complate-parent/1.0.0/versions)
 
 Source code: [https://github.com/complate/complate-java.git](https://github.com/complate/complate-java.git)
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [org.complate:complate-core](https://search.maven.org/artifact/org.complate/complate-core/)
-* [org.complate:complate-graal](https://search.maven.org/artifact/org.complate/complate-graal/)
-* [org.complate:complate-nashorn](https://search.maven.org/artifact/org.complate/complate-nashorn/)
-* [org.complate:complate-parent](https://search.maven.org/artifact/org.complate/complate-parent/)
+* [org.complate:complate-core](https://central.sonatype.com/artifact/org.complate/complate-core/1.0.0)
+* [org.complate:complate-graal](https://central.sonatype.com/artifact/org.complate/complate-graal/1.0.0)
+* [org.complate:complate-nashorn](https://central.sonatype.com/artifact/org.complate/complate-nashorn/1.0.0)
+* [org.complate:complate-parent](https://central.sonatype.com/artifact/org.complate/complate-parent/1.0.0)
 </details>
 
 rebuilding **3 releases** of org.complate:complate-core:
@@ -21,8 +21,8 @@ rebuilding **3 releases** of org.complate:complate-core:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.0.0](https://search.maven.org/artifact/org.complate/complate-parent/1.0.0/pom) | [mvn jdk11](complate-core-1.0.0.buildspec) | [result](complate-parent-1.0.0.buildinfo): [10 :heavy_check_mark: ](complate-parent-1.0.0.buildcompare) | 66K |
-| [0.3.0](https://search.maven.org/artifact/org.complate/complate-parent/0.3.0/pom) | [mvn jdk11](complate-core-0.3.0.buildspec) | [result](complate-parent-0.3.0.buildinfo): [10 :heavy_check_mark: ](complate-parent-0.3.0.buildcompare) | 64K |
-| [0.2.0](https://search.maven.org/artifact/org.complate/complate-core/0.2.0/pom) | [mvn jdk8](complate-core-0.2.0.buildspec) | [result](complate-core-0.2.0.buildinfo): [3 :heavy_check_mark: ](complate-core-0.2.0.buildcompare) | 53K |
+| [1.0.0](https://central.sonatype.com/artifact/org.complate/complate-parent/1.0.0/pom) | [mvn jdk11](complate-core-1.0.0.buildspec) | [result](complate-parent-1.0.0.buildinfo): [10 :heavy_check_mark: ](complate-parent-1.0.0.buildcompare) | 66K |
+| [0.3.0](https://central.sonatype.com/artifact/org.complate/complate-parent/0.3.0/pom) | [mvn jdk11](complate-core-0.3.0.buildspec) | [result](complate-parent-0.3.0.buildinfo): [10 :heavy_check_mark: ](complate-parent-0.3.0.buildcompare) | 64K |
+| [0.2.0](https://central.sonatype.com/artifact/org.complate/complate-core/0.2.0/pom) | [mvn jdk8](complate-core-0.2.0.buildspec) | [result](complate-core-0.2.0.buildinfo): [3 :heavy_check_mark: ](complate-core-0.2.0.buildcompare) | 53K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

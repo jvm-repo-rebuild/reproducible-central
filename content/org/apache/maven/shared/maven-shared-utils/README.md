@@ -1,9 +1,9 @@
-[org.apache.maven.shared:maven-shared-utils](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-shared-utils/versions) RB check
+[org.apache.maven.shared:maven-shared-utils](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-shared-utils/3.3.4/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.shared:maven-shared-utils](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-shared-utils/versions)
+## Project: [org.apache.maven.shared:maven-shared-utils](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-shared-utils/3.3.4/versions)
 
 Source code: [https://github.com/apache/maven-shared-utils.git](https://github.com/apache/maven-shared-utils.git)
 
@@ -13,6 +13,6 @@ rebuilding **1 releases** of org.apache.maven.shared:maven-shared-utils:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.3.4](https://search.maven.org/artifact/org.apache.maven.shared/maven-shared-utils/3.3.4/pom) | [mvn jdk8](maven-shared-utils-3.3.4.buildspec) | [result](maven-shared-utils-3.3.4.buildinfo): [4 :heavy_check_mark: ](maven-shared-utils-3.3.4.buildcompare) | 553K |
+| [3.3.4](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-shared-utils/3.3.4/pom) | [mvn jdk8](maven-shared-utils-3.3.4.buildspec) | [result](maven-shared-utils-3.3.4.buildinfo): [4 :heavy_check_mark: ](maven-shared-utils-3.3.4.buildcompare) | 553K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

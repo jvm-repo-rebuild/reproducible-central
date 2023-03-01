@@ -1,9 +1,9 @@
-[org.apache.maven.plugins:maven-resources-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-resources-plugin/versions) RB check
+[org.apache.maven.plugins:maven-resources-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-resources-plugin/3.3.0/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.plugins:maven-resources-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-resources-plugin/versions)
+## Project: [org.apache.maven.plugins:maven-resources-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-resources-plugin/3.3.0/versions)
 
 Source code: [https://github.com/apache/maven-resources-plugin.git](https://github.com/apache/maven-resources-plugin.git)
 
@@ -13,7 +13,7 @@ rebuilding **2 releases** of org.apache.maven.plugins:maven-resources-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.3.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-resources-plugin/3.3.0/pom) | [mvn jdk8 w](maven-resources-plugin-3.3.0.buildspec) | [result](maven-resources-plugin-3.3.0.buildinfo): [4 :heavy_check_mark: ](maven-resources-plugin-3.3.0.buildcompare) | 989K |
-| [3.2.0](https://search.maven.org/artifact/org.apache.maven.plugins/maven-resources-plugin/3.2.0/pom) | [mvn jdk8 w](maven-resources-plugin-3.2.0.buildspec) | [result](maven-resources-plugin-3.2.0.buildinfo): [1 :heavy_check_mark:  3 :warning:](maven-resources-plugin-3.2.0.buildcompare) [:mag:](maven-resources-plugin-3.2.0.diffoscope) | 988K |
+| [3.3.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-resources-plugin/3.3.0/pom) | [mvn jdk8 w](maven-resources-plugin-3.3.0.buildspec) | [result](maven-resources-plugin-3.3.0.buildinfo): [4 :heavy_check_mark: ](maven-resources-plugin-3.3.0.buildcompare) | 989K |
+| [3.2.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-resources-plugin/3.2.0/pom) | [mvn jdk8 w](maven-resources-plugin-3.2.0.buildspec) | [result](maven-resources-plugin-3.2.0.buildinfo): [1 :heavy_check_mark:  3 :warning:](maven-resources-plugin-3.2.0.buildcompare) [:mag:](maven-resources-plugin-3.2.0.diffoscope) | 988K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

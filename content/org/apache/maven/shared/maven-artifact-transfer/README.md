@@ -1,9 +1,9 @@
-[org.apache.maven.shared:maven-artifact-transfer](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-artifact-transfer/versions) RB check
+[org.apache.maven.shared:maven-artifact-transfer](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-artifact-transfer/0.13.1/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.shared:maven-artifact-transfer](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-artifact-transfer/versions)
+## Project: [org.apache.maven.shared:maven-artifact-transfer](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-artifact-transfer/0.13.1/versions)
 
 Source code: [https://github.com/apache/maven-artifact-transfer.git](https://github.com/apache/maven-artifact-transfer.git)
 
@@ -13,6 +13,6 @@ rebuilding **1 releases** of org.apache.maven.shared:maven-artifact-transfer:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.13.1](https://search.maven.org/artifact/org.apache.maven.shared/maven-artifact-transfer/0.13.1/pom) | [mvn jdk8 w](maven-artifact-transfer-0.13.1.buildspec) | [result](maven-artifact-transfer-0.13.1.buildinfo): [2 :heavy_check_mark:  2 :warning:](maven-artifact-transfer-0.13.1.buildcompare) [:mag:](maven-artifact-transfer-0.13.1.diffoscope) [:memo:](https://github.com/apache/maven-artifact-transfer/commit/c2106c0500cc7c70c27581f117bf86e6185073c6) | 548K |
+| [0.13.1](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-artifact-transfer/0.13.1/pom) | [mvn jdk8 w](maven-artifact-transfer-0.13.1.buildspec) | [result](maven-artifact-transfer-0.13.1.buildinfo): [2 :heavy_check_mark:  2 :warning:](maven-artifact-transfer-0.13.1.buildcompare) [:mag:](maven-artifact-transfer-0.13.1.diffoscope) [:memo:](https://github.com/apache/maven-artifact-transfer/commit/c2106c0500cc7c70c27581f117bf86e6185073c6) | 548K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

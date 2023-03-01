@@ -1,20 +1,20 @@
-[org.apache.sling:org.apache.sling.testing.osgi-mock](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/versions) RB check
+[org.apache.sling:org.apache.sling.testing.osgi-mock](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/3.3.4/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.testing.osgi-mock](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/versions)
+## Project: [org.apache.sling:org.apache.sling.testing.osgi-mock](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/3.3.4/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-testing-osgi-mock.git](https://github.com/apache/sling-org-apache-sling-testing-osgi-mock.git)
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [org.apache.sling:org.apache.sling.testing.osgi-mock](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/)
-* [org.apache.sling:org.apache.sling.testing.osgi-mock.core](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock.core/)
-* [org.apache.sling:org.apache.sling.testing.osgi-mock.junit4](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock.junit4/)
-* [org.apache.sling:org.apache.sling.testing.osgi-mock.junit5](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock.junit5/)
-* [org.apache.sling:org.apache.sling.testing.osgi-mock.parent](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock.parent/)
-* [org.apache.sling:org.apache.sling.testing.osgi-mock.test-services](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock.test-services/)
+* [org.apache.sling:org.apache.sling.testing.osgi-mock](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/3.3.4)
+* [org.apache.sling:org.apache.sling.testing.osgi-mock.core](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock.core/3.3.4)
+* [org.apache.sling:org.apache.sling.testing.osgi-mock.junit4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock.junit4/3.3.4)
+* [org.apache.sling:org.apache.sling.testing.osgi-mock.junit5](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock.junit5/3.3.4)
+* [org.apache.sling:org.apache.sling.testing.osgi-mock.parent](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock.parent/3.3.4)
+* [org.apache.sling:org.apache.sling.testing.osgi-mock.test-services](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock.test-services/3.3.4)
 </details>
 
 rebuilding **3 releases** of org.apache.sling:org.apache.sling.testing.osgi-mock:
@@ -23,8 +23,8 @@ rebuilding **3 releases** of org.apache.sling:org.apache.sling.testing.osgi-mock
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.3.4](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/3.3.4/pom) | [mvn jdk11 w](org.apache.sling.testing.osgi-mock-3.3.4.buildspec) | [result](org.apache.sling.testing.osgi-mock-3.3.4.buildinfo): [21 :heavy_check_mark: ](org.apache.sling.testing.osgi-mock-3.3.4.buildcompare) | 2.2M |
-| [3.3.2](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/3.3.2/pom) | [mvn jdk11 w](org.apache.sling.testing.osgi-mock-3.3.2.buildspec) | [result](org.apache.sling.testing.osgi-mock-3.3.2.buildinfo): [21 :heavy_check_mark: ](org.apache.sling.testing.osgi-mock-3.3.2.buildcompare) | 2.2M |
-| [3.3.0](https://search.maven.org/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/3.3.0/pom) | [mvn jdk11 w](org.apache.sling.testing.osgi-mock-3.3.0.buildspec) | [result](org.apache.sling.testing.osgi-mock-3.3.0.buildinfo): [21 :heavy_check_mark: ](org.apache.sling.testing.osgi-mock-3.3.0.buildcompare) | 2.2M |
+| [3.3.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/3.3.4/pom) | [mvn jdk11 w](org.apache.sling.testing.osgi-mock-3.3.4.buildspec) | [result](org.apache.sling.testing.osgi-mock-3.3.4.buildinfo): [21 :heavy_check_mark: ](org.apache.sling.testing.osgi-mock-3.3.4.buildcompare) | 2.2M |
+| [3.3.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/3.3.2/pom) | [mvn jdk11 w](org.apache.sling.testing.osgi-mock-3.3.2.buildspec) | [result](org.apache.sling.testing.osgi-mock-3.3.2.buildinfo): [21 :heavy_check_mark: ](org.apache.sling.testing.osgi-mock-3.3.2.buildcompare) | 2.2M |
+| [3.3.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/3.3.0/pom) | [mvn jdk11 w](org.apache.sling.testing.osgi-mock-3.3.0.buildspec) | [result](org.apache.sling.testing.osgi-mock-3.3.0.buildinfo): [21 :heavy_check_mark: ](org.apache.sling.testing.osgi-mock-3.3.0.buildcompare) | 2.2M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
