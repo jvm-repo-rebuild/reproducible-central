@@ -1,0 +1,19 @@
+groupId=org.owasp
+artifactId=dependency-check-parent
+version=8.1.2
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/jeremylong/DependencyCheck
+gitTag=v${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+# require umask 022 before cloning the Git repository because it is the setup of the reference build and maven-assembly-plugin 3.5.0 takes it into account https://issues.apache.org/jira/browse/MASSEMBLY-941
+command="mvn clean package -Prelease-profile -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
