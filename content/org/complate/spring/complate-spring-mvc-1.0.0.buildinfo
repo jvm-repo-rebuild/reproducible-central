@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=complate support for Spring MVC
+group-id=org.complate
+artifact-id=complate-spring-mvc
+version=1.0.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/complate/complate-spring
+source.scm.tag=v1.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=complate-spring-mvc-1.0.0.pom
+outputs.0.length=15681
+outputs.0.checksums.sha512=179a3178a93644b1707e865c9410d9df9d309c66c3126611b58112eb6c413c92752e9837fc0fbe7acdb5d98e2361c983f5094ac998465d676d9ff14e95020f72
+
+outputs.1.filename=complate-spring-mvc-1.0.0.jar
+outputs.1.length=7076
+outputs.1.checksums.sha512=655b3d342fa3be992a24ca755de413da5b1a0d719084505ae76ad1f284769f451e8afe52c131e355ea07e4a24c8441df9e02db8fd4c58a551e127bb41b5394ad
+
+outputs.2.filename=complate-spring-mvc-1.0.0-sources.jar
+outputs.2.length=7294
+outputs.2.checksums.sha512=3ce23fb1f9eae72df896a6be3cef3854d012e324d434f211e4a8953e52bedbbbb7a78c1367f1b99bb5dc483c59ec21fd15fbf3a99761b2860405bb091c17d08e
