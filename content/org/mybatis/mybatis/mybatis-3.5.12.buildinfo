@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=mybatis
+group-id=org.mybatis
+artifact-id=mybatis
+version=3.5.12
+
+# source information
+source.scm.uri=scm:git:ssh://github.com/mybatis/mybatis-3.git
+source.scm.tag=mybatis-3.5.12
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=mybatis-3.5.12.pom
+outputs.0.length=15203
+outputs.0.checksums.sha512=1503a0c2a141f0c94c33e9f6bb634d8ad2d33d5c96fe1d78e8fd62060b8422b2277d741010810a673a8bf5dcd10258d2ff050f7a57254dce544f44185c8ccf15
+
+outputs.1.filename=mybatis-3.5.12.jar
+outputs.1.length=1781035
+outputs.1.checksums.sha512=dcb7e28eb596b9c087bf8cb32aafa91099063015d4850790dc8b2fdde66dbadae29ae0e14b5f9885e50b7622dfe81614c6c5ddd5c2cd1befa075d3495983aec4
+
+outputs.2.filename=mybatis-3.5.12-sources.jar
+outputs.2.length=496884
+outputs.2.checksums.sha512=0ec187f2f5f32671b58dd896675ca455bc9dbe07d55bcd99b0e4a053da7434c821b9885375e417c66b89b4ced52fce6061d026aa9439225343c06af41b82917b

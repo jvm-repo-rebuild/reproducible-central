@@ -1,0 +1,49 @@
+1 / 1 target/reference/mybatis-3.5.12.jar target/mybatis-3.5.12.jar
+--- target/reference/mybatis-3.5.12.jar
++++ target/mybatis-3.5.12.jar
+├── zipinfo -v {}
+│ @@ -61,15 +61,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│    file last modified on (DOS date/time):          2023 Mar 1 03:33:26
+│ -  32-bit CRC value (hex):                         9004a159
+│ +  32-bit CRC value (hex):                         cd6b9b4a
+│    compressed size:                                1406 bytes
+│    uncompressed size:                              5277 bytes
+│    length of filename:                             20 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/MANIFEST.MF
+│ @@ -70,18 +70,18 @@
+│   path;resolution:=optional,net.sf.cglib.proxy;resolution:=optional,ognl;
+│   resolution:=optional,org.apache.commons.logging;resolution:=optional,or
+│   g.apache.log4j;resolution:=optional,org.apache.logging.log4j;resolution
+│   :=optional,org.apache.logging.log4j.message;resolution:=optional,org.ap
+│   ache.logging.log4j.spi;resolution:=optional,org.slf4j;resolution:=optio
+│   nal,org.slf4j.spi;resolution:=optional,org.w3c.dom;resolution:=optional
+│   ,org.xml.sax;resolution:=optional
+│ -Include-Resource: {org/apache/ibatis/builder/xml/mybatis-3-config.dtd=sr
+│ - c/main/resources/org/apache/ibatis/builder/xml/mybatis-3-config.dtd},{o
+│ - rg/apache/ibatis/builder/xml/mybatis-3-mapper.dtd=src/main/resources/or
+│ - g/apache/ibatis/builder/xml/mybatis-3-mapper.dtd},{org/apache/ibatis/bu
+│ - ilder/xml/mybatis-config.xsd=src/main/resources/org/apache/ibatis/build
+│ - er/xml/mybatis-config.xsd},{org/apache/ibatis/builder/xml/mybatis-mappe
+│ - r.xsd=src/main/resources/org/apache/ibatis/builder/xml/mybatis-mapper.x
+│ - sd},META-INF/LICENSE=LICENSE,META-INF/NOTICE=NOTICE
+│ +Include-Resource: {org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd=sr
+│ + c/main/resources/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd},{o
+│ + rg/apache/ibatis/builder/xml/mybatis-mapper.xsd=src/main/resources/org/
+│ + apache/ibatis/builder/xml/mybatis-mapper.xsd},{org/apache/ibatis/builde
+│ + r/xml/mybatis-config.xsd=src/main/resources/org/apache/ibatis/builder/x
+│ + ml/mybatis-config.xsd},{org/apache/ibatis/builder/xml/mybatis-3-config.
+│ + dtd=src/main/resources/org/apache/ibatis/builder/xml/mybatis-3-config.d
+│ + td},META-INF/LICENSE=LICENSE,META-INF/NOTICE=NOTICE
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+│  Tool: Bnd-6.4.0.202211291949
+
