@@ -1,0 +1,7 @@
+version=3.5.1
+ok=4
+ko=0
+okFiles="plexus-utils-3.5.1.pom plexus-utils-3.5.1.jar plexus-utils-3.5.1-source-release.zip plexus-utils-3.5.1-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
