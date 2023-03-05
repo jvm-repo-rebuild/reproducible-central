@@ -1,0 +1,70 @@
+1 / 27 target/reference/shiro-lang-2.0.0-alpha-1.jar lang/target/shiro-lang-2.0.0-alpha-1.jar
+--- target/reference/shiro-lang-2.0.0-alpha-1.jar
++++ lang/target/shiro-lang-2.0.0-alpha-1.jar
+├── zipinfo -v {}
+│ @@ -61,15 +61,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│    file last modified on (DOS date/time):          1980 Feb 1 00:00:00
+│ -  32-bit CRC value (hex):                         34de3b67
+│ +  32-bit CRC value (hex):                         3b5821ce
+│    compressed size:                                777 bytes
+│    uncompressed size:                              2027 bytes
+│    length of filename:                             20 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/MANIFEST.MF
+│ @@ -22,19 +22,19 @@
+│  Implementation-Version: 2.0.0-alpha-1
+
+│  Import-Package: java.beans,java.io,java.lang,java.lang.annotation,java
+
+│   .lang.invoke,java.lang.ref,java.lang.reflect,java.net,java.text,java.
+
+│   util,java.util.concurrent,java.util.concurrent.locks,org.apache.shiro
+
+│   .lang;version="[2.0,3)",org.apache.shiro.lang.codec;version="[2.0,3)"
+
+│   ,org.apache.shiro.lang.util;version="[2.0,3)",org.slf4j;version="[1.7
+
+│   ,2)"
+
+│ -Include-Resource: META-INF/LICENSE=target/maven-shared-archive-resourc
+
+│ - es/META-INF/LICENSE,META-INF/DEPENDENCIES=target/maven-shared-archive
+
+│ - -resources/META-INF/DEPENDENCIES,META-INF/NOTICE=target/maven-shared-
+
+│ +Include-Resource: META-INF/DEPENDENCIES=target/maven-shared-archive-re
+
+│ + sources/META-INF/DEPENDENCIES,META-INF/LICENSE=target/maven-shared-ar
+
+│ + chive-resources/META-INF/LICENSE,META-INF/NOTICE=target/maven-shared-
+
+│   archive-resources/META-INF/NOTICE
+
+│ -Private-Package: org.apache.shiro.lang.util,org.apache.shiro.lang.code
+
+│ - c,org.apache.shiro.lang,org.apache.shiro.lang.io
+
+│ +Private-Package: org.apache.shiro.lang.codec,org.apache.shiro.lang.uti
+
+│ + l,org.apache.shiro.lang.io,org.apache.shiro.lang
+
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+
+│  Specification-Title: Apache Shiro :: Lang
+
+│  Specification-Vendor: The Apache Software Foundation
+
+│  Specification-Version: 2.0
+
+│  Tool: Bnd-6.3.1.202206071316
+
+...
