@@ -20,6 +20,7 @@ rebuilding **1 releases** of org.apache.qpid:proton-j-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.34.1](https://central.sonatype.com/artifact/org.apache.qpid/proton-j-parent/0.34.1/pom) | | | |
 | [0.34.0](https://central.sonatype.com/artifact/org.apache.qpid/proton-j-parent/0.34.0/pom) | [mvn jdk17](proton-j-0.34.0.buildspec) | [result](proton-j-parent-0.34.0.buildinfo): [7 :heavy_check_mark: ](proton-j-parent-0.34.0.buildcompare) | 2.4M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
