@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **1604 releases** of **386 projects**:
-   - **1180** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **1610 releases** of **386 projects**:
+   - **1186** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 424 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
@@ -40,7 +40,7 @@ Its objectives are to provide:
 | com.github.package-url | <a name='com.github.package-url:packageurl-java'></a>[packageurl-java](content/com/github/package-url/packageurl-java/README.md) | 3 | 3 :heavy_check_mark: |
 | com.github.spotbugs | <a name='com.github.spotbugs:spotbugs-maven-plugin'></a>[spotbugs-maven-plugin](content/com/github/spotbugs/spotbugs-maven-plugin/README.md) | 8 | 8 :heavy_check_mark: |
 | com.github.veithen.checkt | <a name='com.github.veithen.checkt:checkt'></a>[checkt](content/com/github/veithen/checkt/README.md) | 1 | 1 :heavy_check_mark: |
-| com.github.veithen.daemon | <a name='com.github.veithen.daemon:daemon'></a>[daemon](content/com/github/veithen/daemon/README.md) | 4 | 4 :heavy_check_mark: |
+| com.github.veithen.daemon | <a name='com.github.veithen.daemon:daemon'></a>[daemon](content/com/github/veithen/daemon/README.md) | 5 | 5 :heavy_check_mark: |
 | com.github.veithen | <a name='com.github.veithen:jrel'></a>[jrel](content/com/github/veithen/jrel/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='com.github.veithen:parent'></a>[parent](content/com/github/veithen/parent/README.md) | 6 | 5 :heavy_check_mark: / 1 :warning: |
 | com.github.veithen.maven | <a name='com.github.veithen.maven:java-format-maven-plugin'></a>[java-format-maven-plugin](content/com/github/veithen/maven/java-format-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
@@ -204,7 +204,7 @@ Its objectives are to provide:
 | org.apache.maven.reporting | <a name='org.apache.maven.reporting:maven-reporting-api'></a>[maven-reporting-api](content/org/apache/maven/reporting/maven-reporting-api/README.md) | 6 | 6 :heavy_check_mark: |
 | | <a name='org.apache.maven.reporting:maven-reporting-exec'></a>[maven-reporting-exec](content/org/apache/maven/reporting/maven-reporting-exec/README.md) | 6 | 6 :heavy_check_mark: |
 | | <a name='org.apache.maven.reporting:maven-reporting-impl'></a>[maven-reporting-impl](content/org/apache/maven/reporting/maven-reporting-impl/README.md) | 6 | 6 :heavy_check_mark: |
-| org.apache.maven.resolver | <a name='org.apache.maven.resolver:maven-resolver'></a>[maven-resolver](content/org/apache/maven/resolver/maven-resolver/README.md) | 16 | 15 :heavy_check_mark: / 1 :warning: |
+| org.apache.maven.resolver | <a name='org.apache.maven.resolver:maven-resolver'></a>[maven-resolver](content/org/apache/maven/resolver/maven-resolver/README.md) | 17 | 16 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.apache.maven.resolver:maven-resolver-ant-tasks'></a>[maven-resolver-ant-tasks](content/org/apache/maven/resolver/maven-resolver-ant-tasks/README.md) | 4 | 4 :heavy_check_mark: |
 | org.apache.maven | <a name='org.apache.maven:maven-archiver'></a>[maven-archiver](content/org/apache/maven/shared/archiver/README.md) | 3 | 3 :heavy_check_mark: |
 | org.apache.maven.shared | <a name='org.apache.maven.shared:file-management'></a>[file-management](content/org/apache/maven/shared/file-management/README.md) | 1 | 1 :heavy_check_mark: |
@@ -228,7 +228,7 @@ Its objectives are to provide:
 | | <a name='org.apache.plc4x.plugins:plc4x-code-generaton'></a>[plc4x-code-generaton](content/org/apache/plc4x/plc4x-code-generaton/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.plc4x.plugins:plc4x-site-skin'></a>[plc4x-site-skin](content/org/apache/plc4x/plc4x-site-skin/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.qpid | <a name='org.apache.qpid:qpid-jms-parent'></a>[qpid-jms-parent](content/org/apache/qpid/jms/README.md) | 4 | 4 :heavy_check_mark: |
-| | <a name='org.apache.qpid:proton-j-parent'></a>[proton-j-parent](content/org/apache/qpid/proton-j/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='org.apache.qpid:proton-j-parent'></a>[proton-j-parent](content/org/apache/qpid/proton-j/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.qpid:protonj2-parent'></a>[protonj2-parent](content/org/apache/qpid/protonj2/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
 | org.apache.royale.compiler | <a name='org.apache.royale.compiler:compiler'></a>[compiler](content/org/apache/royale/compiler/README.md) | 1 | 1 :warning: |
 | org.apache.santuario | <a name='org.apache.santuario:xmlsec'></a>[xmlsec](content/org/apache/santuario/xmlsec/README.md) | 2 | 2 :warning: |
@@ -314,7 +314,7 @@ Its objectives are to provide:
 | | <a name='org.apache.sling:org.apache.sling.tenant'></a>[*.tenant](content/org/apache/sling/org.apache.sling.tenant/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.testing.caconfig-mock-plugin'></a>[*.testing.caconfig-mock-plugin](content/org/apache/sling/org.apache.sling.testing.caconfig-mock-plugin/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.testing.clients'></a>[*.testing.clients](content/org/apache/sling/org.apache.sling.testing.clients/README.md) | 7 | 7 :heavy_check_mark: |
-| | <a name='org.apache.sling:org.apache.sling.testing.jcr-mock'></a>[*.testing.jcr-mock](content/org/apache/sling/org.apache.sling.testing.jcr-mock/README.md) | 3 | 3 :heavy_check_mark: |
+| | <a name='org.apache.sling:org.apache.sling.testing.jcr-mock'></a>[*.testing.jcr-mock](content/org/apache/sling/org.apache.sling.testing.jcr-mock/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.testing.osgi-mock'></a>[*.testing.osgi-mock](content/org/apache/sling/org.apache.sling.testing.osgi-mock/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.testing.resourceresolver-mock'></a>[*.testing.resourceresolver-mock](content/org/apache/sling/org.apache.sling.testing.resourceresolver-mock/README.md) | 6 | 5 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.apache.sling:org.apache.sling.testing.sling-mock'></a>[*.testing.sling-mock](content/org/apache/sling/org.apache.sling.testing.sling-mock/README.md) | 4 | 4 :heavy_check_mark: |
@@ -398,18 +398,18 @@ Its objectives are to provide:
 | org.sonatype.nexus.archetypes | <a name='org.sonatype.nexus.archetypes:nexus-format-archetype'></a>[nexus-format-archetype](content/org/sonatype/nexus/archetypes/nexus-format-archetype/README.md) | 5 | 5 :heavy_check_mark: |
 | org.tomitribe.transformer | <a name='org.tomitribe.transformer:org.eclipse.transformer.parent'></a>[org.eclipse.transformer.parent](content/org/tomitribe/transformer/README.md) | 2 | 2 :heavy_check_mark: |
 | org.webjars | <a name='org.webjars:bootstrap'></a>[bootstrap](content/org/webjars/bootstrap/README.md) | 4 | 4 :heavy_check_mark: |
-| | <a name='org.webjars:flexmonster'></a>[flexmonster](content/org/webjars/flexmonster/README.md) | 26 | 25 :heavy_check_mark: / 1 :warning: |
+| | <a name='org.webjars:flexmonster'></a>[flexmonster](content/org/webjars/flexmonster/README.md) | 27 | 26 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.webjars:font-awesome'></a>[font-awesome](content/org/webjars/font-awesome/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='org.webjars:jszip'></a>[jszip](content/org/webjars/jszip/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.webjars:redoc'></a>[redoc](content/org/webjars/redoc/README.md) | 1 | 1 :heavy_check_mark: |
-| | <a name='org.webjars:swagger-ui'></a>[swagger-ui](content/org/webjars/swagger-ui/README.md) | 16 | 16 :heavy_check_mark: |
+| | <a name='org.webjars:swagger-ui'></a>[swagger-ui](content/org/webjars/swagger-ui/README.md) | 17 | 17 :heavy_check_mark: |
 | | <a name='org.webjars:webjars-locator'></a>[webjars-locator](content/org/webjars/webjars-locator/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.webjars:webjars-locator-core'></a>[webjars-locator-core](content/org/webjars/webjars-locator-core/README.md) | 1 | 1 :heavy_check_mark: |
 | tech.picnic.error-prone-support | <a name='tech.picnic.error-prone-support:error-prone-support'></a>[error-prone-support](content/tech/picnic/error-prone-support/error-prone-support/README.md) | 5 | 5 :heavy_check_mark: |
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 9 | 9 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 6 | 6 :warning: |
-| **Count:** | **386** | **1604** | **1180** :heavy_check_mark: **424** :warning: |
+| **Count:** | **386** | **1610** | **1186** :heavy_check_mark: **424** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -421,13 +421,13 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      17 gradle     11
      26 mvn         7
-    779 mvn         8
+    780 mvn         8
       1 mvn         9
-    592 mvn        11
+    594 mvn        11
       4 mvn        14
      10 mvn        15
      10 mvn        16
-     72 mvn        17
+     74 mvn        17
      10 mvn        18
       9 mvn        19
       2 mvn-3.5.4   8
@@ -436,7 +436,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn-3.8.5  17
      19 mvn-3.8.6   8
       1 mvn-3.8.6  11
-     23 mvn-3.8.6  17
+     24 mvn-3.8.6  17
       2 mvn-3.8.6  18
       4 mvn-3.8.6  19
       2 mvn-3.9.0  11

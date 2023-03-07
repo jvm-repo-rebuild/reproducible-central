@@ -13,6 +13,7 @@ rebuilding **5 releases** of org.apache.maven.plugins:maven-artifact-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.4.1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-artifact-plugin/3.4.1/pom) | | | |
 | [3.4.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-artifact-plugin/3.4.0/pom) | [mvn jdk8 w](maven-artifact-plugin-3.4.0.buildspec) | [result](maven-artifact-plugin-3.4.0.buildinfo): [4 :heavy_check_mark: ](maven-artifact-plugin-3.4.0.buildcompare) | 180K |
 | [3.3.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-artifact-plugin/3.3.0/pom) | [mvn jdk8](maven-artifact-plugin-3.3.0.buildspec) | [result](maven-artifact-plugin-3.3.0.buildinfo): [4 :heavy_check_mark: ](maven-artifact-plugin-3.3.0.buildcompare) | 186K |
 | [3.2.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-artifact-plugin/3.2.0/pom) | [mvn jdk8](maven-artifact-plugin-3.2.0.buildspec) | [result](maven-artifact-plugin-3.2.0.buildinfo): [4 :heavy_check_mark: ](maven-artifact-plugin-3.2.0.buildcompare) | 163K |
