@@ -1,0 +1,19 @@
+groupId=org.apache.qpid
+artifactId=proton-j-parent
+version=0.34.1
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/apache/qpid-proton-j.git
+gitTag=${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=

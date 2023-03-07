@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Proton-J Parent
+group-id=org.apache.qpid
+artifact-id=proton-j-parent
+version=0.34.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/qpid-proton-j.git
+source.scm.tag=0.34.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=apache-qpid-proton-j
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.qpid:proton-j-parent
+
+outputs.0.0.filename=proton-j-parent-0.34.1.pom
+outputs.0.0.length=10181
+outputs.0.0.checksums.sha512=fd46f02af453b47d5aec61f0d94533731b9e3d94995dc21d5992154a1d6b59ccc3cd7718c570a458e2dde1faffdfe9d451fb42956f66b7b715667e26bb6f6e11
+
+outputs.1.coordinates=org.apache.qpid:proton-j
+
+outputs.1.0.filename=proton-j-0.34.1.pom
+outputs.1.0.length=3154
+outputs.1.0.checksums.sha512=1052b54ef4eaddce165a1017a70adf3360d84d5a6ae19afc0e49e83d1fa73406f535b4dde37ebb41c16893dbd9746293e968fd4ecc81c31de5b599b16af788e7
+
+outputs.1.1.filename=proton-j-0.34.1.jar
+outputs.1.1.length=733910
+outputs.1.1.checksums.sha512=063543108abb45f5fddb640a69c1610a936b4dd6c9489528c8f78b8ffc256b716b71c76b97237d880383ae3d37a35e6305148dc2eb063d836f8ffa0838fa40b0
+
+outputs.1.2.filename=proton-j-0.34.1-sources.jar
+outputs.1.2.length=485248
+outputs.1.2.checksums.sha512=8d89e9957b9d9bc16dee4610ab9769c72ba847f2d434ab08b609bfc433186f502ebc864e7b713667152edf625bbdb84d6d9892194de7d491a55ca5dd7e9c82db
+
+outputs.2.coordinates=org.apache.qpid:apache-qpid-proton-j
+
+outputs.2.0.filename=apache-qpid-proton-j-0.34.1.pom
+outputs.2.0.length=3977
+outputs.2.0.checksums.sha512=15076020ae6df92655e20afe3c8cf5a9041a8b6b30bc35aad044ef253f0bc72efa88fd23abedf43e2d745e8ed053d95fd5723e41d2c8298cecff8e74702f3919
+
+outputs.2.1.filename=apache-qpid-proton-j-0.34.1-bin.tar.gz
+outputs.2.1.length=675224
+outputs.2.1.checksums.sha512=fbf473f5789472be1cd23b7d50e73fd8f78f9c4fcb7bdb31cea6d7c9df449e0869330ad1b2169071e953e11179ada4f084a8a09c13e31e880ac409e9155d34ef
+
+outputs.2.2.filename=apache-qpid-proton-j-0.34.1-src.tar.gz
+outputs.2.2.length=497343
+outputs.2.2.checksums.sha512=eb402341ed06672cc78c6efde1337230db0955bdaa191008938e20467621cc85bbb4b1e64b94a0ca85c56f153f0497d1224c82c38dd454807183d8a9ae97f2d2
