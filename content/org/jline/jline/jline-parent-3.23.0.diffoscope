@@ -1,0 +1,45 @@
+# how is it possible that a different version of maven-source-plugin has been used during the reference release build?
+1 / 14 target/reference/jline-native-3.23.0-sources.jar native/target/jline-native-3.23.0-sources.jar
+--- target/reference/jline-native-3.23.0-sources.jar
++++ native/target/jline-native-3.23.0-sources.jar
+├── zipinfo {}
+│ @@ -1,46 +1,51 @@
+│ -Zip file size: 97736 bytes, number of entries: 44
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Mar-08 20:47 META-INF/
+│ --rw-r--r--  2.0 unx      271 b- defN 23-Mar-08 20:47 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Mar-08 20:46 org/
+...
+│ --rwxr-xr-x  2.0 unx   101849 b- defN 23-Mar-08 20:46 org/jline/nativ/Windows/x86_64/jlinenative.dll
+│ --rw-r--r--  2.0 unx       62 b- defN 23-Mar-08 20:46 META-INF/native-image/jlinenative/resource-config.json
+│ -44 files, 375914 bytes uncompressed, 91536 bytes compressed:  75.6%
+│ +Zip file size: 99587 bytes, number of entries: 49
+│ +-rw-r--r--  2.0 unx      212 b- defN 23-Mar-08 19:44 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Mar-08 19:44 META-INF/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Mar-08 19:44 org/
+...
+│ +-rw-r--r--  2.0 unx   101849 b- defN 23-Mar-08 19:44 org/jline/nativ/Windows/x86_64/jlinenative.dll
+│ +-rw-r--r--  2.0 unx     4305 b- defN 23-Mar-08 19:44 META-INF/maven/org.jline/jline-native/pom.xml
+│ +-rw-r--r--  2.0 unx       57 b- defN 23-Mar-08 19:44 META-INF/maven/org.jline/jline-native/pom.properties
+│ +49 files, 380217 bytes uncompressed, 92657 bytes compressed:  75.6%
+...
+├── META-INF/MANIFEST.MF
+│ @@ -1,10 +1,7 @@
+│  Manifest-Version: 1.0
+
+│ -Archiver-Version: Plexus Archiver
+
+│ -Created-By: Apache Maven
+
+│ -Built-By: gnodet
+
+│ -Build-Jdk: 17.0.5
+
+│ +Created-By: Maven Source Plugin 3.2.1
+
+│  Bundle-Name: JLine Sources Bundle
+
+│  Bundle-SymbolicName: org.jline.source
+
+│  Bundle-Version: 3.23.0
+
+│  Eclipse-SourceBundle: org.jline;version="3.23.0"

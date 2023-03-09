@@ -1,0 +1,21 @@
+version=3.23.0
+ok=29
+ko=14
+okFiles="jline-parent-3.23.0.pom jline-native-3.23.0.pom jline-native-3.23.0.jar jline-terminal-3.23.0.pom jline-terminal-3.23.0.jar jline-terminal-jna-3.23.0.pom jline-terminal-jna-3.23.0.jar jline-terminal-jansi-3.23.0.pom jline-terminal-jansi-3.23.0.jar jline-reader-3.23.0.pom jline-reader-3.23.0.jar jline-style-3.23.0.pom jline-style-3.23.0.jar jline-builtins-3.23.0.pom jline-builtins-3.23.0.jar jline-console-3.23.0.pom jline-console-3.23.0.jar jline-groovy-3.23.0.pom jline-groovy-3.23.0.jar jline-remote-ssh-3.23.0.pom jline-remote-ssh-3.23.0.jar jline-remote-telnet-3.23.0.pom jline-remote-telnet-3.23.0.jar jline-demo-3.23.0.pom jline-demo-3.23.0.jar jline-graal-3.23.0.pom jline-graal-3.23.0.jar jline-3.23.0.pom jline-3.23.0.jar"
+koFiles="jline-native-3.23.0-sources.jar jline-terminal-3.23.0-sources.jar jline-terminal-jna-3.23.0-sources.jar jline-terminal-jansi-3.23.0-sources.jar jline-reader-3.23.0-sources.jar jline-style-3.23.0-sources.jar jline-builtins-3.23.0-sources.jar jline-console-3.23.0-sources.jar jline-groovy-3.23.0-sources.jar jline-remote-ssh-3.23.0-sources.jar jline-remote-telnet-3.23.0-sources.jar jline-demo-3.23.0-sources.jar jline-graal-3.23.0-sources.jar jline-3.23.0-sources.jar"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/jline-native-3.23.0-sources.jar native/target/jline-native-3.23.0-sources.jar
+# diffoscope target/reference/jline-terminal-3.23.0-sources.jar terminal/target/jline-terminal-3.23.0-sources.jar
+# diffoscope target/reference/jline-terminal-jna-3.23.0-sources.jar terminal-jna/target/jline-terminal-jna-3.23.0-sources.jar
+# diffoscope target/reference/jline-terminal-jansi-3.23.0-sources.jar terminal-jansi/target/jline-terminal-jansi-3.23.0-sources.jar
+# diffoscope target/reference/jline-reader-3.23.0-sources.jar reader/target/jline-reader-3.23.0-sources.jar
+# diffoscope target/reference/jline-style-3.23.0-sources.jar style/target/jline-style-3.23.0-sources.jar
+# diffoscope target/reference/jline-builtins-3.23.0-sources.jar builtins/target/jline-builtins-3.23.0-sources.jar
+# diffoscope target/reference/jline-console-3.23.0-sources.jar console/target/jline-console-3.23.0-sources.jar
+# diffoscope target/reference/jline-groovy-3.23.0-sources.jar groovy/target/jline-groovy-3.23.0-sources.jar
+# diffoscope target/reference/jline-remote-ssh-3.23.0-sources.jar remote-ssh/target/jline-remote-ssh-3.23.0-sources.jar
+# diffoscope target/reference/jline-remote-telnet-3.23.0-sources.jar remote-telnet/target/jline-remote-telnet-3.23.0-sources.jar
+# diffoscope target/reference/jline-demo-3.23.0-sources.jar demo/target/jline-demo-3.23.0-sources.jar
+# diffoscope target/reference/jline-graal-3.23.0-sources.jar graal/target/jline-graal-3.23.0-sources.jar
+# diffoscope target/reference/jline-3.23.0-sources.jar jline/target/jline-3.23.0-sources.jar
