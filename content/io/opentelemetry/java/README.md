@@ -62,6 +62,7 @@ rebuilding **1 releases** of io.opentelemetry:opentelemetry-sdk:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.24.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.24.0/pom) | | | |
 | [1.23.1](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.23.1/pom) | | | |
 | [1.23.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.23.0/pom) | | | |
 | [1.22.0](https://central.sonatype.com/artifact/io.opentelemetry/opentelemetry-sdk/1.22.0/pom) | | | |

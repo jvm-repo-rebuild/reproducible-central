@@ -168,6 +168,7 @@ rebuilding **10 releases** of io.fabric8:kubernetes-client-project:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [6.5.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.5.0/pom) | | | |
 | [6.4.1](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.4.1/pom) | | | |
 | [6.4.0](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.4.0/pom) | [mvn jdk8](kubernetes-client-6.4.0.buildspec) | [result](kubernetes-client-project-6.4.0.buildinfo): [294 :heavy_check_mark:  135 :warning:](kubernetes-client-project-6.4.0.buildcompare) [:mag:](kubernetes-client-project-6.4.0.diffoscope) | 207M |
 | [6.3.1](https://central.sonatype.com/artifact/io.fabric8/kubernetes-client-project/6.3.1/pom) | | | |
