@@ -19,6 +19,6 @@ rebuilding **1 releases** of org.apache.commons:commons-statistics-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.0](https://central.sonatype.com/artifact/org.apache.commons/commons-statistics-parent/1.0/pom) | [mvn jdk8](commons-statistics-1.0.buildspec) | [result](commons-statistics-parent-1.0.buildinfo): [5 :heavy_check_mark:  2 :warning:](commons-statistics-parent-1.0.buildcompare) [:mag:](commons-statistics-parent-1.0.diffoscope) | 1.8M |
+| [1.0](https://central.sonatype.com/artifact/org.apache.commons/commons-statistics-parent/1.0/pom) | [mvn jdk8](commons-statistics-1.0.buildspec) | [result](commons-statistics-parent-1.0.buildinfo): [5 :heavy_check_mark:  2 :warning:](commons-statistics-parent-1.0.buildcompare) [:mag:](commons-statistics-parent-1.0.diffoscope) [:memo:](https://github.com/apache/commons-statistics/pull/42) | 1.8M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

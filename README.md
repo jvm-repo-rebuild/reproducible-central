@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **1614 releases** of **386 projects**:
-   - **1189** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 425 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **1617 releases** of **386 projects**:
+   - **1191** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 426 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
 
@@ -46,7 +46,7 @@ Its objectives are to provide:
 | com.github.veithen.maven | <a name='com.github.veithen.maven:java-format-maven-plugin'></a>[java-format-maven-plugin](content/com/github/veithen/maven/java-format-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='com.github.veithen.maven:p2-maven-connector'></a>[p2-maven-connector](content/com/github/veithen/maven/p2-maven-connector/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='com.github.veithen.maven:resolver-proxy-maven-plugin'></a>[resolver-proxy-maven-plugin](content/com/github/veithen/maven/resolver-proxy-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
-| com.innoq | <a name='com.innoq:junit5-logging-extension'></a>[junit5-logging-extension](content/com/innoq/junit5-logging-extension/README.md) | 1 | 1 :warning: |
+| com.innoq | <a name='com.innoq:junit5-logging-extension'></a>[junit5-logging-extension](content/com/innoq/junit5-logging-extension/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | com.io7m.jade | <a name='com.io7m.jade:com.io7m.jade'></a>[com.io7m.jade](content/com/io7m/jade/README.md) | 2 | 2 :warning: |
 | com.ongres.stringprep | <a name='com.ongres.stringprep:parent'></a>[parent](content/com/ongres/stringprep/README.md) | 1 | 1 :warning: |
 | com.scalapenos | <a name='com.scalapenos:stamina_2.11'></a>[stamina_2.11](content/com/scalapenos/stamina/README.md) | 2 | 2 :heavy_check_mark: |
@@ -120,7 +120,7 @@ Its objectives are to provide:
 | org.apache.rat | <a name='org.apache.rat:apache-rat-project'></a>[apache-rat-project](content/org/apache/rat/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.shiro | <a name='org.apache.shiro:shiro-root'></a>[shiro-root](content/org/apache/shiro/README.md) | 5 | 5 :warning: |
 | org.apache.sshd | <a name='org.apache.sshd:sshd'></a>[sshd](content/org/apache/sshd/README.md) | 2 | 2 :warning: |
-| org.apache.struts | <a name='org.apache.struts:struts2-parent'></a>[struts2-parent](content/org/apache/struts/README.md) | 4 | 4 :warning: |
+| org.apache.struts | <a name='org.apache.struts:struts2-parent'></a>[struts2-parent](content/org/apache/struts/README.md) | 5 | 5 :warning: |
 | org.apache.syncope | <a name='org.apache.syncope:syncope'></a>[syncope](content/org/apache/syncope/README.md) | 3 | 3 :warning: |
 | org.apache.systemds | <a name='org.apache.systemds:systemds'></a>[systemds](content/org/apache/systemds/README.md) | 1 | 1 :warning: |
 | org.apache.tika | <a name='org.apache.tika:tika'></a>[tika](content/org/apache/tika/README.md) | 5 | 5 :warning: |
@@ -150,7 +150,7 @@ Its objectives are to provide:
 | org.apache.httpcomponents | <a name='org.apache.httpcomponents:httpcomponents-parent'></a>[httpcomponents-parent](content/org/apache/httpcomponents/parent/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.jackrabbit.vault | <a name='org.apache.jackrabbit.vault:jackrabbit-filevault'></a>[jackrabbit-filevault](content/org/apache/jackrabbit/filevault/README.md) | 10 | 3 :heavy_check_mark: / 7 :warning: |
 | org.apache.jackrabbit | <a name='org.apache.jackrabbit:filevault-package-maven-plugin'></a>[filevault-package-maven-plugin](content/org/apache/jackrabbit/filevault-package-maven-plugin/README.md) | 6 | 6 :heavy_check_mark: |
-| | <a name='org.apache.jackrabbit:jackrabbit'></a>[jackrabbit](content/org/apache/jackrabbit/jackrabbit/README.md) | 1 | 1 :warning: |
+| | <a name='org.apache.jackrabbit:jackrabbit-parent'></a>[jackrabbit-parent](content/org/apache/jackrabbit/jackrabbit/README.md) | 1 | 1 :warning: |
 | org.apache.jena | <a name='org.apache.jena:jena'></a>[jena](content/org/apache/jena/jena/README.md) | 9 | 9 :warning: |
 | org.apache.karaf | <a name='org.apache.karaf:decanter'></a>[decanter](content/org/apache/karaf/decanter/README.md) | 2 | 2 :warning: |
 | | <a name='org.apache.karaf:karaf'></a>[karaf](content/org/apache/karaf/karaf/README.md) | 5 | 5 :warning: |
@@ -364,7 +364,7 @@ Its objectives are to provide:
 | org.jline | <a name='org.jline:jline-parent'></a>[jline-parent](content/org/jline/jline/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | org.jrivard.xmlchai | <a name='org.jrivard.xmlchai:xmlchai'></a>[xmlchai](content/org/jrivard/xmlchai/README.md) | 2 | 2 :warning: |
 | org.junit | <a name='org.junit:junit-bom'></a>[junit-bom](content/org/junit/junit5/README.md) | 1 | 1 :warning: |
-| org.liquibase.ext | <a name='org.liquibase.ext:liquibase-percona'></a>[liquibase-percona](content/org/liquibase/ext/liquibase-percona/README.md) | 29 | 28 :heavy_check_mark: / 1 :warning: |
+| org.liquibase.ext | <a name='org.liquibase.ext:liquibase-percona'></a>[liquibase-percona](content/org/liquibase/ext/liquibase-percona/README.md) | 30 | 29 :heavy_check_mark: / 1 :warning: |
 | org.mockito | <a name='org.mockito:mockito-core'></a>[mockito-core](content/org/mockito/mockito-core/README.md) | 14 | 12 :heavy_check_mark: / 2 :warning: |
 | org.mybatis | <a name='org.mybatis:base-bundle-descriptor'></a>[base-bundle-descriptor](content/org/mybatis/base-bundle-descriptor/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.mybatis:mybatis-cdi'></a>[mybatis-cdi](content/org/mybatis/cdi/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
@@ -409,7 +409,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 10 | 10 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 6 | 6 :warning: |
-| **Count:** | **386** | **1614** | **1189** :heavy_check_mark: **425** :warning: |
+| **Count:** | **386** | **1617** | **1191** :heavy_check_mark: **426** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -421,9 +421,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      18 gradle     11
      26 mvn         7
-    782 mvn         8
+    784 mvn         8
       1 mvn         9
-    594 mvn        11
+    595 mvn        11
       4 mvn        14
      10 mvn        15
      10 mvn        16
