@@ -1,7 +1,7 @@
 groupId=org.apache.struts
 artifactId=struts2-parent
 display=${groupId}:${artifactId}
-version=6.0.0
+version=6.1.2
 
 gitRepo=https://github.com/apache/struts.git
 gitTag=STRUTS_`echo ${version} | tr . _`

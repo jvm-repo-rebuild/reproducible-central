@@ -1,0 +1,72 @@
+1 / 12 target/reference/struts2-bean-validation-plugin-6.1.2.jar plugins/bean-validation/target/struts2-bean-validation-plugin-6.1.2.jar
+--- target/reference/struts2-bean-validation-plugin-6.1.2.jar
++++ plugins/bean-validation/target/struts2-bean-validation-plugin-6.1.2.jar
+├── zipinfo -v {}
+│ @@ -27,15 +27,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          2023 Mar 8 16:23:30
+│ -  32-bit CRC value (hex):                         4aaf9c44
+│ +  32-bit CRC value (hex):                         433d70c8
+│    compressed size:                                617 bytes
+│    uncompressed size:                              1762 bytes
+│    length of filename:                             20 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/MANIFEST.MF
+│ @@ -16,19 +16,19 @@
+│   rsion="[2.0,3)",javax.validation.groups;version="[2.0,3)",org.apache.
+
+│   commons.lang3;version="[3.10,4)",org.apache.commons.lang3.reflect;ver
+
+│   sion="[3.10,4)",org.apache.logging.log4j;version="[2.19,3)",org.apach
+
+│   e.struts2.interceptor.validation;version="[6.1,7)"
+
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+│  Tool: Bnd-6.2.0.202202251641
+
+│  Implementation-Vendor: Apache Software Foundation
+
+│ -Export-Package: org.apache.struts.beanvalidation.constraints;uses:="ja
+
+│ - vax.validation,javax.validation.groups";version="6.1.2",org.apache.st
+
+│ - ruts.beanvalidation.validation.constant;version="6.1.2",org.apache.st
+
+│ - ruts.beanvalidation.validation.interceptor;uses:="com.opensymphony.xw
+
+│ - ork2,com.opensymphony.xwork2.inject,com.opensymphony.xwork2.intercept
+
+│ - or,javax.validation";version="6.1.2"
+
+│ +Export-Package: org.apache.struts.beanvalidation.validation.intercepto
+
+│ + r;uses:="com.opensymphony.xwork2,com.opensymphony.xwork2.inject,com.o
+
+│ + pensymphony.xwork2.interceptor,javax.validation";version="6.1.2",org.
+
+│ + apache.struts.beanvalidation.validation.constant;version="6.1.2",org.
+
+│ + apache.struts.beanvalidation.constraints;uses:="javax.validation,java
+
+│ + x.validation.groups";version="6.1.2"
+
+│  Bundle-Name: Struts 2 Bean Validation Plugin
+
+│  Bundle-Version: 6.1.2
+
+│  Build-Jdk-Spec: 1.8
+
+│  Created-By: Apache Maven Bundle Plugin 5.1.6
+
+│  Specification-Version: 6.1
+
+# all other issues are the same OSGi descriptor order...
