@@ -37,8 +37,6 @@ rebuildToolMvn() {
       # open a shell to do manual rebuild in Docker
       warn "opening interactive shell in docker: please run rebuild with required JDK then exit to continue:"
       runlog "${mvn_rebuild//DOCKER /}"
-
-      exit
       mvnBuildDocker "bash -i"
     else
       # by default, build with Docker
