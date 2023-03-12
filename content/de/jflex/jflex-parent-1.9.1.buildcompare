@@ -1,0 +1,7 @@
+version=1.9.1
+ok=8
+ko=0
+okFiles="jflex-parent-1.9.1.pom jflex-parent-1.9.1-site.xml jflex-1.9.1.pom jflex-1.9.1.jar jflex-1.9.1-sources.jar jflex-maven-plugin-1.9.1.pom jflex-maven-plugin-1.9.1.jar jflex-maven-plugin-1.9.1-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

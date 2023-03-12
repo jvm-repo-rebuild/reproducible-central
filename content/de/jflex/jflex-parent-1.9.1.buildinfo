@@ -1,0 +1,61 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JFlex parent and aggregator POM
+group-id=de.jflex
+artifact-id=jflex-parent
+version=1.9.1
+
+# source information
+source.scm.uri=scm:git:git@github.com:jflex-de/jflex.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=jflex-maven-plugin
+
+# aggregated output
+
+outputs.0.coordinates=de.jflex:jflex-parent
+
+outputs.0.0.filename=jflex-parent-1.9.1.pom
+outputs.0.0.length=16828
+outputs.0.0.checksums.sha512=6afbb7d3417cfe497450cb17c2a40d7c68f3255156a93aabae80127bfc9fd1775bd17d9c7855c6af4b0dfe077267c1bf7a927857e69be8dbf3fe896765721ae2
+
+outputs.0.1.filename=jflex-parent-1.9.1-site.xml
+outputs.0.1.length=1163
+outputs.0.1.checksums.sha512=4b13317666d0eeb97444764199ef784b8c5f89fd555bbe5f2a083c94dfae5419f5dcbd20008cd919bf4d58a034fa6278fc74ae7b0905f386c545b984ed7a3099
+
+outputs.1.coordinates=de.jflex:jflex
+
+outputs.1.0.filename=jflex-1.9.1.pom
+outputs.1.0.length=8092
+outputs.1.0.checksums.sha512=2dff9a0b21772c2ce115900139c4cca88f193c4b6e2f8ad4934cdc6a006d142f8be64ce9884c6c2e08477975ada7e7ca5fdc136fec32cdeff4be507ec21ae8c5
+
+outputs.1.1.filename=jflex-1.9.1.jar
+outputs.1.1.length=1801354
+outputs.1.1.checksums.sha512=566123af877095095e8c48e2c3e9996da6d7e86ca52e5ac02214751d249f224fd4e70dffcb0d4980f195dee80d9da3ac7cb9ab26596a9127eebcebdbe27859e3
+
+outputs.1.2.filename=jflex-1.9.1-sources.jar
+outputs.1.2.length=2613940
+outputs.1.2.checksums.sha512=9d43543fcc51ef1616e50d23b85de5303bd331292bb833060a8d2ec0a8d5ea1c80d331f7de383d9566236920fddafd1b0883109858266fb8d6cb13e95ac296a6
+
+outputs.2.coordinates=de.jflex:jflex-maven-plugin
+
+outputs.2.0.filename=jflex-maven-plugin-1.9.1.pom
+outputs.2.0.length=4415
+outputs.2.0.checksums.sha512=072a46245b83306cb14e81d77153dd4e12929cece52a7450681de10f185306c923d24bfd2b79a7bda5f51ff389b37f083302120b1a803a7e7d46270bf412865e
+
+outputs.2.1.filename=jflex-maven-plugin-1.9.1.jar
+outputs.2.1.length=16858
+outputs.2.1.checksums.sha512=dd2397100f83c895a4b1abc84830df80235ef3a9c5f93233c80840387517ee26cad26b8dbd7de451ff6df95ecee6faa6c65edf1bae142bfbb2f0a9b20ec75666
+
+outputs.2.2.filename=jflex-maven-plugin-1.9.1-sources.jar
+outputs.2.2.length=10110
+outputs.2.2.checksums.sha512=a0c981745820dca44ce19ee5d2d87fbcc84cb8ece5ee2756e9d9b7624bf2802ae1e02f80ca7da4dd891a51015c7ffd8310009b03ec54bead46bd203372fe8da9
