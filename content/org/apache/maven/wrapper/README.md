@@ -21,6 +21,7 @@ rebuilding **2 releases** of org.apache.maven.wrapper:maven-wrapper-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.2.0](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper/3.2.0/pom) | | | |
 | [3.1.1](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper/3.1.1/pom) | [mvn jdk8](wrapper-3.1.1.buildspec) | [result](maven-wrapper-parent-3.1.1.buildinfo): [14 :heavy_check_mark: ](maven-wrapper-parent-3.1.1.buildcompare) | 356K |
 | [3.1.0](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper-parent/3.1.0/pom) | [mvn jdk8](wrapper-3.1.0.buildspec) | [result](maven-wrapper-parent-3.1.0.buildinfo): [14 :heavy_check_mark: ](maven-wrapper-parent-3.1.0.buildcompare) | 351K |
 
