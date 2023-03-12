@@ -21,12 +21,12 @@ rebuildToolSbt() {
       sbtImage=hseeberger/scala-sbt:8u222_1.3.5_2.13.1
   esac
 
-  echo "Rebuilding using Docker image ${sbtImage}"
+  info "Rebuilding using Docker image ${sbtImage}"
   [ -d $base/.cache ] || mkdir $base/.cache
   [ -d $base/.ivy2 ] || mkdir $base/.ivy2
   [ -d $base/.sbt ] || mkdir $base/.sbt
   local docker_command="docker run -it --rm --name rebuild-central -v $base/.cache:/home/sbtuser/.cache -v $base/.ivy2:/home/sbtuser/.ivy2 -v $base/.sbt:/home/sbtuser/.sbt -v $PWD:/home/sbtuser/dev -u "$(id -u):$(id -g)" -w /home/sbtuser/dev --env HOME=/home/sbtuser"
-  ${docker_command} ${sbtImage} ${command} -Duser.home=/home/sbtuser
+  runcommand ${docker_command} ${sbtImage} ${command} -Duser.home=/home/sbtuser
 
   dos2unix ${buildinfo} || fatal "failed to convert buildinfo newlines"
   cp ${buildinfo} ../.. || fatal "failed to copy buildinfo artifacts"

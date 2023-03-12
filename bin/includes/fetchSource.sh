@@ -34,9 +34,10 @@ then
   # use provided Git repository and tag
   [ -d ${artifactId} ] || git clone ${gitRepo} ${artifactId} || fatal "failed to clone ${artifactId}"
   cd ${artifactId}
-  echo -e "\033[2m$(pwd) \033[1mgit fetch\033[0m"
+  runlog "git fetch"
   git fetch || fatal "failed to git fetch"
-  echo -e "\033[2m$(pwd) \033[1mgit git checkout -f ${gitTag}\033[0m"
+
+  runlog "git checkout -f ${gitTag}"
   git checkout -f ${gitTag} || fatal "failed to git checkout ${gitTag}"
   if [ "${newline}" == "crlf" ]
   then
@@ -60,6 +61,6 @@ else
   [ -n "${sourceRmFiles}" ] && \rm ${sourceRmFiles}
 fi
 
-echo -e "\033[1m$(pwd)\033[0m"
+info "Checkout to: $(pwd)"
 
 }

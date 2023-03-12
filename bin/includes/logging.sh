@@ -13,13 +13,67 @@
 # limitations under the License.
 #
 
-fatal()
-{
-  echo "fatal: $1" 1>&2
+function info() {
+  echo -e "${Color_Off}${IWhite}[${BIBlue}INFO${IWhite}] ${Color_Off}${1}"
+}
+
+function pass() {
+  echo -e "${Color_Off}${IWhite}[${BIGreen}PASS${IWhite}] ${Color_Off}${1}"
+}
+
+function warn() {
+  echo -e "${Color_Off}${IWhite}[${BIYellow}WARN${IWhite}] ${IYellow}${1}${Color_Off}"
+}
+
+function fail() {
+  echo -e "${Color_Off}${IWhite}[${BIRed}FAIL${IWhite}] ${IRed}${1}${Color_Off}"
+}
+
+function fatal() {
+  (
+  echo -e "${Color_Off}"
+  echo -e "${IWhite}[${BIRed}FAIL${IWhite}] ${IYellow}/========================================================================"
+  echo -e "${IWhite}[${BIRed}FAIL${IWhite}] ${IYellow}| ${BIRed} $* ${IYellow}"
+  echo -e "${IWhite}[${BIRed}FAIL${IWhite}] ${IYellow}\\========================================================================"
+  echo -e "${IWhite}[${BIRed}FAIL${IWhite}] ${IYellow}${BIRed} ---------->>> PROCESS WAS ABORTED <<<---------- ${IYellow}"
+  echo -e "${Color_Off}"
+  ) 1>&2
   exit 1
 }
 
-display()
-{
-  echo -e "- $1: \033[1m${!1}\033[0m"
+runlog() {
+  echo -e "${Color_Off}${IWhite}[${BIGreen}RUN ${IWhite}] ${Green}$* ${Color_Off}"
+}
+
+runcommand() {
+  runlog "$*"
+#  echo -e "\033[2m$*\033[0m"
+  bash -c "$*"
+}
+
+function displayMandatory() {
+  displayOptional "$1" "$2" '#@#'
+}
+
+function displayOptional() {
+  local propName=$1
+  local propDefault=$2
+  local propValue=${!propName}
+  if [ -z "$propValue" ];
+  then
+    declare DNAME=DEFAULT_${1}
+    if [ ! -z "${!DNAME}" ];
+    then
+      warn "- $propName: Using default value: \"${propDefault}\""
+    else
+      if [ "${3}" == '#@#' ];
+      then
+        fatal "Setting \"${propName}\" is missing and mandatory"
+#      else
+#        warn "- $propName: Not specified (ignored)"
+      fi
+    fi
+  else
+    info "- $propName: \033[1m${propValue}\033[0m"
+  fi
 }

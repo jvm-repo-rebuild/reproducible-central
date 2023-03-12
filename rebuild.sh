@@ -2,6 +2,7 @@
 
 SCRIPTDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 
+. "${SCRIPTDIR}/bin/includes/bashcolors.sh"
 . "${SCRIPTDIR}/bin/includes/logging.sh"
 
 . "${SCRIPTDIR}/bin/includes/fetchSource.sh"
@@ -20,25 +21,25 @@ then
   fatal "usage: buildspec"
 fi
 
-echo -e "Rebuilding from spec \033[1m${buildspec}\033[0m"
+info "Rebuilding from spec \033[1m${buildspec}\033[0m"
 
 . ${buildspec} || fatal "could not source ${buildspec}"
 
-display "groupId"
-display "artifactId"
-display "version"
+displayMandatory "groupId"
+displayMandatory "artifactId"
+displayMandatory "version"
 if [ -z "${sourceDistribution}" ]
 then
-  display "gitRepo"
-  display "gitTag"
+  displayMandatory "gitRepo"
+  displayMandatory "gitTag"
 else
-  display "sourceDistribution"
+  displayMandatory "sourceDistribution"
 fi
-display "tool"
-display "jdk"
-display "newline"
-display "command"
-display "buildinfo"
+displayMandatory "tool"
+displayMandatory "jdk"
+displayMandatory "newline"
+displayMandatory "command"
+displayMandatory "buildinfo"
 
 base="$SCRIPTDIR"
 

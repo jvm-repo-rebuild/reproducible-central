@@ -21,18 +21,17 @@ rebuildToolGradle() {
       jdkImage="openjdk:11.0.14.1"
   esac
 
-  echo "Rebuilding using Docker image ${jdkImage}"
+  info "Rebuilding using Docker image ${jdkImage}"
 
   [ -d central ] && \rm -rf central
   [ -d repository ] && \rm -rf repository
 
   local docker_command="docker run -it --rm --name rebuild-central -v $PWD:/var/gradle/app -v $PWD:/var/gradle/.m2 -v $base/.sbt:/var/gradle/.sbt -v $base/.bnd:/.bnd -u $(id -u ${USER}):$(id -g ${USER}) -e MAVEN_CONFIG=/var/gradle/.m2 -w /var/gradle/app"
   local gradle_docker_params="-Duser.home=/var/gradle"
-  echo -e "\033[2m${docker_command} ${jdkImage} \033[1m${command} ${gradle_docker_params}\033[0m"
-  ${docker_command} ${jdkImage} ${command} ${gradle_docker_params}
+  runcommand ${docker_command} ${jdkImage} ${command} ${gradle_docker_params}
 
   buildcompare="$(basename ${buildinfo} .buildinfo).buildcompare"
-  echo "computing ${buildinfo} and ${buildcompare}"
+  info "computing ${buildinfo} and ${buildcompare}"
   echo "name=${display}" > ${buildinfo}
   echo "group-id=${groupId}" >> ${buildinfo}
   echo "artifact-id=${artifactId}" >> ${buildinfo}
