@@ -33,7 +33,7 @@ then
         update-java-alternatives -l
       else
         echo -e "${IRed}${On_Black}Setting JDK to version ${JDK}${Color_Off}"
-        sudo update-java-alternatives --set $(update-java-alternatives -l | fgrep "${JDK}" | sed 's@ \+@ @g' | cut -d' ' -f1);
+        sudo update-java-alternatives --set $(update-java-alternatives -l | cut -d' ' -f1 | fgrep "${JDK}." );
         export JAVA_HOME=$(update-java-alternatives -l | fgrep "${JDK}" | sed 's@ \+@ @g' | cut -d' ' -f3);
         export JDK_VERSION="JDK $(javac -version 2>&1 | cut -d' ' -f2)"
       fi
