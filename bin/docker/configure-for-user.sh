@@ -28,18 +28,20 @@ then
   echo "${USER_NAME}    ALL=(ALL) NOPASSWD: ALL" >> "/etc/sudoers.d/${USER_NAME}"
 
 else
-  echo "Ubuntu 22.04 was NOT found, assuming busybox"
+  echo "Ubuntu 22.04 was NOT found..."
 
   # Commandline options vary across the different images.
-  # So we go brutal here: Just do them all and afterwards only verify that one of them worked
+  # So we go brutal here: Just do them all and afterwards hope that one of them worked
 
   # One of these will fail ...
   addgroup --gid "${GROUP_ID}" "maven" > /dev/null 2>&1
   addgroup -g "${GROUP_ID}" "maven"    > /dev/null 2>&1
+  groupadd --non-unique -g "${GROUP_ID}" "${USER_NAME}" > /dev/null 2>&1
 
   # One of these will fail ...
   adduser --uid "${USER_ID}" --gid "${GROUP_ID}"  --shell "/bin/bash" --home "/var/maven" "${USER_NAME}"  > /dev/null 2>&1
   adduser -D -u "${USER_ID}" -G "maven"  --shell "/bin/bash" -h "/var/maven" "${USER_NAME}"               > /dev/null 2>&1
+  useradd -g "${GROUP_ID}" -u "${USER_ID}" -k /root -m "${USER_NAME}" --home-dir "/var/maven"             > /dev/null 2>&1
 
   grep -F "${USER_NAME}" /etc/passwd
   grep -F "maven" /etc/group
