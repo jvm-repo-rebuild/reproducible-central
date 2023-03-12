@@ -54,7 +54,7 @@ mvnBuildDocker() {
       mvnImage=maven:${mvnVersion}-openjdk-${jdk}-slim
       ;;
     *)
-      mvnImage=maven:${mvnVersion}-eclipse-temurin-${jdk}-alpine
+      mvnImage=maven:${mvnVersion}-jdk-${jdk}
   esac
 
   # Second configure it for the local user
