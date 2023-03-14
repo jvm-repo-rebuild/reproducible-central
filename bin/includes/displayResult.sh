@@ -13,7 +13,7 @@ displayResult() {
     info "compared to Central Repository \033[1m$(dirname ${buildspec})/$(basename $f)\033[0m:"
   done
   . ${buildcompare}
-  if [[ ${ko} > 0 ]]
+  if [[ ${ko} -gt 0 ]]
   then
     echo -e "           ok=${ok}"
     echo -e "           okFiles=\"${okFiles}\""

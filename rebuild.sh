@@ -43,7 +43,7 @@ displayMandatory "buildinfo"
 
 base="$SCRIPTDIR"
 
-pushd `dirname ${buildspec}` >/dev/null || fatal "could not move into ${buildspec}"
+pushd "$(dirname ${buildspec})" >/dev/null || fatal "Could not move into ${buildspec}"
 
 fetchSource
 
