@@ -1,0 +1,7 @@
+version=1.14.2
+ok=22
+ko=0
+okFiles="byte-buddy-parent-1.14.2.pom byte-buddy-agent-1.14.2.pom byte-buddy-agent-1.14.2.jar byte-buddy-agent-1.14.2-sources.jar byte-buddy-dep-1.14.2.pom byte-buddy-dep-1.14.2.jar byte-buddy-dep-1.14.2-sources.jar byte-buddy-1.14.2.pom byte-buddy-1.14.2.jar byte-buddy-1.14.2-sources.jar byte-buddy-benchmark-1.14.2.pom byte-buddy-benchmark-1.14.2.jar byte-buddy-benchmark-1.14.2-sources.jar byte-buddy-android-1.14.2.pom byte-buddy-android-1.14.2.jar byte-buddy-android-1.14.2-sources.jar byte-buddy-maven-plugin-1.14.2.pom byte-buddy-maven-plugin-1.14.2.jar byte-buddy-maven-plugin-1.14.2-sources.jar byte-buddy-gradle-plugin-1.14.2.pom byte-buddy-gradle-plugin-1.14.2.jar byte-buddy-gradle-plugin-1.14.2-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
