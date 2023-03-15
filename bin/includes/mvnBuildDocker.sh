@@ -62,15 +62,15 @@ mvnBuildDocker() {
   fi
 
   info "Rebuilding using Docker image ${mvnImage}"
-  local docker_command="docker run -it --rm --name rebuild-central" \
-    "-v $PWD:/var/maven/app" \
-    "-v $base:/var/maven/.m2" \
-    "-v $base/.sbt:/var/maven/.sbt" \
-    "-v $base/.npm:/.npm" \
-    "-v $base/.bnd:/.bnd" \
-    "-u $(id -u ${USER}):$(id -g ${USER})" \
-    "-e MAVEN_CONFIG=/var/maven/.m2" \
-    "-w /var/maven/app"
+  local docker_command="docker run -it --rm --name rebuild-central\
+    -v $PWD:/var/maven/app\
+    -v $base:/var/maven/.m2\
+    -v $base/.sbt:/var/maven/.sbt\
+    -v $base/.npm:/.npm\
+    -v $base/.bnd:/.bnd\
+    -u $(id -u ${USER}):$(id -g ${USER})\
+    -e MAVEN_CONFIG=/var/maven/.m2\
+    -w /var/maven/app"
   local mvn_docker_params="-Duser.home=/var/maven"
   if [[ "${newline}" == crlf* ]]
   then
