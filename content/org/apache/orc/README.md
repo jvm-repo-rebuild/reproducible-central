@@ -23,6 +23,7 @@ rebuilding **3 releases** of org.apache.orc:orc:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.8.3](https://central.sonatype.com/artifact/org.apache.orc/orc/1.8.3/pom) | | | |
 | [1.8.2](https://central.sonatype.com/artifact/org.apache.orc/orc/1.8.2/pom) | [mvn jdk8](orc-1.8.2.buildspec) | [result](orc-1.8.2.buildinfo): [34 :heavy_check_mark:  1 :warning:](orc-1.8.2.buildcompare) [:mag:](orc-1.8.2.diffoscope) | 82M |
 | [1.8.1](https://central.sonatype.com/artifact/org.apache.orc/orc/1.8.1/pom) | [mvn jdk8](orc-1.8.1.buildspec) | [result](orc-1.8.1.buildinfo): [35 :heavy_check_mark: ](orc-1.8.1.buildcompare) | 82M |
 | [1.8.0](https://central.sonatype.com/artifact/org.apache.orc/orc/1.8.0/pom) | | | |

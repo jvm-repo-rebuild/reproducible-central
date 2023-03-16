@@ -13,6 +13,7 @@ rebuilding **3 releases** of org.apache.nifi:nifi-nar-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.5.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi-nar-maven-plugin/1.5.0/pom) | | | |
 | [1.4.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi-nar-maven-plugin/1.4.0/pom) | [mvn jdk8](nifi-nar-maven-plugin-1.4.0.buildspec) | [result](nifi-nar-maven-plugin-1.4.0.buildinfo): [4 :heavy_check_mark: ](nifi-nar-maven-plugin-1.4.0.buildcompare) | 188K |
 | [1.3.5](https://central.sonatype.com/artifact/org.apache.nifi/nifi-nar-maven-plugin/1.3.5/pom) | [mvn jdk8](nifi-nar-maven-plugin-1.3.5.buildspec) | [result](nifi-nar-maven-plugin-1.3.5.buildinfo): [4 :heavy_check_mark: ](nifi-nar-maven-plugin-1.3.5.buildcompare) | 177K |
 | [1.3.4](https://central.sonatype.com/artifact/org.apache.nifi/nifi-nar-maven-plugin/1.3.4/pom) | [mvn jdk8](nifi-nar-maven-plugin-1.3.4.buildspec) | [result](nifi-nar-maven-plugin-1.3.4.buildinfo): [4 :heavy_check_mark: ](nifi-nar-maven-plugin-1.3.4.buildcompare) | 176K |
