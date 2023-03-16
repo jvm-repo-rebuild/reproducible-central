@@ -3,7 +3,7 @@
 +++ target/jackson-core-2.14.0-rc2.jar
 │┄ Archive contents identical but files differ, possibly due to different compression levels. Falling back to binary comparison.
 # ???
-# probably caused by moditect-maven-plugin:1.0.0.RC2:add-module-info
+# probably caused by moditect-maven-plugin:1.0.0.RC2:add-module-info: https://github.com/moditect/moditect/issues/185
 
 # module.json difference is just a consequence of previous issue on .jar
 2 /        2 target/reference/jackson-core-2.14.0-rc2.module target/publications/maven/module.json
