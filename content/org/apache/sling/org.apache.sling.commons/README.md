@@ -4,6 +4,7 @@ rebuilding **0 releases** of org.apache.sling:org.apache.sling.resourcemerger:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.4.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourcemerger/1.4.2/pom) | | | |
 | [1.4.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourcemerger/1.4.0/pom) | | | |
 | [1.3.10](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourcemerger/1.3.10/pom) | | | |
 | [1.3.8](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourcemerger/1.3.8/pom) | | | |
