@@ -50,6 +50,7 @@ rebuilding **34 releases** of io.dropwizard.metrics:metrics-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.2.18](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.18/pom) | | | |
 | [4.2.17](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.17/pom) | | | |
 | [4.2.16](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.16/pom) | | | |
 | [4.2.15](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.15/pom) | | | |
