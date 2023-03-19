@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Resource Merger
+group-id=org.apache.sling
+artifact-id=org.apache.sling.resourcemerger
+version=1.4.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-resourcemerger.git
+source.scm.tag=org.apache.sling.resourcemerger-1.4.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.resourcemerger-1.4.2.pom
+outputs.0.length=5629
+outputs.0.checksums.sha512=9f947a59433d7e23bee8f98ad76b9456f13ad3526f6a260dc41b7d56a271e919c7610e1806a7a597ef769a57ae6fc11ae3f5d2e41f70e0fe7461d7c75fe8787c
+
+outputs.1.filename=org.apache.sling.resourcemerger-1.4.2.jar
+outputs.1.length=50152
+outputs.1.checksums.sha512=7f8d47e9234207010ecf7158ad8bc643576ccd6aaf6edcda27af06068f6f08db346e70d1c226401463dace7a0ff2a1c1e17decd41d9823d727b32ecad360118c
+
+outputs.2.filename=org.apache.sling.resourcemerger-1.4.2-source-release.zip
+outputs.2.length=60702
+outputs.2.checksums.sha512=1388b4397b3ee2b3a6cd9a87996d5c1e547ca15d961a6afc6d30380238de9eab5fb058e3c97c71d1c6a195811849d44d2165895181b1b8196ee0e26c2f39dced
+
+outputs.3.filename=org.apache.sling.resourcemerger-1.4.2-sources.jar
+outputs.3.length=38547
+outputs.3.checksums.sha512=1cfc6933fbd8dbd4c054dd36bf94841d657d7f61e260ced6c19c0d5bd1111b3fad8a156d9724cb70497b2c3f9988e55b5de832cde3f9e37afa36e7cded1339fb
+
+outputs.4.filename=org.apache.sling.resourcemerger-1.4.2-sources.jar
+outputs.4.length=38547
+outputs.4.checksums.sha512=1cfc6933fbd8dbd4c054dd36bf94841d657d7f61e260ced6c19c0d5bd1111b3fad8a156d9724cb70497b2c3f9988e55b5de832cde3f9e37afa36e7cded1339fb
