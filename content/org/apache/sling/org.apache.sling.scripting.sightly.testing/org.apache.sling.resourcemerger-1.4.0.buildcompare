@@ -1,7 +1,0 @@
-version=1.4.0
-ok=4
-ko=0
-okFiles="org.apache.sling.resourcemerger-1.4.0.pom org.apache.sling.resourcemerger-1.4.0.jar org.apache.sling.resourcemerger-1.4.0-source-release.zip org.apache.sling.resourcemerger-1.4.0-sources.jar"
-koFiles=""
-reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
-reference_os_name="Unix (from pom.properties newline)"

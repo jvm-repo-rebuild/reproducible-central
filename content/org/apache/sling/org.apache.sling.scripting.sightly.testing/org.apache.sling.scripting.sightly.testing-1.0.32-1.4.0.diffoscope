@@ -1,0 +1,53 @@
+1 / 1 target/reference/org.apache.sling.scripting.sightly.testing-1.0.32-1.4.0.jar target/org.apache.sling.scripting.sightly.testing-1.0.32-1.4.0.jar
+--- target/reference/org.apache.sling.scripting.sightly.testing-1.0.32-1.4.0.jar
++++ target/org.apache.sling.scripting.sightly.testing-1.0.32-1.4.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 24374 bytes, number of entries: 39
+│ +Zip file size: 24376 bytes, number of entries: 39
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 16:01 META-INF/
+│  -rw-r--r--  2.0 unx     3926 b- defN 22-Aug-08 16:01 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 16:01 javax.script/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 16:01 javax.script/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 16:01 javax.script/org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 16:01 javax.script/org/apache/sling/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Aug-08 16:01 javax.script/org/apache/sling/scripting/
+│ @@ -34,8 +34,8 @@
+│  -rw-r--r--  2.0 unx     1042 b- defN 22-Aug-08 16:01 org/apache/sling/scripting/sightly/testing/precompiled/models/impl/InternalTestModel.class
+│  -rw-r--r--  2.0 unx      273 b- defN 22-Aug-08 16:01 org/apache/sling/scripting/sightly/testing/precompiled/models/package-info.class
+│  -rw-r--r--  2.0 unx     7532 b- defN 22-Aug-08 16:01 org/apache/sling/scripting/sightly/testing/precompiled/precompiled__002e__html.class
+│  -rw-r--r--  2.0 unx     2142 b- defN 22-Aug-08 16:01 org/apache/sling/scripting/sightly/testing/precompiled/templates__002d__access__002d__control/partials/include__002e__html.class
+│  -rw-r--r--  2.0 unx     1858 b- defN 22-Aug-08 16:01 org/apache/sling/scripting/sightly/testing/precompiled/templates__002d__access__002d__control/templates__002d__access__002d__control__002e__html.class
+│  -rw-r--r--  2.0 unx    20729 b- defN 22-Aug-08 16:01 META-INF/maven/org.apache.sling/org.apache.sling.scripting.sightly.testing/pom.xml
+│  -rw-r--r--  2.0 unx      100 b- defN 22-Aug-08 16:01 META-INF/maven/org.apache.sling/org.apache.sling.scripting.sightly.testing/pom.properties
+│ -39 files, 54539 bytes uncompressed, 17126 bytes compressed:  68.6%
+│ +39 files, 54539 bytes uncompressed, 17128 bytes compressed:  68.6%
+├── META-INF/MANIFEST.MF
+│ @@ -40,20 +40,20 @@
+│  Private-Package: org.apache.sling.scripting.sightly.testing.precompiled,
+│   org.apache.sling.scripting.sightly.testing.precompiled.models.impl,org.
+│   apache.sling.scripting.sightly.testing.precompiled.templates__002d__acc
+│   ess__002d__control.partials,org.apache.sling.scripting.sightly.testing.
+│   precompiled.templates__002d__access__002d__control
+│  Provide-Capability: sling.servlet;sling.servlet.resourceTypes:List<Strin
+│   g>="org/apache/sling/scripting/sightly/testing/precompiled";scriptEngin
+│ - e=rhino;scriptExtension=ecma;sling.servlet.selectors:List<String>=scrip
+│ - t,sling.servlet;sling.servlet.resourceTypes:List<String>="org/apache/sl
+│ - ing/scripting/sightly/testing/precompiled";scriptEngine=rhino;scriptExt
+│ - ension=js;sling.servlet.selectors:List<String>=script,sling.servlet;sli
+│ - ng.servlet.resourceTypes:List<String>="org/apache/sling/scripting/sight
+│ - ly/testing/precompiled";scriptEngine=htl;scriptExtension=html,sling.ser
+│ + e=htl;scriptExtension=html,sling.servlet;sling.servlet.resourceTypes:Li
+│ + st<String>="org/apache/sling/scripting/sightly/testing/precompiled";scr
+│ + iptEngine=rhino;scriptExtension=js;sling.servlet.selectors:List<String>
+│ + =script,sling.servlet;sling.servlet.resourceTypes:List<String>="org/apa
+│ + che/sling/scripting/sightly/testing/precompiled";scriptEngine=rhino;scr
+│ + iptExtension=ecma;sling.servlet.selectors:List<String>=script,sling.ser
+│   vlet;sling.servlet.resourceTypes:List<String>="org/apache/sling/scripti
+│   ng/sightly/testing/precompiled/templates-access-control";scriptEngine=h
+│   tl;scriptExtension=html,sling.servlet;sling.servlet.resourceTypes:List<
+│   String>="org/apache/sling/scripting/sightly/testing/precompiled/templat
+│   es-access-control";scriptEngine=htl;scriptExtension=html;sling.servlet.
+│   selectors:List<String>="partials,include"
+│  Require-Capability: osgi.extender;filter:="(&(osgi.extender=sling.script
+
