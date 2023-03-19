@@ -61,7 +61,7 @@ mvnBuildDocker() {
     done
   fi
 
-  info "Rebuilding using Docker image ${mvnImage}"
+  info "Rebuilding using Docker image \033[1m${mvnImage}\033[0m"
   local docker_command="docker run -it --rm --name rebuild-central\
     -v $PWD:/var/maven/app\
     -v $base:/var/maven/.m2\
