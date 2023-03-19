@@ -1,0 +1,5 @@
+version=74
+ok=4
+ko=0
+okFiles="mojo-parent-74.pom mojo-parent-74-site.xml mojo-parent-74-config.jar mojo-parent-74-source-release.zip"
+koFiles=""
