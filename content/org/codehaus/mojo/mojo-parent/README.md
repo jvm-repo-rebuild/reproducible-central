@@ -1,19 +1,19 @@
-[org.codehaus.mojo:mojo-parent](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/73/versions) RB check
+[org.codehaus.mojo:mojo-parent](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/74/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.codehaus.mojo:mojo-parent](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/73/versions)
+## Project: [org.codehaus.mojo:mojo-parent](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/74/versions)
 
 Source code: [https://github.com/mojohaus/mojo-parent.git](https://github.com/mojohaus/mojo-parent.git)
 
-rebuilding **13 releases** of org.codehaus.mojo:mojo-parent:
-- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **14 releases** of org.codehaus.mojo:mojo-parent:
+- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [74](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/74/pom) | | | |
+| [74](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/74/pom) | [mvn jdk8](mojo-parent-74.buildspec) | [result](mojo-parent-74.buildinfo): [4 :heavy_check_mark: ](mojo-parent-74.buildcompare) | 58K |
 | [73](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/73/pom) | [mvn jdk11](mojo-parent-73.buildspec) | [result](mojo-parent-73.buildinfo): [4 :heavy_check_mark: ](mojo-parent-73.buildcompare) | 58K |
 | [72](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/72/pom) | [mvn jdk8](mojo-parent-72.buildspec) | [result](mojo-parent-72.buildinfo): [4 :heavy_check_mark: ](mojo-parent-72.buildcompare) | 56K |
 | [71](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/71/pom) | [mvn jdk8](mojo-parent-71.buildspec) | [result](mojo-parent-71.buildinfo): [4 :heavy_check_mark: ](mojo-parent-71.buildcompare) | 55K |
