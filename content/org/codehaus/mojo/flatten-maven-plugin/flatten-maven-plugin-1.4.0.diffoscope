@@ -1,0 +1,31 @@
+1 / 1 target/reference/flatten-maven-plugin-1.4.0.jar target/flatten-maven-plugin-1.4.0.jar
+--- target/reference/flatten-maven-plugin-1.4.0.jar
++++ target/flatten-maven-plugin-1.4.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 119830 bytes, number of entries: 92
+│ +Zip file size: 119831 bytes, number of entries: 92
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Mar-19 08:17 META-INF/
+│  -rw-r--r--  2.0 unx       81 b- defN 23-Mar-19 08:17 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Mar-19 08:17 META-INF/m2e/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Mar-19 08:17 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Mar-19 08:17 META-INF/maven/org.codehaus.mojo/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Mar-19 08:17 META-INF/maven/org.codehaus.mojo/flatten-maven-plugin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Mar-19 08:17 META-INF/sisu/
+│ @@ -87,8 +87,8 @@
+│  -rw-r--r--  2.0 unx    12292 b- defN 23-Mar-19 08:17 org/codehaus/mojo/flatten/cifriendly/CiModelInterpolator.class
+│  -rw-r--r--  2.0 unx     6871 b- defN 23-Mar-19 08:17 org/codehaus/mojo/flatten/model/resolution/FlattenModelResolver.class
+│  -rw-r--r--  2.0 unx     1202 b- defN 23-Mar-19 08:17 org/codehaus/mojo/flatten/model/resolution/ReactorModelPool$Coordinates.class
+│  -rw-r--r--  2.0 unx     2639 b- defN 23-Mar-19 08:17 org/codehaus/mojo/flatten/model/resolution/ReactorModelPool.class
+│  -rw-r--r--  2.0 unx    11170 b- defN 23-Mar-19 08:17 org/codehaus/mojo/flatten_maven_plugin/HelpMojo.class
+│  -rw-r--r--  2.0 unx    10520 b- defN 23-Mar-19 08:17 META-INF/maven/org.codehaus.mojo/flatten-maven-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       72 b- defN 23-Mar-19 08:17 META-INF/maven/org.codehaus.mojo/flatten-maven-plugin/pom.properties
+│ -92 files, 268077 bytes uncompressed, 103288 bytes compressed:  61.5%
+│ +92 files, 268077 bytes uncompressed, 103289 bytes compressed:  61.5%
+├── META-INF/sisu/javax.inject.Named
+│ @@ -1,3 +1,3 @@
+│ -org.codehaus.mojo.flatten.DirectDependenciesInheritanceAssembler
+│  org.codehaus.mojo.flatten.cifriendly.CiModelInterpolator
+│ +org.codehaus.mojo.flatten.DirectDependenciesInheritanceAssembler
+│  org.codehaus.mojo.flatten.ModelBuilderThreadSafetyWorkaround
+
