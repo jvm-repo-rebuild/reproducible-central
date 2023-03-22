@@ -13,6 +13,7 @@ rebuilding **11 releases** of org.apache.maven.plugins:maven-site-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.0.0-M6](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-site-plugin/4.0.0-M6/pom) | | | |
 | [4.0.0-M5](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-site-plugin/4.0.0-M5/pom) | [mvn jdk8 w](maven-site-plugin-4.0.0-M5.buildspec) | [result](maven-site-plugin-4.0.0-M5.buildinfo): [4 :heavy_check_mark: ](maven-site-plugin-4.0.0-M5.buildcompare) | 1.3M |
 | [4.0.0-M4](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-site-plugin/4.0.0-M4/pom) | [mvn jdk8 w](maven-site-plugin-4.0.0-M4.buildspec) | [result](maven-site-plugin-4.0.0-M4.buildinfo): [4 :heavy_check_mark: ](maven-site-plugin-4.0.0-M4.buildcompare) | 1.3M |
 | [4.0.0-M3](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-site-plugin/4.0.0-M3/pom) | [mvn jdk8 w](maven-site-plugin-4.0.0-M3.buildspec) | [result](maven-site-plugin-4.0.0-M3.buildinfo): [4 :heavy_check_mark: ](maven-site-plugin-4.0.0-M3.buildcompare) | 1.3M |

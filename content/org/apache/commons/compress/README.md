@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.apache.commons:commons-compress:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.23.0](https://central.sonatype.com/artifact/org.apache.commons/commons-compress/1.23.0/pom) | | | |
 | [1.22](https://central.sonatype.com/artifact/org.apache.commons/commons-compress/1.22/pom) | [mvn jdk8](commons-compress-1.22.buildspec) | [result](commons-compress-1.22.buildinfo): [3 :heavy_check_mark:  2 :warning:](commons-compress-1.22.buildcompare) [:mag:](commons-compress-1.22.diffoscope) | 93M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
