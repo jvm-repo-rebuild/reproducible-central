@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=jacoco-report-maven-plugin
+group-id=com.github.veithen.maven
+artifact-id=jacoco-report-maven-plugin
+version=0.4.0
+
+# source information
+source.scm.uri=scm:git:http://github.com/veithen/jacoco-report-maven-plugin.git
+source.scm.tag=0.4.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=jacoco-report-maven-plugin-0.4.0.pom
+outputs.0.length=17212
+outputs.0.checksums.sha512=c375afe76286e543e7b36dc708f3a956bac0b84056d5c944754ae57befa715c43eb7cdf9f0b2b02623f199b2beaa86517250bd194ea8c7e91f52c503922290c9
+
+outputs.1.filename=jacoco-report-maven-plugin-0.4.0.jar
+outputs.1.length=53979
+outputs.1.checksums.sha512=32d95d38646d271726d59949bf74b5deedfe51bf051a58d70dbf0838f4e04cbd66adc60de093214026933370e9134175784cd04ead98ac9151690f294a529b19
+
+outputs.2.filename=jacoco-report-maven-plugin-0.4.0-sources.jar
+outputs.2.length=38725
+outputs.2.checksums.sha512=5db0230ae623b586d57470246df0667cd1cb45ec1f5fd4af7de60c649c2c19207cd9b8148503b9c573ee4bef9f729b2bcd9fb870d34ffcda29037505816442ef
+
+outputs.3.filename=jacoco-report-maven-plugin-0.4.0-source-release.zip
+outputs.3.length=73168
+outputs.3.checksums.sha512=db41e63764993d3975abefbc52b338640f5fa66310f6052244e2c67a318597d2625d6a73340ddbc5187e9bbbb044d19b211df84ecb3aea4acd2a07aa4c173306

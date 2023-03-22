@@ -1,0 +1,7 @@
+version=0.4.0
+ok=4
+ko=0
+okFiles="jacoco-report-maven-plugin-0.4.0.pom jacoco-report-maven-plugin-0.4.0.jar jacoco-report-maven-plugin-0.4.0-sources.jar jacoco-report-maven-plugin-0.4.0-source-release.zip"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
