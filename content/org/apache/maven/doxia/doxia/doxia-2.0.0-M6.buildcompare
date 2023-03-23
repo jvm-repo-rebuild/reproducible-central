@@ -1,0 +1,7 @@
+version=2.0.0-M6
+ok=30
+ko=0
+okFiles="doxia-2.0.0-M6.pom doxia-2.0.0-M6-site.xml doxia-2.0.0-M6-source-release.zip doxia-sink-api-2.0.0-M6.pom doxia-sink-api-2.0.0-M6.jar doxia-sink-api-2.0.0-M6-sources.jar doxia-test-docs-2.0.0-M6.pom doxia-test-docs-2.0.0-M6.jar doxia-test-docs-2.0.0-M6-sources.jar doxia-core-2.0.0-M6.pom doxia-core-2.0.0-M6.jar doxia-core-2.0.0-M6-sources.jar doxia-core-2.0.0-M6-tests.jar doxia-modules-2.0.0-M6.pom doxia-modules-2.0.0-M6-site.xml doxia-module-apt-2.0.0-M6.pom doxia-module-apt-2.0.0-M6.jar doxia-module-apt-2.0.0-M6-sources.jar doxia-module-fml-2.0.0-M6.pom doxia-module-fml-2.0.0-M6.jar doxia-module-fml-2.0.0-M6-sources.jar doxia-module-xdoc-2.0.0-M6.pom doxia-module-xdoc-2.0.0-M6.jar doxia-module-xdoc-2.0.0-M6-sources.jar doxia-module-xhtml5-2.0.0-M6.pom doxia-module-xhtml5-2.0.0-M6.jar doxia-module-xhtml5-2.0.0-M6-sources.jar doxia-module-markdown-2.0.0-M6.pom doxia-module-markdown-2.0.0-M6.jar doxia-module-markdown-2.0.0-M6-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
