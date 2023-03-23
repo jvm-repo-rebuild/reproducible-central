@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons Compress
+group-id=org.apache.commons
+artifact-id=commons-compress
+version=1.23.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-compress.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=commons-compress-1.23.0.pom
+outputs.0.length=21858
+outputs.0.checksums.sha512=4640bcaa1c6046f884241c4e48f34848db18ec82987da52f3f74c6b8bfe0d27cb74f290b9b499db48e8e7adced4d86d23b833479df27843b0707a3c5c6e219a4
+
+outputs.1.filename=commons-compress-1.23.0.jar
+outputs.1.length=1062541
+outputs.1.checksums.sha512=fbf45b3096ac568acb4223dbbfca7f7e006c5e70482b0c3fe025acc80013ccc5b2af20843bf8d150738d6ee2ab6ea798296e7e7bf40eff19a8bbfede4d9a94f2
+
+outputs.2.filename=commons-compress-1.23.0-tests.jar
+outputs.2.length=47564862
+outputs.2.checksums.sha512=ac4701e6890016e00c71fe2403fbfa88f9d746c718a8d5df6b2eb30060934bdd4e0597d66f656b47a1917390380c384d7b79b7e4c7f5c48a9242cd47e7b0b35e
+
+outputs.3.filename=commons-compress-1.23.0-sources.jar
+outputs.3.length=904421
+outputs.3.checksums.sha512=aa5fadb2d0b2454ef0fc04552178bc3d2b27828968129f93fb2b7cebe609e9a11e59624bf1d5b27568f3b8602eef2cb9f6d0ec544740ca32c9f381f73aad9121
+
+outputs.4.filename=commons-compress-1.23.0-test-sources.jar
+outputs.4.length=47249461
+outputs.4.checksums.sha512=78ad9e0d7e50de37110dd1d2b5f59bbba3762275502051d27154e58e68bd17f87fd7e1bef28ef3ff382a8008de4ea13bd6a449d26f412e1ee6cbb49241950c3d

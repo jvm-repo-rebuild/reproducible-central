@@ -1,0 +1,9 @@
+version=1.23.0
+ok=3
+ko=2
+okFiles="commons-compress-1.23.0.pom commons-compress-1.23.0-sources.jar commons-compress-1.23.0-test-sources.jar"
+koFiles="commons-compress-1.23.0.jar commons-compress-1.23.0-tests.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/commons-compress-1.23.0.jar target/commons-compress-1.23.0.jar
+# diffoscope target/reference/commons-compress-1.23.0-tests.jar target/commons-compress-1.23.0-tests.jar

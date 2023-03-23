@@ -1,0 +1,92 @@
+1 / 2 target/reference/commons-compress-1.23.0.jar target/commons-compress-1.23.0.jar
+--- target/reference/commons-compress-1.23.0.jar
++++ target/commons-compress-1.23.0.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 1062555 bytes, number of entries: 614
+│ +Zip file size: 1062541 bytes, number of entries: 614
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 16:12 META-INF/
+│ --rw-r--r--  2.0 unx     4120 b- defN 22-Dec-30 16:12 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx     4059 b- defN 22-Dec-30 16:12 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 16:12 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 16:12 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 16:12 org/apache/commons/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 16:12 org/apache/commons/compress/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 16:12 org/apache/commons/compress/archivers/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 16:12 org/apache/commons/compress/archivers/ar/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 16:12 org/apache/commons/compress/archivers/arj/
+│ @@ -609,8 +609,8 @@
+│  -rw-r--r--  2.0 unx     2687 b- defN 22-Dec-30 16:12 org/apache/commons/compress/utils/ServiceLoaderIterator.class
+│  -rw-r--r--  2.0 unx      879 b- defN 22-Dec-30 16:12 org/apache/commons/compress/utils/Sets.class
+│  -rw-r--r--  2.0 unx      871 b- defN 22-Dec-30 16:12 org/apache/commons/compress/utils/SkipShieldingInputStream.class
+│  -rw-r--r--  2.0 unx     3262 b- defN 22-Dec-30 16:12 org/apache/commons/compress/utils/TimeUtils.class
+│  -rw-r--r--  2.0 unx      139 b- defN 22-Dec-30 16:12 org/apache/commons/compress/utils/package-info.class
+│  -rw-r--r--  2.0 unx    21858 b- defN 22-Dec-30 16:12 META-INF/maven/org.apache.commons/commons-compress/pom.xml
+│  -rw-r--r--  2.0 unx       70 b- defN 22-Dec-30 16:12 META-INF/maven/org.apache.commons/commons-compress/pom.properties
+│ -614 files, 2132161 bytes uncompressed, 931907 bytes compressed:  56.3%
+│ +614 files, 2132100 bytes uncompressed, 931893 bytes compressed:  56.3%
+├── META-INF/MANIFEST.MF
+│ @@ -57,16 +57,14 @@
+│  Automatic-Module-Name: org.apache.commons.compress
+│  Implementation-Version: 1.23.0
+│  Specification-Vendor: The Apache Software Foundation
+│  Bundle-ManifestVersion: 2
+│  Bundle-Vendor: The Apache Software Foundation
+│  Tool: Bnd-6.4.0.202211291949
+│  Implementation-Vendor: The Apache Software Foundation
+│ -Originally-Created-By: Apache Maven Bundle Plugin 5.1.8
+│  Bundle-Version: 1.23.0
+│  X-Compile-Target-JDK: 1.8
+│ -Implementation-Build: release@r${buildNumber}; 2023-03-18 17:42:20+000
+│ - 0
+│ +Implementation-Build: UNKNOWN_BRANCH@r??????; 2023-03-23 06:58:35+0000
+│  X-Compile-Source-JDK: 1.8
+│  Created-By: Apache Maven Bundle Plugin 5.1.8
+│  Specification-Version: 1.23.0
+
+2 / 2 target/reference/commons-compress-1.23.0-tests.jar target/commons-compress-1.23.0-tests.jar
+--- target/reference/commons-compress-1.23.0-tests.jar
++++ target/commons-compress-1.23.0-tests.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 47564876 bytes, number of entries: 701
+│ +Zip file size: 47564862 bytes, number of entries: 701
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 16:12 META-INF/
+│ --rw-r--r--  2.0 unx     4120 b- defN 22-Dec-30 16:12 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx     4059 b- defN 22-Dec-30 16:12 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 16:12 COMPRESS-320/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 16:12 COMPRESS-380/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 16:12 COMPRESS-477/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 16:12 COMPRESS-477/split_zip_created_by_winrar/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 16:12 COMPRESS-477/split_zip_created_by_zip/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 16:12 COMPRESS-490/
+│  drwxr-xr-x  2.0 unx        0 b- stor 22-Dec-30 16:12 COMPRESS-612/
+│ @@ -696,8 +696,8 @@
+│  -rw-r--r--  2.0 unx  3931934 b- defN 22-Dec-30 16:12 zip64support.tar.bz2
+│  -rw-r--r--  2.0 unx    18348 b- defN 22-Dec-30 16:12 zipbomb.xlsx
+│  -rw-r--r--  2.0 unx       97 b- defN 22-Dec-30 16:12 zstandard.testdata
+│  -rw-r--r--  2.0 unx       94 b- defN 22-Dec-30 16:12 zstandard.testdata.zst
+│  -rw-r--r--  2.0 unx    10240 b- defN 22-Dec-30 16:12 zstd-tests.tar
+│  -rw-r--r--  2.0 unx    21858 b- defN 22-Dec-30 16:12 META-INF/maven/org.apache.commons/commons-compress/pom.xml
+│  -rw-r--r--  2.0 unx       70 b- defN 22-Dec-30 16:12 META-INF/maven/org.apache.commons/commons-compress/pom.properties
+│ -701 files, 73850392 bytes uncompressed, 47445266 bytes compressed:  35.8%
+│ +701 files, 73850331 bytes uncompressed, 47445252 bytes compressed:  35.8%
+├── META-INF/MANIFEST.MF
+│ @@ -57,16 +57,14 @@
+│  Automatic-Module-Name: org.apache.commons.compress
+│  Implementation-Version: 1.23.0
+│  Specification-Vendor: The Apache Software Foundation
+│  Bundle-ManifestVersion: 2
+│  Bundle-Vendor: The Apache Software Foundation
+│  Tool: Bnd-6.4.0.202211291949
+│  Implementation-Vendor: The Apache Software Foundation
+│ -Originally-Created-By: Apache Maven Bundle Plugin 5.1.8
+│  Bundle-Version: 1.23.0
+│  X-Compile-Target-JDK: 1.8
+│ -Implementation-Build: release@r${buildNumber}; 2023-03-18 17:42:20+000
+│ - 0
+│ +Implementation-Build: UNKNOWN_BRANCH@r??????; 2023-03-23 06:58:35+0000
+│  X-Compile-Source-JDK: 1.8
+│  Created-By: Apache Maven Bundle Plugin 5.1.8
+│  Specification-Version: 1.23.0
+
