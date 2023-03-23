@@ -1,0 +1,7 @@
+version=4.0.0-M5
+ok=4
+ko=0
+okFiles="maven-reporting-api-4.0.0-M5.pom maven-reporting-api-4.0.0-M5.jar maven-reporting-api-4.0.0-M5-source-release.zip maven-reporting-api-4.0.0-M5-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
