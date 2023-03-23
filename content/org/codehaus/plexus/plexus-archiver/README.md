@@ -1,19 +1,19 @@
-[org.codehaus.plexus:plexus-archiver](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-archiver/4.6.2/versions) RB check
+[org.codehaus.plexus:plexus-archiver](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-archiver/4.6.3/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.codehaus.plexus:plexus-archiver](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-archiver/4.6.2/versions)
+## Project: [org.codehaus.plexus:plexus-archiver](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-archiver/4.6.3/versions)
 
 Source code: [https://github.com/codehaus-plexus/plexus-archiver.git](https://github.com/codehaus-plexus/plexus-archiver.git)
 
-rebuilding **12 releases** of org.codehaus.plexus:plexus-archiver:
-- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **13 releases** of org.codehaus.plexus:plexus-archiver:
+- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.6.3](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-archiver/4.6.3/pom) | | | |
+| [4.6.3](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-archiver/4.6.3/pom) | [mvn jdk8](plexus-archiver-4.6.3.buildspec) | [result](plexus-archiver-4.6.3.buildinfo): [4 :heavy_check_mark: ](plexus-archiver-4.6.3.buildcompare) | 1.5M |
 | [4.6.2](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-archiver/4.6.2/pom) | [mvn jdk8](plexus-archiver-4.6.2.buildspec) | [result](plexus-archiver-4.6.2.buildinfo): [4 :heavy_check_mark: ](plexus-archiver-4.6.2.buildcompare) | 1.5M |
 | [4.6.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-archiver/4.6.1/pom) | [mvn jdk19](plexus-archiver-4.6.1.buildspec) | [result](plexus-archiver-4.6.1.buildinfo): [4 :heavy_check_mark: ](plexus-archiver-4.6.1.buildcompare) | 1.5M |
 | [4.6.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-archiver/4.6.0/pom) | [mvn jdk11](plexus-archiver-4.6.0.buildspec) | [result](plexus-archiver-4.6.0.buildinfo): [4 :heavy_check_mark: ](plexus-archiver-4.6.0.buildcompare) | 1.5M |

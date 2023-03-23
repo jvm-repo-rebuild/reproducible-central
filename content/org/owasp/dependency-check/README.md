@@ -1,30 +1,31 @@
-[org.owasp:dependency-check-parent](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/8.1.2/versions) RB check
+[org.owasp:dependency-check-parent](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/8.2.0/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.owasp:dependency-check-parent](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/8.1.2/versions)
+## Project: [org.owasp:dependency-check-parent](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/8.2.0/versions)
 
 Source code: [https://github.com/jeremylong/DependencyCheck](https://github.com/jeremylong/DependencyCheck)
 
 <details><summary>This project defines 7 modules:</summary>
 
-* [org.owasp:dependency-check-ant](https://central.sonatype.com/artifact/org.owasp/dependency-check-ant/8.1.2)
-* [org.owasp:dependency-check-cli](https://central.sonatype.com/artifact/org.owasp/dependency-check-cli/8.1.2)
-* [org.owasp:dependency-check-core](https://central.sonatype.com/artifact/org.owasp/dependency-check-core/8.1.2)
-* [org.owasp:dependency-check-maven](https://central.sonatype.com/artifact/org.owasp/dependency-check-maven/8.1.2)
-* [org.owasp:dependency-check-parent](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/8.1.2)
-* [org.owasp:dependency-check-plugin](https://central.sonatype.com/artifact/org.owasp/dependency-check-plugin/8.1.2)
-* [org.owasp:dependency-check-utils](https://central.sonatype.com/artifact/org.owasp/dependency-check-utils/8.1.2)
+* [org.owasp:dependency-check-ant](https://central.sonatype.com/artifact/org.owasp/dependency-check-ant/8.2.0)
+* [org.owasp:dependency-check-cli](https://central.sonatype.com/artifact/org.owasp/dependency-check-cli/8.2.0)
+* [org.owasp:dependency-check-core](https://central.sonatype.com/artifact/org.owasp/dependency-check-core/8.2.0)
+* [org.owasp:dependency-check-maven](https://central.sonatype.com/artifact/org.owasp/dependency-check-maven/8.2.0)
+* [org.owasp:dependency-check-parent](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/8.2.0)
+* [org.owasp:dependency-check-plugin](https://central.sonatype.com/artifact/org.owasp/dependency-check-plugin/8.2.0)
+* [org.owasp:dependency-check-utils](https://central.sonatype.com/artifact/org.owasp/dependency-check-utils/8.2.0)
 </details>
 
-rebuilding **15 releases** of org.owasp:dependency-check-parent:
-- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **16 releases** of org.owasp:dependency-check-parent:
+- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [8.2.0](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/8.2.0/pom) | | | |
+| [8.2.1](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/8.2.1/pom) | | | |
+| [8.2.0](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/8.2.0/pom) | [mvn jdk8](dependency-check-8.2.0.buildspec) | [result](dependency-check-parent-8.2.0.buildinfo): [22 :heavy_check_mark: ](dependency-check-parent-8.2.0.buildcompare) | 59M |
 | [8.1.2](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/8.1.2/pom) | [mvn jdk8](dependency-check-8.1.2.buildspec) | [result](dependency-check-parent-8.1.2.buildinfo): [22 :heavy_check_mark: ](dependency-check-parent-8.1.2.buildcompare) | 59M |
 | [8.1.1](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/8.1.1/pom) | [mvn jdk8](dependency-check-8.1.1.buildspec) | [result](dependency-check-parent-8.1.1.buildinfo): [22 :heavy_check_mark: ](dependency-check-parent-8.1.1.buildcompare) | 59M |
 | [8.1.0](https://central.sonatype.com/artifact/org.owasp/dependency-check-parent/8.1.0/pom) | [mvn jdk8](dependency-check-8.1.0.buildspec) | [result](dependency-check-parent-8.1.0.buildinfo): [22 :heavy_check_mark: ](dependency-check-parent-8.1.0.buildcompare) | 59M |
