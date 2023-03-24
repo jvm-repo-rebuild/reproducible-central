@@ -1,0 +1,43 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=whitespace-maven-plugin Maven Mojo
+group-id=com.github.hazendaz.maven
+artifact-id=whitespace-maven-plugin
+version=1.2.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:hazendaz/whitespace-maven-plugin.git
+source.scm.tag=whitespace-maven-plugin-1.2.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.3.9
+
+# output
+
+outputs.0.filename=whitespace-maven-plugin-1.2.0.pom
+outputs.0.length=8538
+outputs.0.checksums.sha512=aabc3fc319f0794ee03487fb6eff58d23e0cf59492c1cf2b99189628c909e5f805e28bfe4edd1361a31e5176596ebf535ced36bb91d10aa127825f4779333210
+
+outputs.1.filename=whitespace-maven-plugin-1.2.0.jar
+outputs.1.length=18434
+outputs.1.checksums.sha512=12bb5055f22bdfe9ffed168cd16deabaab4dde85be1b3a46b4f160625722ab96e797fad41f2a375ef8e9b5a5fb9f8d724c89e56ddcbd50dd17d25abfa6aa85c0
+
+outputs.2.filename=whitespace-maven-plugin-1.2.0-tests.jar
+outputs.2.length=7807
+outputs.2.checksums.sha512=2fc3310f40ff92f591826c2d4577396ae282d8e06757a4502e7941e1be3bfda3717fc70bb514497c700104d4554654ef7aa9c116f1438824522b084704c754fd
+
+outputs.3.filename=whitespace-maven-plugin-1.2.0-sources.jar
+outputs.3.length=12793
+outputs.3.checksums.sha512=fc4f2aac25c087b813108780d9b9b741016fcc390dce73222619c8dac35f688b9be96d1c029ecd3470794c0034ed83aa802ba9aec8212de2fdabc2a7fcc6843e
+
+outputs.4.filename=whitespace-maven-plugin-1.2.0-test-sources.jar
+outputs.4.length=7623
+outputs.4.checksums.sha512=a940a38493f93640085d449159cbf7edefea2a0ca4a4f4f04acd85dcdd72936717dda69bbd05c0c3f8d4e713bb05e35bebfd6a91573d2958b753a60b52009a60

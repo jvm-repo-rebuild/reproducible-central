@@ -108,7 +108,7 @@ mvnBuildDocker() {
     then
       runcommand ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params} -Dline.separator=$'\r\n'
     else
-      mvnCommand="$(echo "${mvnCommand}" | sed "s_^mvn _/var/maven/.m2/bin/mvncrlf _")"
+      mvnCommand="$(echo "${mvnCommand}" | sed "s_^mvn _/var/maven/.m2/mvncrlf _")"
       runcommand ${docker_command} ${mvnImage} ${mvnCommand} ${mvn_docker_params}
     fi
   else
