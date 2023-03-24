@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Install Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-install-plugin
+version=3.1.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-install-plugin.git
+source.scm.tag=maven-install-plugin-3.1.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.filename=maven-install-plugin-3.1.1.pom
+outputs.0.length=7812
+outputs.0.checksums.sha512=04a22956a6840cacd40ef61dfd6e43fdeb419e7d5858b770593f32b00678667629e2130eeed39d5fe1519d0becf6c07ed396d0552ec679bb2da396d0d69ce847
+
+outputs.1.filename=maven-install-plugin-3.1.1.jar
+outputs.1.length=31253
+outputs.1.checksums.sha512=f6ea67c0111b47ffd08ff66a7936b66c0fe9a0f06f0dcdf3780391931053276a78f54562f151e12802b9c132a033b7056173c5336500fbda123bfb81925457c4
+
+outputs.2.filename=maven-install-plugin-3.1.1-source-release.zip
+outputs.2.length=226019
+outputs.2.checksums.sha512=80535f87745c4eda63dda63f93e410bf84d318cb9d56f73da8018b3682c09785945d7dc8ea9119dd9d9c0fed5607af88dbebbd63c13f863a88bb308d71fef80c
+
+outputs.3.filename=maven-install-plugin-3.1.1-sources.jar
+outputs.3.length=20295
+outputs.3.checksums.sha512=fc3c6d4920d9b67c66e6db536fe35b955bbb81f68b244899a898d638c844c75c5143fe53ff4c80e97c52ae4ae72294f2000d05e750697f3bb0db72304446f416
