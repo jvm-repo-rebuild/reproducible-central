@@ -24,7 +24,7 @@ newline=lf
 command='mvn clean verify -PskipQuality'
 
 # Location of the buildinfo file generated during rebuild to record output fingerprints
-buildinfo=webapp/target/yauaa-webapp-${version}.buildinfo
+buildinfo=target/yauaa-parent-${version}.buildinfo
 
 # if the release is finally not reproducible, link to an issue tracker entry if one was created or diffoscope result
 #diffoscope=${artifactId}-${version}.diffoscope
