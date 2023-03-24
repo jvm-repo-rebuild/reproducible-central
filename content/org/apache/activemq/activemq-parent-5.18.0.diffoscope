@@ -1,0 +1,119 @@
+# https://issues.apache.org/jira/browse/FELIX-6602
+1 / 8 target/reference/activemq-client-5.18.0.jar activemq-client/target/activemq-client-5.18.0.jar
+--- target/reference/activemq-client-5.18.0.jar
++++ activemq-client/target/activemq-client-5.18.0.jar
+├── META-INF/MANIFEST.MF
+│ @@ -12,96 +12,96 @@
+│  Export-Package: org.apache.activemq;uses:="javax.jms,javax.net.ssl,jav
+
+│   ax.transaction.xa,org.apache.activemq.advisory,org.apache.activemq.bl
+
+│   ob,org.apache.activemq.broker.region,org.apache.activemq.broker.regio
+
+│   n.policy,org.apache.activemq.command,org.apache.activemq.filter,org.a
+
+│   pache.activemq.jndi,org.apache.activemq.management,org.apache.activem
+
+│   q.thread,org.apache.activemq.transaction,org.apache.activemq.transpor
+
+│   t,org.apache.activemq.usage,org.apache.activemq.util";version="5.18.0
+
+│ - ",org.apache.activemq.transaction;version="5.18.0",org.apache.activem
+
+│ - q.selector;uses:="javax.jms,org.apache.activemq.filter";version="5.18
+
+...
+
+│ - x.jms,javax.naming,javax.naming.spi,org.apache.activemq";version="5.1
+
+│ + ",org.apache.activemq.management;uses:="javax.jms,org.apache.activemq
+
+│ + ,org.apache.activemq.util";version="5.18.0",org.apache.activemq.wiref
+
+...
+
+│ + d,org.apache.activemq.openwire,org.apache.activemq.util";version="5.1
+
+...
+
+2 / 8 target/reference/activemq-client-jakarta-5.18.0.jar activemq-client-jakarta/target/activemq-client-jakarta-5.18.0.jar
+
+3 / 8 target/reference/activemq-all-5.18.0.pom activemq-all/dependency-reduced-pom.xml
+--- target/reference/activemq-all-5.18.0.pom
++++ activemq-all/dependency-reduced-pom.xml
+│   --- target/reference/activemq-all-5.18.0.pom
+├── +++ activemq-all/dependency-reduced-pom.xml
+│ @@ -92,42 +92,49 @@
+│      <profile>
+│        <id>deploy</id>
+│        <build>
+│          <defaultGoal>deploy</defaultGoal>
+│          <plugins>
+│            <plugin>
+│              <artifactId>maven-source-plugin</artifactId>
+│ -            <version>3.2.1</version>
+│ +            <version>${maven-source-plugin-version}</version>
+│              <executions>
+│                <execution>
+│                  <id>attach-sources</id>
+│                  <goals>
+│                    <goal>jar</goal>
+│ -                  <goal>jar-no-fork</goal>
+│                  </goals>
+│ -                <configuration>
+│ -                  <skipSource>true</skipSource>
+│ -                  <attach>false</attach>
+│ -                </configuration>
+│                </execution>
+│              </executions>
+│              <configuration>
+│ -              <skipSource>true</skipSource>
+│                <attach>false</attach>
+│              </configuration>
+│            </plugin>
+│          </plugins>
+│        </build>
+│      </profile>
+│      <profile>
+│        <id>apache-release</id>
+│        <build>
+│          <plugins>
+│            <plugin>
+│              <artifactId>maven-source-plugin</artifactId>
+│ +            <version>3.2.1</version>
+│ +            <executions>
+│ +              <execution>
+│ +                <id>attach-sources</id>
+│ +                <goals>
+│ +                  <goal>jar</goal>
+│ +                  <goal>jar-no-fork</goal>
+│ +                </goals>
+│ +                <configuration>
+│ +                  <skipSource>true</skipSource>
+│ +                </configuration>
+│ +              </execution>
+│ +            </executions>
+│              <configuration>
+│                <skipSource>true</skipSource>
+│              </configuration>
+│            </plugin>
+│            <plugin>
+│              <artifactId>maven-assembly-plugin</artifactId>
+│              <version>3.4.2</version>
+│ @@ -150,15 +157,15 @@
+│                  <id>uber-sources-jar</id>
+│                  <phase>package</phase>
+│                  <goals>
+│                    <goal>single</goal>
+│                  </goals>
+│                  <configuration>
+│                    <descriptors>
+│ -                    <descriptor>/Users/jbonofre/Workspace/activemq/target/checkout/activemq-all/src/main/descriptors/uber-sources.xml</descriptor>
+│ +                    <descriptor>/var/maven/app/activemq-all/src/main/descriptors/uber-sources.xml</descriptor>
+│                    </descriptors>
+│                    <appendAssemblyId>true</appendAssemblyId>
+│                    <tarLongFileMode>posix</tarLongFileMode>
+│                  </configuration>
+│                </execution>
+│              </executions>
+│              <dependencies>
