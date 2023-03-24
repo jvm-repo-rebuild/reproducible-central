@@ -1,0 +1,17 @@
+version=7.17.0
+ok=41
+ko=10
+okFiles="yauaa-parent-7.17.0.pom yauaa-7.17.0-sources.jar yauaa-udf-parent-7.17.0.pom yauaa-logparser-7.17.0.pom yauaa-logparser-7.17.0.jar yauaa-logparser-7.17.0-sources.jar yauaa-flink-7.17.0.pom yauaa-flink-7.17.0.jar yauaa-flink-7.17.0-sources.jar yauaa-flink-table-7.17.0.pom yauaa-flink-table-7.17.0.jar yauaa-flink-table-7.17.0-sources.jar yauaa-beam-7.17.0.pom yauaa-beam-7.17.0.jar yauaa-beam-7.17.0-sources.jar yauaa-beam-sql-7.17.0.pom yauaa-beam-sql-7.17.0.jar yauaa-beam-sql-7.17.0-sources.jar yauaa-hive-7.17.0.pom yauaa-hive-7.17.0.jar yauaa-hive-7.17.0-sources.jar yauaa-drill-7.17.0.pom yauaa-drill-7.17.0.jar yauaa-drill-7.17.0-sources.jar yauaa-nifi-parent-7.17.0.pom yauaa-nifi-7.17.0.pom yauaa-elastic-udfs-parent-7.17.0.pom yauaa-elasticsearch-7.17.0.pom yauaa-elasticsearch-7.17.0.jar yauaa-elasticsearch-7.17.0-sources.jar yauaa-elasticsearch-8-7.17.0.pom yauaa-elasticsearch-8-7.17.0.jar yauaa-elasticsearch-8-7.17.0-sources.jar yauaa-snowflake-7.17.0.pom yauaa-snowflake-7.17.0.jar yauaa-snowflake-7.17.0-sources.jar yauaa-trino-7.17.0.pom yauaa-trino-7.17.0.jar yauaa-trino-7.17.0-sources.jar yauaa-webapp-7.17.0.pom yauaa-webapp-7.17.0-sources.jar"
+koFiles="yauaa-7.17.0.pom yauaa-7.17.0.jar yauaa-logparser-7.17.0-udf.jar yauaa-hive-7.17.0-udf.jar yauaa-nifi-7.17.0.nar yauaa-elasticsearch-7.17.0.zip yauaa-elasticsearch-8-7.17.0.zip yauaa-snowflake-7.17.0-udf.jar yauaa-trino-7.17.0-udf.jar yauaa-webapp-7.17.0.war"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/yauaa-7.17.0.pom analyzer/dependency-reduced-pom.xml
+# diffoscope target/reference/yauaa-7.17.0.jar analyzer/target/yauaa-7.17.0.jar
+# diffoscope target/reference/yauaa-logparser-7.17.0-udf.jar udfs/logparser/target/yauaa-logparser-7.17.0-udf.jar
+# diffoscope target/reference/yauaa-hive-7.17.0-udf.jar udfs/hive/target/yauaa-hive-7.17.0-udf.jar
+# diffoscope target/reference/yauaa-nifi-7.17.0.nar udfs/nifi/nifi-nar/target/yauaa-nifi-7.17.0.nar
+# diffoscope target/reference/yauaa-elasticsearch-7.17.0.zip udfs/elastic/elasticsearch-7/target/yauaa-elasticsearch-7.17.0.zip
+# diffoscope target/reference/yauaa-elasticsearch-8-7.17.0.zip udfs/elastic/elasticsearch-8/target/yauaa-elasticsearch-8-7.17.0.zip
+# diffoscope target/reference/yauaa-snowflake-7.17.0-udf.jar udfs/snowflake/target/yauaa-snowflake-7.17.0-udf.jar
+# diffoscope target/reference/yauaa-trino-7.17.0-udf.jar udfs/trino/target/yauaa-trino-7.17.0-udf.jar
+# diffoscope target/reference/yauaa-webapp-7.17.0.war webapp/target/yauaa-webapp-7.17.0.war

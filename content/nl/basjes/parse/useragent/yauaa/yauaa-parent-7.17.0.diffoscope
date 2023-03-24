@@ -1,0 +1,59 @@
+1 / 10 target/reference/yauaa-7.17.0.pom analyzer/dependency-reduced-pom.xml
+--- target/reference/yauaa-7.17.0.pom
++++ analyzer/dependency-reduced-pom.xml
+│   --- target/reference/yauaa-7.17.0.pom
+├── +++ analyzer/dependency-reduced-pom.xml
+│ @@ -515,15 +515,15 @@
+│                  <phase>clean</phase>
+│                  <goals>
+│                    <goal>clean</goal>
+│                  </goals>
+│                  <configuration>
+│                    <filesets>
+│                      <fileset>
+│ -                      <directory>/home/nbasjes/workspace/Prive/yauaa/target/checkout/analyzer/src/main/resources/</directory>
+│ +                      <directory>${project.basedir}/src/main/resources/</directory>
+│                        <includes>
+│                          <include>mozilla-public-suffix-list.txt</include>
+│                        </includes>
+│                      </fileset>
+│                    </filesets>
+│                  </configuration>
+│                </execution>
+│ @@ -539,32 +539,31 @@
+│                  <phase>initialize</phase>
+│                  <goals>
+│                    <goal>wget</goal>
+│                  </goals>
+│                  <configuration>
+│                    <skipCache>true</skipCache>
+│                    <url>https://publicsuffix.org/list/public_suffix_list.dat</url>
+│ -                  <outputDirectory>/home/nbasjes/workspace/Prive/yauaa/target/checkout/analyzer/src/main/resources/</outputDirectory>
+│ +                  <outputDirectory>${project.basedir}/src/main/resources/</outputDirectory>
+│                    <outputFileName>mozilla-public-suffix-list.txt</outputFileName>
+│                  </configuration>
+│                </execution>
+│              </executions>
+│            </plugin>
+│            <plugin>
+│              <artifactId>maven-scm-plugin</artifactId>
+│ -            <version>2.0.0</version>
+│              <executions>
+│                <execution>
+│                  <id>persist-public-suffix-list</id>
+│                  <phase>initialize</phase>
+│                  <goals>
+│                    <goal>add</goal>
+│                  </goals>
+│                  <configuration>
+│ -                  <basedir>/home/nbasjes/workspace/Prive/yauaa/target/checkout/analyzer</basedir>
+│ +                  <basedir>${project.basedir}</basedir>
+│                    <includes>src/main/resources/mozilla-public-suffix-list.txt</includes>
+│                  </configuration>
+│                </execution>
+│              </executions>
+│            </plugin>
+│          </plugins>
+│        </build>
+
+# same for 9 others
