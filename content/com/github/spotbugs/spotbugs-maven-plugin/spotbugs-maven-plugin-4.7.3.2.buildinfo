@@ -1,0 +1,35 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=SpotBugs Maven Plugin
+group-id=com.github.spotbugs
+artifact-id=spotbugs-maven-plugin
+version=4.7.3.2
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/spotbugs/spotbugs-maven-plugin.git
+source.scm.tag=spotbugs-maven-plugin-4.7.3.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.3.9
+
+# output
+
+outputs.0.filename=spotbugs-maven-plugin-4.7.3.2.pom
+outputs.0.length=34430
+outputs.0.checksums.sha512=3ed0f4b90bbd0918f029fb5b2ea3253a614f86234f1300fd35d14a744f7e989bddc70e94f8c36d0d895a2eb1cd81521029536df0993c6ee32ae3e9a6291480cf
+
+outputs.1.filename=spotbugs-maven-plugin-4.7.3.2.jar
+outputs.1.length=161314
+outputs.1.checksums.sha512=7fb04eb57707ee4efbdbdbc1384113a1665e8de5d6aab2354c85b8903a9f91ed2093032b31a403345275ec0b5bc91bb83af6991e58a157d29d55089b073b749b
+
+outputs.2.filename=spotbugs-maven-plugin-4.7.3.2-sources.jar
+outputs.2.length=58082
+outputs.2.checksums.sha512=1426c26ce7b92e9f6ac673c02e251aa496ccb1e1c191294d98a33fd22be5fbed2b0b34f5afb56696ae8c62b46f0dd141a2838ee9c1b77d55bd71197145a562a0
