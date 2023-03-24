@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Gherkin
+group-id=io.cucumber
+artifact-id=gherkin
+version=26.1.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/cucumber/gherkin.git
+source.scm.tag=v26.1.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=gherkin-26.1.0.pom
+outputs.0.length=4286
+outputs.0.checksums.sha512=6197c34f34271ef96f99a351aac7494d8e867be2bf8cf53dee76086db091171d8bf0619e8526a054fb4710c03c2a2a2923836fe0506b67c80e15bb97ab93f9cd
+
+outputs.1.filename=gherkin-26.1.0.jar
+outputs.1.length=111242
+outputs.1.checksums.sha512=6f1ee4acbfc59203589bc4cb767aa8ce91dca2c0b35ef9fb0d288b4f7d76b2382128dcbdb1b6b3d101164ba27732c0646076b95ce978bca94d415c207d4052ae
+
+outputs.2.filename=gherkin-26.1.0-sources.jar
+outputs.2.length=40458
+outputs.2.checksums.sha512=9a3fd3763af0b5739ad4ff7f9cfa5d41f54c844f4052ad4be1b7f7bdc07d00f8fc818aa6b7dbba812c552e9e3a462bb6308e66c11771286fc4311f72ad20b098
