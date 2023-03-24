@@ -58,17 +58,21 @@ mvnBuildDocker() {
   esac
 
   # Second configure it for the local user
-  if [ "$(uname -s)" == "Linux" ]; then
-    USER_NAME=${SUDO_USER:=${USER}}
-    USER_ID=$(id -u "${USER_NAME}")
-    GROUP_ID=$(id -g "${USER_NAME}")
-  else # boot2docker uid and gid
-    USER_NAME=${USER}
-    USER_ID=1000
-    GROUP_ID=50
-  fi
+  case "$(uname -s)" in
+    Linux|Darwin)
+      USER_NAME=${SUDO_USER:=${USER}}
+      USER_ID=$(id -u "${USER_NAME}")
+      GROUP_ID=$(id -g "${USER_NAME}")
+      ;;
+    *)
+      USER_NAME=${USER}
+      USER_ID=1000
+      GROUP_ID=50
+  esac
 
-  mkdir -p "${SCRIPTDIR}/.docker"
+  local DOCKERFILES_TEMPLATES_DIR="${SCRIPTDIR}/bin/docker"
+  local DOCKERFILES_TMP_DIR="${DOCKERFILES_TEMPLATES_DIR}/tmp"
+  mkdir -p "${DOCKERFILES_TMP_DIR}"
   if [ ! -z "${toolchains}" ];
   then
     info "Preparing custom Reproducible Builder image rb-ubuntu-2204-jdk${jdk}-mvn${mvnVersion}-toolchains*"
@@ -94,7 +98,7 @@ mvnBuildDocker() {
     -v $base/.sbt:/var/maven/.sbt\
     -v $base/.npm:/.npm\
     -v $base/.bnd:/.bnd\
-    -u $(id -u ${USER}):$(id -g ${USER})\
+    -u $USER_NAME:$GROUP_ID\
     -e MAVEN_CONFIG=/var/maven/.m2\
     -w /var/maven/app"
 
@@ -117,7 +121,6 @@ mvnBuildDockerBuildBaseToolchainsImage() {
     # ############### BASED ON THE UBUNTU 22.04 IMAGE ###################
     IFS='|' read -r -a toolchainsjdks <<< "${toolchains}"
 
-    local TMP_DOCKERFILES_DIR="${SCRIPTDIR}/bin/docker/tmp"
     local JDKPACKAGES=""
     local JDKTAG="jdk${jdk}-mvn${mvnVersion}-toolchains"
     for toolchainsjdk in "${toolchainsjdks[@]}";
@@ -127,16 +130,16 @@ mvnBuildDockerBuildBaseToolchainsImage() {
     done
 
     mvnImage="rb-ubuntu-2204-${JDKTAG}"
-    DOCKERFILE="Dockerfile-${mvnImage}"
+    local DOCKERFILE="Dockerfile-${mvnImage}"
     (
-      cat "${SCRIPTDIR}/bin/docker/Dockerfile.template" | \
+      cat "${DOCKERFILES_TEMPLATES_DIR}/Dockerfile.toolchains.template" | \
         sed "s/@@JDKPACKAGES@@/${JDKPACKAGES}/g" | \
         sed "s/@@MAVEN_VERSION@@/${mvnVersion}/g" | \
         sed "s/@@JDK@@/${jdk}/g"
-    ) > "${TMP_DOCKERFILES_DIR}/${DOCKERFILE}"
+    ) > "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}"
 
     info "Building base Reproducible Builder toolchains image \033[1m${mvnImage}\033[0m"
-    if ! runcommand docker build -t "${mvnImage}" -f "${TMP_DOCKERFILES_DIR}/${DOCKERFILE}" "${SCRIPTDIR}/bin" ;
+    if ! runcommand docker build -t "${mvnImage}" -f "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}" "${SCRIPTDIR}/bin" ;
     then
       fatal "Unable to build ${mvnImage} using ${DOCKERFILE}"
     fi
@@ -148,23 +151,24 @@ mvnBuildDockerAddUserLayer() {
   info "Adding layer to rebuilder Docker image for local user"
 
   local baseMvnImage="${mvnImage}"
-  local TMP_DOCKERFILES_DIR="${SCRIPTDIR}/bin/docker/tmp"
 
   mvnImage="${mvnImage}-${USER_NAME}"
   local DOCKERFILE="Dockerfile-${mvnImage}"
-  cat "${SCRIPTDIR}/bin/docker/Dockerfile.localuser.template" | \
+  (
+    cat "${DOCKERFILES_TEMPLATES_DIR}/Dockerfile.localuser.template" | \
       sed "s/@@BASEIMAGE@@/${baseMvnImage}/g" | \
       sed "s/@@USER_NAME@@/${USER_NAME}/g" | \
       sed "s/@@USER_ID@@/${USER_ID}/g" | \
-      sed "s/@@GROUP_ID@@/${GROUP_ID}/g" > "${TMP_DOCKERFILES_DIR}/${DOCKERFILE}"
+      sed "s/@@GROUP_ID@@/${GROUP_ID}/g"
+   ) > "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}"
 
   if [ ! -z "${toolchains}" ];
   then
     # In case of toolchains we enable the generator to do so.
-    sed 's/##TOOLCHAINS##//' -i "${TMP_DOCKERFILES_DIR}/${DOCKERFILE}"
+    sed -i.bak 's/##TOOLCHAINS##//' "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}"
   fi
 
-  if ! runcommand docker build -t "${mvnImage}" -f "${TMP_DOCKERFILES_DIR}/${DOCKERFILE}" "${SCRIPTDIR}/bin" ;
+  if ! runcommand docker build -t "${mvnImage}" -f "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}" "${SCRIPTDIR}/bin" ;
   then
     fatal "Unable to build ${mvnImage} using ${DOCKERFILE}"
   fi
@@ -176,19 +180,20 @@ mvnBuildDockerAddEnvironmentLayer() {
   info "Adding layer to rebuilder Docker image for environment settings (umask, timezone, ...)"
 
   local baseMvnImage="${mvnImage}"
-  local TMP_DOCKERFILES_DIR="${SCRIPTDIR}/bin/docker/tmp"
 
-  ENVTAG=$(echo "${timezone}-${locale}-${umask}" | sed 's/^\(.*\)$/\L\1\E/g;s/[^a-z0-9-]/-/g;s/--/-/g' )
+  local ENVTAG="$(echo "${timezone}-${locale}-${umask}" | tr '[:upper:]' '[:lower:]' | tr '/' '_' )"
   mvnImage="${mvnImage}-${ENVTAG}"
   local DOCKERFILE="Dockerfile-${mvnImage}"
-  cat "${SCRIPTDIR}/bin/docker/Dockerfile.environment.template" | \
+  (
+    cat "${DOCKERFILES_TEMPLATES_DIR}/Dockerfile.environment.template" | \
       sed "s/@@BASEIMAGE@@/${baseMvnImage}/g" | \
       sed "s/@@BUILD_LOCALE@@/${locale}/g" | \
       sed "s/@@BUILD_UMASK@@/${umask}/g" | \
       sed "s/@@MAVEN_OPTS@@/${MAVEN_OPTS}/g" | \
-      sed "s@\@\@BUILD_TIMEZONE\@\@@${timezone}@g" > "${TMP_DOCKERFILES_DIR}/${DOCKERFILE}"
+      sed "s@\@\@BUILD_TIMEZONE\@\@@${timezone}@g"
+   ) > "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}"
 
-  if ! runcommand docker build -t "${mvnImage}" -f "${TMP_DOCKERFILES_DIR}/${DOCKERFILE}" "${SCRIPTDIR}/bin" ;
+  if ! runcommand docker build -t "${mvnImage}" -f "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}" "${SCRIPTDIR}/bin" ;
   then
     fatal "Unable to build ${mvnImage} using ${DOCKERFILE}"
   fi
