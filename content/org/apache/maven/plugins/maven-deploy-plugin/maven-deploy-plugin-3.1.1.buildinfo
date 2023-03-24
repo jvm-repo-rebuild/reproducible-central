@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Deploy Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-deploy-plugin
+version=3.1.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-deploy-plugin.git
+source.scm.tag=maven-deploy-plugin-3.1.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.filename=maven-deploy-plugin-3.1.1.pom
+outputs.0.length=8858
+outputs.0.checksums.sha512=96a09f5793c783b8e258387ce5c37eb7cad73f514cd3349481f4ca2039acaface16eb86eef774eca825c757804b9d33b3f079efd27bb444785a6f44c6bb9535a
+
+outputs.1.filename=maven-deploy-plugin-3.1.1.jar
+outputs.1.length=39196
+outputs.1.checksums.sha512=74fa2ef72b6c664732aeed2125639e62bd0f6c7deb235803dc9a833266ea543ab8130a862959a65cd62160ab5685db189b4285aaecfa8d5dd17b01f0ae129983
+
+outputs.2.filename=maven-deploy-plugin-3.1.1-source-release.zip
+outputs.2.length=277283
+outputs.2.checksums.sha512=084712da4bf5ea8ce51df4899d21172f4c27a8b08f9a3d94d5efaa3c7442c9882aa6ee9fb590583b313a18bdf04406756f84112a1fccf72d2a184e7fcbd664e1
+
+outputs.3.filename=maven-deploy-plugin-3.1.1-sources.jar
+outputs.3.length=24933
+outputs.3.checksums.sha512=b50e4e8ba0767a01ebc4c9036268eeaf9bdb8f3c27c3e67f58d9fd56c0061f842dd41294249b837acbe2151896dd5d24ae60b73d24ccf25a81f963a8ef43824b
