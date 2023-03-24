@@ -1,5 +1,4 @@
 buildcache/
-repository/
 copy_reference_file.log
 settings-docker.xml
 .ivy2/
@@ -18,5 +17,7 @@ settings-docker.xml
 
 doc/buildspecs.txt
 maven-metadata
-.docker/
+bin/docker/tmp/
 wip/maven-metadata.xml
+m2/toolchains.xml
+m2/repository/

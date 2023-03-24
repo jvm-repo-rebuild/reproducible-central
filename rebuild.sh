@@ -49,6 +49,8 @@ displayOptional  "umask"       "$DEFAULT_umask"
 displayMandatory "newline"
 displayMandatory "command"
 displayMandatory "buildinfo"
+displayOptional  "diffoscope"
+displayOptional  "issue"
 
 if [ -z "${timezone}" ]
 then
@@ -67,8 +69,10 @@ base="$SCRIPTDIR"
 
 pushd "$(dirname ${buildspec})" >/dev/null || fatal "Could not move into ${buildspec}"
 
+echo
 fetchSource
 
+echo
 case ${tool} in
   mvn*)
     rebuildToolMvn
