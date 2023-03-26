@@ -1,0 +1,16 @@
+groupId=org.codehaus.mojo
+artifactId=animal-sniffer-parent
+display=${groupId}:animal-sniffer
+version=1.23
+
+gitRepo=https://github.com/mojohaus/animal-sniffer.git
+gitTag=${version}
+
+tool=mvn-3.9.1
+jdk=17
+newline=lf
+
+command="mvn -Pmojo-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=

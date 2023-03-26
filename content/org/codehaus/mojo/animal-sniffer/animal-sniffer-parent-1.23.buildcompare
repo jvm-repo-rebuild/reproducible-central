@@ -1,0 +1,7 @@
+version=1.23
+ok=20
+ko=0
+okFiles="animal-sniffer-parent-1.23.pom animal-sniffer-parent-1.23-source-release.zip java-boot-classpath-detector-1.23.pom java-boot-classpath-detector-1.23.jar java-boot-classpath-detector-1.23-sources.jar animal-sniffer-annotations-1.23.pom animal-sniffer-annotations-1.23.jar animal-sniffer-annotations-1.23-sources.jar animal-sniffer-1.23.pom animal-sniffer-1.23.jar animal-sniffer-1.23-sources.jar animal-sniffer-maven-plugin-1.23.pom animal-sniffer-maven-plugin-1.23.jar animal-sniffer-maven-plugin-1.23-sources.jar animal-sniffer-enforcer-rule-1.23.pom animal-sniffer-enforcer-rule-1.23.jar animal-sniffer-enforcer-rule-1.23-sources.jar animal-sniffer-ant-tasks-1.23.pom animal-sniffer-ant-tasks-1.23.jar animal-sniffer-ant-tasks-1.23-sources.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
