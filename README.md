@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **1669 releases** of **392 projects**:
-   - **1235** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **1673 releases** of **392 projects**:
+   - **1239** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 434 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
@@ -62,7 +62,7 @@ Its objectives are to provide:
 | fr.inria.gforge.spoon | <a name='fr.inria.gforge.spoon:spoon-core'></a>[spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 1 | 1 :heavy_check_mark: |
 | fr.marcwrobel | <a name='fr.marcwrobel:jbanking'></a>[jbanking](content/fr/marcwrobel/jbanking/README.md) | 1 | 1 :heavy_check_mark: |
 | fr.vidal.oss | <a name='fr.vidal.oss:atom-jaxb'></a>[atom-jaxb](content/fr/vidal/oss/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
-| io.liftwizard | <a name='io.liftwizard:liftwizard'></a>[liftwizard](content/io/liftwizard/README.md) | 33 | 33 :heavy_check_mark: |
+| io.liftwizard | <a name='io.liftwizard:liftwizard'></a>[liftwizard](content/io/liftwizard/README.md) | 34 | 34 :heavy_check_mark: |
 | io.cucumber | <a name='io.cucumber:cucumber-expressions'></a>[cucumber-expressions](content/io/cucumber/cucumber-expressions/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='io.cucumber:cucumber-jvm'></a>[cucumber-jvm](content/io/cucumber/cucumber-jvm/README.md) | 5 | 5 :heavy_check_mark: |
 | | <a name='io.cucumber:gherkin'></a>[gherkin](content/io/cucumber/gherkin/README.md) | 5 | 5 :heavy_check_mark: |
@@ -76,7 +76,7 @@ Its objectives are to provide:
 | io.dropwizard.metrics5 | <a name='io.dropwizard.metrics5:metrics-parent'></a>[metrics-parent](content/io/dropwizard/metrics5/README.md) | 9 | 2 :heavy_check_mark: / 7 :warning: |
 | io.fabric8 | <a name='io.fabric8:docker-maven-plugin'></a>[docker-maven-plugin](content/io/fabric8/docker-maven-plugin/README.md) | 14 | 12 :heavy_check_mark: / 2 :warning: |
 | | <a name='io.fabric8:kubernetes-client-project'></a>[kubernetes-client-project](content/io/fabric8/kubernetes-client/README.md) | 10 | 10 :warning: |
-| io.github.albertus82 | <a name='io.github.albertus82:jface-utils'></a>[jface-utils](content/io/github/albertus82/jface-utils/README.md) | 7 | 7 :heavy_check_mark: |
+| io.github.albertus82 | <a name='io.github.albertus82:jface-utils'></a>[jface-utils](content/io/github/albertus82/jface-utils/README.md) | 8 | 8 :heavy_check_mark: |
 | | <a name='io.github.albertus82:unexepack'></a>[unexepack](content/io/github/albertus82/unexepack/README.md) | 3 | 3 :warning: |
 | io.github.derkrischan | <a name='io.github.derkrischan:jpdftest'></a>[jpdftest](content/io/github/derkrischan/jpdftest/README.md) | 3 | 3 :heavy_check_mark: |
 | io.github.zlika | <a name='io.github.zlika:reproducible-build-maven-plugin'></a>[reproducible-build-maven-plugin](content/io/github/zlika/reproducible-build-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
@@ -99,7 +99,7 @@ Its objectives are to provide:
 | net.nicoulaj.maven.plugins | <a name='net.nicoulaj.maven.plugins:checksum-maven-plugin'></a>[checksum-maven-plugin](content/net/nicoulaj/maven/plugins/checksum-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | net.revelc.code | <a name='net.revelc.code:impsort-maven-plugin'></a>[impsort-maven-plugin](content/net/revelc/code/impsort-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | net.sourceforge.pmd | <a name='net.sourceforge.pmd:pmd'></a>[pmd](content/net/sourceforge/pmd/README.md) | 32 | 31 :heavy_check_mark: / 1 :warning: |
-| | <a name='net.sourceforge.pmd:pmd-build-tools-config'></a>[pmd-build-tools-config](content/net/sourceforge/pmd/pmd-build-tools-config/README.md) | 3 | 3 :heavy_check_mark: |
+| | <a name='net.sourceforge.pmd:pmd-build-tools-config'></a>[pmd-build-tools-config](content/net/sourceforge/pmd/pmd-build-tools-config/README.md) | 4 | 4 :heavy_check_mark: |
 | nl.basjes.maven.release | <a name='nl.basjes.maven.release:conventional-commits-version-policy'></a>[conventional-commits-version-policy](content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | 1 | 1 :heavy_check_mark: |
 | nl.basjes.parse.useragent | <a name='nl.basjes.parse.useragent:yauaa'></a>[yauaa](content/nl/basjes/parse/useragent/yauaa/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | nl.hsac | <a name='nl.hsac:hsac-fitnesse-fixtures'></a>[hsac-fitnesse-fixtures](content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 53 | 42 :heavy_check_mark: / 11 :warning: |
@@ -331,7 +331,7 @@ Its objectives are to provide:
 | org.apache.tomee | <a name='org.apache.tomee:jakartaee-api'></a>[jakartaee-api](content/org/apache/tomee/jakartaee-api/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.ws.commons.axiom | <a name='org.apache.ws.commons.axiom:axiom'></a>[axiom](content/org/apache/ws/commons/axiom/README.md) | 1 | 1 :warning: |
 | org.codehaus.modello | <a name='org.codehaus.modello:modello'></a>[modello](content/org/codehaus/modello/README.md) | 3 | 3 :heavy_check_mark: |
-| org.codehaus.mojo | <a name='org.codehaus.mojo:animal-sniffer-parent'></a>[animal-sniffer-parent](content/org/codehaus/mojo/animal-sniffer/README.md) | 3 | 3 :heavy_check_mark: |
+| org.codehaus.mojo | <a name='org.codehaus.mojo:animal-sniffer-parent'></a>[animal-sniffer-parent](content/org/codehaus/mojo/animal-sniffer/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:aspectj-maven-plugin'></a>[aspectj-maven-plugin](content/org/codehaus/mojo/aspectj-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:buildplan-maven-plugin'></a>[buildplan-maven-plugin](content/org/codehaus/mojo/buildplan-maven-plugin/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:cassandra-maven-plugin'></a>[cassandra-maven-plugin](content/org/codehaus/mojo/cassandra-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
@@ -414,7 +414,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 11 | 11 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 6 | 6 :warning: |
-| **Count:** | **392** | **1669** | **1235** :heavy_check_mark: **434** :warning: |
+| **Count:** | **392** | **1673** | **1239** :heavy_check_mark: **434** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -428,7 +428,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      26 mvn         7
     806 mvn         8
       1 mvn         9
-    603 mvn        11
+    605 mvn        11
       4 mvn        14
      10 mvn        15
      10 mvn        16
@@ -437,7 +437,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       9 mvn        19
       2 mvn-3.5.4   8
       1 mvn-3.8.5   8
-     11 mvn-3.8.5  11
+     12 mvn-3.8.5  11
       6 mvn-3.8.5  17
      19 mvn-3.8.6   8
       1 mvn-3.8.6  11
@@ -448,6 +448,6 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       2 mvn-3.9.0  11
       2 mvn-3.9.0  17
       1 mvn-3.9.1   8
-      1 mvn-3.9.1  17
+      2 mvn-3.9.1  17
       2 sbt         8
 <!-- END GENERATED STATS -->
