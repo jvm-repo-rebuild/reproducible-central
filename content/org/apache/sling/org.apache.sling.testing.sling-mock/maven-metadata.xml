@@ -3,8 +3,8 @@
   <groupId>org.apache.sling</groupId>
   <artifactId>org.apache.sling.testing.sling-mock</artifactId>
   <versioning>
-    <latest>3.4.2</latest>
-    <release>3.4.2</release>
+    <latest>3.4.4</latest>
+    <release>3.4.4</release>
     <versions>
       <version>1.0.0</version>
       <version>1.1.0</version>
@@ -63,7 +63,8 @@
       <version>3.3.2</version>
       <version>3.4.0</version>
       <version>3.4.2</version>
+      <version>3.4.4</version>
     </versions>
-    <lastUpdated>20220915164240</lastUpdated>
+    <lastUpdated>20230327074912</lastUpdated>
   </versioning>
 </metadata>

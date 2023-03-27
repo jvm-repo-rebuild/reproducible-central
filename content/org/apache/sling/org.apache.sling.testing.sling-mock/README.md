@@ -22,6 +22,7 @@ rebuilding **4 releases** of org.apache.sling:org.apache.sling.testing.sling-moc
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.4.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock/3.4.4/pom) | | | |
 | [3.4.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock/3.4.2/pom) | [mvn jdk11 w](org.apache.sling.testing.sling-mock-3.4.2.buildspec) | [result](org.apache.sling.testing.sling-mock-3.4.2.buildinfo): [17 :heavy_check_mark: ](org.apache.sling.testing.sling-mock-3.4.2.buildcompare) | 825K |
 | [3.4.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock/3.4.0/pom) | [mvn jdk11 w](org.apache.sling.testing.sling-mock-3.4.0.buildspec) | [result](org.apache.sling.testing.sling-mock-3.4.0.buildinfo): [17 :heavy_check_mark: ](org.apache.sling.testing.sling-mock-3.4.0.buildcompare) | 824K |
 | [3.3.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock/3.3.2/pom) | [mvn jdk11](org.apache.sling.testing.sling-mock-3.3.2.buildspec) | [result](org.apache.sling.testing.sling-mock-3.3.2.buildinfo): [17 :heavy_check_mark: ](org.apache.sling.testing.sling-mock-3.3.2.buildcompare) | 821K |
