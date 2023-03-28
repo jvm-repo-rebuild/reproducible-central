@@ -13,6 +13,7 @@ rebuilding **3 releases** of org.codehaus.mojo:flatten-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.4.1](https://central.sonatype.com/artifact/org.codehaus.mojo/flatten-maven-plugin/1.4.1/pom) | | | |
 | [1.4.0](https://central.sonatype.com/artifact/org.codehaus.mojo/flatten-maven-plugin/1.4.0/pom) | [mvn jdk17](flatten-maven-plugin-1.4.0.buildspec) | [result](flatten-maven-plugin-1.4.0.buildinfo): [3 :heavy_check_mark:  1 :warning:](flatten-maven-plugin-1.4.0.buildcompare) | 518K |
 | [1.3.0](https://central.sonatype.com/artifact/org.codehaus.mojo/flatten-maven-plugin/1.3.0/pom) | [mvn jdk8](flatten-maven-plugin-1.3.0.buildspec) | [result](flatten-maven-plugin-1.3.0.buildinfo): [3 :heavy_check_mark: ](flatten-maven-plugin-1.3.0.buildcompare) | 180K |
 | [1.2.7](https://central.sonatype.com/artifact/org.codehaus.mojo/flatten-maven-plugin/1.2.7/pom) | [mvn jdk11 w](flatten-maven-plugin-1.2.7.buildspec) | [result](flatten-maven-plugin-1.2.7.buildinfo): [4 :heavy_check_mark: ](flatten-maven-plugin-1.2.7.buildcompare) | 458K |

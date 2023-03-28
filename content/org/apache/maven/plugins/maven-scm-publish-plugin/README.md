@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.apache.maven.plugins:maven-scm-publish-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.2.1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-scm-publish-plugin/3.2.1/pom) | | | |
 | [3.1.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-scm-publish-plugin/3.1.0/pom) | [mvn jdk8](maven-scm-publish-plugin-3.1.0.buildspec) | [result](maven-scm-publish-plugin-3.1.0.buildinfo): [4 :heavy_check_mark: ](maven-scm-publish-plugin-3.1.0.buildcompare) | 130K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
