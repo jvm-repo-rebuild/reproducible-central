@@ -3,8 +3,8 @@
   <groupId>org.codehaus.mojo</groupId>
   <artifactId>extra-enforcer-rules</artifactId>
   <versioning>
-    <latest>1.6.1</latest>
-    <release>1.6.1</release>
+    <latest>1.6.2</latest>
+    <release>1.6.2</release>
     <versions>
       <version>1.0-alpha-1</version>
       <version>1.0-alpha-2</version>
@@ -28,7 +28,8 @@
       <version>1.5.1</version>
       <version>1.6.0</version>
       <version>1.6.1</version>
+      <version>1.6.2</version>
     </versions>
-    <lastUpdated>20220723122027</lastUpdated>
+    <lastUpdated>20230328220051</lastUpdated>
   </versioning>
 </metadata>

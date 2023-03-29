@@ -620,6 +620,7 @@ rebuilding **4 releases** of org.apache.camel:camel:
 | -- | --------- | ------ | -- |
 | [4.0.0-M2](https://central.sonatype.com/artifact/org.apache.camel/camel/4.0.0-M2/pom) | | | |
 | [4.0.0-M1](https://central.sonatype.com/artifact/org.apache.camel/camel/4.0.0-M1/pom) | | | |
+| [3.20.3](https://central.sonatype.com/artifact/org.apache.camel/camel/3.20.3/pom) | | | |
 | [3.20.2](https://central.sonatype.com/artifact/org.apache.camel/camel/3.20.2/pom) | | | |
 | [3.20.1](https://central.sonatype.com/artifact/org.apache.camel/camel/3.20.1/pom) | | | |
 | [3.20.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.20.0/pom) | | | |
