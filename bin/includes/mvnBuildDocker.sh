@@ -181,7 +181,7 @@ mvnBuildDockerAddEnvironmentLayer() {
 
   local baseMvnImage="${mvnImage}"
 
-  local ENVTAG="$(echo "${timezone}-${locale}-${umask}" | tr '[:upper:]' '[:lower:]' | tr '/' '_' )"
+  local ENVTAG="$(echo "${timezone}-${locale}-${umask}" | tr '[:upper:]' '[:lower:]' | tr '/' '_' | tr '+' '_' )"
   mvnImage="${mvnImage}-${ENVTAG}"
   local DOCKERFILE="Dockerfile-${mvnImage}"
   (

@@ -1,0 +1,77 @@
+# moditect-maven-plugin:1.0.0.RC2:add-module-info https://github.com/moditect/moditect/issues/185
+1 / 2 target/reference/jackson-annotations-2.15.0-rc2.jar target/jackson-annotations-2.15.0-rc2.jar
+--- target/reference/jackson-annotations-2.15.0-rc2.jar
++++ target/jackson-annotations-2.15.0-rc2.jar
+├── zipinfo {}
+│ @@ -80,9 +80,9 @@
+│  -rw----     2.0 fat      688 bx defN 23-Mar-29 02:03 com/fasterxml/jackson/annotation/ObjectIdResolver.class
+│  -rw----     2.0 fat     1870 bx defN 23-Mar-29 02:03 com/fasterxml/jackson/annotation/OptBoolean.class
+│  -rw----     2.0 fat     1930 bx defN 23-Mar-29 02:03 com/fasterxml/jackson/annotation/PropertyAccessor.class
+│  -rw----     2.0 fat     2396 bx defN 23-Mar-29 02:03 com/fasterxml/jackson/annotation/SimpleObjectIdResolver.class
+│  -rw----     2.0 fat      138 bx defN 23-Mar-29 02:03 com/fasterxml/jackson/annotation/package-info.class
+│  -rw----     2.0 fat     7070 bx defN 23-Mar-29 02:03 META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.xml
+│  -rw----     2.0 fat       85 bx defN 23-Mar-29 02:03 META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.properties
+│ --rw----     2.0 fat      194 bx defN 23-Mar-28 19:04 module-info.class
+│ +-rw----     2.0 fat      194 bx defN 23-Mar-29 05:48 module-info.class
+│  86 files, 139959 bytes uncompressed, 59328 bytes compressed:  57.6%
+
+2 / 2 target/reference/jackson-annotations-2.15.0-rc2.module target/publications/maven/module.json
+--- target/reference/jackson-annotations-2.15.0-rc2.module
++++ target/publications/maven/module.json
+├── Pretty-printed
+│┄ Similarity: 0.9955357142857143%
+│┄ Differences: {"'variants'": "{0: {'files': {0: {'sha512': "
+│┄                "'7d67078da776b5c581b52f1599f4be13fa01b2d297502df0cb4b80cdd4bbc2a3e2d1c12dde03ffd8ef6b659f75fd7daac1d74e2f8f65a2ac23d4a50aa1aa65d6', "
+│┄                "'sha256': 'ef0760bcbab504981bbb47ad9633a090e0bc73666b0dbb1d016044c22944d8dd', "
+│┄                "'sha1': '52d0da2ef2ef07a9a95a34e7500b4dab922777be', 'md5': "
+│┄                "'5f4fbae852ef13752156982517575f11'}}}, 1: {'files': {0: {'sha512': "
+│┄                "'7d67078da776b5c581b52f1599f4be13fa01b2d2 […]
+│ @@ -32,19 +32,19 @@
+│                      "version": {
+│                          "requires": "2.15.0-rc2"
+│                      }
+│                  }
+│              ],
+│              "files": [
+│                  {
+│ -                    "md5": "31f8a9ea69c8c5e0db6614c5ad79e81c",
+│ +                    "md5": "5f4fbae852ef13752156982517575f11",
+│                      "name": "jackson-annotations-2.15.0-rc2.jar",
+│ -                    "sha1": "b9dd61a7a6a266191869dbe2a9307476be295b51",
+│ -                    "sha256": "9931d72fbe65045cf7fb31e82784ac75130003e04012aac2d1874982093377a8",
+│ -                    "sha512": "fdd7d4929b16a5e747db39b8f9a48f3d4b361b60912e07f809695c08b63f6fce9e9889ea9e640cca673dcc8254781dae520ce85326eb9e5274fab86fc58d6a48",
+│ +                    "sha1": "52d0da2ef2ef07a9a95a34e7500b4dab922777be",
+│ +                    "sha256": "ef0760bcbab504981bbb47ad9633a090e0bc73666b0dbb1d016044c22944d8dd",
+│ +                    "sha512": "7d67078da776b5c581b52f1599f4be13fa01b2d297502df0cb4b80cdd4bbc2a3e2d1c12dde03ffd8ef6b659f75fd7daac1d74e2f8f65a2ac23d4a50aa1aa65d6",
+│                      "size": 75551,
+│                      "url": "jackson-annotations-2.15.0-rc2.jar"
+│                  }
+│              ],
+│              "name": "apiElements"
+│          },
+│          {
+│ @@ -65,19 +65,19 @@
+│                      "version": {
+│                          "requires": "2.15.0-rc2"
+│                      }
+│                  }
+│              ],
+│              "files": [
+│                  {
+│ -                    "md5": "31f8a9ea69c8c5e0db6614c5ad79e81c",
+│ +                    "md5": "5f4fbae852ef13752156982517575f11",
+│                      "name": "jackson-annotations-2.15.0-rc2.jar",
+│ -                    "sha1": "b9dd61a7a6a266191869dbe2a9307476be295b51",
+│ -                    "sha256": "9931d72fbe65045cf7fb31e82784ac75130003e04012aac2d1874982093377a8",
+│ -                    "sha512": "fdd7d4929b16a5e747db39b8f9a48f3d4b361b60912e07f809695c08b63f6fce9e9889ea9e640cca673dcc8254781dae520ce85326eb9e5274fab86fc58d6a48",
+│ +                    "sha1": "52d0da2ef2ef07a9a95a34e7500b4dab922777be",
+│ +                    "sha256": "ef0760bcbab504981bbb47ad9633a090e0bc73666b0dbb1d016044c22944d8dd",
+│ +                    "sha512": "7d67078da776b5c581b52f1599f4be13fa01b2d297502df0cb4b80cdd4bbc2a3e2d1c12dde03ffd8ef6b659f75fd7daac1d74e2f8f65a2ac23d4a50aa1aa65d6",
+│                      "size": 75551,
+│                      "url": "jackson-annotations-2.15.0-rc2.jar"
+│                  }
+│              ],
+│              "name": "runtimeElements"
+│          }
+│      ]
+
