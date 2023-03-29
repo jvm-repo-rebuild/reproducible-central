@@ -1,0 +1,75 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=openapi-diff-parent
+group-id=org.openapitools.openapidiff
+artifact-id=openapi-diff-parent
+version=2.1.0-beta.6
+
+# source information
+source.scm.uri=scm:git:https://github.com/OpenAPITools/openapi-diff.git
+source.scm.tag=2.1.0-beta.6
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=openapi-diff-maven
+
+# aggregated output
+
+outputs.0.coordinates=org.openapitools.openapidiff:openapi-diff-parent
+
+outputs.0.0.filename=openapi-diff-parent-2.1.0-beta.6.pom
+outputs.0.0.length=16713
+outputs.0.0.checksums.sha512=e15d8902ec414e58596645f5df6785db71ef91e7ee8082db01a546ce29d1073709563588becac31083f1c16e58bd59f6592d1aba7d964b8c8e275c772a862a1a
+
+outputs.1.coordinates=org.openapitools.openapidiff:openapi-diff-core
+
+outputs.1.0.filename=openapi-diff-core-2.1.0-beta.6.pom
+outputs.1.0.length=2405
+outputs.1.0.checksums.sha512=fee6722d16827a9449eaef2ce5fc2866a08808d9a3da8943c8f9240b748b0729e1aaed31a61f81a53242eb47680200f53f2a136bbf124a74df11a9208b04b667
+
+outputs.1.1.filename=openapi-diff-core-2.1.0-beta.6.jar
+outputs.1.1.length=215343
+outputs.1.1.checksums.sha512=0d34bf1d7895b21b80ca138d280959ea26311f90211a20a49d9b4b0ee0a22a82c2720093b152a77635f4b8790f929a64e1997e86c4a4504c3ee08117feca0085
+
+outputs.1.2.filename=openapi-diff-core-2.1.0-beta.6-sources.jar
+outputs.1.2.length=98072
+outputs.1.2.checksums.sha512=9f1cfd8edf4bb367118c1cd018820d0001287822710674e41bb5b0158d97be199e6b63993997c674443a120b2865e6899a1265c7010d1d280b00f4f2cfbd9194
+
+outputs.2.coordinates=org.openapitools.openapidiff:openapi-diff-cli
+
+outputs.2.0.filename=openapi-diff-cli-2.1.0-beta.6.pom
+outputs.2.0.length=2950
+outputs.2.0.checksums.sha512=93eba3ebc49ff2dfce591f8b47d69a1ad05465a6cf9b7657d35ea38899605aefb943953ab4e0eba3c2b87865713cd82b094271e72da1ad8404994bbd7a8fc349
+
+outputs.2.1.filename=openapi-diff-cli-2.1.0-beta.6.jar
+outputs.2.1.length=7241
+outputs.2.1.checksums.sha512=06510dac26fdbf82fda65d7b718afb0aa302f45408af100432f3f327fd491c821790a13c8493e752217550a3a3095acdc08718ed622fa6a04aa9cd1980856a82
+
+outputs.2.2.filename=openapi-diff-cli-2.1.0-beta.6-sources.jar
+outputs.2.2.length=4901
+outputs.2.2.checksums.sha512=8eeedb1aec586e85a0ed47afd6d46024a414d1a30ab112ef17ebf736ab178df6b2cd994a84b59b9773c078b8ebe58cf6a7c267c7615ef8c4a1bf8609a83f6795
+
+outputs.2.3.filename=openapi-diff-cli-2.1.0-beta.6-all.jar
+outputs.2.3.length=14364638
+outputs.2.3.checksums.sha512=fddbd16024cd1a01a4e17c0883b1f1300016fb4276758fb5c62a4850b58f6a273511faf50ac286232eddf3bf9a163634e555ee752986ad5c0cd04132ce5c22d8
+
+outputs.3.coordinates=org.openapitools.openapidiff:openapi-diff-maven
+
+outputs.3.0.filename=openapi-diff-maven-2.1.0-beta.6.pom
+outputs.3.0.length=2110
+outputs.3.0.checksums.sha512=638f8993d795c79fe2a99f5af76c9ceef5f4e533621c15c8b1466fc6a2e9e23fdf721713e5ac2c52cbe7a7a0ea702ad823e3619a28bec6c94528f6f4b557c8e9
+
+outputs.3.1.filename=openapi-diff-maven-2.1.0-beta.6.jar
+outputs.3.1.length=7455
+outputs.3.1.checksums.sha512=555cade7fc9c4100687cc098e65174ca4bfeb5be8d16530fc057852caa6119309b5f241c46acc54e82d4f41c23a1d3fa48597b805e6ba5bc7720a34b31921bd0
+
+outputs.3.2.filename=openapi-diff-maven-2.1.0-beta.6-sources.jar
+outputs.3.2.length=3850
+outputs.3.2.checksums.sha512=19263d99c55d50b750f8b32b5d64f42e5522dd1dd8d4c8f0b6dbcf9004c97e2eab8607161d2f0a5dac8706fa7232e0caab72cb89dad3d0bbd25de8ed6dccf1d9
