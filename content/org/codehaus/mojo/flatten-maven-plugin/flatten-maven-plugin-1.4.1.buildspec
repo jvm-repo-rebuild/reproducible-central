@@ -1,0 +1,18 @@
+groupId=org.codehaus.mojo
+artifactId=flatten-maven-plugin
+display=${groupId}:${artifactId}
+version=1.4.1
+
+gitRepo=https://github.com/mojohaus/${artifactId}.git
+gitTag=${version}
+
+tool=mvn-3.9.1
+jdk=17
+newline=lf
+umask=022
+
+command="mvn -Pmojo-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscoope=${artifactId}-${version}.diffoscope
+issue=

@@ -1,0 +1,8 @@
+version=1.4.1
+ok=3
+ko=1
+okFiles="flatten-maven-plugin-1.4.1.pom flatten-maven-plugin-1.4.1-source-release.zip flatten-maven-plugin-1.4.1-sources.jar"
+koFiles="flatten-maven-plugin-1.4.1.jar"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/flatten-maven-plugin-1.4.1.jar target/flatten-maven-plugin-1.4.1.jar
