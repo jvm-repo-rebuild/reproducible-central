@@ -22,6 +22,7 @@ rebuilding **4 releases** of org.apache.qpid:protonj2-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.0-M13](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M13/pom) | | | |
 | [1.0.0-M12](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M12/pom) | [mvn jdk17](protonj2-1.0.0-M12.buildspec) | [result](protonj2-parent-1.0.0-M12.buildinfo): [13 :heavy_check_mark: ](protonj2-parent-1.0.0-M12.buildcompare) | 8.3M |
 | [1.0.0-M11](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M11/pom) | [mvn jdk11](protonj2-1.0.0-M11.buildspec) | [result](protonj2-parent-1.0.0-M11.buildinfo): [13 :heavy_check_mark: ](protonj2-parent-1.0.0-M11.buildcompare) | 7.9M |
 | [1.0.0-M10](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M10/pom) | [mvn jdk11](protonj2-1.0.0-M10.buildspec) | [result](protonj2-parent-1.0.0-M10.buildinfo): [13 :heavy_check_mark: ](protonj2-parent-1.0.0-M10.buildcompare) | 7.9M |

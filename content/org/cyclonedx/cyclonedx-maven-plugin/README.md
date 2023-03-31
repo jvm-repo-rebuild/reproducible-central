@@ -13,6 +13,7 @@ rebuilding **17 releases** of org.cyclonedx:cyclonedx-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.7.6](https://central.sonatype.com/artifact/org.cyclonedx/cyclonedx-maven-plugin/2.7.6/pom) | | | |
 | [2.7.5](https://central.sonatype.com/artifact/org.cyclonedx/cyclonedx-maven-plugin/2.7.5/pom) | [mvn jdk8](cyclonedx-maven-plugin-2.7.5.buildspec) | [result](cyclonedx-maven-plugin-2.7.5.buildinfo): [3 :heavy_check_mark: ](cyclonedx-maven-plugin-2.7.5.buildcompare) | 76K |
 | [2.7.4](https://central.sonatype.com/artifact/org.cyclonedx/cyclonedx-maven-plugin/2.7.4/pom) | [mvn jdk8](cyclonedx-maven-plugin-2.7.4.buildspec) | [result](cyclonedx-maven-plugin-2.7.4.buildinfo): [3 :heavy_check_mark: ](cyclonedx-maven-plugin-2.7.4.buildcompare) | 65K |
 | [2.7.3](https://central.sonatype.com/artifact/org.cyclonedx/cyclonedx-maven-plugin/2.7.3/pom) | [mvn jdk8](cyclonedx-maven-plugin-2.7.3.buildspec) | [result](cyclonedx-maven-plugin-2.7.3.buildinfo): [3 :heavy_check_mark: ](cyclonedx-maven-plugin-2.7.3.buildcompare) | 65K |
