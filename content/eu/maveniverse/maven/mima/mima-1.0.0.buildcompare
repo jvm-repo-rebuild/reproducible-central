@@ -1,0 +1,7 @@
+version=1.0.0
+ok=14
+ko=0
+okFiles="mima-1.0.0.pom context-1.0.0.pom context-1.0.0.jar context-1.0.0-sources.jar runtime-1.0.0.pom embedded-maven-1.0.0.pom embedded-maven-1.0.0.jar embedded-maven-1.0.0-sources.jar standalone-shared-1.0.0.pom standalone-shared-1.0.0.jar standalone-shared-1.0.0-sources.jar standalone-sisu-1.0.0.pom standalone-sisu-1.0.0.jar standalone-sisu-1.0.0-sources.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
