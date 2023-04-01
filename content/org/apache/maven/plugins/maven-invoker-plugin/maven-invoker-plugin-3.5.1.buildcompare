@@ -1,0 +1,7 @@
+version=3.5.1
+ok=4
+ko=0
+okFiles="maven-invoker-plugin-3.5.1.pom maven-invoker-plugin-3.5.1.jar maven-invoker-plugin-3.5.1-source-release.zip maven-invoker-plugin-3.5.1-sources.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
