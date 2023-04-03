@@ -5,7 +5,7 @@
 
 ## Project: [org.glassfish.main:glassfish-parent](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.3/versions)
 
-Source code: [https://github.com//eclipse-ee4j/glassfish.git](https://github.com//eclipse-ee4j/glassfish.git)
+Source code: [https://github.com/eclipse-ee4j/glassfish.git](https://github.com/eclipse-ee4j/glassfish.git)
 
 <details><summary>This project defines 290 modules:</summary>
 
