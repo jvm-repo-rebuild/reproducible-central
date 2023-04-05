@@ -1,19 +1,19 @@
-[org.apache.sling:org.apache.sling.event](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.event/4.3.6/versions) RB check
+[org.apache.sling:org.apache.sling.event](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.event/4.3.8/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.event](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.event/4.3.6/versions)
+## Project: [org.apache.sling:org.apache.sling.event](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.event/4.3.8/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-event.git](https://github.com/apache/sling-org-apache-sling-event.git)
 
-rebuilding **7 releases** of org.apache.sling:org.apache.sling.event:
+rebuilding **8 releases** of org.apache.sling:org.apache.sling.event:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 8 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.3.8](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.event/4.3.8/pom) | | | |
+| [4.3.8](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.event/4.3.8/pom) | [mvn jdk11](org.apache.sling.event-4.3.8.buildspec) | [result](org.apache.sling.event-4.3.8.buildinfo): [3 :heavy_check_mark:  1 :warning:](org.apache.sling.event-4.3.8.buildcompare) [:mag:](org.apache.sling.event-4.3.8.diffoscope) | 908K |
 | [4.3.6](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.event/4.3.6/pom) | [mvn jdk11](org.apache.sling.event-4.3.6.buildspec) | [result](org.apache.sling.event-4.3.6.buildinfo): [3 :heavy_check_mark:  1 :warning:](org.apache.sling.event-4.3.6.buildcompare) [:mag:](org.apache.sling.event-4.3.6.diffoscope) | 903K |
 | [4.3.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.event/4.3.2/pom) | [mvn jdk11](org.apache.sling.event-4.3.2.buildspec) | [result](org.apache.sling.event-4.3.2.buildinfo): [3 :heavy_check_mark:  1 :warning:](org.apache.sling.event-4.3.2.buildcompare) [:mag:](org.apache.sling.event-4.3.2.diffoscope) | 896K |
 | [4.3.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.event/4.3.0/pom) | [mvn jdk11](org.apache.sling.event-4.3.0.buildspec) | [result](org.apache.sling.event-4.3.0.buildinfo): [3 :heavy_check_mark:  1 :warning:](org.apache.sling.event-4.3.0.buildcompare) [:mag:](org.apache.sling.event-4.3.0.diffoscope) | 882K |
