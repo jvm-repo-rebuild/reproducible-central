@@ -139,6 +139,7 @@ rebuilding **8 releases** of org.apache.dubbo:dubbo:
 | [3.2.0-beta.3](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0-beta.3/pom) | | | |
 | [3.2.0-beta.2](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0-beta.2/pom) | | | |
 | [3.2.0-beta.1](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0-beta.1/pom) | | | |
+| [3.1.9](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.9/pom) | | | |
 | [3.1.8](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.8/pom) | | | |
 | [3.1.7](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.7/pom) | | | |
 | [3.1.6](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.6/pom) | | | |
