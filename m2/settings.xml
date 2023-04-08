@@ -167,6 +167,11 @@
       <url>https://repository.jboss.org/nexus/content/repositories/thirdparty-uploads/</url>
     </mirror>
     <mirror>
+      <id>clojars.org</id>
+      <mirrorOf>clojars.org</mirrorOf>
+      <url>https://repo.clojars.org</url>
+    </mirror>
+    <mirror>
       <id>default</id>
       <mirrorOf>*</mirrorOf>
       <url>https://repo.maven.apache.org/maven2</url>
