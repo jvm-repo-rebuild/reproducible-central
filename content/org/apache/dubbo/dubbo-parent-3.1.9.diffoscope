@@ -1,0 +1,570 @@
+1 / 5 target/reference/dubbo-compatible-3.1.9-sources.jar dubbo-compatible/target/dubbo-compatible-3.1.9-sources.jar
+--- target/reference/dubbo-compatible-3.1.9-sources.jar
++++ dubbo-compatible/target/dubbo-compatible-3.1.9-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 103504 bytes, number of entries: 144
+│ +Zip file size: 102928 bytes, number of entries: 139
+│  -rw-r--r--  2.0 unx       64 b- defN 20-Apr-01 08:04 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/cache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/cache/support/
+│ @@ -15,15 +15,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/common/store/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/common/threadpool/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/common/utils/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/config/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/config/spring/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/config/spring/context/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/config/spring/context/annotation/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/config/spring/schema/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/container/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/container/page/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/container/page/pages/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/monitor/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/qos/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/qos/command/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/registry/
+│ @@ -38,18 +37,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/rpc/cluster/loadbalance/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/rpc/protocol/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/rpc/protocol/dubbo/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/rpc/protocol/rest/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/rpc/protocol/rest/support/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/rpc/support/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/validation/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 org/apache/dubbo/container/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-compatible/
+│  -rw-r--r--  2.0 unx    26378 b- defN 20-Apr-01 08:04 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 20-Apr-01 08:04 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      173 b- defN 20-Apr-01 08:04 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx      913 b- defN 20-Apr-01 08:04 com/alibaba/dubbo/cache/Cache.java
+│ @@ -139,8 +134,8 @@
+│  -rw-r--r--  2.0 unx     5111 b- defN 20-Apr-01 08:04 com/alibaba/dubbo/rpc/protocol/dubbo/FutureAdapter.java
+│  -rw-r--r--  2.0 unx      961 b- defN 20-Apr-01 08:04 com/alibaba/dubbo/rpc/protocol/rest/support/ContentType.java
+│  -rw-r--r--  2.0 unx     2817 b- defN 20-Apr-01 08:04 com/alibaba/dubbo/rpc/support/RpcUtils.java
+│  -rw-r--r--  2.0 unx      933 b- defN 20-Apr-01 08:04 com/alibaba/dubbo/validation/Validation.java
+│  -rw-r--r--  2.0 unx      931 b- defN 20-Apr-01 08:04 com/alibaba/dubbo/validation/Validator.java
+│  -rw-r--r--  2.0 unx     4360 b- defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-compatible/pom.xml
+│  -rw-r--r--  2.0 unx       67 b- defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-compatible/pom.properties
+│ -144 files, 249468 bytes uncompressed, 81020 bytes compressed:  67.5%
+│ +139 files, 249468 bytes uncompressed, 81020 bytes compressed:  67.5%
+├── zipnote «TEMP»/diffoscope_guffaz3k_target/tmpzhc0qknh_.zip
+│ @@ -54,17 +54,14 @@
+│  
+│  Filename: com/alibaba/dubbo/config/spring/context/
+│  Comment: 
+│  
+│  Filename: com/alibaba/dubbo/config/spring/context/annotation/
+│  Comment: 
+│  
+│ -Filename: com/alibaba/dubbo/config/spring/schema/
+│ -Comment: 
+│ -
+│  Filename: com/alibaba/dubbo/container/
+│  Comment: 
+│  
+│  Filename: com/alibaba/dubbo/container/page/
+│  Comment: 
+│  
+│  Filename: com/alibaba/dubbo/container/page/pages/
+│ @@ -123,26 +120,14 @@
+│  
+│  Filename: com/alibaba/dubbo/rpc/support/
+│  Comment: 
+│  
+│  Filename: com/alibaba/dubbo/validation/
+│  Comment: 
+│  
+│ -Filename: org/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/dubbo/
+│ -Comment: 
+│ -
+│ -Filename: org/apache/dubbo/container/
+│ -Comment: 
+│ -
+│  Filename: META-INF/maven/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.dubbo/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.dubbo/dubbo-compatible/
+
+2 / 5 target/reference/dubbo-3.1.9.jar dubbo-distribution/dubbo-all/target/dubbo-3.1.9.jar
+--- target/reference/dubbo-3.1.9.jar
++++ dubbo-distribution/dubbo-all/target/dubbo-3.1.9.jar
+├── zipinfo {}
+│ @@ -2516,193 +2516,193 @@
+│  -rw----     2.0 fat     2448 bl defN 20-Apr-01 08:04 org/apache/dubbo/registry/xds/util/protocol/message/Endpoint.class
+│  -rw----     2.0 fat     1904 bl defN 20-Apr-01 08:04 org/apache/dubbo/registry/xds/util/protocol/message/EndpointResult.class
+│  -rw----     2.0 fat     2155 bl defN 20-Apr-01 08:04 org/apache/dubbo/registry/xds/util/protocol/message/ListenerResult.class
+│  -rw----     2.0 fat     2487 bl defN 20-Apr-01 08:04 org/apache/dubbo/registry/xds/util/protocol/message/RouteResult.class
+│  -rw----     2.0 fat        0 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-xds/
+│  -rw----     2.0 fat     4430 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-xds/pom.xml
+│  -rw----     2.0 fat       60 bl defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-xds/pom.properties
+│ --rw----     2.0 fat     3928 bl defN 22-Sep-02 10:27 DENY_CLASS
+│ --rw----     2.0 fat        0 bl defN 22-Sep-02 10:27 com/alibaba/com/
+│ --rw----     2.0 fat        0 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/
+│ --rw----     2.0 fat        0 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/
+│ --rw----     2.0 fat        0 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/util/
+│ --rw----     2.0 fat     3004 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/util/IdentityIntMap.class
+│ --rw----     2.0 fat     3012 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/util/IntMap.class
+│ --rw----     2.0 fat        0 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/security/
+│ --rw----     2.0 fat     3888 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/security/X509Signature$SignatureInputStream.class
+│ --rw----     2.0 fat     3406 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/security/X509Encryption$EncryptInputStream.class
+│ --rw----     2.0 fat     4774 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/security/X509Encryption.class
+│ --rw----     2.0 fat     4446 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/security/X509Encryption$EncryptOutputStream.class
+│ --rw----     2.0 fat     4275 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/security/X509Signature$SignatureOutputStream.class
+│ --rw----     2.0 fat     4740 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/security/X509Signature.class
+│ --rw----     2.0 fat      781 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/HessianException.class
+│ --rw----     2.0 fat        0 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/
+│ --rw----     2.0 fat     2973 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/EnumDeserializer.class
+│ --rw----     2.0 fat     1038 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/BeanSerializer$MethodNameCmp.class
+│ --rw----     2.0 fat        0 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/java8/
+│ --rw----     2.0 fat     1575 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/java8/OffsetDateTimeHandle.class
+│ --rw----     2.0 fat     1422 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/java8/ZoneIdHandle.class
+│ --rw----     2.0 fat     1614 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/java8/MonthDayHandle.class
+│ --rw----     2.0 fat     1556 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/java8/OffsetTimeHandle.class
+│ --rw----     2.0 fat     1558 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/java8/LocalDateTimeHandle.class
+│ --rw----     2.0 fat     1163 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/java8/ZoneIdSerializer.class
+│ --rw----     2.0 fat     1541 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/java8/ZoneOffsetHandle.class
+│ --rw----     2.0 fat     1696 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/java8/DurationHandle.class
+│ --rw----     2.0 fat     1495 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/java8/YearHandle.class
+│ --rw----     2.0 fat     1712 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/java8/LocalDateHandle.class
+│ --rw----     2.0 fat     1694 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/java8/PeriodHandle.class
+│ --rw----     2.0 fat     2496 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/java8/Java8TimeSerializer.class
+│ --rw----     2.0 fat     1613 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/java8/YearMonthHandle.class
+│ --rw----     2.0 fat     1700 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/java8/InstantHandle.class
+│ --rw----     2.0 fat     1800 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/java8/LocalTimeHandle.class
+│ --rw----     2.0 fat     1911 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/java8/ZonedDateTimeHandle.class
+│ --rw----     2.0 fat     1611 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaDeserializer$ObjectFieldDeserializer.class
+│ --rw----     2.0 fat     1804 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaSerializer$IntFieldSerializer.class
+│ --rw----     2.0 fat     1941 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaSerializer$DateFieldSerializer.class
+│ --rw----     2.0 fat     3747 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/ClassDeserializer.class
+│ --rw----     2.0 fat     1292 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/Hessian2Input$ReadInputStream.class
+│ --rw----     2.0 fat     1296 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/AbstractListDeserializer.class
+│ --rw----     2.0 fat      225 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianRemoteObject.class
+│ --rw----     2.0 fat     2080 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaDeserializer$ObjectSetFieldDeserializer.class
+│ --rw----     2.0 fat     1397 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/AbstractMapDeserializer.class
+│ --rw----     2.0 fat     2132 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianInputFactory.class
+│ --rw----     2.0 fat      670 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianEnvelope.class
+│ --rw----     2.0 fat     1697 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$Hessian2State.class
+│ --rw----     2.0 fat     1717 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/Deflation$DeflateOutputStream.class
+│ --rw----     2.0 fat     3066 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$ObjectDefState.class
+│ --rw----     2.0 fat     1276 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/LocaleSerializer.class
+│ --rw----     2.0 fat     1716 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/ExtSerializerFactory.class
+│ --rw----     2.0 fat     3651 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$ObjectState.class
+│ --rw----     2.0 fat      653 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/AbstractSerializerFactory.class
+│ --rw----     2.0 fat     2234 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaSerializer$FieldSerializer.class
+│ --rw----     2.0 fat     1525 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/ValueDeserializer.class
+│ --rw----     2.0 fat     4853 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/MapDeserializer.class
+│ --rw----     2.0 fat     2792 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$ReplyState.class
+│ --rw----     2.0 fat     4474 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/AbstractDeserializer.class
+│ --rw----     2.0 fat     1389 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianRemote.class
+│ --rw----     2.0 fat      912 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/RemoteSerializer.class
+│ --rw----     2.0 fat      709 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/StackTraceElementDeserializer.class
+│ --rw----     2.0 fat     3377 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$ListState.class
+│ --rw----     2.0 fat     1894 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaSerializer$StringFieldSerializer.class
+│ --rw----     2.0 fat     1910 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugInputStream.class
+│ --rw----     2.0 fat     1087 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaDeserializer$1.class
+│ --rw----     2.0 fat     9091 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$State.class
+│ --rw----     2.0 fat      684 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/BitSetHandle.class
+│ --rw----     2.0 fat     2083 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaDeserializer$ObjectListFieldDeserializer.class
+│ --rw----     2.0 fat     1830 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/CollectionSerializer.class
+│ --rw----     2.0 fat     3080 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianSerializerInput.class
+│ --rw----     2.0 fat      815 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/IOExceptionWrapper.class
+│ --rw----     2.0 fat     1824 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaSerializer$BooleanFieldSerializer.class
+│ --rw----     2.0 fat     3715 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/AbstractHessianInput.class
+│ --rw----     2.0 fat     1413 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/CalendarHandle.class
+│ --rw----     2.0 fat     2052 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/ObjectDeserializer.class
+│ --rw----     2.0 fat     2123 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/EnumSerializer.class
+│ --rw----     2.0 fat      837 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/AbstractSerializer.class
+│ --rw----     2.0 fat      983 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/ThrowableSerializer.class
+│ --rw----     2.0 fat     3607 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$StringState.class
+│ --rw----     2.0 fat     2930 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/SqlDateDeserializer.class
+│ --rw----     2.0 fat     1725 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaDeserializer$SqlTimeFieldDeserializer.class
+│ --rw----     2.0 fat     9765 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianOutput.class
+│ --rw----     2.0 fat     8097 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaSerializer.class
+│ --rw----     2.0 fat      871 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianServiceException.class
+│ --rw----     2.0 fat     2419 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/Deflation.class
+│ --rw----     2.0 fat      634 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaDeserializer$FieldDeserializer.class
+│ --rw----     2.0 fat     1133 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/InputStreamSerializer.class
+│ --rw----     2.0 fat     1354 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/CalendarSerializer.class
+│ --rw----     2.0 fat      862 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/Hessian2Input$ObjectDefinition.class
+│ --rw----     2.0 fat      973 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/EnumSetHandler.class
+│ --rw----     2.0 fat     7170 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState.class
+│ --rw----     2.0 fat     2266 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$RefState.class
+│ --rw----     2.0 fat     1010 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/BeanSerializerFactory.class
+│ --rw----     2.0 fat     1281 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$InitialState.class
+│ --rw----     2.0 fat     1820 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugOutputStream.class
+│ --rw----     2.0 fat     1809 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaSerializer$LongFieldSerializer.class
+│ --rw----     2.0 fat     1584 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaDeserializer$ShortFieldDeserializer.class
+│ --rw----     2.0 fat     1644 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugOutputStream$LogWriter.class
+│ --rw----     2.0 fat     1946 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/ArraySerializer.class
+│ --rw----     2.0 fat     1968 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/Hessian2StreamingInput$StreamingInputStream.class
+│ --rw----     2.0 fat     1531 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$MillsState.class
+│ --rw----     2.0 fat     1249 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/Hessian2StreamingOutput.class
+│ --rw----     2.0 fat     1444 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianInput$1.class
+│ --rw----     2.0 fat     1368 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/EnumerationSerializer.class
+│ --rw----     2.0 fat     3983 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$CompactListState.class
+│ --rw----     2.0 fat     1819 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaSerializer$DoubleFieldSerializer.class
+│ --rw----     2.0 fat     8636 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/BasicDeserializer.class
+│ --rw----     2.0 fat     1171 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$Fault2State.class
+│ --rw----     2.0 fat     3081 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$BinaryState.class
+│ --rw----     2.0 fat     1595 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaDeserializer$BooleanFieldDeserializer.class
+│ --rw----     2.0 fat     1729 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaDeserializer$SqlDateFieldDeserializer.class
+│ --rw----     2.0 fat     2021 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$IntegerState.class
+│ --rw----     2.0 fat     1009 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/Hessian2StreamingInput.class
+│ --rw----     2.0 fat    16621 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/Hessian2Output.class
+│ --rw----     2.0 fat     1854 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/EnumSetSerializer.class
+│ --rw----     2.0 fat     1574 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaDeserializer$LongFieldDeserializer.class
+│ --rw----     2.0 fat    12488 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaDeserializer.class
+│ --rw----     2.0 fat     1326 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/EnumerationDeserializer.class
+│ --rw----     2.0 fat     1134 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/Deserializer.class
+│ --rw----     2.0 fat     1247 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/BitSetSerializer.class
+│ --rw----     2.0 fat     1691 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$RemoteState.class
+│ --rw----     2.0 fat     1574 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$DoubleState.class
+│ --rw----     2.0 fat     2408 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$Call2State.class
+│ --rw----     2.0 fat     1845 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$DateState.class
+│ --rw----     2.0 fat     1310 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/ClassSerializer.class
+│ --rw----     2.0 fat     6966 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/ClassFactory.class
+│ --rw----     2.0 fat      766 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/AbstractHessianResolver.class
+│ --rw----     2.0 fat     2286 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianSerializerOutput.class
+│ --rw----     2.0 fat     4097 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/CollectionDeserializer.class
+│ --rw----     2.0 fat     6707 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/BeanDeserializer.class
+│ --rw----     2.0 fat    18968 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/SerializerFactory.class
+│ --rw----     2.0 fat     2196 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$StreamingState.class
+│ --rw----     2.0 fat      281 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianRemoteResolver.class
+│ --rw----     2.0 fat      640 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/BigIntegerDeserializer.class
+│ --rw----     2.0 fat     1396 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/StringValueSerializer.class
+│ --rw----     2.0 fat     1229 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/UUIDDeserializer.class
+│ --rw----     2.0 fat     1341 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/LocaleHandle.class
+│ --rw----     2.0 fat      141 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianHandle.class
+│ --rw----     2.0 fat     1171 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$Reply2State.class
+│ --rw----     2.0 fat     1754 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaDeserializer$SqlTimestampFieldDeserializer.class
+│ --rw----     2.0 fat     1717 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/Deflation$DeflateInputStream.class
+│ --rw----     2.0 fat     2809 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/ArrayDeserializer.class
+│ --rw----     2.0 fat     1743 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$DoubleIntegerState.class
+│ --rw----     2.0 fat     1319 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/ClassFactory$AllowPrefix.class
+│ --rw----     2.0 fat     2163 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$LongState.class
+│ --rw----     2.0 fat      793 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/InputStreamDeserializer.class
+│ --rw----     2.0 fat     1588 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaDeserializer$StringFieldDeserializer.class
+│ --rw----     2.0 fat     4604 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/BasicSerializer.class
+│ --rw----     2.0 fat      625 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/EnvelopeFactory.class
+│ --rw----     2.0 fat     2039 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/MapSerializer.class
+│ --rw----     2.0 fat     1507 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/ClassFactory$Allow.class
+│ --rw----     2.0 fat     1588 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaDeserializer$DoubleFieldDeserializer.class
+│ --rw----     2.0 fat     1343 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$IndirectState.class
+│ --rw----     2.0 fat     6899 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/BeanSerializer.class
+│ --rw----     2.0 fat    38660 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/Hessian2Input.class
+│ --rw----     2.0 fat    23466 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianInput.class
+│ --rw----     2.0 fat     3478 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$MapState.class
+│ --rw----     2.0 fat     1089 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianProtocolException.class
+│ --rw----     2.0 fat     3906 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/AbstractHessianOutput.class
+│ --rw----     2.0 fat     2786 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/StringValueDeserializer.class
+│ --rw----     2.0 fat     1449 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/SqlDateSerializer.class
+│ --rw----     2.0 fat     1580 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaDeserializer$ByteFieldDeserializer.class
+│ --rw----     2.0 fat      286 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/Serializer.class
+│ --rw----     2.0 fat     1093 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$ObjectDef.class
+│ --rw----     2.0 fat     1770 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$Top2State.class
+│ --rw----     2.0 fat     2647 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugState$CallState.class
+│ --rw----     2.0 fat      252 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/ClassFactory$1.class
+│ --rw----     2.0 fat     2225 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/Hessian2Output$BytesOutputStream.class
+│ --rw----     2.0 fat     1640 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianDebugInputStream$LogWriter.class
+│ --rw----     2.0 fat     1585 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaDeserializer$FloatFieldDeserializer.class
+│ --rw----     2.0 fat     1335 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/IteratorSerializer.class
+│ --rw----     2.0 fat     2181 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaDeserializer$ObjectMapFieldDeserializer.class
+│ --rw----     2.0 fat      830 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/HessianFieldException.class
+│ --rw----     2.0 fat     2621 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/Hessian2Constants.class
+│ --rw----     2.0 fat     1575 bl defN 22-Sep-02 10:27 com/alibaba/com/caucho/hessian/io/JavaDeserializer$IntFieldDeserializer.class
+│ +-rw----     2.0 fat     3928 bl defN 22-Sep-02 10:24 DENY_CLASS
+│ +-rw----     2.0 fat        0 bl defN 22-Sep-02 10:24 com/alibaba/com/
+│ +-rw----     2.0 fat        0 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/
+│ +-rw----     2.0 fat        0 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/
+│ +-rw----     2.0 fat        0 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/util/
+│ +-rw----     2.0 fat     3004 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/util/IdentityIntMap.class
+│ +-rw----     2.0 fat     3012 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/util/IntMap.class
+│ +-rw----     2.0 fat        0 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/security/
+│ +-rw----     2.0 fat     3888 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/security/X509Signature$SignatureInputStream.class
+│ +-rw----     2.0 fat     3406 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/security/X509Encryption$EncryptInputStream.class
+│ +-rw----     2.0 fat     4774 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/security/X509Encryption.class
+│ +-rw----     2.0 fat     4446 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/security/X509Encryption$EncryptOutputStream.class
+│ +-rw----     2.0 fat     4275 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/security/X509Signature$SignatureOutputStream.class
+│ +-rw----     2.0 fat     4740 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/security/X509Signature.class
+│ +-rw----     2.0 fat      781 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/HessianException.class
+│ +-rw----     2.0 fat        0 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/
+│ +-rw----     2.0 fat     2973 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/EnumDeserializer.class
+│ +-rw----     2.0 fat     1038 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/BeanSerializer$MethodNameCmp.class
+│ +-rw----     2.0 fat        0 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/java8/
+│ +-rw----     2.0 fat     1575 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/java8/OffsetDateTimeHandle.class
+│ +-rw----     2.0 fat     1422 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/java8/ZoneIdHandle.class
+│ +-rw----     2.0 fat     1614 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/java8/MonthDayHandle.class
+│ +-rw----     2.0 fat     1556 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/java8/OffsetTimeHandle.class
+│ +-rw----     2.0 fat     1558 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/java8/LocalDateTimeHandle.class
+│ +-rw----     2.0 fat     1163 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/java8/ZoneIdSerializer.class
+│ +-rw----     2.0 fat     1541 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/java8/ZoneOffsetHandle.class
+│ +-rw----     2.0 fat     1696 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/java8/DurationHandle.class
+│ +-rw----     2.0 fat     1495 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/java8/YearHandle.class
+│ +-rw----     2.0 fat     1712 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/java8/LocalDateHandle.class
+│ +-rw----     2.0 fat     1694 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/java8/PeriodHandle.class
+│ +-rw----     2.0 fat     2496 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/java8/Java8TimeSerializer.class
+│ +-rw----     2.0 fat     1613 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/java8/YearMonthHandle.class
+│ +-rw----     2.0 fat     1700 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/java8/InstantHandle.class
+│ +-rw----     2.0 fat     1800 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/java8/LocalTimeHandle.class
+│ +-rw----     2.0 fat     1911 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/java8/ZonedDateTimeHandle.class
+│ +-rw----     2.0 fat     1611 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaDeserializer$ObjectFieldDeserializer.class
+│ +-rw----     2.0 fat     1804 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaSerializer$IntFieldSerializer.class
+│ +-rw----     2.0 fat     1941 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaSerializer$DateFieldSerializer.class
+│ +-rw----     2.0 fat     3747 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/ClassDeserializer.class
+│ +-rw----     2.0 fat     1292 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/Hessian2Input$ReadInputStream.class
+│ +-rw----     2.0 fat     1296 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/AbstractListDeserializer.class
+│ +-rw----     2.0 fat      225 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianRemoteObject.class
+│ +-rw----     2.0 fat     2080 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaDeserializer$ObjectSetFieldDeserializer.class
+│ +-rw----     2.0 fat     1397 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/AbstractMapDeserializer.class
+│ +-rw----     2.0 fat     2132 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianInputFactory.class
+│ +-rw----     2.0 fat      670 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianEnvelope.class
+│ +-rw----     2.0 fat     1697 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$Hessian2State.class
+│ +-rw----     2.0 fat     1717 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/Deflation$DeflateOutputStream.class
+│ +-rw----     2.0 fat     3066 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$ObjectDefState.class
+│ +-rw----     2.0 fat     1276 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/LocaleSerializer.class
+│ +-rw----     2.0 fat     1716 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/ExtSerializerFactory.class
+│ +-rw----     2.0 fat     3651 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$ObjectState.class
+│ +-rw----     2.0 fat      653 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/AbstractSerializerFactory.class
+│ +-rw----     2.0 fat     2234 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaSerializer$FieldSerializer.class
+│ +-rw----     2.0 fat     1525 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/ValueDeserializer.class
+│ +-rw----     2.0 fat     4853 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/MapDeserializer.class
+│ +-rw----     2.0 fat     2792 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$ReplyState.class
+│ +-rw----     2.0 fat     4474 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/AbstractDeserializer.class
+│ +-rw----     2.0 fat     1389 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianRemote.class
+│ +-rw----     2.0 fat      912 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/RemoteSerializer.class
+│ +-rw----     2.0 fat      709 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/StackTraceElementDeserializer.class
+│ +-rw----     2.0 fat     3377 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$ListState.class
+│ +-rw----     2.0 fat     1894 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaSerializer$StringFieldSerializer.class
+│ +-rw----     2.0 fat     1910 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugInputStream.class
+│ +-rw----     2.0 fat     1087 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaDeserializer$1.class
+│ +-rw----     2.0 fat     9091 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$State.class
+│ +-rw----     2.0 fat      684 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/BitSetHandle.class
+│ +-rw----     2.0 fat     2083 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaDeserializer$ObjectListFieldDeserializer.class
+│ +-rw----     2.0 fat     1830 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/CollectionSerializer.class
+│ +-rw----     2.0 fat     3080 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianSerializerInput.class
+│ +-rw----     2.0 fat      815 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/IOExceptionWrapper.class
+│ +-rw----     2.0 fat     1824 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaSerializer$BooleanFieldSerializer.class
+│ +-rw----     2.0 fat     3715 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/AbstractHessianInput.class
+│ +-rw----     2.0 fat     1413 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/CalendarHandle.class
+│ +-rw----     2.0 fat     2052 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/ObjectDeserializer.class
+│ +-rw----     2.0 fat     2123 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/EnumSerializer.class
+│ +-rw----     2.0 fat      837 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/AbstractSerializer.class
+│ +-rw----     2.0 fat      983 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/ThrowableSerializer.class
+│ +-rw----     2.0 fat     3607 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$StringState.class
+│ +-rw----     2.0 fat     2930 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/SqlDateDeserializer.class
+│ +-rw----     2.0 fat     1725 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaDeserializer$SqlTimeFieldDeserializer.class
+│ +-rw----     2.0 fat     9765 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianOutput.class
+│ +-rw----     2.0 fat     8097 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaSerializer.class
+│ +-rw----     2.0 fat      871 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianServiceException.class
+│ +-rw----     2.0 fat     2419 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/Deflation.class
+│ +-rw----     2.0 fat      634 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaDeserializer$FieldDeserializer.class
+│ +-rw----     2.0 fat     1133 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/InputStreamSerializer.class
+│ +-rw----     2.0 fat     1354 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/CalendarSerializer.class
+│ +-rw----     2.0 fat      862 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/Hessian2Input$ObjectDefinition.class
+│ +-rw----     2.0 fat      973 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/EnumSetHandler.class
+│ +-rw----     2.0 fat     7170 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState.class
+│ +-rw----     2.0 fat     2266 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$RefState.class
+│ +-rw----     2.0 fat     1010 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/BeanSerializerFactory.class
+│ +-rw----     2.0 fat     1281 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$InitialState.class
+│ +-rw----     2.0 fat     1820 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugOutputStream.class
+│ +-rw----     2.0 fat     1809 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaSerializer$LongFieldSerializer.class
+│ +-rw----     2.0 fat     1584 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaDeserializer$ShortFieldDeserializer.class
+│ +-rw----     2.0 fat     1644 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugOutputStream$LogWriter.class
+│ +-rw----     2.0 fat     1946 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/ArraySerializer.class
+│ +-rw----     2.0 fat     1968 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/Hessian2StreamingInput$StreamingInputStream.class
+│ +-rw----     2.0 fat     1531 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$MillsState.class
+│ +-rw----     2.0 fat     1249 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/Hessian2StreamingOutput.class
+│ +-rw----     2.0 fat     1444 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianInput$1.class
+│ +-rw----     2.0 fat     1368 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/EnumerationSerializer.class
+│ +-rw----     2.0 fat     3983 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$CompactListState.class
+│ +-rw----     2.0 fat     1819 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaSerializer$DoubleFieldSerializer.class
+│ +-rw----     2.0 fat     8636 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/BasicDeserializer.class
+│ +-rw----     2.0 fat     1171 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$Fault2State.class
+│ +-rw----     2.0 fat     3081 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$BinaryState.class
+│ +-rw----     2.0 fat     1595 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaDeserializer$BooleanFieldDeserializer.class
+│ +-rw----     2.0 fat     1729 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaDeserializer$SqlDateFieldDeserializer.class
+│ +-rw----     2.0 fat     2021 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$IntegerState.class
+│ +-rw----     2.0 fat     1009 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/Hessian2StreamingInput.class
+│ +-rw----     2.0 fat    16621 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/Hessian2Output.class
+│ +-rw----     2.0 fat     1854 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/EnumSetSerializer.class
+│ +-rw----     2.0 fat     1574 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaDeserializer$LongFieldDeserializer.class
+│ +-rw----     2.0 fat    12488 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaDeserializer.class
+│ +-rw----     2.0 fat     1326 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/EnumerationDeserializer.class
+│ +-rw----     2.0 fat     1134 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/Deserializer.class
+│ +-rw----     2.0 fat     1247 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/BitSetSerializer.class
+│ +-rw----     2.0 fat     1691 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$RemoteState.class
+│ +-rw----     2.0 fat     1574 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$DoubleState.class
+│ +-rw----     2.0 fat     2408 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$Call2State.class
+│ +-rw----     2.0 fat     1845 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$DateState.class
+│ +-rw----     2.0 fat     1310 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/ClassSerializer.class
+│ +-rw----     2.0 fat     6966 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/ClassFactory.class
+│ +-rw----     2.0 fat      766 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/AbstractHessianResolver.class
+│ +-rw----     2.0 fat     2286 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianSerializerOutput.class
+│ +-rw----     2.0 fat     4097 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/CollectionDeserializer.class
+│ +-rw----     2.0 fat     6707 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/BeanDeserializer.class
+│ +-rw----     2.0 fat    18968 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/SerializerFactory.class
+│ +-rw----     2.0 fat     2196 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$StreamingState.class
+│ +-rw----     2.0 fat      281 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianRemoteResolver.class
+│ +-rw----     2.0 fat      640 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/BigIntegerDeserializer.class
+│ +-rw----     2.0 fat     1396 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/StringValueSerializer.class
+│ +-rw----     2.0 fat     1229 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/UUIDDeserializer.class
+│ +-rw----     2.0 fat     1341 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/LocaleHandle.class
+│ +-rw----     2.0 fat      141 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianHandle.class
+│ +-rw----     2.0 fat     1171 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$Reply2State.class
+│ +-rw----     2.0 fat     1754 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaDeserializer$SqlTimestampFieldDeserializer.class
+│ +-rw----     2.0 fat     1717 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/Deflation$DeflateInputStream.class
+│ +-rw----     2.0 fat     2809 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/ArrayDeserializer.class
+│ +-rw----     2.0 fat     1743 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$DoubleIntegerState.class
+│ +-rw----     2.0 fat     1319 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/ClassFactory$AllowPrefix.class
+│ +-rw----     2.0 fat     2163 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$LongState.class
+│ +-rw----     2.0 fat      793 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/InputStreamDeserializer.class
+│ +-rw----     2.0 fat     1588 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaDeserializer$StringFieldDeserializer.class
+│ +-rw----     2.0 fat     4604 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/BasicSerializer.class
+│ +-rw----     2.0 fat      625 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/EnvelopeFactory.class
+│ +-rw----     2.0 fat     2039 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/MapSerializer.class
+│ +-rw----     2.0 fat     1507 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/ClassFactory$Allow.class
+│ +-rw----     2.0 fat     1588 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaDeserializer$DoubleFieldDeserializer.class
+│ +-rw----     2.0 fat     1343 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$IndirectState.class
+│ +-rw----     2.0 fat     6899 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/BeanSerializer.class
+│ +-rw----     2.0 fat    38660 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/Hessian2Input.class
+│ +-rw----     2.0 fat    23466 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianInput.class
+│ +-rw----     2.0 fat     3478 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$MapState.class
+│ +-rw----     2.0 fat     1089 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianProtocolException.class
+│ +-rw----     2.0 fat     3906 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/AbstractHessianOutput.class
+│ +-rw----     2.0 fat     2786 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/StringValueDeserializer.class
+│ +-rw----     2.0 fat     1449 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/SqlDateSerializer.class
+│ +-rw----     2.0 fat     1580 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaDeserializer$ByteFieldDeserializer.class
+│ +-rw----     2.0 fat      286 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/Serializer.class
+│ +-rw----     2.0 fat     1093 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$ObjectDef.class
+│ +-rw----     2.0 fat     1770 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$Top2State.class
+│ +-rw----     2.0 fat     2647 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugState$CallState.class
+│ +-rw----     2.0 fat      252 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/ClassFactory$1.class
+│ +-rw----     2.0 fat     2225 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/Hessian2Output$BytesOutputStream.class
+│ +-rw----     2.0 fat     1640 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianDebugInputStream$LogWriter.class
+│ +-rw----     2.0 fat     1585 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaDeserializer$FloatFieldDeserializer.class
+│ +-rw----     2.0 fat     1335 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/IteratorSerializer.class
+│ +-rw----     2.0 fat     2181 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaDeserializer$ObjectMapFieldDeserializer.class
+│ +-rw----     2.0 fat      830 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/HessianFieldException.class
+│ +-rw----     2.0 fat     2621 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/Hessian2Constants.class
+│ +-rw----     2.0 fat     1575 bl defN 22-Sep-02 10:24 com/alibaba/com/caucho/hessian/io/JavaDeserializer$IntFieldDeserializer.class
+│  -rw----     2.0 fat        0 bl defN 22-Sep-02 10:24 META-INF/maven/com.alibaba/
+│  -rw----     2.0 fat        0 bl defN 22-Sep-02 10:24 META-INF/maven/com.alibaba/hessian-lite/
+│  -rw----     2.0 fat     9692 bl defN 22-Sep-02 10:24 META-INF/maven/com.alibaba/hessian-lite/pom.xml
+│ --rw----     2.0 fat      109 bl defN 22-Sep-02 10:27 META-INF/maven/com.alibaba/hessian-lite/pom.properties
+│ +-rw----     2.0 fat      109 bl defN 22-Sep-02 10:24 META-INF/maven/com.alibaba/hessian-lite/pom.properties
+│  -rw----     2.0 fat       57 bl defN 20-Apr-01 08:04 META-INF/dubbo/internal/org.apache.dubbo.auth.spi.AccessKeyStorage
+│  -rw----     2.0 fat       55 bl defN 20-Apr-01 08:04 META-INF/dubbo/internal/org.apache.dubbo.auth.spi.Authenticator
+│  -rw----     2.0 fat      319 bl defN 20-Apr-01 08:04 META-INF/dubbo/internal/org.apache.dubbo.cache.CacheFactory
+│  -rwx---     2.0 fat      193 bl defN 20-Apr-01 08:04 META-INF/dubbo/internal/org.apache.dubbo.common.compiler.Compiler
+│  -rw----     2.0 fat      439 bl defN 20-Apr-01 08:04 META-INF/dubbo/internal/org.apache.dubbo.common.config.configcenter.DynamicConfigurationFactory
+│  -rw----     2.0 fat      109 bl defN 20-Apr-01 08:04 META-INF/dubbo/internal/org.apache.dubbo.common.context.ApplicationExt
+│  -rw----     2.0 fat      133 bl defN 20-Apr-01 08:04 META-INF/dubbo/internal/org.apache.dubbo.common.context.ModuleExt
+├── META-INF/maven/com.alibaba/hessian-lite/pom.properties
+│ @@ -1,5 +1,5 @@
+│  #Generated by Maven
+│ -#Fri Sep 02 10:27:09 CST 2022
+│ +#Fri Sep 02 10:24:17 CST 2022
+│  version=3.2.13
+│  groupId=com.alibaba
+│  artifactId=hessian-lite
+
+3 / 5 target/reference/dubbo-dependencies-bom-3.1.9.pom dubbo-dependencies-bom/.flattened-pom.xml
+--- target/reference/dubbo-dependencies-bom-3.1.9.pom
++++ dubbo-dependencies-bom/.flattened-pom.xml
+│   --- target/reference/dubbo-dependencies-bom-3.1.9.pom
+├── +++ dubbo-dependencies-bom/.flattened-pom.xml
+│ @@ -842,14 +842,18 @@
+│                  <arg>--digest-algo=SHA512</arg>
+│                </gpgArguments>
+│              </configuration>
+│            </plugin>
+│          </plugins>
+│        </build>
+│        <properties>
+│ -        <os.detected.name>osx</os.detected.name>
+│ -        <os.detected.classifier>osx-x86_64</os.detected.classifier>
+│ +        <os.detected.release.version>22.04</os.detected.release.version>
+│ +        <os.detected.release.like.ubuntu>true</os.detected.release.like.ubuntu>
+│ +        <os.detected.release>ubuntu</os.detected.release>
+│ +        <os.detected.name>linux</os.detected.name>
+│ +        <os.detected.release.like.debian>true</os.detected.release.like.debian>
+│ +        <os.detected.classifier>linux-x86_64</os.detected.classifier>
+│          <os.detected.arch>x86_64</os.detected.arch>
+│        </properties>
+│      </profile>
+│    </profiles>
+│  </project>
+
+4 / 5 target/reference/dubbo-dependencies-zookeeper-3.1.9.pom dubbo-dependencies/dubbo-dependencies-zookeeper/.flattened-pom.xml
+--- target/reference/dubbo-dependencies-zookeeper-3.1.9.pom
++++ dubbo-dependencies/dubbo-dependencies-zookeeper/.flattened-pom.xml
+│   --- target/reference/dubbo-dependencies-zookeeper-3.1.9.pom
+├── +++ dubbo-dependencies/dubbo-dependencies-zookeeper/.flattened-pom.xml
+│ @@ -107,14 +107,18 @@
+│                  <arg>--digest-algo=SHA512</arg>
+│                </gpgArguments>
+│              </configuration>
+│            </plugin>
+│          </plugins>
+│        </build>
+│        <properties>
+│ -        <os.detected.name>osx</os.detected.name>
+│ -        <os.detected.classifier>osx-x86_64</os.detected.classifier>
+│ +        <os.detected.release.version>22.04</os.detected.release.version>
+│ +        <os.detected.release.like.ubuntu>true</os.detected.release.like.ubuntu>
+│ +        <os.detected.release>ubuntu</os.detected.release>
+│ +        <os.detected.name>linux</os.detected.name>
+│ +        <os.detected.release.like.debian>true</os.detected.release.like.debian>
+│ +        <os.detected.classifier>linux-x86_64</os.detected.classifier>
+│          <os.detected.arch>x86_64</os.detected.arch>
+│        </properties>
+│      </profile>
+│    </profiles>
+│  </project>
+
+5 / 5 target/reference/dubbo-dependencies-zookeeper-curator5-3.1.9.pom dubbo-dependencies/dubbo-dependencies-zookeeper-curator5/.flattened-pom.xml
+--- target/reference/dubbo-dependencies-zookeeper-curator5-3.1.9.pom
++++ dubbo-dependencies/dubbo-dependencies-zookeeper-curator5/.flattened-pom.xml
+│   --- target/reference/dubbo-dependencies-zookeeper-curator5-3.1.9.pom
+├── +++ dubbo-dependencies/dubbo-dependencies-zookeeper-curator5/.flattened-pom.xml
+│ @@ -161,14 +161,18 @@
+│                  <arg>--digest-algo=SHA512</arg>
+│                </gpgArguments>
+│              </configuration>
+│            </plugin>
+│          </plugins>
+│        </build>
+│        <properties>
+│ -        <os.detected.name>osx</os.detected.name>
+│ -        <os.detected.classifier>osx-x86_64</os.detected.classifier>
+│ +        <os.detected.release.version>22.04</os.detected.release.version>
+│ +        <os.detected.release.like.ubuntu>true</os.detected.release.like.ubuntu>
+│ +        <os.detected.release>ubuntu</os.detected.release>
+│ +        <os.detected.name>linux</os.detected.name>
+│ +        <os.detected.release.like.debian>true</os.detected.release.like.debian>
+│ +        <os.detected.classifier>linux-x86_64</os.detected.classifier>
+│          <os.detected.arch>x86_64</os.detected.arch>
+│        </properties>
+│      </profile>
+│    </profiles>
+│  </project>
+
