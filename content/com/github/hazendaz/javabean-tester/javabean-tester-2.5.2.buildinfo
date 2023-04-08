@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=javabean-tester
+group-id=com.github.hazendaz
+artifact-id=javabean-tester
+version=2.5.2
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/hazendaz/javabean-tester.git
+source.scm.tag=javabean-tester-2.5.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=javabean-tester-2.5.2.pom
+outputs.0.length=56727
+outputs.0.checksums.sha512=e9a816163e047c3ddb90df3eb9664cd19c5a832205f484c42c8037e9a42fb437178732986b76449b4055c71274db37e6b6d0aed26932330c75f8afd1c1807563
+
+outputs.1.filename=javabean-tester-2.5.2.jar
+outputs.1.length=40645
+outputs.1.checksums.sha512=3f3cba6bebb2dfb7fc922e2ee68a8a7256704b85cb9cd5808cfb68292a064ae8327542531698d50c2de2c8358f13c68a7c4e91356c1c20ceaadd1e61577f7e89
+
+outputs.2.filename=javabean-tester-2.5.2-tests.jar
+outputs.2.length=42123
+outputs.2.checksums.sha512=ace363d24684af2a415ec81587cf2427573068c7118d6653f6048fac47a59368b91f20330de8d91340c4fc73b511b838b99d2657e464c8e970a81f6bfe2333b9
+
+outputs.3.filename=javabean-tester-2.5.2-sources.jar
+outputs.3.length=30338
+outputs.3.checksums.sha512=a60c1b370502916cbe799eca483bc064fa0c2051bef8775842ee7732bd8db90a0fcacc8ff232a50434a6d5d2081a2568a0c6be1d0956a0fb5af3ada19da82ef4
+
+outputs.4.filename=javabean-tester-2.5.2-test-sources.jar
+outputs.4.length=22276
+outputs.4.checksums.sha512=bdabbe6430871b8de8bc922596586e6cd159192b1ab0f8fd0539c63803bcba55fe6bacfe387a9479ccbede2ed234f814d2010363c65749b0db8001abc67e8aba
