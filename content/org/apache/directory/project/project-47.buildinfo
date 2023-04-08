@@ -1,0 +1,35 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Directory Project
+group-id=org.apache.directory.project
+artifact-id=project
+version=47
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/directory-project.git
+source.scm.tag=47
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.5.4
+
+# output
+
+outputs.0.filename=project-47.pom
+outputs.0.length=39484
+outputs.0.checksums.sha512=9f9548cbfc72749ed57389171844bfd6d1b1a6277cee88d1b7db60c7c104b133a67977bb8f1811a5bad82166c3a8b3536fb13d525a7ddd4ff29f914cf0025754
+
+outputs.1.filename=project-47-site.xml
+outputs.1.length=1899
+outputs.1.checksums.sha512=e77ee551b0752a886827aeb65ad1f8fd80e7ea75af2f6d088c169c8fc860fe9b40df3f5b9c31985f1d0cf09926619e39f3e6c083fe3cefffeb5bb64a4e8b5a97
+
+outputs.2.filename=project-47-source-release.zip
+outputs.2.length=42023
+outputs.2.checksums.sha512=fb2d067bb2c0a4509ec8f11f3ab90b2b1ba3188d81898d699472fd44646c4b1cfff0761b1d39f491766bff42447add589fe5fe54177e3fc2d9db8f50b3d950e9
