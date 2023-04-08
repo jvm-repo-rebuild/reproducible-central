@@ -1,0 +1,16 @@
+groupId=io.cucumber
+artifactId=junit-xml-formatter
+display=${groupId}:${artifactId}
+version=0.2.0
+
+gitRepo=https://github.com/cucumber/cucumber-${artifactId}.git
+gitTag=v${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn -f java/pom.xml -Psign-source-javadoc clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=java/target/${artifactId}-${version}.buildinfo
+
+issue=
