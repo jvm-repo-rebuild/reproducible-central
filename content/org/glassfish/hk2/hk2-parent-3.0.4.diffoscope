@@ -1,0 +1,17 @@
+1 / 17 target/reference/hk2-runlevel-3.0.4.jar hk2-runlevel/target/hk2-runlevel.jar
+--- target/reference/hk2-runlevel-3.0.4.jar
++++ hk2-runlevel/target/hk2-runlevel.jar
+├── META-INF/hk2-locator/default
+│ @@ -1,9 +1,9 @@
+│  #
+│ -# Generated on Tue Mar 28 22:02:32 UTC 2023 by hk2-inhabitant-generator
+│ +# Generated on Sun Apr 09 07:33:34 UTC 2023 by hk2-inhabitant-generator
+│  #
+│  
+│  [org.glassfish.hk2.runlevel.RunLevelContext]S
+│  contract={org.glassfish.hk2.api.Context}
+│  name=DefaultRunLevelContext
+│  qualifier={jakarta.inject.Named}
+│  visibility=LOCAL
+
+# same issue fo all 16 others
