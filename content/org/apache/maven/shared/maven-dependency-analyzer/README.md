@@ -13,6 +13,7 @@ rebuilding **4 releases** of org.apache.maven.shared:maven-dependency-analyzer:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.13.1](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-dependency-analyzer/1.13.1/pom) | | | |
 | [1.13.0](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-dependency-analyzer/1.13.0/pom) | [mvn jdk8](maven-dependency-analyzer-1.13.0.buildspec) | [result](maven-dependency-analyzer-1.13.0.buildinfo): [4 :heavy_check_mark: ](maven-dependency-analyzer-1.13.0.buildcompare) | 245K |
 | [1.12.0](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-dependency-analyzer/1.12.0/pom) | [mvn jdk8](maven-dependency-analyzer-1.12.0.buildspec) | [result](maven-dependency-analyzer-1.12.0.buildinfo): [4 :heavy_check_mark: ](maven-dependency-analyzer-1.12.0.buildcompare) | 230K |
 | [1.11.3](https://central.sonatype.com/artifact/org.apache.maven.shared/maven-dependency-analyzer/1.11.3/pom) | [mvn jdk8](maven-dependency-analyzer-1.11.3.buildspec) | [result](maven-dependency-analyzer-1.11.3.buildinfo): [4 :heavy_check_mark: ](maven-dependency-analyzer-1.11.3.buildcompare) | 211K |
