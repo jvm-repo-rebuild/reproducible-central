@@ -24,9 +24,9 @@ for bs in $(
 )
 do
   . ${bs}
+  . $(dirname $bs)/$(basename $buildinfo .buildinfo)".buildcompare"
 
   # extract last release from maven-metadata.xml
-  echo -n "checking for release of ${groupId}:${artifactId} newer than ${version}"
   groupDir=$(echo ${groupId} | tr '.' '/')
   mavenMetadata=`dirname ${bs}`/maven-metadata.xml
   [ -d `dirname ${mavenMetadata}` ] || mkdir `dirname ${mavenMetadata}`
@@ -57,8 +57,16 @@ do
   then
     echo -ne "\r\033[2K"
   else
-    echo ": found ${latest}"
+    echo "${groupId}:${artifactId} found ${latest} newer than ${version}"
+    if [ $ko -gt 0 ]
+    then
+      echo -ne "   ok=$ok \033[31;1mko=$ko\033[0m"
+    else
+      echo -ne "   \033[32;1mok=$ok\033[0m ko=$ko"
+    fi
+    echo " https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/$(dirname $bs)/README.md"
     # new release, create a new buildspec
-    echo -e "=> TODO create buildspec for ${latest} from ${version}: run \033[1m./add-new-release.sh ${bs} ${latest}\033[0m"
+    echo -e "\033[1mbin/add-new-release.sh ${bs} ${latest}\033[0m"
+    echo
   fi
 done
