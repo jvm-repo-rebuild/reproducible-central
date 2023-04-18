@@ -64,7 +64,7 @@ do
     else
       echo -ne "   \033[32;1mok=$ok\033[0m ko=$ko"
     fi
-    echo " https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/$(dirname $bs)/README.md"
+    echo " tool=$tool jdk=$jdk newline=$newline https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/$(dirname $bs)/README.md"
     # new release, create a new buildspec
     echo -e "\033[1mbin/add-new-release.sh ${bs} ${latest}\033[0m"
     echo
