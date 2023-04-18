@@ -1,0 +1,7 @@
+version=1.0.4
+ok=17
+ko=0
+okFiles="mima-1.0.4.pom context-1.0.4.pom context-1.0.4.jar context-1.0.4-sources.jar runtime-1.0.4.pom embedded-maven-1.0.4.pom embedded-maven-1.0.4.jar embedded-maven-1.0.4-sources.jar standalone-shared-1.0.4.pom standalone-shared-1.0.4.jar standalone-shared-1.0.4-sources.jar standalone-sisu-1.0.4.pom standalone-sisu-1.0.4.jar standalone-sisu-1.0.4-sources.jar standalone-sisu-uber-1.0.4.pom standalone-sisu-uber-1.0.4.jar standalone-sisu-uber-1.0.4-sources.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
