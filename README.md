@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **1722 releases** of **396 projects**:
-   - **1279** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **1740 releases** of **396 projects**:
+   - **1297** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 443 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
@@ -27,7 +27,7 @@ Its objectives are to provide:
 | ch.qos.reload4j | <a name='ch.qos.reload4j:reload4j'></a>[reload4j](content/ch/qos/reload4j/README.md) | 7 | 1 :heavy_check_mark: / 6 :warning: |
 | ch.qos.logback.db | <a name='ch.qos.logback.db:logback-parent-db'></a>[logback-parent-db](content/ch/qos/logback/db/README.md) | 1 | 1 :warning: |
 | com.adobe.acs | <a name='com.adobe.acs:acs-aem-commons'></a>[acs-aem-commons](content/com/adobe/acs/aem-commons/README.md) | 2 | 2 :warning: |
-| com.fasterxml | <a name='com.fasterxml:oss-parent'></a>[oss-parent](content/com/fasterxml/oss-parent/README.md) | 4 | 4 :heavy_check_mark: |
+| com.fasterxml | <a name='com.fasterxml:oss-parent'></a>[oss-parent](content/com/fasterxml/oss-parent/README.md) | 5 | 5 :heavy_check_mark: |
 | com.fasterxml.uuid | <a name='com.fasterxml.uuid:java-uuid-generator'></a>[java-uuid-generator](content/com/fasterxml/uuid/README.md) | 1 | 1 :warning: |
 | com.fasterxml.jackson.core | <a name='com.fasterxml.jackson.core:jackson-annotations'></a>[jackson-annotations](content/com/fasterxml/jackson/annotations/README.md) | 3 | 3 :warning: |
 | | <a name='com.fasterxml.jackson.core:jackson-core'></a>[jackson-core](content/com/fasterxml/jackson/core/README.md) | 2 | 2 :warning: |
@@ -59,7 +59,7 @@ Its objectives are to provide:
 | de.unentscheidbar | <a name='de.unentscheidbar:migratedb'></a>[migratedb](content/de/unentscheidbar/migratedb/README.md) | 2 | 2 :heavy_check_mark: |
 | eu.europa.ted.eforms | <a name='eu.europa.ted.eforms:eforms-core-java'></a>[eforms-core-java](content/eu/europa/ted/eforms/eforms-core-java/README.md) | 1 | 1 :warning: |
 | | <a name='eu.europa.ted.eforms:eforms-sdk'></a>[eforms-sdk](content/eu/europa/ted/eforms/eforms-sdk/README.md) | 3 | 1 :heavy_check_mark: / 2 :warning: |
-| eu.maveniverse.maven.mima | <a name='eu.maveniverse.maven.mima:mima'></a>[mima](content/eu/maveniverse/maven/mima/README.md) | 3 | 3 :heavy_check_mark: |
+| eu.maveniverse.maven.mima | <a name='eu.maveniverse.maven.mima:mima'></a>[mima](content/eu/maveniverse/maven/mima/README.md) | 7 | 7 :heavy_check_mark: |
 | fr.inria.gforge.spoon | <a name='fr.inria.gforge.spoon:spoon-core'></a>[spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 1 | 1 :heavy_check_mark: |
 | fr.marcwrobel | <a name='fr.marcwrobel:jbanking'></a>[jbanking](content/fr/marcwrobel/jbanking/README.md) | 1 | 1 :heavy_check_mark: |
 | fr.vidal.oss | <a name='fr.vidal.oss:atom-jaxb'></a>[atom-jaxb](content/fr/vidal/oss/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
@@ -103,7 +103,7 @@ Its objectives are to provide:
 | net.sourceforge.pmd | <a name='net.sourceforge.pmd:pmd'></a>[pmd](content/net/sourceforge/pmd/README.md) | 32 | 31 :heavy_check_mark: / 1 :warning: |
 | | <a name='net.sourceforge.pmd:pmd-build-tools-config'></a>[pmd-build-tools-config](content/net/sourceforge/pmd/pmd-build-tools-config/README.md) | 4 | 4 :heavy_check_mark: |
 | nl.basjes.maven.release | <a name='nl.basjes.maven.release:conventional-commits-version-policy'></a>[conventional-commits-version-policy](content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | 1 | 1 :heavy_check_mark: |
-| nl.basjes.parse.useragent | <a name='nl.basjes.parse.useragent:yauaa'></a>[yauaa](content/nl/basjes/parse/useragent/yauaa/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
+| nl.basjes.parse.useragent | <a name='nl.basjes.parse.useragent:yauaa'></a>[yauaa](content/nl/basjes/parse/useragent/yauaa/README.md) | 6 | 5 :heavy_check_mark: / 1 :warning: |
 | nl.hsac | <a name='nl.hsac:hsac-fitnesse-fixtures'></a>[hsac-fitnesse-fixtures](content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 53 | 42 :heavy_check_mark: / 11 :warning: |
 | org.quickperf | <a name='org.quickperf:quick-perf'></a>[quick-perf](content/org/quickperf/README.md) | 3 | 3 :heavy_check_mark: |
 | org.slf4j | <a name='org.slf4j:slf4j-parent'></a>[slf4j-parent](content/org/slf4j/README.md) | 7 | 2 :heavy_check_mark: / 5 :warning: |
@@ -162,10 +162,10 @@ Its objectives are to provide:
 | org.apache.karaf | <a name='org.apache.karaf:decanter'></a>[decanter](content/org/apache/karaf/decanter/README.md) | 2 | 2 :warning: |
 | | <a name='org.apache.karaf:karaf'></a>[karaf](content/org/apache/karaf/karaf/README.md) | 5 | 5 :warning: |
 | org.apache.karaf.minho | <a name='org.apache.karaf.minho:minho'></a>[minho](content/org/apache/karaf/minho/README.md) | 1 | 1 :heavy_check_mark: |
-| org.apache.logging | <a name='org.apache.logging:logging-parent'></a>[logging-parent](content/org/apache/logging/parent/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
+| org.apache.logging | <a name='org.apache.logging:logging-parent'></a>[logging-parent](content/org/apache/logging/parent/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
 | org.apache.maven.archetype | <a name='org.apache.maven.archetype:maven-archetype'></a>[maven-archetype](content/org/apache/maven/archetype/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.maven.enforcer | <a name='org.apache.maven.enforcer:enforcer'></a>[enforcer](content/org/apache/maven/enforcer/README.md) | 4 | 4 :heavy_check_mark: |
-| org.apache.maven.indexer | <a name='org.apache.maven.indexer:maven-indexer'></a>[maven-indexer](content/org/apache/maven/indexer/README.md) | 5 | 3 :heavy_check_mark: / 2 :warning: |
+| org.apache.maven.indexer | <a name='org.apache.maven.indexer:maven-indexer'></a>[maven-indexer](content/org/apache/maven/indexer/README.md) | 6 | 4 :heavy_check_mark: / 2 :warning: |
 | org.apache.maven.jxr | <a name='org.apache.maven.jxr:jxr'></a>[jxr](content/org/apache/maven/jxr/README.md) | 3 | 3 :heavy_check_mark: |
 | org.apache.maven | <a name='org.apache.maven:maven'></a>[maven](content/org/apache/maven/maven/README.md) | 14 | 11 :heavy_check_mark: / 3 :warning: |
 | | <a name='org.apache.maven:maven-parent'></a>[maven-parent](content/org/apache/maven/parent/README.md) | 6 | 4 :heavy_check_mark: / 2 :warning: |
@@ -203,21 +203,21 @@ Its objectives are to provide:
 | | <a name='org.apache.maven.plugins:maven-scm-publish-plugin'></a>[maven-scm-publish-plugin](content/org/apache/maven/plugins/maven-scm-publish-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-scripting-plugin'></a>[maven-scripting-plugin](content/org/apache/maven/plugins/maven-scripting-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-shade-plugin'></a>[maven-shade-plugin](content/org/apache/maven/plugins/maven-shade-plugin/README.md) | 6 | 6 :heavy_check_mark: |
-| | <a name='org.apache.maven.plugins:maven-site-plugin'></a>[maven-site-plugin](content/org/apache/maven/plugins/maven-site-plugin/README.md) | 12 | 10 :heavy_check_mark: / 2 :warning: |
+| | <a name='org.apache.maven.plugins:maven-site-plugin'></a>[maven-site-plugin](content/org/apache/maven/plugins/maven-site-plugin/README.md) | 13 | 11 :heavy_check_mark: / 2 :warning: |
 | | <a name='org.apache.maven.plugins:maven-source-plugin'></a>[maven-source-plugin](content/org/apache/maven/plugins/maven-source-plugin/README.md) | 1 | 1 :warning: |
 | | <a name='org.apache.maven.plugins:maven-toolchains-plugin'></a>[maven-toolchains-plugin](content/org/apache/maven/plugins/maven-toolchains-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-war-plugin'></a>[maven-war-plugin](content/org/apache/maven/plugins/maven-war-plugin/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-wrapper-plugin'></a>[maven-wrapper-plugin](content/org/apache/maven/plugins/maven-wrapper-plugin/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
-| org.apache.maven.reporting | <a name='org.apache.maven.reporting:maven-reporting-api'></a>[maven-reporting-api](content/org/apache/maven/reporting/maven-reporting-api/README.md) | 7 | 7 :heavy_check_mark: |
+| org.apache.maven.reporting | <a name='org.apache.maven.reporting:maven-reporting-api'></a>[maven-reporting-api](content/org/apache/maven/reporting/maven-reporting-api/README.md) | 8 | 8 :heavy_check_mark: |
 | | <a name='org.apache.maven.reporting:maven-reporting-exec'></a>[maven-reporting-exec](content/org/apache/maven/reporting/maven-reporting-exec/README.md) | 8 | 8 :heavy_check_mark: |
 | | <a name='org.apache.maven.reporting:maven-reporting-impl'></a>[maven-reporting-impl](content/org/apache/maven/reporting/maven-reporting-impl/README.md) | 8 | 8 :heavy_check_mark: |
-| org.apache.maven.resolver | <a name='org.apache.maven.resolver:maven-resolver'></a>[maven-resolver](content/org/apache/maven/resolver/maven-resolver/README.md) | 18 | 17 :heavy_check_mark: / 1 :warning: |
+| org.apache.maven.resolver | <a name='org.apache.maven.resolver:maven-resolver'></a>[maven-resolver](content/org/apache/maven/resolver/maven-resolver/README.md) | 19 | 18 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.apache.maven.resolver:maven-resolver-ant-tasks'></a>[maven-resolver-ant-tasks](content/org/apache/maven/resolver/maven-resolver-ant-tasks/README.md) | 4 | 4 :heavy_check_mark: |
 | org.apache.maven | <a name='org.apache.maven:maven-archiver'></a>[maven-archiver](content/org/apache/maven/shared/archiver/README.md) | 3 | 3 :heavy_check_mark: |
 | org.apache.maven.shared | <a name='org.apache.maven.shared:file-management'></a>[file-management](content/org/apache/maven/shared/file-management/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.maven.shared:maven-artifact-transfer'></a>[maven-artifact-transfer](content/org/apache/maven/shared/maven-artifact-transfer/README.md) | 1 | 1 :warning: |
 | | <a name='org.apache.maven.shared:maven-common-artifact-filters'></a>[maven-common-artifact-filters](content/org/apache/maven/shared/maven-common-artifact-filters/README.md) | 5 | 5 :heavy_check_mark: |
-| | <a name='org.apache.maven.shared:maven-dependency-analyzer'></a>[maven-dependency-analyzer](content/org/apache/maven/shared/maven-dependency-analyzer/README.md) | 4 | 4 :heavy_check_mark: |
+| | <a name='org.apache.maven.shared:maven-dependency-analyzer'></a>[maven-dependency-analyzer](content/org/apache/maven/shared/maven-dependency-analyzer/README.md) | 5 | 5 :heavy_check_mark: |
 | | <a name='org.apache.maven.shared:maven-dependency-tree'></a>[maven-dependency-tree](content/org/apache/maven/shared/maven-dependency-tree/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.apache.maven.shared:maven-filtering'></a>[maven-filtering](content/org/apache/maven/shared/maven-filtering/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.apache.maven.shared:maven-invoker'></a>[maven-invoker](content/org/apache/maven/shared/maven-invoker/README.md) | 2 | 2 :heavy_check_mark: |
@@ -320,11 +320,11 @@ Its objectives are to provide:
 | | <a name='org.apache.sling:org.apache.sling.tenant'></a>[*.tenant](content/org/apache/sling/org.apache.sling.tenant/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.testing.caconfig-mock-plugin'></a>[*.testing.caconfig-mock-plugin](content/org/apache/sling/org.apache.sling.testing.caconfig-mock-plugin/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.testing.clients'></a>[*.testing.clients](content/org/apache/sling/org.apache.sling.testing.clients/README.md) | 7 | 7 :heavy_check_mark: |
-| | <a name='org.apache.sling:org.apache.sling.testing.jcr-mock'></a>[*.testing.jcr-mock](content/org/apache/sling/org.apache.sling.testing.jcr-mock/README.md) | 4 | 4 :heavy_check_mark: |
+| | <a name='org.apache.sling:org.apache.sling.testing.jcr-mock'></a>[*.testing.jcr-mock](content/org/apache/sling/org.apache.sling.testing.jcr-mock/README.md) | 5 | 5 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.testing.osgi-mock'></a>[*.testing.osgi-mock](content/org/apache/sling/org.apache.sling.testing.osgi-mock/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.testing.resourceresolver-mock'></a>[*.testing.resourceresolver-mock](content/org/apache/sling/org.apache.sling.testing.resourceresolver-mock/README.md) | 6 | 5 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.apache.sling:org.apache.sling.testing.sling-mock'></a>[*.testing.sling-mock](content/org/apache/sling/org.apache.sling.testing.sling-mock/README.md) | 5 | 5 :heavy_check_mark: |
-| | <a name='org.apache.sling:org.apache.sling.testing.sling-mock-oak'></a>[*.testing.sling-mock-oak](content/org/apache/sling/org.apache.sling.testing.sling-mock-oak/README.md) | 4 | 4 :heavy_check_mark: |
+| | <a name='org.apache.sling:org.apache.sling.testing.sling-mock-oak'></a>[*.testing.sling-mock-oak](content/org/apache/sling/org.apache.sling.testing.sling-mock-oak/README.md) | 5 | 5 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.tooling.support.install'></a>[*.tooling.support.install](content/org/apache/sling/org.apache.sling.tooling.support.install/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.tooling.support.source'></a>[*.tooling.support.source](content/org/apache/sling/org.apache.sling.tooling.support.source/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.xss'></a>[*.xss](content/org/apache/sling/org.apache.sling.xss/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
@@ -363,7 +363,7 @@ Its objectives are to provide:
 | org.complate | <a name='org.complate:complate-core'></a>[complate-core](content/org/complate/java/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='org.complate:complate-spring-mvc'></a>[complate-spring-mvc](content/org/complate/spring/README.md) | 2 | 2 :heavy_check_mark: |
 | org.cyclonedx | <a name='org.cyclonedx:cyclonedx-core-java'></a>[cyclonedx-core-java](content/org/cyclonedx/cyclonedx-core-java/README.md) | 28 | 28 :heavy_check_mark: |
-| | <a name='org.cyclonedx:cyclonedx-maven-plugin'></a>[cyclonedx-maven-plugin](content/org/cyclonedx/cyclonedx-maven-plugin/README.md) | 18 | 18 :heavy_check_mark: |
+| | <a name='org.cyclonedx:cyclonedx-maven-plugin'></a>[cyclonedx-maven-plugin](content/org/cyclonedx/cyclonedx-maven-plugin/README.md) | 19 | 19 :heavy_check_mark: |
 | org.eclipse.jkube | <a name='org.eclipse.jkube:jkube'></a>[jkube](content/org/eclipse/jkube/README.md) | 16 | 16 :heavy_check_mark: |
 | org.eclipse.transformer | <a name='org.eclipse.transformer:org.eclipse.transformer.parent'></a>[*.parent](content/org/eclipse/transformer/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | org.finos.legend.engine | <a name='org.finos.legend.engine:legend-engine'></a>[legend-engine](content/org/finos/legend/engine/README.md) | 1 | 1 :warning: |
@@ -407,7 +407,7 @@ Its objectives are to provide:
 | org.sonatype.nexus.archetypes | <a name='org.sonatype.nexus.archetypes:nexus-format-archetype'></a>[nexus-format-archetype](content/org/sonatype/nexus/archetypes/nexus-format-archetype/README.md) | 5 | 5 :heavy_check_mark: |
 | org.tomitribe.transformer | <a name='org.tomitribe.transformer:org.eclipse.transformer.parent'></a>[org.eclipse.transformer.parent](content/org/tomitribe/transformer/README.md) | 2 | 2 :heavy_check_mark: |
 | org.webjars | <a name='org.webjars:bootstrap'></a>[bootstrap](content/org/webjars/bootstrap/README.md) | 4 | 4 :heavy_check_mark: |
-| | <a name='org.webjars:flexmonster'></a>[flexmonster](content/org/webjars/flexmonster/README.md) | 29 | 28 :heavy_check_mark: / 1 :warning: |
+| | <a name='org.webjars:flexmonster'></a>[flexmonster](content/org/webjars/flexmonster/README.md) | 30 | 29 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.webjars:font-awesome'></a>[font-awesome](content/org/webjars/font-awesome/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.webjars:jszip'></a>[jszip](content/org/webjars/jszip/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.webjars:redoc'></a>[redoc](content/org/webjars/redoc/README.md) | 1 | 1 :heavy_check_mark: |
@@ -418,7 +418,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 11 | 11 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 6 | 6 :warning: |
-| **Count:** | **396** | **1722** | **1279** :heavy_check_mark: **443** :warning: |
+| **Count:** | **396** | **1740** | **1297** :heavy_check_mark: **443** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -430,13 +430,13 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      18 gradle     11
      26 mvn         7
-    820 mvn         8
+    825 mvn         8
       1 mvn         9
-    620 mvn        11
+    624 mvn        11
       4 mvn        14
      10 mvn        15
      10 mvn        16
-     92 mvn        17
+     93 mvn        17
      10 mvn        18
       9 mvn        19
       2 mvn-3.5.4   8
@@ -445,13 +445,13 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       6 mvn-3.8.5  17
      21 mvn-3.8.6   8
       1 mvn-3.8.6  11
-     30 mvn-3.8.6  17
+     31 mvn-3.8.6  17
       2 mvn-3.8.6  18
       4 mvn-3.8.6  19
-      5 mvn-3.8.7  17
+      7 mvn-3.8.7  17
       2 mvn-3.9.0  11
       2 mvn-3.9.0  17
       2 mvn-3.9.1   8
-     10 mvn-3.9.1  17
+     15 mvn-3.9.1  17
       2 sbt         8
 <!-- END GENERATED STATS -->

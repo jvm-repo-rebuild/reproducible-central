@@ -1,39 +1,39 @@
-[org.apache.maven.resolver:maven-resolver](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/1.9.7/versions) RB check
+[org.apache.maven.resolver:maven-resolver](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/1.9.8/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.resolver:maven-resolver](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/1.9.7/versions)
+## Project: [org.apache.maven.resolver:maven-resolver](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/1.9.8/versions)
 
 Source code: [https://github.com/apache/maven-resolver.git](https://github.com/apache/maven-resolver.git)
 
 <details><summary>This project defines 16 modules:</summary>
 
-* [org.apache.maven.resolver:maven-resolver](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/1.9.7)
-* [org.apache.maven.resolver:maven-resolver-api](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-api/1.9.7)
-* [org.apache.maven.resolver:maven-resolver-connector-basic](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-connector-basic/1.9.7)
-* [org.apache.maven.resolver:maven-resolver-impl](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-impl/1.9.7)
-* [org.apache.maven.resolver:maven-resolver-named-locks](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-named-locks/1.9.7)
-* [org.apache.maven.resolver:maven-resolver-named-locks-hazelcast](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-named-locks-hazelcast/1.9.7)
-* [org.apache.maven.resolver:maven-resolver-named-locks-redisson](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-named-locks-redisson/1.9.7)
-* [org.apache.maven.resolver:maven-resolver-spi](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-spi/1.9.7)
-* [org.apache.maven.resolver:maven-resolver-synccontext-global](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-synccontext-global/1.9.7)
-* [org.apache.maven.resolver:maven-resolver-synccontext-redisson](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-synccontext-redisson/1.9.7)
-* [org.apache.maven.resolver:maven-resolver-test-util](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-test-util/1.9.7)
-* [org.apache.maven.resolver:maven-resolver-transport-classpath](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-classpath/1.9.7)
-* [org.apache.maven.resolver:maven-resolver-transport-file](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-file/1.9.7)
-* [org.apache.maven.resolver:maven-resolver-transport-http](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-http/1.9.7)
-* [org.apache.maven.resolver:maven-resolver-transport-wagon](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-wagon/1.9.7)
-* [org.apache.maven.resolver:maven-resolver-util](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-util/1.9.7)
+* [org.apache.maven.resolver:maven-resolver](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/1.9.8)
+* [org.apache.maven.resolver:maven-resolver-api](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-api/1.9.8)
+* [org.apache.maven.resolver:maven-resolver-connector-basic](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-connector-basic/1.9.8)
+* [org.apache.maven.resolver:maven-resolver-impl](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-impl/1.9.8)
+* [org.apache.maven.resolver:maven-resolver-named-locks](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-named-locks/1.9.8)
+* [org.apache.maven.resolver:maven-resolver-named-locks-hazelcast](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-named-locks-hazelcast/1.9.8)
+* [org.apache.maven.resolver:maven-resolver-named-locks-redisson](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-named-locks-redisson/1.9.8)
+* [org.apache.maven.resolver:maven-resolver-spi](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-spi/1.9.8)
+* [org.apache.maven.resolver:maven-resolver-synccontext-global](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-synccontext-global/1.9.8)
+* [org.apache.maven.resolver:maven-resolver-synccontext-redisson](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-synccontext-redisson/1.9.8)
+* [org.apache.maven.resolver:maven-resolver-test-util](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-test-util/1.9.8)
+* [org.apache.maven.resolver:maven-resolver-transport-classpath](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-classpath/1.9.8)
+* [org.apache.maven.resolver:maven-resolver-transport-file](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-file/1.9.8)
+* [org.apache.maven.resolver:maven-resolver-transport-http](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-http/1.9.8)
+* [org.apache.maven.resolver:maven-resolver-transport-wagon](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-wagon/1.9.8)
+* [org.apache.maven.resolver:maven-resolver-util](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-util/1.9.8)
 </details>
 
-rebuilding **18 releases** of org.apache.maven.resolver:maven-resolver:
-- **17** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **19 releases** of org.apache.maven.resolver:maven-resolver:
+- **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.9.8](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/1.9.8/pom) | | | |
+| [1.9.8](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/1.9.8/pom) | [mvn jdk17](maven-resolver-1.9.8.buildspec) | [result](maven-resolver-1.9.8.buildinfo): [42 :heavy_check_mark: ](maven-resolver-1.9.8.buildcompare) | 3.5M |
 | [1.9.7](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/1.9.7/pom) | [mvn jdk17](maven-resolver-1.9.7.buildspec) | [result](maven-resolver-1.9.7.buildinfo): [42 :heavy_check_mark: ](maven-resolver-1.9.7.buildcompare) | 3.4M |
 | [1.9.6](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/1.9.6/pom) | [mvn jdk17](maven-resolver-1.9.6.buildspec) | [result](maven-resolver-1.9.6.buildinfo): [42 :heavy_check_mark: ](maven-resolver-1.9.6.buildcompare) | 3.4M |
 | [1.9.5](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/1.9.5/pom) | [mvn jdk17](maven-resolver-1.9.5.buildspec) | [result](maven-resolver-1.9.5.buildinfo): [42 :heavy_check_mark: ](maven-resolver-1.9.5.buildcompare) | 3.4M |
