@@ -11,6 +11,6 @@ jdk=17
 newline=lf
 
 command="mvn -f maven/pom.xml clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dinvoker.skip"
-buildinfo=maven/bnd-reporter-maven-plugin/target/bnd-reporter-maven-plugin-${version}.buildinfo
+buildinfo=maven/bnd-generate-maven-plugin/target/bnd-generate-maven-plugin-${version}.buildinfo
 
 issue=
