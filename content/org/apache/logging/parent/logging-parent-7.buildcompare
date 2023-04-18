@@ -1,0 +1,5 @@
+version=7
+ok=2
+ko=0
+okFiles="logging-parent-7.pom logging-parent-7-source-release.zip"
+koFiles=""
