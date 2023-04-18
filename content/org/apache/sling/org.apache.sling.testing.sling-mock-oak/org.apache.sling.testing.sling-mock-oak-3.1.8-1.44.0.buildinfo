@@ -1,0 +1,46 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Testing Sling Mock Oak
+group-id=org.apache.sling
+artifact-id=org.apache.sling.testing.sling-mock-oak
+version=3.1.8-1.44.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-testing-sling-mock-oak.git
+source.scm.tag=org.apache.sling.testing.sling-mock-oak-3.1.8-1.44.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.testing.sling-mock-oak-3.1.8-1.44.0.pom
+outputs.0.length=7171
+outputs.0.checksums.sha512=fac10df71f46c160cb18c62f3433edeaa46c25bd46456f1183084510ce79d3a1da0aecce2767314c5eeec421c2054adc0fa5e012ed2455604b9979e142b3fcca
+
+outputs.1.filename=org.apache.sling.testing.sling-mock-oak-3.1.8-1.44.0.jar
+outputs.1.length=6318108
+outputs.1.checksums.sha512=cdf852e128dacee25dbedf3aed1dd8cfebf929bddfc7fe32c80d89a1bbc20ccbfecd89d9d57ecb384756e834cc01b29583a16f2ec4d677c2c682095a988e7ffe
+
+outputs.2.filename=org.apache.sling.testing.sling-mock-oak-3.1.8-1.44.0-source-release.zip
+outputs.2.length=77517
+outputs.2.checksums.sha512=8b43ff2e39021c00cbd4649565aaf736e2b2da6009e86513dee269be5901957cf239242e81c5f9b5cf9861278c1863bd0c542a9541537015aa38b004042294f7
+
+outputs.3.filename=org.apache.sling.testing.sling-mock-oak-3.1.8-1.44.0-sources.jar
+outputs.3.length=4067605
+outputs.3.checksums.sha512=c57b559fd5bcf1f2c029b454dff48b1ce11300dfc785c1d99c49da921ec0beec9b9522ee42a357f6947fd152cf38da2e7a5ed757a680664496ed541a78c88a76
+
+outputs.4.filename=org.apache.sling.testing.sling-mock-oak-3.1.8-1.44.0-sources.jar
+outputs.4.length=4067605
+outputs.4.checksums.sha512=c57b559fd5bcf1f2c029b454dff48b1ce11300dfc785c1d99c49da921ec0beec9b9522ee42a357f6947fd152cf38da2e7a5ed757a680664496ed541a78c88a76
+
+outputs.5.filename=org.apache.sling.testing.sling-mock-oak-3.1.8-1.44.0-sources.jar
+outputs.5.length=4067605
+outputs.5.checksums.sha512=c57b559fd5bcf1f2c029b454dff48b1ce11300dfc785c1d99c49da921ec0beec9b9522ee42a357f6947fd152cf38da2e7a5ed757a680664496ed541a78c88a76
