@@ -13,6 +13,7 @@ rebuilding **2 releases** of io.wcm:io.wcm.wcm.commons:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.10.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.commons/1.10.0/pom) | | | |
 | [1.9.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.commons/1.9.0/pom) | | | |
 | [1.8.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.commons/1.8.2/pom) | | | |
 | [1.8.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.commons/1.8.0/pom) | [mvn jdk11 w](wcm-commons-1.8.0.buildspec) | [result](io.wcm.wcm.commons-1.8.0.buildinfo): [3 :heavy_check_mark: ](io.wcm.wcm.commons-1.8.0.buildcompare) | 113K |
