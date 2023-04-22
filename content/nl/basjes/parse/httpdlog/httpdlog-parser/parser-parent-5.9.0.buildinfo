@@ -1,0 +1,84 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Parser -
+group-id=nl.basjes.parse
+artifact-id=parser-parent
+version=5.9.0
+
+# source information
+source.scm.uri=scm:https://github.com/nielsbasjes/logparser.git
+source.scm.tag=v5.9.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.toolchain.jdk=openjdk version "11
+mvn.aggregate.artifact-id=httpdlog-serde
+
+# aggregated output
+
+outputs.0.coordinates=nl.basjes.parse:parser-parent
+
+outputs.0.0.filename=parser-parent-5.9.0.pom
+outputs.0.0.length=19097
+outputs.0.0.checksums.sha512=352c0867f9c0785f9d625aa9421b6fe8b51eacaddfe9fc093b8b915fa1e8560b49e1e29dc821e705c394ea055c173ef54208d02fd44a19a74f08c79b646da4f0
+
+outputs.1.coordinates=nl.basjes.parse:parser-core
+
+outputs.1.0.filename=parser-core-5.9.0.pom
+outputs.1.0.length=1963
+outputs.1.0.checksums.sha512=947d3f9c4ff3bd8c3952e68051d96aff203d1481208e8874fab3954e1521867570910c5144ca07c300e22d292c6d942909c941beeb2768a421dc721595fbb17c
+
+outputs.1.1.filename=parser-core-5.9.0.jar
+outputs.1.1.length=33192
+outputs.1.1.checksums.sha512=ccd31745193d0977752ebe9dddf0e0986ea3179808d6ae389e10619a8ad4279a3f91f75f20c12e1d9ed241c066a1332e70a4296f4ed6f63e34c9b6883887d8f6
+
+outputs.1.2.filename=parser-core-5.9.0-tests.jar
+outputs.1.2.length=117261
+outputs.1.2.checksums.sha512=1ac00060d5aaa465e30c66a0632fe272cd824239eb86db7a847f6d1c0f4b5a4ae4a3a7477e5a6af53936c0865619b41aaf0145e9b7199057b2bd2778f59938ff
+
+outputs.2.coordinates=nl.basjes.parse.httpdlog:httpdlog
+
+outputs.2.0.filename=httpdlog-5.9.0.pom
+outputs.2.0.length=1539
+outputs.2.0.checksums.sha512=740efd163fb20181c6b4ed200d6db65acf18b0f0676e11cb59dc883e19d40d543834de5e807b6702b41ebd44aba7ef1c925a3f5ba70bed812875025c1c6999b4
+
+outputs.3.coordinates=nl.basjes.parse.httpdlog:httpdlog-parser
+
+outputs.3.0.filename=httpdlog-parser-5.9.0.pom
+outputs.3.0.length=9569
+outputs.3.0.checksums.sha512=8140d874f34b12654b844dd790590a3a3f75d750d70d1bb34a13725d0942ab90c9a43fcf70fb9cc5f5653d73d2a6467604f4b8e4fc8755b3010311eda393a636
+
+outputs.3.1.filename=httpdlog-parser-5.9.0.jar
+outputs.3.1.length=491589
+outputs.3.1.checksums.sha512=52fe13df52fea78ea30ec49e1ad05d091d06bc32ae71c367e6ba55c514256d6fc05256ed97d88e7035f99ed48d623ce78b1eadf2457980dc96db743b9e104405
+
+outputs.4.coordinates=nl.basjes.parse.httpdlog:httpdlog-inputformat
+
+outputs.4.0.filename=httpdlog-inputformat-5.9.0.pom
+outputs.4.0.length=2146
+outputs.4.0.checksums.sha512=8507c5f48d906e19db2f4037a43f957b031e1e5faba9530c0a438cf1d5bc62a3b080d7195b7a541f6e6db0b10e7ca0513944780ec37190f13c8501622fe83b30
+
+outputs.4.1.filename=httpdlog-inputformat-5.9.0.jar
+outputs.4.1.length=12409
+outputs.4.1.checksums.sha512=e5b3a92258847d61ba0daae859dcdf03b56f36be9295281ed9899eb2f9a31155d6bd0c019438e12afa7fcb551405434dd1b7f032c82178e1e0370c8606398051
+
+outputs.5.coordinates=nl.basjes.parse.httpdlog:httpdlog-serde
+
+outputs.5.0.filename=httpdlog-serde-5.9.0.pom
+outputs.5.0.length=6713
+outputs.5.0.checksums.sha512=fd81a2918a5bbf12d724404f4aba2fda9ee12be3c24eaa63d0bc8178737d565d92a5eeab7896b8afb201a83ce7411d4b450873ec727a24d3d5a83fb0c8bf875d
+
+outputs.5.1.filename=httpdlog-serde-5.9.0.jar
+outputs.5.1.length=10798
+outputs.5.1.checksums.sha512=0bc40c85d8603b5c96bc2fbffe752153dd3d582fc2e77fd61661b40423138028a55bb2509aa14a72f97dee1fa2da35c6493cf422df51f690e8741494fe03f32c
+
+outputs.5.2.filename=httpdlog-serde-5.9.0-udf.jar
+outputs.5.2.length=4008200
+outputs.5.2.checksums.sha512=158c0b06de3c14faf5e9ddda73adbc1ebbe73dac428936df004636fa6338558606446dfbb6e7eb0249f7133160f8de919f4cdc994c22b396f046ce06944f9654

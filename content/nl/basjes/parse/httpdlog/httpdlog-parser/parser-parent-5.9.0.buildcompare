@@ -1,0 +1,7 @@
+version=5.9.0
+ok=12
+ko=0
+okFiles="parser-parent-5.9.0.pom parser-core-5.9.0.pom parser-core-5.9.0.jar parser-core-5.9.0-tests.jar httpdlog-5.9.0.pom httpdlog-parser-5.9.0.pom httpdlog-parser-5.9.0.jar httpdlog-inputformat-5.9.0.pom httpdlog-inputformat-5.9.0.jar httpdlog-serde-5.9.0.pom httpdlog-serde-5.9.0.jar httpdlog-serde-5.9.0-udf.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
