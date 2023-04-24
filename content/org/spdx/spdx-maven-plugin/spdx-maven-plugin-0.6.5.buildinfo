@@ -1,0 +1,30 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=spdx-maven-plugin Maven Plugin
+group-id=org.spdx
+artifact-id=spdx-maven-plugin
+version=0.6.5
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com:spdx/spdx-maven-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=13
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=spdx-maven-plugin-0.6.5.pom
+outputs.0.length=9487
+outputs.0.checksums.sha512=c5b8ef207c1e77949cca34dcca94dff23fc6748e9c7f9bf787d353806c46feb9331efede1dbf685a20deaf10487fe26a438274d9a905ea4722634e753127eb1f
+
+outputs.1.filename=spdx-maven-plugin-0.6.5.jar
+outputs.1.length=118916
+outputs.1.checksums.sha512=1e3e272071cb0ba44f227ee7a4556909080a667622bbf9aaef993dce0a4e5ad5270cc4a8601fbafe7fff8063bbf46d40a468d95842848ae0981b99c71e1629a6
