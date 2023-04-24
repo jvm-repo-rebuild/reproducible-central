@@ -1,0 +1,18 @@
+groupId=com.github.hazendaz.maven
+artifactId=htmlcompressor-maven-plugin
+version=1.9.1
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/hazendaz/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.8.6
+jdk=17
+newline=crlf
+
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
