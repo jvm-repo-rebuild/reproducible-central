@@ -15,6 +15,6 @@ rebuilding **1 releases** of eu.europa.ted.eforms:eforms-core-java:
 | -- | --------- | ------ | -- |
 | [1.0.3](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-core-java/1.0.3/pom) | | | |
 | [1.0.2](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-core-java/1.0.2/pom) | | | |
-| [1.0.1](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-core-java/1.0.1/pom) | [mvn jdk11](eforms-core-java-1.0.1.buildspec) | [result](eforms-core-java-1.0.1.buildinfo): [1 :heavy_check_mark:  2 :warning:](eforms-core-java-1.0.1.buildcompare) [:mag:](eforms-core-java-1.0.1.diffoscope) | 111K |
+| [1.0.1](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-core-java/1.0.1/pom) | [mvn jdk11](eforms-core-java-1.0.1.buildspec) | [result](eforms-core-java-1.0.1.buildinfo): [1 :heavy_check_mark:  2 :warning:](eforms-core-java-1.0.1.buildcompare) [:mag:](eforms-core-java-1.0.1.diffoscope) [:memo:](https://github.com/OP-TED/eforms-core-java/pull/12) | 111K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

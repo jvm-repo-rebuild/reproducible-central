@@ -23,6 +23,7 @@ rebuilding **2 releases** of com.fasterxml.jackson.jr:jackson-jr-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.15.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.15.0/pom) | | | |
 | [2.15.0-rc3](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.15.0-rc3/pom) | | | |
 | [2.15.0-rc2](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.15.0-rc2/pom) | | | |
 | [2.15.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.15.0-rc1/pom) | | | |

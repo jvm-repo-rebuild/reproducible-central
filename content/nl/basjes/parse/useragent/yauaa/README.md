@@ -35,10 +35,11 @@ rebuilding **6 releases** of nl.basjes.parse.useragent:yauaa:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [7.19.1](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.19.1/pom) | | | |
 | [7.19.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.19.0/pom) | [mvn jdk17](yauaa-7.19.0.buildspec) | [result](yauaa-parent-7.19.0.buildinfo): [51 :heavy_check_mark: ](yauaa-parent-7.19.0.buildcompare) | 74M |
 | [7.18.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.18.0/pom) | [mvn jdk17](yauaa-7.18.0.buildspec) | [result](yauaa-parent-7.18.0.buildinfo): [51 :heavy_check_mark: ](yauaa-parent-7.18.0.buildcompare) | 74M |
 | [7.17.1](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.17.1/pom) | [mvn jdk17](yauaa-7.17.1.buildspec) | [result](yauaa-parent-7.17.1.buildinfo): [51 :heavy_check_mark: ](yauaa-parent-7.17.1.buildcompare) | 75M |
-| [7.17.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.17.0/pom) | [mvn jdk17](yauaa-7.17.0.buildspec) | [result](yauaa-parent-7.17.0.buildinfo): [41 :heavy_check_mark:  10 :warning:](yauaa-parent-7.17.0.buildcompare) [:mag:](yauaa-7.17.0.diffoscope) | 75M |
+| [7.17.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.17.0/pom) | [mvn jdk17](yauaa-7.17.0.buildspec) | [result](yauaa-parent-7.17.0.buildinfo): [41 :heavy_check_mark:  10 :warning:](yauaa-parent-7.17.0.buildcompare) [:mag:](yauaa-7.17.0.diffoscope) [:memo:](https://issues.apache.org/jira/browse/MNG-7750) | 75M |
 | [7.16.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.16.0/pom) | [mvn jdk17](yauaa-7.16.0.buildspec) | [result](yauaa-parent-7.16.0.buildinfo): [51 :heavy_check_mark: ](yauaa-parent-7.16.0.buildcompare) | 75M |
 | [7.15.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.15.0/pom) | [mvn jdk17](yauaa-7.15.0.buildspec) | [result](yauaa-parent-7.15.0.buildinfo): [52 :heavy_check_mark: ](yauaa-parent-7.15.0.buildcompare) | 74M |
 
