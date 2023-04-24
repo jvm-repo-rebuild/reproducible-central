@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven HTMLCompressor Plugin
+group-id=com.github.hazendaz.maven
+artifact-id=htmlcompressor-maven-plugin
+version=1.8.0
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/alextunyk/htmlcompressor-maven-plugin.git
+source.scm.tag=htmlcompressor-maven-plugin-1.8.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=htmlcompressor-maven-plugin-1.8.0.pom
+outputs.0.length=6271
+outputs.0.checksums.sha512=05d866fd89dbd642711a00829ff139782b560dd7943a663e1c026c56d163992a3a2a930a584e3a07cd7a3bcf98a20ae6333b63052b3f53390cf631f6e1bdae12
+
+outputs.1.filename=htmlcompressor-maven-plugin-1.8.0.jar
+outputs.1.length=34228
+outputs.1.checksums.sha512=8eb8bffdb2524aec7d901a9b3b725830b434e8258064a7d5238b918099689cc1e43dca0ec7fe6ca3bb4b7df6903d1c66c3dc54fa9bdfdf97a72fb44c8d11d741
+
+outputs.2.filename=htmlcompressor-maven-plugin-1.8.0-tests.jar
+outputs.2.length=12092
+outputs.2.checksums.sha512=8dc40ddfdcc0614c1879a9a592307f7ff79b35bbfd9604e537bab55eee48b239deb31c6cfd00a788b7cb3d80602881a292799fbeaa32bd15ee7bd8b7f67c3468
+
+outputs.3.filename=htmlcompressor-maven-plugin-1.8.0-sources.jar
+outputs.3.length=19309
+outputs.3.checksums.sha512=c8301e43e4c63ac342b51870be4eab3dcacef47825d5d56675e3845033a4e411f13d3153ba1541f2afafd57daaa8b314094035e13eed8f6438f3ae22a191ec6c
+
+outputs.4.filename=htmlcompressor-maven-plugin-1.8.0-test-sources.jar
+outputs.4.length=11463
+outputs.4.checksums.sha512=7fdfc97c0dca61fb693a31606d9573bbf62ffb3ee0390e3d2abe328639664cc5c22ee92448c5fa33a8eec01431ff7c5eae14c5aceac662e71da353b3f497792a
