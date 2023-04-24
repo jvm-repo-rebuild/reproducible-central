@@ -1,0 +1,208 @@
+1 / 8 target/reference/jooby-3.0.0.M7.jar jooby/target/jooby-3.0.0.M7.jar
+--- target/reference/jooby-3.0.0.M7.jar
++++ jooby/target/jooby-3.0.0.M7.jar
+├── zipinfo {}
+│ @@ -357,9 +357,9 @@
+│  -rw----     2.0 fat     1907 bX defN 18-Mar-30 17:04 io/jooby/internal/$shaded/html/HtmlEscapeType.class
+│  -rw----     2.0 fat     7156 bX defN 18-Mar-30 17:04 io/jooby/internal/$shaded/html/HtmlEscapeSymbols.class
+│  -rw----     2.0 fat     1373 bX defN 18-Mar-30 17:04 io/jooby/internal/$shaded/html/HtmlEscape$InternalStringReader.class
+│  -rw----     2.0 fat     7838 bX defN 18-Mar-30 17:04 io/jooby/internal/$shaded/html/Html4EscapeSymbolsInitializer.class
+│  -rw----     2.0 fat     1493 bX defN 18-Mar-30 17:04 io/jooby/internal/$shaded/html/HtmlEscapeSymbols$References.class
+│  -rw----     2.0 fat     1262 bX defN 18-Mar-30 17:04 io/jooby/internal/$shaded/html/HtmlEscapeSymbols$Reference.class
+│  -rw----     2.0 fat     5557 bX defN 18-Mar-30 17:04 io/jooby/internal/$shaded/html/HtmlEscape.class
+│ --rw----     2.0 fat      486 bX defN 23-Apr-17 15:04 module-info.class
+│ +-rw----     2.0 fat      486 bX defN 23-Apr-24 17:09 module-info.class
+│  363 files, 1254841 bytes uncompressed, 544769 bytes compressed:  56.6%
+
+2 / 8 target/reference/jooby-apt-3.0.0.M7.jar modules/jooby-apt/target/jooby-apt-3.0.0.M7.jar
+--- target/reference/jooby-apt-3.0.0.M7.jar
++++ modules/jooby-apt/target/jooby-apt-3.0.0.M7.jar
+├── zipinfo {}
+│ @@ -90,9 +90,9 @@
+│  -rw----     2.0 fat     1827 bX defN 80-Feb-01 00:00 io/jooby/internal/apt/asm/Symbol.class
+│  -rw----     2.0 fat     1367 bX defN 80-Feb-01 00:00 io/jooby/internal/apt/asm/SymbolTable$Entry.class
+│  -rw----     2.0 fat    19314 bX defN 80-Feb-01 00:00 io/jooby/internal/apt/asm/SymbolTable.class
+│  -rw----     2.0 fat    11377 bX defN 80-Feb-01 00:00 io/jooby/internal/apt/asm/Type.class
+│  -rw----     2.0 fat     2714 bX defN 80-Feb-01 00:00 io/jooby/internal/apt/asm/TypePath.class
+│  -rw----     2.0 fat     4096 bX defN 80-Feb-01 00:00 io/jooby/internal/apt/asm/TypeReference.class
+│  -rw----     2.0 fat       28 bX defN 23-Apr-17 14:48 META-INF/services/javax.annotation.processing.Processor
+│ --rw----     2.0 fat      253 bX defN 23-Apr-17 15:05 module-info.class
+│ +-rw----     2.0 fat      253 bX defN 23-Apr-24 17:09 module-info.class
+│  96 files, 438947 bytes uncompressed, 193280 bytes compressed:  56.0%
+
+3 / 8 target/reference/jooby-openapi-3.0.0.M7.jar modules/jooby-openapi/target/jooby-openapi-3.0.0.M7.jar
+--- target/reference/jooby-openapi-3.0.0.M7.jar
++++ modules/jooby-openapi/target/jooby-openapi-3.0.0.M7.jar
+├── zipinfo {}
+│ @@ -1,18 +1,9 @@
+│ -Zip file size: 354813 bytes, number of entries: 153
+│ +Zip file size: 353487 bytes, number of entries: 144
+│  -rw----     2.0 fat      216 bX defN 23-Apr-17 14:48 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat       83 bl defN 23-Apr-17 14:48 App.yaml
+│ --rw----     2.0 fat        0 bl defN 23-Apr-17 14:48 com/
+│ --rw----     2.0 fat       83 bl defN 23-Apr-17 14:48 com/App.yaml
+│ --rw----     2.0 fat        0 bl defN 23-Apr-17 14:48 com/foo/
+│ --rw----     2.0 fat        0 bl defN 23-Apr-17 14:48 com/foo/bar/
+│ --rw----     2.0 fat        0 bl defN 23-Apr-17 14:48 com/foo/bar/app/
+│ --rw----     2.0 fat       83 bl defN 23-Apr-17 14:48 com/foo/bar/app/App.yaml
+│ --rw----     2.0 fat        0 bl defN 23-Apr-17 14:48 com/myapp/
+│ --rw----     2.0 fat       83 bl defN 23-Apr-17 14:48 com/myapp/App.yaml
+│  -rw----     2.0 fat        0 bl defN 23-Apr-17 14:48 io/
+│  -rw----     2.0 fat        0 bl defN 23-Apr-17 14:48 io/jooby/
+│  -rw----     2.0 fat        0 bl defN 23-Apr-17 14:48 io/jooby/internal/
+│  -rw----     2.0 fat        0 bl defN 23-Apr-17 14:48 io/jooby/internal/openapi/
+│  -rw----     2.0 fat     2242 bl defN 23-Apr-17 14:48 io/jooby/internal/openapi/ASMType$1.class
+│  -rw----     2.0 fat     2309 bl defN 23-Apr-17 14:48 io/jooby/internal/openapi/ASMType$TypeName.class
+│  -rw----     2.0 fat     3235 bl defN 23-Apr-17 14:48 io/jooby/internal/openapi/ASMType.class
+│ @@ -148,8 +139,8 @@
+│  -rw----     2.0 fat     2797 bl defN 80-Feb-01 00:00 io/jooby/internal/openapi/asm/tree/TableSwitchInsnNode.class
+│  -rw----     2.0 fat     2651 bl defN 80-Feb-01 00:00 io/jooby/internal/openapi/asm/tree/TryCatchBlockNode.class
+│  -rw----     2.0 fat      999 bl defN 80-Feb-01 00:00 io/jooby/internal/openapi/asm/tree/TypeAnnotationNode.class
+│  -rw----     2.0 fat     1677 bl defN 80-Feb-01 00:00 io/jooby/internal/openapi/asm/tree/TypeInsnNode.class
+│  -rw----     2.0 fat      465 bl defN 80-Feb-01 00:00 io/jooby/internal/openapi/asm/tree/UnsupportedClassVersionException.class
+│  -rw----     2.0 fat     4854 bl defN 80-Feb-01 00:00 io/jooby/internal/openapi/asm/tree/Util.class
+│  -rw----     2.0 fat     1638 bl defN 80-Feb-01 00:00 io/jooby/internal/openapi/asm/tree/VarInsnNode.class
+│ -153 files, 797988 bytes uncompressed, 326527 bytes compressed:  59.1%
+│ +144 files, 797656 bytes uncompressed, 326253 bytes compressed:  59.1%
+├── zipnote «TEMP»/diffoscope_aw5fjmrl_target/tmpgn8rp35v_.zip
+│ @@ -1,37 +1,10 @@
+│  Filename: META-INF/MANIFEST.MF
+│  Comment: 
+│  
+│ -Filename: App.yaml
+│ -Comment: 
+│ -
+│ -Filename: com/
+│ -Comment: 
+│ -
+│ -Filename: com/App.yaml
+│ -Comment: 
+│ -
+│ -Filename: com/foo/
+│ -Comment: 
+│ -
+│ -Filename: com/foo/bar/
+│ -Comment: 
+│ -
+│ -Filename: com/foo/bar/app/
+│ -Comment: 
+│ -
+│ -Filename: com/foo/bar/app/App.yaml
+│ -Comment: 
+│ -
+│ -Filename: com/myapp/
+│ -Comment: 
+│ -
+│ -Filename: com/myapp/App.yaml
+│ -Comment: 
+│ -
+│  Filename: io/
+│  Comment: 
+│  
+│  Filename: io/jooby/
+│  Comment: 
+│  
+│  Filename: io/jooby/internal/
+
+4 / 8 target/reference/jooby-cli-3.0.0.M7.jar modules/jooby-cli/target/jooby-cli-3.0.0.M7.jar
+--- target/reference/jooby-cli-3.0.0.M7.jar
++++ modules/jooby-cli/target/jooby-cli-3.0.0.M7.jar
+├── zipinfo -v {}
+│ @@ -1208,15 +1208,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│    file last modified on (DOS date/time):          2023 Apr 17 14:48:48
+│ -  32-bit CRC value (hex):                         9dc0ad47
+│ +  32-bit CRC value (hex):                         9332f529
+│    compressed size:                                1365 bytes
+│    uncompressed size:                              3591 bytes
+│    length of filename:                             23 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── dependencies.properties
+│ @@ -111,14 +111,14 @@
+│  sonar.projectKey=jooby-project_jooby
+│  spotbugs-annotations.version=4.7.3
+│  spring.version=6.0.7
+│  stork-maven-plugin.version=3.1.3
+│  swagger-parser.version=2.1.13
+│  swagger.version=2.2.9
+│  thymeleaf.version=3.1.1.RELEASE
+│ -timestamp=2023-04-17 15\:03\:52PM
+│ +timestamp=2023-04-24 17\:09\:09PM
+│  truth.version=1.1.3
+│  unbescape.version=1.1.6.RELEASE
+│  undertow.version=2.3.5.Final
+│  versions-maven-plugin.version=2.15.0
+│  weld.version=5.1.0.Final
+│  yasson.version=3.0.3
+
+5 / 8 target/reference/jooby-cli-3.0.0.M7.zip modules/jooby-cli/target/jooby-cli-3.0.0.M7.zip
+--- target/reference/jooby-cli-3.0.0.M7.zip
++++ modules/jooby-cli/target/jooby-cli-3.0.0.M7.zip
+├── zipinfo {}
+│ @@ -1,7 +1,7 @@
+│ -Zip file size: 1959585 bytes, number of entries: 5
+│ +Zip file size: 1959584 bytes, number of entries: 5
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-17 14:48 bin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-17 14:48 lib/
+│ --rwxr--r--  2.0 unx    21971 b- defN 23-Apr-17 14:48 bin/jooby
+│ --rwxr--r--  2.0 unx    12082 b- defN 23-Apr-17 14:48 bin/jooby.bat
+│ --rw-r--r--  2.0 unx  2147251 b- defN 23-Apr-17 14:48 lib/jooby-cli-3.0.0.M7.jar
+│ -5 files, 2181304 bytes uncompressed, 1959071 bytes compressed:  10.2%
+│ +-rwxrw-r--  2.0 unx    21971 b- defN 23-Apr-17 14:48 bin/jooby
+│ +-rwxrw-r--  2.0 unx    12082 b- defN 23-Apr-17 14:48 bin/jooby.bat
+│ +-rw-rw-r--  2.0 unx  2147251 b- defN 23-Apr-17 14:48 lib/jooby-cli-3.0.0.M7.jar
+│ +5 files, 2181304 bytes uncompressed, 1959070 bytes compressed:  10.2%
+├── lib/jooby-cli-3.0.0.M7.jar
+│ ├── zipinfo -v {}
+│ │ @@ -1208,15 +1208,15 @@
+│ │    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│ │    minimum software version required to extract:   2.0
+│ │    compression method:                             deflated
+│ │    compression sub-type (deflation):               normal
+│ │    file security status:                           not encrypted
+│ │    extended local header:                          yes
+│ │    file last modified on (DOS date/time):          2023 Apr 17 14:48:48
+│ │ -  32-bit CRC value (hex):                         9dc0ad47
+│ │ +  32-bit CRC value (hex):                         9332f529
+│ │    compressed size:                                1365 bytes
+│ │    uncompressed size:                              3591 bytes
+│ │    length of filename:                             23 characters
+│ │    length of extra field:                          0 bytes
+│ │    length of file comment:                         0 characters
+│ │    disk number on which file begins:               disk 1
+│ │    apparent file type:                             binary
+│ ├── dependencies.properties
+│ │ @@ -111,14 +111,14 @@
+│ │  sonar.projectKey=jooby-project_jooby
+│ │  spotbugs-annotations.version=4.7.3
+│ │  spring.version=6.0.7
+│ │  stork-maven-plugin.version=3.1.3
+│ │  swagger-parser.version=2.1.13
+│ │  swagger.version=2.2.9
+│ │  thymeleaf.version=3.1.1.RELEASE
+│ │ -timestamp=2023-04-17 15\:03\:52PM
+│ │ +timestamp=2023-04-24 17\:09\:09PM
+│ │  truth.version=1.1.3
+│ │  unbescape.version=1.1.6.RELEASE
+│ │  undertow.version=2.3.5.Final
+│ │  versions-maven-plugin.version=2.15.0
+│ │  weld.version=5.1.0.Final
+│ │  yasson.version=3.0.3
+
+6 / 8 target/reference/tests-3.0.0.M7.pom tests/pom.xml
+/srv/diffoscope/bin/diffoscope: target/reference/tests-3.0.0.M7.pom: No such file or directory
+
+7 / 8 target/reference/tests-3.0.0.M7.jar tests/target/tests-3.0.0.M7.jar
+/srv/diffoscope/bin/diffoscope: target/reference/tests-3.0.0.M7.jar: No such file or directory
+
+8 / 8 target/reference/tests-3.0.0.M7-sources.jar tests/target/tests-3.0.0.M7-sources.jar
+/srv/diffoscope/bin/diffoscope: target/reference/tests-3.0.0.M7-sources.jar: No such file or directory
+
