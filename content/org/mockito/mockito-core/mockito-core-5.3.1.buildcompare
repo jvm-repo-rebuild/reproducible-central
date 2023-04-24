@@ -1,0 +1,5 @@
+version=5.3.1
+ok=19
+ko=0
+okFiles="mockito-android-5.3.1.jar mockito-android-5.3.1.pom mockito-android-5.3.1-sources.jar mockito-bom-5.3.1.pom mockito-core-5.3.1.jar mockito-core-5.3.1.pom mockito-core-5.3.1-sources.jar mockito-errorprone-5.3.1.jar mockito-errorprone-5.3.1.pom mockito-errorprone-5.3.1-sources.jar mockito-junit-jupiter-5.3.1.jar mockito-junit-jupiter-5.3.1.pom mockito-junit-jupiter-5.3.1-sources.jar mockito-proxy-5.3.1.jar mockito-proxy-5.3.1.pom mockito-proxy-5.3.1-sources.jar mockito-subclass-5.3.1.jar mockito-subclass-5.3.1.pom mockito-subclass-5.3.1-sources.jar"
+koFiles=""
