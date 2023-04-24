@@ -1,6 +1,6 @@
 groupId=org.mybatis.dynamic-sql
 artifactId=mybatis-dynamic-sql
-version=1.4.1
+version=1.5.0
 
 display=${groupId}:${artifactId}
 
@@ -8,7 +8,7 @@ gitRepo=https://github.com/mybatis/${artifactId}.git
 gitTag=${artifactId}-${version}
 
 tool=mvn
-jdk=11
+jdk=17
 newline=lf
 
 command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
