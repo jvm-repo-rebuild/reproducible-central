@@ -1,0 +1,17 @@
+groupId=io.github.chains-project
+artifactId=maven-lockfile
+display=${groupId}:${artifactId}
+version=1.2.0
+
+gitRepo=https://github.com/chains-project/${artifactId}.git
+gitTag=v${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn -Ppublication clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-parent-${version}.buildinfo
+
+diffoscope=target/${artifactId}-${version}.diffoscope
+issue=

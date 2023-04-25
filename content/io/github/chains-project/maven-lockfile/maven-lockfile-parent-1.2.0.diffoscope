@@ -1,0 +1,261 @@
+1 / 2 target/reference/maven-lockfile-github-action-1.2.0.jar github_action/target/maven-lockfile-github-action-1.2.0.jar
+--- target/reference/maven-lockfile-github-action-1.2.0.jar
++++ github_action/target/maven-lockfile-github-action-1.2.0.jar
+├── zipinfo -v {}
+│┄ Differences in extra fields detected; using output from zipinfo -v
+│ @@ -1,22 +1,22 @@
+│  There is no zipfile comment.
+│  
+│  End-of-central-directory record:
+│  -------------------------------
+│  
+│ -  Zip archive file size:                  16045049 (0000000000F4D3F9h)
+│ -  Actual end-cent-dir record offset:      16045027 (0000000000F4D3E3h)
+│ -  Expected end-cent-dir record offset:    16045027 (0000000000F4D3E3h)
+│ +  Zip archive file size:                  16045003 (0000000000F4D3CBh)
+│ +  Actual end-cent-dir record offset:      16044981 (0000000000F4D3B5h)
+│ +  Expected end-cent-dir record offset:    16044981 (0000000000F4D3B5h)
+│    (based on the length of the central directory and its expected offset)
+│  
+│    This zipfile constitutes the sole disk of a single-part archive; its
+│    central directory contains 10994 entries.
+│    The central directory is 1198713 (0000000000124A79h) bytes long,
+│    and its (expected) offset in bytes from the beginning of the zipfile
+│ -  is 14846314 (0000000000E2896Ah).
+│ +  is 14846268 (0000000000E2893Ch).
+│  
+│  
+│  Central directory entry #1:
+│  ---------------------------
+│  
+│    META-INF/
+│  
+│ @@ -25,17 +25,17 @@
+│    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
+│    version of encoding software:                   1.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   1.0
+│    compression method:                             none (stored)
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│ -  file last modified on (DOS date/time):          2023 Apr 15 16:33:12
+│ -  file last modified on (UT extra field modtime): 2023 Apr 15 16:33:13 local
+│ -  file last modified on (UT extra field modtime): 2023 Apr 15 16:33:13 UTC
+│ +  file last modified on (DOS date/time):          2023 Apr 24 17:23:12
+│ +  file last modified on (UT extra field modtime): 2023 Apr 24 17:23:12 local
+│ +  file last modified on (UT extra field modtime): 2023 Apr 24 17:23:12 UTC
+│    32-bit CRC value (hex):                         00000000
+│    compressed size:                                0 bytes
+│    uncompressed size:                              0 bytes
+│    length of filename:                             9 characters
+│    length of extra field:                          9 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+...
+│  Central directory entry #10994:
+│  ---------------------------
+│  
+│    There are an extra 16 bytes preceding this file.
+│  
+│    META-INF/services/io.vertx.codegen.GeneratorLoader
+│  
+│ -  offset of local header from start of archive:   14846146
+│ -                                                  (0000000000E288C2h) bytes
+│ +  offset of local header from start of archive:   14846100
+│ +                                                  (0000000000E28894h) bytes
+│    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
+│    version of encoding software:                   2.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│ -  file last modified on (DOS date/time):          2023 Apr 15 16:33:14
+│ -  file last modified on (UT extra field modtime): 2023 Apr 15 16:33:15 local
+│ -  file last modified on (UT extra field modtime): 2023 Apr 15 16:33:15 UTC
+│ +  file last modified on (DOS date/time):          2023 Apr 24 17:23:12
+│ +  file last modified on (UT extra field modtime): 2023 Apr 24 17:23:13 local
+│ +  file last modified on (UT extra field modtime): 2023 Apr 24 17:23:13 UTC
+│    32-bit CRC value (hex):                         1c815dfc
+│    compressed size:                                55 bytes
+│    uncompressed size:                              56 bytes
+│    length of filename:                             50 characters
+│    length of extra field:                          9 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+├── io/quarkus/runtime/generated/BuildTimeRunTimeFixedConfigSource.class
+│ ├── procyon -ec {}
+│ │ @@ -11,26 +11,26 @@
+│ │      
+│ │      static {
+│ │          properties = new HashMap();
+│ │          final Map properties2 = BuildTimeRunTimeFixedConfigSource.properties;
+│ │          properties2.put("quarkus.application.name", "maven-lockfile-github-action");
+│ │          properties2.put("quarkus.application.ui-header", "{applicationName} (powered by Quarkus)");
+│ │          properties2.put("quarkus.application.version", "1.2.0");
+│ │ -        properties2.put("quarkus.default-locale", "en-");
+│ │ +        properties2.put("quarkus.default-locale", "en-US");
+│ │          properties2.put("quarkus.jackson.accept-case-insensitive-enums", "false");
+│ │          properties2.put("quarkus.jackson.fail-on-empty-beans", "true");
+│ │          properties2.put("quarkus.jackson.fail-on-unknown-properties", "false");
+│ │          properties2.put("quarkus.jackson.timezone", "UTC");
+│ │          properties2.put("quarkus.jackson.write-dates-as-timestamps", "false");
+│ │          properties2.put("quarkus.jackson.write-durations-as-timestamps", "true");
+│ │          properties2.put("quarkus.live-reload.connect-timeout", "30s");
+│ │          properties2.put("quarkus.live-reload.instrumentation", "false");
+│ │          properties2.put("quarkus.live-reload.retry-interval", "2s");
+│ │          properties2.put("quarkus.live-reload.retry-max-attempts", "10");
+│ │ -        properties2.put("quarkus.locales", "en-");
+│ │ +        properties2.put("quarkus.locales", "en-US");
+│ │          properties2.put("quarkus.log.category.*.min-level", "inherit");
+│ │          properties2.put("quarkus.log.metrics.enabled", "false");
+│ │          properties2.put("quarkus.log.min-level", "DEBUG");
+│ │          properties2.put("quarkus.tls.trust-all", "false");
+│ │      }
+│ │      
+│ │      public BuildTimeRunTimeFixedConfigSource() {
+├── io/quarkus/arc/setup/Default_ComponentsProvider.class
+│ ├── procyon -ec {}
+│ │ @@ -3,49 +3,49 @@
+│ │  
+│ │  import io.quarkus.arc.impl.Identified_ArcAnnotationLiteral;
+│ │  import io.quarkus.arc.All_ArcAnnotationLiteral;
+│ │  import java.util.OptionalLong;
+│ │  import io.quarkus.arc.log.LoggerName_ArcAnnotationLiteral;
+│ │  import io.quarkus.arc.impl.TypeVariableImpl;
+│ │  import java.util.OptionalDouble;
+│ │ -import javax.enterprise.inject.Default$Literal;
+│ │  import java.util.OptionalInt;
+│ │ +import javax.enterprise.inject.Default$Literal;
+│ │  import org.eclipse.microprofile.config.inject.ConfigProperty_ArcAnnotationLiteral;
+│ │  import io.quarkus.arc.impl.ParameterizedTypeImpl;
+│ │  import java.lang.reflect.Type;
+│ │  import java.io.Serializable;
+│ │  import io.quarkus.arc.impl.RemovedBeanImpl;
+│ │  import io.quarkus.arc.InjectableBean$Kind;
+│ │ -import io.github.chains_project.maven_lockfile.GithubAction_Multiplexer_Observer_run_10e4fab489c5baa897ea9b4d6b0a2302f36c3340_a901e5b0533e61b70d7a987be7df54b3b4c7a4ae;
+│ │  import io.quarkus.vertx.runtime.VertxProducer_Observer_undeployVerticles_05d4c7882dd9f070c2c66a5628cca04986807a49;
+│ │ +import io.github.chains_project.maven_lockfile.GithubAction_Multiplexer_Observer_run_10e4fab489c5baa897ea9b4d6b0a2302f36c3340_a901e5b0533e61b70d7a987be7df54b3b4c7a4ae;
+│ │  import io.netty.channel.EventLoopGroup_e0d9529bd8e82f33c3bbdde0861773027f3f2e0a_Synthetic_Bean;
+│ │  import io.netty.channel.EventLoopGroup_6ef9dd9271a740aaa271e8a1efa2231088d015f4_Synthetic_Bean;
+│ │  import io.smallrye.context.SmallRyeManagedExecutor_0505f622115eaa262b210fc3b01d9d188e2c3191_Synthetic_Bean;
+│ │  import io.quarkus.arc.generator.Object_1db071b8dcb8b723de56cb86df6920a2d21e0e9c_Synthetic_Bean;
+│ │ +import io.quarkus.vertx.runtime.VertxProducer_ProducerMethod_mutinyEventBus_65fcf7e1f3e3ede9a22f691ca70366b9564c7aad_Bean;
+│ │  import io.quarkus.smallrye.context.runtime.SmallRyeContextPropagationProvider_ProducerMethod_getAllThreadContext_0976a7142503aa8fe2c89bb7ef3f2613a1f1e921_Bean;
+│ │  import io.quarkus.vertx.runtime.VertxProducer_ProducerMethod_eventbus_92174a3813c41f170602a2a19998deea8f7eeb18_Bean;
+│ │ -import io.quarkus.vertx.runtime.VertxProducer_ProducerMethod_mutinyEventBus_65fcf7e1f3e3ede9a22f691ca70366b9564c7aad_Bean;
+│ │  import io.quarkiverse.githubaction.runtime.UtilsProducer_ProducerMethod_yamlObjectMapper_53de47d02dbef7457e6bf5612f9b001baa13052c_Bean;
+│ │ +import io.quarkus.jackson.customizer.RegisterSerializersAndDeserializersCustomizer_Bean;
+│ │  import io.quarkiverse.githubaction.runtime.ActionMain_Bean;
+│ │ +import io.github.chains_project.maven_lockfile.GithubAction_Multiplexer_Bean;
+│ │  import io.quarkus.smallrye.graphql.client.runtime.GraphQLClientConfigurationMergerBean_Bean;
+│ │  import io.quarkus.arc.impl.DefaultAsyncObserverExceptionHandler_Bean;
+│ │ -import io.quarkus.jackson.customizer.RegisterSerializersAndDeserializersCustomizer_Bean;
+│ │ -import io.github.chains_project.maven_lockfile.GithubAction_Multiplexer_Bean;
+│ │  import io.quarkiverse.githubaction.runtime.InputsInitializerImpl_Bean;
+│ │  import io.quarkus.vertx.runtime.VertxProducer_ProducerMethod_mutiny_d5befbd244a8a884fd08fff108d174c7e738c2d3_Bean;
+│ │  import io.quarkus.jackson.runtime.ObjectMapperProducer_ProducerMethod_objectMapper_d2925203309586fa5cde23a83b2025591c2d3832_Bean;
+│ │  import io.vertx.core.Vertx_7c31d5064e6d5db248fafa10f188ca6323f3f983_Synthetic_Bean;
+│ │  import io.quarkiverse.githubaction.runtime.PayloadTypeResolverImpl_Bean;
+│ │  import io.quarkus.jackson.runtime.List_d0e0106970ae6e265f64becc9c6e7ae3e5a4d554_Synthetic_Bean;
+│ │  import io.quarkiverse.githubaction.runtime.UtilsProducer_Bean;
+│ │  import io.quarkiverse.githubaction.runtime.GitHubEventHandlerImpl_Bean;
+│ │  import io.quarkus.smallrye.context.runtime.SmallRyeContextPropagationProvider_Bean;
+│ │  import io.quarkus.smallrye.graphql.client.runtime.GraphQLClientsConfig_c7ce545603da550dbbee2d573d4530df52bdc615_Synthetic_Bean;
+│ │ -import io.smallrye.config.inject.ConfigProducer_ProducerMethod_produceStringConfigProperty_75511873be6a3e578c4555b07b03c7231f99c7bc_Bean;
+│ │  import io.quarkus.smallrye.graphql.client.runtime.GraphQLClientSupport_9dc2067d60500a1471ed0a7cb6f2b92470a89aa5_Synthetic_Bean;
+│ │ +import io.smallrye.config.inject.ConfigProducer_ProducerMethod_produceStringConfigProperty_75511873be6a3e578c4555b07b03c7231f99c7bc_Bean;
+│ │  import io.quarkus.jackson.runtime.JacksonSupport_9566f48b8d7db8fed6ce27afbf0057c6af45a973_Synthetic_Bean;
+│ │  import io.quarkus.vertx.runtime.VertxProducer_Bean;
+│ │  import io.quarkus.jackson.runtime.JacksonBuildTimeConfig_bba7b541ccee0483c33eeff92f05a304e275305c_Synthetic_Bean;
+│ │  import io.quarkiverse.githubaction.runtime.ContextInitializerImpl_Bean;
+│ │  import io.smallrye.config.inject.ConfigProducer_Bean;
+│ │  import io.quarkus.jackson.runtime.ObjectMapperProducer_Bean;
+│ │  import io.quarkiverse.githubaction.runtime.CommandsInitializerImpl_Bean;
+│ │ @@ -230,47 +230,47 @@
+│ │          map.put("d264be77a745bee8597646a7df23b5aeffba3631", new CommandsInitializerImpl_Bean());
+│ │          map.put("caf3f172e85075fd3a1f1cb884d3dc311da0636f", new ObjectMapperProducer_Bean());
+│ │          map.put("6e980d12296da10b0091be87bd6d39b111ac5923", new ConfigProducer_Bean());
+│ │          map.put("06c93f1efb3131426c7cf8e255f710866c1a8d12", new ContextInitializerImpl_Bean());
+│ │          map.put("bba7b541ccee0483c33eeff92f05a304e275305c", new JacksonBuildTimeConfig_bba7b541ccee0483c33eeff92f05a304e275305c_Synthetic_Bean());
+│ │          map.put("26151128ac38f9bc3bae39c3d74d2b62ff51e516", new VertxProducer_Bean());
+│ │          map.put("9566f48b8d7db8fed6ce27afbf0057c6af45a973", new JacksonSupport_9566f48b8d7db8fed6ce27afbf0057c6af45a973_Synthetic_Bean());
+│ │ -        map.put("9dc2067d60500a1471ed0a7cb6f2b92470a89aa5", new GraphQLClientSupport_9dc2067d60500a1471ed0a7cb6f2b92470a89aa5_Synthetic_Bean());
+│ │          map.put("c37eb7a7b68c5dfab58ffa0aa7615d7f61631d89", new ConfigProducer_ProducerMethod_produceStringConfigProperty_75511873be6a3e578c4555b07b03c7231f99c7bc_Bean((Supplier)map.get("6e980d12296da10b0091be87bd6d39b111ac5923")));
+│ │ +        map.put("9dc2067d60500a1471ed0a7cb6f2b92470a89aa5", new GraphQLClientSupport_9dc2067d60500a1471ed0a7cb6f2b92470a89aa5_Synthetic_Bean());
+│ │          map.put("c7ce545603da550dbbee2d573d4530df52bdc615", new GraphQLClientsConfig_c7ce545603da550dbbee2d573d4530df52bdc615_Synthetic_Bean());
+│ │          map.put("ebd8d2e234fe30ef91ad56fbe22532708a21ec71", new SmallRyeContextPropagationProvider_Bean());
+│ │          map.put("56e4d82f19825a009196b4d97e7847b4907c8719", new GitHubEventHandlerImpl_Bean());
+│ │          map.put("56143651afe6c8d66718c4b9c835ceefacc3bc38", new UtilsProducer_Bean());
+│ │          map.put("d0e0106970ae6e265f64becc9c6e7ae3e5a4d554", new List_d0e0106970ae6e265f64becc9c6e7ae3e5a4d554_Synthetic_Bean());
+│ │          map.put("ad361b365f8394ee0d97851da967c07fd8ffefce", new PayloadTypeResolverImpl_Bean());
+│ │          map.put("7c31d5064e6d5db248fafa10f188ca6323f3f983", new Vertx_7c31d5064e6d5db248fafa10f188ca6323f3f983_Synthetic_Bean());
+│ │          map.put("08fff59939857f4e88e3e8f8696ab04cad4deb17", new ObjectMapperProducer_ProducerMethod_objectMapper_d2925203309586fa5cde23a83b2025591c2d3832_Bean((Supplier)map.get("caf3f172e85075fd3a1f1cb884d3dc311da0636f"), (Supplier)map.get("d0e0106970ae6e265f64becc9c6e7ae3e5a4d554"), (Supplier)map.get("bba7b541ccee0483c33eeff92f05a304e275305c"), (Supplier)map.get("9566f48b8d7db8fed6ce27afbf0057c6af45a973")));
+│ │          map.put("34fb3aad379eaf11b2702022450ef49495a58440", new VertxProducer_ProducerMethod_mutiny_d5befbd244a8a884fd08fff108d174c7e738c2d3_Bean((Supplier)map.get("26151128ac38f9bc3bae39c3d74d2b62ff51e516"), (Supplier)map.get("7c31d5064e6d5db248fafa10f188ca6323f3f983")));
+│ │          map.put("cba5c239d731675747570e855b7f8f2bf79db243", new InputsInitializerImpl_Bean((Supplier)map.get("08fff59939857f4e88e3e8f8696ab04cad4deb17")));
+│ │ -        map.put("7c4e9e499fcdbbfc394a8912906325650b1ce81c", new GithubAction_Multiplexer_Bean((Supplier)map.get("c37eb7a7b68c5dfab58ffa0aa7615d7f61631d89")));
+│ │ -        map.put("fa01c1511a5093e7091f7f1aaf486740f49a1ec2", new RegisterSerializersAndDeserializersCustomizer_Bean());
+│ │          map.put("4a48356d9f6ddfbd6c7128734fd2cdfe39be2e8d", new DefaultAsyncObserverExceptionHandler_Bean());
+│ │          map.put("1c9e2ea122d8593d7db91516d7a079861e25f7ae", new GraphQLClientConfigurationMergerBean_Bean((Supplier)map.get("c7ce545603da550dbbee2d573d4530df52bdc615"), (Supplier)map.get("9dc2067d60500a1471ed0a7cb6f2b92470a89aa5")));
+│ │ +        map.put("7c4e9e499fcdbbfc394a8912906325650b1ce81c", new GithubAction_Multiplexer_Bean((Supplier)map.get("c37eb7a7b68c5dfab58ffa0aa7615d7f61631d89")));
+│ │          map.put("f11417902a64777a5beaa280819dafd6eef2260f", new ActionMain_Bean((Supplier)map.get("d264be77a745bee8597646a7df23b5aeffba3631"), (Supplier)map.get("06c93f1efb3131426c7cf8e255f710866c1a8d12"), (Supplier)map.get("56e4d82f19825a009196b4d97e7847b4907c8719"), (Supplier)map.get("cba5c239d731675747570e855b7f8f2bf79db243"), (Supplier)map.get("08fff59939857f4e88e3e8f8696ab04cad4deb17"), (Supplier)map.get("ad361b365f8394ee0d97851da967c07fd8ffefce")));
+│ │ +        map.put("fa01c1511a5093e7091f7f1aaf486740f49a1ec2", new RegisterSerializersAndDeserializersCustomizer_Bean());
+│ │          map.put("c20c6f1b3c61a1838447d819daec6356211aad04", new UtilsProducer_ProducerMethod_yamlObjectMapper_53de47d02dbef7457e6bf5612f9b001baa13052c_Bean((Supplier)map.get("56143651afe6c8d66718c4b9c835ceefacc3bc38")));
+│ │ -        map.put("10f2575aaf9feaed9befd21496022a99c743946b", new VertxProducer_ProducerMethod_mutinyEventBus_65fcf7e1f3e3ede9a22f691ca70366b9564c7aad_Bean((Supplier)map.get("26151128ac38f9bc3bae39c3d74d2b62ff51e516"), (Supplier)map.get("34fb3aad379eaf11b2702022450ef49495a58440")));
+│ │          map.put("6edab999acfb68134b0573a83e11204e293dc7da", new VertxProducer_ProducerMethod_eventbus_92174a3813c41f170602a2a19998deea8f7eeb18_Bean((Supplier)map.get("26151128ac38f9bc3bae39c3d74d2b62ff51e516"), (Supplier)map.get("7c31d5064e6d5db248fafa10f188ca6323f3f983")));
+│ │          map.put("aae49735de9751589ef161fe3527821f203be213", new SmallRyeContextPropagationProvider_ProducerMethod_getAllThreadContext_0976a7142503aa8fe2c89bb7ef3f2613a1f1e921_Bean((Supplier)map.get("ebd8d2e234fe30ef91ad56fbe22532708a21ec71")));
+│ │ +        map.put("10f2575aaf9feaed9befd21496022a99c743946b", new VertxProducer_ProducerMethod_mutinyEventBus_65fcf7e1f3e3ede9a22f691ca70366b9564c7aad_Bean((Supplier)map.get("26151128ac38f9bc3bae39c3d74d2b62ff51e516"), (Supplier)map.get("34fb3aad379eaf11b2702022450ef49495a58440")));
+│ │          map.put("1db071b8dcb8b723de56cb86df6920a2d21e0e9c", new Object_1db071b8dcb8b723de56cb86df6920a2d21e0e9c_Synthetic_Bean());
+│ │          map.put("0505f622115eaa262b210fc3b01d9d188e2c3191", new SmallRyeManagedExecutor_0505f622115eaa262b210fc3b01d9d188e2c3191_Synthetic_Bean());
+│ │      }
+│ │      
+│ │      private void addBeans2(final Map map) {
+│ │          map.put("6ef9dd9271a740aaa271e8a1efa2231088d015f4", new EventLoopGroup_6ef9dd9271a740aaa271e8a1efa2231088d015f4_Synthetic_Bean());
+│ │          map.put("e0d9529bd8e82f33c3bbdde0861773027f3f2e0a", new EventLoopGroup_e0d9529bd8e82f33c3bbdde0861773027f3f2e0a_Synthetic_Bean());
+│ │      }
+│ │      
+│ │      private void addObservers1(final Map map, final List list) {
+│ │ -        list.add(new VertxProducer_Observer_undeployVerticles_05d4c7882dd9f070c2c66a5628cca04986807a49((Supplier)map.get("26151128ac38f9bc3bae39c3d74d2b62ff51e516")));
+│ │          list.add(new GithubAction_Multiplexer_Observer_run_10e4fab489c5baa897ea9b4d6b0a2302f36c3340_a901e5b0533e61b70d7a987be7df54b3b4c7a4ae((Supplier)map.get("7c4e9e499fcdbbfc394a8912906325650b1ce81c")));
+│ │ +        list.add(new VertxProducer_Observer_undeployVerticles_05d4c7882dd9f070c2c66a5628cca04986807a49((Supplier)map.get("26151128ac38f9bc3bae39c3d74d2b62ff51e516")));
+│ │      }
+│ │      
+│ │      static void addRemovedBeans1(final List list, final Map map) {
+│ │          final ClassLoader contextClassLoader = Thread.currentThread().getContextClassLoader();
+│ │          final HashSet set = new HashSet();
+│ │          try {
+│ │              final Object value = map.get("io.quarkus.runtime.shutdown.ShutdownConfig");
+...
+
+2 / 2 target/reference/maven-lockfile-github-action-1.2.0-sources.jar github_action/target/maven-lockfile-github-action-1.2.0-sources.jar
+--- target/reference/maven-lockfile-github-action-1.2.0-sources.jar
++++ github_action/target/maven-lockfile-github-action-1.2.0-sources.jar
+├── zipinfo {}
+│ @@ -1,15 +1,15 @@
+│ -Zip file size: 5025 bytes, number of entries: 13
+│ +Zip file size: 5024 bytes, number of entries: 13
+│  -rw-r--r--  2.0 unx       64 b- defN 23-Apr-15 16:32 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-15 16:32 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-15 16:32 io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-15 16:32 io/github/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-15 16:32 io/github/chains_project/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-15 16:32 io/github/chains_project/maven_lockfile/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-15 16:32 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-15 16:32 META-INF/maven/io.github.chains-project/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-15 16:32 META-INF/maven/io.github.chains-project/maven-lockfile-github-action/
+│  -rw-r--r--  2.0 unx     4994 b- defN 23-Apr-15 16:32 io/github/chains_project/maven_lockfile/GithubAction.java
+│  -rw-r--r--  2.0 unx      121 b- defN 23-Apr-15 16:32 application.properties
+│  -rw-r--r--  2.0 unx     7720 b- defN 23-Apr-15 16:32 META-INF/maven/io.github.chains-project/maven-lockfile-github-action/pom.xml
+│  -rw-r--r--  2.0 unx      137 b- defN 23-Apr-15 16:32 META-INF/maven/io.github.chains-project/maven-lockfile-github-action/pom.properties
+│ -13 files, 13036 bytes uncompressed, 3077 bytes compressed:  76.4%
+│ +13 files, 13036 bytes uncompressed, 3076 bytes compressed:  76.4%
+├── META-INF/maven/io.github.chains-project/maven-lockfile-github-action/pom.properties
+│ @@ -1,5 +1,5 @@
+│  #Generated by Maven
+│ -#Sat Apr 15 16:33:12 UTC 2023
+│ +#Mon Apr 24 17:23:12 UTC 2023
+│  groupId=io.github.chains-project
+│  artifactId=maven-lockfile-github-action
+│  version=1.2.0
+
