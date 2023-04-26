@@ -20,6 +20,7 @@ rebuilding **1 releases** of io.github.chains-project:maven-lockfile:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.3.0](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/1.3.0/pom) | | | |
 | [1.2.0](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/1.2.0/pom) | [mvn jdk11](maven-lockfile-1.2.0.buildspec) | [result](maven-lockfile-parent-1.2.0.buildinfo): [6 :heavy_check_mark:  2 :warning:](maven-lockfile-parent-1.2.0.buildcompare) [:mag:](target/maven-lockfile-1.2.0.diffoscope) | 16M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
