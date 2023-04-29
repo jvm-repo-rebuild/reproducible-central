@@ -76,6 +76,7 @@ rebuilding **2 releases** of org.apache.drill:drill-root:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.21.1](https://central.sonatype.com/artifact/org.apache.drill/drill-root/1.21.1/pom) | | | |
 | [1.21.0](https://central.sonatype.com/artifact/org.apache.drill/drill-root/1.21.0/pom) | [mvn jdk17](drill-1.21.0.buildspec) | [result](drill-root-1.21.0.buildinfo): [108 :heavy_check_mark:  106 :warning:](drill-root-1.21.0.buildcompare) [:mag:](drill-root-1.21.0.diffoscope) [:memo:](https://github.com/apache/drill/pull/2766) | 662M |
 | [1.20.3](https://central.sonatype.com/artifact/org.apache.drill/drill-root/1.20.3/pom) | | | |
 | [1.20.2](https://central.sonatype.com/artifact/org.apache.drill/drill-root/1.20.2/pom) | | | |
