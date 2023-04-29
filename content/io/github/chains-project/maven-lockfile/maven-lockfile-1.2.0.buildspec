@@ -13,5 +13,5 @@ newline=lf
 command="mvn -Ppublication clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-parent-${version}.buildinfo
 
-diffoscope=target/${artifactId}-${version}.diffoscope
+diffoscope=target/${artifactId}-parent-${version}.diffoscope
 issue=
