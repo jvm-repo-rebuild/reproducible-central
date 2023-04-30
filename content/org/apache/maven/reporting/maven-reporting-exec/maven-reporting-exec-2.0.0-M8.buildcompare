@@ -1,0 +1,7 @@
+version=2.0.0-M8
+ok=4
+ko=0
+okFiles="maven-reporting-exec-2.0.0-M8.pom maven-reporting-exec-2.0.0-M8.jar maven-reporting-exec-2.0.0-M8-source-release.zip maven-reporting-exec-2.0.0-M8-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"

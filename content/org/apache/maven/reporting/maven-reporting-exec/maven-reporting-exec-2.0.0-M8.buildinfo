@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Reporting Executor
+group-id=org.apache.maven.reporting
+artifact-id=maven-reporting-exec
+version=2.0.0-M8
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-reporting-exec.git
+source.scm.tag=maven-reporting-exec-2.0.0-M8
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=maven-reporting-exec-2.0.0-M8.pom
+outputs.0.length=9320
+outputs.0.checksums.sha512=b9edde8d631114683bda81ad8391d14f31e6b7ce91ebb8087c14e416f38cb7ea01790dd07e6f7d43f48d982e9c59102918bdbc8782c2a0fcbaaa197392d8556f
+
+outputs.1.filename=maven-reporting-exec-2.0.0-M8.jar
+outputs.1.length=28273
+outputs.1.checksums.sha512=7bac382df25a2a1b9b19ebc194340f726bfe6f151939d3a089da3a4e58dca0796f2901e997bf642fbb19943319439b389f5d12be88eee41d72f4b1b81174b7f4
+
+outputs.2.filename=maven-reporting-exec-2.0.0-M8-source-release.zip
+outputs.2.length=59473
+outputs.2.checksums.sha512=866ea80b507fa9f0e40cf6e743336e4046eeb4ba0ef8a5e394c0cf3b34732c874b01ea8da95d756fea3c19eab5f2a914ec988dba202457243ab4b1da2172eaf6
+
+outputs.3.filename=maven-reporting-exec-2.0.0-M8-sources.jar
+outputs.3.length=25908
+outputs.3.checksums.sha512=750fc0288a245e849b2200dbb09cb2144df76e2f17af34eb4323f7aac69e32e1d3146540ff0d46e3d51375d93132fc9aaec9ce92fdc57e6645557df24dc913e6
