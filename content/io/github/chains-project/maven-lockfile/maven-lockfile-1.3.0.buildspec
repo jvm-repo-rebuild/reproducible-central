@@ -1,7 +1,7 @@
 groupId=io.github.chains-project
 artifactId=maven-lockfile
 display=${groupId}:${artifactId}
-version=1.2.0
+version=1.3.0
 
 gitRepo=https://github.com/chains-project/${artifactId}.git
 gitTag=v${version}
