@@ -13,6 +13,7 @@ rebuilding **1 releases** of com.fasterxml.uuid:java-uuid-generator:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.1.1](https://central.sonatype.com/artifact/com.fasterxml.uuid/java-uuid-generator/4.1.1/pom) | | | |
 | [4.1.0](https://central.sonatype.com/artifact/com.fasterxml.uuid/java-uuid-generator/4.1.0/pom) | [mvn jdk8](java-uuid-generator-4.1.0.buildspec) | [result](java-uuid-generator-4.1.0.buildinfo): [2 :heavy_check_mark:  1 :warning:](java-uuid-generator-4.1.0.buildcompare) [:mag:](java-uuid-generator-4.1.0.diffoscope) | 100K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
