@@ -1,0 +1,7 @@
+version=2.9.50
+ok=2
+ko=0
+okFiles="flexmonster-2.9.50.pom flexmonster-2.9.50.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
