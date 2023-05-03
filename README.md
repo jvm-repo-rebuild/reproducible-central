@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **1775 releases** of **401 projects**:
-   - **1326** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **1778 releases** of **401 projects**:
+   - **1329** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 449 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
@@ -65,7 +65,7 @@ Its objectives are to provide:
 | fr.marcwrobel | <a name='fr.marcwrobel:jbanking'></a>[jbanking](content/fr/marcwrobel/jbanking/README.md) | 1 | 1 :heavy_check_mark: |
 | fr.vidal.oss | <a name='fr.vidal.oss:atom-jaxb'></a>[atom-jaxb](content/fr/vidal/oss/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | io.jooby | <a name='io.jooby:jooby'></a>[jooby](content/io/jooby/README.md) | 1 | 1 :warning: |
-| io.liftwizard | <a name='io.liftwizard:liftwizard'></a>[liftwizard](content/io/liftwizard/README.md) | 35 | 35 :heavy_check_mark: |
+| io.liftwizard | <a name='io.liftwizard:liftwizard'></a>[liftwizard](content/io/liftwizard/README.md) | 36 | 36 :heavy_check_mark: |
 | io.cucumber | <a name='io.cucumber:cucumber-expressions'></a>[cucumber-expressions](content/io/cucumber/cucumber-expressions/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='io.cucumber:cucumber-jvm'></a>[cucumber-jvm](content/io/cucumber/cucumber-jvm/README.md) | 6 | 6 :heavy_check_mark: |
 | | <a name='io.cucumber:gherkin'></a>[gherkin](content/io/cucumber/gherkin/README.md) | 6 | 6 :heavy_check_mark: |
@@ -207,7 +207,7 @@ Its objectives are to provide:
 | | <a name='org.apache.maven.plugins:maven-scm-publish-plugin'></a>[maven-scm-publish-plugin](content/org/apache/maven/plugins/maven-scm-publish-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-scripting-plugin'></a>[maven-scripting-plugin](content/org/apache/maven/plugins/maven-scripting-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-shade-plugin'></a>[maven-shade-plugin](content/org/apache/maven/plugins/maven-shade-plugin/README.md) | 6 | 6 :heavy_check_mark: |
-| | <a name='org.apache.maven.plugins:maven-site-plugin'></a>[maven-site-plugin](content/org/apache/maven/plugins/maven-site-plugin/README.md) | 13 | 11 :heavy_check_mark: / 2 :warning: |
+| | <a name='org.apache.maven.plugins:maven-site-plugin'></a>[maven-site-plugin](content/org/apache/maven/plugins/maven-site-plugin/README.md) | 14 | 12 :heavy_check_mark: / 2 :warning: |
 | | <a name='org.apache.maven.plugins:maven-source-plugin'></a>[maven-source-plugin](content/org/apache/maven/plugins/maven-source-plugin/README.md) | 1 | 1 :warning: |
 | | <a name='org.apache.maven.plugins:maven-toolchains-plugin'></a>[maven-toolchains-plugin](content/org/apache/maven/plugins/maven-toolchains-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-war-plugin'></a>[maven-war-plugin](content/org/apache/maven/plugins/maven-war-plugin/README.md) | 3 | 3 :heavy_check_mark: |
@@ -327,7 +327,7 @@ Its objectives are to provide:
 | | <a name='org.apache.sling:org.apache.sling.testing.jcr-mock'></a>[*.testing.jcr-mock](content/org/apache/sling/org.apache.sling.testing.jcr-mock/README.md) | 6 | 6 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.testing.osgi-mock'></a>[*.testing.osgi-mock](content/org/apache/sling/org.apache.sling.testing.osgi-mock/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.testing.resourceresolver-mock'></a>[*.testing.resourceresolver-mock](content/org/apache/sling/org.apache.sling.testing.resourceresolver-mock/README.md) | 6 | 5 :heavy_check_mark: / 1 :warning: |
-| | <a name='org.apache.sling:org.apache.sling.testing.sling-mock'></a>[*.testing.sling-mock](content/org/apache/sling/org.apache.sling.testing.sling-mock/README.md) | 6 | 6 :heavy_check_mark: |
+| | <a name='org.apache.sling:org.apache.sling.testing.sling-mock'></a>[*.testing.sling-mock](content/org/apache/sling/org.apache.sling.testing.sling-mock/README.md) | 7 | 7 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.testing.sling-mock-oak'></a>[*.testing.sling-mock-oak](content/org/apache/sling/org.apache.sling.testing.sling-mock-oak/README.md) | 5 | 5 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.tooling.support.install'></a>[*.tooling.support.install](content/org/apache/sling/org.apache.sling.tooling.support.install/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.tooling.support.source'></a>[*.tooling.support.source](content/org/apache/sling/org.apache.sling.tooling.support.source/README.md) | 1 | 1 :heavy_check_mark: |
@@ -423,7 +423,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 11 | 11 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 6 | 6 :warning: |
-| **Count:** | **401** | **1775** | **1326** :heavy_check_mark: **449** :warning: |
+| **Count:** | **401** | **1778** | **1329** :heavy_check_mark: **449** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -435,9 +435,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      20 gradle     11
      26 mvn         7
-    839 mvn         8
+    840 mvn         8
       1 mvn         9
-    630 mvn        11
+    632 mvn        11
       1 mvn        13
       4 mvn        14
      10 mvn        15
