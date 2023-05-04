@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=ModiTect Aggregator
+group-id=org.moditect
+artifact-id=moditect-aggregator
+version=1.0.0.Final
+
+# source information
+source.scm.uri=scm:git:git@github.com:moditect/moditect-org-parent.git/moditect-aggregator
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=moditect-maven-plugin
+
+# aggregated output
+
+outputs.0.coordinates=org.moditect:moditect-parent
+
+outputs.0.0.filename=moditect-parent-1.0.0.Final.pom
+outputs.0.0.length=12213
+outputs.0.0.checksums.sha512=54d410a6cf7727dcec7f4a1d6953f81ad2da30f8ca5bdce2f47aa478d25a52c4d34d5215ae479b1f63601f36fb0310331608ecefe7be5f54de16ec6e9164353f
+
+outputs.1.coordinates=org.moditect:moditect
+
+outputs.1.0.filename=moditect-1.0.0.Final.pom
+outputs.1.0.length=5062
+outputs.1.0.checksums.sha512=81d1113444c49c44568965fffc66db1c0d3f48101dd664ee3c777f703f2382932ae7532ae14b72fd3c3f476cc2fb4d7928070db40eed88a8ddee5a47e08c6b87
+
+outputs.1.1.filename=moditect-1.0.0.Final.jar
+outputs.1.1.length=1623776
+outputs.1.1.checksums.sha512=b46f4d3ada405066d4f141b4bc878d5f9121487fffaf9a9a5e4a6ba39bfdff3e4c5414cd77e291e48e83a7a1445ecc6a5885bc4018056ac0ba786f61522eda21
+
+outputs.1.2.filename=moditect-1.0.0.Final-sources.jar
+outputs.1.2.length=31071
+outputs.1.2.checksums.sha512=66d3cf0037fca61c6e8e8b961394fd8e314e66f33ae32d6591532eed64c219ca750dd92b023930719e63ef801106c37deb07336f7342a4a835ded9abeb3a1036
+
+outputs.2.coordinates=org.moditect:moditect-maven-plugin
+
+outputs.2.0.filename=moditect-maven-plugin-1.0.0.Final.pom
+outputs.2.0.length=3985
+outputs.2.0.checksums.sha512=2897533acf2f317b454cdc51cd491d548d87b9b1b70dda4937a84b0dd4306f26b9df3982cc9e4afa7e3522a5b537433c34617cb70deaf70068aea72ef44ba8f4
+
+outputs.2.1.filename=moditect-maven-plugin-1.0.0.Final.jar
+outputs.2.1.length=50205
+outputs.2.1.checksums.sha512=1730616dad8c0b30fcf4d1cdef33aaca473b63efd27c52a7553f32c62ba313b54e9ab9398704bedd1056ade59563b1408673e0c1278d4c3d8b3c19721465a441
+
+outputs.2.2.filename=moditect-maven-plugin-1.0.0.Final-sources.jar
+outputs.2.2.length=29538
+outputs.2.2.checksums.sha512=a7e34170d4d011fbc0b574be6263a9848ff18982e0eb225d5b0a6ef2f8d887eb5a02135bb54d5511ba569db9da780eb6788d700b2d336b295787c6a6c8c92501

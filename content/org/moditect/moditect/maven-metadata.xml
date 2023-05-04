@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.moditect</groupId>
+  <artifactId>moditect-aggregator</artifactId>
+  <versioning>
+    <latest>1.0.0.Final</latest>
+    <release>1.0.0.Final</release>
+    <versions>
+      <version>1.0.0.RC2</version>
+      <version>1.0.0.RC3</version>
+      <version>1.0.0.Final</version>
+    </versions>
+    <lastUpdated>20230503071437</lastUpdated>
+  </versioning>
+</metadata>
