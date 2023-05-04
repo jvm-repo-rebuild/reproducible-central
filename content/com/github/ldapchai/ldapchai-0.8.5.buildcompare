@@ -1,0 +1,7 @@
+version=0.8.5
+ok=1
+ko=2
+okFiles="ldapchai-0.8.5.pom"
+koFiles="ldapchai-0.8.5.jar ldapchai-0.8.5-sources.jar"
+# diffoscope target/reference/ldapchai-0.8.5.jar target/ldapchai-0.8.5.jar
+# diffoscope target/reference/ldapchai-0.8.5-sources.jar target/ldapchai-0.8.5-sources.jar
