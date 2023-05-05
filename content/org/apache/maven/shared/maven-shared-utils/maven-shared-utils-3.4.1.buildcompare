@@ -1,0 +1,8 @@
+version=3.4.1
+ok=3
+ko=1
+okFiles="maven-shared-utils-3.4.1.pom maven-shared-utils-3.4.1.jar maven-shared-utils-3.4.1-sources.jar"
+koFiles="maven-shared-utils-3.4.1-source-release.zip"
+reference_java_version="20 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/maven-shared-utils-3.4.1-source-release.zip target/maven-shared-utils-3.4.1-source-release.zip
