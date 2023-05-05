@@ -27,6 +27,7 @@ rebuilding **2 releases** of com.fasterxml.jackson.jr:jackson-jr-parent:
 | [2.15.0-rc3](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.15.0-rc3/pom) | | | |
 | [2.15.0-rc2](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.15.0-rc2/pom) | | | |
 | [2.15.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.15.0-rc1/pom) | | | |
+| [2.14.3](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.14.3/pom) | | | |
 | [2.14.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.14.2/pom) | | | |
 | [2.14.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.14.1/pom) | | | |
 | [2.14.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.14.0/pom) | | | |

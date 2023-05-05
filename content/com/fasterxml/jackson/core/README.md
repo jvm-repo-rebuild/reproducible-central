@@ -17,11 +17,12 @@ rebuilding **2 releases** of com.fasterxml.jackson.core:jackson-core:
 | [2.15.0-rc3](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.15.0-rc3/pom) | | | |
 | [2.15.0-rc2](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.15.0-rc2/pom) | | | |
 | [2.15.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.15.0-rc1/pom) | | | |
+| [2.14.3](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.14.3/pom) | | | |
 | [2.14.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.14.2/pom) | | | |
 | [2.14.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.14.1/pom) | | | |
 | [2.14.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.14.0/pom) | | | |
 | [2.14.0-rc3](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.14.0-rc3/pom) | | | |
-| [2.14.0-rc2](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.14.0-rc2/pom) | [mvn jdk8](jackson-core-2.14.0-rc2.buildspec) | [result](jackson-core-2.14.0-rc2.buildinfo): [2 :heavy_check_mark:  2 :warning:](jackson-core-2.14.0-rc2.buildcompare) [:mag:](jackson-core-2.14.0-rc2.diffoscope) | 941K |
+| [2.14.0-rc2](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.14.0-rc2/pom) | [mvn jdk8](jackson-core-2.14.0-rc2.buildspec) | [result](jackson-core-2.14.0-rc2.buildinfo): [2 :heavy_check_mark:  2 :warning:](jackson-core-2.14.0-rc2.buildcompare) [:mag:](jackson-core-2.14.0-rc2.diffoscope) [:memo:](https://github.com/FasterXML/oss-parent/pull/75) | 941K |
 | [2.14.0-rc1](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.14.0-rc1/pom) | [mvn jdk8](jackson-core-2.14.0-rc1.buildspec) | [result](jackson-core-2.14.0-rc1.buildinfo): [1 :heavy_check_mark:  3 :warning:](jackson-core-2.14.0-rc1.buildcompare) [:mag:](jackson-core-2.14.0-rc1.diffoscope) [:memo:](https://github.com/FasterXML/oss-parent/pull/55) | 938K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
