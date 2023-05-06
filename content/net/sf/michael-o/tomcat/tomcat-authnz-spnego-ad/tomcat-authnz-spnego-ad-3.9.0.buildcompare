@@ -1,0 +1,7 @@
+version=3.9.0
+ok=3
+ko=0
+okFiles="tomcat-authnz-spnego-ad-3.9.0.pom tomcat-authnz-spnego-ad-3.9.0.jar tomcat-authnz-spnego-ad-3.9.0-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"

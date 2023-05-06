@@ -1,0 +1,16 @@
+groupId=net.sf.michael-o.tomcat
+artifactId=tomcat-authnz-spnego-ad
+display=${groupId}:${artifactId}
+version=3.9.0
+
+gitRepo=https://github.com/michael-o/tomcatspnegoad.git
+gitTag=${version}
+
+tool=mvn
+jdk=11
+newline=crlf
+
+command="mvn -Pmichael-o-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
