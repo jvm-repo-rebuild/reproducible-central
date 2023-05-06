@@ -1,0 +1,7 @@
+version=1.0.0.Final
+ok=20
+ko=0
+okFiles="layrry-aggregator-1.0.0.Final.pom layrry-platform-1.0.0.Final.pom layrry-platform-1.0.0.Final.jar layrry-platform-1.0.0.Final-sources.jar layrry-config-1.0.0.Final.pom layrry-config-1.0.0.Final.jar layrry-config-1.0.0.Final-sources.jar layrry-config-yaml-1.0.0.Final.pom layrry-config-yaml-1.0.0.Final.jar layrry-config-yaml-1.0.0.Final-sources.jar layrry-config-toml-1.0.0.Final.pom layrry-config-toml-1.0.0.Final.jar layrry-config-toml-1.0.0.Final-sources.jar layrry-core-1.0.0.Final.pom layrry-core-1.0.0.Final.jar layrry-core-1.0.0.Final-sources.jar layrry-launcher-1.0.0.Final.pom layrry-launcher-1.0.0.Final.jar layrry-launcher-1.0.0.Final-sources.jar layrry-launcher-1.0.0.Final-all.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
