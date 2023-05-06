@@ -1,0 +1,8 @@
+version=2.0.1
+ok=4
+ko=1
+okFiles="license-maven-plugin-2.0.1.pom license-maven-plugin-2.0.1-third-party.properties license-maven-plugin-2.0.1-source-release.zip license-maven-plugin-2.0.1-sources.jar"
+koFiles="license-maven-plugin-2.0.1.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/license-maven-plugin-2.0.1.jar target/license-maven-plugin-2.0.1.jar

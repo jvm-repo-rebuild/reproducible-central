@@ -1,0 +1,169 @@
+1 / 1 target/reference/license-maven-plugin-2.0.1.jar target/license-maven-plugin-2.0.1.jar
+--- target/reference/license-maven-plugin-2.0.1.jar
++++ target/license-maven-plugin-2.0.1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 507238 bytes, number of entries: 214
+│ +Zip file size: 507241 bytes, number of entries: 214
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-05 03:36 META-INF/
+│  -rw-r--r--  2.0 unx       81 b- defN 23-May-05 03:36 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-05 03:36 META-INF/licenses/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-05 03:36 META-INF/licenses/agpl_v3/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-05 03:36 META-INF/licenses/apache_v2/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-05 03:36 META-INF/licenses/bsd_2/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-05 03:36 META-INF/licenses/bsd_3/
+│ @@ -209,8 +209,8 @@
+│  -rw-r--r--  2.0 unx     5897 b- defN 23-May-05 03:36 org/codehaus/mojo/license/utils/UrlRequester.class
+│  -rw-r--r--  2.0 unx    11148 b- defN 23-May-05 03:36 org/codehaus/mojo/license_maven_plugin/HelpMojo.class
+│  -rw-r--r--  2.0 unx     2671 b- defN 23-May-05 03:36 third-party-report.properties
+│  -rw-r--r--  2.0 unx     1205 b- defN 23-May-05 03:36 third-party-report_en.properties
+│  -rw-r--r--  2.0 unx     3033 b- defN 23-May-05 03:36 third-party-report_fr.properties
+│  -rw-r--r--  2.0 unx    20783 b- defN 23-May-05 03:36 META-INF/maven/org.codehaus.mojo/license-maven-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       72 b- defN 23-May-05 03:36 META-INF/maven/org.codehaus.mojo/license-maven-plugin/pom.properties
+│ -214 files, 1522579 bytes uncompressed, 470074 bytes compressed:  69.1%
+│ +214 files, 1522579 bytes uncompressed, 470077 bytes compressed:  69.1%
+├── META-INF/plexus/components.xml
+│ ├── META-INF/plexus/components.xml
+│ │ @@ -1,14 +1,14 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <component-set>
+│ │    <components>
+│ │      <component>
+│ │ -      <role>org.codehaus.mojo.license.download.LicensedArtifactResolver</role>
+│ │ +      <role>org.codehaus.mojo.license.api.DependenciesTool</role>
+│ │        <role-hint>default</role-hint>
+│ │ -      <implementation>org.codehaus.mojo.license.download.LicensedArtifactResolver</implementation>
+│ │ +      <implementation>org.codehaus.mojo.license.api.DependenciesTool</implementation>
+│ │        <description/>
+│ │        <isolated-realm>false</isolated-realm>
+│ │        <requirements>
+│ │          <requirement>
+│ │            <role>org.apache.maven.project.ProjectBuilder</role>
+│ │            <field-name>mavenProjectBuilder</field-name>
+│ │          </requirement>
+│ │ @@ -36,17 +36,17 @@
+│ │          <requirement>
+│ │            <role>org.apache.maven.project.MavenProjectHelper</role>
+│ │            <field-name>projectHelper</field-name>
+│ │          </requirement>
+│ │        </requirements>
+│ │      </component>
+│ │      <component>
+│ │ -      <role>org.codehaus.mojo.license.api.DependenciesTool</role>
+│ │ +      <role>org.codehaus.mojo.license.download.LicensedArtifactResolver</role>
+│ │        <role-hint>default</role-hint>
+│ │ -      <implementation>org.codehaus.mojo.license.api.DependenciesTool</implementation>
+│ │ +      <implementation>org.codehaus.mojo.license.download.LicensedArtifactResolver</implementation>
+│ │        <description/>
+│ │        <isolated-realm>false</isolated-realm>
+│ │        <requirements>
+│ │          <requirement>
+│ │            <role>org.apache.maven.project.ProjectBuilder</role>
+│ │            <field-name>mavenProjectBuilder</field-name>
+│ │          </requirement>
+│ │ @@ -54,84 +54,84 @@
+│ │            <role>org.apache.maven.execution.MavenSession</role>
+│ │            <field-name>mavenSession</field-name>
+│ │          </requirement>
+│ │        </requirements>
+│ │      </component>
+│ │      <component>
+│ │        <role>org.codehaus.mojo.license.header.transformer.FileHeaderTransformer</role>
+│ │ -      <role-hint>xml</role-hint>
+│ │ -      <implementation>org.codehaus.mojo.license.header.transformer.XmlFileHeaderTransformer</implementation>
+│ │ +      <role-hint>java</role-hint>
+│ │ +      <implementation>org.codehaus.mojo.license.header.transformer.JavaFileHeaderTransformer</implementation>
+│ │        <description/>
+│ │        <isolated-realm>false</isolated-realm>
+│ │      </component>
+│ │      <component>
+│ │        <role>org.codehaus.mojo.license.header.transformer.FileHeaderTransformer</role>
+│ │        <role-hint>html</role-hint>
+│ │        <implementation>org.codehaus.mojo.license.header.transformer.HtmlFileHeaderTransformer</implementation>
+│ │        <description/>
+│ │        <isolated-realm>false</isolated-realm>
+│ │      </component>
+│ │      <component>
+│ │        <role>org.codehaus.mojo.license.header.transformer.FileHeaderTransformer</role>
+│ │ -      <role-hint>sql</role-hint>
+│ │ -      <implementation>org.codehaus.mojo.license.header.transformer.SqlFileHeaderTransformer</implementation>
+│ │ +      <role-hint>php</role-hint>
+│ │ +      <implementation>org.codehaus.mojo.license.header.transformer.PhpFileHeaderTransformer</implementation>
+│ │        <description/>
+│ │        <isolated-realm>false</isolated-realm>
+│ │      </component>
+│ │      <component>
+│ │        <role>org.codehaus.mojo.license.header.transformer.FileHeaderTransformer</role>
+│ │ -      <role-hint>mysql</role-hint>
+│ │ -      <implementation>org.codehaus.mojo.license.header.transformer.MySqlFileHeaderTransformer</implementation>
+│ │ +      <role-hint>rst</role-hint>
+│ │ +      <implementation>org.codehaus.mojo.license.header.transformer.RstFileHeaderTransformer</implementation>
+│ │        <description/>
+│ │        <isolated-realm>false</isolated-realm>
+│ │      </component>
+│ │      <component>
+│ │        <role>org.codehaus.mojo.license.header.transformer.FileHeaderTransformer</role>
+│ │ -      <role-hint>php</role-hint>
+│ │ -      <implementation>org.codehaus.mojo.license.header.transformer.PhpFileHeaderTransformer</implementation>
+│ │ +      <role-hint>jsp</role-hint>
+│ │ +      <implementation>org.codehaus.mojo.license.header.transformer.JspFileHeaderTransformer</implementation>
+│ │        <description/>
+│ │        <isolated-realm>false</isolated-realm>
+│ │      </component>
+│ │      <component>
+│ │        <role>org.codehaus.mojo.license.header.transformer.FileHeaderTransformer</role>
+│ │ -      <role-hint>properties</role-hint>
+│ │ -      <implementation>org.codehaus.mojo.license.header.transformer.PropertiesFileHeaderTransformer</implementation>
+│ │ +      <role-hint>mysql</role-hint>
+│ │ +      <implementation>org.codehaus.mojo.license.header.transformer.MySqlFileHeaderTransformer</implementation>
+│ │        <description/>
+│ │        <isolated-realm>false</isolated-realm>
+│ │      </component>
+│ │      <component>
+│ │        <role>org.codehaus.mojo.license.header.transformer.FileHeaderTransformer</role>
+│ │ -      <role-hint>ftl</role-hint>
+│ │ -      <implementation>org.codehaus.mojo.license.header.transformer.FreeMarkerFileHeaderTransformer</implementation>
+│ │ +      <role-hint>apt</role-hint>
+│ │ +      <implementation>org.codehaus.mojo.license.header.transformer.AptFileHeaderTransformer</implementation>
+│ │        <description/>
+│ │        <isolated-realm>false</isolated-realm>
+│ │      </component>
+│ │      <component>
+│ │        <role>org.codehaus.mojo.license.header.transformer.FileHeaderTransformer</role>
+│ │ -      <role-hint>java</role-hint>
+│ │ -      <implementation>org.codehaus.mojo.license.header.transformer.JavaFileHeaderTransformer</implementation>
+│ │ +      <role-hint>ftl</role-hint>
+│ │ +      <implementation>org.codehaus.mojo.license.header.transformer.FreeMarkerFileHeaderTransformer</implementation>
+│ │        <description/>
+│ │        <isolated-realm>false</isolated-realm>
+│ │      </component>
+│ │      <component>
+│ │        <role>org.codehaus.mojo.license.header.transformer.FileHeaderTransformer</role>
+│ │ -      <role-hint>rst</role-hint>
+│ │ -      <implementation>org.codehaus.mojo.license.header.transformer.RstFileHeaderTransformer</implementation>
+│ │ +      <role-hint>properties</role-hint>
+│ │ +      <implementation>org.codehaus.mojo.license.header.transformer.PropertiesFileHeaderTransformer</implementation>
+│ │        <description/>
+│ │        <isolated-realm>false</isolated-realm>
+│ │      </component>
+│ │      <component>
+│ │        <role>org.codehaus.mojo.license.header.transformer.FileHeaderTransformer</role>
+│ │ -      <role-hint>apt</role-hint>
+│ │ -      <implementation>org.codehaus.mojo.license.header.transformer.AptFileHeaderTransformer</implementation>
+│ │ +      <role-hint>xml</role-hint>
+│ │ +      <implementation>org.codehaus.mojo.license.header.transformer.XmlFileHeaderTransformer</implementation>
+│ │        <description/>
+│ │        <isolated-realm>false</isolated-realm>
+│ │      </component>
+│ │      <component>
+│ │        <role>org.codehaus.mojo.license.header.transformer.FileHeaderTransformer</role>
+│ │ -      <role-hint>jsp</role-hint>
+│ │ -      <implementation>org.codehaus.mojo.license.header.transformer.JspFileHeaderTransformer</implementation>
+│ │ +      <role-hint>sql</role-hint>
+│ │ +      <implementation>org.codehaus.mojo.license.header.transformer.SqlFileHeaderTransformer</implementation>
+│ │        <description/>
+│ │        <isolated-realm>false</isolated-realm>
+│ │      </component>
+│ │    </components>
+│ │  </component-set>
+
