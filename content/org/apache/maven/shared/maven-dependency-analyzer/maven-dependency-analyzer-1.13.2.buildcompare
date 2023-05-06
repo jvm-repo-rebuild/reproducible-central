@@ -1,0 +1,7 @@
+version=1.13.2
+ok=4
+ko=0
+okFiles="maven-dependency-analyzer-1.13.2.pom maven-dependency-analyzer-1.13.2.jar maven-dependency-analyzer-1.13.2-source-release.zip maven-dependency-analyzer-1.13.2-sources.jar"
+koFiles=""
+reference_java_version="20 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
