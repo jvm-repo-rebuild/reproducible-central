@@ -1,33 +1,34 @@
-[eu.maveniverse.maven.mima:mima](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/1.1.0/versions) RB check
+[eu.maveniverse.maven.mima:mima](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/1.1.2/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [eu.maveniverse.maven.mima:mima](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/1.1.0/versions)
+## Project: [eu.maveniverse.maven.mima:mima](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/1.1.2/versions)
 
 Source code: [https://github.com/maveniverse/mima.git](https://github.com/maveniverse/mima.git)
 
 <details><summary>This project defines 9 modules:</summary>
 
-* [eu.maveniverse.maven.mima.runtime:embedded-maven](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/embedded-maven/1.1.0)
-* [eu.maveniverse.maven.mima.runtime:runtime](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/runtime/1.1.0)
-* [eu.maveniverse.maven.mima.runtime:standalone-shared](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/standalone-shared/1.1.0)
-* [eu.maveniverse.maven.mima.runtime:standalone-sisu](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/standalone-sisu/1.1.0)
-* [eu.maveniverse.maven.mima.runtime:standalone-sisu-uber](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/standalone-sisu-uber/1.1.0)
-* [eu.maveniverse.maven.mima.runtime:standalone-static](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/standalone-static/1.1.0)
-* [eu.maveniverse.maven.mima.runtime:standalone-static-uber](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/standalone-static-uber/1.1.0)
-* [eu.maveniverse.maven.mima:context](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/context/1.1.0)
-* [eu.maveniverse.maven.mima:mima](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/1.1.0)
+* [eu.maveniverse.maven.mima.runtime:embedded-maven](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/embedded-maven/1.1.2)
+* [eu.maveniverse.maven.mima.runtime:runtime](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/runtime/1.1.2)
+* [eu.maveniverse.maven.mima.runtime:standalone-shared](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/standalone-shared/1.1.2)
+* [eu.maveniverse.maven.mima.runtime:standalone-sisu](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/standalone-sisu/1.1.2)
+* [eu.maveniverse.maven.mima.runtime:standalone-sisu-uber](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/standalone-sisu-uber/1.1.2)
+* [eu.maveniverse.maven.mima.runtime:standalone-static](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/standalone-static/1.1.2)
+* [eu.maveniverse.maven.mima.runtime:standalone-static-uber](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima.runtime/standalone-static-uber/1.1.2)
+* [eu.maveniverse.maven.mima:context](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/context/1.1.2)
+* [eu.maveniverse.maven.mima:mima](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/1.1.2)
 </details>
 
-rebuilding **8 releases** of eu.maveniverse.maven.mima:mima:
-- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **10 releases** of eu.maveniverse.maven.mima:mima:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.1.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/1.1.2/pom) | | | |
-| [1.1.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/1.1.1/pom) | | | |
+| [2.0.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/2.0.0/pom) | | | |
+| [1.1.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/1.1.2/pom) | [mvn jdk17](mima-1.1.2.buildspec) | [result](mima-1.1.2.buildinfo): [23 :heavy_check_mark: ](mima-1.1.2.buildcompare) | 12M |
+| [1.1.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/1.1.1/pom) | [mvn jdk17](mima-1.1.1.buildspec) | [result](mima-1.1.1.buildinfo): [23 :heavy_check_mark: ](mima-1.1.1.buildcompare) | 12M |
 | [1.1.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/1.1.0/pom) | [mvn jdk17](mima-1.1.0.buildspec) | [result](mima-1.1.0.buildinfo): [23 :heavy_check_mark: ](mima-1.1.0.buildcompare) | 12M |
 | [1.0.6](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/1.0.6/pom) | [mvn jdk17](mima-1.0.6.buildspec) | [result](mima-1.0.6.buildinfo): [23 :heavy_check_mark: ](mima-1.0.6.buildcompare) | 12M |
 | [1.0.5](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/1.0.5/pom) | [mvn jdk17](mima-1.0.5.buildspec) | [result](mima-1.0.5.buildinfo): [23 :heavy_check_mark: ](mima-1.0.5.buildcompare) | 12M |
