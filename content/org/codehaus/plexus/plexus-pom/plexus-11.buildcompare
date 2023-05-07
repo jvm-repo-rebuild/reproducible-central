@@ -1,0 +1,5 @@
+version=11
+ok=3
+ko=0
+okFiles="plexus-11.pom plexus-11-site.xml plexus-11-source-release.zip"
+koFiles=""
