@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **1800 releases** of **407 projects**:
-   - **1346** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **1801 releases** of **407 projects**:
+   - **1347** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 454 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
@@ -130,7 +130,7 @@ Its objectives are to provide:
 | org.apache.jdo | <a name='org.apache.jdo:jdo'></a>[jdo](content/org/apache/jdo/README.md) | 2 | 2 :warning: |
 | org.apache.jspwiki | <a name='org.apache.jspwiki:jspwiki-builder'></a>[jspwiki-builder](content/org/apache/jspwiki/README.md) | 6 | 6 :warning: |
 | org.apache.mina | <a name='org.apache.mina:mina-parent'></a>[mina-parent](content/org/apache/mina/README.md) | 3 | 3 :warning: |
-| org.apache.orc | <a name='org.apache.orc:orc'></a>[orc](content/org/apache/orc/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
+| org.apache.orc | <a name='org.apache.orc:orc'></a>[orc](content/org/apache/orc/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
 | org.apache.rat | <a name='org.apache.rat:apache-rat-project'></a>[apache-rat-project](content/org/apache/rat/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.ratis | <a name='org.apache.ratis:ratis'></a>[ratis](content/org/apache/ratis/README.md) | 1 | 1 :warning: |
 | org.apache.shiro | <a name='org.apache.shiro:shiro-root'></a>[shiro-root](content/org/apache/shiro/README.md) | 5 | 5 :warning: |
@@ -431,7 +431,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 11 | 11 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 6 | 6 :warning: |
-| **Count:** | **407** | **1800** | **1346** :heavy_check_mark: **454** :warning: |
+| **Count:** | **407** | **1801** | **1347** :heavy_check_mark: **454** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -458,7 +458,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.8.5   8
      12 mvn-3.8.5  11
       6 mvn-3.8.5  17
-     21 mvn-3.8.6   8
+     22 mvn-3.8.6   8
       1 mvn-3.8.6  11
      33 mvn-3.8.6  17
       2 mvn-3.8.6  18
