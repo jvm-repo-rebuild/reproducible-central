@@ -1,0 +1,16 @@
+groupId=io.github.hboutemy
+artifactId=sigstore-maven-plugin
+display=${groupId}:${artifactId}
+version=1.0.0-beta-3
+
+gitRepo=https://github.com/hboutemy/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn clean package source:jar -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
