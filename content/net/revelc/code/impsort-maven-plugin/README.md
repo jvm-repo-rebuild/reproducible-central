@@ -13,6 +13,7 @@ rebuilding **2 releases** of net.revelc.code:impsort-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.9.0](https://central.sonatype.com/artifact/net.revelc.code/impsort-maven-plugin/1.9.0/pom) | | | |
 | [1.8.0](https://central.sonatype.com/artifact/net.revelc.code/impsort-maven-plugin/1.8.0/pom) | [mvn jdk11](impsort-maven-plugin-1.8.0.buildspec) | [result](impsort-maven-plugin-1.8.0.buildinfo): [4 :heavy_check_mark: ](impsort-maven-plugin-1.8.0.buildcompare) | 128K |
 | [1.7.0](https://central.sonatype.com/artifact/net.revelc.code/impsort-maven-plugin/1.7.0/pom) | [mvn jdk11](impsort-maven-plugin-1.7.0.buildspec) | [result](impsort-maven-plugin-1.7.0.buildinfo): [4 :heavy_check_mark: ](impsort-maven-plugin-1.7.0.buildcompare) | 128K |
 
