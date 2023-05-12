@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.apache.maven.plugins:maven-remote-resources-plu
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.1.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-remote-resources-plugin/3.1.0/pom) | | | |
 | [3.0.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-remote-resources-plugin/3.0.0/pom) | [mvn jdk17](maven-remote-resources-plugin-3.0.0.buildspec) | [result](maven-remote-resources-plugin-3.0.0.buildinfo): [4 :heavy_check_mark: ](maven-remote-resources-plugin-3.0.0.buildcompare) | 330K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
