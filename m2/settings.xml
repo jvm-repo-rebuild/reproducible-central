@@ -172,6 +172,11 @@
       <url>https://repo.clojars.org</url>
     </mirror>
     <mirror>
+      <id>wso2-m2</id>
+      <mirrorOf>wso2-m2</mirrorOf>
+      <url>http://dist.wso2.org/maven2/</url>
+    </mirror>
+    <mirror>
       <id>default</id>
       <mirrorOf>*</mirrorOf>
       <url>https://repo.maven.apache.org/maven2</url>
