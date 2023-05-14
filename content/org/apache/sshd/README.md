@@ -33,6 +33,7 @@ rebuilding **2 releases** of org.apache.sshd:sshd:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.10.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.10.0/pom) | | | |
 | [2.9.2](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.9.2/pom) | | | |
 | [2.9.1](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.9.1/pom) | | | |
 | [2.9.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.9.0/pom) | | | |

@@ -13,6 +13,7 @@ rebuilding **3 releases** of eu.europa.ted.eforms:eforms-sdk:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.7.0](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.7.0/pom) | | | |
 | [1.6.0](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.6.0/pom) | [mvn jdk11](eforms-sdk-1.6.0.buildspec) | [result](eforms-sdk-1.6.0.buildinfo): [3 :heavy_check_mark: ](eforms-sdk-1.6.0.buildcompare) | 22M |
 | [1.5.2](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.5.2/pom) | [mvn jdk11](eforms-sdk-1.5.2.buildspec) | [result](eforms-sdk-1.5.2.buildinfo): [2 :heavy_check_mark:  1 :warning:](eforms-sdk-1.5.2.buildcompare) [:memo:](https://github.com/OP-TED/eForms-SDK/pull/309) | 22M |
 | [1.5.1](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.5.1/pom) | [mvn jdk11](eforms-sdk-1.5.1.buildspec) | [result](eforms-sdk-1.5.1.buildinfo): [2 :heavy_check_mark:  1 :warning:](eforms-sdk-1.5.1.buildcompare) [:mag:](eforms-sdk-1.5.1.diffoscope) [:memo:](https://github.com/OP-TED/eForms-SDK/pull/309) | 22M |
