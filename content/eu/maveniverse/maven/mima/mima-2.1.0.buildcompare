@@ -1,0 +1,7 @@
+version=2.1.0
+ok=23
+ko=0
+okFiles="mima-2.1.0.pom context-2.1.0.pom context-2.1.0.jar context-2.1.0-sources.jar runtime-2.1.0.pom embedded-maven-2.1.0.pom embedded-maven-2.1.0.jar embedded-maven-2.1.0-sources.jar standalone-shared-2.1.0.pom standalone-shared-2.1.0.jar standalone-shared-2.1.0-sources.jar standalone-sisu-2.1.0.pom standalone-sisu-2.1.0.jar standalone-sisu-2.1.0-sources.jar standalone-sisu-uber-2.1.0.pom standalone-sisu-uber-2.1.0.jar standalone-sisu-uber-2.1.0-sources.jar standalone-static-2.1.0.pom standalone-static-2.1.0.jar standalone-static-2.1.0-sources.jar standalone-static-uber-2.1.0.pom standalone-static-uber-2.1.0.jar standalone-static-uber-2.1.0-sources.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
