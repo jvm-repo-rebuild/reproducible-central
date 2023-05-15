@@ -1,0 +1,7 @@
+version=1.7.0
+ok=3
+ko=0
+okFiles="eforms-sdk-1.7.0.pom eforms-sdk-1.7.0.jar eforms-sdk-1.7.0-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
