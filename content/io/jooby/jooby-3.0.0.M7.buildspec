@@ -13,5 +13,5 @@ newline=lf
 command="mvn -Psource clean package -DskipTests -Dmaven.javadoc.skip"
 buildinfo=target/${artifactId}-project-${version}.buildinfo
 
-diffoscope=target/${artifactId}-${version}.diffoscope
+diffoscope=${artifactId}-project-${version}.diffoscope
 issue=
