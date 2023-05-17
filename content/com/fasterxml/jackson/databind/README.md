@@ -13,6 +13,7 @@ rebuilding **3 releases** of com.fasterxml.jackson.core:jackson-databind:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.15.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.15.1/pom) | | | |
 | [2.15.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.15.0/pom) | | | |
 | [2.15.0-rc3](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.15.0-rc3/pom) | | | |
 | [2.15.0-rc2](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-databind/2.15.0-rc2/pom) | | | |

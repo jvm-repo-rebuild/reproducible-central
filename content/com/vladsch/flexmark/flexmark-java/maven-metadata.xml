@@ -3,8 +3,8 @@
   <groupId>com.vladsch.flexmark</groupId>
   <artifactId>flexmark-java</artifactId>
   <versioning>
-    <latest>0.64.4</latest>
-    <release>0.64.4</release>
+    <latest>0.64.6</latest>
+    <release>0.64.6</release>
     <versions>
       <version>0.4.17</version>
       <version>0.5.0</version>
@@ -232,7 +232,8 @@
       <version>0.64.0</version>
       <version>0.64.2</version>
       <version>0.64.4</version>
+      <version>0.64.6</version>
     </versions>
-    <lastUpdated>20230502224433</lastUpdated>
+    <lastUpdated>20230517183916</lastUpdated>
   </versioning>
 </metadata>
