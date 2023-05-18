@@ -1,0 +1,60 @@
+1 / 9 target/reference/jackson-jr-objects-2.15.1.jar jr-objects/target/jackson-jr-objects-2.15.1.jar
+--- target/reference/jackson-jr-objects-2.15.1.jar
++++ jr-objects/target/jackson-jr-objects-2.15.1.jar
+├── zipinfo {}
+│ @@ -1,80 +1,80 @@
+│  Zip file size: 100505 bytes, number of entries: 78
+│ --rw----     2.0 fat        0 bX defN 80-Feb-01 08:00 META-INF/
+│ +-rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     2371 bx defN 23-May-16 21:50 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat      303 bX defN 80-Feb-01 08:00 META-INF/LICENSE
+│ --rw----     2.0 fat      610 bX defN 80-Feb-01 08:00 META-INF/NOTICE
+│ --rw----     2.0 fat        0 bX defN 80-Feb-01 08:00 META-INF/maven/
+│ --rw----     2.0 fat        0 bX defN 80-Feb-01 08:00 META-INF/maven/com.fasterxml.jackson.jr/
+...
+│ --rw----     2.0 fat     7175 bX defN 80-Feb-01 08:00 com/fasterxml/jackson/jr/type/TypeResolver.class
+│ +-rw----     2.0 fat      303 bX defN 80-Feb-01 00:00 META-INF/LICENSE
+│ +-rw----     2.0 fat      610 bX defN 80-Feb-01 00:00 META-INF/NOTICE
+│ +-rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/maven/
+│ +-rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/maven/com.fasterxml.jackson.jr/
+...
+│ +-rw----     2.0 fat     7175 bX defN 80-Feb-01 00:00 com/fasterxml/jackson/jr/type/TypeResolver.class
+│  -rw----     1.0 fat        0 bx stor 23-May-16 21:50 META-INF/versions/
+│  -rw----     1.0 fat        0 bx stor 23-May-16 21:50 META-INF/versions/9/
+│  -rw----     2.0 fat      384 bx defN 23-May-16 21:50 META-INF/versions/9/module-info.class
+│  78 files, 228628 bytes uncompressed, 85411 bytes compressed:  62.6%
+
+2 / 9 target/reference/jackson-jr-objects-2.15.1.module jr-objects/target/publications/maven/module.json
+3 / 9 target/reference/jackson-jr-retrofit2-2.15.1.jar jr-retrofit2/target/jackson-jr-retrofit2-2.15.1.jar
+4 / 9 target/reference/jackson-jr-retrofit2-2.15.1.module jr-retrofit2/target/publications/maven/module.json
+5 / 9 target/reference/jackson-jr-stree-2.15.1.jar jr-stree/target/jackson-jr-stree-2.15.1.jar
+6 / 9 target/reference/jackson-jr-stree-2.15.1.module jr-stree/target/publications/maven/module.json
+7 / 9 target/reference/jackson-jr-annotation-support-2.15.1.jar jr-annotation-support/target/jackson-jr-annotation-support-2.15.1.jar
+8 / 9 target/reference/jackson-jr-annotation-support-2.15.1.module jr-annotation-support/target/publications/maven/module.json
+
+9 / 9 target/reference/jackson-jr-all-2.15.1.jar jr-all/target/jackson-jr-all-2.15.1.jar
+--- target/reference/jackson-jr-all-2.15.1.jar
++++ jr-all/target/jackson-jr-all-2.15.1.jar
+├── zipinfo {}
+│ @@ -73,17 +73,17 @@
+│  -rw----     2.0 fat     8022 bl defN 80-Feb-01 00:00 com/fasterxml/jackson/jr/ob/impl/ValueWriterLocator.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/fasterxml/jackson/jr/type/
+│  -rw----     2.0 fat     1599 bl defN 80-Feb-01 00:00 com/fasterxml/jackson/jr/type/ClassStack.class
+│  -rw----     2.0 fat      814 bl defN 80-Feb-01 00:00 com/fasterxml/jackson/jr/type/RecursiveType.class
+│  -rw----     2.0 fat     5290 bl defN 80-Feb-01 00:00 com/fasterxml/jackson/jr/type/ResolvedType.class
+│  -rw----     2.0 fat     4024 bl defN 80-Feb-01 00:00 com/fasterxml/jackson/jr/type/TypeBindings.class
+│  -rw----     2.0 fat     7175 bl defN 80-Feb-01 00:00 com/fasterxml/jackson/jr/type/TypeResolver.class
+│ --rw----     2.0 fat        0 bl defN 23-May-16 14:50 META-INF/versions/
+│ --rw----     2.0 fat        0 bl defN 23-May-16 14:50 META-INF/versions/9/
+│ --rw----     2.0 fat      384 bl defN 23-May-16 14:50 META-INF/versions/9/module-info.class
+│ +-rw----     2.0 fat        0 bl defN 23-May-16 21:50 META-INF/versions/
+│ +-rw----     2.0 fat        0 bl defN 23-May-16 21:50 META-INF/versions/9/
+│ +-rw----     2.0 fat      384 bl defN 23-May-16 21:50 META-INF/versions/9/module-info.class
+│  -rw----     2.0 fat    11358 bl defN 23-May-16 21:25 META-INF/FastDoubleParser-LICENSE
+│  -rw----     2.0 fat        0 bl defN 23-May-16 21:25 META-INF/services/
+│  -rw----     2.0 fat       39 bl defN 23-May-16 21:25 META-INF/services/com.fasterxml.jackson.core.JsonFactory
+│  -rw----     2.0 fat        0 bl defN 23-May-16 21:25 com/fasterxml/jackson/jr/private_/
+│  -rw----     2.0 fat     1418 bl defN 23-May-16 21:25 com/fasterxml/jackson/jr/private_/Base64Variant$PaddingReadBehaviour.class
+│  -rw----     2.0 fat    13049 bl defN 23-May-16 21:25 com/fasterxml/jackson/jr/private_/Base64Variant.class
+│  -rw----     2.0 fat     2164 bl defN 23-May-16 21:25 com/fasterxml/jackson/jr/private_/Base64Variants.class
+
