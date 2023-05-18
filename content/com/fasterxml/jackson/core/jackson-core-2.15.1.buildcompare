@@ -1,0 +1,8 @@
+version=2.15.1
+ok=3
+ko=1
+okFiles="jackson-core-2.15.1.pom jackson-core-2.15.1.jar jackson-core-2.15.1-sources.jar"
+koFiles="jackson-core-2.15.1.module"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/jackson-core-2.15.1.module target/publications/maven/module.json
