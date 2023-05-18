@@ -1,0 +1,9 @@
+version=2.15.1
+ok=2
+ko=2
+okFiles="jackson-databind-2.15.1.pom jackson-databind-2.15.1-sources.jar"
+koFiles="jackson-databind-2.15.1.jar jackson-databind-2.15.1.module"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/jackson-databind-2.15.1.jar target/jackson-databind-2.15.1.jar
+# diffoscope target/reference/jackson-databind-2.15.1.module target/publications/maven/module.json

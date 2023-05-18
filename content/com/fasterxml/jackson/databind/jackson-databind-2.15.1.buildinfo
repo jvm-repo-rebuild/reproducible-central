@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=jackson-databind
+group-id=com.fasterxml.jackson.core
+artifact-id=jackson-databind
+version=2.15.1
+
+# source information
+source.scm.uri=scm:git:git@github.com:FasterXML/jackson-databind.git
+source.scm.tag=jackson-databind-2.15.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=jackson-databind-2.15.1.pom
+outputs.0.length=19311
+outputs.0.checksums.sha512=ce6b57ad670c4ee3a7508e3e047b465a078a2184a9d232d76319632ba86d28db0f47b1fdfbeb2af06fea3b63cc9fe0a38b4422ffbb7127a70d84246d1f372bd3
+
+outputs.1.filename=jackson-databind-2.15.1.jar
+outputs.1.length=1620059
+outputs.1.checksums.sha512=78bb92088e088a24775f3d5c0e23cd268b84bf107061e9d535b16ba4f61bdd7e3761ccbd04bfbed5b2ee639b307aea17d4e9529a496b369614da89207475afed
+
+outputs.2.filename=jackson-databind-2.15.1-sources.jar
+outputs.2.length=1199944
+outputs.2.checksums.sha512=bbc5c736d1619f15d865129c104a3bec0be5fa09e7f266f77568c81ed3be21d0d4f8fb080ac927d1fb5ebe191150cdf7bf93035ed4d56c9cf580eaf0b79bce90
+
+outputs.3.filename=jackson-databind-2.15.1.module
+outputs.3.length=3226
+outputs.3.checksums.sha512=7d222e44beaace2651ad30b17e1e90880ebb4d4eb34f38817c45783782ab61a783e3763323735221002df2ad942d9be5c4c27d2c75ba2186cfd4ee50698cad9d
