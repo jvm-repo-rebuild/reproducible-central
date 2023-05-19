@@ -13,6 +13,7 @@ rebuilding **4 releases** of org.apache.sling:org.apache.sling.testing.caconfig-
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.5.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.caconfig-mock-plugin/1.5.0/pom) | | | |
 | [1.4.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.caconfig-mock-plugin/1.4.2/pom) | [mvn jdk11 w](org.apache.sling.testing.caconfig-mock-plugin-1.4.2.buildspec) | [result](org.apache.sling.testing.caconfig-mock-plugin-1.4.2.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.testing.caconfig-mock-plugin-1.4.2.buildcompare) | 85K |
 | [1.4.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.caconfig-mock-plugin/1.4.0/pom) | [mvn jdk11 w](org.apache.sling.testing.caconfig-mock-plugin-1.4.0.buildspec) | [result](org.apache.sling.testing.caconfig-mock-plugin-1.4.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.testing.caconfig-mock-plugin-1.4.0.buildcompare) | 85K |
 | [1.3.6](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.caconfig-mock-plugin/1.3.6/pom) | [mvn jdk11 w](org.apache.sling.testing.caconfig-mock-plugin-1.3.6.buildspec) | [result](org.apache.sling.testing.caconfig-mock-plugin-1.3.6.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.testing.caconfig-mock-plugin-1.3.6.buildcompare) | 84K |

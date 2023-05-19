@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.apache.sling:org.apache.sling.installer.console
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.1.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.installer.console/1.1.2/pom) | | | |
 | [1.1.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.installer.console/1.1.0/pom) | [mvn jdk8](org.apache.sling.installer.console-1.1.0.buildspec) | [result](org.apache.sling.installer.console-1.1.0.buildinfo): [3 :heavy_check_mark:  1 :warning:](org.apache.sling.installer.console-1.1.0.buildcompare) [:mag:](org.apache.sling.installer.console-1.1.0.diffoscope) | 81K |
 | [1.0.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.installer.console/1.0.4/pom) | [mvn jdk11](org.apache.sling.installer.console-1.0.4.buildspec) | [result](org.apache.sling.installer.console-1.0.4.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.installer.console-1.0.4.buildcompare) [:mag:](org.apache.sling.installer.console-1.0.4.diffoscope)
 [1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/org/apache/sling/org.apache.sling.installer.console/org.apache.sling.installer.console-1.0.4.buildspec[0m

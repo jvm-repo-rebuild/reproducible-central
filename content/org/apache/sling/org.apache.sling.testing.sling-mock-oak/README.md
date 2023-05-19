@@ -13,6 +13,7 @@ rebuilding **5 releases** of org.apache.sling:org.apache.sling.testing.sling-moc
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.1.10-1.44.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock-oak/3.1.10-1.44.0/pom) | | | |
 | [3.1.8-1.44.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock-oak/3.1.8-1.44.0/pom) | [mvn jdk11 w](org.apache.sling.testing.sling-mock-oak-3.1.8-1.44.0.buildspec) | [result](org.apache.sling.testing.sling-mock-oak-3.1.8-1.44.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.testing.sling-mock-oak-3.1.8-1.44.0.buildcompare) | 18M |
 | [3.1.4-1.40.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock-oak/3.1.4-1.40.0/pom) | [mvn jdk11 w](org.apache.sling.testing.sling-mock-oak-3.1.4-1.40.0.buildspec) | [result](org.apache.sling.testing.sling-mock-oak-3.1.4-1.40.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.testing.sling-mock-oak-3.1.4-1.40.0.buildcompare) | 18M |
 | [3.1.2-1.40.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.sling-mock-oak/3.1.2-1.40.0/pom) | [mvn jdk11](org.apache.sling.testing.sling-mock-oak-3.1.2-1.40.0.buildspec) | [result](org.apache.sling.testing.sling-mock-oak-3.1.2-1.40.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.testing.sling-mock-oak-3.1.2-1.40.0.buildcompare) | 18M |

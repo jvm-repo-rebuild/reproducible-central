@@ -23,6 +23,7 @@ rebuilding **4 releases** of org.apache.sling:org.apache.sling.testing.osgi-mock
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.3.8](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/3.3.8/pom) | | | |
 | [3.3.6](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/3.3.6/pom) | [mvn jdk11 w](org.apache.sling.testing.osgi-mock-3.3.6.buildspec) | [result](org.apache.sling.testing.osgi-mock-3.3.6.buildinfo): [21 :heavy_check_mark: ](org.apache.sling.testing.osgi-mock-3.3.6.buildcompare) | 2.2M |
 | [3.3.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/3.3.4/pom) | [mvn jdk11 w](org.apache.sling.testing.osgi-mock-3.3.4.buildspec) | [result](org.apache.sling.testing.osgi-mock-3.3.4.buildinfo): [21 :heavy_check_mark: ](org.apache.sling.testing.osgi-mock-3.3.4.buildcompare) | 2.2M |
 | [3.3.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.osgi-mock/3.3.2/pom) | [mvn jdk11 w](org.apache.sling.testing.osgi-mock-3.3.2.buildspec) | [result](org.apache.sling.testing.osgi-mock-3.3.2.buildinfo): [21 :heavy_check_mark: ](org.apache.sling.testing.osgi-mock-3.3.2.buildcompare) | 2.2M |
