@@ -1,0 +1,65 @@
+1 / 2 target/reference/javabean-tester-2.5.3-sources.jar target/javabean-tester-2.5.3-sources.jar
+--- target/reference/javabean-tester-2.5.3-sources.jar
++++ target/javabean-tester-2.5.3-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 30442 bytes, number of entries: 31
+│ +Zip file size: 30435 bytes, number of entries: 31
+│  -rw-r--r--  2.0 unx      466 b- defN 23-May-18 23:48 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-18 23:48 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-18 23:48 com/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-18 23:48 com/codebox/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-18 23:48 com/codebox/bean/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-18 23:48 com/codebox/builders/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-18 23:48 com/codebox/enums/
+│ @@ -26,8 +26,8 @@
+│  -rw-r--r--  2.0 unx      638 b- defN 23-May-18 23:48 com/codebox/enums/SkipStrictSerialize.java
+│  -rw-r--r--  2.0 unx      577 b- defN 23-May-18 23:48 com/codebox/enums/package-info.java
+│  -rw-r--r--  2.0 unx     3836 b- defN 23-May-18 23:48 com/codebox/instance/ClassInstance.java
+│  -rw-r--r--  2.0 unx     2373 b- defN 23-May-18 23:48 com/codebox/instance/ConstructorInstance.java
+│  -rw-r--r--  2.0 unx      592 b- defN 23-May-18 23:48 com/codebox/instance/package-info.java
+│  -rw-r--r--  2.0 unx    54386 b- defN 23-May-18 23:48 META-INF/maven/com.github.hazendaz/javabean-tester/pom.xml
+│  -rw-r--r--  2.0 unx       72 b- defN 23-May-18 23:48 META-INF/maven/com.github.hazendaz/javabean-tester/pom.properties
+│ -31 files, 126059 bytes uncompressed, 26026 bytes compressed:  79.4%
+│ +31 files, 126059 bytes uncompressed, 26019 bytes compressed:  79.4%
+├── com/codebox/bean/JavaBeanTester.java
+│ @@ -1,11 +1,11 @@
+│  /*
+
+│   * JavaBean Tester (https://github.com/hazendaz/javabean-tester)
+
+│   *
+
+│ - * Copyright 2012-2023 Hazendaz.
+
+│ + * Copyright 2012-2022 Hazendaz.
+
+│   *
+
+│   * All rights reserved. This program and the accompanying materials
+
+│   * are made available under the terms of The Apache Software License,
+
+│   * Version 2.0 which accompanies this distribution, and is available at
+
+│   * http://www.apache.org/licenses/LICENSE-2.0.txt
+
+│   *
+
+│   * Contributors:
+├── com/codebox/bean/JavaBeanTesterBuilder.java
+│ @@ -1,11 +1,11 @@
+│  /*
+
+│   * JavaBean Tester (https://github.com/hazendaz/javabean-tester)
+
+│   *
+
+│ - * Copyright 2012-2023 Hazendaz.
+
+│ + * Copyright 2012-2021 Hazendaz.
+
+│   *
+...
+
+2 / 2 target/reference/javabean-tester-2.5.3-test-sources.jar target/javabean-tester-2.5.3-test-sources.jar
