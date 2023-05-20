@@ -1,0 +1,46 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Testing Sling Mock Oak
+group-id=org.apache.sling
+artifact-id=org.apache.sling.testing.sling-mock-oak
+version=3.1.10-1.44.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-testing-sling-mock-oak.git
+source.scm.tag=org.apache.sling.testing.sling-mock-oak-3.1.10-1.44.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.testing.sling-mock-oak-3.1.10-1.44.0.pom
+outputs.0.length=7177
+outputs.0.checksums.sha512=717debe09f9344ae365d4759ba0efcb4ec851fe648e4acd236b96208dbd7457220a66c1806dbd11e16df70a6d1793b64ce9859e481361eac89aee9cf222a56ca
+
+outputs.1.filename=org.apache.sling.testing.sling-mock-oak-3.1.10-1.44.0.jar
+outputs.1.length=6317938
+outputs.1.checksums.sha512=605021d51775561c3e0703274d8b5da05ff1ab677464df6f11798227e180eef0752285b848baf98858d9ca3c064b0abf86994406d943074e24f2ccf2647dc2a3
+
+outputs.2.filename=org.apache.sling.testing.sling-mock-oak-3.1.10-1.44.0-source-release.zip
+outputs.2.length=77833
+outputs.2.checksums.sha512=883c70e7a62cfbe40598dc48b9d9fd3bbd39b5d99890086302389d7b3620ef893b27763f1de9e7f3eb8682a65d573ffe4b23743c20a443e2a2aa33cd5ce5417e
+
+outputs.3.filename=org.apache.sling.testing.sling-mock-oak-3.1.10-1.44.0-sources.jar
+outputs.3.length=4067435
+outputs.3.checksums.sha512=56ce04fa4e6c0dddf15f19481c5b0cec52c8b2629d2ba34978225ed04846b14e57f4aa3088e73fdea4e52151d2f040ca0dda02fc78a28704aab6c517f64b1056
+
+outputs.4.filename=org.apache.sling.testing.sling-mock-oak-3.1.10-1.44.0-sources.jar
+outputs.4.length=4067435
+outputs.4.checksums.sha512=56ce04fa4e6c0dddf15f19481c5b0cec52c8b2629d2ba34978225ed04846b14e57f4aa3088e73fdea4e52151d2f040ca0dda02fc78a28704aab6c517f64b1056
+
+outputs.5.filename=org.apache.sling.testing.sling-mock-oak-3.1.10-1.44.0-sources.jar
+outputs.5.length=4067435
+outputs.5.checksums.sha512=56ce04fa4e6c0dddf15f19481c5b0cec52c8b2629d2ba34978225ed04846b14e57f4aa3088e73fdea4e52151d2f040ca0dda02fc78a28704aab6c517f64b1056
