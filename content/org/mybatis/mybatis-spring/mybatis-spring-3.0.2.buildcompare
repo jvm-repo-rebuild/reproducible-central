@@ -1,0 +1,8 @@
+version=3.0.2
+ok=2
+ko=1
+okFiles="mybatis-spring-3.0.2.pom mybatis-spring-3.0.2-sources.jar"
+koFiles="mybatis-spring-3.0.2.jar"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/mybatis-spring-3.0.2.jar target/mybatis-spring-3.0.2.jar
