@@ -1,0 +1,7 @@
+version=0.0.1
+ok=12
+ko=0
+okFiles="energy-parent-0.0.1.pom modbus-energy-parser-0.0.1.pom modbus-energy-parser-0.0.1.jar modbus-energy-parser-0.0.1-sources.jar modbus-energy-parser-0.0.1-tests.jar energy-udfs-parent-0.0.1.pom energy-nifi-parent-0.0.1.pom nifi-energy-processors-0.0.1.pom nifi-energy-processors-0.0.1.jar nifi-energy-processors-0.0.1-sources.jar nifi-energy-nar-0.0.1.pom nifi-energy-nar-0.0.1.nar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
