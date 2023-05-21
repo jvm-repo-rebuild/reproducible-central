@@ -1,0 +1,85 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Micronaut Maven Plugin - Parent
+group-id=io.micronaut.maven
+artifact-id=micronaut-maven-plugin-parent
+version=4.0.0-M2
+
+# source information
+source.scm.uri=scm:git:git@github.com:micronaut-projects/micronaut-maven-plugin.git
+source.scm.tag=v4.0.0-M2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=micronaut-maven-plugin
+
+# aggregated output
+
+outputs.0.coordinates=io.micronaut.maven:micronaut-maven-plugin-parent
+
+outputs.0.0.filename=micronaut-maven-plugin-parent-4.0.0-M2.pom
+outputs.0.0.length=20268
+outputs.0.0.checksums.sha512=0a5c4d0d33c6783f5e454f9ce44f98bdb0cb917998f41ad9e418f8e584acca15ce59a3bb1958f899a346b1ae60615d21d468ccd8cfcf6b15a8d170cd01a0ef6e
+
+outputs.1.coordinates=io.micronaut.maven:micronaut-maven-core
+
+outputs.1.0.filename=micronaut-maven-core-4.0.0-M2.pom
+outputs.1.0.length=1026
+outputs.1.0.checksums.sha512=7cbcebddd2d5e0034cff13decdce176754801629629cc1c00eb0a3a4b689731047c4acb825d9abbc09fb9097259cf1a4f19b7a9b425b2fcd86fe7172a53f4624
+
+outputs.1.1.filename=micronaut-maven-core-4.0.0-M2.jar
+outputs.1.1.length=5781
+outputs.1.1.checksums.sha512=b881966cb044ad9c8d026c85a0e7b17976743d7c24b282b9609d97e22c52ac51092f904f16244438c8ada8db7fa3e21c1bb7ed78dc9603a271772406132343e7
+
+outputs.1.2.filename=micronaut-maven-core-4.0.0-M2-sources.jar
+outputs.1.2.length=5279
+outputs.1.2.checksums.sha512=62e6cbad17de0bd10e68c464322c1be711bfb9a39d0c6715f6ccb13f1d1df71de677fab6a0c262ccf5222295248ecc8a74ef758d5d885155adf12b70b19172a6
+
+outputs.2.coordinates=io.micronaut.maven:micronaut-maven-enforcer-rules
+
+outputs.2.0.filename=micronaut-maven-enforcer-rules-4.0.0-M2.pom
+outputs.2.0.length=1913
+outputs.2.0.checksums.sha512=1629874fe85d7a5959152b98d0d282fb71431e07467fec3cb2f950b9b6952b3dd9904b5705ed88cc7e5a82a4fcc73db9e257c1ccac0c597b545a9b656914deca
+
+outputs.2.1.filename=micronaut-maven-enforcer-rules-4.0.0-M2.jar
+outputs.2.1.length=5092
+outputs.2.1.checksums.sha512=985316e45df4623f73e9a4f57ffff582e30976a58ad293fc5699a6d4ba6e282156eebfe9e0dd6fe24b36b9cbb7d057588d5e376c9901c7c9f9abe4ed9df660cf
+
+outputs.2.2.filename=micronaut-maven-enforcer-rules-4.0.0-M2-sources.jar
+outputs.2.2.length=3866
+outputs.2.2.checksums.sha512=0817ccc369a2ec20ee84c823cd75d986cac398c88d439bc1d90556cbf2fda841751901139d15940b6c2defc06e877c95c2a3deaec1a8c4930238e831206dbc59
+
+outputs.3.coordinates=io.micronaut.maven:micronaut-maven-jib-integration
+
+outputs.3.0.filename=micronaut-maven-jib-integration-4.0.0-M2.pom
+outputs.3.0.length=2550
+outputs.3.0.checksums.sha512=5d4b294eaa5da069f711fc9b36a96f74ef3662d6d0e8727a7baeb9691b236fed031aca7bc72e723ddcc44af89d0b42844c6645a1a7afaf6ffd59a27b540212ba
+
+outputs.3.1.filename=micronaut-maven-jib-integration-4.0.0-M2.jar
+outputs.3.1.length=11221
+outputs.3.1.checksums.sha512=3f8958572acc81ded0754a42dd5233361a11eddcb05bd08b7ee5f1352eaee8a86aa3dda18bf3ecff82d9d3c801d83d9dab3f7c34e3e32d36944d0542aafa0b83
+
+outputs.3.2.filename=micronaut-maven-jib-integration-4.0.0-M2-sources.jar
+outputs.3.2.length=7102
+outputs.3.2.checksums.sha512=ecc8b312480d1b9942bcb03323c0bc54f291f8b8ae236af98d4488e99f098e15e68ee9790e383c822fc538f7b7ae1e90248618bd2f98706b4b704f73f7dff99a
+
+outputs.4.coordinates=io.micronaut.maven:micronaut-maven-plugin
+
+outputs.4.0.filename=micronaut-maven-plugin-4.0.0-M2.pom
+outputs.4.0.length=6394
+outputs.4.0.checksums.sha512=df237faae14c5a9d71364f51a49300214ca30e7ef3b33905a70c2878fca0d29f254e0c3cb3007dcf26c91e531989c951ec1c2ed721d8dcea0a9e189cfb562ed9
+
+outputs.4.1.filename=micronaut-maven-plugin-4.0.0-M2.jar
+outputs.4.1.length=135394
+outputs.4.1.checksums.sha512=c8eb8ced03cd9314799d44fa159a1a8aad8b26114d644830cc3c9d1723ef56ecb0c789c124c8ace7f83a0f37a69c65ca2b2175c690adc0f8b3272fb9986dfe94
+
+outputs.4.2.filename=micronaut-maven-plugin-4.0.0-M2-sources.jar
+outputs.4.2.length=75345
+outputs.4.2.checksums.sha512=ecd606858bb10ce5e730a6e58c371092ea91fb32474bb9b1b1a98185db1012de8f5c686d7fcab1fef746bf2a954b1c4c6288d867c73316e22b03c0b8ae4af0bd
