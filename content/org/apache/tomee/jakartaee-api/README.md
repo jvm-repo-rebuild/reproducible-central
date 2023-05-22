@@ -14,6 +14,7 @@ rebuilding **2 releases** of org.apache.tomee:jakartaee-api:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [10.0-M1](https://central.sonatype.com/artifact/org.apache.tomee/jakartaee-api/10.0-M1/pom) | [mvn jdk11](jakartaee-api-10.0-M1.buildspec) | [result](jakartaee-api-10.0-M1.buildinfo): [8 :heavy_check_mark: ](jakartaee-api-10.0-M1.buildcompare) | 15M |
+| [9.1.1](https://central.sonatype.com/artifact/org.apache.tomee/jakartaee-api/9.1.1/pom) | | | |
 | [9.1.0](https://central.sonatype.com/artifact/org.apache.tomee/jakartaee-api/9.1.0/pom) | | | |
 | [9.1-M2](https://central.sonatype.com/artifact/org.apache.tomee/jakartaee-api/9.1-M2/pom) | [mvn jdk15](jakartaee-api-9.1-M2.buildspec) | [result](jakartaee-api-9.1-M2.buildinfo): [8 :heavy_check_mark: ](jakartaee-api-9.1-M2.buildcompare) | 14M |
 

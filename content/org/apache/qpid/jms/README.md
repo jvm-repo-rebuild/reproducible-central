@@ -21,9 +21,11 @@ rebuilding **4 releases** of org.apache.qpid:qpid-jms-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.3.0](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/2.3.0/pom) | | | |
 | [2.2.0](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/2.2.0/pom) | [mvn jdk11](qpid-jms-2.2.0.buildspec) | [result](qpid-jms-parent-2.2.0.buildinfo): [10 :heavy_check_mark: ](qpid-jms-parent-2.2.0.buildcompare) | 6.7M |
 | [2.1.0](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/2.1.0/pom) | [mvn jdk11](qpid-jms-2.1.0.buildspec) | [result](qpid-jms-parent-2.1.0.buildinfo): [10 :heavy_check_mark: ](qpid-jms-parent-2.1.0.buildcompare) | 6.7M |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/2.0.0/pom) | | | |
+| [1.9.0](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/1.9.0/pom) | | | |
 | [1.8.0](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/1.8.0/pom) | [mvn jdk11](qpid-jms-1.8.0.buildspec) | [result](qpid-jms-parent-1.8.0.buildinfo): [10 :heavy_check_mark: ](qpid-jms-parent-1.8.0.buildcompare) | 6.7M |
 | [1.7.0](https://central.sonatype.com/artifact/org.apache.qpid/qpid-jms-parent/1.7.0/pom) | [mvn jdk11](qpid-jms-1.7.0.buildspec) | [result](qpid-jms-parent-1.7.0.buildinfo): [10 :heavy_check_mark: ](qpid-jms-parent-1.7.0.buildcompare) | 6.7M |
 
