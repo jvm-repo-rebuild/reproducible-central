@@ -77,6 +77,7 @@ rebuilding **3 releases** of com.vladsch.flexmark:flexmark-java:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.64.8](https://central.sonatype.com/artifact/com.vladsch.flexmark/flexmark-java/0.64.8/pom) | | | |
 | [0.64.6](https://central.sonatype.com/artifact/com.vladsch.flexmark/flexmark-java/0.64.6/pom) | [mvn jdk11](flexmark-java-0.64.6.buildspec) | [result](flexmark-java-0.64.6.buildinfo): [176 :heavy_check_mark: ](flexmark-java-0.64.6.buildcompare) | 17M |
 | [0.64.4](https://central.sonatype.com/artifact/com.vladsch.flexmark/flexmark-java/0.64.4/pom) | [mvn jdk11](flexmark-java-0.64.4.buildspec) | [result](flexmark-java-0.64.4.buildinfo): [176 :heavy_check_mark: ](flexmark-java-0.64.4.buildcompare) | 17M |
 | [0.64.2](https://central.sonatype.com/artifact/com.vladsch.flexmark/flexmark-java/0.64.2/pom) | [mvn jdk11](flexmark-java-0.64.2.buildspec) | [result](flexmark-java-0.64.2.buildinfo): [176 :heavy_check_mark: ](flexmark-java-0.64.2.buildcompare) | 17M |
