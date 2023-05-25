@@ -13,6 +13,7 @@ rebuilding **4 releases** of org.apache.sling:org.apache.sling.models.impl:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.6.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.models.impl/1.6.2/pom) | | | |
 | [1.6.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.models.impl/1.6.0/pom) | [mvn jdk11 w](org.apache.sling.models.impl-1.6.0.buildspec) | [result](org.apache.sling.models.impl-1.6.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.models.impl-1.6.0.buildcompare) | 502K |
 | [1.5.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.models.impl/1.5.4/pom) | [mvn jdk11](org.apache.sling.models.impl-1.5.4.buildspec) | [result](org.apache.sling.models.impl-1.5.4.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.models.impl-1.5.4.buildcompare) | 497K |
 | [1.5.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.models.impl/1.5.2/pom) | [mvn jdk11](org.apache.sling.models.impl-1.5.2.buildspec) | [result](org.apache.sling.models.impl-1.5.2.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.models.impl-1.5.2.buildcompare) | 497K |

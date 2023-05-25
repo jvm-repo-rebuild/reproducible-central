@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **1863 releases** of **416 projects**:
-   - **1396** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 467 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **1867 releases** of **416 projects**:
+   - **1398** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 469 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
 
@@ -27,7 +27,7 @@ Its objectives are to provide:
 | ch.qos.reload4j | <a name='ch.qos.reload4j:reload4j'></a>[reload4j](content/ch/qos/reload4j/README.md) | 7 | 1 :heavy_check_mark: / 6 :warning: |
 | ch.qos.logback.db | <a name='ch.qos.logback.db:logback-parent-db'></a>[logback-parent-db](content/ch/qos/logback/db/README.md) | 1 | 1 :warning: |
 | com.adobe.acs | <a name='com.adobe.acs:acs-aem-commons'></a>[acs-aem-commons](content/com/adobe/acs/aem-commons/README.md) | 2 | 2 :warning: |
-| com.fasterxml | <a name='com.fasterxml:oss-parent'></a>[oss-parent](content/com/fasterxml/oss-parent/README.md) | 7 | 7 :heavy_check_mark: |
+| com.fasterxml | <a name='com.fasterxml:oss-parent'></a>[oss-parent](content/com/fasterxml/oss-parent/README.md) | 8 | 8 :heavy_check_mark: |
 | com.fasterxml.uuid | <a name='com.fasterxml.uuid:java-uuid-generator'></a>[java-uuid-generator](content/com/fasterxml/uuid/README.md) | 1 | 1 :warning: |
 | com.fasterxml.jackson.core | <a name='com.fasterxml.jackson.core:jackson-annotations'></a>[jackson-annotations](content/com/fasterxml/jackson/annotations/README.md) | 3 | 3 :warning: |
 | | <a name='com.fasterxml.jackson.core:jackson-core'></a>[jackson-core](content/com/fasterxml/jackson/core/README.md) | 3 | 3 :warning: |
@@ -38,7 +38,7 @@ Its objectives are to provide:
 | com.github.adangel.liquibase.ext | <a name='com.github.adangel.liquibase.ext:liquibase-percona'></a>[liquibase-percona](content/com/github/adangel/liquibase/ext/liquibase-percona/README.md) | 1 | 1 :heavy_check_mark: |
 | com.github.hazendaz | <a name='com.github.hazendaz:javabean-tester'></a>[javabean-tester](content/com/github/hazendaz/javabean-tester/README.md) | 5 | 3 :heavy_check_mark: / 2 :warning: |
 | com.github.hazendaz.maven | <a name='com.github.hazendaz.maven:htmlcompressor-maven-plugin'></a>[htmlcompressor-maven-plugin](content/com/github/hazendaz/maven/htmlcompressor-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
-| | <a name='com.github.hazendaz.maven:whitespace-maven-plugin'></a>[whitespace-maven-plugin](content/com/github/hazendaz/maven/whitespace-maven-plugin/README.md) | 1 | 1 :warning: |
+| | <a name='com.github.hazendaz.maven:whitespace-maven-plugin'></a>[whitespace-maven-plugin](content/com/github/hazendaz/maven/whitespace-maven-plugin/README.md) | 2 | 2 :warning: |
 | com.github.package-url | <a name='com.github.package-url:packageurl-java'></a>[packageurl-java](content/com/github/package-url/packageurl-java/README.md) | 3 | 3 :heavy_check_mark: |
 | com.github.spotbugs | <a name='com.github.spotbugs:spotbugs-maven-plugin'></a>[spotbugs-maven-plugin](content/com/github/spotbugs/spotbugs-maven-plugin/README.md) | 11 | 11 :heavy_check_mark: |
 | com.github.veithen.checkt | <a name='com.github.veithen.checkt:checkt'></a>[checkt](content/com/github/veithen/checkt/README.md) | 1 | 1 :heavy_check_mark: |
@@ -157,7 +157,7 @@ Its objectives are to provide:
 | | <a name='org.apache.commons:commons-csv'></a>[commons-csv](content/org/apache/commons/csv/README.md) | 1 | 1 :heavy_check_mark: |
 | commons-net | <a name='commons-net:commons-net'></a>[commons-net](content/org/apache/commons/net/README.md) | 1 | 1 :warning: |
 | org.apache.commons | <a name='org.apache.commons:commons-numbers-parent'></a>[commons-numbers-parent](content/org/apache/commons/numbers/README.md) | 1 | 1 :heavy_check_mark: |
-| | <a name='org.apache.commons:commons-parent'></a>[commons-parent](content/org/apache/commons/parent/README.md) | 5 | 5 :heavy_check_mark: |
+| | <a name='org.apache.commons:commons-parent'></a>[commons-parent](content/org/apache/commons/parent/README.md) | 6 | 6 :heavy_check_mark: |
 | | <a name='org.apache.commons:commons-rng-parent'></a>[commons-rng-parent](content/org/apache/commons/rng/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.commons:commons-statistics-parent'></a>[commons-statistics-parent](content/org/apache/commons/statistics/README.md) | 1 | 1 :warning: |
 | org.apache.cxf.fediz | <a name='org.apache.cxf.fediz:fediz'></a>[fediz](content/org/apache/cxf/fediz/README.md) | 2 | 2 :warning: |
@@ -251,7 +251,7 @@ Its objectives are to provide:
 | org.apache.qpid | <a name='org.apache.qpid:qpid-jms-parent'></a>[qpid-jms-parent](content/org/apache/qpid/jms/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.apache.qpid:proton-j-parent'></a>[proton-j-parent](content/org/apache/qpid/proton-j/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.qpid:protonj2-parent'></a>[protonj2-parent](content/org/apache/qpid/protonj2/README.md) | 7 | 6 :heavy_check_mark: / 1 :warning: |
-| org.apache.royale.compiler | <a name='org.apache.royale.compiler:compiler'></a>[compiler](content/org/apache/royale/compiler/README.md) | 1 | 1 :warning: |
+| org.apache.royale.compiler | <a name='org.apache.royale.compiler:compiler'></a>[compiler](content/org/apache/royale/compiler/README.md) | 2 | 2 :warning: |
 | org.apache.santuario | <a name='org.apache.santuario:xmlsec'></a>[xmlsec](content/org/apache/santuario/xmlsec/README.md) | 3 | 3 :warning: |
 | org.apache.sling | <a name='org.apache.sling:feature-launcher-maven-plugin'></a>[feature-launcher-maven-plugin](content/org/apache/sling/feature-launcher-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.sling:htl-maven-plugin'></a>[htl-maven-plugin](content/org/apache/sling/htl-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
@@ -440,7 +440,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 12 | 12 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 6 | 6 :warning: |
-| **Count:** | **416** | **1863** | **1396** :heavy_check_mark: **467** :warning: |
+| **Count:** | **416** | **1867** | **1398** :heavy_check_mark: **469** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -452,9 +452,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      20 gradle     11
      26 mvn         7
-    852 mvn         8
+    854 mvn         8
       1 mvn         9
-    663 mvn        11
+    664 mvn        11
       1 mvn        13
       4 mvn        14
      10 mvn        15
@@ -469,7 +469,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       7 mvn-3.8.5  17
      25 mvn-3.8.6   8
       1 mvn-3.8.6  11
-     33 mvn-3.8.6  17
+     34 mvn-3.8.6  17
       2 mvn-3.8.6  18
       4 mvn-3.8.6  19
      10 mvn-3.8.7  17

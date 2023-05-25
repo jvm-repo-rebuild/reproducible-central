@@ -1,19 +1,19 @@
-[com.fasterxml:oss-parent](https://central.sonatype.com/artifact/com.fasterxml/oss-parent/52/versions) RB check
+[com.fasterxml:oss-parent](https://central.sonatype.com/artifact/com.fasterxml/oss-parent/53/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.fasterxml:oss-parent](https://central.sonatype.com/artifact/com.fasterxml/oss-parent/52/versions)
+## Project: [com.fasterxml:oss-parent](https://central.sonatype.com/artifact/com.fasterxml/oss-parent/53/versions)
 
 Source code: [https://github.com/FasterXML/oss-parent.git](https://github.com/FasterXML/oss-parent.git)
 
-rebuilding **7 releases** of com.fasterxml:oss-parent:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **8 releases** of com.fasterxml:oss-parent:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [53](https://central.sonatype.com/artifact/com.fasterxml/oss-parent/53/pom) | | | |
+| [53](https://central.sonatype.com/artifact/com.fasterxml/oss-parent/53/pom) | [mvn jdk11](oss-parent-53.buildspec) | [result](oss-parent-53.buildinfo): [2 :heavy_check_mark: ](oss-parent-53.buildcompare) | 25K |
 | [52](https://central.sonatype.com/artifact/com.fasterxml/oss-parent/52/pom) | [mvn jdk11](oss-parent-52.buildspec) | [result](oss-parent-52.buildinfo): [2 :heavy_check_mark: ](oss-parent-52.buildcompare) | 25K |
 | [51](https://central.sonatype.com/artifact/com.fasterxml/oss-parent/51/pom) | [mvn jdk11](oss-parent-51.buildspec) | [result](oss-parent-51.buildinfo): [2 :heavy_check_mark: ](oss-parent-51.buildcompare) | 25K |
 | [50](https://central.sonatype.com/artifact/com.fasterxml/oss-parent/50/pom) | [mvn jdk11](oss-parent-50.buildspec) | [result](oss-parent-50.buildinfo): [2 :heavy_check_mark: ](oss-parent-50.buildcompare) | 25K |
