@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=jstachio
+group-id=io.jstach
+artifact-id=jstachio
+version=1.0.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/jstachio/jstachio.git/jstachio-api-parent/jstachio
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=jstachio-1.0.0.pom
+outputs.0.length=1020
+outputs.0.checksums.sha512=1f71d7fc349fa805e259a5e5d1f76087852414e7a891919e82cf229f3a9e63d91a08e28da9000f3778026733b3367d5609c942e5785bab867d14027c1f2c9570
+
+outputs.1.filename=jstachio-1.0.0.jar
+outputs.1.length=99892
+outputs.1.checksums.sha512=9de5766d7e646ffaceabdbd8495a92ebf7321a9d63cd0a85476e2f94e9ebec13a16a47118956849b875b74cf5ece491ac3466b85418810f91bab1bade76b946a
+
+outputs.2.filename=jstachio-1.0.0-sources.jar
+outputs.2.length=52223
+outputs.2.checksums.sha512=5fa31041fd1d8fa36446c08a2a539612653f53bcc63ae2569df993b3d42707f82d861e90aefd9625880a7ebdb0591a26b8292574f596a0665e8af57cb3ff2208

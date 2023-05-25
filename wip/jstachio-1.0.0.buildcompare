@@ -1,0 +1,7 @@
+version=1.0.0
+ok=3
+ko=0
+okFiles="jstachio-1.0.0.pom jstachio-1.0.0.jar jstachio-1.0.0-sources.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
