@@ -1,0 +1,42 @@
+1 / 1 target/reference/whitespace-maven-plugin-1.3.0-tests.jar target/whitespace-maven-plugin-1.3.0-tests.jar
+--- target/reference/whitespace-maven-plugin-1.3.0-tests.jar
++++ target/whitespace-maven-plugin-1.3.0-tests.jar
+├── zipinfo {}
+│ @@ -1,21 +1,21 @@
+│ -Zip file size: 7998 bytes, number of entries: 19
+│ +Zip file size: 8000 bytes, number of entries: 19
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-24 00:05 META-INF/
+│  -rw-r--r--  2.0 unx      508 b- defN 23-May-24 00:05 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-24 00:05 com/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-24 00:05 com/github/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-24 00:05 com/github/dantwining/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-24 00:05 com/github/dantwining/whitespace/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-24 00:05 trim/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-24 00:05 verify/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-24 00:05 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-24 00:05 META-INF/maven/com.github.hazendaz.maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-24 00:05 META-INF/maven/com.github.hazendaz.maven/whitespace-maven-plugin/
+│  -rw-r--r--  2.0 unx     1539 b- defN 23-May-24 00:05 com/github/dantwining/whitespace/TrimMojoTest.class
+│  -rw-r--r--  2.0 unx     2130 b- defN 23-May-24 00:05 com/github/dantwining/whitespace/VerifyMojoTest.class
+│  -rw-r--r--  2.0 unx      757 b- defN 23-May-24 00:05 com/github/dantwining/whitespace/WhitespaceUtilsTest.class
+│ --rw-r--r--  2.0 unx      555 b- defN 23-May-24 00:05 trim/somefile.xml
+│ +-rw-r--r--  2.0 unx      559 b- defN 23-May-24 00:05 trim/somefile.xml
+│  -rw-r--r--  2.0 unx      502 b- defN 23-May-24 00:05 verify/someFile.properties
+│  -rw-r--r--  2.0 unx      559 b- defN 23-May-24 00:05 verify/somefile.xml
+│  -rw-r--r--  2.0 unx     8434 b- defN 23-May-24 00:05 META-INF/maven/com.github.hazendaz.maven/whitespace-maven-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       86 b- defN 23-May-24 00:05 META-INF/maven/com.github.hazendaz.maven/whitespace-maven-plugin/pom.properties
+│ -19 files, 15070 bytes uncompressed, 5318 bytes compressed:  64.7%
+│ +19 files, 15074 bytes uncompressed, 5320 bytes compressed:  64.7%
+├── trim/somefile.xml
+│┄ Format-specific differences are supported for XML files but no file-specific differences were detected; falling back to a binary diff. file(1) reports: exported SGML document, ASCII text, with CRLF line terminators
+│ @@ -28,8 +28,8 @@
+│  000001b0: 2020 2020 2020 2020 6461 6e74 7769 6e69          dantwini
+│  000001c0: 6e67 2028 6461 6e74 7769 6e69 6e67 292e  ng (dantwining).
+│  000001d0: 0d0a 2020 2020 2020 2020 4861 7a65 6e64  ..        Hazend
+│  000001e0: 617a 2028 4a65 7265 6d79 204c 616e 6469  az (Jeremy Landi
+│  000001f0: 7329 2e0d 0a0d 0a2d 2d3e 0d0a 3c6a 756e  s).....-->..<jun
+│  00000200: 6b3e 0d0a 2020 2020 6a75 6e6b 2077 6974  k>..    junk wit
+│  00000210: 6820 7472 6169 6c69 6e67 2073 7061 6365  h trailing space
+│ -00000220: 0d0a 3c2f 6a75 6e6b 3e0d 0a              ..</junk>..
+│ +00000220: 2020 2020 0d0a 3c2f 6a75 6e6b 3e0d 0a        ..</junk>..
+
