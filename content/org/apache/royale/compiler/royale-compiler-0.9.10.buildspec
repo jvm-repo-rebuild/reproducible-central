@@ -1,14 +1,14 @@
 groupId=org.apache.royale.compiler
 artifactId=compiler
 display=${groupId}:${artifactId}
-version=0.9.7
+version=0.9.10
 
 gitRepo=https://github.com/apache/royale-compiler.git
 gitTag=apache-royale-${version}
 
 tool=mvn
 jdk=8
-newline=crlf
+newline=crlf-nogit
 
 command="mvn -Papache-release,royale-release clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=royale-maven-plugin/target/royale-maven-plugin-${version}.buildinfo
