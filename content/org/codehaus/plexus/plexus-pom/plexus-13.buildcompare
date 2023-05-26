@@ -1,0 +1,5 @@
+version=13
+ok=3
+ko=0
+okFiles="plexus-13.pom plexus-13-site.xml plexus-13-source-release.zip"
+koFiles=""
