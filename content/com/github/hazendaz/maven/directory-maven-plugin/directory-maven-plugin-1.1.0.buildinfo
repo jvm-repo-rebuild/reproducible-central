@@ -1,0 +1,35 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Directory Maven Plugin
+group-id=com.github.hazendaz.maven
+artifact-id=directory-maven-plugin
+version=1.1.0
+
+# source information
+source.scm.uri=scm:git:ssh://github.com/hazendaz/directory-maven-plugin.git
+source.scm.tag=directory-maven-plugin-1.1.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.filename=directory-maven-plugin-1.1.0.pom
+outputs.0.length=6701
+outputs.0.checksums.sha512=b68866e5321684a2171a1f334117f5a6c7e2c5e9b08f3fc68ff08703e51fc3b67aaa8975c4971e8b22e2fad2f4cbddab3777d738a790f4d86de2bcd717555780
+
+outputs.1.filename=directory-maven-plugin-1.1.0.jar
+outputs.1.length=23335
+outputs.1.checksums.sha512=43579d0d218f568b50e47f40224d71dbcf9fa7ab214b6410243980e41c67ad1e20c86698745f8e80027b82ea707b3ba013e2603cd28f28878073c7c79cbf2237
+
+outputs.2.filename=directory-maven-plugin-1.1.0-sources.jar
+outputs.2.length=15788
+outputs.2.checksums.sha512=140475f9116dead9a8f2a315d66374ce6139d0a8a60dac920183c34d74ccea44f8aa4e0d5ca837fb82cd23031382d45e88125ffc848b6bf55a048631ad982463
