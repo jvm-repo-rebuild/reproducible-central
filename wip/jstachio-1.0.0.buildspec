@@ -10,12 +10,12 @@ gitTag=v${version}
 tool=mvn-3.9.2
 jdk=17
 newline=lf
+umask=022
 
 # Unfortunately one of the Ant calls to update jstachio-apt jar did not normalize the timestamp on UTC
 # This will be fixed in the next version
 command="bin/rebuild.sh -Duser.timezone=America/New_York"
 
-# Location of the buildinfo file generated during rebuild to record output fingerprints
-buildinfo=api/jstachio/target/${artifactId}-${version}.buildinfo
+buildinfo=target/jstachio-maven-parent-${version}.buildinfo
 
 issue=
