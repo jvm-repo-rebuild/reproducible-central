@@ -1,118 +1,28 @@
-rebuilding **0 releases** of com.google.guava:guava:
+[com.google.guava:guava](https://central.sonatype.com/artifact/com.google.guava/guava/32.0.0-jre/versions) RB check
+=======
+
+[![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
+
+## Project: [com.google.guava:guava](https://central.sonatype.com/artifact/com.google.guava/guava/32.0.0-jre/versions)
+
+Source code: [https://github.com/google/guava.git](https://github.com/google/guava.git)
+
+<details><summary>This project defines 5 modules:</summary>
+
+* [com.google.guava:guava](https://central.sonatype.com/artifact/com.google.guava/guava/32.0.0-jre)
+* [com.google.guava:guava-bom](https://central.sonatype.com/artifact/com.google.guava/guava-bom/32.0.0-jre)
+* [com.google.guava:guava-gwt](https://central.sonatype.com/artifact/com.google.guava/guava-gwt/32.0.0-jre)
+* [com.google.guava:guava-parent](https://central.sonatype.com/artifact/com.google.guava/guava-parent/32.0.0-jre)
+* [com.google.guava:guava-testlib](https://central.sonatype.com/artifact/com.google.guava/guava-testlib/32.0.0-jre)
+</details>
+
+rebuilding **2 releases** of com.google.guava:guava:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [32.0.0-jre](https://central.sonatype.com/artifact/com.google.guava/guava/32.0.0-jre/pom) | | | |
-| [32.0.0-android](https://central.sonatype.com/artifact/com.google.guava/guava/32.0.0-android/pom) | | | |
-| [31.1-jre](https://central.sonatype.com/artifact/com.google.guava/guava/31.1-jre/pom) | | | |
-| [31.1-android](https://central.sonatype.com/artifact/com.google.guava/guava/31.1-android/pom) | | | |
-| [31.0.1-jre](https://central.sonatype.com/artifact/com.google.guava/guava/31.0.1-jre/pom) | | | |
-| [31.0.1-android](https://central.sonatype.com/artifact/com.google.guava/guava/31.0.1-android/pom) | | | |
-| [31.0-jre](https://central.sonatype.com/artifact/com.google.guava/guava/31.0-jre/pom) | | | |
-| [31.0-android](https://central.sonatype.com/artifact/com.google.guava/guava/31.0-android/pom) | | | |
-| [30.1.1-jre](https://central.sonatype.com/artifact/com.google.guava/guava/30.1.1-jre/pom) | | | |
-| [30.1.1-android](https://central.sonatype.com/artifact/com.google.guava/guava/30.1.1-android/pom) | | | |
-| [30.1-jre](https://central.sonatype.com/artifact/com.google.guava/guava/30.1-jre/pom) | | | |
-| [30.1-android](https://central.sonatype.com/artifact/com.google.guava/guava/30.1-android/pom) | | | |
-| [30.0-jre](https://central.sonatype.com/artifact/com.google.guava/guava/30.0-jre/pom) | | | |
-| [30.0-android](https://central.sonatype.com/artifact/com.google.guava/guava/30.0-android/pom) | | | |
-| [29.0-jre](https://central.sonatype.com/artifact/com.google.guava/guava/29.0-jre/pom) | | | |
-| [29.0-android](https://central.sonatype.com/artifact/com.google.guava/guava/29.0-android/pom) | | | |
-| [28.2-jre](https://central.sonatype.com/artifact/com.google.guava/guava/28.2-jre/pom) | | | |
-| [28.2-android](https://central.sonatype.com/artifact/com.google.guava/guava/28.2-android/pom) | | | |
-| [28.1-jre](https://central.sonatype.com/artifact/com.google.guava/guava/28.1-jre/pom) | | | |
-| [28.1-android](https://central.sonatype.com/artifact/com.google.guava/guava/28.1-android/pom) | | | |
-| [28.0-jre](https://central.sonatype.com/artifact/com.google.guava/guava/28.0-jre/pom) | | | |
-| [28.0-android](https://central.sonatype.com/artifact/com.google.guava/guava/28.0-android/pom) | | | |
-| [27.1-jre](https://central.sonatype.com/artifact/com.google.guava/guava/27.1-jre/pom) | | | |
-| [27.1-android](https://central.sonatype.com/artifact/com.google.guava/guava/27.1-android/pom) | | | |
-| [27.0.1-jre](https://central.sonatype.com/artifact/com.google.guava/guava/27.0.1-jre/pom) | | | |
-| [27.0.1-android](https://central.sonatype.com/artifact/com.google.guava/guava/27.0.1-android/pom) | | | |
-| [27.0-jre](https://central.sonatype.com/artifact/com.google.guava/guava/27.0-jre/pom) | | | |
-| [27.0-android](https://central.sonatype.com/artifact/com.google.guava/guava/27.0-android/pom) | | | |
-| [26.0-jre](https://central.sonatype.com/artifact/com.google.guava/guava/26.0-jre/pom) | | | |
-| [26.0-android](https://central.sonatype.com/artifact/com.google.guava/guava/26.0-android/pom) | | | |
-| [25.1-jre](https://central.sonatype.com/artifact/com.google.guava/guava/25.1-jre/pom) | | | |
-| [25.1-android](https://central.sonatype.com/artifact/com.google.guava/guava/25.1-android/pom) | | | |
-| [25.0-jre](https://central.sonatype.com/artifact/com.google.guava/guava/25.0-jre/pom) | | | |
-| [25.0-android](https://central.sonatype.com/artifact/com.google.guava/guava/25.0-android/pom) | | | |
-| [24.1.1-jre](https://central.sonatype.com/artifact/com.google.guava/guava/24.1.1-jre/pom) | | | |
-| [24.1.1-android](https://central.sonatype.com/artifact/com.google.guava/guava/24.1.1-android/pom) | | | |
-| [24.1-jre](https://central.sonatype.com/artifact/com.google.guava/guava/24.1-jre/pom) | | | |
-| [24.1-android](https://central.sonatype.com/artifact/com.google.guava/guava/24.1-android/pom) | | | |
-| [24.0-jre](https://central.sonatype.com/artifact/com.google.guava/guava/24.0-jre/pom) | | | |
-| [24.0-android](https://central.sonatype.com/artifact/com.google.guava/guava/24.0-android/pom) | | | |
-| [23.6.1-jre](https://central.sonatype.com/artifact/com.google.guava/guava/23.6.1-jre/pom) | | | |
-| [23.6.1-android](https://central.sonatype.com/artifact/com.google.guava/guava/23.6.1-android/pom) | | | |
-| [23.6-jre](https://central.sonatype.com/artifact/com.google.guava/guava/23.6-jre/pom) | | | |
-| [23.6-android](https://central.sonatype.com/artifact/com.google.guava/guava/23.6-android/pom) | | | |
-| [23.5-jre](https://central.sonatype.com/artifact/com.google.guava/guava/23.5-jre/pom) | | | |
-| [23.5-android](https://central.sonatype.com/artifact/com.google.guava/guava/23.5-android/pom) | | | |
-| [23.4-jre](https://central.sonatype.com/artifact/com.google.guava/guava/23.4-jre/pom) | | | |
-| [23.4-android](https://central.sonatype.com/artifact/com.google.guava/guava/23.4-android/pom) | | | |
-| [23.3-jre](https://central.sonatype.com/artifact/com.google.guava/guava/23.3-jre/pom) | | | |
-| [23.3-android](https://central.sonatype.com/artifact/com.google.guava/guava/23.3-android/pom) | | | |
-| [23.2-jre](https://central.sonatype.com/artifact/com.google.guava/guava/23.2-jre/pom) | | | |
-| [23.2-android](https://central.sonatype.com/artifact/com.google.guava/guava/23.2-android/pom) | | | |
-| [23.1-jre](https://central.sonatype.com/artifact/com.google.guava/guava/23.1-jre/pom) | | | |
-| [23.1-android](https://central.sonatype.com/artifact/com.google.guava/guava/23.1-android/pom) | | | |
-| [23.0-android](https://central.sonatype.com/artifact/com.google.guava/guava/23.0-android/pom) | | | |
-| [23.0](https://central.sonatype.com/artifact/com.google.guava/guava/23.0/pom) | | | |
-| [23.0-rc1-android](https://central.sonatype.com/artifact/com.google.guava/guava/23.0-rc1-android/pom) | | | |
-| [23.0-rc1](https://central.sonatype.com/artifact/com.google.guava/guava/23.0-rc1/pom) | | | |
-| [22.0-android](https://central.sonatype.com/artifact/com.google.guava/guava/22.0-android/pom) | | | |
-| [22.0](https://central.sonatype.com/artifact/com.google.guava/guava/22.0/pom) | | | |
-| [22.0-rc1-android](https://central.sonatype.com/artifact/com.google.guava/guava/22.0-rc1-android/pom) | | | |
-| [22.0-rc1](https://central.sonatype.com/artifact/com.google.guava/guava/22.0-rc1/pom) | | | |
-| [21.0](https://central.sonatype.com/artifact/com.google.guava/guava/21.0/pom) | | | |
-| [21.0-rc2](https://central.sonatype.com/artifact/com.google.guava/guava/21.0-rc2/pom) | | | |
-| [21.0-rc1](https://central.sonatype.com/artifact/com.google.guava/guava/21.0-rc1/pom) | | | |
-| [20.0](https://central.sonatype.com/artifact/com.google.guava/guava/20.0/pom) | | | |
-| [20.0-rc1](https://central.sonatype.com/artifact/com.google.guava/guava/20.0-rc1/pom) | | | |
-| [19.0](https://central.sonatype.com/artifact/com.google.guava/guava/19.0/pom) | | | |
-| [19.0-rc3](https://central.sonatype.com/artifact/com.google.guava/guava/19.0-rc3/pom) | | | |
-| [19.0-rc2](https://central.sonatype.com/artifact/com.google.guava/guava/19.0-rc2/pom) | | | |
-| [19.0-rc1](https://central.sonatype.com/artifact/com.google.guava/guava/19.0-rc1/pom) | | | |
-| [18.0](https://central.sonatype.com/artifact/com.google.guava/guava/18.0/pom) | | | |
-| [18.0-rc2](https://central.sonatype.com/artifact/com.google.guava/guava/18.0-rc2/pom) | | | |
-| [18.0-rc1](https://central.sonatype.com/artifact/com.google.guava/guava/18.0-rc1/pom) | | | |
-| [17.0](https://central.sonatype.com/artifact/com.google.guava/guava/17.0/pom) | | | |
-| [17.0-rc2](https://central.sonatype.com/artifact/com.google.guava/guava/17.0-rc2/pom) | | | |
-| [17.0-rc1](https://central.sonatype.com/artifact/com.google.guava/guava/17.0-rc1/pom) | | | |
-| [16.0.1](https://central.sonatype.com/artifact/com.google.guava/guava/16.0.1/pom) | | | |
-| [16.0](https://central.sonatype.com/artifact/com.google.guava/guava/16.0/pom) | | | |
-| [16.0-rc1](https://central.sonatype.com/artifact/com.google.guava/guava/16.0-rc1/pom) | | | |
-| [15.0](https://central.sonatype.com/artifact/com.google.guava/guava/15.0/pom) | | | |
-| [15.0-rc1](https://central.sonatype.com/artifact/com.google.guava/guava/15.0-rc1/pom) | | | |
-| [14.0.1](https://central.sonatype.com/artifact/com.google.guava/guava/14.0.1/pom) | | | |
-| [14.0](https://central.sonatype.com/artifact/com.google.guava/guava/14.0/pom) | | | |
-| [14.0-rc3](https://central.sonatype.com/artifact/com.google.guava/guava/14.0-rc3/pom) | | | |
-| [14.0-rc2](https://central.sonatype.com/artifact/com.google.guava/guava/14.0-rc2/pom) | | | |
-| [14.0-rc1](https://central.sonatype.com/artifact/com.google.guava/guava/14.0-rc1/pom) | | | |
-| [13.0.1](https://central.sonatype.com/artifact/com.google.guava/guava/13.0.1/pom) | | | |
-| [13.0](https://central.sonatype.com/artifact/com.google.guava/guava/13.0/pom) | | | |
-| [13.0-rc2](https://central.sonatype.com/artifact/com.google.guava/guava/13.0-rc2/pom) | | | |
-| [13.0-rc1](https://central.sonatype.com/artifact/com.google.guava/guava/13.0-rc1/pom) | | | |
-| [12.0.1](https://central.sonatype.com/artifact/com.google.guava/guava/12.0.1/pom) | | | |
-| [12.0](https://central.sonatype.com/artifact/com.google.guava/guava/12.0/pom) | | | |
-| [12.0-rc2](https://central.sonatype.com/artifact/com.google.guava/guava/12.0-rc2/pom) | | | |
-| [12.0-rc1](https://central.sonatype.com/artifact/com.google.guava/guava/12.0-rc1/pom) | | | |
-| [11.0.2](https://central.sonatype.com/artifact/com.google.guava/guava/11.0.2/pom) | | | |
-| [11.0.1](https://central.sonatype.com/artifact/com.google.guava/guava/11.0.1/pom) | | | |
-| [11.0](https://central.sonatype.com/artifact/com.google.guava/guava/11.0/pom) | | | |
-| [11.0-rc1](https://central.sonatype.com/artifact/com.google.guava/guava/11.0-rc1/pom) | | | |
-| [10.0.1](https://central.sonatype.com/artifact/com.google.guava/guava/10.0.1/pom) | | | |
-| [10.0](https://central.sonatype.com/artifact/com.google.guava/guava/10.0/pom) | | | |
-| [10.0-rc3](https://central.sonatype.com/artifact/com.google.guava/guava/10.0-rc3/pom) | | | |
-| [10.0-rc2](https://central.sonatype.com/artifact/com.google.guava/guava/10.0-rc2/pom) | | | |
-| [10.0-rc1](https://central.sonatype.com/artifact/com.google.guava/guava/10.0-rc1/pom) | | | |
-| [r09](https://central.sonatype.com/artifact/com.google.guava/guava/r09/pom) | | | |
-| [r08](https://central.sonatype.com/artifact/com.google.guava/guava/r08/pom) | | | |
-| [r07](https://central.sonatype.com/artifact/com.google.guava/guava/r07/pom) | | | |
-| [r06](https://central.sonatype.com/artifact/com.google.guava/guava/r06/pom) | | | |
-| [r05](https://central.sonatype.com/artifact/com.google.guava/guava/r05/pom) | | | |
-| [r03](https://central.sonatype.com/artifact/com.google.guava/guava/r03/pom) | | | |
+| [32.0.0-jre](https://central.sonatype.com/artifact/com.google.guava/guava/32.0.0-jre/pom) | [mvn jdk11](guava-32.0.0-jre.buildspec) | [result](guava-parent-32.0.0-jre.buildinfo): [10 :heavy_check_mark:  3 :warning:](guava-parent-32.0.0-jre.buildcompare) [:mag:](guava-parent-32.0.0-jre.diffoscope) | 13M |
+| [32.0.0-android](https://central.sonatype.com/artifact/com.google.guava/guava/32.0.0-android/pom) | [mvn jdk11](guava-32.0.0-android.buildspec) | [result](guava-parent-32.0.0-android.buildinfo): [7 :heavy_check_mark:  3 :warning:](guava-parent-32.0.0-android.buildcompare) | 8.2M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
