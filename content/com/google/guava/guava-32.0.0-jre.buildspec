@@ -1,18 +1,18 @@
 groupId=com.google.guava
 artifactId=guava
-version=32.0.0
+version=32.0.0-jre
 
 display=${groupId}:${artifactId}
 
 gitRepo=https://github.com/google/${artifactId}.git
-gitTag=v${version}
+gitTag=v$(echo "${version}" | cut -d '-' -f 1)
 
 tool=mvn
 jdk=11
 newline=lf
 
 command="mvn clean verify -Psonatype-oss-release -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
-buildinfo=target/${artifactId}-parent-${version}-jre.buildinfo
+buildinfo=target/${artifactId}-parent-${version}.buildinfo
 
-diffoscope=${artifactId}-parent-${version}-jre.diffoscope
+diffoscope=${artifactId}-parent-${version}.diffoscope
 issue=
