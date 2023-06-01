@@ -13,6 +13,7 @@ rebuilding **6 releases** of org.codehaus.mojo:extra-enforcer-rules:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.7.0](https://central.sonatype.com/artifact/org.codehaus.mojo/extra-enforcer-rules/1.7.0/pom) | | | |
 | [1.6.2](https://central.sonatype.com/artifact/org.codehaus.mojo/extra-enforcer-rules/1.6.2/pom) | [mvn jdk17](extra-enforcer-rules-1.6.2.buildspec) | [result](extra-enforcer-rules-1.6.2.buildinfo): [4 :heavy_check_mark: ](extra-enforcer-rules-1.6.2.buildcompare) | 287K |
 | [1.6.1](https://central.sonatype.com/artifact/org.codehaus.mojo/extra-enforcer-rules/1.6.1/pom) | [mvn jdk8](extra-enforcer-rules-1.6.1.buildspec) | [result](extra-enforcer-rules-1.6.1.buildinfo): [4 :heavy_check_mark: ](extra-enforcer-rules-1.6.1.buildcompare) | 283K |
 | [1.6.0](https://central.sonatype.com/artifact/org.codehaus.mojo/extra-enforcer-rules/1.6.0/pom) | [mvn jdk8](extra-enforcer-rules-1.6.0.buildspec) | [result](extra-enforcer-rules-1.6.0.buildinfo): [4 :heavy_check_mark: ](extra-enforcer-rules-1.6.0.buildcompare) | 282K |
