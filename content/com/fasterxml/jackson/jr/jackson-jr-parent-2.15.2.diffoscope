@@ -1,0 +1,19 @@
+1 / 8 target/reference/jackson-jr-objects-2.15.2.jar jr-objects/target/jackson-jr-objects-2.15.2.jar
+--- target/reference/jackson-jr-objects-2.15.2.jar
++++ jr-objects/target/jackson-jr-objects-2.15.2.jar
+├── zipinfo {}
+│ @@ -1,80 +1,80 @@
+│  Zip file size: 100504 bytes, number of entries: 78
+│ --rw----     2.0 fat        0 bX defN 80-Feb-01 08:00 META-INF/
+│ +-rw----     2.0 fat        0 bX defN 80-Feb-01 07:00 META-INF/
+│  -rw----     2.0 fat     2371 bx defN 23-May-30 23:22 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat      303 bX defN 80-Feb-01 08:00 META-INF/LICENSE
+...
+│ --rw----     2.0 fat     7175 bX defN 80-Feb-01 08:00 com/fasterxml/jackson/jr/type/TypeResolver.class
+│ +-rw----     2.0 fat      303 bX defN 80-Feb-01 07:00 META-INF/LICENSE
+...
+│ +-rw----     2.0 fat     7175 bX defN 80-Feb-01 07:00 com/fasterxml/jackson/jr/type/TypeResolver.class
+│  -rw----     1.0 fat        0 bx stor 23-May-30 23:22 META-INF/versions/
+│  -rw----     1.0 fat        0 bx stor 23-May-30 23:22 META-INF/versions/9/
+│  -rw----     2.0 fat      384 bx defN 23-May-30 23:22 META-INF/versions/9/module-info.class
+│  78 files, 228628 bytes uncompressed, 85410 bytes compressed:  62.6%
