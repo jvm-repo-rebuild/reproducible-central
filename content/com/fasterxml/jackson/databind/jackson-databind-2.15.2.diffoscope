@@ -1,0 +1,36 @@
+1 / 2 target/reference/jackson-databind-2.15.2.jar target/jackson-databind-2.15.2.jar
+--- target/reference/jackson-databind-2.15.2.jar
++++ target/jackson-databind-2.15.2.jar
+│┄ Format-specific differences are supported for ZIP archives but no file-specific differences were detected; falling back to a binary diff. file(1) reports: Zip archive data, at least v1.0 to extract, compression method=store
+│┄ Archive contents identical but files differ, possibly due to different compression levels. Falling back to binary comparison.
+@@ -95026,25 +95026,25 @@
+ 00173310: 2ef1 4cb1 cd4a 4cce 2ece cfd3 4d49 2c49  ..L..JL.....MI,I
+ 00173320: 4cca cc4b e14a 2fca 2f2d 004a 24e7 e7ea  L..K.J/./-.J$...
+ 00173330: a525 1697 a416 55e4 e6e8 4195 e925 e717  .%....U...A..%..
+ 00173340: a572 95a5 1615 67e6 e7d9 1ae9 199a ea19  .r....g.........
+ 00173350: 7101 0050 4b03 040a 0000 0000 0052 83be  q..PK........R..
+ 00173360: 5600 0000 0000 0000 0000 0000 0012 0011  V...............
+ 00173370: 004d 4554 412d 494e 462f 7665 7273 696f  .META-INF/versio
+-00173380: 6e73 2f55 540d 0007 2c86 7664 5386 7664  ns/UT...,.vdS.vd
+-00173390: 5386 7664 504b 0304 0a00 0000 0000 5283  S.vdPK........R.
++00173380: 6e73 2f55 540d 0007 2c86 7664 3892 7964  ns/UT...,.vd8.yd
++00173390: 3892 7964 504b 0304 0a00 0000 0000 5283  8.ydPK........R.
+ 001733a0: be56 0000 0000 0000 0000 0000 0000 1400  .V..............
+ 001733b0: 1100 4d45 5441 2d49 4e46 2f76 6572 7369  ..META-INF/versi
+-001733c0: 6f6e 732f 392f 5554 0d00 072c 8676 6453  ons/9/UT...,.vdS
+-001733d0: 8676 6453 8676 6450 4b03 0414 0000 0808  .vdS.vdPK.......
++001733c0: 6f6e 732f 392f 5554 0d00 072c 8676 6438  ons/9/UT...,.vd8
++001733d0: 9279 6438 9279 6450 4b03 0414 0000 0808  .yd8.ydPK.......
+ 001733e0: 0052 83be 5679 21a6 b9db 0100 00c0 0500  .R..Vy!.........
+ 001733f0: 0025 0011 004d 4554 412d 494e 462f 7665  .%...META-INF/ve
+ 00173400: 7273 696f 6e73 2f39 2f6d 6f64 756c 652d  rsions/9/module-
+ 00173410: 696e 666f 2e63 6c61 7373 5554 0d00 072c  info.classUT...,
+-00173420: 8676 6453 8676 6453 8676 648d 94d9 52d4  .vdS.vdS.vd...R.
++00173420: 8676 6438 9279 6438 9279 648d 94d9 52d4  .vd8.yd8.yd...R.
+ 00173430: 4014 86ff e332 0382 8aa6 dd50 7164 4720  @....2.....PqdG 
+ 00173440: 71d0 715f 50aa bca3 bcf3 be27 e9d1 0c93  q.q_P......'....
+ 00173450: 744c 3716 def1 5c5c f800 3e94 65e7 8481  tL7...\\..>.e...
+ 00173460: 1bb4 93aa 7c55 9d7c 27f9 7bfd fde7 e817  ....|U.|'.{.....
+ 00173470: 801e 7608 5399 4ef6 476a 33cd 07ba 0d22  ..v.S.N.Gj3...."
+ 00173480: ccc5 3a0b 07d2 5855 1e64 a370 28e3 3da3  ..:...XU.d.p(.=.
+ 00173490: f330 9156 f6d3 3c09 709e d0da 0abb bd70  .0.V..<.p......p
