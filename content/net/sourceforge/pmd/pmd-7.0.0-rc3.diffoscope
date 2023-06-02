@@ -1,0 +1,78 @@
+1 / 1 target/reference/pmd-cli-7.0.0-rc3-completion.sh pmd-cli/target/pmd_completion.sh
+--- target/reference/pmd-cli-7.0.0-rc3-completion.sh
++++ pmd-cli/target/pmd_completion.sh
+@@ -198,18 +198,18 @@
+ # Generates completions for the options and subcommands of the `check` subcommand.
+ function _picocli_pmd_check() {
+   # Get completion data
+   local curr_word=${COMP_WORDS[COMP_CWORD]}
+   local prev_word=${COMP_WORDS[COMP_CWORD-1]}
+ 
+   local commands=""
+-  local flag_opts="-h --help --debug --verbose -D -v --no-fail-on-violation --benchmark -b --show-suppressed --no-ruleset-compatibility --no-cache --no-progress"
+-  local arg_opts="--encoding -e --dir -d --file-list --uri -u --format -f --property -P --relativize-paths-with -z --suppress-marker --minimum-priority --report-file -r --use-version --force-language --aux-classpath --cache --threads -t --rulesets -R --ignore-list"
+-  local format_option_args=("codeclimate" "csv" "emacs" "empty" "html" "ideaj" "json" "sarif" "summaryhtml" "text" "textcolor" "textpad" "vbhtml" "xml" "xslt" "yahtml") # --format values
++  local flag_opts="-h --help --debug --verbose -D -v --no-fail-on-violation --show-suppressed --no-ruleset-compatibility --no-cache --no-progress --benchmark -b"
++  local arg_opts="--encoding -e --dir -d --file-list --uri -u --property -P --format -f --suppress-marker --minimum-priority --report-file -r --use-version --force-language --aux-classpath --cache --threads -t --rulesets -R --ignore-list --relativize-paths-with -z"
+   local StringString_option_args=("problem" "package" "file" "priority" "line" "desc" "ruleSet" "rule" "linePrefix" "linkPrefix" "htmlExtension" "fileName" "sourcePath" "classAndMethodName" "linePrefix" "linkPrefix" "htmlExtension" "color" "encoding" "encoding" "xsltFilename" "outputDir") # --property values
++  local format_option_args=("codeclimate" "csv" "emacs" "empty" "html" "ideaj" "json" "sarif" "summaryhtml" "text" "textcolor" "textpad" "vbhtml" "xml" "xslt" "yahtml") # --format values
+   local minimumPriority_option_args=("HIGH" "MEDIUM_HIGH" "MEDIUM" "MEDIUM_LOW" "LOW") # --minimum-priority values
+   local languageVersion_option_args=("apex-52" "apex-53" "apex-54" "apex-55" "apex-56" "apex-57" "ecmascript-3" "ecmascript-5" "ecmascript-6" "ecmascript-7" "ecmascript-8" "ecmascript-9" "ecmascript-ES2015" "ecmascript-ES2016" "ecmascript-ES2017" "ecmascript-ES2018" "ecmascript-ES6" "html-4" "html-5" "java-1.10" "java-1.3" "java-1.4" "java-1.5" "java-1.6" "java-1.7" "java-1.8" "java-1.9" "java-10" "java-11" "java-12" "java-13" "java-14" "java-15" "java-16" "java-17" "java-18" "java-19" "java-19-preview" "java-20" "java-20-preview" "java-5" "java-6" "java-7" "java-8" "java-9" "jsp-2" "jsp-3" "kotlin-1.6" "kotlin-1.7" "kotlin-1.8" "modelica-3.4" "modelica-3.5" "plsql-11g" "plsql-12.1" "plsql-12.2" "plsql-12c_Release_1" "plsql-12c_Release_2" "plsql-18c" "plsql-19c" "plsql-21c" "pom-4.0.0" "scala-2.10" "scala-2.11" "scala-2.12" "scala-2.13" "swift-4.2" "swift-5.0" "swift-5.1" "swift-5.2" "swift-5.3" "swift-5.4" "swift-5.5" "swift-5.6" "swift-5.7" "vf-52" "vf-53" "vf-54" "vf-55" "vf-56" "vf-57" "vm-2.0" "vm-2.1" "vm-2.2" "vm-2.3" "wsdl-1.1" "wsdl-2.0" "xml-1.0" "xml-1.1" "xsl-1.0" "xsl-2.0" "xsl-3.0") # --use-version values
+   local forceLanguage_option_args=("apex" "ecmascript" "html" "java" "jsp" "kotlin" "modelica" "plsql" "pom" "scala" "swift" "vf" "vm" "wsdl" "xml" "xsl") # --force-language values
+ 
+   type compopt &>/dev/null && compopt +o default
+ 
+   case ${prev_word} in
+@@ -227,28 +227,22 @@
+       type compopt &>/dev/null && compopt -o filenames
+       COMPREPLY=( $( compgen -f -- "${curr_word}" ) ) # files
+       return $?
+       ;;
+     --uri|-u)
+       return
+       ;;
+-    --format|-f)
+-      local IFS=$'\n'
+-      COMPREPLY=( $( compReplyArray "${format_option_args[@]}" ) )
+-      return $?
+-      ;;
+     --property|-P)
+       local IFS=$'\n'
+       COMPREPLY=( $( compReplyArray "${StringString_option_args[@]}" ) )
+       return $?
+       ;;
+-    --relativize-paths-with|-z)
++    --format|-f)
+       local IFS=$'\n'
+-      type compopt &>/dev/null && compopt -o filenames
+-      COMPREPLY=( $( compgen -f -- "${curr_word}" ) ) # files
++      COMPREPLY=( $( compReplyArray "${format_option_args[@]}" ) )
+       return $?
+       ;;
+     --suppress-marker)
+       return
+       ;;
+     --minimum-priority)
+       local IFS=$'\n'
+@@ -288,14 +282,20 @@
+       ;;
+     --ignore-list)
+       local IFS=$'\n'
+       type compopt &>/dev/null && compopt -o filenames
+       COMPREPLY=( $( compgen -f -- "${curr_word}" ) ) # files
+       return $?
+       ;;
++    --relativize-paths-with|-z)
++      local IFS=$'\n'
++      type compopt &>/dev/null && compopt -o filenames
++      COMPREPLY=( $( compgen -f -- "${curr_word}" ) ) # files
++      return $?
++      ;;
+   esac
+ 
+   if [[ "${curr_word}" == -* ]]; then
+     COMPREPLY=( $(compgen -W "${flag_opts} ${arg_opts}" -- "${curr_word}") )
+   else
+     local positionals=""
+     local currIndex
+
