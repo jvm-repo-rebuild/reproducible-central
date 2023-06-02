@@ -1,19 +1,19 @@
-[com.fasterxml.jackson.core:jackson-core](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.15.1/versions) RB check
+[com.fasterxml.jackson.core:jackson-core](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.15.2/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.fasterxml.jackson.core:jackson-core](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.15.1/versions)
+## Project: [com.fasterxml.jackson.core:jackson-core](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.15.2/versions)
 
 Source code: [https://github.com/FasterXML/jackson-core.git](https://github.com/FasterXML/jackson-core.git)
 
-rebuilding **3 releases** of com.fasterxml.jackson.core:jackson-core:
-- **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **4 releases** of com.fasterxml.jackson.core:jackson-core:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.15.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.15.2/pom) | | | |
+| [2.15.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.15.2/pom) | [mvn jdk8](jackson-core-2.15.2.buildspec) | [result](jackson-core-2.15.2.buildinfo): [4 :heavy_check_mark: ](jackson-core-2.15.2.buildcompare) | 1003K |
 | [2.15.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.15.1/pom) | [mvn jdk8](jackson-core-2.15.1.buildspec) | [result](jackson-core-2.15.1.buildinfo): [3 :heavy_check_mark:  1 :warning:](jackson-core-2.15.1.buildcompare) [:mag:](jackson-core-2.15.1.diffoscope) [:memo:](https://github.com/FasterXML/jackson-core/issues/1028) | 996K |
 | [2.15.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.15.0/pom) | | | |
 | [2.15.0-rc3](https://central.sonatype.com/artifact/com.fasterxml.jackson.core/jackson-core/2.15.0-rc3/pom) | | | |
