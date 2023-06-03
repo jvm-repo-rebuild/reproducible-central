@@ -13,6 +13,7 @@ rebuilding **2 releases** of com.github.veithen.maven:resolver-proxy-maven-plugi
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.4.1](https://central.sonatype.com/artifact/com.github.veithen.maven/resolver-proxy-maven-plugin/0.4.1/pom) | | | |
 | [0.4.0](https://central.sonatype.com/artifact/com.github.veithen.maven/resolver-proxy-maven-plugin/0.4.0/pom) | [mvn jdk11](resolver-proxy-maven-plugin-0.4.0.buildspec) | [result](resolver-proxy-maven-plugin-0.4.0.buildinfo): [4 :heavy_check_mark: ](resolver-proxy-maven-plugin-0.4.0.buildcompare) | 74K |
 | [0.3.0](https://central.sonatype.com/artifact/com.github.veithen.maven/resolver-proxy-maven-plugin/0.3.0/pom) | [mvn jdk11](resolver-proxy-maven-plugin-0.3.0.buildspec) | [result](resolver-proxy-maven-plugin-0.3.0.buildinfo): [4 :heavy_check_mark: ](resolver-proxy-maven-plugin-0.3.0.buildcompare) | 68K |
 
