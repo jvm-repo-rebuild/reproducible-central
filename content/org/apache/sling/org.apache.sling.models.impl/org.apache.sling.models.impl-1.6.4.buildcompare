@@ -1,0 +1,9 @@
+version=1.6.4
+ok=2
+ko=2
+okFiles="org.apache.sling.models.impl-1.6.4.pom org.apache.sling.models.impl-1.6.4-source-release.zip"
+koFiles="org.apache.sling.models.impl-1.6.4.jar org.apache.sling.models.impl-1.6.4-sources.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/org.apache.sling.models.impl-1.6.4.jar target/org.apache.sling.models.impl-1.6.4.jar
+# diffoscope target/reference/org.apache.sling.models.impl-1.6.4-sources.jar target/org.apache.sling.models.impl-1.6.4-sources.jar

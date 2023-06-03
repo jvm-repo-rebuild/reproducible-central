@@ -1,0 +1,65 @@
+# created by maven-shade-plugin: timestamp of shaded content has an issue
+1 / 2 target/reference/org.apache.sling.models.impl-1.6.4.jar target/org.apache.sling.models.impl-1.6.4.jar
+--- target/reference/org.apache.sling.models.impl-1.6.4.jar
++++ target/org.apache.sling.models.impl-1.6.4.jar
+├── zipinfo {}
+│ @@ -100,17 +100,17 @@
+│  -rw----     2.0 fat     1076 bl defN 23-May-30 08:53 org/apache/sling/models/impl/via/ResourceTypeForcingRequestWrapper.class
+│  -rw----     2.0 fat      770 bl defN 23-May-30 08:53 org/apache/sling/models/impl/via/ResourceTypeForcingResourceWrapper.class
+│  -rw----     2.0 fat        0 bl defN 23-May-30 08:53 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 23-May-30 08:53 META-INF/maven/org.apache.sling/
+│  -rw----     2.0 fat        0 bl defN 23-May-30 08:53 META-INF/maven/org.apache.sling/org.apache.sling.models.impl/
+│  -rw----     2.0 fat    10688 bl defN 23-May-30 08:53 META-INF/maven/org.apache.sling/org.apache.sling.models.impl/pom.xml
+│  -rw----     2.0 fat       82 bl defN 23-May-30 08:53 META-INF/maven/org.apache.sling/org.apache.sling.models.impl/pom.properties
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 03:08 slingmodelsimpl/
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 03:08 slingmodelsimpl/org/
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 03:08 slingmodelsimpl/org/apache/
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 03:08 slingmodelsimpl/org/apache/sling/
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 03:08 slingmodelsimpl/org/apache/sling/scripting/
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 03:08 slingmodelsimpl/org/apache/sling/scripting/core/
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 03:08 slingmodelsimpl/org/apache/sling/scripting/core/impl/
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 03:08 slingmodelsimpl/org/apache/sling/scripting/core/impl/helper/
+│ --rw----     2.0 fat     3819 bX defN 79-Nov-30 03:08 slingmodelsimpl/org/apache/sling/scripting/core/impl/helper/ProtectedBindings.class
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 slingmodelsimpl/
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 slingmodelsimpl/org/
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 slingmodelsimpl/org/apache/
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 slingmodelsimpl/org/apache/sling/
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 slingmodelsimpl/org/apache/sling/scripting/
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 slingmodelsimpl/org/apache/sling/scripting/core/
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 slingmodelsimpl/org/apache/sling/scripting/core/impl/
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 slingmodelsimpl/org/apache/sling/scripting/core/impl/helper/
+│ +-rw----     2.0 fat     3819 bX defN 79-Nov-30 04:08 slingmodelsimpl/org/apache/sling/scripting/core/impl/helper/ProtectedBindings.class
+│  114 files, 308363 bytes uncompressed, 116194 bytes compressed:  62.3%
+
+2 / 2 target/reference/org.apache.sling.models.impl-1.6.4-sources.jar target/org.apache.sling.models.impl-1.6.4-sources.jar
+--- target/reference/org.apache.sling.models.impl-1.6.4-sources.jar
++++ target/org.apache.sling.models.impl-1.6.4-sources.jar
+├── zipinfo {}
+│ @@ -53,17 +53,17 @@
+│  -rw----     2.0 fat     1451 bl defN 23-May-30 08:53 org/apache/sling/models/impl/via/ResourceTypeForcingRequestWrapper.java
+│  -rw----     2.0 fat     1300 bl defN 23-May-30 08:53 org/apache/sling/models/impl/via/ResourceTypeForcingResourceWrapper.java
+│  -rw----     2.0 fat        0 bl defN 23-May-30 08:53 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 23-May-30 08:53 META-INF/maven/org.apache.sling/
+│  -rw----     2.0 fat        0 bl defN 23-May-30 08:53 META-INF/maven/org.apache.sling/org.apache.sling.models.impl/
+│  -rw----     2.0 fat    10688 bl defN 23-May-30 08:53 META-INF/maven/org.apache.sling/org.apache.sling.models.impl/pom.xml
+│  -rw----     2.0 fat       82 bl defN 23-May-30 08:53 META-INF/maven/org.apache.sling/org.apache.sling.models.impl/pom.properties
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 03:08 slingmodelsimpl/
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 03:08 slingmodelsimpl/org/
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 03:08 slingmodelsimpl/org/apache/
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 03:08 slingmodelsimpl/org/apache/sling/
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 03:08 slingmodelsimpl/org/apache/sling/scripting/
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 03:08 slingmodelsimpl/org/apache/sling/scripting/core/
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 03:08 slingmodelsimpl/org/apache/sling/scripting/core/impl/
+│ --rw----     2.0 fat        0 bX defN 79-Nov-30 03:08 slingmodelsimpl/org/apache/sling/scripting/core/impl/helper/
+│ --rw----     2.0 fat     4102 bX defN 79-Nov-30 03:08 slingmodelsimpl/org/apache/sling/scripting/core/impl/helper/ProtectedBindings.java
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 slingmodelsimpl/
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 slingmodelsimpl/org/
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 slingmodelsimpl/org/apache/
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 slingmodelsimpl/org/apache/sling/
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 slingmodelsimpl/org/apache/sling/scripting/
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 slingmodelsimpl/org/apache/sling/scripting/core/
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 slingmodelsimpl/org/apache/sling/scripting/core/impl/
+│ +-rw----     2.0 fat        0 bX defN 79-Nov-30 04:08 slingmodelsimpl/org/apache/sling/scripting/core/impl/helper/
+│ +-rw----     2.0 fat     4102 bX defN 79-Nov-30 04:08 slingmodelsimpl/org/apache/sling/scripting/core/impl/helper/ProtectedBindings.java
+│  67 files, 275627 bytes uncompressed, 74330 bytes compressed:  73.0%
+
