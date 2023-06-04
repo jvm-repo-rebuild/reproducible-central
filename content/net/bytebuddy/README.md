@@ -26,9 +26,7 @@ rebuilding **12 releases** of net.bytebuddy:byte-buddy-parent:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [1.14.5](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.14.5/pom) | [mvn jdk8](byte-buddy-1.14.5.buildspec) | [result](byte-buddy-parent-1.14.5.buildinfo): [22 :heavy_check_mark: ](byte-buddy-parent-1.14.5.buildcompare) | 19M |
-| [1.14.4](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.14.4/pom) | [mvn jdk8](byte-buddy-1.14.4.buildspec) | [result](byte-buddy-parent-1.14.4.buildinfo): [22 :heavy_check_mark: ](byte-buddy-parent-1.14.4.buildcompare) [:mag:](byte-buddy-parent-1.14.4.diffoscope)
-[1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/net/bytebuddy/byte-buddy-1.14.4.buildspec[0m
- | 19M |
+| [1.14.4](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.14.4/pom) | [mvn jdk8](byte-buddy-1.14.4.buildspec) | [result](byte-buddy-parent-1.14.4.buildinfo): [22 :heavy_check_mark: ](byte-buddy-parent-1.14.4.buildcompare) | 19M |
 | [1.14.3](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.14.3/pom) | [mvn jdk8](byte-buddy-1.14.3.buildspec) | [result](byte-buddy-parent-1.14.3.buildinfo): [22 :heavy_check_mark: ](byte-buddy-parent-1.14.3.buildcompare) | 19M |
 | [1.14.2](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.14.2/pom) | [mvn jdk8](byte-buddy-1.14.2.buildspec) | [result](byte-buddy-parent-1.14.2.buildinfo): [22 :heavy_check_mark: ](byte-buddy-parent-1.14.2.buildcompare) | 19M |
 | [1.14.1](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.14.1/pom) | [mvn jdk8](byte-buddy-1.14.1.buildspec) | [result](byte-buddy-parent-1.14.1.buildinfo): [22 :heavy_check_mark: ](byte-buddy-parent-1.14.1.buildcompare) | 19M |
