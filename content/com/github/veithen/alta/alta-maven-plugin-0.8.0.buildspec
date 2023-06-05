@@ -1,0 +1,18 @@
+groupId=com.github.veithen.alta
+artifactId=alta-maven-plugin
+version=0.8.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/veithen/alta.git
+gitTag=${version}
+
+tool=mvn
+jdk=17
+newline=lf
+
+command="mvn clean package -Prelease -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
