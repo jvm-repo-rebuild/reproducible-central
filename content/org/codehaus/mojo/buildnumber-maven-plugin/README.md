@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.codehaus.mojo:buildnumber-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.2.0](https://central.sonatype.com/artifact/org.codehaus.mojo/buildnumber-maven-plugin/3.2.0/pom) | | | |
 | [3.1.0](https://central.sonatype.com/artifact/org.codehaus.mojo/buildnumber-maven-plugin/3.1.0/pom) | [mvn jdk17](buildnumber-maven-plugin-3.1.0.buildspec) | [result](buildnumber-maven-plugin-3.1.0.buildinfo): [4 :heavy_check_mark: ](buildnumber-maven-plugin-3.1.0.buildcompare) | 247K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

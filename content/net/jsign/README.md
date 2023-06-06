@@ -24,6 +24,7 @@ rebuilding **1 releases** of net.jsign:jsign:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [5.0](https://central.sonatype.com/artifact/net.jsign/jsign/5.0/pom) | | | |
 | [4.2](https://central.sonatype.com/artifact/net.jsign/jsign/4.2/pom) | [mvn jdk8 w](jsign-4.2.buildspec) | [result](jsign-parent-4.2.buildinfo): [17 :heavy_check_mark:  3 :warning:](jsign-parent-4.2.buildcompare) [:mag:](jsign-parent-4.2.diffoscope) | 1.6M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
