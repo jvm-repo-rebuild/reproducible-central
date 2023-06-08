@@ -177,6 +177,12 @@
       <url>http://dist.wso2.org/maven2/</url>
     </mirror>
     <mirror>
+      <id>fabric-repository</id>
+      <name>Fabric</name>
+      <url>https://maven.fabricmc.net</url>
+      <mirrorOf>fabric-repository</mirrorOf>
+    </mirror>
+    <mirror>
       <id>default</id>
       <mirrorOf>*</mirrorOf>
       <url>https://repo.maven.apache.org/maven2</url>
