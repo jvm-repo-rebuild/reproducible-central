@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **1912 releases** of **422 projects**:
-   - **1435** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 477 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **1918 releases** of **422 projects**:
+   - **1440** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 478 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
 
@@ -214,7 +214,7 @@ Its objectives are to provide:
 | | <a name='org.apache.maven.plugins:maven-jlink-plugin'></a>[maven-jlink-plugin](content/org/apache/maven/plugins/maven-jlink-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-pdf-plugin'></a>[maven-pdf-plugin](content/org/apache/maven/plugins/maven-pdf-plugin/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-pmd-plugin'></a>[maven-pmd-plugin](content/org/apache/maven/plugins/maven-pmd-plugin/README.md) | 8 | 8 :heavy_check_mark: |
-| | <a name='org.apache.maven.plugins:maven-project-info-reports-plugin'></a>[maven-project-info-reports-plugin](content/org/apache/maven/plugins/maven-project-info-reports-plugin/README.md) | 11 | 10 :heavy_check_mark: / 1 :warning: |
+| | <a name='org.apache.maven.plugins:maven-project-info-reports-plugin'></a>[maven-project-info-reports-plugin](content/org/apache/maven/plugins/maven-project-info-reports-plugin/README.md) | 12 | 11 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.apache.maven.plugins:maven-rar-plugin'></a>[maven-rar-plugin](content/org/apache/maven/plugins/maven-rar-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-release-plugin'></a>[maven-release-plugin](content/org/apache/maven/plugins/maven-release-plugin/README.md) | 6 | 6 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-remote-resources-plugin'></a>[maven-remote-resources-plugin](content/org/apache/maven/plugins/maven-remote-resources-plugin/README.md) | 2 | 2 :heavy_check_mark: |
@@ -332,7 +332,7 @@ Its objectives are to provide:
 | | <a name='org.apache.sling:org.apache.sling.security'></a>[*.security](content/org/apache/sling/org.apache.sling.security/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.servlets.annotations'></a>[*.servlets.annotations](content/org/apache/sling/org.apache.sling.servlets.annotations/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.servlets.post'></a>[*.servlets.post](content/org/apache/sling/org.apache.sling.servlets.post/README.md) | 2 | 2 :warning: |
-| | <a name='org.apache.sling:org.apache.sling.servlets.resolver'></a>[*.servlets.resolver](content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | 8 | 8 :warning: |
+| | <a name='org.apache.sling:org.apache.sling.servlets.resolver'></a>[*.servlets.resolver](content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | 9 | 9 :warning: |
 | | <a name='org.apache.sling:org.apache.sling.settings'></a>[*.settings](content/org/apache/sling/org.apache.sling.settings/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.sitemap'></a>[*.sitemap](content/org/apache/sling/org.apache.sling.sitemap/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.starter'></a>[*.starter](content/org/apache/sling/org.apache.sling.starter/README.md) | 1 | 1 :warning: |
@@ -356,7 +356,7 @@ Its objectives are to provide:
 | org.codehaus.mojo | <a name='org.codehaus.mojo:animal-sniffer-parent'></a>[animal-sniffer-parent](content/org/codehaus/mojo/animal-sniffer/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:aspectj-maven-plugin'></a>[aspectj-maven-plugin](content/org/codehaus/mojo/aspectj-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:build-helper-maven-plugin'></a>[build-helper-maven-plugin](content/org/codehaus/mojo/build-helper-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
-| | <a name='org.codehaus.mojo:buildnumber-maven-plugin'></a>[buildnumber-maven-plugin](content/org/codehaus/mojo/buildnumber-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='org.codehaus.mojo:buildnumber-maven-plugin'></a>[buildnumber-maven-plugin](content/org/codehaus/mojo/buildnumber-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:buildplan-maven-plugin'></a>[buildplan-maven-plugin](content/org/codehaus/mojo/buildplan-maven-plugin/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:cassandra-maven-plugin'></a>[cassandra-maven-plugin](content/org/codehaus/mojo/cassandra-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:exec-maven-plugin'></a>[exec-maven-plugin](content/org/codehaus/mojo/exec-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
@@ -364,13 +364,13 @@ Its objectives are to provide:
 | | <a name='org.codehaus.mojo:flatten-maven-plugin'></a>[flatten-maven-plugin](content/org/codehaus/mojo/flatten-maven-plugin/README.md) | 5 | 2 :heavy_check_mark: / 3 :warning: |
 | | <a name='org.codehaus.mojo:jaxb2-maven-plugin'></a>[jaxb2-maven-plugin](content/org/codehaus/mojo/jaxb2-maven-plugin/README.md) | 1 | 1 :warning: |
 | | <a name='org.codehaus.mojo:l10n-maven-plugin'></a>[l10n-maven-plugin](content/org/codehaus/mojo/l10n-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
-| | <a name='org.codehaus.mojo:license-maven-plugin'></a>[license-maven-plugin](content/org/codehaus/mojo/license-maven-plugin/README.md) | 1 | 1 :warning: |
-| | <a name='org.codehaus.mojo:mojo-parent'></a>[mojo-parent](content/org/codehaus/mojo/mojo-parent/README.md) | 14 | 14 :heavy_check_mark: |
+| | <a name='org.codehaus.mojo:license-maven-plugin'></a>[license-maven-plugin](content/org/codehaus/mojo/license-maven-plugin/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
+| | <a name='org.codehaus.mojo:mojo-parent'></a>[mojo-parent](content/org/codehaus/mojo/mojo-parent/README.md) | 15 | 15 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:mrm'></a>[mrm](content/org/codehaus/mojo/mrm/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:properties-maven-plugin'></a>[properties-maven-plugin](content/org/codehaus/mojo/properties-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:taglist-maven-plugin'></a>[taglist-maven-plugin](content/org/codehaus/mojo/taglist-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:tidy-maven-plugin'></a>[tidy-maven-plugin](content/org/codehaus/mojo/tidy-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
-| | <a name='org.codehaus.mojo:versions-maven-plugin'></a>[versions-maven-plugin](content/org/codehaus/mojo/versions-maven-plugin/README.md) | 10 | 10 :heavy_check_mark: |
+| | <a name='org.codehaus.mojo:versions-maven-plugin'></a>[versions-maven-plugin](content/org/codehaus/mojo/versions-maven-plugin/README.md) | 11 | 11 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:wagon-maven-plugin'></a>[wagon-maven-plugin](content/org/codehaus/mojo/wagon-maven-plugin/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | org.codehaus.plexus | <a name='org.codehaus.plexus:plexus-archiver'></a>[plexus-archiver](content/org/codehaus/plexus/plexus-archiver/README.md) | 15 | 14 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.codehaus.plexus:plexus-cipher'></a>[plexus-cipher](content/org/codehaus/plexus/plexus-cipher/README.md) | 1 | 1 :heavy_check_mark: |
@@ -446,7 +446,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 13 | 13 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 6 | 6 :warning: |
-| **Count:** | **422** | **1912** | **1435** :heavy_check_mark: **477** :warning: |
+| **Count:** | **422** | **1918** | **1440** :heavy_check_mark: **478** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -458,9 +458,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      20 gradle     11
      26 mvn         7
-    862 mvn         8
+    863 mvn         8
       1 mvn         9
-    681 mvn        11
+    682 mvn        11
       1 mvn        13
       4 mvn        14
      10 mvn        15
@@ -481,10 +481,10 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn-3.8.6  19
      11 mvn-3.8.7  17
       2 mvn-3.9.0  11
-      2 mvn-3.9.0  17
-      2 mvn-3.9.1   8
+      3 mvn-3.9.0  17
+      4 mvn-3.9.1   8
       1 mvn-3.9.1  11
-     30 mvn-3.9.1  17
+     31 mvn-3.9.1  17
       1 mvn-3.9.1  19
       2 mvn-3.9.1  20
       4 mvn-3.9.2   8
