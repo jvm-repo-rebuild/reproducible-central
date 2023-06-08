@@ -1,0 +1,82 @@
+1 / 1 target/reference/maven-shared-utils-3.4.1-source-release.zip target/maven-shared-utils-3.4.1-source-release.zip
+--- target/reference/maven-shared-utils-3.4.1-source-release.zip
++++ target/maven-shared-utils-3.4.1-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 247251 bytes, number of entries: 186
+│ +Zip file size: 247352 bytes, number of entries: 186
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-30 20:50 maven-shared-utils-3.4.1/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-30 20:50 maven-shared-utils-3.4.1/.github/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-30 20:50 maven-shared-utils-3.4.1/.github/workflows/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/main/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/main/java/org/
+│ @@ -52,16 +52,16 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/directorywalker/directory2/directory21/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/expand/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/dirOnTheOutside/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/src/aRegularDir/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/src/targetDir/
+│ -lrwxr-xr-x  2.0 unx      118 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/src/symDir
+│ -lrwxr-xr-x  2.0 unx      127 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/src/symLinkToDirOnTheOutside
+│ +lrwxr-xr-x  2.0 unx      172 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/src/symDir
+│ +lrwxr-xr-x  2.0 unx      181 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/src/symLinkToDirOnTheOutside
+│  -rw-r--r--  2.0 unx     1293 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/.asf.yaml
+│  -rw-r--r--  2.0 unx      995 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/.github/dependabot.yml
+│  -rw-r--r--  2.0 unx      877 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/.github/release-drafter.yml
+│  -rw-r--r--  2.0 unx      944 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/.github/workflows/maven-verify.yml
+│  -rw-r--r--  2.0 unx      971 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/.github/workflows/release-drafter.yml
+│  -rw-r--r--  2.0 unx      150 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/.gitignore
+│  -rw-r--r--  2.0 unx      832 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/Jenkinsfile
+│ @@ -171,18 +171,18 @@
+│  -rw-r--r--  2.0 unx      830 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/dirOnTheOutside/FileInDirOnTheOutside.txt
+│  -rw-r--r--  2.0 unx      839 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/onTheOutside.txt
+│  -rw-r--r--  2.0 unx      935 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/regen.sh
+│  -rw-r--r--  2.0 unx      834 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/src/aRegularDir/aRegularFile.txt
+│  -rw-r--r--  2.0 unx      846 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/src/fileR.txt
+│  -rw-r--r--  2.0 unx      813 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/src/fileW.txt
+│  -rw-r--r--  2.0 unx      811 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/src/fileX.txt
+│ -lrw-r--r--  2.0 unx      128 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/src/symLinkToFileOnTheOutside
+│ -lrw-r--r--  2.0 unx      118 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/src/symR
+│ -lrw-r--r--  2.0 unx      118 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/src/symW
+│ -lrw-r--r--  2.0 unx      118 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/src/symX
+│ +lrw-r--r--  2.0 unx      182 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/src/symLinkToFileOnTheOutside
+│ +lrw-r--r--  2.0 unx      172 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/src/symR
+│ +lrw-r--r--  2.0 unx      172 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/src/symW
+│ +lrw-r--r--  2.0 unx      172 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/src/symX
+│  -rw-r--r--  2.0 unx      829 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/src/targetDir/targetFile.txt
+│  -rw-r--r--  2.0 unx    13824 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/symlinks.tar
+│  -rw-r--r--  2.0 unx     1616 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/src/test/resources/symlinks/symlinks.zip
+│  -rw-r--r--  2.0 unx      965 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/LICENSE
+│  -rw-r--r--  2.0 unx      101 b- defN 23-Apr-30 20:50 maven-shared-utils-3.4.1/NOTICE
+│ -186 files, 959164 bytes uncompressed, 204813 bytes compressed:  78.6%
+│ +186 files, 959488 bytes uncompressed, 204914 bytes compressed:  78.6%
+├── maven-shared-utils-3.4.1/src/test/resources/symlinks/src/symDir
+│ @@ -1 +1 @@
+│ -/Users/slawomir.jaranowski/repos/apache/maven-shared-utils/target/checkout/./src/test/resources/symlinks/src/targetDir
+│ +/home/herve/dev/maven/misc/reproducible-central/content/org/apache/maven/shared/maven-shared-utils/buildcache/maven-shared-utils/./src/test/resources/symlinks/src/targetDir
+├── maven-shared-utils-3.4.1/src/test/resources/symlinks/src/symLinkToDirOnTheOutside
+│ @@ -1 +1 @@
+│ -/Users/slawomir.jaranowski/repos/apache/maven-shared-utils/target/checkout/./src/test/resources/symlinks/src/../dirOnTheOutside
+│ +/home/herve/dev/maven/misc/reproducible-central/content/org/apache/maven/shared/maven-shared-utils/buildcache/maven-shared-utils/./src/test/resources/symlinks/src/../dirOnTheOutside
+├── maven-shared-utils-3.4.1/src/test/resources/symlinks/src/symLinkToFileOnTheOutside
+│ @@ -1 +1 @@
+│ -/Users/slawomir.jaranowski/repos/apache/maven-shared-utils/target/checkout/./src/test/resources/symlinks/src/../onTheOutside.txt
+│ +/home/herve/dev/maven/misc/reproducible-central/content/org/apache/maven/shared/maven-shared-utils/buildcache/maven-shared-utils/./src/test/resources/symlinks/src/../onTheOutside.txt
+├── maven-shared-utils-3.4.1/src/test/resources/symlinks/src/symR
+│ @@ -1 +1 @@
+│ -/Users/slawomir.jaranowski/repos/apache/maven-shared-utils/target/checkout/./src/test/resources/symlinks/src/fileR.txt
+│ +/home/herve/dev/maven/misc/reproducible-central/content/org/apache/maven/shared/maven-shared-utils/buildcache/maven-shared-utils/./src/test/resources/symlinks/src/fileR.txt
+├── maven-shared-utils-3.4.1/src/test/resources/symlinks/src/symW
+│ @@ -1 +1 @@
+│ -/Users/slawomir.jaranowski/repos/apache/maven-shared-utils/target/checkout/./src/test/resources/symlinks/src/fileW.txt
+│ +/home/herve/dev/maven/misc/reproducible-central/content/org/apache/maven/shared/maven-shared-utils/buildcache/maven-shared-utils/./src/test/resources/symlinks/src/fileW.txt
+├── maven-shared-utils-3.4.1/src/test/resources/symlinks/src/symX
+│ @@ -1 +1 @@
+│ -/Users/slawomir.jaranowski/repos/apache/maven-shared-utils/target/checkout/./src/test/resources/symlinks/src/fileX.txt
+│ +/home/herve/dev/maven/misc/reproducible-central/content/org/apache/maven/shared/maven-shared-utils/buildcache/maven-shared-utils/./src/test/resources/symlinks/src/fileX.txt
+

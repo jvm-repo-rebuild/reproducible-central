@@ -1,0 +1,18 @@
+1 / 1 target/reference/jakartaee-api-9.1.1.zip target/jakartaee-api-libs-9.1.1.zip
+--- target/reference/jakartaee-api-9.1.1.zip
++++ target/jakartaee-api-libs-9.1.1.zip
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│  Zip file size: 2102529 bytes, number of entries: 36
+│ --rw-rw-r--  2.0 unx    14555 b- defN 22-Jun-09 11:43 LICENSE
+│ --rw-rw-r--  2.0 unx      515 b- defN 22-Jun-09 11:43 NOTICE
+│ +-rw-r--r--  2.0 unx    14555 b- defN 22-Jun-09 11:43 LICENSE
+│ +-rw-r--r--  2.0 unx      515 b- defN 22-Jun-09 11:43 NOTICE
+│  -rw-r--r--  2.0 unx      512 b- defN 22-Jun-09 11:43 README.txt
+│  -rw-r--r--  2.0 unx   138761 b- defN 22-Jun-09 11:43 jakarta.ws.rs-api-3.0.0.jar
+│  -rw-r--r--  2.0 unx    45295 b- defN 22-Jun-09 11:43 jakarta.json-api-2.0.1.jar
+│  -rw-r--r--  2.0 unx    35689 b- defN 22-Jun-09 11:43 jakarta.json.bind-api-2.0.0.jar
+│  -rw-r--r--  2.0 unx    25414 b- defN 22-Jun-09 11:43 jakarta.annotation-api-2.0.0.jar
+│  -rw-r--r--  2.0 unx    59993 b- defN 22-Jun-09 11:43 jakarta.ejb-api-4.0.0.jar
+│  -rw-r--r--  2.0 unx    27927 b- defN 22-Jun-09 11:43 jakarta.transaction-api-2.0.0.jar
+

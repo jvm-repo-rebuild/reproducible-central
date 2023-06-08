@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.webjars</groupId>
+  <artifactId>uswds</artifactId>
+  <versioning>
+    <latest>3.4.1</latest>
+    <release>3.4.1</release>
+    <versions>
+      <version>0.11.0</version>
+      <version>0.13.1</version>
+      <version>2.0.1</version>
+      <version>2.12.0</version>
+      <version>3.0.2</version>
+      <version>3.4.1</version>
+    </versions>
+    <lastUpdated>20230602153637</lastUpdated>
+  </versioning>
+</metadata>

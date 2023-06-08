@@ -1,0 +1,7 @@
+version=3.4.0
+ok=4
+ko=0
+okFiles="build-helper-maven-plugin-3.4.0.pom build-helper-maven-plugin-3.4.0.jar build-helper-maven-plugin-3.4.0-source-release.zip build-helper-maven-plugin-3.4.0-sources.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

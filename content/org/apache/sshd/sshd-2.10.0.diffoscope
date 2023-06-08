@@ -1,0 +1,36 @@
+1 / 2 target/reference/sshd-osgi-2.10.0-sources.jar sshd-osgi/target/sshd-osgi-2.10.0-sources.jar
+--- target/reference/sshd-osgi-2.10.0-sources.jar
++++ sshd-osgi/target/sshd-osgi-2.10.0-sources.jar
+├── zipinfo {}
+│ @@ -1,864 +1,864 @@
+│ -Zip file size: 1385555 bytes, number of entries: 862
+│ -drwxr-xr-x  2.0 unx        0 bx stor 23-May-10 09:04 META-INF/
+│ --rw-r--r--  2.0 unx      115 b- defN 23-May-10 09:04 META-INF/MANIFEST.MF
+...
+│ --rw-r--r--  2.0 unx       90 b- defN 23-May-10 09:04 META-INF/maven/org.apache.sshd/sshd-osgi/pom.properties
+│ --rw-r--r--  2.0 unx     8716 b- defN 23-May-10 09:04 META-INF/maven/org.apache.sshd/sshd-osgi/pom.xml
+│ -862 files, 4144057 bytes uncompressed, 1226221 bytes compressed:  70.4%
+│ +Zip file size: 1385554 bytes, number of entries: 862
+│ +drwxr-xr-x  2.0 unx        0 bx stor 23-May-15 06:20 META-INF/
+│ +-rw-r--r--  2.0 unx      118 b- defN 23-May-15 06:20 META-INF/MANIFEST.MF
+...
+│ +-rw-r--r--  2.0 unx       90 b- defN 23-May-15 06:20 META-INF/maven/org.apache.sshd/sshd-osgi/pom.properties
+│ +-rw-r--r--  2.0 unx     8716 b- defN 23-May-15 06:20 META-INF/maven/org.apache.sshd/sshd-osgi/pom.xml
+│ +862 files, 4144060 bytes uncompressed, 1226220 bytes compressed:  70.4%
+├── META-INF/MANIFEST.MF
+│ @@ -1,4 +1,4 @@
+│  Manifest-Version: 1.0
+
+│  Ant-Version: Apache Ant 1.10.12
+
+│ -Created-By: 17.0.5+8-jvmci-22.3-b08 (GraalVM Community)
+
+│ +Created-By: 17.0.6+10-Ubuntu-0ubuntu122.04 (Private Build)
+
+├── META-INF/maven/org.apache.sshd/sshd-osgi/pom.properties
+│ @@ -1,4 +1,4 @@
+│ -#Created by Apache Maven 3.9.1
+│ +#Created by Apache Maven 3.6.3
+│  version=2.10.0
+│  groupId=org.apache.sshd
+│  artifactId=sshd-osgi

@@ -1,0 +1,58 @@
+1 / 1 target/reference/mybatis-spring-boot-autoconfigure-3.0.2-sources.jar mybatis-spring-boot-autoconfigure/target/mybatis-spring-boot-autoconfigure-3.0.2-sources.jar
+--- target/reference/mybatis-spring-boot-autoconfigure-3.0.2-sources.jar
++++ mybatis-spring-boot-autoconfigure/target/mybatis-spring-boot-autoconfigure-3.0.2-sources.jar
+├── zipinfo {}
+│ @@ -1,14 +1,10 @@
+│ -Zip file size: 20903 bytes, number of entries: 28
+│ +Zip file size: 20515 bytes, number of entries: 24
+│  -rw-r--r--  2.0 unx      521 b- defN 23-May-20 08:43 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-20 08:43 META-INF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-May-20 08:43 com/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-May-20 08:43 com/dc/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-May-20 08:43 com/dc/demo/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-May-20 08:43 com/dc/demo/Entity/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-20 08:43 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-20 08:43 org/mybatis/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-20 08:43 org/mybatis/spring/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-20 08:43 org/mybatis/spring/boot/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-20 08:43 org/mybatis/spring/boot/autoconfigure/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-20 08:43 META-INF/spring/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-20 08:43 META-INF/maven/
+│ @@ -23,8 +19,8 @@
+│  -rw-r--r--  2.0 unx     1207 b- defN 23-May-20 08:43 org/mybatis/spring/boot/autoconfigure/SqlSessionFactoryBeanCustomizer.java
+│  -rw-r--r--  2.0 unx      732 b- defN 23-May-20 08:43 org/mybatis/spring/boot/autoconfigure/package-info.java
+│  -rw-r--r--  2.0 unx     1206 b- defN 23-May-20 08:43 META-INF/additional-spring-configuration-metadata.json
+│  -rw-r--r--  2.0 unx      140 b- defN 23-May-20 08:43 META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports
+│  -rw-r--r--  2.0 unx      853 b- defN 23-May-20 08:43 META-INF/spring.factories
+│  -rw-r--r--  2.0 unx     3982 b- defN 23-May-20 08:43 META-INF/maven/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure/pom.xml
+│  -rw-r--r--  2.0 unx       91 b- defN 23-May-20 08:43 META-INF/maven/org.mybatis.spring.boot/mybatis-spring-boot-autoconfigure/pom.properties
+│ -28 files, 58755 bytes uncompressed, 16383 bytes compressed:  72.1%
+│ +24 files, 58755 bytes uncompressed, 16383 bytes compressed:  72.1%
+├── zipnote «TEMP»/diffoscope_sn8f_1u3_target/tmpyuqftewy_.zip
+│ @@ -1,25 +1,13 @@
+│  Filename: META-INF/MANIFEST.MF
+│  Comment: 
+│  
+│  Filename: META-INF/
+│  Comment: 
+│  
+│ -Filename: com/
+│ -Comment: 
+│ -
+│ -Filename: com/dc/
+│ -Comment: 
+│ -
+│ -Filename: com/dc/demo/
+│ -Comment: 
+│ -
+│ -Filename: com/dc/demo/Entity/
+│ -Comment: 
+│ -
+│  Filename: org/
+│  Comment: 
+│  
+│  Filename: org/mybatis/
+│  Comment: 
+│  
+│  Filename: org/mybatis/spring/
+

@@ -42,6 +42,8 @@ rebuilding **6 releases** of org.apache.maven.surefire:surefire:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.1.2](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire/3.1.2/pom) | | | |
+| [3.1.0](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire/3.1.0/pom) | | | |
 | [3.0.0](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire/3.0.0/pom) | [mvn jdk17](surefire-3.0.0.buildspec) | [result](surefire-3.0.0.buildinfo): [75 :heavy_check_mark: ](surefire-3.0.0.buildcompare) | 9.9M |
 | [3.0.0-M9](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire/3.0.0-M9/pom) | [mvn jdk11](surefire-3.0.0-M9.buildspec) | [result](surefire-3.0.0-M9.buildinfo): [39 :heavy_check_mark:  36 :warning:](surefire-3.0.0-M9.buildcompare) [:mag:](surefire-3.0.0-M9.diffoscope) | 11M |
 | [3.0.0-M8](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire/3.0.0-M8/pom) | [mvn jdk8 w](surefire-3.0.0-M8.buildspec) | [result](surefire-3.0.0-M8.buildinfo): [75 :heavy_check_mark: ](surefire-3.0.0-M8.buildcompare) | 10M |

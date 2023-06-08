@@ -1,0 +1,38 @@
+version=3.0.2
+ok=25
+ko=31
+okFiles="Apache-Synapse-3.0.2.pom synapse-securevault-3.0.2.pom synapse-commons-3.0.2.pom synapse-transports-3.0.2.pom synapse-nhttp-transport-3.0.2.pom synapse-pipe-transport-3.0.2.pom synapse-vfs-transport-3.0.2.pom synapse-fix-transport-3.0.2.pom synapse-amqp-transport-3.0.2.pom synapse-tasks-3.0.2.pom synapse-core-3.0.2.pom synapse-extensions-3.0.2.pom synapse-samples-3.0.2.pom synapse-patches-3.0.2.pom synapse-experimental-3.0.2.pom synapse-documentation-3.0.2.pom synapse-documentation-3.0.2-site.xml synapse-war-3.0.2.pom synapse-handler-3.0.2.pom synapse-xar-maven-plugin-3.0.2.pom synapse-config-migrator-3.0.2.pom synapse-distribution-3.0.2.pom synapse-package-skeleton-3.0.2.pom synapse-package-archetype-3.0.2.pom synapse-integration-3.0.2.pom"
+koFiles="synapse-securevault-3.0.2.jar synapse-commons-3.0.2.jar synapse-nhttp-transport-3.0.2.jar synapse-pipe-transport-3.0.2.jar synapse-vfs-transport-3.0.2.jar synapse-fix-transport-3.0.2.jar synapse-amqp-transport-3.0.2.jar synapse-tasks-3.0.2.jar synapse-core-3.0.2.jar synapse-core-3.0.2-test-lib.zip synapse-core-3.0.2-eiptest-lib.zip synapse-core-3.0.2-eipcore-lib.zip synapse-core-3.0.2-tests.jar synapse-extensions-3.0.2.jar synapse-samples-3.0.2.jar synapse-patches-3.0.2.jar synapse-patches-3.0.2-jars.zip synapse-experimental-3.0.2.jar synapse-documentation-3.0.2-docs.zip synapse-war-3.0.2.war synapse-handler-3.0.2.jar synapse-handler-3.0.2.mar synapse-xar-maven-plugin-3.0.2.jar synapse-config-migrator-3.0.2.jar synapse-distribution-3.0.2-bin.tar.gz synapse-distribution-3.0.2-bin.zip synapse-distribution-3.0.2-src.tar.gz synapse-distribution-3.0.2-src.zip synapse-package-skeleton-3.0.2-skeleton.zip synapse-package-archetype-3.0.2.jar synapse-integration-3.0.2.jar"
+reference_java_version="1.8.0_372 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/synapse-securevault-3.0.2.jar modules/securevault/target/synapse-securevault-3.0.2.jar
+# diffoscope target/reference/synapse-commons-3.0.2.jar modules/commons/target/synapse-commons-3.0.2.jar
+# diffoscope target/reference/synapse-nhttp-transport-3.0.2.jar modules/transports/core/nhttp/target/synapse-nhttp-transport-3.0.2.jar
+# diffoscope target/reference/synapse-pipe-transport-3.0.2.jar modules/transports/core/pipe/target/synapse-pipe-transport-3.0.2.jar
+# diffoscope target/reference/synapse-vfs-transport-3.0.2.jar modules/transports/core/vfs/target/synapse-vfs-transport-3.0.2.jar
+# diffoscope target/reference/synapse-fix-transport-3.0.2.jar modules/transports/optional/fix/target/synapse-fix-transport-3.0.2.jar
+# diffoscope target/reference/synapse-amqp-transport-3.0.2.jar modules/transports/optional/amqp/target/synapse-amqp-transport-3.0.2.jar
+# diffoscope target/reference/synapse-tasks-3.0.2.jar modules/tasks/target/synapse-tasks-3.0.2.jar
+# diffoscope target/reference/synapse-core-3.0.2.jar modules/core/target/synapse-core-3.0.2.jar
+# diffoscope target/reference/synapse-core-3.0.2-test-lib.zip modules/core/target/synapse-test-lib.zip
+# diffoscope target/reference/synapse-core-3.0.2-eiptest-lib.zip modules/core/target/synapse-eiptest-lib.zip
+# diffoscope target/reference/synapse-core-3.0.2-eipcore-lib.zip modules/core/target/synapse-eipcore-lib.zip
+# diffoscope target/reference/synapse-core-3.0.2-tests.jar modules/core/target/synapse-core-3.0.2-tests.jar
+# diffoscope target/reference/synapse-extensions-3.0.2.jar modules/extensions/target/synapse-extensions-3.0.2.jar
+# diffoscope target/reference/synapse-samples-3.0.2.jar modules/samples/target/synapse-samples-3.0.2.jar
+# diffoscope target/reference/synapse-patches-3.0.2.jar modules/patches/target/synapse-patches-3.0.2.jar
+# diffoscope target/reference/synapse-patches-3.0.2-jars.zip modules/patches/target/synapse-patches-3.0.2-jars.zip
+# diffoscope target/reference/synapse-experimental-3.0.2.jar modules/experimental/target/synapse-experimental-3.0.2.jar
+# diffoscope target/reference/synapse-documentation-3.0.2-docs.zip modules/documentation/target/synapse-documentation-3.0.2-docs.zip
+# diffoscope target/reference/synapse-war-3.0.2.war war
+# diffoscope target/reference/synapse-handler-3.0.2.jar modules/handler/target/synapse-handler-3.0.2.jar
+# diffoscope target/reference/synapse-handler-3.0.2.mar modules/handler/target/synapse-handler-3.0.2.mar
+# diffoscope target/reference/synapse-xar-maven-plugin-3.0.2.jar modules/xar-maven-plugin/target/synapse-xar-maven-plugin-3.0.2.jar
+# diffoscope target/reference/synapse-config-migrator-3.0.2.jar modules/migrator/target/synapse-config-migrator-3.0.2.jar
+# diffoscope target/reference/synapse-distribution-3.0.2-bin.tar.gz modules/distribution/target/synapse-3.0.2-bin.tar.gz
+# diffoscope target/reference/synapse-distribution-3.0.2-bin.zip modules/distribution/target/synapse-3.0.2-bin.zip
+# diffoscope target/reference/synapse-distribution-3.0.2-src.tar.gz modules/distribution/target/synapse-3.0.2-src.tar.gz
+# diffoscope target/reference/synapse-distribution-3.0.2-src.zip modules/distribution/target/synapse-3.0.2-src.zip
+# diffoscope target/reference/synapse-package-skeleton-3.0.2-skeleton.zip modules/packaging/package-skeleton/target/synapse-package-skeleton-3.0.2-skeleton.zip
+# diffoscope target/reference/synapse-package-archetype-3.0.2.jar modules/packaging/package-archetype/target/synapse-package-archetype-3.0.2.jar
+# diffoscope target/reference/synapse-integration-3.0.2.jar modules/integration/target/synapse-integration-3.0.2.jar

@@ -1,0 +1,25 @@
+version=2.5.1
+ok=46
+ko=18
+okFiles="ratis-2.5.1.pom ratis-docs-2.5.1.pom ratis-docs-2.5.1-sources.jar ratis-docs-2.5.1-tests.jar ratis-proto-2.5.1.pom ratis-proto-2.5.1-sources.jar ratis-proto-2.5.1-tests.jar ratis-common-2.5.1.pom ratis-common-2.5.1-sources.jar ratis-common-2.5.1-tests.jar ratis-client-2.5.1.pom ratis-client-2.5.1-sources.jar ratis-client-2.5.1-tests.jar ratis-server-api-2.5.1.pom ratis-server-api-2.5.1-sources.jar ratis-server-api-2.5.1-tests.jar ratis-metrics-2.5.1.pom ratis-metrics-2.5.1-sources.jar ratis-metrics-2.5.1-tests.jar ratis-server-2.5.1.pom ratis-server-2.5.1-sources.jar ratis-server-2.5.1-tests.jar ratis-resource-bundle-2.5.1.pom ratis-resource-bundle-2.5.1-sources.jar ratis-grpc-2.5.1.pom ratis-grpc-2.5.1-sources.jar ratis-grpc-2.5.1-tests.jar ratis-netty-2.5.1.pom ratis-netty-2.5.1-sources.jar ratis-netty-2.5.1-tests.jar ratis-shell-2.5.1.pom ratis-shell-2.5.1-sources.jar ratis-shell-2.5.1-tests.jar ratis-test-2.5.1.pom ratis-test-2.5.1-sources.jar ratis-test-2.5.1-tests.jar ratis-tools-2.5.1.pom ratis-tools-2.5.1-sources.jar ratis-tools-2.5.1-tests.jar ratis-examples-2.5.1.pom ratis-examples-2.5.1-sources.jar ratis-examples-2.5.1-tests.jar ratis-replicated-map-2.5.1.pom ratis-replicated-map-2.5.1-sources.jar ratis-replicated-map-2.5.1-tests.jar ratis-assembly-2.5.1.pom"
+koFiles="ratis-docs-2.5.1.jar ratis-proto-2.5.1.jar ratis-common-2.5.1.jar ratis-client-2.5.1.jar ratis-server-api-2.5.1.jar ratis-metrics-2.5.1.jar ratis-server-2.5.1.jar ratis-resource-bundle-2.5.1.jar ratis-grpc-2.5.1.jar ratis-netty-2.5.1.jar ratis-shell-2.5.1.jar ratis-test-2.5.1.jar ratis-tools-2.5.1.jar ratis-examples-2.5.1.jar ratis-examples-2.5.1-shaded.jar ratis-replicated-map-2.5.1.jar ratis-assembly-2.5.1.pom ratis-assembly-2.5.1.tar.gz"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/ratis-docs-2.5.1.jar ratis-docs/target/ratis-docs-2.5.1.jar
+# diffoscope target/reference/ratis-proto-2.5.1.jar ratis-proto/target/ratis-proto-2.5.1.jar
+# diffoscope target/reference/ratis-common-2.5.1.jar ratis-common/target/ratis-common-2.5.1.jar
+# diffoscope target/reference/ratis-client-2.5.1.jar ratis-client/target/ratis-client-2.5.1.jar
+# diffoscope target/reference/ratis-server-api-2.5.1.jar ratis-server-api/target/ratis-server-api-2.5.1.jar
+# diffoscope target/reference/ratis-metrics-2.5.1.jar ratis-metrics/target/ratis-metrics-2.5.1.jar
+# diffoscope target/reference/ratis-server-2.5.1.jar ratis-server/target/ratis-server-2.5.1.jar
+# diffoscope target/reference/ratis-resource-bundle-2.5.1.jar ratis-resource-bundle/target/ratis-resource-bundle-2.5.1.jar
+# diffoscope target/reference/ratis-grpc-2.5.1.jar ratis-grpc/target/ratis-grpc-2.5.1.jar
+# diffoscope target/reference/ratis-netty-2.5.1.jar ratis-netty/target/ratis-netty-2.5.1.jar
+# diffoscope target/reference/ratis-shell-2.5.1.jar ratis-shell/target/ratis-shell-2.5.1.jar
+# diffoscope target/reference/ratis-test-2.5.1.jar ratis-test/target/ratis-test-2.5.1.jar
+# diffoscope target/reference/ratis-tools-2.5.1.jar ratis-tools/target/ratis-tools-2.5.1.jar
+# diffoscope target/reference/ratis-examples-2.5.1.jar ratis-examples/target/ratis-examples-2.5.1.jar
+# diffoscope target/reference/ratis-examples-2.5.1-shaded.jar ratis-examples/target/ratis-examples-2.5.1-shaded.jar
+# diffoscope target/reference/ratis-replicated-map-2.5.1.jar ratis-replicated-map/target/ratis-replicated-map-2.5.1.jar
+# diffoscope target/reference/ratis-assembly-2.5.1.pom ratis-assembly/target/ratis-assembly-2.5.1.jar
+# diffoscope target/reference/ratis-assembly-2.5.1.tar.gz ratis-assembly/target/apache-ratis-2.5.1-src.tar.gz

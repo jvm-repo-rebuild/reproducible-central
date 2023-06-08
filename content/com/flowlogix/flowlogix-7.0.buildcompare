@@ -1,0 +1,8 @@
+version=7.0
+ok=11
+ko=1
+okFiles="flowlogix-7.0.pom flowlogix-bom-7.0.pom jakarta-ee-7.0.pom flowlogix-jee-7.0.pom flowlogix-jee-7.0.jar flowlogix-jee-7.0-tests.jar flowlogix-datamodel-7.0.pom flowlogix-datamodel-7.0.jar flowlogix-datamodel-7.0-tests.jar jee-examples-7.0.pom jee-examples-7.0-tests.jar"
+koFiles="jee-examples-7.0.war"
+reference_java_version="20 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/jee-examples-7.0.war jakarta-ee/jee-examples/target/jee-examples-7.0.war

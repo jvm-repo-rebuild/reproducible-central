@@ -1,0 +1,100 @@
+# uhhhhh WTF?
+# for jackson-core-2.15.1.jar:
+# - reference module.json from Maven Central says sha512=131db9ac09350b00ff1f8354c76d99b41cf7cda540e4c71b4495abab43194c585d8a8f6e2f20c240224f290e6eb75f4d819cf470a3d987e5578db75dcf57915e
+# - rebuilt module.json here says sha512=e4e447f2a8396b88b76836b4054093f3d3719a592d4f2bc48b2ad9d20e06917392caa8f3203bee1ccae6ccf9cd50b68c1295d48f5df4936a20e797d6cf9d3516
+# - buildinfo says it is reproducible and sha512=41e4550fccddf526d60dc17a639b20db1c33a004a67aeba2f515db0793e093713f661178d314c02236c56869977041af055e914b01ea32f5c6313ced77d95481
+#
+# looking at build log
+[INFO] --- moditect-maven-plugin:1.0.0.Final:add-module-info (add-module-infos) @ jackson-core ---
+[INFO] 
+[INFO] --- gradle-module-metadata-maven-plugin:0.4.0:gmm (default) @ jackson-core ---
+[INFO] 
+[INFO] --- maven-shade-plugin:3.4.1:shade (shade-jackson-core) @ jackson-core ---
+...
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /var/maven/app/target/jackson-core-2.15.1.jar with /var/maven/app/target/jackson-core-2.15.1-shaded.jar
+# sha512sum original-jackson-core-2.15.1.jar = e4e447f2a8396b88b76836b4054093f3d3719a592d4f2bc48b2ad9d20e06917392caa8f3203bee1ccae6ccf9cd50b68c1295d48f5df4936a20e797d6cf9d3516
+# like rebuilt module.json
+# need to switch order between shade and gmm goals
+# still no explanation why the value in reference module.json is different
+
+# and of course, reference module.json has a wrong content...
+
+1 / 1 target/reference/jackson-core-2.15.1.module target/publications/maven/module.json
+--- target/reference/jackson-core-2.15.1.module
++++ target/publications/maven/module.json
+├── Pretty-printed
+│┄ Similarity: 0.9642857142857143%
+│┄ Differences: {"'createdBy'": "{'maven': {'version': '3.8.6'}}",
+│┄  "'variants'": "{0: {'files': {0: {'sha512': "
+│┄                "'e4e447f2a8396b88b76836b4054093f3d3719a592d4f2bc48b2ad9d20e06917392caa8f3203bee1ccae6ccf9cd50b68c1295d48f5df4936a20e797d6cf9d3516', "
+│┄                "'sha256': 'd2d0321f2b62494d950398a249cb20745e313b6072b83bf438744d3f8db23135', "
+│┄                "'sha1': '5bc35350d341d9506870dcf92b4cada8ae0f69ee', 'md5': "
+│┄                "'a31d8e66c63172da874c7714525c2768'}}}, 1: {'files': {0: {'sha512': "
+│┄        […]
+│ @@ -5,15 +5,15 @@
+│          },
+│          "group": "com.fasterxml.jackson.core",
+│          "module": "jackson-core",
+│          "version": "2.15.1"
+│      },
+│      "createdBy": {
+│          "maven": {
+│ -            "version": "3.9.0"
+│ +            "version": "3.8.6"
+│          }
+│      },
+│      "formatVersion": "1.1",
+│      "variants": [
+│          {
+│              "attributes": {
+│                  "org.gradle.category": "library",
+│ @@ -32,19 +32,19 @@
+│                      "version": {
+│                          "requires": "2.15.1"
+│                      }
+│                  }
+│              ],
+│              "files": [
+│                  {
+│ -                    "md5": "a01d167430c8ccd5635ce0a74c5a7e30",
+│ +                    "md5": "a31d8e66c63172da874c7714525c2768",
+│                      "name": "jackson-core-2.15.1.jar",
+│ -                    "sha1": "5fd0208814e3537cc561f449f773a64d6a7171",
+│ -                    "sha256": "291dbca0ad22a9e155e2be8d82535f0b837854a4609169749edcd4fb0fd99d26",
+│ -                    "sha512": "131db9ac09350b00ff1f8354c76d99b41cf7cda540e4c71b4495abab43194c585d8a8f6e2f20c240224f290e6eb75f4d819cf470a3d987e5578db75dcf57915e",
+│ +                    "sha1": "5bc35350d341d9506870dcf92b4cada8ae0f69ee",
+│ +                    "sha256": "d2d0321f2b62494d950398a249cb20745e313b6072b83bf438744d3f8db23135",
+│ +                    "sha512": "e4e447f2a8396b88b76836b4054093f3d3719a592d4f2bc48b2ad9d20e06917392caa8f3203bee1ccae6ccf9cd50b68c1295d48f5df4936a20e797d6cf9d3516",
+│                      "size": 425567,
+│                      "url": "jackson-core-2.15.1.jar"
+│                  }
+│              ],
+│              "name": "apiElements"
+│          },
+│          {
+│ @@ -65,19 +65,19 @@
+│                      "version": {
+│                          "requires": "2.15.1"
+│                      }
+│                  }
+│              ],
+│              "files": [
+│                  {
+│ -                    "md5": "a01d167430c8ccd5635ce0a74c5a7e30",
+│ +                    "md5": "a31d8e66c63172da874c7714525c2768",
+│                      "name": "jackson-core-2.15.1.jar",
+│ -                    "sha1": "5fd0208814e3537cc561f449f773a64d6a7171",
+│ -                    "sha256": "291dbca0ad22a9e155e2be8d82535f0b837854a4609169749edcd4fb0fd99d26",
+│ -                    "sha512": "131db9ac09350b00ff1f8354c76d99b41cf7cda540e4c71b4495abab43194c585d8a8f6e2f20c240224f290e6eb75f4d819cf470a3d987e5578db75dcf57915e",
+│ +                    "sha1": "5bc35350d341d9506870dcf92b4cada8ae0f69ee",
+│ +                    "sha256": "d2d0321f2b62494d950398a249cb20745e313b6072b83bf438744d3f8db23135",
+│ +                    "sha512": "e4e447f2a8396b88b76836b4054093f3d3719a592d4f2bc48b2ad9d20e06917392caa8f3203bee1ccae6ccf9cd50b68c1295d48f5df4936a20e797d6cf9d3516",
+│                      "size": 425567,
+│                      "url": "jackson-core-2.15.1.jar"
+│                  }
+│              ],
+│              "name": "runtimeElements"
+│          }
+│      ]
+

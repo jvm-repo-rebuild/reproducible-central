@@ -133,12 +133,16 @@ rebuilding **9 releases** of org.apache.dubbo:dubbo:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.2.2](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.2/pom) | | | |
+| [3.2.1](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.1/pom) | | | |
+| [3.2.0](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0/pom) | | | |
 | [3.2.0-beta.6](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0-beta.6/pom) | | | |
 | [3.2.0-beta.5](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0-beta.5/pom) | | | |
 | [3.2.0-beta.4](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0-beta.4/pom) | | | |
 | [3.2.0-beta.3](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0-beta.3/pom) | | | |
 | [3.2.0-beta.2](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0-beta.2/pom) | | | |
 | [3.2.0-beta.1](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0-beta.1/pom) | | | |
+| [3.1.10](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.10/pom) | | | |
 | [3.1.9](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.9/pom) | [mvn jdk8](dubbo-3.1.9.buildspec) | [result](dubbo-parent-3.1.9.buildinfo): [190 :heavy_check_mark:  5 :warning:](dubbo-parent-3.1.9.buildcompare) [:mag:](dubbo-parent-3.1.9.diffoscope) | 22M |
 | [3.1.8](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.8/pom) | | | |
 | [3.1.7](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.7/pom) | | | |
@@ -149,6 +153,7 @@ rebuilding **9 releases** of org.apache.dubbo:dubbo:
 | [3.1.2](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.2/pom) | [mvn jdk8](dubbo-3.1.2.buildspec) | [result](dubbo-parent-3.1.2.buildinfo): [189 :heavy_check_mark:  6 :warning:](dubbo-parent-3.1.2.buildcompare) [:mag:](dubbo-parent-3.1.2.diffoscope) | 24M |
 | [3.1.1](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.1/pom) | | | |
 | [3.1.0](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.0/pom) | [mvn jdk8](dubbo-3.1.0.buildspec) | [result](dubbo-parent-3.1.0.buildinfo): [178 :heavy_check_mark:  14 :warning:](dubbo-parent-3.1.0.buildcompare) [:mag:](dubbo-parent-3.1.0.diffoscope) [:memo:](https://github.com/apache/dubbo/pull/10700) | 24M |
+| [3.0.15](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.15/pom) | | | |
 | [3.0.14](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.14/pom) | | | |
 | [3.0.13](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.13/pom) | | | |
 | [3.0.12](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.12/pom) | | | |
@@ -166,6 +171,7 @@ rebuilding **9 releases** of org.apache.dubbo:dubbo:
 | [3.0.1](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.1/pom) | | | |
 | [3.0.0.preview](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.0.preview/pom) | | | |
 | [3.0.0](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.0.0/pom) | | | |
+| [2.7.23](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.23/pom) | | | |
 | [2.7.22](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.22/pom) | | | |
 | [2.7.21](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.21/pom) | | | |
 | [2.7.20](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/2.7.20/pom) | | | |

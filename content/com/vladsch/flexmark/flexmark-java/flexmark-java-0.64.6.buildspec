@@ -1,0 +1,16 @@
+groupId=com.vladsch.flexmark
+artifactId=flexmark-java
+display=${groupId}:${artifactId}
+version=0.64.6
+
+gitRepo=https://github.com/vsch/${artifactId}.git
+gitTag=${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn -Pdeploy clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildinfo.detect.skip=false"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=

@@ -13,8 +13,10 @@
 # limitations under the License.
 #
 
-# rebuild with Gradle tool (tool=gradle)
+# rebuild with Gradle tool (tool=gradle) and generate .buildinfo and .buildcompare files
 rebuildToolGradle() {
+
+  ### 1. rebuild
   local jdkImage
   case ${jdk} in
     11)
@@ -26,12 +28,18 @@ rebuildToolGradle() {
   [ -d central ] && \rm -rf central
   [ -d repository ] && \rm -rf repository
 
-  local docker_command="docker run -it --rm --name rebuild-central -v $PWD:/var/gradle/app -v $PWD:/var/gradle/.m2 -v $base/.sbt:/var/gradle/.sbt -v $base/.bnd:/.bnd -u $(id -u ${USER}):$(id -g ${USER}) -e MAVEN_CONFIG=/var/gradle/.m2 -w /var/gradle/app"
+  local docker_command="docker run -it --rm --name rebuild-central\
+    -v $PWD:/var/gradle/app -v $PWD:/var/gradle/.m2 -v $base/.sbt:/var/gradle/.sbt -v $base/.bnd:/.bnd\
+    -u $(id -u ${USER}):$(id -g ${USER})\
+    -e MAVEN_CONFIG=/var/gradle/.m2\
+    -w /var/gradle/app"
   local gradle_docker_params="-Duser.home=/var/gradle"
   runcommand ${docker_command} ${jdkImage} ${command} ${gradle_docker_params}
 
+  ### 2. generate .buildinfo and .buildcompare files
   buildcompare="$(basename ${buildinfo} .buildinfo).buildcompare"
-  info "computing ${buildinfo} and ${buildcompare}"
+  info "computing ${buildinfo} and ${buildcompare} from content in repository/ directory"
+
   echo "name=${display}" > ${buildinfo}
   echo "group-id=${groupId}" >> ${buildinfo}
   echo "artifact-id=${artifactId}" >> ${buildinfo}
@@ -45,6 +53,7 @@ rebuildToolGradle() {
   local koFiles=()
   local n=0
   local i=0
+  # look for .pom files in repository/ to detect GAV directory
   for pom in $(find repository -type f -name "*.pom" | cut -c 12- | sort)
   do
     ((n++))
@@ -57,8 +66,10 @@ rebuildToolGradle() {
     echo >> ${buildinfo}
 
     i=0
+    # look for artifacts in GAV directory (skip -javadoc.jar)
     for f in `find repository/$d -maxdepth 1 -type f | grep -v "\-javadoc.jar" | cut -c 12- | sort`
     do
+      # fetch reference file from Maven Central to central/
       wget -q https://repo.maven.apache.org/maven2/$f -O central/$f
 
       echo "outputs.${n}.${i}.filename=$(basename $f)" >> ${buildinfo}

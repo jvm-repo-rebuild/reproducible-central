@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=resolver-proxy-maven-plugin
+group-id=com.github.veithen.maven
+artifact-id=resolver-proxy-maven-plugin
+version=0.4.1
+
+# source information
+source.scm.uri=scm:git:http://github.com/veithen/resolver-proxy-maven-plugin.git
+source.scm.tag=0.4.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=resolver-proxy-maven-plugin-0.4.1.pom
+outputs.0.length=6017
+outputs.0.checksums.sha512=075bee8ae4df01a045da3d4c172c919e5f42a25da3ca4c0c2797327a713b7bf95425d17b6ba16124e5bfe552f260187c4832078ce69e04199a1eb0f8459add74
+
+outputs.1.filename=resolver-proxy-maven-plugin-0.4.1.jar
+outputs.1.length=19748
+outputs.1.checksums.sha512=34a5c2fbc47838836cd5dbbe5c8ed6a8bec479a5ad7209015ef9d8b2bb9a79093a4fd7df1094a75f8b1460ba8222d0ff9eefd95db4e7af37cde3121479dfaa26
+
+outputs.2.filename=resolver-proxy-maven-plugin-0.4.1-sources.jar
+outputs.2.length=12661
+outputs.2.checksums.sha512=3038b9067b353258b6b7adab869022e3b7df96ed643222f6450452c69753a259f006dd9e56e6555ec1cbadabf92a40f233a8d05f06eb23bffe0c1d41ae640a1b
+
+outputs.3.filename=resolver-proxy-maven-plugin-0.4.1-source-release.zip
+outputs.3.length=36168
+outputs.3.checksums.sha512=fe46cc222a3bb8f45b00fbf41a4efdae5ea634029053921dbf23728e1593f05ae1bc56a06f64a28033ff3fc00741939dea01957a5f5528a65bc4ace9218dc8a5

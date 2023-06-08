@@ -1,0 +1,7 @@
+version=5.1.9
+ok=5
+ko=0
+okFiles="maven-bundle-plugin-5.1.9.pom maven-bundle-plugin-5.1.9.jar maven-bundle-plugin-5.1.9-source-release.zip maven-bundle-plugin-5.1.9-source-release.tar.gz maven-bundle-plugin-5.1.9-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

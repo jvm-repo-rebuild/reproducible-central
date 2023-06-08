@@ -1,0 +1,35 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=sigstore Maven Plugin
+group-id=io.github.hboutemy
+artifact-id=sigstore-maven-plugin
+version=1.0.0-beta-3
+
+# source information
+source.scm.uri=scm:git:https://github.com/hboutemy/sigstore-maven-plugin.git
+source.scm.tag=sigstore-maven-plugin-1.0.0-beta-3
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.8.4
+
+# output
+
+outputs.0.filename=sigstore-maven-plugin-1.0.0-beta-3.pom
+outputs.0.length=14973
+outputs.0.checksums.sha512=869c92c4a2c21794be08b3c1d42a7c598a5dd36b3360baa956181b43f8512627ec5fb2876fc3c6e502e43320f8cb90c98bed735b7350d49c4d35c50113a073e7
+
+outputs.1.filename=sigstore-maven-plugin-1.0.0-beta-3.jar
+outputs.1.length=30228
+outputs.1.checksums.sha512=24c669f3000f0ba58b23844d08339c95bd36f842f8e5fbee0a6afcbc70f92079d32610a87d5ddce319c6dd88d67b0c4d9c41233b6670ec9783d8d7541f7b84da
+
+outputs.2.filename=sigstore-maven-plugin-1.0.0-beta-3-sources.jar
+outputs.2.length=16609
+outputs.2.checksums.sha512=cdb3fc0284ab295aff9354a934283856e894ccc549be03c5e87c795c9d54ea5851cda331308237024d6108dae1cf4e4b23906c1665fa1cac2c0242eb46c19c27

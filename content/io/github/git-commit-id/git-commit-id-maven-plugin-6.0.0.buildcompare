@@ -1,0 +1,8 @@
+version=6.0.0
+ok=2
+ko=1
+okFiles="git-commit-id-maven-plugin-6.0.0.pom git-commit-id-maven-plugin-6.0.0.jar"
+koFiles="git-commit-id-maven-plugin-6.0.0-sources.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/git-commit-id-maven-plugin-6.0.0-sources.jar target/git-commit-id-maven-plugin-6.0.0-sources.jar

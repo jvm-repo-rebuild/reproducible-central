@@ -1,0 +1,7 @@
+version=2.1.0
+ok=5
+ko=0
+okFiles="license-maven-plugin-2.1.0.pom license-maven-plugin-2.1.0.jar license-maven-plugin-2.1.0-third-party.properties license-maven-plugin-2.1.0-source-release.zip license-maven-plugin-2.1.0-sources.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

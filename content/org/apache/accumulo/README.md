@@ -47,6 +47,7 @@ rebuilding **4 releases** of org.apache.accumulo:accumulo:
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.accumulo/accumulo/2.0.0/pom) | | | |
 | [2.0.0-alpha-2](https://central.sonatype.com/artifact/org.apache.accumulo/accumulo/2.0.0-alpha-2/pom) | | | |
 | [2.0.0-alpha-1](https://central.sonatype.com/artifact/org.apache.accumulo/accumulo/2.0.0-alpha-1/pom) | | | |
+| [1.10.3](https://central.sonatype.com/artifact/org.apache.accumulo/accumulo/1.10.3/pom) | | | |
 | [1.10.2](https://central.sonatype.com/artifact/org.apache.accumulo/accumulo/1.10.2/pom) | [mvn jdk11](accumulo-1.10.2.buildspec) | [result](accumulo-project-1.10.2.buildinfo): [57 :heavy_check_mark:  3 :warning:](accumulo-project-1.10.2.buildcompare) [:mag:](accumulo-project-1.10.2.diffoscope) | 45M |
 | [1.10.1](https://central.sonatype.com/artifact/org.apache.accumulo/accumulo/1.10.1/pom) | [mvn jdk11](accumulo-1.10.1.buildspec) | [result](accumulo-maven-plugin-1.10.1.buildinfo): [36 :heavy_check_mark:  3 :warning:](accumulo-maven-plugin-1.10.1.buildcompare) | 45M |
 | [1.10.0](https://central.sonatype.com/artifact/org.apache.accumulo/accumulo/1.10.0/pom) | [mvn jdk11](accumulo-1.10.0.buildspec) | [result](accumulo-maven-plugin-1.10.0.buildinfo): [36 :heavy_check_mark:  3 :warning:](accumulo-maven-plugin-1.10.0.buildcompare) | 45M |

@@ -1,0 +1,5 @@
+version=23.00
+ok=2
+ko=0
+okFiles="7zip-23.00.pom 7zip-23.00-installer.tar.gz"
+koFiles=""

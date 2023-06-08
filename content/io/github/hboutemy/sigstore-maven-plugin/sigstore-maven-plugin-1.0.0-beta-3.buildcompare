@@ -1,0 +1,7 @@
+version=1.0.0-beta-3
+ok=3
+ko=0
+okFiles="sigstore-maven-plugin-1.0.0-beta-3.pom sigstore-maven-plugin-1.0.0-beta-3.jar sigstore-maven-plugin-1.0.0-beta-3-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

@@ -1,62 +1,69 @@
-[net.sourceforge.pmd:pmd](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.55.0/versions) RB check
+[net.sourceforge.pmd:pmd](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.0.0-rc3/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [net.sourceforge.pmd:pmd](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.55.0/versions)
+## Project: [net.sourceforge.pmd:pmd](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.0.0-rc3/versions)
 
 Source code: [https://github.com/pmd/pmd.git](https://github.com/pmd/pmd.git)
 
-<details><summary>This project defines 40 modules:</summary>
+<details><summary>This project defines 45 modules:</summary>
 
-* [net.sourceforge.pmd:pmd](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.55.0)
-* [net.sourceforge.pmd:pmd-apex](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-apex/6.55.0)
-* [net.sourceforge.pmd:pmd-apex-jorje](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-apex-jorje/6.55.0)
-* [net.sourceforge.pmd:pmd-core](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-core/6.55.0)
-* [net.sourceforge.pmd:pmd-cpp](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-cpp/6.55.0)
-* [net.sourceforge.pmd:pmd-cs](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-cs/6.55.0)
-* [net.sourceforge.pmd:pmd-dart](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-dart/6.55.0)
-* [net.sourceforge.pmd:pmd-dist](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-dist/6.55.0)
-* [net.sourceforge.pmd:pmd-doc](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-doc/6.55.0)
-* [net.sourceforge.pmd:pmd-fortran](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-fortran/6.55.0)
-* [net.sourceforge.pmd:pmd-gherkin](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-gherkin/6.55.0)
-* [net.sourceforge.pmd:pmd-go](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-go/6.55.0)
-* [net.sourceforge.pmd:pmd-groovy](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-groovy/6.55.0)
-* [net.sourceforge.pmd:pmd-html](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-html/6.55.0)
-* [net.sourceforge.pmd:pmd-java](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-java/6.55.0)
-* [net.sourceforge.pmd:pmd-java8](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-java8/6.55.0)
-* [net.sourceforge.pmd:pmd-javascript](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-javascript/6.55.0)
-* [net.sourceforge.pmd:pmd-jsp](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-jsp/6.55.0)
-* [net.sourceforge.pmd:pmd-kotlin](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-kotlin/6.55.0)
-* [net.sourceforge.pmd:pmd-lang-test](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-lang-test/6.55.0)
-* [net.sourceforge.pmd:pmd-lua](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-lua/6.55.0)
-* [net.sourceforge.pmd:pmd-matlab](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-matlab/6.55.0)
-* [net.sourceforge.pmd:pmd-modelica](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-modelica/6.55.0)
-* [net.sourceforge.pmd:pmd-objectivec](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-objectivec/6.55.0)
-* [net.sourceforge.pmd:pmd-perl](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-perl/6.55.0)
-* [net.sourceforge.pmd:pmd-php](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-php/6.55.0)
-* [net.sourceforge.pmd:pmd-plsql](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-plsql/6.55.0)
-* [net.sourceforge.pmd:pmd-python](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-python/6.55.0)
-* [net.sourceforge.pmd:pmd-ruby](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-ruby/6.55.0)
-* [net.sourceforge.pmd:pmd-scala](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-scala/6.55.0)
-* [net.sourceforge.pmd:pmd-scala-common](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-scala-common/6.55.0)
-* [net.sourceforge.pmd:pmd-scala_2.12](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-scala_2.12/6.55.0)
-* [net.sourceforge.pmd:pmd-scala_2.13](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-scala_2.13/6.55.0)
-* [net.sourceforge.pmd:pmd-swift](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-swift/6.55.0)
-* [net.sourceforge.pmd:pmd-test](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-test/6.55.0)
-* [net.sourceforge.pmd:pmd-test-schema](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-test-schema/6.55.0)
-* [net.sourceforge.pmd:pmd-tsql](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-tsql/6.55.0)
-* [net.sourceforge.pmd:pmd-visualforce](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-visualforce/6.55.0)
-* [net.sourceforge.pmd:pmd-vm](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-vm/6.55.0)
-* [net.sourceforge.pmd:pmd-xml](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-xml/6.55.0)
+* [net.sourceforge.pmd:pmd](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-ant](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-ant/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-apex](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-apex/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-apex-jorje](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-apex-jorje/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-cli](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-cli/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-coco](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-coco/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-core](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-core/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-cpp](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-cpp/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-cs](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-cs/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-dart](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-dart/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-dist](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-dist/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-doc](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-doc/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-fortran](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-fortran/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-gherkin](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-gherkin/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-go](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-go/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-groovy](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-groovy/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-html](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-html/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-java](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-java/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-java8](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-java8/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-javascript](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-javascript/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-jsp](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-jsp/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-julia](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-julia/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-kotlin](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-kotlin/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-lang-test](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-lang-test/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-languages-deps](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-languages-deps/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-lua](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-lua/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-matlab](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-matlab/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-modelica](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-modelica/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-objectivec](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-objectivec/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-perl](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-perl/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-php](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-php/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-plsql](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-plsql/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-python](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-python/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-ruby](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-ruby/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-scala](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-scala/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-scala-common](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-scala-common/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-scala_2.12](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-scala_2.12/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-scala_2.13](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-scala_2.13/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-swift](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-swift/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-test](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-test/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-test-schema](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-test-schema/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-tsql](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-tsql/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-visualforce](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-visualforce/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-vm](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-vm/7.0.0-rc3)
+* [net.sourceforge.pmd:pmd-xml](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd-xml/7.0.0-rc3)
 </details>
 
-rebuilding **32 releases** of net.sourceforge.pmd:pmd:
+rebuilding **34 releases** of net.sourceforge.pmd:pmd:
 - **31** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [7.0.0-rc3](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.0.0-rc3/pom) | [mvn jdk11](pmd-7.0.0-rc3.buildspec) | [result](pmd-7.0.0-rc3.buildinfo): [124 :heavy_check_mark:  1 :warning:](pmd-7.0.0-rc3.buildcompare) [:mag:](pmd-7.0.0-rc3.diffoscope) | 18M |
+| [7.0.0-rc2](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.0.0-rc2/pom) | [mvn jdk11](pmd-7.0.0-rc2.buildspec) | [result](pmd-7.0.0-rc2.buildinfo): [121 :heavy_check_mark:  1 :warning:](pmd-7.0.0-rc2.buildcompare) [:mag:](pmd-7.0.0-rc2.diffoscope) | 18M |
 | [7.0.0-rc1](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/7.0.0-rc1/pom) | | | |
 | [6.55.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.55.0/pom) | [mvn jdk11](pmd-6.55.0.buildspec) | [result](pmd-6.55.0.buildinfo): [112 :heavy_check_mark: ](pmd-6.55.0.buildcompare) | 17M |
 | [6.54.0](https://central.sonatype.com/artifact/net.sourceforge.pmd/pmd/6.54.0/pom) | [mvn jdk11](pmd-6.54.0.buildspec) | [result](pmd-6.54.0.buildinfo): [109 :heavy_check_mark: ](pmd-6.54.0.buildcompare) | 17M |

@@ -1,0 +1,43 @@
+1 / 18 target/reference/ratis-docs-2.5.1.jar ratis-docs/target/ratis-docs-2.5.1.jar
+--- target/reference/ratis-docs-2.5.1.jar
++++ ratis-docs/target/ratis-docs-2.5.1.jar
+├── zipinfo {}
+│ @@ -1,13 +1,13 @@
+│ -Zip file size: 6651 bytes, number of entries: 11
+│ +Zip file size: 6652 bytes, number of entries: 11
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-27 18:11 META-INF/
+│  -rw-r--r--  2.0 unx      349 b- defN 23-Apr-27 18:11 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-27 18:11 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-27 18:11 META-INF/maven/org.apache.ratis/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-27 18:11 META-INF/maven/org.apache.ratis/ratis-docs/
+│  -rw-r--r--  2.0 unx      276 b- defN 23-Apr-27 18:11 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 23-Apr-27 18:11 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      183 b- defN 23-Apr-27 18:11 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx      191 b- defN 23-Apr-27 18:11 ratis-version.properties
+│ +-rw-r--r--  2.0 unx      190 b- defN 23-Apr-27 18:11 ratis-version.properties
+│  -rw-r--r--  2.0 unx     1128 b- defN 23-Apr-27 18:11 META-INF/maven/org.apache.ratis/ratis-docs/pom.xml
+│  -rw-r--r--  2.0 unx       61 b- defN 23-Apr-27 18:11 META-INF/maven/org.apache.ratis/ratis-docs/pom.properties
+│ -11 files, 13546 bytes uncompressed, 5189 bytes compressed:  61.7%
+│ +11 files, 13545 bytes uncompressed, 5190 bytes compressed:  61.7%
+├── ratis-version.properties
+│ @@ -1,6 +1,6 @@
+│  #Created by build system. Do not modify
+│ -#Thu Apr 27 20:19:20 CEST 2023
+│ +#Sat May 06 09:43:29 UTC 2023
+│  version=2.5.1
+│  revision=77640a3a1d012d0225d26a5a52b38fb80bb9fe44
+│  name=Apache Ratis Documentation
+│ -timestamp=1682619560286
+│ +timestamp=1683366209384
+
+...
+
+17 / 18 target/reference/ratis-assembly-2.5.1.pom ratis-assembly/target/ratis-assembly-2.5.1.jar
+--- target/reference/ratis-assembly-2.5.1.pom
++++ ratis-assembly/target/ratis-assembly-2.5.1.jar
+...
+
+18 / 18 target/reference/ratis-assembly-2.5.1.tar.gz ratis-assembly/target/apache-ratis-2.5.1-src.tar.gz
+--- target/reference/ratis-assembly-2.5.1.tar.gz
++++ ratis-assembly/target/apache-ratis-2.5.1-src.tar.gz
+...

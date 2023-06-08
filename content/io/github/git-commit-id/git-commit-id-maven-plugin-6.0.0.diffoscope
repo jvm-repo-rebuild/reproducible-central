@@ -1,0 +1,139 @@
+1 / 1 target/reference/git-commit-id-maven-plugin-6.0.0-sources.jar target/git-commit-id-maven-plugin-6.0.0-sources.jar
+--- target/reference/git-commit-id-maven-plugin-6.0.0-sources.jar
++++ target/git-commit-id-maven-plugin-6.0.0-sources.jar
+├── zipinfo {}
+│ @@ -1,19 +1,24 @@
+│ -Zip file size: 27782 bytes, number of entries: 17
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-May-16 20:17 META-INF/
+│ --rw-r--r--  2.0 unx      124 b- defN 23-May-16 20:17 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-May-16 20:16 pl/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-May-16 20:16 pl/project13/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-May-16 20:16 pl/project13/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-May-16 20:16 pl/project13/maven/validation/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-May-16 20:16 pl/project13/maven/git/
+│ --rw-r--r--  2.0 unx     3739 b- defN 23-May-16 20:16 pl/project13/maven/validation/ValidationMojo.java
+│ --rw-r--r--  2.0 unx     1575 b- defN 23-May-16 20:16 pl/project13/maven/validation/ValidationProperty.java
+│ --rw-r--r--  2.0 unx     5581 b- defN 23-May-16 20:16 pl/project13/maven/git/GitDirLocator.java
+│ --rw-r--r--  2.0 unx     8185 b- defN 23-May-16 20:16 pl/project13/maven/git/ReplacementProperty.java
+│ --rw-r--r--  2.0 unx     3850 b- defN 23-May-16 20:16 pl/project13/maven/git/TransformationRule.java
+│ --rw-r--r--  2.0 unx     6916 b- defN 23-May-16 20:16 pl/project13/maven/git/PropertiesReplacer.java
+│ --rw-r--r--  2.0 unx    61799 b- defN 23-May-16 20:16 pl/project13/maven/git/GitCommitIdMojo.java
+│ --rw-r--r--  2.0 unx       39 b- defN 23-May-16 20:16 git-commit-id.properties
+│ -?rwsrwsrwt  2.0 unx        0 b- stor 23-May-16 20:17 META-INF/m2e/
+│ --rw-r--r--  2.0 unx      397 b- defN 23-May-16 20:16 META-INF/m2e/lifecycle-mapping-metadata.xml
+│ -17 files, 92205 bytes uncompressed, 25424 bytes compressed:  72.4%
+│ +Zip file size: 32951 bytes, number of entries: 22
+│ +-rw-r--r--  2.0 unx       64 b- defN 23-May-16 18:03 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-May-16 18:03 META-INF/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-May-16 18:03 pl/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-May-16 18:03 pl/project13/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-May-16 18:03 pl/project13/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-May-16 18:03 pl/project13/maven/git/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-May-16 18:03 pl/project13/maven/validation/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-May-16 18:03 META-INF/m2e/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-May-16 18:03 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-May-16 18:03 META-INF/maven/io.github.git-commit-id/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-May-16 18:03 META-INF/maven/io.github.git-commit-id/git-commit-id-maven-plugin/
+│ +-rw-r--r--  2.0 unx    61799 b- defN 23-May-16 18:03 pl/project13/maven/git/GitCommitIdMojo.java
+│ +-rw-r--r--  2.0 unx     5581 b- defN 23-May-16 18:03 pl/project13/maven/git/GitDirLocator.java
+│ +-rw-r--r--  2.0 unx     6916 b- defN 23-May-16 18:03 pl/project13/maven/git/PropertiesReplacer.java
+│ +-rw-r--r--  2.0 unx     8185 b- defN 23-May-16 18:03 pl/project13/maven/git/ReplacementProperty.java
+│ +-rw-r--r--  2.0 unx     3850 b- defN 23-May-16 18:03 pl/project13/maven/git/TransformationRule.java
+│ +-rw-r--r--  2.0 unx     3739 b- defN 23-May-16 18:03 pl/project13/maven/validation/ValidationMojo.java
+│ +-rw-r--r--  2.0 unx     1575 b- defN 23-May-16 18:03 pl/project13/maven/validation/ValidationProperty.java
+│ +-rw-r--r--  2.0 unx      397 b- defN 23-May-16 18:03 META-INF/m2e/lifecycle-mapping-metadata.xml
+│ +-rw-r--r--  2.0 unx       39 b- defN 23-May-16 18:03 git-commit-id.properties
+│ +-rw-r--r--  2.0 unx    24973 b- defN 23-May-16 18:03 META-INF/maven/io.github.git-commit-id/git-commit-id-maven-plugin/pom.xml
+│ +-rw-r--r--  2.0 unx       84 b- defN 23-May-16 18:03 META-INF/maven/io.github.git-commit-id/git-commit-id-maven-plugin/pom.properties
+│ +22 files, 117202 bytes uncompressed, 29667 bytes compressed:  74.7%
+├── zipnote «TEMP»/diffoscope_x9o001qh_target/tmpabjo4bhw_.zip
+│ @@ -1,52 +1,67 @@
+│ -Filename: META-INF/
+│ +Filename: META-INF/MANIFEST.MF
+│  Comment: 
+│  
+│ -Filename: META-INF/MANIFEST.MF
+│ +Filename: META-INF/
+│  Comment: 
+│  
+│  Filename: pl/
+│  Comment: 
+│  
+│  Filename: pl/project13/
+│  Comment: 
+│  
+│  Filename: pl/project13/maven/
+│  Comment: 
+│  
+│ +Filename: pl/project13/maven/git/
+│ +Comment: 
+│ +
+│  Filename: pl/project13/maven/validation/
+│  Comment: 
+│  
+│ -Filename: pl/project13/maven/git/
+│ +Filename: META-INF/m2e/
+│  Comment: 
+│  
+│ -Filename: pl/project13/maven/validation/ValidationMojo.java
+│ +Filename: META-INF/maven/
+│  Comment: 
+│  
+│ -Filename: pl/project13/maven/validation/ValidationProperty.java
+│ +Filename: META-INF/maven/io.github.git-commit-id/
+│ +Comment: 
+│ +
+│ +Filename: META-INF/maven/io.github.git-commit-id/git-commit-id-maven-plugin/
+│ +Comment: 
+│ +
+│ +Filename: pl/project13/maven/git/GitCommitIdMojo.java
+│  Comment: 
+│  
+│  Filename: pl/project13/maven/git/GitDirLocator.java
+│  Comment: 
+│  
+│ +Filename: pl/project13/maven/git/PropertiesReplacer.java
+│ +Comment: 
+│ +
+│  Filename: pl/project13/maven/git/ReplacementProperty.java
+│  Comment: 
+│  
+│  Filename: pl/project13/maven/git/TransformationRule.java
+│  Comment: 
+│  
+│ -Filename: pl/project13/maven/git/PropertiesReplacer.java
+│ +Filename: pl/project13/maven/validation/ValidationMojo.java
+│  Comment: 
+│  
+│ -Filename: pl/project13/maven/git/GitCommitIdMojo.java
+│ +Filename: pl/project13/maven/validation/ValidationProperty.java
+│ +Comment: 
+│ +
+│ +Filename: META-INF/m2e/lifecycle-mapping-metadata.xml
+│  Comment: 
+│  
+│  Filename: git-commit-id.properties
+│  Comment: 
+│  
+│ -Filename: META-INF/m2e/
+│ +Filename: META-INF/maven/io.github.git-commit-id/git-commit-id-maven-plugin/pom.xml
+│  Comment: 
+│  
+│ -Filename: META-INF/m2e/lifecycle-mapping-metadata.xml
+│ +Filename: META-INF/maven/io.github.git-commit-id/git-commit-id-maven-plugin/pom.properties
+│  Comment: 
+│  
+│  Zip file comment:
+├── filetype from file(1)
+│ @@ -1 +1 @@
+│ -Zip archive data, at least v1.0 to extract, compression method=store
+│ +Zip archive data, at least v2.0 to extract, compression method=deflate
+├── META-INF/MANIFEST.MF
+│ @@ -1,6 +1,3 @@
+│  Manifest-Version: 1.0
+│ -Archiver-Version: Plexus Archiver
+│ -Created-By: Apache Maven
+│ -Built-By: stefan
+│ -Build-Jdk: 11.0.18
+│ +Created-By: Maven Source Plugin 3.2.1
+

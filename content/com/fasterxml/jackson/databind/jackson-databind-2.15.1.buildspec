@@ -1,0 +1,19 @@
+groupId=com.fasterxml.jackson.core
+artifactId=jackson-databind
+version=2.15.1
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/FasterXML/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.8.6
+jdk=8
+newline=lf
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=

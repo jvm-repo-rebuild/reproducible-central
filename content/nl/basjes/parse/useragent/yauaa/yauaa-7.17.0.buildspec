@@ -27,5 +27,5 @@ command='mvn clean verify -PskipQuality'
 buildinfo=target/yauaa-parent-${version}.buildinfo
 
 # if the release is finally not reproducible, link to an issue tracker entry if one was created or diffoscope result
-diffoscope=${artifactId}-${version}.diffoscope
-issue=
+diffoscope=yauaa-parent-${version}.diffoscope
+issue=https://issues.apache.org/jira/browse/MNG-7750

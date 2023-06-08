@@ -1,18 +1,22 @@
-[org.webjars:flexmonster](https://central.sonatype.com/artifact/org.webjars/flexmonster/2.9.48/versions) RB check
+[org.webjars:flexmonster](https://central.sonatype.com/artifact/org.webjars/flexmonster/2.9.52/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.webjars:flexmonster](https://central.sonatype.com/artifact/org.webjars/flexmonster/2.9.48/versions)
+## Project: [org.webjars:flexmonster](https://central.sonatype.com/artifact/org.webjars/flexmonster/2.9.52/versions)
 
 Source code: [https://github.com/webjars/flexmonster.git](https://github.com/webjars/flexmonster.git)
 
-rebuilding **29 releases** of org.webjars:flexmonster:
-- **28** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+rebuilding **33 releases** of org.webjars:flexmonster:
+- **31** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.9.52](https://central.sonatype.com/artifact/org.webjars/flexmonster/2.9.52/pom) | [mvn jdk8](flexmonster-2.9.52.buildspec) | [result](flexmonster-2.9.52.buildinfo): [2 :heavy_check_mark: ](flexmonster-2.9.52.buildcompare) | 2.2M |
+| [2.9.51](https://central.sonatype.com/artifact/org.webjars/flexmonster/2.9.51/pom) | [mvn jdk17](flexmonster-2.9.51.buildspec) | [result](flexmonster-2.9.51.buildinfo): [1 :heavy_check_mark:  1 :warning:](flexmonster-2.9.51.buildcompare) [:mag:](flexmonster-2.9.51.diffoscope) | 2.2M |
+| [2.9.50](https://central.sonatype.com/artifact/org.webjars/flexmonster/2.9.50/pom) | [mvn jdk17](flexmonster-2.9.50.buildspec) | [result](flexmonster-2.9.50.buildinfo): [2 :heavy_check_mark: ](flexmonster-2.9.50.buildcompare) | 2.2M |
+| [2.9.49](https://central.sonatype.com/artifact/org.webjars/flexmonster/2.9.49/pom) | [mvn jdk8](flexmonster-2.9.49.buildspec) | [result](flexmonster-2.9.49.buildinfo): [2 :heavy_check_mark: ](flexmonster-2.9.49.buildcompare) | 2.2M |
 | [2.9.48](https://central.sonatype.com/artifact/org.webjars/flexmonster/2.9.48/pom) | [mvn jdk8](flexmonster-2.9.48.buildspec) | [result](flexmonster-2.9.48.buildinfo): [2 :heavy_check_mark: ](flexmonster-2.9.48.buildcompare) | 2.2M |
 | [2.9.47](https://central.sonatype.com/artifact/org.webjars/flexmonster/2.9.47/pom) | [mvn jdk8](flexmonster-2.9.47.buildspec) | [result](flexmonster-2.9.47.buildinfo): [2 :heavy_check_mark: ](flexmonster-2.9.47.buildcompare) | 2.2M |
 | [2.9.46](https://central.sonatype.com/artifact/org.webjars/flexmonster/2.9.46/pom) | [mvn jdk17](flexmonster-2.9.46.buildspec) | [result](flexmonster-2.9.46.buildinfo): [2 :heavy_check_mark: ](flexmonster-2.9.46.buildcompare) | 2.2M |

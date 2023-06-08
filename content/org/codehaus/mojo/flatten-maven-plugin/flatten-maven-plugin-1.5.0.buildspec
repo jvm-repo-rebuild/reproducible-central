@@ -1,0 +1,17 @@
+groupId=org.codehaus.mojo
+artifactId=flatten-maven-plugin
+display=${groupId}:${artifactId}
+version=1.5.0
+
+gitRepo=https://github.com/mojohaus/${artifactId}.git
+gitTag=${version}
+
+tool=mvn-3.9.1
+jdk=20
+newline=lf
+
+command="mvn -Pmojo-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/eclipse/sisu.inject/issues/91

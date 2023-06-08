@@ -1,0 +1,24 @@
+groupId=nl.basjes.energy
+artifactId=energy-parent
+version=0.0.1
+
+display=${groupId}:${artifactId}
+
+# Source code
+gitRepo=https://github.com/nielsbasjes/energy.git
+gitTag=v${version}
+
+# Rebuild environment prerequisites
+tool=mvn-3.8.7
+
+# All LTS JDK versions and JDK-17 is the default (used to start Maven with)
+jdk=17
+newline=lf
+# crlf for Windows, lf for Unix
+
+# Rebuild command
+command='mvn clean verify -PskipQuality -PpackageForRelease -Dgpg.skip'
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=

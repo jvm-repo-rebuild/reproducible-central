@@ -1,0 +1,18 @@
+groupId=org.webjars
+artifactId=highcharts
+version=10.3.3
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/webjars/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=17
+newline=lf
+
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=

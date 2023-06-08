@@ -1,0 +1,130 @@
+1 /        1 target/reference/maven-gpg-plugin-3.0.1.pom dependency-reduced-pom.xml
+--- target/reference/maven-gpg-plugin-3.0.1.pom
++++ dependency-reduced-pom.xml
+│   --- target/reference/maven-gpg-plugin-3.0.1.pom
+├── +++ dependency-reduced-pom.xml
+│ @@ -99,118 +99,52 @@
+│    <profiles>
+│      <profile>
+│        <id>run-its</id>
+│        <build>
+│          <plugins>
+│            <plugin>
+│              <artifactId>maven-failsafe-plugin</artifactId>
+│ -            <version>2.22.0</version>
+│              <executions>
+│                <execution>
+│                  <goals>
+│                    <goal>integration-test</goal>
+│                    <goal>verify</goal>
+│                  </goals>
+│ -                <configuration>
+│ -                  <environmentVariables>
+│ -                    <JENKINS_MAVEN_AGENT_DISABLED>true</JENKINS_MAVEN_AGENT_DISABLED>
+│ -                  </environmentVariables>
+│ -                  <systemPropertyVariables>
+│ -                    <maven.home>/home/herve/local/.maven/apache-maven-3.8.1</maven.home>
+│ -                    <https.protocols>TLSv1,TLSv1.1,TLSv1.2</https.protocols>
+│ -                    <gpg.homedir>/home/herve/projets/maven/sources/plugins/tools/maven-gpg-plugin/target/checkout/target/test-classes/gnupg</gpg.homedir>
+│ -                    <localRepositoryPath>/home/herve/projets/maven/sources/plugins/tools/maven-gpg-plugin/target/checkout/target/local-repo</localRepositoryPath>
+│ -                    <settingsFile>/it/settings.xml</settingsFile>
+│ -                  </systemPropertyVariables>
+│ -                </configuration>
+│                </execution>
+│              </executions>
+│              <configuration>
+│                <environmentVariables>
+│                  <JENKINS_MAVEN_AGENT_DISABLED>true</JENKINS_MAVEN_AGENT_DISABLED>
+│                </environmentVariables>
+│                <systemPropertyVariables>
+│ -                <maven.home>/home/herve/local/.maven/apache-maven-3.8.1</maven.home>
+│ -                <https.protocols>TLSv1,TLSv1.1,TLSv1.2</https.protocols>
+│ -                <gpg.homedir>/home/herve/projets/maven/sources/plugins/tools/maven-gpg-plugin/target/checkout/target/test-classes/gnupg</gpg.homedir>
+│ -                <localRepositoryPath>/home/herve/projets/maven/sources/plugins/tools/maven-gpg-plugin/target/checkout/target/local-repo</localRepositoryPath>
+│ +                <maven.home>${maven.home}</maven.home>
+│ +                <https.protocols>${https.protocols}</https.protocols>
+│ +                <gpg.homedir>${project.build.testOutputDirectory}/gnupg</gpg.homedir>
+│ +                <localRepositoryPath>${project.build.directory}/local-repo</localRepositoryPath>
+│                  <settingsFile>/it/settings.xml</settingsFile>
+│                </systemPropertyVariables>
+│              </configuration>
+│            </plugin>
+│            <plugin>
+│              <artifactId>maven-invoker-plugin</artifactId>
+│ -            <version>3.2.1</version>
+│ -            <executions>
+│ -              <execution>
+│ -                <id>integration-test</id>
+│ -                <goals>
+│ -                  <goal>install</goal>
+│ -                  <goal>integration-test</goal>
+│ -                  <goal>verify</goal>
+│ -                </goals>
+│ -                <configuration>
+│ -                  <settingsFile>src/it/settings.xml</settingsFile>
+│ -                  <pomIncludes>
+│ -                    <pomInclude>*</pomInclude>
+│ -                  </pomIncludes>
+│ -                  <pomExcludes>
+│ -                    <pomExclude>alternative-secret-keyring</pomExclude>
+│ -                  </pomExcludes>
+│ -                  <goals>
+│ -                    <goal>clean</goal>
+│ -                    <goal>install</goal>
+│ -                  </goals>
+│ -                  <properties>
+│ -                    <gpg.homedir>/home/herve/projets/maven/sources/plugins/tools/maven-gpg-plugin/target/checkout/target/test-classes/gnupg</gpg.homedir>
+│ -                    <maven.compiler.source>1.7</maven.compiler.source>
+│ -                    <maven.compiler.target>1.7</maven.compiler.target>
+│ -                    <https.protocols>TLSv1,TLSv1.1,TLSv1.2</https.protocols>
+│ -                  </properties>
+│ -                  <debug>true</debug>
+│ -                  <projectsDirectory>src/it</projectsDirectory>
+│ -                  <cloneProjectsTo>/home/herve/projets/maven/sources/plugins/tools/maven-gpg-plugin/target/checkout/target/it</cloneProjectsTo>
+│ -                  <preBuildHookScript>setup</preBuildHookScript>
+│ -                  <postBuildHookScript>verify</postBuildHookScript>
+│ -                  <localRepositoryPath>/home/herve/projets/maven/sources/plugins/tools/maven-gpg-plugin/target/checkout/target/local-repo</localRepositoryPath>
+│ -                  <ignoreFailures>false</ignoreFailures>
+│ -                  <environmentVariables>
+│ -                    <JENKINS_MAVEN_AGENT_DISABLED>true</JENKINS_MAVEN_AGENT_DISABLED>
+│ -                  </environmentVariables>
+│ -                </configuration>
+│ -              </execution>
+│ -            </executions>
+│              <configuration>
+│                <settingsFile>src/it/settings.xml</settingsFile>
+│                <pomIncludes>
+│                  <pomInclude>*</pomInclude>
+│                </pomIncludes>
+│                <pomExcludes>
+│                  <pomExclude>alternative-secret-keyring</pomExclude>
+│                </pomExcludes>
+│                <goals>
+│                  <goal>clean</goal>
+│                  <goal>install</goal>
+│                </goals>
+│                <properties>
+│ -                <gpg.homedir>/home/herve/projets/maven/sources/plugins/tools/maven-gpg-plugin/target/checkout/target/test-classes/gnupg</gpg.homedir>
+│ -                <maven.compiler.source>1.7</maven.compiler.source>
+│ -                <maven.compiler.target>1.7</maven.compiler.target>
+│ -                <https.protocols>TLSv1,TLSv1.1,TLSv1.2</https.protocols>
+│ +                <gpg.homedir>${project.build.testOutputDirectory}/gnupg</gpg.homedir>
+│                </properties>
+│ -              <debug>true</debug>
+│ -              <projectsDirectory>src/it</projectsDirectory>
+│ -              <cloneProjectsTo>/home/herve/projets/maven/sources/plugins/tools/maven-gpg-plugin/target/checkout/target/it</cloneProjectsTo>
+│ -              <preBuildHookScript>setup</preBuildHookScript>
+│ -              <postBuildHookScript>verify</postBuildHookScript>
+│ -              <localRepositoryPath>/home/herve/projets/maven/sources/plugins/tools/maven-gpg-plugin/target/checkout/target/local-repo</localRepositoryPath>
+│ -              <ignoreFailures>false</ignoreFailures>
+│ -              <environmentVariables>
+│ -                <JENKINS_MAVEN_AGENT_DISABLED>true</JENKINS_MAVEN_AGENT_DISABLED>
+│ -              </environmentVariables>
+│              </configuration>
+│            </plugin>
+│          </plugins>
+│        </build>
+│      </profile>
+│    </profiles>
+│    <dependencies>
+

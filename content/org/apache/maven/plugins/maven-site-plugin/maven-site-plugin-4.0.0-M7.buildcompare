@@ -1,0 +1,7 @@
+version=4.0.0-M7
+ok=4
+ko=0
+okFiles="maven-site-plugin-4.0.0-M7.pom maven-site-plugin-4.0.0-M7.jar maven-site-plugin-4.0.0-M7-source-release.zip maven-site-plugin-4.0.0-M7-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"

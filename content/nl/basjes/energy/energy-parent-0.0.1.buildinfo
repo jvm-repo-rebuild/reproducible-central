@@ -1,0 +1,84 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Energy :
+group-id=nl.basjes.energy
+artifact-id=energy-parent
+version=0.0.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/nielsbasjes/energy.git
+source.scm.tag=v0.0.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.toolchain.jdk=openjdk version "17
+mvn.aggregate.artifact-id=nifi-energy-nar
+
+# aggregated output
+
+outputs.0.coordinates=nl.basjes.energy:energy-parent
+
+outputs.0.0.filename=energy-parent-0.0.1.pom
+outputs.0.0.length=24224
+outputs.0.0.checksums.sha512=50ef9c711bb0f15e00ab6a2cebce5396d13decd20bf29d9929060eb3dabedf1a757cedde4dc1e1c0c19c68918246e92e6795ccec1198c609c89c92c978735a7c
+
+outputs.1.coordinates=nl.basjes.energy:modbus-energy-parser
+
+outputs.1.0.filename=modbus-energy-parser-0.0.1.pom
+outputs.1.0.length=4848
+outputs.1.0.checksums.sha512=4b7aee413551c9e698e8e17119c6c3cecd51d0facce6269076f76a54dca632bebba2a278e4d607ace487c26316c7c60cf06ed7e9ed84cc787d878a0cb29cdb74
+
+outputs.1.1.filename=modbus-energy-parser-0.0.1.jar
+outputs.1.1.length=846278
+outputs.1.1.checksums.sha512=7efd60aac2d215f586562f822b37a41c86ac7a9159ba5d30ec6edd979becc82d636d28d66bdcffc5b19ad4d733163172d0ba9f5f3de1aec5db33b0f562745ce5
+
+outputs.1.2.filename=modbus-energy-parser-0.0.1-sources.jar
+outputs.1.2.length=277814
+outputs.1.2.checksums.sha512=c3a3ec2669d0cc27e67e20b96aef73cf4591daf86a16dde63e279505be3a0f2b446d38cf5da1ca9e6da692bb3da067de928825f6958951c37b3b3b2c293f4fe9
+
+outputs.1.3.filename=modbus-energy-parser-0.0.1-tests.jar
+outputs.1.3.length=38697
+outputs.1.3.checksums.sha512=34e795c451febf6092678c0b38f3019ce27826a00bf1930e059661bf00fb3ad41ef42058fb2b6e7c9999fb27106f65d6af1e4c2707de1b4deb5f122d2610affd
+
+outputs.2.coordinates=nl.basjes.energy:energy-udfs-parent
+
+outputs.2.0.filename=energy-udfs-parent-0.0.1.pom
+outputs.2.0.length=2091
+outputs.2.0.checksums.sha512=6a7015816054f84e8567cbd7d1632cbfb4bb74521fd81c76d4ac314c006180bf3d74eeb5ccd87511071dc02a7fb54aeef2f0714ed33b243068c15169d62becc5
+
+outputs.3.coordinates=nl.basjes.energy.nifi:energy-nifi-parent
+
+outputs.3.0.filename=energy-nifi-parent-0.0.1.pom
+outputs.3.0.length=2210
+outputs.3.0.checksums.sha512=244f8ba4904b42d464a77c0ac9c0e9a291f334da536937f2ae504f52a72e93d8147793ebf47d3b6746889a17eec1244beff9eb3be5a801019838e03e9aef878b
+
+outputs.4.coordinates=nl.basjes.energy.nifi:nifi-energy-processors
+
+outputs.4.0.filename=nifi-energy-processors-0.0.1.pom
+outputs.4.0.length=4099
+outputs.4.0.checksums.sha512=80bb26d78e5a027c50ee1478e4cb2f5e3ed44ac6464247298dca496263d3e277908b5fad8bedaf71edb3a676f342043d55652ce9f4cbd5c1cc56fb14e9b1d512
+
+outputs.4.1.filename=nifi-energy-processors-0.0.1.jar
+outputs.4.1.length=17489
+outputs.4.1.checksums.sha512=39ee809715bb7ffd958ec8e7f059281bd0cb08751c7dc7b2c1ce09c0bcbc3d0500cb64ef8f1343cafd447080bb62d7a36a1154a4d822fade95fc56803c47f99c
+
+outputs.4.2.filename=nifi-energy-processors-0.0.1-sources.jar
+outputs.4.2.length=11280
+outputs.4.2.checksums.sha512=f388b9ed7fb78ea8e0692d43326464ad0ad04b25dcfec47601c0e96158d7389209428b0906530184506e1e1bc1110a1dbfd263ac7615341bba1f1cf888f3d764
+
+outputs.5.coordinates=nl.basjes.energy.nifi:nifi-energy-nar
+
+outputs.5.0.filename=nifi-energy-nar-0.0.1.pom
+outputs.5.0.length=3611
+outputs.5.0.checksums.sha512=aaddebc1a0d0873e7434e85558e412d37116622ce9e46ef4bc1b5a44fc56328643164c9407a6a4fccce47e4d7117acff475f57c59035e609c455dc28bf58cd79
+
+outputs.5.1.filename=nifi-energy-nar-0.0.1.nar
+outputs.5.1.length=4022438
+outputs.5.1.checksums.sha512=fc8dd51142322c36af2f3b7e7881e8ac5e86fba22ac8fa1ec6b41b2b0a2e98b2d69f6d374c997048c96caf8d671701a5c6efd3163f3a1191640446c58aee857a

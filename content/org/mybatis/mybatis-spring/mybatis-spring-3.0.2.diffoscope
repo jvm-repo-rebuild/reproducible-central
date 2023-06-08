@@ -1,0 +1,43 @@
+1 / 1 target/reference/mybatis-spring-3.0.2.jar target/mybatis-spring-3.0.2.jar
+--- target/reference/mybatis-spring-3.0.2.jar
++++ target/mybatis-spring-3.0.2.jar
+├── zipinfo -v {}
+│ @@ -55,15 +55,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          2023 May 19 16:40:52
+│ -  32-bit CRC value (hex):                         a5208492
+│ +  32-bit CRC value (hex):                         296e89aa
+│    compressed size:                                1132 bytes
+│    uncompressed size:                              3550 bytes
+│    length of filename:                             20 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/MANIFEST.MF
+│ @@ -50,15 +50,15 @@
+│   k.core.convert.converter,org.springframework.core.env,org.springframewo
+│   rk.core.io,org.springframework.core.io.support,org.springframework.core
+│   .type,org.springframework.core.type.classreading,org.springframework.co
+│   re.type.filter,org.springframework.dao,org.springframework.dao.support,
+│   org.springframework.jdbc,org.springframework.jdbc.datasource,org.spring
+│   framework.jdbc.support,org.springframework.transaction,org.springframew
+│   ork.transaction.support,org.springframework.util,org.w3c.dom
+│ -Include-Resource: META-INF/LICENSE=LICENSE,META-INF/NOTICE=NOTICE,org/my
+│ - batis/spring/config/mybatis-spring.xsd=src/main/resources/org/mybatis/s
+│ - pring/config/mybatis-spring.xsd,META-INF/spring.schemas=src/main/resour
+│ - ces/META-INF/spring.schemas,META-INF/spring.handlers=src/main/resources
+│ - /META-INF/spring.handlers
+│ +Include-Resource: META-INF/LICENSE=LICENSE,META-INF/NOTICE=NOTICE,META-I
+│ + NF/spring.handlers=src/main/resources/META-INF/spring.handlers,META-INF
+│ + /spring.schemas=src/main/resources/META-INF/spring.schemas,org/mybatis/
+│ + spring/config/mybatis-spring.xsd=src/main/resources/org/mybatis/spring/
+│ + config/mybatis-spring.xsd
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+│  Tool: Bnd-6.4.0.202211291949
+

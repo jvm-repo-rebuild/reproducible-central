@@ -1,0 +1,90 @@
+1 / 2 target/reference/maven-lockfile-github-action-1.3.0.jar github_action/target/maven-lockfile-github-action-1.3.0.jar
+--- target/reference/maven-lockfile-github-action-1.3.0.jar
++++ github_action/target/maven-lockfile-github-action-1.3.0.jar
+├── zipinfo {}
+│ @@ -1,11166 +1,11166 @@
+│ -Zip file size: 16280829 bytes, number of entries: 11164
+│ --rw----     1.0 fat        0 bx stor 23-Apr-26 14:07 META-INF/
+│ --rw----     2.0 fat      188 bX defN 23-Apr-26 14:07 META-INF/MANIFEST.MF
+│ --rw----     1.0 fat        0 bx stor 23-Apr-26 14:07 io/
+│ --rw----     1.0 fat        0 bx stor 23-Apr-26 14:07 io/quarkiverse/
+│ --rw----     1.0 fat        0 bx stor 23-Apr-26 14:07 io/quarkiverse/githubaction/
+│ --rw----     2.0 fat      215 bX defN 23-Apr-26 14:07 io/quarkiverse/githubaction/CommandsInitializer.class
+...
+│ --rw----     2.0 fat      139 bX defN 23-Apr-26 14:07 META-INF/services/io.vertx.ext.auth.HashingAlgorithm
+│ -11164 files, 35454980 bytes uncompressed, 13767359 bytes compressed:  61.2%
+│ +Zip file size: 16278365 bytes, number of entries: 11164
+│ +-rw----     1.0 fat        0 bx stor 23-Apr-30 07:41 META-INF/
+│ +-rw----     2.0 fat      188 bX defN 23-Apr-30 07:41 META-INF/MANIFEST.MF
+│ +-rw----     1.0 fat        0 bx stor 23-Apr-30 07:41 io/
+│ +-rw----     1.0 fat        0 bx stor 23-Apr-30 07:41 io/quarkiverse/
+│ +-rw----     1.0 fat        0 bx stor 23-Apr-30 07:41 io/quarkiverse/githubaction/
+│ +-rw----     2.0 fat      215 bX defN 23-Apr-30 07:41 io/quarkiverse/githubaction/CommandsInitializer.class
+│ +-rw----     2.0 fat      211 bX defN 23-Apr-30 07:41 io/quarkiverse/githubaction/ContextInitializer.class
+...
+│ +-rw----     2.0 fat      139 bX defN 23-Apr-30 07:41 META-INF/services/io.vertx.ext.auth.HashingAlgorithm
+│ +11164 files, 35449355 bytes uncompressed, 13764895 bytes compressed:  61.2%
+├── io/quarkus/runtime/generated/BuildTimeRunTimeFixedConfigSource.class
+│ ├── procyon -ec {}
+│ │ @@ -11,26 +11,26 @@
+│ │      
+│ │      static {
+│ │          properties = new HashMap();
+│ │          final Map properties2 = BuildTimeRunTimeFixedConfigSource.properties;
+│ │          properties2.put("quarkus.application.name", "maven-lockfile-github-action");
+│ │          properties2.put("quarkus.application.ui-header", "{applicationName} (powered by Quarkus)");
+│ │          properties2.put("quarkus.application.version", "1.3.0");
+│ │ -        properties2.put("quarkus.default-locale", "en-");
+│ │ +        properties2.put("quarkus.default-locale", "en-US");
+│ │          properties2.put("quarkus.jackson.accept-case-insensitive-enums", "false");
+│ │          properties2.put("quarkus.jackson.fail-on-empty-beans", "true");
+│ │          properties2.put("quarkus.jackson.fail-on-unknown-properties", "false");
+│ │          properties2.put("quarkus.jackson.timezone", "UTC");
+│ │          properties2.put("quarkus.jackson.write-dates-as-timestamps", "false");
+│ │          properties2.put("quarkus.jackson.write-durations-as-timestamps", "true");
+│ │          properties2.put("quarkus.live-reload.connect-timeout", "30s");
+│ │          properties2.put("quarkus.live-reload.instrumentation", "false");
+│ │          properties2.put("quarkus.live-reload.retry-interval", "2s");
+│ │          properties2.put("quarkus.live-reload.retry-max-attempts", "10");
+│ │ -        properties2.put("quarkus.locales", "en-");
+│ │ +        properties2.put("quarkus.locales", "en-US");
+│ │          properties2.put("quarkus.log.category.*.min-level", "inherit");
+│ │          properties2.put("quarkus.log.metrics.enabled", "false");
+│ │          properties2.put("quarkus.log.min-level", "DEBUG");
+│ │          properties2.put("quarkus.tls.trust-all", "false");
+│ │      }
+│ │      
+│ │      public BuildTimeRunTimeFixedConfigSource() {
+...
+
+2 / 2 target/reference/maven-lockfile-github-action-1.3.0-sources.jar github_action/target/maven-lockfile-github-action-1.3.0-sources.jar
+--- target/reference/maven-lockfile-github-action-1.3.0-sources.jar
++++ github_action/target/maven-lockfile-github-action-1.3.0-sources.jar
+├── zipinfo {}
+│ @@ -1,15 +1,15 @@
+│ -Zip file size: 5111 bytes, number of entries: 13
+│ +Zip file size: 5110 bytes, number of entries: 13
+│  -rw-r--r--  2.0 unx       64 b- defN 23-Apr-26 14:06 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-26 14:06 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-26 14:06 io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-26 14:06 io/github/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-26 14:06 io/github/chains_project/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-26 14:06 io/github/chains_project/maven_lockfile/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-26 14:06 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-26 14:06 META-INF/maven/io.github.chains-project/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-26 14:06 META-INF/maven/io.github.chains-project/maven-lockfile-github-action/
+│  -rw-r--r--  2.0 unx     5154 b- defN 23-Apr-26 14:06 io/github/chains_project/maven_lockfile/GithubAction.java
+│  -rw-r--r--  2.0 unx      121 b- defN 23-Apr-26 14:06 application.properties
+│  -rw-r--r--  2.0 unx     7719 b- defN 23-Apr-26 14:06 META-INF/maven/io.github.chains-project/maven-lockfile-github-action/pom.xml
+│  -rw-r--r--  2.0 unx      137 b- defN 23-Apr-26 14:06 META-INF/maven/io.github.chains-project/maven-lockfile-github-action/pom.properties
+│ -13 files, 13195 bytes uncompressed, 3163 bytes compressed:  76.0%
+│ +13 files, 13195 bytes uncompressed, 3162 bytes compressed:  76.0%
+├── META-INF/maven/io.github.chains-project/maven-lockfile-github-action/pom.properties
+│ @@ -1,5 +1,5 @@
+│  #Generated by Maven
+│ -#Wed Apr 26 14:07:52 UTC 2023
+│ +#Sun Apr 30 07:41:48 UTC 2023
+│  groupId=io.github.chains-project
+│  artifactId=maven-lockfile-github-action
+│  version=1.3.0
+

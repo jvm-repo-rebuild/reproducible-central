@@ -1,0 +1,15 @@
+1 / 2 target/reference/jackson-annotations-2.15.2.jar target/jackson-annotations-2.15.2.jar
+--- target/reference/jackson-annotations-2.15.2.jar
++++ target/jackson-annotations-2.15.2.jar
+├── zipinfo {}
+│ @@ -80,9 +80,9 @@
+│  -rw----     2.0 fat      688 bx defN 23-May-31 03:33 com/fasterxml/jackson/annotation/ObjectIdResolver.class
+│  -rw----     2.0 fat     1870 bx defN 23-May-31 03:33 com/fasterxml/jackson/annotation/OptBoolean.class
+│  -rw----     2.0 fat     1930 bx defN 23-May-31 03:33 com/fasterxml/jackson/annotation/PropertyAccessor.class
+│  -rw----     2.0 fat     2396 bx defN 23-May-31 03:33 com/fasterxml/jackson/annotation/SimpleObjectIdResolver.class
+│  -rw----     2.0 fat      138 bx defN 23-May-31 03:33 com/fasterxml/jackson/annotation/package-info.class
+│  -rw----     2.0 fat     7058 bx defN 23-May-31 03:33 META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.xml
+│  -rw----     2.0 fat       81 bx defN 23-May-31 03:33 META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.properties
+│ --rw----     2.0 fat      190 bx defN 23-May-30 20:33 module-info.class
+│ +-rw----     2.0 fat      190 bx defN 23-Jun-02 07:05 module-info.class
+│  86 files, 140007 bytes uncompressed, 59344 bytes compressed:  57.6%

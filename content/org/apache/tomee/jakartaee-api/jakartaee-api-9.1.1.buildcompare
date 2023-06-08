@@ -1,0 +1,8 @@
+version=9.1.1
+ok=7
+ko=1
+okFiles="jakartaee-api-9.1.1.pom jakartaee-api-9.1.1.jar jakartaee-api-9.1.1-source-release.zip jakartaee-api-9.1.1-sources.jar jakartaee-api-9.1.1-tomcat.jar jakartaee-api-9.1.1-tomcat-sources.jar jakartaee-api-9.1.1-features.xml"
+koFiles="jakartaee-api-9.1.1.zip"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/jakartaee-api-9.1.1.zip target/jakartaee-api-libs-9.1.1.zip

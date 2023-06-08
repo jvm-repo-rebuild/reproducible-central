@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven PMD Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-pmd-plugin
+version=3.21.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-pmd-plugin.git
+source.scm.tag=maven-pmd-plugin-3.21.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.filename=maven-pmd-plugin-3.21.0.pom
+outputs.0.length=15857
+outputs.0.checksums.sha512=105cf85af84dcb08f10005d7adf3c0aee77cfae9ea19673bc95d849edbfc6f53e786f059de661b1cf25382241e4c8e6cdc426cbf6c74ef1ecf5dd245eb3c00c3
+
+outputs.1.filename=maven-pmd-plugin-3.21.0.jar
+outputs.1.length=149910
+outputs.1.checksums.sha512=e80dcc398a8fe4ba95cfa19dfef8045d2e3ca3d295ceb0cdb433c9be3a03a7d1cd57291ac465d7748227663b3049455642996ff084b6cb5f5299866bd92820db
+
+outputs.2.filename=maven-pmd-plugin-3.21.0-source-release.zip
+outputs.2.length=597057
+outputs.2.checksums.sha512=05cf8bf31dd96485f7dc8473e0bc02387c1ec7e39fdbace04bb82167286f6ca1cff14a2623792eb3ef8c426050151244d6d03a3c43fffd9f41024677d4297edf
+
+outputs.3.filename=maven-pmd-plugin-3.21.0-sources.jar
+outputs.3.length=103579
+outputs.3.checksums.sha512=a611ebc6c5bd7b902a8fb43abc82b654c57f927fc4797fa19cff02f5d5308ca753d890da3db1dcf3df22b6b510d77bbddd8dc4f1adc5b3cf19a13eceab0e2638

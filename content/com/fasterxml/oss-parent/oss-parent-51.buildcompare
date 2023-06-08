@@ -1,0 +1,5 @@
+version=51
+ok=2
+ko=0
+okFiles="oss-parent-51.pom oss-parent-51-site.xml"
+koFiles=""

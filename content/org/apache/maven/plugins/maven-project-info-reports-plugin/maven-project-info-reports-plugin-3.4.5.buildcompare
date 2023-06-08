@@ -1,0 +1,7 @@
+version=3.4.5
+ok=4
+ko=0
+okFiles="maven-project-info-reports-plugin-3.4.5.pom maven-project-info-reports-plugin-3.4.5.jar maven-project-info-reports-plugin-3.4.5-source-release.zip maven-project-info-reports-plugin-3.4.5-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"

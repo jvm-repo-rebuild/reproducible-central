@@ -1,0 +1,77 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=mybatis-spring-boot
+group-id=org.mybatis.spring.boot
+artifact-id=mybatis-spring-boot
+version=3.0.2
+
+# source information
+source.scm.uri=scm:git:git@github.com:mybatis/spring-boot-starter.git
+source.scm.tag=mybatis-spring-boot-3.0.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=mybatis-spring-boot-starter-test
+
+# aggregated output
+
+outputs.0.coordinates=org.mybatis.spring.boot:mybatis-spring-boot
+
+outputs.0.0.filename=mybatis-spring-boot-3.0.2.pom
+outputs.0.0.length=8717
+outputs.0.0.checksums.sha512=06ce7e0483b4f284d6c18295328996d43a8a4cdcae9009ea19097b42cd14691018f27c68381ea6bf480993a4f4ed8b6492c2a25a3a86dd5643d12daa3843c1bc
+
+outputs.1.coordinates=org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure
+
+outputs.1.0.filename=mybatis-spring-boot-autoconfigure-3.0.2.pom
+outputs.1.0.length=3982
+outputs.1.0.checksums.sha512=8a48215d5f985f6a7aa2924155cbc5e6a80c87b4138a1ef8533108484e390fea43fb66302fd6a19967187d557167272640e36051066872df0ec2cbc1b13a3dee
+
+outputs.1.1.filename=mybatis-spring-boot-autoconfigure-3.0.2.jar
+outputs.1.1.length=36744
+outputs.1.1.checksums.sha512=c4a28dd6736606f609d935d360d75ebbeae498f101d841600f8477c35c74fe13a65dd5fa4e98db1612ff2369111c2d0576d686928621ad3c2f34a70b1541254f
+
+outputs.1.2.filename=mybatis-spring-boot-autoconfigure-3.0.2-sources.jar
+outputs.1.2.length=20515
+outputs.1.2.checksums.sha512=50658aea3bed9ee7ed9ddf5092ddb73df636f03e5dce90e5f0efcf2ab4337637a1daf956d54f4ff3f9f8f41a4890237a53003a12bd6faecb81eec53665315904
+
+outputs.2.coordinates=org.mybatis.spring.boot:mybatis-spring-boot-starter
+
+outputs.2.0.filename=mybatis-spring-boot-starter-3.0.2.pom
+outputs.2.0.length=1981
+outputs.2.0.checksums.sha512=46fd5de60aea86dc63ad478d6ad818ed459282867e34bb36a14e94e126d72bab2411b460df50b279d41a85fd0a50b0a6fdeafae9ebeff06af687b4db7d018b7f
+
+outputs.2.1.filename=mybatis-spring-boot-starter-3.0.2.jar
+outputs.2.1.length=2390
+outputs.2.1.checksums.sha512=14d1f8f9b0ab131a197ed1899fe404699410433919d7f2c61c8e15b85bbe75c4d0862a303b1b8cf689b42becc47a910e6d305853012e7aac7fb568190bc4fa57
+
+outputs.3.coordinates=org.mybatis.spring.boot:mybatis-spring-boot-test-autoconfigure
+
+outputs.3.0.filename=mybatis-spring-boot-test-autoconfigure-3.0.2.pom
+outputs.3.0.length=2830
+outputs.3.0.checksums.sha512=a45a44b217e40eb5ea44777ab05e1b6e0b4069c3f6ac316d87d938f6ef5bfd8d61c0e187eed9f619963e75750ac8c002926d6ba17b3fd1ccdcb5e1da9795cafd
+
+outputs.3.1.filename=mybatis-spring-boot-test-autoconfigure-3.0.2.jar
+outputs.3.1.length=9468
+outputs.3.1.checksums.sha512=2082dc5a0f3b63864c1f00061d827a5b13890354b15b8f387f9d6b1098e278ce19af878290dfa0493fbc0a65d705e9545a306f30a136507c4e54e36fade4ea05
+
+outputs.3.2.filename=mybatis-spring-boot-test-autoconfigure-3.0.2-sources.jar
+outputs.3.2.length=9139
+outputs.3.2.checksums.sha512=bf36c5de1722adebb74c0cc82b2077547d8cb4ea57265150a3c2bdf65ead4c875b97b6bd6c9ff32678cf2d3bf8802d352beb266b1d870441c4a693cb2cf696ef
+
+outputs.4.coordinates=org.mybatis.spring.boot:mybatis-spring-boot-starter-test
+
+outputs.4.0.filename=mybatis-spring-boot-starter-test-3.0.2.pom
+outputs.4.0.length=1635
+outputs.4.0.checksums.sha512=e0f4b34538f525caa19a346ef268378528c0589e331d25390466d836ff50dbbc438fb8692511750db38bfac79549d702831dee98f43c2db4cd771ebc6adfcc9e
+
+outputs.4.1.filename=mybatis-spring-boot-starter-test-3.0.2.jar
+outputs.4.1.length=2420
+outputs.4.1.checksums.sha512=a0541dae437711e61766e76bc8c4b2b516a3b34ec912f7243dc1821b06a6f01f39eab5cded8042176a7eba5cb8c9f0df0a35cf633a896078621a7134656990a2

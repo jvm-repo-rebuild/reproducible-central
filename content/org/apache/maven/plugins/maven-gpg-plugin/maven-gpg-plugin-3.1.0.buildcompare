@@ -1,0 +1,8 @@
+version=3.1.0
+ok=3
+ko=1
+okFiles="maven-gpg-plugin-3.1.0.jar maven-gpg-plugin-3.1.0-source-release.zip maven-gpg-plugin-3.1.0-sources.jar"
+koFiles="maven-gpg-plugin-3.1.0.pom"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/maven-gpg-plugin-3.1.0.pom dependency-reduced-pom.xml

@@ -1,0 +1,8 @@
+version=1.3.0
+ok=4
+ko=1
+okFiles="whitespace-maven-plugin-1.3.0.pom whitespace-maven-plugin-1.3.0.jar whitespace-maven-plugin-1.3.0-sources.jar whitespace-maven-plugin-1.3.0-test-sources.jar"
+koFiles="whitespace-maven-plugin-1.3.0-tests.jar"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/whitespace-maven-plugin-1.3.0-tests.jar target/whitespace-maven-plugin-1.3.0-tests.jar

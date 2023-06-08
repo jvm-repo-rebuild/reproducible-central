@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Archiver Component
+group-id=org.codehaus.plexus
+artifact-id=plexus-archiver
+version=4.7.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-archiver.git
+source.scm.tag=plexus-archiver-4.7.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=plexus-archiver-4.7.1.pom
+outputs.0.length=6531
+outputs.0.checksums.sha512=4def44d58f8335f19978a7abe21b958c709633b2b5b83c1802714676e168d296f65ff164610c24f509b63fcfa0bd5c98cf6178d93353e6866b581bd0d2391aef
+
+outputs.1.filename=plexus-archiver-4.7.1.jar
+outputs.1.length=220642
+outputs.1.checksums.sha512=a644880779070bd79ff017b36c440c7636b8aec197922852b7eff1c520eb07a047e366a1ff15d8c1d44b75be42407880bd3760c607628bdc16e4c6da782f1159
+
+outputs.2.filename=plexus-archiver-4.7.1-source-release.zip
+outputs.2.length=1097545
+outputs.2.checksums.sha512=42679b024addf5ef8195052152d6ac8f276fa4fef2c9d1caac007d6868398ae4be4671adb502545e59c5cbd1ca6d0b86d8a97a23f256fc73ffdf2efe23ed97a6
+
+outputs.3.filename=plexus-archiver-4.7.1-sources.jar
+outputs.3.length=182661
+outputs.3.checksums.sha512=04b79b9e077913bb551fe63702e0cfa4e02d3e04c80eb8000c628783f012c7bf6015e673cc10a081db02a47432170dff53ece4ab6b509382a8f1eb3da515d195

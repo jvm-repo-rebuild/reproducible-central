@@ -1,0 +1,84 @@
+1 / 2 target/reference/jackson-databind-2.15.1.jar target/jackson-databind-2.15.1.jar
+--- target/reference/jackson-databind-2.15.1.jar
++++ target/jackson-databind-2.15.1.jar
+├── zipinfo {}
+│ @@ -1,818 +1,818 @@
+│  Zip file size: 1620059 bytes, number of entries: 816
+│ --rw----     1.0 fat        0 bx stor 23-May-17 04:47 META-INF/
+│ +-rw----     1.0 fat        0 bx stor 23-May-16 21:47 META-INF/
+│  -rw----     2.0 fat    11968 bx defN 23-May-16 21:47 META-INF/MANIFEST.MF
+│ --rw----     1.0 fat        0 bx stor 23-May-17 04:47 META-INF/services/
+...
+│ --rw----     2.0 fat      141 bx defN 23-May-17 04:47 com/fasterxml/jackson/databind/util/package-info.class
+│ --rw----     2.0 fat    19311 bx defN 23-May-17 04:47 META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.xml
+│ --rw----     2.0 fat       78 bx defN 23-May-17 04:47 META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.properties
+│ +-rw----     1.0 fat        0 bx stor 23-May-16 21:47 META-INF/services/
+...
+│ +-rw----     2.0 fat      141 bx defN 23-May-16 21:47 com/fasterxml/jackson/databind/util/package-info.class
+│ +-rw----     2.0 fat    19311 bx defN 23-May-16 21:47 META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.xml
+│ +-rw----     2.0 fat       78 bx defN 23-May-16 21:47 META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.properties
+│  -rw----     1.0 fat        0 bx stor 23-May-16 21:47 META-INF/versions/
+│  -rw----     1.0 fat        0 bx stor 23-May-16 21:47 META-INF/versions/9/
+│  -rw----     2.0 fat     1472 bx defN 23-May-16 21:47 META-INF/versions/9/module-info.class
+│  816 files, 4279553 bytes uncompressed, 1442561 bytes compressed:  66.3%
+
+2 / 2 target/reference/jackson-databind-2.15.1.module target/publications/maven/module.json
+--- target/reference/jackson-databind-2.15.1.module
++++ target/publications/maven/module.json
+├── Pretty-printed
+│┄ Similarity: 0.9955357142857143%
+│┄ Differences: {"'variants'": "{0: {'files': {0: {'sha512': "
+│┄                "'78bb92088e088a24775f3d5c0e23cd268b84bf107061e9d535b16ba4f61bdd7e3761ccbd04bfbed5b2ee639b307aea17d4e9529a496b369614da89207475afed', "
+│┄                "'sha256': '7ae6477339fda421ac7ae36b11005042b76fca6284056cc9580acf5029952343', "
+│┄                "'sha1': '1aee0434210de8ea98cc3d57737f45e59076f749', 'md5': "
+│┄                "'c398db8d4431a39048926d32d1a8dcad'}}}, 1: {'files': {0: {'sha512': "
+│┄                "'78bb92088e088a24775f3d5c0e23cd268b84bf10 […]
+│ @@ -46,19 +46,19 @@
+│                      "version": {
+│                          "requires": "2.15.1"
+│                      }
+│                  }
+│              ],
+│              "files": [
+│                  {
+│ -                    "md5": "2f4071cd666983bef73a25b9a1ad2d8",
+│ +                    "md5": "c398db8d4431a39048926d32d1a8dcad",
+│                      "name": "jackson-databind-2.15.1.jar",
+│ -                    "sha1": "ac9ba74d208faf356e4719a49e59c6ea9237c01d",
+│ -                    "sha256": "c1f0347ce2696c94f531d095cd9ef22e648ec090e9b1c3dee17938b07a1df176",
+│ -                    "sha512": "a6750ced73427dd1a618501e8b0b08ab0799ea878e2317ecce3cd0dbf844d472e06fe5914d70ce34d54553e894f97fd09e6ce040cb9aef4b4b1a8d1e9198755",
+│ +                    "sha1": "1aee0434210de8ea98cc3d57737f45e59076f749",
+│ +                    "sha256": "7ae6477339fda421ac7ae36b11005042b76fca6284056cc9580acf5029952343",
+│ +                    "sha512": "78bb92088e088a24775f3d5c0e23cd268b84bf107061e9d535b16ba4f61bdd7e3761ccbd04bfbed5b2ee639b307aea17d4e9529a496b369614da89207475afed",
+│                      "size": 1620059,
+│                      "url": "jackson-databind-2.15.1.jar"
+│                  }
+│              ],
+│              "name": "apiElements"
+│          },
+│          {
+│ @@ -93,19 +93,19 @@
+│                      "version": {
+│                          "requires": "2.15.1"
+│                      }
+│                  }
+│              ],
+│              "files": [
+│                  {
+│ -                    "md5": "2f4071cd666983bef73a25b9a1ad2d8",
+│ +                    "md5": "c398db8d4431a39048926d32d1a8dcad",
+│                      "name": "jackson-databind-2.15.1.jar",
+│ -                    "sha1": "ac9ba74d208faf356e4719a49e59c6ea9237c01d",
+│ -                    "sha256": "c1f0347ce2696c94f531d095cd9ef22e648ec090e9b1c3dee17938b07a1df176",
+│ -                    "sha512": "a6750ced73427dd1a618501e8b0b08ab0799ea878e2317ecce3cd0dbf844d472e06fe5914d70ce34d54553e894f97fd09e6ce040cb9aef4b4b1a8d1e9198755",
+│ +                    "sha1": "1aee0434210de8ea98cc3d57737f45e59076f749",
+│ +                    "sha256": "7ae6477339fda421ac7ae36b11005042b76fca6284056cc9580acf5029952343",
+│ +                    "sha512": "78bb92088e088a24775f3d5c0e23cd268b84bf107061e9d535b16ba4f61bdd7e3761ccbd04bfbed5b2ee639b307aea17d4e9529a496b369614da89207475afed",
+│                      "size": 1620059,
+│                      "url": "jackson-databind-2.15.1.jar"
+│                  }
+│              ],
+│              "name": "runtimeElements"
+│          }
+│      ]
+

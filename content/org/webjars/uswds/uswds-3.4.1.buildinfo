@@ -1,0 +1,30 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=uswds
+group-id=org.webjars
+artifact-id=uswds
+version=3.4.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/webjars/uswds.git
+source.scm.tag=uswds-3.4.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=19
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=uswds-3.4.1.pom
+outputs.0.length=4921
+outputs.0.checksums.sha512=00374b9f063011e18268ce28d703ebe272cbb4b3f9a4e5d79acabae5557b6eb6c9a594035cbffd43f66c97d11425bda04df47b6e1a256cbfbfba29288fb7b0a6
+
+outputs.1.filename=uswds-3.4.1.jar
+outputs.1.length=6035220
+outputs.1.checksums.sha512=2b2d9bb89b033a7752d0d815538672c5c41ee977f9931174a28520387a33402294f9be4b8cd83192d1257fc29e559db7274446d888fc55eea48d9769edc2e963

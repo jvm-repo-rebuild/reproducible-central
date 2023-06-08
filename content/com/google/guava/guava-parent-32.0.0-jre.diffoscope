@@ -1,0 +1,89 @@
+# no clear reason why bytecode of some classes is different in reference binary vs local build
+1 / 3 target/reference/guava-32.0.0-jre.jar guava/target/guava-32.0.0-jre.jar
+--- target/reference/guava-32.0.0-jre.jar
++++ guava/target/guava-32.0.0-jre.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 3034489 bytes, number of entries: 2052
+│ +Zip file size: 3033987 bytes, number of entries: 2052
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     2534 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/com.google.guava/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/com.google.guava/guava/
+│  -rw----     2.0 fat       61 bl defN 80-Feb-01 00:00 META-INF/maven/com.google.guava/guava/pom.properties
+│ @@ -24,25 +24,25 @@
+│  -rw----     2.0 fat      640 bl defN 80-Feb-01 00:00 com/google/common/annotations/GwtCompatible.class
+│  -rw----     2.0 fat      648 bl defN 80-Feb-01 00:00 com/google/common/annotations/GwtIncompatible.class
+│  -rw----     2.0 fat      547 bl defN 80-Feb-01 00:00 com/google/common/annotations/J2ktIncompatible.class
+│  -rw----     2.0 fat      274 bl defN 80-Feb-01 00:00 com/google/common/annotations/VisibleForTesting.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/google/common/base/
+│  -rw----     2.0 fat     3931 bl defN 80-Feb-01 00:00 com/google/common/base/Absent.class
+│  -rw----     2.0 fat      805 bl defN 80-Feb-01 00:00 com/google/common/base/AbstractIterator$1.class
+│ --rw----     2.0 fat     1422 bl defN 80-Feb-01 00:00 com/google/common/base/AbstractIterator$State.class
+│ +-rw----     2.0 fat     1360 bl defN 80-Feb-01 00:00 com/google/common/base/AbstractIterator$State.class
+│  -rw----     2.0 fat     2600 bl defN 80-Feb-01 00:00 com/google/common/base/AbstractIterator.class
+│  -rw----     2.0 fat     4771 bl defN 80-Feb-01 00:00 com/google/common/base/Ascii.class
+│  -rw----     2.0 fat     1433 bl defN 80-Feb-01 00:00 com/google/common/base/CaseFormat$1.class
+│  -rw----     2.0 fat     1471 bl defN 80-Feb-01 00:00 com/google/common/base/CaseFormat$2.class
+│  -rw----     2.0 fat     1137 bl defN 80-Feb-01 00:00 com/google/common/base/CaseFormat$3.class
+│  -rw----     2.0 fat      976 bl defN 80-Feb-01 00:00 com/google/common/base/CaseFormat$4.class
+│  -rw----     2.0 fat     1474 bl defN 80-Feb-01 00:00 com/google/common/base/CaseFormat$5.class
+│  -rw----     2.0 fat     2343 bl defN 80-Feb-01 00:00 com/google/common/base/CaseFormat$StringConverter.class
+│ --rw----     2.0 fat     4939 bl defN 80-Feb-01 00:00 com/google/common/base/CaseFormat.class
+│ --rw----     2.0 fat      948 bl defN 80-Feb-01 00:00 com/google/common/base/CharMatcher$1.class
+│ +-rw----     2.0 fat     4877 bl defN 80-Feb-01 00:00 com/google/common/base/CaseFormat.class
+│ +-rw----     2.0 fat      971 bl defN 80-Feb-01 00:00 com/google/common/base/CharMatcher$1.class
+│  -rw----     2.0 fat     2103 bl defN 80-Feb-01 00:00 com/google/common/base/CharMatcher$And.class
+│  -rw----     2.0 fat     3518 bl defN 80-Feb-01 00:00 com/google/common/base/CharMatcher$Any.class
+│  -rw----     2.0 fat     2143 bl defN 80-Feb-01 00:00 com/google/common/base/CharMatcher$AnyOf.class
+│  -rw----     2.0 fat      771 bl defN 80-Feb-01 00:00 com/google/common/base/CharMatcher$Ascii.class
+│  -rw----     2.0 fat     1626 bl defN 80-Feb-01 00:00 com/google/common/base/CharMatcher$BitSetMatcher.class
+│  -rw----     2.0 fat     1384 bl defN 80-Feb-01 00:00 com/google/common/base/CharMatcher$BreakingWhitespace.class
+│  -rw----     2.0 fat     1146 bl defN 80-Feb-01 00:00 com/google/common/base/CharMatcher$Digit.class
+...
+│  -rw----     2.0 fat      658 bl defN 80-Feb-01 00:00 com/google/common/xml/ElementTypesAreNonnullByDefault.class
+│  -rw----     2.0 fat      671 bl defN 80-Feb-01 00:00 com/google/common/xml/ParametricNullness.class
+│  -rw----     2.0 fat     1910 bl defN 80-Feb-01 00:00 com/google/common/xml/XmlEscapers.class
+│  -rw----     2.0 fat      277 bl defN 80-Feb-01 00:00 com/google/common/xml/package-info.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/google/thirdparty/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 com/google/thirdparty/publicsuffix/
+│  -rw----     2.0 fat    65028 bl defN 80-Feb-01 00:00 com/google/thirdparty/publicsuffix/PublicSuffixPatterns.class
+│ --rw----     2.0 fat     2372 bl defN 80-Feb-01 00:00 com/google/thirdparty/publicsuffix/PublicSuffixType.class
+│ +-rw----     2.0 fat     2310 bl defN 80-Feb-01 00:00 com/google/thirdparty/publicsuffix/PublicSuffixType.class
+│  -rw----     2.0 fat     4033 bl defN 80-Feb-01 00:00 com/google/thirdparty/publicsuffix/TrieParser.class
+│ -2052 files, 6765342 bytes uncompressed, 2618523 bytes compressed:  61.3%
+│ +2052 files, 6763094 bytes uncompressed, 2618021 bytes compressed:  61.3%
+├── com/google/common/base/AbstractIterator$State.class
+│ ├── procyon -ec {}
+│ │ @@ -13,10 +13,10 @@
+│ │      }
+│ │      
+│ │      static {
+│ │          State.READY = new State("READY", 0);
+│ │          State.NOT_READY = new State("NOT_READY", 1);
+│ │          State.DONE = new State("DONE", 2);
+│ │          State.FAILED = new State("FAILED", 3);
+│ │ -        State.$VALUES = $values();
+│ │ +        State.$VALUES = new State[] { State.READY, State.NOT_READY, State.DONE, State.FAILED };
+│ │      }
+│ │  }
+├── com/google/common/base/CaseFormat.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,233 +1,230 @@
+│ │    Compiled from "CaseFormat.java"
+│ │  public abstract class com.google.common.base.CaseFormat extends java.lang.Enum<com.google.common.base.CaseFormat>
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x4421) ACC_PUBLIC, ACC_SUPER, ACC_ABSTRACT, ACC_ENUM
+│ │ -  this_class: #3                          // com/google/common/base/CaseFormat
+│ │ -  super_class: #58                        // java/lang/Enum
+│ │ -  interfaces: 0, fields: 8, methods: 13, attributes: 5
+│ │ +  this_class: #6                          // com/google/common/base/CaseFormat
+│ │ +  super_class: #57                        // java/lang/Enum
+│ │ +  interfaces: 0, fields: 8, methods: 12, attributes: 5
+│ │  Constant pool:
+│ │ -    #1 = Methodref          #3.#129       // com/google/common/base/CaseFormat.firstCharOnlyToUpper:(Ljava/lang/String;)Ljava/lang/String;
+│ │ -    #2 = Methodref          #3.#130       // com/google/common/base/CaseFormat."<init>":(Ljava/lang/String;ILcom/google/common/base/CharMatcher;Ljava/lang/String;)V
+...

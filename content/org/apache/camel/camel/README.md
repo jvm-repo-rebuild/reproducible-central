@@ -618,13 +618,17 @@ rebuilding **4 releases** of org.apache.camel:camel:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.0.0-M3](https://central.sonatype.com/artifact/org.apache.camel/camel/4.0.0-M3/pom) | | | |
 | [4.0.0-M2](https://central.sonatype.com/artifact/org.apache.camel/camel/4.0.0-M2/pom) | | | |
 | [4.0.0-M1](https://central.sonatype.com/artifact/org.apache.camel/camel/4.0.0-M1/pom) | | | |
+| [3.20.5](https://central.sonatype.com/artifact/org.apache.camel/camel/3.20.5/pom) | | | |
+| [3.20.4](https://central.sonatype.com/artifact/org.apache.camel/camel/3.20.4/pom) | | | |
 | [3.20.3](https://central.sonatype.com/artifact/org.apache.camel/camel/3.20.3/pom) | | | |
 | [3.20.2](https://central.sonatype.com/artifact/org.apache.camel/camel/3.20.2/pom) | | | |
 | [3.20.1](https://central.sonatype.com/artifact/org.apache.camel/camel/3.20.1/pom) | | | |
 | [3.20.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.20.0/pom) | | | |
 | [3.19.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.19.0/pom) | [mvn jdk11](camel-3.19.0.buildspec) | [result](camel-3.19.0.buildinfo): [1163 :heavy_check_mark:  446 :warning:](camel-3.19.0.buildcompare) | 259M |
+| [3.18.7](https://central.sonatype.com/artifact/org.apache.camel/camel/3.18.7/pom) | | | |
 | [3.18.6](https://central.sonatype.com/artifact/org.apache.camel/camel/3.18.6/pom) | | | |
 | [3.18.5](https://central.sonatype.com/artifact/org.apache.camel/camel/3.18.5/pom) | | | |
 | [3.18.4](https://central.sonatype.com/artifact/org.apache.camel/camel/3.18.4/pom) | | | |
@@ -635,6 +639,7 @@ rebuilding **4 releases** of org.apache.camel:camel:
 | [3.17.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.17.0/pom) | [mvn jdk11](camel-3.17.0.buildspec) | [result](camel-3.17.0.buildinfo): [1122 :heavy_check_mark:  440 :warning:](camel-3.17.0.buildcompare) [:mag:](camel-3.17.0.diffoscope) [:memo:](https://github.com/apache/camel/pull/7665) | 224M |
 | [3.16.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.16.0/pom) | | | |
 | [3.15.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.15.0/pom) | | | |
+| [3.14.8](https://central.sonatype.com/artifact/org.apache.camel/camel/3.14.8/pom) | | | |
 | [3.14.7](https://central.sonatype.com/artifact/org.apache.camel/camel/3.14.7/pom) | | | |
 | [3.14.6](https://central.sonatype.com/artifact/org.apache.camel/camel/3.14.6/pom) | | | |
 | [3.14.5](https://central.sonatype.com/artifact/org.apache.camel/camel/3.14.5/pom) | | | |

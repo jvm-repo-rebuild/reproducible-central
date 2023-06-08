@@ -1,0 +1,7 @@
+version=0.4.1
+ok=4
+ko=0
+okFiles="resolver-proxy-maven-plugin-0.4.1.pom resolver-proxy-maven-plugin-0.4.1.jar resolver-proxy-maven-plugin-0.4.1-sources.jar resolver-proxy-maven-plugin-0.4.1-source-release.zip"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

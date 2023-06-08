@@ -1,0 +1,2326 @@
+1 / 48 target/reference/drill-root-1.21.1.zip target/apache-drill-1.21.1-src.zip
+--- target/reference/drill-root-1.21.1.zip
++++ target/apache-drill-1.21.1-src.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 23089581 bytes, number of entries: 8568
+│ +Zip file size: 22514452 bytes, number of entries: 8484
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/.github/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/.github/ISSUE_TEMPLATE/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/.github/workflows/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/.mvn/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/common/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/common/src/
+│ @@ -178,15 +178,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-excel/src/test/java/org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-excel/src/test/java/org/apache/drill/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-excel/src/test/java/org/apache/drill/exec/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-excel/src/test/java/org/apache/drill/exec/store/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-excel/src/test/java/org/apache/drill/exec/store/excel/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-excel/src/test/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-excel/src/test/resources/excel/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-fixedwidth/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-hdf5/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-hdf5/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-hdf5/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-hdf5/src/main/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-hdf5/src/main/java/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-hdf5/src/main/java/org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-hdf5/src/main/java/org/apache/drill/
+│ @@ -485,23 +484,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-xml/src/test/java/org/apache/drill/exec/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-xml/src/test/java/org/apache/drill/exec/store/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-xml/src/test/java/org/apache/drill/exec/store/xml/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-xml/src/test/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-xml/src/test/resources/xml/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/build/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/CompilerIdC/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/CompilerIdC/tmp/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/CompilerIdCXX/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/CompilerIdCXX/tmp/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/CMakeScratch/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/pkgRedirects/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/cmakeModules/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/example/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/scripts/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/src/clientlib/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/src/clientlib/y2038/
+│ @@ -1980,16 +1970,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/src/main/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/src/main/resources/logos/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/src/main/resources/logos/drill-vector-logo.graffle/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/tools/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/tools/fmpp/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/tools/fmpp/.apt_generated/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/tools/fmpp/.apt_generated_tests/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/tools/fmpp/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/tools/fmpp/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/tools/fmpp/src/main/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/tools/fmpp/src/main/java/bsh/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/tools/fmpp/src/main/java/org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/tools/fmpp/src/main/java/org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 apache-drill-1.21.1-src/tools/fmpp/src/main/java/org/apache/drill/
+│ @@ -2142,15 +2130,14 @@
+│  -rw-r--r--  2.0 unx      849 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/common/src/test/resources/drill-module.conf
+│  -rw-r--r--  2.0 unx      975 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/common/src/test/resources/dsort-logical.json
+│  -rw-r--r--  2.0 unx      925 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/common/src/test/resources/jdbc_plan.json
+│  -rw-r--r--  2.0 unx     2113 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/common/src/test/resources/logback-test.xml
+│  -rw-r--r--  2.0 unx     2614 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/common/src/test/resources/simple_plan.json
+│  -rw-r--r--  2.0 unx      598 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/common/src/test/resources/storage_engine_plan.json
+│  -rw-r--r--  2.0 unx     1516 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/data/pom.xml
+│ --rw-r--r--  2.0 unx     3472 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/data/tpch-sample-data/.factorypath
+│  -rw-r--r--  2.0 unx   132891 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/data/tpch-sample-data/parquet/customer.parquet
+│  -rw-r--r--  2.0 unx  2839887 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/data/tpch-sample-data/parquet/lineitem.parquet
+│  -rw-r--r--  2.0 unx     1845 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/data/tpch-sample-data/parquet/nation.parquet
+│  -rw-r--r--  2.0 unx   661050 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/data/tpch-sample-data/parquet/orders.parquet
+│  -rw-r--r--  2.0 unx    93889 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/data/tpch-sample-data/parquet/part.parquet
+│  -rw-r--r--  2.0 unx   449294 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/data/tpch-sample-data/parquet/partsupp.parquet
+│  -rw-r--r--  2.0 unx      617 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/data/tpch-sample-data/parquet/region.parquet
+│ @@ -2203,31 +2190,27 @@
+│  -rw-r--r--  2.0 unx       24 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-deltalake/src/test/resources/data-reader-partition-values/as_int=__HIVE_DEFAULT_PARTITION__/as_long=__HIVE_DEFAULT_PARTITION__/as_byte=__HIVE_DEFAULT_PARTITION__/as_short=__HIVE_DEFAULT_PARTITION__/as_boolean=__HIVE_DEFAULT_PARTITION__/as_float=__HIVE_DEFAULT_PARTITION__/as_double=__HIVE_DEFAULT_PARTITION__/as_string=__HIVE_DEFAULT_PARTITION__/as_string_lit_null=__HIVE_DEFAULT_PARTITION__/as_date=__HIVE_DEFAULT_PARTITION__/as_timestamp=__HIVE_DEFAULT_PARTITION__/as_big_decimal=__HIVE_DEFAULT_PARTITION__/.part-00001-9ee474eb-385b-43cf-9acb-0fbed63e011c.c000.snappy.parquet.crc
+│  -rw-r--r--  2.0 unx     1944 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-deltalake/src/test/resources/data-reader-partition-values/as_int=__HIVE_DEFAULT_PARTITION__/as_long=__HIVE_DEFAULT_PARTITION__/as_byte=__HIVE_DEFAULT_PARTITION__/as_short=__HIVE_DEFAULT_PARTITION__/as_boolean=__HIVE_DEFAULT_PARTITION__/as_float=__HIVE_DEFAULT_PARTITION__/as_double=__HIVE_DEFAULT_PARTITION__/as_string=__HIVE_DEFAULT_PARTITION__/as_string_lit_null=__HIVE_DEFAULT_PARTITION__/as_date=__HIVE_DEFAULT_PARTITION__/as_timestamp=__HIVE_DEFAULT_PARTITION__/as_big_decimal=__HIVE_DEFAULT_PARTITION__/part-00001-9ee474eb-385b-43cf-9acb-0fbed63e011c.c000.snappy.parquet
+│  -rw-r--r--  2.0 unx       28 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-deltalake/src/test/resources/data-reader-primitives/.part-00000-4f2f0b9f-50b3-4e7b-96a1-e2bb0f246b06-c000.snappy.parquet.crc
+│  -rw-r--r--  2.0 unx       32 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-deltalake/src/test/resources/data-reader-primitives/.part-00001-09e47b80-36c2-4475-a810-fbd8e7994971-c000.snappy.parquet.crc
+│  -rw-r--r--  2.0 unx     1614 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-deltalake/src/test/resources/data-reader-primitives/_delta_log/00000000000000000000.json
+│  -rw-r--r--  2.0 unx     2482 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-deltalake/src/test/resources/data-reader-primitives/part-00000-4f2f0b9f-50b3-4e7b-96a1-e2bb0f246b06-c000.snappy.parquet
+│  -rw-r--r--  2.0 unx     2568 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-deltalake/src/test/resources/data-reader-primitives/part-00001-09e47b80-36c2-4475-a810-fbd8e7994971-c000.snappy.parquet
+│ --rw-r--r--  2.0 unx    31970 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-esri/.factorypath
+│  -rw-r--r--  2.0 unx     2110 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-esri/README.md
+│ --rw-r--r--  2.0 unx    75639 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-esri/hs_err_pid514043.log
+│  -rw-r--r--  2.0 unx     3586 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-esri/pom.xml
+│ --rw-r--r--  2.0 unx   215319 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-esri/replay_pid514043.log
+│  -rw-r--r--  2.0 unx     2363 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-esri/src/main/java/com/esri/core/geometry/ShapefileByteBufferCursor.java
+│  -rw-r--r--  2.0 unx     1332 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-esri/src/main/java/com/esri/core/geometry/ShapefileReader.java
+│  -rw-r--r--  2.0 unx    11240 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-esri/src/main/java/org/apache/drill/exec/store/esri/ShpBatchReader.java
+│  -rw-r--r--  2.0 unx     2409 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-esri/src/main/java/org/apache/drill/exec/store/esri/ShpFormatConfig.java
+│  -rw-r--r--  2.0 unx     2823 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-esri/src/main/java/org/apache/drill/exec/store/esri/ShpFormatPlugin.java
+│  -rw-r--r--  2.0 unx      379 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-esri/src/main/resources/bootstrap-format-plugins.json
+│  -rw-r--r--  2.0 unx     1126 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-esri/src/main/resources/drill-module.conf
+│  -rw-r--r--  2.0 unx     3926 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-esri/src/test/java/org/apache/drill/exec/store/esri/TestShapefileFormatPlugin.java
+│  -rw-r--r--  2.0 unx   217692 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-esri/src/test/resources/shapefiles/CA-cities.dbf
+│  -rw-r--r--  2.0 unx      281 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-esri/src/test/resources/shapefiles/CA-cities.prj
+│  -rw-r--r--  2.0 unx   160456 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-esri/src/test/resources/shapefiles/CA-cities.shp
+│ --rw-r--r--  2.0 unx    38565 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-excel/.factorypath
+│  -rw-r--r--  2.0 unx     4900 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-excel/README.md
+│  -rw-r--r--  2.0 unx     3736 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-excel/pom.xml
+│  -rw-r--r--  2.0 unx    31510 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-excel/src/main/java/org/apache/drill/exec/store/excel/ExcelBatchReader.java
+│  -rw-r--r--  2.0 unx     8834 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-excel/src/main/java/org/apache/drill/exec/store/excel/ExcelFormatConfig.java
+│  -rw-r--r--  2.0 unx     3449 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-excel/src/main/java/org/apache/drill/exec/store/excel/ExcelFormatPlugin.java
+│  -rw-r--r--  2.0 unx      565 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-excel/src/main/resources/bootstrap-format-plugins.json
+│  -rw-r--r--  2.0 unx      858 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-excel/src/main/resources/drill-module.conf
+│ @@ -2238,16 +2221,14 @@
+│  -rw-r--r--  2.0 unx    10235 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-excel/src/test/resources/excel/missing_data.xlsx
+│  -rw-r--r--  2.0 unx     9208 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-excel/src/test/resources/excel/numeric-formula.xlsx
+│  -rw-r--r--  2.0 unx     9748 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-excel/src/test/resources/excel/schema_provisioning.xlsx
+│  -rw-r--r--  2.0 unx     6426 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-excel/src/test/resources/excel/test_cross_sheet_join.xlsx
+│  -rw-r--r--  2.0 unx    19559 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-excel/src/test/resources/excel/test_data.xlsx
+│  -rw-r--r--  2.0 unx    10341 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-excel/src/test/resources/excel/text-formula.xlsx
+│  -rw-r--r--  2.0 unx     9530 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-excel/src/test/resources/excel/zips-small.xlsx
+│ --rw-r--r--  2.0 unx    31829 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-fixedwidth/.factorypath
+│ --rw-r--r--  2.0 unx    32088 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-hdf5/.factorypath
+│  -rw-r--r--  2.0 unx     8251 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-hdf5/README.md
+│  -rw-r--r--  2.0 unx     3006 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-hdf5/pom.xml
+│  -rw-r--r--  2.0 unx     1861 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-hdf5/src/main/java/org/apache/drill/exec/store/hdf5/HDF5Attribute.java
+│  -rw-r--r--  2.0 unx    47566 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-hdf5/src/main/java/org/apache/drill/exec/store/hdf5/HDF5BatchReader.java
+│  -rw-r--r--  2.0 unx     1777 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-hdf5/src/main/java/org/apache/drill/exec/store/hdf5/HDF5DrillMetadata.java
+│  -rw-r--r--  2.0 unx     2951 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-hdf5/src/main/java/org/apache/drill/exec/store/hdf5/HDF5FormatConfig.java
+│  -rw-r--r--  2.0 unx     3437 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-hdf5/src/main/java/org/apache/drill/exec/store/hdf5/HDF5FormatPlugin.java
+│ @@ -2267,15 +2248,14 @@
+│  -rw-r--r--  2.0 unx     1126 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-hdf5/src/main/resources/drill-module.conf
+│  -rw-r--r--  2.0 unx    32180 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-hdf5/src/test/java/org/apache/drill/exec/store/hdf5/TestHDF5Format.java
+│  -rw-r--r--  2.0 unx     1729 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-hdf5/src/test/java/org/apache/drill/exec/store/hdf5/TestHDF5Utils.java
+│  -rw-r--r--  2.0 unx    13552 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-hdf5/src/test/resources/hdf5/browsing.h5
+│  -rw-r--r--  2.0 unx     1496 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-hdf5/src/test/resources/hdf5/dset.h5
+│  -rw-r--r--  2.0 unx    16464 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-hdf5/src/test/resources/hdf5/non-scalar.h5
+│  -rw-r--r--  2.0 unx    14152 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-hdf5/src/test/resources/hdf5/scalar.h5
+│ --rw-r--r--  2.0 unx    32757 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-httpd/.factorypath
+│  -rw-r--r--  2.0 unx     7159 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-httpd/README.md
+│  -rw-r--r--  2.0 unx     4417 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-httpd/pom.xml
+│  -rw-r--r--  2.0 unx     6141 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-httpd/src/main/java/org/apache/drill/exec/store/httpd/HttpdLogBatchReader.java
+│  -rw-r--r--  2.0 unx     4589 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-httpd/src/main/java/org/apache/drill/exec/store/httpd/HttpdLogFormatConfig.java
+│  -rw-r--r--  2.0 unx     3498 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-httpd/src/main/java/org/apache/drill/exec/store/httpd/HttpdLogFormatPlugin.java
+│  -rw-r--r--  2.0 unx    19496 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-httpd/src/main/java/org/apache/drill/exec/store/httpd/HttpdLogRecord.java
+│  -rw-r--r--  2.0 unx    12171 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-httpd/src/main/java/org/apache/drill/exec/store/httpd/HttpdParser.java
+│ @@ -2286,17 +2266,15 @@
+│  -rw-r--r--  2.0 unx    14766 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-httpd/src/test/java/org/apache/drill/exec/store/httpd/TestHTTPDLogReaderUserAgent.java
+│  -rw-r--r--  2.0 unx      231 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-httpd/src/test/resources/httpd/dfs-bootstrap.httpd
+│  -rw-r--r--  2.0 unx     2458 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-httpd/src/test/resources/httpd/example1.httpd
+│  -rw-r--r--  2.0 unx      205 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-httpd/src/test/resources/httpd/hackers-access-really-small.httpd
+│  -rw-r--r--  2.0 unx     2093 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-httpd/src/test/resources/httpd/hackers-access-small.httpd
+│  -rw-r--r--  2.0 unx      754 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-httpd/src/test/resources/httpd/multiformat.access_log
+│  -rw-r--r--  2.0 unx      925 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-httpd/src/test/resources/httpd/typeremap.httpd
+│ --rw-r--r--  2.0 unx    34742 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-iceberg/.factorypath
+│  -rw-r--r--  2.0 unx     3926 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-iceberg/README.md
+│ --rw-r--r--  2.0 unx    60397 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-iceberg/hs_err_pid1305308.log
+│  -rw-r--r--  2.0 unx     3218 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-iceberg/pom.xml
+│  -rw-r--r--  2.0 unx     5948 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-iceberg/src/main/java/org/apache/drill/exec/store/iceberg/IcebergBlockMapBuilder.java
+│  -rw-r--r--  2.0 unx     1777 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-iceberg/src/main/java/org/apache/drill/exec/store/iceberg/IcebergCompleteWork.java
+│  -rw-r--r--  2.0 unx    13839 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-iceberg/src/main/java/org/apache/drill/exec/store/iceberg/IcebergGroupScan.java
+│  -rw-r--r--  2.0 unx     7352 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-iceberg/src/main/java/org/apache/drill/exec/store/iceberg/IcebergSubScan.java
+│  -rw-r--r--  2.0 unx     4746 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-iceberg/src/main/java/org/apache/drill/exec/store/iceberg/IcebergWork.java
+│  -rw-r--r--  2.0 unx     2191 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-iceberg/src/main/java/org/apache/drill/exec/store/iceberg/format/IcebergFormatLocationTransformer.java
+│ @@ -2316,19 +2294,16 @@
+│  -rw-r--r--  2.0 unx     1271 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-iceberg/src/main/java/org/apache/drill/exec/store/iceberg/snapshot/SnapshotByTime.java
+│  -rw-r--r--  2.0 unx     4639 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-iceberg/src/main/java/org/apache/drill/exec/store/iceberg/snapshot/SnapshotFactory.java
+│  -rw-r--r--  2.0 unx     1392 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-iceberg/src/main/java/org/apache/drill/exec/store/iceberg/snapshot/SnapshotsBetween.java
+│  -rw-r--r--  2.0 unx     3271 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-iceberg/src/main/java/org/apache/iceberg/data/ScanTaskTableScanIterable.java
+│  -rw-r--r--  2.0 unx      276 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-iceberg/src/main/resources/bootstrap-format-plugins.json
+│  -rw-r--r--  2.0 unx     1135 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-iceberg/src/main/resources/drill-module.conf
+│  -rw-r--r--  2.0 unx    29471 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-iceberg/src/test/java/org/apache/drill/exec/store/iceberg/IcebergQueriesTest.java
+│ --rw-r--r--  2.0 unx    32124 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-image/.factorypath
+│  -rw-r--r--  2.0 unx     1115 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-image/README.md
+│ --rw-r--r--  2.0 unx   146992 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-image/hs_err_pid56755.log
+│  -rw-r--r--  2.0 unx     2997 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-image/pom.xml
+│ --rw-r--r--  2.0 unx   286720 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-image/replay_pid56755.log
+│  -rw-r--r--  2.0 unx     3000 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-image/src/main/java/org/apache/drill/exec/store/image/GenericMetadataDescriptor.java
+│  -rw-r--r--  2.0 unx     9096 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-image/src/main/java/org/apache/drill/exec/store/image/GenericMetadataDirectory.java
+│  -rw-r--r--  2.0 unx    17792 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-image/src/main/java/org/apache/drill/exec/store/image/GenericMetadataReader.java
+│  -rw-r--r--  2.0 unx    15705 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-image/src/main/java/org/apache/drill/exec/store/image/ImageBatchReader.java
+│  -rw-r--r--  2.0 unx    12497 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-image/src/main/java/org/apache/drill/exec/store/image/ImageDirectoryProcessor.java
+│  -rw-r--r--  2.0 unx     3489 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-image/src/main/java/org/apache/drill/exec/store/image/ImageFormatConfig.java
+│  -rw-r--r--  2.0 unx     3756 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-image/src/main/java/org/apache/drill/exec/store/image/ImageFormatPlugin.java
+│ @@ -2378,27 +2353,25 @@
+│  -rw-r--r--  2.0 unx      517 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-log/src/test/resources/regex/baddates.log2
+│  -rw-r--r--  2.0 unx    38168 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-log/src/test/resources/regex/firewall.ssdlog
+│  -rw-r--r--  2.0 unx  1298699 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-log/src/test/resources/regex/large.log1
+│  -rw-r--r--  2.0 unx      350 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-log/src/test/resources/regex/mysql.sqllog
+│  -rw-r--r--  2.0 unx      350 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-log/src/test/resources/regex/mysql.sqllog2
+│  -rw-r--r--  2.0 unx      517 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-log/src/test/resources/regex/simple.log1
+│  -rw-r--r--  2.0 unx      517 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-log/src/test/resources/regex/simple.log2
+│ --rw-r--r--  2.0 unx    31829 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-ltsv/.factorypath
+│  -rw-r--r--  2.0 unx     3513 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-ltsv/README.md
+│  -rw-r--r--  2.0 unx     3011 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-ltsv/pom.xml
+│  -rw-r--r--  2.0 unx     9008 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-ltsv/src/main/java/org/apache/drill/exec/store/ltsv/LTSVBatchReader.java
+│  -rw-r--r--  2.0 unx     3084 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-ltsv/src/main/java/org/apache/drill/exec/store/ltsv/LTSVFormatPlugin.java
+│  -rw-r--r--  2.0 unx     4637 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-ltsv/src/main/java/org/apache/drill/exec/store/ltsv/LTSVFormatPluginConfig.java
+│  -rw-r--r--  2.0 unx      559 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-ltsv/src/main/resources/bootstrap-format-plugins.json
+│  -rw-r--r--  2.0 unx     1126 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-ltsv/src/main/resources/drill-module.conf
+│  -rw-r--r--  2.0 unx     6680 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-ltsv/src/test/java/org/apache/drill/exec/store/ltsv/TestLTSVQueries.java
+│  -rw-r--r--  2.0 unx      108 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-ltsv/src/test/resources/emptylines.ltsv
+│  -rw-r--r--  2.0 unx       49 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-ltsv/src/test/resources/invalid.ltsv
+│  -rw-r--r--  2.0 unx      319 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-ltsv/src/test/resources/simple.ltsv
+│ --rw-r--r--  2.0 unx    38565 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-maprdb/.factorypath
+│  -rw-r--r--  2.0 unx      291 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-maprdb/README.md
+│  -rw-r--r--  2.0 unx    11820 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-maprdb/pom.xml
+│  -rw-r--r--  2.0 unx     5933 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-maprdb/src/main/java/org/apache/drill/exec/planner/index/MapRDBFunctionalIndexInfo.java
+│  -rw-r--r--  2.0 unx     9869 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-maprdb/src/main/java/org/apache/drill/exec/planner/index/MapRDBIndexDescriptor.java
+│  -rw-r--r--  2.0 unx    14693 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-maprdb/src/main/java/org/apache/drill/exec/planner/index/MapRDBIndexDiscover.java
+│  -rw-r--r--  2.0 unx    47526 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-maprdb/src/main/java/org/apache/drill/exec/planner/index/MapRDBStatistics.java
+│  -rw-r--r--  2.0 unx     1643 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-maprdb/src/main/java/org/apache/drill/exec/planner/index/MapRDBStatisticsPayload.java
+│ @@ -2477,17 +2450,15 @@
+│  -rw-r--r--  2.0 unx     5081 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-maprdb/src/test/java/com/mapr/drill/maprdb/tests/json/TestEncodedFieldPaths.java
+│  -rw-r--r--  2.0 unx     1907 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-maprdb/src/test/java/com/mapr/drill/maprdb/tests/json/TestFieldPathHelper.java
+│  -rw-r--r--  2.0 unx     5963 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-maprdb/src/test/java/com/mapr/drill/maprdb/tests/json/TestScanRanges.java
+│  -rw-r--r--  2.0 unx    16496 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-maprdb/src/test/java/com/mapr/drill/maprdb/tests/json/TestSimpleJson.java
+│  -rw-r--r--  2.0 unx     9518 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-maprdb/src/test/resources/com/mapr/drill/json/business.json
+│  -rw-r--r--  2.0 unx      705 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-maprdb/src/test/resources/com/mapr/drill/json/encoded_fields_userdata.json
+│  -rw-r--r--  2.0 unx     1098 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-maprdb/src/test/resources/core-site.xml
+│ --rw-r--r--  2.0 unx    31969 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pcapng/.factorypath
+│  -rw-r--r--  2.0 unx     1384 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pcapng/README.md
+│ --rw-r--r--  2.0 unx    86027 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pcapng/hs_err_pid1306570.log
+│  -rw-r--r--  2.0 unx     3032 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pcapng/pom.xml
+│  -rw-r--r--  2.0 unx    15438 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pcapng/src/main/java/org/apache/drill/exec/store/pcap/PcapBatchReader.java
+│  -rw-r--r--  2.0 unx     3143 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pcapng/src/main/java/org/apache/drill/exec/store/pcap/PcapFormatUtils.java
+│  -rw-r--r--  2.0 unx     4632 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pcapng/src/main/java/org/apache/drill/exec/store/pcap/decoder/Murmur128.java
+│  -rw-r--r--  2.0 unx    16107 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pcapng/src/main/java/org/apache/drill/exec/store/pcap/decoder/Packet.java
+│  -rw-r--r--  2.0 unx     2889 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pcapng/src/main/java/org/apache/drill/exec/store/pcap/decoder/PacketConstants.java
+│  -rw-r--r--  2.0 unx     6301 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pcapng/src/main/java/org/apache/drill/exec/store/pcap/decoder/PacketDecoder.java
+│ @@ -2528,15 +2499,14 @@
+│  -rw-r--r--  2.0 unx      512 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pcapng/src/test/resources/pcapng/example.pcap
+│  -rw-r--r--  2.0 unx      512 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pcapng/src/test/resources/pcapng/example.pcapng
+│  -rw-r--r--  2.0 unx    33464 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pcapng/src/test/resources/pcapng/sniff.pcapng
+│  -rw-r--r--  2.0 unx     1733 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pcapng/src/test/resources/todo/dhcp.pcapng
+│  -rw-r--r--  2.0 unx     1757 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pcapng/src/test/resources/todo/dhcp_big_endian.pcapng
+│  -rw-r--r--  2.0 unx     1757 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pcapng/src/test/resources/todo/dhcp_little_endian.pcapng
+│  -rw-r--r--  2.0 unx    30743 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pcapng/src/test/resources/todo/many_interfaces.pcapng
+│ --rw-r--r--  2.0 unx    33452 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pdf/.factorypath
+│  -rw-r--r--  2.0 unx     3518 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pdf/README.md
+│  -rw-r--r--  2.0 unx     3485 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pdf/pom.xml
+│  -rw-r--r--  2.0 unx    17922 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pdf/src/main/java/org/apache/drill/exec/store/pdf/PdfBatchReader.java
+│  -rw-r--r--  2.0 unx     6487 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pdf/src/main/java/org/apache/drill/exec/store/pdf/PdfFormatConfig.java
+│  -rw-r--r--  2.0 unx     3160 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pdf/src/main/java/org/apache/drill/exec/store/pdf/PdfFormatPlugin.java
+│  -rw-r--r--  2.0 unx     4546 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pdf/src/main/java/org/apache/drill/exec/store/pdf/PdfMetadataReader.java
+│  -rw-r--r--  2.0 unx     1621 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pdf/src/main/java/org/apache/drill/exec/store/pdf/PdfRowIterator.java
+│ @@ -2553,57 +2523,51 @@
+│  -rw-r--r--  2.0 unx    34154 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pdf/src/test/resources/pdf/jpeg2000.pdf
+│  -rw-r--r--  2.0 unx    66972 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pdf/src/test/resources/pdf/labor.pdf
+│  -rw-r--r--  2.0 unx    72878 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pdf/src/test/resources/pdf/schools.pdf
+│  -rw-r--r--  2.0 unx   963925 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pdf/src/test/resources/pdf/spreadsheet_no_bounding_frame.pdf
+│  -rw-r--r--  2.0 unx   204955 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pdf/src/test/resources/pdf/twotables.pdf
+│  -rw-r--r--  2.0 unx    54069 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pdf/src/test/resources/pdf/us-017.pdf
+│  -rw-r--r--  2.0 unx   122078 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-pdf/src/test/resources/pdf/us-020.pdf
+│ --rw-r--r--  2.0 unx    32086 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-sas/.factorypath
+│  -rw-r--r--  2.0 unx      737 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-sas/README.md
+│  -rw-r--r--  2.0 unx     2985 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-sas/pom.xml
+│  -rw-r--r--  2.0 unx    14765 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-sas/src/main/java/org/apache/drill/exec/store/sas/SasBatchReader.java
+│  -rw-r--r--  2.0 unx     2406 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-sas/src/main/java/org/apache/drill/exec/store/sas/SasFormatConfig.java
+│  -rw-r--r--  2.0 unx     2888 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-sas/src/main/java/org/apache/drill/exec/store/sas/SasFormatPlugin.java
+│  -rw-r--r--  2.0 unx      566 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-sas/src/main/resources/bootstrap-format-plugins.json
+│  -rw-r--r--  2.0 unx     1125 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-sas/src/main/resources/drill-module.conf
+│  -rw-r--r--  2.0 unx     7887 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-sas/src/test/java/org/apache/drill/exec/store/sas/TestSasReader.java
+│  -rw-r--r--  2.0 unx    13312 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-sas/src/test/resources/sas/all_rand_normal.sas7bdat
+│  -rw-r--r--  2.0 unx   131072 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-sas/src/test/resources/sas/date_formats.sas7bdat
+│  -rw-r--r--  2.0 unx    17408 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-sas/src/test/resources/sas/mixed_data_one.sas7bdat
+│  -rw-r--r--  2.0 unx    25600 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-sas/src/test/resources/sas/mixed_data_two.sas7bdat
+│  -rw-r--r--  2.0 unx   131072 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-sas/src/test/resources/sas/time_formats.sas7bdat
+│ --rw-r--r--  2.0 unx    31976 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-spss/.factorypath
+│  -rw-r--r--  2.0 unx     2718 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-spss/README.md
+│  -rw-r--r--  2.0 unx     3007 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-spss/pom.xml
+│  -rw-r--r--  2.0 unx     6987 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-spss/src/main/java/org/apache/drill/exec/store/spss/SpssBatchReader.java
+│  -rw-r--r--  2.0 unx     2609 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-spss/src/main/java/org/apache/drill/exec/store/spss/SpssFormatConfig.java
+│  -rw-r--r--  2.0 unx     3013 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-spss/src/main/java/org/apache/drill/exec/store/spss/SpssFormatPlugin.java
+│  -rw-r--r--  2.0 unx      557 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-spss/src/main/resources/bootstrap-format-plugins.json
+│  -rw-r--r--  2.0 unx     1126 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-spss/src/main/resources/drill-module.conf
+│  -rw-r--r--  2.0 unx     7598 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-spss/src/test/java/org/apache/drill/exec/store/spss/TestSpssReader.java
+│  -rw-r--r--  2.0 unx    14629 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-spss/src/test/resources/spss/testdata.sav
+│ --rw-r--r--  2.0 unx    31995 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-syslog/.factorypath
+│  -rw-r--r--  2.0 unx     1918 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-syslog/README.md
+│  -rw-r--r--  2.0 unx     3029 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-syslog/pom.xml
+│  -rw-r--r--  2.0 unx    12324 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-syslog/src/main/java/org/apache/drill/exec/store/syslog/SyslogBatchReader.java
+│  -rw-r--r--  2.0 unx     3163 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-syslog/src/main/java/org/apache/drill/exec/store/syslog/SyslogFormatConfig.java
+│  -rw-r--r--  2.0 unx     3186 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-syslog/src/main/java/org/apache/drill/exec/store/syslog/SyslogFormatPlugin.java
+│  -rw-r--r--  2.0 unx      446 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-syslog/src/main/resources/bootstrap-format-plugins.json
+│  -rw-r--r--  2.0 unx     1135 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-syslog/src/main/resources/drill-module.conf
+│  -rw-r--r--  2.0 unx    23023 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-syslog/src/test/java/org/apache/drill/exec/store/syslog/TestSyslogFormat.java
+│  -rw-r--r--  2.0 unx     1035 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-syslog/src/test/resources/syslog/logs.syslog
+│  -rw-r--r--  2.0 unx     1035 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-syslog/src/test/resources/syslog/logs.syslog1
+│  -rw-r--r--  2.0 unx      666 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-syslog/src/test/resources/syslog/logs1.syslog
+│  -rw-r--r--  2.0 unx      468 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-syslog/src/test/resources/syslog/test.syslog
+│  -rw-r--r--  2.0 unx      624 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-syslog/src/test/resources/syslog/test.syslog1
+│ --rw-r--r--  2.0 unx    31829 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-xml/.factorypath
+│  -rw-r--r--  2.0 unx     5994 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-xml/README.md
+│ --rw-r--r--  2.0 unx   102183 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-xml/hs_err_pid137187.log
+│  -rw-r--r--  2.0 unx     2849 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-xml/pom.xml
+│ --rw-r--r--  2.0 unx   461597 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-xml/replay_pid137187.log
+│  -rw-r--r--  2.0 unx     3314 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-xml/src/main/java/org/apache/drill/exec/store/xml/XMLBatchReader.java
+│  -rw-r--r--  2.0 unx     2680 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-xml/src/main/java/org/apache/drill/exec/store/xml/XMLFormatConfig.java
+│  -rw-r--r--  2.0 unx     3462 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-xml/src/main/java/org/apache/drill/exec/store/xml/XMLFormatPlugin.java
+│  -rw-r--r--  2.0 unx     1748 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-xml/src/main/java/org/apache/drill/exec/store/xml/XMLMap.java
+│  -rw-r--r--  2.0 unx    20889 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-xml/src/main/java/org/apache/drill/exec/store/xml/XMLReader.java
+│  -rw-r--r--  2.0 unx     3689 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-xml/src/main/java/org/apache/drill/exec/store/xml/XMLUtils.java
+│  -rw-r--r--  2.0 unx      374 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-xml/src/main/resources/bootstrap-format-plugins.json
+│ @@ -2620,26 +2584,14 @@
+│  -rw-r--r--  2.0 unx     1446 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-xml/src/test/resources/xml/simple.xml
+│  -rw-r--r--  2.0 unx     1331 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-xml/src/test/resources/xml/simple_array.xml
+│  -rw-r--r--  2.0 unx     1851 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-xml/src/test/resources/xml/simple_schema.xsd
+│  -rw-r--r--  2.0 unx     1626 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-xml/src/test/resources/xml/simple_with_datatypes.xml
+│  -rw-r--r--  2.0 unx     1236 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-xml/src/test/resources/xml/very-nested-with-attributes.xml
+│  -rw-r--r--  2.0 unx     1553 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/format-xml/src/test/resources/xml/weather.xml
+│  -rw-r--r--  2.0 unx     6309 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/CMakeLists.txt
+│ --rw-r--r--  2.0 unx    15038 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/build/CMakeCache.txt
+│ --rw-r--r--  2.0 unx     2441 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/CMakeCCompiler.cmake
+│ --rw-r--r--  2.0 unx     5439 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/CMakeCXXCompiler.cmake
+│ --rw-r--r--  2.0 unx    16024 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/CMakeDetermineCompilerABI_C.bin
+│ --rw-r--r--  2.0 unx    16040 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/CMakeDetermineCompilerABI_CXX.bin
+│ --rw-r--r--  2.0 unx      386 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/CMakeSystem.cmake
+│ --rw-r--r--  2.0 unx    26520 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/CompilerIdC/CMakeCCompilerId.c
+│ --rw-r--r--  2.0 unx    16136 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/CompilerIdC/a.out
+│ --rw-r--r--  2.0 unx    26294 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+│ --rw-r--r--  2.0 unx    16152 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/CompilerIdCXX/a.out
+│ --rw-r--r--  2.0 unx    46849 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/CMakeOutput.log
+│ --rw-r--r--  2.0 unx       85 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/cmake.check_cache
+│  -rw-r--r--  2.0 unx     2806 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/cmakeModules/FindCppUnit.cmake
+│  -rw-r--r--  2.0 unx     2147 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/cmakeModules/FindSASL.cmake
+│  -rw-r--r--  2.0 unx     3066 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/cmakeModules/FindZookeeper.cmake
+│  -rw-r--r--  2.0 unx    26578 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/example/querySubmitter.cpp
+│  -rw-r--r--  2.0 unx     2493 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/readme.boost
+│  -rw-r--r--  2.0 unx     3951 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/readme.linux
+│  -rw-r--r--  2.0 unx     4791 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/readme.macos
+│ @@ -2730,15 +2682,14 @@
+│  -rw-r--r--  2.0 unx      963 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/test/ssl/drillTestServerKey.pem
+│  -rw-r--r--  2.0 unx      963 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/test/ssl/drillTestServerKey.safe.pem
+│  -rw-r--r--  2.0 unx      891 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/test/ssl/drillTestServerKeyNoPass.pem
+│  -rw-r--r--  2.0 unx     5258 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/test/ssl/testClient.cpp
+│  -rw-r--r--  2.0 unx    17226 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/test/ssl/testSSL.cpp
+│  -rw-r--r--  2.0 unx     5570 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/native/client/test/ssl/testServer.cpp
+│  -rw-r--r--  2.0 unx     2683 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/pom.xml
+│ --rw-r--r--  2.0 unx    33803 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-cassandra/.factorypath
+│  -rw-r--r--  2.0 unx     2280 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-cassandra/README.md
+│  -rw-r--r--  2.0 unx     4106 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-cassandra/pom.xml
+│  -rw-r--r--  2.0 unx     1860 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-cassandra/src/main/java/com/codahale/metrics/JmxReporter.java
+│  -rw-r--r--  2.0 unx     2874 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-cassandra/src/main/java/org/apache/calcite/adapter/cassandra/CalciteUtils.java
+│  -rw-r--r--  2.0 unx     5584 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-cassandra/src/main/java/org/apache/drill/exec/store/cassandra/CassandraColumnConverterFactory.java
+│  -rw-r--r--  2.0 unx     1399 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-cassandra/src/main/java/org/apache/drill/exec/store/cassandra/CassandraColumnConverterFactoryProvider.java
+│  -rw-r--r--  2.0 unx     5598 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-cassandra/src/main/java/org/apache/drill/exec/store/cassandra/CassandraStorageConfig.java
+│ @@ -2770,15 +2721,14 @@
+│  -rw-r--r--  2.0 unx      935 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-drill/src/main/java/org/apache/drill/exec/store/drill/plugin/package-info.java
+│  -rw-r--r--  2.0 unx     6474 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-drill/src/main/java/org/apache/drill/exec/store/drill/plugin/plan/DrillPluginImplementor.java
+│  -rw-r--r--  2.0 unx     5082 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-drill/src/main/java/org/apache/drill/exec/store/drill/plugin/schema/DrillPluginSchema.java
+│  -rw-r--r--  2.0 unx     2770 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-drill/src/main/java/org/apache/drill/exec/store/drill/plugin/schema/DrillSchemaFactory.java
+│  -rw-r--r--  2.0 unx      147 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-drill/src/main/resources/bootstrap-storage-plugins.json
+│  -rw-r--r--  2.0 unx     1140 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-drill/src/main/resources/drill-module.conf
+│  -rw-r--r--  2.0 unx    10021 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-drill/src/test/java/org/apache/drill/exec/store/drill/plugin/DrillPluginQueriesTest.java
+│ --rw-r--r--  2.0 unx    32591 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-druid/.factorypath
+│  -rw-r--r--  2.0 unx     1905 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-druid/README.md
+│  -rw-r--r--  2.0 unx     3376 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-druid/pom.xml
+│  -rw-r--r--  2.0 unx     9033 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-druid/src/main/java/org/apache/drill/exec/store/druid/DruidCompareFunctionProcessor.java
+│  -rw-r--r--  2.0 unx     6532 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-druid/src/main/java/org/apache/drill/exec/store/druid/DruidFilterBuilder.java
+│  -rw-r--r--  2.0 unx     9331 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-druid/src/main/java/org/apache/drill/exec/store/druid/DruidGroupScan.java
+│  -rw-r--r--  2.0 unx     3647 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-druid/src/main/java/org/apache/drill/exec/store/druid/DruidPushDownFilterForScan.java
+│  -rw-r--r--  2.0 unx     6675 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-druid/src/main/java/org/apache/drill/exec/store/druid/DruidRecordReader.java
+│ @@ -2829,15 +2779,14 @@
+│  -rw-r--r--  2.0 unx     6366 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-druid/src/test/java/org/apache/drill/exec/store/druid/TestDataGenerator.java
+│  -rw-r--r--  2.0 unx     2710 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-druid/src/test/java/org/apache/drill/exec/store/druid/TestDruidQueries.java
+│  -rw-r--r--  2.0 unx     4961 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-druid/src/test/java/org/apache/drill/exec/store/druid/rest/DruidQueryClientTest.java
+│  -rw-r--r--  2.0 unx      228 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-druid/src/test/resources/bootstrap-storage-plugins.json
+│  -rw-r--r--  2.0 unx     2961 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-druid/src/test/resources/druid/docker-compose.yaml
+│  -rw-r--r--  2.0 unx     2339 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-druid/src/test/resources/druid/environment.env
+│  -rw-r--r--  2.0 unx     1929 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-druid/src/test/resources/wikipedia-index.json
+│ --rw-r--r--  2.0 unx    32978 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-elasticsearch/.factorypath
+│  -rw-r--r--  2.0 unx     2609 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-elasticsearch/README.md
+│  -rw-r--r--  2.0 unx     4481 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-elasticsearch/pom.xml
+│  -rw-r--r--  2.0 unx     3744 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/CalciteUtils.java
+│  -rw-r--r--  2.0 unx     1483 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/DrillElasticsearchTableScan.java
+│  -rw-r--r--  2.0 unx     2722 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-elasticsearch/src/main/java/org/apache/drill/exec/store/elasticsearch/ElasticsearchColumnConverterFactory.java
+│  -rw-r--r--  2.0 unx     1415 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-elasticsearch/src/main/java/org/apache/drill/exec/store/elasticsearch/ElasticsearchColumnConverterFactoryProvider.java
+│  -rw-r--r--  2.0 unx     6956 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-elasticsearch/src/main/java/org/apache/drill/exec/store/elasticsearch/ElasticsearchStorageConfig.java
+│ @@ -2891,15 +2840,14 @@
+│  -rw-r--r--  2.0 unx     5545 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-googlesheets/src/test/java/org/apache/drill/exec/store/googlesheets/TestGoogleSheetsLimitPushdown.java
+│  -rw-r--r--  2.0 unx    20964 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-googlesheets/src/test/java/org/apache/drill/exec/store/googlesheets/TestGoogleSheetsQueries.java
+│  -rw-r--r--  2.0 unx     7579 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-googlesheets/src/test/java/org/apache/drill/exec/store/googlesheets/TestGoogleSheetsWriter.java
+│  -rw-r--r--  2.0 unx     3779 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-googlesheets/src/test/java/org/apache/drill/exec/store/googlesheets/TestRangeBuilder.java
+│  -rw-r--r--  2.0 unx     7610 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-googlesheets/src/test/resources/data/Drill_Test_Data.xlsx
+│  -rw-r--r--  2.0 unx       28 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-googlesheets/src/test/resources/data/insert_data.csvh
+│  -rw-r--r--  2.0 unx       31 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-googlesheets/src/test/resources/data/insert_data2.csvh
+│ --rw-r--r--  2.0 unx    32915 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-hbase/.factorypath
+│  -rw-r--r--  2.0 unx    10568 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-hbase/pom.xml
+│  -rw-r--r--  2.0 unx     2194 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-hbase/src/main/java/org/apache/drill/exec/expr/fn/impl/conv/OrderedBytesBigIntConvertFrom.java
+│  -rw-r--r--  2.0 unx     2321 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-hbase/src/main/java/org/apache/drill/exec/expr/fn/impl/conv/OrderedBytesBigIntConvertTo.java
+│  -rw-r--r--  2.0 unx     2327 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-hbase/src/main/java/org/apache/drill/exec/expr/fn/impl/conv/OrderedBytesBigIntDescConvertTo.java
+│  -rw-r--r--  2.0 unx     2196 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-hbase/src/main/java/org/apache/drill/exec/expr/fn/impl/conv/OrderedBytesDoubleConvertFrom.java
+│  -rw-r--r--  2.0 unx     2323 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-hbase/src/main/java/org/apache/drill/exec/expr/fn/impl/conv/OrderedBytesDoubleConvertTo.java
+│  -rw-r--r--  2.0 unx     2329 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-hbase/src/main/java/org/apache/drill/exec/expr/fn/impl/conv/OrderedBytesDoubleDescConvertTo.java
+│ @@ -3089,21 +3037,19 @@
+│  -rw-r--r--  2.0 unx      992 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-hive/core/src/test/resources/functions/hive/UDF.json
+│  -rw-r--r--  2.0 unx     2194 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-hive/core/src/test/resources/simple.json
+│  -rw-r--r--  2.0 unx      374 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-hive/core/src/test/resources/student.txt
+│  -rw-r--r--  2.0 unx      429 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-hive/core/src/test/resources/voter.txt
+│  -rw-r--r--  2.0 unx    11635 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-hive/hive-exec-shade/pom.xml
+│  -rw-r--r--  2.0 unx     1116 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-hive/hive-exec-shade/src/main/resources/drill-module.conf
+│  -rw-r--r--  2.0 unx     1567 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-hive/pom.xml
+│ --rw-r--r--  2.0 unx    32215 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-http/.factorypath
+│  -rw-r--r--  2.0 unx     3843 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-http/JSON_Options.md
+│  -rw-r--r--  2.0 unx     9200 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-http/OAuth.md
+│  -rw-r--r--  2.0 unx     3226 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-http/Pagination.md
+│  -rw-r--r--  2.0 unx    22874 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-http/README.md
+│  -rw-r--r--  2.0 unx     1258 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-http/XML_Options.md
+│ --rw-r--r--  2.0 unx        0 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-http/gurk.log
+│  -rw-r--r--  2.0 unx    92037 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-http/images/access_token.png
+│  -rw-r--r--  2.0 unx    19115 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-http/images/get_access_token.png
+│  -rw-r--r--  2.0 unx    50256 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-http/images/issue_count.png
+│  -rw-r--r--  2.0 unx     3494 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-http/pom.xml
+│  -rw-r--r--  2.0 unx     3016 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-http/src/main/java/org/apache/drill/exec/store/http/HttpAPIConnectionSchema.java
+│  -rw-r--r--  2.0 unx    17285 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-http/src/main/java/org/apache/drill/exec/store/http/HttpApiConfig.java
+│  -rw-r--r--  2.0 unx    18931 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-http/src/main/java/org/apache/drill/exec/store/http/HttpBatchReader.java
+│ @@ -3177,15 +3123,14 @@
+│  -rw-r--r--  2.0 unx     1263 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-http/src/test/resources/data/response_3.xml
+│  -rw-r--r--  2.0 unx       36 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-http/src/test/resources/data/response_4.csv
+│  -rw-r--r--  2.0 unx      245 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-http/src/test/resources/data/schema_change_1.json
+│  -rw-r--r--  2.0 unx      549 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-http/src/test/resources/data/schema_change_2.json
+│  -rw-r--r--  2.0 unx      409 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-http/src/test/resources/data/simple.json
+│  -rw-r--r--  2.0 unx      116 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-http/src/test/resources/data/token_refresh.json
+│  -rw-r--r--  2.0 unx     2559 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-http/src/test/resources/data/weather.json
+│ --rw-r--r--  2.0 unx    31744 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-jdbc/.factorypath
+│  -rw-r--r--  2.0 unx     3801 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-jdbc/WritingToJDBC.md
+│  -rw-r--r--  2.0 unx     5521 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-jdbc/pom.xml
+│  -rw-r--r--  2.0 unx     7570 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-jdbc/src/main/java/org/apache/drill/exec/store/jdbc/CapitalizingJdbcSchema.java
+│  -rw-r--r--  2.0 unx     2581 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-jdbc/src/main/java/org/apache/drill/exec/store/jdbc/DefaultJdbcDialect.java
+│  -rw-r--r--  2.0 unx     5331 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-jdbc/src/main/java/org/apache/drill/exec/store/jdbc/DrillJdbcConvention.java
+│  -rw-r--r--  2.0 unx    13450 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-jdbc/src/main/java/org/apache/drill/exec/store/jdbc/JdbcBatchReader.java
+│  -rw-r--r--  2.0 unx     6664 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-jdbc/src/main/java/org/apache/drill/exec/store/jdbc/JdbcCatalogSchema.java
+│ @@ -3253,22 +3198,16 @@
+│  -rw-r--r--  2.0 unx       95 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-jdbc/src/test/resources/json/repeatedData.json
+│  -rw-r--r--  2.0 unx      122 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-jdbc/src/test/resources/json/uglyData.json
+│  -rw-r--r--  2.0 unx     2938 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-jdbc/src/test/resources/mssql-test-data.ms.sql
+│  -rw-r--r--  2.0 unx      183 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-jdbc/src/test/resources/mysql-test-data-linux.sql
+│  -rw-r--r--  2.0 unx     4080 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-jdbc/src/test/resources/mysql-test-data.sql
+│  -rw-r--r--  2.0 unx      842 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-jdbc/src/test/resources/mysql_config_override/mysql_override.cnf
+│  -rw-r--r--  2.0 unx     4261 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-jdbc/src/test/resources/postgres-test-data.sql
+│ --rw-r--r--  2.0 unx    35710 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kafka/.factorypath
+│  -rw-r--r--  2.0 unx    12426 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kafka/README.md
+│ --rw-r--r--  2.0 unx        0 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kafka/gurk.log
+│ --rw-r--r--  2.0 unx    86196 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kafka/hs_err_pid1302689.log
+│ --rw-r--r--  2.0 unx    81977 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kafka/hs_err_pid440703.log
+│  -rw-r--r--  2.0 unx     4692 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kafka/pom.xml
+│ --rw-r--r--  2.0 unx   247391 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kafka/replay_pid1302689.log
+│ --rw-r--r--  2.0 unx   267346 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kafka/replay_pid440703.log
+│  -rw-r--r--  2.0 unx     3746 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kafka/src/main/java/org/apache/drill/exec/store/kafka/KafkaAsyncCloser.java
+│  -rw-r--r--  2.0 unx    15523 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kafka/src/main/java/org/apache/drill/exec/store/kafka/KafkaGroupScan.java
+│  -rw-r--r--  2.0 unx     6935 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kafka/src/main/java/org/apache/drill/exec/store/kafka/KafkaNodeProcessor.java
+│  -rw-r--r--  2.0 unx     3537 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kafka/src/main/java/org/apache/drill/exec/store/kafka/KafkaPartitionScanSpec.java
+│  -rw-r--r--  2.0 unx    14156 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kafka/src/main/java/org/apache/drill/exec/store/kafka/KafkaPartitionScanSpecBuilder.java
+│  -rw-r--r--  2.0 unx     3632 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kafka/src/main/java/org/apache/drill/exec/store/kafka/KafkaPushDownFilterIntoScan.java
+│  -rw-r--r--  2.0 unx     4579 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kafka/src/main/java/org/apache/drill/exec/store/kafka/KafkaRecordReader.java
+│ @@ -3296,15 +3235,14 @@
+│  -rw-r--r--  2.0 unx     3560 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kafka/src/test/java/org/apache/drill/exec/store/kafka/KafkaTestBase.java
+│  -rw-r--r--  2.0 unx     4429 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kafka/src/test/java/org/apache/drill/exec/store/kafka/MessageIteratorTest.java
+│  -rw-r--r--  2.0 unx     5826 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kafka/src/test/java/org/apache/drill/exec/store/kafka/TestKafkaSuit.java
+│  -rw-r--r--  2.0 unx     2307 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kafka/src/test/java/org/apache/drill/exec/store/kafka/TestQueryConstants.java
+│  -rw-r--r--  2.0 unx     6040 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kafka/src/test/java/org/apache/drill/exec/store/kafka/cluster/EmbeddedKafkaCluster.java
+│  -rw-r--r--  2.0 unx     3167 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kafka/src/test/java/org/apache/drill/exec/store/kafka/decoders/MessageReaderFactoryTest.java
+│  -rw-r--r--  2.0 unx      993 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kafka/src/test/resources/login.conf
+│ --rw-r--r--  2.0 unx    32109 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kudu/.factorypath
+│  -rw-r--r--  2.0 unx       21 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kudu/README.md
+│  -rw-r--r--  2.0 unx     5596 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kudu/pom.xml
+│  -rw-r--r--  2.0 unx      883 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kudu/src/main/codegen/config.fmpp
+│  -rw-r--r--  2.0 unx     5020 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kudu/src/main/codegen/templates/KuduRecordWriter.java
+│  -rw-r--r--  2.0 unx     2874 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kudu/src/main/java/org/apache/drill/exec/store/kudu/DrillKuduTable.java
+│  -rw-r--r--  2.0 unx     9311 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kudu/src/main/java/org/apache/drill/exec/store/kudu/KuduGroupScan.java
+│  -rw-r--r--  2.0 unx    12396 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kudu/src/main/java/org/apache/drill/exec/store/kudu/KuduRecordReader.java
+│ @@ -3318,15 +3256,14 @@
+│  -rw-r--r--  2.0 unx     2717 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kudu/src/main/java/org/apache/drill/exec/store/kudu/KuduWriter.java
+│  -rw-r--r--  2.0 unx     1713 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kudu/src/main/java/org/apache/drill/exec/store/kudu/KuduWriterBatchCreator.java
+│  -rw-r--r--  2.0 unx      123 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kudu/src/main/resources/bootstrap-storage-plugins.json
+│  -rw-r--r--  2.0 unx     1144 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kudu/src/main/resources/drill-module.conf
+│  -rw-r--r--  2.0 unx     4619 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kudu/src/test/java/org/apache/drill/store/kudu/TestKuduConnect.java
+│  -rw-r--r--  2.0 unx     1822 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kudu/src/test/java/org/apache/drill/store/kudu/TestKuduPlugin.java
+│  -rw-r--r--  2.0 unx      126 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-kudu/src/test/resources/bootstrap-storage-plugins.json
+│ --rw-r--r--  2.0 unx    32051 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-mongo/.factorypath
+│  -rw-r--r--  2.0 unx     3336 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-mongo/pom.xml
+│  -rw-r--r--  2.0 unx    14580 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-mongo/src/main/java/org/apache/drill/exec/store/bson/BsonRecordReader.java
+│  -rw-r--r--  2.0 unx     2352 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-mongo/src/main/java/org/apache/drill/exec/store/mongo/BaseMongoSubScanSpec.java
+│  -rw-r--r--  2.0 unx     1505 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-mongo/src/main/java/org/apache/drill/exec/store/mongo/DrillMongoConstants.java
+│  -rw-r--r--  2.0 unx     7891 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-mongo/src/main/java/org/apache/drill/exec/store/mongo/MongoAggregateUtils.java
+│  -rw-r--r--  2.0 unx     2056 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-mongo/src/main/java/org/apache/drill/exec/store/mongo/MongoCnxnKey.java
+│  -rw-r--r--  2.0 unx     9305 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-mongo/src/main/java/org/apache/drill/exec/store/mongo/MongoCompareFunctionProcessor.java
+│ @@ -3363,15 +3300,14 @@
+│  -rw-r--r--  2.0 unx     3193 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-mongo/src/test/java/org/apache/drill/exec/store/mongo/TestMongoStoragePluginUsesCredentialsStore.java
+│  -rw-r--r--  2.0 unx     1718 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-mongo/src/test/java/org/apache/drill/exec/store/mongo/TestTableGenerator.java
+│  -rw-r--r--  2.0 unx     2043 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-mongo/src/test/resources/core-site.xml
+│  -rw-r--r--  2.0 unx      180 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-mongo/src/test/resources/datatype-oid.json
+│  -rw-r--r--  2.0 unx     2983 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-mongo/src/test/resources/donuts.json
+│  -rw-r--r--  2.0 unx     2868 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-mongo/src/test/resources/emp.json
+│  -rw-r--r--  2.0 unx      794 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-mongo/src/test/resources/schema_change_int_to_string.json
+│ --rw-r--r--  2.0 unx    32588 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-opentsdb/.factorypath
+│  -rw-r--r--  2.0 unx     2260 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-opentsdb/README.md
+│  -rw-r--r--  2.0 unx     2935 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-opentsdb/pom.xml
+│  -rw-r--r--  2.0 unx     1189 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-opentsdb/src/main/java/org/apache/drill/exec/store/openTSDB/Constants.java
+│  -rw-r--r--  2.0 unx     3439 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-opentsdb/src/main/java/org/apache/drill/exec/store/openTSDB/DrillOpenTSDBTable.java
+│  -rw-r--r--  2.0 unx     2241 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-opentsdb/src/main/java/org/apache/drill/exec/store/openTSDB/OpenTSDBBatchCreator.java
+│  -rw-r--r--  2.0 unx     6244 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-opentsdb/src/main/java/org/apache/drill/exec/store/openTSDB/OpenTSDBGroupScan.java
+│  -rw-r--r--  2.0 unx     9517 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-opentsdb/src/main/java/org/apache/drill/exec/store/openTSDB/OpenTSDBRecordReader.java
+│ @@ -3392,15 +3328,14 @@
+│  -rw-r--r--  2.0 unx     2087 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-opentsdb/src/main/java/org/apache/drill/exec/store/openTSDB/dto/MetricDTO.java
+│  -rw-r--r--  2.0 unx     3146 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-opentsdb/src/main/java/org/apache/drill/exec/store/openTSDB/schema/OpenTSDBSchemaFactory.java
+│  -rw-r--r--  2.0 unx      142 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-opentsdb/src/main/resources/bootstrap-storage-plugins.json
+│  -rw-r--r--  2.0 unx     1136 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-opentsdb/src/main/resources/drill-module.conf
+│  -rw-r--r--  2.0 unx     8461 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-opentsdb/src/test/java/org/apache/drill/exec/store/openTSDB/TestDataHolder.java
+│  -rw-r--r--  2.0 unx     9548 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-opentsdb/src/test/java/org/apache/drill/exec/store/openTSDB/TestOpenTSDBPlugin.java
+│  -rw-r--r--  2.0 unx     3101 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-opentsdb/src/test/java/org/apache/drill/exec/store/openTSDB/TestSizeEstimator.java
+│ --rw-r--r--  2.0 unx    34345 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-phoenix/.factorypath
+│  -rw-r--r--  2.0 unx     4384 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-phoenix/README.md
+│  -rw-r--r--  2.0 unx    13442 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-phoenix/pom.xml
+│  -rw-r--r--  2.0 unx     9061 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-phoenix/src/main/java/org/apache/drill/exec/store/phoenix/PhoenixBatchReader.java
+│  -rw-r--r--  2.0 unx     6860 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-phoenix/src/main/java/org/apache/drill/exec/store/phoenix/PhoenixDataSource.java
+│  -rw-r--r--  2.0 unx     5628 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-phoenix/src/main/java/org/apache/drill/exec/store/phoenix/PhoenixGroupScan.java
+│  -rw-r--r--  2.0 unx     9910 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-phoenix/src/main/java/org/apache/drill/exec/store/phoenix/PhoenixReader.java
+│  -rw-r--r--  2.0 unx     3841 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-phoenix/src/main/java/org/apache/drill/exec/store/phoenix/PhoenixScanBatchCreator.java
+│ @@ -3429,15 +3364,14 @@
+│  -rw-r--r--  2.0 unx     3005 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-phoenix/src/test/java/org/apache/drill/exec/store/phoenix/secured/SecuredPhoenixCommandTest.java
+│  -rw-r--r--  2.0 unx     5557 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-phoenix/src/test/java/org/apache/drill/exec/store/phoenix/secured/SecuredPhoenixDataTypeTest.java
+│  -rw-r--r--  2.0 unx    12971 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-phoenix/src/test/java/org/apache/drill/exec/store/phoenix/secured/SecuredPhoenixSQLTest.java
+│  -rw-r--r--  2.0 unx     2581 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-phoenix/src/test/java/org/apache/drill/exec/store/phoenix/secured/SecuredPhoenixTestSuite.java
+│  -rw-r--r--  2.0 unx     2224 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-phoenix/src/test/resources/data/nation.tbl
+│  -rw-r--r--  2.0 unx      389 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-phoenix/src/test/resources/data/region.tbl
+│  -rw-r--r--  2.0 unx     1263 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-phoenix/src/test/resources/hbase-site.xml
+│ --rw-r--r--  2.0 unx    31744 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-splunk/.factorypath
+│  -rw-r--r--  2.0 unx     9867 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-splunk/README.md
+│  -rw-r--r--  2.0 unx     4324 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-splunk/pom.xml
+│  -rw-r--r--  2.0 unx     1433 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-splunk/src/main/java/org/apache/drill/exec/store/splunk/SplunkBatchInsertWriter.java
+│  -rw-r--r--  2.0 unx    13478 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-splunk/src/main/java/org/apache/drill/exec/store/splunk/SplunkBatchReader.java
+│  -rw-r--r--  2.0 unx    12163 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-splunk/src/main/java/org/apache/drill/exec/store/splunk/SplunkBatchWriter.java
+│  -rw-r--r--  2.0 unx     7902 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-splunk/src/main/java/org/apache/drill/exec/store/splunk/SplunkConnection.java
+│  -rw-r--r--  2.0 unx    10936 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-splunk/src/main/java/org/apache/drill/exec/store/splunk/SplunkGroupScan.java
+│ @@ -3468,19 +3402,16 @@
+│  -rw-r--r--  2.0 unx     7702 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-splunk/src/test/java/org/apache/drill/exec/store/splunk/SplunkWriterTest.java
+│  -rw-r--r--  2.0 unx     4121 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-splunk/src/test/java/org/apache/drill/exec/store/splunk/TestSplunkUserTranslation.java
+│  -rw-r--r--  2.0 unx      278 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-splunk/src/test/resources/schema_test.json
+│  -rw-r--r--  2.0 unx     6312 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-splunk/src/test/resources/test_data.csv
+│  -rw-r--r--  2.0 unx     6312 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-splunk/src/test/resources/test_data.csvh
+│  -rw-r--r--  2.0 unx      559 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-splunk/src/test/resources/test_data2.csvh
+│  -rw-r--r--  2.0 unx      896 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/storage-splunk/src/test/splunk.md
+│ --rw-r--r--  2.0 unx    33036 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/udfs/.factorypath
+│  -rw-r--r--  2.0 unx    21978 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/udfs/README.md
+│ --rw-r--r--  2.0 unx    65355 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/udfs/hs_err_pid440808.log
+│  -rw-r--r--  2.0 unx     4679 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/udfs/pom.xml
+│ --rw-r--r--  2.0 unx   336205 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/udfs/replay_pid440808.log
+│  -rw-r--r--  2.0 unx      110 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/udfs/sample-data/CA-cities-with-nulls.csv
+│  -rw-r--r--  2.0 unx   238508 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/udfs/sample-data/CA-cities.csv
+│  -rw-r--r--  2.0 unx      171 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/udfs/sample-data/polygons.tsv
+│  -rw-r--r--  2.0 unx      996 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/udfs/src/main/java/com/esri/core/geometry/VertexGeomAccessor.java
+│  -rw-r--r--  2.0 unx     2333 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/udfs/src/main/java/org/apache/drill/exec/udfs/ComplexSchemaFunctions.java
+│  -rw-r--r--  2.0 unx     2524 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/udfs/src/main/java/org/apache/drill/exec/udfs/ComplexSchemaUtils.java
+│  -rw-r--r--  2.0 unx    11835 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/contrib/udfs/src/main/java/org/apache/drill/exec/udfs/CryptoFunctions.java
+│ @@ -3625,15 +3556,14 @@
+│  -rw-r--r--  2.0 unx      880 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/docs/dev/TempDirectories.md
+│  -rw-r--r--  2.0 unx     5932 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/docs/dev/TestDataSets.md
+│  -rw-r--r--  2.0 unx     8190 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/docs/dev/TestLogging.md
+│  -rw-r--r--  2.0 unx    10217 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/docs/dev/Testing.md
+│  -rw-r--r--  2.0 unx     2472 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/docs/dev/UpgradeGuava.md
+│  -rw-r--r--  2.0 unx     2550 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/drill-shaded/drill-shaded-guava/pom.xml
+│  -rw-r--r--  2.0 unx     2658 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/drill-shaded/pom.xml
+│ --rw-r--r--  2.0 unx    32229 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/drill-yarn/.factorypath
+│  -rw-r--r--  2.0 unx     9364 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/drill-yarn/README.md
+│  -rw-r--r--  2.0 unx    54000 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/drill-yarn/USAGE.md
+│  -rw-r--r--  2.0 unx   111982 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/drill-yarn/img/am-overview.png
+│  -rw-r--r--  2.0 unx   138409 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/drill-yarn/img/client-classes.png
+│  -rw-r--r--  2.0 unx   157668 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/drill-yarn/img/controller-classes.png
+│  -rw-r--r--  2.0 unx    65994 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/drill-yarn/img/overview.png
+│  -rw-r--r--  2.0 unx     4671 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/drill-yarn/pom.xml
+│ @@ -3747,16 +3677,14 @@
+│  -rw-r--r--  2.0 unx    15067 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/drill-yarn/src/test/java/org/apache/drill/yarn/zk/TestZkRegistry.java
+│  -rw-r--r--  2.0 unx     2340 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/drill-yarn/src/test/resources/doy-test-logback.xml
+│  -rw-r--r--  2.0 unx     1300 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/drill-yarn/src/test/resources/second-test-config.conf
+│  -rw-r--r--  2.0 unx     1245 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/drill-yarn/src/test/resources/test-doy-config.conf
+│  -rw-r--r--  2.0 unx     1188 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/drill-yarn/src/test/resources/test-doy-distrib.conf
+│  -rw-r--r--  2.0 unx     1216 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/drill-yarn/src/test/resources/third-test-config.conf
+│  -rw-r--r--  2.0 unx     1397 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/drill-yarn/src/test/resources/wrapper.sh
+│ --rw-r--r--  2.0 unx    32077 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/java-exec/.factorypath
+│ --rw-r--r--  2.0 unx   150365 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/java-exec/hs_err_pid485903.log
+│  -rw-r--r--  2.0 unx    34895 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/java-exec/pom.xml
+│  -rw-r--r--  2.0 unx     2597 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/java-exec/src/main/codegen/config.fmpp
+│  -rw-r--r--  2.0 unx     5099 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/java-exec/src/main/codegen/data/AggrBitwiseLogicalTypes.tdd
+│  -rw-r--r--  2.0 unx    19087 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/java-exec/src/main/codegen/data/AggrTypes1.tdd
+│  -rw-r--r--  2.0 unx     2773 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/java-exec/src/main/codegen/data/AggrTypes2.tdd
+│  -rw-r--r--  2.0 unx    13234 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/java-exec/src/main/codegen/data/AggrTypes3.tdd
+│  -rw-r--r--  2.0 unx     1210 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/java-exec/src/main/codegen/data/CastHigh.tdd
+│ @@ -7752,15 +7680,14 @@
+│  -rw-r--r--  2.0 unx     1171 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/java-exec/src/test/resources/xsort/one_key_sort_descending_sv2.json
+│  -rw-r--r--  2.0 unx     1326 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/java-exec/src/test/resources/xsort/oom_sort_test.json
+│  -rw-r--r--  2.0 unx     1127 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/java-exec/src/test/resources/zkacltest.conf
+│  -rw-r--r--  2.0 unx     1149 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/java-exec/src/test/sh/runbit
+│  -rw-r--r--  2.0 unx     1320 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/java-exec/src/test/sh/runexec
+│  -rw-r--r--  2.0 unx     2171 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/java-exec/srcMapr/main/java/org/apache/drill/exec/ssl/SSLCredentialsProviderMaprClient.java
+│  -rw-r--r--  2.0 unx     2171 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/java-exec/srcMapr/main/java/org/apache/drill/exec/ssl/SSLCredentialsProviderMaprServer.java
+│ --rw-r--r--  2.0 unx    30607 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/jdbc/.factorypath
+│  -rw-r--r--  2.0 unx     5444 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/jdbc/pom.xml
+│  -rw-r--r--  2.0 unx     2873 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/jdbc/src/main/java/org/apache/drill/jdbc/AlreadyClosedSqlException.java
+│  -rw-r--r--  2.0 unx     5843 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/jdbc/src/main/java/org/apache/drill/jdbc/DrillConnection.java
+│  -rw-r--r--  2.0 unx     2607 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/jdbc/src/main/java/org/apache/drill/jdbc/DrillConnectionConfig.java
+│  -rw-r--r--  2.0 unx    15649 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/jdbc/src/main/java/org/apache/drill/jdbc/DrillDatabaseMetaData.java
+│  -rw-r--r--  2.0 unx     1221 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/jdbc/src/main/java/org/apache/drill/jdbc/DrillPreparedStatement.java
+│  -rw-r--r--  2.0 unx    16452 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/jdbc/src/main/java/org/apache/drill/jdbc/DrillResultSet.java
+│ @@ -7862,23 +7789,21 @@
+│  -rw-r--r--  2.0 unx        0 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/jdbc/src/test/resources/empty.json
+│  -rw-r--r--  2.0 unx      313 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/jdbc/src/test/resources/full-model.json
+│  -rw-r--r--  2.0 unx      952 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/jdbc/src/test/resources/null_ordering_and_grouping_data.json
+│  -rw-r--r--  2.0 unx     1881 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/jdbc/src/test/resources/test-models.json
+│  -rw-r--r--  2.0 unx      379 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/jdbc/src/test/resources/testGetObjectNull.parquet
+│  -rw-r--r--  2.0 unx       99 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/jdbc/src/test/resources/test_null_op.json
+│  -rw-r--r--  2.0 unx      141 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/jdbc/src/test/resources/test_true_false_op.json
+│ --rw-r--r--  2.0 unx    31616 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/jdbc-all/.factorypath
+│ --rw-r--r--  2.0 unx    60419 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/jdbc-all/dependency-reduced-pom.xml
+│ +-rw-r--r--  2.0 unx    60566 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/jdbc-all/dependency-reduced-pom.xml
+│  -rw-r--r--  2.0 unx     1068 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/jdbc-all/example-conf/drill-module.conf
+│  -rw-r--r--  2.0 unx    57208 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/jdbc-all/pom.xml
+│  -rw-r--r--  2.0 unx      838 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/jdbc-all/src/main/resources/profile.props
+│  -rw-r--r--  2.0 unx     2066 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/jdbc-all/src/test/java/org/apache/drill/jdbc/DrillbitClassLoader.java
+│  -rw-r--r--  2.0 unx    10156 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/jdbc-all/src/test/java/org/apache/drill/jdbc/ITTestShadedJar.java
+│  -rw-r--r--  2.0 unx      425 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/jdbc-all/src/test/resources/types.json
+│ --rw-r--r--  2.0 unx     7238 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/memory/base/.factorypath
+│  -rw-r--r--  2.0 unx     1694 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/memory/base/pom.xml
+│  -rw-r--r--  2.0 unx    32003 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/memory/base/src/main/java/io/netty/buffer/DrillBuf.java
+│  -rw-r--r--  2.0 unx     1865 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/memory/base/src/main/java/io/netty/buffer/ExpandableByteBuf.java
+│  -rw-r--r--  2.0 unx     1865 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/memory/base/src/main/java/io/netty/buffer/LargeBuffer.java
+│  -rw-r--r--  2.0 unx     8467 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/memory/base/src/main/java/io/netty/buffer/MutableWrappedByteBuf.java
+│  -rw-r--r--  2.0 unx     9051 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/memory/base/src/main/java/io/netty/buffer/PooledByteBufAllocatorL.java
+│  -rw-r--r--  2.0 unx     8719 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/memory/base/src/main/java/io/netty/buffer/UnsafeDirectLittleEndian.java
+│ @@ -7900,15 +7825,14 @@
+│  -rw-r--r--  2.0 unx     1139 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/memory/base/src/main/resources/drill-module.conf
+│  -rw-r--r--  2.0 unx     3531 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/memory/base/src/test/java/org/apache/drill/exec/memory/BoundsCheckingTest.java
+│  -rw-r--r--  2.0 unx     4878 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/memory/base/src/test/java/org/apache/drill/exec/memory/TestAccountant.java
+│  -rw-r--r--  2.0 unx    23194 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/memory/base/src/test/java/org/apache/drill/exec/memory/TestBaseAllocator.java
+│  -rw-r--r--  2.0 unx     1648 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/memory/base/src/test/java/org/apache/drill/exec/memory/TestEndianess.java
+│  -rw-r--r--  2.0 unx     1454 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/memory/pom.xml
+│  -rw-r--r--  2.0 unx     2080 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/pom.xml
+│ --rw-r--r--  2.0 unx    14190 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/rpc/.factorypath
+│  -rw-r--r--  2.0 unx     2649 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/rpc/pom.xml
+│  -rw-r--r--  2.0 unx     3967 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/rpc/src/main/java/org/apache/drill/common/SerializedExecutor.java
+│  -rw-r--r--  2.0 unx     2626 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/rpc/src/main/java/org/apache/drill/exec/rpc/AbstractHandshakeHandler.java
+│  -rw-r--r--  2.0 unx    13099 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/rpc/src/main/java/org/apache/drill/exec/rpc/AbstractRemoteConnection.java
+│  -rw-r--r--  2.0 unx     1459 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/rpc/src/main/java/org/apache/drill/exec/rpc/Acks.java
+│  -rw-r--r--  2.0 unx     1171 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/rpc/src/main/java/org/apache/drill/exec/rpc/BaseRpcOutcomeListener.java
+│  -rw-r--r--  2.0 unx    17806 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/rpc/src/main/java/org/apache/drill/exec/rpc/BasicClient.java
+│ @@ -7957,15 +7881,14 @@
+│  -rw-r--r--  2.0 unx     7811 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/rpc/src/main/java/org/apache/drill/exec/rpc/SaslEncryptionHandler.java
+│  -rw-r--r--  2.0 unx     1337 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/rpc/src/main/java/org/apache/drill/exec/rpc/ServerConnection.java
+│  -rw-r--r--  2.0 unx     2839 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/rpc/src/main/java/org/apache/drill/exec/rpc/TransportCheck.java
+│  -rw-r--r--  2.0 unx     1537 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/rpc/src/main/java/org/apache/drill/exec/rpc/UserRpcException.java
+│  -rw-r--r--  2.0 unx    12364 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/rpc/src/main/java/org/apache/drill/exec/rpc/security/AuthenticationOutcomeListener.java
+│  -rw-r--r--  2.0 unx     2834 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/rpc/src/main/java/org/apache/drill/exec/rpc/security/AuthenticatorFactory.java
+│  -rw-r--r--  2.0 unx     2333 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/rpc/src/main/java/org/apache/drill/exec/rpc/security/SaslProperties.java
+│ --rw-r--r--  2.0 unx    13954 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/vector/.factorypath
+│  -rw-r--r--  2.0 unx     6843 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/vector/pom.xml
+│  -rw-r--r--  2.0 unx     2837 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/vector/src/main/antlr4/org/apache/drill/exec/record/metadata/schema/parser/SchemaLexer.g4
+│  -rw-r--r--  2.0 unx     3590 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/vector/src/main/antlr4/org/apache/drill/exec/record/metadata/schema/parser/SchemaParser.g4
+│  -rw-r--r--  2.0 unx      968 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/vector/src/main/codegen/config.fmpp
+│  -rw-r--r--  2.0 unx     7363 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/vector/src/main/codegen/data/ValueVectorTypes.tdd
+│  -rw-r--r--  2.0 unx     1617 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/vector/src/main/codegen/includes/license.ftl
+│  -rw-r--r--  2.0 unx     3263 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/vector/src/main/codegen/includes/vv_imports.ftl
+│ @@ -8207,15 +8130,14 @@
+│  -rw-r--r--  2.0 unx     5996 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/vector/src/test/java/org/apache/drill/exec/vector/VariableLengthVectorTest.java
+│  -rw-r--r--  2.0 unx    20103 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/exec/vector/src/test/java/org/apache/drill/exec/vector/VectorTest.java
+│  -rw-r--r--  2.0 unx      799 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/git.properties
+│  -rw-r--r--  2.0 unx      751 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/header
+│  -rw-r--r--  2.0 unx      418 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/hooks/README.md
+│  -rw-r--r--  2.0 unx     1285 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/hooks/build
+│  -rw-r--r--  2.0 unx      978 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/hooks/push
+│ --rw-r--r--  2.0 unx     9455 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/logical/.factorypath
+│  -rw-r--r--  2.0 unx     3952 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/logical/pom.xml
+│  -rw-r--r--  2.0 unx     3222 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/logical/src/main/antlr4/org/apache/drill/common/expression/parser/ExprLexer.g4
+│  -rw-r--r--  2.0 unx    13080 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/logical/src/main/antlr4/org/apache/drill/common/expression/parser/ExprParser.g4
+│  -rw-r--r--  2.0 unx     1746 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/logical/src/main/java/org/apache/drill/common/FunctionNames.java
+│  -rw-r--r--  2.0 unx     6680 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/logical/src/main/java/org/apache/drill/common/JSONOptions.java
+│  -rw-r--r--  2.0 unx     4611 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/logical/src/main/java/org/apache/drill/common/config/LogicalPlanPersistence.java
+│  -rw-r--r--  2.0 unx     1848 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/logical/src/main/java/org/apache/drill/common/exceptions/ExecutionSetupException.java
+│ @@ -8334,15 +8256,14 @@
+│  -rw-r--r--  2.0 unx     1052 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/logical/src/main/resources/drill-module.conf
+│  -rw-r--r--  2.0 unx     1896 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/logical/src/test/java/org/apache/drill/common/expression/PathSegmentTests.java
+│  -rw-r--r--  2.0 unx     2406 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/logical/src/test/java/org/apache/drill/common/expression/SchemaPathTest.java
+│  -rw-r--r--  2.0 unx     7843 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/logical/src/test/java/org/apache/drill/common/expression/fn/JodaDateValidatorTest.java
+│  -rw-r--r--  2.0 unx     4206 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/logical/src/test/java/org/apache/drill/common/expression/parser/TreeTest.java
+│  -rw-r--r--  2.0 unx     3738 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/logical/src/test/java/org/apache/drill/common/logical/data/OrderTest.java
+│  -rw-r--r--  2.0 unx     2131 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/logical/src/test/java/org/apache/drill/storage/CheckStorageConfig.java
+│ --rw-r--r--  2.0 unx    19691 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/iceberg-metastore/.factorypath
+│  -rw-r--r--  2.0 unx     9254 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/iceberg-metastore/README.md
+│  -rw-r--r--  2.0 unx     6613 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/iceberg-metastore/pom.xml
+│  -rw-r--r--  2.0 unx    10941 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/iceberg-metastore/src/main/java/org/apache/drill/metastore/iceberg/IcebergMetastore.java
+│  -rw-r--r--  2.0 unx     2009 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/iceberg-metastore/src/main/java/org/apache/drill/metastore/iceberg/IcebergMetastoreContext.java
+│  -rw-r--r--  2.0 unx     3702 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/iceberg-metastore/src/main/java/org/apache/drill/metastore/iceberg/components/tables/IcebergTables.java
+│  -rw-r--r--  2.0 unx     3338 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/iceberg-metastore/src/main/java/org/apache/drill/metastore/iceberg/components/tables/TableKey.java
+│  -rw-r--r--  2.0 unx     3135 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/iceberg-metastore/src/main/java/org/apache/drill/metastore/iceberg/components/tables/TablesOperationTransformer.java
+│ @@ -8377,15 +8298,14 @@
+│  -rw-r--r--  2.0 unx     7819 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/iceberg-metastore/src/test/java/org/apache/drill/metastore/iceberg/components/tables/TestTablesInputDataTransformer.java
+│  -rw-r--r--  2.0 unx     5610 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/iceberg-metastore/src/test/java/org/apache/drill/metastore/iceberg/components/tables/TestTablesOperationTransformer.java
+│  -rw-r--r--  2.0 unx     4660 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/iceberg-metastore/src/test/java/org/apache/drill/metastore/iceberg/components/tables/TestTablesOutputDataTransformer.java
+│  -rw-r--r--  2.0 unx     4403 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/iceberg-metastore/src/test/java/org/apache/drill/metastore/iceberg/operate/TestExpirationHandler.java
+│  -rw-r--r--  2.0 unx    15886 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/iceberg-metastore/src/test/java/org/apache/drill/metastore/iceberg/schema/TestIcebergTableSchema.java
+│  -rw-r--r--  2.0 unx    11262 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/iceberg-metastore/src/test/java/org/apache/drill/metastore/iceberg/transform/TestFilterTransformer.java
+│  -rw-r--r--  2.0 unx    10969 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/iceberg-metastore/src/test/java/org/apache/drill/metastore/iceberg/write/TestParquetFileWriter.java
+│ --rw-r--r--  2.0 unx    16158 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/metastore-api/.factorypath
+│  -rw-r--r--  2.0 unx    13640 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/metastore-api/README.md
+│  -rw-r--r--  2.0 unx     2558 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/metastore-api/pom.xml
+│  -rw-r--r--  2.0 unx     1576 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/metastore-api/src/main/java/org/apache/drill/metastore/Metastore.java
+│  -rw-r--r--  2.0 unx     2585 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/metastore-api/src/main/java/org/apache/drill/metastore/MetastoreColumn.java
+│  -rw-r--r--  2.0 unx     1777 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/metastore-api/src/main/java/org/apache/drill/metastore/MetastoreFieldDefinition.java
+│  -rw-r--r--  2.0 unx     5021 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/metastore-api/src/main/java/org/apache/drill/metastore/MetastoreRegistry.java
+│  -rw-r--r--  2.0 unx    30636 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/metastore-api/src/main/java/org/apache/drill/metastore/components/tables/BasicTablesRequests.java
+│ @@ -8447,15 +8367,14 @@
+│  -rw-r--r--  2.0 unx    19518 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/metastore-api/src/test/java/org/apache/drill/metastore/components/tables/AbstractTablesMetastoreTest.java
+│  -rw-r--r--  2.0 unx     5911 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/metastore-api/src/test/java/org/apache/drill/metastore/components/tables/TestBasicTablesRequestsRequestMetadata.java
+│  -rw-r--r--  2.0 unx    12424 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/metastore-api/src/test/java/org/apache/drill/metastore/components/tables/TestBasicTablesTransformer.java
+│  -rw-r--r--  2.0 unx     4077 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/metastore-api/src/test/java/org/apache/drill/metastore/components/tables/TestMetastoreTableInfo.java
+│  -rw-r--r--  2.0 unx    16307 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/metastore-api/src/test/java/org/apache/drill/metastore/components/tables/TestTableMetadataUnitConversion.java
+│  -rw-r--r--  2.0 unx     2657 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/metastore-api/src/test/java/org/apache/drill/metastore/components/tables/TestTablesMetadataTypeValidator.java
+│  -rw-r--r--  2.0 unx     7647 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/metastore-api/src/test/java/org/apache/drill/metastore/metadata/MetadataSerDeTest.java
+│ --rw-r--r--  2.0 unx    16920 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/mongo-metastore/.factorypath
+│  -rw-r--r--  2.0 unx     2535 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/mongo-metastore/pom.xml
+│  -rw-r--r--  2.0 unx     2537 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/mongo-metastore/src/main/java/org/apache/drill/metastore/mongo/MongoMetastore.java
+│  -rw-r--r--  2.0 unx     1720 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/mongo-metastore/src/main/java/org/apache/drill/metastore/mongo/MongoMetastoreContext.java
+│  -rw-r--r--  2.0 unx     2851 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/mongo-metastore/src/main/java/org/apache/drill/metastore/mongo/components/tables/MongoTables.java
+│  -rw-r--r--  2.0 unx     2252 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/mongo-metastore/src/main/java/org/apache/drill/metastore/mongo/components/tables/TablesOperationTransformer.java
+│  -rw-r--r--  2.0 unx     2267 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/mongo-metastore/src/main/java/org/apache/drill/metastore/mongo/components/tables/TablesOutputDataTransformer.java
+│  -rw-r--r--  2.0 unx     2194 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/mongo-metastore/src/main/java/org/apache/drill/metastore/mongo/components/tables/TablesTransformer.java
+│ @@ -8476,15 +8395,14 @@
+│  -rw-r--r--  2.0 unx      856 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/mongo-metastore/src/main/resources/drill-metastore-module.conf
+│  -rw-r--r--  2.0 unx     9002 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/mongo-metastore/src/test/java/org/apache/drill/metastore/mongo/MongoBaseTest.java
+│  -rw-r--r--  2.0 unx     4959 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/mongo-metastore/src/test/java/org/apache/drill/metastore/mongo/components/tables/TestMongoBasicTablesRequests.java
+│  -rw-r--r--  2.0 unx     5616 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/mongo-metastore/src/test/java/org/apache/drill/metastore/mongo/components/tables/TestTablesInputDataTransformer.java
+│  -rw-r--r--  2.0 unx     5564 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/mongo-metastore/src/test/java/org/apache/drill/metastore/mongo/components/tables/TestTablesOperationTransformer.java
+│  -rw-r--r--  2.0 unx     4243 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/mongo-metastore/src/test/java/org/apache/drill/metastore/mongo/components/tables/TestTablesOutputDataTransformer.java
+│  -rw-r--r--  2.0 unx     1820 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/pom.xml
+│ --rw-r--r--  2.0 unx    17006 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/rdbms-metastore/.factorypath
+│  -rw-r--r--  2.0 unx     7105 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/rdbms-metastore/README.md
+│  -rw-r--r--  2.0 unx     4478 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/rdbms-metastore/pom.xml
+│  -rw-r--r--  2.0 unx     2811 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/rdbms-metastore/src/main/java/org/apache/drill/metastore/rdbms/QueryExecutorProvider.java
+│  -rw-r--r--  2.0 unx     5680 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/rdbms-metastore/src/main/java/org/apache/drill/metastore/rdbms/RdbmsMetastore.java
+│  -rw-r--r--  2.0 unx     1502 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/rdbms-metastore/src/main/java/org/apache/drill/metastore/rdbms/RdbmsMetastoreContext.java
+│  -rw-r--r--  2.0 unx     2717 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/rdbms-metastore/src/main/java/org/apache/drill/metastore/rdbms/components/tables/RdbmsTables.java
+│  -rw-r--r--  2.0 unx    26441 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/rdbms-metastore/src/main/java/org/apache/drill/metastore/rdbms/components/tables/TablesMetadataMapper.java
+│ @@ -8508,15 +8426,14 @@
+│  -rw-r--r--  2.0 unx     1218 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/rdbms-metastore/src/test/java/org/apache/drill/metastore/rdbms/RdbmsBaseTest.java
+│  -rw-r--r--  2.0 unx     2357 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/rdbms-metastore/src/test/java/org/apache/drill/metastore/rdbms/components/tables/TestRdbmsBasicTablesRequests.java
+│  -rw-r--r--  2.0 unx     1667 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/rdbms-metastore/src/test/java/org/apache/drill/metastore/rdbms/components/tables/TestRdbmsTablesMetastore.java
+│  -rw-r--r--  2.0 unx    13871 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/rdbms-metastore/src/test/java/org/apache/drill/metastore/rdbms/components/tables/TestTablesMetadataMapper.java
+│  -rw-r--r--  2.0 unx     8251 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/rdbms-metastore/src/test/java/org/apache/drill/metastore/rdbms/components/tables/TestTablesTransformer.java
+│  -rw-r--r--  2.0 unx     4406 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/metastore/rdbms-metastore/src/test/java/org/apache/drill/metastore/rdbms/util/TestConverterUtil.java
+│  -rw-r--r--  2.0 unx   170528 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/pom.xml
+│ --rw-r--r--  2.0 unx     4238 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/protocol/.factorypath
+│  -rw-r--r--  2.0 unx     5050 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/protocol/pom.xml
+│  -rw-r--r--  2.0 unx     1193 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/protocol/readme.txt
+│  -rw-r--r--  2.0 unx     8512 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/protocol/src/main/java/org/apache/drill/common/types/SchemaTypeProtos.java
+│  -rw-r--r--  2.0 unx    68946 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/protocol/src/main/java/org/apache/drill/common/types/TypeProtos.java
+│  -rw-r--r--  2.0 unx   411562 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/protocol/src/main/java/org/apache/drill/exec/proto/BitControl.java
+│  -rw-r--r--  2.0 unx   189412 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/protocol/src/main/java/org/apache/drill/exec/proto/BitData.java
+│  -rw-r--r--  2.0 unx   122669 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/protocol/src/main/java/org/apache/drill/exec/proto/CoordinationProtos.java
+│ @@ -8553,18 +8470,17 @@
+│  -rw-r--r--  2.0 unx   493730 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/src/main/resources/logos/ApacheDrill.eps
+│  -rw-r--r--  2.0 unx    72227 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/src/main/resources/logos/ApacheDrill.jpg
+│  -rw-r--r--  2.0 unx    20508 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/src/main/resources/logos/ApacheDrill.png
+│  -rw-r--r--  2.0 unx    25747 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/src/main/resources/logos/drill-vector-logo.graffle/data.plist
+│  -rw-r--r--  2.0 unx    42272 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/src/main/resources/logos/drill-vector-logo.graffle/image1.tiff
+│  -rw-r--r--  2.0 unx    16997 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/src/main/resources/logos/drill-vector-logo.pdf
+│  -rw-r--r--  2.0 unx     4857 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/start-build-env.sh
+│ --rw-r--r--  2.0 unx    10283 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/tools/fmpp/.factorypath
+│  -rw-r--r--  2.0 unx     3827 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/tools/fmpp/pom.xml
+│  -rw-r--r--  2.0 unx      890 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/tools/fmpp/src/main/java/bsh/EvalError.java
+│  -rw-r--r--  2.0 unx     1014 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/tools/fmpp/src/main/java/bsh/package-info.java
+│  -rw-r--r--  2.0 unx     8473 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/tools/fmpp/src/main/java/org/apache/drill/fmpp/mojo/FMPPMojo.java
+│  -rw-r--r--  2.0 unx     1639 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/tools/fmpp/src/main/java/org/apache/drill/fmpp/mojo/MavenDataLoader.java
+│  -rw-r--r--  2.0 unx     1438 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/tools/pom.xml
+│  -rw-r--r--  2.0 unx     1569 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/tools/release-scripts/checksum.sh
+│  -rw-r--r--  2.0 unx     6524 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/tools/release-scripts/release.sh
+│  -rw-r--r--  2.0 unx     4306 b- defN 23-Apr-19 06:16 apache-drill-1.21.1-src/DEPENDENCIES
+│ -8568 files, 74867001 bytes uncompressed, 20733865 bytes compressed:  72.3%
+│ +8484 files, 70825296 bytes uncompressed, 20175880 bytes compressed:  71.5%
+├── zipnote {}
+│ @@ -543,17 +543,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-excel/src/test/resources/
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-excel/src/test/resources/excel/
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/format-fixedwidth/
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/format-hdf5/
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-hdf5/src/
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-hdf5/src/main/
+│ @@ -1464,41 +1461,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/native/
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/native/client/
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/native/client/build/
+│ -Comment: 
+│ -
+│ -Filename: apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/
+│ -Comment: 
+│ -
+│ -Filename: apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/
+│ -Comment: 
+│ -
+│ -Filename: apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/CompilerIdC/
+│ -Comment: 
+│ -
+│ -Filename: apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/CompilerIdC/tmp/
+│ -Comment: 
+│ -
+│ -Filename: apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/CompilerIdCXX/
+│ -Comment: 
+│ -
+│ -Filename: apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/CompilerIdCXX/tmp/
+│ -Comment: 
+│ -
+│ -Filename: apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/CMakeScratch/
+│ -Comment: 
+│ -
+│ -Filename: apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/pkgRedirects/
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/native/client/cmakeModules/
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/native/client/example/
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/native/client/resources/
+│ @@ -5949,20 +5919,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/tools/
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/tools/fmpp/
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/tools/fmpp/.apt_generated/
+│ -Comment: 
+│ -
+│ -Filename: apache-drill-1.21.1-src/tools/fmpp/.apt_generated_tests/
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/tools/fmpp/src/
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/tools/fmpp/src/main/
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/tools/fmpp/src/main/java/
+│ @@ -6435,17 +6399,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/common/src/test/resources/storage_engine_plan.json
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/data/pom.xml
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/data/tpch-sample-data/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/data/tpch-sample-data/parquet/customer.parquet
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/data/tpch-sample-data/parquet/lineitem.parquet
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/data/tpch-sample-data/parquet/nation.parquet
+│ @@ -6618,29 +6579,20 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-deltalake/src/test/resources/data-reader-primitives/part-00000-4f2f0b9f-50b3-4e7b-96a1-e2bb0f246b06-c000.snappy.parquet
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-deltalake/src/test/resources/data-reader-primitives/part-00001-09e47b80-36c2-4475-a810-fbd8e7994971-c000.snappy.parquet
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/format-esri/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/format-esri/README.md
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/format-esri/hs_err_pid514043.log
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/format-esri/pom.xml
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/format-esri/replay_pid514043.log
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/format-esri/src/main/java/com/esri/core/geometry/ShapefileByteBufferCursor.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-esri/src/main/java/com/esri/core/geometry/ShapefileReader.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-esri/src/main/java/org/apache/drill/exec/store/esri/ShpBatchReader.java
+│ @@ -6666,17 +6618,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-esri/src/test/resources/shapefiles/CA-cities.prj
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-esri/src/test/resources/shapefiles/CA-cities.shp
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/format-excel/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/format-excel/README.md
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-excel/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-excel/src/main/java/org/apache/drill/exec/store/excel/ExcelBatchReader.java
+│ @@ -6723,20 +6672,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-excel/src/test/resources/excel/text-formula.xlsx
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-excel/src/test/resources/excel/zips-small.xlsx
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/format-fixedwidth/.factorypath
+│ -Comment: 
+│ -
+│ -Filename: apache-drill-1.21.1-src/contrib/format-hdf5/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/format-hdf5/README.md
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-hdf5/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-hdf5/src/main/java/org/apache/drill/exec/store/hdf5/HDF5Attribute.java
+│ @@ -6810,17 +6753,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-hdf5/src/test/resources/hdf5/non-scalar.h5
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-hdf5/src/test/resources/hdf5/scalar.h5
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/format-httpd/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/format-httpd/README.md
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-httpd/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-httpd/src/main/java/org/apache/drill/exec/store/httpd/HttpdLogBatchReader.java
+│ @@ -6867,23 +6807,17 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-httpd/src/test/resources/httpd/multiformat.access_log
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-httpd/src/test/resources/httpd/typeremap.httpd
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/format-iceberg/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/format-iceberg/README.md
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/format-iceberg/hs_err_pid1305308.log
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/format-iceberg/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-iceberg/src/main/java/org/apache/drill/exec/store/iceberg/IcebergBlockMapBuilder.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-iceberg/src/main/java/org/apache/drill/exec/store/iceberg/IcebergCompleteWork.java
+│ @@ -6957,29 +6891,20 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-iceberg/src/main/resources/drill-module.conf
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-iceberg/src/test/java/org/apache/drill/exec/store/iceberg/IcebergQueriesTest.java
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/format-image/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/format-image/README.md
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/format-image/hs_err_pid56755.log
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/format-image/pom.xml
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/format-image/replay_pid56755.log
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/format-image/src/main/java/org/apache/drill/exec/store/image/GenericMetadataDescriptor.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-image/src/main/java/org/apache/drill/exec/store/image/GenericMetadataDirectory.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-image/src/main/java/org/apache/drill/exec/store/image/GenericMetadataReader.java
+│ @@ -7143,17 +7068,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-log/src/test/resources/regex/simple.log1
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-log/src/test/resources/regex/simple.log2
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/format-ltsv/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/format-ltsv/README.md
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-ltsv/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-ltsv/src/main/java/org/apache/drill/exec/store/ltsv/LTSVBatchReader.java
+│ @@ -7179,17 +7101,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-ltsv/src/test/resources/invalid.ltsv
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-ltsv/src/test/resources/simple.ltsv
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/format-maprdb/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/format-maprdb/README.md
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-maprdb/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-maprdb/src/main/java/org/apache/drill/exec/planner/index/MapRDBFunctionalIndexInfo.java
+│ @@ -7440,23 +7359,17 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-maprdb/src/test/resources/com/mapr/drill/json/encoded_fields_userdata.json
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-maprdb/src/test/resources/core-site.xml
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/format-pcapng/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/format-pcapng/README.md
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/format-pcapng/hs_err_pid1306570.log
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/format-pcapng/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-pcapng/src/main/java/org/apache/drill/exec/store/pcap/PcapBatchReader.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-pcapng/src/main/java/org/apache/drill/exec/store/pcap/PcapFormatUtils.java
+│ @@ -7593,17 +7506,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-pcapng/src/test/resources/todo/dhcp_little_endian.pcapng
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-pcapng/src/test/resources/todo/many_interfaces.pcapng
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/format-pdf/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/format-pdf/README.md
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-pdf/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-pdf/src/main/java/org/apache/drill/exec/store/pdf/PdfBatchReader.java
+│ @@ -7668,17 +7578,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-pdf/src/test/resources/pdf/us-017.pdf
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-pdf/src/test/resources/pdf/us-020.pdf
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/format-sas/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/format-sas/README.md
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-sas/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-sas/src/main/java/org/apache/drill/exec/store/sas/SasBatchReader.java
+│ @@ -7710,17 +7617,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-sas/src/test/resources/sas/mixed_data_two.sas7bdat
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-sas/src/test/resources/sas/time_formats.sas7bdat
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/format-spss/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/format-spss/README.md
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-spss/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-spss/src/main/java/org/apache/drill/exec/store/spss/SpssBatchReader.java
+│ @@ -7740,17 +7644,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-spss/src/test/java/org/apache/drill/exec/store/spss/TestSpssReader.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-spss/src/test/resources/spss/testdata.sav
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/format-syslog/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/format-syslog/README.md
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-syslog/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-syslog/src/main/java/org/apache/drill/exec/store/syslog/SyslogBatchReader.java
+│ @@ -7782,29 +7683,20 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-syslog/src/test/resources/syslog/test.syslog
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-syslog/src/test/resources/syslog/test.syslog1
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/format-xml/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/format-xml/README.md
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/format-xml/hs_err_pid137187.log
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/format-xml/pom.xml
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/format-xml/replay_pid137187.log
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/format-xml/src/main/java/org/apache/drill/exec/store/xml/XMLBatchReader.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-xml/src/main/java/org/apache/drill/exec/store/xml/XMLFormatConfig.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-xml/src/main/java/org/apache/drill/exec/store/xml/XMLFormatPlugin.java
+│ @@ -7869,50 +7761,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/format-xml/src/test/resources/xml/weather.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/native/client/CMakeLists.txt
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/native/client/build/CMakeCache.txt
+│ -Comment: 
+│ -
+│ -Filename: apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/CMakeCCompiler.cmake
+│ -Comment: 
+│ -
+│ -Filename: apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/CMakeCXXCompiler.cmake
+│ -Comment: 
+│ -
+│ -Filename: apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/CMakeDetermineCompilerABI_C.bin
+│ -Comment: 
+│ -
+│ -Filename: apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/CMakeDetermineCompilerABI_CXX.bin
+│ -Comment: 
+│ -
+│ -Filename: apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/CMakeSystem.cmake
+│ -Comment: 
+│ -
+│ -Filename: apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/CompilerIdC/CMakeCCompilerId.c
+│ -Comment: 
+│ -
+│ -Filename: apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/CompilerIdC/a.out
+│ -Comment: 
+│ -
+│ -Filename: apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+│ -Comment: 
+│ -
+│ -Filename: apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/3.25.1/CompilerIdCXX/a.out
+│ -Comment: 
+│ -
+│ -Filename: apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/CMakeOutput.log
+│ -Comment: 
+│ -
+│ -Filename: apache-drill-1.21.1-src/contrib/native/client/build/CMakeFiles/cmake.check_cache
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/native/client/cmakeModules/FindCppUnit.cmake
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/native/client/cmakeModules/FindSASL.cmake
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/native/client/cmakeModules/FindZookeeper.cmake
+│ @@ -8199,17 +8055,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/native/client/test/ssl/testServer.cpp
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/pom.xml
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/storage-cassandra/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/storage-cassandra/README.md
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-cassandra/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-cassandra/src/main/java/com/codahale/metrics/JmxReporter.java
+│ @@ -8319,17 +8172,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-drill/src/main/resources/drill-module.conf
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-drill/src/test/java/org/apache/drill/exec/store/drill/plugin/DrillPluginQueriesTest.java
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/storage-druid/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/storage-druid/README.md
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-druid/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-druid/src/main/java/org/apache/drill/exec/store/druid/DruidCompareFunctionProcessor.java
+│ @@ -8496,17 +8346,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-druid/src/test/resources/druid/environment.env
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-druid/src/test/resources/wikipedia-index.json
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/storage-elasticsearch/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/storage-elasticsearch/README.md
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-elasticsearch/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-elasticsearch/src/main/java/org/apache/calcite/adapter/elasticsearch/CalciteUtils.java
+│ @@ -8682,17 +8529,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-googlesheets/src/test/resources/data/insert_data.csvh
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-googlesheets/src/test/resources/data/insert_data2.csvh
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/storage-hbase/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/storage-hbase/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-hbase/src/main/java/org/apache/drill/exec/expr/fn/impl/conv/OrderedBytesBigIntConvertFrom.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-hbase/src/main/java/org/apache/drill/exec/expr/fn/impl/conv/OrderedBytesBigIntConvertTo.java
+│ @@ -9276,17 +9120,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-hive/hive-exec-shade/src/main/resources/drill-module.conf
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-hive/pom.xml
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/storage-http/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/storage-http/JSON_Options.md
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-http/OAuth.md
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-http/Pagination.md
+│ @@ -9294,17 +9135,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-http/README.md
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-http/XML_Options.md
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/storage-http/gurk.log
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/storage-http/images/access_token.png
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-http/images/get_access_token.png
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-http/images/issue_count.png
+│ @@ -9540,17 +9378,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-http/src/test/resources/data/token_refresh.json
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-http/src/test/resources/data/weather.json
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/storage-jdbc/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/storage-jdbc/WritingToJDBC.md
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-jdbc/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-jdbc/src/main/java/org/apache/drill/exec/store/jdbc/CapitalizingJdbcSchema.java
+│ @@ -9768,38 +9603,20 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-jdbc/src/test/resources/mysql_config_override/mysql_override.cnf
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-jdbc/src/test/resources/postgres-test-data.sql
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/storage-kafka/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/storage-kafka/README.md
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/storage-kafka/gurk.log
+│ -Comment: 
+│ -
+│ -Filename: apache-drill-1.21.1-src/contrib/storage-kafka/hs_err_pid1302689.log
+│ -Comment: 
+│ -
+│ -Filename: apache-drill-1.21.1-src/contrib/storage-kafka/hs_err_pid440703.log
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/storage-kafka/pom.xml
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/storage-kafka/replay_pid1302689.log
+│ -Comment: 
+│ -
+│ -Filename: apache-drill-1.21.1-src/contrib/storage-kafka/replay_pid440703.log
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/storage-kafka/src/main/java/org/apache/drill/exec/store/kafka/KafkaAsyncCloser.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-kafka/src/main/java/org/apache/drill/exec/store/kafka/KafkaGroupScan.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-kafka/src/main/java/org/apache/drill/exec/store/kafka/KafkaNodeProcessor.java
+│ @@ -9897,17 +9714,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-kafka/src/test/java/org/apache/drill/exec/store/kafka/decoders/MessageReaderFactoryTest.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-kafka/src/test/resources/login.conf
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/storage-kudu/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/storage-kudu/README.md
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-kudu/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-kudu/src/main/codegen/config.fmpp
+│ @@ -9963,17 +9777,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-kudu/src/test/java/org/apache/drill/store/kudu/TestKuduPlugin.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-kudu/src/test/resources/bootstrap-storage-plugins.json
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/storage-mongo/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/storage-mongo/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-mongo/src/main/java/org/apache/drill/exec/store/bson/BsonRecordReader.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-mongo/src/main/java/org/apache/drill/exec/store/mongo/BaseMongoSubScanSpec.java
+│ @@ -10098,17 +9909,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-mongo/src/test/resources/emp.json
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-mongo/src/test/resources/schema_change_int_to_string.json
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/storage-opentsdb/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/storage-opentsdb/README.md
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-opentsdb/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-opentsdb/src/main/java/org/apache/drill/exec/store/openTSDB/Constants.java
+│ @@ -10185,17 +9993,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-opentsdb/src/test/java/org/apache/drill/exec/store/openTSDB/TestOpenTSDBPlugin.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-opentsdb/src/test/java/org/apache/drill/exec/store/openTSDB/TestSizeEstimator.java
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/storage-phoenix/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/storage-phoenix/README.md
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-phoenix/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-phoenix/src/main/java/org/apache/drill/exec/store/phoenix/PhoenixBatchReader.java
+│ @@ -10296,17 +10101,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-phoenix/src/test/resources/data/region.tbl
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-phoenix/src/test/resources/hbase-site.xml
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/storage-splunk/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/storage-splunk/README.md
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-splunk/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-splunk/src/main/java/org/apache/drill/exec/store/splunk/SplunkBatchInsertWriter.java
+│ @@ -10413,29 +10215,20 @@
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-splunk/src/test/resources/test_data2.csvh
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/storage-splunk/src/test/splunk.md
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/udfs/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/udfs/README.md
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/udfs/hs_err_pid440808.log
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/udfs/pom.xml
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/contrib/udfs/replay_pid440808.log
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/contrib/udfs/sample-data/CA-cities-with-nulls.csv
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/udfs/sample-data/CA-cities.csv
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/contrib/udfs/sample-data/polygons.tsv
+│ @@ -10884,17 +10677,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/drill-shaded/drill-shaded-guava/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/drill-shaded/pom.xml
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/drill-yarn/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/drill-yarn/README.md
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/drill-yarn/USAGE.md
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/drill-yarn/img/am-overview.png
+│ @@ -11250,20 +11040,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/drill-yarn/src/test/resources/third-test-config.conf
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/drill-yarn/src/test/resources/wrapper.sh
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/exec/java-exec/.factorypath
+│ -Comment: 
+│ -
+│ -Filename: apache-drill-1.21.1-src/exec/java-exec/hs_err_pid485903.log
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/exec/java-exec/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/exec/java-exec/src/main/codegen/config.fmpp
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/exec/java-exec/src/main/codegen/data/AggrBitwiseLogicalTypes.tdd
+│ @@ -23265,17 +23049,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/exec/java-exec/srcMapr/main/java/org/apache/drill/exec/ssl/SSLCredentialsProviderMaprClient.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/exec/java-exec/srcMapr/main/java/org/apache/drill/exec/ssl/SSLCredentialsProviderMaprServer.java
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/exec/jdbc/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/exec/jdbc/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/exec/jdbc/src/main/java/org/apache/drill/jdbc/AlreadyClosedSqlException.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/exec/jdbc/src/main/java/org/apache/drill/jdbc/DrillConnection.java
+│ @@ -23595,17 +23376,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/exec/jdbc/src/test/resources/test_null_op.json
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/exec/jdbc/src/test/resources/test_true_false_op.json
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/exec/jdbc-all/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/exec/jdbc-all/dependency-reduced-pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/exec/jdbc-all/example-conf/drill-module.conf
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/exec/jdbc-all/pom.xml
+│ @@ -23619,17 +23397,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/exec/jdbc-all/src/test/java/org/apache/drill/jdbc/ITTestShadedJar.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/exec/jdbc-all/src/test/resources/types.json
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/exec/memory/base/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/exec/memory/base/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/exec/memory/base/src/main/java/io/netty/buffer/DrillBuf.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/exec/memory/base/src/main/java/io/netty/buffer/ExpandableByteBuf.java
+│ @@ -23709,17 +23484,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/exec/memory/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/exec/pom.xml
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/exec/rpc/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/exec/rpc/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/exec/rpc/src/main/java/org/apache/drill/common/SerializedExecutor.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/exec/rpc/src/main/java/org/apache/drill/exec/rpc/AbstractHandshakeHandler.java
+│ @@ -23880,17 +23652,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/exec/rpc/src/main/java/org/apache/drill/exec/rpc/security/AuthenticatorFactory.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/exec/rpc/src/main/java/org/apache/drill/exec/rpc/security/SaslProperties.java
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/exec/vector/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/exec/vector/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/exec/vector/src/main/antlr4/org/apache/drill/exec/record/metadata/schema/parser/SchemaLexer.g4
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/exec/vector/src/main/antlr4/org/apache/drill/exec/record/metadata/schema/parser/SchemaParser.g4
+│ @@ -24630,17 +24399,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/hooks/build
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/hooks/push
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/logical/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/logical/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/logical/src/main/antlr4/org/apache/drill/common/expression/parser/ExprLexer.g4
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/logical/src/main/antlr4/org/apache/drill/common/expression/parser/ExprParser.g4
+│ @@ -25011,17 +24777,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/logical/src/test/java/org/apache/drill/common/logical/data/OrderTest.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/logical/src/test/java/org/apache/drill/storage/CheckStorageConfig.java
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/metastore/iceberg-metastore/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/metastore/iceberg-metastore/README.md
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/metastore/iceberg-metastore/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/metastore/iceberg-metastore/src/main/java/org/apache/drill/metastore/iceberg/IcebergMetastore.java
+│ @@ -25140,17 +24903,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/metastore/iceberg-metastore/src/test/java/org/apache/drill/metastore/iceberg/transform/TestFilterTransformer.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/metastore/iceberg-metastore/src/test/java/org/apache/drill/metastore/iceberg/write/TestParquetFileWriter.java
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/metastore/metastore-api/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/metastore/metastore-api/README.md
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/metastore/metastore-api/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/metastore/metastore-api/src/main/java/org/apache/drill/metastore/Metastore.java
+│ @@ -25350,17 +25110,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/metastore/metastore-api/src/test/java/org/apache/drill/metastore/components/tables/TestTablesMetadataTypeValidator.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/metastore/metastore-api/src/test/java/org/apache/drill/metastore/metadata/MetadataSerDeTest.java
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/metastore/mongo-metastore/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/metastore/mongo-metastore/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/metastore/mongo-metastore/src/main/java/org/apache/drill/metastore/mongo/MongoMetastore.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/metastore/mongo-metastore/src/main/java/org/apache/drill/metastore/mongo/MongoMetastoreContext.java
+│ @@ -25437,17 +25194,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/metastore/mongo-metastore/src/test/java/org/apache/drill/metastore/mongo/components/tables/TestTablesOutputDataTransformer.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/metastore/pom.xml
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/metastore/rdbms-metastore/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/metastore/rdbms-metastore/README.md
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/metastore/rdbms-metastore/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/metastore/rdbms-metastore/src/main/java/org/apache/drill/metastore/rdbms/QueryExecutorProvider.java
+│ @@ -25533,17 +25287,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/metastore/rdbms-metastore/src/test/java/org/apache/drill/metastore/rdbms/util/TestConverterUtil.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/pom.xml
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/protocol/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/protocol/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/protocol/readme.txt
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/protocol/src/main/java/org/apache/drill/common/types/SchemaTypeProtos.java
+│ @@ -25668,17 +25419,14 @@
+│  
+│  Filename: apache-drill-1.21.1-src/src/main/resources/logos/drill-vector-logo.pdf
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/start-build-env.sh
+│  Comment: 
+│  
+│ -Filename: apache-drill-1.21.1-src/tools/fmpp/.factorypath
+│ -Comment: 
+│ -
+│  Filename: apache-drill-1.21.1-src/tools/fmpp/pom.xml
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/tools/fmpp/src/main/java/bsh/EvalError.java
+│  Comment: 
+│  
+│  Filename: apache-drill-1.21.1-src/tools/fmpp/src/main/java/bsh/package-info.java
+├── apache-drill-1.21.1-src/exec/jdbc-all/dependency-reduced-pom.xml
+│ ├── apache-drill-1.21.1-src/exec/jdbc-all/dependency-reduced-pom.xml
+│ │ @@ -1,13 +1,13 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+│ │    <parent>
+│ │      <artifactId>exec-parent</artifactId>
+│ │      <groupId>org.apache.drill.exec</groupId>
+│ │ -    <version>1.21.1</version>
+│ │ +    <version>1.22.0-SNAPSHOT</version>
+│ │    </parent>
+│ │    <modelVersion>4.0.0</modelVersion>
+│ │    <artifactId>drill-jdbc-all</artifactId>
+│ │    <name>Drill : Exec : JDBC JAR with all dependencies</name>
+│ │    <build>
+│ │      <resources>
+│ │        <resource>
+│ │ @@ -888,18 +888,18 @@
+│ │                  <inherited>false</inherited>
+│ │                  <configuration>
+│ │                    <includeDependencySources>true</includeDependencySources>
+│ │                    <dependencySourceIncludes>
+│ │                      <dependencySourceInclude>org.apache.drill.exec:drill-jdbc</dependencySourceInclude>
+│ │                    </dependencySourceIncludes>
+│ │                    <excludePackageNames>org.apache.drill.jdbc.impl</excludePackageNames>
+│ │ -                  <windowtitle>Apache Drill JDBC Driver v. 1.21.1</windowtitle>
+│ │ -                  <header>Apache Drill JDBC Driver v. 1.21.1</header>
+│ │ -                  <footer>Apache Drill JDBC Driver v. 1.21.1</footer>
+│ │ -                  <doctitle>Apache Drill JDBC Driver version 1.21.1</doctitle>
+│ │ +                  <windowtitle>Apache Drill JDBC Driver v. 1.22.0-SNAPSHOT</windowtitle>
+│ │ +                  <header>Apache Drill JDBC Driver v. 1.22.0-SNAPSHOT</header>
+│ │ +                  <footer>Apache Drill JDBC Driver v. 1.22.0-SNAPSHOT</footer>
+│ │ +                  <doctitle>Apache Drill JDBC Driver version 1.22.0-SNAPSHOT</doctitle>
+│ │                    <groups>
+│ │                      <group>
+│ │                        <title>Drill JDBC Driver</title>
+│ │                        <packages>org.apache.drill.jdbc</packages>
+│ │                      </group>
+│ │                      <group>
+│ │                        <title>Tracing Proxy JDBC Driver</title>
+│ │ @@ -963,15 +963,15 @@
+│ │                        <groupId>org.apache.kerby</groupId>
+│ │                        <artifactId>kerb-client</artifactId>
+│ │                        <version>1.0.0</version>
+│ │                      </dependency>
+│ │                      <dependency>
+│ │                        <groupId>org.apache.parquet</groupId>
+│ │                        <artifactId>parquet-hadoop</artifactId>
+│ │ -                      <version>1.12.3</version>
+│ │ +                      <version>1.12.2</version>
+│ │                      </dependency>
+│ │                      <dependency>
+│ │                        <groupId>org.jmockit</groupId>
+│ │                        <artifactId>jmockit</artifactId>
+│ │                        <version>1.47</version>
+│ │                      </dependency>
+│ │                      <additionalDependency>
+│ │ @@ -1058,15 +1058,15 @@
+│ │                    <groupId>org.apache.kerby</groupId>
+│ │                    <artifactId>kerb-client</artifactId>
+│ │                    <version>1.0.0</version>
+│ │                  </dependency>
+│ │                  <dependency>
+│ │                    <groupId>org.apache.parquet</groupId>
+│ │                    <artifactId>parquet-hadoop</artifactId>
+│ │ -                  <version>1.12.3</version>
+│ │ +                  <version>1.12.2</version>
+│ │                  </dependency>
+│ │                  <dependency>
+│ │                    <groupId>org.jmockit</groupId>
+│ │                    <artifactId>jmockit</artifactId>
+│ │                    <version>1.47</version>
+│ │                  </dependency>
+│ │                  <additionalDependency>
+│ │ @@ -1094,40 +1094,41 @@
+│ │                <notimestamp>true</notimestamp>
+│ │              </configuration>
+│ │            </plugin>
+│ │          </plugins>
+│ │        </build>
+│ │        <properties>
+│ │          <os.detected.arch>x86_64</os.detected.arch>
+│ │ -        <os.detected.release.version>12</os.detected.release.version>
+│ │ +        <os.detected.release.version>22.04</os.detected.release.version>
+│ │          <os.detected.release.like.debian>true</os.detected.release.like.debian>
+│ │          <os.detected.name>linux</os.detected.name>
+│ │ +        <os.detected.release.like.ubuntu>true</os.detected.release.like.ubuntu>
+│ │          <os.detected.classifier>linux-x86_64</os.detected.classifier>
+│ │ -        <os.detected.release>debian</os.detected.release>
+│ │ +        <os.detected.release>ubuntu</os.detected.release>
+│ │        </properties>
+│ │      </profile>
+│ │      <profile>
+│ │        <id>hadoop-2</id>
+│ │        <properties>
+│ │          <jdbc-all-jar.maxsize>51000000</jdbc-all-jar.maxsize>
+│ │        </properties>
+│ │      </profile>
+│ │    </profiles>
+│ │    <dependencies>
+│ │      <dependency>
+│ │        <groupId>org.apache.drill</groupId>
+│ │        <artifactId>drill-common</artifactId>
+│ │ -      <version>1.21.1</version>
+│ │ +      <version>1.22.0-SNAPSHOT</version>
+│ │        <classifier>tests</classifier>
+│ │        <scope>provided</scope>
+│ │      </dependency>
+│ │      <dependency>
+│ │        <groupId>org.apache.drill.exec</groupId>
+│ │        <artifactId>drill-java-exec</artifactId>
+│ │ -      <version>1.21.1</version>
+│ │ +      <version>1.22.0-SNAPSHOT</version>
+│ │        <classifier>tests</classifier>
+│ │        <scope>provided</scope>
+│ │      </dependency>
+│ │      <dependency>
+│ │        <groupId>org.slf4j</groupId>
+│ │        <artifactId>jul-to-slf4j</artifactId>
+│ │        <version>2.0.6</version>
+
+2 / 48 target/reference/drill-root-1.21.1.tar.gz target/apache-drill-1.21.1-src.tar.gz
+
+3 / 48 target/reference/drill-fmpp-maven-plugin-1.21.1.jar tools/fmpp/target/drill-fmpp-maven-plugin-1.21.1.jar
+--- target/reference/drill-fmpp-maven-plugin-1.21.1.jar
++++ tools/fmpp/target/drill-fmpp-maven-plugin-1.21.1.jar
+├── zipinfo {}
+│ @@ -1,29 +1,28 @@
+│ -Zip file size: 27893 bytes, number of entries: 27
+│ +Zip file size: 21557 bytes, number of entries: 26
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 META-INF/
+│  -rw-r--r--  2.0 unx      432 b- defN 23-Apr-19 06:16 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 META-INF/maven/org.apache.drill.tools/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 META-INF/maven/org.apache.drill.tools/drill-fmpp-maven-plugin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 bsh/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 org/apache/drill/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 org/apache/drill/fmpp/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 org/apache/drill/fmpp/mojo/
+│  -rw-r--r--  2.0 unx    14454 b- defN 23-Apr-19 06:16 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 23-Apr-19 06:16 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      186 b- defN 23-Apr-19 06:16 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx     5462 b- defN 23-Apr-19 06:16 META-INF/maven/org.apache.drill.tools/drill-fmpp-maven-plugin/plugin-help.xml
+│ --rw-r--r--  2.0 unx    17736 b- defN 23-Apr-19 06:16 META-INF/maven/plugin.xml
+│ +-rw-r--r--  2.0 unx     3148 b- defN 23-Apr-19 06:16 META-INF/maven/org.apache.drill.tools/drill-fmpp-maven-plugin/plugin-help.xml
+│ +-rw-r--r--  2.0 unx    15354 b- defN 23-Apr-19 06:16 META-INF/maven/plugin.xml
+│  -rw-r--r--  2.0 unx      267 b- defN 23-Apr-19 06:16 bsh/EvalError.class
+│  -rw-r--r--  2.0 unx      799 b- defN 23-Apr-19 06:16 git.properties
+│  -rw-r--r--  2.0 unx     2888 b- defN 23-Apr-19 06:16 org/apache/drill/fmpp/mojo/FMPPMojo$1.class
+│  -rw-r--r--  2.0 unx     1079 b- defN 23-Apr-19 06:16 org/apache/drill/fmpp/mojo/FMPPMojo$Report.class
+│  -rw-r--r--  2.0 unx     6465 b- defN 23-Apr-19 06:16 org/apache/drill/fmpp/mojo/FMPPMojo.class
+│ --rw-r--r--  2.0 unx    10820 b- defN 23-Apr-19 06:16 org/apache/drill/fmpp/mojo/HelpMojo.class
+│  -rw-r--r--  2.0 unx      691 b- defN 23-Apr-19 06:16 org/apache/drill/fmpp/mojo/MavenDataLoader$MavenData.class
+│  -rw-r--r--  2.0 unx     1165 b- defN 23-Apr-19 06:16 org/apache/drill/fmpp/mojo/MavenDataLoader.class
+│  -rw-r--r--  2.0 unx     3827 b- defN 23-Apr-19 06:16 META-INF/maven/org.apache.drill.tools/drill-fmpp-maven-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       81 b- defN 23-Apr-19 06:16 META-INF/maven/org.apache.drill.tools/drill-fmpp-maven-plugin/pom.properties
+│  -rw-r--r--  2.0 unx      283 b- defN 23-Apr-19 06:16 META-INF/INDEX.LIST
+│ -27 files, 77993 bytes uncompressed, 24101 bytes compressed:  69.1%
+│ +26 files, 62477 bytes uncompressed, 17923 bytes compressed:  71.3%
+├── zipnote «TEMP»/diffoscope_qqbxtk0q_target/tmph_kh0yld_.zip
+│ @@ -57,17 +57,14 @@
+│  
+│  Filename: org/apache/drill/fmpp/mojo/FMPPMojo$Report.class
+│  Comment: 
+│  
+│  Filename: org/apache/drill/fmpp/mojo/FMPPMojo.class
+│  Comment: 
+│  
+│ -Filename: org/apache/drill/fmpp/mojo/HelpMojo.class
+│ -Comment: 
+│ -
+│  Filename: org/apache/drill/fmpp/mojo/MavenDataLoader$MavenData.class
+│  Comment: 
+│  
+│  Filename: org/apache/drill/fmpp/mojo/MavenDataLoader.class
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.drill.tools/drill-fmpp-maven-plugin/pom.xml
+├── META-INF/maven/org.apache.drill.tools/drill-fmpp-maven-plugin/plugin-help.xml
+│ ├── META-INF/maven/org.apache.drill.tools/drill-fmpp-maven-plugin/plugin-help.xml
+│ │ @@ -64,61 +64,9 @@
+│ │          <addMavenDataLoader implementation="boolean" default-value="true"/>
+│ │          <config implementation="java.io.File" default-value="src/main/resources/fmpp/config.fmpp"/>
+│ │          <output implementation="java.io.File" default-value="${project.build.directory}/generated-sources/fmpp/"/>
+│ │          <scope implementation="java.lang.String" default-value="compile"/>
+│ │          <templates implementation="java.io.File" default-value="src/main/resources/fmpp/templates/"/>
+│ │        </configuration>
+│ │      </mojo>
+│ │ -    <mojo>
+│ │ -      <goal>help</goal>
+│ │ -      <description>Display help information on drill-fmpp-maven-plugin.
+│ │ -Call mvn drill-fmpp:help -Ddetail=true -Dgoal=&lt;goal-name&gt; to display parameter details.</description>
+│ │ -      <requiresDirectInvocation>false</requiresDirectInvocation>
+│ │ -      <requiresProject>false</requiresProject>
+│ │ -      <requiresReports>false</requiresReports>
+│ │ -      <aggregator>false</aggregator>
+│ │ -      <requiresOnline>false</requiresOnline>
+│ │ -      <inheritedByDefault>true</inheritedByDefault>
+│ │ -      <implementation>org.apache.drill.fmpp.mojo.HelpMojo</implementation>
+│ │ -      <language>java</language>
+│ │ -      <instantiationStrategy>per-lookup</instantiationStrategy>
+│ │ -      <executionStrategy>once-per-session</executionStrategy>
+│ │ -      <threadSafe>true</threadSafe>
+│ │ -      <parameters>
+│ │ -        <parameter>
+│ │ -          <name>detail</name>
+│ │ -          <type>boolean</type>
+│ │ -          <required>false</required>
+│ │ -          <editable>true</editable>
+│ │ -          <description>If true, display all settable properties for each goal.</description>
+│ │ -        </parameter>
+│ │ -        <parameter>
+│ │ -          <name>goal</name>
+│ │ -          <type>java.lang.String</type>
+│ │ -          <required>false</required>
+│ │ -          <editable>true</editable>
+│ │ -          <description>The name of the goal for which to show help. If unspecified, all goals will be displayed.</description>
+│ │ -        </parameter>
+│ │ -        <parameter>
+│ │ -          <name>indentSize</name>
+│ │ -          <type>int</type>
+│ │ -          <required>false</required>
+│ │ -          <editable>true</editable>
+│ │ -          <description>The number of spaces per indentation level, should be positive.</description>
+│ │ -        </parameter>
+│ │ -        <parameter>
+│ │ -          <name>lineLength</name>
+│ │ -          <type>int</type>
+│ │ -          <required>false</required>
+│ │ -          <editable>true</editable>
+│ │ -          <description>The maximum length of a display line, should be positive.</description>
+│ │ -        </parameter>
+│ │ -      </parameters>
+│ │ -      <configuration>
+│ │ -        <detail implementation="boolean" default-value="false">${detail}</detail>
+│ │ -        <goal implementation="java.lang.String">${goal}</goal>
+│ │ -        <indentSize implementation="int" default-value="2">${indentSize}</indentSize>
+│ │ -        <lineLength implementation="int" default-value="80">${lineLength}</lineLength>
+│ │ -      </configuration>
+│ │ -    </mojo>
+│ │    </mojos>
+│ │  </plugin>
+├── META-INF/maven/plugin.xml
+│ ├── META-INF/maven/plugin.xml
+│ │ @@ -75,66 +75,14 @@
+│ │          <config implementation="java.io.File" default-value="src/main/resources/fmpp/config.fmpp"/>
+│ │          <output implementation="java.io.File" default-value="${project.build.directory}/generated-sources/fmpp/"/>
+│ │          <project implementation="org.apache.maven.project.MavenProject" default-value="${project}"/>
+│ │          <scope implementation="java.lang.String" default-value="compile"/>
+│ │          <templates implementation="java.io.File" default-value="src/main/resources/fmpp/templates/"/>
+│ │        </configuration>
+│ │      </mojo>
+│ │ -    <mojo>
+│ │ -      <goal>help</goal>
+│ │ -      <description>Display help information on drill-fmpp-maven-plugin.&lt;br&gt;
+│ │ -Call &lt;code&gt;mvn drill-fmpp:help -Ddetail=true -Dgoal=&amp;lt;goal-name&amp;gt;&lt;/code&gt; to display parameter details.</description>
+│ │ -      <requiresDirectInvocation>false</requiresDirectInvocation>
+│ │ -      <requiresProject>false</requiresProject>
+│ │ -      <requiresReports>false</requiresReports>
+│ │ -      <aggregator>false</aggregator>
+│ │ -      <requiresOnline>false</requiresOnline>
+│ │ -      <inheritedByDefault>true</inheritedByDefault>
+│ │ -      <implementation>org.apache.drill.fmpp.mojo.HelpMojo</implementation>
+│ │ -      <language>java</language>
+│ │ -      <instantiationStrategy>per-lookup</instantiationStrategy>
+│ │ -      <executionStrategy>once-per-session</executionStrategy>
+│ │ -      <threadSafe>true</threadSafe>
+│ │ -      <parameters>
+│ │ -        <parameter>
+│ │ -          <name>detail</name>
+│ │ -          <type>boolean</type>
+│ │ -          <required>false</required>
+│ │ -          <editable>true</editable>
+│ │ -          <description>If &lt;code&gt;true&lt;/code&gt;, display all settable properties for each goal.</description>
+│ │ -        </parameter>
+│ │ -        <parameter>
+│ │ -          <name>goal</name>
+│ │ -          <type>java.lang.String</type>
+│ │ -          <required>false</required>
+│ │ -          <editable>true</editable>
+│ │ -          <description>The name of the goal for which to show help. If unspecified, all goals will be displayed.</description>
+│ │ -        </parameter>
+│ │ -        <parameter>
+│ │ -          <name>indentSize</name>
+│ │ -          <type>int</type>
+│ │ -          <required>false</required>
+│ │ -          <editable>true</editable>
+│ │ -          <description>The number of spaces per indentation level, should be positive.</description>
+│ │ -        </parameter>
+│ │ -        <parameter>
+│ │ -          <name>lineLength</name>
+│ │ -          <type>int</type>
+│ │ -          <required>false</required>
+│ │ -          <editable>true</editable>
+│ │ -          <description>The maximum length of a display line, should be positive.</description>
+│ │ -        </parameter>
+│ │ -      </parameters>
+│ │ -      <configuration>
+│ │ -        <detail implementation="boolean" default-value="false">${detail}</detail>
+│ │ -        <goal implementation="java.lang.String">${goal}</goal>
+│ │ -        <indentSize implementation="int" default-value="2">${indentSize}</indentSize>
+│ │ -        <lineLength implementation="int" default-value="80">${lineLength}</lineLength>
+│ │ -      </configuration>
+│ │ -    </mojo>
+│ │    </mojos>
+│ │    <dependencies>
+│ │      <dependency>
+│ │        <groupId>commons-io</groupId>
+│ │        <artifactId>commons-io</artifactId>
+│ │        <type>jar</type>
+│ │        <version>2.7</version>
+
+4 / 48 target/reference/drill-common-1.21.1.jar common/target/drill-common-1.21.1.jar
+--- target/reference/drill-common-1.21.1.jar
++++ common/target/drill-common-1.21.1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 165237 bytes, number of entries: 134
+│ +Zip file size: 165235 bytes, number of entries: 134
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 META-INF/
+│  -rw-r--r--  2.0 unx      392 b- defN 23-Apr-19 06:16 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 META-INF/drill-module-scan/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 org/apache/drill/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 org/apache/drill/common/
+│ @@ -21,15 +21,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 org/apache/drill/exec/util/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 META-INF/maven/org.apache.drill/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 META-INF/maven/org.apache.drill/drill-common/
+│  -rw-r--r--  2.0 unx    10006 b- defN 23-Apr-19 06:16 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 23-Apr-19 06:16 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      166 b- defN 23-Apr-19 06:16 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx      886 b- defN 23-Apr-19 06:16 META-INF/drill-module-scan/registry.json
+│ +-rw-r--r--  2.0 unx      858 b- defN 23-Apr-19 06:16 META-INF/drill-module-scan/registry.json
+│  -rw-r--r--  2.0 unx     1114 b- defN 23-Apr-19 06:16 drill-default.conf
+│  -rw-r--r--  2.0 unx     1544 b- defN 23-Apr-19 06:16 drill-module.conf
+│  -rw-r--r--  2.0 unx      799 b- defN 23-Apr-19 06:16 git.properties
+│  -rw-r--r--  2.0 unx     1756 b- defN 23-Apr-19 06:16 org/apache/drill/common/AutoCloseablePointer.class
+│  -rw-r--r--  2.0 unx      283 b- defN 23-Apr-19 06:16 org/apache/drill/common/AutoCloseables$Closeable.class
+│  -rw-r--r--  2.0 unx     4530 b- defN 23-Apr-19 06:16 org/apache/drill/common/AutoCloseables.class
+│  -rw-r--r--  2.0 unx     1830 b- defN 23-Apr-19 06:16 org/apache/drill/common/CatastrophicFailure.class
+│ @@ -129,8 +129,8 @@
+│  -rw-r--r--  2.0 unx     1861 b- defN 23-Apr-19 06:16 org/apache/drill/exec/util/ActionOnFile.class
+│  -rw-r--r--  2.0 unx      733 b- defN 23-Apr-19 06:16 org/apache/drill/exec/util/AssertionUtil.class
+│  -rw-r--r--  2.0 unx     1008 b- defN 23-Apr-19 06:16 org/apache/drill/exec/util/SystemPropertyUtil$1.class
+│  -rw-r--r--  2.0 unx     3883 b- defN 23-Apr-19 06:16 org/apache/drill/exec/util/SystemPropertyUtil.class
+│  -rw-r--r--  2.0 unx     3779 b- defN 23-Apr-19 06:16 META-INF/maven/org.apache.drill/drill-common/pom.xml
+│  -rw-r--r--  2.0 unx       64 b- defN 23-Apr-19 06:16 META-INF/maven/org.apache.drill/drill-common/pom.properties
+│  -rw-r--r--  2.0 unx      701 b- defN 23-Apr-19 06:16 META-INF/INDEX.LIST
+│ -134 files, 343367 bytes uncompressed, 142071 bytes compressed:  58.6%
+│ +134 files, 343339 bytes uncompressed, 142069 bytes compressed:  58.6%
+├── META-INF/drill-module-scan/registry.json
+│ @@ -1,9 +1,9 @@
+│  {
+│ -  "scannedPackages" : [ "org.apache.drill.storage", "org.apache.drill.exec.store.mock", "org.apache.drill.common.logical", "org.apache.drill.storage" ],
+│ +  "scannedPackages" : [ "org.apache.drill.exec.store.mock", "org.apache.drill.common.logical", "org.apache.drill.storage" ],
+│    "scannedClasses" : [ "org.apache.drill.common.logical.FormatPluginConfig", "org.apache.drill.common.logical.data.LogicalOperator", "org.apache.drill.common.logical.security.CredentialsProvider", "org.apache.drill.common.logical.StoragePluginConfig" ],
+│    "scannedAnnotations" : [ ],
+│    "annotatedClasses" : [ ],
+│    "implementations" : [ {
+│      "name" : "org.apache.drill.common.logical.data.LogicalOperator",
+│      "children" : [ ]
+│    }, {
+
+5 / 48 target/reference/drill-logical-1.21.1.jar logical/target/drill-logical-1.21.1.jar
+--- target/reference/drill-logical-1.21.1.jar
++++ logical/target/drill-logical-1.21.1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 321358 bytes, number of entries: 250
+│ +Zip file size: 321362 bytes, number of entries: 250
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 META-INF/
+│  -rw-r--r--  2.0 unx      404 b- defN 23-Apr-19 06:16 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 META-INF/drill-module-scan/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 org/apache/drill/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 org/apache/drill/common/
+│ @@ -245,8 +245,8 @@
+│  -rw-r--r--  2.0 unx     5625 b- defN 23-Apr-19 06:16 org/apache/drill/common/logical/security/PlainCredentialsProvider.class
+│  -rw-r--r--  2.0 unx     1227 b- defN 23-Apr-19 06:16 org/apache/drill/common/parser/ErrorListener.class
+│  -rw-r--r--  2.0 unx     2354 b- defN 23-Apr-19 06:16 org/apache/drill/common/parser/LogicalExpressionParser.class
+│  -rw-r--r--  2.0 unx     4295 b- defN 23-Apr-19 06:16 org/apache/drill/common/util/AbstractDynamicBean.class
+│  -rw-r--r--  2.0 unx     3952 b- defN 23-Apr-19 06:16 META-INF/maven/org.apache.drill/drill-logical/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 23-Apr-19 06:16 META-INF/maven/org.apache.drill/drill-logical/pom.properties
+│  -rw-r--r--  2.0 unx      779 b- defN 23-Apr-19 06:16 META-INF/INDEX.LIST
+│ -250 files, 815666 bytes uncompressed, 273202 bytes compressed:  66.5%
+│ +250 files, 815666 bytes uncompressed, 273206 bytes compressed:  66.5%
+├── META-INF/drill-module-scan/registry.json
+│ @@ -1,101 +1,101 @@
+│  {
+│ -  "scannedPackages" : [ "org.apache.drill.storage", "org.apache.drill.exec.store.mock", "org.apache.drill.common.logical" ],
+│ +  "scannedPackages" : [ "org.apache.drill.exec.store.mock", "org.apache.drill.common.logical", "org.apache.drill.storage" ],
+│    "scannedClasses" : [ "org.apache.drill.common.logical.FormatPluginConfig", "org.apache.drill.common.logical.data.LogicalOperator", "org.apache.drill.common.logical.security.CredentialsProvider", "org.apache.drill.common.logical.StoragePluginConfig" ],
+│    "scannedAnnotations" : [ ],
+│    "annotatedClasses" : [ ],
+│    "implementations" : [ {
+│      "name" : "org.apache.drill.common.logical.data.LogicalOperator",
+│      "children" : [ {
+│ -      "name" : "org.apache.drill.common.logical.data.Except",
+│ +      "name" : "org.apache.drill.common.logical.data.Filter",
+│        "abstract" : false
+│      }, {
+│ -      "name" : "org.apache.drill.common.logical.data.RunningAggregate",
+│ +      "name" : "org.apache.drill.common.logical.data.Writer",
+│        "abstract" : false
+...
+
+7 / 48 target/reference/drill-jdbc-1.21.1.jar exec/jdbc/target/drill-jdbc-1.21.1.jar
+--- target/reference/drill-jdbc-1.21.1.jar
++++ exec/jdbc/target/drill-jdbc-1.21.1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 134308 bytes, number of entries: 78
+│ +Zip file size: 134310 bytes, number of entries: 78
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 META-INF/
+│  -rw-r--r--  2.0 unx      454 b- defN 23-Apr-19 06:16 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 org/apache/drill/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 org/apache/drill/jdbc/
+│ @@ -12,15 +12,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 META-INF/maven/org.apache.drill.exec/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 META-INF/maven/org.apache.drill.exec/drill-jdbc/
+│  -rw-r--r--  2.0 unx    59364 b- defN 23-Apr-19 06:16 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 23-Apr-19 06:16 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      197 b- defN 23-Apr-19 06:16 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx       29 b- defN 23-Apr-19 06:16 META-INF/services/java.sql.Driver
+│  -rw-r--r--  2.0 unx      899 b- defN 23-Apr-19 06:16 apache-drill-jdbc.properties
+│ --rw-r--r--  2.0 unx      796 b- defN 23-Apr-19 06:16 git.properties
+│ +-rw-r--r--  2.0 unx      799 b- defN 23-Apr-19 06:16 git.properties
+│  -rw-r--r--  2.0 unx     1548 b- defN 23-Apr-19 06:16 org/apache/drill/jdbc/AlreadyClosedSqlException.class
+│  -rw-r--r--  2.0 unx     1404 b- defN 23-Apr-19 06:16 org/apache/drill/jdbc/DrillConnection.class
+│  -rw-r--r--  2.0 unx     1504 b- defN 23-Apr-19 06:16 org/apache/drill/jdbc/DrillConnectionConfig.class
+│  -rw-r--r--  2.0 unx     1788 b- defN 23-Apr-19 06:16 org/apache/drill/jdbc/DrillDatabaseMetaData.class
+│  -rw-r--r--  2.0 unx      181 b- defN 23-Apr-19 06:16 org/apache/drill/jdbc/DrillPreparedStatement.class
+│  -rw-r--r--  2.0 unx     1380 b- defN 23-Apr-19 06:16 org/apache/drill/jdbc/DrillResultSet.class
+│  -rw-r--r--  2.0 unx      512 b- defN 23-Apr-19 06:16 org/apache/drill/jdbc/DrillStatement.class
+│ @@ -73,8 +73,8 @@
+│  -rw-r--r--  2.0 unx      676 b- defN 23-Apr-19 06:16 org/apache/drill/jdbc/proxy/ProxySetupSQLException.class
+│  -rw-r--r--  2.0 unx     3592 b- defN 23-Apr-19 06:16 org/apache/drill/jdbc/proxy/TracingInvocationHandler.class
+│  -rw-r--r--  2.0 unx     3543 b- defN 23-Apr-19 06:16 org/apache/drill/jdbc/proxy/TracingProxyDriver$UrlHandler.class
+│  -rw-r--r--  2.0 unx     5051 b- defN 23-Apr-19 06:16 org/apache/drill/jdbc/proxy/TracingProxyDriver.class
+│  -rw-r--r--  2.0 unx     5444 b- defN 23-Apr-19 06:16 META-INF/maven/org.apache.drill.exec/drill-jdbc/pom.xml
+│  -rw-r--r--  2.0 unx       67 b- defN 23-Apr-19 06:16 META-INF/maven/org.apache.drill.exec/drill-jdbc/pom.properties
+│  -rw-r--r--  2.0 unx      326 b- defN 23-Apr-19 06:16 META-INF/INDEX.LIST
+│ -78 files, 367206 bytes uncompressed, 121322 bytes compressed:  67.0%
+│ +78 files, 367209 bytes uncompressed, 121324 bytes compressed:  67.0%
+├── git.properties
+│ @@ -12,8 +12,8 @@
+│  git.commit.message.full=[maven-release-plugin] prepare release drill-1.21.1
+│  git.commit.message.short=[maven-release-plugin] prepare release drill-1.21.1
+│  git.commit.time=19.04.2023 @ 06\:31\:58 UTC
+│  git.commit.user.email=james@somecomputer.xyz
+│  git.commit.user.name=James Turton
+│  git.dirty=false
+│  git.tags=drill-1.21.1
+│ -git.total.commit.count=1
+│ +git.total.commit.count=4420
+
+8 / 48 target/reference/drill-jdbc-all-1.21.1.pom exec/jdbc-all/dependency-reduced-pom.xml
+--- target/reference/drill-jdbc-all-1.21.1.pom
++++ exec/jdbc-all/dependency-reduced-pom.xml
+│   --- target/reference/drill-jdbc-all-1.21.1.pom
+├── +++ exec/jdbc-all/dependency-reduced-pom.xml
+│ @@ -1094,19 +1094,20 @@
+│                <notimestamp>true</notimestamp>
+│              </configuration>
+│            </plugin>
+│          </plugins>
+│        </build>
+│        <properties>
+│          <os.detected.arch>x86_64</os.detected.arch>
+│ -        <os.detected.release.version>12</os.detected.release.version>
+│ +        <os.detected.release.version>22.04</os.detected.release.version>
+│          <os.detected.release.like.debian>true</os.detected.release.like.debian>
+│          <os.detected.name>linux</os.detected.name>
+│ +        <os.detected.release.like.ubuntu>true</os.detected.release.like.ubuntu>
+│          <os.detected.classifier>linux-x86_64</os.detected.classifier>
+│ -        <os.detected.release>debian</os.detected.release>
+│ +        <os.detected.release>ubuntu</os.detected.release>
+│        </properties>
+│      </profile>
+│      <profile>
+│        <id>hadoop-2</id>
+│        <properties>
+│          <jdbc-all-jar.maxsize>51000000</jdbc-all-jar.maxsize>
+│        </properties>
+
+9 / 48 target/reference/drill-jdbc-all-1.21.1.jar exec/jdbc-all/target/drill-jdbc-all-1.21.1.jar
+
+11 / 48 target/reference/drill-yarn-1.21.1.jar drill-yarn/target/drill-yarn-1.21.1.jar
+--- target/reference/drill-yarn-1.21.1.jar
++++ drill-yarn/target/drill-yarn-1.21.1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 319627 bytes, number of entries: 203
+│ +Zip file size: 319629 bytes, number of entries: 203
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 META-INF/
+│  -rw-r--r--  2.0 unx      394 b- defN 23-Apr-19 06:16 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 drill-am/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 drill-am/static/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 drill-am/static/css/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 drill-am/static/img/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-19 06:16 org/
+│ @@ -29,15 +29,15 @@
+│  -rw-r--r--  2.0 unx     3324 b- defN 23-Apr-19 06:16 drill-am/manage.ftl
+│  -rw-r--r--  2.0 unx     1463 b- defN 23-Apr-19 06:16 drill-am/redirect.ftl
+│  -rw-r--r--  2.0 unx     2172 b- defN 23-Apr-19 06:16 drill-am/shrink-warning.ftl
+│  -rw-r--r--  2.0 unx      876 b- defN 23-Apr-19 06:16 drill-am/static/css/drill-am.css
+│  -rw-r--r--  2.0 unx    29802 b- defN 23-Apr-19 06:16 drill-am/static/img/apache-drill-logo.png
+│  -rw-r--r--  2.0 unx      580 b- defN 23-Apr-19 06:16 drill-am/static/img/drill.ico
+│  -rw-r--r--  2.0 unx     5040 b- defN 23-Apr-19 06:16 drill-am/tasks.ftl
+│ --rw-r--r--  2.0 unx      796 b- defN 23-Apr-19 06:16 git.properties
+│ +-rw-r--r--  2.0 unx      799 b- defN 23-Apr-19 06:16 git.properties
+│  -rw-r--r--  2.0 unx      664 b- defN 23-Apr-19 06:16 org/apache/drill/yarn/appMaster/AMException.class
+│  -rw-r--r--  2.0 unx      702 b- defN 23-Apr-19 06:16 org/apache/drill/yarn/appMaster/AMRegistrar$AMRegistrationException.class
+│  -rw-r--r--  2.0 unx      377 b- defN 23-Apr-19 06:16 org/apache/drill/yarn/appMaster/AMRegistrar.class
+│  -rw-r--r--  2.0 unx      507 b- defN 23-Apr-19 06:16 org/apache/drill/yarn/appMaster/AMWrapperException.class
+│  -rw-r--r--  2.0 unx      620 b- defN 23-Apr-19 06:16 org/apache/drill/yarn/appMaster/AMYarnFacade$YarnAppHostReport.class
+│  -rw-r--r--  2.0 unx     2119 b- defN 23-Apr-19 06:16 org/apache/drill/yarn/appMaster/AMYarnFacade.class
+│  -rw-r--r--  2.0 unx    12246 b- defN 23-Apr-19 06:16 org/apache/drill/yarn/appMaster/AMYarnFacadeImpl.class
+│ @@ -198,8 +198,8 @@
+│  -rw-r--r--  2.0 unx     1500 b- defN 23-Apr-19 06:16 org/apache/drill/yarn/zk/ZKRegistry$DrillbitTracker$State.class
+│  -rw-r--r--  2.0 unx     1958 b- defN 23-Apr-19 06:16 org/apache/drill/yarn/zk/ZKRegistry$DrillbitTracker.class
+│  -rw-r--r--  2.0 unx    11210 b- defN 23-Apr-19 06:16 org/apache/drill/yarn/zk/ZKRegistry.class
+│  -rw-r--r--  2.0 unx      671 b- defN 23-Apr-19 06:16 org/apache/drill/yarn/zk/ZKRuntimeException.class
+│  -rw-r--r--  2.0 unx     4671 b- defN 23-Apr-19 06:16 META-INF/maven/org.apache.drill/drill-yarn/pom.xml
+│  -rw-r--r--  2.0 unx       62 b- defN 23-Apr-19 06:16 META-INF/maven/org.apache.drill/drill-yarn/pom.properties
+│  -rw-r--r--  2.0 unx      429 b- defN 23-Apr-19 06:16 META-INF/INDEX.LIST
+│ -203 files, 649949 bytes uncompressed, 283213 bytes compressed:  56.4%
+│ +203 files, 649952 bytes uncompressed, 283215 bytes compressed:  56.4%
+├── git.properties
+│ @@ -12,8 +12,8 @@
+│  git.commit.message.full=[maven-release-plugin] prepare release drill-1.21.1
+│  git.commit.message.short=[maven-release-plugin] prepare release drill-1.21.1
+│  git.commit.time=19.04.2023 @ 06\:31\:58 UTC
+│  git.commit.user.email=james@somecomputer.xyz
+│  git.commit.user.name=James Turton
+│  git.dirty=false
+│  git.tags=drill-1.21.1
+│ -git.total.commit.count=1
+│ +git.total.commit.count=4420

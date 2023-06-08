@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Event API
+group-id=org.apache.sling
+artifact-id=org.apache.sling.event.api
+version=1.0.4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-event-api.git
+source.scm.tag=org.apache.sling.event.api-1.0.4
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.event.api-1.0.4.pom
+outputs.0.length=2925
+outputs.0.checksums.sha512=c2beb6743ae4157d960917eccc894735cf4ecadba3837fd912d0ffa81a30dc5e3a22246a346836374c1461aa71aeeda3d718de81d37e9cb3a4fc11e537506377
+
+outputs.1.filename=org.apache.sling.event.api-1.0.4.jar
+outputs.1.length=25402
+outputs.1.checksums.sha512=2dd285011e72d6bf1633ceececcfb53dac4d279bab4999857fdef3d375904c593765124db1cbef4d5a72690ff0a85638494532284b398cb4ffb3d38ac299189f
+
+outputs.2.filename=org.apache.sling.event.api-1.0.4-source-release.zip
+outputs.2.length=40981
+outputs.2.checksums.sha512=a14d7e13345d99483f504c50a7cffcfeb8f6c06f7352a2f22367dd748a639d146e373db3d2e951265265dbf715a99dd299dd88ce4fd72caa2cb3471756f369b4
+
+outputs.3.filename=org.apache.sling.event.api-1.0.4-sources.jar
+outputs.3.length=35523
+outputs.3.checksums.sha512=e07c944f31a9d2addd43c4e9776aff5b74d4b4948abdbda50c1a9e6a92c483596feb9ef3eeac6f5c56b4f61a81d46bcc8d72d1bc48d56e19d014b35afb83a5aa
+
+outputs.4.filename=org.apache.sling.event.api-1.0.4-sources.jar
+outputs.4.length=35523
+outputs.4.checksums.sha512=e07c944f31a9d2addd43c4e9776aff5b74d4b4948abdbda50c1a9e6a92c483596feb9ef3eeac6f5c56b4f61a81d46bcc8d72d1bc48d56e19d014b35afb83a5aa

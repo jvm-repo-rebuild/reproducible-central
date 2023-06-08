@@ -1,0 +1,16 @@
+groupId=org.apache.logging.log4j
+artifactId=log4j-transform-bom
+display=${groupId}:${artifactId}
+version=0.1.0
+
+gitRepo=https://github.com/apache/logging-log4j-transform.git
+gitTag=rel/${version}
+
+tool=mvn
+jdk=17
+newline=lf
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=

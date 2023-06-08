@@ -4,7 +4,7 @@ display=${groupId}:${artifactId}
 version=0.9.7
 
 gitRepo=https://github.com/apache/royale-compiler.git
-gitTag=${groupId}-${version}-rc5
+gitTag=apache-royale-${version}
 
 tool=mvn
 jdk=8

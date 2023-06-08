@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Build Helper Maven Plugin
+group-id=org.codehaus.mojo
+artifact-id=build-helper-maven-plugin
+version=3.4.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/mojohaus/build-helper-maven-plugin.git
+source.scm.tag=3.4.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.filename=build-helper-maven-plugin-3.4.0.pom
+outputs.0.length=7621
+outputs.0.checksums.sha512=aff0eeee5a17a26807dfd0e53586791f679ce318ddd68df1ddd2bfc4cf87ec6edc9f4770fa60450a12300e26fb4fc78ddd1b7ca75785c7423f206a884a2dae30
+
+outputs.1.filename=build-helper-maven-plugin-3.4.0.jar
+outputs.1.length=69629
+outputs.1.checksums.sha512=997d7bda18826a60d9fa61cfae8184a5c29209f2c3ea3e27186de5976ea4ac7c3c95a388edfe5fff60fbfba19861df69fb418925fca67984dbd2ad298c42ffae
+
+outputs.2.filename=build-helper-maven-plugin-3.4.0-source-release.zip
+outputs.2.length=175694
+outputs.2.checksums.sha512=f1a42e9b0c2d64204b3bf967c0b424d6dae5be14510f1b7deaf3746701ad56d330ff27143ec330bf731a910d705917ae0b9966eadb132ca30b07a46a627987e6
+
+outputs.3.filename=build-helper-maven-plugin-3.4.0-sources.jar
+outputs.3.length=56739
+outputs.3.checksums.sha512=c14862968fcf4cbf1e751306e8e9b565672f469009f69360c54b384db1621c8db3038b977e7152ce80680285b1341eae23186401e285ddcc237293b396b2a7ba

@@ -1,0 +1,226 @@
+2 / 14 target/reference/compiler-0.9.10-sources.jar compiler/target/compiler-0.9.10-sources.jar
+--- target/reference/compiler-0.9.10-sources.jar
++++ compiler/target/compiler-0.9.10-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 3273530 bytes, number of entries: 1761
+│ +Zip file size: 3273405 bytes, number of entries: 1761
+│  -rw-r--r--  2.0 unx       64 b- defN 23-May-11 16:22 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-11 16:22 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-11 16:22 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-11 16:22 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-11 16:22 org/apache/royale/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-11 16:22 org/apache/royale/abc/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-11 16:22 org/apache/royale/abc/diagnostics/
+│ @@ -113,15 +113,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-11 16:22 org/apache/royale/swf/tags/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-11 16:22 org/apache/royale/swf/types/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-11 16:22 org/apache/royale/utils/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-11 16:22 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-11 16:22 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-11 16:22 META-INF/maven/org.apache.royale.compiler/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-11 16:22 META-INF/maven/org.apache.royale.compiler/compiler/
+│ --rw-r--r--  2.0 unx    22621 b- defN 23-May-11 16:22 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    22554 b- defN 23-May-11 16:22 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 23-May-11 16:22 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      185 b- defN 23-May-11 16:22 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx    68026 b- defN 23-May-11 16:22 org/apache/royale/abc/ABCEmitter.java
+│  -rw-r--r--  2.0 unx    28299 b- defN 23-May-11 16:22 org/apache/royale/abc/ABCLinker.java
+│  -rw-r--r--  2.0 unx    42672 b- defN 23-May-11 16:22 org/apache/royale/abc/ABCParser.java
+│  -rw-r--r--  2.0 unx     2223 b- defN 23-May-11 16:22 org/apache/royale/abc/ABCReader.java
+│  -rw-r--r--  2.0 unx     5754 b- defN 23-May-11 16:22 org/apache/royale/abc/ClassDependencySort.java
+│ @@ -1733,17 +1733,17 @@
+│  -rw-r--r--  2.0 unx    66194 b- defN 23-May-11 16:22 org/apache/royale/compiler/internal/parsing/as/RawASTokenizer.java
+│  -rw-r--r--  2.0 unx    28353 b- defN 23-May-11 16:22 org/apache/royale/compiler/internal/parsing/mxml/RawMXMLTokenizer.java
+│  -rw-r--r--  2.0 unx   192829 b- defN 23-May-11 16:22 org/apache/royale/compiler/internal/parsing/as/ASParser.java
+│  -rw-r--r--  2.0 unx    55638 b- defN 23-May-11 16:22 org/apache/royale/compiler/internal/parsing/as/ASParser.smap
+│  -rw-r--r--  2.0 unx     7657 b- defN 23-May-11 16:22 org/apache/royale/compiler/internal/parsing/as/ASTokenTypes.java
+│  -rw-r--r--  2.0 unx     4494 b- defN 23-May-11 16:22 org/apache/royale/compiler/internal/parsing/as/ASTokenTypes.txt
+│  -rw-r--r--  2.0 unx    30905 b- defN 23-May-11 16:22 org/apache/royale/compiler/internal/parsing/as/MetadataParser.java
+│ --rw-r--r--  2.0 unx     8748 b- defN 23-May-11 16:22 org/apache/royale/compiler/internal/parsing/as/MetadataParser.smap
+│ +-rw-r--r--  2.0 unx     7776 b- defN 23-May-11 16:22 org/apache/royale/compiler/internal/parsing/as/MetadataParser.smap
+│  -rw-r--r--  2.0 unx     3488 b- defN 23-May-11 16:22 org/apache/royale/compiler/internal/parsing/as/MetadataTokenTypes.java
+│ --rw-r--r--  2.0 unx     1377 b- defN 23-May-11 16:22 org/apache/royale/compiler/internal/parsing/as/MetadataTokenTypes.txt
+│ +-rw-r--r--  2.0 unx     1324 b- defN 23-May-11 16:22 org/apache/royale/compiler/internal/parsing/as/MetadataTokenTypes.txt
+│  -rw-r--r--  2.0 unx    35922 b- defN 23-May-11 16:22 CSSEmitter.java
+│  -rw-r--r--  2.0 unx  1077107 b- defN 23-May-11 16:22 CmcEmitter.java
+│  -rw-r--r--  2.0 unx     1063 b- defN 23-May-11 16:22 CSS.tokens
+│  -rw-r--r--  2.0 unx    82369 b- defN 23-May-11 16:22 CSSLexer.java
+│  -rw-r--r--  2.0 unx   117130 b- defN 23-May-11 16:22 CSSParser.java
+│  -rw-r--r--  2.0 unx    86816 b- defN 23-May-11 16:22 CSSTree.java
+│  -rw-r--r--  2.0 unx     1063 b- defN 23-May-11 16:22 CSSTree.tokens
+│ @@ -1756,8 +1756,8 @@
+│  -rw-r--r--  2.0 unx    87467 b- defN 23-May-11 16:22 org/apache/royale/compiler/messages_fr.properties
+│  -rw-r--r--  2.0 unx   145145 b- defN 23-May-11 16:22 org/apache/royale/compiler/messages_ja.properties
+│  -rw-r--r--  2.0 unx    96582 b- defN 23-May-11 16:22 org/apache/royale/compiler/messages_zh_CN.properties
+│  -rw-r--r--  2.0 unx     1688 b- defN 23-May-11 16:22 overview.html
+│  -rw-r--r--  2.0 unx     1494 b- defN 23-May-11 16:22 template-unittest.properties
+│  -rw-r--r--  2.0 unx    25765 b- defN 23-May-11 16:22 META-INF/maven/org.apache.royale.compiler/compiler/pom.xml
+│  -rw-r--r--  2.0 unx       73 b- defN 23-May-11 16:22 META-INF/maven/org.apache.royale.compiler/compiler/pom.properties
+│ -1761 files, 11992632 bytes uncompressed, 2921606 bytes compressed:  75.6%
+│ +1761 files, 11991540 bytes uncompressed, 2921481 bytes compressed:  75.6%
+├── META-INF/DEPENDENCIES
+│ @@ -7,16 +7,14 @@
+│  
+│  
+│  From: 'an unknown organization'
+│    - AntLR Parser Generator (http://www.antlr.org/) antlr:antlr:jar:2.7.7
+│      License: BSD License  (http://www.antlr.org/license.html)
+│    - Ganymed SSH2 for Java (http://www.ganymed.ethz.ch/ssh2/) ch.ethz.ganymed:ganymed-ssh2:jar:build210
+│      License: BSD style license  (http://www.ganymed.ethz.ch/ssh2/LICENSE.txt)
+│ -  - playerglobal  com.adobe.flash.framework:playerglobal:swc:32.0
+│ -
+│    - FindBugs-jsr305 (http://findbugs.sourceforge.net/) com.google.code.findbugs:jsr305:jar:3.0.2
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Gson (https://github.com/google/gson/gson) com.google.code.gson:gson:jar:2.7
+│      License: Apache 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - error-prone annotations (http://nexus.sonatype.org/oss-repository-hosting.html/error_prone_parent/error_prone_annotations) com.google.errorprone:error_prone_annotations:jar:2.1.3
+│      License: Apache 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Guava: Google Core Libraries for Java (https://github.com/google/guava/guava) com.google.guava:guava:bundle:25.1-jre
+├── org/apache/royale/compiler/internal/parsing/as/MetadataParser.smap
+│ @@ -1,972 +1,972 @@
+│ -SMAP
+
+│ -MetadataParser.java
+
+│ -G
+
+│ -*S G
+
+...
+│ -405:1369
+
+│ -406:1370
+
+│ -*E
+
+│ +SMAP
+│ +MetadataParser.java
+│ +G
+│ +*S G
+...
+│ +405:1369
+│ +406:1370
+│ +*E
+├── org/apache/royale/compiler/internal/parsing/as/MetadataTokenTypes.txt
+│ @@ -1,53 +1,53 @@
+│ -// $ANTLR 2.7.7 (20060906): MetadataParser.g -> MetadataTokenTypes.txt$
+
+│ -Metadata    // output token vocab name
+
+...
+│ -TOKEN_ALTERNATIVE_KEYWORD=64
+
+│ +// $ANTLR 2.7.7 (20060906): MetadataParser.g -> MetadataTokenTypes.txt$
+│ +Metadata    // output token vocab name
+...
+│ +TOKEN_ALTERNATIVE_KEYWORD=64
+├── CSSParser.java
+│ @@ -454,15 +454,15 @@
+│  			STRING8=(Token)match(input,STRING,FOLLOW_STRING_in_namespaceStatement194);  
+
+│  			stream_STRING.add(STRING8);
+
+│  
+
+│  			SEMI_COLONS9=(Token)match(input,SEMI_COLONS,FOLLOW_SEMI_COLONS_in_namespaceStatement196);  
+
+│  			stream_SEMI_COLONS.add(SEMI_COLONS9);
+
+│  
+
+│  			// AST REWRITE
+
+│ -			// elements: AT_NAMESPACE, ID, STRING
+
+│ +			// elements: AT_NAMESPACE, STRING, ID
+
+│  			// token labels: 
+
+│  			// rule labels: retval
+
+│  			// token list labels: 
+
+│  			// rule list labels: 
+
+│  			// wildcard labels: 
+
+│  			retval.tree = root_0;
+
+│  			RewriteRuleSubtreeStream stream_retval=new RewriteRuleSubtreeStream(adaptor,"rule retval",retval!=null?retval.getTree():null);
+
+...
+
+6 / 14 target/reference/debugger-0.9.10-sources.jar debugger/target/debugger-0.9.10-sources.jar
+--- target/reference/debugger-0.9.10-sources.jar
++++ debugger/target/debugger-0.9.10-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 683509 bytes, number of entries: 254
+│ +Zip file size: 683472 bytes, number of entries: 254
+│  -rw-r--r--  2.0 unx       64 b- defN 23-May-11 16:22 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-11 16:22 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-11 16:22 flash/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-11 16:22 flash/tools/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-11 16:22 flash/tools/debugger/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-11 16:22 flash/tools/debugger/concrete/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-11 16:22 flash/tools/debugger/events/
+│ @@ -12,15 +12,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-11 16:22 royale/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-11 16:22 royale/tools/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-11 16:22 royale/tools/debugger/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-11 16:22 royale/tools/debugger/cli/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-11 16:22 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-11 16:22 META-INF/maven/org.apache.royale.compiler/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-11 16:22 META-INF/maven/org.apache.royale.compiler/debugger/
+│ --rw-r--r--  2.0 unx    23749 b- defN 23-May-11 16:22 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    23682 b- defN 23-May-11 16:22 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 23-May-11 16:22 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      185 b- defN 23-May-11 16:22 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     1715 b- defN 23-May-11 16:22 flash/tools/ActionLocation.java
+│  -rw-r--r--  2.0 unx     8035 b- defN 23-May-11 16:22 flash/tools/SwfActionContainer.java
+│  -rw-r--r--  2.0 unx     4019 b- defN 23-May-11 16:22 flash/tools/debugger/AIRLaunchInfo.java
+│  -rw-r--r--  2.0 unx     1803 b- defN 23-May-11 16:22 flash/tools/debugger/AlreadyActiveApplicationException.java
+│  -rw-r--r--  2.0 unx     1727 b- defN 23-May-11 16:22 flash/tools/debugger/Bootstrap.java
+│ @@ -249,8 +249,8 @@
+│  -rw-r--r--  2.0 unx    28035 b- defN 23-May-11 16:22 royale/tools/debugger/cli/fdbhelp_no.txt
+│  -rw-r--r--  2.0 unx    48179 b- defN 23-May-11 16:22 royale/tools/debugger/cli/fdbhelp_ru.txt
+│  -rw-r--r--  2.0 unx    30279 b- defN 23-May-11 16:22 royale/tools/debugger/cli/fdbhelp_se.txt
+│  -rw-r--r--  2.0 unx    26108 b- defN 23-May-11 16:22 royale/tools/debugger/cli/fdbhelp_zh_CN.txt
+│  -rw-r--r--  2.0 unx    26649 b- defN 23-May-11 16:22 royale/tools/debugger/cli/fdbhelp_zh_TW.txt
+│  -rw-r--r--  2.0 unx     4877 b- defN 23-May-11 16:22 META-INF/maven/org.apache.royale.compiler/debugger/pom.xml
+│  -rw-r--r--  2.0 unx       73 b- defN 23-May-11 16:22 META-INF/maven/org.apache.royale.compiler/debugger/pom.properties
+│ -254 files, 2524654 bytes uncompressed, 641565 bytes compressed:  74.6%
+│ +254 files, 2524587 bytes uncompressed, 641528 bytes compressed:  74.6%
+├── META-INF/DEPENDENCIES
+│ @@ -7,16 +7,14 @@
+│  
+│  
+│  From: 'an unknown organization'
+│    - AntLR Parser Generator (http://www.antlr.org/) antlr:antlr:jar:2.7.7
+│      License: BSD License  (http://www.antlr.org/license.html)
+│    - Ganymed SSH2 for Java (http://www.ganymed.ethz.ch/ssh2/) ch.ethz.ganymed:ganymed-ssh2:jar:build210
+│      License: BSD style license  (http://www.ganymed.ethz.ch/ssh2/LICENSE.txt)
+│ -  - playerglobal  com.adobe.flash.framework:playerglobal:swc:32.0
+│ -
+│    - FindBugs-jsr305 (http://findbugs.sourceforge.net/) com.google.code.findbugs:jsr305:jar:3.0.1
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Gson (https://github.com/google/gson/gson) com.google.code.gson:gson:jar:2.7
+│      License: Apache 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - error-prone annotations (http://nexus.sonatype.org/oss-repository-hosting.html/error_prone_parent/error_prone_annotations) com.google.errorprone:error_prone_annotations:jar:2.3.1
+│      License: Apache 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Guava: Google Core Libraries for Java (https://github.com/google/guava/guava) com.google.guava:guava:bundle:25.1-jre
+├── AS3DebuggerBURM.java
+│ @@ -1,9 +1,9 @@
+│  
+│ -/*  Generated Thu May 11 16:46:58 UTC 2023 by JBurg version Set in build.properties */
+
+│ +/*  Generated Thu May 25 18:48:07 UTC 2023 by JBurg version Set in build.properties */
+
+│  
+│  package flash.tools.debugger.expression;
+│  
+│  
+│  	/*
+│      
+│        Licensed to the Apache Software Foundation (ASF) under one or more

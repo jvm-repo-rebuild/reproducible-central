@@ -1,0 +1,21 @@
+version=0.9.10
+ok=36
+ko=14
+okFiles="royale-compiler-parent-0.9.10.pom royale-compiler-parent-0.9.10-site.xml royale-compiler-parent-0.9.10-source-release.zip compiler-common-0.9.10.pom compiler-common-0.9.10.jar compiler-common-0.9.10-sources.jar compiler-test-utils-0.9.10.pom compiler-test-utils-0.9.10.jar compiler-test-utils-0.9.10-sources.jar compiler-externc-0.9.10.pom compiler-externc-0.9.10.jar compiler-externc-0.9.10-sources.jar compiler-externc-0.9.10-tests.jar compiler-playerglobalc-0.9.10.pom compiler-playerglobalc-0.9.10.jar compiler-playerglobalc-0.9.10-sources.jar compiler-playerglobalc-0.9.10-tests.jar compiler-0.9.10.pom compiler-0.9.10-scripts.jar compiler-jx-0.9.10.pom swfutils-0.9.10.pom swfutils-0.9.10.jar swfutils-0.9.10-sources.jar debugger-0.9.10.pom formatter-0.9.10.pom linter-0.9.10.pom flex-compiler-oem-0.9.10.pom royale-ant-tasks-0.9.10.pom royale-ant-tasks-0.9.10.jar royale-ant-tasks-0.9.10-sources.jar royaleunit-ant-tasks-0.9.10.pom royaleunit-ant-tasks-0.9.10.jar royaleunit-ant-tasks-0.9.10-sources.jar royale-maven-plugin-0.9.10.pom royale-maven-plugin-0.9.10.jar royale-maven-plugin-0.9.10-sources.jar"
+koFiles="compiler-0.9.10.jar compiler-0.9.10-sources.jar compiler-jx-0.9.10.jar compiler-jx-0.9.10-sources.jar debugger-0.9.10.jar debugger-0.9.10-sources.jar formatter-0.9.10.jar formatter-0.9.10-sources.jar formatter-0.9.10-tests.jar linter-0.9.10.jar linter-0.9.10-sources.jar linter-0.9.10-tests.jar flex-compiler-oem-0.9.10.jar flex-compiler-oem-0.9.10-sources.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/compiler-0.9.10.jar compiler/target/compiler-0.9.10.jar
+# diffoscope target/reference/compiler-0.9.10-sources.jar compiler/target/compiler-0.9.10-sources.jar
+# diffoscope target/reference/compiler-jx-0.9.10.jar compiler-jx/target/compiler-jx-0.9.10.jar
+# diffoscope target/reference/compiler-jx-0.9.10-sources.jar compiler-jx/target/compiler-jx-0.9.10-sources.jar
+# diffoscope target/reference/debugger-0.9.10.jar debugger/target/debugger-0.9.10.jar
+# diffoscope target/reference/debugger-0.9.10-sources.jar debugger/target/debugger-0.9.10-sources.jar
+# diffoscope target/reference/formatter-0.9.10.jar formatter/target/formatter-0.9.10.jar
+# diffoscope target/reference/formatter-0.9.10-sources.jar formatter/target/formatter-0.9.10-sources.jar
+# diffoscope target/reference/formatter-0.9.10-tests.jar formatter/target/formatter-0.9.10-tests.jar
+# diffoscope target/reference/linter-0.9.10.jar linter/target/linter-0.9.10.jar
+# diffoscope target/reference/linter-0.9.10-sources.jar linter/target/linter-0.9.10-sources.jar
+# diffoscope target/reference/linter-0.9.10-tests.jar linter/target/linter-0.9.10-tests.jar
+# diffoscope target/reference/flex-compiler-oem-0.9.10.jar flex-compiler-oem/target/flex-compiler-oem-0.9.10.jar
+# diffoscope target/reference/flex-compiler-oem-0.9.10-sources.jar flex-compiler-oem/target/flex-compiler-oem-0.9.10-sources.jar
