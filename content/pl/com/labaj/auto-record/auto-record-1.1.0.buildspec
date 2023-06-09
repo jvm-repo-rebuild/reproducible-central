@@ -21,6 +21,7 @@ tool=mvn
 jdk=17
 newline=lf
 # crlf for Windows, lf for Unix
+umask=022
 
 # Rebuild command
 command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
