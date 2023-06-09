@@ -23,6 +23,7 @@ rebuilding **1 releases** of nl.basjes.parse.httpdlog:httpdlog-parser:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [5.10.0](https://central.sonatype.com/artifact/nl.basjes.parse.httpdlog/httpdlog-parser/5.10.0/pom) | | | |
 | [5.9.0](https://central.sonatype.com/artifact/nl.basjes.parse.httpdlog/httpdlog-parser/5.9.0/pom) | [mvn jdk17](httpdlog-parser-5.9.0.buildspec) | [result](parser-parent-5.9.0.buildinfo): [16 :heavy_check_mark: ](parser-parent-5.9.0.buildcompare) | 4.7M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
