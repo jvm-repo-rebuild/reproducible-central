@@ -1,0 +1,102 @@
+1 / 16 target/reference/modello-2.1.2.pom pom.xml
+--- target/reference/modello-2.1.2.pom
++++ pom.xml
+│   --- target/reference/modello-2.1.2.pom
+├── +++ pom.xml
+│ @@ -164,14 +164,20 @@
+│      <mailingList>
+│        <name>Modello Commits List</name>
+│        <otherArchives>
+│          <otherArchive>http://markmail.org/list/org.codehaus.modello.scm</otherArchive>
+│        </otherArchives>
+│      </mailingList>
+│    </mailingLists>
+│ +  <modules>
+│ +    <module>modello-maven-plugin</module>
+│ +    <module>modello-core</module>
+│ +    <module>modello-test</module>
+│ +    <module>modello-plugins</module>
+│ +  </modules>
+│    <scm>
+│      <connection>scm:git:https://github.com/codehaus-plexus/modello.git</connection>
+│      <developerConnection>scm:git:https://github.com/codehaus-plexus/modello.git</developerConnection>
+│      <tag>modello-2.1.2</tag>
+│      <url>http://github.com/codehaus-plexus/modello/tree/${project.scm.tag}/</url>
+│    </scm>
+│    <issueManagement>
+
+2 / 16 target/reference/modello-plugins-2.1.2.pom modello-plugins/pom.xml
+--- target/reference/modello-plugins-2.1.2.pom
++++ modello-plugins/pom.xml
+│   --- target/reference/modello-plugins-2.1.2.pom
+├── +++ modello-plugins/pom.xml
+│ @@ -7,29 +7,43 @@
+│      <version>2.1.2</version>
+│    </parent>
+│    <artifactId>modello-plugins</artifactId>
+│    <packaging>pom</packaging>
+│    <name>Modello Plugins</name>
+│    <description>Modello Plugins is the main component containing every Modello plugins that are able to generate various types of
+│      code and descriptors.</description>
+│ +  <modules>
+│ +    <module>modello-plugin-java</module>
+│ +    <module>modello-plugin-converters</module>
+│ +    <module>modello-plugin-xml</module>
+│ +    <module>modello-plugin-xdoc</module>
+│ +    <module>modello-plugin-xsd</module>
+│ +    <module>modello-plugin-xpp3</module>
+│ +    <module>modello-plugin-stax</module>
+│ +    <module>modello-plugin-jdom</module>
+│ +    <module>modello-plugin-jsonschema</module>
+│ +    <module>modello-plugin-dom4j</module>
+│ +    <module>modello-plugin-jackson</module>
+│ +    <module>modello-plugin-snakeyaml</module>
+│ +    <module>modello-plugin-sax</module>
+│ +    <module>modello-plugin-velocity</module>
+│ +  </modules>
+│    <dependencies>
+│      <dependency>
+│        <groupId>org.eclipse.sisu</groupId>
+│        <artifactId>org.eclipse.sisu.plexus</artifactId>
+│      </dependency>
+│      <dependency>
+│        <groupId>org.codehaus.modello</groupId>
+│        <artifactId>modello-core</artifactId>
+│ -      <version>2.1.2</version>
+│      </dependency>
+│      <dependency>
+│        <groupId>org.codehaus.modello</groupId>
+│        <artifactId>modello-test</artifactId>
+│        <scope>test</scope>
+│ -      <version>2.1.2</version>
+│      </dependency>
+│    </dependencies>
+│    <build>
+│      <pluginManagement>
+│        <plugins>
+│          <plugin>
+│            <artifactId>maven-dependency-plugin</artifactId>
+
+3 / 16 target/reference/modello-plugin-xml-2.1.2.pom modello-plugins/modello-plugin-xml/pom.xml
+--- target/reference/modello-plugin-xml-2.1.2.pom
++++ modello-plugins/modello-plugin-xml/pom.xml
+│   --- target/reference/modello-plugin-xml-2.1.2.pom
+├── +++ modello-plugins/modello-plugin-xml/pom.xml
+│ @@ -11,15 +11,14 @@
+│    <description>Modello XML Plugin contains shared code for every plugins working on XML representation of the model.</description>
+│    <dependencies>
+│      <dependency>
+│        <groupId>org.codehaus.modello</groupId>
+│        <artifactId>modello-plugin-java</artifactId>
+│        <optional>true</optional>
+│        <!-- this dependency is only used for plugins generating java code -->
+│ -      <version>2.1.2</version>
+│      </dependency>
+│      <dependency>
+│        <groupId>org.codehaus.plexus</groupId>
+│        <artifactId>plexus-utils</artifactId>
+│      </dependency>
+│    </dependencies>
+│  </project>
+
+...

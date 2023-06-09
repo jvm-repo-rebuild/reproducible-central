@@ -1,0 +1,18 @@
+groupId=org.codehaus.modello
+artifactId=modello
+display=${groupId}:${artifactId}
+version=2.1.2
+
+gitRepo=https://github.com/codehaus-plexus/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=17
+newline=lf
+umask=022
+
+command="mvn -Pmodello-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=

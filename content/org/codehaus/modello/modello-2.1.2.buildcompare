@@ -1,0 +1,23 @@
+version=2.1.2
+ok=40
+ko=16
+okFiles="modello-2.1.2-site.xml modello-2.1.2-source-release.zip modello-core-2.1.2.pom modello-core-2.1.2.jar modello-core-2.1.2-sources.jar modello-test-2.1.2.pom modello-test-2.1.2.jar modello-test-2.1.2-sources.jar modello-plugins-2.1.2-site.xml modello-plugin-java-2.1.2.pom modello-plugin-java-2.1.2.jar modello-plugin-java-2.1.2-sources.jar modello-plugin-xml-2.1.2.jar modello-plugin-xml-2.1.2-sources.jar modello-plugin-stax-2.1.2.jar modello-plugin-stax-2.1.2-sources.jar modello-plugin-converters-2.1.2.jar modello-plugin-converters-2.1.2-sources.jar modello-plugin-dom4j-2.1.2.jar modello-plugin-dom4j-2.1.2-sources.jar modello-plugin-jackson-2.1.2.jar modello-plugin-jackson-2.1.2-sources.jar modello-plugin-jdom-2.1.2.jar modello-plugin-jdom-2.1.2-sources.jar modello-plugin-jsonschema-2.1.2.jar modello-plugin-jsonschema-2.1.2-sources.jar modello-plugin-sax-2.1.2.jar modello-plugin-sax-2.1.2-sources.jar modello-plugin-snakeyaml-2.1.2.jar modello-plugin-snakeyaml-2.1.2-sources.jar modello-plugin-xsd-2.1.2.jar modello-plugin-xsd-2.1.2-sources.jar modello-plugin-xdoc-2.1.2.jar modello-plugin-xdoc-2.1.2-sources.jar modello-plugin-xpp3-2.1.2.jar modello-plugin-xpp3-2.1.2-sources.jar modello-plugin-velocity-2.1.2.jar modello-plugin-velocity-2.1.2-sources.jar modello-maven-plugin-2.1.2.jar modello-maven-plugin-2.1.2-sources.jar"
+koFiles="modello-2.1.2.pom modello-plugins-2.1.2.pom modello-plugin-xml-2.1.2.pom modello-plugin-stax-2.1.2.pom modello-plugin-converters-2.1.2.pom modello-plugin-dom4j-2.1.2.pom modello-plugin-jackson-2.1.2.pom modello-plugin-jdom-2.1.2.pom modello-plugin-jsonschema-2.1.2.pom modello-plugin-sax-2.1.2.pom modello-plugin-snakeyaml-2.1.2.pom modello-plugin-xsd-2.1.2.pom modello-plugin-xdoc-2.1.2.pom modello-plugin-xpp3-2.1.2.pom modello-plugin-velocity-2.1.2.pom modello-maven-plugin-2.1.2.pom"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/modello-2.1.2.pom pom.xml
+# diffoscope target/reference/modello-plugins-2.1.2.pom modello-plugins/pom.xml
+# diffoscope target/reference/modello-plugin-xml-2.1.2.pom modello-plugins/modello-plugin-xml/pom.xml
+# diffoscope target/reference/modello-plugin-stax-2.1.2.pom modello-plugins/modello-plugin-stax/pom.xml
+# diffoscope target/reference/modello-plugin-converters-2.1.2.pom modello-plugins/modello-plugin-converters/pom.xml
+# diffoscope target/reference/modello-plugin-dom4j-2.1.2.pom modello-plugins/modello-plugin-dom4j/pom.xml
+# diffoscope target/reference/modello-plugin-jackson-2.1.2.pom modello-plugins/modello-plugin-jackson/pom.xml
+# diffoscope target/reference/modello-plugin-jdom-2.1.2.pom modello-plugins/modello-plugin-jdom/pom.xml
+# diffoscope target/reference/modello-plugin-jsonschema-2.1.2.pom modello-plugins/modello-plugin-jsonschema/pom.xml
+# diffoscope target/reference/modello-plugin-sax-2.1.2.pom modello-plugins/modello-plugin-sax/pom.xml
+# diffoscope target/reference/modello-plugin-snakeyaml-2.1.2.pom modello-plugins/modello-plugin-snakeyaml/pom.xml
+# diffoscope target/reference/modello-plugin-xsd-2.1.2.pom modello-plugins/modello-plugin-xsd/pom.xml
+# diffoscope target/reference/modello-plugin-xdoc-2.1.2.pom modello-plugins/modello-plugin-xdoc/pom.xml
+# diffoscope target/reference/modello-plugin-xpp3-2.1.2.pom modello-plugins/modello-plugin-xpp3/pom.xml
+# diffoscope target/reference/modello-plugin-velocity-2.1.2.pom modello-plugins/modello-plugin-velocity/pom.xml
+# diffoscope target/reference/modello-maven-plugin-2.1.2.pom modello-maven-plugin/pom.xml
