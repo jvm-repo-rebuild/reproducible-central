@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=wsimport-maven-plugin
+group-id=com.github.veithen.maven
+artifact-id=wsimport-maven-plugin
+version=0.3.0
+
+# source information
+source.scm.uri=scm:git:http://github.com/veithen/wsimport-maven-plugin.git
+source.scm.tag=0.3.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=wsimport-maven-plugin-0.3.0.pom
+outputs.0.length=5049
+outputs.0.checksums.sha512=fb072d881a9e33e40c06e7c00ca24cb3af1c1c28cf6d5a9214489bee5c31cc72ba45e74f00292b2c65b38abaaad8225322c497aeb6c5db299a5a6652ad306a04
+
+outputs.1.filename=wsimport-maven-plugin-0.3.0.jar
+outputs.1.length=12511
+outputs.1.checksums.sha512=8d12095f22358712fbc26836e6d1dd2a63d22f851edad85ad15c51160c67b6366a9992907e95239d3f122ef7ebf8b3049a5bb5c8f3bf1cb7b8a4ea8606cf9199
+
+outputs.2.filename=wsimport-maven-plugin-0.3.0-sources.jar
+outputs.2.length=8102
+outputs.2.checksums.sha512=075de24334228b774b654b9c68d42c8c67824adaed00d30299697313750d08fb72a3e099b29f56932b5c9ae26c1ddb14c3622f426dd7f4f64dbfc029c0992e5b
+
+outputs.3.filename=wsimport-maven-plugin-0.3.0-source-release.zip
+outputs.3.length=22564
+outputs.3.checksums.sha512=7c3fe2b45908e437524f870c5c5cd3db6bf9b22cb825a779135777d926a6da3a9591d508fae029c46a2adbb235c28725397489eb774d8d3bef6d570788564d14

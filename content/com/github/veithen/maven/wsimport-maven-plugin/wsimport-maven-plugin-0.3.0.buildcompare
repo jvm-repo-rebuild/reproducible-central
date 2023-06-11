@@ -1,0 +1,7 @@
+version=0.3.0
+ok=4
+ko=0
+okFiles="wsimport-maven-plugin-0.3.0.pom wsimport-maven-plugin-0.3.0.jar wsimport-maven-plugin-0.3.0-sources.jar wsimport-maven-plugin-0.3.0-source-release.zip"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
