@@ -1,0 +1,221 @@
+# chosen issues seen a lot of time
+
+# TODO:
+# - upgrade Felix maven-bundle-plugin to 5.1.9
+# - see rebuild instructions for "-Originally-Created-By: Apache Maven Bundle Plugin 5.1.8" and
+│ -version=7.0.5-SNAPSHOT
+│ +version=7.0.5
+# - fix "│ +# Generated on Sat Jun 10 17:53:53 UTC 2023 by hk2-inhabitant-generator": https://github.com/eclipse-ee4j/glassfish-hk2
+3 / 211 target/reference/hk2-config-generator-7.0.5.jar nucleus/hk2-config-generator/target/hk2-config-generator.jar
+--- target/reference/hk2-config-generator-7.0.5.jar
++++ nucleus/hk2-config-generator/target/hk2-config-generator.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 288103 bytes, number of entries: 221
+│ +Zip file size: 288076 bytes, number of entries: 221
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 META-INF/
+│ --rw-r--r--  2.0 unx     2754 b- defN 23-Apr-02 15:44 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx     2697 b- defN 23-Apr-02 15:44 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 META-INF/hk2-locator/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 META-INF/maven/org.glassfish.main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 META-INF/maven/org.glassfish.main/hk2-config-generator/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 org/jvnet/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 org/jvnet/hk2/
+│ @@ -15,15 +15,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 org/jvnet/hk2/config/provider/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 org/jvnet/hk2/config/provider/internal/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 org/jvnet/hk2/config/tiger/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 services/
+│  -rw-r--r--  2.0 unx    35084 b- defN 23-Apr-02 15:44 META-INF/LICENSE.md
+│  -rw-r--r--  2.0 unx     5205 b- defN 23-Apr-02 15:44 META-INF/NOTICE.md
+│  -rw-r--r--  2.0 unx      441 b- defN 23-Apr-02 15:44 META-INF/hk2-locator/default
+│ --rw-r--r--  2.0 unx       82 b- defN 23-Apr-02 15:44 META-INF/maven/org.glassfish.main/hk2-config-generator/pom.properties
+│ +-rw-r--r--  2.0 unx       73 b- defN 23-Apr-02 15:44 META-INF/maven/org.glassfish.main/hk2-config-generator/pom.properties
+│  -rw-r--r--  2.0 unx     4907 b- defN 23-Apr-02 15:44 META-INF/maven/org.glassfish.main/hk2-config-generator/pom.xml
+│  -rw-r--r--  2.0 unx     2056 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/AbstractDynamicMBeanImpl.class
+│  -rw-r--r--  2.0 unx      709 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/Attribute.class
+│  -rw-r--r--  2.0 unx      543 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/AttributeChanges.class
+│  -rw-r--r--  2.0 unx     1203 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/Changed$TYPE.class
+│  -rw-r--r--  2.0 unx      528 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/Changed.class
+│  -rw-r--r--  2.0 unx     1154 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/ConfigBean$1$1.class
+│ @@ -216,8 +216,8 @@
+│  -rw-r--r--  2.0 unx     3849 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/tiger/Types$1.class
+│  -rw-r--r--  2.0 unx     4518 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/tiger/Types$2.class
+│  -rw-r--r--  2.0 unx     2959 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/tiger/Types$3.class
+│  -rw-r--r--  2.0 unx     1562 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/tiger/Types$BinderArg.class
+│  -rw-r--r--  2.0 unx     5551 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/tiger/Types.class
+│  -rw-r--r--  2.0 unx     1220 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/tiger/WildcardTypeImpl.class
+│  -rw-r--r--  2.0 unx       55 b- defN 23-Apr-02 15:44 services/javax.annotation.processing.Processor
+│ -221 files, 588491 bytes uncompressed, 249329 bytes compressed:  57.6%
+│ +221 files, 588425 bytes uncompressed, 249302 bytes compressed:  57.6%
+├── META-INF/MANIFEST.MF
+│ @@ -35,12 +35,11 @@
+│   .0,4)",org.glassfish.hk2.utilities.cache;version="[3.0,4)",org.glassfis
+
+│   h.hk2.utilities.reflection;version="[3.0,4)",org.hibernate.validator;ve
+
+│   rsion="[8.0,9)",org.jvnet.hk2.annotations;version="[3.0,4)",org.jvnet.h
+
+│   k2.component;version="[3.0,4)",org.jvnet.hk2.config;version="[7.0,8)",o
+
+│   rg.jvnet.hk2.config.api;version="[7.0,8)",org.jvnet.hk2.config.provider
+
+│   .internal;version="[7.0,8)",org.jvnet.hk2.config.tiger;version="[7.0,8)
+
+│   "
+
+│ -Originally-Created-By: Apache Maven Bundle Plugin 5.1.8
+
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+
+│  Specification-Version: 7.0.5
+
+│  Tool: Bnd-6.3.1.202206071316
+├── META-INF/hk2-locator/default
+│ @@ -1,9 +1,9 @@
+│  #
+│ -# Generated on Sat May 27 10:30:15 UTC 2023 by hk2-inhabitant-generator
+│ +# Generated on Sat Jun 10 17:53:53 UTC 2023 by hk2-inhabitant-generator
+│  #
+│  
+│  [org.jvnet.hk2.config.ConfigSupport]S
+│  contract={org.jvnet.hk2.config.api.ConfigurationUtilities}
+│  
+│  [org.jvnet.hk2.config.ConfigurationPopulator]S
+│  contract={org.glassfish.hk2.bootstrap.ConfigPopulator}
+├── META-INF/maven/org.glassfish.main/hk2-config-generator/pom.properties
+│ @@ -1,3 +1,3 @@
+│  groupId=org.glassfish.main
+│  artifactId=hk2-config-generator
+│ -version=7.0.5-SNAPSHOT
+│ +version=7.0.5
+
+
+# module-info requires precise JDK release :(
+├── module-info.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,22 +1,22 @@
+│ │    Compiled from "module-info.java"
+│ │ -module org.glassfish.main.jul@7.0.5-SNAPSHOT
+│ │ +module org.glassfish.main.jul@7.0.5
+│ │    minor version: 0
+│ │    major version: 55
+│ │    flags: (0x8000) ACC_MODULE
+│ │    this_class: #2                          // "module-info"
+│ │    super_class: #0
+│ │    interfaces: 0, fields: 0, methods: 0, attributes: 4
+│ │  Constant pool:
+│ │     #1 = Utf8               module-info
+│ │     #2 = Class              #1             // "module-info"
+│ │     #3 = Utf8               module-info.java
+│ │     #4 = Utf8               org.glassfish.main.jul
+│ │     #5 = Module             #4             // "org.glassfish.main.jul"
+│ │ -   #6 = Utf8               7.0.5-SNAPSHOT
+│ │ +   #6 = Utf8               7.0.5
+│ │     #7 = Utf8               org/glassfish/main/jul
+│ │     #8 = Package            #7             // org/glassfish/main/jul
+│ │     #9 = Utf8               org/glassfish/main/jul/cfg
+│ │    #10 = Package            #9             // org/glassfish/main/jul/cfg
+│ │    #11 = Utf8               org/glassfish/main/jul/env
+│ │    #12 = Package            #11            // org/glassfish/main/jul/env
+│ │    #13 = Utf8               org/glassfish/main/jul/formatter
+│ │ @@ -27,15 +27,15 @@
+│ │    #18 = Package            #17            // org/glassfish/main/jul/record
+│ │    #19 = Utf8               org/glassfish/main/jul/rotation
+│ │    #20 = Package            #19            // org/glassfish/main/jul/rotation
+│ │    #21 = Utf8               org/glassfish/main/jul/tracing
+│ │    #22 = Package            #21            // org/glassfish/main/jul/tracing
+│ │    #23 = Utf8               java.base
+│ │    #24 = Module             #23            // "java.base"
+│ │ -  #25 = Utf8               17.0.2
+│ │ +  #25 = Utf8               17.0.6
+│ │    #26 = Utf8               java.logging
+│ │    #27 = Module             #26            // "java.logging"
+│ │    #28 = Utf8               java/lang/System$LoggerFinder
+│ │    #29 = Class              #28            // java/lang/System$LoggerFinder
+│ │    #30 = Utf8               org/glassfish/main/jul/GlassFishLoggerFinder
+│ │    #31 = Class              #30            // org/glassfish/main/jul/GlassFishLoggerFinder
+│ │    #32 = Utf8               java/lang/System
+│ │ @@ -48,20 +48,20 @@
+│ │  {
+│ │  }
+│ │  InnerClasses:
+│ │    public static abstract #34= #29 of #33; // LoggerFinder=class java/lang/System$LoggerFinder of class java/lang/System
+│ │  SourceFile: "module-info.java"
+│ │  Module:
+│ │    #5,0                                    // "org.glassfish.main.jul"
+│ │ -  #6                                      // 7.0.5-SNAPSHOT
+│ │ +  #6                                      // 7.0.5
+│ │    2                                       // requires
+│ │      #24,8000                                // "java.base" ACC_MANDATED
+│ │ -    #25                                     // 17.0.2
+│ │ +    #25                                     // 17.0.6
+│ │      #27,20                                  // "java.logging" ACC_TRANSITIVE
+│ │ -    #25                                     // 17.0.2
+│ │ +    #25                                     // 17.0.6
+│ │    6                                       // exports
+│ │      #8,0                                    // org/glassfish/main/jul
+│ │      #10,0                                   // org/glassfish/main/jul/cfg
+│ │      #12,0                                   // org/glassfish/main/jul/env
+│ │      #14,0                                   // org/glassfish/main/jul/formatter
+│ │      #16,0                                   // org/glassfish/main/jul/handler
+│ │      #18,0                                   // org/glassfish/main/jul/record
+
+
+# require https://github.com/eclipse-ee4j/glassfish-build-maven-plugin/pull/116
+5 / 211 target/reference/felix-7.0.5.zip nucleus/osgi-platforms/felix/target/felix.zip
+--- target/reference/felix-7.0.5.zip
++++ nucleus/osgi-platforms/felix/target/felix.zip
+├── zipinfo {}
+│ @@ -1,14 +1,14 @@
+│  Zip file size: 956974 bytes, number of entries: 12
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-May-27 10:21 META-INF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-May-27 10:21 config/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-May-27 10:21 modules/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-May-27 10:21 osgi/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-May-27 10:21 osgi/felix/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-May-27 10:21 osgi/felix/bin/
+│ --rw-r--r--  2.0 unx    35084 b- defN 23-May-27 10:21 META-INF/LICENSE.md
+│ --rw-r--r--  2.0 unx       21 b- defN 23-May-27 10:21 META-INF/MANIFEST.MF
+│ --rw-r--r--  2.0 unx     5205 b- defN 23-May-27 10:21 META-INF/NOTICE.md
+│ --rw-r--r--  2.0 unx    21477 b- defN 23-May-27 10:21 config/osgi.properties
+│ --rw-r--r--  2.0 unx   237308 b- defN 23-May-27 10:21 modules/org.apache.felix.bundlerepository.jar
+│ --rw-r--r--  2.0 unx   781804 b- defN 23-May-27 10:21 osgi/felix/bin/felix.jar
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-10 17:53 META-INF/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-10 17:53 config/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-10 17:53 modules/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-10 17:53 osgi/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-10 17:53 osgi/felix/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-10 17:53 osgi/felix/bin/
+│ +-rw-r--r--  2.0 unx    35084 b- defN 23-Jun-10 17:53 META-INF/LICENSE.md
+│ +-rw-r--r--  2.0 unx       21 b- defN 23-Jun-10 17:53 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx     5205 b- defN 23-Jun-10 17:53 META-INF/NOTICE.md
+│ +-rw-r--r--  2.0 unx    21477 b- defN 23-Jun-10 17:53 config/osgi.properties
+│ +-rw-r--r--  2.0 unx   237308 b- defN 23-Jan-03 07:11 modules/org.apache.felix.bundlerepository.jar
+│ +-rw-r--r--  2.0 unx   781804 b- defN 23-Apr-01 07:16 osgi/felix/bin/felix.jar
+│  12 files, 1080899 bytes uncompressed, 955514 bytes compressed:  11.6%
+
+98 / 210 target/reference/glassfish-common-7.0.5.zip appserver/distributions/glassfish-common/target/glassfish-common.zip
+--- target/reference/glassfish-common-7.0.5.zip
++++ appserver/distributions/glassfish-common/target/glassfish-common.zip
+├── glassfish7/glassfish/config/branding/glassfish-version.properties
+│ @@ -14,15 +14,15 @@
+│  #
+│  # SPDX-License-Identifier: EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0
+│  #
+│  
+│  product.name=Eclipse GlassFish
+│  product.name.abbreviation=GF
+│  product.version=7.0.5
+│ -product.build.git.branch=master
+│ +product.build.git.branch=7b49f4eaf669e9a3b4f4648254f9016872455236
+│  product.build.git.commit=7b49f4eaf669e9a3b4f4648254f9016872455236
+│  product.build.timestamp=2023-04-02T15:44:03Z
+│  
+│  admin.command.name=asadmin
+│  
+│  domain.admin.groups=asadmin
+│  domain.template.defaultJarFileName=appserver-domain.jar
+
