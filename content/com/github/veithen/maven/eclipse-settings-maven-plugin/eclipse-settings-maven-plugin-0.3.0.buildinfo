@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=eclipse-settings-maven-plugin
+group-id=com.github.veithen.maven
+artifact-id=eclipse-settings-maven-plugin
+version=0.3.0
+
+# source information
+source.scm.uri=scm:git:http://github.com/veithen/eclipse-settings-maven-plugin.git
+source.scm.tag=0.3.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=eclipse-settings-maven-plugin-0.3.0.pom
+outputs.0.length=4263
+outputs.0.checksums.sha512=20a727faea0104d61609c89edc0ae909b8350ebfd1b05f6459929eb11a9f30f32ec1685854423c1e061abf5d3d2ebe651ca80b106a2d795eeaeba8819394bde2
+
+outputs.1.filename=eclipse-settings-maven-plugin-0.3.0.jar
+outputs.1.length=14314
+outputs.1.checksums.sha512=e831c0ca47008d02d022e126d87cb33bb72e6fe8742a314c3af3dcfadca7238d4d9fcf813821bae92b1d02549b017e15b7013e73617e005dfb9bc06bfa55fe15
+
+outputs.2.filename=eclipse-settings-maven-plugin-0.3.0-sources.jar
+outputs.2.length=9811
+outputs.2.checksums.sha512=6d81ec3f4d2d5e2063b2da0b76f649967e4452872f8b8cf05c4bdfd917b4a92690177695374c438a63e216bd74af9602014fa2fdf89841de74144f57a1a18efc
+
+outputs.3.filename=eclipse-settings-maven-plugin-0.3.0-source-release.zip
+outputs.3.length=15424
+outputs.3.checksums.sha512=c7feba9bcefe0f6e93ccb4abf1b5915dcc294ba74038e0454688fc3fe5dc075d08291fd4cfcfcbc1b884178de4ab4fd84ad13e1a6653b01a6bf30050f9295d4e
