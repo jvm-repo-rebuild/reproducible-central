@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **1925 releases** of **425 projects**:
-   - **1444** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 481 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **1931 releases** of **429 projects**:
+   - **1449** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 482 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
 
@@ -49,10 +49,14 @@ Its objectives are to provide:
 | com.github.veithen.daemon | <a name='com.github.veithen.daemon:daemon'></a>[daemon](content/com/github/veithen/daemon/README.md) | 5 | 5 :heavy_check_mark: |
 | com.github.veithen | <a name='com.github.veithen:jrel'></a>[jrel](content/com/github/veithen/jrel/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='com.github.veithen:parent'></a>[parent](content/com/github/veithen/parent/README.md) | 7 | 6 :heavy_check_mark: / 1 :warning: |
-| com.github.veithen.maven | <a name='com.github.veithen.maven:jacoco-report-maven-plugin'></a>[jacoco-report-maven-plugin](content/com/github/veithen/maven/jacoco-report-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
+| com.github.veithen.maven | <a name='com.github.veithen.maven:eclipse-settings-maven-plugin'></a>[eclipse-settings-maven-plugin](content/com/github/veithen/maven/eclipse-settings-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='com.github.veithen.maven:hermetic-maven-plugin'></a>[hermetic-maven-plugin](content/com/github/veithen/maven/hermetic-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='com.github.veithen.maven:jacoco-report-maven-plugin'></a>[jacoco-report-maven-plugin](content/com/github/veithen/maven/jacoco-report-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='com.github.veithen.maven:java-format-maven-plugin'></a>[java-format-maven-plugin](content/com/github/veithen/maven/java-format-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='com.github.veithen.maven:p2-maven-connector'></a>[p2-maven-connector](content/com/github/veithen/maven/p2-maven-connector/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='com.github.veithen.maven:resolver-proxy-maven-plugin'></a>[resolver-proxy-maven-plugin](content/com/github/veithen/maven/resolver-proxy-maven-plugin/README.md) | 3 | 3 :heavy_check_mark: |
+| | <a name='com.github.veithen.maven:wsimport-maven-plugin'></a>[wsimport-maven-plugin](content/com/github/veithen/maven/wsimport-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='com.github.veithen.maven:xjc-maven-plugin'></a>[xjc-maven-plugin](content/com/github/veithen/maven/xjc-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | com.google.guava | <a name='com.google.guava:guava'></a>[guava](content/com/google/guava/README.md) | 4 | 4 :warning: |
 | com.innoq | <a name='com.innoq:junit5-logging-extension'></a>[junit5-logging-extension](content/com/innoq/junit5-logging-extension/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | com.io7m.jade | <a name='com.io7m.jade:com.io7m.jade'></a>[com.io7m.jade](content/com/io7m/jade/README.md) | 2 | 2 :warning: |
@@ -118,7 +122,7 @@ Its objectives are to provide:
 | | <a name='net.sourceforge.pmd:pmd-build-tools-config'></a>[pmd-build-tools-config](content/net/sourceforge/pmd/pmd-build-tools-config/README.md) | 4 | 4 :heavy_check_mark: |
 | nl.basjes.energy | <a name='nl.basjes.energy:energy-parent'></a>[energy-parent](content/nl/basjes/energy/README.md) | 1 | 1 :heavy_check_mark: |
 | nl.basjes.maven.release | <a name='nl.basjes.maven.release:conventional-commits-version-policy'></a>[conventional-commits-version-policy](content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | 1 | 1 :heavy_check_mark: |
-| nl.basjes.parse.httpdlog | <a name='nl.basjes.parse.httpdlog:httpdlog-parser'></a>[httpdlog-parser](content/nl/basjes/parse/httpdlog/httpdlog-parser/README.md) | 1 | 1 :heavy_check_mark: |
+| nl.basjes.parse.httpdlog | <a name='nl.basjes.parse.httpdlog:httpdlog-parser'></a>[httpdlog-parser](content/nl/basjes/parse/httpdlog/httpdlog-parser/README.md) | 2 | 2 :heavy_check_mark: |
 | nl.basjes.parse.useragent | <a name='nl.basjes.parse.useragent:yauaa'></a>[yauaa](content/nl/basjes/parse/useragent/yauaa/README.md) | 9 | 8 :heavy_check_mark: / 1 :warning: |
 | nl.hsac | <a name='nl.hsac:hsac-fitnesse-fixtures'></a>[hsac-fitnesse-fixtures](content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 59 | 48 :heavy_check_mark: / 11 :warning: |
 | org.quickperf | <a name='org.quickperf:quick-perf'></a>[quick-perf](content/org/quickperf/README.md) | 3 | 3 :heavy_check_mark: |
@@ -392,7 +396,7 @@ Its objectives are to provide:
 | org.finos.legend.engine | <a name='org.finos.legend.engine:legend-engine'></a>[legend-engine](content/org/finos/legend/engine/README.md) | 1 | 1 :warning: |
 | org.fusesource.jansi | <a name='org.fusesource.jansi:jansi'></a>[jansi](content/org/fusesource/jansi/jansi/README.md) | 8 | 5 :heavy_check_mark: / 3 :warning: |
 | org.glassfish.hk2 | <a name='org.glassfish.hk2:hk2-parent'></a>[hk2-parent](content/org/glassfish/hk2/README.md) | 1 | 1 :warning: |
-| org.glassfish.main | <a name='org.glassfish.main:glassfish-parent'></a>[glassfish-parent](content/org/glassfish/main/README.md) | 1 | 1 :warning: |
+| org.glassfish.main | <a name='org.glassfish.main:glassfish-parent'></a>[glassfish-parent](content/org/glassfish/main/README.md) | 2 | 2 :warning: |
 | org.jline | <a name='org.jline:jline-parent'></a>[jline-parent](content/org/jline/jline/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | org.jrivard.xmlchai | <a name='org.jrivard.xmlchai:xmlchai'></a>[xmlchai](content/org/jrivard/xmlchai/README.md) | 2 | 2 :warning: |
 | org.junit | <a name='org.junit:junit-bom'></a>[junit-bom](content/org/junit/junit5/README.md) | 1 | 1 :warning: |
@@ -447,7 +451,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 13 | 13 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 6 | 6 :warning: |
-| **Count:** | **425** | **1925** | **1444** :heavy_check_mark: **481** :warning: |
+| **Count:** | **429** | **1931** | **1449** :heavy_check_mark: **482** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -461,12 +465,12 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      26 mvn         7
     863 mvn         8
       1 mvn         9
-    685 mvn        11
+    687 mvn        11
       1 mvn        13
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    124 mvn        17
+    126 mvn        17
      10 mvn        18
      11 mvn        19
       4 mvn        20
@@ -485,7 +489,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       3 mvn-3.9.0  17
       4 mvn-3.9.1   8
       1 mvn-3.9.1  11
-     31 mvn-3.9.1  17
+     33 mvn-3.9.1  17
       1 mvn-3.9.1  19
       2 mvn-3.9.1  20
       4 mvn-3.9.2   8
