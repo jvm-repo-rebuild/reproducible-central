@@ -787,6 +787,7 @@ rebuilding **7 releases** of org.apache.nifi:nifi:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.22.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.22.0/pom) | | | |
 | [1.21.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.21.0/pom) | [mvn jdk8](nifi-1.21.0.buildspec) | [result](nifi-1.21.0.buildinfo): [1898 :heavy_check_mark:  56 :warning:](nifi-1.21.0.buildcompare) | 3.7G |
 | [1.20.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.20.0/pom) | [mvn jdk8](nifi-1.20.0.buildspec) | [result](nifi-1.20.0.buildinfo): [1893 :heavy_check_mark:  55 :warning:](nifi-1.20.0.buildcompare) [:mag:](nifi-1.20.0.diffoscope) [:memo:](https://issues.apache.org/jira/browse/NIFI-10892) | 3.9G |
 | [1.19.1](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.19.1/pom) | | | |
