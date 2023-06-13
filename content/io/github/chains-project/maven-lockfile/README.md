@@ -20,6 +20,7 @@ rebuilding **2 releases** of io.github.chains-project:maven-lockfile:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.1.1](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/3.1.1/pom) | | | |
 | [3.1.0](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/3.1.0/pom) | | | |
 | [3.0.1](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/3.0.1/pom) | | | |
 | [3.0.0](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/3.0.0/pom) | | | |

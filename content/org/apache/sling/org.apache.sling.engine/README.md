@@ -1,19 +1,19 @@
-[org.apache.sling:org.apache.sling.engine](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.engine/2.15.0/versions) RB check
+[org.apache.sling:org.apache.sling.engine](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.engine/2.15.2/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.engine](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.engine/2.15.0/versions)
+## Project: [org.apache.sling:org.apache.sling.engine](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.engine/2.15.2/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-engine.git](https://github.com/apache/sling-org-apache-sling-engine.git)
 
-rebuilding **10 releases** of org.apache.sling:org.apache.sling.engine:
-- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **11 releases** of org.apache.sling:org.apache.sling.engine:
+- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.15.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.engine/2.15.2/pom) | | | |
+| [2.15.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.engine/2.15.2/pom) | [mvn jdk17](org.apache.sling.engine-2.15.2.buildspec) | [result](org.apache.sling.engine-2.15.2.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.engine-2.15.2.buildcompare) | 744K |
 | [2.15.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.engine/2.15.0/pom) | [mvn jdk11](org.apache.sling.engine-2.15.0.buildspec) | [result](org.apache.sling.engine-2.15.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.engine-2.15.0.buildcompare) | 741K |
 | [2.14.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.engine/2.14.0/pom) | [mvn jdk11](org.apache.sling.engine-2.14.0.buildspec) | [result](org.apache.sling.engine-2.14.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.engine-2.14.0.buildcompare) | 735K |
 | [2.13.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.engine/2.13.0/pom) | [mvn jdk11](org.apache.sling.engine-2.13.0.buildspec) | [result](org.apache.sling.engine-2.13.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.engine-2.13.0.buildcompare) | 723K |

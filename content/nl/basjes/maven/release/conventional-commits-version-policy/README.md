@@ -13,6 +13,8 @@ rebuilding **1 releases** of nl.basjes.maven.release:conventional-commits-versio
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.3](https://central.sonatype.com/artifact/nl.basjes.maven.release/conventional-commits-version-policy/1.0.3/pom) | | | |
+| [1.0.2](https://central.sonatype.com/artifact/nl.basjes.maven.release/conventional-commits-version-policy/1.0.2/pom) | | | |
 | [1.0.1](https://central.sonatype.com/artifact/nl.basjes.maven.release/conventional-commits-version-policy/1.0.1/pom) | [mvn jdk17](conventional-commits-version-policy-1.0.1.buildspec) | [result](conventional-commits-version-policy-1.0.1.buildinfo): [4 :heavy_check_mark: ](conventional-commits-version-policy-1.0.1.buildcompare) | 63K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

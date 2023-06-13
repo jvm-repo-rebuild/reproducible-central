@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **1931 releases** of **429 projects**:
-   - **1449** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 482 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **1936 releases** of **430 projects**:
+   - **1451** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 485 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
 
@@ -101,6 +101,7 @@ Its objectives are to provide:
 | io.micronaut.maven | <a name='io.micronaut.maven:micronaut-maven-plugin'></a>[micronaut-maven-plugin](content/io/micronaut/maven/micronaut-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | io.opentelemetry.instrumentation | <a name='io.opentelemetry.instrumentation:opentelemetry-instrumentation-api'></a>[opentelemetry-instrumentation-api](content/io/opentelemetry/instrumentation/README.md) | 2 | 2 :warning: |
 | io.opentelemetry | <a name='io.opentelemetry:opentelemetry-sdk'></a>[opentelemetry-sdk](content/io/opentelemetry/java/README.md) | 1 | 1 :warning: |
+| io.smallrye | <a name='io.smallrye:jandex-parent'></a>[jandex-parent](content/io/smallrye/jandex/README.md) | 2 | 2 :warning: |
 | io.wcm | <a name='io.wcm:io.wcm.caconfig.editor.parent'></a>[*.caconfig.editor.parent](content/io/wcm/io.wcm.caconfig/README.md) | 4 | 4 :warning: |
 | io.wcm.tooling.commons | <a name='io.wcm.tooling.commons:io.wcm.tooling.commons.content-package-builder'></a>[*.content-package-builder](content/io/wcm/tooling/README.md) | 3 | 3 :heavy_check_mark: |
 | io.wcm | <a name='io.wcm:io.wcm.handler.link'></a>[*.handler.link](content/io/wcm/io.wcm.handler/link/README.md) | 4 | 4 :warning: |
@@ -251,7 +252,7 @@ Its objectives are to provide:
 | org.apache.maven.skins | <a name='org.apache.maven.skins:maven-fluido-skin'></a>[maven-fluido-skin](content/org/apache/maven/skins/fluido/README.md) | 7 | 7 :heavy_check_mark: |
 | org.apache.maven.wagon | <a name='org.apache.maven.wagon:wagon'></a>[wagon](content/org/apache/maven/wagon/wagon/README.md) | 8 | 8 :heavy_check_mark: |
 | org.apache.ftpserver | <a name='org.apache.ftpserver:ftpserver-parent'></a>[ftpserver-parent](content/org/apache/mina/ftpserver/README.md) | 1 | 1 :warning: |
-| org.apache.nifi | <a name='org.apache.nifi:nifi'></a>[nifi](content/org/apache/nifi/nifi/README.md) | 7 | 7 :warning: |
+| org.apache.nifi | <a name='org.apache.nifi:nifi'></a>[nifi](content/org/apache/nifi/nifi/README.md) | 8 | 8 :warning: |
 | | <a name='org.apache.nifi:nifi-nar-maven-plugin'></a>[nifi-nar-maven-plugin](content/org/apache/nifi/nifi-nar-maven-plugin/README.md) | 4 | 4 :heavy_check_mark: |
 | org.apache.plc4x | <a name='org.apache.plc4x:plc4x-parent'></a>[plc4x-parent](content/org/apache/plc4x/plc4x/README.md) | 2 | 2 :warning: |
 | org.apache.plc4x.plugins | <a name='org.apache.plc4x.plugins:plc4x-code-generation'></a>[plc4x-code-generation](content/org/apache/plc4x/plc4x-code-generation/README.md) | 1 | 1 :heavy_check_mark: |
@@ -285,7 +286,7 @@ Its objectives are to provide:
 | | <a name='org.apache.sling:org.apache.sling.distribution.journal'></a>[*.distribution.journal](content/org/apache/sling/org.apache.sling.distribution.journal/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.distribution.journal.kafka'></a>[*.distribution.journal.kafka](content/org/apache/sling/org.apache.sling.distribution.journal.kafka/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.distribution.journal.messages'></a>[*.distribution.journal.messages](content/org/apache/sling/org.apache.sling.distribution.journal.messages/README.md) | 1 | 1 :heavy_check_mark: |
-| | <a name='org.apache.sling:org.apache.sling.engine'></a>[*.engine](content/org/apache/sling/org.apache.sling.engine/README.md) | 10 | 10 :heavy_check_mark: |
+| | <a name='org.apache.sling:org.apache.sling.engine'></a>[*.engine](content/org/apache/sling/org.apache.sling.engine/README.md) | 11 | 11 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.event'></a>[*.event](content/org/apache/sling/org.apache.sling.event/README.md) | 9 | 9 :warning: |
 | | <a name='org.apache.sling:org.apache.sling.event.api'></a>[*.event.api](content/org/apache/sling/org.apache.sling.event.api/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.feature'></a>[*.feature](content/org/apache/sling/org.apache.sling.feature/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
@@ -428,7 +429,7 @@ Its objectives are to provide:
 | org.openapitools.openapidiff | <a name='org.openapitools.openapidiff:openapi-diff-parent'></a>[openapi-diff-parent](content/org/openapitools/openapidiff/README.md) | 7 | 7 :heavy_check_mark: |
 | org.osgi | <a name='org.osgi:org.osgi.test.parent'></a>[*.test.parent](content/org/osgi/test/README.md) | 5 | 4 :heavy_check_mark: / 1 :warning: |
 | org.owasp.antisamy | <a name='org.owasp.antisamy:antisamy'></a>[antisamy](content/org/owasp/antisamy/README.md) | 13 | 13 :heavy_check_mark: |
-| org.owasp | <a name='org.owasp:dependency-check-parent'></a>[dependency-check-parent](content/org/owasp/dependency-check/README.md) | 17 | 12 :heavy_check_mark: / 5 :warning: |
+| org.owasp | <a name='org.owasp:dependency-check-parent'></a>[dependency-check-parent](content/org/owasp/dependency-check/README.md) | 18 | 13 :heavy_check_mark: / 5 :warning: |
 | org.simplify4u | <a name='org.simplify4u:pgp-keys-map'></a>[pgp-keys-map](content/org/simplify4u/pgp-keys-map/README.md) | 17 | 17 :heavy_check_mark: |
 | | <a name='org.simplify4u:slf4j-mock'></a>[slf4j-mock](content/org/simplify4u/slf4j-mock/README.md) | 4 | 4 :heavy_check_mark: |
 | org.simplify4u.plugins | <a name='org.simplify4u.plugins:pgpverify-maven-plugin'></a>[pgpverify-maven-plugin](content/org/simplify4u/plugins/pgpverify-maven-plugin/README.md) | 8 | 8 :heavy_check_mark: |
@@ -451,7 +452,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 13 | 13 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 6 | 6 :warning: |
-| **Count:** | **429** | **1931** | **1449** :heavy_check_mark: **482** :warning: |
+| **Count:** | **430** | **1936** | **1451** :heavy_check_mark: **485** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -463,14 +464,14 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      20 gradle     11
      26 mvn         7
-    863 mvn         8
+    864 mvn         8
       1 mvn         9
     687 mvn        11
       1 mvn        13
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    126 mvn        17
+    129 mvn        17
      10 mvn        18
      11 mvn        19
       4 mvn        20
@@ -492,7 +493,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      33 mvn-3.9.1  17
       1 mvn-3.9.1  19
       2 mvn-3.9.1  20
-      4 mvn-3.9.2   8
+      5 mvn-3.9.2   8
       3 mvn-3.9.2  17
       2 sbt         8
 <!-- END GENERATED STATS -->
