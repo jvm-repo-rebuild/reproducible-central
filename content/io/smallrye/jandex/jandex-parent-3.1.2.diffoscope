@@ -1,0 +1,182 @@
+1 / 2 target/reference/jandex-test-data-3.1.2.jar test-data/target/jandex-test-data-3.1.2.jar
+--- target/reference/jandex-test-data-3.1.2.jar
++++ test-data/target/jandex-test-data-3.1.2.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 71173 bytes, number of entries: 132
+│ +Zip file size: 71171 bytes, number of entries: 132
+│  -rw----     1.0 fat        0 bx stor 23-Jun-08 15:06 META-INF/
+│ --rw----     2.0 fat      601 bl defN 23-Jun-08 15:08 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat      598 bl defN 23-Jun-13 10:58 META-INF/MANIFEST.MF
+│  -rw----     1.0 fat        0 b- stor 23-Jun-08 15:06 test/
+│  -rw----     1.0 fat        0 b- stor 23-Jun-08 15:06 test/exec/
+│  -rw----     1.0 fat        0 b- stor 23-Jun-08 15:06 META-INF/maven/
+│  -rw----     1.0 fat        0 b- stor 23-Jun-08 15:06 META-INF/maven/io.smallrye/
+│  -rw----     1.0 fat        0 b- stor 23-Jun-08 15:06 META-INF/maven/io.smallrye/jandex-test-data/
+│  -rw----     2.0 fat      917 bl defN 23-Jun-08 15:06 test/BridgeMethods$ArrayWithNullableElementsConsumer.class
+│  -rw----     2.0 fat      865 bl defN 23-Jun-08 15:06 test/BridgeMethods$ArrayWithNullableElementsSupplier.class
+│ @@ -30,15 +30,15 @@
+│  -rw----     2.0 fat      523 bl defN 23-Jun-08 15:06 test/MyRepeatableAnnotation.class
+│  -rw----     2.0 fat      398 bl defN 23-Jun-08 15:06 test/Nullable.class
+│  -rw----     2.0 fat      529 bl defN 23-Jun-08 15:06 test/RecordExample$AccessorAnnotation.class
+│  -rw----     2.0 fat      541 bl defN 23-Jun-08 15:06 test/RecordExample$ComponentAnnotation.class
+│  -rw----     2.0 fat      522 bl defN 23-Jun-08 15:06 test/RecordExample$FieldAnnotation.class
+│  -rw----     2.0 fat     1476 bl defN 23-Jun-08 15:06 test/RecordExample$NestedEmptyRecord.class
+│  -rw----     2.0 fat      523 bl defN 23-Jun-08 15:06 test/RecordExample$RecordAnnotation.class
+│ --rw----     2.0 fat     3409 bl defN 23-Jun-08 15:06 test/RecordExample.class
+│ +-rw----     2.0 fat     3393 bl defN 23-Jun-08 15:06 test/RecordExample.class
+│  -rw----     2.0 fat      616 bl defN 23-Jun-08 15:06 test/RepeatableAnnotationsExample$Alpha.class
+│  -rw----     2.0 fat      559 bl defN 23-Jun-08 15:06 test/RepeatableAnnotationsExample$AlphaContainer.class
+│  -rw----     2.0 fat     1243 bl defN 23-Jun-08 15:06 test/RepeatableAnnotationsExample$MyAnnotated.class
+│  -rw----     2.0 fat      583 bl defN 23-Jun-08 15:06 test/RepeatableAnnotationsExample.class
+│  -rw----     2.0 fat      555 bl defN 23-Jun-08 15:06 test/ServiceProviderExample$ServiceProviderExampleImpl.class
+│  -rw----     2.0 fat      487 bl defN 23-Jun-08 15:06 test/ServiceProviderExample.class
+│  -rw----     2.0 fat      451 bl defN 23-Jun-08 15:06 test/TExample$A.class
+│ @@ -126,9 +126,9 @@
+│  -rw----     2.0 fat      423 bl defN 23-Jun-08 15:06 test/VExample$U.class
+│  -rw----     2.0 fat      447 bl defN 23-Jun-08 15:06 test/VExample$V.class
+│  -rw----     2.0 fat     4800 bl defN 23-Jun-08 15:06 test/VExample.class
+│  -rw----     2.0 fat      375 bl defN 23-Jun-08 15:06 test/exec/Main.class
+│  -rw----     2.0 fat     8954 bl defN 23-Jun-08 15:06 META-INF/maven/io.smallrye/jandex-test-data/pom.xml
+│  -rw----     2.0 fat       62 bl defN 23-Jun-08 15:06 META-INF/maven/io.smallrye/jandex-test-data/pom.properties
+│  -rw----     2.0 fat      179 bl defN 23-Jun-08 15:06 META-INF/INDEX.LIST
+│ --rw----     2.0 fat      629 bl defN 23-Jun-08 15:08 module-info.class
+│ -132 files, 106580 bytes uncompressed, 50241 bytes compressed:  52.9%
+│ +-rw----     2.0 fat      629 bl defN 23-Jun-13 10:58 module-info.class
+│ +132 files, 106561 bytes uncompressed, 50239 bytes compressed:  52.9%
+├── META-INF/MANIFEST.MF
+│ @@ -2,18 +2,18 @@
+│  Created-By: Maven JAR Plugin 3.3.0
+│  Build-Jdk-Spec: 17
+│  Specification-Title: Jandex: Test Data
+│  Specification-Version: 3.1
+│  Implementation-Title: Jandex: Test Data
+│  Implementation-Version: 3.1.2
+│  Implementation-URL: https://smallrye.io
+│ -Java-Vendor: Eclipse Adoptium
+│ +Java-Vendor: Private Build
+│  Java-Version: 17
+│  Os-Arch: amd64
+│  Os-Name: Linux
+│ -Os-Version: 5.15.0-1039-azure
+│ +Os-Version: 5.15.0-73-generic
+│  Scm-Connection: scm:git:git@github.com:smallrye/jandex.git/jandex-test-d
+│   ata
+│  Scm-Revision: f3e55b2f19486f9a24784e290ab2e3b44459699d
+│  Scm-Url: https://github.com/smallrye/jandex/jandex-test-data/
+│  Main-Class: test.exec.Main
+├── test/RecordExample.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -364,21 +364,20 @@
+│ │      )
+│ │  NestMembers:
+│ │    test/RecordExample$AccessorAnnotation
+│ │    test/RecordExample$FieldAnnotation
+│ │    test/RecordExample$ComponentAnnotation
+│ │    test/RecordExample$RecordAnnotation
+│ │    test/RecordExample$NestedEmptyRecord
+│ │ -  Record: length = 0x67 (unknown attribute)
+│ │ +  Record: length = 0x57 (unknown attribute)
+│ │     00 04 00 0B 00 0C 00 01 00 28 00 00 00 08 00 01
+│ │     13 00 00 29 00 00 00 0F 00 10 00 02 00 2A 00 00
+│ │     00 0B 00 01 00 58 00 01 00 2C 73 00 59 00 28 00
+│ │     00 00 08 00 01 13 00 00 29 00 00 00 13 00 14 00
+│ │ -   02 00 2E 00 00 00 02 00 2F 00 28 00 00 00 0A 00
+│ │ -   01 13 01 03 00 00 29 00 00 00 17 00 18 00 01 00
+│ │ +   01 00 2E 00 00 00 02 00 2F 00 17 00 18 00 01 00
+│ │     2E 00 00 00 02 00 30
+│ │  BootstrapMethods:
+│ │    0: #91 REF_invokeStatic java/lang/runtime/ObjectMethods.bootstrap:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/TypeDescriptor;Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/invoke/MethodHandle;)Ljava/lang/Object;
+│ │      Method arguments:
+│ │        #8 test/RecordExample
+│ │        #98 id;name;parameterized;generic
+│ │        #100 REF_getField test/RecordExample.id:Ljava/lang/Integer;
+├── module-info.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -17,15 +17,15 @@
+│ │     #8 = Class              #7             // test/exec/Main
+│ │     #9 = Utf8               test
+│ │    #10 = Package            #9             // test
+│ │    #11 = Utf8               test/exec
+│ │    #12 = Package            #11            // test/exec
+│ │    #13 = Utf8               java.base
+│ │    #14 = Module             #13            // "java.base"
+│ │ -  #15 = Utf8               17.0.7
+│ │ +  #15 = Utf8               17.0.6
+│ │    #16 = Utf8               java.desktop
+│ │    #17 = Module             #16            // "java.desktop"
+│ │    #18 = Utf8               test/ServiceProviderExample
+│ │    #19 = Class              #18            // test/ServiceProviderExample
+│ │    #20 = Utf8               test/ServiceProviderExample$ServiceProviderExampleImpl
+│ │    #21 = Class              #20            // test/ServiceProviderExample$ServiceProviderExampleImpl
+│ │    #22 = Utf8               Ljava/lang/Deprecated;
+│ │ @@ -52,17 +52,17 @@
+│ │        value="typeannotationtest"
+│ │      )
+│ │  Module:
+│ │    #5,0                                    // "org.jboss.jandex.typeannotationtest"
+│ │    #6                                      // 1.0
+│ │    2                                       // requires
+│ │      #14,0                                   // "java.base"
+│ │ -    #15                                     // 17.0.7
+│ │ +    #15                                     // 17.0.6
+│ │      #17,20                                  // "java.desktop" ACC_TRANSITIVE
+│ │ -    #15                                     // 17.0.7
+│ │ +    #15                                     // 17.0.6
+│ │    1                                       // exports
+│ │      #10,0                                   // test to ... 2
+│ │        #14                                     // ... to "java.base"
+│ │        #17                                     // ... to "java.desktop"
+│ │    2                                       // opens
+│ │      #10,0                                   // test to ... 1
+│ │        #14                                     // ... to "java.base"
+
+2 / 2 target/reference/jandex-maven-plugin-3.1.2.jar maven-plugin/target/jandex-maven-plugin-3.1.2.jar
+--- target/reference/jandex-maven-plugin-3.1.2.jar
++++ maven-plugin/target/jandex-maven-plugin-3.1.2.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 19932 bytes, number of entries: 21
+│ +Zip file size: 19927 bytes, number of entries: 21
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-08 15:06 META-INF/
+│ --rw-r--r--  2.0 unx      589 b- defN 23-Jun-08 15:06 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx      586 b- defN 23-Jun-08 15:06 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-08 15:06 META-INF/m2e/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-08 15:06 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-08 15:06 META-INF/maven/io.smallrye/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-08 15:06 META-INF/maven/io.smallrye/jandex-maven-plugin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-08 15:06 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-08 15:06 org/jboss/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-08 15:06 org/jboss/jandex/
+│ @@ -16,8 +16,8 @@
+│  -rw-r--r--  2.0 unx     1284 b- defN 23-Jun-08 15:06 org/jboss/jandex/maven/Dependency.class
+│  -rw-r--r--  2.0 unx     1806 b- defN 23-Jun-08 15:06 org/jboss/jandex/maven/FileSet.class
+│  -rw-r--r--  2.0 unx    10150 b- defN 23-Jun-08 15:06 org/jboss/jandex/maven/JandexGoal.class
+│  -rw-r--r--  2.0 unx     8332 b- defN 23-Jun-08 15:06 org/jboss/jandex/maven/JandexJarGoal.class
+│  -rw-r--r--  2.0 unx     3369 b- defN 23-Jun-08 15:06 META-INF/maven/io.smallrye/jandex-maven-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 23-Jun-08 15:06 META-INF/maven/io.smallrye/jandex-maven-plugin/pom.properties
+│  -rw-r--r--  2.0 unx      219 b- defN 23-Jun-08 15:06 META-INF/INDEX.LIST
+│ -21 files, 47431 bytes uncompressed, 17018 bytes compressed:  64.1%
+│ +21 files, 47428 bytes uncompressed, 17013 bytes compressed:  64.1%
+├── META-INF/MANIFEST.MF
+│ @@ -2,17 +2,17 @@
+│  Created-By: Maven JAR Plugin 3.3.0
+│  Build-Jdk-Spec: 17
+│  Specification-Title: Jandex: Maven Plugin
+│  Specification-Version: 3.1
+│  Implementation-Title: Jandex: Maven Plugin
+│  Implementation-Version: 3.1.2
+│  Implementation-URL: https://smallrye.io
+│ -Java-Vendor: Eclipse Adoptium
+│ -Java-Version: 17.0.7
+│ +Java-Vendor: Private Build
+│ +Java-Version: 17.0.6
+│  Os-Arch: amd64
+│  Os-Name: Linux
+│ -Os-Version: 5.15.0-1039-azure
+│ +Os-Version: 5.15.0-73-generic
+│  Scm-Connection: scm:git:git@github.com:smallrye/jandex.git/jandex-maven-
+│   plugin
+│  Scm-Revision: f3e55b2f19486f9a24784e290ab2e3b44459699d
+│  Scm-Url: https://github.com/smallrye/jandex/jandex-maven-plugin/
+

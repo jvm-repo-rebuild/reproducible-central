@@ -1,0 +1,9 @@
+version=3.1.2
+ok=9
+ko=2
+okFiles="jandex-parent-3.1.2.pom jandex-test-data-3.1.2.pom jandex-test-data-3.1.2-sources.jar jandex-3.1.2.pom jandex-3.1.2.jar jandex-3.1.2-sources.jar jandex-maven-plugin-3.1.2.pom jandex-maven-plugin-3.1.2-sources.jar jandex-release-3.1.2.pom"
+koFiles="jandex-test-data-3.1.2.jar jandex-maven-plugin-3.1.2.jar"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/jandex-test-data-3.1.2.jar test-data/target/jandex-test-data-3.1.2.jar
+# diffoscope target/reference/jandex-maven-plugin-3.1.2.jar maven-plugin/target/jandex-maven-plugin-3.1.2.jar
