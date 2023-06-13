@@ -1,0 +1,18 @@
+groupId=io.smallrye
+artifactId=jandex-parent
+version=3.1.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/smallrye/jandex.git
+gitTag=${version}
+
+tool=mvn
+jdk=17
+newline=lf
+
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Denv.JAVA_HOME=/usr"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=
