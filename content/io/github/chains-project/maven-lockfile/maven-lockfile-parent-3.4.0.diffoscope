@@ -1,0 +1,210 @@
+1 / 1 target/reference/maven-lockfile-github-action-3.4.0.jar github_action/target/maven-lockfile-github-action-3.4.0.jar
+--- target/reference/maven-lockfile-github-action-3.4.0.jar
++++ github_action/target/maven-lockfile-github-action-3.4.0.jar
+├── zipinfo -v {}
+│┄ Differences in extra fields detected; using output from zipinfo -v
+│ @@ -1,22 +1,22 @@
+│  There is no zipfile comment.
+│  
+│  End-of-central-directory record:
+│  -------------------------------
+│  
+│ -  Zip archive file size:                  16429852 (0000000000FAB31Ch)
+│ -  Actual end-cent-dir record offset:      16429830 (0000000000FAB306h)
+│ -  Expected end-cent-dir record offset:    16429830 (0000000000FAB306h)
+│ +  Zip archive file size:                  16427331 (0000000000FAA943h)
+│ +  Actual end-cent-dir record offset:      16427309 (0000000000FAA92Dh)
+│ +  Expected end-cent-dir record offset:    16427309 (0000000000FAA92Dh)
+│    (based on the length of the central directory and its expected offset)
+│  
+│    This zipfile constitutes the sole disk of a single-part archive; its
+│    central directory contains 11255 entries.
+│    The central directory is 1229649 (000000000012C351h) bytes long,
+│    and its (expected) offset in bytes from the beginning of the zipfile
+│ -  is 15200181 (0000000000E7EFB5h).
+│ +  is 15197660 (0000000000E7E5DCh).
+│  
+│  
+│  Central directory entry #1:
+│  ---------------------------
+│  
+│    META-INF/
+│  
+│ @@ -25,17 +25,17 @@
+│    file system or operating system of origin:      MS-DOS, OS/2 or NT FAT
+│    version of encoding software:                   1.0
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   1.0
+│    compression method:                             none (stored)
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│ -  file last modified on (DOS date/time):          2023 Jun 15 13:44:06
+│ -  file last modified on (UT extra field modtime): 2023 Jun 15 13:44:06 local
+│ -  file last modified on (UT extra field modtime): 2023 Jun 15 13:44:06 UTC
+│ +  file last modified on (DOS date/time):          2023 Jun 16 06:28:24
+│ +  file last modified on (UT extra field modtime): 2023 Jun 16 06:28:25 local
+│ +  file last modified on (UT extra field modtime): 2023 Jun 16 06:28:25 UTC
+│    32-bit CRC value (hex):                         00000000
+│    compressed size:                                0 bytes
+│    uncompressed size:                              0 bytes
+│    length of filename:                             9 characters
+│    length of extra field:                          9 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+...
+├── zipnote «TEMP»/diffoscope_s8zv89fh_target/tmpcqn0vlh5_.zip
+│ @@ -33213,17 +33213,14 @@
+│  
+│  Filename: META-INF/maven/org.buildobjects/jproc/pom.properties
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.buildobjects/jproc/pom.xml
+│  Comment: 
+│  
+│ -Filename: io/vertx/core/impl/ContextInternal.class
+│ -Comment: 
+│ -
+│  Filename: org/kohsuke/github/GHCheckRun.class
+│  Comment: 
+│  
+│  Filename: org/kohsuke/github/GHContentUpdateResponse.class
+│  Comment: 
+│  
+│  Filename: org/kohsuke/github/GitHub.class
+│ @@ -33252,38 +33249,41 @@
+│  
+│  Filename: org/kohsuke/github/GHAppInstallationToken.class
+│  Comment: 
+│  
+│  Filename: io/smallrye/context/SmallRyeManagedExecutor.class
+│  Comment: 
+│  
+│ +Filename: io/vertx/core/impl/ContextInternal.class
+│ +Comment: 
+│ +
+│  Filename: io/quarkus/runtime/generated/
+│  Comment: 
+│  
+│  Filename: io/quarkus/runtime/generated/ConfigSourceProviderImpl.class
+│  Comment: 
+│  
+│  Filename: io/quarkus/runtime/generated/BuildTimeRunTimeFixedConfigSource.class
+│  Comment: 
+│  
+│ -Filename: io/quarkus/runtime/generated/BuildTimeRunTimeFixedConfigSourceBuilder.class
+│ -Comment: 
+│ -
+│  Filename: io/quarkus/deployment/
+│  Comment: 
+│  
+│  Filename: io/quarkus/deployment/steps/
+│  Comment: 
+│  
+│  Filename: io/quarkus/deployment/steps/BootstrapConfigSetup.class
+│  Comment: 
+│  
+│  Filename: io/quarkus/deployment/steps/RuntimeConfigSetup.class
+│  Comment: 
+│  
+│ +Filename: io/quarkus/runtime/generated/BuildTimeRunTimeFixedConfigSourceBuilder.class
+│ +Comment: 
+│ +
+...
+├── io/quarkus/runtime/generated/BuildTimeRunTimeFixedConfigSource.class
+│ ├── procyon -ec {}
+│ │ @@ -11,26 +11,26 @@
+│ │      
+│ │      static {
+│ │          properties = new HashMap();
+│ │          final Map properties2 = BuildTimeRunTimeFixedConfigSource.properties;
+│ │          properties2.put("quarkus.application.name", "maven-lockfile-github-action");
+│ │          properties2.put("quarkus.application.ui-header", "{applicationName} (powered by Quarkus)");
+│ │          properties2.put("quarkus.application.version", "3.4.0");
+│ │ -        properties2.put("quarkus.default-locale", "en-");
+│ │ +        properties2.put("quarkus.default-locale", "en-US");
+│ │          properties2.put("quarkus.jackson.accept-case-insensitive-enums", "false");
+│ │          properties2.put("quarkus.jackson.fail-on-empty-beans", "true");
+│ │          properties2.put("quarkus.jackson.fail-on-unknown-properties", "false");
+│ │          properties2.put("quarkus.jackson.timezone", "UTC");
+│ │          properties2.put("quarkus.jackson.write-dates-as-timestamps", "false");
+│ │          properties2.put("quarkus.jackson.write-durations-as-timestamps", "true");
+│ │          properties2.put("quarkus.live-reload.connect-timeout", "30s");
+│ │          properties2.put("quarkus.live-reload.instrumentation", "false");
+│ │          properties2.put("quarkus.live-reload.retry-interval", "2s");
+│ │          properties2.put("quarkus.live-reload.retry-max-attempts", "10");
+│ │ -        properties2.put("quarkus.locales", "en-");
+│ │ +        properties2.put("quarkus.locales", "en-US");
+│ │          properties2.put("quarkus.log.category.*.min-level", "inherit");
+│ │          properties2.put("quarkus.log.metrics.enabled", "false");
+│ │          properties2.put("quarkus.log.min-level", "DEBUG");
+│ │          properties2.put("quarkus.tls.trust-all", "false");
+│ │      }
+│ │      
+│ │      public BuildTimeRunTimeFixedConfigSource() {
+├── io/quarkus/runtime/generated/RunTimeDefaultsConfigSource.class
+│ ├── procyon -ec {}
+│ │ @@ -8,139 +8,49 @@
+│ │  public final synthetic class RunTimeDefaultsConfigSource extends DefaultsConfigSource
+│ │  {
+│ │      static final Map properties;
+│ │      
+│ │      static {
+│ │          properties = new HashMap();
+│ │          final Map properties2 = RunTimeDefaultsConfigSource.properties;
+│ │ -        properties2.put("android.ndk.root", "/usr/local/lib/android/sdk/ndk/25.2.9519653");
+│ │ -        properties2.put("xdg.runtime.dir", "/run/user/1001");
+│ │ +        properties2.put("debian.frontend", "noninteractive");
+│ │ +        properties2.put("maven.config", "/var/maven/.m2");
+│ │ +        properties2.put("quarkus.log.console.darken", "0");
+│ │ +        properties2.put("tz", "UTC");
+│ │          properties2.put("quarkus.banner.enabled", "false");
+│ │ -        properties2.put("github.actor.id", "25300639");
+│ │ -        properties2.put("azure.extension.dir", "/opt/az/azcliextensions");
+│ │ -        properties2.put("java.home[11]x64", "/opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.19-7/x64");
+│ │ -        properties2.put("github.repository.owner.id", "104410944");
+│ │ +        properties2.put("language", "en_US");
+│ │          properties2.put("quarkus.log.filter.\"io.netty.resolver.HostsFileParser\".if-starts-with", "Failed to load and parse hosts file");
+│ │ -        properties2.put("android.ndk.home", "/usr/local/lib/android/sdk/ndk/25.2.9519653");
+│ │ -        properties2.put("goroot[1]18.x64", "/opt/hostedtoolcache/go/1.18.10/x64");
+│ │ -        properties2.put("java.home[8]x64", "/usr/lib/jvm/temurin-8-jdk-amd64");
+│ │ -        properties2.put("path", "/opt/hostedtoolcache/maven/3.8.2/x64/bin:/home/runner/go/bin:/opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.19-7/x64/bin:/home/runner/.local/bin:/opt/pipx_bin:/home/runner/.cargo/bin:/home/runner/.config/composer/vendor/bin:/usr/local/.ghcup/bin:/home/runner/.dotnet/tools:/snap/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin");
+│ │ -        properties2.put("github.head.ref", "");
+│ │ -        properties2.put("maven.cmd.line.args", " --no-transfer-progress --batch-mode -Ppublication clean deploy -DaltDeploymentRepository=local::file:./target/staging-deploy");
+│ │ +        properties2.put("path", "/usr/local/bin/:/usr/local/apache-maven/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin");
+│ │ +        properties2.put("hostname", "73dc2a790041");
+│ │ +        properties2.put("debconf.terse", "true");
+│ │ +        properties2.put("m2.home", "/usr/local/apache-maven");
+│ │ +        properties2.put("term", "xterm");
+│ │ +        properties2.put("maven.cmd.line.args", "/var/maven/.m2 -Ppublication clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dcyclonedx.skip -V -e org.apache.maven.plugins:maven-artifact-plugin:3.3.0:compare -Dbuildinfo.reproducible");
+│ │ +        properties2.put("inside.docker", "Yes");
+│ │ +        properties2.put("lang", "en_US.UTF-8");
+...
+├── io/quarkus/arc/setup/Default_ComponentsProvider.class
+│ ├── procyon -ec {}
+│ │ @@ -1,41 +1,41 @@
+│ │  
+│ │  package io.quarkus.arc.setup;
+│ │  
+│ │  import io.quarkus.arc.log.LoggerName_ArcAnnotationLiteral;
+│ │  import java.util.OptionalLong;
+│ │  import java.util.OptionalDouble;
+│ │ -import java.util.OptionalInt;
+│ │  import jakarta.enterprise.inject.Default$Literal;
+│ │ +import java.util.OptionalInt;
+│ │  import io.quarkus.arc.impl.TypeVariableImpl;
+│ │  import org.eclipse.microprofile.config.inject.ConfigProperty_ArcAnnotationLiteral;
+│ │  import io.quarkus.arc.impl.ParameterizedTypeImpl;
+│ │  import java.lang.reflect.Type;
+│ │  import java.io.Serializable;
+│ │  import io.quarkus.arc.impl.RemovedBeanImpl;
+│ │  import io.quarkus.arc.InjectableBean$Kind;
+│ │  import java.util.concurrent.ScheduledExecutorService;
+│ │  import java.util.concurrent.ExecutorService;
+│ │  import java.util.concurrent.Executor;
+│ │ -import io.quarkus.vertx.runtime.VertxProducer_Observer_undeployVerticles_cd61570c529f4f70bf1e54f20403d3c90e4bbc75;
+│ │  import io.github.chains_project.maven_lockfile.GithubAction_Multiplexer_Observer_run_10e4fab489c5baa897ea9b4d6b0a2302f36c3340_2becc8ab276cce758a8c2c4203956187bda3c641;
+│ │ -import io.smallrye.context.SmallRyeManagedExecutor_37cd00d79f6817c9ac6f4041646d6c5b8c1d4c69_Synthetic_Bean;
+│ │ +import io.quarkus.vertx.runtime.VertxProducer_Observer_undeployVerticles_cd61570c529f4f70bf1e54f20403d3c90e4bbc75;
+│ │  import io.netty.channel.EventLoopGroup_6b76fd1b9374ca425834afc8e18924f04ca49d32_Synthetic_Bean;
+│ │  import io.netty.channel.EventLoopGroup_92f1c3a38cd361eb7ad27a9fe6324edba5748ae1_Synthetic_Bean;
+...
