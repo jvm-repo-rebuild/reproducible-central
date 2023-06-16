@@ -628,6 +628,7 @@ rebuilding **4 releases** of org.apache.camel:camel:
 | [3.20.1](https://central.sonatype.com/artifact/org.apache.camel/camel/3.20.1/pom) | | | |
 | [3.20.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.20.0/pom) | | | |
 | [3.19.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.19.0/pom) | [mvn jdk11](camel-3.19.0.buildspec) | [result](camel-3.19.0.buildinfo): [1163 :heavy_check_mark:  446 :warning:](camel-3.19.0.buildcompare) | 259M |
+| [3.18.8](https://central.sonatype.com/artifact/org.apache.camel/camel/3.18.8/pom) | | | |
 | [3.18.7](https://central.sonatype.com/artifact/org.apache.camel/camel/3.18.7/pom) | | | |
 | [3.18.6](https://central.sonatype.com/artifact/org.apache.camel/camel/3.18.6/pom) | | | |
 | [3.18.5](https://central.sonatype.com/artifact/org.apache.camel/camel/3.18.5/pom) | | | |

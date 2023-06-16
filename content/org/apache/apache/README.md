@@ -1,19 +1,19 @@
-[org.apache:apache](https://central.sonatype.com/artifact/org.apache/apache/29/versions) RB check
+[org.apache:apache](https://central.sonatype.com/artifact/org.apache/apache/30/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache:apache](https://central.sonatype.com/artifact/org.apache/apache/29/versions)
+## Project: [org.apache:apache](https://central.sonatype.com/artifact/org.apache/apache/30/versions)
 
 Source code: [https://github.com/apache/maven-apache-parent.git](https://github.com/apache/maven-apache-parent.git)
 
-rebuilding **7 releases** of org.apache:apache:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **8 releases** of org.apache:apache:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [30](https://central.sonatype.com/artifact/org.apache/apache/30/pom) | | | |
+| [30](https://central.sonatype.com/artifact/org.apache/apache/30/pom) | [mvn jdk8](apache-30.buildspec) | [result](apache-30.buildinfo): [2 :heavy_check_mark: ](apache-30.buildcompare) | 45K |
 | [29](https://central.sonatype.com/artifact/org.apache/apache/29/pom) | [mvn jdk8](apache-29.buildspec) | [result](apache-29.buildinfo): [2 :heavy_check_mark: ](apache-29.buildcompare) | 45K |
 | [28](https://central.sonatype.com/artifact/org.apache/apache/28/pom) | [mvn jdk8](apache-28.buildspec) | [result](apache-28.buildinfo): [2 :heavy_check_mark: ](apache-28.buildcompare) | 45K |
 | [27](https://central.sonatype.com/artifact/org.apache/apache/27/pom) | [mvn jdk8](apache-27.buildspec) | [result](apache-27.buildinfo): [2 :heavy_check_mark: ](apache-27.buildcompare) | 45K |
