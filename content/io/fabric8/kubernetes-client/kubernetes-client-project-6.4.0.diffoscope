@@ -1,4 +1,4 @@
-# jandex.idx
+# jandex.idx: require to upgrade to jandex 3 with io.smallrye:jandex-maven-plugin
 
 # order for everything generated from K8S schemas
 3 / 135 target/reference/kubernetes-model-core-6.4.0-sources.jar kubernetes-model-generator/kubernetes-model-core/target/kubernetes-model-core-6.4.0-sources.jar
