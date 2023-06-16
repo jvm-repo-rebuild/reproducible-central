@@ -1,0 +1,30 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=The Apache Software Foundation
+group-id=org.apache
+artifact-id=apache
+version=30
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-apache-parent.git
+source.scm.tag=apache-30
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=apache-30.pom
+outputs.0.length=23241
+outputs.0.checksums.sha512=fb4733395ecf56bd7e55eaebbe98cdd08de17e75ecbdf207370d66775eabafa2b4f34213d7300e7c55530e70cd66e63e4a56eb692a7570644cae8010afaf3065
+
+outputs.1.filename=apache-30-source-release.zip
+outputs.1.length=22472
+outputs.1.checksums.sha512=3c2557de0d8b1a1bfb36d67e7e17cdf338f9812ccb9fd030eedb3ff4693fbac38980bfe022dc033fe454b28f2e49ddedb768c52a62c83b82e1ad0041b5ff9ac7
