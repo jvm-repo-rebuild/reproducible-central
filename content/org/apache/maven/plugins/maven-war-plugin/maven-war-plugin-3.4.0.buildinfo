@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven WAR Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-war-plugin
+version=3.4.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-war-plugin.git
+source.scm.tag=maven-war-plugin-3.4.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.filename=maven-war-plugin-3.4.0.pom
+outputs.0.length=8370
+outputs.0.checksums.sha512=4107918e4bb5f575690daa48c411340d2dd5e57a8ad7300f6f5c492059b1ae98c46896b511debd5b1fdfa6743ea52ea0c38fb52c94b6db0dc3f52bbbd6e8c2db
+
+outputs.1.filename=maven-war-plugin-3.4.0.jar
+outputs.1.length=82726
+outputs.1.checksums.sha512=7850bbe9f93be42149a83914a5d10a927273a610f54742dcd60a538b144d0b384ec9086e00fc32b290259ad20ee155ba5b3efc49d7571de1798df7fd0fc1fa18
+
+outputs.2.filename=maven-war-plugin-3.4.0-source-release.zip
+outputs.2.length=682911
+outputs.2.checksums.sha512=ef7b2621697024570522a778318106f1e5ca18bf6944cb9e43e693e8c37312af272036f517d03b3555622f9bad695217ececa078affda6442d76063b5153f998
+
+outputs.3.filename=maven-war-plugin-3.4.0-sources.jar
+outputs.3.length=63651
+outputs.3.checksums.sha512=0f76a79eaf849600814137e1650e72ce6acd0134a092caa09b507c695a6766e1602ddd5296c684642cbf5689177dfacb72b77f4acad332012dacdc63670caf45
