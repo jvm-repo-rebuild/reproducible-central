@@ -1,0 +1,7 @@
+version=7.0.3
+ok=22
+ko=0
+okFiles="maven-indexer-7.0.3.pom maven-indexer-7.0.3-site.xml maven-indexer-7.0.3-source-release.zip indexer-core-7.0.3.pom indexer-core-7.0.3.jar indexer-core-7.0.3-sources.jar indexer-cli-7.0.3.pom indexer-cli-7.0.3.jar indexer-cli-7.0.3-sources.jar indexer-cli-7.0.3-cli.jar indexer-reader-7.0.3.pom indexer-reader-7.0.3.jar indexer-reader-7.0.3-sources.jar search-api-7.0.3.pom search-api-7.0.3.jar search-api-7.0.3-sources.jar search-backend-indexer-7.0.3.pom search-backend-indexer-7.0.3.jar search-backend-indexer-7.0.3-sources.jar search-backend-smo-7.0.3.pom search-backend-smo-7.0.3.jar search-backend-smo-7.0.3-sources.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
