@@ -1,0 +1,7 @@
+version=4.0.0
+ok=11
+ko=0
+okFiles="tomcat-authnz-spnego-ad-4.0.0.pom tomcat-authnz-spnego-ad-4.0.0-site.xml tomcat85-authnz-spnego-ad-4.0.0.pom tomcat85-authnz-spnego-ad-4.0.0.jar tomcat85-authnz-spnego-ad-4.0.0-sources.jar tomcat90-authnz-spnego-ad-4.0.0.pom tomcat90-authnz-spnego-ad-4.0.0.jar tomcat90-authnz-spnego-ad-4.0.0-sources.jar tomcat101-authnz-spnego-ad-4.0.0.pom tomcat101-authnz-spnego-ad-4.0.0.jar tomcat101-authnz-spnego-ad-4.0.0-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"

@@ -1,0 +1,75 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=SPNEGO/Kerberos Authenticator and Active Directory Realm for Apache Tomcat
+group-id=net.sf.michael-o.tomcat
+artifact-id=tomcat-authnz-spnego-ad
+version=4.0.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/michael-o/tomcatspnegoad.git
+source.scm.tag=4.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=tomcat101-authnz-spnego-ad
+
+# aggregated output
+
+outputs.0.coordinates=net.sf.michael-o.tomcat:tomcat-authnz-spnego-ad
+
+outputs.0.0.filename=tomcat-authnz-spnego-ad-4.0.0.pom
+outputs.0.0.length=4194
+outputs.0.0.checksums.sha512=06f2f21e756c644747878783fbf117573bdf2e76a17c654af5f9ff65c6f92fa4a54394bd26adeaaf9beb809cc08c48017568d44250b7ae7138d6d4167a9d6306
+
+outputs.0.1.filename=tomcat-authnz-spnego-ad-4.0.0-site.xml
+outputs.0.1.length=1461
+outputs.0.1.checksums.sha512=533492c3e00b7219c8115a29836e353461172d384973867b4ea62d4b35286b264cc453c3b3336f6a2093263708b065f7b03e5cab7baa809bd1e7bbb6268974ea
+
+outputs.1.coordinates=net.sf.michael-o.tomcat:tomcat85-authnz-spnego-ad
+
+outputs.1.0.filename=tomcat85-authnz-spnego-ad-4.0.0.pom
+outputs.1.0.length=4545
+outputs.1.0.checksums.sha512=184488c8cf2f078ed886cff73d73f4841b7db39bf7d2afbffc9b447f88c149fa56b8cd3b6ea3eb5aeabb9e9f016fa9cfdf0079301e8852b97b7f85e673f099bd
+
+outputs.1.1.filename=tomcat85-authnz-spnego-ad-4.0.0.jar
+outputs.1.1.length=78547
+outputs.1.1.checksums.sha512=8eec6972ed9d1a2794d76ccd35ecb4b7fe1ce16297eb39d494ce510199e8a70bfe98bd77b86678b2616c18adeec483bc4414439da86f51342e8ff12ae880fc4c
+
+outputs.1.2.filename=tomcat85-authnz-spnego-ad-4.0.0-sources.jar
+outputs.1.2.length=40676
+outputs.1.2.checksums.sha512=f575181242aa342e8ae2bfedfc9278b774347db036a45aa825fedeaf37f136d4de43f0c9cad78fb6a5984732e1a5cb1666d0f10bf401e00043fa81313433529d
+
+outputs.2.coordinates=net.sf.michael-o.tomcat:tomcat90-authnz-spnego-ad
+
+outputs.2.0.filename=tomcat90-authnz-spnego-ad-4.0.0.pom
+outputs.2.0.length=4627
+outputs.2.0.checksums.sha512=3aca11eb5eeff289fc47cfd4abd7bf04c416988213fa26ed03e381eb3942dac76fdca1b6dc159df9778a497bbed2ff80ce102f5892bd9d458f9f8a4743c41096
+
+outputs.2.1.filename=tomcat90-authnz-spnego-ad-4.0.0.jar
+outputs.2.1.length=104815
+outputs.2.1.checksums.sha512=e23665af5b22f9922825235bcf5b13aaf0d0b20375eff2f202e1d13d368ed1b817e7472df668ccf8d9dee7f2fac7f130993a6bc577888b93a85e323a9998372b
+
+outputs.2.2.filename=tomcat90-authnz-spnego-ad-4.0.0-sources.jar
+outputs.2.2.length=40536
+outputs.2.2.checksums.sha512=52ca02e866b28795a6b24225af43ea3706f3398c241001d05388028cc0d574a7a79d242a33e508a5f4f504ab4fe17ab71c7090e7a738c9ec57ed586ae0539461
+
+outputs.3.coordinates=net.sf.michael-o.tomcat:tomcat101-authnz-spnego-ad
+
+outputs.3.0.filename=tomcat101-authnz-spnego-ad-4.0.0.pom
+outputs.3.0.length=4629
+outputs.3.0.checksums.sha512=4fe5b1f6bb827b71c0eba6730af071a7cfda4876ea471cb716d07010b06f61194cd68af7cac3e3632684c4696fbd705b43f2486a2ced458c9d5909f5a9cd5d7e
+
+outputs.3.1.filename=tomcat101-authnz-spnego-ad-4.0.0.jar
+outputs.3.1.length=105453
+outputs.3.1.checksums.sha512=463ae6d7b330b0a5d150ea84467b7454050ace38d4954d265c587ef00b843700b560476fe2ab3b9c7d8991ea50dc2fdf01affbe8f56bb2dca0a84011bb7cb758
+
+outputs.3.2.filename=tomcat101-authnz-spnego-ad-4.0.0-sources.jar
+outputs.3.2.length=40513
+outputs.3.2.checksums.sha512=5a48a2fc4b4827266c3a73bd189a1d6c798d7a7bf111450ea82ee83093c342146c3d99c6fa4ccaebd5509b4f0448dd0ffd53c60587f4b2e43b440c371fdf6bc7
