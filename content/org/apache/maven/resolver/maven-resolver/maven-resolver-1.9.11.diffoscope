@@ -1,0 +1,42 @@
+1 / 1 target/reference/maven-resolver-named-locks-redisson-1.9.11-bundle.zip maven-resolver-named-locks-redisson/target/maven-resolver-named-locks-redisson-1.9.11-bundle.zip
+--- target/reference/maven-resolver-named-locks-redisson-1.9.11-bundle.zip
++++ maven-resolver-named-locks-redisson/target/maven-resolver-named-locks-redisson-1.9.11-bundle.zip
+├── zipinfo {}
+│ @@ -1,23 +1,23 @@
+│  Zip file size: 7622475 bytes, number of entries: 21
+│ --rw-r--r--  2.0 unx  2321222 b- defN 23-Jun-13 09:19 redisson-3.21.3.jar
+│ --rw-r--r--  2.0 unx   659265 b- defN 23-Jun-13 09:19 netty-common-4.1.92.Final.jar
+│ --rw-r--r--  2.0 unx   345166 b- defN 23-Jun-13 09:19 netty-codec-4.1.92.Final.jar
+│ --rw-r--r--  2.0 unx   305437 b- defN 23-Jun-13 09:19 netty-buffer-4.1.92.Final.jar
+│ --rw-r--r--  2.0 unx   488581 b- defN 23-Jun-13 09:19 netty-transport-4.1.92.Final.jar
+│ --rw-r--r--  2.0 unx    37788 b- defN 23-Jun-13 09:19 netty-resolver-4.1.92.Final.jar
+│ --rw-r--r--  2.0 unx   165682 b- defN 23-Jun-13 09:19 netty-resolver-dns-4.1.92.Final.jar
+│ --rw-r--r--  2.0 unx    66888 b- defN 23-Jun-13 09:19 netty-codec-dns-4.1.92.Final.jar
+│ --rw-r--r--  2.0 unx   554169 b- defN 23-Jun-13 09:19 netty-handler-4.1.92.Final.jar
+│ --rw-rw-r--  2.0 unx   223990 b- defN 23-Jun-13 09:19 jboss-marshalling-2.0.11.Final.jar
+│ --rw-rw-r--  2.0 unx    88893 b- defN 23-Jun-13 09:19 jboss-marshalling-river-2.0.11.Final.jar
+│ +-rw-rw-r--  2.0 unx  2321222 b- defN 23-Jun-13 09:19 redisson-3.21.3.jar
+│ +-rw-rw-r--  2.0 unx   659265 b- defN 23-Jun-13 09:19 netty-common-4.1.92.Final.jar
+│ +-rw-rw-r--  2.0 unx   345166 b- defN 23-Jun-13 09:19 netty-codec-4.1.92.Final.jar
+│ +-rw-rw-r--  2.0 unx   305437 b- defN 23-Jun-13 09:19 netty-buffer-4.1.92.Final.jar
+│ +-rw-rw-r--  2.0 unx   488581 b- defN 23-Jun-13 09:19 netty-transport-4.1.92.Final.jar
+│ +-rw-rw-r--  2.0 unx    37788 b- defN 23-Jun-13 09:19 netty-resolver-4.1.92.Final.jar
+│ +-rw-rw-r--  2.0 unx   165682 b- defN 23-Jun-13 09:19 netty-resolver-dns-4.1.92.Final.jar
+│ +-rw-rw-r--  2.0 unx    66888 b- defN 23-Jun-13 09:19 netty-codec-dns-4.1.92.Final.jar
+│ +-rw-rw-r--  2.0 unx   554169 b- defN 23-Jun-13 09:19 netty-handler-4.1.92.Final.jar
+│ +-rw-r--r--  2.0 unx   223990 b- defN 23-Jun-13 09:19 jboss-marshalling-2.0.11.Final.jar
+│ +-rw-r--r--  2.0 unx    88893 b- defN 23-Jun-13 09:19 jboss-marshalling-river-2.0.11.Final.jar
+│  -rw-r--r--  2.0 unx   371528 b- defN 23-Jun-13 09:19 kryo-5.5.0.jar
+│  -rw-r--r--  2.0 unx    72265 b- defN 23-Jun-13 09:19 reflectasm-1.11.9.jar
+│  -rw-r--r--  2.0 unx     5923 b- defN 23-Jun-13 09:19 minlog-1.3.1.jar
+│  -rw-r--r--  2.0 unx    75564 b- defN 23-Jun-13 09:19 jackson-annotations-2.15.0.jar
+│  -rw-r--r--  2.0 unx    54629 b- defN 23-Jun-13 09:19 jackson-dataformat-yaml-2.15.0.jar
+│  -rw-r--r--  2.0 unx   334803 b- defN 23-Jun-13 09:19 snakeyaml-2.0.jar
+│  -rw-r--r--  2.0 unx   542635 b- defN 23-Jun-13 09:19 jackson-core-2.15.0.jar
+│  -rw-r--r--  2.0 unx  1619579 b- defN 23-Jun-13 09:19 jackson-databind-2.15.0.jar
+│ --rw-------  2.0 unx    49423 b- defN 23-Jun-13 09:19 objenesis-3.3.jar
+│ --rw-r--r--  2.0 unx    18202 b- defN 23-Jun-13 09:19 maven-resolver-named-locks-redisson-1.9.11.jar
+│ +-rw-r--r--  2.0 unx    49423 b- defN 23-Jun-13 09:19 objenesis-3.3.jar
+│ +-rw-rw-r--  2.0 unx    18202 b- defN 23-Jun-13 09:19 maven-resolver-named-locks-redisson-1.9.11.jar
+│  21 files, 8401632 bytes uncompressed, 7619689 bytes compressed:  9.3%
+
