@@ -1,0 +1,9 @@
+version=40
+ok=21
+ko=4
+okFiles="maven-parent-40.pom maven-parent-40-site.xml maven-parent-40-source-release.zip maven-extensions-40.pom maven-extensions-40-site.xml maven-extensions-40-cyclonedx.xml maven-extensions-40-cyclonedx.json maven-plugins-40.pom maven-plugins-40-site.xml maven-shared-components-40.pom maven-shared-components-40-site.xml maven-shared-components-40-cyclonedx.xml maven-shared-components-40-cyclonedx.json maven-skins-40.pom maven-skins-40-site.xml maven-skins-40-cyclonedx.xml maven-skins-40-cyclonedx.json doxia-tools-40.pom doxia-tools-40-site.xml doxia-tools-40-cyclonedx.xml doxia-tools-40-cyclonedx.json"
+koFiles="maven-parent-40-cyclonedx.xml maven-parent-40-cyclonedx.json maven-plugins-40-cyclonedx.xml maven-plugins-40-cyclonedx.json"
+# diffoscope target/reference/maven-parent-40-cyclonedx.xml target/bom.xml
+# diffoscope target/reference/maven-parent-40-cyclonedx.json target/bom.json
+# diffoscope target/reference/maven-plugins-40-cyclonedx.xml maven-plugins/target/bom.xml
+# diffoscope target/reference/maven-plugins-40-cyclonedx.json maven-plugins/target/bom.json

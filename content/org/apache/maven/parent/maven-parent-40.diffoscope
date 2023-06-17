@@ -1,0 +1,186 @@
+1 / 4 target/reference/maven-parent-40-cyclonedx.xml target/bom.xml
+--- target/reference/maven-parent-40-cyclonedx.xml
++++ target/bom.xml
+│   --- target/reference/maven-parent-40-cyclonedx.xml
+├── +++ target/bom.xml
+│ @@ -72,22 +72,22 @@
+│        <publisher>The Apache Software Foundation</publisher>
+│        <group>org.apache.maven.plugin-tools</group>
+│        <name>maven-plugin-annotations</name>
+│        <version>3.9.0</version>
+│        <description>Java annotations to use in Mojos</description>
+│        <scope>required</scope>
+│        <hashes>
+│ -        <hash alg="MD5">37f91943fa912e721518a5c5ccf943a1</hash>
+│ -        <hash alg="SHA-1">c9a692630a3657ee6a0c4d8500b366b18a8f1eb0</hash>
+│ -        <hash alg="SHA-256">c453d4a5b0b983e97d3dd1f63cf63c796d303a45177b0623072c25d1fa8ab98b</hash>
+│ -        <hash alg="SHA-512">720b16bbfc24585a79a83027394fbebc7b5488daf6f424c0473e7f81c279328ece4f10e5e8325868c63d3c63824adafee85a7e71e2d12464664ab54505236987</hash>
+│ -        <hash alg="SHA-384">defdb8021b2f0bb8abae54610eb2c5be2dbb2a0919a75fe2b1b0229e18ee6c2f8246c3ee375966354d19ad0acf35f0b1</hash>
+│ -        <hash alg="SHA3-384">ff43b3facd1a01ad373128cde0f95bf1f5fed6827cbfff2ef6cecf3d2483fae2d6913ad051b27b619e28f8abdbe9c4d2</hash>
+│ -        <hash alg="SHA3-256">6de0628034a34e35789f9f638c9c46b31f1ec4368b57278d52eeeadb2360ca4f</hash>
+│ -        <hash alg="SHA3-512">9a9750c3fa919461e8a9d1b4efb7dd25457415bddd4458f71af5e8069addade2e1112405a5241412099dabb4e85c5fd443db43fa23362f3282af500fa2815f6e</hash>
+│ +        <hash alg="MD5">43a9454b4318c740c27a5c2f2d8079b3</hash>
+│ +        <hash alg="SHA-1">0a24f7830b2f8811e4bfd5c4c569f13198db261f</hash>
+│ +        <hash alg="SHA-256">6518bbac60808e1b74927bdc15a9f2a58073d23fa525d24032c229b426431585</hash>
+│ +        <hash alg="SHA-512">a118b09e6f8adfb4ea2b3af0e965ee2ae41c46c119fd95ea7df80f0b03f8e99b2534ebebfafd06fa0d913a927efca000134ff016d0f77b53f9761dcef926e144</hash>
+│ +        <hash alg="SHA-384">fbcb9201be423b409a72ee0287ee5a1a1a1dd159c51ec0ae8f4c9ef7795637b02253ab58f856cd589ab6f5930c8f9e59</hash>
+│ +        <hash alg="SHA3-384">c6c508d24a246e66032dd33163f990647c40dc1369de0b5b67a7c45c44e47738bfef3d06b49b1c147ba443254497082a</hash>
+│ +        <hash alg="SHA3-256">f59b94d5e8d2b9292c7b22e65511f61cfff09eed757913a1a3656570a9a2d419</hash>
+│ +        <hash alg="SHA3-512">56465f7e4aaf045893a1c643c391efe3445b0647363cad1122f3c9a1b999550407f5897d0812bf9d5a22c6046eb5f0ce691a675f6f70436a398f0438989c9cd5</hash>
+│        </hashes>
+│        <licenses>
+│          <license>
+│            <id>Apache-2.0</id>
+│            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+│          </license>
+│        </licenses>
+
+2 / 4 target/reference/maven-parent-40-cyclonedx.json target/bom.json
+--- target/reference/maven-parent-40-cyclonedx.json
++++ target/bom.json
+@@ -122,43 +122,43 @@
+       "name" : "maven-plugin-annotations",
+       "version" : "3.9.0",
+       "description" : "Java annotations to use in Mojos",
+       "scope" : "required",
+       "hashes" : [
+         {
+           "alg" : "MD5",
+-          "content" : "37f91943fa912e721518a5c5ccf943a1"
++          "content" : "43a9454b4318c740c27a5c2f2d8079b3"
+         },
+         {
+           "alg" : "SHA-1",
+-          "content" : "c9a692630a3657ee6a0c4d8500b366b18a8f1eb0"
++          "content" : "0a24f7830b2f8811e4bfd5c4c569f13198db261f"
+         },
+         {
+           "alg" : "SHA-256",
+-          "content" : "c453d4a5b0b983e97d3dd1f63cf63c796d303a45177b0623072c25d1fa8ab98b"
++          "content" : "6518bbac60808e1b74927bdc15a9f2a58073d23fa525d24032c229b426431585"
+         },
+         {
+           "alg" : "SHA-512",
+-          "content" : "720b16bbfc24585a79a83027394fbebc7b5488daf6f424c0473e7f81c279328ece4f10e5e8325868c63d3c63824adafee85a7e71e2d12464664ab54505236987"
++          "content" : "a118b09e6f8adfb4ea2b3af0e965ee2ae41c46c119fd95ea7df80f0b03f8e99b2534ebebfafd06fa0d913a927efca000134ff016d0f77b53f9761dcef926e144"
+         },
+         {
+           "alg" : "SHA-384",
+-          "content" : "defdb8021b2f0bb8abae54610eb2c5be2dbb2a0919a75fe2b1b0229e18ee6c2f8246c3ee375966354d19ad0acf35f0b1"
++          "content" : "fbcb9201be423b409a72ee0287ee5a1a1a1dd159c51ec0ae8f4c9ef7795637b02253ab58f856cd589ab6f5930c8f9e59"
+         },
+         {
+           "alg" : "SHA3-384",
+-          "content" : "ff43b3facd1a01ad373128cde0f95bf1f5fed6827cbfff2ef6cecf3d2483fae2d6913ad051b27b619e28f8abdbe9c4d2"
++          "content" : "c6c508d24a246e66032dd33163f990647c40dc1369de0b5b67a7c45c44e47738bfef3d06b49b1c147ba443254497082a"
+         },
+         {
+           "alg" : "SHA3-256",
+-          "content" : "6de0628034a34e35789f9f638c9c46b31f1ec4368b57278d52eeeadb2360ca4f"
++          "content" : "f59b94d5e8d2b9292c7b22e65511f61cfff09eed757913a1a3656570a9a2d419"
+         },
+         {
+           "alg" : "SHA3-512",
+-          "content" : "9a9750c3fa919461e8a9d1b4efb7dd25457415bddd4458f71af5e8069addade2e1112405a5241412099dabb4e85c5fd443db43fa23362f3282af500fa2815f6e"
++          "content" : "56465f7e4aaf045893a1c643c391efe3445b0647363cad1122f3c9a1b999550407f5897d0812bf9d5a22c6046eb5f0ce691a675f6f70436a398f0438989c9cd5"
+         }
+       ],
+       "licenses" : [
+         {
+           "license" : {
+             "id" : "Apache-2.0",
+             "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+
+3 / 4 target/reference/maven-plugins-40-cyclonedx.xml maven-plugins/target/bom.xml
+--- target/reference/maven-plugins-40-cyclonedx.xml
++++ maven-plugins/target/bom.xml
+│   --- target/reference/maven-plugins-40-cyclonedx.xml
+├── +++ maven-plugins/target/bom.xml
+│ @@ -60,22 +60,22 @@
+│        <publisher>The Apache Software Foundation</publisher>
+│        <group>org.apache.maven.plugin-tools</group>
+│        <name>maven-plugin-annotations</name>
+│        <version>3.9.0</version>
+│        <description>Java annotations to use in Mojos</description>
+│        <scope>required</scope>
+│        <hashes>
+│ -        <hash alg="MD5">37f91943fa912e721518a5c5ccf943a1</hash>
+│ -        <hash alg="SHA-1">c9a692630a3657ee6a0c4d8500b366b18a8f1eb0</hash>
+│ -        <hash alg="SHA-256">c453d4a5b0b983e97d3dd1f63cf63c796d303a45177b0623072c25d1fa8ab98b</hash>
+│ -        <hash alg="SHA-512">720b16bbfc24585a79a83027394fbebc7b5488daf6f424c0473e7f81c279328ece4f10e5e8325868c63d3c63824adafee85a7e71e2d12464664ab54505236987</hash>
+│ -        <hash alg="SHA-384">defdb8021b2f0bb8abae54610eb2c5be2dbb2a0919a75fe2b1b0229e18ee6c2f8246c3ee375966354d19ad0acf35f0b1</hash>
+│ -        <hash alg="SHA3-384">ff43b3facd1a01ad373128cde0f95bf1f5fed6827cbfff2ef6cecf3d2483fae2d6913ad051b27b619e28f8abdbe9c4d2</hash>
+│ -        <hash alg="SHA3-256">6de0628034a34e35789f9f638c9c46b31f1ec4368b57278d52eeeadb2360ca4f</hash>
+│ -        <hash alg="SHA3-512">9a9750c3fa919461e8a9d1b4efb7dd25457415bddd4458f71af5e8069addade2e1112405a5241412099dabb4e85c5fd443db43fa23362f3282af500fa2815f6e</hash>
+│ +        <hash alg="MD5">43a9454b4318c740c27a5c2f2d8079b3</hash>
+│ +        <hash alg="SHA-1">0a24f7830b2f8811e4bfd5c4c569f13198db261f</hash>
+│ +        <hash alg="SHA-256">6518bbac60808e1b74927bdc15a9f2a58073d23fa525d24032c229b426431585</hash>
+│ +        <hash alg="SHA-512">a118b09e6f8adfb4ea2b3af0e965ee2ae41c46c119fd95ea7df80f0b03f8e99b2534ebebfafd06fa0d913a927efca000134ff016d0f77b53f9761dcef926e144</hash>
+│ +        <hash alg="SHA-384">fbcb9201be423b409a72ee0287ee5a1a1a1dd159c51ec0ae8f4c9ef7795637b02253ab58f856cd589ab6f5930c8f9e59</hash>
+│ +        <hash alg="SHA3-384">c6c508d24a246e66032dd33163f990647c40dc1369de0b5b67a7c45c44e47738bfef3d06b49b1c147ba443254497082a</hash>
+│ +        <hash alg="SHA3-256">f59b94d5e8d2b9292c7b22e65511f61cfff09eed757913a1a3656570a9a2d419</hash>
+│ +        <hash alg="SHA3-512">56465f7e4aaf045893a1c643c391efe3445b0647363cad1122f3c9a1b999550407f5897d0812bf9d5a22c6046eb5f0ce691a675f6f70436a398f0438989c9cd5</hash>
+│        </hashes>
+│        <licenses>
+│          <license>
+│            <id>Apache-2.0</id>
+│            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+│          </license>
+│        </licenses>
+
+4 / 4 target/reference/maven-plugins-40-cyclonedx.json maven-plugins/target/bom.json
+--- target/reference/maven-plugins-40-cyclonedx.json
++++ maven-plugins/target/bom.json
+@@ -106,43 +106,43 @@
+       "name" : "maven-plugin-annotations",
+       "version" : "3.9.0",
+       "description" : "Java annotations to use in Mojos",
+       "scope" : "required",
+       "hashes" : [
+         {
+           "alg" : "MD5",
+-          "content" : "37f91943fa912e721518a5c5ccf943a1"
++          "content" : "43a9454b4318c740c27a5c2f2d8079b3"
+         },
+         {
+           "alg" : "SHA-1",
+-          "content" : "c9a692630a3657ee6a0c4d8500b366b18a8f1eb0"
++          "content" : "0a24f7830b2f8811e4bfd5c4c569f13198db261f"
+         },
+         {
+           "alg" : "SHA-256",
+-          "content" : "c453d4a5b0b983e97d3dd1f63cf63c796d303a45177b0623072c25d1fa8ab98b"
++          "content" : "6518bbac60808e1b74927bdc15a9f2a58073d23fa525d24032c229b426431585"
+         },
+         {
+           "alg" : "SHA-512",
+-          "content" : "720b16bbfc24585a79a83027394fbebc7b5488daf6f424c0473e7f81c279328ece4f10e5e8325868c63d3c63824adafee85a7e71e2d12464664ab54505236987"
++          "content" : "a118b09e6f8adfb4ea2b3af0e965ee2ae41c46c119fd95ea7df80f0b03f8e99b2534ebebfafd06fa0d913a927efca000134ff016d0f77b53f9761dcef926e144"
+         },
+         {
+           "alg" : "SHA-384",
+-          "content" : "defdb8021b2f0bb8abae54610eb2c5be2dbb2a0919a75fe2b1b0229e18ee6c2f8246c3ee375966354d19ad0acf35f0b1"
++          "content" : "fbcb9201be423b409a72ee0287ee5a1a1a1dd159c51ec0ae8f4c9ef7795637b02253ab58f856cd589ab6f5930c8f9e59"
+         },
+         {
+           "alg" : "SHA3-384",
+-          "content" : "ff43b3facd1a01ad373128cde0f95bf1f5fed6827cbfff2ef6cecf3d2483fae2d6913ad051b27b619e28f8abdbe9c4d2"
++          "content" : "c6c508d24a246e66032dd33163f990647c40dc1369de0b5b67a7c45c44e47738bfef3d06b49b1c147ba443254497082a"
+         },
+         {
+           "alg" : "SHA3-256",
+-          "content" : "6de0628034a34e35789f9f638c9c46b31f1ec4368b57278d52eeeadb2360ca4f"
++          "content" : "f59b94d5e8d2b9292c7b22e65511f61cfff09eed757913a1a3656570a9a2d419"
+         },
+         {
+           "alg" : "SHA3-512",
+-          "content" : "9a9750c3fa919461e8a9d1b4efb7dd25457415bddd4458f71af5e8069addade2e1112405a5241412099dabb4e85c5fd443db43fa23362f3282af500fa2815f6e"
++          "content" : "56465f7e4aaf045893a1c643c391efe3445b0647363cad1122f3c9a1b999550407f5897d0812bf9d5a22c6046eb5f0ce691a675f6f70436a398f0438989c9cd5"
+         }
+       ],
+       "licenses" : [
+         {
+           "license" : {
+             "id" : "Apache-2.0",
+             "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+
