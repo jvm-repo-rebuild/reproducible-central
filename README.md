@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **1955 releases** of **430 projects**:
-   - **1467** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **1957 releases** of **430 projects**:
+   - **1469** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 488 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
@@ -253,7 +253,7 @@ Its objectives are to provide:
 | org.apache.maven.wagon | <a name='org.apache.maven.wagon:wagon'></a>[wagon](content/org/apache/maven/wagon/wagon/README.md) | 8 | 8 :heavy_check_mark: |
 | org.apache.ftpserver | <a name='org.apache.ftpserver:ftpserver-parent'></a>[ftpserver-parent](content/org/apache/mina/ftpserver/README.md) | 1 | 1 :warning: |
 | org.apache.nifi | <a name='org.apache.nifi:nifi'></a>[nifi](content/org/apache/nifi/nifi/README.md) | 8 | 8 :warning: |
-| | <a name='org.apache.nifi:nifi-nar-maven-plugin'></a>[nifi-nar-maven-plugin](content/org/apache/nifi/nifi-nar-maven-plugin/README.md) | 4 | 4 :heavy_check_mark: |
+| | <a name='org.apache.nifi:nifi-nar-maven-plugin'></a>[nifi-nar-maven-plugin](content/org/apache/nifi/nifi-nar-maven-plugin/README.md) | 5 | 5 :heavy_check_mark: |
 | org.apache.plc4x | <a name='org.apache.plc4x:plc4x-parent'></a>[plc4x-parent](content/org/apache/plc4x/plc4x/README.md) | 2 | 2 :warning: |
 | org.apache.plc4x.plugins | <a name='org.apache.plc4x.plugins:plc4x-code-generation'></a>[plc4x-code-generation](content/org/apache/plc4x/plc4x-code-generation/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.plc4x.plugins:plc4x-code-generaton'></a>[plc4x-code-generaton](content/org/apache/plc4x/plc4x-code-generaton/README.md) | 1 | 1 :heavy_check_mark: |
@@ -402,7 +402,7 @@ Its objectives are to provide:
 | org.jrivard.xmlchai | <a name='org.jrivard.xmlchai:xmlchai'></a>[xmlchai](content/org/jrivard/xmlchai/README.md) | 2 | 2 :warning: |
 | org.junit | <a name='org.junit:junit-bom'></a>[junit-bom](content/org/junit/junit5/README.md) | 1 | 1 :warning: |
 | org.liquibase.ext | <a name='org.liquibase.ext:liquibase-percona'></a>[liquibase-percona](content/org/liquibase/ext/liquibase-percona/README.md) | 31 | 30 :heavy_check_mark: / 1 :warning: |
-| org.mockito | <a name='org.mockito:mockito-core'></a>[mockito-core](content/org/mockito/mockito-core/README.md) | 16 | 14 :heavy_check_mark: / 2 :warning: |
+| org.mockito | <a name='org.mockito:mockito-core'></a>[mockito-core](content/org/mockito/mockito-core/README.md) | 17 | 15 :heavy_check_mark: / 2 :warning: |
 | org.moditect.layrry | <a name='org.moditect.layrry:layrry-aggregator'></a>[layrry-aggregator](content/org/moditect/layrry/README.md) | 1 | 1 :heavy_check_mark: |
 | org.moditect | <a name='org.moditect:moditect-aggregator'></a>[moditect-aggregator](content/org/moditect/moditect/README.md) | 1 | 1 :heavy_check_mark: |
 | org.mybatis | <a name='org.mybatis:base-bundle-descriptor'></a>[base-bundle-descriptor](content/org/mybatis/base-bundle-descriptor/README.md) | 1 | 1 :heavy_check_mark: |
@@ -452,7 +452,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 13 | 13 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 6 | 6 :warning: |
-| **Count:** | **430** | **1955** | **1467** :heavy_check_mark: **488** :warning: |
+| **Count:** | **430** | **1957** | **1469** :heavy_check_mark: **488** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -462,9 +462,9 @@ Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/re
 Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK target release:
 
 <!-- BEGIN GENERATED STATS -->
-     20 gradle     11
+     21 gradle     11
      26 mvn         7
-    872 mvn         8
+    873 mvn         8
       1 mvn         9
     692 mvn        11
       1 mvn        13
