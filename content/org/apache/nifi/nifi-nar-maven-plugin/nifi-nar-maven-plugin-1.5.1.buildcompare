@@ -1,0 +1,7 @@
+version=1.5.1
+ok=4
+ko=0
+okFiles="nifi-nar-maven-plugin-1.5.1.pom nifi-nar-maven-plugin-1.5.1.jar nifi-nar-maven-plugin-1.5.1-source-release.zip nifi-nar-maven-plugin-1.5.1-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
