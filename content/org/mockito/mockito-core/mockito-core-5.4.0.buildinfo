@@ -1,0 +1,104 @@
+name=org.mockito:mockito-core
+group-id=org.mockito
+artifact-id=mockito-core
+
+build-tool=gradle
+java.version=11
+os.name=lf
+
+outputs.1.coordinates=org.mockito:mockito-android
+
+outputs.1.0.filename=mockito-android-5.4.0.jar
+outputs.1.0.length=7606
+outputs.1.0.checksums.sha512=745f234a97678d4877f116adba4bc5589f36ffe02fb3d57509fa4f753960ee00a0d061323077d1cb41ba344837cd60877cacf08d87dfe31e6acbcf3e3d17713c  repository/org/mockito/mockito-android/5.4.0/mockito-android-5.4.0.jar
+
+outputs.1.1.filename=mockito-android-5.4.0.pom
+outputs.1.1.length=2292
+outputs.1.1.checksums.sha512=fb261d9a3a3488522155bc98f73e75da8a415f8fa9b0d9fd4e71dda09d499178fd5cc015d29f311302d45697a416830f2d52844db89f823523b90ee9a440e73c  repository/org/mockito/mockito-android/5.4.0/mockito-android-5.4.0.pom
+
+outputs.1.2.filename=mockito-android-5.4.0-sources.jar
+outputs.1.2.length=5406
+outputs.1.2.checksums.sha512=f17d8cdea48c1ffea04ba82baa02ae210e0430394c4001876b89f6cbd3dc7a89c3bba23ef3b78f26ef8300416a27b35dadc11e7fa4a9929af31fd771a43c5e42  repository/org/mockito/mockito-android/5.4.0/mockito-android-5.4.0-sources.jar
+
+
+outputs.2.coordinates=org.mockito:mockito-bom
+
+outputs.2.0.filename=mockito-bom-5.4.0.pom
+outputs.2.0.length=2984
+outputs.2.0.checksums.sha512=284eaf908c7a38aeb7e332e4f95c1a2d6b966087ec4ad4e25157e9d26a2ada96522aac32a30e9579b8cb4d03680100a9324b9f34c525c5ec17aa2503b38cfce6  repository/org/mockito/mockito-bom/5.4.0/mockito-bom-5.4.0.pom
+
+
+outputs.3.coordinates=org.mockito:mockito-core
+
+outputs.3.0.filename=mockito-core-5.4.0.jar
+outputs.3.0.length=689882
+outputs.3.0.checksums.sha512=14c2e077014d9beffdec724f18c1097033e04c813bb6d31b2a5f436608d29635270c7bc391e23797b5d5ddae8384fe8beb504b380f43f82d6b0d30b5a56ab7a1  repository/org/mockito/mockito-core/5.4.0/mockito-core-5.4.0.jar
+
+outputs.3.1.filename=mockito-core-5.4.0.pom
+outputs.3.1.length=2495
+outputs.3.1.checksums.sha512=ec79905978fb43b9341705f4261af69dc08c2c958bed5781d0bd4456038fc4fe8808d61ef1a29ad5fb0a4023f8fe6ec671a9faea0f86aa8ea7ddb1f5bd90f21f  repository/org/mockito/mockito-core/5.4.0/mockito-core-5.4.0.pom
+
+outputs.3.2.filename=mockito-core-5.4.0-sources.jar
+outputs.3.2.length=532779
+outputs.3.2.checksums.sha512=f2b1842061a4f946467eca6b35c6350b11d084a60076468b52c2127ca22b4ce06d5562822150cae2ee7e42317adec4d550d49a9127761a2131ddca9e16ab69e7  repository/org/mockito/mockito-core/5.4.0/mockito-core-5.4.0-sources.jar
+
+
+outputs.4.coordinates=org.mockito:mockito-errorprone
+
+outputs.4.0.filename=mockito-errorprone-5.4.0.jar
+outputs.4.0.length=11777
+outputs.4.0.checksums.sha512=7f832a914187dd707fc9563d06657ed3cf9f448944aac86ed332335fc59d34d17df81c67dfd36026243cb040baff5bed382af4b14c416a883db6c7c1b383a3a3  repository/org/mockito/mockito-errorprone/5.4.0/mockito-errorprone-5.4.0.jar
+
+outputs.4.1.filename=mockito-errorprone-5.4.0.pom
+outputs.4.1.length=2315
+outputs.4.1.checksums.sha512=eb32ab418a868b4c526f3d43da0e4ef796d34b68495e01f162f6998d5f3f0e290f886cf54c9ee28d87ad4964ea437b5f55b646eda288b16e216e8ba9ad87db48  repository/org/mockito/mockito-errorprone/5.4.0/mockito-errorprone-5.4.0.pom
+
+outputs.4.2.filename=mockito-errorprone-5.4.0-sources.jar
+outputs.4.2.length=8209
+outputs.4.2.checksums.sha512=cd4da5fe01c375fd68367b202ccae7465716f26915e09b87fb58828dd4274f769b800d9caf0dfb43c1004249fbc1c56a0c1d59c3acdb9a97ffa92a84273db4d6  repository/org/mockito/mockito-errorprone/5.4.0/mockito-errorprone-5.4.0-sources.jar
+
+
+outputs.5.coordinates=org.mockito:mockito-junit-jupiter
+
+outputs.5.0.filename=mockito-junit-jupiter-5.4.0.jar
+outputs.5.0.length=5472
+outputs.5.0.checksums.sha512=24842bb2d6552132b4ea683b6733e66589be865d3a32048e515869e298c5ee51f6d451381ab649f5514b867cb2641ad2646eade8a715f8ae4ab3e73f466563a0  repository/org/mockito/mockito-junit-jupiter/5.4.0/mockito-junit-jupiter-5.4.0.jar
+
+outputs.5.1.filename=mockito-junit-jupiter-5.4.0.pom
+outputs.5.1.length=2310
+outputs.5.1.checksums.sha512=0fb28ed12e845636a2c39dace755c59083ad5f78a425c54c369fb8cd2bbeeaeacce1adee6f3b040af2042736704d1689a8f9bff8252e0277d30178213cc2194c  repository/org/mockito/mockito-junit-jupiter/5.4.0/mockito-junit-jupiter-5.4.0.pom
+
+outputs.5.2.filename=mockito-junit-jupiter-5.4.0-sources.jar
+outputs.5.2.length=4225
+outputs.5.2.checksums.sha512=4f3325780810f1b3996bd32ea6da7db7270a52736c072b42b0afc9b25f13509125d7f57006bfd58781bd372de7e95aaf16f190b48f2b81ba7a92e00958308a15  repository/org/mockito/mockito-junit-jupiter/5.4.0/mockito-junit-jupiter-5.4.0-sources.jar
+
+
+outputs.6.coordinates=org.mockito:mockito-proxy
+
+outputs.6.0.filename=mockito-proxy-5.4.0.jar
+outputs.6.0.length=1505
+outputs.6.0.checksums.sha512=70f29994571a08f0155ce8481142dd97f6d861ce26b9ef0d090e34094c70b50d0bfd4221c0d77a65e8b654fdf8a4c867b2384e0a9d95b67517d3a15545b6aeb4  repository/org/mockito/mockito-proxy/5.4.0/mockito-proxy-5.4.0.jar
+
+outputs.6.1.filename=mockito-proxy-5.4.0.pom
+outputs.6.1.length=2175
+outputs.6.1.checksums.sha512=89e307735f3894909169b2cf63a3315345a5142cc434503f36bcc5642c4049b3a59a29350daca08a6d24b57a43bd26be2153b4bff54ffca83989548d438d2f18  repository/org/mockito/mockito-proxy/5.4.0/mockito-proxy-5.4.0.pom
+
+outputs.6.2.filename=mockito-proxy-5.4.0-sources.jar
+outputs.6.2.length=1505
+outputs.6.2.checksums.sha512=70f29994571a08f0155ce8481142dd97f6d861ce26b9ef0d090e34094c70b50d0bfd4221c0d77a65e8b654fdf8a4c867b2384e0a9d95b67517d3a15545b6aeb4  repository/org/mockito/mockito-proxy/5.4.0/mockito-proxy-5.4.0-sources.jar
+
+
+outputs.7.coordinates=org.mockito:mockito-subclass
+
+outputs.7.0.filename=mockito-subclass-5.4.0.jar
+outputs.7.0.length=1504
+outputs.7.0.checksums.sha512=7fd08a395377c39da69ffc9f920600bc417dc3527b8ae00750db08e1f4b0bf8264bbed2997724b5dc746c73004b6c129d3364b1e359527e896f28b964b1391bb  repository/org/mockito/mockito-subclass/5.4.0/mockito-subclass-5.4.0.jar
+
+outputs.7.1.filename=mockito-subclass-5.4.0.pom
+outputs.7.1.length=2131
+outputs.7.1.checksums.sha512=8f97a2713d8e0610571fd7777a22753847dd25013ee3dc4058c3af233756f4d7b8c285051cc3eb7fc6817ee353e1d927643ec83e7aa7e8b041db1fbd32c761eb  repository/org/mockito/mockito-subclass/5.4.0/mockito-subclass-5.4.0.pom
+
+outputs.7.2.filename=mockito-subclass-5.4.0-sources.jar
+outputs.7.2.length=1504
+outputs.7.2.checksums.sha512=7fd08a395377c39da69ffc9f920600bc417dc3527b8ae00750db08e1f4b0bf8264bbed2997724b5dc746c73004b6c129d3364b1e359527e896f28b964b1391bb  repository/org/mockito/mockito-subclass/5.4.0/mockito-subclass-5.4.0-sources.jar
+
