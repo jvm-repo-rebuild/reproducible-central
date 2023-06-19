@@ -1,0 +1,281 @@
+1 / 3 target/reference/artemis-website-2.29.0.jar artemis-website/target/artemis-website-2.29.0.jar
+--- target/reference/artemis-website-2.29.0.jar
++++ artemis-website/target/artemis-website-2.29.0.jar
+├── zipinfo {}
+│ @@ -1,277 +1,26 @@
+│ -Zip file size: 7009826 bytes, number of entries: 275
+│ +Zip file size: 46818 bytes, number of entries: 24
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 META-INF/
+│  -rw-r--r--  2.0 unx      346 b- defN 23-Jun-14 22:13 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 examples/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 hacking-guide/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 hacking-guide/gitbook/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 hacking-guide/gitbook/fonts/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 hacking-guide/gitbook/fonts/fontawesome/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 hacking-guide/gitbook/gitbook-plugin-fontsettings/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 hacking-guide/gitbook/gitbook-plugin-highlight/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 hacking-guide/gitbook/gitbook-plugin-lunr/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 hacking-guide/gitbook/gitbook-plugin-search/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 hacking-guide/gitbook/images/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 hacking-guide/images/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 images/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 migration-guide/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 migration-guide/gitbook/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 migration-guide/gitbook/fonts/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 migration-guide/gitbook/fonts/fontawesome/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 migration-guide/gitbook/gitbook-plugin-fontsettings/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 migration-guide/gitbook/gitbook-plugin-highlight/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 migration-guide/gitbook/gitbook-plugin-lunr/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 migration-guide/gitbook/gitbook-plugin-search/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 migration-guide/gitbook/images/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 migration-guide/images/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 styles/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 styles/impact/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 styles/impact/css/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 user-manual/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 user-manual/diagrams/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 user-manual/gitbook/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 user-manual/gitbook/fonts/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 user-manual/gitbook/fonts/fontawesome/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 user-manual/gitbook/gitbook-plugin-fontsettings/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 user-manual/gitbook/gitbook-plugin-highlight/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 user-manual/gitbook/gitbook-plugin-lunr/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 user-manual/gitbook/gitbook-plugin-search/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 user-manual/gitbook/images/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 user-manual/images/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 META-INF/maven/org.apache.activemq/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 META-INF/maven/org.apache.activemq/artemis-website/
+│ --rw-r--r--  2.0 unx     9636 b- defN 23-Jun-14 22:13 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx      274 b- defN 23-Jun-14 22:13 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 23-Jun-14 22:13 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      176 b- defN 23-Jun-14 22:13 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     3176 b- defN 23-Jun-14 22:13 examples/index.html
+│ --rw-r--r--  2.0 unx    12675 b- defN 23-Jun-14 22:13 hacking-guide/building.html
+...
+│ --rw-r--r--  2.0 unx    36569 b- defN 23-Jun-14 22:13 user-manual/wildcard-syntax.html
+│ +-rw-r--r--  2.0 unx     1536 b- defN 23-Jun-14 22:13 user-manual/index.html
+│  -rw-r--r--  2.0 unx    17396 b- defN 23-Jun-14 22:13 META-INF/maven/org.apache.activemq/artemis-website/pom.xml
+│  -rw-r--r--  2.0 unx       70 b- defN 23-Jun-14 22:13 META-INF/maven/org.apache.activemq/artemis-website/pom.properties
+│ -275 files, 16786611 bytes uncompressed, 6968428 bytes compressed:  58.5%
+│ +24 files, 79712 bytes uncompressed, 43886 bytes compressed:  44.9%
+├── META-INF/DEPENDENCIES
+│ @@ -2,108 +2,10 @@
+│  // Transitive dependencies of this project determined from the
+│  // maven pom organized by organization.
+│  // ------------------------------------------------------------------
+│  
+│  ActiveMQ Artemis Website
+│  
+│  
+│ -From: 'an unknown organization'
+│ -  - Guava InternalFutureFailureAccess and InternalFutures (https://github.com/google/guava/failureaccess) com.google.guava:failureaccess:bundle:1.0.1
+│ -    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Guava: Google Core Libraries for Java (https://github.com/google/guava) com.google.guava:guava:bundle:31.1-jre
+│ -    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - micrometer-core (https://github.com/micrometer-metrics/micrometer) io.micrometer:micrometer-core:jar:1.9.5
+│ -    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Java Concurrency Tools Core Library (https://github.com/JCTools) org.jctools:jctools-core:bundle:2.1.2
+│ -    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -
+│ -From: 'Eclipse Foundation' (https://www.eclipse.org)
+│ -  - Jakarta Messaging API (https://projects.eclipse.org/projects/ee4j.jms) jakarta.jms:jakarta.jms-api:jar:2.0.3
+│ -    License: Eclipse Public License 2.0  (https://projects.eclipse.org/license/epl-2.0)    License: GNU General Public License, version 2 with the GNU Classpath Exception  (https://projects.eclipse.org/license/secondary-gpl-2.0-cp)
+│ -
+│ -From: 'EE4J Community' (https://github.com/eclipse-ee4j)
+│ -  - javax.transaction API (https://projects.eclipse.org/projects/ee4j.jta) jakarta.transaction:jakarta.transaction-api:jar:1.3.3
+│ -    License: EPL 2.0  (http://www.eclipse.org/legal/epl-2.0)    License: GPL2 w/ CPE  (https://www.gnu.org/software/classpath/license.html)
+│ -
+│ -From: 'JBoss, a division of Red Hat' (http://www.jboss.org)
+│ -  - JGroups (http://www.jgroups.org) org.jgroups:jgroups:jar:5.2.0.Final
+│ -    License: Apache License 2.0  (http://www.apache.org/licenses/LICENSE-2.0.html)
+│ -
+│ -From: 'QOS.ch' (http://www.qos.ch)
+│ -  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.36
+│ -    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+│ -
+│ -From: 'The Apache Software Foundation' (http://www.apache.org/)
+│ -  - Apache Commons Collections (http://commons.apache.org/collections/) commons-collections:commons-collections:jar:3.2.2
+│ -    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Apache Commons Logging (http://commons.apache.org/proper/commons-logging/) commons-logging:commons-logging:jar:1.2
+│ -    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -
+│ -From: 'The Apache Software Foundation' (https://www.apache.org/)
+│ -  - Apache Commons BeanUtils (https://commons.apache.org/proper/commons-beanutils/) commons-beanutils:commons-beanutils:jar:1.9.4
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - ActiveMQ Artemis Native () org.apache.activemq:activemq-artemis-native:bundle:2.0.0
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - ActiveMQ Artemis Commons (https://activemq.apache.org/components/artemis/artemis-commons/) org.apache.activemq:artemis-commons:jar:2.29.0
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - ActiveMQ Artemis Core Client (https://activemq.apache.org/components/artemis/artemis-core-client/) org.apache.activemq:artemis-core-client:jar:2.29.0
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - ActiveMQ Artemis JDBC Store (https://activemq.apache.org/components/artemis/artemis-jdbc-store/) org.apache.activemq:artemis-jdbc-store:jar:2.29.0
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - ActiveMQ Artemis JMS Client (https://activemq.apache.org/components/artemis/artemis-jms-client/) org.apache.activemq:artemis-jms-client:jar:2.29.0
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - ActiveMQ Artemis JMS Server (https://activemq.apache.org/components/artemis/artemis-jms-server/) org.apache.activemq:artemis-jms-server:jar:2.29.0
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - ActiveMQ Artemis Journal (https://activemq.apache.org/components/artemis/artemis-journal/) org.apache.activemq:artemis-journal:jar:2.29.0
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - ActiveMQ Artemis Quorum API (https://activemq.apache.org/components/artemis/artemis-quorum-api/) org.apache.activemq:artemis-quorum-api:bundle:2.29.0
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - ActiveMQ Artemis Selector Implementation (https://activemq.apache.org/components/artemis/artemis-selector/) org.apache.activemq:artemis-selector:jar:2.29.0
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - ActiveMQ Artemis Server (https://activemq.apache.org/components/artemis/artemis-server/) org.apache.activemq:artemis-server:jar:2.29.0
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - ActiveMQ Artemis Service Extensions (https://activemq.apache.org/components/artemis/artemis-service-extensions/) org.apache.activemq:artemis-service-extensions:jar:2.29.0
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Apache Commons Configuration (https://commons.apache.org/proper/commons-configuration/) org.apache.commons:commons-configuration2:jar:2.8.0
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Apache Commons DBCP (https://commons.apache.org/dbcp/) org.apache.commons:commons-dbcp2:jar:2.7.0
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Apache Commons Lang (https://commons.apache.org/proper/commons-lang/) org.apache.commons:commons-lang3:jar:3.12.0
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Apache Commons Pool (https://commons.apache.org/proper/commons-pool/) org.apache.commons:commons-pool2:jar:2.7.0
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Apache Commons Text (https://commons.apache.org/proper/commons-text) org.apache.commons:commons-text:jar:1.10.0
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -
+│ -From: 'The Netty Project' (https://netty.io/)
+│ -  - Netty/Buffer (https://netty.io/netty-buffer/) io.netty:netty-buffer:jar:4.1.93.Final
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ -  - Netty/Codec (https://netty.io/netty-codec/) io.netty:netty-codec:jar:4.1.93.Final
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ -  - Netty/Codec/HTTP (https://netty.io/netty-codec-http/) io.netty:netty-codec-http:jar:4.1.93.Final
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ -  - Netty/Codec/Socks (https://netty.io/netty-codec-socks/) io.netty:netty-codec-socks:jar:4.1.93.Final
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ -  - Netty/Common (https://netty.io/netty-common/) io.netty:netty-common:jar:4.1.93.Final
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ -  - Netty/Handler (https://netty.io/netty-handler/) io.netty:netty-handler:jar:4.1.93.Final
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ -  - Netty/Handler/Proxy (https://netty.io/netty-handler-proxy/) io.netty:netty-handler-proxy:jar:4.1.93.Final
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ -  - Netty/Resolver (https://netty.io/netty-resolver/) io.netty:netty-resolver:jar:4.1.93.Final
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ -  - Netty/Transport (https://netty.io/netty-transport/) io.netty:netty-transport:jar:4.1.93.Final
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ -  - Netty/Transport/Classes/Epoll (https://netty.io/netty-transport-classes-epoll/) io.netty:netty-transport-classes-epoll:jar:4.1.93.Final
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ -  - Netty/Transport/Classes/KQueue (https://netty.io/netty-transport-classes-kqueue/) io.netty:netty-transport-classes-kqueue:jar:4.1.93.Final
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ -  - Netty/Transport/Native/Epoll (https://netty.io/netty-transport-native-epoll/) io.netty:netty-transport-native-epoll:jar:4.1.93.Final
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ -  - Netty/Transport/Native/KQueue (https://netty.io/netty-transport-native-kqueue/) io.netty:netty-transport-native-kqueue:jar:4.1.93.Final
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ -  - Netty/Transport/Native/Unix/Common (https://netty.io/netty-transport-native-unix-common/) io.netty:netty-transport-native-unix-common:jar:4.1.93.Final
+│ -    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0)
+│ -
+├── hacking-guide/index.html
+│ @@ -1,352 +1,35 @@
+│ -
+│ -<!DOCTYPE HTML>
+│ -<html lang="" >
+...
+
+2 / 3 target/reference/apache-artemis-2.29.0-source-release.zip artemis-distribution/target/apache-artemis-2.29.0-source-release.zip
+--- target/reference/apache-artemis-2.29.0-source-release.zip
++++ artemis-distribution/target/apache-artemis-2.29.0-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 18024458 bytes, number of entries: 9554
+│ +Zip file size: 18016868 bytes, number of entries: 9531
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/.github/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/.github/workflows/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-boot/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-boot/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-boot/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-boot/src/main/java/
+│ @@ -3467,30 +3467,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/tests/unit-tests/src/test/java/org/apache/activemq/artemis/tests/unit/logging/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/tests/unit-tests/src/test/java/org/apache/activemq/artemis/tests/unit/ra/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/tests/unit-tests/src/test/java/org/apache/activemq/artemis/tests/unit/ra/referenceable/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/tests/unit-tests/src/test/java/org/apache/activemq/artemis/tests/unit/util/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/tests/unit-tests/src/test/java/org/apache/activemq/artemis/tests/unit/util/deserialization/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/tests/unit-tests/src/test/java/org/apache/activemq/artemis/tests/unit/util/deserialization/pkg1/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/tests/unit-tests/src/test/java/org/apache/activemq/artemis/tests/util/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-website/node/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-website/node/node_modules/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-website/node/node_modules/npm/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-website/node/node_modules/npm/lib/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-website/node/node_modules/npm/lib/utils/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-website/node/node_modules/npm/node_modules/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-website/node/node_modules/npm/node_modules/node-gyp/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-website/node/node_modules/npm/node_modules/node-gyp/gyp/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-website/node/node_modules/npm/node_modules/node-gyp/gyp/tools/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-website/node/node_modules/npm/node_modules/node-gyp/gyp/tools/emacs/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-website/node_modules/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-website/node_modules/direction/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-website/node_modules/lunr/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-website/node_modules/lunr/build/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-website/node_modules/lunr/test/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-website/node_modules/tmp/
+│  -rw-r--r--  2.0 unx     1450 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/.asf.yaml
+│  -rw-r--r--  2.0 unx     1879 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/.github/maven-settings.xml
+│  -rw-r--r--  2.0 unx     3629 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/.github/workflows/build.yml
+│  -rw-r--r--  2.0 unx    11684 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/LICENSE
+│  -rw-r--r--  2.0 unx      179 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/NOTICE
+│  -rw-r--r--  2.0 unx     2689 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/README.md
+│  -rw-r--r--  2.0 unx     1649 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-boot/pom.xml
+│ @@ -9515,21 +9499,14 @@
+│  -rwxr-xr-x  2.0 unx     1223 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-distribution/src/test/scripts/installHome.sh
+│  -rwxr-xr-x  2.0 unx     5755 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-distribution/src/test/scripts/run-examples.sh
+│  -rwxr-xr-x  2.0 unx     3555 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-distribution/src/test/scripts/run-standard-examples.sh
+│  -rwxr-xr-x  2.0 unx     2246 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-distribution/src/test/scripts/validate-instalation.sh
+│  -rwxr-xr-x  2.0 unx     1043 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-distribution/src/test/scripts/validate-spaces.sh
+│  -rwxr-xr-x  2.0 unx     1476 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-docker/docker-run.sh
+│  -rwxr-xr-x  2.0 unx     5743 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-docker/prepare-docker.sh
+│ --rwxr-xr-x  2.0 unx     1898 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-website/node/node_modules/npm/lib/utils/completion.sh
+│ --rwxr-xr-x  2.0 unx      306 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-website/node/node_modules/npm/node_modules/node-gyp/gyp/tools/emacs/run-unit-tests.sh
+│ --rwxr-xr-x  2.0 unx      495 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-website/node/node_modules/npm/node_modules/node-gyp/macOS_Catalina_acid_test.sh
+│ --rwxr-xr-x  2.0 unx     1615 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-website/node_modules/direction/test.sh
+│ --rwxr-xr-x  2.0 unx     1761 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-website/node_modules/lunr/build/release.sh
+│ --rwxr-xr-x  2.0 unx      304 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-website/node_modules/lunr/test/runner.sh
+│ --rwxr-xr-x  2.0 unx       74 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/artemis-website/node_modules/tmp/cleanup.sh
+│  -rwxr-xr-x  2.0 unx     1104 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/examples/protocols/amqp/dotnet/DurableSubscriptions/run-example.sh
+│  -rwxr-xr-x  2.0 unx     1063 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/examples/protocols/amqp/dotnet/DurableSubscriptions/start-broker.sh
+│  -rwxr-xr-x  2.0 unx      949 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/examples/protocols/amqp/dotnet/DurableSubscriptions/stop-broker.sh
+│  -rwxr-xr-x  2.0 unx      891 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/examples/protocols/amqp/dotnet/HelloWorld/run-example.sh
+│  -rwxr-xr-x  2.0 unx     1063 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/examples/protocols/amqp/dotnet/HelloWorld/start-broker.sh
+│  -rwxr-xr-x  2.0 unx      949 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/examples/protocols/amqp/dotnet/HelloWorld/stop-broker.sh
+│  -rwxr-xr-x  2.0 unx     1200 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/examples/protocols/amqp/dotnet/HighPerformanceLoad/start-server.sh
+│ @@ -9549,8 +9526,8 @@
+│  -rwxr-xr-x  2.0 unx     1026 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/tests/soak-tests/src/test/scripts/client-postgres-podman.sh
+│  -rwxr-xr-x  2.0 unx     3920 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/tests/soak-tests/src/test/scripts/parameters-paging.sh
+│  -rwxr-xr-x  2.0 unx     3920 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/tests/soak-tests/src/test/scripts/parameters.sh
+│  -rwxr-xr-x  2.0 unx     1057 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/tests/soak-tests/src/test/scripts/start-mysql-podman.sh
+│  -rwxr-xr-x  2.0 unx     1043 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/tests/soak-tests/src/test/scripts/start-postgres-podman.sh
+│  -rwxr-xr-x  2.0 unx      917 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/tests/soak-tests/src/test/scripts/stop-mysql-podman.sh
+│  -rwxr-xr-x  2.0 unx      923 b- defN 23-Jun-14 22:13 apache-artemis-2.29.0/tests/soak-tests/src/test/scripts/stop-postgres-podman.sh
+│ -9554 files, 45418350 bytes uncompressed, 15241648 bytes compressed:  66.4%
+│ +9531 files, 45411897 bytes uncompressed, 15239110 bytes compressed:  66.4%
+
+3 / 3 target/reference/apache-artemis-2.29.0-source-release.tar.gz artemis-distribution/target/apache-artemis-2.29.0-source-release.tar.gz
+--- target/reference/apache-artemis-2.29.0-source-release.tar.gz
++++ artemis-distribution/target/apache-artemis-2.29.0-source-release.tar.gz
+├── apache-artemis-2.29.0-source-release.tar
+│ ├── file list
+│ │ @@ -9498,21 +9498,14 @@
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     1223 2023-06-14 22:13:28.000000 apache-artemis-2.29.0/artemis-distribution/src/test/scripts/installHome.sh
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     5755 2023-06-14 22:13:28.000000 apache-artemis-2.29.0/artemis-distribution/src/test/scripts/run-examples.sh
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     3555 2023-06-14 22:13:28.000000 apache-artemis-2.29.0/artemis-distribution/src/test/scripts/run-standard-examples.sh
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     2246 2023-06-14 22:13:28.000000 apache-artemis-2.29.0/artemis-distribution/src/test/scripts/validate-instalation.sh
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     1043 2023-06-14 22:13:28.000000 apache-artemis-2.29.0/artemis-distribution/src/test/scripts/validate-spaces.sh
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     1476 2023-06-14 22:13:28.000000 apache-artemis-2.29.0/artemis-docker/docker-run.sh
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     5743 2023-06-14 22:13:28.000000 apache-artemis-2.29.0/artemis-docker/prepare-docker.sh
+│ │ --rwxr-xr-x   0 root         (0) root         (0)     1898 2023-06-14 22:13:28.000000 apache-artemis-2.29.0/artemis-website/node/node_modules/npm/lib/utils/completion.sh
+│ │ --rwxr-xr-x   0 root         (0) root         (0)      306 2023-06-14 22:13:28.000000 apache-artemis-2.29.0/artemis-website/node/node_modules/npm/node_modules/node-gyp/gyp/tools/emacs/run-unit-tests.sh
+│ │ --rwxr-xr-x   0 root         (0) root         (0)      495 2023-06-14 22:13:28.000000 apache-artemis-2.29.0/artemis-website/node/node_modules/npm/node_modules/node-gyp/macOS_Catalina_acid_test.sh
+│ │ --rwxr-xr-x   0 root         (0) root         (0)     1615 2023-06-14 22:13:28.000000 apache-artemis-2.29.0/artemis-website/node_modules/direction/test.sh
+│ │ --rwxr-xr-x   0 root         (0) root         (0)     1761 2023-06-14 22:13:28.000000 apache-artemis-2.29.0/artemis-website/node_modules/lunr/build/release.sh
+│ │ --rwxr-xr-x   0 root         (0) root         (0)      304 2023-06-14 22:13:28.000000 apache-artemis-2.29.0/artemis-website/node_modules/lunr/test/runner.sh
+│ │ --rwxr-xr-x   0 root         (0) root         (0)       74 2023-06-14 22:13:28.000000 apache-artemis-2.29.0/artemis-website/node_modules/tmp/cleanup.sh
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     1104 2023-06-14 22:13:28.000000 apache-artemis-2.29.0/examples/protocols/amqp/dotnet/DurableSubscriptions/run-example.sh
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     1063 2023-06-14 22:13:28.000000 apache-artemis-2.29.0/examples/protocols/amqp/dotnet/DurableSubscriptions/start-broker.sh
+│ │  -rwxr-xr-x   0 root         (0) root         (0)      949 2023-06-14 22:13:28.000000 apache-artemis-2.29.0/examples/protocols/amqp/dotnet/DurableSubscriptions/stop-broker.sh
+│ │  -rwxr-xr-x   0 root         (0) root         (0)      891 2023-06-14 22:13:28.000000 apache-artemis-2.29.0/examples/protocols/amqp/dotnet/HelloWorld/run-example.sh
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     1063 2023-06-14 22:13:28.000000 apache-artemis-2.29.0/examples/protocols/amqp/dotnet/HelloWorld/start-broker.sh
+│ │  -rwxr-xr-x   0 root         (0) root         (0)      949 2023-06-14 22:13:28.000000 apache-artemis-2.29.0/examples/protocols/amqp/dotnet/HelloWorld/stop-broker.sh
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     1200 2023-06-14 22:13:28.000000 apache-artemis-2.29.0/examples/protocols/amqp/dotnet/HighPerformanceLoad/start-server.sh
+
