@@ -1,0 +1,19 @@
+groupId=fr.inria.gforge.spoon
+artifactId=spoon-core
+version=10.3.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/inria/spoon.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+# need versions:set, should be fixed in 10.4.0: https://github.com/INRIA/spoon/pull/5139
+command="SHELL mvn versions:set -DnewVersion=${version} ; mvn clean package -DskipDepClean -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/INRIA/spoon/pull/5300

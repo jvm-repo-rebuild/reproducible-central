@@ -1,0 +1,37 @@
+# dependency with version rangle [3.6.0,) gets different resolution over time (and 4.0.0 alpha release currently: really what is desired?)
+1 / 1 target/reference/spoon-core-10.3.0-jar-with-dependencies.jar target/spoon-core-10.3.0-jar-with-dependencies.jar
+...
+├── META-INF/DEPENDENCIES
+│ @@ -17,21 +17,21 @@
+│      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│  From: 'GlassFish Community' (https://javaee.github.io/glassfish)
+│    - javax.annotation API (http://jcp.org/en/jsr/detail?id=250) javax.annotation:javax.annotation-api:jar:1.3.2
+│      License: CDDL + GPLv2 with classpath exception  (https://github.com/javaee/javax.annotation/blob/master/LICENSE)
+│  
+│  From: 'The Apache Software Foundation' (https://www.apache.org/)
+│ -  - Maven 4 API Meta annotations (https://maven.apache.org/ref/4.0.0-alpha-4/api/maven-api-meta/) org.apache.maven:maven-api-meta:jar:4.0.0-alpha-4
+│ +  - Maven 4 API Meta annotations (https://maven.apache.org/ref/4.0.0-alpha-5/api/maven-api-meta/) org.apache.maven:maven-api-meta:jar:4.0.0-alpha-5
+│      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Maven 4 API :: Model (https://maven.apache.org/ref/4.0.0-alpha-4/api/maven-api-model/) org.apache.maven:maven-api-model:jar:4.0.0-alpha-4
+│ +  - Maven 4 API :: Model (https://maven.apache.org/ref/4.0.0-alpha-5/api/maven-api-model/) org.apache.maven:maven-api-model:jar:4.0.0-alpha-5
+│      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Maven 4 API XML (https://maven.apache.org/ref/4.0.0-alpha-4/api/maven-api-xml/) org.apache.maven:maven-api-xml:jar:4.0.0-alpha-4
+│ +  - Maven 4 API XML (https://maven.apache.org/ref/4.0.0-alpha-5/api/maven-api-xml/) org.apache.maven:maven-api-xml:jar:4.0.0-alpha-5
+│      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - Implementation of Maven API XML (https://maven.apache.org/ref/4.0.0-alpha-4/maven-xml-impl/) org.apache.maven:maven-xml-impl:jar:4.0.0-alpha-4
+│ +  - Implementation of Maven API XML (https://maven.apache.org/ref/4.0.0-alpha-5/maven-xml-impl/) org.apache.maven:maven-xml-impl:jar:4.0.0-alpha-5
+│      License: Apache-2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│  From: 'The Eclipse Foundation' (http://www.eclipse.org/)
+│    - org.eclipse.sisu.inject (http://www.eclipse.org/sisu/org.eclipse.sisu.inject/) org.eclipse.sisu:org.eclipse.sisu.inject:eclipse-plugin:0.3.5
+│      License: Eclipse Public License, Version 1.0  (http://www.eclipse.org/legal/epl-v10.html)
+│    - org.eclipse.sisu.plexus (http://www.eclipse.org/sisu/org.eclipse.sisu.plexus/) org.eclipse.sisu:org.eclipse.sisu.plexus:eclipse-plugin:0.3.5
+│      License: Eclipse Public License, Version 1.0  (http://www.eclipse.org/legal/epl-v10.html)
+├── META-INF/maven/org.apache.maven/maven-model/pom.properties
+│ @@ -1,3 +1,3 @@
+│  artifactId=maven-model
+│  groupId=org.apache.maven
+│ -version=4.0.0-alpha-4
+│ +version=4.0.0-alpha-5
+...

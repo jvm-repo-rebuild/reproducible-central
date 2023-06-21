@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Spoon Core
+group-id=fr.inria.gforge.spoon
+artifact-id=spoon-core
+version=10.3.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/INRIA/spoon.git/spoon-core
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=spoon-core-10.3.0.pom
+outputs.0.length=10570
+outputs.0.checksums.sha512=56e1669321b5c12c35ff8ec6ddbad52d919a9294c25adc48e902c7b566dd5f6b4625237f369b9af9ecc856cffc215d5478338bff739f9d02a5478afca7c9b440
+
+outputs.1.filename=spoon-core-10.3.0.jar
+outputs.1.length=1878678
+outputs.1.checksums.sha512=b73e46c8447c1798286cf5a49a8d42de4d2b41b5d2c88328499f9bcb7e9523da1863c933acf3a815a781e44659ca5838ec7d20956c150a34298292ae3ccb0f56
+
+outputs.2.filename=spoon-core-10.3.0-jar-with-dependencies.jar
+outputs.2.length=14424896
+outputs.2.checksums.sha512=65d9bb51856d81ebee81641745c40cfcaceb383f96f0609c70128409872bb0a7ca289e07ae07bc589aed7b836f4d793ad0ab2a62f78de4e0703e47864beacadc
