@@ -1,15 +1,15 @@
-[fr.inria.gforge.spoon:spoon-core](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/10.1.1/versions) RB check
+[fr.inria.gforge.spoon:spoon-core](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/10.3.0/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [fr.inria.gforge.spoon:spoon-core](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/10.1.1/versions)
+## Project: [fr.inria.gforge.spoon:spoon-core](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/10.3.0/versions)
 
 Source code: [https://github.com/inria/spoon.git](https://github.com/inria/spoon.git)
 
-rebuilding **1 releases** of fr.inria.gforge.spoon:spoon-core:
+rebuilding **2 releases** of fr.inria.gforge.spoon:spoon-core:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
@@ -24,7 +24,7 @@ rebuilding **1 releases** of fr.inria.gforge.spoon:spoon-core:
 | [10.4.0-beta-3](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/10.4.0-beta-3/pom) | | | |
 | [10.4.0-beta-2](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/10.4.0-beta-2/pom) | | | |
 | [10.4.0-beta-1](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/10.4.0-beta-1/pom) | | | |
-| [10.3.0](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/10.3.0/pom) | | | |
+| [10.3.0](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/10.3.0/pom) | [mvn jdk11](spoon-core-10.3.0.buildspec) | [result](spoon-core-10.3.0.buildinfo): [2 :heavy_check_mark:  1 :warning:](spoon-core-10.3.0.buildcompare) [:mag:](spoon-core-10.3.0.diffoscope) [:memo:](https://github.com/INRIA/spoon/pull/5300) | 16M |
 | [10.3.0-beta-18](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/10.3.0-beta-18/pom) | | | |
 | [10.3.0-beta-17](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/10.3.0-beta-17/pom) | | | |
 | [10.3.0-beta-16](https://central.sonatype.com/artifact/fr.inria.gforge.spoon/spoon-core/10.3.0-beta-16/pom) | | | |
