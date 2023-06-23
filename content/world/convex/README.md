@@ -1,31 +1,32 @@
-[world.convex:convex](https://central.sonatype.com/artifact/world.convex/convex/0.7.8/versions) RB check
+[world.convex:convex](https://central.sonatype.com/artifact/world.convex/convex/0.7.11/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [world.convex:convex](https://central.sonatype.com/artifact/world.convex/convex/0.7.8/versions)
+## Project: [world.convex:convex](https://central.sonatype.com/artifact/world.convex/convex/0.7.11/versions)
 
 Source code: [https://github.com/Convex-Dev/convex.git](https://github.com/Convex-Dev/convex.git)
 
-<details><summary>This project defines 8 modules:</summary>
+<details><summary>This project defines 9 modules:</summary>
 
-* [world.convex:convex](https://central.sonatype.com/artifact/world.convex/convex/0.7.8)
-* [world.convex:convex-benchmarks](https://central.sonatype.com/artifact/world.convex/convex-benchmarks/0.7.8)
-* [world.convex:convex-cli](https://central.sonatype.com/artifact/world.convex/convex-cli/0.7.8)
-* [world.convex:convex-core](https://central.sonatype.com/artifact/world.convex/convex-core/0.7.8)
-* [world.convex:convex-gui](https://central.sonatype.com/artifact/world.convex/convex-gui/0.7.8)
-* [world.convex:convex-java](https://central.sonatype.com/artifact/world.convex/convex-java/0.7.8)
-* [world.convex:convex-peer](https://central.sonatype.com/artifact/world.convex/convex-peer/0.7.8)
-* [world.convex:convex-restapi](https://central.sonatype.com/artifact/world.convex/convex-restapi/0.7.8)
+* [world.convex:convex](https://central.sonatype.com/artifact/world.convex/convex/0.7.11)
+* [world.convex:convex-benchmarks](https://central.sonatype.com/artifact/world.convex/convex-benchmarks/0.7.11)
+* [world.convex:convex-cli](https://central.sonatype.com/artifact/world.convex/convex-cli/0.7.11)
+* [world.convex:convex-core](https://central.sonatype.com/artifact/world.convex/convex-core/0.7.11)
+* [world.convex:convex-gui](https://central.sonatype.com/artifact/world.convex/convex-gui/0.7.11)
+* [world.convex:convex-java](https://central.sonatype.com/artifact/world.convex/convex-java/0.7.11)
+* [world.convex:convex-peer](https://central.sonatype.com/artifact/world.convex/convex-peer/0.7.11)
+* [world.convex:convex-restapi](https://central.sonatype.com/artifact/world.convex/convex-restapi/0.7.11)
+* [world.convex:convex-sodium](https://central.sonatype.com/artifact/world.convex/convex-sodium/0.7.11)
 </details>
 
-rebuilding **6 releases** of world.convex:convex:
+rebuilding **7 releases** of world.convex:convex:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.7.11](https://central.sonatype.com/artifact/world.convex/convex/0.7.11/pom) | | | |
+| [0.7.11](https://central.sonatype.com/artifact/world.convex/convex/0.7.11/pom) | [mvn jdk17 w](convex-0.7.11.buildspec) | [result](convex-0.7.11.buildinfo): [22 :heavy_check_mark:  6 :warning:](convex-0.7.11.buildcompare) [:mag:](convex-0.7.11.diffoscope) | 129M |
 | [0.7.10](https://central.sonatype.com/artifact/world.convex/convex/0.7.10/pom) | | | |
 | [0.7.9](https://central.sonatype.com/artifact/world.convex/convex/0.7.9/pom) | | | |
 | [0.7.8](https://central.sonatype.com/artifact/world.convex/convex/0.7.8/pom) | [mvn jdk17 w](convex-0.7.8.buildspec) | [result](convex-0.7.8.buildinfo): [24 :heavy_check_mark:  1 :warning:](convex-0.7.8.buildcompare) [:mag:](convex-0.7.8.diffoscope) [:memo:](https://github.com/Convex-Dev/convex/pull/400) | 83M |

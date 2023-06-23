@@ -3,8 +3,8 @@
   <groupId>org.apache.maven.resolver</groupId>
   <artifactId>maven-resolver</artifactId>
   <versioning>
-    <latest>1.9.12</latest>
-    <release>1.9.12</release>
+    <latest>1.9.13</latest>
+    <release>1.9.13</release>
     <versions>
       <version>1.0.3</version>
       <version>1.1.0</version>
@@ -37,7 +37,8 @@
       <version>1.9.10</version>
       <version>1.9.11</version>
       <version>1.9.12</version>
+      <version>1.9.13</version>
     </versions>
-    <lastUpdated>20230619080542</lastUpdated>
+    <lastUpdated>20230623074308</lastUpdated>
   </versioning>
 </metadata>

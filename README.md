@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **1969 releases** of **430 projects**:
-   - **1478** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 491 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **1972 releases** of **430 projects**:
+   - **1480** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 492 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
 
@@ -450,9 +450,9 @@ Its objectives are to provide:
 | pl.com.labaj | <a name='pl.com.labaj:auto-record'></a>[auto-record](content/pl/com/labaj/auto-record/README.md) | 1 | 1 :heavy_check_mark: |
 | tech.picnic.error-prone-support | <a name='tech.picnic.error-prone-support:error-prone-support'></a>[error-prone-support](content/tech/picnic/error-prone-support/error-prone-support/README.md) | 10 | 10 :heavy_check_mark: |
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
-| us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 13 | 13 :heavy_check_mark: |
-| world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 6 | 6 :warning: |
-| **Count:** | **430** | **1969** | **1478** :heavy_check_mark: **491** :warning: |
+| us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 15 | 15 :heavy_check_mark: |
+| world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
+| **Count:** | **430** | **1972** | **1480** :heavy_check_mark: **492** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -464,14 +464,14 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      21 gradle     11
      26 mvn         7
-    875 mvn         8
+    877 mvn         8
       1 mvn         9
     698 mvn        11
       1 mvn        13
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    132 mvn        17
+    133 mvn        17
      10 mvn        18
      11 mvn        19
       4 mvn        20
