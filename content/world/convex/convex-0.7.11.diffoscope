@@ -1,0 +1,72 @@
+# issues woth some .cvs files newlines from Git: rebuilder heuristics to Git checkout like Windows may be wrong, or issue in original builder, I don't know...
+1 / 6 target/reference/convex-core-0.7.11.jar convex-core/target/convex-core-0.7.11.jar
+--- target/reference/convex-core-0.7.11.jar
++++ convex-core/target/convex-core-0.7.11.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 896699 bytes, number of entries: 473
+│ +Zip file size: 896664 bytes, number of entries: 473
+│  -rw-r--r--  2.0 unx       81 b- defN 20-Feb-02 00:00 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Feb-02 00:00 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Feb-02 00:00 asset/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Feb-02 00:00 asset/box/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Feb-02 00:00 asset/nft/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Feb-02 00:00 convex/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Feb-02 00:00 convex/core/
+│ @@ -27,18 +27,18 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Feb-02 00:00 lab/convex/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Feb-02 00:00 torus/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Feb-02 00:00 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Feb-02 00:00 META-INF/maven/world.convex/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Feb-02 00:00 META-INF/maven/world.convex/convex-core/
+│  -rw-r--r--  2.0 unx     6645 b- defN 20-Feb-02 00:00 asset/box/actor.cvx
+│  -rw-r--r--  2.0 unx     2191 b- defN 20-Feb-02 00:00 asset/box.cvx
+│ --rw-r--r--  2.0 unx     5923 b- defN 20-Feb-02 00:00 asset/multi-token.cvx
+│ +-rw-r--r--  2.0 unx     5925 b- defN 20-Feb-02 00:00 asset/multi-token.cvx
+│  -rw-r--r--  2.0 unx     4669 b- defN 20-Feb-02 00:00 asset/nft/simple.cvx
+│  -rw-r--r--  2.0 unx    23433 b- defN 20-Feb-02 00:00 asset/nft/tokens.cvx
+│ --rw-r--r--  2.0 unx     7104 b- defN 20-Feb-02 00:00 asset/share.cvx
+│ +-rw-r--r--  2.0 unx     7141 b- defN 20-Feb-02 00:00 asset/share.cvx
+│  -rw-r--r--  2.0 unx    13201 b- defN 20-Feb-02 00:00 convex/asset.cvx
+│  -rw-r--r--  2.0 unx    10298 b- defN 20-Feb-02 00:00 convex/core/Belief.class
+│  -rw-r--r--  2.0 unx     1633 b- defN 20-Feb-02 00:00 convex/core/BeliefMerge$1.class
+│  -rw-r--r--  2.0 unx    19861 b- defN 20-Feb-02 00:00 convex/core/BeliefMerge.class
+│  -rw-r--r--  2.0 unx     1245 b- defN 20-Feb-02 00:00 convex/core/Block$1.class
+│  -rw-r--r--  2.0 unx     6570 b- defN 20-Feb-02 00:00 convex/core/Block.class
+│  -rw-r--r--  2.0 unx     6976 b- defN 20-Feb-02 00:00 convex/core/BlockResult.class
+│ @@ -447,29 +447,29 @@
+│  -rw-r--r--  2.0 unx     2235 b- defN 20-Feb-02 00:00 convex/core/util/Shutdown.class
+│  -rw-r--r--  2.0 unx     3931 b- defN 20-Feb-02 00:00 convex/core/util/Text.class
+│  -rw-r--r--  2.0 unx     1032 b- defN 20-Feb-02 00:00 convex/core/util/Trees.class
+│  -rw-r--r--  2.0 unx      726 b- defN 20-Feb-02 00:00 convex/core/util/UMath.class
+│  -rw-r--r--  2.0 unx     1108 b- defN 20-Feb-02 00:00 convex/core/util/Utils$1.class
+│  -rw-r--r--  2.0 unx     1081 b- defN 20-Feb-02 00:00 convex/core/util/Utils$2.class
+│  -rw-r--r--  2.0 unx    35530 b- defN 20-Feb-02 00:00 convex/core/util/Utils.class
+│ --rw-r--r--  2.0 unx    20636 b- defN 20-Feb-02 00:00 convex/core.cvx
+│ --rw-r--r--  2.0 unx     4961 b- defN 20-Feb-02 00:00 convex/did.cvx
+│ --rw-r--r--  2.0 unx    10615 b- defN 20-Feb-02 00:00 convex/fungible.cvx
+│ --rw-r--r--  2.0 unx     3767 b- defN 20-Feb-02 00:00 convex/oracle.cvx
+│ +-rw-r--r--  2.0 unx    20641 b- defN 20-Feb-02 00:00 convex/core.cvx
+│ +-rw-r--r--  2.0 unx     4970 b- defN 20-Feb-02 00:00 convex/did.cvx
+│ +-rw-r--r--  2.0 unx    10616 b- defN 20-Feb-02 00:00 convex/fungible.cvx
+│ +-rw-r--r--  2.0 unx     3768 b- defN 20-Feb-02 00:00 convex/oracle.cvx
+│  -rw-r--r--  2.0 unx     2430 b- defN 20-Feb-02 00:00 convex/play.cvx
+│  -rw-r--r--  2.0 unx     4302 b- defN 20-Feb-02 00:00 convex/registry.cvx
+│  -rw-r--r--  2.0 unx     8356 b- defN 20-Feb-02 00:00 convex/trust.cvx
+│  -rw-r--r--  2.0 unx     1561 b- defN 20-Feb-02 00:00 convex/trusted-oracle/actor.cvx
+│  -rw-r--r--  2.0 unx      650 b- defN 20-Feb-02 00:00 etch/Etch$1.class
+│  -rw-r--r--  2.0 unx      560 b- defN 20-Feb-02 00:00 etch/Etch$2.class
+│  -rw-r--r--  2.0 unx    21637 b- defN 20-Feb-02 00:00 etch/Etch.class
+│  -rw-r--r--  2.0 unx     9195 b- defN 20-Feb-02 00:00 etch/EtchStore.class
+│  -rw-r--r--  2.0 unx     1904 b- defN 20-Feb-02 00:00 lab/convex/xform.cvx
+│ --rw-r--r--  2.0 unx      299 b- defN 20-Feb-02 00:00 lab/curation-market.cvx
+│ +-rw-r--r--  2.0 unx      310 b- defN 20-Feb-02 00:00 lab/curation-market.cvx
+│  -rw-r--r--  2.0 unx      270 b- defN 20-Feb-02 00:00 lab/messenger.cvx
+│  -rw-r--r--  2.0 unx     3670 b- defN 20-Feb-02 00:00 lab/prediction-market.cvx
+│  -rw-r--r--  2.0 unx      709 b- defN 20-Feb-02 00:00 lab/secured-loan.cvx
+│  -rw-r--r--  2.0 unx      769 b- defN 20-Feb-02 00:00 torus/currencies.cvx
+│  -rw-r--r--  2.0 unx    18601 b- defN 20-Feb-02 00:00 torus/exchange.cvx
+│  -rw-r--r--  2.0 unx     5198 b- defN 20-Feb-02 00:00 META-INF/maven/world.convex/convex-core/pom.xml
+│  -rw-r--r--  2.0 unx       62 b- defN 20-Feb-02 00:00 META-INF/maven/world.convex/convex-core/pom.properties
+│ -473 files, 2026530 bytes uncompressed, 829749 bytes compressed:  59.1%
+│ +473 files, 2026596 bytes uncompressed, 829714 bytes compressed:  59.1%

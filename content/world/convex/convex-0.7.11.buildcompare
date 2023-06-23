@@ -1,0 +1,13 @@
+version=0.7.11
+ok=22
+ko=6
+okFiles="convex-0.7.11.pom convex-core-0.7.11.pom convex-peer-0.7.11.pom convex-peer-0.7.11.jar convex-peer-0.7.11-sources.jar convex-sodium-0.7.11.pom convex-sodium-0.7.11.jar convex-sodium-0.7.11-sources.jar convex-java-0.7.11.pom convex-java-0.7.11.jar convex-java-0.7.11-sources.jar convex-restapi-0.7.11.pom convex-restapi-0.7.11.jar convex-restapi-0.7.11-sources.jar convex-gui-0.7.11.pom convex-gui-0.7.11.jar convex-gui-0.7.11-sources.jar convex-cli-0.7.11.pom convex-cli-0.7.11-sources.jar convex-benchmarks-0.7.11.pom convex-benchmarks-0.7.11.jar convex-benchmarks-0.7.11-sources.jar"
+koFiles="convex-core-0.7.11.jar convex-core-0.7.11-sources.jar convex-restapi-0.7.11-jar-with-dependencies.jar convex-gui-0.7.11-jar-with-dependencies.jar convex-cli-0.7.11.jar convex-benchmarks-0.7.11-jar-with-dependencies.jar"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/convex-core-0.7.11.jar convex-core/target/convex-core-0.7.11.jar
+# diffoscope target/reference/convex-core-0.7.11-sources.jar convex-core/target/convex-core-0.7.11-sources.jar
+# diffoscope target/reference/convex-restapi-0.7.11-jar-with-dependencies.jar convex-restapi/target/convex-restapi-jar-with-dependencies.jar
+# diffoscope target/reference/convex-gui-0.7.11-jar-with-dependencies.jar convex-gui/target/convex-gui-jar-with-dependencies.jar
+# diffoscope target/reference/convex-cli-0.7.11.jar convex-cli/target/convex-cli.jar
+# diffoscope target/reference/convex-benchmarks-0.7.11-jar-with-dependencies.jar convex-benchmarks/target/convex-benchmarks-jar-with-dependencies.jar
