@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **1975 releases** of **430 projects**:
-   - **1483** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 492 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **1981 releases** of **430 projects**:
+   - **1488** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 493 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
 
@@ -50,7 +50,7 @@ Its objectives are to provide:
 | com.github.veithen | <a name='com.github.veithen:jrel'></a>[jrel](content/com/github/veithen/jrel/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='com.github.veithen:parent'></a>[parent](content/com/github/veithen/parent/README.md) | 7 | 6 :heavy_check_mark: / 1 :warning: |
 | com.github.veithen.maven | <a name='com.github.veithen.maven:eclipse-settings-maven-plugin'></a>[eclipse-settings-maven-plugin](content/com/github/veithen/maven/eclipse-settings-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
-| | <a name='com.github.veithen.maven:hermetic-maven-plugin'></a>[hermetic-maven-plugin](content/com/github/veithen/maven/hermetic-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='com.github.veithen.maven:hermetic-maven-plugin'></a>[hermetic-maven-plugin](content/com/github/veithen/maven/hermetic-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='com.github.veithen.maven:jacoco-report-maven-plugin'></a>[jacoco-report-maven-plugin](content/com/github/veithen/maven/jacoco-report-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='com.github.veithen.maven:java-format-maven-plugin'></a>[java-format-maven-plugin](content/com/github/veithen/maven/java-format-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='com.github.veithen.maven:p2-maven-connector'></a>[p2-maven-connector](content/com/github/veithen/maven/p2-maven-connector/README.md) | 1 | 1 :heavy_check_mark: |
@@ -71,7 +71,7 @@ Its objectives are to provide:
 | de.unentscheidbar | <a name='de.unentscheidbar:migratedb'></a>[migratedb](content/de/unentscheidbar/migratedb/README.md) | 2 | 2 :heavy_check_mark: |
 | eu.europa.ted.eforms | <a name='eu.europa.ted.eforms:eforms-core-java'></a>[eforms-core-java](content/eu/europa/ted/eforms/eforms-core-java/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | | <a name='eu.europa.ted.eforms:eforms-sdk'></a>[eforms-sdk](content/eu/europa/ted/eforms/eforms-sdk/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
-| eu.maveniverse.maven.mima | <a name='eu.maveniverse.maven.mima:mima'></a>[mima](content/eu/maveniverse/maven/mima/README.md) | 14 | 14 :heavy_check_mark: |
+| eu.maveniverse.maven.mima | <a name='eu.maveniverse.maven.mima:mima'></a>[mima](content/eu/maveniverse/maven/mima/README.md) | 16 | 16 :heavy_check_mark: |
 | fr.inria.gforge.spoon | <a name='fr.inria.gforge.spoon:spoon-core'></a>[spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | fr.marcwrobel | <a name='fr.marcwrobel:jbanking'></a>[jbanking](content/fr/marcwrobel/jbanking/README.md) | 1 | 1 :heavy_check_mark: |
 | fr.vidal.oss | <a name='fr.vidal.oss:atom-jaxb'></a>[atom-jaxb](content/fr/vidal/oss/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
@@ -191,7 +191,7 @@ Its objectives are to provide:
 | org.apache.maven.enforcer | <a name='org.apache.maven.enforcer:enforcer'></a>[enforcer](content/org/apache/maven/enforcer/README.md) | 4 | 4 :heavy_check_mark: |
 | org.apache.maven.indexer | <a name='org.apache.maven.indexer:maven-indexer'></a>[maven-indexer](content/org/apache/maven/indexer/README.md) | 8 | 6 :heavy_check_mark: / 2 :warning: |
 | org.apache.maven.jxr | <a name='org.apache.maven.jxr:jxr'></a>[jxr](content/org/apache/maven/jxr/README.md) | 3 | 3 :heavy_check_mark: |
-| org.apache.maven | <a name='org.apache.maven:maven'></a>[maven](content/org/apache/maven/maven/README.md) | 15 | 12 :heavy_check_mark: / 3 :warning: |
+| org.apache.maven | <a name='org.apache.maven:maven'></a>[maven](content/org/apache/maven/maven/README.md) | 16 | 13 :heavy_check_mark: / 3 :warning: |
 | | <a name='org.apache.maven:maven-parent'></a>[maven-parent](content/org/apache/maven/parent/README.md) | 7 | 4 :heavy_check_mark: / 3 :warning: |
 | org.apache.maven.scm | <a name='org.apache.maven.scm:maven-scm'></a>[maven-scm](content/org/apache/maven/scm/README.md) | 9 | 9 :heavy_check_mark: |
 | org.apache.maven.surefire | <a name='org.apache.maven.surefire:surefire'></a>[surefire](content/org/apache/maven/surefire/README.md) | 6 | 2 :heavy_check_mark: / 4 :warning: |
@@ -438,7 +438,7 @@ Its objectives are to provide:
 | org.spdx | <a name='org.spdx:spdx-maven-plugin'></a>[spdx-maven-plugin](content/org/spdx/spdx-maven-plugin/README.md) | 1 | 1 :warning: |
 | org.tomitribe.transformer | <a name='org.tomitribe.transformer:org.eclipse.transformer.parent'></a>[org.eclipse.transformer.parent](content/org/tomitribe/transformer/README.md) | 2 | 2 :heavy_check_mark: |
 | org.webjars | <a name='org.webjars:bootstrap'></a>[bootstrap](content/org/webjars/bootstrap/README.md) | 5 | 5 :heavy_check_mark: |
-| | <a name='org.webjars:flexmonster'></a>[flexmonster](content/org/webjars/flexmonster/README.md) | 33 | 31 :heavy_check_mark: / 2 :warning: |
+| | <a name='org.webjars:flexmonster'></a>[flexmonster](content/org/webjars/flexmonster/README.md) | 35 | 32 :heavy_check_mark: / 3 :warning: |
 | | <a name='org.webjars:font-awesome'></a>[font-awesome](content/org/webjars/font-awesome/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.webjars:highcharts'></a>[highcharts](content/org/webjars/highcharts/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.webjars:jszip'></a>[jszip](content/org/webjars/jszip/README.md) | 1 | 1 :heavy_check_mark: |
@@ -452,7 +452,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 15 | 15 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **430** | **1975** | **1483** :heavy_check_mark: **492** :warning: |
+| **Count:** | **430** | **1981** | **1488** :heavy_check_mark: **493** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -464,14 +464,14 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      21 gradle     11
      26 mvn         7
-    879 mvn         8
+    881 mvn         8
       1 mvn         9
     698 mvn        11
       1 mvn        13
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    133 mvn        17
+    135 mvn        17
      10 mvn        18
      11 mvn        19
       4 mvn        20
@@ -490,7 +490,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       3 mvn-3.9.0  17
       4 mvn-3.9.1   8
       1 mvn-3.9.1  11
-     39 mvn-3.9.1  17
+     41 mvn-3.9.1  17
       1 mvn-3.9.1  19
       2 mvn-3.9.1  20
       5 mvn-3.9.2   8
