@@ -1,0 +1,65 @@
+1 / 1 target/reference/flexmonster-2.9.53.jar target/flexmonster-2.9.53.jar
+--- target/reference/flexmonster-2.9.53.jar
++++ target/flexmonster-2.9.53.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 2193449 bytes, number of entries: 100
+│ +Zip file size: 2204220 bytes, number of entries: 100
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-12 17:02 META-INF/
+│  -rw-r--r--  2.0 unx       82 b- defN 23-Jun-12 17:02 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-12 17:02 META-INF/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-12 17:02 META-INF/resources/webjars/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-12 17:02 META-INF/resources/webjars/flexmonster/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-12 17:02 META-INF/resources/webjars/flexmonster/2.9.53/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-12 17:02 META-INF/resources/webjars/flexmonster/2.9.53/lib/
+│ @@ -27,16 +27,16 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-12 17:02 META-INF/resources/webjars/flexmonster/2.9.53/theme/yellow/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-12 17:02 META-INF/resources/webjars/flexmonster/2.9.53/toolbar/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-12 17:02 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-12 17:02 META-INF/maven/org.webjars/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-12 17:02 META-INF/maven/org.webjars/flexmonster/
+│  -rw-r--r--  2.0 unx   237120 b- defN 23-Jun-12 17:02 META-INF/resources/webjars/flexmonster/2.9.53/flexmonster.css
+│  -rw-r--r--  2.0 unx    30593 b- defN 23-Jun-12 17:02 META-INF/resources/webjars/flexmonster/2.9.53/flexmonster.d.ts
+│ --rw-r--r--  2.0 unx  2198786 b- defN 23-Jun-12 17:02 META-INF/resources/webjars/flexmonster/2.9.53/flexmonster.full.js
+│ --rw-r--r--  2.0 unx  1211467 b- defN 23-Jun-12 17:02 META-INF/resources/webjars/flexmonster/2.9.53/flexmonster.js
+│ +-rw-r--r--  2.0 unx  2215379 b- defN 23-Jun-12 17:02 META-INF/resources/webjars/flexmonster/2.9.53/flexmonster.full.js
+│ +-rw-r--r--  2.0 unx  1214646 b- defN 23-Jun-12 17:02 META-INF/resources/webjars/flexmonster/2.9.53/flexmonster.js
+│  -rw-r--r--  2.0 unx   203430 b- defN 23-Jun-12 17:02 META-INF/resources/webjars/flexmonster/2.9.53/flexmonster.min.css
+│  -rw-r--r--  2.0 unx    76000 b- defN 23-Jun-12 17:02 META-INF/resources/webjars/flexmonster/2.9.53/lib/canvg.min.js
+│  -rw-r--r--  2.0 unx   151850 b- defN 23-Jun-12 17:02 META-INF/resources/webjars/flexmonster/2.9.53/lib/d3.v3.min.js
+│  -rw-r--r--  2.0 unx     8197 b- defN 23-Jun-12 17:02 META-INF/resources/webjars/flexmonster/2.9.53/lib/flexmonster.amcharts.js
+│  -rw-r--r--  2.0 unx    19448 b- defN 23-Jun-12 17:02 META-INF/resources/webjars/flexmonster/2.9.53/lib/flexmonster.fusioncharts.js
+│  -rw-r--r--  2.0 unx     8326 b- defN 23-Jun-12 17:02 META-INF/resources/webjars/flexmonster/2.9.53/lib/flexmonster.googlecharts.js
+│  -rw-r--r--  2.0 unx    25952 b- defN 23-Jun-12 17:02 META-INF/resources/webjars/flexmonster/2.9.53/lib/flexmonster.highcharts.js
+│ @@ -95,8 +95,8 @@
+│  -rw-r--r--  2.0 unx   203700 b- defN 23-Jun-12 17:02 META-INF/resources/webjars/flexmonster/2.9.53/theme/teal/flexmonster.min.css
+│  -rw-r--r--  2.0 unx   237027 b- defN 23-Jun-12 17:02 META-INF/resources/webjars/flexmonster/2.9.53/theme/yellow/flexmonster.css
+│  -rw-r--r--  2.0 unx    16472 b- defN 23-Jun-12 17:02 META-INF/resources/webjars/flexmonster/2.9.53/theme/yellow/flexmonster.less
+│  -rw-r--r--  2.0 unx   203356 b- defN 23-Jun-12 17:02 META-INF/resources/webjars/flexmonster/2.9.53/theme/yellow/flexmonster.min.css
+│  -rw-r--r--  2.0 unx   274167 b- defN 23-Jun-12 17:02 META-INF/resources/webjars/flexmonster/2.9.53/toolbar/flexmonster.toolbar.js
+│  -rw-r--r--  2.0 unx     4776 b- defN 23-Jun-12 17:02 META-INF/maven/org.webjars/flexmonster/pom.xml
+│  -rw-r--r--  2.0 unx       58 b- defN 23-Jun-12 17:02 META-INF/maven/org.webjars/flexmonster/pom.properties
+│ -100 files, 12695137 bytes uncompressed, 2172439 bytes compressed:  82.9%
+│ +100 files, 12714909 bytes uncompressed, 2183210 bytes compressed:  82.8%
+├── META-INF/resources/webjars/flexmonster/2.9.53/flexmonster.full.js
+│┄ Command `'js-beautify {}'` failed with exit code 1. Standard output:
+│┄     Error while decoding input or encoding output:
+│┄     'utf-8' codec can't decode byte 0xd5 in position 1573995: invalid continuation byte
+│ @@ -45,15 +45,15 @@
+│  000002c0: 202a 2f0d 0a27 7573 6520 7374 7269 6374   */..'use strict
+│  000002d0: 273b 7661 7220 713b 0d0a 2866 756e 6374  ';var q;..(funct
+│  000002e0: 696f 6e28 6529 7b66 756e 6374 696f 6e20  ion(e){function 
+│  000002f0: 6b28 6629 7b72 6574 7572 6e22 756e 6465  k(f){return"unde
+│  00000300: 6669 6e65 6422 3d3d 3d74 7970 656f 6620  fined"===typeof 
+│  00000310: 667c 7c6e 756c 6c3d 3d3d 667d 636c 6173  f||null===f}clas
+│  00000320: 7320 687b 636f 6e73 7472 7563 746f 7228  s h{constructor(
+│ -00000330: 297b 7d73 7461 7469 6320 6453 2866 2c62  ){}static dS(f,b
+│ +00000330: 297b 7d73 7461 7469 6320 6353 2866 2c62  ){}static cS(f,b
+│  00000340: 297b 6966 2866 3d3d 6229 7265 7475 726e  ){if(f==b)return
+│  00000350: 2030 3b66 3d66 2e73 706c 6974 2822 2e22   0;f=f.split("."
+│  00000360: 293b 623d 622e 7370 6c69 7428 222e 2229  );b=b.split(".")
+│  00000370: 3b69 6628 662e 6c65 6e67 7468 3c62 2e6c  ;if(f.length<b.l
+│  00000380: 656e 6774 6829 7265 7475 726e 2d31 3b69  ength)return-1;i
+│  00000390: 6628 662e 6c65 6e67 7468 3e62 2e6c 656e  f(f.length>b.len
+│  000003a0: 6774 6829 7265 7475 726e 2031 3b66 6f72  gth)return 1;for
+...
