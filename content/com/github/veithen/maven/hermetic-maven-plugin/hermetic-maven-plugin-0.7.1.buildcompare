@@ -1,0 +1,7 @@
+version=0.7.1
+ok=4
+ko=0
+okFiles="hermetic-maven-plugin-0.7.1.pom hermetic-maven-plugin-0.7.1.jar hermetic-maven-plugin-0.7.1-sources.jar hermetic-maven-plugin-0.7.1-source-release.zip"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
