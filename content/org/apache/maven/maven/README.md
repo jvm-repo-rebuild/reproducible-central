@@ -1,53 +1,53 @@
-[org.apache.maven:maven](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-alpha-5/versions) RB check
+[org.apache.maven:maven](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-alpha-7/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven:maven](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-alpha-5/versions)
+## Project: [org.apache.maven:maven](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-alpha-7/versions)
 
 Source code: [https://github.com/apache/maven.git](https://github.com/apache/maven.git)
 
 <details><summary>This project defines 30 modules:</summary>
 
-* [org.apache.maven:apache-maven](https://central.sonatype.com/artifact/org.apache.maven/apache-maven/4.0.0-alpha-5)
-* [org.apache.maven:maven](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-alpha-5)
-* [org.apache.maven:maven-api](https://central.sonatype.com/artifact/org.apache.maven/maven-api/4.0.0-alpha-5)
-* [org.apache.maven:maven-api-core](https://central.sonatype.com/artifact/org.apache.maven/maven-api-core/4.0.0-alpha-5)
-* [org.apache.maven:maven-api-meta](https://central.sonatype.com/artifact/org.apache.maven/maven-api-meta/4.0.0-alpha-5)
-* [org.apache.maven:maven-api-model](https://central.sonatype.com/artifact/org.apache.maven/maven-api-model/4.0.0-alpha-5)
-* [org.apache.maven:maven-api-settings](https://central.sonatype.com/artifact/org.apache.maven/maven-api-settings/4.0.0-alpha-5)
-* [org.apache.maven:maven-api-toolchain](https://central.sonatype.com/artifact/org.apache.maven/maven-api-toolchain/4.0.0-alpha-5)
-* [org.apache.maven:maven-api-xml](https://central.sonatype.com/artifact/org.apache.maven/maven-api-xml/4.0.0-alpha-5)
-* [org.apache.maven:maven-artifact](https://central.sonatype.com/artifact/org.apache.maven/maven-artifact/4.0.0-alpha-5)
-* [org.apache.maven:maven-bom](https://central.sonatype.com/artifact/org.apache.maven/maven-bom/4.0.0-alpha-5)
-* [org.apache.maven:maven-builder-support](https://central.sonatype.com/artifact/org.apache.maven/maven-builder-support/4.0.0-alpha-5)
-* [org.apache.maven:maven-compat](https://central.sonatype.com/artifact/org.apache.maven/maven-compat/4.0.0-alpha-5)
-* [org.apache.maven:maven-core](https://central.sonatype.com/artifact/org.apache.maven/maven-core/4.0.0-alpha-5)
-* [org.apache.maven:maven-embedder](https://central.sonatype.com/artifact/org.apache.maven/maven-embedder/4.0.0-alpha-5)
-* [org.apache.maven:maven-model](https://central.sonatype.com/artifact/org.apache.maven/maven-model/4.0.0-alpha-5)
-* [org.apache.maven:maven-model-builder](https://central.sonatype.com/artifact/org.apache.maven/maven-model-builder/4.0.0-alpha-5)
-* [org.apache.maven:maven-model-transform](https://central.sonatype.com/artifact/org.apache.maven/maven-model-transform/4.0.0-alpha-5)
-* [org.apache.maven:maven-plugin-api](https://central.sonatype.com/artifact/org.apache.maven/maven-plugin-api/4.0.0-alpha-5)
-* [org.apache.maven:maven-repository-metadata](https://central.sonatype.com/artifact/org.apache.maven/maven-repository-metadata/4.0.0-alpha-5)
-* [org.apache.maven:maven-resolver-provider](https://central.sonatype.com/artifact/org.apache.maven/maven-resolver-provider/4.0.0-alpha-5)
-* [org.apache.maven:maven-settings](https://central.sonatype.com/artifact/org.apache.maven/maven-settings/4.0.0-alpha-5)
-* [org.apache.maven:maven-settings-builder](https://central.sonatype.com/artifact/org.apache.maven/maven-settings-builder/4.0.0-alpha-5)
-* [org.apache.maven:maven-slf4j-provider](https://central.sonatype.com/artifact/org.apache.maven/maven-slf4j-provider/4.0.0-alpha-5)
-* [org.apache.maven:maven-slf4j-wrapper](https://central.sonatype.com/artifact/org.apache.maven/maven-slf4j-wrapper/4.0.0-alpha-5)
-* [org.apache.maven:maven-toolchain-builder](https://central.sonatype.com/artifact/org.apache.maven/maven-toolchain-builder/4.0.0-alpha-5)
-* [org.apache.maven:maven-toolchain-model](https://central.sonatype.com/artifact/org.apache.maven/maven-toolchain-model/4.0.0-alpha-5)
-* [org.apache.maven:maven-xml-impl](https://central.sonatype.com/artifact/org.apache.maven/maven-xml-impl/4.0.0-alpha-5)
-* [org.apache.maven:modello-plugin-velocity](https://central.sonatype.com/artifact/org.apache.maven/modello-plugin-velocity/4.0.0-alpha-5)
-* [org.apache.maven:plexus-utils](https://central.sonatype.com/artifact/org.apache.maven/plexus-utils/4.0.0-alpha-5)
+* [org.apache.maven:apache-maven](https://central.sonatype.com/artifact/org.apache.maven/apache-maven/4.0.0-alpha-7)
+* [org.apache.maven:maven](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-alpha-7)
+* [org.apache.maven:maven-api](https://central.sonatype.com/artifact/org.apache.maven/maven-api/4.0.0-alpha-7)
+* [org.apache.maven:maven-api-core](https://central.sonatype.com/artifact/org.apache.maven/maven-api-core/4.0.0-alpha-7)
+* [org.apache.maven:maven-api-meta](https://central.sonatype.com/artifact/org.apache.maven/maven-api-meta/4.0.0-alpha-7)
+* [org.apache.maven:maven-api-model](https://central.sonatype.com/artifact/org.apache.maven/maven-api-model/4.0.0-alpha-7)
+* [org.apache.maven:maven-api-settings](https://central.sonatype.com/artifact/org.apache.maven/maven-api-settings/4.0.0-alpha-7)
+* [org.apache.maven:maven-api-toolchain](https://central.sonatype.com/artifact/org.apache.maven/maven-api-toolchain/4.0.0-alpha-7)
+* [org.apache.maven:maven-api-xml](https://central.sonatype.com/artifact/org.apache.maven/maven-api-xml/4.0.0-alpha-7)
+* [org.apache.maven:maven-artifact](https://central.sonatype.com/artifact/org.apache.maven/maven-artifact/4.0.0-alpha-7)
+* [org.apache.maven:maven-bom](https://central.sonatype.com/artifact/org.apache.maven/maven-bom/4.0.0-alpha-7)
+* [org.apache.maven:maven-builder-support](https://central.sonatype.com/artifact/org.apache.maven/maven-builder-support/4.0.0-alpha-7)
+* [org.apache.maven:maven-compat](https://central.sonatype.com/artifact/org.apache.maven/maven-compat/4.0.0-alpha-7)
+* [org.apache.maven:maven-core](https://central.sonatype.com/artifact/org.apache.maven/maven-core/4.0.0-alpha-7)
+* [org.apache.maven:maven-embedder](https://central.sonatype.com/artifact/org.apache.maven/maven-embedder/4.0.0-alpha-7)
+* [org.apache.maven:maven-model](https://central.sonatype.com/artifact/org.apache.maven/maven-model/4.0.0-alpha-7)
+* [org.apache.maven:maven-model-builder](https://central.sonatype.com/artifact/org.apache.maven/maven-model-builder/4.0.0-alpha-7)
+* [org.apache.maven:maven-model-transform](https://central.sonatype.com/artifact/org.apache.maven/maven-model-transform/4.0.0-alpha-7)
+* [org.apache.maven:maven-plugin-api](https://central.sonatype.com/artifact/org.apache.maven/maven-plugin-api/4.0.0-alpha-7)
+* [org.apache.maven:maven-repository-metadata](https://central.sonatype.com/artifact/org.apache.maven/maven-repository-metadata/4.0.0-alpha-7)
+* [org.apache.maven:maven-resolver-provider](https://central.sonatype.com/artifact/org.apache.maven/maven-resolver-provider/4.0.0-alpha-7)
+* [org.apache.maven:maven-settings](https://central.sonatype.com/artifact/org.apache.maven/maven-settings/4.0.0-alpha-7)
+* [org.apache.maven:maven-settings-builder](https://central.sonatype.com/artifact/org.apache.maven/maven-settings-builder/4.0.0-alpha-7)
+* [org.apache.maven:maven-slf4j-provider](https://central.sonatype.com/artifact/org.apache.maven/maven-slf4j-provider/4.0.0-alpha-7)
+* [org.apache.maven:maven-slf4j-wrapper](https://central.sonatype.com/artifact/org.apache.maven/maven-slf4j-wrapper/4.0.0-alpha-7)
+* [org.apache.maven:maven-toolchain-builder](https://central.sonatype.com/artifact/org.apache.maven/maven-toolchain-builder/4.0.0-alpha-7)
+* [org.apache.maven:maven-toolchain-model](https://central.sonatype.com/artifact/org.apache.maven/maven-toolchain-model/4.0.0-alpha-7)
+* [org.apache.maven:maven-xml-impl](https://central.sonatype.com/artifact/org.apache.maven/maven-xml-impl/4.0.0-alpha-7)
+* [org.apache.maven:modello-plugin-velocity](https://central.sonatype.com/artifact/org.apache.maven/modello-plugin-velocity/4.0.0-alpha-7)
+* [org.apache.maven:plexus-utils](https://central.sonatype.com/artifact/org.apache.maven/plexus-utils/4.0.0-alpha-7)
 </details>
 
-rebuilding **16 releases** of org.apache.maven:maven:
-- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **17 releases** of org.apache.maven:maven:
+- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.0.0-alpha-7](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-alpha-7/pom) | | | |
+| [4.0.0-alpha-7](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-alpha-7/pom) | [mvn jdk17](maven-4.0.0-alpha-7.buildspec) | [result](maven-4.0.0-alpha-7.buildinfo): [140 :heavy_check_mark: ](maven-4.0.0-alpha-7.buildcompare) | 37M |
 | [4.0.0-alpha-5](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-alpha-5/pom) | [mvn jdk17](maven-4.0.0-alpha-5.buildspec) | [result](maven-4.0.0-alpha-5.buildinfo): [87 :heavy_check_mark: ](maven-4.0.0-alpha-5.buildcompare) | 35M |
 | [4.0.0-alpha-4](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-alpha-4/pom) | [mvn jdk17](maven-4.0.0-alpha-4.buildspec) | [result](maven-4.0.0-alpha-4.buildinfo): [87 :heavy_check_mark: ](maven-4.0.0-alpha-4.buildcompare) | 36M |
 | [4.0.0-alpha-3](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-alpha-3/pom) | [mvn jdk8](maven-4.0.0-alpha-3.buildspec) | [result](maven-4.0.0-alpha-3.buildinfo): [92 :heavy_check_mark: ](maven-4.0.0-alpha-3.buildcompare) | 36M |

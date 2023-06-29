@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **1982 releases** of **430 projects**:
-   - **1488** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **1985 releases** of **430 projects**:
+   - **1491** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 494 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
@@ -144,7 +144,7 @@ Its objectives are to provide:
 | org.apache.jdo | <a name='org.apache.jdo:jdo'></a>[jdo](content/org/apache/jdo/README.md) | 2 | 2 :warning: |
 | org.apache.jspwiki | <a name='org.apache.jspwiki:jspwiki-builder'></a>[jspwiki-builder](content/org/apache/jspwiki/README.md) | 6 | 6 :warning: |
 | org.apache.mina | <a name='org.apache.mina:mina-parent'></a>[mina-parent](content/org/apache/mina/README.md) | 4 | 1 :heavy_check_mark: / 3 :warning: |
-| org.apache.orc | <a name='org.apache.orc:orc'></a>[orc](content/org/apache/orc/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
+| org.apache.orc | <a name='org.apache.orc:orc'></a>[orc](content/org/apache/orc/README.md) | 6 | 5 :heavy_check_mark: / 1 :warning: |
 | org.apache.rat | <a name='org.apache.rat:apache-rat-project'></a>[apache-rat-project](content/org/apache/rat/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.ratis | <a name='org.apache.ratis:ratis'></a>[ratis](content/org/apache/ratis/README.md) | 1 | 1 :warning: |
 | org.apache.shiro | <a name='org.apache.shiro:shiro-root'></a>[shiro-root](content/org/apache/shiro/README.md) | 5 | 5 :warning: |
@@ -191,7 +191,7 @@ Its objectives are to provide:
 | org.apache.maven.enforcer | <a name='org.apache.maven.enforcer:enforcer'></a>[enforcer](content/org/apache/maven/enforcer/README.md) | 4 | 4 :heavy_check_mark: |
 | org.apache.maven.indexer | <a name='org.apache.maven.indexer:maven-indexer'></a>[maven-indexer](content/org/apache/maven/indexer/README.md) | 8 | 6 :heavy_check_mark: / 2 :warning: |
 | org.apache.maven.jxr | <a name='org.apache.maven.jxr:jxr'></a>[jxr](content/org/apache/maven/jxr/README.md) | 3 | 3 :heavy_check_mark: |
-| org.apache.maven | <a name='org.apache.maven:maven'></a>[maven](content/org/apache/maven/maven/README.md) | 16 | 13 :heavy_check_mark: / 3 :warning: |
+| org.apache.maven | <a name='org.apache.maven:maven'></a>[maven](content/org/apache/maven/maven/README.md) | 17 | 14 :heavy_check_mark: / 3 :warning: |
 | | <a name='org.apache.maven:maven-parent'></a>[maven-parent](content/org/apache/maven/parent/README.md) | 7 | 4 :heavy_check_mark: / 3 :warning: |
 | org.apache.maven.scm | <a name='org.apache.maven.scm:maven-scm'></a>[maven-scm](content/org/apache/maven/scm/README.md) | 9 | 9 :heavy_check_mark: |
 | org.apache.maven.surefire | <a name='org.apache.maven.surefire:surefire'></a>[surefire](content/org/apache/maven/surefire/README.md) | 6 | 2 :heavy_check_mark: / 4 :warning: |
@@ -452,7 +452,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 15 | 15 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **430** | **1982** | **1488** :heavy_check_mark: **494** :warning: |
+| **Count:** | **430** | **1985** | **1491** :heavy_check_mark: **494** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -471,7 +471,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    135 mvn        17
+    136 mvn        17
      10 mvn        18
      11 mvn        19
       5 mvn        20
@@ -480,7 +480,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.8.5   8
      12 mvn-3.8.5  11
       8 mvn-3.8.5  17
-     25 mvn-3.8.6   8
+     27 mvn-3.8.6   8
       2 mvn-3.8.6  11
      35 mvn-3.8.6  17
       2 mvn-3.8.6  18
