@@ -636,6 +636,7 @@ rebuilding **5 releases** of org.apache.camel:camel:
 | [4.0.0-M3](https://central.sonatype.com/artifact/org.apache.camel/camel/4.0.0-M3/pom) | [mvn jdk17](camel-4.0.0-M3.buildspec) | [result](camel-4.0.0-M3.buildinfo): [1095 :heavy_check_mark:  403 :warning:](camel-4.0.0-M3.buildcompare) [:mag:](camel-4.0.0-M3.diffoscope) | 168M |
 | [4.0.0-M2](https://central.sonatype.com/artifact/org.apache.camel/camel/4.0.0-M2/pom) | | | |
 | [4.0.0-M1](https://central.sonatype.com/artifact/org.apache.camel/camel/4.0.0-M1/pom) | | | |
+| [3.21.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.21.0/pom) | | | |
 | [3.20.6](https://central.sonatype.com/artifact/org.apache.camel/camel/3.20.6/pom) | | | |
 | [3.20.5](https://central.sonatype.com/artifact/org.apache.camel/camel/3.20.5/pom) | | | |
 | [3.20.4](https://central.sonatype.com/artifact/org.apache.camel/camel/3.20.4/pom) | | | |
