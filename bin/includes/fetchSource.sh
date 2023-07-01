@@ -60,7 +60,8 @@ else
   # use provided sourceDistribution
   info "Fetching source code from distribution \033[1m${sourceDistribution}\033[0m"
   [ -f $(basename ${sourceDistribution}) ] || wget ${sourceDistribution}
-  [ -d ${sourcePath} ] || unzip $(basename ${sourceDistribution})
+  [ -d ${sourcePath} ] && \rm -rf ${sourcePath}
+  unzip $(basename ${sourceDistribution})
   cd ${sourcePath}
   [ -n "${sourceRmFiles}" ] && \rm ${sourceRmFiles}
 fi
