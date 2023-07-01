@@ -1,0 +1,85 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Qpid ProtonJ2 Parent
+group-id=org.apache.qpid
+artifact-id=protonj2-parent
+version=1.0.0-M16
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/qpid-protonj2.git
+source.scm.tag=1.0.0-M16
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=apache-qpid-protonj2
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.qpid:protonj2-parent
+
+outputs.0.0.filename=protonj2-parent-1.0.0-M16.pom
+outputs.0.0.length=15152
+outputs.0.0.checksums.sha512=ed1138b33e73d7b8715fc031f770ef796b0024decef98751e7c48a8a6e75330e0f034aec5a022b0b5d9d2bb3d5a5b59e760efe47329a352652266e63fd98bfd3
+
+outputs.1.coordinates=org.apache.qpid:protonj2-test-driver
+
+outputs.1.0.filename=protonj2-test-driver-1.0.0-M16.pom
+outputs.1.0.length=4109
+outputs.1.0.checksums.sha512=5643b09a6fc5390e1f9ed4fd7053eb24fdf85a36ea94f4965f2a6f420d26e514075554b7a0bbb717418f6001a4af07e415f3c8dc0078a706615a542762d8ee5f
+
+outputs.1.1.filename=protonj2-test-driver-1.0.0-M16.jar
+outputs.1.1.length=639593
+outputs.1.1.checksums.sha512=2c993c5479542a855274f201b0b807d1e6b918f8bf1988cefbbb7c418d09f98226b3e818eca60787563b7968c1991d011ca0f532177108bb5c6ddb22dc534e89
+
+outputs.1.2.filename=protonj2-test-driver-1.0.0-M16-sources.jar
+outputs.1.2.length=391471
+outputs.1.2.checksums.sha512=9c52823e24b49bf7b72bf67c2ea8edb946b663bf56e8104ad660f4378960c2849b93bccdbb4827f436ab03cf5e28d95d46a5408fd242834461739393e045d006
+
+outputs.2.coordinates=org.apache.qpid:protonj2
+
+outputs.2.0.filename=protonj2-1.0.0-M16.pom
+outputs.2.0.length=4271
+outputs.2.0.checksums.sha512=2df8d794cb3fa4ab4db3a894a8b55581baea1a4d6c6db172c258b9fb3ee02548333ac67fe00ff9e561f825b54d7d5fe0c59089cb7157a8073d628427958ac379
+
+outputs.2.1.filename=protonj2-1.0.0-M16.jar
+outputs.2.1.length=934235
+outputs.2.1.checksums.sha512=262508acfa44cf9169b33f7ddf0c5ab38c925813c7ebc6d3d89c8354a15371abc25fbc5856c49f1bf9ecbc01ca6e0708a7b67222132845693e79d2b0594d7235
+
+outputs.2.2.filename=protonj2-1.0.0-M16-sources.jar
+outputs.2.2.length=729689
+outputs.2.2.checksums.sha512=56dc5f2b406690f583f16ec5846364b1104cf47b7dd3bfc699d47f4fb5cc8acafbb665dd95e81768a636356213ccc56b77dc654f4ec6f2272fa849765dcb3a13
+
+outputs.3.coordinates=org.apache.qpid:protonj2-client
+
+outputs.3.0.filename=protonj2-client-1.0.0-M16.pom
+outputs.3.0.length=6662
+outputs.3.0.checksums.sha512=617a10e7ebb98b394a212f7d8f6450c9f81b00feb7f5386d6062e87f160b98385d20470acd988233526b76118479958aa678cc213e2ffdd6c7c7b7c84feec4d7
+
+outputs.3.1.filename=protonj2-client-1.0.0-M16.jar
+outputs.3.1.length=376955
+outputs.3.1.checksums.sha512=da894389e001a4d9b35342119157240587971b27bf45ccc68e42b206fec4f5bc1470c48596124efa3a1f705094326387fd1c1537356829762a7c64b3740d2663
+
+outputs.3.2.filename=protonj2-client-1.0.0-M16-sources.jar
+outputs.3.2.length=293507
+outputs.3.2.checksums.sha512=542e00366e2b5aafcc31656178e62510431ab1153c102626a6e9df18baad868a4539c469967d19086ea9cee06fbf0e1cb8b70afbedcb1aac01f18770fdf6c621
+
+outputs.4.coordinates=org.apache.qpid:apache-qpid-protonj2
+
+outputs.4.0.filename=apache-qpid-protonj2-1.0.0-M16.pom
+outputs.4.0.length=4008
+outputs.4.0.checksums.sha512=3a014a3a0ed4a60493c81fd0d908859a3743e5d947722ce716819b8e11298d22c71dee4e48cdba4309b55da766f67531ba4b6e231e986f93c865b592f4d1832f
+
+outputs.4.1.filename=apache-qpid-protonj2-1.0.0-M16-bin.tar.gz
+outputs.4.1.length=4313342
+outputs.4.1.checksums.sha512=12af3d7233cf76d1d348fbe09a33281b794224a68542f19ce3ee694b24213b1cd153561ec64382ee79d3cfd3bbbf87e6a6f48d236ed34bafb3b48b68c7a2a135
+
+outputs.4.2.filename=apache-qpid-protonj2-1.0.0-M16-src.tar.gz
+outputs.4.2.length=1120578
+outputs.4.2.checksums.sha512=01872f26f04723967cd7211922ba2076bf2a12eb62689f7398af92ea9aba7746a1a2dc37246b8e39f808fa4351c4643d877efed9a64a44754274835d80f7250d
