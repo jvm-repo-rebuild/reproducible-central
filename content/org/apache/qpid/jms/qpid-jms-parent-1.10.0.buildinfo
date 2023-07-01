@@ -1,0 +1,71 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=QpidJMS
+group-id=org.apache.qpid
+artifact-id=qpid-jms-parent
+version=1.10.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/qpid-jms.git
+source.scm.tag=1.10.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=apache-qpid-jms
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.qpid:qpid-jms-parent
+
+outputs.0.0.filename=qpid-jms-parent-1.10.0.pom
+outputs.0.0.length=16292
+outputs.0.0.checksums.sha512=5976c9126de7e82e62c0afa3c591e5fcbbd43d2dae06ccc049226974d599da2d26b6e9e83da9e8ca60daf096f40d6cedc748f59b166b5b9e6060ed211d5c1297
+
+outputs.1.coordinates=org.apache.qpid:qpid-jms-client
+
+outputs.1.0.filename=qpid-jms-client-1.10.0.pom
+outputs.1.0.length=9306
+outputs.1.0.checksums.sha512=f9c76efac09e937d863f7c015eaf9941a4b6f38e8e0f8715b8953b6d3c0f2bfb5cb0fb0264fcb7f73aa239babd7ff1311402743e9ad2a9c55ced969bc464d286
+
+outputs.1.1.filename=qpid-jms-client-1.10.0.jar
+outputs.1.1.length=810761
+outputs.1.1.checksums.sha512=95dc164415ae3228d6507f42a6866d14e2a31afbf11275ccc62fb5a4e6e4b9b6f3451de2194fe6c555a2b0b4422be214eba4f2deca5086c1b985f0fbe00efc0c
+
+outputs.1.2.filename=qpid-jms-client-1.10.0-sources.jar
+outputs.1.2.length=565766
+outputs.1.2.checksums.sha512=3dca61566b291d9e5f582b947b697f251750720989d0ac780841726b7fedb473ae30a9e5aedce60cccdf6f1c170f1e74d111bbd3d7c870e236ee29daa3f693dd
+
+outputs.2.coordinates=org.apache.qpid:qpid-jms-discovery
+
+outputs.2.0.filename=qpid-jms-discovery-1.10.0.pom
+outputs.2.0.length=2320
+outputs.2.0.checksums.sha512=a6deeb2628efde29ea90aa9919efe65319e1daf4a9c2ec49be0edea8c4af10a59a8b1a9b3a9446813c90638459b87048d6523c6f591e8d29d0d225337b23cde8
+
+outputs.2.1.filename=qpid-jms-discovery-1.10.0.jar
+outputs.2.1.length=40969
+outputs.2.1.checksums.sha512=fcb26016a2ff47340f769c5b1b7b9f852c5fa4d0d23112a037411bac2fba15a161383742d7a716e554f32f20fcae38da96f912d229126b8a529d6dca33da0f78
+
+outputs.2.2.filename=qpid-jms-discovery-1.10.0-sources.jar
+outputs.2.2.length=35972
+outputs.2.2.checksums.sha512=1428f2f88defdf1683af42410b151eb6be4ed807197ab4417ce03cf421064c764801216a5214c9ac1d1951786de64585bd6fa7129d5cba5d8ee39409c7d36c05
+
+outputs.3.coordinates=org.apache.qpid:apache-qpid-jms
+
+outputs.3.0.filename=apache-qpid-jms-1.10.0.pom
+outputs.3.0.length=4060
+outputs.3.0.checksums.sha512=bf69035964272854334dcc268d703d9681c8452f028fae4c9b56d7c6842bb467f2b8c8eb09baf1c12b7d398189c505720159cc2179346be6ef5e22b8c1b9913b
+
+outputs.3.1.filename=apache-qpid-jms-1.10.0-bin.tar.gz
+outputs.3.1.length=4603531
+outputs.3.1.checksums.sha512=0c072b63260b35181217102384d2fc3e041ec44a43e1ff64ffd4111686d2dda516a8056985dac0695bd9166da593f36a614ea32a7d19684c326f5d09e6113df3
+
+outputs.3.2.filename=apache-qpid-jms-1.10.0-src.tar.gz
+outputs.3.2.length=889118
+outputs.3.2.checksums.sha512=5f1b3c597e1b47a5d33dab40e8dae2f389ba945f022e3138972eedde9382c0d64a4a62197826187d313701d13bc9c73d43ebed5f868c823058381d7af0e64dc5
