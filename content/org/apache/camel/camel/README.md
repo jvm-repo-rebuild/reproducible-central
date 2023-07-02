@@ -7,7 +7,7 @@
 
 Source code: [https://github.com/apache/camel.git](https://github.com/apache/camel.git)
 
-<details><summary>This project defines 616 modules:</summary>
+<details><summary>This project defines 618 modules:</summary>
 
 * [org.apache.camel.archetypes:camel-archetype-api-component](https://central.sonatype.com/artifact/org.apache.camel.archetypes/camel-archetype-api-component/4.0.0-M3)
 * [org.apache.camel.archetypes:camel-archetype-cdi](https://central.sonatype.com/artifact/org.apache.camel.archetypes/camel-archetype-cdi/4.0.0-M3)
@@ -283,6 +283,7 @@ Source code: [https://github.com/apache/camel.git](https://github.com/apache/cam
 * [org.apache.camel:camel-javadoc-plugin](https://central.sonatype.com/artifact/org.apache.camel/camel-javadoc-plugin/4.0.0-M3)
 * [org.apache.camel:camel-javascript](https://central.sonatype.com/artifact/org.apache.camel/camel-javascript/4.0.0-M3)
 * [org.apache.camel:camel-jaxb](https://central.sonatype.com/artifact/org.apache.camel/camel-jaxb/4.0.0-M3)
+* [org.apache.camel:camel-jbang-console](https://central.sonatype.com/artifact/org.apache.camel/camel-jbang-console/4.0.0-M3)
 * [org.apache.camel:camel-jbang-core](https://central.sonatype.com/artifact/org.apache.camel/camel-jbang-core/4.0.0-M3)
 * [org.apache.camel:camel-jbang-main](https://central.sonatype.com/artifact/org.apache.camel/camel-jbang-main/4.0.0-M3)
 * [org.apache.camel:camel-jbang-parent](https://central.sonatype.com/artifact/org.apache.camel/camel-jbang-parent/4.0.0-M3)
@@ -477,6 +478,7 @@ Source code: [https://github.com/apache/camel.git](https://github.com/apache/cam
 * [org.apache.camel:camel-support](https://central.sonatype.com/artifact/org.apache.camel/camel-support/4.0.0-M3)
 * [org.apache.camel:camel-swagger-java](https://central.sonatype.com/artifact/org.apache.camel/camel-swagger-java/4.0.0-M3)
 * [org.apache.camel:camel-swagger-rest-dsl-generator](https://central.sonatype.com/artifact/org.apache.camel/camel-swagger-rest-dsl-generator/4.0.0-M3)
+* [org.apache.camel:camel-swift](https://central.sonatype.com/artifact/org.apache.camel/camel-swift/4.0.0-M3)
 * [org.apache.camel:camel-syslog](https://central.sonatype.com/artifact/org.apache.camel/camel-syslog/4.0.0-M3)
 * [org.apache.camel:camel-tagsoup](https://central.sonatype.com/artifact/org.apache.camel/camel-tagsoup/4.0.0-M3)
 * [org.apache.camel:camel-tarfile](https://central.sonatype.com/artifact/org.apache.camel/camel-tarfile/4.0.0-M3)
@@ -627,16 +629,16 @@ Source code: [https://github.com/apache/camel.git](https://github.com/apache/cam
 * [org.apache.camel:tooling-parent](https://central.sonatype.com/artifact/org.apache.camel/tooling-parent/4.0.0-M3)
 </details>
 
-rebuilding **5 releases** of org.apache.camel:camel:
+rebuilding **6 releases** of org.apache.camel:camel:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [4.0.0-M3](https://central.sonatype.com/artifact/org.apache.camel/camel/4.0.0-M3/pom) | [mvn jdk17](camel-4.0.0-M3.buildspec) | [result](camel-4.0.0-M3.buildinfo): [1095 :heavy_check_mark:  403 :warning:](camel-4.0.0-M3.buildcompare) [:mag:](camel-4.0.0-M3.diffoscope) | 168M |
 | [4.0.0-M2](https://central.sonatype.com/artifact/org.apache.camel/camel/4.0.0-M2/pom) | | | |
 | [4.0.0-M1](https://central.sonatype.com/artifact/org.apache.camel/camel/4.0.0-M1/pom) | | | |
-| [3.21.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.21.0/pom) | | | |
+| [3.21.0](https://central.sonatype.com/artifact/org.apache.camel/camel/3.21.0/pom) | [mvn jdk11](camel-3.21.0.buildspec) | [result](camel-3.21.0.buildinfo): [1176 :heavy_check_mark:  468 :warning:](camel-3.21.0.buildcompare) [:mag:](camel-3.21.0.diffoscope) [:memo:](https://github.com/apache/camel/pull/10557) | 134M |
 | [3.20.6](https://central.sonatype.com/artifact/org.apache.camel/camel/3.20.6/pom) | | | |
 | [3.20.5](https://central.sonatype.com/artifact/org.apache.camel/camel/3.20.5/pom) | | | |
 | [3.20.4](https://central.sonatype.com/artifact/org.apache.camel/camel/3.20.4/pom) | | | |
