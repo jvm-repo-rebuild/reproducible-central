@@ -1,0 +1,7 @@
+version=0.1.0
+ok=4
+ko=0
+okFiles="log4j-tools-bom-0.1.0.pom log4j-tools-parent-0.1.0.pom log4j-changelog-0.1.0.pom log4j-changelog-0.1.0.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

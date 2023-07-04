@@ -1,0 +1,45 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=log4j-tools-bom
+group-id=org.apache.logging.log4j
+artifact-id=log4j-tools-bom
+version=0.1.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:apache/logging-log4j-tools.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=log4j-changelog
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.logging.log4j:log4j-tools-bom
+
+outputs.0.0.filename=log4j-tools-bom-0.1.0.pom
+outputs.0.0.length=4058
+outputs.0.0.checksums.sha512=aec6a6b78d22aed11d1a030d4537ea4c1b89e60d4c092573144ab92e069c399360b4ced88b8ac62777471d06d879be5b1f3566442781e45f620dfa7359ea25aa
+
+outputs.1.coordinates=org.apache.logging.log4j:log4j-tools-parent
+
+outputs.1.0.filename=log4j-tools-parent-0.1.0.pom
+outputs.1.0.length=7613
+outputs.1.0.checksums.sha512=a8c406508a9fadf7392beb81445801385c40250462d8d31a101417669378d3440883d5e59822310f5de72bbb403dfdd87b3420bc71daa74f21a36e96abc1ce58
+
+outputs.2.coordinates=org.apache.logging.log4j:log4j-changelog
+
+outputs.2.0.filename=log4j-changelog-0.1.0.pom
+outputs.2.0.length=1992
+outputs.2.0.checksums.sha512=b84db6f7a9c2782fbd420518fb13ebcceaa1a08dd633641071b53a74983b09e19b74d713f4a93bbf304d937adc60119cb043a38153a16d62d2d357137faedba3
+
+outputs.2.1.filename=log4j-changelog-0.1.0.jar
+outputs.2.1.length=51982
+outputs.2.1.checksums.sha512=fba5fda846f80dafdd516398ac2495faddbb34403ebce0b6224444df193d3645b4e4a59c3601bec43050fb13cb05be2f7ef5026390563953371357300b212c59
