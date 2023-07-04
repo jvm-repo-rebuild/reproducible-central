@@ -1,0 +1,34 @@
+# see instructions https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/BUILDSPEC.md
+
+# Central Repository coordinates for the Reference release (for multi-module, pick an arbitrary module)
+groupId=pl.com.labaj
+artifactId=auto-record
+version=2.0.0
+
+display=${groupId}:${artifactId}
+
+# Source code
+gitRepo=https://github.com/pawellabaj/auto-record.git
+gitTag=v${version}
+#sourceDistribution=https://archive.apache.org/dist/maven/scm/${artifactId}-${version}-source-release.zip
+#sourcePath=${artifactId}-${version}
+#sourceRmFiles=DEPENDENCIES LICENSE NOTICE
+
+# Rebuild environment prerequisites
+tool=mvn
+# or tool=mvn-3.8.5 if default 3.6.3 version does not match your prerequisites (available version may be limited by images available on Dockerhub)
+# or tool=gradle or tool=sbt
+jdk=17
+newline=lf
+# crlf for Windows, lf for Unix
+umask=022
+
+# Rebuild command
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+# Location of the buildinfo file generated during rebuild to record output fingerprints
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+# if the release is finally not reproducible, link to an issue tracker entry if one was created or diffoscope result
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
