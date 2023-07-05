@@ -1,0 +1,7 @@
+version=4.0.2
+ok=4
+ko=0
+okFiles="plexus-xml-4.0.2.pom plexus-xml-4.0.2.jar plexus-xml-4.0.2-source-release.zip plexus-xml-4.0.2-sources.jar"
+koFiles=""
+reference_java_version="20 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
