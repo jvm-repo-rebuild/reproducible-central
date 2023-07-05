@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2004 releases** of **433 projects**:
-   - **1507** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **2005 releases** of **433 projects**:
+   - **1508** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 497 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
@@ -185,9 +185,9 @@ Its objectives are to provide:
 | org.apache.karaf | <a name='org.apache.karaf:decanter'></a>[decanter](content/org/apache/karaf/decanter/README.md) | 2 | 2 :warning: |
 | | <a name='org.apache.karaf:karaf'></a>[karaf](content/org/apache/karaf/karaf/README.md) | 5 | 5 :warning: |
 | org.apache.karaf.minho | <a name='org.apache.karaf.minho:minho'></a>[minho](content/org/apache/karaf/minho/README.md) | 1 | 1 :heavy_check_mark: |
-| org.apache.logging.log4j | <a name='org.apache.logging.log4j:log4j-transform-bom'></a>[log4j-transform-bom](content/org/apache/logging/log4j-transform/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.logging | <a name='org.apache.logging:logging-parent'></a>[logging-parent](content/org/apache/logging/parent/README.md) | 5 | 4 :heavy_check_mark: / 1 :warning: |
 | org.apache.logging.log4j | <a name='org.apache.logging.log4j:log4j-tools-bom'></a>[log4j-tools-bom](content/org/apache/logging/log4j/tools/README.md) | 3 | 3 :heavy_check_mark: |
+| | <a name='org.apache.logging.log4j:log4j-transform-bom'></a>[log4j-transform-bom](content/org/apache/logging/log4j/transform/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.maven.archetype | <a name='org.apache.maven.archetype:maven-archetype'></a>[maven-archetype](content/org/apache/maven/archetype/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.maven.enforcer | <a name='org.apache.maven.enforcer:enforcer'></a>[enforcer](content/org/apache/maven/enforcer/README.md) | 4 | 4 :heavy_check_mark: |
 | org.apache.maven.indexer | <a name='org.apache.maven.indexer:maven-indexer'></a>[maven-indexer](content/org/apache/maven/indexer/README.md) | 8 | 6 :heavy_check_mark: / 2 :warning: |
@@ -390,7 +390,7 @@ Its objectives are to provide:
 | | <a name='org.codehaus.plexus:plexus'></a>[plexus](content/org/codehaus/plexus/plexus-pom/README.md) | 11 | 10 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.codehaus.plexus:plexus-utils'></a>[plexus-utils](content/org/codehaus/plexus/plexus-utils/README.md) | 6 | 4 :heavy_check_mark: / 2 :warning: |
 | | <a name='org.codehaus.plexus:plexus-velocity'></a>[plexus-velocity](content/org/codehaus/plexus/plexus-velocity/README.md) | 2 | 2 :heavy_check_mark: |
-| | <a name='org.codehaus.plexus:plexus-xml'></a>[plexus-xml](content/org/codehaus/plexus/plexus-xml/README.md) | 2 | 2 :heavy_check_mark: |
+| | <a name='org.codehaus.plexus:plexus-xml'></a>[plexus-xml](content/org/codehaus/plexus/plexus-xml/README.md) | 3 | 3 :heavy_check_mark: |
 | org.complate | <a name='org.complate:complate-core'></a>[complate-core](content/org/complate/java/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='org.complate:complate-spring-mvc'></a>[complate-spring-mvc](content/org/complate/spring/README.md) | 2 | 2 :heavy_check_mark: |
 | org.cyclonedx | <a name='org.cyclonedx:cyclonedx-core-java'></a>[cyclonedx-core-java](content/org/cyclonedx/cyclonedx-core-java/README.md) | 28 | 28 :heavy_check_mark: |
@@ -455,7 +455,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 15 | 15 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **433** | **2004** | **1507** :heavy_check_mark: **497** :warning: |
+| **Count:** | **433** | **2005** | **1508** :heavy_check_mark: **497** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -477,7 +477,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
     140 mvn        17
      10 mvn        18
      11 mvn        19
-      5 mvn        20
+      6 mvn        20
       2 mvn-3.5.4   8
       2 mvn-3.6.3   8
       1 mvn-3.8.5   8
