@@ -21,6 +21,7 @@ rebuilding **3 releases** of org.apache.logging.log4j:log4j-tools-bom:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.4.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-bom/0.4.0/pom) | | | |
 | [0.3.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-bom/0.3.0/pom) | [mvn jdk17](log4j-tools-0.3.0.buildspec) | [result](log4j-tools-bom-0.3.0.buildinfo): [6 :heavy_check_mark: ](log4j-tools-bom-0.3.0.buildcompare) | 89K |
 | [0.2.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-bom/0.2.0/pom) | [mvn jdk11](log4j-tools-0.2.0.buildspec) | [result](log4j-tools-bom-0.2.0.buildinfo): [6 :heavy_check_mark: ](log4j-tools-bom-0.2.0.buildcompare) | 85K |
 | [0.1.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-bom/0.1.0/pom) | [mvn jdk11](log4j-tools-0.1.0.buildspec) | [result](log4j-tools-bom-0.1.0.buildinfo): [4 :heavy_check_mark: ](log4j-tools-bom-0.1.0.buildcompare) | 65K |

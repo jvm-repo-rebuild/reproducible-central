@@ -3,15 +3,16 @@
   <groupId>io.micronaut.maven</groupId>
   <artifactId>micronaut-maven-plugin</artifactId>
   <versioning>
-    <latest>4.0.0-M5</latest>
-    <release>4.0.0-M5</release>
+    <latest>4.0.0-M6</latest>
+    <release>4.0.0-M6</release>
     <versions>
       <version>4.0.0-M1</version>
       <version>4.0.0-M2</version>
       <version>4.0.0-M3</version>
       <version>4.0.0-M4</version>
       <version>4.0.0-M5</version>
+      <version>4.0.0-M6</version>
     </versions>
-    <lastUpdated>20230705104944</lastUpdated>
+    <lastUpdated>20230706150823</lastUpdated>
   </versioning>
 </metadata>

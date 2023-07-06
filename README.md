@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2005 releases** of **433 projects**:
-   - **1508** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **2008 releases** of **433 projects**:
+   - **1511** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 497 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
@@ -98,7 +98,7 @@ Its objectives are to provide:
 | io.github.hboutemy | <a name='io.github.hboutemy:sigstore-maven-plugin'></a>[sigstore-maven-plugin](content/io/github/hboutemy/sigstore-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | io.github.zlika | <a name='io.github.zlika:reproducible-build-maven-plugin'></a>[reproducible-build-maven-plugin](content/io/github/zlika/reproducible-build-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | io.micronaut.build | <a name='io.micronaut.build:micronaut-maven-plugin'></a>[micronaut-maven-plugin](content/io/micronaut/build/micronaut-maven-plugin/README.md) | 34 | 34 :heavy_check_mark: |
-| io.micronaut.maven | <a name='io.micronaut.maven:micronaut-maven-plugin'></a>[micronaut-maven-plugin](content/io/micronaut/maven/micronaut-maven-plugin/README.md) | 3 | 3 :heavy_check_mark: |
+| io.micronaut.maven | <a name='io.micronaut.maven:micronaut-maven-plugin'></a>[micronaut-maven-plugin](content/io/micronaut/maven/micronaut-maven-plugin/README.md) | 4 | 4 :heavy_check_mark: |
 | io.opentelemetry.instrumentation | <a name='io.opentelemetry.instrumentation:opentelemetry-instrumentation-api'></a>[opentelemetry-instrumentation-api](content/io/opentelemetry/instrumentation/README.md) | 2 | 2 :warning: |
 | io.opentelemetry | <a name='io.opentelemetry:opentelemetry-sdk'></a>[opentelemetry-sdk](content/io/opentelemetry/java/README.md) | 1 | 1 :warning: |
 | io.smallrye | <a name='io.smallrye:jandex-parent'></a>[jandex-parent](content/io/smallrye/jandex/README.md) | 2 | 2 :warning: |
@@ -154,7 +154,7 @@ Its objectives are to provide:
 | org.apache.syncope | <a name='org.apache.syncope:syncope'></a>[syncope](content/org/apache/syncope/README.md) | 3 | 3 :warning: |
 | org.apache.systemds | <a name='org.apache.systemds:systemds'></a>[systemds](content/org/apache/systemds/README.md) | 1 | 1 :warning: |
 | org.apache.tika | <a name='org.apache.tika:tika'></a>[tika](content/org/apache/tika/README.md) | 5 | 5 :warning: |
-| org.apache.wayang | <a name='org.apache.wayang:wayang'></a>[wayang](content/org/apache/wayang/README.md) | 1 | 1 :warning: |
+| org.apache.wayang | <a name='org.apache.wayang:wayang'></a>[wayang](content/org/apache/wayang/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | org.apache.wss4j | <a name='org.apache.wss4j:wss4j'></a>[wss4j](content/org/apache/wss4j/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | org.apache.zookeeper | <a name='org.apache.zookeeper:parent'></a>[parent](content/org/apache/zookeeper/README.md) | 1 | 1 :warning: |
 | org.apache.activemq | <a name='org.apache.activemq:artemis-pom'></a>[artemis-pom](content/org/apache/activemq/artemis/README.md) | 2 | 2 :warning: |
@@ -453,9 +453,9 @@ Its objectives are to provide:
 | pl.com.labaj | <a name='pl.com.labaj:auto-record'></a>[auto-record](content/pl/com/labaj/auto-record/README.md) | 2 | 2 :heavy_check_mark: |
 | tech.picnic.error-prone-support | <a name='tech.picnic.error-prone-support:error-prone-support'></a>[error-prone-support](content/tech/picnic/error-prone-support/error-prone-support/README.md) | 10 | 10 :heavy_check_mark: |
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
-| us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 15 | 15 :heavy_check_mark: |
+| us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 16 | 16 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **433** | **2005** | **1508** :heavy_check_mark: **497** :warning: |
+| **Count:** | **433** | **2008** | **1511** :heavy_check_mark: **497** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -467,14 +467,14 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      21 gradle     11
      26 mvn         7
-    883 mvn         8
+    885 mvn         8
       1 mvn         9
     702 mvn        11
       1 mvn        13
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    140 mvn        17
+    141 mvn        17
      10 mvn        18
      11 mvn        19
       6 mvn        20
