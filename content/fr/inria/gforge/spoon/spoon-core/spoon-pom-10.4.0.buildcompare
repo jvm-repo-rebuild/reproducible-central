@@ -1,0 +1,8 @@
+version=10.4.0
+ok=7
+ko=1
+okFiles="spoon-core-10.4.0.pom spoon-core-10.4.0.jar spoon-core-10.4.0-jar-with-dependencies.jar spoon-core-10.4.0-sources.jar spoon-javadoc-10.4.0.pom spoon-javadoc-10.4.0.jar spoon-javadoc-10.4.0-sources.jar"
+koFiles="spoon-pom-10.4.0.pom"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/spoon-pom-10.4.0.pom pom.xml

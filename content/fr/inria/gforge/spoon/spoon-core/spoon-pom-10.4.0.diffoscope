@@ -1,0 +1,5 @@
+# spoon-pom 10.4.0 not published to Maven Central: https://repo.maven.apache.org/maven2/fr/inria/gforge/spoon/spoon-pom/
+# missing parent, the release cannot be consumed at all...
+1 / 1 target/reference/spoon-pom-10.4.0.pom pom.xml
+/srv/diffoscope/bin/diffoscope: target/reference/spoon-pom-10.4.0.pom: No such file or directory
+
