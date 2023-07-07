@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2008 releases** of **433 projects**:
-   - **1511** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 497 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **2012 releases** of **433 projects**:
+   - **1514** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 498 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
 
@@ -63,7 +63,7 @@ Its objectives are to provide:
 | com.ongres.stringprep | <a name='com.ongres.stringprep:parent'></a>[parent](content/com/ongres/stringprep/README.md) | 1 | 1 :warning: |
 | com.scalapenos | <a name='com.scalapenos:stamina_2.11'></a>[stamina_2.11](content/com/scalapenos/stamina/README.md) | 2 | 2 :heavy_check_mark: |
 | com.spotify.fmt | <a name='com.spotify.fmt:fmt-maven-plugin'></a>[fmt-maven-plugin](content/com/spotify/fmt-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
-| com.spotify | <a name='com.spotify:github-client'></a>[github-client](content/com/spotify/github-client/README.md) | 6 | 6 :heavy_check_mark: |
+| com.spotify | <a name='com.spotify:github-client'></a>[github-client](content/com/spotify/github-client/README.md) | 7 | 7 :heavy_check_mark: |
 | com.taobao.arthas | <a name='com.taobao.arthas:arthas-all'></a>[arthas-all](content/com/taobao/arthas/README.md) | 14 | 14 :warning: |
 | com.vladsch.flexmark | <a name='com.vladsch.flexmark:flexmark-java'></a>[flexmark-java](content/com/vladsch/flexmark/flexmark-java/README.md) | 3 | 3 :heavy_check_mark: |
 | de.jflex | <a name='de.jflex:jflex-parent'></a>[jflex-parent](content/de/jflex/README.md) | 1 | 1 :heavy_check_mark: |
@@ -72,7 +72,7 @@ Its objectives are to provide:
 | eu.europa.ted.eforms | <a name='eu.europa.ted.eforms:eforms-core-java'></a>[eforms-core-java](content/eu/europa/ted/eforms/eforms-core-java/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | | <a name='eu.europa.ted.eforms:eforms-sdk'></a>[eforms-sdk](content/eu/europa/ted/eforms/eforms-sdk/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
 | eu.maveniverse.maven.mima | <a name='eu.maveniverse.maven.mima:mima'></a>[mima](content/eu/maveniverse/maven/mima/README.md) | 16 | 16 :heavy_check_mark: |
-| fr.inria.gforge.spoon | <a name='fr.inria.gforge.spoon:spoon-core'></a>[spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
+| fr.inria.gforge.spoon | <a name='fr.inria.gforge.spoon:spoon-core'></a>[spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 3 | 1 :heavy_check_mark: / 2 :warning: |
 | fr.marcwrobel | <a name='fr.marcwrobel:jbanking'></a>[jbanking](content/fr/marcwrobel/jbanking/README.md) | 1 | 1 :heavy_check_mark: |
 | fr.vidal.oss | <a name='fr.vidal.oss:atom-jaxb'></a>[atom-jaxb](content/fr/vidal/oss/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | io.jooby | <a name='io.jooby:jooby'></a>[jooby](content/io/jooby/README.md) | 1 | 1 :warning: |
@@ -98,7 +98,7 @@ Its objectives are to provide:
 | io.github.hboutemy | <a name='io.github.hboutemy:sigstore-maven-plugin'></a>[sigstore-maven-plugin](content/io/github/hboutemy/sigstore-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | io.github.zlika | <a name='io.github.zlika:reproducible-build-maven-plugin'></a>[reproducible-build-maven-plugin](content/io/github/zlika/reproducible-build-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | io.micronaut.build | <a name='io.micronaut.build:micronaut-maven-plugin'></a>[micronaut-maven-plugin](content/io/micronaut/build/micronaut-maven-plugin/README.md) | 34 | 34 :heavy_check_mark: |
-| io.micronaut.maven | <a name='io.micronaut.maven:micronaut-maven-plugin'></a>[micronaut-maven-plugin](content/io/micronaut/maven/micronaut-maven-plugin/README.md) | 4 | 4 :heavy_check_mark: |
+| io.micronaut.maven | <a name='io.micronaut.maven:micronaut-maven-plugin'></a>[micronaut-maven-plugin](content/io/micronaut/maven/micronaut-maven-plugin/README.md) | 5 | 5 :heavy_check_mark: |
 | io.opentelemetry.instrumentation | <a name='io.opentelemetry.instrumentation:opentelemetry-instrumentation-api'></a>[opentelemetry-instrumentation-api](content/io/opentelemetry/instrumentation/README.md) | 2 | 2 :warning: |
 | io.opentelemetry | <a name='io.opentelemetry:opentelemetry-sdk'></a>[opentelemetry-sdk](content/io/opentelemetry/java/README.md) | 1 | 1 :warning: |
 | io.smallrye | <a name='io.smallrye:jandex-parent'></a>[jandex-parent](content/io/smallrye/jandex/README.md) | 2 | 2 :warning: |
@@ -186,7 +186,7 @@ Its objectives are to provide:
 | | <a name='org.apache.karaf:karaf'></a>[karaf](content/org/apache/karaf/karaf/README.md) | 5 | 5 :warning: |
 | org.apache.karaf.minho | <a name='org.apache.karaf.minho:minho'></a>[minho](content/org/apache/karaf/minho/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.logging | <a name='org.apache.logging:logging-parent'></a>[logging-parent](content/org/apache/logging/parent/README.md) | 5 | 4 :heavy_check_mark: / 1 :warning: |
-| org.apache.logging.log4j | <a name='org.apache.logging.log4j:log4j-tools-bom'></a>[log4j-tools-bom](content/org/apache/logging/log4j/tools/README.md) | 3 | 3 :heavy_check_mark: |
+| org.apache.logging.log4j | <a name='org.apache.logging.log4j:log4j-tools-bom'></a>[log4j-tools-bom](content/org/apache/logging/log4j/tools/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.apache.logging.log4j:log4j-transform-bom'></a>[log4j-transform-bom](content/org/apache/logging/log4j/transform/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.maven.archetype | <a name='org.apache.maven.archetype:maven-archetype'></a>[maven-archetype](content/org/apache/maven/archetype/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.maven.enforcer | <a name='org.apache.maven.enforcer:enforcer'></a>[enforcer](content/org/apache/maven/enforcer/README.md) | 4 | 4 :heavy_check_mark: |
@@ -455,7 +455,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 16 | 16 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **433** | **2008** | **1511** :heavy_check_mark: **497** :warning: |
+| **Count:** | **433** | **2012** | **1514** :heavy_check_mark: **498** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -469,12 +469,12 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      26 mvn         7
     885 mvn         8
       1 mvn         9
-    702 mvn        11
+    704 mvn        11
       1 mvn        13
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    141 mvn        17
+    142 mvn        17
      10 mvn        18
      11 mvn        19
       6 mvn        20
@@ -490,7 +490,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn-3.8.6  19
      11 mvn-3.8.7  17
       4 mvn-3.9.0  11
-      5 mvn-3.9.0  17
+      6 mvn-3.9.0  17
       5 mvn-3.9.1   8
       1 mvn-3.9.1  11
      41 mvn-3.9.1  17
