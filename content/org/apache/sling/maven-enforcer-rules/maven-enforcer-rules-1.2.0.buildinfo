@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven Enforcer Rules
+group-id=org.apache.sling
+artifact-id=maven-enforcer-rules
+version=1.2.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-maven-enforcer-rules.git
+source.scm.tag=maven-enforcer-rules-1.2.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=maven-enforcer-rules-1.2.0.pom
+outputs.0.length=6207
+outputs.0.checksums.sha512=c7253bc941598ae0ba0a8e26551011fc7cd1fa612ec92d9af4c20acbfb3b741d8daecb08ac090a9eaa91d8bbbe772c5ffd7317e1f69c0158e60be3b2f85ba3fc
+
+outputs.1.filename=maven-enforcer-rules-1.2.0.jar
+outputs.1.length=19101
+outputs.1.checksums.sha512=f1032eb88d061ebacdd0b07d03449fcb984a20b379c390710a2e63c3179f5ff8c5cf2ea56518ed63db021480a0b41baae086af6cb88ee5cfce191cefcb273c64
+
+outputs.2.filename=maven-enforcer-rules-1.2.0-source-release.zip
+outputs.2.length=23869
+outputs.2.checksums.sha512=16ad309d323c24d030f026c4ae2be08fe1600ff232ed723733bc77aecb043752e9286bd74edc194109526c2f753f65810b05bef29055b5c815d7fcac1e2a1e79
+
+outputs.3.filename=maven-enforcer-rules-1.2.0-sources.jar
+outputs.3.length=12974
+outputs.3.checksums.sha512=fb3c9992c700ca27ec122a2fb2044640d377d01bfcb6381f7d038814cf7765216f8ed585fed0e758a5d71321e7469893b489c7e5379a29782cc4d9799336c6ba
+
+outputs.4.filename=maven-enforcer-rules-1.2.0-sources.jar
+outputs.4.length=12974
+outputs.4.checksums.sha512=fb3c9992c700ca27ec122a2fb2044640d377d01bfcb6381f7d038814cf7765216f8ed585fed0e758a5d71321e7469893b489c7e5379a29782cc4d9799336c6ba
