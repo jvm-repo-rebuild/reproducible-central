@@ -1,0 +1,30 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Highcharts
+group-id=org.webjars
+artifact-id=highcharts
+version=11.1.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/webjars/highcharts.git
+source.scm.tag=highcharts-11.1.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=highcharts-11.1.0.pom
+outputs.0.length=4916
+outputs.0.checksums.sha512=6c1b527fb1573a28ecb7d3a7e1b6ac3d31ddb0b112fa8e29cdf631b2a3feaf5232a112a59832543c65b8fd700d34b986cb152560a65254fc0e6e1e64285ab859
+
+outputs.1.filename=highcharts-11.1.0.jar
+outputs.1.length=19009274
+outputs.1.checksums.sha512=6f2612515d5ae22279ccdb00ac493a2188f0c1f58f09ea103a1b729b99cdbad881d25022ce5d6ed9d1c7e292caaa73fbd786611721d0cdd8b9077dc10481b864
