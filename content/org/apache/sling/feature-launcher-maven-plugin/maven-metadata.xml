@@ -3,13 +3,14 @@
   <groupId>org.apache.sling</groupId>
   <artifactId>feature-launcher-maven-plugin</artifactId>
   <versioning>
-    <latest>0.1.4</latest>
-    <release>0.1.4</release>
+    <latest>0.1.6</latest>
+    <release>0.1.6</release>
     <versions>
       <version>0.1.0</version>
       <version>0.1.2</version>
       <version>0.1.4</version>
+      <version>0.1.6</version>
     </versions>
-    <lastUpdated>20221123033022</lastUpdated>
+    <lastUpdated>20230710120457</lastUpdated>
   </versioning>
 </metadata>

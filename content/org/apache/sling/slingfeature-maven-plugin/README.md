@@ -13,6 +13,7 @@ rebuilding **9 releases** of org.apache.sling:slingfeature-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.7.2](https://central.sonatype.com/artifact/org.apache.sling/slingfeature-maven-plugin/1.7.2/pom) | | | |
 | [1.7.0](https://central.sonatype.com/artifact/org.apache.sling/slingfeature-maven-plugin/1.7.0/pom) | [mvn jdk11](slingfeature-maven-plugin-1.7.0.buildspec) | [result](slingfeature-maven-plugin-1.7.0.buildinfo): [4 :heavy_check_mark: ](slingfeature-maven-plugin-1.7.0.buildcompare) | 853K |
 | [1.6.8](https://central.sonatype.com/artifact/org.apache.sling/slingfeature-maven-plugin/1.6.8/pom) | [mvn jdk11](slingfeature-maven-plugin-1.6.8.buildspec) | [result](slingfeature-maven-plugin-1.6.8.buildinfo): [4 :heavy_check_mark: ](slingfeature-maven-plugin-1.6.8.buildcompare) | 852K |
 | [1.6.6](https://central.sonatype.com/artifact/org.apache.sling/slingfeature-maven-plugin/1.6.6/pom) | [mvn jdk11](slingfeature-maven-plugin-1.6.6.buildspec) | [result](slingfeature-maven-plugin-1.6.6.buildinfo): [4 :heavy_check_mark: ](slingfeature-maven-plugin-1.6.6.buildcompare) | 851K |

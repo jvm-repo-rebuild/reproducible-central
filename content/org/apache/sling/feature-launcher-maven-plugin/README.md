@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.apache.sling:feature-launcher-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.1.6](https://central.sonatype.com/artifact/org.apache.sling/feature-launcher-maven-plugin/0.1.6/pom) | | | |
 | [0.1.4](https://central.sonatype.com/artifact/org.apache.sling/feature-launcher-maven-plugin/0.1.4/pom) | [mvn jdk11](feature-launcher-maven-plugin-0.1.4.buildspec) | [result](feature-launcher-maven-plugin-0.1.4.buildinfo): [4 :heavy_check_mark: ](feature-launcher-maven-plugin-0.1.4.buildcompare) | 131K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
