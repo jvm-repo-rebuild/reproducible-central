@@ -1,0 +1,7 @@
+version=4.0.0-M9
+ok=4
+ko=0
+okFiles="maven-reporting-impl-4.0.0-M9.pom maven-reporting-impl-4.0.0-M9.jar maven-reporting-impl-4.0.0-M9-source-release.zip maven-reporting-impl-4.0.0-M9-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
