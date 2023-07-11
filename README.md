@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2017 releases** of **433 projects**:
-   - **1519** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 498 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **2028 releases** of **433 projects**:
+   - **1526** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 502 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
 
@@ -149,9 +149,9 @@ Its objectives are to provide:
 | org.apache.ratis | <a name='org.apache.ratis:ratis'></a>[ratis](content/org/apache/ratis/README.md) | 1 | 1 :warning: |
 | org.apache.shiro | <a name='org.apache.shiro:shiro-root'></a>[shiro-root](content/org/apache/shiro/README.md) | 5 | 5 :warning: |
 | org.apache.sshd | <a name='org.apache.sshd:sshd'></a>[sshd](content/org/apache/sshd/README.md) | 3 | 3 :warning: |
-| org.apache.struts | <a name='org.apache.struts:struts2-parent'></a>[struts2-parent](content/org/apache/struts/README.md) | 5 | 5 :warning: |
+| org.apache.struts | <a name='org.apache.struts:struts2-parent'></a>[struts2-parent](content/org/apache/struts/README.md) | 6 | 6 :warning: |
 | org.apache.synapse | <a name='org.apache.synapse:Apache-Synapse'></a>[Apache-Synapse](content/org/apache/synapse/README.md) | 1 | 1 :warning: |
-| org.apache.syncope | <a name='org.apache.syncope:syncope'></a>[syncope](content/org/apache/syncope/README.md) | 3 | 3 :warning: |
+| org.apache.syncope | <a name='org.apache.syncope:syncope'></a>[syncope](content/org/apache/syncope/README.md) | 4 | 4 :warning: |
 | org.apache.systemds | <a name='org.apache.systemds:systemds'></a>[systemds](content/org/apache/systemds/README.md) | 1 | 1 :warning: |
 | org.apache.tika | <a name='org.apache.tika:tika'></a>[tika](content/org/apache/tika/README.md) | 5 | 5 :warning: |
 | org.apache.wayang | <a name='org.apache.wayang:wayang'></a>[wayang](content/org/apache/wayang/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
@@ -199,7 +199,7 @@ Its objectives are to provide:
 | org.apache.maven.wrapper | <a name='org.apache.maven.wrapper:maven-wrapper-parent'></a>[maven-wrapper-parent](content/org/apache/maven/wrapper/README.md) | 3 | 3 :heavy_check_mark: |
 | org.apache.maven.doxia | <a name='org.apache.maven.doxia:doxia'></a>[doxia](content/org/apache/maven/doxia/doxia/README.md) | 11 | 11 :heavy_check_mark: |
 | | <a name='org.apache.maven.doxia:doxia-converter'></a>[doxia-converter](content/org/apache/maven/doxia/doxia-converter/README.md) | 1 | 1 :heavy_check_mark: |
-| | <a name='org.apache.maven.doxia:doxia-sitetools'></a>[doxia-sitetools](content/org/apache/maven/doxia/doxia-sitetools/README.md) | 12 | 12 :heavy_check_mark: |
+| | <a name='org.apache.maven.doxia:doxia-sitetools'></a>[doxia-sitetools](content/org/apache/maven/doxia/doxia-sitetools/README.md) | 13 | 13 :heavy_check_mark: |
 | org.apache.maven.plugin-tools | <a name='org.apache.maven.plugin-tools:maven-plugin-tools'></a>[maven-plugin-tools](content/org/apache/maven/plugin-tools/maven-plugin-tools/README.md) | 8 | 8 :heavy_check_mark: |
 | org.apache.maven.plugins | <a name='org.apache.maven.plugins:maven-antrun-plugin'></a>[maven-antrun-plugin](content/org/apache/maven/plugins/maven-antrun-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-artifact-plugin'></a>[maven-artifact-plugin](content/org/apache/maven/plugins/maven-artifact-plugin/README.md) | 6 | 6 :heavy_check_mark: |
@@ -228,14 +228,14 @@ Its objectives are to provide:
 | | <a name='org.apache.maven.plugins:maven-scm-publish-plugin'></a>[maven-scm-publish-plugin](content/org/apache/maven/plugins/maven-scm-publish-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-scripting-plugin'></a>[maven-scripting-plugin](content/org/apache/maven/plugins/maven-scripting-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-shade-plugin'></a>[maven-shade-plugin](content/org/apache/maven/plugins/maven-shade-plugin/README.md) | 7 | 7 :heavy_check_mark: |
-| | <a name='org.apache.maven.plugins:maven-site-plugin'></a>[maven-site-plugin](content/org/apache/maven/plugins/maven-site-plugin/README.md) | 14 | 12 :heavy_check_mark: / 2 :warning: |
+| | <a name='org.apache.maven.plugins:maven-site-plugin'></a>[maven-site-plugin](content/org/apache/maven/plugins/maven-site-plugin/README.md) | 15 | 13 :heavy_check_mark: / 2 :warning: |
 | | <a name='org.apache.maven.plugins:maven-source-plugin'></a>[maven-source-plugin](content/org/apache/maven/plugins/maven-source-plugin/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.apache.maven.plugins:maven-toolchains-plugin'></a>[maven-toolchains-plugin](content/org/apache/maven/plugins/maven-toolchains-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-war-plugin'></a>[maven-war-plugin](content/org/apache/maven/plugins/maven-war-plugin/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-wrapper-plugin'></a>[maven-wrapper-plugin](content/org/apache/maven/plugins/maven-wrapper-plugin/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | org.apache.maven.reporting | <a name='org.apache.maven.reporting:maven-reporting-api'></a>[maven-reporting-api](content/org/apache/maven/reporting/maven-reporting-api/README.md) | 9 | 9 :heavy_check_mark: |
-| | <a name='org.apache.maven.reporting:maven-reporting-exec'></a>[maven-reporting-exec](content/org/apache/maven/reporting/maven-reporting-exec/README.md) | 10 | 10 :heavy_check_mark: |
-| | <a name='org.apache.maven.reporting:maven-reporting-impl'></a>[maven-reporting-impl](content/org/apache/maven/reporting/maven-reporting-impl/README.md) | 10 | 10 :heavy_check_mark: |
+| | <a name='org.apache.maven.reporting:maven-reporting-exec'></a>[maven-reporting-exec](content/org/apache/maven/reporting/maven-reporting-exec/README.md) | 11 | 11 :heavy_check_mark: |
+| | <a name='org.apache.maven.reporting:maven-reporting-impl'></a>[maven-reporting-impl](content/org/apache/maven/reporting/maven-reporting-impl/README.md) | 11 | 11 :heavy_check_mark: |
 | org.apache.maven.resolver | <a name='org.apache.maven.resolver:maven-resolver'></a>[maven-resolver](content/org/apache/maven/resolver/maven-resolver/README.md) | 23 | 21 :heavy_check_mark: / 2 :warning: |
 | | <a name='org.apache.maven.resolver:maven-resolver-ant-tasks'></a>[maven-resolver-ant-tasks](content/org/apache/maven/resolver/maven-resolver-ant-tasks/README.md) | 4 | 4 :heavy_check_mark: |
 | org.apache.maven | <a name='org.apache.maven:maven-archiver'></a>[maven-archiver](content/org/apache/maven/shared/archiver/README.md) | 3 | 3 :heavy_check_mark: |
@@ -250,7 +250,7 @@ Its objectives are to provide:
 | | <a name='org.apache.maven.shared:maven-shared-resources'></a>[maven-shared-resources](content/org/apache/maven/shared/maven-shared-resources/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='org.apache.maven.shared:maven-shared-utils'></a>[maven-shared-utils](content/org/apache/maven/shared/maven-shared-utils/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.apache.maven.shared:maven-verifier'></a>[maven-verifier](content/org/apache/maven/shared/maven-verifier/README.md) | 4 | 4 :heavy_check_mark: |
-| org.apache.maven.skins | <a name='org.apache.maven.skins:maven-fluido-skin'></a>[maven-fluido-skin](content/org/apache/maven/skins/fluido/README.md) | 8 | 8 :heavy_check_mark: |
+| org.apache.maven.skins | <a name='org.apache.maven.skins:maven-fluido-skin'></a>[maven-fluido-skin](content/org/apache/maven/skins/fluido/README.md) | 10 | 8 :heavy_check_mark: / 2 :warning: |
 | org.apache.maven.wagon | <a name='org.apache.maven.wagon:wagon'></a>[wagon](content/org/apache/maven/wagon/wagon/README.md) | 8 | 8 :heavy_check_mark: |
 | org.apache.ftpserver | <a name='org.apache.ftpserver:ftpserver-parent'></a>[ftpserver-parent](content/org/apache/mina/ftpserver/README.md) | 1 | 1 :warning: |
 | org.apache.nifi | <a name='org.apache.nifi:nifi'></a>[nifi](content/org/apache/nifi/nifi/README.md) | 8 | 8 :warning: |
@@ -264,7 +264,7 @@ Its objectives are to provide:
 | | <a name='org.apache.qpid:protonj2-parent'></a>[protonj2-parent](content/org/apache/qpid/protonj2/README.md) | 8 | 7 :heavy_check_mark: / 1 :warning: |
 | org.apache.royale.compiler | <a name='org.apache.royale.compiler:compiler'></a>[compiler](content/org/apache/royale/compiler/README.md) | 2 | 2 :warning: |
 | org.apache.santuario | <a name='org.apache.santuario:xmlsec'></a>[xmlsec](content/org/apache/santuario/xmlsec/README.md) | 3 | 3 :warning: |
-| org.apache.sling | <a name='org.apache.sling:feature-launcher-maven-plugin'></a>[feature-launcher-maven-plugin](content/org/apache/sling/feature-launcher-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
+| org.apache.sling | <a name='org.apache.sling:feature-launcher-maven-plugin'></a>[feature-launcher-maven-plugin](content/org/apache/sling/feature-launcher-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.sling:htl-maven-plugin'></a>[htl-maven-plugin](content/org/apache/sling/htl-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.sling:jspc-maven-plugin'></a>[jspc-maven-plugin](content/org/apache/sling/jspc-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.sling:maven-enforcer-rules'></a>[maven-enforcer-rules](content/org/apache/sling/maven-enforcer-rules/README.md) | 3 | 3 :heavy_check_mark: |
@@ -355,7 +355,7 @@ Its objectives are to provide:
 | | <a name='org.apache.sling:org.apache.sling.tooling.support.source'></a>[*.tooling.support.source](content/org/apache/sling/org.apache.sling.tooling.support.source/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.xss'></a>[*.xss](content/org/apache/sling/org.apache.sling.xss/README.md) | 5 | 4 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.apache.sling:scriptingbundle-maven-plugin'></a>[scriptingbundle-maven-plugin](content/org/apache/sling/scriptingbundle-maven-plugin/README.md) | 3 | 3 :warning: |
-| | <a name='org.apache.sling:slingfeature-maven-plugin'></a>[slingfeature-maven-plugin](content/org/apache/sling/slingfeature-maven-plugin/README.md) | 9 | 6 :heavy_check_mark: / 3 :warning: |
+| | <a name='org.apache.sling:slingfeature-maven-plugin'></a>[slingfeature-maven-plugin](content/org/apache/sling/slingfeature-maven-plugin/README.md) | 10 | 7 :heavy_check_mark: / 3 :warning: |
 | org.apache.tomee | <a name='org.apache.tomee:jakartaee-api'></a>[jakartaee-api](content/org/apache/tomee/jakartaee-api/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | org.apache.ws.commons.axiom | <a name='org.apache.ws.commons.axiom:axiom'></a>[axiom](content/org/apache/ws/commons/axiom/README.md) | 1 | 1 :warning: |
 | org.codehaus.modello | <a name='org.codehaus.modello:modello'></a>[modello](content/org/codehaus/modello/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
@@ -441,7 +441,7 @@ Its objectives are to provide:
 | org.spdx | <a name='org.spdx:spdx-maven-plugin'></a>[spdx-maven-plugin](content/org/spdx/spdx-maven-plugin/README.md) | 1 | 1 :warning: |
 | org.tomitribe.transformer | <a name='org.tomitribe.transformer:org.eclipse.transformer.parent'></a>[org.eclipse.transformer.parent](content/org/tomitribe/transformer/README.md) | 2 | 2 :heavy_check_mark: |
 | org.webjars | <a name='org.webjars:bootstrap'></a>[bootstrap](content/org/webjars/bootstrap/README.md) | 5 | 5 :heavy_check_mark: |
-| | <a name='org.webjars:flexmonster'></a>[flexmonster](content/org/webjars/flexmonster/README.md) | 35 | 32 :heavy_check_mark: / 3 :warning: |
+| | <a name='org.webjars:flexmonster'></a>[flexmonster](content/org/webjars/flexmonster/README.md) | 36 | 33 :heavy_check_mark: / 3 :warning: |
 | | <a name='org.webjars:font-awesome'></a>[font-awesome](content/org/webjars/font-awesome/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.webjars:highcharts'></a>[highcharts](content/org/webjars/highcharts/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.webjars:jszip'></a>[jszip](content/org/webjars/jszip/README.md) | 1 | 1 :heavy_check_mark: |
@@ -455,7 +455,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 16 | 16 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **433** | **2017** | **1519** :heavy_check_mark: **498** :warning: |
+| **Count:** | **433** | **2028** | **1526** :heavy_check_mark: **502** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -467,16 +467,16 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      21 gradle     11
      26 mvn         7
-    888 mvn         8
+    895 mvn         8
       1 mvn         9
-    705 mvn        11
+    706 mvn        11
       1 mvn        13
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    143 mvn        17
+    145 mvn        17
      10 mvn        18
-     11 mvn        19
+     12 mvn        19
       6 mvn        20
       2 mvn-3.5.4   8
       2 mvn-3.6.3   8
