@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Fluido Skin
+group-id=org.apache.maven.skins
+artifact-id=maven-fluido-skin
+version=2.0.0-M5
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-fluido-skin.git
+source.scm.tag=maven-fluido-skin-2.0.0-M5
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=maven-fluido-skin-2.0.0-M5.pom
+outputs.0.length=32613
+outputs.0.checksums.sha512=159a1927108b0c733c3830ce807a066e8ce0af5c2c5fb3efc21c308374d86b5d4e4cb7dae34bf9493ace9db04427a162b00d91a8dde85bcda973c80fbfa1777e
+
+outputs.1.filename=maven-fluido-skin-2.0.0-M5.jar
+outputs.1.length=356000
+outputs.1.checksums.sha512=214c45ca0fc1e56aaa51639d7bce39f74cbcfb378cdc391f5dcd7227a54a46c3abb6060250a2ed3f40fd56bb2cf06223b76e608c4ea5c43896b274510dd06e5c
+
+outputs.2.filename=maven-fluido-skin-2.0.0-M5-source-release.zip
+outputs.2.length=634536
+outputs.2.checksums.sha512=ece802b6e380a081cf8f5969bcbc70d67aa43b7067071f8b9162418576583bca493e59de2d190e867b584e064294b987e90d1e1bb0915c5594ea72a62c022f21
+
+outputs.3.filename=maven-fluido-skin-2.0.0-M5-sources.jar
+outputs.3.length=349547
+outputs.3.checksums.sha512=b45259692c268928ce1680f653487b1f610ba8897c6eb92c5cb3afe765229df6656d346f63bcf08134d36431794b459fa19226ca79597458eeb33651942082c2
