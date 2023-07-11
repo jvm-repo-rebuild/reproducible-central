@@ -1,0 +1,43 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Feature Launcher Maven Plugin
+group-id=org.apache.sling
+artifact-id=feature-launcher-maven-plugin
+version=0.1.6
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-feature-launcher-maven-plugin.git
+source.scm.tag=feature-launcher-maven-plugin-0.1.6
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.3.9
+
+# output
+
+outputs.0.filename=feature-launcher-maven-plugin-0.1.6.pom
+outputs.0.length=8217
+outputs.0.checksums.sha512=ed4766c64bef9bf03cf4f0dfddb3ef0d7eeeb52f22290de074d66ac28f8bec56bff65874a68af1ce57bca7e9a9af949074a3ed02deb5b7cffb090586ae8f7f69
+
+outputs.1.filename=feature-launcher-maven-plugin-0.1.6.jar
+outputs.1.length=34384
+outputs.1.checksums.sha512=b6f9c85c46eb3b3249edabac67df57eef7c4c5614cd9b86e5cc014e0b064010552b90e2c4dbc6d0e89e38d41738db86ac86bacb256efccb1b283566716e9d81e
+
+outputs.2.filename=feature-launcher-maven-plugin-0.1.6-source-release.zip
+outputs.2.length=47701
+outputs.2.checksums.sha512=b1d2337a908a846f7e4ff9dbf21c5a19a133326672c508113d71564114a75d2e045154caa8ecc2da8ffa62b0f138505898a70856f31bf1d60ca28309e5441dd6
+
+outputs.3.filename=feature-launcher-maven-plugin-0.1.6-sources.jar
+outputs.3.length=22561
+outputs.3.checksums.sha512=a15e8aee87470c7df239a9e607e800e85ba1ec16d821c86e5bbd8824a182aa6f4d0bf2efe6fecbf676640f367b4fad2f7553236038c6a7f8f38b8ea8c85af7a3
+
+outputs.4.filename=feature-launcher-maven-plugin-0.1.6-sources.jar
+outputs.4.length=22561
+outputs.4.checksums.sha512=a15e8aee87470c7df239a9e607e800e85ba1ec16d821c86e5bbd8824a182aa6f4d0bf2efe6fecbf676640f367b4fad2f7553236038c6a7f8f38b8ea8c85af7a3
