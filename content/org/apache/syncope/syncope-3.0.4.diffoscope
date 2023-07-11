@@ -1,17 +1,39 @@
-1 / 1 target/reference/syncope-fit-build-tools-3.0.4.war fit/build-tools/target/syncope-fit-build-tools-3.0.4.war
+1 / 81 target/reference/syncope-3.0.4-cyclonedx.xml target/bom.xml
+--- target/reference/syncope-3.0.4-cyclonedx.xml
++++ target/bom.xml
+│   --- target/reference/syncope-3.0.4-cyclonedx.xml
+├── +++ target/bom.xml
+│ @@ -3216,22 +3216,22 @@
+│      <component type="library" bom-ref="pkg:maven/net.tirasa.connid/connector-framework@1.5.2.0?type=jar">
+│        <group>net.tirasa.connid</group>
+│        <name>connector-framework</name>
+│        <version>1.5.2.0</version>
+│        <description>Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/</description>
+│        <scope>required</scope>
+│        <hashes>
+│ -        <hash alg="MD5">0c4a209ea2040b04a6157424bdf1734a</hash>
+│ -        <hash alg="SHA-1">b1a55d89826c955b877cf74c42f2fcbe1116e9ab</hash>
+...
+│ -        <hash alg="SHA3-512">e3b8e00170a3d465b58c9187124c5c662362acf51426bdf67ccf5071ffc08a5ae818ac9eeb4adbd72137788ff573c6bda151af4d6212c850110e630732882b6c</hash>
+│ +        <hash alg="MD5">0a75678eae4a001f0a227abaa105787a</hash>
+│ +        <hash alg="SHA-1">b308218b779b1dfb1a0711eef2741fe3322eff86</hash>
+...
+│ +        <hash alg="SHA3-512">c01968305b7ecce299edbb9bb58e4f778252504d2cb4915837749ae5f03e6e45faac845f67e265e5e36ab3dbcafa25811c433b375c0eb91166b71405f077ddc1</hash>
+│        </hashes>
+│        <licenses>
+│          <license>
+│            <id>CDDL-1.0</id>
+│          </license>
+│        </licenses>
+│        <purl>pkg:maven/net.tirasa.connid/connector-framework@1.5.2.0?type=jar</purl>
+...
+
+...
+
+35 / 81 target/reference/syncope-fit-build-tools-3.0.4.war fit/build-tools/target/syncope-fit-build-tools-3.0.4.war
 --- target/reference/syncope-fit-build-tools-3.0.4.war
 +++ fit/build-tools/target/syncope-fit-build-tools-3.0.4.war
 ├── zipinfo {}
-│ @@ -1,8 +1,8 @@
-│ -Zip file size: 147357827 bytes, number of entries: 143
-│ +Zip file size: 147357664 bytes, number of entries: 143
-│  -rw-r--r--  2.0 unx       81 b- defN 23-Jul-07 06:42 META-INF/MANIFEST.MF
-│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-07 06:42 META-INF/
-│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-07 06:42 WEB-INF/
-│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-07 06:42 WEB-INF/classes/
-│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-07 06:42 WEB-INF/classes/META-INF/
-│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-07 06:42 WEB-INF/classes/bundles/
-│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-07 06:42 WEB-INF/classes/com/
 │ @@ -52,15 +52,15 @@
 │  -rw-r--r--  2.0 unx     1290 b- defN 23-Jul-07 06:42 WEB-INF/classes/org/apache/syncope/fit/buildtools/cxf/UserMetadata.class
 │  -rw-r--r--  2.0 unx     9117 b- defN 23-Jul-07 06:42 WEB-INF/classes/org/apache/syncope/fit/buildtools/cxf/UserService.class
@@ -29,37 +51,10 @@
 │  -rw-r--r--  2.0 unx   710523 b- defN 23-Jul-07 06:42 WEB-INF/lib/cxf-rt-frontend-jaxrs-3.6.1.jar
 │  -rw-r--r--  2.0 unx   374266 b- defN 23-Jul-07 06:42 WEB-INF/lib/cxf-rt-frontend-jaxws-3.6.1.jar
 │  -rw-r--r--  2.0 unx   108327 b- defN 23-Jul-07 06:42 WEB-INF/lib/cxf-rt-frontend-simple-3.6.1.jar
-│ @@ -138,8 +138,8 @@
-│  -rw-r--r--  2.0 unx   186758 b- defN 23-Jul-07 06:42 WEB-INF/lib/wsdl4j-1.6.3.jar
-│  -rw-r--r--  2.0 unx    84091 b- defN 23-Jul-07 06:42 WEB-INF/lib/xml-resolver-1.2.jar
-│  -rw-r--r--  2.0 unx   173411 b- defN 23-Jul-07 06:42 WEB-INF/lib/xmlschema-core-2.3.0.jar
-│  -rw-r--r--  2.0 unx     1251 b- defN 23-Jul-07 06:42 WEB-INF/payara-web.xml
-│  -rw-r--r--  2.0 unx     1210 b- defN 23-Jul-07 06:42 WEB-INF/web.xml
-│  -rw-r--r--  2.0 unx    14371 b- defN 23-Jul-07 06:42 META-INF/maven/org.apache.syncope.fit/syncope-fit-build-tools/pom.xml
-│  -rw-r--r--  2.0 unx       80 b- defN 23-Jul-07 06:42 META-INF/maven/org.apache.syncope.fit/syncope-fit-build-tools/pom.properties
-│ -143 files, 151666526 bytes uncompressed, 147334417 bytes compressed:  2.9%
-│ +143 files, 151666527 bytes uncompressed, 147334254 bytes compressed:  2.9%
 ├── WEB-INF/classes/bundles/net.tirasa.connid.bundles.soap-1.4.5-bundle.jar
 │ ├── zipinfo {}
 │ │ @@ -1,20 +1,20 @@
-│ │  Zip file size: 50370 bytes, number of entries: 18
-│ │ -drwxr-xr-x  2.0 unx        0 bx stor 23-Jul-07 08:42 META-INF/
-│ │ --rw-r--r--  2.0 unx      242 b- defN 23-Jul-07 08:42 META-INF/MANIFEST.MF
-│ │ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-07 08:42 lib/
-│ │ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-07 08:42 net/
-│ │ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-07 08:42 net/tirasa/
-│ │ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-07 08:42 net/tirasa/connid/
-│ │ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-07 08:42 net/tirasa/connid/bundles/
-│ │ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-07 08:42 net/tirasa/connid/bundles/soap/
-│ │ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-07 08:42 net/tirasa/connid/bundles/soap/cxf/
-│ │ --rw-r--r--  2.0 unx    24952 b- defN 23-Jul-07 08:42 META-INF/LICENSE
-│ │ --rw-r--r--  2.0 unx     1073 b- defN 23-Jul-07 08:42 META-INF/NOTICE
-│ │ --rw-r--r--  2.0 unx    25479 b- defN 23-Jul-07 08:42 lib/soap-utilities-1.4.5.jar
-│ │ --rw-r--r--  2.0 unx     1050 b- defN 23-Jul-07 08:42 net/tirasa/connid/bundles/soap/Messages.properties
-│ │ --rw-r--r--  2.0 unx     3237 b- defN 23-Jul-07 08:42 net/tirasa/connid/bundles/soap/WebServiceConfiguration.class
-│ │ --rw-r--r--  2.0 unx     4928 b- defN 23-Jul-07 08:42 net/tirasa/connid/bundles/soap/WebServiceConnection.class
-│ │ --rw-r--r--  2.0 unx    26719 b- defN 23-Jul-07 08:42 net/tirasa/connid/bundles/soap/WebServiceConnector.class
-│ │ --rw-r--r--  2.0 unx     9405 b- defN 23-Jul-07 08:42 net/tirasa/connid/bundles/soap/WebServiceFilterTranslator.class
+...
 │ │ --rw-r--r--  2.0 unx     4202 b- defN 23-Jul-07 08:42 net/tirasa/connid/bundles/soap/cxf/ForceSoapActionOutInterceptor.class
 │ │ +drwxr-xr-x  2.0 unx        0 bx stor 23-Jul-07 06:42 META-INF/
 │ │ +-rw-r--r--  2.0 unx      242 b- defN 23-Jul-07 06:42 META-INF/MANIFEST.MF
@@ -85,463 +80,32 @@
 │ │ @@ -1,225 +1,225 @@
 │ │  Zip file size: 242210 bytes, number of entries: 223
 │ │ --rw----     2.0 fat     3559 bX defN 22-Dec-29 09:20 META-INF/MANIFEST.MF
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 META-INF/
-│ │ --rw----     2.0 fat    19982 bl defN 22-Dec-16 11:49 META-INF/LICENSE
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 META-INF/maven/
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 META-INF/maven/net.tirasa.connid/
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 META-INF/maven/net.tirasa.connid/connector-framework/
-│ │ --rw----     2.0 fat      147 bl defN 22-Dec-29 09:20 META-INF/maven/net.tirasa.connid/connector-framework/pom.properties
-│ │ --rw----     2.0 fat     3567 bl defN 22-Dec-29 09:15 META-INF/maven/net.tirasa.connid/connector-framework/pom.xml
-│ │ --rw----     2.0 fat      961 bl defN 22-Dec-16 11:49 connectors-framework.properties
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/common/
-│ │ --rw----     2.0 fat     2021 bl defN 22-Dec-29 09:20 org/identityconnectors/common/Assertions.class
-│ │ --rw----     2.0 fat      863 bl defN 22-Dec-29 09:20 org/identityconnectors/common/Base64.class
-│ │ --rw----     2.0 fat      868 bl defN 22-Dec-29 09:20 org/identityconnectors/common/ByteUtil.class
-│ │ --rw----     2.0 fat    16531 bl defN 22-Dec-29 09:20 org/identityconnectors/common/CollectionUtil.class
-│ │ --rw----     2.0 fat     4650 bl defN 22-Dec-29 09:20 org/identityconnectors/common/EqualsHashCodeBuilder.class
-│ │ --rw----     2.0 fat      859 bl defN 22-Dec-29 09:20 org/identityconnectors/common/GUID.class
-│ │ --rw----     2.0 fat    12542 bl defN 22-Dec-29 09:20 org/identityconnectors/common/IOUtil.class
-│ │ --rw----     2.0 fat     2713 bl defN 22-Dec-29 09:20 org/identityconnectors/common/Pair.class
-│ │ --rw----     2.0 fat     2881 bl defN 22-Dec-29 09:20 org/identityconnectors/common/PrettyStringBuilder.class
-│ │ --rw----     2.0 fat     4402 bl defN 22-Dec-29 09:20 org/identityconnectors/common/ReflectionUtil.class
-│ │ --rw----     2.0 fat     1705 bl defN 22-Dec-29 09:20 org/identityconnectors/common/StringPrintWriter.class
-│ │ --rw----     2.0 fat     9290 bl defN 22-Dec-29 09:20 org/identityconnectors/common/StringUtil.class
-│ │ --rw----     2.0 fat     5416 bl defN 22-Dec-29 09:20 org/identityconnectors/common/Version.class
-│ │ --rw----     2.0 fat     5504 bl defN 22-Dec-29 09:20 org/identityconnectors/common/VersionRange.class
-│ │ --rw----     2.0 fat      229 bl defN 22-Dec-29 09:20 org/identityconnectors/common/XmlUtil$1.class
-│ │ --rw----     2.0 fat     1181 bl defN 22-Dec-29 09:20 org/identityconnectors/common/XmlUtil$DummyDTDResolver.class
-│ │ --rw----     2.0 fat     4904 bl defN 22-Dec-29 09:20 org/identityconnectors/common/XmlUtil.class
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/common/event/
-│ │ --rw----     2.0 fat     2251 bl defN 22-Dec-29 09:20 org/identityconnectors/common/event/ConnectorEvent.class
-│ │ --rw----     2.0 fat      239 bl defN 22-Dec-29 09:20 org/identityconnectors/common/event/ConnectorEventHandler.class
-│ │ --rw----     2.0 fat      301 bl defN 22-Dec-29 09:20 org/identityconnectors/common/event/ConnectorEventPublisher.class
-│ │ --rw----     2.0 fat      141 bl defN 22-Dec-29 09:20 org/identityconnectors/common/event/package-info.class
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/common/l10n/
-│ │ --rw----     2.0 fat     1128 bl defN 22-Dec-29 09:20 org/identityconnectors/common/l10n/CurrentLocale.class
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/common/logging/
-│ │ --rw----     2.0 fat     1278 bl defN 22-Dec-29 09:20 org/identityconnectors/common/logging/Log$Level.class
-│ │ --rw----     2.0 fat    10018 bl defN 22-Dec-29 09:20 org/identityconnectors/common/logging/Log.class
-│ │ --rw----     2.0 fat     1076 bl defN 22-Dec-29 09:20 org/identityconnectors/common/logging/LogSpi.class
-│ │ --rw----     2.0 fat      879 bl defN 22-Dec-29 09:20 org/identityconnectors/common/logging/StdOutLogger$1.class
-│ │ --rw----     2.0 fat      828 bl defN 22-Dec-29 09:20 org/identityconnectors/common/logging/StdOutLogger$2.class
-│ │ --rw----     2.0 fat     4715 bl defN 22-Dec-29 09:20 org/identityconnectors/common/logging/StdOutLogger.class
-│ │ --rw----     2.0 fat      143 bl defN 22-Dec-29 09:20 org/identityconnectors/common/logging/package-info.class
-│ │ --rw----     2.0 fat      135 bl defN 22-Dec-29 09:20 org/identityconnectors/common/package-info.class
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/common/pooling/
-│ │ --rw----     2.0 fat     4093 bl defN 22-Dec-29 09:20 org/identityconnectors/common/pooling/ObjectPoolConfiguration.class
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/common/script/
-│ │ --rw----     2.0 fat     1431 bl defN 22-Dec-29 09:20 org/identityconnectors/common/script/Script.class
-│ │ --rw----     2.0 fat     1106 bl defN 22-Dec-29 09:20 org/identityconnectors/common/script/ScriptBuilder.class
-│ │ --rw----     2.0 fat      346 bl defN 22-Dec-29 09:20 org/identityconnectors/common/script/ScriptExecutor.class
-│ │ --rw----     2.0 fat     6249 bl defN 22-Dec-29 09:20 org/identityconnectors/common/script/ScriptExecutorFactory.class
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/common/security/
-│ │ --rw----     2.0 fat      183 bl defN 22-Dec-29 09:20 org/identityconnectors/common/security/Encryptor.class
-│ │ --rw----     2.0 fat     1548 bl defN 22-Dec-29 09:20 org/identityconnectors/common/security/EncryptorFactory.class
-│ │ --rw----     2.0 fat      289 bl defN 22-Dec-29 09:20 org/identityconnectors/common/security/GuardedByteArray$Accessor.class
-│ │ --rw----     2.0 fat     3935 bl defN 22-Dec-29 09:20 org/identityconnectors/common/security/GuardedByteArray.class
-│ │ --rw----     2.0 fat      280 bl defN 22-Dec-29 09:20 org/identityconnectors/common/security/GuardedString$Accessor.class
-│ │ --rw----     2.0 fat     4392 bl defN 22-Dec-29 09:20 org/identityconnectors/common/security/GuardedString.class
-│ │ --rw----     2.0 fat     4241 bl defN 22-Dec-29 09:20 org/identityconnectors/common/security/SecurityUtil.class
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/framework/
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/framework/api/
-│ │ --rw----     2.0 fat     1104 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/APIConfiguration.class
-│ │ --rw----     2.0 fat      447 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/ConfigurationProperties.class
-│ │ --rw----     2.0 fat      786 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/ConfigurationProperty.class
-│ │ --rw----     2.0 fat     1726 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/ConnectorFacade.class
-│ │ --rw----     2.0 fat     2109 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/ConnectorFacadeFactory.class
-│ │ --rw----     2.0 fat      508 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/ConnectorInfo.class
-│ │ --rw----     2.0 fat      438 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/ConnectorInfoManager.class
-│ │ --rw----     2.0 fat     1840 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/ConnectorInfoManagerFactory.class
-│ │ --rw----     2.0 fat     1952 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/ConnectorKey.class
-│ │ --rw----     2.0 fat     3091 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/RemoteFrameworkConnectionInfo.class
-│ │ --rw----     2.0 fat     3374 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/ResultsHandlerConfiguration.class
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/framework/api/operations/
-│ │ --rw----     2.0 fat      207 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/operations/APIOperation.class
-│ │ --rw----     2.0 fat      515 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/operations/AuthenticationApiOp.class
-│ │ --rw----     2.0 fat      717 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/operations/CreateApiOp.class
-│ │ --rw----     2.0 fat      422 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/operations/DeleteApiOp.class
-│ │ --rw----     2.0 fat      467 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/operations/DiscoverConfigurationApiOp.class
-│ │ --rw----     2.0 fat      483 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/operations/GetApiOp.class
-│ │ --rw----     2.0 fat      466 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/operations/ResolveUsernameApiOp.class
-│ │ --rw----     2.0 fat      297 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/operations/SchemaApiOp.class
-│ │ --rw----     2.0 fat      424 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/operations/ScriptOnConnectorApiOp.class
-│ │ --rw----     2.0 fat      421 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/operations/ScriptOnResourceApiOp.class
-│ │ --rw----     2.0 fat      557 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/operations/SearchApiOp.class
-│ │ --rw----     2.0 fat      702 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/operations/SyncApiOp.class
-│ │ --rw----     2.0 fat      236 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/operations/TestApiOp.class
-│ │ --rw----     2.0 fat      900 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/operations/UpdateApiOp.class
-│ │ --rw----     2.0 fat      833 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/operations/UpdateDeltaApiOp.class
-│ │ --rw----     2.0 fat      248 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/operations/ValidateApiOp.class
-│ │ --rw----     2.0 fat      142 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/api/package-info.class
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/framework/common/
-│ │ --rw----     2.0 fat    12925 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/FrameworkUtil.class
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/framework/common/exceptions/
-│ │ --rw----     2.0 fat     1367 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/exceptions/AlreadyExistsException.class
-│ │ --rw----     2.0 fat      939 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/exceptions/ConfigurationException.class
-│ │ --rw----     2.0 fat      956 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/exceptions/ConnectionBrokenException.class
-│ │ --rw----     2.0 fat      956 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/exceptions/ConnectionFailedException.class
-│ │ --rw----     2.0 fat     1315 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/exceptions/ConnectorException.class
-│ │ --rw----     2.0 fat      939 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/exceptions/ConnectorIOException.class
-│ │ --rw----     2.0 fat      951 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/exceptions/ConnectorSecurityException.class
-│ │ --rw----     2.0 fat     1501 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/exceptions/InvalidAttributeValueException.class
-│ │ --rw----     2.0 fat      959 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/exceptions/InvalidCredentialException.class
-│ │ --rw----     2.0 fat      953 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/exceptions/InvalidPasswordException.class
-│ │ --rw----     2.0 fat      943 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/exceptions/OperationTimeoutException.class
-│ │ --rw----     2.0 fat     1381 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/exceptions/PasswordExpiredException.class
-│ │ --rw----     2.0 fat      956 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/exceptions/PermissionDeniedException.class
-│ │ --rw----     2.0 fat      957 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/exceptions/PreconditionFailedException.class
-│ │ --rw----     2.0 fat      963 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/exceptions/PreconditionRequiredException.class
-│ │ --rw----     2.0 fat     1769 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/exceptions/RetryableException.class
-│ │ --rw----     2.0 fat     1505 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/exceptions/UnknownUidException.class
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/framework/common/objects/
-│ │ --rw----     2.0 fat     4459 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/Attribute.class
-│ │ --rw----     2.0 fat     8537 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/AttributeBuilder.class
-│ │ --rw----     2.0 fat     3972 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/AttributeDelta.class
-│ │ --rw----     2.0 fat    10181 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/AttributeDeltaBuilder.class
-│ │ --rw----     2.0 fat    12210 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/AttributeDeltaUtil.class
-│ │ --rw----     2.0 fat     1569 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/AttributeInfo$Flags.class
-│ │ --rw----     2.0 fat     1987 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/AttributeInfo$Subtypes.class
-│ │ --rw----     2.0 fat     5453 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/AttributeInfo.class
-│ │ --rw----     2.0 fat     6432 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/AttributeInfoBuilder.class
-│ │ --rw----     2.0 fat     2551 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/AttributeInfoUtil.class
-│ │ --rw----     2.0 fat    13098 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/AttributeUtil.class
-│ │ --rw----     2.0 fat     1286 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/AttributeValueCompleteness.class
-│ │ --rw----     2.0 fat     8898 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/AttributesAccessor.class
-│ │ --rw----     2.0 fat      258 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/ConnectorMessages.class
-│ │ --rw----     2.0 fat     4225 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/ConnectorObject.class
-│ │ --rw----     2.0 fat     6055 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/ConnectorObjectBuilder.class
-│ │ --rw----     2.0 fat      987 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/LocaleCache.class
-│ │ --rw----     2.0 fat     1460 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/Name.class
-│ │ --rw----     2.0 fat     1670 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/NameUtil.class
-│ │ --rw----     2.0 fat     2336 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/ObjectClass.class
-│ │ --rw----     2.0 fat     3283 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/ObjectClassInfo.class
-│ │ --rw----     2.0 fat     3479 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/ObjectClassInfoBuilder.class
-│ │ --rw----     2.0 fat     1218 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/ObjectClassUtil.class
-│ │ --rw----     2.0 fat     1911 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/OperationOptionInfo.class
-│ │ --rw----     2.0 fat     3453 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/OperationOptionInfoBuilder.class
-│ │ --rw----     2.0 fat     4597 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/OperationOptions.class
-│ │ --rw----     2.0 fat     6201 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/OperationOptionsBuilder.class
-│ │ --rw----     2.0 fat     2251 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/OperationalAttributeInfos.class
-│ │ --rw----     2.0 fat     2228 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/OperationalAttributes.class
-│ │ --rw----     2.0 fat     2249 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/PredefinedAttributeInfos.class
-│ │ --rw----     2.0 fat     1095 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/PredefinedAttributes.class
-│ │ --rw----     2.0 fat     1811 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/QualifiedUid.class
-│ │ --rw----     2.0 fat      245 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/ResultsHandler.class
-│ │ --rw----     2.0 fat     7510 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/Schema.class
-│ │ --rw----     2.0 fat    19036 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/SchemaBuilder.class
-│ │ --rw----     2.0 fat     2464 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/ScriptContext.class
-│ │ --rw----     2.0 fat     2432 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/ScriptContextBuilder.class
-│ │ --rw----     2.0 fat     2728 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/SearchResult.class
-│ │ --rw----     2.0 fat     1726 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/SortKey.class
-│ │ --rw----     2.0 fat     2639 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/SuggestedValues.class
-│ │ --rw----     2.0 fat     3627 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/SuggestedValuesBuilder.class
-│ │ --rw----     2.0 fat     4525 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/SyncDelta.class
-│ │ --rw----     2.0 fat     3940 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/SyncDeltaBuilder.class
-│ │ --rw----     2.0 fat     1305 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/SyncDeltaType.class
-│ │ --rw----     2.0 fat      247 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/SyncResultsHandler.class
-│ │ --rw----     2.0 fat     1409 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/SyncToken.class
-│ │ --rw----     2.0 fat     3745 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/Uid.class
-│ │ --rw----     2.0 fat     1215 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/ValueListOpenness.class
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/framework/common/objects/filter/
-│ │ --rw----     2.0 fat    13519 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/filter/AbstractFilterTranslator.class
-│ │ --rw----     2.0 fat     3956 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/filter/AndFilter.class
-│ │ --rw----     2.0 fat     1547 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/filter/AttributeFilter.class
-│ │ --rw----     2.0 fat     1858 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/filter/ComparableAttributeFilter.class
-│ │ --rw----     2.0 fat     1319 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/filter/CompositeFilter.class
-│ │ --rw----     2.0 fat     2981 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/filter/ContainsAllValuesFilter.class
-│ │ --rw----     2.0 fat     2063 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/filter/ContainsFilter.class
-│ │ --rw----     2.0 fat     2033 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/filter/EndsWithFilter.class
-│ │ --rw----     2.0 fat     2562 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/filter/EqualsFilter.class
-│ │ --rw----     2.0 fat     2089 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/filter/EqualsIgnoreCaseFilter.class
-│ │ --rw----     2.0 fat      799 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/filter/ExternallyChainedFilter.class
-│ │ --rw----     2.0 fat      506 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/filter/Filter.class
-│ │ --rw----     2.0 fat     4876 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/filter/FilterBuilder.class
-│ │ --rw----     2.0 fat      432 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/filter/FilterTranslator.class
-│ │ --rw----     2.0 fat     3540 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/filter/FilterVisitor.class
-│ │ --rw----     2.0 fat     2245 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/filter/GreaterThanFilter.class
-│ │ --rw----     2.0 fat     2287 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/filter/GreaterThanOrEqualFilter.class
-│ │ --rw----     2.0 fat     2228 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/filter/LessThanFilter.class
-│ │ --rw----     2.0 fat     2267 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/filter/LessThanOrEqualFilter.class
-│ │ --rw----     2.0 fat     2189 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/filter/NotFilter.class
-│ │ --rw----     2.0 fat     4025 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/filter/OrFilter.class
-│ │ --rw----     2.0 fat     1157 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/filter/SingleValueAttributeFilter.class
-│ │ --rw----     2.0 fat     2069 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/filter/StartsWithFilter.class
-│ │ --rw----     2.0 fat     1902 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/objects/filter/StringFilter.class
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/framework/common/serializer/
-│ │ --rw----     2.0 fat      246 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/serializer/BinaryObjectDeserializer.class
-│ │ --rw----     2.0 fat      260 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/serializer/BinaryObjectSerializer.class
-│ │ --rw----     2.0 fat     2121 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/serializer/ObjectSerializerFactory.class
-│ │ --rw----     2.0 fat     4972 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/serializer/SerializerUtil.class
-│ │ --rw----     2.0 fat      219 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/serializer/XmlObjectResultsHandler.class
-│ │ --rw----     2.0 fat      261 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/common/serializer/XmlObjectSerializer.class
-│ │ --rw----     2.0 fat      138 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/package-info.class
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/framework/spi/
-│ │ --rw----     2.0 fat      886 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/AbstractConfiguration.class
-│ │ --rw----     2.0 fat      369 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/AttributeNormalizer.class
-│ │ --rw----     2.0 fat      376 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/Configuration.class
-│ │ --rw----     2.0 fat      540 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/ConfigurationClass.class
-│ │ --rw----     2.0 fat     1103 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/ConfigurationProperty.class
-│ │ --rw----     2.0 fat      317 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/Connector.class
-│ │ --rw----     2.0 fat      729 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/ConnectorClass.class
-│ │ --rw----     2.0 fat      202 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/InstanceNameAware.class
-│ │ --rw----     2.0 fat      233 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/PoolableConnector.class
-│ │ --rw----     2.0 fat      319 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/SearchResultsHandler.class
-│ │ --rw----     2.0 fat      242 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/StatefulConfiguration.class
-│ │ --rw----     2.0 fat      326 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/SyncTokenResultsHandler.class
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/framework/spi/operations/
-│ │ --rw----     2.0 fat      505 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/operations/AuthenticateOp.class
-│ │ --rw----     2.0 fat      711 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/operations/CreateOp.class
-│ │ --rw----     2.0 fat      416 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/operations/DeleteOp.class
-│ │ --rw----     2.0 fat      461 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/operations/DiscoverConfigurationOp.class
-│ │ --rw----     2.0 fat      460 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/operations/ResolveUsernameOp.class
-│ │ --rw----     2.0 fat      153 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/operations/SPIOperation.class
-│ │ --rw----     2.0 fat      291 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/operations/SchemaOp.class
-│ │ --rw----     2.0 fat      418 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/operations/ScriptOnConnectorOp.class
-│ │ --rw----     2.0 fat      415 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/operations/ScriptOnResourceOp.class
-│ │ --rw----     2.0 fat     1240 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/operations/SearchOp.class
-│ │ --rw----     2.0 fat      638 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/operations/SyncOp.class
-│ │ --rw----     2.0 fat      230 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/operations/TestOp.class
-│ │ --rw----     2.0 fat      895 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/operations/UpdateAttributeValuesOp.class
-│ │ --rw----     2.0 fat      827 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/operations/UpdateDeltaOp.class
-│ │ --rw----     2.0 fat      817 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/operations/UpdateOp.class
+...
 │ │ --rw----     2.0 fat      142 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/spi/package-info.class
 │ │ +-rw----     2.0 fat     3559 bX defN 22-Dec-29 08:33 META-INF/MANIFEST.MF
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:33 META-INF/
-│ │ +-rw----     2.0 fat    19982 bl defN 22-Dec-29 08:30 META-INF/LICENSE
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:33 META-INF/maven/
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:33 META-INF/maven/net.tirasa.connid/
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:33 META-INF/maven/net.tirasa.connid/connector-framework/
-│ │ +-rw----     2.0 fat      147 bl defN 22-Dec-29 08:33 META-INF/maven/net.tirasa.connid/connector-framework/pom.properties
-│ │ +-rw----     2.0 fat     3567 bl defN 22-Dec-29 08:30 META-INF/maven/net.tirasa.connid/connector-framework/pom.xml
-│ │ +-rw----     2.0 fat      961 bl defN 22-Dec-29 08:30 connectors-framework.properties
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:33 org/
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:33 org/identityconnectors/
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:33 org/identityconnectors/common/
-│ │ +-rw----     2.0 fat     2021 bl defN 22-Dec-29 08:32 org/identityconnectors/common/Assertions.class
-│ │ +-rw----     2.0 fat      863 bl defN 22-Dec-29 08:32 org/identityconnectors/common/Base64.class
-│ │ +-rw----     2.0 fat      868 bl defN 22-Dec-29 08:32 org/identityconnectors/common/ByteUtil.class
-│ │ +-rw----     2.0 fat    16531 bl defN 22-Dec-29 08:32 org/identityconnectors/common/CollectionUtil.class
-│ │ +-rw----     2.0 fat     4650 bl defN 22-Dec-29 08:32 org/identityconnectors/common/EqualsHashCodeBuilder.class
-│ │ +-rw----     2.0 fat      859 bl defN 22-Dec-29 08:32 org/identityconnectors/common/GUID.class
-│ │ +-rw----     2.0 fat    12542 bl defN 22-Dec-29 08:32 org/identityconnectors/common/IOUtil.class
-│ │ +-rw----     2.0 fat     2713 bl defN 22-Dec-29 08:32 org/identityconnectors/common/Pair.class
-│ │ +-rw----     2.0 fat     2881 bl defN 22-Dec-29 08:32 org/identityconnectors/common/PrettyStringBuilder.class
-│ │ +-rw----     2.0 fat     4402 bl defN 22-Dec-29 08:32 org/identityconnectors/common/ReflectionUtil.class
-│ │ +-rw----     2.0 fat     1705 bl defN 22-Dec-29 08:32 org/identityconnectors/common/StringPrintWriter.class
-│ │ +-rw----     2.0 fat     9290 bl defN 22-Dec-29 08:32 org/identityconnectors/common/StringUtil.class
-│ │ +-rw----     2.0 fat     5416 bl defN 22-Dec-29 08:32 org/identityconnectors/common/Version.class
-│ │ +-rw----     2.0 fat     5504 bl defN 22-Dec-29 08:32 org/identityconnectors/common/VersionRange.class
-│ │ +-rw----     2.0 fat      229 bl defN 22-Dec-29 08:32 org/identityconnectors/common/XmlUtil$1.class
-│ │ +-rw----     2.0 fat     1181 bl defN 22-Dec-29 08:32 org/identityconnectors/common/XmlUtil$DummyDTDResolver.class
-│ │ +-rw----     2.0 fat     4904 bl defN 22-Dec-29 08:32 org/identityconnectors/common/XmlUtil.class
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:33 org/identityconnectors/common/event/
-│ │ +-rw----     2.0 fat     2251 bl defN 22-Dec-29 08:32 org/identityconnectors/common/event/ConnectorEvent.class
-│ │ +-rw----     2.0 fat      239 bl defN 22-Dec-29 08:32 org/identityconnectors/common/event/ConnectorEventHandler.class
-│ │ +-rw----     2.0 fat      301 bl defN 22-Dec-29 08:32 org/identityconnectors/common/event/ConnectorEventPublisher.class
-│ │ +-rw----     2.0 fat      141 bl defN 22-Dec-29 08:32 org/identityconnectors/common/event/package-info.class
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:33 org/identityconnectors/common/l10n/
-│ │ +-rw----     2.0 fat     1128 bl defN 22-Dec-29 08:32 org/identityconnectors/common/l10n/CurrentLocale.class
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:33 org/identityconnectors/common/logging/
-│ │ +-rw----     2.0 fat     1278 bl defN 22-Dec-29 08:32 org/identityconnectors/common/logging/Log$Level.class
-│ │ +-rw----     2.0 fat    10018 bl defN 22-Dec-29 08:32 org/identityconnectors/common/logging/Log.class
-│ │ +-rw----     2.0 fat     1076 bl defN 22-Dec-29 08:32 org/identityconnectors/common/logging/LogSpi.class
-│ │ +-rw----     2.0 fat      879 bl defN 22-Dec-29 08:32 org/identityconnectors/common/logging/StdOutLogger$1.class
-│ │ +-rw----     2.0 fat      828 bl defN 22-Dec-29 08:32 org/identityconnectors/common/logging/StdOutLogger$2.class
-│ │ +-rw----     2.0 fat     4715 bl defN 22-Dec-29 08:32 org/identityconnectors/common/logging/StdOutLogger.class
-│ │ +-rw----     2.0 fat      143 bl defN 22-Dec-29 08:32 org/identityconnectors/common/logging/package-info.class
-│ │ +-rw----     2.0 fat      135 bl defN 22-Dec-29 08:32 org/identityconnectors/common/package-info.class
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:33 org/identityconnectors/common/pooling/
-│ │ +-rw----     2.0 fat     4093 bl defN 22-Dec-29 08:32 org/identityconnectors/common/pooling/ObjectPoolConfiguration.class
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:33 org/identityconnectors/common/script/
-│ │ +-rw----     2.0 fat     1431 bl defN 22-Dec-29 08:32 org/identityconnectors/common/script/Script.class
-│ │ +-rw----     2.0 fat     1106 bl defN 22-Dec-29 08:32 org/identityconnectors/common/script/ScriptBuilder.class
-│ │ +-rw----     2.0 fat      346 bl defN 22-Dec-29 08:32 org/identityconnectors/common/script/ScriptExecutor.class
-│ │ +-rw----     2.0 fat     6249 bl defN 22-Dec-29 08:32 org/identityconnectors/common/script/ScriptExecutorFactory.class
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:33 org/identityconnectors/common/security/
-│ │ +-rw----     2.0 fat      183 bl defN 22-Dec-29 08:32 org/identityconnectors/common/security/Encryptor.class
-│ │ +-rw----     2.0 fat     1548 bl defN 22-Dec-29 08:32 org/identityconnectors/common/security/EncryptorFactory.class
-│ │ +-rw----     2.0 fat      289 bl defN 22-Dec-29 08:32 org/identityconnectors/common/security/GuardedByteArray$Accessor.class
-│ │ +-rw----     2.0 fat     3935 bl defN 22-Dec-29 08:32 org/identityconnectors/common/security/GuardedByteArray.class
-│ │ +-rw----     2.0 fat      280 bl defN 22-Dec-29 08:32 org/identityconnectors/common/security/GuardedString$Accessor.class
-│ │ +-rw----     2.0 fat     4392 bl defN 22-Dec-29 08:32 org/identityconnectors/common/security/GuardedString.class
-│ │ +-rw----     2.0 fat     4241 bl defN 22-Dec-29 08:32 org/identityconnectors/common/security/SecurityUtil.class
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:33 org/identityconnectors/framework/
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:33 org/identityconnectors/framework/api/
-│ │ +-rw----     2.0 fat     1104 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/APIConfiguration.class
-│ │ +-rw----     2.0 fat      447 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/ConfigurationProperties.class
-│ │ +-rw----     2.0 fat      786 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/ConfigurationProperty.class
-│ │ +-rw----     2.0 fat     1726 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/ConnectorFacade.class
-│ │ +-rw----     2.0 fat     2109 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/ConnectorFacadeFactory.class
-│ │ +-rw----     2.0 fat      508 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/ConnectorInfo.class
-│ │ +-rw----     2.0 fat      438 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/ConnectorInfoManager.class
-│ │ +-rw----     2.0 fat     1840 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/ConnectorInfoManagerFactory.class
-│ │ +-rw----     2.0 fat     1952 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/ConnectorKey.class
-│ │ +-rw----     2.0 fat     3091 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/RemoteFrameworkConnectionInfo.class
-│ │ +-rw----     2.0 fat     3374 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/ResultsHandlerConfiguration.class
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:33 org/identityconnectors/framework/api/operations/
-│ │ +-rw----     2.0 fat      207 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/operations/APIOperation.class
-│ │ +-rw----     2.0 fat      515 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/operations/AuthenticationApiOp.class
-│ │ +-rw----     2.0 fat      717 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/operations/CreateApiOp.class
-│ │ +-rw----     2.0 fat      422 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/operations/DeleteApiOp.class
-│ │ +-rw----     2.0 fat      467 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/operations/DiscoverConfigurationApiOp.class
-│ │ +-rw----     2.0 fat      483 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/operations/GetApiOp.class
-│ │ +-rw----     2.0 fat      466 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/operations/ResolveUsernameApiOp.class
-│ │ +-rw----     2.0 fat      297 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/operations/SchemaApiOp.class
-│ │ +-rw----     2.0 fat      424 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/operations/ScriptOnConnectorApiOp.class
-│ │ +-rw----     2.0 fat      421 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/operations/ScriptOnResourceApiOp.class
-│ │ +-rw----     2.0 fat      557 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/operations/SearchApiOp.class
-│ │ +-rw----     2.0 fat      702 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/operations/SyncApiOp.class
-│ │ +-rw----     2.0 fat      236 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/operations/TestApiOp.class
-│ │ +-rw----     2.0 fat      900 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/operations/UpdateApiOp.class
-│ │ +-rw----     2.0 fat      833 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/operations/UpdateDeltaApiOp.class
-│ │ +-rw----     2.0 fat      248 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/operations/ValidateApiOp.class
-│ │ +-rw----     2.0 fat      142 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/api/package-info.class
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:33 org/identityconnectors/framework/common/
-│ │ +-rw----     2.0 fat    12925 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/FrameworkUtil.class
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:33 org/identityconnectors/framework/common/exceptions/
-│ │ +-rw----     2.0 fat     1367 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/exceptions/AlreadyExistsException.class
-│ │ +-rw----     2.0 fat      939 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/exceptions/ConfigurationException.class
-│ │ +-rw----     2.0 fat      956 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/exceptions/ConnectionBrokenException.class
-│ │ +-rw----     2.0 fat      956 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/exceptions/ConnectionFailedException.class
-│ │ +-rw----     2.0 fat     1315 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/exceptions/ConnectorException.class
-│ │ +-rw----     2.0 fat      939 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/exceptions/ConnectorIOException.class
-│ │ +-rw----     2.0 fat      951 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/exceptions/ConnectorSecurityException.class
-│ │ +-rw----     2.0 fat     1501 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/exceptions/InvalidAttributeValueException.class
-│ │ +-rw----     2.0 fat      959 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/exceptions/InvalidCredentialException.class
-│ │ +-rw----     2.0 fat      953 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/exceptions/InvalidPasswordException.class
-│ │ +-rw----     2.0 fat      943 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/exceptions/OperationTimeoutException.class
-│ │ +-rw----     2.0 fat     1381 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/exceptions/PasswordExpiredException.class
-│ │ +-rw----     2.0 fat      956 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/exceptions/PermissionDeniedException.class
-│ │ +-rw----     2.0 fat      957 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/exceptions/PreconditionFailedException.class
-│ │ +-rw----     2.0 fat      963 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/exceptions/PreconditionRequiredException.class
-│ │ +-rw----     2.0 fat     1769 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/exceptions/RetryableException.class
-│ │ +-rw----     2.0 fat     1505 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/exceptions/UnknownUidException.class
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:33 org/identityconnectors/framework/common/objects/
-│ │ +-rw----     2.0 fat     4459 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/Attribute.class
-│ │ +-rw----     2.0 fat     8537 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/AttributeBuilder.class
-│ │ +-rw----     2.0 fat     3972 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/AttributeDelta.class
-│ │ +-rw----     2.0 fat    10181 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/AttributeDeltaBuilder.class
-│ │ +-rw----     2.0 fat    12210 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/AttributeDeltaUtil.class
-│ │ +-rw----     2.0 fat     1569 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/AttributeInfo$Flags.class
-│ │ +-rw----     2.0 fat     1987 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/AttributeInfo$Subtypes.class
-│ │ +-rw----     2.0 fat     5453 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/AttributeInfo.class
-│ │ +-rw----     2.0 fat     6432 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/AttributeInfoBuilder.class
-│ │ +-rw----     2.0 fat     2551 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/AttributeInfoUtil.class
-│ │ +-rw----     2.0 fat    13098 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/AttributeUtil.class
-│ │ +-rw----     2.0 fat     1286 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/AttributeValueCompleteness.class
-│ │ +-rw----     2.0 fat     8898 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/AttributesAccessor.class
-│ │ +-rw----     2.0 fat      258 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/ConnectorMessages.class
-│ │ +-rw----     2.0 fat     4225 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/ConnectorObject.class
-│ │ +-rw----     2.0 fat     6055 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/ConnectorObjectBuilder.class
-│ │ +-rw----     2.0 fat      987 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/LocaleCache.class
-│ │ +-rw----     2.0 fat     1460 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/Name.class
-│ │ +-rw----     2.0 fat     1670 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/NameUtil.class
-│ │ +-rw----     2.0 fat     2336 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/ObjectClass.class
-│ │ +-rw----     2.0 fat     3283 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/ObjectClassInfo.class
-│ │ +-rw----     2.0 fat     3479 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/ObjectClassInfoBuilder.class
-│ │ +-rw----     2.0 fat     1218 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/ObjectClassUtil.class
-│ │ +-rw----     2.0 fat     1911 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/OperationOptionInfo.class
-│ │ +-rw----     2.0 fat     3453 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/OperationOptionInfoBuilder.class
-│ │ +-rw----     2.0 fat     4597 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/OperationOptions.class
-│ │ +-rw----     2.0 fat     6201 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/OperationOptionsBuilder.class
-│ │ +-rw----     2.0 fat     2251 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/OperationalAttributeInfos.class
-│ │ +-rw----     2.0 fat     2228 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/OperationalAttributes.class
-│ │ +-rw----     2.0 fat     2249 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/PredefinedAttributeInfos.class
-│ │ +-rw----     2.0 fat     1095 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/PredefinedAttributes.class
-│ │ +-rw----     2.0 fat     1811 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/QualifiedUid.class
-│ │ +-rw----     2.0 fat      245 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/ResultsHandler.class
-│ │ +-rw----     2.0 fat     7510 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/Schema.class
-│ │ +-rw----     2.0 fat    19036 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/SchemaBuilder.class
-│ │ +-rw----     2.0 fat     2464 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/ScriptContext.class
-│ │ +-rw----     2.0 fat     2432 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/ScriptContextBuilder.class
-│ │ +-rw----     2.0 fat     2728 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/SearchResult.class
-│ │ +-rw----     2.0 fat     1726 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/SortKey.class
-│ │ +-rw----     2.0 fat     2639 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/SuggestedValues.class
-│ │ +-rw----     2.0 fat     3627 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/SuggestedValuesBuilder.class
-│ │ +-rw----     2.0 fat     4525 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/SyncDelta.class
-│ │ +-rw----     2.0 fat     3940 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/SyncDeltaBuilder.class
-│ │ +-rw----     2.0 fat     1305 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/SyncDeltaType.class
-│ │ +-rw----     2.0 fat      247 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/SyncResultsHandler.class
-│ │ +-rw----     2.0 fat     1409 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/SyncToken.class
-│ │ +-rw----     2.0 fat     3745 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/Uid.class
-│ │ +-rw----     2.0 fat     1215 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/ValueListOpenness.class
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:33 org/identityconnectors/framework/common/objects/filter/
-│ │ +-rw----     2.0 fat    13519 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/filter/AbstractFilterTranslator.class
-│ │ +-rw----     2.0 fat     3956 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/filter/AndFilter.class
-│ │ +-rw----     2.0 fat     1547 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/filter/AttributeFilter.class
-│ │ +-rw----     2.0 fat     1858 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/filter/ComparableAttributeFilter.class
-│ │ +-rw----     2.0 fat     1319 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/filter/CompositeFilter.class
-│ │ +-rw----     2.0 fat     2981 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/filter/ContainsAllValuesFilter.class
-│ │ +-rw----     2.0 fat     2063 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/filter/ContainsFilter.class
-│ │ +-rw----     2.0 fat     2033 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/filter/EndsWithFilter.class
-│ │ +-rw----     2.0 fat     2562 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/filter/EqualsFilter.class
-│ │ +-rw----     2.0 fat     2089 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/filter/EqualsIgnoreCaseFilter.class
-│ │ +-rw----     2.0 fat      799 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/filter/ExternallyChainedFilter.class
-│ │ +-rw----     2.0 fat      506 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/filter/Filter.class
-│ │ +-rw----     2.0 fat     4876 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/filter/FilterBuilder.class
-│ │ +-rw----     2.0 fat      432 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/filter/FilterTranslator.class
-│ │ +-rw----     2.0 fat     3540 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/filter/FilterVisitor.class
-│ │ +-rw----     2.0 fat     2245 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/filter/GreaterThanFilter.class
-│ │ +-rw----     2.0 fat     2287 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/filter/GreaterThanOrEqualFilter.class
-│ │ +-rw----     2.0 fat     2228 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/filter/LessThanFilter.class
-│ │ +-rw----     2.0 fat     2267 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/filter/LessThanOrEqualFilter.class
-│ │ +-rw----     2.0 fat     2189 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/filter/NotFilter.class
-│ │ +-rw----     2.0 fat     4025 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/filter/OrFilter.class
-│ │ +-rw----     2.0 fat     1157 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/filter/SingleValueAttributeFilter.class
-│ │ +-rw----     2.0 fat     2069 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/filter/StartsWithFilter.class
-│ │ +-rw----     2.0 fat     1902 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/objects/filter/StringFilter.class
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:33 org/identityconnectors/framework/common/serializer/
-│ │ +-rw----     2.0 fat      246 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/serializer/BinaryObjectDeserializer.class
-│ │ +-rw----     2.0 fat      260 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/serializer/BinaryObjectSerializer.class
-│ │ +-rw----     2.0 fat     2121 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/serializer/ObjectSerializerFactory.class
-│ │ +-rw----     2.0 fat     4972 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/serializer/SerializerUtil.class
-│ │ +-rw----     2.0 fat      219 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/serializer/XmlObjectResultsHandler.class
-│ │ +-rw----     2.0 fat      261 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/common/serializer/XmlObjectSerializer.class
-│ │ +-rw----     2.0 fat      138 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/package-info.class
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:33 org/identityconnectors/framework/spi/
-│ │ +-rw----     2.0 fat      886 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/AbstractConfiguration.class
-│ │ +-rw----     2.0 fat      369 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/AttributeNormalizer.class
-│ │ +-rw----     2.0 fat      376 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/Configuration.class
-│ │ +-rw----     2.0 fat      540 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/ConfigurationClass.class
-│ │ +-rw----     2.0 fat     1103 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/ConfigurationProperty.class
-│ │ +-rw----     2.0 fat      317 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/Connector.class
-│ │ +-rw----     2.0 fat      729 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/ConnectorClass.class
-│ │ +-rw----     2.0 fat      202 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/InstanceNameAware.class
-│ │ +-rw----     2.0 fat      233 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/PoolableConnector.class
-│ │ +-rw----     2.0 fat      319 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/SearchResultsHandler.class
-│ │ +-rw----     2.0 fat      242 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/StatefulConfiguration.class
-│ │ +-rw----     2.0 fat      326 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/SyncTokenResultsHandler.class
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:33 org/identityconnectors/framework/spi/operations/
-│ │ +-rw----     2.0 fat      505 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/operations/AuthenticateOp.class
-│ │ +-rw----     2.0 fat      711 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/operations/CreateOp.class
-│ │ +-rw----     2.0 fat      416 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/operations/DeleteOp.class
-│ │ +-rw----     2.0 fat      461 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/operations/DiscoverConfigurationOp.class
-│ │ +-rw----     2.0 fat      460 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/operations/ResolveUsernameOp.class
-│ │ +-rw----     2.0 fat      153 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/operations/SPIOperation.class
-│ │ +-rw----     2.0 fat      291 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/operations/SchemaOp.class
-│ │ +-rw----     2.0 fat      418 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/operations/ScriptOnConnectorOp.class
-│ │ +-rw----     2.0 fat      415 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/operations/ScriptOnResourceOp.class
-│ │ +-rw----     2.0 fat     1240 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/operations/SearchOp.class
-│ │ +-rw----     2.0 fat      638 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/operations/SyncOp.class
-│ │ +-rw----     2.0 fat      230 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/operations/TestOp.class
-│ │ +-rw----     2.0 fat      895 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/operations/UpdateAttributeValuesOp.class
-│ │ +-rw----     2.0 fat      827 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/operations/UpdateDeltaOp.class
-│ │ +-rw----     2.0 fat      817 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/operations/UpdateOp.class
+...
 │ │ +-rw----     2.0 fat      142 bl defN 22-Dec-29 08:32 org/identityconnectors/framework/spi/package-info.class
 │ │  223 files, 490767 bytes uncompressed, 193536 bytes compressed:  60.6%
 │ ├── META-INF/MANIFEST.MF
 │ │ @@ -1,9 +1,9 @@
-│ │  Manifest-Version: 1.0
-│ │ -Bnd-LastModified: 1672305644542
-│ │ +Bnd-LastModified: 1672302780390
-│ │  Build-Jdk: 1.8.0_352
-│ │  Built-By: ilgrosso
-│ │  Bundle-Description: Sonatype helps open source projects to set up Mave
-│ │   n repositories on https://oss.sonatype.org/
-│ │  Bundle-License: http://opensource.org/licenses/CDDL-1.0
-│ │  Bundle-ManifestVersion: 2
+│ │  Manifest-Version: 1.0
+
+│ │ -Bnd-LastModified: 1672305644542
+
+│ │ +Bnd-LastModified: 1672302780390
+
+│ │  Build-Jdk: 1.8.0_352
+
+│ │  Built-By: ilgrosso
+
+│ │  Bundle-Description: Sonatype helps open source projects to set up Mave
+
+│ │   n repositories on https://oss.sonatype.org/
+
+│ │  Bundle-License: http://opensource.org/licenses/CDDL-1.0
+
+│ │  Bundle-ManifestVersion: 2
+
 │ │  Bundle-Name: ConnId: Connector Framework
 │ ├── META-INF/maven/net.tirasa.connid/connector-framework/pom.properties
 │ │ @@ -1,5 +1,5 @@
@@ -556,595 +120,34 @@
 │ │ @@ -1,290 +1,290 @@
 │ │ -Zip file size: 384970 bytes, number of entries: 288
 │ │ --rw----     2.0 fat     5803 bX defN 22-Dec-29 09:20 META-INF/MANIFEST.MF
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 META-INF/
-│ │ --rw----     2.0 fat    19982 bl defN 22-Dec-16 11:49 META-INF/LICENSE
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 META-INF/maven/
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 META-INF/maven/net.tirasa.connid/
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 META-INF/maven/net.tirasa.connid/connector-framework-internal/
-│ │ --rw----     2.0 fat      156 bl defN 22-Dec-29 09:20 META-INF/maven/net.tirasa.connid/connector-framework-internal/pom.properties
-│ │ --rw----     2.0 fat     6599 bl defN 22-Dec-29 09:15 META-INF/maven/net.tirasa.connid/connector-framework-internal/pom.xml
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 META-INF/services/
-│ │ --rw----     2.0 fat       72 bl defN 22-Dec-16 11:49 META-INF/services/org.identityconnectors.common.script.ScriptExecutorFactory
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/common/
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/common/logging/
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/common/logging/impl/
-│ │ --rw----     2.0 fat     4736 bl defN 22-Dec-29 09:20 org/identityconnectors/common/logging/impl/JDKLogger.class
-│ │ --rw----     2.0 fat     1998 bl defN 22-Dec-29 09:20 org/identityconnectors/common/logging/impl/NoOpLogger.class
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/common/script/
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/common/script/groovy/
-│ │ --rw----     2.0 fat     1695 bl defN 22-Dec-29 09:20 org/identityconnectors/common/script/groovy/GroovyScriptExecutorFactory$GroovyScriptExecutor.class
-│ │ --rw----     2.0 fat     1102 bl defN 22-Dec-29 09:20 org/identityconnectors/common/script/groovy/GroovyScriptExecutorFactory.class
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/common/security/
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/common/security/impl/
-│ │ --rw----     2.0 fat      826 bl defN 22-Dec-29 09:20 org/identityconnectors/common/security/impl/EncryptorFactoryImpl.class
-│ │ --rw----     2.0 fat     4504 bl defN 22-Dec-29 09:20 org/identityconnectors/common/security/impl/EncryptorImpl.class
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/framework/
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/framework/impl/
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/framework/impl/api/
-│ │ --rw----     2.0 fat     6965 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/APIConfigurationImpl.class
-│ │ --rw----     2.0 fat    15081 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/AbstractConnectorFacade.class
-│ │ --rw----     2.0 fat     3213 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/AbstractConnectorInfo.class
-│ │ --rw----     2.0 fat     5409 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/BufferedResultsProxy$BufferedResultsHandler.class
-│ │ --rw----     2.0 fat     4228 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/BufferedResultsProxy.class
-│ │ --rw----     2.0 fat      313 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/ConfigurationPropertiesImpl$1.class
-│ │ --rw----     2.0 fat     1794 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/ConfigurationPropertiesImpl$PropertyComparator.class
-│ │ --rw----     2.0 fat     5049 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/ConfigurationPropertiesImpl.class
-│ │ --rw----     2.0 fat     6300 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/ConfigurationPropertyImpl.class
-│ │ --rw----     2.0 fat     4097 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/ConnectorFacadeFactoryImpl.class
-│ │ --rw----     2.0 fat     1448 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/ConnectorInfoManagerFactoryImpl$LocalManagerKey.class
-│ │ --rw----     2.0 fat     1345 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/ConnectorInfoManagerFactoryImpl$RemoteManagerKey.class
-│ │ --rw----     2.0 fat     5196 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/ConnectorInfoManagerFactoryImpl.class
-│ │ --rw----     2.0 fat     3464 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/ConnectorMessagesImpl.class
-│ │ --rw----     2.0 fat     2362 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/DelegatingTimeoutProxy.class
-│ │ --rw----     2.0 fat     3856 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/LoggingProxy.class
-│ │ --rw----     2.0 fat     3043 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/ManagedConnectorFacadeFactoryImpl.class
-│ │ --rw----     2.0 fat     1109 bl defN 22-Dec-16 11:49 org/identityconnectors/framework/impl/api/Messages.properties
-│ │ --rw----     2.0 fat     2225 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/MethodTimeoutProxy$1.class
-│ │ --rw----     2.0 fat     3078 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/MethodTimeoutProxy.class
-│ │ --rw----     2.0 fat      202 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/ObjectStreamHandler.class
-│ │ --rw----     2.0 fat     3193 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/SearchResultsHandlerLoggingProxy.class
-│ │ --rw----     2.0 fat     2653 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/StreamHandlerUtil$ObjectStreamHandlerAdapter.class
-│ │ --rw----     2.0 fat     1363 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/StreamHandlerUtil$SearchResultsHandlerAdapter.class
-│ │ --rw----     2.0 fat     1115 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/StreamHandlerUtil$SyncResultsHandlerAdapter.class
-│ │ --rw----     2.0 fat     2642 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/StreamHandlerUtil.class
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/framework/impl/api/local/
-│ │ --rw----     2.0 fat     4622 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/BundleClassLoader.class
-│ │ --rw----     2.0 fat      940 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/BundleKey.class
-│ │ --rw----     2.0 fat     2067 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/BundleLibSorter.class
-│ │ --rw----     2.0 fat     1102 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/ConnectorBundleManifest.class
-│ │ --rw----     2.0 fat     4091 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/ConnectorBundleManifestParser.class
-│ │ --rw----     2.0 fat      814 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/ConnectorLifecycleUtil.class
-│ │ --rw----     2.0 fat     6132 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/ConnectorPoolManager$ConnectorPoolHandler.class
-│ │ --rw----     2.0 fat     1682 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/ConnectorPoolManager$ConnectorPoolKey.class
-│ │ --rw----     2.0 fat     7379 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/ConnectorPoolManager.class
-│ │ --rw----     2.0 fat    13463 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/JavaClassProperties.class
-│ │ --rw----     2.0 fat     8917 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/LocalConnectorFacadeImpl.class
-│ │ --rw----     2.0 fat     3061 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/LocalConnectorInfoImpl.class
-│ │ --rw----     2.0 fat      331 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/LocalConnectorInfoManagerImpl$1.class
-│ │ --rw----     2.0 fat     3884 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/LocalConnectorInfoManagerImpl$BundleTempDirectory.class
-│ │ --rw----     2.0 fat    22235 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/LocalConnectorInfoManagerImpl.class
-│ │ --rw----     2.0 fat      274 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/ObjectPool$1.class
-│ │ --rw----     2.0 fat     3316 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/ObjectPool$PooledObject.class
-│ │ --rw----     2.0 fat     1413 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/ObjectPool$Statistics.class
-│ │ --rw----     2.0 fat    11117 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/ObjectPool.class
-│ │ --rw----     2.0 fat      401 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/ObjectPoolEntry.class
-│ │ --rw----     2.0 fat      555 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/ObjectPoolHandler.class
-│ │ --rw----     2.0 fat     1006 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/ThreadClassLoaderManager$1.class
-│ │ --rw----     2.0 fat     3557 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/ThreadClassLoaderManager.class
-│ │ --rw----     2.0 fat     5758 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/WorkingBundleInfo.class
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/framework/impl/api/local/operations/
-│ │ --rw----     2.0 fat     1537 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/APIOperationRunner.class
-│ │ --rw----     2.0 fat     3590 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/AttributesToGetResultsHandler.class
-│ │ --rw----     2.0 fat     3837 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/AuthenticationImpl.class
-│ │ --rw----     2.0 fat     2034 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/CaseNormalizer.class
-│ │ --rw----     2.0 fat     2313 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/ConnectorAPIOperationRunner.class
-│ │ --rw----     2.0 fat     5066 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/ConnectorAPIOperationRunnerProxy.class
-│ │ --rw----     2.0 fat     3585 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/ConnectorOperationalContext.class
-│ │ --rw----     2.0 fat     6680 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/CreateImpl.class
-│ │ --rw----     2.0 fat     4299 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/DeleteImpl.class
-│ │ --rw----     2.0 fat     3288 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/DiscoverConfigurationImpl.class
-│ │ --rw----     2.0 fat     2056 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/DuplicateFilteringResultsHandler.class
-│ │ --rw----     2.0 fat     1673 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/FilteredResultsHandler$PassThroughFilter.class
-│ │ --rw----     2.0 fat     2748 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/FilteredResultsHandler.class
-│ │ --rw----     2.0 fat     1389 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/GetImpl$1.class
-│ │ --rw----     2.0 fat     3079 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/GetImpl.class
-│ │ --rw----     2.0 fat     2911 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/NormalizingFilter.class
-│ │ --rw----     2.0 fat     1994 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/NormalizingResultsHandler.class
-│ │ --rw----     2.0 fat     1562 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/NormalizingSyncResultsHandler.class
-│ │ --rw----     2.0 fat     6899 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/ObjectNormalizerFacade.class
-│ │ --rw----     2.0 fat     2976 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/OperationalContext.class
-│ │ --rw----     2.0 fat     3697 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/ResolveUsernameImpl.class
-│ │ --rw----     2.0 fat     2631 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/SchemaImpl.class
-│ │ --rw----     2.0 fat     3823 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/ScriptOnConnectorImpl.class
-│ │ --rw----     2.0 fat     3345 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/ScriptOnResourceImpl.class
-│ │ --rw----     2.0 fat     2154 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/SearchImpl$1.class
-│ │ --rw----     2.0 fat     1980 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/SearchImpl$AttributesToGetSearchResultsHandler.class
-│ │ --rw----     2.0 fat    13298 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/SearchImpl.class
-│ │ --rw----     2.0 fat     4596 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/SpiOperationLoggingUtil.class
-│ │ --rw----     2.0 fat     3782 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/SyncImpl$1.class
-│ │ --rw----     2.0 fat     2100 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/SyncImpl$AttributesToGetSyncResultsHandler.class
-│ │ --rw----     2.0 fat     6742 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/SyncImpl.class
-│ │ --rw----     2.0 fat     2393 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/TestImpl.class
-│ │ --rw----     2.0 fat     1671 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/ThreadClassLoaderManagerProxy$ApplicationClassLoaderHandler.class
-│ │ --rw----     2.0 fat     3265 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/ThreadClassLoaderManagerProxy.class
-│ │ --rw----     2.0 fat    18428 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/UpdateDeltaImpl.class
-│ │ --rw----     2.0 fat    15716 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/UpdateImpl.class
-│ │ --rw----     2.0 fat     1138 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/local/operations/ValidateImpl.class
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/framework/impl/api/remote/
-│ │ --rw----     2.0 fat     3720 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/remote/RemoteConnectorFacadeImpl.class
-│ │ --rw----     2.0 fat      898 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/remote/RemoteConnectorInfoImpl.class
-│ │ --rw----     2.0 fat    13440 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/remote/RemoteConnectorInfoManagerImpl.class
-│ │ --rw----     2.0 fat     6597 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/remote/RemoteFrameworkConnection.class
-│ │ --rw----     2.0 fat     7569 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/remote/RemoteOperationInvocationHandler.class
-│ │ --rw----     2.0 fat     4880 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/remote/RemoteWrappedException.class
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/framework/impl/api/remote/messages/
-│ │ --rw----     2.0 fat      819 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/remote/messages/EchoMessage.class
-│ │ --rw----     2.0 fat      659 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/remote/messages/ErrorResponse.class
-│ │ --rw----     2.0 fat     1130 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/remote/messages/HelloRequest.class
-│ │ --rw----     2.0 fat     2647 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/remote/messages/HelloResponse.class
-│ │ --rw----     2.0 fat      153 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/remote/messages/Message.class
-│ │ --rw----     2.0 fat     2207 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/remote/messages/OperationRequest.class
-│ │ --rw----     2.0 fat      490 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/remote/messages/OperationRequestMoreData.class
-│ │ --rw----     2.0 fat      490 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/remote/messages/OperationRequestStopData.class
-│ │ --rw----     2.0 fat      478 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/remote/messages/OperationResponseEnd.class
-│ │ --rw----     2.0 fat     1193 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/remote/messages/OperationResponsePart.class
-│ │ --rw----     2.0 fat      484 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/api/remote/messages/OperationResponsePause.class
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/framework/impl/serializer/
-│ │ --rw----     2.0 fat     2569 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/APIConfigurationHandlers$1.class
-│ │ --rw----     2.0 fat     2725 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/APIConfigurationHandlers$2.class
-│ │ --rw----     2.0 fat     3742 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/APIConfigurationHandlers$3.class
-│ │ --rw----     2.0 fat     3446 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/APIConfigurationHandlers$4.class
-│ │ --rw----     2.0 fat     4504 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/APIConfigurationHandlers$5.class
-│ │ --rw----     2.0 fat     2144 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/APIConfigurationHandlers$6.class
-│ │ --rw----     2.0 fat     2110 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/APIConfigurationHandlers$7.class
-│ │ --rw----     2.0 fat     3282 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/APIConfigurationHandlers$8.class
-│ │ --rw----     2.0 fat     2473 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/APIConfigurationHandlers.class
-│ │ --rw----     2.0 fat      815 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/AbstractObjectSerializationHandler.class
-│ │ --rw----     2.0 fat     1493 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$1.class
-│ │ --rw----     2.0 fat     1507 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$10.class
-│ │ --rw----     2.0 fat     1511 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$11.class
-│ │ --rw----     2.0 fat     1507 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$12.class
-│ │ --rw----     2.0 fat     1527 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$13.class
-│ │ --rw----     2.0 fat     1515 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$14.class
-│ │ --rw----     2.0 fat     1523 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$15.class
-│ │ --rw----     2.0 fat     1602 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$16.class
-│ │ --rw----     2.0 fat     2728 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$17.class
-│ │ --rw----     2.0 fat     1479 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$18.class
-│ │ --rw----     2.0 fat     1339 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$19.class
-│ │ --rw----     2.0 fat     1493 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$2.class
-│ │ --rw----     2.0 fat     1307 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$20.class
-│ │ --rw----     2.0 fat     1279 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$21.class
-│ │ --rw----     2.0 fat     1170 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$22.class
-│ │ --rw----     2.0 fat     1640 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$23.class
-│ │ --rw----     2.0 fat     3860 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$24.class
-│ │ --rw----     2.0 fat     2437 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$25.class
-│ │ --rw----     2.0 fat     1769 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$26.class
-│ │ --rw----     2.0 fat     1893 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$27.class
-│ │ --rw----     2.0 fat     2634 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$28.class
-│ │ --rw----     2.0 fat     6866 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$29.class
-│ │ --rw----     2.0 fat     1505 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$3.class
-│ │ --rw----     2.0 fat     2635 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$30.class
-│ │ --rw----     2.0 fat     2470 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$31.class
-│ │ --rw----     2.0 fat     2483 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$32.class
-│ │ --rw----     2.0 fat     2036 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$33.class
-│ │ --rw----     2.0 fat     2082 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$34.class
-│ │ --rw----     2.0 fat     2036 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$35.class
-│ │ --rw----     2.0 fat     2159 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$36.class
-│ │ --rw----     2.0 fat     1906 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$37.class
-│ │ --rw----     2.0 fat     3971 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$38.class
-│ │ --rw----     2.0 fat     2971 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$39.class
-│ │ --rw----     2.0 fat     1505 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$4.class
-│ │ --rw----     2.0 fat     2466 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$40.class
-│ │ --rw----     2.0 fat     2814 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$41.class
-│ │ --rw----     2.0 fat     1485 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$5.class
-│ │ --rw----     2.0 fat     2920 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$6.class
-│ │ --rw----     2.0 fat     1501 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$7.class
-│ │ --rw----     2.0 fat     1481 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$8.class
-│ │ --rw----     2.0 fat     1509 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$9.class
-│ │ --rw----     2.0 fat     2813 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$AttributeHandler.class
-│ │ --rw----     2.0 fat     2344 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$ThrowableHandler.class
-│ │ --rw----     2.0 fat     9889 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers.class
-│ │ --rw----     2.0 fat     1952 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/EnumSerializationHandler.class
-│ │ --rw----     2.0 fat     1894 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/FilterHandlers$1.class
-│ │ --rw----     2.0 fat     1892 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/FilterHandlers$10.class
-│ │ --rw----     2.0 fat     1704 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/FilterHandlers$11.class
-│ │ --rw----     2.0 fat     1732 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/FilterHandlers$12.class
-│ │ --rw----     2.0 fat     1694 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/FilterHandlers$2.class
-│ │ --rw----     2.0 fat     1694 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/FilterHandlers$3.class
-│ │ --rw----     2.0 fat     1686 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/FilterHandlers$4.class
-│ │ --rw----     2.0 fat     1706 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/FilterHandlers$5.class
-│ │ --rw----     2.0 fat     1734 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/FilterHandlers$6.class
-│ │ --rw----     2.0 fat     1694 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/FilterHandlers$7.class
-│ │ --rw----     2.0 fat     1722 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/FilterHandlers$8.class
-│ │ --rw----     2.0 fat     2048 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/FilterHandlers$9.class
-│ │ --rw----     2.0 fat     2716 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/FilterHandlers$AttributeFilterHandler.class
-│ │ --rw----     2.0 fat     2843 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/FilterHandlers$CompositeFilterHandler.class
-│ │ --rw----     2.0 fat     3459 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/FilterHandlers.class
-│ │ --rw----     2.0 fat     1792 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/MessageHandlers$1.class
-│ │ --rw----     2.0 fat     1984 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/MessageHandlers$10.class
-│ │ --rw----     2.0 fat     2752 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/MessageHandlers$2.class
-│ │ --rw----     2.0 fat     3169 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/MessageHandlers$3.class
-│ │ --rw----     2.0 fat     1390 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/MessageHandlers$4.class
-│ │ --rw----     2.0 fat     2168 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/MessageHandlers$5.class
-│ │ --rw----     2.0 fat     1394 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/MessageHandlers$6.class
-│ │ --rw----     2.0 fat     1394 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/MessageHandlers$7.class
-│ │ --rw----     2.0 fat     1392 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/MessageHandlers$8.class
-│ │ --rw----     2.0 fat     2029 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/MessageHandlers$9.class
-│ │ --rw----     2.0 fat     2890 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/MessageHandlers.class
-│ │ --rw----     2.0 fat     1302 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/ObjectDecoder.class
-│ │ --rw----     2.0 fat     1131 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/ObjectEncoder.class
-│ │ --rw----     2.0 fat      472 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/ObjectSerializationHandler.class
-│ │ --rw----     2.0 fat     1991 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/ObjectSerializerFactoryImpl.class
-│ │ --rw----     2.0 fat     4639 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/ObjectSerializerRegistry.class
-│ │ --rw----     2.0 fat      348 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/ObjectTypeMapper.class
-│ │ --rw----     2.0 fat     1113 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/ObjectTypeMapperImpl.class
-│ │ --rw----     2.0 fat     2506 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/OperationMappings.class
-│ │ --rw----     2.0 fat     1622 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$1.class
-│ │ --rw----     2.0 fat     1614 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$10.class
-│ │ --rw----     2.0 fat     1619 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$11.class
-│ │ --rw----     2.0 fat     1619 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$12.class
-│ │ --rw----     2.0 fat     1575 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$13.class
-│ │ --rw----     2.0 fat     1966 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$14.class
-│ │ --rw----     2.0 fat     1644 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$15.class
-│ │ --rw----     2.0 fat     2195 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$16.class
-│ │ --rw----     2.0 fat     1661 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$17.class
-│ │ --rw----     2.0 fat     1609 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$18.class
-│ │ --rw----     2.0 fat     1609 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$19.class
-│ │ --rw----     2.0 fat      910 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$1MapEntry.class
-│ │ --rw----     2.0 fat     1622 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$2.class
-│ │ --rw----     2.0 fat     1538 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$20.class
-│ │ --rw----     2.0 fat     1588 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$21.class
-│ │ --rw----     2.0 fat     1818 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$22.class
-│ │ --rw----     2.0 fat     1994 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$23.class
-│ │ --rw----     2.0 fat     4158 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$24.class
-│ │ --rw----     2.0 fat     2807 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$25.class
-│ │ --rw----     2.0 fat     3574 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$26.class
-│ │ --rw----     2.0 fat     1974 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$27.class
-│ │ --rw----     2.0 fat     3533 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$28.class
-│ │ --rw----     2.0 fat     3338 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$29.class
-│ │ --rw----     2.0 fat     1772 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$3.class
-│ │ --rw----     2.0 fat     1772 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$4.class
-│ │ --rw----     2.0 fat     1610 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$5.class
-│ │ --rw----     2.0 fat     1610 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$6.class
-│ │ --rw----     2.0 fat     1607 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$7.class
-│ │ --rw----     2.0 fat     1607 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$8.class
-│ │ --rw----     2.0 fat     1612 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives$9.class
-│ │ --rw----     2.0 fat     4788 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/Primitives.class
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/framework/impl/serializer/binary/
-│ │ --rw----     2.0 fat     7631 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/binary/BinaryObjectDecoder$InternalDecoder.class
-│ │ --rw----     2.0 fat     1743 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/binary/BinaryObjectDecoder$ReadState.class
-│ │ --rw----     2.0 fat     5183 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/binary/BinaryObjectDecoder.class
-│ │ --rw----     2.0 fat     8807 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/binary/BinaryObjectEncoder$InternalEncoder.class
-│ │ --rw----     2.0 fat      884 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/binary/BinaryObjectEncoder$OutputBuffer.class
-│ │ --rw----     2.0 fat     5681 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/binary/BinaryObjectEncoder.class
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/framework/impl/serializer/xml/
-│ │ --rw----     2.0 fat     9868 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/xml/XmlObjectDecoder.class
-│ │ --rw----     2.0 fat     1497 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/xml/XmlObjectEncoder$OutputElement.class
-│ │ --rw----     2.0 fat    10209 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/xml/XmlObjectEncoder.class
-│ │ --rw----     2.0 fat     6726 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/xml/XmlObjectParser$MySAXHandler.class
-│ │ --rw----     2.0 fat     2386 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/xml/XmlObjectParser.class
-│ │ --rw----     2.0 fat     3147 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/serializer/xml/XmlObjectSerializerImpl.class
-│ │ --rw----     2.0 fat    15088 bl defN 22-Dec-16 11:49 org/identityconnectors/framework/impl/serializer/xml/connectors.dtd
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/framework/impl/test/
-│ │ --rw----     2.0 fat     2061 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/test/TestHelpersImpl$1.class
-│ │ --rw----     2.0 fat     1654 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/test/TestHelpersImpl$DummyConnectorMessages.class
-│ │ --rw----     2.0 fat    12390 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/impl/test/TestHelpersImpl.class
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/framework/server/
-│ │ --rw----     2.0 fat     4727 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/server/ConnectorServer.class
-│ │ --rw----     2.0 fat     8892 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/server/Main.class
-│ │ --rw----     2.0 fat     1949 bl defN 22-Dec-16 11:49 org/identityconnectors/framework/server/connectorserver.properties
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/framework/server/impl/
-│ │ --rw----     2.0 fat     1963 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/server/impl/CCLWatchThread.class
-│ │ --rw----     2.0 fat     2014 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/server/impl/CCLWatchThreadFactory.class
-│ │ --rw----     2.0 fat     4707 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/server/impl/ConnectionListener.class
-│ │ --rw----     2.0 fat      941 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/server/impl/ConnectionProcessor$BrokenConnectionException.class
-│ │ --rw----     2.0 fat     2215 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/server/impl/ConnectionProcessor$RemoteResultsHandler.class
-│ │ --rw----     2.0 fat    16789 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/server/impl/ConnectionProcessor.class
+...
 │ │ --rw----     2.0 fat     6176 bl defN 22-Dec-29 09:20 org/identityconnectors/framework/server/impl/ConnectorServerImpl.class
 │ │ -288 files, 854651 bytes uncompressed, 316250 bytes compressed:  63.0%
 │ │ +Zip file size: 384971 bytes, number of entries: 288
 │ │ +-rw----     2.0 fat     5803 bX defN 22-Dec-29 08:35 META-INF/MANIFEST.MF
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 META-INF/
-│ │ +-rw----     2.0 fat    19982 bl defN 22-Dec-29 08:30 META-INF/LICENSE
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 META-INF/maven/
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 META-INF/maven/net.tirasa.connid/
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 META-INF/maven/net.tirasa.connid/connector-framework-internal/
-│ │ +-rw----     2.0 fat      156 bl defN 22-Dec-29 08:35 META-INF/maven/net.tirasa.connid/connector-framework-internal/pom.properties
-│ │ +-rw----     2.0 fat     6599 bl defN 22-Dec-29 08:30 META-INF/maven/net.tirasa.connid/connector-framework-internal/pom.xml
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 META-INF/services/
-│ │ +-rw----     2.0 fat       72 bl defN 22-Dec-29 08:30 META-INF/services/org.identityconnectors.common.script.ScriptExecutorFactory
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 org/
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 org/identityconnectors/
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 org/identityconnectors/common/
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 org/identityconnectors/common/logging/
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 org/identityconnectors/common/logging/impl/
-│ │ +-rw----     2.0 fat     4736 bl defN 22-Dec-29 08:34 org/identityconnectors/common/logging/impl/JDKLogger.class
-│ │ +-rw----     2.0 fat     1998 bl defN 22-Dec-29 08:34 org/identityconnectors/common/logging/impl/NoOpLogger.class
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 org/identityconnectors/common/script/
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 org/identityconnectors/common/script/groovy/
-│ │ +-rw----     2.0 fat     1695 bl defN 22-Dec-29 08:34 org/identityconnectors/common/script/groovy/GroovyScriptExecutorFactory$GroovyScriptExecutor.class
-│ │ +-rw----     2.0 fat     1102 bl defN 22-Dec-29 08:34 org/identityconnectors/common/script/groovy/GroovyScriptExecutorFactory.class
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 org/identityconnectors/common/security/
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 org/identityconnectors/common/security/impl/
-│ │ +-rw----     2.0 fat      826 bl defN 22-Dec-29 08:34 org/identityconnectors/common/security/impl/EncryptorFactoryImpl.class
-│ │ +-rw----     2.0 fat     4504 bl defN 22-Dec-29 08:34 org/identityconnectors/common/security/impl/EncryptorImpl.class
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 org/identityconnectors/framework/
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 org/identityconnectors/framework/impl/
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 org/identityconnectors/framework/impl/api/
-│ │ +-rw----     2.0 fat     6965 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/APIConfigurationImpl.class
-│ │ +-rw----     2.0 fat    15081 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/AbstractConnectorFacade.class
-│ │ +-rw----     2.0 fat     3213 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/AbstractConnectorInfo.class
-│ │ +-rw----     2.0 fat     5409 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/BufferedResultsProxy$BufferedResultsHandler.class
-│ │ +-rw----     2.0 fat     4228 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/BufferedResultsProxy.class
-│ │ +-rw----     2.0 fat      313 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/ConfigurationPropertiesImpl$1.class
-│ │ +-rw----     2.0 fat     1794 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/ConfigurationPropertiesImpl$PropertyComparator.class
-│ │ +-rw----     2.0 fat     5049 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/ConfigurationPropertiesImpl.class
-│ │ +-rw----     2.0 fat     6300 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/ConfigurationPropertyImpl.class
-│ │ +-rw----     2.0 fat     4097 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/ConnectorFacadeFactoryImpl.class
-│ │ +-rw----     2.0 fat     1448 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/ConnectorInfoManagerFactoryImpl$LocalManagerKey.class
-│ │ +-rw----     2.0 fat     1345 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/ConnectorInfoManagerFactoryImpl$RemoteManagerKey.class
-│ │ +-rw----     2.0 fat     5196 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/ConnectorInfoManagerFactoryImpl.class
-│ │ +-rw----     2.0 fat     3464 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/ConnectorMessagesImpl.class
-│ │ +-rw----     2.0 fat     2362 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/DelegatingTimeoutProxy.class
-│ │ +-rw----     2.0 fat     3856 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/LoggingProxy.class
-│ │ +-rw----     2.0 fat     3043 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/ManagedConnectorFacadeFactoryImpl.class
-│ │ +-rw----     2.0 fat     1109 bl defN 22-Dec-29 08:30 org/identityconnectors/framework/impl/api/Messages.properties
-│ │ +-rw----     2.0 fat     2225 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/MethodTimeoutProxy$1.class
-│ │ +-rw----     2.0 fat     3078 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/MethodTimeoutProxy.class
-│ │ +-rw----     2.0 fat      202 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/ObjectStreamHandler.class
-│ │ +-rw----     2.0 fat     3193 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/SearchResultsHandlerLoggingProxy.class
-│ │ +-rw----     2.0 fat     2653 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/StreamHandlerUtil$ObjectStreamHandlerAdapter.class
-│ │ +-rw----     2.0 fat     1363 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/StreamHandlerUtil$SearchResultsHandlerAdapter.class
-│ │ +-rw----     2.0 fat     1115 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/StreamHandlerUtil$SyncResultsHandlerAdapter.class
-│ │ +-rw----     2.0 fat     2642 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/StreamHandlerUtil.class
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 org/identityconnectors/framework/impl/api/local/
-│ │ +-rw----     2.0 fat     4622 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/BundleClassLoader.class
-│ │ +-rw----     2.0 fat      940 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/BundleKey.class
-│ │ +-rw----     2.0 fat     2067 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/BundleLibSorter.class
-│ │ +-rw----     2.0 fat     1102 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/ConnectorBundleManifest.class
-│ │ +-rw----     2.0 fat     4091 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/ConnectorBundleManifestParser.class
-│ │ +-rw----     2.0 fat      814 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/ConnectorLifecycleUtil.class
-│ │ +-rw----     2.0 fat     6132 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/ConnectorPoolManager$ConnectorPoolHandler.class
-│ │ +-rw----     2.0 fat     1682 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/ConnectorPoolManager$ConnectorPoolKey.class
-│ │ +-rw----     2.0 fat     7379 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/ConnectorPoolManager.class
-│ │ +-rw----     2.0 fat    13463 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/JavaClassProperties.class
-│ │ +-rw----     2.0 fat     8917 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/LocalConnectorFacadeImpl.class
-│ │ +-rw----     2.0 fat     3061 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/LocalConnectorInfoImpl.class
-│ │ +-rw----     2.0 fat      331 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/LocalConnectorInfoManagerImpl$1.class
-│ │ +-rw----     2.0 fat     3884 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/LocalConnectorInfoManagerImpl$BundleTempDirectory.class
-│ │ +-rw----     2.0 fat    22235 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/LocalConnectorInfoManagerImpl.class
-│ │ +-rw----     2.0 fat      274 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/ObjectPool$1.class
-│ │ +-rw----     2.0 fat     3316 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/ObjectPool$PooledObject.class
-│ │ +-rw----     2.0 fat     1413 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/ObjectPool$Statistics.class
-│ │ +-rw----     2.0 fat    11117 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/ObjectPool.class
-│ │ +-rw----     2.0 fat      401 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/ObjectPoolEntry.class
-│ │ +-rw----     2.0 fat      555 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/ObjectPoolHandler.class
-│ │ +-rw----     2.0 fat     1006 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/ThreadClassLoaderManager$1.class
-│ │ +-rw----     2.0 fat     3557 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/ThreadClassLoaderManager.class
-│ │ +-rw----     2.0 fat     5758 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/WorkingBundleInfo.class
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 org/identityconnectors/framework/impl/api/local/operations/
-│ │ +-rw----     2.0 fat     1537 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/APIOperationRunner.class
-│ │ +-rw----     2.0 fat     3590 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/AttributesToGetResultsHandler.class
-│ │ +-rw----     2.0 fat     3837 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/AuthenticationImpl.class
-│ │ +-rw----     2.0 fat     2034 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/CaseNormalizer.class
-│ │ +-rw----     2.0 fat     2313 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/ConnectorAPIOperationRunner.class
-│ │ +-rw----     2.0 fat     5066 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/ConnectorAPIOperationRunnerProxy.class
-│ │ +-rw----     2.0 fat     3585 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/ConnectorOperationalContext.class
-│ │ +-rw----     2.0 fat     6680 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/CreateImpl.class
-│ │ +-rw----     2.0 fat     4299 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/DeleteImpl.class
-│ │ +-rw----     2.0 fat     3288 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/DiscoverConfigurationImpl.class
-│ │ +-rw----     2.0 fat     2056 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/DuplicateFilteringResultsHandler.class
-│ │ +-rw----     2.0 fat     1673 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/FilteredResultsHandler$PassThroughFilter.class
-│ │ +-rw----     2.0 fat     2748 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/FilteredResultsHandler.class
-│ │ +-rw----     2.0 fat     1389 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/GetImpl$1.class
-│ │ +-rw----     2.0 fat     3079 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/GetImpl.class
-│ │ +-rw----     2.0 fat     2911 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/NormalizingFilter.class
-│ │ +-rw----     2.0 fat     1994 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/NormalizingResultsHandler.class
-│ │ +-rw----     2.0 fat     1562 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/NormalizingSyncResultsHandler.class
-│ │ +-rw----     2.0 fat     6899 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/ObjectNormalizerFacade.class
-│ │ +-rw----     2.0 fat     2976 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/OperationalContext.class
-│ │ +-rw----     2.0 fat     3697 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/ResolveUsernameImpl.class
-│ │ +-rw----     2.0 fat     2631 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/SchemaImpl.class
-│ │ +-rw----     2.0 fat     3823 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/ScriptOnConnectorImpl.class
-│ │ +-rw----     2.0 fat     3345 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/ScriptOnResourceImpl.class
-│ │ +-rw----     2.0 fat     2154 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/SearchImpl$1.class
-│ │ +-rw----     2.0 fat     1980 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/SearchImpl$AttributesToGetSearchResultsHandler.class
-│ │ +-rw----     2.0 fat    13298 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/SearchImpl.class
-│ │ +-rw----     2.0 fat     4596 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/SpiOperationLoggingUtil.class
-│ │ +-rw----     2.0 fat     3782 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/SyncImpl$1.class
-│ │ +-rw----     2.0 fat     2100 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/SyncImpl$AttributesToGetSyncResultsHandler.class
-│ │ +-rw----     2.0 fat     6742 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/SyncImpl.class
-│ │ +-rw----     2.0 fat     2393 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/TestImpl.class
-│ │ +-rw----     2.0 fat     1671 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/ThreadClassLoaderManagerProxy$ApplicationClassLoaderHandler.class
-│ │ +-rw----     2.0 fat     3265 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/ThreadClassLoaderManagerProxy.class
-│ │ +-rw----     2.0 fat    18428 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/UpdateDeltaImpl.class
-│ │ +-rw----     2.0 fat    15716 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/UpdateImpl.class
-│ │ +-rw----     2.0 fat     1138 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/local/operations/ValidateImpl.class
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 org/identityconnectors/framework/impl/api/remote/
-│ │ +-rw----     2.0 fat     3720 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/remote/RemoteConnectorFacadeImpl.class
-│ │ +-rw----     2.0 fat      898 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/remote/RemoteConnectorInfoImpl.class
-│ │ +-rw----     2.0 fat    13440 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/remote/RemoteConnectorInfoManagerImpl.class
-│ │ +-rw----     2.0 fat     6597 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/remote/RemoteFrameworkConnection.class
-│ │ +-rw----     2.0 fat     7569 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/remote/RemoteOperationInvocationHandler.class
-│ │ +-rw----     2.0 fat     4880 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/remote/RemoteWrappedException.class
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 org/identityconnectors/framework/impl/api/remote/messages/
-│ │ +-rw----     2.0 fat      819 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/remote/messages/EchoMessage.class
-│ │ +-rw----     2.0 fat      659 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/remote/messages/ErrorResponse.class
-│ │ +-rw----     2.0 fat     1130 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/remote/messages/HelloRequest.class
-│ │ +-rw----     2.0 fat     2647 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/remote/messages/HelloResponse.class
-│ │ +-rw----     2.0 fat      153 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/remote/messages/Message.class
-│ │ +-rw----     2.0 fat     2207 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/remote/messages/OperationRequest.class
-│ │ +-rw----     2.0 fat      490 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/remote/messages/OperationRequestMoreData.class
-│ │ +-rw----     2.0 fat      490 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/remote/messages/OperationRequestStopData.class
-│ │ +-rw----     2.0 fat      478 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/remote/messages/OperationResponseEnd.class
-│ │ +-rw----     2.0 fat     1193 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/remote/messages/OperationResponsePart.class
-│ │ +-rw----     2.0 fat      484 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/api/remote/messages/OperationResponsePause.class
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 org/identityconnectors/framework/impl/serializer/
-│ │ +-rw----     2.0 fat     2569 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/APIConfigurationHandlers$1.class
-│ │ +-rw----     2.0 fat     2725 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/APIConfigurationHandlers$2.class
-│ │ +-rw----     2.0 fat     3742 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/APIConfigurationHandlers$3.class
-│ │ +-rw----     2.0 fat     3446 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/APIConfigurationHandlers$4.class
-│ │ +-rw----     2.0 fat     4504 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/APIConfigurationHandlers$5.class
-│ │ +-rw----     2.0 fat     2144 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/APIConfigurationHandlers$6.class
-│ │ +-rw----     2.0 fat     2110 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/APIConfigurationHandlers$7.class
-│ │ +-rw----     2.0 fat     3282 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/APIConfigurationHandlers$8.class
-│ │ +-rw----     2.0 fat     2473 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/APIConfigurationHandlers.class
-│ │ +-rw----     2.0 fat      815 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/AbstractObjectSerializationHandler.class
-│ │ +-rw----     2.0 fat     1493 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$1.class
-│ │ +-rw----     2.0 fat     1507 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$10.class
-│ │ +-rw----     2.0 fat     1511 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$11.class
-│ │ +-rw----     2.0 fat     1507 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$12.class
-│ │ +-rw----     2.0 fat     1527 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$13.class
-│ │ +-rw----     2.0 fat     1515 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$14.class
-│ │ +-rw----     2.0 fat     1523 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$15.class
-│ │ +-rw----     2.0 fat     1602 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$16.class
-│ │ +-rw----     2.0 fat     2728 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$17.class
-│ │ +-rw----     2.0 fat     1479 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$18.class
-│ │ +-rw----     2.0 fat     1339 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$19.class
-│ │ +-rw----     2.0 fat     1493 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$2.class
-│ │ +-rw----     2.0 fat     1307 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$20.class
-│ │ +-rw----     2.0 fat     1279 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$21.class
-│ │ +-rw----     2.0 fat     1170 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$22.class
-│ │ +-rw----     2.0 fat     1640 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$23.class
-│ │ +-rw----     2.0 fat     3860 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$24.class
-│ │ +-rw----     2.0 fat     2437 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$25.class
-│ │ +-rw----     2.0 fat     1769 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$26.class
-│ │ +-rw----     2.0 fat     1893 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$27.class
-│ │ +-rw----     2.0 fat     2634 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$28.class
-│ │ +-rw----     2.0 fat     6866 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$29.class
-│ │ +-rw----     2.0 fat     1505 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$3.class
-│ │ +-rw----     2.0 fat     2635 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$30.class
-│ │ +-rw----     2.0 fat     2470 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$31.class
-│ │ +-rw----     2.0 fat     2483 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$32.class
-│ │ +-rw----     2.0 fat     2036 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$33.class
-│ │ +-rw----     2.0 fat     2082 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$34.class
-│ │ +-rw----     2.0 fat     2036 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$35.class
-│ │ +-rw----     2.0 fat     2159 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$36.class
-│ │ +-rw----     2.0 fat     1906 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$37.class
-│ │ +-rw----     2.0 fat     3971 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$38.class
-│ │ +-rw----     2.0 fat     2971 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$39.class
-│ │ +-rw----     2.0 fat     1505 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$4.class
-│ │ +-rw----     2.0 fat     2466 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$40.class
-│ │ +-rw----     2.0 fat     2814 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$41.class
-│ │ +-rw----     2.0 fat     1485 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$5.class
-│ │ +-rw----     2.0 fat     2920 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$6.class
-│ │ +-rw----     2.0 fat     1501 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$7.class
-│ │ +-rw----     2.0 fat     1481 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$8.class
-│ │ +-rw----     2.0 fat     1509 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$9.class
-│ │ +-rw----     2.0 fat     2813 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$AttributeHandler.class
-│ │ +-rw----     2.0 fat     2344 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers$ThrowableHandler.class
-│ │ +-rw----     2.0 fat     9889 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/CommonObjectHandlers.class
-│ │ +-rw----     2.0 fat     1952 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/EnumSerializationHandler.class
-│ │ +-rw----     2.0 fat     1894 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/FilterHandlers$1.class
-│ │ +-rw----     2.0 fat     1892 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/FilterHandlers$10.class
-│ │ +-rw----     2.0 fat     1704 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/FilterHandlers$11.class
-│ │ +-rw----     2.0 fat     1732 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/FilterHandlers$12.class
-│ │ +-rw----     2.0 fat     1694 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/FilterHandlers$2.class
-│ │ +-rw----     2.0 fat     1694 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/FilterHandlers$3.class
-│ │ +-rw----     2.0 fat     1686 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/FilterHandlers$4.class
-│ │ +-rw----     2.0 fat     1706 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/FilterHandlers$5.class
-│ │ +-rw----     2.0 fat     1734 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/FilterHandlers$6.class
-│ │ +-rw----     2.0 fat     1694 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/FilterHandlers$7.class
-│ │ +-rw----     2.0 fat     1722 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/FilterHandlers$8.class
-│ │ +-rw----     2.0 fat     2048 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/FilterHandlers$9.class
-│ │ +-rw----     2.0 fat     2716 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/FilterHandlers$AttributeFilterHandler.class
-│ │ +-rw----     2.0 fat     2843 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/FilterHandlers$CompositeFilterHandler.class
-│ │ +-rw----     2.0 fat     3459 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/FilterHandlers.class
-│ │ +-rw----     2.0 fat     1792 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/MessageHandlers$1.class
-│ │ +-rw----     2.0 fat     1984 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/MessageHandlers$10.class
-│ │ +-rw----     2.0 fat     2752 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/MessageHandlers$2.class
-│ │ +-rw----     2.0 fat     3169 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/MessageHandlers$3.class
-│ │ +-rw----     2.0 fat     1390 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/MessageHandlers$4.class
-│ │ +-rw----     2.0 fat     2168 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/MessageHandlers$5.class
-│ │ +-rw----     2.0 fat     1394 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/MessageHandlers$6.class
-│ │ +-rw----     2.0 fat     1394 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/MessageHandlers$7.class
-│ │ +-rw----     2.0 fat     1392 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/MessageHandlers$8.class
-│ │ +-rw----     2.0 fat     2029 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/MessageHandlers$9.class
-│ │ +-rw----     2.0 fat     2890 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/MessageHandlers.class
-│ │ +-rw----     2.0 fat     1302 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/ObjectDecoder.class
-│ │ +-rw----     2.0 fat     1131 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/ObjectEncoder.class
-│ │ +-rw----     2.0 fat      472 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/ObjectSerializationHandler.class
-│ │ +-rw----     2.0 fat     1991 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/ObjectSerializerFactoryImpl.class
-│ │ +-rw----     2.0 fat     4639 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/ObjectSerializerRegistry.class
-│ │ +-rw----     2.0 fat      348 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/ObjectTypeMapper.class
-│ │ +-rw----     2.0 fat     1113 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/ObjectTypeMapperImpl.class
-│ │ +-rw----     2.0 fat     2506 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/OperationMappings.class
-│ │ +-rw----     2.0 fat     1622 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$1.class
-│ │ +-rw----     2.0 fat     1614 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$10.class
-│ │ +-rw----     2.0 fat     1619 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$11.class
-│ │ +-rw----     2.0 fat     1619 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$12.class
-│ │ +-rw----     2.0 fat     1575 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$13.class
-│ │ +-rw----     2.0 fat     1966 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$14.class
-│ │ +-rw----     2.0 fat     1644 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$15.class
-│ │ +-rw----     2.0 fat     2195 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$16.class
-│ │ +-rw----     2.0 fat     1661 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$17.class
-│ │ +-rw----     2.0 fat     1609 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$18.class
-│ │ +-rw----     2.0 fat     1609 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$19.class
-│ │ +-rw----     2.0 fat      910 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$1MapEntry.class
-│ │ +-rw----     2.0 fat     1622 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$2.class
-│ │ +-rw----     2.0 fat     1538 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$20.class
-│ │ +-rw----     2.0 fat     1588 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$21.class
-│ │ +-rw----     2.0 fat     1818 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$22.class
-│ │ +-rw----     2.0 fat     1994 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$23.class
-│ │ +-rw----     2.0 fat     4158 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$24.class
-│ │ +-rw----     2.0 fat     2807 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$25.class
-│ │ +-rw----     2.0 fat     3574 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$26.class
-│ │ +-rw----     2.0 fat     1974 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$27.class
-│ │ +-rw----     2.0 fat     3533 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$28.class
-│ │ +-rw----     2.0 fat     3338 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$29.class
-│ │ +-rw----     2.0 fat     1772 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$3.class
-│ │ +-rw----     2.0 fat     1772 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$4.class
-│ │ +-rw----     2.0 fat     1610 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$5.class
-│ │ +-rw----     2.0 fat     1610 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$6.class
-│ │ +-rw----     2.0 fat     1607 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$7.class
-│ │ +-rw----     2.0 fat     1607 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$8.class
-│ │ +-rw----     2.0 fat     1612 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives$9.class
-│ │ +-rw----     2.0 fat     4788 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/Primitives.class
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 org/identityconnectors/framework/impl/serializer/binary/
-│ │ +-rw----     2.0 fat     7631 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/binary/BinaryObjectDecoder$InternalDecoder.class
-│ │ +-rw----     2.0 fat     1743 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/binary/BinaryObjectDecoder$ReadState.class
-│ │ +-rw----     2.0 fat     5183 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/binary/BinaryObjectDecoder.class
-│ │ +-rw----     2.0 fat     8807 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/binary/BinaryObjectEncoder$InternalEncoder.class
-│ │ +-rw----     2.0 fat      884 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/binary/BinaryObjectEncoder$OutputBuffer.class
-│ │ +-rw----     2.0 fat     5681 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/binary/BinaryObjectEncoder.class
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 org/identityconnectors/framework/impl/serializer/xml/
-│ │ +-rw----     2.0 fat     9868 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/xml/XmlObjectDecoder.class
-│ │ +-rw----     2.0 fat     1497 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/xml/XmlObjectEncoder$OutputElement.class
-│ │ +-rw----     2.0 fat    10209 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/xml/XmlObjectEncoder.class
-│ │ +-rw----     2.0 fat     6726 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/xml/XmlObjectParser$MySAXHandler.class
-│ │ +-rw----     2.0 fat     2386 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/xml/XmlObjectParser.class
-│ │ +-rw----     2.0 fat     3147 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/serializer/xml/XmlObjectSerializerImpl.class
-│ │ +-rw----     2.0 fat    15088 bl defN 22-Dec-29 08:30 org/identityconnectors/framework/impl/serializer/xml/connectors.dtd
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 org/identityconnectors/framework/impl/test/
-│ │ +-rw----     2.0 fat     2061 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/test/TestHelpersImpl$1.class
-│ │ +-rw----     2.0 fat     1654 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/test/TestHelpersImpl$DummyConnectorMessages.class
-│ │ +-rw----     2.0 fat    12390 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/impl/test/TestHelpersImpl.class
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 org/identityconnectors/framework/server/
-│ │ +-rw----     2.0 fat     4727 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/server/ConnectorServer.class
-│ │ +-rw----     2.0 fat     8892 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/server/Main.class
-│ │ +-rw----     2.0 fat     1949 bl defN 22-Dec-29 08:30 org/identityconnectors/framework/server/connectorserver.properties
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:35 org/identityconnectors/framework/server/impl/
-│ │ +-rw----     2.0 fat     1963 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/server/impl/CCLWatchThread.class
-│ │ +-rw----     2.0 fat     2014 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/server/impl/CCLWatchThreadFactory.class
-│ │ +-rw----     2.0 fat     4707 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/server/impl/ConnectionListener.class
-│ │ +-rw----     2.0 fat      941 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/server/impl/ConnectionProcessor$BrokenConnectionException.class
-│ │ +-rw----     2.0 fat     2215 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/server/impl/ConnectionProcessor$RemoteResultsHandler.class
-│ │ +-rw----     2.0 fat    16789 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/server/impl/ConnectionProcessor.class
+...
 │ │ +-rw----     2.0 fat     6176 bl defN 22-Dec-29 08:34 org/identityconnectors/framework/server/impl/ConnectorServerImpl.class
 │ │ +288 files, 854651 bytes uncompressed, 316251 bytes compressed:  63.0%
 │ ├── META-INF/MANIFEST.MF
 │ │ @@ -1,9 +1,9 @@
-│ │  Manifest-Version: 1.0
-│ │ -Bnd-LastModified: 1672305646774
-│ │ +Bnd-LastModified: 1672302950864
-│ │  Build-Jdk: 1.8.0_352
-│ │  Built-By: ilgrosso
-│ │  Bundle-Description: Sonatype helps open source projects to set up Mave
-│ │   n repositories on https://oss.sonatype.org/
-│ │  Bundle-License: http://opensource.org/licenses/CDDL-1.0
-│ │  Bundle-ManifestVersion: 2
+│ │  Manifest-Version: 1.0
+
+│ │ -Bnd-LastModified: 1672305646774
+
+│ │ +Bnd-LastModified: 1672302950864
+
+│ │  Build-Jdk: 1.8.0_352
+
+│ │  Built-By: ilgrosso
+
+│ │  Bundle-Description: Sonatype helps open source projects to set up Mave
+
+│ │   n repositories on https://oss.sonatype.org/
+
+│ │  Bundle-License: http://opensource.org/licenses/CDDL-1.0
+
+│ │  Bundle-ManifestVersion: 2
+
 │ │  Bundle-Name: ConnId: Connector Framework Internal
 │ ├── META-INF/maven/net.tirasa.connid/connector-framework-internal/pom.properties
 │ │ @@ -1,5 +1,5 @@
@@ -1159,49 +162,32 @@
 │ │ @@ -1,18 +1,18 @@
 │ │  Zip file size: 12462 bytes, number of entries: 16
 │ │ --rw----     2.0 fat      813 bX defN 22-Dec-29 09:20 META-INF/MANIFEST.MF
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 META-INF/
-│ │ --rw----     2.0 fat    19982 bl defN 22-Dec-16 11:49 META-INF/LICENSE
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 META-INF/maven/
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 META-INF/maven/net.tirasa.connid/
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 META-INF/maven/net.tirasa.connid/slf4j-logging/
-│ │ --rw----     2.0 fat      141 bl defN 22-Dec-29 09:20 META-INF/maven/net.tirasa.connid/slf4j-logging/pom.properties
-│ │ --rw----     2.0 fat     3099 bl defN 22-Dec-29 09:15 META-INF/maven/net.tirasa.connid/slf4j-logging/pom.xml
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 META-INF/services/
-│ │ --rw----     2.0 fat       53 bl defN 22-Dec-16 11:49 META-INF/services/org.identityconnectors.common.logging
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/common/
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/common/logging/
-│ │ --rw----     2.0 fat        0 bl defN 22-Dec-29 10:20 org/identityconnectors/common/logging/slf4j/
+...
 │ │ --rw----     2.0 fat     4690 bl defN 22-Dec-29 09:20 org/identityconnectors/common/logging/slf4j/SLF4JLog.class
 │ │ +-rw----     2.0 fat      813 bX defN 22-Dec-29 08:36 META-INF/MANIFEST.MF
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:36 META-INF/
-│ │ +-rw----     2.0 fat    19982 bl defN 22-Dec-29 08:30 META-INF/LICENSE
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:36 META-INF/maven/
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:36 META-INF/maven/net.tirasa.connid/
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:36 META-INF/maven/net.tirasa.connid/slf4j-logging/
-│ │ +-rw----     2.0 fat      141 bl defN 22-Dec-29 08:36 META-INF/maven/net.tirasa.connid/slf4j-logging/pom.properties
-│ │ +-rw----     2.0 fat     3099 bl defN 22-Dec-29 08:30 META-INF/maven/net.tirasa.connid/slf4j-logging/pom.xml
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:36 META-INF/services/
-│ │ +-rw----     2.0 fat       53 bl defN 22-Dec-29 08:30 META-INF/services/org.identityconnectors.common.logging
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:36 org/
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:36 org/identityconnectors/
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:36 org/identityconnectors/common/
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:36 org/identityconnectors/common/logging/
-│ │ +-rw----     2.0 fat        0 bl defN 22-Dec-29 09:36 org/identityconnectors/common/logging/slf4j/
+...
 │ │ +-rw----     2.0 fat     4690 bl defN 22-Dec-29 08:36 org/identityconnectors/common/logging/slf4j/SLF4JLog.class
 │ │  16 files, 28778 bytes uncompressed, 9910 bytes compressed:  65.6%
 │ ├── META-INF/MANIFEST.MF
 │ │ @@ -1,9 +1,9 @@
-│ │  Manifest-Version: 1.0
-│ │ -Bnd-LastModified: 1672305645383
-│ │ +Bnd-LastModified: 1672302978982
-│ │  Build-Jdk: 1.8.0_352
-│ │  Built-By: ilgrosso
-│ │  Bundle-Description: Sonatype helps open source projects to set up Mave
-│ │   n repositories on https://oss.sonatype.org/
-│ │  Bundle-License: http://opensource.org/licenses/CDDL-1.0
-│ │  Bundle-ManifestVersion: 2
+│ │  Manifest-Version: 1.0
+
+│ │ -Bnd-LastModified: 1672305645383
+
+│ │ +Bnd-LastModified: 1672302978982
+
+│ │  Build-Jdk: 1.8.0_352
+
+│ │  Built-By: ilgrosso
+
+│ │  Bundle-Description: Sonatype helps open source projects to set up Mave
+
+│ │   n repositories on https://oss.sonatype.org/
+
+│ │  Bundle-License: http://opensource.org/licenses/CDDL-1.0
+
+│ │  Bundle-ManifestVersion: 2
+
 │ │  Bundle-Name: ConnId: SLF4J Logging
 │ ├── META-INF/maven/net.tirasa.connid/slf4j-logging/pom.properties
 │ │ @@ -1,5 +1,5 @@
@@ -1212,3 +198,4 @@
 │ │  groupId=net.tirasa.connid
 │ │  artifactId=slf4j-logging
 
+...

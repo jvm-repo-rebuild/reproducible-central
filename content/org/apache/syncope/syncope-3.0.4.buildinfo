@@ -36,9 +36,17 @@ outputs.0.2.filename=syncope-3.0.4-source-release.zip
 outputs.0.2.length=11029612
 outputs.0.2.checksums.sha512=352ce9774d19a0ef362f3f0e57b5a4d66ca6fbe092a868e0b21b75c12fbce69d03cb1ea6885f855398492e93bebff367b90aa4f2f3ad0bd79634ae809acd0f83
 
-outputs.0.3.filename=syncope-3.0.4-source-release.zip.sha512
-outputs.0.3.length=128
-outputs.0.3.checksums.sha512=c230a3c3bca28e24e1ff5b32621c603b2287d9ed07c75a359457eb599b2f1d943c9378739aaf5b7fa1b208bc8879e2c4cf5517508315115a55b51e9d33773b54
+outputs.0.3.filename=syncope-3.0.4-cyclonedx.xml
+outputs.0.3.length=3304709
+outputs.0.3.checksums.sha512=d46cfae44891a118007be363034eaa2ff6e868ce6eb369c02d0796825d2f69aee04544d1f7e56bdd4ba142cfa05289983abdea29590a570d89e4021933fbd80d
+
+outputs.0.4.filename=syncope-3.0.4-cyclonedx.json
+outputs.0.4.length=3376545
+outputs.0.4.checksums.sha512=239cd83a9b09b450f9cbefff65f6c5038bbfaf2d4d62a7ea5a309f4d8d9f60511016753a506af3229b192a2deb083795fddf1a7ff8b5fda903b632d6f64347a4
+
+outputs.0.5.filename=syncope-3.0.4-source-release.zip.sha512
+outputs.0.5.length=128
+outputs.0.5.checksums.sha512=c230a3c3bca28e24e1ff5b32621c603b2287d9ed07c75a359457eb599b2f1d943c9378739aaf5b7fa1b208bc8879e2c4cf5517508315115a55b51e9d33773b54
 
 outputs.1.coordinates=org.apache.syncope:syncope-common
 
@@ -46,11 +54,27 @@ outputs.1.0.filename=syncope-common-3.0.4.pom
 outputs.1.0.length=2744
 outputs.1.0.checksums.sha512=b3681206694e9ceba6880ee5214e2c3b455a10e5e528c5acd49015c07d12744b7096b8520fcdca40d49435cd52f460168d7cdbbd2be7f9ef8b325a4da893f215
 
+outputs.1.1.filename=syncope-common-3.0.4-cyclonedx.xml
+outputs.1.1.length=2828
+outputs.1.1.checksums.sha512=69afd35b0303a2ab1db5d91bad01c728b3a05e198c5332ba382a748c1c6fcdf7bfef8951392346c690f9998f8ac5feaf6bb0e7207c349ce6a06467b1e4d0cffe
+
+outputs.1.2.filename=syncope-common-3.0.4-cyclonedx.json
+outputs.1.2.length=3340
+outputs.1.2.checksums.sha512=71965e388c9f298ee6121610d2b6437d37a58ceef2b068c80b6b082b13d4cec4f9fa6eb77eda417d0d283ec8cfae59adbaf06250d7504e5c6efad8ce79ab462e
+
 outputs.2.coordinates=org.apache.syncope.common:syncope-common-idrepo
 
 outputs.2.0.filename=syncope-common-idrepo-3.0.4.pom
 outputs.2.0.length=1597
 outputs.2.0.checksums.sha512=0c9a58ba41fff50b8413522774cf14c7d2cf0e712fe87b4266451cd430bd27db4472d8cc8d3138cab60afbb6cf610d08bd6a3d6e40bb956216e97d971cb4aefe
+
+outputs.2.1.filename=syncope-common-idrepo-3.0.4-cyclonedx.xml
+outputs.2.1.length=2935
+outputs.2.1.checksums.sha512=d2f2be0046b771ac498b62a65a7c30057aaabf8e515cc55560f505b2abf52617b335f309904a9cd0912408fa35ee45cc3767d24a7c4d10db7a828a60993a43d5
+
+outputs.2.2.filename=syncope-common-idrepo-3.0.4-cyclonedx.json
+outputs.2.2.length=3447
+outputs.2.2.checksums.sha512=0ec89c6bf8a64ab696b1f788e06c17be2ff45b16d6508a5e060ba0976917c867fa053faa79042c74a0cf0c6592201c71a1dcc704b6cffc852abbb432ed8425ba
 
 outputs.3.coordinates=org.apache.syncope.common.idrepo:syncope-common-idrepo-lib
 
@@ -66,11 +90,27 @@ outputs.3.2.filename=syncope-common-idrepo-lib-3.0.4-sources.jar
 outputs.3.2.length=222299
 outputs.3.2.checksums.sha512=90fd8dbd5e31db333e84d81f7fca751d5ad6ca0da0dba69075bf96317dc63219c99870818fe52ba0db6bb3a5ca4546d92613787ba15721dff7dc2b38058c8886
 
+outputs.3.3.filename=syncope-common-idrepo-lib-3.0.4-cyclonedx.xml
+outputs.3.3.length=66564
+outputs.3.3.checksums.sha512=cbe6ea243ca8a96b2ad367e6405b444636d086b93e4bf0e261a3ff91d702782dd8deab3f2b1fbbeb6270d9230ad7a4559a95aa3d33e584d115e3c93e8f17673f
+
+outputs.3.4.filename=syncope-common-idrepo-lib-3.0.4-cyclonedx.json
+outputs.3.4.length=77960
+outputs.3.4.checksums.sha512=5c00914ffc139d5eeb1ddc98f9f26697a3962cb40a7fe65a6936da98df34c63e3277c6f9ad68919d6ab3a3c7a5f0baa0e1db14661b5ee5fe76da51e21262d70f
+
 outputs.4.coordinates=org.apache.syncope.common:syncope-common-keymaster
 
 outputs.4.0.filename=syncope-common-keymaster-3.0.4.pom
 outputs.4.0.length=1647
 outputs.4.0.checksums.sha512=a3fac63d5f9f66308c6a9f1444349aec1af35a849dac1db4ae75b7b2083f058cfd0818ddc515471dd58e2053a267dd257e10ab9360de8a2efbb49ee405aa29ab
+
+outputs.4.1.filename=syncope-common-keymaster-3.0.4-cyclonedx.xml
+outputs.4.1.length=2956
+outputs.4.1.checksums.sha512=af781ddbd644c446d502752be79bb0fa30c136ceaddec86ec5d86c8f7642f0f281fc6b8c277f67da8d0ff1677a59b1c552fe2ed507bf7cc5664c931aeedf3fbe
+
+outputs.4.2.filename=syncope-common-keymaster-3.0.4-cyclonedx.json
+outputs.4.2.length=3468
+outputs.4.2.checksums.sha512=2f9e0471b99f483f37b3f0dbefd09c96c38fd4f336c7aefa651a8d6549652eff1ff9fb7d98f2c5cbe331f0b8d7c0f0bfbf876a7af70428eef73f85b8ff149c9b
 
 outputs.5.coordinates=org.apache.syncope.common.keymaster:syncope-common-keymaster-client-api
 
@@ -86,6 +126,14 @@ outputs.5.2.filename=syncope-common-keymaster-client-api-3.0.4-sources.jar
 outputs.5.2.length=23525
 outputs.5.2.checksums.sha512=0b4a1442f83a0bd9af4f30f65679a23102563183a72e251c01f38161244e31597f7898b880ea4e0c04e461ced672f01be3ed8010367b55ef2ff4408852e62ecf
 
+outputs.5.3.filename=syncope-common-keymaster-client-api-3.0.4-cyclonedx.xml
+outputs.5.3.length=83866
+outputs.5.3.checksums.sha512=a2a648e85a4f4ac1194efc30904af042de173139df9424fbab6ef089d41daecf51075327ab5a2d5a355d59a1411459b259cb098068d40c6f9898b032d98d2bd0
+
+outputs.5.4.filename=syncope-common-keymaster-client-api-3.0.4-cyclonedx.json
+outputs.5.4.length=98180
+outputs.5.4.checksums.sha512=6f0bdf7328212a3f9dfdb515cc783e57284c49353173a4c1c8674e4b26667c236375d7cd6ca20484c6f67421af9229d21a05581a354bd7b78b50f2710d04a949
+
 outputs.6.coordinates=org.apache.syncope.common.keymaster:syncope-common-keymaster-client-zookeeper
 
 outputs.6.0.filename=syncope-common-keymaster-client-zookeeper-3.0.4.pom
@@ -99,6 +147,14 @@ outputs.6.1.checksums.sha512=7909e68a110ad4c3faec98b91f1077c5525bad7058dc913e750
 outputs.6.2.filename=syncope-common-keymaster-client-zookeeper-3.0.4-sources.jar
 outputs.6.2.length=23400
 outputs.6.2.checksums.sha512=7fa5327a4538d7e963630672fa8299e9fc09b4fa508cbc2ffefa37d03ba2fd4e980aaac9989dea27089f81fe9d10856a4635b4d5cea18a352c7a831e21c9287f
+
+outputs.6.3.filename=syncope-common-keymaster-client-zookeeper-3.0.4-cyclonedx.xml
+outputs.6.3.length=145605
+outputs.6.3.checksums.sha512=05f37d1e8ecfbd6ffba2198bbb60e62c2d025b8ba2be3b8623b8e08d5b937b8cdd2347c120dd334f06e134ada37dab68e9d436db76e29dcb56bd523960b15b1d
+
+outputs.6.4.filename=syncope-common-keymaster-client-zookeeper-3.0.4-cyclonedx.json
+outputs.6.4.length=169660
+outputs.6.4.checksums.sha512=aec4ddb5e0af9ee007ce3b532c8d07f2e6a874638dbc9c0c54eb45e7e775250d76de82eac266ce9ae37394b406b00e64c8a8c10760f64441bcf5e28cd11fa740
 
 outputs.7.coordinates=org.apache.syncope.common.idrepo:syncope-common-idrepo-rest-api
 
@@ -114,11 +170,27 @@ outputs.7.2.filename=syncope-common-idrepo-rest-api-3.0.4-sources.jar
 outputs.7.2.length=93311
 outputs.7.2.checksums.sha512=9c55c68c9d77cd0761f595fda9f1c1a617a7987b5306d2494d2d0a5591ec94504ae7ec1439517f93aa4cf58955b28d15d426c89f686c45fbae47cdbb40a7c3a6
 
+outputs.7.3.filename=syncope-common-idrepo-rest-api-3.0.4-cyclonedx.xml
+outputs.7.3.length=71527
+outputs.7.3.checksums.sha512=37c3c752f81401b6e0f205c11ec1f9c08993cc669c8b82e6c654010e296686f24c66bf391f5390781b5e035290e92cbde2f820a3458eb00301dfa636d35f4a3c
+
+outputs.7.4.filename=syncope-common-idrepo-rest-api-3.0.4-cyclonedx.json
+outputs.7.4.length=83780
+outputs.7.4.checksums.sha512=716679ad8aa95c445068bf6091fa0c82d446277e715aad7e1ffc4fdce28ceea5055e3427e4e308f7bc735d608472f6a38fbff5495a060dbfb5e736e164388101
+
 outputs.8.coordinates=org.apache.syncope.common.keymaster:syncope-common-keymaster-self
 
 outputs.8.0.filename=syncope-common-keymaster-self-3.0.4.pom
 outputs.8.0.length=1655
 outputs.8.0.checksums.sha512=6b2801d4848f08c68900104ed8a509f4f2a8df566b3841f2eea66bedb922444b1bb39dd90f4a36fd871f887923929f24b1189b26d832fbecf0ab22b524dfa80c
+
+outputs.8.1.filename=syncope-common-keymaster-self-3.0.4-cyclonedx.xml
+outputs.8.1.length=3081
+outputs.8.1.checksums.sha512=b29caf98cec8e5d3b7a0673186f1f24bf083522c0b0e2a0a7697794fcb783ba36bea60592fd57d8ce3334cdee2128158c0bf9b96353474338e7f0112b63885e4
+
+outputs.8.2.filename=syncope-common-keymaster-self-3.0.4-cyclonedx.json
+outputs.8.2.length=3593
+outputs.8.2.checksums.sha512=ddf304ce20b047325f4b01344768511f9245ac035d0d411676b0aa1006d2aa871596a62ff902dc36c48ed540a8d18b084d1b3637c488d18c4a0281dc69a2f6ac
 
 outputs.9.coordinates=org.apache.syncope.common.keymaster.self:syncope-common-keymaster-self-rest-api
 
@@ -134,6 +206,14 @@ outputs.9.2.filename=syncope-common-keymaster-self-rest-api-3.0.4-sources.jar
 outputs.9.2.length=12951
 outputs.9.2.checksums.sha512=73a333789514820dad9f37521cf81039bec730e0703082d7eeb76ee173bbbb5e73e9fe6622fe69818c67d6f6a57187e3ff1a08a262b6a99729624fa3e0c7cbc6
 
+outputs.9.3.filename=syncope-common-keymaster-self-rest-api-3.0.4-cyclonedx.xml
+outputs.9.3.length=91749
+outputs.9.3.checksums.sha512=523c04d4bf1c212f171985dccce6e431d0a30038b9d279795c1813c2a6b4bba98ef9cc47f76628b43c6ef9673aafd91eeb2817781eeff86eb0135104ed4418bb
+
+outputs.9.4.filename=syncope-common-keymaster-self-rest-api-3.0.4-cyclonedx.json
+outputs.9.4.length=107338
+outputs.9.4.checksums.sha512=c703e211a48153fd1533c2e0b78fe49f474f7f59c2abd28eed9a6fe2c10e63924e445599f0c58ab1fec657b8e10b46927c94fc101de50216caf2d452b3e66f51
+
 outputs.10.coordinates=org.apache.syncope.common.keymaster.self:syncope-common-keymaster-client-self
 
 outputs.10.0.filename=syncope-common-keymaster-client-self-3.0.4.pom
@@ -148,11 +228,27 @@ outputs.10.2.filename=syncope-common-keymaster-client-self-3.0.4-sources.jar
 outputs.10.2.length=19497
 outputs.10.2.checksums.sha512=a6bf2df34f9de6e0faadf50fb8c63fd8e8a09f57c72c128f755fb7c9e4843d7e4f7e5dafb214f1a2a50cbd94f437a09b5507ce2c1078ce7608b7ab743f4c51fb
 
+outputs.10.3.filename=syncope-common-keymaster-client-self-3.0.4-cyclonedx.xml
+outputs.10.3.length=116760
+outputs.10.3.checksums.sha512=26d5c7b6658a7caf41abb7d8158f279f40e787ab6f5f7a4d5683f75326b85b76552b5cec3e49ee6154cb86ccb7442ef3cc73a21c11a242fdf1e11bebc8399de9
+
+outputs.10.4.filename=syncope-common-keymaster-client-self-3.0.4-cyclonedx.json
+outputs.10.4.length=136177
+outputs.10.4.checksums.sha512=01a9e85995283630c0c3d699998b80c695a88e5c1b1881369b75b184befb5a9ac9a11a8fda62e3c3f5e52b08a61bc18d8adc3d871b08fff84c9d4000e105e2c5
+
 outputs.11.coordinates=org.apache.syncope.common:syncope-common-idm
 
 outputs.11.0.filename=syncope-common-idm-3.0.4.pom
 outputs.11.0.length=1588
 outputs.11.0.checksums.sha512=2c2cb222595c804108277d022b2d29d11eb110f7b71f03b00553d57e166824cf5897f5d6907fb8b3ac41952ca6b41a4b31171c4f988219ac5cdaa597cc98bbde
+
+outputs.11.1.filename=syncope-common-idm-3.0.4-cyclonedx.xml
+outputs.11.1.length=2914
+outputs.11.1.checksums.sha512=784c45adf99569a55193dfcc344099b2d28ab33e4b89895134da86feaf0ec52fa50bccb001cd36a01937e11d857e297f2266b4aff332dec87c75242f4102b038
+
+outputs.11.2.filename=syncope-common-idm-3.0.4-cyclonedx.json
+outputs.11.2.length=3426
+outputs.11.2.checksums.sha512=ba93e56080b58ca4ac2ff5593916ebad2ae00ce271610c38e0767cc9b06b9a4c4814c48a516481b0386905ae766f86b47d9b2b628a3799b570981dc50e82d4f4
 
 outputs.12.coordinates=org.apache.syncope.common.idm:syncope-common-idm-lib
 
@@ -168,6 +264,14 @@ outputs.12.2.filename=syncope-common-idm-lib-3.0.4-sources.jar
 outputs.12.2.length=40860
 outputs.12.2.checksums.sha512=903edd7aa80efb9623ec80b31f6fa93e3c1385f170626cab70f9f257210d236bbb35e1145971a0e3fc86e2dc9ef5acefba37cf04ec79d05ce0ae9c67dc96b759
 
+outputs.12.3.filename=syncope-common-idm-lib-3.0.4-cyclonedx.xml
+outputs.12.3.length=69128
+outputs.12.3.checksums.sha512=52474b630273a35d806c139f2a71c17b3eab4d260b0b109958f9f8eb7bb6186b4b8d7bf1d214d27077b6018a11d581d974e2978109dc9afd7fd261408ed5509f
+
+outputs.12.4.filename=syncope-common-idm-lib-3.0.4-cyclonedx.json
+outputs.12.4.length=80957
+outputs.12.4.checksums.sha512=94239cfb3c13104ffb698074aa78a4bd426cc30d23166e0078977f35b1c0216c27f3d0135ce5ffd9efd696f56a72808947d493400e592f9da652e60a0d7530a7
+
 outputs.13.coordinates=org.apache.syncope.common.idm:syncope-common-idm-rest-api
 
 outputs.13.0.filename=syncope-common-idm-rest-api-3.0.4.pom
@@ -182,11 +286,27 @@ outputs.13.2.filename=syncope-common-idm-rest-api-3.0.4-sources.jar
 outputs.13.2.length=24479
 outputs.13.2.checksums.sha512=e12dd81a1d26169b8e3a304d5ddad090d554d79686a2b15c561eeccc6498d3bf5a701a1fa4a74309334949d57339d598ea3517920d463e039069030741737507
 
+outputs.13.3.filename=syncope-common-idm-rest-api-3.0.4-cyclonedx.xml
+outputs.13.3.length=76799
+outputs.13.3.checksums.sha512=40713f81362bb41ddfbbd35ec11c973613caf6d6ade73fdc6b3653d3ae0fed5d75981141879361fcfd9735907a6a991d8dafba947ba4c57f1b884e2cf9a543d5
+
+outputs.13.4.filename=syncope-common-idm-rest-api-3.0.4-cyclonedx.json
+outputs.13.4.length=89903
+outputs.13.4.checksums.sha512=9ba4db2214161ced4dd2a27be6dc8504f003593afc6b7c881630187e9b230b0869ab3c2e7faf5597c49d32eaa80a5c0fdf4f074e0c16bad3ff05dc2356d6a58a
+
 outputs.14.coordinates=org.apache.syncope.common:syncope-common-am
 
 outputs.14.0.filename=syncope-common-am-3.0.4.pom
 outputs.14.0.length=1585
 outputs.14.0.checksums.sha512=410194ac0d05fd204e36a60e9d7c0f516315831aff4695bbd318a935cdabf84c23c312829336853182bea4dbe339a1cfc820d3deaa5f92894a28e2f9278953c0
+
+outputs.14.1.filename=syncope-common-am-3.0.4-cyclonedx.xml
+outputs.14.1.length=2907
+outputs.14.1.checksums.sha512=a3a7bc770ff551b78a97042f261c734991591ba95adff6714292d22c7d089d6e5595678043b30836c4457056ef782f2e0a12309236d1acdde677a281b463e055
+
+outputs.14.2.filename=syncope-common-am-3.0.4-cyclonedx.json
+outputs.14.2.length=3419
+outputs.14.2.checksums.sha512=64a1e3a99a5c09e0452610f4ebef8bffdeff64c8cdb0b12917a0ee91760375e0ae61a71bfc379b67e3afa892e166c30cbda4bde38c304310eef18962e2e051b0
 
 outputs.15.coordinates=org.apache.syncope.common.am:syncope-common-am-lib
 
@@ -202,6 +322,14 @@ outputs.15.2.filename=syncope-common-am-lib-3.0.4-sources.jar
 outputs.15.2.length=112411
 outputs.15.2.checksums.sha512=fdf096234fd3d207a2cf13687bb2ad8df614e4d645fbb6f72b2c01bee4a921fbf331613be1fee47494b9a2922e24da39154d875f02dc0e47cb419765cf0f76a9
 
+outputs.15.3.filename=syncope-common-am-lib-3.0.4-cyclonedx.xml
+outputs.15.3.length=69115
+outputs.15.3.checksums.sha512=7937871618296cb55f2261a1d8997ff32e03ab536350fac202538945f65ad82c9225446dd0840a7d5339bd8b64afeef83139c007f693b4b1a7f3874f703fd6c3
+
+outputs.15.4.filename=syncope-common-am-lib-3.0.4-cyclonedx.json
+outputs.15.4.length=80944
+outputs.15.4.checksums.sha512=0c2b259526f0e500708882e98ffbf7da86dd47a82cce1c2eb825407b907d86d68bbb7bed4cd313eb5b9bd177ac46dae13684fb906f10bddc303c5820a4146155
+
 outputs.16.coordinates=org.apache.syncope.common.am:syncope-common-am-rest-api
 
 outputs.16.0.filename=syncope-common-am-rest-api-3.0.4.pom
@@ -216,11 +344,27 @@ outputs.16.2.filename=syncope-common-am-rest-api-3.0.4-sources.jar
 outputs.16.2.length=31837
 outputs.16.2.checksums.sha512=e594178e38a32a89bf64d8198fe7915e7fe2c84dded251e157b0e5b9945fbd67fb6228b1d0acf5f1c94ce71702b464e36d2d7bdd1491b4fab5bf05edab3e226d
 
+outputs.16.3.filename=syncope-common-am-rest-api-3.0.4-cyclonedx.xml
+outputs.16.3.length=76771
+outputs.16.3.checksums.sha512=79ac8894730d4a224decb7c9de443aaaddda02c85aa9ef63fe33c70e8c5be7c5afb6579f514bdfac44097bfa9bf5bc43ccb3996b25e9d2c6549181173af2cebb
+
+outputs.16.4.filename=syncope-common-am-rest-api-3.0.4-cyclonedx.json
+outputs.16.4.length=89875
+outputs.16.4.checksums.sha512=09ee009970603fb49df2cc159f8937e49305a2b2154ae20329e833beff08890810c836d6e43850cefadfd86de00abeb30d58372feb27b4d8790dc11a3837a370
+
 outputs.17.coordinates=org.apache.syncope:syncope-core
 
 outputs.17.0.filename=syncope-core-3.0.4.pom
 outputs.17.0.length=3073
 outputs.17.0.checksums.sha512=6b07ee57bd58a296ebc74e148f7b6929c2ba8c2dfa809ebd0378b2a8ce7eb7dfafaa6827b86c8bbde15e6759c5948b53fb5c5a340f51067b4c294f0e109d0936
+
+outputs.17.1.filename=syncope-core-3.0.4-cyclonedx.xml
+outputs.17.1.length=2814
+outputs.17.1.checksums.sha512=c61bcf5a0931bcb1c88a500b682aa247987725102c991cbef1fabe0d98a5c8173c905b7a6da2902cb833f5edf30cee57f85d4146517d03b148108442930e037c
+
+outputs.17.2.filename=syncope-core-3.0.4-cyclonedx.json
+outputs.17.2.length=3326
+outputs.17.2.checksums.sha512=d329de16c551424ce61fe87aebf52a88edd11d1b0361cd859e268b1a60dc1f84c52c36a4a4940cc6d0a16204417450dc2e0fb1941772ff511422c0cce9b7b3a4
 
 outputs.18.coordinates=org.apache.syncope.core:syncope-core-persistence-api
 
@@ -236,6 +380,14 @@ outputs.18.2.filename=syncope-core-persistence-api-3.0.4-sources.jar
 outputs.18.2.length=201691
 outputs.18.2.checksums.sha512=32ee30bcaf818f71ba266979070e8db076fc620e9a0fac85e2f5aa3e60bc66963ec30912ffdf964008ad9820d0dfdc8de3134328e94df2bde6da72e539476cdd
 
+outputs.18.3.filename=syncope-core-persistence-api-3.0.4-cyclonedx.xml
+outputs.18.3.length=101481
+outputs.18.3.checksums.sha512=8640879308dc98e9ca282f35040ed02fcefe0cc8ec485ccecb04262e45abfb099353b04bc258d0e264d00588d62b81fe2d719df35d12a963b36beead1a80f039
+
+outputs.18.4.filename=syncope-core-persistence-api-3.0.4-cyclonedx.json
+outputs.18.4.length=118772
+outputs.18.4.checksums.sha512=cdffed9471bfac7885d5a89d1ebfe4ea062529c15a5a6f73dc6cb3ddbe0295d3fdcdc7ba0cd851ca0df723d24f95e6aa70e787390d111621dfa10e8513f5b438
+
 outputs.19.coordinates=org.apache.syncope.core:syncope-core-provisioning-api
 
 outputs.19.0.filename=syncope-core-provisioning-api-3.0.4.pom
@@ -249,6 +401,14 @@ outputs.19.1.checksums.sha512=42638052c5c1ca5a54a3a2f0c9e95c1f9a92eb72f487eec706
 outputs.19.2.filename=syncope-core-provisioning-api-3.0.4-sources.jar
 outputs.19.2.length=153890
 outputs.19.2.checksums.sha512=4824bdb9b59b49f5bafcc2ccfe537cfdf2adff2d078b873ae21098131c772929409027f7d2b1034a518d6d2ed64df70a4362303b27a4f87b755138d1e021c75f
+
+outputs.19.3.filename=syncope-core-provisioning-api-3.0.4-cyclonedx.xml
+outputs.19.3.length=124527
+outputs.19.3.checksums.sha512=6ef8717d5c23f5790536ec5cf8ec95f0bd080e38f93e35804e6fe51cb5f80c06a2bb297a3e86b01bef49fde127390eeeb341a9df009470f063e3b8fbe163248d
+
+outputs.19.4.filename=syncope-core-provisioning-api-3.0.4-cyclonedx.json
+outputs.19.4.length=145483
+outputs.19.4.checksums.sha512=e3b0d267725fc54fffda6b1bdb7592e8b40f695e714bcc2b7b3570004ca5b3c5de8de3a997b74a83bd35c0ef77e28b034e6903e650e9e87db6d1d78d1f91f1ff
 
 outputs.20.coordinates=org.apache.syncope.core:syncope-core-workflow-api
 
@@ -264,6 +424,14 @@ outputs.20.2.filename=syncope-core-workflow-api-3.0.4-sources.jar
 outputs.20.2.length=15333
 outputs.20.2.checksums.sha512=76f7930e8ff2f7db8a9dee205c3d0e92afd55c8052655cfc4005feaae36c44d2fd460569f2af7341c39e1df75498615f946481faec394a1abd6a62bec9ef5d40
 
+outputs.20.3.filename=syncope-core-workflow-api-3.0.4-cyclonedx.xml
+outputs.20.3.length=127041
+outputs.20.3.checksums.sha512=197d0a96b6d1e72e62bf89a79539df4a4ddf323cdbaacf955269eb0ce2b65ea7f0abaff0861e208bb4642c1987081ac3201c63c73033878dca41e181ac1d07d2
+
+outputs.20.4.filename=syncope-core-workflow-api-3.0.4-cyclonedx.json
+outputs.20.4.length=148430
+outputs.20.4.checksums.sha512=e3783bc29d1ab35ef55d674045f62c681d3016d2e2fc8ee147c8055f91f2b559d1a4180fed153367eb8861df492414d6efc941fdc73c9e011f8d44665a3d77f4
+
 outputs.21.coordinates=org.apache.syncope.core:syncope-core-spring
 
 outputs.21.0.filename=syncope-core-spring-3.0.4.pom
@@ -277,6 +445,14 @@ outputs.21.1.checksums.sha512=f66e2c65d5e97bb5a161c91cc27f00cfc5d4f315fc73407533
 outputs.21.2.filename=syncope-core-spring-3.0.4-sources.jar
 outputs.21.2.length=69677
 outputs.21.2.checksums.sha512=bd07d9ad1e4b68e9de9563eb3b0cbcfb925ca4d17711fa99d037cbc61ac44ea4895a4f7fabcc5de8c80642674432a58bc916ae867f91a6b8ebaeef3b1293aa8e
+
+outputs.21.3.filename=syncope-core-spring-3.0.4-cyclonedx.xml
+outputs.21.3.length=167735
+outputs.21.3.checksums.sha512=35422e5dba6c10f2a4245c9317c6ba024130115547a2fd680288c90fea56df7b90103bf4a71830073faddbfcc826fd9585b461629b698b7cacaa53d94154b5fe
+
+outputs.21.4.filename=syncope-core-spring-3.0.4-cyclonedx.json
+outputs.21.4.length=195402
+outputs.21.4.checksums.sha512=7c4993e6102a8ad2747e07ba1f9de96b2fed832d6c120fded7f55f8fc861c934ea81b2c1f3b033008b3d3c3d530f1285557c15632a8ba164f163b762ed25dadc
 
 outputs.22.coordinates=org.apache.syncope.core:syncope-core-persistence-jpa
 
@@ -292,6 +468,14 @@ outputs.22.2.filename=syncope-core-persistence-jpa-3.0.4-sources.jar
 outputs.22.2.length=410866
 outputs.22.2.checksums.sha512=0667ae185e7f85a2f6e12acb722bbae12298a2bb9158748d74f2ee99deb76b13aa6a6dee3265b49d0943cd9c11c34b9871e19b034c7bfc9e8a43695ffba17cf9
 
+outputs.22.3.filename=syncope-core-persistence-jpa-3.0.4-cyclonedx.xml
+outputs.22.3.length=209852
+outputs.22.3.checksums.sha512=569f77000a8507565d30d5cc0bb32fd8be50d0056b519aa72f0cfc7fbce47472fedfaae1b2cfe3bf175ea93dbbcbc7c1877f93bc98050dd81167c504ae809427
+
+outputs.22.4.filename=syncope-core-persistence-jpa-3.0.4-cyclonedx.json
+outputs.22.4.length=244769
+outputs.22.4.checksums.sha512=21a4f7b00a0af89c990b6291df71051bc652d22f862cd012ef8f2b9f21a737b4bb72f92b139a45edb9dada55887096e7174b7450cabff838d8e7a0e68028953e
+
 outputs.23.coordinates=org.apache.syncope.core:syncope-core-workflow-java
 
 outputs.23.0.filename=syncope-core-workflow-java-3.0.4.pom
@@ -305,6 +489,14 @@ outputs.23.1.checksums.sha512=0ab852267ee2025e913a79b1a53e3b5b570c0cc5ecbec905fc
 outputs.23.2.filename=syncope-core-workflow-java-3.0.4-sources.jar
 outputs.23.2.length=25793
 outputs.23.2.checksums.sha512=644c7c11e9bd0c3545b22f8600f039752318bef29c5ed160e2f106552d1e6f063ec8d7a59d2d5d64cc06cf3a885f998c749a4548f295f3ab50ac4347fc36ee12
+
+outputs.23.3.filename=syncope-core-workflow-java-3.0.4-cyclonedx.xml
+outputs.23.3.length=170437
+outputs.23.3.checksums.sha512=1d50278e4feac52ed695082a54758567954b30c7f505a87b174beeeb35474e760a420b4c00239763b780b86c970bb34fef5cccc1ac4aea36e4bf5b1f664157cd
+
+outputs.23.4.filename=syncope-core-workflow-java-3.0.4-cyclonedx.json
+outputs.23.4.length=198497
+outputs.23.4.checksums.sha512=2b70b5d9c735638f4c891b0fff55306805eb537fce8789f2e17bdab0f03a27aa8f14b15b0d5d747beb307294555c935110698ec7ff9a4dca62d6ba1f694258a5
 
 outputs.24.coordinates=org.apache.syncope.core:syncope-core-provisioning-java
 
@@ -320,11 +512,27 @@ outputs.24.2.filename=syncope-core-provisioning-java-3.0.4-sources.jar
 outputs.24.2.length=323854
 outputs.24.2.checksums.sha512=c9cadbaeb792be35739d0bfa202236fda2bf5ebc44853d123e6ea083e778e7b60a80d3dfcfd1c738fee2850307d1cd4248b4a3a31bd058d5e83f86d1e51f281c
 
+outputs.24.3.filename=syncope-core-provisioning-java-3.0.4-cyclonedx.xml
+outputs.24.3.length=213868
+outputs.24.3.checksums.sha512=e51f2161700e65c3179ac2cd40a2895de7600cd7ef6e96ed5cd1649abbf45db47ac7ee2fa750148146487588a3fc6104ac71702fdd205b7f8fb38bf9c2bc5431
+
+outputs.24.4.filename=syncope-core-provisioning-java-3.0.4-cyclonedx.json
+outputs.24.4.length=249020
+outputs.24.4.checksums.sha512=bce004dbbd94995e7531f5cf2f5c1d6fadde5ae7fa719b7ced7fd4ffb32472e438988b23a6e591b4712937408f37d880add454c6a709fbdb12176762fcbc447d
+
 outputs.25.coordinates=org.apache.syncope.core:syncope-core-idrepo
 
 outputs.25.0.filename=syncope-core-idrepo-3.0.4.pom
 outputs.25.0.length=1589
 outputs.25.0.checksums.sha512=42f9c889c96b0ad7edd1a47da25c6aaa1f3b40ca882a311e745ef4b016498298158795441c110a428aefe7fd9a8fbfc34966f40eb41f869ba92222bd256a6b24
+
+outputs.25.1.filename=syncope-core-idrepo-3.0.4-cyclonedx.xml
+outputs.25.1.length=2909
+outputs.25.1.checksums.sha512=e08bfcfed41e1673e3746dd852b72df3fc736c5cd13ccfe1212f795188fb12d9cf05810f8b6ea218649a89fe0dca1c867da81bfafb2bb7e18355b6e12777367d
+
+outputs.25.2.filename=syncope-core-idrepo-3.0.4-cyclonedx.json
+outputs.25.2.length=3421
+outputs.25.2.checksums.sha512=ff940b63d050a6c668b0d1b3d4a3bba8655fcfe278e00ed7df68f1c927ea9e7184d0e3242d30ed4ab92b41cec8929bcd9eac0dd454735c4eb836795f649083ae
 
 outputs.26.coordinates=org.apache.syncope.core.idrepo:syncope-core-idrepo-logic
 
@@ -340,6 +548,14 @@ outputs.26.2.filename=syncope-core-idrepo-logic-3.0.4-sources.jar
 outputs.26.2.length=104804
 outputs.26.2.checksums.sha512=ddfcd5db648fef4e87f850e2d78b379a7c15c73afd49640c36143afec084b39517df3fae7864139bc75c74595a514bcd2e82c231bcab2c5bf24c71b56157f693
 
+outputs.26.3.filename=syncope-core-idrepo-logic-3.0.4-cyclonedx.xml
+outputs.26.3.length=225902
+outputs.26.3.checksums.sha512=0413c6101d7eefe6bb48ddb1929539945f6e134c0eff15666bad773eabb5e54afcf1bb01bf0b1bca985da57147a9c3257bfaf23e70371221bacd319ca8932a7f
+
+outputs.26.4.filename=syncope-core-idrepo-logic-3.0.4-cyclonedx.json
+outputs.26.4.length=263146
+outputs.26.4.checksums.sha512=de3b7b24a492a828e63b833438761c4b178a997491b2523797f012726e234732889b3c7361a9080de864e66b06be39a6f892d3ab49f7266c10c94d4127e25027
+
 outputs.27.coordinates=org.apache.syncope.core.idrepo:syncope-core-idrepo-rest-cxf
 
 outputs.27.0.filename=syncope-core-idrepo-rest-cxf-3.0.4.pom
@@ -354,11 +570,27 @@ outputs.27.2.filename=syncope-core-idrepo-rest-cxf-3.0.4-sources.jar
 outputs.27.2.length=77921
 outputs.27.2.checksums.sha512=aba27e3e47d97d0b0e1ef69fccb349022f762cbc2731ec0dce980d80ec0623f56db8f744111acc586367695d9d71328abb17ae0203d9ce9b8be7285f77838937
 
+outputs.27.3.filename=syncope-core-idrepo-rest-cxf-3.0.4-cyclonedx.xml
+outputs.27.3.length=288355
+outputs.27.3.checksums.sha512=39603d86e1ff2372a5bc27e29daa9ac99cd51529db70e9ed52ac87b78487ee69817282a0c2648d1f240d5025c86b543aa6a7ff75d156beb68ee9fee723b1df3b
+
+outputs.27.4.filename=syncope-core-idrepo-rest-cxf-3.0.4-cyclonedx.json
+outputs.27.4.length=334720
+outputs.27.4.checksums.sha512=7f023b761133db9b96a1c9c404f253ab82f622b3132fcb03aa5cfc922295e59ed5ea7742076ccdb13176c76abbf883ca139904c2bfd06b913b441ff99d1d8f74
+
 outputs.28.coordinates=org.apache.syncope.core:syncope-core-idm
 
 outputs.28.0.filename=syncope-core-idm-3.0.4.pom
 outputs.28.0.length=1580
 outputs.28.0.checksums.sha512=97522f82815e520880a89894b1168d30e2ef3bc5822faadfa468ea862e1e9633f4332bff2a3bd0a1295965a94798849709f11300a1667a6716f3cb531c658ca3
+
+outputs.28.1.filename=syncope-core-idm-3.0.4-cyclonedx.xml
+outputs.28.1.length=2888
+outputs.28.1.checksums.sha512=378c7dc3b8328fdfc72e65174dcea5f7fe2c5c4cd16fb81d6f0a70ef48c7466668cf5233c8b95ece7146c04a84d3ea9832f173ecdcc1ecbbe3f6da1bf8660eb3
+
+outputs.28.2.filename=syncope-core-idm-3.0.4-cyclonedx.json
+outputs.28.2.length=3400
+outputs.28.2.checksums.sha512=cb1a273bff5242d8d2a40af4c57bb2b0c5f325e73b80fba383d0906f2547069cbb3b6d5e1d23799ce4914da72c65270c2f3f4d435e15fc3693e7ebd5669a776b
 
 outputs.29.coordinates=org.apache.syncope.core.idm:syncope-core-idm-logic
 
@@ -374,6 +606,14 @@ outputs.29.2.filename=syncope-core-idm-logic-3.0.4-sources.jar
 outputs.29.2.length=30043
 outputs.29.2.checksums.sha512=a45280d9c39ffdac9f5c35f188b20bb9e6e92346427d79f5281dad744d840a8eb695eec6b4a351ddda597b3adc6b60b284a60e3dbd77231879fcfe78aaee38d5
 
+outputs.29.3.filename=syncope-core-idm-logic-3.0.4-cyclonedx.xml
+outputs.29.3.length=228665
+outputs.29.3.checksums.sha512=3f5c8714c423b8740cc9abbe187637810cbc0628adde2729223d2eeb423bb3c8e93030ef457f7e7dc79698f3cd713f08009a8d3376d9cecbdc905f98505af1a8
+
+outputs.29.4.filename=syncope-core-idm-logic-3.0.4-cyclonedx.json
+outputs.29.4.length=266312
+outputs.29.4.checksums.sha512=8713fce113316f61ad5308c7a4289585cf29a6755c0539f0a553b34610217449b4245155538bfe4aa6aa9a33fadcd5c560e18b18307b504b5ed0d284f3c26948
+
 outputs.30.coordinates=org.apache.syncope.core.idm:syncope-core-idm-rest-cxf
 
 outputs.30.0.filename=syncope-core-idm-rest-cxf-3.0.4.pom
@@ -388,11 +628,27 @@ outputs.30.2.filename=syncope-core-idm-rest-cxf-3.0.4-sources.jar
 outputs.30.2.length=20557
 outputs.30.2.checksums.sha512=3c9c8f2e5a2fafecd4106c399ffd38704ea9e9c5aa7a252b123b6c8a536fe7352a8bdca05961fee8d3cf07263fad170a49865971926f9822cad0c6f9776d2629
 
+outputs.30.3.filename=syncope-core-idm-rest-cxf-3.0.4-cyclonedx.xml
+outputs.30.3.length=296808
+outputs.30.3.checksums.sha512=2e95d4d72f037175b04698a82943f7a201e73d1117c634d153a0dc7653f53134d649dd11166fdaeac4984bb682fa65a3bbb3fafa5acfbc359d953fb36c866c1c
+
+outputs.30.4.filename=syncope-core-idm-rest-cxf-3.0.4-cyclonedx.json
+outputs.30.4.length=344366
+outputs.30.4.checksums.sha512=8860a4554da2b157e25e5127269ed7f69b17b81bcdd0a35b105654be21117dabb52f6c07e704962fd6192784497eff80fd407d735f7171920dae2ae0742fd497
+
 outputs.31.coordinates=org.apache.syncope.core:syncope-core-am
 
 outputs.31.0.filename=syncope-core-am-3.0.4.pom
 outputs.31.0.length=1577
 outputs.31.0.checksums.sha512=7762ab698741bc8145fa91438640b29de3c147d1930293be3a99ad5fa7af1e61a2c46f7ca743ed2027caf396dc00eb374f283b6d988614fc8d81c7bf71fe38e5
+
+outputs.31.1.filename=syncope-core-am-3.0.4-cyclonedx.xml
+outputs.31.1.length=2881
+outputs.31.1.checksums.sha512=86c5455d0c82a6a31eb3e5adada4f317b8637473d43613cef52307c03eba2e367315e6d327dba6202820b0bfcb8cec34ac75a17eeb76605b1dc2af7bb537b9d8
+
+outputs.31.2.filename=syncope-core-am-3.0.4-cyclonedx.json
+outputs.31.2.length=3393
+outputs.31.2.checksums.sha512=15b24fc2dde2f3fe9f7452c226a7433dd46dd1e916178fe0abc9f8a9932ab7dc4fdc577f0ef306e46f54184f1884bcff9530dc4ff75bac49cc24a19dad5addd3
 
 outputs.32.coordinates=org.apache.syncope.core.am:syncope-core-am-logic
 
@@ -408,6 +664,14 @@ outputs.32.2.filename=syncope-core-am-logic-3.0.4-sources.jar
 outputs.32.2.length=40315
 outputs.32.2.checksums.sha512=13c7f3fed625171cd3739546431f48a58197433b6909f31f90dbc97cc594c6a669bb8c98227d5e0f5abd3ee5727760c1f7544c05b8430582ad29212fe5689bac
 
+outputs.32.3.filename=syncope-core-am-logic-3.0.4-cyclonedx.xml
+outputs.32.3.length=228537
+outputs.32.3.checksums.sha512=e704588e32ff5c533601f5913ac71254b1bf37f7db476d22b247c3e9ebf4874987ff77460f4e29698d585a5b3affc5bd81ff1b92d65fa6c56f0832e86de8d8b4
+
+outputs.32.4.filename=syncope-core-am-logic-3.0.4-cyclonedx.json
+outputs.32.4.length=266199
+outputs.32.4.checksums.sha512=09a96344e36528f9f6213c7e409e0e263a2121cbe825eaf23d4e69b63a410fc236b67bbd3d4c7c45fb99ff61b15211dc37eb886060c650b0baaddf0ad775b0d6
+
 outputs.33.coordinates=org.apache.syncope.core.am:syncope-core-am-rest-cxf
 
 outputs.33.0.filename=syncope-core-am-rest-cxf-3.0.4.pom
@@ -421,6 +685,14 @@ outputs.33.1.checksums.sha512=0054df2bcda5e4738fd9e8f113a024a89f7d9145e3b2e76b1d
 outputs.33.2.filename=syncope-core-am-rest-cxf-3.0.4-sources.jar
 outputs.33.2.length=29981
 outputs.33.2.checksums.sha512=0c63abcc5f68ae9f4a7f7c3f1bcb0c0b3ed922f9b2b811ef4af39df05a222ae050dbc6a3cdaa3f4481c0bc4a291a1cbb3b77bf2b4b68f399a2eeb85782bce9e0
+
+outputs.33.3.filename=syncope-core-am-rest-cxf-3.0.4-cyclonedx.xml
+outputs.33.3.length=296646
+outputs.33.3.checksums.sha512=0739f8370d3f3ef33b513d096e50162d62383a9d3e9582aa35221386e138373da388278eacc6061a323ed4203335f49031e1a0c7a0dc952bfd8b89827536ff9b
+
+outputs.33.4.filename=syncope-core-am-rest-cxf-3.0.4-cyclonedx.json
+outputs.33.4.length=344219
+outputs.33.4.checksums.sha512=da1300993c8bcfaf036a46862702b5ef989f602f871c3ccb22f86e14cb36999cbda7669fb95aa05ccce56a0d3510ed791654551588b15b2c2b99c35f03d5f11a
 
 outputs.34.coordinates=org.apache.syncope.core:syncope-core-persistence-jpa-json
 
@@ -436,6 +708,14 @@ outputs.34.2.filename=syncope-core-persistence-jpa-json-3.0.4-sources.jar
 outputs.34.2.length=113538
 outputs.34.2.checksums.sha512=a4d37d53707c069a4100ca932310e1298147d51f4c24a88f50acf7d651f3c1359d771abd5a6388571c62d2d0e39b330bee7b5062e247ad3ee8800bdbb8e38366
 
+outputs.34.3.filename=syncope-core-persistence-jpa-json-3.0.4-cyclonedx.xml
+outputs.34.3.length=212421
+outputs.34.3.checksums.sha512=face0cb98cffeb4ab0d12a6869931245995f6d993b8ab4af469b687bcfa0eea07541102d79f6a5bbdff71d193abee5b5b517d34c8e427eba25500af5e3372c2a
+
+outputs.34.4.filename=syncope-core-persistence-jpa-json-3.0.4-cyclonedx.json
+outputs.34.4.length=247771
+outputs.34.4.checksums.sha512=826c75f5163ed74327a434749d9eaccc6bb5d223a8763128bf8aabc33613a4a140fe5b251490ac775d8b0213a94e4ad63cbca92ad21091bec1ece0888ae0af1d
+
 outputs.35.coordinates=org.apache.syncope.core:syncope-core-starter
 
 outputs.35.0.filename=syncope-core-starter-3.0.4.pom
@@ -449,6 +729,14 @@ outputs.35.1.checksums.sha512=46e034f41ca49bdb2dd1b155fb5b52473d5926b5c3d1a0efba
 outputs.35.2.filename=syncope-core-starter-3.0.4-sources.jar
 outputs.35.2.length=31754
 outputs.35.2.checksums.sha512=dda2703625657ae69c35d80a6d62d20b20970500c6fe51901b69742bf8dfafcb473dab89b9a23e4f5613ecc6e143a3584fb7556122a078212366fdbec2ae2c25
+
+outputs.35.3.filename=syncope-core-starter-3.0.4-cyclonedx.xml
+outputs.35.3.length=372812
+outputs.35.3.checksums.sha512=38536a38f4c1b8fd18bce6a924291e8fd0d4424581e27182312ea8519e9a38045da7fbc64a73dcc2eb6a83b77f661344dbdee432770fb1504174fb38f9260d82
+
+outputs.35.4.filename=syncope-core-starter-3.0.4-cyclonedx.json
+outputs.35.4.length=432689
+outputs.35.4.checksums.sha512=7b6f46cf1f4c5dca60d9342abde24feaebbbc8966473ea39faf9320c6ba945ce4791c06b478f99c0f44fdd921862c3e05d1f06ee4327c830a587643207bc81fb
 
 outputs.36.coordinates=org.apache.syncope.core:syncope-core-self-keymaster-starter
 
@@ -464,17 +752,41 @@ outputs.36.2.filename=syncope-core-self-keymaster-starter-3.0.4-sources.jar
 outputs.36.2.length=44620
 outputs.36.2.checksums.sha512=3af668c8dc0b4cc339086e518c0eb360e674603b235c4fde6eeb5edc94e64650913e14030f6bf02d76aea61caedf960434d40438fb6fc38cf19d946ce2e48a28
 
+outputs.36.3.filename=syncope-core-self-keymaster-starter-3.0.4-cyclonedx.xml
+outputs.36.3.length=373891
+outputs.36.3.checksums.sha512=b3a29a29d484ef3ce1adcb8cb6f8ca267ce790f0fe1685a7c29324365beaf7744dfb8d2d1fe38c8edc2223eb6c15519a5c470b0599fafdfa6410fa79e43e9fb4
+
+outputs.36.4.filename=syncope-core-self-keymaster-starter-3.0.4-cyclonedx.json
+outputs.36.4.length=433809
+outputs.36.4.checksums.sha512=597ac1115848b6214a29c8dbd9d5ae32adea1587094baf2bee9cb8bda37142bd1cc5640eff48cddca1e02cef8b520506e600b997595a18eff937d978de52dab5
+
 outputs.37.coordinates=org.apache.syncope:syncope-client
 
 outputs.37.0.filename=syncope-client-3.0.4.pom
 outputs.37.0.length=2715
 outputs.37.0.checksums.sha512=ce9d4445598e836908f19c993b4e53f71af301180eb3525e39cf99cf67b030107cf9af49957a96bd81e8edde65674802993d932b04b6fd729bfe3e28bf403cb4
 
+outputs.37.1.filename=syncope-client-3.0.4-cyclonedx.xml
+outputs.37.1.length=2828
+outputs.37.1.checksums.sha512=8478fb0c7d7ce60cb186ff72f8567d9dcbc20b8c21e317907c6f332b04a8a24d7e5ab6cd89bbdb34659bf9ad483cc0ace505b2622cde0d401e450f26c44a928e
+
+outputs.37.2.filename=syncope-client-3.0.4-cyclonedx.json
+outputs.37.2.length=3340
+outputs.37.2.checksums.sha512=e6d21dfd716fffcb0a012dd826937bf9e85da8f42d8bee9638a0ee2362b97308670ffa2a673623f0c0678a5141063a8e1bcdd0490dc88f2fcb8737e47624655d
+
 outputs.38.coordinates=org.apache.syncope.client:syncope-client-idrepo
 
 outputs.38.0.filename=syncope-client-idrepo-3.0.4.pom
 outputs.38.0.length=1656
 outputs.38.0.checksums.sha512=f06db43d4d84f53ddccd4c47eba7bd1a7a8ec3ea91ffe6c8fef8f36362362849e0e7abd585122d6d91bc52c79682e36086baade9ad9942d0f0b02b6987f6858b
+
+outputs.38.1.filename=syncope-client-idrepo-3.0.4-cyclonedx.xml
+outputs.38.1.length=2935
+outputs.38.1.checksums.sha512=786efbe583ec3b83940349a60f4ac9ede1ef88eda4f64982fee3fbdcd735834cd395be4a6ee1253900395ae9e6ec8119ef1f96dcbdbfa3b78224c1228edf015f
+
+outputs.38.2.filename=syncope-client-idrepo-3.0.4-cyclonedx.json
+outputs.38.2.length=3447
+outputs.38.2.checksums.sha512=bcdf89cefd5ce69593fc0c0be76f530a7e4dd3bbd59e2d273f08039d989b5ef0ffb09f161ee8172a806f4edfe4221020d1b31fe934f55935bdc99d046e8c865c
 
 outputs.39.coordinates=org.apache.syncope.client.idrepo:syncope-client-idrepo-lib
 
@@ -490,6 +802,14 @@ outputs.39.2.filename=syncope-client-idrepo-lib-3.0.4-sources.jar
 outputs.39.2.length=31228
 outputs.39.2.checksums.sha512=eb71a37237fa9533d63b8f0702c7ae187cc70fe8dec5932e5a76ec3acc4d7f8be7a8a1afe6b48dc538a896b388a8a7b92077cddcb3773fdb6ba7be0328a2b9f7
 
+outputs.39.3.filename=syncope-client-idrepo-lib-3.0.4-cyclonedx.xml
+outputs.39.3.length=116576
+outputs.39.3.checksums.sha512=2e14710d248bfb555f3a4037bd3eb5f27961a2e23da51c38dc53cab78437415abfb099d27af49c5199312090dcf5c7a7b21bd323d801eaa22364c763dfe26150
+
+outputs.39.4.filename=syncope-client-idrepo-lib-3.0.4-cyclonedx.json
+outputs.39.4.length=135735
+outputs.39.4.checksums.sha512=95fea1f999f31fca6eacfc2ad596accd40970527e1cfcc89772de4e109565c867014b71262d124adc45644e1c71ecc11d2fbda9acd156279d64812f1b4fc5413
+
 outputs.40.coordinates=org.apache.syncope.client.idrepo:syncope-client-idrepo-common-ui
 
 outputs.40.0.filename=syncope-client-idrepo-common-ui-3.0.4.pom
@@ -503,6 +823,14 @@ outputs.40.1.checksums.sha512=4441b4e5d4523a5e5ad8b8c90caf803139067fbc4421ca8ae0
 outputs.40.2.filename=syncope-client-idrepo-common-ui-3.0.4-sources.jar
 outputs.40.2.length=1412502
 outputs.40.2.checksums.sha512=0bcf24ba8f9a99e85344241ff6344d973cb5ef2279a31dfc203acdad70d4e8e7ab3750b93f35053630b3989f44e6425cbb03b09ee2fc60ea13a8c27041fbd4dd
+
+outputs.40.3.filename=syncope-client-idrepo-common-ui-3.0.4-cyclonedx.xml
+outputs.40.3.length=291440
+outputs.40.3.checksums.sha512=cef2da2cb05e958020d3a0e13fcf926a22032b580ed9b33d4bd6d2883a674ee57a045802b3c840eb4573266f226547b182855c48d3fddd405f4087035de9058b
+
+outputs.40.4.filename=syncope-client-idrepo-common-ui-3.0.4-cyclonedx.json
+outputs.40.4.length=340064
+outputs.40.4.checksums.sha512=b4d0488f41efd7e794c4197d6fd18920fd1cc0a9c8e023f65f1a4e558a305c07139af4045a7ecd3019e323865b64142c9dea5ef158db5a3e7928d764d8d66aec
 
 outputs.41.coordinates=org.apache.syncope.client.idrepo:syncope-client-idrepo-console
 
@@ -518,6 +846,14 @@ outputs.41.2.filename=syncope-client-idrepo-console-3.0.4-sources.jar
 outputs.41.2.length=551674
 outputs.41.2.checksums.sha512=2db99825ed008f727de5042c09d70ca0aac651cbb107fb8b375f6f6cc1a9db2abb6c5a4814807ed0823686fa3bb0f3eb7ec2e278009d4342eed7bb6205c0095c
 
+outputs.41.3.filename=syncope-client-idrepo-console-3.0.4-cyclonedx.xml
+outputs.41.3.length=374062
+outputs.41.3.checksums.sha512=8a477f7f1884434db8444de143a90b80e39e8e43563b9472dbd31a96f4bb241d36fe51d5a693f49739805edaa77000a5cbb31afcb3c4755c8937141075adcac1
+
+outputs.41.4.filename=syncope-client-idrepo-console-3.0.4-cyclonedx.json
+outputs.41.4.length=435396
+outputs.41.4.checksums.sha512=c391d591d28b17f61a208da2c02c1d4a65047433213239bd248d6fa7d6469b5b26be48ff717ea4c71f89e05e3cffb6ba349e3d64ac635d0acd5faf11c1400e7f
+
 outputs.42.coordinates=org.apache.syncope.client.idrepo:syncope-client-idrepo-enduser
 
 outputs.42.0.filename=syncope-client-idrepo-enduser-3.0.4.pom
@@ -532,11 +868,27 @@ outputs.42.2.filename=syncope-client-idrepo-enduser-3.0.4-sources.jar
 outputs.42.2.length=117988
 outputs.42.2.checksums.sha512=6e2943b079419c518c2d05b95a863a9f358800377ba9bc5b0e0afc903a03041770ae3e31b67ded7a7ac06089cca89df140f729ae6999c7daa1e979ade8854287
 
+outputs.42.3.filename=syncope-client-idrepo-enduser-3.0.4-cyclonedx.xml
+outputs.42.3.length=366436
+outputs.42.3.checksums.sha512=0b90a7341510a27b2d1fc056b87abfa04375d21b5f78910118e5eb9a8dc09c4eb1b74a038c8df5fff68c415963a6c0c546a2577d5c374dc9384737d3bd5abc64
+
+outputs.42.4.filename=syncope-client-idrepo-enduser-3.0.4-cyclonedx.json
+outputs.42.4.length=426277
+outputs.42.4.checksums.sha512=e7292c4baac05bf07342fc7bed4a774d8bb569b7683241bc13e2e1cb2f625d08efa559c08d67b591980daaaf8177643c749ecc9bf6279ffb53d0a4508850fbb6
+
 outputs.43.coordinates=org.apache.syncope.client:syncope-client-idm
 
 outputs.43.0.filename=syncope-client-idm-3.0.4.pom
 outputs.43.0.length=1587
 outputs.43.0.checksums.sha512=a115ef8f6e4e933e9a7619ffc6a64e9b89d7596b7126e937c1801f4cd75c0b3904d30b98822163fe8300a438a1f22c7836459a515a24eed56ce10c520aa48623
+
+outputs.43.1.filename=syncope-client-idm-3.0.4-cyclonedx.xml
+outputs.43.1.length=2914
+outputs.43.1.checksums.sha512=27ca5fae7354f7ab7fcab856ba65220b0aeefa162c85baf36312a19d9a5327127c4a54ac179d92fb1a425ff4da5666be3b73126d73cba5438fb1353a55f53726
+
+outputs.43.2.filename=syncope-client-idm-3.0.4-cyclonedx.json
+outputs.43.2.length=3426
+outputs.43.2.checksums.sha512=641dd505e23a7b92e69516a59863c9da82e4b6e6d50650d2dc4478290558bd8992699ee1f1026f7b9c33a0ccb8b3180ed691bd8a881b4a3fd590efdefdf6b928
 
 outputs.44.coordinates=org.apache.syncope.client.idm:syncope-client-idm-lib
 
@@ -552,6 +904,14 @@ outputs.44.2.filename=syncope-client-idm-lib-3.0.4-sources.jar
 outputs.44.2.length=8561
 outputs.44.2.checksums.sha512=014e8841d5b919056c139d7e4e454400fae1881fc35b2af5401f7fce11c9c52a680aa74e5be9fc559a1f2d5a2f84b776e0682e3662fb757e8cbae4dfa5dcd954
 
+outputs.44.3.filename=syncope-client-idm-lib-3.0.4-cyclonedx.xml
+outputs.44.3.length=124521
+outputs.44.3.checksums.sha512=15b9ba5032cfea7f61bd02c2847efa6a5ccef5bfeb94ed00320885097f9dc47bb05b1fcf31ed72bf15484749c00c7b0fca190d4189ab1629f7a270c4b09d00ca
+
+outputs.44.4.filename=syncope-client-idm-lib-3.0.4-cyclonedx.json
+outputs.44.4.length=144949
+outputs.44.4.checksums.sha512=17ab78f2d6e35cec529d31224de690a5e4ae33a2bfc4cc490c8e3f4756351fbbe17915cc702ec0fd0c836a73daf703083f8711576962ec839e40e6d224f5876f
+
 outputs.45.coordinates=org.apache.syncope.client.idm:syncope-client-idm-console
 
 outputs.45.0.filename=syncope-client-idm-console-3.0.4.pom
@@ -566,11 +926,27 @@ outputs.45.2.filename=syncope-client-idm-console-3.0.4-sources.jar
 outputs.45.2.length=410330
 outputs.45.2.checksums.sha512=bcea7c0984ba279b1cc32ebb9156968b438c8d2a1373520d4e1f6f7c83e9c13184d2403c9f159dc868abe3f6ecffe57a7e729d74cb762b9f3ba4e8bfaaede25d
 
+outputs.45.3.filename=syncope-client-idm-console-3.0.4-cyclonedx.xml
+outputs.45.3.length=384707
+outputs.45.3.checksums.sha512=c1c1c8a1b97e03ff8ed84c96887d1b8b8f312716fc5d4ba8d8a8349f33e5cd21a2e08e64d1080806581e8f34cf39892519b9a21c36ac8dc40483ef380b974921
+
+outputs.45.4.filename=syncope-client-idm-console-3.0.4-cyclonedx.json
+outputs.45.4.length=447728
+outputs.45.4.checksums.sha512=6471aaeb2638519ed747c699735f56d693cc2d952c980d6b35fba6202de2abfa5127fb26df40bd24b4fa3ce38276cf3695623dcb04ce9a37f55208953182fb25
+
 outputs.46.coordinates=org.apache.syncope.client:syncope-client-am
 
 outputs.46.0.filename=syncope-client-am-3.0.4.pom
 outputs.46.0.length=1584
 outputs.46.0.checksums.sha512=50d661e4456a2ba1cd15e015f407a48142180371bcef8436a0ceef23075f381784fae799df67fd27b0b5a35d2666096e6b1a060e01348cd5ce9754c931a975c8
+
+outputs.46.1.filename=syncope-client-am-3.0.4-cyclonedx.xml
+outputs.46.1.length=2907
+outputs.46.1.checksums.sha512=dcddd69f7fd1a9d6cb2273c0eadb0cf3c10de6146ec655cda33d2305a5470fef04a15d1dabec1952b575814ff0c266b2d20ef5de74cc9d01710f95dddc3df425
+
+outputs.46.2.filename=syncope-client-am-3.0.4-cyclonedx.json
+outputs.46.2.length=3419
+outputs.46.2.checksums.sha512=d405982e55262e0cbc2a1b3af64cf4f6af470b4e684dcf05db630a6cef468ee013ab1fe6684ad9bba329c577620aac6f3f5b31a227b4937e3a2fd869d32fcf5c
 
 outputs.47.coordinates=org.apache.syncope.client.am:syncope-client-am-lib
 
@@ -586,6 +962,14 @@ outputs.47.2.filename=syncope-client-am-lib-3.0.4-sources.jar
 outputs.47.2.length=8543
 outputs.47.2.checksums.sha512=fbbd729d86e68d430a465fd00c0f7d40ca429a7a8dfcd0d7da242e78c0ad8ae456bfd79a0e07d51bbbcca8295a1a1b66dd5f4a2a384d403edd27b760ddb39227
 
+outputs.47.3.filename=syncope-client-am-lib-3.0.4-cyclonedx.xml
+outputs.47.3.length=124478
+outputs.47.3.checksums.sha512=5f0c11cf67c68be450ac3d06becee1c2fe8d5a559fac6ed2d57bf6f3f7b776cbc6b949cc5b5169806b990feb76df79299cc90c2dec60ca46e4c8abad858c6018
+
+outputs.47.4.filename=syncope-client-am-lib-3.0.4-cyclonedx.json
+outputs.47.4.length=144906
+outputs.47.4.checksums.sha512=92c596361041ddd07c5f2b6a95de78268b1f45a488d2e9832f5fd250bc408f072763dc922e69efd11d25db16bf1d8422250fee27e9df46758b2697fddb726fa9
+
 outputs.48.coordinates=org.apache.syncope.client.am:syncope-client-am-console
 
 outputs.48.0.filename=syncope-client-am-console-3.0.4.pom
@@ -599,6 +983,14 @@ outputs.48.1.checksums.sha512=c72d439d6fac80f1ed4102407cc0957b4e56690414df537a38
 outputs.48.2.filename=syncope-client-am-console-3.0.4-sources.jar
 outputs.48.2.length=254744
 outputs.48.2.checksums.sha512=4414f15df1ce922a17308132967a4e943c9c31822785df7f5bf1a45a3d3009987aa8671f1715a54e0ef48253295b1898d09ddff38954cb462d3572317a07d54f
+
+outputs.48.3.filename=syncope-client-am-console-3.0.4-cyclonedx.xml
+outputs.48.3.length=384649
+outputs.48.3.checksums.sha512=baffbc821436730d7069e211f5a097000c005c9ca192985b1efbd0000b754d24475a397fe20807c48bd9dedd472c4a3b8e8366e797fde274a0354c0033caf7c8
+
+outputs.48.4.filename=syncope-client-am-console-3.0.4-cyclonedx.json
+outputs.48.4.length=447670
+outputs.48.4.checksums.sha512=7cd29cec6686866f358565751503154b42e2cb245dc61ca11a72b39fb051d0a9d12209a0ebbb9c854b3b56104fce023a55d36dcaddeaa43ff48f25d9713ac784
 
 outputs.49.coordinates=org.apache.syncope:syncope-sra
 
@@ -614,11 +1006,27 @@ outputs.49.2.filename=syncope-sra-3.0.4-sources.jar
 outputs.49.2.length=21971
 outputs.49.2.checksums.sha512=4b6c62a6694fb78aa81643e7a9a186054e128c9d4c4d516643581375ee01cdda620464290f7040c158868460d233aec83fe98e47a7a250a98e972973122315f9
 
+outputs.49.3.filename=syncope-sra-3.0.4-cyclonedx.xml
+outputs.49.3.length=438977
+outputs.49.3.checksums.sha512=973a98dce3604c6177320593943f3d30008e0256d4438418782b610b102d604779d971f7fe732308ed76e2844465248caa43fac7ab53de131fca8d08b73ddc72
+
+outputs.49.4.filename=syncope-sra-3.0.4-cyclonedx.json
+outputs.49.4.length=504818
+outputs.49.4.checksums.sha512=ac73082b871dad9f71f1fb6046f1ed1cebad883268941d897b4e97a77f45b921fb2ea6a7903a5458fe9c50b080f214d4285761b2e54cb34501318f1728836382
+
 outputs.50.coordinates=org.apache.syncope:syncope-wa
 
 outputs.50.0.filename=syncope-wa-3.0.4.pom
 outputs.50.0.length=3191
 outputs.50.0.checksums.sha512=b0407a04f2d8bd7ae8727f22670fcd3f4cdefa14d81143b259a22e8ba500fd6587c22c67c79203653833d5436301b3c45ae28f9333c8c01b928a40ae7a64825b
+
+outputs.50.1.filename=syncope-wa-3.0.4-cyclonedx.xml
+outputs.50.1.length=2800
+outputs.50.1.checksums.sha512=a767c191c26513bc0bf97261d88d7d17a3e572da41be56064ed58955b0fa7e6ab58370a01d695ee01a5fa961cb56380578db575cd40339d71082c884de24cf94
+
+outputs.50.2.filename=syncope-wa-3.0.4-cyclonedx.json
+outputs.50.2.length=3312
+outputs.50.2.checksums.sha512=db6ec4b7cf2b6cbf0ae976468d8b9fe362bb06cdc2e0e3b724d15a26ed90529e6eb008ff1e6f31b11006be21066582d2c6bf59a0fb0f560884e9d98ceff242a7
 
 outputs.51.coordinates=org.apache.syncope.wa:syncope-wa-bootstrap
 
@@ -634,6 +1042,14 @@ outputs.51.2.filename=syncope-wa-bootstrap-3.0.4-sources.jar
 outputs.51.2.length=27150
 outputs.51.2.checksums.sha512=508b7d3c4be3cd1024c73a4941f116ac715c3e600c833723aef008103b25c19532e9f51e4b8f1dd51004b0fc058c8bafaad439bfb4f8b9bb7004ba1474fa3825
 
+outputs.51.3.filename=syncope-wa-bootstrap-3.0.4-cyclonedx.xml
+outputs.51.3.length=565358
+outputs.51.3.checksums.sha512=f45f5a3b888e747e220aaa7a0d7e3eb8503b16cb5a64f013303232bf5fc6c9f64e9a2d964786bafaa27f02f229b173e8a4676c1c9f6c23e6509452be0ee231be
+
+outputs.51.4.filename=syncope-wa-bootstrap-3.0.4-cyclonedx.json
+outputs.51.4.length=625217
+outputs.51.4.checksums.sha512=c92f5ea56d44e052aaa0653abb5868d712d5ac6c24ee696e41b6a0b88313ed2f2f6e44e2065555bd800244f2d0fed70a7ce12e7a98b3141af2be04a4248031fc
+
 outputs.52.coordinates=org.apache.syncope.wa:syncope-wa-starter
 
 outputs.52.0.filename=syncope-wa-starter-3.0.4.pom
@@ -648,11 +1064,27 @@ outputs.52.2.filename=syncope-wa-starter-3.0.4-sources.jar
 outputs.52.2.length=96359
 outputs.52.2.checksums.sha512=09f335987b64ff820ac16d76f1542abed05d488615ddb83d902ee5c8debeab64c4ab974e2d09e3bde99a316d04ceda19473c8c5b194c666de00f9c488018fbdb
 
+outputs.52.3.filename=syncope-wa-starter-3.0.4-cyclonedx.xml
+outputs.52.3.length=2449218
+outputs.52.3.checksums.sha512=6367ae2f12cb2f985425c271fd90ce6b0ad4a55b82ce6a7df19d98c34c82ce6fbe2012b1c813a1ee9e6c588cbbf0a14a35cd525e35d78be96c27adcd34c26180
+
+outputs.52.4.filename=syncope-wa-starter-3.0.4-cyclonedx.json
+outputs.52.4.length=2417980
+outputs.52.4.checksums.sha512=ef047cbf6d14854147a84c1bcc549709e52601bcb6f6d8563a4197cfd8957ae4bfbe44089e9e5375c8ae1960b7a5d41dc48ca0f6ddbf79f9f895f58946813064
+
 outputs.53.coordinates=org.apache.syncope:syncope-fit
 
 outputs.53.0.filename=syncope-fit-3.0.4.pom
 outputs.53.0.length=2828
 outputs.53.0.checksums.sha512=3100ef53bb156e56e3bc81f3c463089dd6f930c0c9e1cca2fd2e529ebe6e5169232ae48e3cee10f2ec385645e3e5214300a5ac65d334c9a37c5aa9d2ad57dde8
+
+outputs.53.1.filename=syncope-fit-3.0.4-cyclonedx.xml
+outputs.53.1.length=2825
+outputs.53.1.checksums.sha512=5453e837eabc5feaf1770b6ed2bd585e85518d6c7d80118be6aec839b2b7de72e412d481fbdc8a8b51660fecc2e9e32b495347bfab9c852f9b7330605beea25a
+
+outputs.53.2.filename=syncope-fit-3.0.4-cyclonedx.json
+outputs.53.2.length=3337
+outputs.53.2.checksums.sha512=b35435996d3fbece19ee723631212f11457fa96d0792145c420ddad53dd2e47cf727be87a0e8c80bd7593a439d008fd856408008826a7de57ab4249578a9773d
 
 outputs.54.coordinates=org.apache.syncope.fit:syncope-fit-build-tools
 
@@ -668,17 +1100,41 @@ outputs.54.2.filename=syncope-fit-build-tools-3.0.4-sources.jar
 outputs.54.2.length=37571
 outputs.54.2.checksums.sha512=0845e0f5af3fd37f60df3ddf81716dbe7a21b2ad7719e7db98417764f36fc3c25ae4e953d2cc5491ed29f827be1f8f6a9de7af5fc769253f11f5896fec4d2c44
 
+outputs.54.3.filename=syncope-fit-build-tools-3.0.4-cyclonedx.xml
+outputs.54.3.length=205957
+outputs.54.3.checksums.sha512=f0ac45f296b083ecf3e7ab9c8bef6dad8985b244e736eac303b8a9bf73d625f0a43d4e5b4e2d03903ca50d588aebe7a24977985d58666f9d8127d24c4df3b3a3
+
+outputs.54.4.filename=syncope-fit-build-tools-3.0.4-cyclonedx.json
+outputs.54.4.length=240291
+outputs.54.4.checksums.sha512=84618429ef6663c62d9df279dd17868ee33d356248e14852154e28a28b20f6292bf88402a542683e921b7ca8075afda28d4a102a9693862a966deead71c4a466
+
 outputs.55.coordinates=org.apache.syncope:syncope-ext
 
 outputs.55.0.filename=syncope-ext-3.0.4.pom
 outputs.55.0.length=2784
 outputs.55.0.checksums.sha512=8c81a0291e79e06470b2b314e64617cbdecdb196ddb8b89abed64e1305ac15ad7ada483b460ab4ab7b086b0e394f45949d85feb225d7c9ec25fdee6c320c2213
 
+outputs.55.1.filename=syncope-ext-3.0.4-cyclonedx.xml
+outputs.55.1.length=2807
+outputs.55.1.checksums.sha512=124fd6f4a760af95b7669fa67e76f8abe4df9dd9f8cf190ed5627d0c2eef0774b87db923e74da9afc12d0c40d1f796fc6a9d94b0bb7a91b7428dcc73777138af
+
+outputs.55.2.filename=syncope-ext-3.0.4-cyclonedx.json
+outputs.55.2.length=3319
+outputs.55.2.checksums.sha512=bb26a494f88e8de3488368eb4c424101507db30899cc12b52dbd15713712340466bc01980ce064902f3772d45c5a21e1ff8a5586acf11d96c34260dd9fa79a93
+
 outputs.56.coordinates=org.apache.syncope.ext:syncope-ext-flowable
 
 outputs.56.0.filename=syncope-ext-flowable-3.0.4.pom
 outputs.56.0.length=1800
 outputs.56.0.checksums.sha512=541d2942a070223b193911f245a3776a98fbc857d14ae03e1d45cae695389c6f120e33c39efe2312dd74e5320c3a8ab8a04c745e42d873cf9212e201f66f4314
+
+outputs.56.1.filename=syncope-ext-flowable-3.0.4-cyclonedx.xml
+outputs.56.1.length=2911
+outputs.56.1.checksums.sha512=3969e5974a20d9e5c92971bd732efc2ca0bac801cfc5ddc7e08c77762b04e55053f6efe8f2bcb2194b061e2affcb5a57c9763701b01c3f02b3d99bab0d826461
+
+outputs.56.2.filename=syncope-ext-flowable-3.0.4-cyclonedx.json
+outputs.56.2.length=3423
+outputs.56.2.checksums.sha512=5899de2db523d99fcc58c22db81d054e6ad9e9c2dac0cf6f0552238caed0833e7af9ecf3edd073df1dd68f01215e474b81d3877afde447aa54c16245d20b1dd4
 
 outputs.57.coordinates=org.apache.syncope.ext.flowable:syncope-ext-flowable-common-lib
 
@@ -694,6 +1150,14 @@ outputs.57.2.filename=syncope-ext-flowable-common-lib-3.0.4-sources.jar
 outputs.57.2.length=21241
 outputs.57.2.checksums.sha512=6cb0088f1469989d83d190ab657642f6a5cf5ab68911c27a0ace928753d182879cfaae33d598f24d578ee4adff1129c049cdb097ec874d732fedcce85fee5be5
 
+outputs.57.3.filename=syncope-ext-flowable-common-lib-3.0.4-cyclonedx.xml
+outputs.57.3.length=71756
+outputs.57.3.checksums.sha512=1cb5653ede6986c9d2a5a8668f673b0a6958b9a57985d4d23ada459efad9af163322eba8e31f0d97f5e39e71dcbb5a102dfe9cd61b83ce0bda9a883ef9152aea
+
+outputs.57.4.filename=syncope-ext-flowable-common-lib-3.0.4-cyclonedx.json
+outputs.57.4.length=84018
+outputs.57.4.checksums.sha512=8b4d3d4cb84969824d6ccdeb720bb9566e83f04f9e120391d016af913ad423d27ea954d475a70e62cef981dc251543924d2c92d125923922f1c412a76533b550
+
 outputs.58.coordinates=org.apache.syncope.ext.flowable:syncope-ext-flowable-rest-api
 
 outputs.58.0.filename=syncope-ext-flowable-rest-api-3.0.4.pom
@@ -707,6 +1171,14 @@ outputs.58.1.checksums.sha512=70c3f0d84f718615dc33457b62dc1499d227824fd32610d21d
 outputs.58.2.filename=syncope-ext-flowable-rest-api-3.0.4-sources.jar
 outputs.58.2.length=15695
 outputs.58.2.checksums.sha512=0bf10bb418745181bdcf64bd2a19a888fa496e8a183eefaebc6df09cb37b7cea5bdea1a7efe11fa0b480c9ac1c5bcc64871200b74fd768d58f17c426700d45a8
+
+outputs.58.3.filename=syncope-ext-flowable-rest-api-3.0.4-cyclonedx.xml
+outputs.58.3.length=82161
+outputs.58.3.checksums.sha512=56cc818f40dfdf72cf43b30a4b5a85f332a531f6a06d89438b976a71ddae44449cba382c82bd969c0fcffde60ff91c5e4d28c2c2dfd25e6b8ea0f4564b92adbe
+
+outputs.58.4.filename=syncope-ext-flowable-rest-api-3.0.4-cyclonedx.json
+outputs.58.4.length=96116
+outputs.58.4.checksums.sha512=cd90148bfb44bb81a5cd4a248451da5a5b701a4de78f6d444e15f95e60df40863e13bffdf8c65595aa0c4fa18b6418a25ba597e53f97d066e4c2bd7b776e0ded
 
 outputs.59.coordinates=org.apache.syncope.ext.flowable:syncope-ext-flowable-bpmn
 
@@ -722,6 +1194,14 @@ outputs.59.2.filename=syncope-ext-flowable-bpmn-3.0.4-sources.jar
 outputs.59.2.length=72590
 outputs.59.2.checksums.sha512=df6b99bb56b0f960b799ebb8715998f008d7b786205ab703416a2ed47070c89dae6a7884ec65c4465b37ef73adc6b580e153ee52ea75e5a6bc713dec7172f6fb
 
+outputs.59.3.filename=syncope-ext-flowable-bpmn-3.0.4-cyclonedx.xml
+outputs.59.3.length=307007
+outputs.59.3.checksums.sha512=79a929416b49cea5b9d26320e7bc3fcde400b7c9d7f657ecc326e956419752f75c02d339072e36403da84a5b7cfcc642b62007c3d0ab1d9bf9e7f66436121f8e
+
+outputs.59.4.filename=syncope-ext-flowable-bpmn-3.0.4-cyclonedx.json
+outputs.59.4.length=353541
+outputs.59.4.checksums.sha512=6803452ab2c2979d6c01f3193268597d7bf87ec5e97b212b81f356ab7d7a8bf7a7eee33f8ddf0ab33152bee01b384a59c26d8552f8f4b2aebef743a86bfc5bd4
+
 outputs.60.coordinates=org.apache.syncope.ext.flowable:syncope-ext-flowable-logic
 
 outputs.60.0.filename=syncope-ext-flowable-logic-3.0.4.pom
@@ -735,6 +1215,14 @@ outputs.60.1.checksums.sha512=dc8fc6a7de2108d6ca88e42cac473b2b12a9661ebf1a3f984d
 outputs.60.2.filename=syncope-ext-flowable-logic-3.0.4-sources.jar
 outputs.60.2.length=20724
 outputs.60.2.checksums.sha512=d0ea579213b700d353da19a21d0eb28f4bbfd9a5c1b41c5466d703226ddc2a0c4f67b72957fb8845db3149a5a9e7eec52ad68bafbc2d5bff2c2b6a8676b6514e
+
+outputs.60.3.filename=syncope-ext-flowable-logic-3.0.4-cyclonedx.xml
+outputs.60.3.length=363923
+outputs.60.3.checksums.sha512=74ec612f235a5236ea49c852cd870c04070ec536e0a6d4e32ff6b4a320876037f4120ec4a77197b3980c52042e494cb8156bcd0603ea9257a3380f29edfa972a
+
+outputs.60.4.filename=syncope-ext-flowable-logic-3.0.4-cyclonedx.json
+outputs.60.4.length=419587
+outputs.60.4.checksums.sha512=e272daade21bb76a5e224948ffbd9f83299fe0e8d0b7d4a1df4ccb6bea683ee93141af548003ce07206f03a339c2104ae1e1652c7713d7f0d62cc39091577f52
 
 outputs.61.coordinates=org.apache.syncope.ext.flowable:syncope-ext-flowable-rest-cxf
 
@@ -750,6 +1238,14 @@ outputs.61.2.filename=syncope-ext-flowable-rest-cxf-3.0.4-sources.jar
 outputs.61.2.length=17903
 outputs.61.2.checksums.sha512=2db7b64dc52d114cc6187574ef7df5eb3e7010361220fc1fc635e2d03838e04ecb19bcce52e3853881434a5cb9dba8a859db553bab090c5216078ed450d166a7
 
+outputs.61.3.filename=syncope-ext-flowable-rest-cxf-3.0.4-cyclonedx.xml
+outputs.61.3.length=437984
+outputs.61.3.checksums.sha512=5d70cb2d67fbd75a53ede423d00629aa88b197a0a9323d186810a8e79a935af35e5bb2efcb8b632ce355df6667e440cdd42ad595228a2d958481113c86c45a2e
+
+outputs.61.4.filename=syncope-ext-flowable-rest-cxf-3.0.4-cyclonedx.json
+outputs.61.4.length=504339
+outputs.61.4.checksums.sha512=121c3d926b1cfda82a54eac003e6cdd35dce773982ac06bd46454de330f09e1d931fc75140d38e1e3a3bcf2d757dfeb66461c7d45550894b0dfd01a380876578
+
 outputs.62.coordinates=org.apache.syncope.ext.flowable:syncope-ext-flowable-client-common-ui
 
 outputs.62.0.filename=syncope-ext-flowable-client-common-ui-3.0.4.pom
@@ -763,6 +1259,14 @@ outputs.62.1.checksums.sha512=7ecf933b64223f5bfd094e0cd46e1e82703be3e629942eca7e
 outputs.62.2.filename=syncope-ext-flowable-client-common-ui-3.0.4-sources.jar
 outputs.62.2.length=19438
 outputs.62.2.checksums.sha512=c9450327e14eb9740b563fa0903d9d7632e623610d76518bbbe06b3b462853172f0a8ecd9fd8db4477f5ac0fe91546d720c2bede4c4573c730b3b77a077d3aab
+
+outputs.62.3.filename=syncope-ext-flowable-client-common-ui-3.0.4-cyclonedx.xml
+outputs.62.3.length=304984
+outputs.62.3.checksums.sha512=0df4878630d6a8b565187ef9d3b7fb5b965af62744d12381b0ecd29ac5c022968283a7d6227ae046a77f2f8cf71a6ed959eb34239f7d40f6084aaaf2bd7c135c
+
+outputs.62.4.filename=syncope-ext-flowable-client-common-ui-3.0.4-cyclonedx.json
+outputs.62.4.length=355713
+outputs.62.4.checksums.sha512=517e975110403c7002f7ee53c234858aabfe54293392aad939b721c69a85f046a0a9056ec44e22f64a82fd91e28522c3c75642ca9635b9737d3ed6b752b53f42
 
 outputs.63.coordinates=org.apache.syncope.ext.flowable:syncope-ext-flowable-client-console
 
@@ -778,6 +1282,14 @@ outputs.63.2.filename=syncope-ext-flowable-client-console-3.0.4-sources.jar
 outputs.63.2.length=77141
 outputs.63.2.checksums.sha512=2f9502d04af3f6082384401d15ef9590bde26440bb6c9fa0f3c1e4fd00299a39292928d5aaabb10d53e233ae038bb0134cf2f01160d360df6d4c95c827b53b86
 
+outputs.63.3.filename=syncope-ext-flowable-client-console-3.0.4-cyclonedx.xml
+outputs.63.3.length=390444
+outputs.63.3.checksums.sha512=a2b79cb64ff62029edf7680b4739fbbdce1b9808d683243207a29deffcc2749a031c3094d373769c020d0576cf29811a0a10a86e805ac504daa04cecb4ce35b5
+
+outputs.63.4.filename=syncope-ext-flowable-client-console-3.0.4-cyclonedx.json
+outputs.63.4.length=454319
+outputs.63.4.checksums.sha512=ac29bf57abc8725fc7b6f87587a05635d8a59c53d751d06604f257d84114ccc8f67d256719792a61700cd8f8a70bbae3815463fa7c20e38efa559769b47911b6
+
 outputs.64.coordinates=org.apache.syncope.ext.flowable:syncope-ext-flowable-client-enduser
 
 outputs.64.0.filename=syncope-ext-flowable-client-enduser-3.0.4.pom
@@ -792,11 +1304,27 @@ outputs.64.2.filename=syncope-ext-flowable-client-enduser-3.0.4-sources.jar
 outputs.64.2.length=31298
 outputs.64.2.checksums.sha512=c634b1c41a5cf59cf996ae077e98e3243f57e1dacd5961daf2f164dbed979c7996c34d84b089ae8536f62ed9667019c21767b9530b8e350e14f7a3e15ee669f3
 
+outputs.64.3.filename=syncope-ext-flowable-client-enduser-3.0.4-cyclonedx.xml
+outputs.64.3.length=382880
+outputs.64.3.checksums.sha512=2b2060cadda1a2a67cc0b6360dce927b253df2ff353a87f6fe5f2efdfc89a6231bb0d423734fea0fdd41071ae3a93674049d22ec8415e9f83a7325401023dfa0
+
+outputs.64.4.filename=syncope-ext-flowable-client-enduser-3.0.4-cyclonedx.json
+outputs.64.4.length=445229
+outputs.64.4.checksums.sha512=9eeab10d51879feb7494a6d6a712113ee035ad4952d28a603f771d22b5a7d3c0ed713e4e6bf35f58266222983dd17c8b462d30b185fd670afe30e1e9bbcb926e
+
 outputs.65.coordinates=org.apache.syncope.ext:syncope-ext-saml2sp4ui
 
 outputs.65.0.filename=syncope-ext-saml2sp4ui-3.0.4.pom
 outputs.65.0.length=1922
 outputs.65.0.checksums.sha512=9ec08dcf0ddf70057a406d16ee68b0f561abcc869a547e4b45297c2aa7a40e16db9ec96177435fa0b721477f77126e1757816b773413e4f87f43d9cc5c9c9dcf
+
+outputs.65.1.filename=syncope-ext-saml2sp4ui-3.0.4-cyclonedx.xml
+outputs.65.1.length=2926
+outputs.65.1.checksums.sha512=3ce50d1a6a462fbcabbc805c05719806d715a63d7b88374b3486455bbb5eb1878b0b3e36fbb0ae38aa11e28319d4b107a4cb230e9bdf027f5eb04c56a149775a
+
+outputs.65.2.filename=syncope-ext-saml2sp4ui-3.0.4-cyclonedx.json
+outputs.65.2.length=3438
+outputs.65.2.checksums.sha512=c2fcad9b52b955d9176000ae23a81b745f3acd3dbe780019d825509eb4fae24b36db67f97670dfd95fbacd15ae81f300e554d70a571330bdbbfc56528265caab
 
 outputs.66.coordinates=org.apache.syncope.ext.saml2sp4ui:syncope-ext-saml2sp4ui-common-lib
 
@@ -812,6 +1340,14 @@ outputs.66.2.filename=syncope-ext-saml2sp4ui-common-lib-3.0.4-sources.jar
 outputs.66.2.length=17536
 outputs.66.2.checksums.sha512=14d3132c5d0d267fb0ceb6f54e888d73dda38f8b92fc08c5cd60669f5d51a050b48d6426380b34b0741459b4ee23ca27c6f0b07a013f40b47f2a9b9231cea3ab
 
+outputs.66.3.filename=syncope-ext-saml2sp4ui-common-lib-3.0.4-cyclonedx.xml
+outputs.66.3.length=71768
+outputs.66.3.checksums.sha512=3983ba149990f39baa7b6117a763ac83254ad3fb25da076e0e53ed5904ed0ace67a5d2f099e480d861bea64eb3f76e42b2132793352bff91d355bdf199e1a360
+
+outputs.66.4.filename=syncope-ext-saml2sp4ui-common-lib-3.0.4-cyclonedx.json
+outputs.66.4.length=84030
+outputs.66.4.checksums.sha512=7ae19751c9cbf79b79842e8091be4170d48e6e684688a226173077322ab670b6353e04b4f0b7476b91aa6a25b79d5bbed39a6ff2de6f4cbbcb641a94dc29c6a7
+
 outputs.67.coordinates=org.apache.syncope.ext.saml2sp4ui:syncope-ext-saml2sp4ui-rest-api
 
 outputs.67.0.filename=syncope-ext-saml2sp4ui-rest-api-3.0.4.pom
@@ -825,6 +1361,14 @@ outputs.67.1.checksums.sha512=b69998d4801aa8e4e4c02c836f14d5f983fbc92e51d3ba521d
 outputs.67.2.filename=syncope-ext-saml2sp4ui-rest-api-3.0.4-sources.jar
 outputs.67.2.length=12476
 outputs.67.2.checksums.sha512=d90823c2bdd58f207d80d28f257889e717fa1b0eb540c6246641fc6d2f9342bb1cd49b81ef2da5851fb0858ce7712c6353565a0ee5431c0ac9271c346851214d
+
+outputs.67.3.filename=syncope-ext-saml2sp4ui-rest-api-3.0.4-cyclonedx.xml
+outputs.67.3.length=79502
+outputs.67.3.checksums.sha512=feffc41ec407163817142c1862015a5e87a96a9df6126ad043b5456c7b9d967c460e5d4cd0979ca712e207a89d50c56b515531c34d01485f531f824b04391fd8
+
+outputs.67.4.filename=syncope-ext-saml2sp4ui-rest-api-3.0.4-cyclonedx.json
+outputs.67.4.length=93039
+outputs.67.4.checksums.sha512=54a358da82787055dd8a788bf5204eb86c248a025a6c0fb0758d8cfd4a215ba0a131e6baf56085dbc647d9e01669fb47fd94908c96b04970dfd28524125079e3
 
 outputs.68.coordinates=org.apache.syncope.ext.saml2sp4ui:syncope-ext-saml2sp4ui-persistence-api
 
@@ -840,6 +1384,14 @@ outputs.68.2.filename=syncope-ext-saml2sp4ui-persistence-api-3.0.4-sources.jar
 outputs.68.2.length=13242
 outputs.68.2.checksums.sha512=cc801f76c30ad88916b84868f0cbf587d5bf97dd7d1c7f4fa352a217218560ee0eee1d02d5555e360187365521065e03a4eaa24396e1e3fc4972e949859de823
 
+outputs.68.3.filename=syncope-ext-saml2sp4ui-persistence-api-3.0.4-cyclonedx.xml
+outputs.68.3.length=106943
+outputs.68.3.checksums.sha512=c8dc4834205a5d014cd8a03ec5958b5dd7a200030c346eec23a7df6ce23bc71229506f5806c7b8536091e644bcf11ac78081ca7841d84cb84862786886041742
+
+outputs.68.4.filename=syncope-ext-saml2sp4ui-persistence-api-3.0.4-cyclonedx.json
+outputs.68.4.length=125085
+outputs.68.4.checksums.sha512=e673a9109aafdbcdeb30859c0f81a8512ef6419b00cd8668e20d5a0596ba9b16c8a1b594053760a4eb45352ca18826d93c3a2257264aa2c89053b713d4828916
+
 outputs.69.coordinates=org.apache.syncope.ext.saml2sp4ui:syncope-ext-saml2sp4ui-provisioning-api
 
 outputs.69.0.filename=syncope-ext-saml2sp4ui-provisioning-api-3.0.4.pom
@@ -853,6 +1405,14 @@ outputs.69.1.checksums.sha512=b69010a1867826d0e4c50f5457f6f583c013225716b4b97f0a
 outputs.69.2.filename=syncope-ext-saml2sp4ui-provisioning-api-3.0.4-sources.jar
 outputs.69.2.length=13864
 outputs.69.2.checksums.sha512=a2b4047f018d5bfa00ddca217a5dd233c3e42e5f383351b9adcb56a87f526ab5122303a4fce12672069a7e6b8f4879f25c561a2b8130080f6bf1c39c56de13b4
+
+outputs.69.3.filename=syncope-ext-saml2sp4ui-provisioning-api-3.0.4-cyclonedx.xml
+outputs.69.3.length=249581
+outputs.69.3.checksums.sha512=c1d449029c99e939bcbf1a32bdee2bede451bdfac34dba78efdc976a9c887afbc3a991671a42c7b05d40d4eaf1e9ed10212a7bd6fe74d0df76b450d8af0213c7
+
+outputs.69.4.filename=syncope-ext-saml2sp4ui-provisioning-api-3.0.4-cyclonedx.json
+outputs.69.4.length=287574
+outputs.69.4.checksums.sha512=fbaf888728cd68d6b846e1a7c9c502a85dc2b05648604a08202562e78d60f1c72bbe6899acb34f2cb381613807dab9b05d1a1fad7238937a750e766ccde8e735
 
 outputs.70.coordinates=org.apache.syncope.ext.saml2sp4ui:syncope-ext-saml2sp4ui-provisioning-java
 
@@ -868,6 +1428,14 @@ outputs.70.2.filename=syncope-ext-saml2sp4ui-provisioning-java-3.0.4-sources.jar
 outputs.70.2.length=17628
 outputs.70.2.checksums.sha512=c860427eb281215ae7154ef0e5b81b23f4b2e9d7d625f7c742b2528d7e9c480626df24acce3b2832ad9503a8fa91eba9ed123ea97b35a3f183ea5a54af19f399
 
+outputs.70.3.filename=syncope-ext-saml2sp4ui-provisioning-java-3.0.4-cyclonedx.xml
+outputs.70.3.length=333146
+outputs.70.3.checksums.sha512=ec83b88b4187e7cfd7217d1d92838c919fbc0a02006e35f52d3c09a58838c1e6833fdd8bb095d327420743e651c1aeeb465d23f663eb7f0b32a5837493cef501
+
+outputs.70.4.filename=syncope-ext-saml2sp4ui-provisioning-java-3.0.4-cyclonedx.json
+outputs.70.4.length=384249
+outputs.70.4.checksums.sha512=f6f6596d6a7c6498ce7fc6ff114ad189e85ebd5ef8fbdfac8159576832ddde398a3c3255c50b148447c6f589b8b32b4087aef91674de95940caa0e2d92d5d16d
+
 outputs.71.coordinates=org.apache.syncope.ext.saml2sp4ui:syncope-ext-saml2sp4ui-logic
 
 outputs.71.0.filename=syncope-ext-saml2sp4ui-logic-3.0.4.pom
@@ -881,6 +1449,14 @@ outputs.71.1.checksums.sha512=ba61dd92f98c9a82a786f835d3e9ad1752c8ca639536dead15
 outputs.71.2.filename=syncope-ext-saml2sp4ui-logic-3.0.4-sources.jar
 outputs.71.2.length=33996
 outputs.71.2.checksums.sha512=356f652430d31fa92d4dd8c83e92fb54f82bff4a0254333e22a4179d6d221b102afe5bbbdf076072ae7483f45295e8d7f926b6ef240cd17eb162c4eba699c31c
+
+outputs.71.3.filename=syncope-ext-saml2sp4ui-logic-3.0.4-cyclonedx.xml
+outputs.71.3.length=350701
+outputs.71.3.checksums.sha512=2187d2cbb8fbcec119b63ef13daca16798c52be66becf964493f470a84c2d829598d3d8b3c105f029c721d9863d690a422fa6879e14b496f6bfd6e7d04421910
+
+outputs.71.4.filename=syncope-ext-saml2sp4ui-logic-3.0.4-cyclonedx.json
+outputs.71.4.length=404708
+outputs.71.4.checksums.sha512=78d295cc4cfe9429485e66b65f862e3166351521cc156bf86ddad341161ac7e57b2408ab50b16a8acbbc60d6685cc83a446f88b0ed08a1b81e70a63887756700
 
 outputs.72.coordinates=org.apache.syncope.ext.saml2sp4ui:syncope-ext-saml2sp4ui-rest-cxf
 
@@ -896,6 +1472,14 @@ outputs.72.2.filename=syncope-ext-saml2sp4ui-rest-cxf-3.0.4-sources.jar
 outputs.72.2.length=17046
 outputs.72.2.checksums.sha512=ae4193e1cffaa051f2f9b32274dedeed0ebfb8af29405adda0dccbd9319a863e4d0a428de5511d46adf6d94e3e560dd912f962e379784b1038d85fdf1aadbcb1
 
+outputs.72.3.filename=syncope-ext-saml2sp4ui-rest-cxf-3.0.4-cyclonedx.xml
+outputs.72.3.length=419191
+outputs.72.3.checksums.sha512=5754771e25e360a98b8496293b3a26865829c15341cdae30547a028bb1190f33dff2f3fac2644eb0c7ee2069b168be260214d87674a9d0e8da4b741267d4b352
+
+outputs.72.4.filename=syncope-ext-saml2sp4ui-rest-cxf-3.0.4-cyclonedx.json
+outputs.72.4.length=483099
+outputs.72.4.checksums.sha512=e0007df8660ee20b8753c41147bbd1dd35adbe7feefcdaa35d57cfd5ba0d8fc2ce3ab298f0de618215c5c0b1835b2c1004770eca1dadcfb52974820c1ea3df92
+
 outputs.73.coordinates=org.apache.syncope.ext.saml2sp4ui:syncope-ext-saml2sp4ui-client-common-ui
 
 outputs.73.0.filename=syncope-ext-saml2sp4ui-client-common-ui-3.0.4.pom
@@ -909,6 +1493,14 @@ outputs.73.1.checksums.sha512=8f54f6828572411c1bf900e44b5a7739791a3e7807c87fa35a
 outputs.73.2.filename=syncope-ext-saml2sp4ui-client-common-ui-3.0.4-sources.jar
 outputs.73.2.length=23655
 outputs.73.2.checksums.sha512=90e96b3e202675e723dcac5eefedd993e580f828d4639b901532e7233e48a2f7752e2d4cb73553b62e3c136f9642f8ef9e14c760cd75a696674a99a9bc637206
+
+outputs.73.3.filename=syncope-ext-saml2sp4ui-client-common-ui-3.0.4-cyclonedx.xml
+outputs.73.3.length=304827
+outputs.73.3.checksums.sha512=c7b4bfb970f2c1e004f10a85fae613e60ffd5e09b05d9edf5b0d795cae46e33f54dbfbcfa1efda42e7f1297a0752504ac37cac80d84f7d6b9ee847fda3e3e10c
+
+outputs.73.4.filename=syncope-ext-saml2sp4ui-client-common-ui-3.0.4-cyclonedx.json
+outputs.73.4.length=355581
+outputs.73.4.checksums.sha512=04842226b8aaa28ca7525f37143326433a9741e2327b07a4653be85d6ca8274a6a30e67d810bffc81f803e5fd4e3372eb7ea1d7cf926cf4f9a486de9da1f4e4c
 
 outputs.74.coordinates=org.apache.syncope.ext.saml2sp4ui:syncope-ext-saml2sp4ui-client-console
 
@@ -924,6 +1516,14 @@ outputs.74.2.filename=syncope-ext-saml2sp4ui-client-console-3.0.4-sources.jar
 outputs.74.2.length=48797
 outputs.74.2.checksums.sha512=3334c6e8a73db7cffddad05a6cab66a84a8a01e53fea7f6ef2c0eca077f52552c2949f6670f323a9c5c31160635927dd2890634d2ebc01e077ecbca0fb9184e5
 
+outputs.74.3.filename=syncope-ext-saml2sp4ui-client-console-3.0.4-cyclonedx.xml
+outputs.74.3.length=387674
+outputs.74.3.checksums.sha512=b52e9ad7ba2db739fb914d911b711c025cb1f71a1c88a25cc73511cfa6a261c3040d404a5a62ed45145d4060a3c5197c1436ac66a9fc5cfa8d0258cc5640944d
+
+outputs.74.4.filename=syncope-ext-saml2sp4ui-client-console-3.0.4-cyclonedx.json
+outputs.74.4.length=451128
+outputs.74.4.checksums.sha512=549284e8d30a45d080ef68ea0db252c5f5e4d71468cecdda4d0392b13a4a7f023e0770d1348cce7c79616f4bceb79bc82db91de6c9dc94c3378923e61d7d99c9
+
 outputs.75.coordinates=org.apache.syncope.ext.saml2sp4ui:syncope-ext-saml2sp4ui-client-enduser
 
 outputs.75.0.filename=syncope-ext-saml2sp4ui-client-enduser-3.0.4.pom
@@ -938,11 +1538,27 @@ outputs.75.2.filename=syncope-ext-saml2sp4ui-client-enduser-3.0.4-sources.jar
 outputs.75.2.length=22310
 outputs.75.2.checksums.sha512=1d86eaa5e89cecea7d849e6954836531a5193f41e08ae5963fe51b0cfe786594966fb1c89f803aaac0b0b9c18b51271acb53168ac8b92387e9e41636006bad06
 
+outputs.75.3.filename=syncope-ext-saml2sp4ui-client-enduser-3.0.4-cyclonedx.xml
+outputs.75.3.length=380048
+outputs.75.3.checksums.sha512=4de2c76c6465bce7f73c91a088f9e7414b77d0df5110f84486aa7fa74f7f3c1b07d3d643a4b40ea2f8e622d9d473649d1281b3605b7e8e259e9b2ffd16af5dec
+
+outputs.75.4.filename=syncope-ext-saml2sp4ui-client-enduser-3.0.4-cyclonedx.json
+outputs.75.4.length=442009
+outputs.75.4.checksums.sha512=164af262b244d56e4aa1802314a3bf4a89886700cc73d98c7fc869aec730a262541ab988c4e65f7bef55af88c00f4b9d845d09c160a5980fafae0950b995206f
+
 outputs.76.coordinates=org.apache.syncope.ext:syncope-ext-scimv2
 
 outputs.76.0.filename=syncope-ext-scimv2-3.0.4.pom
 outputs.76.0.length=1755
 outputs.76.0.checksums.sha512=92885e29ce0670d1ba8d619f8234e4213a650868f77b19abdc3befb4282dfbb8d3aa7a2794e389b4c7a00fb7633fcf01df1e2023bbd10fdae15f1a480d822de3
+
+outputs.76.1.filename=syncope-ext-scimv2-3.0.4-cyclonedx.xml
+outputs.76.1.length=2897
+outputs.76.1.checksums.sha512=c3f3d2f7ab35018f4495569b10df65628a0b78dc6dd162184c1b09f77ec89d9d55dd29a8c04d9c602bf4d350517cbce8b184101bb3d1d68ac7cb78e9fd2bbf02
+
+outputs.76.2.filename=syncope-ext-scimv2-3.0.4-cyclonedx.json
+outputs.76.2.length=3409
+outputs.76.2.checksums.sha512=4d67a5d5ef9b914550a67c1464e938a0af2eceac133264f26ff1ec2b33b9985f2d3bf6d97bcd8c9dbd827dd338219d6b819f4ff69f27298469ffae4f4a8f2437
 
 outputs.77.coordinates=org.apache.syncope.ext.scimv2:syncope-ext-scimv2-common-lib
 
@@ -958,6 +1574,14 @@ outputs.77.2.filename=syncope-ext-scimv2-common-lib-3.0.4-sources.jar
 outputs.77.2.length=24032
 outputs.77.2.checksums.sha512=db7680a8a540cd76e37edcacb6b1eca5c3df5595251f8210add8185819f2b6814f8e77dda91f27fef5844074c68138c2735d1a9bd820d9926dec498e9964faaa
 
+outputs.77.3.filename=syncope-ext-scimv2-common-lib-3.0.4-cyclonedx.xml
+outputs.77.3.length=69172
+outputs.77.3.checksums.sha512=97e8a0785d386f739e74d4d20e5ee9cbc8572ebc4a0479623372afc1643cacee0f75df4737491e1a2d9916ea730c700e07d47272c2ef3b6984477a6c644b4b73
+
+outputs.77.4.filename=syncope-ext-scimv2-common-lib-3.0.4-cyclonedx.json
+outputs.77.4.length=81001
+outputs.77.4.checksums.sha512=6e1b84704326116261992118420aadb7665d69fb3031b32ea149034684a90189592b8389e8cd63b0e0d4861ac4507b5c0d86af8e26c9dbec857407ed9ba77bd3
+
 outputs.78.coordinates=org.apache.syncope.ext.scimv2:syncope-ext-scimv2-rest-api
 
 outputs.78.0.filename=syncope-ext-scimv2-rest-api-3.0.4.pom
@@ -971,6 +1595,14 @@ outputs.78.1.checksums.sha512=73e08b3856a59dcc314a0983d17258bf09a9726839f80f67a6
 outputs.78.2.filename=syncope-ext-scimv2-rest-api-3.0.4-sources.jar
 outputs.78.2.length=10366
 outputs.78.2.checksums.sha512=06f3440f3b944bb6ba34d690d5ebd4ae4972d6361ef5b203c1b8db079d1f7b656d51c8e461eb1b4e74cc3e0772b58721f63cea855e6f00d5aaca690cabab2629
+
+outputs.78.3.filename=syncope-ext-scimv2-rest-api-3.0.4-cyclonedx.xml
+outputs.78.3.length=76845
+outputs.78.3.checksums.sha512=ff209706942248b7577917d03a430caf85ca9ca62f4fd2a8654163987b5c437cf6220f8ef9976e0714010045f241159a57e9140e4b1cc8f515fd3681528e0535
+
+outputs.78.4.filename=syncope-ext-scimv2-rest-api-3.0.4-cyclonedx.json
+outputs.78.4.length=89949
+outputs.78.4.checksums.sha512=d36dccc823745149621f5c6d9354fd70b25d3f475e0a818ba7cefdfee1dc14e9239c89f276d29bf6e1bf79736532f92c34d431537727470a5bf503fcba3ae612
 
 outputs.79.coordinates=org.apache.syncope.ext.scimv2:syncope-ext-scimv2-scim-rest-api
 
@@ -986,6 +1618,14 @@ outputs.79.2.filename=syncope-ext-scimv2-scim-rest-api-3.0.4-sources.jar
 outputs.79.2.length=49108
 outputs.79.2.checksums.sha512=271ea36c4d45e44f63c96c03f3f4a2321b239c15842c50667f369a14d0bd56bb62d3aa1a0eeb2f042b36e4ca88fd969fe0429f1d19957ee8c6c3cf9ed18cc607
 
+outputs.79.3.filename=syncope-ext-scimv2-scim-rest-api-3.0.4-cyclonedx.xml
+outputs.79.3.length=47088
+outputs.79.3.checksums.sha512=eeb9396736ac0b19575bcf613ce22b1a347aa87b2e9dccf0d65ecbc1376d37bf6aca1a6de61fa42bcd8eaac1e9606ad7f47699b9e24f4a5e9fbcd1e3aaf71815
+
+outputs.79.4.filename=syncope-ext-scimv2-scim-rest-api-3.0.4-cyclonedx.json
+outputs.79.4.length=55457
+outputs.79.4.checksums.sha512=573307ef86f72ae3e79c2c63a7c71cef684b8ddc388e4ae48e7f94b997999da76764cb61f827ed00c658621c130c88fce33714cd9d213dd29aa1560d04e18df1
+
 outputs.80.coordinates=org.apache.syncope.ext.scimv2:syncope-ext-scimv2-logic
 
 outputs.80.0.filename=syncope-ext-scimv2-logic-3.0.4.pom
@@ -999,6 +1639,14 @@ outputs.80.1.checksums.sha512=25a683cae13eddde8bce31b61648ec2d10b8b1c17a12dc6bc8
 outputs.80.2.filename=syncope-ext-scimv2-logic-3.0.4-sources.jar
 outputs.80.2.length=47596
 outputs.80.2.checksums.sha512=6b71cb8766644fda86172dd7c300b1edafddab892c103423e479e86323a391e28ece888320dabe9d91160b35eea70e3cd11361c215d82a93bae5ea6dcfa18a8c
+
+outputs.80.3.filename=syncope-ext-scimv2-logic-3.0.4-cyclonedx.xml
+outputs.80.3.length=236348
+outputs.80.3.checksums.sha512=46cf187691214485c4bc77427612ee0bec6510dbddf33b258b254842657c2a7786220d8bde1f9a9d9be10c30b9b0e44aa7f5649bbe2bca3630648a5e4af1e668
+
+outputs.80.4.filename=syncope-ext-scimv2-logic-3.0.4-cyclonedx.json
+outputs.80.4.length=275255
+outputs.80.4.checksums.sha512=f0b18949a545b429234dc9c687e088cef7fe6aca61afe677f5554ccf0d77b94bc9fe90674275bcf5c8b6eada1802ceca7e829bd7a49306174728bfaf40a768e2
 
 outputs.81.coordinates=org.apache.syncope.ext.scimv2:syncope-ext-scimv2-rest-cxf
 
@@ -1014,6 +1662,14 @@ outputs.81.2.filename=syncope-ext-scimv2-rest-cxf-3.0.4-sources.jar
 outputs.81.2.length=13953
 outputs.81.2.checksums.sha512=59add46795650b23e632726cb910b0885ee5a465855da9b22d0968dea75884f98b7994d9451ee50316de703289ca63ef6db2b304ac5474f1aafa69f743e1b2da
 
+outputs.81.3.filename=syncope-ext-scimv2-rest-cxf-3.0.4-cyclonedx.xml
+outputs.81.3.length=304639
+outputs.81.3.checksums.sha512=fc9837c8a6735fbb9958c10db94fd6a37e95317295384c5022eb1d585202b8275c50e6cccb188772cbffe93f012fda8146fb331d32c524518a4ac9bf8a914e5a
+
+outputs.81.4.filename=syncope-ext-scimv2-rest-cxf-3.0.4-cyclonedx.json
+outputs.81.4.length=353447
+outputs.81.4.checksums.sha512=aa7fbed37bcb1ee7dc7bf75a6dd40bbdf5f74143ed0b3b1adf9d59e2d1c8d8c2d51833a06695533c1b63232b0cb7f8a755715b2c77429cd73e21aa02ef298cea
+
 outputs.82.coordinates=org.apache.syncope.ext.scimv2:syncope-ext-scimv2-scim-rest-cxf
 
 outputs.82.0.filename=syncope-ext-scimv2-scim-rest-cxf-3.0.4.pom
@@ -1027,6 +1683,14 @@ outputs.82.1.checksums.sha512=cffe1ce30cc1ebd69abb0e594373205d5d03d2445f07e7d343
 outputs.82.2.filename=syncope-ext-scimv2-scim-rest-cxf-3.0.4-sources.jar
 outputs.82.2.length=26050
 outputs.82.2.checksums.sha512=8cd4e647fcf353990f2cb60809d2aa1d756d545e00a6f9934d4b603e0472efd73838ce79c4ae901a79280282145964c50c56d91c0356d8751accb2cedd367497
+
+outputs.82.3.filename=syncope-ext-scimv2-scim-rest-cxf-3.0.4-cyclonedx.xml
+outputs.82.3.length=252052
+outputs.82.3.checksums.sha512=b48ea98dcf4aa43bd2a6a76ca1d9c17d6f0ec942b1b74ce6b144a7e3ab33ec8b62fbcd9a07bd8f7a3d1d4bb6b1a8b689cc83101d346ea06464c50ffe8edcf4c1
+
+outputs.82.4.filename=syncope-ext-scimv2-scim-rest-cxf-3.0.4-cyclonedx.json
+outputs.82.4.length=293266
+outputs.82.4.checksums.sha512=0eb88fca94b0d849917d6a7d6741e9cc3c537acb74dd97e1286a656621d8e757a4062f7ea3a79cb19b1e577c119db6e6b166d6535907ca6fbce9bde21519e03d
 
 outputs.83.coordinates=org.apache.syncope.ext.scimv2:syncope-ext-scimv2-client-console
 
@@ -1042,11 +1706,27 @@ outputs.83.2.filename=syncope-ext-scimv2-client-console-3.0.4-sources.jar
 outputs.83.2.length=43044
 outputs.83.2.checksums.sha512=33a3f4d7a21c803a5eca32107c372c3ea01088da3870a9827a5a30641070c81992c8f5cc54db220b2a13294582c46c13eac1dc741ac2b7a9349e55a753347474
 
+outputs.83.3.filename=syncope-ext-scimv2-client-console-3.0.4-cyclonedx.xml
+outputs.83.3.length=382240
+outputs.83.3.checksums.sha512=88edae424699e9bf266caffc83957e256569d3e73412cac25d5fe79656920173cbd9f05eabe7a736f32d6b00eaabbcdc4c50261a1deda5e62b9fea736a6c4f84
+
+outputs.83.4.filename=syncope-ext-scimv2-client-console-3.0.4-cyclonedx.json
+outputs.83.4.length=444828
+outputs.83.4.checksums.sha512=b82e59cd747353efda9bb4c6c9a24d4694eee1eb3823e2f49c4bbce1be37083e9dc7e65442c3eff1dd3a11dbdefeb8d31ba5fb6e422d820ecdc922a317a4c037
+
 outputs.84.coordinates=org.apache.syncope.ext:syncope-ext-oidcc4ui
 
 outputs.84.0.filename=syncope-ext-oidcc4ui-3.0.4.pom
 outputs.84.0.length=1918
 outputs.84.0.checksums.sha512=936f55ca6529e474e549ca8092f6d6812e6826b5738f334d4ba2d0541ebca60d9f0c997054b2b962c006719d5900648dad4dd463b0d1fe4d9b20b2d3e26e75e1
+
+outputs.84.1.filename=syncope-ext-oidcc4ui-3.0.4-cyclonedx.xml
+outputs.84.1.length=2912
+outputs.84.1.checksums.sha512=c172ae49f35ae0b9210670debff94381523dd47c233ade74a6b868506d3f0a10367160db485958ede09c809c7db086b7cffaae80e4056dd451247ab9105f7d43
+
+outputs.84.2.filename=syncope-ext-oidcc4ui-3.0.4-cyclonedx.json
+outputs.84.2.length=3424
+outputs.84.2.checksums.sha512=e314d45d94535ad77e1b67325ae21117683c3c106e7f517f1dc15f93c4507e5dbb2e3a664283387da70a040758201fcd27307257bff4a9f0419cd42ab0e8f8dd
 
 outputs.85.coordinates=org.apache.syncope.ext.oidcc4ui:syncope-ext-oidcc4ui-common-lib
 
@@ -1062,6 +1742,14 @@ outputs.85.2.filename=syncope-ext-oidcc4ui-common-lib-3.0.4-sources.jar
 outputs.85.2.length=15469
 outputs.85.2.checksums.sha512=c54e2697f40c5c691e6459ae0303b429d9b043422b18287aec41caa2f1003a6d8db7e88b9828f49eb62619856ae7cc4cc8b830c27acff233a9120900d63ac350
 
+outputs.85.3.filename=syncope-ext-oidcc4ui-common-lib-3.0.4-cyclonedx.xml
+outputs.85.3.length=71742
+outputs.85.3.checksums.sha512=53936d27f86d3ba350ef6b8740bc77d8a5f54932dafa713ca3d765c31f1727b63ff11d521afc99b6d0c8a051f4b297e4393952e7ccea3e709fc4298681248b46
+
+outputs.85.4.filename=syncope-ext-oidcc4ui-common-lib-3.0.4-cyclonedx.json
+outputs.85.4.length=84004
+outputs.85.4.checksums.sha512=75a280f8c61cc42a0618c957b62c9ea6a459fbb0f810c0e961ddd6bdf31378bc75d2e166e04e0ed1fbc16bef1623a8b57a9aa487375c5115202bfa260cd974ca
+
 outputs.86.coordinates=org.apache.syncope.ext.oidcc4ui:syncope-ext-oidcc4ui-rest-api
 
 outputs.86.0.filename=syncope-ext-oidcc4ui-rest-api-3.0.4.pom
@@ -1075,6 +1763,14 @@ outputs.86.1.checksums.sha512=bccd00587cc1c8d3c02c2ff9a043e5c3eef4a51a12391c3d7e
 outputs.86.2.filename=syncope-ext-oidcc4ui-rest-api-3.0.4-sources.jar
 outputs.86.2.length=12356
 outputs.86.2.checksums.sha512=14de8c871217aa7dfc814280ce13d442d4e2a9b57f6582ccafec1eaa48a6db97984bb4aad5f67346862c9862245296ba16123d308bebe213eeecfbbe0a8c2d4f
+
+outputs.86.3.filename=syncope-ext-oidcc4ui-rest-api-3.0.4-cyclonedx.xml
+outputs.86.3.length=84712
+outputs.86.3.checksums.sha512=d1d36fea511ea5f69141939ff358bdeb219fbdbea147097f4da8f44806d4beb078aac76c04bc658bd52f9467deeac8de60fb0830c54ca37213019194faf29163
+
+outputs.86.4.filename=syncope-ext-oidcc4ui-rest-api-3.0.4-cyclonedx.json
+outputs.86.4.length=99100
+outputs.86.4.checksums.sha512=cb59e1101828738b395977ec7246c27a7de41d0c8f05ca96841eacf804fb202964dd522d6aed19b22dd2bbec321da00dc5d127e8d7ca031d5ca1498168b8922b
 
 outputs.87.coordinates=org.apache.syncope.ext.oidcc4ui:syncope-ext-oidcc4ui-persistence-api
 
@@ -1090,6 +1786,14 @@ outputs.87.2.filename=syncope-ext-oidcc4ui-persistence-api-3.0.4-sources.jar
 outputs.87.2.length=13210
 outputs.87.2.checksums.sha512=4f9979dc7bf650eec6694dc338339249dc00a1bf5379398982128028c5ce969daec203e9716b1581821be3f98de3a2d669510627f03089267a0bae45da27e2af
 
+outputs.87.3.filename=syncope-ext-oidcc4ui-persistence-api-3.0.4-cyclonedx.xml
+outputs.87.3.length=106887
+outputs.87.3.checksums.sha512=20d9d3408cb54e3b888ae662d2497ea9dbbabc9947fd5844fb26402be9fc28e087012bd7cb7fc11832544d69feb76fdd76110ecc404ed3f0d1cd1e80ba524988
+
+outputs.87.4.filename=syncope-ext-oidcc4ui-persistence-api-3.0.4-cyclonedx.json
+outputs.87.4.length=125029
+outputs.87.4.checksums.sha512=2a47807381319469656f5ff16d4e7a5f4328672fa0308a3616d351b22fa4a3e6279626bda80e98ee475175a5341d45f5f1d4fc0953a2f08273dbd55d7c3df068
+
 outputs.88.coordinates=org.apache.syncope.ext.oidcc4ui:syncope-ext-oidcc4ui-provisioning-api
 
 outputs.88.0.filename=syncope-ext-oidcc4ui-provisioning-api-3.0.4.pom
@@ -1103,6 +1807,14 @@ outputs.88.1.checksums.sha512=e6407f55ee8c0a6af28b19220967f91272a5c8ff57dcb395c6
 outputs.88.2.filename=syncope-ext-oidcc4ui-provisioning-api-3.0.4-sources.jar
 outputs.88.2.length=11534
 outputs.88.2.checksums.sha512=10a669e01afc3e0f1d0e68db3058115abb8d21a6b1a4f0f88e2e1e3b645b8d8fcc4382a390dbcd045772a2cef552a727651d830a624e0018f24d0a6de1647969
+
+outputs.88.3.filename=syncope-ext-oidcc4ui-provisioning-api-3.0.4-cyclonedx.xml
+outputs.88.3.length=132840
+outputs.88.3.checksums.sha512=293b51eb9003d13d49e4f0711f2fe5385ac3f7dd3cf6f4b3194b7ec0d52dabda2af8fea70c0a1e97dcdffea54ab5682301fbc224a3f7203066d75b03aaac35d6
+
+outputs.88.4.filename=syncope-ext-oidcc4ui-provisioning-api-3.0.4-cyclonedx.json
+outputs.88.4.length=155050
+outputs.88.4.checksums.sha512=7de1d83bb54b9f03088fb5137c7f396065f26146ee0980e9efbf8c08b6fdf2c9ef0841fa2ac1c6b753f7ac22a3f9926dd34764eeb538df95a6058048460a6c16
 
 outputs.89.coordinates=org.apache.syncope.ext.oidcc4ui:syncope-ext-oidcc4ui-provisioning-java
 
@@ -1118,6 +1830,14 @@ outputs.89.2.filename=syncope-ext-oidcc4ui-provisioning-java-3.0.4-sources.jar
 outputs.89.2.length=15438
 outputs.89.2.checksums.sha512=59b28e19eecfac6240092e664cadb9a07df4addad399ff9657ceba71d0f49338bdaec4c2c22dc7bc1838486ccd140b65721535a4b74f0c2dd7af2efd5101ad12
 
+outputs.89.3.filename=syncope-ext-oidcc4ui-provisioning-java-3.0.4-cyclonedx.xml
+outputs.89.3.length=222389
+outputs.89.3.checksums.sha512=a2a0572b7a22e7078de5a537cd8d651010b2902af46af0b0e5ac62ac90fad7d673c54fa60cd6ad0296fa6f5385be26161aa4c291a2bb851befc78c1424122853
+
+outputs.89.4.filename=syncope-ext-oidcc4ui-provisioning-java-3.0.4-cyclonedx.json
+outputs.89.4.length=258785
+outputs.89.4.checksums.sha512=f85ac3b17565d32458d9e7681dd02b56b5e9c85108951528307a8478b63fcb10020c9162efc28aace0596e2b6ce2a060e40929d94c8f07b25dffd9163a5013f5
+
 outputs.90.coordinates=org.apache.syncope.ext.oidcc4ui:syncope-ext-oidcc4ui-logic
 
 outputs.90.0.filename=syncope-ext-oidcc4ui-logic-3.0.4.pom
@@ -1131,6 +1851,14 @@ outputs.90.1.checksums.sha512=6dfbfcb2ae947bbdd2fa6305556ca2d31f27de4dd56a4c2be2
 outputs.90.2.filename=syncope-ext-oidcc4ui-logic-3.0.4-sources.jar
 outputs.90.2.length=27344
 outputs.90.2.checksums.sha512=6af74461bf4e1561f33a7f55d680df2ed4ecdd54e3df47a1f51f9ee8b3d27cfaf1e9b4036c9c8e6b887757ad26ba53dfca627fd158b32c9bec521b27a5eb6dd3
+
+outputs.90.3.filename=syncope-ext-oidcc4ui-logic-3.0.4-cyclonedx.xml
+outputs.90.3.length=271846
+outputs.90.3.checksums.sha512=270bbaf9945e532dd9b81deaba6b451ecb459a0a8d101485aa61c7c97ce4bf797e310fbd34d757f61dd67002a42e16c2e2497d635feac0dfdd54e419a1d8f066
+
+outputs.90.4.filename=syncope-ext-oidcc4ui-logic-3.0.4-cyclonedx.json
+outputs.90.4.length=316439
+outputs.90.4.checksums.sha512=598ae67c17528561bd5a7072907b3fc0836f2f31468364f75cb11dd6ea040f7293c4de6e095e61c4238a2292bfb3496f13701060feaf93d4cfb5c75d5a7534fe
 
 outputs.91.coordinates=org.apache.syncope.ext.oidcc4ui:syncope-ext-oidcc4ui-rest-cxf
 
@@ -1146,6 +1874,14 @@ outputs.91.2.filename=syncope-ext-oidcc4ui-rest-cxf-3.0.4-sources.jar
 outputs.91.2.length=16034
 outputs.91.2.checksums.sha512=cb027961c48b2b60a619b1e004606a51bf2802c6959ac94a2ada9b8c979a1fe1bd2f08e03f4f8cdd54194ec53310174a426fd9e9bc400789e58febf5a80e0d5f
 
+outputs.91.3.filename=syncope-ext-oidcc4ui-rest-cxf-3.0.4-cyclonedx.xml
+outputs.91.3.length=345910
+outputs.91.3.checksums.sha512=0ee440679648ed5d357801db02620bcf01887aad3cb8e3eb6667d62e13e61729cb0d758d0965d655eae4a41f330e1dd509675b8bb60d2efbdf4a69f580c35893
+
+outputs.91.4.filename=syncope-ext-oidcc4ui-rest-cxf-3.0.4-cyclonedx.json
+outputs.91.4.length=401194
+outputs.91.4.checksums.sha512=4ca551c804c9598e7738123c61f5a34b916ce79502894523cde6d18ce48ba80a95e9b0dbbe51a8e09128b938beb00db0c98a55554921edb354109996e91c54c3
+
 outputs.92.coordinates=org.apache.syncope.ext.oidcc4ui:syncope-ext-oidcc4ui-client-common-ui
 
 outputs.92.0.filename=syncope-ext-oidcc4ui-client-common-ui-3.0.4.pom
@@ -1159,6 +1895,14 @@ outputs.92.1.checksums.sha512=afdfd90a1a8b9f5388a8e30fd04e15c6eb280e3dbf0c65461b
 outputs.92.2.filename=syncope-ext-oidcc4ui-client-common-ui-3.0.4-sources.jar
 outputs.92.2.length=21570
 outputs.92.2.checksums.sha512=a5046e69d410522df219a28f7317ee528cc982747363c1fe1ba3c00995b6939927101a251d1190a5100dd40e2f6581ff23b7c53a98b113a20f3560f5032ece2b
+
+outputs.92.3.filename=syncope-ext-oidcc4ui-client-common-ui-3.0.4-cyclonedx.xml
+outputs.92.3.length=310007
+outputs.92.3.checksums.sha512=d91ccc17e7b6175e44deb157db30d1dc830ba21601a3909d5c5bf7514f158520b70432c9afacca2076876005cd6d157e6af59ed8d36c02f3ffeae704d2c598ff
+
+outputs.92.4.filename=syncope-ext-oidcc4ui-client-common-ui-3.0.4-cyclonedx.json
+outputs.92.4.length=361612
+outputs.92.4.checksums.sha512=e311111c2160debd24afb6151424b2659a9770ffa4dacd8f929ac1783006bd98f63d26bdd46e8781cd5b192d023a2cc73ae497de3d67097befebab94c4243f62
 
 outputs.93.coordinates=org.apache.syncope.ext.oidcc4ui:syncope-ext-oidcc4ui-client-console
 
@@ -1174,6 +1918,14 @@ outputs.93.2.filename=syncope-ext-oidcc4ui-client-console-3.0.4-sources.jar
 outputs.93.2.length=50358
 outputs.93.2.checksums.sha512=f9a15484d813545aa4fa78abd6032eb204c9490c0d61169ebfd1956fe4978f5dd4d42eb5f12dfcb1691d008889b0ce1c4d0ff1b9c65bce29c87ada0a4e3cbe5f
 
+outputs.93.3.filename=syncope-ext-oidcc4ui-client-console-3.0.4-cyclonedx.xml
+outputs.93.3.length=398184
+outputs.93.3.checksums.sha512=d260cc942b414548e7d8c5d5ea6c9b3e8c82c10d07f7d71e6c2d3c588fd056683703eab2b0cf3fdc186c23da688b7e3ac9b076de58c0e1067e5b149fb5e8056f
+
+outputs.93.4.filename=syncope-ext-oidcc4ui-client-console-3.0.4-cyclonedx.json
+outputs.93.4.length=463325
+outputs.93.4.checksums.sha512=46d2793749ae178eeae46b684744833ffa691599374e8cede326f00c22585a98e355d78ffa08a098d3a7a7ac66e3b587927463d1b1fc574c6a28042db8376258
+
 outputs.94.coordinates=org.apache.syncope.ext.oidcc4ui:syncope-ext-oidcc4ui-client-enduser
 
 outputs.94.0.filename=syncope-ext-oidcc4ui-client-enduser-3.0.4.pom
@@ -1187,6 +1939,14 @@ outputs.94.1.checksums.sha512=89dae4303a2675caf21f365a8b227f72dcd131f48a6de15cda
 outputs.94.2.filename=syncope-ext-oidcc4ui-client-enduser-3.0.4-sources.jar
 outputs.94.2.length=21910
 outputs.94.2.checksums.sha512=668a661db21ffdd87aea5e7eda0bbe2a724c7fbcc32547f95a129cc56ef3eedcd2752d462cb6bac0e42d58764f9ba98f6951151e4ec5f1274513f2ab3a7cc504
+
+outputs.94.3.filename=syncope-ext-oidcc4ui-client-enduser-3.0.4-cyclonedx.xml
+outputs.94.3.length=385191
+outputs.94.3.checksums.sha512=1ee49a076cfbf3f32cb55a7a60a1f78e923e06f71d79b024e31fc36ff9e23fcf814d63b9d45f04e463b5546182bf7ee1a7df9f013007d037ae3ecf7fe2296dac
+
+outputs.94.4.filename=syncope-ext-oidcc4ui-client-enduser-3.0.4-cyclonedx.json
+outputs.94.4.length=448003
+outputs.94.4.checksums.sha512=cad481f5b12fad77ea6da80731ad83c3e53268bb0b8474960a0248aa5f9c8b9bbf711d4518840a153696c176c5869384277797168ded9c1a3851dd6f9e694a63
 
 outputs.95.coordinates=org.apache.syncope.ext.saml2sp4ui:syncope-ext-saml2sp4ui-persistence-jpa
 
@@ -1202,6 +1962,14 @@ outputs.95.2.filename=syncope-ext-saml2sp4ui-persistence-jpa-3.0.4-sources.jar
 outputs.95.2.length=21623
 outputs.95.2.checksums.sha512=d1a41488e424c8edc15ff95e8005a419652b4cb9e1296b9c17b670469c83edbb8da3e96b9509e51f670440e762aa0b102bcd74e5f98082559183edf97a214fee
 
+outputs.95.3.filename=syncope-ext-saml2sp4ui-persistence-jpa-3.0.4-cyclonedx.xml
+outputs.95.3.length=218128
+outputs.95.3.checksums.sha512=e5039ba6e61be50202c83d454212efb0a032cd2f2aad6272d196399cd78326155083aab44fb722606327d755c7adec1d06e4e38ae87c07f6c6f9a3e8e6e61a4e
+
+outputs.95.4.filename=syncope-ext-saml2sp4ui-persistence-jpa-3.0.4-cyclonedx.json
+outputs.95.4.length=254314
+outputs.95.4.checksums.sha512=e8f15723ebf62e19f394f68569c8a3a6d978b42a2ad5cd66b33f526605173269a91fafc42fb16a61c5acb9e044c7893743ae887239ded0bf69b0cb8a3f0d2dd8
+
 outputs.96.coordinates=org.apache.syncope.ext.oidcc4ui:syncope-ext-oidcc4ui-persistence-jpa
 
 outputs.96.0.filename=syncope-ext-oidcc4ui-persistence-jpa-3.0.4.pom
@@ -1216,11 +1984,27 @@ outputs.96.2.filename=syncope-ext-oidcc4ui-persistence-jpa-3.0.4-sources.jar
 outputs.96.2.length=21574
 outputs.96.2.checksums.sha512=a1a7d5460e95a97608170a874e4ae3abe94c3fde8a15f78661b9db1a848b0331f4ef0f78dbb4c4725880e9dcd86abf0ca66aaa7137f3a62974bd15a3c6220d71
 
+outputs.96.3.filename=syncope-ext-oidcc4ui-persistence-jpa-3.0.4-cyclonedx.xml
+outputs.96.3.length=218042
+outputs.96.3.checksums.sha512=e07e94c12229ed3f8c5f45a23f68608437ffea80b02e9b6679d4478b3cf68af1f64ebe698537cab08a074f7490bae624922ec4c9b4a2b989dbe3b4549c118f5a
+
+outputs.96.4.filename=syncope-ext-oidcc4ui-persistence-jpa-3.0.4-cyclonedx.json
+outputs.96.4.length=254228
+outputs.96.4.checksums.sha512=755635c1486aea88f26c988f39c978466e959bfb53bc73bfe7b19298627613d0d12f5f533508bb140dcff2dfef7e0586b880703a665fd413b9f2a1ab482794db
+
 outputs.97.coordinates=org.apache.syncope.ext:syncope-ext-elasticsearch
 
 outputs.97.0.filename=syncope-ext-elasticsearch-3.0.4.pom
 outputs.97.0.length=1696
 outputs.97.0.checksums.sha512=5aa7e82fd06bf41c715a92127bf19db90492bdc66c98326ba2789c011f76a106cffbe969aa3f004064cc314d52b21b1403ac7cb3c4e16214c4fd5e05cca0022e
+
+outputs.97.1.filename=syncope-ext-elasticsearch-3.0.4-cyclonedx.xml
+outputs.97.1.length=2946
+outputs.97.1.checksums.sha512=9577eee7049bf2c1f0747c993db7cd3a18c85ddc764fa19ae76a34f75436af015e6542987b9af2e6e58672d58c098de6cf78f568dc49074c3ef53c619ec4acea
+
+outputs.97.2.filename=syncope-ext-elasticsearch-3.0.4-cyclonedx.json
+outputs.97.2.length=3458
+outputs.97.2.checksums.sha512=efe1ac62db731e19390f26314a649cecbcda6655e4325962821302a5babfb89df9eb241182610ab5889cb7ed5fde04fd2c28cd831ec3631a605b3b417f5fd2df
 
 outputs.98.coordinates=org.apache.syncope.ext.elasticsearch:syncope-ext-elasticsearch-client
 
@@ -1236,6 +2020,14 @@ outputs.98.2.filename=syncope-ext-elasticsearch-client-3.0.4-sources.jar
 outputs.98.2.length=23220
 outputs.98.2.checksums.sha512=57dfb861e10e3bb3c1e3ebe6d478a8bf53c623f613250ef4ce09b3c185d3e0a023d3f55500c60c787823f0fe884f741282f589a491e82a23bde740483fa58c1b
 
+outputs.98.3.filename=syncope-ext-elasticsearch-client-3.0.4-cyclonedx.xml
+outputs.98.3.length=204204
+outputs.98.3.checksums.sha512=ef9236c2c153732b73be6a087b5fbf4671fb6c496bc030866dfc2ea6610e37126ced4e9bfbf23cabb5c08e076f267596c7a7ac54adc6a59f60a77ab4dbcc648f
+
+outputs.98.4.filename=syncope-ext-elasticsearch-client-3.0.4-cyclonedx.json
+outputs.98.4.length=238001
+outputs.98.4.checksums.sha512=d88614b63c8c448ae804d499b0374434d0eed6889a119b335a802834f55955d68c4a30b6b73089b78ef0db2e15c06814a1e7733246abd3476687def540d73167
+
 outputs.99.coordinates=org.apache.syncope.ext.elasticsearch:syncope-ext-elasticsearch-persistence-jpa
 
 outputs.99.0.filename=syncope-ext-elasticsearch-persistence-jpa-3.0.4.pom
@@ -1249,6 +2041,14 @@ outputs.99.1.checksums.sha512=8527a3dcfd5f7b5a28c749f132ee2f31c625f542f002f744d0
 outputs.99.2.filename=syncope-ext-elasticsearch-persistence-jpa-3.0.4-sources.jar
 outputs.99.2.length=20768
 outputs.99.2.checksums.sha512=1f5dbdcc1eb3bfc6b71b5ff677fe37edf4ea287727cb40405bff3ab1b9656875bfb815e5e286c55153d3cb8f40308d5b8e80e2d3b38d44ce55838e456c9e61d7
+
+outputs.99.3.filename=syncope-ext-elasticsearch-persistence-jpa-3.0.4-cyclonedx.xml
+outputs.99.3.length=251763
+outputs.99.3.checksums.sha512=d7412761fa2295fac7723f99bac07b4eb13955e45a0186197f23e3de84d1ef8a9bf69b5de7a94db9e7854faa715f7646e389fd5901ca754f341a5387fef92221
+
+outputs.99.4.filename=syncope-ext-elasticsearch-persistence-jpa-3.0.4-cyclonedx.json
+outputs.99.4.length=293656
+outputs.99.4.checksums.sha512=dbe504cedda5a804d8d1855805afbbff7beebdc5ce6ae015a1c17a6e4ed152653b9b546d8c0cdd6d57e7e4c6157377dd5981e3a446c79985b2b3fce1b63a8d76
 
 outputs.100.coordinates=org.apache.syncope.ext.elasticsearch:syncope-ext-elasticsearch-provisioning-java
 
@@ -1264,6 +2064,14 @@ outputs.100.2.filename=syncope-ext-elasticsearch-provisioning-java-3.0.4-sources
 outputs.100.2.length=13414
 outputs.100.2.checksums.sha512=e74437f21c04176f313e83b3698e58955a67f9ccaf3dc70ac24703fc1ede231535b053088a29ad072b66c637361a2114f36fb46c4c15a906697f0a8939f560c1
 
+outputs.100.3.filename=syncope-ext-elasticsearch-provisioning-java-3.0.4-cyclonedx.xml
+outputs.100.3.length=253202
+outputs.100.3.checksums.sha512=2e75d48d4c94f6fead02f5c1aecea932e8b2fef5a53febf63b66b8641b8e8e72e8d3ff6db658af95ba41d68205a14aaa94d0d74d307dfd96683c68ed52de380a
+
+outputs.100.4.filename=syncope-ext-elasticsearch-provisioning-java-3.0.4-cyclonedx.json
+outputs.100.4.length=294902
+outputs.100.4.checksums.sha512=1bbe80bc21502471fa51f8d80b999a0239064d755a9360b455c15a52ad09d1e7336542aabc6c8ba3676fc43a90d7772016ae9842c6e5fef428a47a8e54558888
+
 outputs.101.coordinates=org.apache.syncope.ext.elasticsearch:syncope-ext-elasticsearch-logic
 
 outputs.101.0.filename=syncope-ext-elasticsearch-logic-3.0.4.pom
@@ -1278,6 +2086,14 @@ outputs.101.2.filename=syncope-ext-elasticsearch-logic-3.0.4-sources.jar
 outputs.101.2.length=15739
 outputs.101.2.checksums.sha512=c6c51463ae7ae3390ce72f7059774a570c9e2e7629566cb74872eec6401ae221c8bab394e408c3692af21b5be18c7bbe2bb442ac31c3dfd6ab75e0aa1b6a674b
 
+outputs.101.3.filename=syncope-ext-elasticsearch-logic-3.0.4-cyclonedx.xml
+outputs.101.3.length=267747
+outputs.101.3.checksums.sha512=ba5b16cd3b97ca6e3425ed26471c8931300c32b407a59822a052247b59b8e19e94645d4ef682a72548fd5f34bd84d38885dfc9d59d888f15b5cba162afcb571e
+
+outputs.101.4.filename=syncope-ext-elasticsearch-logic-3.0.4-cyclonedx.json
+outputs.101.4.length=311967
+outputs.101.4.checksums.sha512=b31ffca140a0f04b9e6d68ec3e9b101fe44d49212b1b318e4cda3fae5e67c6fa9e280dae63e8149a3e4d4f25ce362ce40b76c153391f24f6781a97ece59e802f
+
 outputs.102.coordinates=org.apache.syncope:syncope-archetype
 
 outputs.102.0.filename=syncope-archetype-3.0.4.pom
@@ -1291,3 +2107,11 @@ outputs.102.1.checksums.sha512=c972c1bef7784610180d1157dc5006346a521bad7eba57be4
 outputs.102.2.filename=syncope-archetype-3.0.4-sources.jar
 outputs.102.2.length=171782
 outputs.102.2.checksums.sha512=1d124fde7d6fea2abac213383a7809110ac7845140540434025f01603bb14cf4f300cb04bd049517d265943c8abf3fb2fe5d935df13da163bf7e56299ce7ff8d
+
+outputs.102.3.filename=syncope-archetype-3.0.4-cyclonedx.xml
+outputs.102.3.length=2885
+outputs.102.3.checksums.sha512=d5b79b880fd6c3ee284c0175841b8bc2a263219b2d07776f032e01091226c805548cba4703e0f8c86c13db38d672670527950b2f265af5bc5401d9cc28572585
+
+outputs.102.4.filename=syncope-archetype-3.0.4-cyclonedx.json
+outputs.102.4.length=3397
+outputs.102.4.checksums.sha512=4e1e3fb7c9795b35e5074552efb7db18621abab25b1d0da27239b85f8365e4b444fd1a23fdfb3d72abcc49b9fe53cdcb941909b18f673935f46a47c161c6c817
