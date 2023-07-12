@@ -1,29 +1,30 @@
-[com.adobe.acs:acs-aem-commons](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/5.5.0/versions) RB check
+[com.adobe.acs:acs-aem-commons](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.0.14/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.adobe.acs:acs-aem-commons](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/5.5.0/versions)
+## Project: [com.adobe.acs:acs-aem-commons](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.0.14/versions)
 
 Source code: [https://github.com/Adobe-Consulting-Services/acs-aem-commons.git](https://github.com/Adobe-Consulting-Services/acs-aem-commons.git)
 
-<details><summary>This project defines 6 modules:</summary>
+<details><summary>This project defines 7 modules:</summary>
 
-* [com.adobe.acs:acs-aem-commons](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/5.5.0)
-* [com.adobe.acs:acs-aem-commons-bundle](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-bundle/5.5.0)
-* [com.adobe.acs:acs-aem-commons-content](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-content/5.5.0)
-* [com.adobe.acs:acs-aem-commons-oakpal-checks](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-oakpal-checks/5.5.0)
-* [com.adobe.acs:acs-aem-commons-ui.apps](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-ui.apps/5.5.0)
-* [com.adobe.acs:acs-aem-commons-ui.content](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-ui.content/5.5.0)
+* [com.adobe.acs:acs-aem-commons](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.0.14)
+* [com.adobe.acs:acs-aem-commons-all](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-all/6.0.14)
+* [com.adobe.acs:acs-aem-commons-bundle](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-bundle/6.0.14)
+* [com.adobe.acs:acs-aem-commons-content](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-content/6.0.14)
+* [com.adobe.acs:acs-aem-commons-oakpal-checks](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-oakpal-checks/6.0.14)
+* [com.adobe.acs:acs-aem-commons-ui.apps](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-ui.apps/6.0.14)
+* [com.adobe.acs:acs-aem-commons-ui.content](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons-ui.content/6.0.14)
 </details>
 
-rebuilding **2 releases** of com.adobe.acs:acs-aem-commons:
+rebuilding **3 releases** of com.adobe.acs:acs-aem-commons:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [6.0.14](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.0.14/pom) | | | |
+| [6.0.14](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.0.14/pom) | [mvn jdk18](acs-aem-commons-6.0.14.buildspec) | [result](acs-aem-commons-6.0.14.buildinfo): [12 :heavy_check_mark:  5 :warning:](acs-aem-commons-6.0.14.buildcompare) [:mag:](acs-aem-commons-6.0.14.diffoscope) | 59M |
 | [6.0.12](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.0.12/pom) | | | |
 | [6.0.10](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.0.10/pom) | | | |
 | [6.0.8](https://central.sonatype.com/artifact/com.adobe.acs/acs-aem-commons/6.0.8/pom) | | | |

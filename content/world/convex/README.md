@@ -26,6 +26,7 @@ rebuilding **7 releases** of world.convex:convex:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.7.12](https://central.sonatype.com/artifact/world.convex/convex/0.7.12/pom) | | | |
 | [0.7.11](https://central.sonatype.com/artifact/world.convex/convex/0.7.11/pom) | [mvn jdk17 w](convex-0.7.11.buildspec) | [result](convex-0.7.11.buildinfo): [22 :heavy_check_mark:  6 :warning:](convex-0.7.11.buildcompare) [:mag:](convex-0.7.11.diffoscope) | 129M |
 | [0.7.10](https://central.sonatype.com/artifact/world.convex/convex/0.7.10/pom) | | | |
 | [0.7.9](https://central.sonatype.com/artifact/world.convex/convex/0.7.9/pom) | | | |
