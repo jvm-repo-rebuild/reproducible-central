@@ -1,0 +1,139 @@
+1 / 5 target/reference/acs-aem-commons-bundle-6.0.14.jar bundle/target/acs-aem-commons-bundle-6.0.14.jar
+--- target/reference/acs-aem-commons-bundle-6.0.14.jar
++++ bundle/target/acs-aem-commons-bundle-6.0.14.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 15045612 bytes, number of entries: 4342
+│ +Zip file size: 15045656 bytes, number of entries: 4342
+│  -rw----     2.0 fat        0 bX defN 23-Jul-11 14:11 META-INF/
+│  -rw----     2.0 fat    76841 bl defN 23-Jul-11 14:11 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat      612 bl defN 23-Jul-11 14:11 META-INF/COPYRIGHT
+│  -rw----     2.0 fat    11358 bl defN 23-Jul-11 14:11 META-INF/LICENSE
+│  -rw----     2.0 fat     1365 bl defN 23-Jul-11 14:11 META-INF/audio.tld
+│  -rw----     2.0 fat     1317 bl defN 23-Jul-11 14:11 META-INF/dam.tld
+│  -rw----     2.0 fat        0 bl defN 23-Jul-11 14:11 META-INF/services/
+│ @@ -4337,8 +4337,8 @@
+│  -rw----     2.0 fat     6191 bl defN 22-Apr-28 12:18 acscommons/io/jsonwebtoken/impl/JwtMap.class
+│  -rw----     2.0 fat      636 bl defN 22-Apr-28 12:18 acscommons/io/jsonwebtoken/impl/FixedClock.class
+│  -rw----     2.0 fat     1102 bl defN 22-Apr-28 12:18 acscommons/io/jsonwebtoken/impl/AndroidBase64Codec.class
+│  -rw----     2.0 fat        0 bl defN 22-Apr-28 12:18 acscommons/io/jsonwebtoken/gson/
+│  -rw----     2.0 fat        0 bl defN 22-Apr-28 12:18 acscommons/io/jsonwebtoken/gson/io/
+│  -rw----     2.0 fat     2708 bl defN 22-Apr-28 12:18 acscommons/io/jsonwebtoken/gson/io/GsonSerializer.class
+│  -rw----     2.0 fat     2565 bl defN 22-Apr-28 12:18 acscommons/io/jsonwebtoken/gson/io/GsonDeserializer.class
+│ -4342 files, 28071837 bytes uncompressed, 14083872 bytes compressed:  49.8%
+│ +4342 files, 28071837 bytes uncompressed, 14083916 bytes compressed:  49.8%
+├── OSGI-INF/l10n/com.adobe.acs.commons.auth.saml.impl.OktaLogoutHandler.properties
+│ @@ -1,8 +1,8 @@
+│ -#Tue Jul 11 10:13:49 EDT 2023
+│ +#Wed Jul 12 06:01:40 UTC 2023
+│  com.adobe.acs.commons.auth.saml.impl.OktaLogoutHandler.description=Specific Authentication Handler to handle logout to Okta SSO Provider which, in some configurations, does not support traditional Single Logout
+│  com.adobe.acs.commons.auth.saml.impl.OktaLogoutHandler.from.uri.description=Description for from.uri
+│  com.adobe.acs.commons.auth.saml.impl.OktaLogoutHandler.from.uri.name=Property from.uri
+│  com.adobe.acs.commons.auth.saml.impl.OktaLogoutHandler.name=ACS AEM Commons - Okta Logout Handler
+│  com.adobe.acs.commons.auth.saml.impl.OktaLogoutHandler.okta.host.name.description=Description for okta.host.name
+│  com.adobe.acs.commons.auth.saml.impl.OktaLogoutHandler.okta.host.name.name=Property okta.host.name
+│  com.adobe.acs.commons.auth.saml.impl.OktaLogoutHandler.path.description=Description for path
+├── OSGI-INF/l10n/com.adobe.acs.commons.dam.audio.impl.AudioHelperImpl.properties
+│ @@ -1,5 +1,5 @@
+│ -#Tue Jul 11 10:13:49 EDT 2023
+│ +#Wed Jul 12 06:01:40 UTC 2023
+│  com.adobe.acs.commons.dam.audio.impl.AudioHelperImpl.description=ACS Commons - Audio Processor
+│  com.adobe.acs.commons.dam.audio.impl.AudioHelperImpl.ffmpeg.workingdir.description=Description for ffmpeg.workingdir
+│  com.adobe.acs.commons.dam.audio.impl.AudioHelperImpl.ffmpeg.workingdir.name=Property ffmpeg.workingdir
+│  com.adobe.acs.commons.dam.audio.impl.AudioHelperImpl.name=ACS Commons - Audio Processor
+...
+
+# oakpal-maven-plugin:2.2.2:opear-package requires outputTimestamp support
+2 / 5 target/reference/acs-aem-commons-oakpal-checks-6.0.14.opear oakpal-checks/target/acs-aem-commons-oakpal-checks-6.0.14.opear
+--- target/reference/acs-aem-commons-oakpal-checks-6.0.14.opear
++++ oakpal-checks/target/acs-aem-commons-oakpal-checks-6.0.14.opear
+├── zipinfo {}
+│ @@ -1,13 +1,13 @@
+│  Zip file size: 528890 bytes, number of entries: 11
+│ --rw-r--r--  2.0 unx      275 b- defN 23-Jul-11 10:15 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 10:15 META-INF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 10:15 lib/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 10:15 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 10:15 META-INF/maven/com.adobe.acs/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 10:15 META-INF/maven/com.adobe.acs/acs-aem-commons-oakpal-checks/
+│ --rw-r--r--  2.0 unx       94 b- defN 23-Jul-11 10:15 plan.json
+│ --rw-r--r--  2.0 unx    88511 b- defN 23-Jul-11 10:15 lib/acs-aem-commons-oakpal-checks-6.0.14.jar
+│ --rw-r--r--  2.0 unx   492531 b- defN 22-Sep-13 13:59 lib/osgi.core-7.0.0.jar
+│ --rw-r--r--  2.0 unx    12860 b- defN 23-Jul-11 10:13 META-INF/maven/com.adobe.acs/acs-aem-commons-oakpal-checks/pom.xml
+│ --rw-r--r--  2.0 unx       78 b- defN 23-Jul-11 10:15 META-INF/maven/com.adobe.acs/acs-aem-commons-oakpal-checks/pom.properties
+│ +-rw-r--r--  2.0 unx      275 b- defN 23-Jul-12 06:01 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-12 06:01 META-INF/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-12 06:01 lib/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-12 06:01 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-12 06:01 META-INF/maven/com.adobe.acs/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-12 06:01 META-INF/maven/com.adobe.acs/acs-aem-commons-oakpal-checks/
+│ +-rw-r--r--  2.0 unx       94 b- defN 23-Jul-12 06:01 plan.json
+│ +-rw-r--r--  2.0 unx    88511 b- defN 23-Jul-12 06:01 lib/acs-aem-commons-oakpal-checks-6.0.14.jar
+│ +-rw-r--r--  2.0 unx   492531 b- defN 22-Sep-13 05:54 lib/osgi.core-7.0.0.jar
+│ +-rw-r--r--  2.0 unx    12860 b- defN 23-Jul-12 06:01 META-INF/maven/com.adobe.acs/acs-aem-commons-oakpal-checks/pom.xml
+│ +-rw-r--r--  2.0 unx       78 b- defN 23-Jul-12 06:01 META-INF/maven/com.adobe.acs/acs-aem-commons-oakpal-checks/pom.properties
+│  11 files, 594349 bytes uncompressed, 527330 bytes compressed:  11.3%
+
+# filevault-package-maven-plugin:1.3.2:package requires file entries sorting probably
+3 / 5 target/reference/acs-aem-commons-ui.apps-6.0.14.zip ui.apps/target/acs-aem-commons-ui.apps-6.0.14.zip
+--- target/reference/acs-aem-commons-ui.apps-6.0.14.zip
++++ ui.apps/target/acs-aem-commons-ui.apps-6.0.14.zip
+├── zipinfo {}
+│ @@ -2,1218 +2,1218 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 META-INF/
+│  -rw-r--r--  2.0 unx      588 b- defN 23-Jul-11 14:11 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 META-INF/vault/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 META-INF/vault/definition/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/datasources/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/datasources/named-image-transforms/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/gui/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/gui/components/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/gui/components/authoring/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/gui/components/authoring/dialogshared/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/gui/components/authoring/publishurl/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/gui/content/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/gui/content/publishurl/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/renderconditons/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/renderconditons/ispublished/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/renderconditons/iscurrentusermemberof/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/asset-selectors/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/asset-selectors/ms-office/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/asset-selectors/ms-office/page/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/asset-selectors/ms-office/resources/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/asset-selectors/ms-office/template/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/asset-selectors/ms-office/template/page/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/asset-selectors/ms-office/readme/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/asset-selectors/ms-office/asset-selector/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/asset-selectors/ms-office/asset-selector/_cq_dialog/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/asset-selectors/ms-office/asset-selector/clientlibs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/asset-selectors/ms-office/asset-selector/clientlibs/resources/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/asset-selectors/ms-office/asset-selector/_cq_dialog/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/asset-selectors/ms-office/template/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/asset-selectors/ms-office/template/page/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/asset-selectors/ms-office/page/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/asset-selectors/ms-office/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-11 14:11 jcr_root/apps/acs-commons/granite/
+...
+│ --rw-r--r--  2.0 unx     1205 b- defN 23-Jul-11 14:11 jcr_root/apps/cq/core/content/nav/tools/cloudservices/marketo/.content.xml
+│ --rw-r--r--  2.0 unx      844 b- defN 23-Jul-11 14:11 jcr_root/apps/cq/core/content/nav/.content.xml
+│ --rw-r--r--  2.0 unx      826 b- defN 23-Jul-11 14:11 jcr_root/apps/dam/gui/content/.content.xml
+│ +-rw-r--r--  2.0 unx      848 b- defN 23-Jul-11 14:11 jcr_root/apps/cq/core/content/.content.xml
+│  -rw-r--r--  2.0 unx      988 b- defN 23-Jul-11 14:11 jcr_root/apps/dam/gui/content/assets/.content.xml
+│  -rw-r--r--  2.0 unx     5946 b- defN 23-Jul-11 14:11 jcr_root/apps/dam/gui/content/assets/metadataeditor/.content.xml
+│ +-rw-r--r--  2.0 unx      826 b- defN 23-Jul-11 14:11 jcr_root/apps/dam/gui/content/.content.xml
+│  -rw-r--r--  2.0 unx    15505 b- defN 23-Jul-11 14:11 jcr_root/apps/settings/dam/indesign/scripts/dynamic-deck.jsx
+│  -rw-r--r--  2.0 unx     9639 b- defN 23-Jul-11 14:11 META-INF/maven/com.adobe.acs/acs-aem-commons-ui.apps/pom.xml
+│  -rw-r--r--  2.0 unx       72 b- defN 23-Jul-11 14:11 META-INF/maven/com.adobe.acs/acs-aem-commons-ui.apps/pom.properties
+│  1217 files, 7253947 bytes uncompressed, 2270844 bytes compressed:  68.7%
+...
+
+# same as previous
+4 / 5 target/reference/acs-aem-commons-ui.content-6.0.14.zip ui.content/target/acs-aem-commons-ui.content-6.0.14.zip
+...
+
+# consequence of previous...
+5 / 5 target/reference/acs-aem-commons-all-6.0.14.zip all/target/acs-aem-commons-all-6.0.14.zip
+...

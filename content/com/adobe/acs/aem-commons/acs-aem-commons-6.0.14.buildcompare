@@ -1,0 +1,12 @@
+version=6.0.14
+ok=12
+ko=5
+okFiles="acs-aem-commons-6.0.14.pom acs-aem-commons-bundle-6.0.14.pom acs-aem-commons-bundle-6.0.14-sources.jar acs-aem-commons-oakpal-checks-6.0.14.pom acs-aem-commons-oakpal-checks-6.0.14.jar acs-aem-commons-oakpal-checks-6.0.14-sources.jar acs-aem-commons-ui.apps-6.0.14.pom acs-aem-commons-ui.apps-6.0.14-sources.jar acs-aem-commons-ui.content-6.0.14.pom acs-aem-commons-ui.content-6.0.14-sources.jar acs-aem-commons-all-6.0.14.pom acs-aem-commons-all-6.0.14-sources.jar"
+koFiles="acs-aem-commons-bundle-6.0.14.jar acs-aem-commons-oakpal-checks-6.0.14.opear acs-aem-commons-ui.apps-6.0.14.zip acs-aem-commons-ui.content-6.0.14.zip acs-aem-commons-all-6.0.14.zip"
+reference_java_version="18 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/acs-aem-commons-bundle-6.0.14.jar bundle/target/acs-aem-commons-bundle-6.0.14.jar
+# diffoscope target/reference/acs-aem-commons-oakpal-checks-6.0.14.opear oakpal-checks/target/acs-aem-commons-oakpal-checks-6.0.14.opear
+# diffoscope target/reference/acs-aem-commons-ui.apps-6.0.14.zip ui.apps/target/acs-aem-commons-ui.apps-6.0.14.zip
+# diffoscope target/reference/acs-aem-commons-ui.content-6.0.14.zip ui.content/target/acs-aem-commons-ui.content-6.0.14.zip
+# diffoscope target/reference/acs-aem-commons-all-6.0.14.zip all/target/acs-aem-commons-all-6.0.14.zip
