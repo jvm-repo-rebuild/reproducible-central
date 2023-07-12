@@ -1,0 +1,17 @@
+groupId=org.apache.servicemix.tooling
+artifactId=depends-maven-plugin
+display=${groupId}:${artifactId}
+version=1.5.0
+
+gitRepo=https://github.com/apache/servicemix-maven-plugins.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=11
+newline=lf
+#umask=022
+
+command="mvn -f ${artifactId} -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=${artifactId}/target/${artifactId}-${version}.buildinfo
+
+issue=

@@ -1,0 +1,30 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache ServiceMix :: Plugins :: Maven2 Depends Plugin
+group-id=org.apache.servicemix.tooling
+artifact-id=depends-maven-plugin
+version=1.5.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/servicemix-maven-plugins.git
+source.scm.tag=depends-maven-plugin-1.5.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=depends-maven-plugin-1.5.0.pom
+outputs.0.length=4650
+outputs.0.checksums.sha512=378982a950e29efc8fa4756c62cefb63cfcd7bd8982616b522e55f24ebe5a60b28282b365fdf9473093f255e7b74a9844059a195c4df0bab0508064b67f5bde4
+
+outputs.1.filename=depends-maven-plugin-1.5.0.jar
+outputs.1.length=16505
+outputs.1.checksums.sha512=0bbca86870e91a630e646d26b8af2fdda89ff2f0a2f08e2be29021e8d7a22021fbf94de2a716f8626bd8fac672100a760f2264d81ed662e7f3c56db8ad6c16e8

@@ -1,0 +1,7 @@
+version=1.5.0
+ok=2
+ko=0
+okFiles="depends-maven-plugin-1.5.0.pom depends-maven-plugin-1.5.0.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
