@@ -133,6 +133,7 @@ rebuilding **9 releases** of org.apache.dubbo:dubbo:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.2.4](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.4/pom) | | | |
 | [3.2.3](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.3/pom) | | | |
 | [3.2.2](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.2/pom) | | | |
 | [3.2.1](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.1/pom) | | | |
