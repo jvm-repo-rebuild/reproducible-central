@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2030 releases** of **434 projects**:
-   - **1527** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 503 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **2033 releases** of **434 projects**:
+   - **1529** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 504 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
 
@@ -63,7 +63,7 @@ Its objectives are to provide:
 | com.ongres.stringprep | <a name='com.ongres.stringprep:parent'></a>[parent](content/com/ongres/stringprep/README.md) | 1 | 1 :warning: |
 | com.scalapenos | <a name='com.scalapenos:stamina_2.11'></a>[stamina_2.11](content/com/scalapenos/stamina/README.md) | 2 | 2 :heavy_check_mark: |
 | com.spotify.fmt | <a name='com.spotify.fmt:fmt-maven-plugin'></a>[fmt-maven-plugin](content/com/spotify/fmt-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
-| com.spotify | <a name='com.spotify:github-client'></a>[github-client](content/com/spotify/github-client/README.md) | 7 | 7 :heavy_check_mark: |
+| com.spotify | <a name='com.spotify:github-client'></a>[github-client](content/com/spotify/github-client/README.md) | 8 | 8 :heavy_check_mark: |
 | com.taobao.arthas | <a name='com.taobao.arthas:arthas-all'></a>[arthas-all](content/com/taobao/arthas/README.md) | 14 | 14 :warning: |
 | com.vladsch.flexmark | <a name='com.vladsch.flexmark:flexmark-java'></a>[flexmark-java](content/com/vladsch/flexmark/flexmark-java/README.md) | 3 | 3 :heavy_check_mark: |
 | de.jflex | <a name='de.jflex:jflex-parent'></a>[jflex-parent](content/de/jflex/README.md) | 1 | 1 :heavy_check_mark: |
@@ -98,7 +98,7 @@ Its objectives are to provide:
 | io.github.hboutemy | <a name='io.github.hboutemy:sigstore-maven-plugin'></a>[sigstore-maven-plugin](content/io/github/hboutemy/sigstore-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | io.github.zlika | <a name='io.github.zlika:reproducible-build-maven-plugin'></a>[reproducible-build-maven-plugin](content/io/github/zlika/reproducible-build-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | io.micronaut.build | <a name='io.micronaut.build:micronaut-maven-plugin'></a>[micronaut-maven-plugin](content/io/micronaut/build/micronaut-maven-plugin/README.md) | 34 | 34 :heavy_check_mark: |
-| io.micronaut.maven | <a name='io.micronaut.maven:micronaut-maven-plugin'></a>[micronaut-maven-plugin](content/io/micronaut/maven/micronaut-maven-plugin/README.md) | 5 | 5 :heavy_check_mark: |
+| io.micronaut.maven | <a name='io.micronaut.maven:micronaut-maven-plugin'></a>[micronaut-maven-plugin](content/io/micronaut/maven/micronaut-maven-plugin/README.md) | 6 | 6 :heavy_check_mark: |
 | io.opentelemetry.instrumentation | <a name='io.opentelemetry.instrumentation:opentelemetry-instrumentation-api'></a>[opentelemetry-instrumentation-api](content/io/opentelemetry/instrumentation/README.md) | 2 | 2 :warning: |
 | io.opentelemetry | <a name='io.opentelemetry:opentelemetry-sdk'></a>[opentelemetry-sdk](content/io/opentelemetry/java/README.md) | 1 | 1 :warning: |
 | io.smallrye | <a name='io.smallrye:jandex-parent'></a>[jandex-parent](content/io/smallrye/jandex/README.md) | 2 | 2 :warning: |
@@ -250,7 +250,7 @@ Its objectives are to provide:
 | | <a name='org.apache.maven.shared:maven-shared-resources'></a>[maven-shared-resources](content/org/apache/maven/shared/maven-shared-resources/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='org.apache.maven.shared:maven-shared-utils'></a>[maven-shared-utils](content/org/apache/maven/shared/maven-shared-utils/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.apache.maven.shared:maven-verifier'></a>[maven-verifier](content/org/apache/maven/shared/maven-verifier/README.md) | 4 | 4 :heavy_check_mark: |
-| org.apache.maven.skins | <a name='org.apache.maven.skins:maven-fluido-skin'></a>[maven-fluido-skin](content/org/apache/maven/skins/fluido/README.md) | 10 | 8 :heavy_check_mark: / 2 :warning: |
+| org.apache.maven.skins | <a name='org.apache.maven.skins:maven-fluido-skin'></a>[maven-fluido-skin](content/org/apache/maven/skins/fluido/README.md) | 11 | 8 :heavy_check_mark: / 3 :warning: |
 | org.apache.maven.wagon | <a name='org.apache.maven.wagon:wagon'></a>[wagon](content/org/apache/maven/wagon/wagon/README.md) | 8 | 8 :heavy_check_mark: |
 | org.apache.ftpserver | <a name='org.apache.ftpserver:ftpserver-parent'></a>[ftpserver-parent](content/org/apache/mina/ftpserver/README.md) | 1 | 1 :warning: |
 | org.apache.nifi | <a name='org.apache.nifi:nifi'></a>[nifi](content/org/apache/nifi/nifi/README.md) | 8 | 8 :warning: |
@@ -456,7 +456,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 16 | 16 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **434** | **2030** | **1527** :heavy_check_mark: **503** :warning: |
+| **Count:** | **434** | **2033** | **1529** :heavy_check_mark: **504** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -468,14 +468,14 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      21 gradle     11
      26 mvn         7
-    895 mvn         8
+    896 mvn         8
       1 mvn         9
-    707 mvn        11
+    708 mvn        11
       1 mvn        13
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    145 mvn        17
+    146 mvn        17
      11 mvn        18
      12 mvn        19
       6 mvn        20
