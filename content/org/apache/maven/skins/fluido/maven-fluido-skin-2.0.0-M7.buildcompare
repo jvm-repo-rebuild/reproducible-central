@@ -1,0 +1,8 @@
+version=2.0.0-M7
+ok=3
+ko=1
+okFiles="maven-fluido-skin-2.0.0-M7.pom maven-fluido-skin-2.0.0-M7-source-release.zip maven-fluido-skin-2.0.0-M7-sources.jar"
+koFiles="maven-fluido-skin-2.0.0-M7.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/maven-fluido-skin-2.0.0-M7.jar target/maven-fluido-skin-2.0.0-M7.jar
