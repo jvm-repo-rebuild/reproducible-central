@@ -1,0 +1,58 @@
+1 / 1 target/reference/cxf-xjc-runtime-4.0.0.jar runtime/target/cxf-xjc-runtime-4.0.0.jar
+--- target/reference/cxf-xjc-runtime-4.0.0.jar
++++ runtime/target/cxf-xjc-runtime-4.0.0.jar
+├── zipinfo {}
+│ @@ -1,21 +1,21 @@
+│  Zip file size: 11842 bytes, number of entries: 19
+│ --rw----     2.0 fat        0 bX defN 22-May-27 09:37 META-INF/
+│ --rw----     2.0 fat      751 bl defN 22-May-27 09:37 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat     2208 bl defN 22-May-27 09:37 META-INF/DEPENDENCIES
+│ --rw----     2.0 fat    11358 bl defN 22-May-27 09:37 META-INF/LICENSE
+│ --rw----     2.0 fat      179 bl defN 22-May-27 09:37 META-INF/NOTICE
+│ --rw----     2.0 fat        0 bl defN 22-May-27 09:37 META-INF/maven/
+│ --rw----     2.0 fat        0 bl defN 22-May-27 09:37 META-INF/maven/org.apache.cxf.xjc-utils/
+│ --rw----     2.0 fat        0 bl defN 22-May-27 09:37 META-INF/maven/org.apache.cxf.xjc-utils/cxf-xjc-runtime/
+│ --rw----     2.0 fat       74 bl defN 22-May-27 09:37 META-INF/maven/org.apache.cxf.xjc-utils/cxf-xjc-runtime/pom.properties
+│ --rw----     2.0 fat     2691 bl defN 22-May-27 09:36 META-INF/maven/org.apache.cxf.xjc-utils/cxf-xjc-runtime/pom.xml
+│ --rw----     2.0 fat        0 bl defN 22-May-27 09:37 org/
+│ --rw----     2.0 fat        0 bl defN 22-May-27 09:37 org/apache/
+│ --rw----     2.0 fat        0 bl defN 22-May-27 09:37 org/apache/cxf/
+│ --rw----     2.0 fat        0 bl defN 22-May-27 09:37 org/apache/cxf/xjc/
+│ --rw----     2.0 fat        0 bl defN 22-May-27 09:37 org/apache/cxf/xjc/runtime/
+│ --rw----     2.0 fat     1514 bl defN 22-May-27 09:37 org/apache/cxf/xjc/runtime/DataTypeAdapter.class
+│ --rw----     2.0 fat     1039 bl defN 22-May-27 09:37 org/apache/cxf/xjc/runtime/JAXBToStringBuilder.class
+│ --rw----     2.0 fat      655 bl defN 22-May-27 09:37 org/apache/cxf/xjc/runtime/JAXBToStringStyle.class
+│ --rw----     2.0 fat     2141 bl defN 22-May-27 09:37 org/apache/cxf/xjc/runtime/JAXBToStringStyleImpl.class
+│ +-rw----     2.0 fat        0 bX defN 23-Jul-15 21:20 META-INF/
+│ +-rw----     2.0 fat      751 bl defN 23-Jul-15 21:20 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     2208 bl defN 23-Jul-15 21:20 META-INF/DEPENDENCIES
+│ +-rw----     2.0 fat    11358 bl defN 23-Jul-15 21:20 META-INF/LICENSE
+│ +-rw----     2.0 fat      179 bl defN 23-Jul-15 21:20 META-INF/NOTICE
+│ +-rw----     2.0 fat        0 bl defN 23-Jul-15 21:20 META-INF/maven/
+│ +-rw----     2.0 fat        0 bl defN 23-Jul-15 21:20 META-INF/maven/org.apache.cxf.xjc-utils/
+│ +-rw----     2.0 fat        0 bl defN 23-Jul-15 21:20 META-INF/maven/org.apache.cxf.xjc-utils/cxf-xjc-runtime/
+│ +-rw----     2.0 fat       74 bl defN 23-Jul-15 21:20 META-INF/maven/org.apache.cxf.xjc-utils/cxf-xjc-runtime/pom.properties
+│ +-rw----     2.0 fat     2691 bl defN 23-Jul-15 21:15 META-INF/maven/org.apache.cxf.xjc-utils/cxf-xjc-runtime/pom.xml
+│ +-rw----     2.0 fat        0 bl defN 23-Jul-15 21:20 org/
+│ +-rw----     2.0 fat        0 bl defN 23-Jul-15 21:20 org/apache/
+│ +-rw----     2.0 fat        0 bl defN 23-Jul-15 21:20 org/apache/cxf/
+│ +-rw----     2.0 fat        0 bl defN 23-Jul-15 21:20 org/apache/cxf/xjc/
+│ +-rw----     2.0 fat        0 bl defN 23-Jul-15 21:20 org/apache/cxf/xjc/runtime/
+│ +-rw----     2.0 fat     1514 bl defN 23-Jul-15 21:20 org/apache/cxf/xjc/runtime/DataTypeAdapter.class
+│ +-rw----     2.0 fat     1039 bl defN 23-Jul-15 21:20 org/apache/cxf/xjc/runtime/JAXBToStringBuilder.class
+│ +-rw----     2.0 fat      655 bl defN 23-Jul-15 21:20 org/apache/cxf/xjc/runtime/JAXBToStringStyle.class
+│ +-rw----     2.0 fat     2141 bl defN 23-Jul-15 21:20 org/apache/cxf/xjc/runtime/JAXBToStringStyleImpl.class
+│  19 files, 22610 bytes uncompressed, 8854 bytes compressed:  60.8%
+├── META-INF/MANIFEST.MF
+│ @@ -1,9 +1,9 @@
+│  Manifest-Version: 1.0
+│ -Bnd-LastModified: 1653644267950
+│ +Bnd-LastModified: 1689456042442
+│  Build-Jdk-Spec: 11
+│  Bundle-DocURL: https://www.apache.org/
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Apache CXF XJC Runtime
+│  Bundle-SymbolicName: org.apache.cxf.xjc-utils.cxf-xjc-runtime
+│  Bundle-Vendor: The Apache Software Foundation
+
