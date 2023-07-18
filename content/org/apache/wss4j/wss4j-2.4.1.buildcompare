@@ -1,0 +1,7 @@
+version=2.4.1
+ok=32
+ko=0
+okFiles="wss4j-2.4.1.pom wss4j-2.4.1-site.xml wss4j-2.4.1-source-release.zip wss4j-parent-2.4.1.pom wss4j-bindings-2.4.1.pom wss4j-bindings-2.4.1.jar wss4j-bindings-2.4.1-sources.jar wss4j-policy-2.4.1.pom wss4j-policy-2.4.1.jar wss4j-policy-2.4.1-sources.jar wss4j-ws-security-common-2.4.1.pom wss4j-ws-security-common-2.4.1.jar wss4j-ws-security-common-2.4.1-sources.jar wss4j-ws-security-common-2.4.1-tests.jar wss4j-ws-security-dom-2.4.1.pom wss4j-ws-security-dom-2.4.1.jar wss4j-ws-security-dom-2.4.1-sources.jar wss4j-ws-security-dom-2.4.1-tests.jar wss4j-ws-security-stax-2.4.1.pom wss4j-ws-security-stax-2.4.1.jar wss4j-ws-security-stax-2.4.1-sources.jar wss4j-ws-security-stax-2.4.1-tests.jar wss4j-ws-security-web-2.4.1.pom wss4j-ws-security-web-2.4.1.jar wss4j-ws-security-web-2.4.1-sources.jar wss4j-integration-2.4.1.pom wss4j-integration-2.4.1.jar wss4j-integration-2.4.1-sources.jar wss4j-integration-2.4.1-tests.jar wss4j-ws-security-policy-stax-2.4.1.pom wss4j-ws-security-policy-stax-2.4.1.jar wss4j-ws-security-policy-stax-2.4.1-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
