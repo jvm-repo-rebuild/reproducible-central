@@ -1,0 +1,7 @@
+version=3.0.1
+ok=32
+ko=0
+okFiles="wss4j-3.0.1.pom wss4j-3.0.1-site.xml wss4j-3.0.1-source-release.zip wss4j-parent-3.0.1.pom wss4j-bindings-3.0.1.pom wss4j-bindings-3.0.1.jar wss4j-bindings-3.0.1-sources.jar wss4j-policy-3.0.1.pom wss4j-policy-3.0.1.jar wss4j-policy-3.0.1-sources.jar wss4j-ws-security-common-3.0.1.pom wss4j-ws-security-common-3.0.1.jar wss4j-ws-security-common-3.0.1-sources.jar wss4j-ws-security-common-3.0.1-tests.jar wss4j-ws-security-dom-3.0.1.pom wss4j-ws-security-dom-3.0.1.jar wss4j-ws-security-dom-3.0.1-sources.jar wss4j-ws-security-dom-3.0.1-tests.jar wss4j-ws-security-stax-3.0.1.pom wss4j-ws-security-stax-3.0.1.jar wss4j-ws-security-stax-3.0.1-sources.jar wss4j-ws-security-stax-3.0.1-tests.jar wss4j-ws-security-web-3.0.1.pom wss4j-ws-security-web-3.0.1.jar wss4j-ws-security-web-3.0.1-sources.jar wss4j-integration-3.0.1.pom wss4j-integration-3.0.1.jar wss4j-integration-3.0.1-sources.jar wss4j-integration-3.0.1-tests.jar wss4j-ws-security-policy-stax-3.0.1.pom wss4j-ws-security-policy-stax-3.0.1.jar wss4j-ws-security-policy-stax-3.0.1-sources.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
