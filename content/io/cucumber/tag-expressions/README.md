@@ -13,6 +13,7 @@ rebuilding **2 releases** of io.cucumber:tag-expressions:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [5.0.2](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/5.0.2/pom) | | | |
 | [5.0.1](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/5.0.1/pom) | [mvn jdk11](tag-expressions-5.0.1.buildspec) | [result](tag-expressions-5.0.1.buildinfo): [3 :heavy_check_mark: ](tag-expressions-5.0.1.buildcompare) | 20K |
 | [5.0.0](https://central.sonatype.com/artifact/io.cucumber/tag-expressions/5.0.0/pom) | [mvn jdk11](tag-expressions-5.0.0.buildspec) | [result](tag-expressions-5.0.0.buildinfo): [3 :heavy_check_mark: ](tag-expressions-5.0.0.buildcompare) | 20K |
 
