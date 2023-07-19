@@ -31,6 +31,7 @@ rebuilding **10 releases** of org.apache.jackrabbit.vault:jackrabbit-filevault:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.7.0](https://central.sonatype.com/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/3.7.0/pom) | | | |
 | [3.6.8](https://central.sonatype.com/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/3.6.8/pom) | [mvn jdk11 w](jackrabbit-filevault-3.6.8.buildspec) | [result](jackrabbit-filevault-3.6.8.buildinfo): [40 :heavy_check_mark: ](jackrabbit-filevault-3.6.8.buildcompare) | 26M |
 | [3.6.6](https://central.sonatype.com/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/3.6.6/pom) | [mvn jdk11](jackrabbit-filevault-3.6.6.buildspec) | [result](jackrabbit-filevault-3.6.6.buildinfo): [40 :heavy_check_mark: ](jackrabbit-filevault-3.6.6.buildcompare) | 26M |
 | [3.6.4](https://central.sonatype.com/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/3.6.4/pom) | [mvn jdk11](jackrabbit-filevault-3.6.4.buildspec) | [result](jackrabbit-filevault-3.6.4.buildinfo): [40 :heavy_check_mark: ](jackrabbit-filevault-3.6.4.buildcompare) | 26M |

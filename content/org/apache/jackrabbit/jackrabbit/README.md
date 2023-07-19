@@ -39,6 +39,7 @@ rebuilding **1 releases** of org.apache.jackrabbit:jackrabbit-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.21.17](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.21.17/pom) | | | |
 | [2.21.16](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.21.16/pom) | | | |
 | [2.21.15](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.21.15/pom) | [mvn jdk8](jackrabbit-2.21.15.buildspec) | [result](jackrabbit-2.21.15.buildinfo): [64 :heavy_check_mark:  8 :warning:](jackrabbit-2.21.15.buildcompare) [:mag:](jackrabbit-2.21.15.diffoscope) | 107M |
 
