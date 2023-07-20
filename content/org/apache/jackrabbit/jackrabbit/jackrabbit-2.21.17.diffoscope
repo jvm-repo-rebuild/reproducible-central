@@ -1,0 +1,151 @@
+1 / 8 target/reference/jackrabbit-jcr-commons-2.21.17.jar jackrabbit-jcr-commons/target/jackrabbit-jcr-commons-2.21.17.jar
+--- target/reference/jackrabbit-jcr-commons-2.21.17.jar
++++ jackrabbit-jcr-commons/target/jackrabbit-jcr-commons-2.21.17.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 405679 bytes, number of entries: 311
+│ +Zip file size: 405665 bytes, number of entries: 311
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     5069 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat      556 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat      260 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.jackrabbit/
+│ @@ -306,8 +306,8 @@
+│  -rw----     2.0 fat     1110 bl defN 80-Feb-01 00:00 org/apache/jackrabbit/value/StringValue.class
+│  -rw----     2.0 fat     2531 bl defN 80-Feb-01 00:00 org/apache/jackrabbit/value/URIValue.class
+│  -rw----     2.0 fat      883 bl defN 80-Feb-01 00:00 org/apache/jackrabbit/value/ValueFactoryImpl.class
+│  -rw----     2.0 fat      905 bl defN 80-Feb-01 00:00 org/apache/jackrabbit/value/ValueHelper$1.class
+│  -rw----     2.0 fat    14113 bl defN 80-Feb-01 00:00 org/apache/jackrabbit/value/ValueHelper.class
+│  -rw----     2.0 fat     3041 bl defN 80-Feb-01 00:00 org/apache/jackrabbit/value/WeakReferenceValue.class
+│  -rw----     2.0 fat      239 bl defN 80-Feb-01 00:00 org/apache/jackrabbit/value/package-info.class
+│ -311 files, 769782 bytes uncompressed, 341651 bytes compressed:  55.6%
+│ +311 files, 769782 bytes uncompressed, 341637 bytes compressed:  55.6%
+├── META-INF/MANIFEST.MF
+│ @@ -6,53 +6,53 @@
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+
+│  Bundle-ManifestVersion: 2
+
+│  Bundle-Name: Jackrabbit JCR Commons
+
+│  Bundle-SymbolicName: org.apache.jackrabbit.jackrabbit-jcr-commons
+
+│  Bundle-Vendor: The Apache Software Foundation
+
+│  Bundle-Version: 2.21.17
+
+│  Created-By: Apache Maven Bundle Plugin 5.1.8
+
+│ -Export-Package: org.apache.jackrabbit;version="2.2",org.apache.jackrab
+
+│ - bit.stats;version="2.7.5";uses:="javax.management.openmbean,org.apach
+
+...
+
+│ - avax.jcr.observation,javax.jcr.query,javax.jcr.security,javax.jcr.ver
+
+│ - sion,org.apache.jackrabbit.commons.predicate"
+
+│ +Export-Package: org.apache.jackrabbit.commons;version="2.4.0";uses:="j
+
+│ + avax.jcr,javax.jcr.nodetype,javax.jcr.observation,javax.jcr.query,jav
+
+...
+│ + .jackrabbit.api.jmx,org.apache.jackrabbit.api.stats",org.apache.jackr
+
+│ + abbit.value;version="2.2.1";uses:="javax.jcr"
+
+│  Import-Package: org.apache.jackrabbit.api.security.user;version="[2.2,
+
+│   3)";resolution:=optional,javax.jcr;version="[2.0,3)",javax.jcr.lock;v
+
+│   ersion="[2.0,3)",javax.jcr.nodetype;version="[2.0,3)",javax.jcr.obser
+
+│   vation;version="[2.0,3)",javax.jcr.query;version="[2.0,3)",javax.jcr.
+
+│   query.qom;version="[2.0,3)",javax.jcr.security;version="[2.0,3)",java
+
+│   x.jcr.util;version="[2.0,3)",javax.jcr.version;version="[2.0,3)",java
+
+│   x.management.openmbean,javax.naming,javax.xml.namespace,javax.xml.par
+
+...
+
+7 / 8 target/reference/jackrabbit-webapp-2.21.17.jar jackrabbit-webapp/target/jackrabbit-webapp-2.21.17.jar
+--- target/reference/jackrabbit-webapp-2.21.17.jar
++++ jackrabbit-webapp/target/jackrabbit-webapp-2.21.17.jar
+├── zipinfo {}
+│ @@ -1,31 +1,31 @@
+│ -Zip file size: 38783 bytes, number of entries: 29
+│ -drwxr-xr-x  2.0 unx        0 bx stor 23-Jul-13 20:10 META-INF/
+│ --rw-r--r--  2.0 unx      129 b- defN 23-Jul-13 20:10 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-13 20:09 org/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-13 20:09 org/apache/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-13 20:09 org/apache/jackrabbit/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-13 20:09 org/apache/jackrabbit/j2ee/
+│ --rw-r--r--  2.0 unx    23057 b- defN 23-Jul-13 20:09 META-INF/DEPENDENCIES
+│ --rw-r--r--  2.0 unx    11358 b- defN 23-Jul-13 20:09 META-INF/LICENSE
+│ --rw-r--r--  2.0 unx      183 b- defN 23-Jul-13 20:09 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx     1149 b- defN 23-Jul-13 20:09 logback.xml
+│ --rw-r--r--  2.0 unx     4140 b- defN 23-Jul-13 20:09 org/apache/jackrabbit/j2ee/AbstractConfig.class
+│ --rw-r--r--  2.0 unx     2454 b- defN 23-Jul-13 20:09 org/apache/jackrabbit/j2ee/BootstrapConfig.class
+│ --rw-r--r--  2.0 unx     2211 b- defN 23-Jul-13 20:09 org/apache/jackrabbit/j2ee/DerbyShutdown.class
+│ --rw-r--r--  2.0 unx     4953 b- defN 23-Jul-13 20:09 org/apache/jackrabbit/j2ee/Installer.class
+│ --rw-r--r--  2.0 unx      679 b- defN 23-Jul-13 20:09 org/apache/jackrabbit/j2ee/JCRWebdavServerServlet.class
+│ --rw-r--r--  2.0 unx     2986 b- defN 23-Jul-13 20:09 org/apache/jackrabbit/j2ee/JNDIConfig.class
+│ --rw-r--r--  2.0 unx      643 b- defN 23-Jul-13 20:09 org/apache/jackrabbit/j2ee/JcrApiNotFoundException.class
+│ --rw-r--r--  2.0 unx      674 b- defN 23-Jul-13 20:09 org/apache/jackrabbit/j2ee/JcrRemotingServlet.class
+│ --rw-r--r--  2.0 unx     3857 b- defN 23-Jul-13 20:09 org/apache/jackrabbit/j2ee/RMIConfig.class
+│ --rw-r--r--  2.0 unx      700 b- defN 23-Jul-13 20:09 org/apache/jackrabbit/j2ee/RepositoryAccessServlet$ClientFactoryDelegater.class
+│ --rw-r--r--  2.0 unx     1296 b- defN 23-Jul-13 20:09 org/apache/jackrabbit/j2ee/RepositoryAccessServlet$RMIClientFactoryDelegater.class
+│ --rw-r--r--  2.0 unx     8146 b- defN 23-Jul-13 20:09 org/apache/jackrabbit/j2ee/RepositoryAccessServlet.class
+│ --rw-r--r--  2.0 unx     1248 b- defN 23-Jul-13 20:09 org/apache/jackrabbit/j2ee/RepositoryStartupServlet$1.class
+│ --rw-r--r--  2.0 unx     1118 b- defN 23-Jul-13 20:09 org/apache/jackrabbit/j2ee/RepositoryStartupServlet$2.class
+│ --rw-r--r--  2.0 unx     1225 b- defN 23-Jul-13 20:09 org/apache/jackrabbit/j2ee/RepositoryStartupServlet$RMIRemoteFactoryDelegater.class
+│ --rw-r--r--  2.0 unx      640 b- defN 23-Jul-13 20:09 org/apache/jackrabbit/j2ee/RepositoryStartupServlet$RemoteFactoryDelegater.class
+│ --rw-r--r--  2.0 unx    15413 b- defN 23-Jul-13 20:09 org/apache/jackrabbit/j2ee/RepositoryStartupServlet.class
+│ --rw-r--r--  2.0 unx      787 b- defN 23-Jul-13 20:09 org/apache/jackrabbit/j2ee/ServletExceptionWithCause.class
+│ --rw-r--r--  2.0 unx      894 b- defN 23-Jul-13 20:09 org/apache/jackrabbit/j2ee/SimpleWebdavServlet.class
+│ -29 files, 89940 bytes uncompressed, 34047 bytes compressed:  62.1%
+│ +Zip file size: 38777 bytes, number of entries: 29
+│ +drwxr-xr-x  2.0 unx        0 bx stor 23-Jul-20 06:01 META-INF/
+│ +-rw-r--r--  2.0 unx      125 b- defN 23-Jul-20 06:01 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-20 06:01 org/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-20 06:01 org/apache/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-20 06:01 org/apache/jackrabbit/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-20 06:01 org/apache/jackrabbit/j2ee/
+│ +-rw-r--r--  2.0 unx    23057 b- defN 23-Jul-20 06:01 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    11358 b- defN 23-Jul-20 06:01 META-INF/LICENSE
+│ +-rw-r--r--  2.0 unx      183 b- defN 23-Jul-20 06:01 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx     1149 b- defN 23-Jul-20 06:01 logback.xml
+│ +-rw-r--r--  2.0 unx     4140 b- defN 23-Jul-20 06:01 org/apache/jackrabbit/j2ee/AbstractConfig.class
+│ +-rw-r--r--  2.0 unx     2454 b- defN 23-Jul-20 06:01 org/apache/jackrabbit/j2ee/BootstrapConfig.class
+│ +-rw-r--r--  2.0 unx     2211 b- defN 23-Jul-20 06:01 org/apache/jackrabbit/j2ee/DerbyShutdown.class
+│ +-rw-r--r--  2.0 unx     4953 b- defN 23-Jul-20 06:01 org/apache/jackrabbit/j2ee/Installer.class
+│ +-rw-r--r--  2.0 unx      679 b- defN 23-Jul-20 06:01 org/apache/jackrabbit/j2ee/JCRWebdavServerServlet.class
+│ +-rw-r--r--  2.0 unx     2986 b- defN 23-Jul-20 06:01 org/apache/jackrabbit/j2ee/JNDIConfig.class
+│ +-rw-r--r--  2.0 unx      643 b- defN 23-Jul-20 06:01 org/apache/jackrabbit/j2ee/JcrApiNotFoundException.class
+│ +-rw-r--r--  2.0 unx      674 b- defN 23-Jul-20 06:01 org/apache/jackrabbit/j2ee/JcrRemotingServlet.class
+│ +-rw-r--r--  2.0 unx     3857 b- defN 23-Jul-20 06:01 org/apache/jackrabbit/j2ee/RMIConfig.class
+│ +-rw-r--r--  2.0 unx      700 b- defN 23-Jul-20 06:01 org/apache/jackrabbit/j2ee/RepositoryAccessServlet$ClientFactoryDelegater.class
+│ +-rw-r--r--  2.0 unx     1296 b- defN 23-Jul-20 06:01 org/apache/jackrabbit/j2ee/RepositoryAccessServlet$RMIClientFactoryDelegater.class
+│ +-rw-r--r--  2.0 unx     8146 b- defN 23-Jul-20 06:01 org/apache/jackrabbit/j2ee/RepositoryAccessServlet.class
+│ +-rw-r--r--  2.0 unx     1248 b- defN 23-Jul-20 06:01 org/apache/jackrabbit/j2ee/RepositoryStartupServlet$1.class
+│ +-rw-r--r--  2.0 unx     1118 b- defN 23-Jul-20 06:01 org/apache/jackrabbit/j2ee/RepositoryStartupServlet$2.class
+│ +-rw-r--r--  2.0 unx     1225 b- defN 23-Jul-20 06:01 org/apache/jackrabbit/j2ee/RepositoryStartupServlet$RMIRemoteFactoryDelegater.class
+│ +-rw-r--r--  2.0 unx      640 b- defN 23-Jul-20 06:01 org/apache/jackrabbit/j2ee/RepositoryStartupServlet$RemoteFactoryDelegater.class
+│ +-rw-r--r--  2.0 unx    15413 b- defN 23-Jul-20 06:01 org/apache/jackrabbit/j2ee/RepositoryStartupServlet.class
+│ +-rw-r--r--  2.0 unx      787 b- defN 23-Jul-20 06:01 org/apache/jackrabbit/j2ee/ServletExceptionWithCause.class
+│ +-rw-r--r--  2.0 unx      894 b- defN 23-Jul-20 06:01 org/apache/jackrabbit/j2ee/SimpleWebdavServlet.class
+│ +29 files, 89936 bytes uncompressed, 34041 bytes compressed:  62.1%
+├── META-INF/MANIFEST.MF
+│ @@ -1,4 +1,4 @@
+│  Manifest-Version: 1.0
+
+│  Ant-Version: Apache Ant 1.10.12
+
+│ -Created-By: 1.8.0_362-8u372-ga~us1-0ubuntu1~22.04-b09 (Private Build)
+
+│ +Created-By: 1.8.0_362-8u362-ga-0ubuntu1~22.04-b09 (Private Build)
