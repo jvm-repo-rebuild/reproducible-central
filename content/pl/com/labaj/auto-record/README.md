@@ -13,6 +13,7 @@ rebuilding **2 releases** of pl.com.labaj:auto-record:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.1.0](https://central.sonatype.com/artifact/pl.com.labaj/auto-record/2.1.0/pom) | | | |
 | [2.0.0](https://central.sonatype.com/artifact/pl.com.labaj/auto-record/2.0.0/pom) | [mvn jdk17](auto-record-2.0.0.buildspec) | [result](auto-record-2.0.0.buildinfo): [3 :heavy_check_mark: ](auto-record-2.0.0.buildcompare) | 162K |
 | [1.1.0](https://central.sonatype.com/artifact/pl.com.labaj/auto-record/1.1.0/pom) | [mvn jdk17](auto-record-1.1.0.buildspec) | [result](auto-record-1.1.0.buildinfo): [3 :heavy_check_mark: ](auto-record-1.1.0.buildcompare) | 162K |
 
