@@ -3,8 +3,8 @@
   <groupId>org.junit</groupId>
   <artifactId>junit-bom</artifactId>
   <versioning>
-    <latest>5.10.0-RC2</latest>
-    <release>5.10.0-RC2</release>
+    <latest>5.10.0</latest>
+    <release>5.10.0</release>
     <versions>
       <version>5.2.0-M1</version>
       <version>5.2.0-RC1</version>
@@ -51,7 +51,8 @@
       <version>5.10.0-M1</version>
       <version>5.10.0-RC1</version>
       <version>5.10.0-RC2</version>
+      <version>5.10.0</version>
     </versions>
-    <lastUpdated>20230719135117</lastUpdated>
+    <lastUpdated>20230723125611</lastUpdated>
   </versioning>
 </metadata>
