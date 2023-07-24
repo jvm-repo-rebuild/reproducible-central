@@ -21,6 +21,10 @@ rebuildToolGradle() {
   case ${jdk} in
     11)
       jdkImage="openjdk:11.0.14.1"
+      ;;
+    17)
+      jdkImage="openjdk:17-slim"
+      ;;
   esac
 
   info "Rebuilding using Docker image ${jdkImage}"
