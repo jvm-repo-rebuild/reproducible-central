@@ -1,0 +1,7 @@
+version=1.2.16
+ok=4
+ko=0
+okFiles="org.apache.sling.commons.johnzon-1.2.16.pom org.apache.sling.commons.johnzon-1.2.16.jar org.apache.sling.commons.johnzon-1.2.16-source-release.zip org.apache.sling.commons.johnzon-1.2.16-sources.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
