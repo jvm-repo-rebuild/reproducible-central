@@ -13,6 +13,7 @@ rebuilding **15 releases** of org.codehaus.plexus:plexus-archiver:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.8.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-archiver/4.8.0/pom) | | | |
 | [4.7.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-archiver/4.7.1/pom) | [mvn jdk11](plexus-archiver-4.7.1.buildspec) | [result](plexus-archiver-4.7.1.buildinfo): [4 :heavy_check_mark: ](plexus-archiver-4.7.1.buildcompare) | 1.5M |
 | [4.7.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-archiver/4.7.0/pom) | [mvn jdk11](plexus-archiver-4.7.0.buildspec) | [result](plexus-archiver-4.7.0.buildinfo): [4 :heavy_check_mark: ](plexus-archiver-4.7.0.buildcompare) | 1.5M |
 | [4.6.3](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-archiver/4.6.3/pom) | [mvn jdk8](plexus-archiver-4.6.3.buildspec) | [result](plexus-archiver-4.6.3.buildinfo): [4 :heavy_check_mark: ](plexus-archiver-4.6.3.buildcompare) | 1.5M |
