@@ -1,0 +1,22 @@
+groupId=org.alluxio
+artifactId=alluxio-parent
+version=301
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/alluxio/alluxio.git
+gitTag=v${version}
+# WARNING: binaries pulished to Maven Central were not built from the tag...
+gitTag=e816b77
+
+tool=mvn-3.9.3
+jdk=8
+newline=lf
+umask=022
+
+# WARNING: skipping sources as result is not ok: let's be tolerant...
+command="mvn -Prelease,no-webui-linter clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dmaven.source.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
