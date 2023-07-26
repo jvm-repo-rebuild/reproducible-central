@@ -69,6 +69,7 @@ rebuilding **2 releases** of org.apache.activemq:artemis-pom:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.30.0](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.30.0/pom) | | | |
 | [2.29.0](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.29.0/pom) | [mvn jdk11](artemis-2.29.0.buildspec) | [result](artemis-pom-2.29.0.buildinfo): [105 :heavy_check_mark:  3 :warning:](artemis-pom-2.29.0.buildcompare) [:mag:](artemis-pom-2.29.0.diffoscope) | 204M |
 | [2.28.0](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.28.0/pom) | | | |
 | [2.27.1](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.27.1/pom) | [mvn jdk11](artemis-2.27.1.buildspec) | [result](artemis-pom-2.27.1.buildinfo): [92 :heavy_check_mark:  8 :warning:](artemis-pom-2.27.1.buildcompare) [:mag:](artemis-pom-2.27.1.diffoscope) | 205M |
