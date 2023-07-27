@@ -27,6 +27,7 @@ rebuilding **8 releases** of org.apache.maven.indexer:maven-indexer:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [7.0.4](https://central.sonatype.com/artifact/org.apache.maven.indexer/maven-indexer/7.0.4/pom) | | | |
 | [7.0.3](https://central.sonatype.com/artifact/org.apache.maven.indexer/maven-indexer/7.0.3/pom) | [mvn jdk17](maven-indexer-7.0.3.buildspec) | [result](maven-indexer-7.0.3.buildinfo): [22 :heavy_check_mark: ](maven-indexer-7.0.3.buildcompare) | 30M |
 | [7.0.2](https://central.sonatype.com/artifact/org.apache.maven.indexer/maven-indexer/7.0.2/pom) | [mvn jdk17](maven-indexer-7.0.2.buildspec) | [result](maven-indexer-7.0.2.buildinfo): [22 :heavy_check_mark: ](maven-indexer-7.0.2.buildcompare) | 30M |
 | [7.0.1](https://central.sonatype.com/artifact/org.apache.maven.indexer/maven-indexer/7.0.1/pom) | [mvn jdk17](maven-indexer-7.0.1.buildspec) | [result](maven-indexer-7.0.1.buildinfo): [22 :heavy_check_mark: ](maven-indexer-7.0.1.buildcompare) | 30M |
