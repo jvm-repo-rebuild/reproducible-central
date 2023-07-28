@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.codehaus.mojo:properties-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.2.0](https://central.sonatype.com/artifact/org.codehaus.mojo/properties-maven-plugin/1.2.0/pom) | | | |
 | [1.1.0](https://central.sonatype.com/artifact/org.codehaus.mojo/properties-maven-plugin/1.1.0/pom) | [mvn jdk8](properties-maven-plugin-1.1.0.buildspec) | [result](properties-maven-plugin-1.1.0.buildinfo): [4 :heavy_check_mark: ](properties-maven-plugin-1.1.0.buildcompare) | 138K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
