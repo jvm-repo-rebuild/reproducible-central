@@ -1,0 +1,8 @@
+version=1.3.0
+ok=49
+ko=1
+okFiles="helix-1.3.0.pom helix-1.3.0-source-release.zip metrics-common-1.3.0.pom metrics-common-1.3.0.jar metrics-common-1.3.0-pkg.tar metrics-common-1.3.0-sources.jar metadata-store-directory-common-1.3.0.pom metadata-store-directory-common-1.3.0.jar metadata-store-directory-common-1.3.0-pkg.tar metadata-store-directory-common-1.3.0-sources.jar zookeeper-api-1.3.0.pom zookeeper-api-1.3.0.jar zookeeper-api-1.3.0-pkg.tar zookeeper-api-1.3.0-sources.jar helix-common-1.3.0.pom helix-common-1.3.0.jar helix-common-1.3.0-pkg.tar helix-common-1.3.0-sources.jar helix-core-1.3.0.pom helix-core-1.3.0.jar helix-core-1.3.0-tests.jar helix-core-1.3.0-pkg.tar helix-core-1.3.0-sources.jar helix-admin-webapp-1.3.0.pom helix-admin-webapp-1.3.0.jar helix-admin-webapp-1.3.0-pkg.tar helix-admin-webapp-1.3.0-sources.jar helix-rest-1.3.0.pom helix-rest-1.3.0.jar helix-rest-1.3.0-pkg.tar helix-rest-1.3.0-sources.jar helix-lock-1.3.0.pom helix-lock-1.3.0.jar helix-lock-1.3.0-pkg.tar helix-lock-1.3.0-sources.jar helix-agent-1.3.0.pom helix-agent-1.3.0.jar helix-agent-1.3.0-pkg.tar helix-agent-1.3.0-sources.jar helix-front-1.3.0.pom helix-front-1.3.0.jar helix-front-1.3.0-sources.jar helix-view-aggregator-1.3.0.pom helix-view-aggregator-1.3.0.jar helix-view-aggregator-1.3.0-pkg.tar helix-view-aggregator-1.3.0-sources.jar meta-client-1.3.0.pom meta-client-1.3.0.jar meta-client-1.3.0-sources.jar"
+koFiles="helix-front-1.3.0-pkg.tar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/helix-front-1.3.0-pkg.tar helix-front/target/helix-front-1.3.0-pkg.tar
