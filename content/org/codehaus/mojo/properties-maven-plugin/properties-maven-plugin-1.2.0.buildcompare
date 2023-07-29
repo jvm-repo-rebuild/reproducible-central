@@ -1,0 +1,7 @@
+version=1.2.0
+ok=4
+ko=0
+okFiles="properties-maven-plugin-1.2.0.pom properties-maven-plugin-1.2.0.jar properties-maven-plugin-1.2.0-source-release.zip properties-maven-plugin-1.2.0-sources.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
