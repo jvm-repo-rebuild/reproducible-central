@@ -55,6 +55,7 @@ rebuilding **5 releases** of org.apache.shiro:shiro-root:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.0-alpha-3](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/2.0.0-alpha-3/pom) | | | |
 | [2.0.0-alpha-2](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/2.0.0-alpha-2/pom) | | | |
 | [2.0.0-alpha-1](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/2.0.0-alpha-1/pom) | [mvn jdk19](shiro-2.0.0-alpha-1.buildspec) | [result](shiro-root-2.0.0-alpha-1.buildinfo): [79 :heavy_check_mark:  27 :warning:](shiro-root-2.0.0-alpha-1.buildcompare) [:mag:](shiro-root-2.0.0-alpha-1.diffoscope) [:memo:](https://github.com/apache/shiro/pull/1013) | 13M |
 | [1.12.0](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/1.12.0/pom) | | | |

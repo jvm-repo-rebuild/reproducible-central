@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2067 releases** of **438 projects**:
-   - **1559** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **2071 releases** of **438 projects**:
+   - **1563** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 508 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
@@ -63,14 +63,14 @@ Its objectives are to provide:
 | com.ongres.stringprep | <a name='com.ongres.stringprep:parent'></a>[parent](content/com/ongres/stringprep/README.md) | 1 | 1 :warning: |
 | com.scalapenos | <a name='com.scalapenos:stamina_2.11'></a>[stamina_2.11](content/com/scalapenos/stamina/README.md) | 2 | 2 :heavy_check_mark: |
 | com.spotify.fmt | <a name='com.spotify.fmt:fmt-maven-plugin'></a>[fmt-maven-plugin](content/com/spotify/fmt-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
-| com.spotify | <a name='com.spotify:github-client'></a>[github-client](content/com/spotify/github-client/README.md) | 9 | 9 :heavy_check_mark: |
+| com.spotify | <a name='com.spotify:github-client'></a>[github-client](content/com/spotify/github-client/README.md) | 10 | 10 :heavy_check_mark: |
 | com.taobao.arthas | <a name='com.taobao.arthas:arthas-all'></a>[arthas-all](content/com/taobao/arthas/README.md) | 14 | 14 :warning: |
 | com.vladsch.flexmark | <a name='com.vladsch.flexmark:flexmark-java'></a>[flexmark-java](content/com/vladsch/flexmark/flexmark-java/README.md) | 3 | 3 :heavy_check_mark: |
 | de.jflex | <a name='de.jflex:jflex-parent'></a>[jflex-parent](content/de/jflex/README.md) | 1 | 1 :heavy_check_mark: |
 | de.gematik.pki.gemlibpki | <a name='de.gematik.pki.gemlibpki:gemLibPki'></a>[gemLibPki](content/de/gematik/pki/gemlibpki/README.md) | 2 | 2 :warning: |
 | de.unentscheidbar | <a name='de.unentscheidbar:migratedb'></a>[migratedb](content/de/unentscheidbar/migratedb/README.md) | 2 | 2 :heavy_check_mark: |
 | eu.europa.ted.eforms | <a name='eu.europa.ted.eforms:eforms-core-java'></a>[eforms-core-java](content/eu/europa/ted/eforms/eforms-core-java/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
-| | <a name='eu.europa.ted.eforms:eforms-sdk'></a>[eforms-sdk](content/eu/europa/ted/eforms/eforms-sdk/README.md) | 5 | 4 :heavy_check_mark: / 1 :warning: |
+| | <a name='eu.europa.ted.eforms:eforms-sdk'></a>[eforms-sdk](content/eu/europa/ted/eforms/eforms-sdk/README.md) | 6 | 5 :heavy_check_mark: / 1 :warning: |
 | eu.maveniverse.maven.mima | <a name='eu.maveniverse.maven.mima:mima'></a>[mima](content/eu/maveniverse/maven/mima/README.md) | 16 | 16 :heavy_check_mark: |
 | fr.inria.gforge.spoon | <a name='fr.inria.gforge.spoon:spoon-core'></a>[spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 3 | 1 :heavy_check_mark: / 2 :warning: |
 | fr.marcwrobel | <a name='fr.marcwrobel:jbanking'></a>[jbanking](content/fr/marcwrobel/jbanking/README.md) | 1 | 1 :heavy_check_mark: |
@@ -88,7 +88,7 @@ Its objectives are to provide:
 | io.dropwizard | <a name='io.dropwizard:dropwizard-project'></a>[dropwizard-project](content/io/dropwizard/core/README.md) | 56 | 53 :heavy_check_mark: / 3 :warning: |
 | io.dropwizard.metrics | <a name='io.dropwizard.metrics:metrics-parent'></a>[metrics-parent](content/io/dropwizard/metrics/README.md) | 35 | 14 :heavy_check_mark: / 21 :warning: |
 | io.dropwizard.metrics5 | <a name='io.dropwizard.metrics5:metrics-parent'></a>[metrics-parent](content/io/dropwizard/metrics5/README.md) | 10 | 3 :heavy_check_mark: / 7 :warning: |
-| io.fabric8 | <a name='io.fabric8:docker-maven-plugin'></a>[docker-maven-plugin](content/io/fabric8/docker-maven-plugin/README.md) | 16 | 14 :heavy_check_mark: / 2 :warning: |
+| io.fabric8 | <a name='io.fabric8:docker-maven-plugin'></a>[docker-maven-plugin](content/io/fabric8/docker-maven-plugin/README.md) | 17 | 15 :heavy_check_mark: / 2 :warning: |
 | | <a name='io.fabric8:kubernetes-client-project'></a>[kubernetes-client-project](content/io/fabric8/kubernetes-client/README.md) | 10 | 10 :warning: |
 | io.github.git-commit-id | <a name='io.github.git-commit-id:git-commit-id-maven-plugin'></a>[git-commit-id-maven-plugin](content/io/github/git-commit-id/README.md) | 1 | 1 :warning: |
 | io.github.albertus82 | <a name='io.github.albertus82:jface-utils'></a>[jface-utils](content/io/github/albertus82/jface-utils/README.md) | 8 | 8 :heavy_check_mark: |
@@ -378,7 +378,7 @@ Its objectives are to provide:
 | | <a name='org.codehaus.mojo:license-maven-plugin'></a>[license-maven-plugin](content/org/codehaus/mojo/license-maven-plugin/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.codehaus.mojo:mojo-parent'></a>[mojo-parent](content/org/codehaus/mojo/mojo-parent/README.md) | 16 | 16 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:mrm'></a>[mrm](content/org/codehaus/mojo/mrm/README.md) | 3 | 3 :heavy_check_mark: |
-| | <a name='org.codehaus.mojo:properties-maven-plugin'></a>[properties-maven-plugin](content/org/codehaus/mojo/properties-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='org.codehaus.mojo:properties-maven-plugin'></a>[properties-maven-plugin](content/org/codehaus/mojo/properties-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:taglist-maven-plugin'></a>[taglist-maven-plugin](content/org/codehaus/mojo/taglist-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:tidy-maven-plugin'></a>[tidy-maven-plugin](content/org/codehaus/mojo/tidy-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:versions-maven-plugin'></a>[versions-maven-plugin](content/org/codehaus/mojo/versions-maven-plugin/README.md) | 11 | 11 :heavy_check_mark: |
@@ -460,7 +460,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 19 | 19 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **438** | **2067** | **1559** :heavy_check_mark: **508** :warning: |
+| **Count:** | **438** | **2071** | **1563** :heavy_check_mark: **508** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -474,7 +474,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      26 mvn         7
     905 mvn         8
       1 mvn         9
-    715 mvn        11
+    718 mvn        11
       1 mvn        13
       4 mvn        14
      10 mvn        15
@@ -505,5 +505,6 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn-3.9.2  17
       1 mvn-3.9.3   8
       7 mvn-3.9.3  11
+      1 mvn-3.9.3  17
       2 sbt         8
 <!-- END GENERATED STATS -->
