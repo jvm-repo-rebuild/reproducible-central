@@ -34,16 +34,27 @@ do
   countVersion=0
   countVersionOk=0
 
-  # detect first version that has a buildspec
-  firstVersion=
+  # detect oldest and newest versions that have a buildspec
+  oldestVersion=
   for version in $(cat "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
   do
     if [ -n "$(ls $dir | grep "\-${version}\.buildspec")" ]
     then
-      firstVersion="$version"
+      oldestVersion="$version"
       break
     fi
   done
+  newestVersion=
+  for version in $(tac "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
+  do
+    if [ -n "$(ls $dir | grep "\-${version}\.buildspec")" ]
+    then
+      newestVersion="$version"
+      break
+    fi
+  done
+  latestVersion="$(cat "${metadata}" | grep 'latest>' | cut -d '>' -f 2 | cut -d '<' -f 1)"
+  lastUpdated="$(cat "${metadata}" | grep 'lastUpdated>' | cut -d '>' -f 2 | cut -d '<' -f 1)"
 
   for version in $(tac "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
   do
@@ -118,8 +129,8 @@ do
       # no buildspec, just list version to tmp
       echo "| [${version}](https://central.sonatype.com/artifact/${groupId}/${artifactId}/${version}/pom) | | | |" >> "tmp/${projectReadme}"
     fi
-    # don't continue if it's the first version with buildspec
-    [[ "$firstVersion" == "$version" ]] && break
+    # don't continue if it's the oldest version with buildspec
+    [[ "$oldestVersion" == "$version" ]] && break
   done
 
   echo "rebuilding **${countVersion} releases** of ${groupId}:${artifactId}:" >> ${projectReadme}
@@ -132,7 +143,7 @@ do
   echo >> "${projectReadme}"
   echo "<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>" >> "${projectReadme}"
 
-  # add projet entry to main README
+  # add project entry to main README
   echo -n "|" >> ${summary}
   [[ "$groupId" != "$prevGroupId" ]] && prevGroupId="$groupId" && echo -n " ${groupId}" >> ${summary}
   echo -n " | <a name='${groupId}:${artifactId}'></a>" >> ${summary}
@@ -151,6 +162,30 @@ do
     [ "${countVersion}" -gt "${countVersionOk}" ] && echo -n " / $((countVersion - countVersionOk)) :warning:" >> ${summary}
   fi
   echo " |" >> ${summary}
+
+  # if newer release exists, prepare add-new-release instructions
+  if [ "${latestVersion}" != "${newestVersion}" ]
+  then
+    buildspec=$(ls $dir | grep "\-${newestVersion}\.buildspec")
+    buildcompare=$(ls $dir | grep "\-${newestVersion}\.buildcompare")
+
+    issue=""
+    . "${dir}/${buildspec}"
+    . "${dir}/${buildcompare}"
+
+    if [ $ko -eq 0 ]
+    then
+      link=":heavy_check_mark:"
+    else
+      if [ -z "$issue" ]
+      then
+        link=":warning:"
+      else
+        link=":warning: [:mag:]($issue)"
+      fi
+    fi
+    echo "| <!-- $ko ${lastUpdated} --> [${artifactId}](${dir}/README.md) | ${newestVersion} $link | ${latestVersion} | \`bin/add-new-release.sh $dir/${buildspec} ${latestVersion}\` |" >> tmp/add.md
+  fi
 done
 
 echo "| **Count:** | **${countGa}** | **${globalVersion}** | **${globalVersionOk}** :heavy_check_mark: **$((globalVersion - globalVersionOk))** :warning: |" >> ${summary}
@@ -176,6 +211,15 @@ sed -e "/$lead/,/$tail/{ /$lead/{p; r tmp/summary-table.md
         }; /$tail_stats/p; d }" > tmp/README.md
 
 cp tmp/README.md README.md
+
+echo "| artifactId | from | to | command |" > tmp/add2.md
+echo "| ---------- | ---- | -- | ------- |" >> tmp/add2.md
+sort -n -k3,4 tmp/add.md >> tmp/add2.md
+lead='^<!-- BEGIN GENERATED ADD -->$'
+tail='^<!-- END GENERATED ADD -->$'
+sed -e "/$lead/,/$tail/{ /$lead/{p; r tmp/add.md
+        }; /$tail/p; d }" doc/add.md >> tmp/add3.md
+cp tmp/add3.md doc/add.md
 
 \rm -rf tmp
 
