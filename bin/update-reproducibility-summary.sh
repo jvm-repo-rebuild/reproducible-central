@@ -176,7 +176,9 @@ do
     if [ $ko -eq 0 ]
     then
       link=":heavy_check_mark:"
+      out="tmp/add-ok.md"
     else
+      out="tmp/add-ko.md"
       if [ -z "$issue" ]
       then
         link=":warning:"
@@ -184,7 +186,7 @@ do
         link=":warning: [:mag:]($issue)"
       fi
     fi
-    echo "| <!-- $ko ${lastUpdated} --> [${artifactId}](${dir}/README.md) | ${newestVersion} $link | ${latestVersion} | \`bin/add-new-release.sh $dir/${buildspec} ${latestVersion}\` |" >> tmp/add.md
+    echo "| <!-- ${lastUpdated} --> [${artifactId}](${dir}/README.md) | ${newestVersion} $link | ${latestVersion} | \`bin/add-new-release.sh $dir/${buildspec} ${latestVersion}\` |" >> ${out}
   fi
 done
 
@@ -212,14 +214,21 @@ sed -e "/$lead/,/$tail/{ /$lead/{p; r tmp/summary-table.md
 
 cp tmp/README.md README.md
 
-echo "| artifactId | from | to | command |" > tmp/add2.md
-echo "| ---------- | ---- | -- | ------- |" >> tmp/add2.md
-sort -n -k3,4 tmp/add.md >> tmp/add2.md
-lead='^<!-- BEGIN GENERATED ADD -->$'
-tail='^<!-- END GENERATED ADD -->$'
-sed -e "/$lead/,/$tail/{ /$lead/{p; r tmp/add.md
-        }; /$tail/p; d }" doc/add.md >> tmp/add3.md
-cp tmp/add3.md doc/add.md
+echo "| artifactId | from | to | command |" > tmp/add-ok-table.md
+echo "| ---------- | ---- | -- | ------- |" >> tmp/add-ok-table.md
+sort -r tmp/add-ok.md >> tmp/add-ok-table.md
+echo "| artifactId | from | to | command |" > tmp/add-ko-table.md
+echo "| ---------- | ---- | -- | ------- |" >> tmp/add-ko-table.md
+sort -r tmp/add-ko.md >> tmp/add-ko-table.md
+lead='^<!-- BEGIN GENERATED ADD OK -->$'
+tail='^<!-- END GENERATED ADD OK -->$'
+lead_ko='^<!-- BEGIN GENERATED ADD KO -->$'
+tail_ko='^<!-- END GENERATED ADD KO -->$'
+sed -e "/$lead/,/$tail/{ /$lead/{p; r tmp/add-ok-table.md
+        }; /$tail/p; d }" doc/add.md | \
+    sed -e "/$lead_ko/,/$tail_ko/{ /$lead_ko/{p; r tmp/add-ko-table.md
+        }; /$tail_ko/p; d }" >> tmp/add.md
+cp tmp/add.md doc/add.md
 
 \rm -rf tmp
 
