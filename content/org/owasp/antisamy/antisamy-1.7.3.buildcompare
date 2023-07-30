@@ -1,0 +1,8 @@
+version=1.7.3
+ok=2
+ko=1
+okFiles="antisamy-1.7.3.pom antisamy-1.7.3-sources.jar"
+koFiles="antisamy-1.7.3.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/antisamy-1.7.3.jar target/antisamy-1.7.3.jar
