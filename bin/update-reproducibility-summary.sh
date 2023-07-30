@@ -186,7 +186,7 @@ do
         link=":warning: [:mag:]($issue)"
       fi
     fi
-    echo "| <!-- ${lastUpdated} --> [${artifactId}](${dir}/README.md) | ${newestVersion} $link | ${latestVersion} | \`bin/add-new-release.sh $dir/${buildspec} ${latestVersion}\` |" >> ${out}
+    echo "| <!-- ${lastUpdated} --> [${artifactId}](../${dir}/README.md) | ${newestVersion} $link | ${latestVersion} | \`bin/add-new-release.sh $dir/${buildspec} ${latestVersion}\` |" >> ${out}
   fi
 done
 
