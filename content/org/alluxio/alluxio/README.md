@@ -86,6 +86,7 @@ rebuilding **3 releases** of org.alluxio:alluxio-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [302](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/302/pom) | | | |
 | [301](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/301/pom) | [mvn jdk8](alluxio-301.buildspec) | [result](alluxio-parent-301.buildinfo): [116 :heavy_check_mark: ](alluxio-parent-301.buildcompare) | 288M |
 | [300](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/300/pom) | [mvn jdk11](alluxio-300.buildspec) | [result](alluxio-parent-300.buildinfo): [134 :heavy_check_mark: ](alluxio-parent-300.buildcompare) | 283M |
 | [295](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/295/pom) | [mvn jdk11](alluxio-295.buildspec) | [result](alluxio-parent-295.buildinfo): [134 :heavy_check_mark: ](alluxio-parent-295.buildcompare) | 274M |
