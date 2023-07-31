@@ -1,19 +1,19 @@
-[org.owasp.antisamy:antisamy](https://central.sonatype.com/artifact/org.owasp.antisamy/antisamy/1.7.2/versions) RB check
+[org.owasp.antisamy:antisamy](https://central.sonatype.com/artifact/org.owasp.antisamy/antisamy/1.7.3/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.owasp.antisamy:antisamy](https://central.sonatype.com/artifact/org.owasp.antisamy/antisamy/1.7.2/versions)
+## Project: [org.owasp.antisamy:antisamy](https://central.sonatype.com/artifact/org.owasp.antisamy/antisamy/1.7.3/versions)
 
 Source code: [https://github.com/nahsra/antisamy.git](https://github.com/nahsra/antisamy.git)
 
-rebuilding **13 releases** of org.owasp.antisamy:antisamy:
+rebuilding **14 releases** of org.owasp.antisamy:antisamy:
 - **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.7.3](https://central.sonatype.com/artifact/org.owasp.antisamy/antisamy/1.7.3/pom) | | | |
+| [1.7.3](https://central.sonatype.com/artifact/org.owasp.antisamy/antisamy/1.7.3/pom) | [mvn jdk8](antisamy-1.7.3.buildspec) | [result](antisamy-1.7.3.buildinfo): [2 :heavy_check_mark:  1 :warning:](antisamy-1.7.3.buildcompare) [:mag:](antisamy-1.7.3.diffoscope) | 329K |
 | [1.7.2](https://central.sonatype.com/artifact/org.owasp.antisamy/antisamy/1.7.2/pom) | [mvn jdk8](antisamy-1.7.2.buildspec) | [result](antisamy-1.7.2.buildinfo): [3 :heavy_check_mark: ](antisamy-1.7.2.buildcompare) | 326K |
 | [1.7.1](https://central.sonatype.com/artifact/org.owasp.antisamy/antisamy/1.7.1/pom) | [mvn jdk8](antisamy-1.7.1.buildspec) | [result](antisamy-1.7.1.buildinfo): [3 :heavy_check_mark: ](antisamy-1.7.1.buildcompare) | 326K |
 | [1.7.0](https://central.sonatype.com/artifact/org.owasp.antisamy/antisamy/1.7.0/pom) | [mvn jdk8](antisamy-1.7.0.buildspec) | [result](antisamy-1.7.0.buildinfo): [3 :heavy_check_mark: ](antisamy-1.7.0.buildcompare) | 319K |

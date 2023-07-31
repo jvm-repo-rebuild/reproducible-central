@@ -144,6 +144,7 @@ rebuilding **9 releases** of org.apache.dubbo:dubbo:
 | [3.2.0-beta.3](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0-beta.3/pom) | | | |
 | [3.2.0-beta.2](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0-beta.2/pom) | | | |
 | [3.2.0-beta.1](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.2.0-beta.1/pom) | | | |
+| [3.1.11](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.11/pom) | | | |
 | [3.1.10](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.10/pom) | | | |
 | [3.1.9](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.9/pom) | [mvn jdk8](dubbo-3.1.9.buildspec) | [result](dubbo-parent-3.1.9.buildinfo): [190 :heavy_check_mark:  5 :warning:](dubbo-parent-3.1.9.buildcompare) [:mag:](dubbo-parent-3.1.9.diffoscope) | 22M |
 | [3.1.8](https://central.sonatype.com/artifact/org.apache.dubbo/dubbo/3.1.8/pom) | | | |

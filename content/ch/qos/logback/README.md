@@ -1,29 +1,29 @@
-[ch.qos.logback:logback-parent](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.4.7/versions) RB check
+[ch.qos.logback:logback-parent](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.4.8/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [ch.qos.logback:logback-parent](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.4.7/versions)
+## Project: [ch.qos.logback:logback-parent](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.4.8/versions)
 
 Source code: [https://github.com/qos-ch/logback.git](https://github.com/qos-ch/logback.git)
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [ch.qos.logback:logback-access](https://central.sonatype.com/artifact/ch.qos.logback/logback-access/1.4.7)
-* [ch.qos.logback:logback-classic](https://central.sonatype.com/artifact/ch.qos.logback/logback-classic/1.4.7)
-* [ch.qos.logback:logback-core](https://central.sonatype.com/artifact/ch.qos.logback/logback-core/1.4.7)
-* [ch.qos.logback:logback-examples](https://central.sonatype.com/artifact/ch.qos.logback/logback-examples/1.4.7)
-* [ch.qos.logback:logback-parent](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.4.7)
-* [ch.qos.logback:logback-site](https://central.sonatype.com/artifact/ch.qos.logback/logback-site/1.4.7)
+* [ch.qos.logback:logback-access](https://central.sonatype.com/artifact/ch.qos.logback/logback-access/1.4.8)
+* [ch.qos.logback:logback-classic](https://central.sonatype.com/artifact/ch.qos.logback/logback-classic/1.4.8)
+* [ch.qos.logback:logback-core](https://central.sonatype.com/artifact/ch.qos.logback/logback-core/1.4.8)
+* [ch.qos.logback:logback-examples](https://central.sonatype.com/artifact/ch.qos.logback/logback-examples/1.4.8)
+* [ch.qos.logback:logback-parent](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.4.8)
+* [ch.qos.logback:logback-site](https://central.sonatype.com/artifact/ch.qos.logback/logback-site/1.4.8)
 </details>
 
-rebuilding **13 releases** of ch.qos.logback:logback-parent:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **14 releases** of ch.qos.logback:logback-parent:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.4.8](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.4.8/pom) | | | |
+| [1.4.8](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.4.8/pom) | [mvn jdk20 w](logback-1.4.8.buildspec) | [result](logback-parent-1.4.8.buildinfo): [16 :heavy_check_mark: ](logback-parent-1.4.8.buildcompare) | 3.2M |
 | [1.4.7](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.4.7/pom) | [mvn jdk20 w](logback-1.4.7.buildspec) | [result](logback-parent-1.4.7.buildinfo): [16 :heavy_check_mark: ](logback-parent-1.4.7.buildcompare) | 3.1M |
 | [1.4.6](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.4.6/pom) | [mvn jdk19](logback-1.4.6.buildspec) | [result](logback-parent-1.4.6.buildinfo): [16 :heavy_check_mark: ](logback-parent-1.4.6.buildcompare) | 3.1M |
 | [1.4.5](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.4.5/pom) | [mvn jdk19](logback-1.4.5.buildspec) | [result](logback-parent-1.4.5.buildinfo): [16 :heavy_check_mark: ](logback-parent-1.4.5.buildcompare) | 3.1M |

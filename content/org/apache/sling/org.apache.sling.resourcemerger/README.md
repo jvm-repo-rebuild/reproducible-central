@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.apache.sling:org.apache.sling.resourcemerger:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.4.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourcemerger/1.4.4/pom) | | | |
 | [1.4.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourcemerger/1.4.2/pom) | [mvn jdk11](org.apache.sling.resourcemerger-1.4.2.buildspec) | [result](org.apache.sling.resourcemerger-1.4.2.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.resourcemerger-1.4.2.buildcompare) | 190K |
 | [1.4.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourcemerger/1.4.0/pom) | [mvn jdk11](org.apache.sling.resourcemerger-1.4.0.buildspec) | [result](org.apache.sling.resourcemerger-1.4.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.resourcemerger-1.4.0.buildcompare) | 185K |
 
