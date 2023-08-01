@@ -1,27 +1,28 @@
-[org.apache.qpid:protonj2-parent](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M16/versions) RB check
+[org.apache.qpid:protonj2-parent](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M17/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.qpid:protonj2-parent](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M16/versions)
+## Project: [org.apache.qpid:protonj2-parent](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M17/versions)
 
 Source code: [https://github.com/apache/qpid-protonj2.git](https://github.com/apache/qpid-protonj2.git)
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [org.apache.qpid:apache-qpid-protonj2](https://central.sonatype.com/artifact/org.apache.qpid/apache-qpid-protonj2/1.0.0-M16)
-* [org.apache.qpid:protonj2](https://central.sonatype.com/artifact/org.apache.qpid/protonj2/1.0.0-M16)
-* [org.apache.qpid:protonj2-client](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-client/1.0.0-M16)
-* [org.apache.qpid:protonj2-parent](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M16)
-* [org.apache.qpid:protonj2-test-driver](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-test-driver/1.0.0-M16)
+* [org.apache.qpid:apache-qpid-protonj2](https://central.sonatype.com/artifact/org.apache.qpid/apache-qpid-protonj2/1.0.0-M17)
+* [org.apache.qpid:protonj2](https://central.sonatype.com/artifact/org.apache.qpid/protonj2/1.0.0-M17)
+* [org.apache.qpid:protonj2-client](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-client/1.0.0-M17)
+* [org.apache.qpid:protonj2-parent](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M17)
+* [org.apache.qpid:protonj2-test-driver](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-test-driver/1.0.0-M17)
 </details>
 
-rebuilding **8 releases** of org.apache.qpid:protonj2-parent:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **9 releases** of org.apache.qpid:protonj2-parent:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.0-M17](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M17/pom) | [mvn jdk17](protonj2-1.0.0-M17.buildspec) | [result](protonj2-parent-1.0.0-M17.buildinfo): [13 :heavy_check_mark: ](protonj2-parent-1.0.0-M17.buildcompare) | 8.5M |
 | [1.0.0-M16](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M16/pom) | [mvn jdk17](protonj2-1.0.0-M16.buildspec) | [result](protonj2-parent-1.0.0-M16.buildinfo): [13 :heavy_check_mark: ](protonj2-parent-1.0.0-M16.buildcompare) | 8.5M |
 | [1.0.0-M15](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M15/pom) | [mvn jdk17](protonj2-1.0.0-M15.buildspec) | [result](protonj2-parent-1.0.0-M15.buildinfo): [13 :heavy_check_mark: ](protonj2-parent-1.0.0-M15.buildcompare) | 8.5M |
 | [1.0.0-M14](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M14/pom) | [mvn jdk17](protonj2-1.0.0-M14.buildspec) | [result](protonj2-parent-1.0.0-M14.buildinfo): [13 :heavy_check_mark: ](protonj2-parent-1.0.0-M14.buildcompare) | 8.4M |
