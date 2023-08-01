@@ -1,0 +1,46 @@
+1 / 1 target/reference/cdevents-sdk-java-0.1.2.jar target/cdevents-sdk-java-0.1.2.jar
+--- target/reference/cdevents-sdk-java-0.1.2.jar
++++ target/cdevents-sdk-java-0.1.2.jar
+│┄ Format-specific differences are supported for ZIP archives but no file-specific differences were detected; falling back to a binary diff. file(1) reports: Zip archive data, at least v1.0 to extract, compression method=store
+│┄ Archive contents identical but files differ, possibly due to different compression levels. Falling back to binary comparison.
+@@ -6631,16 +6631,16 @@
+ 00019e60: 726f 7065 7274 6965 734b 2c2a c94c 4b4c  ropertiesK,*.LKL
+ 00019e70: 2ef1 4cb1 4d4e 492d 4bcd 2b29 d62d 4ec9  ..L.MNI-K.+).-N.
+ 00019e80: d6cd 4a2c 4be4 4a2f ca2f 2d00 ca00 25f4  ..J,K.J/./-...%.
+ 00019e90: 60b2 5c65 a945 c599 f979 b606 7a86 7a46  `.\e.E...y..z.zF
+ 00019ea0: 5c00 504b 0304 1400 0808 0800 856d f856  \.PK.........m.V
+ 00019eb0: 0000 0000 0000 0000 0000 0000 1100 1100  ................
+ 00019ec0: 6d6f 6475 6c65 2d69 6e66 6f2e 636c 6173  module-info.clas
+-00019ed0: 7355 540d 0007 2b80 be64 3d80 be64 3d80  sUT...+..d=..d=.
+-00019ee0: be64 7591 db52 c230 1086 ffa8 801c 1424  .du..R.0.......$
++00019ed0: 7355 540d 0007 2b80 be64 e37c c964 e37c  sUT...+..d.|.d.|
++00019ee0: c964 7591 db52 c230 1086 ffa8 801c 1424  .du..R.0.......$
+ 00019ef0: 0515 15f1 805e 19c0 c363 f810 214d b1b5  .....^...c..!M..
+ 00019f00: 349d a630 78c7 7379 e103 f850 8e69 04c7  4..0x.sy...P.i..
+ 00019f10: e960 2ebe 99ec eebf bbf9 f3f9 f5fe 01e0  .`..............
+ 00019f20: 09b7 04d5 a972 67a1 bcf3 234f 9540 086a  .....rg...#O.@.j
+ 00019f30: ae9c 3361 20a3 5453 6c13 1486 6cc4 ee09  ..3a .TSl...l...
+ 00019f40: 7a42 4d99 c775 2a93 c534 6401 17af 5a45  zBM..u*..4d...ZE
+ 00019f50: 8c47 914a 79ea ab88 a248 d0d9 5c25 5422  .G.Jy....H..\%T"
+│   --- target/reference/cdevents-sdk-java-0.1.2.jar
+├── +++ target/cdevents-sdk-java-0.1.2.jar
+│ @@ -6631,16 +6631,16 @@
+│  00019e60: 726f 7065 7274 6965 734b 2c2a c94c 4b4c  ropertiesK,*.LKL
+│  00019e70: 2ef1 4cb1 4d4e 492d 4bcd 2b29 d62d 4ec9  ..L.MNI-K.+).-N.
+│  00019e80: d6cd 4a2c 4be4 4a2f ca2f 2d00 ca00 25f4  ..J,K.J/./-...%.
+│  00019e90: 60b2 5c65 a945 c599 f979 b606 7a86 7a46  `.\e.E...y..z.zF
+│  00019ea0: 5c00 504b 0304 1400 0808 0800 856d f856  \.PK.........m.V
+│  00019eb0: 0000 0000 0000 0000 0000 0000 1100 1100  ................
+│  00019ec0: 6d6f 6475 6c65 2d69 6e66 6f2e 636c 6173  module-info.clas
+│ -00019ed0: 7355 540d 0007 2b80 be64 3d80 be64 3d80  sUT...+..d=..d=.
+│ -00019ee0: be64 7591 db52 c230 1086 ffa8 801c 1424  .du..R.0.......$
+│ +00019ed0: 7355 540d 0007 2b80 be64 e37c c964 e37c  sUT...+..d.|.d.|
+│ +00019ee0: c964 7591 db52 c230 1086 ffa8 801c 1424  .du..R.0.......$
+│  00019ef0: 0515 15f1 805e 19c0 c363 f810 214d b1b5  .....^...c..!M..
+│  00019f00: 349d a630 78c7 7379 e103 f850 8e69 04c7  4..0x.sy...P.i..
+│  00019f10: e960 2ebe 99ec eebf bbf9 f3f9 f5fe 01e0  .`..............
+│  00019f20: 09b7 04d5 a972 67a1 bcf3 234f 9540 086a  .....rg...#O.@.j
+│  00019f30: ae9c 3361 20a3 5453 6c13 1486 6cc4 ee09  ..3a .TSl...l...
+│  00019f40: 7a42 4d99 c775 2a93 c534 6401 17af 5a45  zBM..u*..4d...ZE
+│  00019f50: 8c47 914a 79ea ab88 a248 d0d9 5c25 5422  .G.Jy....H..\%T"
+

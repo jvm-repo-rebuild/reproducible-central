@@ -1,0 +1,8 @@
+version=0.1.2
+ok=2
+ko=1
+okFiles="cdevents-sdk-java-0.1.2.pom cdevents-sdk-java-0.1.2-sources.jar"
+koFiles="cdevents-sdk-java-0.1.2.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/cdevents-sdk-java-0.1.2.jar target/cdevents-sdk-java-0.1.2.jar

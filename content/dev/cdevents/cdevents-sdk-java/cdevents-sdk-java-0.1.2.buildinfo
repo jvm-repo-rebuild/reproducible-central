@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=cdevents-sdk-java
+group-id=dev.cdevents
+artifact-id=cdevents-sdk-java
+version=0.1.2
+
+# source information
+source.scm.uri=scm:git:git@github.com:cdevents/sdk-java.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=cdevents-sdk-java-0.1.2.pom
+outputs.0.length=12677
+outputs.0.checksums.sha512=51af67d58b95a9d0b56499a347ff358a4a0a94070049fd00ff3c57c65b19336b10be8f1d74fb0c70151ddd0093f728bddd461acff794f78352dd6adc36bfab35
+
+outputs.1.filename=cdevents-sdk-java-0.1.2.jar
+outputs.1.length=118952
+outputs.1.checksums.sha512=340cba9579b24f0fc8d533df65a98fbcb98ce54b95ccc557151b0263da160fcbf4d5812bef47d7794fa6adecef49d8561cfc36b2fc1ee46f9cfae44a7d864f7e
+
+outputs.2.filename=cdevents-sdk-java-0.1.2-sources.jar
+outputs.2.length=70037
+outputs.2.checksums.sha512=62db85fc7ed908d83c1bcb5ee25a455bddb2ce6f1853c945bc0630067f73aa43cf46f17375399f2fe85de3a0de83da7e7c0e8d77fdb8a6cb48b7a034a433b788
