@@ -1,0 +1,18 @@
+1 / 1 target/reference/jsign-5.0.jar jsign/target/jsign-5.0.jar
+--- target/reference/jsign-5.0.jar
++++ jsign/target/jsign-5.0.jar
+├── zipinfo {}
+│ @@ -1,834 +1,834 @@
+│  Zip file size: 1051307 bytes, number of entries: 832
+│ --rw----     1.0 fat      176 b- defN 23-Jun-06 16:33 META-INF/MANIFEST.MF
+│ --rw----     1.0 fat     1783 b- defN 23-Jun-06 16:33 net/jsign/AuthenticodeSigner$1.class
+...
+│ --rw----     1.0 fat     6300 b- defN 23-Jun-06 16:33 net/jsign/commons/cli/Option.class
+│ --rw----     1.0 fat      378 b- defN 23-Jun-06 16:33 net/jsign/commons/cli/ParseException.class
+│ +-rw----     1.0 fat      176 b- defN 23-Aug-01 07:03 META-INF/MANIFEST.MF
+│ +-rw----     1.0 fat     1783 b- defN 23-Aug-01 07:03 net/jsign/AuthenticodeSigner$1.class
+...
+│ +-rw----     1.0 fat     6300 b- defN 23-Aug-01 07:03 net/jsign/commons/cli/Option.class
+│ +-rw----     1.0 fat      378 b- defN 23-Aug-01 07:03 net/jsign/commons/cli/ParseException.class
+│  832 files, 2054395 bytes uncompressed, 904159 bytes compressed:  56.0%
+

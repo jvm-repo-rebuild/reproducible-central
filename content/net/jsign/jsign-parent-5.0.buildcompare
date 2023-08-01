@@ -1,0 +1,8 @@
+version=5.0
+ok=19
+ko=1
+okFiles="jsign-parent-5.0.pom jsign-core-5.0.pom jsign-core-5.0.jar jsign-core-5.0-sources.jar jsign-core-5.0-tests.jar jsign-ant-5.0.pom jsign-ant-5.0.jar jsign-ant-5.0-sources.jar jsign-cli-5.0.pom jsign-cli-5.0.jar jsign-cli-5.0-sources.jar jsign-5.0.pom jsign-5.0-sources.jar jsign-maven-plugin-5.0.pom jsign-maven-plugin-5.0.jar jsign-maven-plugin-5.0-sources.jar jsign-gradle-plugin-5.0.pom jsign-gradle-plugin-5.0.jar jsign-gradle-plugin-5.0-sources.jar"
+koFiles="jsign-5.0.jar"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/jsign-5.0.jar jsign/target/jsign-5.0.jar
