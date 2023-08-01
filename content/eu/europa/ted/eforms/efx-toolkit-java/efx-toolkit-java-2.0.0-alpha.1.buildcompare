@@ -1,0 +1,9 @@
+version=2.0.0-alpha.1
+ok=1
+ko=2
+okFiles="efx-toolkit-java-2.0.0-alpha.1.pom"
+koFiles="efx-toolkit-java-2.0.0-alpha.1.jar efx-toolkit-java-2.0.0-alpha.1-sources.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/efx-toolkit-java-2.0.0-alpha.1.jar target/efx-toolkit-java-2.0.0-alpha.1.jar
+# diffoscope target/reference/efx-toolkit-java-2.0.0-alpha.1-sources.jar target/efx-toolkit-java-2.0.0-alpha.1-sources.jar

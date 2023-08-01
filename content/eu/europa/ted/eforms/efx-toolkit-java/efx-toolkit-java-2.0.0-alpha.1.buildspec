@@ -1,0 +1,17 @@
+groupId=eu.europa.ted.eforms
+artifactId=efx-toolkit-java
+display=${groupId}:${artifactId}
+version=2.0.0-alpha.1
+
+gitRepo=https://github.com/OP-TED/${artifactId}.git
+gitTag=${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=

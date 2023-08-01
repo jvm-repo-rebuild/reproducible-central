@@ -1,0 +1,100 @@
+# antlr4-maven-plugin:4.9.3:antlr4 seems to be producing non-reproducible token files
+1 / 2 target/reference/efx-toolkit-java-2.0.0-alpha.1.jar target/efx-toolkit-java-2.0.0-alpha.1.jar
+--- target/reference/efx-toolkit-java-2.0.0-alpha.1.jar
++++ target/efx-toolkit-java-2.0.0-alpha.1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 921392 bytes, number of entries: 754
+│ +Zip file size: 921280 bytes, number of entries: 754
+│ @@ -39,15 +39,15 @@
+│  -rw-r--r--  2.0 unx      416 b- defN 23-May-30 06:25 eu/europa/ted/efx/interfaces/TranslatorOptions.class
+│  -rw-r--r--  2.0 unx     2463 b- defN 23-May-30 06:25 eu/europa/ted/efx/model/CallStack$StackFrame.class
+│ --rw-r--r--  2.0 unx     7372 b- defN 23-May-30 06:25 eu/europa/ted/efx/model/CallStack.class
+│ +-rw-r--r--  2.0 unx     7160 b- defN 23-May-30 06:25 eu/europa/ted/efx/model/CallStack.class
+│  -rw-r--r--  2.0 unx     1013 b- defN 23-May-30 06:25 eu/europa/ted/efx/model/Context$FieldContext.class
+│  -rw-r--r--  2.0 unx      582 b- defN 23-May-30 06:25 eu/europa/ted/efx/model/Context$NodeContext.class
+│ @@ -745,12 +745,12 @@
+│  -rw-r--r--  2.0 unx     2042 b- defN 23-May-30 06:25 eu/europa/ted/efx/xpath/XPathContextualizer$FilterStepInfo.class
+│  -rw-r--r--  2.0 unx     2901 b- defN 23-May-30 06:25 eu/europa/ted/efx/xpath/XPathContextualizer$StepInfo.class
+│ --rw-r--r--  2.0 unx    11466 b- defN 23-May-30 06:25 eu/europa/ted/efx/xpath/XPathContextualizer.class
+│ +-rw-r--r--  2.0 unx    11270 b- defN 23-May-30 06:25 eu/europa/ted/efx/xpath/XPathContextualizer.class
+│  -rw-r--r--  2.0 unx    26022 b- defN 23-May-30 06:25 eu/europa/ted/efx/xpath/XPathScriptGenerator.class
+│  -rw-r--r--  2.0 unx    14544 b- defN 23-May-30 06:25 META-INF/maven/eu.europa.ted.eforms/efx-toolkit-java/pom.xml
+│  -rw-r--r--  2.0 unx       79 b- defN 23-May-30 06:25 META-INF/maven/eu.europa.ted.eforms/efx-toolkit-java/pom.properties
+│ -754 files, 2122827 bytes uncompressed, 767734 bytes compressed:  63.9%
+│ +754 files, 2122419 bytes uncompressed, 767622 bytes compressed:  63.8%
+├── eu/europa/ted/efx/model/CallStack.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,315 +1,305 @@
+│ │    Compiled from "CallStack.java"
+│ │  public class eu.europa.ted.efx.model.CallStack
+│ │    minor version: 0
+│ │    major version: 55
+│ │    flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+│ │    this_class: #12                         // eu/europa/ted/efx/model/CallStack
+│ │ -  super_class: #60                        // java/lang/Object
+│ │ -  interfaces: 0, fields: 5, methods: 26, attributes: 4
+│ │ +  super_class: #58                        // java/lang/Object
+│ │ +  interfaces: 0, fields: 5, methods: 24, attributes: 4
+...
+
+2 / 2 target/reference/efx-toolkit-java-2.0.0-alpha.1-sources.jar target/efx-toolkit-java-2.0.0-alpha.1-sources.jar
+--- target/reference/efx-toolkit-java-2.0.0-alpha.1-sources.jar
++++ target/efx-toolkit-java-2.0.0-alpha.1-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 361017 bytes, number of entries: 130
+│ +Zip file size: 361263 bytes, number of entries: 130
+│  -rw-r--r--  2.0 unx       64 b- defN 23-May-30 06:25 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-May-30 06:25 eu/europa/ted/eforms/sdk/
+│ @@ -101,16 +101,16 @@
+│  -rw-r--r--  2.0 unx    15910 b- defN 23-May-30 06:25 eu/europa/ted/efx/xpath/XPathContextualizer.java
+│  -rw-r--r--  2.0 unx    22470 b- defN 23-May-30 06:25 eu/europa/ted/efx/xpath/XPathScriptGenerator.java
+│ --rw-r--r--  2.0 unx     3415 b- defN 23-May-30 06:25 Efx.tokens
+│ --rw-r--r--  2.0 unx     3415 b- defN 23-May-30 06:25 EfxLexer.tokens
+│ +-rw-r--r--  2.0 unx     3649 b- defN 23-May-30 06:25 Efx.tokens
+│ +-rw-r--r--  2.0 unx     3649 b- defN 23-May-30 06:25 EfxLexer.tokens
+│  -rw-r--r--  2.0 unx     2213 b- defN 23-May-30 06:25 XPath20.tokens
+│  -rw-r--r--  2.0 unx     2213 b- defN 23-May-30 06:25 XPath20Lexer.tokens
+│ @@ -125,8 +125,8 @@
+│ -130 files, 2395695 bytes uncompressed, 339239 bytes compressed:  85.9%
+│ +130 files, 2396163 bytes uncompressed, 339485 bytes compressed:  85.8%
+├── Efx.tokens
+│ @@ -1,233 +1,252 @@
+│  Comment=1
+│  EmptyLine=2
+│  MixedIndent=3
+│  Tabs=4
+│  Spaces=5
+│  OutlineNumber=6
+│  SWS=7
+│ -CRLF=8
+│ -FreeText=9
+...
+│ -'/@'=136
+│ -':'=137
+│ +LineJoining=8
+│ +CRLF=9
+...
+│ +'..'=147
+│ +':'=148
+├── EfxLexer.tokens
+│ @@ -1,233 +1,252 @@
+│  Comment=1
+│  EmptyLine=2
+│  MixedIndent=3
+│  Tabs=4
+│  Spaces=5
+│  OutlineNumber=6
+│  SWS=7
+│ -CRLF=8
+│ -FreeText=9
+...
+│ -'/@'=136
+│ -':'=137
+│ +LineJoining=8
+│ +CRLF=9
+...
+│ +'..'=147
+│ +':'=148
+
