@@ -1,28 +1,28 @@
-[io.micronaut.maven:micronaut-maven-plugin](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/4.0.3/versions) RB check
+[io.micronaut.maven:micronaut-maven-plugin](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/4.0.4/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.micronaut.maven:micronaut-maven-plugin](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/4.0.3/versions)
+## Project: [io.micronaut.maven:micronaut-maven-plugin](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/4.0.4/versions)
 
 Source code: [https://github.com/micronaut-projects/micronaut-maven-plugin.git](https://github.com/micronaut-projects/micronaut-maven-plugin.git)
 
 <details><summary>This project defines 5 modules:</summary>
 
-* [io.micronaut.maven:micronaut-maven-core](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-core/4.0.3)
-* [io.micronaut.maven:micronaut-maven-enforcer-rules](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-enforcer-rules/4.0.3)
-* [io.micronaut.maven:micronaut-maven-jib-integration](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-jib-integration/4.0.3)
-* [io.micronaut.maven:micronaut-maven-plugin](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/4.0.3)
-* [io.micronaut.maven:micronaut-maven-plugin-parent](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin-parent/4.0.3)
+* [io.micronaut.maven:micronaut-maven-core](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-core/4.0.4)
+* [io.micronaut.maven:micronaut-maven-enforcer-rules](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-enforcer-rules/4.0.4)
+* [io.micronaut.maven:micronaut-maven-jib-integration](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-jib-integration/4.0.4)
+* [io.micronaut.maven:micronaut-maven-plugin](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/4.0.4)
+* [io.micronaut.maven:micronaut-maven-plugin-parent](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin-parent/4.0.4)
 </details>
 
-rebuilding **9 releases** of io.micronaut.maven:micronaut-maven-plugin:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **10 releases** of io.micronaut.maven:micronaut-maven-plugin:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.0.4](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/4.0.4/pom) | | | |
+| [4.0.4](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/4.0.4/pom) | [mvn jdk17](micronaut-maven-plugin-4.0.4.buildspec) | [result](micronaut-maven-plugin-parent-4.0.4.buildinfo): [13 :heavy_check_mark: ](micronaut-maven-plugin-parent-4.0.4.buildcompare) | 307K |
 | [4.0.3](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/4.0.3/pom) | [mvn jdk17](micronaut-maven-plugin-4.0.3.buildspec) | [result](micronaut-maven-plugin-parent-4.0.3.buildinfo): [13 :heavy_check_mark: ](micronaut-maven-plugin-parent-4.0.3.buildcompare) | 307K |
 | [4.0.2](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/4.0.2/pom) | [mvn jdk17](micronaut-maven-plugin-4.0.2.buildspec) | [result](micronaut-maven-plugin-parent-4.0.2.buildinfo): [13 :heavy_check_mark: ](micronaut-maven-plugin-parent-4.0.2.buildcompare) | 307K |
 | [4.0.1](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/4.0.1/pom) | [mvn jdk17](micronaut-maven-plugin-4.0.1.buildspec) | [result](micronaut-maven-plugin-parent-4.0.1.buildinfo): [13 :heavy_check_mark: ](micronaut-maven-plugin-parent-4.0.1.buildcompare) | 306K |

@@ -26,6 +26,7 @@ rebuilding **16 releases** of eu.maveniverse.maven.mima:mima:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.3.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/2.3.3/pom) | | | |
 | [2.3.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/2.3.2/pom) | [mvn jdk17](mima-2.3.2.buildspec) | [result](mima-2.3.2.buildinfo): [23 :heavy_check_mark: ](mima-2.3.2.buildcompare) | 12M |
 | [2.3.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/2.3.1/pom) | [mvn jdk17](mima-2.3.1.buildspec) | [result](mima-2.3.1.buildinfo): [23 :heavy_check_mark: ](mima-2.3.1.buildcompare) | 12M |
 | [2.3.0](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/2.3.0/pom) | [mvn jdk17](mima-2.3.0.buildspec) | [result](mima-2.3.0.buildinfo): [23 :heavy_check_mark: ](mima-2.3.0.buildcompare) | 12M |
