@@ -109,7 +109,8 @@ do
       [ -f "${dir}/${_buildinfo}" ] && echo -n "[result](${_buildinfo}): " >> tmp/${projectReadme}
 
       . "${dir}/${buildcompare}"
-      if [ $? -eq 0 ]; then
+      if [ $? -eq 0 ]
+      then
         echo -n "[" >> tmp/${projectReadme}
         [ "${ok}" -gt 0 ] && echo -n "${ok} :heavy_check_mark: " >> tmp/${projectReadme}
         [ "${ko}" -gt 0 ] && echo -n " ${ko} :warning:" >> tmp/${projectReadme} || ((countVersionOk++))
@@ -173,7 +174,11 @@ do
     . "${dir}/${buildspec}"
     . "${dir}/${buildcompare}"
 
-    if [ $ko -eq 0 ]
+    if [ $? -eq 0 ]
+    then
+      link=":x:"
+      out="tmp/add-ko.md"
+    elif [ $ko -eq 0 ]
     then
       link=":heavy_check_mark:"
       out="tmp/add-ok.md"
