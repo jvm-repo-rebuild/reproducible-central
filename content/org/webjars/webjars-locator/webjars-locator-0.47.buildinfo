@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=webjars-locator
+group-id=org.webjars
+artifact-id=webjars-locator
+version=0.47
+
+# source information
+source.scm.uri=scm:git:https://github.com/webjars/webjars-locator.git
+source.scm.tag=webjars-locator-0.47
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=19
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=webjars-locator-0.47.pom
+outputs.0.length=9557
+outputs.0.checksums.sha512=2291f169833cadbe575a57811e54b1be48950c4a677d61e615b25130125b5f82062cac149b568ccac0972a4606782bf6925447124c79cb18f40530e118d37416
+
+outputs.1.filename=webjars-locator-0.47.jar
+outputs.1.length=15576
+outputs.1.checksums.sha512=eab70cabd106217bd1fba47eeb16831b75fa901caaa789c25d3dd694e2103028138ba7dc75bf1397b9e6fafbfb9cc4b051a00024ba08bbe02edac845e5454dea
+
+outputs.2.filename=webjars-locator-0.47-sources.jar
+outputs.2.length=10391
+outputs.2.checksums.sha512=b9649bd9eb4a82199726644905865c10d785b8df853e36ce1837e1a1abc6bb142249a8a48e50b6f70cecf3a77302313fee3707780068159068119c3f8465a1e9
