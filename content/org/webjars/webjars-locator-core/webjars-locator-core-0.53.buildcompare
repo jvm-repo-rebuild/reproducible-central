@@ -1,0 +1,7 @@
+version=0.53
+ok=3
+ko=0
+okFiles="webjars-locator-core-0.53.pom webjars-locator-core-0.53.jar webjars-locator-core-0.53-sources.jar"
+koFiles=""
+reference_java_version="19 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
