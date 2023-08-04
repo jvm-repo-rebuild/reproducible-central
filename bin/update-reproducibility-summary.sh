@@ -174,7 +174,7 @@ do
     . "${dir}/${buildspec}"
     . "${dir}/${buildcompare}"
 
-    if [ $? -eq 0 ]
+    if [ $? -ne 0 ]
     then
       link=":x:"
       out="tmp/add-ko.md"

@@ -14,7 +14,7 @@ umask=022
 
 command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 #buildinfo=target/${artifactId}-${version}.buildinfo
-buildinfo="CANNOT BUILD build skips install/deploy and has own way to define which modules to send to Maven Central of not (*-tests and doc-examples): require additional way to artifact plugin to ignore modules based on their name"
+buildinfo="CANNOT BUILD build skips install+deploy and has own way to define which modules to send to Maven Central of not (*-tests and doc-examples): require additional way to artifact plugin to ignore modules based on their name"
 
 #diffoscope=${artifactId}-${version}.diffoscope
 issue=
