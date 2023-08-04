@@ -1,0 +1,182 @@
+# using maven-assembly-plugin 3.1.0 requires upgrade
+1 / 7 target/reference/parent-3.9.0.tar.gz target/apache-zookeeper-3.9.0.tar.gz
+--- target/reference/parent-3.9.0.tar.gz
++++ target/apache-zookeeper-3.9.0.tar.gz
+│   --- parent-3.9.0.tar
+├── +++ apache-zookeeper-3.9.0.tar
+│ ├── file list
+│ │ @@ -1,1846 +1,1849 @@
+│ │ -drwxr-xr-x   0 andor     (1000) andor     (1000)        0 2023-07-19 09:08:28.000000 apache-zookeeper-3.9.0/
+...
+│ │ --rw-r--r--   0 andor     (1000) andor     (1000)     1552 2023-07-19 09:08:26.000000 apache-zookeeper-3.9.0/checkstyleSuppressions.xml
+│ │ +drwxr-xr-x   0 herve     (1000) herve     (1000)        0 2023-08-04 06:28:08.000000 apache-zookeeper-3.9.0/
+...
+│ │ +-rw-r--r--   0 herve     (1000) herve     (1000)     2649 2023-08-04 06:24:25.000000 apache-zookeeper-3.9.0/Jenkinsfile
+
+# same as previous .tar.gz
+2 / 7 target/reference/parent-3.9.0-source-release.zip target/parent-3.9.0-source-release.zip
+
+# using maven-bundle-plugin 5.1.1 requires upgrade
+3 / 7 target/reference/zookeeper-jute-3.9.0-osgi.jar zookeeper-jute/target/zookeeper-jute-3.9.0-osgi.jar
+--- target/reference/zookeeper-jute-3.9.0-osgi.jar
++++ zookeeper-jute/target/zookeeper-jute-3.9.0-osgi.jar
+├── zipinfo {}
+│ @@ -1,133 +1,133 @@
+│ -Zip file size: 258323 bytes, number of entries: 131
+│ --rw----     2.0 fat        0 bX defN 23-Jul-19 09:08 META-INF/
+│ --rw----     2.0 fat     1711 bl defN 23-Jul-19 09:08 META-INF/MANIFEST.MF
+...
+│ --rw----     2.0 fat     5412 bl defN 23-Jul-19 09:08 org/apache/zookeeper/txn/TxnHeader.class
+│ -131 files, 520965 bytes uncompressed, 235109 bytes compressed:  54.9%
+│ +Zip file size: 258316 bytes, number of entries: 131
+│ +-rw----     2.0 fat        0 bX defN 23-Aug-04 06:28 META-INF/
+│ +-rw----     2.0 fat     1699 bl defN 23-Aug-04 06:28 META-INF/MANIFEST.MF
+...
+│ +-rw----     2.0 fat     5412 bl defN 23-Aug-04 06:28 org/apache/zookeeper/txn/TxnHeader.class
+│ +131 files, 520953 bytes uncompressed, 235102 bytes compressed:  54.9%
+├── META-INF/MANIFEST.MF
+│ @@ -1,19 +1,19 @@
+│  Manifest-Version: 1.0
+
+│ -Bnd-LastModified: 1689757728776
+
+│ +Bnd-LastModified: 1691130493676
+
+│  Build-Jdk-Spec: 11
+
+...
+
+│  Bundle-Version: 3.9.0
+
+│ -Created-By: 11.0.12 (Oracle Corporation),Apache Maven Bundle Plugin
+
+│ +Created-By: 11.0.18 (Ubuntu),Apache Maven Bundle Plugin
+...
+
+# here, it a real semantics that will be changed while updating the generation code: switch to Git commit time (given commit hash is there)?
+4 / 7 target/reference/zookeeper-3.9.0.jar zookeeper-server/target/zookeeper-3.9.0.jar
+--- target/reference/zookeeper-3.9.0.jar
++++ zookeeper-server/target/zookeeper-3.9.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1352447 bytes, number of entries: 752
+│ +Zip file size: 1352444 bytes, number of entries: 752
+│  -rw-r--r--  2.0 unx      410 b- defN 20-Jan-22 15:10 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 META-INF/
+│ @@ -747,8 +747,8 @@
+│  -rw-r--r--  2.0 unx    11762 b- defN 20-Jan-22 15:10 META-INF/maven/org.apache.zookeeper/zookeeper/pom.xml
+│  -rw-r--r--  2.0 unx       64 b- defN 20-Jan-22 15:10 META-INF/maven/org.apache.zookeeper/zookeeper/pom.properties
+│ -752 files, 2749198 bytes uncompressed, 1211821 bytes compressed:  55.9%
+│ +752 files, 2749198 bytes uncompressed, 1211818 bytes compressed:  55.9%
+├── org/apache/zookeeper/Version.class
+│ ├── procyon -ec {}
+│ │ @@ -14,15 +14,15 @@
+│ │      }
+│ │      
+│ │      public static String getRevisionHash() {
+│ │          return "1674a5e97f43bc38e9bf56b04f83a7ae34d68249";
+│ │      }
+│ │      
+│ │      public static String getBuildDate() {
+│ │ -        return "2023-07-19 09:09 UTC";
+│ │ +        return "2023-08-04 06:28 UTC";
+│ │      }
+│ │      
+│ │      @SuppressFBWarnings(value = { "RCN_REDUNDANT_NULLCHECK_OF_NULL_VALUE" }, justification = "Missing QUALIFIER causes redundant null-check")
+│ │      public static String getVersion() {
+│ │          return "3.9.0" + ((Version.QUALIFIER == null) ? "" : ("-" + Version.QUALIFIER));
+│ │      }
+├── org/apache/zookeeper/version/Info.class
+│ ├── procyon -ec {}
+│ │ @@ -5,9 +5,9 @@
+│ │  {
+│ │      public static final int MAJOR = 3;
+│ │      public static final int MINOR = 9;
+│ │      public static final int MICRO = 0;
+│ │      public static final String QUALIFIER = "".isEmpty() ? null : "";
+│ │      public static final int REVISION = -1;
+│ │      public static final String REVISION_HASH = "1674a5e97f43bc38e9bf56b04f83a7ae34d68249";
+│ │ -    public static final String BUILD_DATE = "2023-07-19 09:09 UTC";
+│ │ +    public static final String BUILD_DATE = "2023-08-04 06:28 UTC";
+│ │  }
+├── org/apache/zookeeper/version/VersionInfoMain.class
+│ ├── procyon -ec {}
+│ │ @@ -1,9 +1,9 @@
+│ │  
+│ │  package org.apache.zookeeper.version;
+│ │  
+│ │  public class VersionInfoMain implements Info
+│ │  {
+│ │      public static void main(final String[] args) {
+│ │ -        System.out.println("Apache ZooKeeper, version 3.9.0 2023-07-19 09:09 UTC");
+│ │ +        System.out.println("Apache ZooKeeper, version 3.9.0 2023-08-04 06:28 UTC");
+│ │      }
+│ │  }
+
+# same as #3 + #4 (yes, bundle AND timestamp in geenrated code)
+5 / 7 target/reference/zookeeper-3.9.0-osgi.jar zookeeper-server/target/zookeeper-3.9.0-osgi.jar
+
+# source of #4
+6 / 7 target/reference/zookeeper-3.9.0-sources.jar zookeeper-server/target/zookeeper-3.9.0-sources.jar
+--- target/reference/zookeeper-3.9.0-sources.jar
++++ zookeeper-server/target/zookeeper-3.9.0-sources.jar
+├── org/apache/zookeeper/version/Info.java
+│ @@ -21,9 +21,9 @@
+│  public interface Info {
+│      int MAJOR=3;
+│      int MINOR=9;
+│      int MICRO=0;
+│      String QUALIFIER="".isEmpty() ? null : "";
+│      int REVISION=-1; //@deprecated, please use REVISION_HASH
+│      String REVISION_HASH="1674a5e97f43bc38e9bf56b04f83a7ae34d68249";
+│ -    String BUILD_DATE="2023-07-19 09:09 UTC";
+│ +    String BUILD_DATE="2023-08-04 06:28 UTC";
+│  }
+├── org/apache/zookeeper/version/VersionInfoMain.java
+│ @@ -16,10 +16,10 @@
+│   * limitations under the License.
+│   */
+│  
+│  package org.apache.zookeeper.version;
+│  
+│  public class VersionInfoMain implements org.apache.zookeeper.version.Info {
+│      public static void main(String[] args) {
+│ -        System.out.println("Apache ZooKeeper, version 3.9.0 2023-07-19 09:09 UTC");
+│ +        System.out.println("Apache ZooKeeper, version 3.9.0 2023-08-04 06:28 UTC");
+│      }
+│  }
+
+# need to sort properties, or decide not to publish these its to Maven Central (does it make sense?)
+7 / 7 target/reference/zookeeper-it-3.9.0.jar zookeeper-it/target/zookeeper-it-3.9.0.jar
+--- target/reference/zookeeper-it-3.9.0.jar
++++ zookeeper-it/target/zookeeper-it-3.9.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 120494 bytes, number of entries: 74
+│ +Zip file size: 120491 bytes, number of entries: 74
+│  -rw-r--r--  2.0 unx      408 b- defN 20-Jan-22 15:10 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 org/apache/zookeeper/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 org/apache/zookeeper/server/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-22 15:10 org/apache/zookeeper/server/watch/
+│ @@ -69,8 +69,8 @@
+│  -rw-r--r--  2.0 unx      421 b- defN 20-Jan-22 15:10 org/apache/zookeeper/test/system/NoAssignmentException.class
+│  -rw-r--r--  2.0 unx      484 b- defN 20-Jan-22 15:10 org/apache/zookeeper/test/system/NoAvailableContainers.class
+│  -rw-r--r--  2.0 unx     9428 b- defN 20-Jan-22 15:10 org/apache/zookeeper/test/system/QuorumPeerInstance.class
+│  -rw-r--r--  2.0 unx     4630 b- defN 20-Jan-22 15:10 org/apache/zookeeper/test/system/SimpleClient.class
+│  -rw-r--r--  2.0 unx     5979 b- defN 20-Jan-22 15:10 org/apache/zookeeper/test/system/SimpleSysTest.class
+│  -rw-r--r--  2.0 unx     3047 b- defN 20-Jan-22 15:10 META-INF/maven/org.apache.zookeeper/zookeeper-it/pom.xml
+│  -rw-r--r--  2.0 unx       67 b- defN 20-Jan-22 15:10 META-INF/maven/org.apache.zookeeper/zookeeper-it/pom.properties
+│ -74 files, 256668 bytes uncompressed, 105698 bytes compressed:  58.8%
+│ +74 files, 256668 bytes uncompressed, 105695 bytes compressed:  58.8%
+├── META-INF/BenchmarkList
+│ @@ -1,4 +1,4 @@
+│ -JMH S 44 org.apache.zookeeper.server.watch.WatchBench S 90 org.apache.zookeeper.server.watch.generated.WatchBench_testTriggerConcentrateWatch_jmhTest S 27 testTriggerConcentrateWatch S 11 AverageTime E A 1 1 1 E I 1 1 T 4 10 s E I 1 3 T 4 10 s E I 1 3 E E E E E M 3 9 pathCount 2 1 1 4 1000 17 watchManagerClass 2 12 WatchManager 21 WatchManagerOptimized 12 watcherCount 2 1 1 4 1000 U 12 MILLISECONDS E E 
+│  JMH S 44 org.apache.zookeeper.server.watch.WatchBench S 86 org.apache.zookeeper.server.watch.generated.WatchBench_testAddConcentrateWatch_jmhTest S 23 testAddConcentrateWatch S 11 AverageTime E A 1 1 1 E I 1 1 T 4 10 s E I 1 3 T 4 10 s E I 1 3 E E E E E M 2 9 pathCount 1 5 10000 17 watchManagerClass 2 12 WatchManager 21 WatchManagerOptimized U 12 MILLISECONDS E E 
+│ -JMH S 44 org.apache.zookeeper.server.watch.WatchBench S 85 org.apache.zookeeper.server.watch.generated.WatchBench_testTriggerSparseWatch_jmhTest S 22 testTriggerSparseWatch S 11 AverageTime E A 1 1 1 E I 1 1 T 4 10 s E I 1 3 T 4 10 s E I 1 3 E E E E E M 3 9 pathCount 1 5 10000 17 watchManagerClass 2 12 WatchManager 21 WatchManagerOptimized 12 watcherCount 1 5 10000 U 12 MILLISECONDS E E 
+│  JMH S 44 org.apache.zookeeper.server.watch.WatchBench S 81 org.apache.zookeeper.server.watch.generated.WatchBench_testAddSparseWatch_jmhTest S 18 testAddSparseWatch S 11 AverageTime E A 1 1 1 E I 1 1 T 4 10 s E I 1 3 T 4 10 s E I 1 3 E E E E E M 3 9 pathCount 1 5 10000 17 watchManagerClass 2 12 WatchManager 21 WatchManagerOptimized 12 watcherCount 1 5 10000 U 12 MILLISECONDS E E 
+│ +JMH S 44 org.apache.zookeeper.server.watch.WatchBench S 90 org.apache.zookeeper.server.watch.generated.WatchBench_testTriggerConcentrateWatch_jmhTest S 27 testTriggerConcentrateWatch S 11 AverageTime E A 1 1 1 E I 1 1 T 4 10 s E I 1 3 T 4 10 s E I 1 3 E E E E E M 3 9 pathCount 2 1 1 4 1000 17 watchManagerClass 2 12 WatchManager 21 WatchManagerOptimized 12 watcherCount 2 1 1 4 1000 U 12 MILLISECONDS E E 
+│ +JMH S 44 org.apache.zookeeper.server.watch.WatchBench S 85 org.apache.zookeeper.server.watch.generated.WatchBench_testTriggerSparseWatch_jmhTest S 22 testTriggerSparseWatch S 11 AverageTime E A 1 1 1 E I 1 1 T 4 10 s E I 1 3 T 4 10 s E I 1 3 E E E E E M 3 9 pathCount 1 5 10000 17 watchManagerClass 2 12 WatchManager 21 WatchManagerOptimized 12 watcherCount 1 5 10000 U 12 MILLISECONDS E E 
+
