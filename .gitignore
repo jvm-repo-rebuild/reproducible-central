@@ -23,3 +23,6 @@ wip/maven-metadata.xml
 m2/toolchains.xml
 m2/repository*/
 tmp/
+.wip/*.diffoscope
+.wip/*.buildinfo
+.wip/*.buildcompare
