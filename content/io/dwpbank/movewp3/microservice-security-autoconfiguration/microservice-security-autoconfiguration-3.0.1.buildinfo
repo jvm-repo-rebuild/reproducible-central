@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=MoveWP3 Microservice Security Autoconfiguration
+group-id=io.dwpbank.movewp3
+artifact-id=microservice-security-autoconfiguration
+version=3.0.1
+
+# source information
+source.scm.uri=scm:git:git://github.com/movewp3/microservice-security-autoconfiguration.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=microservice-security-autoconfiguration-3.0.1.pom
+outputs.0.length=12780
+outputs.0.checksums.sha512=9e74a81ad8a58872d30270afc93cc3bf8efcb1a54f6c9411fa01ad0d01fba1c8707a7f65275b31e9609f409e67d3f9f9e821aac1774e527013d8a54bb63fcb02
+
+outputs.1.filename=microservice-security-autoconfiguration-3.0.1.jar
+outputs.1.length=9987
+outputs.1.checksums.sha512=9c9c357fbfd3021ebc9958c3c89f7531765a335c0a11ed11acde7976802b4523c007690aecd0e336b14f2149b9cea6cc561f9a5195193f5c0bab81461112be62
+
+outputs.2.filename=microservice-security-autoconfiguration-3.0.1-sources.jar
+outputs.2.length=9016
+outputs.2.checksums.sha512=095e007b3b973de0e9d8353f43fb221bcf74dae94fcfd23327063e6a4ca8b63cca346f14f3400e8c5044712e5bebaabb55962fb7bc9f72e08859e489faaa7c2f

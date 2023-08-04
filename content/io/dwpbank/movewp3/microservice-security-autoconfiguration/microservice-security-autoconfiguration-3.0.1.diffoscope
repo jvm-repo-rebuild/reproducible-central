@@ -1,0 +1,140 @@
+1 / 2 target/reference/microservice-security-autoconfiguration-3.0.1.jar target/microservice-security-autoconfiguration-3.0.1.jar
+--- target/reference/microservice-security-autoconfiguration-3.0.1.jar
++++ target/microservice-security-autoconfiguration-3.0.1.jar
+├── zipinfo {}
+│ @@ -1,22 +1,22 @@
+│ -Zip file size: 9989 bytes, number of entries: 20
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-03 09:58 META-INF/
+│ --rw-r--r--  2.0 unx      129 b- defN 23-Aug-03 09:58 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-03 09:58 io/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-03 09:58 io/dwpbank/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-03 09:58 io/dwpbank/movewp3/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-03 09:58 io/dwpbank/movewp3/microservice/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-03 09:58 io/dwpbank/movewp3/microservice/security/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-03 09:58 io/dwpbank/movewp3/microservice/security/autoconfiguration/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-03 09:58 io/dwpbank/movewp3/microservice/security/autoconfiguration/server/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-03 09:58 io/dwpbank/movewp3/microservice/security/autoconfiguration/client/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-03 09:58 META-INF/spring/
+│ --rw-r--r--  2.0 unx     6259 b- defN 23-Aug-03 09:58 io/dwpbank/movewp3/microservice/security/autoconfiguration/server/WebSecurityAutoConfiguration.class
+│ --rw-r--r--  2.0 unx     5767 b- defN 23-Aug-03 09:58 io/dwpbank/movewp3/microservice/security/autoconfiguration/client/WebClientOauth2AutoConfiguration.class
+│ --rw-r--r--  2.0 unx      557 b- defN 23-Aug-03 09:58 io/dwpbank/movewp3/microservice/security/autoconfiguration/client/OAuth2Aware.class
+│ --rw-r--r--  2.0 unx      193 b- defN 23-Aug-03 09:58 META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports
+│ -?rwsrwsrwt  2.0 unx        0 b- stor 23-Aug-03 09:58 META-INF/maven/
+│ -?rwsrwsrwt  2.0 unx        0 b- stor 23-Aug-03 09:58 META-INF/maven/io.dwpbank.movewp3/
+│ -?rwsrwsrwt  2.0 unx        0 b- stor 23-Aug-03 09:58 META-INF/maven/io.dwpbank.movewp3/microservice-security-autoconfiguration/
+│ --rw-r--r--  2.0 unx    12780 b- defN 23-Aug-03 09:58 META-INF/maven/io.dwpbank.movewp3/microservice-security-autoconfiguration/pom.xml
+│ --rw-r--r--  2.0 unx      142 b- defN 23-Aug-03 09:58 META-INF/maven/io.dwpbank.movewp3/microservice-security-autoconfiguration/pom.properties
+│ -20 files, 25827 bytes uncompressed, 6445 bytes compressed:  75.0%
+│ +Zip file size: 9987 bytes, number of entries: 20
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-04 22:11 META-INF/
+│ +-rw-r--r--  2.0 unx      128 b- defN 23-Aug-04 22:11 META-INF/MANIFEST.MF
+│ +drwxrwxr-x  2.0 unx        0 b- stor 23-Aug-04 22:11 io/
+│ +drwxrwxr-x  2.0 unx        0 b- stor 23-Aug-04 22:11 io/dwpbank/
+│ +drwxrwxr-x  2.0 unx        0 b- stor 23-Aug-04 22:11 io/dwpbank/movewp3/
+│ +drwxrwxr-x  2.0 unx        0 b- stor 23-Aug-04 22:11 io/dwpbank/movewp3/microservice/
+│ +drwxrwxr-x  2.0 unx        0 b- stor 23-Aug-04 22:11 io/dwpbank/movewp3/microservice/security/
+│ +drwxrwxr-x  2.0 unx        0 b- stor 23-Aug-04 22:11 io/dwpbank/movewp3/microservice/security/autoconfiguration/
+│ +drwxrwxr-x  2.0 unx        0 b- stor 23-Aug-04 22:11 io/dwpbank/movewp3/microservice/security/autoconfiguration/client/
+│ +drwxrwxr-x  2.0 unx        0 b- stor 23-Aug-04 22:11 io/dwpbank/movewp3/microservice/security/autoconfiguration/server/
+│ +drwxrwxr-x  2.0 unx        0 b- stor 23-Aug-04 22:11 META-INF/spring/
+│ +-rw-rw-r--  2.0 unx     5767 b- defN 23-Aug-04 22:11 io/dwpbank/movewp3/microservice/security/autoconfiguration/client/WebClientOauth2AutoConfiguration.class
+│ +-rw-rw-r--  2.0 unx      557 b- defN 23-Aug-04 22:11 io/dwpbank/movewp3/microservice/security/autoconfiguration/client/OAuth2Aware.class
+│ +-rw-rw-r--  2.0 unx     6259 b- defN 23-Aug-04 22:11 io/dwpbank/movewp3/microservice/security/autoconfiguration/server/WebSecurityAutoConfiguration.class
+│ +-rw-rw-r--  2.0 unx      193 b- defN 23-Aug-04 22:11 META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports
+│ +?rwsrwsrwt  2.0 unx        0 b- stor 23-Aug-04 22:11 META-INF/maven/
+│ +?rwsrwsrwt  2.0 unx        0 b- stor 23-Aug-04 22:11 META-INF/maven/io.dwpbank.movewp3/
+│ +?rwsrwsrwt  2.0 unx        0 b- stor 23-Aug-04 22:11 META-INF/maven/io.dwpbank.movewp3/microservice-security-autoconfiguration/
+│ +-rw-rw-r--  2.0 unx    12780 b- defN 23-Aug-04 22:11 META-INF/maven/io.dwpbank.movewp3/microservice-security-autoconfiguration/pom.xml
+│ +-rw-rw-r--  2.0 unx      142 b- defN 23-Aug-04 22:11 META-INF/maven/io.dwpbank.movewp3/microservice-security-autoconfiguration/pom.properties
+│ +20 files, 25826 bytes uncompressed, 6443 bytes compressed:  75.1%
+├── zipnote «TEMP»/diffoscope_96kfclnb_target/tmpqhw48h2y_.zip
+│ @@ -18,32 +18,32 @@
+│  
+│  Filename: io/dwpbank/movewp3/microservice/security/
+│  Comment: 
+│  
+│  Filename: io/dwpbank/movewp3/microservice/security/autoconfiguration/
+│  Comment: 
+│  
+│ -Filename: io/dwpbank/movewp3/microservice/security/autoconfiguration/server/
+│ -Comment: 
+│ -
+│  Filename: io/dwpbank/movewp3/microservice/security/autoconfiguration/client/
+│  Comment: 
+│  
+│ -Filename: META-INF/spring/
+│ +Filename: io/dwpbank/movewp3/microservice/security/autoconfiguration/server/
+│  Comment: 
+│  
+│ -Filename: io/dwpbank/movewp3/microservice/security/autoconfiguration/server/WebSecurityAutoConfiguration.class
+│ +Filename: META-INF/spring/
+│  Comment: 
+│  
+│  Filename: io/dwpbank/movewp3/microservice/security/autoconfiguration/client/WebClientOauth2AutoConfiguration.class
+│  Comment: 
+│  
+│  Filename: io/dwpbank/movewp3/microservice/security/autoconfiguration/client/OAuth2Aware.class
+│  Comment: 
+│  
+│ +Filename: io/dwpbank/movewp3/microservice/security/autoconfiguration/server/WebSecurityAutoConfiguration.class
+│ +Comment: 
+│ +
+│  Filename: META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports
+│  Comment: 
+│  
+│  Filename: META-INF/maven/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/io.dwpbank.movewp3/
+├── META-INF/MANIFEST.MF
+│ @@ -1,6 +1,6 @@
+│  Manifest-Version: 1.0
+│  Archiver-Version: Plexus Archiver
+│ -Created-By: Apache Maven 3.8.2
+│ -Built-By: runner
+│ -Build-Jdk: 17.0.8
+│ +Created-By: Apache Maven 3.6.3
+│ +Built-By: herve
+│ +Build-Jdk: 17.0.6
+├── META-INF/maven/io.dwpbank.movewp3/microservice-security-autoconfiguration/pom.properties
+│ @@ -1,5 +1,5 @@
+│  #Generated by Maven
+│ -#Thu Aug 03 09:58:26 UTC 2023
+│ +#Fri Aug 04 22:11:06 UTC 2023
+│  groupId=io.dwpbank.movewp3
+│  artifactId=microservice-security-autoconfiguration
+│  version=3.0.1
+
+2 / 2 target/reference/microservice-security-autoconfiguration-3.0.1-sources.jar target/microservice-security-autoconfiguration-3.0.1-sources.jar
+--- target/reference/microservice-security-autoconfiguration-3.0.1-sources.jar
++++ target/microservice-security-autoconfiguration-3.0.1-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 9017 bytes, number of entries: 20
+│ +Zip file size: 9016 bytes, number of entries: 20
+│  -rw-r--r--  2.0 unx       64 b- defN 23-Aug-03 09:53 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-03 09:53 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-03 09:53 io/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-03 09:53 io/dwpbank/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-03 09:53 io/dwpbank/movewp3/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-03 09:53 io/dwpbank/movewp3/microservice/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-03 09:53 io/dwpbank/movewp3/microservice/security/
+│ @@ -15,8 +15,8 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-03 09:53 META-INF/maven/io.dwpbank.movewp3/microservice-security-autoconfiguration/
+│  -rw-r--r--  2.0 unx      934 b- defN 23-Aug-03 09:53 io/dwpbank/movewp3/microservice/security/autoconfiguration/client/OAuth2Aware.java
+│  -rw-r--r--  2.0 unx     5614 b- defN 23-Aug-03 09:53 io/dwpbank/movewp3/microservice/security/autoconfiguration/client/WebClientOauth2AutoConfiguration.java
+│  -rw-r--r--  2.0 unx     2959 b- defN 23-Aug-03 09:53 io/dwpbank/movewp3/microservice/security/autoconfiguration/server/WebSecurityAutoConfiguration.java
+│  -rw-r--r--  2.0 unx      193 b- defN 23-Aug-03 09:53 META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports
+│  -rw-r--r--  2.0 unx    12780 b- defN 23-Aug-03 09:53 META-INF/maven/io.dwpbank.movewp3/microservice-security-autoconfiguration/pom.xml
+│  -rw-r--r--  2.0 unx      142 b- defN 23-Aug-03 09:53 META-INF/maven/io.dwpbank.movewp3/microservice-security-autoconfiguration/pom.properties
+│ -20 files, 22686 bytes uncompressed, 5479 bytes compressed:  75.8%
+│ +20 files, 22686 bytes uncompressed, 5478 bytes compressed:  75.9%
+├── META-INF/maven/io.dwpbank.movewp3/microservice-security-autoconfiguration/pom.properties
+│ @@ -1,5 +1,5 @@
+│  #Generated by Maven
+│ -#Thu Aug 03 09:58:26 UTC 2023
+│ +#Fri Aug 04 22:11:06 UTC 2023
+│  groupId=io.dwpbank.movewp3
+│  artifactId=microservice-security-autoconfiguration
+│  version=3.0.1
+

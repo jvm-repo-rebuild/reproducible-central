@@ -1,0 +1,9 @@
+version=3.0.1
+ok=1
+ko=2
+okFiles="microservice-security-autoconfiguration-3.0.1.pom"
+koFiles="microservice-security-autoconfiguration-3.0.1.jar microservice-security-autoconfiguration-3.0.1-sources.jar"
+reference_java_version="17.0.8 (from MANIFEST.MF Build-Jdk)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/microservice-security-autoconfiguration-3.0.1.jar target/microservice-security-autoconfiguration-3.0.1.jar
+# diffoscope target/reference/microservice-security-autoconfiguration-3.0.1-sources.jar target/microservice-security-autoconfiguration-3.0.1-sources.jar

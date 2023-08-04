@@ -1,0 +1,18 @@
+groupId=io.dwpbank.movewp3
+artifactId=microservice-security-autoconfiguration
+display=${groupId}:${artifactId}
+version=3.0.1
+
+gitRepo=https://github.com/movewp3/${artifactId}.git
+gitTag=v${version}
+
+tool=mvn
+jdk=17
+newline=lf
+#umask=022
+
+command="mvn -Pdeploy clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/movewp3/microservice-security-autoconfiguration/pull/19
