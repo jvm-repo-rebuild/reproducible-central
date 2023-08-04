@@ -4,6 +4,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20230804175737 --> [jmeter-java-dsl-parent](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 1.17 :heavy_check_mark: | [1.18](../content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-1.18.buildspec) | `bin/add-new-release.sh content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-1.17.buildspec 1.18` |
 | <!-- 20230613152450 --> [conventional-commits-version-policy](../content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | 1.0.1 :heavy_check_mark: | [1.0.3](../content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.3.buildspec) | `bin/add-new-release.sh content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.1.buildspec 1.0.3` |
 | <!-- 20230605023031 --> [mina-parent](../content/org/apache/mina/README.md) | 2.2.2 :heavy_check_mark: | [3.0.0-M2](../content/org/apache/mina/mina-3.0.0-M2.buildspec) | `bin/add-new-release.sh content/org/apache/mina/mina-2.2.2.buildspec 3.0.0-M2` |
 | <!-- 20230602074158 --> [metrics-parent](../content/io/dropwizard/metrics5/README.md) | 5.0.0-rc17 :heavy_check_mark: | [5.0.0](../content/io/dropwizard/metrics5/dropwizard-metrics-5.0.0.buildspec) | `bin/add-new-release.sh content/io/dropwizard/metrics5/dropwizard-metrics-5.0.0-rc17.buildspec 5.0.0` |
@@ -18,7 +19,6 @@ New Releases To Add
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
 | <!-- 20230803165939 --> [legend-engine](../content/org/finos/legend/engine/README.md) | 4.4.5 :warning: | [4.21.1](../content/org/finos/legend/engine/legend-engine-4.21.1.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.21.1` |
-| <!-- 20230803053411 --> [parent](../content/org/apache/zookeeper/README.md) | 3.8.1 :warning: | [3.9.0](../content/org/apache/zookeeper/zookeeper-3.9.0.buildspec) | `bin/add-new-release.sh content/org/apache/zookeeper/zookeeper-3.8.1.buildspec 3.9.0` |
 | <!-- 20230802085938 --> [arthas-all](../content/com/taobao/arthas/README.md) | 3.6.0 :warning: | [3.7.0](../content/com/taobao/arthas/arthas-3.7.0.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-3.6.0.buildspec 3.7.0` |
 | <!-- 20230801013709 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | 10.4.0 :warning: | [10.4.1-beta-4](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1-beta-4.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.0.buildspec 10.4.1-beta-4` |
 | <!-- 20230731213821 --> [guava](../content/com/google/guava/README.md) | 32.0.1-jre :warning: | [32.1.2-jre](../content/com/google/guava/guava-32.1.2-jre.buildspec) | `bin/add-new-release.sh content/com/google/guava/guava-32.0.1-jre.buildspec 32.1.2-jre` |

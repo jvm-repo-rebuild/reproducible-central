@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2099 releases** of **440 projects**:
+   rebuilding **2100 releases** of **440 projects**:
    - **1585** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 514 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - 515 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
 
@@ -160,7 +160,7 @@ Its objectives are to provide:
 | org.apache.tika | <a name='org.apache.tika:tika'></a>[tika](content/org/apache/tika/README.md) | 5 | 5 :warning: |
 | org.apache.wayang | <a name='org.apache.wayang:wayang'></a>[wayang](content/org/apache/wayang/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | org.apache.wss4j | <a name='org.apache.wss4j:wss4j'></a>[wss4j](content/org/apache/wss4j/README.md) | 5 | 4 :heavy_check_mark: / 1 :warning: |
-| org.apache.zookeeper | <a name='org.apache.zookeeper:parent'></a>[parent](content/org/apache/zookeeper/README.md) | 1 | 1 :warning: |
+| org.apache.zookeeper | <a name='org.apache.zookeeper:parent'></a>[parent](content/org/apache/zookeeper/README.md) | 2 | 2 :warning: |
 | org.apache.activemq | <a name='org.apache.activemq:artemis-pom'></a>[artemis-pom](content/org/apache/activemq/artemis/README.md) | 2 | 2 :warning: |
 | org.apache.aries.cdi | <a name='org.apache.aries.cdi:org.apache.aries.cdi'></a>[org.apache.aries.cdi](content/org/apache/aries/cdi/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | org.apache.aries.jax.rs | <a name='org.apache.aries.jax.rs:org.apache.aries.jax.rs'></a>[org.apache.aries.jax.rs](content/org/apache/aries/jax-rs/README.md) | 1 | 1 :heavy_check_mark: |
@@ -462,7 +462,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 20 | 20 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **440** | **2099** | **1585** :heavy_check_mark: **514** :warning: |
+| **Count:** | **440** | **2100** | **1585** :heavy_check_mark: **515** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -506,7 +506,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn-3.9.2   8
       4 mvn-3.9.2  17
       2 mvn-3.9.3   8
-      8 mvn-3.9.3  11
+      9 mvn-3.9.3  11
       1 mvn-3.9.3  17
       2 mvn-3.9.3  19
       2 sbt         8
