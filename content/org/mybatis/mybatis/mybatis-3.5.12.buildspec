@@ -15,4 +15,5 @@ command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope
-issue=
+# included in parent release 34, that will be used in mybatis 3.5.14 https://github.com/mybatis/mybatis-3/commit/7e3dee0139d004ea06857f66c5f868215fc65b71
+issue=https://github.com/mybatis/parent/commit/ac52e352951dcfb928824429d576c0c93acf5a9d
