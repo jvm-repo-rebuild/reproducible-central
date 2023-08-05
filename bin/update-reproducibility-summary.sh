@@ -15,6 +15,22 @@ prevGroupId=
 stats="tmp/stats.txt"
 echo -n > $stats
 
+function keepVersion() {
+  local dir=$1
+  local version=$2
+  if [ -f $dir/ignore ]
+  then
+    while IFS= read -r line
+    do
+      if [ "$line" == "$version" ]
+      then
+        return 1
+      fi
+    done < $dir/ignore
+  fi
+  return 0
+}
+
 for m in `find content -name "maven-metadata.xml" -print | grep -v buildcache | sed 's_/maven-metadata.xml__'`
 do
   echo "${m##*/} ${m%/*}"
@@ -45,8 +61,10 @@ do
     fi
   done
   newestVersion=
+  highestVersion=
   for version in $(tac "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
   do
+    [ -z "$highestVersion" ] && keepVersion $dir $version && highestVersion=$version
     if [ -n "$(ls $dir | grep "\-${version}\.buildspec")" ]
     then
       newestVersion="$version"
@@ -58,6 +76,9 @@ do
 
   for version in $(tac "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
   do
+    # report only on non-ignored versions
+    keepVersion $dir $version || continue
+
     buildspec=$(ls $dir | grep "\-${version}\.buildspec")
     _buildinfo=$(ls $dir | grep "\-${version}\.buildinfo")
     buildcompare=$(ls $dir | grep "\-${version}\.buildcompare")
@@ -83,7 +104,7 @@ do
         echo "Source code: [$gitRepo]($gitRepo)" >> ${projectReadme}
         echo >> ${projectReadme}
 
-        projectGa=$(cat $dir/*.buildinfo | grep coordinates | cut -d = -f 2 | sort -u | wc -l)
+        projectGa="$(( $(cat $dir/*.buildinfo | grep coordinates | cut -d = -f 2 | sort -u | wc -l) ))"
         if [ $projectGa -gt 1 ]
         then
           echo "<details><summary>This project defines $projectGa modules:</summary>" >> ${projectReadme}
@@ -108,9 +129,9 @@ do
       echo -n "](${buildspec}) | " >> tmp/${projectReadme}
       [ -f "${dir}/${_buildinfo}" ] && echo -n "[result](${_buildinfo}): " >> tmp/${projectReadme}
 
-      . "${dir}/${buildcompare}"
-      if [ $? -eq 0 ]
+      if [ -f "${dir}/${buildcompare}" ]
       then
+        . "${dir}/${buildcompare}"
         echo -n "[" >> tmp/${projectReadme}
         [ "${ok}" -gt 0 ] && echo -n "${ok} :heavy_check_mark: " >> tmp/${projectReadme}
         [ "${ko}" -gt 0 ] && echo -n " ${ko} :warning:" >> tmp/${projectReadme} || ((countVersionOk++))
@@ -122,10 +143,10 @@ do
         # detect unexpected issue or diffoscope but 0 non-reproducible artifact (probably cause by previous buildspec copy)
         [[ -z "${issue}" ]] && [[ -n "${diffoscope}" ]] && issue="${diffoscope}"
         [[ -n "${issue}" ]] && [ "${ko}" -eq 0 ] && echo -e "\n\033[1;31munexpected issue/diffoscope entry when ko=0\033[0m in \033[1m$dir/$buildspec\033[0m" >> tmp/${projectReadme}
+        echo " | $(grep length= ${dir}/${_buildinfo} | cut -d = -f 2 | paste -sd+ - | bc | numfmt --to=iec) |" >> tmp/${projectReadme}
       else
-        echo -n ":x:" >> tmp/${projectReadme}
+        echo ":x: | |" >> tmp/${projectReadme}
       fi
-      echo " | $(grep length= ${dir}/${_buildinfo} | cut -d = -f 2 | paste -sd+ - | bc | numfmt --to=iec) |" >> tmp/${projectReadme}
     else
       # no buildspec, just list version to tmp
       echo "| [${version}](https://central.sonatype.com/artifact/${groupId}/${artifactId}/${version}/pom) | | | |" >> "tmp/${projectReadme}"
@@ -165,7 +186,7 @@ do
   echo " |" >> ${summary}
 
   # if newer release exists, prepare add-new-release instructions
-  if [ "${latestVersion}" != "${newestVersion}" ]
+  if [ "${highestVersion}" != "${newestVersion}" ]
   then
     buildspec=$(ls $dir | grep "\-${newestVersion}\.buildspec")
     buildcompare=$(ls $dir | grep "\-${newestVersion}\.buildcompare")
