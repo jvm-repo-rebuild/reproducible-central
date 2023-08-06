@@ -205,7 +205,7 @@ do
     then
       link=":warning:"
     else
-      link=":warning: [:mag:]($issue)"
+      link=":warning: [:memo:]($issue)"
     fi
   fi
   # if newer release exists, prepare add-new-release instructions
