@@ -1,3 +1,4 @@
+# unexpected permission on some files from the local repository: release manager will require some cleanup to restore consistent permissions
 1 / 1 target/reference/jee-examples-7.0.2.war jakarta-ee/jee-examples/target/jee-examples-7.0.2.war
 --- target/reference/jee-examples-7.0.2.war
 +++ jakarta-ee/jee-examples/target/jee-examples-7.0.2.war
