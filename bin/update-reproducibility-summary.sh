@@ -51,23 +51,23 @@ do
   countVersionOk=0
 
   # detect oldest and newest versions that have a buildspec
-  oldestVersion=
+  oldestBuildspecVersion=
   for version in $(cat "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
   do
     if [ -n "$(ls $dir | grep "\-${version}\.buildspec")" ]
     then
-      oldestVersion="$version"
+      oldestBuildspecVersion="$version"
       break
     fi
   done
-  newestVersion=
+  newestBuildspecVersion=
   highestVersion=
   for version in $(tac "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
   do
     [ -z "$highestVersion" ] && keepVersion $dir $version && highestVersion=$version
     if [ -n "$(ls $dir | grep "\-${version}\.buildspec")" ]
     then
-      newestVersion="$version"
+      newestBuildspecVersion="$version"
       break
     fi
   done
@@ -152,7 +152,7 @@ do
       echo "| [${version}](https://central.sonatype.com/artifact/${groupId}/${artifactId}/${version}/pom) | | | |" >> "tmp/${projectReadme}"
     fi
     # don't continue if it's the oldest version with buildspec
-    [[ "$oldestVersion" == "$version" ]] && break
+    [[ "$oldestBuildspecVersion" == "$version" ]] && break
   done
 
   echo "rebuilding **${countVersion} releases** of ${groupId}:${artifactId}:" >> ${projectReadme}
@@ -186,10 +186,10 @@ do
   echo " |" >> ${summary}
 
   # if newer release exists, prepare add-new-release instructions
-  if [ "${highestVersion}" != "${newestVersion}" ]
+  if [ "${highestVersion}" != "${newestBuildspecVersion}" ]
   then
-    buildspec=$(ls $dir | grep "\-${newestVersion}\.buildspec")
-    buildcompare=$(ls $dir | grep "\-${newestVersion}\.buildcompare")
+    buildspec=$(ls $dir | grep "\-${newestBuildspecVersion}\.buildspec")
+    buildcompare=$(ls $dir | grep "\-${newestBuildspecVersion}\.buildcompare")
 
     issue=""
     . "${dir}/${buildspec}"
@@ -212,9 +212,9 @@ do
         link=":warning: [:mag:]($issue)"
       fi
     fi
-    file=`basename ${buildspec} -${newestVersion}.buildspec`
+    file=`basename ${buildspec} -${newestBuildspecVersion}.buildspec`
     latestBuildspec="${dir}/${file}-${latestVersion}.buildspec"
-    echo "| <!-- ${lastUpdated} --> [${artifactId}](../${dir}/README.md) | ${newestVersion} $link | [${latestVersion}](../$latestBuildspec) | \`bin/add-new-release.sh $dir/${buildspec} ${latestVersion}\` |" >> ${out}
+    echo "| <!-- ${lastUpdated} --> [${artifactId}](../${dir}/README.md) | ${newestBuildspecVersion} $link | [${latestVersion}](../$latestBuildspec) | \`bin/add-new-release.sh $dir/${buildspec} ${latestVersion}\` |" >> ${out}
   fi
 done
 
