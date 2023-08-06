@@ -13,6 +13,7 @@ rebuilding **6 releases** of org.codehaus.plexus:plexus-components:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [14.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-components/14.1/pom) | | | |
 | [10.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-components/10.0/pom) | [mvn jdk8](plexus-components-10.0.buildspec) | [result](plexus-components-10.0.buildinfo): [3 :heavy_check_mark: ](plexus-components-10.0.buildcompare) | 7.2K |
 | [9.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-components/9.0/pom) | [mvn jdk8](plexus-components-9.0.buildspec) | [result](plexus-components-9.0.buildinfo): [3 :heavy_check_mark: ](plexus-components-9.0.buildcompare) | 7.2K |
 | [6.6](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-components/6.6/pom) | [mvn jdk7](plexus-components-6.6.buildspec) | [result](plexus-components-6.6.buildinfo): [3 :heavy_check_mark: ](plexus-components-6.6.buildcompare) | 8.5K |
