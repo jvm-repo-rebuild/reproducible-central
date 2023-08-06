@@ -185,36 +185,40 @@ do
   fi
   echo " |" >> ${summary}
 
+  # check newest release
+  newestBuildspec=$(ls $dir | grep "\-${newestBuildspecVersion}\.buildspec")
+  newestBuildcompare=$(ls $dir | grep "\-${newestBuildspecVersion}\.buildcompare")
+  issue=""
+  . "${dir}/${newestBuildspec}"
+  [ -f "${dir}/${newestBuildcompare}" ] && . "${dir}/${newestBuildcompare}"
+  if [ ! -f "${dir}/${newestBuildcompare}" ]
+  then
+    link=":x:"
+    out="tmp/add-ko.md"
+  elif [ $ko -eq 0 ]
+  then
+    link=":heavy_check_mark:"
+    out="tmp/add-ok.md"
+  else
+    out="tmp/add-ko.md"
+    if [ -z "$issue" ]
+    then
+      link=":warning:"
+    else
+      link=":warning: [:mag:]($issue)"
+    fi
+  fi
   # if newer release exists, prepare add-new-release instructions
   if [ "${highestVersion}" != "${newestBuildspecVersion}" ]
   then
-    buildspec=$(ls $dir | grep "\-${newestBuildspecVersion}\.buildspec")
-    buildcompare=$(ls $dir | grep "\-${newestBuildspecVersion}\.buildcompare")
-
-    issue=""
-    . "${dir}/${buildspec}"
-    . "${dir}/${buildcompare}"
-
-    if [ $? -ne 0 ]
+    latestBuildspec="${dir}/$(basename ${newestBuildspec} -${newestBuildspecVersion}.buildspec)-${latestVersion}.buildspec"
+    echo "| <!-- ${lastUpdated} --> [${artifactId}](../${dir}/README.md) | ${newestBuildspecVersion} $link | [${latestVersion}](../$latestBuildspec) | \`bin/add-new-release.sh $dir/${newestBuildspec} ${latestVersion}\` |" >> ${out}
+  else
+    # no newer relese exists, list newest release if it was not reproducible: it requires rework to prepare next release
+    if [ ! -f "${dir}/${newestBuildcompare}" ] || [ $ko -ne 0 ]
     then
-      link=":x:"
-      out="tmp/add-ko.md"
-    elif [ $ko -eq 0 ]
-    then
-      link=":heavy_check_mark:"
-      out="tmp/add-ok.md"
-    else
-      out="tmp/add-ko.md"
-      if [ -z "$issue" ]
-      then
-        link=":warning:"
-      else
-        link=":warning: [:mag:]($issue)"
-      fi
+      echo "| <!-- ${lastUpdated} --> [${artifactId}](../${dir}/README.md) | ${newestBuildspecVersion} $link |" >> tmp/newest-not-reproducible.md
     fi
-    file=`basename ${buildspec} -${newestBuildspecVersion}.buildspec`
-    latestBuildspec="${dir}/${file}-${latestVersion}.buildspec"
-    echo "| <!-- ${lastUpdated} --> [${artifactId}](../${dir}/README.md) | ${newestBuildspecVersion} $link | [${latestVersion}](../$latestBuildspec) | \`bin/add-new-release.sh $dir/${buildspec} ${latestVersion}\` |" >> ${out}
   fi
 done
 
@@ -248,14 +252,21 @@ sort -r tmp/add-ok.md >> tmp/add-ok-table.md
 echo "| artifactId | from | to | command |" > tmp/add-ko-table.md
 echo "| ---------- | ---- | -- | ------- |" >> tmp/add-ko-table.md
 sort -r tmp/add-ko.md >> tmp/add-ko-table.md
+echo "| artifactId | newest |" > tmp/newest-not-reproducible-table.md
+echo "| ---------- | ------ |" >> tmp/newest-not-reproducible-table.md
+sort -r tmp/newest-not-reproducible.md >> tmp/newest-not-reproducible-table.md
 lead='^<!-- BEGIN GENERATED ADD OK -->$'
 tail='^<!-- END GENERATED ADD OK -->$'
 lead_ko='^<!-- BEGIN GENERATED ADD KO -->$'
 tail_ko='^<!-- END GENERATED ADD KO -->$'
+lead_newest='^<!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->$'
+tail_newest='^<!-- END GENERATED NEWEST NOT REPRODUCIBLE -->$'
 sed -e "/$lead/,/$tail/{ /$lead/{p; r tmp/add-ok-table.md
         }; /$tail/p; d }" doc/add.md | \
     sed -e "/$lead_ko/,/$tail_ko/{ /$lead_ko/{p; r tmp/add-ko-table.md
-        }; /$tail_ko/p; d }" >> tmp/add.md
+        }; /$tail_ko/p; d }" | \
+    sed -e "/$lead_newest/,/$tail_newest/{ /$lead_newest/{p; r tmp/newest-not-reproducible-table.md
+        }; /$tail_newest/p; d }" >> tmp/add.md
 cp tmp/add.md doc/add.md
 
 \rm -rf tmp
