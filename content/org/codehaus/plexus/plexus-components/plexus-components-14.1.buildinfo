@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Components
+group-id=org.codehaus.plexus
+artifact-id=plexus-components
+version=14.1
+
+# source information
+source.scm.uri=scm:git:git@github.com:codehaus-plexus/plexus-components.git
+source.scm.tag=plexus-components-14.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=plexus-components-14.1.pom
+outputs.0.length=2830
+outputs.0.checksums.sha512=6ad6c09ebf6bd339731570b13f38cf1cfad604c36c38e15c53d67ce24201f6a12ec8a04d2891fa4a5ce96ee5f870a8cdf8dc386184de0a3d11d4c298b67db588
+
+outputs.1.filename=plexus-components-14.1-site.xml
+outputs.1.length=496
+outputs.1.checksums.sha512=a8ffe10dfdc9da78f9bff9312eb3a82492b24711ace635bd93f8de357a0ee164063541461c6604b9b503c10f42714d03ff6e028789994a26df0c360647f5efc5
+
+outputs.2.filename=plexus-components-14.1-source-release.zip
+outputs.2.length=2532
+outputs.2.checksums.sha512=8d2d7c80b054afc6985624dc78f9adc77774745693a4db2d3b8b36d30bc6e5156d799d5f17a5c9631a474b2b77d54e94f943e25be292d6f8ce9dd537098ca3eb
