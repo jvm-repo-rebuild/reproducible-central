@@ -1,3 +1,4 @@
+# see https://issues.apache.org/jira/browse/MJAR-275
 $ diffoscope target/reference/stringprep-2.0.jar stringprep/target/stringprep-2.0.jar
 --- target/reference/stringprep-2.0.jar
 +++ stringprep/target/stringprep-2.0.jar
