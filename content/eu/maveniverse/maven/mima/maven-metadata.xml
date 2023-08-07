@@ -3,8 +3,8 @@
   <groupId>eu.maveniverse.maven.mima</groupId>
   <artifactId>mima</artifactId>
   <versioning>
-    <latest>2.3.3</latest>
-    <release>2.3.3</release>
+    <latest>2.3.4</latest>
+    <release>2.3.4</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0.1</version>
@@ -23,7 +23,8 @@
       <version>2.3.1</version>
       <version>2.3.2</version>
       <version>2.3.3</version>
+      <version>2.3.4</version>
     </versions>
-    <lastUpdated>20230802133814</lastUpdated>
+    <lastUpdated>20230807083659</lastUpdated>
   </versioning>
 </metadata>

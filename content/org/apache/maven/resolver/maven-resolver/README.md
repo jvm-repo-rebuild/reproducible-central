@@ -33,6 +33,7 @@ rebuilding **24 releases** of org.apache.maven.resolver:maven-resolver:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.9.15](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/1.9.15/pom) | | | |
 | [1.9.14](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/1.9.14/pom) | [mvn jdk17](maven-resolver-1.9.14.buildspec) | [result](maven-resolver-1.9.14.buildinfo): [71 :heavy_check_mark: ](maven-resolver-1.9.14.buildcompare) | 12M |
 | [1.9.13](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/1.9.13/pom) | [mvn jdk17](maven-resolver-1.9.13.buildspec) | [result](maven-resolver-1.9.13.buildinfo): [43 :heavy_check_mark: ](maven-resolver-1.9.13.buildcompare) | 11M |
 | [1.9.12](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/1.9.12/pom) | [mvn jdk17](maven-resolver-1.9.12.buildspec) | [result](maven-resolver-1.9.12.buildinfo): [43 :heavy_check_mark: ](maven-resolver-1.9.12.buildcompare) | 11M |
