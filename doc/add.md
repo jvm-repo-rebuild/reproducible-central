@@ -4,9 +4,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20230807155552 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | 5.2.0 :heavy_check_mark: | [5.3.1](../content/org/webjars/swagger-ui/swagger-ui-5.3.1.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.2.0.buildspec 5.3.1` |
-| <!-- 20230807155222 --> [flexmonster](../content/org/webjars/flexmonster/README.md) | 2.9.56 :heavy_check_mark: | [2.9.57](../content/org/webjars/flexmonster/flexmonster-2.9.57.buildspec) | `bin/add-new-release.sh content/org/webjars/flexmonster/flexmonster-2.9.56.buildspec 2.9.57` |
-| <!-- 20230807083659 --> [mima](../content/eu/maveniverse/maven/mima/README.md) | 2.3.3 :heavy_check_mark: | [2.3.4](../content/eu/maveniverse/maven/mima/mima-2.3.4.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/mima/mima-2.3.3.buildspec 2.3.4` |
+| <!-- 20230808104946 --> [hsac-fitnesse-fixtures](../content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 5.2.40 :heavy_check_mark: | [5.2.41](../content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.2.41.buildspec) | `bin/add-new-release.sh content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.2.40.buildspec 5.2.41` |
 | <!-- 20230807075142 --> [maven-resolver](../content/org/apache/maven/resolver/maven-resolver/README.md) | 1.9.14 :heavy_check_mark: | [1.9.15](../content/org/apache/maven/resolver/maven-resolver/maven-resolver-1.9.15.buildspec) | `bin/add-new-release.sh content/org/apache/maven/resolver/maven-resolver/maven-resolver-1.9.14.buildspec 1.9.15` |
 | <!-- 20230806144110 --> [yauaa](../content/nl/basjes/parse/useragent/yauaa/README.md) | 7.21.0 :heavy_check_mark: | [7.22.0](../content/nl/basjes/parse/useragent/yauaa/yauaa-7.22.0.buildspec) | `bin/add-new-release.sh content/nl/basjes/parse/useragent/yauaa/yauaa-7.21.0.buildspec 7.22.0` |
 | <!-- 20230613152450 --> [conventional-commits-version-policy](../content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | 1.0.1 :heavy_check_mark: | [1.0.3](../content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.3.buildspec) | `bin/add-new-release.sh content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.1.buildspec 1.0.3` |
@@ -20,9 +18,10 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20230803165939 --> [legend-engine](../content/org/finos/legend/engine/README.md) | 4.4.5 :warning: | [4.21.1](../content/org/finos/legend/engine/legend-engine-4.21.1.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.21.1` |
+| <!-- 20230808193124 --> [legend-engine](../content/org/finos/legend/engine/README.md) | 4.4.5 :warning: | [4.22.0](../content/org/finos/legend/engine/legend-engine-4.22.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.22.0` |
+| <!-- 20230808061603 --> [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | 2.9.12 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-servlets-resolver/pull/36) | [2.9.14](../content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.9.14.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.9.12.buildspec 2.9.14` |
+| <!-- 20230808012033 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | 10.4.0 :warning: | [10.4.1-beta-5](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1-beta-5.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.0.buildspec 10.4.1-beta-5` |
 | <!-- 20230802085938 --> [arthas-all](../content/com/taobao/arthas/README.md) | 3.6.0 :warning: | [3.7.0](../content/com/taobao/arthas/arthas-3.7.0.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-3.6.0.buildspec 3.7.0` |
-| <!-- 20230801013709 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | 10.4.0 :warning: | [10.4.1-beta-4](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1-beta-4.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.0.buildspec 10.4.1-beta-4` |
 | <!-- 20230731213821 --> [guava](../content/com/google/guava/README.md) | 32.0.1-jre :warning: | [32.1.2-jre](../content/com/google/guava/guava-32.1.2-jre.buildspec) | `bin/add-new-release.sh content/com/google/guava/guava-32.0.1-jre.buildspec 32.1.2-jre` |
 | <!-- 20230731184152 --> [jooby](../content/io/jooby/README.md) | 3.0.0.M7 :warning: | [3.0.1](../content/io/jooby/jooby-3.0.1.buildspec) | `bin/add-new-release.sh content/io/jooby/jooby-3.0.0.M7.buildspec 3.0.1` |
 | <!-- 20230731112713 --> [dubbo](../content/org/apache/dubbo/README.md) | 3.1.9 :warning: | [3.2.4](../content/org/apache/dubbo/dubbo-3.2.4.buildspec) | `bin/add-new-release.sh content/org/apache/dubbo/dubbo-3.1.9.buildspec 3.2.4` |
@@ -86,7 +85,6 @@ New Releases To Add
 | <!-- 20230615205255 --> [maven-parent](../content/org/apache/maven/parent/README.md) | 40 :warning: |
 | <!-- 20230608151130 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.1.2 :warning: |
 | <!-- 20230607214213 --> [modello](../content/org/codehaus/modello/README.md) | 2.1.2 :warning: |
-| <!-- 20230607112824 --> [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | 2.9.12 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-servlets-resolver/pull/36) |
 | <!-- 20230606153619 --> [jsign](../content/net/jsign/README.md) | 5.0 :warning: |
 | <!-- 20230602144254 --> [org.apache.sling.models.impl](../content/org/apache/sling/org.apache.sling.models.impl/README.md) | 1.6.4 :warning: |
 | <!-- 20230530232841 --> [jackson-databind](../content/com/fasterxml/jackson/databind/README.md) | 2.15.2 :warning: |
