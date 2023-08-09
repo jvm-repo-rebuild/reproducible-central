@@ -23,6 +23,8 @@ rebuilding **15 releases** of ch.qos.logback:logback-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.4.11](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.4.11/pom) | | | |
+| [1.4.10](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.4.10/pom) | | | |
 | [1.4.9](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.4.9/pom) | [mvn jdk20 w](logback-1.4.9.buildspec) | [result](logback-parent-1.4.9.buildinfo): [16 :heavy_check_mark: ](logback-parent-1.4.9.buildcompare) | 3.2M |
 | [1.4.8](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.4.8/pom) | [mvn jdk20 w](logback-1.4.8.buildspec) | [result](logback-parent-1.4.8.buildinfo): [16 :heavy_check_mark: ](logback-parent-1.4.8.buildcompare) | 3.2M |
 | [1.4.7](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.4.7/pom) | [mvn jdk20 w](logback-1.4.7.buildspec) | [result](logback-parent-1.4.7.buildinfo): [16 :heavy_check_mark: ](logback-parent-1.4.7.buildcompare) | 3.1M |
@@ -33,6 +35,8 @@ rebuilding **15 releases** of ch.qos.logback:logback-parent:
 | [1.4.2](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.4.2/pom) | | | |
 | [1.4.1](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.4.1/pom) | [mvn jdk18](logback-1.4.1.buildspec) | [result](logback-parent-1.4.1.buildinfo): [14 :heavy_check_mark:  2 :warning:](logback-parent-1.4.1.buildcompare) [:mag:](logback-parent-1.4.1.diffoscope) | 3.1M |
 | [1.4.0](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.4.0/pom) | [mvn jdk18](logback-1.4.0.buildspec) | [result](logback-parent-1.4.0.buildinfo): [13 :heavy_check_mark:  3 :warning:](logback-parent-1.4.0.buildcompare) | 3.1M |
+| [1.3.11](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.3.11/pom) | | | |
+| [1.3.10](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.3.10/pom) | | | |
 | [1.3.9](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.3.9/pom) | | | |
 | [1.3.8](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.3.8/pom) | | | |
 | [1.3.7](https://central.sonatype.com/artifact/ch.qos.logback/logback-parent/1.3.7/pom) | | | |
