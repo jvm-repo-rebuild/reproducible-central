@@ -17,8 +17,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20230809230519 --> [legend-engine](../content/org/finos/legend/engine/README.md) | 4.4.5 :warning: | [4.22.1](../content/org/finos/legend/engine/legend-engine-4.22.1.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.22.1` |
 | <!-- 20230809055528 --> [dubbo](../content/org/apache/dubbo/README.md) | 3.1.9 :warning: | [3.2.5](../content/org/apache/dubbo/dubbo-3.2.5.buildspec) | `bin/add-new-release.sh content/org/apache/dubbo/dubbo-3.1.9.buildspec 3.2.5` |
-| <!-- 20230808193124 --> [legend-engine](../content/org/finos/legend/engine/README.md) | 4.4.5 :warning: | [4.22.0](../content/org/finos/legend/engine/legend-engine-4.22.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.22.0` |
 | <!-- 20230808061603 --> [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | 2.9.12 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-servlets-resolver/pull/36) | [2.9.14](../content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.9.14.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.9.12.buildspec 2.9.14` |
 | <!-- 20230808012033 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | 10.4.0 :warning: | [10.4.1-beta-5](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1-beta-5.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.0.buildspec 10.4.1-beta-5` |
 | <!-- 20230802085938 --> [arthas-all](../content/com/taobao/arthas/README.md) | 3.6.0 :warning: | [3.7.0](../content/com/taobao/arthas/arthas-3.7.0.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-3.6.0.buildspec 3.7.0` |
@@ -68,6 +68,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20230810033447 --> [spdx-maven-plugin](../content/org/spdx/spdx-maven-plugin/README.md) | 0.7.0 :warning: |
 | <!-- 20230803100648 --> [microservice-security-autoconfiguration](../content/io/dwpbank/movewp3/microservice-security-autoconfiguration/README.md) | 3.0.1 :warning: [:memo:](https://github.com/movewp3/microservice-security-autoconfiguration/pull/19) |
 | <!-- 20230803053411 --> [parent](../content/org/apache/zookeeper/README.md) | 3.9.0 :warning: [:memo:](https://issues.apache.org/jira/browse/ZOOKEEPER-4732) |
 | <!-- 20230729004927 --> [shiro-root](../content/org/apache/shiro/README.md) | 2.0.0-alpha-3 :warning: |
@@ -105,7 +106,6 @@ New Releases To Add
 | <!-- 20230502225655 --> [ldapchai](../content/com/github/ldapchai/README.md) | 0.8.5 :warning: [:memo:](https://github.com/ldapchai/ldapchai/issues/28) |
 | <!-- 20230429054803 --> [drill-root](../content/org/apache/drill/README.md) | 1.21.1 :warning: [:memo:](https://github.com/apache/drill/pull/2805) |
 | <!-- 20230421160820 --> [mybatis-dynamic-sql](../content/org/mybatis/dynamic-sql/README.md) | 1.5.0 :warning: |
-| <!-- 20230417024910 --> [spdx-maven-plugin](../content/org/spdx/spdx-maven-plugin/README.md) | 0.6.5 :warning: |
 | <!-- 20230412131318 --> [antisamy](../content/org/owasp/antisamy/README.md) | 1.7.3 :warning: |
 | <!-- 20230330132017 --> [xmlsec](../content/org/apache/santuario/xmlsec/README.md) | 3.0.2 :warning: [:memo:](https://github.com/apache/santuario-xml-security-java/pull/77) |
 | <!-- 20230329020048 --> [hk2-parent](../content/org/glassfish/hk2/README.md) | 3.0.4 :warning: [:memo:](https://github.com/eclipse-ee4j/glassfish-hk2/pull/821) |
