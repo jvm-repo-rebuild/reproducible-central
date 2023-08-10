@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling JCR Jackrabbit Access Manager
+group-id=org.apache.sling
+artifact-id=org.apache.sling.jcr.jackrabbit.accessmanager
+version=3.1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-jcr-jackrabbit-accessmanager.git
+source.scm.tag=org.apache.sling.jcr.jackrabbit.accessmanager-3.1.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.jcr.jackrabbit.accessmanager-3.1.0.pom
+outputs.0.length=10297
+outputs.0.checksums.sha512=bc31f83e2d380af3c1605cd100530ff4e663e60b58003f79f5a29817ad6049fa8723d20a23d210eacaee46aeb59388d2de947d8cfc6dfc8603b6b27049f3c2bf
+
+outputs.1.filename=org.apache.sling.jcr.jackrabbit.accessmanager-3.1.0.jar
+outputs.1.length=114415
+outputs.1.checksums.sha512=0dbe28e89ad254f5d9456638b5963ad614a05cfa183cda03a9ca0eb86412cf30ae06ba2c540e7d78f2866af991a38df7c60b0cbf710b7a6d51e259340c4ee490
+
+outputs.2.filename=org.apache.sling.jcr.jackrabbit.accessmanager-3.1.0-source-release.zip
+outputs.2.length=179426
+outputs.2.checksums.sha512=756e6f8ce9f927d1098171e0cb2122b70d2f064c40f62406016bbf0b99fe0018e9c9945b0971e68c1bdba51161bdf9b9f3d74367e33ea1d313ffe44a1acbf6b4
+
+outputs.3.filename=org.apache.sling.jcr.jackrabbit.accessmanager-3.1.0-sources.jar
+outputs.3.length=84182
+outputs.3.checksums.sha512=118b471788f3d4b7d3ffba45351fc10891b3ff1880da48f1a831a40dbb896b2c8d8472a5b51baea183fe1bdeec386e6e65eed9400e5794dda96e65f108fa70ea
