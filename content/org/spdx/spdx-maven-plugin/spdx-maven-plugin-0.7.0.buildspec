@@ -1,16 +1,16 @@
 groupId=org.spdx
 artifactId=spdx-maven-plugin
 display=${groupId}:${artifactId}
-version=0.6.5
+version=0.7.0
 
 gitRepo=https://github.com/spdx/${artifactId}.git
 gitTag=v${version}
 
 tool=mvn
-jdk=13
+jdk=17
 newline=crlf
 
-command="SHELL mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dcyclonedx.skip"
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dcyclonedx.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope

@@ -1,0 +1,8 @@
+version=0.7.0
+ok=1
+ko=1
+okFiles="spdx-maven-plugin-0.7.0.pom"
+koFiles="spdx-maven-plugin-0.7.0.jar"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/spdx-maven-plugin-0.7.0.jar target/spdx-maven-plugin-0.7.0.jar
