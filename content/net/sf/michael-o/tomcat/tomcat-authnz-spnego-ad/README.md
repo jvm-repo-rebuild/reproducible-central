@@ -21,6 +21,7 @@ rebuilding **2 releases** of net.sf.michael-o.tomcat:tomcat-authnz-spnego-ad:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.0.1](https://central.sonatype.com/artifact/net.sf.michael-o.tomcat/tomcat-authnz-spnego-ad/4.0.1/pom) | | | |
 | [4.0.0](https://central.sonatype.com/artifact/net.sf.michael-o.tomcat/tomcat-authnz-spnego-ad/4.0.0/pom) | [mvn jdk11 w](tomcat-authnz-spnego-ad-4.0.0.buildspec) | [result](tomcat-authnz-spnego-ad-4.0.0.buildinfo): [11 :heavy_check_mark: ](tomcat-authnz-spnego-ad-4.0.0.buildcompare) | 420K |
 | [3.9.0](https://central.sonatype.com/artifact/net.sf.michael-o.tomcat/tomcat-authnz-spnego-ad/3.9.0/pom) | [mvn jdk11 w](tomcat-authnz-spnego-ad-3.9.0.buildspec) | [result](tomcat-authnz-spnego-ad-3.9.0.buildinfo): [3 :heavy_check_mark: ](tomcat-authnz-spnego-ad-3.9.0.buildcompare) | 132K |
 

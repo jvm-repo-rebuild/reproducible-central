@@ -13,7 +13,7 @@ rebuilding **2 releases** of org.spdx:spdx-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.7.0](https://central.sonatype.com/artifact/org.spdx/spdx-maven-plugin/0.7.0/pom) | [mvn jdk17 w](spdx-maven-plugin-0.7.0.buildspec) | [result](spdx-maven-plugin-0.7.0.buildinfo): [1 :heavy_check_mark:  1 :warning:](spdx-maven-plugin-0.7.0.buildcompare) [:mag:](spdx-maven-plugin-0.7.0.diffoscope) | 129K |
+| [0.7.0](https://central.sonatype.com/artifact/org.spdx/spdx-maven-plugin/0.7.0/pom) | [mvn jdk17 w](spdx-maven-plugin-0.7.0.buildspec) | [result](spdx-maven-plugin-0.7.0.buildinfo): [1 :heavy_check_mark:  1 :warning:](spdx-maven-plugin-0.7.0.buildcompare) [:mag:](spdx-maven-plugin-0.7.0.diffoscope) [:memo:](https://github.com/spdx/spdx-maven-plugin/pull/125) | 129K |
 | [0.6.5](https://central.sonatype.com/artifact/org.spdx/spdx-maven-plugin/0.6.5/pom) | [mvn jdk13 w](spdx-maven-plugin-0.6.5.buildspec) | [result](spdx-maven-plugin-0.6.5.buildinfo): [1 :heavy_check_mark:  1 :warning:](spdx-maven-plugin-0.6.5.buildcompare) [:mag:](spdx-maven-plugin-0.6.5.diffoscope) | 126K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
