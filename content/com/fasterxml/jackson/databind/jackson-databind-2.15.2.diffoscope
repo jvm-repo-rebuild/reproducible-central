@@ -34,3 +34,92 @@
  00173470: 801e 7608 5399 4ef6 476a 33cd 07ba 0d22  ..v.S.N.Gj3...."
  00173480: ccc5 3a0b 07d2 5855 1e64 a370 28e3 3da3  ..:...XU.d.p(.=.
  00173490: f330 9156 f6d3 3c09 709e d0da 0abb bd70  .0.V..<.p......p
+
+
+# inspecting detailed zip entries with zipdetails https://docs.mojolicious.org/zipdetails
+# then diff -C 5
+# shows that META-INF/versions/* files have a reproducible Mod Time, but "now" for Access Time and Change Time.
+# Need to define what tool doeds that (Moditect? jar?):
+*** maven-central.txt	Fri Aug 11 18:12:44 2023
+--- local-rebuild.txt	Fri Aug 11 18:11:27 2023
+***************
+*** 14117,14128 ****
+  173371 Filename              'META-INF/versions/'
+  173383 Extra ID #0001        5455 'UT: Extended Timestamp'
+  173385   Length              000D
+  173387   Flags               '07 mod access change'
+  173388   Mod Time            6476862C 'Wed May 31 00:26:36 2023'
+! 17338C   Access Time         64768653 'Wed May 31 00:27:15 2023'
+! 173390   Change Time         64768653 'Wed May 31 00:27:15 2023'
+  
+  173394 LOCAL HEADER #32F     04034B50
+  173398 Extract Zip Spec      0A '1.0'
+  173399 Extract OS            00 'MS-DOS'
+  17339A General Purpose Flag  0000
+--- 14117,14128 ----
+  173371 Filename              'META-INF/versions/'
+  173383 Extra ID #0001        5455 'UT: Extended Timestamp'
+  173385   Length              000D
+  173387   Flags               '07 mod access change'
+  173388   Mod Time            6476862C 'Wed May 31 00:26:36 2023'
+! 17338C   Access Time         64D66AB5 'Fri Aug 11 18:07:01 2023'
+! 173390   Change Time         64D66AB5 'Fri Aug 11 18:07:01 2023'
+  
+  173394 LOCAL HEADER #32F     04034B50
+  173398 Extract Zip Spec      0A '1.0'
+  173399 Extract OS            00 'MS-DOS'
+  17339A General Purpose Flag  0000
+***************
+*** 14136,14147 ****
+  1733B2 Filename              'META-INF/versions/9/'
+  1733C6 Extra ID #0001        5455 'UT: Extended Timestamp'
+  1733C8   Length              000D
+  1733CA   Flags               '07 mod access change'
+  1733CB   Mod Time            6476862C 'Wed May 31 00:26:36 2023'
+! 1733CF   Access Time         64768653 'Wed May 31 00:27:15 2023'
+! 1733D3   Change Time         64768653 'Wed May 31 00:27:15 2023'
+  
+  1733D7 LOCAL HEADER #330     04034B50
+  1733DB Extract Zip Spec      14 '2.0'
+  1733DC Extract OS            00 'MS-DOS'
+  1733DD General Purpose Flag  0800
+--- 14136,14147 ----
+  1733B2 Filename              'META-INF/versions/9/'
+  1733C6 Extra ID #0001        5455 'UT: Extended Timestamp'
+  1733C8   Length              000D
+  1733CA   Flags               '07 mod access change'
+  1733CB   Mod Time            6476862C 'Wed May 31 00:26:36 2023'
+! 1733CF   Access Time         64D66AB5 'Fri Aug 11 18:07:01 2023'
+! 1733D3   Change Time         64D66AB5 'Fri Aug 11 18:07:01 2023'
+  
+  1733D7 LOCAL HEADER #330     04034B50
+  1733DB Extract Zip Spec      14 '2.0'
+  1733DC Extract OS            00 'MS-DOS'
+  1733DD General Purpose Flag  0800
+***************
+*** 14157,14168 ****
+  1733F5 Filename              'META-INF/versions/9/module-info.class'
+  17341A Extra ID #0001        5455 'UT: Extended Timestamp'
+  17341C   Length              000D
+  17341E   Flags               '07 mod access change'
+  17341F   Mod Time            6476862C 'Wed May 31 00:26:36 2023'
+! 173423   Access Time         64768653 'Wed May 31 00:27:15 2023'
+! 173427   Change Time         64768653 'Wed May 31 00:27:15 2023'
+  17342B PAYLOAD
+  
+  173606 CENTRAL HEADER #1     02014B50
+  17360A Created Zip Spec      0A '1.0'
+  17360B Created OS            00 'MS-DOS'
+--- 14157,14168 ----
+  1733F5 Filename              'META-INF/versions/9/module-info.class'
+  17341A Extra ID #0001        5455 'UT: Extended Timestamp'
+  17341C   Length              000D
+  17341E   Flags               '07 mod access change'
+  17341F   Mod Time            6476862C 'Wed May 31 00:26:36 2023'
+! 173423   Access Time         64D66AB5 'Fri Aug 11 18:07:01 2023'
+! 173427   Change Time         64D66AB5 'Fri Aug 11 18:07:01 2023'
+  17342B PAYLOAD
+  
+  173606 CENTRAL HEADER #1     02014B50
+  17360A Created Zip Spec      0A '1.0'
+  17360B Created OS            00 'MS-DOS'
