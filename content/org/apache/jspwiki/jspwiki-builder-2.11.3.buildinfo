@@ -330,10 +330,6 @@ outputs.19.2.filename=jspwiki-main-2.11.3-sources.jar
 outputs.19.2.length=1016697
 outputs.19.2.checksums.sha512=708ce1ce2af485f37f051d06463a84d8d6031def3ae4695807ca6a79338f6681ba7d5eb534d0afcf3b297cf3cd653ba9c3ab44350c1595c0cab8b52989137cdd
 
-outputs.19.3.filename=jspwiki-main-2.11.3-tests.jar
-outputs.19.3.length=75541
-outputs.19.3.checksums.sha512=91767d3fb57f6c25e262ce001b58668dc910f96ba8c632cd256f3b014c4aec8d380403fd39ad426ac9831a8465d6f1a1f39d3b1f0880bd05d121f9afe173367e
-
 outputs.20.coordinates=org.apache.jspwiki:jspwiki-markdown
 
 outputs.20.0.filename=jspwiki-markdown-2.11.3.pom
@@ -389,10 +385,6 @@ outputs.23.1.checksums.sha512=649a9260d630f71092f1e09f7a152cc40d1f3422de95f9c50c
 outputs.23.2.filename=jspwiki-210-test-adaptees-2.11.3-sources.jar
 outputs.23.2.length=6944
 outputs.23.2.checksums.sha512=b833b6667637f1f36f6d1d6608290ddccea72ba44b917e988608e125dea901225f3853ce54e2d423d634ad34072f40b216a666eaabcfb102ca8df4cd347d230e
-
-outputs.23.3.filename=jspwiki-210-test-adaptees-2.11.3-tests.jar
-outputs.23.3.length=17715
-outputs.23.3.checksums.sha512=16af9b8167cecb00d7deefb80cbd51642364286abfb095dfc8144d4b83c0fce26d644bb835a3e8b32829330d6815f0f492246dc761ecac03c6aa2617aafc53a0
 
 outputs.24.coordinates=org.apache.jspwiki:jspwiki-210-adapters
 

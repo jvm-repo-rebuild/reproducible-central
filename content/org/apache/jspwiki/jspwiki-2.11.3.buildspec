@@ -10,8 +10,9 @@ tool=mvn
 jdk=8
 newline=crlf
 
-command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+# help a little bit: -Dmaven.test.skip to skip non-reproducible -tests.jar that is secondary (could probably sim[ly NOT be published to Maven Central)
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dmaven.test.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-diffoscope=${artifactId}-${version}.diffoscope
+#diffoscope=${artifactId}-${version}.diffoscope
 issue=
