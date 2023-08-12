@@ -1,19 +1,19 @@
-[eu.europa.ted.eforms:eforms-core-java](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-core-java/1.0.5/versions) RB check
+[eu.europa.ted.eforms:eforms-core-java](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-core-java/1.1.0/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [eu.europa.ted.eforms:eforms-core-java](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-core-java/1.0.5/versions)
+## Project: [eu.europa.ted.eforms:eforms-core-java](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-core-java/1.1.0/versions)
 
 Source code: [https://github.com/OP-TED/eforms-core-java.git](https://github.com/OP-TED/eforms-core-java.git)
 
-rebuilding **3 releases** of eu.europa.ted.eforms:eforms-core-java:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **4 releases** of eu.europa.ted.eforms:eforms-core-java:
+- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.1.0](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-core-java/1.1.0/pom) | | | |
+| [1.1.0](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-core-java/1.1.0/pom) | [mvn jdk11](eforms-core-java-1.1.0.buildspec) | [result](eforms-core-java-1.1.0.buildinfo): [3 :heavy_check_mark: ](eforms-core-java-1.1.0.buildcompare) | 119K |
 | [1.0.5](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-core-java/1.0.5/pom) | [mvn jdk11](eforms-core-java-1.0.5.buildspec) | [result](eforms-core-java-1.0.5.buildinfo): [3 :heavy_check_mark: ](eforms-core-java-1.0.5.buildcompare) | 118K |
 | [1.0.4](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-core-java/1.0.4/pom) | [mvn jdk11](eforms-core-java-1.0.4.buildspec) | [result](eforms-core-java-1.0.4.buildinfo): [3 :heavy_check_mark: ](eforms-core-java-1.0.4.buildcompare) | 116K |
 | [1.0.3](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-core-java/1.0.3/pom) | | | |
