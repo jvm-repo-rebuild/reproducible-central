@@ -1,0 +1,7 @@
+version=1.1.0
+ok=31
+ko=0
+okFiles="jstachio-maven-parent-1.1.0.pom jstachio-api-parent-1.1.0.pom jstachio-annotation-1.1.0.pom jstachio-annotation-1.1.0.jar jstachio-annotation-1.1.0-sources.jar jstachio-1.1.0.pom jstachio-1.1.0.jar jstachio-1.1.0-sources.jar jstachio-compiler-parent-1.1.0.pom jstachio-apt-1.1.0.pom jstachio-apt-1.1.0.jar jstachio-apt-1.1.0-sources.jar jstachio-opt-parent-1.1.0.pom jstachio-jmustache-1.1.0.pom jstachio-jmustache-1.1.0.jar jstachio-jmustache-1.1.0-sources.jar jstachio-spring-1.1.0.pom jstachio-spring-1.1.0.jar jstachio-spring-1.1.0-sources.jar jstachio-spring-webmvc-1.1.0.pom jstachio-spring-webmvc-1.1.0.jar jstachio-spring-webmvc-1.1.0-sources.jar jstachio-spring-example-1.1.0.pom jstachio-spring-example-1.1.0.jar jstachio-spring-example-1.1.0-sources.jar jstachio-spring-webflux-1.1.0.pom jstachio-spring-webflux-1.1.0.jar jstachio-spring-webflux-1.1.0-sources.jar jstachio-spring-webflux-example-1.1.0.pom jstachio-spring-webflux-example-1.1.0.jar jstachio-spring-webflux-example-1.1.0-sources.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
