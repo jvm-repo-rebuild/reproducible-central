@@ -1,18 +1,19 @@
-[io.fabric8:docker-maven-plugin](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.43.2/versions) RB check
+[io.fabric8:docker-maven-plugin](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.43.3/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.fabric8:docker-maven-plugin](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.43.2/versions)
+## Project: [io.fabric8:docker-maven-plugin](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.43.3/versions)
 
 Source code: [https://github.com/fabric8io/docker-maven-plugin.git](https://github.com/fabric8io/docker-maven-plugin.git)
 
-rebuilding **18 releases** of io.fabric8:docker-maven-plugin:
-- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **19 releases** of io.fabric8:docker-maven-plugin:
+- **17** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.43.3](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.43.3/pom) | [mvn jdk11](docker-maven-plugin-0.43.3.buildspec) | [result](docker-maven-plugin-0.43.3.buildinfo): [3 :heavy_check_mark: ](docker-maven-plugin-0.43.3.buildcompare) | 1.1M |
 | [0.43.2](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.43.2/pom) | [mvn jdk11](docker-maven-plugin-0.43.2.buildspec) | [result](docker-maven-plugin-0.43.2.buildinfo): [3 :heavy_check_mark: ](docker-maven-plugin-0.43.2.buildcompare) | 1.1M |
 | [0.43.1](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.43.1/pom) | [mvn jdk11](docker-maven-plugin-0.43.1.buildspec) | [result](docker-maven-plugin-0.43.1.buildinfo): [3 :heavy_check_mark: ](docker-maven-plugin-0.43.1.buildcompare) | 1.1M |
 | [0.43.0](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.43.0/pom) | [mvn jdk11](docker-maven-plugin-0.43.0.buildspec) | [result](docker-maven-plugin-0.43.0.buildinfo): [3 :heavy_check_mark: ](docker-maven-plugin-0.43.0.buildcompare) | 1.1M |

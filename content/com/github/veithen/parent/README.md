@@ -1,19 +1,19 @@
-[com.github.veithen:parent](https://central.sonatype.com/artifact/com.github.veithen/parent/46/versions) RB check
+[com.github.veithen:parent](https://central.sonatype.com/artifact/com.github.veithen/parent/47/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.github.veithen:parent](https://central.sonatype.com/artifact/com.github.veithen/parent/46/versions)
+## Project: [com.github.veithen:parent](https://central.sonatype.com/artifact/com.github.veithen/parent/47/versions)
 
 Source code: [https://github.com/veithen/parent.git](https://github.com/veithen/parent.git)
 
-rebuilding **7 releases** of com.github.veithen:parent:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **8 releases** of com.github.veithen:parent:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [47](https://central.sonatype.com/artifact/com.github.veithen/parent/47/pom) | | | |
+| [47](https://central.sonatype.com/artifact/com.github.veithen/parent/47/pom) | [mvn jdk11](veithen-parent-47.buildspec) | [result](parent-47.buildinfo): [1 :heavy_check_mark: ](parent-47.buildcompare) | 35K |
 | [46](https://central.sonatype.com/artifact/com.github.veithen/parent/46/pom) | [mvn jdk11](veithen-parent-46.buildspec) | [result](parent-46.buildinfo): [1 :heavy_check_mark: ](parent-46.buildcompare) | 35K |
 | [45](https://central.sonatype.com/artifact/com.github.veithen/parent/45/pom) | [mvn jdk11](veithen-parent-45.buildspec) | [result](parent-45.buildinfo): [1 :heavy_check_mark: ](parent-45.buildcompare) | 33K |
 | [44](https://central.sonatype.com/artifact/com.github.veithen/parent/44/pom) | [mvn jdk11](veithen-parent-44.buildspec) | [result](parent-44.buildinfo): [1 :heavy_check_mark: ](parent-44.buildcompare) | 33K |
