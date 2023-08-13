@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JFR Servlet
+group-id=com.github.marschall
+artifact-id=jfr-servlet
+version=2.0.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:marschall/jfr-servlet.git
+source.scm.tag=2.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=jfr-servlet-2.0.0.pom
+outputs.0.length=7128
+outputs.0.checksums.sha512=638fe5dc536a4aa27ad1dbaee19a3e9591aa473c728b2170e7724ab279775177d38e93f03b791519cc2438f57406b229284e13e062646fc0c17db753f61f796f
+
+outputs.1.filename=jfr-servlet-2.0.0.jar
+outputs.1.length=9859
+outputs.1.checksums.sha512=f43d3ace8856a43c9bc253d06119df81e53a37727d348cf0cd487a711d3d71bdcb71608ecddeeed14694175f8090c7950a22ffd269daf9e18917c674f45c4afb
+
+outputs.2.filename=jfr-servlet-2.0.0-sources.jar
+outputs.2.length=5915
+outputs.2.checksums.sha512=c5d64ac0108bc2230e32a28a871b04a02440c77fc2a9086c4474c1c8cc1523c9309b069b29e18affd8fef2f3fcab90781a3760813b1e3140e6d0986eafb95e1f
