@@ -1,0 +1,30 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Font Awesome
+group-id=org.webjars
+artifact-id=font-awesome
+version=6.4.2
+
+# source information
+source.scm.uri=scm:git:https://github.com/webjars/font-awesome.git
+source.scm.tag=font-awesome-6.4.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=font-awesome-6.4.2.pom
+outputs.0.length=7535
+outputs.0.checksums.sha512=3d52f1ab7538cdadb2b8be200821fdcd2b4ba0034a48c109f599823c761cf9134efc549e1f47828f09309b74a766d23d369dd645e61b8c6a910e3185817b69e9
+
+outputs.1.filename=font-awesome-6.4.2.jar
+outputs.1.length=6618867
+outputs.1.checksums.sha512=d184e8a0f0bb68f9785c8a45215c1a45f653b632c907c535a3521f9624c672842f8ea2a79196f36f89d629413b35f55dbedd6cbe9b66de851396425302d8d0c5
