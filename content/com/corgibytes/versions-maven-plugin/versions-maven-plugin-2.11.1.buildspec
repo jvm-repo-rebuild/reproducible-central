@@ -9,19 +9,11 @@ gitTag=versions-maven-plugin-2.11.1
 
 # Rebuild environment prerequisites
 tool=mvn
-# or tool=mvn-3.8.5 if default 3.6.3 version does not match your prerequisites (available version may be limited by images available on Dockerhub)
-# or tool=gradle or tool=sbt
 jdk=17
 newline=lf
-# crlf for Windows, lf for Unix
 
 # Rebuild command
 command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 
 # Location of the buildinfo file generated during rebuild to record output fingerprints
-# buildinfo=target/${artifactId}-${version}.buildinfo
-buildinfo=target/*.buildinfo
-
-# if the release is finally not reproducible, link to an issue tracker entry if one was created
-#diffoscope=${artifactId}-${version}.diffoscope
-#issue=https://github.com/project_org/${artifactId}/issues/xx
+buildinfo=target/${artifactId}-${version}.buildinfo
