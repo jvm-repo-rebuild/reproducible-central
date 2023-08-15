@@ -1,14 +1,13 @@
 groupId=com.github.marschall
-artifactId=jfr-servlet
+artifactId=jakarta-jms-adapter
 display=${groupId}:${artifactId}
-version=1.0.0
+version=0.1.0
 
 gitRepo=https://github.com/marschall/${artifactId}.git
 gitTag=${version}
 
 tool=mvn
-# requires precisely 11.0.20
-jdk=11
+jdk=17
 newline=lf
 #umask=022
 

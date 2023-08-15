@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Directory Keystore
+group-id=com.github.marschall
+artifact-id=jakarta-jms-adapter
+version=0.1.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:marschall/jakarta-jms-adapter.git
+source.scm.tag=0.1.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=jakarta-jms-adapter-0.1.0.pom
+outputs.0.length=9900
+outputs.0.checksums.sha512=5c57c6eed5ada3a418aafae8e7c26c301132c23a56c82fdac3f40f8c6154159a985edf7fac70fb6e6362fc7fa9fdd49236416de529ffb9bc930c5cab0eb9d789
+
+outputs.1.filename=jakarta-jms-adapter-0.1.0.jar
+outputs.1.length=53901
+outputs.1.checksums.sha512=cf6141423b2f8559055daa1d8dc33c5a4db77ef0d46bcb810bffe3769e81ac36044eddb3946845a521c771a3cc0f3144a43f8e5465f84463f5347c28d5729d51
+
+outputs.2.filename=jakarta-jms-adapter-0.1.0-sources.jar
+outputs.2.length=24801
+outputs.2.checksums.sha512=b22d7fae9d011235bcf316fbbbb0bb101d9e2f94b814fbdeff5cd8e13f2029b0856fe21756efb5aebb72c34b83aff4ae21e084a907e2b63253bb775e25623f80
