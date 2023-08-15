@@ -1,0 +1,14 @@
+groupId=io.github.shanqiang-sq
+artifactId=jstream
+version=2.0.4
+
+gitRepo=https://github.com/shanqiang-sq/jstream
+gitTag=jstream-root-${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+buildinfo=target/jstream-root-${version}.buildinfo
