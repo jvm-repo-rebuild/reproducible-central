@@ -1,0 +1,61 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=jstream-root
+group-id=io.github.shanqiang-sq
+artifact-id=jstream-root
+version=1.0.27
+
+# source information
+source.scm.uri=git@github.com:shanqiang-sq/jstream.git
+source.scm.tag=jstream-root-1.0.27
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=jstream
+
+# aggregated output
+
+outputs.0.coordinates=io.github.shanqiang-sq:jstream-root
+
+outputs.0.0.filename=jstream-root-1.0.27.pom
+outputs.0.0.length=6614
+outputs.0.0.checksums.sha512=25b8362421ec2c4acf2a0fc6ba6e4f06083b3d7fa8b46aa6615bfd47c5a9998e5ae2cc27fa7172a2025576fdcf0bfb8de7496dc48c280aeab49a249b4c1f4eab
+
+outputs.0.1.filename=jstream-root-1.0.27-source-release.zip
+outputs.0.1.length=160927
+outputs.0.1.checksums.sha512=6a72edc2e7c6fa2ac0080583af8f65b4121eb88f10372d636c4ee21cd42d3b25e4187166312a59bb81554db5b432e0d9192d0d73eecb39628eee2f5efab7b16a
+
+outputs.1.coordinates=io.github.shanqiang-sq:jstream-shaded-jar
+
+outputs.1.0.filename=jstream-shaded-jar-1.0.27.pom
+outputs.1.0.length=1402
+outputs.1.0.checksums.sha512=d91b435904266924ebe8abd74a65bf6f35615ff63a7de369fd9cdfcc4dcf220ccfcb5ed82af94c41f8c4100028ae97c74971cf661c4f3b3edbe774616afe165d
+
+outputs.1.1.filename=jstream-shaded-jar-1.0.27.jar
+outputs.1.1.length=1037199
+outputs.1.1.checksums.sha512=b0e73af120fc45393082e5113705d0cf4838ccac695c7de0544a71332eca2b8cb127ed06d91b07dbfcd7cd90e8c09851ef4225bafb785979390508a53d8114d5
+
+outputs.1.2.filename=jstream-shaded-jar-1.0.27-sources.jar
+outputs.1.2.length=6731
+outputs.1.2.checksums.sha512=a14ebd66651e535610083cfc8f940f94677593cdb46209d4aa41f42ac192dff50a2ffe7b2d0e947fe36b63471b723b822a801a572d925dc1bc6df2601d5175bc
+
+outputs.2.coordinates=io.github.shanqiang-sq:jstream
+
+outputs.2.0.filename=jstream-1.0.27.pom
+outputs.2.0.length=4120
+outputs.2.0.checksums.sha512=39af0f8d41f2592021a3837c283f51d4537860e9cce7e5e42956c8abaf3c1bfeedfda1693ff60e7d4fa88747daf198b624d0c00018198ffbceeff65a581f71c1
+
+outputs.2.1.filename=jstream-1.0.27.jar
+outputs.2.1.length=266558
+outputs.2.1.checksums.sha512=7ffe9183805d28dc5aae4c95e0471e2d9bc4c31146d2612ddef10c4e3cde42d9bee97ed26df4ebd524257478ae285af9d7623a7ee8351653f63e177b097bbdc6
+
+outputs.2.2.filename=jstream-1.0.27-sources.jar
+outputs.2.2.length=127943
+outputs.2.2.checksums.sha512=95747b3203f5b83e317cdb401eb53de52f9aec7d9c1ac79eff608ea8e6dda98de2c664465741b6d4272105debef1348c3d500d648b2211d992ad791c4833ea05
