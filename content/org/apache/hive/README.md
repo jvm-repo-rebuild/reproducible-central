@@ -67,6 +67,7 @@ rebuilding **1 releases** of org.apache.hive:hive:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.0.0-beta-1](https://central.sonatype.com/artifact/org.apache.hive/hive/4.0.0-beta-1/pom) | | | |
 | [4.0.0-alpha-2](https://central.sonatype.com/artifact/org.apache.hive/hive/4.0.0-alpha-2/pom) | [mvn jdk8](hive-4.0.0-alpha-2.buildspec) | [result](hive-4.0.0-alpha-2.buildinfo): [142 :heavy_check_mark:  20 :warning:](hive-4.0.0-alpha-2.buildcompare) [:mag:](hive-4.0.0-alpha-2.diffoscope) | 351M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

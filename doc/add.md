@@ -4,10 +4,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20230815184527 --> [jstachio](../content/io/jstach/jstachio/README.md) | 1.3.0 :heavy_check_mark: | [1.3.1](../content/io/jstach/jstachio/jstachio-1.3.1.buildspec) | `bin/add-new-release.sh content/io/jstach/jstachio/jstachio-1.3.0.buildspec 1.3.1` |
 | <!-- 20230814194354 --> [byte-buddy-parent](../content/net/bytebuddy/README.md) | 1.14.5 :heavy_check_mark: | [1.14.6](../content/net/bytebuddy/byte-buddy-1.14.6.buildspec) | `bin/add-new-release.sh content/net/bytebuddy/byte-buddy-1.14.5.buildspec 1.14.6` |
-| <!-- 20230814153657 --> [font-awesome](../content/org/webjars/font-awesome/README.md) | 6.4.0 :heavy_check_mark: | [6.4.2](../content/org/webjars/font-awesome/font-awesome-6.4.2.buildspec) | `bin/add-new-release.sh content/org/webjars/font-awesome/font-awesome-6.4.0.buildspec 6.4.2` |
 | <!-- 20230814123828 --> [alluxio-parent](../content/org/alluxio/alluxio/README.md) | 302 :heavy_check_mark: | [303](../content/org/alluxio/alluxio/alluxio-303.buildspec) | `bin/add-new-release.sh content/org/alluxio/alluxio/alluxio-302.buildspec 303` |
-| <!-- 20230814072956 --> [hsac-fitnesse-fixtures](../content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 5.2.41 :heavy_check_mark: | [5.2.42](../content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.2.42.buildspec) | `bin/add-new-release.sh content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.2.41.buildspec 5.2.42` |
 | <!-- 20230806144110 --> [yauaa](../content/nl/basjes/parse/useragent/yauaa/README.md) | 7.21.0 :heavy_check_mark: | [7.22.0](../content/nl/basjes/parse/useragent/yauaa/yauaa-7.22.0.buildspec) | `bin/add-new-release.sh content/nl/basjes/parse/useragent/yauaa/yauaa-7.21.0.buildspec 7.22.0` |
 | <!-- 20230613152450 --> [conventional-commits-version-policy](../content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | 1.0.1 :heavy_check_mark: | [1.0.3](../content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.3.buildspec) | `bin/add-new-release.sh content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.1.buildspec 1.0.3` |
 | <!-- 20230519120111 --> [io.wcm.wcm.ui.granite](../content/io/wcm/io.wcm.wcm/ui/granite/README.md) | 1.7.2 :heavy_check_mark: | [1.9.12](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.9.12.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.7.2.buildspec 1.9.12` |
@@ -20,6 +19,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20230815195257 --> [jooby](../content/io/jooby/README.md) | 3.0.0.M7 :warning: | [3.0.2](../content/io/jooby/jooby-3.0.2.buildspec) | `bin/add-new-release.sh content/io/jooby/jooby-3.0.0.M7.buildspec 3.0.2` |
+| <!-- 20230815063559 --> [hive](../content/org/apache/hive/README.md) | 4.0.0-alpha-2 :warning: | [4.0.0-beta-1](../content/org/apache/hive/hive-4.0.0-beta-1.buildspec) | `bin/add-new-release.sh content/org/apache/hive/hive-4.0.0-alpha-2.buildspec 4.0.0-beta-1` |
+| <!-- 20230815011003 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | 10.4.0 :warning: | [10.4.1-beta-6](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1-beta-6.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.0.buildspec 10.4.1-beta-6` |
 | <!-- 20230814111523 --> [kubernetes-client-project](../content/io/fabric8/kubernetes-client/README.md) | 6.4.0 :warning: | [6.8.1](../content/io/fabric8/kubernetes-client/kubernetes-client-6.8.1.buildspec) | `bin/add-new-release.sh content/io/fabric8/kubernetes-client/kubernetes-client-6.4.0.buildspec 6.8.1` |
 | <!-- 20230814065635 --> [camel](../content/org/apache/camel/camel/README.md) | 4.0.0-RC1 :warning: | [4.0.0](../content/org/apache/camel/camel/camel-4.0.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.0.0` |
 | <!-- 20230811162219 --> [opentelemetry-sdk](../content/io/opentelemetry/java/README.md) | 1.14.0 :warning: [:memo:](https://github.com/open-telemetry/opentelemetry-java/issues/4488) | [1.29.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.29.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/java/opentelemetry-sdk-1.14.0.buildspec 1.29.0` |
@@ -28,10 +30,8 @@ New Releases To Add
 | <!-- 20230810211848 --> [legend-engine](../content/org/finos/legend/engine/README.md) | 4.4.5 :warning: | [4.23.0](../content/org/finos/legend/engine/legend-engine-4.23.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.23.0` |
 | <!-- 20230809055528 --> [dubbo](../content/org/apache/dubbo/README.md) | 3.1.9 :warning: | [3.2.5](../content/org/apache/dubbo/dubbo-3.2.5.buildspec) | `bin/add-new-release.sh content/org/apache/dubbo/dubbo-3.1.9.buildspec 3.2.5` |
 | <!-- 20230808061603 --> [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | 2.9.12 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-servlets-resolver/pull/36) | [2.9.14](../content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.9.14.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.9.12.buildspec 2.9.14` |
-| <!-- 20230808012033 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | 10.4.0 :warning: | [10.4.1-beta-5](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1-beta-5.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.0.buildspec 10.4.1-beta-5` |
 | <!-- 20230802085938 --> [arthas-all](../content/com/taobao/arthas/README.md) | 3.6.0 :warning: | [3.7.0](../content/com/taobao/arthas/arthas-3.7.0.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-3.6.0.buildspec 3.7.0` |
 | <!-- 20230731213821 --> [guava](../content/com/google/guava/README.md) | 32.0.1-jre :warning: | [32.1.2-jre](../content/com/google/guava/guava-32.1.2-jre.buildspec) | `bin/add-new-release.sh content/com/google/guava/guava-32.0.1-jre.buildspec 32.1.2-jre` |
-| <!-- 20230731184152 --> [jooby](../content/io/jooby/README.md) | 3.0.0.M7 :warning: | [3.0.1](../content/io/jooby/jooby-3.0.1.buildspec) | `bin/add-new-release.sh content/io/jooby/jooby-3.0.0.M7.buildspec 3.0.1` |
 | <!-- 20230729161134 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 7.0.5 :warning: [:memo:](https://github.com/eclipse-ee4j/glassfish/pull/24462) | [7.0.7](../content/org/glassfish/main/glassfish-7.0.7.buildspec) | `bin/add-new-release.sh content/org/glassfish/main/glassfish-7.0.5.buildspec 7.0.7` |
 | <!-- 20230729141934 --> [javacan](../content/tel/schich/javacan/README.md) | 3.2.2 :warning: | [3.2.4](../content/tel/schich/javacan/javacan-3.2.4.buildspec) | `bin/add-new-release.sh content/tel/schich/javacan/javacan-3.2.2.buildspec 3.2.4` |
 | <!-- 20230728220308 --> [nifi](../content/org/apache/nifi/nifi/README.md) | 1.22.0 :warning: | [1.23.0](../content/org/apache/nifi/nifi/nifi-1.23.0.buildspec) | `bin/add-new-release.sh content/org/apache/nifi/nifi/nifi-1.22.0.buildspec 1.23.0` |
@@ -126,7 +126,6 @@ New Releases To Add
 | <!-- 20221201201609 --> [commons-net](../content/org/apache/commons/net/README.md) | 3.9.0 :warning: |
 | <!-- 20221123032956 --> [org.apache.sling.hc.support](../content/org/apache/sling/org.apache.sling.hc.support/README.md) | 1.0.10 :warning: |
 | <!-- 20221118010633 --> [org.apache.sling.jcr.jackrabbit.accessmanager](../content/org/apache/sling/org.apache.sling.jcr.jackrabbit.accessmanager/README.md) | 3.1.0 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-jcr-jackrabbit-accessmanager/pull/20) |
-| <!-- 20221116155854 --> [hive](../content/org/apache/hive/README.md) | 4.0.0-alpha-2 :warning: |
 | <!-- 20221006163641 --> [plc4x-parent](../content/org/apache/plc4x/plc4x/README.md) | 0.10.0 :warning: |
 | <!-- 20220916141422 --> [gemLibPki](../content/de/gematik/pki/gemlibpki/README.md) | 0.9.3 :warning: |
 | <!-- 20220823210050 --> [org.apache.sling.jcr.jackrabbit.usermanager](../content/org/apache/sling/org.apache.sling.jcr.jackrabbit.usermanager/README.md) | 2.2.26 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-jcr-jackrabbit-usermanager/pull/18) |
@@ -134,6 +133,7 @@ New Releases To Add
 | <!-- 20220803123226 --> [org.apache.sling.commons.metrics](../content/org/apache/sling/org.apache.sling.commons.metrics/README.md) | 1.2.12 :warning: |
 | <!-- 20220705130732 --> [org.eclipse.transformer.parent](../content/org/eclipse/transformer/README.md) | 0.5.0 :warning: |
 | <!-- 20220625152445 --> [systemds](../content/org/apache/systemds/README.md) | 3.0.0 :warning: |
+| <!-- 20220623203217 --> [cosmos](../content/com/github/veithen/cosmos/README.md) | 0.5.0 :warning: |
 | <!-- 20220613130145 --> [org.apache.sling.commons.log](../content/org/apache/sling/org.apache.sling.commons.log/README.md) | 5.4.2 :warning: |
 | <!-- 20220601055213 --> [xjc-utils](../content/org/apache/cxf/xjc-utils/README.md) | 4.0.0 :warning: [:memo:](https://github.com/apache/cxf-xjc-utils/pull/73) |
 | <!-- 20220525193321 --> [jdo](../content/org/apache/jdo/README.md) | 3.2.1 :warning: [:memo:](https://github.com/apache/db-jdo/pull/49) |

@@ -34,6 +34,7 @@ rebuilding **7 releases** of io.jstach:jstachio:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.3.1](https://central.sonatype.com/artifact/io.jstach/jstachio/1.3.1/pom) | | | |
 | [1.3.0](https://central.sonatype.com/artifact/io.jstach/jstachio/1.3.0/pom) | [mvn jdk17](jstachio-1.3.0.buildspec) | [result](jstachio-maven-parent-1.3.0.buildinfo): [41 :heavy_check_mark: ](jstachio-maven-parent-1.3.0.buildcompare) | 1.1M |
 | [1.2.1](https://central.sonatype.com/artifact/io.jstach/jstachio/1.2.1/pom) | [mvn jdk17](jstachio-1.2.1.buildspec) | [result](jstachio-maven-parent-1.2.1.buildinfo): [41 :heavy_check_mark: ](jstachio-maven-parent-1.2.1.buildcompare) | 1022K |
 | [1.2.0](https://central.sonatype.com/artifact/io.jstach/jstachio/1.2.0/pom) | [mvn jdk17](jstachio-1.2.0.buildspec) | [result](jstachio-maven-parent-1.2.0.buildinfo): [41 :heavy_check_mark: ](jstachio-maven-parent-1.2.0.buildcompare) | 1020K |
