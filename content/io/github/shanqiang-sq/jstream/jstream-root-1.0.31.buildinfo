@@ -28,6 +28,10 @@ outputs.0.0.filename=jstream-root-1.0.31.pom
 outputs.0.0.length=6614
 outputs.0.0.checksums.sha512=3de9b4866b600fe801fb4ce22f0674a446e8ecc26ce0c70fc1b7876c80c76947739908dafc38fa15b9f48f812eab3c9f91fca48c3aa1b08616078b1401fd816b
 
+outputs.0.1.filename=jstream-root-1.0.31-source-release.zip
+outputs.0.1.length=162455
+outputs.0.1.checksums.sha512=1f962b83700fd55e821a46d2b635e3757c73dc85091794a5b521d0c6f68cdc277965bff85f9af225d5cd39b21efdafb70cae3e2f88794ba5ebba1b20d805da2a
+
 outputs.1.coordinates=io.github.shanqiang-sq:jstream-shaded-jar
 
 outputs.1.0.filename=jstream-shaded-jar-1.0.31.pom

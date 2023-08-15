@@ -1,20 +1,14 @@
-# Central Repository coordinates for the Reference release (for multi-module, pick an artitrary module)
 groupId=io.github.shanqiang-sq
 artifactId=jstream
 version=1.0.31
 
-# Source code
 gitRepo=https://github.com/shanqiang-sq/jstream
-gitTag=jstream-root-1.0.31
+gitTag=jstream-root-${version}
 
-# Rebuild environment prerequisites
 tool=mvn
 jdk=8
 newline=lf
-# crlf for Windows, lf for Unix
 
-# Rebuild command
-command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 
-# Location of the buildinfo file generated during rebuild to record output fingerprints
 buildinfo=target/jstream-root-${version}.buildinfo
