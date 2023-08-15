@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=phos
+group-id=com.github.veithen.phos
+artifact-id=phos
+version=0.4.0
+
+# source information
+source.scm.uri=scm:git:http://github.com/veithen/phos.git
+source.scm.tag=0.4.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=enforcer-maven-plugin
+
+# aggregated output
+
+outputs.0.coordinates=com.github.veithen.phos:phos
+
+outputs.0.0.filename=phos-0.4.0.pom
+outputs.0.0.length=3500
+outputs.0.0.checksums.sha512=3f7788f160e029e6a4cf6b206e9da1a6c15a695f076479416ade7f3a96017601c06e448e8802dbcd701991a0561766918ab78ae992d9b8f01ebab06dfc34dabe
+
+outputs.0.1.filename=phos-0.4.0-source-release.zip
+outputs.0.1.length=32689
+outputs.0.1.checksums.sha512=05c3be55650c4f18abaebfbed96455cf6fd122d96cc471ff9893144699318f86c89f130eccbb9ff62a9a49d39944691225476c007100274e04b324a70506929d
+
+outputs.1.coordinates=com.github.veithen.phos:enforcer-maven-plugin
+
+outputs.1.0.filename=enforcer-maven-plugin-0.4.0.pom
+outputs.1.0.length=2853
+outputs.1.0.checksums.sha512=e664f7b682feb90c4b2a26b5f5db56780a0547c5396f20651033404f58649b165d558c50eb7be4a7117db78faf07c911b133f26aadf37ff937d3760e69c5cec9
+
+outputs.1.1.filename=enforcer-maven-plugin-0.4.0.jar
+outputs.1.1.length=27793
+outputs.1.1.checksums.sha512=cda520f06cc1a1948e31e4b242d177aeec6f72570280932f6f72b2ff8f239896e3c28b1868bc7086c715dc6b62ab341bd2f5d58fa2907198ef07d78a8af77ca7
+
+outputs.1.2.filename=enforcer-maven-plugin-0.4.0-sources.jar
+outputs.1.2.length=20174
+outputs.1.2.checksums.sha512=d2f6ff302b51785b66e4882d21b7ac2f254047689097904770ffa93a0b1c035a3fe78e9d38c0b03a31b684c0ba2a1649e56a3e793c5f471a2da99caf59729480
