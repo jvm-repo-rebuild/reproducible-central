@@ -1,0 +1,61 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=jstream-root
+group-id=io.github.shanqiang-sq
+artifact-id=jstream-root
+version=2.0.2
+
+# source information
+source.scm.uri=git@github.com:shanqiang-sq/jstream.git
+source.scm.tag=jstream-root-2.0.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=jstream
+
+# aggregated output
+
+outputs.0.coordinates=io.github.shanqiang-sq:jstream-root
+
+outputs.0.0.filename=jstream-root-2.0.2.pom
+outputs.0.0.length=6731
+outputs.0.0.checksums.sha512=75026a30c8def69b2aa7b0349ffd7369b077120c186aaddf2129fe7926f5867d5b5fdf0c6a40a65de9859152832f6ef8820b42f37bc8bb3bb52b790137ffa42d
+
+outputs.0.1.filename=jstream-root-2.0.2-source-release.zip
+outputs.0.1.length=200041
+outputs.0.1.checksums.sha512=22da00bd6660872a522de9bb3d758e4b430a4f5a2d9f17d705c5a8c16bfb128bb27afb50afafdfd1296930898741b8d38dea9a69a9c84f2bd94192f12992a5d6
+
+outputs.1.coordinates=io.github.shanqiang-sq:jstream-shaded-jar
+
+outputs.1.0.filename=jstream-shaded-jar-2.0.2.pom
+outputs.1.0.length=1401
+outputs.1.0.checksums.sha512=54d033748d7818126967b8df4ae9fb17f7fe91e77d0ff264ad5f4a9c09c2e366f67da06597d765cd69836fd25f3aafc9a6c7f84248fad61913d72522779bc372
+
+outputs.1.1.filename=jstream-shaded-jar-2.0.2.jar
+outputs.1.1.length=1037199
+outputs.1.1.checksums.sha512=e257c3d11abf8d7b7f9287daf4519302d12b6d12ad8d864cb5274a20602458bb8c6d131928ddb52069d50a5ec347ac54ba06188044d658863727782c1875f6a4
+
+outputs.1.2.filename=jstream-shaded-jar-2.0.2-sources.jar
+outputs.1.2.length=6728
+outputs.1.2.checksums.sha512=4e8ed3333eee54e52ade106c82edfc071d9cd25671fbd53bcf443512c4d72198d6aec40c7733bd1bb9319d2b9f3e4b59a9a47ef29cf57157f948d2dafc142b2a
+
+outputs.2.coordinates=io.github.shanqiang-sq:jstream
+
+outputs.2.0.filename=jstream-2.0.2.pom
+outputs.2.0.length=5092
+outputs.2.0.checksums.sha512=15e90fdd0a7df18513e7dfc6aa5717aa45a543cdbc3f38e19dcbc2a1bfcf75fade8dab815625a1676591ebe473c1844b98f851fac7f79b4b7bef99edf235dcc1
+
+outputs.2.1.filename=jstream-2.0.2.jar
+outputs.2.1.length=324618
+outputs.2.1.checksums.sha512=2315df4ff5c3adf0834b6c0346cae1be04328931b5fa735957a41697d8a0debc622929f6ce4f316dcee3d59f4227e9cb18a6dd82e9d231347b8133704fb7d820
+
+outputs.2.2.filename=jstream-2.0.2-sources.jar
+outputs.2.2.length=155298
+outputs.2.2.checksums.sha512=30b5eac7b48805459cb0564a5fce8227dffa950c2198b9dfbe0267d6f4f9ce630c983a0a03aa03ae805ae42906f07ae515f6d92d46a94556b13ed83bada3e859
