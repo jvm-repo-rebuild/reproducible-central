@@ -1,0 +1,32 @@
+version=0.5.0
+ok=14
+ko=25
+okFiles="cosmos-0.5.0.pom cosmos-0.5.0-source-release.zip cosmos-osgi-runtime-0.5.0.pom cosmos-osgi-runtime-0.5.0.jar cosmos-osgi-runtime-0.5.0-sources.jar cosmos-log-service-0.5.0.pom cosmos-log-service-0.5.0.jar cosmos-log-service-0.5.0-sources.jar cosmos-equinox-0.5.0.pom cosmos-equinox-0.5.0.jar cosmos-equinox-0.5.0-sources.jar cosmos-testing-0.5.0.pom cosmos-testing-0.5.0.jar cosmos-testing-0.5.0-sources.jar"
+koFiles="osgi-tests-0.5.0.pom bundle1-0.5.0.pom bundle1-0.5.0.jar bundle1-0.5.0-sources.jar bundle2-0.5.0.pom bundle2-0.5.0.jar bundle2-0.5.0-sources.jar eclipse-core-resources-test-0.5.0.pom eclipse-core-resources-test-0.5.0.jar eclipse-core-runtime-test-0.5.0.pom eclipse-core-runtime-test-0.5.0.jar eclipse-emf-ecore-autostart-test-0.5.0.pom eclipse-emf-ecore-autostart-test-0.5.0.jar eclipse-emf-ecore-codegen-test-0.5.0.pom eclipse-emf-ecore-codegen-test-0.5.0.jar eclipse-p2-test-0.5.0.pom eclipse-p2-test-0.5.0.jar lazy-activation-test-0.5.0.pom lazy-activation-test-0.5.0.jar misc-test-0.5.0.pom misc-test-0.5.0.jar start-stop-bundle-test-0.5.0.pom start-stop-bundle-test-0.5.0.jar tracker-test-0.5.0.pom tracker-test-0.5.0.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/osgi-tests-0.5.0.pom osgi-tests/pom.xml
+# diffoscope target/reference/bundle1-0.5.0.pom osgi-tests/bundle1/pom.xml
+# diffoscope target/reference/bundle1-0.5.0.jar osgi-tests/bundle1/target/bundle1-0.5.0.jar
+# diffoscope target/reference/bundle1-0.5.0-sources.jar osgi-tests/bundle1/target/bundle1-0.5.0-sources.jar
+# diffoscope target/reference/bundle2-0.5.0.pom osgi-tests/bundle2/pom.xml
+# diffoscope target/reference/bundle2-0.5.0.jar osgi-tests/bundle2/target/bundle2-0.5.0.jar
+# diffoscope target/reference/bundle2-0.5.0-sources.jar osgi-tests/bundle2/target/bundle2-0.5.0-sources.jar
+# diffoscope target/reference/eclipse-core-resources-test-0.5.0.pom osgi-tests/eclipse-core-resources-test/pom.xml
+# diffoscope target/reference/eclipse-core-resources-test-0.5.0.jar osgi-tests/eclipse-core-resources-test/target/eclipse-core-resources-test-0.5.0.jar
+# diffoscope target/reference/eclipse-core-runtime-test-0.5.0.pom osgi-tests/eclipse-core-runtime-test/pom.xml
+# diffoscope target/reference/eclipse-core-runtime-test-0.5.0.jar osgi-tests/eclipse-core-runtime-test/target/eclipse-core-runtime-test-0.5.0.jar
+# diffoscope target/reference/eclipse-emf-ecore-autostart-test-0.5.0.pom osgi-tests/eclipse-emf-ecore-autostart-test/pom.xml
+# diffoscope target/reference/eclipse-emf-ecore-autostart-test-0.5.0.jar osgi-tests/eclipse-emf-ecore-autostart-test/target/eclipse-emf-ecore-autostart-test-0.5.0.jar
+# diffoscope target/reference/eclipse-emf-ecore-codegen-test-0.5.0.pom osgi-tests/eclipse-emf-ecore-codegen-test/pom.xml
+# diffoscope target/reference/eclipse-emf-ecore-codegen-test-0.5.0.jar osgi-tests/eclipse-emf-ecore-codegen-test/target/eclipse-emf-ecore-codegen-test-0.5.0.jar
+# diffoscope target/reference/eclipse-p2-test-0.5.0.pom osgi-tests/eclipse-p2-test/pom.xml
+# diffoscope target/reference/eclipse-p2-test-0.5.0.jar osgi-tests/eclipse-p2-test/target/eclipse-p2-test-0.5.0.jar
+# diffoscope target/reference/lazy-activation-test-0.5.0.pom osgi-tests/lazy-activation-test/pom.xml
+# diffoscope target/reference/lazy-activation-test-0.5.0.jar osgi-tests/lazy-activation-test/target/lazy-activation-test-0.5.0.jar
+# diffoscope target/reference/misc-test-0.5.0.pom osgi-tests/misc-test/pom.xml
+# diffoscope target/reference/misc-test-0.5.0.jar osgi-tests/misc-test/target/misc-test-0.5.0.jar
+# diffoscope target/reference/start-stop-bundle-test-0.5.0.pom osgi-tests/start-stop-bundle-test/pom.xml
+# diffoscope target/reference/start-stop-bundle-test-0.5.0.jar osgi-tests/start-stop-bundle-test/target/start-stop-bundle-test-0.5.0.jar
+# diffoscope target/reference/tracker-test-0.5.0.pom osgi-tests/tracker-test/pom.xml
+# diffoscope target/reference/tracker-test-0.5.0.jar osgi-tests/tracker-test/target/tracker-test-0.5.0.jar

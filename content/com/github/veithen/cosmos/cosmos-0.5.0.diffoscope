@@ -1,0 +1,50 @@
+1 /       25 target/reference/osgi-tests-0.5.0.pom osgi-tests/pom.xml
+
+2 /       25 target/reference/bundle1-0.5.0.pom osgi-tests/bundle1/pom.xml
+
+3 /       25 target/reference/bundle1-0.5.0.jar osgi-tests/bundle1/target/bundle1-0.5.0.jar
+
+4 /       25 target/reference/bundle1-0.5.0-sources.jar osgi-tests/bundle1/target/bundle1-0.5.0-sources.jar
+
+5 /       25 target/reference/bundle2-0.5.0.pom osgi-tests/bundle2/pom.xml
+
+6 /       25 target/reference/bundle2-0.5.0.jar osgi-tests/bundle2/target/bundle2-0.5.0.jar
+
+7 /       25 target/reference/bundle2-0.5.0-sources.jar osgi-tests/bundle2/target/bundle2-0.5.0-sources.jar
+
+8 /       25 target/reference/eclipse-core-resources-test-0.5.0.pom osgi-tests/eclipse-core-resources-test/pom.xml
+
+9 /       25 target/reference/eclipse-core-resources-test-0.5.0.jar osgi-tests/eclipse-core-resources-test/target/eclipse-core-resources-test-0.5.0.jar
+
+10 /       25 target/reference/eclipse-core-runtime-test-0.5.0.pom osgi-tests/eclipse-core-runtime-test/pom.xml
+
+11 /       25 target/reference/eclipse-core-runtime-test-0.5.0.jar osgi-tests/eclipse-core-runtime-test/target/eclipse-core-runtime-test-0.5.0.jar
+
+12 /       25 target/reference/eclipse-emf-ecore-autostart-test-0.5.0.pom osgi-tests/eclipse-emf-ecore-autostart-test/pom.xml
+
+13 /       25 target/reference/eclipse-emf-ecore-autostart-test-0.5.0.jar osgi-tests/eclipse-emf-ecore-autostart-test/target/eclipse-emf-ecore-autostart-test-0.5.0.jar
+
+14 /       25 target/reference/eclipse-emf-ecore-codegen-test-0.5.0.pom osgi-tests/eclipse-emf-ecore-codegen-test/pom.xml
+
+15 /       25 target/reference/eclipse-emf-ecore-codegen-test-0.5.0.jar osgi-tests/eclipse-emf-ecore-codegen-test/target/eclipse-emf-ecore-codegen-test-0.5.0.jar
+
+16 /       25 target/reference/eclipse-p2-test-0.5.0.pom osgi-tests/eclipse-p2-test/pom.xml
+
+17 /       25 target/reference/eclipse-p2-test-0.5.0.jar osgi-tests/eclipse-p2-test/target/eclipse-p2-test-0.5.0.jar
+
+18 /       25 target/reference/lazy-activation-test-0.5.0.pom osgi-tests/lazy-activation-test/pom.xml
+
+19 /       25 target/reference/lazy-activation-test-0.5.0.jar osgi-tests/lazy-activation-test/target/lazy-activation-test-0.5.0.jar
+
+20 /       25 target/reference/misc-test-0.5.0.pom osgi-tests/misc-test/pom.xml
+
+21 /       25 target/reference/misc-test-0.5.0.jar osgi-tests/misc-test/target/misc-test-0.5.0.jar
+
+22 /       25 target/reference/start-stop-bundle-test-0.5.0.pom osgi-tests/start-stop-bundle-test/pom.xml
+
+23 /       25 target/reference/start-stop-bundle-test-0.5.0.jar osgi-tests/start-stop-bundle-test/target/start-stop-bundle-test-0.5.0.jar
+
+24 /       25 target/reference/tracker-test-0.5.0.pom osgi-tests/tracker-test/pom.xml
+
+25 /       25 target/reference/tracker-test-0.5.0.jar osgi-tests/tracker-test/target/tracker-test-0.5.0.jar
+

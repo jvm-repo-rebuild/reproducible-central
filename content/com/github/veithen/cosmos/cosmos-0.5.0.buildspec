@@ -1,0 +1,19 @@
+groupId=com.github.veithen.cosmos
+artifactId=cosmos
+version=0.5.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/veithen/${artifactId}.git
+gitTag=${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn clean package -Prelease -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+# everything under osgi-tests should probably be ignored, not published to Maven Central
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
