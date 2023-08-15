@@ -1,0 +1,7 @@
+version=1.0.15
+ok=8
+ko=0
+okFiles="jstream-root-1.0.15.pom jstream-root-1.0.15-source-release.zip jstream-shaded-jar-1.0.15.pom jstream-shaded-jar-1.0.15.jar jstream-shaded-jar-1.0.15-sources.jar jstream-1.0.15.pom jstream-1.0.15.jar jstream-1.0.15-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
