@@ -4,7 +4,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20230815184527 --> [jstachio](../content/io/jstach/jstachio/README.md) | 1.3.0 :heavy_check_mark: | [1.3.1](../content/io/jstach/jstachio/jstachio-1.3.1.buildspec) | `bin/add-new-release.sh content/io/jstach/jstachio/jstachio-1.3.0.buildspec 1.3.1` |
+| <!-- 20230816082329 --> [orc](../content/org/apache/orc/README.md) | 1.9.0 :heavy_check_mark: | [1.9.1](../content/org/apache/orc/orc-1.9.1.buildspec) | `bin/add-new-release.sh content/org/apache/orc/orc-1.9.0.buildspec 1.9.1` |
 | <!-- 20230814194354 --> [byte-buddy-parent](../content/net/bytebuddy/README.md) | 1.14.5 :heavy_check_mark: | [1.14.6](../content/net/bytebuddy/byte-buddy-1.14.6.buildspec) | `bin/add-new-release.sh content/net/bytebuddy/byte-buddy-1.14.5.buildspec 1.14.6` |
 | <!-- 20230814123828 --> [alluxio-parent](../content/org/alluxio/alluxio/README.md) | 302 :heavy_check_mark: | [303](../content/org/alluxio/alluxio/alluxio-303.buildspec) | `bin/add-new-release.sh content/org/alluxio/alluxio/alluxio-302.buildspec 303` |
 | <!-- 20230806144110 --> [yauaa](../content/nl/basjes/parse/useragent/yauaa/README.md) | 7.21.0 :heavy_check_mark: | [7.22.0](../content/nl/basjes/parse/useragent/yauaa/yauaa-7.22.0.buildspec) | `bin/add-new-release.sh content/nl/basjes/parse/useragent/yauaa/yauaa-7.21.0.buildspec 7.22.0` |
