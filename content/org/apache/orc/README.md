@@ -1,29 +1,29 @@
-[org.apache.orc:orc](https://central.sonatype.com/artifact/org.apache.orc/orc/1.9.0/versions) RB check
+[org.apache.orc:orc](https://central.sonatype.com/artifact/org.apache.orc/orc/1.9.1/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.orc:orc](https://central.sonatype.com/artifact/org.apache.orc/orc/1.9.0/versions)
+## Project: [org.apache.orc:orc](https://central.sonatype.com/artifact/org.apache.orc/orc/1.9.1/versions)
 
 Source code: [https://github.com/apache/orc.git](https://github.com/apache/orc.git)
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [org.apache.orc:orc](https://central.sonatype.com/artifact/org.apache.orc/orc/1.9.0)
-* [org.apache.orc:orc-core](https://central.sonatype.com/artifact/org.apache.orc/orc-core/1.9.0)
-* [org.apache.orc:orc-examples](https://central.sonatype.com/artifact/org.apache.orc/orc-examples/1.9.0)
-* [org.apache.orc:orc-mapreduce](https://central.sonatype.com/artifact/org.apache.orc/orc-mapreduce/1.9.0)
-* [org.apache.orc:orc-shims](https://central.sonatype.com/artifact/org.apache.orc/orc-shims/1.9.0)
-* [org.apache.orc:orc-tools](https://central.sonatype.com/artifact/org.apache.orc/orc-tools/1.9.0)
+* [org.apache.orc:orc](https://central.sonatype.com/artifact/org.apache.orc/orc/1.9.1)
+* [org.apache.orc:orc-core](https://central.sonatype.com/artifact/org.apache.orc/orc-core/1.9.1)
+* [org.apache.orc:orc-examples](https://central.sonatype.com/artifact/org.apache.orc/orc-examples/1.9.1)
+* [org.apache.orc:orc-mapreduce](https://central.sonatype.com/artifact/org.apache.orc/orc-mapreduce/1.9.1)
+* [org.apache.orc:orc-shims](https://central.sonatype.com/artifact/org.apache.orc/orc-shims/1.9.1)
+* [org.apache.orc:orc-tools](https://central.sonatype.com/artifact/org.apache.orc/orc-tools/1.9.1)
 </details>
 
-rebuilding **6 releases** of org.apache.orc:orc:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **7 releases** of org.apache.orc:orc:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.9.1](https://central.sonatype.com/artifact/org.apache.orc/orc/1.9.1/pom) | | | |
+| [1.9.1](https://central.sonatype.com/artifact/org.apache.orc/orc/1.9.1/pom) | [mvn jdk8](orc-1.9.1.buildspec) | [result](orc-1.9.1.buildinfo): [35 :heavy_check_mark: ](orc-1.9.1.buildcompare) | 81M |
 | [1.9.0](https://central.sonatype.com/artifact/org.apache.orc/orc/1.9.0/pom) | [mvn jdk8](orc-1.9.0.buildspec) | [result](orc-1.9.0.buildinfo): [35 :heavy_check_mark: ](orc-1.9.0.buildcompare) | 81M |
 | [1.8.4](https://central.sonatype.com/artifact/org.apache.orc/orc/1.8.4/pom) | [mvn jdk8](orc-1.8.4.buildspec) | [result](orc-1.8.4.buildinfo): [35 :heavy_check_mark: ](orc-1.8.4.buildcompare) | 82M |
 | [1.8.3](https://central.sonatype.com/artifact/org.apache.orc/orc/1.8.3/pom) | | | |
