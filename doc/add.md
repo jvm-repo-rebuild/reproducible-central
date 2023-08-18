@@ -4,6 +4,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20230818054727 --> [docker-maven-plugin](../content/io/fabric8/docker-maven-plugin/README.md) | 0.43.3 :heavy_check_mark: | [0.43.4](../content/io/fabric8/docker-maven-plugin/docker-maven-plugin-0.43.4.buildspec) | `bin/add-new-release.sh content/io/fabric8/docker-maven-plugin/docker-maven-plugin-0.43.3.buildspec 0.43.4` |
 | <!-- 20230814194354 --> [byte-buddy-parent](../content/net/bytebuddy/README.md) | 1.14.5 :heavy_check_mark: | [1.14.6](../content/net/bytebuddy/byte-buddy-1.14.6.buildspec) | `bin/add-new-release.sh content/net/bytebuddy/byte-buddy-1.14.5.buildspec 1.14.6` |
 | <!-- 20230814123828 --> [alluxio-parent](../content/org/alluxio/alluxio/README.md) | 302 :heavy_check_mark: | [303](../content/org/alluxio/alluxio/alluxio-303.buildspec) | `bin/add-new-release.sh content/org/alluxio/alluxio/alluxio-302.buildspec 303` |
 | <!-- 20230806144110 --> [yauaa](../content/nl/basjes/parse/useragent/yauaa/README.md) | 7.21.0 :heavy_check_mark: | [7.22.0](../content/nl/basjes/parse/useragent/yauaa/yauaa-7.22.0.buildspec) | `bin/add-new-release.sh content/nl/basjes/parse/useragent/yauaa/yauaa-7.21.0.buildspec 7.22.0` |
@@ -18,6 +19,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20230818192105 --> [nifi](../content/org/apache/nifi/nifi/README.md) | 1.22.0 :warning: | [1.23.1](../content/org/apache/nifi/nifi/nifi-1.23.1.buildspec) | `bin/add-new-release.sh content/org/apache/nifi/nifi/nifi-1.22.0.buildspec 1.23.1` |
+| <!-- 20230818102937 --> [microservice-security-autoconfiguration](../content/io/dwpbank/movewp3/microservice-security-autoconfiguration/README.md) | 3.0.1 :warning: [:memo:](https://github.com/movewp3/microservice-security-autoconfiguration/pull/19) | [3.0.2](../content/io/dwpbank/movewp3/microservice-security-autoconfiguration/microservice-security-autoconfiguration-3.0.2.buildspec) | `bin/add-new-release.sh content/io/dwpbank/movewp3/microservice-security-autoconfiguration/microservice-security-autoconfiguration-3.0.1.buildspec 3.0.2` |
 | <!-- 20230817190733 --> [legend-engine](../content/org/finos/legend/engine/README.md) | 4.4.5 :warning: | [4.24.0](../content/org/finos/legend/engine/legend-engine-4.24.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.24.0` |
 | <!-- 20230817041654 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | 1.17.0-alpha :warning: | [1.29.0](../content/io/opentelemetry/instrumentation/opentelemetry-1.29.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/instrumentation/opentelemetry-1.17.0-alpha.buildspec 1.29.0` |
 | <!-- 20230815195257 --> [jooby](../content/io/jooby/README.md) | 3.0.0.M7 :warning: | [3.0.2](../content/io/jooby/jooby-3.0.2.buildspec) | `bin/add-new-release.sh content/io/jooby/jooby-3.0.0.M7.buildspec 3.0.2` |
@@ -34,7 +37,6 @@ New Releases To Add
 | <!-- 20230731213821 --> [guava](../content/com/google/guava/README.md) | 32.0.1-jre :warning: | [32.1.2-jre](../content/com/google/guava/guava-32.1.2-jre.buildspec) | `bin/add-new-release.sh content/com/google/guava/guava-32.0.1-jre.buildspec 32.1.2-jre` |
 | <!-- 20230729161134 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 7.0.5 :warning: [:memo:](https://github.com/eclipse-ee4j/glassfish/pull/24462) | [7.0.7](../content/org/glassfish/main/glassfish-7.0.7.buildspec) | `bin/add-new-release.sh content/org/glassfish/main/glassfish-7.0.5.buildspec 7.0.7` |
 | <!-- 20230729141934 --> [javacan](../content/tel/schich/javacan/README.md) | 3.2.2 :warning: | [3.2.4](../content/tel/schich/javacan/javacan-3.2.4.buildspec) | `bin/add-new-release.sh content/tel/schich/javacan/javacan-3.2.2.buildspec 3.2.4` |
-| <!-- 20230728220308 --> [nifi](../content/org/apache/nifi/nifi/README.md) | 1.22.0 :warning: | [1.23.0](../content/org/apache/nifi/nifi/nifi-1.23.0.buildspec) | `bin/add-new-release.sh content/org/apache/nifi/nifi/nifi-1.22.0.buildspec 1.23.0` |
 | <!-- 20230726170410 --> [artemis-pom](../content/org/apache/activemq/artemis/README.md) | 2.29.0 :warning: | [2.30.0](../content/org/apache/activemq/artemis/artemis-2.30.0.buildspec) | `bin/add-new-release.sh content/org/apache/activemq/artemis/artemis-2.29.0.buildspec 2.30.0` |
 | <!-- 20230723125611 --> [junit-bom](../content/org/junit/junit5/README.md) | 5.8.2 :warning: | [5.10.0](../content/org/junit/junit5/junit5-5.10.0.buildspec) | `bin/add-new-release.sh content/org/junit/junit5/junit5-5.8.2.buildspec 5.10.0` |
 | <!-- 20230714110756 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | 3.4.0 :warning: | [4.0.0](../content/io/github/chains-project/maven-lockfile/maven-lockfile-4.0.0.buildspec) | `bin/add-new-release.sh content/io/github/chains-project/maven-lockfile/maven-lockfile-3.4.0.buildspec 4.0.0` |
@@ -67,8 +69,8 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20230818130337 --> [xmlsec](../content/org/apache/santuario/xmlsec/README.md) | 3.0.2 :warning: [:memo:](https://github.com/apache/santuario-xml-security-java/pull/77) |
 | <!-- 20230810033447 --> [spdx-maven-plugin](../content/org/spdx/spdx-maven-plugin/README.md) | 0.7.0 :warning: [:memo:](https://github.com/spdx/spdx-maven-plugin/pull/125) |
-| <!-- 20230803100648 --> [microservice-security-autoconfiguration](../content/io/dwpbank/movewp3/microservice-security-autoconfiguration/README.md) | 3.0.1 :warning: [:memo:](https://github.com/movewp3/microservice-security-autoconfiguration/pull/19) |
 | <!-- 20230803053411 --> [parent](../content/org/apache/zookeeper/README.md) | 3.9.0 :warning: [:memo:](https://issues.apache.org/jira/browse/ZOOKEEPER-4732) |
 | <!-- 20230729004927 --> [shiro-root](../content/org/apache/shiro/README.md) | 2.0.0-alpha-3 :warning: |
 | <!-- 20230728155049 --> [efx-toolkit-java](../content/eu/europa/ted/eforms/efx-toolkit-java/README.md) | 2.0.0-alpha.1 :warning: |
@@ -106,7 +108,6 @@ New Releases To Add
 | <!-- 20230429054803 --> [drill-root](../content/org/apache/drill/README.md) | 1.21.1 :warning: [:memo:](https://github.com/apache/drill/pull/2805) |
 | <!-- 20230421160820 --> [mybatis-dynamic-sql](../content/org/mybatis/dynamic-sql/README.md) | 1.5.0 :warning: |
 | <!-- 20230412131318 --> [antisamy](../content/org/owasp/antisamy/README.md) | 1.7.3 :warning: |
-| <!-- 20230330132017 --> [xmlsec](../content/org/apache/santuario/xmlsec/README.md) | 3.0.2 :warning: [:memo:](https://github.com/apache/santuario-xml-security-java/pull/77) |
 | <!-- 20230329020048 --> [hk2-parent](../content/org/glassfish/hk2/README.md) | 3.0.4 :warning: [:memo:](https://github.com/eclipse-ee4j/glassfish-hk2/pull/821) |
 | <!-- 20230322175007 --> [commons-compress](../content/org/apache/commons/compress/README.md) | 1.23.0 :warning: |
 | <!-- 20230308201336 --> [jline-parent](../content/org/jline/jline/README.md) | 3.23.0 :warning: |
@@ -141,7 +142,6 @@ New Releases To Add
 | <!-- 20220514070205 --> [org.apache.sling.scripting.core](../content/org/apache/sling/org.apache.sling.scripting.core/README.md) | 2.4.8 :warning: |
 | <!-- 20220420235553 --> [jaxb2-maven-plugin](../content/org/codehaus/mojo/jaxb2-maven-plugin/README.md) | 3.1.0 :warning: [:memo:](https://github.com/mojohaus/jaxb2-maven-plugin/pull/243) |
 | <!-- 20220420183148 --> [logback-parent-db](../content/ch/qos/logback/db/README.md) | 1.2.11.1 :warning: [:memo:](https://github.com/qos-ch/logback-db/pull/2) |
-| <!-- 20220409174334 --> [com.io7m.jade](../content/com/io7m/jade/README.md) | 1.0.2 :warning: |
 | <!-- 20220318151210 --> [org.apache.sling.starter](../content/org/apache/sling/org.apache.sling.starter/README.md) | 12 :warning: |
 | <!-- 20220303223913 --> [apache-any23](../content/org/apache/any23/README.md) | 2.7 :warning: [:memo:](https://github.com/apache/any23/pull/270) |
 | <!-- 20220228062841 --> [isis-parent](../content/org/apache/isis/README.md) | 2.0.0-M7 :warning: |

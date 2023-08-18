@@ -12,8 +12,8 @@ Its objectives are to provide:
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
    rebuilding **2173 releases** of **446 projects**:
-   - **1651** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 522 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - **1652** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 521 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
 
@@ -63,7 +63,7 @@ Its objectives are to provide:
 | | <a name='com.github.veithen.maven:xjc-maven-plugin'></a>[xjc-maven-plugin](content/com/github/veithen/maven/xjc-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | com.google.guava | <a name='com.google.guava:guava'></a>[guava](content/com/google/guava/README.md) | 4 | 4 :warning: |
 | com.innoq | <a name='com.innoq:junit5-logging-extension'></a>[junit5-logging-extension](content/com/innoq/junit5-logging-extension/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
-| com.io7m.jade | <a name='com.io7m.jade:com.io7m.jade'></a>[com.io7m.jade](content/com/io7m/jade/README.md) | 2 | 2 :warning: |
+| com.io7m.jade | <a name='com.io7m.jade:com.io7m.jade'></a>[com.io7m.jade](content/com/io7m/jade/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | com.ongres.stringprep | <a name='com.ongres.stringprep:parent'></a>[parent](content/com/ongres/stringprep/README.md) | 1 | 1 :warning: |
 | com.scalapenos | <a name='com.scalapenos:stamina_2.11'></a>[stamina_2.11](content/com/scalapenos/stamina/README.md) | 2 | 2 :heavy_check_mark: |
 | com.spotify.fmt | <a name='com.spotify.fmt:fmt-maven-plugin'></a>[fmt-maven-plugin](content/com/spotify/fmt-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
@@ -468,7 +468,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 21 | 21 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **446** | **2173** | **1651** :heavy_check_mark: **522** :warning: |
+| **Count:** | **446** | **2173** | **1652** :heavy_check_mark: **521** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
