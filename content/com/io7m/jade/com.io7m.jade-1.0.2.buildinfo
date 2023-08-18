@@ -35,8 +35,8 @@ outputs.1.0.length=1000
 outputs.1.0.checksums.sha512=098b6576f124a8cbc0186e10d5b1919c8ad26d02de97f59d37528aa9e482cd03452caec8e6a6a70be1b0069ed187aff6d1a9a23b1879e50fefc9300f6c3fa476
 
 outputs.1.1.filename=com.io7m.jade.spi-1.0.2.jar
-outputs.1.1.length=4291
-outputs.1.1.checksums.sha512=ead36f973e577bcfc3ea03a0957af593386dcd1997e5da4e1b566b5e47f1347d8f6e59da0e8b508d4385a8bd74d13c63c83374a0fa1cc9a1af0dddffd18ee375
+outputs.1.1.length=4293
+outputs.1.1.checksums.sha512=2bee7a393828d035f23ded354644973049e0d291c5f3b120c8855dfda11cd210d51e094d54ce3fb5cddca489e89a828d212fbb2b3207ed497e741d89fd5d8a26
 
 outputs.1.2.filename=com.io7m.jade.spi-1.0.2-sources.jar
 outputs.1.2.length=6453
@@ -53,8 +53,8 @@ outputs.2.0.length=1599
 outputs.2.0.checksums.sha512=bdae8da935d95d8df0cfd971109792ec04e2c68d7ab4dd68604250857839dbf6c01b088b60b62d9a3e65193196d4714b6ac1f4206d78d412c65d639577a44362
 
 outputs.2.1.filename=com.io7m.jade.api-1.0.2.jar
-outputs.2.1.length=15783
-outputs.2.1.checksums.sha512=81aab7c9744665f7a6d8b534255ce82bf07cf340c9d2f8f5a564feedd368471c4fc6872e5a829789e5c58f252686bd91f9082001a4599e658335fe7cebd0a95e
+outputs.2.1.length=15784
+outputs.2.1.checksums.sha512=0426b082c07dc1aed6a905739d8998eb39f2b0f27cb2ce843b93c1c162d088c1ef425ca5c8d56187ee52685036cfd9d65bbe95916733582afd3c1d8ac55ea801
 
 outputs.2.2.filename=com.io7m.jade.api-1.0.2-sources.jar
 outputs.2.2.length=17087
@@ -71,8 +71,8 @@ outputs.3.0.length=1116
 outputs.3.0.checksums.sha512=01b38ae0c534a644a19e6b1c892645d73180a53d041c089aee6a9ca55269557979bdb0f6532c4e63abd7569add270a85f25932cb8b14d5bdbb1f2be9555c8dbb
 
 outputs.3.1.filename=com.io7m.jade.vanilla-1.0.2.jar
-outputs.3.1.length=15168
-outputs.3.1.checksums.sha512=865c15e3b07113198d67bc03f2fbe49d7d85d719afe96228a0b71d72227d89d50e027e3823f77de97f8e0d3396cea4e1a3a6d83c68091b0196261df367f425af
+outputs.3.1.length=15170
+outputs.3.1.checksums.sha512=3d0db155a90e69cadf7332acc24a874fb43d38ce0a7f54f53af81ecd337dfac3276674c879e7f37f84d5ef0704c42e5184481cbdabaf2d1786fa4d4bf9a54e1a
 
 outputs.3.2.filename=com.io7m.jade.vanilla-1.0.2-sources.jar
 outputs.3.2.length=13706
@@ -107,8 +107,8 @@ outputs.5.0.length=6866
 outputs.5.0.checksums.sha512=5644aeb499deb74f2f83845e7a7a7265ece8af6e5eb8af1472145e9819aed0900d257b32ad1c75717a2e7c73a9045cd5b4bb6b69f27444bd3ea0f8897662f950
 
 outputs.5.1.filename=com.io7m.jade.documentation-1.0.2.jar
-outputs.5.1.length=4522
-outputs.5.1.checksums.sha512=810a292e56129d416293cf880d3da5e822f93b8a73c21e508cf36f2c3ea83a116e1b53d1db98bd1fd0c69848ed7720b2a4a01e055d92efb170d57ebf3a3f62dd
+outputs.5.1.length=4525
+outputs.5.1.checksums.sha512=839c5031b7179a05bd0e8df75d91e5fb11afcb440e9e020b0d724d61321cc3fe59c900d78d6f804f871510c957534f9eba5a658e9e0f70e3ed366a37be0ab9ff
 
 outputs.5.2.filename=com.io7m.jade.documentation-1.0.2-sources.jar
 outputs.5.2.length=5380

@@ -1,9 +1,5 @@
 version=1.0.2
-ok=18
-ko=4
-okFiles="com.io7m.jade-1.0.2.pom com.io7m.jade.spi-1.0.2.pom com.io7m.jade.spi-1.0.2-sources.jar com.io7m.jade.spi-1.0.2-tests.jar com.io7m.jade.api-1.0.2.pom com.io7m.jade.api-1.0.2-sources.jar com.io7m.jade.api-1.0.2-tests.jar com.io7m.jade.vanilla-1.0.2.pom com.io7m.jade.vanilla-1.0.2-sources.jar com.io7m.jade.vanilla-1.0.2-tests.jar com.io7m.jade.tests-1.0.2.pom com.io7m.jade.tests-1.0.2.jar com.io7m.jade.tests-1.0.2-test-sources.jar com.io7m.jade.tests-1.0.2-tests.jar com.io7m.jade.documentation-1.0.2.pom com.io7m.jade.documentation-1.0.2-sources.jar com.io7m.jade.documentation-1.0.2.zip com.io7m.jade.documentation-1.0.2-tests.jar"
-koFiles="com.io7m.jade.spi-1.0.2.jar com.io7m.jade.api-1.0.2.jar com.io7m.jade.vanilla-1.0.2.jar com.io7m.jade.documentation-1.0.2.jar"
-# diffoscope target/reference/com.io7m.jade.spi-1.0.2.jar com.io7m.jade.spi/target/com.io7m.jade.spi-1.0.2.jar
-# diffoscope target/reference/com.io7m.jade.api-1.0.2.jar com.io7m.jade.api/target/com.io7m.jade.api-1.0.2.jar
-# diffoscope target/reference/com.io7m.jade.vanilla-1.0.2.jar com.io7m.jade.vanilla/target/com.io7m.jade.vanilla-1.0.2.jar
-# diffoscope target/reference/com.io7m.jade.documentation-1.0.2.jar com.io7m.jade.documentation/target/com.io7m.jade.documentation-1.0.2.jar
+ok=22
+ko=0
+okFiles="com.io7m.jade-1.0.2.pom com.io7m.jade.spi-1.0.2.pom com.io7m.jade.spi-1.0.2.jar com.io7m.jade.spi-1.0.2-sources.jar com.io7m.jade.spi-1.0.2-tests.jar com.io7m.jade.api-1.0.2.pom com.io7m.jade.api-1.0.2.jar com.io7m.jade.api-1.0.2-sources.jar com.io7m.jade.api-1.0.2-tests.jar com.io7m.jade.vanilla-1.0.2.pom com.io7m.jade.vanilla-1.0.2.jar com.io7m.jade.vanilla-1.0.2-sources.jar com.io7m.jade.vanilla-1.0.2-tests.jar com.io7m.jade.tests-1.0.2.pom com.io7m.jade.tests-1.0.2.jar com.io7m.jade.tests-1.0.2-test-sources.jar com.io7m.jade.tests-1.0.2-tests.jar com.io7m.jade.documentation-1.0.2.pom com.io7m.jade.documentation-1.0.2.jar com.io7m.jade.documentation-1.0.2-sources.jar com.io7m.jade.documentation-1.0.2.zip com.io7m.jade.documentation-1.0.2-tests.jar"
+koFiles=""
