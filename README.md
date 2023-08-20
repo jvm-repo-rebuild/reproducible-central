@@ -482,22 +482,24 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      21 gradle     11
      26 mvn         7
-    945 mvn         8
+    948 mvn         8
       1 mvn         9
-    742 mvn        11
+    741 mvn        11
+      1 mvn        11.0.6
       1 mvn        13
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    167 mvn        17
+    166 mvn        17
+      1 mvn        17.0.7
      11 mvn        18
      17 mvn        19
       8 mvn        20
       2 mvn-3.5.4   8
-      3 mvn-3.6.3   8
       1 mvn-3.8.5   8
      13 mvn-3.8.5  11
-      9 mvn-3.8.5  17
+      8 mvn-3.8.5  17
+      1 mvn-3.8.5  17.0.3
      29 mvn-3.8.6   8
       2 mvn-3.8.6  11
      35 mvn-3.8.6  17

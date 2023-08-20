@@ -89,7 +89,7 @@ do
       diffoscope=
       issue=
       . $dir/${buildspec}
-      printf "%-9s %3d\n" ${tool} ${jdk} >> $stats
+      printf "%-9s  %2s\n" ${tool} ${jdk} >> $stats
       if [ ! -f "${projectReadme}" ]
       then
         ((countGa++))
