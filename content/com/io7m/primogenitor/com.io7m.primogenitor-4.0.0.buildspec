@@ -1,0 +1,19 @@
+groupId=com.io7m.primogenitor
+artifactId=com.io7m.primogenitor
+display=${groupId}:${artifactId}
+version=4.0.0
+
+gitRepo="https://github.com/io7m/$(echo "${artifactId}" | sed s/com.io7m.//)"
+#gitTag=${artifactId}-${version}
+gitTag=9e1496da1efc5b02187525bf53195126919e070e
+
+tool=mvn-3.9.3
+jdk=11
+newline=lf
+#umask=022
+
+command="mvn -Dio7m.api.previousVersion=0.0.0 -DskipTests clean package"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
