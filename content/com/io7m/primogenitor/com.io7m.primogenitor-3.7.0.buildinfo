@@ -1,0 +1,72 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.primogenitor
+group-id=com.io7m.primogenitor
+artifact-id=com.io7m.primogenitor
+version=3.7.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/primogenitor
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.6.2
+mvn.aggregate.artifact-id=com.io7m.primogenitor.support
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.primogenitor:com.io7m.primogenitor
+
+outputs.0.0.filename=com.io7m.primogenitor-3.7.0.pom
+outputs.0.0.length=39325
+outputs.0.0.checksums.sha512=a2a9f3261466787609bd8902a4fc9f7c03f93ad0079418d763e58b100ff625166e30d0573d57ad6e6b7a64f1df05f3671994934802184b68b1d3028377e1ed23
+
+outputs.0.1.filename=com.io7m.primogenitor-3.7.0.pom
+outputs.0.1.length=39325
+outputs.0.1.checksums.sha512=a2a9f3261466787609bd8902a4fc9f7c03f93ad0079418d763e58b100ff625166e30d0573d57ad6e6b7a64f1df05f3671994934802184b68b1d3028377e1ed23
+
+outputs.1.coordinates=com.io7m.primogenitor:com.io7m.primogenitor.lite
+
+outputs.1.0.filename=com.io7m.primogenitor.lite-3.7.0.pom
+outputs.1.0.length=711
+outputs.1.0.checksums.sha512=b906afc207b5df17ef37953d64c1d0974fb8f6ecd367ff061cabcda635410026c34ee1767ff832d1e80de33ed4b7e2f2c68321762fc1b8b34ab08945d027f518
+
+outputs.1.1.filename=com.io7m.primogenitor.lite-3.7.0.pom
+outputs.1.1.length=711
+outputs.1.1.checksums.sha512=b906afc207b5df17ef37953d64c1d0974fb8f6ecd367ff061cabcda635410026c34ee1767ff832d1e80de33ed4b7e2f2c68321762fc1b8b34ab08945d027f518
+
+outputs.2.coordinates=com.io7m.primogenitor:com.io7m.primogenitor.full
+
+outputs.2.0.filename=com.io7m.primogenitor.full-3.7.0.pom
+outputs.2.0.length=2419
+outputs.2.0.checksums.sha512=a22863773939418807b81ead10620b17beb6daa19fd8080137fab52fd55ec7c88893cab7d185ac4aae9339c0dd157bdb6a280144a3b40a361c449db028e1d95b
+
+outputs.2.1.filename=com.io7m.primogenitor.full-3.7.0.pom
+outputs.2.1.length=2419
+outputs.2.1.checksums.sha512=a22863773939418807b81ead10620b17beb6daa19fd8080137fab52fd55ec7c88893cab7d185ac4aae9339c0dd157bdb6a280144a3b40a361c449db028e1d95b
+
+outputs.3.coordinates=com.io7m.primogenitor:com.io7m.primogenitor.support
+
+outputs.3.0.filename=com.io7m.primogenitor.support-3.7.0.pom
+outputs.3.0.length=720
+outputs.3.0.checksums.sha512=d5c4e0840c2239d3c6a18504ec17ca36d6455a9dd06cddd69195c583ff120097114b3241a7fb27081eea8c85f2640389e2c5e9fb0f243f52502473801fa776b2
+
+outputs.3.1.filename=com.io7m.primogenitor.support-3.7.0.jar
+outputs.3.1.length=5725
+outputs.3.1.checksums.sha512=0c9704440ce965e2ee794d75c350dca74e76c21d278b8352226777bb7e5b505aae0790d866a893d666a84782ef22436fe5fb4899fb82e84d58a89e0d01e3317f
+
+outputs.3.2.filename=com.io7m.primogenitor.support-3.7.0-sources.jar
+outputs.3.2.length=4540
+outputs.3.2.checksums.sha512=808e9844d6e5906f516c6b8301f7715edcabdc892c9d284ede6aeb2ddf6d1472e2c9d29589eb9ed8e1c922b8136d684000c95f0811f10ba9d66e130c8ef09b4d
+
+outputs.3.3.filename=com.io7m.primogenitor.support-3.7.0-tests.jar
+outputs.3.3.length=411
+outputs.3.3.checksums.sha512=4d2fdaae9275b63a9514964967acf6889b336d4579314be6e7ea14f5b118596abc07bc6447166249b2db5997721cba963232095251dc56c74d101e76d0d48666
