@@ -1,13 +1,14 @@
 groupId=org.alluxio
 artifactId=alluxio-parent
-version=302
+version=303
 
 display=${groupId}:${artifactId}
 
 gitRepo=https://github.com/alluxio/alluxio.git
 #gitTag=v${version}
 # WARNING: binaries pulished to Maven Central were not built from the tag...
-gitTag=f6bccfc
+gitTag=24f194d
+
 
 tool=mvn-3.9.3
 jdk=8

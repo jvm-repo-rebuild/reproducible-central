@@ -5,7 +5,7 @@ version=301
 display=${groupId}:${artifactId}
 
 gitRepo=https://github.com/alluxio/alluxio.git
-gitTag=v${version}
+#gitTag=v${version}
 # WARNING: binaries pulished to Maven Central were not built from the tag...
 gitTag=e816b77
 
