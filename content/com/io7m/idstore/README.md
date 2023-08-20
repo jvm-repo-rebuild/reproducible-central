@@ -72,6 +72,6 @@ rebuilding **1 releases** of com.io7m.idstore:com.io7m.idstore:
 | [1.0.0-beta0003](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/1.0.0-beta0003/pom) | | | |
 | [1.0.0-beta0002](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/1.0.0-beta0002/pom) | | | |
 | [1.0.0-beta0001](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/1.0.0-beta0001/pom) | | | |
-| [0.0.14](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/0.0.14/pom) | [mvn jdk17](com.io7m.idstore-0.0.14.buildspec) | [result](com.io7m.idstore-0.0.14.buildinfo): [151 :heavy_check_mark:  5 :warning:](com.io7m.idstore-0.0.14.buildcompare) [:mag:](com.io7m.idstore-0.0.14.diffoscope) | 25M |
+| [0.0.14](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/0.0.14/pom) | [mvn jdk17.0.7](com.io7m.idstore-0.0.14.buildspec) | [result](com.io7m.idstore-0.0.14.buildinfo): [151 :heavy_check_mark:  5 :warning:](com.io7m.idstore-0.0.14.buildcompare) [:mag:](com.io7m.idstore-0.0.14.diffoscope) | 25M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

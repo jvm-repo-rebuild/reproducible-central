@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2175 releases** of **447 projects**:
-   - **1653** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **2196 releases** of **448 projects**:
+   - **1674** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 522 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
@@ -65,6 +65,7 @@ Its objectives are to provide:
 | com.innoq | <a name='com.innoq:junit5-logging-extension'></a>[junit5-logging-extension](content/com/innoq/junit5-logging-extension/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | com.io7m.idstore | <a name='com.io7m.idstore:com.io7m.idstore'></a>[com.io7m.idstore](content/com/io7m/idstore/README.md) | 1 | 1 :warning: |
 | com.io7m.jade | <a name='com.io7m.jade:com.io7m.jade'></a>[com.io7m.jade](content/com/io7m/jade/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
+| com.io7m.primogenitor | <a name='com.io7m.primogenitor:com.io7m.primogenitor'></a>[com.io7m.primogenitor](content/com/io7m/primogenitor/README.md) | 20 | 20 :heavy_check_mark: |
 | com.ongres.stringprep | <a name='com.ongres.stringprep:parent'></a>[parent](content/com/ongres/stringprep/README.md) | 1 | 1 :warning: |
 | com.scalapenos | <a name='com.scalapenos:stamina_2.11'></a>[stamina_2.11](content/com/scalapenos/stamina/README.md) | 2 | 2 :heavy_check_mark: |
 | com.spotify.fmt | <a name='com.spotify.fmt:fmt-maven-plugin'></a>[fmt-maven-plugin](content/com/spotify/fmt-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
@@ -446,7 +447,7 @@ Its objectives are to provide:
 | org.openapitools.openapidiff | <a name='org.openapitools.openapidiff:openapi-diff-parent'></a>[openapi-diff-parent](content/org/openapitools/openapidiff/README.md) | 8 | 8 :heavy_check_mark: |
 | org.osgi | <a name='org.osgi:org.osgi.test.parent'></a>[*.test.parent](content/org/osgi/test/README.md) | 5 | 4 :heavy_check_mark: / 1 :warning: |
 | org.owasp.antisamy | <a name='org.owasp.antisamy:antisamy'></a>[antisamy](content/org/owasp/antisamy/README.md) | 14 | 13 :heavy_check_mark: / 1 :warning: |
-| org.owasp | <a name='org.owasp:dependency-check-parent'></a>[dependency-check-parent](content/org/owasp/dependency-check/README.md) | 18 | 13 :heavy_check_mark: / 5 :warning: |
+| org.owasp | <a name='org.owasp:dependency-check-parent'></a>[dependency-check-parent](content/org/owasp/dependency-check/README.md) | 19 | 14 :heavy_check_mark: / 5 :warning: |
 | org.simplify4u | <a name='org.simplify4u:pgp-keys-map'></a>[pgp-keys-map](content/org/simplify4u/pgp-keys-map/README.md) | 18 | 18 :heavy_check_mark: |
 | | <a name='org.simplify4u:slf4j-mock'></a>[slf4j-mock](content/org/simplify4u/slf4j-mock/README.md) | 4 | 4 :heavy_check_mark: |
 | org.simplify4u.plugins | <a name='org.simplify4u.plugins:pgpverify-maven-plugin'></a>[pgpverify-maven-plugin](content/org/simplify4u/plugins/pgpverify-maven-plugin/README.md) | 8 | 8 :heavy_check_mark: |
@@ -469,7 +470,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 21 | 21 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **447** | **2175** | **1653** :heavy_check_mark: **522** :warning: |
+| **Count:** | **448** | **2196** | **1674** :heavy_check_mark: **522** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -481,7 +482,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      21 gradle     11
      26 mvn         7
-    944 mvn         8
+    945 mvn         8
       1 mvn         9
     742 mvn        11
       1 mvn        13
@@ -513,8 +514,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn-3.9.2   8
      12 mvn-3.9.2  17
       2 mvn-3.9.3   8
-      9 mvn-3.9.3  11
-      1 mvn-3.9.3  17
+     15 mvn-3.9.3  11
+      3 mvn-3.9.3  14
+     12 mvn-3.9.3  17
       2 mvn-3.9.3  19
       2 sbt         8
 <!-- END GENERATED STATS -->
