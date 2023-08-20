@@ -4,14 +4,15 @@ display=${groupId}:${artifactId}
 version=0.0.14
 
 gitRepo=https://github.com/io7m/idstore
-gitTag=${artifactId}-${version}
+#gitTag=${artifactId}-${version}
+gitTag=eacd59a24ea2bd32c100e3dc7c180b68f0e029a7
 
 tool=mvn
 jdk=17.0.7
 newline=lf
 #umask=022
 
-command="mvn -DbuildNumber=eacd59a24ea2bd32c100e3dc7c180b68f0e029a7 -Dmaven.buildNumber.skip -DskipTests clean package"
+command="mvn -DskipTests clean package"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope

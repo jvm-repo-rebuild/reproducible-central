@@ -4,14 +4,15 @@ display=${groupId}:${artifactId}
 version=1.0.1
 
 gitRepo=https://github.com/io7m/jade.git
-gitTag=${artifactId}-${version}
+#gitTag=${artifactId}-${version}
+gitTag=f2b307b3ff1d6e10b2f73aef51cc7ba24e595d1f
 
 tool=mvn
 jdk=11.0.6
 newline=lf
 locale="en_US"
 
-command="mvn -DbuildNumber=f2b307b3ff1d6e10b2f73aef51cc7ba24e595d1f -Dmaven.buildNumber.skip -DskipTests clean package"
+command="mvn -DskipTests clean package"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 #diffoscope=${artifactId}-${version}.diffoscope
