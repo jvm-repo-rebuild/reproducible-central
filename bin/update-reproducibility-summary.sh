@@ -212,7 +212,7 @@ do
   if [ "${highestVersion}" != "${newestBuildspecVersion}" ]
   then
     latestBuildspec="${dir}/$(basename ${newestBuildspec} -${newestBuildspecVersion}.buildspec)-${latestVersion}.buildspec"
-    echo "| <!-- ${lastUpdated} --> [${artifactId}](../${dir}/README.md) | ${newestBuildspecVersion} $link | [${latestVersion}](../$latestBuildspec) | \`bin/add-new-release.sh $dir/${newestBuildspec} ${latestVersion}\` |" >> ${out}
+    echo "| <!-- ${lastUpdated} --> [${artifactId}](../${dir}/README.md) | [${newestBuildspecVersion}](../$dir/${newestBuildspec}) $link | [${latestVersion}](../$latestBuildspec) | \`bin/add-new-release.sh $dir/${newestBuildspec} ${latestVersion}\` |" >> ${out}
   else
     # no newer relese exists, list newest release if it was not reproducible: it requires rework to prepare next release
     if [ ! -f "${dir}/${newestBuildcompare}" ] || [ $ko -ne 0 ]
