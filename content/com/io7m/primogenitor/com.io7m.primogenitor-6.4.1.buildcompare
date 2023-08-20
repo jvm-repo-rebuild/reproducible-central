@@ -1,0 +1,5 @@
+version=6.4.1
+ok=14
+ko=0
+okFiles="com.io7m.primogenitor-6.4.1.pom com.io7m.primogenitor-6.4.1.pom com.io7m.primogenitor.lite-6.4.1.pom com.io7m.primogenitor.lite-6.4.1.pom com.io7m.primogenitor.full-6.4.1.pom com.io7m.primogenitor.full-6.4.1.pom com.io7m.primogenitor.support-6.4.1.pom com.io7m.primogenitor.support-6.4.1.jar com.io7m.primogenitor.support-6.4.1-sources.jar com.io7m.primogenitor.support-6.4.1-tests.jar com.io7m.primogenitor.tests-6.4.1.pom com.io7m.primogenitor.tests-6.4.1.jar com.io7m.primogenitor.tests-6.4.1-test-sources.jar com.io7m.primogenitor.tests-6.4.1-tests.jar"
+koFiles=""
