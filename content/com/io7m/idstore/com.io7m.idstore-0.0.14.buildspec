@@ -7,8 +7,7 @@ gitRepo=https://github.com/io7m/idstore
 gitTag=${artifactId}-${version}
 
 tool=mvn
-# require precisely 17.0.7
-jdk=17
+jdk=17.0.7
 newline=lf
 #umask=022
 

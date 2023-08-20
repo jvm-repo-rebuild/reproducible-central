@@ -1,0 +1,123 @@
+1 / 1 target/reference/com.io7m.jade.documentation-1.0.1.zip com.io7m.jade.documentation/target/com.io7m.jade.documentation-1.0.1.zip
+--- target/reference/com.io7m.jade.documentation-1.0.1.zip
++++ com.io7m.jade.documentation/target/com.io7m.jade.documentation-1.0.1.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 467145 bytes, number of entries: 90
+│ +Zip file size: 464899 bytes, number of entries: 89
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/com/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/com/io7m/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/com/io7m/jade/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/com/io7m/jade/api/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/com/io7m/jade/api/internal/
+│ @@ -13,80 +13,79 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/external/jquery/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/images/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/jszip/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/jszip/dist/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/jszip-utils/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/jszip-utils/dist/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/resources/
+│ --rw-r--r--  2.0 unx     9853 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/allclasses-index.html
+...
+│ --rw-r--r--  2.0 unx     4258 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/deprecated-list.html
+│ +-rw-r--r--  2.0 unx     9775 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/allclasses-index.html
+...
+│ +-rw-r--r--  2.0 unx     4180 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/deprecated-list.html
+│  -rw-r--r--  2.0 unx       85 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/element-list
+│ --rw-r--r--  2.0 unx     9531 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/help-doc.html
+│ --rw-r--r--  2.0 unx    45645 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/index-all.html
+│ --rw-r--r--  2.0 unx     5440 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/index.html
+│ --rw-r--r--  2.0 unx   271751 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/external/jquery/jquery.js
+│ +-rw-r--r--  2.0 unx     9453 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/help-doc.html
+│ +-rw-r--r--  2.0 unx    45567 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/index-all.html
+│ +-rw-r--r--  2.0 unx     5362 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/index.html
+│ +-rw-r--r--  2.0 unx   280363 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/external/jquery/jquery.js
+│  -rw-r--r--  2.0 unx      335 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png
+│  -rw-r--r--  2.0 unx      262 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/images/ui-bg_glass_65_dadada_1x400.png
+│  -rw-r--r--  2.0 unx      262 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/images/ui-bg_glass_75_dadada_1x400.png
+│  -rw-r--r--  2.0 unx      262 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png
+│  -rw-r--r--  2.0 unx      332 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/images/ui-bg_glass_95_fef1ec_1x400.png
+│  -rw-r--r--  2.0 unx      280 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+│  -rw-r--r--  2.0 unx     6922 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/images/ui-icons_222222_256x240.png
+│  -rw-r--r--  2.0 unx     4549 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/images/ui-icons_2e83ff_256x240.png
+│  -rw-r--r--  2.0 unx     6992 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/images/ui-icons_454545_256x240.png
+│  -rw-r--r--  2.0 unx     6999 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/images/ui-icons_888888_256x240.png
+│  -rw-r--r--  2.0 unx     4549 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/images/ui-icons_cd0a0a_256x240.png
+│ --rw-r--r--  2.0 unx   271751 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/jquery-3.3.1.js
+│ --rw-r--r--  2.0 unx    17841 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/jquery-migrate-3.0.1.js
+│ +-rw-r--r--  2.0 unx   280363 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/jquery-3.4.1.js
+│  -rw-r--r--  2.0 unx    20275 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/jquery-ui.css
+│  -rw-r--r--  2.0 unx    71563 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/jquery-ui.js
+│  -rw-r--r--  2.0 unx    17416 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/jquery-ui.min.css
+│  -rw-r--r--  2.0 unx    32162 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/jquery-ui.min.js
+│  -rw-r--r--  2.0 unx     2555 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/jquery-ui.structure.css
+│  -rw-r--r--  2.0 unx     1787 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/jquery-ui.structure.min.css
+│  -rw-r--r--  2.0 unx   376477 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/jszip/dist/jszip.js
+│  -rw-r--r--  2.0 unx   102328 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/jszip/dist/jszip.min.js
+│  -rw-r--r--  2.0 unx     2444 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/jszip-utils/dist/jszip-utils-ie.js
+│  -rw-r--r--  2.0 unx     1610 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/jszip-utils/dist/jszip-utils-ie.min.js
+│  -rw-r--r--  2.0 unx     4483 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/jszip-utils/dist/jszip-utils.js
+│  -rw-r--r--  2.0 unx     1777 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/jquery/jszip-utils/dist/jszip-utils.min.js
+│  -rw-r--r--  2.0 unx     9490 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/member-search-index.js
+│  -rw-r--r--  2.0 unx     1068 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/member-search-index.zip
+│ --rw-r--r--  2.0 unx     5440 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/overview-summary.html
+│ --rw-r--r--  2.0 unx     9413 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/overview-tree.html
+│ +-rw-r--r--  2.0 unx     5362 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/overview-summary.html
+│ +-rw-r--r--  2.0 unx     9335 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/overview-tree.html
+│  -rw-r--r--  2.0 unx      191 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/package-search-index.js
+│  -rw-r--r--  2.0 unx      266 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/package-search-index.zip
+│  -rw-r--r--  2.0 unx      499 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/resources/glass.png
+│  -rw-r--r--  2.0 unx      394 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/resources/x.png
+│ --rw-r--r--  2.0 unx     5544 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/script.js
+│ --rw-r--r--  2.0 unx    13299 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/search.js
+│ +-rw-r--r--  2.0 unx     4547 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/script.js
+│ +-rw-r--r--  2.0 unx    12302 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/search.js
+│  -rw-r--r--  2.0 unx    22271 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/stylesheet.css
+│  -rw-r--r--  2.0 unx     1090 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/type-search-index.js
+│  -rw-r--r--  2.0 unx      404 b- defN 20-Jan-01 00:00 com.io7m.jade.documentation-1.0.1/apidocs/type-search-index.zip
+│ -90 files, 1655784 bytes uncompressed, 447219 bytes compressed:  73.0%
+│ +89 files, 1650215 bytes uncompressed, 445193 bytes compressed:  73.0%
+├── zipnote {}
+│ @@ -183,18 +183,15 @@
+│  
+│  Filename: com.io7m.jade.documentation-1.0.1/apidocs/jquery/images/ui-icons_888888_256x240.png
+│  Comment: 
+│  
+│  Filename: com.io7m.jade.documentation-1.0.1/apidocs/jquery/images/ui-icons_cd0a0a_256x240.png
+│  Comment: 
+│  
+│ -Filename: com.io7m.jade.documentation-1.0.1/apidocs/jquery/jquery-3.3.1.js
+│ -Comment: 
+│ -
+│ -Filename: com.io7m.jade.documentation-1.0.1/apidocs/jquery/jquery-migrate-3.0.1.js
+│ +Filename: com.io7m.jade.documentation-1.0.1/apidocs/jquery/jquery-3.4.1.js
+│  Comment: 
+│  
+│  Filename: com.io7m.jade.documentation-1.0.1/apidocs/jquery/jquery-ui.css
+│  Comment: 
+│  
+│  Filename: com.io7m.jade.documentation-1.0.1/apidocs/jquery/jquery-ui.js
+│  Comment:
+├── com.io7m.jade.documentation-1.0.1/apidocs/allclasses-index.html
+│ @@ -9,16 +9,15 @@
+│  <link rel="stylesheet" type="text/css" href="jquery/jquery-ui.css" title="Style">
+│  <script type="text/javascript" src="script.js"></script>
+│  <script type="text/javascript" src="jquery/jszip/dist/jszip.min.js"></script>
+│  <script type="text/javascript" src="jquery/jszip-utils/dist/jszip-utils.min.js"></script>
+│  <!--[if IE]>
+│  <script type="text/javascript" src="jquery/jszip-utils/dist/jszip-utils-ie.min.js"></script>
+│  <![endif]-->
+│ -<script type="text/javascript" src="jquery/jquery-3.3.1.js"></script>
+│ -<script type="text/javascript" src="jquery/jquery-migrate-3.0.1.js"></script>
+│ +<script type="text/javascript" src="jquery/jquery-3.4.1.js"></script>
+│  <script type="text/javascript" src="jquery/jquery-ui.js"></script>
+│  </head>
+│  <body>
+│  <script type="text/javascript"><!--
+│      try {
+│          if (location.href.indexOf('is-external=true') == -1) {
+│              parent.document.title="All Classes";
+...

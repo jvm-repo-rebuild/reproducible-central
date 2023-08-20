@@ -22,6 +22,12 @@ rebuildToolMvn() {
   #local mvn_rebuild="${command} -V -e artifact:compare -Dbuildinfo.reproducible"
   local mvn_rebuild="${command} -V -e org.apache.maven.plugins:maven-artifact-plugin:3.3.0:compare -Dbuildinfo.reproducible"
 
+  if [[ "${jdk}" == ??.0.* ]]
+  then
+    # force SHELL execution to get precise JDK release
+    [[ "${command}" == SHELL* ]] || command="SHELL ${command}"
+  fi
+
   if [[ "${command}" == SHELL* ]]
   then
     # open a shell to do manual rebuild
@@ -29,7 +35,17 @@ rebuildToolMvn() {
     mvn -v
     echo
     info "opening interactive shell: please run rebuild with required JDK then exit to continue:"
+    runlog "sdk use java ${jdk}"
+    local mvnVersion="3.6.3"
+    case ${tool} in
+      mvn-*)
+        mvnVersion="$(echo "$tool" | cut -d - -f 2)"
+        ;;
+    esac
+    runlog "sdk use maven ${mvnVersion}"
+
     runlog "${mvn_rebuild//SHELL /}"
+    echo
     ${SHELL} -i
   else
     if [[ "${command}" == DOCKER* ]]
