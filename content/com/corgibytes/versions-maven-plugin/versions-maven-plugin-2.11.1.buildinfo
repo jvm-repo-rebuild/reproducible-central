@@ -29,3 +29,7 @@ outputs.0.checksums.sha512=c22e3deb94f83dcb2c33083b9439bcc28404a3d72c1715ecaa71b
 outputs.1.filename=versions-maven-plugin-2.11.1.jar
 outputs.1.length=344822
 outputs.1.checksums.sha512=3c15a7d20046ad37e95cb89a762b4742e655ca2c693338c66c158f2d42e769fa5801c7e513e01b6999f99ad8cbf6a586a5000a478d2ffd65bbe97cf74505c820
+
+outputs.2.filename=versions-maven-plugin-2.11.1-sources.jar
+outputs.2.length=230678
+outputs.2.checksums.sha512=1ebd547ff55e5201cf086e6b46ece8dbcf225fd9cd5f2096623fdb319fbda6f9833403ae3ccf39aa1ed020c475752b781e1a81b44929f00a4f11da2588b89a4b
