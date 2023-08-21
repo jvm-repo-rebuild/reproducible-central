@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2197 releases** of **448 projects**:
-   - **1675** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **2209 releases** of **448 projects**:
+   - **1687** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 522 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
@@ -65,7 +65,7 @@ Its objectives are to provide:
 | com.innoq | <a name='com.innoq:junit5-logging-extension'></a>[junit5-logging-extension](content/com/innoq/junit5-logging-extension/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | com.io7m.idstore | <a name='com.io7m.idstore:com.io7m.idstore'></a>[com.io7m.idstore](content/com/io7m/idstore/README.md) | 1 | 1 :warning: |
 | com.io7m.jade | <a name='com.io7m.jade:com.io7m.jade'></a>[com.io7m.jade](content/com/io7m/jade/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
-| com.io7m.primogenitor | <a name='com.io7m.primogenitor:com.io7m.primogenitor'></a>[com.io7m.primogenitor](content/com/io7m/primogenitor/README.md) | 20 | 20 :heavy_check_mark: |
+| com.io7m.primogenitor | <a name='com.io7m.primogenitor:com.io7m.primogenitor'></a>[com.io7m.primogenitor](content/com/io7m/primogenitor/README.md) | 30 | 30 :heavy_check_mark: |
 | com.ongres.stringprep | <a name='com.ongres.stringprep:parent'></a>[parent](content/com/ongres/stringprep/README.md) | 1 | 1 :warning: |
 | com.scalapenos | <a name='com.scalapenos:stamina_2.11'></a>[stamina_2.11](content/com/scalapenos/stamina/README.md) | 2 | 2 :heavy_check_mark: |
 | com.spotify.fmt | <a name='com.spotify.fmt:fmt-maven-plugin'></a>[fmt-maven-plugin](content/com/spotify/fmt-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
@@ -135,11 +135,11 @@ Its objectives are to provide:
 | nl.basjes.energy | <a name='nl.basjes.energy:energy-parent'></a>[energy-parent](content/nl/basjes/energy/README.md) | 1 | 1 :heavy_check_mark: |
 | nl.basjes.maven.release | <a name='nl.basjes.maven.release:conventional-commits-version-policy'></a>[conventional-commits-version-policy](content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | 1 | 1 :heavy_check_mark: |
 | nl.basjes.parse.httpdlog | <a name='nl.basjes.parse.httpdlog:httpdlog-parser'></a>[httpdlog-parser](content/nl/basjes/parse/httpdlog/httpdlog-parser/README.md) | 2 | 2 :heavy_check_mark: |
-| nl.basjes.parse.useragent | <a name='nl.basjes.parse.useragent:yauaa'></a>[yauaa](content/nl/basjes/parse/useragent/yauaa/README.md) | 10 | 9 :heavy_check_mark: / 1 :warning: |
+| nl.basjes.parse.useragent | <a name='nl.basjes.parse.useragent:yauaa'></a>[yauaa](content/nl/basjes/parse/useragent/yauaa/README.md) | 11 | 10 :heavy_check_mark: / 1 :warning: |
 | nl.hsac | <a name='nl.hsac:hsac-fitnesse-fixtures'></a>[hsac-fitnesse-fixtures](content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 62 | 51 :heavy_check_mark: / 11 :warning: |
 | org.quickperf | <a name='org.quickperf:quick-perf'></a>[quick-perf](content/org/quickperf/README.md) | 3 | 3 :heavy_check_mark: |
 | org.slf4j | <a name='org.slf4j:slf4j-parent'></a>[slf4j-parent](content/org/slf4j/README.md) | 7 | 2 :heavy_check_mark: / 5 :warning: |
-| org.alluxio | <a name='org.alluxio:alluxio-parent'></a>[alluxio-parent](content/org/alluxio/alluxio/README.md) | 4 | 4 :heavy_check_mark: |
+| org.alluxio | <a name='org.alluxio:alluxio-parent'></a>[alluxio-parent](content/org/alluxio/alluxio/README.md) | 5 | 5 :heavy_check_mark: |
 | org.antlr | <a name='org.antlr:antlr4-master'></a>[antlr4-master](content/org/antlr/antlr4/README.md) | 1 | 1 :warning: |
 | org.apache.accumulo | <a name='org.apache.accumulo:accumulo'></a>[accumulo](content/org/apache/accumulo/README.md) | 5 | 1 :heavy_check_mark: / 4 :warning: |
 | org.apache.activemq | <a name='org.apache.activemq:activemq-parent'></a>[activemq-parent](content/org/apache/activemq/README.md) | 8 | 1 :heavy_check_mark: / 7 :warning: |
@@ -470,7 +470,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 21 | 21 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **448** | **2197** | **1675** :heavy_check_mark: **522** :warning: |
+| **Count:** | **448** | **2209** | **1687** :heavy_check_mark: **522** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -505,7 +505,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      35 mvn-3.8.6  17
       2 mvn-3.8.6  18
       4 mvn-3.8.6  19
-     12 mvn-3.8.7  17
+     13 mvn-3.8.7  17
       4 mvn-3.9.0  11
       6 mvn-3.9.0  17
       5 mvn-3.9.1   8
@@ -515,10 +515,10 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       6 mvn-3.9.1  20
       5 mvn-3.9.2   8
      12 mvn-3.9.2  17
-      2 mvn-3.9.3   8
+      3 mvn-3.9.3   8
      15 mvn-3.9.3  11
-      3 mvn-3.9.3  14
-     12 mvn-3.9.3  17
+      7 mvn-3.9.3  14
+     18 mvn-3.9.3  17
       2 mvn-3.9.3  19
       2 sbt         8
 <!-- END GENERATED STATS -->
