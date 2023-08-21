@@ -1,0 +1,7 @@
+version=2.15.6
+ok=4
+ko=0
+okFiles="org.apache.sling.engine-2.15.6.pom org.apache.sling.engine-2.15.6.jar org.apache.sling.engine-2.15.6-source-release.zip org.apache.sling.engine-2.15.6-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
