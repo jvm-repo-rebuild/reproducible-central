@@ -1,0 +1,85 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Mock Repository Manager :: Project
+group-id=com.corgibytes
+artifact-id=mrm
+version=1.4.2
+
+# source information
+source.scm.uri=scm:git:https://github.com/corgibytes/mrm.git
+source.scm.tag=mrm-1.4.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=mrm-maven-plugin
+
+# aggregated output
+
+outputs.0.coordinates=com.corgibytes:mrm
+
+outputs.0.0.filename=mrm-1.4.2.pom
+outputs.0.0.length=8691
+outputs.0.0.checksums.sha512=f67c0eab80647b80a5651b4040f7b077e4c38a685ef9e3ead754062ef38d3d4c1b3d69f9656047343c34d256c39b7e5809f1d0aad3cb507aaad4bfc020626066
+
+outputs.0.1.filename=mrm-1.4.2-site.xml
+outputs.0.1.length=1506
+outputs.0.1.checksums.sha512=f5774b645e1dc04fe7d98c0aa1938b3fc40960dbf4fafe4a277f38c09e4132d40a3f88cf3b873d0d3a726a69f4bb3a47051984fa603385e033561ad0315485aa
+
+outputs.1.coordinates=com.corgibytes:mrm-api
+
+outputs.1.0.filename=mrm-api-1.4.2.pom
+outputs.1.0.length=2080
+outputs.1.0.checksums.sha512=053248778b728c58d19fdeaea433efc40f14cafe302face340e1ecb39aa5b37a91377bc616014bf78d25e23ec023d281d0b6e14375092a10c5d23b3969889578
+
+outputs.1.1.filename=mrm-api-1.4.2.jar
+outputs.1.1.length=17217
+outputs.1.1.checksums.sha512=486ff09b1a17d5ee874fa4d83b5825b112ae72ffa4fcc2d3b275a2ac73aa808cae646499852f71e9e66b0bfacaad522a3865a0798c5b07e4ae1d234a5ed13c2d
+
+outputs.1.2.filename=mrm-api-1.4.2-sources.jar
+outputs.1.2.length=23798
+outputs.1.2.checksums.sha512=a5fb49f6c93d5f87bd545a447c7e5fcc12d92586941e119b537e0aa646b5228041351df22e0c4c541dc3326ada103130bebc48f7c89386c00684797a70d4f866
+
+outputs.2.coordinates=com.corgibytes:mrm-servlet
+
+outputs.2.0.filename=mrm-servlet-1.4.2.pom
+outputs.2.0.length=2864
+outputs.2.0.checksums.sha512=c3577d3bd7fd830c82600139a4bf8dd2beeca72634b9dbb65e514ab22c598e43be328774b7d8224b370b8fc8a609708ec501848ec649da71fbf9a6411e410ee8
+
+outputs.2.1.filename=mrm-servlet-1.4.2.jar
+outputs.2.1.length=93564
+outputs.2.1.checksums.sha512=ae162a47f69714511b873cc06432641385a09718201adcea2063a4cf8862b56eaa75f7c05462463b0ad110bb8eb09a54137dce5f83a295eeb5c3d5af04852204
+
+outputs.2.2.filename=mrm-servlet-1.4.2-sources.jar
+outputs.2.2.length=56024
+outputs.2.2.checksums.sha512=c18f00021a7f206051333e9805bd0d858a1e771bc28b9574b09a007f9507cce3574aea8b340345d34b0c09013bac0ca6bd44acfac2efc0863d70d70e8f5ce0e7
+
+outputs.3.coordinates=com.corgibytes:mrm-webapp
+
+outputs.3.0.filename=mrm-webapp-1.4.2.pom
+outputs.3.0.length=2462
+outputs.3.0.checksums.sha512=b91743f69e33b5869b76f58680c1e6a3a4c9d05b4b94cc08cfd953331f13d18afcaa0651c047ac014fcb205c8af23156e6e74b8d6982ce56ccd031b35a3abce5
+
+outputs.3.1.filename=mrm-webapp-1.4.2.war
+outputs.3.1.length=5045923
+outputs.3.1.checksums.sha512=efc4eb7ee3f7202dae6b5a269ec8fcf66b745aa1ba5a7769f9a3c465d9f67efbdc5ce3897a922d46dabeb82dccfef5443e8cf9e0eda0f2a5dab3964e77717cfa
+
+outputs.4.coordinates=com.corgibytes:mrm-maven-plugin
+
+outputs.4.0.filename=mrm-maven-plugin-1.4.2.pom
+outputs.4.0.length=4852
+outputs.4.0.checksums.sha512=d8b7fdf698d6b6f38878bd2aad844af761bbf4c37ec2921e86b33133c88057e1d90d8d0b8673d8a909e254f6354e5a23eaa08c3d137b4c50e212a5c5b923a6cd
+
+outputs.4.1.filename=mrm-maven-plugin-1.4.2.jar
+outputs.4.1.length=37939
+outputs.4.1.checksums.sha512=251e0f459f33fccb069803356f2c27d1749bec73ae53095b069f9c14463c360848d11cdda3f6c10865579a6fa922e10f259993c101c65db592d5396f959155ad
+
+outputs.4.2.filename=mrm-maven-plugin-1.4.2-sources.jar
+outputs.4.2.length=23261
+outputs.4.2.checksums.sha512=d2abb697ad5bdb42376c498f6a18b24663ca256d4d91fe6b8466c829e44c34705bd3ca14ffa9bbb9845d86687a035dc91be20290f20bc83ead9d3e7899048922
