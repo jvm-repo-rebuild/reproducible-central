@@ -1,0 +1,6 @@
+version=60
+ok=4
+ko=1
+okFiles="commons-parent-60.pom commons-parent-60-site.xml commons-parent-60-cyclonedx.xml commons-parent-60-cyclonedx.json"
+koFiles="commons-parent-60.spdx.json"
+# diffoscope target/reference/commons-parent-60.spdx.json target/site/org.apache.commons_commons-parent-60.spdx.json
