@@ -1,0 +1,20 @@
+# Central Repository coordinates for the Reference release (for multi-module, pick an artitrary module)
+groupId=com.corgibytes
+artifactId=mrm
+version=1.4.2
+
+# Source code
+gitRepo=https://github.com/corgibytes/mrm
+gitTag=mrm-${version}
+
+# Rebuild environment prerequisites
+tool=mvn
+jdk=17
+newline=lf
+# crlf for Windows, lf for Unix
+
+# Rebuild command
+command="mvn -Pmojo-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+# Location of the buildinfo file generated during rebuild to record output fingerprints
+buildinfo=target/${artifactId}-${version}.buildinfo
