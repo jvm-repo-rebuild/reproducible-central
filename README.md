@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2217 releases** of **449 projects**:
-   - **1695** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 522 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **2223 releases** of **449 projects**:
+   - **1700** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 523 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
 
@@ -142,7 +142,7 @@ Its objectives are to provide:
 | org.slf4j | <a name='org.slf4j:slf4j-parent'></a>[slf4j-parent](content/org/slf4j/README.md) | 7 | 2 :heavy_check_mark: / 5 :warning: |
 | org.alluxio | <a name='org.alluxio:alluxio-parent'></a>[alluxio-parent](content/org/alluxio/alluxio/README.md) | 5 | 5 :heavy_check_mark: |
 | org.antlr | <a name='org.antlr:antlr4-master'></a>[antlr4-master](content/org/antlr/antlr4/README.md) | 1 | 1 :warning: |
-| org.apache.accumulo | <a name='org.apache.accumulo:accumulo'></a>[accumulo](content/org/apache/accumulo/README.md) | 5 | 1 :heavy_check_mark: / 4 :warning: |
+| org.apache.accumulo | <a name='org.apache.accumulo:accumulo'></a>[accumulo](content/org/apache/accumulo/README.md) | 7 | 3 :heavy_check_mark: / 4 :warning: |
 | org.apache.activemq | <a name='org.apache.activemq:activemq-parent'></a>[activemq-parent](content/org/apache/activemq/README.md) | 8 | 1 :heavy_check_mark: / 7 :warning: |
 | org.apache.any23 | <a name='org.apache.any23:apache-any23'></a>[apache-any23](content/org/apache/any23/README.md) | 1 | 1 :warning: |
 | org.apache | <a name='org.apache:apache'></a>[apache](content/org/apache/apache/README.md) | 8 | 7 :heavy_check_mark: / 1 :warning: |
@@ -205,7 +205,7 @@ Its objectives are to provide:
 | org.apache.logging.log4j | <a name='org.apache.logging.log4j:log4j-tools-bom'></a>[log4j-tools-bom](content/org/apache/logging/log4j/tools/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.apache.logging.log4j:log4j-transform-bom'></a>[log4j-transform-bom](content/org/apache/logging/log4j/transform/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.maven.archetype | <a name='org.apache.maven.archetype:maven-archetype'></a>[maven-archetype](content/org/apache/maven/archetype/README.md) | 2 | 2 :heavy_check_mark: |
-| org.apache.maven.enforcer | <a name='org.apache.maven.enforcer:enforcer'></a>[enforcer](content/org/apache/maven/enforcer/README.md) | 4 | 4 :heavy_check_mark: |
+| org.apache.maven.enforcer | <a name='org.apache.maven.enforcer:enforcer'></a>[enforcer](content/org/apache/maven/enforcer/README.md) | 5 | 5 :heavy_check_mark: |
 | org.apache.maven.indexer | <a name='org.apache.maven.indexer:maven-indexer'></a>[maven-indexer](content/org/apache/maven/indexer/README.md) | 9 | 7 :heavy_check_mark: / 2 :warning: |
 | org.apache.maven.jxr | <a name='org.apache.maven.jxr:jxr'></a>[jxr](content/org/apache/maven/jxr/README.md) | 3 | 3 :heavy_check_mark: |
 | org.apache.maven | <a name='org.apache.maven:maven'></a>[maven](content/org/apache/maven/maven/README.md) | 18 | 15 :heavy_check_mark: / 3 :warning: |
@@ -253,7 +253,7 @@ Its objectives are to provide:
 | | <a name='org.apache.maven.reporting:maven-reporting-impl'></a>[maven-reporting-impl](content/org/apache/maven/reporting/maven-reporting-impl/README.md) | 11 | 11 :heavy_check_mark: |
 | org.apache.maven.resolver | <a name='org.apache.maven.resolver:maven-resolver'></a>[maven-resolver](content/org/apache/maven/resolver/maven-resolver/README.md) | 25 | 23 :heavy_check_mark: / 2 :warning: |
 | | <a name='org.apache.maven.resolver:maven-resolver-ant-tasks'></a>[maven-resolver-ant-tasks](content/org/apache/maven/resolver/maven-resolver-ant-tasks/README.md) | 4 | 4 :heavy_check_mark: |
-| org.apache.maven | <a name='org.apache.maven:maven-archiver'></a>[maven-archiver](content/org/apache/maven/shared/archiver/README.md) | 3 | 3 :heavy_check_mark: |
+| org.apache.maven | <a name='org.apache.maven:maven-archiver'></a>[maven-archiver](content/org/apache/maven/shared/archiver/README.md) | 4 | 4 :heavy_check_mark: |
 | org.apache.maven.shared | <a name='org.apache.maven.shared:file-management'></a>[file-management](content/org/apache/maven/shared/file-management/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.maven.shared:maven-artifact-transfer'></a>[maven-artifact-transfer](content/org/apache/maven/shared/maven-artifact-transfer/README.md) | 1 | 1 :warning: |
 | | <a name='org.apache.maven.shared:maven-common-artifact-filters'></a>[maven-common-artifact-filters](content/org/apache/maven/shared/maven-common-artifact-filters/README.md) | 5 | 5 :heavy_check_mark: |
@@ -421,7 +421,7 @@ Its objectives are to provide:
 | org.jrivard.xmlchai | <a name='org.jrivard.xmlchai:xmlchai'></a>[xmlchai](content/org/jrivard/xmlchai/README.md) | 2 | 2 :warning: |
 | org.junit | <a name='org.junit:junit-bom'></a>[junit-bom](content/org/junit/junit5/README.md) | 1 | 1 :warning: |
 | org.liquibase.ext | <a name='org.liquibase.ext:liquibase-percona'></a>[liquibase-percona](content/org/liquibase/ext/liquibase-percona/README.md) | 33 | 32 :heavy_check_mark: / 1 :warning: |
-| org.mockito | <a name='org.mockito:mockito-core'></a>[mockito-core](content/org/mockito/mockito-core/README.md) | 17 | 15 :heavy_check_mark: / 2 :warning: |
+| org.mockito | <a name='org.mockito:mockito-core'></a>[mockito-core](content/org/mockito/mockito-core/README.md) | 18 | 15 :heavy_check_mark: / 3 :warning: |
 | org.moditect.layrry | <a name='org.moditect.layrry:layrry-aggregator'></a>[layrry-aggregator](content/org/moditect/layrry/README.md) | 1 | 1 :heavy_check_mark: |
 | org.moditect | <a name='org.moditect:moditect-aggregator'></a>[moditect-aggregator](content/org/moditect/moditect/README.md) | 1 | 1 :heavy_check_mark: |
 | org.mybatis | <a name='org.mybatis:base-bundle-descriptor'></a>[base-bundle-descriptor](content/org/mybatis/base-bundle-descriptor/README.md) | 1 | 1 :heavy_check_mark: |
@@ -469,9 +469,9 @@ Its objectives are to provide:
 | pl.com.labaj | <a name='pl.com.labaj:auto-record'></a>[auto-record](content/pl/com/labaj/auto-record/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | tech.picnic.error-prone-support | <a name='tech.picnic.error-prone-support:error-prone-support'></a>[error-prone-support](content/tech/picnic/error-prone-support/error-prone-support/README.md) | 10 | 10 :heavy_check_mark: |
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
-| us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 21 | 21 :heavy_check_mark: |
+| us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 22 | 22 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **449** | **2217** | **1695** :heavy_check_mark: **522** :warning: |
+| **Count:** | **449** | **2223** | **1700** :heavy_check_mark: **523** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -481,17 +481,17 @@ Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/re
 Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK target release:
 
 <!-- BEGIN GENERATED STATS -->
-     21 gradle     11
+     22 gradle     11
      26 mvn         7
-    950 mvn         8
+    951 mvn         8
       1 mvn         9
-    745 mvn        11
+    747 mvn        11
       1 mvn        11.0.6
       1 mvn        13
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    167 mvn        17
+    169 mvn        17
       1 mvn        17.0.7
      11 mvn        18
      17 mvn        19

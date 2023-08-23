@@ -1,40 +1,40 @@
-[us.abstracta.jmeter:jmeter-java-dsl-parent](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.18/versions) RB check
+[us.abstracta.jmeter:jmeter-java-dsl-parent](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.19/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [us.abstracta.jmeter:jmeter-java-dsl-parent](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.18/versions)
+## Project: [us.abstracta.jmeter:jmeter-java-dsl-parent](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.19/versions)
 
 Source code: [https://github.com/abstracta/jmeter-java-dsl.git](https://github.com/abstracta/jmeter-java-dsl.git)
 
 <details><summary>This project defines 17 modules:</summary>
 
-* [us.abstracta.jmeter:jmeter-java-dsl](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl/1.18)
-* [us.abstracta.jmeter:jmeter-java-dsl-azure](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-azure/1.18)
-* [us.abstracta.jmeter:jmeter-java-dsl-base-remote-engine](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-base-remote-engine/1.18)
-* [us.abstracta.jmeter:jmeter-java-dsl-blazemeter](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-blazemeter/1.18)
-* [us.abstracta.jmeter:jmeter-java-dsl-bridge](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-bridge/1.18)
-* [us.abstracta.jmeter:jmeter-java-dsl-cli](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-cli/1.18)
-* [us.abstracta.jmeter:jmeter-java-dsl-dashboard](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-dashboard/1.18)
-* [us.abstracta.jmeter:jmeter-java-dsl-datadog](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-datadog/1.18)
-* [us.abstracta.jmeter:jmeter-java-dsl-elasticsearch-listener](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-elasticsearch-listener/1.18)
-* [us.abstracta.jmeter:jmeter-java-dsl-graphql](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-graphql/1.18)
-* [us.abstracta.jmeter:jmeter-java-dsl-jdbc](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-jdbc/1.18)
-* [us.abstracta.jmeter:jmeter-java-dsl-jmx2dsl](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-jmx2dsl/1.18)
-* [us.abstracta.jmeter:jmeter-java-dsl-octoperf](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-octoperf/1.18)
-* [us.abstracta.jmeter:jmeter-java-dsl-parallel](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parallel/1.18)
-* [us.abstracta.jmeter:jmeter-java-dsl-parent](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.18)
-* [us.abstracta.jmeter:jmeter-java-dsl-recorder](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-recorder/1.18)
-* [us.abstracta.jmeter:jmeter-java-dsl-wrapper](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-wrapper/1.18)
+* [us.abstracta.jmeter:jmeter-java-dsl](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl/1.19)
+* [us.abstracta.jmeter:jmeter-java-dsl-azure](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-azure/1.19)
+* [us.abstracta.jmeter:jmeter-java-dsl-base-remote-engine](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-base-remote-engine/1.19)
+* [us.abstracta.jmeter:jmeter-java-dsl-blazemeter](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-blazemeter/1.19)
+* [us.abstracta.jmeter:jmeter-java-dsl-bridge](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-bridge/1.19)
+* [us.abstracta.jmeter:jmeter-java-dsl-cli](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-cli/1.19)
+* [us.abstracta.jmeter:jmeter-java-dsl-dashboard](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-dashboard/1.19)
+* [us.abstracta.jmeter:jmeter-java-dsl-datadog](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-datadog/1.19)
+* [us.abstracta.jmeter:jmeter-java-dsl-elasticsearch-listener](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-elasticsearch-listener/1.19)
+* [us.abstracta.jmeter:jmeter-java-dsl-graphql](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-graphql/1.19)
+* [us.abstracta.jmeter:jmeter-java-dsl-jdbc](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-jdbc/1.19)
+* [us.abstracta.jmeter:jmeter-java-dsl-jmx2dsl](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-jmx2dsl/1.19)
+* [us.abstracta.jmeter:jmeter-java-dsl-octoperf](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-octoperf/1.19)
+* [us.abstracta.jmeter:jmeter-java-dsl-parallel](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parallel/1.19)
+* [us.abstracta.jmeter:jmeter-java-dsl-parent](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.19)
+* [us.abstracta.jmeter:jmeter-java-dsl-recorder](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-recorder/1.19)
+* [us.abstracta.jmeter:jmeter-java-dsl-wrapper](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-wrapper/1.19)
 </details>
 
-rebuilding **21 releases** of us.abstracta.jmeter:jmeter-java-dsl-parent:
-- **21** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **22 releases** of us.abstracta.jmeter:jmeter-java-dsl-parent:
+- **22** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.19](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.19/pom) | | | |
+| [1.19](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.19/pom) | [mvn jdk8](jmeter-java-dsl-1.19.buildspec) | [result](jmeter-java-dsl-parent-1.19.buildinfo): [48 :heavy_check_mark: ](jmeter-java-dsl-parent-1.19.buildcompare) | 50M |
 | [1.18](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.18/pom) | [mvn jdk8](jmeter-java-dsl-1.18.buildspec) | [result](jmeter-java-dsl-parent-1.18.buildinfo): [48 :heavy_check_mark: ](jmeter-java-dsl-parent-1.18.buildcompare) | 50M |
 | [1.17](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.17/pom) | [mvn jdk8](jmeter-java-dsl-1.17.buildspec) | [result](jmeter-java-dsl-parent-1.17.buildinfo): [48 :heavy_check_mark: ](jmeter-java-dsl-parent-1.17.buildcompare) | 50M |
 | [1.16](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.16/pom) | [mvn jdk8](jmeter-java-dsl-1.16.buildspec) | [result](jmeter-java-dsl-parent-1.16.buildinfo): [48 :heavy_check_mark: ](jmeter-java-dsl-parent-1.16.buildcompare) | 50M |
