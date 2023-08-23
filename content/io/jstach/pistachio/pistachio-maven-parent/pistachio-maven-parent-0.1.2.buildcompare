@@ -1,0 +1,7 @@
+version=0.1.2
+ok=11
+ko=0
+okFiles="pistachio-maven-parent-0.1.2.pom pistachio-prism-parent-0.1.2.pom pistachio-prism-0.1.2.pom pistachio-prism-0.1.2.jar pistachio-prism-apt-0.1.2.pom pistachio-prism-apt-0.1.2.jar pistachio-svc-parent-0.1.2.pom pistachio-svc-0.1.2.pom pistachio-svc-0.1.2.jar pistachio-svc-apt-0.1.2.pom pistachio-svc-apt-0.1.2.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
