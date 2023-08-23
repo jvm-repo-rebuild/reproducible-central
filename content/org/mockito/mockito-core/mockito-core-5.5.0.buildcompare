@@ -1,0 +1,9 @@
+version=5.5.0
+ok=15
+ko=4
+okFiles="mockito-android-5.5.0.pom mockito-android-5.5.0-sources.jar mockito-bom-5.5.0.pom mockito-core-5.5.0.pom mockito-core-5.5.0-sources.jar mockito-errorprone-5.5.0.pom mockito-errorprone-5.5.0-sources.jar mockito-junit-jupiter-5.5.0.pom mockito-junit-jupiter-5.5.0-sources.jar mockito-proxy-5.5.0.jar mockito-proxy-5.5.0.pom mockito-proxy-5.5.0-sources.jar mockito-subclass-5.5.0.jar mockito-subclass-5.5.0.pom mockito-subclass-5.5.0-sources.jar"
+koFiles="mockito-android-5.5.0.jar mockito-core-5.5.0.jar mockito-errorprone-5.5.0.jar mockito-junit-jupiter-5.5.0.jar"
+# diffoscope repository/org/mockito/mockito-android/5.5.0/mockito-android-5.5.0.jar central/org/mockito/mockito-android/5.5.0/mockito-android-5.5.0.jar
+# diffoscope repository/org/mockito/mockito-core/5.5.0/mockito-core-5.5.0.jar central/org/mockito/mockito-core/5.5.0/mockito-core-5.5.0.jar
+# diffoscope repository/org/mockito/mockito-errorprone/5.5.0/mockito-errorprone-5.5.0.jar central/org/mockito/mockito-errorprone/5.5.0/mockito-errorprone-5.5.0.jar
+# diffoscope repository/org/mockito/mockito-junit-jupiter/5.5.0/mockito-junit-jupiter-5.5.0.jar central/org/mockito/mockito-junit-jupiter/5.5.0/mockito-junit-jupiter-5.5.0.jar
