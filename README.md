@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2223 releases** of **449 projects**:
-   - **1700** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 523 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **2227 releases** of **452 projects**:
+   - **1703** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 524 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
 
@@ -28,7 +28,8 @@ Its objectives are to provide:
 | ch.qos.logback.db | <a name='ch.qos.logback.db:logback-parent-db'></a>[logback-parent-db](content/ch/qos/logback/db/README.md) | 1 | 1 :warning: |
 | com.flowlogix | <a name='com.flowlogix:flowlogix'></a>[flowlogix](content/com/flowlogix/README.md) | 3 | 3 :warning: |
 | com.adobe.acs | <a name='com.adobe.acs:acs-aem-commons'></a>[acs-aem-commons](content/com/adobe/acs/aem-commons/README.md) | 3 | 3 :warning: |
-| com.corgibytes | <a name='com.corgibytes:versions-maven-plugin'></a>[versions-maven-plugin](content/com/corgibytes/versions-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
+| com.corgibytes | <a name='com.corgibytes:mrm'></a>[mrm](content/com/corgibytes/mrm/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='com.corgibytes:versions-maven-plugin'></a>[versions-maven-plugin](content/com/corgibytes/versions-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | com.fasterxml | <a name='com.fasterxml:oss-parent'></a>[oss-parent](content/com/fasterxml/oss-parent/README.md) | 9 | 9 :heavy_check_mark: |
 | com.fasterxml.uuid | <a name='com.fasterxml.uuid:java-uuid-generator'></a>[java-uuid-generator](content/com/fasterxml/uuid/README.md) | 1 | 1 :warning: |
 | com.fasterxml.jackson.core | <a name='com.fasterxml.jackson.core:jackson-annotations'></a>[jackson-annotations](content/com/fasterxml/jackson/annotations/README.md) | 4 | 4 :warning: |
@@ -67,6 +68,7 @@ Its objectives are to provide:
 | com.io7m.idstore | <a name='com.io7m.idstore:com.io7m.idstore'></a>[com.io7m.idstore](content/com/io7m/idstore/README.md) | 1 | 1 :warning: |
 | com.io7m.jade | <a name='com.io7m.jade:com.io7m.jade'></a>[com.io7m.jade](content/com/io7m/jade/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | com.io7m.primogenitor | <a name='com.io7m.primogenitor:com.io7m.primogenitor'></a>[com.io7m.primogenitor](content/com/io7m/primogenitor/README.md) | 30 | 30 :heavy_check_mark: |
+| com.newmediaworks | <a name='com.newmediaworks:nmw-oss-parent'></a>[nmw-oss-parent](content/com/newmediaworks/nmw-oss-parent/README.md) | 1 | 1 :heavy_check_mark: |
 | com.ongres.stringprep | <a name='com.ongres.stringprep:parent'></a>[parent](content/com/ongres/stringprep/README.md) | 1 | 1 :warning: |
 | com.scalapenos | <a name='com.scalapenos:stamina_2.11'></a>[stamina_2.11](content/com/scalapenos/stamina/README.md) | 2 | 2 :heavy_check_mark: |
 | com.spotify.fmt | <a name='com.spotify.fmt:fmt-maven-plugin'></a>[fmt-maven-plugin](content/com/spotify/fmt-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
@@ -109,6 +111,7 @@ Its objectives are to provide:
 | io.github.shanqiang-sq | <a name='io.github.shanqiang-sq:jstream'></a>[jstream](content/io/github/shanqiang-sq/jstream/README.md) | 28 | 28 :heavy_check_mark: |
 | io.github.zlika | <a name='io.github.zlika:reproducible-build-maven-plugin'></a>[reproducible-build-maven-plugin](content/io/github/zlika/reproducible-build-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | io.jstach | <a name='io.jstach:jstachio'></a>[jstachio](content/io/jstach/jstachio/README.md) | 9 | 9 :heavy_check_mark: |
+| io.jstach.pistachio | <a name='io.jstach.pistachio:pistachio-maven-parent'></a>[pistachio-maven-parent](content/io/jstach/pistachio/pistachio-maven-parent/README.md) | 1 | 1 :heavy_check_mark: |
 | io.micronaut.build | <a name='io.micronaut.build:micronaut-maven-plugin'></a>[micronaut-maven-plugin](content/io/micronaut/build/micronaut-maven-plugin/README.md) | 34 | 34 :heavy_check_mark: |
 | io.micronaut.maven | <a name='io.micronaut.maven:micronaut-maven-plugin'></a>[micronaut-maven-plugin](content/io/micronaut/maven/micronaut-maven-plugin/README.md) | 10 | 10 :heavy_check_mark: |
 | io.opentelemetry.instrumentation | <a name='io.opentelemetry.instrumentation:opentelemetry-instrumentation-api'></a>[opentelemetry-instrumentation-api](content/io/opentelemetry/instrumentation/README.md) | 2 | 2 :warning: |
@@ -181,7 +184,7 @@ Its objectives are to provide:
 | | <a name='org.apache.commons:commons-csv'></a>[commons-csv](content/org/apache/commons/csv/README.md) | 1 | 1 :heavy_check_mark: |
 | commons-net | <a name='commons-net:commons-net'></a>[commons-net](content/org/apache/commons/net/README.md) | 1 | 1 :warning: |
 | org.apache.commons | <a name='org.apache.commons:commons-numbers-parent'></a>[commons-numbers-parent](content/org/apache/commons/numbers/README.md) | 1 | 1 :heavy_check_mark: |
-| | <a name='org.apache.commons:commons-parent'></a>[commons-parent](content/org/apache/commons/parent/README.md) | 7 | 7 :heavy_check_mark: |
+| | <a name='org.apache.commons:commons-parent'></a>[commons-parent](content/org/apache/commons/parent/README.md) | 8 | 7 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.apache.commons:commons-rng-parent'></a>[commons-rng-parent](content/org/apache/commons/rng/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.commons:commons-statistics-parent'></a>[commons-statistics-parent](content/org/apache/commons/statistics/README.md) | 1 | 1 :warning: |
 | org.apache.cxf.build-utils | <a name='org.apache.cxf.build-utils:cxf-build-utils'></a>[cxf-build-utils](content/org/apache/cxf/cxf-build-utils/README.md) | 1 | 1 :heavy_check_mark: |
@@ -471,7 +474,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 22 | 22 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **449** | **2223** | **1700** :heavy_check_mark: **523** :warning: |
+| **Count:** | **452** | **2227** | **1703** :heavy_check_mark: **524** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -483,7 +486,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      22 gradle     11
      26 mvn         7
-    951 mvn         8
+    952 mvn         8
       1 mvn         9
     747 mvn        11
       1 mvn        11.0.6
@@ -491,7 +494,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    169 mvn        17
+    170 mvn        17
       1 mvn        17.0.7
      11 mvn        18
      17 mvn        19
@@ -517,10 +520,10 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn-3.9.2   8
      12 mvn-3.9.2  17
       3 mvn-3.9.3   8
-     15 mvn-3.9.3  11
+     16 mvn-3.9.3  11
       7 mvn-3.9.3  14
      18 mvn-3.9.3  17
       2 mvn-3.9.3  19
-      1 mvn-3.9.4  17.0.7
+      2 mvn-3.9.4  17.0.7
       2 sbt         8
 <!-- END GENERATED STATS -->
