@@ -1,0 +1,7 @@
+version=4.0.5
+ok=13
+ko=0
+okFiles="micronaut-maven-plugin-parent-4.0.5.pom micronaut-maven-core-4.0.5.pom micronaut-maven-core-4.0.5.jar micronaut-maven-core-4.0.5-sources.jar micronaut-maven-enforcer-rules-4.0.5.pom micronaut-maven-enforcer-rules-4.0.5.jar micronaut-maven-enforcer-rules-4.0.5-sources.jar micronaut-maven-jib-integration-4.0.5.pom micronaut-maven-jib-integration-4.0.5.jar micronaut-maven-jib-integration-4.0.5-sources.jar micronaut-maven-plugin-4.0.5.pom micronaut-maven-plugin-4.0.5.jar micronaut-maven-plugin-4.0.5-sources.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

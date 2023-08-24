@@ -1,0 +1,85 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Micronaut Maven Plugin - Parent
+group-id=io.micronaut.maven
+artifact-id=micronaut-maven-plugin-parent
+version=4.0.5
+
+# source information
+source.scm.uri=scm:git:git@github.com:micronaut-projects/micronaut-maven-plugin.git
+source.scm.tag=v4.0.5
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=micronaut-maven-plugin
+
+# aggregated output
+
+outputs.0.coordinates=io.micronaut.maven:micronaut-maven-plugin-parent
+
+outputs.0.0.filename=micronaut-maven-plugin-parent-4.0.5.pom
+outputs.0.0.length=22315
+outputs.0.0.checksums.sha512=c2d2bd1e02bd5700c7a07338ae65c6c73223d26cfb9996b27a316529b4851105d4b26b1ca6c97d9b07b86787ad08b0ef3a9ce6e5f6c645f2b3c08dcb3e43607c
+
+outputs.1.coordinates=io.micronaut.maven:micronaut-maven-core
+
+outputs.1.0.filename=micronaut-maven-core-4.0.5.pom
+outputs.1.0.length=1023
+outputs.1.0.checksums.sha512=17840a90e367a84514189cd361ccf5d0968c4c8f4430b5690cca544acba3b08ca6cc37a272deddffd2e641a20eca87f678ae5117b44028f02dbfeb08328863b7
+
+outputs.1.1.filename=micronaut-maven-core-4.0.5.jar
+outputs.1.1.length=5777
+outputs.1.1.checksums.sha512=bf579b1c7a482a84e89379bca0d081c8c391d06531f6be916b9a690a4f2257800bf93eb506d06bb2e79320308b42beb59610b9ea7aa883c007a254aa1f1443df
+
+outputs.1.2.filename=micronaut-maven-core-4.0.5-sources.jar
+outputs.1.2.length=5273
+outputs.1.2.checksums.sha512=aa0afb406c5461ee7e2f91e8b418c627411f6d977e518cb9f65214d7547475d50520ca699ce502102608026bb502d05f4e3af5b8cae867fe92ce3749c79c5146
+
+outputs.2.coordinates=io.micronaut.maven:micronaut-maven-enforcer-rules
+
+outputs.2.0.filename=micronaut-maven-enforcer-rules-4.0.5.pom
+outputs.2.0.length=1910
+outputs.2.0.checksums.sha512=abfef7ed7f7ae61015c4894addde3479b7c7752fca3dd6d17a226d1fa791ee67b6bcd2b719381e9644a084639ff85681c3c9585589c37905e4641844ce10ac61
+
+outputs.2.1.filename=micronaut-maven-enforcer-rules-4.0.5.jar
+outputs.2.1.length=5138
+outputs.2.1.checksums.sha512=119f98a6b9d135f7dbc673264b87ad679a8aa5f48386deaea7a0e745115043773e7e750a44a14bcae64e2cc3c5f19e0dec9e5f7f97bd341f060a7846102a28e4
+
+outputs.2.2.filename=micronaut-maven-enforcer-rules-4.0.5-sources.jar
+outputs.2.2.length=3900
+outputs.2.2.checksums.sha512=58a57a404fa17f4a9209ae7b06230594760c90677a4f69e1f76ad662e8f0d39bdc32b8f1f2953ddf1f4d4c545843381d718f6448fd9423d86000c707b5bcfc7b
+
+outputs.3.coordinates=io.micronaut.maven:micronaut-maven-jib-integration
+
+outputs.3.0.filename=micronaut-maven-jib-integration-4.0.5.pom
+outputs.3.0.length=2547
+outputs.3.0.checksums.sha512=fe67a5fe3e9ac892e8496e62b67dd762f2973914791086473eefc202153cbe4bae10f80a50fca930888fdf8ccd55ead76fc7209d477fc216da77fa9655e012a5
+
+outputs.3.1.filename=micronaut-maven-jib-integration-4.0.5.jar
+outputs.3.1.length=11203
+outputs.3.1.checksums.sha512=a4db07aa5b68ad2bd046f509183db3d3860a3541d9d7a1f47ecda463e8d7591628dc75e582baa5337a454eb2134032a91878ee3cca2dd30b3ce25b6ee55430e3
+
+outputs.3.2.filename=micronaut-maven-jib-integration-4.0.5-sources.jar
+outputs.3.2.length=7092
+outputs.3.2.checksums.sha512=5bdda0f6c6ba5370d6f900a3ba0f5169d406ecb7a6ea591c27143f17bb1aa891b9a9f168a50b7f67e0defa1a11983a938d8777737c107676d0fba1be4d2f99d4
+
+outputs.4.coordinates=io.micronaut.maven:micronaut-maven-plugin
+
+outputs.4.0.filename=micronaut-maven-plugin-4.0.5.pom
+outputs.4.0.length=6551
+outputs.4.0.checksums.sha512=165001b60c7b317de7cb627a4ec202575633dc4acaa2c1fbe5c97a9fff56a189fc52e79a7f0932b75e4ae084ded51a2b1f8453060abdf013c5026e8cc946665d
+
+outputs.4.1.filename=micronaut-maven-plugin-4.0.5.jar
+outputs.4.1.length=156574
+outputs.4.1.checksums.sha512=d08a2c367f2c2d799d308144c65a9a03288bce7e7dc706c70658d332a926c7b76175c3fad890a2dfdf5085b2477a7d69f7c325ac0d9862498289014662967f29
+
+outputs.4.2.filename=micronaut-maven-plugin-4.0.5-sources.jar
+outputs.4.2.length=86188
+outputs.4.2.checksums.sha512=2d684f9d221996267ac7b0e6118f1b2af89739ce2ae34fa0d61d97decadc6f4d8c0568a8e44fd433ba62c48968fd728cba242644ba0689af769139454c6956d7
