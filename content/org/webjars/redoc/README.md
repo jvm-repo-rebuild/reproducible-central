@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.webjars:redoc:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.1.1](https://central.sonatype.com/artifact/org.webjars/redoc/2.1.1/pom) | | | |
 | [2.0.0](https://central.sonatype.com/artifact/org.webjars/redoc/2.0.0/pom) | [mvn jdk8](redoc-2.0.0.buildspec) | [result](redoc-2.0.0.buildinfo): [2 :heavy_check_mark: ](redoc-2.0.0.buildcompare) | 1.6M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
