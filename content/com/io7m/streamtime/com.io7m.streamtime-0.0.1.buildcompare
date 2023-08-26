@@ -1,0 +1,5 @@
+version=0.0.1
+ok=12
+ko=0
+okFiles="com.io7m.streamtime-0.0.1.pom com.io7m.streamtime-0.0.1-cyclonedx.xml com.io7m.streamtime.core-0.0.1.pom com.io7m.streamtime.core-0.0.1.jar com.io7m.streamtime.core-0.0.1-sources.jar com.io7m.streamtime.core-0.0.1-cyclonedx.xml com.io7m.streamtime.core-0.0.1-tests.jar com.io7m.streamtime.tests-0.0.1.pom com.io7m.streamtime.tests-0.0.1.jar com.io7m.streamtime.tests-0.0.1-sources.jar com.io7m.streamtime.tests-0.0.1-cyclonedx.xml com.io7m.streamtime.tests-0.0.1-tests.jar"
+koFiles=""
