@@ -4,7 +4,6 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20230824223319 --> [redoc](../content/org/webjars/redoc/README.md) | [2.0.0](../content/org/webjars/redoc/redoc-2.0.0.buildspec) :heavy_check_mark: | [2.1.1](../content/org/webjars/redoc/redoc-2.1.1.buildspec) | `bin/add-new-release.sh content/org/webjars/redoc/redoc-2.0.0.buildspec 2.1.1` |
 | <!-- 20230613152450 --> [conventional-commits-version-policy](../content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | [1.0.1](../content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.1.buildspec) :heavy_check_mark: | [1.0.3](../content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.3.buildspec) | `bin/add-new-release.sh content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.1.buildspec 1.0.3` |
 | <!-- 20230519120111 --> [io.wcm.wcm.ui.granite](../content/io/wcm/io.wcm.wcm/ui/granite/README.md) | [1.7.2](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.7.2.buildspec) :heavy_check_mark: | [1.9.12](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.9.12.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.7.2.buildspec 1.9.12` |
 | <!-- 20230419112803 --> [io.wcm.wcm.commons](../content/io/wcm/io.wcm.wcm/commons/README.md) | [1.8.0](../content/io/wcm/io.wcm.wcm/commons/wcm-commons-1.8.0.buildspec) :heavy_check_mark: | [1.10.0](../content/io/wcm/io.wcm.wcm/commons/wcm-commons-1.10.0.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.wcm/commons/wcm-commons-1.8.0.buildspec 1.10.0` |
@@ -81,6 +80,7 @@ New Releases To Add
 | <!-- 20230711142029 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | 6.0.14 :warning: |
 | <!-- 20230710114759 --> [syncope](../content/org/apache/syncope/README.md) | 3.0.4 :warning: |
 | <!-- 20230710072318 --> [struts2-parent](../content/org/apache/struts/README.md) | 6.2.0 :warning: [:memo:](https://github.com/apache/struts/pull/696) |
+| <!-- 20230701145904 --> [com.io7m.sunburst](../content/com/io7m/sunburst/README.md) | 0.0.6 :warning: |
 | <!-- 20230627192128 --> [flowlogix](../content/com/flowlogix/README.md) | 7.0.2 :warning: |
 | <!-- 20230620223800 --> [xml-maven-plugin](../content/org/codehaus/mojo/xml-maven-plugin/README.md) | 1.1.0 :warning: |
 | <!-- 20230615205255 --> [maven-parent](../content/org/apache/maven/parent/README.md) | 40 :warning: |

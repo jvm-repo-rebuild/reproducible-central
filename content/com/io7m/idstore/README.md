@@ -5,7 +5,7 @@
 
 ## Project: [com.io7m.idstore:com.io7m.idstore](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/0.0.14/versions)
 
-Source code: [https://github.com/io7m/idstore](https://github.com/io7m/idstore)
+Source code: [https://github.com/io7m/idstore.git](https://github.com/io7m/idstore.git)
 
 <details><summary>This project defines 39 modules:</summary>
 
