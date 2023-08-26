@@ -1,0 +1,5 @@
+version=0.0.3
+ok=27
+ko=0
+okFiles="com.io7m.medrina-0.0.3.pom com.io7m.medrina.api-0.0.3.pom com.io7m.medrina.api-0.0.3.jar com.io7m.medrina.api-0.0.3-sources.jar com.io7m.medrina.api-0.0.3-tests.jar com.io7m.medrina.parser.api-0.0.3.pom com.io7m.medrina.parser.api-0.0.3.jar com.io7m.medrina.parser.api-0.0.3-sources.jar com.io7m.medrina.parser.api-0.0.3-tests.jar com.io7m.medrina.vanilla-0.0.3.pom com.io7m.medrina.vanilla-0.0.3.jar com.io7m.medrina.vanilla-0.0.3-sources.jar com.io7m.medrina.vanilla-0.0.3-tests.jar com.io7m.medrina.cmdline-0.0.3.pom com.io7m.medrina.cmdline-0.0.3.jar com.io7m.medrina.cmdline-0.0.3-sources.jar com.io7m.medrina.cmdline-0.0.3-main.jar com.io7m.medrina.cmdline-0.0.3-tests.jar com.io7m.medrina.documentation-0.0.3.pom com.io7m.medrina.documentation-0.0.3.jar com.io7m.medrina.documentation-0.0.3-sources.jar com.io7m.medrina.documentation-0.0.3-tests.jar com.io7m.medrina.tests-0.0.3.pom com.io7m.medrina.tests-0.0.3.jar com.io7m.medrina.tests-0.0.3-sources.jar com.io7m.medrina.tests-0.0.3-test-sources.jar com.io7m.medrina.tests-0.0.3-tests.jar"
+koFiles=""
