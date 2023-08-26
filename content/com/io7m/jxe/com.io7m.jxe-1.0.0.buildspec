@@ -1,0 +1,19 @@
+groupId=com.io7m.jxe
+artifactId=com.io7m.jxe
+display=${groupId}:${artifactId}
+version=1.0.0
+
+gitRepo="https://github.com/io7m/$(echo "${artifactId}" | sed s/com.io7m.//).git"
+#gitTag=${artifactId}-${version}
+gitTag=c901ae4cc736680969048a7938c87e162a64205f
+
+tool=mvn-3.9.3
+jdk=14.0.2
+newline=lf
+umask=022
+
+command="mvn -DskipTests clean package -Dassembly.skipAssembly"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=
