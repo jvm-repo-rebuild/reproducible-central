@@ -1,0 +1,5 @@
+version=1.0.0
+ok=13
+ko=0
+okFiles="com.io7m.scando-1.0.0.pom com.io7m.scando-1.0.0-cyclonedx.xml com.io7m.scando.cmdline-1.0.0.pom com.io7m.scando.cmdline-1.0.0.jar com.io7m.scando.cmdline-1.0.0-sources.jar com.io7m.scando.cmdline-1.0.0-cyclonedx.xml com.io7m.scando.cmdline-1.0.0-main.jar com.io7m.scando.cmdline-1.0.0-tests.jar com.io7m.scando.tests-1.0.0.pom com.io7m.scando.tests-1.0.0.jar com.io7m.scando.tests-1.0.0-sources.jar com.io7m.scando.tests-1.0.0-cyclonedx.xml com.io7m.scando.tests-1.0.0-tests.jar"
+koFiles=""

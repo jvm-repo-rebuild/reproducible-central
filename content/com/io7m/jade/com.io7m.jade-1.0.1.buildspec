@@ -3,7 +3,7 @@ artifactId=com.io7m.jade
 display=${groupId}:${artifactId}
 version=1.0.1
 
-gitRepo=https://github.com/io7m/jade.git
+gitRepo="https://github.com/io7m/$(echo "${artifactId}" | sed s/com.io7m.//).git"
 #gitTag=${artifactId}-${version}
 gitTag=f2b307b3ff1d6e10b2f73aef51cc7ba24e595d1f
 

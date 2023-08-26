@@ -1,16 +1,15 @@
-groupId=com.io7m.idstore
-artifactId=com.io7m.idstore
+groupId=com.io7m.scando
+artifactId=com.io7m.scando
 display=${groupId}:${artifactId}
-version=0.0.14
+version=1.0.0
 
 gitRepo="https://github.com/io7m/$(echo "${artifactId}" | sed s/com.io7m.//).git"
-#gitTag=${artifactId}-${version}
-gitTag=eacd59a24ea2bd32c100e3dc7c180b68f0e029a7
+gitTag=${artifactId}-${version}
 
-tool=mvn
+tool=mvn-3.9.3
 jdk=17.0.7
 newline=lf
-#umask=022
+umask=022
 
 command="mvn -DskipTests clean package"
 buildinfo=target/${artifactId}-${version}.buildinfo
