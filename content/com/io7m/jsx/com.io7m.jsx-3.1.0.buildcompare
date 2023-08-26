@@ -1,0 +1,5 @@
+version=3.1.0
+ok=31
+ko=0
+okFiles="com.io7m.jsx-3.1.0.pom com.io7m.jsx.core-3.1.0.pom com.io7m.jsx.core-3.1.0.jar com.io7m.jsx.core-3.1.0-sources.jar com.io7m.jsx.core-3.1.0-tests.jar com.io7m.jsx.parser.api-3.1.0.pom com.io7m.jsx.parser.api-3.1.0.jar com.io7m.jsx.parser.api-3.1.0-sources.jar com.io7m.jsx.parser.api-3.1.0-tests.jar com.io7m.jsx.parser-3.1.0.pom com.io7m.jsx.parser-3.1.0.jar com.io7m.jsx.parser-3.1.0-sources.jar com.io7m.jsx.parser-3.1.0-tests.jar com.io7m.jsx.prettyprint-3.1.0.pom com.io7m.jsx.prettyprint-3.1.0.jar com.io7m.jsx.prettyprint-3.1.0-sources.jar com.io7m.jsx.prettyprint-3.1.0-tests.jar com.io7m.jsx.cmdline-3.1.0.pom com.io7m.jsx.cmdline-3.1.0.jar com.io7m.jsx.cmdline-3.1.0-sources.jar com.io7m.jsx.cmdline-3.1.0-tests.jar com.io7m.jsx.documentation-3.1.0.pom com.io7m.jsx.documentation-3.1.0.jar com.io7m.jsx.documentation-3.1.0-sources.jar com.io7m.jsx.documentation-3.1.0.zip com.io7m.jsx.documentation-3.1.0-tests.jar com.io7m.jsx.tests-3.1.0.pom com.io7m.jsx.tests-3.1.0.jar com.io7m.jsx.tests-3.1.0-sources.jar com.io7m.jsx.tests-3.1.0-test-sources.jar com.io7m.jsx.tests-3.1.0-tests.jar"
+koFiles=""
