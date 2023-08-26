@@ -1,0 +1,66 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.jmulticlose
+group-id=com.io7m.jmulticlose
+artifact-id=com.io7m.jmulticlose
+version=0.0.2
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/jmulticlose
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.jmulticlose.tests
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.jmulticlose:com.io7m.jmulticlose
+
+outputs.0.0.filename=com.io7m.jmulticlose-0.0.2.pom
+outputs.0.0.length=3914
+outputs.0.0.checksums.sha512=c0a4817fa532bf8c4953e3952881984c7f7027592f2f792c175e9318235f2696c9063547512997485a49cc2448ac6318eaf08678e5e3eba9364146f0155f07de
+
+outputs.1.coordinates=com.io7m.jmulticlose:com.io7m.jmulticlose.core
+
+outputs.1.0.filename=com.io7m.jmulticlose.core-0.0.2.pom
+outputs.1.0.length=1047
+outputs.1.0.checksums.sha512=21c316926f6c97d27af78fda6549ce5eef0dacef6e629041038543d2b171c646bcedac17fd05bfa009ff069981f908cfa5d06d9c10bc50c5407b54571d0b087f
+
+outputs.1.1.filename=com.io7m.jmulticlose.core-0.0.2.jar
+outputs.1.1.length=5860
+outputs.1.1.checksums.sha512=40c7d277090629199ce323f64e82abcd9a0c630c70d4e63e57306ef55d0611c275598dbfd6a0192f6d5611e1a5cc17289b75a2de267a2f361343c6a5c6eddc39
+
+outputs.1.2.filename=com.io7m.jmulticlose.core-0.0.2-sources.jar
+outputs.1.2.length=7190
+outputs.1.2.checksums.sha512=a1ff41ba32e785bbf365baecb00f6fc9bb6ff8b6f035a9f4ebb326883a2f0fb1191667121e1bf8644ec0d22ccda31929e5ad67e94c595f77973420f5cce86640
+
+outputs.1.3.filename=com.io7m.jmulticlose.core-0.0.2-tests.jar
+outputs.1.3.length=411
+outputs.1.3.checksums.sha512=38b94246f89d7f751261dca1c43ac8d3273345f3714dbb644b15554cee36afb44388f805ace64e48026f9b4a8a9d3432306b5b62f046cba2e460c17966652539
+
+outputs.2.coordinates=com.io7m.jmulticlose:com.io7m.jmulticlose.tests
+
+outputs.2.0.filename=com.io7m.jmulticlose.tests-0.0.2.pom
+outputs.2.0.length=1514
+outputs.2.0.checksums.sha512=29965e83bc180194ccd6bfe7d803c89863dfd63c61ad2176d9987f3c6b1a7935fcc8e7b0a45184b24ad6fc88c8f9c1efb2f9d2f54338104cdd806ba9f0fc1fbd
+
+outputs.2.1.filename=com.io7m.jmulticlose.tests-0.0.2.jar
+outputs.2.1.length=2146
+outputs.2.1.checksums.sha512=bfb6df62ca1d92dbb38965eab8d5878563fa50d56e844cb3b9eac62e12f4d54d14cb8bedb83345ee9c8bdad98ebc36b3a80965f4b12d07d8cd14461ada994e8f
+
+outputs.2.2.filename=com.io7m.jmulticlose.tests-0.0.2-test-sources.jar
+outputs.2.2.length=5578
+outputs.2.2.checksums.sha512=87e01b8236285abdc4d831196e3e6aa74acb87aec0a3ed8e56ae090990486428e260ca99bfb809236003b00b8bf592d6ecd927168d8f257202b1290af30756a2
+
+outputs.2.3.filename=com.io7m.jmulticlose.tests-0.0.2-tests.jar
+outputs.2.3.length=6407
+outputs.2.3.checksums.sha512=977ee2637cd01fe7c3e434459ff133dfdc1022c935ae275a77ee25dd921058d7c2cfefbbd3436dce7c3054e7765465943909133975191408f38ba117eb0d3faf

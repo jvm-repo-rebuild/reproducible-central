@@ -1,0 +1,5 @@
+version=0.0.2
+ok=9
+ko=0
+okFiles="com.io7m.jmulticlose-0.0.2.pom com.io7m.jmulticlose.core-0.0.2.pom com.io7m.jmulticlose.core-0.0.2.jar com.io7m.jmulticlose.core-0.0.2-sources.jar com.io7m.jmulticlose.core-0.0.2-tests.jar com.io7m.jmulticlose.tests-0.0.2.pom com.io7m.jmulticlose.tests-0.0.2.jar com.io7m.jmulticlose.tests-0.0.2-test-sources.jar com.io7m.jmulticlose.tests-0.0.2-tests.jar"
+koFiles=""
