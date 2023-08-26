@@ -5,7 +5,7 @@ version=0.0.1
 
 gitRepo="https://github.com/io7m/$(echo "${artifactId}" | sed s/com.io7m.//).git"
 gitTag=${artifactId}-${version}
-#gitTag=eacd59a24ea2bd32c100e3dc7c180b68f0e029a7
+#gitTag=
 
 tool=mvn-3.9.3
 jdk=17.0.3
