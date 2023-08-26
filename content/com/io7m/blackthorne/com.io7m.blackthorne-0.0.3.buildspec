@@ -1,14 +1,14 @@
 groupId=com.io7m.blackthorne
 artifactId=com.io7m.blackthorne
 display=${groupId}:${artifactId}
-version=0.0.4
+version=0.0.3
 
 gitRepo="https://github.com/io7m/$(echo "${artifactId}" | sed s/com.io7m.//).git"
-gitTag=${artifactId}-${version}
-gitTag=2cd8f1aa6581697ca4cd69e1bd5064ad9be3053a
+#gitTag=${artifactId}-${version}
+gitTag=c230407d94dd4773ccd1fdd74aec1aba287f920c
 
 tool=mvn-3.9.3
-jdk=11.0.5
+jdk=11
 newline=lf
 umask=022
 
