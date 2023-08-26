@@ -1,0 +1,70 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.jqpage
+group-id=com.io7m.jqpage
+artifact-id=com.io7m.jqpage
+version=0.0.2
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/jqpage
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.jqpage.tests
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.jqpage:com.io7m.jqpage
+
+outputs.0.0.filename=com.io7m.jqpage-0.0.2.pom
+outputs.0.0.length=5060
+outputs.0.0.checksums.sha512=49aea5a9e8f4398bf1f1a6ab93c0a886c59bd5410ebfb67fad76de0a8c7b7fc19a3861ab096bfe5cbca07742eb55af906f9a27bebc5b97af164c88f2df2b1835
+
+outputs.1.coordinates=com.io7m.jqpage:com.io7m.jqpage.core
+
+outputs.1.0.filename=com.io7m.jqpage.core-0.0.2.pom
+outputs.1.0.length=1103
+outputs.1.0.checksums.sha512=ed8a8bfe6487a63723174dd3fbbd86fb0a710f25418253068690fa94d58e93c8c8b6a407b8703f2284eeb1a0c2c1e3cba8af4b55b5f19d69a67a658439f382af
+
+outputs.1.1.filename=com.io7m.jqpage.core-0.0.2.jar
+outputs.1.1.length=17155
+outputs.1.1.checksums.sha512=a1ea78f43bf1c52cba8c52afc5ef687ae0d757476436badcf47187c49e3a9b9e49f0d1345ac05db0065d0437cc85d5dfb1ebb6017e463fff2d9c06b517de8e03
+
+outputs.1.2.filename=com.io7m.jqpage.core-0.0.2-sources.jar
+outputs.1.2.length=12468
+outputs.1.2.checksums.sha512=df7f4f32afa6401d5067863af112627cc22c1a4fd1a23604eda2ab3284d9df6d725fc532187f14888c5cc9e26ef0ad3308ef2006c2a61bd12eb98de9f74be60c
+
+outputs.1.3.filename=com.io7m.jqpage.core-0.0.2-tests.jar
+outputs.1.3.length=408
+outputs.1.3.checksums.sha512=9f8bd50d1bf14abaafeb9382bcabc3fc050f04b04344f7fbab0d9fabcf7fa3dae4d3f360a1e7fa17d35a938677ad90332cd610fb8179b270cc5992dc56e19774
+
+outputs.2.coordinates=com.io7m.jqpage:com.io7m.jqpage.tests
+
+outputs.2.0.filename=com.io7m.jqpage.tests-0.0.2.pom
+outputs.2.0.length=3857
+outputs.2.0.checksums.sha512=169ada7150d50c53b37106c12e91936d988115cd4b73b77d9b14d836498b2c359844359fa147336e2e1bd293aa3b966ce8c5349f6fd73819f1626c3a294ddc88
+
+outputs.2.1.filename=com.io7m.jqpage.tests-0.0.2.jar
+outputs.2.1.length=824231
+outputs.2.1.checksums.sha512=e6845ac22348b6833c0c2a7db77ca6fb3cc78c2e1a7815037da9f332ac53a14076156f4d872943214d7feb8e968132a50cd4b5f107e18a2b3e0267314949d41a
+
+outputs.2.2.filename=com.io7m.jqpage.tests-0.0.2-sources.jar
+outputs.2.2.length=771164
+outputs.2.2.checksums.sha512=04f862641382e5dc656c6e59454599182d1a9598e28f0ebdf0d02cf337747b2a505e14b4bf1d8657bb10ba04b92e14adfcf91b30b0e2809994d8d5b89cbbe84f
+
+outputs.2.3.filename=com.io7m.jqpage.tests-0.0.2-test-sources.jar
+outputs.2.3.length=9615
+outputs.2.3.checksums.sha512=f13b29d486e24eafe200b4389e0eaa9dd35e674252d8653e574a86ff9795e30abecef0fdb6254aff6d395731e794cb5b9b5145b866ccd8511cb59a5c74847781
+
+outputs.2.4.filename=com.io7m.jqpage.tests-0.0.2-tests.jar
+outputs.2.4.length=14567
+outputs.2.4.checksums.sha512=101294742b2b42a9400cd20187e78be17354b11ad0298314a5f60339f25edd519aa5670126f7f20d1b1182a6fb02335a6f37592cc0a3ee68bfe0f9773b596f40
