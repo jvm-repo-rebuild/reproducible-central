@@ -1,0 +1,66 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.anethum
+group-id=com.io7m.anethum
+artifact-id=com.io7m.anethum
+version=1.0.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/anethum
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.anethum.tests
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.anethum:com.io7m.anethum
+
+outputs.0.0.filename=com.io7m.anethum-1.0.0.pom
+outputs.0.0.length=4606
+outputs.0.0.checksums.sha512=1488472fc2ac95d07f5679c74e46afc1bd6e3d0285a21d48aca6da3a7f8844f190f8de9cc34f1d93b2a374085f0eb5f1f3efde173a182a4968665f13f0809844
+
+outputs.1.coordinates=com.io7m.anethum:com.io7m.anethum.api
+
+outputs.1.0.filename=com.io7m.anethum.api-1.0.0.pom
+outputs.1.0.length=1299
+outputs.1.0.checksums.sha512=ad39e705fda8515935ba2c9c393b7d574e93e7c59e95eb78722af38b5ea30e841ac373eaffe5a4577ffffd4927871166308e6274f12d48aaafffbf05af7174e3
+
+outputs.1.1.filename=com.io7m.anethum.api-1.0.0.jar
+outputs.1.1.length=14996
+outputs.1.1.checksums.sha512=a12268ae2ba820840d6717d9f2860a353692034e39fc0ea364006a58a6a84087f682f0b36bdc30a48b4917ea7f0f4990bc127d15f35c4e11cf5075b2649745b1
+
+outputs.1.2.filename=com.io7m.anethum.api-1.0.0-sources.jar
+outputs.1.2.length=15690
+outputs.1.2.checksums.sha512=014dde7b6ca02325b8dc7053f588e1163758fc7336f214c0b4e73fdb1b282ed80cb5678ec7a3e94e9bf10c7c33855662fd4968569ba39b56dfef16801874734a
+
+outputs.1.3.filename=com.io7m.anethum.api-1.0.0-tests.jar
+outputs.1.3.length=406
+outputs.1.3.checksums.sha512=f12686f31e91db2e027e3f4b6d715cc7ff5ce84deca96dee91192b7204fdf85f630f7fbd9e08a9c740caa06d8d3ab75276a96549bd8ee17690e51e740b65c3e0
+
+outputs.2.coordinates=com.io7m.anethum:com.io7m.anethum.tests
+
+outputs.2.0.filename=com.io7m.anethum.tests-1.0.0.pom
+outputs.2.0.length=1668
+outputs.2.0.checksums.sha512=0d73618ac12acbd95435bea564bf1b0ba1752ca4a4e59aa263427f8a37dd99d4f78b647c6b86c08d170154c1f7ec08941349a9622a4861e6d9bf7b1951a6f9c0
+
+outputs.2.1.filename=com.io7m.anethum.tests-1.0.0.jar
+outputs.2.1.length=2050
+outputs.2.1.checksums.sha512=4f4ec9a425248eb566754dcc286c893c74531e16aed954e9d311216f6157f30e133df721b214712d960c3c02cf494d62b2e1e5db7ae3c7210f1f13f0fd977d44
+
+outputs.2.2.filename=com.io7m.anethum.tests-1.0.0-test-sources.jar
+outputs.2.2.length=3622
+outputs.2.2.checksums.sha512=ac8032b77ed51ad3055aa4172527c397953a3b30187723a430e762f05c3687ba1df690dec952c5c19e1c194736d07f40f7d788086b2970f3ce6e10f88913861a
+
+outputs.2.3.filename=com.io7m.anethum.tests-1.0.0-tests.jar
+outputs.2.3.length=2964
+outputs.2.3.checksums.sha512=1e28f5c4188902a0b80e959b9a6b85a24a31ae9ef77c93830e3b8a0825dd4bddb5fcf1a5cda419b8227f36501dcc77661e1ec5cb24894b6c51257d30bb706a92
