@@ -1,0 +1,81 @@
+1 / 2 target/reference/io.wcm.wcm.commons-1.8.2-content.zip target/io.wcm.wcm.commons-1.8.2-content.zip
+--- target/reference/io.wcm.wcm.commons-1.8.2-content.zip
++++ target/io.wcm.wcm.commons-1.8.2-content.zip
+├── zipinfo {}
+│ @@ -1,20 +1,20 @@
+│ -Zip file size: 11036 bytes, number of entries: 18
+│ --rw----     2.0 fat     3167 bl defN 21-Jun-01 18:39 META-INF/vault/config.xml
+│ --rw----     2.0 fat      500 bl defN 21-Jun-01 18:39 META-INF/vault/properties.xml
+│ --rw----     2.0 fat      736 bl defN 21-Jun-01 18:39 META-INF/vault/settings.xml
+│ --rw----     2.0 fat      791 bl defN 21-Jun-01 18:39 META-INF/vault/definition/.content.xml
+│ --rw----     2.0 fat      154 bl defN 21-Jun-01 18:39 META-INF/vault/filter.xml
+│ --rw----     2.0 fat      526 bl defN 21-Jun-01 18:39 jcr_root/apps/wcm-io/wcm/commons/.content.xml
+│ --rw----     2.0 fat      526 bl defN 21-Jun-01 18:39 jcr_root/apps/wcm-io/wcm/commons/components/.content.xml
+│ --rw----     2.0 fat      526 bl defN 21-Jun-01 18:39 jcr_root/apps/wcm-io/wcm/commons/components/global/.content.xml
+│ --rw----     2.0 fat      526 bl defN 21-Jun-01 18:39 jcr_root/apps/wcm-io/wcm/commons/components/page/.content.xml
+│ --rw----     2.0 fat      526 bl defN 21-Jun-01 18:39 jcr_root/apps/wcm-io/wcm/commons/templates/.content.xml
+│ --rw----     2.0 fat      589 bl defN 21-Jun-01 18:39 jcr_root/apps/wcm-io/wcm/commons/components/global/page/.content.xml
+│ --rw----     2.0 fat     1834 bl defN 21-Jun-01 18:39 jcr_root/apps/wcm-io/wcm/commons/components/global/wcmInit/render.html
+│ --rw----     2.0 fat      217 bl defN 21-Jun-01 18:39 jcr_root/apps/wcm-io/wcm/commons/components/global/wcmInit/wcmInit.html
+│ --rw----     2.0 fat      526 bl defN 21-Jun-01 18:39 jcr_root/apps/wcm-io/wcm/commons/components/global/wcmInit/.content.xml
+│ --rw----     2.0 fat      781 bl defN 21-Jun-01 18:39 jcr_root/apps/wcm-io/wcm/commons/components/page/structureElement/structureElement.html
+│ --rw----     2.0 fat      594 bl defN 21-Jun-01 18:39 jcr_root/apps/wcm-io/wcm/commons/components/page/structureElement/.content.xml
+│ --rw----     2.0 fat    15977 bl defN 21-Jun-01 18:39 jcr_root/apps/wcm-io/wcm/commons/templates/structureElement/thumbnail.png
+│ --rw----     2.0 fat      714 bl defN 21-Jun-01 18:39 jcr_root/apps/wcm-io/wcm/commons/templates/structureElement/.content.xml
+│ -18 files, 29210 bytes uncompressed, 7330 bytes compressed:  74.9%
+│ +Zip file size: 11031 bytes, number of entries: 18
+│ +-rw----     2.0 fat     3167 bl defN 23-Aug-26 22:41 META-INF/vault/config.xml
+│ +-rw----     2.0 fat      495 bl defN 23-Aug-26 22:41 META-INF/vault/properties.xml
+│ +-rw----     2.0 fat      736 bl defN 23-Aug-26 22:41 META-INF/vault/settings.xml
+│ +-rw----     2.0 fat      791 bl defN 23-Aug-26 22:41 META-INF/vault/definition/.content.xml
+│ +-rw----     2.0 fat      154 bl defN 23-Aug-26 22:41 META-INF/vault/filter.xml
+│ +-rw----     2.0 fat      526 bl defN 23-Aug-26 22:41 jcr_root/apps/wcm-io/wcm/commons/.content.xml
+│ +-rw----     2.0 fat      526 bl defN 23-Aug-26 22:41 jcr_root/apps/wcm-io/wcm/commons/components/.content.xml
+│ +-rw----     2.0 fat      526 bl defN 23-Aug-26 22:41 jcr_root/apps/wcm-io/wcm/commons/components/global/.content.xml
+│ +-rw----     2.0 fat      526 bl defN 23-Aug-26 22:41 jcr_root/apps/wcm-io/wcm/commons/components/page/.content.xml
+│ +-rw----     2.0 fat      526 bl defN 23-Aug-26 22:41 jcr_root/apps/wcm-io/wcm/commons/templates/.content.xml
+│ +-rw----     2.0 fat      589 bl defN 23-Aug-26 22:41 jcr_root/apps/wcm-io/wcm/commons/components/global/page/.content.xml
+│ +-rw----     2.0 fat     1834 bl defN 23-Aug-26 22:41 jcr_root/apps/wcm-io/wcm/commons/components/global/wcmInit/render.html
+│ +-rw----     2.0 fat      217 bl defN 23-Aug-26 22:41 jcr_root/apps/wcm-io/wcm/commons/components/global/wcmInit/wcmInit.html
+│ +-rw----     2.0 fat      526 bl defN 23-Aug-26 22:41 jcr_root/apps/wcm-io/wcm/commons/components/global/wcmInit/.content.xml
+│ +-rw----     2.0 fat      781 bl defN 23-Aug-26 22:41 jcr_root/apps/wcm-io/wcm/commons/components/page/structureElement/structureElement.html
+│ +-rw----     2.0 fat      594 bl defN 23-Aug-26 22:41 jcr_root/apps/wcm-io/wcm/commons/components/page/structureElement/.content.xml
+│ +-rw----     2.0 fat    15977 bl defN 23-Aug-26 22:41 jcr_root/apps/wcm-io/wcm/commons/templates/structureElement/thumbnail.png
+│ +-rw----     2.0 fat      714 bl defN 23-Aug-26 22:41 jcr_root/apps/wcm-io/wcm/commons/templates/structureElement/.content.xml
+│ +18 files, 29205 bytes uncompressed, 7325 bytes compressed:  74.9%
+├── META-INF/vault/properties.xml
+│ ├── META-INF/vault/properties.xml
+│ │ @@ -1,13 +1,13 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <!DOCTYPE properties
+│ │    SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
+│ │  <properties>
+│ │    <entry key="allowIndexDefinitions">false</entry>
+│ │    <entry key="createdBy">admin</entry>
+│ │ -  <entry key="created">2021-06-01T18:39:22.493+02:00</entry>
+│ │ +  <entry key="created">2023-08-26T22:41:47.081Z</entry>
+│ │    <entry key="name">io.wcm.wcm.commons-content</entry>
+│ │    <entry key="version">1.8.2</entry>
+│ │    <entry key="packageType">application</entry>
+│ │    <entry key="requiresRoot">false</entry>
+│ │    <entry key="group">wcm-io</entry>
+│ │  </properties>
+
+2 / 2 target/reference/io.wcm.wcm.commons-1.8.2-bundle.jar target/io.wcm.wcm.commons-1.8.2-bundle.jar
+--- target/reference/io.wcm.wcm.commons-1.8.2-bundle.jar
++++ target/io.wcm.wcm.commons-1.8.2-bundle.jar
+├── zipinfo {}
+│ @@ -1,67 +1,67 @@
+│  Zip file size: 51429 bytes, number of entries: 65
+│ --rw----     2.0 fat     4410 bl defN 21-Jun-01 18:39 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat        0 bl defN 21-Jun-01 18:39 META-INF/
+...
+│ --rw----     2.0 fat     5346 bl defN 21-Jun-01 18:39 META-INF/maven/io.wcm/io.wcm.wcm.commons/pom.xml
+│ --rw----     2.0 fat       62 bl defN 21-Jun-01 18:39 META-INF/maven/io.wcm/io.wcm.wcm.commons/pom.properties
+│ +-rw----     2.0 fat     4410 bl defN 23-Aug-26 22:41 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat        0 bl defN 23-Aug-26 22:41 META-INF/
+...
+│ +-rw----     2.0 fat     5346 bl defN 23-Aug-26 22:41 META-INF/maven/io.wcm/io.wcm.wcm.commons/pom.xml
+│ +-rw----     2.0 fat       62 bl defN 23-Aug-26 22:41 META-INF/maven/io.wcm/io.wcm.wcm.commons/pom.properties
+│  65 files, 96050 bytes uncompressed, 40003 bytes compressed:  58.4%
+
