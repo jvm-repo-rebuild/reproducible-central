@@ -1,0 +1,5 @@
+version=0.0.3
+ok=18
+ko=0
+okFiles="com.io7m.trasco-0.0.3.pom com.io7m.trasco.api-0.0.3.pom com.io7m.trasco.api-0.0.3.jar com.io7m.trasco.api-0.0.3-sources.jar com.io7m.trasco.api-0.0.3-tests.jar com.io7m.trasco.xml.schemas-0.0.3.pom com.io7m.trasco.xml.schemas-0.0.3.jar com.io7m.trasco.xml.schemas-0.0.3-sources.jar com.io7m.trasco.xml.schemas-0.0.3-tests.jar com.io7m.trasco.vanilla-0.0.3.pom com.io7m.trasco.vanilla-0.0.3.jar com.io7m.trasco.vanilla-0.0.3-sources.jar com.io7m.trasco.vanilla-0.0.3-tests.jar com.io7m.trasco.tests-0.0.3.pom com.io7m.trasco.tests-0.0.3.jar com.io7m.trasco.tests-0.0.3-sources.jar com.io7m.trasco.tests-0.0.3-test-sources.jar com.io7m.trasco.tests-0.0.3-tests.jar"
+koFiles=""
