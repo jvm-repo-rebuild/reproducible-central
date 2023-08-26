@@ -1,0 +1,5 @@
+version=0.0.1
+ok=17
+ko=0
+okFiles="com.io7m.tabla-0.0.1.pom com.io7m.tabla-0.0.1-cyclonedx.xml com.io7m.tabla.core-0.0.1.pom com.io7m.tabla.core-0.0.1.jar com.io7m.tabla.core-0.0.1-sources.jar com.io7m.tabla.core-0.0.1-cyclonedx.xml com.io7m.tabla.core-0.0.1-tests.jar com.io7m.tabla.cmdline-0.0.1.pom com.io7m.tabla.cmdline-0.0.1.jar com.io7m.tabla.cmdline-0.0.1-sources.jar com.io7m.tabla.cmdline-0.0.1-cyclonedx.xml com.io7m.tabla.cmdline-0.0.1-tests.jar com.io7m.tabla.tests-0.0.1.pom com.io7m.tabla.tests-0.0.1.jar com.io7m.tabla.tests-0.0.1-sources.jar com.io7m.tabla.tests-0.0.1-cyclonedx.xml com.io7m.tabla.tests-0.0.1-tests.jar"
+koFiles=""
