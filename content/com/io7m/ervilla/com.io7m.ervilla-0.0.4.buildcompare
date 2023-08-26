@@ -1,0 +1,5 @@
+version=0.0.4
+ok=27
+ko=0
+okFiles="com.io7m.ervilla-0.0.4.pom com.io7m.ervilla-0.0.4-cyclonedx.xml com.io7m.ervilla.api-0.0.4.pom com.io7m.ervilla.api-0.0.4.jar com.io7m.ervilla.api-0.0.4-sources.jar com.io7m.ervilla.api-0.0.4-cyclonedx.xml com.io7m.ervilla.api-0.0.4-tests.jar com.io7m.ervilla.native_exec-0.0.4.pom com.io7m.ervilla.native_exec-0.0.4.jar com.io7m.ervilla.native_exec-0.0.4-sources.jar com.io7m.ervilla.native_exec-0.0.4-cyclonedx.xml com.io7m.ervilla.native_exec-0.0.4-tests.jar com.io7m.ervilla.postgres-0.0.4.pom com.io7m.ervilla.postgres-0.0.4.jar com.io7m.ervilla.postgres-0.0.4-sources.jar com.io7m.ervilla.postgres-0.0.4-cyclonedx.xml com.io7m.ervilla.postgres-0.0.4-tests.jar com.io7m.ervilla.test_extension-0.0.4.pom com.io7m.ervilla.test_extension-0.0.4.jar com.io7m.ervilla.test_extension-0.0.4-sources.jar com.io7m.ervilla.test_extension-0.0.4-cyclonedx.xml com.io7m.ervilla.test_extension-0.0.4-tests.jar com.io7m.ervilla.tests-0.0.4.pom com.io7m.ervilla.tests-0.0.4.jar com.io7m.ervilla.tests-0.0.4-sources.jar com.io7m.ervilla.tests-0.0.4-cyclonedx.xml com.io7m.ervilla.tests-0.0.4-tests.jar"
+koFiles=""
