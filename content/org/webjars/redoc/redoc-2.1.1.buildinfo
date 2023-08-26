@@ -1,0 +1,30 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=ReDoc
+group-id=org.webjars
+artifact-id=redoc
+version=2.1.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/webjars/redoc.git
+source.scm.tag=redoc-2.1.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=redoc-2.1.1.pom
+outputs.0.length=4473
+outputs.0.checksums.sha512=f24ce89fe7db5388fe14f3945604616a64e5069229017d6331febf64f0a165d26c8558923e382027ccd730220f4bd3d3f28b81dff46fe228767c749df8e353f9
+
+outputs.1.filename=redoc-2.1.1.jar
+outputs.1.length=1445598
+outputs.1.checksums.sha512=6643e475e9ade1a84bb5a4fd915fe5e3171946aa60923c0efaae7ef9f7b9bb94a5d45f8f26dd831972ef1efc7bcb41c32e72ac6ec5a00e77a204d1ad3be84c55
