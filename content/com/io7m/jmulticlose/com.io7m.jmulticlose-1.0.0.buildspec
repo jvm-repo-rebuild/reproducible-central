@@ -12,7 +12,7 @@ jdk=17.0.3
 newline=lf
 umask=022
 
-command="mvn -DskipTests clean package -Dassembly.skipAssembly"
+command="mvn -DskipTests clean package"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope
