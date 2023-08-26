@@ -22,38 +22,16 @@ rebuilding **11 releases** of com.io7m.trasco:com.io7m.trasco:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.1.0](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/1.1.0/pom) | [mvn jdk17.0.8](com.io7m.trasco-1.1.0.buildspec) | [result](com.io7m.trasco-1.1.0.buildinfo): [22 :heavy_check_mark: ](com.io7m.trasco-1.1.0.buildcompare) [:mag:](com.io7m.trasco-1.1.0.diffoscope)
-[1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/com/io7m/trasco/com.io7m.trasco-1.1.0.buildspec[0m
- | 1018K |
-| [1.0.0](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/1.0.0/pom) | [mvn jdk17.0.7](com.io7m.trasco-1.0.0.buildspec) | [result](com.io7m.trasco-1.0.0.buildinfo): [18 :heavy_check_mark: ](com.io7m.trasco-1.0.0.buildcompare) [:mag:](com.io7m.trasco-1.0.0.diffoscope)
-[1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/com/io7m/trasco/com.io7m.trasco-1.0.0.buildspec[0m
- | 196K |
-| [1.0.0-beta0003](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/1.0.0-beta0003/pom) | [mvn jdk17.0.7](com.io7m.trasco-1.0.0-beta0003.buildspec) | [result](com.io7m.trasco-1.0.0-beta0003.buildinfo): [18 :heavy_check_mark: ](com.io7m.trasco-1.0.0-beta0003.buildcompare) [:mag:](com.io7m.trasco-1.0.0-beta0003.diffoscope)
-[1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/com/io7m/trasco/com.io7m.trasco-1.0.0-beta0003.buildspec[0m
- | 196K |
-| [1.0.0-beta0002](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/1.0.0-beta0002/pom) | [mvn jdk17.0.7](com.io7m.trasco-1.0.0-beta0002.buildspec) | [result](com.io7m.trasco-1.0.0-beta0002.buildinfo): [18 :heavy_check_mark: ](com.io7m.trasco-1.0.0-beta0002.buildcompare) [:mag:](com.io7m.trasco-1.0.0-beta0002.diffoscope)
-[1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/com/io7m/trasco/com.io7m.trasco-1.0.0-beta0002.buildspec[0m
- | 189K |
-| [1.0.0-beta0001](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/1.0.0-beta0001/pom) | [mvn jdk17.0.7](com.io7m.trasco-1.0.0-beta0001.buildspec) | [result](com.io7m.trasco-1.0.0-beta0001.buildinfo): [18 :heavy_check_mark: ](com.io7m.trasco-1.0.0-beta0001.buildcompare) [:mag:](com.io7m.trasco-1.0.0-beta0001.diffoscope)
-[1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/com/io7m/trasco/com.io7m.trasco-1.0.0-beta0001.buildspec[0m
- | 143K |
-| [0.0.6](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/0.0.6/pom) | [mvn jdk17.0.5](com.io7m.trasco-0.0.6.buildspec) | [result](com.io7m.trasco-0.0.6.buildinfo): [18 :heavy_check_mark: ](com.io7m.trasco-0.0.6.buildcompare) [:mag:](com.io7m.trasco-0.0.6.diffoscope)
-[1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/com/io7m/trasco/com.io7m.trasco-0.0.6.buildspec[0m
- | 143K |
-| [0.0.5](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/0.0.5/pom) | [mvn jdk17.0.4.1](com.io7m.trasco-0.0.5.buildspec) | [result](com.io7m.trasco-0.0.5.buildinfo): [18 :heavy_check_mark: ](com.io7m.trasco-0.0.5.buildcompare) [:mag:](com.io7m.trasco-0.0.5.diffoscope)
-[1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/com/io7m/trasco/com.io7m.trasco-0.0.5.buildspec[0m
- | 143K |
-| [0.0.4](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/0.0.4/pom) | [mvn jdk17.0.4](com.io7m.trasco-0.0.4.buildspec) | [result](com.io7m.trasco-0.0.4.buildinfo): [18 :heavy_check_mark: ](com.io7m.trasco-0.0.4.buildcompare) [:mag:](com.io7m.trasco-0.0.4.diffoscope)
-[1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/com/io7m/trasco/com.io7m.trasco-0.0.4.buildspec[0m
- | 142K |
-| [0.0.3](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/0.0.3/pom) | [mvn jdk17.0.4](com.io7m.trasco-0.0.3.buildspec) | [result](com.io7m.trasco-0.0.3.buildinfo): [18 :heavy_check_mark: ](com.io7m.trasco-0.0.3.buildcompare) [:mag:](com.io7m.trasco-0.0.3.diffoscope)
-[1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/com/io7m/trasco/com.io7m.trasco-0.0.3.buildspec[0m
- | 140K |
-| [0.0.2](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/0.0.2/pom) | [mvn jdk17.0.3](com.io7m.trasco-0.0.2.buildspec) | [result](com.io7m.trasco-0.0.2.buildinfo): [18 :heavy_check_mark: ](com.io7m.trasco-0.0.2.buildcompare) [:mag:](com.io7m.trasco-0.0.2.diffoscope)
-[1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/com/io7m/trasco/com.io7m.trasco-0.0.2.buildspec[0m
- | 138K |
-| [0.0.1](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/0.0.1/pom) | [mvn jdk17.0.3](com.io7m.trasco-0.0.1.buildspec) | [result](com.io7m.trasco-0.0.1.buildinfo): [18 :heavy_check_mark: ](com.io7m.trasco-0.0.1.buildcompare) [:mag:](com.io7m.trasco-0.0.1.diffoscope)
-[1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/com/io7m/trasco/com.io7m.trasco-0.0.1.buildspec[0m
- | 130K |
+| [1.1.0](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/1.1.0/pom) | [mvn jdk17.0.8](com.io7m.trasco-1.1.0.buildspec) | [result](com.io7m.trasco-1.1.0.buildinfo): [22 :heavy_check_mark: ](com.io7m.trasco-1.1.0.buildcompare) | 1018K |
+| [1.0.0](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/1.0.0/pom) | [mvn jdk17.0.7](com.io7m.trasco-1.0.0.buildspec) | [result](com.io7m.trasco-1.0.0.buildinfo): [18 :heavy_check_mark: ](com.io7m.trasco-1.0.0.buildcompare) | 196K |
+| [1.0.0-beta0003](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/1.0.0-beta0003/pom) | [mvn jdk17.0.7](com.io7m.trasco-1.0.0-beta0003.buildspec) | [result](com.io7m.trasco-1.0.0-beta0003.buildinfo): [18 :heavy_check_mark: ](com.io7m.trasco-1.0.0-beta0003.buildcompare) | 196K |
+| [1.0.0-beta0002](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/1.0.0-beta0002/pom) | [mvn jdk17.0.7](com.io7m.trasco-1.0.0-beta0002.buildspec) | [result](com.io7m.trasco-1.0.0-beta0002.buildinfo): [18 :heavy_check_mark: ](com.io7m.trasco-1.0.0-beta0002.buildcompare) | 189K |
+| [1.0.0-beta0001](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/1.0.0-beta0001/pom) | [mvn jdk17.0.7](com.io7m.trasco-1.0.0-beta0001.buildspec) | [result](com.io7m.trasco-1.0.0-beta0001.buildinfo): [18 :heavy_check_mark: ](com.io7m.trasco-1.0.0-beta0001.buildcompare) | 143K |
+| [0.0.6](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/0.0.6/pom) | [mvn jdk17.0.5](com.io7m.trasco-0.0.6.buildspec) | [result](com.io7m.trasco-0.0.6.buildinfo): [18 :heavy_check_mark: ](com.io7m.trasco-0.0.6.buildcompare) | 143K |
+| [0.0.5](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/0.0.5/pom) | [mvn jdk17.0.4.1](com.io7m.trasco-0.0.5.buildspec) | [result](com.io7m.trasco-0.0.5.buildinfo): [18 :heavy_check_mark: ](com.io7m.trasco-0.0.5.buildcompare) | 143K |
+| [0.0.4](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/0.0.4/pom) | [mvn jdk17.0.4](com.io7m.trasco-0.0.4.buildspec) | [result](com.io7m.trasco-0.0.4.buildinfo): [18 :heavy_check_mark: ](com.io7m.trasco-0.0.4.buildcompare) | 142K |
+| [0.0.3](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/0.0.3/pom) | [mvn jdk17.0.4](com.io7m.trasco-0.0.3.buildspec) | [result](com.io7m.trasco-0.0.3.buildinfo): [18 :heavy_check_mark: ](com.io7m.trasco-0.0.3.buildcompare) | 140K |
+| [0.0.2](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/0.0.2/pom) | [mvn jdk17.0.3](com.io7m.trasco-0.0.2.buildspec) | [result](com.io7m.trasco-0.0.2.buildinfo): [18 :heavy_check_mark: ](com.io7m.trasco-0.0.2.buildcompare) | 138K |
+| [0.0.1](https://central.sonatype.com/artifact/com.io7m.trasco/com.io7m.trasco/0.0.1/pom) | [mvn jdk17.0.3](com.io7m.trasco-0.0.1.buildspec) | [result](com.io7m.trasco-0.0.1.buildinfo): [18 :heavy_check_mark: ](com.io7m.trasco-0.0.1.buildcompare) | 130K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

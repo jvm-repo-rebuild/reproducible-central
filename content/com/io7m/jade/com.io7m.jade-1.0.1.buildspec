@@ -15,5 +15,5 @@ locale="en_US"
 command="mvn -DskipTests clean package"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-#diffoscope=${artifactId}-${version}.diffoscope
+diffoscope=${artifactId}-${version}.diffoscope
 issue=

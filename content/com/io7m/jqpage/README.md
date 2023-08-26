@@ -20,14 +20,8 @@ rebuilding **3 releases** of com.io7m.jqpage:com.io7m.jqpage:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.0.3](https://central.sonatype.com/artifact/com.io7m.jqpage/com.io7m.jqpage/0.0.3/pom) | [mvn jdk17.0.7](com.io7m.jqpage-0.0.3.buildspec) | [result](com.io7m.jqpage-0.0.3.buildinfo): [12 :heavy_check_mark: ](com.io7m.jqpage-0.0.3.buildcompare) [:mag:](com.io7m.jqpage-0.0.3.diffoscope)
-[1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/com/io7m/jqpage/com.io7m.jqpage-0.0.3.buildspec[0m
- | 2.2M |
-| [0.0.2](https://central.sonatype.com/artifact/com.io7m.jqpage/com.io7m.jqpage/0.0.2/pom) | [mvn jdk17.0.4.1](com.io7m.jqpage-0.0.2.buildspec) | [result](com.io7m.jqpage-0.0.2.buildinfo): [10 :heavy_check_mark: ](com.io7m.jqpage-0.0.2.buildcompare) [:mag:](com.io7m.jqpage-0.0.2.diffoscope)
-[1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/com/io7m/jqpage/com.io7m.jqpage-0.0.2.buildspec[0m
- | 1.6M |
-| [0.0.1](https://central.sonatype.com/artifact/com.io7m.jqpage/com.io7m.jqpage/0.0.1/pom) | [mvn jdk17.0.4.1](com.io7m.jqpage-0.0.1.buildspec) | [result](com.io7m.jqpage-0.0.1.buildinfo): [10 :heavy_check_mark: ](com.io7m.jqpage-0.0.1.buildcompare) [:mag:](com.io7m.jqpage-0.0.1.diffoscope)
-[1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/com/io7m/jqpage/com.io7m.jqpage-0.0.1.buildspec[0m
- | 1.6M |
+| [0.0.3](https://central.sonatype.com/artifact/com.io7m.jqpage/com.io7m.jqpage/0.0.3/pom) | [mvn jdk17.0.7](com.io7m.jqpage-0.0.3.buildspec) | [result](com.io7m.jqpage-0.0.3.buildinfo): [12 :heavy_check_mark: ](com.io7m.jqpage-0.0.3.buildcompare) | 2.2M |
+| [0.0.2](https://central.sonatype.com/artifact/com.io7m.jqpage/com.io7m.jqpage/0.0.2/pom) | [mvn jdk17.0.4.1](com.io7m.jqpage-0.0.2.buildspec) | [result](com.io7m.jqpage-0.0.2.buildinfo): [10 :heavy_check_mark: ](com.io7m.jqpage-0.0.2.buildcompare) | 1.6M |
+| [0.0.1](https://central.sonatype.com/artifact/com.io7m.jqpage/com.io7m.jqpage/0.0.1/pom) | [mvn jdk17.0.4.1](com.io7m.jqpage-0.0.1.buildspec) | [result](com.io7m.jqpage-0.0.1.buildinfo): [10 :heavy_check_mark: ](com.io7m.jqpage-0.0.1.buildcompare) | 1.6M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

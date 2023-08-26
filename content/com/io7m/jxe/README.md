@@ -21,11 +21,7 @@ rebuilding **2 releases** of com.io7m.jxe:com.io7m.jxe:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.0.2](https://central.sonatype.com/artifact/com.io7m.jxe/com.io7m.jxe/1.0.2/pom) | [mvn jdk17.0.8](com.io7m.jxe-1.0.2.buildspec) | [result](com.io7m.jxe-1.0.2.buildinfo): [18 :heavy_check_mark: ](com.io7m.jxe-1.0.2.buildcompare) [:mag:](com.io7m.jxe-1.0.2.diffoscope)
-[1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/com/io7m/jxe/com.io7m.jxe-1.0.2.buildspec[0m
- | 717K |
-| [1.0.0](https://central.sonatype.com/artifact/com.io7m.jxe/com.io7m.jxe/1.0.0/pom) | [mvn jdk14.0.2](com.io7m.jxe-1.0.0.buildspec) | [result](com.io7m.jxe-1.0.0.buildinfo): [14 :heavy_check_mark: ](com.io7m.jxe-1.0.0.buildcompare) [:mag:](com.io7m.jxe-1.0.0.diffoscope)
-[1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/com/io7m/jxe/com.io7m.jxe-1.0.0.buildspec[0m
- | 99K |
+| [1.0.2](https://central.sonatype.com/artifact/com.io7m.jxe/com.io7m.jxe/1.0.2/pom) | [mvn jdk17.0.8](com.io7m.jxe-1.0.2.buildspec) | [result](com.io7m.jxe-1.0.2.buildinfo): [18 :heavy_check_mark: ](com.io7m.jxe-1.0.2.buildcompare) | 717K |
+| [1.0.0](https://central.sonatype.com/artifact/com.io7m.jxe/com.io7m.jxe/1.0.0/pom) | [mvn jdk14.0.2](com.io7m.jxe-1.0.0.buildspec) | [result](com.io7m.jxe-1.0.0.buildinfo): [14 :heavy_check_mark: ](com.io7m.jxe-1.0.0.buildcompare) | 99K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

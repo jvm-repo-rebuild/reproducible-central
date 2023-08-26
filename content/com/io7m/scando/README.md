@@ -20,8 +20,6 @@ rebuilding **1 releases** of com.io7m.scando:com.io7m.scando:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.0.0](https://central.sonatype.com/artifact/com.io7m.scando/com.io7m.scando/1.0.0/pom) | [mvn jdk17.0.7](com.io7m.scando-1.0.0.buildspec) | [result](com.io7m.scando-1.0.0.buildinfo): [13 :heavy_check_mark: ](com.io7m.scando-1.0.0.buildcompare) [:mag:](com.io7m.scando-1.0.0.diffoscope)
-[1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/com/io7m/scando/com.io7m.scando-1.0.0.buildspec[0m
- | 11M |
+| [1.0.0](https://central.sonatype.com/artifact/com.io7m.scando/com.io7m.scando/1.0.0/pom) | [mvn jdk17.0.7](com.io7m.scando-1.0.0.buildspec) | [result](com.io7m.scando-1.0.0.buildinfo): [13 :heavy_check_mark: ](com.io7m.scando-1.0.0.buildcompare) | 11M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
