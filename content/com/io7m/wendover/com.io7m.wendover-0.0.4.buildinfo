@@ -1,0 +1,66 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.wendover
+group-id=com.io7m.wendover
+artifact-id=com.io7m.wendover
+version=0.0.4
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/wendover
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.wendover.tests
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.wendover:com.io7m.wendover
+
+outputs.0.0.filename=com.io7m.wendover-0.0.4.pom
+outputs.0.0.length=4280
+outputs.0.0.checksums.sha512=e635ef0858c0946aa10f71263c554773ab1d16bb3182fd65cb04e965e8cc564a06180cd4fd2f20a80c03d1cefbe367e94bf729650cd11f2599a2eb0a09c6e73d
+
+outputs.1.coordinates=com.io7m.wendover:com.io7m.wendover.core
+
+outputs.1.0.filename=com.io7m.wendover.core-0.0.4.pom
+outputs.1.0.length=1025
+outputs.1.0.checksums.sha512=59bb89120b7ca13065c671962ec8eec5e1ecf9dee132cd5d5f9605929579da6a1ec19e0c81fea7da518ce423afcbf84eb47bfeebb2eb033b5226935eda5d70ea
+
+outputs.1.1.filename=com.io7m.wendover.core-0.0.4.jar
+outputs.1.1.length=15629
+outputs.1.1.checksums.sha512=60f20ccc4a614833bdee7ee9f935b0788b8a1a08eb58a73cae419dc7296237872c7de57d74bf92fbbd8d60f9339fe207b25e66920d231db4827b0d141b60e5a9
+
+outputs.1.2.filename=com.io7m.wendover.core-0.0.4-sources.jar
+outputs.1.2.length=16857
+outputs.1.2.checksums.sha512=8f11d1b33a4edb5e78aa0a79719a7e765037ab7f3b76fa412fb26a4093e5f6d87e4159f4c957279a67b49c73c7d3e12189095836ed51993d0641792b3e262848
+
+outputs.1.3.filename=com.io7m.wendover.core-0.0.4-tests.jar
+outputs.1.3.length=408
+outputs.1.3.checksums.sha512=e244c81b44378314e1689d1119cf1be8de768a1493e6338e448940f5c60a24e3747e6130680a973b91247444ad09568ef5480fbcf863fcdc9d73cfe58b7adc6d
+
+outputs.2.coordinates=com.io7m.wendover:com.io7m.wendover.tests
+
+outputs.2.0.filename=com.io7m.wendover.tests-0.0.4.pom
+outputs.2.0.length=2110
+outputs.2.0.checksums.sha512=20fdfe02ed770224c4e50b77b922ef385d982efe177a3ac0bf4957af515998e95e65e30fca5d0846b607d287b7a97c329cc93a90e26ffca814fdc5bbb515c148
+
+outputs.2.1.filename=com.io7m.wendover.tests-0.0.4.jar
+outputs.2.1.length=2157
+outputs.2.1.checksums.sha512=e484e4eedbadc2d047bc3869a051907be88fb6979750ee9330bed71154c890955ad4d88e6267c64daa223b551c7dd25adcb387a501dcde5a47372deec5cb41e4
+
+outputs.2.2.filename=com.io7m.wendover.tests-0.0.4-test-sources.jar
+outputs.2.2.length=14091
+outputs.2.2.checksums.sha512=b1cf1ac7e141045bf81d78535d8f780c0ea33513bb5f4a04980cd15c6a20d943f212751ffc033c2861b6865d8a0cad5353426394682be2143d4239eda873d535
+
+outputs.2.3.filename=com.io7m.wendover.tests-0.0.4-tests.jar
+outputs.2.3.length=19415
+outputs.2.3.checksums.sha512=5dcfcce86a1d695ed477df9c1e316d4e22bad3267cbbe887d7c1557de73b32572390a9ec088cf191c2a35bb3cc7b303d40fee01d9a1a56e03686b10208c9dff8
