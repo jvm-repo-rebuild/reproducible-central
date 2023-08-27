@@ -1,0 +1,5 @@
+version=0.0.2
+ok=21
+ko=0
+okFiles="com.io7m.jsamplebuffer-0.0.2.pom com.io7m.jsamplebuffer.api-0.0.2.pom com.io7m.jsamplebuffer.api-0.0.2.jar com.io7m.jsamplebuffer.api-0.0.2-sources.jar com.io7m.jsamplebuffer.api-0.0.2-tests.jar com.io7m.jsamplebuffer.vanilla-0.0.2.pom com.io7m.jsamplebuffer.vanilla-0.0.2.jar com.io7m.jsamplebuffer.vanilla-0.0.2-sources.jar com.io7m.jsamplebuffer.vanilla-0.0.2-tests.jar com.io7m.jsamplebuffer.xmedia-0.0.2.pom com.io7m.jsamplebuffer.xmedia-0.0.2.jar com.io7m.jsamplebuffer.xmedia-0.0.2-sources.jar com.io7m.jsamplebuffer.xmedia-0.0.2-tests.jar com.io7m.jsamplebuffer.tests-0.0.2.pom com.io7m.jsamplebuffer.tests-0.0.2.jar com.io7m.jsamplebuffer.tests-0.0.2-test-sources.jar com.io7m.jsamplebuffer.tests-0.0.2-tests.jar com.io7m.jsamplebuffer.documentation-0.0.2.pom com.io7m.jsamplebuffer.documentation-0.0.2.jar com.io7m.jsamplebuffer.documentation-0.0.2-sources.jar com.io7m.jsamplebuffer.documentation-0.0.2-tests.jar"
+koFiles=""
