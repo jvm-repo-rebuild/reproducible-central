@@ -1,0 +1,48 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.hibiscus
+group-id=com.io7m.hibiscus
+artifact-id=com.io7m.hibiscus
+version=0.0.3
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/hibiscus
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.hibiscus.api
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.hibiscus:com.io7m.hibiscus
+
+outputs.0.0.filename=com.io7m.hibiscus-0.0.3.pom
+outputs.0.0.length=5113
+outputs.0.0.checksums.sha512=cad36a1a8d0c7f6cbf7b9834d28b826f93d460382d7b49dd18ae91cb66fd30fc1265ceae243d371b412c099b8d21f7ffa99542223d476eb1fddc5378419a90d4
+
+outputs.1.coordinates=com.io7m.hibiscus:com.io7m.hibiscus.api
+
+outputs.1.0.filename=com.io7m.hibiscus.api-0.0.3.pom
+outputs.1.0.length=1038
+outputs.1.0.checksums.sha512=8b838db29fbdab7ca87dcbdd761c5797df9d1a90a2051c9a3984d9ed88dc930f26ac8270d339fef647a426140093d52537bba5e376e2891d5bad43a3fe7d535a
+
+outputs.1.1.filename=com.io7m.hibiscus.api-0.0.3.jar
+outputs.1.1.length=11372
+outputs.1.1.checksums.sha512=1c7c42b1992e695df2c058baceaff9018af2458f74004f258cfe4ab11d8a9f0fa44f687e1a769311292d517eb1bc4ba49cdb4869add5e83528b86ae5515cf70c
+
+outputs.1.2.filename=com.io7m.hibiscus.api-0.0.3-sources.jar
+outputs.1.2.length=15204
+outputs.1.2.checksums.sha512=86316f8ecf31ac1e56283c8dcc29fef79f965b8ddeedb391676ab75a2c7eff59d43becd66ced8e1bdc68a278dd54a5219b9cb94dfb87356f0922fac14ac1f0c5
+
+outputs.1.3.filename=com.io7m.hibiscus.api-0.0.3-tests.jar
+outputs.1.3.length=408
+outputs.1.3.checksums.sha512=831e7c491e9cf6dad6386a19ac7ac1cd3635467fb1bc9d443daf01a8487999c9b44ab4480d86728e167b3c2fefd77a45f30b064ef7c4898b31ac46685b25c956
