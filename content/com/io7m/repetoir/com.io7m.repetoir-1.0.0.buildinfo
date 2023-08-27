@@ -1,0 +1,66 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.repetoir
+group-id=com.io7m.repetoir
+artifact-id=com.io7m.repetoir
+version=1.0.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/repetoir
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.repetoir.tests
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.repetoir:com.io7m.repetoir
+
+outputs.0.0.filename=com.io7m.repetoir-1.0.0.pom
+outputs.0.0.length=4423
+outputs.0.0.checksums.sha512=6ecf2392a5908367b4046622cfa0ea7df2f30bf9ec5b09f33c93c279c0e3b7bbc1df9f910d7b318354feed02cd015632e78b5de74b270b3b825010061808725f
+
+outputs.1.coordinates=com.io7m.repetoir:com.io7m.repetoir.core
+
+outputs.1.0.filename=com.io7m.repetoir.core-1.0.0.pom
+outputs.1.0.length=1263
+outputs.1.0.checksums.sha512=23f25f0003756298c4af9f5f2f331e44fd98062af984040d0056910fcefe11f8012b5d7707399ba3983ec66bf0cda6bdd91371b766665921634dcc0d70986edc
+
+outputs.1.1.filename=com.io7m.repetoir.core-1.0.0.jar
+outputs.1.1.length=13586
+outputs.1.1.checksums.sha512=d00c73d37c04a74edaec013263c6c9d302fe7ad246b6cef590cb14892b45b1961cdf0291362fccbb8bc9ea1cd683b9ac10867afb1146afe24b707c668bda65bf
+
+outputs.1.2.filename=com.io7m.repetoir.core-1.0.0-sources.jar
+outputs.1.2.length=10470
+outputs.1.2.checksums.sha512=0c3b38e83f6703559e6d89e8ff5f58cfae70a684919f151e7cdb69c2f59624c8ca6e746c538ec27d911b69114a408448573b9d27660ec238a3cabf41b6a57bcd
+
+outputs.1.3.filename=com.io7m.repetoir.core-1.0.0-tests.jar
+outputs.1.3.length=404
+outputs.1.3.checksums.sha512=3aec256bff38b8607bdcd7c5dd85827ed75b62ba515c0bb417aaeeb0358a46973a58a66042bc10cccc9bb42c4f3b1777195c0a3781a9625ea42ddb27311f5110
+
+outputs.2.coordinates=com.io7m.repetoir:com.io7m.repetoir.tests
+
+outputs.2.0.filename=com.io7m.repetoir.tests-1.0.0.pom
+outputs.2.0.length=1756
+outputs.2.0.checksums.sha512=0a18295e037bc0066d6b356b84d95777a336f52bac3eb905ece73b5d7f1a273203c26f0081f43d9df54403be2a7f4c99ce532ed02fd09670d3c1de51fb92ebad
+
+outputs.2.1.filename=com.io7m.repetoir.tests-1.0.0.jar
+outputs.2.1.length=2087
+outputs.2.1.checksums.sha512=183ff580f1b0563540cb246061e7d1f3bc985759e47fc0612fc9dd88d967760fc3f6c34fe237efa6e04777d4cab0acfd4ccb6046d7efb2954c61d4ff20831032
+
+outputs.2.2.filename=com.io7m.repetoir.tests-1.0.0-test-sources.jar
+outputs.2.2.length=4303
+outputs.2.2.checksums.sha512=a05c3a7444b64da809ac4401c7164fc152e22d8ff05ee0c7c9cc226c54371204d5545e276ff593bd54d90757dcba1e2fb344f21f1b305ff8e8d16897a8b3165f
+
+outputs.2.3.filename=com.io7m.repetoir.tests-1.0.0-tests.jar
+outputs.2.3.length=6428
+outputs.2.3.checksums.sha512=ca23d31bcbeb109a1e75db32996460757fcb854cdc8e95e0255605c99466a131fd3a968cb5412a0055e1906515b15853f1defe130f9a4770cdd32b2f278e156f
