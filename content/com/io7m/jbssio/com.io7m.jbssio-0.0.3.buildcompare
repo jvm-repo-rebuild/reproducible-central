@@ -1,0 +1,7 @@
+version=0.0.3
+ok=14
+ko=0
+okFiles="com.io7m.jbssio-0.0.3.pom com.io7m.jbssio-0.0.3.pom com.io7m.jbssio.api-0.0.3.pom com.io7m.jbssio.api-0.0.3.jar com.io7m.jbssio.api-0.0.3-sources.jar com.io7m.jbssio.api-0.0.3-tests.jar com.io7m.jbssio.vanilla-0.0.3.pom com.io7m.jbssio.vanilla-0.0.3.jar com.io7m.jbssio.vanilla-0.0.3-sources.jar com.io7m.jbssio.vanilla-0.0.3-tests.jar com.io7m.jbssio.tests-0.0.3.pom com.io7m.jbssio.tests-0.0.3.jar com.io7m.jbssio.tests-0.0.3-test-sources.jar com.io7m.jbssio.tests-0.0.3-tests.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
