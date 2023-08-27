@@ -1,0 +1,5 @@
+version=1.1.1
+ok=13
+ko=0
+okFiles="com.io7m.jbssio-1.1.1.pom com.io7m.jbssio.api-1.1.1.pom com.io7m.jbssio.api-1.1.1.jar com.io7m.jbssio.api-1.1.1-sources.jar com.io7m.jbssio.api-1.1.1-tests.jar com.io7m.jbssio.vanilla-1.1.1.pom com.io7m.jbssio.vanilla-1.1.1.jar com.io7m.jbssio.vanilla-1.1.1-sources.jar com.io7m.jbssio.vanilla-1.1.1-tests.jar com.io7m.jbssio.tests-1.1.1.pom com.io7m.jbssio.tests-1.1.1.jar com.io7m.jbssio.tests-1.1.1-test-sources.jar com.io7m.jbssio.tests-1.1.1-tests.jar"
+koFiles=""
