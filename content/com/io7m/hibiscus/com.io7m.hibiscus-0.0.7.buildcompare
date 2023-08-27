@@ -1,0 +1,5 @@
+version=0.0.7
+ok=14
+ko=0
+okFiles="com.io7m.hibiscus-0.0.7.pom com.io7m.hibiscus.api-0.0.7.pom com.io7m.hibiscus.api-0.0.7.jar com.io7m.hibiscus.api-0.0.7-sources.jar com.io7m.hibiscus.api-0.0.7-tests.jar com.io7m.hibiscus.basic-0.0.7.pom com.io7m.hibiscus.basic-0.0.7.jar com.io7m.hibiscus.basic-0.0.7-sources.jar com.io7m.hibiscus.basic-0.0.7-tests.jar com.io7m.hibiscus.tests-0.0.7.pom com.io7m.hibiscus.tests-0.0.7.jar com.io7m.hibiscus.tests-0.0.7-sources.jar com.io7m.hibiscus.tests-0.0.7-test-sources.jar com.io7m.hibiscus.tests-0.0.7-tests.jar"
+koFiles=""
