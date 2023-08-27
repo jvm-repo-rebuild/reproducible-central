@@ -1,0 +1,5 @@
+version=0.0.1
+ok=9
+ko=0
+okFiles="com.io7m.taskrecorder-0.0.1.pom com.io7m.taskrecorder.core-0.0.1.pom com.io7m.taskrecorder.core-0.0.1.jar com.io7m.taskrecorder.core-0.0.1-sources.jar com.io7m.taskrecorder.core-0.0.1-tests.jar com.io7m.taskrecorder.tests-0.0.1.pom com.io7m.taskrecorder.tests-0.0.1.jar com.io7m.taskrecorder.tests-0.0.1-test-sources.jar com.io7m.taskrecorder.tests-0.0.1-tests.jar"
+koFiles=""
