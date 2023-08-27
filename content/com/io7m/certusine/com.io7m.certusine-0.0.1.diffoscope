@@ -1,0 +1,39 @@
+1 / 1 target/reference/com.io7m.certusine.etcd-0.0.1.jar com.io7m.certusine.etcd/target/com.io7m.certusine.etcd-0.0.1.jar
+--- target/reference/com.io7m.certusine.etcd-0.0.1.jar
++++ com.io7m.certusine.etcd/target/com.io7m.certusine.etcd-0.0.1.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 25262 bytes, number of entries: 34
+│ +Zip file size: 25261 bytes, number of entries: 34
+│  -rw----     2.0 fat     1762 b- defN 00-Jan-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bx stor 00-Jan-01 00:00 META-INF/
+│  -rw----     2.0 fat        0 b- stor 00-Jan-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 b- stor 00-Jan-01 00:00 META-INF/maven/com.io7m.certusine/
+│  -rw----     2.0 fat        0 b- stor 00-Jan-01 00:00 META-INF/maven/com.io7m.certusine/com.io7m.certusine.etcd/
+│  -rw----     2.0 fat       79 b- defN 00-Jan-01 00:00 META-INF/maven/com.io7m.certusine/com.io7m.certusine.etcd/pom.properties
+│  -rw----     2.0 fat     1962 b- defN 00-Jan-01 00:00 META-INF/maven/com.io7m.certusine/com.io7m.certusine.etcd/pom.xml
+│ @@ -29,8 +29,8 @@
+│  -rw----     2.0 fat     2902 b- defN 00-Jan-01 00:00 com/io7m/certusine/etcd/internal/dto/CSEMessageType$CSETransaction.class
+│  -rw----     2.0 fat     2767 b- defN 00-Jan-01 00:00 com/io7m/certusine/etcd/internal/dto/CSEMessageType$CSETransactionResponse.class
+│  -rw----     2.0 fat     2319 b- defN 00-Jan-01 00:00 com/io7m/certusine/etcd/internal/dto/CSEMessageType.class
+│  -rw----     2.0 fat      142 b- defN 00-Jan-01 00:00 com/io7m/certusine/etcd/internal/dto/package-info.class
+│  -rw----     2.0 fat      138 b- defN 00-Jan-01 00:00 com/io7m/certusine/etcd/internal/package-info.class
+│  -rw----     2.0 fat      277 b- defN 00-Jan-01 00:00 com/io7m/certusine/etcd/package-info.class
+│  -rw----     2.0 fat      852 b- defN 00-Jan-01 00:00 module-info.class
+│ -34 files, 49880 bytes uncompressed, 19430 bytes compressed:  61.0%
+│ +34 files, 49880 bytes uncompressed, 19429 bytes compressed:  61.0%
+├── com/io7m/certusine/etcd/internal/dto/CSEMessageType.class
+│ ├── procyon -ec {}
+│ │ @@ -2,10 +2,10 @@
+│ │  package com.io7m.certusine.etcd.internal.dto;
+│ │  
+│ │  import com.fasterxml.jackson.annotation.JsonTypeInfo;
+│ │  import com.fasterxml.jackson.annotation.JsonSubTypes;
+│ │  
+│ │  @JsonSubTypes({ @JsonSubTypes.Type(value = CSEMessageType.CSEAuthenticate.class, name = "CSEAuthenticate"), @JsonSubTypes.Type(value = CSEMessageType.CSEError.class, name = "CSEError"), @JsonSubTypes.Type(value = CSEMessageType.CSEAuthenticateResponse.class, name = "CSEAuthenticateResponse"), @JsonSubTypes.Type(value = CSEMessageType.CSEAuthenticateResponseHeader.class, name = "CSEAuthenticateResponseHeader"), @JsonSubTypes.Type(value = CSEMessageType.CEKV.class, name = "CEKV"), @JsonSubTypes.Type(value = CSEMessageType.CERequestPut.class, name = "CERequestPut"), @JsonSubTypes.Type(value = CSEMessageType.CSETransaction.class, name = "CSETransaction"), @JsonSubTypes.Type(value = CSEMessageType.CSETransactionResponse.class, name = "CSETransactionResponse") })
+│ │  @JsonTypeInfo(use = JsonTypeInfo.Id.DEDUCTION, visible = false)
+│ │ -public sealed interface CSEMessageType permits CSEMessageType$CEKV, CSEMessageType$CERequestPut, CSEMessageType$CSEAuthenticate, CSEMessageType$CSETransaction, CSEMessageType$CSEAuthenticateResponse, CSEMessageType$CSEAuthenticateResponseHeader, CSEMessageType$CSEError, CSEMessageType$CSETransactionResponse
+│ │ +public sealed interface CSEMessageType permits CSEMessageType$CEKV, CSEMessageType$CERequestPut, CSEMessageType$CSEAuthenticate, CSEMessageType$CSEAuthenticateResponse, CSEMessageType$CSEAuthenticateResponseHeader, CSEMessageType$CSEError, CSEMessageType$CSETransaction, CSEMessageType$CSETransactionResponse
+│ │  {
+│ │  }
+
