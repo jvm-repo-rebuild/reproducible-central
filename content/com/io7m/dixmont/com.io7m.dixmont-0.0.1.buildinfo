@@ -1,0 +1,66 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.dixmont
+group-id=com.io7m.dixmont
+artifact-id=com.io7m.dixmont
+version=0.0.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/dixmont
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.dixmont.tests
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.dixmont:com.io7m.dixmont
+
+outputs.0.0.filename=com.io7m.dixmont-0.0.1.pom
+outputs.0.0.length=5014
+outputs.0.0.checksums.sha512=ecbde4c32f6f546ac7e4f0e1d0178d87b559d6851dca0c154c4d00bac445efd7ef1162e3c0f053ed3bd82753c1e2cb278d2bafbd410203e3255a1ee552e44cac
+
+outputs.1.coordinates=com.io7m.dixmont:com.io7m.dixmont.core
+
+outputs.1.0.filename=com.io7m.dixmont.core-0.0.1.pom
+outputs.1.0.length=1419
+outputs.1.0.checksums.sha512=9c81b914653c79c0dacf00391a8fa57c4de82e8ea7d7e0838568522097130eb076f8afca726a43e7f1e8f29c013989acdd2cf75e955f09b1111d9a47d6812baa
+
+outputs.1.1.filename=com.io7m.dixmont.core-0.0.1.jar
+outputs.1.1.length=7578
+outputs.1.1.checksums.sha512=6e965ac382d5efb95493e74da2ba2dbb4a75049fec17f44678fa31fc85772953659ceb4edd6c8a3554067953b6582bdf8bdaa1bb275d41ff6b57c7b00ca163a0
+
+outputs.1.2.filename=com.io7m.dixmont.core-0.0.1-sources.jar
+outputs.1.2.length=6706
+outputs.1.2.checksums.sha512=ee25be30ab4fd99a43d4dfb14235d30c2dd9ede7c2fc59b5a777afe87881d7afe6ff78fd011c1b2f1612eaf6f154763eb709dbdbe9ed047330500592d20d13ef
+
+outputs.1.3.filename=com.io7m.dixmont.core-0.0.1-tests.jar
+outputs.1.3.length=407
+outputs.1.3.checksums.sha512=03ad1e33171b61f4786f005a91acc6eec1cc5641fa7d564670ae884d880a2f8206a08e07725674f8a71d86e246e23dec4ca587eeed13503955d27f68598580cc
+
+outputs.2.coordinates=com.io7m.dixmont:com.io7m.dixmont.tests
+
+outputs.2.0.filename=com.io7m.dixmont.tests-0.0.1.pom
+outputs.2.0.length=1891
+outputs.2.0.checksums.sha512=ddeee7625592d96fbdb96f9e8549a98f1f8806502f59150e74637daad978c30f45f9c747e667045ba5be864d5ee0f5baa8eb80227c10794a2c42d66b74e8897a
+
+outputs.2.1.filename=com.io7m.dixmont.tests-0.0.1.jar
+outputs.2.1.length=2113
+outputs.2.1.checksums.sha512=46a21e083f11f3b7e6144e96f118264a6c40533f525894ac92888c2f3bef4acfc455e9cbc43178868992977840aff0fab127e98629056f905a0cc87210d95d98
+
+outputs.2.2.filename=com.io7m.dixmont.tests-0.0.1-test-sources.jar
+outputs.2.2.length=4938
+outputs.2.2.checksums.sha512=c95889fb54c104864f6a88b4891de81273f5491d5267a3d6893b6be7d35c9a39adf2c76d2c951aed453968eeb126886c9cbdc9f0150d7e66a809c81a00f20de6
+
+outputs.2.3.filename=com.io7m.dixmont.tests-0.0.1-tests.jar
+outputs.2.3.length=6352
+outputs.2.3.checksums.sha512=5e076593f31618c6372fd8ae4f5e65b9daf980cca0c7cb0a56c53e994b9d973f6360a70ab4fce9a7fa8e336dc2f8b25ea67f79dca4690c5582a3ef255530f78a
