@@ -1,0 +1,70 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.zelador
+group-id=com.io7m.zelador
+artifact-id=com.io7m.zelador
+version=0.0.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/zelador
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.zelador.tests
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.zelador:com.io7m.zelador
+
+outputs.0.0.filename=com.io7m.zelador-0.0.1.pom
+outputs.0.0.length=5968
+outputs.0.0.checksums.sha512=fb401a7595532b449ffcbed1a4f2e081e4a073b4d3061c5c781695f212a00fa2986a26beb784faaee8f656207d86f6e82dc35c2fbba31682496d53cae36da0ef
+
+outputs.1.coordinates=com.io7m.zelador:com.io7m.zelador.test_extension
+
+outputs.1.0.filename=com.io7m.zelador.test_extension-0.0.1.pom
+outputs.1.0.length=1301
+outputs.1.0.checksums.sha512=c8e4a70336135fd203c13521c555407a4280e1945e4cc98fc749c4cae476d56961d989bb28003a71e98d82b150c17c1f627da859dc8eef05506f5b5221cd027b
+
+outputs.1.1.filename=com.io7m.zelador.test_extension-0.0.1.jar
+outputs.1.1.length=5507
+outputs.1.1.checksums.sha512=01542ec2c01694ce817aae65a2ee36964c86b4934bde60e4f5e8698f70180c186e7bd1b75260343bbbca5d16ecec3f376cbd5dc10f751d3d22b1cf166d08abcb
+
+outputs.1.2.filename=com.io7m.zelador.test_extension-0.0.1-sources.jar
+outputs.1.2.length=6175
+outputs.1.2.checksums.sha512=9f9e066213aec7591fb6a3fe82f3de425ff1c9f192b7cbfc2762202e4c7af7c7f85fe771cd14fe3b3127e7efe2bf4eef8e7298c53e7c5e960478830cb58447b0
+
+outputs.1.3.filename=com.io7m.zelador.test_extension-0.0.1-tests.jar
+outputs.1.3.length=414
+outputs.1.3.checksums.sha512=762b808f7ff7b84949776a7c15be1fec265b9c8536eb21d4f8a3c2f771203466e66c1639b7e9b269f1fe4fc720a6bfb4d9dc4e9d6d1863d7282dbde2945f9500
+
+outputs.2.coordinates=com.io7m.zelador:com.io7m.zelador.tests
+
+outputs.2.0.filename=com.io7m.zelador.tests-0.0.1.pom
+outputs.2.0.length=1900
+outputs.2.0.checksums.sha512=b365f0e8e07666e4582e1a6770aeec3d587ab16a72925661bd118cb82b50d544f336d5408ee6a1f35f5324d47c43e9181ccabe64c2a7231004f786bf71283f36
+
+outputs.2.1.filename=com.io7m.zelador.tests-0.0.1.jar
+outputs.2.1.length=3811
+outputs.2.1.checksums.sha512=ac0f9520216057919fdea159c4d9bffe6396333be1f75b979e5d1f229ae3764cb6bcd06e7a9a12d982395bef5400ce7d40ff0001ff2e3f520e279a86d742edf6
+
+outputs.2.2.filename=com.io7m.zelador.tests-0.0.1-sources.jar
+outputs.2.2.length=4622
+outputs.2.2.checksums.sha512=cb1c73db263fae89db7738c1e3a2b9c97d667adfede704f1cdf2b8066fb4d59377e41b018afb988422f5fa03c1eea8f5fb5c5871d659e677be117a1da62a703b
+
+outputs.2.3.filename=com.io7m.zelador.tests-0.0.1-test-sources.jar
+outputs.2.3.length=5279
+outputs.2.3.checksums.sha512=aeb5b35a9b3191e9f4d7d7ba08a43e10a76e8363b8d32b36c84c64208fcbfc0813ee177faa4096972183ca5be1aedc06086ef67eef78d8b600d4fa0ec82f89b5
+
+outputs.2.4.filename=com.io7m.zelador.tests-0.0.1-tests.jar
+outputs.2.4.length=4100
+outputs.2.4.checksums.sha512=71a5ce0aeda3c6a7cbd6c56cc2736a5cc5543dfe824f17725a8feb7cdc13c9c0efb3f8ab023221bf4a871576d49e0d067f935bd7ffd3be60c9ae7c29857fe042
