@@ -6,7 +6,6 @@ New Releases To Add
 | ---------- | ---- | -- | ------- |
 | <!-- 20230613152450 --> [conventional-commits-version-policy](../content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | [1.0.1](../content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.1.buildspec) :heavy_check_mark: | [1.0.3](../content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.3.buildspec) | `bin/add-new-release.sh content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.1.buildspec 1.0.3` |
 | <!-- 20230519120111 --> [io.wcm.wcm.ui.granite](../content/io/wcm/io.wcm.wcm/ui/granite/README.md) | [1.7.2](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.7.2.buildspec) :heavy_check_mark: | [1.9.12](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.9.12.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.7.2.buildspec 1.9.12` |
-| <!-- 20230419112803 --> [io.wcm.wcm.commons](../content/io/wcm/io.wcm.wcm/commons/README.md) | [1.8.0](../content/io/wcm/io.wcm.wcm/commons/wcm-commons-1.8.0.buildspec) :heavy_check_mark: | [1.10.0](../content/io/wcm/io.wcm.wcm/commons/wcm-commons-1.10.0.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.wcm/commons/wcm-commons-1.8.0.buildspec 1.10.0` |
 | <!-- 20230419111659 --> [io.wcm.handler.media](../content/io/wcm/io.wcm.handler/media/README.md) | [1.11.0](../content/io/wcm/io.wcm.handler/media/wcm-media-1.11.0.buildspec) :heavy_check_mark: | [1.15.6](../content/io/wcm/io.wcm.handler/media/wcm-media-1.15.6.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.handler/media/wcm-media-1.11.0.buildspec 1.15.6` |
 | <!-- 20220126200009 --> [io.wcm.parent_toplevel](../content/io/wcm/tooling/README.md) | [1.6.2](../content/io/wcm/tooling/wcm-parent_toplevel-1.6.2.buildspec) :heavy_check_mark: | [1.7.0](../content/io/wcm/tooling/wcm-parent_toplevel-1.7.0.buildspec) | `bin/add-new-release.sh content/io/wcm/tooling/wcm-parent_toplevel-1.6.2.buildspec 1.7.0` |
 | <!-- 20211108142409 --> [io.wcm.wcm.ui.clientlibs](../content/io/wcm/io.wcm.wcm/ui/clientlibs/README.md) | [1.2.0](../content/io/wcm/io.wcm.wcm/ui/clientlibs/wcm-ui-clientlibs-1.2.0.buildspec) :heavy_check_mark: | [1.2.2](../content/io/wcm/io.wcm.wcm/ui/clientlibs/wcm-ui-clientlibs-1.2.2.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.wcm/ui/clientlibs/wcm-ui-clientlibs-1.2.0.buildspec 1.2.2` |
@@ -84,9 +83,11 @@ New Releases To Add
 | <!-- 20230627192128 --> [flowlogix](../content/com/flowlogix/README.md) | 7.0.2 :warning: |
 | <!-- 20230620223800 --> [xml-maven-plugin](../content/org/codehaus/mojo/xml-maven-plugin/README.md) | 1.1.0 :warning: |
 | <!-- 20230615205255 --> [maven-parent](../content/org/apache/maven/parent/README.md) | 40 :warning: |
+| <!-- 20230612224703 --> [com.io7m.certusine](../content/com/io7m/certusine/README.md) | 2.0.0 :warning: |
 | <!-- 20230608151130 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.1.2 :warning: |
 | <!-- 20230607214213 --> [modello](../content/org/codehaus/modello/README.md) | 2.1.2 :warning: |
 | <!-- 20230606153619 --> [jsign](../content/net/jsign/README.md) | 5.0 :warning: |
+| <!-- 20230602161525 --> [com.io7m.cedarbridge](../content/com/io7m/cedarbridge/README.md) | 1.2.0 :warning: |
 | <!-- 20230602144254 --> [org.apache.sling.models.impl](../content/org/apache/sling/org.apache.sling.models.impl/README.md) | 1.6.4 :warning: |
 | <!-- 20230530232841 --> [jackson-databind](../content/com/fasterxml/jackson/databind/README.md) | 2.15.2 :warning: [:memo:](https://github.com/moditect/moditect/issues/199) |
 | <!-- 20230530232637 --> [jackson-jr-parent](../content/com/fasterxml/jackson/jr/README.md) | 2.15.2 :warning: |
@@ -107,6 +108,7 @@ New Releases To Add
 | <!-- 20230502225655 --> [ldapchai](../content/com/github/ldapchai/README.md) | 0.8.5 :warning: [:memo:](https://github.com/ldapchai/ldapchai/issues/28) |
 | <!-- 20230429054803 --> [drill-root](../content/org/apache/drill/README.md) | 1.21.1 :warning: [:memo:](https://github.com/apache/drill/pull/2805) |
 | <!-- 20230421160820 --> [mybatis-dynamic-sql](../content/org/mybatis/dynamic-sql/README.md) | 1.5.0 :warning: |
+| <!-- 20230419112803 --> [io.wcm.wcm.commons](../content/io/wcm/io.wcm.wcm/commons/README.md) | 1.10.0 :warning: |
 | <!-- 20230412131318 --> [antisamy](../content/org/owasp/antisamy/README.md) | 1.7.3 :warning: |
 | <!-- 20230329020048 --> [hk2-parent](../content/org/glassfish/hk2/README.md) | 3.0.4 :warning: [:memo:](https://github.com/eclipse-ee4j/glassfish-hk2/pull/821) |
 | <!-- 20230322175007 --> [commons-compress](../content/org/apache/commons/compress/README.md) | 1.23.0 :warning: |
@@ -114,6 +116,7 @@ New Releases To Add
 | <!-- 20230224162220 --> [decanter](../content/org/apache/karaf/decanter/README.md) | 2.10.0 :warning: |
 | <!-- 20230220144044 --> [org.apache.sling.i18n](../content/org/apache/sling/org.apache.sling.i18n/README.md) | 2.6.2 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-i18n/pull/10) |
 | <!-- 20230219230122 --> [mybatis-generator](../content/org/mybatis/generator/README.md) | 1.4.2 :warning: |
+| <!-- 20230215195813 --> [com.io7m.chione](../content/com/io7m/chione/README.md) | 0.0.2 :warning: |
 | <!-- 20230213091328 --> [org.apache.sling.feature.launcher](../content/org/apache/sling/org.apache.sling.feature.launcher/README.md) | 1.3.0 :warning: |
 | <!-- 20230213091325 --> [org.apache.sling.jcr.contentloader](../content/org/apache/sling/org.apache.sling.jcr.contentloader/README.md) | 2.6.0 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-jcr-contentloader/pull/21) |
 | <!-- 20230204020210 --> [xmlchai](../content/org/jrivard/xmlchai/README.md) | 0.1.3 :warning: |

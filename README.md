@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2286 releases** of **466 projects**:
-   - **1757** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 529 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **2329 releases** of **477 projects**:
+   - **1792** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 537 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
 
@@ -68,13 +68,24 @@ Its objectives are to provide:
 | com.io7m.anethum | <a name='com.io7m.anethum:com.io7m.anethum'></a>[com.io7m.anethum](content/com/io7m/anethum/README.md) | 5 | 5 :heavy_check_mark: |
 | com.io7m.blackthorne | <a name='com.io7m.blackthorne:com.io7m.blackthorne'></a>[com.io7m.blackthorne](content/com/io7m/blackthorne/README.md) | 11 | 7 :heavy_check_mark: / 4 :warning: |
 | com.io7m.canonmill | <a name='com.io7m.canonmill:com.io7m.canonmill'></a>[com.io7m.canonmill](content/com/io7m/canonmill/README.md) | 5 | 5 :heavy_check_mark: |
+| com.io7m.cedarbridge | <a name='com.io7m.cedarbridge:com.io7m.cedarbridge'></a>[com.io7m.cedarbridge](content/com/io7m/cedarbridge/README.md) | 2 | 2 :warning: |
+| com.io7m.certusine | <a name='com.io7m.certusine:com.io7m.certusine'></a>[com.io7m.certusine](content/com/io7m/certusine/README.md) | 2 | 2 :warning: |
+| com.io7m.chione | <a name='com.io7m.chione:com.io7m.chione'></a>[com.io7m.chione](content/com/io7m/chione/README.md) | 1 | 1 :warning: |
+| com.io7m.digal | <a name='com.io7m.digal:com.io7m.digal'></a>[com.io7m.digal](content/com/io7m/digal/README.md) | 5 | 5 :heavy_check_mark: |
+| com.io7m.dixmont | <a name='com.io7m.dixmont:com.io7m.dixmont'></a>[com.io7m.dixmont](content/com/io7m/dixmont/README.md) | 3 | 3 :heavy_check_mark: |
+| com.io7m.ervilla | <a name='com.io7m.ervilla:com.io7m.ervilla'></a>[com.io7m.ervilla](content/com/io7m/ervilla/README.md) | 4 | 4 :heavy_check_mark: |
+| com.io7m.gtyrell | <a name='com.io7m.gtyrell:com.io7m.gtyrell'></a>[com.io7m.gtyrell](content/com/io7m/gtyrell/README.md) | 4 | 4 :heavy_check_mark: |
+| com.io7m.hibiscus | <a name='com.io7m.hibiscus:com.io7m.hibiscus'></a>[com.io7m.hibiscus](content/com/io7m/hibiscus/README.md) | 8 | 8 :heavy_check_mark: |
 | com.io7m.idstore | <a name='com.io7m.idstore:com.io7m.idstore'></a>[com.io7m.idstore](content/com/io7m/idstore/README.md) | 1 | 1 :warning: |
 | com.io7m.jade | <a name='com.io7m.jade:com.io7m.jade'></a>[com.io7m.jade](content/com/io7m/jade/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
+| com.io7m.jbssio | <a name='com.io7m.jbssio:com.io7m.jbssio'></a>[com.io7m.jbssio](content/com/io7m/jbssio/README.md) | 3 | 3 :heavy_check_mark: |
 | com.io7m.jdownload | <a name='com.io7m.jdownload:com.io7m.jdownload'></a>[com.io7m.jdownload](content/com/io7m/jdownload/README.md) | 1 | 1 :heavy_check_mark: |
 | com.io7m.jmulticlose | <a name='com.io7m.jmulticlose:com.io7m.jmulticlose'></a>[com.io7m.jmulticlose](content/com/io7m/jmulticlose/README.md) | 3 | 3 :heavy_check_mark: |
 | com.io7m.jqpage | <a name='com.io7m.jqpage:com.io7m.jqpage'></a>[com.io7m.jqpage](content/com/io7m/jqpage/README.md) | 3 | 3 :heavy_check_mark: |
 | com.io7m.jsx | <a name='com.io7m.jsx:com.io7m.jsx'></a>[com.io7m.jsx](content/com/io7m/jsx/README.md) | 6 | 6 :heavy_check_mark: |
 | com.io7m.jxe | <a name='com.io7m.jxe:com.io7m.jxe'></a>[com.io7m.jxe](content/com/io7m/jxe/README.md) | 2 | 2 :heavy_check_mark: |
+| com.io7m.medrina | <a name='com.io7m.medrina:com.io7m.medrina'></a>[com.io7m.medrina](content/com/io7m/medrina/README.md) | 6 | 6 :heavy_check_mark: |
+| com.io7m.mime2045 | <a name='com.io7m.mime2045:com.io7m.mime2045'></a>[com.io7m.mime2045](content/com/io7m/mime2045/README.md) | 2 | 2 :heavy_check_mark: |
 | com.io7m.primogenitor | <a name='com.io7m.primogenitor:com.io7m.primogenitor'></a>[com.io7m.primogenitor](content/com/io7m/primogenitor/README.md) | 30 | 30 :heavy_check_mark: |
 | com.io7m.scando | <a name='com.io7m.scando:com.io7m.scando'></a>[com.io7m.scando](content/com/io7m/scando/README.md) | 1 | 1 :heavy_check_mark: |
 | com.io7m.streamtime | <a name='com.io7m.streamtime:com.io7m.streamtime'></a>[com.io7m.streamtime](content/com/io7m/streamtime/README.md) | 1 | 1 :heavy_check_mark: |
@@ -136,7 +147,7 @@ Its objectives are to provide:
 | io.wcm | <a name='io.wcm:io.wcm.handler.link'></a>[*.handler.link](content/io/wcm/io.wcm.handler/link/README.md) | 4 | 4 :warning: |
 | | <a name='io.wcm:io.wcm.handler.media'></a>[*.handler.media](content/io/wcm/io.wcm.handler/media/README.md) | 5 | 5 :heavy_check_mark: |
 | | <a name='io.wcm:io.wcm.handler.richtext'></a>[*.handler.richtext](content/io/wcm/io.wcm.handler/richtext/README.md) | 3 | 3 :warning: |
-| | <a name='io.wcm:io.wcm.wcm.commons'></a>[*.wcm.commons](content/io/wcm/io.wcm.wcm/commons/README.md) | 2 | 2 :heavy_check_mark: |
+| | <a name='io.wcm:io.wcm.wcm.commons'></a>[*.wcm.commons](content/io/wcm/io.wcm.wcm/commons/README.md) | 5 | 2 :heavy_check_mark: / 3 :warning: |
 | | <a name='io.wcm:io.wcm.wcm.parsys'></a>[*.wcm.parsys](content/io/wcm/io.wcm.wcm/parsys/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
 | | <a name='io.wcm:io.wcm.wcm.ui.clientlibs'></a>[*.wcm.ui.clientlibs](content/io/wcm/io.wcm.wcm/ui/clientlibs/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='io.wcm:io.wcm.wcm.ui.granite'></a>[*.wcm.ui.granite](content/io/wcm/io.wcm.wcm/ui/granite/README.md) | 4 | 4 :heavy_check_mark: |
@@ -488,7 +499,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 22 | 22 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **466** | **2286** | **1757** :heavy_check_mark: **529** :warning: |
+| **Count:** | **477** | **2329** | **1792** :heavy_check_mark: **537** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -502,7 +513,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      26 mvn         7
     953 mvn         8
       1 mvn         9
-    747 mvn        11
+    750 mvn        11
       1 mvn        11.0.6
       1 mvn        13
       4 mvn        14
@@ -534,18 +545,19 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn-3.9.2   8
      12 mvn-3.9.2  17
       3 mvn-3.9.3   8
-     17 mvn-3.9.3  11
+     18 mvn-3.9.3  11
       2 mvn-3.9.3  11.0.5
       7 mvn-3.9.3  14
-      5 mvn-3.9.3  14.0.2
+      6 mvn-3.9.3  14.0.2
       1 mvn-3.9.3  15.0.2
      18 mvn-3.9.3  17
-      1 mvn-3.9.3  17.0.1
-     13 mvn-3.9.3  17.0.3
+      2 mvn-3.9.3  17.0.1
+     15 mvn-3.9.3  17.0.3
       2 mvn-3.9.3  17.0.4
-      5 mvn-3.9.3  17.0.4.1
-      1 mvn-3.9.3  17.0.5
-     18 mvn-3.9.3  17.0.7
+      7 mvn-3.9.3  17.0.4.1
+      5 mvn-3.9.3  17.0.5
+     13 mvn-3.9.3  17.0.6
+     34 mvn-3.9.3  17.0.7
       8 mvn-3.9.3  17.0.8
       2 mvn-3.9.3  19
       2 mvn-3.9.4  17.0.7
