@@ -1,0 +1,5 @@
+version=1.0.0
+ok=14
+ko=0
+okFiles="com.io7m.dixmont-1.0.0.pom com.io7m.dixmont.colors-1.0.0.pom com.io7m.dixmont.colors-1.0.0.jar com.io7m.dixmont.colors-1.0.0-sources.jar com.io7m.dixmont.colors-1.0.0-tests.jar com.io7m.dixmont.core-1.0.0.pom com.io7m.dixmont.core-1.0.0.jar com.io7m.dixmont.core-1.0.0-sources.jar com.io7m.dixmont.core-1.0.0-tests.jar com.io7m.dixmont.tests-1.0.0.pom com.io7m.dixmont.tests-1.0.0.jar com.io7m.dixmont.tests-1.0.0-sources.jar com.io7m.dixmont.tests-1.0.0-test-sources.jar com.io7m.dixmont.tests-1.0.0-tests.jar"
+koFiles=""
