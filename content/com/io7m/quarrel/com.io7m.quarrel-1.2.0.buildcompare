@@ -1,0 +1,5 @@
+version=1.2.0
+ok=27
+ko=0
+okFiles="com.io7m.quarrel-1.2.0.pom com.io7m.quarrel.core-1.2.0.pom com.io7m.quarrel.core-1.2.0.jar com.io7m.quarrel.core-1.2.0-sources.jar com.io7m.quarrel.core-1.2.0-tests.jar com.io7m.quarrel.ext.xstructural-1.2.0.pom com.io7m.quarrel.ext.xstructural-1.2.0.jar com.io7m.quarrel.ext.xstructural-1.2.0-sources.jar com.io7m.quarrel.ext.xstructural-1.2.0-tests.jar com.io7m.quarrel.example-1.2.0.pom com.io7m.quarrel.example-1.2.0.jar com.io7m.quarrel.example-1.2.0-sources.jar com.io7m.quarrel.example-1.2.0-main.jar com.io7m.quarrel.example-1.2.0-tests.jar com.io7m.quarrel.documentation-1.2.0.pom com.io7m.quarrel.documentation-1.2.0.jar com.io7m.quarrel.documentation-1.2.0-sources.jar com.io7m.quarrel.documentation-1.2.0-tests.jar com.io7m.quarrel.ext.logback-1.2.0.pom com.io7m.quarrel.ext.logback-1.2.0.jar com.io7m.quarrel.ext.logback-1.2.0-sources.jar com.io7m.quarrel.ext.logback-1.2.0-tests.jar com.io7m.quarrel.tests-1.2.0.pom com.io7m.quarrel.tests-1.2.0.jar com.io7m.quarrel.tests-1.2.0-sources.jar com.io7m.quarrel.tests-1.2.0-test-sources.jar com.io7m.quarrel.tests-1.2.0-tests.jar"
+koFiles=""
