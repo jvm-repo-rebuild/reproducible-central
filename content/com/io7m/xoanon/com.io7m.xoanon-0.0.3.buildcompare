@@ -1,0 +1,5 @@
+version=0.0.3
+ok=22
+ko=0
+okFiles="com.io7m.xoanon-0.0.3.pom com.io7m.xoanon.commander.api-0.0.3.pom com.io7m.xoanon.commander.api-0.0.3.jar com.io7m.xoanon.commander.api-0.0.3-sources.jar com.io7m.xoanon.commander.api-0.0.3-tests.jar com.io7m.xoanon.commander-0.0.3.pom com.io7m.xoanon.commander-0.0.3.jar com.io7m.xoanon.commander-0.0.3-sources.jar com.io7m.xoanon.commander-0.0.3-tests.jar com.io7m.xoanon.demo-0.0.3.pom com.io7m.xoanon.demo-0.0.3.jar com.io7m.xoanon.demo-0.0.3-sources.jar com.io7m.xoanon.demo-0.0.3-tests.jar com.io7m.xoanon.extension-0.0.3.pom com.io7m.xoanon.extension-0.0.3.jar com.io7m.xoanon.extension-0.0.3-sources.jar com.io7m.xoanon.extension-0.0.3-tests.jar com.io7m.xoanon.tests-0.0.3.pom com.io7m.xoanon.tests-0.0.3.jar com.io7m.xoanon.tests-0.0.3-sources.jar com.io7m.xoanon.tests-0.0.3-test-sources.jar com.io7m.xoanon.tests-0.0.3-tests.jar"
+koFiles=""
