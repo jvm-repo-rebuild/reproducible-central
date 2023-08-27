@@ -1,0 +1,76 @@
+1 / 2 target/reference/com.io7m.cedarbridge.schema.compiled-1.2.0.jar com.io7m.cedarbridge.schema.compiled/target/com.io7m.cedarbridge.schema.compiled-1.2.0.jar
+--- target/reference/com.io7m.cedarbridge.schema.compiled-1.2.0.jar
++++ com.io7m.cedarbridge.schema.compiled/target/com.io7m.cedarbridge.schema.compiled-1.2.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 55724 bytes, number of entries: 59
+│ +Zip file size: 55721 bytes, number of entries: 59
+│  -rw----     2.0 fat     1394 b- defN 00-Jan-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bx stor 00-Jan-01 00:00 META-INF/
+│  -rw----     2.0 fat        0 b- stor 00-Jan-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 b- stor 00-Jan-01 00:00 META-INF/maven/com.io7m.cedarbridge/
+│  -rwx---     2.0 fat        0 b- stor 00-Jan-01 00:00 META-INF/maven/com.io7m.cedarbridge/com.io7m.cedarbridge.schema.compiled/
+│  -rw----     2.0 fat       94 b- defN 00-Jan-01 00:00 META-INF/maven/com.io7m.cedarbridge/com.io7m.cedarbridge.schema.compiled/pom.properties
+│  -rw----     2.0 fat     1416 b- defN 00-Jan-01 00:00 META-INF/maven/com.io7m.cedarbridge/com.io7m.cedarbridge.schema.compiled/pom.xml
+│ @@ -54,8 +54,8 @@
+│  -rw----     2.0 fat     1091 b- defN 00-Jan-01 00:00 com/io7m/cedarbridge/schema/compiled/internal/CBTypeExpressionNamed.class
+│  -rw----     2.0 fat     1099 b- defN 00-Jan-01 00:00 com/io7m/cedarbridge/schema/compiled/internal/CBTypeExpressionParameter.class
+│  -rw----     2.0 fat     2182 b- defN 00-Jan-01 00:00 com/io7m/cedarbridge/schema/compiled/internal/CBTypeParameter.class
+│  -rw----     2.0 fat     4397 b- defN 00-Jan-01 00:00 com/io7m/cedarbridge/schema/compiled/internal/CBVariantCase.class
+│  -rw----     2.0 fat      257 b- defN 00-Jan-01 00:00 com/io7m/cedarbridge/schema/compiled/internal/package-info.class
+│  -rw----     2.0 fat      290 b- defN 00-Jan-01 00:00 com/io7m/cedarbridge/schema/compiled/package-info.class
+│  -rw----     2.0 fat      486 b- defN 00-Jan-01 00:00 module-info.class
+│ -59 files, 116175 bytes uncompressed, 44040 bytes compressed:  62.1%
+│ +59 files, 116175 bytes uncompressed, 44037 bytes compressed:  62.1%
+├── com/io7m/cedarbridge/schema/compiled/CBTypeExpressionType.class
+│ ├── procyon -ec {}
+│ │ @@ -1,9 +1,9 @@
+│ │  
+│ │  package com.io7m.cedarbridge.schema.compiled;
+│ │  
+│ │  import java.util.Formattable;
+│ │  
+│ │ -public sealed interface CBTypeExpressionType extends Formattable permits CBTypeExpressionType$CBTypeExprNamedType, CBTypeExpressionType$CBTypeExprParameterType, CBTypeExpressionType$CBTypeExprApplicationType
+│ │ +public sealed interface CBTypeExpressionType extends Formattable permits CBTypeExpressionType$CBTypeExprApplicationType, CBTypeExpressionType$CBTypeExprNamedType, CBTypeExpressionType$CBTypeExprParameterType
+│ │  {
+│ │      boolean contains(final CBTypeParameterType p0);
+│ │  }
+
+2 / 2 target/reference/com.io7m.cedarbridge.cmdline-1.2.0-main.jar com.io7m.cedarbridge.cmdline/target/com.io7m.cedarbridge.cmdline-1.2.0-main.jar
+--- target/reference/com.io7m.cedarbridge.cmdline-1.2.0-main.jar
++++ com.io7m.cedarbridge.cmdline/target/com.io7m.cedarbridge.cmdline-1.2.0-main.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1717218 bytes, number of entries: 1567
+│ +Zip file size: 1717215 bytes, number of entries: 1567
+│  -rw----     2.0 fat     1799 bx defN 00-Jan-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 b- defN 00-Jan-01 00:00 META-INF/
+│  -rw----     2.0 fat     1135 b- defN 00-Jan-01 00:00 META-INF/LICENSE.txt
+│  -rw----     2.0 fat        0 b- defN 00-Jan-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 b- defN 00-Jan-01 00:00 META-INF/maven/ch.qos.logback/
+│  -rw----     2.0 fat        0 b- defN 00-Jan-01 00:00 META-INF/maven/ch.qos.logback/logback-classic/
+│  -rw----     2.0 fat       67 b- defN 00-Jan-01 00:00 META-INF/maven/ch.qos.logback/logback-classic/pom.properties
+│ @@ -1562,8 +1562,8 @@
+│  -rw----     2.0 fat      268 b- defN 00-Jan-01 00:00 org/slf4j/spi/LoggerFactoryBinder.class
+│  -rw----     2.0 fat      179 b- defN 00-Jan-01 00:00 org/slf4j/spi/LoggingEventAware.class
+│  -rw----     2.0 fat     1522 b- defN 00-Jan-01 00:00 org/slf4j/spi/LoggingEventBuilder.class
+│  -rw----     2.0 fat      732 b- defN 00-Jan-01 00:00 org/slf4j/spi/MDCAdapter.class
+│  -rw----     2.0 fat      268 b- defN 00-Jan-01 00:00 org/slf4j/spi/MarkerFactoryBinder.class
+│  -rw----     2.0 fat     3163 b- defN 00-Jan-01 00:00 org/slf4j/spi/NOPLoggingEventBuilder.class
+│  -rw----     2.0 fat      389 b- defN 00-Jan-01 00:00 org/slf4j/spi/SLF4JServiceProvider.class
+│ -1567 files, 3450537 bytes uncompressed, 1431848 bytes compressed:  58.5%
+│ +1567 files, 3450537 bytes uncompressed, 1431845 bytes compressed:  58.5%
+├── com/io7m/cedarbridge/schema/compiled/CBTypeExpressionType.class
+│ ├── procyon -ec {}
+│ │ @@ -1,9 +1,9 @@
+│ │  
+│ │  package com.io7m.cedarbridge.schema.compiled;
+│ │  
+│ │  import java.util.Formattable;
+│ │  
+│ │ -public sealed interface CBTypeExpressionType extends Formattable permits CBTypeExpressionType$CBTypeExprNamedType, CBTypeExpressionType$CBTypeExprParameterType, CBTypeExpressionType$CBTypeExprApplicationType
+│ │ +public sealed interface CBTypeExpressionType extends Formattable permits CBTypeExpressionType$CBTypeExprApplicationType, CBTypeExpressionType$CBTypeExprNamedType, CBTypeExpressionType$CBTypeExprParameterType
+│ │  {
+│ │      boolean contains(final CBTypeParameterType p0);
+│ │  }
+
