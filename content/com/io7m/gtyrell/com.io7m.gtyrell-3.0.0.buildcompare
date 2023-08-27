@@ -1,0 +1,5 @@
+version=3.0.0
+ok=22
+ko=0
+okFiles="com.io7m.gtyrell-3.0.0.pom com.io7m.gtyrell.core-3.0.0.pom com.io7m.gtyrell.core-3.0.0.jar com.io7m.gtyrell.core-3.0.0-sources.jar com.io7m.gtyrell.core-3.0.0-tests.jar com.io7m.gtyrell.filter-3.0.0.pom com.io7m.gtyrell.filter-3.0.0.jar com.io7m.gtyrell.filter-3.0.0-sources.jar com.io7m.gtyrell.filter-3.0.0-tests.jar com.io7m.gtyrell.github-3.0.0.pom com.io7m.gtyrell.github-3.0.0.jar com.io7m.gtyrell.github-3.0.0-sources.jar com.io7m.gtyrell.github-3.0.0-tests.jar com.io7m.gtyrell.server-3.0.0.pom com.io7m.gtyrell.server-3.0.0.jar com.io7m.gtyrell.server-3.0.0-main.jar com.io7m.gtyrell.server-3.0.0-sources.jar com.io7m.gtyrell.server-3.0.0-tests.jar com.io7m.gtyrell.tests-3.0.0.pom com.io7m.gtyrell.tests-3.0.0.jar com.io7m.gtyrell.tests-3.0.0-test-sources.jar com.io7m.gtyrell.tests-3.0.0-tests.jar"
+koFiles=""
