@@ -1,0 +1,19 @@
+groupId=com.io7m.jwheatsheaf
+artifactId=com.io7m.jwheatsheaf
+display=${groupId}:${artifactId}
+version=2.0.1
+
+gitRepo="https://github.com/io7m/$(echo "${artifactId}" | sed s/com.io7m.//).git"
+#gitTag=com.io7m.wheatsheaf-${version}
+gitTag=5bf163015d6680605ff635cc4c740e87f928a15c
+
+tool=mvn-3.9.3
+jdk=11.0.6
+newline=lf
+umask=022
+
+command="mvn -DskipTests clean package -Dassembly.skipAssembly"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=

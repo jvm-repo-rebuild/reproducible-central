@@ -1,0 +1,7 @@
+version=2.0.1
+ok=25
+ko=0
+okFiles="com.io7m.jwheatsheaf-2.0.1.pom com.io7m.jwheatsheaf-2.0.1.pom com.io7m.jwheatsheaf.api-2.0.1.pom com.io7m.jwheatsheaf.api-2.0.1.jar com.io7m.jwheatsheaf.api-2.0.1-sources.jar com.io7m.jwheatsheaf.api-2.0.1-tests.jar com.io7m.jwheatsheaf.ui-2.0.1.pom com.io7m.jwheatsheaf.ui-2.0.1.jar com.io7m.jwheatsheaf.ui-2.0.1-sources.jar com.io7m.jwheatsheaf.ui-2.0.1-tests.jar com.io7m.jwheatsheaf.oxygen-2.0.1.pom com.io7m.jwheatsheaf.oxygen-2.0.1.jar com.io7m.jwheatsheaf.oxygen-2.0.1-sources.jar com.io7m.jwheatsheaf.oxygen-2.0.1-tests.jar com.io7m.jwheatsheaf.documentation-2.0.1.pom com.io7m.jwheatsheaf.documentation-2.0.1.jar com.io7m.jwheatsheaf.documentation-2.0.1-tests.jar com.io7m.jwheatsheaf.examples-2.0.1.pom com.io7m.jwheatsheaf.examples-2.0.1.jar com.io7m.jwheatsheaf.examples-2.0.1-sources.jar com.io7m.jwheatsheaf.examples-2.0.1-tests.jar com.io7m.jwheatsheaf.tests-2.0.1.pom com.io7m.jwheatsheaf.tests-2.0.1.jar com.io7m.jwheatsheaf.tests-2.0.1-test-sources.jar com.io7m.jwheatsheaf.tests-2.0.1-tests.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
