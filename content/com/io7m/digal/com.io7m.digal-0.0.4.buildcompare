@@ -1,0 +1,5 @@
+version=0.0.4
+ok=9
+ko=0
+okFiles="com.io7m.digal-0.0.4.pom com.io7m.digal.core-0.0.4.pom com.io7m.digal.core-0.0.4.jar com.io7m.digal.core-0.0.4-sources.jar com.io7m.digal.core-0.0.4-tests.jar com.io7m.digal.tests-0.0.4.pom com.io7m.digal.tests-0.0.4.jar com.io7m.digal.tests-0.0.4-test-sources.jar com.io7m.digal.tests-0.0.4-tests.jar"
+koFiles=""
