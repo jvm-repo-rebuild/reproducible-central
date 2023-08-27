@@ -1,0 +1,66 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.digal
+group-id=com.io7m.digal
+artifact-id=com.io7m.digal
+version=0.0.5
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/digal
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.digal.tests
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.digal:com.io7m.digal
+
+outputs.0.0.filename=com.io7m.digal-0.0.5.pom
+outputs.0.0.length=6223
+outputs.0.0.checksums.sha512=1ed4cce39bab519c8a28509e94b8238a501b5b6f2960a2b59aa379d4a36a916a20f2ed2e43acac35a04fd96db4f47f9251272f9de49a1219e5ddd20821980739
+
+outputs.1.coordinates=com.io7m.digal:com.io7m.digal.core
+
+outputs.1.0.filename=com.io7m.digal.core-0.0.5.pom
+outputs.1.0.length=2188
+outputs.1.0.checksums.sha512=1d57e2e9e604dcee3c190baa3707f59faaf8b6c0800d849f3846b4c1126182b2e33df1d87b7fbc336a1a612a84872e2dbb2c4bbada985c62b0a09ad6da5679aa
+
+outputs.1.1.filename=com.io7m.digal.core-0.0.5.jar
+outputs.1.1.length=18838
+outputs.1.1.checksums.sha512=7d81bb9a3b020e9c5c210a3aad822c384a407c9f4a2a1a2954da825bbd7b4688201be825c2877cfb4e5cbd21dd91227988500ec4131cca20d4a3667bfc1d8cb6
+
+outputs.1.2.filename=com.io7m.digal.core-0.0.5-sources.jar
+outputs.1.2.length=17867
+outputs.1.2.checksums.sha512=27c25f10e4abcce9e4bb4311b14ffad107a2ab7e04e5ed0a949322d0eb6a3d60b263cee21abc220d1039e8f8b1114a3cc2ab3c2e7ecc9ec3180aafe308055407
+
+outputs.1.3.filename=com.io7m.digal.core-0.0.5-tests.jar
+outputs.1.3.length=407
+outputs.1.3.checksums.sha512=a1d18bf57c648dfa899f71094679bbfedcc5f62ff30c9813738b0da1e7b6ae5a5abde107b66df647dbd5a353dcce2910f32e92adebcb295ecd01acd1a58108a4
+
+outputs.2.coordinates=com.io7m.digal:com.io7m.digal.tests
+
+outputs.2.0.filename=com.io7m.digal.tests-0.0.5.pom
+outputs.2.0.length=2772
+outputs.2.0.checksums.sha512=5af117b12f4183aa1fff85365288d87ab0b495cb54f40082ab3cac128189df84c09647963c4070bd40d5f780b88df1d2f0a39afacc6c1f6e5b5119173b7b2edf
+
+outputs.2.1.filename=com.io7m.digal.tests-0.0.5.jar
+outputs.2.1.length=2189
+outputs.2.1.checksums.sha512=ac0ec67a8c9a1a6f96630e20cec0dd51cbae42f01531603a0592c8f9c8153ed963f97698a66976dae7549fcbf32eca4561958ae24a624df9cd7d8dc207584d14
+
+outputs.2.2.filename=com.io7m.digal.tests-0.0.5-test-sources.jar
+outputs.2.2.length=47834
+outputs.2.2.checksums.sha512=b2833feb919e12480a21d4b6f98632ca82cb98ca5aef4f59787827e69f22933ecfb2157ebbeb9d6994f6825b3141063de74fcf846a46d701aa96600452bb8d2a
+
+outputs.2.3.filename=com.io7m.digal.tests-0.0.5-tests.jar
+outputs.2.3.length=57476
+outputs.2.3.checksums.sha512=6519c8b32d4f87d7a1fd93b3700ee110b25a41967721e210efa78d5a3745f38e3f99ff948e06b22b335c12b8829e2dfda6a4fb9902985ecf0782610f8feec323
