@@ -1,0 +1,66 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.percentpass
+group-id=com.io7m.percentpass
+artifact-id=com.io7m.percentpass
+version=0.0.2
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/percentpass
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.percentpass.tests
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.percentpass:com.io7m.percentpass
+
+outputs.0.0.filename=com.io7m.percentpass-0.0.2.pom
+outputs.0.0.length=5427
+outputs.0.0.checksums.sha512=2aea3e569eaa7808ea285681dc2e7f6b80dd5e5f4283fa2031e125ad2f5afd61da71045b0521f10d0afbba82374dc4adc661aecbf1feb80f962dcad2e351ef28
+
+outputs.1.coordinates=com.io7m.percentpass:com.io7m.percentpass.extension
+
+outputs.1.0.filename=com.io7m.percentpass.extension-0.0.2.pom
+outputs.1.0.length=1691
+outputs.1.0.checksums.sha512=68267ea0911304f7fd13647ccc90ee6a01341bf57b7e9914c2e1e2a3244c67f22d2fac0e603e5eb924672d5eb72a2e1d71d86c47ad990b4c4a3afd5b8da0eefd
+
+outputs.1.1.filename=com.io7m.percentpass.extension-0.0.2.jar
+outputs.1.1.length=10044
+outputs.1.1.checksums.sha512=df4aeca5ed062adfa1f0f79812a1c38551f29dce5c18bf95b4280f9128b8e7e86f83088f4722986be2713718b231a5e3f19dcfec6d03b25af8751e2408964cc8
+
+outputs.1.2.filename=com.io7m.percentpass.extension-0.0.2-sources.jar
+outputs.1.2.length=10321
+outputs.1.2.checksums.sha512=38a412dd4c381270cabc87051184242cfc4d86dfa3ec8519e4c8df93218b87e65b3c6af29465f9315f9199708d54c3c09a1cc67d8e47ff401318e3113016962e
+
+outputs.1.3.filename=com.io7m.percentpass.extension-0.0.2-tests.jar
+outputs.1.3.length=411
+outputs.1.3.checksums.sha512=db533ce9a76d9745de1cf80ce2f7fe18af0b98b81c1054dc9588f89a5f72afc31da03e65d9b37dbd87729a66aeb140d4e1d864194a621dc7c404496e119ed5b1
+
+outputs.2.coordinates=com.io7m.percentpass:com.io7m.percentpass.tests
+
+outputs.2.0.filename=com.io7m.percentpass.tests-0.0.2.pom
+outputs.2.0.length=2029
+outputs.2.0.checksums.sha512=63dbbcfb7db560ac4dbad752d64708fd8c32e6ebcad9d6436ec7b42a2baade1123529f40a575824b7a244443822e21ac54613fc439ece62122ef860ee4377abc
+
+outputs.2.1.filename=com.io7m.percentpass.tests-0.0.2.jar
+outputs.2.1.length=2203
+outputs.2.1.checksums.sha512=79e13cdf2a065f3e61ba81d329232ff8eadf77e0a2f3613cd478e6e02aa017255152f69fee16d2e5aec7dff01879e0eef71f7daedb951caf2a6659e802dd5a93
+
+outputs.2.2.filename=com.io7m.percentpass.tests-0.0.2-test-sources.jar
+outputs.2.2.length=3288
+outputs.2.2.checksums.sha512=c015df936c121c86e79589765c5ca8d2f9e14dbe1135c5b389bf7d82b28747ce1137b6fc8327a327eac2c75c2fe6fe33efcb6f3ca2d222c8767dfec9452ac861
+
+outputs.2.3.filename=com.io7m.percentpass.tests-0.0.2-tests.jar
+outputs.2.3.length=1475
+outputs.2.3.checksums.sha512=86ae5da610478576d88a262d0c77f37ff7d800aa7393ee6c674d306981f0da14c31614cec3998536be4a82058fc3495b4ee0f2c51940f74d4aad3eea9c19153d
