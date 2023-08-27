@@ -1,0 +1,5 @@
+version=1.1.0
+ok=17
+ko=0
+okFiles="com.io7m.jxtrand-1.1.0.pom com.io7m.jxtrand.api-1.1.0.pom com.io7m.jxtrand.api-1.1.0.jar com.io7m.jxtrand.api-1.1.0-sources.jar com.io7m.jxtrand.api-1.1.0-tests.jar com.io7m.jxtrand.vanilla-1.1.0.pom com.io7m.jxtrand.vanilla-1.1.0.jar com.io7m.jxtrand.vanilla-1.1.0-sources.jar com.io7m.jxtrand.vanilla-1.1.0-tests.jar com.io7m.jxtrand.examples-1.1.0.pom com.io7m.jxtrand.examples-1.1.0.jar com.io7m.jxtrand.examples-1.1.0-sources.jar com.io7m.jxtrand.examples-1.1.0-tests.jar com.io7m.jxtrand.tests-1.1.0.pom com.io7m.jxtrand.tests-1.1.0.jar com.io7m.jxtrand.tests-1.1.0-test-sources.jar com.io7m.jxtrand.tests-1.1.0-tests.jar"
+koFiles=""
