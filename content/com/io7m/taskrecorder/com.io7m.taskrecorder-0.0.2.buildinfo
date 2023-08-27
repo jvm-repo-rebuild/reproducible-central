@@ -1,0 +1,65 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.taskrecorder
+group-id=com.io7m.taskrecorder
+artifact-id=com.io7m.taskrecorder
+version=0.0.2
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/taskrecorder
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=com.io7m.taskrecorder.tests
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.taskrecorder:com.io7m.taskrecorder
+
+outputs.0.0.filename=com.io7m.taskrecorder-0.0.2.pom
+outputs.0.0.length=4259
+outputs.0.0.checksums.sha512=6902963f1db30b2e0b04139c13a737a1cc35c8eace2348b0bd5b5e38e276e6e76b6b461d2493a79b440239ae14ff40316868ba25eeeb4575bca19248d75d5664
+
+outputs.1.coordinates=com.io7m.taskrecorder:com.io7m.taskrecorder.core
+
+outputs.1.0.filename=com.io7m.taskrecorder.core-0.0.2.pom
+outputs.1.0.length=1134
+outputs.1.0.checksums.sha512=fe1ce02560d6e7acc962e129381031bc5ba25f6b2309b26c1667a9539784b7650d049798fc18ba8a199695e560bf655b38ced56d8072cdcaba577d5e2e8897ca
+
+outputs.1.1.filename=com.io7m.taskrecorder.core-0.0.2.jar
+outputs.1.1.length=17301
+outputs.1.1.checksums.sha512=3384b8d1782fb6af7a459cc3380581c97339e51e233d566685d53b611db140890094c75da5c88cb679b7d629d31005446ab8c2f1c718f8d6df9f9fe3256543fe
+
+outputs.1.2.filename=com.io7m.taskrecorder.core-0.0.2-sources.jar
+outputs.1.2.length=18359
+outputs.1.2.checksums.sha512=6f7c40a032c88419ec57b01069c83755af39e5ad4c5ee6ee75bdbb0f55fe1aa175b66ed226301d1640ec9f4693d0091cd11c6b0b3404550c48d479e02c123b14
+
+outputs.1.3.filename=com.io7m.taskrecorder.core-0.0.2-tests.jar
+outputs.1.3.length=411
+outputs.1.3.checksums.sha512=fe77c1fd1b7ab3947123ea7d125857af23d8198acf2aece4e2efb1516c0a22cfb20662f6a30739a53a7887be75cba477fe0d443ab4b0579db16e7e07f7eb9388
+
+outputs.2.coordinates=com.io7m.taskrecorder:com.io7m.taskrecorder.tests
+
+outputs.2.0.filename=com.io7m.taskrecorder.tests-0.0.2.pom
+outputs.2.0.length=1995
+outputs.2.0.checksums.sha512=927972d8e2beaaf4442e874ade5072ad8cb2f5294aa4d8a6cf88a372c70831feba30ce24872ff54f7b933dbc1b78138115e81640082bf2f85a281614d8b87127
+
+outputs.2.1.filename=com.io7m.taskrecorder.tests-0.0.2.jar
+outputs.2.1.length=2180
+outputs.2.1.checksums.sha512=7cf5fa42a129e585e78d0a9c79df00810e5b169dfe3c6701a7e53d16057d7f999776f79a62ee6c564b1f7b3c24a98d49ce88f721816f80e885fe15816325a312
+
+outputs.2.2.filename=com.io7m.taskrecorder.tests-0.0.2-test-sources.jar
+outputs.2.2.length=7520
+outputs.2.2.checksums.sha512=304ee149dc160512e70da031b687f3338a5d1d0bf9c8e41c5a7c169572e6aaa68aa15f46408883fc2f5852e52bc8b3299c00e8d233fdb93efb065b49fde15132
+
+outputs.2.3.filename=com.io7m.taskrecorder.tests-0.0.2-tests.jar
+outputs.2.3.length=7863
+outputs.2.3.checksums.sha512=f3646332ae555fc53feaff49bec23ea6eb55a036cd62c812195edf52b02e970b9f627cca5fa8c564e184a49808c8b65ec018ea941e6da854355fa0d2d31faa0a
