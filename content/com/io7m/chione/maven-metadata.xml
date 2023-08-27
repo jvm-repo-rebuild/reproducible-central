@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.io7m.chione</groupId>
+  <artifactId>com.io7m.chione</artifactId>
+  <versioning>
+    <latest>0.0.2</latest>
+    <release>0.0.2</release>
+    <versions>
+      <version>0.0.1</version>
+      <version>0.0.2</version>
+    </versions>
+    <lastUpdated>20230215195813</lastUpdated>
+  </versioning>
+</metadata>

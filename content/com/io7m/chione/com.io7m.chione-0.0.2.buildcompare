@@ -1,0 +1,8 @@
+version=0.0.2
+ok=2
+ko=3
+okFiles="com.io7m.chione-0.0.2.pom com.io7m.chione-0.0.2-tests.jar"
+koFiles="com.io7m.chione-0.0.2.jar com.io7m.chione-0.0.2-main.jar com.io7m.chione-0.0.2-sources.jar"
+# diffoscope target/reference/com.io7m.chione-0.0.2.jar target/com.io7m.chione-0.0.2.jar
+# diffoscope target/reference/com.io7m.chione-0.0.2-main.jar target/com.io7m.chione-0.0.2-main.jar
+# diffoscope target/reference/com.io7m.chione-0.0.2-sources.jar target/com.io7m.chione-0.0.2-sources.jar

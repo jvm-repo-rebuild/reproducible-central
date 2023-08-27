@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.chione
+group-id=com.io7m.chione
+artifact-id=com.io7m.chione
+version=0.0.2
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/chione
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=com.io7m.chione-0.0.2.pom
+outputs.0.length=8452
+outputs.0.checksums.sha512=12ab022014a8e686abc6052ced90375bec3f50449aafdbb27663b623a9f88ccd4c2669afd4a3936a307eee47741436e1fb5fda80e21491c8a789c6ceadca06b2
+
+outputs.1.filename=com.io7m.chione-0.0.2.jar
+outputs.1.length=65019
+outputs.1.checksums.sha512=7fd7620d6775ca281f0084aafa05976a73b4b29bd7eb48c66c60346f82ffb93fb1a21f7f7ac0f041547593c6a5b7c987a6aa0576ffe6774359e187963cd3ab05
+
+outputs.2.filename=com.io7m.chione-0.0.2-main.jar
+outputs.2.length=18654901
+outputs.2.checksums.sha512=b9b1ecca4b6b786198e3b564632f4f958f483806ca5b22eae804d1176d08522882ff3bd08fb685545f5e275107a00f76fe2d364f0c510dee1149561e1fa18ac1
+
+outputs.3.filename=com.io7m.chione-0.0.2-sources.jar
+outputs.3.length=59806
+outputs.3.checksums.sha512=6f1899f1d3ab393b3ffbc8fa5b66a5cbe694b3c9b59f540171b7f81b9b7b4da4fdad68c00b4e3e9142767f73ef6b7680d6405cf28fdd2a03bfe8c29e59ba07ec
+
+outputs.4.filename=com.io7m.chione-0.0.2-tests.jar
+outputs.4.length=404
+outputs.4.checksums.sha512=c3c0c9d631aac754b0a50034db383f1b76f7a7f29fa32dca8893e66f88e0526e8c03422b4f5cf2ff2408dd76dc422155e8fb80b7f75bbda6cec8335f37a51da8
