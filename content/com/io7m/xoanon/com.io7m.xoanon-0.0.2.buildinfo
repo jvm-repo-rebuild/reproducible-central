@@ -1,0 +1,70 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.xoanon
+group-id=com.io7m.xoanon
+artifact-id=com.io7m.xoanon
+version=0.0.2
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/xoanon
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.xoanon.tests
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.xoanon:com.io7m.xoanon
+
+outputs.0.0.filename=com.io7m.xoanon-0.0.2.pom
+outputs.0.0.length=5170
+outputs.0.0.checksums.sha512=d07f380a7993e4582fdb136f0852a7036510657d61fe748d950a2e0eeacf24c2e3e503f8d8d61f901ba1745e4705e6cef99854eb73ebbdfad113820765618b66
+
+outputs.1.coordinates=com.io7m.xoanon:com.io7m.xoanon.extension
+
+outputs.1.0.filename=com.io7m.xoanon.extension-0.0.2.pom
+outputs.1.0.length=2341
+outputs.1.0.checksums.sha512=905458a9f7eb39670b03d3ad86e1db94f1aaf4506085b4b1742b494e77b274d5c3b673def6239cfdf60cec18cb2a3a9ee7c96988472d6cb73645cd40ae49d332
+
+outputs.1.1.filename=com.io7m.xoanon.extension-0.0.2.jar
+outputs.1.1.length=15561
+outputs.1.1.checksums.sha512=3630d0b07e7699eed6440f5c43dfe75ee61fcb6f92ede79e0e422dc7308c324eb880e54b122e72b67224822ed5d988e39c77008a2b3dfb2f5e42eeed7f3044a4
+
+outputs.1.2.filename=com.io7m.xoanon.extension-0.0.2-sources.jar
+outputs.1.2.length=13633
+outputs.1.2.checksums.sha512=4e6f2d6988bce9ec3536b4419fd76016a3fb7bebc429a283746ddaacdcd4ee5ddb30973b244296df1e0c2cdbaaf293810098deb6421b3f5d0a1e920a5c03b85f
+
+outputs.1.3.filename=com.io7m.xoanon.extension-0.0.2-tests.jar
+outputs.1.3.length=410
+outputs.1.3.checksums.sha512=b2816c63ac1ce4325c8f326d64c6249980d97614dc5cea91745613bfd10a41c455cd8d70ed97597917512c7d370dd96e27e562103897913f0b1e7f78b947b964
+
+outputs.2.coordinates=com.io7m.xoanon:com.io7m.xoanon.tests
+
+outputs.2.0.filename=com.io7m.xoanon.tests-0.0.2.pom
+outputs.2.0.length=2151
+outputs.2.0.checksums.sha512=1d558c4fda7a793349d0605df3c9d6ff3cb0f28000d25243de6334e0024faef6c64593b6824e8a15d7f7214245f3efff29dcf0aaa8f561a026ff3b7789e8b737
+
+outputs.2.1.filename=com.io7m.xoanon.tests-0.0.2.jar
+outputs.2.1.length=3648
+outputs.2.1.checksums.sha512=c605ab934b519f45c3dcb8ada828118535f0e7bc94dc5ca4f29fd0187649358d821f0e16c316064986a9457cfc25be190bd2a7b04c6ce19115e930acaef3214e
+
+outputs.2.2.filename=com.io7m.xoanon.tests-0.0.2-sources.jar
+outputs.2.2.length=4520
+outputs.2.2.checksums.sha512=26bf4405419675908357ee1c553aeaaa9974bbcddbc58143bb3365f777fe9e9eb69fa09c2a254d455a8d9b55f68999c305e2ef1ec83963e5a42c4ab2f21f3a30
+
+outputs.2.3.filename=com.io7m.xoanon.tests-0.0.2-test-sources.jar
+outputs.2.3.length=8843
+outputs.2.3.checksums.sha512=e932443f60a6cf76b89966f76161c791a4b5679de67126685d7959aee686719776938d3315a441153b3e8aef0be89f120c54c0e5bdd20381a4d4e9d989d7744e
+
+outputs.2.4.filename=com.io7m.xoanon.tests-0.0.2-tests.jar
+outputs.2.4.length=8330
+outputs.2.4.checksums.sha512=a6d90c0f1b0d59b12d5e4eb89482c9f0fdc80cbe6d3d301a3202660c3adb458e92a0eddac675a6db3b4eeda78aba2b694bb7146ac1970474c9298c266475237f
