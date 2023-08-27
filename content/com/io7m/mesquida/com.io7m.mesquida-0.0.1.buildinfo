@@ -1,0 +1,46 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.mesquida
+group-id=com.io7m.mesquida
+artifact-id=com.io7m.mesquida
+version=0.0.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/mesquida
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=com.io7m.mesquida-0.0.1.pom
+outputs.0.length=13443
+outputs.0.checksums.sha512=84a51329f35127e1cd31341b23a50b8f600d4ae0f47b41b3bad1ab24a6a82eca6dddab65cae60d98b1cfd9b990b8ab1dd81b7c56e422f597f8c7ed9efecd30db
+
+outputs.1.filename=com.io7m.mesquida-0.0.1.jar
+outputs.1.length=157872
+outputs.1.checksums.sha512=0f2ad491d3525ba0a74bae0c2f4ea1e60a7a8ddef6fc932260a72cdc56a6cfe37dca23c4a35866d36dd297c37825e16c8ea7a35b16bdaf696b6f41e69ab10d56
+
+outputs.2.filename=com.io7m.mesquida-0.0.1-sources.jar
+outputs.2.length=112045
+outputs.2.checksums.sha512=578df6f38c931c6b02ec79587d66dde09597e79cba1cd72e36ac05d60b8fef5b0b12bb2b0c3180f08880eb7dc410285d58c0a002ea8b53db7d4b01e46b6d4792
+
+outputs.3.filename=com.io7m.mesquida-0.0.1-test-sources.jar
+outputs.3.length=9004
+outputs.3.checksums.sha512=16e508bf1ae9a2d71648720cb720c04ae781bc8c0ad17c080e8567d77f815d749908ce2973d3d0f8904d8558e98109d4652333602e2ede82f218f34717594f5a
+
+outputs.4.filename=com.io7m.mesquida-0.0.1-main.jar
+outputs.4.length=27560929
+outputs.4.checksums.sha512=2f4947d1c9b5334fcedad659baea45bdb725e76f2736e8744471c1366b434e2e432732e1c8a146ce9fb3dae37a1f3474e9adc0bbd447bbca93486a7d795ff049
+
+outputs.5.filename=com.io7m.mesquida-0.0.1-tests.jar
+outputs.5.length=9702
+outputs.5.checksums.sha512=f49b94cdf7e7801d44eddfcaba0d05730d5fb7ac4ef64b44504f6a34dc9386f0e6d08b89ff047ed40e17f2ec572e5459bafb41c086faab0e58efa4a7371612ea
