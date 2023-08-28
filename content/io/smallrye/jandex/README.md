@@ -22,6 +22,7 @@ rebuilding **2 releases** of io.smallrye:jandex-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.1.3](https://central.sonatype.com/artifact/io.smallrye/jandex/3.1.3/pom) | | | |
 | [3.1.2](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.1.2/pom) | [mvn jdk17](jandex-3.1.2.buildspec) | [result](jandex-parent-3.1.2.buildinfo): [9 :heavy_check_mark:  2 :warning:](jandex-parent-3.1.2.buildcompare) [:mag:](jandex-parent-3.1.2.diffoscope) | 649K |
 | [3.1.1](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.1.1/pom) | | | |
 | [3.1.0](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.1.0/pom) | [mvn jdk17](jandex-3.1.0.buildspec) | [result](jandex-parent-3.1.0.buildinfo): [9 :heavy_check_mark:  2 :warning:](jandex-parent-3.1.0.buildcompare) [:mag:](jandex-parent-3.1.0.diffoscope) | 644K |

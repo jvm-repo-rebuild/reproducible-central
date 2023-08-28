@@ -3,8 +3,8 @@
   <groupId>io.smallrye</groupId>
   <artifactId>jandex</artifactId>
   <versioning>
-    <latest>3.1.2</latest>
-    <release>3.1.2</release>
+    <latest>3.1.3</latest>
+    <release>3.1.3</release>
     <versions>
       <version>3.0.0-RC2</version>
       <version>3.0.0-RC3</version>
@@ -18,7 +18,8 @@
       <version>3.1.0</version>
       <version>3.1.1</version>
       <version>3.1.2</version>
+      <version>3.1.3</version>
     </versions>
-    <lastUpdated>20230608151130</lastUpdated>
+    <lastUpdated>20230828105304</lastUpdated>
   </versioning>
 </metadata>

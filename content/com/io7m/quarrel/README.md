@@ -1,0 +1,35 @@
+[com.io7m.quarrel:com.io7m.quarrel](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/1.3.0/versions) RB check
+=======
+
+[![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
+
+## Project: [com.io7m.quarrel:com.io7m.quarrel](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/1.3.0/versions)
+
+Source code: [https://github.com/io7m/quarrel.git](https://github.com/io7m/quarrel.git)
+
+<details><summary>This project defines 7 modules:</summary>
+
+* [com.io7m.quarrel:com.io7m.quarrel](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/1.3.0)
+* [com.io7m.quarrel:com.io7m.quarrel.core](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.core/1.3.0)
+* [com.io7m.quarrel:com.io7m.quarrel.documentation](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.documentation/1.3.0)
+* [com.io7m.quarrel:com.io7m.quarrel.example](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.example/1.3.0)
+* [com.io7m.quarrel:com.io7m.quarrel.ext.logback](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.ext.logback/1.3.0)
+* [com.io7m.quarrel:com.io7m.quarrel.ext.xstructural](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.ext.xstructural/1.3.0)
+* [com.io7m.quarrel:com.io7m.quarrel.tests](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel.tests/1.3.0)
+</details>
+
+rebuilding **7 releases** of com.io7m.quarrel:com.io7m.quarrel:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [1.3.0](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/1.3.0/pom) | [mvn jdk17.0.7](com.io7m.quarrel-1.3.0.buildspec) | [result](com.io7m.quarrel-1.3.0.buildinfo): [26 :heavy_check_mark: ](com.io7m.quarrel-1.3.0.buildcompare) | 1.6M |
+| [1.2.0](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/1.2.0/pom) | [mvn jdk17.0.7](com.io7m.quarrel-1.2.0.buildspec) | [result](com.io7m.quarrel-1.2.0.buildinfo): [27 :heavy_check_mark: ](com.io7m.quarrel-1.2.0.buildcompare) | 1.6M |
+| [1.1.0](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/1.1.0/pom) | [mvn jdk17.0.7](com.io7m.quarrel-1.1.0.buildspec) | [result](com.io7m.quarrel-1.1.0.buildinfo): [27 :heavy_check_mark: ](com.io7m.quarrel-1.1.0.buildcompare) | 1.6M |
+| [1.0.0](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/1.0.0/pom) | [mvn jdk17.0.7](com.io7m.quarrel-1.0.0.buildspec) | [result](com.io7m.quarrel-1.0.0.buildinfo): [27 :heavy_check_mark: ](com.io7m.quarrel-1.0.0.buildcompare) | 1.6M |
+| [1.0.0-beta0001](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/1.0.0-beta0001/pom) | [mvn jdk17.0.7](com.io7m.quarrel-1.0.0-beta0001.buildspec) | [result](com.io7m.quarrel-1.0.0-beta0001.buildinfo): [27 :heavy_check_mark: ](com.io7m.quarrel-1.0.0-beta0001.buildcompare) | 1.6M |
+| [0.0.2](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/0.0.2/pom) | [mvn jdk17.0.7](com.io7m.quarrel-0.0.2.buildspec) | [result](com.io7m.quarrel-0.0.2.buildinfo): [27 :heavy_check_mark: ](com.io7m.quarrel-0.0.2.buildcompare) | 1.6M |
+| [0.0.1](https://central.sonatype.com/artifact/com.io7m.quarrel/com.io7m.quarrel/0.0.1/pom) | [mvn jdk17.0.7](com.io7m.quarrel-0.0.1.buildspec) | [result](com.io7m.quarrel-0.0.1.buildinfo): [23 :heavy_check_mark: ](com.io7m.quarrel-0.0.1.buildcompare) | 1.6M |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

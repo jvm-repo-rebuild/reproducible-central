@@ -24,6 +24,7 @@ rebuilding **10 releases** of tech.picnic.error-prone-support:error-prone-suppor
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.13.0](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-support/0.13.0/pom) | | | |
 | [0.12.0](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-support/0.12.0/pom) | [mvn jdk17](error-prone-support-0.12.0.buildspec) | [result](error-prone-support-0.12.0.buildinfo): [18 :heavy_check_mark: ](error-prone-support-0.12.0.buildcompare) | 3.3M |
 | [0.11.1](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-support/0.11.1/pom) | [mvn jdk17](error-prone-support-0.11.1.buildspec) | [result](error-prone-support-0.11.1.buildinfo): [18 :heavy_check_mark: ](error-prone-support-0.11.1.buildcompare) | 3.3M |
 | [0.11.0](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-support/0.11.0/pom) | [mvn jdk17](error-prone-support-0.11.0.buildspec) | [result](error-prone-support-0.11.0.buildinfo): [18 :heavy_check_mark: ](error-prone-support-0.11.0.buildcompare) | 3.3M |

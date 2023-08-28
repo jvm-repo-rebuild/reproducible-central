@@ -1,31 +1,31 @@
-[net.bytebuddy:byte-buddy-parent](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.14.6/versions) RB check
+[net.bytebuddy:byte-buddy-parent](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.14.7/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [net.bytebuddy:byte-buddy-parent](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.14.6/versions)
+## Project: [net.bytebuddy:byte-buddy-parent](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.14.7/versions)
 
 Source code: [https://github.com/raphw/byte-buddy.git](https://github.com/raphw/byte-buddy.git)
 
 <details><summary>This project defines 8 modules:</summary>
 
-* [net.bytebuddy:byte-buddy](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy/1.14.6)
-* [net.bytebuddy:byte-buddy-agent](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-agent/1.14.6)
-* [net.bytebuddy:byte-buddy-android](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-android/1.14.6)
-* [net.bytebuddy:byte-buddy-benchmark](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-benchmark/1.14.6)
-* [net.bytebuddy:byte-buddy-dep](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-dep/1.14.6)
-* [net.bytebuddy:byte-buddy-gradle-plugin](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-gradle-plugin/1.14.6)
-* [net.bytebuddy:byte-buddy-maven-plugin](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-maven-plugin/1.14.6)
-* [net.bytebuddy:byte-buddy-parent](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.14.6)
+* [net.bytebuddy:byte-buddy](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy/1.14.7)
+* [net.bytebuddy:byte-buddy-agent](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-agent/1.14.7)
+* [net.bytebuddy:byte-buddy-android](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-android/1.14.7)
+* [net.bytebuddy:byte-buddy-benchmark](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-benchmark/1.14.7)
+* [net.bytebuddy:byte-buddy-dep](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-dep/1.14.7)
+* [net.bytebuddy:byte-buddy-gradle-plugin](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-gradle-plugin/1.14.7)
+* [net.bytebuddy:byte-buddy-maven-plugin](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-maven-plugin/1.14.7)
+* [net.bytebuddy:byte-buddy-parent](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.14.7)
 </details>
 
-rebuilding **13 releases** of net.bytebuddy:byte-buddy-parent:
-- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **14 releases** of net.bytebuddy:byte-buddy-parent:
+- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.14.7](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.14.7/pom) | | | |
+| [1.14.7](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.14.7/pom) | [mvn jdk8](byte-buddy-1.14.7.buildspec) | [result](byte-buddy-parent-1.14.7.buildinfo): [22 :heavy_check_mark: ](byte-buddy-parent-1.14.7.buildcompare) | 20M |
 | [1.14.6](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.14.6/pom) | [mvn jdk8](byte-buddy-1.14.6.buildspec) | [result](byte-buddy-parent-1.14.6.buildinfo): [22 :heavy_check_mark: ](byte-buddy-parent-1.14.6.buildcompare) | 20M |
 | [1.14.5](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.14.5/pom) | [mvn jdk8](byte-buddy-1.14.5.buildspec) | [result](byte-buddy-parent-1.14.5.buildinfo): [22 :heavy_check_mark: ](byte-buddy-parent-1.14.5.buildcompare) | 19M |
 | [1.14.4](https://central.sonatype.com/artifact/net.bytebuddy/byte-buddy-parent/1.14.4/pom) | [mvn jdk8](byte-buddy-1.14.4.buildspec) | [result](byte-buddy-parent-1.14.4.buildinfo): [22 :heavy_check_mark: ](byte-buddy-parent-1.14.4.buildcompare) | 19M |
