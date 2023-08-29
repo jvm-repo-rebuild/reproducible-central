@@ -1,0 +1,154 @@
+1 / 16 target/reference/tika-parser-scientific-package-2.9.0.jar tika-parsers/tika-parsers-extended/tika-parser-scientific-package/target/tika-parser-scientific-package-2.9.0.jar
+--- target/reference/tika-parser-scientific-package-2.9.0.jar
++++ tika-parsers/tika-parsers-extended/tika-parser-scientific-package/target/tika-parser-scientific-package-2.9.0.jar
+├── zipinfo {}
+│ @@ -11595,60 +11595,60 @@
+│  -rw----     2.0 fat      885 bl defN 23-Jan-14 13:20 com/sun/jna/win32/W32APIOptions$2.class
+│  -rw----     2.0 fat      880 bl defN 23-Jan-14 13:20 com/sun/jna/win32/W32APIOptions.class
+│  -rw----     2.0 fat     1446 bl defN 23-Jan-14 13:20 com/sun/jna/win32/W32APITypeMapper$1.class
+│  -rw----     2.0 fat     1442 bl defN 23-Jan-14 13:20 com/sun/jna/win32/W32APITypeMapper$2.class
+│  -rw----     2.0 fat     1287 bl defN 23-Jan-14 13:20 com/sun/jna/win32/W32APITypeMapper.class
+│  -rw----     2.0 fat        0 bl defN 22-Dec-12 22:55 com/sun/jna/win32-x86/
+│  -rw----     2.0 fat   211456 bl defN 22-Dec-12 22:55 com/sun/jna/win32-x86/jnidispatch.dll
+│ --rw----     2.0 fat        0 bl defN 22-Dec-14 12:46 com/sun/jna/aix-ppc/
+│ --rw----     2.0 fat   613528 bl defN 22-Dec-14 12:46 com/sun/jna/aix-ppc/libjnidispatch.a
+│ --rw----     2.0 fat        0 bl defN 22-Dec-14 12:52 com/sun/jna/aix-ppc64/
+│ --rw----     2.0 fat   657031 bl defN 22-Dec-14 12:52 com/sun/jna/aix-ppc64/libjnidispatch.a
+│ +-rw----     2.0 fat        0 bl defN 22-Dec-14 13:46 com/sun/jna/aix-ppc/
+│ +-rw----     2.0 fat   613528 bl defN 22-Dec-14 13:46 com/sun/jna/aix-ppc/libjnidispatch.a
+│ +-rw----     2.0 fat        0 bl defN 22-Dec-14 13:52 com/sun/jna/aix-ppc64/
+│ +-rw----     2.0 fat   657031 bl defN 22-Dec-14 13:52 com/sun/jna/aix-ppc64/libjnidispatch.a
+│  -rw----     2.0 fat        0 bl defN 22-Dec-13 12:49 com/sun/jna/darwin-x86-64/
+│  -rw----     2.0 fat   107392 bl defN 22-Dec-13 12:49 com/sun/jna/darwin-x86-64/libjnidispatch.jnilib
+│  -rw----     2.0 fat        0 bl defN 22-Dec-13 21:32 com/sun/jna/darwin-aarch64/
+│  -rw----     2.0 fat   159816 bl defN 22-Dec-13 21:32 com/sun/jna/darwin-aarch64/libjnidispatch.jnilib
+...
+
+2 / 16 target/reference/tika-parser-nlp-package-2.9.0.jar tika-parsers/tika-parsers-ml/tika-parser-nlp-package/target/tika-parser-nlp-package-2.9.0.jar
+--- target/reference/tika-parser-nlp-package-2.9.0.jar
++++ tika-parsers/tika-parsers-ml/tika-parser-nlp-package/target/tika-parser-nlp-package-2.9.0.jar
+├── zipinfo {}
+│ @@ -10950,244 +10950,244 @@
+│  -rw----     2.0 fat     2653 bl defN 23-May-02 18:27 schemas/wsdl/ws-addr-wsdl.xsd
+│  -rw----     2.0 fat     5591 bl defN 23-May-02 18:27 schemas/wsdl/ws-addr.xsd
+│  -rw----     2.0 fat     1606 bl defN 23-May-02 18:27 schemas/wsdl/wsdl.xjb
+│  -rw----     2.0 fat    12126 bl defN 23-May-02 18:27 schemas/wsdl/wsdl.xsd
+│  -rw----     2.0 fat     8198 bl defN 23-May-02 18:27 schemas/wsdl/wsrm.xsd
+│  -rw----     2.0 fat      932 bl defN 23-May-02 18:27 schemas/wsdl/xmime.xsd
+│  -rw----     2.0 fat     5840 bl defN 23-May-02 18:27 schemas/wsdl/xml.xsd
+│ --rw----     2.0 fat        0 bl defN 80-Feb-01 03:00 META-INF/maven/com.fasterxml.woodstox/
+...
+│ --rw----     2.0 fat     7321 bl defN 80-Feb-01 03:00 com/ctc/wstx/util/XmlChars.class
+│ +-rw----     2.0 fat        0 bl defN 80-Feb-01 04:00 META-INF/maven/com.fasterxml.woodstox/
+...
+│ +-rw----     2.0 fat     7321 bl defN 80-Feb-01 04:00 com/ctc/wstx/util/XmlChars.class
+│  -rw----     2.0 fat        0 bl defN 13-Jun-10 11:24 com/ctc/wstx/shaded/
+│  -rw----     2.0 fat        0 bl defN 13-Jun-10 11:24 com/ctc/wstx/shaded/msv_core/
+│  -rw----     2.0 fat        0 bl defN 13-Jun-10 11:24 com/ctc/wstx/shaded/msv_core/reader/
+│  -rw----     2.0 fat        0 bl defN 13-Jun-10 11:24 com/ctc/wstx/shaded/msv_core/reader/relax/
+│  -rw----     2.0 fat     4804 bl defN 13-Jun-10 11:24 com/ctc/wstx/shaded/msv_core/reader/relax/Messages.properties
+│  -rw----     2.0 fat     7886 bl defN 13-Jun-10 11:24 com/ctc/wstx/shaded/msv_core/reader/relax/Messages_ja.properties
+│  -rw----     2.0 fat     2128 bl defN 13-Jun-10 11:24 com/ctc/wstx/shaded/msv_core/reader/relax/RELAXReader$StateFactory.class
+│ @@ -14420,245 +14420,245 @@
+│  -rw----     2.0 fat     1070 bl defN 23-May-20 13:25 org/apache/commons/codec/net/Utils.class
+│  -rw----     2.0 fat      134 bl defN 23-May-20 13:25 org/apache/commons/codec/net/package-info.class
+│  -rw----     2.0 fat      130 bl defN 23-May-20 13:25 org/apache/commons/codec/package-info.class
+│  -rw----     2.0 fat        0 bl defN 23-May-20 13:25 META-INF/maven/commons-codec/
+│  -rw----     2.0 fat        0 bl defN 23-May-20 13:25 META-INF/maven/commons-codec/commons-codec/
+│  -rw----     2.0 fat    15990 bl defN 23-May-20 13:25 META-INF/maven/commons-codec/commons-codec/pom.xml
+│  -rw----     2.0 fat       62 bl defN 23-May-20 13:25 META-INF/maven/commons-codec/commons-codec/pom.properties
+│ --rw----     2.0 fat        0 bl defN 23-Jan-06 10:43 com/google/
+│ --rw----     2.0 fat        0 bl defN 23-Jan-06 10:43 com/google/gson/
+...
+│ --rw----     2.0 fat     9365 bl defN 23-Jan-06 10:43 META-INF/maven/com.google.code.gson/gson/pom.xml
+│ --rw----     2.0 fat       60 bl defN 23-Jan-06 10:43 META-INF/maven/com.google.code.gson/gson/pom.properties
+│ +-rw----     2.0 fat        0 bl defN 23-Jan-06 11:43 com/google/
+│ +-rw----     2.0 fat        0 bl defN 23-Jan-06 11:43 com/google/gson/
+...
+│ +-rw----     2.0 fat     9365 bl defN 23-Jan-06 11:43 META-INF/maven/com.google.code.gson/gson/pom.xml
+│ +-rw----     2.0 fat       60 bl defN 23-Jan-06 11:43 META-INF/maven/com.google.code.gson/gson/pom.properties
+│  -rw----     2.0 fat        0 bl defN 16-Jun-08 21:30 edu/
+│  -rw----     2.0 fat        0 bl defN 16-Jun-08 21:30 edu/usc/
+│  -rw----     2.0 fat        0 bl defN 16-Jun-08 21:30 edu/usc/ir/
+│  -rw----     2.0 fat        0 bl defN 16-Jun-08 21:30 edu/usc/ir/sentiment/
+│  -rw----     2.0 fat        0 bl defN 16-Jun-08 21:30 edu/usc/ir/sentiment/analysis/
+│  -rw----     2.0 fat        0 bl defN 16-Jun-08 21:30 edu/usc/ir/sentiment/analysis/cmdline/
+│  -rw----     2.0 fat     5427 bl defN 16-Jun-08 21:30 edu/usc/ir/sentiment/analysis/cmdline/CLI.class
+
+3 / 16 target/reference/tika-batch-2.9.0-tests.jar tika-batch/target/tika-batch-2.9.0-tests.jar
+--- target/reference/tika-batch-2.9.0-tests.jar
++++ tika-batch/target/tika-batch-2.9.0-tests.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 112411 bytes, number of entries: 178
+│ +Zip file size: 89930 bytes, number of entries: 113
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 META-INF/
+│  -rw-r--r--  2.0 unx      376 b- defN 23-Aug-23 13:52 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 org/apache/tika/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 org/apache/tika/batch/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 org/apache/tika/batch/fs/
+│ @@ -23,36 +23,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-input/noisy_parsers/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-input/one_heavy_hang/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-input/oom/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-input/system_exit/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-input/thread_interrupt/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-input/timeout_after_early_termination/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-input/wait_after_early_termination/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-output/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-output/tika-batch-output-root-17931755399990953403/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-output/tika-batch-output-root-17931755399990953403/allHeavyHangsStarvedCrawler-16687726571037361622/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-output/tika-batch-output-root-17931755399990953403/allHeavyHangsStarvedCrawler-3052438439549096353/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-output/tika-batch-output-root-17931755399990953403/allHeavyHangsStarvedCrawler-6307447628192298663/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-output/tika-batch-output-root-17931755399990953403/daemon-12866548834986320435/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-output/tika-batch-output-root-17931755399990953403/daemon-1989698240670088207/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-output/tika-batch-output-root-17931755399990953403/daemon-7339623333977455840/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-output/tika-batch-output-root-17931755399990953403/daemon-8321637336840443111/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-output/tika-batch-output-root-17931755399990953403/nostart-norestart-276739826361897997/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-output/tika-batch-output-root-17931755399990953403/nostart-norestart-5089783186263025946/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-output/tika-batch-output-root-17931755399990953403/system-exit1950910972269897016/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-output/tika-batch-output-root-18078557462567254080/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-output/tika-batch-output-root-18078557462567254080/handler-html-7684898769900708590/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-output/tika-batch-output-root-18078557462567254080/handler-recursive-parser8863129940016716912/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-output/tika-batch-output-root-18078557462567254080/handler-txt-9835550008563939854/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-output/tika-batch-output-root-18078557462567254080/handler-xml-15329583098311474365/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-output/tika-batch-output-root-18078557462567254080/handler-xml-write-limit-58083667871563379/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-output/tika-batch-output-root-4064424471703311791/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-output/tika-batch-output-root-7541669481598989114/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-output/tika-batch-output-root-7541669481598989114/os-factory-illegal-state-15826570662507952419/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 test-output/tika-batch-output-root-7541669481598989114/os-factory-skip-150891933414513749/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 META-INF/maven/org.apache.tika/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-23 13:52 META-INF/maven/org.apache.tika/tika-batch/
+│  -rw-r--r--  2.0 unx     2289 b- defN 23-Aug-23 13:52 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 23-Aug-23 13:52 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      172 b- defN 23-Aug-23 13:52 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     1230 b- defN 23-Aug-23 13:52 log4j2-on.properties
+│ @@ -123,58 +101,15 @@
+│  -rw-r--r--  2.0 unx      987 b- defN 23-Aug-23 13:52 test-input/thread_interrupt/test1_thread_interrupt.xml
+│  -rw-r--r--  2.0 unx     1012 b- defN 23-Aug-23 13:52 test-input/thread_interrupt/test2_thread_interrupt.xml
+│  -rw-r--r--  2.0 unx      987 b- defN 23-Aug-23 13:52 test-input/thread_interrupt/test3_ok.xml
+│  -rw-r--r--  2.0 unx      987 b- defN 23-Aug-23 13:52 test-input/thread_interrupt/test4_ok.xml
+│  -rw-r--r--  2.0 unx      987 b- defN 23-Aug-23 13:52 test-input/thread_interrupt/test5_ok.xml
+│  -rw-r--r--  2.0 unx     1045 b- defN 23-Aug-23 13:52 test-input/timeout_after_early_termination/test0_sleep.xml
+│  -rw-r--r--  2.0 unx     1026 b- defN 23-Aug-23 13:52 test-input/wait_after_early_termination/test0_sleep.xml
+│ --rw-r--r--  2.0 unx        0 b- defN 23-Aug-23 13:52 test-output/tika-batch-output-root-17931755399990953403/allHeavyHangsStarvedCrawler-3052438439549096353/test0_heavy_hang.xml.xml
+│ --rw-r--r--  2.0 unx        0 b- defN 23-Aug-23 13:52 test-output/tika-batch-output-root-17931755399990953403/allHeavyHangsStarvedCrawler-3052438439549096353/test1_heavy_hang.xml.xml
+│ --rw-r--r--  2.0 unx        0 b- defN 23-Aug-23 13:52 test-output/tika-batch-output-root-17931755399990953403/allHeavyHangsStarvedCrawler-3052438439549096353/test2_heavy_hang.xml.xml
+...
+│ --rw-r--r--  2.0 unx        0 b- defN 23-Aug-23 13:52 test-output/tika-batch-output-root-18078557462567254080/handler-xml-write-limit-58083667871563379/test0.xml.xml
+│ --rw-r--r--  2.0 unx      434 b- defN 23-Aug-23 13:52 test-output/tika-batch-output-root-7541669481598989114/os-factory-illegal-state-15826570662507952419/test0.xml.xml
+│ --rw-r--r--  2.0 unx      434 b- defN 23-Aug-23 13:52 test-output/tika-batch-output-root-7541669481598989114/os-factory-skip-150891933414513749/test0.xml.xml
+│  -rw-r--r--  2.0 unx       31 b- defN 23-Aug-23 13:52 testFileList.txt
+│  -rw-r--r--  2.0 unx     6042 b- defN 23-Aug-23 13:52 tika-batch-config-MockConsumersBuilder.xml
+│  -rw-r--r--  2.0 unx     5455 b- defN 23-Aug-23 13:52 tika-batch-config-broken.xml
+│  -rw-r--r--  2.0 unx     5936 b- defN 23-Aug-23 13:52 tika-batch-config-test-suffix-override.xml
+│  -rw-r--r--  2.0 unx     5912 b- defN 23-Aug-23 13:52 tika-batch-config-test.xml
+│  -rw-r--r--  2.0 unx     4572 b- defN 23-Aug-23 13:52 META-INF/maven/org.apache.tika/tika-batch/pom.xml
+│  -rw-r--r--  2.0 unx       60 b- defN 23-Aug-23 13:52 META-INF/maven/org.apache.tika/tika-batch/pom.properties
+│ -178 files, 165503 bytes uncompressed, 77403 bytes compressed:  53.2%
+│ +113 files, 157717 bytes uncompressed, 72888 bytes compressed:  53.8%
+
+...
