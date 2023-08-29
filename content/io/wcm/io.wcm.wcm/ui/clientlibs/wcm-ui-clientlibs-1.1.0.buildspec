@@ -4,11 +4,14 @@ display=${groupId}-WCM:ui.clientlibs
 version=1.1.0
 
 gitRepo=https://github.com/wcm-io/wcm-io-wcm.git
-gitTag=${artifactId}-${version}
+#gitTag=${artifactId}-${version}
+gitTag=7a140443
 
 tool=mvn
 jdk=8
 newline=crlf-nogit
 
-command="mvn -f ui/clientlibs/pom.xml -Pio.wcm clean package -DskipTests -Dmaven.buildNumber.skip -DbuildNumber=7a140443 -Dtimestamp=2020-10-08T20:02:09+02:00"
+timestamp=2020-10-08T20:02:09+02:00
+
+command="mvn -f ui/clientlibs/pom.xml -Pio.wcm clean package -DskipTests -Dmaven.javadoc.skip -Dtimestamp=${timestamp}"
 buildinfo=ui/clientlibs/target/${artifactId}-${version}.buildinfo
