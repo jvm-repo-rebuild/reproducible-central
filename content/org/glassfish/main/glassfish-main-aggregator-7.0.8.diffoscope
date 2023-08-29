@@ -1,0 +1,627 @@
+# MANIFEST.MF "Originally-Created-By: Apache Maven Bundle Plugin 5.1.8": built twice?
+#│ │ -module org.glassfish.main.jul@7.0.8-SNAPSHOT non-clean reactor?
+1 / 213 target/reference/glassfish-jul-extension-7.0.8.jar nucleus/glassfish-jul-extension/target/glassfish-jul-extension.jar
+--- target/reference/glassfish-jul-extension-7.0.8.jar
++++ nucleus/glassfish-jul-extension/target/glassfish-jul-extension.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 149933 bytes, number of entries: 95
+│ +Zip file size: 149896 bytes, number of entries: 95
+│  -rw----     1.0 fat        0 bx stor 23-Apr-02 15:44 META-INF/
+│ --rw----     2.0 fat     1653 bl defN 23-Apr-02 15:44 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1467 bl defN 23-Apr-02 15:44 META-INF/MANIFEST.MF
+│  -rw----     1.0 fat        0 b- stor 23-Apr-02 15:44 org/
+│  -rw----     1.0 fat        0 b- stor 23-Apr-02 15:44 org/glassfish/
+│  -rw----     1.0 fat        0 b- stor 23-Apr-02 15:44 org/glassfish/main/
+│  -rw----     1.0 fat        0 b- stor 23-Apr-02 15:44 org/glassfish/main/jul/
+│  -rw----     1.0 fat        0 b- stor 23-Apr-02 15:44 org/glassfish/main/jul/cfg/
+│  -rw----     1.0 fat        0 b- stor 23-Apr-02 15:44 org/glassfish/main/jul/env/
+│  -rw----     1.0 fat        0 b- stor 23-Apr-02 15:44 org/glassfish/main/jul/formatter/
+│ @@ -89,9 +89,9 @@
+│  -rw----     2.0 fat      269 bl defN 23-Apr-02 15:44 org/glassfish/main/jul/rotation/LogFileRotationImplementation.class
+│  -rw----     2.0 fat      737 bl defN 23-Apr-02 15:44 org/glassfish/main/jul/rotation/LogRotationTimerTask.class
+│  -rw----     2.0 fat     1326 bl defN 23-Apr-02 15:44 org/glassfish/main/jul/rotation/MeteredStream.class
+│  -rw----     2.0 fat      793 bl defN 23-Apr-02 15:44 org/glassfish/main/jul/rotation/PeriodicalLogRotationTimerTask.class
+│  -rw----     2.0 fat     3285 bl defN 23-Apr-02 15:44 org/glassfish/main/jul/tracing/GlassFishLoggingTracer.class
+│  -rw----     2.0 fat     1933 bl defN 23-Apr-02 15:44 META-INF/maven/org.glassfish.main/glassfish-jul-extension/pom.xml
+│  -rw----     2.0 fat       76 bl defN 23-Apr-02 15:44 META-INF/maven/org.glassfish.main/glassfish-jul-extension/pom.properties
+│ --rw----     2.0 fat      721 bl defN 23-Apr-02 15:44 module-info.class
+│ -95 files, 317269 bytes uncompressed, 131309 bytes compressed:  58.6%
+│ +-rw----     2.0 fat      712 bl defN 23-Apr-02 15:44 module-info.class
+│ +95 files, 317074 bytes uncompressed, 131272 bytes compressed:  58.6%
+├── META-INF/MANIFEST.MF
+│ @@ -6,25 +6,23 @@
+│  Bundle-License: http://www.eclipse.org/legal/epl-2.0, https://www.gnu.or
+
+│   g/software/classpath/license.html
+
+│  Bundle-ManifestVersion: 2
+
+│  Bundle-Name: GlassFish Java Util Logging Extension
+
+│  Bundle-SymbolicName: org.glassfish.main.glassfish-jul-extension
+
+│  Bundle-Vendor: Eclipse Foundation
+
+│  Bundle-Version: 7.0.8
+
+│ -Export-Package: org.glassfish.main.jul.formatter;version="7.0.8";uses:="
+
+│ - org.glassfish.main.jul.cfg,org.glassfish.main.jul.record",org.glassfish
+
+│ - .main.jul;version="7.0.8";uses:="org.glassfish.main.jul.cfg,org.glassfi
+
+│ - sh.main.jul.handler",org.glassfish.main.jul.handler;version="7.0.8";use
+
+│ - s:="org.glassfish.main.jul.cfg,org.glassfish.main.jul.formatter,org.gla
+
+│ - ssfish.main.jul.record",org.glassfish.main.jul.cfg;version="7.0.8",org.
+
+│ - glassfish.main.jul.env;version="7.0.8",org.glassfish.main.jul.tracing;v
+
+│ +Export-Package: org.glassfish.main.jul.env;version="7.0.8",org.glassfish
+
+│ + .main.jul.tracing;version="7.0.8",org.glassfish.main.jul;uses:="org.gla
+
+│ + ssfish.main.jul.cfg,org.glassfish.main.jul.handler";version="7.0.8",org
+
+│ + .glassfish.main.jul.handler;uses:="org.glassfish.main.jul.cfg,org.glass
+
+│ + fish.main.jul.formatter,org.glassfish.main.jul.record";version="7.0.8",
+
+│ + org.glassfish.main.jul.cfg;version="7.0.8",org.glassfish.main.jul.forma
+
+│ + tter;uses:="org.glassfish.main.jul.cfg,org.glassfish.main.jul.record";v
+
+│   ersion="7.0.8",org.glassfish.main.jul.record;version="7.0.8",org.glassf
+
+│   ish.main.jul.rotation;version="7.0.8"
+
+│ -Import-Package: org.glassfish.main.jul.cfg;version="[7.0,8)",org.glassfi
+
+│ - sh.main.jul.env;version="[7.0,8)",org.glassfish.main.jul.formatter;vers
+
+│ - ion="[7.0,8)",org.glassfish.main.jul.handler;version="[7.0,8)",org.glas
+
+│ - sfish.main.jul.record;version="[7.0,8)",org.glassfish.main.jul.rotation
+
+│ - ;version="[7.0,8)",org.glassfish.main.jul.tracing;version="[7.0,8)"
+
+│ -Originally-Created-By: Apache Maven Bundle Plugin 5.1.8
+
+│ +Import-Package: org.glassfish.main.jul.cfg,org.glassfish.main.jul.env,or
+
+│ + g.glassfish.main.jul.formatter,org.glassfish.main.jul.handler,org.glass
+
+│ + fish.main.jul.record,org.glassfish.main.jul.rotation,org.glassfish.main
+
+│ + .jul.tracing
+
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+
+│  Tool: Bnd-6.3.1.202206071316
+├── module-info.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -1,22 +1,22 @@
+│ │    Compiled from "module-info.java"
+│ │ -module org.glassfish.main.jul@7.0.8-SNAPSHOT
+│ │ +module org.glassfish.main.jul@7.0.8
+│ │    minor version: 0
+│ │    major version: 55
+│ │    flags: (0x8000) ACC_MODULE
+│ │    this_class: #2                          // "module-info"
+│ │    super_class: #0
+│ │    interfaces: 0, fields: 0, methods: 0, attributes: 4
+│ │  Constant pool:
+│ │     #1 = Utf8               module-info
+│ │     #2 = Class              #1             // "module-info"
+│ │     #3 = Utf8               module-info.java
+│ │     #4 = Utf8               org.glassfish.main.jul
+│ │     #5 = Module             #4             // "org.glassfish.main.jul"
+│ │ -   #6 = Utf8               7.0.8-SNAPSHOT
+│ │ +   #6 = Utf8               7.0.8
+│ │     #7 = Utf8               org/glassfish/main/jul
+│ │     #8 = Package            #7             // org/glassfish/main/jul
+│ │     #9 = Utf8               org/glassfish/main/jul/cfg
+│ │    #10 = Package            #9             // org/glassfish/main/jul/cfg
+│ │    #11 = Utf8               org/glassfish/main/jul/env
+│ │    #12 = Package            #11            // org/glassfish/main/jul/env
+│ │    #13 = Utf8               org/glassfish/main/jul/formatter
+│ │ @@ -48,15 +48,15 @@
+│ │  {
+│ │  }
+│ │  InnerClasses:
+│ │    public static abstract #34= #29 of #33; // LoggerFinder=class java/lang/System$LoggerFinder of class java/lang/System
+│ │  SourceFile: "module-info.java"
+│ │  Module:
+│ │    #5,0                                    // "org.glassfish.main.jul"
+│ │ -  #6                                      // 7.0.8-SNAPSHOT
+│ │ +  #6                                      // 7.0.8
+│ │    2                                       // requires
+│ │      #24,8000                                // "java.base" ACC_MANDATED
+│ │      #25                                     // 17.0.2
+│ │      #27,20                                  // "java.logging" ACC_TRANSITIVE
+│ │      #25                                     // 17.0.2
+│ │    6                                       // exports
+│ │      #8,0                                    // org/glassfish/main/jul
+
+2 / 213 target/reference/hk2-config-generator-7.0.8.jar nucleus/hk2-config-generator/target/hk2-config-generator.jar
+--- target/reference/hk2-config-generator-7.0.8.jar
++++ nucleus/hk2-config-generator/target/hk2-config-generator.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 288100 bytes, number of entries: 221
+│ +Zip file size: 288078 bytes, number of entries: 221
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 META-INF/
+│ --rw-r--r--  2.0 unx     2754 b- defN 23-Apr-02 15:44 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx     2697 b- defN 23-Apr-02 15:44 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 META-INF/hk2-locator/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 META-INF/maven/org.glassfish.main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 META-INF/maven/org.glassfish.main/hk2-config-generator/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 org/jvnet/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 org/jvnet/hk2/
+│ @@ -14,16 +14,16 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 org/jvnet/hk2/config/generator/apt/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 org/jvnet/hk2/config/provider/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 org/jvnet/hk2/config/provider/internal/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 org/jvnet/hk2/config/tiger/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 services/
+│  -rw-r--r--  2.0 unx    35084 b- defN 23-Apr-02 15:44 META-INF/LICENSE.md
+│  -rw-r--r--  2.0 unx     5205 b- defN 23-Apr-02 15:44 META-INF/NOTICE.md
+│ --rw-r--r--  2.0 unx      441 b- defN 23-Apr-02 15:44 META-INF/hk2-locator/default
+│ --rw-r--r--  2.0 unx       82 b- defN 23-Apr-02 15:44 META-INF/maven/org.glassfish.main/hk2-config-generator/pom.properties
+│ +-rw-r--r--  2.0 unx      442 b- defN 23-Apr-02 15:44 META-INF/hk2-locator/default
+│ +-rw-r--r--  2.0 unx       73 b- defN 23-Apr-02 15:44 META-INF/maven/org.glassfish.main/hk2-config-generator/pom.properties
+│  -rw-r--r--  2.0 unx     4907 b- defN 23-Apr-02 15:44 META-INF/maven/org.glassfish.main/hk2-config-generator/pom.xml
+│  -rw-r--r--  2.0 unx     2056 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/AbstractDynamicMBeanImpl.class
+│  -rw-r--r--  2.0 unx      709 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/Attribute.class
+│  -rw-r--r--  2.0 unx      543 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/AttributeChanges.class
+│  -rw-r--r--  2.0 unx     1203 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/Changed$TYPE.class
+│  -rw-r--r--  2.0 unx      528 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/Changed.class
+│  -rw-r--r--  2.0 unx     1154 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/ConfigBean$1$1.class
+│ @@ -216,8 +216,8 @@
+│  -rw-r--r--  2.0 unx     3849 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/tiger/Types$1.class
+│  -rw-r--r--  2.0 unx     4518 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/tiger/Types$2.class
+│  -rw-r--r--  2.0 unx     2959 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/tiger/Types$3.class
+│  -rw-r--r--  2.0 unx     1562 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/tiger/Types$BinderArg.class
+│  -rw-r--r--  2.0 unx     5551 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/tiger/Types.class
+│  -rw-r--r--  2.0 unx     1220 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/tiger/WildcardTypeImpl.class
+│  -rw-r--r--  2.0 unx       55 b- defN 23-Apr-02 15:44 services/javax.annotation.processing.Processor
+│ -221 files, 588491 bytes uncompressed, 249326 bytes compressed:  57.6%
+│ +221 files, 588426 bytes uncompressed, 249304 bytes compressed:  57.6%
+├── META-INF/MANIFEST.MF
+│ @@ -35,12 +35,11 @@
+│   .0,4)",org.glassfish.hk2.utilities.cache;version="[3.0,4)",org.glassfis
+
+│   h.hk2.utilities.reflection;version="[3.0,4)",org.hibernate.validator;ve
+
+│   rsion="[8.0,9)",org.jvnet.hk2.annotations;version="[3.0,4)",org.jvnet.h
+
+│   k2.component;version="[3.0,4)",org.jvnet.hk2.config;version="[7.0,8)",o
+
+│   rg.jvnet.hk2.config.api;version="[7.0,8)",org.jvnet.hk2.config.provider
+
+│   .internal;version="[7.0,8)",org.jvnet.hk2.config.tiger;version="[7.0,8)
+
+│   "
+
+│ -Originally-Created-By: Apache Maven Bundle Plugin 5.1.8
+
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+
+│  Specification-Version: 7.0.8
+
+│  Tool: Bnd-6.3.1.202206071316
+├── META-INF/hk2-locator/default
+│ @@ -1,9 +1,9 @@
+│  #
+│ -# Generated on Sun Aug 27 22:47:09 UTC 2023 by hk2-inhabitant-generator
+│ +# Generated on Tue Aug 29 08:31:51 CEST 2023 by hk2-inhabitant-generator
+│  #
+│  
+│  [org.jvnet.hk2.config.ConfigSupport]S
+│  contract={org.jvnet.hk2.config.api.ConfigurationUtilities}
+│  
+│  [org.jvnet.hk2.config.ConfigurationPopulator]S
+│  contract={org.glassfish.hk2.bootstrap.ConfigPopulator}
+├── META-INF/maven/org.glassfish.main/hk2-config-generator/pom.properties
+│ @@ -1,3 +1,3 @@
+│  groupId=org.glassfish.main
+│  artifactId=hk2-config-generator
+│ -version=7.0.8-SNAPSHOT
+│ +version=7.0.8
+
+3 / 213 target/reference/config-types-7.0.8.jar nucleus/hk2-config-types/target/config-types.jar
+--- target/reference/config-types-7.0.8.jar
++++ nucleus/hk2-config-types/target/config-types.jar
+├── zipinfo {}
+│ @@ -8,17 +8,17 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 org/jvnet/hk2/config/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 org/jvnet/hk2/config/types/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 META-INF/maven/org.glassfish.main.hk2/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 META-INF/maven/org.glassfish.main.hk2/config-types/
+│  -rw-r--r--  2.0 unx    35084 b- defN 23-Apr-02 15:44 META-INF/LICENSE.md
+│  -rw-r--r--  2.0 unx     5205 b- defN 23-Apr-02 15:44 META-INF/NOTICE.md
+│ --rw-r--r--  2.0 unx      503 b- defN 23-Apr-02 15:44 META-INF/hk2-locator/default
+│ +-rw-r--r--  2.0 unx      504 b- defN 23-Apr-02 15:44 META-INF/hk2-locator/default
+│  -rw-r--r--  2.0 unx     3850 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/types/HK2DomConfigTypesUtilities.class
+│  -rw-r--r--  2.0 unx      713 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/types/Property.class
+│  -rw-r--r--  2.0 unx     1842 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/types/PropertyBag.class
+│  -rw-r--r--  2.0 unx      664 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/types/PropertyBagCustomizer.class
+│  -rw-r--r--  2.0 unx     1597 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/types/PropertyBagCustomizerImpl.class
+│  -rw-r--r--  2.0 unx      863 b- defN 23-Apr-02 15:44 org/jvnet/hk2/config/types/PropertyInjector.class
+│  -rw-r--r--  2.0 unx     3075 b- defN 23-Apr-02 15:44 META-INF/maven/org.glassfish.main.hk2/config-types/pom.xml
+│  -rw-r--r--  2.0 unx       69 b- defN 23-Apr-02 15:44 META-INF/maven/org.glassfish.main.hk2/config-types/pom.properties
+│ -22 files, 54870 bytes uncompressed, 19585 bytes compressed:  64.3%
+│ +22 files, 54871 bytes uncompressed, 19585 bytes compressed:  64.3%
+├── META-INF/hk2-locator/default
+│ @@ -1,9 +1,9 @@
+│  #
+│ -# Generated on Sun Aug 27 22:47:19 UTC 2023 by hk2-inhabitant-generator
+│ +# Generated on Tue Aug 29 08:31:52 CEST 2023 by hk2-inhabitant-generator
+│  #
+│  
+│  [org.jvnet.hk2.config.types.PropertyInjector]S
+│  contract={org.jvnet.hk2.config.ConfigInjector}
+│  name=property
+│  qualifier={org.jvnet.hk2.config.InjectionTarget}
+│  metadata=@description={optional,datatype\:java.lang.String,leaf},@name={required,datatype\:java.lang.String,leaf},@value={required,datatype\:java.lang.String,leaf},keyed-as={org.jvnet.hk2.config.types.Property},key={@name},target={org.jvnet.hk2.config.types.Property}
+
+4 / 213 target/reference/felix-7.0.8.zip nucleus/osgi-platforms/felix/target/felix.zip
+--- target/reference/felix-7.0.8.zip
++++ nucleus/osgi-platforms/felix/target/felix.zip
+├── zipinfo {}
+│ @@ -1,24 +1,24 @@
+│  Zip file size: 956718 bytes, number of entries: 22
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-27 22:38 META-INF/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-27 22:38 config/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-27 22:38 glassfish/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-27 22:38 glassfish/config/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-27 22:38 glassfish/modules/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-27 22:38 glassfish/modules/autostart/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-27 22:38 glassfish/osgi/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-27 22:38 glassfish/osgi/felix/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-27 22:38 glassfish/osgi/felix/conf/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-27 22:38 modules/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-27 22:38 osgi/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-27 22:38 osgi/felix/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-27 22:38 osgi/felix/bin/
+│ --rw-r--r--  2.0 unx    35084 b- defN 23-Aug-27 22:38 META-INF/LICENSE.md
+│ --rw-r--r--  2.0 unx       21 b- defN 23-Aug-27 22:38 META-INF/MANIFEST.MF
+│ --rw-r--r--  2.0 unx     5205 b- defN 23-Aug-27 22:38 META-INF/NOTICE.md
+│ --rw-r--r--  2.0 unx    12681 b- defN 23-Aug-27 22:38 config/osgi.properties
+│ --rw-r--r--  2.0 unx        0 b- defN 23-Aug-27 22:38 glassfish/config/.gitkeep_empty_dir
+│ --rw-r--r--  2.0 unx        0 b- defN 23-Aug-27 22:38 glassfish/modules/autostart/.gitkeep_empty_dir
+│ --rw-r--r--  2.0 unx        0 b- defN 23-Aug-27 22:38 glassfish/osgi/felix/conf/.gitkeep_empty_dir
+│ --rw-r--r--  2.0 unx   237308 b- defN 23-Aug-27 22:38 modules/org.apache.felix.bundlerepository.jar
+│ --rw-r--r--  2.0 unx   781804 b- defN 23-Aug-27 22:38 osgi/felix/bin/felix.jar
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-29 08:31 META-INF/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-29 08:31 config/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-29 08:31 glassfish/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-29 08:31 glassfish/config/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-29 08:31 glassfish/modules/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-29 08:31 glassfish/modules/autostart/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-29 08:31 glassfish/osgi/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-29 08:31 glassfish/osgi/felix/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-29 08:31 glassfish/osgi/felix/conf/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-29 08:31 modules/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-29 08:31 osgi/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-29 08:31 osgi/felix/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-29 08:31 osgi/felix/bin/
+│ +-rw-r--r--  2.0 unx    35084 b- defN 23-Aug-29 08:31 META-INF/LICENSE.md
+│ +-rw-r--r--  2.0 unx       21 b- defN 23-Aug-29 08:31 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx     5205 b- defN 23-Aug-29 08:31 META-INF/NOTICE.md
+│ +-rw-r--r--  2.0 unx    12681 b- defN 23-Aug-29 08:31 config/osgi.properties
+│ +-rw-r--r--  2.0 unx        0 b- defN 23-Aug-29 08:31 glassfish/config/.gitkeep_empty_dir
+│ +-rw-r--r--  2.0 unx        0 b- defN 23-Aug-29 08:31 glassfish/modules/autostart/.gitkeep_empty_dir
+│ +-rw-r--r--  2.0 unx        0 b- defN 23-Aug-29 08:31 glassfish/osgi/felix/conf/.gitkeep_empty_dir
+│ +-rw-r--r--  2.0 unx   237308 b- defN 23-Jan-13 19:35 modules/org.apache.felix.bundlerepository.jar
+│ +-rw-r--r--  2.0 unx   781804 b- defN 23-Apr-03 00:00 osgi/felix/bin/felix.jar
+│  22 files, 1072103 bytes uncompressed, 953918 bytes compressed:  11.0%
+
+5 / 213 target/reference/scattered-archive-api-7.0.8.jar nucleus/common/scattered-archive-api/target/scattered-archive-api.jar
+--- target/reference/scattered-archive-api-7.0.8.jar
++++ nucleus/common/scattered-archive-api/target/scattered-archive-api.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 28955 bytes, number of entries: 18
+│ +Zip file size: 28943 bytes, number of entries: 18
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 META-INF/
+│ --rw-r--r--  2.0 unx      724 b- defN 23-Apr-02 15:44 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx      667 b- defN 23-Apr-02 15:44 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 org/glassfish/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 org/glassfish/embeddable/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 org/glassfish/embeddable/archive/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 META-INF/maven/org.glassfish.main.common/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Apr-02 15:44 META-INF/maven/org.glassfish.main.common/scattered-archive-api/
+│ @@ -13,8 +13,8 @@
+│  -rw-r--r--  2.0 unx      954 b- defN 23-Apr-02 15:44 org/glassfish/embeddable/archive/Assembler$1.class
+│  -rw-r--r--  2.0 unx    12082 b- defN 23-Apr-02 15:44 org/glassfish/embeddable/archive/Assembler.class
+│  -rw-r--r--  2.0 unx     1439 b- defN 23-Apr-02 15:44 org/glassfish/embeddable/archive/ScatteredArchive$Type.class
+│  -rw-r--r--  2.0 unx     6628 b- defN 23-Apr-02 15:44 org/glassfish/embeddable/archive/ScatteredArchive.class
+│  -rw-r--r--  2.0 unx     3283 b- defN 23-Apr-02 15:44 org/glassfish/embeddable/archive/ScatteredEnterpriseArchive.class
+│  -rw-r--r--  2.0 unx     4152 b- defN 23-Apr-02 15:44 META-INF/maven/org.glassfish.main.common/scattered-archive-api/pom.xml
+│  -rw-r--r--  2.0 unx       81 b- defN 23-Apr-02 15:44 META-INF/maven/org.glassfish.main.common/scattered-archive-api/pom.properties
+│ -18 files, 69632 bytes uncompressed, 26193 bytes compressed:  62.4%
+│ +18 files, 69575 bytes uncompressed, 26181 bytes compressed:  62.4%
+├── META-INF/MANIFEST.MF
+│ @@ -7,11 +7,10 @@
+│   g/software/classpath/license.html
+
+│  Bundle-ManifestVersion: 2
+
+│  Bundle-Name: Scattered Archive APIs of Glassfish
+
+│  Bundle-SymbolicName: org.glassfish.main.common.scattered-archive-api
+
+│  Bundle-Vendor: Eclipse Foundation
+
+│  Bundle-Version: 7.0.8
+
+│  Export-Package: org.glassfish.embeddable.archive;version="7.0.8"
+
+│ -Originally-Created-By: Apache Maven Bundle Plugin 5.1.8
+
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+
+│  Tool: Bnd-6.3.1.202206071316
+
+...
+
+7 / 213 target/reference/nucleus-grizzly-all-7.0.8.jar nucleus/grizzly/nucleus-grizzly-all/target/nucleus-grizzly-all.jar
+--- target/reference/nucleus-grizzly-all-7.0.8.jar
++++ nucleus/grizzly/nucleus-grizzly-all/target/nucleus-grizzly-all.jar
+├── zipinfo {}
+│ @@ -1,12 +1,12 @@
+│ -Zip file size: 1870605 bytes, number of entries: 1179
+│ +Zip file size: 1870348 bytes, number of entries: 1179
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat    12709 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/hk2-locator/
+│ --rw----     2.0 fat    33980 bl defN 80-Feb-01 00:00 META-INF/hk2-locator/default
+│ +-rw----     2.0 fat    16991 bl defN 80-Feb-01 00:00 META-INF/hk2-locator/default
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.glassfish.main.grizzly/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.glassfish.main.grizzly/nucleus-grizzly-all/
+│  -rw----     2.0 fat       80 bl defN 80-Feb-01 00:00 META-INF/maven/org.glassfish.main.grizzly/nucleus-grizzly-all/pom.properties
+│  -rw----     2.0 fat     5642 bl defN 80-Feb-01 00:00 META-INF/maven/org.glassfish.main.grizzly/nucleus-grizzly-all/pom.xml
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/glassfish/
+│ @@ -1174,8 +1174,8 @@
+│  -rw----     2.0 fat     1024 bl defN 80-Feb-01 00:00 org/glassfish/grizzly/utils/StringFilter.class
+│  -rw----     2.0 fat      795 bl defN 80-Feb-01 00:00 org/glassfish/grizzly/utils/ThreadLocalRandom$1.class
+│  -rw----     2.0 fat     2548 bl defN 80-Feb-01 00:00 org/glassfish/grizzly/utils/ThreadLocalRandom.class
+│  -rw----     2.0 fat      661 bl defN 80-Feb-01 00:00 org/glassfish/grizzly/utils/TransferQueue.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/glassfish/grizzly/utils/conditions/
+│  -rw----     2.0 fat      160 bl defN 80-Feb-01 00:00 org/glassfish/grizzly/utils/conditions/Condition.class
+│  -rw----     2.0 fat      713 bl defN 80-Feb-01 00:00 org/glassfish/grizzly/version.properties
+│ -1179 files, 3995178 bytes uncompressed, 1628717 bytes compressed:  59.2%
+│ +1179 files, 3978189 bytes uncompressed, 1628460 bytes compressed:  59.1%
+├── META-INF/hk2-locator/default
+│ @@ -1,121 +1,9 @@
+│  #
+│ -# Generated on Sun Aug 27 22:38:40 UTC 2023 by hk2-inhabitant-generator
+│ -#
+│ -
+│ -[org.glassfish.grizzly.config.dom.FileCacheInjector]S
+│ -contract={org.jvnet.hk2.config.ConfigInjector}
+│ -name=file-cache
+│ -qualifier={org.jvnet.hk2.config.InjectionTarget}
+│ -metadata=@max-age-seconds={optional,default\:30,datatype\:java.lang.Integer,leaf},@max-cache-size-bytes={optional,default\:10485760,datatype\:java.lang.Integer,leaf},@max-files-count={optional,default\:1024,datatype\:java.lang.Integer,leaf},<property>={collection\:org.jvnet.hk2.config.types.Property},@enabled={optional,default\:false,datatype\:java.lang.Boolean,leaf},target={org.glassfish.grizzly.config.dom.FileCache}
+│ -
+│ -[org.glassfish.grizzly.config.dom.HttpInjector]S
+│ -contract={org.jvnet.hk2.config.ConfigInjector}
+│ -name=http
+│ -qualifier={org.jvnet.hk2.config.InjectionTarget}
+│ -metadata=@header-buffer-length-bytes={optional,default\:8192,datatype\:java.lang.Integer,leaf},@websockets-support-enabled={optional,default\:true,datatype\:java.lang.Boolean,leaf},@http2-max-frame-payload-size-in-bytes={optional,default\:16777215,datatype\:java.lang.Integer,leaf},@auth-pass-through-enabled={optional,default\:false,datatype\:java.lang.Boolean,leaf},@http2-disable-cipher-check={optional,default\:false,datatype\:java.lang.Boolean,leaf},@default-response-type={optional,datatype\:java.lang.String,leaf},@request-timeout-seconds={optional,default\:900,datatype\:java.lang.Integer,leaf},@connection-upload-timeout-millis={optional,default\:300000,datatype\:java.lang.Integer,leaf},@scheme={optional,datatype\:java.lang.String,leaf},@max-request-parameters={optional,default\:10000,datatype\:java.lang.Integer,leaf},@no-compression-user-agents={optional,datatype\:java.lang.Integer,leaf},@max-swallowing-input-bytes={optional,default\:-1,datatype\:java.lang.Integer,leaf},@dns-lookup-enabled={optional,default\:false,datatype\:java.lang.Boolean,leaf},@jk-configuration-file={optional,default\:$\{com.sun.aas.instanceRoot\}/config/glassfish-jk.properties,datatype\:java.lang.String,leaf},@max-post-size-bytes={optional,default\:-1,datatype\:java.lang.Integer,leaf},@http2-max-header-list-size-in-bytes={optional,default\:4096,datatype\:java.lang.Integer,leaf},@send-buffer-size-bytes={optional,default\:8192,datatype\:java.lang.Integer,leaf},@jk-enabled={optional,datatype\:java.lang.Boolean,leaf},@forced-response-type={optional,datatype\:java.lang.String,leaf},@allow-payload-for-undefined-http-methods={optional,default\:false,datatype\:java.lang.Boolean,leaf},@default-virtual-server={required,datatype\:java.lang.String,leaf},@rcm-support-enabled={optional,default\:false,datatype\:java.lang.Boolean,leaf},@restricted-user-agents={optional,datatype\:java.lang.String,leaf},@timeout-seconds={optional,default\:30,datatype\:java.lang.Integer,leaf},@xpowered-by={optional,default\:true,datatype\:java.lang.Boolean,leaf},@http2-enabled={optional,default\:true,datatype\:java.lang.Boolean,leaf},@http2-initial-window-size-in-bytes={optional,default\:65535,datatype\:java.lang.Integer,leaf},@max-response-headers={optional,default\:100,datatype\:java.lang.Integer,leaf},@max-save-post-size-bytes={optional,default\:4096,datatype\:java.lang.Integer,leaf},<file-cache>={org.glassfish.grizzly.config.dom.FileCache,@jakarta.validation.constraints.NotNull},@scheme-mapping={optional,datatype\:java.lang.String,leaf},@adapter={optional,default\:org.glassfish.grizzly.http.server.StaticHttpHandler,datatype\:java.lang.String,leaf},@uri-encoding={optional,default\:UTF-8,datatype\:java.lang.String,leaf},@http2-max-concurrent-streams={optional,default\:100,datatype\:java.lang.Integer,leaf},@redirect-port={optional,datatype\:java.lang.Integer,leaf},@encoded-slash-enabled={optional,default\:false,datatype\:java.lang.Boolean,leaf},@upload-timeout-enabled={optional,default\:true,datatype\:java.lang.Boolean,leaf},@compression-min-size-bytes={optional,default\:2048,datatype\:java.lang.Integer,leaf},@comet-support-enabled={optional,default\:false,datatype\:java.lang.Boolean,leaf},@version={optional,default\:HTTP/1.1,datatype\:java.lang.String,leaf},@websockets-timeout-seconds={optional,default\:900,datatype\:java.lang.Integer,leaf},@max-form-post-size-bytes={optional,default\:2097152,datatype\:java.lang.Integer,leaf},@max-request-headers={optional,default\:100,datatype\:java.lang.Integer,leaf},@compression={optional,default\:off,datatype\:java.lang.String,leaf},@trace-enabled={optional,default\:false,datatype\:java.lang.Boolean,leaf},<property>={collection\:org.jvnet.hk2.config.types.Property},@compressable-mime-type={optional,default\:text/html\,text/xml\,text/plain,datatype\:java.lang.String,leaf},target={org.glassfish.grizzly.config.dom.Http},@max-connections={optional,default\:256,datatype\:java.lang.Integer,leaf},@remote-user-mapping={optional,datatype\:java.lang.String,leaf},@server-name={optional,datatype\:java.lang.String,leaf},@chunking-enabled={optional,default\:true,datatype\:java.lang.Boolean,leaf}
+│ -
+│ -[org.glassfish.grizzly.config.dom.HttpRedirectInjector]S
+│ -contract={org.jvnet.hk2.config.ConfigInjector}
+│ -name=http-redirect
+│ -qualifier={org.jvnet.hk2.config.InjectionTarget}
+│ -metadata=<property>={collection\:org.jvnet.hk2.config.types.Property},@port={optional,default\:-1,datatype\:java.lang.Integer,leaf},@secure={optional,default\:false,datatype\:java.lang.Boolean,leaf},target={org.glassfish.grizzly.config.dom.HttpRedirect}
+│ -
+│ -[org.glassfish.grizzly.config.dom.NetworkConfigInjector]S
+│ -contract={org.jvnet.hk2.config.ConfigInjector}
+│ -name=network-config
+│ -qualifier={org.jvnet.hk2.config.InjectionTarget}
+│ -metadata=<network-listeners>={org.glassfish.grizzly.config.dom.NetworkListeners},<protocols>={org.glassfish.grizzly.config.dom.Protocols},<property>={collection\:org.jvnet.hk2.config.types.Property},<transports>={org.glassfish.grizzly.config.dom.Transports},target={org.glassfish.grizzly.config.dom.NetworkConfig}
+│ -
+│ -[org.glassfish.grizzly.config.dom.NetworkListenerInjector]S
+│ -contract={org.jvnet.hk2.config.ConfigInjector}
+│ -name=network-listener
+│ -qualifier={org.jvnet.hk2.config.InjectionTarget}
+│ -metadata=@jk-enabled={optional,default\:false,datatype\:java.lang.Boolean,leaf},@type={required,default\:standard,datatype\:java.lang.String,leaf},<property>={collection\:org.jvnet.hk2.config.types.Property},keyed-as={org.glassfish.grizzly.config.dom.NetworkListener},target={org.glassfish.grizzly.config.dom.NetworkListener},@name={required,datatype\:java.lang.String,leaf},@address={optional,default\:0.0.0.0,datatype\:java.lang.String,leaf},@transport={required,datatype\:java.lang.String,leaf},@enabled={optional,default\:true,datatype\:java.lang.Boolean,leaf},@port={required,datatype\:java.lang.Integer,leaf},@jk-configuration-file={optional,default\:$\{com.sun.aas.instanceRoot\}/config/glassfish-jk.properties,datatype\:java.lang.String,leaf},@protocol={required,datatype\:java.lang.String,leaf},key={@name},@thread-pool={optional,datatype\:java.lang.String,leaf}
+│ -
+│ -[org.glassfish.grizzly.config.dom.NetworkListenersInjector]S
+│ -contract={org.jvnet.hk2.config.ConfigInjector}
+│ -name=network-listeners
+│ -qualifier={org.jvnet.hk2.config.InjectionTarget}
+│ -metadata=<thread-pool>={collection\:org.glassfish.grizzly.config.dom.ThreadPool},<network-listener>={collection\:org.glassfish.grizzly.config.dom.NetworkListener},<property>={collection\:org.jvnet.hk2.config.types.Property},target={org.glassfish.grizzly.config.dom.NetworkListeners}
+│ -
+│ -[org.glassfish.grizzly.config.dom.PortUnificationInjector]S
+│ -contract={org.jvnet.hk2.config.ConfigInjector}
+│ -name=port-unification
+│ -qualifier={org.jvnet.hk2.config.InjectionTarget}
+│ -metadata=@classname={optional,datatype\:java.lang.String,leaf},<protocol-finder>={collection\:org.glassfish.grizzly.config.dom.ProtocolFinder},<property>={collection\:org.jvnet.hk2.config.types.Property},@web-protocol-sticky-enabled={optional,default\:true,datatype\:java.lang.Boolean,leaf},target={org.glassfish.grizzly.config.dom.PortUnification}
+│ -
+│ -[org.glassfish.grizzly.config.dom.ProtocolChainInjector]S
+│ -contract={org.jvnet.hk2.config.ConfigInjector}
+│ -name=protocol-chain
+│ -qualifier={org.jvnet.hk2.config.InjectionTarget}
+│ -metadata=@classname={optional,datatype\:java.lang.String,leaf},@type={optional,default\:STATELESS,datatype\:java.lang.String,leaf},<property>={collection\:org.jvnet.hk2.config.types.Property},<protocol-filter>={collection\:org.glassfish.grizzly.config.dom.ProtocolFilter},target={org.glassfish.grizzly.config.dom.ProtocolChain}
+│ -
+│ -[org.glassfish.grizzly.config.dom.ProtocolChainInstanceHandlerInjector]S
+│ -contract={org.jvnet.hk2.config.ConfigInjector}
+│ -name=protocol-chain-instance-handler
+│ -qualifier={org.jvnet.hk2.config.InjectionTarget}
+│ -metadata=@classname={optional,datatype\:java.lang.String,leaf},<property>={collection\:org.jvnet.hk2.config.types.Property},<protocol-chain>={org.glassfish.grizzly.config.dom.ProtocolChain},target={org.glassfish.grizzly.config.dom.ProtocolChainInstanceHandler}
+│ -
+│ -[org.glassfish.grizzly.config.dom.ProtocolFilterInjector]S
+│ -contract={org.jvnet.hk2.config.ConfigInjector}
+│ -name=protocol-filter
+│ -qualifier={org.jvnet.hk2.config.InjectionTarget}
+│ -metadata=@classname={required,datatype\:java.lang.String,leaf},@name={optional,datatype\:java.lang.String,leaf},<property>={collection\:org.jvnet.hk2.config.types.Property},keyed-as={org.glassfish.grizzly.config.dom.ProtocolFilter},key={@name},target={org.glassfish.grizzly.config.dom.ProtocolFilter}
+│ -
+│ -[org.glassfish.grizzly.config.dom.ProtocolFinderInjector]S
+│ -contract={org.jvnet.hk2.config.ConfigInjector}
+│ -name=protocol-finder
+│ -qualifier={org.jvnet.hk2.config.InjectionTarget}
+│ -metadata=@classname={required,datatype\:java.lang.String,leaf},@name={optional,datatype\:java.lang.String,leaf},<property>={collection\:org.jvnet.hk2.config.types.Property},keyed-as={org.glassfish.grizzly.config.dom.ProtocolFinder},@protocol={optional,datatype\:java.lang.String,leaf},key={@name},target={org.glassfish.grizzly.config.dom.ProtocolFinder}
+│ -
+│ -[org.glassfish.grizzly.config.dom.ProtocolInjector]S
+│ -contract={org.jvnet.hk2.config.ConfigInjector}
+│ -name=protocol
+│ -qualifier={org.jvnet.hk2.config.InjectionTarget}
+│ -metadata=@name={required,datatype\:java.lang.String,leaf},<http-redirect>={org.glassfish.grizzly.config.dom.HttpRedirect},@security-enabled={optional,default\:false,datatype\:java.lang.Boolean,leaf},<http>={org.glassfish.grizzly.config.dom.Http},<property>={collection\:org.jvnet.hk2.config.types.Property},<protocol-chain-instance-handler>={org.glassfish.grizzly.config.dom.ProtocolChainInstanceHandler},keyed-as={org.glassfish.grizzly.config.dom.Protocol},<port-unification>={org.glassfish.grizzly.config.dom.PortUnification},<ssl>={org.glassfish.grizzly.config.dom.Ssl},key={@name},target={org.glassfish.grizzly.config.dom.Protocol}
+│ -
+│ -[org.glassfish.grizzly.config.dom.ProtocolsInjector]S
+│ -contract={org.jvnet.hk2.config.ConfigInjector}
+│ -name=protocols
+│ -qualifier={org.jvnet.hk2.config.InjectionTarget}
+│ -metadata=<protocol>={collection\:org.glassfish.grizzly.config.dom.Protocol},<property>={collection\:org.jvnet.hk2.config.types.Property},target={org.glassfish.grizzly.config.dom.Protocols}
+│ -
+│ -[org.glassfish.grizzly.config.dom.SelectionKeyHandlerInjector]S
+│ -contract={org.jvnet.hk2.config.ConfigInjector}
+│ -name=selection-key-handler
+│ -qualifier={org.jvnet.hk2.config.InjectionTarget}
+│ -metadata=@classname={required,datatype\:java.lang.String,leaf},@name={required,datatype\:java.lang.String,leaf},<property>={collection\:org.jvnet.hk2.config.types.Property},keyed-as={org.glassfish.grizzly.config.dom.SelectionKeyHandler},key={@name},target={org.glassfish.grizzly.config.dom.SelectionKeyHandler}
+│ -
+│ -[org.glassfish.grizzly.config.dom.SslInjector]S
+│ -contract={org.jvnet.hk2.config.ConfigInjector}
+│ -name=ssl
+│ -qualifier={org.jvnet.hk2.config.InjectionTarget}
+│ -metadata=@tls12-enabled={optional,default\:true,datatype\:java.lang.Boolean,leaf},@key-store-password-provider={optional,default\:plain,datatype\:java.lang.String,leaf},@ssl-inactivity-timeout={optional,default\:30,datatype\:java.lang.Integer,leaf},@tls11-enabled={optional,default\:true,datatype\:java.lang.Boolean,leaf},@allow-lazy-init={optional,default\:true,datatype\:java.lang.Boolean,leaf},@tls13-enabled={optional,default\:true,datatype\:java.lang.Boolean,leaf},@crl-file={optional,datatype\:java.lang.String,leaf},@key-store={optional,datatype\:java.lang.String,leaf},@tls-enabled={optional,default\:true,datatype\:java.lang.Boolean,leaf},@key-store-type={optional,datatype\:java.lang.String,leaf},@classname={optional,datatype\:java.lang.String,leaf},@ssl2-enabled={optional,default\:false,datatype\:java.lang.Boolean,leaf},@ssl3-enabled={optional,default\:false,datatype\:java.lang.Boolean,leaf},@trust-store-password-provider={optional,default\:plain,datatype\:java.lang.String,leaf},@trust-store-type={optional,datatype\:java.lang.String,leaf},@trust-store-password={optional,datatype\:java.lang.String,leaf},@client-auth-enabled={optional,default\:false,datatype\:java.lang.Boolean,leaf},@ssl3-tls-ciphers={optional,datatype\:java.lang.String,leaf},@cert-nickname={optional,datatype\:java.lang.String,leaf},<property>={collection\:org.jvnet.hk2.config.types.Property},@renegotiate-on-client-auth-want={optional,default\:true,datatype\:java.lang.Boolean,leaf},@ssl2-ciphers={optional,datatype\:java.lang.String,leaf},@trust-algorithm={optional,datatype\:java.lang.String,leaf},@client-auth={optional,default\:,datatype\:java.lang.String,leaf},target={org.glassfish.grizzly.config.dom.Ssl},@trust-max-cert-length={optional,default\:5,datatype\:java.lang.Integer,leaf},@handshake-timeout-millis={optional,default\:-1,datatype\:java.lang.Long,leaf},@key-store-password={optional,datatype\:java.lang.String,leaf},@trust-store={optional,datatype\:java.lang.String,leaf},@tls-rollback-enabled={optional,default\:true,datatype\:java.lang.Boolean,leaf},@key-algorithm={optional,datatype\:java.lang.String,leaf}
+│ -
+│ -[org.glassfish.grizzly.config.dom.ThreadPoolInjector]S
+│ -contract={org.jvnet.hk2.config.ConfigInjector}
+│ -name=thread-pool
+│ -qualifier={org.jvnet.hk2.config.InjectionTarget}
+│ -metadata=@classname={optional,default\:org.glassfish.grizzly.threadpool.GrizzlyExecutorService,datatype\:java.lang.String,leaf},@name={required,datatype\:java.lang.String,leaf},@idle-thread-timeout-seconds={optional,default\:900,datatype\:java.lang.Integer,leaf},@max-queue-size={optional,default\:4096,datatype\:java.lang.Integer,leaf},<property>={collection\:org.jvnet.hk2.config.types.Property},@thread-pool-id={optional,datatype\:java.lang.String,leaf},keyed-as={org.glassfish.grizzly.config.dom.ThreadPool},@max-thread-pool-size={optional,default\:5,datatype\:java.lang.Integer,leaf},@min-thread-pool-size={optional,default\:5,datatype\:java.lang.Integer,leaf},key={@name},target={org.glassfish.grizzly.config.dom.ThreadPool}
+│ -
+│ -[org.glassfish.grizzly.config.dom.TransportInjector]S
+│ -contract={org.jvnet.hk2.config.ConfigInjector}
+│ -name=transport
+│ -qualifier={org.jvnet.hk2.config.InjectionTarget}
+│ -metadata=@enable-snoop={optional,default\:false,datatype\:java.lang.Boolean,leaf},@read-timeout-millis={optional,default\:30000,datatype\:java.lang.Integer,leaf},<property>={collection\:org.jvnet.hk2.config.types.Property},@tcp-no-delay={optional,default\:true,datatype\:java.lang.Boolean,leaf},@acceptor-threads={optional,default\:1,datatype\:java.lang.Integer,leaf},@display-configuration={optional,default\:false,datatype\:java.lang.Boolean,leaf},@selection-key-handler={optional,datatype\:java.lang.String,leaf},keyed-as={org.glassfish.grizzly.config.dom.Transport},@idle-key-timeout-seconds={optional,default\:30,datatype\:java.lang.Integer,leaf},@selector-poll-timeout-millis={optional,default\:1000,datatype\:java.lang.Integer,leaf},target={org.glassfish.grizzly.config.dom.Transport},@classname={optional,default\:org.glassfish.grizzly.nio.transport.TCPNIOTransport,datatype\:java.lang.String,leaf},@socket-read-buffer-size={optional,default\:-1,datatype\:java.lang.Integer,leaf},@name={required,datatype\:java.lang.String,leaf},@byte-buffer-type={optional,default\:heap,datatype\:java.lang.String,leaf},@linger={optional,default\:-1,datatype\:java.lang.Integer,leaf},@max-connections-count={optional,default\:4096,datatype\:java.lang.Integer,leaf},@write-timeout-millis={optional,default\:30000,datatype\:java.lang.Integer,leaf},@dedicated-acceptor-enabled={optional,default\:false,datatype\:java.lang.Boolean,leaf},@buffer-size-bytes={optional,default\:8192,datatype\:java.lang.Integer,leaf},@socket-write-buffer-size={optional,default\:-1,datatype\:java.lang.Integer,leaf},key={@name},@io-strategy={optional,datatype\:java.lang.String,leaf}
+│ -
+│ -[org.glassfish.grizzly.config.dom.TransportsInjector]S
+│ -contract={org.jvnet.hk2.config.ConfigInjector}
+│ -name=transports
+│ -qualifier={org.jvnet.hk2.config.InjectionTarget}
+│ -metadata=<transport>={collection\:org.glassfish.grizzly.config.dom.Transport},<property>={collection\:org.jvnet.hk2.config.types.Property},<selection-key-handler>={collection\:org.glassfish.grizzly.config.dom.SelectionKeyHandler},target={org.glassfish.grizzly.config.dom.Transports}
+│ -
+│ -#
+│ -# Generated on Sun Aug 27 22:47:34 UTC 2023 by hk2-inhabitant-generator
+│ +# Generated on Tue Aug 29 08:31:52 CEST 2023 by hk2-inhabitant-generator
+│  #
+│  
+│  [org.glassfish.grizzly.config.dom.FileCacheInjector]S
+│  contract={org.jvnet.hk2.config.ConfigInjector}
+│  name=file-cache
+│  qualifier={org.jvnet.hk2.config.InjectionTarget}
+│  metadata=@max-age-seconds={optional,default\:30,datatype\:java.lang.Integer,leaf},@max-cache-size-bytes={optional,default\:10485760,datatype\:java.lang.Integer,leaf},@max-files-count={optional,default\:1024,datatype\:java.lang.Integer,leaf},<property>={collection\:org.jvnet.hk2.config.types.Property},@enabled={optional,default\:false,datatype\:java.lang.Boolean,leaf},target={org.glassfish.grizzly.config.dom.FileCache}
+
+...
+
+212 / 213 target/reference/docs-7.0.8.pom docs/pom.xml
+/srv/diffoscope/bin/diffoscope: target/reference/docs-7.0.8.pom: No such file or directory
+
+213 / 213 target/reference/distribution-7.0.8.jar docs/distribution/target/distribution-7.0.8.jar
+--- target/reference/distribution-7.0.8.jar
++++ docs/distribution/target/distribution-7.0.8.jar
+├── zipinfo {}
+│ @@ -1,43 +1,43 @@
+│ -Zip file size: 7272051 bytes, number of entries: 41
+│ +Zip file size: 7272094 bytes, number of entries: 41
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-19 17:24 META-INF/
+│  -rw-r--r--  2.0 unx       81 b- defN 20-Dec-19 17:24 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-19 17:24 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-19 17:24 META-INF/maven/org.glassfish.docs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Dec-19 17:24 META-INF/maven/org.glassfish.docs/distribution/
+│ --rw-r--r--  2.0 unx   473987 b- defN 20-Dec-19 17:24 add-on-component-development-guide.html
+│ +-rw-r--r--  2.0 unx   473989 b- defN 20-Dec-19 17:24 add-on-component-development-guide.html
+│  -rw-r--r--  2.0 unx  2604571 b- defN 20-Dec-19 17:24 add-on-component-development-guide.pdf
+│ --rw-r--r--  2.0 unx  1547799 b- defN 20-Dec-19 17:24 administration-guide.html
+│ +-rw-r--r--  2.0 unx  1547801 b- defN 20-Dec-19 17:24 administration-guide.html
+│  -rw-r--r--  2.0 unx  6476558 b- defN 20-Dec-19 17:24 administration-guide.pdf
+│ --rw-r--r--  2.0 unx  1019990 b- defN 20-Dec-19 17:24 application-deployment-guide.html
+│ +-rw-r--r--  2.0 unx  1019992 b- defN 20-Dec-19 17:24 application-deployment-guide.html
+│  -rw-r--r--  2.0 unx  4442365 b- defN 20-Dec-19 17:24 application-deployment-guide.pdf
+│ --rw-r--r--  2.0 unx   961058 b- defN 20-Dec-19 17:24 application-development-guide.html
+│ +-rw-r--r--  2.0 unx   961060 b- defN 20-Dec-19 17:24 application-development-guide.html
+│  -rw-r--r--  2.0 unx  4830314 b- defN 20-Dec-19 17:24 application-development-guide.pdf
+│  -rw-r--r--  2.0 unx    29039 b- defN 20-Dec-19 17:24 asciidoctor.css
+│  -rw-r--r--  2.0 unx     3483 b- defN 20-Dec-19 17:24 coderay-asciidoctor.css
+│ --rw-r--r--  2.0 unx   128299 b- defN 20-Dec-19 17:24 deployment-planning-guide.html
+│ +-rw-r--r--  2.0 unx   128301 b- defN 20-Dec-19 17:24 deployment-planning-guide.html
+│  -rw-r--r--  2.0 unx   538528 b- defN 20-Dec-19 17:24 deployment-planning-guide.pdf
+│ --rw-r--r--  2.0 unx   168888 b- defN 20-Dec-19 17:24 embedded-server-guide.html
+│ +-rw-r--r--  2.0 unx   168890 b- defN 20-Dec-19 17:24 embedded-server-guide.html
+│  -rw-r--r--  2.0 unx   952395 b- defN 20-Dec-19 17:24 embedded-server-guide.pdf
+│ --rw-r--r--  2.0 unx   653562 b- defN 20-Dec-19 17:24 error-messages-reference.html
+│ +-rw-r--r--  2.0 unx   653564 b- defN 20-Dec-19 17:24 error-messages-reference.html
+│  -rw-r--r--  2.0 unx  3380198 b- defN 20-Dec-19 17:24 error-messages-reference.pdf
+│ --rw-r--r--  2.0 unx   572633 b- defN 20-Dec-19 17:24 ha-administration-guide.html
+│ +-rw-r--r--  2.0 unx   572635 b- defN 20-Dec-19 17:24 ha-administration-guide.html
+│  -rw-r--r--  2.0 unx  2576472 b- defN 20-Dec-19 17:24 ha-administration-guide.pdf
+│ --rw-r--r--  2.0 unx    84587 b- defN 20-Dec-19 17:24 installation-guide.html
+│ +-rw-r--r--  2.0 unx    84589 b- defN 20-Dec-19 17:24 installation-guide.html
+│  -rw-r--r--  2.0 unx   399691 b- defN 20-Dec-19 17:24 installation-guide.pdf
+│ --rw-r--r--  2.0 unx   376968 b- defN 20-Dec-19 17:24 performance-tuning-guide.html
+│ +-rw-r--r--  2.0 unx   376970 b- defN 20-Dec-19 17:24 performance-tuning-guide.html
+│  -rw-r--r--  2.0 unx  1506652 b- defN 20-Dec-19 17:24 performance-tuning-guide.pdf
+│ --rw-r--r--  2.0 unx    69239 b- defN 20-Dec-19 17:24 quick-start-guide.html
+│ +-rw-r--r--  2.0 unx    69241 b- defN 20-Dec-19 17:24 quick-start-guide.html
+│  -rw-r--r--  2.0 unx   319955 b- defN 20-Dec-19 17:24 quick-start-guide.pdf
+│ --rw-r--r--  2.0 unx  2004664 b- defN 20-Dec-19 17:24 reference-manual.html
+│ +-rw-r--r--  2.0 unx  2004666 b- defN 20-Dec-19 17:24 reference-manual.html
+│  -rw-r--r--  2.0 unx  8578967 b- defN 20-Dec-19 17:24 reference-manual.pdf
+│ --rw-r--r--  2.0 unx    96888 b- defN 20-Dec-19 17:24 release-notes.html
+│ +-rw-r--r--  2.0 unx    96890 b- defN 20-Dec-19 17:24 release-notes.html
+│  -rw-r--r--  2.0 unx   468392 b- defN 20-Dec-19 17:24 release-notes.pdf
+│ --rw-r--r--  2.0 unx   521902 b- defN 20-Dec-19 17:24 security-guide.html
+│ +-rw-r--r--  2.0 unx   521904 b- defN 20-Dec-19 17:24 security-guide.html
+│  -rw-r--r--  2.0 unx  1638836 b- defN 20-Dec-19 17:24 security-guide.pdf
+│ --rw-r--r--  2.0 unx   110687 b- defN 20-Dec-19 17:24 troubleshooting-guide.html
+│ +-rw-r--r--  2.0 unx   110689 b- defN 20-Dec-19 17:24 troubleshooting-guide.html
+│  -rw-r--r--  2.0 unx   474905 b- defN 20-Dec-19 17:24 troubleshooting-guide.pdf
+│ --rw-r--r--  2.0 unx   217352 b- defN 20-Dec-19 17:24 upgrade-guide.html
+│ +-rw-r--r--  2.0 unx   217354 b- defN 20-Dec-19 17:24 upgrade-guide.html
+│  -rw-r--r--  2.0 unx  1104243 b- defN 20-Dec-19 17:24 upgrade-guide.pdf
+│  -rw-r--r--  2.0 unx    11655 b- defN 20-Dec-19 17:24 META-INF/maven/org.glassfish.docs/distribution/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 20-Dec-19 17:24 META-INF/maven/org.glassfish.docs/distribution/pom.properties
+│ -41 files, 49345868 bytes uncompressed, 7266709 bytes compressed:  85.3%
+│ +41 files, 49345900 bytes uncompressed, 7266752 bytes compressed:  85.3%
+├── add-on-component-development-guide.html
+│ @@ -9626,12 +9626,12 @@
+│  </div>
+│  </div>
+│  </div>
+│  </div>
+│  </div>
+│  <div id="footer">
+│  <div id="footer-text">
+│ -Last updated 2023-08-27 23:12:04 UTC
+│ +Last updated 2023-08-29 08:33:37 +0200
+│  </div>
+│  </div>
+│  </body>
+│  </html>
+├── add-on-component-development-guide.pdf
+│ ├── add-on-component-development-guide.pdf
+│ │┄ Document info
+│ │ @@ -1,5 +1,5 @@
+│ │ -CreationDate: "D:20230827231212+00'00'"
+│ │ +CreationDate: "D:20230829083339+02'00'"
+│ │  Creator: 'Asciidoctor PDF 2.3.9, based on Prawn 2.4.0'
+│ │ -ModDate: "D:20230827231204+00'00'"
+│ │ +ModDate: "D:20230829083337+02'00'"
+│ │  Producer: 'Asciidoctor PDF 2.3.9, based on Prawn 2.4.0'
+│ │  Title: 'Eclipse GlassFish Add-On Component Development Guide, Release 7'
+...
