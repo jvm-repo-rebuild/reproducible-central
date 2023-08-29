@@ -4,8 +4,7 @@ display=${groupId}-WCM:ui.clientlibs
 version=1.1.0
 
 gitRepo=https://github.com/wcm-io/wcm-io-wcm.git
-#gitTag=${artifactId}-${version}
-gitTag=7a140443
+gitTag=${artifactId}-${version}
 
 tool=mvn
 jdk=8
