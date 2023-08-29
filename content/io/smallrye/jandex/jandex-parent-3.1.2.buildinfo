@@ -35,8 +35,8 @@ outputs.1.0.length=8954
 outputs.1.0.checksums.sha512=e00727d38736ca824d930158e26b24575e1fd7fb9dd9b2e61c28d8cc02144e62be515bc8c9a08abf4870babc8ceceb9bbb45fb442fa65b782fc19bb281b755f9
 
 outputs.1.1.filename=jandex-test-data-3.1.2.jar
-outputs.1.1.length=71171
-outputs.1.1.checksums.sha512=42a80c29f5b9c5c62d615d4931a624e33a5de9583467d2403c8c10e88c1dd528117982d0202de09a1b12ab92eee405dffcb40335656e00154b60a9bb88f80076
+outputs.1.1.length=71172
+outputs.1.1.checksums.sha512=64c839f704aca7a12cc81c4e72955dcab317e6a8ab491ec03b78af1456a39e7a48550c02627846f4ca3a102153757ff407148b3706bf3bd3ab7e97e99b1f291d
 
 outputs.1.2.filename=jandex-test-data-3.1.2-sources.jar
 outputs.1.2.length=10357
@@ -63,8 +63,8 @@ outputs.3.0.length=3369
 outputs.3.0.checksums.sha512=719f07345164ef1e9234d04bc77a8c9e91995a6e5d0354f027211b21716ab52b297293bced243c380b3342bfbe8eb5d1944191e62f458750c56f0365dc02abe9
 
 outputs.3.1.filename=jandex-maven-plugin-3.1.2.jar
-outputs.3.1.length=19927
-outputs.3.1.checksums.sha512=52c0b3223328c0d872cae1d9269077f39c6463bdd6a5ead32c10cc69200abd103a1b7e2cff1a76464698ce2e61dc7510ea198fbccdb3dff35340f8417571a8e9
+outputs.3.1.length=19932
+outputs.3.1.checksums.sha512=874d9307b64b3d9fadfd9cceee3751c4319fa203ab46ef0dcce78ec1a7733fc31bea30dabf197578b736bb1470bb9a543c809f1fcc8bed3b0756cceee37a55ef
 
 outputs.3.2.filename=jandex-maven-plugin-3.1.2-sources.jar
 outputs.3.2.length=9271

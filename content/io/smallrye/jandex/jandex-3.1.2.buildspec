@@ -8,7 +8,7 @@ gitRepo=https://github.com/smallrye/jandex.git
 gitTag=${version}
 
 tool=mvn
-jdk=17
+jdk=17.0.7
 newline=lf
 
 command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Denv.JAVA_HOME=/usr"
