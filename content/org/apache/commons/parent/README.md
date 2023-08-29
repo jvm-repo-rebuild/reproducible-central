@@ -13,6 +13,7 @@ rebuilding **8 releases** of org.apache.commons:commons-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [61](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/61/pom) | | | |
 | [60](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/60/pom) | [mvn jdk8](commons-parent-60.buildspec) | [result](commons-parent-60.buildinfo): [4 :heavy_check_mark:  1 :warning:](commons-parent-60.buildcompare) [:mag:](commons-parent-60.diffoscope) [:memo:](https://github.com/spdx/spdx-maven-plugin/issues/126) | 93K |
 | [59](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/59/pom) | [mvn jdk8](commons-parent-59.buildspec) | [result](commons-parent-59.buildinfo): [2 :heavy_check_mark: ](commons-parent-59.buildcompare) | 87K |
 | [58](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/58/pom) | [mvn jdk8](commons-parent-58.buildspec) | [result](commons-parent-58.buildinfo): [2 :heavy_check_mark: ](commons-parent-58.buildcompare) | 88K |
