@@ -1,0 +1,48 @@
+# sling-initial-content-transform-maven-plugin:1.0.0:transform produces non-reproducible output
+1 / 2 target/reference/io.wcm.wcm.ui.granite-1.7.4-content.zip target/io.wcm.wcm.ui.granite-1.7.4-content.zip
+--- target/reference/io.wcm.wcm.ui.granite-1.7.4-content.zip
++++ target/io.wcm.wcm.ui.granite-1.7.4-content.zip
+├── zipinfo {}
+│ @@ -1,41 +1,41 @@
+│ -Zip file size: 28743 bytes, number of entries: 39
+│ --rw----     2.0 fat     3167 bl defN 21-Mar-25 15:47 META-INF/vault/config.xml
+...
+│ --rw----     2.0 fat     1003 bl defN 21-Mar-25 15:47 jcr_root/apps/wcm-io/wcm/ui/granite/content/form/pathfield/suggestion/.content.xml
+│ -39 files, 47549 bytes uncompressed, 19701 bytes compressed:  58.6%
+│ +Zip file size: 28738 bytes, number of entries: 39
+│ +-rw----     2.0 fat     3167 bl defN 23-Aug-29 21:18 META-INF/vault/config.xml
+...
+│ +-rw----     2.0 fat     1003 bl defN 23-Aug-29 21:18 jcr_root/apps/wcm-io/wcm/ui/granite/content/form/pathfield/suggestion/.content.xml
+│ +39 files, 47544 bytes uncompressed, 19696 bytes compressed:  58.6%
+├── META-INF/vault/properties.xml
+│ ├── META-INF/vault/properties.xml
+│ │ @@ -1,13 +1,13 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <!DOCTYPE properties
+│ │    SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
+│ │  <properties>
+│ │    <entry key="allowIndexDefinitions">false</entry>
+│ │    <entry key="createdBy">admin</entry>
+│ │ -  <entry key="created">2021-03-25T15:47:46.747+01:00</entry>
+│ │ +  <entry key="created">2023-08-29T21:18:34.322Z</entry>
+│ │    <entry key="name">io.wcm.wcm.ui.granite-content</entry>
+│ │    <entry key="version">1.7.4</entry>
+│ │    <entry key="packageType">application</entry>
+│ │    <entry key="requiresRoot">false</entry>
+│ │    <entry key="group">wcm-io</entry>
+│ │  </properties>
+
+2 / 2 target/reference/io.wcm.wcm.ui.granite-1.7.4-bundle.jar target/io.wcm.wcm.ui.granite-1.7.4-bundle.jar
+--- target/reference/io.wcm.wcm.ui.granite-1.7.4-bundle.jar
++++ target/io.wcm.wcm.ui.granite-1.7.4-bundle.jar
+├── zipinfo {}
+│ @@ -1,54 +1,54 @@
+│  Zip file size: 42424 bytes, number of entries: 52
+│ --rw----     2.0 fat     3334 bl defN 21-Mar-25 15:47 META-INF/MANIFEST.MF
+...
+│ --rw----     2.0 fat       65 bl defN 21-Mar-25 15:47 META-INF/maven/io.wcm/io.wcm.wcm.ui.granite/pom.properties
+│ +-rw----     2.0 fat     3334 bl defN 23-Aug-29 21:18 META-INF/MANIFEST.MF
+...
+│ +-rw----     2.0 fat       65 bl defN 23-Aug-29 21:18 META-INF/maven/io.wcm/io.wcm.wcm.ui.granite/pom.properties
+│  52 files, 84355 bytes uncompressed, 32642 bytes compressed:  61.3%
+

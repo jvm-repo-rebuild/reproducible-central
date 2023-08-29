@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=WCM Granite UI Extensions
+group-id=io.wcm
+artifact-id=io.wcm.wcm.ui.granite
+version=1.7.4
+
+# source information
+source.scm.uri=scm:git:https://github.com/wcm-io/wcm-io-wcm.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=io.wcm.wcm.ui.granite-1.7.4.pom
+outputs.0.length=7770
+outputs.0.checksums.sha512=a0c111b2e88253b18f63214fc1a8b5349894cd36a309c591d0fb450d9788d492e6d6e32a347b2c8ef1d2b35b597a1a95cd9e4d981b33c99c60b2cd4d1dc313af
+
+outputs.1.filename=io.wcm.wcm.ui.granite-1.7.4.jar
+outputs.1.length=61922
+outputs.1.checksums.sha512=63c41e27470ae86b60cd30cc0dbcbcd07d2d9b19bf281c006fe6a08c29117f5294028194df2c62248fc0758baac03d86049b2a596996cd950a55bb13cb378194
+
+outputs.2.filename=io.wcm.wcm.ui.granite-1.7.4-sources.jar
+outputs.2.length=49371
+outputs.2.checksums.sha512=6b7e1c74627e93816e0b05aefbf2d34a72685011e2aadebc665d407f5c441a2e24db6b8de13e8c59cb1794393091aa9f9d3fa02c3e90f2e1182816c340623b9a
+
+outputs.3.filename=io.wcm.wcm.ui.granite-1.7.4-content.zip
+outputs.3.length=28738
+outputs.3.checksums.sha512=eed9376a2a2e766992916202fa967586f837f3a2954f89f5f05908ce11cf0e55f9c9ce682b5d738ff19320dbd31e1094d09df6eb3846ede405bd1e7c5738af3f
+
+outputs.4.filename=io.wcm.wcm.ui.granite-1.7.4-bundle.jar
+outputs.4.length=42424
+outputs.4.checksums.sha512=56eb62e3a951c5a2b03beebc353bc76aac0236ab038c82b6ca107e1a1222b234bd2de3e0b345cdc7c8849e2f41ce6dbfcc47a43106a5639ca2a83b9ee35c6590
