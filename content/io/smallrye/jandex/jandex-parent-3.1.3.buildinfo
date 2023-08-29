@@ -1,0 +1,77 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jandex: Parent
+group-id=io.smallrye
+artifact-id=jandex-parent
+version=3.1.3
+
+# source information
+source.scm.uri=scm:git:git@github.com:smallrye/jandex.git
+source.scm.tag=3.1.3
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=jandex-release
+
+# aggregated output
+
+outputs.0.coordinates=io.smallrye:jandex-parent
+
+outputs.0.0.filename=jandex-parent-3.1.3.pom
+outputs.0.0.length=7151
+outputs.0.0.checksums.sha512=024b17ad654154142c6fd52f5ca1386eea5c9aff07060c5b723d2a4199752248bbe642c8158600991ce9a3c281d5889786384637d50546f93d299ae6b354f865
+
+outputs.1.coordinates=io.smallrye:jandex-test-data
+
+outputs.1.0.filename=jandex-test-data-3.1.3.pom
+outputs.1.0.length=8954
+outputs.1.0.checksums.sha512=c8207d05717e913c2e7f3c09f1bc4cfbdae021e2b844b1448f0be2d0b34140ad5b0c070b02e10510ce54e4ad1f0e05c227400f45899bfeb503a46149a42ec17e
+
+outputs.1.1.filename=jandex-test-data-3.1.3.jar
+outputs.1.1.length=71176
+outputs.1.1.checksums.sha512=7150b442e7deeb785ed3ec9860b2b7d118437261714df2783ecfdc0293122737ae9763239f499a45596669f05432e53ed511728084d48eefed053c1979e3ac23
+
+outputs.1.2.filename=jandex-test-data-3.1.3-sources.jar
+outputs.1.2.length=10357
+outputs.1.2.checksums.sha512=38da178db7e5aca270f3bb7744a5c4a4418d83158e6e8fac2a624a430ac0fe67acf5132df0f704abdf623767398dc1fc6ab2b7e27add4b444f8a9e25b5be040b
+
+outputs.2.coordinates=io.smallrye:jandex
+
+outputs.2.0.filename=jandex-3.1.3.pom
+outputs.2.0.length=6966
+outputs.2.0.checksums.sha512=24dcefe0b7747dedd7332eff87401c5028718d9a417bf66d827f075dadad6a76723afbee537faffc0d85b7997b57479a8a63c0388da1e8d0eaf4de55e2f8f3ce
+
+outputs.2.1.filename=jandex-3.1.3.jar
+outputs.2.1.length=328142
+outputs.2.1.checksums.sha512=0ebc4713cbcffb04051928d53d4b05ea661e5d6cd76b8a72640e049304a8f8071a27a24e8e4c760d85e9898da20522d53b4c02438560c32b99b8ed14a21a04dc
+
+outputs.2.2.filename=jandex-3.1.3-sources.jar
+outputs.2.2.length=199318
+outputs.2.2.checksums.sha512=b0450e66da862a15954c8f8ec46223e792d986fcd26b4467498695cf969f9fdf4d85ccf21056220b24511b775b8937d0cebf82daf0f2e071a9068609ebbcb094
+
+outputs.3.coordinates=io.smallrye:jandex-maven-plugin
+
+outputs.3.0.filename=jandex-maven-plugin-3.1.3.pom
+outputs.3.0.length=3369
+outputs.3.0.checksums.sha512=4d5b57c9cdd209c5cf05a6612bdc45255e1d7f0491b37ec1cf2daa485c112d7a7e4ba0a386439e527d10b0c15b3a9231014aec3474b5939715105ed91fe8de98
+
+outputs.3.1.filename=jandex-maven-plugin-3.1.3.jar
+outputs.3.1.length=20097
+outputs.3.1.checksums.sha512=81a5feb8d93cf04c44d7c67a8ce7b32c531e20ab8acedde1f37edc21d1c05c511708603468f31efc62ac3f6c3843ac32cab6be8de6da7ca822e00995e6d8690a
+
+outputs.3.2.filename=jandex-maven-plugin-3.1.3-sources.jar
+outputs.3.2.length=9322
+outputs.3.2.checksums.sha512=d90c8fd47305422782f51b8c01b67a914d2ec91d248d5275b5695b6efa05b722aee119ece2166ecc5d395ef11d87560ad45371a030033ff4cc5589f914a48fb0
+
+outputs.4.coordinates=io.smallrye:jandex-release
+
+outputs.4.0.filename=jandex-release-3.1.3.pom
+outputs.4.0.length=609
+outputs.4.0.checksums.sha512=824d4e1730687ae779e560e8cc8d3914cc389225ea070ee004102cf43de86f9ce3618b371b0e431aaf2ea1a02bd732e813eddbaa8e7726164550267af00259e2

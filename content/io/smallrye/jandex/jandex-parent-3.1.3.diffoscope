@@ -1,0 +1,99 @@
+1 / 2 target/reference/jandex-test-data-3.1.3.jar test-data/target/jandex-test-data-3.1.3.jar
+--- target/reference/jandex-test-data-3.1.3.jar
++++ test-data/target/jandex-test-data-3.1.3.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 71174 bytes, number of entries: 132
+│ +Zip file size: 71176 bytes, number of entries: 132
+│  -rw----     1.0 fat        0 bx stor 23-Aug-28 10:47 META-INF/
+│ --rw----     2.0 fat      601 bl defN 23-Aug-28 10:49 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat      603 bl defN 23-Aug-29 08:22 META-INF/MANIFEST.MF
+│  -rw----     1.0 fat        0 b- stor 23-Aug-28 10:47 test/
+│  -rw----     1.0 fat        0 b- stor 23-Aug-28 10:47 test/exec/
+│  -rw----     1.0 fat        0 b- stor 23-Aug-28 10:47 META-INF/maven/
+│  -rw----     1.0 fat        0 b- stor 23-Aug-28 10:47 META-INF/maven/io.smallrye/
+│  -rw----     1.0 fat        0 b- stor 23-Aug-28 10:47 META-INF/maven/io.smallrye/jandex-test-data/
+│  -rw----     2.0 fat      917 bl defN 23-Aug-28 10:47 test/BridgeMethods$ArrayWithNullableElementsConsumer.class
+│  -rw----     2.0 fat      865 bl defN 23-Aug-28 10:47 test/BridgeMethods$ArrayWithNullableElementsSupplier.class
+│ @@ -126,9 +126,9 @@
+│  -rw----     2.0 fat      423 bl defN 23-Aug-28 10:47 test/VExample$U.class
+│  -rw----     2.0 fat      447 bl defN 23-Aug-28 10:47 test/VExample$V.class
+│  -rw----     2.0 fat     4800 bl defN 23-Aug-28 10:47 test/VExample.class
+│  -rw----     2.0 fat      375 bl defN 23-Aug-28 10:47 test/exec/Main.class
+│  -rw----     2.0 fat     8954 bl defN 23-Aug-28 10:47 META-INF/maven/io.smallrye/jandex-test-data/pom.xml
+│  -rw----     2.0 fat       62 bl defN 23-Aug-28 10:47 META-INF/maven/io.smallrye/jandex-test-data/pom.properties
+│  -rw----     2.0 fat      179 bl defN 23-Aug-28 10:47 META-INF/INDEX.LIST
+│ --rw----     2.0 fat      629 bl defN 23-Aug-28 10:49 module-info.class
+│ -132 files, 106580 bytes uncompressed, 50242 bytes compressed:  52.9%
+│ +-rw----     2.0 fat      629 bl defN 23-Aug-29 08:22 module-info.class
+│ +132 files, 106582 bytes uncompressed, 50244 bytes compressed:  52.9%
+├── META-INF/MANIFEST.MF
+│ @@ -2,18 +2,18 @@
+│  Created-By: Maven JAR Plugin 3.3.0
+│  Build-Jdk-Spec: 17
+│  Specification-Title: Jandex: Test Data
+│  Specification-Version: 3.1
+│  Implementation-Title: Jandex: Test Data
+│  Implementation-Version: 3.1.3
+│  Implementation-URL: https://smallrye.io
+│ -Java-Vendor: Eclipse Adoptium
+│ +Java-Vendor: Azul Systems, Inc.
+│  Java-Version: 17
+│  Os-Arch: amd64
+│  Os-Name: Linux
+│ -Os-Version: 5.15.0-1041-azure
+│ +Os-Version: 5.15.0-79-generic
+│  Scm-Connection: scm:git:git@github.com:smallrye/jandex.git/jandex-test-d
+│   ata
+│  Scm-Revision: e3d00b63860dc49df0c45638362f3e76fbcf4ab0
+│  Scm-Url: https://github.com/smallrye/jandex/jandex-test-data/
+│  Main-Class: test.exec.Main
+
+2 / 2 target/reference/jandex-maven-plugin-3.1.3.jar maven-plugin/target/jandex-maven-plugin-3.1.3.jar
+--- target/reference/jandex-maven-plugin-3.1.3.jar
++++ maven-plugin/target/jandex-maven-plugin-3.1.3.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│ -Zip file size: 20094 bytes, number of entries: 21
+│ +Zip file size: 20097 bytes, number of entries: 21
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-28 10:47 META-INF/
+│ --rw-r--r--  2.0 unx      589 b- defN 23-Aug-28 10:47 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx      591 b- defN 23-Aug-28 10:47 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-28 10:47 META-INF/m2e/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-28 10:47 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-28 10:47 META-INF/maven/io.smallrye/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-28 10:47 META-INF/maven/io.smallrye/jandex-maven-plugin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-28 10:47 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-28 10:47 org/jboss/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-28 10:47 org/jboss/jandex/
+│ @@ -16,8 +16,8 @@
+│  -rw-r--r--  2.0 unx     1284 b- defN 23-Aug-28 10:47 org/jboss/jandex/maven/Dependency.class
+│  -rw-r--r--  2.0 unx     1806 b- defN 23-Aug-28 10:47 org/jboss/jandex/maven/FileSet.class
+│  -rw-r--r--  2.0 unx    10342 b- defN 23-Aug-28 10:47 org/jboss/jandex/maven/JandexGoal.class
+│  -rw-r--r--  2.0 unx     8300 b- defN 23-Aug-28 10:47 org/jboss/jandex/maven/JandexJarGoal.class
+│  -rw-r--r--  2.0 unx     3369 b- defN 23-Aug-28 10:47 META-INF/maven/io.smallrye/jandex-maven-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       65 b- defN 23-Aug-28 10:47 META-INF/maven/io.smallrye/jandex-maven-plugin/pom.properties
+│  -rw-r--r--  2.0 unx      219 b- defN 23-Aug-28 10:47 META-INF/INDEX.LIST
+│ -21 files, 48201 bytes uncompressed, 17180 bytes compressed:  64.4%
+│ +21 files, 48203 bytes uncompressed, 17183 bytes compressed:  64.4%
+├── META-INF/MANIFEST.MF
+│ @@ -2,17 +2,17 @@
+│  Created-By: Maven JAR Plugin 3.3.0
+│  Build-Jdk-Spec: 17
+│  Specification-Title: Jandex: Maven Plugin
+│  Specification-Version: 3.1
+│  Implementation-Title: Jandex: Maven Plugin
+│  Implementation-Version: 3.1.3
+│  Implementation-URL: https://smallrye.io
+│ -Java-Vendor: Eclipse Adoptium
+│ +Java-Vendor: Azul Systems, Inc.
+│  Java-Version: 17.0.8
+│  Os-Arch: amd64
+│  Os-Name: Linux
+│ -Os-Version: 5.15.0-1041-azure
+│ +Os-Version: 5.15.0-79-generic
+│  Scm-Connection: scm:git:git@github.com:smallrye/jandex.git/jandex-maven-
+│   plugin
+│  Scm-Revision: e3d00b63860dc49df0c45638362f3e76fbcf4ab0
+│  Scm-Url: https://github.com/smallrye/jandex/jandex-maven-plugin/
+
