@@ -1,0 +1,9 @@
+version=1.9.12
+ok=3
+ko=2
+okFiles="io.wcm.wcm.ui.granite-1.9.12.pom io.wcm.wcm.ui.granite-1.9.12.jar io.wcm.wcm.ui.granite-1.9.12-sources.jar"
+koFiles="io.wcm.wcm.ui.granite-1.9.12-content.zip io.wcm.wcm.ui.granite-1.9.12-bundle.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/io.wcm.wcm.ui.granite-1.9.12-content.zip target/io.wcm.wcm.ui.granite-1.9.12-content.zip
+# diffoscope target/reference/io.wcm.wcm.ui.granite-1.9.12-bundle.jar target/io.wcm.wcm.ui.granite-1.9.12-bundle.jar

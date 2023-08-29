@@ -1,0 +1,18 @@
+groupId=io.wcm
+artifactId=io.wcm.wcm.ui.granite
+display=${groupId}-WCM:ui.granite
+version=1.9.12
+
+gitRepo=https://github.com/wcm-io/${artifactId}.git
+gitTag=${version}
+
+tool=mvn
+jdk=11
+newline=crlf-nogit
+umask=022
+
+timestamp=2023-05-19T13:58:57+02:00
+command="mvn -Pio.wcm clean package -DskipTests -Dmaven.javadoc.skip -Dtimestamp=${timestamp}"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
