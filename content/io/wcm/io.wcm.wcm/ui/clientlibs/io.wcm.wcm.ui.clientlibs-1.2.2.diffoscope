@@ -1,0 +1,89 @@
+1 / 2 target/reference/io.wcm.wcm.ui.clientlibs-1.2.2-content.zip target/io.wcm.wcm.ui.clientlibs-1.2.2-content.zip
+--- target/reference/io.wcm.wcm.ui.clientlibs-1.2.2-content.zip
++++ target/io.wcm.wcm.ui.clientlibs-1.2.2-content.zip
+├── zipinfo {}
+│ @@ -1,11 +1,11 @@
+│ -Zip file size: 5216 bytes, number of entries: 9
+│ --rw----     2.0 fat     3167 bl defN 21-Nov-08 15:21 META-INF/vault/config.xml
+│ --rw----     2.0 fat      506 bl defN 21-Nov-08 15:21 META-INF/vault/properties.xml
+│ --rw----     2.0 fat      736 bl defN 21-Nov-08 15:21 META-INF/vault/settings.xml
+│ --rw----     2.0 fat      791 bl defN 21-Nov-08 15:21 META-INF/vault/definition/.content.xml
+│ --rw----     2.0 fat      160 bl defN 21-Nov-08 15:21 META-INF/vault/filter.xml
+│ --rw----     2.0 fat      495 bl defN 21-Nov-08 15:21 jcr_root/apps/wcm-io/wcm/ui/clientlibs/.content.xml
+│ --rw----     2.0 fat      495 bl defN 21-Nov-08 15:21 jcr_root/apps/wcm-io/wcm/ui/clientlibs/sightly/.content.xml
+│ --rw----     2.0 fat      495 bl defN 21-Nov-08 15:21 jcr_root/apps/wcm-io/wcm/ui/clientlibs/sightly/templates/.content.xml
+│ --rw----     2.0 fat     2251 bl defN 21-Nov-08 15:21 jcr_root/apps/wcm-io/wcm/ui/clientlibs/sightly/templates/clientlib.html
+│ -9 files, 9096 bytes uncompressed, 3578 bytes compressed:  60.7%
+│ +Zip file size: 5212 bytes, number of entries: 9
+│ +-rw----     2.0 fat     3167 bl defN 23-Aug-29 20:45 META-INF/vault/config.xml
+│ +-rw----     2.0 fat      501 bl defN 23-Aug-29 20:45 META-INF/vault/properties.xml
+│ +-rw----     2.0 fat      736 bl defN 23-Aug-29 20:45 META-INF/vault/settings.xml
+│ +-rw----     2.0 fat      791 bl defN 23-Aug-29 20:45 META-INF/vault/definition/.content.xml
+│ +-rw----     2.0 fat      160 bl defN 23-Aug-29 20:45 META-INF/vault/filter.xml
+│ +-rw----     2.0 fat      495 bl defN 23-Aug-29 20:45 jcr_root/apps/wcm-io/wcm/ui/clientlibs/.content.xml
+│ +-rw----     2.0 fat      495 bl defN 23-Aug-29 20:45 jcr_root/apps/wcm-io/wcm/ui/clientlibs/sightly/.content.xml
+│ +-rw----     2.0 fat      495 bl defN 23-Aug-29 20:45 jcr_root/apps/wcm-io/wcm/ui/clientlibs/sightly/templates/.content.xml
+│ +-rw----     2.0 fat     2251 bl defN 23-Aug-29 20:45 jcr_root/apps/wcm-io/wcm/ui/clientlibs/sightly/templates/clientlib.html
+│ +9 files, 9091 bytes uncompressed, 3574 bytes compressed:  60.7%
+├── META-INF/vault/properties.xml
+│ ├── META-INF/vault/properties.xml
+│ │ @@ -1,13 +1,13 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <!DOCTYPE properties
+│ │    SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
+│ │  <properties>
+│ │    <entry key="allowIndexDefinitions">false</entry>
+│ │    <entry key="createdBy">admin</entry>
+│ │ -  <entry key="created">2021-11-08T15:21:36.855+01:00</entry>
+│ │ +  <entry key="created">2023-08-29T20:45:14.429Z</entry>
+│ │    <entry key="name">io.wcm.wcm.ui.clientlibs-content</entry>
+│ │    <entry key="version">1.2.2</entry>
+│ │    <entry key="packageType">application</entry>
+│ │    <entry key="requiresRoot">false</entry>
+│ │    <entry key="group">wcm-io</entry>
+│ │  </properties>
+
+2 / 2 target/reference/io.wcm.wcm.ui.clientlibs-1.2.2-bundle.jar target/io.wcm.wcm.ui.clientlibs-1.2.2-bundle.jar
+--- target/reference/io.wcm.wcm.ui.clientlibs-1.2.2-bundle.jar
++++ target/io.wcm.wcm.ui.clientlibs-1.2.2-bundle.jar
+├── zipinfo {}
+│ @@ -1,20 +1,20 @@
+│  Zip file size: 11457 bytes, number of entries: 18
+│ --rw----     2.0 fat     1501 bl defN 21-Nov-08 15:21 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat        0 bl defN 21-Nov-08 15:21 META-INF/
+│ --rw----     2.0 fat        0 bl defN 21-Nov-08 15:21 SLING-INF/
+│ --rw----     2.0 fat        0 bl defN 21-Nov-08 15:21 io/
+│ --rw----     2.0 fat        0 bl defN 21-Nov-08 15:21 io/wcm/
+│ --rw----     2.0 fat        0 bl defN 21-Nov-08 15:21 io/wcm/wcm/
+│ --rw----     2.0 fat        0 bl defN 21-Nov-08 15:21 io/wcm/wcm/ui/
+│ --rw----     2.0 fat        0 bl defN 21-Nov-08 15:21 io/wcm/wcm/ui/clientlibs/
+│ --rw----     2.0 fat        0 bl defN 21-Nov-08 15:21 io/wcm/wcm/ui/clientlibs/components/
+│ --rw----     2.0 fat        0 bl defN 21-Nov-08 15:21 META-INF/maven/
+│ --rw----     2.0 fat        0 bl defN 21-Nov-08 15:21 META-INF/maven/io.wcm/
+│ --rw----     2.0 fat        0 bl defN 21-Nov-08 15:21 META-INF/maven/io.wcm/io.wcm.wcm.ui.clientlibs/
+│ --rw----     2.0 fat     3349 bl defN 21-Nov-08 15:21 io/wcm/wcm/ui/clientlibs/components/CSSInclude.class
+│ --rw----     2.0 fat     5152 bl defN 21-Nov-08 15:21 io/wcm/wcm/ui/clientlibs/components/IncludeUtil.class
+│ --rw----     2.0 fat     5920 bl defN 21-Nov-08 15:21 io/wcm/wcm/ui/clientlibs/components/JSInclude.class
+│ --rw----     2.0 fat      245 bl defN 21-Nov-08 15:21 io/wcm/wcm/ui/clientlibs/components/package-info.class
+│ --rw----     2.0 fat     5218 bl defN 21-Nov-08 15:21 META-INF/maven/io.wcm/io.wcm.wcm.ui.clientlibs/pom.xml
+│ --rw----     2.0 fat       68 bl defN 21-Nov-08 15:21 META-INF/maven/io.wcm/io.wcm.wcm.ui.clientlibs/pom.properties
+│ +-rw----     2.0 fat     1501 bl defN 23-Aug-29 20:45 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat        0 bl defN 23-Aug-29 20:45 META-INF/
+│ +-rw----     2.0 fat        0 bl defN 23-Aug-29 20:45 SLING-INF/
+│ +-rw----     2.0 fat        0 bl defN 23-Aug-29 20:45 io/
+│ +-rw----     2.0 fat        0 bl defN 23-Aug-29 20:45 io/wcm/
+│ +-rw----     2.0 fat        0 bl defN 23-Aug-29 20:45 io/wcm/wcm/
+│ +-rw----     2.0 fat        0 bl defN 23-Aug-29 20:45 io/wcm/wcm/ui/
+│ +-rw----     2.0 fat        0 bl defN 23-Aug-29 20:45 io/wcm/wcm/ui/clientlibs/
+│ +-rw----     2.0 fat        0 bl defN 23-Aug-29 20:45 io/wcm/wcm/ui/clientlibs/components/
+│ +-rw----     2.0 fat        0 bl defN 23-Aug-29 20:45 META-INF/maven/
+│ +-rw----     2.0 fat        0 bl defN 23-Aug-29 20:45 META-INF/maven/io.wcm/
+│ +-rw----     2.0 fat        0 bl defN 23-Aug-29 20:45 META-INF/maven/io.wcm/io.wcm.wcm.ui.clientlibs/
+│ +-rw----     2.0 fat     3349 bl defN 23-Aug-29 20:45 io/wcm/wcm/ui/clientlibs/components/CSSInclude.class
+│ +-rw----     2.0 fat     5152 bl defN 23-Aug-29 20:45 io/wcm/wcm/ui/clientlibs/components/IncludeUtil.class
+│ +-rw----     2.0 fat     5920 bl defN 23-Aug-29 20:45 io/wcm/wcm/ui/clientlibs/components/JSInclude.class
+│ +-rw----     2.0 fat      245 bl defN 23-Aug-29 20:45 io/wcm/wcm/ui/clientlibs/components/package-info.class
+│ +-rw----     2.0 fat     5218 bl defN 23-Aug-29 20:45 META-INF/maven/io.wcm/io.wcm.wcm.ui.clientlibs/pom.xml
+│ +-rw----     2.0 fat       68 bl defN 23-Aug-29 20:45 META-INF/maven/io.wcm/io.wcm.wcm.ui.clientlibs/pom.properties
+│  18 files, 21453 bytes uncompressed, 8691 bytes compressed:  59.5%
+

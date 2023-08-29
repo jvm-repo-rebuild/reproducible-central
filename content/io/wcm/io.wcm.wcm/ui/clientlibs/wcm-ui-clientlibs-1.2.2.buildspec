@@ -1,0 +1,18 @@
+groupId=io.wcm
+artifactId=io.wcm.wcm.ui.clientlibs
+display=${groupId}-WCM:ui.clientlibs
+version=1.2.2
+
+gitRepo=https://github.com/wcm-io/wcm-io-wcm.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=11
+newline=crlf-nogit
+timestamp=2021-11-08T15:21:19+01:00
+
+command="mvn -f ui/clientlibs/pom.xml -Pio.wcm clean package -DskipTests -Dmaven.javadoc.skip -Dtimestamp=${timestamp}"
+buildinfo=ui/clientlibs/target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=
