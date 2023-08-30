@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2390 releases** of **492 projects**:
-   - **1845** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 545 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **2401 releases** of **495 projects**:
+   - **1852** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 549 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
 
@@ -158,16 +158,18 @@ Its objectives are to provide:
 | io.opentelemetry | <a name='io.opentelemetry:opentelemetry-sdk'></a>[opentelemetry-sdk](content/io/opentelemetry/java/README.md) | 1 | 1 :warning: |
 | io.smallrye | <a name='io.smallrye:jandex-parent'></a>[jandex-parent](content/io/smallrye/jandex/README.md) | 3 | 3 :warning: |
 | io.wcm | <a name='io.wcm:io.wcm.caconfig.editor.parent'></a>[*.caconfig.editor.parent](content/io/wcm/io.wcm.caconfig/README.md) | 4 | 4 :warning: |
-| io.wcm.tooling.commons | <a name='io.wcm.tooling.commons:io.wcm.tooling.commons.content-package-builder'></a>[*.content-package-builder](content/io/wcm/tooling/README.md) | 3 | 3 :heavy_check_mark: |
-| io.wcm | <a name='io.wcm:io.wcm.handler.link'></a>[*.handler.link](content/io/wcm/io.wcm.handler/link/README.md) | 4 | 4 :warning: |
+| | <a name='io.wcm:io.wcm.parent_toplevel'></a>[*.parent_toplevel](content/io/wcm/tooling/README.md) | 5 | 5 :heavy_check_mark: |
+| | <a name='io.wcm:io.wcm.handler.link'></a>[*.handler.link](content/io/wcm/io.wcm.handler/link/README.md) | 4 | 4 :warning: |
 | | <a name='io.wcm:io.wcm.handler.media'></a>[*.handler.media](content/io/wcm/io.wcm.handler/media/README.md) | 5 | 5 :heavy_check_mark: |
 | | <a name='io.wcm:io.wcm.handler.richtext'></a>[*.handler.richtext](content/io/wcm/io.wcm.handler/richtext/README.md) | 3 | 3 :warning: |
 | | <a name='io.wcm:io.wcm.wcm.commons'></a>[*.wcm.commons](content/io/wcm/io.wcm.wcm/commons/README.md) | 5 | 2 :heavy_check_mark: / 3 :warning: |
 | | <a name='io.wcm:io.wcm.wcm.parsys'></a>[*.wcm.parsys](content/io/wcm/io.wcm.wcm/parsys/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
 | | <a name='io.wcm:io.wcm.wcm.ui.clientlibs'></a>[*.wcm.ui.clientlibs](content/io/wcm/io.wcm.wcm/ui/clientlibs/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
-| | <a name='io.wcm:io.wcm.wcm.ui.granite'></a>[*.wcm.ui.granite](content/io/wcm/io.wcm.wcm/ui/granite/README.md) | 4 | 4 :heavy_check_mark: |
+| | <a name='io.wcm:io.wcm.wcm.ui.granite'></a>[*.wcm.ui.granite](content/io/wcm/io.wcm.wcm/ui/granite/README.md) | 8 | 4 :heavy_check_mark: / 4 :warning: |
 | io.wcm.maven.plugins | <a name='io.wcm.maven.plugins:cq-maven-plugin'></a>[cq-maven-plugin](content/io/wcm/maven/plugins/cq-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='io.wcm.maven.plugins:nodejs-maven-plugin'></a>[nodejs-maven-plugin](content/io/wcm/maven/plugins/nodejs-maven-plugin/README.md) | 1 | 1 :warning: |
+| io.wcm.tooling.commons | <a name='io.wcm.tooling.commons:io.wcm.tooling.commons.content-package-builder'></a>[*.content-package-builder](content/io/wcm/tooling/commons/content-package-builder/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='io.wcm.tooling.commons:io.wcm.tooling.commons.crx-packmgr-helper'></a>[*.crx-packmgr-helper](content/io/wcm/tooling/commons/crx-packmgr-helper/README.md) | 2 | 2 :heavy_check_mark: |
 | net.bytebuddy | <a name='net.bytebuddy:byte-buddy-parent'></a>[byte-buddy-parent](content/net/bytebuddy/README.md) | 14 | 12 :heavy_check_mark: / 2 :warning: |
 | net.jsign | <a name='net.jsign:jsign'></a>[jsign](content/net/jsign/README.md) | 2 | 2 :warning: |
 | net.nicoulaj.maven.plugins | <a name='net.nicoulaj.maven.plugins:checksum-maven-plugin'></a>[checksum-maven-plugin](content/net/nicoulaj/maven/plugins/checksum-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
@@ -230,7 +232,7 @@ Its objectives are to provide:
 | org.apache.cxf.build-utils | <a name='org.apache.cxf.build-utils:cxf-build-utils'></a>[cxf-build-utils](content/org/apache/cxf/cxf-build-utils/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.cxf.fediz | <a name='org.apache.cxf.fediz:fediz'></a>[fediz](content/org/apache/cxf/fediz/README.md) | 2 | 2 :warning: |
 | org.apache.cxf.xjc-utils | <a name='org.apache.cxf.xjc-utils:xjc-utils'></a>[xjc-utils](content/org/apache/cxf/xjc-utils/README.md) | 1 | 1 :warning: |
-| org.apache.directory.api | <a name='org.apache.directory.api:api-parent'></a>[api-parent](content/org/apache/directory/api/README.md) | 3 | 3 :heavy_check_mark: |
+| org.apache.directory.api | <a name='org.apache.directory.api:api-parent'></a>[api-parent](content/org/apache/directory/api/README.md) | 4 | 4 :heavy_check_mark: |
 | org.apache.directory.project | <a name='org.apache.directory.project:project'></a>[project](content/org/apache/directory/project/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.felix | <a name='org.apache.felix:org.apache.felix.feature'></a>[*.feature](content/org/apache/felix/features/README.md) | 5 | 5 :heavy_check_mark: |
 | | <a name='org.apache.felix:maven-bundle-plugin'></a>[maven-bundle-plugin](content/org/apache/felix/maven-bundle-plugin/README.md) | 7 | 7 :heavy_check_mark: |
@@ -417,6 +419,7 @@ Its objectives are to provide:
 | | <a name='org.apache.sling:slingfeature-maven-plugin'></a>[slingfeature-maven-plugin](content/org/apache/sling/slingfeature-maven-plugin/README.md) | 10 | 7 :heavy_check_mark: / 3 :warning: |
 | org.apache.tomee | <a name='org.apache.tomee:jakartaee-api'></a>[jakartaee-api](content/org/apache/tomee/jakartaee-api/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | org.apache.ws.commons.axiom | <a name='org.apache.ws.commons.axiom:axiom'></a>[axiom](content/org/apache/ws/commons/axiom/README.md) | 1 | 1 :warning: |
+| org.chabala.brick | <a name='org.chabala.brick:brick-control-lab'></a>[brick-control-lab](content/org/chabala/brick/brick-control-lab/README.md) | 1 | 1 :heavy_check_mark: |
 | org.codehaus.modello | <a name='org.codehaus.modello:modello'></a>[modello](content/org/codehaus/modello/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
 | org.codehaus.mojo | <a name='org.codehaus.mojo:animal-sniffer-parent'></a>[animal-sniffer-parent](content/org/codehaus/mojo/animal-sniffer/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.codehaus.mojo:aspectj-maven-plugin'></a>[aspectj-maven-plugin](content/org/codehaus/mojo/aspectj-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
@@ -514,7 +517,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 22 | 22 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **492** | **2390** | **1845** :heavy_check_mark: **545** :warning: |
+| **Count:** | **495** | **2401** | **1852** :heavy_check_mark: **549** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -526,9 +529,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      22 gradle     11
      26 mvn         7
-    954 mvn         8
+    960 mvn         8
       1 mvn         9
-    751 mvn        11
+    755 mvn        11
       1 mvn        11.0.6
       1 mvn        13
       4 mvn        14
@@ -545,7 +548,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      13 mvn-3.8.5  11
       8 mvn-3.8.5  17
       1 mvn-3.8.5  17.0.3
-     29 mvn-3.8.6   8
+     30 mvn-3.8.6   8
       2 mvn-3.8.6  11
      35 mvn-3.8.6  17
       2 mvn-3.8.6  18
