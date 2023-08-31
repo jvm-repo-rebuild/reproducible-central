@@ -1,0 +1,5 @@
+version=2.2.0
+ok=2
+ko=0
+okFiles="io.wcm.parent_toplevel-2.2.0.pom io.wcm.parent_toplevel-2.2.0-site.xml"
+koFiles=""
