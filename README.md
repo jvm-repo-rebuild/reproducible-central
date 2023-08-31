@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2401 releases** of **495 projects**:
-   - **1852** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **2409 releases** of **495 projects**:
+   - **1860** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 549 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
@@ -158,7 +158,7 @@ Its objectives are to provide:
 | io.opentelemetry | <a name='io.opentelemetry:opentelemetry-sdk'></a>[opentelemetry-sdk](content/io/opentelemetry/java/README.md) | 1 | 1 :warning: |
 | io.smallrye | <a name='io.smallrye:jandex-parent'></a>[jandex-parent](content/io/smallrye/jandex/README.md) | 3 | 3 :warning: |
 | io.wcm | <a name='io.wcm:io.wcm.caconfig.editor.parent'></a>[*.caconfig.editor.parent](content/io/wcm/io.wcm.caconfig/README.md) | 4 | 4 :warning: |
-| | <a name='io.wcm:io.wcm.parent_toplevel'></a>[*.parent_toplevel](content/io/wcm/tooling/README.md) | 5 | 5 :heavy_check_mark: |
+| | <a name='io.wcm:io.wcm.parent_toplevel'></a>[*.parent_toplevel](content/io/wcm/tooling/README.md) | 12 | 12 :heavy_check_mark: |
 | | <a name='io.wcm:io.wcm.handler.link'></a>[*.handler.link](content/io/wcm/io.wcm.handler/link/README.md) | 4 | 4 :warning: |
 | | <a name='io.wcm:io.wcm.handler.media'></a>[*.handler.media](content/io/wcm/io.wcm.handler/media/README.md) | 5 | 5 :heavy_check_mark: |
 | | <a name='io.wcm:io.wcm.handler.richtext'></a>[*.handler.richtext](content/io/wcm/io.wcm.handler/richtext/README.md) | 3 | 3 :warning: |
@@ -515,9 +515,9 @@ Its objectives are to provide:
 | pl.com.labaj | <a name='pl.com.labaj:auto-record'></a>[auto-record](content/pl/com/labaj/auto-record/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | tech.picnic.error-prone-support | <a name='tech.picnic.error-prone-support:error-prone-support'></a>[error-prone-support](content/tech/picnic/error-prone-support/error-prone-support/README.md) | 11 | 11 :heavy_check_mark: |
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
-| us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 22 | 22 :heavy_check_mark: |
+| us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 23 | 23 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **495** | **2401** | **1852** :heavy_check_mark: **549** :warning: |
+| **Count:** | **495** | **2409** | **1860** :heavy_check_mark: **549** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -529,9 +529,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      22 gradle     11
      26 mvn         7
-    960 mvn         8
+    967 mvn         8
       1 mvn         9
-    755 mvn        11
+    756 mvn        11
       1 mvn        11.0.6
       1 mvn        13
       4 mvn        14

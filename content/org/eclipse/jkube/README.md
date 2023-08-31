@@ -66,6 +66,7 @@ rebuilding **18 releases** of org.eclipse.jkube:jkube:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.14.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.14.0/pom) | | | |
 | [1.13.1](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.13.1/pom) | [mvn jdk8](jkube-1.13.1.buildspec) | [result](jkube-1.13.1.buildinfo): [117 :heavy_check_mark: ](jkube-1.13.1.buildcompare) | 3.1M |
 | [1.13.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.13.0/pom) | [mvn jdk8](jkube-1.13.0.buildspec) | [result](jkube-1.13.0.buildinfo): [117 :heavy_check_mark: ](jkube-1.13.0.buildcompare) | 3.1M |
 | [1.12.0](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.12.0/pom) | [mvn jdk8](jkube-1.12.0.buildspec) | [result](jkube-1.12.0.buildinfo): [117 :heavy_check_mark: ](jkube-1.12.0.buildcompare) | 3.1M |
