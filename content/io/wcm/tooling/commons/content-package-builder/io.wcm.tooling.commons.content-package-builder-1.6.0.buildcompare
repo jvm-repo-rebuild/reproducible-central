@@ -1,0 +1,8 @@
+version=1.6.0
+ok=2
+ko=1
+okFiles="io.wcm.tooling.commons.content-package-builder-1.6.0.pom io.wcm.tooling.commons.content-package-builder-1.6.0-sources.jar"
+koFiles="io.wcm.tooling.commons.content-package-builder-1.6.0.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/io.wcm.tooling.commons.content-package-builder-1.6.0.jar target/io.wcm.tooling.commons.content-package-builder-1.6.0.jar

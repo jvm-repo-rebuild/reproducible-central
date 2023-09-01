@@ -1,0 +1,46 @@
+# I suppose the release was done from wcm-io-tooling.git that was then split to io.wcm.tooling.commons.content-package-builder.git with a different commit
+1 / 1 target/reference/io.wcm.tooling.commons.content-package-builder-1.6.0.jar target/io.wcm.tooling.commons.content-package-builder-1.6.0.jar
+--- target/reference/io.wcm.tooling.commons.content-package-builder-1.6.0.jar
++++ target/io.wcm.tooling.commons.content-package-builder-1.6.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 40538 bytes, number of entries: 43
+│ +Zip file size: 40539 bytes, number of entries: 43
+│  -rw-r--r--  2.0 unx     1759 b- defN 21-Mar-25 14:20 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Mar-25 14:20 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Mar-25 14:20 content-package-template/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Mar-25 14:20 content-package-template/META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Mar-25 14:20 content-package-template/META-INF/vault/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Mar-25 14:20 content-package-template/META-INF/vault/definition/
+│  drwxr-xr-x  2.0 unx        0 b- stor 21-Mar-25 14:20 entities/
+│ @@ -38,8 +38,8 @@
+│  -rw-r--r--  2.0 unx     1730 b- defN 21-Mar-25 14:20 io/wcm/tooling/commons/contentpackagebuilder/XmlNamespaces.class
+│  -rw-r--r--  2.0 unx      575 b- defN 21-Mar-25 14:20 io/wcm/tooling/commons/contentpackagebuilder/element/ContentElement.class
+│  -rw-r--r--  2.0 unx     2551 b- defN 21-Mar-25 14:20 io/wcm/tooling/commons/contentpackagebuilder/element/ContentElementImpl.class
+│  -rw-r--r--  2.0 unx      264 b- defN 21-Mar-25 14:20 io/wcm/tooling/commons/contentpackagebuilder/element/package-info.class
+│  -rw-r--r--  2.0 unx      256 b- defN 21-Mar-25 14:20 io/wcm/tooling/commons/contentpackagebuilder/package-info.class
+│  -rw-r--r--  2.0 unx     6239 b- defN 21-Mar-25 14:20 META-INF/maven/io.wcm.tooling.commons/io.wcm.tooling.commons.content-package-builder/pom.xml
+│  -rw-r--r--  2.0 unx      106 b- defN 21-Mar-25 14:20 META-INF/maven/io.wcm.tooling.commons/io.wcm.tooling.commons.content-package-builder/pom.properties
+│ -43 files, 80549 bytes uncompressed, 32638 bytes compressed:  59.5%
+│ +43 files, 80549 bytes uncompressed, 32639 bytes compressed:  59.5%
+├── META-INF/MANIFEST.MF
+│ @@ -24,9 +24,9 @@
+│   nodetype;version="[2.0,3)",javax.xml.parsers,javax.xml.transform,javax.
+
+│   xml.transform.dom,javax.xml.transform.stream,org.apache.commons.io;vers
+
+│   ion="[1.4,2)",org.apache.commons.lang3;version="[3.5,4)",org.apache.com
+
+│   mons.lang3.builder;version="[3.5,4)",org.apache.jackrabbit.util;version
+
+│   ="[2.4,3)",org.apache.jackrabbit.vault.util;version="[2.4,3)",org.w3c.d
+
+│   om,org.xml.sax
+
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+
+│ -Scm-Revision: 1c59f675 at 2021-03-25T15:20:16+01:00
+
+│ +Scm-Revision: f7f5297d at 2021-03-25T15:20:16+01:00
+
+
