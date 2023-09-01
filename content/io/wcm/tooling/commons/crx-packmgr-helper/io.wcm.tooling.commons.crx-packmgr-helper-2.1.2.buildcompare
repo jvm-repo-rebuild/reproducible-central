@@ -1,0 +1,7 @@
+version=2.1.2
+ok=3
+ko=0
+okFiles="io.wcm.tooling.commons.crx-packmgr-helper-2.1.2.pom io.wcm.tooling.commons.crx-packmgr-helper-2.1.2.jar io.wcm.tooling.commons.crx-packmgr-helper-2.1.2-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
