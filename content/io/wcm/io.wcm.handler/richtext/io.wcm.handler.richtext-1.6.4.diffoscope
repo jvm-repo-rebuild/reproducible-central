@@ -1,0 +1,47 @@
+1 / 2 target/reference/io.wcm.handler.richtext-1.6.4-content.zip target/io.wcm.handler.richtext-1.6.4-content.zip
+--- target/reference/io.wcm.handler.richtext-1.6.4-content.zip
++++ target/io.wcm.handler.richtext-1.6.4-content.zip
+├── zipinfo {}
+│ @@ -1,15 +1,15 @@
+│ -Zip file size: 10478 bytes, number of entries: 13
+│ --rw----     2.0 fat     3167 bl defN 23-Apr-19 13:18 META-INF/vault/config.xml
+...
+│ --rw----     2.0 fat      616 bl defN 23-Apr-19 13:18 jcr_root/apps/wcm-io/handler/richtext/clientlibs/rte.plugins/.content.xml
+│ -13 files, 24546 bytes uncompressed, 7858 bytes compressed:  68.0%
+│ +Zip file size: 10474 bytes, number of entries: 13
+│ +-rw----     2.0 fat     3167 bl defN 23-Sep-01 16:56 META-INF/vault/config.xml
+...
+│ +-rw----     2.0 fat      616 bl defN 23-Sep-01 16:56 jcr_root/apps/wcm-io/handler/richtext/clientlibs/rte.plugins/.content.xml
+│ +13 files, 24541 bytes uncompressed, 7854 bytes compressed:  68.0%
+├── META-INF/vault/properties.xml
+│ ├── META-INF/vault/properties.xml
+│ │ @@ -1,13 +1,13 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <!DOCTYPE properties
+│ │    SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
+│ │  <properties>
+│ │    <entry key="allowIndexDefinitions">false</entry>
+│ │    <entry key="createdBy">admin</entry>
+│ │ -  <entry key="created">2023-04-19T13:18:21.278+02:00</entry>
+│ │ +  <entry key="created">2023-09-01T16:56:44.898Z</entry>
+│ │    <entry key="name">io.wcm.handler.richtext-content</entry>
+│ │    <entry key="version">1.6.4</entry>
+│ │    <entry key="packageType">application</entry>
+│ │    <entry key="requiresRoot">false</entry>
+│ │    <entry key="group">wcm-io</entry>
+│ │  </properties>
+
+2 / 2 target/reference/io.wcm.handler.richtext-1.6.4-bundle.jar target/io.wcm.handler.richtext-1.6.4-bundle.jar
+--- target/reference/io.wcm.handler.richtext-1.6.4-bundle.jar
++++ target/io.wcm.handler.richtext-1.6.4-bundle.jar
+├── zipinfo {}
+│ @@ -1,51 +1,51 @@
+│  Zip file size: 72079 bytes, number of entries: 49
+│ --rw----     2.0 fat        0 bl defN 23-Apr-19 13:18 META-INF/
+...
+│ --rw----     2.0 fat       67 bl defN 23-Apr-19 13:18 META-INF/maven/io.wcm/io.wcm.handler.richtext/pom.properties
+│ +-rw----     2.0 fat        0 bl defN 23-Sep-01 16:56 META-INF/
+...
+│ +-rw----     2.0 fat       67 bl defN 23-Sep-01 16:56 META-INF/maven/io.wcm/io.wcm.handler.richtext/pom.properties
+│  49 files, 198282 bytes uncompressed, 63495 bytes compressed:  68.0%
+
