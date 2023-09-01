@@ -1,0 +1,8 @@
+version=3.0.4
+ok=2
+ko=1
+okFiles="nodejs-maven-plugin-3.0.4.pom nodejs-maven-plugin-3.0.4.jar"
+koFiles="nodejs-maven-plugin-3.0.4-sources.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/nodejs-maven-plugin-3.0.4-sources.jar target/nodejs-maven-plugin-3.0.4-sources.jar
