@@ -1,0 +1,7 @@
+version=3.0.6
+ok=3
+ko=0
+okFiles="nodejs-maven-plugin-3.0.6.pom nodejs-maven-plugin-3.0.6.jar nodejs-maven-plugin-3.0.6-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
