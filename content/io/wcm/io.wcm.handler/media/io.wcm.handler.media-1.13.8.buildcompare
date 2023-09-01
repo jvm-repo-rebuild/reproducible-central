@@ -1,0 +1,9 @@
+version=1.13.8
+ok=3
+ko=2
+okFiles="io.wcm.handler.media-1.13.8.pom io.wcm.handler.media-1.13.8.jar io.wcm.handler.media-1.13.8-sources.jar"
+koFiles="io.wcm.handler.media-1.13.8-content.zip io.wcm.handler.media-1.13.8-bundle.jar"
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/io.wcm.handler.media-1.13.8-content.zip target/io.wcm.handler.media-1.13.8-content.zip
+# diffoscope target/reference/io.wcm.handler.media-1.13.8-bundle.jar target/io.wcm.handler.media-1.13.8-bundle.jar
