@@ -1,19 +1,19 @@
-[io.wcm:io.wcm.handler.richtext](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.richtext/1.5.2/versions) RB check
+[io.wcm:io.wcm.handler.richtext](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.richtext/1.6.4/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.wcm:io.wcm.handler.richtext](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.richtext/1.5.2/versions)
+## Project: [io.wcm:io.wcm.handler.richtext](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.richtext/1.6.4/versions)
 
-Source code: [https://github.com/wcm-io/wcm-io-handler.git](https://github.com/wcm-io/wcm-io-handler.git)
+Source code: [https://github.com/wcm-io/io.wcm.handler.richtext.git](https://github.com/wcm-io/io.wcm.handler.richtext.git)
 
-rebuilding **3 releases** of io.wcm:io.wcm.handler.richtext:
+rebuilding **4 releases** of io.wcm:io.wcm.handler.richtext:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.6.4](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.richtext/1.6.4/pom) | | | |
+| [1.6.4](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.richtext/1.6.4/pom) | [mvn jdk11 w](wcm-richtext-1.6.4.buildspec) | [result](io.wcm.handler.richtext-1.6.4.buildinfo): [3 :heavy_check_mark:  2 :warning:](io.wcm.handler.richtext-1.6.4.buildcompare) [:mag:](io.wcm.handler.richtext-1.6.4/io.wcm.handler.richtext-1.6.4.diffoscope) | 236K |
 | [1.6.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.richtext/1.6.2/pom) | | | |
 | [1.6.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.richtext/1.6.0/pom) | | | |
 | [1.5.8](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.richtext/1.5.8/pom) | | | |

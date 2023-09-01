@@ -1,19 +1,19 @@
-[com.spotify:github-client](https://central.sonatype.com/artifact/com.spotify/github-client/0.1.57/versions) RB check
+[com.spotify:github-client](https://central.sonatype.com/artifact/com.spotify/github-client/0.1.58/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.spotify:github-client](https://central.sonatype.com/artifact/com.spotify/github-client/0.1.57/versions)
+## Project: [com.spotify:github-client](https://central.sonatype.com/artifact/com.spotify/github-client/0.1.58/versions)
 
 Source code: [https://github.com/spotify/github-java-client.git](https://github.com/spotify/github-java-client.git)
 
-rebuilding **12 releases** of com.spotify:github-client:
-- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **13 releases** of com.spotify:github-client:
+- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.1.58](https://central.sonatype.com/artifact/com.spotify/github-client/0.1.58/pom) | | | |
+| [0.1.58](https://central.sonatype.com/artifact/com.spotify/github-client/0.1.58/pom) | [mvn jdk11](github-client-0.1.58.buildspec) | [result](github-client-0.1.58.buildinfo): [3 :heavy_check_mark: ](github-client-0.1.58.buildcompare) | 2.2M |
 | [0.1.57](https://central.sonatype.com/artifact/com.spotify/github-client/0.1.57/pom) | [mvn jdk11](github-client-0.1.57.buildspec) | [result](github-client-0.1.57.buildinfo): [3 :heavy_check_mark: ](github-client-0.1.57.buildcompare) | 2.2M |
 | [0.1.56](https://central.sonatype.com/artifact/com.spotify/github-client/0.1.56/pom) | [mvn jdk11](github-client-0.1.56.buildspec) | [result](github-client-0.1.56.buildinfo): [3 :heavy_check_mark: ](github-client-0.1.56.buildcompare) | 2.2M |
 | [0.1.55](https://central.sonatype.com/artifact/com.spotify/github-client/0.1.55/pom) | [mvn jdk11](github-client-0.1.55.buildspec) | [result](github-client-0.1.55.buildinfo): [3 :heavy_check_mark: ](github-client-0.1.55.buildcompare) | 2.2M |

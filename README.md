@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2409 releases** of **495 projects**:
-   - **1860** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 549 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **2426 releases** of **495 projects**:
+   - **1870** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 556 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
 
@@ -112,7 +112,7 @@ Its objectives are to provide:
 | com.ongres.stringprep | <a name='com.ongres.stringprep:parent'></a>[parent](content/com/ongres/stringprep/README.md) | 1 | 1 :warning: |
 | com.scalapenos | <a name='com.scalapenos:stamina_2.11'></a>[stamina_2.11](content/com/scalapenos/stamina/README.md) | 2 | 2 :heavy_check_mark: |
 | com.spotify.fmt | <a name='com.spotify.fmt:fmt-maven-plugin'></a>[fmt-maven-plugin](content/com/spotify/fmt-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
-| com.spotify | <a name='com.spotify:github-client'></a>[github-client](content/com/spotify/github-client/README.md) | 12 | 12 :heavy_check_mark: |
+| com.spotify | <a name='com.spotify:github-client'></a>[github-client](content/com/spotify/github-client/README.md) | 13 | 13 :heavy_check_mark: |
 | com.taobao.arthas | <a name='com.taobao.arthas:arthas-all'></a>[arthas-all](content/com/taobao/arthas/README.md) | 14 | 14 :warning: |
 | com.vladsch.flexmark | <a name='com.vladsch.flexmark:flexmark-java'></a>[flexmark-java](content/com/vladsch/flexmark/flexmark-java/README.md) | 4 | 4 :heavy_check_mark: |
 | de.jflex | <a name='de.jflex:jflex-parent'></a>[jflex-parent](content/de/jflex/README.md) | 1 | 1 :heavy_check_mark: |
@@ -153,23 +153,23 @@ Its objectives are to provide:
 | io.jstach | <a name='io.jstach:jstachio'></a>[jstachio](content/io/jstach/jstachio/README.md) | 9 | 9 :heavy_check_mark: |
 | io.jstach.pistachio | <a name='io.jstach.pistachio:pistachio-maven-parent'></a>[pistachio-maven-parent](content/io/jstach/pistachio/pistachio-maven-parent/README.md) | 1 | 1 :heavy_check_mark: |
 | io.micronaut.build | <a name='io.micronaut.build:micronaut-maven-plugin'></a>[micronaut-maven-plugin](content/io/micronaut/build/micronaut-maven-plugin/README.md) | 34 | 34 :heavy_check_mark: |
-| io.micronaut.maven | <a name='io.micronaut.maven:micronaut-maven-plugin'></a>[micronaut-maven-plugin](content/io/micronaut/maven/micronaut-maven-plugin/README.md) | 11 | 11 :heavy_check_mark: |
+| io.micronaut.maven | <a name='io.micronaut.maven:micronaut-maven-plugin'></a>[micronaut-maven-plugin](content/io/micronaut/maven/micronaut-maven-plugin/README.md) | 12 | 12 :heavy_check_mark: |
 | io.opentelemetry.instrumentation | <a name='io.opentelemetry.instrumentation:opentelemetry-instrumentation-api'></a>[opentelemetry-instrumentation-api](content/io/opentelemetry/instrumentation/README.md) | 2 | 2 :warning: |
 | io.opentelemetry | <a name='io.opentelemetry:opentelemetry-sdk'></a>[opentelemetry-sdk](content/io/opentelemetry/java/README.md) | 1 | 1 :warning: |
 | io.smallrye | <a name='io.smallrye:jandex-parent'></a>[jandex-parent](content/io/smallrye/jandex/README.md) | 3 | 3 :warning: |
 | io.wcm | <a name='io.wcm:io.wcm.caconfig.editor.parent'></a>[*.caconfig.editor.parent](content/io/wcm/io.wcm.caconfig/README.md) | 4 | 4 :warning: |
 | | <a name='io.wcm:io.wcm.parent_toplevel'></a>[*.parent_toplevel](content/io/wcm/tooling/README.md) | 12 | 12 :heavy_check_mark: |
 | | <a name='io.wcm:io.wcm.handler.link'></a>[*.handler.link](content/io/wcm/io.wcm.handler/link/README.md) | 4 | 4 :warning: |
-| | <a name='io.wcm:io.wcm.handler.media'></a>[*.handler.media](content/io/wcm/io.wcm.handler/media/README.md) | 5 | 5 :heavy_check_mark: |
-| | <a name='io.wcm:io.wcm.handler.richtext'></a>[*.handler.richtext](content/io/wcm/io.wcm.handler/richtext/README.md) | 3 | 3 :warning: |
+| | <a name='io.wcm:io.wcm.handler.media'></a>[*.handler.media](content/io/wcm/io.wcm.handler/media/README.md) | 8 | 5 :heavy_check_mark: / 3 :warning: |
+| | <a name='io.wcm:io.wcm.handler.richtext'></a>[*.handler.richtext](content/io/wcm/io.wcm.handler/richtext/README.md) | 4 | 4 :warning: |
 | | <a name='io.wcm:io.wcm.wcm.commons'></a>[*.wcm.commons](content/io/wcm/io.wcm.wcm/commons/README.md) | 5 | 2 :heavy_check_mark: / 3 :warning: |
 | | <a name='io.wcm:io.wcm.wcm.parsys'></a>[*.wcm.parsys](content/io/wcm/io.wcm.wcm/parsys/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
 | | <a name='io.wcm:io.wcm.wcm.ui.clientlibs'></a>[*.wcm.ui.clientlibs](content/io/wcm/io.wcm.wcm/ui/clientlibs/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
 | | <a name='io.wcm:io.wcm.wcm.ui.granite'></a>[*.wcm.ui.granite](content/io/wcm/io.wcm.wcm/ui/granite/README.md) | 8 | 4 :heavy_check_mark: / 4 :warning: |
 | io.wcm.maven.plugins | <a name='io.wcm.maven.plugins:cq-maven-plugin'></a>[cq-maven-plugin](content/io/wcm/maven/plugins/cq-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
-| | <a name='io.wcm.maven.plugins:nodejs-maven-plugin'></a>[nodejs-maven-plugin](content/io/wcm/maven/plugins/nodejs-maven-plugin/README.md) | 1 | 1 :warning: |
-| io.wcm.tooling.commons | <a name='io.wcm.tooling.commons:io.wcm.tooling.commons.content-package-builder'></a>[*.content-package-builder](content/io/wcm/tooling/commons/content-package-builder/README.md) | 1 | 1 :heavy_check_mark: |
-| | <a name='io.wcm.tooling.commons:io.wcm.tooling.commons.crx-packmgr-helper'></a>[*.crx-packmgr-helper](content/io/wcm/tooling/commons/crx-packmgr-helper/README.md) | 2 | 2 :heavy_check_mark: |
+| | <a name='io.wcm.maven.plugins:nodejs-maven-plugin'></a>[nodejs-maven-plugin](content/io/wcm/maven/plugins/nodejs-maven-plugin/README.md) | 3 | 1 :heavy_check_mark: / 2 :warning: |
+| io.wcm.tooling.commons | <a name='io.wcm.tooling.commons:io.wcm.tooling.commons.content-package-builder'></a>[*.content-package-builder](content/io/wcm/tooling/commons/content-package-builder/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
+| | <a name='io.wcm.tooling.commons:io.wcm.tooling.commons.crx-packmgr-helper'></a>[*.crx-packmgr-helper](content/io/wcm/tooling/commons/crx-packmgr-helper/README.md) | 7 | 7 :heavy_check_mark: |
 | net.bytebuddy | <a name='net.bytebuddy:byte-buddy-parent'></a>[byte-buddy-parent](content/net/bytebuddy/README.md) | 14 | 12 :heavy_check_mark: / 2 :warning: |
 | net.jsign | <a name='net.jsign:jsign'></a>[jsign](content/net/jsign/README.md) | 2 | 2 :warning: |
 | net.nicoulaj.maven.plugins | <a name='net.nicoulaj.maven.plugins:checksum-maven-plugin'></a>[checksum-maven-plugin](content/net/nicoulaj/maven/plugins/checksum-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
@@ -216,7 +216,7 @@ Its objectives are to provide:
 | org.apache.wayang | <a name='org.apache.wayang:wayang'></a>[wayang](content/org/apache/wayang/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | org.apache.wss4j | <a name='org.apache.wss4j:wss4j'></a>[wss4j](content/org/apache/wss4j/README.md) | 5 | 4 :heavy_check_mark: / 1 :warning: |
 | org.apache.zookeeper | <a name='org.apache.zookeeper:parent'></a>[parent](content/org/apache/zookeeper/README.md) | 2 | 2 :warning: |
-| org.apache.activemq | <a name='org.apache.activemq:artemis-pom'></a>[artemis-pom](content/org/apache/activemq/artemis/README.md) | 2 | 2 :warning: |
+| org.apache.activemq | <a name='org.apache.activemq:artemis-pom'></a>[artemis-pom](content/org/apache/activemq/artemis/README.md) | 3 | 3 :warning: |
 | org.apache.aries.cdi | <a name='org.apache.aries.cdi:org.apache.aries.cdi'></a>[org.apache.aries.cdi](content/org/apache/aries/cdi/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | org.apache.aries.jax.rs | <a name='org.apache.aries.jax.rs:org.apache.aries.jax.rs'></a>[org.apache.aries.jax.rs](content/org/apache/aries/jax-rs/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.camel | <a name='org.apache.camel:camel'></a>[camel](content/org/apache/camel/camel/README.md) | 7 | 7 :warning: |
@@ -457,7 +457,7 @@ Its objectives are to provide:
 | | <a name='org.complate:complate-spring-mvc'></a>[complate-spring-mvc](content/org/complate/spring/README.md) | 2 | 2 :heavy_check_mark: |
 | org.cyclonedx | <a name='org.cyclonedx:cyclonedx-core-java'></a>[cyclonedx-core-java](content/org/cyclonedx/cyclonedx-core-java/README.md) | 28 | 28 :heavy_check_mark: |
 | | <a name='org.cyclonedx:cyclonedx-maven-plugin'></a>[cyclonedx-maven-plugin](content/org/cyclonedx/cyclonedx-maven-plugin/README.md) | 21 | 21 :heavy_check_mark: |
-| org.eclipse.jkube | <a name='org.eclipse.jkube:jkube'></a>[jkube](content/org/eclipse/jkube/README.md) | 18 | 18 :heavy_check_mark: |
+| org.eclipse.jkube | <a name='org.eclipse.jkube:jkube'></a>[jkube](content/org/eclipse/jkube/README.md) | 19 | 19 :heavy_check_mark: |
 | org.eclipse.transformer | <a name='org.eclipse.transformer:org.eclipse.transformer.parent'></a>[*.parent](content/org/eclipse/transformer/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | org.finos.legend.engine | <a name='org.finos.legend.engine:legend-engine'></a>[legend-engine](content/org/finos/legend/engine/README.md) | 1 | 1 :warning: |
 | org.fusesource.jansi | <a name='org.fusesource.jansi:jansi'></a>[jansi](content/org/fusesource/jansi/jansi/README.md) | 8 | 5 :heavy_check_mark: / 3 :warning: |
@@ -517,7 +517,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 23 | 23 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **495** | **2409** | **1860** :heavy_check_mark: **549** :warning: |
+| **Count:** | **495** | **2426** | **1870** :heavy_check_mark: **556** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -529,15 +529,15 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      22 gradle     11
      26 mvn         7
-    967 mvn         8
+    968 mvn         8
       1 mvn         9
-    756 mvn        11
+    771 mvn        11
       1 mvn        11.0.6
       1 mvn        13
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    171 mvn        17
+    172 mvn        17
       2 mvn        17.0.7
       1 mvn        17.0.8
      11 mvn        18
