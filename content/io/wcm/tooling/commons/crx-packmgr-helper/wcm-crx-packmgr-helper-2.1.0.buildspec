@@ -1,0 +1,14 @@
+groupId=io.wcm.tooling.commons
+artifactId=io.wcm.tooling.commons.crx-packmgr-helper
+display=io.wcm-tooling:crx-packmgr-helper
+version=2.1.0
+
+gitRepo=https://github.com/wcm-io/${artifactId}.git
+gitTag=${version}
+
+tool=mvn
+jdk=11
+newline=crlf-nogit
+
+command="mvn -Pio.wcm clean package -DskipTests -Dmaven.javadoc.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
