@@ -1,0 +1,47 @@
+1 / 2 target/reference/io.wcm.handler.media-1.15.6-content.zip target/io.wcm.handler.media-1.15.6-content.zip
+--- target/reference/io.wcm.handler.media-1.15.6-content.zip
++++ target/io.wcm.handler.media-1.15.6-content.zip
+├── zipinfo {}
+│ @@ -1,119 +1,119 @@
+│ -Zip file size: 89510 bytes, number of entries: 117
+│ --rw----     2.0 fat     3167 bl defN 23-Apr-19 13:15 META-INF/vault/config.xml
+...
+│ --rw----     2.0 fat      623 bl defN 23-Apr-19 13:15 jcr_root/apps/wcm-io/handler/media/i18n/en/io.wcm.handler.media.components.global.include.responsiveImageSettings.responsiveType.fieldLabel/.content.xml
+│ -117 files, 126165 bytes uncompressed, 52410 bytes compressed:  58.5%
+│ +Zip file size: 89506 bytes, number of entries: 117
+│ +-rw----     2.0 fat     3167 bl defN 23-Sep-01 16:32 META-INF/vault/config.xml
+...
+│ +-rw----     2.0 fat      623 bl defN 23-Sep-01 16:32 jcr_root/apps/wcm-io/handler/media/i18n/en/io.wcm.handler.media.components.global.include.responsiveImageSettings.responsiveType.fieldLabel/.content.xml
+│ +117 files, 126160 bytes uncompressed, 52406 bytes compressed:  58.5%
+├── META-INF/vault/properties.xml
+│ ├── META-INF/vault/properties.xml
+│ │ @@ -1,13 +1,13 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <!DOCTYPE properties
+│ │    SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
+│ │  <properties>
+│ │    <entry key="allowIndexDefinitions">false</entry>
+│ │    <entry key="createdBy">admin</entry>
+│ │ -  <entry key="created">2023-04-19T13:15:22.105+02:00</entry>
+│ │ +  <entry key="created">2023-09-01T16:32:25.086Z</entry>
+│ │    <entry key="name">io.wcm.handler.media-content</entry>
+│ │    <entry key="version">1.15.6</entry>
+│ │    <entry key="packageType">application</entry>
+│ │    <entry key="requiresRoot">false</entry>
+│ │    <entry key="group">wcm-io</entry>
+│ │  </properties>
+
+2 / 2 target/reference/io.wcm.handler.media-1.15.6-bundle.jar target/io.wcm.handler.media-1.15.6-bundle.jar
+--- target/reference/io.wcm.handler.media-1.15.6-bundle.jar
++++ target/io.wcm.handler.media-1.15.6-bundle.jar
+├── zipinfo {}
+│ @@ -1,898 +1,898 @@
+│  Zip file size: 1112127 bytes, number of entries: 896
+│ --rw----     2.0 fat        0 bl defN 23-Apr-19 13:15 META-INF/
+...
+│ --rw----     2.0 fat      776 bl defN 23-Apr-19 13:15 io/wcm/handler/media/shaded/com/github/benmanes/caffeine/cache/stats/package-info.class
+│ +-rw----     2.0 fat        0 bl defN 23-Sep-01 16:32 META-INF/
+...
+│ +-rw----     2.0 fat      776 bl defN 23-Sep-01 16:32 io/wcm/handler/media/shaded/com/github/benmanes/caffeine/cache/stats/package-info.class
+│  896 files, 2621806 bytes uncompressed, 897287 bytes compressed:  65.8%
+
