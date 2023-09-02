@@ -4,7 +4,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20230901182009 --> [hsac-fitnesse-fixtures](../content/nl/hsac/hsac-fitnesse-fixtures/README.md) | [5.2.42](../content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.2.42.buildspec) :heavy_check_mark: | [5.2.43](../content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.2.43.buildspec) | `bin/add-new-release.sh content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.2.42.buildspec 5.2.43` |
+| <!-- 20230902121424 --> [hsac-fitnesse-fixtures](../content/nl/hsac/hsac-fitnesse-fixtures/README.md) | [5.2.42](../content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.2.42.buildspec) :heavy_check_mark: | [5.2.44](../content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.2.44.buildspec) | `bin/add-new-release.sh content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.2.42.buildspec 5.2.44` |
 | <!-- 20230829074940 --> [conventional-commits-version-policy](../content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | [1.0.1](../content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.1.buildspec) :heavy_check_mark: | [1.0.4](../content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.4.buildspec) | `bin/add-new-release.sh content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.1.buildspec 1.0.4` |
 <!-- END GENERATED ADD OK -->
 
