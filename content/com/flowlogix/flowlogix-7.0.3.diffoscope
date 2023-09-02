@@ -1,0 +1,29 @@
+1 / 1 target/reference/jee-examples-7.0.3.war jakarta-ee/jee-examples/target/jee-examples-7.0.3.war
+--- target/reference/jee-examples-7.0.3.war
++++ jakarta-ee/jee-examples/target/jee-examples-7.0.3.war
+├── zipinfo {}
+│ @@ -36,21 +36,21 @@
+│  -rw-r--r--  2.0 unx      432 b- defN 23-Sep-01 09:41 WEB-INF/classes/com/flowlogix/examples/ui/servlets/RestConfig.class
+│  -rw-r--r--  2.0 unx     1241 b- defN 23-Sep-01 09:41 WEB-INF/classes/com/flowlogix/logcapture/LogCapture$LoggingHandler.class
+│  -rw-r--r--  2.0 unx     3166 b- defN 23-Sep-01 09:41 WEB-INF/classes/com/flowlogix/logcapture/LogCapture.class
+│  -rw-r--r--  2.0 unx      830 b- defN 23-Sep-01 09:41 WEB-INF/classes/com/flowlogix/logcapture/LogCaptureSingleton.class
+│  -rw-r--r--  2.0 unx      190 b- defN 23-Sep-01 09:41 WEB-INF/classes/git.properties
+│  -rw-r--r--  2.0 unx     1264 b- defN 23-Sep-01 09:41 WEB-INF/errorpages/invalidErrorPage.xhtml
+│  -rw-r--r--  2.0 unx     2376 b- defN 23-Sep-01 09:41 WEB-INF/faces-config.xml
+│ --rw-------  2.0 unx   587402 b- defN 23-Sep-01 09:41 WEB-INF/lib/commons-lang3-3.12.0.jar
+│ +-rw-r--r--  2.0 unx   587402 b- defN 23-Sep-01 09:41 WEB-INF/lib/commons-lang3-3.12.0.jar
+│  -rw-r--r--  2.0 unx    23391 b- defN 23-Sep-01 09:41 WEB-INF/lib/flowlogix-datamodel-7.0.3-tests.jar
+│  -rw-r--r--  2.0 unx    30477 b- defN 23-Sep-01 09:41 WEB-INF/lib/flowlogix-datamodel-7.0.3.jar
+│  -rw-r--r--  2.0 unx    37589 b- defN 23-Sep-01 09:41 WEB-INF/lib/flowlogix-jee-7.0.3-tests.jar
+│  -rw-r--r--  2.0 unx    43757 b- defN 23-Sep-01 09:41 WEB-INF/lib/flowlogix-jee-7.0.3.jar
+│  -rw-r--r--  2.0 unx   832992 b- defN 23-Sep-01 09:41 WEB-INF/lib/omnifaces-4.2.jar
+│ --rw-------  2.0 unx  4802204 b- defN 23-Sep-01 09:41 WEB-INF/lib/primefaces-12.0.0-jakarta.jar
+│ +-rw-r--r--  2.0 unx  4802204 b- defN 23-Sep-01 09:41 WEB-INF/lib/primefaces-12.0.0-jakarta.jar
+│  -rw-r--r--  2.0 unx    63635 b- defN 23-Sep-01 09:41 WEB-INF/lib/slf4j-api-2.0.7.jar
+│  -rw-r--r--  2.0 unx    10346 b- defN 23-Sep-01 09:41 WEB-INF/lib/slf4j-jdk14-2.0.7.jar
+│  -rw-r--r--  2.0 unx      267 b- defN 23-Sep-01 09:41 WEB-INF/payara-web.xml
+│  -rw-r--r--  2.0 unx     1760 b- defN 23-Sep-01 09:41 WEB-INF/web.xml
+│  -rw-r--r--  2.0 unx     3127 b- defN 23-Sep-01 09:41 exception-pages.xhtml
+│  -rw-r--r--  2.0 unx      396 b- defN 23-Sep-01 09:41 index.xhtml
+│  -rw-r--r--  2.0 unx      431 b- defN 23-Sep-01 09:41 path-example.xhtml
+
