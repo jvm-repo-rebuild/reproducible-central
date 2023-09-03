@@ -1,19 +1,19 @@
-[nl.hsac:hsac-fitnesse-fixtures](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.42/versions) RB check
+[nl.hsac:hsac-fitnesse-fixtures](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.44/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [nl.hsac:hsac-fitnesse-fixtures](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.42/versions)
+## Project: [nl.hsac:hsac-fitnesse-fixtures](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.44/versions)
 
 Source code: [https://github.com/fhoeben/hsac-fitnesse-fixtures.git](https://github.com/fhoeben/hsac-fitnesse-fixtures.git)
 
-rebuilding **62 releases** of nl.hsac:hsac-fitnesse-fixtures:
-- **51** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **63 releases** of nl.hsac:hsac-fitnesse-fixtures:
+- **52** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 11 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [5.2.44](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.44/pom) | | | |
+| [5.2.44](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.44/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.44.buildspec) | [result](hsac-fitnesse-fixtures-5.2.44.buildinfo): [4 :heavy_check_mark: ](hsac-fitnesse-fixtures-5.2.44.buildcompare) | 82M |
 | [5.2.43](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.43/pom) | | | |
 | [5.2.42](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.42/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.42.buildspec) | [result](hsac-fitnesse-fixtures-5.2.42.buildinfo): [4 :heavy_check_mark: ](hsac-fitnesse-fixtures-5.2.42.buildcompare) | 80M |
 | [5.2.41](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.41/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.41.buildspec) | [result](hsac-fitnesse-fixtures-5.2.41.buildinfo): [4 :heavy_check_mark: ](hsac-fitnesse-fixtures-5.2.41.buildcompare) | 80M |
