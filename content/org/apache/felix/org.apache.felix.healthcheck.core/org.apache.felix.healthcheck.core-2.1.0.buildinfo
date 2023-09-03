@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Felix Health Check Core
+group-id=org.apache.felix
+artifact-id=org.apache.felix.healthcheck.core
+version=2.1.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/apache/felix-dev.git
+source.scm.tag=org.apache.felix.healthcheck.core-2.1.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.felix.healthcheck.core-2.1.0.pom
+outputs.0.length=9729
+outputs.0.checksums.sha512=5a75659fc0cf5edcb72cc08ff31f72fa0addb804c764ee030c48b68549dfccbe2e3b0fed2c83e1a4d6e499e26f5b9b4f2861409666e4e85b821933733532951a
+
+outputs.1.filename=org.apache.felix.healthcheck.core-2.1.0.jar
+outputs.1.length=205017
+outputs.1.checksums.sha512=5cb5347b8e9c30549dc27cfd4b9b993ac5b0d1d509736ded18339097413cabf258ec709f4332574dc0047d7efaa7e70649324af40b1452fba13bef93b739d734
+
+outputs.2.filename=org.apache.felix.healthcheck.core-2.1.0-source-release.zip
+outputs.2.length=165473
+outputs.2.checksums.sha512=b15f28f50a9bf527456c104730677e186b82d7c3fe6e776d70720bff016f6085ac01325a5954b323fe3fe79953a3ea3b75ae14594be4b4cddd89fa30d6fd3062
+
+outputs.3.filename=org.apache.felix.healthcheck.core-2.1.0-source-release.tar.gz
+outputs.3.length=88319
+outputs.3.checksums.sha512=7bcff3efc79d535d39d8af1b2663ab5551416a64ca1c3aff5515e8c27447261ac7c60053bbf83a09f0c28d51ac8daec2ba0d48c83991ebab71d074b5fa33133d
+
+outputs.4.filename=org.apache.felix.healthcheck.core-2.1.0-sources.jar
+outputs.4.length=107959
+outputs.4.checksums.sha512=df49facb35f82107408cef680fa4f99c3426374d4eaf439fbe6aacead161e4b721edf664973ae9d6c5a0cd6e9eb53320e4baff9553741ab1faeb9fed18d2429f
