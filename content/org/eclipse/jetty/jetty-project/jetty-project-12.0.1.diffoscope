@@ -1,0 +1,222 @@
+1 / 18 target/reference/jetty-project-12.0.1.pom pom.xml
+--- target/reference/jetty-project-12.0.1.pom
++++ pom.xml
+│   --- target/reference/jetty-project-12.0.1.pom
+├── +++ pom.xml
+│ @@ -392,14 +392,32 @@
+│                <resourceBundles>
+│                  <resourceBundle>org.eclipse.jetty:build-resources:${project.version}</resourceBundle>
+│                </resourceBundles>
+│              </configuration>
+│            </execution>
+│          </executions>
+│        </plugin>
+│ +      <!-- The source maven plugin creates the source bundle and adds manifest -->
+│ +      <!-- if removing this we need to add it back in eclipse-release profile -->
+│ +      <!--
+│ +      <plugin>
+│ +        <groupId>org.apache.maven.plugins</groupId>
+│ +        <artifactId>maven-source-plugin</artifactId>
+│ +        <inherited>true</inherited>
+│ +        <executions>
+│ +          <execution>
+│ +            <id>attach-sources</id>
+│ +            <phase>package</phase>
+│ +            <goals>
+│ +              <goal>jar-no-fork</goal>
+│ +            </goals>
+│ +          </execution>
+│ +        </executions>
+│ +      </plugin>
+│ +-->
+│        <plugin>
+│          <groupId>com.mycila</groupId>
+│          <artifactId>license-maven-plugin</artifactId>
+│          <inherited>false</inherited>
+│          <configuration>
+│            <failIfMissing>true</failIfMissing>
+│            <aggregate>true</aggregate>
+│ @@ -1985,28 +2003,14 @@
+│                  <goals>
+│                    <goal>jar</goal>
+│                  </goals>
+│                </execution>
+│              </executions>
+│            </plugin>
+│            <plugin>
+│ -            <groupId>org.apache.maven.plugins</groupId>
+│ -            <artifactId>maven-source-plugin</artifactId>
+│ -            <inherited>true</inherited>
+│ -            <executions>
+│ -              <execution>
+│ -                <id>attach-sources</id>
+│ -                <phase>package</phase>
+│ -                <goals>
+│ -                  <goal>jar-no-fork</goal>
+│ -                </goals>
+│ -              </execution>
+│ -            </executions>
+│ -          </plugin>
+│ -          <plugin>
+│              <inherited>true</inherited>
+│              <groupId>org.apache.maven.plugins</groupId>
+│              <artifactId>maven-deploy-plugin</artifactId>
+│              <configuration>
+│                <updateReleaseInfo>true</updateReleaseInfo>
+│              </configuration>
+│            </plugin>
+
+2 / 18 target/reference/jetty-util-12.0.1.jar jetty-core/jetty-util/target/jetty-util-12.0.1.jar
+--- target/reference/jetty-util-12.0.1.jar
++++ jetty-core/jetty-util/target/jetty-util-12.0.1.jar
+├── zipinfo -v {}
+│ @@ -11620,15 +11620,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│    file last modified on (DOS date/time):          2023 Jun 5 23:12:48
+│ -  32-bit CRC value (hex):                         42080257
+│ +  32-bit CRC value (hex):                         ca374802
+│    compressed size:                                141 bytes
+│    uncompressed size:                              173 bytes
+│    length of filename:                             42 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── org/eclipse/jetty/version/build.properties
+│ @@ -1,4 +1,4 @@
+│ -buildNumber=05db7fd8eb70bda7caf336f8c33669e552e85b12
+│ -timestamp=1693349039920
+│ +buildNumber=476874584943daf3041eb0ca584d4de3a87f19fd
+│ +timestamp=1693778417320
+│  version=12.0.1
+│  scmUrl=scm:git:https://github.com/eclipse/jetty.project.git/jetty-core/jetty-util
+
+...
+
+6 / 18 target/reference/jetty-start-12.0.1-shaded-sources.jar jetty-core/jetty-start/target/jetty-start-12.0.1-shaded-sources.jar
+--- target/reference/jetty-start-12.0.1-shaded-sources.jar
++++ jetty-core/jetty-start/target/jetty-start-12.0.1-shaded-sources.jar
+├── zipinfo {}
+│ @@ -1,67 +1,12 @@
+│ -Zip file size: 109543 bytes, number of entries: 65
+│ --rw----     2.0 fat        0 bX defN 23-Jun-05 23:12 META-INF/
+│ --rw----     2.0 fat      312 bl defN 23-Jun-05 23:12 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat        0 bl defN 23-Jun-05 23:12 org/
+│ +Zip file size: 9776 bytes, number of entries: 10
+│ +-rw----     2.0 fat        0 bX defN 23-Jun-05 23:12 org/
+│  -rw----     2.0 fat        0 bl defN 23-Jun-05 23:12 org/eclipse/
+│  -rw----     2.0 fat        0 bl defN 23-Jun-05 23:12 org/eclipse/jetty/
+│  -rw----     2.0 fat        0 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/
+│ --rw----     2.0 fat    15455 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/BaseBuilder.java
+│ --rw----     2.0 fat    14995 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/BaseHome.java
+│ --rw----     2.0 fat     4920 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/Classpath.java
+│ --rw----     2.0 fat     7171 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/CommandLineBuilder.java
+│ --rw----     2.0 fat     7557 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/FS.java
+│ --rw----     2.0 fat     3790 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/FileArg.java
+│ --rw----     2.0 fat     6522 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/FileInitializer.java
+│ --rw----     2.0 fat     4946 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/JarVersion.java
+│ --rw----     2.0 fat     3359 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/Licensing.java
+│ --rw----     2.0 fat    24250 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/Main.java
+│ --rw----     2.0 fat    20462 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/Module.java
+│ --rw----     2.0 fat     9006 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/ModuleGraphWriter.java
+│ --rw----     2.0 fat    23375 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/Modules.java
+│ --rw----     2.0 fat     1583 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/NaturalSort.java
+│ --rw----     2.0 fat     4473 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/PathFinder.java
+│ --rw----     2.0 fat     7103 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/PathMatchers.java
+│ --rw----     2.0 fat    10858 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/Props.java
+│ --rw----     2.0 fat      999 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/PropsException.java
+│ --rw----     2.0 fat     2102 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/RawArgs.java
+│ --rw----     2.0 fat    49453 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/StartArgs.java
+│ --rw----     2.0 fat     8480 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/StartEnvironment.java
+│ --rw----     2.0 fat     4095 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/StartIni.java
+│ --rw----     2.0 fat     6159 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/StartLog.java
+│ --rw----     2.0 fat     3399 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/TextFile.java
+│ --rw----     2.0 fat     1741 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/UsageException.java
+│ --rw----     2.0 fat     2901 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/Utils.java
+│ --rw----     2.0 fat     7100 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/Version.java
+│ --rw----     2.0 fat        0 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/builders/
+│ --rw----     2.0 fat     2546 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/builders/StartDirBuilder.java
+│ --rw----     2.0 fat     3755 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/builders/StartIniBuilder.java
+│ --rw----     2.0 fat        0 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/config/
+│ --rw----     2.0 fat     6673 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/config/CommandLineConfigSource.java
+│ --rw----     2.0 fat     2252 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/config/ConfigSource.java
+│ --rw----     2.0 fat     4528 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/config/ConfigSources.java
+│ --rw----     2.0 fat     8082 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/config/DirConfigSource.java
+│ --rw----     2.0 fat     1049 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/config/JettyBaseConfigSource.java
+│ --rw----     2.0 fat     1030 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/config/JettyHomeConfigSource.java
+│ --rw----     2.0 fat        0 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/fileinits/
+│ --rw----     2.0 fat     2955 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/fileinits/BaseHomeFileInitializer.java
+│ --rw----     2.0 fat     4296 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/fileinits/DownloadFileInitializer.java
+│ --rw----     2.0 fat     2477 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/fileinits/LocalFileInitializer.java
+│ --rw----     2.0 fat    12507 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/fileinits/MavenLocalRepoFileInitializer.java
+│ --rw----     2.0 fat     9301 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/fileinits/MavenMetadata.java
+│ --rw----     2.0 fat     1742 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/fileinits/TestFileInitializer.java
+│ --rw----     2.0 fat     1719 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/fileinits/UriFileInitializer.java
+│ --rw----     2.0 fat      656 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/package-info.java
+│ --rw----     2.0 fat      109 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/build.properties
+│ --rw----     2.0 fat    12237 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/usage.txt
+│ --rw----     2.0 fat        0 bl defN 23-Jun-05 23:12 META-INF/maven/
+│ --rw----     2.0 fat        0 bl defN 23-Jun-05 23:12 META-INF/maven/org.eclipse.jetty/
+│ --rw----     2.0 fat        0 bl defN 23-Jun-05 23:12 META-INF/maven/org.eclipse.jetty/jetty-start/
+│ --rw----     2.0 fat     4646 bl defN 23-Jun-05 23:12 META-INF/maven/org.eclipse.jetty/jetty-start/pom.xml
+│ --rw----     2.0 fat       64 bl defN 23-Jun-05 23:12 META-INF/maven/org.eclipse.jetty/jetty-start/pom.properties
+│  -rw----     2.0 fat        0 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/shaded/
+│  -rw----     2.0 fat        0 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/shaded/util/
+│  -rw----     2.0 fat    18370 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/shaded/util/FileID.java
+│  -rw----     2.0 fat     3592 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/shaded/util/JavaVersion.java
+│  -rw----     2.0 fat     2800 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/shaded/util/ManifestUtils.java
+│  -rw----     2.0 fat     7535 bl defN 23-Jun-05 23:12 org/eclipse/jetty/start/shaded/util/TopologicalSort.java
+│ -65 files, 371487 bytes uncompressed, 98205 bytes compressed:  73.6%
+│ +10 files, 32297 bytes uncompressed, 8158 bytes compressed:  74.7%
+
+
+9 / 18 target/reference/jetty-ee10-home-12.0.1-sources.tar.gz jetty-ee10/jetty-ee10-home/target/jetty-ee10-home-12.0.1-sources.tar.gz
+--- target/reference/jetty-ee10-home-12.0.1-sources.tar.gz
++++ jetty-ee10/jetty-ee10-home/target/jetty-ee10-home-12.0.1-sources.tar.gz
+├── jetty-ee10-home-12.0.1-sources.tar
+│ ├── file list
+│ │ @@ -4,15 +4,15 @@
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2023-06-05 23:12:49.000000 lib/ee10-glassfish-jstl/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2023-06-05 23:12:49.000000 lib/ee10-jaspi/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2023-06-05 23:12:49.000000 lib/ee10-websocket/
+│ │  -rw-r--r--   0 root         (0) root         (0)   181688 2023-06-05 23:12:49.000000 lib/ee10-annotations/asm-9.5-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    41409 2023-06-05 23:12:49.000000 lib/ee10-annotations/asm-analysis-9.5-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    82941 2023-06-05 23:12:49.000000 lib/ee10-annotations/asm-commons-9.5-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    76632 2023-06-05 23:12:49.000000 lib/ee10-annotations/asm-tree-9.5-sources.jar
+│ │ --rw-------   0 root         (0) root         (0)    37373 2023-06-05 23:12:49.000000 lib/ee10-annotations/jakarta.annotation-api-2.1.1-sources.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)    37373 2023-06-05 23:12:49.000000 lib/ee10-annotations/jakarta.annotation-api-2.1.1-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)  2301849 2023-06-05 23:12:49.000000 lib/ee10-apache-jsp/org.eclipse.jdt.ecj-3.33.0-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   151321 2023-06-05 23:12:49.000000 lib/ee10-apache-jsp/org.mortbay.jasper.apache-el-10.1.7-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)  1032977 2023-06-05 23:12:49.000000 lib/ee10-apache-jsp/org.mortbay.jasper.apache-jsp-10.1.7-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    60771 2023-06-05 23:12:49.000000 lib/ee10-glassfish-jstl/jakarta.servlet.jsp.jstl.jakarta.servlet.jsp.jstl-api-3.0.0-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   439183 2023-06-05 23:12:49.000000 lib/ee10-glassfish-jstl/org.glassfish.web.jakarta.servlet.jsp.jstl-3.0.1-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    63662 2023-06-05 23:12:49.000000 lib/ee10-jaspi/jakarta.authentication-api-3.0.0-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    31449 2023-06-05 23:12:49.000000 lib/ee10-websocket/jakarta.websocket-api-2.1.1-sources.jar
+
+10 / 18 target/reference/jetty-ee10-home-12.0.1-sources.zip jetty-ee10/jetty-ee10-home/target/jetty-ee10-home-12.0.1-sources.zip
+--- target/reference/jetty-ee10-home-12.0.1-sources.zip
++++ jetty-ee10/jetty-ee10-home/target/jetty-ee10-home-12.0.1-sources.zip
+├── zipinfo {}
+│ @@ -5,15 +5,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 lib/ee10-glassfish-jstl/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 lib/ee10-jaspi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 lib/ee10-websocket/
+│  -rw-r--r--  2.0 unx   181688 b- defN 23-Jun-05 23:12 lib/ee10-annotations/asm-9.5-sources.jar
+│  -rw-r--r--  2.0 unx    41409 b- defN 23-Jun-05 23:12 lib/ee10-annotations/asm-analysis-9.5-sources.jar
+│  -rw-r--r--  2.0 unx    82941 b- defN 23-Jun-05 23:12 lib/ee10-annotations/asm-commons-9.5-sources.jar
+│  -rw-r--r--  2.0 unx    76632 b- defN 23-Jun-05 23:12 lib/ee10-annotations/asm-tree-9.5-sources.jar
+│ --rw-------  2.0 unx    37373 b- defN 23-Jun-05 23:12 lib/ee10-annotations/jakarta.annotation-api-2.1.1-sources.jar
+│ +-rw-r--r--  2.0 unx    37373 b- defN 23-Jun-05 23:12 lib/ee10-annotations/jakarta.annotation-api-2.1.1-sources.jar
+│  -rw-r--r--  2.0 unx  2301849 b- defN 23-Jun-05 23:12 lib/ee10-apache-jsp/org.eclipse.jdt.ecj-3.33.0-sources.jar
+│  -rw-r--r--  2.0 unx   151321 b- defN 23-Jun-05 23:12 lib/ee10-apache-jsp/org.mortbay.jasper.apache-el-10.1.7-sources.jar
+│  -rw-r--r--  2.0 unx  1032977 b- defN 23-Jun-05 23:12 lib/ee10-apache-jsp/org.mortbay.jasper.apache-jsp-10.1.7-sources.jar
+│  -rw-r--r--  2.0 unx    60771 b- defN 23-Jun-05 23:12 lib/ee10-glassfish-jstl/jakarta.servlet.jsp.jstl.jakarta.servlet.jsp.jstl-api-3.0.0-sources.jar
+│  -rw-r--r--  2.0 unx   439183 b- defN 23-Jun-05 23:12 lib/ee10-glassfish-jstl/org.glassfish.web.jakarta.servlet.jsp.jstl-3.0.1-sources.jar
+│  -rw-r--r--  2.0 unx    63662 b- defN 23-Jun-05 23:12 lib/ee10-jaspi/jakarta.authentication-api-3.0.0-sources.jar
+│  -rw-r--r--  2.0 unx    31449 b- defN 23-Jun-05 23:12 lib/ee10-websocket/jakarta.websocket-api-2.1.1-sources.jar
+
