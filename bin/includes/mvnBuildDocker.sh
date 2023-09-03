@@ -100,6 +100,7 @@ mvnBuildDocker() {
     -v $base/.bnd:/.bnd\
     -u $USER_NAME:$GROUP_ID\
     -e MAVEN_CONFIG=/var/maven/.m2\
+    -e MVN_UMASK=${MVN_UMASK}\
     -w /var/maven/app"
 
   if [[ "${newline}" == crlf* ]]

@@ -36,6 +36,20 @@ then
   info "Fetching source code from Git \033[1m${gitRepo}\033[0m on tag \033[1m${gitTag}\033[0m"
   [ -d ${artifactId} ] || git clone ${gitRepo} ${artifactId} || fatal "failed to clone ${artifactId}"
   cd ${artifactId}
+
+  # check and update permissions vs umask configured in buildspec
+  stat=$(stat -c "%a" .)
+  if [ "$stat" == "775" ]
+  then
+    [ "$umask" == "022" ] && echo "applying umask $umask: chmod -R g-w" && chmod -R g-w .
+  elif [ "$stat" == "755" ]
+  then
+    [ "$umask" != "022" ] && echo "applying umask $umask: chmod -R g+w" && chmod -R g+w .
+  else
+    echo "WARNING unexpected directory permission $stat"
+    ls -l
+  fi
+
   runcommand git remote -v
   runlog "git fetch"
   git fetch || fatal "failed to git fetch"

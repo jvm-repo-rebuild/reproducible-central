@@ -1,5 +1,5 @@
 <settings>
-  <localRepository>${user.home}/.m2/repository</localRepository>
+  <localRepository>${user.home}/.m2/repository-${MVN_UMASK}</localRepository>
   <profiles>
     <profile>
       <id>io.wcm</id>

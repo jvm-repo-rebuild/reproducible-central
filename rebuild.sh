@@ -72,6 +72,7 @@ pushd "$(dirname ${buildspec})" >/dev/null || fatal "Could not move into ${build
 echo
 # set umask for the script execution itself because Git updates are better with target umask
 umask $umask
+export MVN_UMASK=${umask}
 fetchSource
 
 echo
