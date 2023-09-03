@@ -1,0 +1,7 @@
+version=2.0.8
+ok=40
+ko=0
+okFiles="slf4j-bom-2.0.8.pom slf4j-parent-2.0.8.pom slf4j-api-2.0.8.pom slf4j-api-2.0.8.jar slf4j-api-2.0.8-tests.jar slf4j-api-2.0.8-sources.jar slf4j-simple-2.0.8.pom slf4j-simple-2.0.8.jar slf4j-simple-2.0.8-sources.jar slf4j-nop-2.0.8.pom slf4j-nop-2.0.8.jar slf4j-nop-2.0.8-sources.jar slf4j-jdk14-2.0.8.pom slf4j-jdk14-2.0.8.jar slf4j-jdk14-2.0.8-sources.jar slf4j-jdk-platform-logging-2.0.8.pom slf4j-jdk-platform-logging-2.0.8.jar slf4j-jdk-platform-logging-2.0.8-sources.jar slf4j-log4j12-2.0.8.pom slf4j-reload4j-2.0.8.pom slf4j-reload4j-2.0.8.jar slf4j-reload4j-2.0.8-sources.jar slf4j-ext-2.0.8.pom slf4j-ext-2.0.8.jar slf4j-ext-2.0.8-sources.jar jcl-over-slf4j-2.0.8.pom jcl-over-slf4j-2.0.8.jar jcl-over-slf4j-2.0.8-sources.jar log4j-over-slf4j-2.0.8.pom log4j-over-slf4j-2.0.8.jar log4j-over-slf4j-2.0.8-sources.jar jul-to-slf4j-2.0.8.pom jul-to-slf4j-2.0.8.jar jul-to-slf4j-2.0.8-sources.jar osgi-over-slf4j-2.0.8.pom osgi-over-slf4j-2.0.8.jar osgi-over-slf4j-2.0.8-sources.jar slf4j-migrator-2.0.8.pom slf4j-migrator-2.0.8.jar slf4j-migrator-2.0.8-sources.jar"
+koFiles=""
+reference_java_version="20 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
