@@ -1,0 +1,69 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.genevan
+group-id=com.io7m.genevan
+artifact-id=com.io7m.genevan
+version=0.0.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/primogenitor
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=com.io7m.genevan.tests
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.genevan:com.io7m.genevan
+
+outputs.0.0.filename=com.io7m.genevan-0.0.1.pom
+outputs.0.0.length=4316
+outputs.0.0.checksums.sha512=24f094f6005068cc27e1d12b1f9c8faffb9627bec466675adf29da7a00a4492c382aa76204d550a8d96ec0d9f694eb724364512132fb6ce5a9db4cef1768f475
+
+outputs.1.coordinates=com.io7m.genevan:com.io7m.genevan.core
+
+outputs.1.0.filename=com.io7m.genevan.core-0.0.1.pom
+outputs.1.0.length=1422
+outputs.1.0.checksums.sha512=a72bdeb83143137ca21939442926bda20865500026e670a80410f1073e7037e8333d4d457673a27295fbc734ce6eb2552d71a8205e69f96c77636f275217b6c8
+
+outputs.1.1.filename=com.io7m.genevan.core-0.0.1.jar
+outputs.1.1.length=25546
+outputs.1.1.checksums.sha512=7556746be35ad5f3a098a58d443e5c7879a8f8b4e1f4001df5f32fbee5332c80e50daafd452e0ae7840714b4c0b5b23e1e963413e29f486c0a59454eeaeef297
+
+outputs.1.2.filename=com.io7m.genevan.core-0.0.1-sources.jar
+outputs.1.2.length=17116
+outputs.1.2.checksums.sha512=e887b86097d9cbeaa901441960e0d54091a320f75165fb7ecb44d138786cc7d4aad4b64fb74935ba46f3d02fd33dd4d46ac6910bdebe5bcf97dc2922a5ddc97d
+
+outputs.1.3.filename=com.io7m.genevan.core-0.0.1-tests.jar
+outputs.1.3.length=409
+outputs.1.3.checksums.sha512=12cb8bf368f272c2d84dbc9d7440216d2d9cea23e19c37bb92c7d7b53ace2e3a267640812d29d8d461ac0e89871989f94d62f402c76f148543ba027ba99f6918
+
+outputs.2.coordinates=com.io7m.genevan:com.io7m.genevan.tests
+
+outputs.2.0.filename=com.io7m.genevan.tests-0.0.1.pom
+outputs.2.0.length=2657
+outputs.2.0.checksums.sha512=9d13dcc4ca0001b1c0f577229e2e1b5eb2a0ecf9a9f891f0e822bf59322f417a85a5519205d9e3685d8ddf0f002067567e3eee083c825149f1ca94a4e6a40f06
+
+outputs.2.1.filename=com.io7m.genevan.tests-0.0.1.jar
+outputs.2.1.length=3763
+outputs.2.1.checksums.sha512=e060394d75760baf53ab179f661a59fb441375a7da87e188147c4bbc2372b8b2cc4cac732d135f15a29b260c70ded37af4b4191229ab0d918708b224ce84cfa8
+
+outputs.2.2.filename=com.io7m.genevan.tests-0.0.1-sources.jar
+outputs.2.2.length=4617
+outputs.2.2.checksums.sha512=dd13444233197e2d255e27a81f8b3a140fd55fcf91ba07a058ecc7992008d0ffe63d7247581c342af9c7d5789d480d4ab85b0ddc66454c06292b7c717b4c779e
+
+outputs.2.3.filename=com.io7m.genevan.tests-0.0.1-test-sources.jar
+outputs.2.3.length=9794
+outputs.2.3.checksums.sha512=53c687075097efd2da62d653b099eeb7b18d3737657e8ba4e8953fd7245de0274539434521496a3634edad270a3a0b7f8d18d499990357205c74e582951d577e
+
+outputs.2.4.filename=com.io7m.genevan.tests-0.0.1-tests.jar
+outputs.2.4.length=12542
+outputs.2.4.checksums.sha512=b3bfdb2522c1dd98f5dd75705465c3fdc7924d27b3a3c94f2f8d9e068dbf71c69ab46e001beeb46e6cb9acb17358a38e34e3faa36dcdbd4bf2870569b7bf9529
