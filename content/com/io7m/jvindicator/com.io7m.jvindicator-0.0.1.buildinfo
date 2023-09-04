@@ -1,0 +1,70 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.jvindicator
+group-id=com.io7m.jvindicator
+artifact-id=com.io7m.jvindicator
+version=0.0.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/jvindicator
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.jvindicator.tests
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.jvindicator:com.io7m.jvindicator
+
+outputs.0.0.filename=com.io7m.jvindicator-0.0.1.pom
+outputs.0.0.length=5202
+outputs.0.0.checksums.sha512=3c46df3862ec2de6d17f62c4d6ce5eb7cc9496a9ebe085f8f8efc25b3cad36bd7fddd56c1a22b537fb1dfc7d79b6316d33c64471e3dd246a79311ba90ee975f1
+
+outputs.1.coordinates=com.io7m.jvindicator:com.io7m.jvindicator.core
+
+outputs.1.0.filename=com.io7m.jvindicator.core-0.0.1.pom
+outputs.1.0.length=1030
+outputs.1.0.checksums.sha512=165fd897bb84b92b6ed3dc76febdfc3e69e8760cd82038a05db6e188da7617cf6bb966c5f80d1a82b1ddc6be0caf8874eee3a3f9dc2c8342e419819ae7b6690d
+
+outputs.1.1.filename=com.io7m.jvindicator.core-0.0.1.jar
+outputs.1.1.length=11529
+outputs.1.1.checksums.sha512=669cb7dab347a156170d1e058e3aa6f3826dafc9de3e344ca1266761fae076634227d72cb58e34c1f7212d81e49a36ab1ca0a347c8c44b07cbfded390bb91c3b
+
+outputs.1.2.filename=com.io7m.jvindicator.core-0.0.1-sources.jar
+outputs.1.2.length=9346
+outputs.1.2.checksums.sha512=8b969f5dc7a24b4d99ac9efc121df03dd729ba67f9cb59fb65b7b7ab1c36bfd4f563b2a0e584b3562d2673d8126071c504354b28a10ddd916be1b8b408d41f42
+
+outputs.1.3.filename=com.io7m.jvindicator.core-0.0.1-tests.jar
+outputs.1.3.length=413
+outputs.1.3.checksums.sha512=897f8384dab7a5eec5461a9f83f916757ffecb433dc8afbbfa49d570bcc63286f37b4bb3eaee7fd6638d5cb1ee66042ba0c0dec4fdb9db25d73b9399c9e98dd0
+
+outputs.2.coordinates=com.io7m.jvindicator:com.io7m.jvindicator.tests
+
+outputs.2.0.filename=com.io7m.jvindicator.tests-0.0.1.pom
+outputs.2.0.length=2238
+outputs.2.0.checksums.sha512=295c70f3b3fc2b3499b1d71c5d3b2a84326674fdc9b0e7a463be4f8d881c6d1ba7f93cc9b1acda5dc2a36a3bf1e8feb18acc43f687d96aeb428013118e58a36a
+
+outputs.2.1.filename=com.io7m.jvindicator.tests-0.0.1.jar
+outputs.2.1.length=3931
+outputs.2.1.checksums.sha512=fe4ff9222ea8d9df9b3b54ec09b4b035ff34402feaa456733473eb833ed1205d76d068dc2795c643fd2f9a7ebe1efaff831a8eda95bc9a25b9fa06567adec8e5
+
+outputs.2.2.filename=com.io7m.jvindicator.tests-0.0.1-sources.jar
+outputs.2.2.length=4753
+outputs.2.2.checksums.sha512=3c369281881a7c35112296bc6ae11da68a12db995b5dcade4f2aa4645897bcbad39b5262a779f00b9a79d059fb49e5f4a3a64574f5682bdfc183a428cc4762db
+
+outputs.2.3.filename=com.io7m.jvindicator.tests-0.0.1-test-sources.jar
+outputs.2.3.length=4513
+outputs.2.3.checksums.sha512=72f5357cd56f3d4fd5ff35426640a14d93bfd5b6fa2a7c5a8e7e09f2022391207b4803f4f40aa60be7ea696e5f019ae37ac7818c73616e5320a7a5fe68956579
+
+outputs.2.4.filename=com.io7m.jvindicator.tests-0.0.1-tests.jar
+outputs.2.4.length=5843
+outputs.2.4.checksums.sha512=0e915fde4241d1546f260db67ce39e77ed8aa7781043c362f046e03515b345b8a1ba34d3e1696b3de11e53eb68869ecd7bf841db49b12fd58c9196bba9bd4e1e
