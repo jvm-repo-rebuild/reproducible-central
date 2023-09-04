@@ -1,0 +1,5 @@
+version=0.0.2
+ok=10
+ko=0
+okFiles="com.io7m.genevan-0.0.2.pom com.io7m.genevan.core-0.0.2.pom com.io7m.genevan.core-0.0.2.jar com.io7m.genevan.core-0.0.2-sources.jar com.io7m.genevan.core-0.0.2-tests.jar com.io7m.genevan.tests-0.0.2.pom com.io7m.genevan.tests-0.0.2.jar com.io7m.genevan.tests-0.0.2-sources.jar com.io7m.genevan.tests-0.0.2-test-sources.jar com.io7m.genevan.tests-0.0.2-tests.jar"
+koFiles=""
