@@ -1,0 +1,66 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.timehack6435126
+group-id=com.io7m.timehack6435126
+artifact-id=com.io7m.timehack6435126
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/timehack6435126
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.timehack6435126.documentation
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.timehack6435126:com.io7m.timehack6435126
+
+outputs.0.0.filename=com.io7m.timehack6435126-3.0.0.pom
+outputs.0.0.length=4402
+outputs.0.0.checksums.sha512=eb84c232185b7bd88ebe5d0e6b1b40de59183480a85cbbcb335653fb6fd29dae7f496063427e7dff872dd12a31993c369f0e61ca04036f4d8481227b92213b53
+
+outputs.1.coordinates=com.io7m.timehack6435126:com.io7m.timehack6435126.core
+
+outputs.1.0.filename=com.io7m.timehack6435126.core-3.0.0.pom
+outputs.1.0.length=1290
+outputs.1.0.checksums.sha512=211885e01c609bdcdda6d84ea627e107f6aa8d2da1f782825c7b874a51877b6053cbe90e0cedd0367e286ff79157e25515f322e9e7b308e7b3fe08a628b6892c
+
+outputs.1.1.filename=com.io7m.timehack6435126.core-3.0.0.jar
+outputs.1.1.length=4688
+outputs.1.1.checksums.sha512=8f9924cadbdb24141fcc60b8e633ca03e55b65358d737d573db63d1e787e1d8aac2bb1ade1d5aed348947cf578e4f52021f430b306a2644bc52f9b98c0ffb3dc
+
+outputs.1.2.filename=com.io7m.timehack6435126.core-3.0.0-sources.jar
+outputs.1.2.length=4906
+outputs.1.2.checksums.sha512=649794f49d87664241dcdd6f674b50e773ade7cca8fafb7e0819e4b5ed837de4fd5e8efdbf2002935af31512fc555d5be5ce8d06f9da157c4f8373e781210754
+
+outputs.1.3.filename=com.io7m.timehack6435126.core-3.0.0-tests.jar
+outputs.1.3.length=415
+outputs.1.3.checksums.sha512=24601480e3e58671bd996e90bab7d15fb86324af8cf97693c536a05e1db1b271af91d65251d20d0a0ca5c28bc298d97ae1076906a846b9967ab184ec62de437d
+
+outputs.2.coordinates=com.io7m.timehack6435126:com.io7m.timehack6435126.documentation
+
+outputs.2.0.filename=com.io7m.timehack6435126.documentation-3.0.0.pom
+outputs.2.0.length=7616
+outputs.2.0.checksums.sha512=87bb035998d3ca7a2cad762f42fddecbeace7a28cca0b71774fb6fb4513c75eebbd670f56315566e98b1b8e84ff52cd1f2fb45b4e52b31b4b699569beb5f603f
+
+outputs.2.1.filename=com.io7m.timehack6435126.documentation-3.0.0.jar
+outputs.2.1.length=8232
+outputs.2.1.checksums.sha512=2313b5513b1b3d3cd787afa1e2a13d5b5fb8d6c403b3f6ac8cd1efc3392e0d66a6d4ead3d736ce9a25f10094f31d142517e86fdf8fe0a6052b9ecf2e0e0ff924
+
+outputs.2.2.filename=com.io7m.timehack6435126.documentation-3.0.0-sources.jar
+outputs.2.2.length=9128
+outputs.2.2.checksums.sha512=08515669a726f60eb4b01150bbbdb016b6974143919637532ab98939d87dec2986d05bdc42fbf6573b0b18c7075b88542c10cb4c027f17d61fcc5e179ae344ea
+
+outputs.2.3.filename=com.io7m.timehack6435126.documentation-3.0.0-tests.jar
+outputs.2.3.length=418
+outputs.2.3.checksums.sha512=e511ee42c35e20598a12c7fa4ab44a832f799e2979e77baa74a77bab269a20b130f202e5a7ac9264886d7cce0219e70dfa455842a11db0f12f69bc967165ca90
