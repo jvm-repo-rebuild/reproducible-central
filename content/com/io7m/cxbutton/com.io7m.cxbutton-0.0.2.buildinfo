@@ -1,0 +1,70 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.cxbutton
+group-id=com.io7m.cxbutton
+artifact-id=com.io7m.cxbutton
+version=0.0.2
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/cxbutton
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.cxbutton.tests
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.cxbutton:com.io7m.cxbutton
+
+outputs.0.0.filename=com.io7m.cxbutton-0.0.2.pom
+outputs.0.0.length=6094
+outputs.0.0.checksums.sha512=251847df510ce6cc2abc0ea178394270dcb9422538ce41a5d9c43d225b9b67a871e599e470c5d3f77d6ea2547630d009372c4cbca626df70ba2184228ceeea5e
+
+outputs.1.coordinates=com.io7m.cxbutton:com.io7m.cxbutton.core
+
+outputs.1.0.filename=com.io7m.cxbutton.core-0.0.2.pom
+outputs.1.0.length=1547
+outputs.1.0.checksums.sha512=048b4f5afef49db7d710a722b8bed780af0e16887ef08b80d74cf7c570f002894178dd7e3d45c51afb57da27501b73a647a91d88c50825e105f213077d44968e
+
+outputs.1.1.filename=com.io7m.cxbutton.core-0.0.2.jar
+outputs.1.1.length=11589
+outputs.1.1.checksums.sha512=22d658ab9a18bc797c4349dc259f28a650ac9b7c0496cd84a9a088f5ccead2b3a1871c3f4fc43110e8fd5050278d2d4e9f0e63edc5ab64a07482dc37b704c79d
+
+outputs.1.2.filename=com.io7m.cxbutton.core-0.0.2-sources.jar
+outputs.1.2.length=11285
+outputs.1.2.checksums.sha512=8331c6b481de03094dfb183fae7e92853b420290a5c30efd90b6fbe5a099bd508c360d536abd02cf1edf61e83a1beb5935c8595c7b022d01a0edacecf35833f5
+
+outputs.1.3.filename=com.io7m.cxbutton.core-0.0.2-tests.jar
+outputs.1.3.length=408
+outputs.1.3.checksums.sha512=5bc53e26ba7c7dc7b88aa8e4f694e912c22e49848170ae7e847f5f023aeb6991f282b58063ef535dc37bc1aefc840f8c1cfc18df922785bf2a820effad076ecf
+
+outputs.2.coordinates=com.io7m.cxbutton:com.io7m.cxbutton.tests
+
+outputs.2.0.filename=com.io7m.cxbutton.tests-0.0.2.pom
+outputs.2.0.length=2351
+outputs.2.0.checksums.sha512=18a8a2e50a7ad24b3fe14d7f1929be70e345086712ccc1de39411e04a27e0ea359955f76092bedb9aaed1fe06aab6b868fe0bd9708ce8178c706ed1c5848d310
+
+outputs.2.1.filename=com.io7m.cxbutton.tests-0.0.2.jar
+outputs.2.1.length=3899
+outputs.2.1.checksums.sha512=f5a8e3537c40664cc1e05d37d183f15d00bc13029478e09a8412807e49f4489adc49bc2a5a05b72b5008f1451c666b7911e133b59ad29e61c8d5c81511c63523
+
+outputs.2.2.filename=com.io7m.cxbutton.tests-0.0.2-sources.jar
+outputs.2.2.length=4734
+outputs.2.2.checksums.sha512=02bddacfeb2aa15058d691a0aee2380fd5bd79b736d0029091f172417f4bc52af77b4b5da009172d507c39af5ff2fd98e9be46aaab2f712c52b90f513e0aa62c
+
+outputs.2.3.filename=com.io7m.cxbutton.tests-0.0.2-test-sources.jar
+outputs.2.3.length=5828
+outputs.2.3.checksums.sha512=185a2966e4e39a431b6f45897c43db15a8bf550dd04d1eae01e5d2ec6783cecdae3654469483831f832dd2379d9f057c95ec1d8b4161d2d290571870a7584660
+
+outputs.2.4.filename=com.io7m.cxbutton.tests-0.0.2-tests.jar
+outputs.2.4.length=4922
+outputs.2.4.checksums.sha512=b856bcaab6a07af00710d2da369908431730af2c131019651cfff057ef203405e16dcfb83b42714568be868996d03ef4d3e19bce395f2f9a28c4326b0fb7f9a1
