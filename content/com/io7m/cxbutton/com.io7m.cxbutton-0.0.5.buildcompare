@@ -1,0 +1,5 @@
+version=0.0.5
+ok=10
+ko=0
+okFiles="com.io7m.cxbutton-0.0.5.pom com.io7m.cxbutton.core-0.0.5.pom com.io7m.cxbutton.core-0.0.5.jar com.io7m.cxbutton.core-0.0.5-sources.jar com.io7m.cxbutton.core-0.0.5-tests.jar com.io7m.cxbutton.tests-0.0.5.pom com.io7m.cxbutton.tests-0.0.5.jar com.io7m.cxbutton.tests-0.0.5-sources.jar com.io7m.cxbutton.tests-0.0.5-test-sources.jar com.io7m.cxbutton.tests-0.0.5-tests.jar"
+koFiles=""
