@@ -1,0 +1,5 @@
+version=1.7.2
+ok=26
+ko=0
+okFiles="com.io7m.xstructural-1.7.2.pom com.io7m.xstructural.api-1.7.2.pom com.io7m.xstructural.api-1.7.2.jar com.io7m.xstructural.api-1.7.2-sources.jar com.io7m.xstructural.api-1.7.2-tests.jar com.io7m.xstructural.xml-1.7.2.pom com.io7m.xstructural.xml-1.7.2.jar com.io7m.xstructural.xml-1.7.2-sources.jar com.io7m.xstructural.xml-1.7.2-tests.jar com.io7m.xstructural.vanilla-1.7.2.pom com.io7m.xstructural.vanilla-1.7.2.jar com.io7m.xstructural.vanilla-1.7.2-sources.jar com.io7m.xstructural.vanilla-1.7.2-tests.jar com.io7m.xstructural.cmdline-1.7.2.pom com.io7m.xstructural.cmdline-1.7.2.jar com.io7m.xstructural.cmdline-1.7.2-sources.jar com.io7m.xstructural.cmdline-1.7.2-main.jar com.io7m.xstructural.cmdline-1.7.2-tests.jar com.io7m.xstructural.tests-1.7.2.pom com.io7m.xstructural.tests-1.7.2.jar com.io7m.xstructural.tests-1.7.2-test-sources.jar com.io7m.xstructural.tests-1.7.2-tests.jar com.io7m.xstructural.documentation-1.7.2.pom com.io7m.xstructural.documentation-1.7.2.jar com.io7m.xstructural.documentation-1.7.2-sources.jar com.io7m.xstructural.documentation-1.7.2-tests.jar"
+koFiles=""
