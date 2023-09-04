@@ -1,0 +1,19 @@
+groupId=com.io7m.xstructural
+artifactId=com.io7m.xstructural
+display=${groupId}:${artifactId}
+version=1.8.0
+
+gitRepo="https://github.com/io7m/$(echo "${artifactId}" | sed s/com.io7m.//).git"
+gitTag=${artifactId}-${version}
+#gitTag=
+
+tool=mvn-3.9.3
+jdk=17.0.5
+newline=lf
+umask=022
+
+command="mvn -DskipTests clean package -Dassembly.skipAssembly"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
