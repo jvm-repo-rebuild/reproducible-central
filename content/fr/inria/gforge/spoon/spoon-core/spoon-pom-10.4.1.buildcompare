@@ -1,0 +1,7 @@
+version=10.4.1
+ok=8
+ko=0
+okFiles="spoon-pom-10.4.1.pom spoon-core-10.4.1.pom spoon-core-10.4.1.jar spoon-core-10.4.1-jar-with-dependencies.jar spoon-core-10.4.1-sources.jar spoon-javadoc-10.4.1.pom spoon-javadoc-10.4.1.jar spoon-javadoc-10.4.1-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

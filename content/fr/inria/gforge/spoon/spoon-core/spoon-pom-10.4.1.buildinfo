@@ -1,0 +1,61 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Spoon POM
+group-id=fr.inria.gforge.spoon
+artifact-id=spoon-pom
+version=10.4.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/INRIA/spoon.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=spoon-javadoc
+
+# aggregated output
+
+outputs.0.coordinates=fr.inria.gforge.spoon:spoon-pom
+
+outputs.0.0.filename=spoon-pom-10.4.1.pom
+outputs.0.0.length=21574
+outputs.0.0.checksums.sha512=afa323d21b6df2b77fa69700a61fafb1ae8b551a8645acb12b6cda38b5762dd8e0e706c4831e59af671754d99c4895c4817bc456601c637224101dd8648bc75e
+
+outputs.1.coordinates=fr.inria.gforge.spoon:spoon-core
+
+outputs.1.0.filename=spoon-core-10.4.1.pom
+outputs.1.0.length=10531
+outputs.1.0.checksums.sha512=cde14747882bbbdad914fa993f7fb1559bf137e4d7d9d010d4846c14c19c8a4a874d0da1e8936c4cbe77fa629ce4d1879232a6d9a3ee74a8964d5e020b239eca
+
+outputs.1.1.filename=spoon-core-10.4.1.jar
+outputs.1.1.length=1885506
+outputs.1.1.checksums.sha512=8b34443fc2edc8d98db6cf70dfdf6f9f62ee676bb8acf853fa278eb23e6bbf518daa65284b58f068a7b7c79d763adfe036b75279a9367e586ab068dd591db397
+
+outputs.1.2.filename=spoon-core-10.4.1-jar-with-dependencies.jar
+outputs.1.2.length=14117416
+outputs.1.2.checksums.sha512=ab5676d6de9c1606ca73d383d6f210da2f3b7dfc0f9edca41931de17af3960c254fa517f38c48b213202545546ea3d5d4a4fbba6c78c770c470b47fd18981556
+
+outputs.1.3.filename=spoon-core-10.4.1-sources.jar
+outputs.1.3.length=1059730
+outputs.1.3.checksums.sha512=431eaa04433da3e96eb74686b6d656d024012d99abcfc3b55a4c135a9252c2a122adf5768e9aaf426e2255265e55774682e1e15e4d5df1125dd9c5bdb7da4cf1
+
+outputs.2.coordinates=fr.inria.gforge.spoon:spoon-javadoc
+
+outputs.2.0.filename=spoon-javadoc-10.4.1.pom
+outputs.2.0.length=3002
+outputs.2.0.checksums.sha512=db375a2c25bdfddc2a732c2b665d3312258a907de72f5b20a992a4ed013b1090afb91d88ecbd4cf629cb0333443bca0892f37f74eeef0a061b1c0b91ab9d1f00
+
+outputs.2.1.filename=spoon-javadoc-10.4.1.jar
+outputs.2.1.length=58427
+outputs.2.1.checksums.sha512=f1725be819102f26d075d58c0c6a2afc03c890a564652f237b0aefc8063ee083b1a5b44e003c774afec7910575a01b4f24ce7a4511d9692f57b60fd3612bf11f
+
+outputs.2.2.filename=spoon-javadoc-10.4.1-sources.jar
+outputs.2.2.length=29987
+outputs.2.2.checksums.sha512=9ffd84d6ae82abac58712e982642e5d06791c7e6d2ffd9f6d39beee1652618f1582d35c39f5cc883b84ba44b1dc771a22fd33416dfd0eb1417f9aa612c1c52b6
