@@ -1,0 +1,5 @@
+version=0.0.6
+ok=13
+ko=0
+okFiles="com.io7m.claypot-0.0.6.pom com.io7m.claypot.core-0.0.6.pom com.io7m.claypot.core-0.0.6.jar com.io7m.claypot.core-0.0.6-sources.jar com.io7m.claypot.core-0.0.6-tests.jar com.io7m.claypot.example-0.0.6.pom com.io7m.claypot.example-0.0.6.jar com.io7m.claypot.example-0.0.6-sources.jar com.io7m.claypot.example-0.0.6-tests.jar com.io7m.claypot.tests-0.0.6.pom com.io7m.claypot.tests-0.0.6.jar com.io7m.claypot.tests-0.0.6-test-sources.jar com.io7m.claypot.tests-0.0.6-tests.jar"
+koFiles=""
