@@ -1,43 +1,44 @@
-[org.slf4j:slf4j-parent](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.0.6/versions) RB check
+[org.slf4j:slf4j-parent](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.0.9/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.slf4j:slf4j-parent](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.0.6/versions)
+## Project: [org.slf4j:slf4j-parent](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.0.9/versions)
 
 Source code: [https://github.com/qos-ch/slf4j.git](https://github.com/qos-ch/slf4j.git)
 
-<details><summary>This project defines 17 modules:</summary>
+<details><summary>This project defines 18 modules:</summary>
 
-* [org.slf4j:integration](https://central.sonatype.com/artifact/org.slf4j/integration/2.0.6)
-* [org.slf4j:jcl-over-slf4j](https://central.sonatype.com/artifact/org.slf4j/jcl-over-slf4j/2.0.6)
-* [org.slf4j:jul-to-slf4j](https://central.sonatype.com/artifact/org.slf4j/jul-to-slf4j/2.0.6)
-* [org.slf4j:log4j-over-slf4j](https://central.sonatype.com/artifact/org.slf4j/log4j-over-slf4j/2.0.6)
-* [org.slf4j:osgi-over-slf4j](https://central.sonatype.com/artifact/org.slf4j/osgi-over-slf4j/2.0.6)
-* [org.slf4j:slf4j-android](https://central.sonatype.com/artifact/org.slf4j/slf4j-android/2.0.6)
-* [org.slf4j:slf4j-api](https://central.sonatype.com/artifact/org.slf4j/slf4j-api/2.0.6)
-* [org.slf4j:slf4j-ext](https://central.sonatype.com/artifact/org.slf4j/slf4j-ext/2.0.6)
-* [org.slf4j:slf4j-jcl](https://central.sonatype.com/artifact/org.slf4j/slf4j-jcl/2.0.6)
-* [org.slf4j:slf4j-jdk-platform-logging](https://central.sonatype.com/artifact/org.slf4j/slf4j-jdk-platform-logging/2.0.6)
-* [org.slf4j:slf4j-jdk14](https://central.sonatype.com/artifact/org.slf4j/slf4j-jdk14/2.0.6)
-* [org.slf4j:slf4j-log4j12](https://central.sonatype.com/artifact/org.slf4j/slf4j-log4j12/2.0.6)
-* [org.slf4j:slf4j-migrator](https://central.sonatype.com/artifact/org.slf4j/slf4j-migrator/2.0.6)
-* [org.slf4j:slf4j-nop](https://central.sonatype.com/artifact/org.slf4j/slf4j-nop/2.0.6)
-* [org.slf4j:slf4j-parent](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.0.6)
-* [org.slf4j:slf4j-reload4j](https://central.sonatype.com/artifact/org.slf4j/slf4j-reload4j/2.0.6)
-* [org.slf4j:slf4j-simple](https://central.sonatype.com/artifact/org.slf4j/slf4j-simple/2.0.6)
+* [org.slf4j:integration](https://central.sonatype.com/artifact/org.slf4j/integration/2.0.9)
+* [org.slf4j:jcl-over-slf4j](https://central.sonatype.com/artifact/org.slf4j/jcl-over-slf4j/2.0.9)
+* [org.slf4j:jul-to-slf4j](https://central.sonatype.com/artifact/org.slf4j/jul-to-slf4j/2.0.9)
+* [org.slf4j:log4j-over-slf4j](https://central.sonatype.com/artifact/org.slf4j/log4j-over-slf4j/2.0.9)
+* [org.slf4j:osgi-over-slf4j](https://central.sonatype.com/artifact/org.slf4j/osgi-over-slf4j/2.0.9)
+* [org.slf4j:slf4j-android](https://central.sonatype.com/artifact/org.slf4j/slf4j-android/2.0.9)
+* [org.slf4j:slf4j-api](https://central.sonatype.com/artifact/org.slf4j/slf4j-api/2.0.9)
+* [org.slf4j:slf4j-bom](https://central.sonatype.com/artifact/org.slf4j/slf4j-bom/2.0.9)
+* [org.slf4j:slf4j-ext](https://central.sonatype.com/artifact/org.slf4j/slf4j-ext/2.0.9)
+* [org.slf4j:slf4j-jcl](https://central.sonatype.com/artifact/org.slf4j/slf4j-jcl/2.0.9)
+* [org.slf4j:slf4j-jdk-platform-logging](https://central.sonatype.com/artifact/org.slf4j/slf4j-jdk-platform-logging/2.0.9)
+* [org.slf4j:slf4j-jdk14](https://central.sonatype.com/artifact/org.slf4j/slf4j-jdk14/2.0.9)
+* [org.slf4j:slf4j-log4j12](https://central.sonatype.com/artifact/org.slf4j/slf4j-log4j12/2.0.9)
+* [org.slf4j:slf4j-migrator](https://central.sonatype.com/artifact/org.slf4j/slf4j-migrator/2.0.9)
+* [org.slf4j:slf4j-nop](https://central.sonatype.com/artifact/org.slf4j/slf4j-nop/2.0.9)
+* [org.slf4j:slf4j-parent](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.0.9)
+* [org.slf4j:slf4j-reload4j](https://central.sonatype.com/artifact/org.slf4j/slf4j-reload4j/2.0.9)
+* [org.slf4j:slf4j-simple](https://central.sonatype.com/artifact/org.slf4j/slf4j-simple/2.0.9)
 </details>
 
-rebuilding **7 releases** of org.slf4j:slf4j-parent:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **9 releases** of org.slf4j:slf4j-parent:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.0.9](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.0.9/pom) | | | |
-| [2.0.8](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.0.8/pom) | | | |
+| [2.0.9](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.0.9/pom) | [mvn jdk20 w](slf4j-2.0.9.buildspec) | [result](slf4j-bom-2.0.9.buildinfo): [40 :heavy_check_mark: ](slf4j-bom-2.0.9.buildcompare) | 578K |
+| [2.0.8](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.0.8/pom) | [mvn jdk20 w](slf4j-2.0.8.buildspec) | [result](slf4j-bom-2.0.8.buildinfo): [40 :heavy_check_mark: ](slf4j-bom-2.0.8.buildcompare) | 578K |
 | [2.0.7](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.0.7/pom) | | | |
-| [2.0.6](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.0.6/pom) | [mvn jdk19](slf4j-2.0.6.buildspec) | [result](slf4j-parent-2.0.6.buildinfo): [36 :heavy_check_mark:  3 :warning:](slf4j-parent-2.0.6.buildcompare) [:mag:](slf4j-parent-2.0.6.diffoscope) | 541K |
+| [2.0.6](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.0.6/pom) | [mvn jdk19](slf4j-2.0.6.buildspec) | [result](slf4j-parent-2.0.6.buildinfo): [36 :heavy_check_mark:  3 :warning:](slf4j-parent-2.0.6.buildcompare) [:mag:](slf4j-parent-2.0.6.diffoscope) [:memo:](https://github.com/qos-ch/slf4j/pull/355) | 541K |
 | [2.0.5](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.0.5/pom) | [mvn jdk19](slf4j-2.0.5.buildspec) | [result](slf4j-parent-2.0.5.buildinfo): [33 :heavy_check_mark:  6 :warning:](slf4j-parent-2.0.5.buildcompare) [:mag:](slf4j-parent-2.0.5.diffoscope) | 538K |
 | [2.0.4](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.0.4/pom) | [mvn jdk19](slf4j-2.0.4.buildspec) | [result](slf4j-parent-2.0.4.buildinfo): [39 :heavy_check_mark: ](slf4j-parent-2.0.4.buildcompare) | 538K |
 | [2.0.3](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.0.3/pom) | [mvn jdk19](slf4j-2.0.3.buildspec) | [result](slf4j-parent-2.0.3.buildinfo): [39 :heavy_check_mark: ](slf4j-parent-2.0.3.buildcompare) | 537K |

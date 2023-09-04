@@ -4,13 +4,16 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20230904180808 --> [com.io7m.ervilla](../content/com/io7m/ervilla/README.md) | [0.0.4](../content/com/io7m/ervilla/com.io7m.ervilla-0.0.4.buildspec) :heavy_check_mark: | [0.0.5](../content/com/io7m/ervilla/com.io7m.ervilla-0.0.5.buildspec) | `bin/add-new-release.sh content/com/io7m/ervilla/com.io7m.ervilla-0.0.4.buildspec 0.0.5` |
+| <!-- 20230904131012 --> [io.wcm.parent_toplevel](../content/io/wcm/tooling/README.md) | [2.2.0](../content/io/wcm/tooling/wcm-parent_toplevel-2.2.0.buildspec) :heavy_check_mark: | [2.2.2](../content/io/wcm/tooling/wcm-parent_toplevel-2.2.2.buildspec) | `bin/add-new-release.sh content/io/wcm/tooling/wcm-parent_toplevel-2.2.0.buildspec 2.2.2` |
+| <!-- 20230904121835 --> [github-client](../content/com/spotify/github-client/README.md) | [0.1.58](../content/com/spotify/github-client/github-client-0.1.58.buildspec) :heavy_check_mark: | [0.1.59](../content/com/spotify/github-client/github-client-0.1.59.buildspec) | `bin/add-new-release.sh content/com/spotify/github-client/github-client-0.1.58.buildspec 0.1.59` |
 | <!-- 20230829074940 --> [conventional-commits-version-policy](../content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | [1.0.1](../content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.1.buildspec) :heavy_check_mark: | [1.0.4](../content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.4.buildspec) | `bin/add-new-release.sh content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.1.buildspec 1.0.4` |
 <!-- END GENERATED ADD OK -->
 
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20230903161915 --> [slf4j-parent](../content/org/slf4j/README.md) | [2.0.6](../content/org/slf4j/slf4j-2.0.6.buildspec) :warning: | [2.0.9](../content/org/slf4j/slf4j-2.0.9.buildspec) | `bin/add-new-release.sh content/org/slf4j/slf4j-2.0.6.buildspec 2.0.9` |
+| <!-- 20230904141139 --> [struts2-parent](../content/org/apache/struts/README.md) | [6.2.0](../content/org/apache/struts/struts2-6.2.0.buildspec) :warning: [:memo:](https://github.com/apache/struts/pull/696) | [6.3.0](../content/org/apache/struts/struts2-6.3.0.buildspec) | `bin/add-new-release.sh content/org/apache/struts/struts2-6.2.0.buildspec 6.3.0` |
 | <!-- 20230903013020 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.0](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.0.buildspec) :warning: | [10.4.2-beta-1](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2-beta-1.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.0.buildspec 10.4.2-beta-1` |
 | <!-- 20230901125706 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.26.5](../content/org/finos/legend/engine/legend-engine-4.26.5.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.26.5` |
 | <!-- 20230831195903 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | [3.4.0](../content/io/github/chains-project/maven-lockfile/maven-lockfile-3.4.0.buildspec) :warning: | [4.2.1](../content/io/github/chains-project/maven-lockfile/maven-lockfile-4.2.1.buildspec) | `bin/add-new-release.sh content/io/github/chains-project/maven-lockfile/maven-lockfile-3.4.0.buildspec 4.2.1` |
@@ -58,10 +61,12 @@ New Releases To Add
 | artifactId | newest |
 | ---------- | ------ |
 | <!-- 20230901094415 --> [flowlogix](../content/com/flowlogix/README.md) | 7.0.3 :warning: [:memo:](https://github.com/flowlogix/flowlogix/issues/525) |
+| <!-- 20230830214835 --> [jetty-project](../content/org/eclipse/jetty/jetty-project/README.md) | 12.0.1 :warning: |
 | <!-- 20230828190043 --> [tika](../content/org/apache/tika/README.md) | 2.9.0 :warning: |
 | <!-- 20230828161712 --> [jooby](../content/io/jooby/README.md) | 3.0.5 :warning: |
 | <!-- 20230828142231 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 7.0.8 :warning: [:memo:](https://github.com/eclipse-ee4j/glassfish-hk2/pull/821) |
 | <!-- 20230828105304 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.1.3 :warning: [:memo:](https://github.com/smallrye/smallrye-parent/pull/420) |
+| <!-- 20230827114709 --> [org.apache.felix.healthcheck.core](../content/org/apache/felix/org.apache.felix.healthcheck.core/README.md) | 2.1.0 :warning: [:memo:](https://github.com/apache/felix-dev/pull/234) |
 | <!-- 20230822075226 --> [mockito-core](../content/org/mockito/mockito-core/README.md) | 5.5.0 :warning: |
 | <!-- 20230818130337 --> [xmlsec](../content/org/apache/santuario/xmlsec/README.md) | 3.0.2 :warning: [:memo:](https://github.com/apache/santuario-xml-security-java/pull/77) |
 | <!-- 20230810033447 --> [spdx-maven-plugin](../content/org/spdx/spdx-maven-plugin/README.md) | 0.7.0 :warning: [:memo:](https://github.com/spdx/spdx-maven-plugin/pull/125) |
@@ -75,7 +80,6 @@ New Releases To Add
 | <!-- 20230713070609 --> [maven-fluido-skin](../content/org/apache/maven/skins/fluido/README.md) | 2.0.0-M7 :warning: [:memo:](https://issues.apache.org/jira/browse/MSKINS-235) |
 | <!-- 20230711142029 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | 6.0.14 :warning: |
 | <!-- 20230710114759 --> [syncope](../content/org/apache/syncope/README.md) | 3.0.4 :warning: |
-| <!-- 20230710072318 --> [struts2-parent](../content/org/apache/struts/README.md) | 6.2.0 :warning: [:memo:](https://github.com/apache/struts/pull/696) |
 | <!-- 20230701145904 --> [com.io7m.sunburst](../content/com/io7m/sunburst/README.md) | 0.0.6 :warning: |
 | <!-- 20230620223800 --> [xml-maven-plugin](../content/org/codehaus/mojo/xml-maven-plugin/README.md) | 1.1.0 :warning: |
 | <!-- 20230615205255 --> [maven-parent](../content/org/apache/maven/parent/README.md) | 40 :warning: |
