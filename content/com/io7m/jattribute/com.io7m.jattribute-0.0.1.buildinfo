@@ -1,0 +1,66 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.jattribute
+group-id=com.io7m.jattribute
+artifact-id=com.io7m.jattribute
+version=0.0.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/jattribute
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.jattribute.tests
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.jattribute:com.io7m.jattribute
+
+outputs.0.0.filename=com.io7m.jattribute-0.0.1.pom
+outputs.0.0.length=5054
+outputs.0.0.checksums.sha512=a1b635df5c579ad2bdef2e43778e210b2fe9b4412c010677487c02462482038c8285a29abf50c0905030b0ebb63c6c03c8170c8e7399b29849fefcf0911f9e4e
+
+outputs.1.coordinates=com.io7m.jattribute:com.io7m.jattribute.core
+
+outputs.1.0.filename=com.io7m.jattribute.core-0.0.1.pom
+outputs.1.0.length=1202
+outputs.1.0.checksums.sha512=6682a60ab9775b2a81d8d025df318c04209a2313bcabbd99b89b7cdce2fe0d5b5a473dbe2bfbbdab46828ff56b7665a47b717f728f740cd33cb5a0dd4c641992
+
+outputs.1.1.filename=com.io7m.jattribute.core-0.0.1.jar
+outputs.1.1.length=11791
+outputs.1.1.checksums.sha512=36484f27f2c959eda39b536bff32a78826cb34e42e8123c3908ce6a523225be8c85d3227092532a4274ca8a4bc936070748be23f89832509a38a7411bea9ad74
+
+outputs.1.2.filename=com.io7m.jattribute.core-0.0.1-sources.jar
+outputs.1.2.length=13694
+outputs.1.2.checksums.sha512=794bfed234f56bf6a5d6c8f289d2efe9103d0580945439111b132e5c9e0ece7ec5034917404367b0f7ba133f274ea6240e7fce01ea3cf8d102f39346162ba84e
+
+outputs.1.3.filename=com.io7m.jattribute.core-0.0.1-tests.jar
+outputs.1.3.length=410
+outputs.1.3.checksums.sha512=58647eb884a479587e41ebc73ca752bb18b7256efb2c24a56f7331c768192747bbf7180e4e2421507634fc49acd5b6ccab8452ec8c1719fc2de396e11942eba0
+
+outputs.2.coordinates=com.io7m.jattribute:com.io7m.jattribute.tests
+
+outputs.2.0.filename=com.io7m.jattribute.tests-0.0.1.pom
+outputs.2.0.length=2012
+outputs.2.0.checksums.sha512=d3a15915d15626efe446e7cafb81c13a90d25e5d64336a89b32dd0ca9d7e53a6632af664398c81d06668d1bf195a0210de99aa8ed0b87b81a688c6f93599864d
+
+outputs.2.1.filename=com.io7m.jattribute.tests-0.0.1.jar
+outputs.2.1.length=2185
+outputs.2.1.checksums.sha512=9bb5d4fa532c8d901456b5e960b7eb6256a91979d0ec26cbda0f40ca5bbdd9a4f837a1290b5de04e74945a30ce9188a51898f52d09f4bc3f29494ef85cf3a415
+
+outputs.2.2.filename=com.io7m.jattribute.tests-0.0.1-test-sources.jar
+outputs.2.2.length=4764
+outputs.2.2.checksums.sha512=ad06e9f24c9ee675c14b66feb95a9551e83c0e2818eb7b803e0f1e2a565a6fe92aecf19770428566773e9194dfb0367305a711615e322a15c57b408cbbbd8f9b
+
+outputs.2.3.filename=com.io7m.jattribute.tests-0.0.1-tests.jar
+outputs.2.3.length=4601
+outputs.2.3.checksums.sha512=36c31e2687c77cec05b6b8ca11887f6756fe789b65ae9b9d8fd82f35ced84f6febe25bc36a753259a83cfd71dd4bc440c05024550cec813dd8437d49a0ebcdbc
