@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2437 releases** of **499 projects**:
-   - **1878** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **2454 releases** of **505 projects**:
+   - **1895** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 559 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
@@ -67,16 +67,21 @@ Its objectives are to provide:
 | com.innoq | <a name='com.innoq:junit5-logging-extension'></a>[junit5-logging-extension](content/com/innoq/junit5-logging-extension/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | com.io7m.anethum | <a name='com.io7m.anethum:com.io7m.anethum'></a>[com.io7m.anethum](content/com/io7m/anethum/README.md) | 5 | 5 :heavy_check_mark: |
 | com.io7m.blackthorne | <a name='com.io7m.blackthorne:com.io7m.blackthorne'></a>[com.io7m.blackthorne](content/com/io7m/blackthorne/README.md) | 11 | 7 :heavy_check_mark: / 4 :warning: |
+| com.io7m.calino | <a name='com.io7m.calino:com.io7m.calino'></a>[com.io7m.calino](content/com/io7m/calino/README.md) | 1 | 1 :heavy_check_mark: |
 | com.io7m.canonmill | <a name='com.io7m.canonmill:com.io7m.canonmill'></a>[com.io7m.canonmill](content/com/io7m/canonmill/README.md) | 5 | 5 :heavy_check_mark: |
 | com.io7m.cedarbridge | <a name='com.io7m.cedarbridge:com.io7m.cedarbridge'></a>[com.io7m.cedarbridge](content/com/io7m/cedarbridge/README.md) | 2 | 2 :warning: |
 | com.io7m.certusine | <a name='com.io7m.certusine:com.io7m.certusine'></a>[com.io7m.certusine](content/com/io7m/certusine/README.md) | 2 | 2 :warning: |
 | com.io7m.chione | <a name='com.io7m.chione:com.io7m.chione'></a>[com.io7m.chione](content/com/io7m/chione/README.md) | 1 | 1 :warning: |
+| com.io7m.claypot | <a name='com.io7m.claypot:com.io7m.claypot'></a>[com.io7m.claypot](content/com/io7m/claypot/README.md) | 2 | 2 :heavy_check_mark: |
+| com.io7m.cxbutton | <a name='com.io7m.cxbutton:com.io7m.cxbutton'></a>[com.io7m.cxbutton](content/com/io7m/cxbutton/README.md) | 3 | 3 :heavy_check_mark: |
 | com.io7m.digal | <a name='com.io7m.digal:com.io7m.digal'></a>[com.io7m.digal](content/com/io7m/digal/README.md) | 5 | 5 :heavy_check_mark: |
 | com.io7m.dixmont | <a name='com.io7m.dixmont:com.io7m.dixmont'></a>[com.io7m.dixmont](content/com/io7m/dixmont/README.md) | 3 | 3 :heavy_check_mark: |
-| com.io7m.ervilla | <a name='com.io7m.ervilla:com.io7m.ervilla'></a>[com.io7m.ervilla](content/com/io7m/ervilla/README.md) | 4 | 4 :heavy_check_mark: |
+| com.io7m.ervilla | <a name='com.io7m.ervilla:com.io7m.ervilla'></a>[com.io7m.ervilla](content/com/io7m/ervilla/README.md) | 5 | 5 :heavy_check_mark: |
+| com.io7m.genevan | <a name='com.io7m.genevan:com.io7m.genevan'></a>[com.io7m.genevan](content/com/io7m/genevan/README.md) | 2 | 2 :heavy_check_mark: |
 | com.io7m.gtyrell | <a name='com.io7m.gtyrell:com.io7m.gtyrell'></a>[com.io7m.gtyrell](content/com/io7m/gtyrell/README.md) | 4 | 4 :heavy_check_mark: |
 | com.io7m.hibiscus | <a name='com.io7m.hibiscus:com.io7m.hibiscus'></a>[com.io7m.hibiscus](content/com/io7m/hibiscus/README.md) | 8 | 8 :heavy_check_mark: |
 | com.io7m.idstore | <a name='com.io7m.idstore:com.io7m.idstore'></a>[com.io7m.idstore](content/com/io7m/idstore/README.md) | 1 | 1 :warning: |
+| com.io7m.ieee754b16 | <a name='com.io7m.ieee754b16:com.io7m.ieee754b16'></a>[com.io7m.ieee754b16](content/com/io7m/ieee754b16/README.md) | 1 | 1 :heavy_check_mark: |
 | com.io7m.jade | <a name='com.io7m.jade:com.io7m.jade'></a>[com.io7m.jade](content/com/io7m/jade/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | com.io7m.jbssio | <a name='com.io7m.jbssio:com.io7m.jbssio'></a>[com.io7m.jbssio](content/com/io7m/jbssio/README.md) | 8 | 7 :heavy_check_mark: / 1 :warning: |
 | com.io7m.jdownload | <a name='com.io7m.jdownload:com.io7m.jdownload'></a>[com.io7m.jdownload](content/com/io7m/jdownload/README.md) | 1 | 1 :heavy_check_mark: |
@@ -103,18 +108,19 @@ Its objectives are to provide:
 | com.io7m.sunburst | <a name='com.io7m.sunburst:com.io7m.sunburst'></a>[com.io7m.sunburst](content/com/io7m/sunburst/README.md) | 1 | 1 :warning: |
 | com.io7m.tabla | <a name='com.io7m.tabla:com.io7m.tabla'></a>[com.io7m.tabla](content/com/io7m/tabla/README.md) | 2 | 2 :heavy_check_mark: |
 | com.io7m.taskrecorder | <a name='com.io7m.taskrecorder:com.io7m.taskrecorder'></a>[com.io7m.taskrecorder](content/com/io7m/taskrecorder/README.md) | 2 | 2 :heavy_check_mark: |
+| com.io7m.timehack6435126 | <a name='com.io7m.timehack6435126:com.io7m.timehack6435126'></a>[com.io7m.timehack6435126](content/com/io7m/timehack6435126/README.md) | 1 | 1 :heavy_check_mark: |
 | com.io7m.trasco | <a name='com.io7m.trasco:com.io7m.trasco'></a>[com.io7m.trasco](content/com/io7m/trasco/README.md) | 11 | 11 :heavy_check_mark: |
 | com.io7m.verdant | <a name='com.io7m.verdant:com.io7m.verdant'></a>[com.io7m.verdant](content/com/io7m/verdant/README.md) | 2 | 2 :heavy_check_mark: |
 | com.io7m.verona | <a name='com.io7m.verona:com.io7m.verona'></a>[com.io7m.verona](content/com/io7m/verona/README.md) | 4 | 4 :heavy_check_mark: |
 | com.io7m.wendover | <a name='com.io7m.wendover:com.io7m.wendover'></a>[com.io7m.wendover](content/com/io7m/wendover/README.md) | 5 | 5 :heavy_check_mark: |
 | com.io7m.xoanon | <a name='com.io7m.xoanon:com.io7m.xoanon'></a>[com.io7m.xoanon](content/com/io7m/xoanon/README.md) | 4 | 4 :heavy_check_mark: |
-| com.io7m.xstructural | <a name='com.io7m.xstructural:com.io7m.xstructural'></a>[com.io7m.xstructural](content/com/io7m/xstructural/README.md) | 4 | 4 :heavy_check_mark: |
+| com.io7m.xstructural | <a name='com.io7m.xstructural:com.io7m.xstructural'></a>[com.io7m.xstructural](content/com/io7m/xstructural/README.md) | 6 | 6 :heavy_check_mark: |
 | com.io7m.zelador | <a name='com.io7m.zelador:com.io7m.zelador'></a>[com.io7m.zelador](content/com/io7m/zelador/README.md) | 1 | 1 :heavy_check_mark: |
 | com.newmediaworks | <a name='com.newmediaworks:nmw-oss-parent'></a>[nmw-oss-parent](content/com/newmediaworks/nmw-oss-parent/README.md) | 1 | 1 :heavy_check_mark: |
 | com.ongres.stringprep | <a name='com.ongres.stringprep:parent'></a>[parent](content/com/ongres/stringprep/README.md) | 1 | 1 :warning: |
 | com.scalapenos | <a name='com.scalapenos:stamina_2.11'></a>[stamina_2.11](content/com/scalapenos/stamina/README.md) | 2 | 2 :heavy_check_mark: |
 | com.spotify.fmt | <a name='com.spotify.fmt:fmt-maven-plugin'></a>[fmt-maven-plugin](content/com/spotify/fmt-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
-| com.spotify | <a name='com.spotify:github-client'></a>[github-client](content/com/spotify/github-client/README.md) | 13 | 13 :heavy_check_mark: |
+| com.spotify | <a name='com.spotify:github-client'></a>[github-client](content/com/spotify/github-client/README.md) | 14 | 14 :heavy_check_mark: |
 | com.taobao.arthas | <a name='com.taobao.arthas:arthas-all'></a>[arthas-all](content/com/taobao/arthas/README.md) | 14 | 14 :warning: |
 | com.vladsch.flexmark | <a name='com.vladsch.flexmark:flexmark-java'></a>[flexmark-java](content/com/vladsch/flexmark/flexmark-java/README.md) | 4 | 4 :heavy_check_mark: |
 | de.jflex | <a name='de.jflex:jflex-parent'></a>[jflex-parent](content/de/jflex/README.md) | 1 | 1 :heavy_check_mark: |
@@ -125,7 +131,7 @@ Its objectives are to provide:
 | | <a name='eu.europa.ted.eforms:eforms-sdk'></a>[eforms-sdk](content/eu/europa/ted/eforms/eforms-sdk/README.md) | 8 | 7 :heavy_check_mark: / 1 :warning: |
 | | <a name='eu.europa.ted.eforms:efx-toolkit-java'></a>[efx-toolkit-java](content/eu/europa/ted/eforms/efx-toolkit-java/README.md) | 1 | 1 :warning: |
 | eu.maveniverse.maven.mima | <a name='eu.maveniverse.maven.mima:mima'></a>[mima](content/eu/maveniverse/maven/mima/README.md) | 18 | 18 :heavy_check_mark: |
-| fr.inria.gforge.spoon | <a name='fr.inria.gforge.spoon:spoon-core'></a>[spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 3 | 1 :heavy_check_mark: / 2 :warning: |
+| fr.inria.gforge.spoon | <a name='fr.inria.gforge.spoon:spoon-core'></a>[spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 4 | 2 :heavy_check_mark: / 2 :warning: |
 | fr.marcwrobel | <a name='fr.marcwrobel:jbanking'></a>[jbanking](content/fr/marcwrobel/jbanking/README.md) | 1 | 1 :heavy_check_mark: |
 | fr.vidal.oss | <a name='fr.vidal.oss:atom-jaxb'></a>[atom-jaxb](content/fr/vidal/oss/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | io.jooby | <a name='io.jooby:jooby'></a>[jooby](content/io/jooby/README.md) | 2 | 2 :warning: |
@@ -160,7 +166,7 @@ Its objectives are to provide:
 | io.opentelemetry | <a name='io.opentelemetry:opentelemetry-sdk'></a>[opentelemetry-sdk](content/io/opentelemetry/java/README.md) | 1 | 1 :warning: |
 | io.smallrye | <a name='io.smallrye:jandex-parent'></a>[jandex-parent](content/io/smallrye/jandex/README.md) | 3 | 3 :warning: |
 | io.wcm | <a name='io.wcm:io.wcm.caconfig.editor.parent'></a>[*.caconfig.editor.parent](content/io/wcm/io.wcm.caconfig/README.md) | 4 | 4 :warning: |
-| | <a name='io.wcm:io.wcm.parent_toplevel'></a>[*.parent_toplevel](content/io/wcm/tooling/README.md) | 12 | 12 :heavy_check_mark: |
+| | <a name='io.wcm:io.wcm.parent_toplevel'></a>[*.parent_toplevel](content/io/wcm/tooling/README.md) | 13 | 13 :heavy_check_mark: |
 | | <a name='io.wcm:io.wcm.handler.link'></a>[*.handler.link](content/io/wcm/io.wcm.handler/link/README.md) | 4 | 4 :warning: |
 | | <a name='io.wcm:io.wcm.handler.media'></a>[*.handler.media](content/io/wcm/io.wcm.handler/media/README.md) | 8 | 5 :heavy_check_mark: / 3 :warning: |
 | | <a name='io.wcm:io.wcm.handler.richtext'></a>[*.handler.richtext](content/io/wcm/io.wcm.handler/richtext/README.md) | 4 | 4 :warning: |
@@ -210,7 +216,7 @@ Its objectives are to provide:
 | org.apache.shiro | <a name='org.apache.shiro:shiro-root'></a>[shiro-root](content/org/apache/shiro/README.md) | 6 | 6 :warning: |
 | org.apache.sis | <a name='org.apache.sis:parent'></a>[parent](content/org/apache/sis/README.md) | 1 | 1 :warning: |
 | org.apache.sshd | <a name='org.apache.sshd:sshd'></a>[sshd](content/org/apache/sshd/README.md) | 3 | 3 :warning: |
-| org.apache.struts | <a name='org.apache.struts:struts2-parent'></a>[struts2-parent](content/org/apache/struts/README.md) | 6 | 6 :warning: |
+| org.apache.struts | <a name='org.apache.struts:struts2-parent'></a>[struts2-parent](content/org/apache/struts/README.md) | 7 | 1 :heavy_check_mark: / 6 :warning: |
 | org.apache.synapse | <a name='org.apache.synapse:Apache-Synapse'></a>[Apache-Synapse](content/org/apache/synapse/README.md) | 1 | 1 :warning: |
 | org.apache.syncope | <a name='org.apache.syncope:syncope'></a>[syncope](content/org/apache/syncope/README.md) | 4 | 4 :warning: |
 | org.apache.systemds | <a name='org.apache.systemds:systemds'></a>[systemds](content/org/apache/systemds/README.md) | 1 | 1 :warning: |
@@ -521,7 +527,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 23 | 23 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **499** | **2437** | **1878** :heavy_check_mark: **559** :warning: |
+| **Count:** | **505** | **2454** | **1895** :heavy_check_mark: **559** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -533,9 +539,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      22 gradle     11
      26 mvn         7
-    969 mvn         8
+    970 mvn         8
       1 mvn         9
-    772 mvn        11
+    775 mvn        11
       1 mvn        11.0.6
       1 mvn        13
       4 mvn        14
@@ -577,13 +583,14 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      18 mvn-3.9.3  17
       2 mvn-3.9.3  17.0.1
       1 mvn-3.9.3  17.0.2
-     20 mvn-3.9.3  17.0.3
-      2 mvn-3.9.3  17.0.4
-     12 mvn-3.9.3  17.0.4.1
-     12 mvn-3.9.3  17.0.5
+     25 mvn-3.9.3  17.0.3
+      3 mvn-3.9.3  17.0.4
+     17 mvn-3.9.3  17.0.4.1
+     13 mvn-3.9.3  17.0.5
      20 mvn-3.9.3  17.0.6
      59 mvn-3.9.3  17.0.7
       9 mvn-3.9.3  17.0.8
+      1 mvn-3.9.3  17.0.8.1
       2 mvn-3.9.3  19
       1 mvn-3.9.3  21
       2 mvn-3.9.4  17.0.7

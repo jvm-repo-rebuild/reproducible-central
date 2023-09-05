@@ -1,19 +1,19 @@
-[io.wcm:io.wcm.parent_toplevel](https://central.sonatype.com/artifact/io.wcm/io.wcm.parent_toplevel/2.2.0/versions) RB check
+[io.wcm:io.wcm.parent_toplevel](https://central.sonatype.com/artifact/io.wcm/io.wcm.parent_toplevel/2.2.2/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.wcm:io.wcm.parent_toplevel](https://central.sonatype.com/artifact/io.wcm/io.wcm.parent_toplevel/2.2.0/versions)
+## Project: [io.wcm:io.wcm.parent_toplevel](https://central.sonatype.com/artifact/io.wcm/io.wcm.parent_toplevel/2.2.2/versions)
 
 Source code: [https://github.com/wcm-io/io.wcm.parent_toplevel.git](https://github.com/wcm-io/io.wcm.parent_toplevel.git)
 
-rebuilding **12 releases** of io.wcm:io.wcm.parent_toplevel:
-- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **13 releases** of io.wcm:io.wcm.parent_toplevel:
+- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.2.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.parent_toplevel/2.2.2/pom) | | | |
+| [2.2.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.parent_toplevel/2.2.2/pom) | [mvn jdk11](wcm-parent_toplevel-2.2.2.buildspec) | [result](io.wcm.parent_toplevel-2.2.2.buildinfo): [2 :heavy_check_mark: ](io.wcm.parent_toplevel-2.2.2.buildcompare) | 22K |
 | [2.2.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.parent_toplevel/2.2.0/pom) | [mvn jdk11](wcm-parent_toplevel-2.2.0.buildspec) | [result](io.wcm.parent_toplevel-2.2.0.buildinfo): [2 :heavy_check_mark: ](io.wcm.parent_toplevel-2.2.0.buildcompare) | 22K |
 | [2.1.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.parent_toplevel/2.1.0/pom) | [mvn jdk8](wcm-parent_toplevel-2.1.0.buildspec) | [result](io.wcm.parent_toplevel-2.1.0.buildinfo): [2 :heavy_check_mark: ](io.wcm.parent_toplevel-2.1.0.buildcompare) | 22K |
 | [2.0.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.parent_toplevel/2.0.2/pom) | [mvn jdk8](wcm-parent_toplevel-2.0.2.buildspec) | [result](io.wcm.parent_toplevel-2.0.2.buildinfo): [2 :heavy_check_mark: ](io.wcm.parent_toplevel-2.0.2.buildcompare) | 22K |

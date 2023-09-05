@@ -23,6 +23,7 @@ rebuilding **4 releases** of com.flowlogix:flowlogix:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [7.1](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/7.1/pom) | | | |
 | [7.0.3](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/7.0.3/pom) | [mvn jdk20](flowlogix-7.0.3.buildspec) | [result](flowlogix-7.0.3.buildinfo): [11 :heavy_check_mark:  1 :warning:](flowlogix-7.0.3.buildcompare) [:mag:](flowlogix-7.0.3.diffoscope) [:memo:](https://github.com/flowlogix/flowlogix/issues/525) | 6.0M |
 | [7.0.2](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/7.0.2/pom) | [mvn jdk20](flowlogix-7.0.2.buildspec) | [result](flowlogix-7.0.2.buildinfo): [11 :heavy_check_mark:  1 :warning:](flowlogix-7.0.2.buildcompare) [:mag:](flowlogix-7.0.2.diffoscope) | 6.0M |
 | [7.0.1](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/7.0.1/pom) | [mvn jdk20](flowlogix-7.0.1.buildspec) | [result](flowlogix-7.0.1.buildinfo): [11 :heavy_check_mark:  1 :warning:](flowlogix-7.0.1.buildcompare) [:mag:](flowlogix-7.0.1.diffoscope) [:memo:](https://github.com/flowlogix/flowlogix/pull/470) | 6.0M |
