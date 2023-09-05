@@ -1,0 +1,19 @@
+groupId=com.io7m.jcolorspace
+artifactId=com.io7m.jcolorspace
+display=${groupId}:${artifactId}
+version=0.0.1
+
+gitRepo="https://github.com/io7m/$(echo "${artifactId}" | sed s/com.io7m.//).git"
+#gitTag=${artifactId}-${version}
+gitTag=a155fe67acc41987bc62f9149ec15882c24c617c
+
+tool=mvn-3.9.3
+jdk=17.0.1
+newline=lf
+umask=022
+
+command="mvn -DskipTests clean package"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=

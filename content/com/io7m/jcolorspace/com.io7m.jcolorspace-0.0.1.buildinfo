@@ -1,0 +1,66 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.jcolorspace
+group-id=com.io7m.jcolorspace
+artifact-id=com.io7m.jcolorspace
+version=0.0.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/jcolorspace
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.jcolorspace.tests
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.jcolorspace:com.io7m.jcolorspace
+
+outputs.0.0.filename=com.io7m.jcolorspace-0.0.1.pom
+outputs.0.0.length=5067
+outputs.0.0.checksums.sha512=1425e774867ee433ad1de4ff1bbf89ee5d339373e8767b7e9072765c3c0ce6753e91d6e9772e568ed121515085f01b96aa5ef2c74fc4ffa433328cae0a4c4bea
+
+outputs.1.coordinates=com.io7m.jcolorspace:com.io7m.jcolorspace.core
+
+outputs.1.0.filename=com.io7m.jcolorspace.core-0.0.1.pom
+outputs.1.0.length=1298
+outputs.1.0.checksums.sha512=fde1c210cbeecb1e74b0d29552da56ff78a2251ee8d779a20571b0d9fe83da56959620e362de3e7518cb049a2be40acd4b7adfa83ba2f6e749ecd1947bcf6173
+
+outputs.1.1.filename=com.io7m.jcolorspace.core-0.0.1.jar
+outputs.1.1.length=6830
+outputs.1.1.checksums.sha512=7eb3c8ab1291533e6a4b85ab0dc406baf3cf761c53bec53fad1f9e2783838cce193e547b227168766982e2ae33cd46adcd0691dba317f0aaa87d52163372db98
+
+outputs.1.2.filename=com.io7m.jcolorspace.core-0.0.1-sources.jar
+outputs.1.2.length=9092
+outputs.1.2.checksums.sha512=e1164e768d9649e5495754e94f9e370a9acf85d4785fa1b23c18a72a085e55c053f4a42ee60fe992895e44d3a068509907eb15ef2311920bb40ac2ba231c1f61
+
+outputs.1.3.filename=com.io7m.jcolorspace.core-0.0.1-tests.jar
+outputs.1.3.length=410
+outputs.1.3.checksums.sha512=b3f86098c25488768cdf2c6dc6bf2abb7f0ce6db9b6d940f983593b91e157a57826496cd10cfb900ba18a9e2eb636a9a2f92cc644068207a80ec2a7a11dff308
+
+outputs.2.coordinates=com.io7m.jcolorspace:com.io7m.jcolorspace.tests
+
+outputs.2.0.filename=com.io7m.jcolorspace.tests-0.0.1.pom
+outputs.2.0.length=1989
+outputs.2.0.checksums.sha512=0a61953e9007d39b2d90ebb16c0b04583827ba08c90a150a8d48f6387266ca20ce8457058c02492fd5065ba4a6bd855f3936ce7c15a3eecb67d70812b3d526a1
+
+outputs.2.1.filename=com.io7m.jcolorspace.tests-0.0.1.jar
+outputs.2.1.length=2161
+outputs.2.1.checksums.sha512=517d250cbd2b6f18e73fcab2a076917963741cc2cecb08b6ad3289bb347f7ab36b26408178390360857e8e8abaeab422874d43b86ff3ac6ae13f6a546c3ea3fc
+
+outputs.2.2.filename=com.io7m.jcolorspace.tests-0.0.1-test-sources.jar
+outputs.2.2.length=5520
+outputs.2.2.checksums.sha512=e73ec9a9bb7ed03b4421d4cd877f1ae792d1efd1717770c3bbf79dc4f7373881084b5168bb91392fd0b78dc066b6b95448aa0493e5129639f893e726f78067f6
+
+outputs.2.3.filename=com.io7m.jcolorspace.tests-0.0.1-tests.jar
+outputs.2.3.length=4447
+outputs.2.3.checksums.sha512=5d7540a8ee2a4e84f037e9e77c49e4332dbbd4908925941b6fbf77a3eb37a09b840efe2f6965861ce93e7dc4ae0b1567a3be5431486d87808c7c30735b4a3bd1
