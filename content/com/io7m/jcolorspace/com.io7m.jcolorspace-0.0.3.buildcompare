@@ -1,0 +1,5 @@
+version=0.0.3
+ok=13
+ko=0
+okFiles="com.io7m.jcolorspace-0.0.3.pom com.io7m.jcolorspace.core-0.0.3.pom com.io7m.jcolorspace.core-0.0.3.jar com.io7m.jcolorspace.core-0.0.3-sources.jar com.io7m.jcolorspace.core-0.0.3-tests.jar com.io7m.jcolorspace.tests-0.0.3.pom com.io7m.jcolorspace.tests-0.0.3.jar com.io7m.jcolorspace.tests-0.0.3-test-sources.jar com.io7m.jcolorspace.tests-0.0.3-tests.jar com.io7m.jcolorspace.demo-0.0.3.pom com.io7m.jcolorspace.demo-0.0.3.jar com.io7m.jcolorspace.demo-0.0.3-sources.jar com.io7m.jcolorspace.demo-0.0.3-tests.jar"
+koFiles=""
