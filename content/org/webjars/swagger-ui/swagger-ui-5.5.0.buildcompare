@@ -1,0 +1,7 @@
+version=5.5.0
+ok=2
+ko=0
+okFiles="swagger-ui-5.5.0.pom swagger-ui-5.5.0.jar"
+koFiles=""
+reference_java_version="19 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
