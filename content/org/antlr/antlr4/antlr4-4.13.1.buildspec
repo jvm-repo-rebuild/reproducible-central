@@ -1,0 +1,17 @@
+groupId=org.antlr
+artifactId=antlr4-master
+display=${groupId}:${artifactId}
+version=4.13.1
+
+gitRepo=https://github.com/antlr/antlr4.git
+gitTag=${version}
+
+tool=mvn
+jdk=11
+newline=lf
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=

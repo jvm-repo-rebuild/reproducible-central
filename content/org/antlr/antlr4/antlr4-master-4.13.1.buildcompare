@@ -1,0 +1,7 @@
+version=4.13.1
+ok=15
+ko=0
+okFiles="antlr4-master-4.13.1.pom antlr4-runtime-4.13.1.pom antlr4-runtime-4.13.1.jar antlr4-runtime-4.13.1-sources.jar antlr4-4.13.1.pom antlr4-4.13.1.jar antlr4-4.13.1-sources.jar antlr4-4.13.1-complete.jar antlr4-maven-plugin-4.13.1.pom antlr4-maven-plugin-4.13.1.jar antlr4-runtime-testsuite-4.13.1.pom antlr4-runtime-testsuite-4.13.1.jar antlr4-runtime-testsuite-4.13.1-tests.jar antlr4-tool-testsuite-4.13.1.pom antlr4-tool-testsuite-4.13.1.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
