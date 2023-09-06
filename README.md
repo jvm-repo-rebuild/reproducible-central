@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2461 releases** of **505 projects**:
-   - **1901** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **2468 releases** of **508 projects**:
+   - **1908** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 560 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
@@ -83,7 +83,10 @@ Its objectives are to provide:
 | com.io7m.idstore | <a name='com.io7m.idstore:com.io7m.idstore'></a>[com.io7m.idstore](content/com/io7m/idstore/README.md) | 1 | 1 :warning: |
 | com.io7m.ieee754b16 | <a name='com.io7m.ieee754b16:com.io7m.ieee754b16'></a>[com.io7m.ieee754b16](content/com/io7m/ieee754b16/README.md) | 1 | 1 :heavy_check_mark: |
 | com.io7m.jade | <a name='com.io7m.jade:com.io7m.jade'></a>[com.io7m.jade](content/com/io7m/jade/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
+| com.io7m.jaffirm | <a name='com.io7m.jaffirm:com.io7m.jaffirm'></a>[com.io7m.jaffirm](content/com/io7m/jaffirm/README.md) | 3 | 3 :heavy_check_mark: |
+| com.io7m.jattribute | <a name='com.io7m.jattribute:com.io7m.jattribute'></a>[com.io7m.jattribute](content/com/io7m/jattribute/README.md) | 1 | 1 :heavy_check_mark: |
 | com.io7m.jbssio | <a name='com.io7m.jbssio:com.io7m.jbssio'></a>[com.io7m.jbssio](content/com/io7m/jbssio/README.md) | 8 | 7 :heavy_check_mark: / 1 :warning: |
+| com.io7m.jcolorspace | <a name='com.io7m.jcolorspace:com.io7m.jcolorspace'></a>[com.io7m.jcolorspace](content/com/io7m/jcolorspace/README.md) | 3 | 3 :heavy_check_mark: |
 | com.io7m.jdownload | <a name='com.io7m.jdownload:com.io7m.jdownload'></a>[com.io7m.jdownload](content/com/io7m/jdownload/README.md) | 1 | 1 :heavy_check_mark: |
 | com.io7m.jmulticlose | <a name='com.io7m.jmulticlose:com.io7m.jmulticlose'></a>[com.io7m.jmulticlose](content/com/io7m/jmulticlose/README.md) | 3 | 3 :heavy_check_mark: |
 | com.io7m.jqpage | <a name='com.io7m.jqpage:com.io7m.jqpage'></a>[com.io7m.jqpage](content/com/io7m/jqpage/README.md) | 3 | 3 :heavy_check_mark: |
@@ -527,7 +530,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 23 | 23 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **505** | **2461** | **1901** :heavy_check_mark: **560** :warning: |
+| **Count:** | **508** | **2468** | **1908** :heavy_check_mark: **560** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -576,14 +579,14 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       3 mvn-3.9.3   8
      18 mvn-3.9.3  11
       4 mvn-3.9.3  11.0.5
-      3 mvn-3.9.3  11.0.6
+      5 mvn-3.9.3  11.0.6
       7 mvn-3.9.3  14
      11 mvn-3.9.3  14.0.2
       1 mvn-3.9.3  15.0.2
      18 mvn-3.9.3  17
-      2 mvn-3.9.3  17.0.1
+      5 mvn-3.9.3  17.0.1
       1 mvn-3.9.3  17.0.2
-     25 mvn-3.9.3  17.0.3
+     27 mvn-3.9.3  17.0.3
       3 mvn-3.9.3  17.0.4
      17 mvn-3.9.3  17.0.4.1
      13 mvn-3.9.3  17.0.5

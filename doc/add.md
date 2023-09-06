@@ -11,6 +11,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20230906054856 --> [xmlsec](../content/org/apache/santuario/xmlsec/README.md) | [3.0.2](../content/org/apache/santuario/xmlsec/xmlsec-3.0.2.buildspec) :warning: [:memo:](https://github.com/apache/santuario-xml-security-java/pull/77) | [4.0.0-M1](../content/org/apache/santuario/xmlsec/xmlsec-4.0.0-M1.buildspec) | `bin/add-new-release.sh content/org/apache/santuario/xmlsec/xmlsec-3.0.2.buildspec 4.0.0-M1` |
 | <!-- 20230905221857 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.26.6](../content/org/finos/legend/engine/legend-engine-4.26.6.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.26.6` |
 | <!-- 20230905163521 --> [commons-parent](../content/org/apache/commons/parent/README.md) | [60](../content/org/apache/commons/parent/commons-parent-60.buildspec) :warning: [:memo:](https://github.com/spdx/spdx-maven-plugin/issues/126) | [62](../content/org/apache/commons/parent/commons-parent-62.buildspec) | `bin/add-new-release.sh content/org/apache/commons/parent/commons-parent-60.buildspec 62` |
 | <!-- 20230905151632 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | [3.4.0](../content/io/github/chains-project/maven-lockfile/maven-lockfile-3.4.0.buildspec) :warning: | [4.2.2](../content/io/github/chains-project/maven-lockfile/maven-lockfile-4.2.2.buildspec) | `bin/add-new-release.sh content/io/github/chains-project/maven-lockfile/maven-lockfile-3.4.0.buildspec 4.2.2` |
@@ -62,7 +63,6 @@ New Releases To Add
 | <!-- 20230828105304 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.1.3 :warning: [:memo:](https://github.com/smallrye/smallrye-parent/pull/420) |
 | <!-- 20230827114709 --> [org.apache.felix.healthcheck.core](../content/org/apache/felix/org.apache.felix.healthcheck.core/README.md) | 2.1.0 :warning: [:memo:](https://github.com/apache/felix-dev/pull/234) |
 | <!-- 20230822075226 --> [mockito-core](../content/org/mockito/mockito-core/README.md) | 5.5.0 :warning: |
-| <!-- 20230818130337 --> [xmlsec](../content/org/apache/santuario/xmlsec/README.md) | 3.0.2 :warning: [:memo:](https://github.com/apache/santuario-xml-security-java/pull/77) |
 | <!-- 20230810033447 --> [spdx-maven-plugin](../content/org/spdx/spdx-maven-plugin/README.md) | 0.7.0 :warning: [:memo:](https://github.com/spdx/spdx-maven-plugin/pull/125) |
 | <!-- 20230803053411 --> [parent](../content/org/apache/zookeeper/README.md) | 3.9.0 :warning: [:memo:](https://issues.apache.org/jira/browse/ZOOKEEPER-4732) |
 | <!-- 20230729004927 --> [shiro-root](../content/org/apache/shiro/README.md) | 2.0.0-alpha-3 :warning: |
