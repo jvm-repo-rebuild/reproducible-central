@@ -1,0 +1,5 @@
+version=1.2.0
+ok=9
+ko=0
+okFiles="com.io7m.jdeferthrow-1.2.0.pom com.io7m.jdeferthrow.core-1.2.0.pom com.io7m.jdeferthrow.core-1.2.0.jar com.io7m.jdeferthrow.core-1.2.0-sources.jar com.io7m.jdeferthrow.core-1.2.0-tests.jar com.io7m.jdeferthrow.tests-1.2.0.pom com.io7m.jdeferthrow.tests-1.2.0.jar com.io7m.jdeferthrow.tests-1.2.0-sources.jar com.io7m.jdeferthrow.tests-1.2.0-tests.jar"
+koFiles=""
