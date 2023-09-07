@@ -1,0 +1,70 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.jequality
+group-id=com.io7m.jequality
+artifact-id=com.io7m.jequality
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/jequality
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.jequality.documentation
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.jequality:com.io7m.jequality
+
+outputs.0.0.filename=com.io7m.jequality-3.0.0.pom
+outputs.0.0.length=3973
+outputs.0.0.checksums.sha512=cbf4413b1b54a3138a040912373ac7ec18d741c8824ed159102ff220d809ffe899e211bc744e3f88f859aa0c9c02bd817ed318fa8f3b69949db22d87a90c9541
+
+outputs.1.coordinates=com.io7m.jequality:com.io7m.jequality.core
+
+outputs.1.0.filename=com.io7m.jequality.core-3.0.0.pom
+outputs.1.0.length=2227
+outputs.1.0.checksums.sha512=340a50db5fa1ae57c95b313d2ff9e5c59e88ed16af2bedcb62feebc1765e744a6601cf92dd8214e0784e659504ca2cd06cc4bad21963dd8af4073b5fe18413a6
+
+outputs.1.1.filename=com.io7m.jequality.core-3.0.0.jar
+outputs.1.1.length=12308
+outputs.1.1.checksums.sha512=f5a7ad57747bd59659ecf7ac0cb7475452eaa989945a5ee5de9572b98fc85967fc70dec848bd28149e9ddfa8b1b71c2a2f0d934ea15db190ee23242e82817786
+
+outputs.1.2.filename=com.io7m.jequality.core-3.0.0-sources.jar
+outputs.1.2.length=14570
+outputs.1.2.checksums.sha512=e60aa997bd3776e42281812466684afe95339dc988b4dd105e5d719b31fabc04783d3d019859b54392ae48c15e18ccfb8ade3e6e95ce6676008986188c56bf7b
+
+outputs.1.3.filename=com.io7m.jequality.core-3.0.0-test-sources.jar
+outputs.1.3.length=16960
+outputs.1.3.checksums.sha512=7bb2e28fafd530131b12bb777355ce11acc2c3c308994a55ab785704c68f0a20b1dc042ae3838e9a7dfc2bd991b300fa3a5315f1e83909ccedfb36fe47c2dd23
+
+outputs.1.4.filename=com.io7m.jequality.core-3.0.0-tests.jar
+outputs.1.4.length=12418
+outputs.1.4.checksums.sha512=f28a2096b07af0e8032043735957dcea4a059b8aa1cad28410fc54f76354bd884c0b0004e1d7731df55822409c03592fab91fca7a859e4d3b85cf35a7302f59c
+
+outputs.2.coordinates=com.io7m.jequality:com.io7m.jequality.documentation
+
+outputs.2.0.filename=com.io7m.jequality.documentation-3.0.0.pom
+outputs.2.0.length=7655
+outputs.2.0.checksums.sha512=0d0b552cb233a4c30bc5ac32787459e4f100baba612936eb8f8de365e323157502a89f8b55694d36286492fc9f3a9b8afabe54895eff33ebcf62da55aa477a2a
+
+outputs.2.1.filename=com.io7m.jequality.documentation-3.0.0.jar
+outputs.2.1.length=9969
+outputs.2.1.checksums.sha512=716c565e2f1eb8df5865ef5bb07e8c38833bda7454a44ce58a2f3df17d26107c47cd4233a17eeff234f9bf28b1a9daa55d5a7d8abea9a54b655a2c58c37b33b5
+
+outputs.2.2.filename=com.io7m.jequality.documentation-3.0.0-sources.jar
+outputs.2.2.length=10631
+outputs.2.2.checksums.sha512=37ee5528e46ea009f370fbcd0cceccdbeb1a6a9662c4278058ca06a76c033af2aabb473a83e6fd59342fad8dff118967e19a8fdf8a128797d91b266e78085e6c
+
+outputs.2.3.filename=com.io7m.jequality.documentation-3.0.0-tests.jar
+outputs.2.3.length=412
+outputs.2.3.checksums.sha512=ccd73886fc2418d8f1b99f571bcac9433c9cc08b6a763d6afd54d8764658eb6513a019d00734174dd532208d39fb803b14649fc8fc90821544f97e37aafd1cf5
