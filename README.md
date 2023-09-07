@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2468 releases** of **508 projects**:
-   - **1908** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 560 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **2496 releases** of **527 projects**:
+   - **1935** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 561 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
 
@@ -87,11 +87,30 @@ Its objectives are to provide:
 | com.io7m.jattribute | <a name='com.io7m.jattribute:com.io7m.jattribute'></a>[com.io7m.jattribute](content/com/io7m/jattribute/README.md) | 1 | 1 :heavy_check_mark: |
 | com.io7m.jbssio | <a name='com.io7m.jbssio:com.io7m.jbssio'></a>[com.io7m.jbssio](content/com/io7m/jbssio/README.md) | 8 | 7 :heavy_check_mark: / 1 :warning: |
 | com.io7m.jcolorspace | <a name='com.io7m.jcolorspace:com.io7m.jcolorspace'></a>[com.io7m.jcolorspace](content/com/io7m/jcolorspace/README.md) | 3 | 3 :heavy_check_mark: |
+| com.io7m.jcoords | <a name='com.io7m.jcoords:com.io7m.jcoords'></a>[com.io7m.jcoords](content/com/io7m/jcoords/README.md) | 1 | 1 :heavy_check_mark: |
+| com.io7m.jdeferthrow | <a name='com.io7m.jdeferthrow:com.io7m.jdeferthrow'></a>[com.io7m.jdeferthrow](content/com/io7m/jdeferthrow/README.md) | 3 | 3 :heavy_check_mark: |
 | com.io7m.jdownload | <a name='com.io7m.jdownload:com.io7m.jdownload'></a>[com.io7m.jdownload](content/com/io7m/jdownload/README.md) | 1 | 1 :heavy_check_mark: |
+| com.io7m.jequality | <a name='com.io7m.jequality:com.io7m.jequality'></a>[com.io7m.jequality](content/com/io7m/jequality/README.md) | 1 | 1 :heavy_check_mark: |
+| com.io7m.jeucreader | <a name='com.io7m.jeucreader:com.io7m.jeucreader'></a>[com.io7m.jeucreader](content/com/io7m/jeucreader/README.md) | 1 | 1 :heavy_check_mark: |
+| com.io7m.jfsm | <a name='com.io7m.jfsm:com.io7m.jfsm'></a>[com.io7m.jfsm](content/com/io7m/jfsm/README.md) | 1 | 1 :heavy_check_mark: |
+| com.io7m.jintegers | <a name='com.io7m.jintegers:com.io7m.jintegers'></a>[com.io7m.jintegers](content/com/io7m/jintegers/README.md) | 1 | 1 :heavy_check_mark: |
 | com.io7m.jmulticlose | <a name='com.io7m.jmulticlose:com.io7m.jmulticlose'></a>[com.io7m.jmulticlose](content/com/io7m/jmulticlose/README.md) | 3 | 3 :heavy_check_mark: |
+| com.io7m.jmurmur | <a name='com.io7m.jmurmur:com.io7m.jmurmur'></a>[com.io7m.jmurmur](content/com/io7m/jmurmur/README.md) | 1 | 1 :heavy_check_mark: |
+| com.io7m.jnfp | <a name='com.io7m.jnfp:com.io7m.jnfp'></a>[com.io7m.jnfp](content/com/io7m/jnfp/README.md) | 1 | 1 :heavy_check_mark: |
+| com.io7m.jnoisetype | <a name='com.io7m.jnoisetype:com.io7m.jnoisetype'></a>[com.io7m.jnoisetype](content/com/io7m/jnoisetype/README.md) | 3 | 3 :heavy_check_mark: |
+| com.io7m.jodist | <a name='com.io7m.jodist:com.io7m.jodist'></a>[com.io7m.jodist](content/com/io7m/jodist/README.md) | 1 | 1 :heavy_check_mark: |
+| com.io7m.jorchard | <a name='com.io7m.jorchard:com.io7m.jorchard'></a>[com.io7m.jorchard](content/com/io7m/jorchard/README.md) | 2 | 2 :heavy_check_mark: |
+| com.io7m.jpita | <a name='com.io7m.jpita:com.io7m.jpita'></a>[com.io7m.jpita](content/com/io7m/jpita/README.md) | 1 | 1 :heavy_check_mark: |
+| com.io7m.jproperties | <a name='com.io7m.jproperties:com.io7m.jproperties'></a>[com.io7m.jproperties](content/com/io7m/jproperties/README.md) | 3 | 3 :heavy_check_mark: |
+| com.io7m.jptbox | <a name='com.io7m.jptbox:com.io7m.jptbox'></a>[com.io7m.jptbox](content/com/io7m/jptbox/README.md) | 1 | 1 :heavy_check_mark: |
+| com.io7m.jpuddle | <a name='com.io7m.jpuddle:com.io7m.jpuddle'></a>[com.io7m.jpuddle](content/com/io7m/jpuddle/README.md) | 1 | 1 :heavy_check_mark: |
 | com.io7m.jqpage | <a name='com.io7m.jqpage:com.io7m.jqpage'></a>[com.io7m.jqpage](content/com/io7m/jqpage/README.md) | 3 | 3 :heavy_check_mark: |
+| com.io7m.jranges | <a name='com.io7m.jranges:com.io7m.jranges'></a>[com.io7m.jranges](content/com/io7m/jranges/README.md) | 1 | 1 :heavy_check_mark: |
+| com.io7m.jregions | <a name='com.io7m.jregions:com.io7m.jregions'></a>[com.io7m.jregions](content/com/io7m/jregions/README.md) | 2 | 2 :heavy_check_mark: |
 | com.io7m.jsamplebuffer | <a name='com.io7m.jsamplebuffer:com.io7m.jsamplebuffer'></a>[com.io7m.jsamplebuffer](content/com/io7m/jsamplebuffer/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
+| com.io7m.jserial | <a name='com.io7m.jserial:com.io7m.jserial'></a>[com.io7m.jserial](content/com/io7m/jserial/README.md) | 1 | 1 :heavy_check_mark: |
 | com.io7m.jsx | <a name='com.io7m.jsx:com.io7m.jsx'></a>[com.io7m.jsx](content/com/io7m/jsx/README.md) | 6 | 6 :heavy_check_mark: |
+| com.io7m.junreachable | <a name='com.io7m.junreachable:com.io7m.junreachable'></a>[com.io7m.junreachable](content/com/io7m/junreachable/README.md) | 1 | 1 :heavy_check_mark: |
 | com.io7m.jvindicator | <a name='com.io7m.jvindicator:com.io7m.jvindicator'></a>[com.io7m.jvindicator](content/com/io7m/jvindicator/README.md) | 1 | 1 :heavy_check_mark: |
 | com.io7m.jwheatsheaf | <a name='com.io7m.jwheatsheaf:com.io7m.jwheatsheaf'></a>[com.io7m.jwheatsheaf](content/com/io7m/jwheatsheaf/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
 | com.io7m.jxe | <a name='com.io7m.jxe:com.io7m.jxe'></a>[com.io7m.jxe](content/com/io7m/jxe/README.md) | 2 | 2 :heavy_check_mark: |
@@ -335,7 +354,7 @@ Its objectives are to provide:
 | | <a name='org.apache.qpid:proton-j-parent'></a>[proton-j-parent](content/org/apache/qpid/proton-j/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.qpid:protonj2-parent'></a>[protonj2-parent](content/org/apache/qpid/protonj2/README.md) | 9 | 8 :heavy_check_mark: / 1 :warning: |
 | org.apache.royale.compiler | <a name='org.apache.royale.compiler:compiler'></a>[compiler](content/org/apache/royale/compiler/README.md) | 2 | 2 :warning: |
-| org.apache.santuario | <a name='org.apache.santuario:xmlsec'></a>[xmlsec](content/org/apache/santuario/xmlsec/README.md) | 3 | 3 :warning: |
+| org.apache.santuario | <a name='org.apache.santuario:xmlsec'></a>[xmlsec](content/org/apache/santuario/xmlsec/README.md) | 4 | 4 :warning: |
 | org.apache.servicemix.tooling | <a name='org.apache.servicemix.tooling:depends-maven-plugin'></a>[depends-maven-plugin](content/org/apache/servicemix/tooling/depends-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.sling | <a name='org.apache.sling:feature-launcher-maven-plugin'></a>[feature-launcher-maven-plugin](content/org/apache/sling/feature-launcher-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.sling:htl-maven-plugin'></a>[htl-maven-plugin](content/org/apache/sling/htl-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
@@ -530,7 +549,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 23 | 23 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **508** | **2468** | **1908** :heavy_check_mark: **560** :warning: |
+| **Count:** | **527** | **2496** | **1935** :heavy_check_mark: **561** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -545,6 +564,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
     970 mvn         8
       1 mvn         9
     777 mvn        11
+      1 mvn        11.0.19
       1 mvn        11.0.6
       1 mvn        13
       4 mvn        14
@@ -581,14 +601,14 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn-3.9.3  11.0.5
       5 mvn-3.9.3  11.0.6
       7 mvn-3.9.3  14
-     11 mvn-3.9.3  14.0.2
+     12 mvn-3.9.3  14.0.2
       1 mvn-3.9.3  15.0.2
      18 mvn-3.9.3  17
-      5 mvn-3.9.3  17.0.1
+      6 mvn-3.9.3  17.0.1
       1 mvn-3.9.3  17.0.2
-     27 mvn-3.9.3  17.0.3
+     51 mvn-3.9.3  17.0.3
       3 mvn-3.9.3  17.0.4
-     17 mvn-3.9.3  17.0.4.1
+     18 mvn-3.9.3  17.0.4.1
      13 mvn-3.9.3  17.0.5
      20 mvn-3.9.3  17.0.6
      59 mvn-3.9.3  17.0.7

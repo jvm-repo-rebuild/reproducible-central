@@ -4,6 +4,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20230906233430 --> [flowlogix](../content/com/flowlogix/README.md) | [7.1](../content/com/flowlogix/flowlogix-7.1.buildspec) :heavy_check_mark: | [7.1.1](../content/com/flowlogix/flowlogix-7.1.1.buildspec) | `bin/add-new-release.sh content/com/flowlogix/flowlogix-7.1.buildspec 7.1.1` |
 | <!-- 20230903013020 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.1](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec) :heavy_check_mark: | [10.4.2-beta-1](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2-beta-1.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec 10.4.2-beta-1` |
 | <!-- 20230829074940 --> [conventional-commits-version-policy](../content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | [1.0.1](../content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.1.buildspec) :heavy_check_mark: | [1.0.4](../content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.4.buildspec) | `bin/add-new-release.sh content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.1.buildspec 1.0.4` |
 <!-- END GENERATED ADD OK -->
@@ -11,10 +12,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20230906054856 --> [xmlsec](../content/org/apache/santuario/xmlsec/README.md) | [3.0.2](../content/org/apache/santuario/xmlsec/xmlsec-3.0.2.buildspec) :warning: [:memo:](https://github.com/apache/santuario-xml-security-java/pull/77) | [4.0.0-M1](../content/org/apache/santuario/xmlsec/xmlsec-4.0.0-M1.buildspec) | `bin/add-new-release.sh content/org/apache/santuario/xmlsec/xmlsec-3.0.2.buildspec 4.0.0-M1` |
+| <!-- 20230907100604 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | [3.4.0](../content/io/github/chains-project/maven-lockfile/maven-lockfile-3.4.0.buildspec) :warning: | [5.0.0](../content/io/github/chains-project/maven-lockfile/maven-lockfile-5.0.0.buildspec) | `bin/add-new-release.sh content/io/github/chains-project/maven-lockfile/maven-lockfile-3.4.0.buildspec 5.0.0` |
 | <!-- 20230905221857 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.26.6](../content/org/finos/legend/engine/legend-engine-4.26.6.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.26.6` |
 | <!-- 20230905163521 --> [commons-parent](../content/org/apache/commons/parent/README.md) | [60](../content/org/apache/commons/parent/commons-parent-60.buildspec) :warning: [:memo:](https://github.com/spdx/spdx-maven-plugin/issues/126) | [62](../content/org/apache/commons/parent/commons-parent-62.buildspec) | `bin/add-new-release.sh content/org/apache/commons/parent/commons-parent-60.buildspec 62` |
-| <!-- 20230905151632 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | [3.4.0](../content/io/github/chains-project/maven-lockfile/maven-lockfile-3.4.0.buildspec) :warning: | [4.2.2](../content/io/github/chains-project/maven-lockfile/maven-lockfile-4.2.2.buildspec) | `bin/add-new-release.sh content/io/github/chains-project/maven-lockfile/maven-lockfile-3.4.0.buildspec 4.2.2` |
 | <!-- 20230831095311 --> [io.wcm.wcm.ui.granite](../content/io/wcm/io.wcm.wcm/ui/granite/README.md) | [1.9.12](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.9.12.buildspec) :warning: | [1.9.14](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.9.14.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.9.12.buildspec 1.9.14` |
 | <!-- 20230824122840 --> [arthas-all](../content/com/taobao/arthas/README.md) | [3.6.0](../content/com/taobao/arthas/arthas-3.6.0.buildspec) :warning: | [3.7.1](../content/com/taobao/arthas/arthas-3.7.1.buildspec) | `bin/add-new-release.sh content/com/taobao/arthas/arthas-3.6.0.buildspec 3.7.1` |
 | <!-- 20230822203029 --> [nifi](../content/org/apache/nifi/nifi/README.md) | [1.22.0](../content/org/apache/nifi/nifi/nifi-1.22.0.buildspec) :warning: | [1.23.2](../content/org/apache/nifi/nifi/nifi-1.23.2.buildspec) | `bin/add-new-release.sh content/org/apache/nifi/nifi/nifi-1.22.0.buildspec 1.23.2` |
@@ -56,6 +56,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20230906054856 --> [xmlsec](../content/org/apache/santuario/xmlsec/README.md) | 4.0.0-M1 :warning: [:memo:](https://github.com/apache/santuario-xml-security-java/pull/77) |
 | <!-- 20230830214835 --> [jetty-project](../content/org/eclipse/jetty/jetty-project/README.md) | 12.0.1 :warning: |
 | <!-- 20230828190043 --> [tika](../content/org/apache/tika/README.md) | 2.9.0 :warning: |
 | <!-- 20230828161712 --> [jooby](../content/io/jooby/README.md) | 3.0.5 :warning: |
