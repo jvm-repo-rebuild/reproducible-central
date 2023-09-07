@@ -1,0 +1,70 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.jeucreader
+group-id=com.io7m.jeucreader
+artifact-id=com.io7m.jeucreader
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/jeucreader
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.jeucreader.documentation
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.jeucreader:com.io7m.jeucreader
+
+outputs.0.0.filename=com.io7m.jeucreader-3.0.0.pom
+outputs.0.0.length=3835
+outputs.0.0.checksums.sha512=8ed0741bf014006ef5c181323938e062c25aa40e44b8e83a7483953848d02ace7f242825faf62d2d077719eef4725dfc334c5c652cbc623c8b168d394f516aa4
+
+outputs.1.coordinates=com.io7m.jeucreader:com.io7m.jeucreader.core
+
+outputs.1.0.filename=com.io7m.jeucreader.core-3.0.0.pom
+outputs.1.0.length=1867
+outputs.1.0.checksums.sha512=5c51c313b7043b8681b0905e941394a0e667b1c62fcfde12eccb8aa008846f9b6eb83fe65bffa41432e269961720e6e79f36cc2261b4e9c61fd357f297ea005d
+
+outputs.1.1.filename=com.io7m.jeucreader.core-3.0.0.jar
+outputs.1.1.length=6768
+outputs.1.1.checksums.sha512=10b53a44acbedbc4c95f2df203cedf7241100d6977d5f177d6601ba0336fb909ba6169f7e9a9e0d0a4fdde94cbe637d63f4561ce18dbf975628730a92acfa4ba
+
+outputs.1.2.filename=com.io7m.jeucreader.core-3.0.0-sources.jar
+outputs.1.2.length=9839
+outputs.1.2.checksums.sha512=f24c968b85026998d2cf6d9292a68bbfc4db665e923fca13ef0358be2c45d6a65590c7d2ae0d4d1bd9e63916606a9012d2a9ea638d159e3de7414510187407ac
+
+outputs.1.3.filename=com.io7m.jeucreader.core-3.0.0-test-sources.jar
+outputs.1.3.length=3747
+outputs.1.3.checksums.sha512=94abca38179093ef000a2ed026b216e73db9c38e257546603eda0f92f7663f88a10102c765d691754573b787575ef60bc8cd85b6ac4cf0f9e89f8db4648ab047
+
+outputs.1.4.filename=com.io7m.jeucreader.core-3.0.0-tests.jar
+outputs.1.4.length=2573
+outputs.1.4.checksums.sha512=5c90cf3bf6be786bb69f77db4146713957e8a9bf6dc90c072ae7f3e61ca2a7b92ff175c3faf8f114cdc42e4231d9433285ef95aa91999743dfaac758982453dc
+
+outputs.2.coordinates=com.io7m.jeucreader:com.io7m.jeucreader.documentation
+
+outputs.2.0.filename=com.io7m.jeucreader.documentation-3.0.0.pom
+outputs.2.0.length=7715
+outputs.2.0.checksums.sha512=2644feece7e0690592154b781c9e6f8cbee0049e6aff270355d45f7e57af74a66dbf040ae03cc9e29c99c828a898df0b549ecd12fb01a614228c31e63ff1dc80
+
+outputs.2.1.filename=com.io7m.jeucreader.documentation-3.0.0.jar
+outputs.2.1.length=7016
+outputs.2.1.checksums.sha512=9f341a607aab171af8c46cec330d627ecfd36e3a34f1ab05b937a4c1c907d836d12c506f66c73611d8bcba9ba46810cd35346973f1cdde75708e49a7e61c3cfa
+
+outputs.2.2.filename=com.io7m.jeucreader.documentation-3.0.0-sources.jar
+outputs.2.2.length=7515
+outputs.2.2.checksums.sha512=5153a0bab904d86324ea81c066407fe2f7222b8437be44a275f7cc35baca434daf5835562e9d45322d469338230485fd9d759e0c82e8faeaadd138a287663b42
+
+outputs.2.3.filename=com.io7m.jeucreader.documentation-3.0.0-tests.jar
+outputs.2.3.length=412
+outputs.2.3.checksums.sha512=06f92b2347a07061214ba3bfa31768ea7994c711846126d9369f695728c9a8d5a4471d03ae92319251ff1de7a1523161c7a9be0bbc7be2ddc6f5ef17c877b6f2
