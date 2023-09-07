@@ -1,0 +1,70 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.junreachable
+group-id=com.io7m.junreachable
+artifact-id=com.io7m.junreachable
+version=4.0.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/junreachable
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.junreachable.documentation
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.junreachable:com.io7m.junreachable
+
+outputs.0.0.filename=com.io7m.junreachable-4.0.0.pom
+outputs.0.0.length=4036
+outputs.0.0.checksums.sha512=dfb032abbc5708add140f6bda98d0478f000eeb252dd08b60475172e54fd2656f181d5bc81300f019be5530beaef80e7d0e55339d07cfeb2dac9cda909a1b0a6
+
+outputs.1.coordinates=com.io7m.junreachable:com.io7m.junreachable.core
+
+outputs.1.0.filename=com.io7m.junreachable.core-4.0.0.pom
+outputs.1.0.length=1913
+outputs.1.0.checksums.sha512=97f970ed64ffa510a74adb15eea2a86994507127eae2098800ba3faeb1380c93fec46a09f344327edb9a4a1e7f0ef246b65194fb53e198f150910e5e4423b2bc
+
+outputs.1.1.filename=com.io7m.junreachable.core-4.0.0.jar
+outputs.1.1.length=4511
+outputs.1.1.checksums.sha512=d5208dade511f3b1e617b8b64935a73bde09c4ffc771bfbd77c7ad2a4756a5491186e128eb65b29e1f3a96102ae97e78be3e336bbd3936d241ec3b501f948129
+
+outputs.1.2.filename=com.io7m.junreachable.core-4.0.0-sources.jar
+outputs.1.2.length=5889
+outputs.1.2.checksums.sha512=6324ed002572923316af603634b8a81c717906e20f614d6d7f6608e9a33bd0fe7f881bbb2d0cff2f05a3fb654a86e3691f25796fdcdbc08da64b3786867657e9
+
+outputs.1.3.filename=com.io7m.junreachable.core-4.0.0-test-sources.jar
+outputs.1.3.length=4062
+outputs.1.3.checksums.sha512=9b1df0d3fd6c193f94c2530638784cd993c7733b2f52d29e4fbcf69c38d051599e263645ba663bf0e17684dbe98cac3c7421ab47f06b538286ec03915c56052c
+
+outputs.1.4.filename=com.io7m.junreachable.core-4.0.0-tests.jar
+outputs.1.4.length=1940
+outputs.1.4.checksums.sha512=3677a148dfcd69f346cefd549e85c4334a0f52f9635fb98cf94d554165ad8df9c3d4b45a9852892d18dbb904e7f569945f195ade328e82eabf9fc83398f33292
+
+outputs.2.coordinates=com.io7m.junreachable:com.io7m.junreachable.documentation
+
+outputs.2.0.filename=com.io7m.junreachable.documentation-4.0.0.pom
+outputs.2.0.length=7717
+outputs.2.0.checksums.sha512=804d0674a85b6eacc3d0143ed673d694117f8964cf7ca93a53a6a6f55bc1eba9059805d29e794da9b450878900ebeeb0e59c7a333a0765120810baecb98b96d0
+
+outputs.2.1.filename=com.io7m.junreachable.documentation-4.0.0.jar
+outputs.2.1.length=8556
+outputs.2.1.checksums.sha512=0e1ce55e022d5fbf6431dba5f3a89bf064185b0b00af058a86643fb7f59f7aed5194ae8f80b52f71d0bcf28945128803d02a4cc7ea96a835fae7d6979b883057
+
+outputs.2.2.filename=com.io7m.junreachable.documentation-4.0.0-sources.jar
+outputs.2.2.length=9413
+outputs.2.2.checksums.sha512=bab4ec8aa5fd6aac7f78cf3b54660ce42d7e1339c3af5de30c256a42ab904460ede2379015f2f0a6dde3f8673c07e3d58be00b08c19a34f02fa6e27fca25e226
+
+outputs.2.3.filename=com.io7m.junreachable.documentation-4.0.0-tests.jar
+outputs.2.3.length=414
+outputs.2.3.checksums.sha512=fc9aad71d7d82c747bff7bbbc650318f5164350769a9ead2fb8bd9261b4363a804484c50fec5d26e1016d74ac31027c68935c815d3b391615499b0912acc6739
