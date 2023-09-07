@@ -1,0 +1,7 @@
+version=4.0.0-M1
+ok=3
+ko=2
+okFiles="xmlsec-4.0.0-M1.pom xmlsec-4.0.0-M1-cyclonedx.xml xmlsec-4.0.0-M1-cyclonedx.json"
+koFiles="xmlsec-4.0.0-M1.jar xmlsec-4.0.0-M1-sources.jar"
+# diffoscope target/reference/xmlsec-4.0.0-M1.jar target/xmlsec-4.0.0-M1.jar
+# diffoscope target/reference/xmlsec-4.0.0-M1-sources.jar target/xmlsec-4.0.0-M1-sources.jar
