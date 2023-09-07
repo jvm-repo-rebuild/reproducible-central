@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.jodist
+group-id=com.io7m.jodist
+artifact-id=com.io7m.jodist
+version=2.0.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/io7m/jodist.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=com.io7m.jodist-2.0.0.pom
+outputs.0.length=4428
+outputs.0.checksums.sha512=eb7ecccc9426b0b14c165054694d500a5146671e7b60edb6b92fbf313445d47106368bba3e52c823539d4c268d0d0fddaf6f8c6ed6e1aaa1effd5b717a30fb85
+
+outputs.1.filename=com.io7m.jodist-2.0.0.jar
+outputs.1.length=106489
+outputs.1.checksums.sha512=eea22bca99e2dca34428cb408361410f0f4804c0845528eaa1198d9f9bdab297aecefae9c5def9f8a9b6539c00003e272cdab318e835c760daf8a69589bb7e2b
+
+outputs.2.filename=com.io7m.jodist-2.0.0-sources.jar
+outputs.2.length=55358
+outputs.2.checksums.sha512=54608ec1fe66f020381e4abb1f46c79ee992109c3b4d0fc07ad3f9e4f24abaf8ea8044894324c7cb6790ae62040a78b41e6b9fb58fb50e23fdcd7cb6e28ca516
+
+outputs.3.filename=com.io7m.jodist-2.0.0-test-sources.jar
+outputs.3.length=54534
+outputs.3.checksums.sha512=55e0c06e6e51ee5743951bdd3edd5f57d80d7e93447ab0950046bb6dea5697ae312620d9377291bd06fbbc9a66a2067f329055f68ea66f497bf201a763fa742d
+
+outputs.4.filename=com.io7m.jodist-2.0.0-tests.jar
+outputs.4.length=122191
+outputs.4.checksums.sha512=06d5ea024838bba848a6913aba536f934817bd4bf4da259c0ea6459a48d69c3ac28e151d178a961278bb591923e2d9f81bb1b4922a7df1017fc1245075058cb6
