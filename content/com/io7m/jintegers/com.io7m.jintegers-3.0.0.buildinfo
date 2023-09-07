@@ -1,0 +1,70 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.jintegers
+group-id=com.io7m.jintegers
+artifact-id=com.io7m.jintegers
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/jintegers
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.jintegers.documentation
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.jintegers:com.io7m.jintegers
+
+outputs.0.0.filename=com.io7m.jintegers-3.0.0.pom
+outputs.0.0.length=3995
+outputs.0.0.checksums.sha512=4b3f0a36e8812db5418864a879f03ba150029a42071712e01f612d734a75e1224d566e6b2f1ba7de47cb004b245f3b943b532683b7137668403886e02e792bf0
+
+outputs.1.coordinates=com.io7m.jintegers:com.io7m.jintegers.core
+
+outputs.1.0.filename=com.io7m.jintegers.core-3.0.0.pom
+outputs.1.0.length=2157
+outputs.1.0.checksums.sha512=28aa81e70aada6311e7b1c4e767c45cee138e089cd75357367a2d56fb9290378de9ac37296c86859fee3e0face61ef0b978b00a50e402b99be1b72eebc31d3d3
+
+outputs.1.1.filename=com.io7m.jintegers.core-3.0.0.jar
+outputs.1.1.length=13203
+outputs.1.1.checksums.sha512=e6ec98f1cb2df60aed76d32a29ec42d9e37797bdfb2579d1c5b0baf169abd6edeeae0fce908d50ba5a19eaa50f8ed044615c995f3e4f2ff3dea840e38a77ee7b
+
+outputs.1.2.filename=com.io7m.jintegers.core-3.0.0-sources.jar
+outputs.1.2.length=14784
+outputs.1.2.checksums.sha512=89ea527ab277a61dd720a4f2bd32e9bc36642f4368643c43e935897af2a9b0047f50245987b4926001df43b490633f192ad185710aa7d2306e4848bd2ddfb4b1
+
+outputs.1.3.filename=com.io7m.jintegers.core-3.0.0-test-sources.jar
+outputs.1.3.length=11624
+outputs.1.3.checksums.sha512=989376bf8bbbe46d5f205683f67fdce3dd0457f33393f5e804a67093f6de7f891b0a21f4daaad04b1d9cf7b8e43a5a1262795d741e7d6fbad336d6c239c5a56a
+
+outputs.1.4.filename=com.io7m.jintegers.core-3.0.0-tests.jar
+outputs.1.4.length=11974
+outputs.1.4.checksums.sha512=5ef8b8fbcaed093490d90fabbe9a68517a2e0da6240941d581aadfa4f34f8ff873e58586bc94a7c0acf5361fe212c21291e1017b5723588160ac6bf32b3ad8a1
+
+outputs.2.coordinates=com.io7m.jintegers:com.io7m.jintegers.documentation
+
+outputs.2.0.filename=com.io7m.jintegers.documentation-3.0.0.pom
+outputs.2.0.length=7655
+outputs.2.0.checksums.sha512=adbbb4a3e31e4f93d25b8a6a3b11feb7e65bac546de8dc75af59535f63354c0977918e4809ef0e7da3ee3f2ecb76c0c8376c536ff89cb7bea35f722d7a0c4c7d
+
+outputs.2.1.filename=com.io7m.jintegers.documentation-3.0.0.jar
+outputs.2.1.length=7634
+outputs.2.1.checksums.sha512=0cd71c9ced96c9e138cb3d2b53a91c125790e4d837585aac7584c9e2fb3472178d0bb4b892bd54c8c171131cc61f8f89c3ead7d66840cf027821fc14756a9bcb
+
+outputs.2.2.filename=com.io7m.jintegers.documentation-3.0.0-sources.jar
+outputs.2.2.length=8291
+outputs.2.2.checksums.sha512=d30e05366979f4ccb85b36eff66041e8dd3216391e03133f35706ce988e63593de1a578dd4ed0b308810c812e5e31b23a4d9f6b95dcadc93fbf6319b112c538f
+
+outputs.2.3.filename=com.io7m.jintegers.documentation-3.0.0-tests.jar
+outputs.2.3.length=409
+outputs.2.3.checksums.sha512=cf43424d83706a28a85104b48af4bb1d50d6ac85b6946f9802588170b7aa3f73ca1bd40c9e58daadf4e738afd84d6e2ef094017321f904b0bb9ae7da183f8fa7
