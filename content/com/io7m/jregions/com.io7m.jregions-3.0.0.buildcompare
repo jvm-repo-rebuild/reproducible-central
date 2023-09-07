@@ -1,0 +1,7 @@
+version=3.0.0
+ok=18
+ko=0
+okFiles="com.io7m.jregions-3.0.0.pom com.io7m.jregions-3.0.0.pom com.io7m.jregions.core-3.0.0.pom com.io7m.jregions.core-3.0.0.jar com.io7m.jregions.core-3.0.0-sources.jar com.io7m.jregions.core-3.0.0-tests.jar com.io7m.jregions.generators-3.0.0.pom com.io7m.jregions.generators-3.0.0.jar com.io7m.jregions.generators-3.0.0-sources.jar com.io7m.jregions.generators-3.0.0-tests.jar com.io7m.jregions.documentation-3.0.0.pom com.io7m.jregions.documentation-3.0.0.jar com.io7m.jregions.documentation-3.0.0-sources.jar com.io7m.jregions.documentation-3.0.0-tests.jar com.io7m.jregions.tests-3.0.0.pom com.io7m.jregions.tests-3.0.0.jar com.io7m.jregions.tests-3.0.0-test-sources.jar com.io7m.jregions.tests-3.0.0-tests.jar"
+koFiles=""
+reference_java_version="14 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
