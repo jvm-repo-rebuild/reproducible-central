@@ -1,0 +1,70 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.jdeferthrow
+group-id=com.io7m.jdeferthrow
+artifact-id=com.io7m.jdeferthrow
+version=1.0.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/jdeferthrow
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.jdeferthrow.tests
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.jdeferthrow:com.io7m.jdeferthrow
+
+outputs.0.0.filename=com.io7m.jdeferthrow-1.0.0.pom
+outputs.0.0.length=3975
+outputs.0.0.checksums.sha512=57b9cd77af2ae616447ededa12262284d76f9be9ac5133be617366f50cd70cf476ebc3b4e25f11459e250e17db3a9ff93c35e2a3db78966a1dc3416cb7f2e7d2
+
+outputs.0.1.filename=com.io7m.jdeferthrow-1.0.0.pom
+outputs.0.1.length=3975
+outputs.0.1.checksums.sha512=57b9cd77af2ae616447ededa12262284d76f9be9ac5133be617366f50cd70cf476ebc3b4e25f11459e250e17db3a9ff93c35e2a3db78966a1dc3416cb7f2e7d2
+
+outputs.1.coordinates=com.io7m.jdeferthrow:com.io7m.jdeferthrow.core
+
+outputs.1.0.filename=com.io7m.jdeferthrow.core-1.0.0.pom
+outputs.1.0.length=1055
+outputs.1.0.checksums.sha512=e36d86c13688d1da8e9daecbc327e1ad1e7e9e0573af91255f10cd445a11ecd79a27abf0b0ed1f92f82feda94491faaaf57823539a842099bb95b306a280c9c3
+
+outputs.1.1.filename=com.io7m.jdeferthrow.core-1.0.0.jar
+outputs.1.1.length=3655
+outputs.1.1.checksums.sha512=a9805b26142a1b531920603e832aad1f2112b41d0270a379b2d09e8b3738c5c62d6fef92f6d13d3dd47f23705daa66ce93b7c92b7d805a2a4c0ef4b26faf6f9d
+
+outputs.1.2.filename=com.io7m.jdeferthrow.core-1.0.0-sources.jar
+outputs.1.2.length=4101
+outputs.1.2.checksums.sha512=533dd70084770f659bf59051dc71e689fce93c39baa752a98cc0e950562a1a3d53546d000ba5b6e69a1db0ad65627730f05b3c177e18ee58d9219663168e7720
+
+outputs.1.3.filename=com.io7m.jdeferthrow.core-1.0.0-tests.jar
+outputs.1.3.length=410
+outputs.1.3.checksums.sha512=782b440751cae0fd03f728c388c4a5038194ed7ffecb13b417e1c23139d6a1e335cd43edb503fe610a5613c5689b3217de9698bcb9bf3e5f9524feceec1eb308
+
+outputs.2.coordinates=com.io7m.jdeferthrow:com.io7m.jdeferthrow.tests
+
+outputs.2.0.filename=com.io7m.jdeferthrow.tests-1.0.0.pom
+outputs.2.0.length=1475
+outputs.2.0.checksums.sha512=811ad4e7e9517370b047557cf811243a8ca2b1e7528f94e13b15df755d3f804fe4c75ff4f23c7d056d6e49709c12780d2347635479cf95c0863b0646b0fbebbc
+
+outputs.2.1.filename=com.io7m.jdeferthrow.tests-1.0.0.jar
+outputs.2.1.length=4003
+outputs.2.1.checksums.sha512=afbb1b4f893bb598c3ba2e632970269e99fa634c50fd5e03c3648344dc03eb295b99242daa6ef60871016d63476a7270acb08aa8a77a2c397ccb385b13ae1f38
+
+outputs.2.2.filename=com.io7m.jdeferthrow.tests-1.0.0-sources.jar
+outputs.2.2.length=4259
+outputs.2.2.checksums.sha512=8f2e14aadab201a458d53838f52410e7a7c81cbc3f33cb70c8251e67806c9e0399b4df7bd6304b964c749c90200d9a0f4161ab99c8c708dad994bce79b871e76
+
+outputs.2.3.filename=com.io7m.jdeferthrow.tests-1.0.0-tests.jar
+outputs.2.3.length=410
+outputs.2.3.checksums.sha512=a3c7b3fb05d42e611efe391ad7f0e87c4b271d5b1e0098ca478b2737d71eed3a4b010cee3f08ed9684ba7067dc7a6d51f13fb40360a2bbb4be1e2f664dc9a3b4
