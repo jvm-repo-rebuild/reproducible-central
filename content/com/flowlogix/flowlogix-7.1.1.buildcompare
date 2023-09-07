@@ -1,0 +1,7 @@
+version=7.1.1
+ok=12
+ko=0
+okFiles="flowlogix-7.1.1.pom flowlogix-bom-7.1.1.pom jakarta-ee-7.1.1.pom flowlogix-jee-7.1.1.pom flowlogix-jee-7.1.1.jar flowlogix-jee-7.1.1-tests.jar flowlogix-datamodel-7.1.1.pom flowlogix-datamodel-7.1.1.jar flowlogix-datamodel-7.1.1-tests.jar jee-examples-7.1.1.pom jee-examples-7.1.1.war jee-examples-7.1.1-tests.jar"
+koFiles=""
+reference_java_version="20 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
