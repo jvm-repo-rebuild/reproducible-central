@@ -1,0 +1,70 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.jserial
+group-id=com.io7m.jserial
+artifact-id=com.io7m.jserial
+version=0.5.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/jserial
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.jserial.documentation
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.jserial:com.io7m.jserial
+
+outputs.0.0.filename=com.io7m.jserial-0.5.0.pom
+outputs.0.0.length=4476
+outputs.0.0.checksums.sha512=ed8b12ad752173dddf6a7f8785c86f0265349404307a4ae0826d836a50de05173066b8d140f716f4d676e70574e8dc317cf7b67e957001f49a6e8957c452a689
+
+outputs.1.coordinates=com.io7m.jserial:com.io7m.jserial.core
+
+outputs.1.0.filename=com.io7m.jserial.core-0.5.0.pom
+outputs.1.0.length=2256
+outputs.1.0.checksums.sha512=f5aa144e6fe3fa3883401b999866f4f246dd29d24fc5b47e9b90a8df2141d8599f561eb26a4514ab819979cb94d1178e71ca4005240080e8a4af1002359cef74
+
+outputs.1.1.filename=com.io7m.jserial.core-0.5.0.jar
+outputs.1.1.length=11536
+outputs.1.1.checksums.sha512=4da740ad5482dd150646b1419a8594bc6a5d99a7a728b57e13d910fda052fb0474a646df3e796baa6f7ce961dd6d5eb8afc6ef1ef07794822efaa63026800aa6
+
+outputs.1.2.filename=com.io7m.jserial.core-0.5.0-sources.jar
+outputs.1.2.length=15361
+outputs.1.2.checksums.sha512=e87e6c16d6b22778e227a26a7ce03523e4e944d1bdddb5a5c711ad3f4f0534791154e0a5460d6155c86deb0cb2f2e044340a7aaca6986a07d7a53eb6e262aef8
+
+outputs.1.3.filename=com.io7m.jserial.core-0.5.0-test-sources.jar
+outputs.1.3.length=15138
+outputs.1.3.checksums.sha512=b172f9cd2cb548d6d3b6d668a7b79b4dfadf0546f405c2a73a234639c7e4e42d5dd061d0ece795c3e19388611c9a54874c78603a929b5b95f4a920f3addf6c2d
+
+outputs.1.4.filename=com.io7m.jserial.core-0.5.0-tests.jar
+outputs.1.4.length=13522
+outputs.1.4.checksums.sha512=b38f44e878987f3f33287fce501b2e2953f506e7c28370ed351839764537fe96c80d06784e0a120762ddb8d960bcfe2e5749d7d5ae6e4147fc97b821198135db
+
+outputs.2.coordinates=com.io7m.jserial:com.io7m.jserial.documentation
+
+outputs.2.0.filename=com.io7m.jserial.documentation-0.5.0.pom
+outputs.2.0.length=7649
+outputs.2.0.checksums.sha512=c20742e9f5bfc1e2928866a467079599d954936b80e560ccf0e8082c49ed0df347608957e3c26984df5d73ea8ed4d5f0be437a2db3361f2ffdab9a146b5f459c
+
+outputs.2.1.filename=com.io7m.jserial.documentation-0.5.0.jar
+outputs.2.1.length=7197
+outputs.2.1.checksums.sha512=21f939ef6b6263d8203366d960cff8072ce08a6c41c2528a7e2c6dbe566a8461cabcd5420a38324951e50793a38b5c3352f0858f61c7f0cdba622fd1bbd95f63
+
+outputs.2.2.filename=com.io7m.jserial.documentation-0.5.0-sources.jar
+outputs.2.2.length=8073
+outputs.2.2.checksums.sha512=289ab515235aaefcfbd40bc3d54ccda2d010e214481312dfe0d69678414366283be9b128cb2c765d7b54fa67cc42ec5aefb389ecb9e170b0b38651c4356e308e
+
+outputs.2.3.filename=com.io7m.jserial.documentation-0.5.0-tests.jar
+outputs.2.3.length=409
+outputs.2.3.checksums.sha512=f46f29368d2423ebd68caab64e3d67ad2cf68c6e97398c60cb2655d4c445f73355681c3a7768209b6203855d2e805730eac87ebea3ba37cc8b153918a16c7181
