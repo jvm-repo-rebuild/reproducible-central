@@ -1,0 +1,70 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.jpita
+group-id=com.io7m.jpita
+artifact-id=com.io7m.jpita
+version=2.0.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/jpita
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.jpita.documentation
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.jpita:com.io7m.jpita
+
+outputs.0.0.filename=com.io7m.jpita-2.0.0.pom
+outputs.0.0.length=4443
+outputs.0.0.checksums.sha512=27afcb5e06f70e3c64d3851e03c5ac0a3b9d1670b652e7357f96badf82d10acf09e10fbdf6cb233ffad5a06f3461793f11104d24440f957753210700d3082ba9
+
+outputs.1.coordinates=com.io7m.jpita:com.io7m.jpita.core
+
+outputs.1.0.filename=com.io7m.jpita.core-2.0.0.pom
+outputs.1.0.length=2354
+outputs.1.0.checksums.sha512=d5542975b542632f6afb3bd3e915e95cb14feba4f70a9e3169c096ee3cfd040496663338de377bd6e3521844d1a876e9c3c48aa43f945874ebb6e53aa9b9cf9c
+
+outputs.1.1.filename=com.io7m.jpita.core-2.0.0.jar
+outputs.1.1.length=10921
+outputs.1.1.checksums.sha512=4304db913b8288b52bddf5daf07f9c9ccf962709cbdee43474abd8152fad0c210a51b1fdfc16a79aa176ce0cf19889cebeeabaaca1edcc2361a9621996e2c92d
+
+outputs.1.2.filename=com.io7m.jpita.core-2.0.0-sources.jar
+outputs.1.2.length=9943
+outputs.1.2.checksums.sha512=5954f43a35284ecef88abd469a52bc76f7570f89c3e311c572c524e73639a08948d2ec8a69247a6b830c2220c92c85f3ef48040fd95746823561f9d22e9a747c
+
+outputs.1.3.filename=com.io7m.jpita.core-2.0.0-test-sources.jar
+outputs.1.3.length=8748
+outputs.1.3.checksums.sha512=da0442f884f50514373f123042ccb9d5c76e71cafe497c06bda2920a814222727415e3ee81b188e58ce01b629c0b3777523a1153a93e504fcc36224f4af1fff7
+
+outputs.1.4.filename=com.io7m.jpita.core-2.0.0-tests.jar
+outputs.1.4.length=8530
+outputs.1.4.checksums.sha512=8ba172ec9037165388d4824ccaea042e16a536bdc6dac47b5020c1eed245267d2b662afd2908986681ebdc828349522c41627037f7096205bd680a5df891ef5b
+
+outputs.2.coordinates=com.io7m.jpita:com.io7m.jpita.documentation
+
+outputs.2.0.filename=com.io7m.jpita.documentation-2.0.0.pom
+outputs.2.0.length=7612
+outputs.2.0.checksums.sha512=6005864eaf3cb6408fb898bfbc2dda425f8696e83979a3fb3710dc9eb857145075171af66e9739c812c4186369c71076662816e825922719f14a2b1269dcaf55
+
+outputs.2.1.filename=com.io7m.jpita.documentation-2.0.0.jar
+outputs.2.1.length=7178
+outputs.2.1.checksums.sha512=ff73298750827f5b33df3c49712efdfa293bc115fa450931220459e31e26047aad0ee05cd763d1f5a5f5ed9d85f02b5678c9e7984303a1e8653a670872f5d501
+
+outputs.2.2.filename=com.io7m.jpita.documentation-2.0.0-sources.jar
+outputs.2.2.length=8068
+outputs.2.2.checksums.sha512=c8f54430bca5317fc749a5b0419d6414a261190ba885360b341152203d90f9b5cd952a7dc2058f330d05954167b0e0e2d3f3e892822be07b1a54c42780816ace
+
+outputs.2.3.filename=com.io7m.jpita.documentation-2.0.0-tests.jar
+outputs.2.3.length=407
+outputs.2.3.checksums.sha512=4c776aa94f4539a5043d7772e77946020f60f46a282d92879c4acbfbf739ad5de23479c9eb7e25854469685f9f4f5f69cd362b7471d8a2ca2c2324461d87d121

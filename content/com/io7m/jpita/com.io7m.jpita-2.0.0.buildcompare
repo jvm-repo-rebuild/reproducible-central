@@ -1,0 +1,5 @@
+version=2.0.0
+ok=10
+ko=0
+okFiles="com.io7m.jpita-2.0.0.pom com.io7m.jpita.core-2.0.0.pom com.io7m.jpita.core-2.0.0.jar com.io7m.jpita.core-2.0.0-sources.jar com.io7m.jpita.core-2.0.0-test-sources.jar com.io7m.jpita.core-2.0.0-tests.jar com.io7m.jpita.documentation-2.0.0.pom com.io7m.jpita.documentation-2.0.0.jar com.io7m.jpita.documentation-2.0.0-sources.jar com.io7m.jpita.documentation-2.0.0-tests.jar"
+koFiles=""
