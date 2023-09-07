@@ -1,0 +1,70 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.jptbox
+group-id=com.io7m.jptbox
+artifact-id=com.io7m.jptbox
+version=2.0.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/jptbox
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.jptbox.documentation
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.jptbox:com.io7m.jptbox
+
+outputs.0.0.filename=com.io7m.jptbox-2.0.0.pom
+outputs.0.0.length=4412
+outputs.0.0.checksums.sha512=5e1a15bfa54f0446d739930cf398760d13a47fc5bd1eb60660fda712181145fcfaa1cac27b18f6acce7a30685926f5cd5ea08e37e02c2a73630fdacac9a0cf42
+
+outputs.1.coordinates=com.io7m.jptbox:com.io7m.jptbox.core
+
+outputs.1.0.filename=com.io7m.jptbox.core-2.0.0.pom
+outputs.1.0.length=2071
+outputs.1.0.checksums.sha512=a069a78d3839ec9d0b7a4dd1a1b5dbc6edfb576bacf9384fb1d4c7d16a23e50fb868f08a4095362853be9c63a971861e4c3b2fb64cad5d779b1b463f66530bf1
+
+outputs.1.1.filename=com.io7m.jptbox.core-2.0.0.jar
+outputs.1.1.length=11179
+outputs.1.1.checksums.sha512=9ba08ab982c824f5636d7b97ad798f30b1eb6113e3e75aba1433f2dd5eefbd733abee727dcb884fd7ec168a6817e25d05e088004bdcef37c3da12faafb2a7c6b
+
+outputs.1.2.filename=com.io7m.jptbox.core-2.0.0-sources.jar
+outputs.1.2.length=11814
+outputs.1.2.checksums.sha512=bb51b946d67bf4fa420600cd63b7db9521a8d2a3308341accc87f4dd179c271178adbed10d6939a4c27c74ca2aa49ac66746526bed35b747863725f0f21492c5
+
+outputs.1.3.filename=com.io7m.jptbox.core-2.0.0-test-sources.jar
+outputs.1.3.length=8882
+outputs.1.3.checksums.sha512=4148e574633130c0bd9ad896467aa7995729a77ab4a07c85ede786125b472d53d268b3d81d2966551354a978d98aba5c805ad8a5b4414669e8810352e69db446
+
+outputs.1.4.filename=com.io7m.jptbox.core-2.0.0-tests.jar
+outputs.1.4.length=7753
+outputs.1.4.checksums.sha512=dbfaf7e757e34ab624606d1d45270f8bd05eed502c852f2f7cdbc4e86d594f63199c5d252da548f26ed4aaf8a96f3a68bb7d02c43fb5250fd02a5b51438265e0
+
+outputs.2.coordinates=com.io7m.jptbox:com.io7m.jptbox.documentation
+
+outputs.2.0.filename=com.io7m.jptbox.documentation-2.0.0.pom
+outputs.2.0.length=7611
+outputs.2.0.checksums.sha512=ef83ebaafd3f43010dc3f5fa3b00d8842fcac6e4cbe56dbd69270165a981b76262aaf3ecf4adcac6726b7f420b1683a3d17a7ecf883335e496aa695b9c7fcc6b
+
+outputs.2.1.filename=com.io7m.jptbox.documentation-2.0.0.jar
+outputs.2.1.length=7178
+outputs.2.1.checksums.sha512=05c51bddc0566003f00be6d9a019ef6ca3fef839dccfc379a82663f84664122f0aea04ed2ef046bd52204dff22d36a0352e7d069984d9e8d7e85cb4ebc2beee4
+
+outputs.2.2.filename=com.io7m.jptbox.documentation-2.0.0-sources.jar
+outputs.2.2.length=8071
+outputs.2.2.checksums.sha512=a3b2c345a310f64994010a4c88cb1a06bb80c81fca4cd188a4c22659f8dd8ba07e2f248a7beecef76a27918dec760a4e59776517e7f07c75b79992b8782b88d7
+
+outputs.2.3.filename=com.io7m.jptbox.documentation-2.0.0-tests.jar
+outputs.2.3.length=409
+outputs.2.3.checksums.sha512=42483355c5d1042f17da5fc6308ecb18e2d8499bfab778d9a9c7b6af3929027bd7f384ca7b5a80c7a8847792b1ef599c81e9aa471bea8d2adefb48e3b806ab9a
