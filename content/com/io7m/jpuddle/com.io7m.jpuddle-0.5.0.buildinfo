@@ -1,0 +1,70 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.jpuddle
+group-id=com.io7m.jpuddle
+artifact-id=com.io7m.jpuddle
+version=0.5.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/jpuddle
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.jpuddle.documentation
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.jpuddle:com.io7m.jpuddle
+
+outputs.0.0.filename=com.io7m.jpuddle-0.5.0.pom
+outputs.0.0.length=5117
+outputs.0.0.checksums.sha512=7fbf38d45073458d96d821c53c40da392b54ff5ad3ae3161da96547cc09191f0596eebc1953647958ff40bfb40beb141dac413019dfb31303055097fe05af5c0
+
+outputs.1.coordinates=com.io7m.jpuddle:com.io7m.jpuddle.core
+
+outputs.1.0.filename=com.io7m.jpuddle.core-0.5.0.pom
+outputs.1.0.length=2988
+outputs.1.0.checksums.sha512=a20fbeda847d0ed85524aed17617dd75120c2b25ea96573e89134844c8d0fb9d5a11aef1d515c6d828e9ab657303a01ef512b8df1f355937ec73a61d6eab3eac
+
+outputs.1.1.filename=com.io7m.jpuddle.core-0.5.0.jar
+outputs.1.1.length=18632
+outputs.1.1.checksums.sha512=5826ba171ffdb942ae46582b2b024463e1cb29c9f7a3e0f9e27af13983c0ca45d068430faf6c5b40f3e4460c078da1673b9950c8b1db890ae25d2e16b78d3d19
+
+outputs.1.2.filename=com.io7m.jpuddle.core-0.5.0-sources.jar
+outputs.1.2.length=19303
+outputs.1.2.checksums.sha512=66cf5fcb1764f4199c07df61399a4a26e07bab38d5cc3e84abb4cb2454b18fa9ea4fa0e4a6e9d0832f547dc570048d5c54e5301fb0227e7327942964c53f57b4
+
+outputs.1.3.filename=com.io7m.jpuddle.core-0.5.0-test-sources.jar
+outputs.1.3.length=7344
+outputs.1.3.checksums.sha512=798aa84b921dd8cc164bb93bf1bbc9fad524d6f78839d56af7fd0d1114bf9f27e3f1678b96acf8575d306df9be65aef7d63645a135c702a8f09cca653e837103
+
+outputs.1.4.filename=com.io7m.jpuddle.core-0.5.0-tests.jar
+outputs.1.4.length=14354
+outputs.1.4.checksums.sha512=4fbba516cce59f1bdd96d3df86cac90f4246c3e568ce434e96a6f4ed5ef67bcfe3885c1ced4da8c45ce7f0c925bc9a780fb2091382b434261677496953da3c5d
+
+outputs.2.coordinates=com.io7m.jpuddle:com.io7m.jpuddle.documentation
+
+outputs.2.0.filename=com.io7m.jpuddle.documentation-0.5.0.pom
+outputs.2.0.length=7638
+outputs.2.0.checksums.sha512=9075d4454e563cb189ef5ef01b5fa6bcb01bee3062b34b224ae2bc1a6e1fa6792dfe588ada8508bc877127d69e831c24662e961143d38ae72139dc79b0cb7784
+
+outputs.2.1.filename=com.io7m.jpuddle.documentation-0.5.0.jar
+outputs.2.1.length=8029
+outputs.2.1.checksums.sha512=b3fa977ee7db9af0888cd21fd31d5007ad7662feb8cb6a9c4f285e61295636bc638b2bc69c0b5c51b63f4b59b89cff7be7a42c194ffc6388db7ee2f193bdfc72
+
+outputs.2.2.filename=com.io7m.jpuddle.documentation-0.5.0-sources.jar
+outputs.2.2.length=8925
+outputs.2.2.checksums.sha512=0a8218f3bf0fa41d40dffda67464a8fcb3ad4ad6e1a8a626358fa0b30eb0bbe430894e41973d847ad87c4d66c7d06d941db432c524a527cb04f2209b5c67d27b
+
+outputs.2.3.filename=com.io7m.jpuddle.documentation-0.5.0-tests.jar
+outputs.2.3.length=409
+outputs.2.3.checksums.sha512=539e955db37c20df2aee0828e8a68a3defd527a2766db50095e35d4725f9611147b6e84b75912a91cdc169a5178c1feb5bf099e7f5232a6092af27de13d85717
