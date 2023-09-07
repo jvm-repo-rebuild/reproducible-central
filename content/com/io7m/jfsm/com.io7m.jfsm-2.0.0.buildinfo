@@ -1,0 +1,70 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.jfsm
+group-id=com.io7m.jfsm
+artifact-id=com.io7m.jfsm
+version=2.0.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/jfsm
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.jfsm.documentation
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.jfsm:com.io7m.jfsm
+
+outputs.0.0.filename=com.io7m.jfsm-2.0.0.pom
+outputs.0.0.length=3879
+outputs.0.0.checksums.sha512=5f49da1ecafe39c597af6d616627100caa31ae654e67414cdd3b6a1f8e4569639e9f3ac5edbcbd2f94d6dcc3839636f5a703a114bd888a592439ad2752cc1cac
+
+outputs.1.coordinates=com.io7m.jfsm:com.io7m.jfsm.core
+
+outputs.1.0.filename=com.io7m.jfsm.core-2.0.0.pom
+outputs.1.0.length=1675
+outputs.1.0.checksums.sha512=1ac806ea8abe387f58ed06425ecccb5c690598783d42cf7e236fa24b11b9bd18342b4d412c54b762158dfa3a05488ee5f419d182a3027de3ecaca98dbb1b5ebb
+
+outputs.1.1.filename=com.io7m.jfsm.core-2.0.0.jar
+outputs.1.1.length=6622
+outputs.1.1.checksums.sha512=d54ebfacbfc4a35c12066c589d5bf81b25364f735a740181aef32e08c4e499e36c433cda7c5807d3ea3617d43e9a8f7881eaf8cd5abfeac2d6c8ddc4d9248e01
+
+outputs.1.2.filename=com.io7m.jfsm.core-2.0.0-sources.jar
+outputs.1.2.length=7065
+outputs.1.2.checksums.sha512=c433ac15979d7493d4aff5890c7c2d6eedeac200229b6b6c11d31b55f6bbfdfd1f6b720a3ebd58d0be48b725692e50ff51114dd1b412a04525b3ec93f8cc2507
+
+outputs.1.3.filename=com.io7m.jfsm.core-2.0.0-test-sources.jar
+outputs.1.3.length=4196
+outputs.1.3.checksums.sha512=684a08b98b0269e9457008a0d2d4213567f4b864895bc2c9219155f3d97ba286ff591e922fe17915e4fd4c5739c5f81655f81f8aed4b86ef41be036203c720f5
+
+outputs.1.4.filename=com.io7m.jfsm.core-2.0.0-tests.jar
+outputs.1.4.length=3389
+outputs.1.4.checksums.sha512=0f18e3ca02a7f5290d650c17524f0bf70b4e9aa374ff596865d439eeafcc17bfccee3f1c65bbd961079b332e34990b02aeb3823757dd1f65342a6e83028743e8
+
+outputs.2.coordinates=com.io7m.jfsm:com.io7m.jfsm.documentation
+
+outputs.2.0.filename=com.io7m.jfsm.documentation-2.0.0.pom
+outputs.2.0.length=8113
+outputs.2.0.checksums.sha512=3b8486bbd83660df8fd4e471a5171f07a82248493eb6fb2af71c7cc24fe8bee175a86187d52dd285300a75c024bf77759d8f497ed6cf754bde54859a5f23dc91
+
+outputs.2.1.filename=com.io7m.jfsm.documentation-2.0.0.jar
+outputs.2.1.length=8235
+outputs.2.1.checksums.sha512=a06c823c771fbc2ee4c591e2dd576ad1a0819667ca73630d488f22e9d608e726d10bd4bd6a4b62158ed63bac039bf19ea42390793b347f249ac0d0586107b9f8
+
+outputs.2.2.filename=com.io7m.jfsm.documentation-2.0.0-sources.jar
+outputs.2.2.length=9132
+outputs.2.2.checksums.sha512=e8739dd60c14c69d4adef1fb0223b00947570bf2d4a31aa9c26bb5594462efce790790eb4f001de098dd5242d81cf5dcdbd1312df5655727be3ba794f8525394
+
+outputs.2.3.filename=com.io7m.jfsm.documentation-2.0.0-tests.jar
+outputs.2.3.length=408
+outputs.2.3.checksums.sha512=070980b06399926845a5563386d1e35ffd5870c638b6320e42a8c947ccd52a7526cee98448a135643670ab552cf7a282662cf9b3a235b32bf8c62923ce995f35
