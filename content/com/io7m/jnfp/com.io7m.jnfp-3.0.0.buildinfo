@@ -1,0 +1,70 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.io7m.jnfp
+group-id=com.io7m.jnfp
+artifact-id=com.io7m.jnfp
+version=3.0.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/io7m/jnfp
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.0.4
+mvn.aggregate.artifact-id=com.io7m.jnfp.documentation
+
+# aggregated output
+
+outputs.0.coordinates=com.io7m.jnfp:com.io7m.jnfp
+
+outputs.0.0.filename=com.io7m.jnfp-3.0.0.pom
+outputs.0.0.length=4145
+outputs.0.0.checksums.sha512=2b8578910df0476cec211ff4177bdb5794d9a979c141f20ec0fdebfe8b6ee99145779e834621f21dab97c62701df43fa440791a99b4bf89ff9a6a1f25942fcc5
+
+outputs.1.coordinates=com.io7m.jnfp:com.io7m.jnfp.core
+
+outputs.1.0.filename=com.io7m.jnfp.core-3.0.0.pom
+outputs.1.0.length=2361
+outputs.1.0.checksums.sha512=84f705cdb0735e4077710c516694c732da4c67117c0229ff4a00603e59a6e1c8e70685583be930239439df9313dcc6ce351483936bbe33f8cb844668ee469d61
+
+outputs.1.1.filename=com.io7m.jnfp.core-3.0.0.jar
+outputs.1.1.length=9474
+outputs.1.1.checksums.sha512=fe866b707efcba39dc916209c4b13b954025835b2e5a9deedc0835f9674b01787779f6005f5f4be8c9888417fb39ccbca2ea0d51627d5d2d73b29dc6da7dabd1
+
+outputs.1.2.filename=com.io7m.jnfp.core-3.0.0-sources.jar
+outputs.1.2.length=15846
+outputs.1.2.checksums.sha512=c1f10dc8c7f0a1ebe132787a38107b662690e521e06e82ba8385db938c697fd2ab29c7ddc0c985a1cf996b7b53b0b0484301cd84c9281c8f8c694771bfd66e04
+
+outputs.1.3.filename=com.io7m.jnfp.core-3.0.0-test-sources.jar
+outputs.1.3.length=29586
+outputs.1.3.checksums.sha512=e19f7fa6261325f591816ca3d9333b527adb8c8114a131f96e326b1ee32acf27b61ca20783d5e32d8e5caf1e8e9f1b974e86df885e014c0dca71c670e9ce60ec
+
+outputs.1.4.filename=com.io7m.jnfp.core-3.0.0-tests.jar
+outputs.1.4.length=31244
+outputs.1.4.checksums.sha512=24c408b56051d582f29dd698f37feba75f711b417c7914eac041948594f767089ecf99a6e7c5d8b1d51eacd8388429c3a9838bc6a753dd66407f0996c2be62dd
+
+outputs.2.coordinates=com.io7m.jnfp:com.io7m.jnfp.documentation
+
+outputs.2.0.filename=com.io7m.jnfp.documentation-3.0.0.pom
+outputs.2.0.length=7626
+outputs.2.0.checksums.sha512=20b31056cf2c3b7e371e1fabd10ae25d7e9d035613cc3b9845c0a6685da881561d8d887124f8dfff77e5139bf7dbd559361a10cf27c7966b58561aa59c2e6965
+
+outputs.2.1.filename=com.io7m.jnfp.documentation-3.0.0.jar
+outputs.2.1.length=7107
+outputs.2.1.checksums.sha512=af8728a47b1c146f9a0b762942c5b7efeb81c21bc48796770111f80bb3d7275c7fe0b8e0ebb6046cb04d810a978a8c345c3f721a1a7229126177cd31f57d86a0
+
+outputs.2.2.filename=com.io7m.jnfp.documentation-3.0.0-sources.jar
+outputs.2.2.length=8004
+outputs.2.2.checksums.sha512=eec3576d714d2d75eb719465701c305a8ef5cc57715b5eea263920bc2ebb9c74b1688a4f4fb1b1ef5c5a8e8aca5f6fd3bda588412a2abd29ddcad024def8534b
+
+outputs.2.3.filename=com.io7m.jnfp.documentation-3.0.0-tests.jar
+outputs.2.3.length=407
+outputs.2.3.checksums.sha512=bcc975cfdfbbc1aea4e3b7b63cd3cebe676f4c2cf0b811ed05b231d7663566dbc2a83a8e4dd6599984bb9cab50eea476d7607fd910fcc5fe96712d9d7947e065
