@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2496 releases** of **527 projects**:
-   - **1935** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **2498 releases** of **528 projects**:
+   - **1937** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 561 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
 
 <!-- END GENERATED INTRO -->
@@ -26,7 +26,7 @@ Its objectives are to provide:
 | ch.qos.logback | <a name='ch.qos.logback:logback-parent'></a>[logback-parent](content/ch/qos/logback/README.md) | 16 | 10 :heavy_check_mark: / 6 :warning: |
 | ch.qos.reload4j | <a name='ch.qos.reload4j:reload4j'></a>[reload4j](content/ch/qos/reload4j/README.md) | 7 | 1 :heavy_check_mark: / 6 :warning: |
 | ch.qos.logback.db | <a name='ch.qos.logback.db:logback-parent-db'></a>[logback-parent-db](content/ch/qos/logback/db/README.md) | 1 | 1 :warning: |
-| com.flowlogix | <a name='com.flowlogix:flowlogix'></a>[flowlogix](content/com/flowlogix/README.md) | 5 | 1 :heavy_check_mark: / 4 :warning: |
+| com.flowlogix | <a name='com.flowlogix:flowlogix'></a>[flowlogix](content/com/flowlogix/README.md) | 6 | 2 :heavy_check_mark: / 4 :warning: |
 | com.adobe.acs | <a name='com.adobe.acs:acs-aem-commons'></a>[acs-aem-commons](content/com/adobe/acs/aem-commons/README.md) | 3 | 3 :warning: |
 | com.corgibytes | <a name='com.corgibytes:mrm'></a>[mrm](content/com/corgibytes/mrm/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='com.corgibytes:versions-maven-plugin'></a>[versions-maven-plugin](content/com/corgibytes/versions-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
@@ -111,6 +111,7 @@ Its objectives are to provide:
 | com.io7m.jserial | <a name='com.io7m.jserial:com.io7m.jserial'></a>[com.io7m.jserial](content/com/io7m/jserial/README.md) | 1 | 1 :heavy_check_mark: |
 | com.io7m.jsx | <a name='com.io7m.jsx:com.io7m.jsx'></a>[com.io7m.jsx](content/com/io7m/jsx/README.md) | 6 | 6 :heavy_check_mark: |
 | com.io7m.junreachable | <a name='com.io7m.junreachable:com.io7m.junreachable'></a>[com.io7m.junreachable](content/com/io7m/junreachable/README.md) | 1 | 1 :heavy_check_mark: |
+| com.io7m.junsigned | <a name='com.io7m.junsigned:com.io7m.junsigned'></a>[com.io7m.junsigned](content/com/io7m/junsigned/README.md) | 1 | 1 :heavy_check_mark: |
 | com.io7m.jvindicator | <a name='com.io7m.jvindicator:com.io7m.jvindicator'></a>[com.io7m.jvindicator](content/com/io7m/jvindicator/README.md) | 1 | 1 :heavy_check_mark: |
 | com.io7m.jwheatsheaf | <a name='com.io7m.jwheatsheaf:com.io7m.jwheatsheaf'></a>[com.io7m.jwheatsheaf](content/com/io7m/jwheatsheaf/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
 | com.io7m.jxe | <a name='com.io7m.jxe:com.io7m.jxe'></a>[com.io7m.jxe](content/com/io7m/jxe/README.md) | 2 | 2 :heavy_check_mark: |
@@ -549,7 +550,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 23 | 23 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **527** | **2496** | **1935** :heavy_check_mark: **561** :warning: |
+| **Count:** | **528** | **2498** | **1937** :heavy_check_mark: **561** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -575,7 +576,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn        17.0.8
      11 mvn        18
      19 mvn        19
-     12 mvn        20
+     13 mvn        20
       2 mvn-3.5.4   8
       1 mvn-3.8.5   8
      13 mvn-3.8.5  11
@@ -606,7 +607,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      18 mvn-3.9.3  17
       6 mvn-3.9.3  17.0.1
       1 mvn-3.9.3  17.0.2
-     51 mvn-3.9.3  17.0.3
+     52 mvn-3.9.3  17.0.3
       3 mvn-3.9.3  17.0.4
      18 mvn-3.9.3  17.0.4.1
      13 mvn-3.9.3  17.0.5
