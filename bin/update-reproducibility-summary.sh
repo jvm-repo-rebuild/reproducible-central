@@ -8,6 +8,7 @@ export LC_ALL=C
 globalVersion=0
 globalVersionOk=0
 countGa=0
+countGaOk=0
 summary="tmp/summary-table.md"
 echo "| [Central Repository](https://central.sonatype.com/) groupId | artifactId(s) | versions | [result](https://reproducible-builds.org/docs/jvm/): reproducible? |" > ${summary}
 echo "| ----------------- | --------------- | --------- | -------- |" >> ${summary}
@@ -180,6 +181,7 @@ do
   then
     echo -n "$((countVersion)) :warning:" >> ${summary}
   else
+    $((countGaOk++))
     echo -n "${countVersionOk} :heavy_check_mark:" >> ${summary}
     [ "${countVersion}" -gt "${countVersionOk}" ] && echo -n " / $((countVersion - countVersionOk)) :warning:" >> ${summary}
   fi
@@ -227,6 +229,7 @@ echo "| **Count:** | **${countGa}** | **${globalVersion}** | **${globalVersionOk
 echo "   rebuilding **${globalVersion} releases** of **${countGa} projects**:" > tmp/summary-intro.md
 echo "   - **${globalVersionOk}** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:)," >> tmp/summary-intro.md
 echo "   - $((globalVersion - globalVersionOk)) releases are only partially reproducible (contain some unreproducible artifacts :warning:)" >> tmp/summary-intro.md
+echo "   - on ${countGa} projects, ${countGaOk} have at least one fully reproducible release, $((countGa - countGaOk)) have none" >> tmp/summary-intro.md
 echo >> tmp/summary-intro.md
 
 sort $stats | uniq -c > tmp/stats.md
