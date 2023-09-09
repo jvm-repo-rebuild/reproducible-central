@@ -4,6 +4,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20230909103514 --> [cucumber-jvm](../content/io/cucumber/cucumber-jvm/README.md) | [7.13.0](../content/io/cucumber/cucumber-jvm/cucumber-jvm-7.13.0.buildspec) :heavy_check_mark: | [7.14.0](../content/io/cucumber/cucumber-jvm/cucumber-jvm-7.14.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/cucumber-jvm/cucumber-jvm-7.13.0.buildspec 7.14.0` |
 | <!-- 20230903013020 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.1](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec) :heavy_check_mark: | [10.4.2-beta-1](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2-beta-1.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec 10.4.2-beta-1` |
 | <!-- 20230829074940 --> [conventional-commits-version-policy](../content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | [1.0.1](../content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.1.buildspec) :heavy_check_mark: | [1.0.4](../content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.4.buildspec) | `bin/add-new-release.sh content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.1.buildspec 1.0.4` |
 <!-- END GENERATED ADD OK -->
@@ -11,6 +12,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20230908222901 --> [commons-compress](../content/org/apache/commons/compress/README.md) | [1.23.0](../content/org/apache/commons/compress/commons-compress-1.23.0.buildspec) :warning: | [1.24.0](../content/org/apache/commons/compress/commons-compress-1.24.0.buildspec) | `bin/add-new-release.sh content/org/apache/commons/compress/commons-compress-1.23.0.buildspec 1.24.0` |
+| <!-- 20230908202854 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | [6.0.14](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.0.14.buildspec) :warning: | [6.1.0](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.1.0.buildspec) | `bin/add-new-release.sh content/com/adobe/acs/aem-commons/acs-aem-commons-6.0.14.buildspec 6.1.0` |
 | <!-- 20230908163754 --> [opentelemetry-sdk](../content/io/opentelemetry/java/README.md) | [1.14.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.14.0.buildspec) :warning: [:memo:](https://github.com/open-telemetry/opentelemetry-java/issues/4488) | [1.30.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.30.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/java/opentelemetry-sdk-1.14.0.buildspec 1.30.0` |
 | <!-- 20230908141318 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.27.0](../content/org/finos/legend/engine/legend-engine-4.27.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.27.0` |
 | <!-- 20230908141107 --> [io.wcm.handler.media](../content/io/wcm/io.wcm.handler/media/README.md) | [1.15.6](../content/io/wcm/io.wcm.handler/media/wcm-media-1.15.6.buildspec) :warning: | [1.15.8](../content/io/wcm/io.wcm.handler/media/wcm-media-1.15.8.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.handler/media/wcm-media-1.15.6.buildspec 1.15.8` |
@@ -73,7 +76,6 @@ New Releases To Add
 | <!-- 20230724134537 --> [cdevents-sdk-java](../content/dev/cdevents/cdevents-sdk-java/README.md) | 0.1.2 :warning: |
 | <!-- 20230721020416 --> [auto-record](../content/pl/com/labaj/auto-record/README.md) | 2.1.0 :x: |
 | <!-- 20230713070609 --> [maven-fluido-skin](../content/org/apache/maven/skins/fluido/README.md) | 2.0.0-M7 :warning: [:memo:](https://issues.apache.org/jira/browse/MSKINS-235) |
-| <!-- 20230711142029 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | 6.0.14 :warning: |
 | <!-- 20230710114759 --> [syncope](../content/org/apache/syncope/README.md) | 3.0.4 :warning: |
 | <!-- 20230701145904 --> [com.io7m.sunburst](../content/com/io7m/sunburst/README.md) | 0.0.6 :warning: |
 | <!-- 20230620223800 --> [xml-maven-plugin](../content/org/codehaus/mojo/xml-maven-plugin/README.md) | 1.1.0 :warning: |
@@ -106,7 +108,6 @@ New Releases To Add
 | <!-- 20230419112020 --> [io.wcm.handler.richtext](../content/io/wcm/io.wcm.handler/richtext/README.md) | 1.6.4 :warning: |
 | <!-- 20230412131318 --> [antisamy](../content/org/owasp/antisamy/README.md) | 1.7.3 :warning: |
 | <!-- 20230329020048 --> [hk2-parent](../content/org/glassfish/hk2/README.md) | 3.0.4 :warning: [:memo:](https://github.com/eclipse-ee4j/glassfish-hk2/pull/821) |
-| <!-- 20230322175007 --> [commons-compress](../content/org/apache/commons/compress/README.md) | 1.23.0 :warning: |
 | <!-- 20230308201336 --> [jline-parent](../content/org/jline/jline/README.md) | 3.23.0 :warning: |
 | <!-- 20230224162220 --> [decanter](../content/org/apache/karaf/decanter/README.md) | 2.10.0 :warning: |
 | <!-- 20230220144044 --> [org.apache.sling.i18n](../content/org/apache/sling/org.apache.sling.i18n/README.md) | 2.6.2 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-i18n/pull/10) |

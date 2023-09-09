@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.apache.commons:commons-compress:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.24.0](https://central.sonatype.com/artifact/org.apache.commons/commons-compress/1.24.0/pom) | | | |
 | [1.23.0](https://central.sonatype.com/artifact/org.apache.commons/commons-compress/1.23.0/pom) | [mvn jdk8](commons-compress-1.23.0.buildspec) | [result](commons-compress-1.23.0.buildinfo): [3 :heavy_check_mark:  2 :warning:](commons-compress-1.23.0.buildcompare) [:mag:](commons-compress-1.23.0.diffoscope) | 93M |
 | [1.22](https://central.sonatype.com/artifact/org.apache.commons/commons-compress/1.22/pom) | [mvn jdk8](commons-compress-1.22.buildspec) | [result](commons-compress-1.22.buildinfo): [3 :heavy_check_mark:  2 :warning:](commons-compress-1.22.buildcompare) [:mag:](commons-compress-1.22.diffoscope) | 93M |
 

@@ -3,8 +3,8 @@
   <groupId>org.apache.commons</groupId>
   <artifactId>commons-compress</artifactId>
   <versioning>
-    <latest>1.23.0</latest>
-    <release>1.23.0</release>
+    <latest>1.24.0</latest>
+    <release>1.24.0</release>
     <versions>
       <version>1.0</version>
       <version>1.1</version>
@@ -33,7 +33,8 @@
       <version>1.21</version>
       <version>1.22</version>
       <version>1.23.0</version>
+      <version>1.24.0</version>
     </versions>
-    <lastUpdated>20230322175007</lastUpdated>
+    <lastUpdated>20230908222901</lastUpdated>
   </versioning>
 </metadata>
