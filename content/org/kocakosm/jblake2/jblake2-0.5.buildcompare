@@ -1,7 +1,7 @@
 version=0.5
-ok=2
+ok=3
 ko=0
-okFiles="jblake2-0.5.pom jblake2-0.5.jar"
+okFiles="jblake2-0.5.pom jblake2-0.5.jar jblake2-0.5-sources.jar"
 koFiles=""
 reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"

@@ -28,3 +28,7 @@ outputs.0.checksums.sha512=80cf74847b6c27f32df1d6703e88f4a33ab5fe7bb48d46cf61a3e
 outputs.1.filename=jblake2-0.5.jar
 outputs.1.length=12174
 outputs.1.checksums.sha512=87f6d58867c85fbc5f8c5974821616715b0d6c5aed84e6a421fbe9513e94a86a12d923ffc6e49881fa438d9e8391798057607995d41f00ee8f036184df22b338
+
+outputs.2.filename=jblake2-0.5-sources.jar
+outputs.2.length=13379
+outputs.2.checksums.sha512=9c863d6593075dacf7902367b6cdc64490ad61d2c47b187a779c55fd40c38cb535cdeaf697b9b735fbc001bc0f91f04703f24521a6eca13725cfbed7fab14d34

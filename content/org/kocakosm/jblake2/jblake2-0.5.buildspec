@@ -9,7 +9,8 @@ gitTag=${version}
 tool=mvn
 jdk=17
 newline=lf
-command="mvn clean package -Dmaven.test.skip=true"
+umask=022
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 
 buildinfo=target/${artifactId}-${version}.buildinfo
 issue=
