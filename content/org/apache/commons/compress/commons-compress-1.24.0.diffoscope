@@ -1,0 +1,107 @@
+1 / 2 target/reference/commons-compress-1.24.0.jar target/commons-compress-1.24.0.jar
+--- target/reference/commons-compress-1.24.0.jar
++++ target/commons-compress-1.24.0.jar
+│┄ Format-specific differences are supported for ZIP archives but no file-specific differences were detected; falling back to a binary diff. file(1) reports: Zip archive data, at least v2.0 to extract, compression method=deflate
+│┄ Archive contents identical but files differ, possibly due to different compression levels. Falling back to binary comparison.
+@@ -62453,24 +62453,24 @@
+ 000f3f40: 4cb1 4dce cfcd cdcf 2bd6 05d2 0545 a9c5  L.M.....+....E..
+ 000f3f50: c55c e945 f9a5 0540 89fc a274 bdc4 82c4  .\.E...@...t....
+ 000f3f60: e48c 543d a81a aeb2 d4a2 e2cc fc3c 5b43  ..T=.........<[C
+ 000f3f70: 3d23 133d 032e 0050 4b03 040a 0000 0000  =#.=...PK.......
+ 000f3f80: 0023 451a 5700 0000 0000 0000 0000 0000  .#E.W...........
+ 000f3f90: 0012 0011 004d 4554 412d 494e 462f 7665  .....META-INF/ve
+ 000f3fa0: 7273 696f 6e73 2f55 540d 0007 e2f2 e964  rsions/UT......d
+-000f3fb0: b8d0 f564 b8d0 f564 504b 0304 0a00 0000  ...d...dPK......
++000f3fb0: 3870 fd64 3870 fd64 504b 0304 0a00 0000  8p.d8p.dPK......
+ 000f3fc0: 0000 2345 1a57 0000 0000 0000 0000 0000  ..#E.W..........
+ 000f3fd0: 0000 1400 1100 4d45 5441 2d49 4e46 2f76  ......META-INF/v
+ 000f3fe0: 6572 7369 6f6e 732f 392f 5554 0d00 07e2  ersions/9/UT....
+-000f3ff0: f2e9 64b8 d0f5 64b8 d0f5 6450 4b03 0414  ..d...d...dPK...
++000f3ff0: f2e9 6438 70fd 6438 70fd 6450 4b03 0414  ..d8p.d8p.dPK...
+ 000f4000: 0008 0808 0023 451a 5700 0000 0000 0000  .....#E.W.......
+ 000f4010: 0000 0000 0025 0011 004d 4554 412d 494e  .....%...META-IN
+ 000f4020: 462f 7665 7273 696f 6e73 2f39 2f6d 6f64  F/versions/9/mod
+ 000f4030: 756c 652d 696e 666f 2e63 6c61 7373 5554  ule-info.classUT
+-000f4040: 0d00 07e2 f2e9 64b8 d0f5 64b8 d0f5 649d  ......d...d...d.
++000f4040: 0d00 07e2 f2e9 6438 70fd 6438 70fd 649d  ......d8p.d8p.d.
+ 000f4050: 95d9 52d4 4014 86ff 1605 1144 20ed 82b8  ..R.@......D ...
+ 000f4060: 2120 7b02 c3aa a2e2 bee2 be2f 65f5 244d  ! {......../e.$M
+ 000f4070: 2643 b6ca c232 573c 9717 3e80 0f65 d939  &C...2W<..>..e.9
+ 000f4080: 30d4 5c4d 3266 aabe 74f5 fc7f f739 dd7d  0.\M2f..t....9.}
+ 000f4090: d27f fefe fa0d 6011 3f18 babc c04a 5d39  ......`.?....J]9
+ 000f40a0: e3f8 1b41 0718 c360 10d9 ba08 8559 91ba  ...A...`.....Y..
+ 000f40b0: 1978 5ee0 c7d9 3b8c 641c 6b68 6368 9fd3  .x^...;.d.khch..
+
+2 / 2 target/reference/commons-compress-1.24.0.spdx.json target/site/org.apache.commons_commons-compress-1.24.0.spdx.json
+--- target/reference/commons-compress-1.24.0.spdx.json
++++ target/site/org.apache.commons_commons-compress-1.24.0.spdx.json
+├── Pretty-printed
+│┄ Similarity: 0.802034662710368%
+│┄ Differences: {"'creationInfo'": "{'created': '2023-09-10T03:28:55Z'}",
+│┄  "'files'": "{0: {'checksums': {0: {'checksumValue': 'aa1acc9486d7fca8540990093aaef34808a0bcd6'}}, "
+│┄             "'fileName': "
+│┄             "'./src/main/java/org/apache/commons/compress/java/util/jar/Pack200.java'}, 1: "
+│┄             "{'checksums': {0: {'checksumValue': '170057e451f6899bd7dd45678a9132dc7271093a'}}, "
+│┄             "'fileName': "
+│┄             "'./src/main/java/org/apache/commons/compress/java/util/jar/package-info.java'}, 2: "
+│┄             […]
+│ @@ -1,7225 +1,7193 @@
+│  {
+│      "SPDXID": "SPDXRef-DOCUMENT",
+│ -    "annotations": [
+│ -        {
+│ -            "annotationDate": "2023-09-04T08:42:31Z",
+│ -            "annotationType": "OTHER",
+│ -            "annotator": "Tool: spdx-maven-plugin",
+│ -            "comment": "External document ref 'DocumentRef-commons-iocommons-io2.13.0' created for artifact commons-iocommons-io2.13.0"
+│ -        },
+│ -        {
+│ -            "annotationDate": "2023-09-04T08:42:31Z",
+│ -            "annotationType": "OTHER",
+│ -            "annotator": "Tool: spdx-maven-plugin",
+│ -            "comment": "External document ref 'DocumentRef-org.apache.commonscommons-lang33.13.0' created for artifact org.apache.commonscommons-lang33.13.0"
+│ -        }
+│ -    ],
+│      "creationInfo": {
+│ -        "created": "2023-09-04T08:42:30Z",
+│ +        "created": "2023-09-10T03:28:55Z",
+│          "creators": [
+│              "Tool: spdx-maven-plugin"
+│          ],
+│          "licenseListVersion": "3.21"
+│      },
+│      "dataLicense": "CC0-1.0",
+│      "documentNamespace": "http://spdx.org/spdxpackages/org.apache.commons_commons-compress-1.24.0",
+│ -    "externalDocumentRefs": [
+│ -        {
+│ -            "checksum": {
+│ -                "algorithm": "SHA1",
+│ -                "checksumValue": "85223a3bc1d3769304b3f3e4f2807c52ae1f4c4a"
+│ -            },
+│ -            "externalDocumentId": "DocumentRef-commons-iocommons-io2.13.0",
+│ -            "spdxDocument": "http://spdx.org/spdxpackages/commons-io_commons-io-2.13.0"
+│ -        },
+│ -        {
+│ -            "checksum": {
+│ -                "algorithm": "SHA1",
+│ -                "checksumValue": "c2c60a82462af2dcffd9b5ea7877205d8c489235"
+│ -            },
+│ -            "externalDocumentId": "DocumentRef-org.apache.commonscommons-lang33.13.0",
+│ -            "spdxDocument": "http://spdx.org/spdxpackages/Apache%20Commons%20Lang-3.13.0"
+│ -        }
+│ -    ],
+│      "files": [
+│          {
+│              "SPDXID": "SPDXRef-gnrtd1",
+│              "checksums": [
+│                  {
+│                      "algorithm": "SHA1",
+│ -                    "checksumValue": "46369d5d10491e115c5c58b8620c4e5b58ca0b31"
+│ +                    "checksumValue": "aa1acc9486d7fca8540990093aaef34808a0bcd6"
+│                  }
+│              ],
+│              "copyrightText": "NOASSERTION",
+│ -            "fileName": "./src/main/java/org/apache/commons/compress/parallel/ScatterGatherBackingStoreSupplier.java",
+│ +            "fileName": "./src/main/java/org/apache/commons/compress/java/util/jar/Pack200.java",
+│              "fileTypes": [
+...
