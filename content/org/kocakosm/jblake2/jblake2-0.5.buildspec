@@ -1,0 +1,15 @@
+groupId=org.kocakosm
+artifactId=jblake2
+version=0.5
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/kocakosm/jblake2.git
+gitTag=${version}
+
+tool=mvn
+jdk=17
+newline=lf
+command="mvn clean package -Dmaven.test.skip=true"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+issue=

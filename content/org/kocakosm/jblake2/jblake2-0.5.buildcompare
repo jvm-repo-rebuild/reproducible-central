@@ -1,0 +1,7 @@
+version=0.5
+ok=2
+ko=0
+okFiles="jblake2-0.5.pom jblake2-0.5.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
