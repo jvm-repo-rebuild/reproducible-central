@@ -1,0 +1,30 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JBlake2
+group-id=org.kocakosm
+artifact-id=jblake2
+version=0.5
+
+# source information
+source.scm.uri=scm:git:https://github.com/kocakosm/jblake2.git
+source.scm.tag=0.5
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=jblake2-0.5.pom
+outputs.0.length=7571
+outputs.0.checksums.sha512=80cf74847b6c27f32df1d6703e88f4a33ab5fe7bb48d46cf61a3e6e03c841188975c74c32edb3de32cc152f9a4d62880f27980ea8aec8872bd01482c3ee54f9c
+
+outputs.1.filename=jblake2-0.5.jar
+outputs.1.length=12174
+outputs.1.checksums.sha512=87f6d58867c85fbc5f8c5974821616715b0d6c5aed84e6a421fbe9513e94a86a12d923ffc6e49881fa438d9e8391798057607995d41f00ee8f036184df22b338
