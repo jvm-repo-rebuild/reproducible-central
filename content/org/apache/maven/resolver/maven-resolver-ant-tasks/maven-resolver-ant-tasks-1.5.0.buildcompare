@@ -1,0 +1,7 @@
+version=1.5.0
+ok=7
+ko=0
+okFiles="maven-resolver-ant-tasks-1.5.0.pom maven-resolver-ant-tasks-1.5.0.jar maven-resolver-ant-tasks-1.5.0-source-release.zip maven-resolver-ant-tasks-1.5.0-sources.jar maven-resolver-ant-tasks-1.5.0-cyclonedx.xml maven-resolver-ant-tasks-1.5.0-cyclonedx.json maven-resolver-ant-tasks-1.5.0-uber.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
