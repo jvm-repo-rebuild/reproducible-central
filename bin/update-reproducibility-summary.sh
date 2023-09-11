@@ -16,6 +16,7 @@ prevGroupId=
 stats="tmp/stats.txt"
 echo -n > $stats
 
+# use content of "ignore" file to skip some versions
 function keepVersion() {
   local dir=$1
   local version=$2
@@ -38,18 +39,12 @@ do
 done | sort -k 2 | while read -r p ; do echo "${p##* }/${p% *}/maven-metadata.xml"; done > maven-metadata
 for metadata in `cat maven-metadata`
 do
+  dir="$(dirname "${metadata}")"
   groupId=$(cat "${metadata}" | grep 'groupId>' | cut -d '>' -f 2 | cut -d '<' -f 1)
   artifactId=$(cat "${metadata}" | grep 'artifactId>' | cut -d '>' -f 2 | cut -d '<' -f 1)
+
+  # update maven-metadata.xml with content from Maven Central
   curl -s --fail https://repo.maven.apache.org/maven2/$(echo ${groupId} | tr '.' '/')/${artifactId}/maven-metadata.xml --output ${metadata}
-
-  dir="$(dirname "${metadata}")"
-  projectReadme="${dir}/README.md"
-  \rm -f ${projectReadme}
-  mkdir -p tmp/${dir}
-  echo -n > tmp/${projectReadme}
-
-  countVersion=0
-  countVersionOk=0
 
   # detect oldest and newest versions that have a buildspec
   oldestBuildspecVersion=
@@ -74,6 +69,17 @@ do
   done
   latestVersion="$(cat "${metadata}" | grep 'latest>' | cut -d '>' -f 2 | cut -d '<' -f 1)"
   lastUpdated="$(cat "${metadata}" | grep 'lastUpdated>' | cut -d '>' -f 2 | cut -d '<' -f 1)"
+
+  #
+  # render project's README.md with results for every release
+  #
+  projectReadme="${dir}/README.md"
+  \rm -f ${projectReadme}
+  mkdir -p tmp/${dir}
+  echo -n > tmp/${projectReadme}
+
+  countVersion=0
+  countVersionOk=0
 
   for version in $(tac "${metadata}" | grep 'version>' | cut -d '>' -f 2 | cut -d '<' -f 1)
   do
@@ -168,14 +174,14 @@ do
 
   # add project entry to main README
   echo -n "|" >> ${summary}
-  [[ "$groupId" != "$prevGroupId" ]] && prevGroupId="$groupId" && echo -n " ${groupId}" >> ${summary}
-  echo -n " | <a name='${groupId}:${artifactId}'></a>" >> ${summary}
   if [ "$artifactId" == "$groupId" ]
   then
-    echo -n "[${artifactId}]" >> ${summary}
-  else
-    echo -n "[${artifactId}]" | sed -e "s/$groupId/*/" >> ${summary}
+    # for example com.io7m.*
+    groupId="${groupId%.*}"
   fi
+  [[ "$groupId" != "$prevGroupId" ]] && prevGroupId="$groupId" && echo -n " ${groupId}" >> ${summary}
+  echo -n " | <a name='${groupId}:${artifactId}'></a>" >> ${summary}
+  echo -n "[${artifactId}]" | sed -e "s/^$groupId/*/" >> ${summary}
   echo -n "(${dir}/README.md) | ${countVersion} | " >> ${summary}
   if [ "${countVersionOk}" == "0" ]
   then
