@@ -1,0 +1,7 @@
+version=3.0.0
+ok=4
+ko=0
+okFiles="plexus-xml-3.0.0.pom plexus-xml-3.0.0.jar plexus-xml-3.0.0-source-release.zip plexus-xml-3.0.0-sources.jar"
+koFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
