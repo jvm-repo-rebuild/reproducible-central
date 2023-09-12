@@ -1,0 +1,7 @@
+version=2.2.3
+ok=38
+ko=0
+okFiles="mina-parent-2.2.3.pom mina-parent-2.2.3-source-release.zip mina-legal-2.2.3.pom mina-legal-2.2.3.jar mina-legal-2.2.3-sources.jar mina-core-2.2.3.pom mina-core-2.2.3.jar mina-core-2.2.3-sources.jar mina-transport-apr-2.2.3.pom mina-transport-apr-2.2.3.jar mina-transport-apr-2.2.3-sources.jar mina-filter-compression-2.2.3.pom mina-filter-compression-2.2.3.jar mina-filter-compression-2.2.3-sources.jar mina-statemachine-2.2.3.pom mina-statemachine-2.2.3.jar mina-statemachine-2.2.3-sources.jar mina-integration-beans-2.2.3.pom mina-integration-beans-2.2.3.jar mina-integration-beans-2.2.3-sources.jar mina-integration-xbean-2.2.3.pom mina-integration-xbean-2.2.3.jar mina-integration-xbean-2.2.3.xsd mina-integration-xbean-2.2.3-schema.html mina-integration-xbean-2.2.3-sources.jar mina-integration-xbean-2.2.3.xsd.html mina-integration-ognl-2.2.3.pom mina-integration-ognl-2.2.3.jar mina-integration-ognl-2.2.3-sources.jar mina-integration-jmx-2.2.3.pom mina-integration-jmx-2.2.3.jar mina-integration-jmx-2.2.3-sources.jar mina-example-2.2.3.pom mina-example-2.2.3.jar mina-example-2.2.3-sources.jar mina-http-2.2.3.pom mina-http-2.2.3.jar mina-http-2.2.3-sources.jar"
+koFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
