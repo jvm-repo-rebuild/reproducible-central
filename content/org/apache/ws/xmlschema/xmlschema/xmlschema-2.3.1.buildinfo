@@ -1,0 +1,74 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=XmlSchema
+group-id=org.apache.ws.xmlschema
+artifact-id=xmlschema
+version=2.3.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/ws-xmlschema.git
+source.scm.tag=xmlschema-2.3.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.7
+mvn.aggregate.artifact-id=xmlschema-walker
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.ws.xmlschema:xmlschema
+
+outputs.0.0.filename=xmlschema-2.3.1.pom
+outputs.0.0.length=31358
+outputs.0.0.checksums.sha512=9a29c9f2271f3ab98ac8841cba75dd2be28f780e48ef0cf698fe08eb2bf9b63e7d99d033c3d522553e87580d51fdb5dc0abd1622f839cfd37259a054f71e506f
+
+outputs.0.1.filename=xmlschema-2.3.1-site.xml
+outputs.0.1.length=2589
+outputs.0.1.checksums.sha512=54a1068d8d13fbd6c7b4994fcc05e94b92452cdbc8a96954c9e145a8f07060716bdd2f24b35de5f0f655f38c266422af174da845b88a45db8921f84bbe78c7bd
+
+outputs.0.2.filename=xmlschema-2.3.1-source-release.zip
+outputs.0.2.length=14022241
+outputs.0.2.checksums.sha512=0ee22f1c30198d81e47cf1f9729d258e18ed4d0293f2684f1aafda0d918b823bff46f931c754fbe72c9cad98baf954aed59d8e34618a4d16061843e87a68d5aa
+
+outputs.1.coordinates=org.apache.ws.xmlschema:xmlschema-core
+
+outputs.1.0.filename=xmlschema-core-2.3.1.pom
+outputs.1.0.length=6857
+outputs.1.0.checksums.sha512=105c95e95741fec07f26c18b82b1163630b47083a3588d8679484f119984bdc4338e092cdceb1fee79c4dec322049590620977b1928a1c545b3330e4a0e8a1f3
+
+outputs.1.1.filename=xmlschema-core-2.3.1.jar
+outputs.1.1.length=173439
+outputs.1.1.checksums.sha512=e08630e6f6fbe2b960a7c161ddff46e135566bcb1dd2aaf3707ac01a843fb462ac1c7eeb830aca7fc88cbe3ffadc235adac07ec019e166050860ed73d249c21f
+
+outputs.1.2.filename=xmlschema-core-2.3.1-sources.jar
+outputs.1.2.length=162843
+outputs.1.2.checksums.sha512=770deaa2a7b18b074da39dd9b494a01e819f36126d0eb98c59ca9a8718aac5b5b723c3b9692b0b027985ec88b36e741bde346a6cde6843714e840df088a3ea30
+
+outputs.1.3.filename=xmlschema-core-2.3.1-sources.jar
+outputs.1.3.length=162843
+outputs.1.3.checksums.sha512=770deaa2a7b18b074da39dd9b494a01e819f36126d0eb98c59ca9a8718aac5b5b723c3b9692b0b027985ec88b36e741bde346a6cde6843714e840df088a3ea30
+
+outputs.2.coordinates=org.apache.ws.xmlschema:xmlschema-walker
+
+outputs.2.0.filename=xmlschema-walker-2.3.1.pom
+outputs.2.0.length=1493
+outputs.2.0.checksums.sha512=c66de97fd2bbaf04a49d4c9d9486bcd8d0dcb529a84e4065c1b3b6c16b665aafec2a3de2434934fdaca39e6dd6df43865613e2e3d1ea1f5e2d76f914f055ca73
+
+outputs.2.1.filename=xmlschema-walker-2.3.1.jar
+outputs.2.1.length=103968
+outputs.2.1.checksums.sha512=6bb71ab89fd9842607937ed9782860d262243b256206da8348f39f11e611ba172a792e1c1af8b3e9cc91f2a09b73dce36846973dbceb1589e048c94ed7c5fcf5
+
+outputs.2.2.filename=xmlschema-walker-2.3.1-sources.jar
+outputs.2.2.length=76527
+outputs.2.2.checksums.sha512=4920009f7ee6c470be9423d98205ec62f001304eedaa6feca3a959f54ec93432b9c780a5ad368b867de0b617e33f48d9dfe7c68754ca7b363bdad8da41f23fa5
+
+outputs.2.3.filename=xmlschema-walker-2.3.1-sources.jar
+outputs.2.3.length=76527
+outputs.2.3.checksums.sha512=4920009f7ee6c470be9423d98205ec62f001304eedaa6feca3a959f54ec93432b9c780a5ad368b867de0b617e33f48d9dfe7c68754ca7b363bdad8da41f23fa5

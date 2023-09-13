@@ -1,0 +1,5 @@
+version=2.3.1
+ok=9
+ko=0
+okFiles="xmlschema-2.3.1.pom xmlschema-2.3.1-site.xml xmlschema-2.3.1-source-release.zip xmlschema-core-2.3.1.pom xmlschema-core-2.3.1.jar xmlschema-core-2.3.1-sources.jar xmlschema-walker-2.3.1.pom xmlschema-walker-2.3.1.jar xmlschema-walker-2.3.1-sources.jar"
+koFiles=""
