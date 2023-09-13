@@ -3,8 +3,8 @@
   <groupId>org.apache.struts</groupId>
   <artifactId>struts2-parent</artifactId>
   <versioning>
-    <latest>6.3.0</latest>
-    <release>6.3.0</release>
+    <latest>6.3.0.1</latest>
+    <release>6.3.0.1</release>
     <versions>
       <version>2.0.5</version>
       <version>2.0.6</version>
@@ -90,14 +90,17 @@
       <version>2.5.29</version>
       <version>2.5.30</version>
       <version>2.5.31</version>
+      <version>2.5.32</version>
       <version>6.0.0</version>
       <version>6.0.3</version>
       <version>6.1.1</version>
       <version>6.1.2</version>
       <version>6.1.2.1</version>
+      <version>6.1.2.2</version>
       <version>6.2.0</version>
       <version>6.3.0</version>
+      <version>6.3.0.1</version>
     </versions>
-    <lastUpdated>20230904141139</lastUpdated>
+    <lastUpdated>20230913131240</lastUpdated>
   </versioning>
 </metadata>
