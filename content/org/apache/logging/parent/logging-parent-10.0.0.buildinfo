@@ -1,0 +1,26 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Logging Services parent project
+group-id=org.apache.logging
+artifact-id=logging-parent
+version=10.0.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:apache/logging-parent.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=logging-parent-10.0.0.pom
+outputs.0.length=28864
+outputs.0.checksums.sha512=4d44afa68c20b94fa35215c865868649c5524e188789c71e0121881d077a94027f789aa2e52c337bc12579819334ebc6205ea4912a8615cbc8e0ba7dc618a192
