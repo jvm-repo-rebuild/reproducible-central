@@ -36,6 +36,7 @@ then
   info "Fetching source code from Git \033[1m${gitRepo}\033[0m on tag \033[1m${gitTag}\033[0m"
   [ -d ${artifactId} ] || git clone ${gitRepo} ${artifactId} || fatal "failed to clone ${artifactId}"
   cd ${artifactId}
+  pwd
 
   # check and update permissions vs umask configured in buildspec
   stat=$(stat -c "%a" .)
@@ -52,10 +53,10 @@ then
 
   runcommand git remote -v
   runlog "git fetch"
-  git fetch || fatal "failed to git fetch"
+  git fetch --tags || fatal "failed to git fetch"
 
   runlog "git checkout -f ${gitTag}"
-  git checkout -f ${gitTag} || fatal "failed to git checkout ${gitTag}"
+  git checkout -f ${gitTag} || (git tag --list && fatal "failed to git checkout ${gitTag}")
   if [ "${newline}" == "crlf" ]
   then
     echo "converting newlines to crlf"
