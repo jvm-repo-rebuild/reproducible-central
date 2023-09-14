@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2510 releases** of **531 projects**:
-   - **1947** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 563 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **2512 releases** of **531 projects**:
+   - **1948** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 564 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 531 projects, 420 have at least one fully reproducible release, 111 have none
 
 <!-- END GENERATED INTRO -->
@@ -32,7 +32,7 @@ Its objectives are to provide:
 | com.corgibytes | <a name='com.corgibytes:mrm'></a>[mrm](content/com/corgibytes/mrm/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='com.corgibytes:versions-maven-plugin'></a>[versions-maven-plugin](content/com/corgibytes/versions-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | com.fasterxml | <a name='com.fasterxml:oss-parent'></a>[oss-parent](content/com/fasterxml/oss-parent/README.md) | 9 | 9 :heavy_check_mark: |
-| com.fasterxml.uuid | <a name='com.fasterxml.uuid:java-uuid-generator'></a>[java-uuid-generator](content/com/fasterxml/uuid/README.md) | 1 | 1 :warning: |
+| com.fasterxml.uuid | <a name='com.fasterxml.uuid:java-uuid-generator'></a>[java-uuid-generator](content/com/fasterxml/uuid/README.md) | 2 | 2 :warning: |
 | com.fasterxml.jackson.core | <a name='com.fasterxml.jackson.core:jackson-annotations'></a>[jackson-annotations](content/com/fasterxml/jackson/annotations/README.md) | 4 | 4 :warning: |
 | | <a name='com.fasterxml.jackson.core:jackson-core'></a>[jackson-core](content/com/fasterxml/jackson/core/README.md) | 4 | 1 :heavy_check_mark: / 3 :warning: |
 | | <a name='com.fasterxml.jackson.core:jackson-databind'></a>[jackson-databind](content/com/fasterxml/jackson/databind/README.md) | 5 | 5 :warning: |
@@ -241,7 +241,7 @@ Its objectives are to provide:
 | org.apache.shiro | <a name='org.apache.shiro:shiro-root'></a>[shiro-root](content/org/apache/shiro/README.md) | 6 | 6 :warning: |
 | org.apache.sis | <a name='org.apache.sis:parent'></a>[parent](content/org/apache/sis/README.md) | 1 | 1 :warning: |
 | org.apache.sshd | <a name='org.apache.sshd:sshd'></a>[sshd](content/org/apache/sshd/README.md) | 3 | 3 :warning: |
-| org.apache.struts | <a name='org.apache.struts:struts2-parent'></a>[struts2-parent](content/org/apache/struts/README.md) | 7 | 1 :heavy_check_mark: / 6 :warning: |
+| org.apache.struts | <a name='org.apache.struts:struts2-parent'></a>[struts2-parent](content/org/apache/struts/README.md) | 8 | 2 :heavy_check_mark: / 6 :warning: |
 | org.apache.synapse | <a name='org.apache.synapse:Apache-Synapse'></a>[Apache-Synapse](content/org/apache/synapse/README.md) | 1 | 1 :warning: |
 | org.apache.syncope | <a name='org.apache.syncope:syncope'></a>[syncope](content/org/apache/syncope/README.md) | 4 | 4 :warning: |
 | org.apache.systemds | <a name='org.apache.systemds:systemds'></a>[systemds](content/org/apache/systemds/README.md) | 1 | 1 :warning: |
@@ -554,7 +554,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 23 | 23 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **531** | **2510** | **1947** :heavy_check_mark: **563** :warning: |
+| **Count:** | **531** | **2512** | **1948** :heavy_check_mark: **564** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -566,7 +566,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      22 gradle     11
      26 mvn         7
-    972 mvn         8
+    973 mvn         8
       1 mvn         9
     779 mvn        11
       1 mvn        11.0.19
@@ -586,7 +586,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      13 mvn-3.8.5  11
       8 mvn-3.8.5  17
       1 mvn-3.8.5  17.0.3
-     31 mvn-3.8.6   8
+     32 mvn-3.8.6   8
       2 mvn-3.8.6  11
      35 mvn-3.8.6  17
       2 mvn-3.8.6  18

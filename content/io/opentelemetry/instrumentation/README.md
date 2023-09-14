@@ -309,6 +309,7 @@ rebuilding **2 releases** of io.opentelemetry.instrumentation:opentelemetry-inst
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.30.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.30.0/pom) | | | |
 | [1.29.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.29.0/pom) | | | |
 | [1.28.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.28.0/pom) | | | |
 | [1.27.0](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.27.0/pom) | | | |
