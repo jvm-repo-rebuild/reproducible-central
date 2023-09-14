@@ -1,0 +1,16 @@
+1 / 1 target/reference/java-uuid-generator-4.3.0.jar target/java-uuid-generator-4.3.0.jar
+--- target/reference/java-uuid-generator-4.3.0.jar
++++ target/java-uuid-generator-4.3.0.jar
+├── zipinfo {}
+│ @@ -41,9 +41,9 @@
+│  -rw----     2.0 fat     1792 bX defN 80-Feb-01 08:00 com/fasterxml/uuid/impl/RandomBasedGenerator.class
+│  -rw----     2.0 fat     2873 bX defN 80-Feb-01 08:00 com/fasterxml/uuid/impl/TimeBasedEpochGenerator.class
+│  -rw----     2.0 fat     1967 bX defN 80-Feb-01 08:00 com/fasterxml/uuid/impl/TimeBasedGenerator.class
+│  -rw----     2.0 fat     2207 bX defN 80-Feb-01 08:00 com/fasterxml/uuid/impl/TimeBasedReorderedGenerator.class
+│  -rw----     2.0 fat     5775 bX defN 80-Feb-01 08:00 com/fasterxml/uuid/impl/UUIDUtil.class
+│  -rw----     2.0 fat      129 bX defN 80-Feb-01 08:00 com/fasterxml/uuid/impl/package-info.class
+│  -rw----     2.0 fat      124 bX defN 80-Feb-01 08:00 com/fasterxml/uuid/package-info.class
+│ --rw----     2.0 fat      211 bx defN 23-Sep-13 00:46 module-info.class
+│ +-rw----     2.0 fat      211 bx defN 23-Sep-14 14:37 module-info.class
+│  47 files, 91960 bytes uncompressed, 44698 bytes compressed:  51.4%
+

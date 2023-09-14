@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Java UUID Generator
+group-id=com.fasterxml.uuid
+artifact-id=java-uuid-generator
+version=4.3.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/cowtowncoder/java-uuid-generator.git
+source.scm.tag=java-uuid-generator-4.3.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=java-uuid-generator-4.3.0.pom
+outputs.0.length=8302
+outputs.0.checksums.sha512=2c4bb8dad13ceb444cdd7ac3a33475840a37ba2485c23ab6de6003012d048b34fc2c82c29ce9a95fb15312c2cbbf2ab00567c4a286087079f8ca8d9a7240a8ba
+
+outputs.1.filename=java-uuid-generator-4.3.0.jar
+outputs.1.length=53102
+outputs.1.checksums.sha512=0c74e97338ddb2491e00f3f07793985c9a436e48d44c332b6105b3103cec35ed01c0f52c831b7a86ab80c5ecf549d0b85e47057e8da24c3d42e88eec4fa6b4e4
+
+outputs.2.filename=java-uuid-generator-4.3.0-sources.jar
+outputs.2.length=54533
+outputs.2.checksums.sha512=9f79336db70e9da4e309779e6838611a3b2e7cc000b76bb77db77321610b40a130661d68704dbee0e2813d3fdeef3e681265f0265267a81bcbf9249e348d7ef7
