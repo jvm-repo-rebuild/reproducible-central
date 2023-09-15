@@ -13,6 +13,7 @@ rebuilding **6 releases** of io.cucumber:gherkin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [27.0.0](https://central.sonatype.com/artifact/io.cucumber/gherkin/27.0.0/pom) | | | |
 | [26.2.0](https://central.sonatype.com/artifact/io.cucumber/gherkin/26.2.0/pom) | [mvn jdk11](gherkin-26.2.0.buildspec) | [result](gherkin-26.2.0.buildinfo): [3 :heavy_check_mark: ](gherkin-26.2.0.buildcompare) | 153K |
 | [26.1.0](https://central.sonatype.com/artifact/io.cucumber/gherkin/26.1.0/pom) | [mvn jdk11](gherkin-26.1.0.buildspec) | [result](gherkin-26.1.0.buildinfo): [3 :heavy_check_mark: ](gherkin-26.1.0.buildcompare) | 153K |
 | [26.0.3](https://central.sonatype.com/artifact/io.cucumber/gherkin/26.0.3/pom) | [mvn jdk11](gherkin-26.0.3.buildspec) | [result](gherkin-26.0.3.buildinfo): [3 :heavy_check_mark: ](gherkin-26.0.3.buildcompare) | 152K |
