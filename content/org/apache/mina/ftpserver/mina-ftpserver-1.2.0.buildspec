@@ -1,0 +1,18 @@
+groupId=org.apache.ftpserver
+artifactId=ftpserver-parent
+version=1.2.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/apache/mina-ftpserver.git
+gitTag=${version}
+
+tool=mvn-3.9.3
+jdk=8
+newline=lf
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=
+issue=https://github.com/apache/mina-ftpserver/pull/13

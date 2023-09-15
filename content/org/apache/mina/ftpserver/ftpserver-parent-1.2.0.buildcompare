@@ -1,0 +1,14 @@
+version=1.2.0
+ok=18
+ko=7
+okFiles="ftpserver-parent-1.2.0.pom ftpserver-parent-1.2.0-source-release.zip ftplet-api-1.2.0.pom ftplet-api-1.2.0.jar ftplet-api-1.2.0-sources.jar ftpserver-core-1.2.0.pom ftpserver-core-1.2.0-sources.jar ftpserver-spring-war-1.2.0.pom ftpserver-spring-war-1.2.0-sources.jar ftpserver-osgi-ftplet-service-1.2.0.pom ftpserver-osgi-ftplet-service-1.2.0-sources.jar ftpserver-osgi-spring-service-1.2.0.pom ftpserver-osgi-spring-service-1.2.0-sources.jar ftpserver-examples-1.2.0.pom ftpserver-1.2.0.pom ftpserver-1.2.0-src.zip ftpserver-1.2.0-src.tar.gz ftpserver-1.2.0-src.tar.bz2"
+koFiles="ftpserver-core-1.2.0.jar ftpserver-spring-war-1.2.0.war ftpserver-osgi-ftplet-service-1.2.0.jar ftpserver-osgi-spring-service-1.2.0.jar ftpserver-1.2.0-bin.zip ftpserver-1.2.0-bin.tar.gz ftpserver-1.2.0-bin.tar.bz2"
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/ftpserver-core-1.2.0.jar core/target/ftpserver-core-1.2.0.jar
+# diffoscope target/reference/ftpserver-spring-war-1.2.0.war examples/ftpserver-example-spring-war/target/ftpserver-spring-war.war
+# diffoscope target/reference/ftpserver-osgi-ftplet-service-1.2.0.jar examples/ftpserver-osgi-ftplet-service/target/ftpserver-osgi-ftplet-service-1.2.0.jar
+# diffoscope target/reference/ftpserver-osgi-spring-service-1.2.0.jar examples/ftpserver-osgi-spring-service/target/ftpserver-osgi-spring-service-1.2.0.jar
+# diffoscope target/reference/ftpserver-1.2.0-bin.zip distribution/target/apache-ftpserver-1.2.0-bin.zip
+# diffoscope target/reference/ftpserver-1.2.0-bin.tar.gz distribution/target/apache-ftpserver-1.2.0-bin.tar.gz
+# diffoscope target/reference/ftpserver-1.2.0-bin.tar.bz2 distribution/target/apache-ftpserver-1.2.0-bin.tar.bz2
