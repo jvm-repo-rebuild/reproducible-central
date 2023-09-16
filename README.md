@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2516 releases** of **531 projects**:
-   - **1950** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 566 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **2522 releases** of **531 projects**:
+   - **1955** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 567 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 531 projects, 420 have at least one fully reproducible release, 111 have none
 
 <!-- END GENERATED INTRO -->
@@ -163,7 +163,7 @@ Its objectives are to provide:
 | io.liftwizard | <a name='io.liftwizard:liftwizard'></a>[liftwizard](content/io/liftwizard/README.md) | 42 | 42 :heavy_check_mark: |
 | io.cucumber | <a name='io.cucumber:cucumber-expressions'></a>[cucumber-expressions](content/io/cucumber/cucumber-expressions/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='io.cucumber:cucumber-jvm'></a>[cucumber-jvm](content/io/cucumber/cucumber-jvm/README.md) | 9 | 9 :heavy_check_mark: |
-| | <a name='io.cucumber:gherkin'></a>[gherkin](content/io/cucumber/gherkin/README.md) | 6 | 6 :heavy_check_mark: |
+| | <a name='io.cucumber:gherkin'></a>[gherkin](content/io/cucumber/gherkin/README.md) | 7 | 7 :heavy_check_mark: |
 | | <a name='io.cucumber:gherkin-utils'></a>[gherkin-utils](content/io/cucumber/gherkin-utils/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='io.cucumber:html-formatter'></a>[html-formatter](content/io/cucumber/html-formatter/README.md) | 1 | 1 :warning: |
 | | <a name='io.cucumber:junit-xml-formatter'></a>[junit-xml-formatter](content/io/cucumber/junit-xml-formatter/README.md) | 2 | 2 :heavy_check_mark: |
@@ -212,7 +212,7 @@ Its objectives are to provide:
 | net.sourceforge.pmd | <a name='net.sourceforge.pmd:pmd'></a>[pmd](content/net/sourceforge/pmd/README.md) | 34 | 31 :heavy_check_mark: / 3 :warning: |
 | | <a name='net.sourceforge.pmd:pmd-build-tools-config'></a>[pmd-build-tools-config](content/net/sourceforge/pmd/pmd-build-tools-config/README.md) | 4 | 4 :heavy_check_mark: |
 | nl.basjes.energy | <a name='nl.basjes.energy:energy-parent'></a>[energy-parent](content/nl/basjes/energy/README.md) | 1 | 1 :heavy_check_mark: |
-| nl.basjes.maven.release | <a name='nl.basjes.maven.release:conventional-commits-version-policy'></a>[conventional-commits-version-policy](content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | 1 | 1 :heavy_check_mark: |
+| nl.basjes.maven.release | <a name='nl.basjes.maven.release:conventional-commits-version-policy'></a>[conventional-commits-version-policy](content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | 4 | 4 :heavy_check_mark: |
 | nl.basjes.parse.httpdlog | <a name='nl.basjes.parse.httpdlog:httpdlog-parser'></a>[httpdlog-parser](content/nl/basjes/parse/httpdlog/httpdlog-parser/README.md) | 2 | 2 :heavy_check_mark: |
 | nl.basjes.parse.useragent | <a name='nl.basjes.parse.useragent:yauaa'></a>[yauaa](content/nl/basjes/parse/useragent/yauaa/README.md) | 11 | 10 :heavy_check_mark: / 1 :warning: |
 | nl.hsac | <a name='nl.hsac:hsac-fitnesse-fixtures'></a>[hsac-fitnesse-fixtures](content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 63 | 52 :heavy_check_mark: / 11 :warning: |
@@ -310,7 +310,7 @@ Its objectives are to provide:
 | | <a name='org.apache.maven.plugins:maven-install-plugin'></a>[maven-install-plugin](content/org/apache/maven/plugins/maven-install-plugin/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-invoker-plugin'></a>[maven-invoker-plugin](content/org/apache/maven/plugins/maven-invoker-plugin/README.md) | 6 | 6 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-jar-plugin'></a>[maven-jar-plugin](content/org/apache/maven/plugins/maven-jar-plugin/README.md) | 3 | 3 :heavy_check_mark: |
-| | <a name='org.apache.maven.plugins:maven-javadoc-plugin'></a>[maven-javadoc-plugin](content/org/apache/maven/plugins/maven-javadoc-plugin/README.md) | 7 | 5 :heavy_check_mark: / 2 :warning: |
+| | <a name='org.apache.maven.plugins:maven-javadoc-plugin'></a>[maven-javadoc-plugin](content/org/apache/maven/plugins/maven-javadoc-plugin/README.md) | 8 | 5 :heavy_check_mark: / 3 :warning: |
 | | <a name='org.apache.maven.plugins:maven-jlink-plugin'></a>[maven-jlink-plugin](content/org/apache/maven/plugins/maven-jlink-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-pdf-plugin'></a>[maven-pdf-plugin](content/org/apache/maven/plugins/maven-pdf-plugin/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-pmd-plugin'></a>[maven-pmd-plugin](content/org/apache/maven/plugins/maven-pmd-plugin/README.md) | 8 | 8 :heavy_check_mark: |
@@ -539,7 +539,7 @@ Its objectives are to provide:
 | org.sonatype.nexus.archetypes | <a name='org.sonatype.nexus.archetypes:nexus-format-archetype'></a>[nexus-format-archetype](content/org/sonatype/nexus/archetypes/nexus-format-archetype/README.md) | 5 | 5 :heavy_check_mark: |
 | org.spdx | <a name='org.spdx:spdx-maven-plugin'></a>[spdx-maven-plugin](content/org/spdx/spdx-maven-plugin/README.md) | 2 | 2 :warning: |
 | org.tomitribe.transformer | <a name='org.tomitribe.transformer:org.eclipse.transformer.parent'></a>[org.eclipse.transformer.parent](content/org/tomitribe/transformer/README.md) | 2 | 2 :heavy_check_mark: |
-| org.webjars | <a name='org.webjars:bootstrap'></a>[bootstrap](content/org/webjars/bootstrap/README.md) | 6 | 6 :heavy_check_mark: |
+| org.webjars | <a name='org.webjars:bootstrap'></a>[bootstrap](content/org/webjars/bootstrap/README.md) | 7 | 7 :heavy_check_mark: |
 | | <a name='org.webjars:flexmonster'></a>[flexmonster](content/org/webjars/flexmonster/README.md) | 40 | 37 :heavy_check_mark: / 3 :warning: |
 | | <a name='org.webjars:font-awesome'></a>[font-awesome](content/org/webjars/font-awesome/README.md) | 5 | 5 :heavy_check_mark: |
 | | <a name='org.webjars:highcharts'></a>[highcharts](content/org/webjars/highcharts/README.md) | 2 | 2 :heavy_check_mark: |
@@ -554,7 +554,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 24 | 24 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **531** | **2516** | **1950** :heavy_check_mark: **566** :warning: |
+| **Count:** | **531** | **2522** | **1955** :heavy_check_mark: **567** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -566,16 +566,16 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      22 gradle     11
      26 mvn         7
-    975 mvn         8
+    976 mvn         8
       1 mvn         9
-    779 mvn        11
+    780 mvn        11
       1 mvn        11.0.19
       1 mvn        11.0.6
       1 mvn        13
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    180 mvn        17
+    181 mvn        17
       2 mvn        17.0.7
       1 mvn        17.0.8
      11 mvn        18
@@ -590,7 +590,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      35 mvn-3.8.6  17
       2 mvn-3.8.6  18
       4 mvn-3.8.6  19
-     13 mvn-3.8.7  17
+     16 mvn-3.8.7  17
       4 mvn-3.9.0  11
       6 mvn-3.9.0  17
       5 mvn-3.9.1   8

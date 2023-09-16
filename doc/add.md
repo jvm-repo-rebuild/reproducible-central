@@ -4,20 +4,18 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20230915162429 --> [maven-javadoc-plugin](../content/org/apache/maven/plugins/maven-javadoc-plugin/README.md) | [3.5.0](../content/org/apache/maven/plugins/maven-javadoc-plugin/maven-javadoc-plugin-3.5.0.buildspec) :heavy_check_mark: | [3.6.0](../content/org/apache/maven/plugins/maven-javadoc-plugin/maven-javadoc-plugin-3.6.0.buildspec) | `bin/add-new-release.sh content/org/apache/maven/plugins/maven-javadoc-plugin/maven-javadoc-plugin-3.5.0.buildspec 3.6.0` |
-| <!-- 20230915144115 --> [bootstrap](../content/org/webjars/bootstrap/README.md) | [5.3.1](../content/org/webjars/bootstrap/bootstrap-5.3.1.buildspec) :heavy_check_mark: | [5.3.2](../content/org/webjars/bootstrap/bootstrap-5.3.2.buildspec) | `bin/add-new-release.sh content/org/webjars/bootstrap/bootstrap-5.3.1.buildspec 5.3.2` |
-| <!-- 20230915134836 --> [gherkin](../content/io/cucumber/gherkin/README.md) | [26.2.0](../content/io/cucumber/gherkin/gherkin-26.2.0.buildspec) :heavy_check_mark: | [27.0.0](../content/io/cucumber/gherkin/gherkin-27.0.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/gherkin/gherkin-26.2.0.buildspec 27.0.0` |
 | <!-- 20230911001855 --> [alluxio-parent](../content/org/alluxio/alluxio/README.md) | [303](../content/org/alluxio/alluxio/alluxio-303.buildspec) :heavy_check_mark: | [304](../content/org/alluxio/alluxio/alluxio-304.buildspec) | `bin/add-new-release.sh content/org/alluxio/alluxio/alluxio-303.buildspec 304` |
 | <!-- 20230910013001 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.1](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec) :heavy_check_mark: | [10.4.2-beta-2](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2-beta-2.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec 10.4.2-beta-2` |
-| <!-- 20230829074940 --> [conventional-commits-version-policy](../content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | [1.0.1](../content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.1.buildspec) :heavy_check_mark: | [1.0.4](../content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.4.buildspec) | `bin/add-new-release.sh content/nl/basjes/maven/release/conventional-commits-version-policy/conventional-commits-version-policy-1.0.1.buildspec 1.0.4` |
 <!-- END GENERATED ADD OK -->
 
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20230916170813 --> [javabean-tester](../content/com/github/hazendaz/javabean-tester/README.md) | [2.5.3](../content/com/github/hazendaz/javabean-tester/javabean-tester-2.5.3.buildspec) :warning: | [2.6.0](../content/com/github/hazendaz/javabean-tester/javabean-tester-2.6.0.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/javabean-tester/javabean-tester-2.5.3.buildspec 2.6.0` |
+| <!-- 20230916081916 --> [org.apache.felix.healthcheck.core](../content/org/apache/felix/org.apache.felix.healthcheck.core/README.md) | [2.1.0](../content/org/apache/felix/org.apache.felix.healthcheck.core/org.apache.felix.healthcheck.core-2.1.0.buildspec) :warning: [:memo:](https://github.com/apache/felix-dev/pull/234) | [2.2.0](../content/org/apache/felix/org.apache.felix.healthcheck.core/org.apache.felix.healthcheck.core-2.2.0.buildspec) | `bin/add-new-release.sh content/org/apache/felix/org.apache.felix.healthcheck.core/org.apache.felix.healthcheck.core-2.1.0.buildspec 2.2.0` |
+| <!-- 20230915234357 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.28.0](../content/org/finos/legend/engine/legend-engine-4.28.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.28.0` |
 | <!-- 20230914144430 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | [6.0.14](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.0.14.buildspec) :warning: | [6.2.0](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.2.0.buildspec) | `bin/add-new-release.sh content/com/adobe/acs/aem-commons/acs-aem-commons-6.0.14.buildspec 6.2.0` |
 | <!-- 20230914103929 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | [1.17.0-alpha](../content/io/opentelemetry/instrumentation/opentelemetry-1.17.0-alpha.buildspec) :warning: | [1.30.0](../content/io/opentelemetry/instrumentation/opentelemetry-1.30.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/instrumentation/opentelemetry-1.17.0-alpha.buildspec 1.30.0` |
-| <!-- 20230912180837 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.27.1](../content/org/finos/legend/engine/legend-engine-4.27.1.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.27.1` |
 | <!-- 20230911160856 --> [opentelemetry-sdk](../content/io/opentelemetry/java/README.md) | [1.14.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.14.0.buildspec) :warning: [:memo:](https://github.com/open-telemetry/opentelemetry-java/issues/4488) | [1.30.1](../content/io/opentelemetry/java/opentelemetry-sdk-1.30.1.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/java/opentelemetry-sdk-1.14.0.buildspec 1.30.1` |
 | <!-- 20230911085249 --> [dubbo](../content/org/apache/dubbo/README.md) | [3.1.9](../content/org/apache/dubbo/dubbo-3.1.9.buildspec) :warning: | [3.2.6](../content/org/apache/dubbo/dubbo-3.2.6.buildspec) | `bin/add-new-release.sh content/org/apache/dubbo/dubbo-3.1.9.buildspec 3.2.6` |
 | <!-- 20230908141107 --> [io.wcm.handler.media](../content/io/wcm/io.wcm.handler/media/README.md) | [1.15.6](../content/io/wcm/io.wcm.handler/media/wcm-media-1.15.6.buildspec) :warning: | [1.15.8](../content/io/wcm/io.wcm.handler/media/wcm-media-1.15.8.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.handler/media/wcm-media-1.15.6.buildspec 1.15.8` |
@@ -58,6 +56,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20230915162429 --> [maven-javadoc-plugin](../content/org/apache/maven/plugins/maven-javadoc-plugin/README.md) | 3.6.0 :warning: |
 | <!-- 20230913004921 --> [java-uuid-generator](../content/com/fasterxml/uuid/README.md) | 4.3.0 :warning: [:memo:](https://github.com/moditect/moditect/issues/199) |
 | <!-- 20230908222901 --> [commons-compress](../content/org/apache/commons/compress/README.md) | 1.24.0 :warning: |
 | <!-- 20230907100604 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | 5.0.0 :warning: |
@@ -67,7 +66,6 @@ New Releases To Add
 | <!-- 20230828161712 --> [jooby](../content/io/jooby/README.md) | 3.0.5 :warning: |
 | <!-- 20230828142231 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 7.0.8 :warning: [:memo:](https://github.com/eclipse-ee4j/glassfish-hk2/pull/821) |
 | <!-- 20230828105304 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.1.3 :warning: [:memo:](https://github.com/smallrye/smallrye-parent/pull/420) |
-| <!-- 20230827114709 --> [org.apache.felix.healthcheck.core](../content/org/apache/felix/org.apache.felix.healthcheck.core/README.md) | 2.1.0 :warning: [:memo:](https://github.com/apache/felix-dev/pull/234) |
 | <!-- 20230822075226 --> [mockito-core](../content/org/mockito/mockito-core/README.md) | 5.5.0 :warning: |
 | <!-- 20230810033447 --> [spdx-maven-plugin](../content/org/spdx/spdx-maven-plugin/README.md) | 0.7.0 :warning: [:memo:](https://github.com/spdx/spdx-maven-plugin/pull/125) |
 | <!-- 20230803053411 --> [parent](../content/org/apache/zookeeper/README.md) | 3.9.0 :warning: [:memo:](https://issues.apache.org/jira/browse/ZOOKEEPER-4732) |
@@ -96,7 +94,6 @@ New Releases To Add
 | <!-- 20230523070720 --> [compiler](../content/org/apache/royale/compiler/README.md) | 0.9.10 :warning: |
 | <!-- 20230520101311 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | 3.0.2 :warning: |
 | <!-- 20230519171804 --> [mybatis-spring](../content/org/mybatis/mybatis-spring/README.md) | 3.0.2 :warning: [:memo:](https://github.com/mybatis/parent/pull/472) |
-| <!-- 20230519001418 --> [javabean-tester](../content/com/github/hazendaz/javabean-tester/README.md) | 2.5.3 :warning: |
 | <!-- 20230514203704 --> [sshd](../content/org/apache/sshd/README.md) | 2.10.0 :warning: [:memo:](https://github.com/apache/mina-sshd/pull/378) |
 | <!-- 20230512012244 --> [org.apache.sling.event](../content/org/apache/sling/org.apache.sling.event/README.md) | 4.3.12 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-event/pull/28) |
 | <!-- 20230510171047 --> [Apache-Synapse](../content/org/apache/synapse/README.md) | 3.0.2 :warning: [:memo:](https://issues.apache.org/jira/browse/SYNAPSE-1128) |
