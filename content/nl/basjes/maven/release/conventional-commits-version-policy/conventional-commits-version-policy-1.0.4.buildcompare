@@ -1,0 +1,7 @@
+version=1.0.4
+ok=4
+ko=0
+okFiles="conventional-commits-version-policy-1.0.4.pom conventional-commits-version-policy-1.0.4.jar conventional-commits-version-policy-1.0.4-sources.jar conventional-commits-version-policy-1.0.4.buildinfo"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

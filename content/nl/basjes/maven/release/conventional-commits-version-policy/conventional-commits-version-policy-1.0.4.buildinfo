@@ -1,0 +1,39 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Conventional Commits Version Policy for the maven-release-plugin
+group-id=nl.basjes.maven.release
+artifact-id=conventional-commits-version-policy
+version=1.0.4
+
+# source information
+source.scm.uri=scm:git:https://github.com/nielsbasjes/conventional-commits-maven-release.git
+source.scm.tag=v1.0.4
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.toolchain.jdk=openjdk version "17
+
+# output
+
+outputs.0.filename=conventional-commits-version-policy-1.0.4.pom
+outputs.0.length=28976
+outputs.0.checksums.sha512=04cf1cac235876135a87dfa984b394b79efa76f882ba9a4edde676e2cd9cf1737a3be3f3da5247ac3ac77b8a35b7cdaa444ae3026d27e1959ac21b886f61a813
+
+outputs.1.filename=conventional-commits-version-policy-1.0.4.jar
+outputs.1.length=19029
+outputs.1.checksums.sha512=4d309af42ae951076776fa99338d18b40b8e807025d4e4430d254c5416a1c94d46542cd3fb48d5bb0ed9ab711ad790103d6d22bfd2ddb88e2fc3610cbb7f71f2
+
+outputs.2.filename=conventional-commits-version-policy-1.0.4-sources.jar
+outputs.2.length=15926
+outputs.2.checksums.sha512=9fc0821f362b4f25b31d20f3ea19c8f9a520b5088cb589ffbbe3e858837e6ac66fffcb5aa36c489abc95005a848f91a4ee2eb21c9d8d509f9452ae00000debee
+
+outputs.3.filename=conventional-commits-version-policy-1.0.4.buildinfo
+outputs.3.length=0
+outputs.3.checksums.sha512=cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e
