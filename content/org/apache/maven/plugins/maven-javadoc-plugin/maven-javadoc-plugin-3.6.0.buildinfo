@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Javadoc Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-javadoc-plugin
+version=3.6.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-javadoc-plugin.git
+source.scm.tag=maven-javadoc-plugin-3.6.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.filename=maven-javadoc-plugin-3.6.0.pom
+outputs.0.length=20040
+outputs.0.checksums.sha512=77db903efd5523da9165e48099d443dda25bb2d408613ab03e2452029cf8d56f60ee98d5fc1c2ca753c9565df2d446724a2d9feb078b3fe6ffdeb4f2267a63e8
+
+outputs.1.filename=maven-javadoc-plugin-3.6.0.jar
+outputs.1.length=511050
+outputs.1.checksums.sha512=7f4d4e67bb9c13680002830af810a7cffd0874e8ea25f6f632f3656825a4c0425b0f7f844e8e1d72eb060b0f7fabfb7ccbf3dfd809ad0d27784e7cdfe9339b69
+
+outputs.2.filename=maven-javadoc-plugin-3.6.0-source-release.zip
+outputs.2.length=3607260
+outputs.2.checksums.sha512=f51fc1738e3fd094ac3ce088883554f6abc0446fe670923c5c2203646fb521e09dbd90ebf54a1ea7776c5621a6c5fd6fbb80aae1fbc476bb93ad76fdd1409cf9
+
+outputs.3.filename=maven-javadoc-plugin-3.6.0-sources.jar
+outputs.3.length=185761
+outputs.3.checksums.sha512=ff9d9e087e5f552f169ebbe1d8d6ff1e23075d7cea4d20d391ddd52133f85b5ac87d24f7722c7a4ff524db4b83b95516534598d2b7d673609c8318521c80d299
+
+outputs.4.filename=maven-javadoc-plugin-3.6.0-cyclonedx.xml
+outputs.4.length=185497
+outputs.4.checksums.sha512=f5b8e622764b00a6550c6660c1fbe7efe716fc6f11c7688b41d4fb0f955877054948db705aa4750e4f7a05af4fe5133bc5776c104f40584b4be21f1fd657ca2a
+
+outputs.5.filename=maven-javadoc-plugin-3.6.0-cyclonedx.json
+outputs.5.length=215230
+outputs.5.checksums.sha512=5f006d55b2f1d5557bb98438426653b9ea4f487f6110684aac6d36a4c9eed7a0d12fa0f2b295e9b94623a3a2ca09159c63de03e37059522891080e7afef45e2b
