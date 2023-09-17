@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2522 releases** of **531 projects**:
-   - **1955** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 567 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **2524 releases** of **531 projects**:
+   - **1956** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 568 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 531 projects, 420 have at least one fully reproducible release, 111 have none
 
 <!-- END GENERATED INTRO -->
@@ -41,7 +41,7 @@ Its objectives are to provide:
 | com.github.psi-probe | <a name='com.github.psi-probe:psi-probe'></a>[psi-probe](content/com/github/psi-probe/README.md) | 6 | 5 :heavy_check_mark: / 1 :warning: |
 | com.github.adangel.liquibase.ext | <a name='com.github.adangel.liquibase.ext:liquibase-percona'></a>[liquibase-percona](content/com/github/adangel/liquibase/ext/liquibase-percona/README.md) | 1 | 1 :heavy_check_mark: |
 | com.github.hazendaz.7zip | <a name='com.github.hazendaz.7zip:7zip'></a>[7zip](content/com/github/hazendaz/7zip/README.md) | 1 | 1 :heavy_check_mark: |
-| com.github.hazendaz | <a name='com.github.hazendaz:javabean-tester'></a>[javabean-tester](content/com/github/hazendaz/javabean-tester/README.md) | 5 | 3 :heavy_check_mark: / 2 :warning: |
+| com.github.hazendaz | <a name='com.github.hazendaz:javabean-tester'></a>[javabean-tester](content/com/github/hazendaz/javabean-tester/README.md) | 6 | 4 :heavy_check_mark: / 2 :warning: |
 | com.github.hazendaz.maven | <a name='com.github.hazendaz.maven:directory-maven-plugin'></a>[directory-maven-plugin](content/com/github/hazendaz/maven/directory-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='com.github.hazendaz.maven:htmlcompressor-maven-plugin'></a>[htmlcompressor-maven-plugin](content/com/github/hazendaz/maven/htmlcompressor-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='com.github.hazendaz.maven:whitespace-maven-plugin'></a>[whitespace-maven-plugin](content/com/github/hazendaz/maven/whitespace-maven-plugin/README.md) | 2 | 2 :warning: |
@@ -269,7 +269,7 @@ Its objectives are to provide:
 | org.apache.directory.project | <a name='org.apache.directory.project:project'></a>[project](content/org/apache/directory/project/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.felix | <a name='org.apache.felix:org.apache.felix.feature'></a>[*.feature](content/org/apache/felix/features/README.md) | 5 | 5 :heavy_check_mark: |
 | | <a name='org.apache.felix:maven-bundle-plugin'></a>[maven-bundle-plugin](content/org/apache/felix/maven-bundle-plugin/README.md) | 7 | 7 :heavy_check_mark: |
-| | <a name='org.apache.felix:org.apache.felix.healthcheck.core'></a>[*.healthcheck.core](content/org/apache/felix/org.apache.felix.healthcheck.core/README.md) | 1 | 1 :warning: |
+| | <a name='org.apache.felix:org.apache.felix.healthcheck.core'></a>[*.healthcheck.core](content/org/apache/felix/org.apache.felix.healthcheck.core/README.md) | 2 | 2 :warning: |
 | | <a name='org.apache.felix:felix-parent'></a>[felix-parent](content/org/apache/felix/pom/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.felix:org.apache.felix.http.parent'></a>[*.http.parent](content/org/apache/felix/http/parent/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.httpcomponents | <a name='org.apache.httpcomponents:httpcomponents-parent'></a>[httpcomponents-parent](content/org/apache/httpcomponents/parent/README.md) | 2 | 2 :heavy_check_mark: |
@@ -554,7 +554,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 24 | 24 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **531** | **2522** | **1955** :heavy_check_mark: **567** :warning: |
+| **Count:** | **531** | **2524** | **1956** :heavy_check_mark: **568** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -568,7 +568,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      26 mvn         7
     976 mvn         8
       1 mvn         9
-    780 mvn        11
+    781 mvn        11
       1 mvn        11.0.19
       1 mvn        11.0.6
       1 mvn        13
@@ -599,7 +599,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.1  19
       6 mvn-3.9.1  20
       5 mvn-3.9.2   8
-     12 mvn-3.9.2  17
+     13 mvn-3.9.2  17
       6 mvn-3.9.3   8
      19 mvn-3.9.3  11
       4 mvn-3.9.3  11.0.5
