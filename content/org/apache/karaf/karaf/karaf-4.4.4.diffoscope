@@ -1,0 +1,546 @@
+# https://issues.apache.org/jira/browse/MARTIFACT-33
+1 / 23 target/reference/features-4.4.4.pom features/pom.xml
+--- target/reference/features-4.4.4.pom
++++ features/pom.xml
+│   --- target/reference/features-4.4.4.pom
+├── +++ features/pom.xml
+│ @@ -15,27 +15,22 @@
+│          distributed under the License is distributed on an "AS IS" BASIS,
+│          WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+│          See the License for the specific language governing permissions and
+│          limitations under the License.
+│      -->
+│    <modelVersion>4.0.0</modelVersion>
+│    <parent>
+│ -    <groupId>org.apache.karaf.assemblies</groupId>
+│ -    <artifactId>assemblies</artifactId>
+│ +    <groupId>org.apache.karaf</groupId>
+│ +    <artifactId>karaf</artifactId>
+│      <version>4.4.4</version>
+│      <relativePath>../pom.xml</relativePath>
+│    </parent>
+│ -  <groupId>org.apache.karaf.assemblies.features</groupId>
+│ +  <groupId>org.apache.karaf.features</groupId>
+│    <artifactId>features</artifactId>
+│    <packaging>pom</packaging>
+│ -  <name>Apache Karaf :: Assemblies :: Features</name>
+│ +  <name>Apache Karaf :: Features</name>
+│    <modules>
+│ -    <module>base</module>
+│ -    <module>framework</module>
+│ -    <module>static</module>
+│ -    <module>specs</module>
+│ -    <module>standard</module>
+│ -    <module>spring</module>
+│ -    <module>spring-legacy</module>
+│ -    <module>enterprise</module>
+│ +    <module>extension</module>
+│ +    <module>core</module>
+│ +    <module>command</module>
+│    </modules>
+│  </project>
+
+2 / 23 target/reference/org.apache.karaf.http.core-4.4.4.jar http/target/org.apache.karaf.http.core-4.4.4.jar
+--- target/reference/org.apache.karaf.http.core-4.4.4.jar
++++ http/target/org.apache.karaf.http.core-4.4.4.jar
+├── zipinfo {}
+│ @@ -1,11 +1,11 @@
+│ -Zip file size: 1403853 bytes, number of entries: 1054
+│ +Zip file size: 1403855 bytes, number of entries: 1054
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     2420 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat     1342 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│ +-rw----     2.0 fat     1351 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat      185 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf.http/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf.http/org.apache.karaf.http.core/
+│  -rw----     2.0 fat       82 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf.http/org.apache.karaf.http.core/pom.properties
+│  -rw----     2.0 fat     5865 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf.http/org.apache.karaf.http.core/pom.xml
+│ @@ -1049,8 +1049,8 @@
+│  -rw----     2.0 fat    16960 bl defN 80-Feb-01 00:00 org/apache/karaf/http/core/internal/proxy/ProxyServlet.class
+│  -rw----     2.0 fat      703 bl defN 80-Feb-01 00:00 org/apache/karaf/http/core/internal/proxy/RandomBalancingPolicy.class
+│  -rw----     2.0 fat      800 bl defN 80-Feb-01 00:00 org/apache/karaf/http/core/internal/proxy/RoundRobinBalancingPolicy.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/karaf/util/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/karaf/util/tracker/
+│  -rw----     2.0 fat    18731 bl defN 80-Feb-01 00:00 org/apache/karaf/util/tracker/BaseActivator.class
+│  -rw----     2.0 fat     6749 bl defN 80-Feb-01 00:00 org/apache/karaf/util/tracker/SingleServiceTracker.class
+│ -1054 files, 2705606 bytes uncompressed, 1201017 bytes compressed:  55.6%
+│ +1054 files, 2705615 bytes uncompressed, 1201019 bytes compressed:  55.6%
+├── META-INF/DEPENDENCIES
+│ @@ -5,19 +5,19 @@
+│  
+│  Apache Karaf :: HTTP :: Core
+│  
+│  
+│  From: 'QOS.ch' (http://www.qos.ch)
+│    - JCL 1.2 implemented over SLF4J (http://www.slf4j.org) org.slf4j:jcl-over-slf4j:jar:1.7.32
+│      License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+│ -  - SLF4J API Module (http://www.slf4j.org/slf4j-api) org.slf4j:slf4j-api:jar:1.7.32:compile
+│ -    License: MIT style  (http://www.slf4j.org/license.html)
+│ +  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.32
+│ +    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+│  
+│  From: 'The Apache Software Foundation' (http://www.apache.org/)
+│ -  - Apache Commons Logging (http://commons.apache.org/logging) commons-logging:commons-logging:jar:1.2:compile
+│ +  - Apache Commons Logging (http://commons.apache.org/proper/commons-logging/) commons-logging:commons-logging:jar:1.2
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache HttpClient (http://hc.apache.org/httpcomponents-client) org.apache.httpcomponents:httpclient:jar:4.5.13
+│      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│    - Apache HttpCore (http://hc.apache.org/httpcomponents-core-ga) org.apache.httpcomponents:httpcore:jar:4.4.13
+│      License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+...
+
+6 / 23 target/reference/org.apache.karaf.jaas.blueprint.config-4.4.4.jar jaas/blueprint/config/target/org.apache.karaf.jaas.blueprint.config-4.4.4.jar
+--- target/reference/org.apache.karaf.jaas.blueprint.config-4.4.4.jar
++++ jaas/blueprint/config/target/org.apache.karaf.jaas.blueprint.config-4.4.4.jar
+├── zipinfo -v {}
+│ @@ -61,15 +61,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│    file last modified on (DOS date/time):          1980 Feb 1 00:00:00
+│ -  32-bit CRC value (hex):                         0b78a682
+│ +  32-bit CRC value (hex):                         c5b6e6f6
+│    compressed size:                                559 bytes
+│    uncompressed size:                              1428 bytes
+│    length of filename:                             20 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/MANIFEST.MF
+│ @@ -8,18 +8,18 @@
+│  Bundle-ManifestVersion: 2
+
+│  Bundle-Name: Apache Karaf :: JAAS :: Blueprint :: Config
+
+│  Bundle-SymbolicName: org.apache.karaf.jaas.blueprint.config
+
+│  Bundle-Vendor: The Apache Software Foundation
+
+│  Bundle-Version: 4.4.4
+
+│  Export-Package: org.apache.karaf.jaas.blueprint.config;version="4.4.4"
+
+│  Export-Service: org.apache.aries.blueprint.NamespaceHandler;osgi.servi
+
+│ - ce.blueprint.namespace=http://karaf.apache.org/xmlns/jaas/v1.1.0;osgi
+
+│ + ce.blueprint.namespace=http://karaf.apache.org/xmlns/jaas/v1.0.0;osgi
+
+│   .service.blueprint.compname=namespaceHandler,org.apache.aries.bluepri
+
+│   nt.NamespaceHandler;osgi.service.blueprint.namespace=http://karaf.apa
+
+│ - che.org/xmlns/jaas/v1.0.0;osgi.service.blueprint.compname=namespaceHa
+
+│ + che.org/xmlns/jaas/v1.1.0;osgi.service.blueprint.compname=namespaceHa
+
+│   ndler
+
+│  Import-Package: org.apache.aries.blueprint;version="[1.5,2)",org.apach
+
+│   e.aries.blueprint.mutable;version="[1.2,2)",org.apache.karaf.jaas.con
+
+│   fig;version="[4.4,5)",org.apache.karaf.jaas.config.impl;version="[4.4
+
+│   ,5)",org.osgi.service.blueprint;version="[1.0.0,2.0.0)",org.osgi.serv
+
+│   ice.blueprint.container;version="[1.0,2)",org.osgi.service.blueprint.
+
+│   reflect;version="[1.0,2)",org.w3c.dom
+
+...
+
+10 / 23 target/reference/framework-4.4.4.kar assemblies/features/framework/target/framework-4.4.4.kar
+--- target/reference/framework-4.4.4.kar
++++ assemblies/features/framework/target/framework-4.4.4.kar
+├── zipinfo {}
+│ @@ -1,184 +1,184 @@
+│  Zip file size: 16329554 bytes, number of entries: 182
+│ -drwxr-xr-x  2.0 unx        0 bx stor 80-Jan-01 00:00 META-INF/
+│ --rw-r--r--  2.0 unx       81 bx defN 80-Jan-01 00:00 META-INF/MANIFEST.MF
+...
+│ --rw-r--r--  2.0 unx    12367 bx defN 80-Jan-01 00:00 META-INF/maven/org.apache.karaf.features/framework/pom.xml
+│ --rw-r--r--  2.0 unx       69 bx defN 80-Jan-01 00:00 META-INF/maven/org.apache.karaf.features/framework/pom.properties
+│ +drwxr-xr-x  2.0 unx        0 bx stor 70-Jan-01 00:00 META-INF/
+│ +-rw-r--r--  2.0 unx       81 bx defN 70-Jan-01 00:00 META-INF/MANIFEST.MF
+...
+│ +-rw-r--r--  2.0 unx    12367 bx defN 70-Jan-01 00:00 META-INF/maven/org.apache.karaf.features/framework/pom.xml
+│ +-rw-r--r--  2.0 unx       69 bx defN 70-Jan-01 00:00 META-INF/maven/org.apache.karaf.features/framework/pom.properties
+│  182 files, 18554132 bytes uncompressed, 16282312 bytes compressed:  12.2%
+
+11 / 23 target/reference/manual-4.4.4.jar manual/target/manual-4.4.4.jar
+--- target/reference/manual-4.4.4.jar
++++ manual/target/manual-4.4.4.jar
+├── zipinfo {}
+│ @@ -1,18 +1,18 @@
+│ -Zip file size: 1263585 bytes, number of entries: 285
+│ +Zip file size: 1263490 bytes, number of entries: 285
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat      854 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf/manual/
+│  -rw----     2.0 fat       57 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf/manual/pom.properties
+│  -rw----     2.0 fat    10854 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf/manual/pom.xml
+│ --rw----     2.0 fat    52431 bl defN 80-Feb-01 00:00 archetypes.html
+│ --rw----     2.0 fat    40717 bl defN 80-Feb-01 00:00 branding.html
+│ --rw----     2.0 fat    39228 bl defN 80-Feb-01 00:00 cdi.html
+│ +-rw----     2.0 fat    52430 bl defN 80-Feb-01 00:00 archetypes.html
+│ +-rw----     2.0 fat    40716 bl defN 80-Feb-01 00:00 branding.html
+│ +-rw----     2.0 fat    39227 bl defN 80-Feb-01 00:00 cdi.html
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 commands/
+│  -rw----     2.0 fat      418 bl defN 80-Feb-01 00:00 commands/bundle-capabilities.adoc
+│  -rw----     2.0 fat      474 bl defN 80-Feb-01 00:00 commands/bundle-classes.adoc
+│  -rw----     2.0 fat      398 bl defN 80-Feb-01 00:00 commands/bundle-diag.adoc
+│  -rw----     2.0 fat      353 bl defN 80-Feb-01 00:00 commands/bundle-dynamic-import.adoc
+│  -rw----     2.0 fat      376 bl defN 80-Feb-01 00:00 commands/bundle-find-class.adoc
+│  -rw----     2.0 fat      476 bl defN 80-Feb-01 00:00 commands/bundle-headers.adoc
+│ @@ -212,30 +212,30 @@
+│  -rw----     2.0 fat      180 bl defN 80-Feb-01 00:00 commands/system-version.adoc
+│  -rw----     2.0 fat      376 bl defN 80-Feb-01 00:00 commands/web-install.adoc
+│  -rw----     2.0 fat      386 bl defN 80-Feb-01 00:00 commands/web-launch.adoc
+│  -rw----     2.0 fat      287 bl defN 80-Feb-01 00:00 commands/web-start.adoc
+│  -rw----     2.0 fat      284 bl defN 80-Feb-01 00:00 commands/web-stop.adoc
+│  -rw----     2.0 fat      283 bl defN 80-Feb-01 00:00 commands/web-uninstall.adoc
+│  -rw----     2.0 fat      792 bl defN 80-Feb-01 00:00 commands/wrapper-install.adoc
+│ --rw----     2.0 fat    64423 bl defN 80-Feb-01 00:00 configuration.html
+│ --rw----     2.0 fat    37743 bl defN 80-Feb-01 00:00 connect.html
+│ --rw----     2.0 fat    56820 bl defN 80-Feb-01 00:00 console.html
+│ --rw----     2.0 fat    43467 bl defN 80-Feb-01 00:00 creating-bundles.html
+│ --rw----     2.0 fat    64151 bl defN 80-Feb-01 00:00 custom-distribution.html
+│ --rw----     2.0 fat    44089 bl defN 80-Feb-01 00:00 debugging.html
+│ --rw----     2.0 fat    45608 bl defN 80-Feb-01 00:00 deployers.html
+│ --rw----     2.0 fat    49751 bl defN 80-Feb-01 00:00 developer-commands.html
+│ +-rw----     2.0 fat    64422 bl defN 80-Feb-01 00:00 configuration.html
+│ +-rw----     2.0 fat    37742 bl defN 80-Feb-01 00:00 connect.html
+│ +-rw----     2.0 fat    56819 bl defN 80-Feb-01 00:00 console.html
+│ +-rw----     2.0 fat    43466 bl defN 80-Feb-01 00:00 creating-bundles.html
+│ +-rw----     2.0 fat    64150 bl defN 80-Feb-01 00:00 custom-distribution.html
+│ +-rw----     2.0 fat    44088 bl defN 80-Feb-01 00:00 debugging.html
+│ +-rw----     2.0 fat    45607 bl defN 80-Feb-01 00:00 deployers.html
+│ +-rw----     2.0 fat    49750 bl defN 80-Feb-01 00:00 developer-commands.html
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 developer-guide/
+│ --rw----     2.0 fat    36251 bl defN 80-Feb-01 00:00 directory-structure.html
+│ --rw----     2.0 fat    61481 bl defN 80-Feb-01 00:00 docker.html
+│ --rw----     2.0 fat    38073 bl defN 80-Feb-01 00:00 ejb.html
+│ --rw----     2.0 fat    35295 bl defN 80-Feb-01 00:00 extending.html
+│ --rw----     2.0 fat    49182 bl defN 80-Feb-01 00:00 failover.html
+│ --rw----     2.0 fat    37953 bl defN 80-Feb-01 00:00 github-contributions.html
+│ --rw----     2.0 fat    44434 bl defN 80-Feb-01 00:00 http.html
+│ +-rw----     2.0 fat    36250 bl defN 80-Feb-01 00:00 directory-structure.html
+│ +-rw----     2.0 fat    61480 bl defN 80-Feb-01 00:00 docker.html
+│ +-rw----     2.0 fat    38072 bl defN 80-Feb-01 00:00 ejb.html
+│ +-rw----     2.0 fat    35294 bl defN 80-Feb-01 00:00 extending.html
+│ +-rw----     2.0 fat    49181 bl defN 80-Feb-01 00:00 failover.html
+│ +-rw----     2.0 fat    37952 bl defN 80-Feb-01 00:00 github-contributions.html
+│ +-rw----     2.0 fat    44433 bl defN 80-Feb-01 00:00 http.html
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 images/
+│  -rw----     2.0 fat     4735 bl defN 80-Feb-01 00:00 images/asf-logo.png
+│  -rw----     2.0 fat      244 bl defN 80-Feb-01 00:00 images/bg.png
+│  -rw----     2.0 fat     1068 bl defN 80-Feb-01 00:00 images/bg02-blue-left.png
+│  -rw----     2.0 fat     1114 bl defN 80-Feb-01 00:00 images/bg02-blue-right.png
+│  -rw----     2.0 fat      951 bl defN 80-Feb-01 00:00 images/bg02-white-left-nogr.png
+│  -rw----     2.0 fat      958 bl defN 80-Feb-01 00:00 images/bg02-white-right-nogr.png
+│ @@ -250,38 +250,38 @@
+│  -rw----     2.0 fat    62860 bl defN 80-Feb-01 00:00 images/jconsole_threads.jpg
+│  -rw----     2.0 fat    20682 bl defN 80-Feb-01 00:00 images/karaf-logo.png
+│  -rw----     2.0 fat    21494 bl defN 80-Feb-01 00:00 images/karaf.png
+│  -rw----     2.0 fat    21494 bl defN 80-Feb-01 00:00 images/karaf2.png
+│  -rw----     2.0 fat      588 bl defN 80-Feb-01 00:00 images/left-box-bottom.png
+│  -rw----     2.0 fat      213 bl defN 80-Feb-01 00:00 images/left-box-right.png
+│  -rw----     2.0 fat      466 bl defN 80-Feb-01 00:00 images/left-box-top.png
+│ --rw----     2.0 fat   872535 bl defN 80-Feb-01 00:00 index.html
+│ --rw----     2.0 fat    46265 bl defN 80-Feb-01 00:00 installation.html
+│ --rw----     2.0 fat    56638 bl defN 80-Feb-01 00:00 instances.html
+│ --rw----     2.0 fat    41468 bl defN 80-Feb-01 00:00 interceptor.html
+│ --rw----     2.0 fat    49673 bl defN 80-Feb-01 00:00 jdbc.html
+│ --rw----     2.0 fat    53818 bl defN 80-Feb-01 00:00 jms.html
+│ --rw----     2.0 fat    44825 bl defN 80-Feb-01 00:00 jndi.html
+│ --rw----     2.0 fat    36137 bl defN 80-Feb-01 00:00 jpa.html
+│ --rw----     2.0 fat    41135 bl defN 80-Feb-01 00:00 jta.html
+│ --rw----     2.0 fat    52902 bl defN 80-Feb-01 00:00 kar.html
+│ --rw----     2.0 fat   102565 bl defN 80-Feb-01 00:00 karaf-maven-plugin.html
+│ --rw----     2.0 fat    73603 bl defN 80-Feb-01 00:00 log.html
+│ --rw----     2.0 fat    50974 bl defN 80-Feb-01 00:00 monitoring.html
+│ --rw----     2.0 fat    55224 bl defN 80-Feb-01 00:00 obr.html
+│ --rw----     2.0 fat    62941 bl defN 80-Feb-01 00:00 os-integration.html
+│ --rw----     2.0 fat    37944 bl defN 80-Feb-01 00:00 overview.html
+│ --rw----     2.0 fat    88135 bl defN 80-Feb-01 00:00 provisioning.html
+│ --rw----     2.0 fat    44585 bl defN 80-Feb-01 00:00 quick-start.html
+│ --rw----     2.0 fat    55915 bl defN 80-Feb-01 00:00 remote.html
+│ --rw----     2.0 fat    47244 bl defN 80-Feb-01 00:00 scheduler.html
+│ --rw----     2.0 fat    54822 bl defN 80-Feb-01 00:00 scripting.html
+│ --rw----     2.0 fat    88346 bl defN 80-Feb-01 00:00 security-framework.html
+│ --rw----     2.0 fat    71529 bl defN 80-Feb-01 00:00 security.html
+│ --rw----     2.0 fat    53941 bl defN 80-Feb-01 00:00 start-stop.html
+│ --rw----     2.0 fat    43028 bl defN 80-Feb-01 00:00 tuning.html
+│ --rw----     2.0 fat    44733 bl defN 80-Feb-01 00:00 update-notes.html
+│ --rw----     2.0 fat    60750 bl defN 80-Feb-01 00:00 urls.html
+│ +-rw----     2.0 fat   872534 bl defN 80-Feb-01 00:00 index.html
+│ +-rw----     2.0 fat    46264 bl defN 80-Feb-01 00:00 installation.html
+│ +-rw----     2.0 fat    56637 bl defN 80-Feb-01 00:00 instances.html
+│ +-rw----     2.0 fat    41467 bl defN 80-Feb-01 00:00 interceptor.html
+│ +-rw----     2.0 fat    49672 bl defN 80-Feb-01 00:00 jdbc.html
+│ +-rw----     2.0 fat    53817 bl defN 80-Feb-01 00:00 jms.html
+│ +-rw----     2.0 fat    44824 bl defN 80-Feb-01 00:00 jndi.html
+│ +-rw----     2.0 fat    36136 bl defN 80-Feb-01 00:00 jpa.html
+│ +-rw----     2.0 fat    41134 bl defN 80-Feb-01 00:00 jta.html
+│ +-rw----     2.0 fat    52901 bl defN 80-Feb-01 00:00 kar.html
+│ +-rw----     2.0 fat   102564 bl defN 80-Feb-01 00:00 karaf-maven-plugin.html
+│ +-rw----     2.0 fat    73602 bl defN 80-Feb-01 00:00 log.html
+│ +-rw----     2.0 fat    50973 bl defN 80-Feb-01 00:00 monitoring.html
+│ +-rw----     2.0 fat    55223 bl defN 80-Feb-01 00:00 obr.html
+│ +-rw----     2.0 fat    62940 bl defN 80-Feb-01 00:00 os-integration.html
+│ +-rw----     2.0 fat    37943 bl defN 80-Feb-01 00:00 overview.html
+│ +-rw----     2.0 fat    88134 bl defN 80-Feb-01 00:00 provisioning.html
+│ +-rw----     2.0 fat    44584 bl defN 80-Feb-01 00:00 quick-start.html
+│ +-rw----     2.0 fat    55914 bl defN 80-Feb-01 00:00 remote.html
+│ +-rw----     2.0 fat    47243 bl defN 80-Feb-01 00:00 scheduler.html
+│ +-rw----     2.0 fat    54821 bl defN 80-Feb-01 00:00 scripting.html
+│ +-rw----     2.0 fat    88345 bl defN 80-Feb-01 00:00 security-framework.html
+│ +-rw----     2.0 fat    71528 bl defN 80-Feb-01 00:00 security.html
+│ +-rw----     2.0 fat    53940 bl defN 80-Feb-01 00:00 start-stop.html
+│ +-rw----     2.0 fat    43027 bl defN 80-Feb-01 00:00 tuning.html
+│ +-rw----     2.0 fat    44732 bl defN 80-Feb-01 00:00 update-notes.html
+│ +-rw----     2.0 fat    60749 bl defN 80-Feb-01 00:00 urls.html
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 user-guide/
+│ --rw----     2.0 fat    38337 bl defN 80-Feb-01 00:00 webconsole.html
+│ --rw----     2.0 fat    64840 bl defN 80-Feb-01 00:00 webcontainer.html
+│ -285 files, 3992053 bytes uncompressed, 1222811 bytes compressed:  69.4%
+│ +-rw----     2.0 fat    38336 bl defN 80-Feb-01 00:00 webconsole.html
+│ +-rw----     2.0 fat    64839 bl defN 80-Feb-01 00:00 webcontainer.html
+│ +285 files, 3992006 bytes uncompressed, 1222716 bytes compressed:  69.4%
+├── archetypes.html
+│ @@ -939,12 +939,12 @@
+│  </div>
+│  </div>
+│  </div>
+│  </div>
+│  </div>
+│  <div id="footer">
+│  <div id="footer-text">
+│ -Last updated 2023-09-12 07:47:27 CEST
+│ +Last updated 2023-01-13 17:18:18 UTC
+│  </div>
+│  </div>
+│  </body>
+│  </html>
+...
+
+12 / 23 target/reference/apache-karaf-4.4.4.tar.gz assemblies/apache-karaf/target/apache-karaf-4.4.4.tar.gz
+--- target/reference/apache-karaf-4.4.4.tar.gz
++++ assemblies/apache-karaf/target/apache-karaf-4.4.4.tar.gz
+├── apache-karaf-4.4.4.tar
+│ ├── file list
+│ │ @@ -1,1799 +1,1799 @@
+│ │ --rw-r--r--   0        0        0   107063 2023-09-12 06:22:46.900906 apache-karaf-4.4.4/RELEASE-NOTES.md
+│ │ --rw-r--r--   0        0        0    27754 2023-09-12 06:22:46.908198 apache-karaf-4.4.4/LICENSE
+...
+│ │ --rw-r--r--   0        0        0      847 2023-09-12 06:22:47.917671 apache-karaf-4.4.4/data/tmp/README
+│ │ --rw-r--r--   0        0        0     1833 2023-09-12 06:22:47.917745 apache-karaf-4.4.4/BUILDING.md
+│ │ +-rw-r--r--   0        0        0     1833 2023-09-17 21:27:50.859865 apache-karaf-4.4.4/BUILDING.md
+│ │ +drwxr-xr-x   0        0        0        0 2023-09-17 21:27:50.863415 apache-karaf-4.4.4/lib/
+...
+│ │ +-rw-r--r--   0        0        0     5051 2023-09-17 21:27:51.938613 apache-karaf-4.4.4/bin/shell.bat
+│ │ +-rwxr-xr-x   0        0        0     2808 2023-09-17 21:27:51.938701 apache-karaf-4.4.4/bin/start
+
+13 / 23 target/reference/apache-karaf-4.4.4.zip assemblies/apache-karaf/target/apache-karaf-4.4.4.zip
+--- target/reference/apache-karaf-4.4.4.zip
++++ assemblies/apache-karaf/target/apache-karaf-4.4.4.zip
+├── zipinfo {}
+│ @@ -1,1801 +1,1801 @@
+│ -Zip file size: 36835993 bytes, number of entries: 1799
+│ --rw----     2.0 fat   107063 bl defN 23-Sep-12 08:22 apache-karaf-4.4.4/RELEASE-NOTES.md
+│ --rw----     2.0 fat    27754 bl defN 23-Sep-12 08:22 apache-karaf-4.4.4/LICENSE
+...
+│ --rw----     2.0 fat      847 bl defN 23-Sep-12 08:22 apache-karaf-4.4.4/data/tmp/README
+│ --rw----     2.0 fat     1833 bl defN 23-Sep-12 08:22 apache-karaf-4.4.4/BUILDING.md
+│ -1799 files, 41701702 bytes uncompressed, 36312509 bytes compressed:  12.9%
+│ +Zip file size: 36835989 bytes, number of entries: 1799
+│ +-rw----     2.0 fat     1833 bl defN 23-Sep-17 21:27 apache-karaf-4.4.4/BUILDING.md
+│ +-rw----     2.0 fat        0 bl defN 23-Sep-17 21:27 apache-karaf-4.4.4/lib/
+...
+│ +?rw-r--r--  2.0 unx     5051 bl defN 23-Sep-17 21:27 apache-karaf-4.4.4/bin/shell.bat
+│ +?rwxr-xr-x  2.0 unx     2808 bl defN 23-Sep-17 21:27 apache-karaf-4.4.4/bin/start
+│ +1799 files, 41701699 bytes uncompressed, 36312505 bytes compressed:  12.9%
+
+14 / 23 target/reference/static-4.4.4.kar assemblies/features/static/target/static-4.4.4.kar
+--- target/reference/static-4.4.4.kar
++++ assemblies/features/static/target/static-4.4.4.kar
+├── zipinfo {}
+│ @@ -1,118 +1,118 @@
+│  Zip file size: 7932479 bytes, number of entries: 116
+│ -drwxr-xr-x  2.0 unx        0 bx stor 80-Jan-01 00:00 META-INF/
+│ --rw-r--r--  2.0 unx       81 bx defN 80-Jan-01 00:00 META-INF/MANIFEST.MF
+...
+│ --rw-r--r--  2.0 unx     9572 bx defN 80-Jan-01 00:00 META-INF/maven/org.apache.karaf.features/static/pom.xml
+│ --rw-r--r--  2.0 unx       66 bx defN 80-Jan-01 00:00 META-INF/maven/org.apache.karaf.features/static/pom.properties
+│ +drwxr-xr-x  2.0 unx        0 bx stor 70-Jan-01 00:00 META-INF/
+│ +-rw-r--r--  2.0 unx       81 bx defN 70-Jan-01 00:00 META-INF/MANIFEST.MF
+...
+│ +-rw-r--r--  2.0 unx     9572 bx defN 70-Jan-01 00:00 META-INF/maven/org.apache.karaf.features/static/pom.xml
+│ +-rw-r--r--  2.0 unx       66 bx defN 70-Jan-01 00:00 META-INF/maven/org.apache.karaf.features/static/pom.properties
+│  116 files, 8996890 bytes uncompressed, 7904001 bytes compressed:  12.1%
+
+15 / 23 target/reference/apache-karaf-minimal-4.4.4.tar.gz assemblies/apache-karaf-minimal/target/apache-karaf-minimal-4.4.4.tar.gz
+--- target/reference/apache-karaf-minimal-4.4.4.tar.gz
++++ assemblies/apache-karaf-minimal/target/apache-karaf-minimal-4.4.4.tar.gz
+├── apache-karaf-minimal-4.4.4.tar
+│ ├── file list
+│ │ @@ -1,242 +1,242 @@
+│ │ --rw-r--r--   0        0        0   107063 2023-09-12 06:45:57.972595 apache-karaf-minimal-4.4.4/RELEASE-NOTES.md
+│ │ --rw-r--r--   0        0        0    27754 2023-09-12 06:45:57.975245 apache-karaf-minimal-4.4.4/LICENSE
+...
+│ │ --rw-r--r--   0        0        0      847 2023-09-12 06:45:58.692291 apache-karaf-minimal-4.4.4/data/tmp/README
+│ │ --rw-r--r--   0        0        0     1833 2023-09-12 06:45:58.692366 apache-karaf-minimal-4.4.4/BUILDING.md
+│ │ +-rw-r--r--   0        0        0     1833 2023-09-17 21:28:05.271603 apache-karaf-minimal-4.4.4/BUILDING.md
+│ │ +drwxr-xr-x   0        0        0        0 2023-09-17 21:28:05.271689 apache-karaf-minimal-4.4.4/lib/
+...
+│ │ +-rw-r--r--   0        0        0     5051 2023-09-17 21:28:06.046882 apache-karaf-minimal-4.4.4/bin/shell.bat
+│ │ +-rwxr-xr-x   0        0        0     2808 2023-09-17 21:28:06.046920 apache-karaf-minimal-4.4.4/bin/start
+
+16 / 23 target/reference/apache-karaf-minimal-4.4.4.zip assemblies/apache-karaf-minimal/target/apache-karaf-minimal-4.4.4.zip
+...
+
+21 / 23 target/reference/karaf-jpa-example-provider-blueprint-openjpa-4.4.4.jar examples/karaf-jpa-example/karaf-jpa-example-provider/karaf-jpa-example-provider-blueprint/karaf-jpa-example-provider-blueprint-openjpa/target/karaf-jpa-example-provider-blueprint-openjpa-4.4.4.jar
+--- target/reference/karaf-jpa-example-provider-blueprint-openjpa-4.4.4.jar
++++ examples/karaf-jpa-example/karaf-jpa-example-provider/karaf-jpa-example-provider-blueprint/karaf-jpa-example-provider-blueprint-openjpa/target/karaf-jpa-example-provider-blueprint-openjpa-4.4.4.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 13399 bytes, number of entries: 23
+│ +Zip file size: 13402 bytes, number of entries: 23
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     2770 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat      965 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat      224 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.karaf.examples/
+│ @@ -18,8 +18,8 @@
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/karaf/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/karaf/examples/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/karaf/examples/jpa/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/karaf/examples/jpa/provider/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/karaf/examples/jpa/provider/blueprint/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/karaf/examples/jpa/provider/blueprint/openjpa/
+│  -rw----     2.0 fat     2967 bl defN 80-Feb-01 00:00 org/apache/karaf/examples/jpa/provider/blueprint/openjpa/BookingServiceImpl.class
+│ -23 files, 24920 bytes uncompressed, 9625 bytes compressed:  61.4%
+│ +23 files, 24920 bytes uncompressed, 9628 bytes compressed:  61.4%
+├── META-INF/MANIFEST.MF
+│ @@ -22,17 +22,17 @@
+│   es.jpa";version="4.4.4"
+
+│  Export-Service: org.apache.karaf.examples.jpa.BookingService;osgi.serv
+
+│   ice.blueprint.compname=bookingService
+
+│  Import-Package: javax.persistence;version="[2,3)",javax.transaction;ve
+
+│   rsion="[1.2,2)",org.apache.karaf.examples.jpa;version="[4.4,5)",org.o
+
+│   sgi.service.blueprint;version="[1.0.0,2.0.0)"
+
+│  Import-Service: org.apache.aries.blueprint.NamespaceHandler;filter=(os
+
+│ - gi.service.blueprint.namespace=http://aries.apache.org/xmlns/jpa/v2.0
+
+│ - .0),org.apache.aries.blueprint.NamespaceHandler;filter=(osgi.service.
+
+│ - blueprint.namespace=http://aries.apache.org/xmlns/transactions/v1.2.0
+
+│ + gi.service.blueprint.namespace=http://aries.apache.org/xmlns/transact
+
+│ + ions/v1.2.0),org.apache.aries.blueprint.NamespaceHandler;filter=(osgi
+
+│ + .service.blueprint.namespace=http://aries.apache.org/xmlns/jpa/v2.0.0
+
+│   )
+
+│  Meta-Persistence: META-INF/persistence.xml
+
+│  Provide-Capability: osgi.service;effective:=active;objectClass="javax.
+
+│   persistence.EntityManager";osgi.unit.name=booking-openjpa,osgi.servic
+
+│   e;effective:=active;objectClass="javax.persistence.EntityManagerFacto
+
+│   ry";osgi.unit.name=booking-openjpa,osgi.service;effective:=active;obj
+
+│   ectClass="org.apache.aries.jpa.template.JpaTemplate";osgi.unit.name=b
+
+22 / 23 target/reference/karaf-itest-example-4.4.4.jar examples/karaf-itest-example/target/karaf-itest-example-4.4.4.jar
+--- target/reference/karaf-itest-example-4.4.4.jar
++++ examples/karaf-itest-example/target/karaf-itest-example-4.4.4.jar
+├── zipinfo {}
+│ @@ -1,13 +1,13 @@
+│ -Zip file size: 10253 bytes, number of entries: 11
+│ +Zip file size: 10252 bytes, number of entries: 11
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  -rw-r--r--  2.0 unx      386 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.karaf.examples/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.karaf.examples/karaf-itest-example/
+│  -rw-r--r--  2.0 unx     1302 b- defN 80-000-00 04:08 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 80-000-00 04:08 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      202 b- defN 80-000-00 04:08 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx    17495 b- defN 80-000-00 04:08 META-INF/maven/dependencies.properties
+│ +-rw-r--r--  2.0 unx    17494 b- defN 80-000-00 04:08 META-INF/maven/dependencies.properties
+│  -rw-r--r--  2.0 unx     5238 b- defN 80-000-00 04:08 META-INF/maven/org.apache.karaf.examples/karaf-itest-example/pom.xml
+│  -rw-r--r--  2.0 unx       79 b- defN 80-000-00 04:08 META-INF/maven/org.apache.karaf.examples/karaf-itest-example/pom.properties
+│ -11 files, 36060 bytes uncompressed, 8637 bytes compressed:  76.0%
+│ +11 files, 36059 bytes uncompressed, 8636 bytes compressed:  76.1%
+├── META-INF/maven/dependencies.properties
+│ @@ -1,9 +1,9 @@
+│  # Project dependencies generated by the Apache ServiceMix Maven Plugin
+│ -# Generated at: Tue Sep 12 09:21:50 CEST 2023
+│ +# Generated at: Sun Sep 17 21:28:15 UTC 2023
+│  
+│  groupId = org.apache.karaf.examples
+│  artifactId = karaf-itest-example
+│  version = 4.4.4
+│  org.apache.karaf.examples/karaf-itest-example/version = 4.4.4
+│  
+│  # dependencies
+
+23 / 23 target/reference/tests-4.4.4.jar itests/test/target/tests-4.4.4.jar
+--- target/reference/tests-4.4.4.jar
++++ itests/test/target/tests-4.4.4.jar
+├── zipinfo {}
+│ @@ -1,13 +1,13 @@
+│ -Zip file size: 12757 bytes, number of entries: 11
+│ +Zip file size: 12756 bytes, number of entries: 11
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/
+│  -rw-r--r--  2.0 unx      380 b- defN 80-000-00 04:08 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.karaf.itests/
+│  drwxr-xr-x  2.0 unx        0 b- stor 80-000-00 04:08 META-INF/maven/org.apache.karaf.itests/tests/
+│  -rw-r--r--  2.0 unx    10450 b- defN 80-000-00 04:08 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 80-000-00 04:08 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      199 b- defN 80-000-00 04:08 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx    16685 b- defN 80-000-00 04:08 META-INF/maven/dependencies.properties
+│ +-rw-r--r--  2.0 unx    16684 b- defN 80-000-00 04:08 META-INF/maven/dependencies.properties
+│  -rw-r--r--  2.0 unx    16495 b- defN 80-000-00 04:08 META-INF/maven/org.apache.karaf.itests/tests/pom.xml
+│  -rw-r--r--  2.0 unx       63 b- defN 80-000-00 04:08 META-INF/maven/org.apache.karaf.itests/tests/pom.properties
+│ -11 files, 55630 bytes uncompressed, 11241 bytes compressed:  79.8%
+│ +11 files, 55629 bytes uncompressed, 11240 bytes compressed:  79.8%
+├── META-INF/maven/dependencies.properties
+│ @@ -1,9 +1,9 @@
+│  # Project dependencies generated by the Apache ServiceMix Maven Plugin
+│ -# Generated at: Tue Sep 12 09:29:17 CEST 2023
+│ +# Generated at: Sun Sep 17 21:28:23 UTC 2023
+│  
+│  groupId = org.apache.karaf.itests
+│  artifactId = tests
+│  version = 4.4.4
+│  org.apache.karaf.itests/tests/version = 4.4.4
+│  
+│  # dependencies
+
