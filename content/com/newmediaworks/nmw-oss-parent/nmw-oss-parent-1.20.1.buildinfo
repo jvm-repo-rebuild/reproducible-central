@@ -1,0 +1,26 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=NMW OSS Parent
+group-id=com.newmediaworks
+artifact-id=nmw-oss-parent
+version=1.20.1
+
+# source information
+source.scm.uri=scm:git:git://github.com/newmediaworks/nmw-oss-parent.git
+source.scm.tag=nmw-oss-parent-1.20.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=nmw-oss-parent-1.20.1.pom
+outputs.0.length=250663
+outputs.0.checksums.sha512=ecd64a7980360594f8beec59c7f9082859e592f422275874245e69d2f1a005746ff21755afcc3aea91c2819037407bd48912403ef10408c637d293ed330dad8e
