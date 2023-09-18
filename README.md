@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2524 releases** of **531 projects**:
-   - **1956** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 568 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **2526 releases** of **531 projects**:
+   - **1957** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 569 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 531 projects, 420 have at least one fully reproducible release, 111 have none
 
 <!-- END GENERATED INTRO -->
@@ -140,7 +140,7 @@ Its objectives are to provide:
 | | <a name='com.io7m:com.io7m.xoanon'></a>[*.xoanon](content/com/io7m/xoanon/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='com.io7m:com.io7m.xstructural'></a>[*.xstructural](content/com/io7m/xstructural/README.md) | 6 | 6 :heavy_check_mark: |
 | | <a name='com.io7m:com.io7m.zelador'></a>[*.zelador](content/com/io7m/zelador/README.md) | 1 | 1 :heavy_check_mark: |
-| com.newmediaworks | <a name='com.newmediaworks:nmw-oss-parent'></a>[nmw-oss-parent](content/com/newmediaworks/nmw-oss-parent/README.md) | 1 | 1 :heavy_check_mark: |
+| com.newmediaworks | <a name='com.newmediaworks:nmw-oss-parent'></a>[nmw-oss-parent](content/com/newmediaworks/nmw-oss-parent/README.md) | 2 | 2 :heavy_check_mark: |
 | com.ongres.stringprep | <a name='com.ongres.stringprep:parent'></a>[parent](content/com/ongres/stringprep/README.md) | 1 | 1 :warning: |
 | com.scalapenos | <a name='com.scalapenos:stamina_2.11'></a>[stamina_2.11](content/com/scalapenos/stamina/README.md) | 2 | 2 :heavy_check_mark: |
 | com.spotify.fmt | <a name='com.spotify.fmt:fmt-maven-plugin'></a>[fmt-maven-plugin](content/com/spotify/fmt-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
@@ -278,7 +278,7 @@ Its objectives are to provide:
 | | <a name='org.apache.jackrabbit:jackrabbit-parent'></a>[jackrabbit-parent](content/org/apache/jackrabbit/jackrabbit/README.md) | 2 | 2 :warning: |
 | org.apache.jena | <a name='org.apache.jena:jena'></a>[jena](content/org/apache/jena/jena/README.md) | 9 | 9 :warning: |
 | org.apache.karaf | <a name='org.apache.karaf:decanter'></a>[decanter](content/org/apache/karaf/decanter/README.md) | 2 | 2 :warning: |
-| | <a name='org.apache.karaf:karaf'></a>[karaf](content/org/apache/karaf/karaf/README.md) | 5 | 5 :warning: |
+| | <a name='org.apache.karaf:karaf'></a>[karaf](content/org/apache/karaf/karaf/README.md) | 6 | 6 :warning: |
 | org.apache.karaf.minho | <a name='org.apache.karaf.minho:minho'></a>[minho](content/org/apache/karaf/minho/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.logging | <a name='org.apache.logging:logging-parent'></a>[logging-parent](content/org/apache/logging/parent/README.md) | 6 | 5 :heavy_check_mark: / 1 :warning: |
 | org.apache.logging.log4j | <a name='org.apache.logging.log4j:log4j-tools-bom'></a>[log4j-tools-bom](content/org/apache/logging/log4j/tools/README.md) | 4 | 4 :heavy_check_mark: |
@@ -554,7 +554,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 24 | 24 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **531** | **2524** | **1956** :heavy_check_mark: **568** :warning: |
+| **Count:** | **531** | **2526** | **1957** :heavy_check_mark: **569** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -601,7 +601,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn-3.9.2   8
      13 mvn-3.9.2  17
       6 mvn-3.9.3   8
-     19 mvn-3.9.3  11
+     21 mvn-3.9.3  11
       4 mvn-3.9.3  11.0.5
       5 mvn-3.9.3  11.0.6
       7 mvn-3.9.3  14

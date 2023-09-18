@@ -4,7 +4,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20230917112058 --> [nmw-oss-parent](../content/com/newmediaworks/nmw-oss-parent/README.md) | [1.20.0](../content/com/newmediaworks/nmw-oss-parent/nmw-oss-parent-1.20.0.buildspec) :heavy_check_mark: | [1.20.1](../content/com/newmediaworks/nmw-oss-parent/nmw-oss-parent-1.20.1.buildspec) | `bin/add-new-release.sh content/com/newmediaworks/nmw-oss-parent/nmw-oss-parent-1.20.0.buildspec 1.20.1` |
+| <!-- 20230918173637 --> [liquibase-percona](../content/org/liquibase/ext/liquibase-percona/README.md) | [4.23.1](../content/org/liquibase/ext/liquibase-percona/liquibase-percona-4.23.1.buildspec) :heavy_check_mark: | [4.23.2](../content/org/liquibase/ext/liquibase-percona/liquibase-percona-4.23.2.buildspec) | `bin/add-new-release.sh content/org/liquibase/ext/liquibase-percona/liquibase-percona-4.23.1.buildspec 4.23.2` |
+| <!-- 20230918144907 --> [flexmonster](../content/org/webjars/flexmonster/README.md) | [2.9.59](../content/org/webjars/flexmonster/flexmonster-2.9.59.buildspec) :heavy_check_mark: | [2.9.60](../content/org/webjars/flexmonster/flexmonster-2.9.60.buildspec) | `bin/add-new-release.sh content/org/webjars/flexmonster/flexmonster-2.9.59.buildspec 2.9.60` |
 | <!-- 20230917013128 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.1](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec) :heavy_check_mark: | [10.4.2-beta-3](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2-beta-3.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec 10.4.2-beta-3` |
 | <!-- 20230911001855 --> [alluxio-parent](../content/org/alluxio/alluxio/README.md) | [303](../content/org/alluxio/alluxio/alluxio-303.buildspec) :heavy_check_mark: | [304](../content/org/alluxio/alluxio/alluxio-304.buildspec) | `bin/add-new-release.sh content/org/alluxio/alluxio/alluxio-303.buildspec 304` |
 <!-- END GENERATED ADD OK -->
@@ -12,7 +13,6 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20230917170355 --> [karaf](../content/org/apache/karaf/karaf/README.md) | [4.4.3](../content/org/apache/karaf/karaf/karaf-4.4.3.buildspec) :warning: [:memo:](https://github.com/apache/karaf/pull/1710) | [4.4.4](../content/org/apache/karaf/karaf/karaf-4.4.4.buildspec) | `bin/add-new-release.sh content/org/apache/karaf/karaf/karaf-4.4.3.buildspec 4.4.4` |
 | <!-- 20230915234357 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.28.0](../content/org/finos/legend/engine/legend-engine-4.28.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.28.0` |
 | <!-- 20230914144430 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | [6.0.14](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.0.14.buildspec) :warning: | [6.2.0](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.2.0.buildspec) | `bin/add-new-release.sh content/com/adobe/acs/aem-commons/acs-aem-commons-6.0.14.buildspec 6.2.0` |
 | <!-- 20230914103929 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | [1.17.0-alpha](../content/io/opentelemetry/instrumentation/opentelemetry-1.17.0-alpha.buildspec) :warning: | [1.30.0](../content/io/opentelemetry/instrumentation/opentelemetry-1.30.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/instrumentation/opentelemetry-1.17.0-alpha.buildspec 1.30.0` |
@@ -56,6 +56,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20230917170355 --> [karaf](../content/org/apache/karaf/karaf/README.md) | 4.4.4 :warning: [:memo:](https://issues.apache.org/jira/browse/KARAF-7751) |
 | <!-- 20230916081916 --> [org.apache.felix.healthcheck.core](../content/org/apache/felix/org.apache.felix.healthcheck.core/README.md) | 2.2.0 :warning: [:memo:](https://github.com/apache/felix-dev/pull/234) |
 | <!-- 20230915162429 --> [maven-javadoc-plugin](../content/org/apache/maven/plugins/maven-javadoc-plugin/README.md) | 3.6.0 :warning: |
 | <!-- 20230913004921 --> [java-uuid-generator](../content/com/fasterxml/uuid/README.md) | 4.3.0 :warning: [:memo:](https://github.com/moditect/moditect/issues/199) |

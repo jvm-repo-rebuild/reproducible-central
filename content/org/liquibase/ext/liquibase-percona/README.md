@@ -13,6 +13,7 @@ rebuilding **33 releases** of org.liquibase.ext:liquibase-percona:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.23.2](https://central.sonatype.com/artifact/org.liquibase.ext/liquibase-percona/4.23.2/pom) | | | |
 | [4.23.1](https://central.sonatype.com/artifact/org.liquibase.ext/liquibase-percona/4.23.1/pom) | [mvn jdk11](liquibase-percona-4.23.1.buildspec) | [result](liquibase-percona-4.23.1.buildinfo): [3 :heavy_check_mark: ](liquibase-percona-4.23.1.buildcompare) | 133K |
 | [4.23.0](https://central.sonatype.com/artifact/org.liquibase.ext/liquibase-percona/4.23.0/pom) | [mvn jdk11](liquibase-percona-4.23.0.buildspec) | [result](liquibase-percona-4.23.0.buildinfo): [3 :heavy_check_mark: ](liquibase-percona-4.23.0.buildcompare) | 133K |
 | [4.22.0](https://central.sonatype.com/artifact/org.liquibase.ext/liquibase-percona/4.22.0/pom) | [mvn jdk11](liquibase-percona-4.22.0.buildspec) | [result](liquibase-percona-4.22.0.buildinfo): [3 :heavy_check_mark: ](liquibase-percona-4.22.0.buildcompare) | 133K |
