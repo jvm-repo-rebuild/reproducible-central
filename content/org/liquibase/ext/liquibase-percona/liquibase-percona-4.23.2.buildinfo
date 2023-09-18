@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Liquibase Percona Extension
+group-id=org.liquibase.ext
+artifact-id=liquibase-percona
+version=4.23.2
+
+# source information
+source.scm.uri=scm:git:http://github.com/liquibase/liquibase-percona.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=liquibase-percona-4.23.2.pom
+outputs.0.length=25640
+outputs.0.checksums.sha512=db4123a952b40f788f4f76aaf27561730cbd40746391cf7ebe4e15c554a08a95b4407fdedc5a605dd52cb6948ae49bca2499b9d9cbc31e63528d3507b07d232e
+
+outputs.1.filename=liquibase-percona-4.23.2.jar
+outputs.1.length=62092
+outputs.1.checksums.sha512=81249dc063e6f7844b9fdcb2339792239f30b388bbfc5db13b4ada476cda2830cd890baa0b64694347110cb8f218b6f72f252fd3c4a3d4d359d14d5655b3a5cc
+
+outputs.2.filename=liquibase-percona-4.23.2-sources.jar
+outputs.2.length=47958
+outputs.2.checksums.sha512=5253c6cb3234e3a5b7ca862fb9bb556113fcb7b48342fc289a681e4da18c0c2d7a6fc7b33b864fe1ce4954acf35d9d52d130844d21641fc9a7c6fa2a1f694e8c
