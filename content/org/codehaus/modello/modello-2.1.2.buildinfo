@@ -28,13 +28,17 @@ outputs.0.0.filename=modello-2.1.2.pom
 outputs.0.0.length=24705
 outputs.0.0.checksums.sha512=a57f141255deccbfcc73941201ed9c75487283e46c91cc109b004ba417db889adf26b9f9bb09e061fa38b116dfba4ca85dfdd464e3cc0a7441de5f450d99c5a8
 
-outputs.0.1.filename=modello-2.1.2-site.xml
-outputs.0.1.length=1847
-outputs.0.1.checksums.sha512=ba812b351a81dd2ef07eed6347aa8efd13dc9ae4c3eb87b642e855a3e79ec6cc7f60b0e68b3ba9bafe9d3e7cf59c6623746b5ffbd54db25c4273f1783923ce7d
+outputs.0.1.filename=modello-2.1.2-consumer.pom
+outputs.0.1.length=24536
+outputs.0.1.checksums.sha512=2ab3e6337b8a9087efa2310dba83d0d58f874a9bb067fa819bfed353c159422ed9c4ea8aa45aeb0279e100242b94a0c44d4a754690f374a0f8826105ffd98984
 
-outputs.0.2.filename=modello-2.1.2-source-release.zip
-outputs.0.2.length=1083474
-outputs.0.2.checksums.sha512=2824bcd3fbf8244fbec527e06f1be9aa17a176e4fd4159c228b576f62f94592c19fd39581fa4cd211c4ddc07b86d3595c992cf0a7405e341513bdd74261f4ecd
+outputs.0.2.filename=modello-2.1.2-site.xml
+outputs.0.2.length=1847
+outputs.0.2.checksums.sha512=ba812b351a81dd2ef07eed6347aa8efd13dc9ae4c3eb87b642e855a3e79ec6cc7f60b0e68b3ba9bafe9d3e7cf59c6623746b5ffbd54db25c4273f1783923ce7d
+
+outputs.0.3.filename=modello-2.1.2-source-release.zip
+outputs.0.3.length=1083474
+outputs.0.3.checksums.sha512=2824bcd3fbf8244fbec527e06f1be9aa17a176e4fd4159c228b576f62f94592c19fd39581fa4cd211c4ddc07b86d3595c992cf0a7405e341513bdd74261f4ecd
 
 outputs.1.coordinates=org.codehaus.modello:modello-core
 
@@ -46,9 +50,13 @@ outputs.1.1.filename=modello-core-2.1.2.jar
 outputs.1.1.length=61860
 outputs.1.1.checksums.sha512=b87a479b9e43a105699213a0aaab9ef1d2b06033eb1b4a01a5c65cec4d115edc48d0c81118a8d00949be4dd2f9f25301ec75468dff1d103ad809f189f12b83b2
 
-outputs.1.2.filename=modello-core-2.1.2-sources.jar
-outputs.1.2.length=65408
-outputs.1.2.checksums.sha512=146844655ce83c0e55cbc26682a42afbc1163583901c6775de472c47486d16e46ed21cc7e80c8536537dfe05c23649da3db349ebb7d1dc511511f13215a7971c
+outputs.1.2.filename=modello-core-2.1.2-consumer.pom
+outputs.1.2.length=1770
+outputs.1.2.checksums.sha512=204a7512069a4803f3751dcd04791222950dad712f62c978f4a8abfebc9a5e96ce2cbb01effed44d67a7feffb52cded9db6377eed21f27783cd6ef5e1c7a3de4
+
+outputs.1.3.filename=modello-core-2.1.2-sources.jar
+outputs.1.3.length=65408
+outputs.1.3.checksums.sha512=146844655ce83c0e55cbc26682a42afbc1163583901c6775de472c47486d16e46ed21cc7e80c8536537dfe05c23649da3db349ebb7d1dc511511f13215a7971c
 
 outputs.2.coordinates=org.codehaus.modello:modello-test
 
@@ -60,9 +68,13 @@ outputs.2.1.filename=modello-test-2.1.2.jar
 outputs.2.1.length=26924
 outputs.2.1.checksums.sha512=11e5de60d96df81cab51bf324f57cb9695b4b699a492e0103c58f658180884e318e21c74f45b547483083b14c9ef945fca848b02334c1f256933717b7e6e2e53
 
-outputs.2.2.filename=modello-test-2.1.2-sources.jar
-outputs.2.2.length=24932
-outputs.2.2.checksums.sha512=d5e8dd1e79d4a82f63cbb6533490c6a76f4abe8d97df1706bfb1d0b34d2d8f999aeb86e2293627488f626597d22c44b2a8ea2884328c5d691cb5ab682f443052
+outputs.2.2.filename=modello-test-2.1.2-consumer.pom
+outputs.2.2.length=1843
+outputs.2.2.checksums.sha512=b5c644f76de766a68bd29e2f333a469df911a33ae4f59a1fc2abfc6dba0bab552e7d3287900414492d3f09e5ec0b4b01f665b4355c8b2385a53ee5aa02d66f3e
+
+outputs.2.3.filename=modello-test-2.1.2-sources.jar
+outputs.2.3.length=24932
+outputs.2.3.checksums.sha512=d5e8dd1e79d4a82f63cbb6533490c6a76f4abe8d97df1706bfb1d0b34d2d8f999aeb86e2293627488f626597d22c44b2a8ea2884328c5d691cb5ab682f443052
 
 outputs.3.coordinates=org.codehaus.modello:modello-plugins
 
@@ -70,9 +82,13 @@ outputs.3.0.filename=modello-plugins-2.1.2.pom
 outputs.3.0.length=2533
 outputs.3.0.checksums.sha512=90a2d44f31fc67b9e8645676a107775fc75fba2dae1ee34395fe58e23673c5d1b869a7f32847daa8686d230e4f536b3cd7b148a3f8e013c598493772631eab8e
 
-outputs.3.1.filename=modello-plugins-2.1.2-site.xml
-outputs.3.1.length=395
-outputs.3.1.checksums.sha512=3d4ec7f3720ff7bf966b72ecc4b11aacca039c469fc1416513892050861b80724a72695fdaaa39bd5b151a62acedb334b4867ae0d6626e8263d0f5aa60c0fd04
+outputs.3.1.filename=modello-plugins-2.1.2-consumer.pom
+outputs.3.1.length=1977
+outputs.3.1.checksums.sha512=f189228f774b92db75df9e563d9b628a628de292e3aa5f1e5b3b217e3cf5e6439418b3a6f9998137f20ebf783b312345a398941505a7c01dee303c13297e66a9
+
+outputs.3.2.filename=modello-plugins-2.1.2-site.xml
+outputs.3.2.length=395
+outputs.3.2.checksums.sha512=3d4ec7f3720ff7bf966b72ecc4b11aacca039c469fc1416513892050861b80724a72695fdaaa39bd5b151a62acedb334b4867ae0d6626e8263d0f5aa60c0fd04
 
 outputs.4.coordinates=org.codehaus.modello:modello-plugin-java
 
@@ -84,9 +100,13 @@ outputs.4.1.filename=modello-plugin-java-2.1.2.jar
 outputs.4.1.length=95062
 outputs.4.1.checksums.sha512=c92b10b1ea3ba19afb65637d5919c0bdf8f463006a9b8bc672bf49c0f5e60758c685fac734a4a51d9f4119265623d7609fb13649cb200a5dde1bbed46bc2063c
 
-outputs.4.2.filename=modello-plugin-java-2.1.2-sources.jar
-outputs.4.2.length=99018
-outputs.4.2.checksums.sha512=7db2e13a050cf2681471cceb894f4aeeb38afef7ea9135b4b534647e715f4f64bb059d8ff5c7723366efbcc40158eab86b25a35483e68b0147f4d02dac124cfa
+outputs.4.2.filename=modello-plugin-java-2.1.2-consumer.pom
+outputs.4.2.length=2582
+outputs.4.2.checksums.sha512=1120fb5e50dc232a9be136a1a9f30ebc189ab0e4011cb19fcc06bb18aceac85e834d5eb1ca70ac813f9488fdcd783af25152f765252bdbbff24aa5c3273f08e3
+
+outputs.4.3.filename=modello-plugin-java-2.1.2-sources.jar
+outputs.4.3.length=99018
+outputs.4.3.checksums.sha512=7db2e13a050cf2681471cceb894f4aeeb38afef7ea9135b4b534647e715f4f64bb059d8ff5c7723366efbcc40158eab86b25a35483e68b0147f4d02dac124cfa
 
 outputs.5.coordinates=org.codehaus.modello:modello-plugin-xml
 
@@ -98,9 +118,13 @@ outputs.5.1.filename=modello-plugin-xml-2.1.2.jar
 outputs.5.1.length=15394
 outputs.5.1.checksums.sha512=2cb9de757d6a696cf701b50479ded6c35b7018c303e9e704516a481b1331302e8d09f83462148e450be4e81a98173d26996bb04baab0a091d3502cde24025934
 
-outputs.5.2.filename=modello-plugin-xml-2.1.2-sources.jar
-outputs.5.2.length=17271
-outputs.5.2.checksums.sha512=091e3bcff2385f45bc54e89343a5c454181aebbb9f8c8d736d230cf6265ea09ca768030531af3ff392056881d6122f6b4f5a3d6f072c37a4ba9fa0bf1896ed05
+outputs.5.2.filename=modello-plugin-xml-2.1.2-consumer.pom
+outputs.5.2.length=1077
+outputs.5.2.checksums.sha512=9c3e7d193a4256986de7f9dcee6ed25c04e3a9d65ba8960514dda625d104c3c60cc9a1679e1534fa46826b9b4b17ff966e2fbb1815a23cb2e88aac13676cf1f9
+
+outputs.5.3.filename=modello-plugin-xml-2.1.2-sources.jar
+outputs.5.3.length=17271
+outputs.5.3.checksums.sha512=091e3bcff2385f45bc54e89343a5c454181aebbb9f8c8d736d230cf6265ea09ca768030531af3ff392056881d6122f6b4f5a3d6f072c37a4ba9fa0bf1896ed05
 
 outputs.6.coordinates=org.codehaus.modello:modello-plugin-stax
 
@@ -112,9 +136,13 @@ outputs.6.1.filename=modello-plugin-stax-2.1.2.jar
 outputs.6.1.length=39496
 outputs.6.1.checksums.sha512=4087bc22de464f07b4a60c0018ffc22441496790df3b98c064cb0b3ccbb96806051205c9bb60a7d304642574f77149a6a4493740201a68fba94bc46b42481cf1
 
-outputs.6.2.filename=modello-plugin-stax-2.1.2-sources.jar
-outputs.6.2.length=25605
-outputs.6.2.checksums.sha512=87de6d1bf067203c05a83c4b24448e2112f1aa97231d1a1d4f82e1804ce06ccd3c962055735006020fce5b0bddba234c7f884a2328ee5320cb8c74b47436cbbf
+outputs.6.2.filename=modello-plugin-stax-2.1.2-consumer.pom
+outputs.6.2.length=1913
+outputs.6.2.checksums.sha512=4f7084c9a1cd603adf76f1830a8e9c947855858f62c168bf53e3c4e31b61e05d39c2fc4b8bdf69c106022eb96874ff1556039a159b3a4b859e68b9e866e5c729
+
+outputs.6.3.filename=modello-plugin-stax-2.1.2-sources.jar
+outputs.6.3.length=25605
+outputs.6.3.checksums.sha512=87de6d1bf067203c05a83c4b24448e2112f1aa97231d1a1d4f82e1804ce06ccd3c962055735006020fce5b0bddba234c7f884a2328ee5320cb8c74b47436cbbf
 
 outputs.7.coordinates=org.codehaus.modello:modello-plugin-converters
 
@@ -126,9 +154,13 @@ outputs.7.1.filename=modello-plugin-converters-2.1.2.jar
 outputs.7.1.length=9917
 outputs.7.1.checksums.sha512=5690ac5c55afd309584b9f1d43bddfb5bfa5ba84e4c25596af837aca5db99bfe341020a979d0b4f14e039f21f3cb5aa81141f7b9c530b8237099d4b48a87dbfe
 
-outputs.7.2.filename=modello-plugin-converters-2.1.2-sources.jar
-outputs.7.2.length=6622
-outputs.7.2.checksums.sha512=36271fc5bb60cd79a6363fec490fd43f316d8851598c85ea36c7c277ce639d9edfdc33279ec7c406d04f5751db453ae4cad6957c59ef56b3b619ceaf6cb2faa0
+outputs.7.2.filename=modello-plugin-converters-2.1.2-consumer.pom
+outputs.7.2.length=1683
+outputs.7.2.checksums.sha512=dcff9f9ba8cd8b4f2bf2c9dc4bbcdfab9ca8f942746ca1c6675a0273838845fd3e15ae7649536b357e4dc2b61f4c0ad2152cc7ea9cf362bc87756796ead75df4
+
+outputs.7.3.filename=modello-plugin-converters-2.1.2-sources.jar
+outputs.7.3.length=6622
+outputs.7.3.checksums.sha512=36271fc5bb60cd79a6363fec490fd43f316d8851598c85ea36c7c277ce639d9edfdc33279ec7c406d04f5751db453ae4cad6957c59ef56b3b619ceaf6cb2faa0
 
 outputs.8.coordinates=org.codehaus.modello:modello-plugin-dom4j
 
@@ -140,9 +172,13 @@ outputs.8.1.filename=modello-plugin-dom4j-2.1.2.jar
 outputs.8.1.length=19286
 outputs.8.1.checksums.sha512=0d4c735a7d9894bdbd3fc54f4b3b02974a7ed5e03a198ce4af715a16b26fed816d90c88aab1486a9338071a38a3d6b48a123a8a31d7739f4bbd55cf40fb6db4b
 
-outputs.8.2.filename=modello-plugin-dom4j-2.1.2-sources.jar
-outputs.8.2.length=12445
-outputs.8.2.checksums.sha512=760e841382dcb1159bd6a12d285f83b1a96130cd98300657882e02f94526e18b1faa0fa5eceb324de8c47c8de4a347bf2a7cc793ed0149b4d5699e62abe03867
+outputs.8.2.filename=modello-plugin-dom4j-2.1.2-consumer.pom
+outputs.8.2.length=1647
+outputs.8.2.checksums.sha512=5dc492def8664f4de341291e646b0c228dad41bdfa36f54b6d6f428ca549fa78dbba8a2fca16fcb324626e0c538b8a731f7ba0eb61d7584d2395bc685c7fa0f8
+
+outputs.8.3.filename=modello-plugin-dom4j-2.1.2-sources.jar
+outputs.8.3.length=12445
+outputs.8.3.checksums.sha512=760e841382dcb1159bd6a12d285f83b1a96130cd98300657882e02f94526e18b1faa0fa5eceb324de8c47c8de4a347bf2a7cc793ed0149b4d5699e62abe03867
 
 outputs.9.coordinates=org.codehaus.modello:modello-plugin-jackson
 
@@ -154,9 +190,13 @@ outputs.9.1.filename=modello-plugin-jackson-2.1.2.jar
 outputs.9.1.length=20171
 outputs.9.1.checksums.sha512=9bdd7e5119bfcc1ae49953f2695cd70dd469a1968a6f513896f80fca8e13e29eec307b6ad1337b91c185f5f9ac3a780931e7fef7637b299fa442935da143d32b
 
-outputs.9.2.filename=modello-plugin-jackson-2.1.2-sources.jar
-outputs.9.2.length=14440
-outputs.9.2.checksums.sha512=5e42e11fb66861446f8268e82df97fbc35e5af50d029e80d9dcf1bf7467771696ddd978439bec7fe1a2e9234fa381260e585ce999e8e112c2cca1c5fb01b892f
+outputs.9.2.filename=modello-plugin-jackson-2.1.2-consumer.pom
+outputs.9.2.length=1810
+outputs.9.2.checksums.sha512=9396c967ed8693e3c36ff6d4224446b60c63072c072a859357d2a855a5d3683e12dc67cb613f9f602251e7b9376f33110c0f2a59b54d3b0c09d0d7ee6b133b45
+
+outputs.9.3.filename=modello-plugin-jackson-2.1.2-sources.jar
+outputs.9.3.length=14440
+outputs.9.3.checksums.sha512=5e42e11fb66861446f8268e82df97fbc35e5af50d029e80d9dcf1bf7467771696ddd978439bec7fe1a2e9234fa381260e585ce999e8e112c2cca1c5fb01b892f
 
 outputs.10.coordinates=org.codehaus.modello:modello-plugin-jdom
 
@@ -168,9 +208,13 @@ outputs.10.1.filename=modello-plugin-jdom-2.1.2.jar
 outputs.10.1.length=14176
 outputs.10.1.checksums.sha512=1584e74986b643c6e5b187fd5a9a7480f0631f68e13dae20ec7a4fe0ab515ac360bda468e994c4cdd911ceb8fb6fcb871b5bfe01c26bf3cda7c1b21c427a4c21
 
-outputs.10.2.filename=modello-plugin-jdom-2.1.2-sources.jar
-outputs.10.2.length=9013
-outputs.10.2.checksums.sha512=fb880a949069b389a42bdcff2cd27a2264aa90bd52fa4bbaa3591270df09df0017b349831ab009ccd66c67b8001978338e780b294326e2cef467994d53d4a65d
+outputs.10.2.filename=modello-plugin-jdom-2.1.2-consumer.pom
+outputs.10.2.length=1828
+outputs.10.2.checksums.sha512=23435055bfc03d8bc74c842d59d4fa613c5417055ceb96deab0e1d1038da9f9768fc69d0c1542c63e94264ab0eebcb21571cec7382794c9456b086f000faf00f
+
+outputs.10.3.filename=modello-plugin-jdom-2.1.2-sources.jar
+outputs.10.3.length=9013
+outputs.10.3.checksums.sha512=fb880a949069b389a42bdcff2cd27a2264aa90bd52fa4bbaa3591270df09df0017b349831ab009ccd66c67b8001978338e780b294326e2cef467994d53d4a65d
 
 outputs.11.coordinates=org.codehaus.modello:modello-plugin-jsonschema
 
@@ -182,9 +226,13 @@ outputs.11.1.filename=modello-plugin-jsonschema-2.1.2.jar
 outputs.11.1.length=7199
 outputs.11.1.checksums.sha512=c9f591c19baf1e86ac8c50301eed5a01d746f000f439e44f438effb282efd72604792e04547a90d270235477215d1a911766236da0f22c21fd3c27064842175a
 
-outputs.11.2.filename=modello-plugin-jsonschema-2.1.2-sources.jar
-outputs.11.2.length=5482
-outputs.11.2.checksums.sha512=c0e5c4c639aee229ca40439cf342126b17b641134e3396bb244f125fc604b4ad5e2093314b6ca0e58cb3e653f661712a08ddeaedfd35cc6fa978f0bb6f4fe911
+outputs.11.2.filename=modello-plugin-jsonschema-2.1.2-consumer.pom
+outputs.11.2.length=1555
+outputs.11.2.checksums.sha512=a8dc2bd7c7d281a754dd1e37fc8393795d4d0486accc121c16a48a2b98903b50de415466d45273a008bd009fc530b9ca5f9b99e39a402b590bcaffc042346d63
+
+outputs.11.3.filename=modello-plugin-jsonschema-2.1.2-sources.jar
+outputs.11.3.length=5482
+outputs.11.3.checksums.sha512=c0e5c4c639aee229ca40439cf342126b17b641134e3396bb244f125fc604b4ad5e2093314b6ca0e58cb3e653f661712a08ddeaedfd35cc6fa978f0bb6f4fe911
 
 outputs.12.coordinates=org.codehaus.modello:modello-plugin-sax
 
@@ -196,9 +244,13 @@ outputs.12.1.filename=modello-plugin-sax-2.1.2.jar
 outputs.12.1.length=11114
 outputs.12.1.checksums.sha512=b865e5b7bd65331a0135587c013cdac7adf68e61ad4b11b57a661e9002d2bd5122a77609c265ce41e3df93cdf443f41c3abb1504bf57f64aec1bd9fc5551e86d
 
-outputs.12.2.filename=modello-plugin-sax-2.1.2-sources.jar
-outputs.12.2.length=7170
-outputs.12.2.checksums.sha512=33113400b9759d0b5e265c721084ac6fc44146d0cf6474cc010a12d74c0170703b6d43110b1fc4d886e976f305fb686d123d92ef618050f3eb99e0826036dbe7
+outputs.12.2.filename=modello-plugin-sax-2.1.2-consumer.pom
+outputs.12.2.length=1412
+outputs.12.2.checksums.sha512=d4a71f1c4296f4638e4abb7f52098a7fe51a9687bac7e092a30a3505f74df4bf4219a1948cdd106a19c8131769fca7fed4890cb619f3292b5c28d9f9af8fe963
+
+outputs.12.3.filename=modello-plugin-sax-2.1.2-sources.jar
+outputs.12.3.length=7170
+outputs.12.3.checksums.sha512=33113400b9759d0b5e265c721084ac6fc44146d0cf6474cc010a12d74c0170703b6d43110b1fc4d886e976f305fb686d123d92ef618050f3eb99e0826036dbe7
 
 outputs.13.coordinates=org.codehaus.modello:modello-plugin-snakeyaml
 
@@ -210,9 +262,13 @@ outputs.13.1.filename=modello-plugin-snakeyaml-2.1.2.jar
 outputs.13.1.length=22088
 outputs.13.1.checksums.sha512=84ba4a896987303b4a5fbda99aad9e9396ffc132cd69a9730bd587d78f320fea13daf8bfc6a61fc930e349db7e8e5850fb945fff26e8f4518446d2c7259e86fc
 
-outputs.13.2.filename=modello-plugin-snakeyaml-2.1.2-sources.jar
-outputs.13.2.length=15455
-outputs.13.2.checksums.sha512=6d78a95ef865d04c58b80eeaa481adca0f9af94e029500253d1e55dcdc5bccf7f78dd44104d3b1e1b50f5ef577d3a5957dfaff9754fe5eec2e36d12db96ff14a
+outputs.13.2.filename=modello-plugin-snakeyaml-2.1.2-consumer.pom
+outputs.13.2.length=1220
+outputs.13.2.checksums.sha512=c3927a8ac549ca08ccbfb414f63d981c68142a6d40d6fc3ca1a12c0c3550d7d85aa15b3b3c03880efd023a1f5ccd3ac18609bdea5b70c60754dce90aba1652eb
+
+outputs.13.3.filename=modello-plugin-snakeyaml-2.1.2-sources.jar
+outputs.13.3.length=15455
+outputs.13.3.checksums.sha512=6d78a95ef865d04c58b80eeaa481adca0f9af94e029500253d1e55dcdc5bccf7f78dd44104d3b1e1b50f5ef577d3a5957dfaff9754fe5eec2e36d12db96ff14a
 
 outputs.14.coordinates=org.codehaus.modello:modello-plugin-xsd
 
@@ -224,9 +280,13 @@ outputs.14.1.filename=modello-plugin-xsd-2.1.2.jar
 outputs.14.1.length=15329
 outputs.14.1.checksums.sha512=d4df17cf03a5a6271529f59fb492e1ed20ef6dcd2b95284ce57061fa763973df45671468cab605bd15eae4226f9403fdf23909acfb4972ea96d24bc44f643bd2
 
-outputs.14.2.filename=modello-plugin-xsd-2.1.2-sources.jar
-outputs.14.2.length=13507
-outputs.14.2.checksums.sha512=310ccc250fc90f60164aed1cd92ffd122478da5f2d24077de13d80bc12dec2869a8535af96e722f1a1613f6ffcf0a5b81e606cef698daa9277f0d9e71e68d363
+outputs.14.2.filename=modello-plugin-xsd-2.1.2-consumer.pom
+outputs.14.2.length=1361
+outputs.14.2.checksums.sha512=2ff7c14c4b961ec437dc138ffd769e597ee8cd42ba142f0a981490aed7ea50511b4ca177015df65e184af5ddfd661f07c559382ed03068f2ac3451393c0958fe
+
+outputs.14.3.filename=modello-plugin-xsd-2.1.2-sources.jar
+outputs.14.3.length=13507
+outputs.14.3.checksums.sha512=310ccc250fc90f60164aed1cd92ffd122478da5f2d24077de13d80bc12dec2869a8535af96e722f1a1613f6ffcf0a5b81e606cef698daa9277f0d9e71e68d363
 
 outputs.15.coordinates=org.codehaus.modello:modello-plugin-xdoc
 
@@ -238,9 +298,13 @@ outputs.15.1.filename=modello-plugin-xdoc-2.1.2.jar
 outputs.15.1.length=15578
 outputs.15.1.checksums.sha512=5db85482a5cfbf669f4fc0fd5af8fe34732142cc50300dcd1460a6f1e06b8a65a50d194dbc63c9740e4490b87d2e134bb6e6f6b7adf594b9077219630463252f
 
-outputs.15.2.filename=modello-plugin-xdoc-2.1.2-sources.jar
-outputs.15.2.length=14809
-outputs.15.2.checksums.sha512=f36b5a83431c888166b278c150e176aaa080a6b56c111f071f95f633fcb5f69921413ee9a180f71de9cfa21cba5e75c197ebec65d42c3135e74d3b7f783f4401
+outputs.15.2.filename=modello-plugin-xdoc-2.1.2-consumer.pom
+outputs.15.2.length=1604
+outputs.15.2.checksums.sha512=83decf0cc7cdadae6c771874b7f3ed465239361df107b83062545a646ef880189fab5ce1c441002dcb06c869742d20dee5292a36580e2c95be37aeb8605d9553
+
+outputs.15.3.filename=modello-plugin-xdoc-2.1.2-sources.jar
+outputs.15.3.length=14809
+outputs.15.3.checksums.sha512=f36b5a83431c888166b278c150e176aaa080a6b56c111f071f95f633fcb5f69921413ee9a180f71de9cfa21cba5e75c197ebec65d42c3135e74d3b7f783f4401
 
 outputs.16.coordinates=org.codehaus.modello:modello-plugin-xpp3
 
@@ -252,9 +316,13 @@ outputs.16.1.filename=modello-plugin-xpp3-2.1.2.jar
 outputs.16.1.length=31636
 outputs.16.1.checksums.sha512=7fa1e012a62d14faca165b719b6df432ddbdad1d60e3aee511707ce23f83ca73fc328c154607178f0cf6d3651eada564ac3ae38930b69c285b04fc6b9c6f2ced
 
-outputs.16.2.filename=modello-plugin-xpp3-2.1.2-sources.jar
-outputs.16.2.length=21166
-outputs.16.2.checksums.sha512=d457a5cec2d7c0c09f2f5b65720e9042473dc96de41d00f3f8b43b529f70d13a9acab4479f8502cd1ee4db4797bcc73aa90259310ca40a64bef91edb1e596181
+outputs.16.2.filename=modello-plugin-xpp3-2.1.2-consumer.pom
+outputs.16.2.length=1496
+outputs.16.2.checksums.sha512=fd0ca1dbcd55d577eca71c34fef7c16e6c67064ab9a3faf044943619879a85c5f0dfd1e63f49d620cc94106471e8104bf15cb9cb2c2efe381bae26c8f4cbf43a
+
+outputs.16.3.filename=modello-plugin-xpp3-2.1.2-sources.jar
+outputs.16.3.length=21166
+outputs.16.3.checksums.sha512=d457a5cec2d7c0c09f2f5b65720e9042473dc96de41d00f3f8b43b529f70d13a9acab4479f8502cd1ee4db4797bcc73aa90259310ca40a64bef91edb1e596181
 
 outputs.17.coordinates=org.codehaus.modello:modello-plugin-velocity
 
@@ -266,9 +334,13 @@ outputs.17.1.filename=modello-plugin-velocity-2.1.2.jar
 outputs.17.1.length=9159
 outputs.17.1.checksums.sha512=2ecb1c791acce74918595a2e360797255d6a0378ed835c27e81b5fe879fd95b99db3e59adf5b42dc15e754468db748d0072e95797bc0c874012d8dedaa63b3df
 
-outputs.17.2.filename=modello-plugin-velocity-2.1.2-sources.jar
-outputs.17.2.length=6302
-outputs.17.2.checksums.sha512=831de66b53ca67cf243db85b6475e72a94f71f097ebda7a262727dc87c38d05a18d00d057a71595fb607471b7a28499eea7b0a6375326a1fb2b553aa41fdb3dc
+outputs.17.2.filename=modello-plugin-velocity-2.1.2-consumer.pom
+outputs.17.2.length=1125
+outputs.17.2.checksums.sha512=880e54d25a1dc9ebda90e06acfc9fde0fc3582a637cc42996a742bf2b596f9b49d81d386fd34fb216592bd6bcf088ac70d1d0173bb87ee9b2c6e6713b6b2642f
+
+outputs.17.3.filename=modello-plugin-velocity-2.1.2-sources.jar
+outputs.17.3.length=6302
+outputs.17.3.checksums.sha512=831de66b53ca67cf243db85b6475e72a94f71f097ebda7a262727dc87c38d05a18d00d057a71595fb607471b7a28499eea7b0a6375326a1fb2b553aa41fdb3dc
 
 outputs.18.coordinates=org.codehaus.modello:modello-maven-plugin
 
@@ -280,6 +352,10 @@ outputs.18.1.filename=modello-maven-plugin-2.1.2.jar
 outputs.18.1.length=42647
 outputs.18.1.checksums.sha512=e43abaaf7b2a6c63eeb2a1b17fca74ba1513b792429013faaba2fa9de36c63655f6d6286ffe0b3a76593d89c0801eca260cd720eab9b75fe347f351a32600f42
 
-outputs.18.2.filename=modello-maven-plugin-2.1.2-sources.jar
-outputs.18.2.length=38268
-outputs.18.2.checksums.sha512=84ae85e820dba032906d23b7b3b4c73eb286d9263cb96fccd105d2fefebcb9cb60e75884756437e76ca1bd41d2aa7b8c4b4a5df8891fe1ec612b2f98570fb9ca
+outputs.18.2.filename=modello-maven-plugin-2.1.2-consumer.pom
+outputs.18.2.length=8878
+outputs.18.2.checksums.sha512=fccfc90a409bfdfd345a9736add26b8d4e9168ff1ecc9c499211b00d175d7d130c7042363842ad2fcd672930a0d8245f917215b9d0c61aa0b3903a2a5da58887
+
+outputs.18.3.filename=modello-maven-plugin-2.1.2-sources.jar
+outputs.18.3.length=38268
+outputs.18.3.checksums.sha512=84ae85e820dba032906d23b7b3b4c73eb286d9263cb96fccd105d2fefebcb9cb60e75884756437e76ca1bd41d2aa7b8c4b4a5df8891fe1ec612b2f98570fb9ca

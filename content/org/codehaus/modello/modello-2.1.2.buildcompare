@@ -1,23 +1,42 @@
 version=2.1.2
 ok=40
-ko=16
+ko=35
 okFiles="modello-2.1.2-site.xml modello-2.1.2-source-release.zip modello-core-2.1.2.pom modello-core-2.1.2.jar modello-core-2.1.2-sources.jar modello-test-2.1.2.pom modello-test-2.1.2.jar modello-test-2.1.2-sources.jar modello-plugins-2.1.2-site.xml modello-plugin-java-2.1.2.pom modello-plugin-java-2.1.2.jar modello-plugin-java-2.1.2-sources.jar modello-plugin-xml-2.1.2.jar modello-plugin-xml-2.1.2-sources.jar modello-plugin-stax-2.1.2.jar modello-plugin-stax-2.1.2-sources.jar modello-plugin-converters-2.1.2.jar modello-plugin-converters-2.1.2-sources.jar modello-plugin-dom4j-2.1.2.jar modello-plugin-dom4j-2.1.2-sources.jar modello-plugin-jackson-2.1.2.jar modello-plugin-jackson-2.1.2-sources.jar modello-plugin-jdom-2.1.2.jar modello-plugin-jdom-2.1.2-sources.jar modello-plugin-jsonschema-2.1.2.jar modello-plugin-jsonschema-2.1.2-sources.jar modello-plugin-sax-2.1.2.jar modello-plugin-sax-2.1.2-sources.jar modello-plugin-snakeyaml-2.1.2.jar modello-plugin-snakeyaml-2.1.2-sources.jar modello-plugin-xsd-2.1.2.jar modello-plugin-xsd-2.1.2-sources.jar modello-plugin-xdoc-2.1.2.jar modello-plugin-xdoc-2.1.2-sources.jar modello-plugin-xpp3-2.1.2.jar modello-plugin-xpp3-2.1.2-sources.jar modello-plugin-velocity-2.1.2.jar modello-plugin-velocity-2.1.2-sources.jar modello-maven-plugin-2.1.2.jar modello-maven-plugin-2.1.2-sources.jar"
-koFiles="modello-2.1.2.pom modello-plugins-2.1.2.pom modello-plugin-xml-2.1.2.pom modello-plugin-stax-2.1.2.pom modello-plugin-converters-2.1.2.pom modello-plugin-dom4j-2.1.2.pom modello-plugin-jackson-2.1.2.pom modello-plugin-jdom-2.1.2.pom modello-plugin-jsonschema-2.1.2.pom modello-plugin-sax-2.1.2.pom modello-plugin-snakeyaml-2.1.2.pom modello-plugin-xsd-2.1.2.pom modello-plugin-xdoc-2.1.2.pom modello-plugin-xpp3-2.1.2.pom modello-plugin-velocity-2.1.2.pom modello-maven-plugin-2.1.2.pom"
+koFiles="modello-2.1.2.pom modello-2.1.2-consumer.pom modello-core-2.1.2-consumer.pom modello-test-2.1.2-consumer.pom modello-plugins-2.1.2.pom modello-plugins-2.1.2-consumer.pom modello-plugin-java-2.1.2-consumer.pom modello-plugin-xml-2.1.2.pom modello-plugin-xml-2.1.2-consumer.pom modello-plugin-stax-2.1.2.pom modello-plugin-stax-2.1.2-consumer.pom modello-plugin-converters-2.1.2.pom modello-plugin-converters-2.1.2-consumer.pom modello-plugin-dom4j-2.1.2.pom modello-plugin-dom4j-2.1.2-consumer.pom modello-plugin-jackson-2.1.2.pom modello-plugin-jackson-2.1.2-consumer.pom modello-plugin-jdom-2.1.2.pom modello-plugin-jdom-2.1.2-consumer.pom modello-plugin-jsonschema-2.1.2.pom modello-plugin-jsonschema-2.1.2-consumer.pom modello-plugin-sax-2.1.2.pom modello-plugin-sax-2.1.2-consumer.pom modello-plugin-snakeyaml-2.1.2.pom modello-plugin-snakeyaml-2.1.2-consumer.pom modello-plugin-xsd-2.1.2.pom modello-plugin-xsd-2.1.2-consumer.pom modello-plugin-xdoc-2.1.2.pom modello-plugin-xdoc-2.1.2-consumer.pom modello-plugin-xpp3-2.1.2.pom modello-plugin-xpp3-2.1.2-consumer.pom modello-plugin-velocity-2.1.2.pom modello-plugin-velocity-2.1.2-consumer.pom modello-maven-plugin-2.1.2.pom modello-maven-plugin-2.1.2-consumer.pom"
 reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
 reference_os_name="Unix (from pom.properties newline)"
 # diffoscope target/reference/modello-2.1.2.pom pom.xml
+# diffoscope target/reference/modello-2.1.2-consumer.pom target/consumer16939862630715206601pom
+# diffoscope target/reference/modello-core-2.1.2-consumer.pom modello-core/target/consumer3607916076112574720pom
+# diffoscope target/reference/modello-test-2.1.2-consumer.pom modello-test/target/consumer16595979542453302036pom
 # diffoscope target/reference/modello-plugins-2.1.2.pom modello-plugins/pom.xml
+# diffoscope target/reference/modello-plugins-2.1.2-consumer.pom modello-plugins/target/consumer5707286550861176082pom
+# diffoscope target/reference/modello-plugin-java-2.1.2-consumer.pom modello-plugins/modello-plugin-java/target/consumer17444475663753013370pom
 # diffoscope target/reference/modello-plugin-xml-2.1.2.pom modello-plugins/modello-plugin-xml/pom.xml
+# diffoscope target/reference/modello-plugin-xml-2.1.2-consumer.pom modello-plugins/modello-plugin-xml/target/consumer7787443258705242388pom
 # diffoscope target/reference/modello-plugin-stax-2.1.2.pom modello-plugins/modello-plugin-stax/pom.xml
+# diffoscope target/reference/modello-plugin-stax-2.1.2-consumer.pom modello-plugins/modello-plugin-stax/target/consumer12552503969618490809pom
 # diffoscope target/reference/modello-plugin-converters-2.1.2.pom modello-plugins/modello-plugin-converters/pom.xml
+# diffoscope target/reference/modello-plugin-converters-2.1.2-consumer.pom modello-plugins/modello-plugin-converters/target/consumer5544381982261176645pom
 # diffoscope target/reference/modello-plugin-dom4j-2.1.2.pom modello-plugins/modello-plugin-dom4j/pom.xml
+# diffoscope target/reference/modello-plugin-dom4j-2.1.2-consumer.pom modello-plugins/modello-plugin-dom4j/target/consumer14165278885053517569pom
 # diffoscope target/reference/modello-plugin-jackson-2.1.2.pom modello-plugins/modello-plugin-jackson/pom.xml
+# diffoscope target/reference/modello-plugin-jackson-2.1.2-consumer.pom modello-plugins/modello-plugin-jackson/target/consumer12638125464598352191pom
 # diffoscope target/reference/modello-plugin-jdom-2.1.2.pom modello-plugins/modello-plugin-jdom/pom.xml
+# diffoscope target/reference/modello-plugin-jdom-2.1.2-consumer.pom modello-plugins/modello-plugin-jdom/target/consumer11904771822543285086pom
 # diffoscope target/reference/modello-plugin-jsonschema-2.1.2.pom modello-plugins/modello-plugin-jsonschema/pom.xml
+# diffoscope target/reference/modello-plugin-jsonschema-2.1.2-consumer.pom modello-plugins/modello-plugin-jsonschema/target/consumer1880889378371965188pom
 # diffoscope target/reference/modello-plugin-sax-2.1.2.pom modello-plugins/modello-plugin-sax/pom.xml
+# diffoscope target/reference/modello-plugin-sax-2.1.2-consumer.pom modello-plugins/modello-plugin-sax/target/consumer17001575519153430481pom
 # diffoscope target/reference/modello-plugin-snakeyaml-2.1.2.pom modello-plugins/modello-plugin-snakeyaml/pom.xml
+# diffoscope target/reference/modello-plugin-snakeyaml-2.1.2-consumer.pom modello-plugins/modello-plugin-snakeyaml/target/consumer6049873589390315525pom
 # diffoscope target/reference/modello-plugin-xsd-2.1.2.pom modello-plugins/modello-plugin-xsd/pom.xml
+# diffoscope target/reference/modello-plugin-xsd-2.1.2-consumer.pom modello-plugins/modello-plugin-xsd/target/consumer4821392247668218403pom
 # diffoscope target/reference/modello-plugin-xdoc-2.1.2.pom modello-plugins/modello-plugin-xdoc/pom.xml
+# diffoscope target/reference/modello-plugin-xdoc-2.1.2-consumer.pom modello-plugins/modello-plugin-xdoc/target/consumer1190383433154423950pom
 # diffoscope target/reference/modello-plugin-xpp3-2.1.2.pom modello-plugins/modello-plugin-xpp3/pom.xml
+# diffoscope target/reference/modello-plugin-xpp3-2.1.2-consumer.pom modello-plugins/modello-plugin-xpp3/target/consumer17837011337769705067pom
 # diffoscope target/reference/modello-plugin-velocity-2.1.2.pom modello-plugins/modello-plugin-velocity/pom.xml
+# diffoscope target/reference/modello-plugin-velocity-2.1.2-consumer.pom modello-plugins/modello-plugin-velocity/target/consumer8991609717270291844pom
 # diffoscope target/reference/modello-maven-plugin-2.1.2.pom modello-maven-plugin/pom.xml
+# diffoscope target/reference/modello-maven-plugin-2.1.2-consumer.pom modello-maven-plugin/target/consumer7527257715501663248pom
