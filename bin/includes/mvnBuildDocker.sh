@@ -22,7 +22,7 @@ mvnBuildDocker() {
   mvnVersion="3.6.3"
   case ${tool} in
     mvn-*)
-      mvnVersion="$(echo "$tool" | cut -d - -f 2)"
+      mvnVersion="$(echo "$tool" | cut -d - -f 2-)"
       ;;
   esac
 
@@ -136,6 +136,7 @@ mvnBuildDockerBuildBaseToolchainsImage() {
       cat "${DOCKERFILES_TEMPLATES_DIR}/Dockerfile.toolchains.template" | \
         sed "s/@@JDKPACKAGES@@/${JDKPACKAGES}/g" | \
         sed "s/@@MAVEN_VERSION@@/${mvnVersion}/g" | \
+        sed "s/@@MAVEN_MAJOR@@/$(echo "${mvnVersion}" | cut -c 1)/g" | \
         sed "s/@@JDK@@/${jdk}/g"
     ) > "${DOCKERFILES_TMP_DIR}/${DOCKERFILE}"
 

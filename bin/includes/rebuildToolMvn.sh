@@ -39,7 +39,7 @@ rebuildToolMvn() {
     local mvnVersion="3.6.3"
     case ${tool} in
       mvn-*)
-        mvnVersion="$(echo "$tool" | cut -d - -f 2)"
+        mvnVersion="$(echo "$tool" | cut -d - -f 2-)"
         ;;
     esac
     runlog "sdk use maven ${mvnVersion}"
