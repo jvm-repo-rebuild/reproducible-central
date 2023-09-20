@@ -15,4 +15,4 @@ command="mvn -Papache-release clean package -Dmaven.javadoc.skip -Dgpg.skip -Dsk
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://issues.apache.org/jira/browse/MJAVADOC-774
