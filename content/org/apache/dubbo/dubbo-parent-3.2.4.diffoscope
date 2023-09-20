@@ -1,0 +1,60 @@
+1 / 1 target/reference/dubbo-compatible-3.2.4-sources.jar dubbo-compatible/target/dubbo-compatible-3.2.4-sources.jar
+--- target/reference/dubbo-compatible-3.2.4-sources.jar
++++ dubbo-compatible/target/dubbo-compatible-3.2.4-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 114564 bytes, number of entries: 143
+│ +Zip file size: 114410 bytes, number of entries: 142
+│  -rw-r--r--  2.0 unx       64 b- defN 20-Apr-01 08:04 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/cache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/cache/support/
+│ @@ -15,15 +15,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/common/store/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/common/threadpool/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/common/utils/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/config/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/config/spring/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/config/spring/context/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/config/spring/context/annotation/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/config/spring/schema/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/container/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/container/page/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/container/page/pages/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/monitor/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/qos/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/qos/command/
+│  drwxr-xr-x  2.0 unx        0 b- stor 20-Apr-01 08:04 com/alibaba/dubbo/registry/
+│ @@ -138,8 +137,8 @@
+│  -rw-r--r--  2.0 unx      961 b- defN 20-Apr-01 08:04 com/alibaba/dubbo/rpc/protocol/rest/support/ContentType.java
+│  -rw-r--r--  2.0 unx     2817 b- defN 20-Apr-01 08:04 com/alibaba/dubbo/rpc/support/RpcUtils.java
+│  -rw-r--r--  2.0 unx      933 b- defN 20-Apr-01 08:04 com/alibaba/dubbo/validation/Validation.java
+│  -rw-r--r--  2.0 unx      931 b- defN 20-Apr-01 08:04 com/alibaba/dubbo/validation/Validator.java
+│  -rw-r--r--  2.0 unx     3077 b- defN 20-Apr-01 08:04 META-INF/versions/.artifacts
+│  -rw-r--r--  2.0 unx     5047 b- defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-compatible/pom.xml
+│  -rw-r--r--  2.0 unx       67 b- defN 20-Apr-01 08:04 META-INF/maven/org.apache.dubbo/dubbo-compatible/pom.properties
+│ -143 files, 317351 bytes uncompressed, 92106 bytes compressed:  71.0%
+│ +142 files, 317351 bytes uncompressed, 92106 bytes compressed:  71.0%
+├── zipnote «TEMP»/diffoscope_msf2h41d_target/tmpu5se0_ak_.zip
+│ @@ -54,17 +54,14 @@
+│  
+│  Filename: com/alibaba/dubbo/config/spring/context/
+│  Comment: 
+│  
+│  Filename: com/alibaba/dubbo/config/spring/context/annotation/
+│  Comment: 
+│  
+│ -Filename: com/alibaba/dubbo/config/spring/schema/
+│ -Comment: 
+│ -
+│  Filename: com/alibaba/dubbo/container/
+│  Comment: 
+│  
+│  Filename: com/alibaba/dubbo/container/page/
+│  Comment: 
+│  
+│  Filename: com/alibaba/dubbo/container/page/pages/
+
