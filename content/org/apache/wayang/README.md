@@ -55,6 +55,7 @@ rebuilding **2 releases** of org.apache.wayang:wayang:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.7.1](https://central.sonatype.com/artifact/org.apache.wayang/wayang/0.7.1/pom) | | | |
 | [0.7.0](https://central.sonatype.com/artifact/org.apache.wayang/wayang/0.7.0/pom) | [mvn jdk8](wayang-0.7.0.buildspec) | [result](wayang-0.7.0.buildinfo): [90 :heavy_check_mark: ](wayang-0.7.0.buildcompare) [:mag:](wayang-0.7.0.diffoscope)
 [1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/org/apache/wayang/wayang-0.7.0.buildspec[0m
  | 12M |

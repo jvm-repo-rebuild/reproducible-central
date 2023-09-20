@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2528 releases** of **531 projects**:
-   - **1959** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 569 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 531 projects, 420 have at least one fully reproducible release, 111 have none
+   rebuilding **2536 releases** of **531 projects**:
+   - **1962** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 574 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - on 531 projects, 421 have at least one fully reproducible release, 110 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -144,7 +144,7 @@ Its objectives are to provide:
 | com.ongres.stringprep | <a name='com.ongres.stringprep:parent'></a>[parent](content/com/ongres/stringprep/README.md) | 1 | 1 :warning: |
 | com.scalapenos | <a name='com.scalapenos:stamina_2.11'></a>[stamina_2.11](content/com/scalapenos/stamina/README.md) | 2 | 2 :heavy_check_mark: |
 | com.spotify.fmt | <a name='com.spotify.fmt:fmt-maven-plugin'></a>[fmt-maven-plugin](content/com/spotify/fmt-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
-| com.spotify | <a name='com.spotify:github-client'></a>[github-client](content/com/spotify/github-client/README.md) | 14 | 14 :heavy_check_mark: |
+| com.spotify | <a name='com.spotify:github-client'></a>[github-client](content/com/spotify/github-client/README.md) | 15 | 15 :heavy_check_mark: |
 | com.taobao.arthas | <a name='com.taobao.arthas:arthas-all'></a>[arthas-all](content/com/taobao/arthas/README.md) | 14 | 14 :warning: |
 | com.vladsch.flexmark | <a name='com.vladsch.flexmark:flexmark-java'></a>[flexmark-java](content/com/vladsch/flexmark/flexmark-java/README.md) | 4 | 4 :heavy_check_mark: |
 | de.jflex | <a name='de.jflex:jflex-parent'></a>[jflex-parent](content/de/jflex/README.md) | 1 | 1 :heavy_check_mark: |
@@ -228,7 +228,7 @@ Its objectives are to provide:
 | org.apache.axis2 | <a name='org.apache.axis2:axis2'></a>[axis2](content/org/apache/axis2/README.md) | 1 | 1 :warning: |
 | org.apache.batchee | <a name='org.apache.batchee:batchee'></a>[batchee](content/org/apache/batchee/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | org.apache.drill | <a name='org.apache.drill:drill-root'></a>[drill-root](content/org/apache/drill/README.md) | 3 | 3 :warning: |
-| org.apache.dubbo | <a name='org.apache.dubbo:dubbo'></a>[dubbo](content/org/apache/dubbo/README.md) | 9 | 9 :warning: |
+| org.apache.dubbo | <a name='org.apache.dubbo:dubbo'></a>[dubbo](content/org/apache/dubbo/README.md) | 14 | 2 :heavy_check_mark: / 12 :warning: |
 | org.apache.helix | <a name='org.apache.helix:helix'></a>[helix](content/org/apache/helix/README.md) | 3 | 3 :warning: |
 | org.apache.hive | <a name='org.apache.hive:hive'></a>[hive](content/org/apache/hive/README.md) | 1 | 1 :warning: |
 | org.apache.isis | <a name='org.apache.isis:isis-parent'></a>[isis-parent](content/org/apache/isis/README.md) | 1 | 1 :warning: |
@@ -249,11 +249,11 @@ Its objectives are to provide:
 | org.apache.wayang | <a name='org.apache.wayang:wayang'></a>[wayang](content/org/apache/wayang/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | org.apache.wss4j | <a name='org.apache.wss4j:wss4j'></a>[wss4j](content/org/apache/wss4j/README.md) | 5 | 4 :heavy_check_mark: / 1 :warning: |
 | org.apache.zookeeper | <a name='org.apache.zookeeper:parent'></a>[parent](content/org/apache/zookeeper/README.md) | 2 | 2 :warning: |
-| org.apache.activemq | <a name='org.apache.activemq:artemis-pom'></a>[artemis-pom](content/org/apache/activemq/artemis/README.md) | 3 | 3 :warning: |
+| org.apache.activemq | <a name='org.apache.activemq:artemis-pom'></a>[artemis-pom](content/org/apache/activemq/artemis/README.md) | 4 | 4 :warning: |
 | org.apache.aries | <a name='org.apache.aries:org.apache.aries.cdi'></a>[*.cdi](content/org/apache/aries/cdi/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | org.apache.aries.jax | <a name='org.apache.aries.jax:org.apache.aries.jax.rs'></a>[*.rs](content/org/apache/aries/jax-rs/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.camel | <a name='org.apache.camel:camel'></a>[camel](content/org/apache/camel/camel/README.md) | 7 | 7 :warning: |
-| org.apache.camel.k | <a name='org.apache.camel.k:camel-k-runtime-project'></a>[camel-k-runtime-project](content/org/apache/camel/camel-k-runtime/README.md) | 4 | 4 :warning: |
+| org.apache.camel.k | <a name='org.apache.camel.k:camel-k-runtime-project'></a>[camel-k-runtime-project](content/org/apache/camel/camel-k-runtime/README.md) | 5 | 5 :warning: |
 | org.apache.bcel | <a name='org.apache.bcel:bcel'></a>[bcel](content/org/apache/commons/bcel/README.md) | 1 | 1 :warning: |
 | org.apache.commons | <a name='org.apache.commons:commons-compress'></a>[commons-compress](content/org/apache/commons/compress/README.md) | 3 | 3 :warning: |
 | | <a name='org.apache.commons:commons-csv'></a>[commons-csv](content/org/apache/commons/csv/README.md) | 1 | 1 :heavy_check_mark: |
@@ -554,7 +554,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 24 | 24 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **531** | **2528** | **1959** :heavy_check_mark: **569** :warning: |
+| **Count:** | **531** | **2536** | **1962** :heavy_check_mark: **574** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -568,7 +568,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      26 mvn         7
     977 mvn         8
       1 mvn         9
-    782 mvn        11
+    783 mvn        11
       1 mvn        11.0.19
       1 mvn        11.0.6
       1 mvn        13
@@ -582,6 +582,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      19 mvn        19
      13 mvn        20
       2 mvn-3.5.4   8
+      1 mvn-3.8.3  11
      13 mvn-3.8.5  11
       8 mvn-3.8.5  17
       1 mvn-3.8.5  17.0.3
@@ -600,14 +601,14 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       6 mvn-3.9.1  20
       5 mvn-3.9.2   8
      13 mvn-3.9.2  17
-      6 mvn-3.9.3   8
+     11 mvn-3.9.3   8
      21 mvn-3.9.3  11
       4 mvn-3.9.3  11.0.5
       5 mvn-3.9.3  11.0.6
       7 mvn-3.9.3  14
      12 mvn-3.9.3  14.0.2
       1 mvn-3.9.3  15.0.2
-     18 mvn-3.9.3  17
+     19 mvn-3.9.3  17
       6 mvn-3.9.3  17.0.1
       1 mvn-3.9.3  17.0.2
      52 mvn-3.9.3  17.0.3
