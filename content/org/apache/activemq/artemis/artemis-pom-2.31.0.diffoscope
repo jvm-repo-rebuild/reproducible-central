@@ -1,0 +1,289 @@
+1 / 9 target/reference/artemis-commons-2.31.0.pom artemis-commons/dependency-reduced-pom.xml
+--- target/reference/artemis-commons-2.31.0.pom
++++ artemis-commons/dependency-reduced-pom.xml
+│   --- target/reference/artemis-commons-2.31.0.pom
+├── +++ artemis-commons/dependency-reduced-pom.xml
+│ @@ -53,67 +53,43 @@
+│    <profiles>
+│      <profile>
+│        <id>release</id>
+│        <build>
+│          <plugins>
+│            <plugin>
+│              <artifactId>maven-javadoc-plugin</artifactId>
+│ -            <version>3.5.0</version>
+│              <executions>
+│                <execution>
+│ -                <id>attach-javadocs</id>
+│ -                <goals>
+│ -                  <goal>jar</goal>
+│ -                </goals>
+│ -                <configuration>
+│ -                  <useStandardDocletOptions>true</useStandardDocletOptions>
+│ -                  <minmemory>128m</minmemory>
+│ -                  <maxmemory>512m</maxmemory>
+│ -                  <noindex>true</noindex>
+│ -                  <sourceFileIncludes>
+│ -                    <sourceFileInclude>**/org/apache/activemq/artemis/api/**/*.java</sourceFileInclude>
+│ -                  </sourceFileIncludes>
+│ -                  <notimestamp>true</notimestamp>
+│ -                </configuration>
+│ -              </execution>
+│ -              <execution>
+│                  <id>javadocs</id>
+│                  <goals>
+│                    <goal>jar</goal>
+│                  </goals>
+│ -                <configuration>
+│ -                  <useStandardDocletOptions>true</useStandardDocletOptions>
+│ -                  <minmemory>128m</minmemory>
+│ -                  <maxmemory>512m</maxmemory>
+│ -                  <noindex>true</noindex>
+│ -                  <sourceFileIncludes>
+│ -                    <sourceFileInclude>**/org/apache/activemq/artemis/api/**/*.java</sourceFileInclude>
+│ -                  </sourceFileIncludes>
+│ -                  <notimestamp>true</notimestamp>
+│ -                </configuration>
+│                </execution>
+│              </executions>
+│              <configuration>
+│                <useStandardDocletOptions>true</useStandardDocletOptions>
+│                <minmemory>128m</minmemory>
+│                <maxmemory>512m</maxmemory>
+│                <noindex>true</noindex>
+│                <sourceFileIncludes>
+│                  <sourceFileInclude>**/org/apache/activemq/artemis/api/**/*.java</sourceFileInclude>
+│                </sourceFileIncludes>
+│ -              <notimestamp>true</notimestamp>
+│              </configuration>
+│            </plugin>
+│          </plugins>
+│        </build>
+│        <properties>
+│          <os.detected.arch>x86_64</os.detected.arch>
+│ +        <os.detected.release.like.debian>true</os.detected.release.like.debian>
+│ +        <os.detected.classifier>linux-x86_64</os.detected.classifier>
+│ +        <os.detected.release>ubuntu</os.detected.release>
+│ +        <os.detected.release.version>22.04</os.detected.release.version>
+│          <os.detected.bitness>64</os.detected.bitness>
+│ -        <os.detected.name>osx</os.detected.name>
+│ -        <os.detected.classifier>osx-x86_64</os.detected.classifier>
+│ +        <os.detected.name>linux</os.detected.name>
+│ +        <os.detected.release.like.ubuntu>true</os.detected.release.like.ubuntu>
+│        </properties>
+│      </profile>
+│    </profiles>
+│    <dependencies>
+│      <dependency>
+│        <groupId>org.apache.activemq</groupId>
+│        <artifactId>artemis-log-annotation-processor</artifactId>
+
+# dependency-reduced-pom.xml should probably not be stored in source-release.zip
+2 / 9 target/reference/apache-artemis-2.31.0-source-release.zip artemis-distribution/target/apache-artemis-2.31.0-source-release.zip
+--- target/reference/apache-artemis-2.31.0-source-release.zip
++++ artemis-distribution/target/apache-artemis-2.31.0-source-release.zip
+├── zipinfo {}
+│ @@ -3779,15 +3779,15 @@
+│  -rw-r--r--  2.0 unx     3496 b- defN 23-Sep-15 18:31 apache-artemis-2.31.0/artemis-cli/src/test/resources/broker.xml
+│ --rw-r--r--  2.0 unx     6686 b- defN 23-Sep-15 18:31 apache-artemis-2.31.0/artemis-commons/dependency-reduced-pom.xml
+│ +-rw-r--r--  2.0 unx     5680 b- defN 23-Sep-15 18:31 apache-artemis-2.31.0/artemis-commons/dependency-reduced-pom.xml
+│  -rw-r--r--  2.0 unx     6490 b- defN 23-Sep-15 18:31 apache-artemis-2.31.0/artemis-commons/pom.xml
+├── apache-artemis-2.31.0/artemis-commons/dependency-reduced-pom.xml
+│ ├── apache-artemis-2.31.0/artemis-commons/dependency-reduced-pom.xml
+│ │ @@ -53,67 +53,43 @@
+│ │    <profiles>
+│ │      <profile>
+│ │        <id>release</id>
+│ │        <build>
+│ │          <plugins>
+│ │            <plugin>
+│ │              <artifactId>maven-javadoc-plugin</artifactId>
+│ │ -            <version>3.5.0</version>
+│ │              <executions>
+│ │                <execution>
+│ │ -                <id>attach-javadocs</id>
+│ │ -                <goals>
+│ │ -                  <goal>jar</goal>
+│ │ -                </goals>
+...
+
+# same as previous
+3 / 9 target/reference/apache-artemis-2.31.0-source-release.tar.gz artemis-distribution/target/apache-artemis-2.31.0-source-release.tar.gz
+--- target/reference/apache-artemis-2.31.0-source-release.tar.gz
++++ artemis-distribution/target/apache-artemis-2.31.0-source-release.tar.gz
+├── apache-artemis-2.31.0-source-release.tar
+│ ├── file list
+│ │ @@ -3778,15 +3778,15 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)     3496 2023-09-15 18:31:32.000000 apache-artemis-2.31.0/artemis-cli/src/test/resources/broker.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     6686 2023-09-15 18:31:32.000000 apache-artemis-2.31.0/artemis-commons/dependency-reduced-pom.xml
+│ │ +-rw-r--r--   0 root         (0) root         (0)     5680 2023-09-15 18:31:32.000000 apache-artemis-2.31.0/artemis-commons/dependency-reduced-pom.xml
+│ │  -rw-r--r--   0 root         (0) root         (0)     6490 2023-09-15 18:31:32.000000 apache-artemis-2.31.0/artemis-commons/pom.xml
+...
+
+4 / 9 target/reference/artemis-website-2.31.0.jar artemis-website/target/artemis-website-2.31.0.jar
+--- target/reference/artemis-website-2.31.0.jar
++++ artemis-website/target/artemis-website-2.31.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 9252820 bytes, number of entries: 180
+│ +Zip file size: 9252812 bytes, number of entries: 180
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Sep-15 18:31 META-INF/
+│  -rw-r--r--  2.0 unx      346 b- defN 23-Sep-15 18:31 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Sep-15 18:31 hacking-guide/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Sep-15 18:31 hacking-guide/css/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Sep-15 18:31 hacking-guide/fonts/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Sep-15 18:31 hacking-guide/images/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Sep-15 18:31 migration-guide/
+│ @@ -175,8 +175,8 @@
+│  -rw-r--r--  2.0 unx    29807 b- defN 23-Sep-15 18:31 user-manual/using-server.html
+│  -rw-r--r--  2.0 unx    95828 b- defN 23-Sep-15 18:31 user-manual/versions.html
+│  -rw-r--r--  2.0 unx    16444 b- defN 23-Sep-15 18:31 user-manual/web-server.html
+│  -rw-r--r--  2.0 unx     2295 b- defN 23-Sep-15 18:31 user-manual/wildcard-routing.html
+│  -rw-r--r--  2.0 unx     5251 b- defN 23-Sep-15 18:31 user-manual/wildcard-syntax.html
+│  -rw-r--r--  2.0 unx    19620 b- defN 23-Sep-15 18:31 META-INF/maven/org.apache.activemq/artemis-website/pom.xml
+│  -rw-r--r--  2.0 unx       70 b- defN 23-Sep-15 18:31 META-INF/maven/org.apache.activemq/artemis-website/pom.properties
+│ -180 files, 20171856 bytes uncompressed, 9227162 bytes compressed:  54.3%
+│ +180 files, 20171856 bytes uncompressed, 9227154 bytes compressed:  54.3%
+├── user-manual/book.pdf
+│ ├── user-manual/book.pdf
+│ │┄ Document info
+│ │ @@ -1,5 +1,5 @@
+│ │ -CreationDate: "D:20230915145625-04'00'"
+│ │ +CreationDate: "D:20230920055656+00'00'"
+│ │  Creator: 'Asciidoctor PDF 2.3.9, based on Prawn 2.4.0'
+│ │ -ModDate: "D:20230915144218-04'00'"
+│ │ +ModDate: "D:20230920055506+00'00'"
+│ │  Producer: 'Asciidoctor PDF 2.3.9, based on Prawn 2.4.0'
+│ │  Title: 'Untitled'
+
+# 2 artifacts with artifactId=queue: https://issues.apache.org/jira/browse/MARTIFACT-33
+5 / 9 target/reference/queue-2.31.0.pom examples/features/standard/queue/pom.xml
+--- target/reference/queue-2.31.0.pom
++++ examples/features/standard/queue/pom.xml
+│   --- target/reference/queue-2.31.0.pom
+├── +++ examples/features/standard/queue/pom.xml
+│ @@ -16,28 +16,29 @@
+│  KIND, either express or implied.  See the License for the
+│  specific language governing permissions and limitations
+│  under the License.
+│  -->
+│  <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+│    <modelVersion>4.0.0</modelVersion>
+│    <parent>
+│ -    <groupId>org.apache.activemq.examples.amqp</groupId>
+│ -    <artifactId>amqp</artifactId>
+│ +    <groupId>org.apache.activemq.examples.broker</groupId>
+│ +    <artifactId>jms-examples</artifactId>
+│      <version>2.31.0</version>
+│    </parent>
+│    <artifactId>queue</artifactId>
+│    <packaging>jar</packaging>
+│ -  <name>ActiveMQ Artemis Proton-J Example</name>
+│ +  <name>ActiveMQ Artemis JMS Queue Example</name>
+│    <properties>
+│      <activemq.basedir>${project.basedir}/../../../..</activemq.basedir>
+│    </properties>
+...
+
+# probably same issue as previous
+6 / 9 target/reference/queue-2.31.0.jar examples/features/standard/queue/target/queue-2.31.0.jar
+--- target/reference/queue-2.31.0.jar
++++ examples/features/standard/queue/target/queue-2.31.0.jar
+├── zipinfo {}
+│ @@ -1,19 +1,20 @@
+│ -Zip file size: 9858 bytes, number of entries: 17
+│ +Zip file size: 10900 bytes, number of entries: 18
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Sep-15 18:31 META-INF/
+│ --rw-r--r--  2.0 unx      364 b- defN 23-Sep-15 18:31 META-INF/MANIFEST.MF
+│ +-rw-r--r--  2.0 unx      366 b- defN 23-Sep-15 18:31 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Sep-15 18:31 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Sep-15 18:31 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Sep-15 18:31 org/apache/activemq/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Sep-15 18:31 org/apache/activemq/artemis/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Sep-15 18:31 org/apache/activemq/artemis/jms/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Sep-15 18:31 org/apache/activemq/artemis/jms/example/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Sep-15 18:31 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Sep-15 18:31 META-INF/maven/org.apache.activemq.examples.amqp/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Sep-15 18:31 META-INF/maven/org.apache.activemq.examples.amqp/queue/
+│ --rw-r--r--  2.0 unx     3789 b- defN 23-Sep-15 18:31 META-INF/DEPENDENCIES
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Sep-15 18:31 META-INF/maven/org.apache.activemq.examples.broker/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Sep-15 18:31 META-INF/maven/org.apache.activemq.examples.broker/queue/
+│ +-rw-r--r--  2.0 unx     5915 b- defN 23-Sep-15 18:31 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 23-Sep-15 18:31 META-INF/LICENSE
+│ --rw-r--r--  2.0 unx      183 b- defN 23-Sep-15 18:31 META-INF/NOTICE
+│ --rw-r--r--  2.0 unx     2645 b- defN 23-Sep-15 18:31 org/apache/activemq/artemis/jms/example/AMQPQueueExample.class
+│ --rw-r--r--  2.0 unx     3839 b- defN 23-Sep-15 18:31 META-INF/maven/org.apache.activemq.examples.amqp/queue/pom.xml
+│ --rw-r--r--  2.0 unx       74 b- defN 23-Sep-15 18:31 META-INF/maven/org.apache.activemq.examples.amqp/queue/pom.properties
+│ -17 files, 22252 bytes uncompressed, 7488 bytes compressed:  66.3%
+│ +-rw-r--r--  2.0 unx      184 b- defN 23-Sep-15 18:31 META-INF/NOTICE
+│ +-rw-r--r--  2.0 unx      973 b- defN 23-Sep-15 18:31 jndi.properties
+│ +-rw-r--r--  2.0 unx     2857 b- defN 23-Sep-15 18:31 org/apache/activemq/artemis/jms/example/QueueExample.class
+│ +-rw-r--r--  2.0 unx     3906 b- defN 23-Sep-15 18:31 META-INF/maven/org.apache.activemq.examples.broker/queue/pom.xml
+│ +-rw-r--r--  2.0 unx       76 b- defN 23-Sep-15 18:31 META-INF/maven/org.apache.activemq.examples.broker/queue/pom.properties
+│ +18 files, 25635 bytes uncompressed, 8416 bytes compressed:  67.2%
+...
+
+# [INFO] --- rar:2.3:rar (default-rar) @ artemis-jakarta-rar ---
+# require version 3.0.0
+7 / 9 target/reference/artemis-jakarta-rar-2.31.0.rar examples/features/sub-modules/artemis-jakarta-ra-rar/target/artemis-jakarta-rar-2.31.0.rar
+--- target/reference/artemis-jakarta-rar-2.31.0.rar
++++ examples/features/sub-modules/artemis-jakarta-ra-rar/target/artemis-jakarta-rar-2.31.0.rar
+├── zipinfo {}
+│ @@ -1,48 +1,48 @@
+│ -Zip file size: 13118377 bytes, number of entries: 46
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Sep-15 15:16 META-INF/
+│ --rw-r--r--  2.0 unx      137 b- defN 23-Sep-15 15:16 META-INF/MANIFEST.MF
+│ --rw-r--r--  2.0 unx   120974 b- defN 23-Sep-15 15:16 netty-codec-socks-4.1.97.Final.jar
+...
+│ --rw-r--r--  2.0 unx   238400 b- defN 23-Sep-15 15:16 commons-text-1.10.0.jar
+│ -?rwsrwsrwt  2.0 unx        0 b- stor 23-Sep-15 15:16 META-INF/maven/
+│ -?rwsrwsrwt  2.0 unx        0 b- stor 23-Sep-15 15:16 META-INF/maven/org.apache.activemq.examples.modules/
+│ -?rwsrwsrwt  2.0 unx        0 b- stor 23-Sep-15 15:16 META-INF/maven/org.apache.activemq.examples.modules/artemis-jakarta-rar/
+│ --rw-r--r--  2.0 unx     4806 b- defN 23-Sep-15 14:42 META-INF/maven/org.apache.activemq.examples.modules/artemis-jakarta-rar/pom.xml
+│ --rw-r--r--  2.0 unx      141 b- defN 23-Sep-15 15:16 META-INF/maven/org.apache.activemq.examples.modules/artemis-jakarta-rar/pom.properties
+│ -46 files, 14520892 bytes uncompressed, 13111775 bytes compressed:  9.7%
+│ +Zip file size: 13118370 bytes, number of entries: 46
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Sep-20 05:58 META-INF/
+│ +-rw-r--r--  2.0 unx      131 b- defN 23-Sep-20 05:58 META-INF/MANIFEST.MF
+│ +-rw-rw-r--  2.0 unx    41746 b- defN 23-Sep-20 05:58 activemq-artemis-native-2.0.0.jar
+...
+│ +?rwsrwsrwt  2.0 unx        0 b- stor 23-Sep-20 05:58 META-INF/maven/
+│ +?rwsrwsrwt  2.0 unx        0 b- stor 23-Sep-20 05:58 META-INF/maven/org.apache.activemq.examples.modules/
+│ +?rwsrwsrwt  2.0 unx        0 b- stor 23-Sep-20 05:58 META-INF/maven/org.apache.activemq.examples.modules/artemis-jakarta-rar/
+│ +-rw-rw-r--  2.0 unx     4806 b- defN 23-Sep-20 05:55 META-INF/maven/org.apache.activemq.examples.modules/artemis-jakarta-rar/pom.xml
+│ +-rw-rw-r--  2.0 unx      141 b- defN 23-Sep-20 05:58 META-INF/maven/org.apache.activemq.examples.modules/artemis-jakarta-rar/pom.properties
+│ +46 files, 14520886 bytes uncompressed, 13111768 bytes compressed:  9.7%
+...
+
+# same rar issue
+8 / 9 target/reference/artemis-rar-2.31.0.rar examples/features/sub-modules/artemis-ra-rar/target/artemis-rar-2.31.0.rar
+
+# [INFO] --- tomcat7:2.1:exec-war (tomcat-war-exec) @ artemis-tomcat-jndi-resources-sample ---
+9 / 9 target/reference/artemis-tomcat-jndi-resources-sample-2.31.0-exec-war.jar examples/features/sub-modules/tomcat/target/artemis-tomcat-jndi-resources-sample-2.31.0-war-exec.jar
+--- target/reference/artemis-tomcat-jndi-resources-sample-2.31.0-exec-war.jar
++++ examples/features/sub-modules/tomcat/target/artemis-tomcat-jndi-resources-sample-2.31.0-war-exec.jar
+├── zipinfo {}
+│ @@ -1,4411 +1,4411 @@
+│ -Zip file size: 23927092 bytes, number of entries: 4409
+│ --rw----     2.0 fat 15074268 bX defN 23-Sep-15 15:17 artemis-tomcat-jndi-resources-sample.war
+...
+│ --rw----     2.0 fat       86 bl defN 23-Sep-15 15:17 META-INF/MANIFEST.MF
+│ -4409 files, 34912111 bytes uncompressed, 23077520 bytes compressed:  33.9%
+│ +Zip file size: 23927091 bytes, number of entries: 4409
+│ +-rw----     2.0 fat 15074268 bX defN 23-Sep-20 05:58 artemis-tomcat-jndi-resources-sample.war
+...
+│ +-rw----     2.0 fat       86 bl defN 23-Sep-20 05:58 META-INF/MANIFEST.MF
+│ +4409 files, 34912111 bytes uncompressed, 23077519 bytes compressed:  33.9%
+├── tomcat.standalone.properties
+│ @@ -1,8 +1,8 @@
+│  #created by Apache Tomcat Maven plugin
+│ -#Fri Sep 15 15:17:30 EDT 2023
+│ +#Wed Sep 20 05:58:44 UTC 2023
+│  connectorhttpProtocol=HTTP/1.1
+│  enableNaming=false
+│  wars=artemis-tomcat-jndi-resources-sample.war|artemis-tomcat-jndi-resources-sample
+│ -generationTimestamp=1694805449968
+│ +generationTimestamp=1695189523930
+│  accessLogValveFormat=%h %l %u %t %r %s %b %I %D
+│  useServerXml=false
+
