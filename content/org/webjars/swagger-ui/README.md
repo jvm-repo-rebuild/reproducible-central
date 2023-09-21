@@ -1,19 +1,19 @@
-[org.webjars:swagger-ui](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.6.1/versions) RB check
+[org.webjars:swagger-ui](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.7.2/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.webjars:swagger-ui](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.6.1/versions)
+## Project: [org.webjars:swagger-ui](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.7.2/versions)
 
 Source code: [https://github.com/webjars/swagger-ui.git](https://github.com/webjars/swagger-ui.git)
 
-rebuilding **31 releases** of org.webjars:swagger-ui:
-- **31** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **32 releases** of org.webjars:swagger-ui:
+- **32** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [5.7.2](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.7.2/pom) | | | |
+| [5.7.2](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.7.2/pom) | [mvn jdk19](swagger-ui-5.7.2.buildspec) | [result](swagger-ui-5.7.2.buildinfo): [2 :heavy_check_mark: ](swagger-ui-5.7.2.buildcompare) | 3.9M |
 | [5.6.1](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.6.1/pom) | [mvn jdk17](swagger-ui-5.6.1.buildspec) | [result](swagger-ui-5.6.1.buildinfo): [2 :heavy_check_mark: ](swagger-ui-5.6.1.buildcompare) | 4.0M |
 | [5.5.0](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.5.0/pom) | [mvn jdk19](swagger-ui-5.5.0.buildspec) | [result](swagger-ui-5.5.0.buildinfo): [2 :heavy_check_mark: ](swagger-ui-5.5.0.buildcompare) | 4.2M |
 | [5.4.2](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.4.2/pom) | [mvn jdk8](swagger-ui-5.4.2.buildspec) | [result](swagger-ui-5.4.2.buildinfo): [2 :heavy_check_mark: ](swagger-ui-5.4.2.buildcompare) | 4.2M |

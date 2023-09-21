@@ -3,8 +3,8 @@
   <groupId>com.flowlogix</groupId>
   <artifactId>flowlogix</artifactId>
   <versioning>
-    <latest>7.1.2</latest>
-    <release>7.1.2</release>
+    <latest>8.0-M1</latest>
+    <release>8.0-M1</release>
     <versions>
       <version>0.8.6</version>
       <version>0.8.7</version>
@@ -120,6 +120,7 @@
       <version>5.4.1</version>
       <version>5.5</version>
       <version>5.5.1</version>
+      <version>5.5.2</version>
       <version>6.0</version>
       <version>6.1</version>
       <version>6.2-M1</version>
@@ -134,7 +135,9 @@
       <version>7.1</version>
       <version>7.1.1</version>
       <version>7.1.2</version>
+      <version>7.1.3</version>
+      <version>8.0-M1</version>
     </versions>
-    <lastUpdated>20230920000322</lastUpdated>
+    <lastUpdated>20230921034151</lastUpdated>
   </versioning>
 </metadata>
