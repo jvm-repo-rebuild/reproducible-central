@@ -1,0 +1,7 @@
+version=8.0-M1
+ok=12
+ko=0
+okFiles="flowlogix-8.0-M1.pom flowlogix-bom-8.0-M1.pom jakarta-ee-8.0-M1.pom flowlogix-jee-8.0-M1.pom flowlogix-jee-8.0-M1.jar flowlogix-jee-8.0-M1-tests.jar flowlogix-datamodel-8.0-M1.pom flowlogix-datamodel-8.0-M1.jar flowlogix-datamodel-8.0-M1-tests.jar jee-examples-8.0-M1.pom jee-examples-8.0-M1.war jee-examples-8.0-M1-tests.jar"
+koFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
