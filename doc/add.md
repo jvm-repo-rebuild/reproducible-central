@@ -4,8 +4,6 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20230922144328 --> [fmt-maven-plugin](../content/com/spotify/fmt-maven-plugin/README.md) | [2.20](../content/com/spotify/fmt-maven-plugin/fmt-maven-plugin-2.20.buildspec) :heavy_check_mark: | [2.21.1](../content/com/spotify/fmt-maven-plugin/fmt-maven-plugin-2.21.1.buildspec) | `bin/add-new-release.sh content/com/spotify/fmt-maven-plugin/fmt-maven-plugin-2.20.buildspec 2.21.1` |
-| <!-- 20230922143553 --> [liftwizard](../content/io/liftwizard/README.md) | [2.1.1](../content/io/liftwizard/liftwizard-2.1.1.buildspec) :heavy_check_mark: | [2.1.2](../content/io/liftwizard/liftwizard-2.1.2.buildspec) | `bin/add-new-release.sh content/io/liftwizard/liftwizard-2.1.1.buildspec 2.1.2` |
 | <!-- 20230917013128 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.1](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec) :heavy_check_mark: | [10.4.2-beta-3](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2-beta-3.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec 10.4.2-beta-3` |
 | <!-- 20230911001855 --> [alluxio-parent](../content/org/alluxio/alluxio/README.md) | [303](../content/org/alluxio/alluxio/alluxio-303.buildspec) :heavy_check_mark: | [304](../content/org/alluxio/alluxio/alluxio-304.buildspec) | `bin/add-new-release.sh content/org/alluxio/alluxio/alluxio-303.buildspec 304` |
 <!-- END GENERATED ADD OK -->
@@ -14,7 +12,6 @@ New Releases To Add
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
 | <!-- 20230922112748 --> [org.apache.sling.feature.cpconverter](../content/org/apache/sling/org.apache.sling.feature.cpconverter/README.md) | [1.3.0](../content/org/apache/sling/org.apache.sling.feature.cpconverter/org.apache.sling.feature.cpconverter-1.3.0.buildspec) :warning: | [1.3.4](../content/org/apache/sling/org.apache.sling.feature.cpconverter/org.apache.sling.feature.cpconverter-1.3.4.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.feature.cpconverter/org.apache.sling.feature.cpconverter-1.3.0.buildspec 1.3.4` |
-| <!-- 20230922111024 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | [3.1.3](../content/io/smallrye/jandex/jandex-3.1.3.buildspec) :warning: [:memo:](https://github.com/smallrye/smallrye-parent/pull/420) | [3.1.5](../content/io/smallrye/jandex/jandex-3.1.5.buildspec) | `bin/add-new-release.sh content/io/smallrye/jandex/jandex-3.1.3.buildspec 3.1.5` |
 | <!-- 20230921202539 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.28.2](../content/org/finos/legend/engine/legend-engine-4.28.2.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.28.2` |
 | <!-- 20230914144430 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | [6.0.14](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.0.14.buildspec) :warning: | [6.2.0](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.2.0.buildspec) | `bin/add-new-release.sh content/com/adobe/acs/aem-commons/acs-aem-commons-6.0.14.buildspec 6.2.0` |
 | <!-- 20230914103929 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | [1.17.0-alpha](../content/io/opentelemetry/instrumentation/opentelemetry-1.17.0-alpha.buildspec) :warning: | [1.30.0](../content/io/opentelemetry/instrumentation/opentelemetry-1.30.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/instrumentation/opentelemetry-1.17.0-alpha.buildspec 1.30.0` |
@@ -55,6 +52,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20230922111024 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.1.5 :warning: [:memo:](https://github.com/smallrye/smallrye-parent/pull/420) |
 | <!-- 20230920083340 --> [karaf](../content/org/apache/karaf/karaf/README.md) | 4.4.4 :warning: [:memo:](https://issues.apache.org/jira/browse/KARAF-7751) |
 | <!-- 20230919180519 --> [artemis-pom](../content/org/apache/activemq/artemis/README.md) | 2.31.0 :warning: [:memo:](https://github.com/apache/activemq-artemis/pull/4620) |
 | <!-- 20230919083013 --> [camel-k-runtime-project](../content/org/apache/camel/camel-k-runtime/README.md) | 3.2.0 :warning: |
