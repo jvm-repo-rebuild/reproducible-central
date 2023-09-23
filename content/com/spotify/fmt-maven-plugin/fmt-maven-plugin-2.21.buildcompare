@@ -1,0 +1,7 @@
+version=2.21
+ok=3
+ko=0
+okFiles="fmt-maven-plugin-2.21.pom fmt-maven-plugin-2.21.jar fmt-maven-plugin-2.21-sources.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

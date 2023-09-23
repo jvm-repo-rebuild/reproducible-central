@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.spotify.fmt:fmt-maven-plugin
+group-id=com.spotify.fmt
+artifact-id=fmt-maven-plugin
+version=2.21
+
+# source information
+source.scm.uri=scm:git:git@github.com:spotify/fmt-maven-plugin.git
+source.scm.tag=2.21
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=fmt-maven-plugin-2.21.pom
+outputs.0.length=6987
+outputs.0.checksums.sha512=f75ed5118c6ba5daafcfb4fe7918b52c4a9eeb2b913bd5b8776a328f3b1b21fce98da195ba79a6753f753a80f0c0e16d3567fd427a64a8f2c086c4324dd0cef1
+
+outputs.1.filename=fmt-maven-plugin-2.21.jar
+outputs.1.length=50522
+outputs.1.checksums.sha512=1ba50e03d15071ec79c8449d4b07372b9effb0d25343d21b9883e56b79800ecb12a6f1bda195d374db109784181506a456bc0a952bcb5193fdbf0be3cf4aa48b
+
+outputs.2.filename=fmt-maven-plugin-2.21-sources.jar
+outputs.2.length=30590
+outputs.2.checksums.sha512=b46627ee1efa2738e72dc50b31e615dc715af9d735e7144410f1b0650bcbbe0fafb23fbc6e24b70caa1d13d0f0bef01f4d97b98d6a7287fad7e2ba13e90223d7
