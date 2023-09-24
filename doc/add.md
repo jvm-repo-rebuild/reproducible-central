@@ -4,7 +4,10 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20230917013128 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.1](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec) :heavy_check_mark: | [10.4.2-beta-3](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2-beta-3.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec 10.4.2-beta-3` |
+| <!-- 20230924203125 --> [maven-shade-plugin](../content/org/apache/maven/plugins/maven-shade-plugin/README.md) | [3.5.0](../content/org/apache/maven/plugins/maven-shade-plugin/maven-shade-plugin-3.5.0.buildspec) :heavy_check_mark: | [3.5.1](../content/org/apache/maven/plugins/maven-shade-plugin/maven-shade-plugin-3.5.1.buildspec) | `bin/add-new-release.sh content/org/apache/maven/plugins/maven-shade-plugin/maven-shade-plugin-3.5.0.buildspec 3.5.1` |
+| <!-- 20230924095100 --> [avro-toplevel](../content/org/apache/avro/README.md) | [1.11.2](../content/org/apache/avro/avro-1.11.2.buildspec) :heavy_check_mark: | [1.11.3](../content/org/apache/avro/avro-1.11.3.buildspec) | `bin/add-new-release.sh content/org/apache/avro/avro-1.11.2.buildspec 1.11.3` |
+| <!-- 20230924012957 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.1](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec) :heavy_check_mark: | [10.4.2-beta-4](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2-beta-4.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec 10.4.2-beta-4` |
+| <!-- 20230923224308 --> [mybatis-parent](../content/org/mybatis/parent/README.md) | [38](../content/org/mybatis/parent/mybatis-parent-38.buildspec) :heavy_check_mark: | [39](../content/org/mybatis/parent/mybatis-parent-39.buildspec) | `bin/add-new-release.sh content/org/mybatis/parent/mybatis-parent-38.buildspec 39` |
 | <!-- 20230911001855 --> [alluxio-parent](../content/org/alluxio/alluxio/README.md) | [303](../content/org/alluxio/alluxio/alluxio-303.buildspec) :heavy_check_mark: | [304](../content/org/alluxio/alluxio/alluxio-304.buildspec) | `bin/add-new-release.sh content/org/alluxio/alluxio/alluxio-303.buildspec 304` |
 <!-- END GENERATED ADD OK -->
 
