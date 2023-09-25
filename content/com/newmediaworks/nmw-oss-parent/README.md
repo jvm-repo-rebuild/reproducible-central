@@ -13,6 +13,7 @@ rebuilding **2 releases** of com.newmediaworks:nmw-oss-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.21.0](https://central.sonatype.com/artifact/com.newmediaworks/nmw-oss-parent/1.21.0/pom) | | | |
 | [1.20.1](https://central.sonatype.com/artifact/com.newmediaworks/nmw-oss-parent/1.20.1/pom) | [mvn jdk11](nmw-oss-parent-1.20.1.buildspec) | [result](nmw-oss-parent-1.20.1.buildinfo): [1 :heavy_check_mark: ](nmw-oss-parent-1.20.1.buildcompare) | 245K |
 | [1.20.0](https://central.sonatype.com/artifact/com.newmediaworks/nmw-oss-parent/1.20.0/pom) | [mvn jdk11](nmw-oss-parent-1.20.0.buildspec) | [result](nmw-oss-parent-1.20.0.buildinfo): [1 :heavy_check_mark: ](nmw-oss-parent-1.20.0.buildcompare) | 222K |
 

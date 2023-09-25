@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2547 releases** of **531 projects**:
-   - **1972** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 575 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **2550 releases** of **531 projects**:
+   - **1974** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 576 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 531 projects, 421 have at least one fully reproducible release, 110 have none
 
 <!-- END GENERATED INTRO -->
@@ -224,7 +224,7 @@ Its objectives are to provide:
 | org.apache.activemq | <a name='org.apache.activemq:activemq-parent'></a>[activemq-parent](content/org/apache/activemq/README.md) | 8 | 1 :heavy_check_mark: / 7 :warning: |
 | org.apache.any23 | <a name='org.apache.any23:apache-any23'></a>[apache-any23](content/org/apache/any23/README.md) | 1 | 1 :warning: |
 | org.apache | <a name='org.apache:apache'></a>[apache](content/org/apache/apache/README.md) | 8 | 7 :heavy_check_mark: / 1 :warning: |
-| org.apache.avro | <a name='org.apache.avro:avro-toplevel'></a>[avro-toplevel](content/org/apache/avro/README.md) | 2 | 2 :heavy_check_mark: |
+| org.apache.avro | <a name='org.apache.avro:avro-toplevel'></a>[avro-toplevel](content/org/apache/avro/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | org.apache.axis2 | <a name='org.apache.axis2:axis2'></a>[axis2](content/org/apache/axis2/README.md) | 1 | 1 :warning: |
 | org.apache.batchee | <a name='org.apache.batchee:batchee'></a>[batchee](content/org/apache/batchee/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | org.apache.drill | <a name='org.apache.drill:drill-root'></a>[drill-root](content/org/apache/drill/README.md) | 3 | 3 :warning: |
@@ -321,7 +321,7 @@ Its objectives are to provide:
 | | <a name='org.apache.maven.plugins:maven-resources-plugin'></a>[maven-resources-plugin](content/org/apache/maven/plugins/maven-resources-plugin/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.apache.maven.plugins:maven-scm-publish-plugin'></a>[maven-scm-publish-plugin](content/org/apache/maven/plugins/maven-scm-publish-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-scripting-plugin'></a>[maven-scripting-plugin](content/org/apache/maven/plugins/maven-scripting-plugin/README.md) | 1 | 1 :heavy_check_mark: |
-| | <a name='org.apache.maven.plugins:maven-shade-plugin'></a>[maven-shade-plugin](content/org/apache/maven/plugins/maven-shade-plugin/README.md) | 7 | 7 :heavy_check_mark: |
+| | <a name='org.apache.maven.plugins:maven-shade-plugin'></a>[maven-shade-plugin](content/org/apache/maven/plugins/maven-shade-plugin/README.md) | 8 | 8 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-site-plugin'></a>[maven-site-plugin](content/org/apache/maven/plugins/maven-site-plugin/README.md) | 15 | 13 :heavy_check_mark: / 2 :warning: |
 | | <a name='org.apache.maven.plugins:maven-source-plugin'></a>[maven-source-plugin](content/org/apache/maven/plugins/maven-source-plugin/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.apache.maven.plugins:maven-toolchains-plugin'></a>[maven-toolchains-plugin](content/org/apache/maven/plugins/maven-toolchains-plugin/README.md) | 1 | 1 :heavy_check_mark: |
@@ -516,7 +516,7 @@ Its objectives are to provide:
 | | <a name='org.mybatis:mybatis-2-spring'></a>[mybatis-2-spring](content/org/mybatis/mybatis-2-spring/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.mybatis:mybatis-spring'></a>[mybatis-spring](content/org/mybatis/mybatis-spring/README.md) | 4 | 1 :heavy_check_mark: / 3 :warning: |
 | | <a name='org.mybatis:mybatis2'></a>[mybatis2](content/org/mybatis/mybatis2/README.md) | 1 | 1 :heavy_check_mark: |
-| | <a name='org.mybatis:mybatis-parent'></a>[mybatis-parent](content/org/mybatis/parent/README.md) | 5 | 5 :heavy_check_mark: |
+| | <a name='org.mybatis:mybatis-parent'></a>[mybatis-parent](content/org/mybatis/parent/README.md) | 6 | 6 :heavy_check_mark: |
 | org.mybatis.scala | <a name='org.mybatis.scala:mybatis-scala-parent_2.13'></a>[mybatis-scala-parent_2.13](content/org/mybatis/scala/README.md) | 1 | 1 :heavy_check_mark: |
 | org.mybatis.caches | <a name='org.mybatis.caches:mybatis-caffeine'></a>[mybatis-caffeine](content/org/mybatis/caches/mybatis-caffeine/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.mybatis.caches:mybatis-ehcache'></a>[mybatis-ehcache](content/org/mybatis/caches/mybatis-ehcache/README.md) | 1 | 1 :heavy_check_mark: |
@@ -554,7 +554,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 24 | 24 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **531** | **2547** | **1972** :heavy_check_mark: **575** :warning: |
+| **Count:** | **531** | **2550** | **1974** :heavy_check_mark: **576** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -566,16 +566,16 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      22 gradle     11
      26 mvn         7
-    978 mvn         8
+    979 mvn         8
       1 mvn         9
-    784 mvn        11
+    785 mvn        11
       1 mvn        11.0.19
       1 mvn        11.0.6
       1 mvn        13
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    183 mvn        17
+    184 mvn        17
       2 mvn        17.0.7
       1 mvn        17.0.8
       1 mvn        17.0.8.1
