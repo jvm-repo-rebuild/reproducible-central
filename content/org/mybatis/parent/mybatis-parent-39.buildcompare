@@ -1,0 +1,5 @@
+version=39
+ok=2
+ko=0
+okFiles="mybatis-parent-39.pom mybatis-parent-39-site.xml"
+koFiles=""
