@@ -1,0 +1,30 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=java-spdx-library
+group-id=org.spdx
+artifact-id=java-spdx-library
+version=1.1.8
+
+# source information
+source.scm.uri=scm:git:git@github.com:spdx/Spdx-Java-Library.git
+source.scm.tag=v1.1.8
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=java-spdx-library-1.1.8.pom
+outputs.0.length=9547
+outputs.0.checksums.sha512=431b395cd00fd4eff6032c761d03324a624eb8a6a9bcfb51c96811f905f5f64f8d5abe5a7e1181c44d4ee0ca3413634f6421956dc95130b83b4627391e4cc1cf
+
+outputs.1.filename=java-spdx-library-1.1.8.jar
+outputs.1.length=3613731
+outputs.1.checksums.sha512=d54b5a8d77e1acb18892322773c5a7d157a5151da6e0053df3db442cf49085f0c6d373e1a63f9a661eba5f6afa2d20ac6b5df84f0b8df7c016ae6116afdc9896
