@@ -1,0 +1,34 @@
+1 / 1 target/reference/semanticcms-tag-reference-1.10.1-sources.jar target/semanticcms-tag-reference-1.10.1-sources.jar
+--- target/reference/semanticcms-tag-reference-1.10.1-sources.jar
++++ target/semanticcms-tag-reference-1.10.1-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 42333 bytes, number of entries: 33
+│ +Zip file size: 42305 bytes, number of entries: 33
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-02 18:27 META-INF/
+│  -rw-r--r--  2.0 unx      392 b- defN 23-Aug-02 18:27 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-02 18:27 com/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-02 18:27 com/semanticcms/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-02 18:27 com/semanticcms/tagreference/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-02 18:27 META-INF/resources/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Aug-02 18:27 META-INF/resources/semanticcms-tag-reference/
+│ @@ -27,9 +27,9 @@
+│  -rw-r--r--  2.0 unx     2048 b- defN 23-Aug-02 18:27 META-INF/resources/semanticcms-tag-reference/tag-summary.inc.jsp
+│  -rw-r--r--  2.0 unx    10434 b- defN 23-Aug-02 18:27 META-INF/resources/semanticcms-tag-reference/tag.inc.jsp
+│  -rw-r--r--  2.0 unx     4965 b- defN 23-Aug-02 18:27 META-INF/resources/semanticcms-tag-reference/taglib.inc.jsp
+│  -rw-r--r--  2.0 unx     2144 b- defN 23-Aug-02 18:27 META-INF/resources/semanticcms-tag-reference/tags.inc.jsp
+│  -rw-r--r--  2.0 unx    10191 b- defN 23-Aug-02 18:27 META-INF/tag-reference.tld
+│  -rw-r--r--  2.0 unx     2463 b- defN 23-Aug-02 18:27 com/semanticcms/tagreference/Maven.properties
+│  -rw-rw-r--  2.0 unx    26669 b- defN 23-Aug-02 18:27 META-INF/maven/com.semanticcms/semanticcms-tag-reference/pom.xml
+│ --rw-rw-r--  2.0 unx      107 b- defN 23-Aug-02 18:27 META-INF/maven/com.semanticcms/semanticcms-tag-reference/pom.properties
+│ -33 files, 129743 bytes uncompressed, 36911 bytes compressed:  71.6%
+│ +-rw-rw-r--  2.0 unx       76 b- defN 23-Aug-02 18:27 META-INF/maven/com.semanticcms/semanticcms-tag-reference/pom.properties
+│ +33 files, 129712 bytes uncompressed, 36883 bytes compressed:  71.6%
+├── META-INF/maven/com.semanticcms/semanticcms-tag-reference/pom.properties
+│ @@ -1,4 +1,3 @@
+│ -#Created by Apache Maven 3.9.2
+│ -groupId=com.semanticcms
+│  artifactId=semanticcms-tag-reference
+│ +groupId=com.semanticcms
+│  version=1.10.1
+

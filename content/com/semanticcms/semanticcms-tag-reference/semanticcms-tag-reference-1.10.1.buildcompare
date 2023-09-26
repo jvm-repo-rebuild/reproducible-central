@@ -1,0 +1,6 @@
+version=1.10.1
+ok=2
+ko=1
+okFiles="semanticcms-tag-reference-1.10.1.pom semanticcms-tag-reference-1.10.1.jar"
+koFiles="semanticcms-tag-reference-1.10.1-sources.jar"
+# diffoscope target/reference/semanticcms-tag-reference-1.10.1-sources.jar target/semanticcms-tag-reference-1.10.1-sources.jar
