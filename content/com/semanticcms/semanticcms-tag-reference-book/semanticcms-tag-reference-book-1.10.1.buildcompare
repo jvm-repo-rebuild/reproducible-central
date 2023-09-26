@@ -1,0 +1,5 @@
+version=1.10.1
+ok=3
+ko=0
+okFiles="semanticcms-tag-reference-book-1.10.1.pom semanticcms-tag-reference-book-1.10.1.jar semanticcms-tag-reference-book-1.10.1-sources.jar"
+koFiles=""

@@ -1,0 +1,18 @@
+groupId=com.semanticcms
+artifactId=semanticcms-tag-reference-book
+display=${groupId}:${artifactId}
+version=1.10.1
+
+gitRepo=https://github.com/ao-apps/semanticcms-tag-reference.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.2
+jdk=17
+newline=lf
+#umask=022
+
+command="mvn -f book -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=book/target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
