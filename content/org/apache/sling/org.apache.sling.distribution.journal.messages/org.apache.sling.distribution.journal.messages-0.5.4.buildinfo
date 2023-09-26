@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Journal based Content Distribution - Messages bundle
+group-id=org.apache.sling
+artifact-id=org.apache.sling.distribution.journal.messages
+version=0.5.4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-distribution-journal-messages.git
+source.scm.tag=org.apache.sling.distribution.journal.messages-0.5.4
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=org.apache.sling.distribution.journal.messages-0.5.4.pom
+outputs.0.length=4505
+outputs.0.checksums.sha512=a957223963ec3c9d635cca1773dc98be7477fbea4baf770e336e0a631472420319370fc6a724311bd2f2ba32392f9d1a6e8b36a6c5dd4b601c89aac994df73ce
+
+outputs.1.filename=org.apache.sling.distribution.journal.messages-0.5.4.jar
+outputs.1.length=44567
+outputs.1.checksums.sha512=5b0e9b2af4268bdcd61adf991c9480da0465525cac67918e07f3a89a207c4836cee0972a3aa55f6f3e4b04afc44c4288e2bacb869559038a540261c68eb6b796
+
+outputs.2.filename=org.apache.sling.distribution.journal.messages-0.5.4-source-release.zip
+outputs.2.length=41039
+outputs.2.checksums.sha512=6b36b4012977b93b9f3c3ae4590b87ef162d8addd2386d459b9d19e642a6e39fcf601434ac93c01243e1b5273929aa365fa5d590a6f8d5e97e1956e558f62730
+
+outputs.3.filename=org.apache.sling.distribution.journal.messages-0.5.4-sources.jar
+outputs.3.length=29642
+outputs.3.checksums.sha512=432212354784fb11db03c605f0ff392a4c6554bfa833a8deadfa4ecb7032bd6e0ba303b46a868d4677ae214b945277e36297c4da17222cff591cb5092ceda4a1
+
+outputs.4.filename=org.apache.sling.distribution.journal.messages-0.5.4-sources.jar
+outputs.4.length=29642
+outputs.4.checksums.sha512=432212354784fb11db03c605f0ff392a4c6554bfa833a8deadfa4ecb7032bd6e0ba303b46a868d4677ae214b945277e36297c4da17222cff591cb5092ceda4a1
