@@ -1,0 +1,18 @@
+groupId=com.semanticcms
+artifactId=semanticcms-parent-book
+display=${groupId}:${artifactId}
+version=1.17.2
+
+gitRepo=https://github.com/ao-apps/semanticcms-parent.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.3
+jdk=17
+newline=lf
+#umask=022
+
+command="mvn -f book -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=book/target/${artifactId}-${version}.buildinfo
+
+#diffoscope=book/${artifactId}-${version}.diffoscope
+issue=
