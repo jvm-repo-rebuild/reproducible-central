@@ -1,0 +1,5 @@
+version=1.14.0
+ok=1
+ko=0
+okFiles="semanticcms-bom-1.14.0.pom"
+koFiles=""
