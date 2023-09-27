@@ -1,0 +1,18 @@
+groupId=com.semanticcms
+artifactId=semanticcms-core-bom
+display=${groupId}:${artifactId}
+version=1.10.0
+
+gitRepo=https://github.com/ao-apps/semanticcms-core-bom.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.3
+jdk=17
+newline=lf
+#umask=022
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
