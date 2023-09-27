@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=SemanticCMS All
+group-id=com.semanticcms
+artifact-id=semanticcms-all
+version=1.14.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/ao-apps/semanticcms-all.git
+source.scm.tag=semanticcms-all-1.14.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=semanticcms-all-1.14.0.pom
+outputs.0.length=22621
+outputs.0.checksums.sha512=3f02d2248dd4fd03579b6b4e452d2a17a03f99ab1e2586e7b0628e78cdd7a39d9d68300fc8974ad644a80bd23b86844e50be73ccc59a84f08f9473eb0d69f7a3
+
+outputs.1.filename=semanticcms-all-1.14.0.jar
+outputs.1.length=5146
+outputs.1.checksums.sha512=0637bb92d6ce697b202e5e212ba092b628b71e221c7f6f460836924695aaa446d9e595d9936db13cbc6c5612c174fb24349206358a16607b65d0e3d03eed988c
+
+outputs.2.filename=semanticcms-all-1.14.0-sources.jar
+outputs.2.length=5258
+outputs.2.checksums.sha512=4891c0be52bba274b05a4dc15186eadb9bd2faada0ee2326affc32832dda1ed7ec97d44b922fa2fb28cd832a57ee6e66e9784e423cb4f8fb02cb6bb2815b6032
