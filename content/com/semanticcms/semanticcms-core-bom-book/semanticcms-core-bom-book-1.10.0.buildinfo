@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=SemanticCMS Core BOM Book
+group-id=com.semanticcms
+artifact-id=semanticcms-core-bom-book
+version=1.10.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/ao-apps/semanticcms-core-bom.git
+source.scm.tag=semanticcms-core-bom-book-1.10.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=semanticcms-core-bom-book-1.10.0.pom
+outputs.0.length=14534
+outputs.0.checksums.sha512=98bcd7a7ca268bbd0c1c3b1424e790a7e54048900cd567f01dc021d1f37f210cffb4906dd339ef6db88ddc33e87ced21db7c4db973dc537f752a90fee74b096a
+
+outputs.1.filename=semanticcms-core-bom-book-1.10.0.jar
+outputs.1.length=340708
+outputs.1.checksums.sha512=fa422913e5f017674f2f662c75c6f068d28852baad8e10d6288e46182c0c2812fa5e819a6a40a27bf56995fd07270215d5c119d7c983b53ca5b68f41833ecbb8
+
+outputs.2.filename=semanticcms-core-bom-book-1.10.0-sources.jar
+outputs.2.length=341163
+outputs.2.checksums.sha512=f029424d04bc2acf8a9498620d777aa2698b22d5a7ea0a8018775f723246ae99caa1d2785c216da8d9db7bf877036ef86fddc8ffec4b39f6dfe520edf11bc6db
