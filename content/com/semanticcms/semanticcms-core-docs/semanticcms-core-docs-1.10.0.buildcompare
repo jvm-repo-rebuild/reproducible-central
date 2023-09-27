@@ -1,0 +1,7 @@
+version=1.10.0
+ok=4
+ko=0
+okFiles="semanticcms-core-docs-1.10.0.pom semanticcms-core-docs-1.10.0.war semanticcms-core-docs-1.10.0-classes.jar semanticcms-core-docs-1.10.0-sources.jar"
+koFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
