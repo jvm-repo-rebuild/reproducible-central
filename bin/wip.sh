@@ -18,7 +18,7 @@ dev=$(mvn help:effective-pom -f bin/.wip.pom -Dartifact=$groupId:$artifactId:$ve
 gitRepo="$(echo "$dev" | sed -e 's/scm:git://' | sed -e 's_git@github.com:_https://github.com/_')"
 echo "$gitRepo"
 
-[-f wip/maven-metadata.xml] && rm wip/maven-metadata.xml
+[ -f wip/maven-metadata.xml ] && rm wip/maven-metadata.xml
 spec="wip/$(basename $dir .pom)-$version.buildspec"
 
 echo "groupId=$groupId
