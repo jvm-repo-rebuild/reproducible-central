@@ -13,6 +13,7 @@ rebuilding **9 releases** of com.fasterxml:oss-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [55](https://central.sonatype.com/artifact/com.fasterxml/oss-parent/55/pom) | | | |
 | [54](https://central.sonatype.com/artifact/com.fasterxml/oss-parent/54/pom) | [mvn jdk11](oss-parent-54.buildspec) | [result](oss-parent-54.buildinfo): [2 :heavy_check_mark: ](oss-parent-54.buildcompare) | 25K |
 | [53](https://central.sonatype.com/artifact/com.fasterxml/oss-parent/53/pom) | [mvn jdk11](oss-parent-53.buildspec) | [result](oss-parent-53.buildinfo): [2 :heavy_check_mark: ](oss-parent-53.buildcompare) | 25K |
 | [52](https://central.sonatype.com/artifact/com.fasterxml/oss-parent/52/pom) | [mvn jdk11](oss-parent-52.buildspec) | [result](oss-parent-52.buildinfo): [2 :heavy_check_mark: ](oss-parent-52.buildcompare) | 25K |

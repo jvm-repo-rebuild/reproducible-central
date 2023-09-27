@@ -26,6 +26,7 @@ rebuilding **2 releases** of de.unentscheidbar:migratedb:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.3.0](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/0.3.0/pom) | | | |
 | [0.2.0](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/0.2.0/pom) | [mvn jdk11](migratedb-0.2.0.buildspec) | [result](migratedb-0.2.0.buildinfo): [17 :heavy_check_mark: ](migratedb-0.2.0.buildcompare) | 4.3M |
 | [0.1.0](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/0.1.0/pom) | [mvn jdk11](migratedb-0.1.0.buildspec) | [result](migratedb-0.1.0.buildinfo): [17 :heavy_check_mark: ](migratedb-0.1.0.buildcompare) | 4.3M |
 

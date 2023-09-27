@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2568 releases** of **536 projects**:
-   - **1991** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **2583 releases** of **550 projects**:
+   - **2006** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 577 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 536 projects, 425 have at least one fully reproducible release, 111 have none
+   - on 550 projects, 439 have at least one fully reproducible release, 111 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -143,7 +143,21 @@ Its objectives are to provide:
 | com.newmediaworks | <a name='com.newmediaworks:nmw-oss-parent'></a>[nmw-oss-parent](content/com/newmediaworks/nmw-oss-parent/README.md) | 3 | 3 :heavy_check_mark: |
 | com.ongres.stringprep | <a name='com.ongres.stringprep:parent'></a>[parent](content/com/ongres/stringprep/README.md) | 1 | 1 :warning: |
 | com.scalapenos | <a name='com.scalapenos:stamina_2.11'></a>[stamina_2.11](content/com/scalapenos/stamina/README.md) | 2 | 2 :heavy_check_mark: |
-| com.semanticcms | <a name='com.semanticcms:semanticcms-parent'></a>[semanticcms-parent](content/com/semanticcms/semanticcms-parent/README.md) | 1 | 1 :heavy_check_mark: |
+| com.semanticcms | <a name='com.semanticcms:semanticcms-all'></a>[semanticcms-all](content/com/semanticcms/semanticcms-all/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='com.semanticcms:semanticcms-all-book'></a>[semanticcms-all-book](content/com/semanticcms/semanticcms-all-book/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='com.semanticcms:semanticcms-bom'></a>[semanticcms-bom](content/com/semanticcms/semanticcms-bom/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='com.semanticcms:semanticcms-bom-book'></a>[semanticcms-bom-book](content/com/semanticcms/semanticcms-bom-book/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='com.semanticcms:semanticcms-core-all'></a>[semanticcms-core-all](content/com/semanticcms/semanticcms-core-all/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='com.semanticcms:semanticcms-core-all-book'></a>[semanticcms-core-all-book](content/com/semanticcms/semanticcms-core-all-book/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='com.semanticcms:semanticcms-core-bom'></a>[semanticcms-core-bom](content/com/semanticcms/semanticcms-core-bom/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='com.semanticcms:semanticcms-core-bom-book'></a>[semanticcms-core-bom-book](content/com/semanticcms/semanticcms-core-bom-book/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='com.semanticcms:semanticcms-core-breadcrumblist-json-ld'></a>[semanticcms-core-breadcrumblist-json-ld](content/com/semanticcms/semanticcms-core-breadcrumblist-json-ld/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='com.semanticcms:semanticcms-core-breadcrumblist-json-ld-book'></a>[semanticcms-core-breadcrumblist-json-ld-book](content/com/semanticcms/semanticcms-core-breadcrumblist-json-ld-book/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='com.semanticcms:semanticcms-core-docs'></a>[semanticcms-core-docs](content/com/semanticcms/semanticcms-core-docs/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='com.semanticcms:semanticcms-core-docs-book'></a>[semanticcms-core-docs-book](content/com/semanticcms/semanticcms-core-docs-book/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='com.semanticcms:semanticcms-news-all'></a>[semanticcms-news-all](content/com/semanticcms/semanticcms-news-all/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='com.semanticcms:semanticcms-news-all-book'></a>[semanticcms-news-all-book](content/com/semanticcms/semanticcms-news-all-book/README.md) | 1 | 1 :heavy_check_mark: |
+| | <a name='com.semanticcms:semanticcms-parent'></a>[semanticcms-parent](content/com/semanticcms/semanticcms-parent/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='com.semanticcms:semanticcms-parent-book'></a>[semanticcms-parent-book](content/com/semanticcms/semanticcms-parent-book/README.md) | 7 | 7 :heavy_check_mark: |
 | | <a name='com.semanticcms:semanticcms-tag-reference'></a>[semanticcms-tag-reference](content/com/semanticcms/semanticcms-tag-reference/README.md) | 1 | 1 :warning: |
 | | <a name='com.semanticcms:semanticcms-tag-reference-book'></a>[semanticcms-tag-reference-book](content/com/semanticcms/semanticcms-tag-reference-book/README.md) | 1 | 1 :heavy_check_mark: |
@@ -174,7 +188,7 @@ Its objectives are to provide:
 | | <a name='io.cucumber:messages'></a>[messages](content/io/cucumber/messages/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='io.cucumber:tag-expressions'></a>[tag-expressions](content/io/cucumber/tag-expressions/README.md) | 7 | 7 :heavy_check_mark: |
 | io.dropwizard | <a name='io.dropwizard:dropwizard-project'></a>[dropwizard-project](content/io/dropwizard/core/README.md) | 57 | 54 :heavy_check_mark: / 3 :warning: |
-| io.dropwizard.metrics | <a name='io.dropwizard.metrics:metrics-parent'></a>[metrics-parent](content/io/dropwizard/metrics/README.md) | 35 | 14 :heavy_check_mark: / 21 :warning: |
+| io.dropwizard.metrics | <a name='io.dropwizard.metrics:metrics-parent'></a>[metrics-parent](content/io/dropwizard/metrics/README.md) | 36 | 15 :heavy_check_mark: / 21 :warning: |
 | io.dropwizard.metrics5 | <a name='io.dropwizard.metrics5:metrics-parent'></a>[metrics-parent](content/io/dropwizard/metrics5/README.md) | 10 | 3 :heavy_check_mark: / 7 :warning: |
 | io.dwpbank.movewp3 | <a name='io.dwpbank.movewp3:microservice-security-autoconfiguration'></a>[microservice-security-autoconfiguration](content/io/dwpbank/movewp3/microservice-security-autoconfiguration/README.md) | 1 | 1 :warning: |
 | io.fabric8 | <a name='io.fabric8:docker-maven-plugin'></a>[docker-maven-plugin](content/io/fabric8/docker-maven-plugin/README.md) | 20 | 18 :heavy_check_mark: / 2 :warning: |
@@ -559,7 +573,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 24 | 24 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **536** | **2568** | **1991** :heavy_check_mark: **577** :warning: |
+| **Count:** | **550** | **2583** | **2006** :heavy_check_mark: **577** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -580,7 +594,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    185 mvn        17
+    186 mvn        17
       2 mvn        17.0.7
       1 mvn        17.0.8
       1 mvn        17.0.8.1
@@ -615,7 +629,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       7 mvn-3.9.3  14
      12 mvn-3.9.3  14.0.2
       1 mvn-3.9.3  15.0.2
-     26 mvn-3.9.3  17
+     40 mvn-3.9.3  17
       6 mvn-3.9.3  17.0.1
       1 mvn-3.9.3  17.0.2
      52 mvn-3.9.3  17.0.3
