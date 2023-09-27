@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=SemanticCMS News All
+group-id=com.semanticcms
+artifact-id=semanticcms-news-all
+version=1.8.0
+
+# source information
+source.scm.uri=scm:git:git://github.com/ao-apps/semanticcms-news-all.git
+source.scm.tag=semanticcms-news-all-1.8.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=semanticcms-news-all-1.8.0.pom
+outputs.0.length=13271
+outputs.0.checksums.sha512=4bfc1618820fb167574840ca0077b73a42f088119a4c41d2879649ad6b522b776da30765c83b52700337328315a9e9c5a720a395adc4c216038bd62261550fa9
+
+outputs.1.filename=semanticcms-news-all-1.8.0.jar
+outputs.1.length=4515
+outputs.1.checksums.sha512=90a728f510dd75a76d9275d57067110214b7ebb3803a529b082f9c7e17469592fe33a3ba653c0445a21cd9725fc6c78b4fe4d9c133d8f3f176330a6cde950670
+
+outputs.2.filename=semanticcms-news-all-1.8.0-sources.jar
+outputs.2.length=4662
+outputs.2.checksums.sha512=26a128af4bfd1422c452376d8c094e390c4e95311905c6acdb1fc5e697a9ba623e5204e5a597048f873b6f03e0d6c9e84f856f9b5f39b06e8376ad9c675e93f2
