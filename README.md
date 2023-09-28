@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2583 releases** of **550 projects**:
-   - **2006** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **2584 releases** of **550 projects**:
+   - **2007** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 577 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 550 projects, 439 have at least one fully reproducible release, 111 have none
 
@@ -31,7 +31,7 @@ Its objectives are to provide:
 | com.adobe.acs | <a name='com.adobe.acs:acs-aem-commons'></a>[acs-aem-commons](content/com/adobe/acs/aem-commons/README.md) | 3 | 3 :warning: |
 | com.corgibytes | <a name='com.corgibytes:mrm'></a>[mrm](content/com/corgibytes/mrm/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='com.corgibytes:versions-maven-plugin'></a>[versions-maven-plugin](content/com/corgibytes/versions-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
-| com.fasterxml | <a name='com.fasterxml:oss-parent'></a>[oss-parent](content/com/fasterxml/oss-parent/README.md) | 9 | 9 :heavy_check_mark: |
+| com.fasterxml | <a name='com.fasterxml:oss-parent'></a>[oss-parent](content/com/fasterxml/oss-parent/README.md) | 10 | 10 :heavy_check_mark: |
 | com.fasterxml.uuid | <a name='com.fasterxml.uuid:java-uuid-generator'></a>[java-uuid-generator](content/com/fasterxml/uuid/README.md) | 2 | 2 :warning: |
 | com.fasterxml.jackson.core | <a name='com.fasterxml.jackson.core:jackson-annotations'></a>[jackson-annotations](content/com/fasterxml/jackson/annotations/README.md) | 4 | 4 :warning: |
 | | <a name='com.fasterxml.jackson.core:jackson-core'></a>[jackson-core](content/com/fasterxml/jackson/core/README.md) | 4 | 1 :heavy_check_mark: / 3 :warning: |
@@ -573,7 +573,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 24 | 24 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **550** | **2583** | **2006** :heavy_check_mark: **577** :warning: |
+| **Count:** | **550** | **2584** | **2007** :heavy_check_mark: **577** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -587,7 +587,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      26 mvn         7
     981 mvn         8
       1 mvn         9
-    786 mvn        11
+    787 mvn        11
       1 mvn        11.0.19
       1 mvn        11.0.6
       1 mvn        13
