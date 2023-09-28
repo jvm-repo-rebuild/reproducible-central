@@ -1,0 +1,60 @@
+1 / 4 target/reference/hsac-fitnesse-fixtures-5.2.45.pom pom.xml
+--- target/reference/hsac-fitnesse-fixtures-5.2.45.pom
++++ pom.xml
+│   --- target/reference/hsac-fitnesse-fixtures-5.2.45.pom
+├── +++ pom.xml
+│ @@ -26,15 +26,15 @@
+│    <scm>
+│      <connection>scm:git:git://github.com/fhoeben/hsac-fitnesse-fixtures.git</connection>
+│      <url>https://github.com/fhoeben/hsac-fitnesse-fixtures.git</url>
+│      <developerConnection>scm:git:git://github.com/fhoeben/hsac-fitnesse-fixtures.git</developerConnection>
+│    </scm>
+│    <properties>
+│      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+│ -    <project.build.outputTimestamp>2023-09-27T09:10:41Z</project.build.outputTimestamp>
+│ +    <project.build.outputTimestamp>2023-09-02T12:12:11Z</project.build.outputTimestamp>
+│      <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+│      <hsac-fitnesse-plugin.version>1.32.10</hsac-fitnesse-plugin.version>
+│      <fitnesse.version>20230503</fitnesse.version>
+│      <praegus-toolchain-fitnesse-plugin.version>2.0.16</praegus-toolchain-fitnesse-plugin.version>
+│      <selenium.version>4.13.0</selenium.version>
+│      <slf4j.version>2.0.9</slf4j.version>
+│      <apache.http.version>4.5.14</apache.http.version>
+
+2 / 4 target/reference/hsac-fitnesse-fixtures-5.2.45.jar target/hsac-fitnesse-fixtures-5.2.45.jar
+--- target/reference/hsac-fitnesse-fixtures-5.2.45.jar
++++ target/hsac-fitnesse-fixtures-5.2.45.jar
+├── zipinfo {}
+│ @@ -1,372 +1,372 @@
+│ -Zip file size: 673401 bytes, number of entries: 370
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Sep-27 09:10 META-INF/
+...
+│ --rw-r--r--  2.0 unx       65 b- defN 23-Sep-27 09:10 META-INF/maven/nl.hsac/hsac-fitnesse-fixtures/pom.properties
+│ -370 files, 2747084 bytes uncompressed, 603049 bytes compressed:  78.1%
+│ +Zip file size: 673398 bytes, number of entries: 370
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Sep-02 12:12 META-INF/
+...
+│ +-rw-r--r--  2.0 unx       65 b- defN 23-Sep-02 12:12 META-INF/maven/nl.hsac/hsac-fitnesse-fixtures/pom.properties
+│ +370 files, 2747084 bytes uncompressed, 603046 bytes compressed:  78.1%
+├── META-INF/maven/nl.hsac/hsac-fitnesse-fixtures/pom.xml
+│ ├── META-INF/maven/nl.hsac/hsac-fitnesse-fixtures/pom.xml
+│ │ @@ -26,15 +26,15 @@
+│ │    <scm>
+│ │      <connection>scm:git:git://github.com/fhoeben/hsac-fitnesse-fixtures.git</connection>
+│ │      <url>https://github.com/fhoeben/hsac-fitnesse-fixtures.git</url>
+│ │      <developerConnection>scm:git:git://github.com/fhoeben/hsac-fitnesse-fixtures.git</developerConnection>
+│ │    </scm>
+│ │    <properties>
+│ │      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+│ │ -    <project.build.outputTimestamp>2023-09-27T09:10:41Z</project.build.outputTimestamp>
+│ │ +    <project.build.outputTimestamp>2023-09-02T12:12:11Z</project.build.outputTimestamp>
+│ │      <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+│ │      <hsac-fitnesse-plugin.version>1.32.10</hsac-fitnesse-plugin.version>
+│ │      <fitnesse.version>20230503</fitnesse.version>
+│ │      <praegus-toolchain-fitnesse-plugin.version>2.0.16</praegus-toolchain-fitnesse-plugin.version>
+│ │      <selenium.version>4.13.0</selenium.version>
+│ │      <slf4j.version>2.0.9</slf4j.version>
+│ │      <apache.http.version>4.5.14</apache.http.version>
+
+3 / 4 target/reference/hsac-fitnesse-fixtures-5.2.45-standalone.zip target/hsac-fitnesse-fixtures-5.2.45-standalone.zip
+4 / 4 target/reference/hsac-fitnesse-fixtures-5.2.45-sources.jar target/hsac-fitnesse-fixtures-5.2.45-sources.jar
