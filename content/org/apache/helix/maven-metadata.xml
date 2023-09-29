@@ -3,8 +3,8 @@
   <groupId>org.apache.helix</groupId>
   <artifactId>helix</artifactId>
   <versioning>
-    <latest>1.3.0</latest>
-    <release>1.3.0</release>
+    <latest>1.3.1</latest>
+    <release>1.3.1</release>
     <versions>
       <version>0.6.0-incubating</version>
       <version>0.6.1-incubating</version>
@@ -39,7 +39,8 @@
       <version>1.1.0</version>
       <version>1.2.0</version>
       <version>1.3.0</version>
+      <version>1.3.1</version>
     </versions>
-    <lastUpdated>20230726034915</lastUpdated>
+    <lastUpdated>20230929050801</lastUpdated>
   </versioning>
 </metadata>

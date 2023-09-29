@@ -4,10 +4,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20230928104334 --> [logging-parent](../content/org/apache/logging/parent/README.md) | [10.0.0](../content/org/apache/logging/parent/logging-parent-10.0.0.buildspec) :heavy_check_mark: | [10.1.0](../content/org/apache/logging/parent/logging-parent-10.1.0.buildspec) | `bin/add-new-release.sh content/org/apache/logging/parent/logging-parent-10.0.0.buildspec 10.1.0` |
-| <!-- 20230928083122 --> [github-client](../content/com/spotify/github-client/README.md) | [0.1.60](../content/com/spotify/github-client/github-client-0.1.60.buildspec) :heavy_check_mark: | [0.1.61](../content/com/spotify/github-client/github-client-0.1.61.buildspec) | `bin/add-new-release.sh content/com/spotify/github-client/github-client-0.1.60.buildspec 0.1.61` |
+| <!-- 20230929183420 --> [pmd-build-tools-config](../content/net/sourceforge/pmd/pmd-build-tools-config/README.md) | [21](../content/net/sourceforge/pmd/pmd-build-tools-config/pmd-build-tools-config-21.buildspec) :heavy_check_mark: | [22](../content/net/sourceforge/pmd/pmd-build-tools-config/pmd-build-tools-config-22.buildspec) | `bin/add-new-release.sh content/net/sourceforge/pmd/pmd-build-tools-config/pmd-build-tools-config-21.buildspec 22` |
 | <!-- 20230927125008 --> [migratedb](../content/de/unentscheidbar/migratedb/README.md) | [0.2.0](../content/de/unentscheidbar/migratedb/migratedb-0.2.0.buildspec) :heavy_check_mark: | [0.3.0](../content/de/unentscheidbar/migratedb/migratedb-0.3.0.buildspec) | `bin/add-new-release.sh content/de/unentscheidbar/migratedb/migratedb-0.2.0.buildspec 0.3.0` |
-| <!-- 20230927091326 --> [hsac-fitnesse-fixtures](../content/nl/hsac/hsac-fitnesse-fixtures/README.md) | [5.2.44](../content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.2.44.buildspec) :heavy_check_mark: | [5.2.45](../content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.2.45.buildspec) | `bin/add-new-release.sh content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.2.44.buildspec 5.2.45` |
 | <!-- 20230924012957 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.1](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec) :heavy_check_mark: | [10.4.2-beta-4](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2-beta-4.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec 10.4.2-beta-4` |
 | <!-- 20230911001855 --> [alluxio-parent](../content/org/alluxio/alluxio/README.md) | [303](../content/org/alluxio/alluxio/alluxio-303.buildspec) :heavy_check_mark: | [304](../content/org/alluxio/alluxio/alluxio-304.buildspec) | `bin/add-new-release.sh content/org/alluxio/alluxio/alluxio-303.buildspec 304` |
 <!-- END GENERATED ADD OK -->
@@ -15,8 +13,10 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20230929141506 --> [glassfish-parent](../content/org/glassfish/main/README.md) | [7.0.8](../content/org/glassfish/main/glassfish-7.0.8.buildspec) :warning: [:memo:](https://github.com/eclipse-ee4j/glassfish-hk2/pull/821) | [7.0.9](../content/org/glassfish/main/glassfish-7.0.9.buildspec) | `bin/add-new-release.sh content/org/glassfish/main/glassfish-7.0.8.buildspec 7.0.9` |
+| <!-- 20230929062502 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.0.1](../content/org/apache/camel/camel/camel-4.0.1.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.0.1` |
+| <!-- 20230929050801 --> [helix](../content/org/apache/helix/README.md) | [1.3.0](../content/org/apache/helix/helix-1.3.0.buildspec) :warning: | [1.3.1](../content/org/apache/helix/helix-1.3.1.buildspec) | `bin/add-new-release.sh content/org/apache/helix/helix-1.3.0.buildspec 1.3.1` |
 | <!-- 20230928044354 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.29.1](../content/org/finos/legend/engine/legend-engine-4.29.1.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.29.1` |
-| <!-- 20230925103033 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.0.1](../content/org/apache/camel/camel/camel-4.0.1.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.0.1` |
 | <!-- 20230922112748 --> [org.apache.sling.feature.cpconverter](../content/org/apache/sling/org.apache.sling.feature.cpconverter/README.md) | [1.3.0](../content/org/apache/sling/org.apache.sling.feature.cpconverter/org.apache.sling.feature.cpconverter-1.3.0.buildspec) :warning: | [1.3.4](../content/org/apache/sling/org.apache.sling.feature.cpconverter/org.apache.sling.feature.cpconverter-1.3.4.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.feature.cpconverter/org.apache.sling.feature.cpconverter-1.3.0.buildspec 1.3.4` |
 | <!-- 20230914144430 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | [6.0.14](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.0.14.buildspec) :warning: | [6.2.0](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.2.0.buildspec) | `bin/add-new-release.sh content/com/adobe/acs/aem-commons/acs-aem-commons-6.0.14.buildspec 6.2.0` |
 | <!-- 20230914103929 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | [1.17.0-alpha](../content/io/opentelemetry/instrumentation/opentelemetry-1.17.0-alpha.buildspec) :warning: | [1.30.0](../content/io/opentelemetry/instrumentation/opentelemetry-1.30.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/instrumentation/opentelemetry-1.17.0-alpha.buildspec 1.30.0` |
@@ -56,6 +56,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20230927091326 --> [hsac-fitnesse-fixtures](../content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 5.2.45 :warning: |
 | <!-- 20230924095100 --> [avro-toplevel](../content/org/apache/avro/README.md) | 1.11.3 :warning: |
 | <!-- 20230922111024 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.1.5 :warning: [:memo:](https://github.com/smallrye/smallrye-parent/pull/420) |
 | <!-- 20230920083340 --> [karaf](../content/org/apache/karaf/karaf/README.md) | 4.4.4 :warning: [:memo:](https://issues.apache.org/jira/browse/KARAF-7751) |
@@ -70,14 +71,12 @@ New Releases To Add
 | <!-- 20230830214835 --> [jetty-project](../content/org/eclipse/jetty/jetty-project/README.md) | 12.0.1 :warning: |
 | <!-- 20230828190043 --> [tika](../content/org/apache/tika/README.md) | 2.9.0 :warning: |
 | <!-- 20230828161712 --> [jooby](../content/io/jooby/README.md) | 3.0.5 :warning: |
-| <!-- 20230828142231 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 7.0.8 :warning: [:memo:](https://github.com/eclipse-ee4j/glassfish-hk2/pull/821) |
 | <!-- 20230822075226 --> [mockito-core](../content/org/mockito/mockito-core/README.md) | 5.5.0 :warning: |
 | <!-- 20230810033447 --> [spdx-maven-plugin](../content/org/spdx/spdx-maven-plugin/README.md) | 0.7.0 :warning: [:memo:](https://github.com/spdx/spdx-maven-plugin/pull/125) |
 | <!-- 20230803053411 --> [parent](../content/org/apache/zookeeper/README.md) | 3.9.0 :warning: [:memo:](https://issues.apache.org/jira/browse/ZOOKEEPER-4732) |
 | <!-- 20230802183114 --> [semanticcms-tag-reference](../content/com/semanticcms/semanticcms-tag-reference/README.md) | 1.10.1 :warning: |
 | <!-- 20230729004927 --> [shiro-root](../content/org/apache/shiro/README.md) | 2.0.0-alpha-3 :warning: |
 | <!-- 20230728155049 --> [efx-toolkit-java](../content/eu/europa/ted/eforms/efx-toolkit-java/README.md) | 2.0.0-alpha.1 :warning: |
-| <!-- 20230726034915 --> [helix](../content/org/apache/helix/README.md) | 1.3.0 :warning: |
 | <!-- 20230724134537 --> [cdevents-sdk-java](../content/dev/cdevents/cdevents-sdk-java/README.md) | 0.1.2 :warning: |
 | <!-- 20230721020416 --> [auto-record](../content/pl/com/labaj/auto-record/README.md) | 2.1.0 :x: |
 | <!-- 20230713070609 --> [maven-fluido-skin](../content/org/apache/maven/skins/fluido/README.md) | 2.0.0-M7 :warning: [:memo:](https://issues.apache.org/jira/browse/MSKINS-235) |
