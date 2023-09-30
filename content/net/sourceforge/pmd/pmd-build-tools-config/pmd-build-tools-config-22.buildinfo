@@ -1,0 +1,34 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=PMD Build Tools Configurations
+group-id=net.sourceforge.pmd
+artifact-id=pmd-build-tools-config
+version=22
+
+# source information
+source.scm.uri=scm:git:git://github.com/pmd/build-tools.git
+source.scm.tag=22
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.filename=pmd-build-tools-config-22.pom
+outputs.0.length=13227
+outputs.0.checksums.sha512=895f8d9635ce533d0d54ef351ce4bceda5d918da12e9c40fcd4ddd2742ed2a5c9d081d8989ff6959cbcda246b9358a4dc781a214786727de21ae16ae1f0fe133
+
+outputs.1.filename=pmd-build-tools-config-22.jar
+outputs.1.length=21926
+outputs.1.checksums.sha512=0ba60022c5549d3878deea0d99528ee128d16d5c54d6f3aae6d019847da2d002b189d4a7dcebde8adf0bd0b6e76a2b3890aa5e66e4f6e90553247b6ff984c3d0
+
+outputs.2.filename=pmd-build-tools-config-22-sources.jar
+outputs.2.length=20072
+outputs.2.checksums.sha512=ae76f7085c3d5f6234e73bd5644f7d78bc80a64119bdd79a46359b17b74f8b76eafcb0436a27663aaf3694c32636408a0bec02df06a3cccc6dfef6715485d500
