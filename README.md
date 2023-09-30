@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2587 releases** of **550 projects**:
-   - **2009** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 578 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **2589 releases** of **550 projects**:
+   - **2010** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 579 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 550 projects, 439 have at least one fully reproducible release, 111 have none
 
 <!-- END GENERATED INTRO -->
@@ -228,7 +228,7 @@ Its objectives are to provide:
 | net.sf.michael-o | <a name='net.sf.michael-o:michael-o-parent'></a>[michael-o-parent](content/net/sf/michael-o/michael-o-parent/README.md) | 2 | 2 :heavy_check_mark: |
 | net.sf.michael-o.tomcat | <a name='net.sf.michael-o.tomcat:tomcat-authnz-spnego-ad'></a>[tomcat-authnz-spnego-ad](content/net/sf/michael-o/tomcat/tomcat-authnz-spnego-ad/README.md) | 3 | 3 :heavy_check_mark: |
 | net.sourceforge.pmd | <a name='net.sourceforge.pmd:pmd'></a>[pmd](content/net/sourceforge/pmd/README.md) | 34 | 31 :heavy_check_mark: / 3 :warning: |
-| | <a name='net.sourceforge.pmd:pmd-build-tools-config'></a>[pmd-build-tools-config](content/net/sourceforge/pmd/pmd-build-tools-config/README.md) | 4 | 4 :heavy_check_mark: |
+| | <a name='net.sourceforge.pmd:pmd-build-tools-config'></a>[pmd-build-tools-config](content/net/sourceforge/pmd/pmd-build-tools-config/README.md) | 5 | 5 :heavy_check_mark: |
 | nl.basjes.energy | <a name='nl.basjes.energy:energy-parent'></a>[energy-parent](content/nl/basjes/energy/README.md) | 1 | 1 :heavy_check_mark: |
 | nl.basjes.maven.release | <a name='nl.basjes.maven.release:conventional-commits-version-policy'></a>[conventional-commits-version-policy](content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | 4 | 4 :heavy_check_mark: |
 | nl.basjes.parse.httpdlog | <a name='nl.basjes.parse.httpdlog:httpdlog-parser'></a>[httpdlog-parser](content/nl/basjes/parse/httpdlog/httpdlog-parser/README.md) | 2 | 2 :heavy_check_mark: |
@@ -516,7 +516,7 @@ Its objectives are to provide:
 | org.finos.legend.engine | <a name='org.finos.legend.engine:legend-engine'></a>[legend-engine](content/org/finos/legend/engine/README.md) | 1 | 1 :warning: |
 | org.fusesource.jansi | <a name='org.fusesource.jansi:jansi'></a>[jansi](content/org/fusesource/jansi/jansi/README.md) | 8 | 5 :heavy_check_mark: / 3 :warning: |
 | org.glassfish.hk2 | <a name='org.glassfish.hk2:hk2-parent'></a>[hk2-parent](content/org/glassfish/hk2/README.md) | 1 | 1 :warning: |
-| org.glassfish.main | <a name='org.glassfish.main:glassfish-parent'></a>[glassfish-parent](content/org/glassfish/main/README.md) | 3 | 3 :warning: |
+| org.glassfish.main | <a name='org.glassfish.main:glassfish-parent'></a>[glassfish-parent](content/org/glassfish/main/README.md) | 4 | 4 :warning: |
 | org.jline | <a name='org.jline:jline-parent'></a>[jline-parent](content/org/jline/jline/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | org.jrivard.xmlchai | <a name='org.jrivard.xmlchai:xmlchai'></a>[xmlchai](content/org/jrivard/xmlchai/README.md) | 2 | 2 :warning: |
 | org.junit | <a name='org.junit:junit-bom'></a>[junit-bom](content/org/junit/junit5/README.md) | 1 | 1 :warning: |
@@ -573,7 +573,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 24 | 24 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **550** | **2587** | **2009** :heavy_check_mark: **578** :warning: |
+| **Count:** | **550** | **2589** | **2010** :heavy_check_mark: **579** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -587,7 +587,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      26 mvn         7
     982 mvn         8
       1 mvn         9
-    788 mvn        11
+    789 mvn        11
       1 mvn        11.0.19
       1 mvn        11.0.6
       1 mvn        13
@@ -631,7 +631,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.3  15.0.2
      40 mvn-3.9.3  17
       6 mvn-3.9.3  17.0.1
-      1 mvn-3.9.3  17.0.2
+      2 mvn-3.9.3  17.0.2
      52 mvn-3.9.3  17.0.3
       3 mvn-3.9.3  17.0.4
      18 mvn-3.9.3  17.0.4.1

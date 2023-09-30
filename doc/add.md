@@ -4,7 +4,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20230929183420 --> [pmd-build-tools-config](../content/net/sourceforge/pmd/pmd-build-tools-config/README.md) | [21](../content/net/sourceforge/pmd/pmd-build-tools-config/pmd-build-tools-config-21.buildspec) :heavy_check_mark: | [22](../content/net/sourceforge/pmd/pmd-build-tools-config/pmd-build-tools-config-22.buildspec) | `bin/add-new-release.sh content/net/sourceforge/pmd/pmd-build-tools-config/pmd-build-tools-config-21.buildspec 22` |
+| <!-- 20230930054439 --> [flowlogix](../content/com/flowlogix/README.md) | [8.0-M1](../content/com/flowlogix/flowlogix-8.0-M1.buildspec) :heavy_check_mark: | [8.0](../content/com/flowlogix/flowlogix-8.0.buildspec) | `bin/add-new-release.sh content/com/flowlogix/flowlogix-8.0-M1.buildspec 8.0` |
 | <!-- 20230927125008 --> [migratedb](../content/de/unentscheidbar/migratedb/README.md) | [0.2.0](../content/de/unentscheidbar/migratedb/migratedb-0.2.0.buildspec) :heavy_check_mark: | [0.3.0](../content/de/unentscheidbar/migratedb/migratedb-0.3.0.buildspec) | `bin/add-new-release.sh content/de/unentscheidbar/migratedb/migratedb-0.2.0.buildspec 0.3.0` |
 | <!-- 20230924012957 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.1](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec) :heavy_check_mark: | [10.4.2-beta-4](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2-beta-4.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec 10.4.2-beta-4` |
 | <!-- 20230911001855 --> [alluxio-parent](../content/org/alluxio/alluxio/README.md) | [303](../content/org/alluxio/alluxio/alluxio-303.buildspec) :heavy_check_mark: | [304](../content/org/alluxio/alluxio/alluxio-304.buildspec) | `bin/add-new-release.sh content/org/alluxio/alluxio/alluxio-303.buildspec 304` |
@@ -13,7 +13,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20230929141506 --> [glassfish-parent](../content/org/glassfish/main/README.md) | [7.0.8](../content/org/glassfish/main/glassfish-7.0.8.buildspec) :warning: [:memo:](https://github.com/eclipse-ee4j/glassfish-hk2/pull/821) | [7.0.9](../content/org/glassfish/main/glassfish-7.0.9.buildspec) | `bin/add-new-release.sh content/org/glassfish/main/glassfish-7.0.8.buildspec 7.0.9` |
+| <!-- 20230930161805 --> [pmd](../content/net/sourceforge/pmd/README.md) | [7.0.0-rc3](../content/net/sourceforge/pmd/pmd-7.0.0-rc3.buildspec) :warning: | [7.0.0-rc4](../content/net/sourceforge/pmd/pmd-7.0.0-rc4.buildspec) | `bin/add-new-release.sh content/net/sourceforge/pmd/pmd-7.0.0-rc3.buildspec 7.0.0-rc4` |
 | <!-- 20230929062502 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.0.1](../content/org/apache/camel/camel/camel-4.0.1.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.0.1` |
 | <!-- 20230929050801 --> [helix](../content/org/apache/helix/README.md) | [1.3.0](../content/org/apache/helix/helix-1.3.0.buildspec) :warning: | [1.3.1](../content/org/apache/helix/helix-1.3.1.buildspec) | `bin/add-new-release.sh content/org/apache/helix/helix-1.3.0.buildspec 1.3.1` |
 | <!-- 20230928044354 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.29.1](../content/org/finos/legend/engine/legend-engine-4.29.1.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.29.1` |
@@ -56,6 +56,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20230929141506 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 7.0.9 :warning: [:memo:](https://github.com/eclipse-ee4j/glassfish/issues/24615) |
 | <!-- 20230927091326 --> [hsac-fitnesse-fixtures](../content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 5.2.45 :warning: |
 | <!-- 20230924095100 --> [avro-toplevel](../content/org/apache/avro/README.md) | 1.11.3 :warning: |
 | <!-- 20230922111024 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.1.5 :warning: [:memo:](https://github.com/smallrye/smallrye-parent/pull/420) |
@@ -92,7 +93,6 @@ New Releases To Add
 | <!-- 20230530232841 --> [jackson-databind](../content/com/fasterxml/jackson/databind/README.md) | 2.15.2 :warning: [:memo:](https://github.com/moditect/moditect/issues/199) |
 | <!-- 20230530232637 --> [jackson-jr-parent](../content/com/fasterxml/jackson/jr/README.md) | 2.15.2 :warning: |
 | <!-- 20230530203509 --> [jackson-annotations](../content/com/fasterxml/jackson/annotations/README.md) | 2.15.2 :warning: |
-| <!-- 20230530183808 --> [pmd](../content/net/sourceforge/pmd/README.md) | 7.0.0-rc3 :warning: |
 | <!-- 20230524172132 --> [git-commit-id-maven-plugin](../content/io/github/git-commit-id/README.md) | 6.0.0 :warning: |
 | <!-- 20230524001811 --> [whitespace-maven-plugin](../content/com/github/hazendaz/maven/whitespace-maven-plugin/README.md) | 1.3.0 :warning: |
 | <!-- 20230523070720 --> [compiler](../content/org/apache/royale/compiler/README.md) | 0.9.10 :warning: |
