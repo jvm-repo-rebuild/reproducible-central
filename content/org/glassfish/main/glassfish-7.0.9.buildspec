@@ -1,0 +1,23 @@
+groupId=org.glassfish.main
+artifactId=glassfish-parent
+version=7.0.9
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/eclipse-ee4j/glassfish.git
+gitTag=${version}
+
+tool=mvn-3.9.3
+jdk=17.0.2
+newline=lf
+umask=022
+
+# mvn run twice as currently configured in release Jenkins job https://ci.eclipse.org/glassfish/view/GlassFish/job/glassfish_1-build-and-stage/
+# but in CI job, first run is done with pom.xml in -SNAPSHOT and only second run is with pom.xml as release
+# notice: ideally, need to add update outputTimestamp
+command="mvn clean package -T10 -Pfastest -DskipTests && mvn clean package -Poss-release,fastest -DskipTests -Dmaven.javadoc.skip -Djavadoc.skip -Dgpg.skip"
+
+buildinfo=target/glassfish-main-aggregator-${version}.buildinfo
+
+diffoscope=glassfish-main-aggregator-${version}.diffoscope
+issue=https://github.com/eclipse-ee4j/glassfish/issues/24615
