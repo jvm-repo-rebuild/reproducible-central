@@ -1,9 +1,9 @@
-[org.apache.commons:commons-compress](https://central.sonatype.com/artifact/org.apache.commons/commons-compress/1.24.0/versions) RB check
+[org.apache.commons:commons-compress](https://central.sonatype.com/artifact/org.apache.commons/commons-compress/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.commons:commons-compress](https://central.sonatype.com/artifact/org.apache.commons/commons-compress/1.24.0/versions)
+## Project: [org.apache.commons:commons-compress](https://central.sonatype.com/artifact/org.apache.commons/commons-compress/versions)
 
 Source code: [https://github.com/apache/commons-compress.git](https://github.com/apache/commons-compress.git)
 

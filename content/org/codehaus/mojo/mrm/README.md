@@ -1,9 +1,9 @@
-[org.codehaus.mojo:mrm](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm/1.5.0/versions) RB check
+[org.codehaus.mojo:mrm](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.codehaus.mojo:mrm](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm/1.5.0/versions)
+## Project: [org.codehaus.mojo:mrm](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm/versions)
 
 Source code: [https://github.com/mojohaus/mrm.git](https://github.com/mojohaus/mrm.git)
 

@@ -1,9 +1,9 @@
-[com.semanticcms:semanticcms-core-breadcrumblist-json-ld-book](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-core-breadcrumblist-json-ld-book/1.5.0/versions) RB check
+[com.semanticcms:semanticcms-core-breadcrumblist-json-ld-book](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-core-breadcrumblist-json-ld-book/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.semanticcms:semanticcms-core-breadcrumblist-json-ld-book](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-core-breadcrumblist-json-ld-book/1.5.0/versions)
+## Project: [com.semanticcms:semanticcms-core-breadcrumblist-json-ld-book](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-core-breadcrumblist-json-ld-book/versions)
 
 Source code: [https://github.com/ao-apps/semanticcms-core-breadcrumblist-json-ld.git](https://github.com/ao-apps/semanticcms-core-breadcrumblist-json-ld.git)
 

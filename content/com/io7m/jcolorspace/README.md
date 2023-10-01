@@ -1,9 +1,9 @@
-[com.io7m.jcolorspace:com.io7m.jcolorspace](https://central.sonatype.com/artifact/com.io7m.jcolorspace/com.io7m.jcolorspace/0.0.3/versions) RB check
+[com.io7m.jcolorspace:com.io7m.jcolorspace](https://central.sonatype.com/artifact/com.io7m.jcolorspace/com.io7m.jcolorspace/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.io7m.jcolorspace:com.io7m.jcolorspace](https://central.sonatype.com/artifact/com.io7m.jcolorspace/com.io7m.jcolorspace/0.0.3/versions)
+## Project: [com.io7m.jcolorspace:com.io7m.jcolorspace](https://central.sonatype.com/artifact/com.io7m.jcolorspace/com.io7m.jcolorspace/versions)
 
 Source code: [https://github.com/io7m/jcolorspace.git](https://github.com/io7m/jcolorspace.git)
 

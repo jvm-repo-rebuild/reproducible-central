@@ -1,9 +1,9 @@
-[org.apache.isis:isis-parent](https://central.sonatype.com/artifact/org.apache.isis/isis-parent/2.0.0-M7/versions) RB check
+[org.apache.isis:isis-parent](https://central.sonatype.com/artifact/org.apache.isis/isis-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.isis:isis-parent](https://central.sonatype.com/artifact/org.apache.isis/isis-parent/2.0.0-M7/versions)
+## Project: [org.apache.isis:isis-parent](https://central.sonatype.com/artifact/org.apache.isis/isis-parent/versions)
 
 Source code: [https://github.com/apache/isis.git](https://github.com/apache/isis.git)
 

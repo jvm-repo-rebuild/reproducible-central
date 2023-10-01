@@ -1,9 +1,9 @@
-[org.webjars:redoc](https://central.sonatype.com/artifact/org.webjars/redoc/2.1.1/versions) RB check
+[org.webjars:redoc](https://central.sonatype.com/artifact/org.webjars/redoc/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.webjars:redoc](https://central.sonatype.com/artifact/org.webjars/redoc/2.1.1/versions)
+## Project: [org.webjars:redoc](https://central.sonatype.com/artifact/org.webjars/redoc/versions)
 
 Source code: [https://github.com/webjars/redoc.git](https://github.com/webjars/redoc.git)
 

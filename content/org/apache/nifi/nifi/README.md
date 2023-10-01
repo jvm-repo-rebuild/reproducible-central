@@ -1,9 +1,9 @@
-[org.apache.nifi:nifi](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.22.0/versions) RB check
+[org.apache.nifi:nifi](https://central.sonatype.com/artifact/org.apache.nifi/nifi/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.nifi:nifi](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.22.0/versions)
+## Project: [org.apache.nifi:nifi](https://central.sonatype.com/artifact/org.apache.nifi/nifi/versions)
 
 Source code: [https://github.com/apache/nifi.git](https://github.com/apache/nifi.git)
 

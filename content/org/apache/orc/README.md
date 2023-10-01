@@ -1,9 +1,9 @@
-[org.apache.orc:orc](https://central.sonatype.com/artifact/org.apache.orc/orc/1.9.1/versions) RB check
+[org.apache.orc:orc](https://central.sonatype.com/artifact/org.apache.orc/orc/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.orc:orc](https://central.sonatype.com/artifact/org.apache.orc/orc/1.9.1/versions)
+## Project: [org.apache.orc:orc](https://central.sonatype.com/artifact/org.apache.orc/orc/versions)
 
 Source code: [https://github.com/apache/orc.git](https://github.com/apache/orc.git)
 

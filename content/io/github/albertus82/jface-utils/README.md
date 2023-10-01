@@ -1,9 +1,9 @@
-[io.github.albertus82:jface-utils](https://central.sonatype.com/artifact/io.github.albertus82/jface-utils/19.0.7/versions) RB check
+[io.github.albertus82:jface-utils](https://central.sonatype.com/artifact/io.github.albertus82/jface-utils/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.github.albertus82:jface-utils](https://central.sonatype.com/artifact/io.github.albertus82/jface-utils/19.0.7/versions)
+## Project: [io.github.albertus82:jface-utils](https://central.sonatype.com/artifact/io.github.albertus82/jface-utils/versions)
 
 Source code: [https://github.com/albertus82/jface-utils.git](https://github.com/albertus82/jface-utils.git)
 

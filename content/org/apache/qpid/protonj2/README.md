@@ -1,9 +1,9 @@
-[org.apache.qpid:protonj2-parent](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M17/versions) RB check
+[org.apache.qpid:protonj2-parent](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.qpid:protonj2-parent](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/1.0.0-M17/versions)
+## Project: [org.apache.qpid:protonj2-parent](https://central.sonatype.com/artifact/org.apache.qpid/protonj2-parent/versions)
 
 Source code: [https://github.com/apache/qpid-protonj2.git](https://github.com/apache/qpid-protonj2.git)
 

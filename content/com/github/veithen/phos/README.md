@@ -1,9 +1,9 @@
-[com.github.veithen.phos:phos](https://central.sonatype.com/artifact/com.github.veithen.phos/phos/0.4.0/versions) RB check
+[com.github.veithen.phos:phos](https://central.sonatype.com/artifact/com.github.veithen.phos/phos/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.github.veithen.phos:phos](https://central.sonatype.com/artifact/com.github.veithen.phos/phos/0.4.0/versions)
+## Project: [com.github.veithen.phos:phos](https://central.sonatype.com/artifact/com.github.veithen.phos/phos/versions)
 
 Source code: [https://github.com/veithen/phos.git](https://github.com/veithen/phos.git)
 

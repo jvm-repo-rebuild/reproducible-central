@@ -1,9 +1,9 @@
-[org.apache.drill:drill-root](https://central.sonatype.com/artifact/org.apache.drill/drill-root/1.21.1/versions) RB check
+[org.apache.drill:drill-root](https://central.sonatype.com/artifact/org.apache.drill/drill-root/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.drill:drill-root](https://central.sonatype.com/artifact/org.apache.drill/drill-root/1.21.1/versions)
+## Project: [org.apache.drill:drill-root](https://central.sonatype.com/artifact/org.apache.drill/drill-root/versions)
 
 Source code: [https://github.com/apache/drill.git](https://github.com/apache/drill.git)
 

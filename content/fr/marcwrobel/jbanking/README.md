@@ -1,9 +1,9 @@
-[fr.marcwrobel:jbanking](https://central.sonatype.com/artifact/fr.marcwrobel/jbanking/4.1.0/versions) RB check
+[fr.marcwrobel:jbanking](https://central.sonatype.com/artifact/fr.marcwrobel/jbanking/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [fr.marcwrobel:jbanking](https://central.sonatype.com/artifact/fr.marcwrobel/jbanking/4.1.0/versions)
+## Project: [fr.marcwrobel:jbanking](https://central.sonatype.com/artifact/fr.marcwrobel/jbanking/versions)
 
 Source code: [https://github.com/marcwrobel/jbanking.git](https://github.com/marcwrobel/jbanking.git)
 

@@ -1,9 +1,9 @@
-[com.github.package-url:packageurl-java](https://central.sonatype.com/artifact/com.github.package-url/packageurl-java/1.4.1/versions) RB check
+[com.github.package-url:packageurl-java](https://central.sonatype.com/artifact/com.github.package-url/packageurl-java/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.github.package-url:packageurl-java](https://central.sonatype.com/artifact/com.github.package-url/packageurl-java/1.4.1/versions)
+## Project: [com.github.package-url:packageurl-java](https://central.sonatype.com/artifact/com.github.package-url/packageurl-java/versions)
 
 Source code: [https://github.com/package-url/packageurl-java.git](https://github.com/package-url/packageurl-java.git)
 

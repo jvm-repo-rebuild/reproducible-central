@@ -1,9 +1,9 @@
-[org.finos.legend.engine:legend-engine](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.4.5/versions) RB check
+[org.finos.legend.engine:legend-engine](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.finos.legend.engine:legend-engine](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/4.4.5/versions)
+## Project: [org.finos.legend.engine:legend-engine](https://central.sonatype.com/artifact/org.finos.legend.engine/legend-engine/versions)
 
 Source code: [https://github.com/finos/legend-engine.git](https://github.com/finos/legend-engine.git)
 

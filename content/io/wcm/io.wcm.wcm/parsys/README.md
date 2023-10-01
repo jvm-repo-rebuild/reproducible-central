@@ -1,9 +1,9 @@
-[io.wcm:io.wcm.wcm.parsys](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.parsys/1.6.4/versions) RB check
+[io.wcm:io.wcm.wcm.parsys](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.parsys/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.wcm:io.wcm.wcm.parsys](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.parsys/1.6.4/versions)
+## Project: [io.wcm:io.wcm.wcm.parsys](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.parsys/versions)
 
 Source code: [https://github.com/wcm-io/wcm-io-wcm.git](https://github.com/wcm-io/wcm-io-wcm.git)
 

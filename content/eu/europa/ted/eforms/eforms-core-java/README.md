@@ -1,9 +1,9 @@
-[eu.europa.ted.eforms:eforms-core-java](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-core-java/1.1.0/versions) RB check
+[eu.europa.ted.eforms:eforms-core-java](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-core-java/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [eu.europa.ted.eforms:eforms-core-java](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-core-java/1.1.0/versions)
+## Project: [eu.europa.ted.eforms:eforms-core-java](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-core-java/versions)
 
 Source code: [https://github.com/OP-TED/eforms-core-java.git](https://github.com/OP-TED/eforms-core-java.git)
 

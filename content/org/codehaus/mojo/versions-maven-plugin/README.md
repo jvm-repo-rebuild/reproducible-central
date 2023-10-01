@@ -1,9 +1,9 @@
-[org.codehaus.mojo:versions-maven-plugin](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/2.16.1/versions) RB check
+[org.codehaus.mojo:versions-maven-plugin](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.codehaus.mojo:versions-maven-plugin](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/2.16.1/versions)
+## Project: [org.codehaus.mojo:versions-maven-plugin](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/versions)
 
 Source code: [https://github.com/mojohaus/versions-maven-plugin.git](https://github.com/mojohaus/versions-maven-plugin.git)
 

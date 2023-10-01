@@ -1,9 +1,9 @@
-[org.osgi:org.osgi.test.parent](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.parent/1.2.1/versions) RB check
+[org.osgi:org.osgi.test.parent](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.osgi:org.osgi.test.parent](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.parent/1.2.1/versions)
+## Project: [org.osgi:org.osgi.test.parent](https://central.sonatype.com/artifact/org.osgi/org.osgi.test.parent/versions)
 
 Source code: [https://github.com/osgi/osgi-test.git](https://github.com/osgi/osgi-test.git)
 

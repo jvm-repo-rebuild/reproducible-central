@@ -1,9 +1,9 @@
-[tech.picnic.error-prone-support:error-prone-support](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-support/0.13.0/versions) RB check
+[tech.picnic.error-prone-support:error-prone-support](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-support/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [tech.picnic.error-prone-support:error-prone-support](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-support/0.13.0/versions)
+## Project: [tech.picnic.error-prone-support:error-prone-support](https://central.sonatype.com/artifact/tech.picnic.error-prone-support/error-prone-support/versions)
 
 Source code: [https://github.com/PicnicSupermarket/error-prone-support.git](https://github.com/PicnicSupermarket/error-prone-support.git)
 

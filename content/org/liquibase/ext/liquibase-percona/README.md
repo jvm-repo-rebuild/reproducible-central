@@ -1,9 +1,9 @@
-[org.liquibase.ext:liquibase-percona](https://central.sonatype.com/artifact/org.liquibase.ext/liquibase-percona/4.23.2/versions) RB check
+[org.liquibase.ext:liquibase-percona](https://central.sonatype.com/artifact/org.liquibase.ext/liquibase-percona/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.liquibase.ext:liquibase-percona](https://central.sonatype.com/artifact/org.liquibase.ext/liquibase-percona/4.23.2/versions)
+## Project: [org.liquibase.ext:liquibase-percona](https://central.sonatype.com/artifact/org.liquibase.ext/liquibase-percona/versions)
 
 Source code: [https://github.com/liquibase/liquibase-percona.git](https://github.com/liquibase/liquibase-percona.git)
 

@@ -1,9 +1,9 @@
-[com.fasterxml.jackson.jr:jackson-jr-parent](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.15.2/versions) RB check
+[com.fasterxml.jackson.jr:jackson-jr-parent](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.fasterxml.jackson.jr:jackson-jr-parent](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.15.2/versions)
+## Project: [com.fasterxml.jackson.jr:jackson-jr-parent](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/versions)
 
 Source code: [https://github.com/FasterXML/jackson-jr.git](https://github.com/FasterXML/jackson-jr.git)
 

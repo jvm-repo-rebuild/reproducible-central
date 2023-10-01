@@ -1,9 +1,9 @@
-[com.github.marschall:jfr-servlet](https://central.sonatype.com/artifact/com.github.marschall/jfr-servlet/2.0.0/versions) RB check
+[com.github.marschall:jfr-servlet](https://central.sonatype.com/artifact/com.github.marschall/jfr-servlet/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.github.marschall:jfr-servlet](https://central.sonatype.com/artifact/com.github.marschall/jfr-servlet/2.0.0/versions)
+## Project: [com.github.marschall:jfr-servlet](https://central.sonatype.com/artifact/com.github.marschall/jfr-servlet/versions)
 
 Source code: [https://github.com/marschall/jfr-servlet.git](https://github.com/marschall/jfr-servlet.git)
 

@@ -1,9 +1,9 @@
-[org.apache.maven.plugins:maven-toolchains-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-toolchains-plugin/3.1.0/versions) RB check
+[org.apache.maven.plugins:maven-toolchains-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-toolchains-plugin/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.plugins:maven-toolchains-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-toolchains-plugin/3.1.0/versions)
+## Project: [org.apache.maven.plugins:maven-toolchains-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-toolchains-plugin/versions)
 
 Source code: [https://github.com/apache/maven-toolchains-plugin.git](https://github.com/apache/maven-toolchains-plugin.git)
 

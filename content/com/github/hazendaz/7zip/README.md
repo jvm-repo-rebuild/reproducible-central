@@ -1,9 +1,9 @@
-[com.github.hazendaz.7zip:7zip](https://central.sonatype.com/artifact/com.github.hazendaz.7zip/7zip/23.00/versions) RB check
+[com.github.hazendaz.7zip:7zip](https://central.sonatype.com/artifact/com.github.hazendaz.7zip/7zip/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.github.hazendaz.7zip:7zip](https://central.sonatype.com/artifact/com.github.hazendaz.7zip/7zip/23.00/versions)
+## Project: [com.github.hazendaz.7zip:7zip](https://central.sonatype.com/artifact/com.github.hazendaz.7zip/7zip/versions)
 
 Source code: [https://github.com/hazendaz/7-zip.git](https://github.com/hazendaz/7-zip.git)
 

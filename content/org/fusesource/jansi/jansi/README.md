@@ -1,9 +1,9 @@
-[org.fusesource.jansi:jansi](https://central.sonatype.com/artifact/org.fusesource.jansi/jansi/2.4.0/versions) RB check
+[org.fusesource.jansi:jansi](https://central.sonatype.com/artifact/org.fusesource.jansi/jansi/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.fusesource.jansi:jansi](https://central.sonatype.com/artifact/org.fusesource.jansi/jansi/2.4.0/versions)
+## Project: [org.fusesource.jansi:jansi](https://central.sonatype.com/artifact/org.fusesource.jansi/jansi/versions)
 
 Source code: [https://github.com/fusesource/jansi.git](https://github.com/fusesource/jansi.git)
 

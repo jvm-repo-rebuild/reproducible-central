@@ -1,9 +1,9 @@
-[io.github.git-commit-id:git-commit-id-maven-plugin](https://central.sonatype.com/artifact/io.github.git-commit-id/git-commit-id-maven-plugin/6.0.0/versions) RB check
+[io.github.git-commit-id:git-commit-id-maven-plugin](https://central.sonatype.com/artifact/io.github.git-commit-id/git-commit-id-maven-plugin/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.github.git-commit-id:git-commit-id-maven-plugin](https://central.sonatype.com/artifact/io.github.git-commit-id/git-commit-id-maven-plugin/6.0.0/versions)
+## Project: [io.github.git-commit-id:git-commit-id-maven-plugin](https://central.sonatype.com/artifact/io.github.git-commit-id/git-commit-id-maven-plugin/versions)
 
 Source code: [https://github.com/git-commit-id/git-commit-id-maven-plugin.git](https://github.com/git-commit-id/git-commit-id-maven-plugin.git)
 

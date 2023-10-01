@@ -1,9 +1,9 @@
-[org.apache.maven.doxia:doxia-converter](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-converter/1.3/versions) RB check
+[org.apache.maven.doxia:doxia-converter](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-converter/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.doxia:doxia-converter](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-converter/1.3/versions)
+## Project: [org.apache.maven.doxia:doxia-converter](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-converter/versions)
 
 Source code: [https://github.com/apache/maven-doxia-converter.git](https://github.com/apache/maven-doxia-converter.git)
 

@@ -1,9 +1,9 @@
-[nl.basjes.parse.httpdlog:httpdlog-parser](https://central.sonatype.com/artifact/nl.basjes.parse.httpdlog/httpdlog-parser/5.10.0/versions) RB check
+[nl.basjes.parse.httpdlog:httpdlog-parser](https://central.sonatype.com/artifact/nl.basjes.parse.httpdlog/httpdlog-parser/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [nl.basjes.parse.httpdlog:httpdlog-parser](https://central.sonatype.com/artifact/nl.basjes.parse.httpdlog/httpdlog-parser/5.10.0/versions)
+## Project: [nl.basjes.parse.httpdlog:httpdlog-parser](https://central.sonatype.com/artifact/nl.basjes.parse.httpdlog/httpdlog-parser/versions)
 
 Source code: [https://github.com/nielsbasjes/logparser](https://github.com/nielsbasjes/logparser)
 

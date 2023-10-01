@@ -1,9 +1,9 @@
-[io.dropwizard.metrics5:metrics-parent](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc17/versions) RB check
+[io.dropwizard.metrics5:metrics-parent](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.dropwizard.metrics5:metrics-parent](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc17/versions)
+## Project: [io.dropwizard.metrics5:metrics-parent](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/versions)
 
 Source code: [https://github.com/dropwizard/metrics.git](https://github.com/dropwizard/metrics.git)
 

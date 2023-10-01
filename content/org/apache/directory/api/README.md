@@ -1,9 +1,9 @@
-[org.apache.directory.api:api-parent](https://central.sonatype.com/artifact/org.apache.directory.api/api-parent/2.1.4/versions) RB check
+[org.apache.directory.api:api-parent](https://central.sonatype.com/artifact/org.apache.directory.api/api-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.directory.api:api-parent](https://central.sonatype.com/artifact/org.apache.directory.api/api-parent/2.1.4/versions)
+## Project: [org.apache.directory.api:api-parent](https://central.sonatype.com/artifact/org.apache.directory.api/api-parent/versions)
 
 Source code: [https://github.com/apache/directory-ldap-api.git](https://github.com/apache/directory-ldap-api.git)
 

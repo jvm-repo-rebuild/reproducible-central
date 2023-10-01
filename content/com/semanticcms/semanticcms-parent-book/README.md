@@ -1,9 +1,9 @@
-[com.semanticcms:semanticcms-parent-book](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-parent-book/1.20.1/versions) RB check
+[com.semanticcms:semanticcms-parent-book](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-parent-book/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.semanticcms:semanticcms-parent-book](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-parent-book/1.20.1/versions)
+## Project: [com.semanticcms:semanticcms-parent-book](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-parent-book/versions)
 
 Source code: [https://github.com/ao-apps/semanticcms-parent.git](https://github.com/ao-apps/semanticcms-parent.git)
 

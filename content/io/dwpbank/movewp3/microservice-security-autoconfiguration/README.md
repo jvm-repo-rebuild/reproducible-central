@@ -1,9 +1,9 @@
-[io.dwpbank.movewp3:microservice-security-autoconfiguration](https://central.sonatype.com/artifact/io.dwpbank.movewp3/microservice-security-autoconfiguration/3.0.1/versions) RB check
+[io.dwpbank.movewp3:microservice-security-autoconfiguration](https://central.sonatype.com/artifact/io.dwpbank.movewp3/microservice-security-autoconfiguration/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.dwpbank.movewp3:microservice-security-autoconfiguration](https://central.sonatype.com/artifact/io.dwpbank.movewp3/microservice-security-autoconfiguration/3.0.1/versions)
+## Project: [io.dwpbank.movewp3:microservice-security-autoconfiguration](https://central.sonatype.com/artifact/io.dwpbank.movewp3/microservice-security-autoconfiguration/versions)
 
 Source code: [https://github.com/movewp3/microservice-security-autoconfiguration.git](https://github.com/movewp3/microservice-security-autoconfiguration.git)
 

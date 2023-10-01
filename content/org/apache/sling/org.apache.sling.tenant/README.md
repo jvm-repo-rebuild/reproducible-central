@@ -1,9 +1,9 @@
-[org.apache.sling:org.apache.sling.tenant](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.tenant/1.1.6/versions) RB check
+[org.apache.sling:org.apache.sling.tenant](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.tenant/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.tenant](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.tenant/1.1.6/versions)
+## Project: [org.apache.sling:org.apache.sling.tenant](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.tenant/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-tenant.git](https://github.com/apache/sling-org-apache-sling-tenant.git)
 

@@ -1,9 +1,9 @@
-[org.apache.sling:jspc-maven-plugin](https://central.sonatype.com/artifact/org.apache.sling/jspc-maven-plugin/2.3.4/versions) RB check
+[org.apache.sling:jspc-maven-plugin](https://central.sonatype.com/artifact/org.apache.sling/jspc-maven-plugin/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:jspc-maven-plugin](https://central.sonatype.com/artifact/org.apache.sling/jspc-maven-plugin/2.3.4/versions)
+## Project: [org.apache.sling:jspc-maven-plugin](https://central.sonatype.com/artifact/org.apache.sling/jspc-maven-plugin/versions)
 
 Source code: [https://github.com/apache/sling-jspc-maven-plugin.git](https://github.com/apache/sling-jspc-maven-plugin.git)
 

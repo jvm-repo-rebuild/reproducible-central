@@ -1,9 +1,9 @@
-[org.alluxio:alluxio-parent](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/303/versions) RB check
+[org.alluxio:alluxio-parent](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.alluxio:alluxio-parent](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/303/versions)
+## Project: [org.alluxio:alluxio-parent](https://central.sonatype.com/artifact/org.alluxio/alluxio-parent/versions)
 
 Source code: [https://github.com/alluxio/alluxio.git](https://github.com/alluxio/alluxio.git)
 

@@ -1,9 +1,9 @@
-[org.spdx:spdx-maven-plugin](https://central.sonatype.com/artifact/org.spdx/spdx-maven-plugin/0.7.0/versions) RB check
+[org.spdx:spdx-maven-plugin](https://central.sonatype.com/artifact/org.spdx/spdx-maven-plugin/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.spdx:spdx-maven-plugin](https://central.sonatype.com/artifact/org.spdx/spdx-maven-plugin/0.7.0/versions)
+## Project: [org.spdx:spdx-maven-plugin](https://central.sonatype.com/artifact/org.spdx/spdx-maven-plugin/versions)
 
 Source code: [https://github.com/spdx/spdx-maven-plugin.git](https://github.com/spdx/spdx-maven-plugin.git)
 

@@ -1,9 +1,9 @@
-[org.openapitools.openapidiff:openapi-diff-parent](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-parent/2.1.0-beta.7/versions) RB check
+[org.openapitools.openapidiff:openapi-diff-parent](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.openapitools.openapidiff:openapi-diff-parent](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-parent/2.1.0-beta.7/versions)
+## Project: [org.openapitools.openapidiff:openapi-diff-parent](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-parent/versions)
 
 Source code: [https://github.com/OpenAPITools/openapi-diff.git](https://github.com/OpenAPITools/openapi-diff.git)
 

@@ -1,9 +1,9 @@
-[io.github.albertus82:unexepack](https://central.sonatype.com/artifact/io.github.albertus82/unexepack/0.2.1/versions) RB check
+[io.github.albertus82:unexepack](https://central.sonatype.com/artifact/io.github.albertus82/unexepack/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.github.albertus82:unexepack](https://central.sonatype.com/artifact/io.github.albertus82/unexepack/0.2.1/versions)
+## Project: [io.github.albertus82:unexepack](https://central.sonatype.com/artifact/io.github.albertus82/unexepack/versions)
 
 Source code: [https://github.com/albertus82/unEXEPACK.git](https://github.com/albertus82/unEXEPACK.git)
 

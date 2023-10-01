@@ -1,9 +1,9 @@
-[org.apache.maven.plugins:maven-scm-publish-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-scm-publish-plugin/3.2.1/versions) RB check
+[org.apache.maven.plugins:maven-scm-publish-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-scm-publish-plugin/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.plugins:maven-scm-publish-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-scm-publish-plugin/3.2.1/versions)
+## Project: [org.apache.maven.plugins:maven-scm-publish-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-scm-publish-plugin/versions)
 
 Source code: [https://github.com/apache/maven-scm-publish-plugin.git](https://github.com/apache/maven-scm-publish-plugin.git)
 

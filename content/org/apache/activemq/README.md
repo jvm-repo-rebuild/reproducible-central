@@ -1,9 +1,9 @@
-[org.apache.activemq:activemq-parent](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/5.18.2/versions) RB check
+[org.apache.activemq:activemq-parent](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.activemq:activemq-parent](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/5.18.2/versions)
+## Project: [org.apache.activemq:activemq-parent](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/versions)
 
 Source code: [https://github.com/apache/activemq.git](https://github.com/apache/activemq.git)
 

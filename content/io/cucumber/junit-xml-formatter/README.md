@@ -1,9 +1,9 @@
-[io.cucumber:junit-xml-formatter](https://central.sonatype.com/artifact/io.cucumber/junit-xml-formatter/0.2.0/versions) RB check
+[io.cucumber:junit-xml-formatter](https://central.sonatype.com/artifact/io.cucumber/junit-xml-formatter/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.cucumber:junit-xml-formatter](https://central.sonatype.com/artifact/io.cucumber/junit-xml-formatter/0.2.0/versions)
+## Project: [io.cucumber:junit-xml-formatter](https://central.sonatype.com/artifact/io.cucumber/junit-xml-formatter/versions)
 
 Source code: [https://github.com/cucumber/cucumber-junit-xml-formatter.git](https://github.com/cucumber/cucumber-junit-xml-formatter.git)
 

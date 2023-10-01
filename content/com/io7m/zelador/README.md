@@ -1,9 +1,9 @@
-[com.io7m.zelador:com.io7m.zelador](https://central.sonatype.com/artifact/com.io7m.zelador/com.io7m.zelador/0.0.1/versions) RB check
+[com.io7m.zelador:com.io7m.zelador](https://central.sonatype.com/artifact/com.io7m.zelador/com.io7m.zelador/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.io7m.zelador:com.io7m.zelador](https://central.sonatype.com/artifact/com.io7m.zelador/com.io7m.zelador/0.0.1/versions)
+## Project: [com.io7m.zelador:com.io7m.zelador](https://central.sonatype.com/artifact/com.io7m.zelador/com.io7m.zelador/versions)
 
 Source code: [https://github.com/io7m/zelador.git](https://github.com/io7m/zelador.git)
 

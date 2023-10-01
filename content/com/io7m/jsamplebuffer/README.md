@@ -1,9 +1,9 @@
-[com.io7m.jsamplebuffer:com.io7m.jsamplebuffer](https://central.sonatype.com/artifact/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer/0.0.4/versions) RB check
+[com.io7m.jsamplebuffer:com.io7m.jsamplebuffer](https://central.sonatype.com/artifact/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.io7m.jsamplebuffer:com.io7m.jsamplebuffer](https://central.sonatype.com/artifact/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer/0.0.4/versions)
+## Project: [com.io7m.jsamplebuffer:com.io7m.jsamplebuffer](https://central.sonatype.com/artifact/com.io7m.jsamplebuffer/com.io7m.jsamplebuffer/versions)
 
 Source code: [https://github.com/io7m/jsamplebuffer.git](https://github.com/io7m/jsamplebuffer.git)
 

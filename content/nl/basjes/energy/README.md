@@ -1,9 +1,9 @@
-[nl.basjes.energy:energy-parent](https://central.sonatype.com/artifact/nl.basjes.energy/energy-parent/0.0.1/versions) RB check
+[nl.basjes.energy:energy-parent](https://central.sonatype.com/artifact/nl.basjes.energy/energy-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [nl.basjes.energy:energy-parent](https://central.sonatype.com/artifact/nl.basjes.energy/energy-parent/0.0.1/versions)
+## Project: [nl.basjes.energy:energy-parent](https://central.sonatype.com/artifact/nl.basjes.energy/energy-parent/versions)
 
 Source code: [https://github.com/nielsbasjes/energy.git](https://github.com/nielsbasjes/energy.git)
 

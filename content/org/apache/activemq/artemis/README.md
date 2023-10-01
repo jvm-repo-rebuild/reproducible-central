@@ -1,9 +1,9 @@
-[org.apache.activemq:artemis-pom](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.31.0/versions) RB check
+[org.apache.activemq:artemis-pom](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.activemq:artemis-pom](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/2.31.0/versions)
+## Project: [org.apache.activemq:artemis-pom](https://central.sonatype.com/artifact/org.apache.activemq/artemis-pom/versions)
 
 Source code: [https://github.com/apache/activemq-artemis.git](https://github.com/apache/activemq-artemis.git)
 

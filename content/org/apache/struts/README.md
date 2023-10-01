@@ -1,9 +1,9 @@
-[org.apache.struts:struts2-parent](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.3.0.1/versions) RB check
+[org.apache.struts:struts2-parent](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.struts:struts2-parent](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.3.0.1/versions)
+## Project: [org.apache.struts:struts2-parent](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/versions)
 
 Source code: [https://github.com/apache/struts.git](https://github.com/apache/struts.git)
 

@@ -1,9 +1,9 @@
-[org.simplify4u:pgp-keys-map](https://central.sonatype.com/artifact/org.simplify4u/pgp-keys-map/2023.06.24/versions) RB check
+[org.simplify4u:pgp-keys-map](https://central.sonatype.com/artifact/org.simplify4u/pgp-keys-map/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.simplify4u:pgp-keys-map](https://central.sonatype.com/artifact/org.simplify4u/pgp-keys-map/2023.06.24/versions)
+## Project: [org.simplify4u:pgp-keys-map](https://central.sonatype.com/artifact/org.simplify4u/pgp-keys-map/versions)
 
 Source code: [git@github.com:s4u/pgp-keys-map.git](git@github.com:s4u/pgp-keys-map.git)
 

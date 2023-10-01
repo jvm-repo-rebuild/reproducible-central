@@ -1,9 +1,9 @@
-[org.moditect:moditect-aggregator](https://central.sonatype.com/artifact/org.moditect/moditect-aggregator/1.0.0.Final/versions) RB check
+[org.moditect:moditect-aggregator](https://central.sonatype.com/artifact/org.moditect/moditect-aggregator/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.moditect:moditect-aggregator](https://central.sonatype.com/artifact/org.moditect/moditect-aggregator/1.0.0.Final/versions)
+## Project: [org.moditect:moditect-aggregator](https://central.sonatype.com/artifact/org.moditect/moditect-aggregator/versions)
 
 Source code: [https://github.com/moditect/moditect.git](https://github.com/moditect/moditect.git)
 

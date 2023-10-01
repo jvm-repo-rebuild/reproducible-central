@@ -1,9 +1,9 @@
-[com.github.veithen.alta:alta-maven-plugin](https://central.sonatype.com/artifact/com.github.veithen.alta/alta-maven-plugin/0.8.0/versions) RB check
+[com.github.veithen.alta:alta-maven-plugin](https://central.sonatype.com/artifact/com.github.veithen.alta/alta-maven-plugin/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.github.veithen.alta:alta-maven-plugin](https://central.sonatype.com/artifact/com.github.veithen.alta/alta-maven-plugin/0.8.0/versions)
+## Project: [com.github.veithen.alta:alta-maven-plugin](https://central.sonatype.com/artifact/com.github.veithen.alta/alta-maven-plugin/versions)
 
 Source code: [https://github.com/veithen/alta.git](https://github.com/veithen/alta.git)
 

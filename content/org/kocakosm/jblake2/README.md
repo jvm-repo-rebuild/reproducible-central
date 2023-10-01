@@ -1,9 +1,9 @@
-[org.kocakosm:jblake2](https://central.sonatype.com/artifact/org.kocakosm/jblake2/0.5/versions) RB check
+[org.kocakosm:jblake2](https://central.sonatype.com/artifact/org.kocakosm/jblake2/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.kocakosm:jblake2](https://central.sonatype.com/artifact/org.kocakosm/jblake2/0.5/versions)
+## Project: [org.kocakosm:jblake2](https://central.sonatype.com/artifact/org.kocakosm/jblake2/versions)
 
 Source code: [https://github.com/kocakosm/jblake2.git](https://github.com/kocakosm/jblake2.git)
 

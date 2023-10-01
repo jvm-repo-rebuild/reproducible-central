@@ -1,9 +1,9 @@
-[org.apache.maven.surefire:surefire](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire/3.1.2/versions) RB check
+[org.apache.maven.surefire:surefire](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.surefire:surefire](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire/3.1.2/versions)
+## Project: [org.apache.maven.surefire:surefire](https://central.sonatype.com/artifact/org.apache.maven.surefire/surefire/versions)
 
 Source code: [https://github.com/apache/maven-surefire.git](https://github.com/apache/maven-surefire.git)
 

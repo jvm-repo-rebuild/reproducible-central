@@ -1,9 +1,9 @@
-[com.io7m.jwheatsheaf:com.io7m.jwheatsheaf](https://central.sonatype.com/artifact/com.io7m.jwheatsheaf/com.io7m.jwheatsheaf/4.0.0-beta0001/versions) RB check
+[com.io7m.jwheatsheaf:com.io7m.jwheatsheaf](https://central.sonatype.com/artifact/com.io7m.jwheatsheaf/com.io7m.jwheatsheaf/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.io7m.jwheatsheaf:com.io7m.jwheatsheaf](https://central.sonatype.com/artifact/com.io7m.jwheatsheaf/com.io7m.jwheatsheaf/4.0.0-beta0001/versions)
+## Project: [com.io7m.jwheatsheaf:com.io7m.jwheatsheaf](https://central.sonatype.com/artifact/com.io7m.jwheatsheaf/com.io7m.jwheatsheaf/versions)
 
 Source code: [https://github.com/io7m/jwheatsheaf.git](https://github.com/io7m/jwheatsheaf.git)
 

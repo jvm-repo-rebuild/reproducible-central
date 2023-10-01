@@ -1,9 +1,9 @@
-[io.fabric8:docker-maven-plugin](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.43.4/versions) RB check
+[io.fabric8:docker-maven-plugin](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.fabric8:docker-maven-plugin](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/0.43.4/versions)
+## Project: [io.fabric8:docker-maven-plugin](https://central.sonatype.com/artifact/io.fabric8/docker-maven-plugin/versions)
 
 Source code: [https://github.com/fabric8io/docker-maven-plugin.git](https://github.com/fabric8io/docker-maven-plugin.git)
 

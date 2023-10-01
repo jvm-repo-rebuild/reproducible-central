@@ -1,9 +1,9 @@
-[io.smallrye:jandex-parent](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.1.5/versions) RB check
+[io.smallrye:jandex-parent](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.smallrye:jandex-parent](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/3.1.5/versions)
+## Project: [io.smallrye:jandex-parent](https://central.sonatype.com/artifact/io.smallrye/jandex-parent/versions)
 
 Source code: [https://github.com/smallrye/jandex.git](https://github.com/smallrye/jandex.git)
 

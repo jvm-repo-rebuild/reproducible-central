@@ -1,9 +1,9 @@
-[org.mybatis:mybatis-2-spring](https://central.sonatype.com/artifact/org.mybatis/mybatis-2-spring/1.2.0/versions) RB check
+[org.mybatis:mybatis-2-spring](https://central.sonatype.com/artifact/org.mybatis/mybatis-2-spring/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.mybatis:mybatis-2-spring](https://central.sonatype.com/artifact/org.mybatis/mybatis-2-spring/1.2.0/versions)
+## Project: [org.mybatis:mybatis-2-spring](https://central.sonatype.com/artifact/org.mybatis/mybatis-2-spring/versions)
 
 Source code: [https://github.com/mybatis/ibatis-spring.git](https://github.com/mybatis/ibatis-spring.git)
 

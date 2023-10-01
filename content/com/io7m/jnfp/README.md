@@ -1,9 +1,9 @@
-[com.io7m.jnfp:com.io7m.jnfp](https://central.sonatype.com/artifact/com.io7m.jnfp/com.io7m.jnfp/3.0.0/versions) RB check
+[com.io7m.jnfp:com.io7m.jnfp](https://central.sonatype.com/artifact/com.io7m.jnfp/com.io7m.jnfp/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.io7m.jnfp:com.io7m.jnfp](https://central.sonatype.com/artifact/com.io7m.jnfp/com.io7m.jnfp/3.0.0/versions)
+## Project: [com.io7m.jnfp:com.io7m.jnfp](https://central.sonatype.com/artifact/com.io7m.jnfp/com.io7m.jnfp/versions)
 
 Source code: [https://github.com/io7m/jnfp.git](https://github.com/io7m/jnfp.git)
 

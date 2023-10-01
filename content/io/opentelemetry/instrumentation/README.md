@@ -1,9 +1,9 @@
-[io.opentelemetry.instrumentation:opentelemetry-instrumentation-api](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.17.0-alpha/versions) RB check
+[io.opentelemetry.instrumentation:opentelemetry-instrumentation-api](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.opentelemetry.instrumentation:opentelemetry-instrumentation-api](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/1.17.0-alpha/versions)
+## Project: [io.opentelemetry.instrumentation:opentelemetry-instrumentation-api](https://central.sonatype.com/artifact/io.opentelemetry.instrumentation/opentelemetry-instrumentation-api/versions)
 
 Source code: [https://github.com/open-telemetry/opentelemetry-java-instrumentation.git](https://github.com/open-telemetry/opentelemetry-java-instrumentation.git)
 

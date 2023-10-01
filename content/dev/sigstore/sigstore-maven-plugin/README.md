@@ -1,9 +1,9 @@
-[dev.sigstore:sigstore-maven-plugin](https://central.sonatype.com/artifact/dev.sigstore/sigstore-maven-plugin/0.4.0/versions) RB check
+[dev.sigstore:sigstore-maven-plugin](https://central.sonatype.com/artifact/dev.sigstore/sigstore-maven-plugin/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [dev.sigstore:sigstore-maven-plugin](https://central.sonatype.com/artifact/dev.sigstore/sigstore-maven-plugin/0.4.0/versions)
+## Project: [dev.sigstore:sigstore-maven-plugin](https://central.sonatype.com/artifact/dev.sigstore/sigstore-maven-plugin/versions)
 
 Source code: [https://github.com/sigstore/sigstore-maven-plugin.git](https://github.com/sigstore/sigstore-maven-plugin.git)
 

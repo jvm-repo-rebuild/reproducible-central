@@ -1,9 +1,9 @@
-[com.io7m.jqpage:com.io7m.jqpage](https://central.sonatype.com/artifact/com.io7m.jqpage/com.io7m.jqpage/0.0.3/versions) RB check
+[com.io7m.jqpage:com.io7m.jqpage](https://central.sonatype.com/artifact/com.io7m.jqpage/com.io7m.jqpage/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.io7m.jqpage:com.io7m.jqpage](https://central.sonatype.com/artifact/com.io7m.jqpage/com.io7m.jqpage/0.0.3/versions)
+## Project: [com.io7m.jqpage:com.io7m.jqpage](https://central.sonatype.com/artifact/com.io7m.jqpage/com.io7m.jqpage/versions)
 
 Source code: [https://github.com/io7m/jqpage.git](https://github.com/io7m/jqpage.git)
 

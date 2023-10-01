@@ -1,9 +1,9 @@
-[io.github.zlika:reproducible-build-maven-plugin](https://central.sonatype.com/artifact/io.github.zlika/reproducible-build-maven-plugin/0.16/versions) RB check
+[io.github.zlika:reproducible-build-maven-plugin](https://central.sonatype.com/artifact/io.github.zlika/reproducible-build-maven-plugin/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.github.zlika:reproducible-build-maven-plugin](https://central.sonatype.com/artifact/io.github.zlika/reproducible-build-maven-plugin/0.16/versions)
+## Project: [io.github.zlika:reproducible-build-maven-plugin](https://central.sonatype.com/artifact/io.github.zlika/reproducible-build-maven-plugin/versions)
 
 Source code: [https://github.com/Zlika/reproducible-build-maven-plugin.git](https://github.com/Zlika/reproducible-build-maven-plugin.git)
 

@@ -1,9 +1,9 @@
-[net.nicoulaj.maven.plugins:checksum-maven-plugin](https://central.sonatype.com/artifact/net.nicoulaj.maven.plugins/checksum-maven-plugin/1.11/versions) RB check
+[net.nicoulaj.maven.plugins:checksum-maven-plugin](https://central.sonatype.com/artifact/net.nicoulaj.maven.plugins/checksum-maven-plugin/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [net.nicoulaj.maven.plugins:checksum-maven-plugin](https://central.sonatype.com/artifact/net.nicoulaj.maven.plugins/checksum-maven-plugin/1.11/versions)
+## Project: [net.nicoulaj.maven.plugins:checksum-maven-plugin](https://central.sonatype.com/artifact/net.nicoulaj.maven.plugins/checksum-maven-plugin/versions)
 
 Source code: [https://github.com/nicoulaj/checksum-maven-plugin.git](https://github.com/nicoulaj/checksum-maven-plugin.git)
 

@@ -1,9 +1,9 @@
-[com.io7m.chione:com.io7m.chione](https://central.sonatype.com/artifact/com.io7m.chione/com.io7m.chione/0.0.2/versions) RB check
+[com.io7m.chione:com.io7m.chione](https://central.sonatype.com/artifact/com.io7m.chione/com.io7m.chione/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.io7m.chione:com.io7m.chione](https://central.sonatype.com/artifact/com.io7m.chione/com.io7m.chione/0.0.2/versions)
+## Project: [com.io7m.chione:com.io7m.chione](https://central.sonatype.com/artifact/com.io7m.chione/com.io7m.chione/versions)
 
 Source code: [https://github.com/io7m/chione.git](https://github.com/io7m/chione.git)
 

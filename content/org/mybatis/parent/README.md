@@ -1,9 +1,9 @@
-[org.mybatis:mybatis-parent](https://central.sonatype.com/artifact/org.mybatis/mybatis-parent/39/versions) RB check
+[org.mybatis:mybatis-parent](https://central.sonatype.com/artifact/org.mybatis/mybatis-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.mybatis:mybatis-parent](https://central.sonatype.com/artifact/org.mybatis/mybatis-parent/39/versions)
+## Project: [org.mybatis:mybatis-parent](https://central.sonatype.com/artifact/org.mybatis/mybatis-parent/versions)
 
 Source code: [https://github.com/mybatis/parent.git](https://github.com/mybatis/parent.git)
 

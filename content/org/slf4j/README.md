@@ -1,9 +1,9 @@
-[org.slf4j:slf4j-parent](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.0.9/versions) RB check
+[org.slf4j:slf4j-parent](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.slf4j:slf4j-parent](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.0.9/versions)
+## Project: [org.slf4j:slf4j-parent](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/versions)
 
 Source code: [https://github.com/qos-ch/slf4j.git](https://github.com/qos-ch/slf4j.git)
 

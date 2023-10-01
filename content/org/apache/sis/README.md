@@ -1,9 +1,9 @@
-[org.apache.sis:parent](https://central.sonatype.com/artifact/org.apache.sis/parent/1.3/versions) RB check
+[org.apache.sis:parent](https://central.sonatype.com/artifact/org.apache.sis/parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sis:parent](https://central.sonatype.com/artifact/org.apache.sis/parent/1.3/versions)
+## Project: [org.apache.sis:parent](https://central.sonatype.com/artifact/org.apache.sis/parent/versions)
 
 Source code: [https://github.com/apache/sis.git](https://github.com/apache/sis.git)
 

@@ -1,9 +1,9 @@
-[org.apache.maven.scm:maven-scm](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.0.1/versions) RB check
+[org.apache.maven.scm:maven-scm](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.scm:maven-scm](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/2.0.1/versions)
+## Project: [org.apache.maven.scm:maven-scm](https://central.sonatype.com/artifact/org.apache.maven.scm/maven-scm/versions)
 
 Source code: [https://github.com/apache/maven-scm.git](https://github.com/apache/maven-scm.git)
 

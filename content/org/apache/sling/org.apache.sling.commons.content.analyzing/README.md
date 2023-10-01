@@ -1,9 +1,9 @@
-[org.apache.sling:org.apache.sling.commons.content.analyzing](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.commons.content.analyzing/1.0.0/versions) RB check
+[org.apache.sling:org.apache.sling.commons.content.analyzing](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.commons.content.analyzing/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.commons.content.analyzing](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.commons.content.analyzing/1.0.0/versions)
+## Project: [org.apache.sling:org.apache.sling.commons.content.analyzing](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.commons.content.analyzing/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-commons-content-analyzing.git](https://github.com/apache/sling-org-apache-sling-commons-content-analyzing.git)
 

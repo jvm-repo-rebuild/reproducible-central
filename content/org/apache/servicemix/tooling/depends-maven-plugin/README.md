@@ -1,9 +1,9 @@
-[org.apache.servicemix.tooling:depends-maven-plugin](https://central.sonatype.com/artifact/org.apache.servicemix.tooling/depends-maven-plugin/1.5.0/versions) RB check
+[org.apache.servicemix.tooling:depends-maven-plugin](https://central.sonatype.com/artifact/org.apache.servicemix.tooling/depends-maven-plugin/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.servicemix.tooling:depends-maven-plugin](https://central.sonatype.com/artifact/org.apache.servicemix.tooling/depends-maven-plugin/1.5.0/versions)
+## Project: [org.apache.servicemix.tooling:depends-maven-plugin](https://central.sonatype.com/artifact/org.apache.servicemix.tooling/depends-maven-plugin/versions)
 
 Source code: [https://github.com/apache/servicemix-maven-plugins.git](https://github.com/apache/servicemix-maven-plugins.git)
 

@@ -1,9 +1,9 @@
-[org.apache.aries.jax.rs:org.apache.aries.jax.rs](https://central.sonatype.com/artifact/org.apache.aries.jax.rs/org.apache.aries.jax.rs/2.0.2/versions) RB check
+[org.apache.aries.jax.rs:org.apache.aries.jax.rs](https://central.sonatype.com/artifact/org.apache.aries.jax.rs/org.apache.aries.jax.rs/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.aries.jax.rs:org.apache.aries.jax.rs](https://central.sonatype.com/artifact/org.apache.aries.jax.rs/org.apache.aries.jax.rs/2.0.2/versions)
+## Project: [org.apache.aries.jax.rs:org.apache.aries.jax.rs](https://central.sonatype.com/artifact/org.apache.aries.jax.rs/org.apache.aries.jax.rs/versions)
 
 Source code: [https://github.com/apache/aries-jax-rs-whiteboard.git](https://github.com/apache/aries-jax-rs-whiteboard.git)
 

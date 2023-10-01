@@ -1,9 +1,9 @@
-[org.apache.aries.cdi:org.apache.aries.cdi](https://central.sonatype.com/artifact/org.apache.aries.cdi/org.apache.aries.cdi/1.1.5/versions) RB check
+[org.apache.aries.cdi:org.apache.aries.cdi](https://central.sonatype.com/artifact/org.apache.aries.cdi/org.apache.aries.cdi/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.aries.cdi:org.apache.aries.cdi](https://central.sonatype.com/artifact/org.apache.aries.cdi/org.apache.aries.cdi/1.1.5/versions)
+## Project: [org.apache.aries.cdi:org.apache.aries.cdi](https://central.sonatype.com/artifact/org.apache.aries.cdi/org.apache.aries.cdi/versions)
 
 Source code: [https://github.com/apache/aries-cdi.git](https://github.com/apache/aries-cdi.git)
 

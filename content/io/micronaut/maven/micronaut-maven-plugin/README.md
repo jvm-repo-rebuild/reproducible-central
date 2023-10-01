@@ -1,9 +1,9 @@
-[io.micronaut.maven:micronaut-maven-plugin](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/4.0.6/versions) RB check
+[io.micronaut.maven:micronaut-maven-plugin](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.micronaut.maven:micronaut-maven-plugin](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/4.0.6/versions)
+## Project: [io.micronaut.maven:micronaut-maven-plugin](https://central.sonatype.com/artifact/io.micronaut.maven/micronaut-maven-plugin/versions)
 
 Source code: [https://github.com/micronaut-projects/micronaut-maven-plugin.git](https://github.com/micronaut-projects/micronaut-maven-plugin.git)
 

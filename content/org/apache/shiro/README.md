@@ -1,9 +1,9 @@
-[org.apache.shiro:shiro-root](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/2.0.0-alpha-3/versions) RB check
+[org.apache.shiro:shiro-root](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.shiro:shiro-root](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/2.0.0-alpha-3/versions)
+## Project: [org.apache.shiro:shiro-root](https://central.sonatype.com/artifact/org.apache.shiro/shiro-root/versions)
 
 Source code: [https://github.com/apache/shiro.git](https://github.com/apache/shiro.git)
 

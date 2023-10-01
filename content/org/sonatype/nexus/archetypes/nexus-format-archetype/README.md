@@ -1,9 +1,9 @@
-[org.sonatype.nexus.archetypes:nexus-format-archetype](https://central.sonatype.com/artifact/org.sonatype.nexus.archetypes/nexus-format-archetype/1.0.60/versions) RB check
+[org.sonatype.nexus.archetypes:nexus-format-archetype](https://central.sonatype.com/artifact/org.sonatype.nexus.archetypes/nexus-format-archetype/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.sonatype.nexus.archetypes:nexus-format-archetype](https://central.sonatype.com/artifact/org.sonatype.nexus.archetypes/nexus-format-archetype/1.0.60/versions)
+## Project: [org.sonatype.nexus.archetypes:nexus-format-archetype](https://central.sonatype.com/artifact/org.sonatype.nexus.archetypes/nexus-format-archetype/versions)
 
 Source code: [https://github.com/sonatype-nexus-community/nexus-format-archetype.git](https://github.com/sonatype-nexus-community/nexus-format-archetype.git)
 

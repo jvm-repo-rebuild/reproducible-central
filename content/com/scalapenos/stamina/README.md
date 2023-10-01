@@ -1,9 +1,9 @@
-[com.scalapenos:stamina_2.11](https://central.sonatype.com/artifact/com.scalapenos/stamina_2.11/0.1.6/versions) RB check
+[com.scalapenos:stamina_2.11](https://central.sonatype.com/artifact/com.scalapenos/stamina_2.11/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.scalapenos:stamina_2.11](https://central.sonatype.com/artifact/com.scalapenos/stamina_2.11/0.1.6/versions)
+## Project: [com.scalapenos:stamina_2.11](https://central.sonatype.com/artifact/com.scalapenos/stamina_2.11/versions)
 
 Source code: [https://github.com/scalapenos/stamina.git](https://github.com/scalapenos/stamina.git)
 

@@ -1,9 +1,9 @@
-[pl.com.labaj:auto-record](https://central.sonatype.com/artifact/pl.com.labaj/auto-record/2.1.0/versions) RB check
+[pl.com.labaj:auto-record](https://central.sonatype.com/artifact/pl.com.labaj/auto-record/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [pl.com.labaj:auto-record](https://central.sonatype.com/artifact/pl.com.labaj/auto-record/2.1.0/versions)
+## Project: [pl.com.labaj:auto-record](https://central.sonatype.com/artifact/pl.com.labaj/auto-record/versions)
 
 Source code: [https://github.com/pawellabaj/auto-record.git](https://github.com/pawellabaj/auto-record.git)
 

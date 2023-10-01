@@ -1,9 +1,9 @@
-[net.jsign:jsign](https://central.sonatype.com/artifact/net.jsign/jsign/5.0/versions) RB check
+[net.jsign:jsign](https://central.sonatype.com/artifact/net.jsign/jsign/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [net.jsign:jsign](https://central.sonatype.com/artifact/net.jsign/jsign/5.0/versions)
+## Project: [net.jsign:jsign](https://central.sonatype.com/artifact/net.jsign/jsign/versions)
 
 Source code: [https://github.com/ebourg/jsign.git](https://github.com/ebourg/jsign.git)
 

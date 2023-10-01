@@ -1,9 +1,9 @@
-[io.github.chains-project:maven-lockfile](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/5.0.0/versions) RB check
+[io.github.chains-project:maven-lockfile](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.github.chains-project:maven-lockfile](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/5.0.0/versions)
+## Project: [io.github.chains-project:maven-lockfile](https://central.sonatype.com/artifact/io.github.chains-project/maven-lockfile/versions)
 
 Source code: [https://github.com/chains-project/maven-lockfile.git](https://github.com/chains-project/maven-lockfile.git)
 

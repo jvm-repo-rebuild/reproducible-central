@@ -1,9 +1,9 @@
-[io.github.shanqiang-sq:jstream](https://central.sonatype.com/artifact/io.github.shanqiang-sq/jstream/2.0.6/versions) RB check
+[io.github.shanqiang-sq:jstream](https://central.sonatype.com/artifact/io.github.shanqiang-sq/jstream/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.github.shanqiang-sq:jstream](https://central.sonatype.com/artifact/io.github.shanqiang-sq/jstream/2.0.6/versions)
+## Project: [io.github.shanqiang-sq:jstream](https://central.sonatype.com/artifact/io.github.shanqiang-sq/jstream/versions)
 
 Source code: [https://github.com/shanqiang-sq/jstream](https://github.com/shanqiang-sq/jstream)
 

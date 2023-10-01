@@ -1,9 +1,9 @@
-[org.codehaus.plexus:plexus-xml](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/4.0.2/versions) RB check
+[org.codehaus.plexus:plexus-xml](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.codehaus.plexus:plexus-xml](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/4.0.2/versions)
+## Project: [org.codehaus.plexus:plexus-xml](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-xml/versions)
 
 Source code: [https://github.com/codehaus-plexus/plexus-xml.git](https://github.com/codehaus-plexus/plexus-xml.git)
 

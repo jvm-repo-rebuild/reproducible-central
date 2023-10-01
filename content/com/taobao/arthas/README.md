@@ -1,9 +1,9 @@
-[com.taobao.arthas:arthas-all](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.6.0/versions) RB check
+[com.taobao.arthas:arthas-all](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.taobao.arthas:arthas-all](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/3.6.0/versions)
+## Project: [com.taobao.arthas:arthas-all](https://central.sonatype.com/artifact/com.taobao.arthas/arthas-all/versions)
 
 Source code: [https://github.com/alibaba/arthas.git](https://github.com/alibaba/arthas.git)
 

@@ -1,9 +1,9 @@
-[com.github.adangel.liquibase.ext:liquibase-percona](https://central.sonatype.com/artifact/com.github.adangel.liquibase.ext/liquibase-percona/2.0.0/versions) RB check
+[com.github.adangel.liquibase.ext:liquibase-percona](https://central.sonatype.com/artifact/com.github.adangel.liquibase.ext/liquibase-percona/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.github.adangel.liquibase.ext:liquibase-percona](https://central.sonatype.com/artifact/com.github.adangel.liquibase.ext/liquibase-percona/2.0.0/versions)
+## Project: [com.github.adangel.liquibase.ext:liquibase-percona](https://central.sonatype.com/artifact/com.github.adangel.liquibase.ext/liquibase-percona/versions)
 
 Source code: [https://github.com/liquibase/liquibase-percona.git](https://github.com/liquibase/liquibase-percona.git)
 

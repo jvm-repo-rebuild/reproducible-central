@@ -1,9 +1,9 @@
-[io.jooby:jooby](https://central.sonatype.com/artifact/io.jooby/jooby/3.0.5/versions) RB check
+[io.jooby:jooby](https://central.sonatype.com/artifact/io.jooby/jooby/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.jooby:jooby](https://central.sonatype.com/artifact/io.jooby/jooby/3.0.5/versions)
+## Project: [io.jooby:jooby](https://central.sonatype.com/artifact/io.jooby/jooby/versions)
 
 Source code: [https://github.com/jooby-project/jooby.git](https://github.com/jooby-project/jooby.git)
 

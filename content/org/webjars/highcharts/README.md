@@ -1,9 +1,9 @@
-[org.webjars:highcharts](https://central.sonatype.com/artifact/org.webjars/highcharts/11.1.0/versions) RB check
+[org.webjars:highcharts](https://central.sonatype.com/artifact/org.webjars/highcharts/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.webjars:highcharts](https://central.sonatype.com/artifact/org.webjars/highcharts/11.1.0/versions)
+## Project: [org.webjars:highcharts](https://central.sonatype.com/artifact/org.webjars/highcharts/versions)
 
 Source code: [https://github.com/webjars/highcharts.git](https://github.com/webjars/highcharts.git)
 

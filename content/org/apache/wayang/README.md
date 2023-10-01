@@ -1,9 +1,9 @@
-[org.apache.wayang:wayang](https://central.sonatype.com/artifact/org.apache.wayang/wayang/0.7.1/versions) RB check
+[org.apache.wayang:wayang](https://central.sonatype.com/artifact/org.apache.wayang/wayang/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.wayang:wayang](https://central.sonatype.com/artifact/org.apache.wayang/wayang/0.7.1/versions)
+## Project: [org.apache.wayang:wayang](https://central.sonatype.com/artifact/org.apache.wayang/wayang/versions)
 
 Source code: [https://github.com/apache/incubator-wayang.git](https://github.com/apache/incubator-wayang.git)
 

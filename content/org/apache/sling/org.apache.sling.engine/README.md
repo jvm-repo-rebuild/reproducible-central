@@ -1,9 +1,9 @@
-[org.apache.sling:org.apache.sling.engine](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.engine/2.15.6/versions) RB check
+[org.apache.sling:org.apache.sling.engine](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.engine/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.engine](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.engine/2.15.6/versions)
+## Project: [org.apache.sling:org.apache.sling.engine](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.engine/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-engine.git](https://github.com/apache/sling-org-apache-sling-engine.git)
 

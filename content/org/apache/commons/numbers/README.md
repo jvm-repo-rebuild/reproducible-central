@@ -1,9 +1,9 @@
-[org.apache.commons:commons-numbers-parent](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-parent/1.1/versions) RB check
+[org.apache.commons:commons-numbers-parent](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.commons:commons-numbers-parent](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-parent/1.1/versions)
+## Project: [org.apache.commons:commons-numbers-parent](https://central.sonatype.com/artifact/org.apache.commons/commons-numbers-parent/versions)
 
 Source code: [https://github.com/apache/commons-numbers.git](https://github.com/apache/commons-numbers.git)
 

@@ -1,9 +1,9 @@
-[org.eclipse.jkube:jkube](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.14.0/versions) RB check
+[org.eclipse.jkube:jkube](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.eclipse.jkube:jkube](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/1.14.0/versions)
+## Project: [org.eclipse.jkube:jkube](https://central.sonatype.com/artifact/org.eclipse.jkube/jkube/versions)
 
 Source code: [https://github.com/eclipse/jkube.git](https://github.com/eclipse/jkube.git)
 

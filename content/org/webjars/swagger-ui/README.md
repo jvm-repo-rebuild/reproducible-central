@@ -1,9 +1,9 @@
-[org.webjars:swagger-ui](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.7.2/versions) RB check
+[org.webjars:swagger-ui](https://central.sonatype.com/artifact/org.webjars/swagger-ui/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.webjars:swagger-ui](https://central.sonatype.com/artifact/org.webjars/swagger-ui/5.7.2/versions)
+## Project: [org.webjars:swagger-ui](https://central.sonatype.com/artifact/org.webjars/swagger-ui/versions)
 
 Source code: [https://github.com/webjars/swagger-ui.git](https://github.com/webjars/swagger-ui.git)
 

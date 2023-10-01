@@ -1,9 +1,9 @@
-[world.convex:convex](https://central.sonatype.com/artifact/world.convex/convex/0.7.11/versions) RB check
+[world.convex:convex](https://central.sonatype.com/artifact/world.convex/convex/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [world.convex:convex](https://central.sonatype.com/artifact/world.convex/convex/0.7.11/versions)
+## Project: [world.convex:convex](https://central.sonatype.com/artifact/world.convex/convex/versions)
 
 Source code: [https://github.com/Convex-Dev/convex.git](https://github.com/Convex-Dev/convex.git)
 

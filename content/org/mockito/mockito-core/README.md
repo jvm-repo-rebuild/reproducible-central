@@ -1,9 +1,9 @@
-[org.mockito:mockito-core](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.5.0/versions) RB check
+[org.mockito:mockito-core](https://central.sonatype.com/artifact/org.mockito/mockito-core/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.mockito:mockito-core](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.5.0/versions)
+## Project: [org.mockito:mockito-core](https://central.sonatype.com/artifact/org.mockito/mockito-core/versions)
 
 Source code: [https://github.com/mockito/mockito.git](https://github.com/mockito/mockito.git)
 

@@ -1,9 +1,9 @@
-[com.vladsch.flexmark:flexmark-java](https://central.sonatype.com/artifact/com.vladsch.flexmark/flexmark-java/0.64.8/versions) RB check
+[com.vladsch.flexmark:flexmark-java](https://central.sonatype.com/artifact/com.vladsch.flexmark/flexmark-java/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.vladsch.flexmark:flexmark-java](https://central.sonatype.com/artifact/com.vladsch.flexmark/flexmark-java/0.64.8/versions)
+## Project: [com.vladsch.flexmark:flexmark-java](https://central.sonatype.com/artifact/com.vladsch.flexmark/flexmark-java/versions)
 
 Source code: [https://github.com/vsch/flexmark-java.git](https://github.com/vsch/flexmark-java.git)
 

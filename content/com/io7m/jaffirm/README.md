@@ -1,9 +1,9 @@
-[com.io7m.jaffirm:com.io7m.jaffirm](https://central.sonatype.com/artifact/com.io7m.jaffirm/com.io7m.jaffirm/4.0.0/versions) RB check
+[com.io7m.jaffirm:com.io7m.jaffirm](https://central.sonatype.com/artifact/com.io7m.jaffirm/com.io7m.jaffirm/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.io7m.jaffirm:com.io7m.jaffirm](https://central.sonatype.com/artifact/com.io7m.jaffirm/com.io7m.jaffirm/4.0.0/versions)
+## Project: [com.io7m.jaffirm:com.io7m.jaffirm](https://central.sonatype.com/artifact/com.io7m.jaffirm/com.io7m.jaffirm/versions)
 
 Source code: [https://github.com/io7m/jaffirm.git](https://github.com/io7m/jaffirm.git)
 

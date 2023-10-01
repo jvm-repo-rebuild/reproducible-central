@@ -1,9 +1,9 @@
-[org.chabala.brick:brick-control-lab](https://central.sonatype.com/artifact/org.chabala.brick/brick-control-lab/0.2.1/versions) RB check
+[org.chabala.brick:brick-control-lab](https://central.sonatype.com/artifact/org.chabala.brick/brick-control-lab/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.chabala.brick:brick-control-lab](https://central.sonatype.com/artifact/org.chabala.brick/brick-control-lab/0.2.1/versions)
+## Project: [org.chabala.brick:brick-control-lab](https://central.sonatype.com/artifact/org.chabala.brick/brick-control-lab/versions)
 
 Source code: [https://github.com/chabala/brick-control-lab.git](https://github.com/chabala/brick-control-lab.git)
 

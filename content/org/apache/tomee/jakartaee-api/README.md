@@ -1,9 +1,9 @@
-[org.apache.tomee:jakartaee-api](https://central.sonatype.com/artifact/org.apache.tomee/jakartaee-api/10.0-M1/versions) RB check
+[org.apache.tomee:jakartaee-api](https://central.sonatype.com/artifact/org.apache.tomee/jakartaee-api/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.tomee:jakartaee-api](https://central.sonatype.com/artifact/org.apache.tomee/jakartaee-api/10.0-M1/versions)
+## Project: [org.apache.tomee:jakartaee-api](https://central.sonatype.com/artifact/org.apache.tomee/jakartaee-api/versions)
 
 Source code: [https://github.com/apache/tomee-jakartaee-api.git](https://github.com/apache/tomee-jakartaee-api.git)
 

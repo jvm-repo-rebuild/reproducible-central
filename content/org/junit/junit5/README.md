@@ -1,9 +1,9 @@
-[org.junit:junit-bom](https://central.sonatype.com/artifact/org.junit/junit-bom/5.8.2/versions) RB check
+[org.junit:junit-bom](https://central.sonatype.com/artifact/org.junit/junit-bom/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.junit:junit-bom](https://central.sonatype.com/artifact/org.junit/junit-bom/5.8.2/versions)
+## Project: [org.junit:junit-bom](https://central.sonatype.com/artifact/org.junit/junit-bom/versions)
 
 Source code: [https://github.com/junit-team/junit5.git](https://github.com/junit-team/junit5.git)
 

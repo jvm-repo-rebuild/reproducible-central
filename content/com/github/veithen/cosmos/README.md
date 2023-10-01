@@ -1,9 +1,9 @@
-[com.github.veithen.cosmos:cosmos](https://central.sonatype.com/artifact/com.github.veithen.cosmos/cosmos/0.5.0/versions) RB check
+[com.github.veithen.cosmos:cosmos](https://central.sonatype.com/artifact/com.github.veithen.cosmos/cosmos/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.github.veithen.cosmos:cosmos](https://central.sonatype.com/artifact/com.github.veithen.cosmos/cosmos/0.5.0/versions)
+## Project: [com.github.veithen.cosmos:cosmos](https://central.sonatype.com/artifact/com.github.veithen.cosmos/cosmos/versions)
 
 Source code: [https://github.com/veithen/cosmos.git](https://github.com/veithen/cosmos.git)
 

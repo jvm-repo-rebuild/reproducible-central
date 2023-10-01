@@ -1,9 +1,9 @@
-[org.webjars:bootstrap](https://central.sonatype.com/artifact/org.webjars/bootstrap/5.3.2/versions) RB check
+[org.webjars:bootstrap](https://central.sonatype.com/artifact/org.webjars/bootstrap/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.webjars:bootstrap](https://central.sonatype.com/artifact/org.webjars/bootstrap/5.3.2/versions)
+## Project: [org.webjars:bootstrap](https://central.sonatype.com/artifact/org.webjars/bootstrap/versions)
 
 Source code: [https://github.com/webjars/bootstrap.git](https://github.com/webjars/bootstrap.git)
 

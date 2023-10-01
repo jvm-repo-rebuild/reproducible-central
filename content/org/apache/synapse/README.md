@@ -1,9 +1,9 @@
-[org.apache.synapse:Apache-Synapse](https://central.sonatype.com/artifact/org.apache.synapse/Apache-Synapse/3.0.2/versions) RB check
+[org.apache.synapse:Apache-Synapse](https://central.sonatype.com/artifact/org.apache.synapse/Apache-Synapse/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.synapse:Apache-Synapse](https://central.sonatype.com/artifact/org.apache.synapse/Apache-Synapse/3.0.2/versions)
+## Project: [org.apache.synapse:Apache-Synapse](https://central.sonatype.com/artifact/org.apache.synapse/Apache-Synapse/versions)
 
 Source code: [https://gitbox.apache.org/repos/asf/synapse.git](https://gitbox.apache.org/repos/asf/synapse.git)
 

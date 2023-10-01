@@ -1,9 +1,9 @@
-[org.apache.bcel:bcel](https://central.sonatype.com/artifact/org.apache.bcel/bcel/6.7.0/versions) RB check
+[org.apache.bcel:bcel](https://central.sonatype.com/artifact/org.apache.bcel/bcel/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.bcel:bcel](https://central.sonatype.com/artifact/org.apache.bcel/bcel/6.7.0/versions)
+## Project: [org.apache.bcel:bcel](https://central.sonatype.com/artifact/org.apache.bcel/bcel/versions)
 
 Source code: [https://github.com/apache/commons-bcel.git](https://github.com/apache/commons-bcel.git)
 

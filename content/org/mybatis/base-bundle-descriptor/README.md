@@ -1,9 +1,9 @@
-[org.mybatis:base-bundle-descriptor](https://central.sonatype.com/artifact/org.mybatis/base-bundle-descriptor/10/versions) RB check
+[org.mybatis:base-bundle-descriptor](https://central.sonatype.com/artifact/org.mybatis/base-bundle-descriptor/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.mybatis:base-bundle-descriptor](https://central.sonatype.com/artifact/org.mybatis/base-bundle-descriptor/10/versions)
+## Project: [org.mybatis:base-bundle-descriptor](https://central.sonatype.com/artifact/org.mybatis/base-bundle-descriptor/versions)
 
 Source code: [https://github.com/mybatis/base-bundle-descriptor.git](https://github.com/mybatis/base-bundle-descriptor.git)
 

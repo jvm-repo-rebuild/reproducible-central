@@ -1,9 +1,9 @@
-[io.github.derkrischan:jpdftest](https://central.sonatype.com/artifact/io.github.derkrischan/jpdftest/0.10.0/versions) RB check
+[io.github.derkrischan:jpdftest](https://central.sonatype.com/artifact/io.github.derkrischan/jpdftest/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.github.derkrischan:jpdftest](https://central.sonatype.com/artifact/io.github.derkrischan/jpdftest/0.10.0/versions)
+## Project: [io.github.derkrischan:jpdftest](https://central.sonatype.com/artifact/io.github.derkrischan/jpdftest/versions)
 
 Source code: [https://github.com/derKrischan/jpdftest.git](https://github.com/derKrischan/jpdftest.git)
 

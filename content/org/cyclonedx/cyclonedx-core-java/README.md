@@ -1,9 +1,9 @@
-[org.cyclonedx:cyclonedx-core-java](https://central.sonatype.com/artifact/org.cyclonedx/cyclonedx-core-java/7.3.2/versions) RB check
+[org.cyclonedx:cyclonedx-core-java](https://central.sonatype.com/artifact/org.cyclonedx/cyclonedx-core-java/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.cyclonedx:cyclonedx-core-java](https://central.sonatype.com/artifact/org.cyclonedx/cyclonedx-core-java/7.3.2/versions)
+## Project: [org.cyclonedx:cyclonedx-core-java](https://central.sonatype.com/artifact/org.cyclonedx/cyclonedx-core-java/versions)
 
 Source code: [https://github.com/cyclonedx/cyclonedx-core-java.git](https://github.com/cyclonedx/cyclonedx-core-java.git)
 

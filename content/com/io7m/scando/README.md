@@ -1,9 +1,9 @@
-[com.io7m.scando:com.io7m.scando](https://central.sonatype.com/artifact/com.io7m.scando/com.io7m.scando/1.0.0/versions) RB check
+[com.io7m.scando:com.io7m.scando](https://central.sonatype.com/artifact/com.io7m.scando/com.io7m.scando/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.io7m.scando:com.io7m.scando](https://central.sonatype.com/artifact/com.io7m.scando/com.io7m.scando/1.0.0/versions)
+## Project: [com.io7m.scando:com.io7m.scando](https://central.sonatype.com/artifact/com.io7m.scando/com.io7m.scando/versions)
 
 Source code: [https://github.com/io7m/scando.git](https://github.com/io7m/scando.git)
 

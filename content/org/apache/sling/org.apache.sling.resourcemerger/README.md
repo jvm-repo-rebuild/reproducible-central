@@ -1,9 +1,9 @@
-[org.apache.sling:org.apache.sling.resourcemerger](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourcemerger/1.4.4/versions) RB check
+[org.apache.sling:org.apache.sling.resourcemerger](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourcemerger/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.resourcemerger](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourcemerger/1.4.4/versions)
+## Project: [org.apache.sling:org.apache.sling.resourcemerger](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourcemerger/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-resourcemerger.git](https://github.com/apache/sling-org-apache-sling-resourcemerger.git)
 

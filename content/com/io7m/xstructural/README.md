@@ -1,9 +1,9 @@
-[com.io7m.xstructural:com.io7m.xstructural](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/1.8.0/versions) RB check
+[com.io7m.xstructural:com.io7m.xstructural](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.io7m.xstructural:com.io7m.xstructural](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/1.8.0/versions)
+## Project: [com.io7m.xstructural:com.io7m.xstructural](https://central.sonatype.com/artifact/com.io7m.xstructural/com.io7m.xstructural/versions)
 
 Source code: [https://github.com/io7m/xstructural.git](https://github.com/io7m/xstructural.git)
 

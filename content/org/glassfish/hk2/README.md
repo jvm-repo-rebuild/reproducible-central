@@ -1,9 +1,9 @@
-[org.glassfish.hk2:hk2-parent](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/3.0.4/versions) RB check
+[org.glassfish.hk2:hk2-parent](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.glassfish.hk2:hk2-parent](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/3.0.4/versions)
+## Project: [org.glassfish.hk2:hk2-parent](https://central.sonatype.com/artifact/org.glassfish.hk2/hk2-parent/versions)
 
 Source code: [https://github.com/eclipse-ee4j/glassfish-hk2.git](https://github.com/eclipse-ee4j/glassfish-hk2.git)
 

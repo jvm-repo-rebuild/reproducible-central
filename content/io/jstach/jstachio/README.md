@@ -1,9 +1,9 @@
-[io.jstach:jstachio](https://central.sonatype.com/artifact/io.jstach/jstachio/1.3.2/versions) RB check
+[io.jstach:jstachio](https://central.sonatype.com/artifact/io.jstach/jstachio/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.jstach:jstachio](https://central.sonatype.com/artifact/io.jstach/jstachio/1.3.2/versions)
+## Project: [io.jstach:jstachio](https://central.sonatype.com/artifact/io.jstach/jstachio/versions)
 
 Source code: [https://github.com/jstachio/jstachio.git](https://github.com/jstachio/jstachio.git)
 

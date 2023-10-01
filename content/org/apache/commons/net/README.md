@@ -1,9 +1,9 @@
-[commons-net:commons-net](https://central.sonatype.com/artifact/commons-net/commons-net/3.9.0/versions) RB check
+[commons-net:commons-net](https://central.sonatype.com/artifact/commons-net/commons-net/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [commons-net:commons-net](https://central.sonatype.com/artifact/commons-net/commons-net/3.9.0/versions)
+## Project: [commons-net:commons-net](https://central.sonatype.com/artifact/commons-net/commons-net/versions)
 
 Source code: [https://github.com/apache/commons-net.git](https://github.com/apache/commons-net.git)
 

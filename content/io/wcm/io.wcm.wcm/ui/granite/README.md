@@ -1,9 +1,9 @@
-[io.wcm:io.wcm.wcm.ui.granite](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.ui.granite/1.9.12/versions) RB check
+[io.wcm:io.wcm.wcm.ui.granite](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.ui.granite/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.wcm:io.wcm.wcm.ui.granite](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.ui.granite/1.9.12/versions)
+## Project: [io.wcm:io.wcm.wcm.ui.granite](https://central.sonatype.com/artifact/io.wcm/io.wcm.wcm.ui.granite/versions)
 
 Source code: [https://github.com/wcm-io/io.wcm.wcm.ui.granite.git](https://github.com/wcm-io/io.wcm.wcm.ui.granite.git)
 

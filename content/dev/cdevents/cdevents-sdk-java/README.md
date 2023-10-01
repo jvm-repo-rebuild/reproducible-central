@@ -1,9 +1,9 @@
-[dev.cdevents:cdevents-sdk-java](https://central.sonatype.com/artifact/dev.cdevents/cdevents-sdk-java/0.1.2/versions) RB check
+[dev.cdevents:cdevents-sdk-java](https://central.sonatype.com/artifact/dev.cdevents/cdevents-sdk-java/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [dev.cdevents:cdevents-sdk-java](https://central.sonatype.com/artifact/dev.cdevents/cdevents-sdk-java/0.1.2/versions)
+## Project: [dev.cdevents:cdevents-sdk-java](https://central.sonatype.com/artifact/dev.cdevents/cdevents-sdk-java/versions)
 
 Source code: [https://github.com/cdevents/sdk-java.git](https://github.com/cdevents/sdk-java.git)
 

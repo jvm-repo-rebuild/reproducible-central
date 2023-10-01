@@ -1,9 +1,9 @@
-[de.unentscheidbar:migratedb](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/0.2.0/versions) RB check
+[de.unentscheidbar:migratedb](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [de.unentscheidbar:migratedb](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/0.2.0/versions)
+## Project: [de.unentscheidbar:migratedb](https://central.sonatype.com/artifact/de.unentscheidbar/migratedb/versions)
 
 Source code: [https://unentscheidbar.de/gitea/hussdl/migratedb.git](https://unentscheidbar.de/gitea/hussdl/migratedb.git)
 

@@ -1,9 +1,9 @@
-[com.io7m.junreachable:com.io7m.junreachable](https://central.sonatype.com/artifact/com.io7m.junreachable/com.io7m.junreachable/4.0.0/versions) RB check
+[com.io7m.junreachable:com.io7m.junreachable](https://central.sonatype.com/artifact/com.io7m.junreachable/com.io7m.junreachable/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.io7m.junreachable:com.io7m.junreachable](https://central.sonatype.com/artifact/com.io7m.junreachable/com.io7m.junreachable/4.0.0/versions)
+## Project: [com.io7m.junreachable:com.io7m.junreachable](https://central.sonatype.com/artifact/com.io7m.junreachable/com.io7m.junreachable/versions)
 
 Source code: [https://github.com/io7m/junreachable.git](https://github.com/io7m/junreachable.git)
 

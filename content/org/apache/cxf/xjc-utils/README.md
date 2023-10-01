@@ -1,9 +1,9 @@
-[org.apache.cxf.xjc-utils:xjc-utils](https://central.sonatype.com/artifact/org.apache.cxf.xjc-utils/xjc-utils/4.0.0/versions) RB check
+[org.apache.cxf.xjc-utils:xjc-utils](https://central.sonatype.com/artifact/org.apache.cxf.xjc-utils/xjc-utils/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.cxf.xjc-utils:xjc-utils](https://central.sonatype.com/artifact/org.apache.cxf.xjc-utils/xjc-utils/4.0.0/versions)
+## Project: [org.apache.cxf.xjc-utils:xjc-utils](https://central.sonatype.com/artifact/org.apache.cxf.xjc-utils/xjc-utils/versions)
 
 Source code: [https://github.com/apache/cxf-xjc-utils.git](https://github.com/apache/cxf-xjc-utils.git)
 

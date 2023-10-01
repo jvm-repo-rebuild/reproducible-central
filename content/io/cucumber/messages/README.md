@@ -1,9 +1,9 @@
-[io.cucumber:messages](https://central.sonatype.com/artifact/io.cucumber/messages/22.0.0/versions) RB check
+[io.cucumber:messages](https://central.sonatype.com/artifact/io.cucumber/messages/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.cucumber:messages](https://central.sonatype.com/artifact/io.cucumber/messages/22.0.0/versions)
+## Project: [io.cucumber:messages](https://central.sonatype.com/artifact/io.cucumber/messages/versions)
 
 Source code: [https://github.com/cucumber/messages.git](https://github.com/cucumber/messages.git)
 

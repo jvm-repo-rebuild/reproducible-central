@@ -1,9 +1,9 @@
-[io.wcm.tooling.commons:io.wcm.tooling.commons.crx-packmgr-helper](https://central.sonatype.com/artifact/io.wcm.tooling.commons/io.wcm.tooling.commons.crx-packmgr-helper/2.1.6/versions) RB check
+[io.wcm.tooling.commons:io.wcm.tooling.commons.crx-packmgr-helper](https://central.sonatype.com/artifact/io.wcm.tooling.commons/io.wcm.tooling.commons.crx-packmgr-helper/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.wcm.tooling.commons:io.wcm.tooling.commons.crx-packmgr-helper](https://central.sonatype.com/artifact/io.wcm.tooling.commons/io.wcm.tooling.commons.crx-packmgr-helper/2.1.6/versions)
+## Project: [io.wcm.tooling.commons:io.wcm.tooling.commons.crx-packmgr-helper](https://central.sonatype.com/artifact/io.wcm.tooling.commons/io.wcm.tooling.commons.crx-packmgr-helper/versions)
 
 Source code: [https://github.com/wcm-io/io.wcm.tooling.commons.crx-packmgr-helper.git](https://github.com/wcm-io/io.wcm.tooling.commons.crx-packmgr-helper.git)
 

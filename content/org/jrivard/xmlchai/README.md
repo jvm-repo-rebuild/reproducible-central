@@ -1,9 +1,9 @@
-[org.jrivard.xmlchai:xmlchai](https://central.sonatype.com/artifact/org.jrivard.xmlchai/xmlchai/0.1.3/versions) RB check
+[org.jrivard.xmlchai:xmlchai](https://central.sonatype.com/artifact/org.jrivard.xmlchai/xmlchai/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.jrivard.xmlchai:xmlchai](https://central.sonatype.com/artifact/org.jrivard.xmlchai/xmlchai/0.1.3/versions)
+## Project: [org.jrivard.xmlchai:xmlchai](https://central.sonatype.com/artifact/org.jrivard.xmlchai/xmlchai/versions)
 
 Source code: [https://github.com/jrivard/chaixml](https://github.com/jrivard/chaixml)
 

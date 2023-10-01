@@ -1,9 +1,9 @@
-[io.dropwizard:dropwizard-project](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/4.0.2/versions) RB check
+[io.dropwizard:dropwizard-project](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.dropwizard:dropwizard-project](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/4.0.2/versions)
+## Project: [io.dropwizard:dropwizard-project](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/versions)
 
 Source code: [https://github.com/dropwizard/dropwizard.git](https://github.com/dropwizard/dropwizard.git)
 

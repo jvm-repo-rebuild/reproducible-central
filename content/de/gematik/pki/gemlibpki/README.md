@@ -1,9 +1,9 @@
-[de.gematik.pki.gemlibpki:gemLibPki](https://central.sonatype.com/artifact/de.gematik.pki.gemlibpki/gemLibPki/0.9.3/versions) RB check
+[de.gematik.pki.gemlibpki:gemLibPki](https://central.sonatype.com/artifact/de.gematik.pki.gemlibpki/gemLibPki/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [de.gematik.pki.gemlibpki:gemLibPki](https://central.sonatype.com/artifact/de.gematik.pki.gemlibpki/gemLibPki/0.9.3/versions)
+## Project: [de.gematik.pki.gemlibpki:gemLibPki](https://central.sonatype.com/artifact/de.gematik.pki.gemlibpki/gemLibPki/versions)
 
 Source code: [https://github.com/gematik/ref-GemLibPki.git](https://github.com/gematik/ref-GemLibPki.git)
 

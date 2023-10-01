@@ -1,9 +1,9 @@
-[org.complate:complate-parent](https://central.sonatype.com/artifact/org.complate/complate-parent/1.0.0/versions) RB check
+[org.complate:complate-parent](https://central.sonatype.com/artifact/org.complate/complate-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.complate:complate-parent](https://central.sonatype.com/artifact/org.complate/complate-parent/1.0.0/versions)
+## Project: [org.complate:complate-parent](https://central.sonatype.com/artifact/org.complate/complate-parent/versions)
 
 Source code: [https://github.com/complate/complate-java.git](https://github.com/complate/complate-java.git)
 

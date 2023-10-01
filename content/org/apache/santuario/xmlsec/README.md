@@ -1,9 +1,9 @@
-[org.apache.santuario:xmlsec](https://central.sonatype.com/artifact/org.apache.santuario/xmlsec/4.0.0-M1/versions) RB check
+[org.apache.santuario:xmlsec](https://central.sonatype.com/artifact/org.apache.santuario/xmlsec/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.santuario:xmlsec](https://central.sonatype.com/artifact/org.apache.santuario/xmlsec/4.0.0-M1/versions)
+## Project: [org.apache.santuario:xmlsec](https://central.sonatype.com/artifact/org.apache.santuario/xmlsec/versions)
 
 Source code: [https://github.com/apache/santuario-xml-security-java.git](https://github.com/apache/santuario-xml-security-java.git)
 

@@ -1,9 +1,9 @@
-[com.corgibytes:versions-maven-plugin](https://central.sonatype.com/artifact/com.corgibytes/versions-maven-plugin/2.11.1/versions) RB check
+[com.corgibytes:versions-maven-plugin](https://central.sonatype.com/artifact/com.corgibytes/versions-maven-plugin/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.corgibytes:versions-maven-plugin](https://central.sonatype.com/artifact/com.corgibytes/versions-maven-plugin/2.11.1/versions)
+## Project: [com.corgibytes:versions-maven-plugin](https://central.sonatype.com/artifact/com.corgibytes/versions-maven-plugin/versions)
 
 Source code: [https://github.com/corgibytes/versions-maven-plugin](https://github.com/corgibytes/versions-maven-plugin)
 

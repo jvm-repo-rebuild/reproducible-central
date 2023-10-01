@@ -1,9 +1,9 @@
-[io.wcm.maven.plugins:nodejs-maven-plugin](https://central.sonatype.com/artifact/io.wcm.maven.plugins/nodejs-maven-plugin/3.0.6/versions) RB check
+[io.wcm.maven.plugins:nodejs-maven-plugin](https://central.sonatype.com/artifact/io.wcm.maven.plugins/nodejs-maven-plugin/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.wcm.maven.plugins:nodejs-maven-plugin](https://central.sonatype.com/artifact/io.wcm.maven.plugins/nodejs-maven-plugin/3.0.6/versions)
+## Project: [io.wcm.maven.plugins:nodejs-maven-plugin](https://central.sonatype.com/artifact/io.wcm.maven.plugins/nodejs-maven-plugin/versions)
 
 Source code: [https://github.com/wcm-io/nodejs-maven-plugin.git](https://github.com/wcm-io/nodejs-maven-plugin.git)
 

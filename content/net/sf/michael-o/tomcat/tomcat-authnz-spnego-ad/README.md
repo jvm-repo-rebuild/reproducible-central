@@ -1,9 +1,9 @@
-[net.sf.michael-o.tomcat:tomcat-authnz-spnego-ad](https://central.sonatype.com/artifact/net.sf.michael-o.tomcat/tomcat-authnz-spnego-ad/4.0.1/versions) RB check
+[net.sf.michael-o.tomcat:tomcat-authnz-spnego-ad](https://central.sonatype.com/artifact/net.sf.michael-o.tomcat/tomcat-authnz-spnego-ad/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [net.sf.michael-o.tomcat:tomcat-authnz-spnego-ad](https://central.sonatype.com/artifact/net.sf.michael-o.tomcat/tomcat-authnz-spnego-ad/4.0.1/versions)
+## Project: [net.sf.michael-o.tomcat:tomcat-authnz-spnego-ad](https://central.sonatype.com/artifact/net.sf.michael-o.tomcat/tomcat-authnz-spnego-ad/versions)
 
 Source code: [https://github.com/michael-o/tomcatspnegoad.git](https://github.com/michael-o/tomcatspnegoad.git)
 

@@ -1,9 +1,9 @@
-[com.fasterxml.uuid:java-uuid-generator](https://central.sonatype.com/artifact/com.fasterxml.uuid/java-uuid-generator/4.3.0/versions) RB check
+[com.fasterxml.uuid:java-uuid-generator](https://central.sonatype.com/artifact/com.fasterxml.uuid/java-uuid-generator/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.fasterxml.uuid:java-uuid-generator](https://central.sonatype.com/artifact/com.fasterxml.uuid/java-uuid-generator/4.3.0/versions)
+## Project: [com.fasterxml.uuid:java-uuid-generator](https://central.sonatype.com/artifact/com.fasterxml.uuid/java-uuid-generator/versions)
 
 Source code: [https://github.com/cowtowncoder/java-uuid-generator.git](https://github.com/cowtowncoder/java-uuid-generator.git)
 

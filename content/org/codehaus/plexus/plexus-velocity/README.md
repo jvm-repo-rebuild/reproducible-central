@@ -1,9 +1,9 @@
-[org.codehaus.plexus:plexus-velocity](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-velocity/2.0/versions) RB check
+[org.codehaus.plexus:plexus-velocity](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-velocity/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.codehaus.plexus:plexus-velocity](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-velocity/2.0/versions)
+## Project: [org.codehaus.plexus:plexus-velocity](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-velocity/versions)
 
 Source code: [https://github.com/codehaus-plexus/plexus-velocity.git](https://github.com/codehaus-plexus/plexus-velocity.git)
 

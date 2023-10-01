@@ -1,9 +1,9 @@
-[org.apache.sling:org.apache.sling.testing.jcr-mock](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.jcr-mock/1.6.10/versions) RB check
+[org.apache.sling:org.apache.sling.testing.jcr-mock](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.jcr-mock/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.testing.jcr-mock](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.jcr-mock/1.6.10/versions)
+## Project: [org.apache.sling:org.apache.sling.testing.jcr-mock](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.jcr-mock/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-testing-jcr-mock.git](https://github.com/apache/sling-org-apache-sling-testing-jcr-mock.git)
 

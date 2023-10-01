@@ -1,9 +1,9 @@
-[de.jflex:jflex-parent](https://central.sonatype.com/artifact/de.jflex/jflex-parent/1.9.1/versions) RB check
+[de.jflex:jflex-parent](https://central.sonatype.com/artifact/de.jflex/jflex-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [de.jflex:jflex-parent](https://central.sonatype.com/artifact/de.jflex/jflex-parent/1.9.1/versions)
+## Project: [de.jflex:jflex-parent](https://central.sonatype.com/artifact/de.jflex/jflex-parent/versions)
 
 Source code: [https://github.com/jflex-de/jflex.git](https://github.com/jflex-de/jflex.git)
 

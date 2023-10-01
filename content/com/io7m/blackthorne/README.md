@@ -1,9 +1,9 @@
-[com.io7m.blackthorne:com.io7m.blackthorne](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne/2.0.0/versions) RB check
+[com.io7m.blackthorne:com.io7m.blackthorne](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.io7m.blackthorne:com.io7m.blackthorne](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne/2.0.0/versions)
+## Project: [com.io7m.blackthorne:com.io7m.blackthorne](https://central.sonatype.com/artifact/com.io7m.blackthorne/com.io7m.blackthorne/versions)
 
 Source code: [https://github.com/io7m/blackthorne.git](https://github.com/io7m/blackthorne.git)
 

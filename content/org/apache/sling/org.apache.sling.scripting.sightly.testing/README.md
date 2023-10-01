@@ -1,9 +1,9 @@
-[org.apache.sling:org.apache.sling.scripting.sightly.testing](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.scripting.sightly.testing/1.0.32-1.4.0/versions) RB check
+[org.apache.sling:org.apache.sling.scripting.sightly.testing](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.scripting.sightly.testing/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.scripting.sightly.testing](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.scripting.sightly.testing/1.0.32-1.4.0/versions)
+## Project: [org.apache.sling:org.apache.sling.scripting.sightly.testing](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.scripting.sightly.testing/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-scripting-sightly-testing.git](https://github.com/apache/sling-org-apache-sling-scripting-sightly-testing.git)
 

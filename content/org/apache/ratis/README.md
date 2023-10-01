@@ -1,9 +1,9 @@
-[org.apache.ratis:ratis](https://central.sonatype.com/artifact/org.apache.ratis/ratis/2.5.1/versions) RB check
+[org.apache.ratis:ratis](https://central.sonatype.com/artifact/org.apache.ratis/ratis/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.ratis:ratis](https://central.sonatype.com/artifact/org.apache.ratis/ratis/2.5.1/versions)
+## Project: [org.apache.ratis:ratis](https://central.sonatype.com/artifact/org.apache.ratis/ratis/versions)
 
 Source code: [https://github.com/apache/ratis.git](https://github.com/apache/ratis.git)
 

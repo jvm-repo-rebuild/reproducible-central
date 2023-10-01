@@ -1,9 +1,9 @@
-[org.glassfish.main:glassfish-parent](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.9/versions) RB check
+[org.glassfish.main:glassfish-parent](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.glassfish.main:glassfish-parent](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.9/versions)
+## Project: [org.glassfish.main:glassfish-parent](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/versions)
 
 Source code: [https://github.com/eclipse-ee4j/glassfish.git](https://github.com/eclipse-ee4j/glassfish.git)
 

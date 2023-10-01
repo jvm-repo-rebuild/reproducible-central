@@ -1,9 +1,9 @@
-[com.io7m.looseleaf:com.io7m.looseleaf](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf/1.1.0/versions) RB check
+[com.io7m.looseleaf:com.io7m.looseleaf](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.io7m.looseleaf:com.io7m.looseleaf](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf/1.1.0/versions)
+## Project: [com.io7m.looseleaf:com.io7m.looseleaf](https://central.sonatype.com/artifact/com.io7m.looseleaf/com.io7m.looseleaf/versions)
 
 Source code: [https://github.com/io7m/looseleaf.git](https://github.com/io7m/looseleaf.git)
 

@@ -1,9 +1,9 @@
-[com.github.ldapchai:ldapchai](https://central.sonatype.com/artifact/com.github.ldapchai/ldapchai/0.8.5/versions) RB check
+[com.github.ldapchai:ldapchai](https://central.sonatype.com/artifact/com.github.ldapchai/ldapchai/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.github.ldapchai:ldapchai](https://central.sonatype.com/artifact/com.github.ldapchai/ldapchai/0.8.5/versions)
+## Project: [com.github.ldapchai:ldapchai](https://central.sonatype.com/artifact/com.github.ldapchai/ldapchai/versions)
 
 Source code: [https://github.com/ldapchai/ldapchai.git](https://github.com/ldapchai/ldapchai.git)
 

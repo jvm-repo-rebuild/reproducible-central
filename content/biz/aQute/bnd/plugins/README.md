@@ -1,9 +1,9 @@
-[biz.aQute.bnd:bnd-plugin-parent](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-plugin-parent/6.4.0/versions) RB check
+[biz.aQute.bnd:bnd-plugin-parent](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-plugin-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [biz.aQute.bnd:bnd-plugin-parent](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-plugin-parent/6.4.0/versions)
+## Project: [biz.aQute.bnd:bnd-plugin-parent](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-plugin-parent/versions)
 
 Source code: [https://github.com/bndtools/bnd](https://github.com/bndtools/bnd)
 

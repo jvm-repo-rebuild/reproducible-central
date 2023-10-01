@@ -1,9 +1,9 @@
-[com.github.hazendaz:javabean-tester](https://central.sonatype.com/artifact/com.github.hazendaz/javabean-tester/2.6.0/versions) RB check
+[com.github.hazendaz:javabean-tester](https://central.sonatype.com/artifact/com.github.hazendaz/javabean-tester/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.github.hazendaz:javabean-tester](https://central.sonatype.com/artifact/com.github.hazendaz/javabean-tester/2.6.0/versions)
+## Project: [com.github.hazendaz:javabean-tester](https://central.sonatype.com/artifact/com.github.hazendaz/javabean-tester/versions)
 
 Source code: [https://github.com/hazendaz/javabean-tester.git](https://github.com/hazendaz/javabean-tester.git)
 

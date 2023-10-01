@@ -1,9 +1,9 @@
-[org.apache.sling:org.apache.sling.jcr.resource](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.resource/3.2.4/versions) RB check
+[org.apache.sling:org.apache.sling.jcr.resource](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.resource/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.jcr.resource](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.resource/3.2.4/versions)
+## Project: [org.apache.sling:org.apache.sling.jcr.resource](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.resource/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-jcr-resource.git](https://github.com/apache/sling-org-apache-sling-jcr-resource.git)
 

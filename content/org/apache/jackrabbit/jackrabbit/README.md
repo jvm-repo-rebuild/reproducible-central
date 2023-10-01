@@ -1,9 +1,9 @@
-[org.apache.jackrabbit:jackrabbit-parent](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.21.17/versions) RB check
+[org.apache.jackrabbit:jackrabbit-parent](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.jackrabbit:jackrabbit-parent](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/2.21.17/versions)
+## Project: [org.apache.jackrabbit:jackrabbit-parent](https://central.sonatype.com/artifact/org.apache.jackrabbit/jackrabbit-parent/versions)
 
 Source code: [https://github.com/apache/jackrabbit.git](https://github.com/apache/jackrabbit.git)
 

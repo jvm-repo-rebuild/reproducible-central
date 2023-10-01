@@ -1,9 +1,9 @@
-[com.io7m.taskrecorder:com.io7m.taskrecorder](https://central.sonatype.com/artifact/com.io7m.taskrecorder/com.io7m.taskrecorder/0.0.2/versions) RB check
+[com.io7m.taskrecorder:com.io7m.taskrecorder](https://central.sonatype.com/artifact/com.io7m.taskrecorder/com.io7m.taskrecorder/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.io7m.taskrecorder:com.io7m.taskrecorder](https://central.sonatype.com/artifact/com.io7m.taskrecorder/com.io7m.taskrecorder/0.0.2/versions)
+## Project: [com.io7m.taskrecorder:com.io7m.taskrecorder](https://central.sonatype.com/artifact/com.io7m.taskrecorder/com.io7m.taskrecorder/versions)
 
 Source code: [https://github.com/io7m/taskrecorder.git](https://github.com/io7m/taskrecorder.git)
 

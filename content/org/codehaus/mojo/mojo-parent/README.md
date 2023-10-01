@@ -1,9 +1,9 @@
-[org.codehaus.mojo:mojo-parent](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/76/versions) RB check
+[org.codehaus.mojo:mojo-parent](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.codehaus.mojo:mojo-parent](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/76/versions)
+## Project: [org.codehaus.mojo:mojo-parent](https://central.sonatype.com/artifact/org.codehaus.mojo/mojo-parent/versions)
 
 Source code: [https://github.com/mojohaus/mojo-parent.git](https://github.com/mojohaus/mojo-parent.git)
 

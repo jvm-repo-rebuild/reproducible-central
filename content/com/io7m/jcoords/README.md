@@ -1,9 +1,9 @@
-[com.io7m.jcoords:com.io7m.jcoords](https://central.sonatype.com/artifact/com.io7m.jcoords/com.io7m.jcoords/2.0.0/versions) RB check
+[com.io7m.jcoords:com.io7m.jcoords](https://central.sonatype.com/artifact/com.io7m.jcoords/com.io7m.jcoords/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.io7m.jcoords:com.io7m.jcoords](https://central.sonatype.com/artifact/com.io7m.jcoords/com.io7m.jcoords/2.0.0/versions)
+## Project: [com.io7m.jcoords:com.io7m.jcoords](https://central.sonatype.com/artifact/com.io7m.jcoords/com.io7m.jcoords/versions)
 
 Source code: [https://github.com/io7m/jcoords.git](https://github.com/io7m/jcoords.git)
 

@@ -1,9 +1,9 @@
-[nl.basjes.parse.useragent:yauaa](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.22.0/versions) RB check
+[nl.basjes.parse.useragent:yauaa](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [nl.basjes.parse.useragent:yauaa](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.22.0/versions)
+## Project: [nl.basjes.parse.useragent:yauaa](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/versions)
 
 Source code: [https://github.com/nielsbasjes/yauaa.git](https://github.com/nielsbasjes/yauaa.git)
 

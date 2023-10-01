@@ -1,9 +1,9 @@
-[org.apache.sling:org.apache.sling.resourceresolver](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourceresolver/1.11.0/versions) RB check
+[org.apache.sling:org.apache.sling.resourceresolver](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourceresolver/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.resourceresolver](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourceresolver/1.11.0/versions)
+## Project: [org.apache.sling:org.apache.sling.resourceresolver](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourceresolver/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-resourceresolver.git](https://github.com/apache/sling-org-apache-sling-resourceresolver.git)
 

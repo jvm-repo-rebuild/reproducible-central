@@ -1,9 +1,9 @@
-[com.spotify:github-client](https://central.sonatype.com/artifact/com.spotify/github-client/0.1.61/versions) RB check
+[com.spotify:github-client](https://central.sonatype.com/artifact/com.spotify/github-client/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.spotify:github-client](https://central.sonatype.com/artifact/com.spotify/github-client/0.1.61/versions)
+## Project: [com.spotify:github-client](https://central.sonatype.com/artifact/com.spotify/github-client/versions)
 
 Source code: [https://github.com/spotify/github-java-client.git](https://github.com/spotify/github-java-client.git)
 

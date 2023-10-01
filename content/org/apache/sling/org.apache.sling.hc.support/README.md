@@ -1,9 +1,9 @@
-[org.apache.sling:org.apache.sling.hc.support](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.hc.support/1.0.10/versions) RB check
+[org.apache.sling:org.apache.sling.hc.support](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.hc.support/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.hc.support](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.hc.support/1.0.10/versions)
+## Project: [org.apache.sling:org.apache.sling.hc.support](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.hc.support/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-hc-support.git](https://github.com/apache/sling-org-apache-sling-hc-support.git)
 

@@ -1,9 +1,9 @@
-[org.apache.sling:org.apache.sling.commons.johnzon](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.commons.johnzon/1.2.16/versions) RB check
+[org.apache.sling:org.apache.sling.commons.johnzon](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.commons.johnzon/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.sling:org.apache.sling.commons.johnzon](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.commons.johnzon/1.2.16/versions)
+## Project: [org.apache.sling:org.apache.sling.commons.johnzon](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.commons.johnzon/versions)
 
 Source code: [https://github.com/apache/sling-org-apache-sling-commons-johnzon.git](https://github.com/apache/sling-org-apache-sling-commons-johnzon.git)
 

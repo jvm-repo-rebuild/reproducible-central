@@ -1,9 +1,9 @@
-[com.io7m.jodist:com.io7m.jodist](https://central.sonatype.com/artifact/com.io7m.jodist/com.io7m.jodist/2.0.0/versions) RB check
+[com.io7m.jodist:com.io7m.jodist](https://central.sonatype.com/artifact/com.io7m.jodist/com.io7m.jodist/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.io7m.jodist:com.io7m.jodist](https://central.sonatype.com/artifact/com.io7m.jodist/com.io7m.jodist/2.0.0/versions)
+## Project: [com.io7m.jodist:com.io7m.jodist](https://central.sonatype.com/artifact/com.io7m.jodist/com.io7m.jodist/versions)
 
 Source code: [https://github.com/io7m/jodist.git](https://github.com/io7m/jodist.git)
 

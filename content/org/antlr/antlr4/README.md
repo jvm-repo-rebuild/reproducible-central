@@ -1,9 +1,9 @@
-[org.antlr:antlr4-master](https://central.sonatype.com/artifact/org.antlr/antlr4-master/4.13.1/versions) RB check
+[org.antlr:antlr4-master](https://central.sonatype.com/artifact/org.antlr/antlr4-master/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.antlr:antlr4-master](https://central.sonatype.com/artifact/org.antlr/antlr4-master/4.13.1/versions)
+## Project: [org.antlr:antlr4-master](https://central.sonatype.com/artifact/org.antlr/antlr4-master/versions)
 
 Source code: [https://github.com/antlr/antlr4.git](https://github.com/antlr/antlr4.git)
 

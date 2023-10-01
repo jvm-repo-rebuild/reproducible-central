@@ -1,9 +1,9 @@
-[com.io7m.sunburst:com.io7m.sunburst](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst/0.0.6/versions) RB check
+[com.io7m.sunburst:com.io7m.sunburst](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.io7m.sunburst:com.io7m.sunburst](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst/0.0.6/versions)
+## Project: [com.io7m.sunburst:com.io7m.sunburst](https://central.sonatype.com/artifact/com.io7m.sunburst/com.io7m.sunburst/versions)
 
 Source code: [https://github.com/io7m/sunburst.git](https://github.com/io7m/sunburst.git)
 

@@ -1,9 +1,9 @@
-[org.mybatis.scripting:mybatis-thymeleaf](https://central.sonatype.com/artifact/org.mybatis.scripting/mybatis-thymeleaf/1.0.4/versions) RB check
+[org.mybatis.scripting:mybatis-thymeleaf](https://central.sonatype.com/artifact/org.mybatis.scripting/mybatis-thymeleaf/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.mybatis.scripting:mybatis-thymeleaf](https://central.sonatype.com/artifact/org.mybatis.scripting/mybatis-thymeleaf/1.0.4/versions)
+## Project: [org.mybatis.scripting:mybatis-thymeleaf](https://central.sonatype.com/artifact/org.mybatis.scripting/mybatis-thymeleaf/versions)
 
 Source code: [https://github.com/mybatis/thymeleaf-scripting.git](https://github.com/mybatis/thymeleaf-scripting.git)
 

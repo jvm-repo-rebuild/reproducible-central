@@ -1,9 +1,9 @@
-[ch.qos.logback.db:logback-parent-db](https://central.sonatype.com/artifact/ch.qos.logback.db/logback-parent-db/1.2.11.1/versions) RB check
+[ch.qos.logback.db:logback-parent-db](https://central.sonatype.com/artifact/ch.qos.logback.db/logback-parent-db/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [ch.qos.logback.db:logback-parent-db](https://central.sonatype.com/artifact/ch.qos.logback.db/logback-parent-db/1.2.11.1/versions)
+## Project: [ch.qos.logback.db:logback-parent-db](https://central.sonatype.com/artifact/ch.qos.logback.db/logback-parent-db/versions)
 
 Source code: [https://github.com/qos-ch/logback-db.git](https://github.com/qos-ch/logback-db.git)
 

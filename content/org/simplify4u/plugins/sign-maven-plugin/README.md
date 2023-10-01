@@ -1,9 +1,9 @@
-[org.simplify4u.plugins:sign-maven-plugin](https://central.sonatype.com/artifact/org.simplify4u.plugins/sign-maven-plugin/1.0.1/versions) RB check
+[org.simplify4u.plugins:sign-maven-plugin](https://central.sonatype.com/artifact/org.simplify4u.plugins/sign-maven-plugin/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.simplify4u.plugins:sign-maven-plugin](https://central.sonatype.com/artifact/org.simplify4u.plugins/sign-maven-plugin/1.0.1/versions)
+## Project: [org.simplify4u.plugins:sign-maven-plugin](https://central.sonatype.com/artifact/org.simplify4u.plugins/sign-maven-plugin/versions)
 
 Source code: [https://github.com/s4u/sign-maven-plugin.git](https://github.com/s4u/sign-maven-plugin.git)
 

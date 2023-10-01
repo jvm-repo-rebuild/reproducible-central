@@ -1,9 +1,9 @@
-[org.apache.logging.log4j:log4j-tools-bom](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-bom/0.4.0/versions) RB check
+[org.apache.logging.log4j:log4j-tools-bom](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-bom/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.logging.log4j:log4j-tools-bom](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-bom/0.4.0/versions)
+## Project: [org.apache.logging.log4j:log4j-tools-bom](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-bom/versions)
 
 Source code: [https://github.com/apache/logging-log4j-tools.git](https://github.com/apache/logging-log4j-tools.git)
 

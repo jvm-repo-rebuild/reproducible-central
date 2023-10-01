@@ -1,9 +1,9 @@
-[com.google.guava:guava](https://central.sonatype.com/artifact/com.google.guava/guava/32.0.1-jre/versions) RB check
+[com.google.guava:guava](https://central.sonatype.com/artifact/com.google.guava/guava/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.google.guava:guava](https://central.sonatype.com/artifact/com.google.guava/guava/32.0.1-jre/versions)
+## Project: [com.google.guava:guava](https://central.sonatype.com/artifact/com.google.guava/guava/versions)
 
 Source code: [https://github.com/google/guava.git](https://github.com/google/guava.git)
 

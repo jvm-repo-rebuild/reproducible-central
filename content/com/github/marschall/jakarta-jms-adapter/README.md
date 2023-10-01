@@ -1,9 +1,9 @@
-[com.github.marschall:jakarta-jms-adapter](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/1.2.0/versions) RB check
+[com.github.marschall:jakarta-jms-adapter](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.github.marschall:jakarta-jms-adapter](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/1.2.0/versions)
+## Project: [com.github.marschall:jakarta-jms-adapter](https://central.sonatype.com/artifact/com.github.marschall/jakarta-jms-adapter/versions)
 
 Source code: [https://github.com/marschall/jakarta-jms-adapter.git](https://github.com/marschall/jakarta-jms-adapter.git)
 

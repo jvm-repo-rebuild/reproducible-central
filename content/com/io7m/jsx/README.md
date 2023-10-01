@@ -1,9 +1,9 @@
-[com.io7m.jsx:com.io7m.jsx](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx/3.1.1/versions) RB check
+[com.io7m.jsx:com.io7m.jsx](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.io7m.jsx:com.io7m.jsx](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx/3.1.1/versions)
+## Project: [com.io7m.jsx:com.io7m.jsx](https://central.sonatype.com/artifact/com.io7m.jsx/com.io7m.jsx/versions)
 
 Source code: [https://github.com/io7m/jsx.git](https://github.com/io7m/jsx.git)
 

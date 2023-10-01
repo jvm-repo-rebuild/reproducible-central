@@ -101,12 +101,12 @@ do
       then
         ((countGa++))
         # prepare README.md intro
-        echo "[$groupId:$artifactId](https://central.sonatype.com/artifact/${groupId}/${artifactId}/${version}/versions) RB check" > ${projectReadme}
+        echo "[$groupId:$artifactId](https://central.sonatype.com/artifact/${groupId}/${artifactId}/versions) RB check" > ${projectReadme}
         echo "=======" >> ${projectReadme}
         echo >> ${projectReadme}
         echo "[![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)" >> ${projectReadme}
         echo >> ${projectReadme}
-        echo "## Project: [$groupId:$artifactId](https://central.sonatype.com/artifact/${groupId}/${artifactId}/${version}/versions)" >> ${projectReadme}
+        echo "## Project: [$groupId:$artifactId](https://central.sonatype.com/artifact/${groupId}/${artifactId}/versions)" >> ${projectReadme}
         echo >> ${projectReadme}
         echo "Source code: [$gitRepo]($gitRepo)" >> ${projectReadme}
         echo >> ${projectReadme}

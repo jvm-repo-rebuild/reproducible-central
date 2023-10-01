@@ -1,9 +1,9 @@
-[org.mybatis.scala:mybatis-scala-parent_2.13](https://central.sonatype.com/artifact/org.mybatis.scala/mybatis-scala-parent_2.13/1.3.1/versions) RB check
+[org.mybatis.scala:mybatis-scala-parent_2.13](https://central.sonatype.com/artifact/org.mybatis.scala/mybatis-scala-parent_2.13/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.mybatis.scala:mybatis-scala-parent_2.13](https://central.sonatype.com/artifact/org.mybatis.scala/mybatis-scala-parent_2.13/1.3.1/versions)
+## Project: [org.mybatis.scala:mybatis-scala-parent_2.13](https://central.sonatype.com/artifact/org.mybatis.scala/mybatis-scala-parent_2.13/versions)
 
 Source code: [https://github.com/mybatis/scala.git](https://github.com/mybatis/scala.git)
 

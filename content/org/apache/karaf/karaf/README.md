@@ -1,9 +1,9 @@
-[org.apache.karaf:karaf](https://central.sonatype.com/artifact/org.apache.karaf/karaf/4.4.4/versions) RB check
+[org.apache.karaf:karaf](https://central.sonatype.com/artifact/org.apache.karaf/karaf/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.karaf:karaf](https://central.sonatype.com/artifact/org.apache.karaf/karaf/4.4.4/versions)
+## Project: [org.apache.karaf:karaf](https://central.sonatype.com/artifact/org.apache.karaf/karaf/versions)
 
 Source code: [https://github.com/apache/karaf.git](https://github.com/apache/karaf.git)
 

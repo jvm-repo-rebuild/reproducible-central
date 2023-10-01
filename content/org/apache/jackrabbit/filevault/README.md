@@ -1,9 +1,9 @@
-[org.apache.jackrabbit.vault:jackrabbit-filevault](https://central.sonatype.com/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/3.7.0/versions) RB check
+[org.apache.jackrabbit.vault:jackrabbit-filevault](https://central.sonatype.com/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.jackrabbit.vault:jackrabbit-filevault](https://central.sonatype.com/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/3.7.0/versions)
+## Project: [org.apache.jackrabbit.vault:jackrabbit-filevault](https://central.sonatype.com/artifact/org.apache.jackrabbit.vault/jackrabbit-filevault/versions)
 
 Source code: [https://github.com/apache/jackrabbit-filevault.git](https://github.com/apache/jackrabbit-filevault.git)
 

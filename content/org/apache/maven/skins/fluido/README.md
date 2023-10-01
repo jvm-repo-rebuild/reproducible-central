@@ -1,9 +1,9 @@
-[org.apache.maven.skins:maven-fluido-skin](https://central.sonatype.com/artifact/org.apache.maven.skins/maven-fluido-skin/2.0.0-M7/versions) RB check
+[org.apache.maven.skins:maven-fluido-skin](https://central.sonatype.com/artifact/org.apache.maven.skins/maven-fluido-skin/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.skins:maven-fluido-skin](https://central.sonatype.com/artifact/org.apache.maven.skins/maven-fluido-skin/2.0.0-M7/versions)
+## Project: [org.apache.maven.skins:maven-fluido-skin](https://central.sonatype.com/artifact/org.apache.maven.skins/maven-fluido-skin/versions)
 
 Source code: [https://github.com/apache/maven-fluido-skin.git](https://github.com/apache/maven-fluido-skin.git)
 

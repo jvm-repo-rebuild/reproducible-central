@@ -1,9 +1,9 @@
-[com.ongres.stringprep:parent](https://central.sonatype.com/artifact/com.ongres.stringprep/parent/2.0/versions) RB check
+[com.ongres.stringprep:parent](https://central.sonatype.com/artifact/com.ongres.stringprep/parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.ongres.stringprep:parent](https://central.sonatype.com/artifact/com.ongres.stringprep/parent/2.0/versions)
+## Project: [com.ongres.stringprep:parent](https://central.sonatype.com/artifact/com.ongres.stringprep/parent/versions)
 
 Source code: [https://gitlab.com/ongresinc/stringprep.git](https://gitlab.com/ongresinc/stringprep.git)
 

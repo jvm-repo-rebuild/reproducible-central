@@ -1,9 +1,9 @@
-[nl.hsac:hsac-fitnesse-fixtures](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.45/versions) RB check
+[nl.hsac:hsac-fitnesse-fixtures](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [nl.hsac:hsac-fitnesse-fixtures](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.45/versions)
+## Project: [nl.hsac:hsac-fitnesse-fixtures](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/versions)
 
 Source code: [https://github.com/fhoeben/hsac-fitnesse-fixtures.git](https://github.com/fhoeben/hsac-fitnesse-fixtures.git)
 

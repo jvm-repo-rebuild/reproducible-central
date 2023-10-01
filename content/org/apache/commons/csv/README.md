@@ -1,9 +1,9 @@
-[org.apache.commons:commons-csv](https://central.sonatype.com/artifact/org.apache.commons/commons-csv/1.10.0/versions) RB check
+[org.apache.commons:commons-csv](https://central.sonatype.com/artifact/org.apache.commons/commons-csv/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.commons:commons-csv](https://central.sonatype.com/artifact/org.apache.commons/commons-csv/1.10.0/versions)
+## Project: [org.apache.commons:commons-csv](https://central.sonatype.com/artifact/org.apache.commons/commons-csv/versions)
 
 Source code: [https://github.com/apache/commons-csv.git](https://github.com/apache/commons-csv.git)
 

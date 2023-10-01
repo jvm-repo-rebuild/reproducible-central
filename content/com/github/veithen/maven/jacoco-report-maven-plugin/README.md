@@ -1,9 +1,9 @@
-[com.github.veithen.maven:jacoco-report-maven-plugin](https://central.sonatype.com/artifact/com.github.veithen.maven/jacoco-report-maven-plugin/0.4.0/versions) RB check
+[com.github.veithen.maven:jacoco-report-maven-plugin](https://central.sonatype.com/artifact/com.github.veithen.maven/jacoco-report-maven-plugin/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.github.veithen.maven:jacoco-report-maven-plugin](https://central.sonatype.com/artifact/com.github.veithen.maven/jacoco-report-maven-plugin/0.4.0/versions)
+## Project: [com.github.veithen.maven:jacoco-report-maven-plugin](https://central.sonatype.com/artifact/com.github.veithen.maven/jacoco-report-maven-plugin/versions)
 
 Source code: [https://github.com/veithen/jacoco-report-maven-plugin.git](https://github.com/veithen/jacoco-report-maven-plugin.git)
 

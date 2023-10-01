@@ -1,9 +1,9 @@
-[org.spdx:java-spdx-library](https://central.sonatype.com/artifact/org.spdx/java-spdx-library/1.1.8/versions) RB check
+[org.spdx:java-spdx-library](https://central.sonatype.com/artifact/org.spdx/java-spdx-library/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.spdx:java-spdx-library](https://central.sonatype.com/artifact/org.spdx/java-spdx-library/1.1.8/versions)
+## Project: [org.spdx:java-spdx-library](https://central.sonatype.com/artifact/org.spdx/java-spdx-library/versions)
 
 Source code: [https://github.com/spdx/Spdx-Java-Library.git](https://github.com/spdx/Spdx-Java-Library.git)
 

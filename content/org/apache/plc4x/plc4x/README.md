@@ -1,9 +1,9 @@
-[org.apache.plc4x:plc4x-parent](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.10.0/versions) RB check
+[org.apache.plc4x:plc4x-parent](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.plc4x:plc4x-parent](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.10.0/versions)
+## Project: [org.apache.plc4x:plc4x-parent](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/versions)
 
 Source code: [https://github.com/apache/plc4x.git](https://github.com/apache/plc4x.git)
 

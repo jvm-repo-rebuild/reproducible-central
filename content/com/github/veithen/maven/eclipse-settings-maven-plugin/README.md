@@ -1,9 +1,9 @@
-[com.github.veithen.maven:eclipse-settings-maven-plugin](https://central.sonatype.com/artifact/com.github.veithen.maven/eclipse-settings-maven-plugin/0.3.0/versions) RB check
+[com.github.veithen.maven:eclipse-settings-maven-plugin](https://central.sonatype.com/artifact/com.github.veithen.maven/eclipse-settings-maven-plugin/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.github.veithen.maven:eclipse-settings-maven-plugin](https://central.sonatype.com/artifact/com.github.veithen.maven/eclipse-settings-maven-plugin/0.3.0/versions)
+## Project: [com.github.veithen.maven:eclipse-settings-maven-plugin](https://central.sonatype.com/artifact/com.github.veithen.maven/eclipse-settings-maven-plugin/versions)
 
 Source code: [https://github.com/veithen/eclipse-settings-maven-plugin.git](https://github.com/veithen/eclipse-settings-maven-plugin.git)
 

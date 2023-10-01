@@ -1,9 +1,9 @@
-[org.moditect.layrry:layrry-aggregator](https://central.sonatype.com/artifact/org.moditect.layrry/layrry-aggregator/1.0.0.Final/versions) RB check
+[org.moditect.layrry:layrry-aggregator](https://central.sonatype.com/artifact/org.moditect.layrry/layrry-aggregator/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.moditect.layrry:layrry-aggregator](https://central.sonatype.com/artifact/org.moditect.layrry/layrry-aggregator/1.0.0.Final/versions)
+## Project: [org.moditect.layrry:layrry-aggregator](https://central.sonatype.com/artifact/org.moditect.layrry/layrry-aggregator/versions)
 
 Source code: [https://github.com/moditect/layrry.git](https://github.com/moditect/layrry.git)
 

@@ -1,9 +1,9 @@
-[com.semanticcms:semanticcms-core-docs](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-core-docs/1.10.0/versions) RB check
+[com.semanticcms:semanticcms-core-docs](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-core-docs/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.semanticcms:semanticcms-core-docs](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-core-docs/1.10.0/versions)
+## Project: [com.semanticcms:semanticcms-core-docs](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-core-docs/versions)
 
 Source code: [https://github.com/ao-apps/semanticcms-core-docs.git](https://github.com/ao-apps/semanticcms-core-docs.git)
 

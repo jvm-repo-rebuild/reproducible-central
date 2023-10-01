@@ -1,9 +1,9 @@
-[org.apache.maven.wrapper:maven-wrapper](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper/3.2.0/versions) RB check
+[org.apache.maven.wrapper:maven-wrapper](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.apache.maven.wrapper:maven-wrapper](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper/3.2.0/versions)
+## Project: [org.apache.maven.wrapper:maven-wrapper](https://central.sonatype.com/artifact/org.apache.maven.wrapper/maven-wrapper/versions)
 
 Source code: [https://github.com/apache/maven-wrapper.git](https://github.com/apache/maven-wrapper.git)
 

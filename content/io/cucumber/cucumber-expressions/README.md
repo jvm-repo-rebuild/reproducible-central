@@ -1,9 +1,9 @@
-[io.cucumber:cucumber-expressions](https://central.sonatype.com/artifact/io.cucumber/cucumber-expressions/16.1.2/versions) RB check
+[io.cucumber:cucumber-expressions](https://central.sonatype.com/artifact/io.cucumber/cucumber-expressions/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [io.cucumber:cucumber-expressions](https://central.sonatype.com/artifact/io.cucumber/cucumber-expressions/16.1.2/versions)
+## Project: [io.cucumber:cucumber-expressions](https://central.sonatype.com/artifact/io.cucumber/cucumber-expressions/versions)
 
 Source code: [https://github.com/cucumber/cucumber-expressions.git](https://github.com/cucumber/cucumber-expressions.git)
 

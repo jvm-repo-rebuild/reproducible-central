@@ -1,9 +1,9 @@
-[com.newmediaworks:nmw-oss-parent](https://central.sonatype.com/artifact/com.newmediaworks/nmw-oss-parent/1.21.0/versions) RB check
+[com.newmediaworks:nmw-oss-parent](https://central.sonatype.com/artifact/com.newmediaworks/nmw-oss-parent/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [com.newmediaworks:nmw-oss-parent](https://central.sonatype.com/artifact/com.newmediaworks/nmw-oss-parent/1.21.0/versions)
+## Project: [com.newmediaworks:nmw-oss-parent](https://central.sonatype.com/artifact/com.newmediaworks/nmw-oss-parent/versions)
 
 Source code: [https://github.com/newmediaworks/nmw-oss-parent.git](https://github.com/newmediaworks/nmw-oss-parent.git)
 

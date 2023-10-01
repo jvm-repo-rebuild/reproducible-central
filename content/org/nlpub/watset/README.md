@@ -1,9 +1,9 @@
-[org.nlpub:watset](https://central.sonatype.com/artifact/org.nlpub/watset/2.8.2/versions) RB check
+[org.nlpub:watset](https://central.sonatype.com/artifact/org.nlpub/watset/versions) RB check
 =======
 
 [![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
 
-## Project: [org.nlpub:watset](https://central.sonatype.com/artifact/org.nlpub/watset/2.8.2/versions)
+## Project: [org.nlpub:watset](https://central.sonatype.com/artifact/org.nlpub/watset/versions)
 
 Source code: [https://github.com/nlpub/watset-java](https://github.com/nlpub/watset-java)
 
