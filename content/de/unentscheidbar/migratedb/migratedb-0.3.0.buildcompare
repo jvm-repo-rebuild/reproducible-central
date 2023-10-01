@@ -1,0 +1,8 @@
+version=0.3.0
+ok=16
+ko=1
+okFiles="migratedb-0.3.0.pom migratedb-dependency-downloader-0.3.0.pom migratedb-dependency-downloader-0.3.0.jar migratedb-core-0.3.0.pom migratedb-core-0.3.0.jar migratedb-scanner-0.3.0.pom migratedb-scanner-0.3.0.jar migratedb-commandline-0.3.0.pom migratedb-commandline-0.3.0.jar migratedb-maven-plugin-0.3.0.pom migratedb-maven-plugin-0.3.0.jar migratedb-spring-boot-v3-0.3.0.pom migratedb-spring-boot-v3-autoconfig-0.3.0.pom migratedb-spring-boot-v3-autoconfig-0.3.0.jar migratedb-spring-boot-v3-starter-0.3.0.pom migratedb-spring-boot-v3-starter-0.3.0.jar"
+koFiles="migratedb-commandline-0.3.0.tar.gz"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/migratedb-commandline-0.3.0.tar.gz migratedb-commandline/target/migratedb-commandline-0.3.0.tar.gz
