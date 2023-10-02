@@ -20,7 +20,7 @@
 rebuildToolMvn() {
   # the effective rebuild command, adding artifact:buildinfo goal to compare with central content
   #local mvn_rebuild="${command} -V -e artifact:compare -Dbuildinfo.reproducible"
-  local mvn_rebuild="${command} -V -e org.apache.maven.plugins:maven-artifact-plugin:3.3.0:compare -Dbuildinfo.reproducible"
+  local mvn_rebuild="${command} -V -e org.apache.maven.plugins:maven-artifact-plugin:3.5.0:compare -Dbuildinfo.reproducible -Dcompare.fail=false"
 
   if [[ "${jdk}" == ??.0.* ]]
   then

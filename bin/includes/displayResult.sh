@@ -17,6 +17,7 @@ displayResult() {
   then
     echo -e "           ok=${ok}"
     echo -e "           okFiles=\"${okFiles}\""
+    [[ ${ignored} -gt 0 ]] && echo -e "           \033[33;1mignored=${ignored}\033[0m" && echo -e "           ignoredFiles=${ignoredFiles}"
     echo -e "           \033[31;1mko=${ko}\033[0m"
     echo -e "           koFiles=\"${koFiles}\""
     if [ -n "${reference_java_version}" ]
@@ -40,6 +41,7 @@ displayResult() {
   else
     echo -e "    \033[32;1mok=${ok}\033[0m"
     echo -e "    okFiles=\"${okFiles}\""
+    [[ ${ignored} -gt 0 ]] && echo -e "    \033[33;1mignored=${ignored}\033[0m" && echo -e "    ignoredFiles=${ignoredFiles}"
   fi
 
   if [[ ${buildspec} == wip/* ]]
