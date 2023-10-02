@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Artifact Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-artifact-plugin
+version=3.5.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-artifact-plugin.git
+source.scm.tag=maven-artifact-plugin-3.5.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.filename=maven-artifact-plugin-3.5.0.pom
+outputs.0.length=7625
+outputs.0.checksums.sha512=798f17dd123dafae0a91857df9fa3390568a67abea8a1828d2a2d3e6e0505b611ed8b3079181cf1373400c76c2886074d2b8bc5b544ba7f5059234ff44713aa4
+
+outputs.1.filename=maven-artifact-plugin-3.5.0.jar
+outputs.1.length=59105
+outputs.1.checksums.sha512=b479881b38909c731ae8745e9ae196e9d13b4b27dbf94f69abca76024eb18f4899cb3e7f8bddd95972ffc8f647569aab2dc7574f0e0cf2e78cbe8ea1c01ba0b9
+
+outputs.2.filename=maven-artifact-plugin-3.5.0-source-release.zip
+outputs.2.length=86162
+outputs.2.checksums.sha512=3155f2e3da07752473fe5a2deb5b32f108c2fb1d8cd786718852f18242afad515fafcf55710f03c136fff9f343702e8e0152d53d51f69f6c043ecc397ce818e1
+
+outputs.3.filename=maven-artifact-plugin-3.5.0-sources.jar
+outputs.3.length=36953
+outputs.3.checksums.sha512=4477ff4196b7f3a124b6dd8aeb2552b9dde4fb198c6be5ad2d953cd781753abb96b797522ef27ffffe877633dd547d86a3f5bdec33c6b6b4d63eabc931f61d41
+
+outputs.4.filename=maven-artifact-plugin-3.5.0-cyclonedx.xml
+outputs.4.length=91385
+outputs.4.checksums.sha512=19c31e1c2bfaaf1a76a6dfceafcdcf085c6e1a2e72624c7beff09f3ef8ed11fa3967c84e8fcf4878f8d294faefe1d3878cacc86a27a74e57d4f67e4c1957d901
+
+outputs.5.filename=maven-artifact-plugin-3.5.0-cyclonedx.json
+outputs.5.length=106271
+outputs.5.checksums.sha512=f6cc4a9e36dc1a00a329d0ac9166fa42311ccc04846f9d930680652538b91fcab3adb401fe975e226c039270de36afdc94078479840dc8977b825cc21d081222
