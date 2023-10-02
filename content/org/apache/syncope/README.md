@@ -162,6 +162,7 @@ rebuilding **4 releases** of org.apache.syncope:syncope:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.5](https://central.sonatype.com/artifact/org.apache.syncope/syncope/3.0.5/pom) | | | |
 | [3.0.4](https://central.sonatype.com/artifact/org.apache.syncope/syncope/3.0.4/pom) | [mvn jdk11](syncope-3.0.4.buildspec) | [result](syncope-3.0.4.buildinfo): [391 :heavy_check_mark:  81 :warning:](syncope-3.0.4.buildcompare) [:mag:](syncope-3.0.4.diffoscope) | 224M |
 | [3.0.3](https://central.sonatype.com/artifact/org.apache.syncope/syncope/3.0.3/pom) | | | |
 | [3.0.2](https://central.sonatype.com/artifact/org.apache.syncope/syncope/3.0.2/pom) | [mvn jdk11](syncope-3.0.2.buildspec) | [result](syncope-3.0.2.buildinfo): [265 :heavy_check_mark:  1 :warning:](syncope-3.0.2.buildcompare) [:mag:](syncope-3.0.2.diffoscope) | 155M |
