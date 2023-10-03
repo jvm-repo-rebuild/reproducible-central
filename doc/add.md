@@ -4,8 +4,10 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20231002145519 --> [flexmonster](../content/org/webjars/flexmonster/README.md) | [2.9.60](../content/org/webjars/flexmonster/flexmonster-2.9.60.buildspec) :heavy_check_mark: | [2.9.61](../content/org/webjars/flexmonster/flexmonster-2.9.61.buildspec) | `bin/add-new-release.sh content/org/webjars/flexmonster/flexmonster-2.9.60.buildspec 2.9.61` |
-| <!-- 20231002065003 --> [maven-artifact-plugin](../content/org/apache/maven/plugins/maven-artifact-plugin/README.md) | [3.4.1](../content/org/apache/maven/plugins/maven-artifact-plugin/maven-artifact-plugin-3.4.1.buildspec) :heavy_check_mark: | [3.5.0](../content/org/apache/maven/plugins/maven-artifact-plugin/maven-artifact-plugin-3.5.0.buildspec) | `bin/add-new-release.sh content/org/apache/maven/plugins/maven-artifact-plugin/maven-artifact-plugin-3.4.1.buildspec 3.5.0` |
+| <!-- 20231003112852 --> [plexus](../content/org/codehaus/plexus/plexus-pom/README.md) | [14](../content/org/codehaus/plexus/plexus-pom/plexus-pom-14.buildspec) :heavy_check_mark: | [15](../content/org/codehaus/plexus/plexus-pom/plexus-pom-15.buildspec) | `bin/add-new-release.sh content/org/codehaus/plexus/plexus-pom/plexus-pom-14.buildspec 15` |
+| <!-- 20231003111258 --> [plexus-components](../content/org/codehaus/plexus/plexus-components/README.md) | [14.1](../content/org/codehaus/plexus/plexus-components/plexus-components-14.1.buildspec) :heavy_check_mark: | [14.2](../content/org/codehaus/plexus/plexus-components/plexus-components-14.2.buildspec) | `bin/add-new-release.sh content/org/codehaus/plexus/plexus-components/plexus-components-14.1.buildspec 14.2` |
+| <!-- 20231003070539 --> [logging-parent](../content/org/apache/logging/parent/README.md) | [10.1.0](../content/org/apache/logging/parent/logging-parent-10.1.0.buildspec) :heavy_check_mark: | [10.1.1](../content/org/apache/logging/parent/logging-parent-10.1.1.buildspec) | `bin/add-new-release.sh content/org/apache/logging/parent/logging-parent-10.1.0.buildspec 10.1.1` |
+| <!-- 20231002225412 --> [cyclonedx-core-java](../content/org/cyclonedx/cyclonedx-core-java/README.md) | [7.3.2](../content/org/cyclonedx/cyclonedx-core-java/cyclonedx-core-java-7.3.2.buildspec) :heavy_check_mark: | [8.0.0](../content/org/cyclonedx/cyclonedx-core-java/cyclonedx-core-java-8.0.0.buildspec) | `bin/add-new-release.sh content/org/cyclonedx/cyclonedx-core-java/cyclonedx-core-java-7.3.2.buildspec 8.0.0` |
 | <!-- 20231001013613 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.1](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec) :heavy_check_mark: | [10.4.2-beta-5](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2-beta-5.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec 10.4.2-beta-5` |
 | <!-- 20230911001855 --> [alluxio-parent](../content/org/alluxio/alluxio/README.md) | [303](../content/org/alluxio/alluxio/alluxio-303.buildspec) :heavy_check_mark: | [304](../content/org/alluxio/alluxio/alluxio-304.buildspec) | `bin/add-new-release.sh content/org/alluxio/alluxio/alluxio-303.buildspec 304` |
 <!-- END GENERATED ADD OK -->
@@ -13,9 +15,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20231002152255 --> [syncope](../content/org/apache/syncope/README.md) | [3.0.4](../content/org/apache/syncope/syncope-3.0.4.buildspec) :warning: | [3.0.5](../content/org/apache/syncope/syncope-3.0.5.buildspec) | `bin/add-new-release.sh content/org/apache/syncope/syncope-3.0.4.buildspec 3.0.5` |
+| <!-- 20231003174803 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.30.2](../content/org/finos/legend/engine/legend-engine-4.30.2.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.30.2` |
+| <!-- 20231003093934 --> [parent](../content/org/apache/zookeeper/README.md) | [3.9.0](../content/org/apache/zookeeper/zookeeper-3.9.0.buildspec) :warning: [:memo:](https://issues.apache.org/jira/browse/ZOOKEEPER-4732) | [3.9.1](../content/org/apache/zookeeper/zookeeper-3.9.1.buildspec) | `bin/add-new-release.sh content/org/apache/zookeeper/zookeeper-3.9.0.buildspec 3.9.1` |
 | <!-- 20231002073941 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.0.1](../content/org/apache/camel/camel/camel-4.0.1.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.0.1` |
-| <!-- 20231002012854 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.30.0](../content/org/finos/legend/engine/legend-engine-4.30.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.30.0` |
 | <!-- 20230929050801 --> [helix](../content/org/apache/helix/README.md) | [1.3.0](../content/org/apache/helix/helix-1.3.0.buildspec) :warning: | [1.3.1](../content/org/apache/helix/helix-1.3.1.buildspec) | `bin/add-new-release.sh content/org/apache/helix/helix-1.3.0.buildspec 1.3.1` |
 | <!-- 20230922112748 --> [org.apache.sling.feature.cpconverter](../content/org/apache/sling/org.apache.sling.feature.cpconverter/README.md) | [1.3.0](../content/org/apache/sling/org.apache.sling.feature.cpconverter/org.apache.sling.feature.cpconverter-1.3.0.buildspec) :warning: | [1.3.4](../content/org/apache/sling/org.apache.sling.feature.cpconverter/org.apache.sling.feature.cpconverter-1.3.4.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.feature.cpconverter/org.apache.sling.feature.cpconverter-1.3.0.buildspec 1.3.4` |
 | <!-- 20230914144430 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | [6.0.14](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.0.14.buildspec) :warning: | [6.2.0](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.2.0.buildspec) | `bin/add-new-release.sh content/com/adobe/acs/aem-commons/acs-aem-commons-6.0.14.buildspec 6.2.0` |
@@ -56,6 +58,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20231002152255 --> [syncope](../content/org/apache/syncope/README.md) | 3.0.5 :warning: |
 | <!-- 20230929141506 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 7.0.9 :warning: [:memo:](https://github.com/eclipse-ee4j/glassfish/issues/24615) |
 | <!-- 20230927125008 --> [migratedb](../content/de/unentscheidbar/migratedb/README.md) | 0.3.0 :warning: |
 | <!-- 20230927091326 --> [hsac-fitnesse-fixtures](../content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 5.2.45 :warning: |
@@ -75,7 +78,6 @@ New Releases To Add
 | <!-- 20230828161712 --> [jooby](../content/io/jooby/README.md) | 3.0.5 :warning: |
 | <!-- 20230822075226 --> [mockito-core](../content/org/mockito/mockito-core/README.md) | 5.5.0 :warning: |
 | <!-- 20230810033447 --> [spdx-maven-plugin](../content/org/spdx/spdx-maven-plugin/README.md) | 0.7.0 :warning: [:memo:](https://github.com/spdx/spdx-maven-plugin/pull/125) |
-| <!-- 20230803053411 --> [parent](../content/org/apache/zookeeper/README.md) | 3.9.0 :warning: [:memo:](https://issues.apache.org/jira/browse/ZOOKEEPER-4732) |
 | <!-- 20230802183114 --> [semanticcms-tag-reference](../content/com/semanticcms/semanticcms-tag-reference/README.md) | 1.10.1 :warning: |
 | <!-- 20230729004927 --> [shiro-root](../content/org/apache/shiro/README.md) | 2.0.0-alpha-3 :warning: |
 | <!-- 20230728155049 --> [efx-toolkit-java](../content/eu/europa/ted/eforms/efx-toolkit-java/README.md) | 2.0.0-alpha.1 :warning: |

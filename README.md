@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2592 releases** of **550 projects**:
-   - **2012** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 580 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **2595 releases** of **550 projects**:
+   - **2014** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 581 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 550 projects, 439 have at least one fully reproducible release, 111 have none
 
 <!-- END GENERATED INTRO -->
@@ -261,7 +261,7 @@ Its objectives are to provide:
 | org.apache.sshd | <a name='org.apache.sshd:sshd'></a>[sshd](content/org/apache/sshd/README.md) | 3 | 3 :warning: |
 | org.apache.struts | <a name='org.apache.struts:struts2-parent'></a>[struts2-parent](content/org/apache/struts/README.md) | 8 | 2 :heavy_check_mark: / 6 :warning: |
 | org.apache.synapse | <a name='org.apache.synapse:Apache-Synapse'></a>[Apache-Synapse](content/org/apache/synapse/README.md) | 1 | 1 :warning: |
-| org.apache.syncope | <a name='org.apache.syncope:syncope'></a>[syncope](content/org/apache/syncope/README.md) | 4 | 4 :warning: |
+| org.apache.syncope | <a name='org.apache.syncope:syncope'></a>[syncope](content/org/apache/syncope/README.md) | 5 | 5 :warning: |
 | org.apache.systemds | <a name='org.apache.systemds:systemds'></a>[systemds](content/org/apache/systemds/README.md) | 1 | 1 :warning: |
 | org.apache.tika | <a name='org.apache.tika:tika'></a>[tika](content/org/apache/tika/README.md) | 6 | 6 :warning: |
 | org.apache.wayang | <a name='org.apache.wayang:wayang'></a>[wayang](content/org/apache/wayang/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
@@ -314,7 +314,7 @@ Its objectives are to provide:
 | | <a name='org.apache.maven.doxia:doxia-sitetools'></a>[doxia-sitetools](content/org/apache/maven/doxia/doxia-sitetools/README.md) | 13 | 13 :heavy_check_mark: |
 | org.apache.maven.plugin-tools | <a name='org.apache.maven.plugin-tools:maven-plugin-tools'></a>[maven-plugin-tools](content/org/apache/maven/plugin-tools/maven-plugin-tools/README.md) | 8 | 8 :heavy_check_mark: |
 | org.apache.maven.plugins | <a name='org.apache.maven.plugins:maven-antrun-plugin'></a>[maven-antrun-plugin](content/org/apache/maven/plugins/maven-antrun-plugin/README.md) | 2 | 2 :heavy_check_mark: |
-| | <a name='org.apache.maven.plugins:maven-artifact-plugin'></a>[maven-artifact-plugin](content/org/apache/maven/plugins/maven-artifact-plugin/README.md) | 6 | 6 :heavy_check_mark: |
+| | <a name='org.apache.maven.plugins:maven-artifact-plugin'></a>[maven-artifact-plugin](content/org/apache/maven/plugins/maven-artifact-plugin/README.md) | 7 | 7 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-assembly-plugin'></a>[maven-assembly-plugin](content/org/apache/maven/plugins/maven-assembly-plugin/README.md) | 6 | 6 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-checkstyle-plugin'></a>[maven-checkstyle-plugin](content/org/apache/maven/plugins/maven-checkstyle-plugin/README.md) | 6 | 6 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-clean-plugin'></a>[maven-clean-plugin](content/org/apache/maven/plugins/maven-clean-plugin/README.md) | 2 | 2 :heavy_check_mark: |
@@ -559,7 +559,7 @@ Its objectives are to provide:
 | | <a name='org.spdx:spdx-maven-plugin'></a>[spdx-maven-plugin](content/org/spdx/spdx-maven-plugin/README.md) | 2 | 2 :warning: |
 | org.tomitribe.transformer | <a name='org.tomitribe.transformer:org.eclipse.transformer.parent'></a>[org.eclipse.transformer.parent](content/org/tomitribe/transformer/README.md) | 2 | 2 :heavy_check_mark: |
 | org.webjars | <a name='org.webjars:bootstrap'></a>[bootstrap](content/org/webjars/bootstrap/README.md) | 7 | 7 :heavy_check_mark: |
-| | <a name='org.webjars:flexmonster'></a>[flexmonster](content/org/webjars/flexmonster/README.md) | 41 | 38 :heavy_check_mark: / 3 :warning: |
+| | <a name='org.webjars:flexmonster'></a>[flexmonster](content/org/webjars/flexmonster/README.md) | 42 | 39 :heavy_check_mark: / 3 :warning: |
 | | <a name='org.webjars:font-awesome'></a>[font-awesome](content/org/webjars/font-awesome/README.md) | 5 | 5 :heavy_check_mark: |
 | | <a name='org.webjars:highcharts'></a>[highcharts](content/org/webjars/highcharts/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.webjars:jszip'></a>[jszip](content/org/webjars/jszip/README.md) | 1 | 1 :heavy_check_mark: |
@@ -573,7 +573,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 24 | 24 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **550** | **2592** | **2012** :heavy_check_mark: **580** :warning: |
+| **Count:** | **550** | **2595** | **2014** :heavy_check_mark: **581** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -587,7 +587,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      26 mvn         7
     982 mvn         8
       1 mvn         9
-    790 mvn        11
+    792 mvn        11
       1 mvn        11.0.19
       1 mvn        11.0.6
       1 mvn        13
@@ -599,7 +599,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn        17.0.8
       1 mvn        17.0.8.1
      11 mvn        18
-     20 mvn        19
+     21 mvn        19
      14 mvn        20
       3 mvn        21
       2 mvn-3.5.4   8
