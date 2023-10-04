@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Servlets Resolver
+group-id=org.apache.sling
+artifact-id=org.apache.sling.servlets.resolver
+version=2.9.14
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-servlets-resolver.git
+source.scm.tag=org.apache.sling.servlets.resolver-2.9.14
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.servlets.resolver-2.9.14.pom
+outputs.0.length=16981
+outputs.0.checksums.sha512=75d094cbfe6da78c464d8f875da1a5feb034c49595b31600e9774397052d621a70fbdd08c8f4d0fb9e9c479cb12a33085794a2279633da6af3f5784a7f41d410
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.servlets.resolver-2.9.14.jar
+outputs.1.length=145932
+outputs.1.checksums.sha512=b4f48b1ec799c3fa83d589828350bd859db08ccdd7681af16574d28459d26957cf5468e6e99bd862c831ee935b0ee759bc4d15b96f69051476d38efbaab5c91c
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.servlets.resolver-2.9.14-source-release.zip
+outputs.2.length=158009
+outputs.2.checksums.sha512=385f8c9d1a0b48f82e2f517ec7b2b3b79635588233659e40127a4c34522c9ec5585c811ed190b5435a0a6396aed7b85459d2ad73a5e97d2f52eabdde8be393b8
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.servlets.resolver-2.9.14-sources.jar
+outputs.3.length=91738
+outputs.3.checksums.sha512=15f30526a57498545f4c7c6e0527f08a3c027f97a6d55e7f6af5fb798dd2be93bff2be9bbddb45c72eac4da5f9c068a329f8f728144b5b231ca1a8892ab187fe
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.servlets.resolver-2.9.14-sources.jar
+outputs.4.length=91738
+outputs.4.checksums.sha512=15f30526a57498545f4c7c6e0527f08a3c027f97a6d55e7f6af5fb798dd2be93bff2be9bbddb45c72eac4da5f9c068a329f8f728144b5b231ca1a8892ab187fe
