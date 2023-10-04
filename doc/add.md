@@ -4,10 +4,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20231003112852 --> [plexus](../content/org/codehaus/plexus/plexus-pom/README.md) | [14](../content/org/codehaus/plexus/plexus-pom/plexus-pom-14.buildspec) :heavy_check_mark: | [15](../content/org/codehaus/plexus/plexus-pom/plexus-pom-15.buildspec) | `bin/add-new-release.sh content/org/codehaus/plexus/plexus-pom/plexus-pom-14.buildspec 15` |
-| <!-- 20231003111258 --> [plexus-components](../content/org/codehaus/plexus/plexus-components/README.md) | [14.1](../content/org/codehaus/plexus/plexus-components/plexus-components-14.1.buildspec) :heavy_check_mark: | [14.2](../content/org/codehaus/plexus/plexus-components/plexus-components-14.2.buildspec) | `bin/add-new-release.sh content/org/codehaus/plexus/plexus-components/plexus-components-14.1.buildspec 14.2` |
-| <!-- 20231003070539 --> [logging-parent](../content/org/apache/logging/parent/README.md) | [10.1.0](../content/org/apache/logging/parent/logging-parent-10.1.0.buildspec) :heavy_check_mark: | [10.1.1](../content/org/apache/logging/parent/logging-parent-10.1.1.buildspec) | `bin/add-new-release.sh content/org/apache/logging/parent/logging-parent-10.1.0.buildspec 10.1.1` |
-| <!-- 20231002225412 --> [cyclonedx-core-java](../content/org/cyclonedx/cyclonedx-core-java/README.md) | [7.3.2](../content/org/cyclonedx/cyclonedx-core-java/cyclonedx-core-java-7.3.2.buildspec) :heavy_check_mark: | [8.0.0](../content/org/cyclonedx/cyclonedx-core-java/cyclonedx-core-java-8.0.0.buildspec) | `bin/add-new-release.sh content/org/cyclonedx/cyclonedx-core-java/cyclonedx-core-java-7.3.2.buildspec 8.0.0` |
+| <!-- 20231004145019 --> [error-prone-support](../content/tech/picnic/error-prone-support/error-prone-support/README.md) | [0.13.0](../content/tech/picnic/error-prone-support/error-prone-support/error-prone-support-0.13.0.buildspec) :heavy_check_mark: | [0.14.0](../content/tech/picnic/error-prone-support/error-prone-support/error-prone-support-0.14.0.buildspec) | `bin/add-new-release.sh content/tech/picnic/error-prone-support/error-prone-support/error-prone-support-0.13.0.buildspec 0.14.0` |
 | <!-- 20231001013613 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.1](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec) :heavy_check_mark: | [10.4.2-beta-5](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2-beta-5.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec 10.4.2-beta-5` |
 | <!-- 20230911001855 --> [alluxio-parent](../content/org/alluxio/alluxio/README.md) | [303](../content/org/alluxio/alluxio/alluxio-303.buildspec) :heavy_check_mark: | [304](../content/org/alluxio/alluxio/alluxio-304.buildspec) | `bin/add-new-release.sh content/org/alluxio/alluxio/alluxio-303.buildspec 304` |
 <!-- END GENERATED ADD OK -->
@@ -16,7 +13,6 @@ New Releases To Add
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
 | <!-- 20231003174803 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.30.2](../content/org/finos/legend/engine/legend-engine-4.30.2.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.30.2` |
-| <!-- 20231003093934 --> [parent](../content/org/apache/zookeeper/README.md) | [3.9.0](../content/org/apache/zookeeper/zookeeper-3.9.0.buildspec) :warning: [:memo:](https://issues.apache.org/jira/browse/ZOOKEEPER-4732) | [3.9.1](../content/org/apache/zookeeper/zookeeper-3.9.1.buildspec) | `bin/add-new-release.sh content/org/apache/zookeeper/zookeeper-3.9.0.buildspec 3.9.1` |
 | <!-- 20231002073941 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.0.1](../content/org/apache/camel/camel/camel-4.0.1.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.0.1` |
 | <!-- 20230929050801 --> [helix](../content/org/apache/helix/README.md) | [1.3.0](../content/org/apache/helix/helix-1.3.0.buildspec) :warning: | [1.3.1](../content/org/apache/helix/helix-1.3.1.buildspec) | `bin/add-new-release.sh content/org/apache/helix/helix-1.3.0.buildspec 1.3.1` |
 | <!-- 20230922112748 --> [org.apache.sling.feature.cpconverter](../content/org/apache/sling/org.apache.sling.feature.cpconverter/README.md) | [1.3.0](../content/org/apache/sling/org.apache.sling.feature.cpconverter/org.apache.sling.feature.cpconverter-1.3.0.buildspec) :warning: | [1.3.4](../content/org/apache/sling/org.apache.sling.feature.cpconverter/org.apache.sling.feature.cpconverter-1.3.4.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.feature.cpconverter/org.apache.sling.feature.cpconverter-1.3.0.buildspec 1.3.4` |
@@ -58,12 +54,13 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20231004141306 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.1.5 :warning: [:memo:](https://github.com/smallrye/smallrye-parent/pull/420) |
+| <!-- 20231003093934 --> [parent](../content/org/apache/zookeeper/README.md) | 3.9.1 :warning: [:memo:](https://github.com/apache/zookeeper/pull/2042) |
 | <!-- 20231002152255 --> [syncope](../content/org/apache/syncope/README.md) | 3.0.5 :warning: |
 | <!-- 20230929141506 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 7.0.9 :warning: [:memo:](https://github.com/eclipse-ee4j/glassfish/issues/24615) |
 | <!-- 20230927125008 --> [migratedb](../content/de/unentscheidbar/migratedb/README.md) | 0.3.0 :warning: |
 | <!-- 20230927091326 --> [hsac-fitnesse-fixtures](../content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 5.2.45 :warning: |
 | <!-- 20230924095100 --> [avro-toplevel](../content/org/apache/avro/README.md) | 1.11.3 :warning: |
-| <!-- 20230922111024 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.1.5 :warning: [:memo:](https://github.com/smallrye/smallrye-parent/pull/420) |
 | <!-- 20230920083340 --> [karaf](../content/org/apache/karaf/karaf/README.md) | 4.4.4 :warning: [:memo:](https://issues.apache.org/jira/browse/KARAF-7751) |
 | <!-- 20230919180519 --> [artemis-pom](../content/org/apache/activemq/artemis/README.md) | 2.31.0 :warning: [:memo:](https://github.com/apache/activemq-artemis/pull/4620) |
 | <!-- 20230919083013 --> [camel-k-runtime-project](../content/org/apache/camel/camel-k-runtime/README.md) | 3.2.0 :warning: |

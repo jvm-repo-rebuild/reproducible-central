@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2595 releases** of **550 projects**:
-   - **2014** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 581 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **2600 releases** of **550 projects**:
+   - **2018** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 582 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 550 projects, 439 have at least one fully reproducible release, 111 have none
 
 <!-- END GENERATED INTRO -->
@@ -266,7 +266,7 @@ Its objectives are to provide:
 | org.apache.tika | <a name='org.apache.tika:tika'></a>[tika](content/org/apache/tika/README.md) | 6 | 6 :warning: |
 | org.apache.wayang | <a name='org.apache.wayang:wayang'></a>[wayang](content/org/apache/wayang/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | org.apache.wss4j | <a name='org.apache.wss4j:wss4j'></a>[wss4j](content/org/apache/wss4j/README.md) | 5 | 4 :heavy_check_mark: / 1 :warning: |
-| org.apache.zookeeper | <a name='org.apache.zookeeper:parent'></a>[parent](content/org/apache/zookeeper/README.md) | 2 | 2 :warning: |
+| org.apache.zookeeper | <a name='org.apache.zookeeper:parent'></a>[parent](content/org/apache/zookeeper/README.md) | 3 | 3 :warning: |
 | org.apache.activemq | <a name='org.apache.activemq:artemis-pom'></a>[artemis-pom](content/org/apache/activemq/artemis/README.md) | 4 | 4 :warning: |
 | org.apache.aries | <a name='org.apache.aries:org.apache.aries.cdi'></a>[*.cdi](content/org/apache/aries/cdi/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | org.apache.aries.jax | <a name='org.apache.aries.jax:org.apache.aries.jax.rs'></a>[*.rs](content/org/apache/aries/jax-rs/README.md) | 1 | 1 :heavy_check_mark: |
@@ -298,7 +298,7 @@ Its objectives are to provide:
 | org.apache.karaf | <a name='org.apache.karaf:decanter'></a>[decanter](content/org/apache/karaf/decanter/README.md) | 2 | 2 :warning: |
 | | <a name='org.apache.karaf:karaf'></a>[karaf](content/org/apache/karaf/karaf/README.md) | 6 | 6 :warning: |
 | org.apache.karaf.minho | <a name='org.apache.karaf.minho:minho'></a>[minho](content/org/apache/karaf/minho/README.md) | 1 | 1 :heavy_check_mark: |
-| org.apache.logging | <a name='org.apache.logging:logging-parent'></a>[logging-parent](content/org/apache/logging/parent/README.md) | 7 | 6 :heavy_check_mark: / 1 :warning: |
+| org.apache.logging | <a name='org.apache.logging:logging-parent'></a>[logging-parent](content/org/apache/logging/parent/README.md) | 8 | 7 :heavy_check_mark: / 1 :warning: |
 | org.apache.logging.log4j | <a name='org.apache.logging.log4j:log4j-tools-bom'></a>[log4j-tools-bom](content/org/apache/logging/log4j/tools/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.apache.logging.log4j:log4j-transform-bom'></a>[log4j-transform-bom](content/org/apache/logging/log4j/transform/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.maven.archetype | <a name='org.apache.maven.archetype:maven-archetype'></a>[maven-archetype](content/org/apache/maven/archetype/README.md) | 2 | 2 :heavy_check_mark: |
@@ -498,17 +498,17 @@ Its objectives are to provide:
 | | <a name='org.codehaus.plexus:plexus-cipher'></a>[plexus-cipher](content/org/codehaus/plexus/plexus-cipher/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.plexus:plexus-classworlds'></a>[plexus-classworlds](content/org/codehaus/plexus/plexus-classworlds/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.plexus:plexus-compiler'></a>[plexus-compiler](content/org/codehaus/plexus/plexus-compiler/README.md) | 10 | 8 :heavy_check_mark: / 2 :warning: |
-| | <a name='org.codehaus.plexus:plexus-components'></a>[plexus-components](content/org/codehaus/plexus/plexus-components/README.md) | 7 | 6 :heavy_check_mark: / 1 :warning: |
+| | <a name='org.codehaus.plexus:plexus-components'></a>[plexus-components](content/org/codehaus/plexus/plexus-components/README.md) | 8 | 7 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.codehaus.plexus:plexus-interactivity'></a>[plexus-interactivity](content/org/codehaus/plexus/plexus-interactivity/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.codehaus.plexus:plexus-io'></a>[plexus-io](content/org/codehaus/plexus/plexus-io/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.codehaus.plexus:plexus-languages'></a>[plexus-languages](content/org/codehaus/plexus/plexus-languages/README.md) | 6 | 1 :heavy_check_mark: / 5 :warning: |
-| | <a name='org.codehaus.plexus:plexus'></a>[plexus](content/org/codehaus/plexus/plexus-pom/README.md) | 12 | 11 :heavy_check_mark: / 1 :warning: |
+| | <a name='org.codehaus.plexus:plexus'></a>[plexus](content/org/codehaus/plexus/plexus-pom/README.md) | 13 | 12 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.codehaus.plexus:plexus-utils'></a>[plexus-utils](content/org/codehaus/plexus/plexus-utils/README.md) | 6 | 4 :heavy_check_mark: / 2 :warning: |
 | | <a name='org.codehaus.plexus:plexus-velocity'></a>[plexus-velocity](content/org/codehaus/plexus/plexus-velocity/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.codehaus.plexus:plexus-xml'></a>[plexus-xml](content/org/codehaus/plexus/plexus-xml/README.md) | 4 | 4 :heavy_check_mark: |
 | org.complate | <a name='org.complate:complate-core'></a>[complate-core](content/org/complate/java/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='org.complate:complate-spring-mvc'></a>[complate-spring-mvc](content/org/complate/spring/README.md) | 2 | 2 :heavy_check_mark: |
-| org.cyclonedx | <a name='org.cyclonedx:cyclonedx-core-java'></a>[cyclonedx-core-java](content/org/cyclonedx/cyclonedx-core-java/README.md) | 28 | 28 :heavy_check_mark: |
+| org.cyclonedx | <a name='org.cyclonedx:cyclonedx-core-java'></a>[cyclonedx-core-java](content/org/cyclonedx/cyclonedx-core-java/README.md) | 29 | 29 :heavy_check_mark: |
 | | <a name='org.cyclonedx:cyclonedx-maven-plugin'></a>[cyclonedx-maven-plugin](content/org/cyclonedx/cyclonedx-maven-plugin/README.md) | 21 | 21 :heavy_check_mark: |
 | org.eclipse.jkube | <a name='org.eclipse.jkube:jkube'></a>[jkube](content/org/eclipse/jkube/README.md) | 19 | 19 :heavy_check_mark: |
 | org.eclipse.transformer | <a name='org.eclipse.transformer:org.eclipse.transformer.parent'></a>[*.parent](content/org/eclipse/transformer/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
@@ -573,7 +573,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 24 | 24 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **550** | **2595** | **2014** :heavy_check_mark: **581** :warning: |
+| **Count:** | **550** | **2600** | **2018** :heavy_check_mark: **582** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -585,7 +585,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      22 gradle     11
      26 mvn         7
-    982 mvn         8
+    985 mvn         8
       1 mvn         9
     792 mvn        11
       1 mvn        11.0.19
@@ -594,7 +594,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    188 mvn        17
+    189 mvn        17
       2 mvn        17.0.7
       1 mvn        17.0.8
       1 mvn        17.0.8.1
@@ -623,7 +623,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn-3.9.2   8
      16 mvn-3.9.2  17
      11 mvn-3.9.3   8
-     23 mvn-3.9.3  11
+     24 mvn-3.9.3  11
       4 mvn-3.9.3  11.0.5
       5 mvn-3.9.3  11.0.6
       7 mvn-3.9.3  14
