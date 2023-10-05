@@ -1,0 +1,12 @@
+version=3.10.0
+ok=4
+ko=3
+ignored=1
+okFiles="commons-net-3.10.0.pom commons-net-3.10.0-tests.jar commons-net-3.10.0-sources.jar commons-net-3.10.0-test-sources.jar"
+koFiles="commons-net-3.10.0.jar commons-net-3.10.0-ftp.jar commons-net-3.10.0-examples.jar"
+ignoredFiles="commons-net-3.10.0.spdx.json"
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/commons-net/commons-net-3.10.0.jar target/commons-net-3.10.0.jar
+# diffoscope target/reference/commons-net/commons-net-3.10.0-ftp.jar target/commons-net-ftp-3.10.0.jar
+# diffoscope target/reference/commons-net/commons-net-3.10.0-examples.jar target/commons-net-examples-3.10.0.jar

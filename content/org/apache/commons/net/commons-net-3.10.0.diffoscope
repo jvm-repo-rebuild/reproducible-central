@@ -1,0 +1,95 @@
+1 / 3 target/reference/commons-net/commons-net-3.10.0.jar target/commons-net-3.10.0.jar
+--- target/reference/commons-net/commons-net-3.10.0.jar
++++ target/commons-net-3.10.0.jar
+├── zipinfo {}
+│ @@ -1,234 +1,234 @@
+│  Zip file size: 322780 bytes, number of entries: 232
+│  ?rw-r--r--  2.0 unx     2793 bX defN 23-Sep-02 13:52 META-INF/MANIFEST.MF
+...
+│ -?rw-r--r--  2.0 unx       58 bx defN 23-Sep-02 17:52 META-INF/maven/commons-net/commons-net/pom.properties
+│ +?rwxr-xr-x  1.0 unx        0 bx stor 23-Sep-02 13:52 META-INF/
+...
+│ +?rw-r--r--  2.0 unx       58 bx defN 23-Sep-02 13:52 META-INF/maven/commons-net/commons-net/pom.properties
+│  -rw----     1.0 fat        0 bx stor 23-Sep-02 13:52 META-INF/versions/
+│  -rw----     1.0 fat        0 bx stor 23-Sep-02 13:52 META-INF/versions/9/
+│  -rw----     2.0 fat      920 bX defN 23-Sep-02 13:52 META-INF/versions/9/module-info.class
+│  232 files, 612975 bytes uncompressed, 281138 bytes compressed:  54.1%
+
+2 / 3 target/reference/commons-net/commons-net-3.10.0-ftp.jar target/commons-net-ftp-3.10.0.jar
+--- target/reference/commons-net/commons-net-3.10.0-ftp.jar
++++ target/commons-net-ftp-3.10.0.jar
+├── zipinfo {}
+│ @@ -1,117 +1,117 @@
+│ -Zip file size: 155579 bytes, number of entries: 115
+│ -drwxr-xr-x  2.0 unx        0 bx stor 23-Oct-01 09:34 META-INF/
+...
+│ --rw-r--r--  2.0 unx      133 b- defN 23-Oct-01 09:32 org/apache/commons/net/util/package-info.class
+│ -115 files, 292671 bytes uncompressed, 136289 bytes compressed:  53.4%
+│ +Zip file size: 155597 bytes, number of entries: 115
+│ +drwxr-xr-x  2.0 unx        0 bx stor 23-Oct-05 22:38 META-INF/
+...
+│ +-rw-r--r--  2.0 unx      133 b- defN 23-Oct-05 22:38 org/apache/commons/net/util/package-info.class
+│ +115 files, 292697 bytes uncompressed, 136307 bytes compressed:  53.4%
+├── META-INF/MANIFEST.MF
+│ @@ -1,10 +1,10 @@
+│  Manifest-Version: 1.0
+
+│  Ant-Version: Apache Ant 1.10.12
+
+│ -Created-By: 17.0.8.1+0 (Homebrew)
+
+│ +Created-By: 17.0.8.1+1-Ubuntu-0ubuntu122.04 (Private Build)
+
+│  Extension-Name: org.apache.commons.net
+
+│  Specification-Title: Apache Commons Net
+
+│  Implementation-Title: Apache Commons Net
+
+│  Implementation-Vendor: The Apache Software Foundation
+
+│  Implementation-Version: 3.10.0
+
+│  Implementation-Vendor-Id: org.apache
+
+│  Implementation-Build: ${implementation.build}
+
+3 / 3 target/reference/commons-net/commons-net-3.10.0-examples.jar target/commons-net-examples-3.10.0.jar
+--- target/reference/commons-net/commons-net-3.10.0-examples.jar
++++ target/commons-net-examples-3.10.0.jar
+├── zipinfo {}
+│ @@ -1,59 +1,59 @@
+│ -Zip file size: 92792 bytes, number of entries: 57
+│ -drwxr-xr-x  2.0 unx        0 bx stor 23-Oct-01 09:34 META-INF/
+...
+│ --rw-r--r--  2.0 unx     2496 b- defN 23-Oct-01 09:32 org/apache/commons/net/examples/util/IOUtil.class
+│ -57 files, 163849 bytes uncompressed, 83228 bytes compressed:  49.2%
+│ +Zip file size: 92809 bytes, number of entries: 57
+│ +drwxr-xr-x  2.0 unx        0 bx stor 23-Oct-05 22:38 META-INF/
+...
+│ +-rw-r--r--  2.0 unx     2496 b- defN 23-Oct-05 22:38 org/apache/commons/net/examples/util/IOUtil.class
+│ +57 files, 163875 bytes uncompressed, 83245 bytes compressed:  49.2%
+├── META-INF/MANIFEST.MF
+│ @@ -1,10 +1,10 @@
+│  Manifest-Version: 1.0
+
+│  Ant-Version: Apache Ant 1.10.12
+
+│ -Created-By: 17.0.8.1+0 (Homebrew)
+
+│ +Created-By: 17.0.8.1+1-Ubuntu-0ubuntu122.04 (Private Build)
+
+│  Extension-Name: org.apache.commons.net
+
+│  Specification-Title: Apache Commons Net
+
+│  Implementation-Title: Apache Commons Net
+
+│  Implementation-Vendor: The Apache Software Foundation
+
+│  Implementation-Version: 3.10.0
+
+│  Implementation-Vendor-Id: org.apache
+
+│  Implementation-Build: ${implementation.build}
+
