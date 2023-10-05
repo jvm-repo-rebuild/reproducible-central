@@ -13,6 +13,7 @@ rebuilding **1 releases** of commons-net:commons-net:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.10.0](https://central.sonatype.com/artifact/commons-net/commons-net/3.10.0/pom) | | | |
 | [3.9.0](https://central.sonatype.com/artifact/commons-net/commons-net/3.9.0/pom) | [mvn jdk8](commons-net-3.9.0.buildspec) | [result](commons-net-3.9.0.buildinfo): [5 :heavy_check_mark:  2 :warning:](commons-net-3.9.0.buildcompare) [:mag:](commons-net-3.9.0.diffoscope) | 1.3M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

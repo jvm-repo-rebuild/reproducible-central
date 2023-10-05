@@ -9,21 +9,22 @@ Source code: [https://github.com/apache/maven-doxia-sitetools.git](https://githu
 
 <details><summary>This project defines 7 modules:</summary>
 
-* [org.apache.maven.doxia:doxia-decoration-model](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-decoration-model/2.0.0-M11)
-* [org.apache.maven.doxia:doxia-doc-renderer](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-doc-renderer/2.0.0-M11)
-* [org.apache.maven.doxia:doxia-integration-tools](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-integration-tools/2.0.0-M11)
-* [org.apache.maven.doxia:doxia-site-model](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-site-model/2.0.0-M11)
-* [org.apache.maven.doxia:doxia-site-renderer](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-site-renderer/2.0.0-M11)
-* [org.apache.maven.doxia:doxia-sitetools](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-sitetools/2.0.0-M11)
-* [org.apache.maven.doxia:doxia-skin-model](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-skin-model/2.0.0-M11)
+* [org.apache.maven.doxia:doxia-decoration-model](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-decoration-model/2.0.0-M12)
+* [org.apache.maven.doxia:doxia-doc-renderer](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-doc-renderer/2.0.0-M12)
+* [org.apache.maven.doxia:doxia-integration-tools](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-integration-tools/2.0.0-M12)
+* [org.apache.maven.doxia:doxia-site-model](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-site-model/2.0.0-M12)
+* [org.apache.maven.doxia:doxia-site-renderer](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-site-renderer/2.0.0-M12)
+* [org.apache.maven.doxia:doxia-sitetools](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-sitetools/2.0.0-M12)
+* [org.apache.maven.doxia:doxia-skin-model](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-skin-model/2.0.0-M12)
 </details>
 
-rebuilding **13 releases** of org.apache.maven.doxia:doxia-sitetools:
-- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **14 releases** of org.apache.maven.doxia:doxia-sitetools:
+- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.0-M12](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-sitetools/2.0.0-M12/pom) | [mvn jdk8 w](doxia-sitetools-2.0.0-M12.buildspec) | [result](doxia-sitetools-2.0.0-M12.buildinfo): [25 :heavy_check_mark: ](doxia-sitetools-2.0.0-M12.buildcompare) | 1.4M |
 | [2.0.0-M11](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-sitetools/2.0.0-M11/pom) | [mvn jdk8 w](doxia-sitetools-2.0.0-M11.buildspec) | [result](doxia-sitetools-2.0.0-M11.buildinfo): [15 :heavy_check_mark: ](doxia-sitetools-2.0.0-M11.buildcompare) | 667K |
 | [2.0.0-M10](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-sitetools/2.0.0-M10/pom) | [mvn jdk8 w](doxia-sitetools-2.0.0-M10.buildspec) | [result](doxia-sitetools-2.0.0-M10.buildinfo): [15 :heavy_check_mark: ](doxia-sitetools-2.0.0-M10.buildcompare) | 667K |
 | [2.0.0-M8](https://central.sonatype.com/artifact/org.apache.maven.doxia/doxia-sitetools/2.0.0-M8/pom) | [mvn jdk8 w](doxia-sitetools-2.0.0-M8.buildspec) | [result](doxia-sitetools-2.0.0-M8.buildinfo): [15 :heavy_check_mark: ](doxia-sitetools-2.0.0-M8.buildcompare) | 667K |

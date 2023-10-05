@@ -7,14 +7,15 @@
 
 Source code: [https://github.com/apache/commons-parent.git](https://github.com/apache/commons-parent.git)
 
-rebuilding **8 releases** of org.apache.commons:commons-parent:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **10 releases** of org.apache.commons:commons-parent:
+- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [62](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/62/pom) | | | |
-| [61](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/61/pom) | | | |
+| [63](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/63/pom) | | | |
+| [62](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/62/pom) | [mvn jdk8](commons-parent-62.buildspec) | [result](commons-parent-62.buildinfo): [4 :heavy_check_mark: ](commons-parent-62.buildcompare) | 92K |
+| [61](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/61/pom) | [mvn jdk8](commons-parent-61.buildspec) | [result](commons-parent-61.buildinfo): [4 :heavy_check_mark: ](commons-parent-61.buildcompare) | 92K |
 | [60](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/60/pom) | [mvn jdk8](commons-parent-60.buildspec) | [result](commons-parent-60.buildinfo): [4 :heavy_check_mark:  1 :warning:](commons-parent-60.buildcompare) [:mag:](commons-parent-60.diffoscope) [:memo:](https://github.com/spdx/spdx-maven-plugin/issues/126) | 93K |
 | [59](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/59/pom) | [mvn jdk8](commons-parent-59.buildspec) | [result](commons-parent-59.buildinfo): [2 :heavy_check_mark: ](commons-parent-59.buildcompare) | 87K |
 | [58](https://central.sonatype.com/artifact/org.apache.commons/commons-parent/58/pom) | [mvn jdk8](commons-parent-58.buildspec) | [result](commons-parent-58.buildinfo): [2 :heavy_check_mark: ](commons-parent-58.buildcompare) | 88K |
