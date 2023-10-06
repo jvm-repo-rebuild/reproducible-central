@@ -107,6 +107,7 @@ rebuilding **2 releases** of org.apache.plc4x:plc4x-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.11.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.11.0/pom) | | | |
 | [0.10.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.10.0/pom) | [mvn jdk19](plc4x-0.10.0.buildspec) | [result](plc4x-parent-0.10.0.buildinfo): [138 :heavy_check_mark:  66 :warning:](plc4x-parent-0.10.0.buildcompare) [:mag:](plc4x-parent-0.10.0.diffoscope) | 212M |
 | [0.9.1](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.9.1/pom) | | | |
 | [0.9.0](https://central.sonatype.com/artifact/org.apache.plc4x/plc4x-parent/0.9.0/pom) | | | |

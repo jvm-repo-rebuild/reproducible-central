@@ -4,9 +4,12 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20231005184642 --> [jakartaee-api](../content/org/apache/tomee/jakartaee-api/README.md) | [10.0-M1](../content/org/apache/tomee/jakartaee-api/jakartaee-api-10.0-M1.buildspec) :heavy_check_mark: | [10.0-M2](../content/org/apache/tomee/jakartaee-api/jakartaee-api-10.0-M2.buildspec) | `bin/add-new-release.sh content/org/apache/tomee/jakartaee-api/jakartaee-api-10.0-M1.buildspec 10.0-M2` |
-| <!-- 20231005144441 --> [liquibase-percona](../content/org/liquibase/ext/liquibase-percona/README.md) | [4.23.2](../content/org/liquibase/ext/liquibase-percona/liquibase-percona-4.23.2.buildspec) :heavy_check_mark: | [4.24.0](../content/org/liquibase/ext/liquibase-percona/liquibase-percona-4.24.0.buildspec) | `bin/add-new-release.sh content/org/liquibase/ext/liquibase-percona/liquibase-percona-4.23.2.buildspec 4.24.0` |
-| <!-- 20231005124736 --> [commons-parent](../content/org/apache/commons/parent/README.md) | [62](../content/org/apache/commons/parent/commons-parent-62.buildspec) :heavy_check_mark: | [63](../content/org/apache/commons/parent/commons-parent-63.buildspec) | `bin/add-new-release.sh content/org/apache/commons/parent/commons-parent-62.buildspec 63` |
+| <!-- 20231006120224 --> [log4j-tools-bom](../content/org/apache/logging/log4j/tools/README.md) | [0.4.0](../content/org/apache/logging/log4j/tools/log4j-tools-0.4.0.buildspec) :heavy_check_mark: | [0.5.0](../content/org/apache/logging/log4j/tools/log4j-tools-0.5.0.buildspec) | `bin/add-new-release.sh content/org/apache/logging/log4j/tools/log4j-tools-0.4.0.buildspec 0.5.0` |
+| <!-- 20231006101028 --> [bnd-plugin-parent](../content/biz/aQute/bnd/plugins/README.md) | [6.4.0](../content/biz/aQute/bnd/plugins/bnd-plugins-6.4.0.buildspec) :heavy_check_mark: | [7.0.0](../content/biz/aQute/bnd/plugins/bnd-plugins-7.0.0.buildspec) | `bin/add-new-release.sh content/biz/aQute/bnd/plugins/bnd-plugins-6.4.0.buildspec 7.0.0` |
+| <!-- 20231006094642 --> [project](../content/org/apache/directory/project/README.md) | [47](../content/org/apache/directory/project/project-47.buildspec) :heavy_check_mark: | [48](../content/org/apache/directory/project/project-48.buildspec) | `bin/add-new-release.sh content/org/apache/directory/project/project-47.buildspec 48` |
+| <!-- 20231006093608 --> [micronaut-maven-plugin](../content/io/micronaut/maven/micronaut-maven-plugin/README.md) | [4.0.6](../content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.0.6.buildspec) :heavy_check_mark: | [4.0.7](../content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.0.7.buildspec) | `bin/add-new-release.sh content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.0.6.buildspec 4.0.7` |
+| <!-- 20231006081704 --> [maven-site-plugin](../content/org/apache/maven/plugins/maven-site-plugin/README.md) | [4.0.0-M9](../content/org/apache/maven/plugins/maven-site-plugin/maven-site-plugin-4.0.0-M9.buildspec) :heavy_check_mark: | [4.0.0-M10](../content/org/apache/maven/plugins/maven-site-plugin/maven-site-plugin-4.0.0-M10.buildspec) | `bin/add-new-release.sh content/org/apache/maven/plugins/maven-site-plugin/maven-site-plugin-4.0.0-M9.buildspec 4.0.0-M10` |
+| <!-- 20231006081659 --> [maven-reporting-exec](../content/org/apache/maven/reporting/maven-reporting-exec/README.md) | [2.0.0-M9](../content/org/apache/maven/reporting/maven-reporting-exec/maven-reporting-exec-2.0.0-M9.buildspec) :heavy_check_mark: | [2.0.0-M10](../content/org/apache/maven/reporting/maven-reporting-exec/maven-reporting-exec-2.0.0-M10.buildspec) | `bin/add-new-release.sh content/org/apache/maven/reporting/maven-reporting-exec/maven-reporting-exec-2.0.0-M9.buildspec 2.0.0-M10` |
 | <!-- 20231001013613 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.1](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec) :heavy_check_mark: | [10.4.2-beta-5](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2-beta-5.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec 10.4.2-beta-5` |
 | <!-- 20230911001855 --> [alluxio-parent](../content/org/alluxio/alluxio/README.md) | [303](../content/org/alluxio/alluxio/alluxio-303.buildspec) :heavy_check_mark: | [304](../content/org/alluxio/alluxio/alluxio-304.buildspec) | `bin/add-new-release.sh content/org/alluxio/alluxio/alluxio-303.buildspec 304` |
 <!-- END GENERATED ADD OK -->
@@ -14,8 +17,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20231006164301 --> [plc4x-parent](../content/org/apache/plc4x/plc4x/README.md) | [0.10.0](../content/org/apache/plc4x/plc4x/plc4x-0.10.0.buildspec) :warning: | [0.11.0](../content/org/apache/plc4x/plc4x/plc4x-0.11.0.buildspec) | `bin/add-new-release.sh content/org/apache/plc4x/plc4x/plc4x-0.10.0.buildspec 0.11.0` |
+| <!-- 20231006151541 --> [mockito-core](../content/org/mockito/mockito-core/README.md) | [5.5.0](../content/org/mockito/mockito-core/mockito-5.5.0.buildspec) :warning: | [5.6.0](../content/org/mockito/mockito-core/mockito-5.6.0.buildspec) | `bin/add-new-release.sh content/org/mockito/mockito-core/mockito-5.5.0.buildspec 5.6.0` |
 | <!-- 20231005161546 --> [kubernetes-client-project](../content/io/fabric8/kubernetes-client/README.md) | [6.4.0](../content/io/fabric8/kubernetes-client/kubernetes-client-6.4.0.buildspec) :warning: | [6.9.0](../content/io/fabric8/kubernetes-client/kubernetes-client-6.9.0.buildspec) | `bin/add-new-release.sh content/io/fabric8/kubernetes-client/kubernetes-client-6.4.0.buildspec 6.9.0` |
-| <!-- 20231005105951 --> [commons-net](../content/org/apache/commons/net/README.md) | [3.9.0](../content/org/apache/commons/net/commons-net-3.9.0.buildspec) :warning: | [3.10.0](../content/org/apache/commons/net/commons-net-3.10.0.buildspec) | `bin/add-new-release.sh content/org/apache/commons/net/commons-net-3.9.0.buildspec 3.10.0` |
 | <!-- 20231003174803 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.30.2](../content/org/finos/legend/engine/legend-engine-4.30.2.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.30.2` |
 | <!-- 20231002073941 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.0.1](../content/org/apache/camel/camel/camel-4.0.1.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.0.1` |
 | <!-- 20230929050801 --> [helix](../content/org/apache/helix/README.md) | [1.3.0](../content/org/apache/helix/helix-1.3.0.buildspec) :warning: | [1.3.1](../content/org/apache/helix/helix-1.3.1.buildspec) | `bin/add-new-release.sh content/org/apache/helix/helix-1.3.0.buildspec 1.3.1` |
@@ -55,6 +59,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20231005105951 --> [commons-net](../content/org/apache/commons/net/README.md) | 3.10.0 :warning: |
 | <!-- 20231004141306 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.1.5 :warning: [:memo:](https://github.com/smallrye/smallrye-parent/pull/420) |
 | <!-- 20231003093934 --> [parent](../content/org/apache/zookeeper/README.md) | 3.9.1 :warning: [:memo:](https://github.com/apache/zookeeper/pull/2042) |
 | <!-- 20231002152255 --> [syncope](../content/org/apache/syncope/README.md) | 3.0.5 :warning: |
@@ -74,7 +79,6 @@ New Releases To Add
 | <!-- 20230830214835 --> [jetty-project](../content/org/eclipse/jetty/jetty-project/README.md) | 12.0.1 :warning: |
 | <!-- 20230828190043 --> [tika](../content/org/apache/tika/README.md) | 2.9.0 :warning: |
 | <!-- 20230828161712 --> [jooby](../content/io/jooby/README.md) | 3.0.5 :warning: |
-| <!-- 20230822075226 --> [mockito-core](../content/org/mockito/mockito-core/README.md) | 5.5.0 :warning: |
 | <!-- 20230810033447 --> [spdx-maven-plugin](../content/org/spdx/spdx-maven-plugin/README.md) | 0.7.0 :warning: [:memo:](https://github.com/spdx/spdx-maven-plugin/pull/125) |
 | <!-- 20230808061603 --> [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | 2.9.14 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-servlets-resolver/pull/39) |
 | <!-- 20230802183114 --> [semanticcms-tag-reference](../content/com/semanticcms/semanticcms-tag-reference/README.md) | 1.10.1 :warning: |
@@ -127,7 +131,6 @@ New Releases To Add
 | <!-- 20221206103108 --> [commons-statistics-parent](../content/org/apache/commons/statistics/README.md) | 1.0 :warning: [:memo:](https://github.com/apache/commons-statistics/pull/42) |
 | <!-- 20221123032956 --> [org.apache.sling.hc.support](../content/org/apache/sling/org.apache.sling.hc.support/README.md) | 1.0.10 :warning: |
 | <!-- 20221118010633 --> [org.apache.sling.jcr.jackrabbit.accessmanager](../content/org/apache/sling/org.apache.sling.jcr.jackrabbit.accessmanager/README.md) | 3.1.0 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-jcr-jackrabbit-accessmanager/pull/20) |
-| <!-- 20221006163641 --> [plc4x-parent](../content/org/apache/plc4x/plc4x/README.md) | 0.10.0 :warning: |
 | <!-- 20220916141422 --> [gemLibPki](../content/de/gematik/pki/gemlibpki/README.md) | 0.9.3 :warning: |
 | <!-- 20220823210050 --> [org.apache.sling.jcr.jackrabbit.usermanager](../content/org/apache/sling/org.apache.sling.jcr.jackrabbit.usermanager/README.md) | 2.2.26 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-jcr-jackrabbit-usermanager/pull/18) |
 | <!-- 20220812120149 --> [org.apache.sling.scripting.sightly.testing](../content/org/apache/sling/org.apache.sling.scripting.sightly.testing/README.md) | 1.0.32-1.4.0 :warning: |

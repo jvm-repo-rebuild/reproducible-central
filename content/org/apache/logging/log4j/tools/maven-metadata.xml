@@ -3,14 +3,15 @@
   <groupId>org.apache.logging.log4j</groupId>
   <artifactId>log4j-tools-bom</artifactId>
   <versioning>
-    <latest>0.4.0</latest>
-    <release>0.4.0</release>
+    <latest>0.5.0</latest>
+    <release>0.5.0</release>
     <versions>
       <version>0.1.0</version>
       <version>0.2.0</version>
       <version>0.3.0</version>
       <version>0.4.0</version>
+      <version>0.5.0</version>
     </versions>
-    <lastUpdated>20230706091119</lastUpdated>
+    <lastUpdated>20231006120224</lastUpdated>
   </versioning>
 </metadata>

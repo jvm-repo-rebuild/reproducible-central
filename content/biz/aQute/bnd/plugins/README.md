@@ -27,6 +27,7 @@ rebuilding **8 releases** of biz.aQute.bnd:bnd-plugin-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [7.0.0](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-plugin-parent/7.0.0/pom) | | | |
 | [6.4.0](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-plugin-parent/6.4.0/pom) | [mvn jdk17](bnd-plugins-6.4.0.buildspec) | [result](bnd-generate-maven-plugin-6.4.0.buildinfo): [28 :heavy_check_mark: ](bnd-generate-maven-plugin-6.4.0.buildcompare) | 392K |
 | [6.3.1](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-plugin-parent/6.3.1/pom) | [mvn jdk17](bnd-plugins-6.3.1.buildspec) | [result](bnd-reporter-maven-plugin-6.3.1.buildinfo): [25 :heavy_check_mark: ](bnd-reporter-maven-plugin-6.3.1.buildcompare) | 258K |
 | [6.3.0](https://central.sonatype.com/artifact/biz.aQute.bnd/bnd-plugin-parent/6.3.0/pom) | [mvn jdk17](bnd-plugins-6.3.0.buildspec) | [result](bnd-reporter-maven-plugin-6.3.0.buildinfo): [25 :heavy_check_mark: ](bnd-reporter-maven-plugin-6.3.0.buildcompare) | 258K |
