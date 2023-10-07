@@ -3,8 +3,8 @@
   <groupId>org.owasp.antisamy</groupId>
   <artifactId>antisamy</artifactId>
   <versioning>
-    <latest>1.7.3</latest>
-    <release>1.7.3</release>
+    <latest>1.7.4</latest>
+    <release>1.7.4</release>
     <versions>
       <version>1.4.2</version>
       <version>1.4.3</version>
@@ -37,7 +37,8 @@
       <version>1.7.1</version>
       <version>1.7.2</version>
       <version>1.7.3</version>
+      <version>1.7.4</version>
     </versions>
-    <lastUpdated>20230412131318</lastUpdated>
+    <lastUpdated>20231006232934</lastUpdated>
   </versioning>
 </metadata>
