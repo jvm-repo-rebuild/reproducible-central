@@ -4,6 +4,10 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20231009170713 --> [commons-parent](../content/org/apache/commons/parent/README.md) | [63](../content/org/apache/commons/parent/commons-parent-63.buildspec) :heavy_check_mark: | [64](../content/org/apache/commons/parent/commons-parent-64.buildspec) | `bin/add-new-release.sh content/org/apache/commons/parent/commons-parent-63.buildspec 64` |
+| <!-- 20231009110821 --> [byte-buddy-parent](../content/net/bytebuddy/README.md) | [1.14.8](../content/net/bytebuddy/byte-buddy-1.14.8.buildspec) :heavy_check_mark: | [1.14.9](../content/net/bytebuddy/byte-buddy-1.14.9.buildspec) | `bin/add-new-release.sh content/net/bytebuddy/byte-buddy-1.14.8.buildspec 1.14.9` |
+| <!-- 20231009092449 --> [org.apache.sling.auth.core](../content/org/apache/sling/org.apache.sling.auth.core/README.md) | [1.6.2](../content/org/apache/sling/org.apache.sling.auth.core/org.apache.sling.auth.core-1.6.2.buildspec) :heavy_check_mark: | [1.7.0](../content/org/apache/sling/org.apache.sling.auth.core/org.apache.sling.auth.core-1.7.0.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.auth.core/org.apache.sling.auth.core-1.6.2.buildspec 1.7.0` |
+| <!-- 20231009082351 --> [cucumber-expressions](../content/io/cucumber/cucumber-expressions/README.md) | [16.1.2](../content/io/cucumber/cucumber-expressions/cucumber-expressions-16.1.2.buildspec) :heavy_check_mark: | [17.0.0](../content/io/cucumber/cucumber-expressions/cucumber-expressions-17.0.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/cucumber-expressions/cucumber-expressions-16.1.2.buildspec 17.0.0` |
 | <!-- 20231008013334 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.1](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec) :heavy_check_mark: | [10.4.3-beta-1](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.3-beta-1.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec 10.4.3-beta-1` |
 | <!-- 20231007192058 --> [mojo-parent](../content/org/codehaus/mojo/mojo-parent/README.md) | [76](../content/org/codehaus/mojo/mojo-parent/mojo-parent-76.buildspec) :heavy_check_mark: | [77](../content/org/codehaus/mojo/mojo-parent/mojo-parent-77.buildspec) | `bin/add-new-release.sh content/org/codehaus/mojo/mojo-parent/mojo-parent-76.buildspec 77` |
 | <!-- 20231007055445 --> [dubbo](../content/org/apache/dubbo/README.md) | [3.2.6](../content/org/apache/dubbo/dubbo-3.2.6.buildspec) :heavy_check_mark: | [3.2.7](../content/org/apache/dubbo/dubbo-3.2.7.buildspec) | `bin/add-new-release.sh content/org/apache/dubbo/dubbo-3.2.6.buildspec 3.2.7` |
@@ -19,6 +23,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20231009092600 --> [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | [2.9.14](../content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.9.14.buildspec) :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-servlets-resolver/pull/39) | [2.10.0](../content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.10.0.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.9.14.buildspec 2.10.0` |
+| <!-- 20231009092531 --> [org.apache.sling.servlets.post](../content/org/apache/sling/org.apache.sling.servlets.post/README.md) | [2.5.0](../content/org/apache/sling/org.apache.sling.servlets.post/org.apache.sling.servlets.post-2.5.0.buildspec) :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-servlets-post/pull/17) | [2.6.0](../content/org/apache/sling/org.apache.sling.servlets.post/org.apache.sling.servlets.post-2.6.0.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.servlets.post/org.apache.sling.servlets.post-2.5.0.buildspec 2.6.0` |
 | <!-- 20231006232934 --> [antisamy](../content/org/owasp/antisamy/README.md) | [1.7.3](../content/org/owasp/antisamy/antisamy-1.7.3.buildspec) :warning: | [1.7.4](../content/org/owasp/antisamy/antisamy-1.7.4.buildspec) | `bin/add-new-release.sh content/org/owasp/antisamy/antisamy-1.7.3.buildspec 1.7.4` |
 | <!-- 20231006205651 --> [opentelemetry-sdk](../content/io/opentelemetry/java/README.md) | [1.14.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.14.0.buildspec) :warning: [:memo:](https://github.com/open-telemetry/opentelemetry-java/issues/4488) | [1.31.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.31.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/java/opentelemetry-sdk-1.14.0.buildspec 1.31.0` |
 | <!-- 20231006164301 --> [plc4x-parent](../content/org/apache/plc4x/plc4x/README.md) | [0.10.0](../content/org/apache/plc4x/plc4x/plc4x-0.10.0.buildspec) :warning: | [0.11.0](../content/org/apache/plc4x/plc4x/plc4x-0.11.0.buildspec) | `bin/add-new-release.sh content/org/apache/plc4x/plc4x/plc4x-0.10.0.buildspec 0.11.0` |
@@ -62,9 +68,9 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20231009100347 --> [parent](../content/org/apache/zookeeper/README.md) | 3.9.1 :warning: [:memo:](https://github.com/apache/zookeeper/pull/2042) |
 | <!-- 20231005105951 --> [commons-net](../content/org/apache/commons/net/README.md) | 3.10.0 :warning: |
 | <!-- 20231004141306 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.1.5 :warning: [:memo:](https://github.com/smallrye/smallrye-parent/pull/420) |
-| <!-- 20231003093934 --> [parent](../content/org/apache/zookeeper/README.md) | 3.9.1 :warning: [:memo:](https://github.com/apache/zookeeper/pull/2042) |
 | <!-- 20231002152255 --> [syncope](../content/org/apache/syncope/README.md) | 3.0.5 :warning: |
 | <!-- 20230929141506 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 7.0.9 :warning: [:memo:](https://github.com/eclipse-ee4j/glassfish/issues/24615) |
 | <!-- 20230927125008 --> [migratedb](../content/de/unentscheidbar/migratedb/README.md) | 0.3.0 :warning: |
@@ -83,7 +89,6 @@ New Releases To Add
 | <!-- 20230828190043 --> [tika](../content/org/apache/tika/README.md) | 2.9.0 :warning: |
 | <!-- 20230828161712 --> [jooby](../content/io/jooby/README.md) | 3.0.5 :warning: |
 | <!-- 20230810033447 --> [spdx-maven-plugin](../content/org/spdx/spdx-maven-plugin/README.md) | 0.7.0 :warning: [:memo:](https://github.com/spdx/spdx-maven-plugin/pull/125) |
-| <!-- 20230808061603 --> [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | 2.9.14 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-servlets-resolver/pull/39) |
 | <!-- 20230802183114 --> [semanticcms-tag-reference](../content/com/semanticcms/semanticcms-tag-reference/README.md) | 1.10.1 :warning: |
 | <!-- 20230729004927 --> [shiro-root](../content/org/apache/shiro/README.md) | 2.0.0-alpha-3 :warning: |
 | <!-- 20230728155049 --> [efx-toolkit-java](../content/eu/europa/ted/eforms/efx-toolkit-java/README.md) | 2.0.0-alpha.1 :warning: |
@@ -155,7 +160,6 @@ New Releases To Add
 | <!-- 20220214110014 --> [org.apache.sling.feature.extension.unpack](../content/org/apache/sling/org.apache.sling.feature.extension.unpack/README.md) | 0.3.0 :warning: |
 | <!-- 20211221090833 --> [scriptingbundle-maven-plugin](../content/org/apache/sling/scriptingbundle-maven-plugin/README.md) | 0.5.2 :warning: |
 | <!-- 20211212220158 --> [org.apache.sling.commons.messaging.mail](../content/org/apache/sling/org.apache.sling.commons.messaging.mail/README.md) | 2.0.0 :warning: |
-| <!-- 20211112105954 --> [org.apache.sling.servlets.post](../content/org/apache/sling/org.apache.sling.servlets.post/README.md) | 2.5.0 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-servlets-post/pull/17) |
 | <!-- 20211108142409 --> [io.wcm.wcm.ui.clientlibs](../content/io/wcm/io.wcm.wcm/ui/clientlibs/README.md) | 1.2.2 :warning: |
 | <!-- 20211018122406 --> [org.apache.sling.commons.crypto](../content/org/apache/sling/org.apache.sling.commons.crypto/README.md) | 1.1.0 :warning: [:memo:](https://issues.apache.org/jira/browse/SLING-11907) |
 | <!-- 20210810045740 --> [org.apache.sling.installer.core](../content/org/apache/sling/org.apache.sling.installer.core/README.md) | 3.12.0 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-installer-core/pull/9) |

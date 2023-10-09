@@ -19,12 +19,14 @@
       <version>3.6.4</version>
       <version>3.7.0</version>
       <version>3.7.1</version>
+      <version>3.7.2</version>
       <version>3.8.0</version>
       <version>3.8.1</version>
       <version>3.8.2</version>
+      <version>3.8.3</version>
       <version>3.9.0</version>
       <version>3.9.1</version>
     </versions>
-    <lastUpdated>20231003093934</lastUpdated>
+    <lastUpdated>20231009100347</lastUpdated>
   </versioning>
 </metadata>
