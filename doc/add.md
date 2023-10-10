@@ -23,6 +23,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20231010041855 --> [jetty-project](../content/org/eclipse/jetty/jetty-project/README.md) | [12.0.1](../content/org/eclipse/jetty/jetty-project/jetty-project-12.0.1.buildspec) :warning: | [12.0.2](../content/org/eclipse/jetty/jetty-project/jetty-project-12.0.2.buildspec) | `bin/add-new-release.sh content/org/eclipse/jetty/jetty-project/jetty-project-12.0.1.buildspec 12.0.2` |
 | <!-- 20231009092600 --> [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | [2.9.14](../content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.9.14.buildspec) :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-servlets-resolver/pull/39) | [2.10.0](../content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.10.0.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.servlets.resolver/org.apache.sling.servlets.resolver-2.9.14.buildspec 2.10.0` |
 | <!-- 20231009092531 --> [org.apache.sling.servlets.post](../content/org/apache/sling/org.apache.sling.servlets.post/README.md) | [2.5.0](../content/org/apache/sling/org.apache.sling.servlets.post/org.apache.sling.servlets.post-2.5.0.buildspec) :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-servlets-post/pull/17) | [2.6.0](../content/org/apache/sling/org.apache.sling.servlets.post/org.apache.sling.servlets.post-2.6.0.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.servlets.post/org.apache.sling.servlets.post-2.5.0.buildspec 2.6.0` |
 | <!-- 20231006232934 --> [antisamy](../content/org/owasp/antisamy/README.md) | [1.7.3](../content/org/owasp/antisamy/antisamy-1.7.3.buildspec) :warning: | [1.7.4](../content/org/owasp/antisamy/antisamy-1.7.4.buildspec) | `bin/add-new-release.sh content/org/owasp/antisamy/antisamy-1.7.3.buildspec 1.7.4` |
@@ -85,7 +86,6 @@ New Releases To Add
 | <!-- 20230908222901 --> [commons-compress](../content/org/apache/commons/compress/README.md) | 1.24.0 :warning: |
 | <!-- 20230907100604 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | 5.0.0 :warning: |
 | <!-- 20230906054856 --> [xmlsec](../content/org/apache/santuario/xmlsec/README.md) | 4.0.0-M1 :warning: [:memo:](https://github.com/apache/santuario-xml-security-java/pull/77) |
-| <!-- 20230830214835 --> [jetty-project](../content/org/eclipse/jetty/jetty-project/README.md) | 12.0.1 :warning: |
 | <!-- 20230828190043 --> [tika](../content/org/apache/tika/README.md) | 2.9.0 :warning: |
 | <!-- 20230828161712 --> [jooby](../content/io/jooby/README.md) | 3.0.5 :warning: |
 | <!-- 20230810033447 --> [spdx-maven-plugin](../content/org/spdx/spdx-maven-plugin/README.md) | 0.7.0 :warning: [:memo:](https://github.com/spdx/spdx-maven-plugin/pull/125) |

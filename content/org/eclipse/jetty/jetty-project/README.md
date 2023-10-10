@@ -249,6 +249,7 @@ rebuilding **1 releases** of org.eclipse.jetty:jetty-project:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [12.0.2](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.2/pom) | | | |
 | [12.0.1](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.1/pom) | [mvn jdk21](jetty-project-12.0.1.buildspec) | [result](jetty-project-12.0.1.buildinfo): [547 :heavy_check_mark:  18 :warning:](jetty-project-12.0.1.buildcompare) [:mag:](jetty-project-12.0.1.diffoscope) | 215M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
