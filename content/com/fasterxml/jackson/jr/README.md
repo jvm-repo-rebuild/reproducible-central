@@ -23,6 +23,7 @@ rebuilding **4 releases** of com.fasterxml.jackson.jr:jackson-jr-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.15.3](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.15.3/pom) | | | |
 | [2.15.2](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.15.2/pom) | [mvn jdk8](jackson-jr-2.15.2.buildspec) | [result](jackson-jr-parent-2.15.2.buildinfo): [12 :heavy_check_mark:  8 :warning:](jackson-jr-parent-2.15.2.buildcompare) [:mag:](jackson-jr-parent-2.15.2.diffoscope) | 1.5M |
 | [2.15.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.15.1/pom) | [mvn jdk8](jackson-jr-2.15.1.buildspec) | [result](jackson-jr-parent-2.15.1.buildinfo): [11 :heavy_check_mark:  9 :warning:](jackson-jr-parent-2.15.1.buildcompare) [:mag:](jackson-jr-parent-2.15.1.diffoscope) | 1.5M |
 | [2.15.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.jr/jackson-jr-parent/2.15.0/pom) | | | |
