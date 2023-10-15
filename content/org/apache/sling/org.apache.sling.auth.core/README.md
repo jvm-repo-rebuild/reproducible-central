@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-auth-core.git](https://github.com/apache/sling-org-apache-sling-auth-core.git)
 
-rebuilding **4 releases** of org.apache.sling:org.apache.sling.auth.core:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **5 releases** of org.apache.sling:org.apache.sling.auth.core:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.7.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.auth.core/1.7.0/pom) | | | |
+| [1.7.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.auth.core/1.7.0/pom) | [mvn jdk11](org.apache.sling.auth.core-1.7.0.buildspec) | [result](org.apache.sling.auth.core-1.7.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.auth.core-1.7.0.buildcompare) | 430K |
 | [1.6.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.auth.core/1.6.2/pom) | [mvn jdk11](org.apache.sling.auth.core-1.6.2.buildspec) | [result](org.apache.sling.auth.core-1.6.2.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.auth.core-1.6.2.buildcompare) | 430K |
 | [1.6.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.auth.core/1.6.0/pom) | [mvn jdk11](org.apache.sling.auth.core-1.6.0.buildspec) | [result](org.apache.sling.auth.core-1.6.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.auth.core-1.6.0.buildcompare) | 429K |
 | [1.5.8](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.auth.core/1.5.8/pom) | [mvn jdk11](org.apache.sling.auth.core-1.5.8.buildspec) | [result](org.apache.sling.auth.core-1.5.8.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.auth.core-1.5.8.buildcompare) | 406K |
