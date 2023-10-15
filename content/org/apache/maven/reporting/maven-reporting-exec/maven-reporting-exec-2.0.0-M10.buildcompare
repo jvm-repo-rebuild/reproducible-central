@@ -1,0 +1,9 @@
+version=2.0.0-M10
+ok=6
+ko=0
+ignored=0
+okFiles="maven-reporting-exec-2.0.0-M10.pom maven-reporting-exec-2.0.0-M10.jar maven-reporting-exec-2.0.0-M10-source-release.zip maven-reporting-exec-2.0.0-M10-sources.jar maven-reporting-exec-2.0.0-M10-cyclonedx.xml maven-reporting-exec-2.0.0-M10-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
