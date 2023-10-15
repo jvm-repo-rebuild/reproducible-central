@@ -1,0 +1,61 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=log4j-tools-bom
+group-id=org.apache.logging.log4j
+artifact-id=log4j-tools-bom
+version=0.5.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:apache/logging-log4j-tools.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=log4j-changelog-maven-plugin
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.logging.log4j:log4j-tools-bom
+
+outputs.0.0.groupId=org.apache.logging.log4j
+outputs.0.0.filename=log4j-tools-bom-0.5.0.pom
+outputs.0.0.length=4491
+outputs.0.0.checksums.sha512=83117554f3c01d99c5025ce27c83e0a0629544e7f6afe5c01e0479a21c58274b2f9034bf3c6f0232ad280d293574a945ecb72177d885f0d6b6e175c190e2ae26
+
+outputs.1.coordinates=org.apache.logging.log4j:log4j-tools-parent
+
+outputs.1.0.groupId=org.apache.logging.log4j
+outputs.1.0.filename=log4j-tools-parent-0.5.0.pom
+outputs.1.0.length=3368
+outputs.1.0.checksums.sha512=9526bce8d6692d3f9b337a1f040fde9ec5a1cfc2ff4f9391e52cfbf6af9fa1e3c5bfd62ea6399d57f0ff1308e7a63f23ad713f42a1ee5b9fe938dca8b7386cb1
+
+outputs.2.coordinates=org.apache.logging.log4j:log4j-changelog
+
+outputs.2.0.groupId=org.apache.logging.log4j
+outputs.2.0.filename=log4j-changelog-0.5.0.pom
+outputs.2.0.length=2689
+outputs.2.0.checksums.sha512=cb20ffc580ee1e9b63ac91b1036b322565c0eefc66079a8ccace456a71400012a9536e0628c80639c157bb1a7c83993626e00cd1cafbdf203e4043c5147487f9
+
+outputs.2.1.groupId=org.apache.logging.log4j
+outputs.2.1.filename=log4j-changelog-0.5.0.jar
+outputs.2.1.length=61037
+outputs.2.1.checksums.sha512=8dd5bd0712e1a94f2c6b208a75b2d6cbc77ebbf7847e749fd70b62a1084582d1155ebdd17fd25beb67fe8edf0d1af9724c81a8377bc854540924bad750e0ad3a
+
+outputs.3.coordinates=org.apache.logging.log4j:log4j-changelog-maven-plugin
+
+outputs.3.0.groupId=org.apache.logging.log4j
+outputs.3.0.filename=log4j-changelog-maven-plugin-0.5.0.pom
+outputs.3.0.length=2667
+outputs.3.0.checksums.sha512=fc7a0d69408d1d87cfe06627aac326e3aed0e16185e651529bd49b0b0df6d6758208bf0e2cbe65070d254be25db8ed7ee2fec9c6172c3e605c3aa172907d4664
+
+outputs.3.1.groupId=org.apache.logging.log4j
+outputs.3.1.filename=log4j-changelog-maven-plugin-0.5.0.jar
+outputs.3.1.length=15176
+outputs.3.1.checksums.sha512=9e5f856b5f683a0112690b309efc529028e56f4d3dc8e95b0d849ffef7d55afd75d0c192481362d9d9cfc63bb1606b0040b84866b3c547f0a79bcdde64d7addc

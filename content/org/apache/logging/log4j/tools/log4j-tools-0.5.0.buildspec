@@ -1,0 +1,17 @@
+groupId=org.apache.logging.log4j
+artifactId=log4j-tools-bom
+display=${groupId}:${artifactId}
+version=0.5.0
+
+gitRepo=https://github.com/apache/logging-log4j-tools.git
+gitTag=rel/${version}
+
+tool=mvn-3.9.0
+jdk=17
+newline=lf
+umask=022
+
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Drevision=${version}"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
