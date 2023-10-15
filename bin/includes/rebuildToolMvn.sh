@@ -27,6 +27,11 @@ rebuildToolMvn() {
     # force SHELL execution to get precise JDK release
     [[ "${command}" == SHELL* ]] || command="SHELL ${command}"
   fi
+  if [ -n "${RB_SHELL}" ]
+  then
+    # force SHELL execution to get precise JDK release
+    [[ "${command}" == SHELL* ]] || command="SHELL ${command}"
+  fi
 
   if [[ "${command}" == SHELL* ]]
   then
