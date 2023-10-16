@@ -1,0 +1,10 @@
+version=2.9.62
+ok=1
+ko=1
+ignored=0
+okFiles="flexmonster-2.9.62.pom"
+koFiles="flexmonster-2.9.62.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.webjars/flexmonster-2.9.62.jar target/flexmonster-2.9.62.jar
