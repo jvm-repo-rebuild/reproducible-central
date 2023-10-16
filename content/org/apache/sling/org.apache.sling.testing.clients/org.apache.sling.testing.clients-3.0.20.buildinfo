@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Testing Clients
+group-id=org.apache.sling
+artifact-id=org.apache.sling.testing.clients
+version=3.0.20
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-testing-clients.git
+source.scm.tag=org.apache.sling.testing.clients-3.0.20
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.testing.clients-3.0.20.pom
+outputs.0.length=7484
+outputs.0.checksums.sha512=ae78dd7ea2194b7c12e1af746da7cc2bf0d7ea72670d0c30f75d5577221936be1cf7cdb7aca5d645132543dc509aa492b220513bad10485d0a83e6f5a144fa54
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.testing.clients-3.0.20.jar
+outputs.1.length=143941
+outputs.1.checksums.sha512=87adee0b6a4f5ffd126d0e40127b1412c2e54db0aedb43a2871d3cf77dc4afa192fbbf2e707e3f7c198f23ac41c6e48574b936ae11cf41c455eea4d46d03390a
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.testing.clients-3.0.20-source-release.zip
+outputs.2.length=192954
+outputs.2.checksums.sha512=392741319a941a9d3aeb01d982e943f679f23b9bd45486e54e281b233ef9552564ff68e927b98fe70f981c29c3adc2e807e02c4eea29409a5bd234fd57133747
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.testing.clients-3.0.20-sources.jar
+outputs.3.length=129266
+outputs.3.checksums.sha512=796486cf75fbc84eebafacb12adb836fb0890c1fa47acd4672ad4ea6546bc5a89f3074fd609ea942c6e6825421baf6fb0a1e6023ed6c2b5956cea05ef2e05a1d
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.testing.clients-3.0.20-sources.jar
+outputs.4.length=129266
+outputs.4.checksums.sha512=796486cf75fbc84eebafacb12adb836fb0890c1fa47acd4672ad4ea6546bc5a89f3074fd609ea942c6e6825421baf6fb0a1e6023ed6c2b5956cea05ef2e05a1d
