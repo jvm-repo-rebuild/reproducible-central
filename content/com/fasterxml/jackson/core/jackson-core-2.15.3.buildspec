@@ -1,0 +1,20 @@
+groupId=com.fasterxml.jackson.core
+artifactId=jackson-core
+version=2.15.3
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/FasterXML/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.3
+jdk=8
+newline=lf
+timezone="Etc/GMT+7"
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
