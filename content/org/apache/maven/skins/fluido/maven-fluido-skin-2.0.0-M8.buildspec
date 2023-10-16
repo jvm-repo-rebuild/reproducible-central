@@ -1,0 +1,21 @@
+groupId=org.apache.maven.skins
+artifactId=maven-fluido-skin
+display=${groupId}:${artifactId}
+version=2.0.0-M8
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${artifactId}-${version}
+sourceDistribution=https://archive.apache.org/dist/maven/skins/${artifactId}-${version}-source-release.zip
+sourcePath=${artifactId}-${version}
+sourceRmFiles="DEPENDENCIES"
+
+tool=mvn
+jdk=8
+newline=crlf
+umask=022
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=https://issues.apache.org/jira/browse/MSKINS-235

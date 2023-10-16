@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Fluido Skin
+group-id=org.apache.maven.skins
+artifact-id=maven-fluido-skin
+version=2.0.0-M8
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-fluido-skin.git
+source.scm.tag=maven-fluido-skin-2.0.0-M8
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.maven.skins
+outputs.0.filename=maven-fluido-skin-2.0.0-M8.pom
+outputs.0.length=33198
+outputs.0.checksums.sha512=8ccf2bacc587135902f6db37de259e609245ea31e9b1017b5a7a5393b40b37240533500d322814a12d6bf2a11ca842f54bb8acac406cb2a6d98b5cb8337f7337
+
+outputs.1.groupId=org.apache.maven.skins
+outputs.1.filename=maven-fluido-skin-2.0.0-M8.jar
+outputs.1.length=355509
+outputs.1.checksums.sha512=a602ea36eeb02688fa5bdf02840625be1bd7b35acb5d62b7b3eaeff4e609b7946a3d9b6466061dd97ea6c67b6eae5fe5933061639fc36cf97686d08273e76b78
+
+outputs.2.groupId=org.apache.maven.skins
+outputs.2.filename=maven-fluido-skin-2.0.0-M8-source-release.zip
+outputs.2.length=633980
+outputs.2.checksums.sha512=969456bdc9ed1e92932b68ece76355b5dc157a9b6428088f1caf4d84a72f2f6f3d156f2d864c85a089b286f9c55332515f9af40401033748e7c6777d306a80d9
+
+outputs.3.groupId=org.apache.maven.skins
+outputs.3.filename=maven-fluido-skin-2.0.0-M8-sources.jar
+outputs.3.length=349052
+outputs.3.checksums.sha512=981b1d6cfab380ce191bcd2be1dcc11f8c2169d42feb3edbd3720440d4bd8572b0fa08f89b338bf3b190c5e5b340880ac2c5b618b0c645204c41aeb00a4d33b8
+
+outputs.4.groupId=org.apache.maven.skins
+outputs.4.filename=maven-fluido-skin-2.0.0-M8-cyclonedx.xml
+outputs.4.length=2771
+outputs.4.checksums.sha512=99b170d307e3a2ce4a1ccd9fa1a8aca07149bad03fda03a531b585887e18b9f7cf484772b40220f2ca607bd0188c69255634b0de2efeea5d0899b91bfb87a065
+
+outputs.5.groupId=org.apache.maven.skins
+outputs.5.filename=maven-fluido-skin-2.0.0-M8-cyclonedx.json
+outputs.5.length=3203
+outputs.5.checksums.sha512=05f3dc0cacd9b4d11f2df731074301170f8973079f85b110759a751ca8fb0a8fca8da5b56f259699c63a2b5877aebebb610111732d91a838d90cc33072eac80d
