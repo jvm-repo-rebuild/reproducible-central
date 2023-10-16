@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Languages
+group-id=org.codehaus.plexus
+artifact-id=plexus-languages
+version=1.2.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-languages.git
+source.scm.tag=plexus-languages-1.2.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=plexus-java
+
+# aggregated output
+
+outputs.0.coordinates=org.codehaus.plexus:plexus-languages
+
+outputs.0.0.groupId=org.codehaus.plexus
+outputs.0.0.filename=plexus-languages-1.2.0.pom
+outputs.0.0.length=3193
+outputs.0.0.checksums.sha512=40cc097a610a622ea13613aa0f60df72e0a9a720431736c5d31a206666e6e39ee20053bf8d4d27834983f8f1eaf3638e2568cc3d074ef90e42097f808ceb953c
+
+outputs.0.1.groupId=org.codehaus.plexus
+outputs.0.1.filename=plexus-languages-1.2.0-site.xml
+outputs.0.1.length=1187
+outputs.0.1.checksums.sha512=c393abec8538b28f3ff3aa132ce875a83ce9dda15cbde2e8bbbad6a2d8d8764709341a49839f6621744ea090f6d9e9c6e34b81f4a950fe38491263feb72bf407
+
+outputs.0.2.groupId=org.codehaus.plexus
+outputs.0.2.filename=plexus-languages-1.2.0-source-release.zip
+outputs.0.2.length=500482
+outputs.0.2.checksums.sha512=531d2929d327b43cdb492e9c56188240d65fba421fe0861b418df3df850a4adb32238b2e3143706bf15e017c06beed888b496a1491b512703bc30f25679481d8
+
+outputs.1.coordinates=org.codehaus.plexus:plexus-java
+
+outputs.1.0.groupId=org.codehaus.plexus
+outputs.1.0.filename=plexus-java-1.2.0.pom
+outputs.1.0.length=4273
+outputs.1.0.checksums.sha512=405df672703bdead48fa3cfcb23f952dafbbef3a00aac0572c539831c363cd81ff32aebb4945d15e2398335880c92705b3d791aaea6b668728e96fb3c3a143db
+
+outputs.1.1.groupId=org.codehaus.plexus
+outputs.1.1.filename=plexus-java-1.2.0.jar
+outputs.1.1.length=57542
+outputs.1.1.checksums.sha512=c221a9b754734d0500e0cb0eda7f2cf748c48ffaad3f07d170459f0cdda5575ef44226767ce42ca5a7a642e4b5d74275c26af00122d2ab1371c8f5e5d948cf00
+
+outputs.1.2.groupId=org.codehaus.plexus
+outputs.1.2.filename=plexus-java-1.2.0-sources.jar
+outputs.1.2.length=32488
+outputs.1.2.checksums.sha512=2be5b955ed806db186ab0fb675e4982678e9fea977eaf171dd658b9542a23019761a053b8ba8c066fc01c9c7f1f540d1c86371d0de5bbcb8f0493080bc51b89d
