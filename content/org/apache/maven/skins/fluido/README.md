@@ -7,13 +7,15 @@
 
 Source code: [https://github.com/apache/maven-fluido-skin.git](https://github.com/apache/maven-fluido-skin.git)
 
-rebuilding **11 releases** of org.apache.maven.skins:maven-fluido-skin:
-- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **12 releases** of org.apache.maven.skins:maven-fluido-skin:
+- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.0.0-M8](https://central.sonatype.com/artifact/org.apache.maven.skins/maven-fluido-skin/2.0.0-M8/pom) | | | |
+| [2.0.0-M8](https://central.sonatype.com/artifact/org.apache.maven.skins/maven-fluido-skin/2.0.0-M8/pom) | [mvn jdk8 w](maven-fluido-skin-2.0.0-M8.buildspec) | [result](maven-fluido-skin-2.0.0-M8.buildinfo): [6 :heavy_check_mark: ](maven-fluido-skin-2.0.0-M8.buildcompare) [:mag:](maven-fluido-skin-2.0.0-M8.diffoscope) [:memo:](https://issues.apache.org/jira/browse/MSKINS-235)
+[1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/org/apache/maven/skins/fluido/maven-fluido-skin-2.0.0-M8.buildspec[0m
+ | 1.4M |
 | [2.0.0-M7](https://central.sonatype.com/artifact/org.apache.maven.skins/maven-fluido-skin/2.0.0-M7/pom) | [mvn jdk8 w](maven-fluido-skin-2.0.0-M7.buildspec) | [result](maven-fluido-skin-2.0.0-M7.buildinfo): [3 :heavy_check_mark:  1 :warning:](maven-fluido-skin-2.0.0-M7.buildcompare) [:mag:](maven-fluido-skin-2.0.0-M7.diffoscope) [:memo:](https://issues.apache.org/jira/browse/MSKINS-235) | 1.4M |
 | [2.0.0-M6](https://central.sonatype.com/artifact/org.apache.maven.skins/maven-fluido-skin/2.0.0-M6/pom) | [mvn jdk8 w](maven-fluido-skin-2.0.0-M6.buildspec) | [result](maven-fluido-skin-2.0.0-M6.buildinfo): [3 :heavy_check_mark:  1 :warning:](maven-fluido-skin-2.0.0-M6.buildcompare) [:mag:](maven-fluido-skin-2.0.0-M6.diffoscope) [:memo:](https://issues.apache.org/jira/browse/MSKINS-235) | 1.4M |
 | [2.0.0-M5](https://central.sonatype.com/artifact/org.apache.maven.skins/maven-fluido-skin/2.0.0-M5/pom) | [mvn jdk8 w](maven-fluido-skin-2.0.0-M5.buildspec) | [result](maven-fluido-skin-2.0.0-M5.buildinfo): [3 :heavy_check_mark:  1 :warning:](maven-fluido-skin-2.0.0-M5.buildcompare) [:mag:](maven-fluido-skin-2.0.0-M5.diffoscope) [:memo:](https://issues.apache.org/jira/browse/MSKINS-235) | 1.4M |

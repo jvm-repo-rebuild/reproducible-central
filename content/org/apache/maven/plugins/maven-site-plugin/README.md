@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/maven-site-plugin.git](https://github.com/apache/maven-site-plugin.git)
 
-rebuilding **15 releases** of org.apache.maven.plugins:maven-site-plugin:
-- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **16 releases** of org.apache.maven.plugins:maven-site-plugin:
+- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.0.0-M10](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-site-plugin/4.0.0-M10/pom) | | | |
+| [4.0.0-M10](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-site-plugin/4.0.0-M10/pom) | [mvn jdk8 w](maven-site-plugin-4.0.0-M10.buildspec) | [result](maven-site-plugin-4.0.0-M10.buildinfo): [6 :heavy_check_mark: ](maven-site-plugin-4.0.0-M10.buildcompare) | 1.8M |
 | [4.0.0-M9](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-site-plugin/4.0.0-M9/pom) | [mvn jdk8 w](maven-site-plugin-4.0.0-M9.buildspec) | [result](maven-site-plugin-4.0.0-M9.buildinfo): [4 :heavy_check_mark: ](maven-site-plugin-4.0.0-M9.buildcompare) | 1.3M |
 | [4.0.0-M8](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-site-plugin/4.0.0-M8/pom) | [mvn jdk8 w](maven-site-plugin-4.0.0-M8.buildspec) | [result](maven-site-plugin-4.0.0-M8.buildinfo): [4 :heavy_check_mark: ](maven-site-plugin-4.0.0-M8.buildcompare) | 1.3M |
 | [4.0.0-M7](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-site-plugin/4.0.0-M7/pom) | [mvn jdk8 w](maven-site-plugin-4.0.0-M7.buildspec) | [result](maven-site-plugin-4.0.0-M7.buildinfo): [4 :heavy_check_mark: ](maven-site-plugin-4.0.0-M7.buildcompare) | 1.3M |
