@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling JCR Maintenance
+group-id=org.apache.sling
+artifact-id=org.apache.sling.jcr.maintenance
+version=1.1.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-jcr-maintenance.git
+source.scm.tag=org.apache.sling.jcr.maintenance-1.1.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.jcr.maintenance-1.1.0.pom
+outputs.0.length=7362
+outputs.0.checksums.sha512=d940906276063c88d10fd5655bd5465378ddaee9093996cf80d404da31265ab037f84c5f53c86a364ae6c6ed9d29e1836277cb1bdd83173eb31aaa961f9b9903
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.jcr.maintenance-1.1.0.jar
+outputs.1.length=32903
+outputs.1.checksums.sha512=c7506e93692041ebe0481d7adf634255ed08d12a30e52af9a69eee44c0f82586c93c53c9d919c3621fbf5020a71cb84532b16bd898ad215717e5c3b366b740eb
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.jcr.maintenance-1.1.0-base.slingosgifeature
+outputs.2.length=913
+outputs.2.checksums.sha512=c08e9dd8cd432001b60934fa0383123de825d31c9897d384be2c8dea872934ea3d613a430adf0539e6f200f2fbe79286c5a035a85e25d220ae0d6cb1853d96de
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.jcr.maintenance-1.1.0-configuration.slingosgifeature
+outputs.3.length=787
+outputs.3.checksums.sha512=4952afc05bbcc46a33bc3ce5bd1ea974ae56ff00a32ba021ead9634c4c0340c71689252fa918488d1ccbb47947d8db6833baa5a2926e21f557aad157ebb000d9
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.jcr.maintenance-1.1.0-default.slingosgifeature
+outputs.4.length=3315
+outputs.4.checksums.sha512=ffb801a0fcee36f17a431fa8f14690485824bd38c3517eb3ea5f9493f2f5b4d04d6868149426c26b2df2aad14ee3799b9dcef810a2b637187db3b1e40667d648
+
+outputs.5.groupId=org.apache.sling
+outputs.5.filename=org.apache.sling.jcr.maintenance-1.1.0-source-release.zip
+outputs.5.length=46040
+outputs.5.checksums.sha512=4659e59548dfc3f8ecc0ccc3d834246fd72d56b1d9be317623c8961eb1d43b3b047737f5cfa1bb58e1d659de413a8cdda602f808b216da37c25c9b2092cb6f29
+
+outputs.6.groupId=org.apache.sling
+outputs.6.filename=org.apache.sling.jcr.maintenance-1.1.0-sources.jar
+outputs.6.length=24574
+outputs.6.checksums.sha512=addbf3322e5777eb31f4b5a0a80b083892cfd5cfaef2542abd927bdee3c6e9161ab6328ed33169d7e46f316c636543c3650f83ddc6ec0218a22b6818e7b118b9
