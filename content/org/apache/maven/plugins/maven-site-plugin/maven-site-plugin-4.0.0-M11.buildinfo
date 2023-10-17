@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Site Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-site-plugin
+version=4.0.0-M11
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-site-plugin.git
+source.scm.tag=maven-site-plugin-4.0.0-M11
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-site-plugin-4.0.0-M11.pom
+outputs.0.length=21958
+outputs.0.checksums.sha512=b14336bf072eca46f2b411ec153e7734a5b738b72c600cc88b9ef7f77ca374a947d914b4f16b685a430ca00f37a44bd0f6b1e92ce674c0a53959276850994d52
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-site-plugin-4.0.0-M11.jar
+outputs.1.length=117563
+outputs.1.checksums.sha512=c99900fcba06ce021de39351357dd04c6395ba5d0a76502aa679134a6f4db27366dcfd88410525680a26f91a5954fc382bbcd06fdfa0c6340bd3fb74cb023d69
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-site-plugin-4.0.0-M11-source-release.zip
+outputs.2.length=1099239
+outputs.2.checksums.sha512=fc628fca1fd2c3629a89da9c44b64994e1b5478a7b8f5d465328cdde8064e3f1212768a4053e563160cf08cece96cf8af5a8cd936d9c1b5eafb90bcc922d933f
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-site-plugin-4.0.0-M11-sources.jar
+outputs.3.length=87919
+outputs.3.checksums.sha512=cf5aad81c07922c1601a167dacefc1f51151eb89ba40fdff1751fead58d5b23cffb65454d8dabecfb001ff3353b8b332324ccf9d692076311c70e8ad01aec942
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-site-plugin-4.0.0-M11-cyclonedx.xml
+outputs.4.length=213995
+outputs.4.checksums.sha512=6bdff21be4958c75f4f01eb06e3c2af8cbd194485978b7181c26c84a697721e930091b8b2648ec2f078a259953bdc991f59366251a88dc2dcfe0b3c53fb36d49
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-site-plugin-4.0.0-M11-cyclonedx.json
+outputs.5.length=244582
+outputs.5.checksums.sha512=283d4c8c59ddd2f2c93efa657a585912fa5de39af2d49bfbd3b60b23ec9efe18b42406df2f3228f3685f67613d7bb653cf3f2c4c0cf08cb7348c21adc992c8ee
