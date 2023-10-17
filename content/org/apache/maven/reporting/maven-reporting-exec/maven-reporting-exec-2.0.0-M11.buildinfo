@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Reporting Executor
+group-id=org.apache.maven.reporting
+artifact-id=maven-reporting-exec
+version=2.0.0-M11
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-reporting-exec.git
+source.scm.tag=maven-reporting-exec-2.0.0-M11
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.maven.reporting
+outputs.0.filename=maven-reporting-exec-2.0.0-M11.pom
+outputs.0.length=9323
+outputs.0.checksums.sha512=4d37aaf59197cd2bcec610d393c98c2e04d14e042a1540409e287a446b810faeb9bc4231606150452409c47db1e1f0d685c347be1daab97a26bce48ce2fd1afa
+
+outputs.1.groupId=org.apache.maven.reporting
+outputs.1.filename=maven-reporting-exec-2.0.0-M11.jar
+outputs.1.length=28387
+outputs.1.checksums.sha512=18415465dae1a51c0c9fb52388b6dd6f5e4a578274bea36def61cb1e4825e76e9eb3396282556ef44dca44216c9c5c88763d9e054b37b4d6300e10d3cea6d88b
+
+outputs.2.groupId=org.apache.maven.reporting
+outputs.2.filename=maven-reporting-exec-2.0.0-M11-source-release.zip
+outputs.2.length=57772
+outputs.2.checksums.sha512=824ae603848338a3b2addfd4bcdee0dbcfded1b133daf91f8b7189e7cc06b9e3ad59a916f61ee6fb02945d16075fc39edd647551b1489e5c5b22b286fea79746
+
+outputs.3.groupId=org.apache.maven.reporting
+outputs.3.filename=maven-reporting-exec-2.0.0-M11-sources.jar
+outputs.3.length=25996
+outputs.3.checksums.sha512=fe04486d2573b19164364565bb124195243858929bf60f3c7e25f5b55358bd22ac60620bf41a222a041b223208608365eb855c88f095dc9cbb6578d7177b2411
+
+outputs.4.groupId=org.apache.maven.reporting
+outputs.4.filename=maven-reporting-exec-2.0.0-M11-cyclonedx.xml
+outputs.4.length=65419
+outputs.4.checksums.sha512=9a0060377c23dc38633ca6025502e14e61b5184268de8e49cac4457c28635f9a612abe1988fe77802c5486d406432d11e0beebab1251d3d5ee90cb4a352ac8c0
+
+outputs.5.groupId=org.apache.maven.reporting
+outputs.5.filename=maven-reporting-exec-2.0.0-M11-cyclonedx.json
+outputs.5.length=75518
+outputs.5.checksums.sha512=2e45aeb73ddfc4a039be0c5e40b6a02fc5603ec467f3a5a3722ec980d49ab88fce0c43d8b9fa762d1b64a4dbdfceb4a56402812ecd68945dfffe7d19132ab798
