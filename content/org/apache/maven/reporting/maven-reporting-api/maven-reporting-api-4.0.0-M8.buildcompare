@@ -1,0 +1,9 @@
+version=4.0.0-M8
+ok=6
+ko=0
+ignored=0
+okFiles="maven-reporting-api-4.0.0-M8.pom maven-reporting-api-4.0.0-M8.jar maven-reporting-api-4.0.0-M8-source-release.zip maven-reporting-api-4.0.0-M8-sources.jar maven-reporting-api-4.0.0-M8-cyclonedx.xml maven-reporting-api-4.0.0-M8-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
