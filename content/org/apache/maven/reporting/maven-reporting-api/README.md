@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/maven-reporting-api.git](https://github.com/apache/maven-reporting-api.git)
 
-rebuilding **9 releases** of org.apache.maven.reporting:maven-reporting-api:
-- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **10 releases** of org.apache.maven.reporting:maven-reporting-api:
+- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.0.0-M8](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-api/4.0.0-M8/pom) | | | |
+| [4.0.0-M8](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-api/4.0.0-M8/pom) | [mvn jdk8 w](maven-reporting-api-4.0.0-M8.buildspec) | [result](maven-reporting-api-4.0.0-M8.buildinfo): [6 :heavy_check_mark: ](maven-reporting-api-4.0.0-M8.buildcompare) | 54K |
 | [4.0.0-M7](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-api/4.0.0-M7/pom) | [mvn jdk8 w](maven-reporting-api-4.0.0-M7.buildspec) | [result](maven-reporting-api-4.0.0-M7.buildinfo): [4 :heavy_check_mark: ](maven-reporting-api-4.0.0-M7.buildcompare) | 47K |
 | [4.0.0-M6](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-api/4.0.0-M6/pom) | [mvn jdk8 w](maven-reporting-api-4.0.0-M6.buildspec) | [result](maven-reporting-api-4.0.0-M6.buildinfo): [4 :heavy_check_mark: ](maven-reporting-api-4.0.0-M6.buildcompare) | 47K |
 | [4.0.0-M5](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-api/4.0.0-M5/pom) | [mvn jdk8 w](maven-reporting-api-4.0.0-M5.buildspec) | [result](maven-reporting-api-4.0.0-M5.buildinfo): [4 :heavy_check_mark: ](maven-reporting-api-4.0.0-M5.buildcompare) | 49K |
