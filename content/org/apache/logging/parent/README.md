@@ -13,6 +13,7 @@ rebuilding **8 releases** of org.apache.logging:logging-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [10.2.0](https://central.sonatype.com/artifact/org.apache.logging/logging-parent/10.2.0/pom) | | | |
 | [10.1.1](https://central.sonatype.com/artifact/org.apache.logging/logging-parent/10.1.1/pom) | [mvn jdk17](logging-parent-10.1.1.buildspec) | [result](logging-parent-10.1.1.buildinfo): [1 :heavy_check_mark: ](logging-parent-10.1.1.buildcompare) | 39K |
 | [10.1.0](https://central.sonatype.com/artifact/org.apache.logging/logging-parent/10.1.0/pom) | [mvn jdk17](logging-parent-10.1.0.buildspec) | [result](logging-parent-10.1.0.buildinfo): [1 :heavy_check_mark: ](logging-parent-10.1.0.buildcompare) | 38K |
 | [10.0.0](https://central.sonatype.com/artifact/org.apache.logging/logging-parent/10.0.0/pom) | [mvn jdk17](logging-parent-10.0.0.buildspec) | [result](logging-parent-10.0.0.buildinfo): [1 :heavy_check_mark: ](logging-parent-10.0.0.buildcompare) | 29K |

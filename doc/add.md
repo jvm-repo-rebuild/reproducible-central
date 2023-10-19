@@ -4,6 +4,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20231019140859 --> [logging-parent](../content/org/apache/logging/parent/README.md) | [10.1.1](../content/org/apache/logging/parent/logging-parent-10.1.1.buildspec) :heavy_check_mark: | [10.2.0](../content/org/apache/logging/parent/logging-parent-10.2.0.buildspec) | `bin/add-new-release.sh content/org/apache/logging/parent/logging-parent-10.1.1.buildspec 10.2.0` |
+| <!-- 20231019135016 --> [jmeter-java-dsl-parent](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | [1.22](../content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-1.22.buildspec) :heavy_check_mark: | [1.23](../content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-1.23.buildspec) | `bin/add-new-release.sh content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-1.22.buildspec 1.23` |
 | <!-- 20231018020000 --> [dubbo](../content/org/apache/dubbo/README.md) | [3.2.7](../content/org/apache/dubbo/dubbo-3.2.7.buildspec) :heavy_check_mark: | [3.3.0-beta.1](../content/org/apache/dubbo/dubbo-3.3.0-beta.1.buildspec) | `bin/add-new-release.sh content/org/apache/dubbo/dubbo-3.2.7.buildspec 3.3.0-beta.1` |
 | <!-- 20231015013155 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.1](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec) :heavy_check_mark: | [10.4.3-beta-2](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.3-beta-2.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec 10.4.3-beta-2` |
 | <!-- 20231012084342 --> [jansi](../content/org/fusesource/jansi/jansi/README.md) | [2.4.0](../content/org/fusesource/jansi/jansi/jansi-2.4.0.buildspec) :heavy_check_mark: | [2.4.1](../content/org/fusesource/jansi/jansi/jansi-2.4.1.buildspec) | `bin/add-new-release.sh content/org/fusesource/jansi/jansi/jansi-2.4.0.buildspec 2.4.1` |
@@ -14,6 +16,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20231019043144 --> [xmlsec](../content/org/apache/santuario/xmlsec/README.md) | [4.0.0-M1](../content/org/apache/santuario/xmlsec/xmlsec-4.0.0-M1.buildspec) :warning: [:memo:](https://github.com/apache/santuario-xml-security-java/pull/77) | [4.0.0](../content/org/apache/santuario/xmlsec/xmlsec-4.0.0.buildspec) | `bin/add-new-release.sh content/org/apache/santuario/xmlsec/xmlsec-4.0.0-M1.buildspec 4.0.0` |
 | <!-- 20231018193021 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.32.1](../content/org/finos/legend/engine/legend-engine-4.32.1.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.32.1` |
 | <!-- 20231016225636 --> [jooby](../content/io/jooby/README.md) | [3.0.5](../content/io/jooby/jooby-3.0.5.buildspec) :warning: | [3.0.6](../content/io/jooby/jooby-3.0.6.buildspec) | `bin/add-new-release.sh content/io/jooby/jooby-3.0.5.buildspec 3.0.6` |
 | <!-- 20231016191122 --> [log4j-bom](../content/org/apache/logging/log4j/log4j-bom/README.md) | [2.21.0](../content/org/apache/logging/log4j/log4j-bom/log4j-bom-2.21.0.buildspec) :warning: | [3.0.0-alpha1](../content/org/apache/logging/log4j/log4j-bom/log4j-bom-3.0.0-alpha1.buildspec) | `bin/add-new-release.sh content/org/apache/logging/log4j/log4j-bom/log4j-bom-2.21.0.buildspec 3.0.0-alpha1` |
@@ -84,7 +87,6 @@ New Releases To Add
 | <!-- 20230913004921 --> [java-uuid-generator](../content/com/fasterxml/uuid/README.md) | 4.3.0 :warning: [:memo:](https://github.com/moditect/moditect/issues/199) |
 | <!-- 20230908222901 --> [commons-compress](../content/org/apache/commons/compress/README.md) | 1.24.0 :warning: |
 | <!-- 20230907100604 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | 5.0.0 :warning: |
-| <!-- 20230906054856 --> [xmlsec](../content/org/apache/santuario/xmlsec/README.md) | 4.0.0-M1 :warning: [:memo:](https://github.com/apache/santuario-xml-security-java/pull/77) |
 | <!-- 20230828190043 --> [tika](../content/org/apache/tika/README.md) | 2.9.0 :warning: |
 | <!-- 20230810033447 --> [spdx-maven-plugin](../content/org/spdx/spdx-maven-plugin/README.md) | 0.7.0 :warning: [:memo:](https://github.com/spdx/spdx-maven-plugin/pull/125) |
 | <!-- 20230802183114 --> [semanticcms-tag-reference](../content/com/semanticcms/semanticcms-tag-reference/README.md) | 1.10.1 :warning: |
