@@ -20,6 +20,7 @@ rebuilding **1 releases** of com.io7m.jvindicator:com.io7m.jvindicator:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.0.2](https://central.sonatype.com/artifact/com.io7m.jvindicator/com.io7m.jvindicator/0.0.2/pom) | | | |
 | [0.0.1](https://central.sonatype.com/artifact/com.io7m.jvindicator/com.io7m.jvindicator/0.0.1/pom) | [mvn jdk17.0.4.1](com.io7m.jvindicator-0.0.1.buildspec) | [result](com.io7m.jvindicator-0.0.1.buildinfo): [10 :heavy_check_mark: ](com.io7m.jvindicator-0.0.1.buildcompare) | 48K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
