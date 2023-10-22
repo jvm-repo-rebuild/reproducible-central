@@ -1,0 +1,88 @@
+# PR https://github.com/apache/jackrabbit/pull/138: upgrade Felix maven-bundle-plugin from 5.1.8 to 5.1.9
+1 / 8 target/reference/org.apache.jackrabbit/jackrabbit-jcr-commons-2.21.20.jar jackrabbit-jcr-commons/target/jackrabbit-jcr-commons-2.21.20.jar
+--- target/reference/org.apache.jackrabbit/jackrabbit-jcr-commons-2.21.20.jar
++++ jackrabbit-jcr-commons/target/jackrabbit-jcr-commons-2.21.20.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 404453 bytes, number of entries: 311
+│ +Zip file size: 404438 bytes, number of entries: 311
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     5068 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat      541 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat      258 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.jackrabbit/
+│ @@ -306,8 +306,8 @@
+│  -rw----     2.0 fat     1107 bl defN 80-Feb-01 00:00 org/apache/jackrabbit/value/StringValue.class
+│  -rw----     2.0 fat     2525 bl defN 80-Feb-01 00:00 org/apache/jackrabbit/value/URIValue.class
+│  -rw----     2.0 fat      883 bl defN 80-Feb-01 00:00 org/apache/jackrabbit/value/ValueFactoryImpl.class
+│  -rw----     2.0 fat      907 bl defN 80-Feb-01 00:00 org/apache/jackrabbit/value/ValueHelper$1.class
+│  -rw----     2.0 fat    14068 bl defN 80-Feb-01 00:00 org/apache/jackrabbit/value/ValueHelper.class
+│  -rw----     2.0 fat     3029 bl defN 80-Feb-01 00:00 org/apache/jackrabbit/value/WeakReferenceValue.class
+│  -rw----     2.0 fat      239 bl defN 80-Feb-01 00:00 org/apache/jackrabbit/value/package-info.class
+│ -311 files, 768222 bytes uncompressed, 340425 bytes compressed:  55.7%
+│ +311 files, 768222 bytes uncompressed, 340410 bytes compressed:  55.7%
+├── META-INF/MANIFEST.MF
+│ @@ -6,53 +6,53 @@
+│  Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+
+│  Bundle-ManifestVersion: 2
+
+│  Bundle-Name: Jackrabbit JCR Commons
+
+│  Bundle-SymbolicName: org.apache.jackrabbit.jackrabbit-jcr-commons
+
+│  Bundle-Vendor: The Apache Software Foundation
+
+│  Bundle-Version: 2.21.20
+
+│  Created-By: Apache Maven Bundle Plugin 5.1.8
+
+│ -Export-Package: org.apache.jackrabbit;version="2.2",org.apache.jackrab
+
+│ - bit.stats;version="2.7.5";uses:="javax.management.openmbean,org.apach
+
+...
+│ - sion,org.apache.jackrabbit.commons.predicate"
+
+│ +Export-Package: org.apache.jackrabbit.commons;version="2.4.0";uses:="j
+
+│ + avax.jcr,javax.jcr.nodetype,javax.jcr.observation,javax.jcr.query,jav
+
+...
+
+│ + abbit.value;version="2.2.1";uses:="javax.jcr"
+
+│  Import-Package: org.apache.jackrabbit.api.security.user;version="[2.2,
+
+│   3)";resolution:=optional,javax.jcr;version="[2.0,3)",javax.jcr.lock;v
+
+│   ersion="[2.0,3)",javax.jcr.nodetype;version="[2.0,3)",javax.jcr.obser
+
+│   vation;version="[2.0,3)",javax.jcr.query;version="[2.0,3)",javax.jcr.
+
+│   query.qom;version="[2.0,3)",javax.jcr.security;version="[2.0,3)",java
+
+│   x.jcr.util;version="[2.0,3)",javax.jcr.version;version="[2.0,3)",java
+
+│   x.management.openmbean,javax.naming,javax.xml.namespace,javax.xml.par
+
+# PR https://github.com/apache/jackrabbit/pull/139
+7 / 8 target/reference/org.apache.jackrabbit/jackrabbit-webapp-2.21.20.jar jackrabbit-webapp/target/jackrabbit-webapp-2.21.20.jar
+--- target/reference/org.apache.jackrabbit/jackrabbit-webapp-2.21.20.jar
++++ jackrabbit-webapp/target/jackrabbit-webapp-2.21.20.jar
+├── zipinfo {}
+│ @@ -1,31 +1,31 @@
+│  Zip file size: 38337 bytes, number of entries: 29
+│ -drwxr-xr-x  2.0 unx        0 bx stor 23-Oct-05 18:57 META-INF/
+│ --rw-r--r--  2.0 unx      118 b- defN 23-Oct-05 18:57 META-INF/MANIFEST.MF
+...
+│ --rw-r--r--  2.0 unx      784 b- defN 23-Oct-05 18:56 org/apache/jackrabbit/j2ee/ServletExceptionWithCause.class
+│ --rw-r--r--  2.0 unx      894 b- defN 23-Oct-05 18:56 org/apache/jackrabbit/j2ee/SimpleWebdavServlet.class
+│ +drwxr-xr-x  2.0 unx        0 bx stor 23-Oct-22 08:00 META-INF/
+│ +-rw-r--r--  2.0 unx      118 b- defN 23-Oct-22 08:00 META-INF/MANIFEST.MF
+...
+│ +-rw-r--r--  2.0 unx      784 b- defN 23-Oct-22 08:00 org/apache/jackrabbit/j2ee/ServletExceptionWithCause.class
+│ +-rw-r--r--  2.0 unx      894 b- defN 23-Oct-22 08:00 org/apache/jackrabbit/j2ee/SimpleWebdavServlet.class
+│  29 files, 88685 bytes uncompressed, 33601 bytes compressed:  62.1%
