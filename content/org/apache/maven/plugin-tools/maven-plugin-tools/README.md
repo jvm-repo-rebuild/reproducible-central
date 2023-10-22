@@ -9,29 +9,29 @@ Source code: [https://github.com/apache/maven-plugin-tools.git](https://github.c
 
 <details><summary>This project defines 14 modules:</summary>
 
-* [org.apache.maven.plugin-tools:maven-plugin-annotations](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-annotations/3.9.0)
-* [org.apache.maven.plugin-tools:maven-plugin-tools](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.9.0)
-* [org.apache.maven.plugin-tools:maven-plugin-tools-annotations](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-annotations/3.9.0)
-* [org.apache.maven.plugin-tools:maven-plugin-tools-ant](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-ant/3.9.0)
-* [org.apache.maven.plugin-tools:maven-plugin-tools-api](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-api/3.9.0)
-* [org.apache.maven.plugin-tools:maven-plugin-tools-beanshell](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-beanshell/3.9.0)
-* [org.apache.maven.plugin-tools:maven-plugin-tools-generators](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-generators/3.9.0)
-* [org.apache.maven.plugin-tools:maven-plugin-tools-java](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-java/3.9.0)
-* [org.apache.maven.plugin-tools:maven-plugin-tools-model](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-model/3.9.0)
-* [org.apache.maven.plugin-tools:maven-script](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-script/3.9.0)
-* [org.apache.maven.plugin-tools:maven-script-ant](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-script-ant/3.9.0)
-* [org.apache.maven.plugin-tools:maven-script-beanshell](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-script-beanshell/3.9.0)
-* [org.apache.maven.plugins:maven-plugin-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-plugin-plugin/3.9.0)
-* [org.apache.maven.plugins:maven-plugin-report-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-plugin-report-plugin/3.9.0)
+* [org.apache.maven.plugin-tools:maven-plugin-annotations](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-annotations/3.10.1)
+* [org.apache.maven.plugin-tools:maven-plugin-tools](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.10.1)
+* [org.apache.maven.plugin-tools:maven-plugin-tools-annotations](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-annotations/3.10.1)
+* [org.apache.maven.plugin-tools:maven-plugin-tools-ant](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-ant/3.10.1)
+* [org.apache.maven.plugin-tools:maven-plugin-tools-api](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-api/3.10.1)
+* [org.apache.maven.plugin-tools:maven-plugin-tools-beanshell](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-beanshell/3.10.1)
+* [org.apache.maven.plugin-tools:maven-plugin-tools-generators](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-generators/3.10.1)
+* [org.apache.maven.plugin-tools:maven-plugin-tools-java](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-java/3.10.1)
+* [org.apache.maven.plugin-tools:maven-plugin-tools-model](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools-model/3.10.1)
+* [org.apache.maven.plugin-tools:maven-script](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-script/3.10.1)
+* [org.apache.maven.plugin-tools:maven-script-ant](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-script-ant/3.10.1)
+* [org.apache.maven.plugin-tools:maven-script-beanshell](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-script-beanshell/3.10.1)
+* [org.apache.maven.plugins:maven-plugin-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-plugin-plugin/3.10.1)
+* [org.apache.maven.plugins:maven-plugin-report-plugin](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-plugin-report-plugin/3.10.1)
 </details>
 
-rebuilding **8 releases** of org.apache.maven.plugin-tools:maven-plugin-tools:
-- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **9 releases** of org.apache.maven.plugin-tools:maven-plugin-tools:
+- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.10.1](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.10.1/pom) | | | |
+| [3.10.1](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.10.1/pom) | [mvn jdk8 w](maven-plugin-tools-3.10.1.buildspec) | [result](maven-plugin-tools-3.10.1.buildinfo): [43 :heavy_check_mark: ](maven-plugin-tools-3.10.1.buildcompare) | 2.8M |
 | [3.9.0](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.9.0/pom) | [mvn jdk8 w](maven-plugin-tools-3.9.0.buildspec) | [result](maven-plugin-tools-3.9.0.buildinfo): [43 :heavy_check_mark: ](maven-plugin-tools-3.9.0.buildcompare) | 2.7M |
 | [3.8.2](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.8.2/pom) | [mvn jdk17](maven-plugin-tools-3.8.2.buildspec) | [result](maven-plugin-tools-3.8.2.buildinfo): [43 :heavy_check_mark: ](maven-plugin-tools-3.8.2.buildcompare) | 2.8M |
 | [3.8.1](https://central.sonatype.com/artifact/org.apache.maven.plugin-tools/maven-plugin-tools/3.8.1/pom) | [mvn jdk17](maven-plugin-tools-3.8.1.buildspec) | [result](maven-plugin-tools-3.8.1.buildinfo): [43 :heavy_check_mark: ](maven-plugin-tools-3.8.1.buildcompare) | 2.8M |

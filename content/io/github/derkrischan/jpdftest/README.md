@@ -13,6 +13,7 @@ rebuilding **3 releases** of io.github.derkrischan:jpdftest:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.11.0](https://central.sonatype.com/artifact/io.github.derkrischan/jpdftest/0.11.0/pom) | | | |
 | [0.10.0](https://central.sonatype.com/artifact/io.github.derkrischan/jpdftest/0.10.0/pom) | [mvn jdk7](jpdftest-0.10.0.buildspec) | [result](jpdftest-0.10.0.buildinfo): [3 :heavy_check_mark: ](jpdftest-0.10.0.buildcompare) | 81K |
 | [0.9.0](https://central.sonatype.com/artifact/io.github.derkrischan/jpdftest/0.9.0/pom) | [mvn jdk7](jpdftest-0.9.0.buildspec) | [result](jpdftest-0.9.0.buildinfo): [3 :heavy_check_mark: ](jpdftest-0.9.0.buildcompare) | 81K |
 | [0.8.0](https://central.sonatype.com/artifact/io.github.derkrischan/jpdftest/0.8.0/pom) | [mvn jdk7](jpdftest-0.8.0.buildspec) | [result](jpdftest-0.8.0.buildinfo): [3 :heavy_check_mark: ](jpdftest-0.8.0.buildcompare) | 75K |

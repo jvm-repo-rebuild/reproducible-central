@@ -9,49 +9,49 @@ Source code: [https://github.com/dropwizard/dropwizard.git](https://github.com/d
 
 <details><summary>This project defines 34 modules:</summary>
 
-* [io.dropwizard.archetypes:dropwizard-archetypes](https://central.sonatype.com/artifact/io.dropwizard.archetypes/dropwizard-archetypes/4.0.2)
-* [io.dropwizard.archetypes:java-simple](https://central.sonatype.com/artifact/io.dropwizard.archetypes/java-simple/4.0.2)
-* [io.dropwizard:dropwizard-assets](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-assets/4.0.2)
-* [io.dropwizard:dropwizard-auth](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-auth/4.0.2)
-* [io.dropwizard:dropwizard-bom](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-bom/4.0.2)
-* [io.dropwizard:dropwizard-client](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-client/4.0.2)
-* [io.dropwizard:dropwizard-configuration](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-configuration/4.0.2)
-* [io.dropwizard:dropwizard-core](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-core/4.0.2)
-* [io.dropwizard:dropwizard-db](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-db/4.0.2)
-* [io.dropwizard:dropwizard-dependencies](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-dependencies/4.0.2)
-* [io.dropwizard:dropwizard-forms](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-forms/4.0.2)
-* [io.dropwizard:dropwizard-health](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-health/4.0.2)
-* [io.dropwizard:dropwizard-hibernate](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-hibernate/4.0.2)
-* [io.dropwizard:dropwizard-http2](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-http2/4.0.2)
-* [io.dropwizard:dropwizard-jackson](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-jackson/4.0.2)
-* [io.dropwizard:dropwizard-jdbi3](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-jdbi3/4.0.2)
-* [io.dropwizard:dropwizard-jersey](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-jersey/4.0.2)
-* [io.dropwizard:dropwizard-jetty](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-jetty/4.0.2)
-* [io.dropwizard:dropwizard-json-logging](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-json-logging/4.0.2)
-* [io.dropwizard:dropwizard-lifecycle](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-lifecycle/4.0.2)
-* [io.dropwizard:dropwizard-logging](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-logging/4.0.2)
-* [io.dropwizard:dropwizard-metrics](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-metrics/4.0.2)
-* [io.dropwizard:dropwizard-metrics-graphite](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-metrics-graphite/4.0.2)
-* [io.dropwizard:dropwizard-migrations](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-migrations/4.0.2)
-* [io.dropwizard:dropwizard-parent](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-parent/4.0.2)
-* [io.dropwizard:dropwizard-project](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/4.0.2)
-* [io.dropwizard:dropwizard-request-logging](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-request-logging/4.0.2)
-* [io.dropwizard:dropwizard-servlets](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-servlets/4.0.2)
-* [io.dropwizard:dropwizard-testing](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-testing/4.0.2)
-* [io.dropwizard:dropwizard-util](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-util/4.0.2)
-* [io.dropwizard:dropwizard-validation](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-validation/4.0.2)
-* [io.dropwizard:dropwizard-views](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-views/4.0.2)
-* [io.dropwizard:dropwizard-views-freemarker](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-views-freemarker/4.0.2)
-* [io.dropwizard:dropwizard-views-mustache](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-views-mustache/4.0.2)
+* [io.dropwizard.archetypes:dropwizard-archetypes](https://central.sonatype.com/artifact/io.dropwizard.archetypes/dropwizard-archetypes/4.0.3)
+* [io.dropwizard.archetypes:java-simple](https://central.sonatype.com/artifact/io.dropwizard.archetypes/java-simple/4.0.3)
+* [io.dropwizard:dropwizard-assets](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-assets/4.0.3)
+* [io.dropwizard:dropwizard-auth](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-auth/4.0.3)
+* [io.dropwizard:dropwizard-bom](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-bom/4.0.3)
+* [io.dropwizard:dropwizard-client](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-client/4.0.3)
+* [io.dropwizard:dropwizard-configuration](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-configuration/4.0.3)
+* [io.dropwizard:dropwizard-core](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-core/4.0.3)
+* [io.dropwizard:dropwizard-db](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-db/4.0.3)
+* [io.dropwizard:dropwizard-dependencies](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-dependencies/4.0.3)
+* [io.dropwizard:dropwizard-forms](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-forms/4.0.3)
+* [io.dropwizard:dropwizard-health](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-health/4.0.3)
+* [io.dropwizard:dropwizard-hibernate](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-hibernate/4.0.3)
+* [io.dropwizard:dropwizard-http2](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-http2/4.0.3)
+* [io.dropwizard:dropwizard-jackson](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-jackson/4.0.3)
+* [io.dropwizard:dropwizard-jdbi3](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-jdbi3/4.0.3)
+* [io.dropwizard:dropwizard-jersey](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-jersey/4.0.3)
+* [io.dropwizard:dropwizard-jetty](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-jetty/4.0.3)
+* [io.dropwizard:dropwizard-json-logging](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-json-logging/4.0.3)
+* [io.dropwizard:dropwizard-lifecycle](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-lifecycle/4.0.3)
+* [io.dropwizard:dropwizard-logging](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-logging/4.0.3)
+* [io.dropwizard:dropwizard-metrics](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-metrics/4.0.3)
+* [io.dropwizard:dropwizard-metrics-graphite](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-metrics-graphite/4.0.3)
+* [io.dropwizard:dropwizard-migrations](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-migrations/4.0.3)
+* [io.dropwizard:dropwizard-parent](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-parent/4.0.3)
+* [io.dropwizard:dropwizard-project](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/4.0.3)
+* [io.dropwizard:dropwizard-request-logging](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-request-logging/4.0.3)
+* [io.dropwizard:dropwizard-servlets](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-servlets/4.0.3)
+* [io.dropwizard:dropwizard-testing](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-testing/4.0.3)
+* [io.dropwizard:dropwizard-util](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-util/4.0.3)
+* [io.dropwizard:dropwizard-validation](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-validation/4.0.3)
+* [io.dropwizard:dropwizard-views](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-views/4.0.3)
+* [io.dropwizard:dropwizard-views-freemarker](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-views-freemarker/4.0.3)
+* [io.dropwizard:dropwizard-views-mustache](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-views-mustache/4.0.3)
 </details>
 
-rebuilding **57 releases** of io.dropwizard:dropwizard-project:
-- **54** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **58 releases** of io.dropwizard:dropwizard-project:
+- **55** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.0.3](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/4.0.3/pom) | | | |
+| [4.0.3](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/4.0.3/pom) | [mvn jdk11](dropwizard-4.0.3.buildspec) | [result](dropwizard-project-4.0.3.buildinfo): [88 :heavy_check_mark: ](dropwizard-project-4.0.3.buildcompare) | 1.5M |
 | [4.0.2](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/4.0.2/pom) | [mvn jdk11](dropwizard-4.0.2.buildspec) | [result](dropwizard-project-4.0.2.buildinfo): [91 :heavy_check_mark: ](dropwizard-project-4.0.2.buildcompare) | 1.5M |
 | [4.0.1](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/4.0.1/pom) | [mvn jdk11](dropwizard-4.0.1.buildspec) | [result](dropwizard-project-4.0.1.buildinfo): [91 :heavy_check_mark: ](dropwizard-project-4.0.1.buildcompare) | 1.5M |
 | [4.0.0](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/4.0.0/pom) | [mvn jdk11](dropwizard-4.0.0.buildspec) | [result](dropwizard-project-4.0.0.buildinfo): [91 :heavy_check_mark: ](dropwizard-project-4.0.0.buildcompare) | 1.5M |
