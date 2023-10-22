@@ -1,0 +1,7 @@
+version=0.0.2
+ok=13
+ko=0
+ignored=0
+okFiles="com.io7m.jvindicator-0.0.2.pom com.io7m.jvindicator-0.0.2-cyclonedx.xml com.io7m.jvindicator.core-0.0.2.pom com.io7m.jvindicator.core-0.0.2.jar com.io7m.jvindicator.core-0.0.2-sources.jar com.io7m.jvindicator.core-0.0.2-cyclonedx.xml com.io7m.jvindicator.core-0.0.2-tests.jar com.io7m.jvindicator.tests-0.0.2.pom com.io7m.jvindicator.tests-0.0.2.jar com.io7m.jvindicator.tests-0.0.2-sources.jar com.io7m.jvindicator.tests-0.0.2-test-sources.jar com.io7m.jvindicator.tests-0.0.2-cyclonedx.xml com.io7m.jvindicator.tests-0.0.2-tests.jar"
+koFiles=""
+ignoredFiles=""
