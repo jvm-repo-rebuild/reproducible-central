@@ -1,0 +1,9 @@
+version=3.10.1
+ok=43
+ko=0
+ignored=0
+okFiles="maven-plugin-tools-3.10.1.pom maven-plugin-tools-3.10.1-site.xml maven-plugin-tools-3.10.1-source-release.zip maven-plugin-tools-api-3.10.1.pom maven-plugin-tools-api-3.10.1.jar maven-plugin-tools-api-3.10.1-sources.jar maven-plugin-tools-generators-3.10.1.pom maven-plugin-tools-generators-3.10.1.jar maven-plugin-tools-generators-3.10.1-sources.jar maven-plugin-tools-java-3.10.1.pom maven-plugin-tools-java-3.10.1.jar maven-plugin-tools-java-3.10.1-sources.jar maven-plugin-annotations-3.10.1.pom maven-plugin-annotations-3.10.1.jar maven-plugin-annotations-3.10.1-sources.jar maven-plugin-tools-annotations-3.10.1.pom maven-plugin-tools-annotations-3.10.1.jar maven-plugin-tools-annotations-3.10.1-tests.jar maven-plugin-tools-annotations-3.10.1-sources.jar maven-plugin-tools-annotations-3.10.1-test-sources.jar maven-script-3.10.1.pom maven-script-3.10.1-site.xml maven-plugin-tools-model-3.10.1.pom maven-plugin-tools-model-3.10.1.jar maven-plugin-tools-model-3.10.1-sources.jar maven-plugin-tools-ant-3.10.1.pom maven-plugin-tools-ant-3.10.1.jar maven-plugin-tools-ant-3.10.1-sources.jar maven-script-ant-3.10.1.pom maven-script-ant-3.10.1.jar maven-script-ant-3.10.1-sources.jar maven-plugin-tools-beanshell-3.10.1.pom maven-plugin-tools-beanshell-3.10.1.jar maven-plugin-tools-beanshell-3.10.1-sources.jar maven-script-beanshell-3.10.1.pom maven-script-beanshell-3.10.1.jar maven-script-beanshell-3.10.1-sources.jar maven-plugin-plugin-3.10.1.pom maven-plugin-plugin-3.10.1.jar maven-plugin-plugin-3.10.1-sources.jar maven-plugin-report-plugin-3.10.1.pom maven-plugin-report-plugin-3.10.1.jar maven-plugin-report-plugin-3.10.1-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
