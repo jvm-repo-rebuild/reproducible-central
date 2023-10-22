@@ -1,0 +1,135 @@
+# sources.jar has been created by m2e? Eclipse or VSCode is conflicting with the command line run?
+#│ -?rwsrwsrwt  2.0 unx        0 b- stor 23-Oct-21 10:53 META-INF/m2e/
+#│ --rw-r--r--  2.0 unx      397 b- defN 23-Oct-21 10:52 META-INF/m2e/lifecycle-mapping-metadata.xml
+
+1 / 1 target/reference/io.github.git-commit-id/git-commit-id-maven-plugin-7.0.0-sources.jar target/git-commit-id-maven-plugin-7.0.0-sources.jar
+--- target/reference/io.github.git-commit-id/git-commit-id-maven-plugin-7.0.0-sources.jar
++++ target/git-commit-id-maven-plugin-7.0.0-sources.jar
+├── zipinfo {}
+│ @@ -1,19 +1,24 @@
+│ -Zip file size: 27932 bytes, number of entries: 17
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-21 10:53 META-INF/
+│ --rw-r--r--  2.0 unx      126 b- defN 23-Oct-21 10:53 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-21 10:52 pl/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-21 10:52 pl/project13/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-21 10:52 pl/project13/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-21 10:52 pl/project13/maven/validation/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-21 10:52 pl/project13/maven/git/
+│ --rw-r--r--  2.0 unx     3739 b- defN 23-Oct-21 10:52 pl/project13/maven/validation/ValidationMojo.java
+│ --rw-r--r--  2.0 unx     1575 b- defN 23-Oct-21 10:52 pl/project13/maven/validation/ValidationProperty.java
+│ --rw-r--r--  2.0 unx     6089 b- defN 23-Oct-21 10:52 pl/project13/maven/git/GitDirLocator.java
+│ --rw-r--r--  2.0 unx     8185 b- defN 23-Oct-21 10:52 pl/project13/maven/git/ReplacementProperty.java
+│ --rw-r--r--  2.0 unx     3850 b- defN 23-Oct-21 10:52 pl/project13/maven/git/TransformationRule.java
+│ --rw-r--r--  2.0 unx     6916 b- defN 23-Oct-21 10:52 pl/project13/maven/git/PropertiesReplacer.java
+│ --rw-r--r--  2.0 unx    61799 b- defN 23-Oct-21 10:52 pl/project13/maven/git/GitCommitIdMojo.java
+│ --rw-r--r--  2.0 unx       39 b- defN 23-Oct-21 10:52 git-commit-id.properties
+│ -?rwsrwsrwt  2.0 unx        0 b- stor 23-Oct-21 10:53 META-INF/m2e/
+│ --rw-r--r--  2.0 unx      397 b- defN 23-Oct-21 10:52 META-INF/m2e/lifecycle-mapping-metadata.xml
+│ -17 files, 92715 bytes uncompressed, 25574 bytes compressed:  72.4%
+│ +Zip file size: 33105 bytes, number of entries: 22
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-21 08:35 META-INF/
+│ +-rw-r--r--  2.0 unx       64 b- defN 23-Oct-21 08:35 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-21 08:35 pl/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-21 08:35 pl/project13/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-21 08:35 pl/project13/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-21 08:35 pl/project13/maven/git/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-21 08:35 pl/project13/maven/validation/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-21 08:35 META-INF/m2e/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-21 08:35 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-21 08:35 META-INF/maven/io.github.git-commit-id/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-21 08:35 META-INF/maven/io.github.git-commit-id/git-commit-id-maven-plugin/
+│ +-rw-r--r--  2.0 unx    61799 b- defN 23-Oct-21 08:35 pl/project13/maven/git/GitCommitIdMojo.java
+│ +-rw-r--r--  2.0 unx     6089 b- defN 23-Oct-21 08:35 pl/project13/maven/git/GitDirLocator.java
+│ +-rw-r--r--  2.0 unx     6916 b- defN 23-Oct-21 08:35 pl/project13/maven/git/PropertiesReplacer.java
+│ +-rw-r--r--  2.0 unx     8185 b- defN 23-Oct-21 08:35 pl/project13/maven/git/ReplacementProperty.java
+│ +-rw-r--r--  2.0 unx     3850 b- defN 23-Oct-21 08:35 pl/project13/maven/git/TransformationRule.java
+│ +-rw-r--r--  2.0 unx     3739 b- defN 23-Oct-21 08:35 pl/project13/maven/validation/ValidationMojo.java
+│ +-rw-r--r--  2.0 unx     1575 b- defN 23-Oct-21 08:35 pl/project13/maven/validation/ValidationProperty.java
+│ +-rw-r--r--  2.0 unx      397 b- defN 23-Oct-21 08:35 META-INF/m2e/lifecycle-mapping-metadata.xml
+│ +-rw-r--r--  2.0 unx       39 b- defN 23-Oct-21 08:35 git-commit-id.properties
+│ +-rw-rw-r--  2.0 unx    25236 b- defN 23-Oct-21 08:35 META-INF/maven/io.github.git-commit-id/git-commit-id-maven-plugin/pom.xml
+│ +-rw-rw-r--  2.0 unx       84 b- defN 23-Oct-21 08:35 META-INF/maven/io.github.git-commit-id/git-commit-id-maven-plugin/pom.properties
+│ +22 files, 117973 bytes uncompressed, 29821 bytes compressed:  74.7%
+├── zipnote «TEMP»/diffoscope_jxa0pgo__target/tmpn54gtkkc_.zip
+│ @@ -9,44 +9,59 @@
+│  
+│  Filename: pl/project13/
+│  Comment: 
+│  
+│  Filename: pl/project13/maven/
+│  Comment: 
+│  
+│ +Filename: pl/project13/maven/git/
+│ +Comment: 
+│ +
+│  Filename: pl/project13/maven/validation/
+│  Comment: 
+│  
+│ -Filename: pl/project13/maven/git/
+│ +Filename: META-INF/m2e/
+│  Comment: 
+│  
+│ -Filename: pl/project13/maven/validation/ValidationMojo.java
+│ +Filename: META-INF/maven/
+│  Comment: 
+│  
+│ -Filename: pl/project13/maven/validation/ValidationProperty.java
+│ +Filename: META-INF/maven/io.github.git-commit-id/
+│ +Comment: 
+│ +
+│ +Filename: META-INF/maven/io.github.git-commit-id/git-commit-id-maven-plugin/
+│ +Comment: 
+│ +
+│ +Filename: pl/project13/maven/git/GitCommitIdMojo.java
+│  Comment: 
+│  
+│  Filename: pl/project13/maven/git/GitDirLocator.java
+│  Comment: 
+│  
+│ +Filename: pl/project13/maven/git/PropertiesReplacer.java
+│ +Comment: 
+│ +
+│  Filename: pl/project13/maven/git/ReplacementProperty.java
+│  Comment: 
+│  
+│  Filename: pl/project13/maven/git/TransformationRule.java
+│  Comment: 
+│  
+│ -Filename: pl/project13/maven/git/PropertiesReplacer.java
+│ +Filename: pl/project13/maven/validation/ValidationMojo.java
+│  Comment: 
+│  
+│ -Filename: pl/project13/maven/git/GitCommitIdMojo.java
+│ +Filename: pl/project13/maven/validation/ValidationProperty.java
+│ +Comment: 
+│ +
+│ +Filename: META-INF/m2e/lifecycle-mapping-metadata.xml
+│  Comment: 
+│  
+│  Filename: git-commit-id.properties
+│  Comment: 
+│  
+│ -Filename: META-INF/m2e/
+│ +Filename: META-INF/maven/io.github.git-commit-id/git-commit-id-maven-plugin/pom.xml
+│  Comment: 
+│  
+│ -Filename: META-INF/m2e/lifecycle-mapping-metadata.xml
+│ +Filename: META-INF/maven/io.github.git-commit-id/git-commit-id-maven-plugin/pom.properties
+│  Comment: 
+│  
+│  Zip file comment:
+├── META-INF/MANIFEST.MF
+│ @@ -1,6 +1,3 @@
+│  Manifest-Version: 1.0
+
+│ -Archiver-Version: Plexus Archiver
+
+│ -Created-By: Apache Maven
+
+│ -Built-By: stefan
+
+│ -Build-Jdk: 11.0.20.1
+
+│ +Created-By: Maven Source Plugin 3.3.0
+
+

@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Git Commit Id Maven Plugin
+group-id=io.github.git-commit-id
+artifact-id=git-commit-id-maven-plugin
+version=7.0.0
+
+# source information
+source.scm.uri=scm:git@github.com:git-commit-id/git-commit-id-maven-plugin
+source.scm.tag=v7.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=[3.2.5,)
+
+# output
+
+outputs.0.groupId=io.github.git-commit-id
+outputs.0.filename=git-commit-id-maven-plugin-7.0.0.pom
+outputs.0.length=25236
+outputs.0.checksums.sha512=348a70e9c20a205ab6b57abae8a2ccf661cbe76667365324474937fc6671a12862a7e1e52e4290f637e02f149f9658fab3e779b201a1dc144ed3f9eb4254b9b5
+
+outputs.1.groupId=io.github.git-commit-id
+outputs.1.filename=git-commit-id-maven-plugin-7.0.0.jar
+outputs.1.length=55496
+outputs.1.checksums.sha512=909133a0c47e5a57cb7195d594dbedf7a9fa000abcf69ac606d4a3eed6922a6e58fadc88671e4b1907d5c704131c64c9a759d47623beb76d4f4bcc131045d5f9
+
+outputs.2.groupId=io.github.git-commit-id
+outputs.2.filename=git-commit-id-maven-plugin-7.0.0-sources.jar
+outputs.2.length=33105
+outputs.2.checksums.sha512=f6c54c30c90afad307627a31b9b746294f7e91e79d1615665690d8d0c4bdad1df622c2aad8a117978ec162fcb9e3045f675175ed1f50d69df1b5a3c95d8249bc
