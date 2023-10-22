@@ -1,0 +1,8 @@
+version=4.0.0
+ok=5
+ko=1
+ignored=0
+okFiles="xmlsec-4.0.0.pom xmlsec-4.0.0.jar xmlsec-4.0.0-source-release.zip xmlsec-4.0.0-cyclonedx.xml xmlsec-4.0.0-cyclonedx.json"
+koFiles="xmlsec-4.0.0-sources.jar"
+ignoredFiles=""
+# diffoscope target/reference/org.apache.santuario/xmlsec-4.0.0-sources.jar target/xmlsec-4.0.0-sources.jar
