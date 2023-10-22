@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Logging Parent
+group-id=org.apache.logging
+artifact-id=logging-parent
+version=10.2.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:apache/logging-parent.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.logging
+outputs.0.filename=logging-parent-10.2.0.pom
+outputs.0.length=43029
+outputs.0.checksums.sha512=4cccac55ccadabb86fbdc6f7dc124d038d1e6fea5509afed688e21c6dcbbd74ce7bbb2adba84391dd1ea48b569e81eb2676d80aea3e7540a1d00b3fbbd4e45e8
+
+outputs.1.groupId=org.apache.logging
+outputs.1.filename=logging-parent-10.2.0-cyclonedx.xml
+outputs.1.length=2959
+outputs.1.checksums.sha512=c6aa5eaf48912b8ec1e2069f84d3b16b77701aadaf5a7d20d9e7568c2b664676321aad3515aff5c0179e15888fb828aa61c2bb8e241fb4dd82c8244c76022bf3
+
+outputs.2.groupId=org.apache.logging
+outputs.2.filename=logging-parent-10.2.0-cyclonedx.json
+outputs.2.length=3473
+outputs.2.checksums.sha512=a20202f6bbd48a6901711dd94552697faff2025f14b564136cb5fdfda216a8296fdd0832029495161b1600c26708725b08577e5ae5b6d836a526863a0d7609ca
