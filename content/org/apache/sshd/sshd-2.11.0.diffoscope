@@ -1,0 +1,92 @@
+# what is this org/apache/sshd/client/userKey file?
+1 / 3 target/reference/org.apache.sshd/sshd-core-2.11.0-reusable-tests.jar sshd-core/target/sshd-core-2.11.0-reusable-reusable-tests.jar
+--- target/reference/org.apache.sshd/sshd-core-2.11.0-reusable-tests.jar
++++ sshd-core/target/sshd-core-2.11.0-reusable-reusable-tests.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 823678 bytes, number of entries: 510
+│ +Zip file size: 822130 bytes, number of entries: 509
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-12 11:58 META-INF/
+│  -rw-r--r--  2.0 unx      431 b- defN 23-Oct-12 11:58 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-12 11:58 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-12 11:58 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-12 11:58 org/apache/sshd/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-12 11:58 org/apache/sshd/agent/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-12 11:58 org/apache/sshd/certificates/
+│ @@ -276,15 +276,14 @@
+│  -rw-r--r--  2.0 unx     2187 b- defN 23-Oct-12 11:58 org/apache/sshd/client/session/ClientSessionTest$7.class
+│  -rw-r--r--  2.0 unx    20290 b- defN 23-Oct-12 11:58 org/apache/sshd/client/session/ClientSessionTest.class
+│  -rw-r--r--  2.0 unx     1972 b- defN 23-Oct-12 11:58 org/apache/sshd/client/session/SessionReKeyHostKeyExchangeTest$AcceptFirstAlgorithmHostKeyVerifier.class
+│  -rw-r--r--  2.0 unx     1722 b- defN 23-Oct-12 11:58 org/apache/sshd/client/session/SessionReKeyHostKeyExchangeTest$AtLeastMatcher.class
+│  -rw-r--r--  2.0 unx     9138 b- defN 23-Oct-12 11:58 org/apache/sshd/client/session/SessionReKeyHostKeyExchangeTest.class
+│  -rw-r--r--  2.0 unx     1210 b- defN 23-Oct-12 11:58 org/apache/sshd/client/simple/SimpleSessionClientTest$1.class
+│  -rw-r--r--  2.0 unx     8053 b- defN 23-Oct-12 11:58 org/apache/sshd/client/simple/SimpleSessionClientTest.class
+│ --rw-r--r--  2.0 unx     1856 b- defN 23-Oct-12 11:58 org/apache/sshd/client/userKey
+│  -rw-r--r--  2.0 unx     5935 b- defN 23-Oct-12 11:58 org/apache/sshd/common/AttributeStoreTest.class
+│  -rw-r--r--  2.0 unx    11192 b- defN 23-Oct-12 11:58 org/apache/sshd/common/PropertyResolverUtilsTest.class
+│  -rw-r--r--  2.0 unx     2985 b- defN 23-Oct-12 11:58 org/apache/sshd/common/SshBuilderTest.class
+│  -rw-r--r--  2.0 unx     1976 b- defN 23-Oct-12 11:58 org/apache/sshd/common/auth/AuthenticationTest$1.class
+│  -rw-r--r--  2.0 unx    11008 b- defN 23-Oct-12 11:58 org/apache/sshd/common/auth/AuthenticationTest.class
+│  -rw-r--r--  2.0 unx     2452 b- defN 23-Oct-12 11:58 org/apache/sshd/common/auth/AuthenticationTestSupport$1.class
+│  -rw-r--r--  2.0 unx     3733 b- defN 23-Oct-12 11:58 org/apache/sshd/common/auth/AuthenticationTestSupport.class
+│ @@ -505,8 +504,8 @@
+│  -rw-r--r--  2.0 unx     2589 b- defN 23-Oct-12 11:58 org/apache/sshd/server/shell/InvertedShellWrapperTest$3.class
+│  -rw-r--r--  2.0 unx     1042 b- defN 23-Oct-12 11:58 org/apache/sshd/server/shell/InvertedShellWrapperTest$4.class
+│  -rw-r--r--  2.0 unx     7554 b- defN 23-Oct-12 11:58 org/apache/sshd/server/shell/InvertedShellWrapperTest.class
+│  -rw-r--r--  2.0 unx     4107 b- defN 23-Oct-12 11:58 org/apache/sshd/spring/SpringConfigTest.class
+│  -rw-r--r--  2.0 unx     2273 b- defN 23-Oct-12 11:58 org/apache/sshd/spring/SpringConfigTest.xml
+│  -rw-r--r--  2.0 unx    12049 b- defN 23-Oct-12 11:58 META-INF/maven/org.apache.sshd/sshd-core/pom.xml
+│  -rw-r--r--  2.0 unx       60 b- defN 23-Oct-12 11:58 META-INF/maven/org.apache.sshd/sshd-core/pom.properties
+│ -510 files, 1651935 bytes uncompressed, 730048 bytes compressed:  55.8%
+│ +509 files, 1650079 bytes uncompressed, 728636 bytes compressed:  55.8%
+├── zipnote «TEMP»/diffoscope_uz2fk150_target/tmpbq8v04av_.zip
+│ @@ -837,17 +837,14 @@
+│  
+│  Filename: org/apache/sshd/client/simple/SimpleSessionClientTest$1.class
+│  Comment: 
+│  
+│  Filename: org/apache/sshd/client/simple/SimpleSessionClientTest.class
+│  Comment: 
+│  
+│ -Filename: org/apache/sshd/client/userKey
+│ -Comment: 
+│ -
+│  Filename: org/apache/sshd/common/AttributeStoreTest.class
+│  Comment: 
+│  
+│  Filename: org/apache/sshd/common/PropertyResolverUtilsTest.class
+│  Comment: 
+│  
+│  Filename: org/apache/sshd/common/SshBuilderTest.class
+
+
+[INFO] --- antrun:3.1.0:run (create-sources-artifact) @ sshd-osgi ---
+[INFO] Executing tasks
+[INFO]     [mkdir] Created dir: /var/maven/app/sshd-osgi/target/osgi-sources/META-INF/maven/org.apache.sshd/sshd-osgi
+[INFO]      [copy] Copying 1 file to /var/maven/app/sshd-osgi/target/osgi-sources/META-INF/maven/org.apache.sshd/sshd-osgi
+[INFO]       [jar] Building jar: /var/maven/app/sshd-osgi/target/sshd-osgi-2.11.0-sources.jar
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- build-helper:3.2.0:attach-artifact (attach-source-artifact) @ sshd-osgi ---
+
+2 / 3 target/reference/org.apache.sshd/sshd-osgi-2.11.0-sources.jar sshd-osgi/target/sshd-osgi-2.11.0-sources.jar
+--- target/reference/org.apache.sshd/sshd-osgi-2.11.0-sources.jar
++++ sshd-osgi/target/sshd-osgi-2.11.0-sources.jar
+├── zipinfo {}
+│ @@ -1,866 +1,866 @@
+│  Zip file size: 1391348 bytes, number of entries: 864
+│ -drwxr-xr-x  2.0 unx        0 bx stor 23-Oct-12 15:11 META-INF/
+│ --rw-r--r--  2.0 unx       91 b- defN 23-Oct-12 15:11 META-INF/MANIFEST.MF
+...
+│ --rw-r--r--  2.0 unx      109 b- defN 23-Oct-12 15:11 META-INF/maven/org.apache.sshd/sshd-osgi/pom.properties
+│ --rw-r--r--  2.0 unx     8997 b- defN 23-Oct-12 15:11 META-INF/maven/org.apache.sshd/sshd-osgi/pom.xml
+│ +drwxr-xr-x  2.0 unx        0 bx stor 23-Oct-22 07:49 META-INF/
+│ +-rw-r--r--  2.0 unx       91 b- defN 23-Oct-22 07:49 META-INF/MANIFEST.MF
+...
+│ +-rw-r--r--  2.0 unx      109 b- defN 23-Oct-22 07:49 META-INF/maven/org.apache.sshd/sshd-osgi/pom.properties
+│ +-rw-r--r--  2.0 unx     8997 b- defN 23-Oct-22 07:49 META-INF/maven/org.apache.sshd/sshd-osgi/pom.xml
+│  864 files, 4164885 bytes uncompressed, 1231610 bytes compressed:  70.4%
+
+# attached twice
+3 / 3 target/reference/org.apache.sshd/sshd-osgi-2.11.0-sources.jar sshd-osgi/target/sshd-osgi-2.11.0-sources.jar
+--- target/reference/org.apache.sshd/sshd-osgi-2.11.0-sources.jar
