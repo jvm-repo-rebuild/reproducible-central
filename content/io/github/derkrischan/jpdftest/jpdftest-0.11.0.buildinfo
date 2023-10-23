@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=jPdfTest
+group-id=io.github.derkrischan
+artifact-id=jpdftest
+version=0.11.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/derKrischan/jpdftest.git
+source.scm.tag=jpdftest-0.11.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=io.github.derkrischan
+outputs.0.filename=jpdftest-0.11.0.pom
+outputs.0.length=18793
+outputs.0.checksums.sha512=ef19deb41a5b8da4e0c830bdce62f8350314555b64e5c1b031d0d1b8cbf1182d4c34740ef2cdb3ba825ca61bbd0f44693311ab66e6cdf2e405fa6c2a020ba764
+
+outputs.1.groupId=io.github.derkrischan
+outputs.1.filename=jpdftest-0.11.0.jar
+outputs.1.length=34191
+outputs.1.checksums.sha512=34f7b752fb8b663044a367081e756bbae71bdd7d367f341c5748083740dd607ba1d0f293003018946ce9ca33bea539b857feb9ef2916b2dc3a30c378511401ca
+
+outputs.2.groupId=io.github.derkrischan
+outputs.2.filename=jpdftest-0.11.0-sources.jar
+outputs.2.length=25220
+outputs.2.checksums.sha512=6c03c932b61be4c9c2e16836c21d32c5c5f39e72293506997938e6158449dacb40d1a913fe63faabdb52ea961781526fa6f3f2864588ec3c214d07518a91a80f

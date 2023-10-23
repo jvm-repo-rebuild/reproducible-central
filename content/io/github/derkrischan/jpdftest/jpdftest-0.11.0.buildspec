@@ -1,0 +1,17 @@
+groupId=io.github.derkrischan
+artifactId=jpdftest
+display=${groupId}:${artifactId}
+version=0.11.0
+
+gitRepo=https://github.com/derKrischan/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=lf
+umask=022
+
+command="mvn clean package -Psonatype-oss-release -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
