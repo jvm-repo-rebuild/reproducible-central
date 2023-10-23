@@ -7,13 +7,15 @@
 
 Source code: [https://github.com/nahsra/antisamy.git](https://github.com/nahsra/antisamy.git)
 
-rebuilding **14 releases** of org.owasp.antisamy:antisamy:
-- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **15 releases** of org.owasp.antisamy:antisamy:
+- **14** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.7.4](https://central.sonatype.com/artifact/org.owasp.antisamy/antisamy/1.7.4/pom) | | | |
+| [1.7.4](https://central.sonatype.com/artifact/org.owasp.antisamy/antisamy/1.7.4/pom) | [mvn jdk8](antisamy-1.7.4.buildspec) | [result](antisamy-1.7.4.buildinfo): [5 :heavy_check_mark: ](antisamy-1.7.4.buildcompare) [:mag:](antisamy-1.7.4.diffoscope)
+[1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/org/owasp/antisamy/antisamy-1.7.4.buildspec[0m
+ | 419K |
 | [1.7.3](https://central.sonatype.com/artifact/org.owasp.antisamy/antisamy/1.7.3/pom) | [mvn jdk8](antisamy-1.7.3.buildspec) | [result](antisamy-1.7.3.buildinfo): [2 :heavy_check_mark:  1 :warning:](antisamy-1.7.3.buildcompare) [:mag:](antisamy-1.7.3.diffoscope) | 329K |
 | [1.7.2](https://central.sonatype.com/artifact/org.owasp.antisamy/antisamy/1.7.2/pom) | [mvn jdk8](antisamy-1.7.2.buildspec) | [result](antisamy-1.7.2.buildinfo): [3 :heavy_check_mark: ](antisamy-1.7.2.buildcompare) | 326K |
 | [1.7.1](https://central.sonatype.com/artifact/org.owasp.antisamy/antisamy/1.7.1/pom) | [mvn jdk8](antisamy-1.7.1.buildspec) | [result](antisamy-1.7.1.buildinfo): [3 :heavy_check_mark: ](antisamy-1.7.1.buildcompare) | 326K |

@@ -13,6 +13,7 @@ rebuilding **6 releases** of org.apache.maven.plugins:maven-dependency-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.6.1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-dependency-plugin/3.6.1/pom) | | | |
 | [3.6.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-dependency-plugin/3.6.0/pom) | [mvn jdk8 w](maven-dependency-plugin-3.6.0.buildspec) | [result](maven-dependency-plugin-3.6.0.buildinfo): [4 :heavy_check_mark: ](maven-dependency-plugin-3.6.0.buildcompare) | 990K |
 | [3.5.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-dependency-plugin/3.5.0/pom) | [mvn jdk8 w](maven-dependency-plugin-3.5.0.buildspec) | [result](maven-dependency-plugin-3.5.0.buildinfo): [4 :heavy_check_mark: ](maven-dependency-plugin-3.5.0.buildcompare) | 986K |
 | [3.4.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-dependency-plugin/3.4.0/pom) | [mvn jdk8 w](maven-dependency-plugin-3.4.0.buildspec) | [result](maven-dependency-plugin-3.4.0.buildinfo): [4 :heavy_check_mark: ](maven-dependency-plugin-3.4.0.buildcompare) | 989K |

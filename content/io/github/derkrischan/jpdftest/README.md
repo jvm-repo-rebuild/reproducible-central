@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/derKrischan/jpdftest.git](https://github.com/derKrischan/jpdftest.git)
 
-rebuilding **3 releases** of io.github.derkrischan:jpdftest:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **4 releases** of io.github.derkrischan:jpdftest:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.11.0](https://central.sonatype.com/artifact/io.github.derkrischan/jpdftest/0.11.0/pom) | | | |
+| [0.11.0](https://central.sonatype.com/artifact/io.github.derkrischan/jpdftest/0.11.0/pom) | [mvn jdk8](jpdftest-0.11.0.buildspec) | [result](jpdftest-0.11.0.buildinfo): [3 :heavy_check_mark: ](jpdftest-0.11.0.buildcompare) | 77K |
 | [0.10.0](https://central.sonatype.com/artifact/io.github.derkrischan/jpdftest/0.10.0/pom) | [mvn jdk7](jpdftest-0.10.0.buildspec) | [result](jpdftest-0.10.0.buildinfo): [3 :heavy_check_mark: ](jpdftest-0.10.0.buildcompare) | 81K |
 | [0.9.0](https://central.sonatype.com/artifact/io.github.derkrischan/jpdftest/0.9.0/pom) | [mvn jdk7](jpdftest-0.9.0.buildspec) | [result](jpdftest-0.9.0.buildinfo): [3 :heavy_check_mark: ](jpdftest-0.9.0.buildcompare) | 81K |
 | [0.8.0](https://central.sonatype.com/artifact/io.github.derkrischan/jpdftest/0.8.0/pom) | [mvn jdk7](jpdftest-0.8.0.buildspec) | [result](jpdftest-0.8.0.buildinfo): [3 :heavy_check_mark: ](jpdftest-0.8.0.buildcompare) | 75K |
