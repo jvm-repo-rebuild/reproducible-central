@@ -1,0 +1,21 @@
+groupId=com.fasterxml.jackson.core
+artifactId=jackson-databind
+version=2.16.0-rc1
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/FasterXML/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn-3.9.4
+jdk=8
+newline=lf
+timezone="Etc/GMT+7"
+umask=022
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=https://github.com/moditect/moditect/issues/199
