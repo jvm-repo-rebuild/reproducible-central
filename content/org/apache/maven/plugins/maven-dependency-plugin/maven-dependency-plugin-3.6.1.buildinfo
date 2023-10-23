@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Dependency Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-dependency-plugin
+version=3.6.1
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-dependency-plugin.git
+source.scm.tag=maven-dependency-plugin-3.6.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.2.5
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-dependency-plugin-3.6.1.pom
+outputs.0.length=17570
+outputs.0.checksums.sha512=3e204ffde6f3a7226ddde784c1cfa3f2195896ad968b04636a9f7020a78035ef90ba33710ea5ea5b3220ecf32f8f794ce2982e8cd5cd92a0098b2e4979eb2b32
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-dependency-plugin-3.6.1.jar
+outputs.1.length=190775
+outputs.1.checksums.sha512=82f793e851c9e5748ab6e8513fce3f33966306f3e81c1eee547dec8f643826b0600356dd54515ba427379e9a939303ed617c0c3789bf164fd12a5aa0a9e1db76
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-dependency-plugin-3.6.1-source-release.zip
+outputs.2.length=663631
+outputs.2.checksums.sha512=6bdbd4cf4ff355d4e087ee5a7eef24b8812963c4372a6ba5116c8ea8dfdc5291c34edc262fe19eb2fc97a8e77d60c91d9ec843512729b862609f28689f396bd9
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-dependency-plugin-3.6.1-sources.jar
+outputs.3.length=137447
+outputs.3.checksums.sha512=ced23301d614141d571adce44c3c6198de33e994f61fd392024f70febf75630960c801d420103a60ea797d97ee43f560f19be0dbaac4f1561daee44fed49cd94
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-dependency-plugin-3.6.1-cyclonedx.xml
+outputs.4.length=153884
+outputs.4.checksums.sha512=1a1df6b2d16dd59b750c671461e26160fa57bf276899db14f566286e216e60f13b9d8b0aca9c029c155ad9215cb60ca5a690014a6d06d5ac149077f3420c7d35
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-dependency-plugin-3.6.1-cyclonedx.json
+outputs.5.length=176876
+outputs.5.checksums.sha512=0cecf4071c4119d97048f3fc34ca158040303fe3edce8019015cf64baa8755ce893053e90e295c6a66d694f796fe00a4318c6ab7e339f78705f8bd161e5096be

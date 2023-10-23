@@ -1,0 +1,17 @@
+groupId=org.apache.maven.plugins
+artifactId=maven-dependency-plugin
+display=${groupId}:m-dependency-p
+version=3.6.1
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=crlf
+umask=022
+
+command="SHELL chmod a-x src/test/resources/unit/properties-test/plugin-config.xml && mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+issue=
