@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Cipher: encryption/decryption Component
+group-id=org.codehaus.plexus
+artifact-id=plexus-cipher
+version=2.1.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-cipher.git
+source.scm.tag=plexus-cipher-2.1.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-cipher-2.1.0.pom
+outputs.0.length=2769
+outputs.0.checksums.sha512=966c61061b66e07d14488c774fc53cd43c6d7f75f6475f36122f2283fe28b675cbb1d2190bfa7b2b590ecaf40603ba01dd21f6a3a33cb312030f32e4e0122159
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-cipher-2.1.0.jar
+outputs.1.length=9185
+outputs.1.checksums.sha512=0d91bc6d3215b8658ab3353c778ae0b150c623291aae5b44d7ae0ab7f1fc185af568256116e30fc36ec98b44f4aa6c567dbb1843400cf72a08ff49e22f3180b5
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-cipher-2.1.0-source-release.zip
+outputs.2.length=17767
+outputs.2.checksums.sha512=14f7017f5c9d192300c81542ce4789948871cea85d9da28585b44fad28a716ed559e45f9598283a1d953b6dc485c312c76e86f77d792a7e376b14b25a8c63ab6
+
+outputs.3.groupId=org.codehaus.plexus
+outputs.3.filename=plexus-cipher-2.1.0-sources.jar
+outputs.3.length=7986
+outputs.3.checksums.sha512=d555d747d93c63409bfeaf55ec78b7376d2d036c3105ce5819c294be8f9aabaa9ee09f90d24c5ab945ef31a6e0e75faa7455a866f8a0dc1d427f80440ca34c58
