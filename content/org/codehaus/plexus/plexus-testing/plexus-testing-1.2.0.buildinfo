@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Testing
+group-id=org.codehaus.plexus
+artifact-id=plexus-testing
+version=1.2.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:codehaus-plexus/plexus-testing.git
+source.scm.tag=plexus-testing-1.2.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-testing-1.2.0.pom
+outputs.0.length=1885
+outputs.0.checksums.sha512=edb94bb2e305f4084fa4d8f849de1f572a109d792af48cbddddd34ee97a4680d34ea2939253e0aef6d8c9a85c7fb87ab6b946d2f7c96e41a85a2de8afab64b2f
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-testing-1.2.0.jar
+outputs.1.length=6478
+outputs.1.checksums.sha512=936f77218169695046e4ee38f791ac754cfd821492839438b794ecffee3650d17d664f3f765d1b46138ddc8c859570ca9c383b333b6f0214443c210232c41137
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-testing-1.2.0-source-release.zip
+outputs.2.length=16614
+outputs.2.checksums.sha512=bd7af22c9d0343c57099af285b109ebab54ebdecb0954e5cadfaffbfd94421d5751c22f253657e80914ba8038b1c158020718e91c7bbd0febdf7df75481cfe2b
+
+outputs.3.groupId=org.codehaus.plexus
+outputs.3.filename=plexus-testing-1.2.0-sources.jar
+outputs.3.length=5824
+outputs.3.checksums.sha512=9d1c909a22646e19a29bf256de8eb05437817d571f6507622b563a66244bde842c18bf59e5c41bb1e183b1de12966d47e09061d82b4d70431b3659af307b0a4d
