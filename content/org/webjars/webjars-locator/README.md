@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/webjars/webjars-locator.git](https://github.com/webjars/webjars-locator.git)
 
-rebuilding **2 releases** of org.webjars:webjars-locator:
-- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **3 releases** of org.webjars:webjars-locator:
+- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.48](https://central.sonatype.com/artifact/org.webjars/webjars-locator/0.48/pom) | | | |
+| [0.48](https://central.sonatype.com/artifact/org.webjars/webjars-locator/0.48/pom) | [mvn jdk8](webjars-locator-0.48.buildspec) | [result](webjars-locator-0.48.buildinfo): [3 :heavy_check_mark: ](webjars-locator-0.48.buildcompare) | 35K |
 | [0.47](https://central.sonatype.com/artifact/org.webjars/webjars-locator/0.47/pom) | [mvn jdk19](webjars-locator-0.47.buildspec) | [result](webjars-locator-0.47.buildinfo): [3 :heavy_check_mark: ](webjars-locator-0.47.buildcompare) | 35K |
 | [0.46](https://central.sonatype.com/artifact/org.webjars/webjars-locator/0.46/pom) | [mvn jdk8](webjars-locator-0.46.buildspec) | [result](webjars-locator-0.46.buildinfo): [3 :heavy_check_mark: ](webjars-locator-0.46.buildcompare) | 35K |
 

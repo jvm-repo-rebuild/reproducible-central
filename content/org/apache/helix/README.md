@@ -9,28 +9,28 @@ Source code: [https://github.com/apache/helix.git](https://github.com/apache/hel
 
 <details><summary>This project defines 13 modules:</summary>
 
-* [org.apache.helix:helix](https://central.sonatype.com/artifact/org.apache.helix/helix/1.3.0)
-* [org.apache.helix:helix-admin-webapp](https://central.sonatype.com/artifact/org.apache.helix/helix-admin-webapp/1.3.0)
-* [org.apache.helix:helix-agent](https://central.sonatype.com/artifact/org.apache.helix/helix-agent/1.3.0)
-* [org.apache.helix:helix-common](https://central.sonatype.com/artifact/org.apache.helix/helix-common/1.3.0)
-* [org.apache.helix:helix-core](https://central.sonatype.com/artifact/org.apache.helix/helix-core/1.3.0)
-* [org.apache.helix:helix-front](https://central.sonatype.com/artifact/org.apache.helix/helix-front/1.3.0)
-* [org.apache.helix:helix-lock](https://central.sonatype.com/artifact/org.apache.helix/helix-lock/1.3.0)
-* [org.apache.helix:helix-rest](https://central.sonatype.com/artifact/org.apache.helix/helix-rest/1.3.0)
-* [org.apache.helix:helix-view-aggregator](https://central.sonatype.com/artifact/org.apache.helix/helix-view-aggregator/1.3.0)
-* [org.apache.helix:meta-client](https://central.sonatype.com/artifact/org.apache.helix/meta-client/1.3.0)
-* [org.apache.helix:metadata-store-directory-common](https://central.sonatype.com/artifact/org.apache.helix/metadata-store-directory-common/1.3.0)
-* [org.apache.helix:metrics-common](https://central.sonatype.com/artifact/org.apache.helix/metrics-common/1.3.0)
-* [org.apache.helix:zookeeper-api](https://central.sonatype.com/artifact/org.apache.helix/zookeeper-api/1.3.0)
+* [org.apache.helix:helix](https://central.sonatype.com/artifact/org.apache.helix/helix/1.3.1)
+* [org.apache.helix:helix-admin-webapp](https://central.sonatype.com/artifact/org.apache.helix/helix-admin-webapp/1.3.1)
+* [org.apache.helix:helix-agent](https://central.sonatype.com/artifact/org.apache.helix/helix-agent/1.3.1)
+* [org.apache.helix:helix-common](https://central.sonatype.com/artifact/org.apache.helix/helix-common/1.3.1)
+* [org.apache.helix:helix-core](https://central.sonatype.com/artifact/org.apache.helix/helix-core/1.3.1)
+* [org.apache.helix:helix-front](https://central.sonatype.com/artifact/org.apache.helix/helix-front/1.3.1)
+* [org.apache.helix:helix-lock](https://central.sonatype.com/artifact/org.apache.helix/helix-lock/1.3.1)
+* [org.apache.helix:helix-rest](https://central.sonatype.com/artifact/org.apache.helix/helix-rest/1.3.1)
+* [org.apache.helix:helix-view-aggregator](https://central.sonatype.com/artifact/org.apache.helix/helix-view-aggregator/1.3.1)
+* [org.apache.helix:meta-client](https://central.sonatype.com/artifact/org.apache.helix/meta-client/1.3.1)
+* [org.apache.helix:metadata-store-directory-common](https://central.sonatype.com/artifact/org.apache.helix/metadata-store-directory-common/1.3.1)
+* [org.apache.helix:metrics-common](https://central.sonatype.com/artifact/org.apache.helix/metrics-common/1.3.1)
+* [org.apache.helix:zookeeper-api](https://central.sonatype.com/artifact/org.apache.helix/zookeeper-api/1.3.1)
 </details>
 
-rebuilding **3 releases** of org.apache.helix:helix:
+rebuilding **4 releases** of org.apache.helix:helix:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.3.1](https://central.sonatype.com/artifact/org.apache.helix/helix/1.3.1/pom) | | | |
+| [1.3.1](https://central.sonatype.com/artifact/org.apache.helix/helix/1.3.1/pom) | [mvn jdk11](helix-1.3.1.buildspec) | [result](helix-1.3.1.buildinfo): [49 :heavy_check_mark:  1 :warning:](helix-1.3.1.buildcompare) | 259M |
 | [1.3.0](https://central.sonatype.com/artifact/org.apache.helix/helix/1.3.0/pom) | [mvn jdk11](helix-1.3.0.buildspec) | [result](helix-1.3.0.buildinfo): [49 :heavy_check_mark:  1 :warning:](helix-1.3.0.buildcompare) [:mag:](helix-1.3.0.diffoscope) | 257M |
 | [1.2.0](https://central.sonatype.com/artifact/org.apache.helix/helix/1.2.0/pom) | | | |
 | [1.1.0](https://central.sonatype.com/artifact/org.apache.helix/helix/1.1.0/pom) | | | |
