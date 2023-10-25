@@ -60,9 +60,11 @@ rebuilding **8 releases** of org.apache.activemq:activemq-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [5.18.3](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/5.18.3/pom) | | | |
 | [5.18.2](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/5.18.2/pom) | [mvn jdk11](activemq-5.18.2.buildspec) | [result](activemq-parent-5.18.2.buildinfo): [95 :heavy_check_mark: ](activemq-parent-5.18.2.buildcompare) | 208M |
 | [5.18.1](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/5.18.1/pom) | | | |
 | [5.18.0](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/5.18.0/pom) | [mvn jdk11](activemq-5.18.0.buildspec) | [result](activemq-parent-5.18.0.buildinfo): [87 :heavy_check_mark:  8 :warning:](activemq-parent-5.18.0.buildcompare) [:mag:](activemq-parent-5.18.0.diffoscope) | 208M |
+| [5.17.6](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/5.17.6/pom) | | | |
 | [5.17.5](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/5.17.5/pom) | | | |
 | [5.17.4](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/5.17.4/pom) | [mvn jdk11](activemq-5.17.4.buildspec) | [result](activemq-parent-5.17.4.buildinfo): [110 :heavy_check_mark:  16 :warning:](activemq-parent-5.17.4.buildcompare) [:memo:](https://github.com/apache/activemq/pull/836) | 209M |
 | [5.17.3](https://central.sonatype.com/artifact/org.apache.activemq/activemq-parent/5.17.3/pom) | [mvn jdk11](activemq-5.17.3.buildspec) | [result](activemq-parent-5.17.3.buildinfo): [111 :heavy_check_mark:  15 :warning:](activemq-parent-5.17.3.buildcompare) [:mag:](activemq-parent-5.17.3.diffoscope) [:memo:](https://github.com/apache/activemq/pull/836) | 209M |

@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2680 releases** of **552 projects**:
-   - **2086** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **2686 releases** of **552 projects**:
+   - **2092** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 594 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 552 projects, 444 have at least one fully reproducible release, 108 have none
+   - on 552 projects, 446 have at least one fully reproducible release, 106 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -173,7 +173,7 @@ Its objectives are to provide:
 | eu.europa.ted.eforms | <a name='eu.europa.ted.eforms:eforms-core-java'></a>[eforms-core-java](content/eu/europa/ted/eforms/eforms-core-java/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
 | | <a name='eu.europa.ted.eforms:eforms-sdk'></a>[eforms-sdk](content/eu/europa/ted/eforms/eforms-sdk/README.md) | 10 | 9 :heavy_check_mark: / 1 :warning: |
 | | <a name='eu.europa.ted.eforms:efx-toolkit-java'></a>[efx-toolkit-java](content/eu/europa/ted/eforms/efx-toolkit-java/README.md) | 1 | 1 :warning: |
-| eu.maveniverse.maven.mima | <a name='eu.maveniverse.maven.mima:mima'></a>[mima](content/eu/maveniverse/maven/mima/README.md) | 19 | 19 :heavy_check_mark: |
+| eu.maveniverse.maven.mima | <a name='eu.maveniverse.maven.mima:mima'></a>[mima](content/eu/maveniverse/maven/mima/README.md) | 20 | 20 :heavy_check_mark: |
 | fr.inria.gforge.spoon | <a name='fr.inria.gforge.spoon:spoon-core'></a>[spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 4 | 2 :heavy_check_mark: / 2 :warning: |
 | fr.marcwrobel | <a name='fr.marcwrobel:jbanking'></a>[jbanking](content/fr/marcwrobel/jbanking/README.md) | 1 | 1 :heavy_check_mark: |
 | fr.vidal.oss | <a name='fr.vidal.oss:atom-jaxb'></a>[atom-jaxb](content/fr/vidal/oss/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
@@ -317,7 +317,7 @@ Its objectives are to provide:
 | org.apache.maven.plugins | <a name='org.apache.maven.plugins:maven-antrun-plugin'></a>[maven-antrun-plugin](content/org/apache/maven/plugins/maven-antrun-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-artifact-plugin'></a>[maven-artifact-plugin](content/org/apache/maven/plugins/maven-artifact-plugin/README.md) | 7 | 7 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-assembly-plugin'></a>[maven-assembly-plugin](content/org/apache/maven/plugins/maven-assembly-plugin/README.md) | 6 | 6 :heavy_check_mark: |
-| | <a name='org.apache.maven.plugins:maven-checkstyle-plugin'></a>[maven-checkstyle-plugin](content/org/apache/maven/plugins/maven-checkstyle-plugin/README.md) | 6 | 6 :heavy_check_mark: |
+| | <a name='org.apache.maven.plugins:maven-checkstyle-plugin'></a>[maven-checkstyle-plugin](content/org/apache/maven/plugins/maven-checkstyle-plugin/README.md) | 7 | 7 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-clean-plugin'></a>[maven-clean-plugin](content/org/apache/maven/plugins/maven-clean-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-compiler-plugin'></a>[maven-compiler-plugin](content/org/apache/maven/plugins/maven-compiler-plugin/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-dependency-plugin'></a>[maven-dependency-plugin](content/org/apache/maven/plugins/maven-dependency-plugin/README.md) | 7 | 7 :heavy_check_mark: |
@@ -423,8 +423,8 @@ Its objectives are to provide:
 | | <a name='org.apache.sling:org.apache.sling.installer.provider.jcr'></a>[*.installer.provider.jcr](content/org/apache/sling/org.apache.sling.installer.provider.jcr/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.apache.sling:org.apache.sling.javax.activation'></a>[*.javax.activation](content/org/apache/sling/org.apache.sling.javax.activation/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.apache.sling:org.apache.sling.jcr.contentloader'></a>[*.jcr.contentloader](content/org/apache/sling/org.apache.sling.jcr.contentloader/README.md) | 4 | 4 :warning: |
-| | <a name='org.apache.sling:org.apache.sling.jcr.jackrabbit.accessmanager'></a>[*.jcr.jackrabbit.accessmanager](content/org/apache/sling/org.apache.sling.jcr.jackrabbit.accessmanager/README.md) | 2 | 2 :warning: |
-| | <a name='org.apache.sling:org.apache.sling.jcr.jackrabbit.usermanager'></a>[*.jcr.jackrabbit.usermanager](content/org/apache/sling/org.apache.sling.jcr.jackrabbit.usermanager/README.md) | 7 | 7 :warning: |
+| | <a name='org.apache.sling:org.apache.sling.jcr.jackrabbit.accessmanager'></a>[*.jcr.jackrabbit.accessmanager](content/org/apache/sling/org.apache.sling.jcr.jackrabbit.accessmanager/README.md) | 3 | 1 :heavy_check_mark: / 2 :warning: |
+| | <a name='org.apache.sling:org.apache.sling.jcr.jackrabbit.usermanager'></a>[*.jcr.jackrabbit.usermanager](content/org/apache/sling/org.apache.sling.jcr.jackrabbit.usermanager/README.md) | 8 | 1 :heavy_check_mark: / 7 :warning: |
 | | <a name='org.apache.sling:org.apache.sling.jcr.maintenance'></a>[*.jcr.maintenance](content/org/apache/sling/org.apache.sling.jcr.maintenance/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.jcr.oak.server'></a>[*.jcr.oak.server](content/org/apache/sling/org.apache.sling.jcr.oak.server/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | | <a name='org.apache.sling:org.apache.sling.jcr.packageinit'></a>[*.jcr.packageinit](content/org/apache/sling/org.apache.sling.jcr.packageinit/README.md) | 1 | 1 :heavy_check_mark: |
@@ -456,7 +456,7 @@ Its objectives are to provide:
 | | <a name='org.apache.sling:org.apache.sling.settings'></a>[*.settings](content/org/apache/sling/org.apache.sling.settings/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.sitemap'></a>[*.sitemap](content/org/apache/sling/org.apache.sling.sitemap/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.starter'></a>[*.starter](content/org/apache/sling/org.apache.sling.starter/README.md) | 1 | 1 :warning: |
-| | <a name='org.apache.sling:org.apache.sling.starter.content'></a>[*.starter.content](content/org/apache/sling/org.apache.sling.starter.content/README.md) | 2 | 2 :heavy_check_mark: |
+| | <a name='org.apache.sling:org.apache.sling.starter.content'></a>[*.starter.content](content/org/apache/sling/org.apache.sling.starter.content/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.tenant'></a>[*.tenant](content/org/apache/sling/org.apache.sling.tenant/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.testing.caconfig-mock-plugin'></a>[*.testing.caconfig-mock-plugin](content/org/apache/sling/org.apache.sling.testing.caconfig-mock-plugin/README.md) | 6 | 6 :heavy_check_mark: |
 | | <a name='org.apache.sling:org.apache.sling.testing.clients'></a>[*.testing.clients](content/org/apache/sling/org.apache.sling.testing.clients/README.md) | 8 | 8 :heavy_check_mark: |
@@ -510,7 +510,7 @@ Its objectives are to provide:
 | | <a name='org.codehaus.plexus:plexus-xml'></a>[plexus-xml](content/org/codehaus/plexus/plexus-xml/README.md) | 4 | 4 :heavy_check_mark: |
 | org.complate | <a name='org.complate:complate-core'></a>[complate-core](content/org/complate/java/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='org.complate:complate-spring-mvc'></a>[complate-spring-mvc](content/org/complate/spring/README.md) | 2 | 2 :heavy_check_mark: |
-| org.cyclonedx | <a name='org.cyclonedx:cyclonedx-core-java'></a>[cyclonedx-core-java](content/org/cyclonedx/cyclonedx-core-java/README.md) | 30 | 30 :heavy_check_mark: |
+| org.cyclonedx | <a name='org.cyclonedx:cyclonedx-core-java'></a>[cyclonedx-core-java](content/org/cyclonedx/cyclonedx-core-java/README.md) | 31 | 31 :heavy_check_mark: |
 | | <a name='org.cyclonedx:cyclonedx-maven-plugin'></a>[cyclonedx-maven-plugin](content/org/cyclonedx/cyclonedx-maven-plugin/README.md) | 21 | 21 :heavy_check_mark: |
 | org.eclipse.jkube | <a name='org.eclipse.jkube:jkube'></a>[jkube](content/org/eclipse/jkube/README.md) | 19 | 19 :heavy_check_mark: |
 | org.eclipse.transformer | <a name='org.eclipse.transformer:org.eclipse.transformer.parent'></a>[*.parent](content/org/eclipse/transformer/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
@@ -575,7 +575,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 26 | 26 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **552** | **2680** | **2086** :heavy_check_mark: **594** :warning: |
+| **Count:** | **552** | **2686** | **2092** :heavy_check_mark: **594** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -587,7 +587,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      22 gradle     11
      26 mvn         7
-   1012 mvn         8
+   1014 mvn         8
       1 mvn         9
     812 mvn        11
       2 mvn        11.0.19
@@ -596,7 +596,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    196 mvn        17
+    199 mvn        17
       2 mvn        17.0.7
       1 mvn        17.0.8
       1 mvn        17.0.8.1
@@ -622,6 +622,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      50 mvn-3.9.1  17
       1 mvn-3.9.1  19
       6 mvn-3.9.1  20
+      1 mvn-3.9.1  21
       5 mvn-3.9.2   8
      16 mvn-3.9.2  17
      15 mvn-3.9.3   8

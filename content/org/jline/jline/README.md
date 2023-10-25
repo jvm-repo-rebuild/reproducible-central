@@ -32,6 +32,7 @@ rebuilding **3 releases** of org.jline:jline-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.24.0](https://central.sonatype.com/artifact/org.jline/jline-parent/3.24.0/pom) | | | |
 | [3.23.0](https://central.sonatype.com/artifact/org.jline/jline-parent/3.23.0/pom) | [mvn jdk17](jline-3.23.0.buildspec) | [result](jline-parent-3.23.0.buildinfo): [29 :heavy_check_mark:  14 :warning:](jline-parent-3.23.0.buildcompare) [:mag:](jline-parent-3.23.0.diffoscope) | 3.8M |
 | [3.22.0](https://central.sonatype.com/artifact/org.jline/jline-parent/3.22.0/pom) | | | |
 | [3.21.0](https://central.sonatype.com/artifact/org.jline/jline-parent/3.21.0/pom) | [mvn jdk11](jline-3.21.0.buildspec) | [result](jline-parent-3.21.0.buildinfo): [40 :heavy_check_mark: ](jline-parent-3.21.0.buildcompare) | 3.3M |
