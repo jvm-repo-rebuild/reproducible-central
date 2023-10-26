@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.apache.maven.plugins:maven-clean-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.3.2](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-clean-plugin/3.3.2/pom) | | | |
 | [3.3.1](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-clean-plugin/3.3.1/pom) | [mvn jdk11](maven-clean-plugin-3.3.1.buildspec) | [result](maven-clean-plugin-3.3.1.buildinfo): [4 :heavy_check_mark: ](maven-clean-plugin-3.3.1.buildcompare) | 206K |
 | [3.2.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-clean-plugin/3.2.0/pom) | [mvn jdk11](maven-clean-plugin-3.2.0.buildspec) | [result](maven-clean-plugin-3.2.0.buildinfo): [4 :heavy_check_mark: ](maven-clean-plugin-3.2.0.buildcompare) | 204K |
 
