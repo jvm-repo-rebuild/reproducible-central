@@ -1,0 +1,43 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=(RETIRED) Apache Maven Documentation Checker Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-docck-plugin
+version=1.2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-docck-plugin.git
+source.scm.tag=maven-docck-plugin-1.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=2.2.1
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-docck-plugin-1.2.pom
+outputs.0.length=6452
+outputs.0.checksums.sha512=958d98f5702dba1938ea23fd7cb588be90d32bfa1ea972188531fd91bed990f6cdc2d65db94a1fc986da04c32d510ff95bb5ff56a7b256faa0162095f445ec35
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-docck-plugin-1.2.jar
+outputs.1.length=35215
+outputs.1.checksums.sha512=fd3b00bfa07340570e4f7ae35dbc78c6da71ac932981aebc512cc8d717bfd17e9a44ef85dbb8ff8cd397dc810453672985bd1eb52cc6eaf68290b100243055fd
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-docck-plugin-1.2-source-release.zip
+outputs.2.length=50243
+outputs.2.checksums.sha512=46d97660c8a4a144957e6585958cf5cf3798b6971d21fa9f55f097938ce021ff533d19705f0f456e1b80e968bf24bb2d6c90ae80b484e6ab839ab2ee50ac6527
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-docck-plugin-1.2-sources.jar
+outputs.3.length=26391
+outputs.3.checksums.sha512=4c745896bf61d61efe0729bc33fa21d72fef8e4bd4445436ce7ed97e52cf7f2a6d0683954cfd7252caa28200d93ec7a10c9d8a50f4cbf70028c9686d7693ae48
