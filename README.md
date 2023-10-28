@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2690 releases** of **552 projects**:
-   - **2096** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **2694 releases** of **554 projects**:
+   - **2100** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 594 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 552 projects, 446 have at least one fully reproducible release, 106 have none
+   - on 554 projects, 448 have at least one fully reproducible release, 106 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -171,7 +171,7 @@ Its objectives are to provide:
 | dev.cdevents | <a name='dev.cdevents:cdevents-sdk-java'></a>[cdevents-sdk-java](content/dev/cdevents/cdevents-sdk-java/README.md) | 1 | 1 :warning: |
 | dev.sigstore | <a name='dev.sigstore:sigstore-maven-plugin'></a>[sigstore-maven-plugin](content/dev/sigstore/sigstore-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | eu.europa.ted.eforms | <a name='eu.europa.ted.eforms:eforms-core-java'></a>[eforms-core-java](content/eu/europa/ted/eforms/eforms-core-java/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
-| | <a name='eu.europa.ted.eforms:eforms-sdk'></a>[eforms-sdk](content/eu/europa/ted/eforms/eforms-sdk/README.md) | 10 | 9 :heavy_check_mark: / 1 :warning: |
+| | <a name='eu.europa.ted.eforms:eforms-sdk'></a>[eforms-sdk](content/eu/europa/ted/eforms/eforms-sdk/README.md) | 11 | 10 :heavy_check_mark: / 1 :warning: |
 | | <a name='eu.europa.ted.eforms:efx-toolkit-java'></a>[efx-toolkit-java](content/eu/europa/ted/eforms/efx-toolkit-java/README.md) | 1 | 1 :warning: |
 | eu.maveniverse.maven.mima | <a name='eu.maveniverse.maven.mima:mima'></a>[mima](content/eu/maveniverse/maven/mima/README.md) | 20 | 20 :heavy_check_mark: |
 | fr.inria.gforge.spoon | <a name='fr.inria.gforge.spoon:spoon-core'></a>[spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 4 | 2 :heavy_check_mark: / 2 :warning: |
@@ -239,7 +239,7 @@ Its objectives are to provide:
 | org.alluxio | <a name='org.alluxio:alluxio-parent'></a>[alluxio-parent](content/org/alluxio/alluxio/README.md) | 5 | 5 :heavy_check_mark: |
 | org.antlr | <a name='org.antlr:antlr4-master'></a>[antlr4-master](content/org/antlr/antlr4/README.md) | 3 | 1 :heavy_check_mark: / 2 :warning: |
 | org.apache.accumulo | <a name='org.apache.accumulo:accumulo'></a>[accumulo](content/org/apache/accumulo/README.md) | 7 | 3 :heavy_check_mark: / 4 :warning: |
-| org.apache.activemq | <a name='org.apache.activemq:activemq-parent'></a>[activemq-parent](content/org/apache/activemq/README.md) | 8 | 1 :heavy_check_mark: / 7 :warning: |
+| org.apache.activemq | <a name='org.apache.activemq:activemq-parent'></a>[activemq-parent](content/org/apache/activemq/README.md) | 9 | 2 :heavy_check_mark: / 7 :warning: |
 | org.apache.any23 | <a name='org.apache.any23:apache-any23'></a>[apache-any23](content/org/apache/any23/README.md) | 1 | 1 :warning: |
 | org.apache | <a name='org.apache:apache'></a>[apache](content/org/apache/apache/README.md) | 8 | 7 :heavy_check_mark: / 1 :warning: |
 | org.apache.avro | <a name='org.apache.avro:avro-toplevel'></a>[avro-toplevel](content/org/apache/avro/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
@@ -322,6 +322,7 @@ Its objectives are to provide:
 | | <a name='org.apache.maven.plugins:maven-compiler-plugin'></a>[maven-compiler-plugin](content/org/apache/maven/plugins/maven-compiler-plugin/README.md) | 4 | 4 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-dependency-plugin'></a>[maven-dependency-plugin](content/org/apache/maven/plugins/maven-dependency-plugin/README.md) | 7 | 7 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-deploy-plugin'></a>[maven-deploy-plugin](content/org/apache/maven/plugins/maven-deploy-plugin/README.md) | 4 | 4 :heavy_check_mark: |
+| | <a name='org.apache.maven.plugins:maven-docck-plugin'></a>[maven-docck-plugin](content/org/apache/maven/plugins/maven-docck-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-ear-plugin'></a>[maven-ear-plugin](content/org/apache/maven/plugins/maven-ear-plugin/README.md) | 3 | 3 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-ejb-plugin'></a>[maven-ejb-plugin](content/org/apache/maven/plugins/maven-ejb-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | <a name='org.apache.maven.plugins:maven-gpg-plugin'></a>[maven-gpg-plugin](content/org/apache/maven/plugins/maven-gpg-plugin/README.md) | 2 | 2 :warning: |
@@ -519,6 +520,7 @@ Its objectives are to provide:
 | org.fusesource.jansi | <a name='org.fusesource.jansi:jansi'></a>[jansi](content/org/fusesource/jansi/jansi/README.md) | 8 | 5 :heavy_check_mark: / 3 :warning: |
 | org.glassfish.hk2 | <a name='org.glassfish.hk2:hk2-parent'></a>[hk2-parent](content/org/glassfish/hk2/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | org.glassfish.main | <a name='org.glassfish.main:glassfish-parent'></a>[glassfish-parent](content/org/glassfish/main/README.md) | 4 | 4 :warning: |
+| org.glassfish.build | <a name='org.glassfish.build:glassfishbuild-maven-plugin'></a>[glassfishbuild-maven-plugin](content/org/glassfish/build/glassfishbuild-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | org.jline | <a name='org.jline:jline-parent'></a>[jline-parent](content/org/jline/jline/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | org.jrivard.xmlchai | <a name='org.jrivard.xmlchai:xmlchai'></a>[xmlchai](content/org/jrivard/xmlchai/README.md) | 2 | 2 :warning: |
 | org.junit | <a name='org.junit:junit-bom'></a>[junit-bom](content/org/junit/junit5/README.md) | 1 | 1 :warning: |
@@ -575,7 +577,7 @@ Its objectives are to provide:
 | tel.schich | <a name='tel.schich:javacan'></a>[javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | <a name='us.abstracta.jmeter:jmeter-java-dsl-parent'></a>[jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 26 | 26 :heavy_check_mark: |
 | world.convex | <a name='world.convex:convex'></a>[convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **552** | **2690** | **2096** :heavy_check_mark: **594** :warning: |
+| **Count:** | **554** | **2694** | **2100** :heavy_check_mark: **594** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -587,9 +589,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      22 gradle     11
      26 mvn         7
-   1015 mvn         8
+   1016 mvn         8
       1 mvn         9
-    812 mvn        11
+    814 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.6
       1 mvn        13
@@ -626,7 +628,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn-3.9.2   8
      16 mvn-3.9.2  17
      15 mvn-3.9.3   8
-     27 mvn-3.9.3  11
+     28 mvn-3.9.3  11
       1 mvn-3.9.3  11.0.18
       4 mvn-3.9.3  11.0.5
       5 mvn-3.9.3  11.0.6

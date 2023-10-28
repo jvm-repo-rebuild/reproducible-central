@@ -13,6 +13,7 @@ rebuilding **1 releases** of com.github.veithen.maven:xjc-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.2.1](https://central.sonatype.com/artifact/com.github.veithen.maven/xjc-maven-plugin/0.2.1/pom) | | | |
 | [0.2.0](https://central.sonatype.com/artifact/com.github.veithen.maven/xjc-maven-plugin/0.2.0/pom) | [mvn jdk17](xjc-maven-plugin-0.2.0.buildspec) | [result](xjc-maven-plugin-0.2.0.buildinfo): [4 :heavy_check_mark: ](xjc-maven-plugin-0.2.0.buildcompare) | 36K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
