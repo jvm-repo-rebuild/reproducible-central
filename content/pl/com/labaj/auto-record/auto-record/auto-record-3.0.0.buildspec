@@ -1,0 +1,21 @@
+groupId=pl.com.labaj
+artifactId=auto-record
+version=3.0.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/pawellabaj/auto-record.git
+gitTag=v${version}
+
+tool=mvn
+jdk=17
+newline=lf
+umask=022
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dbuildinfo.detect.skip=false"
+buildinfo=target/${artifactId}-project-${version}.buildinfo
+# require https://issues.apache.org/jira/browse/MARTIFACT-52 to configure module ignore by hand
+# and in future releases, use more standard ways to skip publish to Maven Central: don't configure skip deploy (nexusstaging does it), use property to disable publication instead of phase none
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=

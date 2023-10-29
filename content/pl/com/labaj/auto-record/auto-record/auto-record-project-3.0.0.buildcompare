@@ -1,0 +1,17 @@
+version=3.0.0
+ok=21
+ko=8
+ignored=0
+okFiles="auto-record-project-3.0.0.pom auto-record-api-3.0.0.pom auto-record-api-3.0.0.jar auto-record-api-3.0.0-sources.jar auto-record-utils-3.0.0.pom auto-record-utils-3.0.0.jar auto-record-utils-3.0.0-sources.jar auto-record-3.0.0.pom auto-record-3.0.0.jar auto-record-3.0.0-sources.jar arice-project-1.0.0.pom arice-api-1.0.0.pom arice-api-1.0.0.jar arice-api-1.0.0-sources.jar arice-utils-1.0.0.pom arice-utils-1.0.0.jar arice-utils-1.0.0-sources.jar arice-extension-1.0.0.pom arice-extension-1.0.0.jar arice-extension-1.0.0-sources.jar mvn-aggregation-3.0.0.pom"
+koFiles="auto-record-tests-3.0.0.pom auto-record-tests-3.0.0.jar auto-record-tests-3.0.0-sources.jar arice-tests-1.0.0.pom arice-tests-1.0.0.jar doc-examples-3.0.0.pom doc-examples-3.0.0.jar doc-examples-3.0.0-sources.jar"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/pl.com.labaj.autorecord/auto-record-tests-3.0.0.pom modules/auto-record-tests/pom.xml
+# diffoscope target/reference/pl.com.labaj.autorecord/auto-record-tests-3.0.0.jar modules/auto-record-tests/target/auto-record-tests-3.0.0.jar
+# diffoscope target/reference/pl.com.labaj.autorecord/auto-record-tests-3.0.0-sources.jar modules/auto-record-tests/target/auto-record-tests-3.0.0-sources.jar
+# diffoscope target/reference/pl.com.labaj.autorecord/arice-tests-1.0.0.pom arice/tests/pom.xml
+# diffoscope target/reference/pl.com.labaj.autorecord/arice-tests-1.0.0.jar arice/tests/target/arice-tests-1.0.0.jar
+# diffoscope target/reference/pl.com.labaj.autorecord/doc-examples-3.0.0.pom modules/doc-examples/pom.xml
+# diffoscope target/reference/pl.com.labaj.autorecord/doc-examples-3.0.0.jar modules/doc-examples/target/doc-examples-3.0.0.jar
+# diffoscope target/reference/pl.com.labaj.autorecord/doc-examples-3.0.0-sources.jar modules/doc-examples/target/doc-examples-3.0.0-sources.jar
