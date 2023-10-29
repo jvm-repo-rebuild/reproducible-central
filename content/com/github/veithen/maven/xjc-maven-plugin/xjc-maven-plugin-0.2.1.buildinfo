@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=xjc-maven-plugin
+group-id=com.github.veithen.maven
+artifact-id=xjc-maven-plugin
+version=0.2.1
+
+# source information
+source.scm.uri=scm:git:http://github.com/veithen/xjc-maven-plugin.git
+source.scm.tag=0.2.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=com.github.veithen.maven
+outputs.0.filename=xjc-maven-plugin-0.2.1.pom
+outputs.0.length=5225
+outputs.0.checksums.sha512=58c25f42facedbba97675d1b43ebc5b3a7ca5c9b92148349867e52f78d12b761e6d2eda933643212ab157bd9b26b2342c5a0d755ccba2389ce9f6702a6f502cf
+
+outputs.1.groupId=com.github.veithen.maven
+outputs.1.filename=xjc-maven-plugin-0.2.1.jar
+outputs.1.length=10681
+outputs.1.checksums.sha512=5398d9616208d7fe8904a9aea9e2ae2adc048ec0cc94679364fcfd3071fa41614c2f5e3340090cd7249494e50d1e933192297fb5e864c30c94858c21d8281cf3
+
+outputs.2.groupId=com.github.veithen.maven
+outputs.2.filename=xjc-maven-plugin-0.2.1-sources.jar
+outputs.2.length=7436
+outputs.2.checksums.sha512=29348a91fd68f1ff42251638ef399fcec91b3eb8d373da92519b22c6e38877f4c9e56b518f32f4f0d0e5c309935db73ab4615c42e3b93d291d2f1f1b49be2f37
+
+outputs.3.groupId=com.github.veithen.maven
+outputs.3.filename=xjc-maven-plugin-0.2.1-source-release.zip
+outputs.3.length=17848
+outputs.3.checksums.sha512=aae1ecb6fad82328b62f04b60349d4cb3200f5a607b860c0c26e103f71e193cedd5467b0856fa98d4a9db7b2648a4d033d633db20712a2af2bad55e47787ccfa

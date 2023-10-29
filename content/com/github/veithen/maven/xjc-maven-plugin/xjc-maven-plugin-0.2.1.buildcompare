@@ -1,0 +1,9 @@
+version=0.2.1
+ok=4
+ko=0
+ignored=0
+okFiles="xjc-maven-plugin-0.2.1.pom xjc-maven-plugin-0.2.1.jar xjc-maven-plugin-0.2.1-sources.jar xjc-maven-plugin-0.2.1-source-release.zip"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
