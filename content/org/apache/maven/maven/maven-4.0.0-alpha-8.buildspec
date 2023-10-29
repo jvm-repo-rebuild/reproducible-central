@@ -1,0 +1,22 @@
+groupId=org.apache.maven
+artifactId=maven
+display=${groupId}:${artifactId}
+version=4.0.0-alpha-8
+
+gitRepo=https://github.com/apache/${artifactId}.git
+gitTag=${artifactId}-${version}
+sourceDistribution=https://archive.apache.org/dist/maven/maven-4/${version}/source/apache-maven-${version}-src.zip
+sourcePath=apache-maven-${version}
+sourceRmFiles=DEPENDENCIES
+
+tool=mvn-4.0.0-alpha-8
+jdk=21
+newline=lf
+umask=022
+
+buildNumber="a2cbf4873a99c1aca7e3908086fe53b17865f07a"
+command="SHELL mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -DbuildNumber=${buildNumber}"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
