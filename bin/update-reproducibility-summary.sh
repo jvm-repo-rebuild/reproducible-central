@@ -180,7 +180,7 @@ do
     groupId="${groupId%.*}"
   fi
   [[ "$groupId" != "$prevGroupId" ]] && prevGroupId="$groupId" && echo -n " ${groupId}" >> ${summary}
-  echo -n " | <a name='${groupId}:${artifactId}'></a>[${artifactId}](${dir}/README.md)" | sed -e "s/\[$groupId/[*/" >> ${summary}
+  echo -n " | [${artifactId}](${dir}/README.md)" | sed -e "s/\[$groupId/[*/" >> ${summary}
   echo -n " | ${countVersion} | " >> ${summary}
   if [ "${countVersionOk}" == "0" ]
   then
