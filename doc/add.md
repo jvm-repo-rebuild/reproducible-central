@@ -4,6 +4,10 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20231030181740 --> [github-client](../content/com/spotify/github-client/README.md) | [0.1.61](../content/com/spotify/github-client/github-client-0.1.61.buildspec) :heavy_check_mark: | [0.1.62](../content/com/spotify/github-client/github-client-0.1.62.buildspec) | `bin/add-new-release.sh content/com/spotify/github-client/github-client-0.1.61.buildspec 0.1.62` |
+| <!-- 20231030115417 --> [qpid-jms-parent](../content/org/apache/qpid/jms/README.md) | [2.4.0](../content/org/apache/qpid/jms/qpid-jms-2.4.0.buildspec) :heavy_check_mark: | [2.5.0](../content/org/apache/qpid/jms/qpid-jms-2.5.0.buildspec) | `bin/add-new-release.sh content/org/apache/qpid/jms/qpid-jms-2.4.0.buildspec 2.5.0` |
+| <!-- 20231030005040 --> [cyclonedx-maven-plugin](../content/org/cyclonedx/cyclonedx-maven-plugin/README.md) | [2.7.9](../content/org/cyclonedx/cyclonedx-maven-plugin/cyclonedx-maven-plugin-2.7.9.buildspec) :heavy_check_mark: | [2.7.10](../content/org/cyclonedx/cyclonedx-maven-plugin/cyclonedx-maven-plugin-2.7.10.buildspec) | `bin/add-new-release.sh content/org/cyclonedx/cyclonedx-maven-plugin/cyclonedx-maven-plugin-2.7.9.buildspec 2.7.10` |
+| <!-- 20231029204640 --> [com.io7m.primogenitor](../content/com/io7m/primogenitor/README.md) | [8.0.0](../content/com/io7m/primogenitor/com.io7m.primogenitor-8.0.0.buildspec) :heavy_check_mark: | [8.1.0](../content/com/io7m/primogenitor/com.io7m.primogenitor-8.1.0.buildspec) | `bin/add-new-release.sh content/com/io7m/primogenitor/com.io7m.primogenitor-8.0.0.buildspec 8.1.0` |
 | <!-- 20231029013417 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.1](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec) :heavy_check_mark: | [10.4.3-beta-4](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.3-beta-4.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.1.buildspec 10.4.3-beta-4` |
 | <!-- 20231006101028 --> [bnd-plugin-parent](../content/biz/aQute/bnd/plugins/README.md) | [6.4.0](../content/biz/aQute/bnd/plugins/bnd-plugins-6.4.0.buildspec) :heavy_check_mark: | [7.0.0](../content/biz/aQute/bnd/plugins/bnd-plugins-7.0.0.buildspec) | `bin/add-new-release.sh content/biz/aQute/bnd/plugins/bnd-plugins-6.4.0.buildspec 7.0.0` |
 | <!-- 20230911001855 --> [alluxio-parent](../content/org/alluxio/alluxio/README.md) | [303](../content/org/alluxio/alluxio/alluxio-303.buildspec) :heavy_check_mark: | [304](../content/org/alluxio/alluxio/alluxio-304.buildspec) | `bin/add-new-release.sh content/org/alluxio/alluxio/alluxio-303.buildspec 304` |
@@ -12,9 +16,11 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20231030160805 --> [jetty-project](../content/org/eclipse/jetty/jetty-project/README.md) | [12.0.2](../content/org/eclipse/jetty/jetty-project/jetty-project-12.0.2.buildspec) :warning: [:memo:](https://github.com/jetty/jetty.project/pull/10769) | [12.0.3](../content/org/eclipse/jetty/jetty-project/jetty-project-12.0.3.buildspec) | `bin/add-new-release.sh content/org/eclipse/jetty/jetty-project/jetty-project-12.0.2.buildspec 12.0.3` |
+| <!-- 20231030134542 --> [glassfish-parent](../content/org/glassfish/main/README.md) | [7.0.9](../content/org/glassfish/main/glassfish-7.0.9.buildspec) :warning: [:memo:](https://github.com/eclipse-ee4j/glassfish/issues/24615) | [7.0.10](../content/org/glassfish/main/glassfish-7.0.10.buildspec) | `bin/add-new-release.sh content/org/glassfish/main/glassfish-7.0.9.buildspec 7.0.10` |
+| <!-- 20231030095210 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.1.0](../content/org/apache/camel/camel/camel-4.1.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.1.0` |
 | <!-- 20231028225919 --> [jooby](../content/io/jooby/README.md) | [3.0.5](../content/io/jooby/jooby-3.0.5.buildspec) :warning: | [3.0.6](../content/io/jooby/jooby-3.0.6.buildspec) | `bin/add-new-release.sh content/io/jooby/jooby-3.0.5.buildspec 3.0.6` |
 | <!-- 20231027230007 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.32.2](../content/org/finos/legend/engine/legend-engine-4.32.2.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.32.2` |
-| <!-- 20231027091712 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.1.0](../content/org/apache/camel/camel/camel-4.1.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.1.0` |
 | <!-- 20231026141106 --> [kubernetes-client-project](../content/io/fabric8/kubernetes-client/README.md) | [6.4.0](../content/io/fabric8/kubernetes-client/kubernetes-client-6.4.0.buildspec) :warning: | [6.9.1](../content/io/fabric8/kubernetes-client/kubernetes-client-6.9.1.buildspec) | `bin/add-new-release.sh content/io/fabric8/kubernetes-client/kubernetes-client-6.4.0.buildspec 6.9.1` |
 | <!-- 20231025205534 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | [6.0.14](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.0.14.buildspec) :warning: | [6.3.0](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.3.0.buildspec) | `bin/add-new-release.sh content/com/adobe/acs/aem-commons/acs-aem-commons-6.0.14.buildspec 6.3.0` |
 | <!-- 20231020223609 --> [jackson-jr-parent](../content/com/fasterxml/jackson/jr/README.md) | [2.15.2](../content/com/fasterxml/jackson/jr/jackson-jr-2.15.2.buildspec) :warning: | [2.16.0-rc1](../content/com/fasterxml/jackson/jr/jackson-jr-2.16.0-rc1.buildspec) | `bin/add-new-release.sh content/com/fasterxml/jackson/jr/jackson-jr-2.15.2.buildspec 2.16.0-rc1` |
@@ -59,7 +65,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
-| <!-- 20231027141156 --> [artemis-pom](../content/org/apache/activemq/artemis/README.md) | 2.31.2 :warning: [:memo:](https://github.com/apache/activemq-artemis/pull/4620) |
+| <!-- 20231027141156 --> [artemis-pom](../content/org/apache/activemq/artemis/README.md) | 2.31.2 :warning: |
 | <!-- 20231024115727 --> [log4j](../content/org/apache/logging/log4j/log4j/README.md) | 3.0.0-alpha1 :warning: |
 | <!-- 20231021094255 --> [git-commit-id-maven-plugin](../content/io/github/git-commit-id/README.md) | 7.0.0 :warning: |
 | <!-- 20231020224602 --> [jackson-databind](../content/com/fasterxml/jackson/databind/README.md) | 2.16.0-rc1 :warning: [:memo:](https://github.com/moditect/moditect/issues/199) |
@@ -68,12 +74,10 @@ New Releases To Add
 | <!-- 20231016124818 --> [flexmonster](../content/org/webjars/flexmonster/README.md) | 2.9.62 :warning: |
 | <!-- 20231012084342 --> [jansi](../content/org/fusesource/jansi/jansi/README.md) | 2.4.1 :warning: [:memo:](https://github.com/moditect/moditect/pull/211) |
 | <!-- 20231011043148 --> [jackrabbit-parent](../content/org/apache/jackrabbit/jackrabbit/README.md) | 2.21.20 :warning: [:memo:](https://github.com/apache/jackrabbit/pull/139) |
-| <!-- 20231010041855 --> [jetty-project](../content/org/eclipse/jetty/jetty-project/README.md) | 12.0.2 :warning: [:memo:](https://github.com/jetty/jetty.project/pull/10769) |
 | <!-- 20231009100347 --> [parent](../content/org/apache/zookeeper/README.md) | 3.9.1 :warning: [:memo:](https://github.com/apache/zookeeper/pull/2042) |
 | <!-- 20231005105951 --> [commons-net](../content/org/apache/commons/net/README.md) | 3.10.0 :warning: |
 | <!-- 20231004141306 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.1.5 :warning: [:memo:](https://github.com/smallrye/smallrye-parent/pull/420) |
 | <!-- 20231002152255 --> [syncope](../content/org/apache/syncope/README.md) | 3.0.5 :warning: |
-| <!-- 20230929141506 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 7.0.9 :warning: [:memo:](https://github.com/eclipse-ee4j/glassfish/issues/24615) |
 | <!-- 20230929050801 --> [helix](../content/org/apache/helix/README.md) | 1.3.1 :warning: |
 | <!-- 20230927125008 --> [migratedb](../content/de/unentscheidbar/migratedb/README.md) | 0.3.0 :warning: |
 | <!-- 20230927091326 --> [hsac-fitnesse-fixtures](../content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 5.2.45 :warning: |
