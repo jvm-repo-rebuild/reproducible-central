@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2700 releases** of **554 projects**:
-   - **2104** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **2704 releases** of **554 projects**:
+   - **2108** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 596 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 554 projects, 448 have at least one fully reproducible release, 106 have none
 
@@ -123,7 +123,7 @@ Its objectives are to provide:
 | | [*.mesquida](content/com/io7m/mesquida/README.md) | 1 | 1 :heavy_check_mark: |
 | | [*.mime2045](content/com/io7m/mime2045/README.md) | 2 | 2 :heavy_check_mark: |
 | | [*.percentpass](content/com/io7m/percentpass/README.md) | 3 | 3 :heavy_check_mark: |
-| | [*.primogenitor](content/com/io7m/primogenitor/README.md) | 31 | 31 :heavy_check_mark: |
+| | [*.primogenitor](content/com/io7m/primogenitor/README.md) | 32 | 32 :heavy_check_mark: |
 | | [*.quarrel](content/com/io7m/quarrel/README.md) | 7 | 7 :heavy_check_mark: |
 | | [*.quixote](content/com/io7m/quixote/README.md) | 3 | 3 :heavy_check_mark: |
 | | [*.repetoir](content/com/io7m/repetoir/README.md) | 2 | 2 :heavy_check_mark: |
@@ -162,7 +162,7 @@ Its objectives are to provide:
 | | [semanticcms-tag-reference](content/com/semanticcms/semanticcms-tag-reference/README.md) | 1 | 1 :warning: |
 | | [semanticcms-tag-reference-book](content/com/semanticcms/semanticcms-tag-reference-book/README.md) | 1 | 1 :heavy_check_mark: |
 | com.spotify.fmt | [fmt-maven-plugin](content/com/spotify/fmt-maven-plugin/README.md) | 3 | 3 :heavy_check_mark: |
-| com.spotify | [github-client](content/com/spotify/github-client/README.md) | 16 | 16 :heavy_check_mark: |
+| com.spotify | [github-client](content/com/spotify/github-client/README.md) | 17 | 17 :heavy_check_mark: |
 | com.taobao.arthas | [arthas-all](content/com/taobao/arthas/README.md) | 14 | 14 :warning: |
 | com.vladsch.flexmark | [flexmark-java](content/com/vladsch/flexmark/flexmark-java/README.md) | 4 | 4 :heavy_check_mark: |
 | de.jflex | [jflex-parent](content/de/jflex/README.md) | 1 | 1 :heavy_check_mark: |
@@ -373,7 +373,7 @@ Its objectives are to provide:
 | org.apache.plc4x.plugins | [plc4x-code-generation](content/org/apache/plc4x/plc4x-code-generation/README.md) | 2 | 2 :heavy_check_mark: |
 | | [plc4x-code-generaton](content/org/apache/plc4x/plc4x-code-generaton/README.md) | 1 | 1 :heavy_check_mark: |
 | | [plc4x-site-skin](content/org/apache/plc4x/plc4x-site-skin/README.md) | 1 | 1 :heavy_check_mark: |
-| org.apache.qpid | [qpid-jms-parent](content/org/apache/qpid/jms/README.md) | 8 | 8 :heavy_check_mark: |
+| org.apache.qpid | [qpid-jms-parent](content/org/apache/qpid/jms/README.md) | 9 | 9 :heavy_check_mark: |
 | | [proton-j-parent](content/org/apache/qpid/proton-j/README.md) | 2 | 2 :heavy_check_mark: |
 | | [protonj2-parent](content/org/apache/qpid/protonj2/README.md) | 9 | 8 :heavy_check_mark: / 1 :warning: |
 | org.apache.royale.compiler | [compiler](content/org/apache/royale/compiler/README.md) | 2 | 2 :warning: |
@@ -512,7 +512,7 @@ Its objectives are to provide:
 | org.complate | [complate-core](content/org/complate/java/README.md) | 3 | 3 :heavy_check_mark: |
 | | [complate-spring-mvc](content/org/complate/spring/README.md) | 2 | 2 :heavy_check_mark: |
 | org.cyclonedx | [cyclonedx-core-java](content/org/cyclonedx/cyclonedx-core-java/README.md) | 32 | 32 :heavy_check_mark: |
-| | [cyclonedx-maven-plugin](content/org/cyclonedx/cyclonedx-maven-plugin/README.md) | 21 | 21 :heavy_check_mark: |
+| | [cyclonedx-maven-plugin](content/org/cyclonedx/cyclonedx-maven-plugin/README.md) | 22 | 22 :heavy_check_mark: |
 | org.eclipse.jkube | [jkube](content/org/eclipse/jkube/README.md) | 19 | 19 :heavy_check_mark: |
 | org.eclipse.transformer | [*.parent](content/org/eclipse/transformer/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | org.eclipse.jetty | [jetty-project](content/org/eclipse/jetty/jetty-project/README.md) | 2 | 2 :warning: |
@@ -573,12 +573,12 @@ Its objectives are to provide:
 | | [webjars-locator](content/org/webjars/webjars-locator/README.md) | 3 | 3 :heavy_check_mark: |
 | | [webjars-locator-core](content/org/webjars/webjars-locator-core/README.md) | 3 | 3 :heavy_check_mark: |
 | pl.com.labaj | [auto-record](content/pl/com/labaj/auto-record/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
-| | [auto-record](content/pl/com/labaj/auto-record/auto-record/README.md) | 0 | 0 :warning: |
+|  | [*](content/pl/com/labaj/autorecord/auto-record/README.md) | 0 | 0 :warning: |
 | tech.picnic.error-prone-support | [error-prone-support](content/tech/picnic/error-prone-support/error-prone-support/README.md) | 12 | 12 :heavy_check_mark: |
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 26 | 26 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **554** | **2700** | **2104** :heavy_check_mark: **596** :warning: |
+| **Count:** | **554** | **2704** | **2108** :heavy_check_mark: **596** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -592,14 +592,14 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      26 mvn         7
    1016 mvn         8
       1 mvn         9
-    815 mvn        11
+    817 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.6
       1 mvn        13
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    201 mvn        17
+    202 mvn        17
       2 mvn        17.0.7
       1 mvn        17.0.8
       1 mvn        17.0.8.1
@@ -648,7 +648,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       9 mvn-3.9.3  17.0.8
       1 mvn-3.9.3  17.0.8.1
       2 mvn-3.9.3  19
-      7 mvn-3.9.3  21
+      8 mvn-3.9.3  21
       2 mvn-3.9.4   8
       2 mvn-3.9.4  17.0.7
       1 mvn-3.9.4  20
