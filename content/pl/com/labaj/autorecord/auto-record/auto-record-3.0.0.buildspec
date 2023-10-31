@@ -1,6 +1,6 @@
-groupId=pl.com.labaj
+groupId=pl.com.labaj.autorecord
 artifactId=auto-record
-version=3.1.0
+version=3.0.0
 
 display=${groupId}:${artifactId}
 
