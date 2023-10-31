@@ -1,0 +1,48 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=CycloneDX Maven plugin
+group-id=org.cyclonedx
+artifact-id=cyclonedx-maven-plugin
+version=2.7.10
+
+# source information
+source.scm.uri=scm:git:git@github.com:CycloneDX/cyclonedx-maven-plugin.git
+source.scm.tag=cyclonedx-maven-plugin-2.7.10
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.1
+
+# output
+
+outputs.0.groupId=org.cyclonedx
+outputs.0.filename=cyclonedx-maven-plugin-2.7.10.pom
+outputs.0.length=17320
+outputs.0.checksums.sha512=7161c0a8af7e500e816c9d37a9e69839da87c2a48d48da5866e4256717dbe92134689f1f866688f5798281a7cb113cc084a2f51aa8b8150085e53ab49d9b39b4
+
+outputs.1.groupId=org.cyclonedx
+outputs.1.filename=cyclonedx-maven-plugin-2.7.10.jar
+outputs.1.length=46567
+outputs.1.checksums.sha512=9cde8352a427e10b96cae01348fc7cfe5d4aa9cd0a5e5dd93b414ce3bb7d112993c3b3004e53af52567fbfa16de0704ec59a5556a635ad70571fd124ae389f39
+
+outputs.2.groupId=org.cyclonedx
+outputs.2.filename=cyclonedx-maven-plugin-2.7.10-cyclonedx.xml
+outputs.2.length=129894
+outputs.2.checksums.sha512=bd80369c76f3201ef22fcc04876905a4a4f38bd4a135c5a1773ef4fb0d77be21984d3d01b14890c93c2f2cfc6dc803631fa9a9a131b35251f923db104440d129
+
+outputs.3.groupId=org.cyclonedx
+outputs.3.filename=cyclonedx-maven-plugin-2.7.10-cyclonedx.json
+outputs.3.length=151026
+outputs.3.checksums.sha512=1ce8116e71f9a11765995b3ff514d8d6c390f03d396a253cb9d11adf9e2594b342902d64da68120853acd66cb9081537d89d34b50491e861dcec82820a709764
+
+outputs.4.groupId=org.cyclonedx
+outputs.4.filename=cyclonedx-maven-plugin-2.7.10-sources.jar
+outputs.4.length=27312
+outputs.4.checksums.sha512=1f79daf29d49b968ac455725ac1a06ad9160714d1e7c7004c7b0323d0b60a972a46eb60dc4ea3af9b65d856a827f91757f066797701978d72af2617940569021
