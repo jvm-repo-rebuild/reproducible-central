@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2704 releases** of **554 projects**:
-   - **2108** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 596 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 554 projects, 448 have at least one fully reproducible release, 106 have none
+   rebuilding **2707 releases** of **555 projects**:
+   - **2109** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 598 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - on 555 projects, 448 have at least one fully reproducible release, 107 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -173,7 +173,7 @@ Its objectives are to provide:
 | eu.europa.ted.eforms | [eforms-core-java](content/eu/europa/ted/eforms/eforms-core-java/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
 | | [eforms-sdk](content/eu/europa/ted/eforms/eforms-sdk/README.md) | 11 | 10 :heavy_check_mark: / 1 :warning: |
 | | [efx-toolkit-java](content/eu/europa/ted/eforms/efx-toolkit-java/README.md) | 1 | 1 :warning: |
-| eu.maveniverse.maven.mima | [mima](content/eu/maveniverse/maven/mima/README.md) | 20 | 20 :heavy_check_mark: |
+| eu.maveniverse.maven.mima | [mima](content/eu/maveniverse/maven/mima/README.md) | 21 | 21 :heavy_check_mark: |
 | fr.inria.gforge.spoon | [spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 4 | 2 :heavy_check_mark: / 2 :warning: |
 | fr.marcwrobel | [jbanking](content/fr/marcwrobel/jbanking/README.md) | 1 | 1 :heavy_check_mark: |
 | fr.vidal.oss | [atom-jaxb](content/fr/vidal/oss/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
@@ -573,12 +573,12 @@ Its objectives are to provide:
 | | [webjars-locator](content/org/webjars/webjars-locator/README.md) | 3 | 3 :heavy_check_mark: |
 | | [webjars-locator-core](content/org/webjars/webjars-locator-core/README.md) | 3 | 3 :heavy_check_mark: |
 | pl.com.labaj | [auto-record](content/pl/com/labaj/auto-record/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
-|  | [*](content/pl/com/labaj/autorecord/auto-record/README.md) | 0 | 0 :warning: |
+| pl.com.labaj.autorecord | [auto-record](content/pl/com/labaj/autorecord/auto-record/README.md) | 2 | 2 :warning: |
 | tech.picnic.error-prone-support | [error-prone-support](content/tech/picnic/error-prone-support/error-prone-support/README.md) | 12 | 12 :heavy_check_mark: |
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 26 | 26 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **554** | **2704** | **2108** :heavy_check_mark: **596** :warning: |
+| **Count:** | **555** | **2707** | **2109** :heavy_check_mark: **598** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -599,7 +599,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    202 mvn        17
+    204 mvn        17
       2 mvn        17.0.7
       1 mvn        17.0.8
       1 mvn        17.0.8.1
@@ -625,7 +625,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      51 mvn-3.9.1  17
       1 mvn-3.9.1  19
       6 mvn-3.9.1  20
-      1 mvn-3.9.1  21
+      2 mvn-3.9.1  21
       5 mvn-3.9.2   8
      16 mvn-3.9.2  17
      15 mvn-3.9.3   8

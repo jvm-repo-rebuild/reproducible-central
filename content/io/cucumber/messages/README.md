@@ -13,6 +13,7 @@ rebuilding **3 releases** of io.cucumber:messages:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [23.0.0](https://central.sonatype.com/artifact/io.cucumber/messages/23.0.0/pom) | | | |
 | [22.0.0](https://central.sonatype.com/artifact/io.cucumber/messages/22.0.0/pom) | [mvn jdk11](messages-22.0.0.buildspec) | [result](messages-22.0.0.buildinfo): [3 :heavy_check_mark: ](messages-22.0.0.buildcompare) | 153K |
 | [21.0.1](https://central.sonatype.com/artifact/io.cucumber/messages/21.0.1/pom) | [mvn jdk11](messages-21.0.1.buildspec) | [result](messages-21.0.1.buildinfo): [3 :heavy_check_mark: ](messages-21.0.1.buildcompare) | 153K |
 | [20.0.0](https://central.sonatype.com/artifact/io.cucumber/messages/20.0.0/pom) | [mvn jdk11](messages-20.0.0.buildspec) | [result](messages-20.0.0.buildinfo): [3 :heavy_check_mark: ](messages-20.0.0.buildcompare) | 140K |
