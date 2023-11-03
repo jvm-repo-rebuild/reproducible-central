@@ -1,5 +1,5 @@
 groupId=org.apache.logging.log4j
-artifactId=log4j-bom
+artifactId=log4j
 display=${groupId}:${artifactId}
 version=2.21.0
 
@@ -12,6 +12,6 @@ newline=lf
 umask=022
 
 command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Drevision=${version}"
-buildinfo=target/${artifactId}-${version}.buildinfo
+buildinfo=target/${artifactId}-bom-${version}.buildinfo
 
 issue=
