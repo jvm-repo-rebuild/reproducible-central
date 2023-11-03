@@ -22,6 +22,7 @@ rebuilding **3 releases** of org.codehaus.mojo:mrm:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.6.0](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm/1.6.0/pom) | | | |
 | [1.5.0](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm/1.5.0/pom) | [mvn jdk8](mrm-1.5.0.buildspec) | [result](mrm-1.5.0.buildinfo): [11 :heavy_check_mark: ](mrm-1.5.0.buildcompare) | 378K |
 | [1.4.1](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm/1.4.1/pom) | [mvn jdk8](mrm-1.4.1.buildspec) | [result](mrm-1.4.1.buildinfo): [14 :heavy_check_mark: ](mrm-1.4.1.buildcompare) | 5.3M |
 | [1.4.0](https://central.sonatype.com/artifact/org.codehaus.mojo/mrm/1.4.0/pom) | [mvn jdk11](mrm-1.4.0.buildspec) | [result](mrm-1.4.0.buildinfo): [14 :heavy_check_mark: ](mrm-1.4.0.buildcompare) | 5.2M |

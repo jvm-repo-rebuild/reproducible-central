@@ -9,32 +9,32 @@ Source code: [https://github.com/jline/jline3.git](https://github.com/jline/jlin
 
 <details><summary>This project defines 17 modules:</summary>
 
-* [org.jline:jline](https://central.sonatype.com/artifact/org.jline/jline/3.24.0)
-* [org.jline:jline-builtins](https://central.sonatype.com/artifact/org.jline/jline-builtins/3.24.0)
-* [org.jline:jline-console](https://central.sonatype.com/artifact/org.jline/jline-console/3.24.0)
-* [org.jline:jline-demo](https://central.sonatype.com/artifact/org.jline/jline-demo/3.24.0)
-* [org.jline:jline-graal](https://central.sonatype.com/artifact/org.jline/jline-graal/3.24.0)
-* [org.jline:jline-groovy](https://central.sonatype.com/artifact/org.jline/jline-groovy/3.24.0)
-* [org.jline:jline-native](https://central.sonatype.com/artifact/org.jline/jline-native/3.24.0)
-* [org.jline:jline-parent](https://central.sonatype.com/artifact/org.jline/jline-parent/3.24.0)
-* [org.jline:jline-reader](https://central.sonatype.com/artifact/org.jline/jline-reader/3.24.0)
-* [org.jline:jline-remote-ssh](https://central.sonatype.com/artifact/org.jline/jline-remote-ssh/3.24.0)
-* [org.jline:jline-remote-telnet](https://central.sonatype.com/artifact/org.jline/jline-remote-telnet/3.24.0)
-* [org.jline:jline-style](https://central.sonatype.com/artifact/org.jline/jline-style/3.24.0)
-* [org.jline:jline-terminal](https://central.sonatype.com/artifact/org.jline/jline-terminal/3.24.0)
-* [org.jline:jline-terminal-ffm](https://central.sonatype.com/artifact/org.jline/jline-terminal-ffm/3.24.0)
-* [org.jline:jline-terminal-jansi](https://central.sonatype.com/artifact/org.jline/jline-terminal-jansi/3.24.0)
-* [org.jline:jline-terminal-jna](https://central.sonatype.com/artifact/org.jline/jline-terminal-jna/3.24.0)
-* [org.jline:jline-terminal-jni](https://central.sonatype.com/artifact/org.jline/jline-terminal-jni/3.24.0)
+* [org.jline:jline](https://central.sonatype.com/artifact/org.jline/jline/3.24.1)
+* [org.jline:jline-builtins](https://central.sonatype.com/artifact/org.jline/jline-builtins/3.24.1)
+* [org.jline:jline-console](https://central.sonatype.com/artifact/org.jline/jline-console/3.24.1)
+* [org.jline:jline-demo](https://central.sonatype.com/artifact/org.jline/jline-demo/3.24.1)
+* [org.jline:jline-graal](https://central.sonatype.com/artifact/org.jline/jline-graal/3.24.1)
+* [org.jline:jline-groovy](https://central.sonatype.com/artifact/org.jline/jline-groovy/3.24.1)
+* [org.jline:jline-native](https://central.sonatype.com/artifact/org.jline/jline-native/3.24.1)
+* [org.jline:jline-parent](https://central.sonatype.com/artifact/org.jline/jline-parent/3.24.1)
+* [org.jline:jline-reader](https://central.sonatype.com/artifact/org.jline/jline-reader/3.24.1)
+* [org.jline:jline-remote-ssh](https://central.sonatype.com/artifact/org.jline/jline-remote-ssh/3.24.1)
+* [org.jline:jline-remote-telnet](https://central.sonatype.com/artifact/org.jline/jline-remote-telnet/3.24.1)
+* [org.jline:jline-style](https://central.sonatype.com/artifact/org.jline/jline-style/3.24.1)
+* [org.jline:jline-terminal](https://central.sonatype.com/artifact/org.jline/jline-terminal/3.24.1)
+* [org.jline:jline-terminal-ffm](https://central.sonatype.com/artifact/org.jline/jline-terminal-ffm/3.24.1)
+* [org.jline:jline-terminal-jansi](https://central.sonatype.com/artifact/org.jline/jline-terminal-jansi/3.24.1)
+* [org.jline:jline-terminal-jna](https://central.sonatype.com/artifact/org.jline/jline-terminal-jna/3.24.1)
+* [org.jline:jline-terminal-jni](https://central.sonatype.com/artifact/org.jline/jline-terminal-jni/3.24.1)
 </details>
 
-rebuilding **4 releases** of org.jline:jline-parent:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **5 releases** of org.jline:jline-parent:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.24.1](https://central.sonatype.com/artifact/org.jline/jline-parent/3.24.1/pom) | | | |
+| [3.24.1](https://central.sonatype.com/artifact/org.jline/jline-parent/3.24.1/pom) | [mvn jdk21](jline-3.24.1.buildspec) | [result](jline-parent-3.24.1.buildinfo): [49 :heavy_check_mark: ](jline-parent-3.24.1.buildcompare) | 4.3M |
 | [3.24.0](https://central.sonatype.com/artifact/org.jline/jline-parent/3.24.0/pom) | [mvn jdk21](jline-3.24.0.buildspec) | [result](jline-parent-3.24.0.buildinfo): [49 :heavy_check_mark: ](jline-parent-3.24.0.buildcompare) | 4.3M |
 | [3.23.0](https://central.sonatype.com/artifact/org.jline/jline-parent/3.23.0/pom) | [mvn jdk17](jline-3.23.0.buildspec) | [result](jline-parent-3.23.0.buildinfo): [29 :heavy_check_mark:  14 :warning:](jline-parent-3.23.0.buildcompare) [:mag:](jline-parent-3.23.0.diffoscope) | 3.8M |
 | [3.22.0](https://central.sonatype.com/artifact/org.jline/jline-parent/3.22.0/pom) | | | |
