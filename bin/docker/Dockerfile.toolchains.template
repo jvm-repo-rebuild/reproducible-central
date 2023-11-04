@@ -70,7 +70,8 @@ RUN apt-get -q install -y --no-install-recommends \
     less
 
 # By running the JDKs as a separate command they become a separate layer and thus we have less layers if we need to do more builds.
-RUN apt-get -q install -y --no-install-recommends \
+RUN apt-get -q update \
+    && apt-get -q install -y --no-install-recommends \
     @@JDKPACKAGES@@
 
 # Avoid out of memory errors in builds
