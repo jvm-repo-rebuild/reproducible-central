@@ -4,6 +4,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20231106190824 --> [maven-resolver](../content/org/apache/maven/resolver/maven-resolver/README.md) | [1.9.16](../content/org/apache/maven/resolver/maven-resolver/maven-resolver-1.9.16.buildspec) :heavy_check_mark: | [2.0.0-alpha-1](../content/org/apache/maven/resolver/maven-resolver/maven-resolver-2.0.0-alpha-1.buildspec) | `bin/add-new-release.sh content/org/apache/maven/resolver/maven-resolver/maven-resolver-1.9.16.buildspec 2.0.0-alpha-1` |
 | <!-- 20231105180657 --> [plexus-archiver](../content/org/codehaus/plexus/plexus-archiver/README.md) | [4.8.0](../content/org/codehaus/plexus/plexus-archiver/plexus-archiver-4.8.0.buildspec) :heavy_check_mark: | [4.9.0](../content/org/codehaus/plexus/plexus-archiver/plexus-archiver-4.9.0.buildspec) | `bin/add-new-release.sh content/org/codehaus/plexus/plexus-archiver/plexus-archiver-4.8.0.buildspec 4.9.0` |
 | <!-- 20231105131723 --> [metrics-parent](../content/io/dropwizard/metrics/README.md) | [4.2.21](../content/io/dropwizard/metrics/dropwizard-metrics-4.2.21.buildspec) :heavy_check_mark: | [4.2.22](../content/io/dropwizard/metrics/dropwizard-metrics-4.2.22.buildspec) | `bin/add-new-release.sh content/io/dropwizard/metrics/dropwizard-metrics-4.2.21.buildspec 4.2.22` |
 | <!-- 20231105122107 --> [metrics-parent](../content/io/dropwizard/metrics5/README.md) | [5.0.0-rc17](../content/io/dropwizard/metrics5/dropwizard-metrics-5.0.0-rc17.buildspec) :heavy_check_mark: | [5.0.0](../content/io/dropwizard/metrics5/dropwizard-metrics-5.0.0.buildspec) | `bin/add-new-release.sh content/io/dropwizard/metrics5/dropwizard-metrics-5.0.0-rc17.buildspec 5.0.0` |
@@ -20,6 +21,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20231106202955 --> [maven-javadoc-plugin](../content/org/apache/maven/plugins/maven-javadoc-plugin/README.md) | [3.6.0](../content/org/apache/maven/plugins/maven-javadoc-plugin/maven-javadoc-plugin-3.6.0.buildspec) :warning: [:memo:](https://issues.apache.org/jira/browse/MJAVADOC-774) | [3.6.2](../content/org/apache/maven/plugins/maven-javadoc-plugin/maven-javadoc-plugin-3.6.2.buildspec) | `bin/add-new-release.sh content/org/apache/maven/plugins/maven-javadoc-plugin/maven-javadoc-plugin-3.6.0.buildspec 3.6.2` |
 | <!-- 20231105165732 --> [junit-bom](../content/org/junit/junit5/README.md) | [5.8.2](../content/org/junit/junit5/junit5-5.8.2.buildspec) :warning: | [5.10.1](../content/org/junit/junit5/junit5-5.10.1.buildspec) | `bin/add-new-release.sh content/org/junit/junit5/junit5-5.8.2.buildspec 5.10.1` |
 | <!-- 20231104195323 --> [hsac-fitnesse-fixtures](../content/nl/hsac/hsac-fitnesse-fixtures/README.md) | [5.2.45](../content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.2.45.buildspec) :warning: | [5.3.0](../content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.3.0.buildspec) | `bin/add-new-release.sh content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.2.45.buildspec 5.3.0` |
 | <!-- 20231103225651 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.34.0](../content/org/finos/legend/engine/legend-engine-4.34.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.34.0` |
@@ -88,7 +90,6 @@ New Releases To Add
 | <!-- 20230920083340 --> [karaf](../content/org/apache/karaf/karaf/README.md) | 4.4.4 :warning: [:memo:](https://issues.apache.org/jira/browse/KARAF-7751) |
 | <!-- 20230919083013 --> [camel-k-runtime-project](../content/org/apache/camel/camel-k-runtime/README.md) | 3.2.0 :warning: |
 | <!-- 20230916081916 --> [org.apache.felix.healthcheck.core](../content/org/apache/felix/org.apache.felix.healthcheck.core/README.md) | 2.2.0 :warning: [:memo:](https://github.com/apache/felix-dev/pull/234) |
-| <!-- 20230915162429 --> [maven-javadoc-plugin](../content/org/apache/maven/plugins/maven-javadoc-plugin/README.md) | 3.6.0 :warning: [:memo:](https://issues.apache.org/jira/browse/MJAVADOC-774) |
 | <!-- 20230913004921 --> [java-uuid-generator](../content/com/fasterxml/uuid/README.md) | 4.3.0 :warning: [:memo:](https://github.com/moditect/moditect/issues/199) |
 | <!-- 20230908222901 --> [commons-compress](../content/org/apache/commons/compress/README.md) | 1.24.0 :warning: |
 | <!-- 20230907100604 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | 5.0.0 :warning: |
