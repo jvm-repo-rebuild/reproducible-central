@@ -51,6 +51,7 @@ rebuilding **58 releases** of io.dropwizard:dropwizard-project:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.0.4](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/4.0.4/pom) | | | |
 | [4.0.3](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/4.0.3/pom) | [mvn jdk11](dropwizard-4.0.3.buildspec) | [result](dropwizard-project-4.0.3.buildinfo): [88 :heavy_check_mark: ](dropwizard-project-4.0.3.buildcompare) | 1.5M |
 | [4.0.2](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/4.0.2/pom) | [mvn jdk11](dropwizard-4.0.2.buildspec) | [result](dropwizard-project-4.0.2.buildinfo): [91 :heavy_check_mark: ](dropwizard-project-4.0.2.buildcompare) | 1.5M |
 | [4.0.1](https://central.sonatype.com/artifact/io.dropwizard/dropwizard-project/4.0.1/pom) | [mvn jdk11](dropwizard-4.0.1.buildspec) | [result](dropwizard-project-4.0.1.buildinfo): [91 :heavy_check_mark: ](dropwizard-project-4.0.1.buildcompare) | 1.5M |
