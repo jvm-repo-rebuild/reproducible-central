@@ -34,6 +34,7 @@ rebuilding **26 releases** of us.abstracta.jmeter:jmeter-java-dsl-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.23.2](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.23.2/pom) | | | |
 | [1.23.1](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.23.1/pom) | | | |
 | [1.23](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.23/pom) | [mvn jdk8](jmeter-java-dsl-1.23.buildspec) | [result](jmeter-java-dsl-parent-1.23.buildinfo): [48 :heavy_check_mark: ](jmeter-java-dsl-parent-1.23.buildcompare) | 50M |
 | [1.22](https://central.sonatype.com/artifact/us.abstracta.jmeter/jmeter-java-dsl-parent/1.22/pom) | [mvn jdk8](jmeter-java-dsl-1.22.buildspec) | [result](jmeter-java-dsl-parent-1.22.buildinfo): [48 :heavy_check_mark: ](jmeter-java-dsl-parent-1.22.buildcompare) | 50M |
