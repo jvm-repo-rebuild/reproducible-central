@@ -1,0 +1,19 @@
+groupId=com.github.package-url
+artifactId=packageurl-java
+version=1.4.2
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/package-url/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=8
+newline=lf
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=

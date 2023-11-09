@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Package URL
+group-id=com.github.package-url
+artifact-id=packageurl-java
+version=1.4.2
+
+# source information
+source.scm.uri=scm:git:git@github.com:package-url/packageurl-java.git
+source.scm.tag=packageurl-java-1.4.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=com.github.package-url
+outputs.0.filename=packageurl-java-1.4.2.pom
+outputs.0.length=11743
+outputs.0.checksums.sha512=524264a49e87b8f705a348bf5031c417754eec0ddfdede7078cb0b8542c30b0ffbde86b8386ad7147e2fe8babda6981f85a0fffa86ea02375e8f25b332ca2a5d
+
+outputs.1.groupId=com.github.package-url
+outputs.1.filename=packageurl-java-1.4.2.jar
+outputs.1.length=16271
+outputs.1.checksums.sha512=aa853cb512815925e302a5fc746f60df99da2c4c5680e512c372774e1b9b35260251418e12d875a41bdaa5452cc82eb633ce2777410486fbd328eb9fe7d842d2
+
+outputs.2.groupId=com.github.package-url
+outputs.2.filename=packageurl-java-1.4.2-sources.jar
+outputs.2.length=16636
+outputs.2.checksums.sha512=de483bc7dabeb08681817c090f355b73cbb1a2d29a245be67ad7112248a8b4e8756a9c2f378602a0e8d5cb91ea14e21ec0ccf17beddf31fd6c3b8a6515bced2b
