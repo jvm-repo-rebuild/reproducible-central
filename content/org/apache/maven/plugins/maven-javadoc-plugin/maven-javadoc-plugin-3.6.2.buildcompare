@@ -1,0 +1,10 @@
+version=3.6.2
+ok=5
+ko=1
+ignored=0
+okFiles="maven-javadoc-plugin-3.6.2.pom maven-javadoc-plugin-3.6.2.jar maven-javadoc-plugin-3.6.2-sources.jar maven-javadoc-plugin-3.6.2-cyclonedx.xml maven-javadoc-plugin-3.6.2-cyclonedx.json"
+koFiles="maven-javadoc-plugin-3.6.2-source-release.zip"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/org.apache.maven.plugins/maven-javadoc-plugin-3.6.2-source-release.zip target/maven-javadoc-plugin-3.6.2-source-release.zip

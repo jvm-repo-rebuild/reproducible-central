@@ -1,0 +1,60 @@
+1 / 1 target/reference/org.apache.maven.plugins/maven-javadoc-plugin-3.6.2-source-release.zip target/maven-javadoc-plugin-3.6.2-source-release.zip
+--- target/reference/org.apache.maven.plugins/maven-javadoc-plugin-3.6.2-source-release.zip
++++ target/maven-javadoc-plugin-3.6.2-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 3912815 bytes, number of entries: 2487
+│ +Zip file size: 3618469 bytes, number of entries: 2486
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/src/it/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/src/it/mrm/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/src/it/mrm/3rdparty/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/src/it/mrm/3rdparty/doclet-1.0.jar/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/src/it/mrm/3rdparty/doclet-1.0.jar/org/
+│ @@ -1507,15 +1507,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/src/test/resources/unit/validate-options-test/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/src/test/resources/unit/validate-options-test/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/src/test/resources/unit/validate-options-test/src/main/java/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/src/test/resources/unit/validate-options-test/src/main/java/test/
+│  -rw-r--r--  2.0 unx      205 b- defN 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/.gitignore
+│  -rw-r--r--  2.0 unx      853 b- defN 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/Jenkinsfile
+│  -rw-r--r--  2.0 unx     5994 b- defN 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/README.md
+│ --rw-r--r--  2.0 unx   298122 b- defN 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/null-null.jar
+│  -rw-r--r--  2.0 unx    21378 b- defN 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/pom.xml
+│  -rw-r--r--  2.0 unx      673 b- defN 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/src/it/mrm/3rdparty/doclet-1.0.jar/org/apache/maven/plugins/javadoc/its/Doclet.class
+│  -rw-r--r--  2.0 unx     1232 b- defN 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/src/it/mrm/3rdparty/doclet-1.0.pom
+│  -rw-r--r--  2.0 unx     1229 b- defN 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/src/it/mrm/3rdparty/lib-1.0.pom
+│  -rw-r--r--  2.0 unx     1468 b- defN 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/src/it/mrm/repository/mjavadoc338-direct.pom
+│  -rw-r--r--  2.0 unx     1248 b- defN 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/src/it/mrm/repository/mjavadoc338-transitive.pom
+│  -rw-r--r--  2.0 unx      799 b- defN 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/src/it/mrm/repository/mjavadoc450-static.jar/custom.css
+│ @@ -2482,8 +2481,8 @@
+│  -rw-r--r--  2.0 unx     2254 b- defN 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/src/test/resources/unit/validate-options-test/wrong-docencoding-test-plugin-config.xml
+│  -rw-r--r--  2.0 unx     2242 b- defN 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/src/test/resources/unit/validate-options-test/wrong-encoding-test-plugin-config.xml
+│  -rw-r--r--  2.0 unx     2252 b- defN 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/src/test/resources/unit/validate-options-test/wrong-locale-test-plugin-config.xml
+│  -rw-r--r--  2.0 unx     2420 b- defN 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/src/test/resources/unit/validate-options-test/wrong-locale-with-variant-test-plugin-config.xml
+│  -rw-r--r--  2.0 unx    11261 b- defN 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/LICENSE
+│  -rw-r--r--  2.0 unx      182 b- defN 23-Nov-03 20:30 maven-javadoc-plugin-3.6.2/NOTICE
+│ -2487 files, 6959973 bytes uncompressed, 3271509 bytes compressed:  53.0%
+│ +2486 files, 6661851 bytes uncompressed, 2977319 bytes compressed:  55.3%
+├── zipnote {}
+│ @@ -4530,17 +4530,14 @@
+│  
+│  Filename: maven-javadoc-plugin-3.6.2/Jenkinsfile
+│  Comment: 
+│  
+│  Filename: maven-javadoc-plugin-3.6.2/README.md
+│  Comment: 
+│  
+│ -Filename: maven-javadoc-plugin-3.6.2/null-null.jar
+│ -Comment: 
+│ -
+│  Filename: maven-javadoc-plugin-3.6.2/pom.xml
+│  Comment: 
+│  
+│  Filename: maven-javadoc-plugin-3.6.2/src/it/mrm/3rdparty/doclet-1.0.jar/org/apache/maven/plugins/javadoc/its/Doclet.class
+│  Comment: 
+│  
+│  Filename: maven-javadoc-plugin-3.6.2/src/it/mrm/3rdparty/doclet-1.0.pom
+
