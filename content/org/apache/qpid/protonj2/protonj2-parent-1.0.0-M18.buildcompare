@@ -1,0 +1,9 @@
+version=1.0.0-M18
+ok=13
+ko=0
+ignored=0
+okFiles="protonj2-parent-1.0.0-M18.pom protonj2-test-driver-1.0.0-M18.pom protonj2-test-driver-1.0.0-M18.jar protonj2-test-driver-1.0.0-M18-sources.jar protonj2-1.0.0-M18.pom protonj2-1.0.0-M18.jar protonj2-1.0.0-M18-sources.jar protonj2-client-1.0.0-M18.pom protonj2-client-1.0.0-M18.jar protonj2-client-1.0.0-M18-sources.jar apache-qpid-protonj2-1.0.0-M18.pom apache-qpid-protonj2-1.0.0-M18-bin.tar.gz apache-qpid-protonj2-1.0.0-M18-src.tar.gz"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
