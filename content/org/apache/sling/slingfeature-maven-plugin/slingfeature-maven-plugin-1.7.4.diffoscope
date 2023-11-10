@@ -1,0 +1,169 @@
+1 / 3 target/reference/org.apache.sling/slingfeature-maven-plugin-1.7.4.jar target/slingfeature-maven-plugin-1.7.4.jar
+--- target/reference/org.apache.sling/slingfeature-maven-plugin-1.7.4.jar
++++ target/slingfeature-maven-plugin-1.7.4.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 269865 bytes, number of entries: 112
+│ +Zip file size: 269982 bytes, number of entries: 112
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 META-INF/
+│  -rw-r--r--  2.0 unx      372 b- defN 23-Nov-04 14:31 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 META-INF/m2e/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 META-INF/maven/org.apache.sling/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 META-INF/maven/org.apache.sling/slingfeature-maven-plugin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 META-INF/sisu/
+│ @@ -14,15 +14,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 org/apache/sling/feature/maven/extensions/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 org/apache/sling/feature/maven/mojos/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 org/apache/sling/feature/maven/mojos/apis/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 org/apache/sling/feature/maven/mojos/apis/spi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 org/apache/sling/feature/maven/mojos/reports/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 org/apache/sling/feature/maven/mojos/selection/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 org/apache/sling/slingfeature_maven_plugin/
+│ --rw-r--r--  2.0 unx    22994 b- defN 23-Nov-04 14:31 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    23232 b- defN 23-Nov-04 14:31 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 23-Nov-04 14:31 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      294 b- defN 23-Nov-04 14:31 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     1427 b- defN 23-Nov-04 14:31 META-INF/m2e/lifecycle-mapping-metadata.xml
+│  -rw-r--r--  2.0 unx   163252 b- defN 23-Nov-04 14:31 META-INF/maven/org.apache.sling/slingfeature-maven-plugin/plugin-help.xml
+│  -rw-r--r--  2.0 unx   201470 b- defN 23-Nov-04 14:31 META-INF/maven/plugin.xml
+│  -rw-r--r--  2.0 unx      212 b- defN 23-Nov-04 14:31 META-INF/sisu/javax.inject.Named
+│  -rw-r--r--  2.0 unx      805 b- defN 23-Nov-04 14:31 org/apache/sling/feature/maven/Environment.class
+│ @@ -107,8 +107,8 @@
+│  -rw-r--r--  2.0 unx     3982 b- defN 23-Nov-04 14:31 org/apache/sling/feature/maven/mojos/reports/ImportPackagesReporter.class
+│  -rw-r--r--  2.0 unx      529 b- defN 23-Nov-04 14:31 org/apache/sling/feature/maven/mojos/reports/ReportContext.class
+│  -rw-r--r--  2.0 unx      349 b- defN 23-Nov-04 14:31 org/apache/sling/feature/maven/mojos/reports/Reporter.class
+│  -rw-r--r--  2.0 unx     4062 b- defN 23-Nov-04 14:31 org/apache/sling/feature/maven/mojos/selection/IncludeExcludeMatcher.class
+│  -rw-r--r--  2.0 unx    11181 b- defN 23-Nov-04 14:31 org/apache/sling/slingfeature_maven_plugin/HelpMojo.class
+│  -rw-r--r--  2.0 unx    18534 b- defN 23-Nov-04 14:31 META-INF/maven/org.apache.sling/slingfeature-maven-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       76 b- defN 23-Nov-04 14:31 META-INF/maven/org.apache.sling/slingfeature-maven-plugin/pom.properties
+│ -112 files, 933152 bytes uncompressed, 248835 bytes compressed:  73.3%
+│ +112 files, 933390 bytes uncompressed, 248952 bytes compressed:  73.3%
+├── META-INF/DEPENDENCIES
+│ @@ -50,15 +50,16 @@
+│  
+│    - Guava ListenableFuture only (https://github.com/google/guava/listenablefuture) com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│    - J2ObjC Annotations (https://github.com/google/j2objc/) com.google.j2objc:j2objc-annotations:jar:1.3
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│ -  - jsr250-api  javax.annotation:jsr250-api:jar:1.0
+│ +  - JSR-250 Common Annotations for the JavaTM Platform (http://jcp.org/aboutJava/communityprocess/final/jsr250/index.html) javax.annotation:jsr250-api:jar:1.0
+│ +    License: COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0  (https://glassfish.dev.java.net/public/CDDLv1.0.html)
+│  
+│    - JOpt Simple (http://jopt-simple.github.io/jopt-simple) net.sf.jopt-simple:jopt-simple:jar:5.0.4
+│      License: The MIT License  (http://www.opensource.org/licenses/mit-license.php)
+│  
+│    - Checker Qual (https://checkerframework.org) org.checkerframework:checker-compat-qual:jar:2.5.5
+│      License: GNU General Public License, version 2 (GPL2), with the classpath exception  (http://www.gnu.org/software/classpath/license.html)
+│      License: The MIT License  (http://opensource.org/licenses/MIT)
+
+2 / 3 target/reference/org.apache.sling/slingfeature-maven-plugin-1.7.4-source-release.zip target/slingfeature-maven-plugin-1.7.4-source-release.zip
+--- target/reference/org.apache.sling/slingfeature-maven-plugin-1.7.4-source-release.zip
++++ target/slingfeature-maven-plugin-1.7.4-source-release.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 303845 bytes, number of entries: 298
+│ +Zip file size: 303962 bytes, number of entries: 298
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 slingfeature-maven-plugin-1.7.4/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 slingfeature-maven-plugin-1.7.4/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 slingfeature-maven-plugin-1.7.4/src/it/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 slingfeature-maven-plugin-1.7.4/src/it/analyzer-apiregions-errors-detected/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 slingfeature-maven-plugin-1.7.4/src/it/analyzer-apiregions-errors-detected/src/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 slingfeature-maven-plugin-1.7.4/src/it/analyzer-apiregions-errors-detected/src/main/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 slingfeature-maven-plugin-1.7.4/src/it/analyzer-apiregions-errors-detected/src/main/features/
+│ @@ -291,10 +291,10 @@
+│  -rw-r--r--  2.0 unx       95 b- defN 23-Nov-04 14:31 slingfeature-maven-plugin-1.7.4/src/test/resources/generate-resources/test1.txt
+│  -rw-r--r--  2.0 unx     3824 b- defN 23-Nov-04 14:31 slingfeature-maven-plugin-1.7.4/src/test/resources/repository/compressed-embedded.jar
+│  -rw-r--r--  2.0 unx      483 b- defN 23-Nov-04 14:31 slingfeature-maven-plugin-1.7.4/src/test/resources/repository/compressed.jar
+│  -rw-r--r--  2.0 unx     2541 b- defN 23-Nov-04 14:31 slingfeature-maven-plugin-1.7.4/src/test/resources/repository/compressed2-signed.jar
+│  -rw-r--r--  2.0 unx      894 b- defN 23-Nov-04 14:31 slingfeature-maven-plugin-1.7.4/src/test/resources/repository/compressed2.jar
+│  -rw-r--r--  2.0 unx     1984 b- defN 23-Nov-04 14:31 slingfeature-maven-plugin-1.7.4/src/test/resources/repository/textfile.txt
+│  -rw-r--r--  2.0 unx     2390 b- defN 23-Nov-04 14:31 slingfeature-maven-plugin-1.7.4/src/test/resources/repository/uncompressed.jar
+│ --rw-r--r--  2.0 unx    22994 b- defN 23-Nov-04 14:31 slingfeature-maven-plugin-1.7.4/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    23232 b- defN 23-Nov-04 14:31 slingfeature-maven-plugin-1.7.4/DEPENDENCIES
+│  -rw-r--r--  2.0 unx      294 b- defN 23-Nov-04 14:31 slingfeature-maven-plugin-1.7.4/NOTICE
+│ -298 files, 853548 bytes uncompressed, 231195 bytes compressed:  72.9%
+│ +298 files, 853786 bytes uncompressed, 231312 bytes compressed:  72.9%
+├── slingfeature-maven-plugin-1.7.4/DEPENDENCIES
+│ @@ -50,15 +50,16 @@
+│  
+│    - Guava ListenableFuture only (https://github.com/google/guava/listenablefuture) com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│    - J2ObjC Annotations (https://github.com/google/j2objc/) com.google.j2objc:j2objc-annotations:jar:1.3
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│ -  - jsr250-api  javax.annotation:jsr250-api:jar:1.0
+│ +  - JSR-250 Common Annotations for the JavaTM Platform (http://jcp.org/aboutJava/communityprocess/final/jsr250/index.html) javax.annotation:jsr250-api:jar:1.0
+│ +    License: COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0  (https://glassfish.dev.java.net/public/CDDLv1.0.html)
+│  
+│    - JOpt Simple (http://jopt-simple.github.io/jopt-simple) net.sf.jopt-simple:jopt-simple:jar:5.0.4
+│      License: The MIT License  (http://www.opensource.org/licenses/mit-license.php)
+│  
+│    - Checker Qual (https://checkerframework.org) org.checkerframework:checker-compat-qual:jar:2.5.5
+│      License: GNU General Public License, version 2 (GPL2), with the classpath exception  (http://www.gnu.org/software/classpath/license.html)
+│      License: The MIT License  (http://opensource.org/licenses/MIT)
+
+3 / 3 target/reference/org.apache.sling/slingfeature-maven-plugin-1.7.4-sources.jar target/slingfeature-maven-plugin-1.7.4-sources.jar
+--- target/reference/org.apache.sling/slingfeature-maven-plugin-1.7.4-sources.jar
++++ target/slingfeature-maven-plugin-1.7.4-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 153247 bytes, number of entries: 79
+│ +Zip file size: 153364 bytes, number of entries: 79
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 META-INF/
+│  -rw-r--r--  2.0 unx       64 b- defN 23-Nov-04 14:31 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 org/apache/sling/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 org/apache/sling/feature/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 org/apache/sling/feature/maven/
+│ @@ -13,15 +13,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 org/apache/sling/feature/maven/mojos/reports/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 org/apache/sling/feature/maven/mojos/selection/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 org/apache/sling/slingfeature_maven_plugin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 META-INF/m2e/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 META-INF/maven/org.apache.sling/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-04 14:31 META-INF/maven/org.apache.sling/slingfeature-maven-plugin/
+│ --rw-r--r--  2.0 unx    22994 b- defN 23-Nov-04 14:31 META-INF/DEPENDENCIES
+│ +-rw-r--r--  2.0 unx    23232 b- defN 23-Nov-04 14:31 META-INF/DEPENDENCIES
+│  -rw-r--r--  2.0 unx    11358 b- defN 23-Nov-04 14:31 META-INF/LICENSE
+│  -rw-r--r--  2.0 unx      294 b- defN 23-Nov-04 14:31 META-INF/NOTICE
+│  -rw-r--r--  2.0 unx     1638 b- defN 23-Nov-04 14:31 org/apache/sling/feature/maven/Environment.java
+│  -rw-r--r--  2.0 unx      953 b- defN 23-Nov-04 14:31 org/apache/sling/feature/maven/FeatureConstants.java
+│  -rw-r--r--  2.0 unx     8050 b- defN 23-Nov-04 14:31 org/apache/sling/feature/maven/FeatureProjectConfig.java
+│  -rw-r--r--  2.0 unx     1492 b- defN 23-Nov-04 14:31 org/apache/sling/feature/maven/FeatureProjectInfo.java
+│  -rw-r--r--  2.0 unx     8051 b- defN 23-Nov-04 14:31 org/apache/sling/feature/maven/JSONFeatures.java
+│ @@ -74,8 +74,8 @@
+│  -rw-r--r--  2.0 unx     1204 b- defN 23-Nov-04 14:31 org/apache/sling/feature/maven/mojos/reports/ReportContext.java
+│  -rw-r--r--  2.0 unx     1042 b- defN 23-Nov-04 14:31 org/apache/sling/feature/maven/mojos/reports/Reporter.java
+│  -rw-r--r--  2.0 unx     4714 b- defN 23-Nov-04 14:31 org/apache/sling/feature/maven/mojos/selection/IncludeExcludeMatcher.java
+│  -rw-r--r--  2.0 unx    15212 b- defN 23-Nov-04 14:31 org/apache/sling/slingfeature_maven_plugin/HelpMojo.java
+│  -rw-r--r--  2.0 unx     1427 b- defN 23-Nov-04 14:31 META-INF/m2e/lifecycle-mapping-metadata.xml
+│  -rw-r--r--  2.0 unx    18534 b- defN 23-Nov-04 14:31 META-INF/maven/org.apache.sling/slingfeature-maven-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       76 b- defN 23-Nov-04 14:31 META-INF/maven/org.apache.sling/slingfeature-maven-plugin/pom.properties
+│ -79 files, 556043 bytes uncompressed, 139107 bytes compressed:  75.0%
+│ +79 files, 556281 bytes uncompressed, 139224 bytes compressed:  75.0%
+├── META-INF/DEPENDENCIES
+│ @@ -50,15 +50,16 @@
+│  
+│    - Guava ListenableFuture only (https://github.com/google/guava/listenablefuture) com.google.guava:listenablefuture:jar:9999.0-empty-to-avoid-conflict-with-guava
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│    - J2ObjC Annotations (https://github.com/google/j2objc/) com.google.j2objc:j2objc-annotations:jar:1.3
+│      License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+│  
+│ -  - jsr250-api  javax.annotation:jsr250-api:jar:1.0
+│ +  - JSR-250 Common Annotations for the JavaTM Platform (http://jcp.org/aboutJava/communityprocess/final/jsr250/index.html) javax.annotation:jsr250-api:jar:1.0
+│ +    License: COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0  (https://glassfish.dev.java.net/public/CDDLv1.0.html)
+│  
+│    - JOpt Simple (http://jopt-simple.github.io/jopt-simple) net.sf.jopt-simple:jopt-simple:jar:5.0.4
+│      License: The MIT License  (http://www.opensource.org/licenses/mit-license.php)
+│  
+│    - Checker Qual (https://checkerframework.org) org.checkerframework:checker-compat-qual:jar:2.5.5
+│      License: GNU General Public License, version 2 (GPL2), with the classpath exception  (http://www.gnu.org/software/classpath/license.html)
+│      License: The MIT License  (http://opensource.org/licenses/MIT)
+

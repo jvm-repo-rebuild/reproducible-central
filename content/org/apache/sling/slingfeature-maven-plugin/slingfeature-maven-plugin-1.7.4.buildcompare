@@ -1,0 +1,12 @@
+version=1.7.4
+ok=1
+ko=3
+ignored=0
+okFiles="slingfeature-maven-plugin-1.7.4.pom"
+koFiles="slingfeature-maven-plugin-1.7.4.jar slingfeature-maven-plugin-1.7.4-source-release.zip slingfeature-maven-plugin-1.7.4-sources.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.sling/slingfeature-maven-plugin-1.7.4.jar target/slingfeature-maven-plugin-1.7.4.jar
+# diffoscope target/reference/org.apache.sling/slingfeature-maven-plugin-1.7.4-source-release.zip target/slingfeature-maven-plugin-1.7.4-source-release.zip
+# diffoscope target/reference/org.apache.sling/slingfeature-maven-plugin-1.7.4-sources.jar target/slingfeature-maven-plugin-1.7.4-sources.jar
