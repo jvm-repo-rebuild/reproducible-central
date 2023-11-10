@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/sling-slingfeature-maven-plugin.git](https://github.com/apache/sling-slingfeature-maven-plugin.git)
 
-rebuilding **10 releases** of org.apache.sling:slingfeature-maven-plugin:
+rebuilding **11 releases** of org.apache.sling:slingfeature-maven-plugin:
 - **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.7.4](https://central.sonatype.com/artifact/org.apache.sling/slingfeature-maven-plugin/1.7.4/pom) | | | |
+| [1.7.4](https://central.sonatype.com/artifact/org.apache.sling/slingfeature-maven-plugin/1.7.4/pom) | [mvn jdk11](slingfeature-maven-plugin-1.7.4.buildspec) | [result](slingfeature-maven-plugin-1.7.4.buildinfo): [1 :heavy_check_mark:  3 :warning:](slingfeature-maven-plugin-1.7.4.buildcompare) [:mag:](slingfeature-maven-plugin-1.7.4.diffoscope) | 729K |
 | [1.7.2](https://central.sonatype.com/artifact/org.apache.sling/slingfeature-maven-plugin/1.7.2/pom) | [mvn jdk17](slingfeature-maven-plugin-1.7.2.buildspec) | [result](slingfeature-maven-plugin-1.7.2.buildinfo): [4 :heavy_check_mark: ](slingfeature-maven-plugin-1.7.2.buildcompare) | 855K |
 | [1.7.0](https://central.sonatype.com/artifact/org.apache.sling/slingfeature-maven-plugin/1.7.0/pom) | [mvn jdk11](slingfeature-maven-plugin-1.7.0.buildspec) | [result](slingfeature-maven-plugin-1.7.0.buildinfo): [4 :heavy_check_mark: ](slingfeature-maven-plugin-1.7.0.buildcompare) | 853K |
 | [1.6.8](https://central.sonatype.com/artifact/org.apache.sling/slingfeature-maven-plugin/1.6.8/pom) | [mvn jdk11](slingfeature-maven-plugin-1.6.8.buildspec) | [result](slingfeature-maven-plugin-1.6.8.buildinfo): [4 :heavy_check_mark: ](slingfeature-maven-plugin-1.6.8.buildcompare) | 852K |

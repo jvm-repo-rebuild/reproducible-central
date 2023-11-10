@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-feature-analyser.git](https://github.com/apache/sling-org-apache-sling-feature-analyser.git)
 
-rebuilding **6 releases** of org.apache.sling:org.apache.sling.feature.analyser:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **7 releases** of org.apache.sling:org.apache.sling.feature.analyser:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.0.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.analyser/2.0.2/pom) | | | |
+| [2.0.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.analyser/2.0.2/pom) | [mvn jdk11](org.apache.sling.feature.analyser-2.0.2.buildspec) | [result](org.apache.sling.feature.analyser-2.0.2.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.feature.analyser-2.0.2.buildcompare) | 692K |
 | [2.0.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.analyser/2.0.0/pom) | [mvn jdk11](org.apache.sling.feature.analyser-2.0.0.buildspec) | [result](org.apache.sling.feature.analyser-2.0.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.feature.analyser-2.0.0.buildcompare) | 692K |
 | [1.6.8](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.analyser/1.6.8/pom) | [mvn jdk11](org.apache.sling.feature.analyser-1.6.8.buildspec) | [result](org.apache.sling.feature.analyser-1.6.8.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.feature.analyser-1.6.8.buildcompare) | 670K |
 | [1.6.6](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.feature.analyser/1.6.6/pom) | [mvn jdk11](org.apache.sling.feature.analyser-1.6.6.buildspec) | [result](org.apache.sling.feature.analyser-1.6.6.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.feature.analyser-1.6.6.buildcompare) | 669K |

@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.apache.sling:org.apache.sling.distribution.jour
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.5.6](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.distribution.journal.messages/0.5.6/pom) | | | |
 | [0.5.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.distribution.journal.messages/0.5.4/pom) | [mvn jdk8](org.apache.sling.distribution.journal.messages-0.5.4.buildspec) | [result](org.apache.sling.distribution.journal.messages-0.5.4.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.distribution.journal.messages-0.5.4.buildcompare) | 146K |
 | [0.5.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.distribution.journal.messages/0.5.0/pom) | [mvn jdk8](org.apache.sling.distribution.journal.messages-0.5.0.buildspec) | [result](org.apache.sling.distribution.journal.messages-0.5.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.distribution.journal.messages-0.5.0.buildcompare) | 143K |
 

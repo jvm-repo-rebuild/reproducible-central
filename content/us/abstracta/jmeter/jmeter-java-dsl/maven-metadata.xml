@@ -3,8 +3,8 @@
   <groupId>us.abstracta.jmeter</groupId>
   <artifactId>jmeter-java-dsl-parent</artifactId>
   <versioning>
-    <latest>1.23.2</latest>
-    <release>1.23.2</release>
+    <latest>1.23.3</latest>
+    <release>1.23.3</release>
     <versions>
       <version>0.2</version>
       <version>0.3</version>
@@ -83,7 +83,8 @@
       <version>1.23</version>
       <version>1.23.1</version>
       <version>1.23.2</version>
+      <version>1.23.3</version>
     </versions>
-    <lastUpdated>20231109112300</lastUpdated>
+    <lastUpdated>20231110002325</lastUpdated>
   </versioning>
 </metadata>
