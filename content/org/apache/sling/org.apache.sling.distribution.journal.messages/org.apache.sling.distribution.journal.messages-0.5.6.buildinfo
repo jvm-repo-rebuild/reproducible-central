@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Journal based Content Distribution - Messages bundle
+group-id=org.apache.sling
+artifact-id=org.apache.sling.distribution.journal.messages
+version=0.5.6
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-distribution-journal-messages.git
+source.scm.tag=org.apache.sling.distribution.journal.messages-0.5.6
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.distribution.journal.messages-0.5.6.pom
+outputs.0.length=4493
+outputs.0.checksums.sha512=c48f811b25c113213254bde522f1add065405ac0758f78bc3f9b9533f9837ba9a9ff3b1b14d27ab3335320f883d2af5898ccf2e2789f1858a6580656018d934f
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.distribution.journal.messages-0.5.6.jar
+outputs.1.length=45041
+outputs.1.checksums.sha512=1bfc4013ca9d3853162a722948dcd1119922852e4b36d09feb1c6d448fc68afc5b23aab113e8a9071323fd2174a85d00a3e579df2f22580439100c404ef1e4d2
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.distribution.journal.messages-0.5.6-source-release.zip
+outputs.2.length=41707
+outputs.2.checksums.sha512=9c0b592bc260247f118f565b0260ea5d4230aaf81e7a7cae8da394a1e475208aa3901d7fccded7ea202a9920509b7aeeae63ac62f9bab8779c30c8708a2f9aae
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.distribution.journal.messages-0.5.6-sources.jar
+outputs.3.length=29837
+outputs.3.checksums.sha512=7fcd4448da617f3364e396775c18c43ac2b6c1ce242dabf1d0d5cdfd1801ece6cf81a29d92cbc6e781816dfbe9853daf4f3aaff3f720dc2f4a3c40a91b721b65
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.distribution.journal.messages-0.5.6-sources.jar
+outputs.4.length=29837
+outputs.4.checksums.sha512=7fcd4448da617f3364e396775c18c43ac2b6c1ce242dabf1d0d5cdfd1801ece6cf81a29d92cbc6e781816dfbe9853daf4f3aaff3f720dc2f4a3c40a91b721b65
