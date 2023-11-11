@@ -1,0 +1,214 @@
+1 / 3 target/reference/org.apache.jackrabbit.vault/org.apache.jackrabbit.vault.rcp-3.7.2.jar vault-rcp/target/org.apache.jackrabbit.vault.rcp-3.7.2.jar
+--- target/reference/org.apache.jackrabbit.vault/org.apache.jackrabbit.vault.rcp-3.7.2.jar
++++ vault-rcp/target/org.apache.jackrabbit.vault.rcp-3.7.2.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 719037 bytes, number of entries: 431
+│ +Zip file size: 719075 bytes, number of entries: 431
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-31 16:01 META-INF/
+│  -rw-r--r--  2.0 unx     8231 b- defN 23-Oct-31 16:01 META-INF/MANIFEST.MF
+│ @@ -60,42 +60,42 @@
+│  -rw-r--r--  2.0 unx       79 b- defN 23-Oct-31 16:01 META-INF/maven/org.apache.jackrabbit/jackrabbit-jcr2spi/pom.properties
+│  -rw-r--r--  2.0 unx     6230 b- defN 23-Oct-31 16:01 META-INF/maven/org.apache.jackrabbit/jackrabbit-jcr2spi/pom.xml
+│  -rw-r--r--  2.0 unx       79 b- defN 23-Oct-31 16:01 META-INF/maven/org.apache.jackrabbit/jackrabbit-spi2dav/pom.properties
+│  -rw-r--r--  2.0 unx    10962 b- defN 23-Oct-31 16:01 META-INF/maven/org.apache.jackrabbit/jackrabbit-spi2dav/pom.xml
+│ --rw-r--r--  2.0 unx       75 b- defN 23-Oct-31 16:01 META-INF/maven/org.apache.jackrabbit/oak-jackrabbit-api/pom.properties
+│ +-rw-r--r--  2.0 unx       78 b- defN 23-Oct-31 16:01 META-INF/maven/org.apache.jackrabbit/oak-jackrabbit-api/pom.properties
+│  -rw-r--r--  2.0 unx     2284 b- defN 23-Oct-31 16:01 META-INF/maven/org.apache.jackrabbit/oak-jackrabbit-api/pom.xml
+│  -rw-r--r--  2.0 unx       73 b- defN 23-Oct-31 16:01 META-INF/maven/org.apache.jackrabbit.vault/vault-davex/pom.properties
+│  -rw-r--r--  2.0 unx     3806 b- defN 23-Oct-31 16:01 META-INF/maven/org.apache.jackrabbit.vault/vault-davex/pom.xml
+│  -rw-r--r--  2.0 unx      868 b- defN 23-Oct-31 16:01 META-INF/services/javax.jcr.RepositoryFactory
+│  -rw-r--r--  2.0 unx      900 b- defN 23-Oct-31 16:01 META-INF/services/org.apache.jackrabbit.vault.fs.api.RepositoryFactory
+│  -rw-r--r--  2.0 unx      857 b- defN 23-Oct-31 16:01 OSGI-INF/metatype/org.apache.jackrabbit.vault.rcp.impl.RcpTaskManagerImpl$ComponentPropertyType.xml
+│  -rw-r--r--  2.0 unx      636 b- defN 23-Oct-31 16:01 OSGI-INF/org.apache.jackrabbit.vault.rcp.impl.RcpServlet.xml
+│  -rw-r--r--  2.0 unx      639 b- defN 23-Oct-31 16:01 OSGI-INF/org.apache.jackrabbit.vault.rcp.impl.RcpTaskManagerImpl.xml
+│  -rw-r--r--  2.0 unx      816 b- defN 23-Oct-31 16:01 org/apache/felix/utils/json/JSONParser$Pair.class
+│  -rw-r--r--  2.0 unx     1444 b- defN 23-Oct-31 16:01 org/apache/felix/utils/json/JSONParser$Scope.class
+│  -rw-r--r--  2.0 unx     8846 b- defN 23-Oct-31 16:01 org/apache/felix/utils/json/JSONParser.class
+│  -rw-r--r--  2.0 unx     5095 b- defN 23-Oct-31 16:01 org/apache/felix/utils/json/JSONWriter.class
+│ --rw-r--r--  2.0 unx     1497 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/JackrabbitNode.class
+│ +-rw-r--r--  2.0 unx     1503 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/JackrabbitNode.class
+│  -rw-r--r--  2.0 unx      702 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/JackrabbitNodeTypeManager.class
+│  -rw-r--r--  2.0 unx      890 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/JackrabbitRepository.class
+│  -rw-r--r--  2.0 unx      394 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/JackrabbitRepositoryFactory.class
+│ --rw-r--r--  2.0 unx     2203 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/JackrabbitSession.class
+│ +-rw-r--r--  2.0 unx     2206 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/JackrabbitSession.class
+│  -rw-r--r--  2.0 unx      212 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/JackrabbitValue.class
+│  -rw-r--r--  2.0 unx      953 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/JackrabbitValueFactory.class
+│  -rw-r--r--  2.0 unx      500 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/JackrabbitWorkspace.class
+│  -rw-r--r--  2.0 unx      207 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/ReferenceBinary.class
+│  -rw-r--r--  2.0 unx      426 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/ReferenceBinaryException.class
+│  -rw-r--r--  2.0 unx      231 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/XASession.class
+│  -rw-r--r--  2.0 unx      505 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/binary/BinaryDownload.class
+│  -rw-r--r--  2.0 unx      277 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/binary/BinaryDownloadOptions$1.class
+│  -rw-r--r--  2.0 unx     1914 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/binary/BinaryDownloadOptions$BinaryDownloadOptionsBuilder$DispositionType.class
+│ --rw-r--r--  2.0 unx     3053 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/binary/BinaryDownloadOptions$BinaryDownloadOptionsBuilder.class
+│ +-rw-r--r--  2.0 unx     3052 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/binary/BinaryDownloadOptions$BinaryDownloadOptionsBuilder.class
+│  -rw-r--r--  2.0 unx     2495 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/binary/BinaryDownloadOptions.class
+│  -rw-r--r--  2.0 unx      566 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/binary/BinaryUpload.class
+│  -rw-r--r--  2.0 unx      271 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/binary/BinaryUploadOptions$1.class
+│  -rw-r--r--  2.0 unx     1248 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/binary/BinaryUploadOptions$BinaryUploadOptionsBuilder.class
+│  -rw-r--r--  2.0 unx     1534 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/binary/BinaryUploadOptions.class
+│  -rw-r--r--  2.0 unx      244 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/binary/package-info.class
+│  -rw-r--r--  2.0 unx     1088 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/jmx/EventListenerMBean.class
+│ @@ -111,22 +111,22 @@
+│  -rw-r--r--  2.0 unx      412 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/observation/JackrabbitObservationManager.class
+│  -rw-r--r--  2.0 unx      249 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/observation/package-info.class
+│  -rw-r--r--  2.0 unx      237 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/package-info.class
+│  -rw-r--r--  2.0 unx      219 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/query/JackrabbitQueryResult.class
+│  -rw-r--r--  2.0 unx      244 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/query/package-info.class
+│  -rw-r--r--  2.0 unx     1049 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/security/JackrabbitAccessControlEntry.class
+│  -rw-r--r--  2.0 unx     1951 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/security/JackrabbitAccessControlList.class
+│ --rw-r--r--  2.0 unx     3964 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/security/JackrabbitAccessControlManager.class
+│ +-rw-r--r--  2.0 unx     3970 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/security/JackrabbitAccessControlManager.class
+│  -rw-r--r--  2.0 unx      450 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/security/JackrabbitAccessControlPolicy.class
+│ --rw-r--r--  2.0 unx     2707 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/security/authentication/token/TokenCredentials.class
+│ +-rw-r--r--  2.0 unx     2731 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/security/authentication/token/TokenCredentials.class
+│  -rw-r--r--  2.0 unx      267 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/security/authentication/token/package-info.class
+│  -rw-r--r--  2.0 unx      558 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/security/authorization/PrincipalAccessControlList$Entry.class
+│  -rw-r--r--  2.0 unx     1224 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/security/authorization/PrincipalAccessControlList.class
+│  -rw-r--r--  2.0 unx      713 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/security/authorization/PrincipalSetPolicy.class
+│ --rw-r--r--  2.0 unx     3401 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/security/authorization/PrivilegeCollection$Default.class
+│ +-rw-r--r--  2.0 unx     3407 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/security/authorization/PrivilegeCollection$Default.class
+│  -rw-r--r--  2.0 unx      604 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/security/authorization/PrivilegeCollection.class
+│  -rw-r--r--  2.0 unx      928 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/security/authorization/PrivilegeManager.class
+│  -rw-r--r--  2.0 unx      260 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/security/authorization/package-info.class
+│  -rw-r--r--  2.0 unx      246 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/security/package-info.class
+│  -rw-r--r--  2.0 unx      612 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/security/principal/GroupPrincipal.class
+│  -rw-r--r--  2.0 unx      461 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/security/principal/ItemBasedPrincipal.class
+│  -rw-r--r--  2.0 unx      195 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/security/principal/JackrabbitPrincipal.class
+│ @@ -142,15 +142,15 @@
+│  -rw-r--r--  2.0 unx     1561 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/security/user/QueryBuilder$Direction.class
+│  -rw-r--r--  2.0 unx     2705 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/security/user/QueryBuilder.class
+│  -rw-r--r--  2.0 unx     1038 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/security/user/User.class
+│  -rw-r--r--  2.0 unx     3547 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/security/user/UserManager.class
+│  -rw-r--r--  2.0 unx      251 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/security/user/package-info.class
+│  -rw-r--r--  2.0 unx      534 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/stats/QueryStat.class
+│  -rw-r--r--  2.0 unx      373 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/stats/QueryStatDto.class
+│ --rw-r--r--  2.0 unx     3356 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/stats/RepositoryStatistics$Type.class
+│ +-rw-r--r--  2.0 unx     3362 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/stats/RepositoryStatistics$Type.class
+│  -rw-r--r--  2.0 unx      462 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/stats/RepositoryStatistics.class
+│  -rw-r--r--  2.0 unx      280 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/stats/TimeSeries.class
+│  -rw-r--r--  2.0 unx      243 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/api/stats/package-info.class
+│  -rw-r--r--  2.0 unx     2153 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/client/RepositoryFactoryImpl.class
+│  -rw-r--r--  2.0 unx      296 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/jcr2spi/ItemCache.class
+│  -rw-r--r--  2.0 unx     4898 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/jcr2spi/ItemCacheImpl.class
+│  -rw-r--r--  2.0 unx    11845 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/jcr2spi/ItemImpl.class
+│ @@ -426,8 +426,8 @@
+│  -rw-r--r--  2.0 unx     1859 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/vault/rcp/impl/RepositoryCopierMixin.class
+│  -rw-r--r--  2.0 unx     1117 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/vault/rcp/impl/SimpleCredentialsMixin.class
+│  -rw-r--r--  2.0 unx     5725 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/vault/rcp/impl/TypedMapWrapper.class
+│  -rw-r--r--  2.0 unx     3358 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/vault/rcp/impl/WorkspaceFilterDeserializer.class
+│  -rw-r--r--  2.0 unx      243 b- defN 23-Oct-31 16:01 org/apache/jackrabbit/vault/rcp/package-info.class
+│  -rw-r--r--  2.0 unx     8779 b- defN 23-Oct-31 16:01 META-INF/maven/org.apache.jackrabbit.vault/org.apache.jackrabbit.vault.rcp/pom.xml
+│  -rw-r--r--  2.0 unx       93 b- defN 23-Oct-31 16:01 META-INF/maven/org.apache.jackrabbit.vault/org.apache.jackrabbit.vault.rcp/pom.properties
+│ -431 files, 1642050 bytes uncompressed, 636493 bytes compressed:  61.2%
+│ +431 files, 1642103 bytes uncompressed, 636531 bytes compressed:  61.2%
+├── META-INF/maven/org.apache.jackrabbit/oak-jackrabbit-api/pom.properties
+│┄ Ordering differences only
+│ @@ -1,3 +1,3 @@
+│ -groupId=org.apache.jackrabbit
+│ -artifactId=oak-jackrabbit-api
+│ -version=1.48.0
+│ +version=1.48.0
+
+│ +groupId=org.apache.jackrabbit
+
+│ +artifactId=oak-jackrabbit-api
+
+├── org/apache/jackrabbit/api/JackrabbitNode.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -3,70 +3,72 @@
+│ │    minor version: 0
+│ │    major version: 52
+│ │    flags: (0x0601) ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+│ │    this_class: #3                          // org/apache/jackrabbit/api/JackrabbitNode
+│ │    super_class: #6                         // java/lang/Object
+│ │    interfaces: 1, fields: 0, methods: 4, attributes: 1
+│ │  Constant pool:
+│ │ -   #1 = InterfaceMethodref #3.#39         // org/apache/jackrabbit/api/JackrabbitNode.hasNode:(Ljava/lang/String;)Z
+│ │ -   #2 = InterfaceMethodref #3.#40         // org/apache/jackrabbit/api/JackrabbitNode.getNode:(Ljava/lang/String;)Ljavax/jcr/Node;
+│ │ -   #3 = Class              #41            // org/apache/jackrabbit/api/JackrabbitNode
+│ │ -   #4 = InterfaceMethodref #3.#42         // org/apache/jackrabbit/api/JackrabbitNode.hasProperty:(Ljava/lang/String;)Z
+│ │ -   #5 = InterfaceMethodref #3.#43         // org/apache/jackrabbit/api/JackrabbitNode.getProperty:(Ljava/lang/String;)Ljavax/jcr/Property;
+│ │ -   #6 = Class              #44            // java/lang/Object
+│ │ -   #7 = Class              #45            // javax/jcr/Node
+│ │ +   #1 = InterfaceMethodref #3.#41         // org/apache/jackrabbit/api/JackrabbitNode.hasNode:(Ljava/lang/String;)Z
+│ │ +   #2 = InterfaceMethodref #3.#42         // org/apache/jackrabbit/api/JackrabbitNode.getNode:(Ljava/lang/String;)Ljavax/jcr/Node;
+│ │ +   #3 = Class              #43            // org/apache/jackrabbit/api/JackrabbitNode
+│ │ +   #4 = InterfaceMethodref #3.#44         // org/apache/jackrabbit/api/JackrabbitNode.hasProperty:(Ljava/lang/String;)Z
+│ │ +   #5 = InterfaceMethodref #3.#45         // org/apache/jackrabbit/api/JackrabbitNode.getProperty:(Ljava/lang/String;)Ljavax/jcr/Property;
+│ │ +   #6 = Class              #46            // java/lang/Object
+│ │ +   #7 = Class              #47            // javax/jcr/Node
+│ │     #8 = Utf8               rename
+│ │     #9 = Utf8               (Ljava/lang/String;)V
+│ │    #10 = Utf8               Exceptions
+...
+
+2 / 3 target/reference/org.apache.jackrabbit.vault/vault-cli-3.7.2-bin.zip vault-cli/target/vault-cli-3.7.2-bin.zip
+--- target/reference/org.apache.jackrabbit.vault/vault-cli-3.7.2-bin.zip
++++ vault-cli/target/vault-cli-3.7.2-bin.zip
+├── zipinfo {}
+│ @@ -1,39 +1,39 @@
+│  Zip file size: 8621635 bytes, number of entries: 37
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-31 16:01 vault-cli-3.7.2/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-31 16:01 vault-cli-3.7.2/bin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-31 16:01 vault-cli-3.7.2/lib/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-31 16:01 vault-cli-3.7.2/etc/
+│  -rwxr-xr-x  2.0 unx     5573 b- defN 23-Oct-31 16:01 vault-cli-3.7.2/bin/vlt
+│  -rw-r--r--  2.0 unx     5576 b- defN 23-Oct-31 16:01 vault-cli-3.7.2/bin/vlt.bat
+│ --rwxr-xr-x  2.0 unx    91473 b- defN 23-Oct-31 16:01 vault-cli-3.7.2/lib/commons-cli-2.0-mahout.jar
+│ --rwxr-xr-x  2.0 unx   284184 b- defN 23-Oct-31 16:01 vault-cli-3.7.2/lib/commons-codec-1.10.jar
+...
+│ --rwxr-xr-x  2.0 unx   454203 b- defN 23-Oct-31 16:01 vault-cli-3.7.2/lib/logback-core-1.2.10.jar
+│ --rwxr-xr-x  2.0 unx    54488 b- defN 23-Oct-31 16:01 vault-cli-3.7.2/lib/oak-jackrabbit-api-1.22.4.jar
+│ +-rw-r--r--  2.0 unx    91473 b- defN 23-Oct-31 16:01 vault-cli-3.7.2/lib/commons-cli-2.0-mahout.jar
+│ +-rw-r--r--  2.0 unx   284184 b- defN 23-Oct-31 16:01 vault-cli-3.7.2/lib/commons-codec-1.10.jar
+...
+│ +-rw-r--r--  2.0 unx   454203 b- defN 23-Oct-31 16:01 vault-cli-3.7.2/lib/logback-core-1.2.10.jar
+│ +-rw-r--r--  2.0 unx    54488 b- defN 23-Oct-31 16:01 vault-cli-3.7.2/lib/oak-jackrabbit-api-1.22.4.jar
+│  -rw-r--r--  2.0 unx  2975744 b- defN 23-Oct-31 16:01 vault-cli-3.7.2/lib/org.apache.jackrabbit.vault-3.7.2.jar
+│ --rwxr-xr-x  2.0 unx   345014 b- defN 23-Oct-31 16:01 vault-cli-3.7.2/lib/org.osgi.framework-1.8.0.jar
+│ --rwxr-xr-x  2.0 unx    41203 b- defN 23-Oct-31 16:01 vault-cli-3.7.2/lib/slf4j-api-1.7.25.jar
+│ +-rw-r--r--  2.0 unx   345014 b- defN 23-Oct-31 16:01 vault-cli-3.7.2/lib/org.osgi.framework-1.8.0.jar
+│ +-rw-r--r--  2.0 unx    41203 b- defN 23-Oct-31 16:01 vault-cli-3.7.2/lib/slf4j-api-1.7.25.jar
+│  -rw-r--r--  2.0 unx   187273 b- defN 23-Oct-31 16:01 vault-cli-3.7.2/lib/vault-cli-3.7.2.jar
+│  -rw-r--r--  2.0 unx    12782 b- defN 23-Oct-31 16:01 vault-cli-3.7.2/lib/vault-davex-3.7.2.jar
+│  -rw-r--r--  2.0 unx    39060 b- defN 23-Oct-31 16:01 vault-cli-3.7.2/lib/vault-diff-3.7.2.jar
+│  -rw-r--r--  2.0 unx   113955 b- defN 23-Oct-31 16:01 vault-cli-3.7.2/lib/vault-sync-3.7.2.jar
+│  -rw-r--r--  2.0 unx   112981 b- defN 23-Oct-31 16:01 vault-cli-3.7.2/lib/vault-vlt-3.7.2.jar
+│  -rw-r--r--  2.0 unx     1341 b- defN 23-Oct-31 16:01 vault-cli-3.7.2/etc/logback.xml
+│  37 files, 9630886 bytes uncompressed, 8615841 bytes compressed:  10.5%
+
+3 / 3 target/reference/org.apache.jackrabbit.vault/vault-cli-3.7.2-bin.tar.gz vault-cli/target/vault-cli-3.7.2-bin.tar.gz
+--- target/reference/org.apache.jackrabbit.vault/vault-cli-3.7.2-bin.tar.gz
++++ vault-cli/target/vault-cli-3.7.2-bin.tar.gz
+├── vault-cli-3.7.2-bin.tar
+│ ├── file list
+│ │ @@ -1,35 +1,35 @@
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     5573 2023-10-31 16:01:42.000000 vault-cli-3.7.2/bin/vlt
+│ │  -rw-r--r--   0 root         (0) root         (0)     5576 2023-10-31 16:01:42.000000 vault-cli-3.7.2/bin/vlt.bat
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2023-10-31 16:01:42.000000 vault-cli-3.7.2/lib/
+│ │ --rwxr-xr-x   0 root         (0) root         (0)    91473 2023-10-31 16:01:42.000000 vault-cli-3.7.2/lib/commons-cli-2.0-mahout.jar
+│ │ --rwxr-xr-x   0 root         (0) root         (0)   284184 2023-10-31 16:01:42.000000 vault-cli-3.7.2/lib/commons-codec-1.10.jar
+...
+│ │ --rwxr-xr-x   0 root         (0) root         (0)   454203 2023-10-31 16:01:42.000000 vault-cli-3.7.2/lib/logback-core-1.2.10.jar
+│ │ --rwxr-xr-x   0 root         (0) root         (0)    54488 2023-10-31 16:01:42.000000 vault-cli-3.7.2/lib/oak-jackrabbit-api-1.22.4.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)    91473 2023-10-31 16:01:42.000000 vault-cli-3.7.2/lib/commons-cli-2.0-mahout.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)   284184 2023-10-31 16:01:42.000000 vault-cli-3.7.2/lib/commons-codec-1.10.jar
+...
+│ │ +-rw-r--r--   0 root         (0) root         (0)   454203 2023-10-31 16:01:42.000000 vault-cli-3.7.2/lib/logback-core-1.2.10.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)    54488 2023-10-31 16:01:42.000000 vault-cli-3.7.2/lib/oak-jackrabbit-api-1.22.4.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)  2975744 2023-10-31 16:01:42.000000 vault-cli-3.7.2/lib/org.apache.jackrabbit.vault-3.7.2.jar
+│ │ --rwxr-xr-x   0 root         (0) root         (0)   345014 2023-10-31 16:01:42.000000 vault-cli-3.7.2/lib/org.osgi.framework-1.8.0.jar
+│ │ --rwxr-xr-x   0 root         (0) root         (0)    41203 2023-10-31 16:01:42.000000 vault-cli-3.7.2/lib/slf4j-api-1.7.25.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)   345014 2023-10-31 16:01:42.000000 vault-cli-3.7.2/lib/org.osgi.framework-1.8.0.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)    41203 2023-10-31 16:01:42.000000 vault-cli-3.7.2/lib/slf4j-api-1.7.25.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   187273 2023-10-31 16:01:42.000000 vault-cli-3.7.2/lib/vault-cli-3.7.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    12782 2023-10-31 16:01:42.000000 vault-cli-3.7.2/lib/vault-davex-3.7.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    39060 2023-10-31 16:01:42.000000 vault-cli-3.7.2/lib/vault-diff-3.7.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   113955 2023-10-31 16:01:42.000000 vault-cli-3.7.2/lib/vault-sync-3.7.2.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   112981 2023-10-31 16:01:42.000000 vault-cli-3.7.2/lib/vault-vlt-3.7.2.jar
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2023-10-31 16:01:42.000000 vault-cli-3.7.2/etc/
+│ │  -rw-r--r--   0 root         (0) root         (0)     1341 2023-10-31 16:01:42.000000 vault-cli-3.7.2/etc/logback.xml
+
