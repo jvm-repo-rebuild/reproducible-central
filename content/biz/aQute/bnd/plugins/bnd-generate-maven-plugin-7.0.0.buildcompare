@@ -1,0 +1,9 @@
+version=7.0.0
+ok=28
+ko=0
+ignored=0
+okFiles="bnd-plugin-parent-7.0.0.pom bnd-maven-plugin-7.0.0.pom bnd-maven-plugin-7.0.0.jar bnd-maven-plugin-7.0.0-sources.jar bnd-indexer-maven-plugin-7.0.0.pom bnd-indexer-maven-plugin-7.0.0.jar bnd-indexer-maven-plugin-7.0.0-sources.jar bnd-baseline-maven-plugin-7.0.0.pom bnd-baseline-maven-plugin-7.0.0.jar bnd-baseline-maven-plugin-7.0.0-sources.jar bnd-resolver-maven-plugin-7.0.0.pom bnd-resolver-maven-plugin-7.0.0.jar bnd-resolver-maven-plugin-7.0.0-sources.jar bnd-export-maven-plugin-7.0.0.pom bnd-export-maven-plugin-7.0.0.jar bnd-export-maven-plugin-7.0.0-sources.jar bnd-testing-maven-plugin-7.0.0.pom bnd-testing-maven-plugin-7.0.0.jar bnd-testing-maven-plugin-7.0.0-sources.jar bnd-run-maven-plugin-7.0.0.pom bnd-run-maven-plugin-7.0.0.jar bnd-run-maven-plugin-7.0.0-sources.jar bnd-reporter-maven-plugin-7.0.0.pom bnd-reporter-maven-plugin-7.0.0.jar bnd-reporter-maven-plugin-7.0.0-sources.jar bnd-generate-maven-plugin-7.0.0.pom bnd-generate-maven-plugin-7.0.0.jar bnd-generate-maven-plugin-7.0.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"

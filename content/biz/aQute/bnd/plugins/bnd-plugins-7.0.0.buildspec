@@ -1,0 +1,17 @@
+groupId=biz.aQute.bnd
+artifactId=bnd-plugin-parent
+display=${groupId}:maven-plugins
+version=7.0.0
+
+gitRepo=https://github.com/bndtools/bnd
+gitTag=${version}
+
+tool=mvn
+jdk=17
+newline=lf
+umask=022
+
+command="mvn -f maven-plugins/pom.xml clean verify -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dinvoker.skip"
+buildinfo=maven-plugins/bnd-generate-maven-plugin/target/bnd-generate-maven-plugin-${version}.buildinfo
+
+issue=
