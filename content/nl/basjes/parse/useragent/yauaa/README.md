@@ -9,33 +9,33 @@ Source code: [https://github.com/nielsbasjes/yauaa.git](https://github.com/niels
 
 <details><summary>This project defines 18 modules:</summary>
 
-* [nl.basjes.parse.useragent:yauaa](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.22.0)
-* [nl.basjes.parse.useragent:yauaa-beam](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-beam/7.22.0)
-* [nl.basjes.parse.useragent:yauaa-beam-sql](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-beam-sql/7.22.0)
-* [nl.basjes.parse.useragent:yauaa-drill](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-drill/7.22.0)
-* [nl.basjes.parse.useragent:yauaa-elastic-udfs-parent](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-elastic-udfs-parent/7.22.0)
-* [nl.basjes.parse.useragent:yauaa-elasticsearch](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-elasticsearch/7.22.0)
-* [nl.basjes.parse.useragent:yauaa-elasticsearch-8](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-elasticsearch-8/7.22.0)
-* [nl.basjes.parse.useragent:yauaa-flink](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-flink/7.22.0)
-* [nl.basjes.parse.useragent:yauaa-flink-table](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-flink-table/7.22.0)
-* [nl.basjes.parse.useragent:yauaa-hive](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-hive/7.22.0)
-* [nl.basjes.parse.useragent:yauaa-logparser](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-logparser/7.22.0)
-* [nl.basjes.parse.useragent:yauaa-nifi](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-nifi/7.22.0)
-* [nl.basjes.parse.useragent:yauaa-nifi-parent](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-nifi-parent/7.22.0)
-* [nl.basjes.parse.useragent:yauaa-parent](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-parent/7.22.0)
-* [nl.basjes.parse.useragent:yauaa-snowflake](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-snowflake/7.22.0)
-* [nl.basjes.parse.useragent:yauaa-trino](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-trino/7.22.0)
-* [nl.basjes.parse.useragent:yauaa-udf-parent](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-udf-parent/7.22.0)
-* [nl.basjes.parse.useragent:yauaa-webapp](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-webapp/7.22.0)
+* [nl.basjes.parse.useragent:yauaa](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.23.0)
+* [nl.basjes.parse.useragent:yauaa-beam](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-beam/7.23.0)
+* [nl.basjes.parse.useragent:yauaa-beam-sql](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-beam-sql/7.23.0)
+* [nl.basjes.parse.useragent:yauaa-drill](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-drill/7.23.0)
+* [nl.basjes.parse.useragent:yauaa-elastic-udfs-parent](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-elastic-udfs-parent/7.23.0)
+* [nl.basjes.parse.useragent:yauaa-elasticsearch](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-elasticsearch/7.23.0)
+* [nl.basjes.parse.useragent:yauaa-elasticsearch-8](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-elasticsearch-8/7.23.0)
+* [nl.basjes.parse.useragent:yauaa-flink](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-flink/7.23.0)
+* [nl.basjes.parse.useragent:yauaa-flink-table](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-flink-table/7.23.0)
+* [nl.basjes.parse.useragent:yauaa-hive](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-hive/7.23.0)
+* [nl.basjes.parse.useragent:yauaa-logparser](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-logparser/7.23.0)
+* [nl.basjes.parse.useragent:yauaa-nifi](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-nifi/7.23.0)
+* [nl.basjes.parse.useragent:yauaa-nifi-parent](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-nifi-parent/7.23.0)
+* [nl.basjes.parse.useragent:yauaa-parent](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-parent/7.23.0)
+* [nl.basjes.parse.useragent:yauaa-snowflake](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-snowflake/7.23.0)
+* [nl.basjes.parse.useragent:yauaa-trino](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-trino/7.23.0)
+* [nl.basjes.parse.useragent:yauaa-udf-parent](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-udf-parent/7.23.0)
+* [nl.basjes.parse.useragent:yauaa-webapp](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa-webapp/7.23.0)
 </details>
 
-rebuilding **11 releases** of nl.basjes.parse.useragent:yauaa:
-- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **12 releases** of nl.basjes.parse.useragent:yauaa:
+- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [7.23.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.23.0/pom) | | | |
+| [7.23.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.23.0/pom) | [mvn jdk17](yauaa-7.23.0.buildspec) | [result](yauaa-parent-7.23.0.buildinfo): [51 :heavy_check_mark: ](yauaa-parent-7.23.0.buildcompare) | 78M |
 | [7.22.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.22.0/pom) | [mvn jdk17](yauaa-7.22.0.buildspec) | [result](yauaa-parent-7.22.0.buildinfo): [51 :heavy_check_mark: ](yauaa-parent-7.22.0.buildcompare) | 77M |
 | [7.21.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.21.0/pom) | [mvn jdk17](yauaa-7.21.0.buildspec) | [result](yauaa-parent-7.21.0.buildinfo): [51 :heavy_check_mark: ](yauaa-parent-7.21.0.buildcompare) | 76M |
 | [7.20.0](https://central.sonatype.com/artifact/nl.basjes.parse.useragent/yauaa/7.20.0/pom) | [mvn jdk17](yauaa-7.20.0.buildspec) | [result](yauaa-parent-7.20.0.buildinfo): [51 :heavy_check_mark: ](yauaa-parent-7.20.0.buildcompare) | 75M |
