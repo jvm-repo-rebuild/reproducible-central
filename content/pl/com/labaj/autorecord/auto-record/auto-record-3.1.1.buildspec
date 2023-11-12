@@ -1,0 +1,19 @@
+groupId=pl.com.labaj.autorecord
+artifactId=auto-record
+version=3.1.1
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/pawellabaj/auto-record.git
+gitTag=v${version}
+
+tool=mvn
+jdk=17
+newline=lf
+umask=022
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-project-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
