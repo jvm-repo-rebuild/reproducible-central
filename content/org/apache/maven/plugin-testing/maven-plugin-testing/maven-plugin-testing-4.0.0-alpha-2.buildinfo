@@ -1,0 +1,77 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Maven Plugin Testing
+group-id=org.apache.maven.plugin-testing
+artifact-id=maven-plugin-testing
+version=4.0.0-alpha-2
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-plugin-testing.git
+source.scm.tag=maven-plugin-testing-4.0.0-alpha-2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=maven-plugin-testing-harness
+
+# aggregated output
+
+outputs.0.coordinates=org.apache.maven.plugin-testing:maven-plugin-testing
+
+outputs.0.0.groupId=org.apache.maven.plugin-testing
+outputs.0.0.filename=maven-plugin-testing-4.0.0-alpha-2.pom
+outputs.0.0.length=2994
+outputs.0.0.checksums.sha512=9236484884538f7b36ae0fc50d22369dff95a71474db02884bf1c1243343b7c8f246a4ee2b1122c67a4186b642003ebbebdb0f475ac1b15e4143f96d4ae14ecb
+
+outputs.0.1.groupId=org.apache.maven.plugin-testing
+outputs.0.1.filename=maven-plugin-testing-4.0.0-alpha-2-site.xml
+outputs.0.1.length=1381
+outputs.0.1.checksums.sha512=78f4d59c515c5c46368d9996a512c3a5c6235fac2733708b00e9c1a216364185a0d1f064f045a866996a201429b665bc20f04735463712225198da6affd9179b
+
+outputs.0.2.groupId=org.apache.maven.plugin-testing
+outputs.0.2.filename=maven-plugin-testing-4.0.0-alpha-2-source-release.zip
+outputs.0.2.length=124116
+outputs.0.2.checksums.sha512=6a9aa7cdd9843d652f4dce4826c4fae25e34569105e272e60893f32ffe1ec8a3ff154bf97ddc275c3534c63581e99e16905f438a4f2a14c3979d435d0092fcc2
+
+outputs.0.3.groupId=org.apache.maven.plugin-testing
+outputs.0.3.filename=maven-plugin-testing-4.0.0-alpha-2-cyclonedx.xml
+outputs.0.3.length=170174
+outputs.0.3.checksums.sha512=ebb7c909cf10c7efe545f64b1cf9e5cbd5245bbebe689b28d2a88fa10f10232d95aae7135524f730dfe28e5fcee752ac7d195ed3ecd2f65753d53825059370b8
+
+outputs.0.4.groupId=org.apache.maven.plugin-testing
+outputs.0.4.filename=maven-plugin-testing-4.0.0-alpha-2-cyclonedx.json
+outputs.0.4.length=197277
+outputs.0.4.checksums.sha512=693382fd795707783be1a166a6d92e96dfce86c4a02559c1215994fc2dfe98c8d052aa59ae698c53a2e63077a64012bc71ccc0f5d701178b3540b19e49da9cf1
+
+outputs.1.coordinates=org.apache.maven.plugin-testing:maven-plugin-testing-harness
+
+outputs.1.0.groupId=org.apache.maven.plugin-testing
+outputs.1.0.filename=maven-plugin-testing-harness-4.0.0-alpha-2.pom
+outputs.1.0.length=4607
+outputs.1.0.checksums.sha512=a6ad6a4ae97203b0d563ffd5cb8cdf72a9ef01d9423a6b9f7a92bed2aaee3380c484598d3ded7da230e3283b2d78e50b77269123f326758349cb7e737e9c5ab5
+
+outputs.1.1.groupId=org.apache.maven.plugin-testing
+outputs.1.1.filename=maven-plugin-testing-harness-4.0.0-alpha-2.jar
+outputs.1.1.length=92065
+outputs.1.1.checksums.sha512=b959429072d0535c645b8ef18f9999a8a138e6f1435d5d477ba579d10a2cf994cf7dacd9c7d8eaec589fd016125f392ee5e40b6e95e0b87696b27a84406aaf42
+
+outputs.1.2.groupId=org.apache.maven.plugin-testing
+outputs.1.2.filename=maven-plugin-testing-harness-4.0.0-alpha-2-sources.jar
+outputs.1.2.length=68393
+outputs.1.2.checksums.sha512=868ff1dfd2bc868e47a158ed3c3578c0f03bce9ece689e4057f09e0f57e7f50710732058422ec24d37c248ec2372b887156d33e880955b91df280257f36c739b
+
+outputs.1.3.groupId=org.apache.maven.plugin-testing
+outputs.1.3.filename=maven-plugin-testing-harness-4.0.0-alpha-2-cyclonedx.xml
+outputs.1.3.length=168451
+outputs.1.3.checksums.sha512=52a4fb483bf3bdc415273deec568a95a899ea37ed32eedcfd3b7faf0883e7f2c53a524b73749dcbc236fc983a0cdbcfb8e3c9b878ff63f04dd49b322ca48813a
+
+outputs.1.4.groupId=org.apache.maven.plugin-testing
+outputs.1.4.filename=maven-plugin-testing-harness-4.0.0-alpha-2-cyclonedx.json
+outputs.1.4.length=195425
+outputs.1.4.checksums.sha512=623c64e936d69286d1165170a492f00455af2cffa0e7c10d88eb5fc757048a9d707ec0cabcb5f28956a86f4aedf81bf53d64149f5caa69acfac6c41f0ff5f56e
