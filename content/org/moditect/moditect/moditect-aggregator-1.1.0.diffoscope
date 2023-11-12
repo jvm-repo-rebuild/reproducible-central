@@ -1,0 +1,69 @@
+1 / 2 target/reference/org.moditect/moditect-1.1.0.jar core/target/moditect-1.1.0.jar
+--- target/reference/org.moditect/moditect-1.1.0.jar
++++ core/target/moditect-1.1.0.jar
+├── zipinfo -v {}
+│ @@ -61,15 +61,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          yes
+│    file last modified on (DOS date/time):          2023 Nov 5 15:58:06
+│ -  32-bit CRC value (hex):                         2c356743
+│ +  32-bit CRC value (hex):                         f51787c3
+│    compressed size:                                189 bytes
+│    uncompressed size:                              279 bytes
+│    length of filename:                             20 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/MANIFEST.MF
+│ @@ -1,9 +1,9 @@
+│  Manifest-Version: 1.0
+│  Created-By: Maven JAR Plugin 3.3.0
+│  Build-Jdk-Spec: 11
+│  Implementation-Title: ModiTect
+│  Implementation-Version: 1.1.0
+│  Implementation-Vendor: ModiTect
+│  Build-Revision: 798baa05f8a35fda71c49dc0688b3b17af99e80b
+│ -Build-Timestamp: 2023-11-05T16:58:19+01:00
+│ +Build-Timestamp: 2023-11-05T14:58:19-01:00
+
+2 / 2 target/reference/org.moditect/moditect-maven-plugin-1.1.0.jar maven-plugin/target/moditect-maven-plugin-1.1.0.jar
+--- target/reference/org.moditect/moditect-maven-plugin-1.1.0.jar
++++ maven-plugin/target/moditect-maven-plugin-1.1.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 50185 bytes, number of entries: 42
+│ +Zip file size: 50187 bytes, number of entries: 42
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-05 15:58 META-INF/
+│  -rw-r--r--  2.0 unx      293 b- defN 23-Nov-05 15:58 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-05 15:58 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-05 15:58 META-INF/maven/org.moditect/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-05 15:58 META-INF/maven/org.moditect/moditect-maven-plugin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-05 15:58 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-05 15:58 org/moditect/
+│ @@ -37,8 +37,8 @@
+│  -rw-r--r--  2.0 unx      958 b- defN 23-Nov-05 15:58 org/moditect/mavenplugin/image/model/Launcher.class
+│  -rw-r--r--  2.0 unx     3154 b- defN 23-Nov-05 15:58 org/moditect/mavenplugin/modulelist/GenerateModuleListMojo.class
+│  -rw-r--r--  2.0 unx     6785 b- defN 23-Nov-05 15:58 org/moditect/mavenplugin/util/ArtifactResolutionHelper.class
+│  -rw-r--r--  2.0 unx     2001 b- defN 23-Nov-05 15:58 org/moditect/mavenplugin/util/DependencyHelper.class
+│  -rw-r--r--  2.0 unx      975 b- defN 23-Nov-05 15:58 org/moditect/mavenplugin/util/MojoLog.class
+│  -rw-r--r--  2.0 unx     4085 b- defN 23-Nov-05 15:58 META-INF/maven/org.moditect/moditect-maven-plugin/pom.xml
+│  -rw-r--r--  2.0 unx       68 b- defN 23-Nov-05 15:58 META-INF/maven/org.moditect/moditect-maven-plugin/pom.properties
+│ -42 files, 138109 bytes uncompressed, 43087 bytes compressed:  68.8%
+│ +42 files, 138109 bytes uncompressed, 43089 bytes compressed:  68.8%
+├── META-INF/MANIFEST.MF
+│ @@ -1,9 +1,9 @@
+│  Manifest-Version: 1.0
+│  Created-By: Maven JAR Plugin 3.3.0
+│  Build-Jdk-Spec: 11
+│  Implementation-Title: ModiTect Maven Plug-In
+│  Implementation-Version: 1.1.0
+│  Implementation-Vendor: ModiTect
+│  Build-Revision: 798baa05f8a35fda71c49dc0688b3b17af99e80b
+│ -Build-Timestamp: 2023-11-05T16:58:19+01:00
+│ +Build-Timestamp: 2023-11-05T14:58:19-01:00
+
