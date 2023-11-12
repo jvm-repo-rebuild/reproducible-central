@@ -1,0 +1,1068 @@
+1 / 79 target/reference/org.apache.plc4x/plc4x-parent-0.11.0-cyclonedx.xml target/apache-plc4x-parent-0.11.0-sbom.xml
+--- target/reference/org.apache.plc4x/plc4x-parent-0.11.0-cyclonedx.xml
++++ target/apache-plc4x-parent-0.11.0-sbom.xml
+│   --- target/reference/org.apache.plc4x/plc4x-parent-0.11.0-cyclonedx.xml
+├── +++ target/apache-plc4x-parent-0.11.0-sbom.xml
+│ @@ -2448,76 +2448,14 @@
+│            <url>https://mail-archives.apache.org/mod_mbox/plc4x-dev/</url>
+│          </reference>
+│          <reference type="vcs">
+│            <url>https://github.com/apache/plc4x/plc4x-code-generation/plc4x-code-generation-language-cs</url>
+│          </reference>
+│        </externalReferences>
+│      </component>
+│ -    <component type="library" bom-ref="pkg:maven/org.apache.plc4x/plc4x-code-generation-language-go@0.11.0?type=jar">
+│ -      <publisher>The Apache Software Foundation</publisher>
+│ -      <group>org.apache.plc4x</group>
+│ -      <name>plc4x-code-generation-language-go</name>
+│ -      <version>0.11.0</version>
+│ -      <description>Code generation template for generating Go(lang) code</description>
+│ -      <licenses>
+│ -        <license>
+│ -          <id>Apache-2.0</id>
+│ -          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+│ -        </license>
+│ -      </licenses>
+│ -      <purl>pkg:maven/org.apache.plc4x/plc4x-code-generation-language-go@0.11.0?type=jar</purl>
+│ -      <externalReferences>
+│ -        <reference type="website">
+│ -          <url>https://plc4x.apache.org/plc4x-code-generation/plc4x-code-generation-language-go</url>
+│ -        </reference>
+│ -        <reference type="distribution">
+│ -          <url>https://repository.apache.org/service/local/staging/deploy/maven2</url>
+│ -        </reference>
+│ -        <reference type="issue-tracker">
+│ -          <url>https://issues.apache.org/jira/browse/PLC4X</url>
+│ -        </reference>
+│ -        <reference type="mailing-list">
+│ -          <url>https://mail-archives.apache.org/mod_mbox/plc4x-dev/</url>
+│ -        </reference>
+│ -        <reference type="vcs">
+│ -          <url>https://github.com/apache/plc4x/plc4x-code-generation/plc4x-code-generation-language-go</url>
+│ -        </reference>
+│ -      </externalReferences>
+│ -    </component>
+│ -    <component type="library" bom-ref="pkg:maven/org.apache.plc4x/plc4x-code-generation-language-python@0.11.0?type=jar">
+│ -      <publisher>The Apache Software Foundation</publisher>
+│ -      <group>org.apache.plc4x</group>
+│ -      <name>plc4x-code-generation-language-python</name>
+│ -      <version>0.11.0</version>
+│ -      <description>Code generation template for generating Python code</description>
+│ -      <licenses>
+│ -        <license>
+│ -          <id>Apache-2.0</id>
+│ -          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+│ -        </license>
+│ -      </licenses>
+│ -      <purl>pkg:maven/org.apache.plc4x/plc4x-code-generation-language-python@0.11.0?type=jar</purl>
+│ -      <externalReferences>
+│ -        <reference type="website">
+│ -          <url>https://plc4x.apache.org/plc4x-code-generation/plc4x-code-generation-language-python</url>
+│ -        </reference>
+│ -        <reference type="distribution">
+│ -          <url>https://repository.apache.org/service/local/staging/deploy/maven2</url>
+│ -        </reference>
+│ -        <reference type="issue-tracker">
+│ -          <url>https://issues.apache.org/jira/browse/PLC4X</url>
+│ -        </reference>
+│ -        <reference type="mailing-list">
+│ -          <url>https://mail-archives.apache.org/mod_mbox/plc4x-dev/</url>
+│ -        </reference>
+│ -        <reference type="vcs">
+│ -          <url>https://github.com/apache/plc4x/plc4x-code-generation/plc4x-code-generation-language-python</url>
+│ -        </reference>
+│ -      </externalReferences>
+│ -    </component>
+│      <component type="library" bom-ref="pkg:maven/org.apache.plc4x/plc4x-protocols@0.11.0?type=pom">
+│        <group>org.apache.plc4x</group>
+│        <name>plc4x-protocols</name>
+│        <version>0.11.0</version>
+│        <purl>pkg:maven/org.apache.plc4x/plc4x-protocols@0.11.0?type=pom</purl>
+│      </component>
+│      <component type="library" bom-ref="pkg:maven/org.apache.plc4x/plc4x-protocols-ab-eth@0.11.0?type=jar">
+│ @@ -5486,14 +5424,24 @@
+│      <component type="library" bom-ref="pkg:maven/org.apache.plc4x/plc4j-driver-can@0.11.0?type=jar">
+│        <publisher>The Apache Software Foundation</publisher>
+│        <group>org.apache.plc4x</group>
+│        <name>plc4j-driver-can</name>
+│        <version>0.11.0</version>
+│        <description>Implementation of CAN driver.</description>
+│        <scope>required</scope>
+│ +      <hashes>
+│ +        <hash alg="MD5">66e7f1d0abb1daa85285d5e663883558</hash>
+│ +        <hash alg="SHA-1">c3d07d3ed5557e9f4254dfcbbe4d03386449d345</hash>
+│ +        <hash alg="SHA-256">b1ebf76dc009f10cbeacae46cd9da82a1a8d6992dfa26c85bd6a227a545f7740</hash>
+│ +        <hash alg="SHA-512">d9cbe38dba7b37ad3bc8cc5abd24cfbf625844544ac1636408162783f419fd81de57453db46c6ab02fe1790a2609a4c1387dca428427e7805df5d8aaee47c63c</hash>
+│ +        <hash alg="SHA-384">57bec1ab58172ea17602acef08f530c476b69305c121e0b671c5a20d5e850eff0651fe264c7a7bcd62f2c21f46800b07</hash>
+│ +        <hash alg="SHA3-384">62886978f38eb4327aab494d86473e5c51aee183cda94a7a596aefb2ac477205961e53974061cf9114c0135b16dae3da</hash>
+│ +        <hash alg="SHA3-256">647bea6a0723117ce262ab99852c1828599f2db6b2b026ddf919bbf5fabb373e</hash>
+│ +        <hash alg="SHA3-512">4bf43a333997cc4dce9132f05621f0cdb07135a2998e99146215c92f4bb2c73591fff55c7f3625aefeb2275e731f932049b5b631608a364527dd02c4cde8cb2c</hash>
+│ +      </hashes>
+│        <licenses>
+│          <license>
+│            <id>Apache-2.0</id>
+│            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+│          </license>
+│        </licenses>
+│        <purl>pkg:maven/org.apache.plc4x/plc4j-driver-can@0.11.0?type=jar</purl>
+│ @@ -6310,14 +6258,24 @@
+│      <component type="library" bom-ref="pkg:maven/org.apache.plc4x/plc4j-driver-canopen@0.11.0?type=jar">
+│        <publisher>The Apache Software Foundation</publisher>
+│        <group>org.apache.plc4x</group>
+│        <name>plc4j-driver-canopen</name>
+│        <version>0.11.0</version>
+│        <description>Implementation of CANopen driver.</description>
+│        <scope>required</scope>
+│ +      <hashes>
+│ +        <hash alg="MD5">549e2055181b7c83c4d506b66f2c493c</hash>
+│ +        <hash alg="SHA-1">8ea2dbd1565dca93ae38af096880ed94371e58f0</hash>
+│ +        <hash alg="SHA-256">0540c02438df7d4bbbe07f75eaea8e6973fc0cd4843d5830fbc9b6af596d3909</hash>
+│ +        <hash alg="SHA-512">e19ca5b03c489a71eb2f3387a239ddf411edfadaabf52c6c895ef7f84917dee3c311c84244e51792d3de33e38334916ee6a1f2e2726d28b245b9a486fd7979a4</hash>
+│ +        <hash alg="SHA-384">c28a1cfd922d18f2b89414e57b1a74a154d02b58b9aee9c2bc6d28dcb00b46ddc416b5ba4b77496980e14aa298894b74</hash>
+│ +        <hash alg="SHA3-384">88a51993359324b08115d21ad7fb604a2b5bcd57c3bacea4fc573040a87079fb28479c99e12379695bb7785b215f9d12</hash>
+│ +        <hash alg="SHA3-256">c2a1f83c5580816b34db30fdbcfedfe6b389aa70f7d5e416b56a34448d9025a1</hash>
+│ +        <hash alg="SHA3-512">e5d4fd85aff7e70b69a6d433019e028353a93c4d514fbcb7911086beea3c20f0c83ec0a8192691305271828bbd6bb2c139d52a4069a930bc6da20cb928b54cb6</hash>
+│ +      </hashes>
+│        <licenses>
+│          <license>
+│            <id>Apache-2.0</id>
+│            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+│          </license>
+│        </licenses>
+│        <purl>pkg:maven/org.apache.plc4x/plc4j-driver-canopen@0.11.0?type=jar</purl>
+│ @@ -11651,20 +11609,14 @@
+│      </component>
+│      <component type="library" bom-ref="pkg:maven/org.apache.plc4x/plc4c@0.11.0?type=pom">
+│        <group>org.apache.plc4x</group>
+│        <name>plc4c</name>
+│        <version>0.11.0</version>
+│        <purl>pkg:maven/org.apache.plc4x/plc4c@0.11.0?type=pom</purl>
+│      </component>
+│ -    <component type="library" bom-ref="pkg:maven/org.apache.plc4x/plc4go@0.11.0?type=mvn-golang">
+│ -      <group>org.apache.plc4x</group>
+│ -      <name>plc4go</name>
+│ -      <version>0.11.0</version>
+│ -      <purl>pkg:maven/org.apache.plc4x/plc4go@0.11.0?type=mvn-golang</purl>
+│ -    </component>
+│      <component type="library" bom-ref="pkg:maven/org.apache.plc4x/plc4net@0.11.0?type=pom">
+│        <group>org.apache.plc4x</group>
+│        <name>plc4net</name>
+│        <version>0.11.0</version>
+│        <purl>pkg:maven/org.apache.plc4x/plc4net@0.11.0?type=pom</purl>
+│      </component>
+│      <component type="library" bom-ref="pkg:maven/org.apache.plc4x.sandbox/plc4x-sandbox@0.11.0?type=pom">
+│ @@ -11765,40 +11717,31 @@
+│            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+│          </reference>
+│          <reference type="vcs">
+│            <url>http://github.com/snksoft/java-crc/tree/master</url>
+│          </reference>
+│        </externalReferences>
+│      </component>
+│ -    <component type="library" bom-ref="pkg:maven/org.apache.plc4x.sandbox/plc4py@0.11.0?type=pom">
+│ -      <group>org.apache.plc4x.sandbox</group>
+│ -      <name>plc4py</name>
+│ -      <version>0.11.0</version>
+│ -      <purl>pkg:maven/org.apache.plc4x.sandbox/plc4py@0.11.0?type=pom</purl>
+│ -    </component>
+│    </components>
+│    <dependencies>
+│      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-parent@0.11.0?type=pom">
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4x-code-generation@0.11.0?type=pom"/>
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4j@0.11.0?type=pom"/>
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols@0.11.0?type=pom"/>
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4c@0.11.0?type=pom"/>
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4go@0.11.0?type=mvn-golang"/>
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4net@0.11.0?type=pom"/>
+│        <dependency ref="pkg:maven/org.apache.plc4x.sandbox/plc4x-sandbox@0.11.0?type=pom"/>
+│      </dependency>
+│      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-code-generation@0.11.0?type=pom">
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4x-code-generation-protocol-base-mspec@0.11.0?type=jar"/>
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4x-code-generation-language-base-freemarker@0.11.0?type=jar"/>
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4x-code-generation-protocol-test@0.11.0?type=jar"/>
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4x-code-generation-language-java@0.11.0?type=jar"/>
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4x-code-generation-language-c@0.11.0?type=jar"/>
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4x-code-generation-language-cs@0.11.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-code-generation-language-go@0.11.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-code-generation-language-python@0.11.0?type=jar"/>
+│      </dependency>
+│      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-code-generation-protocol-base-mspec@0.11.0?type=jar">
+│        <dependency ref="pkg:maven/org.apache.plc4x.plugins/plc4x-code-generation-protocol-base@1.7.0?type=jar"/>
+│        <dependency ref="pkg:maven/commons-io/commons-io@2.11.0?type=jar"/>
+│        <dependency ref="pkg:maven/org.antlr/antlr4-runtime@4.13.1?type=jar"/>
+│        <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"/>
+│        <dependency ref="pkg:maven/ch.qos.logback/logback-classic@1.4.11?type=jar"/>
+│ @@ -12031,28 +11974,14 @@
+│      </dependency>
+│      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-code-generation-language-cs@0.11.0?type=jar">
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4x-code-generation-language-base-freemarker@0.11.0?type=jar"/>
+│        <dependency ref="pkg:maven/org.apache.plc4x.plugins/plc4x-code-generation-types-base@1.7.0?type=jar"/>
+│        <dependency ref="pkg:maven/org.freemarker/freemarker@2.3.32?type=jar"/>
+│        <dependency ref="pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar"/>
+│      </dependency>
+│ -    <dependency ref="pkg:maven/org.apache.plc4x/plc4x-code-generation-language-go@0.11.0?type=jar">
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-code-generation-language-base-freemarker@0.11.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.plc4x.plugins/plc4x-code-generation-types-base@1.7.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.freemarker/freemarker@2.3.32?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-code-generation-protocol-base-mspec@0.11.0?type=jar"/>
+│ -    </dependency>
+│ -    <dependency ref="pkg:maven/org.apache.plc4x/plc4x-code-generation-language-python@0.11.0?type=jar">
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-code-generation-language-base-freemarker@0.11.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-code-generation-protocol-base-mspec@0.11.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.plc4x.plugins/plc4x-code-generation-types-base@1.7.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.freemarker/freemarker@2.3.32?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.commons/commons-text@1.10.0?type=jar"/>
+│ -    </dependency>
+│      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols@0.11.0?type=pom">
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-ab-eth@0.11.0?type=jar"/>
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-ads@0.11.0?type=jar"/>
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-c-bus@0.11.0?type=jar"/>
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-bacnetip@0.11.0?type=jar"/>
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-canopen@0.11.0?type=jar"/>
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-df1@0.11.0?type=jar"/>
+│ @@ -13688,37 +13617,21 @@
+│      <dependency ref="pkg:maven/org.osgi/osgi.core@8.0.0?type=jar"/>
+│      <dependency ref="pkg:maven/org.apache.plc4x/plc4c@0.11.0?type=pom">
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4x-code-generation-language-c@0.11.0?type=jar"/>
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-modbus@0.11.0?type=jar"/>
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-plc4x@0.11.0?type=jar"/>
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-s7@0.11.0?type=jar"/>
+│      </dependency>
+│ -    <dependency ref="pkg:maven/org.apache.plc4x/plc4go@0.11.0?type=mvn-golang">
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-code-generation-language-go@0.11.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-ab-eth@0.11.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-ads@0.11.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-bacnetip@0.11.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-c-bus@0.11.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-df1@0.11.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-eip@0.11.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-firmata@0.11.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-knxnetip@0.11.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-modbus@0.11.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-opcua@0.11.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-s7@0.11.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-simulated@0.11.0?type=jar"/>
+│ -    </dependency>
+│      <dependency ref="pkg:maven/org.apache.plc4x/plc4net@0.11.0?type=pom">
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4x-code-generation-language-cs@0.11.0?type=jar"/>
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-knxnetip@0.11.0?type=jar"/>
+│      </dependency>
+│      <dependency ref="pkg:maven/org.apache.plc4x.sandbox/plc4x-sandbox@0.11.0?type=pom">
+│        <dependency ref="pkg:maven/org.apache.plc4x.sandbox/plc4j-driver-discovery@0.11.0?type=jar"/>
+│        <dependency ref="pkg:maven/org.apache.plc4x.sandbox/test-java-df1-driver@0.11.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.plc4x.sandbox/plc4py@0.11.0?type=pom"/>
+│      </dependency>
+│      <dependency ref="pkg:maven/org.apache.plc4x.sandbox/plc4j-driver-discovery@0.11.0?type=jar">
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4j-spi@0.11.0?type=jar"/>
+│        <dependency ref="pkg:maven/ch.qos.logback/logback-classic@1.4.11?type=jar"/>
+│      </dependency>
+│      <dependency ref="pkg:maven/org.apache.plc4x.sandbox/test-java-df1-driver@0.11.0?type=jar">
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4j-api@0.11.0?type=jar"/>
+│ @@ -13729,14 +13642,9 @@
+│        <dependency ref="pkg:maven/com.github.snksoft/crc@1.1.0?type=jar"/>
+│        <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"/>
+│        <dependency ref="pkg:maven/ch.qos.logback/logback-classic@1.4.11?type=jar"/>
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4x-code-generation-language-java@0.11.0?type=jar"/>
+│        <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-df1@0.11.0?type=jar"/>
+│      </dependency>
+│      <dependency ref="pkg:maven/com.github.snksoft/crc@1.1.0?type=jar"/>
+│ -    <dependency ref="pkg:maven/org.apache.plc4x.sandbox/plc4py@0.11.0?type=pom">
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-code-generation-language-python@0.11.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-modbus@0.11.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.apache.plc4x/plc4x-protocols-simulated@0.11.0?type=jar"/>
+│ -    </dependency>
+│    </dependencies>
+│  </bom>
+
+2 / 79 target/reference/org.apache.plc4x/plc4x-parent-0.11.0-cyclonedx.json target/apache-plc4x-parent-0.11.0-sbom.json
+
+# many files just have the META-INF/MANIFEST.MF issue caused by maven-bundle-plugin:5.1.8: upgrade to 5.1.9 will solve issue
+3 / 79 target/reference/org.apache.plc4x/plc4j-api-0.11.0.jar plc4j/api/target/plc4j-api-0.11.0.jar
+4 / 79 target/reference/org.apache.plc4x/plc4j-spi-0.11.0.jar plc4j/spi/target/plc4j-spi-0.11.0.jar
+5 / 79 target/reference/org.apache.plc4x/plc4j-transport-test-0.11.0.jar plc4j/transports/test/target/plc4j-transport-test-0.11.0.jar
+6 / 79 target/reference/org.apache.plc4x/plc4j-utils-test-utils-0.11.0.jar plc4j/utils/test-utils/target/plc4j-utils-test-utils-0.11.0.jar
+7 / 79 target/reference/org.apache.plc4x/plc4x-code-generation-protocol-test-0.11.0.jar code-generation/protocol-test/target/plc4x-code-generation-protocol-test-0.11.0.jar
+8 / 79 target/reference/org.apache.plc4x/plc4x-protocols-ab-eth-0.11.0.jar protocols/ab-eth/target/plc4x-protocols-ab-eth-0.11.0.jar
+9 / 79 target/reference/org.apache.plc4x/plc4x-protocols-ads-0.11.0.jar protocols/ads/target/plc4x-protocols-ads-0.11.0.jar
+10 / 79 target/reference/org.apache.plc4x/plc4x-protocols-c-bus-0.11.0.jar protocols/c-bus/target/plc4x-protocols-c-bus-0.11.0.jar
+12 / 79 target/reference/org.apache.plc4x/plc4x-protocols-canopen-0.11.0.jar protocols/canopen/target/plc4x-protocols-canopen-0.11.0.jar
+13 / 79 target/reference/org.apache.plc4x/plc4x-protocols-df1-0.11.0.jar protocols/df1/target/plc4x-protocols-df1-0.11.0.jar
+14 / 79 target/reference/org.apache.plc4x/plc4x-protocols-eip-0.11.0.jar protocols/eip/target/plc4x-protocols-eip-0.11.0.jar
+15 / 79 target/reference/org.apache.plc4x/plc4x-protocols-firmata-0.11.0.jar protocols/firmata/target/plc4x-protocols-firmata-0.11.0.jar
+16 / 79 target/reference/org.apache.plc4x/plc4x-protocols-genericcan-0.11.0.jar protocols/genericcan/target/plc4x-protocols-genericcan-0.11.0.jar
+17 / 79 target/reference/org.apache.plc4x/plc4x-protocols-iec-60870-0.11.0.jar protocols/iec-60870/target/plc4x-protocols-iec-60870-0.11.0.jar
+19 / 79 target/reference/org.apache.plc4x/plc4x-protocols-modbus-0.11.0.jar protocols/modbus/target/plc4x-protocols-modbus-0.11.0.jar
+20 / 79 target/reference/org.apache.plc4x/plc4x-protocols-mqtt-0.11.0.jar protocols/mqtt/target/plc4x-protocols-mqtt-0.11.0.jar
+21 / 79 target/reference/org.apache.plc4x/plc4x-protocols-open-protocol-0.11.0.jar protocols/open-protocol/target/plc4x-protocols-open-protocol-0.11.0.jar
+22 / 79 target/reference/org.apache.plc4x/plc4x-protocols-plc4x-0.11.0.jar protocols/plc4x/target/plc4x-protocols-plc4x-0.11.0.jar
+23 / 79 target/reference/org.apache.plc4x/plc4x-protocols-plc4x-api-0.11.0.jar protocols/plc4x-api/target/plc4x-protocols-plc4x-api-0.11.0.jar
+24 / 79 target/reference/org.apache.plc4x/plc4x-protocols-profinet-0.11.0.jar protocols/profinet/target/plc4x-protocols-profinet-0.11.0.jar
+25 / 79 target/reference/org.apache.plc4x/plc4x-protocols-s7-0.11.0.jar protocols/s7/target/plc4x-protocols-s7-0.11.0.jar
+26 / 79 target/reference/org.apache.plc4x/plc4x-protocols-simulated-0.11.0.jar protocols/simulated/target/plc4x-protocols-simulated-0.11.0.jar
+27 / 79 target/reference/org.apache.plc4x/plc4x-protocols-socketcan-0.11.0.jar protocols/socketcan/target/plc4x-protocols-socketcan-0.11.0.jar
+28 / 79 target/reference/org.apache.plc4x/plc4j-driver-ab-eth-0.11.0.jar plc4j/drivers/ab-eth/target/plc4j-driver-ab-eth-0.11.0.jar
+29 / 79 target/reference/org.apache.plc4x/plc4j-driver-ab-eth-0.11.0.kar plc4j/drivers/ab-eth/target/plc4j-driver-ab-eth-0.11.0.kar
+30 / 79 target/reference/org.apache.plc4x/plc4j-driver-ads-0.11.0.jar plc4j/drivers/ads/target/plc4j-driver-ads-0.11.0.jar
+31 / 79 target/reference/org.apache.plc4x/plc4j-driver-ads-0.11.0.kar plc4j/drivers/ads/target/plc4j-driver-ads-0.11.0.kar
+32 / 79 target/reference/org.apache.plc4x/plc4j-utils-pcap-shared-0.11.0.jar plc4j/utils/pcap-shared/target/plc4j-utils-pcap-shared-0.11.0.jar
+33 / 79 target/reference/org.apache.plc4x/plc4j-utils-raw-sockets-0.11.0.jar plc4j/utils/raw-sockets/target/plc4j-utils-raw-sockets-0.11.0.jar
+34 / 79 target/reference/org.apache.plc4x/plc4j-transport-raw-socket-0.11.0.jar plc4j/transports/raw-socket/target/plc4j-transport-raw-socket-0.11.0.jar
+35 / 79 target/reference/org.apache.plc4x/plc4j-utils-pcap-replay-0.11.0.jar plc4j/utils/pcap-replay/target/plc4j-utils-pcap-replay-0.11.0.jar
+36 / 79 target/reference/org.apache.plc4x/plc4j-driver-s7-0.11.0.jar plc4j/drivers/s7/target/plc4j-driver-s7-0.11.0.jar
+37 / 79 target/reference/org.apache.plc4x/plc4j-driver-s7-0.11.0.kar plc4j/drivers/s7/target/plc4j-driver-s7-0.11.0.kar
+38 / 79 target/reference/org.apache.plc4x/plc4j-driver-eip-0.11.0.jar plc4j/drivers/eip/target/plc4j-driver-eip-0.11.0.jar
+39 / 79 target/reference/org.apache.plc4x/plc4j-driver-eip-0.11.0.kar plc4j/drivers/eip/target/plc4j-driver-eip-0.11.0.kar
+40 / 79 target/reference/org.apache.plc4x/plc4j-driver-iec-60870-0.11.0.jar plc4j/drivers/iec-60870/target/plc4j-driver-iec-60870-0.11.0.jar
+41 / 79 target/reference/org.apache.plc4x/plc4j-driver-iec-60870-0.11.0.kar plc4j/drivers/iec-60870/target/plc4j-driver-iec-60870-0.11.0.kar
+46 / 79 target/reference/org.apache.plc4x/plc4j-transport-socketcan-0.11.0.jar plc4j/transports/socketcan/target/plc4j-transport-socketcan-0.11.0.jar
+47 / 79 target/reference/org.apache.plc4x/plc4j-driver-can-0.11.0.jar plc4j/drivers/can/target/plc4j-driver-can-0.11.0.jar
+48 / 79 target/reference/org.apache.plc4x/plc4j-driver-can-0.11.0.kar plc4j/drivers/can/target/plc4j-driver-can-0.11.0.kar
+49 / 79 target/reference/org.apache.plc4x/plc4j-driver-canopen-0.11.0.jar plc4j/drivers/canopen/target/plc4j-driver-canopen-0.11.0.jar
+50 / 79 target/reference/org.apache.plc4x/plc4j-driver-canopen-0.11.0.kar plc4j/drivers/canopen/target/plc4j-driver-canopen-0.11.0.kar
+51 / 79 target/reference/org.apache.plc4x/plc4j-driver-firmata-0.11.0.jar plc4j/drivers/firmata/target/plc4j-driver-firmata-0.11.0.jar
+52 / 79 target/reference/org.apache.plc4x/plc4j-driver-firmata-0.11.0.kar plc4j/drivers/firmata/target/plc4j-driver-firmata-0.11.0.kar
+56 / 79 target/reference/org.apache.plc4x/plc4j-driver-mock-0.11.0.jar plc4j/drivers/mock/target/plc4j-driver-mock-0.11.0.jar
+59 / 79 target/reference/org.apache.plc4x/plc4j-driver-modbus-0.11.0.jar plc4j/drivers/modbus/target/plc4j-driver-modbus-0.11.0.jar
+60 / 79 target/reference/org.apache.plc4x/plc4j-driver-modbus-0.11.0.kar plc4j/drivers/modbus/target/plc4j-driver-modbus-0.11.0.kar
+61 / 79 target/reference/org.apache.plc4x/plc4j-driver-opcua-0.11.0.jar plc4j/drivers/opcua/target/plc4j-driver-opcua-0.11.0.jar
+62 / 79 target/reference/org.apache.plc4x/plc4j-driver-opcua-0.11.0.kar plc4j/drivers/opcua/target/plc4j-driver-opcua-0.11.0.kar
+63 / 79 target/reference/org.apache.plc4x/plc4j-driver-plc4x-0.11.0.jar plc4j/drivers/plc4x/target/plc4j-driver-plc4x-0.11.0.jar
+64 / 79 target/reference/org.apache.plc4x/plc4j-driver-plc4x-0.11.0.kar plc4j/drivers/plc4x/target/plc4j-driver-plc4x-0.11.0.kar
+65 / 79 target/reference/org.apache.plc4x/plc4j-driver-profinet-0.11.0.jar plc4j/drivers/profinet/target/plc4j-driver-profinet-0.11.0.jar
+66 / 79 target/reference/org.apache.plc4x/plc4j-driver-profinet-0.11.0.kar plc4j/drivers/profinet/target/plc4j-driver-profinet-0.11.0.kar
+67 / 79 target/reference/org.apache.plc4x/plc4j-driver-profinet-ng-0.11.0.jar plc4j/drivers/profinet-ng/target/plc4j-driver-profinet-ng-0.11.0.jar
+68 / 79 target/reference/org.apache.plc4x/plc4j-driver-profinet-ng-0.11.0.kar plc4j/drivers/profinet-ng/target/plc4j-driver-profinet-ng-0.11.0.kar
+69 / 79 target/reference/org.apache.plc4x/plc4j-driver-simulated-0.11.0.jar plc4j/drivers/simulated/target/plc4j-driver-simulated-0.11.0.jar
+70 / 79 target/reference/org.apache.plc4x/plc4j-driver-simulated-0.11.0.kar plc4j/drivers/simulated/target/plc4j-driver-simulated-0.11.0.kar
+71 / 79 target/reference/org.apache.plc4x/plc4j-scraper-0.11.0.jar plc4j/tools/scraper/target/plc4j-scraper-0.11.0.jar
+78 / 79 target/reference/org.apache.plc4x/plc4j-plc4x-server-0.11.0.jar plc4j/tools/plc4x-server/target/plc4j-plc4x-server-0.11.0.jar
+79 / 79 target/reference/org.apache.plc4x/plc4j-utils-plc-simulator-0.11.0.jar plc4j/utils/plc-simulator/target/plc4j-utils-plc-simulator-0.11.0.jar
+
+11 / 79 target/reference/org.apache.plc4x/plc4x-protocols-bacnetip-0.11.0.jar protocols/bacnetip/target/plc4x-protocols-bacnetip-0.11.0.jar
+--- target/reference/org.apache.plc4x/plc4x-protocols-bacnetip-0.11.0.jar
++++ protocols/bacnetip/target/plc4x-protocols-bacnetip-0.11.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 117532 bytes, number of entries: 26
+│ +Zip file size: 117615 bytes, number of entries: 26
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-02 07:42 META-INF/
+│  -rw-r--r--  2.0 unx     2126 b- defN 23-Oct-02 07:42 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-02 07:42 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-02 07:42 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-02 07:42 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-02 07:42 org/apache/plc4x/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-02 07:42 org/apache/plc4x/protocol/
+│ @@ -17,12 +17,12 @@
+│  -rw-r--r--  2.0 unx    10868 b- defN 23-Oct-02 07:42 protocols/bacnetip/bacnet-bit-strings-tagged.mspec
+│  -rw-r--r--  2.0 unx     7738 b- defN 23-Oct-02 07:42 protocols/bacnetip/bacnet-bit-strings.mspec
+│  -rw-r--r--  2.0 unx    61699 b- defN 23-Oct-02 07:42 protocols/bacnetip/bacnet-enums-tagged.mspec
+│  -rw-r--r--  2.0 unx    77064 b- defN 23-Oct-02 07:42 protocols/bacnetip/bacnet-enums.mspec
+│  -rw-r--r--  2.0 unx    40851 b- defN 23-Oct-02 07:42 protocols/bacnetip/bacnet-private-enums-tagged.mspec
+│  -rw-r--r--  2.0 unx    21729 b- defN 23-Oct-02 07:42 protocols/bacnetip/bacnet-private-enums.mspec
+│  -rw-r--r--  2.0 unx    21786 b- defN 23-Oct-02 07:42 protocols/bacnetip/bacnet-tags.mspec
+│ --rw-r--r--  2.0 unx    96524 b- defN 23-Oct-02 07:42 protocols/bacnetip/bacnet-vendorids.mspec
+│ +-rw-r--r--  2.0 unx    96742 b- defN 23-Oct-02 07:42 protocols/bacnetip/bacnet-vendorids.mspec
+│  -rw-r--r--  2.0 unx   474499 b- defN 23-Oct-02 07:42 protocols/bacnetip/bacnetip.mspec
+│  -rw-r--r--  2.0 unx     4620 b- defN 23-Oct-02 07:42 META-INF/maven/org.apache.plc4x/plc4x-protocols-bacnetip/pom.xml
+│  -rw-r--r--  2.0 unx       76 b- defN 23-Oct-02 07:42 META-INF/maven/org.apache.plc4x/plc4x-protocols-bacnetip/pom.properties
+│ -26 files, 823098 bytes uncompressed, 113694 bytes compressed:  86.2%
+│ +26 files, 823316 bytes uncompressed, 113777 bytes compressed:  86.2%
+├── protocols/bacnetip/bacnet-vendorids.mspec
+│ @@ -1455,14 +1455,18 @@
+│    ['1443' MONICO_MONITORING_INC ['1443', '"Monico Monitoring, Inc."']]
+│    ['1444' OQDO ['1444', '"Oqdo"']]
+│    ['1445' MATRIX_COMSEC_PRIVATE_LIMITED ['1445', '"Matrix Comsec Private Limited"']]
+│    ['1446' RESOURCE_SOLUTIONS ['1446', '"Resource Solutions"']]
+│    ['1447' AMERICAN_GAS_SAFETYLLC ['1447', '"American Gas Safety, LLC"']]
+│    ['1448' SS_NORTHERN_LTD ['1448', '"S&S Northern Ltd."']]
+│    ['1449' ULBIOS_TECHSENS ['1449', '"Ulbios Techsens"']]
+│ +  ['1450' BOWERY_FARMING_INC ['1450', '"Bowery Farming, Inc."']]
+│ +  ['1451' RYOBI_LIMITED ['1451', '"Ryobi Limited"']]
+│ +  ['1452' EKKO_SENSE_LTD ['1452', '"EkkoSense Ltd"']]
+│ +  ['1453' CLIMA_COOL ['1453', '"ClimaCool"']]
+│   
+│    ['0xFFFF' UNKNOWN_VENDOR ['0xFFFF', '"Unknown"']]
+│  ]
+│  
+│  [type BACnetVendorIdTagged(uint 8 tagNumber, TagClass tagClass)
+│      [simple   BACnetTagHeader
+│                          header                                                                               ]
+
+18 / 79 target/reference/org.apache.plc4x/plc4x-protocols-knxnetip-0.11.0.jar protocols/knxnetip/target/plc4x-protocols-knxnetip-0.11.0.jar
+42 / 79 target/reference/org.apache.plc4x/plc4j-driver-bacnet-0.11.0.jar plc4j/drivers/bacnet/target/plc4j-driver-bacnet-0.11.0.jar
+43 / 79 target/reference/org.apache.plc4x/plc4j-driver-bacnet-0.11.0-sources.jar plc4j/drivers/bacnet/target/plc4j-driver-bacnet-0.11.0-sources.jar
+
+44 / 79 target/reference/org.apache.plc4x/plc4j-driver-c-bus-0.11.0.jar plc4j/drivers/c-bus/target/plc4j-driver-c-bus-0.11.0.jar
+--- target/reference/org.apache.plc4x/plc4j-driver-c-bus-0.11.0.jar
++++ plc4j/drivers/c-bus/target/plc4j-driver-c-bus-0.11.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 1307052 bytes, number of entries: 680
+│ +Zip file size: 1307035 bytes, number of entries: 680
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-02 07:42 META-INF/
+│  -rw-r--r--  2.0 unx     4118 b- defN 23-Oct-02 07:42 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-02 07:42 META-INF/services/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-02 07:42 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-02 07:42 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-02 07:42 org/apache/plc4x/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-02 07:42 org/apache/plc4x/java/
+│ @@ -239,15 +239,15 @@
+│  -rw-r--r--  2.0 unx     1526 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/IdentifyReplyCommandCurrentSenseLevels$IdentifyReplyCommandCurrentSenseLevelsBuilderImpl.class
+│  -rw-r--r--  2.0 unx     5625 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/IdentifyReplyCommandCurrentSenseLevels.class
+│  -rw-r--r--  2.0 unx     2585 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/IdentifyReplyCommandDSIStatus$IdentifyReplyCommandDSIStatusBuilderImpl.class
+│  -rw-r--r--  2.0 unx    11900 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/IdentifyReplyCommandDSIStatus.class
+│  -rw-r--r--  2.0 unx     1464 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/IdentifyReplyCommandDelays$IdentifyReplyCommandDelaysBuilderImpl.class
+│  -rw-r--r--  2.0 unx     6429 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/IdentifyReplyCommandDelays.class
+│  -rw-r--r--  2.0 unx     3369 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/IdentifyReplyCommandExtendedDiagnosticSummary$IdentifyReplyCommandExtendedDiagnosticSummaryBuilderImpl.class
+│ --rw-r--r--  2.0 unx    15056 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/IdentifyReplyCommandExtendedDiagnosticSummary.class
+│ +-rw-r--r--  2.0 unx    15083 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/IdentifyReplyCommandExtendedDiagnosticSummary.class
+│  -rw-r--r--  2.0 unx     1525 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/IdentifyReplyCommandFirmwareVersion$IdentifyReplyCommandFirmwareVersionBuilderImpl.class
+│  -rw-r--r--  2.0 unx     5851 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/IdentifyReplyCommandFirmwareVersion.class
+│  -rw-r--r--  2.0 unx     1534 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/IdentifyReplyCommandGAVPhysicalAddresses$IdentifyReplyCommandGAVPhysicalAddressesBuilderImpl.class
+│  -rw-r--r--  2.0 unx     5613 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/IdentifyReplyCommandGAVPhysicalAddresses.class
+│  -rw-r--r--  2.0 unx     1494 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/IdentifyReplyCommandGAVValuesCurrent$IdentifyReplyCommandGAVValuesCurrentBuilderImpl.class
+│  -rw-r--r--  2.0 unx     5581 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/IdentifyReplyCommandGAVValuesCurrent.class
+│  -rw-r--r--  2.0 unx     1484 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/IdentifyReplyCommandGAVValuesStored$IdentifyReplyCommandGAVValuesStoredBuilderImpl.class
+│ @@ -282,15 +282,15 @@
+│  -rw-r--r--  2.0 unx     8909 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/LevelInformation.class
+│  -rw-r--r--  2.0 unx     1289 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/LevelInformationAbsent$LevelInformationAbsentBuilderImpl.class
+│  -rw-r--r--  2.0 unx     5349 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/LevelInformationAbsent.class
+│  -rw-r--r--  2.0 unx     1472 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/LevelInformationCorrupted$LevelInformationCorruptedBuilderImpl.class
+│  -rw-r--r--  2.0 unx     6150 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/LevelInformationCorrupted.class
+│  -rw-r--r--  2.0 unx     4114 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/LevelInformationNibblePair.class
+│  -rw-r--r--  2.0 unx     1603 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/LevelInformationNormal$LevelInformationNormalBuilderImpl.class
+│ --rw-r--r--  2.0 unx     8508 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/LevelInformationNormal.class
+│ +-rw-r--r--  2.0 unx     8483 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/LevelInformationNormal.class
+│  -rw-r--r--  2.0 unx     3382 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/LightingCommandType.class
+│  -rw-r--r--  2.0 unx     8805 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/LightingCommandTypeContainer.class
+│  -rw-r--r--  2.0 unx     2343 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/LightingCompatible.class
+│  -rw-r--r--  2.0 unx      428 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/LightingData$LightingDataBuilder.class
+│  -rw-r--r--  2.0 unx     9457 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/LightingData.class
+│  -rw-r--r--  2.0 unx     1937 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/LightingDataLabel$LightingDataLabelBuilderImpl.class
+│  -rw-r--r--  2.0 unx    10300 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/LightingDataLabel.class
+│ @@ -450,15 +450,15 @@
+│  -rw-r--r--  2.0 unx     2344 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/RequestEmpty$RequestEmptyBuilderImpl.class
+│  -rw-r--r--  2.0 unx     4726 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/RequestEmpty.class
+│  -rw-r--r--  2.0 unx     2334 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/RequestNull$RequestNullBuilderImpl.class
+│  -rw-r--r--  2.0 unx     5996 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/RequestNull.class
+│  -rw-r--r--  2.0 unx     2786 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/RequestObsolete$RequestObsoleteBuilderImpl.class
+│  -rw-r--r--  2.0 unx     9522 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/RequestObsolete.class
+│  -rw-r--r--  2.0 unx     3006 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/RequestReset$RequestResetBuilderImpl.class
+│ --rw-r--r--  2.0 unx     9533 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/RequestReset.class
+│ +-rw-r--r--  2.0 unx     9508 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/RequestReset.class
+│  -rw-r--r--  2.0 unx     2787 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/RequestSmartConnectShortcut$RequestSmartConnectShortcutBuilderImpl.class
+│  -rw-r--r--  2.0 unx     8956 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/RequestSmartConnectShortcut.class
+│  -rw-r--r--  2.0 unx     5058 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/RequestTermination.class
+│  -rw-r--r--  2.0 unx     3345 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/RequestType.class
+│  -rw-r--r--  2.0 unx     5248 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/ResponseTermination.class
+│  -rw-r--r--  2.0 unx      377 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/SALData$SALDataBuilder.class
+│  -rw-r--r--  2.0 unx    10439 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/SALData.class
+│ @@ -675,8 +675,8 @@
+│  -rw-r--r--  2.0 unx     4987 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/UnitAddress.class
+│  -rw-r--r--  2.0 unx     2216 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/UnitStatus.class
+│  -rw-r--r--  2.0 unx     6539 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/ZoneStatus.class
+│  -rw-r--r--  2.0 unx     2323 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/ZoneStatusTemp.class
+│  -rw-r--r--  2.0 unx    13107 b- defN 23-Oct-02 07:42 org/apache/plc4x/java/cbus/readwrite/utils/StaticHelper.class
+│  -rw-r--r--  2.0 unx     6530 b- defN 23-Oct-02 07:42 META-INF/maven/org.apache.plc4x/plc4j-driver-c-bus/pom.xml
+│  -rw-r--r--  2.0 unx       70 b- defN 23-Oct-02 07:42 META-INF/maven/org.apache.plc4x/plc4j-driver-c-bus/pom.properties
+│ -680 files, 3090966 bytes uncompressed, 1142718 bytes compressed:  63.1%
+│ +680 files, 3090943 bytes uncompressed, 1142701 bytes compressed:  63.0%
+├── org/apache/plc4x/java/cbus/readwrite/IdentifyReplyCommandExtendedDiagnosticSummary.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -183,350 +183,354 @@
+│ │    #174 = Methodref          #175.#177     // org/apache/plc4x/java/spi/codegen/fields/FieldWriterFactory.writeSimpleEnumField:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;Lorg/apache/plc4x/java/spi/codegen/io/DataWriter;[Lorg/apache/plc4x/java/spi/generation/WithWriterArgs;)V
+│ │    #175 = Class              #176          // org/apache/plc4x/java/spi/codegen/fields/FieldWriterFactory
+│ │    #176 = Utf8               org/apache/plc4x/java/spi/codegen/fields/FieldWriterFactory
+│ │    #177 = NameAndType        #178:#179     // writeSimpleEnumField:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;Lorg/apache/plc4x/java/spi/codegen/io/DataWriter;[Lorg/apache/plc4x/java/spi/generation/WithWriterArgs;)V
+│ │    #178 = Utf8               writeSimpleEnumField
+│ │    #179 = Utf8               (Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;Lorg/apache/plc4x/java/spi/codegen/io/DataWriter;[Lorg/apache/plc4x/java/spi/generation/WithWriterArgs;)V
+│ │    #180 = String             #9            // highApplication
+│ │ -  #181 = String             #10           // area
+│ │ -  #182 = Methodref          #183.#185     // java/lang/Byte.valueOf:(B)Ljava/lang/Byte;
+│ │ -  #183 = Class              #184          // java/lang/Byte
+│ │ -  #184 = Utf8               java/lang/Byte
+│ │ -  #185 = NameAndType        #186:#187     // valueOf:(B)Ljava/lang/Byte;
+│ │ -  #186 = Utf8               valueOf
+│ │ -  #187 = Utf8               (B)Ljava/lang/Byte;
+│ │ -  #188 = Methodref          #166.#189     // org/apache/plc4x/java/spi/codegen/io/DataWriterFactory.writeByte:(Lorg/apache/plc4x/java/spi/generation/WriteBuffer;I)Lorg/apache/plc4x/java/spi/codegen/io/DataWriter;
+│ │ -  #189 = NameAndType        #190:#170     // writeByte:(Lorg/apache/plc4x/java/spi/generation/WriteBuffer;I)Lorg/apache/plc4x/java/spi/codegen/io/DataWriter;
+│ │ -  #190 = Utf8               writeByte
+│ │ -  #191 = Methodref          #175.#192     // org/apache/plc4x/java/spi/codegen/fields/FieldWriterFactory.writeSimpleField:(Ljava/lang/String;Ljava/lang/Object;Lorg/apache/plc4x/java/spi/codegen/io/DataWriter;[Lorg/apache/plc4x/java/spi/generation/WithWriterArgs;)V
+│ │ -  #192 = NameAndType        #193:#194     // writeSimpleField:(Ljava/lang/String;Ljava/lang/Object;Lorg/apache/plc4x/java/spi/codegen/io/DataWriter;[Lorg/apache/plc4x/java/spi/generation/WithWriterArgs;)V
+│ │ -  #193 = Utf8               writeSimpleField
+│ │ -  #194 = Utf8               (Ljava/lang/String;Ljava/lang/Object;Lorg/apache/plc4x/java/spi/codegen/io/DataWriter;[Lorg/apache/plc4x/java/spi/generation/WithWriterArgs;)V
+│ │ -  #195 = String             #12           // crc
+...
+│ │ -  #513 = Class              #514          // org/apache/plc4x/java/cbus/readwrite/IdentifyReplyCommand$IdentifyReplyCommandBuilder
+│ │ -  #514 = Utf8               org/apache/plc4x/java/cbus/readwrite/IdentifyReplyCommand$IdentifyReplyCommandBuilder
+│ │ -  #515 = Utf8               IdentifyReplyCommandBuilder
+│ │ -  #516 = Utf8               IdentifyReplyCommandExtendedDiagnosticSummaryBuilderImpl
+│ │ -  #517 = Utf8               NestMembers
+│ │ +  #181 = InvokeDynamic      #2:#161       // #2:apply:()Ljava/util/function/Function;
+│ │ +  #182 = String             #10           // area
+│ │ +  #183 = Methodref          #184.#186     // java/lang/Byte.valueOf:(B)Ljava/lang/Byte;
+│ │ +  #184 = Class              #185          // java/lang/Byte
+...
+│ │ +  #519 = Utf8               IdentifyReplyCommandBuilder
+│ │ +  #520 = Utf8               IdentifyReplyCommandExtendedDiagnosticSummaryBuilderImpl
+│ │ +  #521 = Utf8               NestMembers
+│ │  {
+│ │    protected final org.apache.plc4x.java.cbus.readwrite.ApplicationIdContainer lowApplication;
+│ │      descriptor: Lorg/apache/plc4x/java/cbus/readwrite/ApplicationIdContainer;
+│ │      flags: (0x0014) ACC_PROTECTED, ACC_FINAL
+│ │  
+│ │    protected final org.apache.plc4x.java.cbus.readwrite.ApplicationIdContainer highApplication;
+│ │      descriptor: Lorg/apache/plc4x/java/cbus/readwrite/ApplicationIdContainer;
+│ │ @@ -1065,243 +1069,243 @@
+│ │          65: ldc           #180                // String highApplication
+│ │          67: ldc           #156                // String ApplicationIdContainer
+│ │          69: aload_0
+│ │          70: getfield      #56                 // Field highApplication:Lorg/apache/plc4x/java/cbus/readwrite/ApplicationIdContainer;
+│ │          73: new           #158                // class org/apache/plc4x/java/spi/codegen/io/DataWriterEnumDefault
+│ │          76: dup
+│ │          77: invokedynamic #160,  0            // InvokeDynamic #0:apply:()Ljava/util/function/Function;
+│ │ -        82: invokedynamic #164,  0            // InvokeDynamic #1:apply:()Ljava/util/function/Function;
+│ │ +        82: invokedynamic #181,  0            // InvokeDynamic #2:apply:()Ljava/util/function/Function;
+│ │          87: aload_1
+│ │          88: bipush        8
+│ │          90: invokestatic  #165                // Method org/apache/plc4x/java/spi/codegen/io/DataWriterFactory.writeUnsignedShort:(Lorg/apache/plc4x/java/spi/generation/WriteBuffer;I)Lorg/apache/plc4x/java/spi/codegen/io/DataWriter;
+│ │          93: invokespecial #171                // Method org/apache/plc4x/java/spi/codegen/io/DataWriterEnumDefault."<init>":(Ljava/util/function/Function;Ljava/util/function/Function;Lorg/apache/plc4x/java/spi/codegen/io/DataWriter;)V
+│ │          96: iconst_0
+...
+
+45 / 79 target/reference/org.apache.plc4x/plc4j-driver-c-bus-0.11.0.kar plc4j/drivers/c-bus/target/plc4j-driver-c-bus-0.11.0.kar
+54 / 79 target/reference/org.apache.plc4x/plc4j-driver-knxnetip-0.11.0.kar plc4j/drivers/knxnetip/target/plc4j-driver-knxnetip-0.11.0.kar
+57 / 79 target/reference/org.apache.plc4x/plc4j-driver-open-protocol-0.11.0.jar plc4j/drivers/open-protocol/target/plc4j-driver-open-protocol-0.11.0.jar
+
+72 / 79 target/reference/org.apache.plc4x/plc4j-apache-kafka-0.11.0.jar plc4j/integrations/apache-kafka/target/components/plc4j-apache-kafka-0.11.0.jar
+--- target/reference/org.apache.plc4x/plc4j-apache-kafka-0.11.0.jar
++++ plc4j/integrations/apache-kafka/target/components/plc4j-apache-kafka-0.11.0.jar
+├── zipinfo {}
+│ @@ -1,28 +1,28 @@
+│  Zip file size: 37885 bytes, number of entries: 26
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-02 10:13 META-INF/
+│ --rw-r--r--  2.0 unx      128 bl defN 23-Oct-02 10:13 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-02 10:13 org/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-02 10:13 org/apache/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-02 10:13 org/apache/plc4x/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-02 10:13 org/apache/plc4x/kafka/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-02 10:13 org/apache/plc4x/kafka/util/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-02 10:13 org/apache/plc4x/kafka/config/
+│ --rw-r--r--  2.0 unx     4774 bl defN 23-Oct-02 10:13 org/apache/plc4x/kafka/Plc4xSinkConnector.class
+│ --rw-r--r--  2.0 unx    16654 bl defN 23-Oct-02 10:13 org/apache/plc4x/kafka/Plc4xSourceTask.class
+│ --rw-r--r--  2.0 unx      663 bl defN 23-Oct-02 10:13 org/apache/plc4x/kafka/util/VersionUtil.class
+│ --rw-r--r--  2.0 unx     3105 bl defN 23-Oct-02 10:13 org/apache/plc4x/kafka/config/Constants.class
+│ --rw-r--r--  2.0 unx     5679 bl defN 23-Oct-02 10:13 org/apache/plc4x/kafka/config/Source.class
+│ --rw-r--r--  2.0 unx     4344 bl defN 23-Oct-02 10:13 org/apache/plc4x/kafka/config/SinkConfig.class
+│ --rw-r--r--  2.0 unx     5101 bl defN 23-Oct-02 10:13 org/apache/plc4x/kafka/config/Sink.class
+│ --rw-r--r--  2.0 unx     1425 bl defN 23-Oct-02 10:13 org/apache/plc4x/kafka/config/Tag.class
+│ --rw-r--r--  2.0 unx     3785 bl defN 23-Oct-02 10:13 org/apache/plc4x/kafka/config/Job.class
+│ --rw-r--r--  2.0 unx     6821 bl defN 23-Oct-02 10:13 org/apache/plc4x/kafka/config/SourceConfig.class
+│ --rw-r--r--  2.0 unx     2409 bl defN 23-Oct-02 10:13 org/apache/plc4x/kafka/config/JobReference.class
+│ --rw-r--r--  2.0 unx     5720 bl defN 23-Oct-02 10:13 org/apache/plc4x/kafka/Plc4xSourceConnector.class
+│ --rw-r--r--  2.0 unx    10792 bl defN 23-Oct-02 10:13 org/apache/plc4x/kafka/Plc4xSinkTask.class
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-02 10:13 META-INF/maven/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-02 10:13 META-INF/maven/org.apache.plc4x/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-02 10:13 META-INF/maven/org.apache.plc4x/plc4j-apache-kafka/
+│ --rw-r--r--  2.0 unx    10298 bl defN 23-Oct-02 10:02 META-INF/maven/org.apache.plc4x/plc4j-apache-kafka/pom.xml
+│ --rw-r--r--  2.0 unx       70 bl defN 23-Oct-02 10:13 META-INF/maven/org.apache.plc4x/plc4j-apache-kafka/pom.properties
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-12 17:01 META-INF/
+│ +-rw-r--r--  2.0 unx      128 bl defN 23-Nov-12 17:01 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-12 17:01 org/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-12 17:01 org/apache/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-12 17:01 org/apache/plc4x/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-12 17:01 org/apache/plc4x/kafka/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-12 17:01 org/apache/plc4x/kafka/util/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-12 17:01 org/apache/plc4x/kafka/config/
+│ +-rw-r--r--  2.0 unx     4774 bl defN 23-Nov-12 17:01 org/apache/plc4x/kafka/Plc4xSinkConnector.class
+│ +-rw-r--r--  2.0 unx      663 bl defN 23-Nov-12 17:01 org/apache/plc4x/kafka/util/VersionUtil.class
+│ +-rw-r--r--  2.0 unx     4344 bl defN 23-Nov-12 17:01 org/apache/plc4x/kafka/config/SinkConfig.class
+│ +-rw-r--r--  2.0 unx     3105 bl defN 23-Nov-12 17:01 org/apache/plc4x/kafka/config/Constants.class
+│ +-rw-r--r--  2.0 unx     3785 bl defN 23-Nov-12 17:01 org/apache/plc4x/kafka/config/Job.class
+│ +-rw-r--r--  2.0 unx     1425 bl defN 23-Nov-12 17:01 org/apache/plc4x/kafka/config/Tag.class
+│ +-rw-r--r--  2.0 unx     2409 bl defN 23-Nov-12 17:01 org/apache/plc4x/kafka/config/JobReference.class
+│ +-rw-r--r--  2.0 unx     5101 bl defN 23-Nov-12 17:01 org/apache/plc4x/kafka/config/Sink.class
+│ +-rw-r--r--  2.0 unx     5679 bl defN 23-Nov-12 17:01 org/apache/plc4x/kafka/config/Source.class
+│ +-rw-r--r--  2.0 unx     6821 bl defN 23-Nov-12 17:01 org/apache/plc4x/kafka/config/SourceConfig.class
+│ +-rw-r--r--  2.0 unx     5720 bl defN 23-Nov-12 17:01 org/apache/plc4x/kafka/Plc4xSourceConnector.class
+│ +-rw-r--r--  2.0 unx    10792 bl defN 23-Nov-12 17:01 org/apache/plc4x/kafka/Plc4xSinkTask.class
+│ +-rw-r--r--  2.0 unx    16654 bl defN 23-Nov-12 17:01 org/apache/plc4x/kafka/Plc4xSourceTask.class
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-12 17:01 META-INF/maven/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-12 17:01 META-INF/maven/org.apache.plc4x/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-12 17:01 META-INF/maven/org.apache.plc4x/plc4j-apache-kafka/
+│ +-rw-r--r--  2.0 unx    10298 bl defN 23-Nov-12 16:59 META-INF/maven/org.apache.plc4x/plc4j-apache-kafka/pom.xml
+│ +-rw-r--r--  2.0 unx       70 bl defN 23-Nov-12 17:01 META-INF/maven/org.apache.plc4x/plc4j-apache-kafka/pom.properties
+│  26 files, 81768 bytes uncompressed, 33757 bytes compressed:  58.7%
+├── zipnote «TEMP»/diffoscope_74pwhfue_components/tmpwfsqw9at_.zip
+│ @@ -21,50 +21,50 @@
+│  
+│  Filename: org/apache/plc4x/kafka/config/
+│  Comment: 
+│  
+│  Filename: org/apache/plc4x/kafka/Plc4xSinkConnector.class
+│  Comment: 
+│  
+│ -Filename: org/apache/plc4x/kafka/Plc4xSourceTask.class
+│ +Filename: org/apache/plc4x/kafka/util/VersionUtil.class
+│  Comment: 
+│  
+│ -Filename: org/apache/plc4x/kafka/util/VersionUtil.class
+│ +Filename: org/apache/plc4x/kafka/config/SinkConfig.class
+│  Comment: 
+│  
+│  Filename: org/apache/plc4x/kafka/config/Constants.class
+│  Comment: 
+│  
+│ -Filename: org/apache/plc4x/kafka/config/Source.class
+│ +Filename: org/apache/plc4x/kafka/config/Job.class
+│  Comment: 
+│  
+│ -Filename: org/apache/plc4x/kafka/config/SinkConfig.class
+│ +Filename: org/apache/plc4x/kafka/config/Tag.class
+│  Comment: 
+│  
+│ -Filename: org/apache/plc4x/kafka/config/Sink.class
+│ +Filename: org/apache/plc4x/kafka/config/JobReference.class
+│  Comment: 
+│  
+│ -Filename: org/apache/plc4x/kafka/config/Tag.class
+│ +Filename: org/apache/plc4x/kafka/config/Sink.class
+│  Comment: 
+│  
+│ -Filename: org/apache/plc4x/kafka/config/Job.class
+│ +Filename: org/apache/plc4x/kafka/config/Source.class
+│  Comment: 
+│  
+│  Filename: org/apache/plc4x/kafka/config/SourceConfig.class
+│  Comment: 
+│  
+│ -Filename: org/apache/plc4x/kafka/config/JobReference.class
+│ -Comment: 
+│ -
+│  Filename: org/apache/plc4x/kafka/Plc4xSourceConnector.class
+│  Comment: 
+│  
+│  Filename: org/apache/plc4x/kafka/Plc4xSinkTask.class
+│  Comment: 
+│  
+│ +Filename: org/apache/plc4x/kafka/Plc4xSourceTask.class
+│ +Comment: 
+│ +
+│  Filename: META-INF/maven/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.plc4x/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/org.apache.plc4x/plc4j-apache-kafka/
+
+73 / 79 target/reference/org.apache.plc4x/plc4j-apache-kafka-0.11.0-standalone.zip plc4j/integrations/apache-kafka/target/components/packages/apache-kafka-connect-plc4x-plc4j-0.11.0.zip
+--- target/reference/org.apache.plc4x/plc4j-apache-kafka-0.11.0-standalone.zip
++++ plc4j/integrations/apache-kafka/target/components/packages/apache-kafka-connect-plc4x-plc4j-0.11.0.zip
+├── zipinfo {}
+│ @@ -1,68 +1,68 @@
+│ -Zip file size: 29521062 bytes, number of entries: 66
+│ --rw-r--r--  2.0 unx     3427 bl defN 23-Oct-02 10:02 apache-kafka-connect-plc4x-plc4j-0.11.0/etc/plc4x-sink.properties
+│ --rw-r--r--  2.0 unx    54630 bl defN 23-Jun-05 21:41 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/jackson-dataformat-yaml-2.15.2.jar
+│ --rw-r--r--  2.0 unx    66225 bl defN 23-Oct-02 10:06 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-ab-eth-0.11.0.jar
+│ --rw-r--r--  2.0 unx    37789 bl defN 23-Sep-29 13:44 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-resolver-4.1.99.Final.jar
+│ --rw-r--r--  2.0 unx  1586395 bl defN 23-May-13 15:48 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/woodstox-core-6.5.1.jar
+│ --rw-r--r--  2.0 unx    37885 bl defN 23-Oct-02 10:13 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-apache-kafka-0.11.0.jar
+│ --rw-r--r--  2.0 unx     3895 bl defN 23-Oct-02 10:02 apache-kafka-connect-plc4x-plc4j-0.11.0/etc/plc4x-source.properties
+│ --rw-r--r--  2.0 unx   334352 bl defN 23-Sep-01 17:27 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/snakeyaml-2.2.jar
+│ --rw-r--r--  2.0 unx   195909 bl defN 23-May-13 15:48 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/stax2-api-4.2.1.jar
+│ --rw-r--r--  2.0 unx   360738 bl defN 23-Aug-06 11:26 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/commons-codec-1.16.0.jar
+│ --rw-r--r--  2.0 unx    23015 bl defN 23-Oct-02 10:06 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-utils-raw-sockets-0.11.0.jar
+│ --rw-r--r--  2.0 unx     7790 bl defN 23-Oct-02 10:06 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-pcap-replay-0.11.0.jar
+│ --rw-r--r--  2.0 unx    14305 bl defN 23-Oct-02 10:06 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-utils-pcap-replay-0.11.0.jar
+│ --rw-r--r--  2.0 unx   210027 bl defN 23-May-13 15:48 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/zip4j-2.11.5.jar
+│ --rw-r--r--  2.0 unx  2492254 bl defN 23-Oct-02 10:10 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-opcua-0.11.0.jar
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-02 10:13 apache-kafka-connect-plc4x-plc4j-0.11.0/
+│ --rw-r--r--  2.0 unx  1620088 bl defN 23-Jun-05 21:37 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/jackson-databind-2.15.2.jar
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-02 10:13 apache-kafka-connect-plc4x-plc4j-0.11.0/etc/
+│ --rw-r--r--  2.0 unx    75567 bl defN 23-Jun-05 21:37 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/jackson-annotations-2.15.2.jar
+│ --rw-r--r--  2.0 unx   659923 bl defN 23-Sep-29 13:44 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-common-4.1.99.Final.jar
+│ --rw-r--r--  2.0 unx  1879325 bl defN 23-May-13 15:48 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/jna-5.13.0.jar
+│ --rw-r--r--  2.0 unx     1357 bl defN 23-Oct-02 10:13 apache-kafka-connect-plc4x-plc4j-0.11.0/manifest.json
+│ --rw-r--r--  2.0 unx  2213560 bl defN 23-May-13 15:47 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/commons-math3-3.6.1.jar
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-02 10:13 apache-kafka-connect-plc4x-plc4j-0.11.0/assets/
+│ --rw-r--r--  2.0 unx   751914 bl defN 23-May-13 15:47 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/commons-collections4-4.4.jar
+│ --rw-r--r--  2.0 unx   316431 bl defN 23-May-13 15:47 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/commons-net-3.9.0.jar
+│ --rw-r--r--  2.0 unx   601009 bl defN 23-Oct-02 10:07 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-s7-0.11.0.jar
+│ --rw-r--r--  2.0 unx    87342 bl defN 23-Oct-02 10:13 apache-kafka-connect-plc4x-plc4j-0.11.0/assets/PLC4X.png
+│ --rw-r--r--  2.0 unx   345277 bl defN 23-Sep-29 13:44 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-codec-4.1.99.Final.jar
+│ --rw-r--r--  2.0 unx     3134 bl defN 23-May-13 15:48 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/vavr-match-0.10.4.jar
+│ --rw-r--r--  2.0 unx    33522 bl defN 23-May-13 15:47 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/bit-io-1.4.3.jar
+│ --rw-r--r--  2.0 unx     7904 bl defN 23-Oct-02 10:04 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-tcp-0.11.0.jar
+│ --rw-r--r--  2.0 unx    31035 bl defN 23-Oct-02 10:06 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-serial-0.11.0.jar
+│ --rw-r--r--  2.0 unx   195687 bl defN 23-Oct-02 10:08 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-canopen-0.11.0.jar
+│ --rw-r--r--  2.0 unx   132095 bl defN 23-May-13 15:47 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/purejavacomm-1.0.2.RELEASE.jar
+│ --rw-r--r--  2.0 unx  1280881 bl defN 23-May-13 15:48 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/pcap4j-core-1.8.2.jar
+│ -drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-02 10:13 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/
+│ --rw-r--r--  2.0 unx    23713 bl defN 23-Oct-02 10:12 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-connection-cache-0.11.0.jar
+│ --rw-r--r--  2.0 unx   439289 bl defN 23-Oct-02 10:03 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-spi-0.11.0.jar
+│ --rw-r--r--  2.0 unx   295498 bl defN 23-Oct-02 10:06 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-ads-0.11.0.jar
+│ --rw-r--r--  2.0 unx   814749 bl defN 23-Oct-02 10:09 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-knxnetip-0.11.0.jar
+│ --rw-r--r--  2.0 unx    43968 bl defN 23-Sep-29 13:44 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-transport-native-unix-common-4.1.99.Final.jar
+│ --rw-r--r--  2.0 unx    73447 bl defN 23-Jun-19 14:07 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/json-20230618.jar
+│ --rw-r--r--  2.0 unx    35723 bl defN 23-Oct-02 10:11 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-simulated-0.11.0.jar
+│ --rw-r--r--  2.0 unx    52278 bl defN 23-Oct-02 10:03 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-api-0.11.0.jar
+│ --rw-r--r--  2.0 unx   306588 bl defN 23-Sep-29 13:44 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-buffer-4.1.99.Final.jar
+│ --rw-r--r--  2.0 unx   900516 bl defN 23-May-13 15:48 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/vavr-0.10.4.jar
+│ --rw-r--r--  2.0 unx  1109571 bl defN 23-Aug-22 16:08 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/bcpkix-jdk18on-1.76.jar
+│ --rw-r--r--  2.0 unx   587402 bl defN 23-May-13 15:47 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/commons-lang3-3.12.0.jar
+│ --rw-r--r--  2.0 unx    46721 bl defN 23-Oct-02 10:08 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-can-0.11.0.jar
+│ --rw-r--r--  2.0 unx     5613 bl defN 23-Oct-02 10:08 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-can-0.11.0.jar
+│ --rw-r--r--  2.0 unx   314068 bl defN 23-Oct-02 10:07 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-eip-0.11.0.jar
+│ --rw-r--r--  2.0 unx  8361943 bl defN 23-Aug-22 16:08 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/bcprov-jdk18on-1.76.jar
+│ --rw-r--r--  2.0 unx    72728 bl defN 23-Oct-02 10:13 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-scraper-0.11.0.jar
+│ --rw-r--r--  2.0 unx   489989 bl defN 23-Sep-29 13:44 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-transport-4.1.99.Final.jar
+│ --rw-r--r--  2.0 unx   122528 bl defN 23-Oct-02 10:08 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-firmata-0.11.0.jar
+│ --rw-r--r--  2.0 unx     8964 bl defN 23-Oct-02 10:06 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-udp-0.11.0.jar
+│ --rw-r--r--  2.0 unx    11446 bl defN 23-Oct-02 10:06 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-raw-socket-0.11.0.jar
+│ --rw-r--r--  2.0 unx     3841 bl defN 23-Oct-02 10:06 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-pcap-shared-0.11.0.jar
+│ --rw-r--r--  2.0 unx    10911 bl defN 23-Oct-02 10:06 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-utils-pcap-shared-0.11.0.jar
+│ --rw-r--r--  2.0 unx   152874 bl defN 23-May-13 15:48 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/pcap4j-packetfactory-static-1.8.2.jar
+│ --rw-r--r--  2.0 unx   258717 bl defN 23-Oct-02 10:09 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-modbus-0.11.0.jar
+│ --rw-r--r--  2.0 unx   676737 bl defN 23-Aug-22 16:08 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/bcutil-jdk18on-1.76.jar
+│ --rw-r--r--  2.0 unx   549207 bl defN 23-Jun-05 21:37 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/jackson-core-2.15.2.jar
+│ --rw-r--r--  2.0 unx   876246 bl defN 23-Aug-05 15:07 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/jSerialComm-2.10.3.jar
+│ --rw-r--r--  2.0 unx   561287 bl defN 23-Sep-29 13:44 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-handler-4.1.99.Final.jar
+│ -66 files, 32871249 bytes uncompressed, 29505920 bytes compressed:  10.2%
+│ +Zip file size: 29521426 bytes, number of entries: 66
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-12 17:01 apache-kafka-connect-plc4x-plc4j-0.11.0/
+│ +-rw-rw-r--  2.0 unx    37789 bl defN 23-Nov-12 09:11 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-resolver-4.1.99.Final.jar
+│ +-rw-rw-r--  2.0 unx   132095 bl defN 22-Oct-08 09:32 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/purejavacomm-1.0.2.RELEASE.jar
+│ +-rw-rw-r--  2.0 unx   316431 bl defN 23-Feb-03 07:42 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/commons-net-3.9.0.jar
+│ +-rw-r--r--  2.0 unx     3427 bl defN 23-Nov-12 16:59 apache-kafka-connect-plc4x-plc4j-0.11.0/etc/plc4x-sink.properties
+│ +-rw-rw-r--  2.0 unx   195909 bl defN 22-Sep-12 20:25 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/stax2-api-4.2.1.jar
+│ +-rw-r--r--  2.0 unx    23022 bl defN 23-Nov-12 17:00 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-utils-raw-sockets-0.11.0.jar
+│ +-rw-rw-r--  2.0 unx   210027 bl defN 23-Nov-12 09:12 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/zip4j-2.11.5.jar
+│ +-rw-rw-r--  2.0 unx   561287 bl defN 23-Nov-12 09:11 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-handler-4.1.99.Final.jar
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-12 17:01 apache-kafka-connect-plc4x-plc4j-0.11.0/etc/
+│ +-rw-rw-r--  2.0 unx  1586395 bl defN 23-May-04 18:20 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/woodstox-core-6.5.1.jar
+│ +-rw-r--r--  2.0 unx     3895 bl defN 23-Nov-12 16:59 apache-kafka-connect-plc4x-plc4j-0.11.0/etc/plc4x-source.properties
+│ +-rw-rw-r--  2.0 unx   900516 bl defN 22-Oct-08 09:29 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/vavr-0.10.4.jar
+│ +-rw-r--r--  2.0 unx     1357 bl defN 23-Nov-12 17:01 apache-kafka-connect-plc4x-plc4j-0.11.0/manifest.json
+│ +-rw-rw-r--  2.0 unx     3134 bl defN 22-Oct-08 09:29 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/vavr-match-0.10.4.jar
+│ +-rw-r--r--  2.0 unx    46735 bl defN 23-Nov-12 17:00 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-can-0.11.0.jar
+│ +-rw-r--r--  2.0 unx     8964 bl defN 23-Nov-12 17:00 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-udp-0.11.0.jar
+│ +-rw-r--r--  2.0 unx    11444 bl defN 23-Nov-12 17:00 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-raw-socket-0.11.0.jar
+│ +-rw-r--r--  2.0 unx     3841 bl defN 23-Nov-12 17:00 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-pcap-shared-0.11.0.jar
+│ +-rw-r--r--  2.0 unx    10908 bl defN 23-Nov-12 17:00 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-utils-pcap-shared-0.11.0.jar
+│ +-rw-rw-r--  2.0 unx  1280881 bl defN 22-Oct-08 09:28 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/pcap4j-core-1.8.2.jar
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-12 17:01 apache-kafka-connect-plc4x-plc4j-0.11.0/assets/
+│ +-rw-rw-r--  2.0 unx    33522 bl defN 22-Oct-08 09:29 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/bit-io-1.4.3.jar
+│ +-rw-r--r--  2.0 unx   122542 bl defN 23-Nov-12 17:00 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-firmata-0.11.0.jar
+│ +-rw-rw-r--  2.0 unx   152874 bl defN 22-Oct-08 09:28 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/pcap4j-packetfactory-static-1.8.2.jar
+│ +-rw-r--r--  2.0 unx  2492258 bl defN 23-Nov-12 17:00 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-opcua-0.11.0.jar
+│ +-rw-r--r--  2.0 unx    87342 bl defN 23-Nov-12 17:01 apache-kafka-connect-plc4x-plc4j-0.11.0/assets/PLC4X.png
+│ +-rw-r--r--  2.0 unx   295498 bl defN 23-Nov-12 17:00 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-ads-0.11.0.jar
+│ +-rw-r--r--  2.0 unx   258721 bl defN 23-Nov-12 17:00 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-modbus-0.11.0.jar
+│ +-rw-r--r--  2.0 unx    35718 bl defN 23-Nov-12 17:01 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-simulated-0.11.0.jar
+│ +drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-12 17:01 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/
+│ +-rw-rw-r--  2.0 unx   360738 bl defN 23-Jul-22 09:00 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/commons-codec-1.16.0.jar
+│ +-rw-rw-r--  2.0 unx   676737 bl defN 23-Sep-07 21:22 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/bcutil-jdk18on-1.76.jar
+│ +-rw-r--r--  2.0 unx    52284 bl defN 23-Nov-12 16:59 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-api-0.11.0.jar
+│ +-rw-r--r--  2.0 unx     7904 bl defN 23-Nov-12 16:59 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-tcp-0.11.0.jar
+│ +-rw-r--r--  2.0 unx     5613 bl defN 23-Nov-12 17:00 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-can-0.11.0.jar
+│ +-rw-r--r--  2.0 unx   314067 bl defN 23-Nov-12 17:00 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-eip-0.11.0.jar
+│ +-rw-rw-r--  2.0 unx  1109571 bl defN 23-Sep-07 21:22 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/bcpkix-jdk18on-1.76.jar
+│ +-rw-rw-r--  2.0 unx   587402 bl defN 22-Sep-06 23:57 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/commons-lang3-3.12.0.jar
+│ +-rw-r--r--  2.0 unx    72733 bl defN 23-Nov-12 17:01 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-scraper-0.11.0.jar
+│ +-rw-r--r--  2.0 unx    31035 bl defN 23-Nov-12 17:00 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-serial-0.11.0.jar
+│ +-rw-r--r--  2.0 unx   815015 bl defN 23-Nov-12 17:00 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-knxnetip-0.11.0.jar
+│ +-rw-rw-r--  2.0 unx   549207 bl defN 23-Jun-09 07:15 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/jackson-core-2.15.2.jar
+│ +-rw-r--r--  2.0 unx    37885 bl defN 23-Nov-12 17:01 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-apache-kafka-0.11.0.jar
+│ +-rw-rw-r--  2.0 unx    75567 bl defN 23-Jun-09 07:15 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/jackson-annotations-2.15.2.jar
+│ +-rw-r--r--  2.0 unx   195700 bl defN 23-Nov-12 17:00 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-canopen-0.11.0.jar
+│ +-rw-r--r--  2.0 unx     7790 bl defN 23-Nov-12 17:00 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-pcap-replay-0.11.0.jar
+│ +-rw-r--r--  2.0 unx    14308 bl defN 23-Nov-12 17:00 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-utils-pcap-replay-0.11.0.jar
+│ +-rw-rw-r--  2.0 unx  8361943 bl defN 23-Sep-07 21:22 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/bcprov-jdk18on-1.76.jar
+│ +-rw-rw-r--  2.0 unx    54630 bl defN 23-Jul-30 00:10 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/jackson-dataformat-yaml-2.15.2.jar
+│ +-rw-rw-r--  2.0 unx   876246 bl defN 23-Nov-12 09:11 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/jSerialComm-2.10.3.jar
+│ +-rw-rw-r--  2.0 unx  1620088 bl defN 23-Jun-09 07:15 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/jackson-databind-2.15.2.jar
+│ +-rw-rw-r--  2.0 unx   334352 bl defN 23-Aug-30 19:47 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/snakeyaml-2.2.jar
+│ +-rw-rw-r--  2.0 unx  2213560 bl defN 22-Sep-22 09:29 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/commons-math3-3.6.1.jar
+│ +-rw-rw-r--  2.0 unx   751914 bl defN 22-Sep-06 23:58 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/commons-collections4-4.4.jar
+│ +-rw-r--r--  2.0 unx    66220 bl defN 23-Nov-12 17:00 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-ab-eth-0.11.0.jar
+│ +-rw-rw-r--  2.0 unx  1879325 bl defN 23-Feb-11 01:15 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/jna-5.13.0.jar
+│ +-rw-r--r--  2.0 unx   439298 bl defN 23-Nov-12 16:59 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-spi-0.11.0.jar
+│ +-rw-rw-r--  2.0 unx    43968 bl defN 23-Nov-12 09:11 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-transport-native-unix-common-4.1.99.Final.jar
+│ +-rw-r--r--  2.0 unx    23713 bl defN 23-Nov-12 17:01 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-connection-cache-0.11.0.jar
+│ +-rw-rw-r--  2.0 unx   489989 bl defN 23-Nov-12 09:11 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-transport-4.1.99.Final.jar
+│ +-rw-rw-r--  2.0 unx   306588 bl defN 23-Nov-12 09:11 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-buffer-4.1.99.Final.jar
+│ +-rw-r--r--  2.0 unx   601021 bl defN 23-Nov-12 17:00 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-s7-0.11.0.jar
+│ +-rw-rw-r--  2.0 unx   659923 bl defN 23-Nov-12 09:11 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-common-4.1.99.Final.jar
+│ +-rw-rw-r--  2.0 unx   345277 bl defN 23-Nov-12 09:11 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-codec-4.1.99.Final.jar
+│ +-rw-r--r--  2.0 unx    73447 bl defN 23-Oct-29 09:50 apache-kafka-connect-plc4x-plc4j-0.11.0/lib/json-20230618.jar
+│ +66 files, 32871590 bytes uncompressed, 29506284 bytes compressed:  10.2%
+├── zipnote {}
+│ @@ -1,199 +1,199 @@
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/etc/plc4x-sink.properties
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/jackson-dataformat-yaml-2.15.2.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-resolver-4.1.99.Final.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-ab-eth-0.11.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/purejavacomm-1.0.2.RELEASE.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-resolver-4.1.99.Final.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/commons-net-3.9.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/woodstox-core-6.5.1.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/etc/plc4x-sink.properties
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-apache-kafka-0.11.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/stax2-api-4.2.1.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/etc/plc4x-source.properties
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-utils-raw-sockets-0.11.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/snakeyaml-2.2.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/zip4j-2.11.5.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/stax2-api-4.2.1.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-handler-4.1.99.Final.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/commons-codec-1.16.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/etc/
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-utils-raw-sockets-0.11.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/woodstox-core-6.5.1.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-pcap-replay-0.11.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/etc/plc4x-source.properties
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-utils-pcap-replay-0.11.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/vavr-0.10.4.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/zip4j-2.11.5.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/manifest.json
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-opcua-0.11.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/vavr-match-0.10.4.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-can-0.11.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/jackson-databind-2.15.2.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-udp-0.11.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/etc/
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-raw-socket-0.11.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/jackson-annotations-2.15.2.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-pcap-shared-0.11.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-common-4.1.99.Final.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-utils-pcap-shared-0.11.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/jna-5.13.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/pcap4j-core-1.8.2.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/manifest.json
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/assets/
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/commons-math3-3.6.1.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/bit-io-1.4.3.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/assets/
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-firmata-0.11.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/commons-collections4-4.4.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/pcap4j-packetfactory-static-1.8.2.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/commons-net-3.9.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-opcua-0.11.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-s7-0.11.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/assets/PLC4X.png
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/assets/PLC4X.png
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-ads-0.11.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-codec-4.1.99.Final.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-modbus-0.11.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/vavr-match-0.10.4.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-simulated-0.11.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/bit-io-1.4.3.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-tcp-0.11.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/commons-codec-1.16.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-serial-0.11.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/bcutil-jdk18on-1.76.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-canopen-0.11.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-api-0.11.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/purejavacomm-1.0.2.RELEASE.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-tcp-0.11.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/pcap4j-core-1.8.2.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-can-0.11.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-eip-0.11.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-connection-cache-0.11.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/bcpkix-jdk18on-1.76.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-spi-0.11.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/commons-lang3-3.12.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-ads-0.11.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-scraper-0.11.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-knxnetip-0.11.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-serial-0.11.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-transport-native-unix-common-4.1.99.Final.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-knxnetip-0.11.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/json-20230618.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/jackson-core-2.15.2.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-simulated-0.11.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-apache-kafka-0.11.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-api-0.11.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/jackson-annotations-2.15.2.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-buffer-4.1.99.Final.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-canopen-0.11.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/vavr-0.10.4.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-pcap-replay-0.11.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/bcpkix-jdk18on-1.76.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-utils-pcap-replay-0.11.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/commons-lang3-3.12.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/bcprov-jdk18on-1.76.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-can-0.11.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/jackson-dataformat-yaml-2.15.2.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-can-0.11.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/jSerialComm-2.10.3.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-eip-0.11.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/jackson-databind-2.15.2.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/bcprov-jdk18on-1.76.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/snakeyaml-2.2.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-scraper-0.11.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/commons-math3-3.6.1.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-transport-4.1.99.Final.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/commons-collections4-4.4.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-firmata-0.11.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-ab-eth-0.11.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-udp-0.11.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/jna-5.13.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-raw-socket-0.11.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-spi-0.11.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-transport-pcap-shared-0.11.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-transport-native-unix-common-4.1.99.Final.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-utils-pcap-shared-0.11.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-connection-cache-0.11.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/pcap4j-packetfactory-static-1.8.2.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-transport-4.1.99.Final.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-modbus-0.11.0.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-buffer-4.1.99.Final.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/bcutil-jdk18on-1.76.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/plc4j-driver-s7-0.11.0.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/jackson-core-2.15.2.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-common-4.1.99.Final.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/jSerialComm-2.10.3.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-codec-4.1.99.Final.jar
+│  Comment: 
+│  
+│ -Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/netty-handler-4.1.99.Final.jar
+│ +Filename: apache-kafka-connect-plc4x-plc4j-0.11.0/lib/json-20230618.jar
+│  Comment: 
+│  
+│  Zip file comment:
+...
