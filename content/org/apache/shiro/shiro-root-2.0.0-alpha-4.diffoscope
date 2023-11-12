@@ -1,0 +1,65 @@
+# [INFO] --- aspectj-maven-plugin:1.14.0:compile (aspectj-compile) @ shiro-aspectj ---
+# https://www.mojohaus.org/aspectj-maven-plugin/
+1 / 1 target/reference/org.apache.shiro/shiro-aspectj-2.0.0-alpha-4.jar support/aspectj/target/shiro-aspectj-2.0.0-alpha-4.jar
+--- target/reference/org.apache.shiro/shiro-aspectj-2.0.0-alpha-4.jar
++++ support/aspectj/target/shiro-aspectj-2.0.0-alpha-4.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 13747 bytes, number of entries: 18
+│ +Zip file size: 13741 bytes, number of entries: 18
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     1877 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     4166 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat      640 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.shiro/
+│ @@ -13,8 +13,8 @@
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/shiro/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/shiro/aspectj/
+│  -rw----     2.0 fat     2335 bl defN 80-Feb-01 00:00 org/apache/shiro/aspectj/AspectjAnnotationsAuthorizingMethodInterceptor.class
+│  -rw----     2.0 fat     2252 bl defN 80-Feb-01 00:00 org/apache/shiro/aspectj/BeforeAdviceMethodInvocationAdapter.class
+│  -rw----     2.0 fat     6364 bl defN 80-Feb-01 00:00 org/apache/shiro/aspectj/ShiroAnnotationAuthorizingAspect.class
+│  -rw----     2.0 fat      130 bl defN 80-Feb-01 00:00 org/apache/shiro/aspectj/package-info.class
+│ -18 files, 33478 bytes uncompressed, 10875 bytes compressed:  67.5%
+│ +18 files, 33478 bytes uncompressed, 10869 bytes compressed:  67.5%
+├── org/apache/shiro/aspectj/ShiroAnnotationAuthorizingAspect.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -325,15 +325,15 @@
+│ │     2F 61 75 74 68 7A 2F 61 6E 6E 6F 74 61 74 69 6F
+│ │     6E 2F 52 65 71 75 69 72 65 73 55 73 65 72 3B 00
+│ │     00 01 35 00 00 01 63 00 00 00 00 00 00 00 01 35
+│ │     00 00 01 6B 00 00 01 2B 00 00 01 6C 00 00 00 E4
+│ │     00 00 01 6C 00 00 00 97 00 00 01 6C 00 00 00 50
+│ │     00 00 01 6C 00 00 00 00 00 00 01 6C
+│ │    org.aspectj.weaver.WeaverVersion: length = 0xC (unknown attribute)
+│ │ -   00 07 00 00 00 00 01 8A 5E 46 48 78
+│ │ +   00 07 00 00 00 00 00 00 00 00 00 00
+│ │    org.aspectj.weaver.PointcutDeclaration: length = 0x2AE (unknown attribute)
+│ │     00 3B 4C 6F 72 67 2F 61 70 61 63 68 65 2F 73 68
+│ │     69 72 6F 2F 61 73 70 65 63 74 6A 2F 53 68 69 72
+│ │     6F 41 6E 6E 6F 74 61 74 69 6F 6E 41 75 74 68 6F
+│ │     72 69 7A 69 6E 67 41 73 70 65 63 74 3B 00 00 00
+│ │     00 00 1B 61 6E 79 53 68 69 72 6F 41 6E 6E 6F 74
+│ │     61 74 65 64 4D 65 74 68 6F 64 43 61 6C 6C 00 01
+│ │ @@ -458,16 +458,16 @@
+│ │     00 00 30 4C 6F 72 67 2F 61 70 61 63 68 65 2F 73
+│ │     68 69 72 6F 2F 61 75 74 68 7A 2F 61 6E 6E 6F 74
+│ │     61 74 69 6F 6E 2F 52 65 71 75 69 72 65 73 55 73
+│ │     65 72 3B 00 00 01 35 00 00 01 63 00 00 00 00 00
+│ │     00 00 01 35 00 00 01 6B 00 00 01 2B 00 00 01 6C
+│ │     00 00 00 E4 00 00 01 6C 00 00 00 97 00 00 01 6C
+│ │     00 00 00 50 00 00 01 6C 00 00 00 00 00 00 01 6C
+│ │ -   00 31 00 00 00 0C 00 07 00 00 00 00 01 8A 5E 46
+│ │ -   48 78 00 2A 00 00 02 AE 00 3B 4C 6F 72 67 2F 61
+│ │ +   00 31 00 00 00 0C 00 07 00 00 00 00 00 00 00 00
+│ │ +   00 00 00 2A 00 00 02 AE 00 3B 4C 6F 72 67 2F 61
+│ │     70 61 63 68 65 2F 73 68 69 72 6F 2F 61 73 70 65
+│ │     63 74 6A 2F 53 68 69 72 6F 41 6E 6E 6F 74 61 74
+│ │     69 6F 6E 41 75 74 68 6F 72 69 7A 69 6E 67 41 73
+│ │     70 65 63 74 3B 00 00 00 00 00 1B 61 6E 79 53 68
+│ │     69 72 6F 41 6E 6E 6F 74 61 74 65 64 4D 65 74 68
+│ │     6F 64 43 61 6C 6C 00 01 00 1C 4C 6F 72 67 2F 61
+│ │     73 70 65 63 74 6A 2F 6C 61 6E 67 2F 4A 6F 69 6E
+
