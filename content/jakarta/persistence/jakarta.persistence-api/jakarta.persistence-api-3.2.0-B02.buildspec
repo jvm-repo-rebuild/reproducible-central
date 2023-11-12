@@ -1,0 +1,18 @@
+groupId=jakarta.persistence
+artifactId=jakarta.persistence-api
+display=${groupId}:${artifactId}
+version=3.2.0-B02
+
+gitRepo=https://github.com/jakartaee/persistence.git
+gitTag=3.2-DRAFT01-${version}-RELEASE
+
+tool=mvn
+jdk=18
+newline=lf
+#umask=022
+
+command="mvn -f api/ clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=api/target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=

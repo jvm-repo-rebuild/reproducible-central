@@ -1,0 +1,9 @@
+version=3.2.0-B02
+ok=4
+ko=0
+ignored=0
+okFiles="jakarta.persistence-api-3.2.0-B02.pom jakarta.persistence-api-3.2.0-B02.jar jakarta.persistence-api-3.2.0-B02-cyclonedx.xml jakarta.persistence-api-3.2.0-B02-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="18 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
