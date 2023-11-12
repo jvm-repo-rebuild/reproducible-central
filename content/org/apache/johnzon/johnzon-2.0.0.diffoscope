@@ -1,0 +1,658 @@
+1 / 6 target/reference/org.apache.johnzon/johnzon-mapper-2.0.0.jar johnzon-mapper/target/johnzon-mapper-2.0.0.jar
+--- target/reference/org.apache.johnzon/johnzon-mapper-2.0.0.jar
++++ johnzon-mapper/target/johnzon-mapper-2.0.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 262757 bytes, number of entries: 191
+│ +Zip file size: 262760 bytes, number of entries: 191
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     2515 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat      544 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat      174 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.johnzon/
+│ @@ -186,8 +186,8 @@
+│  -rw----     2.0 fat     1018 bl defN 80-Feb-01 00:00 org/apache/johnzon/mapper/util/ArrayUtil$4.class
+│  -rw----     2.0 fat      998 bl defN 80-Feb-01 00:00 org/apache/johnzon/mapper/util/ArrayUtil$5.class
+│  -rw----     2.0 fat     1002 bl defN 80-Feb-01 00:00 org/apache/johnzon/mapper/util/ArrayUtil$6.class
+│  -rw----     2.0 fat     1006 bl defN 80-Feb-01 00:00 org/apache/johnzon/mapper/util/ArrayUtil$7.class
+│  -rw----     2.0 fat     4130 bl defN 80-Feb-01 00:00 org/apache/johnzon/mapper/util/ArrayUtil.class
+│  -rw----     2.0 fat     1977 bl defN 80-Feb-01 00:00 org/apache/johnzon/mapper/util/BeanUtil.class
+│  -rw----     2.0 fat     1713 bl defN 80-Feb-01 00:00 org/apache/johnzon/mapper/util/JsonProviderUtil.class
+│ -191 files, 567373 bytes uncompressed, 224667 bytes compressed:  60.4%
+│ +191 files, 567373 bytes uncompressed, 224670 bytes compressed:  60.4%
+├── META-INF/MANIFEST.MF
+│ @@ -10,23 +10,23 @@
+│  Bundle-SymbolicName: org.apache.johnzon.mapper
+│  Bundle-Vendor: The Apache Software Foundation
+│  Bundle-Version: 2.0.0
+│  Export-Package: org.apache.johnzon.mapper;uses:="jakarta.json,jakarta.
+│   json.spi,jakarta.json.stream,org.apache.johnzon.mapper.access,org.apa
+│   che.johnzon.mapper.internal,org.apache.johnzon.mapper.map,org.apache.
+│   johnzon.mapper.reflection";version="2.0.0",org.apache.johnzon.mapper.
+│ - access;uses:="org.apache.johnzon.mapper";version="2.0.0",org.apache.j
+│ - ohnzon.mapper.converter;uses:="org.apache.johnzon.mapper,org.apache.j
+│ - ohnzon.mapper.internal";version="2.0.0",org.apache.johnzon.mapper.uti
+│ - l;uses:="jakarta.json.spi";version="2.0.0",org.apache.johnzon.mapper.
+│ - number;version="2.0.0",org.apache.johnzon.mapper.map;uses:="org.apach
+│ - e.johnzon.mapper,org.apache.johnzon.mapper.internal";version="2.0.0",
+│ - org.apache.johnzon.mapper.jsonp;uses:="jakarta.json,jakarta.json.stre
+│ - am";version="2.0.0",org.apache.johnzon.mapper.reflection;uses:="org.a
+│ - pache.johnzon.mapper";version="2.0.0",org.apache.johnzon.mapper.inter
+│ + util;uses:="jakarta.json.spi";version="2.0.0",org.apache.johnzon.mapp
+│ + er.access;uses:="org.apache.johnzon.mapper";version="2.0.0",org.apach
+│ + e.johnzon.mapper.reflection;uses:="org.apache.johnzon.mapper";version
+│ + ="2.0.0",org.apache.johnzon.mapper.converter;uses:="org.apache.johnzo
+│ + n.mapper,org.apache.johnzon.mapper.internal";version="2.0.0",org.apac
+│ + he.johnzon.mapper.number;version="2.0.0",org.apache.johnzon.mapper.ma
+│ + p;uses:="org.apache.johnzon.mapper,org.apache.johnzon.mapper.internal
+│ + ";version="2.0.0",org.apache.johnzon.mapper.jsonp;uses:="jakarta.json
+│ + ,jakarta.json.stream";version="2.0.0",org.apache.johnzon.mapper.inter
+│   nal;uses:="org.apache.johnzon.mapper";version="2.0.0"
+│  Implementation-Title: Johnzon :: Mapper
+│  Implementation-Vendor: The Apache Software Foundation
+│  Implementation-Version: 2.0.0
+│  Import-Package: jakarta.json;version="[2.1,3)",jakarta.json.spi;versio
+│   n="[2.1,3)",jakarta.json.stream;version="[2.1,3)",java.beans,java.io,
+│   java.lang,java.lang.annotation,java.lang.invoke,java.lang.reflect,jav
+
+2 / 6 target/reference/org.apache.johnzon/johnzon-jsonb-2.0.0.jar johnzon-jsonb/target/johnzon-jsonb-2.0.0.jar
+--- target/reference/org.apache.johnzon/johnzon-jsonb-2.0.0.jar
++++ johnzon-jsonb/target/johnzon-jsonb-2.0.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 146976 bytes, number of entries: 101
+│ +Zip file size: 146974 bytes, number of entries: 101
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     4515 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat     1025 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat      189 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.johnzon/
+│ @@ -96,8 +96,8 @@
+│  -rw----     2.0 fat     1318 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonb/serializer/JohnzonDeserializationContext$1.class
+│  -rw----     2.0 fat     6758 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonb/serializer/JohnzonDeserializationContext.class
+│  -rw----     2.0 fat     1648 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonb/serializer/JohnzonSerializationContext.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonb/spi/
+│  -rw----     2.0 fat     1219 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonb/spi/JohnzonAdapterFactory$ConstantInstance.class
+│  -rw----     2.0 fat      473 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonb/spi/JohnzonAdapterFactory$Instance.class
+│  -rw----     2.0 fat      657 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonb/spi/JohnzonAdapterFactory.class
+│ -101 files, 330948 bytes uncompressed, 127422 bytes compressed:  61.5%
+│ +101 files, 330948 bytes uncompressed, 127420 bytes compressed:  61.5%
+├── META-INF/MANIFEST.MF
+│ @@ -6,34 +6,34 @@
+│  Bundle-DocURL: http://johnzon.apache.org/
+│  Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Johnzon :: JSON-B Implementation
+│  Bundle-SymbolicName: org.apache.johnzon.jsonb
+│  Bundle-Vendor: The Apache Software Foundation
+│  Bundle-Version: 2.0.0
+│ -Export-Package: org.apache.johnzon.jsonb;uses:="jakarta.json,jakarta.j
+│ - son.bind,jakarta.json.bind.config,jakarta.json.bind.spi,jakarta.json.
+│ - spi,jakarta.json.stream,org.apache.johnzon.jsonb.api.experimental,org
+│ - .apache.johnzon.jsonb.spi,org.apache.johnzon.mapper,org.apache.johnzo
+│ - n.mapper.access,org.apache.johnzon.mapper.internal";version="2.0.0",o
+│ - rg.apache.johnzon.jsonb.order;version="2.0.0",org.apache.johnzon.json
+│ - b.serializer;uses:="jakarta.json,jakarta.json.bind.serializer,jakarta
+│ - .json.spi,jakarta.json.stream,org.apache.johnzon.mapper";version="2.0
+│ - .0",org.apache.johnzon.jsonb.extension;uses:="jakarta.json";version="
+│ - 2.0.0",org.apache.johnzon.jsonb.converter;uses:="jakarta.json.bind.ad
+│ - apter,jakarta.json.bind.annotation,org.apache.johnzon.mapper,org.apac
+│ +Export-Package: org.apache.johnzon.jsonb.spi;version="2.0.0",org.apach
+│ + e.johnzon.jsonb;uses:="jakarta.json,jakarta.json.bind,jakarta.json.bi
+│ + nd.config,jakarta.json.bind.spi,jakarta.json.spi,jakarta.json.stream,
+│ + org.apache.johnzon.jsonb.api.experimental,org.apache.johnzon.jsonb.sp
+│ + i,org.apache.johnzon.mapper,org.apache.johnzon.mapper.access,org.apac
+│   he.johnzon.mapper.internal";version="2.0.0",org.apache.johnzon.jsonb.
+│   reflect;version="2.0.0",org.apache.johnzon.jsonb.polymorphism;uses:="
+│   jakarta.json,jakarta.json.bind.annotation";version="2.0.0",org.apache
+│ - .johnzon.jsonb.adapter;uses:="org.apache.johnzon.mapper";version="2.0
+│ - .0",org.apache.johnzon.jsonb.spi;version="2.0.0",org.apache.johnzon.j
+│ + .johnzon.jsonb.order;version="2.0.0",org.apache.johnzon.jsonb.seriali
+│ + zer;uses:="jakarta.json,jakarta.json.bind.serializer,jakarta.json.spi
+│ + ,jakarta.json.stream,org.apache.johnzon.mapper";version="2.0.0",org.a
+│ + pache.johnzon.jsonb.factory;uses:="org.apache.johnzon.jsonb.spi";vers
+│ + ion="2.0.0",org.apache.johnzon.jsonb.converter;uses:="jakarta.json.bi
+│ + nd.adapter,jakarta.json.bind.annotation,org.apache.johnzon.mapper,org
+│ + .apache.johnzon.mapper.internal";version="2.0.0",org.apache.johnzon.j
+│   sonb.cdi;uses:="jakarta.enterprise.inject.spi,org.apache.johnzon.json
+│ - b";version="2.0.0",org.apache.johnzon.jsonb.api.experimental;uses:="j
+│ - akarta.json,jakarta.json.stream";version="2.0.0",org.apache.johnzon.j
+│ - sonb.factory;uses:="org.apache.johnzon.jsonb.spi";version="2.0.0",org
+│ + b";version="2.0.0",org.apache.johnzon.jsonb.extension;uses:="jakarta.
+│ + json";version="2.0.0",org.apache.johnzon.jsonb.api.experimental;uses:
+│ + ="jakarta.json,jakarta.json.stream";version="2.0.0",org.apache.johnzo
+│ + n.jsonb.adapter;uses:="org.apache.johnzon.mapper";version="2.0.0",org
+│   .apache.johnzon.jaxrs.jsonb.jaxrs;uses:="jakarta.annotation,jakarta.j
+│   son.bind,jakarta.ws.rs,jakarta.ws.rs.core,jakarta.ws.rs.ext";version=
+│   "2.0.0"
+│  Implementation-Title: Johnzon :: JSON-B Implementation
+│  Implementation-Vendor: The Apache Software Foundation
+│  Implementation-Version: 2.0.0
+│  Import-Package: jakarta.annotation;version="[2.1,3)";resolution:=optio
+
+3 / 6 target/reference/org.apache.johnzon/johnzon-websocket-2.0.0.jar johnzon-websocket/target/johnzon-websocket-2.0.0.jar
+--- target/reference/org.apache.johnzon/johnzon-websocket-2.0.0.jar
++++ johnzon-websocket/target/johnzon-websocket-2.0.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 34018 bytes, number of entries: 46
+│ +Zip file size: 34016 bytes, number of entries: 46
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     1759 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat      270 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat      177 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.johnzon/
+│ @@ -41,8 +41,8 @@
+│  -rw----     2.0 fat      965 bl defN 80-Feb-01 00:00 org/apache/johnzon/websocket/jsr/JsrStructureDecoder.class
+│  -rw----     2.0 fat     1015 bl defN 80-Feb-01 00:00 org/apache/johnzon/websocket/jsr/JsrStructureEncoder.class
+│  -rw----     2.0 fat      138 bl defN 80-Feb-01 00:00 org/apache/johnzon/websocket/jsr/package-info.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/johnzon/websocket/mapper/
+│  -rw----     2.0 fat     4132 bl defN 80-Feb-01 00:00 org/apache/johnzon/websocket/mapper/JohnzonTextDecoder.class
+│  -rw----     2.0 fat     1465 bl defN 80-Feb-01 00:00 org/apache/johnzon/websocket/mapper/JohnzonTextEncoder.class
+│  -rw----     2.0 fat      141 bl defN 80-Feb-01 00:00 org/apache/johnzon/websocket/mapper/package-info.class
+│ -46 files, 61256 bytes uncompressed, 25556 bytes compressed:  58.3%
+│ +46 files, 61256 bytes uncompressed, 25554 bytes compressed:  58.3%
+├── META-INF/MANIFEST.MF
+│ @@ -6,19 +6,19 @@
+│  Bundle-DocURL: http://johnzon.apache.org/
+│  Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Johnzon :: WebSocket
+│  Bundle-SymbolicName: org.apache.johnzon.websocket
+│  Bundle-Vendor: The Apache Software Foundation
+│  Bundle-Version: 2.0.0
+│ -Export-Package: org.apache.johnzon.websocket.jsr;uses:="jakarta.json";
+│ - version="2.0.0",org.apache.johnzon.websocket.mapper;uses:="jakarta.we
+│ - bsocket,org.apache.johnzon.mapper";version="2.0.0",org.apache.johnzon
+│ - .websocket.jsonb;uses:="jakarta.json.bind,jakarta.servlet,jakarta.ser
+│ - vlet.annotation,jakarta.websocket";version="2.0.0"
+│ +Export-Package: org.apache.johnzon.websocket.jsonb;uses:="jakarta.json
+│ + .bind,jakarta.servlet,jakarta.servlet.annotation,jakarta.websocket";v
+│ + ersion="2.0.0",org.apache.johnzon.websocket.mapper;uses:="jakarta.web
+│ + socket,org.apache.johnzon.mapper";version="2.0.0",org.apache.johnzon.
+│ + websocket.jsr;uses:="jakarta.json";version="2.0.0"
+│  Implementation-Title: Johnzon :: WebSocket
+│  Implementation-Vendor: The Apache Software Foundation
+│  Implementation-Version: 2.0.0
+│  Import-Package: jakarta.json;version="[2.1,3)",jakarta.json.bind;versi
+│   on="[3.0,4)",jakarta.servlet,jakarta.servlet.annotation,jakarta.webso
+│   cket;version="[2.1,3)",jakarta.websocket.server,java.io,java.lang,jav
+│   a.lang.annotation,java.lang.invoke,java.lang.reflect,java.util,java.u
+
+4 / 6 target/reference/org.apache.johnzon/apache-johnzon-2.0.0-bin.tar.gz johnzon-distribution/target/apache-johnzon-2.0.0-bin.tar.gz
+--- target/reference/org.apache.johnzon/apache-johnzon-2.0.0-bin.tar.gz
++++ johnzon-distribution/target/apache-johnzon-2.0.0-bin.tar.gz
+├── apache-johnzon-2.0.0-bin.tar
+│ ├── file list
+│ │ @@ -1,21 +1,21 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)    11482 2023-10-24 12:38:38.000000 apache-johnzon-2.0.0-bin/LICENSE
+│ │  -rw-r--r--   0 root         (0) root         (0)      168 2023-10-24 12:38:38.000000 apache-johnzon-2.0.0-bin/NOTICE
+│ │  -rw-r--r--   0 root         (0) root         (0)   161520 2023-10-24 12:38:38.000000 apache-johnzon-2.0.0-bin/johnzon-core-2.0.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    93583 2023-10-24 12:38:38.000000 apache-johnzon-2.0.0-bin/johnzon-core-2.0.0-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   798998 2023-10-24 12:38:38.000000 apache-johnzon-2.0.0-bin/johnzon-core-2.0.0-javadoc.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   262757 2023-10-24 12:38:38.000000 apache-johnzon-2.0.0-bin/johnzon-mapper-2.0.0.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)   262760 2023-10-24 12:38:38.000000 apache-johnzon-2.0.0-bin/johnzon-mapper-2.0.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   130178 2023-10-24 12:38:38.000000 apache-johnzon-2.0.0-bin/johnzon-mapper-2.0.0-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)  1075981 2023-10-24 12:38:38.000000 apache-johnzon-2.0.0-bin/johnzon-mapper-2.0.0-javadoc.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    37697 2023-10-24 12:38:38.000000 apache-johnzon-2.0.0-bin/johnzon-jaxrs-2.0.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    28442 2023-10-24 12:38:38.000000 apache-johnzon-2.0.0-bin/johnzon-jaxrs-2.0.0-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   412367 2023-10-24 12:38:38.000000 apache-johnzon-2.0.0-bin/johnzon-jaxrs-2.0.0-javadoc.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)    34018 2023-10-24 12:38:38.000000 apache-johnzon-2.0.0-bin/johnzon-websocket-2.0.0.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)    34016 2023-10-24 12:38:38.000000 apache-johnzon-2.0.0-bin/johnzon-websocket-2.0.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    31917 2023-10-24 12:38:38.000000 apache-johnzon-2.0.0-bin/johnzon-websocket-2.0.0-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   461875 2023-10-24 12:38:38.000000 apache-johnzon-2.0.0-bin/johnzon-websocket-2.0.0-javadoc.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    35752 2023-10-24 12:38:38.000000 apache-johnzon-2.0.0-bin/johnzon-maven-plugin-2.0.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   127049 2023-10-24 12:38:38.000000 apache-johnzon-2.0.0-bin/johnzon-jsonschema-2.0.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    20139 2023-10-24 12:38:38.000000 apache-johnzon-2.0.0-bin/johnzon-maven-plugin-2.0.0-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   352926 2023-10-24 12:38:38.000000 apache-johnzon-2.0.0-bin/johnzon-maven-plugin-2.0.0-javadoc.jar
+│ │ --rw-r--r--   0 root         (0) root         (0)   146976 2023-10-24 12:38:38.000000 apache-johnzon-2.0.0-bin/johnzon-jsonb-2.0.0.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)   146974 2023-10-24 12:38:38.000000 apache-johnzon-2.0.0-bin/johnzon-jsonb-2.0.0.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    73001 2023-10-24 12:38:38.000000 apache-johnzon-2.0.0-bin/johnzon-jsonb-2.0.0-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   691512 2023-10-24 12:38:38.000000 apache-johnzon-2.0.0-bin/johnzon-jsonb-2.0.0-javadoc.jar
+│ ├── apache-johnzon-2.0.0-bin/johnzon-mapper-2.0.0.jar
+│ │ ├── zipinfo {}
+│ │ │ @@ -1,8 +1,8 @@
+│ │ │ -Zip file size: 262757 bytes, number of entries: 191
+│ │ │ +Zip file size: 262760 bytes, number of entries: 191
+│ │ │  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ │ │  -rw----     2.0 fat     2515 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ │ │  -rw----     2.0 fat      544 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│ │ │  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│ │ │  -rw----     2.0 fat      174 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│ │ │  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│ │ │  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.johnzon/
+│ │ │ @@ -186,8 +186,8 @@
+│ │ │  -rw----     2.0 fat     1018 bl defN 80-Feb-01 00:00 org/apache/johnzon/mapper/util/ArrayUtil$4.class
+│ │ │  -rw----     2.0 fat      998 bl defN 80-Feb-01 00:00 org/apache/johnzon/mapper/util/ArrayUtil$5.class
+│ │ │  -rw----     2.0 fat     1002 bl defN 80-Feb-01 00:00 org/apache/johnzon/mapper/util/ArrayUtil$6.class
+│ │ │  -rw----     2.0 fat     1006 bl defN 80-Feb-01 00:00 org/apache/johnzon/mapper/util/ArrayUtil$7.class
+│ │ │  -rw----     2.0 fat     4130 bl defN 80-Feb-01 00:00 org/apache/johnzon/mapper/util/ArrayUtil.class
+│ │ │  -rw----     2.0 fat     1977 bl defN 80-Feb-01 00:00 org/apache/johnzon/mapper/util/BeanUtil.class
+│ │ │  -rw----     2.0 fat     1713 bl defN 80-Feb-01 00:00 org/apache/johnzon/mapper/util/JsonProviderUtil.class
+│ │ │ -191 files, 567373 bytes uncompressed, 224667 bytes compressed:  60.4%
+│ │ │ +191 files, 567373 bytes uncompressed, 224670 bytes compressed:  60.4%
+│ │ ├── META-INF/MANIFEST.MF
+│ │ │ @@ -10,23 +10,23 @@
+│ │ │  Bundle-SymbolicName: org.apache.johnzon.mapper
+│ │ │  Bundle-Vendor: The Apache Software Foundation
+│ │ │  Bundle-Version: 2.0.0
+│ │ │  Export-Package: org.apache.johnzon.mapper;uses:="jakarta.json,jakarta.
+│ │ │   json.spi,jakarta.json.stream,org.apache.johnzon.mapper.access,org.apa
+│ │ │   che.johnzon.mapper.internal,org.apache.johnzon.mapper.map,org.apache.
+│ │ │   johnzon.mapper.reflection";version="2.0.0",org.apache.johnzon.mapper.
+│ │ │ - access;uses:="org.apache.johnzon.mapper";version="2.0.0",org.apache.j
+│ │ │ - ohnzon.mapper.converter;uses:="org.apache.johnzon.mapper,org.apache.j
+│ │ │ - ohnzon.mapper.internal";version="2.0.0",org.apache.johnzon.mapper.uti
+│ │ │ - l;uses:="jakarta.json.spi";version="2.0.0",org.apache.johnzon.mapper.
+│ │ │ - number;version="2.0.0",org.apache.johnzon.mapper.map;uses:="org.apach
+│ │ │ - e.johnzon.mapper,org.apache.johnzon.mapper.internal";version="2.0.0",
+│ │ │ - org.apache.johnzon.mapper.jsonp;uses:="jakarta.json,jakarta.json.stre
+│ │ │ - am";version="2.0.0",org.apache.johnzon.mapper.reflection;uses:="org.a
+│ │ │ - pache.johnzon.mapper";version="2.0.0",org.apache.johnzon.mapper.inter
+│ │ │ + util;uses:="jakarta.json.spi";version="2.0.0",org.apache.johnzon.mapp
+│ │ │ + er.access;uses:="org.apache.johnzon.mapper";version="2.0.0",org.apach
+│ │ │ + e.johnzon.mapper.reflection;uses:="org.apache.johnzon.mapper";version
+│ │ │ + ="2.0.0",org.apache.johnzon.mapper.converter;uses:="org.apache.johnzo
+│ │ │ + n.mapper,org.apache.johnzon.mapper.internal";version="2.0.0",org.apac
+│ │ │ + he.johnzon.mapper.number;version="2.0.0",org.apache.johnzon.mapper.ma
+│ │ │ + p;uses:="org.apache.johnzon.mapper,org.apache.johnzon.mapper.internal
+│ │ │ + ";version="2.0.0",org.apache.johnzon.mapper.jsonp;uses:="jakarta.json
+│ │ │ + ,jakarta.json.stream";version="2.0.0",org.apache.johnzon.mapper.inter
+│ │ │   nal;uses:="org.apache.johnzon.mapper";version="2.0.0"
+│ │ │  Implementation-Title: Johnzon :: Mapper
+│ │ │  Implementation-Vendor: The Apache Software Foundation
+│ │ │  Implementation-Version: 2.0.0
+│ │ │  Import-Package: jakarta.json;version="[2.1,3)",jakarta.json.spi;versio
+│ │ │   n="[2.1,3)",jakarta.json.stream;version="[2.1,3)",java.beans,java.io,
+│ │ │   java.lang,java.lang.annotation,java.lang.invoke,java.lang.reflect,jav
+│ ├── apache-johnzon-2.0.0-bin/johnzon-websocket-2.0.0.jar
+│ │ ├── zipinfo {}
+│ │ │ @@ -1,8 +1,8 @@
+│ │ │ -Zip file size: 34018 bytes, number of entries: 46
+│ │ │ +Zip file size: 34016 bytes, number of entries: 46
+│ │ │  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ │ │  -rw----     2.0 fat     1759 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ │ │  -rw----     2.0 fat      270 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│ │ │  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│ │ │  -rw----     2.0 fat      177 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│ │ │  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│ │ │  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.johnzon/
+│ │ │ @@ -41,8 +41,8 @@
+│ │ │  -rw----     2.0 fat      965 bl defN 80-Feb-01 00:00 org/apache/johnzon/websocket/jsr/JsrStructureDecoder.class
+│ │ │  -rw----     2.0 fat     1015 bl defN 80-Feb-01 00:00 org/apache/johnzon/websocket/jsr/JsrStructureEncoder.class
+│ │ │  -rw----     2.0 fat      138 bl defN 80-Feb-01 00:00 org/apache/johnzon/websocket/jsr/package-info.class
+│ │ │  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/johnzon/websocket/mapper/
+│ │ │  -rw----     2.0 fat     4132 bl defN 80-Feb-01 00:00 org/apache/johnzon/websocket/mapper/JohnzonTextDecoder.class
+│ │ │  -rw----     2.0 fat     1465 bl defN 80-Feb-01 00:00 org/apache/johnzon/websocket/mapper/JohnzonTextEncoder.class
+│ │ │  -rw----     2.0 fat      141 bl defN 80-Feb-01 00:00 org/apache/johnzon/websocket/mapper/package-info.class
+│ │ │ -46 files, 61256 bytes uncompressed, 25556 bytes compressed:  58.3%
+│ │ │ +46 files, 61256 bytes uncompressed, 25554 bytes compressed:  58.3%
+│ │ ├── META-INF/MANIFEST.MF
+│ │ │ @@ -6,19 +6,19 @@
+│ │ │  Bundle-DocURL: http://johnzon.apache.org/
+│ │ │  Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+│ │ │  Bundle-ManifestVersion: 2
+│ │ │  Bundle-Name: Johnzon :: WebSocket
+│ │ │  Bundle-SymbolicName: org.apache.johnzon.websocket
+│ │ │  Bundle-Vendor: The Apache Software Foundation
+│ │ │  Bundle-Version: 2.0.0
+│ │ │ -Export-Package: org.apache.johnzon.websocket.jsr;uses:="jakarta.json";
+│ │ │ - version="2.0.0",org.apache.johnzon.websocket.mapper;uses:="jakarta.we
+│ │ │ - bsocket,org.apache.johnzon.mapper";version="2.0.0",org.apache.johnzon
+│ │ │ - .websocket.jsonb;uses:="jakarta.json.bind,jakarta.servlet,jakarta.ser
+│ │ │ - vlet.annotation,jakarta.websocket";version="2.0.0"
+│ │ │ +Export-Package: org.apache.johnzon.websocket.jsonb;uses:="jakarta.json
+│ │ │ + .bind,jakarta.servlet,jakarta.servlet.annotation,jakarta.websocket";v
+│ │ │ + ersion="2.0.0",org.apache.johnzon.websocket.mapper;uses:="jakarta.web
+│ │ │ + socket,org.apache.johnzon.mapper";version="2.0.0",org.apache.johnzon.
+│ │ │ + websocket.jsr;uses:="jakarta.json";version="2.0.0"
+│ │ │  Implementation-Title: Johnzon :: WebSocket
+│ │ │  Implementation-Vendor: The Apache Software Foundation
+│ │ │  Implementation-Version: 2.0.0
+│ │ │  Import-Package: jakarta.json;version="[2.1,3)",jakarta.json.bind;versi
+│ │ │   on="[3.0,4)",jakarta.servlet,jakarta.servlet.annotation,jakarta.webso
+│ │ │   cket;version="[2.1,3)",jakarta.websocket.server,java.io,java.lang,jav
+│ │ │   a.lang.annotation,java.lang.invoke,java.lang.reflect,java.util,java.u
+│ ├── apache-johnzon-2.0.0-bin/johnzon-jsonb-2.0.0.jar
+│ │ ├── zipinfo {}
+│ │ │ @@ -1,8 +1,8 @@
+│ │ │ -Zip file size: 146976 bytes, number of entries: 101
+│ │ │ +Zip file size: 146974 bytes, number of entries: 101
+│ │ │  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ │ │  -rw----     2.0 fat     4515 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ │ │  -rw----     2.0 fat     1025 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│ │ │  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│ │ │  -rw----     2.0 fat      189 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│ │ │  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│ │ │  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.johnzon/
+│ │ │ @@ -96,8 +96,8 @@
+│ │ │  -rw----     2.0 fat     1318 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonb/serializer/JohnzonDeserializationContext$1.class
+│ │ │  -rw----     2.0 fat     6758 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonb/serializer/JohnzonDeserializationContext.class
+│ │ │  -rw----     2.0 fat     1648 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonb/serializer/JohnzonSerializationContext.class
+│ │ │  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonb/spi/
+│ │ │  -rw----     2.0 fat     1219 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonb/spi/JohnzonAdapterFactory$ConstantInstance.class
+│ │ │  -rw----     2.0 fat      473 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonb/spi/JohnzonAdapterFactory$Instance.class
+│ │ │  -rw----     2.0 fat      657 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonb/spi/JohnzonAdapterFactory.class
+│ │ │ -101 files, 330948 bytes uncompressed, 127422 bytes compressed:  61.5%
+│ │ │ +101 files, 330948 bytes uncompressed, 127420 bytes compressed:  61.5%
+│ │ ├── META-INF/MANIFEST.MF
+│ │ │ @@ -6,34 +6,34 @@
+│ │ │  Bundle-DocURL: http://johnzon.apache.org/
+│ │ │  Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+│ │ │  Bundle-ManifestVersion: 2
+│ │ │  Bundle-Name: Johnzon :: JSON-B Implementation
+│ │ │  Bundle-SymbolicName: org.apache.johnzon.jsonb
+│ │ │  Bundle-Vendor: The Apache Software Foundation
+│ │ │  Bundle-Version: 2.0.0
+│ │ │ -Export-Package: org.apache.johnzon.jsonb;uses:="jakarta.json,jakarta.j
+│ │ │ - son.bind,jakarta.json.bind.config,jakarta.json.bind.spi,jakarta.json.
+│ │ │ - spi,jakarta.json.stream,org.apache.johnzon.jsonb.api.experimental,org
+│ │ │ - .apache.johnzon.jsonb.spi,org.apache.johnzon.mapper,org.apache.johnzo
+│ │ │ - n.mapper.access,org.apache.johnzon.mapper.internal";version="2.0.0",o
+│ │ │ - rg.apache.johnzon.jsonb.order;version="2.0.0",org.apache.johnzon.json
+│ │ │ - b.serializer;uses:="jakarta.json,jakarta.json.bind.serializer,jakarta
+│ │ │ - .json.spi,jakarta.json.stream,org.apache.johnzon.mapper";version="2.0
+│ │ │ - .0",org.apache.johnzon.jsonb.extension;uses:="jakarta.json";version="
+│ │ │ - 2.0.0",org.apache.johnzon.jsonb.converter;uses:="jakarta.json.bind.ad
+│ │ │ - apter,jakarta.json.bind.annotation,org.apache.johnzon.mapper,org.apac
+│ │ │ +Export-Package: org.apache.johnzon.jsonb.spi;version="2.0.0",org.apach
+│ │ │ + e.johnzon.jsonb;uses:="jakarta.json,jakarta.json.bind,jakarta.json.bi
+│ │ │ + nd.config,jakarta.json.bind.spi,jakarta.json.spi,jakarta.json.stream,
+│ │ │ + org.apache.johnzon.jsonb.api.experimental,org.apache.johnzon.jsonb.sp
+│ │ │ + i,org.apache.johnzon.mapper,org.apache.johnzon.mapper.access,org.apac
+│ │ │   he.johnzon.mapper.internal";version="2.0.0",org.apache.johnzon.jsonb.
+│ │ │   reflect;version="2.0.0",org.apache.johnzon.jsonb.polymorphism;uses:="
+│ │ │   jakarta.json,jakarta.json.bind.annotation";version="2.0.0",org.apache
+│ │ │ - .johnzon.jsonb.adapter;uses:="org.apache.johnzon.mapper";version="2.0
+│ │ │ - .0",org.apache.johnzon.jsonb.spi;version="2.0.0",org.apache.johnzon.j
+│ │ │ + .johnzon.jsonb.order;version="2.0.0",org.apache.johnzon.jsonb.seriali
+│ │ │ + zer;uses:="jakarta.json,jakarta.json.bind.serializer,jakarta.json.spi
+│ │ │ + ,jakarta.json.stream,org.apache.johnzon.mapper";version="2.0.0",org.a
+│ │ │ + pache.johnzon.jsonb.factory;uses:="org.apache.johnzon.jsonb.spi";vers
+│ │ │ + ion="2.0.0",org.apache.johnzon.jsonb.converter;uses:="jakarta.json.bi
+│ │ │ + nd.adapter,jakarta.json.bind.annotation,org.apache.johnzon.mapper,org
+│ │ │ + .apache.johnzon.mapper.internal";version="2.0.0",org.apache.johnzon.j
+│ │ │   sonb.cdi;uses:="jakarta.enterprise.inject.spi,org.apache.johnzon.json
+│ │ │ - b";version="2.0.0",org.apache.johnzon.jsonb.api.experimental;uses:="j
+│ │ │ - akarta.json,jakarta.json.stream";version="2.0.0",org.apache.johnzon.j
+│ │ │ - sonb.factory;uses:="org.apache.johnzon.jsonb.spi";version="2.0.0",org
+│ │ │ + b";version="2.0.0",org.apache.johnzon.jsonb.extension;uses:="jakarta.
+│ │ │ + json";version="2.0.0",org.apache.johnzon.jsonb.api.experimental;uses:
+│ │ │ + ="jakarta.json,jakarta.json.stream";version="2.0.0",org.apache.johnzo
+│ │ │ + n.jsonb.adapter;uses:="org.apache.johnzon.mapper";version="2.0.0",org
+│ │ │   .apache.johnzon.jaxrs.jsonb.jaxrs;uses:="jakarta.annotation,jakarta.j
+│ │ │   son.bind,jakarta.ws.rs,jakarta.ws.rs.core,jakarta.ws.rs.ext";version=
+│ │ │   "2.0.0"
+│ │ │  Implementation-Title: Johnzon :: JSON-B Implementation
+│ │ │  Implementation-Vendor: The Apache Software Foundation
+│ │ │  Implementation-Version: 2.0.0
+│ │ │  Import-Package: jakarta.annotation;version="[2.1,3)";resolution:=optio
+
+5 / 6 target/reference/org.apache.johnzon/apache-johnzon-2.0.0-bin.zip johnzon-distribution/target/apache-johnzon-2.0.0-bin.zip
+--- target/reference/org.apache.johnzon/apache-johnzon-2.0.0-bin.zip
++++ johnzon-distribution/target/apache-johnzon-2.0.0-bin.zip
+├── zipinfo {}
+│ @@ -1,24 +1,24 @@
+│ -Zip file size: 4643468 bytes, number of entries: 22
+│ +Zip file size: 4643461 bytes, number of entries: 22
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-24 12:38 apache-johnzon-2.0.0-bin/
+│  -rw-r--r--  2.0 unx    11482 b- defN 23-Oct-24 12:38 apache-johnzon-2.0.0-bin/LICENSE
+│  -rw-r--r--  2.0 unx      168 b- defN 23-Oct-24 12:38 apache-johnzon-2.0.0-bin/NOTICE
+│  -rw-r--r--  2.0 unx   161520 b- defN 23-Oct-24 12:38 apache-johnzon-2.0.0-bin/johnzon-core-2.0.0.jar
+│  -rw-r--r--  2.0 unx    93583 b- defN 23-Oct-24 12:38 apache-johnzon-2.0.0-bin/johnzon-core-2.0.0-sources.jar
+│  -rw-r--r--  2.0 unx   798998 b- defN 23-Oct-24 12:38 apache-johnzon-2.0.0-bin/johnzon-core-2.0.0-javadoc.jar
+│ --rw-r--r--  2.0 unx   262757 b- defN 23-Oct-24 12:38 apache-johnzon-2.0.0-bin/johnzon-mapper-2.0.0.jar
+│ +-rw-r--r--  2.0 unx   262760 b- defN 23-Oct-24 12:38 apache-johnzon-2.0.0-bin/johnzon-mapper-2.0.0.jar
+│  -rw-r--r--  2.0 unx   130178 b- defN 23-Oct-24 12:38 apache-johnzon-2.0.0-bin/johnzon-mapper-2.0.0-sources.jar
+│  -rw-r--r--  2.0 unx  1075981 b- defN 23-Oct-24 12:38 apache-johnzon-2.0.0-bin/johnzon-mapper-2.0.0-javadoc.jar
+│  -rw-r--r--  2.0 unx    37697 b- defN 23-Oct-24 12:38 apache-johnzon-2.0.0-bin/johnzon-jaxrs-2.0.0.jar
+│  -rw-r--r--  2.0 unx    28442 b- defN 23-Oct-24 12:38 apache-johnzon-2.0.0-bin/johnzon-jaxrs-2.0.0-sources.jar
+│  -rw-r--r--  2.0 unx   412367 b- defN 23-Oct-24 12:38 apache-johnzon-2.0.0-bin/johnzon-jaxrs-2.0.0-javadoc.jar
+│ --rw-r--r--  2.0 unx    34018 b- defN 23-Oct-24 12:38 apache-johnzon-2.0.0-bin/johnzon-websocket-2.0.0.jar
+│ +-rw-r--r--  2.0 unx    34016 b- defN 23-Oct-24 12:38 apache-johnzon-2.0.0-bin/johnzon-websocket-2.0.0.jar
+│  -rw-r--r--  2.0 unx    31917 b- defN 23-Oct-24 12:38 apache-johnzon-2.0.0-bin/johnzon-websocket-2.0.0-sources.jar
+│  -rw-r--r--  2.0 unx   461875 b- defN 23-Oct-24 12:38 apache-johnzon-2.0.0-bin/johnzon-websocket-2.0.0-javadoc.jar
+│  -rw-r--r--  2.0 unx    35752 b- defN 23-Oct-24 12:38 apache-johnzon-2.0.0-bin/johnzon-maven-plugin-2.0.0.jar
+│  -rw-r--r--  2.0 unx   127049 b- defN 23-Oct-24 12:38 apache-johnzon-2.0.0-bin/johnzon-jsonschema-2.0.0.jar
+│  -rw-r--r--  2.0 unx    20139 b- defN 23-Oct-24 12:38 apache-johnzon-2.0.0-bin/johnzon-maven-plugin-2.0.0-sources.jar
+│  -rw-r--r--  2.0 unx   352926 b- defN 23-Oct-24 12:38 apache-johnzon-2.0.0-bin/johnzon-maven-plugin-2.0.0-javadoc.jar
+│ --rw-r--r--  2.0 unx   146976 b- defN 23-Oct-24 12:38 apache-johnzon-2.0.0-bin/johnzon-jsonb-2.0.0.jar
+│ +-rw-r--r--  2.0 unx   146974 b- defN 23-Oct-24 12:38 apache-johnzon-2.0.0-bin/johnzon-jsonb-2.0.0.jar
+│  -rw-r--r--  2.0 unx    73001 b- defN 23-Oct-24 12:38 apache-johnzon-2.0.0-bin/johnzon-jsonb-2.0.0-sources.jar
+│  -rw-r--r--  2.0 unx   691512 b- defN 23-Oct-24 12:38 apache-johnzon-2.0.0-bin/johnzon-jsonb-2.0.0-javadoc.jar
+│ -22 files, 4988338 bytes uncompressed, 4639506 bytes compressed:  7.0%
+│ +22 files, 4988337 bytes uncompressed, 4639499 bytes compressed:  7.0%
+├── apache-johnzon-2.0.0-bin/johnzon-mapper-2.0.0.jar
+│ ├── zipinfo {}
+│ │ @@ -1,8 +1,8 @@
+│ │ -Zip file size: 262757 bytes, number of entries: 191
+│ │ +Zip file size: 262760 bytes, number of entries: 191
+│ │  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ │  -rw----     2.0 fat     2515 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ │  -rw----     2.0 fat      544 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│ │  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│ │  -rw----     2.0 fat      174 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│ │  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│ │  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.johnzon/
+│ │ @@ -186,8 +186,8 @@
+│ │  -rw----     2.0 fat     1018 bl defN 80-Feb-01 00:00 org/apache/johnzon/mapper/util/ArrayUtil$4.class
+│ │  -rw----     2.0 fat      998 bl defN 80-Feb-01 00:00 org/apache/johnzon/mapper/util/ArrayUtil$5.class
+│ │  -rw----     2.0 fat     1002 bl defN 80-Feb-01 00:00 org/apache/johnzon/mapper/util/ArrayUtil$6.class
+│ │  -rw----     2.0 fat     1006 bl defN 80-Feb-01 00:00 org/apache/johnzon/mapper/util/ArrayUtil$7.class
+│ │  -rw----     2.0 fat     4130 bl defN 80-Feb-01 00:00 org/apache/johnzon/mapper/util/ArrayUtil.class
+│ │  -rw----     2.0 fat     1977 bl defN 80-Feb-01 00:00 org/apache/johnzon/mapper/util/BeanUtil.class
+│ │  -rw----     2.0 fat     1713 bl defN 80-Feb-01 00:00 org/apache/johnzon/mapper/util/JsonProviderUtil.class
+│ │ -191 files, 567373 bytes uncompressed, 224667 bytes compressed:  60.4%
+│ │ +191 files, 567373 bytes uncompressed, 224670 bytes compressed:  60.4%
+│ ├── META-INF/MANIFEST.MF
+│ │ @@ -10,23 +10,23 @@
+│ │  Bundle-SymbolicName: org.apache.johnzon.mapper
+│ │  Bundle-Vendor: The Apache Software Foundation
+│ │  Bundle-Version: 2.0.0
+│ │  Export-Package: org.apache.johnzon.mapper;uses:="jakarta.json,jakarta.
+│ │   json.spi,jakarta.json.stream,org.apache.johnzon.mapper.access,org.apa
+│ │   che.johnzon.mapper.internal,org.apache.johnzon.mapper.map,org.apache.
+│ │   johnzon.mapper.reflection";version="2.0.0",org.apache.johnzon.mapper.
+│ │ - access;uses:="org.apache.johnzon.mapper";version="2.0.0",org.apache.j
+│ │ - ohnzon.mapper.converter;uses:="org.apache.johnzon.mapper,org.apache.j
+│ │ - ohnzon.mapper.internal";version="2.0.0",org.apache.johnzon.mapper.uti
+│ │ - l;uses:="jakarta.json.spi";version="2.0.0",org.apache.johnzon.mapper.
+│ │ - number;version="2.0.0",org.apache.johnzon.mapper.map;uses:="org.apach
+│ │ - e.johnzon.mapper,org.apache.johnzon.mapper.internal";version="2.0.0",
+│ │ - org.apache.johnzon.mapper.jsonp;uses:="jakarta.json,jakarta.json.stre
+│ │ - am";version="2.0.0",org.apache.johnzon.mapper.reflection;uses:="org.a
+│ │ - pache.johnzon.mapper";version="2.0.0",org.apache.johnzon.mapper.inter
+│ │ + util;uses:="jakarta.json.spi";version="2.0.0",org.apache.johnzon.mapp
+│ │ + er.access;uses:="org.apache.johnzon.mapper";version="2.0.0",org.apach
+│ │ + e.johnzon.mapper.reflection;uses:="org.apache.johnzon.mapper";version
+│ │ + ="2.0.0",org.apache.johnzon.mapper.converter;uses:="org.apache.johnzo
+│ │ + n.mapper,org.apache.johnzon.mapper.internal";version="2.0.0",org.apac
+│ │ + he.johnzon.mapper.number;version="2.0.0",org.apache.johnzon.mapper.ma
+│ │ + p;uses:="org.apache.johnzon.mapper,org.apache.johnzon.mapper.internal
+│ │ + ";version="2.0.0",org.apache.johnzon.mapper.jsonp;uses:="jakarta.json
+│ │ + ,jakarta.json.stream";version="2.0.0",org.apache.johnzon.mapper.inter
+│ │   nal;uses:="org.apache.johnzon.mapper";version="2.0.0"
+│ │  Implementation-Title: Johnzon :: Mapper
+│ │  Implementation-Vendor: The Apache Software Foundation
+│ │  Implementation-Version: 2.0.0
+│ │  Import-Package: jakarta.json;version="[2.1,3)",jakarta.json.spi;versio
+│ │   n="[2.1,3)",jakarta.json.stream;version="[2.1,3)",java.beans,java.io,
+│ │   java.lang,java.lang.annotation,java.lang.invoke,java.lang.reflect,jav
+├── apache-johnzon-2.0.0-bin/johnzon-websocket-2.0.0.jar
+│ ├── zipinfo {}
+│ │ @@ -1,8 +1,8 @@
+│ │ -Zip file size: 34018 bytes, number of entries: 46
+│ │ +Zip file size: 34016 bytes, number of entries: 46
+│ │  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ │  -rw----     2.0 fat     1759 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ │  -rw----     2.0 fat      270 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│ │  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│ │  -rw----     2.0 fat      177 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│ │  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│ │  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.johnzon/
+│ │ @@ -41,8 +41,8 @@
+│ │  -rw----     2.0 fat      965 bl defN 80-Feb-01 00:00 org/apache/johnzon/websocket/jsr/JsrStructureDecoder.class
+│ │  -rw----     2.0 fat     1015 bl defN 80-Feb-01 00:00 org/apache/johnzon/websocket/jsr/JsrStructureEncoder.class
+│ │  -rw----     2.0 fat      138 bl defN 80-Feb-01 00:00 org/apache/johnzon/websocket/jsr/package-info.class
+│ │  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/johnzon/websocket/mapper/
+│ │  -rw----     2.0 fat     4132 bl defN 80-Feb-01 00:00 org/apache/johnzon/websocket/mapper/JohnzonTextDecoder.class
+│ │  -rw----     2.0 fat     1465 bl defN 80-Feb-01 00:00 org/apache/johnzon/websocket/mapper/JohnzonTextEncoder.class
+│ │  -rw----     2.0 fat      141 bl defN 80-Feb-01 00:00 org/apache/johnzon/websocket/mapper/package-info.class
+│ │ -46 files, 61256 bytes uncompressed, 25556 bytes compressed:  58.3%
+│ │ +46 files, 61256 bytes uncompressed, 25554 bytes compressed:  58.3%
+│ ├── META-INF/MANIFEST.MF
+│ │ @@ -6,19 +6,19 @@
+│ │  Bundle-DocURL: http://johnzon.apache.org/
+│ │  Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+│ │  Bundle-ManifestVersion: 2
+│ │  Bundle-Name: Johnzon :: WebSocket
+│ │  Bundle-SymbolicName: org.apache.johnzon.websocket
+│ │  Bundle-Vendor: The Apache Software Foundation
+│ │  Bundle-Version: 2.0.0
+│ │ -Export-Package: org.apache.johnzon.websocket.jsr;uses:="jakarta.json";
+│ │ - version="2.0.0",org.apache.johnzon.websocket.mapper;uses:="jakarta.we
+│ │ - bsocket,org.apache.johnzon.mapper";version="2.0.0",org.apache.johnzon
+│ │ - .websocket.jsonb;uses:="jakarta.json.bind,jakarta.servlet,jakarta.ser
+│ │ - vlet.annotation,jakarta.websocket";version="2.0.0"
+│ │ +Export-Package: org.apache.johnzon.websocket.jsonb;uses:="jakarta.json
+│ │ + .bind,jakarta.servlet,jakarta.servlet.annotation,jakarta.websocket";v
+│ │ + ersion="2.0.0",org.apache.johnzon.websocket.mapper;uses:="jakarta.web
+│ │ + socket,org.apache.johnzon.mapper";version="2.0.0",org.apache.johnzon.
+│ │ + websocket.jsr;uses:="jakarta.json";version="2.0.0"
+│ │  Implementation-Title: Johnzon :: WebSocket
+│ │  Implementation-Vendor: The Apache Software Foundation
+│ │  Implementation-Version: 2.0.0
+│ │  Import-Package: jakarta.json;version="[2.1,3)",jakarta.json.bind;versi
+│ │   on="[3.0,4)",jakarta.servlet,jakarta.servlet.annotation,jakarta.webso
+│ │   cket;version="[2.1,3)",jakarta.websocket.server,java.io,java.lang,jav
+│ │   a.lang.annotation,java.lang.invoke,java.lang.reflect,java.util,java.u
+├── apache-johnzon-2.0.0-bin/johnzon-jsonb-2.0.0.jar
+│ ├── zipinfo {}
+│ │ @@ -1,8 +1,8 @@
+│ │ -Zip file size: 146976 bytes, number of entries: 101
+│ │ +Zip file size: 146974 bytes, number of entries: 101
+│ │  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ │  -rw----     2.0 fat     4515 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ │  -rw----     2.0 fat     1025 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│ │  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│ │  -rw----     2.0 fat      189 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│ │  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│ │  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.johnzon/
+│ │ @@ -96,8 +96,8 @@
+│ │  -rw----     2.0 fat     1318 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonb/serializer/JohnzonDeserializationContext$1.class
+│ │  -rw----     2.0 fat     6758 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonb/serializer/JohnzonDeserializationContext.class
+│ │  -rw----     2.0 fat     1648 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonb/serializer/JohnzonSerializationContext.class
+│ │  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonb/spi/
+│ │  -rw----     2.0 fat     1219 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonb/spi/JohnzonAdapterFactory$ConstantInstance.class
+│ │  -rw----     2.0 fat      473 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonb/spi/JohnzonAdapterFactory$Instance.class
+│ │  -rw----     2.0 fat      657 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonb/spi/JohnzonAdapterFactory.class
+│ │ -101 files, 330948 bytes uncompressed, 127422 bytes compressed:  61.5%
+│ │ +101 files, 330948 bytes uncompressed, 127420 bytes compressed:  61.5%
+│ ├── META-INF/MANIFEST.MF
+│ │ @@ -6,34 +6,34 @@
+│ │  Bundle-DocURL: http://johnzon.apache.org/
+│ │  Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+│ │  Bundle-ManifestVersion: 2
+│ │  Bundle-Name: Johnzon :: JSON-B Implementation
+│ │  Bundle-SymbolicName: org.apache.johnzon.jsonb
+│ │  Bundle-Vendor: The Apache Software Foundation
+│ │  Bundle-Version: 2.0.0
+│ │ -Export-Package: org.apache.johnzon.jsonb;uses:="jakarta.json,jakarta.j
+│ │ - son.bind,jakarta.json.bind.config,jakarta.json.bind.spi,jakarta.json.
+│ │ - spi,jakarta.json.stream,org.apache.johnzon.jsonb.api.experimental,org
+│ │ - .apache.johnzon.jsonb.spi,org.apache.johnzon.mapper,org.apache.johnzo
+│ │ - n.mapper.access,org.apache.johnzon.mapper.internal";version="2.0.0",o
+│ │ - rg.apache.johnzon.jsonb.order;version="2.0.0",org.apache.johnzon.json
+│ │ - b.serializer;uses:="jakarta.json,jakarta.json.bind.serializer,jakarta
+│ │ - .json.spi,jakarta.json.stream,org.apache.johnzon.mapper";version="2.0
+│ │ - .0",org.apache.johnzon.jsonb.extension;uses:="jakarta.json";version="
+│ │ - 2.0.0",org.apache.johnzon.jsonb.converter;uses:="jakarta.json.bind.ad
+│ │ - apter,jakarta.json.bind.annotation,org.apache.johnzon.mapper,org.apac
+│ │ +Export-Package: org.apache.johnzon.jsonb.spi;version="2.0.0",org.apach
+│ │ + e.johnzon.jsonb;uses:="jakarta.json,jakarta.json.bind,jakarta.json.bi
+│ │ + nd.config,jakarta.json.bind.spi,jakarta.json.spi,jakarta.json.stream,
+│ │ + org.apache.johnzon.jsonb.api.experimental,org.apache.johnzon.jsonb.sp
+│ │ + i,org.apache.johnzon.mapper,org.apache.johnzon.mapper.access,org.apac
+│ │   he.johnzon.mapper.internal";version="2.0.0",org.apache.johnzon.jsonb.
+│ │   reflect;version="2.0.0",org.apache.johnzon.jsonb.polymorphism;uses:="
+│ │   jakarta.json,jakarta.json.bind.annotation";version="2.0.0",org.apache
+│ │ - .johnzon.jsonb.adapter;uses:="org.apache.johnzon.mapper";version="2.0
+│ │ - .0",org.apache.johnzon.jsonb.spi;version="2.0.0",org.apache.johnzon.j
+│ │ + .johnzon.jsonb.order;version="2.0.0",org.apache.johnzon.jsonb.seriali
+│ │ + zer;uses:="jakarta.json,jakarta.json.bind.serializer,jakarta.json.spi
+│ │ + ,jakarta.json.stream,org.apache.johnzon.mapper";version="2.0.0",org.a
+│ │ + pache.johnzon.jsonb.factory;uses:="org.apache.johnzon.jsonb.spi";vers
+│ │ + ion="2.0.0",org.apache.johnzon.jsonb.converter;uses:="jakarta.json.bi
+│ │ + nd.adapter,jakarta.json.bind.annotation,org.apache.johnzon.mapper,org
+│ │ + .apache.johnzon.mapper.internal";version="2.0.0",org.apache.johnzon.j
+│ │   sonb.cdi;uses:="jakarta.enterprise.inject.spi,org.apache.johnzon.json
+│ │ - b";version="2.0.0",org.apache.johnzon.jsonb.api.experimental;uses:="j
+│ │ - akarta.json,jakarta.json.stream";version="2.0.0",org.apache.johnzon.j
+│ │ - sonb.factory;uses:="org.apache.johnzon.jsonb.spi";version="2.0.0",org
+│ │ + b";version="2.0.0",org.apache.johnzon.jsonb.extension;uses:="jakarta.
+│ │ + json";version="2.0.0",org.apache.johnzon.jsonb.api.experimental;uses:
+│ │ + ="jakarta.json,jakarta.json.stream";version="2.0.0",org.apache.johnzo
+│ │ + n.jsonb.adapter;uses:="org.apache.johnzon.mapper";version="2.0.0",org
+│ │   .apache.johnzon.jaxrs.jsonb.jaxrs;uses:="jakarta.annotation,jakarta.j
+│ │   son.bind,jakarta.ws.rs,jakarta.ws.rs.core,jakarta.ws.rs.ext";version=
+│ │   "2.0.0"
+│ │  Implementation-Title: Johnzon :: JSON-B Implementation
+│ │  Implementation-Vendor: The Apache Software Foundation
+│ │  Implementation-Version: 2.0.0
+│ │  Import-Package: jakarta.annotation;version="[2.1,3)";resolution:=optio
+
+6 / 6 target/reference/org.apache.johnzon/johnzon-jsonlogic-2.0.0.jar johnzon-jsonlogic/target/johnzon-jsonlogic-2.0.0.jar
+--- target/reference/org.apache.johnzon/johnzon-jsonlogic-2.0.0.jar
++++ johnzon-jsonlogic/target/johnzon-jsonlogic-2.0.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 24730 bytes, number of entries: 19
+│ +Zip file size: 24729 bytes, number of entries: 19
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│  -rw----     2.0 fat     1311 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat      271 bl defN 80-Feb-01 00:00 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 80-Feb-01 00:00 META-INF/LICENSE
+│  -rw----     2.0 fat      178 bl defN 80-Feb-01 00:00 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 META-INF/maven/org.apache.johnzon/
+│ @@ -14,8 +14,8 @@
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/johnzon/
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonlogic/
+│  -rw----     2.0 fat     1050 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonlogic/JohnzonJsonLogic$1.class
+│  -rw----     2.0 fat    39549 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonlogic/JohnzonJsonLogic.class
+│  -rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonlogic/spi/
+│  -rw----     2.0 fat     2126 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonlogic/spi/AsyncOperator.class
+│  -rw----     2.0 fat     1595 bl defN 80-Feb-01 00:00 org/apache/johnzon/jsonlogic/spi/Operator.class
+│ -19 files, 59433 bytes uncompressed, 21740 bytes compressed:  63.4%
+│ +19 files, 59433 bytes uncompressed, 21739 bytes compressed:  63.4%
+├── META-INF/MANIFEST.MF
+│ @@ -6,18 +6,18 @@
+│  Bundle-DocURL: http://johnzon.apache.org/
+│  Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+│  Bundle-ManifestVersion: 2
+│  Bundle-Name: Johnzon :: JSON Logic
+│  Bundle-SymbolicName: org.apache.johnzon.jsonlogic
+│  Bundle-Vendor: The Apache Software Foundation
+│  Bundle-Version: 2.0.0
+│ -Export-Package: org.apache.johnzon.jsonlogic;uses:="jakarta.json,jakar
+│ - ta.json.spi,org.apache.johnzon.jsonlogic.spi";version="2.0.0",org.apa
+│ - che.johnzon.jsonlogic.spi;uses:="jakarta.json,org.apache.johnzon.json
+│ - logic";version="2.0.0"
+│ +Export-Package: org.apache.johnzon.jsonlogic.spi;uses:="jakarta.json,o
+│ + rg.apache.johnzon.jsonlogic";version="2.0.0",org.apache.johnzon.jsonl
+│ + ogic;uses:="jakarta.json,jakarta.json.spi,org.apache.johnzon.jsonlogi
+│ + c.spi";version="2.0.0"
+│  Implementation-Title: Johnzon :: JSON Logic
+│  Implementation-Vendor: The Apache Software Foundation
+│  Implementation-Version: 2.0.0
+│  Import-Package: jakarta.json;version="[2.1,3)",jakarta.json.spi;versio
+│   n="[2.1,3)",java.lang,java.lang.invoke,java.util,java.util.concurrent
+│   ,java.util.function,java.util.stream,org.apache.johnzon.jsonlogic,org
+│   .apache.johnzon.jsonlogic.spi
+
