@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=The Apache Software Foundation
+group-id=org.apache
+artifact-id=apache
+version=31
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-apache-parent.git
+source.scm.tag=apache-31
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache
+outputs.0.filename=apache-31.pom
+outputs.0.length=23531
+outputs.0.checksums.sha512=12563230cf16a646d4a20453e6ae98e9f8eb5abf89502620314c7040f2c006cd0795c7615e02a0f4c6e1d87328b156fa89b83a9990cfcfb2a0e8fc7b7b9f97f9
+
+outputs.1.groupId=org.apache
+outputs.1.filename=apache-31-source-release.zip
+outputs.1.length=22507
+outputs.1.checksums.sha512=b60e0ef1899ab77a44b9afe5af50087d353fc67bda991fca11815abc18514f4fea6e90c452a503d56bb342a2a1854f9b4a7f655ce48bda90c5dab67468a06316
