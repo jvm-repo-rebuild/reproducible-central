@@ -1,0 +1,7 @@
+version=41
+ok=25
+ko=0
+ignored=0
+okFiles="maven-parent-41.pom maven-parent-41-site.xml maven-parent-41-source-release.zip maven-parent-41-cyclonedx.xml maven-parent-41-cyclonedx.json maven-extensions-41.pom maven-extensions-41-site.xml maven-extensions-41-cyclonedx.xml maven-extensions-41-cyclonedx.json maven-plugins-41.pom maven-plugins-41-site.xml maven-plugins-41-cyclonedx.xml maven-plugins-41-cyclonedx.json maven-shared-components-41.pom maven-shared-components-41-site.xml maven-shared-components-41-cyclonedx.xml maven-shared-components-41-cyclonedx.json maven-skins-41.pom maven-skins-41-site.xml maven-skins-41-cyclonedx.xml maven-skins-41-cyclonedx.json doxia-tools-41.pom doxia-tools-41-site.xml doxia-tools-41-cyclonedx.xml doxia-tools-41-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
