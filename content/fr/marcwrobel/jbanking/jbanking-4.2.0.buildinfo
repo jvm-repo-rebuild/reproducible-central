@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=jbanking
+group-id=fr.marcwrobel
+artifact-id=jbanking
+version=4.2.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:marcwrobel/jbanking
+source.scm.tag=v4.2.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=fr.marcwrobel
+outputs.0.filename=jbanking-4.2.0.pom
+outputs.0.length=1966
+outputs.0.checksums.sha512=310d7bacb43afbb56140e67534781ade438b9f6d6ea9634d180d348bb24ab11e4ee669af94cc4606447d3db6ca902e78e0bc85bef6c2065ebad39216a9ae5340
+
+outputs.1.groupId=fr.marcwrobel
+outputs.1.filename=jbanking-4.2.0.jar
+outputs.1.length=103549
+outputs.1.checksums.sha512=e18c253c524e7031ed7fe4b7a22a27965eb0c9b4784629b663ade9ba52d5c68c983ce91cd06bf907ab1d09138a05303c83bc15043b5d0c12e30eaacba24af10a
+
+outputs.2.groupId=fr.marcwrobel
+outputs.2.filename=jbanking-4.2.0-sources.jar
+outputs.2.length=91138
+outputs.2.checksums.sha512=0bc0ec11305e07ef6f1e45759ac86387828c52b4e385218b4025f7213c9686cb65626b09faa08e223be9b687b888461638c1f784d5e8ffbe11815f1361c779ad

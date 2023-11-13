@@ -1,0 +1,16 @@
+groupId=fr.marcwrobel
+artifactId=jbanking
+version=4.2.0
+display=${groupId}:${artifactId}
+
+# Source code
+gitRepo=https://github.com/marcwrobel/jbanking.git
+gitTag=v${version}
+
+tool=mvn-3.8.6
+jdk=17
+newline=lf
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dcyclonedx.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+issue=
