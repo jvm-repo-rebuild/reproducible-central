@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-resourceresolver.git](https://github.com/apache/sling-org-apache-sling-resourceresolver.git)
 
-rebuilding **7 releases** of org.apache.sling:org.apache.sling.resourceresolver:
-- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **8 releases** of org.apache.sling:org.apache.sling.resourceresolver:
+- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.11.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourceresolver/1.11.2/pom) | | | |
+| [1.11.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourceresolver/1.11.2/pom) | [mvn jdk11](org.apache.sling.resourceresolver-1.11.2.buildspec) | [result](org.apache.sling.resourceresolver-1.11.2.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.resourceresolver-1.11.2.buildcompare) | 768K |
 | [1.11.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourceresolver/1.11.0/pom) | [mvn jdk11](org.apache.sling.resourceresolver-1.11.0.buildspec) | [result](org.apache.sling.resourceresolver-1.11.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.resourceresolver-1.11.0.buildcompare) | 766K |
 | [1.10.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourceresolver/1.10.0/pom) | [mvn jdk11](org.apache.sling.resourceresolver-1.10.0.buildspec) | [result](org.apache.sling.resourceresolver-1.10.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.resourceresolver-1.10.0.buildcompare) | 1.4M |
 | [1.9.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.resourceresolver/1.9.0/pom) | [mvn jdk11](org.apache.sling.resourceresolver-1.9.0.buildspec) | [result](org.apache.sling.resourceresolver-1.9.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.resourceresolver-1.9.0.buildcompare) | 900K |

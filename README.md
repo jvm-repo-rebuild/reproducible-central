@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2770 releases** of **560 projects**:
-   - **2162** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **2773 releases** of **560 projects**:
+   - **2165** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 608 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 560 projects, 454 have at least one fully reproducible release, 106 have none
 
@@ -242,7 +242,7 @@ Its objectives are to provide:
 | org.apache.accumulo | [accumulo](content/org/apache/accumulo/README.md) | 7 | 3 :heavy_check_mark: / 4 :warning: |
 | org.apache.activemq | [activemq-parent](content/org/apache/activemq/README.md) | 9 | 2 :heavy_check_mark: / 7 :warning: |
 | org.apache.any23 | [apache-any23](content/org/apache/any23/README.md) | 1 | 1 :warning: |
-| org.apache | [apache](content/org/apache/apache/README.md) | 8 | 7 :heavy_check_mark: / 1 :warning: |
+| org.apache | [apache](content/org/apache/apache/README.md) | 9 | 8 :heavy_check_mark: / 1 :warning: |
 | org.apache.avro | [avro-toplevel](content/org/apache/avro/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | org.apache.axis2 | [axis2](content/org/apache/axis2/README.md) | 1 | 1 :warning: |
 | org.apache.batchee | [batchee](content/org/apache/batchee/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
@@ -309,7 +309,7 @@ Its objectives are to provide:
 | org.apache.maven.indexer | [maven-indexer](content/org/apache/maven/indexer/README.md) | 10 | 8 :heavy_check_mark: / 2 :warning: |
 | org.apache.maven.jxr | [jxr](content/org/apache/maven/jxr/README.md) | 4 | 4 :heavy_check_mark: |
 | org.apache.maven | [maven](content/org/apache/maven/maven/README.md) | 20 | 17 :heavy_check_mark: / 3 :warning: |
-| | [maven-parent](content/org/apache/maven/parent/README.md) | 7 | 4 :heavy_check_mark: / 3 :warning: |
+| | [maven-parent](content/org/apache/maven/parent/README.md) | 8 | 5 :heavy_check_mark: / 3 :warning: |
 | org.apache.maven.scm | [maven-scm](content/org/apache/maven/scm/README.md) | 9 | 9 :heavy_check_mark: |
 | org.apache.maven.surefire | [surefire](content/org/apache/maven/surefire/README.md) | 10 | 6 :heavy_check_mark: / 4 :warning: |
 | org.apache.maven.doxia | [doxia](content/org/apache/maven/doxia/doxia/README.md) | 12 | 12 :heavy_check_mark: |
@@ -445,7 +445,7 @@ Its objectives are to provide:
 | | [*.repoinit.parser](content/org/apache/sling/org.apache.sling.repoinit.parser/README.md) | 4 | 4 :heavy_check_mark: |
 | | [*.resourceaccesssecurity](content/org/apache/sling/org.apache.sling.resourceaccesssecurity/README.md) | 1 | 1 :heavy_check_mark: |
 | | [*.resourcemerger](content/org/apache/sling/org.apache.sling.resourcemerger/README.md) | 3 | 3 :heavy_check_mark: |
-| | [*.resourceresolver](content/org/apache/sling/org.apache.sling.resourceresolver/README.md) | 7 | 7 :heavy_check_mark: |
+| | [*.resourceresolver](content/org/apache/sling/org.apache.sling.resourceresolver/README.md) | 8 | 8 :heavy_check_mark: |
 | | [*.rewriter](content/org/apache/sling/org.apache.sling.rewriter/README.md) | 2 | 2 :warning: |
 | | [*.scripting.core](content/org/apache/sling/org.apache.sling.scripting.core/README.md) | 4 | 4 :warning: |
 | | [*.scripting.sightly](content/org/apache/sling/org.apache.sling.scripting.sightly/README.md) | 6 | 6 :heavy_check_mark: |
@@ -583,7 +583,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 29 | 29 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **560** | **2770** | **2162** :heavy_check_mark: **608** :warning: |
+| **Count:** | **560** | **2773** | **2165** :heavy_check_mark: **608** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -595,16 +595,16 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 <!-- BEGIN GENERATED STATS -->
      22 gradle     11
      26 mvn         7
-   1024 mvn         8
+   1025 mvn         8
       1 mvn         9
-    835 mvn        11
+    836 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.6
       1 mvn        13
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    218 mvn        17
+    219 mvn        17
       2 mvn        17.0.7
       1 mvn        17.0.8
       1 mvn        17.0.8.1
