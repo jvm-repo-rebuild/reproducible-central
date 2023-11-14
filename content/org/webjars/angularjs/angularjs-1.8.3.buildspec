@@ -1,0 +1,18 @@
+groupId=org.webjars
+artifactId=angularjs
+version=1.8.3
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/webjars/${artifactId}.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=19
+newline=lf
+
+command="mvn clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=

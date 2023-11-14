@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=AngularJS
+group-id=org.webjars
+artifact-id=angularjs
+version=1.8.3
+
+# source information
+source.scm.uri=scm:git:https://github.com/webjars/angularjs.git
+source.scm.tag=angularjs-1.8.3
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=19
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.webjars
+outputs.0.filename=angularjs-1.8.3.pom
+outputs.0.length=109449
+outputs.0.checksums.sha512=036086daafd00e9272aef5083c8dd54abdf530d7bee325acef53642702d1155ba1f92d7a9f0d3be7f803799493a52f9ce69559544c141669bac1249beadcb9a5
+
+outputs.1.groupId=org.webjars
+outputs.1.filename=angularjs-1.8.3.jar
+outputs.1.length=641692
+outputs.1.checksums.sha512=d7090098dcd02c1047f08c07d36cccded45811145563fafdd3b91f0291004f98a702c5d30fd3a2a6764d06fc84c6a7cd99e2cbdf5bd9f80f93ffbbface393ab3
