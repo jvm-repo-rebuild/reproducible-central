@@ -1,0 +1,20 @@
+[org.webjars:angularjs](https://central.sonatype.com/artifact/org.webjars/angularjs/versions) RB check
+=======
+
+[![Reproducible Builds](https://reproducible-builds.org/images/logos/rb.svg) an independently-verifiable path from source to binary code](https://reproducible-builds.org/)
+
+## Project: [org.webjars:angularjs](https://central.sonatype.com/artifact/org.webjars/angularjs/versions)
+
+Source code: [https://github.com/webjars/angularjs.git](https://github.com/webjars/angularjs.git)
+
+rebuilding **1 releases** of org.webjars:angularjs:
+- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+- 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+
+| version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
+| -- | --------- | ------ | -- |
+| [2.0.0-alpha.22](https://central.sonatype.com/artifact/org.webjars/angularjs/2.0.0-alpha.22/pom) | | | |
+| [2.0.0-alpha.19](https://central.sonatype.com/artifact/org.webjars/angularjs/2.0.0-alpha.19/pom) | | | |
+| [1.8.3](https://central.sonatype.com/artifact/org.webjars/angularjs/1.8.3/pom) | [mvn jdk19](angularjs-1.8.3.buildspec) | [result](angularjs-1.8.3.buildinfo): [2 :heavy_check_mark: ](angularjs-1.8.3.buildcompare) | 734K |
+
+<i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
