@@ -1,0 +1,12 @@
+version=2.4.2
+ok=24
+ko=3
+ignored=0
+okFiles="mima-2.4.2.pom context-2.4.2.pom context-2.4.2.jar context-2.4.2-sources.jar runtime-2.4.2.pom embedded-maven-2.4.2.pom embedded-maven-2.4.2.jar embedded-maven-2.4.2-sources.jar standalone-shared-2.4.2.pom standalone-shared-2.4.2.jar standalone-shared-2.4.2-sources.jar standalone-sisu-2.4.2.pom standalone-sisu-2.4.2.jar standalone-sisu-2.4.2-sources.jar standalone-sisu-uber-2.4.2.pom standalone-sisu-uber-2.4.2-sources.jar standalone-static-2.4.2.pom standalone-static-2.4.2.jar standalone-static-2.4.2-sources.jar standalone-static-uber-2.4.2.pom standalone-static-uber-2.4.2-sources.jar cli-2.4.2.pom cli-2.4.2.jar cli-2.4.2-sources.jar"
+koFiles="standalone-sisu-uber-2.4.2.jar standalone-static-uber-2.4.2.jar cli-2.4.2-uber.jar"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/eu.maveniverse.maven.mima.runtime/standalone-sisu-uber-2.4.2.jar runtime/standalone-sisu-uber/target/standalone-sisu-uber-2.4.2.jar
+# diffoscope target/reference/eu.maveniverse.maven.mima.runtime/standalone-static-uber-2.4.2.jar runtime/standalone-static-uber/target/standalone-static-uber-2.4.2.jar
+# diffoscope target/reference/eu.maveniverse.maven.mima/cli-2.4.2-uber.jar cli/target/cli-2.4.2-uber.jar

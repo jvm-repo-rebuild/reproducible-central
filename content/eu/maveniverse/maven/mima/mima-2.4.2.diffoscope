@@ -1,0 +1,251 @@
+1 / 3 target/reference/eu.maveniverse.maven.mima.runtime/standalone-sisu-uber-2.4.2.jar runtime/standalone-sisu-uber/target/standalone-sisu-uber-2.4.2.jar
+--- target/reference/eu.maveniverse.maven.mima.runtime/standalone-sisu-uber-2.4.2.jar
++++ runtime/standalone-sisu-uber/target/standalone-sisu-uber-2.4.2.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 8465319 bytes, number of entries: 6196
+│ +Zip file size: 8465136 bytes, number of entries: 6196
+│  -rw----     2.0 fat      382 bX defN 23-Nov-16 15:58 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 23-Nov-16 15:58 eu/
+│  -rw----     2.0 fat        0 bl defN 23-Nov-16 15:58 eu/maveniverse/
+│ @@ -15,15 +15,15 @@
+│  -rw----     2.0 fat     4292 bl defN 23-Sep-22 18:12 org/eclipse/aether/AbstractForwardingRepositorySystemSession.class
+│  -rw----     2.0 fat     2146 bl defN 23-Sep-22 18:12 org/eclipse/aether/AbstractRepositoryListener.class
+│ --rw----     2.0 fat     3351 bl defN 23-Sep-22 18:12 org/eclipse/aether/ConfigurationProperties.class
+│ +-rw----     2.0 fat     2882 bl defN 23-Sep-22 18:12 org/eclipse/aether/ConfigurationProperties.class
+│  -rw----     2.0 fat     1244 bl defN 23-Sep-22 18:12 org/eclipse/aether/DefaultRepositoryCache.class
+│  -rw----     2.0 fat      888 bl defN 23-Sep-22 18:12 org/eclipse/aether/DefaultRepositorySystemSession$NullArtifactTypeRegistry.class
+│ @@ -187,15 +187,15 @@
+│  -rw----     2.0 fat      615 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/StringUtils.class
+│  -rw----     2.0 fat        0 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/artifact/
+│ --rw----     2.0 fat     3311 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/artifact/ArtifactIdUtils.class
+│ +-rw----     2.0 fat     3356 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/artifact/ArtifactIdUtils.class
+│  -rw----     2.0 fat     1098 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/artifact/DefaultArtifactTypeRegistry.class
+│  -rw----     2.0 fat     3332 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/artifact/DelegatingArtifact.class
+│ @@ -204,15 +204,15 @@
+│  -rw----     2.0 fat     2922 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/filter/AndDependencyFilter.class
+│  -rw----     2.0 fat     3942 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/filter/DependencyFilterUtils.class
+│ --rw----     2.0 fat     2726 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/filter/ExclusionsDependencyFilter.class
+│ +-rw----     2.0 fat     2730 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/filter/ExclusionsDependencyFilter.class
+│  -rw----     2.0 fat     1615 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/filter/NotDependencyFilter.class
+│  -rw----     2.0 fat     2735 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/filter/OrDependencyFilter.class
+│ @@ -225,15 +225,15 @@
+│  -rw----     2.0 fat     4682 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/graph/selector/AndDependencySelector.class
+│  -rw----     2.0 fat     1516 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/graph/selector/ExclusionDependencySelector$ExclusionComparator.class
+│ --rw----     2.0 fat     5553 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/graph/selector/ExclusionDependencySelector.class
+│ +-rw----     2.0 fat     5568 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/graph/selector/ExclusionDependencySelector.class
+│  -rw----     2.0 fat     2154 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/graph/selector/OptionalDependencySelector.class
+│  -rw----     2.0 fat     4129 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/graph/selector/ScopeDependencySelector.class
+│ @@ -684,15 +684,15 @@
+│  -rw----     2.0 fat     1919 bl defN 23-Sep-22 18:12 org/eclipse/aether/transport/http/HttpTransporter$PutTaskEntity.class
+│  -rw----     2.0 fat     4264 bl defN 23-Sep-22 18:12 org/eclipse/aether/transport/http/HttpTransporter$ResolverServiceUnavailableRetryStrategy.class
+│ --rw----     2.0 fat    31524 bl defN 23-Sep-22 18:12 org/eclipse/aether/transport/http/HttpTransporter.class
+│ +-rw----     2.0 fat    31330 bl defN 23-Sep-22 18:12 org/eclipse/aether/transport/http/HttpTransporter.class
+│  -rw----     2.0 fat     3050 bl defN 23-Sep-22 18:12 org/eclipse/aether/transport/http/HttpTransporterFactory.class
+│  -rw----     2.0 fat     5203 bl defN 23-Sep-22 18:12 org/eclipse/aether/transport/http/LocalState.class
+│ @@ -6191,8 +6191,8 @@
+│  -rw----     2.0 fat       77 bl defN 23-May-06 00:05 META-INF/maven/org.eclipse.sisu/org.eclipse.sisu.inject/pom.properties
+│  -rw----     2.0 fat     6798 bl defN 23-Nov-16 15:58 META-INF/sisu/javax.inject.Named
+│ -6196 files, 17882246 bytes uncompressed, 7220671 bytes compressed:  59.6%
+│ +6196 files, 17881647 bytes uncompressed, 7220488 bytes compressed:  59.6%
+├── org/eclipse/aether/ConfigurationProperties.class
+│ ├── procyon -ec {}
+│ │ @@ -31,21 +31,14 @@
+│ │      public static final boolean DEFAULT_HTTP_PREEMPTIVE_AUTH = false;
+│ │      public static final String HTTP_REUSE_CONNECTIONS = "aether.connector.http.reuseConnections";
+│ │      public static final boolean DEFAULT_HTTP_REUSE_CONNECTIONS = true;
+│ │      public static final String HTTP_CONNECTION_MAX_TTL = "aether.connector.http.connectionMaxTtl";
+│ │      public static final int DEFAULT_HTTP_CONNECTION_MAX_TTL = 300;
+│ │      public static final String HTTP_MAX_CONNECTIONS_PER_ROUTE = "aether.connector.http.maxConnectionsPerRoute";
+│ │      public static final int DEFAULT_HTTP_MAX_CONNECTIONS_PER_ROUTE = 50;
+│ │ -    public static final String HTTP_LOCAL_ADDRESS = "aether.connector.http.localAddress";
+│ │ -    public static final String HTTP_SUPPORT_WEBDAV = "aether.connector.http.supportWebDav";
+│ │ -    public static final boolean DEFAULT_HTTP_SUPPORT_WEBDAV = false;
+│ │ -    public static final String HTTP_PREEMPTIVE_PUT_AUTH = "aether.connector.http.preemptivePutAuth";
+│ │ -    public static final boolean DEFAULT_HTTP_PREEMPTIVE_PUT_AUTH = true;
+│ │ -    public static final String HTTP_EXPECT_CONTINUE = "aether.connector.http.expectContinue";
+│ │ -    public static final boolean DEFAULT_HTTP_EXPECT_CONTINUE = true;
+│ │      public static final String HTTPS_SECURITY_MODE = "aether.connector.https.securityMode";
+│ │      public static final String HTTPS_SECURITY_MODE_DEFAULT = "default";
+│ │      public static final String HTTPS_SECURITY_MODE_INSECURE = "insecure";
+│ │      public static final String PERSISTED_CHECKSUMS = "aether.connector.persistedChecksums";
+│ │      public static final boolean DEFAULT_PERSISTED_CHECKSUMS = true;
+│ │      
+│ │      private ConfigurationProperties() {
+...
+├── org/eclipse/aether/transport/http/HttpTransporter.class
+│ ├── procyon -ec {}
+│ │ @@ -163,18 +163,14 @@
+│ │          final HttpClientBuilder builder = HttpClientBuilder.create().setUserAgent(userAgent).setDefaultSocketConfig(socketConfig).setDefaultRequestConfig(requestConfig).setServiceUnavailableRetryStrategy(serviceUnavailableRetryStrategy).setRetryHandler(retryHandler).setDefaultAuthSchemeRegistry((Lookup)authSchemeRegistry).setConnectionManager(this.state.getConnectionManager()).setConnectionManagerShared(true).setDefaultCredentialsProvider(toCredentialsProvider(this.server, this.repoAuthContext, this.proxy, this.proxyAuthContext)).setProxy(this.proxy);
+│ │          final boolean useSystemProperties = ConfigUtils.getBoolean(session, false, new String[] { "aether.connector.http.useSystemProperties." + repository.getId(), "aether.connector.http.useSystemProperties" });
+│ │          if (useSystemProperties) {
+│ │              HttpTransporter.LOGGER.warn("Transport used Apache HttpClient is instructed to use system properties: this may yield in unwanted side-effects!");
+│ │              HttpTransporter.LOGGER.warn("Please use documented means to configure resolver transport.");
+│ │              builder.useSystemProperties();
+│ │          }
+│ │ -        final boolean expectContinue = ConfigUtils.getBoolean(session, true, new String[] { "aether.connector.http.expectContinue." + repository.getId(), "aether.connector.http.expectContinue" });
+│ │ -        if (!expectContinue) {
+│ │ -            this.state.setExpectContinue(expectContinue);
+│ │ -        }
+│ │          final boolean reuseConnections = ConfigUtils.getBoolean(session, true, new String[] { "aether.connector.http.reuseConnections." + repository.getId(), "aether.connector.http.reuseConnections" });
+│ │          if (!reuseConnections) {
+│ │              builder.setConnectionReuseStrategy((ConnectionReuseStrategy)NoConnectionReuseStrategy.INSTANCE);
+│ │          }
+│ │          this.client = builder.build();
+│ │      }
+
+2 / 3 target/reference/eu.maveniverse.maven.mima.runtime/standalone-static-uber-2.4.2.jar runtime/standalone-static-uber/target/standalone-static-uber-2.4.2.jar
+--- target/reference/eu.maveniverse.maven.mima.runtime/standalone-static-uber-2.4.2.jar
++++ runtime/standalone-static-uber/target/standalone-static-uber-2.4.2.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 3919415 bytes, number of entries: 2756
+│ +Zip file size: 3919232 bytes, number of entries: 2756
+│  -rw----     2.0 fat      386 bX defN 23-Nov-16 15:58 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 23-Nov-16 15:58 eu/
+│  -rw----     2.0 fat        0 bl defN 23-Nov-16 15:58 eu/maveniverse/
+│ @@ -15,15 +15,15 @@
+│  -rw----     2.0 fat     4292 bl defN 23-Sep-22 18:12 org/eclipse/aether/AbstractForwardingRepositorySystemSession.class
+│  -rw----     2.0 fat     2146 bl defN 23-Sep-22 18:12 org/eclipse/aether/AbstractRepositoryListener.class
+│ --rw----     2.0 fat     3351 bl defN 23-Sep-22 18:12 org/eclipse/aether/ConfigurationProperties.class
+│ +-rw----     2.0 fat     2882 bl defN 23-Sep-22 18:12 org/eclipse/aether/ConfigurationProperties.class
+│  -rw----     2.0 fat     1244 bl defN 23-Sep-22 18:12 org/eclipse/aether/DefaultRepositoryCache.class
+│  -rw----     2.0 fat      888 bl defN 23-Sep-22 18:12 org/eclipse/aether/DefaultRepositorySystemSession$NullArtifactTypeRegistry.class
+│ @@ -187,15 +187,15 @@
+│  -rw----     2.0 fat      615 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/StringUtils.class
+│  -rw----     2.0 fat        0 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/artifact/
+│ --rw----     2.0 fat     3311 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/artifact/ArtifactIdUtils.class
+│ +-rw----     2.0 fat     3356 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/artifact/ArtifactIdUtils.class
+│  -rw----     2.0 fat     1098 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/artifact/DefaultArtifactTypeRegistry.class
+│  -rw----     2.0 fat     3332 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/artifact/DelegatingArtifact.class
+│ @@ -204,15 +204,15 @@
+│  -rw----     2.0 fat     2922 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/filter/AndDependencyFilter.class
+│  -rw----     2.0 fat     3942 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/filter/DependencyFilterUtils.class
+│ --rw----     2.0 fat     2726 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/filter/ExclusionsDependencyFilter.class
+│ +-rw----     2.0 fat     2730 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/filter/ExclusionsDependencyFilter.class
+│  -rw----     2.0 fat     1615 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/filter/NotDependencyFilter.class
+│  -rw----     2.0 fat     2735 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/filter/OrDependencyFilter.class
+│ @@ -225,15 +225,15 @@
+│  -rw----     2.0 fat     4682 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/graph/selector/AndDependencySelector.class
+│  -rw----     2.0 fat     1516 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/graph/selector/ExclusionDependencySelector$ExclusionComparator.class
+│ --rw----     2.0 fat     5553 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/graph/selector/ExclusionDependencySelector.class
+│ +-rw----     2.0 fat     5568 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/graph/selector/ExclusionDependencySelector.class
+│  -rw----     2.0 fat     2154 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/graph/selector/OptionalDependencySelector.class
+│  -rw----     2.0 fat     4129 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/graph/selector/ScopeDependencySelector.class
+│ @@ -682,15 +682,15 @@
+│  -rw----     2.0 fat     1919 bl defN 23-Sep-22 18:12 org/eclipse/aether/transport/http/HttpTransporter$PutTaskEntity.class
+│  -rw----     2.0 fat     4264 bl defN 23-Sep-22 18:12 org/eclipse/aether/transport/http/HttpTransporter$ResolverServiceUnavailableRetryStrategy.class
+│ --rw----     2.0 fat    31524 bl defN 23-Sep-22 18:12 org/eclipse/aether/transport/http/HttpTransporter.class
+│ +-rw----     2.0 fat    31330 bl defN 23-Sep-22 18:12 org/eclipse/aether/transport/http/HttpTransporter.class
+│  -rw----     2.0 fat     3050 bl defN 23-Sep-22 18:12 org/eclipse/aether/transport/http/HttpTransporterFactory.class
+│  -rw----     2.0 fat     5203 bl defN 23-Sep-22 18:12 org/eclipse/aether/transport/http/LocalState.class
+│ @@ -2751,8 +2751,8 @@
+│  -rw----     2.0 fat       68 bl defN 21-Sep-08 19:26 META-INF/maven/org.codehaus.plexus/plexus-cipher/pom.properties
+│  -rw----     2.0 fat     6505 bl defN 23-Oct-01 18:38 META-INF/sisu/javax.inject.Named
+│ -2756 files, 8160668 bytes uncompressed, 3361809 bytes compressed:  58.8%
+│ +2756 files, 8160069 bytes uncompressed, 3361626 bytes compressed:  58.8%
+...
+
+3 / 3 target/reference/eu.maveniverse.maven.mima/cli-2.4.2-uber.jar cli/target/cli-2.4.2-uber.jar
+--- target/reference/eu.maveniverse.maven.mima/cli-2.4.2-uber.jar
++++ cli/target/cli-2.4.2-uber.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 5065251 bytes, number of entries: 3299
+│ +Zip file size: 5065223 bytes, number of entries: 3299
+│  -rw----     2.0 fat      377 bX defN 23-Nov-16 15:58 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat        0 bl defN 23-Nov-16 15:58 META-INF/
+│ @@ -1554,15 +1554,15 @@
+│  -rw----     2.0 fat     1827 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/StringDigestUtil.class
+│  -rw----     2.0 fat        0 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/artifact/
+│ --rw----     2.0 fat     3311 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/artifact/ArtifactIdUtils.class
+│ +-rw----     2.0 fat     3356 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/artifact/ArtifactIdUtils.class
+│  -rw----     2.0 fat     1098 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/artifact/DefaultArtifactTypeRegistry.class
+│  -rw----     2.0 fat     1369 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/artifact/SimpleArtifactTypeRegistry.class
+│ @@ -1585,15 +1585,15 @@
+│  -rw----     2.0 fat     4682 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/graph/selector/AndDependencySelector.class
+│  -rw----     2.0 fat     1516 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/graph/selector/ExclusionDependencySelector$ExclusionComparator.class
+│ --rw----     2.0 fat     5553 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/graph/selector/ExclusionDependencySelector.class
+│ +-rw----     2.0 fat     5568 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/graph/selector/ExclusionDependencySelector.class
+│  -rw----     2.0 fat     2154 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/graph/selector/OptionalDependencySelector.class
+│  -rw----     2.0 fat     4129 bl defN 23-Sep-22 18:12 org/eclipse/aether/util/graph/selector/ScopeDependencySelector.class
+│ @@ -2011,15 +2011,15 @@
+│  -rw----     2.0 fat     1919 bl defN 23-Sep-22 18:12 org/eclipse/aether/transport/http/HttpTransporter$PutTaskEntity.class
+│  -rw----     2.0 fat     4264 bl defN 23-Sep-22 18:12 org/eclipse/aether/transport/http/HttpTransporter$ResolverServiceUnavailableRetryStrategy.class
+│ --rw----     2.0 fat    31524 bl defN 23-Sep-22 18:12 org/eclipse/aether/transport/http/HttpTransporter.class
+│ +-rw----     2.0 fat    31330 bl defN 23-Sep-22 18:12 org/eclipse/aether/transport/http/HttpTransporter.class
+│  -rw----     2.0 fat     3050 bl defN 23-Sep-22 18:12 org/eclipse/aether/transport/http/HttpTransporterFactory.class
+│  -rw----     2.0 fat     5203 bl defN 23-Sep-22 18:12 org/eclipse/aether/transport/http/LocalState.class
+│ @@ -3294,8 +3294,8 @@
+│  -rw----     2.0 fat       75 bl defN 23-Nov-16 15:58 META-INF/services/eu.maveniverse.maven.mima.context.Runtime
+│  -rw----     2.0 fat     6505 bl defN 23-Oct-01 18:38 META-INF/sisu/javax.inject.Named
+│ -3299 files, 10839239 bytes uncompressed, 4426047 bytes compressed:  59.2%
+│ +3299 files, 10839105 bytes uncompressed, 4426019 bytes compressed:  59.2%
+├── org/eclipse/aether/util/artifact/ArtifactIdUtils.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -435,38 +435,45 @@
+│ │          88: iconst_0
+│ │          89: ireturn
+│ │          90: aload_0
+│ │          91: invokeinterface #22,  1           // InterfaceMethod org/eclipse/aether/artifact/Artifact.getVersion:()Ljava/lang/String;
+│ │          96: aload_1
+│ │          97: invokeinterface #22,  1           // InterfaceMethod org/eclipse/aether/artifact/Artifact.getVersion:()Ljava/lang/String;
+│ │         102: invokestatic  #63                 // Method java/util/Objects.equals:(Ljava/lang/Object;Ljava/lang/Object;)Z
+│ │ -       105: ireturn
+│ │ +       105: ifne          110
+│ │ +       108: iconst_0
+│ │ +       109: ireturn
+│ │ +       110: iconst_1
+│ │ +       111: ireturn
+│ │        LineNumberTable:
+│ │          line 153: 0
+│ │          line 154: 8
+│ │          line 156: 10
+│ │          line 157: 28
+│ │          line 159: 30
+│ │          line 160: 48
+│ │          line 162: 50
+│ │          line 163: 68
+│ │          line 165: 70
+│ │          line 166: 88
+│ │          line 168: 90
+│ │ +        line 169: 108
+│ │ +        line 171: 110
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │ -            0     106     0 artifact1   Lorg/eclipse/aether/artifact/Artifact;
+│ │ -            0     106     1 artifact2   Lorg/eclipse/aether/artifact/Artifact;
+│ │ -      StackMapTable: number_of_entries = 6
+│ │ +            0     112     0 artifact1   Lorg/eclipse/aether/artifact/Artifact;
+│ │ +            0     112     1 artifact2   Lorg/eclipse/aether/artifact/Artifact;
+│ │ +      StackMapTable: number_of_entries = 7
+│ │          frame_type = 8 /* same */
+│ │          frame_type = 1 /* same */
+│ │          frame_type = 19 /* same */
+│ │          frame_type = 19 /* same */
+│ │          frame_type = 19 /* same */
+│ │          frame_type = 19 /* same */
+│ │ +        frame_type = 19 /* same */
+│ │  
+...
+├── org/eclipse/aether/transport/http/HttpTransporter.class
+│ ├── procyon -ec {}
+│ │ @@ -163,18 +163,14 @@
+│ │          final HttpClientBuilder builder = HttpClientBuilder.create().setUserAgent(userAgent).setDefaultSocketConfig(socketConfig).setDefaultRequestConfig(requestConfig).setServiceUnavailableRetryStrategy(serviceUnavailableRetryStrategy).setRetryHandler(retryHandler).setDefaultAuthSchemeRegistry((Lookup)authSchemeRegistry).setConnectionManager(this.state.getConnectionManager()).setConnectionManagerShared(true).setDefaultCredentialsProvider(toCredentialsProvider(this.server, this.repoAuthContext, this.proxy, this.proxyAuthContext)).setProxy(this.proxy);
+│ │          final boolean useSystemProperties = ConfigUtils.getBoolean(session, false, new String[] { "aether.connector.http.useSystemProperties." + repository.getId(), "aether.connector.http.useSystemProperties" });
+│ │          if (useSystemProperties) {
+│ │              HttpTransporter.LOGGER.warn("Transport used Apache HttpClient is instructed to use system properties: this may yield in unwanted side-effects!");
+│ │              HttpTransporter.LOGGER.warn("Please use documented means to configure resolver transport.");
+│ │              builder.useSystemProperties();
+│ │          }
+│ │ -        final boolean expectContinue = ConfigUtils.getBoolean(session, true, new String[] { "aether.connector.http.expectContinue." + repository.getId(), "aether.connector.http.expectContinue" });
+│ │ -        if (!expectContinue) {
+│ │ -            this.state.setExpectContinue(expectContinue);
+│ │ -        }
+│ │          final boolean reuseConnections = ConfigUtils.getBoolean(session, true, new String[] { "aether.connector.http.reuseConnections." + repository.getId(), "aether.connector.http.reuseConnections" });
+│ │          if (!reuseConnections) {
+│ │              builder.setConnectionReuseStrategy((ConnectionReuseStrategy)NoConnectionReuseStrategy.INSTANCE);
+│ │          }
+│ │          this.client = builder.build();
+│ │      }
+
