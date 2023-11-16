@@ -237,9 +237,9 @@ echo "   - $((globalVersion - globalVersionOk)) releases are only partially repr
 echo "   - on ${countGa} projects, ${countGaOk} have at least one fully reproducible release, $((countGa - countGaOk)) have none" >> tmp/summary-intro.md
 echo >> tmp/summary-intro.md
 
-echo "```" > tmp/stats.md
+echo "\`\`\`" > tmp/stats.md
 sort $stats | uniq -c >> tmp/stats.md
-echo "```" > tmp/stats.md
+echo "\`\`\`" >> tmp/stats.md
 
 lead='^<!-- BEGIN GENERATED RESULTS TABLE -->$'
 tail='^<!-- END GENERATED RESULTS TABLE -->$'

@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2786 releases** of **561 projects**:
-   - **2178** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 608 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **2789 releases** of **561 projects**:
+   - **2180** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 609 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 561 projects, 458 have at least one fully reproducible release, 103 have none
 
 <!-- END GENERATED INTRO -->
@@ -173,7 +173,7 @@ Its objectives are to provide:
 | eu.europa.ted.eforms | [eforms-core-java](content/eu/europa/ted/eforms/eforms-core-java/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
 | | [eforms-sdk](content/eu/europa/ted/eforms/eforms-sdk/README.md) | 13 | 12 :heavy_check_mark: / 1 :warning: |
 | | [efx-toolkit-java](content/eu/europa/ted/eforms/efx-toolkit-java/README.md) | 1 | 1 :warning: |
-| eu.maveniverse.maven.mima | [mima](content/eu/maveniverse/maven/mima/README.md) | 21 | 21 :heavy_check_mark: |
+| eu.maveniverse.maven.mima | [mima](content/eu/maveniverse/maven/mima/README.md) | 22 | 21 :heavy_check_mark: / 1 :warning: |
 | fr.inria.gforge.spoon | [spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 5 | 3 :heavy_check_mark: / 2 :warning: |
 | fr.marcwrobel | [jbanking](content/fr/marcwrobel/jbanking/README.md) | 2 | 2 :heavy_check_mark: |
 | fr.vidal.oss | [atom-jaxb](content/fr/vidal/oss/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
@@ -294,7 +294,7 @@ Its objectives are to provide:
 | | [*.http.parent](content/org/apache/felix/http/parent/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.httpcomponents | [httpcomponents-parent](content/org/apache/httpcomponents/parent/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.jackrabbit.vault | [jackrabbit-filevault](content/org/apache/jackrabbit/filevault/README.md) | 12 | 4 :heavy_check_mark: / 8 :warning: |
-| org.apache.jackrabbit | [filevault-package-maven-plugin](content/org/apache/jackrabbit/filevault-package-maven-plugin/README.md) | 7 | 7 :heavy_check_mark: |
+| org.apache.jackrabbit | [filevault-package-maven-plugin](content/org/apache/jackrabbit/filevault-package-maven-plugin/README.md) | 8 | 8 :heavy_check_mark: |
 | | [jackrabbit-parent](content/org/apache/jackrabbit/jackrabbit/README.md) | 3 | 3 :warning: |
 | org.apache.jena | [jena](content/org/apache/jena/jena/README.md) | 9 | 9 :warning: |
 | org.apache.karaf | [decanter](content/org/apache/karaf/decanter/README.md) | 2 | 2 :warning: |
@@ -528,7 +528,7 @@ Its objectives are to provide:
 | org.jrivard.xmlchai | [xmlchai](content/org/jrivard/xmlchai/README.md) | 2 | 2 :warning: |
 | org.junit | [junit-bom](content/org/junit/junit5/README.md) | 1 | 1 :warning: |
 | org.kocakosm | [jblake2](content/org/kocakosm/jblake2/README.md) | 2 | 2 :heavy_check_mark: |
-| org.liquibase.ext | [liquibase-percona](content/org/liquibase/ext/liquibase-percona/README.md) | 35 | 34 :heavy_check_mark: / 1 :warning: |
+| org.liquibase.ext | [liquibase-percona](content/org/liquibase/ext/liquibase-percona/README.md) | 36 | 35 :heavy_check_mark: / 1 :warning: |
 | org.mockito | [mockito-core](content/org/mockito/mockito-core/README.md) | 18 | 15 :heavy_check_mark: / 3 :warning: |
 | org.moditect.layrry | [layrry-aggregator](content/org/moditect/layrry/README.md) | 1 | 1 :heavy_check_mark: |
 | org.moditect | [moditect](content/org/moditect/moditect/README.md) | 2 | 2 :heavy_check_mark: |
@@ -584,7 +584,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 29 | 29 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **561** | **2786** | **2178** :heavy_check_mark: **608** :warning: |
+| **Count:** | **561** | **2789** | **2180** :heavy_check_mark: **609** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -594,5 +594,77 @@ Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/re
 Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK target release:
 
 <!-- BEGIN GENERATED STATS -->
-
+```
+     22 gradle     11
+     26 mvn         7
+   1028 mvn         8
+      1 mvn         9
+    837 mvn        11
+      2 mvn        11.0.19
+      1 mvn        11.0.6
+      1 mvn        13
+      4 mvn        14
+     10 mvn        15
+     10 mvn        16
+    221 mvn        17
+      2 mvn        17.0.7
+      1 mvn        17.0.8
+      1 mvn        17.0.8.1
+     12 mvn        18
+     24 mvn        19
+     14 mvn        20
+     11 mvn        21
+      2 mvn-3.5.4   8
+      1 mvn-3.8.3  11
+     13 mvn-3.8.5  11
+      8 mvn-3.8.5  17
+      1 mvn-3.8.5  17.0.3
+     37 mvn-3.8.6   8
+      2 mvn-3.8.6  11
+     36 mvn-3.8.6  17
+      2 mvn-3.8.6  18
+      4 mvn-3.8.6  19
+     17 mvn-3.8.7  17
+      4 mvn-3.9.0  11
+      8 mvn-3.9.0  17
+      6 mvn-3.9.1   8
+      1 mvn-3.9.1  11
+     52 mvn-3.9.1  17
+      1 mvn-3.9.1  19
+      6 mvn-3.9.1  20
+      3 mvn-3.9.1  21
+      5 mvn-3.9.2   8
+     16 mvn-3.9.2  17
+      2 mvn-3.9.2  21
+     18 mvn-3.9.3   8
+     31 mvn-3.9.3  11
+      1 mvn-3.9.3  11.0.18
+      4 mvn-3.9.3  11.0.5
+      5 mvn-3.9.3  11.0.6
+      7 mvn-3.9.3  14
+     12 mvn-3.9.3  14.0.2
+      1 mvn-3.9.3  15.0.2
+     41 mvn-3.9.3  17
+      6 mvn-3.9.3  17.0.1
+      3 mvn-3.9.3  17.0.2
+     52 mvn-3.9.3  17.0.3
+      3 mvn-3.9.3  17.0.4
+     18 mvn-3.9.3  17.0.4.1
+     13 mvn-3.9.3  17.0.5
+     20 mvn-3.9.3  17.0.6
+     59 mvn-3.9.3  17.0.7
+      9 mvn-3.9.3  17.0.8
+      1 mvn-3.9.3  17.0.8.1
+      2 mvn-3.9.3  19
+     11 mvn-3.9.3  21
+      5 mvn-3.9.4   8
+      2 mvn-3.9.4  17.0.7
+      2 mvn-3.9.4  20
+      1 mvn-3.9.5  11
+      2 mvn-3.9.5  17.0.7
+      1 mvn-3.9.5  21
+      1 mvn-4.0.0-alpha-7  17
+      1 mvn-4.0.0-alpha-8  21
+      2 sbt         8
+```
 <!-- END GENERATED STATS -->

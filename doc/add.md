@@ -4,9 +4,6 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20231116164810 --> [filevault-package-maven-plugin](../content/org/apache/jackrabbit/filevault-package-maven-plugin/README.md) | [1.3.4](../content/org/apache/jackrabbit/filevault-package-maven-plugin/filevault-package-maven-plugin-1.3.4.buildspec) :heavy_check_mark: | [1.3.6](../content/org/apache/jackrabbit/filevault-package-maven-plugin/filevault-package-maven-plugin-1.3.6.buildspec) | `bin/add-new-release.sh content/org/apache/jackrabbit/filevault-package-maven-plugin/filevault-package-maven-plugin-1.3.4.buildspec 1.3.6` |
-| <!-- 20231116160501 --> [mima](../content/eu/maveniverse/maven/mima/README.md) | [2.4.1](../content/eu/maveniverse/maven/mima/mima-2.4.1.buildspec) :heavy_check_mark: | [2.4.2](../content/eu/maveniverse/maven/mima/mima-2.4.2.buildspec) | `bin/add-new-release.sh content/eu/maveniverse/maven/mima/mima-2.4.1.buildspec 2.4.2` |
-| <!-- 20231116081831 --> [liquibase-percona](../content/org/liquibase/ext/liquibase-percona/README.md) | [4.24.0](../content/org/liquibase/ext/liquibase-percona/liquibase-percona-4.24.0.buildspec) :heavy_check_mark: | [4.25.0](../content/org/liquibase/ext/liquibase-percona/liquibase-percona-4.25.0.buildspec) | `bin/add-new-release.sh content/org/liquibase/ext/liquibase-percona/liquibase-percona-4.24.0.buildspec 4.25.0` |
 | <!-- 20231113170120 --> [angularjs](../content/org/webjars/angularjs/README.md) | [1.8.3](../content/org/webjars/angularjs/angularjs-1.8.3.buildspec) :heavy_check_mark: | [2.0.0-alpha.22](../content/org/webjars/angularjs/angularjs-2.0.0-alpha.22.buildspec) | `bin/add-new-release.sh content/org/webjars/angularjs/angularjs-1.8.3.buildspec 2.0.0-alpha.22` |
 | <!-- 20231112013158 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.2](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec) :heavy_check_mark: | [10.4.3-beta-6](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.3-beta-6.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec 10.4.3-beta-6` |
 | <!-- 20231110095945 --> [orc](../content/org/apache/orc/README.md) | [1.9.1](../content/org/apache/orc/orc-1.9.1.buildspec) :heavy_check_mark: | [1.9.2](../content/org/apache/orc/orc-1.9.2.buildspec) | `bin/add-new-release.sh content/org/apache/orc/orc-1.9.1.buildspec 1.9.2` |
@@ -63,6 +60,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20231116160501 --> [mima](../content/eu/maveniverse/maven/mima/README.md) | 2.4.2 :warning: |
 | <!-- 20231111042458 --> [shiro-root](../content/org/apache/shiro/README.md) | 2.0.0-alpha-4 :warning: |
 | <!-- 20231107092446 --> [johnzon](../content/org/apache/johnzon/README.md) | 2.0.0 :warning: [:memo:](https://github.com/apache/johnzon/pull/114) |
 | <!-- 20231107080910 --> [jackrabbit-parent](../content/org/apache/jackrabbit/jackrabbit/README.md) | 2.21.20 :warning: [:memo:](https://github.com/apache/jackrabbit/pull/139) |
