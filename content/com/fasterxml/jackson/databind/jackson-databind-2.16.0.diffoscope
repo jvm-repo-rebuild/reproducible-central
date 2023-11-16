@@ -1,0 +1,24 @@
+1 / 1 target/reference/com.fasterxml.jackson.core/jackson-databind-2.16.0.module target/publications/maven/module.json
+--- target/reference/com.fasterxml.jackson.core/jackson-databind-2.16.0.module
++++ target/publications/maven/module.json
+├── Pretty-printed
+│┄ Similarity: 0.96875%
+│┄ Differences: {"'createdBy'": "{'maven': {'version': '3.9.4'}}"}
+│ @@ -5,15 +5,15 @@
+│          },
+│          "group": "com.fasterxml.jackson.core",
+│          "module": "jackson-databind",
+│          "version": "2.16.0"
+│      },
+│      "createdBy": {
+│          "maven": {
+│ -            "version": "3.9.3"
+│ +            "version": "3.9.4"
+│          }
+│      },
+│      "formatVersion": "1.1",
+│      "variants": [
+│          {
+│              "attributes": {
+│                  "org.gradle.category": "library",
+
