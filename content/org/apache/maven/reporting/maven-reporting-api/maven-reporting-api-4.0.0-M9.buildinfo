@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Reporting API
+group-id=org.apache.maven.reporting
+artifact-id=maven-reporting-api
+version=4.0.0-M9
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-reporting-api.git
+source.scm.tag=maven-reporting-api-4.0.0-M9
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.maven.reporting
+outputs.0.filename=maven-reporting-api-4.0.0-M9.pom
+outputs.0.length=2842
+outputs.0.checksums.sha512=b5aec5fc7782824053cab534d4dacb32661157c64fe0b02c97cae2dd2694ce124eff63e70116aa716360022cdfa7dad6bc924865b77300482885208a8379909b
+
+outputs.1.groupId=org.apache.maven.reporting
+outputs.1.filename=maven-reporting-api-4.0.0-M9.jar
+outputs.1.length=9791
+outputs.1.checksums.sha512=b50b0c0b4adeada3eb79ddfdbe3f618333b9dacb1b9c6faa62395e31473daf1fc112e98fe0b56f4cab74a3add21c730aefa6ef8b3943e47bb23f9a4d83d55384
+
+outputs.2.groupId=org.apache.maven.reporting
+outputs.2.filename=maven-reporting-api-4.0.0-M9-source-release.zip
+outputs.2.length=20203
+outputs.2.checksums.sha512=2c8402b3a2fbcc30c6f2610aa24d2c02394590358a29dbff6666ec45f701e36796fa467c4807595bfe66e4e96b139dca7a80978c050d01760d2b327b28efb6b5
+
+outputs.3.groupId=org.apache.maven.reporting
+outputs.3.filename=maven-reporting-api-4.0.0-M9-sources.jar
+outputs.3.length=12268
+outputs.3.checksums.sha512=37865f3e606b7f10fa4ce55e480149d770f471735cdb705f7b0ce752c88d9f7a0c67f63d6686e5eef8f66e6479b6d497a157bae2adfa3da673a14a57ea9e2554
+
+outputs.4.groupId=org.apache.maven.reporting
+outputs.4.filename=maven-reporting-api-4.0.0-M9-cyclonedx.xml
+outputs.4.length=4904
+outputs.4.checksums.sha512=becc62c5a2c37de713b0754a8426e2f992e1a73350ed5f4a6b26bd0248f0a5a0b6966242fa9319bf1c0dd5af02b1863047a09b2831173af7fc92ef54185bb06d
+
+outputs.5.groupId=org.apache.maven.reporting
+outputs.5.filename=maven-reporting-api-4.0.0-M9-cyclonedx.json
+outputs.5.length=5697
+outputs.5.checksums.sha512=08b5e242935695406dc42b7a8cd08cd03aab477eeda4b47b26d9ce0a014509513b9f36676a0acb155a6d3587f168540f59d49f5097663391ab44a12959b48aed
