@@ -25,6 +25,7 @@ rebuilding **12 releases** of org.codehaus.mojo:versions-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.16.2](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/2.16.2/pom) | | | |
 | [2.16.1](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/2.16.1/pom) | [mvn jdk17](versions-maven-plugin-2.16.1.buildspec) | [result](versions-maven-plugin-2.16.1.buildinfo): [23 :heavy_check_mark: ](versions-maven-plugin-2.16.1.buildcompare) | 2.1M |
 | [2.16.0](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/2.16.0/pom) | [mvn jdk17](versions-maven-plugin-2.16.0.buildspec) | [result](versions-maven-plugin-2.16.0.buildinfo): [23 :heavy_check_mark: ](versions-maven-plugin-2.16.0.buildcompare) | 2.1M |
 | [2.15.0](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/2.15.0/pom) | [mvn jdk17](versions-maven-plugin-2.15.0.buildspec) | [result](versions-maven-plugin-2.15.0.buildinfo): [23 :heavy_check_mark: ](versions-maven-plugin-2.15.0.buildcompare) | 2.0M |

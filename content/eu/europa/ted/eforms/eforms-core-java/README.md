@@ -13,6 +13,7 @@ rebuilding **4 releases** of eu.europa.ted.eforms:eforms-core-java:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.2.0](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-core-java/1.2.0/pom) | | | |
 | [1.1.0](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-core-java/1.1.0/pom) | [mvn jdk11](eforms-core-java-1.1.0.buildspec) | [result](eforms-core-java-1.1.0.buildinfo): [3 :heavy_check_mark: ](eforms-core-java-1.1.0.buildcompare) | 119K |
 | [1.0.5](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-core-java/1.0.5/pom) | [mvn jdk11](eforms-core-java-1.0.5.buildspec) | [result](eforms-core-java-1.0.5.buildinfo): [3 :heavy_check_mark: ](eforms-core-java-1.0.5.buildcompare) | 118K |
 | [1.0.4](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-core-java/1.0.4/pom) | [mvn jdk11](eforms-core-java-1.0.4.buildspec) | [result](eforms-core-java-1.0.4.buildinfo): [3 :heavy_check_mark: ](eforms-core-java-1.0.4.buildcompare) | 116K |
