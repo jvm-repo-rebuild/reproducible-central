@@ -9,23 +9,23 @@ Source code: [https://github.com/mojohaus/versions-maven-plugin.git](https://git
 
 <details><summary>This project defines 8 modules:</summary>
 
-* [org.codehaus.mojo.versions:versions](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions/2.16.1)
-* [org.codehaus.mojo.versions:versions-api](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions-api/2.16.1)
-* [org.codehaus.mojo.versions:versions-common](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions-common/2.16.1)
-* [org.codehaus.mojo.versions:versions-enforcer](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions-enforcer/2.16.1)
-* [org.codehaus.mojo.versions:versions-model](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions-model/2.16.1)
-* [org.codehaus.mojo.versions:versions-model-report](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions-model-report/2.16.1)
-* [org.codehaus.mojo.versions:versions-test](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions-test/2.16.1)
-* [org.codehaus.mojo:versions-maven-plugin](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/2.16.1)
+* [org.codehaus.mojo.versions:versions](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions/2.16.2)
+* [org.codehaus.mojo.versions:versions-api](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions-api/2.16.2)
+* [org.codehaus.mojo.versions:versions-common](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions-common/2.16.2)
+* [org.codehaus.mojo.versions:versions-enforcer](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions-enforcer/2.16.2)
+* [org.codehaus.mojo.versions:versions-model](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions-model/2.16.2)
+* [org.codehaus.mojo.versions:versions-model-report](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions-model-report/2.16.2)
+* [org.codehaus.mojo.versions:versions-test](https://central.sonatype.com/artifact/org.codehaus.mojo.versions/versions-test/2.16.2)
+* [org.codehaus.mojo:versions-maven-plugin](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/2.16.2)
 </details>
 
-rebuilding **12 releases** of org.codehaus.mojo:versions-maven-plugin:
-- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **13 releases** of org.codehaus.mojo:versions-maven-plugin:
+- **13** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.16.2](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/2.16.2/pom) | | | |
+| [2.16.2](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/2.16.2/pom) | [mvn jdk8](versions-maven-plugin-2.16.2.buildspec) | [result](versions-maven-plugin-2.16.2.buildinfo): [23 :heavy_check_mark: ](versions-maven-plugin-2.16.2.buildcompare) | 2.1M |
 | [2.16.1](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/2.16.1/pom) | [mvn jdk17](versions-maven-plugin-2.16.1.buildspec) | [result](versions-maven-plugin-2.16.1.buildinfo): [23 :heavy_check_mark: ](versions-maven-plugin-2.16.1.buildcompare) | 2.1M |
 | [2.16.0](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/2.16.0/pom) | [mvn jdk17](versions-maven-plugin-2.16.0.buildspec) | [result](versions-maven-plugin-2.16.0.buildinfo): [23 :heavy_check_mark: ](versions-maven-plugin-2.16.0.buildcompare) | 2.1M |
 | [2.15.0](https://central.sonatype.com/artifact/org.codehaus.mojo/versions-maven-plugin/2.15.0/pom) | [mvn jdk17](versions-maven-plugin-2.15.0.buildspec) | [result](versions-maven-plugin-2.15.0.buildinfo): [23 :heavy_check_mark: ](versions-maven-plugin-2.15.0.buildcompare) | 2.0M |
