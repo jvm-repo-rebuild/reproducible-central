@@ -10,7 +10,8 @@ tool=gradle
 jdk=11
 newline=lf
 
-command="./gradlew --no-daemon clean assemble publishToMavenLocal -x test -x signMavenPublication"
+# Gradle 7.2
+command="./gradlew clean assemble -x test -x signMavenPublication --no-daemon --no-build-cache publishToMavenLocal"
 buildinfo=${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope

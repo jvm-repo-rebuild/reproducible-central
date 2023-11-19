@@ -6,6 +6,7 @@ SCRIPTDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 . "${SCRIPTDIR}/bin/includes/logging.sh"
 
 . "${SCRIPTDIR}/bin/includes/fetchSource.sh"
+. "${SCRIPTDIR}/bin/includes/compareOutput.sh"
 
 . "${SCRIPTDIR}/bin/includes/rebuildToolMvn.sh"
 . "${SCRIPTDIR}/bin/includes/rebuildToolSbt.sh"

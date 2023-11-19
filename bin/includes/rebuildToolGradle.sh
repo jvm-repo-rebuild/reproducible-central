@@ -29,8 +29,8 @@ rebuildToolGradle() {
 
   info "Rebuilding using Docker image ${jdkImage}"
 
-  [ -d central ] && \rm -rf central
-  [ -d repository ] && \rm -rf repository
+  local OUTPUTDIR=repository
+  [ -d ${OUTPUTDIR} ] && \rm -rf ${OUTPUTDIR}
 
   local docker_command="docker run -it --rm --name rebuild-central\
     -v $PWD:/var/gradle/app -v $PWD:/var/gradle/.m2 -v $base/.sbt:/var/gradle/.sbt -v $base/.bnd:/.bnd\
@@ -38,75 +38,10 @@ rebuildToolGradle() {
     -e MAVEN_CONFIG=/var/gradle/.m2\
     -w /var/gradle/app"
   local gradle_docker_params="-Duser.home=/var/gradle"
+
   runcommand ${docker_command} ${jdkImage} ${command} ${gradle_docker_params}
+  # output content is expected to be available in repository/ directory
 
-  ### 2. generate .buildinfo and .buildcompare files
-  buildcompare="$(basename ${buildinfo} .buildinfo).buildcompare"
-  info "computing ${buildinfo} and ${buildcompare} from content in repository/ directory"
-
-  echo "name=${display}" > ${buildinfo}
-  echo "group-id=${groupId}" >> ${buildinfo}
-  echo "artifact-id=${artifactId}" >> ${buildinfo}
-  echo >> ${buildinfo}
-  echo "build-tool=gradle" >> ${buildinfo}
-  echo "java.version=${jdk}" >> ${buildinfo}
-  echo "os.name=${newline}" >> ${buildinfo}
-  local ok=()
-  local okFiles=()
-  local ko=()
-  local koFiles=()
-  local n=0
-  local i=0
-  # look for .pom files in repository/ to detect GAV directory
-  for pom in $(find repository -type f -name "*.pom" | cut -c 12- | sort)
-  do
-    ((n++))
-    d=$(dirname $pom)
-    [ -d central/$d ] || mkdir -p central/$d
-    echo >> ${buildinfo}
-    ga_dir=$(dirname $d)
-    g_dir=$(dirname $ga_dir)
-    echo "outputs.${n}.coordinates=$(echo "$g_dir" | sed s_/_._g):$(basename $ga_dir)" >> ${buildinfo}
-    echo >> ${buildinfo}
-
-    i=0
-    # look for artifacts in GAV directory (skip -javadoc.jar)
-    for f in `find repository/$d -maxdepth 1 -type f | grep -v "\-javadoc.jar" | cut -c 12- | sort`
-    do
-      # fetch reference file from Maven Central to central/
-      wget -q https://repo.maven.apache.org/maven2/$f -O central/$f
-
-      echo "outputs.${n}.${i}.filename=$(basename $f)" >> ${buildinfo}
-      echo "outputs.${n}.${i}.length=$(du -b repository/$f | cut -f 1)" >> ${buildinfo}
-      echo "outputs.${n}.${i}.checksums.sha512=$(sha512sum repository/$f | cut -f 1)" >> ${buildinfo}
-      echo >> ${buildinfo}
-      ((i++))
-
-      diff -q repository/$f central/$f > /dev/null
-      if [ $? -eq 0 ]
-      then
-        ok+=($f)
-        okFiles+=( $(basename $f) )
-      else
-        ko+=($f)
-        koFiles+=( $(basename $f) )
-      fi
-    done
-  done
-
-  buildcompare="$(basename ${buildinfo} .buildinfo).buildcompare"
-  echo "version=${version}" > ${buildcompare}
-  echo "ok=${#ok[@]}" >> ${buildcompare}
-  echo "ko=${#ko[@]}" >> ${buildcompare}
-  echo "okFiles=\"${okFiles[@]}\"" >> ${buildcompare}
-  echo "koFiles=\"${koFiles[@]}\"" >> ${buildcompare}
-  # TODO reference_java_version
-  # TODO reference_os_name
-  for f in ${ko[@]}
-  do
-    echo "# diffoscope repository/$f central/$f" >> ${buildcompare}
-  done
-
-  cp ${buildinfo} ../.. || fatal "failed to copy buildinfo file"
-  cp ${buildcompare} ../.. || fatal "failed to copy buildcompare file"
+  # compare against reference from Maven Central and generate buildinfo and buildcompare
+  compareOutput ${OUTPUTDIR}
 }
