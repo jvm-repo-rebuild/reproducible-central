@@ -26,6 +26,7 @@ rebuildToolGradle() {
       jdkImage="openjdk:17-slim"
       ;;
   esac
+  jdkImage="gradle:8-jdk${jdk}"
 
   info "Rebuilding using Docker image ${jdkImage}"
 
