@@ -16,4 +16,4 @@ command="mvn -Prelease clean package package -DskipTests -Dmaven.javadoc.skip -D
 buildinfo=target/${artifactId}-${version}.buildinfo
 
 diffoscope=${artifactId}-${version}.diffoscope
-issue=
+issue=https://github.com/apache/commons-parent/commit/fd1adff1373fbd169525389315198e990e06e3b2
