@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2797 releases** of **561 projects**:
-   - **2188** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 609 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **2801 releases** of **561 projects**:
+   - **2191** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 610 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 561 projects, 458 have at least one fully reproducible release, 103 have none
 
 <!-- END GENERATED INTRO -->
@@ -41,7 +41,7 @@ Its objectives are to provide:
 | com.github.psi-probe | [psi-probe](content/com/github/psi-probe/README.md) | 7 | 6 :heavy_check_mark: / 1 :warning: |
 | com.github.adangel.liquibase.ext | [liquibase-percona](content/com/github/adangel/liquibase/ext/liquibase-percona/README.md) | 1 | 1 :heavy_check_mark: |
 | com.github.hazendaz.7zip | [7zip](content/com/github/hazendaz/7zip/README.md) | 1 | 1 :heavy_check_mark: |
-| com.github.hazendaz | [javabean-tester](content/com/github/hazendaz/javabean-tester/README.md) | 6 | 4 :heavy_check_mark: / 2 :warning: |
+| com.github.hazendaz | [javabean-tester](content/com/github/hazendaz/javabean-tester/README.md) | 7 | 5 :heavy_check_mark: / 2 :warning: |
 | com.github.hazendaz.maven | [directory-maven-plugin](content/com/github/hazendaz/maven/directory-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | [htmlcompressor-maven-plugin](content/com/github/hazendaz/maven/htmlcompressor-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | [whitespace-maven-plugin](content/com/github/hazendaz/maven/whitespace-maven-plugin/README.md) | 2 | 2 :warning: |
@@ -257,7 +257,7 @@ Its objectives are to provide:
 | org.apache.mina | [mina-parent](content/org/apache/mina/README.md) | 5 | 2 :heavy_check_mark: / 3 :warning: |
 | org.apache.orc | [orc](content/org/apache/orc/README.md) | 10 | 8 :heavy_check_mark: / 2 :warning: |
 | org.apache.rat | [apache-rat-project](content/org/apache/rat/README.md) | 2 | 2 :heavy_check_mark: |
-| org.apache.ratis | [ratis](content/org/apache/ratis/README.md) | 1 | 1 :warning: |
+| org.apache.ratis | [ratis](content/org/apache/ratis/README.md) | 2 | 2 :warning: |
 | org.apache.shiro | [shiro-root](content/org/apache/shiro/README.md) | 7 | 7 :warning: |
 | org.apache.sis | [parent](content/org/apache/sis/README.md) | 1 | 1 :warning: |
 | org.apache.sshd | [sshd](content/org/apache/sshd/README.md) | 4 | 4 :warning: |
@@ -353,7 +353,7 @@ Its objectives are to provide:
 | org.apache.maven.reporting | [maven-reporting-api](content/org/apache/maven/reporting/maven-reporting-api/README.md) | 11 | 11 :heavy_check_mark: |
 | | [maven-reporting-exec](content/org/apache/maven/reporting/maven-reporting-exec/README.md) | 13 | 13 :heavy_check_mark: |
 | | [maven-reporting-impl](content/org/apache/maven/reporting/maven-reporting-impl/README.md) | 13 | 13 :heavy_check_mark: |
-| org.apache.maven.resolver | [maven-resolver](content/org/apache/maven/resolver/maven-resolver/README.md) | 27 | 25 :heavy_check_mark: / 2 :warning: |
+| org.apache.maven.resolver | [maven-resolver](content/org/apache/maven/resolver/maven-resolver/README.md) | 28 | 26 :heavy_check_mark: / 2 :warning: |
 | | [maven-resolver-ant-tasks](content/org/apache/maven/resolver/maven-resolver-ant-tasks/README.md) | 5 | 5 :heavy_check_mark: |
 | org.apache.maven | [maven-archiver](content/org/apache/maven/shared/archiver/README.md) | 4 | 4 :heavy_check_mark: |
 | org.apache.maven.shared | [file-management](content/org/apache/maven/shared/file-management/README.md) | 1 | 1 :heavy_check_mark: |
@@ -533,7 +533,7 @@ Its objectives are to provide:
 | org.moditect.layrry | [layrry-aggregator](content/org/moditect/layrry/README.md) | 1 | 1 :heavy_check_mark: |
 | org.moditect | [moditect](content/org/moditect/moditect/README.md) | 2 | 2 :heavy_check_mark: |
 | org.mybatis | [base-bundle-descriptor](content/org/mybatis/base-bundle-descriptor/README.md) | 2 | 2 :heavy_check_mark: |
-| | [mybatis-cdi](content/org/mybatis/cdi/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
+| | [mybatis-cdi](content/org/mybatis/cdi/README.md) | 5 | 4 :heavy_check_mark: / 1 :warning: |
 | org.mybatis.dynamic-sql | [mybatis-dynamic-sql](content/org/mybatis/dynamic-sql/README.md) | 3 | 3 :warning: |
 | org.mybatis.generator | [mybatis-generator](content/org/mybatis/generator/README.md) | 1 | 1 :warning: |
 | org.mybatis | [mybatis-guice](content/org/mybatis/guice/README.md) | 2 | 2 :heavy_check_mark: |
@@ -584,7 +584,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 29 | 29 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **561** | **2797** | **2188** :heavy_check_mark: **609** :warning: |
+| **Count:** | **561** | **2801** | **2191** :heavy_check_mark: **610** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -597,7 +597,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 ```
      22 gradle     11
      26 mvn         7
-   1028 mvn         8
+   1029 mvn         8
       1 mvn         9
     841 mvn        11
       2 mvn        11.0.19
@@ -633,7 +633,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      52 mvn-3.9.1  17
       1 mvn-3.9.1  19
       6 mvn-3.9.1  20
-      3 mvn-3.9.1  21
+      4 mvn-3.9.1  21
       5 mvn-3.9.2   8
      16 mvn-3.9.2  17
       2 mvn-3.9.2  21
@@ -663,7 +663,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       2 mvn-3.9.4  20
       1 mvn-3.9.5  11
       2 mvn-3.9.5  17.0.7
-      1 mvn-3.9.5  21
+      3 mvn-3.9.5  21
       1 mvn-4.0.0-alpha-7  17
       1 mvn-4.0.0-alpha-8  21
       2 sbt         8

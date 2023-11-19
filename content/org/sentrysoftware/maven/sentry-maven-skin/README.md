@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.sentrysoftware.maven:sentry-maven-skin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [6.2.00](https://central.sonatype.com/artifact/org.sentrysoftware.maven/sentry-maven-skin/6.2.00/pom) | | | |
 | [6.1.00](https://central.sonatype.com/artifact/org.sentrysoftware.maven/sentry-maven-skin/6.1.00/pom) | [mvn jdk17](sentry-maven-skin-6.1.00.buildspec) | [result](sentry-maven-skin-6.1.00.buildinfo): [3 :heavy_check_mark: ](sentry-maven-skin-6.1.00.buildcompare) | 2.3M |
 | [6.0.01](https://central.sonatype.com/artifact/org.sentrysoftware.maven/sentry-maven-skin/6.0.01/pom) | [mvn jdk17](sentry-maven-skin-6.0.01.buildspec) | [result](sentry-maven-skin-6.0.01.buildinfo): [3 :heavy_check_mark: ](sentry-maven-skin-6.0.01.buildcompare) | 2.3M |
 
