@@ -1,0 +1,29 @@
+version=3.0.0
+ok=52
+ko=20
+ignored=0
+okFiles="ratis-3.0.0.pom ratis-docs-3.0.0.pom ratis-docs-3.0.0-sources.jar ratis-docs-3.0.0-tests.jar ratis-proto-3.0.0.pom ratis-proto-3.0.0-sources.jar ratis-proto-3.0.0-tests.jar ratis-common-3.0.0.pom ratis-common-3.0.0-sources.jar ratis-common-3.0.0-tests.jar ratis-client-3.0.0.pom ratis-client-3.0.0-sources.jar ratis-client-3.0.0-tests.jar ratis-server-api-3.0.0.pom ratis-server-api-3.0.0-sources.jar ratis-server-api-3.0.0-tests.jar ratis-metrics-api-3.0.0.pom ratis-metrics-api-3.0.0-sources.jar ratis-metrics-api-3.0.0-tests.jar ratis-metrics-default-3.0.0.pom ratis-metrics-default-3.0.0-sources.jar ratis-metrics-default-3.0.0-tests.jar ratis-server-3.0.0.pom ratis-server-3.0.0-sources.jar ratis-server-3.0.0-tests.jar ratis-resource-bundle-3.0.0.pom ratis-resource-bundle-3.0.0-sources.jar ratis-grpc-3.0.0.pom ratis-grpc-3.0.0-sources.jar ratis-grpc-3.0.0-tests.jar ratis-netty-3.0.0.pom ratis-netty-3.0.0-sources.jar ratis-netty-3.0.0-tests.jar ratis-shell-3.0.0.pom ratis-shell-3.0.0-sources.jar ratis-shell-3.0.0-tests.jar ratis-test-3.0.0.pom ratis-test-3.0.0-sources.jar ratis-test-3.0.0-tests.jar ratis-tools-3.0.0.pom ratis-tools-3.0.0-sources.jar ratis-tools-3.0.0-tests.jar ratis-examples-3.0.0.pom ratis-examples-3.0.0-sources.jar ratis-examples-3.0.0-tests.jar ratis-replicated-map-3.0.0.pom ratis-replicated-map-3.0.0-sources.jar ratis-replicated-map-3.0.0-tests.jar ratis-metrics-dropwizard3-3.0.0.pom ratis-metrics-dropwizard3-3.0.0-sources.jar ratis-metrics-dropwizard3-3.0.0-tests.jar ratis-assembly-3.0.0.pom"
+koFiles="ratis-docs-3.0.0.jar ratis-proto-3.0.0.jar ratis-common-3.0.0.jar ratis-client-3.0.0.jar ratis-server-api-3.0.0.jar ratis-metrics-api-3.0.0.jar ratis-metrics-default-3.0.0.jar ratis-server-3.0.0.jar ratis-resource-bundle-3.0.0.jar ratis-grpc-3.0.0.jar ratis-netty-3.0.0.jar ratis-shell-3.0.0.jar ratis-test-3.0.0.jar ratis-tools-3.0.0.jar ratis-examples-3.0.0.jar ratis-examples-3.0.0-shaded.jar ratis-replicated-map-3.0.0.jar ratis-metrics-dropwizard3-3.0.0.jar ratis-assembly-3.0.0.pom ratis-assembly-3.0.0.tar.gz"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.ratis/ratis-docs-3.0.0.jar ratis-docs/target/ratis-docs-3.0.0.jar
+# diffoscope target/reference/org.apache.ratis/ratis-proto-3.0.0.jar ratis-proto/target/ratis-proto-3.0.0.jar
+# diffoscope target/reference/org.apache.ratis/ratis-common-3.0.0.jar ratis-common/target/ratis-common-3.0.0.jar
+# diffoscope target/reference/org.apache.ratis/ratis-client-3.0.0.jar ratis-client/target/ratis-client-3.0.0.jar
+# diffoscope target/reference/org.apache.ratis/ratis-server-api-3.0.0.jar ratis-server-api/target/ratis-server-api-3.0.0.jar
+# diffoscope target/reference/org.apache.ratis/ratis-metrics-api-3.0.0.jar ratis-metrics-api/target/ratis-metrics-api-3.0.0.jar
+# diffoscope target/reference/org.apache.ratis/ratis-metrics-default-3.0.0.jar ratis-metrics-default/target/ratis-metrics-default-3.0.0.jar
+# diffoscope target/reference/org.apache.ratis/ratis-server-3.0.0.jar ratis-server/target/ratis-server-3.0.0.jar
+# diffoscope target/reference/org.apache.ratis/ratis-resource-bundle-3.0.0.jar ratis-resource-bundle/target/ratis-resource-bundle-3.0.0.jar
+# diffoscope target/reference/org.apache.ratis/ratis-grpc-3.0.0.jar ratis-grpc/target/ratis-grpc-3.0.0.jar
+# diffoscope target/reference/org.apache.ratis/ratis-netty-3.0.0.jar ratis-netty/target/ratis-netty-3.0.0.jar
+# diffoscope target/reference/org.apache.ratis/ratis-shell-3.0.0.jar ratis-shell/target/ratis-shell-3.0.0.jar
+# diffoscope target/reference/org.apache.ratis/ratis-test-3.0.0.jar ratis-test/target/ratis-test-3.0.0.jar
+# diffoscope target/reference/org.apache.ratis/ratis-tools-3.0.0.jar ratis-tools/target/ratis-tools-3.0.0.jar
+# diffoscope target/reference/org.apache.ratis/ratis-examples-3.0.0.jar ratis-examples/target/ratis-examples-3.0.0.jar
+# diffoscope target/reference/org.apache.ratis/ratis-examples-3.0.0-shaded.jar ratis-examples/target/ratis-examples-3.0.0-shaded.jar
+# diffoscope target/reference/org.apache.ratis/ratis-replicated-map-3.0.0.jar ratis-replicated-map/target/ratis-replicated-map-3.0.0.jar
+# diffoscope target/reference/org.apache.ratis/ratis-metrics-dropwizard3-3.0.0.jar ratis-metrics-dropwizard3/target/ratis-metrics-dropwizard3-3.0.0.jar
+# diffoscope target/reference/org.apache.ratis/ratis-assembly-3.0.0.pom ratis-assembly/target/ratis-assembly-3.0.0.jar
+# diffoscope target/reference/org.apache.ratis/ratis-assembly-3.0.0.tar.gz ratis-assembly/target/apache-ratis-3.0.0-src.tar.gz

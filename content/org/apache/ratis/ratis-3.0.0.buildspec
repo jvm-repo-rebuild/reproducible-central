@@ -1,7 +1,7 @@
 groupId=org.apache.ratis
 artifactId=ratis
 display=${groupId}:${artifactId}
-version=2.5.1
+version=3.0.0
 
 gitRepo=https://github.com/apache/${artifactId}.git
 gitTag=release-${version}
@@ -13,5 +13,5 @@ newline=lf
 command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-diffoscope=${artifactId}-${version}.diffoscope
+#diffoscope=target/${artifactId}-${version}.diffoscope
 issue=https://issues.apache.org/jira/browse/RATIS-1840
