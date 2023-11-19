@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=mybatis-cdi
+group-id=org.mybatis
+artifact-id=mybatis-cdi
+version=2.0.1
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/mybatis/cdi.git
+source.scm.tag=mybatis-cdi-2.0.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.mybatis
+outputs.0.filename=mybatis-cdi-2.0.1.pom
+outputs.0.length=8112
+outputs.0.checksums.sha512=afc6ac58a6ec1210c25bc39ee271d0e8b354ce9adf725c804acf42208b98fd0abe04191e0de7c112be04a473a33e861d78cf8613b7eacdeb3cb5a81aac99c2c7
+
+outputs.1.groupId=org.mybatis
+outputs.1.filename=mybatis-cdi-2.0.1.jar
+outputs.1.length=29667
+outputs.1.checksums.sha512=7023bd7382e6f3393d2640b80dd4c4f5dd3ebeeb2fb101adec3b74a91ef1558fb0852fda3c762e2be8e5b95f45edc9a87cba46f3c1c22d7210424682492220f4
+
+outputs.2.groupId=org.mybatis
+outputs.2.filename=mybatis-cdi-2.0.1-sources.jar
+outputs.2.length=23908
+outputs.2.checksums.sha512=1443d990132ec4ee9289decb4f3d7fa8ba73fbcb588ba2a0ff8d59d0e9fd809ee4d550900ad5ec27cdfc1ec5509f06b3e85df4438548830cbd462305a391c0a1
