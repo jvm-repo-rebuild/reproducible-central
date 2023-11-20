@@ -72,6 +72,7 @@ rebuilding **3 releases** of org.apache.logging.log4j:log4j:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [3.0.0-alpha1](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/3.0.0-alpha1/pom) | [mvn jdk11.0.18](log4j-3.0.0-alpha1.buildspec) | [result](log4j-3.0.0-alpha1.buildinfo): [175 :heavy_check_mark:  33 :warning:](log4j-3.0.0-alpha1.buildcompare) [:mag:](log4j-3.0.0-alpha1.diffoscope) | 9.6M |
+| [2.22.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/2.22.0/pom) | | | |
 | [2.21.1](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/2.21.1/pom) | [mvn jdk11](log4j-2.21.1.buildspec) | [result](log4j-bom-2.21.1.buildinfo): [91 :heavy_check_mark:  2 :warning:](log4j-bom-2.21.1.buildcompare) [:mag:](log4j-bom-2.21.1.diffoscope) | 6.3M |
 | [2.21.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j/2.21.0/pom) | [mvn jdk11](log4j-2.21.0.buildspec) | [result](log4j-bom-2.21.0.buildinfo): [91 :heavy_check_mark:  5 :warning:](log4j-bom-2.21.0.buildcompare) | 6.8M |
 

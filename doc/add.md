@@ -4,6 +4,10 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20231120134236 --> [io.wcm.parent_toplevel](../content/io/wcm/tooling/README.md) | [2.2.2](../content/io/wcm/tooling/wcm-parent_toplevel-2.2.2.buildspec) :heavy_check_mark: | [2.2.4](../content/io/wcm/tooling/wcm-parent_toplevel-2.2.4.buildspec) | `bin/add-new-release.sh content/io/wcm/tooling/wcm-parent_toplevel-2.2.2.buildspec 2.2.4` |
+| <!-- 20231120104216 --> [org.apache.sling.testing.osgi-mock](../content/org/apache/sling/org.apache.sling.testing.osgi-mock/README.md) | [3.3.10](../content/org/apache/sling/org.apache.sling.testing.osgi-mock/org.apache.sling.testing.osgi-mock-3.3.10.buildspec) :heavy_check_mark: | [3.4.0](../content/org/apache/sling/org.apache.sling.testing.osgi-mock/org.apache.sling.testing.osgi-mock-3.4.0.buildspec) | `bin/add-new-release.sh content/org/apache/sling/org.apache.sling.testing.osgi-mock/org.apache.sling.testing.osgi-mock-3.3.10.buildspec 3.4.0` |
+| <!-- 20231120093556 --> [byte-buddy-parent](../content/net/bytebuddy/README.md) | [1.14.9](../content/net/bytebuddy/byte-buddy-1.14.9.buildspec) :heavy_check_mark: | [1.14.10](../content/net/bytebuddy/byte-buddy-1.14.10.buildspec) | `bin/add-new-release.sh content/net/bytebuddy/byte-buddy-1.14.9.buildspec 1.14.10` |
+| <!-- 20231120090752 --> [log4j-tools-bom](../content/org/apache/logging/log4j/tools/README.md) | [0.5.0](../content/org/apache/logging/log4j/tools/log4j-tools-0.5.0.buildspec) :heavy_check_mark: | [0.6.0](../content/org/apache/logging/log4j/tools/log4j-tools-0.6.0.buildspec) | `bin/add-new-release.sh content/org/apache/logging/log4j/tools/log4j-tools-0.5.0.buildspec 0.6.0` |
 | <!-- 20231119190519 --> [sentry-maven-skin](../content/org/sentrysoftware/maven/sentry-maven-skin/README.md) | [6.1.00](../content/org/sentrysoftware/maven/sentry-maven-skin/sentry-maven-skin-6.1.00.buildspec) :heavy_check_mark: | [6.2.00](../content/org/sentrysoftware/maven/sentry-maven-skin/sentry-maven-skin-6.2.00.buildspec) | `bin/add-new-release.sh content/org/sentrysoftware/maven/sentry-maven-skin/sentry-maven-skin-6.1.00.buildspec 6.2.00` |
 | <!-- 20231119035121 --> [liftwizard](../content/io/liftwizard/README.md) | [2.1.3](../content/io/liftwizard/liftwizard-2.1.3.buildspec) :heavy_check_mark: | [2.1.4](../content/io/liftwizard/liftwizard-2.1.4.buildspec) | `bin/add-new-release.sh content/io/liftwizard/liftwizard-2.1.3.buildspec 2.1.4` |
 | <!-- 20231119013327 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.2](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec) :heavy_check_mark: | [10.4.3-beta-7](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.3-beta-7.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec 10.4.3-beta-7` |
@@ -16,10 +20,12 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20231120154917 --> [mybatis-spring](../content/org/mybatis/mybatis-spring/README.md) | [3.0.2](../content/org/mybatis/mybatis-spring/mybatis-spring-3.0.2.buildspec) :warning: [:memo:](https://github.com/mybatis/parent/pull/472) | [3.0.3](../content/org/mybatis/mybatis-spring/mybatis-spring-3.0.3.buildspec) | `bin/add-new-release.sh content/org/mybatis/mybatis-spring/mybatis-spring-3.0.2.buildspec 3.0.3` |
+| <!-- 20231120152737 --> [io.wcm.wcm.ui.clientlibs](../content/io/wcm/io.wcm.wcm/ui/clientlibs/README.md) | [1.2.2](../content/io/wcm/io.wcm.wcm/ui/clientlibs/wcm-ui-clientlibs-1.2.2.buildspec) :warning: | [1.3.0](../content/io/wcm/io.wcm.wcm/ui/clientlibs/wcm-ui-clientlibs-1.3.0.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.wcm/ui/clientlibs/wcm-ui-clientlibs-1.2.2.buildspec 1.3.0` |
+| <!-- 20231120093346 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.2.0](../content/org/apache/camel/camel/camel-4.2.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.2.0` |
 | <!-- 20231118012424 --> [opentelemetry-instrumentation-api](../content/io/opentelemetry/instrumentation/README.md) | [1.17.0-alpha](../content/io/opentelemetry/instrumentation/opentelemetry-1.17.0-alpha.buildspec) :warning: | [1.32.0](../content/io/opentelemetry/instrumentation/opentelemetry-1.32.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/instrumentation/opentelemetry-1.17.0-alpha.buildspec 1.32.0` |
 | <!-- 20231116233050 --> [migratedb](../content/de/unentscheidbar/migratedb/README.md) | [0.3.0](../content/de/unentscheidbar/migratedb/migratedb-0.3.0.buildspec) :warning: | [1.0.0](../content/de/unentscheidbar/migratedb/migratedb-1.0.0.buildspec) | `bin/add-new-release.sh content/de/unentscheidbar/migratedb/migratedb-0.3.0.buildspec 1.0.0` |
 | <!-- 20231115233347 --> [commons-compress](../content/org/apache/commons/compress/README.md) | [1.24.0](../content/org/apache/commons/compress/commons-compress-1.24.0.buildspec) :warning: [:memo:](https://github.com/apache/commons-parent/commit/fd1adff1373fbd169525389315198e990e06e3b2) | [1.25.0](../content/org/apache/commons/compress/commons-compress-1.25.0.buildspec) | `bin/add-new-release.sh content/org/apache/commons/compress/commons-compress-1.24.0.buildspec 1.25.0` |
-| <!-- 20231114163626 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.2.0](../content/org/apache/camel/camel/camel-4.2.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.2.0` |
 | <!-- 20231114130457 --> [html-formatter](../content/io/cucumber/html-formatter/README.md) | [20.2.0](../content/io/cucumber/html-formatter/html-formatter-20.2.0.buildspec) :warning: [:memo:](https://github.com/cucumber/html-formatter/issues/207) | [21.0.0](../content/io/cucumber/html-formatter/html-formatter-21.0.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/html-formatter/html-formatter-20.2.0.buildspec 21.0.0` |
 | <!-- 20231114003142 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.35.3](../content/org/finos/legend/engine/legend-engine-4.35.3.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.35.3` |
 | <!-- 20231113183848 --> [opentelemetry-sdk](../content/io/opentelemetry/java/README.md) | [1.14.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.14.0.buildspec) :warning: [:memo:](https://github.com/open-telemetry/opentelemetry-java/issues/4488) | [1.32.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.32.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/java/opentelemetry-sdk-1.14.0.buildspec 1.32.0` |
@@ -62,6 +68,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20231120080419 --> [log4j](../content/org/apache/logging/log4j/log4j/README.md) | 3.0.0-alpha1 :warning: |
 | <!-- 20231118025823 --> [ratis](../content/org/apache/ratis/README.md) | 3.0.0 :warning: [:memo:](https://issues.apache.org/jira/browse/RATIS-1840) |
 | <!-- 20231116160501 --> [mima](../content/eu/maveniverse/maven/mima/README.md) | 2.4.2 :warning: |
 | <!-- 20231111042458 --> [shiro-root](../content/org/apache/shiro/README.md) | 2.0.0-alpha-4 :warning: |
@@ -71,7 +78,6 @@ New Releases To Add
 | <!-- 20231104100154 --> [jackrabbit-filevault](../content/org/apache/jackrabbit/filevault/README.md) | 3.7.2 :warning: |
 | <!-- 20231030134542 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 7.0.10 :warning: |
 | <!-- 20231027141156 --> [artemis-pom](../content/org/apache/activemq/artemis/README.md) | 2.31.2 :warning: |
-| <!-- 20231024115727 --> [log4j](../content/org/apache/logging/log4j/log4j/README.md) | 3.0.0-alpha1 :warning: |
 | <!-- 20231021094255 --> [git-commit-id-maven-plugin](../content/io/github/git-commit-id/README.md) | 7.0.0 :warning: |
 | <!-- 20231020082051 --> [sshd](../content/org/apache/sshd/README.md) | 2.11.0 :warning: |
 | <!-- 20231019043144 --> [xmlsec](../content/org/apache/santuario/xmlsec/README.md) | 4.0.0 :warning: |
@@ -103,7 +109,6 @@ New Releases To Add
 | <!-- 20230524001811 --> [whitespace-maven-plugin](../content/com/github/hazendaz/maven/whitespace-maven-plugin/README.md) | 1.3.0 :warning: |
 | <!-- 20230523070720 --> [compiler](../content/org/apache/royale/compiler/README.md) | 0.9.10 :warning: |
 | <!-- 20230520101311 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | 3.0.2 :warning: |
-| <!-- 20230519171804 --> [mybatis-spring](../content/org/mybatis/mybatis-spring/README.md) | 3.0.2 :warning: [:memo:](https://github.com/mybatis/parent/pull/472) |
 | <!-- 20230510171047 --> [Apache-Synapse](../content/org/apache/synapse/README.md) | 3.0.2 :warning: [:memo:](https://issues.apache.org/jira/browse/SYNAPSE-1128) |
 | <!-- 20230509201111 --> [flatten-maven-plugin](../content/org/codehaus/mojo/flatten-maven-plugin/README.md) | 1.5.0 :warning: [:memo:](https://github.com/eclipse/sisu.inject/issues/91) |
 | <!-- 20230506054952 --> [maven-gpg-plugin](../content/org/apache/maven/plugins/maven-gpg-plugin/README.md) | 3.1.0 :warning: [:memo:](https://issues.apache.org/jira/browse/MGPG-98) |
@@ -144,7 +149,6 @@ New Releases To Add
 | <!-- 20220214110014 --> [org.apache.sling.feature.extension.unpack](../content/org/apache/sling/org.apache.sling.feature.extension.unpack/README.md) | 0.3.0 :warning: |
 | <!-- 20211221090833 --> [scriptingbundle-maven-plugin](../content/org/apache/sling/scriptingbundle-maven-plugin/README.md) | 0.5.2 :warning: |
 | <!-- 20211212220158 --> [org.apache.sling.commons.messaging.mail](../content/org/apache/sling/org.apache.sling.commons.messaging.mail/README.md) | 2.0.0 :warning: |
-| <!-- 20211108142409 --> [io.wcm.wcm.ui.clientlibs](../content/io/wcm/io.wcm.wcm/ui/clientlibs/README.md) | 1.2.2 :warning: |
 | <!-- 20211018122406 --> [org.apache.sling.commons.crypto](../content/org/apache/sling/org.apache.sling.commons.crypto/README.md) | 1.1.0 :warning: [:memo:](https://issues.apache.org/jira/browse/SLING-11907) |
 | <!-- 20210810045740 --> [org.apache.sling.installer.core](../content/org/apache/sling/org.apache.sling.installer.core/README.md) | 3.12.0 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-installer-core/pull/9) |
 | <!-- 20210201192138 --> [parent](../content/com/ongres/stringprep/README.md) | 2.0 :warning: [:memo:](https://gitlab.com/ongresinc/stringprep/-/commit/208cd7056b32e27678570f22add616e045af5573#442292b8a7efeabbe4cc176709b833b1792140ec_86_84) |
