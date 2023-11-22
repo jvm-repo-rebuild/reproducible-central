@@ -1,0 +1,9 @@
+version=2.0.0-M16
+ok=25
+ko=0
+ignored=0
+okFiles="doxia-sitetools-2.0.0-M16.pom doxia-sitetools-2.0.0-M16-site.xml doxia-sitetools-2.0.0-M16-source-release.zip doxia-sitetools-2.0.0-M16-cyclonedx.xml doxia-sitetools-2.0.0-M16-cyclonedx.json doxia-site-model-2.0.0-M16.pom doxia-site-model-2.0.0-M16.jar doxia-site-model-2.0.0-M16-sources.jar doxia-site-model-2.0.0-M16-cyclonedx.xml doxia-site-model-2.0.0-M16-cyclonedx.json doxia-skin-model-2.0.0-M16.pom doxia-skin-model-2.0.0-M16.jar doxia-skin-model-2.0.0-M16-sources.jar doxia-skin-model-2.0.0-M16-cyclonedx.xml doxia-skin-model-2.0.0-M16-cyclonedx.json doxia-integration-tools-2.0.0-M16.pom doxia-integration-tools-2.0.0-M16.jar doxia-integration-tools-2.0.0-M16-sources.jar doxia-integration-tools-2.0.0-M16-cyclonedx.xml doxia-integration-tools-2.0.0-M16-cyclonedx.json doxia-site-renderer-2.0.0-M16.pom doxia-site-renderer-2.0.0-M16.jar doxia-site-renderer-2.0.0-M16-sources.jar doxia-site-renderer-2.0.0-M16-cyclonedx.xml doxia-site-renderer-2.0.0-M16-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
