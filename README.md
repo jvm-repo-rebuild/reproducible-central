@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2801 releases** of **561 projects**:
-   - **2191** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **2810 releases** of **561 projects**:
+   - **2200** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 610 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 561 projects, 458 have at least one fully reproducible release, 103 have none
 
@@ -178,7 +178,7 @@ Its objectives are to provide:
 | fr.marcwrobel | [jbanking](content/fr/marcwrobel/jbanking/README.md) | 2 | 2 :heavy_check_mark: |
 | fr.vidal.oss | [atom-jaxb](content/fr/vidal/oss/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | io.jooby | [jooby](content/io/jooby/README.md) | 2 | 2 :warning: |
-| io.liftwizard | [liftwizard](content/io/liftwizard/README.md) | 44 | 44 :heavy_check_mark: |
+| io.liftwizard | [liftwizard](content/io/liftwizard/README.md) | 45 | 45 :heavy_check_mark: |
 | io.cucumber | [cucumber-expressions](content/io/cucumber/cucumber-expressions/README.md) | 4 | 4 :heavy_check_mark: |
 | | [cucumber-jvm](content/io/cucumber/cucumber-jvm/README.md) | 9 | 9 :heavy_check_mark: |
 | | [gherkin](content/io/cucumber/gherkin/README.md) | 7 | 7 :heavy_check_mark: |
@@ -209,7 +209,7 @@ Its objectives are to provide:
 | io.opentelemetry | [opentelemetry-sdk](content/io/opentelemetry/java/README.md) | 1 | 1 :warning: |
 | io.smallrye | [jandex-parent](content/io/smallrye/jandex/README.md) | 4 | 4 :warning: |
 | io.wcm | [*.caconfig.editor.parent](content/io/wcm/io.wcm.caconfig/README.md) | 4 | 4 :warning: |
-| | [*.parent_toplevel](content/io/wcm/tooling/README.md) | 13 | 13 :heavy_check_mark: |
+| | [*.parent_toplevel](content/io/wcm/tooling/README.md) | 14 | 14 :heavy_check_mark: |
 | | [*.handler.link](content/io/wcm/io.wcm.handler/link/README.md) | 4 | 4 :warning: |
 | | [*.handler.media](content/io/wcm/io.wcm.handler/media/README.md) | 8 | 5 :heavy_check_mark: / 3 :warning: |
 | | [*.handler.richtext](content/io/wcm/io.wcm.handler/richtext/README.md) | 4 | 4 :warning: |
@@ -279,7 +279,7 @@ Its objectives are to provide:
 | | [commons-csv](content/org/apache/commons/csv/README.md) | 1 | 1 :heavy_check_mark: |
 | commons-net | [*](content/org/apache/commons/net/README.md) | 2 | 2 :warning: |
 | org.apache.commons | [commons-numbers-parent](content/org/apache/commons/numbers/README.md) | 1 | 1 :heavy_check_mark: |
-| | [commons-parent](content/org/apache/commons/parent/README.md) | 12 | 11 :heavy_check_mark: / 1 :warning: |
+| | [commons-parent](content/org/apache/commons/parent/README.md) | 13 | 12 :heavy_check_mark: / 1 :warning: |
 | | [commons-rng-parent](content/org/apache/commons/rng/README.md) | 1 | 1 :heavy_check_mark: |
 | | [commons-statistics-parent](content/org/apache/commons/statistics/README.md) | 1 | 1 :warning: |
 | org.apache.cxf.build-utils | [cxf-build-utils](content/org/apache/cxf/cxf-build-utils/README.md) | 1 | 1 :heavy_check_mark: |
@@ -314,7 +314,7 @@ Its objectives are to provide:
 | org.apache.maven.surefire | [surefire](content/org/apache/maven/surefire/README.md) | 10 | 6 :heavy_check_mark: / 4 :warning: |
 | org.apache.maven.doxia | [doxia](content/org/apache/maven/doxia/doxia/README.md) | 12 | 12 :heavy_check_mark: |
 | | [doxia-converter](content/org/apache/maven/doxia/doxia-converter/README.md) | 1 | 1 :heavy_check_mark: |
-| | [doxia-sitetools](content/org/apache/maven/doxia/doxia-sitetools/README.md) | 15 | 15 :heavy_check_mark: |
+| | [doxia-sitetools](content/org/apache/maven/doxia/doxia-sitetools/README.md) | 16 | 16 :heavy_check_mark: |
 | org.apache.maven.plugin-testing | [maven-plugin-testing](content/org/apache/maven/plugin-testing/maven-plugin-testing/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.maven.plugin-tools | [maven-plugin-tools](content/org/apache/maven/plugin-tools/maven-plugin-tools/README.md) | 10 | 10 :heavy_check_mark: |
 | org.apache.maven.plugins | [maven-antrun-plugin](content/org/apache/maven/plugins/maven-antrun-plugin/README.md) | 2 | 2 :heavy_check_mark: |
@@ -337,7 +337,7 @@ Its objectives are to provide:
 | | [maven-jlink-plugin](content/org/apache/maven/plugins/maven-jlink-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | [maven-pdf-plugin](content/org/apache/maven/plugins/maven-pdf-plugin/README.md) | 3 | 3 :heavy_check_mark: |
 | | [maven-pmd-plugin](content/org/apache/maven/plugins/maven-pmd-plugin/README.md) | 9 | 9 :heavy_check_mark: |
-| | [maven-project-info-reports-plugin](content/org/apache/maven/plugins/maven-project-info-reports-plugin/README.md) | 12 | 11 :heavy_check_mark: / 1 :warning: |
+| | [maven-project-info-reports-plugin](content/org/apache/maven/plugins/maven-project-info-reports-plugin/README.md) | 13 | 12 :heavy_check_mark: / 1 :warning: |
 | | [maven-rar-plugin](content/org/apache/maven/plugins/maven-rar-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | [maven-release-plugin](content/org/apache/maven/plugins/maven-release-plugin/README.md) | 6 | 6 :heavy_check_mark: |
 | | [maven-remote-resources-plugin](content/org/apache/maven/plugins/maven-remote-resources-plugin/README.md) | 2 | 2 :heavy_check_mark: |
@@ -465,7 +465,7 @@ Its objectives are to provide:
 | | [*.testing.caconfig-mock-plugin](content/org/apache/sling/org.apache.sling.testing.caconfig-mock-plugin/README.md) | 6 | 6 :heavy_check_mark: |
 | | [*.testing.clients](content/org/apache/sling/org.apache.sling.testing.clients/README.md) | 8 | 8 :heavy_check_mark: |
 | | [*.testing.jcr-mock](content/org/apache/sling/org.apache.sling.testing.jcr-mock/README.md) | 7 | 7 :heavy_check_mark: |
-| | [*.testing.osgi-mock](content/org/apache/sling/org.apache.sling.testing.osgi-mock/README.md) | 6 | 6 :heavy_check_mark: |
+| | [*.testing.osgi-mock](content/org/apache/sling/org.apache.sling.testing.osgi-mock/README.md) | 7 | 7 :heavy_check_mark: |
 | | [*.testing.resourceresolver-mock](content/org/apache/sling/org.apache.sling.testing.resourceresolver-mock/README.md) | 8 | 7 :heavy_check_mark: / 1 :warning: |
 | | [*.testing.sling-mock](content/org/apache/sling/org.apache.sling.testing.sling-mock/README.md) | 10 | 10 :heavy_check_mark: |
 | | [*.testing.sling-mock-oak](content/org/apache/sling/org.apache.sling.testing.sling-mock-oak/README.md) | 6 | 6 :heavy_check_mark: |
@@ -539,7 +539,7 @@ Its objectives are to provide:
 | org.mybatis | [mybatis-guice](content/org/mybatis/guice/README.md) | 2 | 2 :heavy_check_mark: |
 | | [mybatis](content/org/mybatis/mybatis/README.md) | 4 | 1 :heavy_check_mark: / 3 :warning: |
 | | [mybatis-2-spring](content/org/mybatis/mybatis-2-spring/README.md) | 1 | 1 :heavy_check_mark: |
-| | [mybatis-spring](content/org/mybatis/mybatis-spring/README.md) | 4 | 1 :heavy_check_mark: / 3 :warning: |
+| | [mybatis-spring](content/org/mybatis/mybatis-spring/README.md) | 5 | 2 :heavy_check_mark: / 3 :warning: |
 | | [mybatis2](content/org/mybatis/mybatis2/README.md) | 1 | 1 :heavy_check_mark: |
 | | [mybatis-parent](content/org/mybatis/parent/README.md) | 7 | 7 :heavy_check_mark: |
 | org.mybatis.scala | [mybatis-scala-parent_2.13](content/org/mybatis/scala/README.md) | 1 | 1 :heavy_check_mark: |
@@ -576,7 +576,7 @@ Its objectives are to provide:
 | | [redoc](content/org/webjars/redoc/README.md) | 2 | 2 :heavy_check_mark: |
 | | [swagger-ui](content/org/webjars/swagger-ui/README.md) | 33 | 33 :heavy_check_mark: |
 | | [uswds](content/org/webjars/uswds/README.md) | 1 | 1 :heavy_check_mark: |
-| | [webjars-locator](content/org/webjars/webjars-locator/README.md) | 3 | 3 :heavy_check_mark: |
+| | [webjars-locator](content/org/webjars/webjars-locator/README.md) | 5 | 5 :heavy_check_mark: |
 | | [webjars-locator-core](content/org/webjars/webjars-locator-core/README.md) | 4 | 4 :heavy_check_mark: |
 | pl.com.labaj | [auto-record](content/pl/com/labaj/auto-record/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | pl.com.labaj.autorecord | [auto-record](content/pl/com/labaj/autorecord/auto-record/README.md) | 3 | 1 :heavy_check_mark: / 2 :warning: |
@@ -584,7 +584,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 29 | 29 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **561** | **2801** | **2191** :heavy_check_mark: **610** :warning: |
+| **Count:** | **561** | **2810** | **2200** :heavy_check_mark: **610** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -597,16 +597,16 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 ```
      22 gradle     11
      26 mvn         7
-   1029 mvn         8
+   1032 mvn         8
       1 mvn         9
-    841 mvn        11
+    843 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.6
       1 mvn        13
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    222 mvn        17
+    223 mvn        17
       2 mvn        17.0.7
       1 mvn        17.0.8
       1 mvn        17.0.8.1
@@ -637,7 +637,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn-3.9.2   8
      16 mvn-3.9.2  17
       2 mvn-3.9.2  21
-     19 mvn-3.9.3   8
+     21 mvn-3.9.3   8
      31 mvn-3.9.3  11
       1 mvn-3.9.3  11.0.18
       4 mvn-3.9.3  11.0.5
@@ -662,6 +662,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       2 mvn-3.9.4  17.0.7
       2 mvn-3.9.4  20
       1 mvn-3.9.5  11
+      1 mvn-3.9.5  17
       2 mvn-3.9.5  17.0.7
       3 mvn-3.9.5  21
       1 mvn-4.0.0-alpha-7  17

@@ -20,6 +20,7 @@ rebuilding **4 releases** of io.wcm:io.wcm.caconfig.editor.parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.15.8](https://central.sonatype.com/artifact/io.wcm/io.wcm.caconfig.editor.parent/1.15.8/pom) | | | |
 | [1.15.6](https://central.sonatype.com/artifact/io.wcm/io.wcm.caconfig.editor.parent/1.15.6/pom) | | | |
 | [1.15.4](https://central.sonatype.com/artifact/io.wcm/io.wcm.caconfig.editor.parent/1.15.4/pom) | | | |
 | [1.15.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.caconfig.editor.parent/1.15.2/pom) | | | |
