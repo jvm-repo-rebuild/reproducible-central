@@ -22,6 +22,7 @@ rebuilding **2 releases** of org.mybatis.spring.boot:mybatis-spring-boot:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.3](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot/3.0.3/pom) | | | |
 | [3.0.2](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot/3.0.2/pom) | [mvn jdk17](mybatis-spring-boot-3.0.2.buildspec) | [result](mybatis-spring-boot-3.0.2.buildinfo): [10 :heavy_check_mark:  1 :warning:](mybatis-spring-boot-3.0.2.buildcompare) [:mag:](mybatis-spring-boot-3.0.2.diffoscope) | 98K |
 | [3.0.1](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot/3.0.1/pom) | | | |
 | [3.0.0](https://central.sonatype.com/artifact/org.mybatis.spring.boot/mybatis-spring-boot/3.0.0/pom) | | | |
