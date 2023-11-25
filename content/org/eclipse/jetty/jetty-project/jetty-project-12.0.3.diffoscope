@@ -1,0 +1,266 @@
+# need to reuse timestamp already set previously
+1 / 7 target/reference/org.eclipse.jetty/jetty-start-12.0.3.jar jetty-core/jetty-start/target/jetty-start-12.0.3.jar
+--- target/reference/org.eclipse.jetty/jetty-start-12.0.3.jar
++++ jetty-core/jetty-start/target/jetty-start-12.0.3.jar
+├── org/eclipse/jetty/start/build.properties
+│ @@ -1,4 +1,4 @@
+│  buildNumber=a873259fd5af141dedaa6c7fa8fe8fbdedce0d61
+│ -timestamp=1698377345604
+│ +timestamp=1698377122284
+│  version=12.0.3
+│  scmUrl=scm:git:https://github.com/eclipse/jetty.project.git/jetty-core/jetty-start
+
+2 / 7 target/reference/org.eclipse.jetty/jetty-start-12.0.3-shaded.jar jetty-core/jetty-start/target/jetty-start-12.0.3-shaded.jar
+--- target/reference/org.eclipse.jetty/jetty-start-12.0.3-shaded.jar
++++ jetty-core/jetty-start/target/jetty-start-12.0.3-shaded.jar
+├── org/eclipse/jetty/start/build.properties
+│ @@ -1,4 +1,4 @@
+│  buildNumber=a873259fd5af141dedaa6c7fa8fe8fbdedce0d61
+│ -timestamp=1698377345604
+│ +timestamp=1698377122284
+│  version=12.0.3
+│  scmUrl=scm:git:https://github.com/eclipse/jetty.project.git/jetty-core/jetty-start
+
+3 / 7 target/reference/org.eclipse.jetty.ee10/jetty-ee10-home-12.0.3-sources.tar.gz jetty-ee10/jetty-ee10-home/target/jetty-ee10-home-12.0.3-sources.tar.gz
+--- target/reference/org.eclipse.jetty.ee10/jetty-ee10-home-12.0.3-sources.tar.gz
++++ jetty-ee10/jetty-ee10-home/target/jetty-ee10-home-12.0.3-sources.tar.gz
+├── jetty-ee10-home-12.0.3-sources.tar
+│ ├── file list
+│ │ @@ -4,15 +4,15 @@
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2023-06-05 23:12:49.000000 lib/ee10-glassfish-jstl/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2023-06-05 23:12:49.000000 lib/ee10-jaspi/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2023-06-05 23:12:49.000000 lib/ee10-websocket/
+│ │  -rw-r--r--   0 root         (0) root         (0)   183527 2023-06-05 23:12:49.000000 lib/ee10-annotations/asm-9.6-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    41449 2023-06-05 23:12:49.000000 lib/ee10-annotations/asm-analysis-9.6-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    82940 2023-06-05 23:12:49.000000 lib/ee10-annotations/asm-commons-9.6-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    76628 2023-06-05 23:12:49.000000 lib/ee10-annotations/asm-tree-9.6-sources.jar
+│ │ --rw-------   0 root         (0) root         (0)    37373 2023-06-05 23:12:49.000000 lib/ee10-annotations/jakarta.annotation-api-2.1.1-sources.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)    37373 2023-06-05 23:12:49.000000 lib/ee10-annotations/jakarta.annotation-api-2.1.1-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)  2301849 2023-06-05 23:12:49.000000 lib/ee10-apache-jsp/org.eclipse.jdt.ecj-3.33.0-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   151321 2023-06-05 23:12:49.000000 lib/ee10-apache-jsp/org.mortbay.jasper.apache-el-10.1.7-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)  1032977 2023-06-05 23:12:49.000000 lib/ee10-apache-jsp/org.mortbay.jasper.apache-jsp-10.1.7-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    60771 2023-06-05 23:12:49.000000 lib/ee10-glassfish-jstl/jakarta.servlet.jsp.jstl.jakarta.servlet.jsp.jstl-api-3.0.0-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)   439183 2023-06-05 23:12:49.000000 lib/ee10-glassfish-jstl/org.glassfish.web.jakarta.servlet.jsp.jstl-3.0.1-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    63662 2023-06-05 23:12:49.000000 lib/ee10-jaspi/jakarta.authentication-api-3.0.0-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    31449 2023-06-05 23:12:49.000000 lib/ee10-websocket/jakarta.websocket-api-2.1.1-sources.jar
+
+4 / 7 target/reference/org.eclipse.jetty.ee10/jetty-ee10-home-12.0.3-sources.zip jetty-ee10/jetty-ee10-home/target/jetty-ee10-home-12.0.3-sources.zip
+--- target/reference/org.eclipse.jetty.ee10/jetty-ee10-home-12.0.3-sources.zip
++++ jetty-ee10/jetty-ee10-home/target/jetty-ee10-home-12.0.3-sources.zip
+├── zipinfo {}
+│ @@ -5,15 +5,15 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 lib/ee10-glassfish-jstl/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 lib/ee10-jaspi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 lib/ee10-websocket/
+│  -rw-r--r--  2.0 unx   183527 b- defN 23-Jun-05 23:12 lib/ee10-annotations/asm-9.6-sources.jar
+│  -rw-r--r--  2.0 unx    41449 b- defN 23-Jun-05 23:12 lib/ee10-annotations/asm-analysis-9.6-sources.jar
+│  -rw-r--r--  2.0 unx    82940 b- defN 23-Jun-05 23:12 lib/ee10-annotations/asm-commons-9.6-sources.jar
+│  -rw-r--r--  2.0 unx    76628 b- defN 23-Jun-05 23:12 lib/ee10-annotations/asm-tree-9.6-sources.jar
+│ --rw-------  2.0 unx    37373 b- defN 23-Jun-05 23:12 lib/ee10-annotations/jakarta.annotation-api-2.1.1-sources.jar
+│ +-rw-r--r--  2.0 unx    37373 b- defN 23-Jun-05 23:12 lib/ee10-annotations/jakarta.annotation-api-2.1.1-sources.jar
+│  -rw-r--r--  2.0 unx  2301849 b- defN 23-Jun-05 23:12 lib/ee10-apache-jsp/org.eclipse.jdt.ecj-3.33.0-sources.jar
+│  -rw-r--r--  2.0 unx   151321 b- defN 23-Jun-05 23:12 lib/ee10-apache-jsp/org.mortbay.jasper.apache-el-10.1.7-sources.jar
+│  -rw-r--r--  2.0 unx  1032977 b- defN 23-Jun-05 23:12 lib/ee10-apache-jsp/org.mortbay.jasper.apache-jsp-10.1.7-sources.jar
+│  -rw-r--r--  2.0 unx    60771 b- defN 23-Jun-05 23:12 lib/ee10-glassfish-jstl/jakarta.servlet.jsp.jstl.jakarta.servlet.jsp.jstl-api-3.0.0-sources.jar
+│  -rw-r--r--  2.0 unx   439183 b- defN 23-Jun-05 23:12 lib/ee10-glassfish-jstl/org.glassfish.web.jakarta.servlet.jsp.jstl-3.0.1-sources.jar
+│  -rw-r--r--  2.0 unx    63662 b- defN 23-Jun-05 23:12 lib/ee10-jaspi/jakarta.authentication-api-3.0.0-sources.jar
+│  -rw-r--r--  2.0 unx    31449 b- defN 23-Jun-05 23:12 lib/ee10-websocket/jakarta.websocket-api-2.1.1-sources.jar
+
+5 / 7 target/reference/org.eclipse.jetty/jetty-home-12.0.3.tar.gz jetty-home/target/jetty-home-12.0.3.tar.gz
+--- target/reference/org.eclipse.jetty/jetty-home-12.0.3.tar.gz
++++ jetty-home/target/jetty-home-12.0.3.tar.gz
+├── jetty-home-12.0.3.tar
+│ ├── jetty-home-12.0.3/start.jar
+│ │ ├── org/eclipse/jetty/start/build.properties
+│ │ │ @@ -1,4 +1,4 @@
+│ │ │  buildNumber=a873259fd5af141dedaa6c7fa8fe8fbdedce0d61
+│ │ │ -timestamp=1698377345604
+│ │ │ +timestamp=1698377122284
+│ │ │  version=12.0.3
+│ │ │  scmUrl=scm:git:https://github.com/eclipse/jetty.project.git/jetty-core/jetty-start
+
+6 / 7 target/reference/org.eclipse.jetty/jetty-home-12.0.3.zip jetty-home/target/jetty-home-12.0.3.zip
+--- target/reference/org.eclipse.jetty/jetty-home-12.0.3.zip
++++ jetty-home/target/jetty-home-12.0.3.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 33683123 bytes, number of entries: 625
+│ +Zip file size: 33683121 bytes, number of entries: 625
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 jetty-home-12.0.3/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 jetty-home-12.0.3/bin/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 jetty-home-12.0.3/etc/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 jetty-home-12.0.3/etc/cdi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 jetty-home-12.0.3/etc/jaspi/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 jetty-home-12.0.3/etc/sessions/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 jetty-home-12.0.3/etc/sessions/file/
+│ @@ -620,8 +620,8 @@
+│  -r--r--r--  2.0 unx      985 b- defN 23-Jun-05 23:12 jetty-home-12.0.3/modules/unixdomain-http.mod
+│  -r--r--r--  2.0 unx      393 b- defN 23-Jun-05 23:12 jetty-home-12.0.3/modules/websocket-jetty-client.mod
+│  -r--r--r--  2.0 unx      392 b- defN 23-Jun-05 23:12 jetty-home-12.0.3/modules/websocket-jetty.mod
+│  -r--r--r--  2.0 unx      540 b- defN 23-Jun-05 23:12 jetty-home-12.0.3/modules/well-known.mod
+│  -r--r--r--  2.0 unx      346 b- defN 23-Jun-05 23:12 jetty-home-12.0.3/modules/work.mod
+│  -r--r--r--  2.0 unx   182833 b- defN 23-Jun-05 23:12 jetty-home-12.0.3/start.jar
+│  -r-xr-xr-x  2.0 unx    20250 b- defN 23-Jun-05 23:12 jetty-home-12.0.3/bin/jetty.sh
+│ -625 files, 37284375 bytes uncompressed, 33573343 bytes compressed:  10.0%
+│ +625 files, 37284375 bytes uncompressed, 33573341 bytes compressed:  10.0%
+├── jetty-home-12.0.3/start.jar
+│ ├── org/eclipse/jetty/start/build.properties
+│ │ @@ -1,4 +1,4 @@
+│ │  buildNumber=a873259fd5af141dedaa6c7fa8fe8fbdedce0d61
+│ │ -timestamp=1698377345604
+│ │ +timestamp=1698377122284
+│ │  version=12.0.3
+│ │  scmUrl=scm:git:https://github.com/eclipse/jetty.project.git/jetty-core/jetty-start
+
+7 / 7 target/reference/org.eclipse.jetty.documentation/jetty-documentation-12.0.3-html.zip documentation/jetty-documentation/target/jetty-documentation-12.0.3-html.zip
+--- target/reference/org.eclipse.jetty.documentation/jetty-documentation-12.0.3-html.zip
++++ documentation/jetty-documentation/target/jetty-documentation-12.0.3-html.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 4280391 bytes, number of entries: 179
+│ +Zip file size: 4277587 bytes, number of entries: 179
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 12.0.3/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 12.0.3/contribution-guide/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 12.0.3/contribution-guide/images/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 12.0.3/old_docs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 12.0.3/old_docs/alpn/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 12.0.3/old_docs/annotations/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 12.0.3/old_docs/architecture/
+│ @@ -100,41 +100,41 @@
+│  -rw-r--r--  2.0 unx   281731 b- defN 23-Jun-05 23:12 12.0.3/old_docs/images/intellij_new_remote_config.png
+│  -rw-r--r--  2.0 unx   555356 b- defN 23-Jun-05 23:12 12.0.3/old_docs/images/intellij_select_debug.png
+│  -rw-r--r--  2.0 unx   405149 b- defN 23-Jun-05 23:12 12.0.3/old_docs/images/intellij_set_breakpoint.png
+│  -rw-r--r--  2.0 unx     4502 b- defN 23-Jun-05 23:12 12.0.3/old_docs/images/jetty-high-level-architecture.png
+│  -rw-r--r--  2.0 unx     9971 b- defN 23-Jun-05 23:12 12.0.3/old_docs/images/modules-9.3-simplified.dot
+│  -rw-r--r--  2.0 unx   306780 b- defN 23-Jun-05 23:12 12.0.3/old_docs/images/modules-9.3-simplified.png
+│  -rw-r--r--  2.0 unx   138765 b- defN 23-Jun-05 23:12 12.0.3/old_docs/images/windows-service-jetty.png
+│ --rw-r--r--  2.0 unx  1060504 b- defN 23-Jun-05 23:12 12.0.3/old_docs/index.html
+│ +-rw-r--r--  2.0 unx  1062182 b- defN 23-Jun-05 23:12 12.0.3/old_docs/index.html
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/.asciidoctor/diagram/diag-plantuml-md5-0f37d1d5b12f280e1587df6f3d528998.png.cache
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/.asciidoctor/diagram/diag-plantuml-md5-176305f848d18dc8b0c4ef7bd331705d.png.cache
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/.asciidoctor/diagram/diag-plantuml-md5-2830e38460d606111888c5df2a645163.png.cache
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/.asciidoctor/diagram/diag-plantuml-md5-65af24ee568fd7e4489f99596aaa20b1.png.cache
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/.asciidoctor/diagram/diag-plantuml-md5-70817cc5c7137abc9759cdcd3edbb658.png.cache
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/.asciidoctor/diagram/diag-plantuml-md5-7387dfbb6f9fb9cfa951a697aca488a8.png.cache
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/.asciidoctor/diagram/diag-plantuml-md5-792f4cd700f2b5af8fedd7b0249d25b4.png.cache
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/.asciidoctor/diagram/diag-plantuml-md5-8a7fb4bb9c84453a4bf01a24558e8026.png.cache
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/.asciidoctor/diagram/diag-plantuml-md5-9f323b812fd1edc8217715ca0c2ba8e9.png.cache
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/.asciidoctor/diagram/diag-plantuml-md5-cb8a854642d32c964b17f0a090ef16e3.png.cache
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/.asciidoctor/diagram/diag-plantuml-md5-e2488cc783b3434076c5a44ee7f19a2b.png.cache
+│  -rw-r--r--  2.0 unx    29039 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/asciidoctor.css
+│  -rw-r--r--  2.0 unx     3483 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/coderay-asciidoctor.css
+│ --rw-r--r--  2.0 unx    12902 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/images/diag-plantuml-md5-0f37d1d5b12f280e1587df6f3d528998.png
+│ --rw-r--r--  2.0 unx    14727 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/images/diag-plantuml-md5-176305f848d18dc8b0c4ef7bd331705d.png
+│ --rw-r--r--  2.0 unx    24655 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/images/diag-plantuml-md5-2830e38460d606111888c5df2a645163.png
+│ --rw-r--r--  2.0 unx    18437 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/images/diag-plantuml-md5-65af24ee568fd7e4489f99596aaa20b1.png
+│ --rw-r--r--  2.0 unx    12219 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/images/diag-plantuml-md5-70817cc5c7137abc9759cdcd3edbb658.png
+│ --rw-r--r--  2.0 unx     7570 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/images/diag-plantuml-md5-7387dfbb6f9fb9cfa951a697aca488a8.png
+│ --rw-r--r--  2.0 unx    12344 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/images/diag-plantuml-md5-792f4cd700f2b5af8fedd7b0249d25b4.png
+│ --rw-r--r--  2.0 unx    18397 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/images/diag-plantuml-md5-8a7fb4bb9c84453a4bf01a24558e8026.png
+│ --rw-r--r--  2.0 unx     8505 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/images/diag-plantuml-md5-9f323b812fd1edc8217715ca0c2ba8e9.png
+│ --rw-r--r--  2.0 unx    22847 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/images/diag-plantuml-md5-cb8a854642d32c964b17f0a090ef16e3.png
+│ --rw-r--r--  2.0 unx    18683 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/images/diag-plantuml-md5-e2488cc783b3434076c5a44ee7f19a2b.png
+│ +-rw-r--r--  2.0 unx    12674 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/images/diag-plantuml-md5-0f37d1d5b12f280e1587df6f3d528998.png
+│ +-rw-r--r--  2.0 unx    14820 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/images/diag-plantuml-md5-176305f848d18dc8b0c4ef7bd331705d.png
+│ +-rw-r--r--  2.0 unx    24393 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/images/diag-plantuml-md5-2830e38460d606111888c5df2a645163.png
+│ +-rw-r--r--  2.0 unx    19073 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/images/diag-plantuml-md5-65af24ee568fd7e4489f99596aaa20b1.png
+│ +-rw-r--r--  2.0 unx    12230 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/images/diag-plantuml-md5-70817cc5c7137abc9759cdcd3edbb658.png
+│ +-rw-r--r--  2.0 unx     7540 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/images/diag-plantuml-md5-7387dfbb6f9fb9cfa951a697aca488a8.png
+│ +-rw-r--r--  2.0 unx    12508 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/images/diag-plantuml-md5-792f4cd700f2b5af8fedd7b0249d25b4.png
+│ +-rw-r--r--  2.0 unx    18553 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/images/diag-plantuml-md5-8a7fb4bb9c84453a4bf01a24558e8026.png
+│ +-rw-r--r--  2.0 unx     8754 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/images/diag-plantuml-md5-9f323b812fd1edc8217715ca0c2ba8e9.png
+│ +-rw-r--r--  2.0 unx    23125 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/images/diag-plantuml-md5-cb8a854642d32c964b17f0a090ef16e3.png
+│ +-rw-r--r--  2.0 unx    18813 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/images/diag-plantuml-md5-e2488cc783b3434076c5a44ee7f19a2b.png
+│  -rw-r--r--  2.0 unx   268442 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/images/jmc-server-dump.png
+│ --rw-r--r--  2.0 unx   770426 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/index.html
+│ +-rw-r--r--  2.0 unx   770636 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/index.html
+│  -rw-r--r--  2.0 unx     1322 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/modules/module-requestlog.xsl
+│  -rw-r--r--  2.0 unx       95 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/start/jpms.mod
+│  -rw-r--r--  2.0 unx      104 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/start/jvm.mod
+│  -rw-r--r--  2.0 unx      300 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/start/postgresql.mod
+│  -rw-r--r--  2.0 unx      116 b- defN 23-Jun-05 23:12 12.0.3/operations-guide/troubleshooting/remote-debug.mod
+│  -rw-r--r--  2.0 unx      116 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/.asciidoctor/diagram/diag-plantuml-md5-00328cb3d2df8187923760470ae4b579.png.cache
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/.asciidoctor/diagram/diag-plantuml-md5-05cfcead1245ff0fbcf3af8873998cee.png.cache
+│ @@ -152,30 +152,30 @@
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/.asciidoctor/diagram/diag-plantuml-md5-a895f6364296eee265530e1d9fa7bed2.png.cache
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/.asciidoctor/diagram/diag-plantuml-md5-ae4b86cecdafb2b8e1afb35b06f359a1.png.cache
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/.asciidoctor/diagram/diag-plantuml-md5-d8ecf025f2e851a45b4d2132df024ecb.png.cache
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/.asciidoctor/diagram/diag-plantuml-md5-e7fd1b7ba54e07262bd726c9fe979363.png.cache
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/.asciidoctor/diagram/diag-plantuml-md5-fada5fbf7628dc70c998680727a069bd.png.cache
+│  -rw-r--r--  2.0 unx    29039 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/asciidoctor.css
+│  -rw-r--r--  2.0 unx     3483 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/coderay-asciidoctor.css
+│ --rw-r--r--  2.0 unx     4936 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-00328cb3d2df8187923760470ae4b579.png
+│ --rw-r--r--  2.0 unx     8162 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-05cfcead1245ff0fbcf3af8873998cee.png
+│ --rw-r--r--  2.0 unx    34491 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-0b755eaa8b60b08e2a661025a11715e1.png
+│ --rw-r--r--  2.0 unx    10607 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-136e615bb97d8356ceb17a851c86817a.png
+│ --rw-r--r--  2.0 unx    32276 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-1ed737fca2f0d63f7ebac20672a2e222.png
+│ --rw-r--r--  2.0 unx    12289 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-2186143f423f5fb7696a7e6e67d9a227.png
+│ --rw-r--r--  2.0 unx    10749 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-24a0ef88281611e6f6ebbb9d395e2e68.png
+│ --rw-r--r--  2.0 unx    33716 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-36ebfa7e56c0c8222dcb2e860f97a06f.png
+│ --rw-r--r--  2.0 unx    12197 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-3e23a5cd9673dbe358271d004cc0d714.png
+│ --rw-r--r--  2.0 unx    26571 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-4760564aad148998e116357e8f3a5450.png
+│ --rw-r--r--  2.0 unx    20511 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-483677f5d04b6727cafec45f5d1e212a.png
+│ --rw-r--r--  2.0 unx    12610 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-624524d586ade94fb3c1aaff2ce724bc.png
+│ --rw-r--r--  2.0 unx     9007 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-8bbf1fa0b84011383e811eaf9e630100.png
+│ --rw-r--r--  2.0 unx    16513 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-a895f6364296eee265530e1d9fa7bed2.png
+│ --rw-r--r--  2.0 unx    10544 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-ae4b86cecdafb2b8e1afb35b06f359a1.png
+│ --rw-r--r--  2.0 unx    10295 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-d8ecf025f2e851a45b4d2132df024ecb.png
+│ --rw-r--r--  2.0 unx    23142 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-e7fd1b7ba54e07262bd726c9fe979363.png
+│ --rw-r--r--  2.0 unx    30460 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-fada5fbf7628dc70c998680727a069bd.png
+│ +-rw-r--r--  2.0 unx     4800 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-00328cb3d2df8187923760470ae4b579.png
+│ +-rw-r--r--  2.0 unx     8384 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-05cfcead1245ff0fbcf3af8873998cee.png
+│ +-rw-r--r--  2.0 unx    34575 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-0b755eaa8b60b08e2a661025a11715e1.png
+│ +-rw-r--r--  2.0 unx    10865 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-136e615bb97d8356ceb17a851c86817a.png
+│ +-rw-r--r--  2.0 unx    33007 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-1ed737fca2f0d63f7ebac20672a2e222.png
+│ +-rw-r--r--  2.0 unx    11943 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-2186143f423f5fb7696a7e6e67d9a227.png
+│ +-rw-r--r--  2.0 unx    10887 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-24a0ef88281611e6f6ebbb9d395e2e68.png
+│ +-rw-r--r--  2.0 unx    33908 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-36ebfa7e56c0c8222dcb2e860f97a06f.png
+│ +-rw-r--r--  2.0 unx    12276 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-3e23a5cd9673dbe358271d004cc0d714.png
+│ +-rw-r--r--  2.0 unx    27016 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-4760564aad148998e116357e8f3a5450.png
+│ +-rw-r--r--  2.0 unx    20814 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-483677f5d04b6727cafec45f5d1e212a.png
+│ +-rw-r--r--  2.0 unx    12144 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-624524d586ade94fb3c1aaff2ce724bc.png
+│ +-rw-r--r--  2.0 unx     8804 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-8bbf1fa0b84011383e811eaf9e630100.png
+│ +-rw-r--r--  2.0 unx    15679 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-a895f6364296eee265530e1d9fa7bed2.png
+│ +-rw-r--r--  2.0 unx    10059 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-ae4b86cecdafb2b8e1afb35b06f359a1.png
+│ +-rw-r--r--  2.0 unx     9359 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-d8ecf025f2e851a45b4d2132df024ecb.png
+│ +-rw-r--r--  2.0 unx    23732 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-e7fd1b7ba54e07262bd726c9fe979363.png
+│ +-rw-r--r--  2.0 unx    30935 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/images/diag-plantuml-md5-fada5fbf7628dc70c998680727a069bd.png
+│  -rw-r--r--  2.0 unx  1085764 b- defN 23-Jun-05 23:12 12.0.3/programming-guide/index.html
+│  -rw-r--r--  2.0 unx      685 b- defN 23-Jun-05 23:12 12.0.3/styles.css
+│  -rw-r--r--  2.0 unx      759 b- defN 23-Jun-05 23:12 12.0.3/toc.css
+│  -rw-r--r--  2.0 unx     4508 b- defN 23-Jun-05 23:12 12.0.3/toc.js
+│ -179 files, 7138739 bytes uncompressed, 4246901 bytes compressed:  40.5%
+│ +179 files, 7141935 bytes uncompressed, 4244097 bytes compressed:  40.6%
+├── 12.0.3/contribution-guide/index.html
+│ @@ -15,15 +15,15 @@
+│  <body class="article toc2 toc-left">
+│  <div id="header">
+│  <h1><a href="https://eclipse.org/jetty">Eclipse Jetty</a>: Contribution Guide</h1>
+│  <div class="details">
+│  <span id="author" class="author">Jetty Developers</span><br>
+│  <span id="email" class="email"><a href="mailto:jetty-dev@eclipse.org">jetty-dev@eclipse.org</a></span><br>
+│  <span id="revnumber">version 12.0.3,</span>
+│ -<span id="revdate">2023-10-26</span>
+│ +<span id="revdate">2023-11-25</span>
+│  </div>
+│  <div id="toc" class="toc2">
+│  <div id="toctitle">Contribution Guide</div>
+│  <ul class="sectlevel1">
+│  <li><a href="#cg-intro">Introduction</a>
+│  <ul class="sectlevel2">
+│  <li><a href="#cg-intro-mailing-lists">Mailing Lists</a></li>
+│ @@ -1243,12 +1243,12 @@
+│  </div>
+│  </div>
+│  </div>
+│  </div>
+│  <div id="footer">
+│  <div id="footer-text">
+│  Version 12.0.3<br>
+│ -Last updated 2023-08-02 16:58:24 -0500
+│ +Last updated 2023-09-03 23:52:10 +0200
+│  </div>
+│  </div>
+│  </body>
+│  </html>
+...

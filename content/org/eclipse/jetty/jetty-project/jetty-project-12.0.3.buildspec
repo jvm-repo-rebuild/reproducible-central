@@ -1,0 +1,19 @@
+groupId=org.eclipse.jetty
+artifactId=jetty-project
+display=${groupId}:${artifactId}
+version=12.0.3
+
+gitRepo=https://github.com/eclipse/jetty.project.git
+gitTag=jetty-${version}
+
+tool=mvn-3.9.3
+jdk=21
+newline=lf
+umask=022
+
+timestamp=1698377122284
+command="SHELL mvn -Peclipse-release clean package -DskipTests -Dgpg.skip -Dtimestamp=${timestamp}"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=
