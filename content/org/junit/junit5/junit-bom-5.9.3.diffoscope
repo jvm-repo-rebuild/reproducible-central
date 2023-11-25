@@ -1,0 +1,122 @@
+1 / 38 repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar central/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar
+--- repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar
++++ central/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar
+├── zipinfo {}
+│ @@ -1,7 +1,7 @@
+│ -Zip file size: 6362 bytes, number of entries: 5
+│ +Zip file size: 6360 bytes, number of entries: 5
+│  -rw----     2.0 fat        0 bX defN 80-Feb-01 00:00 META-INF/
+│ --rw----     2.0 fat      626 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat      622 bl defN 80-Feb-01 00:00 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat      316 bl defN 80-Feb-01 00:00 META-INF/LICENSE-notice.md
+│  -rw----     2.0 fat    14235 bl defN 80-Feb-01 00:00 META-INF/LICENSE.md
+│  -rw----     2.0 fat      269 bl defN 80-Feb-01 00:00 module-info.class
+│ -5 files, 15446 bytes uncompressed, 5690 bytes compressed:  63.2%
+│ +5 files, 15442 bytes uncompressed, 5688 bytes compressed:  63.2%
+├── META-INF/MANIFEST.MF
+│ @@ -1,17 +1,17 @@
+│  Manifest-Version: 1.0
+
+│ -Build-Date: 2023-11-25
+
+│ +Build-Date: 2023-04-26
+
+│  Build-Revision: bd7d03f517dfca3730fbd123c5fd4d4b70930129 
+
+│ -Build-Time: 08:01:42.196+0000
+
+│ +Build-Time: 08:27:29.511+0200
+
+│  Built-By: JUnit Team
+
+│  Bundle-ManifestVersion: 2
+
+│  Bundle-Name: JUnit Jupiter (Aggregator)
+
+│  Bundle-SymbolicName: junit-jupiter
+
+│  Bundle-Version: 5.9.3
+
+│ -Created-By: 17.0.9 (Eclipse Adoptium 17.0.9+9)
+
+│ +Created-By: 17.0.5 (BellSoft 17.0.5+8-LTS)
+
+│  Implementation-Title: junit-jupiter
+
+│  Implementation-Vendor: junit.org
+
+│  Implementation-Version: 5.9.3
+
+│  Import-Package: org.junit.platform.commons.logging;status=INTERNAL;ver
+
+│   sion="[1.9,2)"
+
+│  Specification-Title: junit-jupiter
+
+│  Specification-Vendor: junit.org
+
+2 / 38 repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.module central/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.module
+--- repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.module
++++ central/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.module
+├── Pretty-printed
+│┄ Similarity: 0.9972098214285714%
+│┄ Differences: {"'variants'": "{0: {'files': {0: {'size': 6360, 'sha512': "
+│┄                "'8f5adb51b260bb5d2fe935cc303e14f1be5eb11f197b9952ae05df0591a0918d8f3eb43d73dcfa973b54719977c6fd58657bc6b63c06a6001d4cd211543b09df', "
+│┄                "'sha256': '672e1798b7d53378bf408cb634fc856cfefc17d741e55f26d6886383863e218a', "
+│┄                "'sha1': '72e840501e1550e9799c9a5cc9483d7d6b29e0ba', 'md5': "
+│┄                "'9b0ee14a392cf1b021ab369dde22504b'}}}, 1: {'files': {0: {'size': 6360, 'sha512': "
+│┄                "'8f5adb51b260 […]
+│ @@ -47,20 +47,20 @@
+│                      "version": {
+│                          "requires": "5.9.3"
+│                      }
+│                  }
+│              ],
+│              "files": [
+│                  {
+│ -                    "md5": "3f350c4aadfc3678abe98de857a1060c",
+│ +                    "md5": "9b0ee14a392cf1b021ab369dde22504b",
+│                      "name": "junit-jupiter-5.9.3.jar",
+│ -                    "sha1": "28866898b1714462cbf08bcb57ab5fd7dcb08857",
+│ -                    "sha256": "6b881ce61b61d6528785f97346880ae7473c470a4d6df71d36a921cf64d75e27",
+│ -                    "sha512": "3610e3b3041929aa0383876cbdc4345fd8895650b4351ed4b0a0a1319a83c02716f511f5f70cb200db1955a1ae7a90bef7d245854f1352f3cad652a6a1851adf",
+│ -                    "size": 6362,
+│ +                    "sha1": "72e840501e1550e9799c9a5cc9483d7d6b29e0ba",
+│ +                    "sha256": "672e1798b7d53378bf408cb634fc856cfefc17d741e55f26d6886383863e218a",
+│ +                    "sha512": "8f5adb51b260bb5d2fe935cc303e14f1be5eb11f197b9952ae05df0591a0918d8f3eb43d73dcfa973b54719977c6fd58657bc6b63c06a6001d4cd211543b09df",
+│ +                    "size": 6360,
+│                      "url": "junit-jupiter-5.9.3.jar"
+│                  }
+│              ],
+│              "name": "apiElements"
+│          },
+│          {
+│              "attributes": {
+│ @@ -102,20 +102,20 @@
+│                      "version": {
+│                          "requires": "5.9.3"
+│                      }
+│                  }
+│              ],
+│              "files": [
+│                  {
+│ -                    "md5": "3f350c4aadfc3678abe98de857a1060c",
+│ +                    "md5": "9b0ee14a392cf1b021ab369dde22504b",
+│                      "name": "junit-jupiter-5.9.3.jar",
+│ -                    "sha1": "28866898b1714462cbf08bcb57ab5fd7dcb08857",
+│ -                    "sha256": "6b881ce61b61d6528785f97346880ae7473c470a4d6df71d36a921cf64d75e27",
+│ -                    "sha512": "3610e3b3041929aa0383876cbdc4345fd8895650b4351ed4b0a0a1319a83c02716f511f5f70cb200db1955a1ae7a90bef7d245854f1352f3cad652a6a1851adf",
+│ -                    "size": 6362,
+│ +                    "sha1": "72e840501e1550e9799c9a5cc9483d7d6b29e0ba",
+│ +                    "sha256": "672e1798b7d53378bf408cb634fc856cfefc17d741e55f26d6886383863e218a",
+│ +                    "sha512": "8f5adb51b260bb5d2fe935cc303e14f1be5eb11f197b9952ae05df0591a0918d8f3eb43d73dcfa973b54719977c6fd58657bc6b63c06a6001d4cd211543b09df",
+│ +                    "size": 6360,
+│                      "url": "junit-jupiter-5.9.3.jar"
+│                  }
+│              ],
+│              "name": "runtimeElements"
+│          },
+│          {
+│              "attributes": {
+
+# same issues for the rest of the build
