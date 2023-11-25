@@ -1,0 +1,9 @@
+version=4.0.0-M12
+ok=6
+ko=0
+ignored=0
+okFiles="maven-site-plugin-4.0.0-M12.pom maven-site-plugin-4.0.0-M12.jar maven-site-plugin-4.0.0-M12-source-release.zip maven-site-plugin-4.0.0-M12-sources.jar maven-site-plugin-4.0.0-M12-cyclonedx.xml maven-site-plugin-4.0.0-M12-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
