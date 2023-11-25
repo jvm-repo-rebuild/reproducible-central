@@ -17,6 +17,7 @@ rebuilding **5 releases** of org.mybatis:mybatis-spring:
 | [3.0.2](https://central.sonatype.com/artifact/org.mybatis/mybatis-spring/3.0.2/pom) | [mvn jdk17](mybatis-spring-3.0.2.buildspec) | [result](mybatis-spring-3.0.2.buildinfo): [2 :heavy_check_mark:  1 :warning:](mybatis-spring-3.0.2.buildcompare) [:mag:](mybatis-spring-3.0.2.diffoscope) [:memo:](https://github.com/mybatis/parent/pull/472) | 154K |
 | [3.0.1](https://central.sonatype.com/artifact/org.mybatis/mybatis-spring/3.0.1/pom) | [mvn jdk17 w](mybatis-spring-3.0.1.buildspec) | [result](mybatis-spring-3.0.1.buildinfo): [3 :heavy_check_mark: ](mybatis-spring-3.0.1.buildcompare) | 154K |
 | [3.0.0](https://central.sonatype.com/artifact/org.mybatis/mybatis-spring/3.0.0/pom) | [mvn jdk18](mybatis-spring-3.0.0.buildspec) | [result](mybatis-spring-3.0.0.buildinfo): [1 :heavy_check_mark:  2 :warning:](mybatis-spring-3.0.0.buildcompare) [:mag:](mybatis-spring-3.0.0.diffoscope) [:memo:](https://github.com/mybatis/spring/pull/759) | 284K |
+| [2.1.2](https://central.sonatype.com/artifact/org.mybatis/mybatis-spring/2.1.2/pom) | | | |
 | [2.1.1](https://central.sonatype.com/artifact/org.mybatis/mybatis-spring/2.1.1/pom) | | | |
 | [2.1.0](https://central.sonatype.com/artifact/org.mybatis/mybatis-spring/2.1.0/pom) | [mvn jdk15](mybatis-spring-2.1.0.buildspec) | [result](mybatis-spring-2.1.0.buildinfo): [1 :heavy_check_mark:  2 :warning:](mybatis-spring-2.1.0.buildcompare) [:mag:](mybatis-spring-2.1.0.diffoscope) [:memo:](https://github.com/mybatis/spring/pull/759) | 282K |
 

@@ -9,21 +9,21 @@ Source code: [https://github.com/flowlogix/flowlogix.git](https://github.com/flo
 
 <details><summary>This project defines 6 modules:</summary>
 
-* [com.flowlogix:flowlogix](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/8.0)
-* [com.flowlogix:flowlogix-bom](https://central.sonatype.com/artifact/com.flowlogix/flowlogix-bom/8.0)
-* [com.flowlogix:flowlogix-datamodel](https://central.sonatype.com/artifact/com.flowlogix/flowlogix-datamodel/8.0)
-* [com.flowlogix:flowlogix-jee](https://central.sonatype.com/artifact/com.flowlogix/flowlogix-jee/8.0)
-* [com.flowlogix:jakarta-ee](https://central.sonatype.com/artifact/com.flowlogix/jakarta-ee/8.0)
-* [com.flowlogix:jee-examples](https://central.sonatype.com/artifact/com.flowlogix/jee-examples/8.0)
+* [com.flowlogix:flowlogix](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/8.0.1)
+* [com.flowlogix:flowlogix-bom](https://central.sonatype.com/artifact/com.flowlogix/flowlogix-bom/8.0.1)
+* [com.flowlogix:flowlogix-datamodel](https://central.sonatype.com/artifact/com.flowlogix/flowlogix-datamodel/8.0.1)
+* [com.flowlogix:flowlogix-jee](https://central.sonatype.com/artifact/com.flowlogix/flowlogix-jee/8.0.1)
+* [com.flowlogix:jakarta-ee](https://central.sonatype.com/artifact/com.flowlogix/jakarta-ee/8.0.1)
+* [com.flowlogix:jee-examples](https://central.sonatype.com/artifact/com.flowlogix/jee-examples/8.0.1)
 </details>
 
-rebuilding **10 releases** of com.flowlogix:flowlogix:
-- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **11 releases** of com.flowlogix:flowlogix:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 4 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [8.0.1](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/8.0.1/pom) | | | |
+| [8.0.1](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/8.0.1/pom) | [mvn jdk21](flowlogix-8.0.1.buildspec) | [result](flowlogix-8.0.1.buildinfo): [12 :heavy_check_mark: ](flowlogix-8.0.1.buildcompare) | 5.7M |
 | [8.0](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/8.0/pom) | [mvn jdk21](flowlogix-8.0.buildspec) | [result](flowlogix-8.0.buildinfo): [12 :heavy_check_mark: ](flowlogix-8.0.buildcompare) | 5.7M |
 | [8.0-M1](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/8.0-M1/pom) | [mvn jdk21](flowlogix-8.0-M1.buildspec) | [result](flowlogix-8.0-M1.buildinfo): [12 :heavy_check_mark: ](flowlogix-8.0-M1.buildcompare) | 5.7M |
 | [7.1.3](https://central.sonatype.com/artifact/com.flowlogix/flowlogix/7.1.3/pom) | [mvn jdk21](flowlogix-7.1.3.buildspec) | [result](flowlogix-7.1.3.buildinfo): [12 :heavy_check_mark: ](flowlogix-7.1.3.buildcompare) | 5.7M |
