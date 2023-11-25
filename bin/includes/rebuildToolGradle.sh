@@ -18,14 +18,14 @@ rebuildToolGradle() {
 
   ### 1. rebuild
   local jdkImage
-  case ${jdk} in
-    11)
-      jdkImage="openjdk:11.0.14.1"
-      ;;
-    17)
-      jdkImage="openjdk:17-slim"
-      ;;
-  esac
+#  case ${jdk} in
+#    11)
+#      jdkImage="openjdk:11.0.14.1"
+#      ;;
+#    17)
+#      jdkImage="openjdk:17-slim"
+#      ;;
+#  esac
   jdkImage="gradle:8-jdk${jdk}"
 
   info "Rebuilding using Docker image ${jdkImage}"
@@ -34,11 +34,11 @@ rebuildToolGradle() {
   [ -d ${OUTPUTDIR} ] && \rm -rf ${OUTPUTDIR}
 
   local docker_command="docker run -it --rm --name rebuild-central\
-    -v $PWD:/var/gradle/app -v $PWD:/var/gradle/.m2 -v $base/.sbt:/var/gradle/.sbt -v $base/.bnd:/.bnd\
+    -v $PWD:/var/gradle/app -v $PWD:/home/gradle/.m2 -v $base/.sbt:/home/gradle/.sbt -v $base/.bnd:/.bnd -v $base/.gradle:/home/gradle/.gradle\
     -u $(id -u ${USER}):$(id -g ${USER})\
-    -e MAVEN_CONFIG=/var/gradle/.m2\
+    -e MAVEN_CONFIG=/home/gradle/.m2\
     -w /var/gradle/app"
-  local gradle_docker_params="-Duser.home=/var/gradle"
+  local gradle_docker_params="-Duser.home=/home/gradle"
 
   runcommand ${docker_command} ${jdkImage} ${command} ${gradle_docker_params}
   # output content is expected to be available in repository/ directory

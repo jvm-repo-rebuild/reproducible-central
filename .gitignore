@@ -7,6 +7,7 @@ settings-docker.xml
 .bnd/
 .DS_Store
 .gradle-enterprise/
+.gradle/
 .bak
 
 # IntelliJ IDEA
