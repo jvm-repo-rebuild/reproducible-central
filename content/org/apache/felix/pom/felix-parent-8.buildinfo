@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Felix
+group-id=org.apache.felix
+artifact-id=felix-parent
+version=8
+
+# source information
+source.scm.uri=scm:git:https://github.com/apache/felix-dev.git
+source.scm.tag=felix-parent-8
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.felix
+outputs.0.filename=felix-parent-8.pom
+outputs.0.length=19707
+outputs.0.checksums.sha512=98ba2fa8b3e6ca82c7f699274f404abe64fa13ad07678fe126729e21ad574005ea0f035ee5809f2642aab2b8187235929a3ae6fabf964f7e87d93328d7cad62d
+
+outputs.1.groupId=org.apache.felix
+outputs.1.filename=felix-parent-8-source-release.zip
+outputs.1.length=8823
+outputs.1.checksums.sha512=25f90c188e7798a4b9784a665a590a6748b2e8b58214113fd5ba5d96eca4d34bace5502e3989c68655894f096c0641b91195edf9a3199460472917fb0431ca2d
+
+outputs.2.groupId=org.apache.felix
+outputs.2.filename=felix-parent-8-source-release.tar.gz
+outputs.2.length=7794
+outputs.2.checksums.sha512=9b5d9218ab410fb36c0f3754e703dff0223a9fd14c36c85d7301886b29e686edf8fba525aa92a9a30e043b68943d8e25c606f1f74ccf58c3fe01bde135e62212
