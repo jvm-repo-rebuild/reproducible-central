@@ -9,19 +9,19 @@ Source code: [https://github.com/apache/logging-log4j-tools.git](https://github.
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [org.apache.logging.log4j:log4j-changelog](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-changelog/0.5.0)
-* [org.apache.logging.log4j:log4j-changelog-maven-plugin](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-changelog-maven-plugin/0.5.0)
-* [org.apache.logging.log4j:log4j-tools-bom](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-bom/0.5.0)
-* [org.apache.logging.log4j:log4j-tools-parent](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-parent/0.5.0)
+* [org.apache.logging.log4j:log4j-changelog](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-changelog/0.6.0)
+* [org.apache.logging.log4j:log4j-changelog-maven-plugin](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-changelog-maven-plugin/0.6.0)
+* [org.apache.logging.log4j:log4j-tools-bom](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-bom/0.6.0)
+* [org.apache.logging.log4j:log4j-tools-parent](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-parent/0.6.0)
 </details>
 
-rebuilding **5 releases** of org.apache.logging.log4j:log4j-tools-bom:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **6 releases** of org.apache.logging.log4j:log4j-tools-bom:
+- **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [0.6.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-bom/0.6.0/pom) | | | |
+| [0.6.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-bom/0.6.0/pom) | [mvn jdk17](log4j-tools-0.6.0.buildspec) | [result](log4j-tools-bom-0.6.0.buildinfo): [10 :heavy_check_mark: ](log4j-tools-bom-0.6.0.buildcompare) | 193K |
 | [0.5.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-bom/0.5.0/pom) | [mvn jdk17](log4j-tools-0.5.0.buildspec) | [result](log4j-tools-bom-0.5.0.buildinfo): [6 :heavy_check_mark: ](log4j-tools-bom-0.5.0.buildcompare) | 88K |
 | [0.4.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-bom/0.4.0/pom) | [mvn jdk17](log4j-tools-0.4.0.buildspec) | [result](log4j-tools-bom-0.4.0.buildinfo): [6 :heavy_check_mark: ](log4j-tools-bom-0.4.0.buildcompare) | 85K |
 | [0.3.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-tools-bom/0.3.0/pom) | [mvn jdk17](log4j-tools-0.3.0.buildspec) | [result](log4j-tools-bom-0.3.0.buildinfo): [6 :heavy_check_mark: ](log4j-tools-bom-0.3.0.buildcompare) | 89K |
