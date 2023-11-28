@@ -13,6 +13,7 @@ rebuilding **5 releases** of org.apache.santuario:xmlsec:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.0.1](https://central.sonatype.com/artifact/org.apache.santuario/xmlsec/4.0.1/pom) | | | |
 | [4.0.0](https://central.sonatype.com/artifact/org.apache.santuario/xmlsec/4.0.0/pom) | [mvn jdk11.0.19](xmlsec-4.0.0.buildspec) | [result](xmlsec-4.0.0.buildinfo): [5 :heavy_check_mark:  1 :warning:](xmlsec-4.0.0.buildcompare) [:mag:](xmlsec-4.0.0.diffoscope) | 5.4M |
 | [4.0.0-M1](https://central.sonatype.com/artifact/org.apache.santuario/xmlsec/4.0.0-M1/pom) | [mvn jdk11.0.19](xmlsec-4.0.0-M1.buildspec) | [result](xmlsec-4.0.0-M1.buildinfo): [3 :heavy_check_mark:  2 :warning:](xmlsec-4.0.0-M1.buildcompare) [:mag:](xmlsec-4.0.0-M1.diffoscope) [:memo:](https://github.com/apache/santuario-xml-security-java/pull/77) | 2.1M |
 | [3.0.3](https://central.sonatype.com/artifact/org.apache.santuario/xmlsec/3.0.3/pom) | | | |

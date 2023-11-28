@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2830 releases** of **561 projects**:
-   - **2217** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 613 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **2832 releases** of **561 projects**:
+   - **2218** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 614 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 561 projects, 458 have at least one fully reproducible release, 103 have none
 
 <!-- END GENERATED INTRO -->
@@ -207,7 +207,7 @@ Its objectives are to provide:
 | io.micronaut.maven | [micronaut-maven-plugin](content/io/micronaut/maven/micronaut-maven-plugin/README.md) | 14 | 14 :heavy_check_mark: |
 | io.opentelemetry.instrumentation | [opentelemetry-instrumentation-api](content/io/opentelemetry/instrumentation/README.md) | 2 | 2 :warning: |
 | io.opentelemetry | [opentelemetry-sdk](content/io/opentelemetry/java/README.md) | 1 | 1 :warning: |
-| io.smallrye | [jandex-parent](content/io/smallrye/jandex/README.md) | 4 | 4 :warning: |
+| io.smallrye | [jandex-parent](content/io/smallrye/jandex/README.md) | 5 | 5 :warning: |
 | io.wcm | [*.caconfig.editor.parent](content/io/wcm/io.wcm.caconfig/README.md) | 4 | 4 :warning: |
 | | [*.parent_toplevel](content/io/wcm/tooling/README.md) | 14 | 14 :heavy_check_mark: |
 | | [*.handler.link](content/io/wcm/io.wcm.handler/link/README.md) | 4 | 4 :warning: |
@@ -569,7 +569,7 @@ Its objectives are to provide:
 | org.tomitribe.transformer | [org.eclipse.transformer.parent](content/org/tomitribe/transformer/README.md) | 2 | 2 :heavy_check_mark: |
 | org.webjars | [angularjs](content/org/webjars/angularjs/README.md) | 1 | 1 :heavy_check_mark: |
 | | [bootstrap](content/org/webjars/bootstrap/README.md) | 7 | 7 :heavy_check_mark: |
-| | [flexmonster](content/org/webjars/flexmonster/README.md) | 45 | 41 :heavy_check_mark: / 4 :warning: |
+| | [flexmonster](content/org/webjars/flexmonster/README.md) | 46 | 42 :heavy_check_mark: / 4 :warning: |
 | | [font-awesome](content/org/webjars/font-awesome/README.md) | 5 | 5 :heavy_check_mark: |
 | | [highcharts](content/org/webjars/highcharts/README.md) | 2 | 2 :heavy_check_mark: |
 | | [jszip](content/org/webjars/jszip/README.md) | 1 | 1 :heavy_check_mark: |
@@ -584,7 +584,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 29 | 29 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **561** | **2830** | **2217** :heavy_check_mark: **613** :warning: |
+| **Count:** | **561** | **2832** | **2218** :heavy_check_mark: **614** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -607,10 +607,11 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    224 mvn        17
+    225 mvn        17
       2 mvn        17.0.7
       1 mvn        17.0.8
       1 mvn        17.0.8.1
+      1 mvn        17.0.9
      13 mvn        18
      24 mvn        19
      14 mvn        20

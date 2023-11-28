@@ -4,8 +4,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20231127175306 --> [flexmonster](../content/org/webjars/flexmonster/README.md) | [2.9.64](../content/org/webjars/flexmonster/flexmonster-2.9.64.buildspec) :heavy_check_mark: | [2.9.65](../content/org/webjars/flexmonster/flexmonster-2.9.65.buildspec) | `bin/add-new-release.sh content/org/webjars/flexmonster/flexmonster-2.9.64.buildspec 2.9.65` |
-| <!-- 20231127153409 --> [logback-parent](../content/ch/qos/logback/README.md) | [1.4.11](../content/ch/qos/logback/logback-1.4.11.buildspec) :heavy_check_mark: | [1.4.12](../content/ch/qos/logback/logback-1.4.12.buildspec) | `bin/add-new-release.sh content/ch/qos/logback/logback-1.4.11.buildspec 1.4.12` |
+| <!-- 20231128144838 --> [logback-parent](../content/ch/qos/logback/README.md) | [1.4.11](../content/ch/qos/logback/logback-1.4.11.buildspec) :heavy_check_mark: | [1.4.13](../content/ch/qos/logback/logback-1.4.13.buildspec) | `bin/add-new-release.sh content/ch/qos/logback/logback-1.4.11.buildspec 1.4.13` |
 | <!-- 20231126013300 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.2](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec) :heavy_check_mark: | [10.4.3-beta-8](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.3-beta-8.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec 10.4.3-beta-8` |
 | <!-- 20231119190519 --> [sentry-maven-skin](../content/org/sentrysoftware/maven/sentry-maven-skin/README.md) | [6.1.00](../content/org/sentrysoftware/maven/sentry-maven-skin/sentry-maven-skin-6.1.00.buildspec) :heavy_check_mark: | [6.2.00](../content/org/sentrysoftware/maven/sentry-maven-skin/sentry-maven-skin-6.2.00.buildspec) | `bin/add-new-release.sh content/org/sentrysoftware/maven/sentry-maven-skin/sentry-maven-skin-6.1.00.buildspec 6.2.00` |
 | <!-- 20231113170120 --> [angularjs](../content/org/webjars/angularjs/README.md) | [1.8.3](../content/org/webjars/angularjs/angularjs-1.8.3.buildspec) :heavy_check_mark: | [2.0.0-alpha.22](../content/org/webjars/angularjs/angularjs-2.0.0-alpha.22.buildspec) | `bin/add-new-release.sh content/org/webjars/angularjs/angularjs-1.8.3.buildspec 2.0.0-alpha.22` |
@@ -17,8 +16,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20231127144059 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | [3.1.5](../content/io/smallrye/jandex/jandex-3.1.5.buildspec) :warning: [:memo:](https://github.com/smallrye/smallrye-parent/pull/420) | [3.1.6](../content/io/smallrye/jandex/jandex-3.1.6.buildspec) | `bin/add-new-release.sh content/io/smallrye/jandex/jandex-3.1.5.buildspec 3.1.6` |
-| <!-- 20231126030357 --> [nifi](../content/org/apache/nifi/nifi/README.md) | [1.22.0](../content/org/apache/nifi/nifi/nifi-1.22.0.buildspec) :warning: | [2.0.0-M1](../content/org/apache/nifi/nifi/nifi-2.0.0-M1.buildspec) | `bin/add-new-release.sh content/org/apache/nifi/nifi/nifi-1.22.0.buildspec 2.0.0-M1` |
+| <!-- 20231128065356 --> [xmlsec](../content/org/apache/santuario/xmlsec/README.md) | [4.0.0](../content/org/apache/santuario/xmlsec/xmlsec-4.0.0.buildspec) :warning: | [4.0.1](../content/org/apache/santuario/xmlsec/xmlsec-4.0.1.buildspec) | `bin/add-new-release.sh content/org/apache/santuario/xmlsec/xmlsec-4.0.0.buildspec 4.0.1` |
+| <!-- 20231128031430 --> [nifi](../content/org/apache/nifi/nifi/README.md) | [1.22.0](../content/org/apache/nifi/nifi/nifi-1.22.0.buildspec) :warning: | [2.0.0-M1](../content/org/apache/nifi/nifi/nifi-2.0.0-M1.buildspec) | `bin/add-new-release.sh content/org/apache/nifi/nifi/nifi-1.22.0.buildspec 2.0.0-M1` |
 | <!-- 20231122150105 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.35.4](../content/org/finos/legend/engine/legend-engine-4.35.4.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.35.4` |
 | <!-- 20231122144412 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | [6.0.14](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.0.14.buildspec) :warning: | [6.3.2](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.3.2.buildspec) | `bin/add-new-release.sh content/com/adobe/acs/aem-commons/acs-aem-commons-6.0.14.buildspec 6.3.2` |
 | <!-- 20231122142117 --> [io.wcm.caconfig.editor.parent](../content/io/wcm/io.wcm.caconfig/README.md) | [1.8.0](../content/io/wcm/io.wcm.caconfig/wcm-caconfig-editor-1.8.0.buildspec) :warning: | [1.15.8](../content/io/wcm/io.wcm.caconfig/wcm-caconfig-editor-1.15.8.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.caconfig/wcm-caconfig-editor-1.8.0.buildspec 1.15.8` |
@@ -64,6 +63,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20231127144059 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.1.6 :warning: |
 | <!-- 20231125131040 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | 3.0.3 :warning: |
 | <!-- 20231120080419 --> [log4j](../content/org/apache/logging/log4j/log4j/README.md) | 3.0.0-alpha1 :warning: |
 | <!-- 20231118025823 --> [ratis](../content/org/apache/ratis/README.md) | 3.0.0 :warning: [:memo:](https://issues.apache.org/jira/browse/RATIS-1840) |
@@ -77,7 +77,6 @@ New Releases To Add
 | <!-- 20231027141156 --> [artemis-pom](../content/org/apache/activemq/artemis/README.md) | 2.31.2 :warning: |
 | <!-- 20231021094255 --> [git-commit-id-maven-plugin](../content/io/github/git-commit-id/README.md) | 7.0.0 :warning: |
 | <!-- 20231020082051 --> [sshd](../content/org/apache/sshd/README.md) | 2.11.0 :warning: |
-| <!-- 20231019043144 --> [xmlsec](../content/org/apache/santuario/xmlsec/README.md) | 4.0.0 :warning: |
 | <!-- 20231012084342 --> [jansi](../content/org/fusesource/jansi/jansi/README.md) | 2.4.1 :warning: [:memo:](https://github.com/moditect/moditect/pull/211) |
 | <!-- 20231009100347 --> [parent](../content/org/apache/zookeeper/README.md) | 3.9.1 :warning: [:memo:](https://github.com/apache/zookeeper/pull/2042) |
 | <!-- 20231006164301 --> [plc4x-parent](../content/org/apache/plc4x/plc4x/README.md) | 0.11.0 :warning: [:memo:](https://github.com/apache/plc4x/pull/1202) |
