@@ -1,0 +1,29 @@
+# [INFO] --- exec-maven-plugin:3.0.0:exec (jar) @ jandex-test-data ---
+1 / 1 target/reference/io.smallrye/jandex-test-data-3.1.6.jar test-data/target/jandex-test-data-3.1.6.jar
+--- target/reference/io.smallrye/jandex-test-data-3.1.6.jar
++++ test-data/target/jandex-test-data-3.1.6.jar
+├── zipinfo {}
+│ @@ -1,10 +1,10 @@
+│  Zip file size: 71118 bytes, number of entries: 132
+│  -rw----     1.0 fat        0 bx stor 23-Nov-27 14:33 META-INF/
+│ --rw----     2.0 fat      507 bl defN 23-Nov-27 14:34 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat      507 bl defN 23-Nov-28 08:20 META-INF/MANIFEST.MF
+│  -rw----     1.0 fat        0 b- stor 23-Nov-27 14:33 test/
+│  -rw----     1.0 fat        0 b- stor 23-Nov-27 14:33 test/exec/
+│  -rw----     1.0 fat        0 b- stor 23-Nov-27 14:33 META-INF/maven/
+│  -rw----     1.0 fat        0 b- stor 23-Nov-27 14:33 META-INF/maven/io.smallrye/
+│  -rw----     1.0 fat        0 b- stor 23-Nov-27 14:33 META-INF/maven/io.smallrye/jandex-test-data/
+│  -rw----     2.0 fat      917 bl defN 23-Nov-27 14:33 test/BridgeMethods$ArrayWithNullableElementsConsumer.class
+│  -rw----     2.0 fat      865 bl defN 23-Nov-27 14:33 test/BridgeMethods$ArrayWithNullableElementsSupplier.class
+│ @@ -126,9 +126,9 @@
+│  -rw----     2.0 fat      423 bl defN 23-Nov-27 14:33 test/VExample$U.class
+│  -rw----     2.0 fat      447 bl defN 23-Nov-27 14:33 test/VExample$V.class
+│  -rw----     2.0 fat     4800 bl defN 23-Nov-27 14:33 test/VExample.class
+│  -rw----     2.0 fat      375 bl defN 23-Nov-27 14:33 test/exec/Main.class
+│  -rw----     2.0 fat     8954 bl defN 23-Nov-27 14:33 META-INF/maven/io.smallrye/jandex-test-data/pom.xml
+│  -rw----     2.0 fat       62 bl defN 23-Nov-27 14:33 META-INF/maven/io.smallrye/jandex-test-data/pom.properties
+│  -rw----     2.0 fat      179 bl defN 23-Nov-27 14:33 META-INF/INDEX.LIST
+│ --rw----     2.0 fat      629 bl defN 23-Nov-27 14:34 module-info.class
+│ +-rw----     2.0 fat      629 bl defN 23-Nov-28 08:20 module-info.class
+│  132 files, 106486 bytes uncompressed, 50186 bytes compressed:  52.9%
+
