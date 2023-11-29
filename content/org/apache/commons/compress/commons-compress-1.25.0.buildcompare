@@ -1,0 +1,11 @@
+version=1.25.0
+ok=4
+ko=2
+ignored=0
+okFiles="commons-compress-1.25.0.pom commons-compress-1.25.0-tests.jar commons-compress-1.25.0-sources.jar commons-compress-1.25.0-test-sources.jar"
+koFiles="commons-compress-1.25.0.jar commons-compress-1.25.0.spdx.json"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.commons/commons-compress-1.25.0.jar target/commons-compress-1.25.0.jar
+# diffoscope target/reference/org.apache.commons/commons-compress-1.25.0.spdx.json target/site/org.apache.commons_commons-compress-1.25.0.spdx.json
