@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2834 releases** of **561 projects**:
-   - **2219** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **2847 releases** of **571 projects**:
+   - **2232** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 615 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 561 projects, 458 have at least one fully reproducible release, 103 have none
+   - on 571 projects, 468 have at least one fully reproducible release, 103 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -36,13 +36,22 @@ Its objectives are to provide:
 | com.fasterxml.jackson.core | [jackson-annotations](content/com/fasterxml/jackson/annotations/README.md) | 6 | 1 :heavy_check_mark: / 5 :warning: |
 | | [jackson-core](content/com/fasterxml/jackson/core/README.md) | 7 | 4 :heavy_check_mark: / 3 :warning: |
 | | [jackson-databind](content/com/fasterxml/jackson/databind/README.md) | 7 | 1 :heavy_check_mark: / 6 :warning: |
+| com.fasterxml.jackson | [jackson-bom](content/com/fasterxml/jackson/jackson-bom/README.md) | 1 | 1 :heavy_check_mark: |
+| | [jackson-parent](content/com/fasterxml/jackson/jackson-parent/README.md) | 1 | 1 :heavy_check_mark: |
 | com.fasterxml.jackson.jr | [jackson-jr-parent](content/com/fasterxml/jackson/jr/README.md) | 5 | 1 :heavy_check_mark: / 4 :warning: |
+| com.fasterxml.jackson.dataformat | [jackson-dataformat-xml](content/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/README.md) | 1 | 1 :heavy_check_mark: |
+| | [jackson-dataformats-binary](content/com/fasterxml/jackson/dataformat/jackson-dataformats-binary/README.md) | 1 | 1 :heavy_check_mark: |
+| | [jackson-dataformats-text](content/com/fasterxml/jackson/dataformat/jackson-dataformats-text/README.md) | 1 | 1 :heavy_check_mark: |
+| com.fasterxml.jackson.datatype | [jackson-datatype-joda](content/com/fasterxml/jackson/datatype/jackson-datatype-joda/README.md) | 1 | 1 :heavy_check_mark: |
+| | [jackson-datatypes-collections](content/com/fasterxml/jackson/datatype/jackson-datatypes-collections/README.md) | 1 | 1 :heavy_check_mark: |
+| | [jackson-datatypes-misc-parent](content/com/fasterxml/jackson/datatype/jackson-datatypes-misc-parent/README.md) | 1 | 1 :heavy_check_mark: |
 | com.github.ldapchai | [ldapchai](content/com/github/ldapchai/README.md) | 6 | 1 :heavy_check_mark: / 5 :warning: |
 | com.github.psi-probe | [psi-probe](content/com/github/psi-probe/README.md) | 7 | 6 :heavy_check_mark: / 1 :warning: |
 | com.github.adangel.liquibase.ext | [liquibase-percona](content/com/github/adangel/liquibase/ext/liquibase-percona/README.md) | 1 | 1 :heavy_check_mark: |
 | com.github.hazendaz.7zip | [7zip](content/com/github/hazendaz/7zip/README.md) | 1 | 1 :heavy_check_mark: |
 | com.github.hazendaz | [javabean-tester](content/com/github/hazendaz/javabean-tester/README.md) | 7 | 5 :heavy_check_mark: / 2 :warning: |
-| com.github.hazendaz.maven | [directory-maven-plugin](content/com/github/hazendaz/maven/directory-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
+| com.github.hazendaz.maven | [coveralls-maven-plugin](content/com/github/hazendaz/maven/coveralls-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
+| | [directory-maven-plugin](content/com/github/hazendaz/maven/directory-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | [htmlcompressor-maven-plugin](content/com/github/hazendaz/maven/htmlcompressor-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | [whitespace-maven-plugin](content/com/github/hazendaz/maven/whitespace-maven-plugin/README.md) | 2 | 2 :warning: |
 | com.github.marschall | [jakarta-jms-adapter](content/com/github/marschall/jakarta-jms-adapter/README.md) | 3 | 1 :heavy_check_mark: / 2 :warning: |
@@ -315,6 +324,7 @@ Its objectives are to provide:
 | org.apache.maven.doxia | [doxia](content/org/apache/maven/doxia/doxia/README.md) | 12 | 12 :heavy_check_mark: |
 | | [doxia-converter](content/org/apache/maven/doxia/doxia-converter/README.md) | 1 | 1 :heavy_check_mark: |
 | | [doxia-sitetools](content/org/apache/maven/doxia/doxia-sitetools/README.md) | 16 | 16 :heavy_check_mark: |
+| org.apache.maven.extensions | [maven-build-cache-extension](content/org/apache/maven/extensions/maven-build-cache-extension/README.md) | 3 | 3 :heavy_check_mark: |
 | org.apache.maven.plugin-testing | [maven-plugin-testing](content/org/apache/maven/plugin-testing/maven-plugin-testing/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.maven.plugin-tools | [maven-plugin-tools](content/org/apache/maven/plugin-tools/maven-plugin-tools/README.md) | 10 | 10 :heavy_check_mark: |
 | org.apache.maven.plugins | [maven-antrun-plugin](content/org/apache/maven/plugins/maven-antrun-plugin/README.md) | 2 | 2 :heavy_check_mark: |
@@ -584,7 +594,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 29 | 29 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **561** | **2834** | **2219** :heavy_check_mark: **615** :warning: |
+| **Count:** | **571** | **2847** | **2232** :heavy_check_mark: **615** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -598,9 +608,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      22 gradle     11
       1 gradle     17
      26 mvn         7
-   1040 mvn         8
+   1044 mvn         8
       1 mvn         9
-    845 mvn        11
+    847 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.6
       1 mvn        13
@@ -636,18 +646,18 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.1  19
       6 mvn-3.9.1  20
       7 mvn-3.9.1  21
-      5 mvn-3.9.2   8
+      6 mvn-3.9.2   8
      16 mvn-3.9.2  17
       2 mvn-3.9.2  21
-     21 mvn-3.9.3   8
-     31 mvn-3.9.3  11
+     22 mvn-3.9.3   8
+     33 mvn-3.9.3  11
       1 mvn-3.9.3  11.0.18
       4 mvn-3.9.3  11.0.5
       5 mvn-3.9.3  11.0.6
       7 mvn-3.9.3  14
      12 mvn-3.9.3  14.0.2
       1 mvn-3.9.3  15.0.2
-     42 mvn-3.9.3  17
+     43 mvn-3.9.3  17
       6 mvn-3.9.3  17.0.1
       3 mvn-3.9.3  17.0.2
      52 mvn-3.9.3  17.0.3
@@ -666,7 +676,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.5  11
       2 mvn-3.9.5  17
       2 mvn-3.9.5  17.0.7
-      3 mvn-3.9.5  21
+      5 mvn-3.9.5  21
       1 mvn-4.0.0-alpha-7  17
       1 mvn-4.0.0-alpha-8  21
       2 sbt         8
