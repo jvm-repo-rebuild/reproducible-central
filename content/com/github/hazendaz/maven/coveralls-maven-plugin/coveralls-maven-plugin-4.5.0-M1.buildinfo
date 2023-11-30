@@ -1,0 +1,48 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=coveralls-maven-plugin
+group-id=com.github.hazendaz.maven
+artifact-id=coveralls-maven-plugin
+version=4.5.0-M1
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/hazendaz/coveralls-maven-plugin.git
+source.scm.tag=coveralls-maven-plugin-4.5.0-M1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.5.0
+
+# output
+
+outputs.0.groupId=com.github.hazendaz.maven
+outputs.0.filename=coveralls-maven-plugin-4.5.0-M1.pom
+outputs.0.length=11890
+outputs.0.checksums.sha512=6d23b737b6e21d9c7a62b8a82b3947ea9bda45e991559188a51aaf1bb7aa8809e7ea9f8cda450f0283fb9a132138f076e6bdd573641ea4caff872de4fd30d0cc
+
+outputs.1.groupId=com.github.hazendaz.maven
+outputs.1.filename=coveralls-maven-plugin-4.5.0-M1.jar
+outputs.1.length=97283
+outputs.1.checksums.sha512=e0eadcaeecc22454770a60fb920649eb7f5fe3d19dda2d76f72a3584cff07d980dcbb0824b7a496fe49a2803dba978f8383688f51e28ce714535e61cca37cffa
+
+outputs.2.groupId=com.github.hazendaz.maven
+outputs.2.filename=coveralls-maven-plugin-4.5.0-M1-tests.jar
+outputs.2.length=92389
+outputs.2.checksums.sha512=8f33a854913d695580860720309b4ccb7889d6431735d9985790fd72f5f410683f29dfd007df2f5cdf83fe8641b38275dccb9becb97dcdb96aade2ebd583ad01
+
+outputs.3.groupId=com.github.hazendaz.maven
+outputs.3.filename=coveralls-maven-plugin-4.5.0-M1-sources.jar
+outputs.3.length=89610
+outputs.3.checksums.sha512=9aabedaba81934baab37362264af42c08c8cd5c4ae0b26a3884a2a1de312ccb7bf7ff46e491a3fbba59c53076e86d4ccceb4fee5ef421a88254fd9a4a67babb3
+
+outputs.4.groupId=com.github.hazendaz.maven
+outputs.4.filename=coveralls-maven-plugin-4.5.0-M1-test-sources.jar
+outputs.4.length=80393
+outputs.4.checksums.sha512=6696e3a42651e5881b99104e6a72bb3a9f45f6185153b988917df851f5f08a8a9d82b78ca2538c36a2668e747419cddb7407da0a3aa17221ab92af4b96a8fbeb
