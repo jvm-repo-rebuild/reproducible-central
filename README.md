@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2847 releases** of **571 projects**:
-   - **2232** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 615 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 571 projects, 468 have at least one fully reproducible release, 103 have none
+   rebuilding **2854 releases** of **577 projects**:
+   - **2236** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 618 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - on 577 projects, 472 have at least one fully reproducible release, 105 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -188,7 +188,8 @@ Its objectives are to provide:
 | fr.vidal.oss | [atom-jaxb](content/fr/vidal/oss/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | io.jooby | [jooby](content/io/jooby/README.md) | 2 | 2 :warning: |
 | io.liftwizard | [liftwizard](content/io/liftwizard/README.md) | 45 | 45 :heavy_check_mark: |
-| io.cucumber | [cucumber-expressions](content/io/cucumber/cucumber-expressions/README.md) | 5 | 5 :heavy_check_mark: |
+| io.cucumber | [ci-environment](content/io/cucumber/ci-environment/README.md) | 1 | 1 :heavy_check_mark: |
+| | [cucumber-expressions](content/io/cucumber/cucumber-expressions/README.md) | 5 | 5 :heavy_check_mark: |
 | | [cucumber-jvm](content/io/cucumber/cucumber-jvm/README.md) | 10 | 10 :heavy_check_mark: |
 | | [gherkin](content/io/cucumber/gherkin/README.md) | 7 | 7 :heavy_check_mark: |
 | | [gherkin-utils](content/io/cucumber/gherkin-utils/README.md) | 4 | 4 :heavy_check_mark: |
@@ -216,6 +217,7 @@ Its objectives are to provide:
 | io.micronaut.maven | [micronaut-maven-plugin](content/io/micronaut/maven/micronaut-maven-plugin/README.md) | 14 | 14 :heavy_check_mark: |
 | io.opentelemetry.instrumentation | [opentelemetry-instrumentation-api](content/io/opentelemetry/instrumentation/README.md) | 2 | 2 :warning: |
 | io.opentelemetry | [opentelemetry-sdk](content/io/opentelemetry/java/README.md) | 1 | 1 :warning: |
+| io.repaint.maven | [tiles-maven-plugin](content/io/repaint/maven/tiles-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | io.smallrye | [jandex-parent](content/io/smallrye/jandex/README.md) | 5 | 5 :warning: |
 | io.wcm | [*.caconfig.editor.parent](content/io/wcm/io.wcm.caconfig/README.md) | 4 | 4 :warning: |
 | | [*.parent_toplevel](content/io/wcm/tooling/README.md) | 14 | 14 :heavy_check_mark: |
@@ -231,6 +233,7 @@ Its objectives are to provide:
 | io.wcm.tooling.commons | [*.content-package-builder](content/io/wcm/tooling/commons/content-package-builder/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | | [*.crx-packmgr-helper](content/io/wcm/tooling/commons/crx-packmgr-helper/README.md) | 7 | 7 :heavy_check_mark: |
 | jakarta.persistence | [*-api](content/jakarta/persistence/jakarta.persistence-api/README.md) | 2 | 2 :heavy_check_mark: |
+| jakarta.servlet | [*-api](content/jakarta/servlet/jakarta.servlet-api/README.md) | 1 | 1 :warning: |
 | net.bytebuddy | [byte-buddy-parent](content/net/bytebuddy/README.md) | 17 | 15 :heavy_check_mark: / 2 :warning: |
 | net.jsign | [jsign](content/net/jsign/README.md) | 2 | 2 :warning: |
 | net.nicoulaj.maven.plugins | [checksum-maven-plugin](content/net/nicoulaj/maven/plugins/checksum-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
@@ -265,6 +268,7 @@ Its objectives are to provide:
 | org.apache.jspwiki | [jspwiki-builder](content/org/apache/jspwiki/README.md) | 7 | 1 :heavy_check_mark: / 6 :warning: |
 | org.apache.mina | [mina-parent](content/org/apache/mina/README.md) | 5 | 2 :heavy_check_mark: / 3 :warning: |
 | org.apache.orc | [orc](content/org/apache/orc/README.md) | 10 | 8 :heavy_check_mark: / 2 :warning: |
+| org.apache.pulsar | [pulsar](content/org/apache/pulsar/README.md) | 1 | 1 :warning: |
 | org.apache.rat | [apache-rat-project](content/org/apache/rat/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.ratis | [ratis](content/org/apache/ratis/README.md) | 2 | 2 :warning: |
 | org.apache.shiro | [shiro-root](content/org/apache/shiro/README.md) | 7 | 7 :warning: |
@@ -311,6 +315,7 @@ Its objectives are to provide:
 | org.apache.karaf.minho | [minho](content/org/apache/karaf/minho/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.logging | [logging-parent](content/org/apache/logging/parent/README.md) | 11 | 10 :heavy_check_mark: / 1 :warning: |
 | org.apache.logging.log4j | [log4j](content/org/apache/logging/log4j/log4j/README.md) | 3 | 3 :warning: |
+| | [log4j-jmx-gui](content/org/apache/logging/log4j/log4j-jmx-gui/README.md) | 1 | 1 :heavy_check_mark: |
 | | [log4j-tools-bom](content/org/apache/logging/log4j/tools/README.md) | 6 | 6 :heavy_check_mark: |
 | | [log4j-transform-bom](content/org/apache/logging/log4j/transform/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.maven.archetype | [maven-archetype](content/org/apache/maven/archetype/README.md) | 2 | 2 :heavy_check_mark: |
@@ -390,7 +395,7 @@ Its objectives are to provide:
 | | [proton-j-parent](content/org/apache/qpid/proton-j/README.md) | 2 | 2 :heavy_check_mark: |
 | | [protonj2-parent](content/org/apache/qpid/protonj2/README.md) | 10 | 9 :heavy_check_mark: / 1 :warning: |
 | org.apache.royale.compiler | [compiler](content/org/apache/royale/compiler/README.md) | 2 | 2 :warning: |
-| org.apache.santuario | [xmlsec](content/org/apache/santuario/xmlsec/README.md) | 5 | 5 :warning: |
+| org.apache.santuario | [xmlsec](content/org/apache/santuario/xmlsec/README.md) | 6 | 6 :warning: |
 | org.apache.servicemix.tooling | [depends-maven-plugin](content/org/apache/servicemix/tooling/depends-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.sling | [feature-launcher-maven-plugin](content/org/apache/sling/feature-launcher-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | [htl-maven-plugin](content/org/apache/sling/htl-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
@@ -588,13 +593,14 @@ Its objectives are to provide:
 | | [uswds](content/org/webjars/uswds/README.md) | 1 | 1 :heavy_check_mark: |
 | | [webjars-locator](content/org/webjars/webjars-locator/README.md) | 5 | 5 :heavy_check_mark: |
 | | [webjars-locator-core](content/org/webjars/webjars-locator-core/README.md) | 4 | 4 :heavy_check_mark: |
+| | [webjars-locator-lite](content/org/webjars/webjars-locator-lite/README.md) | 1 | 1 :heavy_check_mark: |
 | pl.com.labaj | [auto-record](content/pl/com/labaj/auto-record/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | pl.com.labaj.autorecord | [auto-record](content/pl/com/labaj/autorecord/auto-record/README.md) | 3 | 1 :heavy_check_mark: / 2 :warning: |
 | tech.picnic.error-prone-support | [error-prone-support](content/tech/picnic/error-prone-support/error-prone-support/README.md) | 12 | 12 :heavy_check_mark: |
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 29 | 29 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **571** | **2847** | **2232** :heavy_check_mark: **615** :warning: |
+| **Count:** | **577** | **2854** | **2236** :heavy_check_mark: **618** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -610,14 +616,15 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      26 mvn         7
    1044 mvn         8
       1 mvn         9
-    847 mvn        11
+    848 mvn        11
       2 mvn        11.0.19
+      1 mvn        11.0.21
       1 mvn        11.0.6
       1 mvn        13
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    225 mvn        17
+    226 mvn        17
       2 mvn        17.0.7
       1 mvn        17.0.8
       1 mvn        17.0.8.1
@@ -642,16 +649,17 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       9 mvn-3.9.0  17
       6 mvn-3.9.1   8
       1 mvn-3.9.1  11
-     52 mvn-3.9.1  17
+     53 mvn-3.9.1  17
       1 mvn-3.9.1  19
       6 mvn-3.9.1  20
       7 mvn-3.9.1  21
       6 mvn-3.9.2   8
      16 mvn-3.9.2  17
       2 mvn-3.9.2  21
-     22 mvn-3.9.3   8
+     24 mvn-3.9.3   8
      33 mvn-3.9.3  11
       1 mvn-3.9.3  11.0.18
+      1 mvn-3.9.3  11.0.2
       4 mvn-3.9.3  11.0.5
       5 mvn-3.9.3  11.0.6
       7 mvn-3.9.3  14
