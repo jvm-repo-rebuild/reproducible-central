@@ -1,0 +1,393 @@
+1 / 35 target/reference/org.apache.pulsar/pulsar-3.0.2.tar.gz target/apache-pulsar-3.0.2-src.tar.gz
+--- target/reference/org.apache.pulsar/pulsar-3.0.2.tar.gz
++++ target/apache-pulsar-3.0.2-src.tar.gz
+│   --- pulsar-3.0.2.tar
+├── +++ apache-pulsar-3.0.2-src.tar
+│ ├── file list
+│ │ @@ -102,15 +102,14 @@
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2023-11-17 07:50:55.000000 apache-pulsar-3.0.2-src/jclouds-shaded/src/main/java/org/apache/pulsar/jclouds/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2023-11-17 07:50:55.000000 apache-pulsar-3.0.2-src/kafka-connect-avro-converter-shaded/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2023-11-17 07:50:55.000000 apache-pulsar-3.0.2-src/managed-ledger/
+│ │ @@ -413,15 +412,14 @@
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2023-11-17 07:50:55.000000 apache-pulsar-3.0.2-src/pulsar-broker-common/src/test/resources/ssl/my-ca/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2023-11-17 07:50:55.000000 apache-pulsar-3.0.2-src/pulsar-broker-shaded/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2023-11-17 07:50:55.000000 apache-pulsar-3.0.2-src/pulsar-client/
+│ │ @@ -1890,15 +1888,14 @@
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2023-11-17 07:50:55.000000 apache-pulsar-3.0.2-src/pulsar-sql/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2023-11-17 07:50:55.000000 apache-pulsar-3.0.2-src/pulsar-sql/java-version-trim-agent/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2023-11-17 07:50:55.000000 apache-pulsar-3.0.2-src/pulsar-sql/presto-distribution/
+│ │ @@ -2407,15 +2404,14 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)     6472 2023-11-17 07:50:55.000000 apache-pulsar-3.0.2-src/deployment/terraform-ansible/deploy-pulsar.yaml
+│ │ --rw-r--r--   0 root         (0) root         (0)     6472 2023-11-17 07:50:55.000000 apache-pulsar-3.0.2-src/deployment/terraform-ansible/deploy-pulsar.yaml-e
+│ │  -rw-r--r--   0 root         (0) root         (0)    28719 2023-11-17 07:50:55.000000 apache-pulsar-3.0.2-src/deployment/terraform-ansible/templates/bookkeeper.conf
+│ │ @@ -4228,15 +4224,15 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)     4013 2023-11-17 07:50:55.000000 apache-pulsar-3.0.2-src/pulsar-client/src/test/java/org/apache/pulsar/client/api/SchemaDefinitionBuilderTest.java
+│ │ --rw-r--r--   0 root         (0) root         (0)    19331 2023-11-17 07:50:55.000000 apache-pulsar-3.0.2-src/pulsar-client/src/test/java/org/apache/pulsar/client/avro/generated/NasaMission.java
+│ │ +-rw-r--r--   0 root         (0) root         (0)    19369 2023-11-17 07:50:55.000000 apache-pulsar-3.0.2-src/pulsar-client/src/test/java/org/apache/pulsar/client/avro/generated/NasaMission.java
+│ │  -rw-r--r--   0 root         (0) root         (0)     3572 2023-11-17 07:50:55.000000 apache-pulsar-3.0.2-src/pulsar-client/src/test/java/org/apache/pulsar/client/examples/TransactionExample.java
+│ │ @@ -7261,15 +7257,14 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)     3216 2023-11-17 07:50:55.000000 apache-pulsar-3.0.2-src/wireshark/pulsar.lua
+│ │ --rw-r--r--   0 root         (0) root         (0)      256 2023-11-17 07:50:55.000000 apache-pulsar-3.0.2-src/DEPENDENCIES
+│ │  -rwxr-xr-x   0 root         (0) root         (0)     4451 2023-11-17 07:50:55.000000 apache-pulsar-3.0.2-src/src/check-binary-license.sh
+│ ├── apache-pulsar-3.0.2-src/.mvn/.gradle-enterprise/gradle-enterprise-workspace-id
+│ │ @@ -1 +1 @@
+│ │ -rqlisjhvjrbr5febv45o77skjm
+│ │ +pu6zrcmk3fgl5kdvbzpj42jwxi
+│ ├── apache-pulsar-3.0.2-src/pulsar-client/src/test/java/org/apache/pulsar/client/avro/generated/NasaMission.java
+│ │ @@ -11,29 +11,31 @@
+│ │  import org.apache.avro.message.BinaryMessageEncoder;
+│ │  import org.apache.avro.message.BinaryMessageDecoder;
+│ │  import org.apache.avro.message.SchemaStore;
+│ │  
+│ │  @org.apache.avro.specific.AvroGenerated
+│ │  public class NasaMission extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
+│ │    private static final long serialVersionUID = 855396714074990031L;
+│ │ +
+│ │ +
+│ │    public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"NasaMission\",\"namespace\":\"org.apache.pulsar.client.avro.generated\",\"fields\":[{\"name\":\"id\",\"type\":\"int\"},{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"create_year\",\"type\":{\"type\":\"int\",\"logicalType\":\"date\"}},{\"name\":\"create_time\",\"type\":{\"type\":\"int\",\"logicalType\":\"time-millis\"}},{\"name\":\"create_timestamp\",\"type\":{\"type\":\"long\",\"logicalType\":\"timestamp-millis\"}}]}");
+│ │    public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
+│ │  
+│ │ -  private static SpecificData MODEL$ = new SpecificData();
+│ │ -static {
+│ │ +  private static final SpecificData MODEL$ = new SpecificData();
+│ │ +  static {
+│ │      MODEL$.addLogicalTypeConversion(new org.apache.avro.data.TimeConversions.DateConversion());
+│ │      MODEL$.addLogicalTypeConversion(new org.apache.avro.data.TimeConversions.TimestampMillisConversion());
+│ │      MODEL$.addLogicalTypeConversion(new org.apache.avro.data.TimeConversions.TimeMillisConversion());
+│ │    }
+│ │  
+│ │    private static final BinaryMessageEncoder<NasaMission> ENCODER =
+│ │ -      new BinaryMessageEncoder<NasaMission>(MODEL$, SCHEMA$);
+│ │ +      new BinaryMessageEncoder<>(MODEL$, SCHEMA$);
+│ │  
+│ │    private static final BinaryMessageDecoder<NasaMission> DECODER =
+│ │ -      new BinaryMessageDecoder<NasaMission>(MODEL$, SCHEMA$);
+│ │ +      new BinaryMessageDecoder<>(MODEL$, SCHEMA$);
+│ │  
+...
+│ │      private Builder(org.apache.pulsar.client.avro.generated.NasaMission other) {
+│ │ -      super(SCHEMA$);
+│ │ +      super(SCHEMA$, MODEL$);
+│ │        if (isValidValue(fields()[0], other.id)) {
+│ │          this.id = data().deepCopy(fields()[0].schema(), other.id);
+│ │          fieldSetFlags()[0] = true;
+│ │        }
+│ │        if (isValidValue(fields()[1], other.name)) {
+│ │          this.name = data().deepCopy(fields()[1].schema(), other.name);
+│ │          fieldSetFlags()[1] = true;
+
+2 / 35 target/reference/org.apache.pulsar/pulsar-3.0.2-source-release.zip target/pulsar-source-release.zip
+...
+├── pulsar/pulsar-sql/presto-pulsar/dependency-reduced-pom.xml
+│ ├── pulsar/pulsar-sql/presto-pulsar/dependency-reduced-pom.xml
+│ │ @@ -87,18 +87,22 @@
+│ │            <artifactId>pulsar-broker</artifactId>
+│ │            <version>3.0.2</version>
+│ │            <type>test-jar</type>
+│ │            <scope>test</scope>
+│ │          </dependency>
+│ │        </dependencies>
+│ │        <properties>
+│ │ -        <os.detected.arch>aarch_64</os.detected.arch>
+│ │ +        <os.detected.arch>x86_64</os.detected.arch>
+│ │ +        <os.detected.release.like.debian>true</os.detected.release.like.debian>
+│ │ +        <os.detected.classifier>linux-x86_64</os.detected.classifier>
+│ │ +        <os.detected.release>ubuntu</os.detected.release>
+│ │ +        <os.detected.release.version>22.04</os.detected.release.version>
+│ │          <os.detected.bitness>64</os.detected.bitness>
+│ │ -        <os.detected.name>osx</os.detected.name>
+│ │ -        <os.detected.classifier>osx-aarch_64</os.detected.classifier>
+│ │ +        <os.detected.name>linux</os.detected.name>
+│ │ +        <os.detected.release.like.ubuntu>true</os.detected.release.like.ubuntu>
+│ │        </properties>
+│ │      </profile>
+│ │    </profiles>
+│ │    <dependencies>
+│ │      <dependency>
+│ │        <groupId>io.airlift</groupId>
+│ │        <artifactId>bootstrap</artifactId>
+
+3 / 35 target/reference/org.apache.pulsar/pulsar-common-3.0.2.jar pulsar-common/target/pulsar-common.jar
+4 / 35 target/reference/org.apache.pulsar/pulsar-common-3.0.2-sources.jar pulsar-common/target/pulsar-common-sources.jar
+--- target/reference/org.apache.pulsar/pulsar-common-3.0.2-sources.jar
++++ pulsar-common/target/pulsar-common-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 606634 bytes, number of entries: 405
+│ +Zip file size: 606620 bytes, number of entries: 405
+│  -rw-r--r--  2.0 unx       64 b- defN 23-Nov-17 07:50 META-INF/MANIFEST.MF
+│ @@ -309,15 +309,15 @@
+│  -rw-r--r--  2.0 unx      926 b- defN 23-Nov-17 07:50 org/apache/pulsar/policies/data/loadbalancer/package-info.java
+│ --rw-r--r--  2.0 unx     3909 b- defN 23-Nov-17 07:50 org/apache/pulsar/PulsarVersion.java
+│ +-rw-r--r--  2.0 unx     3913 b- defN 23-Nov-17 07:50 org/apache/pulsar/PulsarVersion.java
+│  -rw-r--r--  2.0 unx     6259 b- defN 23-Nov-17 07:50 org/apache/pulsar/common/api/proto/AuthData.java
+│ @@ -400,8 +400,8 @@
+│  -rw-r--r--  2.0 unx       65 b- defN 23-Nov-17 07:50 META-INF/maven/org.apache.pulsar/pulsar-common/pom.properties
+│ -405 files, 2243686 bytes uncompressed, 531884 bytes compressed:  76.3%
+│ +405 files, 2243690 bytes uncompressed, 531870 bytes compressed:  76.3%
+├── org/apache/pulsar/PulsarVersion.java
+│ @@ -65,38 +65,38 @@
+│  
+│      public static String getVersion() {
+│          return fixVersionString("3.0.2");
+│      }
+│  
+│      public static String getGitSha() {
+│          String commit = "12c92fed7847965e3bc3769a91c866b2f0ec2e44";
+│ -        String dirtyString = "true";
+│ +        String dirtyString = "false";
+│          if (commit.contains("git.commit.id")){
+│              // this case may happen if you are building the sources
+│              // out of the git repository
+│              commit = "";
+│          }
+│          if (dirtyString == null || Boolean.valueOf(dirtyString)) {
+│              return commit + "(dirty)";
+│          } else {
+│              return commit;
+│          }
+│      }
+│  
+│      public static String getGitBranch() {
+│ -        return "branch-3.0";
+│ +        return "12c92fed7847965e3bc3769a91c866b2f0ec2e44";
+│      }
+│  
+│      public static String getBuildUser() {
+│ -        String email = "yubiao.feng@streamnative.io";
+│ -        String name = "fengyubiao";
+│ +        String email = "hboutemy@apache.org";
+│ +        String name = "Hervé Boutemy";
+│          return String.format("%s <%s>", name, email);
+│      }
+│  
+│      public static String getBuildHost() {
+│ -        return "fengyubiaodeMacBook-Pro.local";
+│ +        return "orchid";
+│      }
+│  
+│      public static String getBuildTime() {
+│ -        return "2023-11-17T15:50:55+0800";
+│ +        return "2023-11-17T08:50:55+0100";
+│      }
+│  }
+│ ├── encoding
+│ │ @@ -1 +1 @@
+│ │ -us-ascii
+│ │ +utf-8
+
+5 / 35 target/reference/org.apache.pulsar/jclouds-shaded-3.0.2.jar jclouds-shaded/target/jclouds-shaded.jar
+--- target/reference/org.apache.pulsar/jclouds-shaded-3.0.2.jar
++++ jclouds-shaded/target/jclouds-shaded.jar
+├── zipinfo {}
+│ @@ -71,14 +71,15 @@
+│  -rw----     2.0 fat     4214 bl defN 22-Mar-20 22:36 org/jclouds/s3/domain/internal/BucketListObjectMetadata.class
+│  -rw----     2.0 fat     1989 bl defN 22-Mar-20 22:36 org/jclouds/s3/domain/AccessControlList$Grantee.class
+│  -rw----     2.0 fat     2997 bl defN 22-Mar-20 22:36 org/jclouds/s3/domain/BucketLogging.class
+│  -rw----     2.0 fat     2000 bl defN 22-Mar-20 22:36 org/jclouds/s3/domain/CannedAccessPolicy.class
+│  -rw----     2.0 fat     8547 bl defN 22-Mar-20 22:36 org/jclouds/s3/options/CopyObjectOptions.class
+│  -rw----     2.0 fat    12749 bl defN 22-Mar-20 22:36 org/jclouds/s3/filters/Aws4SignerForChunkedUpload.class
+│  -rw----     2.0 fat     1624 bl defN 22-Mar-20 22:36 org/jclouds/s3/config/S3HttpApiModule$8.class
+│ +-rw----     2.0 fat        0 bl defN 22-Mar-20 22:36 META-INF/services/
+│  -rw----     2.0 fat     2768 bl defN 22-Mar-20 22:36 org/jclouds/s3/S3ApiMetadata.class
+│  -rw----     2.0 fat     3661 bl defN 22-Mar-20 22:36 org/jclouds/s3/xml/AccessControlListHandler.class
+│  -rw----     2.0 fat      459 bl defN 22-Mar-20 22:36 org/jclouds/s3/Bucket.class
+│  -rw----     2.0 fat     1431 bl defN 22-Mar-20 22:36 org/jclouds/s3/binders/BindNoBucketLoggingToXmlPayload.class
+│  -rw----     2.0 fat     4480 bl defN 22-Mar-20 22:36 org/jclouds/s3/binders/BindObjectMetadataToRequest.class
+│  -rw----     2.0 fat     2653 bl defN 22-Mar-20 22:36 org/jclouds/s3/blobstore/functions/ContainerToBucketListOptions.class
+│  -rw----     2.0 fat        0 bl defN 22-Mar-20 22:36 org/jclouds/s3/blobstore/config/
+│ @@ -6122,12 +6123,11 @@
+│  -rw----     2.0 fat      336 bl defN 04-Mar-19 14:57 org/aopalliance/intercept/ConstructorInterceptor.class
+│  -rw----     2.0 fat      254 bl defN 04-Mar-19 14:57 org/aopalliance/intercept/ConstructorInvocation.class
+│  -rw----     2.0 fat      163 bl defN 04-Mar-19 14:57 org/aopalliance/intercept/Interceptor.class
+│  -rw----     2.0 fat      217 bl defN 04-Mar-19 14:57 org/aopalliance/intercept/Invocation.class
+│  -rw----     2.0 fat      297 bl defN 04-Mar-19 14:57 org/aopalliance/intercept/Joinpoint.class
+│  -rw----     2.0 fat      318 bl defN 04-Mar-19 14:57 org/aopalliance/intercept/MethodInterceptor.class
+│  -rw----     2.0 fat      234 bl defN 04-Mar-19 14:57 org/aopalliance/intercept/MethodInvocation.class
+│ --rw----     2.0 fat        0 bl defN 22-Mar-20 22:52 META-INF/services/
+│  -rw----     2.0 fat      319 bl defN 22-Mar-20 22:52 META-INF/services/org.jclouds.providers.ProviderMetadata
+│  -rw----     2.0 fat      459 bl defN 22-Mar-20 22:52 META-INF/services/org.jclouds.apis.ApiMetadata
+│  -rw----     2.0 fat       52 bl defN 22-Mar-20 22:52 META-INF/services/org.jclouds.logging.config.LoggingModule
+│  6131 files, 18509997 bytes uncompressed, 6718888 bytes compressed:  63.7%
+
+6 / 35 target/reference/org.apache.pulsar/tiered-storage-jcloud-3.0.2.jar tiered-storage/jcloud/target/tiered-storage-jcloud-3.0.2.nar
+--- target/reference/org.apache.pulsar/tiered-storage-jcloud-3.0.2.jar
++++ tiered-storage/jcloud/target/tiered-storage-jcloud-3.0.2.nar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 111278678 bytes, number of entries: 213
+│ +Zip file size: 111278667 bytes, number of entries: 213
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-17 07:50 META-INF/
+│  -rw-r--r--  2.0 unx      274 b- defN 23-Nov-17 07:50 META-INF/MANIFEST.MF
+│ @@ -133,15 +133,15 @@
+│  -rw-r--r--  2.0 unx  1664824 b- defN 23-Nov-17 07:50 META-INF/bundled-dependencies/protobuf-java-3.19.6.jar
+│  -rw-r--r--  2.0 unx    73437 b- defN 23-Nov-17 07:50 META-INF/bundled-dependencies/protobuf-java-util-3.19.6.jar
+│  -rw-r--r--  2.0 unx   294805 b- defN 23-Nov-17 07:50 META-INF/bundled-dependencies/pulsar-client-admin-api-3.0.2.jar
+│  -rw-r--r--  2.0 unx   163787 b- defN 23-Nov-17 07:50 META-INF/bundled-dependencies/pulsar-client-api-3.0.2.jar
+│ --rw-r--r--  2.0 unx  1034521 b- defN 23-Nov-17 07:50 META-INF/bundled-dependencies/pulsar-common-3.0.2.jar
+│ +-rw-r--r--  2.0 unx  1034503 b- defN 23-Nov-17 07:50 META-INF/bundled-dependencies/pulsar-common-3.0.2.jar
+│  -rw-r--r--  2.0 unx   366371 b- defN 23-Nov-17 07:50 META-INF/bundled-dependencies/pulsar-metadata-3.0.2.jar
+│  -rw-r--r--  2.0 unx    11369 b- defN 23-Nov-17 07:50 META-INF/bundled-dependencies/reactive-streams-1.0.3.jar
+│  -rw-r--r--  2.0 unx 58000372 b- defN 23-Nov-17 07:50 META-INF/bundled-dependencies/rocksdbjni-7.9.2.jar
+│  -rw-r--r--  2.0 unx  2636113 b- defN 23-Nov-17 07:50 META-INF/bundled-dependencies/rxjava-3.0.1.jar
+│  -rw-r--r--  2.0 unx    90482 b- defN 23-Nov-17 07:50 META-INF/bundled-dependencies/simpleclient-0.16.0.jar
+│ @@ -208,8 +208,8 @@
+│  -rw-r--r--  2.0 unx     5154 b- defN 23-Nov-17 07:50 META-INF/maven/org.apache.pulsar/tiered-storage-jcloud/pom.xml
+│  -rw-r--r--  2.0 unx       73 b- defN 23-Nov-17 07:50 META-INF/maven/org.apache.pulsar/tiered-storage-jcloud/pom.properties
+│ -213 files, 117352925 bytes uncompressed, 111235910 bytes compressed:  5.2%
+│ +213 files, 117352907 bytes uncompressed, 111235899 bytes compressed:  5.2%
+├── META-INF/bundled-dependencies/jclouds-shaded-3.0.2.jar
+│ ├── zipinfo {}
+│ │ @@ -71,14 +71,15 @@
+│ │  -rw----     2.0 fat     4214 bl defN 22-Mar-20 22:36 org/jclouds/s3/domain/internal/BucketListObjectMetadata.class
+│ │  -rw----     2.0 fat     1989 bl defN 22-Mar-20 22:36 org/jclouds/s3/domain/AccessControlList$Grantee.class
+│ │  -rw----     2.0 fat     2997 bl defN 22-Mar-20 22:36 org/jclouds/s3/domain/BucketLogging.class
+│ │  -rw----     2.0 fat     2000 bl defN 22-Mar-20 22:36 org/jclouds/s3/domain/CannedAccessPolicy.class
+│ │  -rw----     2.0 fat     8547 bl defN 22-Mar-20 22:36 org/jclouds/s3/options/CopyObjectOptions.class
+│ │  -rw----     2.0 fat    12749 bl defN 22-Mar-20 22:36 org/jclouds/s3/filters/Aws4SignerForChunkedUpload.class
+│ │  -rw----     2.0 fat     1624 bl defN 22-Mar-20 22:36 org/jclouds/s3/config/S3HttpApiModule$8.class
+│ │ +-rw----     2.0 fat        0 bl defN 22-Mar-20 22:36 META-INF/services/
+│ │  -rw----     2.0 fat     2768 bl defN 22-Mar-20 22:36 org/jclouds/s3/S3ApiMetadata.class
+│ │  -rw----     2.0 fat     3661 bl defN 22-Mar-20 22:36 org/jclouds/s3/xml/AccessControlListHandler.class
+│ │  -rw----     2.0 fat      459 bl defN 22-Mar-20 22:36 org/jclouds/s3/Bucket.class
+│ │  -rw----     2.0 fat     1431 bl defN 22-Mar-20 22:36 org/jclouds/s3/binders/BindNoBucketLoggingToXmlPayload.class
+│ │  -rw----     2.0 fat     4480 bl defN 22-Mar-20 22:36 org/jclouds/s3/binders/BindObjectMetadataToRequest.class
+│ │  -rw----     2.0 fat     2653 bl defN 22-Mar-20 22:36 org/jclouds/s3/blobstore/functions/ContainerToBucketListOptions.class
+│ │  -rw----     2.0 fat        0 bl defN 22-Mar-20 22:36 org/jclouds/s3/blobstore/config/
+│ │ @@ -6122,12 +6123,11 @@
+│ │  -rw----     2.0 fat      336 bl defN 04-Mar-19 14:57 org/aopalliance/intercept/ConstructorInterceptor.class
+│ │  -rw----     2.0 fat      254 bl defN 04-Mar-19 14:57 org/aopalliance/intercept/ConstructorInvocation.class
+│ │  -rw----     2.0 fat      163 bl defN 04-Mar-19 14:57 org/aopalliance/intercept/Interceptor.class
+│ │  -rw----     2.0 fat      217 bl defN 04-Mar-19 14:57 org/aopalliance/intercept/Invocation.class
+│ │  -rw----     2.0 fat      297 bl defN 04-Mar-19 14:57 org/aopalliance/intercept/Joinpoint.class
+│ │  -rw----     2.0 fat      318 bl defN 04-Mar-19 14:57 org/aopalliance/intercept/MethodInterceptor.class
+│ │  -rw----     2.0 fat      234 bl defN 04-Mar-19 14:57 org/aopalliance/intercept/MethodInvocation.class
+│ │ --rw----     2.0 fat        0 bl defN 22-Mar-20 22:52 META-INF/services/
+│ │  -rw----     2.0 fat      319 bl defN 22-Mar-20 22:52 META-INF/services/org.jclouds.providers.ProviderMetadata
+│ │  -rw----     2.0 fat      459 bl defN 22-Mar-20 22:52 META-INF/services/org.jclouds.apis.ApiMetadata
+│ │  -rw----     2.0 fat       52 bl defN 22-Mar-20 22:52 META-INF/services/org.jclouds.logging.config.LoggingModule
+│ │  6131 files, 18509997 bytes uncompressed, 6718888 bytes compressed:  63.7%
+├── META-INF/bundled-dependencies/pulsar-common-3.0.2.jar
+│ ├── zipinfo {}
+│ │ @@ -1,8 +1,8 @@
+│ │ -Zip file size: 1034521 bytes, number of entries: 540
+│ │ +Zip file size: 1034503 bytes, number of entries: 540
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-17 07:50 META-INF/
+│ │  -rw-r--r--  2.0 unx      314 b- defN 23-Nov-17 07:50 META-INF/MANIFEST.MF
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-17 07:50 io/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-17 07:50 io/airlift/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-17 07:50 io/airlift/compress/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-17 07:50 io/airlift/compress/zstd/
+│ │  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-17 07:50 org/
+│ │ @@ -57,15 +57,15 @@
+│ │  -rw-r--r--  2.0 unx    13084 b- defN 23-Nov-17 07:50 META-INF/DEPENDENCIES
+│ │  -rw-r--r--  2.0 unx    11358 b- defN 23-Nov-17 07:50 META-INF/LICENSE
+│ │  -rw-r--r--  2.0 unx      166 b- defN 23-Nov-17 07:50 META-INF/NOTICE
+│ │  -rw-r--r--  2.0 unx     1751 b- defN 23-Nov-17 07:50 findbugsExclude.xml
+│ │  -rw-r--r--  2.0 unx      696 b- defN 23-Nov-17 07:50 io/airlift/compress/zstd/ZStdRawCompressor.class
+│ │  -rw-r--r--  2.0 unx      635 b- defN 23-Nov-17 07:50 io/airlift/compress/zstd/ZStdRawDecompressor.class
+│ │  -rw-r--r--  2.0 unx      130 b- defN 23-Nov-17 07:50 io/airlift/compress/zstd/package-info.class
+│ │ --rw-r--r--  2.0 unx     2753 b- defN 23-Nov-17 07:50 org/apache/pulsar/PulsarVersion.class
+│ │ +-rw-r--r--  2.0 unx     2711 b- defN 23-Nov-17 07:50 org/apache/pulsar/PulsarVersion.class
+│ │  -rw-r--r--  2.0 unx     3463 b- defN 23-Nov-17 07:50 org/apache/pulsar/client/admin/internal/data/AuthPoliciesImpl$AuthPoliciesImplBuilder.class
+│ │  -rw-r--r--  2.0 unx     5147 b- defN 23-Nov-17 07:50 org/apache/pulsar/client/admin/internal/data/AuthPoliciesImpl.class
+│ │  -rw-r--r--  2.0 unx      150 b- defN 23-Nov-17 07:50 org/apache/pulsar/client/admin/internal/data/package-info.class
+│ │  -rw-r--r--  2.0 unx     1925 b- defN 23-Nov-17 07:50 org/apache/pulsar/client/api/MessageIdAdv.class
+│ │  -rw-r--r--  2.0 unx      134 b- defN 23-Nov-17 07:50 org/apache/pulsar/client/api/package-info.class
+│ │  -rw-r--r--  2.0 unx     3014 b- defN 23-Nov-17 07:50 org/apache/pulsar/client/api/url/DataURLStreamHandler$DataURLConnection.class
+│ │  -rw-r--r--  2.0 unx      752 b- defN 23-Nov-17 07:50 org/apache/pulsar/client/api/url/DataURLStreamHandler.class
+│ │ @@ -535,8 +535,8 @@
+│ │  -rw-r--r--  2.0 unx     1642 b- defN 23-Nov-17 07:50 org/apache/pulsar/policies/data/loadbalancer/SystemResourceUsage$ResourceType.class
+│ │  -rw-r--r--  2.0 unx     1951 b- defN 23-Nov-17 07:50 org/apache/pulsar/policies/data/loadbalancer/SystemResourceUsage.class
+│ │  -rw-r--r--  2.0 unx     6628 b- defN 23-Nov-17 07:50 org/apache/pulsar/policies/data/loadbalancer/TimeAverageBrokerData.class
+│ │  -rw-r--r--  2.0 unx     3107 b- defN 23-Nov-17 07:50 org/apache/pulsar/policies/data/loadbalancer/TimeAverageMessageData.class
+│ │  -rw-r--r--  2.0 unx      150 b- defN 23-Nov-17 07:50 org/apache/pulsar/policies/data/loadbalancer/package-info.class
+│ │  -rw-r--r--  2.0 unx    11095 b- defN 23-Nov-17 07:50 META-INF/maven/org.apache.pulsar/pulsar-common/pom.xml
+│ │  -rw-r--r--  2.0 unx       65 b- defN 23-Nov-17 07:50 META-INF/maven/org.apache.pulsar/pulsar-common/pom.properties
+│ │ -540 files, 2317914 bytes uncompressed, 928725 bytes compressed:  60.0%
+│ │ +540 files, 2317872 bytes uncompressed, 928707 bytes compressed:  60.0%
+│ ├── org/apache/pulsar/PulsarVersion.class
+│ │ ├── procyon -ec {}
+│ │ │ @@ -32,40 +32,40 @@
+│ │ │      
+│ │ │      public static String getVersion() {
+│ │ │          return fixVersionString("3.0.2");
+│ │ │      }
+│ │ │      
+│ │ │      public static String getGitSha() {
+│ │ │          String commit = "12c92fed7847965e3bc3769a91c866b2f0ec2e44";
+│ │ │ -        final String dirtyString = "true";
+│ │ │ +        final String dirtyString = "false";
+│ │ │          if (commit.contains("git.commit.id")) {
+│ │ │              commit = "";
+│ │ │          }
+│ │ │          if (dirtyString == null || Boolean.valueOf(dirtyString)) {
+│ │ │              return commit + "(dirty)";
+│ │ │          }
+│ │ │          return commit;
+│ │ │      }
+│ │ │      
+│ │ │      public static String getGitBranch() {
+│ │ │ -        return "branch-3.0";
+│ │ │ +        return "12c92fed7847965e3bc3769a91c866b2f0ec2e44";
+│ │ │      }
+│ │ │      
+│ │ │      public static String getBuildUser() {
+│ │ │ -        final String email = "yubiao.feng@streamnative.io";
+│ │ │ -        final String name = "fengyubiao";
+│ │ │ +        final String email = "hboutemy@apache.org";
+│ │ │ +        final String name = "Herv\u00e9 Boutemy";
+│ │ │          return String.format("%s <%s>", name, email);
+│ │ │      }
+│ │ │      
+│ │ │      public static String getBuildHost() {
+│ │ │ -        return "fengyubiaodeMacBook-Pro.local";
+│ │ │ +        return "orchid";
+│ │ │      }
+│ │ │      
+│ │ │      public static String getBuildTime() {
+│ │ │ -        return "2023-11-17T15:50:55+0800";
+│ │ │ +        return "2023-11-17T08:50:55+0100";
+│ │ │      }
+│ │ │      
+│ │ │      static {
+│ │ │          majorMinorPatchPattern = Pattern.compile("([0-9]+)\\.([0-9]+)\\.([0-9]+)(.*)");
+│ │ │          majorMinorPatter = Pattern.compile("([0-9]+)\\.([0-9]+)(.*)");
+│ │ │      }
+│ │ │  }
+
+# same as previous
+7 / 35 target/reference/org.apache.pulsar/tiered-storage-file-system-3.0.2.jar tiered-storage/file-system/target/tiered-storage-file-system-3.0.2.nar
+
+8 / 35 target/reference/org.apache.pulsar/bouncy-castle-bc-3.0.2-pkg.jar bouncy-castle/bc/target/bouncy-castle-bc-3.0.2-pkg.jar
+
+10 / 35 target/reference/org.apache.pulsar/pulsar-client-2x-shaded-3.0.2.jar pulsar-client-1x-base/pulsar-client-2x-shaded/target/pulsar-client-2x-shaded.jar
+--- target/reference/org.apache.pulsar/pulsar-client-2x-shaded-3.0.2.jar
++++ pulsar-client-1x-base/pulsar-client-2x-shaded/target/pulsar-client-2x-shaded.jar
+├── zipinfo {}
+│ @@ -1,10910 +1,10910 @@
+│ -Zip file size: 23182770 bytes, number of entries: 11088
+│ +Zip file size: 23182752 bytes, number of entries: 11088
+│  -rw----     2.0 fat        0 bX defN 23-Nov-17 07:50 META-INF/
+│  -rw----     2.0 fat      344 bl defN 23-Nov-17 07:50 META-INF/MANIFEST.MF
+│  -rw----     2.0 fat    19463 bl defN 23-Nov-17 07:50 META-INF/DEPENDENCIES
+│  -rw----     2.0 fat    11358 bl defN 23-Nov-17 07:50 META-INF/LICENSE
+│  -rw----     2.0 fat      181 bl defN 23-Nov-17 07:50 META-INF/NOTICE
+│  -rw----     2.0 fat        0 bl defN 23-Nov-17 07:50 META-INF/maven/
+│  -rw----     2.0 fat        0 bl defN 23-Nov-17 07:50 META-INF/maven/org.apache.pulsar/
+│  -rw----     2.0 fat        0 bl defN 23-Nov-17 07:50 META-INF/maven/org.apache.pulsar/pulsar-client-2x-shaded/
+│  -rw----     2.0 fat     3828 bl defN 23-Nov-17 07:50 META-INF/maven/org.apache.pulsar/pulsar-client-2x-shaded/pom.xml
+│  -rw----     2.0 fat       75 bl defN 23-Nov-17 07:50 META-INF/maven/org.apache.pulsar/pulsar-client-2x-shaded/pom.properties
+│ --rw----     2.0 fat    37280 bl defN 23-Nov-17 07:50 findbugsExclude.xml
+│ --rw----     2.0 fat        0 bl defN 80-Feb-01 00:00 org/
+...
+│ --rw----     2.0 fat     3237 bl defN 20-Apr-08 07:39 org/apache/pulsar/shade/org/asynchttpclient/ListenableFuture$CompletedFailure.class
+│ --rw----     2.0 fat    28409 bl defN 20-Apr-08 07:39 org/apache/pulsar/shade/org/asynchttpclient/RequestBuilderBase.class
+│ +-rw----     2.0 fat        0 bl defN 23-Feb-26 11:06 org/
+│ +-rw----     2.0 fat        0 bl defN 23-Feb-26 11:06 org/apache/
+│ +-rw----     2.0 fat        0 bl defN 23-Feb-26 11:06 org/apache/pulsar/
+│ +-rw----     2.0 fat        0 bl defN 23-Feb-26 11:06 org/apache/pulsar/shade/
+│ +-rw----     2.0 fat        0 bl defN 23-Feb-26 11:06 org/apache/pulsar/shade/org/
+│ +-rw----     2.0 fat        0 bl defN 23-Feb-26 11:06 org/apache/pulsar/shade/org/yaml/
+│ +-rw----     2.0 fat        0 bl defN 23-Feb-26 11:06 org/apache/pulsar/shade/org/yaml/snakeyaml/
+...
