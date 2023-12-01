@@ -1,0 +1,18 @@
+groupId=io.cucumber
+artifactId=ci-environment
+display=${groupId}:${artifactId}
+version=10.0.0
+
+gitRepo=https://github.com/cucumber/ci-environment.git
+gitTag=v${version}
+
+tool=mvn
+jdk=11
+newline=lf
+#umask=022
+
+command="mvn -f java -Psign-source-javadoc clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=java/target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=

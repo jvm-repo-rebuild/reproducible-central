@@ -1,0 +1,9 @@
+version=10.0.0
+ok=3
+ko=0
+ignored=0
+okFiles="ci-environment-10.0.0.pom ci-environment-10.0.0.jar ci-environment-10.0.0-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
