@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Log4j JMX GUI
+group-id=org.apache.logging.log4j
+artifact-id=log4j-jmx-gui
+version=2.22.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/apache/logging-log4j-jmx-gui.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.logging.log4j
+outputs.0.filename=log4j-jmx-gui-2.22.0.pom
+outputs.0.length=6712
+outputs.0.checksums.sha512=6b18090461f3e6477a62e4c5aad5ad71b70241f82a952e89f43f3788fe9fa1d78b7e02ac9ddb84e4c7c2e28c6780c83a8edbbbd3510446ca6a95c597c8a27e65
+
+outputs.1.groupId=org.apache.logging.log4j
+outputs.1.filename=log4j-jmx-gui-2.22.0.jar
+outputs.1.length=27386
+outputs.1.checksums.sha512=5150ffd21cbb2b5a620f593cdd9f7c204d20a38e747d0d624f5e15ac85baa53fcd5fb2022d5ee90d6b53cd43d0b31e125120a882ff8896b15825e7ab84e6ff86
+
+outputs.2.groupId=org.apache.logging.log4j
+outputs.2.filename=log4j-jmx-gui-2.22.0-cyclonedx.xml
+outputs.2.length=25124
+outputs.2.checksums.sha512=432f9f73683dd9da45765d7d97427d66973da12ffbf36c7b37774bb548d5ebb0f045e7b50b7b3e26e8e7b2488dd63f14bdb24e8316822f83435ed080e9b78e15
+
+outputs.3.groupId=org.apache.logging.log4j
+outputs.3.filename=log4j-jmx-gui-2.22.0-sources.jar
+outputs.3.length=21668
+outputs.3.checksums.sha512=a29cbfa642f0b67b48ebf0a97202837d9f25f6f0e5c30dc49eb31b53b2caa3d096e0545805b0c65ed6a2e9dd63ca73b320d9852efc5ed63bea097d32b204a171

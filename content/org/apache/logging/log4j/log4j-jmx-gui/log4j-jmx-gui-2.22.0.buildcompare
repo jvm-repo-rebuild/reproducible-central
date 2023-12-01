@@ -1,0 +1,7 @@
+version=2.22.0
+ok=4
+ko=0
+ignored=0
+okFiles="log4j-jmx-gui-2.22.0.pom log4j-jmx-gui-2.22.0.jar log4j-jmx-gui-2.22.0-cyclonedx.xml log4j-jmx-gui-2.22.0-sources.jar"
+koFiles=""
+ignoredFiles=""

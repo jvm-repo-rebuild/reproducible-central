@@ -1,0 +1,18 @@
+groupId=org.apache.logging.log4j
+artifactId=log4j-jmx-gui
+display=${groupId}:${artifactId}
+version=2.22.0
+
+gitRepo=https://github.com/apache/logging-log4j-jmx-gui.git
+gitTag=rel/${version}
+
+tool=mvn
+jdk=17
+newline=lf
+umask=022
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
