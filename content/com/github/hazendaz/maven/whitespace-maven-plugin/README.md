@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/hazendaz/whitespace-maven-plugin.git](https://github.com/hazendaz/whitespace-maven-plugin.git)
 
-rebuilding **2 releases** of com.github.hazendaz.maven:whitespace-maven-plugin:
+rebuilding **3 releases** of com.github.hazendaz.maven:whitespace-maven-plugin:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.3.1](https://central.sonatype.com/artifact/com.github.hazendaz.maven/whitespace-maven-plugin/1.3.1/pom) | | | |
+| [1.3.1](https://central.sonatype.com/artifact/com.github.hazendaz.maven/whitespace-maven-plugin/1.3.1/pom) | [mvn jdk21 w](whitespace-maven-plugin-1.3.1.buildspec) | [result](whitespace-maven-plugin-1.3.1.buildinfo): [4 :heavy_check_mark:  1 :warning:](whitespace-maven-plugin-1.3.1.buildcompare) [:mag:](whitespace-maven-plugin-1.3.1.diffoscope) | 55K |
 | [1.3.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/whitespace-maven-plugin/1.3.0/pom) | [mvn jdk17 w](whitespace-maven-plugin-1.3.0.buildspec) | [result](whitespace-maven-plugin-1.3.0.buildinfo): [4 :heavy_check_mark:  1 :warning:](whitespace-maven-plugin-1.3.0.buildcompare) [:mag:](whitespace-maven-plugin-1.3.0.diffoscope) | 55K |
 | [1.2.0](https://central.sonatype.com/artifact/com.github.hazendaz.maven/whitespace-maven-plugin/1.2.0/pom) | [mvn jdk17 w](whitespace-maven-plugin-1.2.0.buildspec) | [result](whitespace-maven-plugin-1.2.0.buildinfo): [4 :heavy_check_mark:  1 :warning:](whitespace-maven-plugin-1.2.0.buildcompare) [:mag:](whitespace-maven-plugin-1.2.0.diffoscope) | 54K |
 

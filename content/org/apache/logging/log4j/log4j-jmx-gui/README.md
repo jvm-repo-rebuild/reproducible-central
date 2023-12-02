@@ -13,7 +13,6 @@ rebuilding **1 releases** of org.apache.logging.log4j:log4j-jmx-gui:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.0.0-alpha1](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-jmx-gui/3.0.0-alpha1/pom) | | | |
 | [2.22.0](https://central.sonatype.com/artifact/org.apache.logging.log4j/log4j-jmx-gui/2.22.0/pom) | [mvn jdk17](log4j-jmx-gui-2.22.0.buildspec) | [result](log4j-jmx-gui-2.22.0.buildinfo): [4 :heavy_check_mark: ](log4j-jmx-gui-2.22.0.buildcompare) | 79K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
