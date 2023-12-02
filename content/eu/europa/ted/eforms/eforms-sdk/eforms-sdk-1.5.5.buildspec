@@ -1,7 +1,7 @@
 groupId=eu.europa.ted.eforms
 artifactId=eforms-sdk
 display=${groupId}:${artifactId}
-version=1.5.3
+version=1.5.5
 
 gitRepo=https://github.com/OP-TED/eForms-SDK.git
 gitTag=${version}
