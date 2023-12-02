@@ -1,0 +1,19 @@
+groupId=nl.hsac
+artifactId=hsac-fitnesse-fixtures
+display=${groupId}:${artifactId}
+version=5.2.46
+
+gitRepo=https://github.com/fhoeben/${artifactId}.git
+gitTag=${version}
+
+tool=mvn
+jdk=8
+newline=lf
+umask=022
+
+# need to force outputTimestamp for jar files content, but it does not match value in Git...
+command="mvn clean package -Prelease -Dgpg.skip -Dproject.build.outputTimestamp=2023-11-04T12:26:18Z"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+diffoscope=${artifactId}-${version}.diffoscope
+issue=
