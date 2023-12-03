@@ -4,9 +4,11 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20231202170427 --> [swagger-ui](../content/org/webjars/swagger-ui/README.md) | [5.9.0](../content/org/webjars/swagger-ui/swagger-ui-5.9.0.buildspec) :heavy_check_mark: | [5.10.3](../content/org/webjars/swagger-ui/swagger-ui-5.10.3.buildspec) | `bin/add-new-release.sh content/org/webjars/swagger-ui/swagger-ui-5.9.0.buildspec 5.10.3` |
+| <!-- 20231203200212 --> [psi-probe](../content/com/github/psi-probe/README.md) | [4.0.0](../content/com/github/psi-probe/psi-probe-4.0.0.buildspec) :heavy_check_mark: | [4.1.0](../content/com/github/psi-probe/psi-probe-4.1.0.buildspec) | `bin/add-new-release.sh content/com/github/psi-probe/psi-probe-4.0.0.buildspec 4.1.0` |
+| <!-- 20231203130327 --> [activemq-parent](../content/org/apache/activemq/README.md) | [6.0.0](../content/org/apache/activemq/activemq-6.0.0.buildspec) :heavy_check_mark: | [6.0.1](../content/org/apache/activemq/activemq-6.0.1.buildspec) | `bin/add-new-release.sh content/org/apache/activemq/activemq-6.0.0.buildspec 6.0.1` |
+| <!-- 20231203014025 --> [htmlcompressor-maven-plugin](../content/com/github/hazendaz/maven/htmlcompressor-maven-plugin/README.md) | [1.9.1.1](../content/com/github/hazendaz/maven/htmlcompressor-maven-plugin/htmlcompressor-maven-plugin-1.9.1-buildspec-1.9.1.1.buildspec) :heavy_check_mark: | [2.0.0](../content/com/github/hazendaz/maven/htmlcompressor-maven-plugin/htmlcompressor-maven-plugin-1.9.1-buildspec-2.0.0.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/maven/htmlcompressor-maven-plugin/htmlcompressor-maven-plugin-1.9.1-buildspec-1.9.1.1.buildspec 2.0.0` |
+| <!-- 20231203013254 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.2](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec) :heavy_check_mark: | [10.4.3-beta-9](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.3-beta-9.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec 10.4.3-beta-9` |
 | <!-- 20231130000932 --> [alluxio-parent](../content/org/alluxio/alluxio/README.md) | [303](../content/org/alluxio/alluxio/alluxio-303.buildspec) :heavy_check_mark: | [306](../content/org/alluxio/alluxio/alluxio-306.buildspec) | `bin/add-new-release.sh content/org/alluxio/alluxio/alluxio-303.buildspec 306` |
-| <!-- 20231126013300 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.2](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec) :heavy_check_mark: | [10.4.3-beta-8](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.3-beta-8.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec 10.4.3-beta-8` |
 | <!-- 20231119190519 --> [sentry-maven-skin](../content/org/sentrysoftware/maven/sentry-maven-skin/README.md) | [6.1.00](../content/org/sentrysoftware/maven/sentry-maven-skin/sentry-maven-skin-6.1.00.buildspec) :heavy_check_mark: | [6.2.00](../content/org/sentrysoftware/maven/sentry-maven-skin/sentry-maven-skin-6.2.00.buildspec) | `bin/add-new-release.sh content/org/sentrysoftware/maven/sentry-maven-skin/sentry-maven-skin-6.1.00.buildspec 6.2.00` |
 | <!-- 20231110095945 --> [orc](../content/org/apache/orc/README.md) | [1.9.1](../content/org/apache/orc/orc-1.9.1.buildspec) :heavy_check_mark: | [1.9.2](../content/org/apache/orc/orc-1.9.2.buildspec) | `bin/add-new-release.sh content/org/apache/orc/orc-1.9.1.buildspec 1.9.2` |
 <!-- END GENERATED ADD OK -->
@@ -14,7 +16,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20231201230934 --> [javacan](../content/tel/schich/javacan/README.md) | [3.2.2](../content/tel/schich/javacan/javacan-3.2.2.buildspec) :warning: | [3.2.5](../content/tel/schich/javacan/javacan-3.2.5.buildspec) | `bin/add-new-release.sh content/tel/schich/javacan/javacan-3.2.2.buildspec 3.2.5` |
+| <!-- 20231203193139 --> [maven-javadoc-plugin](../content/org/apache/maven/plugins/maven-javadoc-plugin/README.md) | [3.6.2](../content/org/apache/maven/plugins/maven-javadoc-plugin/maven-javadoc-plugin-3.6.2.buildspec) :warning: | [3.6.3](../content/org/apache/maven/plugins/maven-javadoc-plugin/maven-javadoc-plugin-3.6.3.buildspec) | `bin/add-new-release.sh content/org/apache/maven/plugins/maven-javadoc-plugin/maven-javadoc-plugin-3.6.2.buildspec 3.6.3` |
+| <!-- 20231203185656 --> [javacan](../content/tel/schich/javacan/README.md) | [3.2.2](../content/tel/schich/javacan/javacan-3.2.2.buildspec) :warning: | [3.3.0](../content/tel/schich/javacan/javacan-3.3.0.buildspec) | `bin/add-new-release.sh content/tel/schich/javacan/javacan-3.2.2.buildspec 3.3.0` |
+| <!-- 20231203131811 --> [hsac-fitnesse-pdf](../content/nl/hsac/hsac-fitnesse-pdf/README.md) | [0.1.2](../content/nl/hsac/hsac-fitnesse-pdf/hsac-fitnesse-pdf-0.1.2.buildspec) :warning: [:memo:](https://github.com/fhoeben/hsac-fitnesse-pdf/pull/9) | [0.1.3](../content/nl/hsac/hsac-fitnesse-pdf/hsac-fitnesse-pdf-0.1.3.buildspec) | `bin/add-new-release.sh content/nl/hsac/hsac-fitnesse-pdf/hsac-fitnesse-pdf-0.1.2.buildspec 0.1.3` |
 | <!-- 20231201193216 --> [mockito-core](../content/org/mockito/mockito-core/README.md) | [5.5.0](../content/org/mockito/mockito-core/mockito-5.5.0.buildspec) :warning: | [5.8.0](../content/org/mockito/mockito-core/mockito-5.8.0.buildspec) | `bin/add-new-release.sh content/org/mockito/mockito-core/mockito-5.5.0.buildspec 5.8.0` |
 | <!-- 20231128094126 --> [pulsar](../content/org/apache/pulsar/README.md) | [3.0.2](../content/org/apache/pulsar/pulsar-3.0.2.buildspec) :warning: | [3.1.1](../content/org/apache/pulsar/pulsar-3.1.1.buildspec) | `bin/add-new-release.sh content/org/apache/pulsar/pulsar-3.0.2.buildspec 3.1.1` |
 | <!-- 20231128031430 --> [nifi](../content/org/apache/nifi/nifi/README.md) | [1.22.0](../content/org/apache/nifi/nifi/nifi-1.22.0.buildspec) :warning: | [2.0.0-M1](../content/org/apache/nifi/nifi/nifi-2.0.0-M1.buildspec) | `bin/add-new-release.sh content/org/apache/nifi/nifi/nifi-1.22.0.buildspec 2.0.0-M1` |
@@ -59,7 +63,6 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
-| <!-- 20231201221853 --> [hsac-fitnesse-pdf](../content/nl/hsac/hsac-fitnesse-pdf/README.md) | 0.1.2 :warning: [:memo:](https://github.com/fhoeben/hsac-fitnesse-pdf/pull/9) |
 | <!-- 20231129032326 --> [whitespace-maven-plugin](../content/com/github/hazendaz/maven/whitespace-maven-plugin/README.md) | 1.3.1 :warning: |
 | <!-- 20231128065356 --> [xmlsec](../content/org/apache/santuario/xmlsec/README.md) | 4.0.1 :warning: [:memo:](https://github.com/apache/santuario-xml-security-java/pull/248) |
 | <!-- 20231127144059 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.1.6 :warning: |
@@ -71,7 +74,6 @@ New Releases To Add
 | <!-- 20231111042458 --> [shiro-root](../content/org/apache/shiro/README.md) | 2.0.0-alpha-4 :warning: |
 | <!-- 20231107092446 --> [johnzon](../content/org/apache/johnzon/README.md) | 2.0.0 :warning: [:memo:](https://github.com/apache/johnzon/pull/114) |
 | <!-- 20231107080910 --> [jackrabbit-parent](../content/org/apache/jackrabbit/jackrabbit/README.md) | 2.21.20 :warning: [:memo:](https://github.com/apache/jackrabbit/pull/139) |
-| <!-- 20231106202955 --> [maven-javadoc-plugin](../content/org/apache/maven/plugins/maven-javadoc-plugin/README.md) | 3.6.2 :warning: |
 | <!-- 20231104100154 --> [jackrabbit-filevault](../content/org/apache/jackrabbit/filevault/README.md) | 3.7.2 :warning: |
 | <!-- 20231030160805 --> [jetty-project](../content/org/eclipse/jetty/jetty-project/README.md) | 12.0.3 :warning: |
 | <!-- 20231030134542 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 7.0.10 :warning: |

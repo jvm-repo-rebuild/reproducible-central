@@ -13,6 +13,7 @@ rebuilding **9 releases** of org.apache.maven.plugins:maven-javadoc-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.6.3](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-javadoc-plugin/3.6.3/pom) | | | |
 | [3.6.2](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-javadoc-plugin/3.6.2/pom) | [mvn jdk11 w](maven-javadoc-plugin-3.6.2.buildspec) | [result](maven-javadoc-plugin-3.6.2.buildinfo): [5 :heavy_check_mark:  1 :warning:](maven-javadoc-plugin-3.6.2.buildcompare) [:mag:](maven-javadoc-plugin-3.6.2.diffoscope) | 4.6M |
 | [3.6.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-javadoc-plugin/3.6.0/pom) | [mvn jdk17](maven-javadoc-plugin-3.6.0.buildspec) | [result](maven-javadoc-plugin-3.6.0.buildinfo): [5 :heavy_check_mark:  1 :warning:](maven-javadoc-plugin-3.6.0.buildcompare) [:mag:](maven-javadoc-plugin-3.6.0.diffoscope) [:memo:](https://issues.apache.org/jira/browse/MJAVADOC-774) | 4.6M |
 | [3.5.0](https://central.sonatype.com/artifact/org.apache.maven.plugins/maven-javadoc-plugin/3.5.0/pom) | [mvn jdk8 w](maven-javadoc-plugin-3.5.0.buildspec) | [result](maven-javadoc-plugin-3.5.0.buildinfo): [4 :heavy_check_mark: ](maven-javadoc-plugin-3.5.0.buildcompare) | 4.2M |

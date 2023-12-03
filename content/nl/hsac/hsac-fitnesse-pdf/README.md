@@ -13,6 +13,7 @@ rebuilding **3 releases** of nl.hsac:hsac-fitnesse-pdf:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.1.3](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-pdf/0.1.3/pom) | | | |
 | [0.1.2](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-pdf/0.1.2/pom) | [mvn jdk11](hsac-fitnesse-pdf-0.1.2.buildspec) | [result](hsac-fitnesse-pdf-0.1.2.buildinfo): [1 :heavy_check_mark:  2 :warning:](hsac-fitnesse-pdf-0.1.2.buildcompare) [:mag:](hsac-fitnesse-pdf-0.1.2.diffoscope) [:memo:](https://github.com/fhoeben/hsac-fitnesse-pdf/pull/9) | 22K |
 | [0.1.1](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-pdf/0.1.1/pom) | [mvn jdk11](hsac-fitnesse-pdf-0.1.1.buildspec) | [result](hsac-fitnesse-pdf-0.1.1.buildinfo): [1 :heavy_check_mark:  2 :warning:](hsac-fitnesse-pdf-0.1.1.buildcompare) [:mag:](hsac-fitnesse-pdf-0.1.1.diffoscope) | 21K |
 | [0.1.0](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-pdf/0.1.0/pom) | [mvn jdk11](hsac-fitnesse-pdf-0.1.0.buildspec) | [result](hsac-fitnesse-pdf-0.1.0.buildinfo): [3 :heavy_check_mark: ](hsac-fitnesse-pdf-0.1.0.buildcompare) | 21K |

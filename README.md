@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2877 releases** of **578 projects**:
-   - **2251** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **2879 releases** of **578 projects**:
+   - **2253** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 626 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 578 projects, 473 have at least one fully reproducible release, 105 have none
 
@@ -57,7 +57,7 @@ Its objectives are to provide:
 | com.github.marschall | [jakarta-jms-adapter](content/com/github/marschall/jakarta-jms-adapter/README.md) | 3 | 1 :heavy_check_mark: / 2 :warning: |
 | | [jfr-servlet](content/com/github/marschall/jfr-servlet/README.md) | 2 | 2 :heavy_check_mark: |
 | com.github.package-url | [packageurl-java](content/com/github/package-url/packageurl-java/README.md) | 4 | 4 :heavy_check_mark: |
-| com.github.spotbugs | [spotbugs-maven-plugin](content/com/github/spotbugs/spotbugs-maven-plugin/README.md) | 15 | 15 :heavy_check_mark: |
+| com.github.spotbugs | [spotbugs-maven-plugin](content/com/github/spotbugs/spotbugs-maven-plugin/README.md) | 16 | 16 :heavy_check_mark: |
 | com.github.veithen.alta | [alta-maven-plugin](content/com/github/veithen/alta/README.md) | 1 | 1 :heavy_check_mark: |
 | com.github.veithen.checkt | [checkt](content/com/github/veithen/checkt/README.md) | 1 | 1 :heavy_check_mark: |
 | com.github.veithen.cosmos | [cosmos](content/com/github/veithen/cosmos/README.md) | 1 | 1 :warning: |
@@ -590,7 +590,7 @@ Its objectives are to provide:
 | | [highcharts](content/org/webjars/highcharts/README.md) | 2 | 2 :heavy_check_mark: |
 | | [jszip](content/org/webjars/jszip/README.md) | 1 | 1 :heavy_check_mark: |
 | | [redoc](content/org/webjars/redoc/README.md) | 2 | 2 :heavy_check_mark: |
-| | [swagger-ui](content/org/webjars/swagger-ui/README.md) | 33 | 33 :heavy_check_mark: |
+| | [swagger-ui](content/org/webjars/swagger-ui/README.md) | 34 | 34 :heavy_check_mark: |
 | | [uswds](content/org/webjars/uswds/README.md) | 1 | 1 :heavy_check_mark: |
 | | [webjars-locator](content/org/webjars/webjars-locator/README.md) | 5 | 5 :heavy_check_mark: |
 | | [webjars-locator-core](content/org/webjars/webjars-locator-core/README.md) | 4 | 4 :heavy_check_mark: |
@@ -601,7 +601,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 29 | 29 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **578** | **2877** | **2251** :heavy_check_mark: **626** :warning: |
+| **Count:** | **578** | **2879** | **2253** :heavy_check_mark: **626** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -615,7 +615,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      22 gradle     11
       1 gradle     17
      26 mvn         7
-   1046 mvn         8
+   1047 mvn         8
       1 mvn         9
     856 mvn        11
       2 mvn        11.0.19
@@ -687,7 +687,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       2 mvn-3.9.5  11
       2 mvn-3.9.5  17
       2 mvn-3.9.5  17.0.7
-      5 mvn-3.9.5  21
+      6 mvn-3.9.5  21
       1 mvn-4.0.0-alpha-7  17
       1 mvn-4.0.0-alpha-8  21
       2 sbt         8
