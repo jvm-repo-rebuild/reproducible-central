@@ -310,6 +310,7 @@ rebuilding **5 releases** of org.glassfish.main:glassfish-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [7.0.11](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.11/pom) | | | |
 | [7.0.10](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.10/pom) | [mvn jdk17.0.2](glassfish-7.0.10.buildspec) | [result](glassfish-main-aggregator-7.0.10.buildinfo): [726 :heavy_check_mark:  10 :warning:](glassfish-main-aggregator-7.0.10.buildcompare) [:mag:](glassfish-main-aggregator-7.0.10.diffoscope) | 453M |
 | [7.0.9](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.9/pom) | [mvn jdk17.0.2](glassfish-7.0.9.buildspec) | [result](glassfish-main-aggregator-7.0.9.buildinfo): [332 :heavy_check_mark:  404 :warning:](glassfish-main-aggregator-7.0.9.buildcompare) [:mag:](glassfish-main-aggregator-7.0.9.diffoscope) [:memo:](https://github.com/eclipse-ee4j/glassfish/issues/24615) | 451M |
 | [7.0.8](https://central.sonatype.com/artifact/org.glassfish.main/glassfish-parent/7.0.8/pom) | [mvn jdk17.0.2](glassfish-7.0.8.buildspec) | [result](glassfish-main-aggregator-7.0.8.buildinfo): [307 :heavy_check_mark:  213 :warning:](glassfish-main-aggregator-7.0.8.buildcompare) [:mag:](glassfish-main-aggregator-7.0.8.diffoscope) [:memo:](https://github.com/eclipse-ee4j/glassfish-hk2/pull/821) | 435M |

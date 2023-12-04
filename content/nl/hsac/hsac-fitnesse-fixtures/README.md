@@ -13,6 +13,9 @@ rebuilding **67 releases** of nl.hsac:hsac-fitnesse-fixtures:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [5.3.4](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.3.4/pom) | | | |
+| [5.3.3](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.3.3/pom) | | | |
+| [5.3.2](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.3.2/pom) | | | |
 | [5.3.1](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.3.1/pom) | [mvn jdk11](hsac-fitnesse-fixtures-5.3.1.buildspec) | [result](hsac-fitnesse-fixtures-5.3.1.buildinfo): [4 :heavy_check_mark: ](hsac-fitnesse-fixtures-5.3.1.buildcompare) | 83M |
 | [5.3.0](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.3.0/pom) | [mvn jdk11](hsac-fitnesse-fixtures-5.3.0.buildspec) | [result](hsac-fitnesse-fixtures-5.3.0.buildinfo): [4 :heavy_check_mark: ](hsac-fitnesse-fixtures-5.3.0.buildcompare) | 82M |
 | [5.2.46](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.2.46/pom) | [mvn jdk8](hsac-fitnesse-fixtures-5.2.46.buildspec) | [result](hsac-fitnesse-fixtures-5.2.46.buildinfo): [1 :heavy_check_mark:  3 :warning:](hsac-fitnesse-fixtures-5.2.46.buildcompare) [:mag:](hsac-fitnesse-fixtures-5.2.46.diffoscope) | 83M |
