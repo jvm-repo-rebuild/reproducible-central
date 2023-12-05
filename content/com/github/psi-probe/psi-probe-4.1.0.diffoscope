@@ -1,0 +1,321 @@
+1 / 18 target/reference/com.github.psi-probe/psi-probe-core-4.1.0.jar psi-probe-core/target/psi-probe-core-4.1.0.jar
+--- target/reference/com.github.psi-probe/psi-probe-core-4.1.0.jar
++++ psi-probe-core/target/psi-probe-core-4.1.0.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 535223 bytes, number of entries: 428
+│ +Zip file size: 535224 bytes, number of entries: 428
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-03 19:07 META-INF/
+│  -rw-r--r--  2.0 unx      431 b- defN 23-Dec-03 19:07 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-03 19:07 psiprobe/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-03 19:07 psiprobe/beans/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-03 19:07 psiprobe/beans/accessors/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-03 19:07 psiprobe/beans/stats/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-03 19:07 psiprobe/beans/stats/collectors/
+│ @@ -423,8 +423,8 @@
+│  -rw-r--r--  2.0 unx      120 b- defN 23-Dec-03 19:07 psiprobe/tools/package-info.class
+│  -rw-r--r--  2.0 unx     2474 b- defN 23-Dec-03 19:07 psiprobe/tools/url/UrlParser.class
+│  -rw-r--r--  2.0 unx      124 b- defN 23-Dec-03 19:07 psiprobe/tools/url/package-info.class
+│  -rw-r--r--  2.0 unx     1971 b- defN 23-Dec-03 19:07 stats.properties
+│  -rw-r--r--  2.0 unx      489 b- defN 23-Dec-03 19:07 version.properties
+│  -rw-r--r--  2.0 unx    10074 b- defN 23-Dec-03 19:07 META-INF/maven/com.github.psi-probe/psi-probe-core/pom.xml
+│  -rw-r--r--  2.0 unx       72 b- defN 23-Dec-03 19:07 META-INF/maven/com.github.psi-probe/psi-probe-core/pom.properties
+│ -428 files, 1034285 bytes uncompressed, 462703 bytes compressed:  55.3%
+│ +428 files, 1034285 bytes uncompressed, 462704 bytes compressed:  55.3%
+├── META-INF/MANIFEST.MF
+│ @@ -4,12 +4,12 @@
+│  Implementation-Vendor: psi-probe
+
+│  Copyright: 2023
+
+│ -Git-Revision: 0c0c7bc60237d6f18f931defb92dd0ba79097c32
+
+│ +Git-Revision: 26d60b63304c25e5c23770d617be0d2c5c6c193c
+
+│  X-Compile-Release-JDK: 8
+
+│  X-Compile-Source-JDK: 8
+
+│  X-Compile-Target-JDK: 8
+
+2 / 18 target/reference/com.github.psi-probe/psi-probe-core-4.1.0-tests.jar psi-probe-core/target/psi-probe-core-4.1.0-tests.jar
+--- target/reference/com.github.psi-probe/psi-probe-core-4.1.0-tests.jar
++++ psi-probe-core/target/psi-probe-core-4.1.0-tests.jar
+├── META-INF/MANIFEST.MF
+│ @@ -4,12 +4,12 @@
+│  Implementation-Vendor: psi-probe
+
+│  Copyright: 2023
+
+│ -Git-Revision: 0c0c7bc60237d6f18f931defb92dd0ba79097c32
+
+│ +Git-Revision: 26d60b63304c25e5c23770d617be0d2c5c6c193c
+
+│  X-Compile-Release-JDK: 8
+
+│  X-Compile-Source-JDK: 8
+
+│  X-Compile-Target-JDK: 8
+├── psiprobe/tools/logging/jdk/Jdk14FileHandlerAccessorTest.class
+│ ├── javap -verbose -constants -s -l -private {}
+│ │ @@ -209,26 +209,26 @@
+│ │         127: ldc           #92                 // String test-0.log
+│ │         129: invokevirtual #47                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+│ │         132: invokevirtual #53                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+│ │         135: invokevirtual #94                 // Method org/assertj/core/api/AbstractStringAssert.isEqualTo:(Ljava/lang/String;)Lorg/assertj/core/api/AbstractStringAssert;
+│ │         138: pop
+│ │         139: return
+│ │        LineNumberTable:
+│ │ -        line 36: 0
+│ │ -        line 37: 8
+│ │ -        line 39: 19
+│ │ -        line 40: 29
+│ │ -        line 41: 38
+│ │ -        line 43: 74
+│ │ -        line 44: 79
+│ │ -        line 45: 87
+│ │ -        line 46: 96
+│ │ -        line 48: 102
+│ │ -        line 50: 108
+│ │ -        line 52: 139
+│ │ +        line 37: 0
+│ │ +        line 38: 8
+│ │ +        line 40: 19
+│ │ +        line 41: 29
+│ │ +        line 42: 38
+│ │ +        line 44: 74
+│ │ +        line 45: 79
+│ │ +        line 46: 87
+│ │ +        line 47: 96
+│ │ +        line 49: 102
+│ │ +        line 51: 108
+│ │ +        line 53: 139
+│ │        LocalVariableTable:
+│ │          Start  Length  Slot  Name   Signature
+│ │              0     140     0  this   Lpsiprobe/tools/logging/jdk/Jdk14FileHandlerAccessorTest;
+│ │              8     132     1 handlerAccessor   Lpsiprobe/tools/logging/jdk/Jdk14FileHandlerAccessor;
+│ │             29     111     2 testPath   Ljava/nio/file/Path;
+│ │             74      66     3 target   Ljava/util/logging/FileHandler;
+│ │             96      44     4 testApplication   Lpsiprobe/model/Application;
+
+3 / 18 target/reference/com.github.psi-probe/psi-probe-core-4.1.0-sources.jar psi-probe-core/target/psi-probe-core-4.1.0-sources.jar
+--- target/reference/com.github.psi-probe/psi-probe-core-4.1.0-sources.jar
++++ psi-probe-core/target/psi-probe-core-4.1.0-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 429660 bytes, number of entries: 414
+│ +Zip file size: 429666 bytes, number of entries: 414
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-03 19:07 META-INF/
+│  -rw-r--r--  2.0 unx      414 b- defN 23-Dec-03 19:07 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-03 19:07 psiprobe/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-03 19:07 psiprobe/beans/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-03 19:07 psiprobe/beans/accessors/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-03 19:07 psiprobe/beans/stats/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-03 19:07 psiprobe/beans/stats/collectors/
+│ @@ -347,15 +347,15 @@
+│  -rw-r--r--  2.0 unx      498 b- defN 23-Dec-03 19:07 psiprobe/tokenizer/package-info.java
+│  -rw-r--r--  2.0 unx      723 b- defN 23-Dec-03 19:07 psiprobe/tools/Accessor.java
+│  -rw-r--r--  2.0 unx    16401 b- defN 23-Dec-03 19:07 psiprobe/tools/ApplicationUtils.java
+│  -rw-r--r--  2.0 unx     5744 b- defN 23-Dec-03 19:07 psiprobe/tools/AsyncSocketFactory.java
+│  -rw-r--r--  2.0 unx     1749 b- defN 23-Dec-03 19:07 psiprobe/tools/BackwardsFileStream.java
+│  -rw-r--r--  2.0 unx     3360 b- defN 23-Dec-03 19:07 psiprobe/tools/BackwardsLineReader.java
+│  -rw-r--r--  2.0 unx     7770 b- defN 23-Dec-03 19:07 psiprobe/tools/Instruments.java
+│ --rw-r--r--  2.0 unx     8405 b- defN 23-Dec-03 19:07 psiprobe/tools/JmxTools.java
+│ +-rw-r--r--  2.0 unx     8385 b- defN 23-Dec-03 19:07 psiprobe/tools/JmxTools.java
+│  -rw-r--r--  2.0 unx     5112 b- defN 23-Dec-03 19:07 psiprobe/tools/LogOutputStream.java
+│  -rw-r--r--  2.0 unx     5706 b- defN 23-Dec-03 19:07 psiprobe/tools/MailMessage.java
+│  -rw-r--r--  2.0 unx     7733 b- defN 23-Dec-03 19:07 psiprobe/tools/Mailer.java
+│  -rw-r--r--  2.0 unx     1790 b- defN 23-Dec-03 19:07 psiprobe/tools/ObjectWrapper.java
+│  -rw-r--r--  2.0 unx     2196 b- defN 23-Dec-03 19:07 psiprobe/tools/SecurityUtils.java
+│  -rw-r--r--  2.0 unx     2135 b- defN 23-Dec-03 19:07 psiprobe/tools/SimpleAccessor.java
+│  -rw-r--r--  2.0 unx     7280 b- defN 23-Dec-03 19:07 psiprobe/tools/SizeExpression.java
+│ @@ -409,8 +409,8 @@
+│  -rw-r--r--  2.0 unx      490 b- defN 23-Dec-03 19:07 psiprobe/tools/package-info.java
+│  -rw-r--r--  2.0 unx     3131 b- defN 23-Dec-03 19:07 psiprobe/tools/url/UrlParser.java
+│  -rw-r--r--  2.0 unx      492 b- defN 23-Dec-03 19:07 psiprobe/tools/url/package-info.java
+│  -rw-r--r--  2.0 unx     1971 b- defN 23-Dec-03 19:07 stats.properties
+│  -rw-r--r--  2.0 unx      500 b- defN 23-Dec-03 19:07 version.properties
+│  -rw-r--r--  2.0 unx    10074 b- defN 23-Dec-03 19:07 META-INF/maven/com.github.psi-probe/psi-probe-core/pom.xml
+│  -rw-r--r--  2.0 unx       72 b- defN 23-Dec-03 19:07 META-INF/maven/com.github.psi-probe/psi-probe-core/pom.properties
+│ -414 files, 1149437 bytes uncompressed, 360336 bytes compressed:  68.7%
+│ +414 files, 1149417 bytes uncompressed, 360342 bytes compressed:  68.7%
+├── META-INF/MANIFEST.MF
+│ @@ -3,12 +3,12 @@
+│  Implementation-Vendor: psi-probe
+
+│  Copyright: 2023
+
+│ -Git-Revision: 0c0c7bc60237d6f18f931defb92dd0ba79097c32
+
+│ +Git-Revision: 26d60b63304c25e5c23770d617be0d2c5c6c193c
+
+│  X-Compile-Release-JDK: 8
+
+│  X-Compile-Source-JDK: 8
+
+│  X-Compile-Target-JDK: 8
+├── psiprobe/tools/JmxTools.java
+│ @@ -152,15 +152,15 @@
+│      Object object = JmxTools.getAttribute(mbeanServer, objectName, attributeName);
+
+│      return object == null ? 0 : (Integer) object;
+
+│    }
+
+│  
+
+│    /**
+
+│     * Gets the int attribute. Default to default value if not found.
+
+│     *
+
+│ -   * @param compositeData the compsite data
+
+│ +   * @param cds the cds
+
+│     * @param name the name
+
+│     * @param defaultValue the default value
+
+│     *
+
+│     * @return the int attribute
+
+│     */
+
+│    public static int getIntAttr(CompositeData compositeData, String name, int defaultValue) {
+
+│      Object object = compositeData.get(name);
+
+4 / 18 target/reference/com.github.psi-probe/psi-probe-core-4.1.0-test-sources.jar psi-probe-core/target/psi-probe-core-4.1.0-test-sources.jar
+--- target/reference/com.github.psi-probe/psi-probe-core-4.1.0-test-sources.jar
++++ psi-probe-core/target/psi-probe-core-4.1.0-test-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 97592 bytes, number of entries: 169
+│ +Zip file size: 97604 bytes, number of entries: 169
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-03 19:07 META-INF/
+│  -rw-r--r--  2.0 unx      414 b- defN 23-Dec-03 19:07 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-03 19:07 psiprobe/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-03 19:07 psiprobe/beans/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-03 19:07 psiprobe/beans/accessors/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-03 19:07 psiprobe/beans/stats/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-03 19:07 psiprobe/beans/stats/collectors/
+│ @@ -149,23 +149,23 @@
+│  -rw-r--r--  2.0 unx     1028 b- defN 23-Dec-03 19:07 psiprobe/tools/LogOutputStreamTest.java
+│  -rw-r--r--  2.0 unx      751 b- defN 23-Dec-03 19:07 psiprobe/tools/MailMessageTest.java
+│  -rw-r--r--  2.0 unx      736 b- defN 23-Dec-03 19:07 psiprobe/tools/MailerTest.java
+│  -rw-r--r--  2.0 unx     6887 b- defN 23-Dec-03 19:07 psiprobe/tools/SizeExpressionTests.java
+│  -rw-r--r--  2.0 unx     2280 b- defN 23-Dec-03 19:07 psiprobe/tools/WhoisTests.java
+│  -rw-r--r--  2.0 unx      771 b- defN 23-Dec-03 19:07 psiprobe/tools/logging/DefaultAccessorTest.java
+│  -rw-r--r--  2.0 unx      771 b- defN 23-Dec-03 19:07 psiprobe/tools/logging/FileLogAccessorTest.java
+│ --rw-r--r--  2.0 unx     1671 b- defN 23-Dec-03 19:07 psiprobe/tools/logging/jdk/Jdk14FileHandlerAccessorTest.java
+│ +-rw-r--r--  2.0 unx     1694 b- defN 23-Dec-03 19:07 psiprobe/tools/logging/jdk/Jdk14FileHandlerAccessorTest.java
+│  -rw-r--r--  2.0 unx      793 b- defN 23-Dec-03 19:07 psiprobe/tools/logging/jdk/Jdk14HandlerAccessorTest.java
+│  -rw-r--r--  2.0 unx      798 b- defN 23-Dec-03 19:07 psiprobe/tools/logging/log4j/Log4jAppenderAccessorTest.java
+│  -rw-r--r--  2.0 unx      802 b- defN 23-Dec-03 19:07 psiprobe/tools/logging/log4j2/Log4j2AppenderAccessorTest.java
+│  -rw-r--r--  2.0 unx      806 b- defN 23-Dec-03 19:07 psiprobe/tools/logging/logback/LogbackAppenderAccessorTest.java
+│  -rw-r--r--  2.0 unx      814 b- defN 23-Dec-03 19:07 psiprobe/tools/logging/logback13/Logback13AppenderAccessorTest.java
+│  -rw-r--r--  2.0 unx      844 b- defN 23-Dec-03 19:07 psiprobe/tools/logging/slf4jlogback/TomcatSlf4jLogbackAppenderAccessorTest.java
+│  -rw-r--r--  2.0 unx      852 b- defN 23-Dec-03 19:07 psiprobe/tools/logging/slf4jlogback13/TomcatSlf4jLogback13AppenderAccessorTest.java
+│  -rw-r--r--  2.0 unx      749 b- defN 23-Dec-03 19:07 psiprobe/tools/url/UrlParserTest.java
+│  -rw-r--r--  2.0 unx      586 b- defN 23-Dec-03 19:07 adapters.properties
+│  -rw-r--r--  2.0 unx     2112 b- defN 23-Dec-03 19:07 certs/localhost-keystore.jks
+│  -rw-r--r--  2.0 unx     3772 b- defN 23-Dec-03 19:07 certs/localhost-truststore.jks
+│  -rw-r--r--  2.0 unx      568 b- defN 23-Dec-03 19:07 stdout.properties
+│  -rw-r--r--  2.0 unx    10074 b- defN 23-Dec-03 19:07 META-INF/maven/com.github.psi-probe/psi-probe-core/pom.xml
+│  -rw-r--r--  2.0 unx       72 b- defN 23-Dec-03 19:07 META-INF/maven/com.github.psi-probe/psi-probe-core/pom.properties
+│ -169 files, 163370 bytes uncompressed, 70208 bytes compressed:  57.0%
+│ +169 files, 163393 bytes uncompressed, 70220 bytes compressed:  57.0%
+├── META-INF/MANIFEST.MF
+│ @@ -3,12 +3,12 @@
+│  Implementation-Vendor: psi-probe
+
+│  Copyright: 2023
+
+│ -Git-Revision: 0c0c7bc60237d6f18f931defb92dd0ba79097c32
+
+│ +Git-Revision: 26d60b63304c25e5c23770d617be0d2c5c6c193c
+
+│  X-Compile-Release-JDK: 8
+
+│  X-Compile-Source-JDK: 8
+
+│  X-Compile-Target-JDK: 8
+├── psiprobe/tools/logging/jdk/Jdk14FileHandlerAccessorTest.java
+│ @@ -25,14 +25,15 @@
+│   * The Class Jdk14FileHandlerAccessorTest.
+
+│   */
+
+│  class Jdk14FileHandlerAccessorTest {
+
+│  
+
+│    /**
+
+│     * Gets the file.
+
+│     *
+
+│ +   * @return the file
+
+│     * @throws IOException Signals that an I/O exception has occurred.
+
+│     */
+
+│    @Test
+
+│    void getFile() throws IOException {
+
+│      Jdk14FileHandlerAccessor handlerAccessor = new Jdk14FileHandlerAccessor();
+
+│      handlerAccessor.setLoggerAccessor(new Jdk14LoggerAccessor());
+
+5 / 18 target/reference/com.github.psi-probe/psi-probe-rest-4.1.0.jar psi-probe-rest/target/psi-probe-rest-4.1.0.jar
+--- target/reference/com.github.psi-probe/psi-probe-rest-4.1.0.jar
++++ psi-probe-rest/target/psi-probe-rest-4.1.0.jar
+├── zipinfo {}
+│ @@ -1,13 +1,13 @@
+│ -Zip file size: 2783 bytes, number of entries: 11
+│ +Zip file size: 2784 bytes, number of entries: 11
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-03 19:07 META-INF/
+│  -rw-r--r--  2.0 unx      431 b- defN 23-Dec-03 19:07 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-03 19:07 psiprobe/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-03 19:07 psiprobe/rest/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-03 19:07 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-03 19:07 META-INF/maven/com.github.psi-probe/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Dec-03 19:07 META-INF/maven/com.github.psi-probe/psi-probe-rest/
+│  -rw-r--r--  2.0 unx      105 b- defN 23-Dec-03 19:07 psiprobe/rest/Dummy.class
+│  -rw-r--r--  2.0 unx      119 b- defN 23-Dec-03 19:07 psiprobe/rest/package-info.class
+│  -rw-r--r--  2.0 unx     2002 b- defN 23-Dec-03 19:07 META-INF/maven/com.github.psi-probe/psi-probe-rest/pom.xml
+│  -rw-r--r--  2.0 unx       72 b- defN 23-Dec-03 19:07 META-INF/maven/com.github.psi-probe/psi-probe-rest/pom.properties
+│ -11 files, 2729 bytes uncompressed, 1257 bytes compressed:  53.9%
+│ +11 files, 2729 bytes uncompressed, 1258 bytes compressed:  53.9%
+├── META-INF/MANIFEST.MF
+│ @@ -4,12 +4,12 @@
+│  Implementation-Vendor: psi-probe
+
+│  Copyright: 2023
+
+│ -Git-Revision: 0c0c7bc60237d6f18f931defb92dd0ba79097c32
+
+│ +Git-Revision: 26d60b63304c25e5c23770d617be0d2c5c6c193c
+
+│  X-Compile-Release-JDK: 8
+
+│  X-Compile-Source-JDK: 8
+
+│  X-Compile-Target-JDK: 8
+
+6 / 18 target/reference/com.github.psi-probe/psi-probe-rest-4.1.0-sources.jar psi-probe-rest/target/psi-probe-rest-4.1.0-sources.jar
+7 / 18 target/reference/com.github.psi-probe/psi-probe-tomcat85-4.1.0.jar psi-probe-tomcat85/target/psi-probe-tomcat85-4.1.0.jar
+8 / 18 target/reference/com.github.psi-probe/psi-probe-tomcat85-4.1.0-tests.jar psi-probe-tomcat85/target/psi-probe-tomcat85-4.1.0-tests.jar
+9 / 18 target/reference/com.github.psi-probe/psi-probe-tomcat85-4.1.0-sources.jar psi-probe-tomcat85/target/psi-probe-tomcat85-4.1.0-sources.jar
+10 / 18 target/reference/com.github.psi-probe/psi-probe-tomcat85-4.1.0-test-sources.jar psi-probe-tomcat85/target/psi-probe-tomcat85-4.1.0-test-sources.jar
+11 / 18 target/reference/com.github.psi-probe/psi-probe-tomcat9-4.1.0.jar psi-probe-tomcat9/target/psi-probe-tomcat9-4.1.0.jar
+12 / 18 target/reference/com.github.psi-probe/psi-probe-tomcat9-4.1.0-tests.jar psi-probe-tomcat9/target/psi-probe-tomcat9-4.1.0-tests.jar
+13 / 18 target/reference/com.github.psi-probe/psi-probe-tomcat9-4.1.0-sources.jar psi-probe-tomcat9/target/psi-probe-tomcat9-4.1.0-sources.jar
+14 / 18 target/reference/com.github.psi-probe/psi-probe-tomcat9-4.1.0-test-sources.jar psi-probe-tomcat9/target/psi-probe-tomcat9-4.1.0-test-sources.jar
+15 / 18 target/reference/com.github.psi-probe/psi-probe-web-4.1.0.war psi-probe-web/target/probe.war
