@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=HSAC's FitNesse Fixtures
+group-id=nl.hsac
+artifact-id=hsac-fitnesse-fixtures
+version=5.3.4
+
+# source information
+source.scm.uri=scm:git:git://github.com/fhoeben/hsac-fitnesse-fixtures.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=nl.hsac
+outputs.0.filename=hsac-fitnesse-fixtures-5.3.4.pom
+outputs.0.length=23698
+outputs.0.checksums.sha512=21b2095965fb227c7bf484dfdd74888672403ca6e9bb605cd15407acf1dbc11dc3d06aab315c071e96277b0439c2ab48ffd0451a60985f81b1bbc3512ae2cb77
+
+outputs.1.groupId=nl.hsac
+outputs.1.filename=hsac-fitnesse-fixtures-5.3.4.jar
+outputs.1.length=679526
+outputs.1.checksums.sha512=93c114942529116e827f36098ea8afaf317e5cc81154ea528f920287b75510303e902ecddabd525d19d8814baa518d5e9d4c75f89f90a8a83ad0aad5388254bd
+
+outputs.2.groupId=nl.hsac
+outputs.2.filename=hsac-fitnesse-fixtures-5.3.4-standalone.zip
+outputs.2.length=85168214
+outputs.2.checksums.sha512=4cf0c971173818bad13dff9174898b75ba3c7a3d74378fe9ef2533cee72ce45493272922bf5cca977a1dfe8ed825826388321413784199f9d143654c276285ad
+
+outputs.3.groupId=nl.hsac
+outputs.3.filename=hsac-fitnesse-fixtures-5.3.4-sources.jar
+outputs.3.length=453599
+outputs.3.checksums.sha512=e964465a2a9e9de2e4cf47b1c623ad3a4dd8a8588d693a36f44499e8c5802d83747920c3007e0246cfd3764ff9c688f7b285191468fc1efcfbeb1b49d73007e1
