@@ -253,6 +253,7 @@ rebuilding **3 releases** of org.eclipse.jetty:jetty-project:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [12.0.4](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.4/pom) | | | |
 | [12.0.3](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.3/pom) | [mvn jdk21](jetty-project-12.0.3.buildspec) | [result](jetty-project-12.0.3.buildinfo): [744 :heavy_check_mark:  7 :warning:](jetty-project-12.0.3.buildcompare) [:mag:](jetty-project-12.0.3.diffoscope) | 227M |
 | [12.0.2](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.2/pom) | [mvn jdk21](jetty-project-12.0.2.buildspec) | [result](jetty-project-12.0.2.buildinfo): [737 :heavy_check_mark:  7 :warning:](jetty-project-12.0.2.buildcompare) [:mag:](jetty-project-12.0.2.diffoscope) [:memo:](https://github.com/jetty/jetty.project/pull/10769) | 227M |
 | [12.0.1](https://central.sonatype.com/artifact/org.eclipse.jetty/jetty-project/12.0.1/pom) | [mvn jdk21](jetty-project-12.0.1.buildspec) | [result](jetty-project-12.0.1.buildinfo): [547 :heavy_check_mark:  18 :warning:](jetty-project-12.0.1.buildcompare) [:mag:](jetty-project-12.0.1.diffoscope) | 215M |

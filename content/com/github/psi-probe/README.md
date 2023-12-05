@@ -9,22 +9,22 @@ Source code: [https://github.com/psi-probe/psi-probe.git](https://github.com/psi
 
 <details><summary>This project defines 7 modules:</summary>
 
-* [com.github.psi-probe:psi-probe](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/4.0.0)
-* [com.github.psi-probe:psi-probe-core](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe-core/4.0.0)
-* [com.github.psi-probe:psi-probe-rest](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe-rest/4.0.0)
-* [com.github.psi-probe:psi-probe-tomcat7](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe-tomcat7/4.0.0)
-* [com.github.psi-probe:psi-probe-tomcat85](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe-tomcat85/4.0.0)
-* [com.github.psi-probe:psi-probe-tomcat9](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe-tomcat9/4.0.0)
-* [com.github.psi-probe:psi-probe-web](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe-web/4.0.0)
+* [com.github.psi-probe:psi-probe](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/4.1.0)
+* [com.github.psi-probe:psi-probe-core](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe-core/4.1.0)
+* [com.github.psi-probe:psi-probe-rest](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe-rest/4.1.0)
+* [com.github.psi-probe:psi-probe-tomcat7](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe-tomcat7/4.1.0)
+* [com.github.psi-probe:psi-probe-tomcat85](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe-tomcat85/4.1.0)
+* [com.github.psi-probe:psi-probe-tomcat9](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe-tomcat9/4.1.0)
+* [com.github.psi-probe:psi-probe-web](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe-web/4.1.0)
 </details>
 
-rebuilding **7 releases** of com.github.psi-probe:psi-probe:
+rebuilding **8 releases** of com.github.psi-probe:psi-probe:
 - **6** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.1.0](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/4.1.0/pom) | | | |
+| [4.1.0](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/4.1.0/pom) | [mvn jdk21 w](psi-probe-4.1.0.buildspec) | [result](psi-probe-4.1.0.buildinfo): [6 :heavy_check_mark:  18 :warning:](psi-probe-4.1.0.buildcompare) [:mag:](psi-probe-4.1.0.diffoscope) | 33M |
 | [4.0.0](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/4.0.0/pom) | [mvn jdk21 w](psi-probe-4.0.0.buildspec) | [result](psi-probe-4.0.0.buildinfo): [24 :heavy_check_mark: ](psi-probe-4.0.0.buildcompare) | 33M |
 | [3.7.3](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/3.7.3/pom) | [mvn jdk17 w](psi-probe-3.7.3.buildspec) | [result](psi-probe-3.7.3.buildinfo): [24 :heavy_check_mark: ](psi-probe-3.7.3.buildcompare) | 32M |
 | [3.7.2](https://central.sonatype.com/artifact/com.github.psi-probe/psi-probe/3.7.2/pom) | [mvn jdk17 w](psi-probe-3.7.2.buildspec) | [result](psi-probe-3.7.2.buildinfo): [24 :heavy_check_mark: ](psi-probe-3.7.2.buildcompare) | 32M |

@@ -9,25 +9,26 @@ Source code: [https://github.com/mockito/mockito.git](https://github.com/mockito
 
 <details><summary>This project defines 8 modules:</summary>
 
-* [org.mockito:mockito-android](https://central.sonatype.com/artifact/org.mockito/mockito-android/5.5.0)
-* [org.mockito:mockito-bom](https://central.sonatype.com/artifact/org.mockito/mockito-bom/5.5.0)
-* [org.mockito:mockito-core](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.5.0)
-* [org.mockito:mockito-errorprone](https://central.sonatype.com/artifact/org.mockito/mockito-errorprone/5.5.0)
-* [org.mockito:mockito-inline](https://central.sonatype.com/artifact/org.mockito/mockito-inline/5.5.0)
-* [org.mockito:mockito-junit-jupiter](https://central.sonatype.com/artifact/org.mockito/mockito-junit-jupiter/5.5.0)
-* [org.mockito:mockito-proxy](https://central.sonatype.com/artifact/org.mockito/mockito-proxy/5.5.0)
-* [org.mockito:mockito-subclass](https://central.sonatype.com/artifact/org.mockito/mockito-subclass/5.5.0)
+* [org.mockito:mockito-android](https://central.sonatype.com/artifact/org.mockito/mockito-android/5.8.0)
+* [org.mockito:mockito-bom](https://central.sonatype.com/artifact/org.mockito/mockito-bom/5.8.0)
+* [org.mockito:mockito-core](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.8.0)
+* [org.mockito:mockito-errorprone](https://central.sonatype.com/artifact/org.mockito/mockito-errorprone/5.8.0)
+* [org.mockito:mockito-inline](https://central.sonatype.com/artifact/org.mockito/mockito-inline/5.8.0)
+* [org.mockito:mockito-junit-jupiter](https://central.sonatype.com/artifact/org.mockito/mockito-junit-jupiter/5.8.0)
+* [org.mockito:mockito-proxy](https://central.sonatype.com/artifact/org.mockito/mockito-proxy/5.8.0)
+* [org.mockito:mockito-subclass](https://central.sonatype.com/artifact/org.mockito/mockito-subclass/5.8.0)
 </details>
 
-rebuilding **18 releases** of org.mockito:mockito-core:
-- **15** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **21 releases** of org.mockito:mockito-core:
+- **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 3 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [5.8.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.8.0/pom) | | | |
-| [5.7.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.7.0/pom) | | | |
-| [5.6.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.6.0/pom) | | | |
+| [5.8.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.8.0/pom) | [gradle](mockito-5.8.0.buildspec) | [result](mockito-core-5.8.0.buildinfo): [19 :heavy_check_mark: ](mockito-core-5.8.0.buildcompare) | 1.3M |
+| [5.7.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.7.0/pom) | [gradle](mockito-5.7.0.buildspec
+mockito-5.7.0.buildspec-5.7.0.buildspec) | [result](mockito-core-5.7.0.buildinfo): [19 :heavy_check_mark: ](mockito-core-5.7.0.buildcompare) | 1.3M |
+| [5.6.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.6.0/pom) | [gradle](mockito-5.6.0.buildspec) | [result](mockito-core-5.6.0.buildinfo): [19 :heavy_check_mark: ](mockito-core-5.6.0.buildcompare) | 1.3M |
 | [5.5.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.5.0/pom) | [gradle](mockito-5.5.0.buildspec) | [result](mockito-core-5.5.0.buildinfo): [15 :heavy_check_mark:  4 :warning:](mockito-core-5.5.0.buildcompare) [:mag:](mockito-core-5.5.0.diffoscope) | 1.3M |
 | [5.4.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.4.0/pom) | [gradle](mockito-5.4.0.buildspec) | [result](mockito-core-5.4.0.buildinfo): [19 :heavy_check_mark: ](mockito-core-5.4.0.buildcompare) | 1.3M |
 | [5.3.1](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.3.1/pom) | [gradle](mockito-5.3.1.buildspec) | [result](mockito-core-5.3.1.buildinfo): [19 :heavy_check_mark: ](mockito-core-5.3.1.buildcompare) | 1.3M |
