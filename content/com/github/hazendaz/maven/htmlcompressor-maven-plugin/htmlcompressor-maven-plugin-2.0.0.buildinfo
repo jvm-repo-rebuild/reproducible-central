@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=htmlcompressor-maven-plugin
+group-id=com.github.hazendaz.maven
+artifact-id=htmlcompressor-maven-plugin
+version=2.0.0
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/alextunyk/htmlcompressor-maven-plugin.git
+source.scm.tag=htmlcompressor-maven-plugin-2.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=com.github.hazendaz.maven
+outputs.0.filename=htmlcompressor-maven-plugin-2.0.0.pom
+outputs.0.length=7753
+outputs.0.checksums.sha512=8b5bc496696830400d8c58ebb5fd3ee7e97a562961245e3bb2556e1348f683e36fc7ecb67913453a71696ca01a3dac4e340e999416c1ed08c53cd5e8fade5155
+
+outputs.1.groupId=com.github.hazendaz.maven
+outputs.1.filename=htmlcompressor-maven-plugin-2.0.0.jar
+outputs.1.length=37764
+outputs.1.checksums.sha512=71e339148311b823587e50f5f85d6394552f16a893ae5893940fb4518a014238a38bfc72a618fc29326f098f4688b07654420485c3ccf87cd44f76fb051afe2b
+
+outputs.2.groupId=com.github.hazendaz.maven
+outputs.2.filename=htmlcompressor-maven-plugin-2.0.0-tests.jar
+outputs.2.length=15589
+outputs.2.checksums.sha512=c053adb2f3aa2967db89586336e8b268bcb8bc5273d551a48c3211390081b27f1a61ffc49a54f7cd412cf682a0904b0132050922284ee794567b43b999c8723d
+
+outputs.3.groupId=com.github.hazendaz.maven
+outputs.3.filename=htmlcompressor-maven-plugin-2.0.0-sources.jar
+outputs.3.length=23768
+outputs.3.checksums.sha512=e69075f99a6700e0f19319008487ab5df4631fbb9f4cf54aedd785585efd9ab4727954b208da8522910fe43ae0cbdef651a6c08c6a14566edd9af57b0e051f64
+
+outputs.4.groupId=com.github.hazendaz.maven
+outputs.4.filename=htmlcompressor-maven-plugin-2.0.0-test-sources.jar
+outputs.4.length=15379
+outputs.4.checksums.sha512=4cfab26becd2fbd11d20492bd5775b8401ad697f177cce068c328ba226632ebc40a31ac5c57e4a990ce17b53756a8ee46b393eb9060b95d6c26e1942119fdf49
