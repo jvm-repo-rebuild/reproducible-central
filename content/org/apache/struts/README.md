@@ -57,6 +57,7 @@ rebuilding **8 releases** of org.apache.struts:struts2-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [6.3.0.2](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.3.0.2/pom) | | | |
 | [6.3.0.1](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.3.0.1/pom) | [mvn jdk8](struts2-6.3.0.1.buildspec) | [result](struts2-parent-6.3.0.1.buildinfo): [107 :heavy_check_mark: ](struts2-parent-6.3.0.1.buildcompare) | 49M |
 | [6.3.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.3.0/pom) | [mvn jdk8](struts2-6.3.0.buildspec) | [result](struts2-parent-6.3.0.buildinfo): [107 :heavy_check_mark: ](struts2-parent-6.3.0.buildcompare) | 49M |
 | [6.2.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.2.0/pom) | [mvn jdk8](struts2-6.2.0.buildspec) | [result](struts2-parent-6.2.0.buildinfo): [92 :heavy_check_mark:  12 :warning:](struts2-parent-6.2.0.buildcompare) [:memo:](https://github.com/apache/struts/pull/696) | 47M |
@@ -66,6 +67,7 @@ rebuilding **8 releases** of org.apache.struts:struts2-parent:
 | [6.1.1](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.1.1/pom) | | | |
 | [6.0.3](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.0.3/pom) | | | |
 | [6.0.0](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/6.0.0/pom) | [mvn jdk8](struts2-6.0.0.buildspec) | [result](struts2-parent-6.0.0.buildinfo): [90 :heavy_check_mark:  11 :warning:](struts2-parent-6.0.0.buildcompare) [:mag:](struts2-parent-6.0.0.diffoscope) [:memo:](https://github.com/apache/struts/pull/696) | 40M |
+| [2.5.33](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.33/pom) | | | |
 | [2.5.32](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.32/pom) | | | |
 | [2.5.31](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.31/pom) | | | |
 | [2.5.30](https://central.sonatype.com/artifact/org.apache.struts/struts2-parent/2.5.30/pom) | [mvn jdk7](struts2-2.5.30.buildspec) | [result](struts2-parent-2.5.30.buildinfo): [66 :heavy_check_mark:  29 :warning:](struts2-parent-2.5.30.buildcompare) [:mag:](struts2-parent-2.5.30.diffoscope) [:memo:](https://github.com/apache/struts/pull/555) | 37M |
