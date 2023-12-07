@@ -9,52 +9,52 @@ Source code: [https://github.com/dropwizard/metrics.git](https://github.com/drop
 
 <details><summary>This project defines 37 modules:</summary>
 
-* [io.dropwizard.metrics5:metrics-annotation](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-annotation/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-bom](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-bom/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-caffeine](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-caffeine/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-caffeine3](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-caffeine3/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-collectd](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-collectd/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-core](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-core/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-ehcache](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-ehcache/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-graphite](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-graphite/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-healthchecks](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-healthchecks/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-httpasyncclient](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-httpasyncclient/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-httpclient](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-httpclient/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-httpclient5](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-httpclient5/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-influxdb](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-influxdb/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-jakarta-servlet](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jakarta-servlet/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-jakarta-servlet6](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jakarta-servlet6/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-jakarta-servlets](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jakarta-servlets/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-jcache](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jcache/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-jdbi](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jdbi/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-jdbi3](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jdbi3/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-jersey2](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jersey2/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-jersey3](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jersey3/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-jersey31](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jersey31/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-jetty10](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jetty10/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-jetty11](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jetty11/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-jetty9](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jetty9/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-jmx](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jmx/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-json](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-json/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-jvm](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jvm/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-legacy-adapter](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-legacy-adapter/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-legacy-adapter-healthchecks](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-legacy-adapter-healthchecks/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-log4j2](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-log4j2/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-logback](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-logback/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-logback13](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-logback13/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-logback14](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-logback14/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-parent](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-servlet](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-servlet/5.0.0-rc18)
-* [io.dropwizard.metrics5:metrics-servlets](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-servlets/5.0.0-rc18)
+* [io.dropwizard.metrics5:metrics-annotation](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-annotation/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-bom](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-bom/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-caffeine](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-caffeine/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-caffeine3](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-caffeine3/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-collectd](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-collectd/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-core](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-core/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-ehcache](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-ehcache/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-graphite](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-graphite/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-healthchecks](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-healthchecks/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-httpasyncclient](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-httpasyncclient/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-httpclient](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-httpclient/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-httpclient5](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-httpclient5/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-influxdb](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-influxdb/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-jakarta-servlet](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jakarta-servlet/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-jakarta-servlet6](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jakarta-servlet6/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-jakarta-servlets](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jakarta-servlets/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-jcache](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jcache/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-jdbi](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jdbi/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-jdbi3](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jdbi3/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-jersey2](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jersey2/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-jersey3](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jersey3/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-jersey31](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jersey31/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-jetty10](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jetty10/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-jetty11](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jetty11/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-jetty9](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jetty9/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-jmx](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jmx/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-json](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-json/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-jvm](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-jvm/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-legacy-adapter](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-legacy-adapter/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-legacy-adapter-healthchecks](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-legacy-adapter-healthchecks/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-log4j2](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-log4j2/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-logback](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-logback/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-logback13](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-logback13/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-logback14](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-logback14/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-parent](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-servlet](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-servlet/5.0.0-rc19)
+* [io.dropwizard.metrics5:metrics-servlets](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-servlets/5.0.0-rc19)
 </details>
 
-rebuilding **11 releases** of io.dropwizard.metrics5:metrics-parent:
-- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **12 releases** of io.dropwizard.metrics5:metrics-parent:
+- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [5.0.0-rc19](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc19/pom) | | | |
+| [5.0.0-rc19](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc19/pom) | [mvn jdk17](dropwizard-metrics-5.0.0-rc19.buildspec) | [result](metrics-parent-5.0.0-rc19.buildinfo): [95 :heavy_check_mark: ](metrics-parent-5.0.0-rc19.buildcompare) | 1.1M |
 | [5.0.0-rc18](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc18/pom) | [mvn jdk17](dropwizard-metrics-5.0.0-rc18.buildspec) | [result](metrics-parent-5.0.0-rc18.buildinfo): [95 :heavy_check_mark: ](metrics-parent-5.0.0-rc18.buildcompare) | 1.1M |
 | [5.0.0-rc17](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc17/pom) | [mvn jdk11](dropwizard-metrics-5.0.0-rc17.buildspec) | [result](metrics-parent-5.0.0-rc17.buildinfo): [92 :heavy_check_mark: ](metrics-parent-5.0.0-rc17.buildcompare) | 1.1M |
 | [5.0.0-rc16](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc16/pom) | [mvn jdk11](dropwizard-metrics-5.0.0-rc16.buildspec) | [result](metrics-parent-5.0.0-rc16.buildinfo): [90 :heavy_check_mark:  2 :warning:](metrics-parent-5.0.0-rc16.buildcompare) [:mag:](metrics-parent-5.0.0-rc16.diffoscope) [:memo:](https://github.com/dropwizard/metrics/pull/3364) | 1.1M |
