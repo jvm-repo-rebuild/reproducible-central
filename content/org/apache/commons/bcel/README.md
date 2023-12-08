@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.apache.bcel:bcel:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [6.8.0](https://central.sonatype.com/artifact/org.apache.bcel/bcel/6.8.0/pom) | | | |
 | [6.7.0](https://central.sonatype.com/artifact/org.apache.bcel/bcel/6.7.0/pom) | [mvn jdk8](bcel-6.7.0.buildspec) | [result](bcel-6.7.0.buildinfo): [3 :heavy_check_mark:  2 :warning:](bcel-6.7.0.buildcompare) [:mag:](bcel-6.7.0.diffoscope) | 2.8M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
