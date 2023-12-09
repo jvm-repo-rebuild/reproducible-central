@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2894 releases** of **578 projects**:
-   - **2266** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **2897 releases** of **578 projects**:
+   - **2269** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 628 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 578 projects, 473 have at least one fully reproducible release, 105 have none
 
@@ -63,7 +63,7 @@ Its objectives are to provide:
 | com.github.veithen.cosmos | [cosmos](content/com/github/veithen/cosmos/README.md) | 1 | 1 :warning: |
 | com.github.veithen.daemon | [daemon](content/com/github/veithen/daemon/README.md) | 6 | 6 :heavy_check_mark: |
 | com.github.veithen | [jrel](content/com/github/veithen/jrel/README.md) | 1 | 1 :heavy_check_mark: |
-| | [parent](content/com/github/veithen/parent/README.md) | 8 | 7 :heavy_check_mark: / 1 :warning: |
+| | [parent](content/com/github/veithen/parent/README.md) | 9 | 8 :heavy_check_mark: / 1 :warning: |
 | com.github.veithen.phos | [phos](content/com/github/veithen/phos/README.md) | 1 | 1 :heavy_check_mark: |
 | com.github.veithen.maven | [eclipse-settings-maven-plugin](content/com/github/veithen/maven/eclipse-settings-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | [hermetic-maven-plugin](content/com/github/veithen/maven/hermetic-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
@@ -246,7 +246,7 @@ Its objectives are to provide:
 | nl.basjes.maven.release | [conventional-commits-version-policy](content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | 4 | 4 :heavy_check_mark: |
 | nl.basjes.parse.httpdlog | [httpdlog-parser](content/nl/basjes/parse/httpdlog/httpdlog-parser/README.md) | 2 | 2 :heavy_check_mark: |
 | nl.basjes.parse.useragent | [yauaa](content/nl/basjes/parse/useragent/yauaa/README.md) | 12 | 11 :heavy_check_mark: / 1 :warning: |
-| nl.hsac | [hsac-fitnesse-fixtures](content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 68 | 55 :heavy_check_mark: / 13 :warning: |
+| nl.hsac | [hsac-fitnesse-fixtures](content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 69 | 56 :heavy_check_mark: / 13 :warning: |
 | | [hsac-fitnesse-pdf](content/nl/hsac/hsac-fitnesse-pdf/README.md) | 4 | 2 :heavy_check_mark: / 2 :warning: |
 | org.quickperf | [quick-perf](content/org/quickperf/README.md) | 3 | 3 :heavy_check_mark: |
 | org.slf4j | [slf4j-parent](content/org/slf4j/README.md) | 9 | 4 :heavy_check_mark: / 5 :warning: |
@@ -572,7 +572,7 @@ Its objectives are to provide:
 | org.openapitools.openapidiff | [openapi-diff-parent](content/org/openapitools/openapidiff/README.md) | 8 | 8 :heavy_check_mark: |
 | org.osgi | [*.test.parent](content/org/osgi/test/README.md) | 5 | 4 :heavy_check_mark: / 1 :warning: |
 | org.owasp.antisamy | [antisamy](content/org/owasp/antisamy/README.md) | 15 | 14 :heavy_check_mark: / 1 :warning: |
-| org.owasp | [dependency-check-parent](content/org/owasp/dependency-check/README.md) | 26 | 21 :heavy_check_mark: / 5 :warning: |
+| org.owasp | [dependency-check-parent](content/org/owasp/dependency-check/README.md) | 27 | 22 :heavy_check_mark: / 5 :warning: |
 | org.sentrysoftware.maven | [maven-skin-tools](content/org/sentrysoftware/maven/maven-skin-tools/README.md) | 3 | 3 :heavy_check_mark: |
 | | [sentry-maven-skin](content/org/sentrysoftware/maven/sentry-maven-skin/README.md) | 2 | 2 :heavy_check_mark: |
 | org.simplify4u | [pgp-keys-map](content/org/simplify4u/pgp-keys-map/README.md) | 19 | 19 :heavy_check_mark: |
@@ -601,7 +601,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 29 | 29 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **578** | **2894** | **2266** :heavy_check_mark: **628** :warning: |
+| **Count:** | **578** | **2897** | **2269** :heavy_check_mark: **628** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -615,9 +615,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      22 gradle     11
       4 gradle     17
      26 mvn         7
-   1049 mvn         8
+   1050 mvn         8
       1 mvn         9
-    859 mvn        11
+    861 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.6

@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/fhoeben/hsac-fitnesse-fixtures.git](https://github.com/fhoeben/hsac-fitnesse-fixtures.git)
 
-rebuilding **68 releases** of nl.hsac:hsac-fitnesse-fixtures:
-- **55** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **69 releases** of nl.hsac:hsac-fitnesse-fixtures:
+- **56** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 13 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [5.3.6](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.3.6/pom) | | | |
+| [5.3.6](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.3.6/pom) | [mvn jdk11](hsac-fitnesse-fixtures-5.3.6.buildspec) | [result](hsac-fitnesse-fixtures-5.3.6.buildinfo): [4 :heavy_check_mark: ](hsac-fitnesse-fixtures-5.3.6.buildcompare) | 82M |
 | [5.3.5](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.3.5/pom) | | | |
 | [5.3.4](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.3.4/pom) | [mvn jdk11](hsac-fitnesse-fixtures-5.3.4.buildspec) | [result](hsac-fitnesse-fixtures-5.3.4.buildinfo): [4 :heavy_check_mark: ](hsac-fitnesse-fixtures-5.3.4.buildcompare) | 83M |
 | [5.3.3](https://central.sonatype.com/artifact/nl.hsac/hsac-fitnesse-fixtures/5.3.3/pom) | | | |
