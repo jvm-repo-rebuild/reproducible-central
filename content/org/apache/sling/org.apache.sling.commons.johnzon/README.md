@@ -13,6 +13,7 @@ rebuilding **6 releases** of org.apache.sling:org.apache.sling.commons.johnzon:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.commons.johnzon/2.0.0/pom) | | | |
 | [1.2.16](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.commons.johnzon/1.2.16/pom) | [mvn jdk17](org.apache.sling.commons.johnzon-1.2.16.buildspec) | [result](org.apache.sling.commons.johnzon-1.2.16.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.commons.johnzon-1.2.16.buildcompare) | 212K |
 | [1.2.14](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.commons.johnzon/1.2.14/pom) | [mvn jdk11](org.apache.sling.commons.johnzon-1.2.14.buildspec) | [result](org.apache.sling.commons.johnzon-1.2.14.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.commons.johnzon-1.2.14.buildcompare) | 200K |
 | [1.2.6](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.commons.johnzon/1.2.6/pom) | [mvn jdk11](org.apache.sling.commons.johnzon-1.2.6.buildspec) | [result](org.apache.sling.commons.johnzon-1.2.6.buildinfo): [3 :heavy_check_mark: ](org.apache.sling.commons.johnzon-1.2.6.buildcompare) | 190K |
