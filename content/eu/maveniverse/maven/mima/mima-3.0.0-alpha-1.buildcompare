@@ -1,0 +1,9 @@
+version=3.0.0-alpha-1
+ok=27
+ko=0
+ignored=0
+okFiles="mima-3.0.0-alpha-1.pom context-3.0.0-alpha-1.pom context-3.0.0-alpha-1.jar context-3.0.0-alpha-1-sources.jar runtime-3.0.0-alpha-1.pom embedded-maven-3.0.0-alpha-1.pom embedded-maven-3.0.0-alpha-1.jar embedded-maven-3.0.0-alpha-1-sources.jar standalone-shared-3.0.0-alpha-1.pom standalone-shared-3.0.0-alpha-1.jar standalone-shared-3.0.0-alpha-1-sources.jar standalone-sisu-3.0.0-alpha-1.pom standalone-sisu-3.0.0-alpha-1.jar standalone-sisu-3.0.0-alpha-1-sources.jar standalone-sisu-uber-3.0.0-alpha-1.pom standalone-sisu-uber-3.0.0-alpha-1.jar standalone-sisu-uber-3.0.0-alpha-1-sources.jar standalone-static-3.0.0-alpha-1.pom standalone-static-3.0.0-alpha-1.jar standalone-static-3.0.0-alpha-1-sources.jar standalone-static-uber-3.0.0-alpha-1.pom standalone-static-uber-3.0.0-alpha-1.jar standalone-static-uber-3.0.0-alpha-1-sources.jar cli-3.0.0-alpha-1.pom cli-3.0.0-alpha-1.jar cli-3.0.0-alpha-1-sources.jar cli-3.0.0-alpha-1-uber.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
