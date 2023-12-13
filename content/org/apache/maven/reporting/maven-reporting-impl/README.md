@@ -13,6 +13,7 @@ rebuilding **14 releases** of org.apache.maven.reporting:maven-reporting-impl:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.0.0-M13](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-impl/4.0.0-M13/pom) | | | |
 | [4.0.0-M12](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-impl/4.0.0-M12/pom) | [mvn jdk8 w](maven-reporting-impl-4.0.0-M12.buildspec) | [result](maven-reporting-impl-4.0.0-M12.buildinfo): [6 :heavy_check_mark: ](maven-reporting-impl-4.0.0-M12.buildcompare) | 369K |
 | [4.0.0-M11](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-impl/4.0.0-M11/pom) | [mvn jdk8 w](maven-reporting-impl-4.0.0-M11.buildspec) | [result](maven-reporting-impl-4.0.0-M11.buildinfo): [6 :heavy_check_mark: ](maven-reporting-impl-4.0.0-M11.buildcompare) | 364K |
 | [4.0.0-M10](https://central.sonatype.com/artifact/org.apache.maven.reporting/maven-reporting-impl/4.0.0-M10/pom) | [mvn jdk8 w](maven-reporting-impl-4.0.0-M10.buildspec) | [result](maven-reporting-impl-4.0.0-M10.buildinfo): [6 :heavy_check_mark: ](maven-reporting-impl-4.0.0-M10.buildcompare) | 363K |

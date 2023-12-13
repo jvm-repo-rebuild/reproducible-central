@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2905 releases** of **578 projects**:
-   - **2277** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 628 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **2913 releases** of **578 projects**:
+   - **2284** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 629 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 578 projects, 473 have at least one fully reproducible release, 105 have none
 
 <!-- END GENERATED INTRO -->
@@ -171,7 +171,7 @@ Its objectives are to provide:
 | | [semanticcms-tag-reference](content/com/semanticcms/semanticcms-tag-reference/README.md) | 1 | 1 :warning: |
 | | [semanticcms-tag-reference-book](content/com/semanticcms/semanticcms-tag-reference-book/README.md) | 1 | 1 :heavy_check_mark: |
 | com.spotify.fmt | [fmt-maven-plugin](content/com/spotify/fmt-maven-plugin/README.md) | 3 | 3 :heavy_check_mark: |
-| com.spotify | [github-client](content/com/spotify/github-client/README.md) | 18 | 18 :heavy_check_mark: |
+| com.spotify | [github-client](content/com/spotify/github-client/README.md) | 19 | 19 :heavy_check_mark: |
 | com.taobao.arthas | [arthas-all](content/com/taobao/arthas/README.md) | 14 | 14 :warning: |
 | com.vladsch.flexmark | [flexmark-java](content/com/vladsch/flexmark/flexmark-java/README.md) | 4 | 4 :heavy_check_mark: |
 | de.jflex | [jflex-parent](content/de/jflex/README.md) | 1 | 1 :heavy_check_mark: |
@@ -217,10 +217,10 @@ Its objectives are to provide:
 | io.micronaut.maven | [micronaut-maven-plugin](content/io/micronaut/maven/micronaut-maven-plugin/README.md) | 16 | 16 :heavy_check_mark: |
 | io.opentelemetry.instrumentation | [opentelemetry-instrumentation-api](content/io/opentelemetry/instrumentation/README.md) | 2 | 2 :warning: |
 | io.opentelemetry | [opentelemetry-sdk](content/io/opentelemetry/java/README.md) | 1 | 1 :warning: |
-| io.repaint.maven | [tiles-maven-plugin](content/io/repaint/maven/tiles-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
+| io.repaint.maven | [tiles-maven-plugin](content/io/repaint/maven/tiles-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | io.smallrye | [jandex-parent](content/io/smallrye/jandex/README.md) | 5 | 5 :warning: |
 | io.wcm | [*.caconfig.editor.parent](content/io/wcm/io.wcm.caconfig/README.md) | 4 | 4 :warning: |
-| | [*.parent_toplevel](content/io/wcm/tooling/README.md) | 14 | 14 :heavy_check_mark: |
+| | [*.parent_toplevel](content/io/wcm/tooling/README.md) | 15 | 15 :heavy_check_mark: |
 | | [*.handler.link](content/io/wcm/io.wcm.handler/link/README.md) | 4 | 4 :warning: |
 | | [*.handler.media](content/io/wcm/io.wcm.handler/media/README.md) | 8 | 5 :heavy_check_mark: / 3 :warning: |
 | | [*.handler.richtext](content/io/wcm/io.wcm.handler/richtext/README.md) | 4 | 4 :warning: |
@@ -309,7 +309,7 @@ Its objectives are to provide:
 | org.apache.httpcomponents | [httpcomponents-parent](content/org/apache/httpcomponents/parent/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.jackrabbit.vault | [jackrabbit-filevault](content/org/apache/jackrabbit/filevault/README.md) | 12 | 4 :heavy_check_mark: / 8 :warning: |
 | org.apache.jackrabbit | [filevault-package-maven-plugin](content/org/apache/jackrabbit/filevault-package-maven-plugin/README.md) | 8 | 8 :heavy_check_mark: |
-| | [jackrabbit-parent](content/org/apache/jackrabbit/jackrabbit/README.md) | 3 | 3 :warning: |
+| | [jackrabbit-parent](content/org/apache/jackrabbit/jackrabbit/README.md) | 4 | 4 :warning: |
 | org.apache.jena | [jena](content/org/apache/jena/jena/README.md) | 9 | 9 :warning: |
 | org.apache.karaf | [decanter](content/org/apache/karaf/decanter/README.md) | 2 | 2 :warning: |
 | | [karaf](content/org/apache/karaf/karaf/README.md) | 6 | 6 :warning: |
@@ -323,7 +323,7 @@ Its objectives are to provide:
 | org.apache.maven.enforcer | [enforcer](content/org/apache/maven/enforcer/README.md) | 6 | 6 :heavy_check_mark: |
 | org.apache.maven.indexer | [maven-indexer](content/org/apache/maven/indexer/README.md) | 10 | 8 :heavy_check_mark: / 2 :warning: |
 | org.apache.maven.jxr | [jxr](content/org/apache/maven/jxr/README.md) | 4 | 4 :heavy_check_mark: |
-| org.apache.maven | [maven](content/org/apache/maven/maven/README.md) | 21 | 18 :heavy_check_mark: / 3 :warning: |
+| org.apache.maven | [maven](content/org/apache/maven/maven/README.md) | 22 | 19 :heavy_check_mark: / 3 :warning: |
 | | [maven-parent](content/org/apache/maven/parent/README.md) | 8 | 5 :heavy_check_mark: / 3 :warning: |
 | org.apache.maven.scm | [maven-scm](content/org/apache/maven/scm/README.md) | 9 | 9 :heavy_check_mark: |
 | org.apache.maven.surefire | [surefire](content/org/apache/maven/surefire/README.md) | 10 | 6 :heavy_check_mark: / 4 :warning: |
@@ -483,7 +483,7 @@ Its objectives are to provide:
 | | [*.testing.jcr-mock](content/org/apache/sling/org.apache.sling.testing.jcr-mock/README.md) | 7 | 7 :heavy_check_mark: |
 | | [*.testing.osgi-mock](content/org/apache/sling/org.apache.sling.testing.osgi-mock/README.md) | 7 | 7 :heavy_check_mark: |
 | | [*.testing.resourceresolver-mock](content/org/apache/sling/org.apache.sling.testing.resourceresolver-mock/README.md) | 8 | 7 :heavy_check_mark: / 1 :warning: |
-| | [*.testing.sling-mock](content/org/apache/sling/org.apache.sling.testing.sling-mock/README.md) | 10 | 10 :heavy_check_mark: |
+| | [*.testing.sling-mock](content/org/apache/sling/org.apache.sling.testing.sling-mock/README.md) | 11 | 11 :heavy_check_mark: |
 | | [*.testing.sling-mock-oak](content/org/apache/sling/org.apache.sling.testing.sling-mock-oak/README.md) | 6 | 6 :heavy_check_mark: |
 | | [*.tooling.support.install](content/org/apache/sling/org.apache.sling.tooling.support.install/README.md) | 1 | 1 :heavy_check_mark: |
 | | [*.tooling.support.source](content/org/apache/sling/org.apache.sling.tooling.support.source/README.md) | 1 | 1 :heavy_check_mark: |
@@ -496,7 +496,7 @@ Its objectives are to provide:
 | org.chabala.brick | [brick-control-lab](content/org/chabala/brick/brick-control-lab/README.md) | 1 | 1 :heavy_check_mark: |
 | org.codehaus.modello | [modello](content/org/codehaus/modello/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
 | org.codehaus.mojo | [animal-sniffer-parent](content/org/codehaus/mojo/animal-sniffer/README.md) | 4 | 4 :heavy_check_mark: |
-| | [aspectj-maven-plugin](content/org/codehaus/mojo/aspectj-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
+| | [aspectj-maven-plugin](content/org/codehaus/mojo/aspectj-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | [build-helper-maven-plugin](content/org/codehaus/mojo/build-helper-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | [buildnumber-maven-plugin](content/org/codehaus/mojo/buildnumber-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | [buildplan-maven-plugin](content/org/codehaus/mojo/buildplan-maven-plugin/README.md) | 4 | 4 :heavy_check_mark: |
@@ -518,7 +518,7 @@ Its objectives are to provide:
 | org.codehaus.plexus | [plexus-archiver](content/org/codehaus/plexus/plexus-archiver/README.md) | 17 | 16 :heavy_check_mark: / 1 :warning: |
 | | [plexus-cipher](content/org/codehaus/plexus/plexus-cipher/README.md) | 2 | 2 :heavy_check_mark: |
 | | [plexus-classworlds](content/org/codehaus/plexus/plexus-classworlds/README.md) | 1 | 1 :heavy_check_mark: |
-| | [plexus-compiler](content/org/codehaus/plexus/plexus-compiler/README.md) | 10 | 8 :heavy_check_mark: / 2 :warning: |
+| | [plexus-compiler](content/org/codehaus/plexus/plexus-compiler/README.md) | 11 | 9 :heavy_check_mark: / 2 :warning: |
 | | [plexus-components](content/org/codehaus/plexus/plexus-components/README.md) | 8 | 7 :heavy_check_mark: / 1 :warning: |
 | | [plexus-interactivity](content/org/codehaus/plexus/plexus-interactivity/README.md) | 1 | 1 :heavy_check_mark: |
 | | [plexus-io](content/org/codehaus/plexus/plexus-io/README.md) | 4 | 4 :heavy_check_mark: |
@@ -601,7 +601,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 29 | 29 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **578** | **2905** | **2277** :heavy_check_mark: **628** :warning: |
+| **Count:** | **578** | **2913** | **2284** :heavy_check_mark: **629** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -615,9 +615,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      22 gradle     11
       4 gradle     17
      26 mvn         7
-   1052 mvn         8
+   1053 mvn         8
       1 mvn         9
-    863 mvn        11
+    866 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.6
@@ -633,7 +633,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      13 mvn        18
      24 mvn        19
      14 mvn        20
-     14 mvn        21
+     15 mvn        21
       2 mvn-3.5.4   8
       1 mvn-3.8.3  11
      13 mvn-3.8.5  11
@@ -659,7 +659,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       6 mvn-3.9.2   8
      16 mvn-3.9.2  17
       2 mvn-3.9.2  21
-     24 mvn-3.9.3   8
+     25 mvn-3.9.3   8
      35 mvn-3.9.3  11
       1 mvn-3.9.3  11.0.18
       1 mvn-3.9.3  11.0.2
@@ -687,7 +687,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       2 mvn-3.9.5  11
       2 mvn-3.9.5  17
       2 mvn-3.9.5  17.0.7
-      7 mvn-3.9.5  21
+      9 mvn-3.9.5  21
       1 mvn-4.0.0-alpha-7  17
       1 mvn-4.0.0-alpha-8  21
       2 sbt         8
