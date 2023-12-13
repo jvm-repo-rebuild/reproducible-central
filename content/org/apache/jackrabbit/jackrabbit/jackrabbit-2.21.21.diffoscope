@@ -1,0 +1,49 @@
+# why this executable flag on dependencies?
+1 / 1 target/reference/org.apache.jackrabbit/jackrabbit-webapp-2.21.21.war jackrabbit-webapp/target/jackrabbit-webapp-2.21.21.war
+--- target/reference/org.apache.jackrabbit/jackrabbit-webapp-2.21.21.war
++++ jackrabbit-webapp/target/jackrabbit-webapp-2.21.21.war
+├── zipinfo {}
+│ @@ -38,116 +38,116 @@
+│  -rw-r--r--  2.0 unx     1118 b- defN 23-Dec-06 19:52 WEB-INF/classes/org/apache/jackrabbit/j2ee/RepositoryStartupServlet$2.class
+│  -rw-r--r--  2.0 unx     1309 b- defN 23-Dec-06 19:52 WEB-INF/classes/org/apache/jackrabbit/j2ee/RepositoryStartupServlet$RMIRemoteFactoryDelegater.class
+│  -rw-r--r--  2.0 unx      724 b- defN 23-Dec-06 19:52 WEB-INF/classes/org/apache/jackrabbit/j2ee/RepositoryStartupServlet$RemoteFactoryDelegater.class
+│  -rw-r--r--  2.0 unx    15569 b- defN 23-Dec-06 19:52 WEB-INF/classes/org/apache/jackrabbit/j2ee/RepositoryStartupServlet.class
+│  -rw-r--r--  2.0 unx      787 b- defN 23-Dec-06 19:52 WEB-INF/classes/org/apache/jackrabbit/j2ee/ServletExceptionWithCause.class
+│  -rw-r--r--  2.0 unx      894 b- defN 23-Dec-06 19:52 WEB-INF/classes/org/apache/jackrabbit/j2ee/SimpleWebdavServlet.class
+│  -rw-r--r--  2.0 unx     6771 b- defN 23-Dec-06 19:52 WEB-INF/config.xml
+│ --rwxr-xr-x  2.0 unx    24510 b- defN 23-Dec-06 19:52 WEB-INF/lib/SparseBitSet-1.2.jar
+│ --rwxr-xr-x  2.0 unx   122176 b- defN 23-Dec-06 19:52 WEB-INF/lib/asm-9.3.jar
+...
+│ --rwxr-xr-x  2.0 unx  1309213 b- defN 23-Dec-06 19:52 WEB-INF/lib/jackcess-4.0.1.jar
+│ --rwxr-xr-x  2.0 unx    83893 b- defN 23-Dec-06 19:52 WEB-INF/lib/jackcess-encrypt-4.0.1.jar
+│ +-rw-r--r--  2.0 unx    24510 b- defN 23-Dec-06 19:52 WEB-INF/lib/SparseBitSet-1.2.jar
+│ +-rw-r--r--  2.0 unx   122176 b- defN 23-Dec-06 19:52 WEB-INF/lib/asm-9.3.jar
+...
+│ +-rw-r--r--  2.0 unx  1309213 b- defN 23-Dec-06 19:52 WEB-INF/lib/jackcess-4.0.1.jar
+│ +-rw-r--r--  2.0 unx    83893 b- defN 23-Dec-06 19:52 WEB-INF/lib/jackcess-encrypt-4.0.1.jar
+│  -rw-r--r--  2.0 unx  2360439 b- defN 23-Dec-06 19:52 WEB-INF/lib/jackrabbit-core-2.21.21.jar
+│  -rw-r--r--  2.0 unx   173769 b- defN 23-Dec-06 19:52 WEB-INF/lib/jackrabbit-data-2.21.21.jar
+│  -rw-r--r--  2.0 unx   405657 b- defN 23-Dec-06 19:52 WEB-INF/lib/jackrabbit-jcr-commons-2.21.21.jar
+│  -rw-r--r--  2.0 unx   246029 b- defN 23-Dec-06 19:52 WEB-INF/lib/jackrabbit-jcr-rmi-2.21.21.jar
+│  -rw-r--r--  2.0 unx   368688 b- defN 23-Dec-06 19:52 WEB-INF/lib/jackrabbit-jcr-server-2.21.21.jar
+│  -rw-r--r--  2.0 unx    35627 b- defN 23-Dec-06 19:52 WEB-INF/lib/jackrabbit-jcr-servlet-2.21.21.jar
+│  -rw-r--r--  2.0 unx    28461 b- defN 23-Dec-06 19:52 WEB-INF/lib/jackrabbit-spi-2.21.21.jar
+│  -rw-r--r--  2.0 unx   804764 b- defN 23-Dec-06 19:52 WEB-INF/lib/jackrabbit-spi-commons-2.21.21.jar
+│  -rw-r--r--  2.0 unx   339143 b- defN 23-Dec-06 19:52 WEB-INF/lib/jackrabbit-webdav-2.21.21.jar
+│ --rwxr-xr-x  2.0 unx   628053 b- defN 23-Dec-06 19:52 WEB-INF/lib/jai-imageio-core-1.4.0.jar
+│ --rwxr-xr-x  2.0 unx    68453 b- defN 23-Dec-06 19:52 WEB-INF/lib/jakarta.activation-1.2.2.jar
+...
+│ --rwxr-xr-x  2.0 unx   132381 b- defN 23-Dec-06 19:52 WEB-INF/lib/xmpbox-2.0.26.jar
+│ --rwxr-xr-x  2.0 unx   116013 b- defN 23-Dec-06 19:52 WEB-INF/lib/xz-1.9.jar
+│ +-rw-r--r--  2.0 unx   628053 b- defN 23-Dec-06 19:52 WEB-INF/lib/jai-imageio-core-1.4.0.jar
+│ +-rw-r--r--  2.0 unx    68453 b- defN 23-Dec-06 19:52 WEB-INF/lib/jakarta.activation-1.2.2.jar
+...
+│ +-rw-r--r--  2.0 unx   132381 b- defN 23-Dec-06 19:52 WEB-INF/lib/xmpbox-2.0.26.jar
+│ +-rw-r--r--  2.0 unx   116013 b- defN 23-Dec-06 19:52 WEB-INF/lib/xz-1.9.jar
+│  -rw-r--r--  2.0 unx      947 b- defN 23-Dec-06 19:52 WEB-INF/protectedHandlers.properties
+│  -rw-r--r--  2.0 unx     1749 b- defN 23-Dec-06 19:52 WEB-INF/templates/bootstrap.properties
+│  -rw-r--r--  2.0 unx    18340 b- defN 23-Dec-06 19:52 WEB-INF/web.xml
+│  -rw-r--r--  2.0 unx     3051 b- defN 23-Dec-06 19:52 about.jsp
+│  -rw-r--r--  2.0 unx     1147 b- defN 23-Dec-06 19:52 bootstrap/error.jsp
+│  -rw-r--r--  2.0 unx     1361 b- defN 23-Dec-06 19:52 bootstrap/exists.jsp
+│  -rw-r--r--  2.0 unx     2883 b- defN 23-Dec-06 19:52 bootstrap/missing.jsp
