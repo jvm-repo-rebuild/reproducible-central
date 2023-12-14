@@ -1,0 +1,18 @@
+groupId=io.wcm.tooling.commons
+artifactId=io.wcm.tooling.commons.content-package-builder
+display=io.wcm-tooling:content-package-builder
+version=1.7.2
+
+gitRepo=https://github.com/wcm-io/${artifactId}.git
+gitTag=${version}
+
+tool=mvn
+jdk=11
+newline=crlf-nogit
+umask=022
+
+timestamp=2023-12-13T12:47:14+01:00
+command="mvn -Pio.wcm clean package -DskipTests -Dmaven.javadoc.skip -Dtimestamp=${timestamp}"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
