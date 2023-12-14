@@ -1,0 +1,52 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven Reporting Implementation
+group-id=org.apache.maven.reporting
+artifact-id=maven-reporting-impl
+version=4.0.0-M13
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-reporting-impl.git
+source.scm.tag=maven-reporting-impl-4.0.0-M13
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.maven.reporting
+outputs.0.filename=maven-reporting-impl-4.0.0-M13.pom
+outputs.0.length=7627
+outputs.0.checksums.sha512=852ecf3a2a699ddc8daff0f92a7805d38a014d8c011494dab51d7ff95b34672aeaff40890ea348f2875724c50dd969a2da30c9f10c92e9613937d73164101a19
+
+outputs.1.groupId=org.apache.maven.reporting
+outputs.1.filename=maven-reporting-impl-4.0.0-M13.jar
+outputs.1.length=20560
+outputs.1.checksums.sha512=b9a7bbf384557e8711408c9ea77fbba701e3d62299839c7cdc7ed4f74087bf7566b503c6843cfebf85430c579b84733426fcef946ed82226c1c662a65199024b
+
+outputs.2.groupId=org.apache.maven.reporting
+outputs.2.filename=maven-reporting-impl-4.0.0-M13-source-release.zip
+outputs.2.length=57532
+outputs.2.checksums.sha512=fe31adcf55fd286598cd20e60d58a3165e00429ac68e2ae8d16f476aa7bb38052219232251ab2744db14553259b62dad29a7bd753326e318fcb70262091dfede
+
+outputs.3.groupId=org.apache.maven.reporting
+outputs.3.filename=maven-reporting-impl-4.0.0-M13-sources.jar
+outputs.3.length=19107
+outputs.3.checksums.sha512=92adea89dff568b6c980434cd522a2b82ddf91b6e68870b1fdfa2e23e1c572b32a032b3e202853d5dde56c8494e0f39e39ac4cd4ca3fc6ff2963159a3aebacd5
+
+outputs.4.groupId=org.apache.maven.reporting
+outputs.4.filename=maven-reporting-impl-4.0.0-M13-cyclonedx.xml
+outputs.4.length=130885
+outputs.4.checksums.sha512=b88fb820cb1fff98cac7a8753591f2b5ba3b8dde24e95cb8fd81b2beeea07e1182fc6ade9dae9bdb20465cfa92dcef9cb6894a6c264932d00cf06312d3b17921
+
+outputs.5.groupId=org.apache.maven.reporting
+outputs.5.filename=maven-reporting-impl-4.0.0-M13-cyclonedx.json
+outputs.5.length=150656
+outputs.5.checksums.sha512=10356a3ad74c50e40b2d87c3bf43202128d195bf47b3a1e31638ad3f163a1fcf1aaae589b70545c38b0ab0d063f3c737d0f26d66a44296f7764c5a54cd205178
