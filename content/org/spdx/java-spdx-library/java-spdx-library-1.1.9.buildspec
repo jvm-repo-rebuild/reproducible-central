@@ -1,0 +1,17 @@
+groupId=org.spdx
+artifactId=java-spdx-library
+display=${groupId}:${artifactId}
+version=1.1.9
+
+gitRepo=https://github.com/spdx/Spdx-Java-Library.git
+gitTag=v${version}
+
+tool=mvn
+jdk=17
+newline=crlf-nogit  
+
+command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -Dcyclonedx.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
