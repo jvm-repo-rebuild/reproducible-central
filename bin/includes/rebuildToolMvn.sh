@@ -40,17 +40,15 @@ rebuildToolMvn() {
     mvn -v
     echo
     info "opening interactive shell: please run rebuild with required JDK then exit to continue:"
-    runlog "sdk use java ${jdk}"
     local mvnVersion="3.6.3"
     case ${tool} in
       mvn-*)
         mvnVersion="$(echo "$tool" | cut -d - -f 2-)"
         ;;
     esac
-    runlog "sdk use maven ${mvnVersion}"
 
     [[ "${newline}" == crlf* ]] && info "newline=${newline}" && mvn_rebuild="$(echo "${mvn_rebuild}" | sed "s_mvn _mvncrlf _")"
-    runlog "${mvn_rebuild//SHELL /}"
+    runlog "\nsdk use java ${jdk}\nsdk use maven ${mvnVersion}\n${mvn_rebuild//SHELL /}"
     echo
     ${SHELL} -i
   else
