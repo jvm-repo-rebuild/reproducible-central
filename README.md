@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2919 releases** of **578 projects**:
-   - **2290** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 629 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 578 projects, 473 have at least one fully reproducible release, 105 have none
+   rebuilding **2923 releases** of **578 projects**:
+   - **2295** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 628 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - on 578 projects, 474 have at least one fully reproducible release, 104 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -315,7 +315,7 @@ Its objectives are to provide:
 | | [karaf](content/org/apache/karaf/karaf/README.md) | 6 | 6 :warning: |
 | org.apache.karaf.minho | [minho](content/org/apache/karaf/minho/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.logging | [logging-parent](content/org/apache/logging/parent/README.md) | 11 | 10 :heavy_check_mark: / 1 :warning: |
-| org.apache.logging.log4j | [log4j](content/org/apache/logging/log4j/log4j/README.md) | 3 | 3 :warning: |
+| org.apache.logging.log4j | [log4j](content/org/apache/logging/log4j/log4j/README.md) | 4 | 2 :heavy_check_mark: / 2 :warning: |
 | | [log4j-jmx-gui](content/org/apache/logging/log4j/log4j-jmx-gui/README.md) | 1 | 1 :heavy_check_mark: |
 | | [log4j-tools-bom](content/org/apache/logging/log4j/tools/README.md) | 6 | 6 :heavy_check_mark: |
 | | [log4j-transform-bom](content/org/apache/logging/log4j/transform/README.md) | 1 | 1 :heavy_check_mark: |
@@ -518,13 +518,13 @@ Its objectives are to provide:
 | org.codehaus.plexus | [plexus-archiver](content/org/codehaus/plexus/plexus-archiver/README.md) | 17 | 16 :heavy_check_mark: / 1 :warning: |
 | | [plexus-cipher](content/org/codehaus/plexus/plexus-cipher/README.md) | 2 | 2 :heavy_check_mark: |
 | | [plexus-classworlds](content/org/codehaus/plexus/plexus-classworlds/README.md) | 1 | 1 :heavy_check_mark: |
-| | [plexus-compiler](content/org/codehaus/plexus/plexus-compiler/README.md) | 11 | 9 :heavy_check_mark: / 2 :warning: |
+| | [plexus-compiler](content/org/codehaus/plexus/plexus-compiler/README.md) | 12 | 10 :heavy_check_mark: / 2 :warning: |
 | | [plexus-components](content/org/codehaus/plexus/plexus-components/README.md) | 8 | 7 :heavy_check_mark: / 1 :warning: |
 | | [plexus-interactivity](content/org/codehaus/plexus/plexus-interactivity/README.md) | 1 | 1 :heavy_check_mark: |
 | | [plexus-io](content/org/codehaus/plexus/plexus-io/README.md) | 4 | 4 :heavy_check_mark: |
 | | [plexus-languages](content/org/codehaus/plexus/plexus-languages/README.md) | 7 | 2 :heavy_check_mark: / 5 :warning: |
 | | [plexus](content/org/codehaus/plexus/plexus-pom/README.md) | 14 | 13 :heavy_check_mark: / 1 :warning: |
-| | [plexus-testing](content/org/codehaus/plexus/plexus-testing/README.md) | 2 | 2 :heavy_check_mark: |
+| | [plexus-testing](content/org/codehaus/plexus/plexus-testing/README.md) | 3 | 3 :heavy_check_mark: |
 | | [plexus-utils](content/org/codehaus/plexus/plexus-utils/README.md) | 6 | 4 :heavy_check_mark: / 2 :warning: |
 | | [plexus-velocity](content/org/codehaus/plexus/plexus-velocity/README.md) | 2 | 2 :heavy_check_mark: |
 | | [plexus-xml](content/org/codehaus/plexus/plexus-xml/README.md) | 5 | 5 :heavy_check_mark: |
@@ -553,7 +553,7 @@ Its objectives are to provide:
 | org.mybatis.dynamic-sql | [mybatis-dynamic-sql](content/org/mybatis/dynamic-sql/README.md) | 3 | 3 :warning: |
 | org.mybatis.generator | [mybatis-generator](content/org/mybatis/generator/README.md) | 1 | 1 :warning: |
 | org.mybatis | [mybatis-guice](content/org/mybatis/guice/README.md) | 2 | 2 :heavy_check_mark: |
-| | [mybatis](content/org/mybatis/mybatis/README.md) | 4 | 1 :heavy_check_mark: / 3 :warning: |
+| | [mybatis](content/org/mybatis/mybatis/README.md) | 5 | 2 :heavy_check_mark: / 3 :warning: |
 | | [mybatis-2-spring](content/org/mybatis/mybatis-2-spring/README.md) | 1 | 1 :heavy_check_mark: |
 | | [mybatis-spring](content/org/mybatis/mybatis-spring/README.md) | 5 | 2 :heavy_check_mark: / 3 :warning: |
 | | [mybatis2](content/org/mybatis/mybatis2/README.md) | 1 | 1 :heavy_check_mark: |
@@ -601,7 +601,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 29 | 29 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **578** | **2919** | **2290** :heavy_check_mark: **629** :warning: |
+| **Count:** | **578** | **2923** | **2295** :heavy_check_mark: **628** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -633,7 +633,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      13 mvn        18
      24 mvn        19
      14 mvn        20
-     16 mvn        21
+     18 mvn        21
       2 mvn-3.5.4   8
       1 mvn-3.8.3  11
      13 mvn-3.8.5  11
@@ -660,7 +660,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      16 mvn-3.9.2  17
       2 mvn-3.9.2  21
      25 mvn-3.9.3   8
-     35 mvn-3.9.3  11
+     36 mvn-3.9.3  11
       1 mvn-3.9.3  11.0.18
       1 mvn-3.9.3  11.0.2
       4 mvn-3.9.3  11.0.5
@@ -684,7 +684,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn-3.9.4   8
       2 mvn-3.9.4  17.0.7
       2 mvn-3.9.4  20
-      2 mvn-3.9.5  11
+      3 mvn-3.9.5  11
       2 mvn-3.9.5  17
       2 mvn-3.9.5  17.0.7
       9 mvn-3.9.5  21
