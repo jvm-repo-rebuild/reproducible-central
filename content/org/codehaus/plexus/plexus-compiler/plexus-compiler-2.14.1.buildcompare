@@ -1,0 +1,9 @@
+version=2.14.1
+ok=28
+ko=0
+ignored=0
+okFiles="plexus-compiler-2.14.1.pom plexus-compiler-2.14.1-site.xml plexus-compiler-2.14.1-source-release.zip plexus-compiler-api-2.14.1.pom plexus-compiler-api-2.14.1.jar plexus-compiler-api-2.14.1-sources.jar plexus-compiler-manager-2.14.1.pom plexus-compiler-manager-2.14.1.jar plexus-compiler-manager-2.14.1-sources.jar plexus-compiler-test-2.14.1.pom plexus-compiler-test-2.14.1.jar plexus-compiler-test-2.14.1-sources.jar plexus-compilers-2.14.1.pom plexus-compiler-aspectj-2.14.1.pom plexus-compiler-aspectj-2.14.1.jar plexus-compiler-aspectj-2.14.1-sources.jar plexus-compiler-csharp-2.14.1.pom plexus-compiler-csharp-2.14.1.jar plexus-compiler-csharp-2.14.1-sources.jar plexus-compiler-eclipse-2.14.1.pom plexus-compiler-eclipse-2.14.1.jar plexus-compiler-eclipse-2.14.1-sources.jar plexus-compiler-javac-2.14.1.pom plexus-compiler-javac-2.14.1.jar plexus-compiler-javac-2.14.1-sources.jar plexus-compiler-javac-errorprone-2.14.1.pom plexus-compiler-javac-errorprone-2.14.1.jar plexus-compiler-javac-errorprone-2.14.1-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
