@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Context-Aware Configuration Mock Plugin
+group-id=org.apache.sling
+artifact-id=org.apache.sling.testing.caconfig-mock-plugin
+version=1.5.4
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-testing-caconfig-mock-plugin.git
+source.scm.tag=org.apache.sling.testing.caconfig-mock-plugin-1.5.4
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.testing.caconfig-mock-plugin-1.5.4.pom
+outputs.0.length=7792
+outputs.0.checksums.sha512=a84287147f56e6ee7a430e0fd5e1434e55b14717fcfcd9451a94612d01e2088b3aa8c95778ce9b1b6580a1d8f5dbd5d9f9e895aadcb1eb55d8b9ab716a00a1fd
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.testing.caconfig-mock-plugin-1.5.4.jar
+outputs.1.length=24190
+outputs.1.checksums.sha512=deccbab4ecd02f877bcdb8a35096153dcc342b3485c5e3fc3b6b0cb69cb55ad78e7f474e3983ce9d5ad55f9bd020527743db66eb844acff399488608ec770931
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.testing.caconfig-mock-plugin-1.5.4-source-release.zip
+outputs.2.length=45276
+outputs.2.checksums.sha512=0f0bc4862e0dcd5338fc382e9d6a689a15977364b039ae924d58c7784ff550de7ab89e15c7aba0bf1ec664ef584dcea79771638bc5112c62353564dd531b93b2
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.testing.caconfig-mock-plugin-1.5.4-sources.jar
+outputs.3.length=18307
+outputs.3.checksums.sha512=6121f91ff4a4881023b089c61d540befbc69d3a131c4e3c756facaae10e5370c52b1fe80e05842c43c6f54d703b1abcc93898a3692695a3d2a6e3563dbd0d797
