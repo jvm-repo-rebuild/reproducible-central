@@ -22,14 +22,9 @@ rebuildToolMvn() {
   #local mvn_rebuild="${command} -V -e artifact:compare -Dbuildinfo.reproducible"
   local mvn_rebuild="${command} -V -e org.apache.maven.plugins:maven-artifact-plugin:3.5.0:compare -Dbuildinfo.reproducible -Dcompare.fail=false"
 
-  if [[ "${jdk}" == ??.0.* ]]
+  if [[ "${jdk}" == ??.0.* || "${jdk}" == 21 || -n "${RB_SHELL}" ]]
   then
-    # force SHELL execution to get precise JDK release
-    [[ "${command}" == SHELL* ]] || command="SHELL ${command}"
-  fi
-  if [ -n "${RB_SHELL}" ]
-  then
-    # force SHELL execution to get precise JDK release
+    # force SHELL execution
     [[ "${command}" == SHELL* ]] || command="SHELL ${command}"
   fi
 
