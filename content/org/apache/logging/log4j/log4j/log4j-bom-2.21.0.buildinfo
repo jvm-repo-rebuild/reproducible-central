@@ -528,13 +528,13 @@ outputs.31.0.checksums.sha512=6579a20423100d29902a6332f7505f94a56a91772eb8803a8f
 
 outputs.31.1.groupId=org.apache.logging.log4j
 outputs.31.1.filename=log4j-spring-cloud-config-client-2.21.0.jar
-outputs.31.1.length=14868
-outputs.31.1.checksums.sha512=6890cf1b329cd63cb524340dec32b866e188bccc632c9e4fee5f199e14589e7b4735df13a14bc9aa23e6866570bc34bcc6458a8b7fd555166e05e9464b9c942b
+outputs.31.1.length=14871
+outputs.31.1.checksums.sha512=5cf8c103d0d1a891e2c93108888b3ad3ef0574d681e574f1be999a98b698c065bc50db9cca301b7bcd8bcab6554d09d1fe9e0f5200c1e473826c5a81e084eea1
 
 outputs.31.2.groupId=org.apache.logging.log4j
 outputs.31.2.filename=log4j-spring-cloud-config-client-2.21.0-sources.jar
-outputs.31.2.length=13749
-outputs.31.2.checksums.sha512=77d0f1f8b5f536e5bb881d74ff925f3b08c724331cf41e9c3cd66b4d0339d2d499647c8aa494e90df274c95c6a3ab6570bf6cb05934b2d89c8154f4b5fdde8bd
+outputs.31.2.length=13752
+outputs.31.2.checksums.sha512=39ce8a144285d822d452921ed120e479de47c3742137e3c76d1dcc9b3637a16b47e3ebb51febab07ae266826a7abe2c59df36214d35dd975ca5fb9d466baa727
 
 outputs.32.coordinates=org.apache.logging.log4j:log4j-web
 
