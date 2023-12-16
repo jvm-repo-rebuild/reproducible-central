@@ -1,0 +1,32 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=OpenLayers
+group-id=org.webjars
+artifact-id=openlayers
+version=8.2.0
+
+# source information
+source.scm.uri=scm:git:https://github.com/webjars/openlayers.git
+source.scm.tag=openlayers-8.2.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=8
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.webjars
+outputs.0.filename=openlayers-8.2.0.pom
+outputs.0.length=5054
+outputs.0.checksums.sha512=4516ca30bcc9db2396465ce42995325f92c68cda9ce75993527526140b81a3dfda86fa1c68d12b46479502d745c56b79292de9fae422ee00796081d99e0d80a6
+
+outputs.1.groupId=org.webjars
+outputs.1.filename=openlayers-8.2.0.jar
+outputs.1.length=2718798
+outputs.1.checksums.sha512=05ee051b85b346331b6f0b7e32e994aeee229d4eac6535922583d782fbb2b3e565364d90e82c114db4201eb25942e18ab891f6f375e9595fe985f3872b251426

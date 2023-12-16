@@ -1,0 +1,9 @@
+version=8.2.0
+ok=2
+ko=0
+ignored=0
+okFiles="openlayers-8.2.0.pom openlayers-8.2.0.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
