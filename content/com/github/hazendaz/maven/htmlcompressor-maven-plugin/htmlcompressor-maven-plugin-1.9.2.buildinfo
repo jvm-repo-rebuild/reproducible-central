@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=htmlcompressor-maven-plugin
+group-id=com.github.hazendaz.maven
+artifact-id=htmlcompressor-maven-plugin
+version=1.9.2
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/alextunyk/htmlcompressor-maven-plugin.git
+source.scm.tag=htmlcompressor-maven-plugin-1.9.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=com.github.hazendaz.maven
+outputs.0.filename=htmlcompressor-maven-plugin-1.9.2.pom
+outputs.0.length=7753
+outputs.0.checksums.sha512=774a21e357f6b96f5ec439cb857efac99aa3105d31bc7af3ad43f8ca2f7c1786ae075150d2e815ef4840e6a5b65f32804fb4bcbfc99eb81cdc5f39d719c43432
+
+outputs.1.groupId=com.github.hazendaz.maven
+outputs.1.filename=htmlcompressor-maven-plugin-1.9.2.jar
+outputs.1.length=37743
+outputs.1.checksums.sha512=874d7745ee286e90e4bc1b2f8bca1d2b932d21acaf391d51a866b5dc41cfbdcdb8e413865865e0984af5d95aeb68196d37b2258795921fe1407a0739af2c0c78
+
+outputs.2.groupId=com.github.hazendaz.maven
+outputs.2.filename=htmlcompressor-maven-plugin-1.9.2-tests.jar
+outputs.2.length=15591
+outputs.2.checksums.sha512=c123d1377fc0d4a51b1ed06ef83443df2d2cb38bc343c52711b09c4a163dcb93860cbdb4a1355b6be9df7ff8fb7354e3ebdc92e8b2a081eb29c857e14fa53652
+
+outputs.3.groupId=com.github.hazendaz.maven
+outputs.3.filename=htmlcompressor-maven-plugin-1.9.2-sources.jar
+outputs.3.length=23709
+outputs.3.checksums.sha512=04cd009505ee982980411f037c43bfa71acd0843fb5ae55e91e8f957551bfd325bd3aa86ecabf11f3672a091ea8d28c7af75429e7eca9fa9c4226b15fc9b14a9
+
+outputs.4.groupId=com.github.hazendaz.maven
+outputs.4.filename=htmlcompressor-maven-plugin-1.9.2-test-sources.jar
+outputs.4.length=15381
+outputs.4.checksums.sha512=48476ea42ac0601ca0e44c82b6b610ad5e3b240538634792a25261d0719d675e5722b9bb2c53e9d7d70ec41b56c7c11b937132d5eb89e6a0049c7439deee7f69
