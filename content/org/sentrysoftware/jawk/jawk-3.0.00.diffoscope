@@ -1,0 +1,53 @@
+1 / 1 target/reference/org.sentrysoftware/jawk-3.0.00.pom dependency-reduced-pom.xml
+--- target/reference/org.sentrysoftware/jawk-3.0.00.pom
++++ dependency-reduced-pom.xml
+│   --- target/reference/org.sentrysoftware/jawk-3.0.00.pom
+├── +++ dependency-reduced-pom.xml
+│ @@ -230,45 +230,28 @@
+│              </executions>
+│            </plugin>
+│            <plugin>
+│              <groupId>org.sonatype.plugins</groupId>
+│              <artifactId>nexus-staging-maven-plugin</artifactId>
+│              <version>1.6.13</version>
+│              <extensions>true</extensions>
+│ -            <executions>
+│ -              <execution>
+│ -                <id>injected-nexus-deploy</id>
+│ -                <phase>deploy</phase>
+│ -                <goals>
+│ -                  <goal>deploy</goal>
+│ -                </goals>
+│ -                <configuration>
+│ -                  <serverId>ossrh</serverId>
+│ -                  <nexusUrl>https://s01.oss.sonatype.org</nexusUrl>
+│ -                  <autoReleaseAfterClose>true</autoReleaseAfterClose>
+│ -                </configuration>
+│ -              </execution>
+│ -            </executions>
+│              <configuration>
+│                <serverId>ossrh</serverId>
+│                <nexusUrl>https://s01.oss.sonatype.org</nexusUrl>
+│ -              <autoReleaseAfterClose>true</autoReleaseAfterClose>
+│ +              <autoReleaseAfterClose>${env.AUTO_RELEASE_AFTER_CLOSE}</autoReleaseAfterClose>
+│              </configuration>
+│            </plugin>
+│            <plugin>
+│              <artifactId>maven-release-plugin</artifactId>
+│              <version>3.0.1</version>
+│              <executions>
+│                <execution>
+│                  <goals>
+│                    <goal>perform</goal>
+│                  </goals>
+│ -                <configuration>
+│ -                  <tagNameFormat>v@{project.version}</tagNameFormat>
+│ -                </configuration>
+│                </execution>
+│              </executions>
+│              <configuration>
+│                <tagNameFormat>v@{project.version}</tagNameFormat>
+│              </configuration>
+│            </plugin>
+│          </plugins>
+

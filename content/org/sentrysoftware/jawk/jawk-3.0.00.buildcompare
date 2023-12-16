@@ -1,0 +1,10 @@
+version=3.0.00
+ok=3
+ko=1
+ignored=0
+okFiles="jawk-3.0.00.jar jawk-3.0.00-sources.jar jawk-3.0.00-standalone.jar"
+koFiles="jawk-3.0.00.pom"
+ignoredFiles=""
+reference_java_version="17 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.sentrysoftware/jawk-3.0.00.pom dependency-reduced-pom.xml
