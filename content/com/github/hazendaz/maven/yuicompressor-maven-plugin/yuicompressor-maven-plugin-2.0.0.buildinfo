@@ -1,0 +1,48 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=YUI Compressor Maven Mojo
+group-id=com.github.hazendaz.maven
+artifact-id=yuicompressor-maven-plugin
+version=2.0.0
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/hazendaz/yuicompressor-maven-plugin.git
+source.scm.tag=yuicompressor-maven-plugin-2.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.3.9
+
+# output
+
+outputs.0.groupId=com.github.hazendaz.maven
+outputs.0.filename=yuicompressor-maven-plugin-2.0.0.pom
+outputs.0.length=10129
+outputs.0.checksums.sha512=b2f1be53964fca9f92720815eb48a71a0d5eabd7b0cc30c283b03bb433f3b48dd28d927d8c979a72a28add010c187cc21896fbbcb2420e2992c24a5dce6f4074
+
+outputs.1.groupId=com.github.hazendaz.maven
+outputs.1.filename=yuicompressor-maven-plugin-2.0.0.jar
+outputs.1.length=59140
+outputs.1.checksums.sha512=4bd0b2f8f7e21ec52cb26db9eb7fdc6f1d312f0e88160eb66bb20eb5a886b7af17303911d91a1f46b95afbf56cded0c51c4a9437e3a028bd9cd82ccc9d124185
+
+outputs.2.groupId=com.github.hazendaz.maven
+outputs.2.filename=yuicompressor-maven-plugin-2.0.0-tests.jar
+outputs.2.length=7454
+outputs.2.checksums.sha512=54f6a54ad02b7afc95079fb56d678729885875f84beb2ea5ae910e975d104c914cf67f75279da1a3da0cac0415e18e3ff539fc59fe63bbdb9cebb23b42eabaf7
+
+outputs.3.groupId=com.github.hazendaz.maven
+outputs.3.filename=yuicompressor-maven-plugin-2.0.0-sources.jar
+outputs.3.length=46202
+outputs.3.checksums.sha512=fd3e10472b977536ceb36f95e2066dc66c3c6ae5ef6f756995dad9c2aaea94877c90af558625a05b4ab487fab152978ac9dbfbd943916068362b52ae785fb9fd
+
+outputs.4.groupId=com.github.hazendaz.maven
+outputs.4.filename=yuicompressor-maven-plugin-2.0.0-test-sources.jar
+outputs.4.length=6449
+outputs.4.checksums.sha512=8f5fac3bf7f09c6da9bad7164f64d474d5883bee43f94bbf2d52d4a77312ebb75bd9900c2adcc466b4db13eefcd860731a022707519880b59d74d0a040ef2237
