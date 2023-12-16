@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=htmlcompressor-maven-plugin
+group-id=com.github.hazendaz.maven
+artifact-id=htmlcompressor-maven-plugin
+version=1.9.2.1
+
+# source information
+source.scm.uri=scm:git:ssh://git@github.com/alextunyk/htmlcompressor-maven-plugin.git
+source.scm.tag=htmlcompressor-maven-plugin-1.9.2.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=com.github.hazendaz.maven
+outputs.0.filename=htmlcompressor-maven-plugin-1.9.2.1.pom
+outputs.0.length=7757
+outputs.0.checksums.sha512=2a1b01f57dc9630625c4db18cb39bcbe1dcc543b25ab37bee928e8b86e98619ff830879d01f8f9846ffa32e632393051820fa51f1ffdefac27ddb831bd70ffbe
+
+outputs.1.groupId=com.github.hazendaz.maven
+outputs.1.filename=htmlcompressor-maven-plugin-1.9.2.1.jar
+outputs.1.length=37779
+outputs.1.checksums.sha512=a8ed82bd0b33c65fec1aaff4abd9efb8726218c95e33dc0033bcf6208596dca8a7f37950ddf14c74eb8eae560b57b8652ec5e41f4239d24fe9bc2364e22b8b85
+
+outputs.2.groupId=com.github.hazendaz.maven
+outputs.2.filename=htmlcompressor-maven-plugin-1.9.2.1-tests.jar
+outputs.2.length=15600
+outputs.2.checksums.sha512=6fcf49d4e9fc20534546a8d8811a5670a3fa2d00de68ba1c19e4475c2a5a49419c41ecdcb387f0209398cc0c2f1942d5072077e60f868d6318be2b3b67c9f54c
+
+outputs.3.groupId=com.github.hazendaz.maven
+outputs.3.filename=htmlcompressor-maven-plugin-1.9.2.1-sources.jar
+outputs.3.length=23780
+outputs.3.checksums.sha512=0715ec7596196e7890b1971890a3ff5e6f0a89a3e40a064130d2574c8f5099d595833e7deb48cfd89e93e909fd4ebeb989e7fb781139adee9db6268ba79b6a91
+
+outputs.4.groupId=com.github.hazendaz.maven
+outputs.4.filename=htmlcompressor-maven-plugin-1.9.2.1-test-sources.jar
+outputs.4.length=15391
+outputs.4.checksums.sha512=696b87310c23e4f74e20d27b708f16cd96ebea4a5c6160fb043b427622d4b1f07836181c2450d90e1052d06011867d23e9c7e3e8932ed87515a5c09deb978258
