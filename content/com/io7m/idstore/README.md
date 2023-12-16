@@ -56,6 +56,7 @@ rebuilding **1 releases** of com.io7m.idstore:com.io7m.idstore:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.0-rc0001](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/1.0.0-rc0001/pom) | | | |
 | [1.0.0-beta0018](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/1.0.0-beta0018/pom) | | | |
 | [1.0.0-beta0017](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/1.0.0-beta0017/pom) | | | |
 | [1.0.0-beta0016](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/1.0.0-beta0016/pom) | | | |

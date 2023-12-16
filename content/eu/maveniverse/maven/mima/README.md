@@ -21,14 +21,14 @@ Source code: [https://github.com/maveniverse/mima.git](https://github.com/maveni
 * [eu.maveniverse.maven.mima:mima](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/3.0.0-alpha-1)
 </details>
 
-rebuilding **24 releases** of eu.maveniverse.maven.mima:mima:
-- **23** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **25 releases** of eu.maveniverse.maven.mima:mima:
+- **24** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [3.0.0-alpha-1](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/3.0.0-alpha-1/pom) | [mvn jdk21](mima-3.0.0-alpha-1.buildspec) | [result](mima-3.0.0-alpha-1.buildinfo): [27 :heavy_check_mark: ](mima-3.0.0-alpha-1.buildcompare) | 26M |
-| [2.4.4](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/2.4.4/pom) | | | |
+| [2.4.4](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/2.4.4/pom) | [mvn jdk21](mima-2.4.4.buildspec) | [result](mima-2.4.4.buildinfo): [27 :heavy_check_mark: ](mima-2.4.4.buildcompare) | 27M |
 | [2.4.3](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/2.4.3/pom) | [mvn jdk21](mima-2.4.3.buildspec) | [result](mima-2.4.3.buildinfo): [27 :heavy_check_mark: ](mima-2.4.3.buildcompare) | 27M |
 | [2.4.2](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/2.4.2/pom) | [mvn jdk21](mima-2.4.2.buildspec) | [result](mima-2.4.2.buildinfo): [24 :heavy_check_mark:  3 :warning:](mima-2.4.2.buildcompare) [:mag:](mima-2.4.2.diffoscope) | 27M |
 | [2.4.1](https://central.sonatype.com/artifact/eu.maveniverse.maven.mima/mima/2.4.1/pom) | [mvn jdk21](mima-2.4.1.buildspec) | [result](mima-2.4.1.buildinfo): [27 :heavy_check_mark: ](mima-2.4.1.buildcompare) | 17M |
