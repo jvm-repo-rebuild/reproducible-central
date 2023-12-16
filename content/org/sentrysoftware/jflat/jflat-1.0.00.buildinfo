@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=JFlat Utility
+group-id=org.sentrysoftware
+artifact-id=jflat
+version=1.0.00
+
+# source information
+source.scm.uri=scm:git:https://github.com/sentrysoftware/jflat.git
+source.scm.tag=v1.0.00
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.sentrysoftware
+outputs.0.filename=jflat-1.0.00.pom
+outputs.0.length=11094
+outputs.0.checksums.sha512=83cf9e900c58094209fa84e9d764d21e7633ef087a377ed5dcc2d1f6f629cacbd139f44b82686a00199f74039f95668e9e5872ed397066ec079fb89ab4ab08e3
+
+outputs.1.groupId=org.sentrysoftware
+outputs.1.filename=jflat-1.0.00.jar
+outputs.1.length=9603
+outputs.1.checksums.sha512=9d469f96ff57fd5808b77edf904aba07dded8531025306b61669701ef97016ffd70e15b4478add5bc123d77cea2eeac060621a04fe55fb53d7793449ed319a59
+
+outputs.2.groupId=org.sentrysoftware
+outputs.2.filename=jflat-1.0.00-sources.jar
+outputs.2.length=8796
+outputs.2.checksums.sha512=063994f4f369aaaddfee298a724256762e76098bf9ce4d3e8bf8c1bd2f4f79a81d48b13556a5246db6388dd331d213c7cf386ebf2186cbdb54c1618fed77c3f2
