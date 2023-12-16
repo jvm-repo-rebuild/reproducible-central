@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=SSH Java Client
+group-id=org.sentrysoftware
+artifact-id=ssh
+version=1.0.00
+
+# source information
+source.scm.uri=scm:git:https://github.com/sentrysoftware/ssh.git
+source.scm.tag=v1.0.00
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.sentrysoftware
+outputs.0.filename=ssh-1.0.00.pom
+outputs.0.length=10832
+outputs.0.checksums.sha512=a777fbbee5d8e0820794f2411cd02b2232a99653154c79eee20e68c533fa18170d9131edb1e00f639a21e1457e124c1cc22aa9967c90e09ef608e686ce88a65e
+
+outputs.1.groupId=org.sentrysoftware
+outputs.1.filename=ssh-1.0.00.jar
+outputs.1.length=16814
+outputs.1.checksums.sha512=e2baae1e9f720aec3119f612ca839e1ed20645192120d254c4a156fee225d650dc7ba3aa54d58b8b08ac8ae1c257b49db0a15bfd0821458660f9d69273b27702
+
+outputs.2.groupId=org.sentrysoftware
+outputs.2.filename=ssh-1.0.00-sources.jar
+outputs.2.length=13671
+outputs.2.checksums.sha512=1e419df5dd25c7d2c130304f33620695ba1b35580726cfe515572a9cf5218f2032960d1603c8c6542858e7f658c0f2c386521c443c28e20ed79d44258259576c
