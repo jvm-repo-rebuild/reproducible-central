@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Provider Type Checker Bnd Plugin
+group-id=org.apache.sling
+artifact-id=org.apache.sling.providertype.bnd-plugin
+version=1.0.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-providertype-bnd-plugin.git
+source.scm.tag=org.apache.sling.providertype.bnd-plugin-1.0.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.providertype.bnd-plugin-1.0.0.pom
+outputs.0.length=3728
+outputs.0.checksums.sha512=efcee82240c83b84a574453a4844d38487ae3111e286a85b54a7df8cb9468c7199b7b3717f7b1093f1250c9eaf7446a7d08cc6fe8660dd7ecba1f5cd1b3797b9
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.providertype.bnd-plugin-1.0.0.jar
+outputs.1.length=12002
+outputs.1.checksums.sha512=955094a384edc54eee51fc029613209bcebbc0e17ee8291faa28dc014ad16ff48363a76a9f41be59754022050dc04337c71a5f9bc579b3889b492a6d9cb6b602
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.providertype.bnd-plugin-1.0.0-source-release.zip
+outputs.2.length=24900
+outputs.2.checksums.sha512=43d89f4aa8d1fd1567074b49a29f36eded4ad879622f034191578d945e0d66cf77ea8cc819e9e6743e7889feca1e04ce3d27aab72f353df80df2bc50519226d9
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.providertype.bnd-plugin-1.0.0-sources.jar
+outputs.3.length=10117
+outputs.3.checksums.sha512=f6499d5c2ad678e8966dd04a847329fed6bc6c2c24f0307659ed8ce996b814b71126f790817383662f32cdc4bbe81af6bab49271b4d264d842132d633f883db0
