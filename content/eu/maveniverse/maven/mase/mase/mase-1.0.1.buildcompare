@@ -1,0 +1,9 @@
+version=1.0.1
+ok=13
+ko=0
+ignored=0
+okFiles="mase-1.0.1.pom search-api-1.0.1.pom search-api-1.0.1.jar search-api-1.0.1-sources.jar search-backend-indexer-1.0.1.pom search-backend-indexer-1.0.1.jar search-backend-indexer-1.0.1-sources.jar search-backend-remoterepository-1.0.1.pom search-backend-remoterepository-1.0.1.jar search-backend-remoterepository-1.0.1-sources.jar search-backend-smo-1.0.1.pom search-backend-smo-1.0.1.jar search-backend-smo-1.0.1-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
