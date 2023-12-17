@@ -1,0 +1,44 @@
+1 / 1 target/reference/ch.qos.reload4j/reload4j-1.2.25-tests.jar target/reload4j-1.2.25-tests.jar
+--- target/reference/ch.qos.reload4j/reload4j-1.2.25-tests.jar
++++ target/reload4j-1.2.25-tests.jar
+├── zipinfo {}
+│ @@ -1,9 +1,9 @@
+│ -Zip file size: 230585 bytes, number of entries: 184
+│ --rw-r--r--  2.0 unx     2341 b- defN 23-Mar-22 19:16 META-INF/MANIFEST.MF
+│ +Zip file size: 230594 bytes, number of entries: 184
+│ +-rw-r--r--  2.0 unx     2398 b- defN 23-Mar-22 19:16 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Mar-22 19:16 META-INF/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Mar-22 19:16 org/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Mar-22 19:16 org/apache/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Mar-22 19:16 org/apache/log4j/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Mar-22 19:16 org/apache/log4j/customLogger/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Mar-22 19:16 org/apache/log4j/defaultInit/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Mar-22 19:16 org/apache/log4j/helpers/
+│ @@ -179,8 +179,8 @@
+│  -rw-r--r--  2.0 unx     1519 b- defN 23-Mar-22 19:16 org/apache/log4j/xml/XLevel.class
+│  -rw-r--r--  2.0 unx      585 b- defN 23-Mar-22 19:16 org/apache/log4j/xml/XMLLayoutTest$ProblemLevel.class
+│  -rw-r--r--  2.0 unx     9431 b- defN 23-Mar-22 19:16 org/apache/log4j/xml/XMLLayoutTest.class
+│  -rw-r--r--  2.0 unx      780 b- defN 23-Mar-22 19:16 org/apache/log4j/xml/XMLLayoutTestCase$X.class
+│  -rw-r--r--  2.0 unx     6030 b- defN 23-Mar-22 19:16 org/apache/log4j/xml/XMLLayoutTestCase.class
+│  -rw-r--r--  2.0 unx    15790 b- defN 23-Mar-22 19:16 META-INF/maven/ch.qos.reload4j/reload4j/pom.xml
+│  -rw-r--r--  2.0 unx       59 b- defN 23-Mar-22 19:16 META-INF/maven/ch.qos.reload4j/reload4j/pom.properties
+│ -184 files, 457809 bytes uncompressed, 200463 bytes compressed:  56.2%
+│ +184 files, 457866 bytes uncompressed, 200472 bytes compressed:  56.2%
+├── META-INF/MANIFEST.MF
+│ @@ -11,14 +11,15 @@
+│  Import-Package: javax.jmdns;resolution:=optional,javax.jms;resolution:
+│   =optional,javax.mail;version="[1.4,2)";resolution:=optional,javax.mai
+│   l.internet;version="[1.4,2)";resolution:=optional,javax.naming,javax.
+│   xml.parsers,org.w3c.dom,org.xml.sax,org.xml.sax.helpers
+│  Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+│  Tool: Bnd-5.1.1.202006162103
+│  Implementation-Vendor: QOS.CH Sarl (Switzerland)
+│ +Originally-Created-By: Apache Maven Bundle Plugin 5.1.4
+│  Export-Package: org.apache.log4j;version="1.2.25";uses:="org.apache.lo
+│   g4j.helpers,org.apache.log4j.or,org.apache.log4j.spi",org.apache.log4
+│   j.config;version="1.2.25";uses:="org.apache.log4j",org.apache.log4j.h
+│   elpers;version="1.2.25";uses:="org.apache.log4j,org.apache.log4j.spi"
+│   ,org.apache.log4j.jdbc;version="1.2.25";uses:="org.apache.log4j,org.a
+│   pache.log4j.spi",org.apache.log4j.net;version="1.2.25";uses:="javax.j
+│   ms,javax.mail,javax.naming,org.apache.log4j,org.apache.log4j.helpers,
+
