@@ -21,6 +21,7 @@ rebuilding **8 releases** of org.openapitools.openapidiff:openapi-diff-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.1.0-beta.8](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-parent/2.1.0-beta.8/pom) | | | |
 | [2.1.0-beta.7](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-parent/2.1.0-beta.7/pom) | [mvn jdk11](openapi-diff-2.1.0-beta.7.buildspec) | [result](openapi-diff-parent-2.1.0-beta.7.buildinfo): [11 :heavy_check_mark: ](openapi-diff-parent-2.1.0-beta.7.buildcompare) | 15M |
 | [2.1.0-beta.6](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-parent/2.1.0-beta.6/pom) | [mvn jdk11](openapi-diff-2.1.0-beta.6.buildspec) | [result](openapi-diff-parent-2.1.0-beta.6.buildinfo): [11 :heavy_check_mark: ](openapi-diff-parent-2.1.0-beta.6.buildcompare) | 15M |
 | [2.1.0-beta.5](https://central.sonatype.com/artifact/org.openapitools.openapidiff/openapi-diff-parent/2.1.0-beta.5/pom) | [mvn jdk11](openapi-diff-2.1.0-beta.5.buildspec) | [result](openapi-diff-parent-2.1.0-beta.5.buildinfo): [11 :heavy_check_mark: ](openapi-diff-parent-2.1.0-beta.5.buildcompare) | 15M |
