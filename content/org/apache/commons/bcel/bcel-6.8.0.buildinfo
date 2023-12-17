@@ -1,0 +1,67 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Commons BCEL
+group-id=org.apache.bcel
+artifact-id=bcel
+version=6.8.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/commons-bcel.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.bcel
+outputs.0.filename=bcel-6.8.0.pom
+outputs.0.length=21546
+outputs.0.checksums.sha512=521dba0275803375b55feebd17d91d3b3c43d5aae28856fc7ecabae19315bec7577940c1cf0be6ece16fbbc0174ffe081f94a26ceb16cd36ae8591334b20a265
+
+outputs.1.groupId=org.apache.bcel
+outputs.1.filename=bcel-6.8.0.jar
+outputs.1.length=727391
+outputs.1.checksums.sha512=04593b4166792d057ebea75bf41f202bb24f67f3dd22e4497f54e8da6bea6629056814a61dacf31782a554a4c673ea46256b48d86daa0d5e82fca414ca82c2fc
+
+outputs.2.groupId=org.apache.bcel
+outputs.2.filename=bcel-6.8.0-tests.jar
+outputs.2.length=502915
+outputs.2.checksums.sha512=ff2f25cbef03b4e5ff38faafc7e5f76c457181bb89f2eeb7260355fbc26a82a9eb4a7542dcd91a46909d0268a879a67c798c0b3717518c3cb797ff7331263301
+
+outputs.3.groupId=org.apache.bcel
+outputs.3.filename=bcel-6.8.0-sources.jar
+outputs.3.length=695736
+outputs.3.checksums.sha512=a55973bc87409c525860709ff94055808cb46ce13f236f5a119e763ee4a024b9c0c3ac78c80c6e8489f6fc9c535aff8468f09a796889d5dc5c4f9dd593bb337e
+
+outputs.4.groupId=org.apache.bcel
+outputs.4.filename=bcel-6.8.0-test-sources.jar
+outputs.4.length=259659
+outputs.4.checksums.sha512=8924279acde0fc8d101cc27b9e69b514b98a69793c990cadaae193da0fe5913630b99ebfd10568a3baa5e79bd4d93f8020202accf12a6a0e14ef07deb31736db
+
+outputs.5.groupId=org.apache.bcel
+outputs.5.filename=bcel-6.8.0-sources.jar
+outputs.5.length=695736
+outputs.5.checksums.sha512=a55973bc87409c525860709ff94055808cb46ce13f236f5a119e763ee4a024b9c0c3ac78c80c6e8489f6fc9c535aff8468f09a796889d5dc5c4f9dd593bb337e
+
+outputs.6.groupId=org.apache.bcel
+outputs.6.filename=bcel-6.8.0-cyclonedx.xml
+outputs.6.length=5487
+outputs.6.checksums.sha512=ce6f62a8a4dbe89c2f43c5e14c9b4f188c7b506345f56cc74236af154515d6571333a690387f28e652e708739b37e3abc54d63c8a7d65b3819fff02505b46331
+
+outputs.7.groupId=org.apache.bcel
+outputs.7.filename=bcel-6.8.0-cyclonedx.json
+outputs.7.length=6424
+outputs.7.checksums.sha512=2ab80053f5d05c73efe043820626136da3e8ff9bd894aa390d03c63bc4ea28beb7ce6a264d270168b9d5cbee1854d75e63ba680a9be656971160603e5314a13b
+
+outputs.8.groupId=org.apache.bcel
+outputs.8.filename=bcel-6.8.0.spdx.json
+outputs.8.length=420511
+outputs.8.checksums.sha512=717620279f4bacaaa7952f642f7d641fde9ec3d6a8e15fc7fc049a91042c89f4dd7a10790bfcac903c4069f5e2a32e8cd13b4b7685d80da84477a0bba00269f5

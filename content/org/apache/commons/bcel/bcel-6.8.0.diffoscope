@@ -1,0 +1,191 @@
+1 / 5 target/reference/org.apache.bcel/bcel-6.8.0.jar target/bcel-6.8.0.jar
+--- target/reference/org.apache.bcel/bcel-6.8.0.jar
++++ target/bcel-6.8.0.jar
+├── zipinfo {}
+│ @@ -1,473 +1,473 @@
+│  Zip file size: 727391 bytes, number of entries: 471
+│  ?rw-r--r--  2.0 unx     1417 bX defN 23-Nov-18 01:56 META-INF/MANIFEST.MF
+│ -?rwxr-xr-x  1.0 unx        0 bx stor 23-Nov-18 06:56 META-INF/
+│ -?rwxr-xr-x  1.0 unx        0 bx stor 23-Nov-18 06:56 org/
+│ -?rwxr-xr-x  1.0 unx        0 bx stor 23-Nov-18 06:56 org/apache/
+│ -?rwxr-xr-x  1.0 unx        0 bx stor 23-Nov-18 06:56 org/apache/bcel/
+│ -?rwxr-xr-x  1.0 unx        0 bx stor 23-Nov-18 06:56 org/apache/bcel/classfile/
+...
+│ -?rw-r--r--  2.0 unx      142 bx defN 23-Nov-18 06:56 org/apache/bcel/verifier/structurals/package-info.class
+│ -?rw-r--r--  2.0 unx    21546 bx defN 23-Nov-18 06:56 META-INF/maven/org.apache.bcel/bcel/pom.xml
+│ -?rw-r--r--  2.0 unx       54 bx defN 23-Nov-18 06:56 META-INF/maven/org.apache.bcel/bcel/pom.properties
+│ +?rwxr-xr-x  1.0 unx        0 bx stor 23-Nov-18 00:56 META-INF/
+│ +?rwxr-xr-x  1.0 unx        0 bx stor 23-Nov-18 00:56 org/
+│ +?rwxr-xr-x  1.0 unx        0 bx stor 23-Nov-18 00:56 org/apache/
+│ +?rwxr-xr-x  1.0 unx        0 bx stor 23-Nov-18 00:56 org/apache/bcel/
+│ +?rwxr-xr-x  1.0 unx        0 bx stor 23-Nov-18 00:56 org/apache/bcel/classfile/
+...
+│ +?rw-r--r--  2.0 unx      142 bx defN 23-Nov-18 00:56 org/apache/bcel/verifier/structurals/package-info.class
+│ +?rw-r--r--  2.0 unx    21546 bx defN 23-Nov-18 00:56 META-INF/maven/org.apache.bcel/bcel/pom.xml
+│ +?rw-r--r--  2.0 unx       54 bx defN 23-Nov-18 00:56 META-INF/maven/org.apache.bcel/bcel/pom.properties
+│  -rw----     1.0 fat        0 bx stor 23-Nov-18 01:56 META-INF/versions/
+│  -rw----     1.0 fat        0 bx stor 23-Nov-18 01:56 META-INF/versions/9/
+│  -rw----     2.0 fat      481 bX defN 23-Nov-18 01:56 META-INF/versions/9/module-info.class
+│  471 files, 1574472 bytes uncompressed, 646886 bytes compressed:  58.9%
+
+2 / 5 target/reference/org.apache.bcel/bcel-6.8.0-tests.jar target/bcel-6.8.0-tests.jar
+--- target/reference/org.apache.bcel/bcel-6.8.0-tests.jar
++++ target/bcel-6.8.0-tests.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 512074 bytes, number of entries: 326
+│ +Zip file size: 502915 bytes, number of entries: 306
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-18 01:56 META-INF/
+│  -rw-r--r--  2.0 unx     1396 b- defN 23-Nov-18 01:56 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-18 01:56 issue303/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-18 01:56 issue303/example/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-18 01:56 issue307/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-18 01:56 issue307/example/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Nov-18 01:56 issue308/
+│ @@ -89,15 +89,14 @@
+│  -rw-r--r--  2.0 unx     1935 b- defN 23-Nov-18 01:56 org/apache/bcel/AnnotationEntryTest.class
+│  -rw-r--r--  2.0 unx     2143 b- defN 23-Nov-18 01:56 org/apache/bcel/AnonymousClassTestCase.class
+│  -rw-r--r--  2.0 unx     6639 b- defN 23-Nov-18 01:56 org/apache/bcel/CounterVisitorTestCase.class
+│  -rw-r--r--  2.0 unx     7274 b- defN 23-Nov-18 01:56 org/apache/bcel/ElementValueGenTestCase.class
+│  -rw-r--r--  2.0 unx     3897 b- defN 23-Nov-18 01:56 org/apache/bcel/EnclosingMethodAttributeTestCase.class
+│  -rw-r--r--  2.0 unx     1349 b- defN 23-Nov-18 01:56 org/apache/bcel/EnumAccessFlagTestCase.class
+│  -rw-r--r--  2.0 unx     4533 b- defN 23-Nov-18 01:56 org/apache/bcel/HandleTestCase.class
+│ --rw-r--r--  2.0 unx      520 b- defN 23-Nov-18 01:56 org/apache/bcel/HelloWorld.class
+│  -rw-r--r--  2.0 unx     4517 b- defN 23-Nov-18 01:56 org/apache/bcel/HelloWorldCreator.class
+│  -rw-r--r--  2.0 unx     3139 b- defN 23-Nov-18 01:56 org/apache/bcel/InstructionFinderTestCase.class
+│  -rw-r--r--  2.0 unx     1095 b- defN 23-Nov-18 01:56 org/apache/bcel/LocalVariableTypeTableTestCase$TestClassLoader.class
+│  -rw-r--r--  2.0 unx     6889 b- defN 23-Nov-18 01:56 org/apache/bcel/LocalVariableTypeTableTestCase.class
+│  -rw-r--r--  2.0 unx     1084 b- defN 23-Nov-18 01:56 org/apache/bcel/NanoTimer.class
+│  -rw-r--r--  2.0 unx     3501 b- defN 23-Nov-18 01:56 org/apache/bcel/OssFuzzTestCase.class
+│  -rw-r--r--  2.0 unx     7722 b- defN 23-Nov-18 01:56 org/apache/bcel/PLSETestCase.class
+│ @@ -147,15 +146,14 @@
+│  -rw-r--r--  2.0 unx     1206 b- defN 23-Nov-18 01:56 org/apache/bcel/data/SimpleClassHasMethodIncludeGenericArgument.class
+│  -rw-r--r--  2.0 unx      370 b- defN 23-Nov-18 01:56 org/apache/bcel/data/SimpleClassWithDefaultConstructor.class
+│  -rw-r--r--  2.0 unx     1377 b- defN 23-Nov-18 01:56 org/apache/bcel/data/SimpleEnum.class
+│  -rw-r--r--  2.0 unx     6650 b- defN 23-Nov-18 01:56 org/apache/bcel/generic/AnnotationGenTestCase.class
+│  -rw-r--r--  2.0 unx     2318 b- defN 23-Nov-18 01:56 org/apache/bcel/generic/ArrayTypeTest.class
+│  -rw-r--r--  2.0 unx      974 b- defN 23-Nov-18 01:56 org/apache/bcel/generic/BREAKPOINTTestCase.class
+│  -rw-r--r--  2.0 unx     1747 b- defN 23-Nov-18 01:56 org/apache/bcel/generic/BasicTypeTest.class
+│ --rw-r--r--  2.0 unx     4299 b- defN 23-Nov-18 01:56 org/apache/bcel/generic/BinaryOp.class
+│  -rw-r--r--  2.0 unx    21852 b- defN 23-Nov-18 01:56 org/apache/bcel/generic/BinaryOpCreator.class
+│  -rw-r--r--  2.0 unx     2625 b- defN 23-Nov-18 01:56 org/apache/bcel/generic/BranchHandleTestCase.class
+│  -rw-r--r--  2.0 unx    80540 b- defN 23-Nov-18 01:56 org/apache/bcel/generic/CountingVisitor.class
+│  -rw-r--r--  2.0 unx     1088 b- defN 23-Nov-18 01:56 org/apache/bcel/generic/D2FTestCase.class
+│  -rw-r--r--  2.0 unx     1088 b- defN 23-Nov-18 01:56 org/apache/bcel/generic/D2ITestCase.class
+│  -rw-r--r--  2.0 unx     1088 b- defN 23-Nov-18 01:56 org/apache/bcel/generic/D2LTestCase.class
+│  -rw-r--r--  2.0 unx     1095 b- defN 23-Nov-18 01:56 org/apache/bcel/generic/DADDTestCase.class
+│ @@ -260,60 +258,42 @@
+│  -rw-r--r--  2.0 unx      582 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/statics/Pass2VerifierTestCase.class
+│  -rw-r--r--  2.0 unx      620 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/structurals/UninitializedObjectTypeTestCase.class
+│  -rw-r--r--  2.0 unx      175 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/Interface01.class
+│  -rw-r--r--  2.0 unx      568 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/JiraBcel291TestFixture.class
+│  -rw-r--r--  2.0 unx     2567 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/JvmOpCodes.class
+│  -rw-r--r--  2.0 unx     1284 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestArray01.class
+│  -rw-r--r--  2.0 unx      509 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestArrayAccess01.class
+│ --rw-r--r--  2.0 unx      389 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestArrayAccess02.class
+│  -rw-r--r--  2.0 unx     4731 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestArrayAccess02Creator.class
+│ --rw-r--r--  2.0 unx      432 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestArrayAccess03.class
+│  -rw-r--r--  2.0 unx     4619 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestArrayAccess03Creator.class
+│  -rw-r--r--  2.0 unx     4590 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestArrayAccess04Creator.class
+│ --rw-r--r--  2.0 unx      429 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestArrayAccess04Double.class
+│  -rw-r--r--  2.0 unx      582 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestArrayAccess04DoubleCreator.class
+│ --rw-r--r--  2.0 unx      428 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestArrayAccess04Float.class
+│  -rw-r--r--  2.0 unx      577 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestArrayAccess04FloatCreator.class
+│ --rw-r--r--  2.0 unx      426 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestArrayAccess04Int.class
+│  -rw-r--r--  2.0 unx      567 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestArrayAccess04IntCreator.class
+│ --rw-r--r--  2.0 unx      427 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestArrayAccess04Long.class
+│  -rw-r--r--  2.0 unx      572 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestArrayAccess04LongCreator.class
+│ --rw-r--r--  2.0 unx      428 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestArrayAccess04Short.class
+│  -rw-r--r--  2.0 unx      577 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestArrayAccess04ShortCreator.class
+│ --rw-r--r--  2.0 unx        0 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestArrayAccess04Unknown.class
+│  -rw-r--r--  2.0 unx      568 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestArrayAccess04UnknownCreator.class
+│  -rw-r--r--  2.0 unx     2568 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestCreator.class
+│  -rw-r--r--  2.0 unx      635 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestLegalInvokeInterface01.class
+│  -rw-r--r--  2.0 unx      469 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestLegalInvokeSpecial01.class
+│  -rw-r--r--  2.0 unx      627 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestLegalInvokeSpecial02.class
+│  -rw-r--r--  2.0 unx      495 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestLegalInvokeStatic01.class
+│  -rw-r--r--  2.0 unx      470 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestLegalInvokeVirtual01.class
+│  -rw-r--r--  2.0 unx      627 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestLegalInvokeVirtual02.class
+│ --rw-r--r--  2.0 unx      334 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestReturn01.class
+│  -rw-r--r--  2.0 unx     3984 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestReturn01Creator.class
+│  -rw-r--r--  2.0 unx     1118 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestReturn02.class
+│ --rw-r--r--  2.0 unx      342 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestReturn03Boolean.class
+│  -rw-r--r--  2.0 unx      567 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestReturn03BooleanCreator.class
+│ --rw-r--r--  2.0 unx      339 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestReturn03Byte.class
+│  -rw-r--r--  2.0 unx      552 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestReturn03ByteCreator.class
+│  -rw-r--r--  2.0 unx     4037 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestReturn03Creator.class
+│ --rw-r--r--  2.0 unx      341 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestReturn03Double.class
+│  -rw-r--r--  2.0 unx      562 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestReturn03DoubleCreator.class
+│ --rw-r--r--  2.0 unx      340 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestReturn03Float.class
+│  -rw-r--r--  2.0 unx      557 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestReturn03FloatCreator.class
+│ --rw-r--r--  2.0 unx      338 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestReturn03Int.class
+│  -rw-r--r--  2.0 unx      547 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestReturn03IntCreator.class
+│ --rw-r--r--  2.0 unx      339 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestReturn03Long.class
+│  -rw-r--r--  2.0 unx      552 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestReturn03LongCreator.class
+│ --rw-r--r--  2.0 unx      341 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestReturn03Object.class
+│  -rw-r--r--  2.0 unx      563 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestReturn03ObjectCreator.class
+│  -rw-r--r--  2.0 unx      557 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestReturn03ShortCreator.class
+│ --rw-r--r--  2.0 unx        0 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestReturn03Unknown.class
+│  -rw-r--r--  2.0 unx      548 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestReturn03UnknownCreator.class
+│ --rw-r--r--  2.0 unx      178 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestThrow01.class
+│  -rw-r--r--  2.0 unx     2439 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/TestThrow01Creator.class
+│  -rw-r--r--  2.0 unx      328 b- defN 23-Nov-18 01:56 org/apache/bcel/verifier/tests/XTestArray01.class
+│  -rw-r--r--  2.0 unx    14522 b- defN 23-Nov-18 01:56 org/apache/bcel/visitors/CountingVisitor.class
+│  -rw-r--r--  2.0 unx       54 b- defN 23-Nov-18 01:56 ossfuzz/issue51980/Test.classx
+│  -rw-r--r--  2.0 unx       88 b- defN 23-Nov-18 01:56 ossfuzz/issue51989/Test.classx
+│  -rw-r--r--  2.0 unx       61 b- defN 23-Nov-18 01:56 ossfuzz/issue52168/Test.classx
+│  -rw-r--r--  2.0 unx       57 b- defN 23-Nov-18 01:56 ossfuzz/issue53543/Test.classx
+│ @@ -321,8 +301,8 @@
+│  -rw-r--r--  2.0 unx   227530 b- defN 23-Nov-18 01:56 ossfuzz/issue53620/Test.classx
+│  -rw-r--r--  2.0 unx       26 b- defN 23-Nov-18 01:56 ossfuzz/issue53676/Test.classx
+│  -rw-r--r--  2.0 unx       24 b- defN 23-Nov-18 01:56 ossfuzz/issue54119/Test.classx
+│  -rw-r--r--  2.0 unx       42 b- defN 23-Nov-18 01:56 ossfuzz/issue54254/Test.classx
+│  -rw-r--r--  2.0 unx      927 b- defN 23-Nov-18 01:56 ossfuzz/readme.txt
+│  -rw-r--r--  2.0 unx    21546 b- defN 23-Nov-18 01:56 META-INF/maven/org.apache.bcel/bcel/pom.xml
+│  -rw-r--r--  2.0 unx       54 b- defN 23-Nov-18 01:56 META-INF/maven/org.apache.bcel/bcel/pom.properties
+│ -326 files, 7825733 bytes uncompressed, 460270 bytes compressed:  94.1%
+│ +306 files, 7815063 bytes uncompressed, 454757 bytes compressed:  94.2%
+
+# release manager has a non-canonical jar of commons-lang3 3.14.0 in his local repository: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar.sha1
+3 / 5 target/reference/org.apache.bcel/bcel-6.8.0-cyclonedx.xml target/bcel-6.8.0-bom.xml
+--- target/reference/org.apache.bcel/bcel-6.8.0-cyclonedx.xml
++++ target/bcel-6.8.0-bom.xml
+│   --- target/reference/org.apache.bcel/bcel-6.8.0-cyclonedx.xml
+├── +++ target/bcel-6.8.0-bom.xml
+│ @@ -65,22 +65,22 @@
+│        <name>commons-lang3</name>
+│        <version>3.14.0</version>
+│        <description>Apache Commons Lang, a package of Java utility classes for the
+│    classes that are in java.lang's hierarchy, or are considered to be so
+│    standard as to justify existence in java.lang.</description>
+│        <scope>required</scope>
+│        <hashes>
+│ -        <hash alg="MD5">b920c8836c30024148745105b77293a4</hash>
+│ -        <hash alg="SHA-1">29a8e036ea44614023ffeb3b7629f2039e6aeda6</hash>
+│ -        <hash alg="SHA-256">45348a8be261fd08d050009cb6536978af2d0f53ccd4c56b5dbd2ac612f5ce6c</hash>
+│ -        <hash alg="SHA-512">e1bf36e2a6e4dbd8dcc057ae30543267d742a4ced2ea4f0d671d956a69884aefde8efd4fac6aec7948489ba2da7fd82c8054cdb96086232ebbfaf56fbf02e755</hash>
+│ -        <hash alg="SHA-384">86d464f11f3a2cfecb9996897fdda5c049f2228c1b586e15515b7e412fc52191415ca545592ac24dd587651e508bfc9c</hash>
+│ -        <hash alg="SHA3-384">5fb37997c9e09e50ad0dcde027d11891ff14daf99a21dc543a7e532eac06828430ea7a5e65439d2ced46536cb2423f8c</hash>
+│ -        <hash alg="SHA3-256">71d30fd51a28f8396f9d63ba705404956668cfd339520ccc1c3699c75c02be63</hash>
+│ -        <hash alg="SHA3-512">3487967718dd2fd344c49e60e6ee8394f413317ffcf2a55152733b9e7c981e4e0830d21cbb5d7fe43bb1b806e6f84ca17ef742f0f3b04820dd589d92c352a65a</hash>
+│ +        <hash alg="MD5">4e5c3f5e6b0b965ef241d7d72ac8971f</hash>
+│ +        <hash alg="SHA-1">1ed471194b02f2c6cb734a0cd6f6f107c673afae</hash>
+│ +        <hash alg="SHA-256">7b96bf3ee68949abb5bc465559ac270e0551596fa34523fddf890ec418dde13c</hash>
+│ +        <hash alg="SHA-512">0338b50767166e5746ada6d6aa2e071e7221d699323bfb629f7f204b294c1dc4cad140610a129ed751798443b43e74e0818989c7df7d33c5915aa29742be9ba8</hash>
+│ +        <hash alg="SHA-384">908d0a22dc17aaa04caa5104cff7cad5b88b77eecb78dd5b3b3fefa22ff71ac50a4fb9e31c897ac243f9d841e4b3453d</hash>
+│ +        <hash alg="SHA3-384">8a7f2e061b998780870eddd571620fbf3d3c70bcb54e24539d0db504f59d65bc6bda58136284498babe29fcc5eabb7a6</hash>
+│ +        <hash alg="SHA3-256">022bf1f8039fcea717e9e34dd96eb80cfff05b43c9cbb76e9739b2421e2d027c</hash>
+│ +        <hash alg="SHA3-512">0bcbc4edce974ea970c46e2da12ec98d9fd962c2cf64f757ac97136dec5623ca52af0c225895303c17ffabb57090e6772d7bd326d5e7438cef5454f8bbaeecfa</hash>
+│        </hashes>
+│        <licenses>
+│          <license>
+│            <id>Apache-2.0</id>
+│            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+│          </license>
+│        </licenses>
+
+4 / 5 target/reference/org.apache.bcel/bcel-6.8.0-cyclonedx.json target/bcel-6.8.0-bom.json
+# same as previous, but in json instead of xml...
+
+5 / 5 target/reference/org.apache.bcel/bcel-6.8.0.spdx.json target/site/org.apache.bcel_bcel-6.8.0.spdx.json
+...
