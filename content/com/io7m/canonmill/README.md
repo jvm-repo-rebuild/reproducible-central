@@ -9,20 +9,20 @@ Source code: [https://github.com/io7m/canonmill.git](https://github.com/io7m/can
 
 <details><summary>This project defines 4 modules:</summary>
 
-* [com.io7m.canonmill:com.io7m.canonmill](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill/1.0.0)
-* [com.io7m.canonmill:com.io7m.canonmill.core](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill.core/1.0.0)
-* [com.io7m.canonmill:com.io7m.canonmill.documentation](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill.documentation/1.0.0)
-* [com.io7m.canonmill:com.io7m.canonmill.tests](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill.tests/1.0.0)
+* [com.io7m.canonmill:com.io7m.canonmill](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill/2.0.1)
+* [com.io7m.canonmill:com.io7m.canonmill.core](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill.core/2.0.1)
+* [com.io7m.canonmill:com.io7m.canonmill.documentation](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill.documentation/2.0.1)
+* [com.io7m.canonmill:com.io7m.canonmill.tests](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill.tests/2.0.1)
 </details>
 
-rebuilding **5 releases** of com.io7m.canonmill:com.io7m.canonmill:
-- **5** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **7 releases** of com.io7m.canonmill:com.io7m.canonmill:
+- **7** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.0.1](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill/2.0.1/pom) | | | |
-| [2.0.0](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill/2.0.0/pom) | | | |
+| [2.0.1](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill/2.0.1/pom) | [mvn jdk21](com.io7m.canonmill-2.0.1.buildspec) | [result](com.io7m.canonmill-2.0.1.buildinfo): [17 :heavy_check_mark: ](com.io7m.canonmill-2.0.1.buildcompare) | 851K |
+| [2.0.0](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill/2.0.0/pom) | [mvn jdk21](com.io7m.canonmill-2.0.0.buildspec) | [result](com.io7m.canonmill-2.0.0.buildinfo): [17 :heavy_check_mark: ](com.io7m.canonmill-2.0.0.buildcompare) | 848K |
 | [1.0.0](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill/1.0.0/pom) | [mvn jdk17.0.8](com.io7m.canonmill-1.0.0.buildspec) | [result](com.io7m.canonmill-1.0.0.buildinfo): [17 :heavy_check_mark: ](com.io7m.canonmill-1.0.0.buildcompare) | 849K |
 | [1.0.0-beta0001](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill/1.0.0-beta0001/pom) | [mvn jdk17.0.8](com.io7m.canonmill-1.0.0-beta0001.buildspec) | [result](com.io7m.canonmill-1.0.0-beta0001.buildinfo): [17 :heavy_check_mark: ](com.io7m.canonmill-1.0.0-beta0001.buildcompare) | 830K |
 | [0.0.5](https://central.sonatype.com/artifact/com.io7m.canonmill/com.io7m.canonmill/0.0.5/pom) | [mvn jdk17.0.4.1](com.io7m.canonmill-0.0.5.buildspec) | [result](com.io7m.canonmill-0.0.5.buildinfo): [14 :heavy_check_mark: ](com.io7m.canonmill-0.0.5.buildcompare) | 129K |

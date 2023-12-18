@@ -3,8 +3,8 @@
   <groupId>org.apache.logging.log4j</groupId>
   <artifactId>log4j-tools-bom</artifactId>
   <versioning>
-    <latest>0.6.0</latest>
-    <release>0.6.0</release>
+    <latest>0.7.0</latest>
+    <release>0.7.0</release>
     <versions>
       <version>0.1.0</version>
       <version>0.2.0</version>
@@ -12,7 +12,8 @@
       <version>0.4.0</version>
       <version>0.5.0</version>
       <version>0.6.0</version>
+      <version>0.7.0</version>
     </versions>
-    <lastUpdated>20231120090752</lastUpdated>
+    <lastUpdated>20231218081805</lastUpdated>
   </versioning>
 </metadata>

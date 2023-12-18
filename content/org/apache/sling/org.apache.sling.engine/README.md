@@ -13,6 +13,7 @@ rebuilding **14 releases** of org.apache.sling:org.apache.sling.engine:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.15.10](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.engine/2.15.10/pom) | | | |
 | [2.15.8](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.engine/2.15.8/pom) | [mvn jdk11](org.apache.sling.engine-2.15.8.buildspec) | [result](org.apache.sling.engine-2.15.8.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.engine-2.15.8.buildcompare) | 755K |
 | [2.15.6](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.engine/2.15.6/pom) | [mvn jdk11](org.apache.sling.engine-2.15.6.buildspec) | [result](org.apache.sling.engine-2.15.6.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.engine-2.15.6.buildcompare) | 747K |
 | [2.15.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.engine/2.15.4/pom) | [mvn jdk11](org.apache.sling.engine-2.15.4.buildspec) | [result](org.apache.sling.engine-2.15.4.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.engine-2.15.4.buildcompare) | 745K |
