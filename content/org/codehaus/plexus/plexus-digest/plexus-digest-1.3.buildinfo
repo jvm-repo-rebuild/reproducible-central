@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Digest / Hashcode Components
+group-id=org.codehaus.plexus
+artifact-id=plexus-digest
+version=1.3
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-digest.git
+source.scm.tag=plexus-digest-1.3
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-digest-1.3.pom
+outputs.0.length=3101
+outputs.0.checksums.sha512=40f6534c03e963d8770cafe22b6e4288e643b2ff152f74e7a9379b842be3fd14c37f791fb1987e59180e4b1a7608c3037231755d8c8b1b950515a0d2e381a348
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-digest-1.3.jar
+outputs.1.length=14107
+outputs.1.checksums.sha512=b8807d7512b75a5dc2ac67daaef3a20b24f994e8ca47a45e5ac98a5ac290ae60eee1d2f1aa69a24383c70b3c7e9ed7ef0bcef23ad06a973fbf9b421e28b6a1e5
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-digest-1.3-source-release.zip
+outputs.2.length=31015
+outputs.2.checksums.sha512=60e8810a6096e225209624c2fe6c445b159e09fcd93e2f0e9e50a6089e54042a27feacf51775da3779581a21a834295dbdb60e736d4dccffd8b65a7eab2d92d5
+
+outputs.3.groupId=org.codehaus.plexus
+outputs.3.filename=plexus-digest-1.3-sources.jar
+outputs.3.length=16317
+outputs.3.checksums.sha512=233a3cab8a947979ca2d8a3e595bb22eb5f4b002fd061b1b32d1cdd7a79b6af0f8c684a6d08c95414b87b34b457ac61fe7786d589953a4ac8c052b62748bc2af
