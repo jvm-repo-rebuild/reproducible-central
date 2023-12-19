@@ -15,5 +15,5 @@ command="mvn -Pio.wcm clean package -DskipTests -Dmaven.javadoc.skip -Dtimestamp
 
 buildinfo=target/${artifactId}-${version}.buildinfo
 
-diffoscope=${artifactId}-${version}/${artifactId}-${version}.diffoscope
+diffoscope=${artifactId}-${version}.diffoscope
 issue=
