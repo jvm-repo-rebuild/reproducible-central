@@ -13,6 +13,7 @@ rebuilding **3 releases** of org.spdx:spdx-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.7.2](https://central.sonatype.com/artifact/org.spdx/spdx-maven-plugin/0.7.2/pom) | | | |
 | [0.7.1](https://central.sonatype.com/artifact/org.spdx/spdx-maven-plugin/0.7.1/pom) | [mvn jdk17 w](spdx-maven-plugin-0.7.1.buildspec) | [result](spdx-maven-plugin-0.7.1.buildinfo): [3 :heavy_check_mark: ](spdx-maven-plugin-0.7.1.buildcompare) [:mag:](spdx-maven-plugin-0.7.1.diffoscope)
 [1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/org/spdx/spdx-maven-plugin/spdx-maven-plugin-0.7.1.buildspec[0m
  | 216K |
