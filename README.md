@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2964 releases** of **592 projects**:
-   - **2329** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **2966 releases** of **592 projects**:
+   - **2331** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 635 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 592 projects, 486 have at least one fully reproducible release, 106 have none
 
@@ -174,7 +174,7 @@ Its objectives are to provide:
 | | [semanticcms-tag-reference](content/com/semanticcms/semanticcms-tag-reference/README.md) | 1 | 1 :warning: |
 | | [semanticcms-tag-reference-book](content/com/semanticcms/semanticcms-tag-reference-book/README.md) | 1 | 1 :heavy_check_mark: |
 | com.spotify.fmt | [fmt-maven-plugin](content/com/spotify/fmt-maven-plugin/README.md) | 3 | 3 :heavy_check_mark: |
-| com.spotify | [github-client](content/com/spotify/github-client/README.md) | 19 | 19 :heavy_check_mark: |
+| com.spotify | [github-client](content/com/spotify/github-client/README.md) | 20 | 20 :heavy_check_mark: |
 | com.taobao.arthas | [arthas-all](content/com/taobao/arthas/README.md) | 14 | 14 :warning: |
 | com.vladsch.flexmark | [flexmark-java](content/com/vladsch/flexmark/flexmark-java/README.md) | 4 | 4 :heavy_check_mark: |
 | commons-logging | [*](content/commons-logging/commons-logging/README.md) | 1 | 1 :heavy_check_mark: |
@@ -594,7 +594,7 @@ Its objectives are to provide:
 | | [sign-maven-plugin](content/org/simplify4u/plugins/sign-maven-plugin/README.md) | 7 | 5 :heavy_check_mark: / 2 :warning: |
 | org.sonatype.nexus.archetypes | [nexus-format-archetype](content/org/sonatype/nexus/archetypes/nexus-format-archetype/README.md) | 5 | 5 :heavy_check_mark: |
 | org.spdx | [java-spdx-library](content/org/spdx/java-spdx-library/README.md) | 3 | 3 :heavy_check_mark: |
-| | [spdx-maven-plugin](content/org/spdx/spdx-maven-plugin/README.md) | 3 | 1 :heavy_check_mark: / 2 :warning: |
+| | [spdx-maven-plugin](content/org/spdx/spdx-maven-plugin/README.md) | 4 | 2 :heavy_check_mark: / 2 :warning: |
 | org.tomitribe.transformer | [org.eclipse.transformer.parent](content/org/tomitribe/transformer/README.md) | 2 | 2 :heavy_check_mark: |
 | org.webjars | [angularjs](content/org/webjars/angularjs/README.md) | 1 | 1 :heavy_check_mark: |
 | | [bootstrap](content/org/webjars/bootstrap/README.md) | 7 | 7 :heavy_check_mark: |
@@ -615,7 +615,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 29 | 29 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **592** | **2964** | **2329** :heavy_check_mark: **635** :warning: |
+| **Count:** | **592** | **2966** | **2331** :heavy_check_mark: **635** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -631,7 +631,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      26 mvn         7
    1064 mvn         8
       1 mvn         9
-    872 mvn        11
+    873 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.6
@@ -639,7 +639,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    242 mvn        17
+    243 mvn        17
       2 mvn        17.0.7
       1 mvn        17.0.8
       1 mvn        17.0.8.1

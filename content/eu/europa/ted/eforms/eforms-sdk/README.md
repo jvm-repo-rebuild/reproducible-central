@@ -14,6 +14,7 @@ rebuilding **18 releases** of eu.europa.ted.eforms:eforms-sdk:
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
 | [2.0.0-alpha.1](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/2.0.0-alpha.1/pom) | [mvn jdk11](eforms-sdk-2.0.0-alpha.1.buildspec) | [result](eforms-sdk-2.0.0-alpha.1.buildinfo): [3 :heavy_check_mark: ](eforms-sdk-2.0.0-alpha.1.buildcompare) | 37M |
+| [1.10.1](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.10.1/pom) | | | |
 | [1.10.0](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.10.0/pom) | [mvn jdk11](eforms-sdk-1.10.0.buildspec) | [result](eforms-sdk-1.10.0.buildinfo): [3 :heavy_check_mark: ](eforms-sdk-1.10.0.buildcompare) | 47M |
 | [1.9.1](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.9.1/pom) | [mvn jdk11](eforms-sdk-1.9.1.buildspec) | [result](eforms-sdk-1.9.1.buildinfo): [3 :heavy_check_mark: ](eforms-sdk-1.9.1.buildcompare) | 40M |
 | [1.9.0](https://central.sonatype.com/artifact/eu.europa.ted.eforms/eforms-sdk/1.9.0/pom) | [mvn jdk11](eforms-sdk-1.9.0.buildspec) | [result](eforms-sdk-1.9.0.buildinfo): [3 :heavy_check_mark: ](eforms-sdk-1.9.0.buildcompare) | 40M |
