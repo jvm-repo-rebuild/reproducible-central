@@ -4,11 +4,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20231221172348 --> [messages](../content/io/cucumber/messages/README.md) | [24.0.0](../content/io/cucumber/messages/messages-24.0.0.buildspec) :heavy_check_mark: | [24.0.1](../content/io/cucumber/messages/messages-24.0.1.buildspec) | `bin/add-new-release.sh content/io/cucumber/messages/messages-24.0.0.buildspec 24.0.1` |
-| <!-- 20231221104106 --> [logging-parent](../content/org/apache/logging/parent/README.md) | [10.4.0](../content/org/apache/logging/parent/logging-parent-10.4.0.buildspec) :heavy_check_mark: | [10.5.0](../content/org/apache/logging/parent/logging-parent-10.5.0.buildspec) | `bin/add-new-release.sh content/org/apache/logging/parent/logging-parent-10.4.0.buildspec 10.5.0` |
-| <!-- 20231220233042 --> [byte-buddy-parent](../content/net/bytebuddy/README.md) | [1.14.10](../content/net/bytebuddy/byte-buddy-1.14.10.buildspec) :heavy_check_mark: | [1.14.11](../content/net/bytebuddy/byte-buddy-1.14.11.buildspec) | `bin/add-new-release.sh content/net/bytebuddy/byte-buddy-1.14.10.buildspec 1.14.11` |
-| <!-- 20231220231900 --> [dropwizard-project](../content/io/dropwizard/core/README.md) | [4.0.4](../content/io/dropwizard/core/dropwizard-4.0.4.buildspec) :heavy_check_mark: | [5.0.0-alpha.1](../content/io/dropwizard/core/dropwizard-5.0.0-alpha.1.buildspec) | `bin/add-new-release.sh content/io/dropwizard/core/dropwizard-4.0.4.buildspec 5.0.0-alpha.1` |
-| <!-- 20231220203651 --> [plexus-compiler](../content/org/codehaus/plexus/plexus-compiler/README.md) | [2.14.1](../content/org/codehaus/plexus/plexus-compiler/plexus-compiler-2.14.1.buildspec) :heavy_check_mark: | [2.14.2](../content/org/codehaus/plexus/plexus-compiler/plexus-compiler-2.14.2.buildspec) | `bin/add-new-release.sh content/org/codehaus/plexus/plexus-compiler/plexus-compiler-2.14.1.buildspec 2.14.2` |
+| <!-- 20231222062202 --> [maven](../content/org/apache/maven/maven/README.md) | [4.0.0-alpha-9](../content/org/apache/maven/maven/maven-4.0.0-alpha-9.buildspec) :heavy_check_mark: | [4.0.0-alpha-10](../content/org/apache/maven/maven/maven-4.0.0-alpha-10.buildspec) | `bin/add-new-release.sh content/org/apache/maven/maven/maven-4.0.0-alpha-9.buildspec 4.0.0-alpha-10` |
 | <!-- 20231217013526 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.2](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec) :heavy_check_mark: | [10.4.3-beta-11](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.3-beta-11.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec 10.4.3-beta-11` |
 | <!-- 20231213113350 --> [yauaa](../content/nl/basjes/parse/useragent/yauaa/README.md) | [7.23.0](../content/nl/basjes/parse/useragent/yauaa/yauaa-7.23.0.buildspec) :heavy_check_mark: | [7.24.0](../content/nl/basjes/parse/useragent/yauaa/yauaa-7.24.0.buildspec) | `bin/add-new-release.sh content/nl/basjes/parse/useragent/yauaa/yauaa-7.23.0.buildspec 7.24.0` |
 | <!-- 20231205202039 --> [alluxio-parent](../content/org/alluxio/alluxio/README.md) | [303](../content/org/alluxio/alluxio/alluxio-303.buildspec) :heavy_check_mark: | [307](../content/org/alluxio/alluxio/alluxio-307.buildspec) | `bin/add-new-release.sh content/org/alluxio/alluxio/alluxio-303.buildspec 307` |
@@ -20,6 +16,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20231222201029 --> [log4j](../content/org/apache/logging/log4j/log4j/README.md) | [3.0.0-alpha1](../content/org/apache/logging/log4j/log4j/log4j-3.0.0-alpha1.buildspec) :warning: | [3.0.0-beta1](../content/org/apache/logging/log4j/log4j/log4j-3.0.0-beta1.buildspec) | `bin/add-new-release.sh content/org/apache/logging/log4j/log4j/log4j-3.0.0-alpha1.buildspec 3.0.0-beta1` |
+| <!-- 20231222161840 --> [jawk](../content/org/sentrysoftware/jawk/README.md) | [3.0.00](../content/org/sentrysoftware/jawk/jawk-3.0.00.buildspec) :warning: | [3.0.01](../content/org/sentrysoftware/jawk/jawk-3.0.01.buildspec) | `bin/add-new-release.sh content/org/sentrysoftware/jawk/jawk-3.0.00.buildspec 3.0.01` |
 | <!-- 20231221165324 --> [html-formatter](../content/io/cucumber/html-formatter/README.md) | [20.2.0](../content/io/cucumber/html-formatter/html-formatter-20.2.0.buildspec) :warning: [:memo:](https://github.com/cucumber/html-formatter/issues/207) | [21.2.0](../content/io/cucumber/html-formatter/html-formatter-21.2.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/html-formatter/html-formatter-20.2.0.buildspec 21.2.0` |
 | <!-- 20231221150055 --> [com.io7m.idstore](../content/com/io7m/idstore/README.md) | [0.0.14](../content/com/io7m/idstore/com.io7m.idstore-0.0.14.buildspec) :warning: | [1.0.0](../content/com/io7m/idstore/com.io7m.idstore-1.0.0.buildspec) | `bin/add-new-release.sh content/com/io7m/idstore/com.io7m.idstore-0.0.14.buildspec 1.0.0` |
 | <!-- 20231220032117 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.37.0](../content/org/finos/legend/engine/legend-engine-4.37.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.37.0` |
@@ -68,7 +66,6 @@ New Releases To Add
 | artifactId | newest |
 | ---------- | ------ |
 | <!-- 20231219092535 --> [jackrabbit-parent](../content/org/apache/jackrabbit/jackrabbit/README.md) | 2.21.22 :warning: |
-| <!-- 20231214222336 --> [jawk](../content/org/sentrysoftware/jawk/README.md) | 3.0.00 :warning: |
 | <!-- 20231213180841 --> [units-catalog](../content/com/cognite/units/units-catalog/README.md) | 0.1.3 :warning: |
 | <!-- 20231209062826 --> [paimon-parent](../content/org/apache/paimon/README.md) | 0.6.0-incubating :warning: [:memo:](https://github.com/apache/incubator-paimon/pull/2519) |
 | <!-- 20231207210032 --> [bcel](../content/org/apache/commons/bcel/README.md) | 6.8.0 :warning: |
@@ -79,7 +76,6 @@ New Releases To Add
 | <!-- 20231127144059 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.1.6 :warning: |
 | <!-- 20231125131040 --> [mybatis-spring-boot](../content/org/mybatis/spring/boot/README.md) | 3.0.3 :warning: |
 | <!-- 20231123101204 --> [jakarta.servlet-api](../content/jakarta/servlet/jakarta.servlet-api/README.md) | 6.1.0-M1 :warning: |
-| <!-- 20231120080419 --> [log4j](../content/org/apache/logging/log4j/log4j/README.md) | 3.0.0-alpha1 :warning: |
 | <!-- 20231118025823 --> [ratis](../content/org/apache/ratis/README.md) | 3.0.0 :warning: [:memo:](https://issues.apache.org/jira/browse/RATIS-1840) |
 | <!-- 20231115233347 --> [commons-compress](../content/org/apache/commons/compress/README.md) | 1.25.0 :warning: [:memo:](https://github.com/apache/commons-parent/commit/fd1adff1373fbd169525389315198e990e06e3b2) |
 | <!-- 20231111042458 --> [shiro-root](../content/org/apache/shiro/README.md) | 2.0.0-alpha-4 :warning: |

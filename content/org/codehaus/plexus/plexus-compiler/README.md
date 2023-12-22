@@ -9,28 +9,28 @@ Source code: [https://github.com/codehaus-plexus/plexus-compiler.git](https://gi
 
 <details><summary>This project defines 13 modules:</summary>
 
-* [org.codehaus.plexus:plexus-compiler](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler/2.14.1)
-* [org.codehaus.plexus:plexus-compiler-api](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-api/2.14.1)
-* [org.codehaus.plexus:plexus-compiler-aspectj](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-aspectj/2.14.1)
-* [org.codehaus.plexus:plexus-compiler-csharp](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-csharp/2.14.1)
-* [org.codehaus.plexus:plexus-compiler-eclipse](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-eclipse/2.14.1)
-* [org.codehaus.plexus:plexus-compiler-its](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-its/2.14.1)
-* [org.codehaus.plexus:plexus-compiler-j2objc](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-j2objc/2.14.1)
-* [org.codehaus.plexus:plexus-compiler-javac](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-javac/2.14.1)
-* [org.codehaus.plexus:plexus-compiler-javac-errorprone](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-javac-errorprone/2.14.1)
-* [org.codehaus.plexus:plexus-compiler-jikes](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-jikes/2.14.1)
-* [org.codehaus.plexus:plexus-compiler-manager](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-manager/2.14.1)
-* [org.codehaus.plexus:plexus-compiler-test](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-test/2.14.1)
-* [org.codehaus.plexus:plexus-compilers](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compilers/2.14.1)
+* [org.codehaus.plexus:plexus-compiler](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler/2.14.2)
+* [org.codehaus.plexus:plexus-compiler-api](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-api/2.14.2)
+* [org.codehaus.plexus:plexus-compiler-aspectj](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-aspectj/2.14.2)
+* [org.codehaus.plexus:plexus-compiler-csharp](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-csharp/2.14.2)
+* [org.codehaus.plexus:plexus-compiler-eclipse](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-eclipse/2.14.2)
+* [org.codehaus.plexus:plexus-compiler-its](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-its/2.14.2)
+* [org.codehaus.plexus:plexus-compiler-j2objc](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-j2objc/2.14.2)
+* [org.codehaus.plexus:plexus-compiler-javac](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-javac/2.14.2)
+* [org.codehaus.plexus:plexus-compiler-javac-errorprone](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-javac-errorprone/2.14.2)
+* [org.codehaus.plexus:plexus-compiler-jikes](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-jikes/2.14.2)
+* [org.codehaus.plexus:plexus-compiler-manager](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-manager/2.14.2)
+* [org.codehaus.plexus:plexus-compiler-test](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler-test/2.14.2)
+* [org.codehaus.plexus:plexus-compilers](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compilers/2.14.2)
 </details>
 
-rebuilding **12 releases** of org.codehaus.plexus:plexus-compiler:
-- **10** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **13 releases** of org.codehaus.plexus:plexus-compiler:
+- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.14.2](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler/2.14.2/pom) | | | |
+| [2.14.2](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler/2.14.2/pom) | [mvn jdk21](plexus-compiler-2.14.2.buildspec) | [result](plexus-compiler-2.14.2.buildinfo): [28 :heavy_check_mark: ](plexus-compiler-2.14.2.buildcompare) | 476K |
 | [2.14.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler/2.14.1/pom) | [mvn jdk21](plexus-compiler-2.14.1.buildspec) | [result](plexus-compiler-2.14.1.buildinfo): [28 :heavy_check_mark: ](plexus-compiler-2.14.1.buildcompare) | 471K |
 | [2.14.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler/2.14.0/pom) | [mvn jdk21](plexus-compiler-2.14.0.buildspec) | [result](plexus-compiler-2.14.0.buildinfo): [28 :heavy_check_mark: ](plexus-compiler-2.14.0.buildcompare) | 468K |
 | [2.13.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-compiler/2.13.0/pom) | [mvn jdk11](plexus-compiler-2.13.0.buildspec) | [result](plexus-compiler-2.13.0.buildinfo): [31 :heavy_check_mark: ](plexus-compiler-2.13.0.buildcompare) | 499K |
