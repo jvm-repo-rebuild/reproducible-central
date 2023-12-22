@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=TableJoin Utility
+group-id=org.sentrysoftware
+artifact-id=tablejoin
+version=1.0.00
+
+# source information
+source.scm.uri=scm:git:https://github.com/sentrysoftware/tablejoin.git
+source.scm.tag=v1.0.00
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.sentrysoftware
+outputs.0.filename=tablejoin-1.0.00.pom
+outputs.0.length=10571
+outputs.0.checksums.sha512=ddd6d19e63953ec2b08d5fa339eacfec4f8778de1c5268759ace9c384aff93a41250e50e101a5d7a27d85ab794482c03926138d8261c020756478b65f1bad66b
+
+outputs.1.groupId=org.sentrysoftware
+outputs.1.filename=tablejoin-1.0.00.jar
+outputs.1.length=8319
+outputs.1.checksums.sha512=9d28008a539450d72bfc85d2404550b8f6fb1a620cea37f2be0b8b22bfac51acd6bc9427e046d17a5aa7b0080bd1e692b0c87435a95a826540335dfc916a885d
+
+outputs.2.groupId=org.sentrysoftware
+outputs.2.filename=tablejoin-1.0.00-sources.jar
+outputs.2.length=7933
+outputs.2.checksums.sha512=96c82ffe0b51953e928beb8440a12a9dd0e13f8a4c5a9127b7c3a1f50f53c24f4e989ef9a5635dacaf17b2af468fd9e71bd9a5fb970e866f10b68707f8146445
