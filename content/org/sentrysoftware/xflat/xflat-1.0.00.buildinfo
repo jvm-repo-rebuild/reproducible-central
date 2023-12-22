@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=XFlat Utility
+group-id=org.sentrysoftware
+artifact-id=xflat
+version=1.0.00
+
+# source information
+source.scm.uri=scm:git:https://github.com/sentrysoftware/xflat.git
+source.scm.tag=v1.0.00
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.sentrysoftware
+outputs.0.filename=xflat-1.0.00.pom
+outputs.0.length=10703
+outputs.0.checksums.sha512=93e5471649089afe4dcb19686d3c7bfd57a01064bf802be11a0fa4ea1e66c1c36afcb6f81c6fbfecf79f4924f5969405d82b9b23cb3afcf49ec3052e243a026f
+
+outputs.1.groupId=org.sentrysoftware
+outputs.1.filename=xflat-1.0.00.jar
+outputs.1.length=25431
+outputs.1.checksums.sha512=7fcbc48bc5ca259c9ac88a2f669894c7746d277f39a8b0b2f7438bd1a3e7106df5cea95a6a6ccb7fabf8cc3dbc6e11420477be2ace68c8cdab2d82638024f379
+
+outputs.2.groupId=org.sentrysoftware
+outputs.2.filename=xflat-1.0.00-sources.jar
+outputs.2.length=20478
+outputs.2.checksums.sha512=403fb1b3f3a9f6e03438a7444435599224fafdcc7db33c75ad9797065a4f1aadae519f686c8bfb182f676439237bc6490647649d69c3412d98bbdd40b16d2de7
