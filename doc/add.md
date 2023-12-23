@@ -4,7 +4,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20231222062202 --> [maven](../content/org/apache/maven/maven/README.md) | [4.0.0-alpha-9](../content/org/apache/maven/maven/maven-4.0.0-alpha-9.buildspec) :heavy_check_mark: | [4.0.0-alpha-10](../content/org/apache/maven/maven/maven-4.0.0-alpha-10.buildspec) | `bin/add-new-release.sh content/org/apache/maven/maven/maven-4.0.0-alpha-9.buildspec 4.0.0-alpha-10` |
+| <!-- 20231223131642 --> [hk2-parent](../content/org/glassfish/hk2/README.md) | [3.0.5](../content/org/glassfish/hk2/hk2-3.0.5.buildspec) :heavy_check_mark: | [4.0.0-M1](../content/org/glassfish/hk2/hk2-4.0.0-M1.buildspec) | `bin/add-new-release.sh content/org/glassfish/hk2/hk2-3.0.5.buildspec 4.0.0-M1` |
 | <!-- 20231217013526 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.2](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec) :heavy_check_mark: | [10.4.3-beta-11](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.3-beta-11.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec 10.4.3-beta-11` |
 | <!-- 20231213113350 --> [yauaa](../content/nl/basjes/parse/useragent/yauaa/README.md) | [7.23.0](../content/nl/basjes/parse/useragent/yauaa/yauaa-7.23.0.buildspec) :heavy_check_mark: | [7.24.0](../content/nl/basjes/parse/useragent/yauaa/yauaa-7.24.0.buildspec) | `bin/add-new-release.sh content/nl/basjes/parse/useragent/yauaa/yauaa-7.23.0.buildspec 7.24.0` |
 | <!-- 20231205202039 --> [alluxio-parent](../content/org/alluxio/alluxio/README.md) | [303](../content/org/alluxio/alluxio/alluxio-303.buildspec) :heavy_check_mark: | [307](../content/org/alluxio/alluxio/alluxio-307.buildspec) | `bin/add-new-release.sh content/org/alluxio/alluxio/alluxio-303.buildspec 307` |
@@ -16,8 +16,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20231222201029 --> [log4j](../content/org/apache/logging/log4j/log4j/README.md) | [3.0.0-alpha1](../content/org/apache/logging/log4j/log4j/log4j-3.0.0-alpha1.buildspec) :warning: | [3.0.0-beta1](../content/org/apache/logging/log4j/log4j/log4j-3.0.0-beta1.buildspec) | `bin/add-new-release.sh content/org/apache/logging/log4j/log4j/log4j-3.0.0-alpha1.buildspec 3.0.0-beta1` |
-| <!-- 20231222161840 --> [jawk](../content/org/sentrysoftware/jawk/README.md) | [3.0.00](../content/org/sentrysoftware/jawk/jawk-3.0.00.buildspec) :warning: | [3.0.01](../content/org/sentrysoftware/jawk/jawk-3.0.01.buildspec) | `bin/add-new-release.sh content/org/sentrysoftware/jawk/jawk-3.0.00.buildspec 3.0.01` |
+| <!-- 20231223145540 --> [glassfish-parent](../content/org/glassfish/main/README.md) | [7.0.11](../content/org/glassfish/main/glassfish-7.0.11.buildspec) :warning: | [8.0.0-M1](../content/org/glassfish/main/glassfish-8.0.0-M1.buildspec) | `bin/add-new-release.sh content/org/glassfish/main/glassfish-7.0.11.buildspec 8.0.0-M1` |
 | <!-- 20231221165324 --> [html-formatter](../content/io/cucumber/html-formatter/README.md) | [20.2.0](../content/io/cucumber/html-formatter/html-formatter-20.2.0.buildspec) :warning: [:memo:](https://github.com/cucumber/html-formatter/issues/207) | [21.2.0](../content/io/cucumber/html-formatter/html-formatter-21.2.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/html-formatter/html-formatter-20.2.0.buildspec 21.2.0` |
 | <!-- 20231221150055 --> [com.io7m.idstore](../content/com/io7m/idstore/README.md) | [0.0.14](../content/com/io7m/idstore/com.io7m.idstore-0.0.14.buildspec) :warning: | [1.0.0](../content/com/io7m/idstore/com.io7m.idstore-1.0.0.buildspec) | `bin/add-new-release.sh content/com/io7m/idstore/com.io7m.idstore-0.0.14.buildspec 1.0.0` |
 | <!-- 20231220032117 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.37.0](../content/org/finos/legend/engine/legend-engine-4.37.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.37.0` |
@@ -69,7 +68,6 @@ New Releases To Add
 | <!-- 20231213180841 --> [units-catalog](../content/com/cognite/units/units-catalog/README.md) | 0.1.3 :warning: |
 | <!-- 20231209062826 --> [paimon-parent](../content/org/apache/paimon/README.md) | 0.6.0-incubating :warning: [:memo:](https://github.com/apache/incubator-paimon/pull/2519) |
 | <!-- 20231207210032 --> [bcel](../content/org/apache/commons/bcel/README.md) | 6.8.0 :warning: |
-| <!-- 20231204145151 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 7.0.11 :warning: |
 | <!-- 20231203200212 --> [psi-probe](../content/com/github/psi-probe/README.md) | 4.1.0 :warning: |
 | <!-- 20231129032326 --> [whitespace-maven-plugin](../content/com/github/hazendaz/maven/whitespace-maven-plugin/README.md) | 1.3.1 :warning: |
 | <!-- 20231128065356 --> [xmlsec](../content/org/apache/santuario/xmlsec/README.md) | 4.0.1 :warning: [:memo:](https://github.com/apache/santuario-xml-security-java/pull/248) |

@@ -3,8 +3,8 @@
   <groupId>org.glassfish.hk2</groupId>
   <artifactId>hk2-parent</artifactId>
   <versioning>
-    <latest>3.0.5</latest>
-    <release>3.0.5</release>
+    <latest>4.0.0-M1</latest>
+    <release>4.0.0-M1</release>
     <versions>
       <version>2.6.1</version>
       <version>3.0.0-M2</version>
@@ -15,7 +15,8 @@
       <version>3.0.3</version>
       <version>3.0.4</version>
       <version>3.0.5</version>
+      <version>4.0.0-M1</version>
     </versions>
-    <lastUpdated>20231022183524</lastUpdated>
+    <lastUpdated>20231223131642</lastUpdated>
   </versioning>
 </metadata>
