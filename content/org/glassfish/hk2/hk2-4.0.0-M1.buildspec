@@ -1,0 +1,20 @@
+groupId=org.glassfish.hk2
+artifactId=hk2-parent
+version=4.0.0-M1
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/eclipse-ee4j/glassfish-hk2.git
+gitTag=${version}-RELEASE
+
+tool=mvn-3.9.3
+jdk=17
+newline=lf
+umask=022
+
+command="SHELL find . -type d -exec chmod g+s {} \; && mvn -Poss-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
