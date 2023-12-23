@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Jawk
+group-id=org.sentrysoftware
+artifact-id=jawk
+version=3.0.01
+
+# source information
+source.scm.uri=scm:git:https://github.com/sentrysoftware/Jawk.git
+source.scm.tag=v3.0.01
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.sentrysoftware
+outputs.0.filename=jawk-3.0.01.pom
+outputs.0.length=12365
+outputs.0.checksums.sha512=ede6f0f8a474a78a0c27ac071a544ac1fa551582044c8b431d251a982d63048164ceab40de2590ac49232e9f9297032f719d19e26cccbb9f1285feafff15d934
+
+outputs.1.groupId=org.sentrysoftware
+outputs.1.filename=jawk-3.0.01.jar
+outputs.1.length=242001
+outputs.1.checksums.sha512=88a4860d2ca3c0a58ab1a08cff422f526c857aa254b2865c1b02c600679d55a37441b9d510ed0fdb6ddc06e9188d2b75eac5b023f2325dd5bab5a8c6fe35ce90
+
+outputs.2.groupId=org.sentrysoftware
+outputs.2.filename=jawk-3.0.01-sources.jar
+outputs.2.length=154079
+outputs.2.checksums.sha512=942a3e65eca41d4ad7a7b2a1fba00d49500f007a80ffe7875e165a0557158311390b7ad07ecefe40eb8bbe5c1339dffec74d45305a73ad01027eca8bb1a692e9
+
+outputs.3.groupId=org.sentrysoftware
+outputs.3.filename=jawk-3.0.01-standalone.jar
+outputs.3.length=327837
+outputs.3.checksums.sha512=099266b0df68af0d7732df8c0b6f5cfa161ff8b60a3f25a3a4e98c5f160f70911193f051b10a7fe1817a842e7d104ecd13efe984ae0f812dac5b99d19b831921
