@@ -1,0 +1,23 @@
+groupId=org.glassfish.main
+artifactId=glassfish-parent
+version=8.0.0-M1
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/eclipse-ee4j/glassfish.git
+gitTag=${version}
+
+tool=mvn-3.9.5
+jdk=17.0.9
+newline=lf
+umask=022
+
+# mvn run twice as currently configured in release Jenkins job https://ci.eclipse.org/glassfish/view/GlassFish/job/glassfish_1-build-and-stage/
+command="mvn clean && find . -type d -exec chmod g+s {} \; && export LC_ALL=C && mvn package -Poss-release,fastest -DskipTests -Dmaven.javadoc.skip -Djavadoc.skip -Dgpg.skip"
+# fails with "org.glassfish.expressly:expressly:jar:6.0.0-M1 was not found in https://repo.maven.apache.org/maven2"
+# 6.0.0-M1 has a Git tag but no release on Maven Central https://github.com/eclipse-ee4j/expressly
+
+buildinfo=target/glassfish-main-aggregator-${version}.buildinfo
+
+#diffoscope=glassfish-main-aggregator-${version}.diffoscope
+issue=
