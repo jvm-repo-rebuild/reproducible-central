@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **2981 releases** of **594 projects**:
-   - **2344** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 637 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **2984 releases** of **594 projects**:
+   - **2346** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 638 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 594 projects, 489 have at least one fully reproducible release, 105 have none
 
 <!-- END GENERATED INTRO -->
@@ -344,7 +344,7 @@ Its objectives are to provide:
 | | [maven-assembly-plugin](content/org/apache/maven/plugins/maven-assembly-plugin/README.md) | 6 | 6 :heavy_check_mark: |
 | | [maven-checkstyle-plugin](content/org/apache/maven/plugins/maven-checkstyle-plugin/README.md) | 7 | 7 :heavy_check_mark: |
 | | [maven-clean-plugin](content/org/apache/maven/plugins/maven-clean-plugin/README.md) | 3 | 3 :heavy_check_mark: |
-| | [maven-compiler-plugin](content/org/apache/maven/plugins/maven-compiler-plugin/README.md) | 5 | 5 :heavy_check_mark: |
+| | [maven-compiler-plugin](content/org/apache/maven/plugins/maven-compiler-plugin/README.md) | 6 | 6 :heavy_check_mark: |
 | | [maven-dependency-plugin](content/org/apache/maven/plugins/maven-dependency-plugin/README.md) | 7 | 7 :heavy_check_mark: |
 | | [maven-deploy-plugin](content/org/apache/maven/plugins/maven-deploy-plugin/README.md) | 4 | 4 :heavy_check_mark: |
 | | [maven-docck-plugin](content/org/apache/maven/plugins/maven-docck-plugin/README.md) | 1 | 1 :heavy_check_mark: |
@@ -545,8 +545,8 @@ Its objectives are to provide:
 | org.eclipse.jetty | [jetty-project](content/org/eclipse/jetty/jetty-project/README.md) | 4 | 4 :warning: |
 | org.finos.legend.engine | [legend-engine](content/org/finos/legend/engine/README.md) | 1 | 1 :warning: |
 | org.fusesource.jansi | [jansi](content/org/fusesource/jansi/jansi/README.md) | 9 | 5 :heavy_check_mark: / 4 :warning: |
-| org.glassfish.hk2 | [hk2-parent](content/org/glassfish/hk2/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
-| org.glassfish.main | [glassfish-parent](content/org/glassfish/main/README.md) | 6 | 6 :warning: |
+| org.glassfish.hk2 | [hk2-parent](content/org/glassfish/hk2/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
+| org.glassfish.main | [glassfish-parent](content/org/glassfish/main/README.md) | 7 | 7 :warning: |
 | org.glassfish.build | [glassfishbuild-maven-plugin](content/org/glassfish/build/glassfishbuild-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | org.jline | [jline-parent](content/org/jline/jline/README.md) | 5 | 4 :heavy_check_mark: / 1 :warning: |
 | org.jrivard.xmlchai | [xmlchai](content/org/jrivard/xmlchai/README.md) | 2 | 2 :warning: |
@@ -617,7 +617,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 29 | 29 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **594** | **2981** | **2344** :heavy_check_mark: **637** :warning: |
+| **Count:** | **594** | **2984** | **2346** :heavy_check_mark: **638** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -649,7 +649,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      13 mvn        18
      24 mvn        19
      14 mvn        20
-     23 mvn        21
+     24 mvn        21
       2 mvn-3.5.4   8
       1 mvn-3.8.3  11
      13 mvn-3.8.5  11
@@ -684,7 +684,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       7 mvn-3.9.3  14
      12 mvn-3.9.3  14.0.2
       1 mvn-3.9.3  15.0.2
-     45 mvn-3.9.3  17
+     46 mvn-3.9.3  17
       6 mvn-3.9.3  17.0.1
       4 mvn-3.9.3  17.0.2
      52 mvn-3.9.3  17.0.3
@@ -703,6 +703,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       3 mvn-3.9.5  11
       5 mvn-3.9.5  17
       2 mvn-3.9.5  17.0.7
+      1 mvn-3.9.5  17.0.9
      15 mvn-3.9.5  21
       1 mvn-4.0.0-alpha-7  17
       1 mvn-4.0.0-alpha-8  21

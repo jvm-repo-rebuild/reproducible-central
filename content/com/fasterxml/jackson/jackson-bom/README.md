@@ -19,6 +19,7 @@ rebuilding **1 releases** of com.fasterxml.jackson:jackson-bom:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.16.1](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/2.16.1/pom) | | | |
 | [2.16.0](https://central.sonatype.com/artifact/com.fasterxml.jackson/jackson-bom/2.16.0/pom) | [mvn jdk11](jackson-bom-2.16.0.buildspec) | [result](jackson-bom-2.16.0.buildinfo): [2 :heavy_check_mark: ](jackson-bom-2.16.0.buildcompare) | 29K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

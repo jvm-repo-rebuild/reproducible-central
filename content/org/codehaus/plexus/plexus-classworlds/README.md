@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.codehaus.plexus:plexus-classworlds:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.8.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-classworlds/2.8.0/pom) | | | |
 | [2.7.0](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-classworlds/2.7.0/pom) | [mvn jdk8](plexus-classworlds-2.7.0.buildspec) | [result](plexus-classworlds-2.7.0.buildinfo): [4 :heavy_check_mark: ](plexus-classworlds-2.7.0.buildcompare) | 235K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

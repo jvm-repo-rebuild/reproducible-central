@@ -13,6 +13,7 @@ rebuilding **1 releases** of com.fasterxml.jackson.dataformat:jackson-dataformat
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.16.1](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.16.1/pom) | | | |
 | [2.16.0](https://central.sonatype.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.16.0/pom) | [mvn jdk8](jackson-dataformat-xml-2.16.0.buildspec) | [result](jackson-dataformat-xml-2.16.0.buildinfo): [3 :heavy_check_mark: ](jackson-dataformat-xml-2.16.0.buildcompare) | 136K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
