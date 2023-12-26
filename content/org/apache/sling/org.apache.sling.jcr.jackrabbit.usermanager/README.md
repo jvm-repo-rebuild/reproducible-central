@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/sling-org-apache-sling-jcr-jackrabbit-usermanager.git](https://github.com/apache/sling-org-apache-sling-jcr-jackrabbit-usermanager.git)
 
-rebuilding **8 releases** of org.apache.sling:org.apache.sling.jcr.jackrabbit.usermanager:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **9 releases** of org.apache.sling:org.apache.sling.jcr.jackrabbit.usermanager:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 7 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.2.30](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.jackrabbit.usermanager/2.2.30/pom) | | | |
+| [2.2.30](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.jackrabbit.usermanager/2.2.30/pom) | [mvn jdk17](org.apache.sling.jcr.jackrabbit.usermanager-2.2.30.buildspec) | [result](org.apache.sling.jcr.jackrabbit.usermanager-2.2.30.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.jcr.jackrabbit.usermanager-2.2.30.buildcompare) | 405K |
 | [2.2.28](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.jackrabbit.usermanager/2.2.28/pom) | [mvn jdk17](org.apache.sling.jcr.jackrabbit.usermanager-2.2.28.buildspec) | [result](org.apache.sling.jcr.jackrabbit.usermanager-2.2.28.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.jcr.jackrabbit.usermanager-2.2.28.buildcompare) | 402K |
 | [2.2.26](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.jackrabbit.usermanager/2.2.26/pom) | [mvn jdk11](org.apache.sling.jcr.jackrabbit.usermanager-2.2.26.buildspec) | [result](org.apache.sling.jcr.jackrabbit.usermanager-2.2.26.buildinfo): [3 :heavy_check_mark:  1 :warning:](org.apache.sling.jcr.jackrabbit.usermanager-2.2.26.buildcompare) [:mag:](org.apache.sling.jcr.jackrabbit.usermanager-2.2.26.diffoscope) [:memo:](https://github.com/apache/sling-org-apache-sling-jcr-jackrabbit-usermanager/pull/18) | 399K |
 | [2.2.24](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.jcr.jackrabbit.usermanager/2.2.24/pom) | [mvn jdk11](org.apache.sling.jcr.jackrabbit.usermanager-2.2.24.buildspec) | [result](org.apache.sling.jcr.jackrabbit.usermanager-2.2.24.buildinfo): [3 :heavy_check_mark:  1 :warning:](org.apache.sling.jcr.jackrabbit.usermanager-2.2.24.buildcompare) [:mag:](org.apache.sling.jcr.jackrabbit.usermanager-2.2.24.diffoscope) | 488K |
