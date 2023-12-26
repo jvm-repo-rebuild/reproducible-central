@@ -1,0 +1,79 @@
+1 / 1 target/reference/eu.europa.ted.eforms/efx-toolkit-java-2.0.0-alpha.2-sources.jar target/efx-toolkit-java-2.0.0-alpha.2-sources.jar
+--- target/reference/eu.europa.ted.eforms/efx-toolkit-java-2.0.0-alpha.2-sources.jar
++++ target/efx-toolkit-java-2.0.0-alpha.2-sources.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 306375 bytes, number of entries: 121
+│ +Zip file size: 306621 bytes, number of entries: 121
+│  -rw-r--r--  2.0 unx       64 b- defN 23-Jul-28 16:03 META-INF/MANIFEST.MF
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jul-28 16:03 META-INF/
+│ @@ -100,24 +100,24 @@
+│  -rw-r--r--  2.0 unx     1198 b- defN 23-Jul-28 16:03 eu/europa/ted/efx/xpath/XPathContextualizer.java
+│  -rw-r--r--  2.0 unx    22553 b- defN 23-Jul-28 16:03 eu/europa/ted/efx/xpath/XPathScriptGenerator.java
+│ --rw-r--r--  2.0 unx     3415 b- defN 23-Jul-28 16:03 Efx.tokens
+│ --rw-r--r--  2.0 unx     3415 b- defN 23-Jul-28 16:03 EfxLexer.tokens
+│ +-rw-r--r--  2.0 unx     3649 b- defN 23-Jul-28 16:03 Efx.tokens
+│ +-rw-r--r--  2.0 unx     3649 b- defN 23-Jul-28 16:03 EfxLexer.tokens
+│  -rw-r--r--  2.0 unx    44474 b- defN 23-Jul-28 16:03 eu/europa/ted/efx/sdk1/Efx.interp
+│  -rw-r--r--  2.0 unx    75847 b- defN 23-Jul-28 16:03 eu/europa/ted/efx/sdk1/EfxBaseListener.java
+...
+│  -rw-r--r--  2.0 unx    14495 b- defN 23-Jul-28 16:03 META-INF/maven/eu.europa.ted.eforms/efx-toolkit-java/pom.xml
+│  -rw-r--r--  2.0 unx       79 b- defN 23-Jul-28 16:03 META-INF/maven/eu.europa.ted.eforms/efx-toolkit-java/pom.properties
+│ -121 files, 2078688 bytes uncompressed, 285959 bytes compressed:  86.3%
+│ +121 files, 2079156 bytes uncompressed, 286205 bytes compressed:  86.2%
+├── Efx.tokens
+│ @@ -1,233 +1,252 @@
+│  Comment=1
+│  EmptyLine=2
+│  MixedIndent=3
+│  Tabs=4
+│  Spaces=5
+│  OutlineNumber=6
+│  SWS=7
+│ -CRLF=8
+│ -FreeText=9
+│ -ShorthandFieldValueReferenceFromContextField=10
+│ -ShorthandIndirectLabelReferenceFromContextField=11
+...
+│ -'-'=134
+│ -','=135
+│ -'/@'=136
+│ -':'=137
+│ +LineJoining=8
+│ +CRLF=9
+│ +NewLine=10
+│ +FreeText=11
+...
+│ +','=145
+│ +'.'=146
+│ +'..'=147
+│ +':'=148
+├── EfxLexer.tokens
+│ @@ -1,233 +1,252 @@
+│  Comment=1
+│  EmptyLine=2
+│  MixedIndent=3
+│  Tabs=4
+│  Spaces=5
+│  OutlineNumber=6
+│  SWS=7
+│ -CRLF=8
+│ -FreeText=9
+│ -ShorthandFieldValueReferenceFromContextField=10
+│ -ShorthandIndirectLabelReferenceFromContextField=11
+...
+│ -'-'=134
+│ -','=135
+│ -'/@'=136
+│ -':'=137
+│ +LineJoining=8
+│ +CRLF=9
+│ +NewLine=10
+│ +FreeText=11
+│ +ShorthandFieldValueReferenceFromContextField=12
+...
+│ +','=145
+│ +'.'=146
+│ +'..'=147
+│ +':'=148
+
