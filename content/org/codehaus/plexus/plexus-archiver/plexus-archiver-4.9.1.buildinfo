@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Archiver Component
+group-id=org.codehaus.plexus
+artifact-id=plexus-archiver
+version=4.9.1
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-archiver.git
+source.scm.tag=plexus-archiver-4.9.1
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-archiver-4.9.1.pom
+outputs.0.length=5792
+outputs.0.checksums.sha512=f7be1a2550c516b0e57f14926f94e65546cd4898ce0e5b121841bee6bd912278e2b52eb47008ed8029fc66537257c83a27e938578e92a8e9e7c5fdcb37cfdf06
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-archiver-4.9.1.jar
+outputs.1.length=224632
+outputs.1.checksums.sha512=feb5de35721ce8355b1ded61e4251628b41a4c2a3a5dfdf7d93620de3c2ec73d07c1406f75f8b8cb0c715b178df9526b2a2b48c07e78d39e817145d1f9c957f1
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-archiver-4.9.1-source-release.zip
+outputs.2.length=1097482
+outputs.2.checksums.sha512=f623bbc71fcc8dbf9a138057fd360a61072bb86bb6c6dab4410ea8f47fd65e995d266abfca6c023533773f4fa7f19868a38a390cf2b41f8018a21171db995f24
+
+outputs.3.groupId=org.codehaus.plexus
+outputs.3.filename=plexus-archiver-4.9.1-sources.jar
+outputs.3.length=182738
+outputs.3.checksums.sha512=c981d9acbb97a784b36770ea0223e1db160b5df589b612f2748143db6b917483b09446fd53220b90db7aedc97c5f594eb3c146bc05b26cc30b67512d3cfe5466
