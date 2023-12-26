@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus IO Components
+group-id=org.codehaus.plexus
+artifact-id=plexus-io
+version=3.4.2
+
+# source information
+source.scm.uri=scm:git:git@github.com:codehaus-plexus/plexus-io.git
+source.scm.tag=plexus-io-3.4.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-io-3.4.2.pom
+outputs.0.length=3862
+outputs.0.checksums.sha512=9eafdfcf32d24b5766cb2dd308b0e4ad9b29ffd978e0a93099c5d6106b2f0b459a42ccf6b3efeb4c962393f5d841afb1b1615e2f4c21863e1c01ea5731e2b3eb
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-io-3.4.2.jar
+outputs.1.length=78962
+outputs.1.checksums.sha512=607de2dcb3826986f163a7d312d45ce43cbf6d845ca5f4006a966bf213b8c2625c14342f8de1e6c9cd9c4206fceda8ecc0fa27ace0c36d5e7b04857d63b3ae03
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-io-3.4.2-source-release.zip
+outputs.2.length=107998
+outputs.2.checksums.sha512=bf3c453d77af46490e5cf463ff58f53d9618ffd99c4a52ba02a05fce12e755128b128d599284879654fcdab51421b7dc42890b0a8651f5d253cb4f3011f218fc
+
+outputs.3.groupId=org.codehaus.plexus
+outputs.3.filename=plexus-io-3.4.2-sources.jar
+outputs.3.length=67265
+outputs.3.checksums.sha512=adc0d6eed4bc75b392d0107ff3af20d3437b4c27092da8f522e5ff80053c91dc645cf15aec09fc67c625c8c38ffb35b9dcbeab54999f98b8716d9426b01bbbf4
