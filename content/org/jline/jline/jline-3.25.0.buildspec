@@ -1,0 +1,20 @@
+groupId=org.jline
+artifactId=jline-parent
+version=3.25.0
+
+display=${groupId}:${artifactId}
+
+gitRepo=https://github.com/jline/jline3.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=21
+newline=lf
+umask=022
+
+command="SHELL mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
