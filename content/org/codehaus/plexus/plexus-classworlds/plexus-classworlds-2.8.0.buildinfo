@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Classworlds
+group-id=org.codehaus.plexus
+artifact-id=plexus-classworlds
+version=2.8.0
+
+# source information
+source.scm.uri=scm:git:git@github.com:codehaus-plexus/plexus-classworlds.git
+source.scm.tag=plexus-classworlds-2.8.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-classworlds-2.8.0.pom
+outputs.0.length=7135
+outputs.0.checksums.sha512=1f6f3078922e3fd5eee9b1079377e920dedf5e6d8ec65abeb5b1d975e51bca3780de2c675d641ec930f2f8c13e265ca047dd6b8e670e8a4151479e28405eb321
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-classworlds-2.8.0.jar
+outputs.1.length=53626
+outputs.1.checksums.sha512=3f8eeaf5089244ca8e0eec46ab0d57924dd187375413ddf55edf5881a2fd17f7b4a12abd0b402e8a2d5c8428bff87809f40921eda9f6ddc20585e861825618ec
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-classworlds-2.8.0-source-release.zip
+outputs.2.length=122522
+outputs.2.checksums.sha512=74e73e740eaab8c89a6b11f8d6b101d43b3ad6edcc77b2103a291c3cc5a218711f84ac056f731bc497f5bacfe297f3c1f992f9ee21edff1910e713434dea3906
+
+outputs.3.groupId=org.codehaus.plexus
+outputs.3.filename=plexus-classworlds-2.8.0-sources.jar
+outputs.3.length=53296
+outputs.3.checksums.sha512=435e4e44e1383d9c4e397687411604f82325b460f81d6f76557ea6fe8a8b56c8b10dc5b315f3314345d76e8c23ad8671fc9be62ed42b0195c0907c2ab4463c1e

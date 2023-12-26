@@ -1,0 +1,7 @@
+version=2.8.0
+ok=4
+ko=0
+ignored=0
+okFiles="plexus-classworlds-2.8.0.pom plexus-classworlds-2.8.0.jar plexus-classworlds-2.8.0-source-release.zip plexus-classworlds-2.8.0-sources.jar"
+koFiles=""
+ignoredFiles=""
