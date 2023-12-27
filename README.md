@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3006 releases** of **594 projects**:
-   - **2365** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **3008 releases** of **596 projects**:
+   - **2367** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 641 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 594 projects, 489 have at least one fully reproducible release, 105 have none
+   - on 596 projects, 491 have at least one fully reproducible release, 105 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -525,6 +525,7 @@ Its objectives are to provide:
 | org.codehaus.plexus | [plexus-archiver](content/org/codehaus/plexus/plexus-archiver/README.md) | 18 | 17 :heavy_check_mark: / 1 :warning: |
 | | [plexus-cipher](content/org/codehaus/plexus/plexus-cipher/README.md) | 2 | 2 :heavy_check_mark: |
 | | [plexus-classworlds](content/org/codehaus/plexus/plexus-classworlds/README.md) | 2 | 2 :heavy_check_mark: |
+| | [plexus-cli](content/org/codehaus/plexus/plexus-cli/README.md) | 1 | 1 :heavy_check_mark: |
 | | [plexus-compiler](content/org/codehaus/plexus/plexus-compiler/README.md) | 13 | 11 :heavy_check_mark: / 2 :warning: |
 | | [plexus-components](content/org/codehaus/plexus/plexus-components/README.md) | 8 | 7 :heavy_check_mark: / 1 :warning: |
 | | [plexus-digest](content/org/codehaus/plexus/plexus-digest/README.md) | 1 | 1 :heavy_check_mark: |
@@ -532,6 +533,7 @@ Its objectives are to provide:
 | | [plexus-io](content/org/codehaus/plexus/plexus-io/README.md) | 5 | 5 :heavy_check_mark: |
 | | [plexus-languages](content/org/codehaus/plexus/plexus-languages/README.md) | 7 | 2 :heavy_check_mark: / 5 :warning: |
 | | [plexus](content/org/codehaus/plexus/plexus-pom/README.md) | 14 | 13 :heavy_check_mark: / 1 :warning: |
+| | [plexus-resources](content/org/codehaus/plexus/plexus-resources/README.md) | 1 | 1 :heavy_check_mark: |
 | | [plexus-testing](content/org/codehaus/plexus/plexus-testing/README.md) | 3 | 3 :heavy_check_mark: |
 | | [plexus-utils](content/org/codehaus/plexus/plexus-utils/README.md) | 6 | 4 :heavy_check_mark: / 2 :warning: |
 | | [plexus-velocity](content/org/codehaus/plexus/plexus-velocity/README.md) | 3 | 3 :heavy_check_mark: |
@@ -617,7 +619,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 29 | 29 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **594** | **3006** | **2365** :heavy_check_mark: **641** :warning: |
+| **Count:** | **596** | **3008** | **2367** :heavy_check_mark: **641** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -649,7 +651,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      13 mvn        18
      24 mvn        19
      14 mvn        20
-     29 mvn        21
+     31 mvn        21
       2 mvn-3.5.4   8
       1 mvn-3.8.3  11
      13 mvn-3.8.5  11

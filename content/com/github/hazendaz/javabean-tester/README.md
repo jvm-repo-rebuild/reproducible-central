@@ -13,6 +13,7 @@ rebuilding **7 releases** of com.github.hazendaz:javabean-tester:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.6.2](https://central.sonatype.com/artifact/com.github.hazendaz/javabean-tester/2.6.2/pom) | | | |
 | [2.6.1](https://central.sonatype.com/artifact/com.github.hazendaz/javabean-tester/2.6.1/pom) | [mvn jdk21 w](javabean-tester-2.6.1.buildspec) | [result](javabean-tester-2.6.1.buildinfo): [5 :heavy_check_mark: ](javabean-tester-2.6.1.buildcompare) [:mag:](javabean-tester-2.6.1.diffoscope)
 [1;31munexpected issue/diffoscope entry when ko=0[0m in [1mcontent/com/github/hazendaz/javabean-tester/javabean-tester-2.6.1.buildspec[0m
  | 188K |
