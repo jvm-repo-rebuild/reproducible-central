@@ -1,0 +1,42 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus CLI
+group-id=org.codehaus.plexus
+artifact-id=plexus-cli
+version=1.7
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-cli.git
+source.scm.tag=plexus-cli-1.7
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.codehaus.plexus
+outputs.0.filename=plexus-cli-1.7.pom
+outputs.0.length=2984
+outputs.0.checksums.sha512=4c2a0cf7a8ea13458ea2f8ee0fe7bbba72a620ffca77cc05c757fdce0cfb3897c631892730e4aba1908d88717b8c8968bd0d5bf4101fe2325cdb1274305b0122
+
+outputs.1.groupId=org.codehaus.plexus
+outputs.1.filename=plexus-cli-1.7.jar
+outputs.1.length=8140
+outputs.1.checksums.sha512=8e6fd2bd16d5a491e90b31258feee417cb2d86eb246af7126099b6d38b48e42b8e81b70e2b5a1b4cf6f214abe3f743c78667fd3f9aa0d975694ee674bba0fafc
+
+outputs.2.groupId=org.codehaus.plexus
+outputs.2.filename=plexus-cli-1.7-source-release.zip
+outputs.2.length=11365
+outputs.2.checksums.sha512=a1d5bbb01490245e179cedc4d41eb780df9b0f720c6ffcfc2b521db91616667981253bec1361bed1939aa78cd30509390d1a68434275ed95da2aa612d3ccebf7
+
+outputs.3.groupId=org.codehaus.plexus
+outputs.3.filename=plexus-cli-1.7-sources.jar
+outputs.3.length=7195
+outputs.3.checksums.sha512=4a6fc671795e2ef06c095dfbec44c1c7a529564f86a04a658accb05923881459edef9a10d3a7be1a2b68895f34e8786d581b698fbea42e0dc5bc5a5c4a49178f
