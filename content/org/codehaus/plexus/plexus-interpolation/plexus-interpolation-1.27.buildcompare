@@ -1,0 +1,7 @@
+version=1.27
+ok=4
+ko=0
+ignored=0
+okFiles="plexus-interpolation-1.27.pom plexus-interpolation-1.27.jar plexus-interpolation-1.27-source-release.zip plexus-interpolation-1.27-sources.jar"
+koFiles=""
+ignoredFiles=""
