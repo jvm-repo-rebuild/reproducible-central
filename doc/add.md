@@ -4,7 +4,10 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20231227013207 --> [javabean-tester](../content/com/github/hazendaz/javabean-tester/README.md) | [2.6.1](../content/com/github/hazendaz/javabean-tester/javabean-tester-2.6.1.buildspec) :heavy_check_mark: | [2.6.2](../content/com/github/hazendaz/javabean-tester/javabean-tester-2.6.2.buildspec) | `bin/add-new-release.sh content/com/github/hazendaz/javabean-tester/javabean-tester-2.6.1.buildspec 2.6.2` |
+| <!-- 20231228194527 --> [slf4j-parent](../content/org/slf4j/README.md) | [2.0.9](../content/org/slf4j/slf4j-2.0.9.buildspec) :heavy_check_mark: | [2.1.0-alpha0](../content/org/slf4j/slf4j-2.1.0-alpha0.buildspec) | `bin/add-new-release.sh content/org/slf4j/slf4j-2.0.9.buildspec 2.1.0-alpha0` |
+| <!-- 20231228174314 --> [github-client](../content/com/spotify/github-client/README.md) | [0.2.2](../content/com/spotify/github-client/github-client-0.2.2.buildspec) :heavy_check_mark: | [0.2.3](../content/com/spotify/github-client/github-client-0.2.3.buildspec) | `bin/add-new-release.sh content/com/spotify/github-client/github-client-0.2.2.buildspec 0.2.3` |
+| <!-- 20231228061604 --> [highcharts](../content/org/webjars/highcharts/README.md) | [11.1.0](../content/org/webjars/highcharts/highcharts-11.1.0.buildspec) :heavy_check_mark: | [11.2.0](../content/org/webjars/highcharts/highcharts-11.2.0.buildspec) | `bin/add-new-release.sh content/org/webjars/highcharts/highcharts-11.1.0.buildspec 11.2.0` |
+| <!-- 20231228061112 --> [flexmonster](../content/org/webjars/flexmonster/README.md) | [2.9.66](../content/org/webjars/flexmonster/flexmonster-2.9.66.buildspec) :heavy_check_mark: | [2.9.67](../content/org/webjars/flexmonster/flexmonster-2.9.67.buildspec) | `bin/add-new-release.sh content/org/webjars/flexmonster/flexmonster-2.9.66.buildspec 2.9.67` |
 | <!-- 20231224013249 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.2](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec) :heavy_check_mark: | [10.4.3-beta-12](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.3-beta-12.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec 10.4.3-beta-12` |
 | <!-- 20231213113350 --> [yauaa](../content/nl/basjes/parse/useragent/yauaa/README.md) | [7.23.0](../content/nl/basjes/parse/useragent/yauaa/yauaa-7.23.0.buildspec) :heavy_check_mark: | [7.24.0](../content/nl/basjes/parse/useragent/yauaa/yauaa-7.24.0.buildspec) | `bin/add-new-release.sh content/nl/basjes/parse/useragent/yauaa/yauaa-7.23.0.buildspec 7.24.0` |
 | <!-- 20231205202039 --> [alluxio-parent](../content/org/alluxio/alluxio/README.md) | [303](../content/org/alluxio/alluxio/alluxio-303.buildspec) :heavy_check_mark: | [307](../content/org/alluxio/alluxio/alluxio-307.buildspec) | `bin/add-new-release.sh content/org/alluxio/alluxio/alluxio-303.buildspec 307` |
@@ -17,7 +20,6 @@ New Releases To Add
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
 | <!-- 20231226095635 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.3.0](../content/org/apache/camel/camel/camel-4.3.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.3.0` |
-| <!-- 20231226082110 --> [syncope](../content/org/apache/syncope/README.md) | [3.0.5](../content/org/apache/syncope/syncope-3.0.5.buildspec) :warning: | [3.0.6](../content/org/apache/syncope/syncope-3.0.6.buildspec) | `bin/add-new-release.sh content/org/apache/syncope/syncope-3.0.5.buildspec 3.0.6` |
 | <!-- 20231221165324 --> [html-formatter](../content/io/cucumber/html-formatter/README.md) | [20.2.0](../content/io/cucumber/html-formatter/html-formatter-20.2.0.buildspec) :warning: [:memo:](https://github.com/cucumber/html-formatter/issues/207) | [21.2.0](../content/io/cucumber/html-formatter/html-formatter-21.2.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/html-formatter/html-formatter-20.2.0.buildspec 21.2.0` |
 | <!-- 20231221150055 --> [com.io7m.idstore](../content/com/io7m/idstore/README.md) | [0.0.14](../content/com/io7m/idstore/com.io7m.idstore-0.0.14.buildspec) :warning: | [1.0.0](../content/com/io7m/idstore/com.io7m.idstore-1.0.0.buildspec) | `bin/add-new-release.sh content/com/io7m/idstore/com.io7m.idstore-0.0.14.buildspec 1.0.0` |
 | <!-- 20231220032117 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.37.0](../content/org/finos/legend/engine/legend-engine-4.37.0.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.37.0` |
@@ -60,6 +62,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20231226082110 --> [syncope](../content/org/apache/syncope/README.md) | 3.0.6 :warning: |
 | <!-- 20231223145540 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 8.0.0-M1 :x: |
 | <!-- 20231219092535 --> [jackrabbit-parent](../content/org/apache/jackrabbit/jackrabbit/README.md) | 2.21.22 :warning: |
 | <!-- 20231213180841 --> [units-catalog](../content/com/cognite/units/units-catalog/README.md) | 0.1.3 :warning: |

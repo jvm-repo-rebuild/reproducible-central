@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3008 releases** of **596 projects**:
-   - **2367** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 641 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 596 projects, 491 have at least one fully reproducible release, 105 have none
+   rebuilding **3014 releases** of **599 projects**:
+   - **2372** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 642 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - on 599 projects, 494 have at least one fully reproducible release, 105 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -50,7 +50,7 @@ Its objectives are to provide:
 | com.github.psi-probe | [psi-probe](content/com/github/psi-probe/README.md) | 8 | 6 :heavy_check_mark: / 2 :warning: |
 | com.github.adangel.liquibase.ext | [liquibase-percona](content/com/github/adangel/liquibase/ext/liquibase-percona/README.md) | 1 | 1 :heavy_check_mark: |
 | com.github.hazendaz.7zip | [7zip](content/com/github/hazendaz/7zip/README.md) | 1 | 1 :heavy_check_mark: |
-| com.github.hazendaz | [javabean-tester](content/com/github/hazendaz/javabean-tester/README.md) | 7 | 5 :heavy_check_mark: / 2 :warning: |
+| com.github.hazendaz | [javabean-tester](content/com/github/hazendaz/javabean-tester/README.md) | 8 | 6 :heavy_check_mark: / 2 :warning: |
 | com.github.hazendaz.maven | [coveralls-maven-plugin](content/com/github/hazendaz/maven/coveralls-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | [directory-maven-plugin](content/com/github/hazendaz/maven/directory-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | [htmlcompressor-maven-plugin](content/com/github/hazendaz/maven/htmlcompressor-maven-plugin/README.md) | 6 | 6 :heavy_check_mark: |
@@ -283,7 +283,7 @@ Its objectives are to provide:
 | org.apache.sshd | [sshd](content/org/apache/sshd/README.md) | 4 | 4 :warning: |
 | org.apache.struts | [struts2-parent](content/org/apache/struts/README.md) | 9 | 3 :heavy_check_mark: / 6 :warning: |
 | org.apache.synapse | [Apache-Synapse](content/org/apache/synapse/README.md) | 1 | 1 :warning: |
-| org.apache.syncope | [syncope](content/org/apache/syncope/README.md) | 5 | 5 :warning: |
+| org.apache.syncope | [syncope](content/org/apache/syncope/README.md) | 6 | 6 :warning: |
 | org.apache.systemds | [systemds](content/org/apache/systemds/README.md) | 1 | 1 :warning: |
 | org.apache.tika | [tika](content/org/apache/tika/README.md) | 6 | 6 :warning: |
 | org.apache.wayang | [wayang](content/org/apache/wayang/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
@@ -321,7 +321,7 @@ Its objectives are to provide:
 | | [karaf](content/org/apache/karaf/karaf/README.md) | 6 | 6 :warning: |
 | org.apache.karaf.minho | [minho](content/org/apache/karaf/minho/README.md) | 1 | 1 :heavy_check_mark: |
 | org.apache.logging | [logging-parent](content/org/apache/logging/parent/README.md) | 12 | 11 :heavy_check_mark: / 1 :warning: |
-| org.apache.logging.log4j | [log4j](content/org/apache/logging/log4j/log4j/README.md) | 5 | 3 :heavy_check_mark: / 2 :warning: |
+| org.apache.logging.log4j | [log4j](content/org/apache/logging/log4j/log4j/README.md) | 6 | 4 :heavy_check_mark: / 2 :warning: |
 | | [log4j-jmx-gui](content/org/apache/logging/log4j/log4j-jmx-gui/README.md) | 1 | 1 :heavy_check_mark: |
 | | [log4j-tools-bom](content/org/apache/logging/log4j/tools/README.md) | 7 | 7 :heavy_check_mark: |
 | | [log4j-transform-bom](content/org/apache/logging/log4j/transform/README.md) | 1 | 1 :heavy_check_mark: |
@@ -530,6 +530,7 @@ Its objectives are to provide:
 | | [plexus-components](content/org/codehaus/plexus/plexus-components/README.md) | 8 | 7 :heavy_check_mark: / 1 :warning: |
 | | [plexus-digest](content/org/codehaus/plexus/plexus-digest/README.md) | 1 | 1 :heavy_check_mark: |
 | | [plexus-interactivity](content/org/codehaus/plexus/plexus-interactivity/README.md) | 1 | 1 :heavy_check_mark: |
+| | [plexus-interpolation](content/org/codehaus/plexus/plexus-interpolation/README.md) | 1 | 1 :heavy_check_mark: |
 | | [plexus-io](content/org/codehaus/plexus/plexus-io/README.md) | 5 | 5 :heavy_check_mark: |
 | | [plexus-languages](content/org/codehaus/plexus/plexus-languages/README.md) | 7 | 2 :heavy_check_mark: / 5 :warning: |
 | | [plexus](content/org/codehaus/plexus/plexus-pom/README.md) | 14 | 13 :heavy_check_mark: / 1 :warning: |
@@ -589,6 +590,8 @@ Its objectives are to provide:
 | | [snmp](content/org/sentrysoftware/snmp/README.md) | 1 | 1 :heavy_check_mark: |
 | | [ssh](content/org/sentrysoftware/ssh/README.md) | 1 | 1 :heavy_check_mark: |
 | | [tablejoin](content/org/sentrysoftware/tablejoin/README.md) | 1 | 1 :heavy_check_mark: |
+| | [vcenter](content/org/sentrysoftware/vcenter/README.md) | 1 | 1 :heavy_check_mark: |
+| | [wbem](content/org/sentrysoftware/wbem/README.md) | 1 | 1 :heavy_check_mark: |
 | | [xflat](content/org/sentrysoftware/xflat/README.md) | 1 | 1 :heavy_check_mark: |
 | org.sentrysoftware.maven | [maven-skin-tools](content/org/sentrysoftware/maven/maven-skin-tools/README.md) | 3 | 3 :heavy_check_mark: |
 | | [sentry-maven-skin](content/org/sentrysoftware/maven/sentry-maven-skin/README.md) | 2 | 2 :heavy_check_mark: |
@@ -619,7 +622,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 29 | 29 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **596** | **3008** | **2367** :heavy_check_mark: **641** :warning: |
+| **Count:** | **599** | **3014** | **2372** :heavy_check_mark: **642** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -635,7 +638,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      26 mvn         7
    1073 mvn         8
       1 mvn         9
-    880 mvn        11
+    881 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.6
@@ -643,7 +646,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    250 mvn        17
+    252 mvn        17
       2 mvn        17.0.7
       1 mvn        17.0.8
       1 mvn        17.0.8.1
@@ -651,7 +654,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      13 mvn        18
      24 mvn        19
      14 mvn        20
-     31 mvn        21
+     32 mvn        21
       2 mvn-3.5.4   8
       1 mvn-3.8.3  11
      13 mvn-3.8.5  11
@@ -686,7 +689,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       7 mvn-3.9.3  14
      12 mvn-3.9.3  14.0.2
       1 mvn-3.9.3  15.0.2
-     46 mvn-3.9.3  17
+     47 mvn-3.9.3  17
       6 mvn-3.9.3  17.0.1
       4 mvn-3.9.3  17.0.2
      52 mvn-3.9.3  17.0.3
@@ -706,7 +709,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn-3.9.5  17
       2 mvn-3.9.5  17.0.7
       1 mvn-3.9.5  17.0.9
-     15 mvn-3.9.5  21
+     16 mvn-3.9.5  21
       1 mvn-4.0.0-alpha-7  17
       1 mvn-4.0.0-alpha-8  21
       2 sbt         8
