@@ -1,14 +1,14 @@
 groupId=com.github.hazendaz
 artifactId=javabean-tester
-version=2.6.0
+version=2.6.2
 
 display=${groupId}:${artifactId}
 
 gitRepo=https://github.com/hazendaz/${artifactId}.git
 gitTag=${artifactId}-${version}
 
-tool=mvn-3.9.2
-jdk=17
+tool=mvn-3.9.5
+jdk=21
 newline=crlf
 umask=022
 
