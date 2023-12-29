@@ -13,6 +13,7 @@ rebuilding **3 releases** of org.sentrysoftware.maven:maven-skin-tools:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.3.00](https://central.sonatype.com/artifact/org.sentrysoftware.maven/maven-skin-tools/1.3.00/pom) | | | |
 | [1.2.00](https://central.sonatype.com/artifact/org.sentrysoftware.maven/maven-skin-tools/1.2.00/pom) | [mvn jdk17](maven-skin-tools-1.2.00.buildspec) | [result](maven-skin-tools-1.2.00.buildinfo): [3 :heavy_check_mark: ](maven-skin-tools-1.2.00.buildcompare) | 61K |
 | [1.1.00](https://central.sonatype.com/artifact/org.sentrysoftware.maven/maven-skin-tools/1.1.00/pom) | [mvn jdk17](maven-skin-tools-1.1.00.buildspec) | [result](maven-skin-tools-1.1.00.buildinfo): [3 :heavy_check_mark: ](maven-skin-tools-1.1.00.buildcompare) | 60K |
 | [1.0.00](https://central.sonatype.com/artifact/org.sentrysoftware.maven/maven-skin-tools/1.0.00/pom) | [mvn jdk17](maven-skin-tools-1.0.00.buildspec) | [result](maven-skin-tools-1.0.00.buildinfo): [3 :heavy_check_mark: ](maven-skin-tools-1.0.00.buildcompare) | 61K |

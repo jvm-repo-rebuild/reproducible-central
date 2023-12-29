@@ -20,6 +20,7 @@ rebuilding **4 releases** of org.apache.maven.jxr:jxr:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.3.2](https://central.sonatype.com/artifact/org.apache.maven.jxr/jxr/3.3.2/pom) | | | |
 | [3.3.1](https://central.sonatype.com/artifact/org.apache.maven.jxr/jxr/3.3.1/pom) | [mvn jdk8 w](jxr-3.3.1.buildspec) | [result](jxr-3.3.1.buildinfo): [15 :heavy_check_mark: ](jxr-3.3.1.buildcompare) | 1.3M |
 | [3.3.0](https://central.sonatype.com/artifact/org.apache.maven.jxr/jxr/3.3.0/pom) | [mvn jdk8 w](jxr-3.3.0.buildspec) | [result](jxr-3.3.0.buildinfo): [9 :heavy_check_mark: ](jxr-3.3.0.buildcompare) | 641K |
 | [3.2.0](https://central.sonatype.com/artifact/org.apache.maven.jxr/jxr/3.2.0/pom) | [mvn jdk8](jxr-3.2.0.buildspec) | [result](jxr-3.2.0.buildinfo): [9 :heavy_check_mark: ](jxr-3.2.0.buildcompare) | 629K |
