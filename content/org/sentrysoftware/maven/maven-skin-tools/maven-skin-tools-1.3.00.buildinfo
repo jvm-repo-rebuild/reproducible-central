@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Sentry Maven Skin Tools
+group-id=org.sentrysoftware.maven
+artifact-id=maven-skin-tools
+version=1.3.00
+
+# source information
+source.scm.uri=scm:git:https://github.com/sentrysoftware/maven-skin-tools.git
+source.scm.tag=v1.3.00
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.sentrysoftware.maven
+outputs.0.filename=maven-skin-tools-1.3.00.pom
+outputs.0.length=13259
+outputs.0.checksums.sha512=91f668fb05c7adea8867e4b03cf097e1c70abe2f02cae6eaa63f48c89e05fce7cb6e17ffe6cd39a6a4b6c790e2cbab4d74fc0e96e6a6a9c5406423a4cd6b897f
+
+outputs.1.groupId=org.sentrysoftware.maven
+outputs.1.filename=maven-skin-tools-1.3.00.jar
+outputs.1.length=27927
+outputs.1.checksums.sha512=f75a4763ecdd17d1c1c4b5fb60bcd15fb37f385d7e00c0c86a8f1e134afb06eec1952254f75fc848b2b3a853715528863cfd81692c3999bb096df1afad5e33b8
+
+outputs.2.groupId=org.sentrysoftware.maven
+outputs.2.filename=maven-skin-tools-1.3.00-sources.jar
+outputs.2.length=24898
+outputs.2.checksums.sha512=f45d8324c903c0b7899680adbc38bf468e9d605ac43d38436704eec7c952fa5a351416e1012ed8511d71bb97a8570f03487909232afbd0fbc093a3324fc4cbcb
