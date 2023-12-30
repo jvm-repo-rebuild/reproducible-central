@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3017 releases** of **599 projects**:
-   - **2375** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **3019 releases** of **599 projects**:
+   - **2377** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 642 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 599 projects, 494 have at least one fully reproducible release, 105 have none
 
@@ -328,7 +328,7 @@ Its objectives are to provide:
 | org.apache.maven.archetype | [maven-archetype](content/org/apache/maven/archetype/README.md) | 2 | 2 :heavy_check_mark: |
 | org.apache.maven.enforcer | [enforcer](content/org/apache/maven/enforcer/README.md) | 6 | 6 :heavy_check_mark: |
 | org.apache.maven.indexer | [maven-indexer](content/org/apache/maven/indexer/README.md) | 11 | 9 :heavy_check_mark: / 2 :warning: |
-| org.apache.maven.jxr | [jxr](content/org/apache/maven/jxr/README.md) | 4 | 4 :heavy_check_mark: |
+| org.apache.maven.jxr | [jxr](content/org/apache/maven/jxr/README.md) | 5 | 5 :heavy_check_mark: |
 | org.apache.maven | [maven](content/org/apache/maven/maven/README.md) | 23 | 20 :heavy_check_mark: / 3 :warning: |
 | | [maven-parent](content/org/apache/maven/parent/README.md) | 8 | 5 :heavy_check_mark: / 3 :warning: |
 | org.apache.maven.scm | [maven-scm](content/org/apache/maven/scm/README.md) | 9 | 9 :heavy_check_mark: |
@@ -593,7 +593,7 @@ Its objectives are to provide:
 | | [vcenter](content/org/sentrysoftware/vcenter/README.md) | 1 | 1 :heavy_check_mark: |
 | | [wbem](content/org/sentrysoftware/wbem/README.md) | 1 | 1 :heavy_check_mark: |
 | | [xflat](content/org/sentrysoftware/xflat/README.md) | 1 | 1 :heavy_check_mark: |
-| org.sentrysoftware.maven | [maven-skin-tools](content/org/sentrysoftware/maven/maven-skin-tools/README.md) | 3 | 3 :heavy_check_mark: |
+| org.sentrysoftware.maven | [maven-skin-tools](content/org/sentrysoftware/maven/maven-skin-tools/README.md) | 4 | 4 :heavy_check_mark: |
 | | [sentry-maven-skin](content/org/sentrysoftware/maven/sentry-maven-skin/README.md) | 2 | 2 :heavy_check_mark: |
 | org.simplify4u | [pgp-keys-map](content/org/simplify4u/pgp-keys-map/README.md) | 19 | 19 :heavy_check_mark: |
 | | [slf4j-mock](content/org/simplify4u/slf4j-mock/README.md) | 4 | 4 :heavy_check_mark: |
@@ -622,7 +622,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 29 | 29 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **599** | **3017** | **2375** :heavy_check_mark: **642** :warning: |
+| **Count:** | **599** | **3019** | **2377** :heavy_check_mark: **642** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -636,7 +636,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      22 gradle     11
       4 gradle     17
      26 mvn         7
-   1075 mvn         8
+   1076 mvn         8
       1 mvn         9
     882 mvn        11
       2 mvn        11.0.19
@@ -646,7 +646,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    252 mvn        17
+    253 mvn        17
       2 mvn        17.0.7
       1 mvn        17.0.8
       1 mvn        17.0.8.1
