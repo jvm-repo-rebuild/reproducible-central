@@ -1,0 +1,9 @@
+version=3.3.2
+ok=15
+ko=0
+ignored=0
+okFiles="jxr-3.3.2.pom jxr-3.3.2-site.xml jxr-3.3.2-source-release.zip jxr-3.3.2-cyclonedx.xml jxr-3.3.2-cyclonedx.json maven-jxr-3.3.2.pom maven-jxr-3.3.2.jar maven-jxr-3.3.2-sources.jar maven-jxr-3.3.2-cyclonedx.xml maven-jxr-3.3.2-cyclonedx.json maven-jxr-plugin-3.3.2.pom maven-jxr-plugin-3.3.2.jar maven-jxr-plugin-3.3.2-sources.jar maven-jxr-plugin-3.3.2-cyclonedx.xml maven-jxr-plugin-3.3.2-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
