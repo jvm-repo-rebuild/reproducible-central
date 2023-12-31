@@ -20,6 +20,7 @@ rebuilding **1 releases** of org.codehaus.plexus:plexus-interactivity:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.2](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-interactivity/1.2/pom) | | | |
 | [1.1](https://central.sonatype.com/artifact/org.codehaus.plexus/plexus-interactivity/1.1/pom) | [mvn jdk7 w](plexus-interactivity-1.1.buildspec) | [result](plexus-interactivity-1.1.buildinfo): [9 :heavy_check_mark: ](plexus-interactivity-1.1.buildcompare) | 58K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

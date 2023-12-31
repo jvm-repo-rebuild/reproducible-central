@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.codehaus.mojo:cassandra-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.8](https://central.sonatype.com/artifact/org.codehaus.mojo/cassandra-maven-plugin/3.8/pom) | | | |
 | [3.7](https://central.sonatype.com/artifact/org.codehaus.mojo/cassandra-maven-plugin/3.7/pom) | [mvn jdk8](cassandra-maven-plugin-3.7.buildspec) | [result](cassandra-maven-plugin-3.7.buildinfo): [4 :heavy_check_mark: ](cassandra-maven-plugin-3.7.buildcompare) | 257K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
