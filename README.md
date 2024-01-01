@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3019 releases** of **599 projects**:
-   - **2377** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **3022 releases** of **600 projects**:
+   - **2380** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 642 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 599 projects, 494 have at least one fully reproducible release, 105 have none
+   - on 600 projects, 495 have at least one fully reproducible release, 105 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -507,7 +507,7 @@ Its objectives are to provide:
 | | [build-helper-maven-plugin](content/org/codehaus/mojo/build-helper-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | [buildnumber-maven-plugin](content/org/codehaus/mojo/buildnumber-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | [buildplan-maven-plugin](content/org/codehaus/mojo/buildplan-maven-plugin/README.md) | 4 | 4 :heavy_check_mark: |
-| | [cassandra-maven-plugin](content/org/codehaus/mojo/cassandra-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
+| | [cassandra-maven-plugin](content/org/codehaus/mojo/cassandra-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | [exec-maven-plugin](content/org/codehaus/mojo/exec-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | [extra-enforcer-rules](content/org/codehaus/mojo/extra-enforcer-rules/README.md) | 7 | 7 :heavy_check_mark: |
 | | [flatten-maven-plugin](content/org/codehaus/mojo/flatten-maven-plugin/README.md) | 5 | 2 :heavy_check_mark: / 3 :warning: |
@@ -516,6 +516,7 @@ Its objectives are to provide:
 | | [license-maven-plugin](content/org/codehaus/mojo/license-maven-plugin/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
 | | [mojo-parent](content/org/codehaus/mojo/mojo-parent/README.md) | 17 | 17 :heavy_check_mark: |
 | | [mrm](content/org/codehaus/mojo/mrm/README.md) | 4 | 4 :heavy_check_mark: |
+| | [native-maven-plugin](content/org/codehaus/mojo/native/README.md) | 1 | 1 :heavy_check_mark: |
 | | [properties-maven-plugin](content/org/codehaus/mojo/properties-maven-plugin/README.md) | 3 | 3 :heavy_check_mark: |
 | | [taglist-maven-plugin](content/org/codehaus/mojo/taglist-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | [tidy-maven-plugin](content/org/codehaus/mojo/tidy-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
@@ -529,7 +530,7 @@ Its objectives are to provide:
 | | [plexus-compiler](content/org/codehaus/plexus/plexus-compiler/README.md) | 13 | 11 :heavy_check_mark: / 2 :warning: |
 | | [plexus-components](content/org/codehaus/plexus/plexus-components/README.md) | 8 | 7 :heavy_check_mark: / 1 :warning: |
 | | [plexus-digest](content/org/codehaus/plexus/plexus-digest/README.md) | 1 | 1 :heavy_check_mark: |
-| | [plexus-interactivity](content/org/codehaus/plexus/plexus-interactivity/README.md) | 1 | 1 :heavy_check_mark: |
+| | [plexus-interactivity](content/org/codehaus/plexus/plexus-interactivity/README.md) | 2 | 2 :heavy_check_mark: |
 | | [plexus-interpolation](content/org/codehaus/plexus/plexus-interpolation/README.md) | 1 | 1 :heavy_check_mark: |
 | | [plexus-io](content/org/codehaus/plexus/plexus-io/README.md) | 5 | 5 :heavy_check_mark: |
 | | [plexus-languages](content/org/codehaus/plexus/plexus-languages/README.md) | 7 | 2 :heavy_check_mark: / 5 :warning: |
@@ -622,7 +623,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 29 | 29 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **599** | **3019** | **2377** :heavy_check_mark: **642** :warning: |
+| **Count:** | **600** | **3022** | **2380** :heavy_check_mark: **642** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -654,7 +655,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      13 mvn        18
      24 mvn        19
      14 mvn        20
-     32 mvn        21
+     33 mvn        21
       2 mvn-3.5.4   8
       1 mvn-3.8.3  11
      13 mvn-3.8.5  11
@@ -709,7 +710,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 mvn-3.9.5  17
       2 mvn-3.9.5  17.0.7
       1 mvn-3.9.5  17.0.9
-     16 mvn-3.9.5  21
+     18 mvn-3.9.5  21
       1 mvn-4.0.0-alpha-7  17
       1 mvn-4.0.0-alpha-8  21
       2 sbt         8
