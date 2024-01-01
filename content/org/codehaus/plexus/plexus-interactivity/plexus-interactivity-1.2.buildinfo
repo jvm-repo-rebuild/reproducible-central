@@ -1,0 +1,57 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Plexus Interactivity Handler Component
+group-id=org.codehaus.plexus
+artifact-id=plexus-interactivity
+version=1.2
+
+# source information
+source.scm.uri=scm:git:https://github.com/codehaus-plexus/plexus-interactivity.git
+source.scm.tag=plexus-interactivity-1.2
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.aggregate.artifact-id=plexus-interactivity-api
+
+# aggregated output
+
+outputs.0.coordinates=org.codehaus.plexus:plexus-interactivity
+
+outputs.0.0.groupId=org.codehaus.plexus
+outputs.0.0.filename=plexus-interactivity-1.2.pom
+outputs.0.0.length=1868
+outputs.0.0.checksums.sha512=403aa1658b4bf749e775c79978e726624c139ee82cd52b0a2559ee060c3d7eb9a020be1aeb97bfad2ef7e693582e4e622f75635a46b4aa58520e94f9e40d02b4
+
+outputs.0.1.groupId=org.codehaus.plexus
+outputs.0.1.filename=plexus-interactivity-1.2-site.xml
+outputs.0.1.length=313
+outputs.0.1.checksums.sha512=23780a9ee914eddf2750a4a82b711c8aaf59e9ec00d8bc4c8733644ba495a909fb95c30276e3bd6d699138c7c1e87b00017682e7f176641af43849a5560b8c5e
+
+outputs.0.2.groupId=org.codehaus.plexus
+outputs.0.2.filename=plexus-interactivity-1.2-source-release.zip
+outputs.0.2.length=22572
+outputs.0.2.checksums.sha512=4eab674926365dfe6b74fd08f0895ba305b1b232f178674ecdf5d034bc26700cdebd3060317906c1f08ea554bdd5eaf8b7c32308060e5bef7d4ed0afe3577f61
+
+outputs.1.coordinates=org.codehaus.plexus:plexus-interactivity-api
+
+outputs.1.0.groupId=org.codehaus.plexus
+outputs.1.0.filename=plexus-interactivity-api-1.2.pom
+outputs.1.0.length=1824
+outputs.1.0.checksums.sha512=60bf4b3cafdac771aeaf65c17b2e2d8a6a2e5d3eacb7db698c01b1e31004d93bd68979903c514b27924a9a49181a09b196eebdbee1bb9c77d034038098b71341
+
+outputs.1.1.groupId=org.codehaus.plexus
+outputs.1.1.filename=plexus-interactivity-api-1.2.jar
+outputs.1.1.length=10221
+outputs.1.1.checksums.sha512=bc95e8b0e111346ed23f75463862cbae7d41738c7970ba4665b9db7b476cbdcf850b4b58b6ac54a7b9cb9db6cfab9f4a07fde092ebb265f0f88cb1bcb35d7eec
+
+outputs.1.2.groupId=org.codehaus.plexus
+outputs.1.2.filename=plexus-interactivity-api-1.2-sources.jar
+outputs.1.2.length=13673
+outputs.1.2.checksums.sha512=fcf6f1637487d81d1a513386659721c8569f203969b84c706cd367cabff8626f2b5443d11d77ba0fef46d731fc8b66ece702cf011c65adf46b3deb60c319e2c7
