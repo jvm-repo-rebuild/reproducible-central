@@ -1,0 +1,9 @@
+version=1.0-M1
+ok=30
+ko=0
+ignored=0
+okFiles="maven-native-1.0-M1.pom maven-native-1.0-M1-source-release.zip maven-native-test-1.0-M1.pom maven-native-test-1.0-M1.jar maven-native-test-1.0-M1-tests.jar maven-native-api-1.0-M1.pom maven-native-api-1.0-M1.jar maven-native-api-1.0-M1-sources.jar maven-native-components-1.0-M1.pom maven-native-manager-1.0-M1.pom maven-native-manager-1.0-M1.jar maven-native-manager-1.0-M1-sources.jar maven-native-javah-1.0-M1.pom maven-native-javah-1.0-M1.jar maven-native-javah-1.0-M1-sources.jar maven-native-generic-c-1.0-M1.pom maven-native-generic-c-1.0-M1.jar maven-native-generic-c-1.0-M1-sources.jar maven-native-bcc-1.0-M1.pom maven-native-bcc-1.0-M1.jar maven-native-bcc-1.0-M1-sources.jar maven-native-msvc-1.0-M1.pom maven-native-msvc-1.0-M1.jar maven-native-msvc-1.0-M1-sources.jar maven-native-mingw-1.0-M1.pom maven-native-mingw-1.0-M1.jar maven-native-mingw-1.0-M1-sources.jar native-maven-plugin-1.0-M1.pom native-maven-plugin-1.0-M1.jar native-maven-plugin-1.0-M1-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
