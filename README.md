@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3023 releases** of **600 projects**:
-   - **2381** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **3024 releases** of **600 projects**:
+   - **2382** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 642 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 600 projects, 495 have at least one fully reproducible release, 105 have none
 
@@ -174,7 +174,7 @@ Its objectives are to provide:
 | | [semanticcms-tag-reference](content/com/semanticcms/semanticcms-tag-reference/README.md) | 1 | 1 :warning: |
 | | [semanticcms-tag-reference-book](content/com/semanticcms/semanticcms-tag-reference-book/README.md) | 1 | 1 :heavy_check_mark: |
 | com.spotify.fmt | [fmt-maven-plugin](content/com/spotify/fmt-maven-plugin/README.md) | 3 | 3 :heavy_check_mark: |
-| com.spotify | [github-client](content/com/spotify/github-client/README.md) | 22 | 22 :heavy_check_mark: |
+| com.spotify | [github-client](content/com/spotify/github-client/README.md) | 23 | 23 :heavy_check_mark: |
 | com.taobao.arthas | [arthas-all](content/com/taobao/arthas/README.md) | 14 | 14 :warning: |
 | com.vladsch.flexmark | [flexmark-java](content/com/vladsch/flexmark/flexmark-java/README.md) | 4 | 4 :heavy_check_mark: |
 | commons-logging | [*](content/commons-logging/commons-logging/README.md) | 1 | 1 :heavy_check_mark: |
@@ -623,7 +623,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 29 | 29 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **600** | **3023** | **2381** :heavy_check_mark: **642** :warning: |
+| **Count:** | **600** | **3024** | **2382** :heavy_check_mark: **642** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -639,7 +639,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      26 mvn         7
    1076 mvn         8
       1 mvn         9
-    883 mvn        11
+    884 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.6
