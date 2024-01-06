@@ -3,7 +3,7 @@ artifactId=jawk
 display=${groupId}:${artifactId}
 version=3.0.01
 
-gitRepo=https://github.com/sentrysoftware/Jawk.git
+gitRepo=https://github.com/sentrysoftware/${artifactId}.git
 gitTag=v${version}
 
 tool=mvn

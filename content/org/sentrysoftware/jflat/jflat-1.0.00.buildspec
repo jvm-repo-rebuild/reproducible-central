@@ -3,7 +3,7 @@ artifactId=jflat
 display=${groupId}:${artifactId}
 version=1.0.00
 
-gitRepo=https://github.com/sentrysoftware/jflat.git
+gitRepo=https://github.com/sentrysoftware/${artifactId}.git
 gitTag=v${version}
 
 tool=mvn

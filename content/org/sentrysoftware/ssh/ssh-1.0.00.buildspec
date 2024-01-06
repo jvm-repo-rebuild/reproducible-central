@@ -3,7 +3,7 @@ artifactId=ssh
 display=${groupId}:${artifactId}
 version=1.0.00
 
-gitRepo=https://github.com/sentrysoftware/ssh.git
+gitRepo=https://github.com/sentrysoftware/${artifactId}.git
 gitTag=v${version}
 
 tool=mvn
