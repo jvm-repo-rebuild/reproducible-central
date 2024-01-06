@@ -30,3 +30,8 @@ outputs.1.groupId=io.github.sebastian-toepfer.json.rpc
 outputs.1.filename=json-printable-maven-plugin-0.1.2.jar
 outputs.1.length=49578
 outputs.1.checksums.sha512=9791f89f04154fdf3dbce24c585872c9998274215cb039f79265597b9edadf66012169e0b86648a99168d14273b9dd5c5ba6d955539ec2af02f774ddfdf1b306
+
+outputs.2.groupId=io.github.sebastian-toepfer.json.rpc
+outputs.2.filename=json-printable-maven-plugin-0.1.2-sources.jar
+outputs.2.length=35918
+outputs.2.checksums.sha512=cc28db38cef49129cd0ea14429f127af08d05e85b341924774ef3dd591db5adbaf15cbc28dcb0172cc37fb6ec1984067b249f6e6016a596760adf11e53fe6180
