@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=json-printable-maven-plugin
+group-id=io.github.sebastian-toepfer.json.rpc
+artifact-id=json-printable-maven-plugin
+version=0.1.3
+
+# source information
+source.scm.uri=scm:git:https://github.com/sebastian-toepfer/json-printable-maven-plugin.git
+source.scm.tag=main
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=io.github.sebastian-toepfer.json.rpc
+outputs.0.filename=json-printable-maven-plugin-0.1.3.pom
+outputs.0.length=18368
+outputs.0.checksums.sha512=701d93718ef9ee5ad5af5e2d72fd66f9b32ce733424d2e7abc99c35968ace3ef12f3acf6cb3c7307533f3716adec4234cc4d8c756fc1cf81c8d9e954560a97d5
+
+outputs.1.groupId=io.github.sebastian-toepfer.json.rpc
+outputs.1.filename=json-printable-maven-plugin-0.1.3.jar
+outputs.1.length=49584
+outputs.1.checksums.sha512=12f5e33840e2e9ecec1cb8bcd098011082c28e4c2964999d63bb77ad83ca154a11615f64f760d769f6d79df1b3162209c8dabf4eb209e807f206060e6665edea
+
+outputs.2.groupId=io.github.sebastian-toepfer.json.rpc
+outputs.2.filename=json-printable-maven-plugin-0.1.3-sources.jar
+outputs.2.length=35923
+outputs.2.checksums.sha512=b7a148da7ba56bdd84d2e7d70f3541da5abd290ac9d24a2bac754cac15c199ae1113184ab240b81b9af032d1d5b0a122674d42587e96a7aed281d30060e6f984
