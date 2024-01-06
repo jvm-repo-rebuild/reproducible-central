@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3024 releases** of **600 projects**:
-   - **2382** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **3031 releases** of **605 projects**:
+   - **2389** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 642 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 600 projects, 495 have at least one fully reproducible release, 105 have none
+   - on 605 projects, 500 have at least one fully reproducible release, 105 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -214,6 +214,7 @@ Its objectives are to provide:
 | io.github.chains-project | [maven-lockfile](content/io/github/chains-project/maven-lockfile/README.md) | 4 | 4 :warning: |
 | io.github.derkrischan | [jpdftest](content/io/github/derkrischan/jpdftest/README.md) | 4 | 4 :heavy_check_mark: |
 | io.github.hboutemy | [sigstore-maven-plugin](content/io/github/hboutemy/sigstore-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
+| io.github.sebastian-toepfer.json.rpc | [json-printable-maven-plugin](content/io/github/sebastian-toepfer/json/rpc/json-printable-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | io.github.shanqiang-sq | [jstream](content/io/github/shanqiang-sq/jstream/README.md) | 28 | 28 :heavy_check_mark: |
 | io.github.zlika | [reproducible-build-maven-plugin](content/io/github/zlika/reproducible-build-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | io.jstach | [jstachio](content/io/jstach/jstachio/README.md) | 11 | 11 :heavy_check_mark: |
@@ -295,7 +296,8 @@ Its objectives are to provide:
 | org.apache.camel | [camel](content/org/apache/camel/camel/README.md) | 7 | 7 :warning: |
 | org.apache.camel.k | [camel-k-runtime-project](content/org/apache/camel/camel-k-runtime/README.md) | 5 | 5 :warning: |
 | org.apache.bcel | [bcel](content/org/apache/commons/bcel/README.md) | 2 | 2 :warning: |
-| org.apache.commons | [commons-compress](content/org/apache/commons/compress/README.md) | 4 | 4 :warning: |
+| org.apache.commons | [commons-exec](content/org/apache/commons/commons-exec/README.md) | 1 | 1 :heavy_check_mark: |
+| | [commons-compress](content/org/apache/commons/compress/README.md) | 4 | 4 :warning: |
 | | [commons-csv](content/org/apache/commons/csv/README.md) | 1 | 1 :heavy_check_mark: |
 | commons-net | [*](content/org/apache/commons/net/README.md) | 2 | 2 :warning: |
 | org.apache.commons | [commons-numbers-parent](content/org/apache/commons/numbers/README.md) | 1 | 1 :heavy_check_mark: |
@@ -586,13 +588,16 @@ Its objectives are to provide:
 | org.osgi | [*.test.parent](content/org/osgi/test/README.md) | 5 | 4 :heavy_check_mark: / 1 :warning: |
 | org.owasp.antisamy | [antisamy](content/org/owasp/antisamy/README.md) | 15 | 14 :heavy_check_mark: / 1 :warning: |
 | org.owasp | [dependency-check-parent](content/org/owasp/dependency-check/README.md) | 30 | 25 :heavy_check_mark: / 5 :warning: |
-| org.sentrysoftware | [jawk](content/org/sentrysoftware/jawk/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
+| org.sentrysoftware | [http](content/org/sentrysoftware/http/README.md) | 1 | 1 :heavy_check_mark: |
+| | [jawk](content/org/sentrysoftware/jawk/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | | [jflat](content/org/sentrysoftware/jflat/README.md) | 1 | 1 :heavy_check_mark: |
 | | [snmp](content/org/sentrysoftware/snmp/README.md) | 1 | 1 :heavy_check_mark: |
 | | [ssh](content/org/sentrysoftware/ssh/README.md) | 1 | 1 :heavy_check_mark: |
 | | [tablejoin](content/org/sentrysoftware/tablejoin/README.md) | 1 | 1 :heavy_check_mark: |
 | | [vcenter](content/org/sentrysoftware/vcenter/README.md) | 1 | 1 :heavy_check_mark: |
 | | [wbem](content/org/sentrysoftware/wbem/README.md) | 1 | 1 :heavy_check_mark: |
+| | [winrm](content/org/sentrysoftware/winrm/README.md) | 1 | 1 :heavy_check_mark: |
+| | [wmi](content/org/sentrysoftware/wmi/README.md) | 1 | 1 :heavy_check_mark: |
 | | [xflat](content/org/sentrysoftware/xflat/README.md) | 1 | 1 :heavy_check_mark: |
 | org.sentrysoftware.maven | [maven-skin-tools](content/org/sentrysoftware/maven/maven-skin-tools/README.md) | 4 | 4 :heavy_check_mark: |
 | | [sentry-maven-skin](content/org/sentrysoftware/maven/sentry-maven-skin/README.md) | 2 | 2 :heavy_check_mark: |
@@ -606,7 +611,7 @@ Its objectives are to provide:
 | org.tomitribe.transformer | [org.eclipse.transformer.parent](content/org/tomitribe/transformer/README.md) | 2 | 2 :heavy_check_mark: |
 | org.webjars | [angularjs](content/org/webjars/angularjs/README.md) | 1 | 1 :heavy_check_mark: |
 | | [bootstrap](content/org/webjars/bootstrap/README.md) | 7 | 7 :heavy_check_mark: |
-| | [flexmonster](content/org/webjars/flexmonster/README.md) | 48 | 44 :heavy_check_mark: / 4 :warning: |
+| | [flexmonster](content/org/webjars/flexmonster/README.md) | 49 | 45 :heavy_check_mark: / 4 :warning: |
 | | [font-awesome](content/org/webjars/font-awesome/README.md) | 6 | 6 :heavy_check_mark: |
 | | [highcharts](content/org/webjars/highcharts/README.md) | 3 | 3 :heavy_check_mark: |
 | | [jszip](content/org/webjars/jszip/README.md) | 1 | 1 :heavy_check_mark: |
@@ -623,7 +628,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 29 | 29 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **600** | **3024** | **2382** :heavy_check_mark: **642** :warning: |
+| **Count:** | **605** | **3031** | **2389** :heavy_check_mark: **642** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -637,7 +642,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      22 gradle     11
       4 gradle     17
      26 mvn         7
-   1076 mvn         8
+   1077 mvn         8
       1 mvn         9
     884 mvn        11
       2 mvn        11.0.19
@@ -647,7 +652,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    253 mvn        17
+    256 mvn        17
       2 mvn        17.0.7
       1 mvn        17.0.8
       1 mvn        17.0.8.1
@@ -655,11 +660,11 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      13 mvn        18
      24 mvn        19
      14 mvn        20
-     33 mvn        21
+     34 mvn        21
       2 mvn-3.5.4   8
       1 mvn-3.8.3  11
      13 mvn-3.8.5  11
-      8 mvn-3.8.5  17
+     10 mvn-3.8.5  17
       1 mvn-3.8.5  17.0.3
      37 mvn-3.8.6   8
       2 mvn-3.8.6  11

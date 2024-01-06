@@ -5,7 +5,7 @@
 
 ## Project: [org.sentrysoftware:jawk](https://central.sonatype.com/artifact/org.sentrysoftware/jawk/versions)
 
-Source code: [https://github.com/sentrysoftware/Jawk.git](https://github.com/sentrysoftware/Jawk.git)
+Source code: [https://github.com/sentrysoftware/jawk.git](https://github.com/sentrysoftware/jawk.git)
 
 rebuilding **2 releases** of org.sentrysoftware:jawk:
 - **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
