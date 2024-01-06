@@ -1,0 +1,7 @@
+version=1.5.0
+ok=33
+ko=0
+ignored=0
+okFiles="com.io7m.quarrel-1.5.0.pom com.io7m.quarrel-1.5.0-cyclonedx.xml com.io7m.quarrel.core-1.5.0.pom com.io7m.quarrel.core-1.5.0.jar com.io7m.quarrel.core-1.5.0-sources.jar com.io7m.quarrel.core-1.5.0-cyclonedx.xml com.io7m.quarrel.core-1.5.0-tests.jar com.io7m.quarrel.ext.xstructural-1.5.0.pom com.io7m.quarrel.ext.xstructural-1.5.0.jar com.io7m.quarrel.ext.xstructural-1.5.0-sources.jar com.io7m.quarrel.ext.xstructural-1.5.0-cyclonedx.xml com.io7m.quarrel.ext.xstructural-1.5.0-tests.jar com.io7m.quarrel.example-1.5.0.pom com.io7m.quarrel.example-1.5.0.jar com.io7m.quarrel.example-1.5.0-sources.jar com.io7m.quarrel.example-1.5.0-main.jar com.io7m.quarrel.example-1.5.0-cyclonedx.xml com.io7m.quarrel.example-1.5.0-tests.jar com.io7m.quarrel.documentation-1.5.0.pom com.io7m.quarrel.documentation-1.5.0.jar com.io7m.quarrel.documentation-1.5.0-sources.jar com.io7m.quarrel.documentation-1.5.0-cyclonedx.xml com.io7m.quarrel.documentation-1.5.0-tests.jar com.io7m.quarrel.ext.logback-1.5.0.pom com.io7m.quarrel.ext.logback-1.5.0.jar com.io7m.quarrel.ext.logback-1.5.0-sources.jar com.io7m.quarrel.ext.logback-1.5.0-cyclonedx.xml com.io7m.quarrel.ext.logback-1.5.0-tests.jar com.io7m.quarrel.tests-1.5.0.pom com.io7m.quarrel.tests-1.5.0.jar com.io7m.quarrel.tests-1.5.0-sources.jar com.io7m.quarrel.tests-1.5.0-cyclonedx.xml com.io7m.quarrel.tests-1.5.0-tests.jar"
+koFiles=""
+ignoredFiles=""
