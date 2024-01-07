@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3031 releases** of **605 projects**:
-   - **2389** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **3034 releases** of **605 projects**:
+   - **2392** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 642 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 605 projects, 500 have at least one fully reproducible release, 105 have none
 
@@ -136,7 +136,7 @@ Its objectives are to provide:
 | | [*.mime2045](content/com/io7m/mime2045/README.md) | 2 | 2 :heavy_check_mark: |
 | | [*.percentpass](content/com/io7m/percentpass/README.md) | 3 | 3 :heavy_check_mark: |
 | | [*.primogenitor](content/com/io7m/primogenitor/README.md) | 32 | 32 :heavy_check_mark: |
-| | [*.quarrel](content/com/io7m/quarrel/README.md) | 8 | 8 :heavy_check_mark: |
+| | [*.quarrel](content/com/io7m/quarrel/README.md) | 9 | 9 :heavy_check_mark: |
 | | [*.quixote](content/com/io7m/quixote/README.md) | 4 | 4 :heavy_check_mark: |
 | | [*.repetoir](content/com/io7m/repetoir/README.md) | 2 | 2 :heavy_check_mark: |
 | | [*.scando](content/com/io7m/scando/README.md) | 1 | 1 :heavy_check_mark: |
@@ -516,7 +516,7 @@ Its objectives are to provide:
 | | [jaxb2-maven-plugin](content/org/codehaus/mojo/jaxb2-maven-plugin/README.md) | 1 | 1 :warning: |
 | | [l10n-maven-plugin](content/org/codehaus/mojo/l10n-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | [license-maven-plugin](content/org/codehaus/mojo/license-maven-plugin/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
-| | [mojo-parent](content/org/codehaus/mojo/mojo-parent/README.md) | 17 | 17 :heavy_check_mark: |
+| | [mojo-parent](content/org/codehaus/mojo/mojo-parent/README.md) | 18 | 18 :heavy_check_mark: |
 | | [mrm](content/org/codehaus/mojo/mrm/README.md) | 4 | 4 :heavy_check_mark: |
 | | [native-maven-plugin](content/org/codehaus/mojo/native/README.md) | 1 | 1 :heavy_check_mark: |
 | | [properties-maven-plugin](content/org/codehaus/mojo/properties-maven-plugin/README.md) | 3 | 3 :heavy_check_mark: |
@@ -587,7 +587,7 @@ Its objectives are to provide:
 | org.openapitools.openapidiff | [openapi-diff-parent](content/org/openapitools/openapidiff/README.md) | 9 | 9 :heavy_check_mark: |
 | org.osgi | [*.test.parent](content/org/osgi/test/README.md) | 5 | 4 :heavy_check_mark: / 1 :warning: |
 | org.owasp.antisamy | [antisamy](content/org/owasp/antisamy/README.md) | 15 | 14 :heavy_check_mark: / 1 :warning: |
-| org.owasp | [dependency-check-parent](content/org/owasp/dependency-check/README.md) | 30 | 25 :heavy_check_mark: / 5 :warning: |
+| org.owasp | [dependency-check-parent](content/org/owasp/dependency-check/README.md) | 31 | 26 :heavy_check_mark: / 5 :warning: |
 | org.sentrysoftware | [http](content/org/sentrysoftware/http/README.md) | 1 | 1 :heavy_check_mark: |
 | | [jawk](content/org/sentrysoftware/jawk/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | | [jflat](content/org/sentrysoftware/jflat/README.md) | 1 | 1 :heavy_check_mark: |
@@ -628,7 +628,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 29 | 29 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **605** | **3031** | **2389** :heavy_check_mark: **642** :warning: |
+| **Count:** | **605** | **3034** | **2392** :heavy_check_mark: **642** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -642,7 +642,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      22 gradle     11
       4 gradle     17
      26 mvn         7
-   1077 mvn         8
+   1078 mvn         8
       1 mvn         9
     884 mvn        11
       2 mvn        11.0.19
@@ -677,7 +677,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn-3.9.0   8
       4 mvn-3.9.0  11
      10 mvn-3.9.0  17
-      6 mvn-3.9.1   8
+      7 mvn-3.9.1   8
       1 mvn-3.9.1  11
      53 mvn-3.9.1  17
       1 mvn-3.9.1  19
@@ -707,7 +707,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       9 mvn-3.9.3  17.0.8
       1 mvn-3.9.3  17.0.8.1
       2 mvn-3.9.3  19
-     17 mvn-3.9.3  21
+     18 mvn-3.9.3  21
       5 mvn-3.9.4   8
       2 mvn-3.9.4  17.0.7
       2 mvn-3.9.4  20
