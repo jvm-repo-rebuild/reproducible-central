@@ -37,6 +37,7 @@ rebuilding **2 releases** of org.apache.ratis:ratis:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.1](https://central.sonatype.com/artifact/org.apache.ratis/ratis/3.0.1/pom) | | | |
 | [3.0.0](https://central.sonatype.com/artifact/org.apache.ratis/ratis/3.0.0/pom) | [mvn jdk8](ratis-3.0.0.buildspec) | [result](ratis-3.0.0.buildinfo): [52 :heavy_check_mark:  20 :warning:](ratis-3.0.0.buildcompare) [:memo:](https://issues.apache.org/jira/browse/RATIS-1840) | 84M |
 | [2.5.1](https://central.sonatype.com/artifact/org.apache.ratis/ratis/2.5.1/pom) | [mvn jdk8](ratis-2.5.1.buildspec) | [result](ratis-2.5.1.buildinfo): [46 :heavy_check_mark:  18 :warning:](ratis-2.5.1.buildcompare) [:mag:](ratis-2.5.1.diffoscope) [:memo:](https://issues.apache.org/jira/browse/RATIS-1840) | 81M |
 
