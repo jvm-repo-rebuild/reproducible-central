@@ -1,0 +1,79 @@
+1 / 3 target/reference/com.spotify/github-client-0.2.6.pom dependency-reduced-pom.xml
+--- target/reference/com.spotify/github-client-0.2.6.pom
++++ dependency-reduced-pom.xml
+│   --- target/reference/com.spotify/github-client-0.2.6.pom
+├── +++ dependency-reduced-pom.xml
+│ @@ -652,15 +652,15 @@
+│      <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+│      <okhttp.version>4.11.0</okhttp.version>
+│ -    <project.build.outputTimestamp>1704392907</project.build.outputTimestamp>
+│ +    <project.build.outputTimestamp>1704712197</project.build.outputTimestamp>
+│      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+│      <shade.id>${project.groupId}.githubclient.shade</shade.id>
+
+2 / 3 target/reference/com.spotify/github-client-0.2.6.jar target/github-client-0.2.6.jar
+--- target/reference/com.spotify/github-client-0.2.6.jar
++++ target/github-client-0.2.6.jar
+├── zipinfo {}
+│ @@ -1,569 +1,569 @@
+│ -Zip file size: 2227524 bytes, number of entries: 1054
+│ --rw----     2.0 fat        0 bX defN 24-Jan-04 18:28 META-INF/
+...
+│ --rw----     2.0 fat       59 bl defN 24-Jan-04 18:28 META-INF/maven/com.spotify/github-client/pom.properties
+│ +Zip file size: 2227525 bytes, number of entries: 1054
+│ +-rw----     2.0 fat        0 bX defN 24-Jan-08 11:09 META-INF/
+...
+│ +-rw----     2.0 fat       59 bl defN 24-Jan-08 11:09 META-INF/maven/com.spotify/github-client/pom.properties
+│  -rw----     2.0 fat      277 bl defN 23-Apr-23 01:33 META-INF/okhttp.kotlin_module
+│  -rw----     2.0 fat        0 bl defN 23-Apr-23 01:33 com/spotify/githubclient/
+│  -rw----     2.0 fat        0 bl defN 23-Apr-23 01:33 com/spotify/githubclient/shade/
+│ @@ -1049,8 +1049,8 @@
+│  -rw----     2.0 fat     5084 bl defN 22-Jun-27 03:20 com/spotify/githubclient/shade/okio/internal/_FileSystemKt$commonListRecursively$1.class
+│  -rw----     2.0 fat    12525 bl defN 22-Jun-27 03:20 com/spotify/githubclient/shade/okio/internal/_FileSystemKt.class
+│  -rw----     2.0 fat    18842 bl defN 22-Jun-27 03:20 com/spotify/githubclient/shade/okio/internal/_PathKt.class
+│  -rw----     2.0 fat    15362 bl defN 22-Jun-27 03:20 com/spotify/githubclient/shade/okio/internal/_RealBufferedSinkKt.class
+│  -rw----     2.0 fat    23557 bl defN 22-Jun-27 03:20 com/spotify/githubclient/shade/okio/internal/_RealBufferedSourceKt.class
+│  -rw----     2.0 fat    13431 bl defN 22-Jun-27 03:20 com/spotify/githubclient/shade/okio/internal/_SegmentedByteStringKt.class
+│  -rw----     2.0 fat    12556 bl defN 22-Jun-27 03:20 com/spotify/githubclient/shade/okio/internal/_Utf8Kt.class
+│ -1054 files, 5194207 bytes uncompressed, 1997796 bytes compressed:  61.5%
+│ +1054 files, 5194207 bytes uncompressed, 1997797 bytes compressed:  61.5%
+├── META-INF/maven/com.spotify/github-client/pom.xml
+│ ├── META-INF/maven/com.spotify/github-client/pom.xml
+│ │ @@ -71,15 +71,15 @@
+│ │    </repositories>
+│ │    <properties>
+│ │      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+│ │      <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+│ │ -    <project.build.outputTimestamp>1704392907</project.build.outputTimestamp>
+│ │ +    <project.build.outputTimestamp>1704712197</project.build.outputTimestamp>
+│ │      <spotbugs.excludeFilterFile>spotbugsexclude.xml</spotbugs.excludeFilterFile>
+│ │      <checkstyle.violationSeverity>error</checkstyle.violationSeverity>
+│ │      <checkstyle.config.location>checkstyle.xml</checkstyle.config.location>
+│ │      <!-- versions -->
+│ │      <guava.version>32.1.3-jre</guava.version>
+
+3 / 3 target/reference/com.spotify/github-client-0.2.6-sources.jar target/github-client-0.2.6-sources.jar
+--- target/reference/com.spotify/github-client-0.2.6-sources.jar
++++ target/github-client-0.2.6-sources.jar
+├── zipinfo {}
+│ @@ -1,313 +1,313 @@
+│ -Zip file size: 687316 bytes, number of entries: 311
+│ --rw-r--r--  2.0 unx       64 b- defN 24-Jan-04 18:28 META-INF/MANIFEST.MF
+...
+│ --rw-r--r--  2.0 unx       59 b- defN 24-Jan-04 18:28 META-INF/maven/com.spotify/github-client/pom.properties
+│ -311 files, 4101166 bytes uncompressed, 633608 bytes compressed:  84.6%
+│ +Zip file size: 687315 bytes, number of entries: 311
+│ +-rw-r--r--  2.0 unx       64 b- defN 24-Jan-08 11:09 META-INF/MANIFEST.MF
+...
+│ +-rw-r--r--  2.0 unx       59 b- defN 24-Jan-08 11:09 META-INF/maven/com.spotify/github-client/pom.properties
+│ +311 files, 4101166 bytes uncompressed, 633607 bytes compressed:  84.6%
+├── META-INF/maven/com.spotify/github-client/pom.xml
+│ ├── META-INF/maven/com.spotify/github-client/pom.xml
+│ │ @@ -652,15 +652,15 @@
+│ │      <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+│ │      <okhttp.version>4.11.0</okhttp.version>
+│ │ -    <project.build.outputTimestamp>1704392907</project.build.outputTimestamp>
+│ │ +    <project.build.outputTimestamp>1704712197</project.build.outputTimestamp>
+│ │      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+│ │      <shade.id>${project.groupId}.githubclient.shade</shade.id>
+

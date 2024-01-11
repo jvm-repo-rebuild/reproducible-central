@@ -1,0 +1,12 @@
+version=0.2.6
+ok=0
+ko=3
+ignored=0
+okFiles=""
+koFiles="github-client-0.2.6.pom github-client-0.2.6.jar github-client-0.2.6-sources.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/com.spotify/github-client-0.2.6.pom dependency-reduced-pom.xml
+# diffoscope target/reference/com.spotify/github-client-0.2.6.jar target/github-client-0.2.6.jar
+# diffoscope target/reference/com.spotify/github-client-0.2.6-sources.jar target/github-client-0.2.6-sources.jar
