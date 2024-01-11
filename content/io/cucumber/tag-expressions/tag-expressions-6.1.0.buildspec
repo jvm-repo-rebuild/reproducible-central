@@ -1,0 +1,17 @@
+groupId=io.cucumber
+artifactId=tag-expressions
+display=${groupId}:${artifactId}
+version=6.1.0
+
+gitRepo=https://github.com/cucumber/${artifactId}.git
+gitTag=v${version}
+
+tool=mvn
+jdk=11
+newline=lf
+umask=022
+
+command="mvn -f java/pom.xml -Psign-source-javadoc clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=java/target/${artifactId}-${version}.buildinfo
+
+issue=
