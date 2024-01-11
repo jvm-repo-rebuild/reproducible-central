@@ -43,6 +43,7 @@ rebuilding **32 releases** of org.apache.maven.resolver:maven-resolver:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.0-alpha-6](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.0-alpha-6/pom) | | | |
 | [2.0.0-alpha-5](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.0-alpha-5/pom) | [mvn jdk21](maven-resolver-2.0.0-alpha-5.buildspec) | [result](maven-resolver-2.0.0-alpha-5.buildinfo): [109 :heavy_check_mark: ](maven-resolver-2.0.0-alpha-5.buildcompare) | 13M |
 | [2.0.0-alpha-3](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.0-alpha-3/pom) | [mvn jdk21](maven-resolver-2.0.0-alpha-3.buildspec) | [result](maven-resolver-2.0.0-alpha-3.buildinfo): [99 :heavy_check_mark: ](maven-resolver-2.0.0-alpha-3.buildcompare) | 13M |
 | [2.0.0-alpha-2](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.0-alpha-2/pom) | [mvn jdk21](maven-resolver-2.0.0-alpha-2.buildspec) | [result](maven-resolver-2.0.0-alpha-2.buildinfo): [109 :heavy_check_mark: ](maven-resolver-2.0.0-alpha-2.buildcompare) | 13M |

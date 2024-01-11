@@ -4,11 +4,12 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20240111115238 --> [jface-utils](../content/io/github/albertus82/jface-utils/README.md) | [19.0.7](../content/io/github/albertus82/jface-utils/jface-utils-19.0.7.buildspec) :heavy_check_mark: | [20.0.0](../content/io/github/albertus82/jface-utils/jface-utils-20.0.0.buildspec) | `bin/add-new-release.sh content/io/github/albertus82/jface-utils/jface-utils-19.0.7.buildspec 20.0.0` |
+| <!-- 20240111095935 --> [github-client](../content/com/spotify/github-client/README.md) | [0.2.9](../content/com/spotify/github-client/github-client-0.2.9.buildspec) :heavy_check_mark: | [0.2.11](../content/com/spotify/github-client/github-client-0.2.11.buildspec) | `bin/add-new-release.sh content/com/spotify/github-client/github-client-0.2.9.buildspec 0.2.11` |
+| <!-- 20240111085112 --> [maven-resolver](../content/org/apache/maven/resolver/maven-resolver/README.md) | [2.0.0-alpha-5](../content/org/apache/maven/resolver/maven-resolver/maven-resolver-2.0.0-alpha-5.buildspec) :heavy_check_mark: | [2.0.0-alpha-6](../content/org/apache/maven/resolver/maven-resolver/maven-resolver-2.0.0-alpha-6.buildspec) | `bin/add-new-release.sh content/org/apache/maven/resolver/maven-resolver/maven-resolver-2.0.0-alpha-5.buildspec 2.0.0-alpha-6` |
+| <!-- 20240111085002 --> [maven-indexer](../content/org/apache/maven/indexer/README.md) | [7.1.1](../content/org/apache/maven/indexer/maven-indexer-7.1.1.buildspec) :heavy_check_mark: | [7.1.2](../content/org/apache/maven/indexer/maven-indexer-7.1.2.buildspec) | `bin/add-new-release.sh content/org/apache/maven/indexer/maven-indexer-7.1.1.buildspec 7.1.2` |
 | <!-- 20240110183837 --> [maven-reporting-api](../content/org/apache/maven/reporting/maven-reporting-api/README.md) | [4.0.0-M9](../content/org/apache/maven/reporting/maven-reporting-api/maven-reporting-api-4.0.0-M9.buildspec) :heavy_check_mark: | [4.0.0-M10](../content/org/apache/maven/reporting/maven-reporting-api/maven-reporting-api-4.0.0-M10.buildspec) | `bin/add-new-release.sh content/org/apache/maven/reporting/maven-reporting-api/maven-reporting-api-4.0.0-M9.buildspec 4.0.0-M10` |
 | <!-- 20240110183704 --> [maven-plugin-tools](../content/org/apache/maven/plugin-tools/maven-plugin-tools/README.md) | [3.10.2](../content/org/apache/maven/plugin-tools/maven-plugin-tools/maven-plugin-tools-3.10.2.buildspec) :heavy_check_mark: | [3.11.0](../content/org/apache/maven/plugin-tools/maven-plugin-tools/maven-plugin-tools-3.11.0.buildspec) | `bin/add-new-release.sh content/org/apache/maven/plugin-tools/maven-plugin-tools/maven-plugin-tools-3.10.2.buildspec 3.11.0` |
-| <!-- 20240110153609 --> [micronaut-maven-plugin](../content/io/micronaut/maven/micronaut-maven-plugin/README.md) | [4.2.2](../content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.2.2.buildspec) :heavy_check_mark: | [4.3.0](../content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.3.0.buildspec) | `bin/add-new-release.sh content/io/micronaut/maven/micronaut-maven-plugin/micronaut-maven-plugin-4.2.2.buildspec 4.3.0` |
-| <!-- 20240110113701 --> [tag-expressions](../content/io/cucumber/tag-expressions/README.md) | [6.0.0](../content/io/cucumber/tag-expressions/tag-expressions-6.0.0.buildspec) :heavy_check_mark: | [6.1.0](../content/io/cucumber/tag-expressions/tag-expressions-6.1.0.buildspec) | `bin/add-new-release.sh content/io/cucumber/tag-expressions/tag-expressions-6.0.0.buildspec 6.1.0` |
-| <!-- 20240110111228 --> [github-client](../content/com/spotify/github-client/README.md) | [0.2.5](../content/com/spotify/github-client/github-client-0.2.5.buildspec) :heavy_check_mark: | [0.2.9](../content/com/spotify/github-client/github-client-0.2.9.buildspec) | `bin/add-new-release.sh content/com/spotify/github-client/github-client-0.2.5.buildspec 0.2.9` |
 | <!-- 20240109203609 --> [doxia](../content/org/apache/maven/doxia/doxia/README.md) | [2.0.0-M8](../content/org/apache/maven/doxia/doxia/doxia-2.0.0-M8.buildspec) :heavy_check_mark: | [2.0.0-M9](../content/org/apache/maven/doxia/doxia/doxia-2.0.0-M9.buildspec) | `bin/add-new-release.sh content/org/apache/maven/doxia/doxia/doxia-2.0.0-M8.buildspec 2.0.0-M9` |
 | <!-- 20240109203407 --> [surefire](../content/org/apache/maven/surefire/README.md) | [3.2.3](../content/org/apache/maven/surefire/surefire-3.2.3.buildspec) :heavy_check_mark: | [3.2.5](../content/org/apache/maven/surefire/surefire-3.2.5.buildspec) | `bin/add-new-release.sh content/org/apache/maven/surefire/surefire-3.2.3.buildspec 3.2.5` |
 | <!-- 20240108215539 --> [apache-rat-project](../content/org/apache/rat/README.md) | [0.15](../content/org/apache/rat/apache-rat-0.15.buildspec) :heavy_check_mark: | [0.16](../content/org/apache/rat/apache-rat-0.16.buildspec) | `bin/add-new-release.sh content/org/apache/rat/apache-rat-0.15.buildspec 0.16` |
@@ -25,6 +26,9 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20240111152502 --> [cdevents-sdk-java](../content/dev/cdevents/cdevents-sdk-java/README.md) | [0.1.2](../content/dev/cdevents/cdevents-sdk-java/cdevents-sdk-java-0.1.2.buildspec) :warning: | [0.3.0](../content/dev/cdevents/cdevents-sdk-java/cdevents-sdk-java-0.3.0.buildspec) | `bin/add-new-release.sh content/dev/cdevents/cdevents-sdk-java/cdevents-sdk-java-0.1.2.buildspec 0.3.0` |
+| <!-- 20240111144418 --> [bcel](../content/org/apache/commons/bcel/README.md) | [6.8.0](../content/org/apache/commons/bcel/bcel-6.8.0.buildspec) :warning: | [6.8.1](../content/org/apache/commons/bcel/bcel-6.8.1.buildspec) | `bin/add-new-release.sh content/org/apache/commons/bcel/bcel-6.8.0.buildspec 6.8.1` |
+| <!-- 20240110202953 --> [karaf](../content/org/apache/karaf/karaf/README.md) | [4.4.4](../content/org/apache/karaf/karaf/karaf-4.4.4.buildspec) :warning: [:memo:](https://issues.apache.org/jira/browse/KARAF-7751) | [4.4.5](../content/org/apache/karaf/karaf/karaf-4.4.5.buildspec) | `bin/add-new-release.sh content/org/apache/karaf/karaf/karaf-4.4.4.buildspec 4.4.5` |
 | <!-- 20240110121754 --> [kubernetes-client-project](../content/io/fabric8/kubernetes-client/README.md) | [6.4.0](../content/io/fabric8/kubernetes-client/kubernetes-client-6.4.0.buildspec) :warning: | [6.10.0](../content/io/fabric8/kubernetes-client/kubernetes-client-6.10.0.buildspec) | `bin/add-new-release.sh content/io/fabric8/kubernetes-client/kubernetes-client-6.4.0.buildspec 6.10.0` |
 | <!-- 20240109104846 --> [ratis](../content/org/apache/ratis/README.md) | [3.0.0](../content/org/apache/ratis/ratis-3.0.0.buildspec) :warning: [:memo:](https://issues.apache.org/jira/browse/RATIS-1840) | [3.0.1](../content/org/apache/ratis/ratis-3.0.1.buildspec) | `bin/add-new-release.sh content/org/apache/ratis/ratis-3.0.0.buildspec 3.0.1` |
 | <!-- 20240105154417 --> [opentelemetry-sdk](../content/io/opentelemetry/java/README.md) | [1.14.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.14.0.buildspec) :warning: [:memo:](https://github.com/open-telemetry/opentelemetry-java/issues/4488) | [1.34.0](../content/io/opentelemetry/java/opentelemetry-sdk-1.34.0.buildspec) | `bin/add-new-release.sh content/io/opentelemetry/java/opentelemetry-sdk-1.14.0.buildspec 1.34.0` |
@@ -69,13 +73,12 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20240111071341 --> [jackrabbit-parent](../content/org/apache/jackrabbit/jackrabbit/README.md) | 2.21.22 :warning: |
 | <!-- 20231226082110 --> [syncope](../content/org/apache/syncope/README.md) | 3.0.6 :warning: |
 | <!-- 20231223145540 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 8.0.0-M1 :x: |
-| <!-- 20231219092535 --> [jackrabbit-parent](../content/org/apache/jackrabbit/jackrabbit/README.md) | 2.21.22 :warning: |
 | <!-- 20231213180841 --> [units-catalog](../content/com/cognite/units/units-catalog/README.md) | 0.1.3 :warning: |
 | <!-- 20231212082000 --> [efx-toolkit-java](../content/eu/europa/ted/eforms/efx-toolkit-java/README.md) | 2.0.0-alpha.2 :warning: |
 | <!-- 20231209062826 --> [paimon-parent](../content/org/apache/paimon/README.md) | 0.6.0-incubating :warning: [:memo:](https://github.com/apache/incubator-paimon/pull/2519) |
-| <!-- 20231207210032 --> [bcel](../content/org/apache/commons/bcel/README.md) | 6.8.0 :warning: |
 | <!-- 20231203200212 --> [psi-probe](../content/com/github/psi-probe/README.md) | 4.1.0 :warning: |
 | <!-- 20231129032326 --> [whitespace-maven-plugin](../content/com/github/hazendaz/maven/whitespace-maven-plugin/README.md) | 1.3.1 :warning: |
 | <!-- 20231128065356 --> [xmlsec](../content/org/apache/santuario/xmlsec/README.md) | 4.0.1 :warning: [:memo:](https://github.com/apache/santuario-xml-security-java/pull/248) |
@@ -95,12 +98,10 @@ New Releases To Add
 | <!-- 20231005105951 --> [commons-net](../content/org/apache/commons/net/README.md) | 3.10.0 :warning: |
 | <!-- 20230929050801 --> [helix](../content/org/apache/helix/README.md) | 1.3.1 :warning: |
 | <!-- 20230924095100 --> [avro-toplevel](../content/org/apache/avro/README.md) | 1.11.3 :warning: |
-| <!-- 20230920083340 --> [karaf](../content/org/apache/karaf/karaf/README.md) | 4.4.4 :warning: [:memo:](https://issues.apache.org/jira/browse/KARAF-7751) |
 | <!-- 20230916081916 --> [org.apache.felix.healthcheck.core](../content/org/apache/felix/org.apache.felix.healthcheck.core/README.md) | 2.2.0 :warning: [:memo:](https://github.com/apache/felix-dev/pull/234) |
 | <!-- 20230913004921 --> [java-uuid-generator](../content/com/fasterxml/uuid/README.md) | 4.3.0 :warning: [:memo:](https://github.com/moditect/moditect/issues/199) |
 | <!-- 20230907100604 --> [maven-lockfile](../content/io/github/chains-project/maven-lockfile/README.md) | 5.0.0 :warning: |
 | <!-- 20230802183114 --> [semanticcms-tag-reference](../content/com/semanticcms/semanticcms-tag-reference/README.md) | 1.10.1 :warning: |
-| <!-- 20230724134537 --> [cdevents-sdk-java](../content/dev/cdevents/cdevents-sdk-java/README.md) | 0.1.2 :warning: |
 | <!-- 20230721020416 --> [auto-record](../content/pl/com/labaj/auto-record/README.md) | 2.1.0 :x: |
 | <!-- 20230701145904 --> [com.io7m.sunburst](../content/com/io7m/sunburst/README.md) | 0.0.6 :warning: |
 | <!-- 20230620223800 --> [xml-maven-plugin](../content/org/codehaus/mojo/xml-maven-plugin/README.md) | 1.1.0 :warning: |
