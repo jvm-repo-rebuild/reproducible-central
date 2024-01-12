@@ -1,0 +1,94 @@
+1 / 3 target/reference/org.apache.bcel/bcel-6.8.1-tests.jar target/bcel-6.8.1-tests.jar
+--- target/reference/org.apache.bcel/bcel-6.8.1-tests.jar
++++ target/bcel-6.8.1-tests.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 524263 bytes, number of entries: 343
+│ +Zip file size: 524397 bytes, number of entries: 343
+│ @@ -147,15 +147,15 @@
+│  -rw-r--r--  2.0 unx      557 b- defN 23-Nov-18 01:56 org/apache/bcel/data/PLSETestClass2.class
+│  -rw-r--r--  2.0 unx     1104 b- defN 23-Nov-18 01:56 org/apache/bcel/data/PLSETestEnum.class
+│ --rw-r--r--  2.0 unx      781 b- defN 23-Nov-18 01:56 org/apache/bcel/data/SWAP.class
+│ +-rw-r--r--  2.0 unx     1031 b- defN 23-Nov-18 01:56 org/apache/bcel/data/SWAP.class
+│  -rw-r--r--  2.0 unx      424 b- defN 23-Nov-18 01:56 org/apache/bcel/data/SimpleAnnotatedClass.class
+│  -rw-r--r--  2.0 unx      411 b- defN 23-Nov-18 01:56 org/apache/bcel/data/SimpleAnnotation.class
+│ @@ -338,8 +338,8 @@
+│ -343 files, 7846803 bytes uncompressed, 469821 bytes compressed:  94.0%
+│ +343 files, 7847053 bytes uncompressed, 469955 bytes compressed:  94.0%
+├── org/apache/bcel/data/SWAP.class
+│ ├── procyon -ec {}
+│ │ @@ -1,17 +1,31 @@
+│ │  
+│ │  package org.apache.bcel.data;
+│ │  
+│ │  import java.lang.reflect.Constructor;
+│ │  
+│ │  public class SWAP
+│ │  {
+│ │ +    static /* synthetic */ Class class$0;
+│ │ +    
+│ │      public static Constructor getTestConstructor(final Class theClass) throws NoSuchMethodException {
+│ │ -        final Class[] args = { String.class };
+│ │ +        final Class[] array = { null };
+│ │ +        final int n = 0;
+│ │ +        Class class$0;
+│ │ +        if ((class$0 = SWAP.class$0) == null) {
+│ │ +            try {
+│ │ +                class$0 = (SWAP.class$0 = Class.forName("java.lang.String"));
+│ │ +            }
+│ │ +            catch (final ClassNotFoundException ex) {
+│ │ +                throw new NoClassDefFoundError(ex.getMessage());
+│ │ +            }
+│ │ +        }
+│ │ +        array[n] = class$0;
+│ │ +        final Class[] args = array;
+│ │          try {
+│ │              return theClass.getConstructor((Class[])args);
+│ │          }
+│ │ -        catch (final NoSuchMethodException ex) {
+│ │ +        catch (final NoSuchMethodException ex2) {
+│ │              return theClass.getConstructor((Class[])new Class[0]);
+│ │          }
+│ │      }
+│ │  }
+
+# release manager has a non-canonical jar of commons-lang3 3.14.0 in his local repository: https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar.sha1
+2 / 3 target/reference/org.apache.bcel/bcel-6.8.1-cyclonedx.xml target/bcel-6.8.1-bom.xml
+--- target/reference/org.apache.bcel/bcel-6.8.1-cyclonedx.xml
++++ target/bcel-6.8.1-bom.xml
+│   --- target/reference/org.apache.bcel/bcel-6.8.1-cyclonedx.xml
+├── +++ target/bcel-6.8.1-bom.xml
+│ @@ -65,22 +65,22 @@
+│        <name>commons-lang3</name>
+│        <version>3.14.0</version>
+│        <description>Apache Commons Lang, a package of Java utility classes for the
+│    classes that are in java.lang's hierarchy, or are considered to be so
+│    standard as to justify existence in java.lang.</description>
+│        <scope>required</scope>
+│        <hashes>
+│ -        <hash alg="MD5">b920c8836c30024148745105b77293a4</hash>
+│ -        <hash alg="SHA-1">29a8e036ea44614023ffeb3b7629f2039e6aeda6</hash>
+│ -        <hash alg="SHA-256">45348a8be261fd08d050009cb6536978af2d0f53ccd4c56b5dbd2ac612f5ce6c</hash>
+│ -        <hash alg="SHA-512">e1bf36e2a6e4dbd8dcc057ae30543267d742a4ced2ea4f0d671d956a69884aefde8efd4fac6aec7948489ba2da7fd82c8054cdb96086232ebbfaf56fbf02e755</hash>
+│ -        <hash alg="SHA-384">86d464f11f3a2cfecb9996897fdda5c049f2228c1b586e15515b7e412fc52191415ca545592ac24dd587651e508bfc9c</hash>
+│ -        <hash alg="SHA3-384">5fb37997c9e09e50ad0dcde027d11891ff14daf99a21dc543a7e532eac06828430ea7a5e65439d2ced46536cb2423f8c</hash>
+│ -        <hash alg="SHA3-256">71d30fd51a28f8396f9d63ba705404956668cfd339520ccc1c3699c75c02be63</hash>
+│ -        <hash alg="SHA3-512">3487967718dd2fd344c49e60e6ee8394f413317ffcf2a55152733b9e7c981e4e0830d21cbb5d7fe43bb1b806e6f84ca17ef742f0f3b04820dd589d92c352a65a</hash>
+│ +        <hash alg="MD5">4e5c3f5e6b0b965ef241d7d72ac8971f</hash>
+│ +        <hash alg="SHA-1">1ed471194b02f2c6cb734a0cd6f6f107c673afae</hash>
+│ +        <hash alg="SHA-256">7b96bf3ee68949abb5bc465559ac270e0551596fa34523fddf890ec418dde13c</hash>
+│ +        <hash alg="SHA-512">0338b50767166e5746ada6d6aa2e071e7221d699323bfb629f7f204b294c1dc4cad140610a129ed751798443b43e74e0818989c7df7d33c5915aa29742be9ba8</hash>
+│ +        <hash alg="SHA-384">908d0a22dc17aaa04caa5104cff7cad5b88b77eecb78dd5b3b3fefa22ff71ac50a4fb9e31c897ac243f9d841e4b3453d</hash>
+│ +        <hash alg="SHA3-384">8a7f2e061b998780870eddd571620fbf3d3c70bcb54e24539d0db504f59d65bc6bda58136284498babe29fcc5eabb7a6</hash>
+│ +        <hash alg="SHA3-256">022bf1f8039fcea717e9e34dd96eb80cfff05b43c9cbb76e9739b2421e2d027c</hash>
+│ +        <hash alg="SHA3-512">0bcbc4edce974ea970c46e2da12ec98d9fd962c2cf64f757ac97136dec5623ca52af0c225895303c17ffabb57090e6772d7bd326d5e7438cef5454f8bbaeecfa</hash>
+│        </hashes>
+│        <licenses>
+│          <license>
+│            <id>Apache-2.0</id>
+│            <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+│          </license>
+│        </licenses>
+
+# same as previous, but in json instead of xml...
+3 / 3 target/reference/org.apache.bcel/bcel-6.8.1-cyclonedx.json target/bcel-6.8.1-bom.json

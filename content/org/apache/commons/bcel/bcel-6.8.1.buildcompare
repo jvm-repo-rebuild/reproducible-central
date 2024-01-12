@@ -1,0 +1,12 @@
+version=6.8.1
+ok=4
+ko=3
+ignored=0
+okFiles="bcel-6.8.1.pom bcel-6.8.1.jar bcel-6.8.1-sources.jar bcel-6.8.1-test-sources.jar"
+koFiles="bcel-6.8.1-tests.jar bcel-6.8.1-cyclonedx.xml bcel-6.8.1-cyclonedx.json"
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
+# diffoscope target/reference/org.apache.bcel/bcel-6.8.1-tests.jar target/bcel-6.8.1-tests.jar
+# diffoscope target/reference/org.apache.bcel/bcel-6.8.1-cyclonedx.xml target/bcel-6.8.1-bom.xml
+# diffoscope target/reference/org.apache.bcel/bcel-6.8.1-cyclonedx.json target/bcel-6.8.1-bom.json
