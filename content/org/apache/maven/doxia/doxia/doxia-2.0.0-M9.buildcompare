@@ -1,0 +1,9 @@
+version=2.0.0-M9
+ok=50
+ko=0
+ignored=0
+okFiles="doxia-2.0.0-M9.pom doxia-2.0.0-M9-site.xml doxia-2.0.0-M9-source-release.zip doxia-2.0.0-M9-cyclonedx.xml doxia-2.0.0-M9-cyclonedx.json doxia-sink-api-2.0.0-M9.pom doxia-sink-api-2.0.0-M9.jar doxia-sink-api-2.0.0-M9-sources.jar doxia-sink-api-2.0.0-M9-cyclonedx.xml doxia-sink-api-2.0.0-M9-cyclonedx.json doxia-test-docs-2.0.0-M9.pom doxia-test-docs-2.0.0-M9.jar doxia-test-docs-2.0.0-M9-sources.jar doxia-test-docs-2.0.0-M9-cyclonedx.xml doxia-test-docs-2.0.0-M9-cyclonedx.json doxia-core-2.0.0-M9.pom doxia-core-2.0.0-M9.jar doxia-core-2.0.0-M9-sources.jar doxia-core-2.0.0-M9-cyclonedx.xml doxia-core-2.0.0-M9-cyclonedx.json doxia-core-2.0.0-M9-tests.jar doxia-modules-2.0.0-M9.pom doxia-modules-2.0.0-M9-site.xml doxia-modules-2.0.0-M9-cyclonedx.xml doxia-modules-2.0.0-M9-cyclonedx.json doxia-module-apt-2.0.0-M9.pom doxia-module-apt-2.0.0-M9.jar doxia-module-apt-2.0.0-M9-sources.jar doxia-module-apt-2.0.0-M9-cyclonedx.xml doxia-module-apt-2.0.0-M9-cyclonedx.json doxia-module-fml-2.0.0-M9.pom doxia-module-fml-2.0.0-M9.jar doxia-module-fml-2.0.0-M9-sources.jar doxia-module-fml-2.0.0-M9-cyclonedx.xml doxia-module-fml-2.0.0-M9-cyclonedx.json doxia-module-xdoc-2.0.0-M9.pom doxia-module-xdoc-2.0.0-M9.jar doxia-module-xdoc-2.0.0-M9-sources.jar doxia-module-xdoc-2.0.0-M9-cyclonedx.xml doxia-module-xdoc-2.0.0-M9-cyclonedx.json doxia-module-xhtml5-2.0.0-M9.pom doxia-module-xhtml5-2.0.0-M9.jar doxia-module-xhtml5-2.0.0-M9-sources.jar doxia-module-xhtml5-2.0.0-M9-cyclonedx.xml doxia-module-xhtml5-2.0.0-M9-cyclonedx.json doxia-module-markdown-2.0.0-M9.pom doxia-module-markdown-2.0.0-M9.jar doxia-module-markdown-2.0.0-M9-sources.jar doxia-module-markdown-2.0.0-M9-cyclonedx.xml doxia-module-markdown-2.0.0-M9-cyclonedx.json"
+koFiles=""
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
