@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/albertus82/jface-utils.git](https://github.com/albertus82/jface-utils.git)
 
-rebuilding **8 releases** of io.github.albertus82:jface-utils:
-- **8** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **9 releases** of io.github.albertus82:jface-utils:
+- **9** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [20.0.0](https://central.sonatype.com/artifact/io.github.albertus82/jface-utils/20.0.0/pom) | | | |
+| [20.0.0](https://central.sonatype.com/artifact/io.github.albertus82/jface-utils/20.0.0/pom) | [mvn jdk17](jface-utils-20.0.0.buildspec) | [result](jface-utils-20.0.0.buildinfo): [3 :heavy_check_mark: ](jface-utils-20.0.0.buildcompare) | 782K |
 | [19.0.7](https://central.sonatype.com/artifact/io.github.albertus82/jface-utils/19.0.7/pom) | [mvn jdk11](jface-utils-19.0.7.buildspec) | [result](jface-utils-19.0.7.buildinfo): [3 :heavy_check_mark: ](jface-utils-19.0.7.buildcompare) | 777K |
 | [19.0.6](https://central.sonatype.com/artifact/io.github.albertus82/jface-utils/19.0.6/pom) | [mvn jdk11](jface-utils-19.0.6.buildspec) | [result](jface-utils-19.0.6.buildinfo): [3 :heavy_check_mark: ](jface-utils-19.0.6.buildcompare) | 777K |
 | [19.0.5](https://central.sonatype.com/artifact/io.github.albertus82/jface-utils/19.0.5/pom) | [mvn jdk11](jface-utils-19.0.5.buildspec) | [result](jface-utils-19.0.5.buildinfo): [3 :heavy_check_mark: ](jface-utils-19.0.5.buildcompare) | 777K |

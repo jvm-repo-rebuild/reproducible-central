@@ -13,6 +13,7 @@ rebuilding **3 releases** of com.spotify.fmt:fmt-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.22](https://central.sonatype.com/artifact/com.spotify.fmt/fmt-maven-plugin/2.22/pom) | | | |
 | [2.21.1](https://central.sonatype.com/artifact/com.spotify.fmt/fmt-maven-plugin/2.21.1/pom) | [mvn jdk17](fmt-maven-plugin-2.21.1.buildspec) | [result](fmt-maven-plugin-2.21.1.buildinfo): [3 :heavy_check_mark: ](fmt-maven-plugin-2.21.1.buildcompare) | 87K |
 | [2.21](https://central.sonatype.com/artifact/com.spotify.fmt/fmt-maven-plugin/2.21/pom) | [mvn jdk17](fmt-maven-plugin-2.21.buildspec) | [result](fmt-maven-plugin-2.21.buildinfo): [3 :heavy_check_mark: ](fmt-maven-plugin-2.21.buildcompare) | 87K |
 | [2.20](https://central.sonatype.com/artifact/com.spotify.fmt/fmt-maven-plugin/2.20/pom) | [mvn jdk11](fmt-maven-plugin-2.20.buildspec) | [result](fmt-maven-plugin-2.20.buildinfo): [3 :heavy_check_mark: ](fmt-maven-plugin-2.20.buildcompare) | 83K |
