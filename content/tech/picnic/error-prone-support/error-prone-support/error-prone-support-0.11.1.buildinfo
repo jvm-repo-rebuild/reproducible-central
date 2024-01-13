@@ -24,86 +24,104 @@ mvn.aggregate.artifact-id=error-prone-contrib
 
 outputs.0.coordinates=tech.picnic.error-prone-support:error-prone-support
 
+outputs.0.0.groupId=tech.picnic.error-prone-support
 outputs.0.0.filename=error-prone-support-0.11.1.pom
 outputs.0.0.length=107663
 outputs.0.0.checksums.sha512=1fe47d21b34451f96f5e6f055309aa82970a9990904c462fceaf13eb279c5255edbfea69ba41537b0c3a8affe788c4c51a25a7e69d36f99855300d23fa808181
 
 outputs.1.coordinates=tech.picnic.error-prone-support:documentation-support
 
+outputs.1.0.groupId=tech.picnic.error-prone-support
 outputs.1.0.filename=documentation-support-0.11.1.pom
 outputs.1.0.length=3286
 outputs.1.0.checksums.sha512=b7b5dba4c4a468506589dc744b721d5a23c80da552a67a2cbc2c1c1f003faf1a2e61096889a0b3712468862405017e7f2021609d45825d2136292f7bb8f85b9f
 
+outputs.1.1.groupId=tech.picnic.error-prone-support
 outputs.1.1.filename=documentation-support-0.11.1.jar
 outputs.1.1.length=17922
 outputs.1.1.checksums.sha512=beec4e6c261768d2140f9695510546b37c0692ded37f0c77c52897df492019e384894bbfe02130c7889cb8466210a98bae85c2b938b5e075fee6c7a93f89bd6c
 
+outputs.1.2.groupId=tech.picnic.error-prone-support
 outputs.1.2.filename=documentation-support-0.11.1-tests.jar
 outputs.1.2.length=14218
 outputs.1.2.checksums.sha512=fb58d474337256b643ca031caa5aec638a724276d2f0c58f2dbf9aadb5f2067437b94f5e77dda8e23cdf71dc8ca6bd7766c350e8f944bc5f42e4551ec6f5211e
 
 outputs.2.coordinates=tech.picnic.error-prone-support:refaster-support
 
+outputs.2.0.groupId=tech.picnic.error-prone-support
 outputs.2.0.filename=refaster-support-0.11.1.pom
 outputs.2.0.length=3403
 outputs.2.0.checksums.sha512=21544e8a941071777f29cb898148d5ec5bcd969c6102190710cf92804b1af33e802b882d79827d6eec6e6e178bcb3032a4f729481f5b2b2cdbe5e496e5b90b19
 
+outputs.2.1.groupId=tech.picnic.error-prone-support
 outputs.2.1.filename=refaster-support-0.11.1.jar
 outputs.2.1.length=20696
 outputs.2.1.checksums.sha512=20dea97f1fde42b17133d480acbe5122d99846d139b9bbe570d81746233c86e978e38b304931f9671b951d6e13b3a30bd1528d8d5e29b443544f544afd40187d
 
+outputs.2.2.groupId=tech.picnic.error-prone-support
 outputs.2.2.filename=refaster-support-0.11.1-tests.jar
 outputs.2.2.length=27813
 outputs.2.2.checksums.sha512=dcdef73f995b47752bfecd887ea443a68427def8121c8d7e9350c94ea84e21e09ffe851c6c3a5688a44ca96dc9d539c5126578343d14011cd6dc975db7c2df71
 
 outputs.3.coordinates=tech.picnic.error-prone-support:refaster-compiler
 
+outputs.3.0.groupId=tech.picnic.error-prone-support
 outputs.3.0.filename=refaster-compiler-0.11.1.pom
 outputs.3.0.length=1921
 outputs.3.0.checksums.sha512=7c075dc3509094f710256cf727ce9fbc852d75d3a49678404e40cc5d05236c84e5d52fc1e982b0ba499030225329c755a8870778629ee412876cb06e04bf1976
 
+outputs.3.1.groupId=tech.picnic.error-prone-support
 outputs.3.1.filename=refaster-compiler-0.11.1.jar
 outputs.3.1.length=12280
 outputs.3.1.checksums.sha512=45fa34b9389c48b3797345625f7aa2341d87431e67058b4925b81b25c7937f9afe168dab2051e566576a6ad60182e5513abeb6899d794f6e852b934dc0da5b42
 
 outputs.4.coordinates=tech.picnic.error-prone-support:refaster-runner
 
+outputs.4.0.groupId=tech.picnic.error-prone-support
 outputs.4.0.filename=refaster-runner-0.11.1.pom
 outputs.4.0.length=4437
 outputs.4.0.checksums.sha512=797f23c150c641d65766bd04194251783c7ab299eaeff0103f796e314a0ea74f8955e1d515605bd31c53d08f40f7feada489ef13ef66939816506b3cf13e69ce
 
+outputs.4.1.groupId=tech.picnic.error-prone-support
 outputs.4.1.filename=refaster-runner-0.11.1.jar
 outputs.4.1.length=15013
 outputs.4.1.checksums.sha512=0d1c1a93e29bd8b48cd46d95eb062b86985fb808d1ef6120f8823143ad074cce216e03a6d020cf9657078c6120c527c88a6ba98aee3f05e275009f234cd1dce6
 
+outputs.4.2.groupId=tech.picnic.error-prone-support
 outputs.4.2.filename=refaster-runner-0.11.1-tests.jar
 outputs.4.2.length=24568
 outputs.4.2.checksums.sha512=0c1fe646de57870cd7640cf05d994adb408d1b458e2a4cbee2a2257352c8bc4fbafd8d12a0abb1d2a44489e6c09723616f8ec3f9ab5aab8a01e2538b7af3263b
 
 outputs.5.coordinates=tech.picnic.error-prone-support:refaster-test-support
 
+outputs.5.0.groupId=tech.picnic.error-prone-support
 outputs.5.0.filename=refaster-test-support-0.11.1.pom
 outputs.5.0.length=3723
 outputs.5.0.checksums.sha512=5b08efc1015b0dabf7c63bbace1404e9d617e8229409a27c8c37deb0b350d526016679f8a1cdd596b0f49e40ca0ca6175387401d964623ad3d72a78ce3d72ce1
 
+outputs.5.1.groupId=tech.picnic.error-prone-support
 outputs.5.1.filename=refaster-test-support-0.11.1.jar
 outputs.5.1.length=15698
 outputs.5.1.checksums.sha512=4e704c9529a1a83bd2e2ae40a87826400564a1488c7c24671ed077b3241ed5310d40a0adcbfaeee2887350cd186f2986c1e4339aba2d34de036d846481c73d50
 
+outputs.5.2.groupId=tech.picnic.error-prone-support
 outputs.5.2.filename=refaster-test-support-0.11.1-tests.jar
 outputs.5.2.length=49157
 outputs.5.2.checksums.sha512=2e69741e18bd3d1d4ce2c79738545d5d3a103db8ef8e9708befc815c6377053609d81520578bebdbda716ee908bd17eca4db7068b9a7a4ff5eb2119e46725215
 
 outputs.6.coordinates=tech.picnic.error-prone-support:error-prone-contrib
 
+outputs.6.0.groupId=tech.picnic.error-prone-support
 outputs.6.0.filename=error-prone-contrib-0.11.1.pom
 outputs.6.0.length=10394
 outputs.6.0.checksums.sha512=f9d16c251637a430287e6eb7a54d58c8738dd696125fad09e4bea23c4ba2380d2b2853e50a5a938d5a2c9be0a85caced02e204423e5ad2da3bf33f12a90df99f
 
+outputs.6.1.groupId=tech.picnic.error-prone-support
 outputs.6.1.filename=error-prone-contrib-0.11.1.jar
 outputs.6.1.length=2836935
 outputs.6.1.checksums.sha512=7cc8fd8347c0a3a03eec313da22d2ef7a6e4cfeba2c33f34d248c719a212f61b5b1dc9c0e640c2f660a390756bc2c732dd400ae28c5039c7da845a09076551a3
 
+outputs.6.2.groupId=tech.picnic.error-prone-support
 outputs.6.2.filename=error-prone-contrib-0.11.1-tests.jar
 outputs.6.2.length=239853
 outputs.6.2.checksums.sha512=2a3536db6c3afdf03cec234c8caa76f7f45362ed0347ff77ad23dadea2b79ed073e2d6c47f727fbff0287c99f6534d5d1c742f9328810c01490b9769ef58cf30
