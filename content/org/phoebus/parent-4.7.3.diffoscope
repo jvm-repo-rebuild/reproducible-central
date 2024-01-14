@@ -1,0 +1,112 @@
+# executable attribute in Git: https://github.com/ControlSystemStudio/phoebus/pull/2904
+1 / 8 target/reference/org.phoebus/app-display-linearmeter-4.7.3-sources.jar app/display/linearmeter/target/app-display-linearmeter-4.7.3-sources.jar
+--- target/reference/org.phoebus/app-display-linearmeter-4.7.3-sources.jar
++++ app/display/linearmeter/target/app-display-linearmeter-4.7.3-sources.jar
+├── zipinfo {}
+│ @@ -11,17 +11,17 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-10 19:05 graphics/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-10 19:05 icons/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-10 19:05 META-INF/maven/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-10 19:05 META-INF/maven/org.phoebus/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-10 19:05 META-INF/maven/org.phoebus/app-display-linearmeter/
+│  -rw-r--r--  2.0 unx      994 b- defN 24-Jan-10 19:05 org/csstudio/display/extra/widgets/LinearMeterRepresentationService.java
+│  -rw-r--r--  2.0 unx      604 b- defN 24-Jan-10 19:05 org/csstudio/display/extra/widgets/LinearMeterWidgetService.java
+│ --rw-r--r--  2.0 unx    18011 b- defN 24-Jan-10 19:05 org/csstudio/display/extra/widgets/linearmeter/LinearMeterRepresentation.java
+│ +-rwxr-xr-x  2.0 unx    18011 b- defN 24-Jan-10 19:05 org/csstudio/display/extra/widgets/linearmeter/LinearMeterRepresentation.java
+│  -rw-r--r--  2.0 unx     5474 b- defN 24-Jan-10 19:05 org/csstudio/display/extra/widgets/linearmeter/LinearMeterScale.java
+│ --rw-r--r--  2.0 unx    15034 b- defN 24-Jan-10 19:05 org/csstudio/display/extra/widgets/linearmeter/LinearMeterWidget.java
+│ +-rwxr-xr-x  2.0 unx    15034 b- defN 24-Jan-10 19:05 org/csstudio/display/extra/widgets/linearmeter/LinearMeterWidget.java
+│  -rw-r--r--  2.0 unx    48438 b- defN 24-Jan-10 19:05 org/csstudio/display/extra/widgets/linearmeter/RTLinearMeter.java
+│  -rw-r--r--  2.0 unx       60 b- defN 24-Jan-10 19:05 META-INF/services/org.csstudio.display.builder.model.spi.WidgetsService
+│  -rw-r--r--  2.0 unx       68 b- defN 24-Jan-10 19:05 META-INF/services/org.csstudio.display.builder.representation.spi.WidgetRepresentationsService
+│  -rw-r--r--  2.0 unx      803 b- defN 24-Jan-10 19:05 graphics/Warning_Triangle_Red.png
+│  -rw-r--r--  2.0 unx      329 b- defN 24-Jan-10 19:05 icons/linear-meter.png
+│  -rw-r--r--  2.0 unx      518 b- defN 24-Jan-10 19:05 icons/linear-meter@2x.png
+│  -rw-r--r--  2.0 unx      839 b- defN 24-Jan-10 19:05 icons/linear-meter@3x.png
+
+# spring-boot-maven-plugin:2.7.9:repackage: need to see why it causes something that looks a timezone issue, even if defining timezone does not solve it
+2 / 8 target/reference/org.phoebus/service-alarm-logger-4.7.3.jar services/alarm-logger/target/service-alarm-logger-4.7.3.jar
+--- target/reference/org.phoebus/service-alarm-logger-4.7.3.jar
++++ services/alarm-logger/target/service-alarm-logger-4.7.3.jar
+├── zipinfo {}
+│ @@ -1,175 +1,175 @@
+│  Zip file size: 47856605 bytes, number of entries: 173
+│ -drwxr-xr-x  2.0 unx        0 bX defN 24-Jan-10 14:05 META-INF/
+│ --rw-r--r--  2.0 unx      398 bl defN 24-Jan-10 14:05 META-INF/MANIFEST.MF
+...
+│ --rw-r--r--  2.0 unx     2224 bl defN 24-Jan-10 14:05 BOOT-INF/classpath.idx
+│ --rw-r--r--  2.0 unx     2520 bl defN 24-Jan-10 14:05 BOOT-INF/layers.idx
+│ +drwxr-xr-x  2.0 unx        0 bX defN 24-Jan-10 20:05 META-INF/
+│ +-rw-r--r--  2.0 unx      398 bl defN 24-Jan-10 20:05 META-INF/MANIFEST.MF
+...
+│ +-rw-r--r--  2.0 unx     2224 bl defN 24-Jan-10 20:05 BOOT-INF/classpath.idx
+│ +-rw-r--r--  2.0 unx     2520 bl defN 24-Jan-10 20:05 BOOT-INF/layers.idx
+│  173 files, 48053887 bytes uncompressed, 47823959 bytes compressed:  0.5%
+
+# maven-javadoc-plugin:3.1.1:jar: reference done on Windows, but rebuild done on Linux, most content issues due to that inconsistency, cannot really say if there is additional issue
+# order of files is also inconsistent: known issue with 3.1.1, need to upgrade to 3.2.0 minumum https://issues.apache.org/jira/browse/MJAVADOC-627
+3 / 8 target/reference/org.phoebus/service-alarm-logger-4.7.3.tar.gz services/alarm-logger/target/service-alarm-logger-4.7.3.tar.gz
+--- target/reference/org.phoebus/service-alarm-logger-4.7.3.tar.gz
++++ services/alarm-logger/target/service-alarm-logger-4.7.3.tar.gz
+├── service-alarm-logger-4.7.3.tar
+│ ├── file list
+│ │ @@ -1,5 +1,5 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)     3651 2024-01-10 19:05:34.000000 service-alarm-logger-4.7.3/README.md
+│ │  -rw-r--r--   0 root         (0) root         (0)      359 2024-01-10 19:05:34.000000 service-alarm-logger-4.7.3/alarm-logger.sh
+│ │ --rw-r--r--   0 root         (0) root         (0)   360055 2024-01-10 19:05:34.000000 service-alarm-logger-4.7.3/service-alarm-logger-4.7.3-javadoc.jar
+│ │ +-rw-r--r--   0 root         (0) root         (0)   455909 2024-01-10 19:05:34.000000 service-alarm-logger-4.7.3/service-alarm-logger-4.7.3-javadoc.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    24451 2024-01-10 19:05:34.000000 service-alarm-logger-4.7.3/service-alarm-logger-4.7.3-sources.jar
+│ │  -rw-r--r--   0 root         (0) root         (0)    53701 2024-01-10 19:05:34.000000 service-alarm-logger-4.7.3/service-alarm-logger-4.7.3.jar
+│ ├── service-alarm-logger-4.7.3/service-alarm-logger-4.7.3-javadoc.jar
+│ │ ├── zipinfo {}
+│ │ │ @@ -1,86 +1,93 @@
+│ │ │ -Zip file size: 360055 bytes, number of entries: 84
+│ │ │ --rw-r--r--  2.0 unx       96 b- defN 24-Jan-10 15:09 META-INF/MANIFEST.MF
+│ │ │ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-10 15:09 META-INF/
+│ │ │ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-10 15:09 jquery/
+│ │ │ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-10 15:09 jquery/external/
+│ │ │ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-10 15:09 jquery/external/jquery/
+│ │ │ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-10 15:09 jquery/jszip/
+│ │ │ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-10 15:09 jquery/jszip/dist/
+│ │ │ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-10 15:09 jquery/jszip-utils/
+│ │ │ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-10 15:09 jquery/jszip-utils/dist/
+...
+│ │ │ --rw-r--r--  2.0 unx     2034 b- defN 24-Jan-10 15:09 legal/pako.md
+│ │ │ --rw-r--r--  2.0 unx     5515 b- defN 24-Jan-10 15:09 org/phoebus/alarm/logging/class-use/AlarmCmdLogger.html
+│ │ │ --rw-r--r--  2.0 unx     6663 b- defN 24-Jan-10 15:09 org/phoebus/alarm/logging/package-summary.html
+│ │ │ --rw-r--r--  2.0 unx     6921 b- defN 24-Jan-10 15:09 org/phoebus/alarm/logging/package-tree.html
+│ │ │ --rw-r--r--  2.0 unx     5792 b- defN 24-Jan-10 15:09 org/phoebus/alarm/logging/rest/class-use/AlarmLogMessage.AlarmInstantDeserializer.html
+│ │ │ --rw-r--r--  2.0 unx    12361 b- defN 24-Jan-10 15:09 org/phoebus/alarm/logging/rest/RequestLoggingFilterConfig.html
+│ │ │ --rw-r--r--  2.0 unx     6189 b- defN 24-Jan-10 15:09 script.js
+│ │ │ -84 files, 1348115 bytes uncompressed, 348365 bytes compressed:  74.2%
+│ │ │ +Zip file size: 455909 bytes, number of entries: 91
+│ │ │ +-rw-r--r--  2.0 unx       94 b- defN 24-Jan-14 11:40 META-INF/MANIFEST.MF
+│ │ │ +drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-14 11:40 META-INF/
+│ │ │ +drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-14 11:40 jquery/
+│ │ │ +drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-14 11:40 jquery/jszip-utils/
+│ │ │ +drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-14 11:40 jquery/jszip-utils/dist/
+│ │ │ +drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-14 11:40 jquery/images/
+│ │ │ +drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-14 11:40 jquery/jszip/
+│ │ │ +drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-14 11:40 jquery/jszip/dist/
+│ │ │ +drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-14 11:40 jquery/external/
+│ │ │ +drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-14 11:40 jquery/external/jquery/
+...
+│ │ │ +-rw-r--r--  2.0 unx    36522 b- defN 24-Jan-14 11:40 org/phoebus/alarm/logging/rest/AlarmLogMessage.html
+│ │ │ +-rw-r--r--  2.0 unx    71563 b- defN 24-Jan-14 11:40 jquery/jquery-ui.js
+│ │ │ +-rw-r--r--  2.0 unx     1787 b- defN 24-Jan-14 11:40 jquery/jquery-ui.structure.min.css
+│ │ │ +-rw-r--r--  2.0 unx     2555 b- defN 24-Jan-14 11:40 jquery/jquery-ui.structure.css
+│ │ │ +-rw-r--r--  2.0 unx   287630 b- defN 24-Jan-14 11:40 jquery/external/jquery/jquery.js
+│ │ │ +91 files, 1634077 bytes uncompressed, 442801 bytes compressed:  72.9%
+
+# same as previous
+4 / 8 target/reference/org.phoebus/service-alarm-logger-4.7.3.zip services/alarm-logger/target/service-alarm-logger-4.7.3.zip
+
+# same spring boot repackage issue as #2
+5 / 8 target/reference/org.phoebus/service-alarm-config-logger-4.7.3.jar services/alarm-config-logger/target/service-alarm-config-logger-4.7.3.jar
+
+# same javadoc issues as #3
+6 / 8 target/reference/org.phoebus/service-alarm-config-logger-4.7.3.tar.gz services/alarm-config-logger/target/service-alarm-config-logger-4.7.3.tar.gz
+7 / 8 target/reference/org.phoebus/service-alarm-config-logger-4.7.3.zip services/alarm-config-logger/target/service-alarm-config-logger-4.7.3.zip
+
+# same spring boot repackage issue as #2
+8 / 8 target/reference/org.phoebus/service-save-and-restore-4.7.3.jar services/save-and-restore/target/service-save-and-restore-4.7.3.jar
