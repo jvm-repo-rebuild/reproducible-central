@@ -49,6 +49,7 @@ rebuilding **23 releases** of org.apache.maven:maven:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.0.0-alpha-12](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-alpha-12/pom) | | | |
 | [4.0.0-alpha-10](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-alpha-10/pom) | [mvn jdk17](maven-4.0.0-alpha-10.buildspec) | [result](maven-4.0.0-alpha-10.buildinfo): [146 :heavy_check_mark: ](maven-4.0.0-alpha-10.buildcompare) | 41M |
 | [4.0.0-alpha-9](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-alpha-9/pom) | [mvn jdk21](maven-4.0.0-alpha-9.buildspec) | [result](maven-4.0.0-alpha-9.buildinfo): [146 :heavy_check_mark: ](maven-4.0.0-alpha-9.buildcompare) | 41M |
 | [4.0.0-alpha-8](https://central.sonatype.com/artifact/org.apache.maven/maven/4.0.0-alpha-8/pom) | [mvn jdk21](maven-4.0.0-alpha-8.buildspec) | [result](maven-4.0.0-alpha-8.buildinfo): [141 :heavy_check_mark: ](maven-4.0.0-alpha-8.buildcompare) | 41M |

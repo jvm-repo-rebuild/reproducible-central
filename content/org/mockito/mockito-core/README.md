@@ -27,8 +27,7 @@ rebuilding **21 releases** of org.mockito:mockito-core:
 | -- | --------- | ------ | -- |
 | [5.9.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.9.0/pom) | | | |
 | [5.8.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.8.0/pom) | [gradle](mockito-5.8.0.buildspec) | [result](mockito-core-5.8.0.buildinfo): [19 :heavy_check_mark: ](mockito-core-5.8.0.buildcompare) | 1.3M |
-| [5.7.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.7.0/pom) | [gradle](mockito-5.7.0.buildspec
-mockito-5.7.0.buildspec-5.7.0.buildspec) | [result](mockito-core-5.7.0.buildinfo): [19 :heavy_check_mark: ](mockito-core-5.7.0.buildcompare) | 1.3M |
+| [5.7.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.7.0/pom) | [gradle](mockito-5.7.0.buildspec) | [result](mockito-core-5.7.0.buildinfo): [19 :heavy_check_mark: ](mockito-core-5.7.0.buildcompare) | 1.3M |
 | [5.6.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.6.0/pom) | [gradle](mockito-5.6.0.buildspec) | [result](mockito-core-5.6.0.buildinfo): [19 :heavy_check_mark: ](mockito-core-5.6.0.buildcompare) | 1.3M |
 | [5.5.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.5.0/pom) | [gradle](mockito-5.5.0.buildspec) | [result](mockito-core-5.5.0.buildinfo): [15 :heavy_check_mark:  4 :warning:](mockito-core-5.5.0.buildcompare) [:mag:](mockito-core-5.5.0.diffoscope) | 1.3M |
 | [5.4.0](https://central.sonatype.com/artifact/org.mockito/mockito-core/5.4.0/pom) | [gradle](mockito-5.4.0.buildspec) | [result](mockito-core-5.4.0.buildinfo): [19 :heavy_check_mark: ](mockito-core-5.4.0.buildcompare) | 1.3M |

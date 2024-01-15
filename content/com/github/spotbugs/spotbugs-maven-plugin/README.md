@@ -13,6 +13,7 @@ rebuilding **16 releases** of com.github.spotbugs:spotbugs-maven-plugin:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.8.3.0](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.8.3.0/pom) | | | |
 | [4.8.2.0](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.8.2.0/pom) | [mvn jdk21 w](spotbugs-maven-plugin-4.8.2.0.buildspec) | [result](spotbugs-maven-plugin-4.8.2.0.buildinfo): [3 :heavy_check_mark: ](spotbugs-maven-plugin-4.8.2.0.buildcompare) | 266K |
 | [4.8.1.0](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.8.1.0/pom) | [mvn jdk21 w](spotbugs-maven-plugin-4.8.1.0.buildspec) | [result](spotbugs-maven-plugin-4.8.1.0.buildinfo): [3 :heavy_check_mark: ](spotbugs-maven-plugin-4.8.1.0.buildcompare) | 266K |
 | [4.8.0.0](https://central.sonatype.com/artifact/com.github.spotbugs/spotbugs-maven-plugin/4.8.0.0/pom) | [mvn jdk21 w](spotbugs-maven-plugin-4.8.0.0.buildspec) | [result](spotbugs-maven-plugin-4.8.0.0.buildinfo): [3 :heavy_check_mark: ](spotbugs-maven-plugin-4.8.0.0.buildcompare) | 258K |

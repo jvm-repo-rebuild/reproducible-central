@@ -13,6 +13,7 @@ rebuilding **1 releases** of io.cucumber:ci-environment:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [10.0.1](https://central.sonatype.com/artifact/io.cucumber/ci-environment/10.0.1/pom) | | | |
 | [10.0.0](https://central.sonatype.com/artifact/io.cucumber/ci-environment/10.0.0/pom) | [mvn jdk11](ci-environment-10.0.0.buildspec) | [result](ci-environment-10.0.0.buildinfo): [3 :heavy_check_mark: ](ci-environment-10.0.0.buildcompare) | 62K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

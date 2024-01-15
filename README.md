@@ -11,8 +11,8 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3057 releases** of **606 projects**:
-   - **2410** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   rebuilding **3059 releases** of **606 projects**:
+   - **2412** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
    - 647 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 606 projects, 500 have at least one fully reproducible release, 106 have none
 
@@ -452,7 +452,7 @@ Its objectives are to provide:
 | | [*.installer.provider.jcr](content/org/apache/sling/org.apache.sling.installer.provider.jcr/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | | [*.javax.activation](content/org/apache/sling/org.apache.sling.javax.activation/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | | [*.jcr.contentloader](content/org/apache/sling/org.apache.sling.jcr.contentloader/README.md) | 4 | 4 :warning: |
-| | [*.jcr.jackrabbit.accessmanager](content/org/apache/sling/org.apache.sling.jcr.jackrabbit.accessmanager/README.md) | 3 | 1 :heavy_check_mark: / 2 :warning: |
+| | [*.jcr.jackrabbit.accessmanager](content/org/apache/sling/org.apache.sling.jcr.jackrabbit.accessmanager/README.md) | 4 | 2 :heavy_check_mark: / 2 :warning: |
 | | [*.jcr.jackrabbit.usermanager](content/org/apache/sling/org.apache.sling.jcr.jackrabbit.usermanager/README.md) | 9 | 2 :heavy_check_mark: / 7 :warning: |
 | | [*.jcr.maintenance](content/org/apache/sling/org.apache.sling.jcr.maintenance/README.md) | 2 | 2 :heavy_check_mark: |
 | | [*.jcr.oak.server](content/org/apache/sling/org.apache.sling.jcr.oak.server/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
@@ -513,7 +513,7 @@ Its objectives are to provide:
 | | [cassandra-maven-plugin](content/org/codehaus/mojo/cassandra-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | [exec-maven-plugin](content/org/codehaus/mojo/exec-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | | [extra-enforcer-rules](content/org/codehaus/mojo/extra-enforcer-rules/README.md) | 7 | 7 :heavy_check_mark: |
-| | [flatten-maven-plugin](content/org/codehaus/mojo/flatten-maven-plugin/README.md) | 5 | 2 :heavy_check_mark: / 3 :warning: |
+| | [flatten-maven-plugin](content/org/codehaus/mojo/flatten-maven-plugin/README.md) | 6 | 3 :heavy_check_mark: / 3 :warning: |
 | | [jaxb2-maven-plugin](content/org/codehaus/mojo/jaxb2-maven-plugin/README.md) | 1 | 1 :warning: |
 | | [l10n-maven-plugin](content/org/codehaus/mojo/l10n-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | [license-maven-plugin](content/org/codehaus/mojo/license-maven-plugin/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
@@ -629,7 +629,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 29 | 29 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **606** | **3057** | **2410** :heavy_check_mark: **647** :warning: |
+| **Count:** | **606** | **3059** | **2412** :heavy_check_mark: **647** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -653,7 +653,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn        14
      10 mvn        15
      10 mvn        16
-    259 mvn        17
+    260 mvn        17
       2 mvn        17.0.7
       1 mvn        17.0.8
       1 mvn        17.0.8.1
@@ -683,7 +683,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      53 mvn-3.9.1  17
       1 mvn-3.9.1  19
       6 mvn-3.9.1  20
-     16 mvn-3.9.1  21
+     17 mvn-3.9.1  21
       7 mvn-3.9.2   8
      16 mvn-3.9.2  17
       2 mvn-3.9.2  21
