@@ -7,12 +7,10 @@ display=${groupId}:${artifactId}
 gitRepo=https://github.com/PicnicSupermarket/${artifactId}.git
 gitTag=v${version}
 
-tool=mvn-3.8.8
+tool=mvn-3.8.6
 jdk=17
 newline=lf
 
-command="mvn -Prelease clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
-buildinfo=target/${artifactId}-${version}.buildinfo
+command="mvn -Prelease clean package -DskipTests -Dgpg.skip"
 
-#diffoscope=${artifactId}-${version}.diffoscope
-issue=
+buildinfo=target/${artifactId}-${version}.buildinfo

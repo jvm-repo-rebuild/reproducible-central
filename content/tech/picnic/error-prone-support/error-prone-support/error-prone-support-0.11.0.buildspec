@@ -7,7 +7,7 @@ display=${groupId}:${artifactId}
 gitRepo=https://github.com/PicnicSupermarket/${artifactId}.git
 gitTag=v${version}
 
-tool=mvn-3.9.6
+tool=mvn-3.9.1
 jdk=17
 newline=lf
 
