@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=github-client
+group-id=com.spotify
+artifact-id=github-client
+version=0.2.13
+
+# source information
+source.scm.uri=scm:git:https://github.com/spotify/github-java-client.git
+source.scm.tag=v0.2.13
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=com.spotify
+outputs.0.filename=github-client-0.2.13.pom
+outputs.0.length=22998
+outputs.0.checksums.sha512=09421cf6f53ed36ad8babb096f021146e6d00e33795608da0f5212062b1ff1b2ef401d67363179118aa5d6a80a0f068189d60e806d9bb69caf669be29bc3775e
+
+outputs.1.groupId=com.spotify
+outputs.1.filename=github-client-0.2.13.jar
+outputs.1.length=2251543
+outputs.1.checksums.sha512=2f050babaaac7a0c7cfcb5d28505f1b6b2088de01d65bbc0bedb64925f0b3067cf8158a65369b3cc9b661c619626a33ad8badab90a4a5f1b06d1a59c04b3efe7
+
+outputs.2.groupId=com.spotify
+outputs.2.filename=github-client-0.2.13-sources.jar
+outputs.2.length=703401
+outputs.2.checksums.sha512=0b4d2f1b1a50be1b24ff16f597b3edaec05523f5e5cd91c529d76860013f2904da84f6dcedf3e79251bd65d68d3f2799431e9cbdb6d22f911aa591409f50e092
