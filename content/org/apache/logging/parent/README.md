@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/apache/logging-parent.git](https://github.com/apache/logging-parent.git)
 
-rebuilding **12 releases** of org.apache.logging:logging-parent:
-- **11** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **13 releases** of org.apache.logging:logging-parent:
+- **12** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [10.6.0](https://central.sonatype.com/artifact/org.apache.logging/logging-parent/10.6.0/pom) | | | |
+| [10.6.0](https://central.sonatype.com/artifact/org.apache.logging/logging-parent/10.6.0/pom) | [mvn jdk17](logging-parent-10.6.0.buildspec) | [result](logging-parent-10.6.0.buildinfo): [2 :heavy_check_mark: ](logging-parent-10.6.0.buildcompare) | 57K |
 | [10.5.0](https://central.sonatype.com/artifact/org.apache.logging/logging-parent/10.5.0/pom) | [mvn jdk17](logging-parent-10.5.0.buildspec) | [result](logging-parent-10.5.0.buildinfo): [2 :heavy_check_mark: ](logging-parent-10.5.0.buildcompare) | 55K |
 | [10.4.0](https://central.sonatype.com/artifact/org.apache.logging/logging-parent/10.4.0/pom) | [mvn jdk17](logging-parent-10.4.0.buildspec) | [result](logging-parent-10.4.0.buildinfo): [2 :heavy_check_mark: ](logging-parent-10.4.0.buildcompare) | 53K |
 | [10.3.0](https://central.sonatype.com/artifact/org.apache.logging/logging-parent/10.3.0/pom) | [mvn jdk17](logging-parent-10.3.0.buildspec) | [result](logging-parent-10.3.0.buildinfo): [2 :heavy_check_mark: ](logging-parent-10.3.0.buildcompare) | 54K |
