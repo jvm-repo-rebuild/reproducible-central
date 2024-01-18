@@ -33,6 +33,7 @@ rebuilding **4 releases** of org.apache.sshd:sshd:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.12.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.12.0/pom) | | | |
 | [2.11.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.11.0/pom) | [mvn jdk11](sshd-2.11.0.buildspec) | [result](sshd-2.11.0.buildinfo): [49 :heavy_check_mark:  3 :warning:](sshd-2.11.0.buildcompare) [:mag:](sshd-2.11.0.diffoscope) | 76M |
 | [2.10.0](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.10.0/pom) | [mvn jdk17](sshd-2.10.0.buildspec) | [result](sshd-2.10.0.buildinfo): [50 :heavy_check_mark:  2 :warning:](sshd-2.10.0.buildcompare) [:mag:](sshd-2.10.0.diffoscope) [:memo:](https://github.com/apache/mina-sshd/pull/378) | 73M |
 | [2.9.3](https://central.sonatype.com/artifact/org.apache.sshd/sshd/2.9.3/pom) | | | |
