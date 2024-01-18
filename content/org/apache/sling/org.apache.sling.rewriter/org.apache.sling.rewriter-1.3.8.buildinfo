@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Rewriter
+group-id=org.apache.sling
+artifact-id=org.apache.sling.rewriter
+version=1.3.8
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-rewriter.git
+source.scm.tag=org.apache.sling.rewriter-1.3.8
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.rewriter-1.3.8.pom
+outputs.0.length=10610
+outputs.0.checksums.sha512=42725a2bc7513f87024fe919dcf7dd4e18b07ff44cd4467e77ea638c0142eaaac03cf293f42af2209940d6461b6514154e7470cff6f38dd6a2972038794f0b95
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.rewriter-1.3.8.jar
+outputs.1.length=85894
+outputs.1.checksums.sha512=6a27ec8c00e482689668c1efd266ca1a2e3721d1db2bbd303d951c6b687eb6236cae7d0a35908f46ccba43fd5bbea506cc3276555a0e15fb0111f373b2cad4ee
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.rewriter-1.3.8-source-release.zip
+outputs.2.length=90530
+outputs.2.checksums.sha512=d396d8677089f547c2c3754cc9741523c9f8a06444711e3bd30f36c2a448be5452e382b0022b49bb13de6433e65830f4c39c1b5194cd426dcfbd7fa47c817423
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.rewriter-1.3.8-sources.jar
+outputs.3.length=68038
+outputs.3.checksums.sha512=46ef187967cda670670a55379deca1c49008544ca0f19cbb41c7df2554b53b33df71a8c9909c8853b8493acc6025563996a2ab8cee282dc5de87297b8855807a
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.rewriter-1.3.8-sources.jar
+outputs.4.length=68038
+outputs.4.checksums.sha512=46ef187967cda670670a55379deca1c49008544ca0f19cbb41c7df2554b53b33df71a8c9909c8853b8493acc6025563996a2ab8cee282dc5de87297b8855807a
