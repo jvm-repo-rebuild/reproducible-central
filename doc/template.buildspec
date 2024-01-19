@@ -1,4 +1,4 @@
-# see instructions https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/BUILDSPEC.md
+# see instructions https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/doc/BUILDSPEC.md
 
 # Central Repository coordinates for the Reference release (for multi-module, pick an arbitrary module)
 groupId=
