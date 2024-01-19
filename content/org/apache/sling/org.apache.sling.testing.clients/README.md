@@ -13,6 +13,7 @@ rebuilding **8 releases** of org.apache.sling:org.apache.sling.testing.clients:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [3.0.22](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.clients/3.0.22/pom) | | | |
 | [3.0.20](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.clients/3.0.20/pom) | [mvn jdk11](org.apache.sling.testing.clients-3.0.20.buildspec) | [result](org.apache.sling.testing.clients-3.0.20.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.testing.clients-3.0.20.buildcompare) | 589K |
 | [3.0.18](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.clients/3.0.18/pom) | [mvn jdk11](org.apache.sling.testing.clients-3.0.18.buildspec) | [result](org.apache.sling.testing.clients-3.0.18.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.testing.clients-3.0.18.buildcompare) | 586K |
 | [3.0.16](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.clients/3.0.16/pom) | [mvn jdk11](org.apache.sling.testing.clients-3.0.16.buildspec) | [result](org.apache.sling.testing.clients-3.0.16.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.testing.clients-3.0.16.buildcompare) | 570K |

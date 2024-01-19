@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/sentrysoftware/jawk.git](https://github.com/sentrysoftware/jawk.git)
 
-rebuilding **2 releases** of org.sentrysoftware:jawk:
-- **1** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **3 releases** of org.sentrysoftware:jawk:
+- **2** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [3.1.02](https://central.sonatype.com/artifact/org.sentrysoftware/jawk/3.1.02/pom) | | | |
+| [3.1.02](https://central.sonatype.com/artifact/org.sentrysoftware/jawk/3.1.02/pom) | [mvn jdk17](jawk-3.1.02.buildspec) | [result](jawk-3.1.02.buildinfo): [4 :heavy_check_mark: ](jawk-3.1.02.buildcompare) | 732K |
 | [3.1.01](https://central.sonatype.com/artifact/org.sentrysoftware/jawk/3.1.01/pom) | | | |
 | [3.1.00](https://central.sonatype.com/artifact/org.sentrysoftware/jawk/3.1.00/pom) | | | |
 | [3.0.01](https://central.sonatype.com/artifact/org.sentrysoftware/jawk/3.0.01/pom) | [mvn jdk17](jawk-3.0.01.buildspec) | [result](jawk-3.0.01.buildinfo): [4 :heavy_check_mark: ](jawk-3.0.01.buildcompare) | 720K |
