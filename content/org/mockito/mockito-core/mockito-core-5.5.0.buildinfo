@@ -3,14 +3,14 @@ group-id=org.mockito
 artifact-id=mockito-core
 
 build-tool=gradle
-java.version=11
+java.version=17
 os.name=lf
 
 outputs.1.coordinates=org.mockito:mockito-android
 
 outputs.1.0.filename=mockito-android-5.5.0.jar
-outputs.1.0.length=7606
-outputs.1.0.checksums.sha512=0417104b9e5c5ce392ae020178a3515765a73de3971191552fa0b49bef531fa567f17d6a1b57859b8e983fb15757f2c5d5f8c4f256ff28f996adbe0865afd2d1  repository/org/mockito/mockito-android/5.5.0/mockito-android-5.5.0.jar
+outputs.1.0.length=7643
+outputs.1.0.checksums.sha512=bb796701c7847aae1619550fd3238695cf5ee005a5598f07897379fddeb19e8caca97784e3a761964a901c6eeda7a6b59b76312511e97eb4cc219dd08fff3245  repository/org/mockito/mockito-android/5.5.0/mockito-android-5.5.0.jar
 
 outputs.1.1.filename=mockito-android-5.5.0.pom
 outputs.1.1.length=2292
@@ -31,8 +31,8 @@ outputs.2.0.checksums.sha512=9c2109868737187037feccf1bf812686ee61ec7961a29761597
 outputs.3.coordinates=org.mockito:mockito-core
 
 outputs.3.0.filename=mockito-core-5.5.0.jar
-outputs.3.0.length=691777
-outputs.3.0.checksums.sha512=d97808b829bb15c8bcc8d85760bb23dcf97ca738df0d1ce2c82822ef427271846e379962f5702b75fd5ffdc7bc3bfe27efa4447f57422f1bcabf3eb3d1387c8a  repository/org/mockito/mockito-core/5.5.0/mockito-core-5.5.0.jar
+outputs.3.0.length=697893
+outputs.3.0.checksums.sha512=07cf84fae149ec3c9e8b0f83534e03c7d4cdb27f8b25d0905caf3cc1bc554020e6ed37a3d56892715be18d9b84fa1c211b17bcbdec9cfc9a0195198c48f61068  repository/org/mockito/mockito-core/5.5.0/mockito-core-5.5.0.jar
 
 outputs.3.1.filename=mockito-core-5.5.0.pom
 outputs.3.1.length=2495
@@ -46,8 +46,8 @@ outputs.3.2.checksums.sha512=c6421552d010a24b00d2ec0352f7eef2f2b3586c45daab86a1f
 outputs.4.coordinates=org.mockito:mockito-errorprone
 
 outputs.4.0.filename=mockito-errorprone-5.5.0.jar
-outputs.4.0.length=11777
-outputs.4.0.checksums.sha512=12d62da56e3a68eba831bff2ab1b292b0dd4dcf682082332d7be13c48f8874b958250a9f5f944e2e6c124fb3835dadebd42597d4fe355ca4bc8527ea5dbd4077  repository/org/mockito/mockito-errorprone/5.5.0/mockito-errorprone-5.5.0.jar
+outputs.4.0.length=11817
+outputs.4.0.checksums.sha512=df61f5f46e3a98772e579497f6ec6b241d7c0335a470ead5b8df9954a621e0a11ecba1dba8d01354ea2858a21b5980d03718093ae7d9a9faacdf4299cffa56a6  repository/org/mockito/mockito-errorprone/5.5.0/mockito-errorprone-5.5.0.jar
 
 outputs.4.1.filename=mockito-errorprone-5.5.0.pom
 outputs.4.1.length=2315
@@ -61,8 +61,8 @@ outputs.4.2.checksums.sha512=04f3376115df5f650aeb34112655e65703e2425d57cfe65db61
 outputs.5.coordinates=org.mockito:mockito-junit-jupiter
 
 outputs.5.0.filename=mockito-junit-jupiter-5.5.0.jar
-outputs.5.0.length=5471
-outputs.5.0.checksums.sha512=9f664ffa098bb808f8a6cc263e8ee41d010a8b8c86519d4a3b7e49ddf6730bd9c8ff35efb797ebf19dc2e91b9e85c822419ce3c9ea5e59ec2fa10f9064c40334  repository/org/mockito/mockito-junit-jupiter/5.5.0/mockito-junit-jupiter-5.5.0.jar
+outputs.5.0.length=5505
+outputs.5.0.checksums.sha512=125a092ef5fc12540c6930e0628635a6197574c1d38d9e3058e42ad450454d5b10fdc4eb5022a5025f755d3d101b99415d38e37521fd17a5c580a7f6c9cf7ab7  repository/org/mockito/mockito-junit-jupiter/5.5.0/mockito-junit-jupiter-5.5.0.jar
 
 outputs.5.1.filename=mockito-junit-jupiter-5.5.0.pom
 outputs.5.1.length=2311
