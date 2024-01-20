@@ -42,12 +42,12 @@ rebuilding **2 releases** of org.junit:junit-bom:
 | [5.10.0-RC2](https://central.sonatype.com/artifact/org.junit/junit-bom/5.10.0-RC2/pom) | | | |
 | [5.10.0-RC1](https://central.sonatype.com/artifact/org.junit/junit-bom/5.10.0-RC1/pom) | | | |
 | [5.10.0-M1](https://central.sonatype.com/artifact/org.junit/junit-bom/5.10.0-M1/pom) | | | |
-| [5.9.3](https://central.sonatype.com/artifact/org.junit/junit-bom/5.9.3/pom) | [gradle](junit5-5.9.3.buildspec) | [result](junit-bom-5.9.3.buildinfo): [40 :heavy_check_mark:  38 :warning:](junit-bom-5.9.3.buildcompare) [:mag:](junit-bom-5.9.3.diffoscope) [:memo:](https://github.com/junit-team/junit5/issues/3559) | 5.9M |
+| [5.9.3](https://central.sonatype.com/artifact/org.junit/junit-bom/5.9.3/pom) | [gradle jdk17](junit5-5.9.3.buildspec) | [result](junit-bom-5.9.3.buildinfo): [40 :heavy_check_mark:  38 :warning:](junit-bom-5.9.3.buildcompare) [:mag:](junit-bom-5.9.3.diffoscope) [:memo:](https://github.com/junit-team/junit5/issues/3559) | 5.9M |
 | [5.9.2](https://central.sonatype.com/artifact/org.junit/junit-bom/5.9.2/pom) | | | |
 | [5.9.1](https://central.sonatype.com/artifact/org.junit/junit-bom/5.9.1/pom) | | | |
 | [5.9.0](https://central.sonatype.com/artifact/org.junit/junit-bom/5.9.0/pom) | | | |
 | [5.9.0-RC1](https://central.sonatype.com/artifact/org.junit/junit-bom/5.9.0-RC1/pom) | | | |
 | [5.9.0-M1](https://central.sonatype.com/artifact/org.junit/junit-bom/5.9.0-M1/pom) | | | |
-| [5.8.2](https://central.sonatype.com/artifact/org.junit/junit-bom/5.8.2/pom) | [gradle](junit5-5.8.2.buildspec) | [result](junit-bom-5.8.2.buildinfo): [40 :heavy_check_mark:  38 :warning:](junit-bom-5.8.2.buildcompare) [:mag:](junit-bom-5.8.2.diffoscope) | 5.5M |
+| [5.8.2](https://central.sonatype.com/artifact/org.junit/junit-bom/5.8.2/pom) | [gradle jdk11](junit5-5.8.2.buildspec) | [result](junit-bom-5.8.2.buildinfo): [40 :heavy_check_mark:  38 :warning:](junit-bom-5.8.2.buildcompare) [:mag:](junit-bom-5.8.2.diffoscope) | 5.5M |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

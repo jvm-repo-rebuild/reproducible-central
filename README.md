@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3074 releases** of **608 projects**:
-   - **2426** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 648 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 608 projects, 502 have at least one fully reproducible release, 106 have none
+   rebuilding **3079 releases** of **609 projects**:
+   - **2432** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 647 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - on 609 projects, 503 have at least one fully reproducible release, 106 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -186,7 +186,7 @@ Its objectives are to provide:
 | eu.europa.ted.eforms | [eforms-core-java](content/eu/europa/ted/eforms/eforms-core-java/README.md) | 6 | 5 :heavy_check_mark: / 1 :warning: |
 | | [eforms-sdk](content/eu/europa/ted/eforms/eforms-sdk/README.md) | 18 | 13 :heavy_check_mark: / 5 :warning: |
 | | [efx-toolkit-java](content/eu/europa/ted/eforms/efx-toolkit-java/README.md) | 2 | 2 :warning: |
-| eu.maveniverse.maven.mima | [mima](content/eu/maveniverse/maven/mima/README.md) | 26 | 25 :heavy_check_mark: / 1 :warning: |
+| eu.maveniverse.maven.mima | [mima](content/eu/maveniverse/maven/mima/README.md) | 28 | 27 :heavy_check_mark: / 1 :warning: |
 | eu.maveniverse.maven.mase | [mase](content/eu/maveniverse/maven/mase/mase/README.md) | 2 | 2 :heavy_check_mark: |
 | fr.inria.gforge.spoon | [spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 5 | 3 :heavy_check_mark: / 2 :warning: |
 | fr.marcwrobel | [jbanking](content/fr/marcwrobel/jbanking/README.md) | 2 | 2 :heavy_check_mark: |
@@ -214,6 +214,7 @@ Its objectives are to provide:
 | io.github.chains-project | [maven-lockfile](content/io/github/chains-project/maven-lockfile/README.md) | 4 | 4 :warning: |
 | io.github.derkrischan | [jpdftest](content/io/github/derkrischan/jpdftest/README.md) | 4 | 4 :heavy_check_mark: |
 | io.github.hboutemy | [sigstore-maven-plugin](content/io/github/hboutemy/sigstore-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
+| io.github.sebastian-toepfer.json-schema | [json-schema](content/io/github/sebastian-toepfer/json-schema/json-schema/README.md) | 1 | 1 :heavy_check_mark: |
 | io.github.sebastian-toepfer.json.rpc | [json-printable-maven-plugin](content/io/github/sebastian-toepfer/json/rpc/json-printable-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | io.github.shanqiang-sq | [jstream](content/io/github/shanqiang-sq/jstream/README.md) | 28 | 28 :heavy_check_mark: |
 | io.github.zlika | [reproducible-build-maven-plugin](content/io/github/zlika/reproducible-build-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
@@ -489,7 +490,7 @@ Its objectives are to provide:
 | | [*.starter.content](content/org/apache/sling/org.apache.sling.starter.content/README.md) | 3 | 3 :heavy_check_mark: |
 | | [*.tenant](content/org/apache/sling/org.apache.sling.tenant/README.md) | 1 | 1 :heavy_check_mark: |
 | | [*.testing.caconfig-mock-plugin](content/org/apache/sling/org.apache.sling.testing.caconfig-mock-plugin/README.md) | 7 | 7 :heavy_check_mark: |
-| | [*.testing.clients](content/org/apache/sling/org.apache.sling.testing.clients/README.md) | 8 | 8 :heavy_check_mark: |
+| | [*.testing.clients](content/org/apache/sling/org.apache.sling.testing.clients/README.md) | 9 | 9 :heavy_check_mark: |
 | | [*.testing.jcr-mock](content/org/apache/sling/org.apache.sling.testing.jcr-mock/README.md) | 8 | 8 :heavy_check_mark: |
 | | [*.testing.osgi-mock](content/org/apache/sling/org.apache.sling.testing.osgi-mock/README.md) | 7 | 7 :heavy_check_mark: |
 | | [*.testing.resourceresolver-mock](content/org/apache/sling/org.apache.sling.testing.resourceresolver-mock/README.md) | 8 | 7 :heavy_check_mark: / 1 :warning: |
@@ -560,7 +561,7 @@ Its objectives are to provide:
 | org.junit | [junit-bom](content/org/junit/junit5/README.md) | 2 | 2 :warning: |
 | org.kocakosm | [jblake2](content/org/kocakosm/jblake2/README.md) | 2 | 2 :heavy_check_mark: |
 | org.liquibase.ext | [liquibase-percona](content/org/liquibase/ext/liquibase-percona/README.md) | 36 | 35 :heavy_check_mark: / 1 :warning: |
-| org.mockito | [mockito-core](content/org/mockito/mockito-core/README.md) | 21 | 18 :heavy_check_mark: / 3 :warning: |
+| org.mockito | [mockito-core](content/org/mockito/mockito-core/README.md) | 22 | 20 :heavy_check_mark: / 2 :warning: |
 | org.moditect.layrry | [layrry-aggregator](content/org/moditect/layrry/README.md) | 1 | 1 :heavy_check_mark: |
 | org.moditect | [moditect](content/org/moditect/moditect/README.md) | 2 | 2 :heavy_check_mark: |
 | org.mybatis | [base-bundle-descriptor](content/org/mybatis/base-bundle-descriptor/README.md) | 2 | 2 :heavy_check_mark: |
@@ -631,7 +632,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 30 | 30 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **608** | **3074** | **2426** :heavy_check_mark: **648** :warning: |
+| **Count:** | **609** | **3079** | **2432** :heavy_check_mark: **647** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -642,8 +643,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 
 <!-- BEGIN GENERATED STATS -->
 ```
-     22 gradle     11
-      4 gradle     17
+     21 gradle     11
+      5 gradle     17
+      1 gradle     21
      26 mvn         7
    1084 mvn         8
       1 mvn         9
@@ -662,12 +664,12 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       2 mvn        17.0.9
      13 mvn        18
      24 mvn        19
-     14 mvn        20
+     15 mvn        20
      36 mvn        21
       2 mvn-3.5.4   8
       1 mvn-3.8.3  11
      13 mvn-3.8.5  11
-     11 mvn-3.8.5  17
+     12 mvn-3.8.5  17
       1 mvn-3.8.5  17.0.3
      37 mvn-3.8.6   8
       2 mvn-3.8.6  11
@@ -685,7 +687,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      52 mvn-3.9.1  17
       1 mvn-3.9.1  19
       6 mvn-3.9.1  20
-     18 mvn-3.9.1  21
+     20 mvn-3.9.1  21
       7 mvn-3.9.2   8
      16 mvn-3.9.2  17
       2 mvn-3.9.2  21

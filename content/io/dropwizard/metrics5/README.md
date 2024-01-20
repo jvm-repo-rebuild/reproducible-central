@@ -54,6 +54,7 @@ rebuilding **12 releases** of io.dropwizard.metrics5:metrics-parent:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [5.0.0-rc20](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc20/pom) | | | |
 | [5.0.0-rc19](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc19/pom) | [mvn jdk17](dropwizard-metrics-5.0.0-rc19.buildspec) | [result](metrics-parent-5.0.0-rc19.buildinfo): [95 :heavy_check_mark: ](metrics-parent-5.0.0-rc19.buildcompare) | 1.1M |
 | [5.0.0-rc18](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc18/pom) | [mvn jdk17](dropwizard-metrics-5.0.0-rc18.buildspec) | [result](metrics-parent-5.0.0-rc18.buildinfo): [95 :heavy_check_mark: ](metrics-parent-5.0.0-rc18.buildcompare) | 1.1M |
 | [5.0.0-rc17](https://central.sonatype.com/artifact/io.dropwizard.metrics5/metrics-parent/5.0.0-rc17/pom) | [mvn jdk11](dropwizard-metrics-5.0.0-rc17.buildspec) | [result](metrics-parent-5.0.0-rc17.buildinfo): [92 :heavy_check_mark: ](metrics-parent-5.0.0-rc17.buildcompare) | 1.1M |
