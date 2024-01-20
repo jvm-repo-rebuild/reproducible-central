@@ -1,0 +1,10 @@
+version=6.0
+ok=19
+ko=1
+ignored=0
+okFiles="jsign-parent-6.0.pom jsign-core-6.0.pom jsign-core-6.0.jar jsign-core-6.0-sources.jar jsign-core-6.0-tests.jar jsign-ant-6.0.pom jsign-ant-6.0.jar jsign-ant-6.0-sources.jar jsign-cli-6.0.pom jsign-cli-6.0.jar jsign-cli-6.0-sources.jar jsign-6.0.pom jsign-6.0-sources.jar jsign-maven-plugin-6.0.pom jsign-maven-plugin-6.0.jar jsign-maven-plugin-6.0-sources.jar jsign-gradle-plugin-6.0.pom jsign-gradle-plugin-6.0.jar jsign-gradle-plugin-6.0-sources.jar"
+koFiles="jsign-6.0.jar"
+ignoredFiles=""
+reference_java_version="1.8 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/net.jsign/jsign-6.0.jar jsign/target/jsign-6.0.jar

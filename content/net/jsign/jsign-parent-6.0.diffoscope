@@ -1,0 +1,20 @@
+# proguard-maven-plugin:2.6.0:proguard (proguard-minimizing) @ jsign ---
+# https://github.com/wvengen/proguard-maven-plugin/issues/279
+1 / 1 target/reference/net.jsign/jsign-6.0.jar jsign/target/jsign-6.0.jar
+--- target/reference/net.jsign/jsign-6.0.jar
++++ jsign/target/jsign-6.0.jar
+├── zipinfo {}
+│ @@ -1,877 +1,877 @@
+│  Zip file size: 1139671 bytes, number of entries: 875
+│ --rw----     1.0 fat      176 b- defN 24-Jan-17 13:13 META-INF/MANIFEST.MF
+│ --rw----     1.0 fat     1810 b- defN 24-Jan-17 13:13 net/jsign/AuthenticodeSigner$1.class
+...
+│ --rw----     1.0 fat     6300 b- defN 24-Jan-17 13:13 net/jsign/commons/cli/Option.class
+│ --rw----     1.0 fat      378 b- defN 24-Jan-17 13:13 net/jsign/commons/cli/ParseException.class
+│ +-rw----     1.0 fat      176 b- defN 24-Jan-20 23:20 META-INF/MANIFEST.MF
+│ +-rw----     1.0 fat     1810 b- defN 24-Jan-20 23:20 net/jsign/AuthenticodeSigner$1.class
+...
+│ +-rw----     1.0 fat     6300 b- defN 24-Jan-20 23:20 net/jsign/commons/cli/Option.class
+│ +-rw----     1.0 fat      378 b- defN 24-Jan-20 23:20 net/jsign/commons/cli/ParseException.class
+│  875 files, 2267557 bytes uncompressed, 985733 bytes compressed:  56.5%
+
