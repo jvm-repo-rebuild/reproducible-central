@@ -1,0 +1,140 @@
+1 / 5 target/reference/org.apache.sshd/sshd-core-2.12.0-reusable-tests.jar sshd-core/target/sshd-core-2.12.0-reusable-reusable-tests.jar
+--- target/reference/org.apache.sshd/sshd-core-2.12.0-reusable-tests.jar
++++ sshd-core/target/sshd-core-2.12.0-reusable-reusable-tests.jar
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 851958 bytes, number of entries: 527
+│ +Zip file size: 850413 bytes, number of entries: 526
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-12 10:02 META-INF/
+│  -rw-r--r--  2.0 unx      431 b- defN 24-Jan-12 10:02 META-INF/MANIFEST.MF
+│ @@ -279,15 +279,14 @@
+│  -rw-r--r--  2.0 unx     1210 b- defN 24-Jan-12 10:02 org/apache/sshd/client/simple/SimpleSessionClientTest$1.class
+│  -rw-r--r--  2.0 unx     8053 b- defN 24-Jan-12 10:02 org/apache/sshd/client/simple/SimpleSessionClientTest.class
+│ --rw-r--r--  2.0 unx     1856 b- defN 24-Jan-12 10:02 org/apache/sshd/client/userKey
+│  -rw-r--r--  2.0 unx     5935 b- defN 24-Jan-12 10:02 org/apache/sshd/common/AttributeStoreTest.class
+│  -rw-r--r--  2.0 unx    11205 b- defN 24-Jan-12 10:02 org/apache/sshd/common/PropertyResolverUtilsTest.class
+│ @@ -522,8 +521,8 @@
+│  -rw-r--r--  2.0 unx    12049 b- defN 24-Jan-12 10:02 META-INF/maven/org.apache.sshd/sshd-core/pom.xml
+│  -rw-r--r--  2.0 unx       60 b- defN 24-Jan-12 10:02 META-INF/maven/org.apache.sshd/sshd-core/pom.properties
+│ -527 files, 1692458 bytes uncompressed, 755028 bytes compressed:  55.4%
+│ +526 files, 1690602 bytes uncompressed, 753619 bytes compressed:  55.4%
+├── zipnote «TEMP»/diffoscope_vtwjsmji_target/tmp5sv48tev_.zip
+│ @@ -846,17 +846,14 @@
+│  
+│  Filename: org/apache/sshd/client/simple/SimpleSessionClientTest$1.class
+│  Comment: 
+│  
+│  Filename: org/apache/sshd/client/simple/SimpleSessionClientTest.class
+│  Comment: 
+│  
+│ -Filename: org/apache/sshd/client/userKey
+│ -Comment: 
+│ -
+│  Filename: org/apache/sshd/common/AttributeStoreTest.class
+│  Comment: 
+│  
+│  Filename: org/apache/sshd/common/PropertyResolverUtilsTest.class
+│  Comment: 
+│  
+│  Filename: org/apache/sshd/common/SshBuilderTest.class
+
+2 / 5 target/reference/org.apache.sshd/sshd-osgi-2.12.0-sources.jar sshd-osgi/target/sshd-osgi-2.12.0-sources.jar
+--- target/reference/org.apache.sshd/sshd-osgi-2.12.0-sources.jar
++++ sshd-osgi/target/sshd-osgi-2.12.0-sources.jar
+├── zipinfo {}
+│ @@ -1,866 +1,866 @@
+│  Zip file size: 1393625 bytes, number of entries: 864
+│ -drwxr-xr-x  2.0 unx        0 bx stor 24-Jan-12 12:23 META-INF/
+│ --rw-r--r--  2.0 unx       91 b- defN 24-Jan-12 12:22 META-INF/MANIFEST.MF
+...
+│ --rw-r--r--  2.0 unx      109 b- defN 24-Jan-12 12:23 META-INF/maven/org.apache.sshd/sshd-osgi/pom.properties
+│ --rw-r--r--  2.0 unx     8997 b- defN 24-Jan-12 12:23 META-INF/maven/org.apache.sshd/sshd-osgi/pom.xml
+│ +drwxr-xr-x  2.0 unx        0 bx stor 24-Jan-20 23:14 META-INF/
+│ +-rw-r--r--  2.0 unx       91 b- defN 24-Jan-20 23:14 META-INF/MANIFEST.MF
+...
+│ +-rw-r--r--  2.0 unx      109 b- defN 24-Jan-20 23:14 META-INF/maven/org.apache.sshd/sshd-osgi/pom.properties
+│ +-rw-r--r--  2.0 unx     8997 b- defN 24-Jan-20 23:14 META-INF/maven/org.apache.sshd/sshd-osgi/pom.xml
+│  864 files, 4174731 bytes uncompressed, 1233887 bytes compressed:  70.5%
+
+3 / 5 target/reference/org.apache.sshd/sshd-osgi-2.12.0-sources.jar sshd-osgi/target/sshd-osgi-2.12.0-sources.jar
+--- target/reference/org.apache.sshd/sshd-osgi-2.12.0-sources.jar
++++ sshd-osgi/target/sshd-osgi-2.12.0-sources.jar
+├── zipinfo {}
+│ @@ -1,866 +1,866 @@
+│  Zip file size: 1393625 bytes, number of entries: 864
+│ -drwxr-xr-x  2.0 unx        0 bx stor 24-Jan-12 12:23 META-INF/
+│ --rw-r--r--  2.0 unx       91 b- defN 24-Jan-12 12:22 META-INF/MANIFEST.MF
+...
+│ --rw-r--r--  2.0 unx      109 b- defN 24-Jan-12 12:23 META-INF/maven/org.apache.sshd/sshd-osgi/pom.properties
+│ --rw-r--r--  2.0 unx     8997 b- defN 24-Jan-12 12:23 META-INF/maven/org.apache.sshd/sshd-osgi/pom.xml
+│ +drwxr-xr-x  2.0 unx        0 bx stor 24-Jan-20 23:14 META-INF/
+│ +-rw-r--r--  2.0 unx       91 b- defN 24-Jan-20 23:14 META-INF/MANIFEST.MF
+...
+│ +-rw-r--r--  2.0 unx      109 b- defN 24-Jan-20 23:14 META-INF/maven/org.apache.sshd/sshd-osgi/pom.properties
+│ +-rw-r--r--  2.0 unx     8997 b- defN 24-Jan-20 23:14 META-INF/maven/org.apache.sshd/sshd-osgi/pom.xml
+│  864 files, 4174731 bytes uncompressed, 1233887 bytes compressed:  70.5%
+
+4 / 5 target/reference/org.apache.sshd/apache-sshd-2.12.0-src.tar.gz assembly/target/apache-sshd-2.12.0-src.tar.gz
+--- target/reference/org.apache.sshd/apache-sshd-2.12.0-src.tar.gz
++++ assembly/target/apache-sshd-2.12.0-src.tar.gz
+├── apache-sshd-2.12.0-src.tar
+│ ├── file list
+│ │ @@ -36,15 +36,14 @@
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2024-01-12 10:02:10.000000 apache-sshd-2.12.0/assembly/src/main/legal/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2024-01-12 10:02:10.000000 apache-sshd-2.12.0/assembly/src/main/legal/licenses/
+│ │ -drwxr-xr-x   0 root         (0) root         (0)        0 2024-01-12 10:02:10.000000 apache-sshd-2.12.0/daemon/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2024-01-12 10:02:10.000000 apache-sshd-2.12.0/docs/
+│ │  drwxr-xr-x   0 root         (0) root         (0)        0 2024-01-12 10:02:10.000000 apache-sshd-2.12.0/docs/changes/
+│ │ @@ -627,15 +626,14 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)      475 2024-01-12 10:02:10.000000 apache-sshd-2.12.0/SECURITY.md
+│ │  -rw-r--r--   0 root         (0) root         (0)     8368 2024-01-12 10:02:10.000000 apache-sshd-2.12.0/assembly/pom.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     8377 2024-01-12 10:02:10.000000 apache-sshd-2.12.0/assembly/pom.xml.releaseBackup
+│ │  -rw-r--r--   0 root         (0) root         (0)     3580 2024-01-12 10:02:10.000000 apache-sshd-2.12.0/assembly/src/main/components/modules.xml
+│ │  -rw-r--r--   0 root         (0) root         (0)     3412 2024-01-12 10:02:10.000000 apache-sshd-2.12.0/assembly/src/main/descriptors/unix-bin.xml
+│ │ @@ -705,21 +703,18 @@
+│ │  -rw-r--r--   0 root         (0) root         (0)      802 2024-01-12 10:02:10.000000 apache-sshd-2.12.0/java-checkstyle-license-header.txt
+│ │  -rw-r--r--   0 root         (0) root         (0)    74964 2024-01-12 10:02:10.000000 apache-sshd-2.12.0/pom.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)    74990 2024-01-12 10:02:10.000000 apache-sshd-2.12.0/pom.xml.releaseBackup
+│ │ --rw-r--r--   0 root         (0) root         (0)     3711 2024-01-12 10:02:10.000000 apache-sshd-2.12.0/release.properties
+│ │  -rw-r--r--   0 root         (0) root         (0)      911 2024-01-12 10:02:10.000000 apache-sshd-2.12.0/security.txt
+│ │  -rw-r--r--   0 root         (0) root         (0)      542 2024-01-12 10:02:10.000000 apache-sshd-2.12.0/sshd-checkstyle-suppressions.xml
+│ │  -rw-r--r--   0 root         (0) root         (0)    15236 2024-01-12 10:02:10.000000 apache-sshd-2.12.0/sshd-checkstyle.xml
+│ │  -rw-r--r--   0 root         (0) root         (0)     4596 2024-01-12 10:02:10.000000 apache-sshd-2.12.0/sshd-cli/pom.xml
+│ │ --rw-r--r--   0 root         (0) root         (0)     4605 2024-01-12 10:02:10.000000 apache-sshd-2.12.0/sshd-cli/pom.xml.releaseBackup
+│ │  -rw-r--r--   0 root         (0) root         (0)     7632 2024-01-12 10:02:10.000000 apache-sshd-2.12.0/sshd-cli/src/main/java/org/apache/sshd/cli/CliLogger.java
+│ │  -rw-r--r--   0 root         (0) root         (0)    17403 2024-01-12 10:02:10.000000 apache-sshd-2.12.0/sshd-cli/src/main/java/org/apache/sshd/cli/CliSupport.java
+...
+
+5 / 5 target/reference/org.apache.sshd/apache-sshd-2.12.0-src.zip assembly/target/apache-sshd-2.12.0-src.zip
+--- target/reference/org.apache.sshd/apache-sshd-2.12.0-src.zip
++++ assembly/target/apache-sshd-2.12.0-src.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 3566887 bytes, number of entries: 2364
+│ +Zip file size: 3529291 bytes, number of entries: 2346
+│ @@ -17,15 +17,14 @@
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-12 10:02 apache-sshd-2.12.0/assembly/src/main/legal/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-12 10:02 apache-sshd-2.12.0/assembly/src/main/legal/licenses/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-12 10:02 apache-sshd-2.12.0/daemon/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-12 10:02 apache-sshd-2.12.0/docs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-12 10:02 apache-sshd-2.12.0/docs/changes/
+│ @@ -629,15 +628,14 @@
+│  -rw-r--r--  2.0 unx      482 b- defN 24-Jan-12 10:02 apache-sshd-2.12.0/SECURITY.md
+│  -rw-r--r--  2.0 unx     8578 b- defN 24-Jan-12 10:02 apache-sshd-2.12.0/assembly/pom.xml
+│ --rw-r--r--  2.0 unx     8587 b- defN 24-Jan-12 10:02 apache-sshd-2.12.0/assembly/pom.xml.releaseBackup
+│  -rw-r--r--  2.0 unx     3652 b- defN 24-Jan-12 10:02 apache-sshd-2.12.0/assembly/src/main/components/modules.xml
+│  -rw-r--r--  2.0 unx     3507 b- defN 24-Jan-12 10:02 apache-sshd-2.12.0/assembly/src/main/descriptors/unix-bin.xml
+│ @@ -707,21 +705,18 @@
+│  -rw-r--r--  2.0 unx      820 b- defN 24-Jan-12 10:02 apache-sshd-2.12.0/java-checkstyle-license-header.txt
+│  -rw-r--r--  2.0 unx    76510 b- defN 24-Jan-12 10:02 apache-sshd-2.12.0/pom.xml
+│ --rw-r--r--  2.0 unx    76536 b- defN 24-Jan-12 10:02 apache-sshd-2.12.0/pom.xml.releaseBackup
+│ --rw-r--r--  2.0 unx     3783 b- defN 24-Jan-12 10:02 apache-sshd-2.12.0/release.properties
+│  -rw-r--r--  2.0 unx      935 b- defN 24-Jan-12 10:02 apache-sshd-2.12.0/security.txt
+│  -rw-r--r--  2.0 unx      553 b- defN 24-Jan-12 10:02 apache-sshd-2.12.0/sshd-checkstyle-suppressions.xml
+│  -rw-r--r--  2.0 unx    15579 b- defN 24-Jan-12 10:02 apache-sshd-2.12.0/sshd-checkstyle.xml
+│  -rw-r--r--  2.0 unx     4724 b- defN 24-Jan-12 10:02 apache-sshd-2.12.0/sshd-cli/pom.xml
+│ --rw-r--r--  2.0 unx     4733 b- defN 24-Jan-12 10:02 apache-sshd-2.12.0/sshd-cli/pom.xml.releaseBackup
+│  -rw-r--r--  2.0 unx     7837 b- defN 24-Jan-12 10:02 apache-sshd-2.12.0/sshd-cli/src/main/java/org/apache/sshd/cli/CliLogger.java
+│  -rw-r--r--  2.0 unx    17819 b- defN 24-Jan-12 10:02 apache-sshd-2.12.0/sshd-cli/src/main/java/org/apache/sshd/cli/CliSupport.java
+│ @@ -740,15 +735,14 @@
+...
