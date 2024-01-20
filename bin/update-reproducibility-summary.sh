@@ -131,7 +131,7 @@ do
 
       echo -n "| [${version}](https://central.sonatype.com/artifact/${groupId}/${artifactId}/${version}/pom) " >> tmp/${projectReadme}
       echo -n "| [$(echo "${tool}"  | cut -d - -f 1)" >> tmp/${projectReadme}
-      [[ "${tool}" == "gradle" ]] || echo -n " jdk${jdk}" >> tmp/${projectReadme} # chosen JDK is used only to launch Gradle, not build code, then not relevant
+      echo -n " jdk${jdk}" >> tmp/${projectReadme}
       [[ "${newline}" == crlf* ]] && echo -n " w" >> tmp/${projectReadme}
       echo -n "](${buildspec}) | " >> tmp/${projectReadme}
       [ -f "${dir}/${_buildinfo}" ] && echo -n "[result](${_buildinfo}): " >> tmp/${projectReadme}
