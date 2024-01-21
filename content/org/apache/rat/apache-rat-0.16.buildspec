@@ -1,0 +1,18 @@
+groupId=org.apache.rat
+artifactId=apache-rat-project
+display=${groupId}:${artifactId}
+version=0.16
+
+gitRepo=https://github.com/apache/creadur-rat.git
+gitTag=${artifactId}-${version}
+
+tool=mvn
+jdk=16
+newline=lf
+umask=002
+
+command="mvn -Papache-release clean package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip"
+buildinfo=target/${artifactId}-${version}.buildinfo
+
+#diffoscope=${artifactId}-${version}.diffoscope
+issue=
