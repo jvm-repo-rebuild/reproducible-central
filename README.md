@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3079 releases** of **609 projects**:
-   - **2432** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 647 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 609 projects, 503 have at least one fully reproducible release, 106 have none
+   rebuilding **3096 releases** of **610 projects**:
+   - **2447** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 649 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - on 610 projects, 504 have at least one fully reproducible release, 106 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -203,8 +203,8 @@ Its objectives are to provide:
 | | [messages](content/io/cucumber/messages/README.md) | 6 | 6 :heavy_check_mark: |
 | | [tag-expressions](content/io/cucumber/tag-expressions/README.md) | 9 | 9 :heavy_check_mark: |
 | io.dropwizard | [dropwizard-project](content/io/dropwizard/core/README.md) | 69 | 64 :heavy_check_mark: / 5 :warning: |
-| io.dropwizard.metrics | [metrics-parent](content/io/dropwizard/metrics/README.md) | 39 | 18 :heavy_check_mark: / 21 :warning: |
-| io.dropwizard.metrics5 | [metrics-parent](content/io/dropwizard/metrics5/README.md) | 12 | 5 :heavy_check_mark: / 7 :warning: |
+| io.dropwizard.metrics | [metrics-parent](content/io/dropwizard/metrics/README.md) | 40 | 19 :heavy_check_mark: / 21 :warning: |
+| io.dropwizard.metrics5 | [metrics-parent](content/io/dropwizard/metrics5/README.md) | 13 | 6 :heavy_check_mark: / 7 :warning: |
 | io.dwpbank.movewp3 | [microservice-security-autoconfiguration](content/io/dwpbank/movewp3/microservice-security-autoconfiguration/README.md) | 1 | 1 :warning: |
 | io.fabric8 | [docker-maven-plugin](content/io/fabric8/docker-maven-plugin/README.md) | 20 | 18 :heavy_check_mark: / 2 :warning: |
 | | [kubernetes-client-project](content/io/fabric8/kubernetes-client/README.md) | 10 | 10 :warning: |
@@ -242,7 +242,7 @@ Its objectives are to provide:
 | jakarta.persistence | [*-api](content/jakarta/persistence/jakarta.persistence-api/README.md) | 2 | 2 :heavy_check_mark: |
 | jakarta.servlet | [*-api](content/jakarta/servlet/jakarta.servlet-api/README.md) | 1 | 1 :warning: |
 | net.bytebuddy | [byte-buddy-parent](content/net/bytebuddy/README.md) | 18 | 16 :heavy_check_mark: / 2 :warning: |
-| net.jsign | [jsign](content/net/jsign/README.md) | 2 | 2 :warning: |
+| net.jsign | [jsign](content/net/jsign/README.md) | 3 | 3 :warning: |
 | net.nicoulaj.maven.plugins | [checksum-maven-plugin](content/net/nicoulaj/maven/plugins/checksum-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | net.revelc.code | [impsort-maven-plugin](content/net/revelc/code/impsort-maven-plugin/README.md) | 3 | 3 :heavy_check_mark: |
 | net.sf.michael-o | [michael-o-parent](content/net/sf/michael-o/michael-o-parent/README.md) | 2 | 2 :heavy_check_mark: |
@@ -250,6 +250,7 @@ Its objectives are to provide:
 | net.sourceforge.pmd | [pmd](content/net/sourceforge/pmd/README.md) | 35 | 32 :heavy_check_mark: / 3 :warning: |
 | | [pmd-build-tools-config](content/net/sourceforge/pmd/pmd-build-tools-config/README.md) | 5 | 5 :heavy_check_mark: |
 | nl.basjes.energy | [energy-parent](content/nl/basjes/energy/README.md) | 1 | 1 :heavy_check_mark: |
+| nl.basjes.codeowners | [codeowners-parent](content/nl/basjes/codeowners/codeowners-parent/README.md) | 12 | 12 :heavy_check_mark: |
 | nl.basjes.maven.release | [conventional-commits-version-policy](content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | 4 | 4 :heavy_check_mark: |
 | nl.basjes.parse.httpdlog | [httpdlog-parser](content/nl/basjes/parse/httpdlog/httpdlog-parser/README.md) | 2 | 2 :heavy_check_mark: |
 | nl.basjes.parse.useragent | [yauaa](content/nl/basjes/parse/useragent/yauaa/README.md) | 12 | 11 :heavy_check_mark: / 1 :warning: |
@@ -279,11 +280,11 @@ Its objectives are to provide:
 | org.apache.orc | [orc](content/org/apache/orc/README.md) | 10 | 8 :heavy_check_mark: / 2 :warning: |
 | org.apache.paimon | [paimon-parent](content/org/apache/paimon/README.md) | 1 | 1 :warning: |
 | org.apache.pulsar | [pulsar](content/org/apache/pulsar/README.md) | 1 | 1 :warning: |
-| org.apache.rat | [apache-rat-project](content/org/apache/rat/README.md) | 2 | 2 :heavy_check_mark: |
+| org.apache.rat | [apache-rat-project](content/org/apache/rat/README.md) | 3 | 3 :heavy_check_mark: |
 | org.apache.ratis | [ratis](content/org/apache/ratis/README.md) | 2 | 2 :warning: |
 | org.apache.shiro | [shiro-root](content/org/apache/shiro/README.md) | 7 | 7 :warning: |
 | org.apache.sis | [parent](content/org/apache/sis/README.md) | 1 | 1 :warning: |
-| org.apache.sshd | [sshd](content/org/apache/sshd/README.md) | 4 | 4 :warning: |
+| org.apache.sshd | [sshd](content/org/apache/sshd/README.md) | 5 | 5 :warning: |
 | org.apache.struts | [struts2-parent](content/org/apache/struts/README.md) | 9 | 3 :heavy_check_mark: / 6 :warning: |
 | org.apache.synapse | [Apache-Synapse](content/org/apache/synapse/README.md) | 1 | 1 :warning: |
 | org.apache.syncope | [syncope](content/org/apache/syncope/README.md) | 6 | 6 :warning: |
@@ -632,7 +633,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 30 | 30 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **609** | **3079** | **2432** :heavy_check_mark: **647** :warning: |
+| **Count:** | **610** | **3096** | **2447** :heavy_check_mark: **649** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -647,7 +648,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 gradle     17
       1 gradle     21
      26 mvn         7
-   1084 mvn         8
+   1085 mvn         8
       1 mvn         9
     897 mvn        11
       2 mvn        11.0.19
@@ -656,8 +657,8 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       1 mvn        13
       4 mvn        14
      10 mvn        15
-     10 mvn        16
-    264 mvn        17
+     11 mvn        16
+    266 mvn        17
       2 mvn        17.0.7
       1 mvn        17.0.8
       1 mvn        17.0.8.1
@@ -700,7 +701,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       7 mvn-3.9.3  14
      12 mvn-3.9.3  14.0.2
       1 mvn-3.9.3  15.0.2
-     47 mvn-3.9.3  17
+     48 mvn-3.9.3  17
       6 mvn-3.9.3  17.0.1
       4 mvn-3.9.3  17.0.2
      52 mvn-3.9.3  17.0.3
@@ -717,7 +718,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       2 mvn-3.9.4  17.0.7
       2 mvn-3.9.4  20
       3 mvn-3.9.5  11
-      6 mvn-3.9.5  17
+     18 mvn-3.9.5  17
       2 mvn-3.9.5  17.0.7
       1 mvn-3.9.5  17.0.9
      21 mvn-3.9.5  21

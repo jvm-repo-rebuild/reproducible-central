@@ -9,51 +9,51 @@ Source code: [https://github.com/dropwizard/metrics.git](https://github.com/drop
 
 <details><summary>This project defines 36 modules:</summary>
 
-* [io.dropwizard.metrics:metrics-annotation](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-annotation/4.2.23)
-* [io.dropwizard.metrics:metrics-bom](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-bom/4.2.23)
-* [io.dropwizard.metrics:metrics-caffeine](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-caffeine/4.2.23)
-* [io.dropwizard.metrics:metrics-caffeine3](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-caffeine3/4.2.23)
-* [io.dropwizard.metrics:metrics-collectd](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-collectd/4.2.23)
-* [io.dropwizard.metrics:metrics-core](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-core/4.2.23)
-* [io.dropwizard.metrics:metrics-ehcache](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-ehcache/4.2.23)
-* [io.dropwizard.metrics:metrics-graphite](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-graphite/4.2.23)
-* [io.dropwizard.metrics:metrics-healthchecks](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-healthchecks/4.2.23)
-* [io.dropwizard.metrics:metrics-httpasyncclient](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-httpasyncclient/4.2.23)
-* [io.dropwizard.metrics:metrics-httpclient](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-httpclient/4.2.23)
-* [io.dropwizard.metrics:metrics-httpclient5](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-httpclient5/4.2.23)
-* [io.dropwizard.metrics:metrics-jakarta-servlet](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jakarta-servlet/4.2.23)
-* [io.dropwizard.metrics:metrics-jakarta-servlet6](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jakarta-servlet6/4.2.23)
-* [io.dropwizard.metrics:metrics-jakarta-servlets](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jakarta-servlets/4.2.23)
-* [io.dropwizard.metrics:metrics-jcache](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jcache/4.2.23)
-* [io.dropwizard.metrics:metrics-jdbi](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jdbi/4.2.23)
-* [io.dropwizard.metrics:metrics-jdbi3](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jdbi3/4.2.23)
-* [io.dropwizard.metrics:metrics-jersey2](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jersey2/4.2.23)
-* [io.dropwizard.metrics:metrics-jersey3](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jersey3/4.2.23)
-* [io.dropwizard.metrics:metrics-jersey31](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jersey31/4.2.23)
-* [io.dropwizard.metrics:metrics-jetty10](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jetty10/4.2.23)
-* [io.dropwizard.metrics:metrics-jetty11](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jetty11/4.2.23)
-* [io.dropwizard.metrics:metrics-jetty12](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jetty12/4.2.23)
-* [io.dropwizard.metrics:metrics-jetty12-ee10](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jetty12-ee10/4.2.23)
-* [io.dropwizard.metrics:metrics-jetty9](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jetty9/4.2.23)
-* [io.dropwizard.metrics:metrics-jmx](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jmx/4.2.23)
-* [io.dropwizard.metrics:metrics-json](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-json/4.2.23)
-* [io.dropwizard.metrics:metrics-jvm](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jvm/4.2.23)
-* [io.dropwizard.metrics:metrics-log4j2](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-log4j2/4.2.23)
-* [io.dropwizard.metrics:metrics-logback](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-logback/4.2.23)
-* [io.dropwizard.metrics:metrics-logback13](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-logback13/4.2.23)
-* [io.dropwizard.metrics:metrics-logback14](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-logback14/4.2.23)
-* [io.dropwizard.metrics:metrics-parent](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.23)
-* [io.dropwizard.metrics:metrics-servlet](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-servlet/4.2.23)
-* [io.dropwizard.metrics:metrics-servlets](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-servlets/4.2.23)
+* [io.dropwizard.metrics:metrics-annotation](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-annotation/4.2.24)
+* [io.dropwizard.metrics:metrics-bom](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-bom/4.2.24)
+* [io.dropwizard.metrics:metrics-caffeine](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-caffeine/4.2.24)
+* [io.dropwizard.metrics:metrics-caffeine3](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-caffeine3/4.2.24)
+* [io.dropwizard.metrics:metrics-collectd](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-collectd/4.2.24)
+* [io.dropwizard.metrics:metrics-core](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-core/4.2.24)
+* [io.dropwizard.metrics:metrics-ehcache](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-ehcache/4.2.24)
+* [io.dropwizard.metrics:metrics-graphite](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-graphite/4.2.24)
+* [io.dropwizard.metrics:metrics-healthchecks](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-healthchecks/4.2.24)
+* [io.dropwizard.metrics:metrics-httpasyncclient](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-httpasyncclient/4.2.24)
+* [io.dropwizard.metrics:metrics-httpclient](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-httpclient/4.2.24)
+* [io.dropwizard.metrics:metrics-httpclient5](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-httpclient5/4.2.24)
+* [io.dropwizard.metrics:metrics-jakarta-servlet](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jakarta-servlet/4.2.24)
+* [io.dropwizard.metrics:metrics-jakarta-servlet6](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jakarta-servlet6/4.2.24)
+* [io.dropwizard.metrics:metrics-jakarta-servlets](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jakarta-servlets/4.2.24)
+* [io.dropwizard.metrics:metrics-jcache](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jcache/4.2.24)
+* [io.dropwizard.metrics:metrics-jdbi](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jdbi/4.2.24)
+* [io.dropwizard.metrics:metrics-jdbi3](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jdbi3/4.2.24)
+* [io.dropwizard.metrics:metrics-jersey2](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jersey2/4.2.24)
+* [io.dropwizard.metrics:metrics-jersey3](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jersey3/4.2.24)
+* [io.dropwizard.metrics:metrics-jersey31](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jersey31/4.2.24)
+* [io.dropwizard.metrics:metrics-jetty10](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jetty10/4.2.24)
+* [io.dropwizard.metrics:metrics-jetty11](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jetty11/4.2.24)
+* [io.dropwizard.metrics:metrics-jetty12](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jetty12/4.2.24)
+* [io.dropwizard.metrics:metrics-jetty12-ee10](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jetty12-ee10/4.2.24)
+* [io.dropwizard.metrics:metrics-jetty9](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jetty9/4.2.24)
+* [io.dropwizard.metrics:metrics-jmx](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jmx/4.2.24)
+* [io.dropwizard.metrics:metrics-json](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-json/4.2.24)
+* [io.dropwizard.metrics:metrics-jvm](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-jvm/4.2.24)
+* [io.dropwizard.metrics:metrics-log4j2](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-log4j2/4.2.24)
+* [io.dropwizard.metrics:metrics-logback](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-logback/4.2.24)
+* [io.dropwizard.metrics:metrics-logback13](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-logback13/4.2.24)
+* [io.dropwizard.metrics:metrics-logback14](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-logback14/4.2.24)
+* [io.dropwizard.metrics:metrics-parent](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.24)
+* [io.dropwizard.metrics:metrics-servlet](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-servlet/4.2.24)
+* [io.dropwizard.metrics:metrics-servlets](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-servlets/4.2.24)
 </details>
 
-rebuilding **39 releases** of io.dropwizard.metrics:metrics-parent:
-- **18** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **40 releases** of io.dropwizard.metrics:metrics-parent:
+- **19** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 21 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [4.2.24](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.24/pom) | | | |
+| [4.2.24](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.24/pom) | [mvn jdk17](dropwizard-metrics-4.2.24.buildspec) | [result](metrics-parent-4.2.24.buildinfo): [104 :heavy_check_mark: ](metrics-parent-4.2.24.buildcompare) | 1.1M |
 | [4.2.23](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.23/pom) | [mvn jdk17](dropwizard-metrics-4.2.23.buildspec) | [result](metrics-parent-4.2.23.buildinfo): [104 :heavy_check_mark: ](metrics-parent-4.2.23.buildcompare) | 1.1M |
 | [4.2.22](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.22/pom) | [mvn jdk17](dropwizard-metrics-4.2.22.buildspec) | [result](metrics-parent-4.2.22.buildinfo): [104 :heavy_check_mark: ](metrics-parent-4.2.22.buildcompare) | 1.1M |
 | [4.2.21](https://central.sonatype.com/artifact/io.dropwizard.metrics/metrics-parent/4.2.21/pom) | [mvn jdk17](dropwizard-metrics-4.2.21.buildspec) | [result](metrics-parent-4.2.21.buildinfo): [104 :heavy_check_mark: ](metrics-parent-4.2.21.buildcompare) | 1.1M |
