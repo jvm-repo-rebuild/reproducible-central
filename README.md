@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3096 releases** of **610 projects**:
-   - **2447** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 649 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 610 projects, 504 have at least one fully reproducible release, 106 have none
+   rebuilding **3112 releases** of **611 projects**:
+   - **2457** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 655 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - on 611 projects, 505 have at least one fully reproducible release, 106 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -173,7 +173,7 @@ Its objectives are to provide:
 | | [semanticcms-parent-book](content/com/semanticcms/semanticcms-parent-book/README.md) | 7 | 7 :heavy_check_mark: |
 | | [semanticcms-tag-reference](content/com/semanticcms/semanticcms-tag-reference/README.md) | 1 | 1 :warning: |
 | | [semanticcms-tag-reference-book](content/com/semanticcms/semanticcms-tag-reference-book/README.md) | 1 | 1 :heavy_check_mark: |
-| com.spotify.fmt | [fmt-maven-plugin](content/com/spotify/fmt-maven-plugin/README.md) | 4 | 4 :heavy_check_mark: |
+| com.spotify.fmt | [fmt-maven-plugin](content/com/spotify/fmt-maven-plugin/README.md) | 5 | 5 :heavy_check_mark: |
 | com.spotify | [github-client](content/com/spotify/github-client/README.md) | 31 | 30 :heavy_check_mark: / 1 :warning: |
 | com.taobao.arthas | [arthas-all](content/com/taobao/arthas/README.md) | 14 | 14 :warning: |
 | com.vladsch.flexmark | [flexmark-java](content/com/vladsch/flexmark/flexmark-java/README.md) | 4 | 4 :heavy_check_mark: |
@@ -186,7 +186,7 @@ Its objectives are to provide:
 | eu.europa.ted.eforms | [eforms-core-java](content/eu/europa/ted/eforms/eforms-core-java/README.md) | 6 | 5 :heavy_check_mark: / 1 :warning: |
 | | [eforms-sdk](content/eu/europa/ted/eforms/eforms-sdk/README.md) | 18 | 13 :heavy_check_mark: / 5 :warning: |
 | | [efx-toolkit-java](content/eu/europa/ted/eforms/efx-toolkit-java/README.md) | 2 | 2 :warning: |
-| eu.maveniverse.maven.mima | [mima](content/eu/maveniverse/maven/mima/README.md) | 28 | 27 :heavy_check_mark: / 1 :warning: |
+| eu.maveniverse.maven.mima | [mima](content/eu/maveniverse/maven/mima/README.md) | 29 | 28 :heavy_check_mark: / 1 :warning: |
 | eu.maveniverse.maven.mase | [mase](content/eu/maveniverse/maven/mase/mase/README.md) | 2 | 2 :heavy_check_mark: |
 | fr.inria.gforge.spoon | [spoon-core](content/fr/inria/gforge/spoon/spoon-core/README.md) | 5 | 3 :heavy_check_mark: / 2 :warning: |
 | fr.marcwrobel | [jbanking](content/fr/marcwrobel/jbanking/README.md) | 2 | 2 :heavy_check_mark: |
@@ -254,11 +254,11 @@ Its objectives are to provide:
 | nl.basjes.maven.release | [conventional-commits-version-policy](content/nl/basjes/maven/release/conventional-commits-version-policy/README.md) | 4 | 4 :heavy_check_mark: |
 | nl.basjes.parse.httpdlog | [httpdlog-parser](content/nl/basjes/parse/httpdlog/httpdlog-parser/README.md) | 2 | 2 :heavy_check_mark: |
 | nl.basjes.parse.useragent | [yauaa](content/nl/basjes/parse/useragent/yauaa/README.md) | 12 | 11 :heavy_check_mark: / 1 :warning: |
-| nl.hsac | [hsac-fitnesse-fixtures](content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 69 | 56 :heavy_check_mark: / 13 :warning: |
+| nl.hsac | [hsac-fitnesse-fixtures](content/nl/hsac/hsac-fitnesse-fixtures/README.md) | 77 | 60 :heavy_check_mark: / 17 :warning: |
 | | [hsac-fitnesse-pdf](content/nl/hsac/hsac-fitnesse-pdf/README.md) | 4 | 2 :heavy_check_mark: / 2 :warning: |
 | org.phoebus | [parent](content/org/phoebus/README.md) | 1 | 1 :warning: |
 | org.quickperf | [quick-perf](content/org/quickperf/README.md) | 3 | 3 :heavy_check_mark: |
-| org.slf4j | [slf4j-parent](content/org/slf4j/README.md) | 9 | 4 :heavy_check_mark: / 5 :warning: |
+| org.slf4j | [slf4j-parent](content/org/slf4j/README.md) | 10 | 4 :heavy_check_mark: / 6 :warning: |
 | org.alluxio | [alluxio-parent](content/org/alluxio/alluxio/README.md) | 5 | 5 :heavy_check_mark: |
 | org.antlr | [antlr4-master](content/org/antlr/antlr4/README.md) | 3 | 1 :heavy_check_mark: / 2 :warning: |
 | org.apache.accumulo | [accumulo](content/org/apache/accumulo/README.md) | 7 | 3 :heavy_check_mark: / 4 :warning: |
@@ -312,6 +312,7 @@ Its objectives are to provide:
 | org.apache.cxf.xjc-utils | [xjc-utils](content/org/apache/cxf/xjc-utils/README.md) | 1 | 1 :warning: |
 | org.apache.directory.api | [api-parent](content/org/apache/directory/api/README.md) | 5 | 5 :heavy_check_mark: |
 | org.apache.directory.project | [project](content/org/apache/directory/project/README.md) | 3 | 3 :heavy_check_mark: |
+| org.apache.directory.scimple | [scimple](content/org/apache/directory/scimple/README.md) | 1 | 1 :warning: |
 | org.apache.felix | [*.feature](content/org/apache/felix/features/README.md) | 5 | 5 :heavy_check_mark: |
 | | [maven-bundle-plugin](content/org/apache/felix/maven-bundle-plugin/README.md) | 7 | 7 :heavy_check_mark: |
 | | [*.healthcheck.core](content/org/apache/felix/org.apache.felix.healthcheck.core/README.md) | 2 | 2 :warning: |
@@ -446,7 +447,7 @@ Its objectives are to provide:
 | | [*.hc.support](content/org/apache/sling/org.apache.sling.hc.support/README.md) | 2 | 2 :warning: |
 | | [*.i18n](content/org/apache/sling/org.apache.sling.i18n/README.md) | 2 | 2 :warning: |
 | | [*.installer.console](content/org/apache/sling/org.apache.sling.installer.console/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
-| | [*.installer.core](content/org/apache/sling/org.apache.sling.installer.core/README.md) | 4 | 4 :warning: |
+| | [*.installer.core](content/org/apache/sling/org.apache.sling.installer.core/README.md) | 5 | 1 :heavy_check_mark: / 4 :warning: |
 | | [*.installer.factory.configuration](content/org/apache/sling/org.apache.sling.installer.factory.configuration/README.md) | 6 | 2 :heavy_check_mark: / 4 :warning: |
 | | [*.installer.factory.packages](content/org/apache/sling/org.apache.sling.installer.factory.packages/README.md) | 2 | 2 :warning: |
 | | [*.installer.hc](content/org/apache/sling/org.apache.sling.installer.hc/README.md) | 1 | 1 :heavy_check_mark: |
@@ -473,7 +474,7 @@ Its objectives are to provide:
 | | [*.repoinit.parser](content/org/apache/sling/org.apache.sling.repoinit.parser/README.md) | 4 | 4 :heavy_check_mark: |
 | | [*.resourceaccesssecurity](content/org/apache/sling/org.apache.sling.resourceaccesssecurity/README.md) | 1 | 1 :heavy_check_mark: |
 | | [*.resourcemerger](content/org/apache/sling/org.apache.sling.resourcemerger/README.md) | 3 | 3 :heavy_check_mark: |
-| | [*.resourceresolver](content/org/apache/sling/org.apache.sling.resourceresolver/README.md) | 9 | 9 :heavy_check_mark: |
+| | [*.resourceresolver](content/org/apache/sling/org.apache.sling.resourceresolver/README.md) | 10 | 10 :heavy_check_mark: |
 | | [*.rewriter](content/org/apache/sling/org.apache.sling.rewriter/README.md) | 4 | 4 :warning: |
 | | [*.scripting.core](content/org/apache/sling/org.apache.sling.scripting.core/README.md) | 4 | 4 :warning: |
 | | [*.scripting.sightly](content/org/apache/sling/org.apache.sling.scripting.sightly/README.md) | 6 | 6 :heavy_check_mark: |
@@ -593,7 +594,7 @@ Its objectives are to provide:
 | org.owasp | [dependency-check-parent](content/org/owasp/dependency-check/README.md) | 32 | 27 :heavy_check_mark: / 5 :warning: |
 | org.sentrysoftware | [http](content/org/sentrysoftware/http/README.md) | 1 | 1 :heavy_check_mark: |
 | | [ipmi](content/org/sentrysoftware/ipmi/README.md) | 1 | 1 :heavy_check_mark: |
-| | [jawk](content/org/sentrysoftware/jawk/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
+| | [jawk](content/org/sentrysoftware/jawk/README.md) | 5 | 4 :heavy_check_mark: / 1 :warning: |
 | | [jflat](content/org/sentrysoftware/jflat/README.md) | 1 | 1 :heavy_check_mark: |
 | | [printf4j](content/org/sentrysoftware/printf4j/README.md) | 1 | 1 :heavy_check_mark: |
 | | [snmp](content/org/sentrysoftware/snmp/README.md) | 1 | 1 :heavy_check_mark: |
@@ -633,7 +634,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 30 | 30 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **610** | **3096** | **2447** :heavy_check_mark: **649** :warning: |
+| **Count:** | **611** | **3112** | **2457** :heavy_check_mark: **655** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -648,9 +649,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 gradle     17
       1 gradle     21
      26 mvn         7
-   1085 mvn         8
+   1089 mvn         8
       1 mvn         9
-    897 mvn        11
+    903 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.6
@@ -658,7 +659,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn        14
      10 mvn        15
      11 mvn        16
-    266 mvn        17
+    269 mvn        17
       2 mvn        17.0.7
       1 mvn        17.0.8
       1 mvn        17.0.8.1
@@ -666,7 +667,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      13 mvn        18
      24 mvn        19
      15 mvn        20
-     36 mvn        21
+     37 mvn        21
       2 mvn-3.5.4   8
       1 mvn-3.8.3  11
      13 mvn-3.8.5  11
@@ -688,7 +689,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      52 mvn-3.9.1  17
       1 mvn-3.9.1  19
       6 mvn-3.9.1  20
-     20 mvn-3.9.1  21
+     21 mvn-3.9.1  21
       7 mvn-3.9.2   8
      16 mvn-3.9.2  17
       2 mvn-3.9.2  21
@@ -715,6 +716,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       2 mvn-3.9.3  19
      18 mvn-3.9.3  21
       5 mvn-3.9.4   8
+      1 mvn-3.9.4  17
       2 mvn-3.9.4  17.0.7
       2 mvn-3.9.4  20
       3 mvn-3.9.5  11

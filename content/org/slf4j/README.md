@@ -9,33 +9,33 @@ Source code: [https://github.com/qos-ch/slf4j.git](https://github.com/qos-ch/slf
 
 <details><summary>This project defines 18 modules:</summary>
 
-* [org.slf4j:integration](https://central.sonatype.com/artifact/org.slf4j/integration/2.0.9)
-* [org.slf4j:jcl-over-slf4j](https://central.sonatype.com/artifact/org.slf4j/jcl-over-slf4j/2.0.9)
-* [org.slf4j:jul-to-slf4j](https://central.sonatype.com/artifact/org.slf4j/jul-to-slf4j/2.0.9)
-* [org.slf4j:log4j-over-slf4j](https://central.sonatype.com/artifact/org.slf4j/log4j-over-slf4j/2.0.9)
-* [org.slf4j:osgi-over-slf4j](https://central.sonatype.com/artifact/org.slf4j/osgi-over-slf4j/2.0.9)
-* [org.slf4j:slf4j-android](https://central.sonatype.com/artifact/org.slf4j/slf4j-android/2.0.9)
-* [org.slf4j:slf4j-api](https://central.sonatype.com/artifact/org.slf4j/slf4j-api/2.0.9)
-* [org.slf4j:slf4j-bom](https://central.sonatype.com/artifact/org.slf4j/slf4j-bom/2.0.9)
-* [org.slf4j:slf4j-ext](https://central.sonatype.com/artifact/org.slf4j/slf4j-ext/2.0.9)
-* [org.slf4j:slf4j-jcl](https://central.sonatype.com/artifact/org.slf4j/slf4j-jcl/2.0.9)
-* [org.slf4j:slf4j-jdk-platform-logging](https://central.sonatype.com/artifact/org.slf4j/slf4j-jdk-platform-logging/2.0.9)
-* [org.slf4j:slf4j-jdk14](https://central.sonatype.com/artifact/org.slf4j/slf4j-jdk14/2.0.9)
-* [org.slf4j:slf4j-log4j12](https://central.sonatype.com/artifact/org.slf4j/slf4j-log4j12/2.0.9)
-* [org.slf4j:slf4j-migrator](https://central.sonatype.com/artifact/org.slf4j/slf4j-migrator/2.0.9)
-* [org.slf4j:slf4j-nop](https://central.sonatype.com/artifact/org.slf4j/slf4j-nop/2.0.9)
-* [org.slf4j:slf4j-parent](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.0.9)
-* [org.slf4j:slf4j-reload4j](https://central.sonatype.com/artifact/org.slf4j/slf4j-reload4j/2.0.9)
-* [org.slf4j:slf4j-simple](https://central.sonatype.com/artifact/org.slf4j/slf4j-simple/2.0.9)
+* [org.slf4j:integration](https://central.sonatype.com/artifact/org.slf4j/integration/2.1.0-alpha1)
+* [org.slf4j:jcl-over-slf4j](https://central.sonatype.com/artifact/org.slf4j/jcl-over-slf4j/2.1.0-alpha1)
+* [org.slf4j:jul-to-slf4j](https://central.sonatype.com/artifact/org.slf4j/jul-to-slf4j/2.1.0-alpha1)
+* [org.slf4j:log4j-over-slf4j](https://central.sonatype.com/artifact/org.slf4j/log4j-over-slf4j/2.1.0-alpha1)
+* [org.slf4j:osgi-over-slf4j](https://central.sonatype.com/artifact/org.slf4j/osgi-over-slf4j/2.1.0-alpha1)
+* [org.slf4j:slf4j-android](https://central.sonatype.com/artifact/org.slf4j/slf4j-android/2.1.0-alpha1)
+* [org.slf4j:slf4j-api](https://central.sonatype.com/artifact/org.slf4j/slf4j-api/2.1.0-alpha1)
+* [org.slf4j:slf4j-bom](https://central.sonatype.com/artifact/org.slf4j/slf4j-bom/2.1.0-alpha1)
+* [org.slf4j:slf4j-ext](https://central.sonatype.com/artifact/org.slf4j/slf4j-ext/2.1.0-alpha1)
+* [org.slf4j:slf4j-jcl](https://central.sonatype.com/artifact/org.slf4j/slf4j-jcl/2.1.0-alpha1)
+* [org.slf4j:slf4j-jdk-platform-logging](https://central.sonatype.com/artifact/org.slf4j/slf4j-jdk-platform-logging/2.1.0-alpha1)
+* [org.slf4j:slf4j-jdk14](https://central.sonatype.com/artifact/org.slf4j/slf4j-jdk14/2.1.0-alpha1)
+* [org.slf4j:slf4j-log4j12](https://central.sonatype.com/artifact/org.slf4j/slf4j-log4j12/2.1.0-alpha1)
+* [org.slf4j:slf4j-migrator](https://central.sonatype.com/artifact/org.slf4j/slf4j-migrator/2.1.0-alpha1)
+* [org.slf4j:slf4j-nop](https://central.sonatype.com/artifact/org.slf4j/slf4j-nop/2.1.0-alpha1)
+* [org.slf4j:slf4j-parent](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.1.0-alpha1)
+* [org.slf4j:slf4j-reload4j](https://central.sonatype.com/artifact/org.slf4j/slf4j-reload4j/2.1.0-alpha1)
+* [org.slf4j:slf4j-simple](https://central.sonatype.com/artifact/org.slf4j/slf4j-simple/2.1.0-alpha1)
 </details>
 
-rebuilding **9 releases** of org.slf4j:slf4j-parent:
+rebuilding **10 releases** of org.slf4j:slf4j-parent:
 - **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 5 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 6 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.1.0-alpha1](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.1.0-alpha1/pom) | | | |
+| [2.1.0-alpha1](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.1.0-alpha1/pom) | [mvn jdk21 w](slf4j-2.1.0-alpha1.buildspec) | [result](slf4j-bom-2.1.0-alpha1.buildinfo): [39 :heavy_check_mark:  1 :warning:](slf4j-bom-2.1.0-alpha1.buildcompare) [:mag:](slf4j-bom-2.1.0-alpha1.diffoscope) | 591K |
 | [2.1.0-alpha0](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.1.0-alpha0/pom) | | | |
 | [2.0.11](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.0.11/pom) | | | |
 | [2.0.10](https://central.sonatype.com/artifact/org.slf4j/slf4j-parent/2.0.10/pom) | | | |
