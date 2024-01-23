@@ -1,0 +1,9 @@
+version=2.4.6
+ok=27
+ko=0
+ignored=0
+okFiles="mima-2.4.6.pom context-2.4.6.pom context-2.4.6.jar context-2.4.6-sources.jar runtime-2.4.6.pom embedded-maven-2.4.6.pom embedded-maven-2.4.6.jar embedded-maven-2.4.6-sources.jar standalone-shared-2.4.6.pom standalone-shared-2.4.6.jar standalone-shared-2.4.6-sources.jar standalone-sisu-2.4.6.pom standalone-sisu-2.4.6.jar standalone-sisu-2.4.6-sources.jar standalone-sisu-uber-2.4.6.pom standalone-sisu-uber-2.4.6.jar standalone-sisu-uber-2.4.6-sources.jar standalone-static-2.4.6.pom standalone-static-2.4.6.jar standalone-static-2.4.6-sources.jar standalone-static-uber-2.4.6.pom standalone-static-uber-2.4.6.jar standalone-static-uber-2.4.6-sources.jar cli-2.4.6.pom cli-2.4.6.jar cli-2.4.6-sources.jar cli-2.4.6-uber.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="21 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
