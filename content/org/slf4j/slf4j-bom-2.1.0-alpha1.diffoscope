@@ -1,0 +1,16 @@
+1 / 1 target/reference/org.slf4j/slf4j-migrator-2.1.0-alpha1.jar slf4j-migrator/target/slf4j-migrator-2.1.0-alpha1.jar
+--- target/reference/org.slf4j/slf4j-migrator-2.1.0-alpha1.jar
++++ slf4j-migrator/target/slf4j-migrator-2.1.0-alpha1.jar
+├── zipinfo {}
+│ @@ -1,9 +1,9 @@
+│  Zip file size: 31136 bytes, number of entries: 39
+│ --rw----     2.0 fat     1011 bX defN 24-Jan-02 20:23 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1011 bX defN 24-Jan-23 05:56 META-INF/MANIFEST.MF
+│  -rw----     1.0 fat        0 b- stor 24-Jan-02 19:20 META-INF/
+│  -rw----     1.0 fat        0 b- stor 24-Jan-02 19:20 META-INF/versions/
+│  -rw----     1.0 fat        0 b- stor 24-Jan-02 19:20 META-INF/versions/9/
+│  -rw----     1.0 fat        0 b- stor 24-Jan-02 19:20 org/
+│  -rw----     1.0 fat        0 b- stor 24-Jan-02 19:20 org/slf4j/
+│  -rw----     1.0 fat        0 b- stor 24-Jan-02 19:20 org/slf4j/migrator/
+│  -rw----     1.0 fat        0 b- stor 24-Jan-02 19:20 org/slf4j/migrator/helper/
+

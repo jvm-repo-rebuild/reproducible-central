@@ -1,0 +1,17 @@
+groupId=org.slf4j
+artifactId=slf4j-parent
+display=${groupId}:slf4j
+version=2.1.0-alpha1
+
+gitRepo=https://github.com/qos-ch/slf4j.git
+gitTag=v_${version}
+
+tool=mvn
+jdk=21
+newline=crlf
+
+command="SHELL mvn clean package -DskipTests -Dmaven.javadoc.skip && mvn package -DskipTests -Dmaven.javadoc.skip"
+buildinfo=target/slf4j-bom-${version}.buildinfo
+
+diffoscope=slf4j-bom-${version}.diffoscope
+issue=
