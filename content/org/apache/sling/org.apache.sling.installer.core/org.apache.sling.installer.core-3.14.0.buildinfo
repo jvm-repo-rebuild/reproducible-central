@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Installer Core
+group-id=org.apache.sling
+artifact-id=org.apache.sling.installer.core
+version=3.14.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-installer-core.git
+source.scm.tag=org.apache.sling.installer.core-3.14.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.installer.core-3.14.0.pom
+outputs.0.length=10732
+outputs.0.checksums.sha512=337067bd7926aa468fe16b502a5ce40406d8bf4876c4ce82fa5f108f98b9ab56a293d19188c91128e6a64442281d7b3b4bad206017ee0e3dff41538d78396341
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.installer.core-3.14.0.jar
+outputs.1.length=165320
+outputs.1.checksums.sha512=39a098370c733d0100b94008e11393e7e0455e0757bdc7ed264d7d538347a67cd13c26ab9371dd183962f6e553c64df0326a2637b52d50cae0008c0438f21d37
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.installer.core-3.14.0-source-release.zip
+outputs.2.length=180972
+outputs.2.checksums.sha512=cf39c5375ca037fda0c4f2a07819774c8001b7d6d535f814b2854641a5b6ed48af8f0afe4728b475e2ca05fb530e7d2bc3e12c61ca37e1666ce8fcdb3a47f4ef
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.installer.core-3.14.0-sources.jar
+outputs.3.length=133823
+outputs.3.checksums.sha512=def5e988465f8a34922795dba76168818255bbd3a97adb984413dd26cf848ff564bc7ea8d4686bdf73e0076c84a7e33fe699f73854db4708b30861c41dec9481
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.installer.core-3.14.0-sources.jar
+outputs.4.length=133823
+outputs.4.checksums.sha512=def5e988465f8a34922795dba76168818255bbd3a97adb984413dd26cf848ff564bc7ea8d4686bdf73e0076c84a7e33fe699f73854db4708b30861c41dec9481
