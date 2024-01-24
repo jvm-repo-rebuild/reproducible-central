@@ -7,12 +7,13 @@
 
 Source code: [https://github.com/mojohaus/license-maven-plugin.git](https://github.com/mojohaus/license-maven-plugin.git)
 
-rebuilding **4 releases** of org.codehaus.mojo:license-maven-plugin:
-- **3** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **5 releases** of org.codehaus.mojo:license-maven-plugin:
+- **4** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.4.0](https://central.sonatype.com/artifact/org.codehaus.mojo/license-maven-plugin/2.4.0/pom) | [mvn jdk21](license-maven-plugin-2.4.0.buildspec) | [result](license-maven-plugin-2.4.0.buildinfo): [5 :heavy_check_mark: ](license-maven-plugin-2.4.0.buildcompare) | 2.0M |
 | [2.3.0](https://central.sonatype.com/artifact/org.codehaus.mojo/license-maven-plugin/2.3.0/pom) | [mvn jdk21](license-maven-plugin-2.3.0.buildspec) | [result](license-maven-plugin-2.3.0.buildinfo): [5 :heavy_check_mark: ](license-maven-plugin-2.3.0.buildcompare) | 1.9M |
 | [2.2.0](https://central.sonatype.com/artifact/org.codehaus.mojo/license-maven-plugin/2.2.0/pom) | [mvn jdk20](license-maven-plugin-2.2.0.buildspec) | [result](license-maven-plugin-2.2.0.buildinfo): [5 :heavy_check_mark: ](license-maven-plugin-2.2.0.buildcompare) | 1.9M |
 | [2.1.0](https://central.sonatype.com/artifact/org.codehaus.mojo/license-maven-plugin/2.1.0/pom) | [mvn jdk17](license-maven-plugin-2.1.0.buildspec) | [result](license-maven-plugin-2.1.0.buildinfo): [5 :heavy_check_mark: ](license-maven-plugin-2.1.0.buildcompare) | 1.8M |

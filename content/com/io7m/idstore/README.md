@@ -7,56 +7,64 @@
 
 Source code: [https://github.com/io7m/idstore.git](https://github.com/io7m/idstore.git)
 
-<details><summary>This project defines 39 modules:</summary>
+<details><summary>This project defines 47 modules:</summary>
 
-* [com.io7m.idstore:com.io7m.idstore](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.admin_client](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.admin_client/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.admin_client.api](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.admin_client.api/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.database.api](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.database.api/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.database.postgres](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.database.postgres/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.documentation](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.documentation/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.error_codes](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.error_codes/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.model](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.model/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.protocol.admin](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.protocol.admin/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.protocol.admin.cb](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.protocol.admin.cb/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.protocol.api](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.protocol.api/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.protocol.user](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.protocol.user/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.protocol.user.cb](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.protocol.user.cb/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.server.admin_v1](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.admin_v1/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.server.api](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.api/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.server.controller](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.controller/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.server.http](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.http/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.server.main](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.main/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.server.security](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.security/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.server.service.branding](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.service.branding/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.server.service.clock](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.service.clock/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.server.service.configuration](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.service.configuration/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.server.service.mail](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.service.mail/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.server.service.maintenance](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.service.maintenance/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.server.service.ratelimit](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.service.ratelimit/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.server.service.reqlimit](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.service.reqlimit/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.server.service.sessions](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.service.sessions/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.server.service.telemetry.api](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.service.telemetry.api/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.server.service.telemetry.otp](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.service.telemetry.otp/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.server.service.templating](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.service.templating/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.server.service.verdant](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.service.verdant/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.server.user_v1](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.user_v1/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.server.user_view](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.user_view/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.server.vanilla](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.vanilla/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.tests](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.tests/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.tests.arbitraries](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.tests.arbitraries/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.tests.extensions](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.tests.extensions/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.user_client](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.user_client/0.0.14)
-* [com.io7m.idstore:com.io7m.idstore.user_client.api](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.user_client.api/0.0.14)
+* [com.io7m.idstore:com.io7m.idstore](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.admin_client](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.admin_client/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.admin_client.api](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.admin_client.api/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.database.api](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.database.api/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.database.postgres](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.database.postgres/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.documentation](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.documentation/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.error_codes](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.error_codes/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.grafana](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.grafana/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.main](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.main/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.model](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.model/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.oci](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.oci/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.protocol.admin](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.protocol.admin/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.protocol.admin.cb](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.protocol.admin.cb/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.protocol.api](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.protocol.api/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.protocol.user](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.protocol.user/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.protocol.user.cb](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.protocol.user.cb/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.server.admin_v1](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.admin_v1/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.server.api](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.api/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.server.controller](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.controller/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.server.http](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.http/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.server.main](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.main/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.server.security](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.security/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.server.service.branding](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.service.branding/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.server.service.clock](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.service.clock/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.server.service.configuration](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.service.configuration/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.server.service.health](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.service.health/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.server.service.mail](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.service.mail/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.server.service.maintenance](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.service.maintenance/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.server.service.ratelimit](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.service.ratelimit/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.server.service.reqlimit](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.service.reqlimit/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.server.service.sessions](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.service.sessions/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.server.service.telemetry.api](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.service.telemetry.api/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.server.service.telemetry.otp](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.service.telemetry.otp/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.server.service.templating](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.service.templating/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.server.service.tls](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.service.tls/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.server.service.verdant](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.service.verdant/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.server.user_v1](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.user_v1/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.server.user_view](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.user_view/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.server.vanilla](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.server.vanilla/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.shell.admin](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.shell.admin/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.strings](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.strings/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.tests](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.tests/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.tests.arbitraries](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.tests.arbitraries/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.tests.extensions](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.tests.extensions/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.tls](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.tls/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.user_client](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.user_client/1.0.0)
+* [com.io7m.idstore:com.io7m.idstore.user_client.api](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore.user_client.api/1.0.0)
 </details>
 
-rebuilding **1 releases** of com.io7m.idstore:com.io7m.idstore:
+rebuilding **2 releases** of com.io7m.idstore:com.io7m.idstore:
 - **0** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-- 1 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
+- 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [1.0.0](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/1.0.0/pom) | | | |
+| [1.0.0](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/1.0.0/pom) | [mvn jdk21](com.io7m.idstore-1.0.0.buildspec) | [result](com.io7m.idstore-1.0.0.buildinfo): [225 :heavy_check_mark:  4 :warning:](com.io7m.idstore-1.0.0.buildcompare) [:mag:](com.io7m.idstore-1.0.0.diffoscope) | 53M |
 | [1.0.0-rc0006](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/1.0.0-rc0006/pom) | | | |
 | [1.0.0-rc0005](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/1.0.0-rc0005/pom) | | | |
 | [1.0.0-rc0004](https://central.sonatype.com/artifact/com.io7m.idstore/com.io7m.idstore/1.0.0-rc0004/pom) | | | |

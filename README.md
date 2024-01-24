@@ -11,9 +11,9 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3112 releases** of **611 projects**:
-   - **2457** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 655 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   rebuilding **3117 releases** of **611 projects**:
+   - **2461** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 656 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
    - on 611 projects, 505 have at least one fully reproducible release, 106 have none
 
 <!-- END GENERATED INTRO -->
@@ -93,7 +93,7 @@ Its objectives are to provide:
 | | [*.genevan](content/com/io7m/genevan/README.md) | 2 | 2 :heavy_check_mark: |
 | | [*.gtyrell](content/com/io7m/gtyrell/README.md) | 4 | 4 :heavy_check_mark: |
 | | [*.hibiscus](content/com/io7m/hibiscus/README.md) | 8 | 8 :heavy_check_mark: |
-| | [*.idstore](content/com/io7m/idstore/README.md) | 1 | 1 :warning: |
+| | [*.idstore](content/com/io7m/idstore/README.md) | 2 | 2 :warning: |
 | | [*.ieee754b16](content/com/io7m/ieee754b16/README.md) | 1 | 1 :heavy_check_mark: |
 | | [*.jade](content/com/io7m/jade/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | | [*.jaffirm](content/com/io7m/jaffirm/README.md) | 3 | 3 :heavy_check_mark: |
@@ -519,7 +519,7 @@ Its objectives are to provide:
 | | [flatten-maven-plugin](content/org/codehaus/mojo/flatten-maven-plugin/README.md) | 6 | 3 :heavy_check_mark: / 3 :warning: |
 | | [jaxb2-maven-plugin](content/org/codehaus/mojo/jaxb2-maven-plugin/README.md) | 1 | 1 :warning: |
 | | [l10n-maven-plugin](content/org/codehaus/mojo/l10n-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
-| | [license-maven-plugin](content/org/codehaus/mojo/license-maven-plugin/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
+| | [license-maven-plugin](content/org/codehaus/mojo/license-maven-plugin/README.md) | 5 | 4 :heavy_check_mark: / 1 :warning: |
 | | [mojo-parent](content/org/codehaus/mojo/mojo-parent/README.md) | 18 | 18 :heavy_check_mark: |
 | | [mrm](content/org/codehaus/mojo/mrm/README.md) | 4 | 4 :heavy_check_mark: |
 | | [native-maven-plugin](content/org/codehaus/mojo/native/README.md) | 1 | 1 :heavy_check_mark: |
@@ -558,7 +558,7 @@ Its objectives are to provide:
 | org.glassfish.hk2 | [hk2-parent](content/org/glassfish/hk2/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
 | org.glassfish.main | [glassfish-parent](content/org/glassfish/main/README.md) | 7 | 7 :warning: |
 | org.glassfish.build | [glassfishbuild-maven-plugin](content/org/glassfish/build/glassfishbuild-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
-| org.jline | [jline-parent](content/org/jline/jline/README.md) | 6 | 5 :heavy_check_mark: / 1 :warning: |
+| org.jline | [jline-parent](content/org/jline/jline/README.md) | 7 | 6 :heavy_check_mark: / 1 :warning: |
 | org.jrivard.xmlchai | [xmlchai](content/org/jrivard/xmlchai/README.md) | 2 | 2 :warning: |
 | org.junit | [junit-bom](content/org/junit/junit5/README.md) | 2 | 2 :warning: |
 | org.kocakosm | [jblake2](content/org/kocakosm/jblake2/README.md) | 2 | 2 :heavy_check_mark: |
@@ -617,7 +617,7 @@ Its objectives are to provide:
 | org.tomitribe.transformer | [org.eclipse.transformer.parent](content/org/tomitribe/transformer/README.md) | 2 | 2 :heavy_check_mark: |
 | org.webjars | [angularjs](content/org/webjars/angularjs/README.md) | 1 | 1 :heavy_check_mark: |
 | | [bootstrap](content/org/webjars/bootstrap/README.md) | 7 | 7 :heavy_check_mark: |
-| | [flexmonster](content/org/webjars/flexmonster/README.md) | 49 | 45 :heavy_check_mark: / 4 :warning: |
+| | [flexmonster](content/org/webjars/flexmonster/README.md) | 50 | 46 :heavy_check_mark: / 4 :warning: |
 | | [font-awesome](content/org/webjars/font-awesome/README.md) | 6 | 6 :heavy_check_mark: |
 | | [highcharts](content/org/webjars/highcharts/README.md) | 3 | 3 :heavy_check_mark: |
 | | [jszip](content/org/webjars/jszip/README.md) | 1 | 1 :heavy_check_mark: |
@@ -629,12 +629,12 @@ Its objectives are to provide:
 | | [webjars-locator-core](content/org/webjars/webjars-locator-core/README.md) | 4 | 4 :heavy_check_mark: |
 | | [webjars-locator-lite](content/org/webjars/webjars-locator-lite/README.md) | 1 | 1 :heavy_check_mark: |
 | pl.com.labaj | [auto-record](content/pl/com/labaj/auto-record/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
-| pl.com.labaj.autorecord | [auto-record](content/pl/com/labaj/autorecord/auto-record/README.md) | 3 | 1 :heavy_check_mark: / 2 :warning: |
+| pl.com.labaj.autorecord | [auto-record](content/pl/com/labaj/autorecord/auto-record/README.md) | 4 | 2 :heavy_check_mark: / 2 :warning: |
 | tech.picnic.error-prone-support | [error-prone-support](content/tech/picnic/error-prone-support/error-prone-support/README.md) | 12 | 12 :heavy_check_mark: |
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 30 | 30 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **611** | **3112** | **2457** :heavy_check_mark: **655** :warning: |
+| **Count:** | **611** | **3117** | **2461** :heavy_check_mark: **656** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -649,7 +649,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       5 gradle     17
       1 gradle     21
      26 mvn         7
-   1089 mvn         8
+   1090 mvn         8
       1 mvn         9
     903 mvn        11
       2 mvn        11.0.19
@@ -659,7 +659,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn        14
      10 mvn        15
      11 mvn        16
-    269 mvn        17
+    270 mvn        17
       2 mvn        17.0.7
       1 mvn        17.0.8
       1 mvn        17.0.8.1
@@ -667,7 +667,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
      13 mvn        18
      24 mvn        19
      15 mvn        20
-     37 mvn        21
+     38 mvn        21
       2 mvn-3.5.4   8
       1 mvn-3.8.3  11
      13 mvn-3.8.5  11
@@ -714,11 +714,12 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       9 mvn-3.9.3  17.0.8
       1 mvn-3.9.3  17.0.8.1
       2 mvn-3.9.3  19
-     18 mvn-3.9.3  21
+     19 mvn-3.9.3  21
       5 mvn-3.9.4   8
       1 mvn-3.9.4  17
       2 mvn-3.9.4  17.0.7
       2 mvn-3.9.4  20
+      1 mvn-3.9.4  21
       3 mvn-3.9.5  11
      18 mvn-3.9.5  17
       2 mvn-3.9.5  17.0.7
