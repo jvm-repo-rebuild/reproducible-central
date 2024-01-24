@@ -1,0 +1,67 @@
+1 / 4 target/reference/com.io7m.idstore/com.io7m.idstore-1.0.0-cyclonedx.xml target/bom.xml
+--- target/reference/com.io7m.idstore/com.io7m.idstore-1.0.0-cyclonedx.xml
++++ target/bom.xml
+│   --- target/reference/com.io7m.idstore/com.io7m.idstore-1.0.0-cyclonedx.xml
+├── +++ target/bom.xml
+│ @@ -6925,21 +6925,14 @@
+│            <url>https://www.github.com/io7m/idstore/issues</url>
+│          </reference>
+│          <reference type="vcs">
+│            <url>https://www.github.com/io7m/idstore</url>
+│          </reference>
+│        </externalReferences>
+│      </component>
+│ -    <component type="library" bom-ref="pkg:maven/com.io7m.idstore/com.io7m.idstore.main@1.0.0?classifier=distribution&amp;type=zip">
+│ -      <group>com.io7m.idstore</group>
+│ -      <name>com.io7m.idstore.main</name>
+│ -      <version>1.0.0</version>
+│ -      <scope>required</scope>
+│ -      <purl>pkg:maven/com.io7m.idstore/com.io7m.idstore.main@1.0.0?classifier=distribution&amp;type=zip</purl>
+│ -    </component>
+│      <component type="library" bom-ref="pkg:maven/com.io7m.idstore/com.io7m.idstore.tests.extensions@1.0.0?type=jar">
+│        <group>com.io7m.idstore</group>
+│        <name>com.io7m.idstore.tests.extensions</name>
+│        <version>1.0.0</version>
+│        <description>Identity server (Test extensions)</description>
+│        <licenses>
+│          <license>
+│ @@ -9108,34 +9101,15 @@
+│        <dependency ref="pkg:maven/com.io7m.junreachable/com.io7m.junreachable.core@4.0.0?type=jar"/>
+│        <dependency ref="pkg:maven/com.io7m.jeucreader/com.io7m.jeucreader.core@3.0.0?type=jar"/>
+│      </dependency>
+│      <dependency ref="pkg:maven/com.io7m.idstore/com.io7m.idstore.grafana@1.0.0?type=jar">
+│        <dependency ref="pkg:maven/org.osgi/org.osgi.annotation.bundle@2.0.0?type=jar"/>
+│        <dependency ref="pkg:maven/org.osgi/org.osgi.annotation.versioning@1.1.2?type=jar"/>
+│      </dependency>
+│ -    <dependency ref="pkg:maven/com.io7m.idstore/com.io7m.idstore.oci@1.0.0?type=jar">
+│ -      <dependency ref="pkg:maven/com.io7m.idstore/com.io7m.idstore.main@1.0.0?classifier=distribution&amp;type=zip"/>
+│ -    </dependency>
+│ -    <dependency ref="pkg:maven/com.io7m.idstore/com.io7m.idstore.main@1.0.0?classifier=distribution&amp;type=zip">
+│ -      <dependency ref="pkg:maven/com.io7m.idstore/com.io7m.idstore.server.vanilla@1.0.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/com.io7m.idstore/com.io7m.idstore.server.service.telemetry.otp@1.0.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/com.io7m.idstore/com.io7m.idstore.server.api@1.0.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/com.io7m.idstore/com.io7m.idstore.database.postgres@1.0.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/com.io7m.idstore/com.io7m.idstore.model@1.0.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/com.io7m.idstore/com.io7m.idstore.server.service.configuration@1.0.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/com.io7m.idstore/com.io7m.idstore.shell.admin@1.0.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"/>
+│ -      <dependency ref="pkg:maven/com.io7m.quarrel/com.io7m.quarrel.core@1.4.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/com.io7m.quarrel/com.io7m.quarrel.ext.logback@1.4.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/org.slf4j/jul-to-slf4j@2.0.9?type=jar"/>
+│ -      <dependency ref="pkg:maven/ch.qos.logback/logback-classic@1.4.14?type=jar"/>
+│ -      <dependency ref="pkg:maven/com.io7m.anethum/com.io7m.anethum.slf4j@1.1.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/com.io7m.anethum/com.io7m.anethum.api@1.1.0?type=jar"/>
+│ -      <dependency ref="pkg:maven/com.io7m.canonmill/com.io7m.canonmill.core@2.0.1?type=jar"/>
+│ -    </dependency>
+│ +    <dependency ref="pkg:maven/com.io7m.idstore/com.io7m.idstore.oci@1.0.0?type=jar"/>
+│      <dependency ref="pkg:maven/com.io7m.idstore/com.io7m.idstore.tests.extensions@1.0.0?type=jar">
+│        <dependency ref="pkg:maven/com.io7m.idstore/com.io7m.idstore.database.postgres@1.0.0?type=jar"/>
+│        <dependency ref="pkg:maven/com.io7m.idstore/com.io7m.idstore.server.vanilla@1.0.0?type=jar"/>
+│        <dependency ref="pkg:maven/com.io7m.jmulticlose/com.io7m.jmulticlose.core@1.1.0?type=jar"/>
+│        <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.9?type=jar"/>
+│        <dependency ref="pkg:maven/org.junit.jupiter/junit-jupiter-api@5.10.1?type=jar"/>
+│        <dependency ref="pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.10.1?type=jar"/>
+
+2 / 4 target/reference/com.io7m.idstore/com.io7m.idstore.main-1.0.0-distribution.zip com.io7m.idstore.main/target/idstore-distribution.zip
+
+...
