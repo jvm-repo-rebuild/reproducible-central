@@ -13,6 +13,7 @@ rebuilding **1 releases** of com.cognite.units:units-catalog:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.1.4](https://central.sonatype.com/artifact/com.cognite.units/units-catalog/0.1.4/pom) | | | |
 | [0.1.3](https://central.sonatype.com/artifact/com.cognite.units/units-catalog/0.1.3/pom) | [mvn jdk17.0.9](units-catalog-0.1.3.buildspec) | [result](units-catalog-0.1.3.buildinfo): [1 :heavy_check_mark:  2 :warning:](units-catalog-0.1.3.buildcompare) [:mag:](units-catalog-0.1.3.diffoscope) | 95K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

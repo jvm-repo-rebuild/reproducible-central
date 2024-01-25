@@ -13,6 +13,7 @@ rebuilding **8 releases** of org.apache.sling:org.apache.sling.testing.resourcer
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.4.6](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.resourceresolver-mock/1.4.6/pom) | | | |
 | [1.4.4](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.resourceresolver-mock/1.4.4/pom) | [mvn jdk11 w](org.apache.sling.testing.resourceresolver-mock-1.4.4.buildspec) | [result](org.apache.sling.testing.resourceresolver-mock-1.4.4.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.testing.resourceresolver-mock-1.4.4.buildcompare) | 158K |
 | [1.4.2](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.resourceresolver-mock/1.4.2/pom) | [mvn jdk11 w](org.apache.sling.testing.resourceresolver-mock-1.4.2.buildspec) | [result](org.apache.sling.testing.resourceresolver-mock-1.4.2.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.testing.resourceresolver-mock-1.4.2.buildcompare) | 192K |
 | [1.4.0](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.resourceresolver-mock/1.4.0/pom) | [mvn jdk11 w](org.apache.sling.testing.resourceresolver-mock-1.4.0.buildspec) | [result](org.apache.sling.testing.resourceresolver-mock-1.4.0.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.testing.resourceresolver-mock-1.4.0.buildcompare) | 191K |

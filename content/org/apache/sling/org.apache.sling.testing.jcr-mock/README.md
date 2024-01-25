@@ -13,6 +13,7 @@ rebuilding **8 releases** of org.apache.sling:org.apache.sling.testing.jcr-mock:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.6.14](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.jcr-mock/1.6.14/pom) | | | |
 | [1.6.12](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.jcr-mock/1.6.12/pom) | [mvn jdk17](org.apache.sling.testing.jcr-mock-1.6.12.buildspec) | [result](org.apache.sling.testing.jcr-mock-1.6.12.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.testing.jcr-mock-1.6.12.buildcompare) | 293K |
 | [1.6.10](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.jcr-mock/1.6.10/pom) | [mvn jdk11 w](org.apache.sling.testing.jcr-mock-1.6.10.buildspec) | [result](org.apache.sling.testing.jcr-mock-1.6.10.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.testing.jcr-mock-1.6.10.buildcompare) | 353K |
 | [1.6.8](https://central.sonatype.com/artifact/org.apache.sling/org.apache.sling.testing.jcr-mock/1.6.8/pom) | [mvn jdk11](org.apache.sling.testing.jcr-mock-1.6.8.buildspec) | [result](org.apache.sling.testing.jcr-mock-1.6.8.buildinfo): [4 :heavy_check_mark: ](org.apache.sling.testing.jcr-mock-1.6.8.buildcompare) | 340K |
