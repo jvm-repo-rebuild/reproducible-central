@@ -1,0 +1,9 @@
+version=1.4.6
+ok=4
+ko=0
+ignored=0
+okFiles="org.apache.sling.testing.resourceresolver-mock-1.4.6.pom org.apache.sling.testing.resourceresolver-mock-1.4.6.jar org.apache.sling.testing.resourceresolver-mock-1.4.6-source-release.zip org.apache.sling.testing.resourceresolver-mock-1.4.6-sources.jar"
+koFiles=""
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
