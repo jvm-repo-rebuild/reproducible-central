@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.sentrysoftware:xflat:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.01](https://central.sonatype.com/artifact/org.sentrysoftware/xflat/1.0.01/pom) | | | |
 | [1.0.00](https://central.sonatype.com/artifact/org.sentrysoftware/xflat/1.0.00/pom) | [mvn jdk17](xflat-1.0.00.buildspec) | [result](xflat-1.0.00.buildinfo): [3 :heavy_check_mark: ](xflat-1.0.00.buildcompare) | 56K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>

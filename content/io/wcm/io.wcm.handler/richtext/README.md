@@ -13,6 +13,7 @@ rebuilding **4 releases** of io.wcm:io.wcm.handler.richtext:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [2.0.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.richtext/2.0.0/pom) | | | |
 | [1.6.6](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.richtext/1.6.6/pom) | | | |
 | [1.6.4](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.richtext/1.6.4/pom) | [mvn jdk11 w](wcm-richtext-1.6.4.buildspec) | [result](io.wcm.handler.richtext-1.6.4.buildinfo): [3 :heavy_check_mark:  2 :warning:](io.wcm.handler.richtext-1.6.4.buildcompare) [:mag:](io.wcm.handler.richtext-1.6.4.diffoscope) | 236K |
 | [1.6.2](https://central.sonatype.com/artifact/io.wcm/io.wcm.handler.richtext/1.6.2/pom) | | | |

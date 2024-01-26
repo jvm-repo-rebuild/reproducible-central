@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.sentrysoftware:vcenter:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [1.0.01](https://central.sonatype.com/artifact/org.sentrysoftware/vcenter/1.0.01/pom) | | | |
 | [1.0.00](https://central.sonatype.com/artifact/org.sentrysoftware/vcenter/1.0.00/pom) | [mvn jdk17](vcenter-1.0.00.buildspec) | [result](vcenter-1.0.00.buildinfo): [3 :heavy_check_mark: ](vcenter-1.0.00.buildcompare) | 26K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
