@@ -13,6 +13,8 @@ rebuilding **2 releases** of io.github.sebastian-toepfer.json.rpc:json-printable
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.2.1](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json.rpc/json-printable-maven-plugin/0.2.1/pom) | | | |
+| [0.2.0](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json.rpc/json-printable-maven-plugin/0.2.0/pom) | | | |
 | [0.1.3](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json.rpc/json-printable-maven-plugin/0.1.3/pom) | [mvn jdk17](json-printable-maven-plugin-0.1.3.buildspec) | [result](json-printable-maven-plugin-0.1.3.buildinfo): [3 :heavy_check_mark: ](json-printable-maven-plugin-0.1.3.buildcompare) | 102K |
 | [0.1.2](https://central.sonatype.com/artifact/io.github.sebastian-toepfer.json.rpc/json-printable-maven-plugin/0.1.2/pom) | [mvn jdk17](json-printable-maven-plugin-0.1.2.buildspec) | [result](json-printable-maven-plugin-0.1.2.buildinfo): [3 :heavy_check_mark: ](json-printable-maven-plugin-0.1.2.buildcompare) | 102K |
 

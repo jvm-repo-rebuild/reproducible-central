@@ -7,13 +7,13 @@
 
 Source code: [https://github.com/wcm-io/io.wcm.parent_toplevel.git](https://github.com/wcm-io/io.wcm.parent_toplevel.git)
 
-rebuilding **16 releases** of io.wcm:io.wcm.parent_toplevel:
-- **16** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **17 releases** of io.wcm:io.wcm.parent_toplevel:
+- **17** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 0 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.3.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.parent_toplevel/2.3.0/pom) | | | |
+| [2.3.0](https://central.sonatype.com/artifact/io.wcm/io.wcm.parent_toplevel/2.3.0/pom) | [mvn jdk11](wcm-parent_toplevel-2.3.0.buildspec) | [result](io.wcm.parent_toplevel-2.3.0.buildinfo): [2 :heavy_check_mark: ](io.wcm.parent_toplevel-2.3.0.buildcompare) | 22K |
 | [2.2.8](https://central.sonatype.com/artifact/io.wcm/io.wcm.parent_toplevel/2.2.8/pom) | [mvn jdk11](wcm-parent_toplevel-2.2.8.buildspec) | [result](io.wcm.parent_toplevel-2.2.8.buildinfo): [2 :heavy_check_mark: ](io.wcm.parent_toplevel-2.2.8.buildcompare) | 23K |
 | [2.2.6](https://central.sonatype.com/artifact/io.wcm/io.wcm.parent_toplevel/2.2.6/pom) | [mvn jdk11](wcm-parent_toplevel-2.2.6.buildspec) | [result](io.wcm.parent_toplevel-2.2.6.buildinfo): [2 :heavy_check_mark: ](io.wcm.parent_toplevel-2.2.6.buildcompare) | 23K |
 | [2.2.4](https://central.sonatype.com/artifact/io.wcm/io.wcm.parent_toplevel/2.2.4/pom) | [mvn jdk11](wcm-parent_toplevel-2.2.4.buildspec) | [result](io.wcm.parent_toplevel-2.2.4.buildinfo): [2 :heavy_check_mark: ](io.wcm.parent_toplevel-2.2.4.buildcompare) | 23K |

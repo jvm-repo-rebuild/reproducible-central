@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3121 releases** of **611 projects**:
-   - **2465** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 656 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 611 projects, 505 have at least one fully reproducible release, 106 have none
+   rebuilding **3139 releases** of **611 projects**:
+   - **2482** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 657 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - on 611 projects, 506 have at least one fully reproducible release, 105 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -29,7 +29,7 @@ Its objectives are to provide:
 | ch.qos.logback.db | [logback-parent-db](content/ch/qos/logback/db/README.md) | 1 | 1 :warning: |
 | com.flowlogix | [flowlogix](content/com/flowlogix/README.md) | 11 | 7 :heavy_check_mark: / 4 :warning: |
 | com.adobe.acs | [acs-aem-commons](content/com/adobe/acs/aem-commons/README.md) | 3 | 3 :warning: |
-| com.cognite.units | [units-catalog](content/com/cognite/units/units-catalog/README.md) | 1 | 1 :warning: |
+| com.cognite.units | [units-catalog](content/com/cognite/units/units-catalog/README.md) | 2 | 1 :heavy_check_mark: / 1 :warning: |
 | com.corgibytes | [mrm](content/com/corgibytes/mrm/README.md) | 1 | 1 :heavy_check_mark: |
 | | [versions-maven-plugin](content/com/corgibytes/versions-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | com.fasterxml | [oss-parent](content/com/fasterxml/oss-parent/README.md) | 11 | 11 :heavy_check_mark: |
@@ -47,7 +47,7 @@ Its objectives are to provide:
 | | [jackson-datatypes-collections](content/com/fasterxml/jackson/datatype/jackson-datatypes-collections/README.md) | 2 | 2 :heavy_check_mark: |
 | | [jackson-datatypes-misc-parent](content/com/fasterxml/jackson/datatype/jackson-datatypes-misc-parent/README.md) | 2 | 2 :heavy_check_mark: |
 | com.github.ldapchai | [ldapchai](content/com/github/ldapchai/README.md) | 6 | 1 :heavy_check_mark: / 5 :warning: |
-| com.github.psi-probe | [psi-probe](content/com/github/psi-probe/README.md) | 8 | 6 :heavy_check_mark: / 2 :warning: |
+| com.github.psi-probe | [psi-probe](content/com/github/psi-probe/README.md) | 9 | 7 :heavy_check_mark: / 2 :warning: |
 | com.github.adangel.liquibase.ext | [liquibase-percona](content/com/github/adangel/liquibase/ext/liquibase-percona/README.md) | 1 | 1 :heavy_check_mark: |
 | com.github.hazendaz.7zip | [7zip](content/com/github/hazendaz/7zip/README.md) | 1 | 1 :heavy_check_mark: |
 | com.github.hazendaz | [javabean-tester](content/com/github/hazendaz/javabean-tester/README.md) | 8 | 6 :heavy_check_mark: / 2 :warning: |
@@ -203,7 +203,7 @@ Its objectives are to provide:
 | | [messages](content/io/cucumber/messages/README.md) | 6 | 6 :heavy_check_mark: |
 | | [tag-expressions](content/io/cucumber/tag-expressions/README.md) | 9 | 9 :heavy_check_mark: |
 | io.dropwizard | [dropwizard-project](content/io/dropwizard/core/README.md) | 69 | 64 :heavy_check_mark: / 5 :warning: |
-| io.dropwizard.metrics | [metrics-parent](content/io/dropwizard/metrics/README.md) | 40 | 19 :heavy_check_mark: / 21 :warning: |
+| io.dropwizard.metrics | [metrics-parent](content/io/dropwizard/metrics/README.md) | 41 | 20 :heavy_check_mark: / 21 :warning: |
 | io.dropwizard.metrics5 | [metrics-parent](content/io/dropwizard/metrics5/README.md) | 13 | 6 :heavy_check_mark: / 7 :warning: |
 | io.dwpbank.movewp3 | [microservice-security-autoconfiguration](content/io/dwpbank/movewp3/microservice-security-autoconfiguration/README.md) | 1 | 1 :warning: |
 | io.fabric8 | [docker-maven-plugin](content/io/fabric8/docker-maven-plugin/README.md) | 20 | 18 :heavy_check_mark: / 2 :warning: |
@@ -227,17 +227,17 @@ Its objectives are to provide:
 | io.repaint.maven | [tiles-maven-plugin](content/io/repaint/maven/tiles-maven-plugin/README.md) | 2 | 2 :heavy_check_mark: |
 | io.smallrye | [jandex-parent](content/io/smallrye/jandex/README.md) | 5 | 5 :warning: |
 | io.wcm | [*.caconfig.editor.parent](content/io/wcm/io.wcm.caconfig/README.md) | 4 | 4 :warning: |
-| | [*.parent_toplevel](content/io/wcm/tooling/README.md) | 16 | 16 :heavy_check_mark: |
+| | [*.parent_toplevel](content/io/wcm/tooling/README.md) | 17 | 17 :heavy_check_mark: |
 | | [*.handler.link](content/io/wcm/io.wcm.handler/link/README.md) | 4 | 4 :warning: |
 | | [*.handler.media](content/io/wcm/io.wcm.handler/media/README.md) | 8 | 5 :heavy_check_mark: / 3 :warning: |
-| | [*.handler.richtext](content/io/wcm/io.wcm.handler/richtext/README.md) | 4 | 4 :warning: |
+| | [*.handler.richtext](content/io/wcm/io.wcm.handler/richtext/README.md) | 5 | 5 :warning: |
 | | [*.wcm.commons](content/io/wcm/io.wcm.wcm/commons/README.md) | 5 | 2 :heavy_check_mark: / 3 :warning: |
 | | [*.wcm.parsys](content/io/wcm/io.wcm.wcm/parsys/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
 | | [*.wcm.ui.clientlibs](content/io/wcm/io.wcm.wcm/ui/clientlibs/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
 | | [*.wcm.ui.granite](content/io/wcm/io.wcm.wcm/ui/granite/README.md) | 8 | 4 :heavy_check_mark: / 4 :warning: |
 | io.wcm.maven.plugins | [cq-maven-plugin](content/io/wcm/maven/plugins/cq-maven-plugin/README.md) | 1 | 1 :heavy_check_mark: |
 | | [nodejs-maven-plugin](content/io/wcm/maven/plugins/nodejs-maven-plugin/README.md) | 3 | 1 :heavy_check_mark: / 2 :warning: |
-| io.wcm.tooling.commons | [*.content-package-builder](content/io/wcm/tooling/commons/content-package-builder/README.md) | 4 | 3 :heavy_check_mark: / 1 :warning: |
+| io.wcm.tooling.commons | [*.content-package-builder](content/io/wcm/tooling/commons/content-package-builder/README.md) | 5 | 4 :heavy_check_mark: / 1 :warning: |
 | | [*.crx-packmgr-helper](content/io/wcm/tooling/commons/crx-packmgr-helper/README.md) | 7 | 7 :heavy_check_mark: |
 | jakarta.persistence | [*-api](content/jakarta/persistence/jakarta.persistence-api/README.md) | 2 | 2 :heavy_check_mark: |
 | jakarta.servlet | [*-api](content/jakarta/servlet/jakarta.servlet-api/README.md) | 1 | 1 :warning: |
@@ -563,7 +563,7 @@ Its objectives are to provide:
 | org.junit | [junit-bom](content/org/junit/junit5/README.md) | 2 | 2 :warning: |
 | org.kocakosm | [jblake2](content/org/kocakosm/jblake2/README.md) | 2 | 2 :heavy_check_mark: |
 | org.liquibase.ext | [liquibase-percona](content/org/liquibase/ext/liquibase-percona/README.md) | 36 | 35 :heavy_check_mark: / 1 :warning: |
-| org.mockito | [mockito-core](content/org/mockito/mockito-core/README.md) | 22 | 20 :heavy_check_mark: / 2 :warning: |
+| org.mockito | [mockito-core](content/org/mockito/mockito-core/README.md) | 23 | 21 :heavy_check_mark: / 2 :warning: |
 | org.moditect.layrry | [layrry-aggregator](content/org/moditect/layrry/README.md) | 1 | 1 :heavy_check_mark: |
 | org.moditect | [moditect](content/org/moditect/moditect/README.md) | 2 | 2 :heavy_check_mark: |
 | org.mybatis | [base-bundle-descriptor](content/org/mybatis/base-bundle-descriptor/README.md) | 2 | 2 :heavy_check_mark: |
@@ -592,19 +592,19 @@ Its objectives are to provide:
 | org.osgi | [*.test.parent](content/org/osgi/test/README.md) | 5 | 4 :heavy_check_mark: / 1 :warning: |
 | org.owasp.antisamy | [antisamy](content/org/owasp/antisamy/README.md) | 15 | 14 :heavy_check_mark: / 1 :warning: |
 | org.owasp | [dependency-check-parent](content/org/owasp/dependency-check/README.md) | 32 | 27 :heavy_check_mark: / 5 :warning: |
-| org.sentrysoftware | [http](content/org/sentrysoftware/http/README.md) | 1 | 1 :heavy_check_mark: |
-| | [ipmi](content/org/sentrysoftware/ipmi/README.md) | 1 | 1 :heavy_check_mark: |
+| org.sentrysoftware | [http](content/org/sentrysoftware/http/README.md) | 2 | 2 :heavy_check_mark: |
+| | [ipmi](content/org/sentrysoftware/ipmi/README.md) | 2 | 2 :heavy_check_mark: |
 | | [jawk](content/org/sentrysoftware/jawk/README.md) | 5 | 4 :heavy_check_mark: / 1 :warning: |
-| | [jflat](content/org/sentrysoftware/jflat/README.md) | 1 | 1 :heavy_check_mark: |
+| | [jflat](content/org/sentrysoftware/jflat/README.md) | 2 | 2 :heavy_check_mark: |
 | | [printf4j](content/org/sentrysoftware/printf4j/README.md) | 1 | 1 :heavy_check_mark: |
-| | [snmp](content/org/sentrysoftware/snmp/README.md) | 1 | 1 :heavy_check_mark: |
-| | [ssh](content/org/sentrysoftware/ssh/README.md) | 1 | 1 :heavy_check_mark: |
-| | [tablejoin](content/org/sentrysoftware/tablejoin/README.md) | 1 | 1 :heavy_check_mark: |
-| | [vcenter](content/org/sentrysoftware/vcenter/README.md) | 1 | 1 :heavy_check_mark: |
-| | [wbem](content/org/sentrysoftware/wbem/README.md) | 1 | 1 :heavy_check_mark: |
-| | [winrm](content/org/sentrysoftware/winrm/README.md) | 1 | 1 :heavy_check_mark: |
-| | [wmi](content/org/sentrysoftware/wmi/README.md) | 1 | 1 :heavy_check_mark: |
-| | [xflat](content/org/sentrysoftware/xflat/README.md) | 1 | 1 :heavy_check_mark: |
+| | [snmp](content/org/sentrysoftware/snmp/README.md) | 2 | 2 :heavy_check_mark: |
+| | [ssh](content/org/sentrysoftware/ssh/README.md) | 2 | 2 :heavy_check_mark: |
+| | [tablejoin](content/org/sentrysoftware/tablejoin/README.md) | 2 | 2 :heavy_check_mark: |
+| | [vcenter](content/org/sentrysoftware/vcenter/README.md) | 2 | 2 :heavy_check_mark: |
+| | [wbem](content/org/sentrysoftware/wbem/README.md) | 2 | 2 :heavy_check_mark: |
+| | [winrm](content/org/sentrysoftware/winrm/README.md) | 2 | 2 :heavy_check_mark: |
+| | [wmi](content/org/sentrysoftware/wmi/README.md) | 2 | 2 :heavy_check_mark: |
+| | [xflat](content/org/sentrysoftware/xflat/README.md) | 2 | 2 :heavy_check_mark: |
 | org.sentrysoftware.maven | [maven-skin-tools](content/org/sentrysoftware/maven/maven-skin-tools/README.md) | 4 | 4 :heavy_check_mark: |
 | | [sentry-maven-skin](content/org/sentrysoftware/maven/sentry-maven-skin/README.md) | 2 | 2 :heavy_check_mark: |
 | org.simplify4u | [pgp-keys-map](content/org/simplify4u/pgp-keys-map/README.md) | 19 | 19 :heavy_check_mark: |
@@ -634,7 +634,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 30 | 30 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **611** | **3121** | **2465** :heavy_check_mark: **656** :warning: |
+| **Count:** | **611** | **3139** | **2482** :heavy_check_mark: **657** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -647,11 +647,11 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
 ```
      21 gradle     11
       5 gradle     17
-      1 gradle     21
+      2 gradle     21
      26 mvn         7
    1090 mvn         8
       1 mvn         9
-    907 mvn        11
+    908 mvn        11
       2 mvn        11.0.19
       1 mvn        11.0.21
       1 mvn        11.0.6
@@ -659,11 +659,11 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn        14
      10 mvn        15
      11 mvn        16
-    270 mvn        17
+    282 mvn        17
       2 mvn        17.0.7
       1 mvn        17.0.8
       1 mvn        17.0.8.1
-      2 mvn        17.0.9
+      3 mvn        17.0.9
      13 mvn        18
      24 mvn        19
      15 mvn        20
@@ -714,8 +714,9 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       9 mvn-3.9.3  17.0.8
       1 mvn-3.9.3  17.0.8.1
       2 mvn-3.9.3  19
-     19 mvn-3.9.3  21
+     20 mvn-3.9.3  21
       5 mvn-3.9.4   8
+      2 mvn-3.9.4  11
       1 mvn-3.9.4  17
       2 mvn-3.9.4  17.0.7
       2 mvn-3.9.4  20
