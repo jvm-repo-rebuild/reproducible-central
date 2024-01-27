@@ -1,0 +1,10 @@
+version=1.7.4
+ok=2
+ko=1
+ignored=0
+okFiles="io.wcm.tooling.commons.content-package-builder-1.7.4.pom io.wcm.tooling.commons.content-package-builder-1.7.4-sources.jar"
+koFiles="io.wcm.tooling.commons.content-package-builder-1.7.4.jar"
+ignoredFiles=""
+reference_java_version="11 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Windows (from pom.properties newline)"
+# diffoscope target/reference/io.wcm.tooling.commons/io.wcm.tooling.commons.content-package-builder-1.7.4.jar target/io.wcm.tooling.commons.content-package-builder-1.7.4.jar
