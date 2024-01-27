@@ -1,0 +1,71 @@
+# this release has 2 different timestamps: defining one at CLI level (= current workartound for every WCM release) can only match one of the 2
+1 / 3 target/reference/io.wcm/io.wcm.handler.richtext-2.0.0-sources.jar target/io.wcm.handler.richtext-2.0.0-sources.jar
+--- target/reference/io.wcm/io.wcm.handler.richtext-2.0.0-sources.jar
++++ target/io.wcm.handler.richtext-2.0.0-sources.jar
+├── zipinfo {}
+│ @@ -48,10 +48,10 @@
+│  -rw-r--r--  2.0 unx    26104 b- defN 24-Jan-26 19:18 io/wcm/handler/richtext/util/xhtml/xhtml1-strict.dtd
+│  -rw-r--r--  2.0 unx    32741 b- defN 24-Jan-26 19:18 io/wcm/handler/richtext/util/xhtml/xhtml1-transitional.dtd
+│  -rw-r--r--  2.0 unx    12488 b- defN 24-Jan-26 19:18 SLING-INF/app-root/clientlibs/rte.plugins/js/linkDialog.js
+│  -rw-r--r--  2.0 unx     4013 b- defN 24-Jan-26 19:18 SLING-INF/app-root/clientlibs/rte.plugins/js/linkPlugin.js
+│  -rw-r--r--  2.0 unx      325 b- defN 24-Jan-26 19:18 SLING-INF/app-root/clientlibs/rte.plugins/js/namespace.js
+│  -rw-r--r--  2.0 unx       51 b- defN 24-Jan-26 19:18 SLING-INF/app-root/clientlibs/rte.plugins/js.txt
+│  -rw-r--r--  2.0 unx      105 b- defN 24-Jan-26 19:18 SLING-INF/app-root/clientlibs/rte.plugins.json
+│ --rw-r--r--  2.0 unx     7823 b- defN 24-Jan-26 19:18 META-INF/maven/io.wcm/io.wcm.handler.richtext/pom.xml
+│ +-rw-rw-r--  2.0 unx     7823 b- defN 24-Jan-26 19:18 META-INF/maven/io.wcm/io.wcm.handler.richtext/pom.xml
+│  -rw-r--r--  2.0 unx       67 b- defN 24-Jan-26 19:18 META-INF/maven/io.wcm/io.wcm.handler.richtext/pom.properties
+│  55 files, 225526 bytes uncompressed, 65148 bytes compressed:  71.1%
+
+2 / 3 target/reference/io.wcm/io.wcm.handler.richtext-2.0.0-content.zip target/io.wcm.handler.richtext-2.0.0-content.zip
+--- target/reference/io.wcm/io.wcm.handler.richtext-2.0.0-content.zip
++++ target/io.wcm.handler.richtext-2.0.0-content.zip
+├── zipinfo {}
+│ @@ -1,26 +1,26 @@
+│ -Zip file size: 12180 bytes, number of entries: 24
+│ --rw----     2.0 fat        0 bl defN 24-Jan-26 20:18 META-INF/
+│ --rw----     2.0 fat        0 bl defN 24-Jan-26 20:18 META-INF/vault/
+...
+│ --rw----     2.0 fat      616 bl defN 24-Jan-26 20:18 jcr_root/apps/wcm-io/handler/richtext/clientlibs/rte.plugins/.content.xml
+│ -24 files, 24546 bytes uncompressed, 7878 bytes compressed:  67.9%
+│ +Zip file size: 12177 bytes, number of entries: 24
+│ +-rw----     2.0 fat        0 bl defN 24-Jan-27 07:47 META-INF/
+│ +-rw----     2.0 fat        0 bl defN 24-Jan-27 07:47 META-INF/vault/
+...
+│ +-rw----     2.0 fat      616 bl defN 24-Jan-27 07:47 jcr_root/apps/wcm-io/handler/richtext/clientlibs/rte.plugins/.content.xml
+│ +24 files, 24541 bytes uncompressed, 7875 bytes compressed:  67.9%
+├── META-INF/vault/properties.xml
+│ ├── META-INF/vault/properties.xml
+│ │ @@ -1,13 +1,13 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <!DOCTYPE properties
+│ │    SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
+│ │  <properties>
+│ │    <entry key="allowIndexDefinitions">false</entry>
+│ │    <entry key="createdBy">admin</entry>
+│ │ -  <entry key="created">2024-01-26T20:18:22.183+01:00</entry>
+│ │ +  <entry key="created">2024-01-27T07:47:43.391Z</entry>
+│ │    <entry key="name">io.wcm.handler.richtext-content</entry>
+│ │    <entry key="version">2.0.0</entry>
+│ │    <entry key="packageType">application</entry>
+│ │    <entry key="requiresRoot">false</entry>
+│ │    <entry key="group">wcm-io</entry>
+│ │  </properties>
+
+3 / 3 target/reference/io.wcm/io.wcm.handler.richtext-2.0.0-bundle.jar target/io.wcm.handler.richtext-2.0.0-bundle.jar
+--- target/reference/io.wcm/io.wcm.handler.richtext-2.0.0-bundle.jar
++++ target/io.wcm.handler.richtext-2.0.0-bundle.jar
+├── zipinfo {}
+│ @@ -1,54 +1,54 @@
+│  Zip file size: 75163 bytes, number of entries: 52
+│ --rw----     2.0 fat        0 bl defN 24-Jan-26 20:18 META-INF/
+│ --rw----     2.0 fat     3742 bl defN 24-Jan-26 20:18 META-INF/MANIFEST.MF
+...
+│ --rw----     2.0 fat     7823 bl defN 24-Jan-26 20:18 META-INF/maven/io.wcm/io.wcm.handler.richtext/pom.xml
+│ --rw----     2.0 fat       67 bl defN 24-Jan-26 20:18 META-INF/maven/io.wcm/io.wcm.handler.richtext/pom.properties
+│ +-rw----     2.0 fat        0 bl defN 24-Jan-27 07:47 META-INF/
+│ +-rw----     2.0 fat     3742 bl defN 24-Jan-27 07:47 META-INF/MANIFEST.MF
+...
+│ +-rw----     2.0 fat     7823 bl defN 24-Jan-27 07:47 META-INF/maven/io.wcm/io.wcm.handler.richtext/pom.xml
+│ +-rw----     2.0 fat       67 bl defN 24-Jan-27 07:47 META-INF/maven/io.wcm/io.wcm.handler.richtext/pom.properties
+│  52 files, 204454 bytes uncompressed, 65923 bytes compressed:  67.8%
+
