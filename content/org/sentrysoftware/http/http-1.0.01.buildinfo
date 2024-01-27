@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=HTTP Java Client
+group-id=org.sentrysoftware
+artifact-id=http
+version=1.0.01
+
+# source information
+source.scm.uri=scm:git:https://github.com/sentrysoftware/http.git
+source.scm.tag=v1.0.01
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.sentrysoftware
+outputs.0.filename=http-1.0.01.pom
+outputs.0.length=12460
+outputs.0.checksums.sha512=a8c374f348cd6ada3a6f2772f7352265de55c86f80bffca03873a005fc9eb68d876a82dde5b0da0be9c7188e66b63d28a9cbfeb065fea0c8b6cbc795fa7cb906
+
+outputs.1.groupId=org.sentrysoftware
+outputs.1.filename=http-1.0.01.jar
+outputs.1.length=18999
+outputs.1.checksums.sha512=08108e60f1873728c956b2b48204668c45a42fd40cebd08c722fba13cd228782e18031194f47982dc9521104549ec225b5e6e56aa0124e220a2d7168a336475f
+
+outputs.2.groupId=org.sentrysoftware
+outputs.2.filename=http-1.0.01-sources.jar
+outputs.2.length=14840
+outputs.2.checksums.sha512=aced3dee8b66dd5ff18d6432e0b39d4779224f032d633445d52d922150aaf2881f4cabd5adf24595ab0b533abf85e521f3b850e39c200c87bafbf9aa686f9390
