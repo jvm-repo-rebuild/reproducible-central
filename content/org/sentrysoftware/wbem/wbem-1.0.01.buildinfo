@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=WBEM Java Client
+group-id=org.sentrysoftware
+artifact-id=wbem
+version=1.0.01
+
+# source information
+source.scm.uri=scm:git:https://github.com/sentrysoftware/wbem.git
+source.scm.tag=v1.0.01
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.sentrysoftware
+outputs.0.filename=wbem-1.0.01.pom
+outputs.0.length=10794
+outputs.0.checksums.sha512=761d4ca423beb2c5f578b0b784b44608e2346329612a1f3e5e15bdd462bb96bee796988c29e94e6ce2dddd71777077f09bf0b8e0c46e55d1bbdcdaacb3c658ec
+
+outputs.1.groupId=org.sentrysoftware
+outputs.1.filename=wbem-1.0.01.jar
+outputs.1.length=814152
+outputs.1.checksums.sha512=933a1703fded1f33df67cd17f11d347a6093ef8af40e5e0bd7c7a20eaefc22a6e012708ba67fe93d8ba612da7c89cbecab7fe0a082e24e5fdd5b3e4ca9b9f6d9
+
+outputs.2.groupId=org.sentrysoftware
+outputs.2.filename=wbem-1.0.01-sources.jar
+outputs.2.length=1005654
+outputs.2.checksums.sha512=958590641065e0e12c8944d03cc4ff9d396d0acb6a8fc421a82807dda8aa64821f4d641e2f843f84216a1c84bc9f7faa121c4bc2178d1f8414111886d3f713ab
