@@ -11,7 +11,7 @@ jdk=11
 newline=crlf-nogit
 umask=022
 
-timestamp=2023-12-13T12:47:14+01:00
+timestamp=2024-01-25T17:13:00+01:00
 command="mvn -Pio.wcm clean package -DskipTests -Dmaven.javadoc.skip -Dtimestamp=${timestamp}"
 buildinfo=target/${artifactId}-${version}.buildinfo
 

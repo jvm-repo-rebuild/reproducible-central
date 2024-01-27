@@ -29,7 +29,7 @@ outputs.0.checksums.sha512=e0f20d7011d7a088a33e4e2ab00b2dc50aaf80f5a43a8bd8a0483
 outputs.1.groupId=io.wcm.tooling.commons
 outputs.1.filename=io.wcm.tooling.commons.content-package-builder-1.7.4.jar
 outputs.1.length=41807
-outputs.1.checksums.sha512=79f166f04cdaac4ac384cf43d4ce5429a38c66c65ce842494b512599b6c37bfa78bca0247d44fabf102d609a9be3375f28de099ac5d2ef4aec7e00df7949e58a
+outputs.1.checksums.sha512=fabed3699696ebf67e4e7b903be2cebbffe3713e3040b517c12850e8e54c91d28c961274bbc941c7c38e35f017f0297804a3f0731a9d5dae84e0bb9d6d5aa72a
 
 outputs.2.groupId=io.wcm.tooling.commons
 outputs.2.filename=io.wcm.tooling.commons.content-package-builder-1.7.4-sources.jar
