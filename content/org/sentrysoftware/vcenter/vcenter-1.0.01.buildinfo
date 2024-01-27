@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=VCenter Java Client
+group-id=org.sentrysoftware
+artifact-id=vcenter
+version=1.0.01
+
+# source information
+source.scm.uri=scm:git:https://github.com/sentrysoftware/vcenter.git
+source.scm.tag=v1.0.01
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.sentrysoftware
+outputs.0.filename=vcenter-1.0.01.pom
+outputs.0.length=10685
+outputs.0.checksums.sha512=5f7dee8428722e3bc835a8f0232529e23c68e76caeead5d0ebf9e539c872a5fb0a25c099dc4db03a6b71117b115fb1e1c7020bb04b2a745b889b28576adb02c3
+
+outputs.1.groupId=org.sentrysoftware
+outputs.1.filename=vcenter-1.0.01.jar
+outputs.1.length=7731
+outputs.1.checksums.sha512=7d14b75b7048e9dcd3beff687875581e3fcb0802ac989ada2fd109f69f7ce36f2145318c500466d89d2f30582c098c0f9189eb68d1aac04c03c695ca8af18d02
+
+outputs.2.groupId=org.sentrysoftware
+outputs.2.filename=vcenter-1.0.01-sources.jar
+outputs.2.length=7339
+outputs.2.checksums.sha512=c66576789af0a18b744b028da7b3e35af8364ad97afcacdd764719f060a1774d6a9fecc5546d1a5aed6fd675a774f82b6429e0ffe7e8e9c22b1456fa6550e3ce
