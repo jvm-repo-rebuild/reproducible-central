@@ -1,0 +1,29 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=com.cognite.units:units-catalog
+group-id=com.cognite.units
+artifact-id=units-catalog
+version=0.1.4
+
+# source information
+source.scm.uri=scm:git:git://github.com/cognitedata/units-catalog.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# effective build environment information
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+os.name=Linux
+
+# Maven rebuild instructions and effective environment
+mvn.version=3.6.3
+
+# output
+
+outputs.0.groupId=com.cognite.units
+outputs.0.filename=units-catalog-0.1.4.pom
+outputs.0.length=9197
+outputs.0.checksums.sha512=c60daf050f237c8f181ad4902f2902fab6d5ff118cef0c1dcde512c8cb37678dc51931d199afcdd8e0890c681506f99182176e286a4b562ed46e3e63f7f7c550
