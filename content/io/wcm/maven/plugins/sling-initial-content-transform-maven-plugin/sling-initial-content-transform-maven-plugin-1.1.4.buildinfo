@@ -1,0 +1,38 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Sling-Initial-Content Transformation Maven Plugin
+group-id=io.wcm.maven.plugins
+artifact-id=sling-initial-content-transform-maven-plugin
+version=1.1.4
+
+# source information
+source.scm.uri=scm:git:https://github.com/wcm-io/io.wcm.maven.plugins.sling-initial-content-transform-maven-plugin.git
+source.scm.tag=HEAD
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Windows
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.1.0
+
+# output
+
+outputs.0.groupId=io.wcm.maven.plugins
+outputs.0.filename=sling-initial-content-transform-maven-plugin-1.1.4.pom
+outputs.0.length=9926
+outputs.0.checksums.sha512=5ecfe920b293a3623e3f69ac8c9633b2c45ea7bb7e945192122141227a4a9b0bd3435500278f142f45673a954c745a122f201a7a38e1c09213b6038456e641ec
+
+outputs.1.groupId=io.wcm.maven.plugins
+outputs.1.filename=sling-initial-content-transform-maven-plugin-1.1.4.jar
+outputs.1.length=32188
+outputs.1.checksums.sha512=c239797ab7e98e27ed9921b5fca7aa48462181e809156e37f58e3b2c47b88c7bbcb2fcc159dfe83ac9051fe2e124260c7eb6581a788c3572813ef6857b60cf12
+
+outputs.2.groupId=io.wcm.maven.plugins
+outputs.2.filename=sling-initial-content-transform-maven-plugin-1.1.4-sources.jar
+outputs.2.length=22163
+outputs.2.checksums.sha512=c1b36bf6a50066bb73bd8045ecfb3325c2bb172f2e78f5ba8620f1c8215f88c5650c11fce1804eb38cce592ecbb81d203281df5ce06d5909cee577875778f1c8
