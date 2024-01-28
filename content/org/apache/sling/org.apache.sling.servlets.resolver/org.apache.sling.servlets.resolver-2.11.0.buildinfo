@@ -1,0 +1,47 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Sling Servlets Resolver
+group-id=org.apache.sling
+artifact-id=org.apache.sling.servlets.resolver
+version=2.11.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-servlets-resolver.git
+source.scm.tag=org.apache.sling.servlets.resolver-2.11.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=11
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.apache.sling
+outputs.0.filename=org.apache.sling.servlets.resolver-2.11.0.pom
+outputs.0.length=16915
+outputs.0.checksums.sha512=58045d5b19d6a5ba00e4e144e85b7b86b4b760d4b1d9702983717aaf45d4f781b7e67720d4f6ab9f83fbe87ca2f8cda70c83ea7c999e0dee38a497d1a7ea2f3a
+
+outputs.1.groupId=org.apache.sling
+outputs.1.filename=org.apache.sling.servlets.resolver-2.11.0.jar
+outputs.1.length=149207
+outputs.1.checksums.sha512=e2c9ec73b3eb261547fc7e3a2bb490fc02614dfa6b0ef994fc173d8f1a3f5734658ca3cba4c970ae42291e1163e49df5ed233c68cc14006c790de470f5b9eb9a
+
+outputs.2.groupId=org.apache.sling
+outputs.2.filename=org.apache.sling.servlets.resolver-2.11.0-source-release.zip
+outputs.2.length=161031
+outputs.2.checksums.sha512=9b70eb4d37d6443b73e50b1bcec740530c8ef19fc9dace26e5d1655452486c7fd09f2559eb273ae1c19449df5d127bc0b7cdbcba18a0e75501079424ba6626e3
+
+outputs.3.groupId=org.apache.sling
+outputs.3.filename=org.apache.sling.servlets.resolver-2.11.0-sources.jar
+outputs.3.length=93569
+outputs.3.checksums.sha512=e2cd013489e1dc68d0a295d47f178f7cb8abe5a4a61978238aba3e1c4213759eed2609f81772439cfdf5403556ffe8c30a18c8c7e41ae06f550fbb1402f54467
+
+outputs.4.groupId=org.apache.sling
+outputs.4.filename=org.apache.sling.servlets.resolver-2.11.0-sources.jar
+outputs.4.length=93569
+outputs.4.checksums.sha512=e2cd013489e1dc68d0a295d47f178f7cb8abe5a4a61978238aba3e1c4213759eed2609f81772439cfdf5403556ffe8c30a18c8c7e41ae06f550fbb1402f54467
