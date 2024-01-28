@@ -23,6 +23,7 @@ rebuilding **3 releases** of org.apache.rat:apache-rat-project:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.16.1](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-project/0.16.1/pom) | | | |
 | [0.16](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-project/0.16/pom) | [mvn jdk16](apache-rat-0.16.buildspec) | [result](apache-rat-project-0.16.buildinfo): [23 :heavy_check_mark: ](apache-rat-project-0.16.buildcompare) | 17M |
 | [0.15](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-project/0.15/pom) | [mvn jdk16](apache-rat-0.15.buildspec) | [result](apache-rat-project-0.15.buildinfo): [22 :heavy_check_mark: ](apache-rat-project-0.15.buildcompare) | 12M |
 | [0.14](https://central.sonatype.com/artifact/org.apache.rat/apache-rat-project/0.14/pom) | [mvn jdk16](apache-rat-0.14.buildspec) | [result](apache-rat-project-0.14.buildinfo): [22 :heavy_check_mark: ](apache-rat-project-0.14.buildcompare) | 12M |
