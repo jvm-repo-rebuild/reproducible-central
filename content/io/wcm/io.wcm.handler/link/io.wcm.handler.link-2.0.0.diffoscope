@@ -1,0 +1,56 @@
+# sling-initial-content-transform:1.1.4:transform does not honor outputTimestamp
+1 / 2 target/reference/io.wcm/io.wcm.handler.link-2.0.0-content.zip target/io.wcm.handler.link-2.0.0-content.zip
+--- target/reference/io.wcm/io.wcm.handler.link-2.0.0-content.zip
++++ target/io.wcm.handler.link-2.0.0-content.zip
+├── zipinfo {}
+│ @@ -1,199 +1,199 @@
+│ -Zip file size: 106469 bytes, number of entries: 197
+│ --rw----     2.0 fat        0 bl defN 24-Jan-26 20:15 META-INF/
+│ --rw----     2.0 fat        0 bl defN 24-Jan-26 20:15 META-INF/vault/
+...
+│ --rw----     2.0 fat    17128 bl defN 24-Jan-26 20:15 jcr_root/apps/wcm-io/handler/link/templates/redirect/thumbnail.png
+│ --rw----     2.0 fat      750 bl defN 24-Jan-26 20:15 jcr_root/apps/wcm-io/handler/link/templates/redirect/.content.xml
+│ -197 files, 125640 bytes uncompressed, 47177 bytes compressed:  62.5%
+│ +Zip file size: 106466 bytes, number of entries: 197
+│ +-rw----     2.0 fat        0 bl defN 24-Jan-28 07:47 META-INF/
+│ +-rw----     2.0 fat        0 bl defN 24-Jan-28 07:47 META-INF/vault/
+...
+│ +-rw----     2.0 fat    17128 bl defN 24-Jan-28 07:47 jcr_root/apps/wcm-io/handler/link/templates/redirect/thumbnail.png
+│ +-rw----     2.0 fat      750 bl defN 24-Jan-28 07:47 jcr_root/apps/wcm-io/handler/link/templates/redirect/.content.xml
+│ +197 files, 125635 bytes uncompressed, 47174 bytes compressed:  62.5%
+├── META-INF/vault/properties.xml
+│ ├── META-INF/vault/properties.xml
+│ │ @@ -1,13 +1,13 @@
+│ │  <?xml version="1.0" encoding="utf-8"?>
+│ │  <!DOCTYPE properties
+│ │    SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
+│ │  <properties>
+│ │    <entry key="allowIndexDefinitions">false</entry>
+│ │    <entry key="createdBy">admin</entry>
+│ │ -  <entry key="created">2024-01-26T20:15:13.711+01:00</entry>
+│ │ +  <entry key="created">2024-01-28T07:47:11.686Z</entry>
+│ │    <entry key="name">io.wcm.handler.link-content</entry>
+│ │    <entry key="version">2.0.0</entry>
+│ │    <entry key="packageType">application</entry>
+│ │    <entry key="requiresRoot">false</entry>
+│ │    <entry key="group">wcm-io</entry>
+│ │  </properties>
+
+2 / 2 target/reference/io.wcm/io.wcm.handler.link-2.0.0-bundle.jar target/io.wcm.handler.link-2.0.0-bundle.jar
+--- target/reference/io.wcm/io.wcm.handler.link-2.0.0-bundle.jar
++++ target/io.wcm.handler.link-2.0.0-bundle.jar
+├── zipinfo {}
+│ @@ -1,66 +1,66 @@
+│  Zip file size: 62187 bytes, number of entries: 64
+│ --rw----     2.0 fat        0 bl defN 24-Jan-26 20:15 META-INF/
+│ --rw----     2.0 fat     6108 bl defN 24-Jan-26 20:15 META-INF/MANIFEST.MF
+...
+│ --rw----     2.0 fat     7956 bl defN 24-Jan-26 20:15 META-INF/maven/io.wcm/io.wcm.handler.link/pom.xml
+│ --rw----     2.0 fat       63 bl defN 24-Jan-26 20:15 META-INF/maven/io.wcm/io.wcm.handler.link/pom.properties
+│ +-rw----     2.0 fat        0 bl defN 24-Jan-28 07:47 META-INF/
+│ +-rw----     2.0 fat     6108 bl defN 24-Jan-28 07:47 META-INF/MANIFEST.MF
+...
+│ +-rw----     2.0 fat     7956 bl defN 24-Jan-28 07:47 META-INF/maven/io.wcm/io.wcm.handler.link/pom.xml
+│ +-rw----     2.0 fat       63 bl defN 24-Jan-28 07:47 META-INF/maven/io.wcm/io.wcm.handler.link/pom.properties
+│  64 files, 129479 bytes uncompressed, 50883 bytes compressed:  60.7%
+
