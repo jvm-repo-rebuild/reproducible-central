@@ -13,6 +13,7 @@ rebuilding **2 releases** of org.mybatis:mybatis-guice:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [4.0.0](https://central.sonatype.com/artifact/org.mybatis/mybatis-guice/4.0.0/pom) | | | |
 | [3.18](https://central.sonatype.com/artifact/org.mybatis/mybatis-guice/3.18/pom) | [mvn jdk17 w](mybatis-guice-3.18.buildspec) | [result](mybatis-guice-3.18.buildinfo): [3 :heavy_check_mark: ](mybatis-guice-3.18.buildcompare) | 245K |
 | [3.17](https://central.sonatype.com/artifact/org.mybatis/mybatis-guice/3.17/pom) | [mvn jdk11 w](mybatis-guice-3.17.buildspec) | [result](mybatis-guice-3.17.buildinfo): [3 :heavy_check_mark: ](mybatis-guice-3.17.buildcompare) | 239K |
 
