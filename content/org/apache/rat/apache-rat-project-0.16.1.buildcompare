@@ -1,0 +1,9 @@
+version=0.16.1
+ok=20
+ko=0
+ignored=0
+okFiles="apache-rat-project-0.16.1.pom apache-rat-project-0.16.1-site.xml apache-rat-core-0.16.1.pom apache-rat-core-0.16.1.jar apache-rat-core-0.16.1-sources.jar apache-rat-core-0.16.1-tests.jar apache-rat-plugin-0.16.1.pom apache-rat-plugin-0.16.1.jar apache-rat-plugin-0.16.1-sources.jar apache-rat-tasks-0.16.1.pom apache-rat-tasks-0.16.1.jar apache-rat-tasks-0.16.1-sources.jar apache-rat-0.16.1.pom apache-rat-0.16.1.jar apache-rat-0.16.1-bin.zip apache-rat-0.16.1-bin.tar.gz apache-rat-0.16.1-bin.tar.bz2 apache-rat-0.16.1-src.zip apache-rat-0.16.1-src.tar.gz apache-rat-0.16.1-src.tar.bz2"
+koFiles=""
+ignoredFiles=""
+reference_java_version="16 (from MANIFEST.MF Build-Jdk-Spec)"
+reference_os_name="Unix (from pom.properties newline)"
