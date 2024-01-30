@@ -4,8 +4,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20240129121406 --> [maven-resolver](../content/org/apache/maven/resolver/maven-resolver/README.md) | [2.0.0-alpha-6](../content/org/apache/maven/resolver/maven-resolver/maven-resolver-2.0.0-alpha-6.buildspec) :heavy_check_mark: | [2.0.0-alpha-7](../content/org/apache/maven/resolver/maven-resolver/maven-resolver-2.0.0-alpha-7.buildspec) | `bin/add-new-release.sh content/org/apache/maven/resolver/maven-resolver/maven-resolver-2.0.0-alpha-6.buildspec 2.0.0-alpha-7` |
-| <!-- 20240129005443 --> [mybatis-guice](../content/org/mybatis/guice/README.md) | [3.18](../content/org/mybatis/guice/mybatis-guice-3.18.buildspec) :heavy_check_mark: | [4.0.0](../content/org/mybatis/guice/mybatis-guice-4.0.0.buildspec) | `bin/add-new-release.sh content/org/mybatis/guice/mybatis-guice-3.18.buildspec 4.0.0` |
+| <!-- 20240130140550 --> [jmeter-java-dsl-parent](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | [1.24](../content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-1.24.buildspec) :heavy_check_mark: | [1.25](../content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-1.25.buildspec) | `bin/add-new-release.sh content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-1.24.buildspec 1.25` |
+| <!-- 20240130075023 --> [hsac-fitnesse-fixtures](../content/nl/hsac/hsac-fitnesse-fixtures/README.md) | [5.3.7](../content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.3.7.buildspec) :heavy_check_mark: | [5.3.8](../content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.3.8.buildspec) | `bin/add-new-release.sh content/nl/hsac/hsac-fitnesse-fixtures/hsac-fitnesse-fixtures-5.3.7.buildspec 5.3.8` |
 | <!-- 20240128172515 --> [yauaa](../content/nl/basjes/parse/useragent/yauaa/README.md) | [7.23.0](../content/nl/basjes/parse/useragent/yauaa/yauaa-7.23.0.buildspec) :heavy_check_mark: | [7.25.0](../content/nl/basjes/parse/useragent/yauaa/yauaa-7.25.0.buildspec) | `bin/add-new-release.sh content/nl/basjes/parse/useragent/yauaa/yauaa-7.23.0.buildspec 7.25.0` |
 | <!-- 20240128012907 --> [spoon-core](../content/fr/inria/gforge/spoon/spoon-core/README.md) | [10.4.2](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec) :heavy_check_mark: | [10.4.3-beta-17](../content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.3-beta-17.buildspec) | `bin/add-new-release.sh content/fr/inria/gforge/spoon/spoon-core/spoon-core-10.4.2.buildspec 10.4.3-beta-17` |
 | <!-- 20240114142516 --> [codeowners-parent](../content/nl/basjes/codeowners/codeowners-parent/README.md) | [1.2.1](../content/nl/basjes/codeowners/codeowners-parent/codeowners-parent-1.2.1.buildspec) :heavy_check_mark: | [1.3.1](../content/nl/basjes/codeowners/codeowners-parent/codeowners-parent-1.3.1.buildspec) | `bin/add-new-release.sh content/nl/basjes/codeowners/codeowners-parent/codeowners-parent-1.2.1.buildspec 1.3.1` |
@@ -19,9 +19,11 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20240130144911 --> [nifi](../content/org/apache/nifi/nifi/README.md) | [1.22.0](../content/org/apache/nifi/nifi/nifi-1.22.0.buildspec) :warning: | [2.0.0-M2](../content/org/apache/nifi/nifi/nifi-2.0.0-M2.buildspec) | `bin/add-new-release.sh content/org/apache/nifi/nifi/nifi-1.22.0.buildspec 2.0.0-M2` |
+| <!-- 20240130141751 --> [artemis-pom](../content/org/apache/activemq/artemis/README.md) | [2.31.2](../content/org/apache/activemq/artemis/artemis-2.31.2.buildspec) :warning: | [2.32.0](../content/org/apache/activemq/artemis/artemis-2.32.0.buildspec) | `bin/add-new-release.sh content/org/apache/activemq/artemis/artemis-2.31.2.buildspec 2.32.0` |
+| <!-- 20240130095655 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.3.0](../content/org/apache/camel/camel/camel-4.3.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.3.0` |
+| <!-- 20240130092440 --> [langchain4j](../content/dev/langchain4j/README.md) | [0.26.0](../content/dev/langchain4j/langchain4j-0.26.0.buildspec) :warning: [:memo:](https://github.com/langchain4j/langchain4j/pull/569) | [0.26.1](../content/dev/langchain4j/langchain4j-0.26.1.buildspec) | `bin/add-new-release.sh content/dev/langchain4j/langchain4j-0.26.0.buildspec 0.26.1` |
 | <!-- 20240129192941 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.37.8](../content/org/finos/legend/engine/legend-engine-4.37.8.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.37.8` |
-| <!-- 20240129140304 --> [nifi](../content/org/apache/nifi/nifi/README.md) | [1.22.0](../content/org/apache/nifi/nifi/nifi-1.22.0.buildspec) :warning: | [2.0.0-M2](../content/org/apache/nifi/nifi/nifi-2.0.0-M2.buildspec) | `bin/add-new-release.sh content/org/apache/nifi/nifi/nifi-1.22.0.buildspec 2.0.0-M2` |
-| <!-- 20240129105848 --> [camel](../content/org/apache/camel/camel/README.md) | [4.0.0-RC1](../content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec) :warning: | [4.3.0](../content/org/apache/camel/camel/camel-4.3.0.buildspec) | `bin/add-new-release.sh content/org/apache/camel/camel/camel-4.0.0-RC1.buildspec 4.3.0` |
 | <!-- 20240126191246 --> [io.wcm.handler.media](../content/io/wcm/io.wcm.handler/media/README.md) | [1.15.6](../content/io/wcm/io.wcm.handler/media/wcm-media-1.15.6.buildspec) :warning: | [2.0.0](../content/io/wcm/io.wcm.handler/media/wcm-media-2.0.0.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.handler/media/wcm-media-1.15.6.buildspec 2.0.0` |
 | <!-- 20240126162037 --> [io.wcm.wcm.ui.granite](../content/io/wcm/io.wcm.wcm/ui/granite/README.md) | [1.9.12](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.9.12.buildspec) :warning: | [1.10.2](../content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.10.2.buildspec) | `bin/add-new-release.sh content/io/wcm/io.wcm.wcm/ui/granite/wcm-ui-granite-1.9.12.buildspec 1.10.2` |
 | <!-- 20240122195143 --> [acs-aem-commons](../content/com/adobe/acs/aem-commons/README.md) | [6.0.14](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.0.14.buildspec) :warning: | [6.3.6](../content/com/adobe/acs/aem-commons/acs-aem-commons-6.3.6.buildspec) | `bin/add-new-release.sh content/com/adobe/acs/aem-commons/acs-aem-commons-6.0.14.buildspec 6.3.6` |
@@ -60,6 +62,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20240130182529 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 8.0.0-M1 :x: |
 | <!-- 20240127121230 --> [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | 2.11.0 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-servlets-resolver/pull/39) |
 | <!-- 20240127121220 --> [org.apache.sling.rewriter](../content/org/apache/sling/org.apache.sling.rewriter/README.md) | 1.3.10 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-rewriter/pull/13) |
 | <!-- 20240126192007 --> [io.wcm.handler.richtext](../content/io/wcm/io.wcm.handler/richtext/README.md) | 2.0.0 :warning: |
@@ -74,7 +77,6 @@ New Releases To Add
 | <!-- 20240110201843 --> [parent](../content/org/phoebus/README.md) | 4.7.3 :warning: [:memo:](https://github.com/ControlSystemStudio/phoebus/pull/2904) |
 | <!-- 20240108180608 --> [slf4j-parent](../content/org/slf4j/README.md) | 2.1.0-alpha1 :warning: |
 | <!-- 20231226082110 --> [syncope](../content/org/apache/syncope/README.md) | 3.0.6 :warning: |
-| <!-- 20231223145540 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 8.0.0-M1 :x: |
 | <!-- 20231221150055 --> [com.io7m.idstore](../content/com/io7m/idstore/README.md) | 1.0.0 :warning: |
 | <!-- 20231212082000 --> [efx-toolkit-java](../content/eu/europa/ted/eforms/efx-toolkit-java/README.md) | 2.0.0-alpha.2 :warning: |
 | <!-- 20231209062826 --> [paimon-parent](../content/org/apache/paimon/README.md) | 0.6.0-incubating :warning: [:memo:](https://github.com/apache/incubator-paimon/pull/2519) |
@@ -87,7 +89,6 @@ New Releases To Add
 | <!-- 20231111042458 --> [shiro-root](../content/org/apache/shiro/README.md) | 2.0.0-alpha-4 :warning: |
 | <!-- 20231107092446 --> [johnzon](../content/org/apache/johnzon/README.md) | 2.0.0 :warning: [:memo:](https://github.com/apache/johnzon/pull/114) |
 | <!-- 20231104100154 --> [jackrabbit-filevault](../content/org/apache/jackrabbit/filevault/README.md) | 3.7.2 :warning: |
-| <!-- 20231027141156 --> [artemis-pom](../content/org/apache/activemq/artemis/README.md) | 2.31.2 :warning: |
 | <!-- 20231021094255 --> [git-commit-id-maven-plugin](../content/io/github/git-commit-id/README.md) | 7.0.0 :warning: |
 | <!-- 20231012084342 --> [jansi](../content/org/fusesource/jansi/jansi/README.md) | 2.4.1 :warning: [:memo:](https://github.com/moditect/moditect/pull/211) |
 | <!-- 20231009100347 --> [parent](../content/org/apache/zookeeper/README.md) | 3.9.1 :warning: [:memo:](https://github.com/apache/zookeeper/pull/2042) |

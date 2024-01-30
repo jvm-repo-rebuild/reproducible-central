@@ -9,41 +9,41 @@ Source code: [https://github.com/apache/maven-resolver.git](https://github.com/a
 
 <details><summary>This project defines 26 modules:</summary>
 
-* [org.apache.maven.resolver:maven-resolver](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.0-alpha-6)
-* [org.apache.maven.resolver:maven-resolver-api](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-api/2.0.0-alpha-6)
-* [org.apache.maven.resolver:maven-resolver-connector-basic](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-connector-basic/2.0.0-alpha-6)
-* [org.apache.maven.resolver:maven-resolver-impl](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-impl/2.0.0-alpha-6)
-* [org.apache.maven.resolver:maven-resolver-named-locks](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-named-locks/2.0.0-alpha-6)
-* [org.apache.maven.resolver:maven-resolver-named-locks-hazelcast](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-named-locks-hazelcast/2.0.0-alpha-6)
-* [org.apache.maven.resolver:maven-resolver-named-locks-redisson](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-named-locks-redisson/2.0.0-alpha-6)
-* [org.apache.maven.resolver:maven-resolver-spi](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-spi/2.0.0-alpha-6)
-* [org.apache.maven.resolver:maven-resolver-supplier](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-supplier/2.0.0-alpha-6)
-* [org.apache.maven.resolver:maven-resolver-synccontext-global](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-synccontext-global/2.0.0-alpha-6)
-* [org.apache.maven.resolver:maven-resolver-synccontext-redisson](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-synccontext-redisson/2.0.0-alpha-6)
-* [org.apache.maven.resolver:maven-resolver-test-http](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-test-http/2.0.0-alpha-6)
-* [org.apache.maven.resolver:maven-resolver-test-util](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-test-util/2.0.0-alpha-6)
-* [org.apache.maven.resolver:maven-resolver-transport-apache](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-apache/2.0.0-alpha-6)
-* [org.apache.maven.resolver:maven-resolver-transport-classpath](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-classpath/2.0.0-alpha-6)
-* [org.apache.maven.resolver:maven-resolver-transport-file](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-file/2.0.0-alpha-6)
-* [org.apache.maven.resolver:maven-resolver-transport-http](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-http/2.0.0-alpha-6)
-* [org.apache.maven.resolver:maven-resolver-transport-jdk](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-jdk/2.0.0-alpha-6)
-* [org.apache.maven.resolver:maven-resolver-transport-jdk-11](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-jdk-11/2.0.0-alpha-6)
-* [org.apache.maven.resolver:maven-resolver-transport-jdk-19](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-jdk-19/2.0.0-alpha-6)
-* [org.apache.maven.resolver:maven-resolver-transport-jdk-21](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-jdk-21/2.0.0-alpha-6)
-* [org.apache.maven.resolver:maven-resolver-transport-jdk-8](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-jdk-8/2.0.0-alpha-6)
-* [org.apache.maven.resolver:maven-resolver-transport-jdk-parent](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-jdk-parent/2.0.0-alpha-6)
-* [org.apache.maven.resolver:maven-resolver-transport-jetty](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-jetty/2.0.0-alpha-6)
-* [org.apache.maven.resolver:maven-resolver-transport-wagon](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-wagon/2.0.0-alpha-6)
-* [org.apache.maven.resolver:maven-resolver-util](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-util/2.0.0-alpha-6)
+* [org.apache.maven.resolver:maven-resolver](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.0-alpha-7)
+* [org.apache.maven.resolver:maven-resolver-api](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-api/2.0.0-alpha-7)
+* [org.apache.maven.resolver:maven-resolver-connector-basic](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-connector-basic/2.0.0-alpha-7)
+* [org.apache.maven.resolver:maven-resolver-impl](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-impl/2.0.0-alpha-7)
+* [org.apache.maven.resolver:maven-resolver-named-locks](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-named-locks/2.0.0-alpha-7)
+* [org.apache.maven.resolver:maven-resolver-named-locks-hazelcast](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-named-locks-hazelcast/2.0.0-alpha-7)
+* [org.apache.maven.resolver:maven-resolver-named-locks-redisson](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-named-locks-redisson/2.0.0-alpha-7)
+* [org.apache.maven.resolver:maven-resolver-spi](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-spi/2.0.0-alpha-7)
+* [org.apache.maven.resolver:maven-resolver-supplier](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-supplier/2.0.0-alpha-7)
+* [org.apache.maven.resolver:maven-resolver-synccontext-global](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-synccontext-global/2.0.0-alpha-7)
+* [org.apache.maven.resolver:maven-resolver-synccontext-redisson](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-synccontext-redisson/2.0.0-alpha-7)
+* [org.apache.maven.resolver:maven-resolver-test-http](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-test-http/2.0.0-alpha-7)
+* [org.apache.maven.resolver:maven-resolver-test-util](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-test-util/2.0.0-alpha-7)
+* [org.apache.maven.resolver:maven-resolver-transport-apache](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-apache/2.0.0-alpha-7)
+* [org.apache.maven.resolver:maven-resolver-transport-classpath](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-classpath/2.0.0-alpha-7)
+* [org.apache.maven.resolver:maven-resolver-transport-file](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-file/2.0.0-alpha-7)
+* [org.apache.maven.resolver:maven-resolver-transport-http](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-http/2.0.0-alpha-7)
+* [org.apache.maven.resolver:maven-resolver-transport-jdk](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-jdk/2.0.0-alpha-7)
+* [org.apache.maven.resolver:maven-resolver-transport-jdk-11](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-jdk-11/2.0.0-alpha-7)
+* [org.apache.maven.resolver:maven-resolver-transport-jdk-19](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-jdk-19/2.0.0-alpha-7)
+* [org.apache.maven.resolver:maven-resolver-transport-jdk-21](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-jdk-21/2.0.0-alpha-7)
+* [org.apache.maven.resolver:maven-resolver-transport-jdk-8](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-jdk-8/2.0.0-alpha-7)
+* [org.apache.maven.resolver:maven-resolver-transport-jdk-parent](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-jdk-parent/2.0.0-alpha-7)
+* [org.apache.maven.resolver:maven-resolver-transport-jetty](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-jetty/2.0.0-alpha-7)
+* [org.apache.maven.resolver:maven-resolver-transport-wagon](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-transport-wagon/2.0.0-alpha-7)
+* [org.apache.maven.resolver:maven-resolver-util](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver-util/2.0.0-alpha-7)
 </details>
 
-rebuilding **33 releases** of org.apache.maven.resolver:maven-resolver:
-- **31** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+rebuilding **34 releases** of org.apache.maven.resolver:maven-resolver:
+- **32** releases were found successfully **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
 - 2 had issues (some unreproducible artifacts :warning:, see eventual :mag: diffoscope and/or :memo: issue tracker links):
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
-| [2.0.0-alpha-7](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.0-alpha-7/pom) | | | |
+| [2.0.0-alpha-7](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.0-alpha-7/pom) | [mvn jdk21](maven-resolver-2.0.0-alpha-7.buildspec) | [result](maven-resolver-2.0.0-alpha-7.buildinfo): [109 :heavy_check_mark: ](maven-resolver-2.0.0-alpha-7.buildcompare) | 13M |
 | [2.0.0-alpha-6](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.0-alpha-6/pom) | [mvn jdk21](maven-resolver-2.0.0-alpha-6.buildspec) | [result](maven-resolver-2.0.0-alpha-6.buildinfo): [109 :heavy_check_mark: ](maven-resolver-2.0.0-alpha-6.buildcompare) | 13M |
 | [2.0.0-alpha-5](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.0-alpha-5/pom) | [mvn jdk21](maven-resolver-2.0.0-alpha-5.buildspec) | [result](maven-resolver-2.0.0-alpha-5.buildinfo): [109 :heavy_check_mark: ](maven-resolver-2.0.0-alpha-5.buildcompare) | 13M |
 | [2.0.0-alpha-3](https://central.sonatype.com/artifact/org.apache.maven.resolver/maven-resolver/2.0.0-alpha-3/pom) | [mvn jdk21](maven-resolver-2.0.0-alpha-3.buildspec) | [result](maven-resolver-2.0.0-alpha-3.buildinfo): [99 :heavy_check_mark: ](maven-resolver-2.0.0-alpha-3.buildcompare) | 13M |

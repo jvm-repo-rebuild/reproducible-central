@@ -793,6 +793,7 @@ rebuilding **8 releases** of org.apache.nifi:nifi:
 | -- | --------- | ------ | -- |
 | [2.0.0-M2](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.0.0-M2/pom) | | | |
 | [2.0.0-M1](https://central.sonatype.com/artifact/org.apache.nifi/nifi/2.0.0-M1/pom) | | | |
+| [1.25.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.25.0/pom) | | | |
 | [1.24.0](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.24.0/pom) | | | |
 | [1.23.2](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.23.2/pom) | | | |
 | [1.23.1](https://central.sonatype.com/artifact/org.apache.nifi/nifi/1.23.1/pom) | | | |
