@@ -1,0 +1,19 @@
+groupId=dev.langchain4j
+artifactId=langchain4j
+display=${groupId}:${artifactId}
+version=0.26.0
+
+gitRepo=https://github.com/langchain4j/langchain4j.git
+gitTag=${version}
+
+tool=mvn
+jdk=8
+newline=lf
+#umask=022
+
+# base build is done with JDK 8, but some modules require JDK 11, 17, 21: see main and release in https://github.com/langchain4j/langchain4j/tree/main/.github/workflows
+command="mvn clean && mvn package -DskipTests -Dmaven.javadoc.skip -Dgpg.skip -pl !code-execution-engines/langchain4j-code-execution-engine-graalvm-polyglot,!langchain4j-neo4j,!langchain4j-opensearch"
+buildinfo=target/${artifactId}-aggregator-${version}.buildinfo
+
+#diffoscope=${artifactId}-aggregator-${version}.diffoscope
+issue=https://github.com/langchain4j/langchain4j/pull/569
