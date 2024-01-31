@@ -13,6 +13,7 @@ rebuilding **1 releases** of org.sentrysoftware:printf4j:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.9.06](https://central.sonatype.com/artifact/org.sentrysoftware/printf4j/0.9.06/pom) | | | |
 | [0.9.05](https://central.sonatype.com/artifact/org.sentrysoftware/printf4j/0.9.05/pom) | [mvn jdk17](printf4j-0.9.05.buildspec) | [result](printf4j-0.9.05.buildinfo): [3 :heavy_check_mark: ](printf4j-0.9.05.buildcompare) | 26K |
 
 <i>(size is calculated without javadoc, that has been excluded from reproducibility checks)</i>
