@@ -1,0 +1,201 @@
+# need to reuse timestamp already set previously https://github.com/jetty/jetty.project/blob/78ab6e6ba163f89cdd97f2ae0283fbb5e371cfaf/jetty-core/jetty-util/pom.xml#L76
+# instead of recreating: https://github.com/jetty/jetty.project/blob/78ab6e6ba163f89cdd97f2ae0283fbb5e371cfaf/jetty-core/jetty-start/pom.xml#L112
+1 / 7 target/reference/org.eclipse.jetty/jetty-start-12.0.6.jar jetty-core/jetty-start/target/jetty-start-12.0.6.jar
+--- target/reference/org.eclipse.jetty/jetty-start-12.0.6.jar
++++ jetty-core/jetty-start/target/jetty-start-12.0.6.jar
+├── org/eclipse/jetty/start/build.properties
+│ @@ -1,4 +1,4 @@
+│  buildNumber=78ab6e6ba163f89cdd97f2ae0283fbb5e371cfaf
+│ -timestamp=1706582828325
+│ +timestamp=1706582604387
+│  version=12.0.6
+│  scmUrl=scm:git:https://github.com/jetty/jetty.project.git/jetty-core/jetty-start
+
+2 / 7 target/reference/org.eclipse.jetty/jetty-start-12.0.6-shaded.jar jetty-core/jetty-start/target/jetty-start-12.0.6-shaded.jar
+--- target/reference/org.eclipse.jetty/jetty-start-12.0.6-shaded.jar
++++ jetty-core/jetty-start/target/jetty-start-12.0.6-shaded.jar
+├── org/eclipse/jetty/start/build.properties
+│ @@ -1,4 +1,4 @@
+│  buildNumber=78ab6e6ba163f89cdd97f2ae0283fbb5e371cfaf
+│ -timestamp=1706582828325
+│ +timestamp=1706582604387
+│  version=12.0.6
+│  scmUrl=scm:git:https://github.com/jetty/jetty.project.git/jetty-core/jetty-start
+
+3 / 7 target/reference/org.eclipse.jetty/jetty-home-12.0.6-cyclonedx.xml jetty-home/target/jetty-home-12.0.6-cyclonedx.xml
+--- target/reference/org.eclipse.jetty/jetty-home-12.0.6-cyclonedx.xml
++++ jetty-home/target/jetty-home-12.0.6-cyclonedx.xml
+│   --- target/reference/org.eclipse.jetty/jetty-home-12.0.6-cyclonedx.xml
+├── +++ jetty-home/target/jetty-home-12.0.6-cyclonedx.xml
+│ @@ -2949,22 +2949,22 @@
+│        <publisher>Webtide</publisher>
+│        <group>org.eclipse.jetty</group>
+│        <name>jetty-start</name>
+│        <version>12.0.6</version>
+│        <description>The start utility</description>
+│        <scope>required</scope>
+│        <hashes>
+│ -        <hash alg="MD5">1c757c7811ff67df4840daafbf1a1389</hash>
+│ -        <hash alg="SHA-1">433cda8d116a7624e11a19313b2d5aa639df5b03</hash>
+│ -        <hash alg="SHA-256">427fc99ee0a4d640fa341cda9c23a4012b9800b1ec84c7b132913a3e5380e983</hash>
+│ -        <hash alg="SHA-512">3bd8b4fa09afe954113d330e11288d276320b5e755781b05593910952b35e70084705c16dddcca13c7c7a97f7ba421f8ae0018823659ada12c92face0191306f</hash>
+│ -        <hash alg="SHA-384">de394a1444e2a7d690ac2f302f5c4f23699b0139831ee791ea4783258688e42994ce3907e284361d98b313c634233e30</hash>
+│ -        <hash alg="SHA3-384">586d252e3b2d1597ea0b94ee22e7b6f34cad0112649729c01990bafd809ecccc9dbfb387d52d733085cf3079910c7958</hash>
+│ -        <hash alg="SHA3-256">a2bcf6ca68acb9ddbf08854664ec041210d31f705795bf8de162756fa4718d04</hash>
+│ -        <hash alg="SHA3-512">3a3a45190e30436beba623acd13ee915020a57a7d922c1fb0350f080cf49e7cb958e4ffc2b82b148c6ce6e6d428284ebca9ab1889a2c44396b4e3d515bbda4c1</hash>
+│ +        <hash alg="MD5">eb1311c54831666c82d1ddb616603efc</hash>
+│ +        <hash alg="SHA-1">a771eb606b48917df8c73bf924548d5abf589a6d</hash>
+│ +        <hash alg="SHA-256">d4bc4527830f996e41243e5deef4382b30255655979feab60fb4bfeceff3a0fa</hash>
+│ +        <hash alg="SHA-512">3548c0a2cf0460500f72c3c387d130337ffe2b819c4e014043ab7d783559ffcc6617045104d8be8978c5138c2ae0d643d9807dc65b4fdaf4bb76ed187b4b7559</hash>
+│ +        <hash alg="SHA-384">c303efd48bcc90514beabf58102e219c11f7f0ac4d537f9c81c98a63c3c3f3f7bcc82fe504609091559282468b12a676</hash>
+│ +        <hash alg="SHA3-384">db42d9280a87099f529a993530a964b4ab8c9ab9dfb0b73f98954062cd8d6de54be10b2c2a51009946b1c4849c4d97c9</hash>
+│ +        <hash alg="SHA3-256">30d20499415be236841755706eb1fab26ebb836eeddb5d8f776c5c2de0cbcee4</hash>
+│ +        <hash alg="SHA3-512">2586f8f506e49aaccfa77c81bad167657122fb3866d59c6946ef5821c5ebcbd84fad292483983a1de04506fba9a7d3a345ed43d9b20bb3240128349b4e6f7799</hash>
+│        </hashes>
+│        <licenses>
+│          <license>
+│            <id>EPL-2.0</id>
+│          </license>
+│          <license>
+│            <id>Apache-2.0</id>
+
+4 / 7 target/reference/org.eclipse.jetty/jetty-home-12.0.6-cyclonedx.json jetty-home/target/jetty-home-12.0.6-cyclonedx.json
+--- target/reference/org.eclipse.jetty/jetty-home-12.0.6-cyclonedx.json
++++ jetty-home/target/jetty-home-12.0.6-cyclonedx.json
+
+5 / 7 target/reference/org.eclipse.jetty/jetty-home-12.0.6.tar.gz jetty-home/target/jetty-home-12.0.6.tar.gz
+--- target/reference/org.eclipse.jetty/jetty-home-12.0.6.tar.gz
++++ jetty-home/target/jetty-home-12.0.6.tar.gz
+├── jetty-home-12.0.6.tar
+│ ├── file list
+│ │ @@ -621,11 +621,11 @@
+│ │  -r--r--r--   0 root         (0) root         (0)     1066 2023-06-05 23:12:49.000000 jetty-home-12.0.6/modules/threadpool-virtual.mod
+│ │  -r--r--r--   0 root         (0) root         (0)      937 2023-06-05 23:12:49.000000 jetty-home-12.0.6/modules/threadpool.mod
+│ │  -r--r--r--   0 root         (0) root         (0)     1000 2023-06-05 23:12:49.000000 jetty-home-12.0.6/modules/unixdomain-http.mod
+│ │  -r--r--r--   0 root         (0) root         (0)      393 2023-06-05 23:12:49.000000 jetty-home-12.0.6/modules/websocket-jetty-client.mod
+│ │  -r--r--r--   0 root         (0) root         (0)      392 2023-06-05 23:12:49.000000 jetty-home-12.0.6/modules/websocket-jetty.mod
+│ │  -r--r--r--   0 root         (0) root         (0)      540 2023-06-05 23:12:49.000000 jetty-home-12.0.6/modules/well-known.mod
+│ │  -r--r--r--   0 root         (0) root         (0)      346 2023-06-05 23:12:49.000000 jetty-home-12.0.6/modules/work.mod
+│ │ --r--r--r--   0 root         (0) root         (0)   182829 2023-06-05 23:12:49.000000 jetty-home-12.0.6/start.jar
+│ │ +-r--r--r--   0 root         (0) root         (0)   182830 2023-06-05 23:12:49.000000 jetty-home-12.0.6/start.jar
+│ │  -r-xr-xr-x   0 root         (0) root         (0)    20262 2023-06-05 23:12:49.000000 jetty-home-12.0.6/bin/jetty.sh
+│ │  -rw-r--r--   0 root         (0) root         (0)   700918 2023-06-05 23:12:49.000000 jetty-home-12.0.6/jetty-home-12.0.6-cyclonedx.json
+│ │  -rw-r--r--   0 root         (0) root         (0)   603608 2023-06-05 23:12:49.000000 jetty-home-12.0.6/jetty-home-12.0.6-cyclonedx.xml
+│ ├── jetty-home-12.0.6/start.jar
+│ │ ├── org/eclipse/jetty/start/build.properties
+│ │ │ @@ -1,4 +1,4 @@
+│ │ │  buildNumber=78ab6e6ba163f89cdd97f2ae0283fbb5e371cfaf
+│ │ │ -timestamp=1706582828325
+│ │ │ +timestamp=1706582604387
+│ │ │  version=12.0.6
+│ │ │  scmUrl=scm:git:https://github.com/jetty/jetty.project.git/jetty-core/jetty-start
+│ ├── jetty-home-12.0.6/jetty-home-12.0.6-cyclonedx.json
+...
+│ ├── jetty-home-12.0.6/jetty-home-12.0.6-cyclonedx.xml
+│ │ ├── jetty-home-12.0.6/jetty-home-12.0.6-cyclonedx.xml
+│ │ │ @@ -2949,22 +2949,22 @@
+│ │ │        <publisher>Webtide</publisher>
+│ │ │        <group>org.eclipse.jetty</group>
+│ │ │        <name>jetty-start</name>
+│ │ │        <version>12.0.6</version>
+│ │ │        <description>The start utility</description>
+│ │ │        <scope>required</scope>
+│ │ │        <hashes>
+│ │ │ -        <hash alg="MD5">1c757c7811ff67df4840daafbf1a1389</hash>
+│ │ │ -        <hash alg="SHA-1">433cda8d116a7624e11a19313b2d5aa639df5b03</hash>
+│ │ │ -        <hash alg="SHA-256">427fc99ee0a4d640fa341cda9c23a4012b9800b1ec84c7b132913a3e5380e983</hash>
+│ │ │ -        <hash alg="SHA-512">3bd8b4fa09afe954113d330e11288d276320b5e755781b05593910952b35e70084705c16dddcca13c7c7a97f7ba421f8ae0018823659ada12c92face0191306f</hash>
+│ │ │ -        <hash alg="SHA-384">de394a1444e2a7d690ac2f302f5c4f23699b0139831ee791ea4783258688e42994ce3907e284361d98b313c634233e30</hash>
+│ │ │ -        <hash alg="SHA3-384">586d252e3b2d1597ea0b94ee22e7b6f34cad0112649729c01990bafd809ecccc9dbfb387d52d733085cf3079910c7958</hash>
+│ │ │ -        <hash alg="SHA3-256">a2bcf6ca68acb9ddbf08854664ec041210d31f705795bf8de162756fa4718d04</hash>
+│ │ │ -        <hash alg="SHA3-512">3a3a45190e30436beba623acd13ee915020a57a7d922c1fb0350f080cf49e7cb958e4ffc2b82b148c6ce6e6d428284ebca9ab1889a2c44396b4e3d515bbda4c1</hash>
+│ │ │ +        <hash alg="MD5">eb1311c54831666c82d1ddb616603efc</hash>
+│ │ │ +        <hash alg="SHA-1">a771eb606b48917df8c73bf924548d5abf589a6d</hash>
+│ │ │ +        <hash alg="SHA-256">d4bc4527830f996e41243e5deef4382b30255655979feab60fb4bfeceff3a0fa</hash>
+│ │ │ +        <hash alg="SHA-512">3548c0a2cf0460500f72c3c387d130337ffe2b819c4e014043ab7d783559ffcc6617045104d8be8978c5138c2ae0d643d9807dc65b4fdaf4bb76ed187b4b7559</hash>
+│ │ │ +        <hash alg="SHA-384">c303efd48bcc90514beabf58102e219c11f7f0ac4d537f9c81c98a63c3c3f3f7bcc82fe504609091559282468b12a676</hash>
+│ │ │ +        <hash alg="SHA3-384">db42d9280a87099f529a993530a964b4ab8c9ab9dfb0b73f98954062cd8d6de54be10b2c2a51009946b1c4849c4d97c9</hash>
+│ │ │ +        <hash alg="SHA3-256">30d20499415be236841755706eb1fab26ebb836eeddb5d8f776c5c2de0cbcee4</hash>
+│ │ │ +        <hash alg="SHA3-512">2586f8f506e49aaccfa77c81bad167657122fb3866d59c6946ef5821c5ebcbd84fad292483983a1de04506fba9a7d3a345ed43d9b20bb3240128349b4e6f7799</hash>
+│ │ │        </hashes>
+│ │ │        <licenses>
+│ │ │          <license>
+│ │ │            <id>EPL-2.0</id>
+│ │ │          </license>
+│ │ │          <license>
+│ │ │            <id>Apache-2.0</id>
+
+6 / 7 target/reference/org.eclipse.jetty/jetty-home-12.0.6.zip jetty-home/target/jetty-home-12.0.6.zip
+...
+
+# we should probably ignore this generated documentation...
+7 / 7 target/reference/org.eclipse.jetty.documentation/jetty-documentation-12.0.6-html.zip documentation/jetty-documentation/target/jetty-documentation-12.0.6-html.zip
+--- target/reference/org.eclipse.jetty.documentation/jetty-documentation-12.0.6-html.zip
++++ documentation/jetty-documentation/target/jetty-documentation-12.0.6-html.zip
+├── zipinfo {}
+│ @@ -1,8 +1,8 @@
+│ -Zip file size: 4254204 bytes, number of entries: 179
+│ +Zip file size: 4284432 bytes, number of entries: 179
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 12.0.6/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 12.0.6/contribution-guide/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 12.0.6/contribution-guide/images/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 12.0.6/old_docs/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 12.0.6/old_docs/alpn/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 12.0.6/old_docs/annotations/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Jun-05 23:12 12.0.6/old_docs/architecture/
+│ @@ -100,41 +100,41 @@
+│  -rw-r--r--  2.0 unx   281731 b- defN 23-Jun-05 23:12 12.0.6/old_docs/images/intellij_new_remote_config.png
+│  -rw-r--r--  2.0 unx   555356 b- defN 23-Jun-05 23:12 12.0.6/old_docs/images/intellij_select_debug.png
+│  -rw-r--r--  2.0 unx   405149 b- defN 23-Jun-05 23:12 12.0.6/old_docs/images/intellij_set_breakpoint.png
+│  -rw-r--r--  2.0 unx     4502 b- defN 23-Jun-05 23:12 12.0.6/old_docs/images/jetty-high-level-architecture.png
+│  -rw-r--r--  2.0 unx     9971 b- defN 23-Jun-05 23:12 12.0.6/old_docs/images/modules-9.3-simplified.dot
+│  -rw-r--r--  2.0 unx   306780 b- defN 23-Jun-05 23:12 12.0.6/old_docs/images/modules-9.3-simplified.png
+│  -rw-r--r--  2.0 unx   138765 b- defN 23-Jun-05 23:12 12.0.6/old_docs/images/windows-service-jetty.png
+│ --rw-r--r--  2.0 unx  1059974 b- defN 23-Jun-05 23:12 12.0.6/old_docs/index.html
+│ +-rw-r--r--  2.0 unx  1062142 b- defN 23-Jun-05 23:12 12.0.6/old_docs/index.html
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/.asciidoctor/diagram/diag-plantuml-md5-0f37d1d5b12f280e1587df6f3d528998.png.cache
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/.asciidoctor/diagram/diag-plantuml-md5-176305f848d18dc8b0c4ef7bd331705d.png.cache
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/.asciidoctor/diagram/diag-plantuml-md5-2830e38460d606111888c5df2a645163.png.cache
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/.asciidoctor/diagram/diag-plantuml-md5-65af24ee568fd7e4489f99596aaa20b1.png.cache
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/.asciidoctor/diagram/diag-plantuml-md5-70817cc5c7137abc9759cdcd3edbb658.png.cache
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/.asciidoctor/diagram/diag-plantuml-md5-7387dfbb6f9fb9cfa951a697aca488a8.png.cache
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/.asciidoctor/diagram/diag-plantuml-md5-792f4cd700f2b5af8fedd7b0249d25b4.png.cache
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/.asciidoctor/diagram/diag-plantuml-md5-8a7fb4bb9c84453a4bf01a24558e8026.png.cache
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/.asciidoctor/diagram/diag-plantuml-md5-9f323b812fd1edc8217715ca0c2ba8e9.png.cache
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/.asciidoctor/diagram/diag-plantuml-md5-cb8a854642d32c964b17f0a090ef16e3.png.cache
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/.asciidoctor/diagram/diag-plantuml-md5-e2488cc783b3434076c5a44ee7f19a2b.png.cache
+│  -rw-r--r--  2.0 unx    29039 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/asciidoctor.css
+│  -rw-r--r--  2.0 unx     3483 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/coderay-asciidoctor.css
+│ --rw-r--r--  2.0 unx    11685 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/images/diag-plantuml-md5-0f37d1d5b12f280e1587df6f3d528998.png
+│ --rw-r--r--  2.0 unx    13725 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/images/diag-plantuml-md5-176305f848d18dc8b0c4ef7bd331705d.png
+│ --rw-r--r--  2.0 unx    23836 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/images/diag-plantuml-md5-2830e38460d606111888c5df2a645163.png
+│ --rw-r--r--  2.0 unx    16912 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/images/diag-plantuml-md5-65af24ee568fd7e4489f99596aaa20b1.png
+│ --rw-r--r--  2.0 unx    11692 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/images/diag-plantuml-md5-70817cc5c7137abc9759cdcd3edbb658.png
+│ --rw-r--r--  2.0 unx     7121 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/images/diag-plantuml-md5-7387dfbb6f9fb9cfa951a697aca488a8.png
+│ --rw-r--r--  2.0 unx    11279 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/images/diag-plantuml-md5-792f4cd700f2b5af8fedd7b0249d25b4.png
+│ --rw-r--r--  2.0 unx    16909 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/images/diag-plantuml-md5-8a7fb4bb9c84453a4bf01a24558e8026.png
+│ --rw-r--r--  2.0 unx     8590 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/images/diag-plantuml-md5-9f323b812fd1edc8217715ca0c2ba8e9.png
+│ --rw-r--r--  2.0 unx    23657 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/images/diag-plantuml-md5-cb8a854642d32c964b17f0a090ef16e3.png
+│ --rw-r--r--  2.0 unx    16987 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/images/diag-plantuml-md5-e2488cc783b3434076c5a44ee7f19a2b.png
+│ +-rw-r--r--  2.0 unx    12668 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/images/diag-plantuml-md5-0f37d1d5b12f280e1587df6f3d528998.png
+│ +-rw-r--r--  2.0 unx    14819 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/images/diag-plantuml-md5-176305f848d18dc8b0c4ef7bd331705d.png
+│ +-rw-r--r--  2.0 unx    24494 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/images/diag-plantuml-md5-2830e38460d606111888c5df2a645163.png
+│ +-rw-r--r--  2.0 unx    19072 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/images/diag-plantuml-md5-65af24ee568fd7e4489f99596aaa20b1.png
+│ +-rw-r--r--  2.0 unx    12235 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/images/diag-plantuml-md5-70817cc5c7137abc9759cdcd3edbb658.png
+│ +-rw-r--r--  2.0 unx     7543 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/images/diag-plantuml-md5-7387dfbb6f9fb9cfa951a697aca488a8.png
+│ +-rw-r--r--  2.0 unx    12506 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/images/diag-plantuml-md5-792f4cd700f2b5af8fedd7b0249d25b4.png
+│ +-rw-r--r--  2.0 unx    18550 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/images/diag-plantuml-md5-8a7fb4bb9c84453a4bf01a24558e8026.png
+│ +-rw-r--r--  2.0 unx     8751 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/images/diag-plantuml-md5-9f323b812fd1edc8217715ca0c2ba8e9.png
+│ +-rw-r--r--  2.0 unx    23123 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/images/diag-plantuml-md5-cb8a854642d32c964b17f0a090ef16e3.png
+│ +-rw-r--r--  2.0 unx    18810 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/images/diag-plantuml-md5-e2488cc783b3434076c5a44ee7f19a2b.png
+│  -rw-r--r--  2.0 unx   268442 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/images/jmc-server-dump.png
+│ --rw-r--r--  2.0 unx   775481 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/index.html
+│ +-rw-r--r--  2.0 unx   775658 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/index.html
+│  -rw-r--r--  2.0 unx     1322 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/modules/module-requestlog.xsl
+│  -rw-r--r--  2.0 unx       95 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/start/jpms.mod
+│  -rw-r--r--  2.0 unx      104 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/start/jvm.mod
+│  -rw-r--r--  2.0 unx      300 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/start/postgresql.mod
+│  -rw-r--r--  2.0 unx      116 b- defN 23-Jun-05 23:12 12.0.6/operations-guide/troubleshooting/remote-debug.mod
+│  -rw-r--r--  2.0 unx      116 b- defN 23-Jun-05 23:12 12.0.6/programming-guide/.asciidoctor/diagram/diag-plantuml-md5-00328cb3d2df8187923760470ae4b579.png.cache
+│  -rw-r--r--  2.0 unx      117 b- defN 23-Jun-05 23:12 12.0.6/programming-guide/.asciidoctor/diagram/diag-plantuml-md5-05cfcead1245ff0fbcf3af8873998cee.png.cache
+...
