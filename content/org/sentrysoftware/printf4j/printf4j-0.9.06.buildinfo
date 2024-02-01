@@ -1,0 +1,37 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Printf4J
+group-id=org.sentrysoftware
+artifact-id=printf4j
+version=0.9.06
+
+# source information
+source.scm.uri=scm:git:https://github.com/sentrysoftware/printf4j.git
+source.scm.tag=v0.9.06
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=17
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+
+# output
+
+outputs.0.groupId=org.sentrysoftware
+outputs.0.filename=printf4j-0.9.06.pom
+outputs.0.length=9938
+outputs.0.checksums.sha512=88e6e75d577c4f8050e602a7dc10267fffddafd7f81be48a0a44713c094677412e59ebf47bba41298385977309301fa0a3aeed9491d5ed153d72e5be874e1be4
+
+outputs.1.groupId=org.sentrysoftware
+outputs.1.filename=printf4j-0.9.06.jar
+outputs.1.length=8451
+outputs.1.checksums.sha512=7b002d8d254725eaafc071b76d542f05bdc7cb1c64ab83fb03de4da2e770342489e8ec71c7b8a92d45d4b64d97c6fcacc4502b020b002ba1bd90e6505e949fd7
+
+outputs.2.groupId=org.sentrysoftware
+outputs.2.filename=printf4j-0.9.06-sources.jar
+outputs.2.length=8371
+outputs.2.checksums.sha512=adb0d280c524238557ea376d9b389e48d1643fe45d204d49d3a18e0fa5c6620096faaa3786198120cd5f44016d744ee8e66fe9ec88e9b124a318b85367d029ae
