@@ -1,0 +1,62 @@
+# configured <project.build.outputTimestamp>${maven.build.timestamp}</project.build.outputTimestamp>: current timestamp
+1 / 5 target/reference/org.apache.paimon/paimon-shade-guava-30-30.1.1-jre-0.6.0-incubating.jar paimon-shade-guava-30/target/paimon-shade-guava-30-30.1.1-jre-0.6.0-incubating.jar
+--- target/reference/org.apache.paimon/paimon-shade-guava-30-30.1.1-jre-0.6.0-incubating.jar
++++ paimon-shade-guava-30/target/paimon-shade-guava-30-30.1.1-jre-0.6.0-incubating.jar
+├── zipinfo {}
+│ @@ -1,13 +1,13 @@
+│  Zip file size: 3083125 bytes, number of entries: 2067
+│ --rw----     2.0 fat        0 bX defN 24-Jan-09 07:39 META-INF/
+│ --rw----     2.0 fat      362 bl defN 24-Jan-09 07:39 META-INF/MANIFEST.MF
+│ --rw----     2.0 fat     1597 bl defN 24-Jan-09 07:39 META-INF/DEPENDENCIES
+│ --rw----     2.0 fat      554 bl defN 24-Jan-09 07:39 META-INF/DISCLAIMER
+│ --rw----     2.0 fat    11358 bl defN 24-Jan-09 07:39 META-INF/LICENSE
+│ +-rw----     2.0 fat        0 bX defN 24-Feb-01 18:04 META-INF/
+│ +-rw----     2.0 fat      362 bl defN 24-Feb-01 18:04 META-INF/MANIFEST.MF
+│ +-rw----     2.0 fat     1597 bl defN 24-Feb-01 18:04 META-INF/DEPENDENCIES
+│ +-rw----     2.0 fat      554 bl defN 24-Feb-01 18:04 META-INF/DISCLAIMER
+│ +-rw----     2.0 fat    11358 bl defN 24-Feb-01 18:04 META-INF/LICENSE
+│  -rw----     2.0 fat        0 bl defN 21-Mar-19 11:40 org/
+│  -rw----     2.0 fat        0 bl defN 21-Mar-19 11:40 org/apache/
+│ @@ -2061,9 +2061,9 @@
+│  -rw----     2.0 fat      522 bl defN 18-Nov-19 12:57 org/apache/paimon/shade/guava30/com/google/common/util/concurrent/internal/InternalFutureFailureAccess.class
+│  -rw----     2.0 fat      903 bl defN 18-Nov-19 12:57 org/apache/paimon/shade/guava30/com/google/common/util/concurrent/internal/InternalFutures.class
+│ --rw----     2.0 fat      750 bl defN 24-Jan-09 07:39 META-INF/NOTICE
+│ +-rw----     2.0 fat      750 bl defN 24-Feb-01 18:04 META-INF/NOTICE
+│  2067 files, 7406438 bytes uncompressed, 2533087 bytes compressed:  65.8%
+
+2 / 5 target/reference/org.apache.paimon/paimon-shade-caffeine-2-2.9.3-0.6.0-incubating.jar paimon-shade-caffeine-2/target/paimon-shade-caffeine-2-2.9.3-0.6.0-incubating.jar
+3 / 5 target/reference/org.apache.paimon/paimon-shade-jackson-2-2.14.2-0.6.0-incubating.jar paimon-shade-jackson-parent/paimon-shade-jackson-2/target/paimon-shade-jackson-2-2.14.2-0.6.0-incubating.jar
+4 / 5 target/reference/org.apache.paimon/paimon-shade-jackson-module-jsonSchema-2-2.14.2-0.6.0-incubating.jar paimon-shade-jackson-parent/paimon-shade-jackson-module-jsonSchema-2/target/paimon-shade-jackson-module-jsonSchema-2-2.14.2-0.6.0-incubating.jar
+
+# in addition, jar created by Ant run creates a MANIFEST.MF with detailed JDK info
+5 / 5 target/reference/org.apache.paimon/paimon-shade-netty-4-4.1.100.Final-0.6.0-incubating.jar paimon-shade-netty-4/target/paimon-shade-netty-4-4.1.100.Final-0.6.0-incubating.jar
+--- target/reference/org.apache.paimon/paimon-shade-netty-4-4.1.100.Final-0.6.0-incubating.jar
++++ paimon-shade-netty-4/target/paimon-shade-netty-4-4.1.100.Final-0.6.0-incubating.jar
+├── zipinfo {}
+│ @@ -1,164 +1,164 @@
+│ -Zip file size: 4964768 bytes, number of entries: 3182
+│ -drwxr-xr-x  2.0 unx        0 bx stor 24-Jan-09 15:40 META-INF/
+│ --rw-r--r--  2.0 unx      104 b- defN 24-Jan-09 15:40 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Jan-09 15:40 META-INF/native/
+│ +Zip file size: 4964780 bytes, number of entries: 3182
+│ +drwxr-xr-x  2.0 unx        0 bx stor 24-Feb-02 02:04 META-INF/
+│ +-rw-r--r--  2.0 unx      118 b- defN 24-Feb-02 02:04 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-02 02:04 META-INF/native/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-10 07:29 META-INF/native-image/
+│  drwxr-xr-x  2.0 unx        0 b- stor 23-Oct-10 07:29 META-INF/native-image/io.netty/
+...
+│  -rw-r--r--  2.0 unx     1016 b- defN 23-Oct-10 07:29 org/apache/paimon/shade/netty4/io/netty/util/internal/svm/PlatformDependentSubstitution.class
+│  -rw-r--r--  2.0 unx     1064 b- defN 23-Oct-10 07:29 org/apache/paimon/shade/netty4/io/netty/util/internal/svm/UnsafeRefArrayAccessSubstitution.class
+│ -3182 files, 12003699 bytes uncompressed, 4173766 bytes compressed:  65.2%
+│ +3182 files, 12003713 bytes uncompressed, 4173778 bytes compressed:  65.2%
+├── META-INF/MANIFEST.MF
+│ @@ -1,4 +1,4 @@
+│  Manifest-Version: 1.0
+
+│  Ant-Version: Apache Ant 1.8.2
+
+│ -Created-By: 1.8.0_341-b10 (Oracle Corporation)
+
+│ +Created-By: 1.8.0_382-8u382-ga-1~22.04.1-b05 (Private Build)
+
+
