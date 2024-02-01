@@ -11,10 +11,10 @@ Its objectives are to provide:
 1) [**Tools and methods allowing to verify that Java builds are reproducible**](doc/TOOLS.md)
 2) [**A list of reproducible releases published to Maven Central**](#rebuild-detailed-results)<br>
    <!-- BEGIN GENERATED INTRO -->
-   rebuilding **3156 releases** of **614 projects**:
-   - **2495** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
-   - 661 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
-   - on 614 projects, 508 have at least one fully reproducible release, 106 have none
+   rebuilding **3159 releases** of **615 projects**:
+   - **2496** releases are confirmed **fully reproducible** (100% reproducible artifacts :heavy_check_mark:),
+   - 663 releases are only partially reproducible (contain some unreproducible artifacts :warning:)
+   - on 615 projects, 508 have at least one fully reproducible release, 107 have none
 
 <!-- END GENERATED INTRO -->
 
@@ -403,6 +403,7 @@ Its objectives are to provide:
 | org.apache.ftpserver | [ftpserver-parent](content/org/apache/mina/ftpserver/README.md) | 3 | 3 :warning: |
 | org.apache.nifi | [nifi](content/org/apache/nifi/nifi/README.md) | 8 | 8 :warning: |
 | | [nifi-nar-maven-plugin](content/org/apache/nifi/nifi-nar-maven-plugin/README.md) | 5 | 5 :heavy_check_mark: |
+| org.apache.paimon | [paimon-shade](content/org/apache/paimon/shade/README.md) | 1 | 1 :warning: |
 | org.apache.plc4x | [plc4x-parent](content/org/apache/plc4x/plc4x/README.md) | 3 | 3 :warning: |
 | org.apache.plc4x.plugins | [plc4x-code-generation](content/org/apache/plc4x/plc4x-code-generation/README.md) | 2 | 2 :heavy_check_mark: |
 | | [plc4x-code-generaton](content/org/apache/plc4x/plc4x-code-generaton/README.md) | 1 | 1 :heavy_check_mark: |
@@ -555,7 +556,7 @@ Its objectives are to provide:
 | | [cyclonedx-maven-plugin](content/org/cyclonedx/cyclonedx-maven-plugin/README.md) | 23 | 23 :heavy_check_mark: |
 | org.eclipse.jkube | [jkube](content/org/eclipse/jkube/README.md) | 20 | 20 :heavy_check_mark: |
 | org.eclipse.transformer | [*.parent](content/org/eclipse/transformer/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
-| org.eclipse.jetty | [jetty-project](content/org/eclipse/jetty/jetty-project/README.md) | 4 | 4 :warning: |
+| org.eclipse.jetty | [jetty-project](content/org/eclipse/jetty/jetty-project/README.md) | 5 | 5 :warning: |
 | org.finos.legend.engine | [legend-engine](content/org/finos/legend/engine/README.md) | 1 | 1 :warning: |
 | org.fusesource.jansi | [jansi](content/org/fusesource/jansi/jansi/README.md) | 9 | 5 :heavy_check_mark: / 4 :warning: |
 | org.glassfish.hk2 | [hk2-parent](content/org/glassfish/hk2/README.md) | 3 | 2 :heavy_check_mark: / 1 :warning: |
@@ -599,7 +600,7 @@ Its objectives are to provide:
 | | [ipmi](content/org/sentrysoftware/ipmi/README.md) | 2 | 2 :heavy_check_mark: |
 | | [jawk](content/org/sentrysoftware/jawk/README.md) | 5 | 4 :heavy_check_mark: / 1 :warning: |
 | | [jflat](content/org/sentrysoftware/jflat/README.md) | 2 | 2 :heavy_check_mark: |
-| | [printf4j](content/org/sentrysoftware/printf4j/README.md) | 1 | 1 :heavy_check_mark: |
+| | [printf4j](content/org/sentrysoftware/printf4j/README.md) | 2 | 2 :heavy_check_mark: |
 | | [snmp](content/org/sentrysoftware/snmp/README.md) | 2 | 2 :heavy_check_mark: |
 | | [ssh](content/org/sentrysoftware/ssh/README.md) | 2 | 2 :heavy_check_mark: |
 | | [tablejoin](content/org/sentrysoftware/tablejoin/README.md) | 2 | 2 :heavy_check_mark: |
@@ -637,7 +638,7 @@ Its objectives are to provide:
 | tel.schich | [javacan](content/tel/schich/javacan/README.md) | 1 | 1 :warning: |
 | us.abstracta.jmeter | [jmeter-java-dsl-parent](content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | 31 | 31 :heavy_check_mark: |
 | world.convex | [convex](content/world/convex/README.md) | 7 | 7 :warning: |
-| **Count:** | **614** | **3156** | **2495** :heavy_check_mark: **661** :warning: |
+| **Count:** | **615** | **3159** | **2496** :heavy_check_mark: **663** :warning: |
 <!-- END GENERATED RESULTS TABLE -->
 
 Nightly Results Update: [![CircleCI](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master.svg?style=shield)](https://circleci.com/gh/jvm-repo-rebuild/reproducible-central/tree/master)
@@ -662,7 +663,7 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       4 mvn        14
      10 mvn        15
      12 mvn        16
-    282 mvn        17
+    283 mvn        17
       2 mvn        17.0.7
       1 mvn        17.0.8
       1 mvn        17.0.8.1
@@ -717,8 +718,8 @@ Number of rebuild recipes (`.buildspec`) per build tool (as configured) and JDK 
       9 mvn-3.9.3  17.0.8
       1 mvn-3.9.3  17.0.8.1
       2 mvn-3.9.3  19
-     20 mvn-3.9.3  21
-      5 mvn-3.9.4   8
+     21 mvn-3.9.3  21
+      6 mvn-3.9.4   8
       7 mvn-3.9.4  11
       1 mvn-3.9.4  17
       2 mvn-3.9.4  17.0.7

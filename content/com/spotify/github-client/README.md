@@ -13,6 +13,7 @@ rebuilding **31 releases** of com.spotify:github-client:
 
 | version | [build spec](/BUILDSPEC.md) | [result](https://reproducible-builds.org/docs/jvm/): reproducible? | size |
 | -- | --------- | ------ | -- |
+| [0.2.14](https://central.sonatype.com/artifact/com.spotify/github-client/0.2.14/pom) | | | |
 | [0.2.13](https://central.sonatype.com/artifact/com.spotify/github-client/0.2.13/pom) | [mvn jdk11](github-client-0.2.13.buildspec) | [result](github-client-0.2.13.buildinfo): [3 :heavy_check_mark: ](github-client-0.2.13.buildcompare) | 2.9M |
 | [0.2.12](https://central.sonatype.com/artifact/com.spotify/github-client/0.2.12/pom) | [mvn jdk11](github-client-0.2.12.buildspec) | [result](github-client-0.2.12.buildinfo): [3 :heavy_check_mark: ](github-client-0.2.12.buildcompare) | 2.9M |
 | [0.2.11](https://central.sonatype.com/artifact/com.spotify/github-client/0.2.11/pom) | [mvn jdk11](github-client-0.2.11.buildspec) | [result](github-client-0.2.11.buildinfo): [3 :heavy_check_mark: ](github-client-0.2.11.buildcompare) | 2.9M |
