@@ -1,0 +1,53 @@
+# https://reproducible-builds.org/docs/jvm/
+buildinfo.version=1.0-SNAPSHOT
+
+name=Apache Maven JLink Plugin
+group-id=org.apache.maven.plugins
+artifact-id=maven-jlink-plugin
+version=3.2.0
+
+# source information
+source.scm.uri=scm:git:https://gitbox.apache.org/repos/asf/maven-jlink-plugin.git
+source.scm.tag=maven-jlink-plugin-3.2.0
+
+# build instructions
+build-tool=mvn
+
+# build environment information (simplified for reproducibility)
+java.version=21
+os.name=Unix
+
+# Maven rebuild instructions and effective environment
+mvn.minimum.version=3.6.3
+
+# output
+
+outputs.0.groupId=org.apache.maven.plugins
+outputs.0.filename=maven-jlink-plugin-3.2.0.pom
+outputs.0.length=8480
+outputs.0.checksums.sha512=27ce4fdc23f00d7bf8a20ab507982a7691c85e60adcf0c32c5366f5837864ae6d39ade2e48de7a05e238a17e04c4cb23bdd9540d25be8c844c920c9435bd26eb
+
+outputs.1.groupId=org.apache.maven.plugins
+outputs.1.filename=maven-jlink-plugin-3.2.0.jar
+outputs.1.length=42932
+outputs.1.checksums.sha512=a7962b8d73b6cf55416cb413746edb2260cf4a417bea408266e285522c3b7b94870f18af9fe1f73e223bfd704de842d9f8cced3f57f486b9bac0fc2e118656d9
+
+outputs.2.groupId=org.apache.maven.plugins
+outputs.2.filename=maven-jlink-plugin-3.2.0-source-release.zip
+outputs.2.length=187157
+outputs.2.checksums.sha512=0cedc1a75b2ed7c085017ad65f18a10b2da4d06217dcb0eb6a1e6e22a8dadab2df4986b020392d15c7215e0b594f25e47d7341ed4e157a6b7e60be63158d008b
+
+outputs.3.groupId=org.apache.maven.plugins
+outputs.3.filename=maven-jlink-plugin-3.2.0-sources.jar
+outputs.3.length=29338
+outputs.3.checksums.sha512=6ad77133668a890219bcf436f16cd355b37e3de1dab8b86f5eb2ce279dd50bfccba6011429ce662cff06be120eea25c35e3da3cf7babf3a2446717f855c29b0c
+
+outputs.4.groupId=org.apache.maven.plugins
+outputs.4.filename=maven-jlink-plugin-3.2.0-cyclonedx.xml
+outputs.4.length=118658
+outputs.4.checksums.sha512=e04ccd55044fbaec79d10672c798768010f0d16e66c15f9bf971f7ae54ba1b5aa3514065540209eea4c9a9c9fb47c8a968123d7d1f656606066e743b968e9da4
+
+outputs.5.groupId=org.apache.maven.plugins
+outputs.5.filename=maven-jlink-plugin-3.2.0-cyclonedx.json
+outputs.5.length=138208
+outputs.5.checksums.sha512=f39299cd99b04b1e8c956e44b57781f531ccbab4f0f329a2f00f9980746300017d627234b55ab963476f24cbadc11bf9ed1cf053001bc0743e5de6c777140ecb
