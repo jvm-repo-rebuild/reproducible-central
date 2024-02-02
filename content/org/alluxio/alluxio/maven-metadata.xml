@@ -3,8 +3,8 @@
   <groupId>org.alluxio</groupId>
   <artifactId>alluxio-parent</artifactId>
   <versioning>
-    <latest>307</latest>
-    <release>307</release>
+    <latest>308</latest>
+    <release>308</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0.1</version>
@@ -80,7 +80,8 @@
       <version>305</version>
       <version>306</version>
       <version>307</version>
+      <version>308</version>
     </versions>
-    <lastUpdated>20231205202039</lastUpdated>
+    <lastUpdated>20240201221553</lastUpdated>
   </versioning>
 </metadata>
