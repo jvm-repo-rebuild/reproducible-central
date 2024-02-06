@@ -4,7 +4,8 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD OK -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
-| <!-- 20240205183912 --> [jmeter-java-dsl-parent](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | [1.25](../content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-1.25.buildspec) :heavy_check_mark: | [1.25.2](../content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-1.25.2.buildspec) | `bin/add-new-release.sh content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-1.25.buildspec 1.25.2` |
+| <!-- 20240206072251 --> [api-parent](../content/org/apache/directory/api/README.md) | [2.1.5](../content/org/apache/directory/api/api-2.1.5.buildspec) :heavy_check_mark: | [2.1.6](../content/org/apache/directory/api/api-2.1.6.buildspec) | `bin/add-new-release.sh content/org/apache/directory/api/api-2.1.5.buildspec 2.1.6` |
+| <!-- 20240205232943 --> [jmeter-java-dsl-parent](../content/us/abstracta/jmeter/jmeter-java-dsl/README.md) | [1.25](../content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-1.25.buildspec) :heavy_check_mark: | [1.25.3](../content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-1.25.3.buildspec) | `bin/add-new-release.sh content/us/abstracta/jmeter/jmeter-java-dsl/jmeter-java-dsl-1.25.buildspec 1.25.3` |
 | <!-- 20240205175809 --> [flexmonster](../content/org/webjars/flexmonster/README.md) | [2.9.69](../content/org/webjars/flexmonster/flexmonster-2.9.69.buildspec) :heavy_check_mark: | [2.9.70](../content/org/webjars/flexmonster/flexmonster-2.9.70.buildspec) | `bin/add-new-release.sh content/org/webjars/flexmonster/flexmonster-2.9.69.buildspec 2.9.70` |
 | <!-- 20240204232132 --> [jawk](../content/org/sentrysoftware/jawk/README.md) | [3.2.00](../content/org/sentrysoftware/jawk/jawk-3.2.00.buildspec) :heavy_check_mark: | [3.3.00](../content/org/sentrysoftware/jawk/jawk-3.3.00.buildspec) | `bin/add-new-release.sh content/org/sentrysoftware/jawk/jawk-3.2.00.buildspec 3.3.00` |
 | <!-- 20240204165801 --> [plexus-interactivity](../content/org/codehaus/plexus/plexus-interactivity/README.md) | [1.2](../content/org/codehaus/plexus/plexus-interactivity/plexus-interactivity-1.2.buildspec) :heavy_check_mark: | [1.3](../content/org/codehaus/plexus/plexus-interactivity/plexus-interactivity-1.3.buildspec) | `bin/add-new-release.sh content/org/codehaus/plexus/plexus-interactivity/plexus-interactivity-1.2.buildspec 1.3` |
@@ -25,6 +26,7 @@ New Releases To Add
 <!-- BEGIN GENERATED ADD KO -->
 | artifactId | from | to | command |
 | ---------- | ---- | -- | ------- |
+| <!-- 20240206075434 --> [paimon-parent](../content/org/apache/paimon/README.md) | [0.6.0-incubating](../content/org/apache/paimon/paimon-parent-0.6.0-incubating.buildspec) :warning: [:memo:](https://github.com/apache/incubator-paimon/pull/2519) | [0.7.0-incubating](../content/org/apache/paimon/paimon-parent-0.7.0-incubating.buildspec) | `bin/add-new-release.sh content/org/apache/paimon/paimon-parent-0.6.0-incubating.buildspec 0.7.0-incubating` |
 | <!-- 20240205085330 --> [pulsar](../content/org/apache/pulsar/README.md) | [3.0.2](../content/org/apache/pulsar/pulsar-3.0.2.buildspec) :warning: | [3.2.0](../content/org/apache/pulsar/pulsar-3.2.0.buildspec) | `bin/add-new-release.sh content/org/apache/pulsar/pulsar-3.0.2.buildspec 3.2.0` |
 | <!-- 20240204105117 --> [legend-engine](../content/org/finos/legend/engine/README.md) | [4.4.5](../content/org/finos/legend/engine/legend-engine-4.4.5.buildspec) :warning: | [4.38.1](../content/org/finos/legend/engine/legend-engine-4.38.1.buildspec) | `bin/add-new-release.sh content/org/finos/legend/engine/legend-engine-4.4.5.buildspec 4.38.1` |
 | <!-- 20240204084447 --> [junit-bom](../content/org/junit/junit5/README.md) | [5.9.3](../content/org/junit/junit5/junit5-5.9.3.buildspec) :warning: [:memo:](https://github.com/junit-team/junit5/issues/3559) | [5.10.2](../content/org/junit/junit5/junit5-5.10.2.buildspec) | `bin/add-new-release.sh content/org/junit/junit5/junit5-5.9.3.buildspec 5.10.2` |
@@ -67,6 +69,7 @@ New Releases To Add
 <!-- BEGIN GENERATED NEWEST NOT REPRODUCIBLE -->
 | artifactId | newest |
 | ---------- | ------ |
+| <!-- 20240205214001 --> [slf4j-parent](../content/org/slf4j/README.md) | 2.1.0-alpha1 :warning: |
 | <!-- 20240131134637 --> [jetty-project](../content/org/eclipse/jetty/jetty-project/README.md) | 12.0.6 :warning: [:memo:](https://github.com/jetty/jetty.project/pull/11360) |
 | <!-- 20240130182529 --> [glassfish-parent](../content/org/glassfish/main/README.md) | 8.0.0-M1 :x: |
 | <!-- 20240127121230 --> [org.apache.sling.servlets.resolver](../content/org/apache/sling/org.apache.sling.servlets.resolver/README.md) | 2.11.0 :warning: [:memo:](https://github.com/apache/sling-org-apache-sling-servlets-resolver/pull/39) |
@@ -82,11 +85,9 @@ New Releases To Add
 | <!-- 20240111071341 --> [jackrabbit-parent](../content/org/apache/jackrabbit/jackrabbit/README.md) | 2.21.22 :warning: |
 | <!-- 20240110202953 --> [karaf](../content/org/apache/karaf/karaf/README.md) | 4.4.5 :warning: [:memo:](https://issues.apache.org/jira/browse/KARAF-7797) |
 | <!-- 20240110201843 --> [parent](../content/org/phoebus/README.md) | 4.7.3 :warning: [:memo:](https://github.com/ControlSystemStudio/phoebus/pull/2904) |
-| <!-- 20240108180608 --> [slf4j-parent](../content/org/slf4j/README.md) | 2.1.0-alpha1 :warning: |
 | <!-- 20231226082110 --> [syncope](../content/org/apache/syncope/README.md) | 3.0.6 :warning: |
 | <!-- 20231221150055 --> [com.io7m.idstore](../content/com/io7m/idstore/README.md) | 1.0.0 :warning: |
 | <!-- 20231212082000 --> [efx-toolkit-java](../content/eu/europa/ted/eforms/efx-toolkit-java/README.md) | 2.0.0-alpha.2 :warning: |
-| <!-- 20231209062826 --> [paimon-parent](../content/org/apache/paimon/README.md) | 0.6.0-incubating :warning: [:memo:](https://github.com/apache/incubator-paimon/pull/2519) |
 | <!-- 20231129032326 --> [whitespace-maven-plugin](../content/com/github/hazendaz/maven/whitespace-maven-plugin/README.md) | 1.3.1 :warning: |
 | <!-- 20231128065356 --> [xmlsec](../content/org/apache/santuario/xmlsec/README.md) | 4.0.1 :warning: [:memo:](https://github.com/apache/santuario-xml-security-java/pull/248) |
 | <!-- 20231127144059 --> [jandex-parent](../content/io/smallrye/jandex/README.md) | 3.1.6 :warning: |
