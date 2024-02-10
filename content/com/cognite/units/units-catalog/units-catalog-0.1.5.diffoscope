@@ -1,0 +1,178 @@
+1 / 2 target/reference/com.cognite.units/units-catalog-0.1.5.jar target/units-catalog-0.1.5.jar
+--- target/reference/com.cognite.units/units-catalog-0.1.5.jar
++++ target/units-catalog-0.1.5.jar
+├── zipinfo {}
+│ @@ -1,27 +1,27 @@
+│ -Zip file size: 56293 bytes, number of entries: 25
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-02 11:34 META-INF/
+│ --rw-r--r--  2.0 unx      130 b- defN 24-Feb-02 11:34 META-INF/MANIFEST.MF
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-02 11:34 com/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-02 11:34 com/cognite/
+│ -drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-02 11:34 com/cognite/units/
+│ --rw-r--r--  2.0 unx   255695 b- defN 24-Feb-02 11:34 units.json
+│ --rw-r--r--  2.0 unx       24 b- defN 24-Feb-02 11:34 META-INF/units-catalog.kotlin_module
+│ --rw-r--r--  2.0 unx       28 b- defN 24-Feb-02 11:34 .gitignore
+│ --rw-r--r--  2.0 unx     9337 b- defN 24-Feb-02 11:34 unitSystems.json
+│ --rw-r--r--  2.0 unx     3211 b- defN 24-Feb-02 11:34 com/cognite/units/UnitSystem.class
+│ --rw-r--r--  2.0 unx     6771 b- defN 24-Feb-02 11:34 com/cognite/units/TypedUnit.class
+│ --rw-r--r--  2.0 unx    23133 b- defN 24-Feb-02 11:34 com/cognite/units/UnitService.class
+│ --rw-r--r--  2.0 unx     1634 b- defN 24-Feb-02 11:34 com/cognite/units/UnitService$loadSystem$$inlined$readValue$1.class
+│ --rw-r--r--  2.0 unx     1475 b- defN 24-Feb-02 11:34 com/cognite/units/UnitService$Companion$service$2.class
+│ --rw-r--r--  2.0 unx     1843 b- defN 24-Feb-02 11:34 com/cognite/units/UnitService$loadUnits$1$5.class
+│ --rw-r--r--  2.0 unx     2353 b- defN 24-Feb-02 11:34 com/cognite/units/Conversion.class
+│ --rw-r--r--  2.0 unx     1630 b- defN 24-Feb-02 11:34 com/cognite/units/UnitService$loadUnits$$inlined$readValue$1.class
+│ --rw-r--r--  2.0 unx     1773 b- defN 24-Feb-02 11:34 com/cognite/units/UnitService$loadUnits$1$4.class
+│ --rw-r--r--  2.0 unx     1254 b- defN 24-Feb-02 11:34 com/cognite/units/UnitService$Companion.class
+│ --rw-r--r--  2.0 unx     2724 b- defN 24-Feb-02 11:34 com/cognite/units/SystemQuantity.class
+│ -?rwsrwsrwt  2.0 unx        0 b- stor 24-Feb-02 11:34 META-INF/maven/
+│ -?rwsrwsrwt  2.0 unx        0 b- stor 24-Feb-02 11:34 META-INF/maven/com.cognite.units/
+│ -?rwsrwsrwt  2.0 unx        0 b- stor 24-Feb-02 11:34 META-INF/maven/com.cognite.units/units-catalog/
+│ --rw-r--r--  2.0 unx     9198 b- defN 24-Feb-02 11:33 META-INF/maven/com.cognite.units/units-catalog/pom.xml
+│ --rw-r--r--  2.0 unx      115 b- defN 24-Feb-02 11:34 META-INF/maven/com.cognite.units/units-catalog/pom.properties
+│ -25 files, 322328 bytes uncompressed, 52671 bytes compressed:  83.7%
+│ +Zip file size: 56292 bytes, number of entries: 25
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-10 11:36 META-INF/
+│ +-rw-r--r--  2.0 unx      128 b- defN 24-Feb-10 11:36 META-INF/MANIFEST.MF
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-10 11:36 com/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-10 11:36 com/cognite/
+│ +drwxr-xr-x  2.0 unx        0 b- stor 24-Feb-10 11:36 com/cognite/units/
+│ +-rw-r--r--  2.0 unx   255695 b- defN 24-Feb-10 11:36 units.json
+│ +-rw-r--r--  2.0 unx     1475 b- defN 24-Feb-10 11:36 com/cognite/units/UnitService$Companion$service$2.class
+│ +-rw-r--r--  2.0 unx     2353 b- defN 24-Feb-10 11:36 com/cognite/units/Conversion.class
+│ +-rw-r--r--  2.0 unx     2724 b- defN 24-Feb-10 11:36 com/cognite/units/SystemQuantity.class
+│ +-rw-r--r--  2.0 unx    23133 b- defN 24-Feb-10 11:36 com/cognite/units/UnitService.class
+│ +-rw-r--r--  2.0 unx     1843 b- defN 24-Feb-10 11:36 com/cognite/units/UnitService$loadUnits$1$5.class
+│ +-rw-r--r--  2.0 unx     1634 b- defN 24-Feb-10 11:36 com/cognite/units/UnitService$loadSystem$$inlined$readValue$1.class
+│ +-rw-r--r--  2.0 unx     6771 b- defN 24-Feb-10 11:36 com/cognite/units/TypedUnit.class
+│ +-rw-r--r--  2.0 unx     1630 b- defN 24-Feb-10 11:36 com/cognite/units/UnitService$loadUnits$$inlined$readValue$1.class
+│ +-rw-r--r--  2.0 unx     1773 b- defN 24-Feb-10 11:36 com/cognite/units/UnitService$loadUnits$1$4.class
+│ +-rw-r--r--  2.0 unx     1254 b- defN 24-Feb-10 11:36 com/cognite/units/UnitService$Companion.class
+│ +-rw-r--r--  2.0 unx     3211 b- defN 24-Feb-10 11:36 com/cognite/units/UnitSystem.class
+│ +-rw-r--r--  2.0 unx       28 b- defN 24-Feb-10 11:36 .gitignore
+│ +-rw-r--r--  2.0 unx     9337 b- defN 24-Feb-10 11:36 unitSystems.json
+│ +-rw-r--r--  2.0 unx       24 b- defN 24-Feb-10 11:36 META-INF/units-catalog.kotlin_module
+│ +?rwsrwsrwt  2.0 unx        0 b- stor 24-Feb-10 11:36 META-INF/maven/
+│ +?rwsrwsrwt  2.0 unx        0 b- stor 24-Feb-10 11:36 META-INF/maven/com.cognite.units/
+│ +?rwsrwsrwt  2.0 unx        0 b- stor 24-Feb-10 11:36 META-INF/maven/com.cognite.units/units-catalog/
+│ +-rw-r--r--  2.0 unx     9198 b- defN 24-Feb-10 11:36 META-INF/maven/com.cognite.units/units-catalog/pom.xml
+│ +-rw-r--r--  2.0 unx      115 b- defN 24-Feb-10 11:36 META-INF/maven/com.cognite.units/units-catalog/pom.properties
+│ +25 files, 322326 bytes uncompressed, 52670 bytes compressed:  83.7%
+├── zipnote «TEMP»/diffoscope_qr85w3ux_target/tmp057hw4kk_.zip
+│ @@ -12,54 +12,54 @@
+│  
+│  Filename: com/cognite/units/
+│  Comment: 
+│  
+│  Filename: units.json
+│  Comment: 
+│  
+│ -Filename: META-INF/units-catalog.kotlin_module
+│ +Filename: com/cognite/units/UnitService$Companion$service$2.class
+│  Comment: 
+│  
+│ -Filename: .gitignore
+│ +Filename: com/cognite/units/Conversion.class
+│  Comment: 
+│  
+│ -Filename: unitSystems.json
+│ +Filename: com/cognite/units/SystemQuantity.class
+│  Comment: 
+│  
+│ -Filename: com/cognite/units/UnitSystem.class
+│ +Filename: com/cognite/units/UnitService.class
+│  Comment: 
+│  
+│ -Filename: com/cognite/units/TypedUnit.class
+│ +Filename: com/cognite/units/UnitService$loadUnits$1$5.class
+│  Comment: 
+│  
+│ -Filename: com/cognite/units/UnitService.class
+│ +Filename: com/cognite/units/UnitService$loadSystem$$inlined$readValue$1.class
+│  Comment: 
+│  
+│ -Filename: com/cognite/units/UnitService$loadSystem$$inlined$readValue$1.class
+│ +Filename: com/cognite/units/TypedUnit.class
+│  Comment: 
+│  
+│ -Filename: com/cognite/units/UnitService$Companion$service$2.class
+│ +Filename: com/cognite/units/UnitService$loadUnits$$inlined$readValue$1.class
+│  Comment: 
+│  
+│ -Filename: com/cognite/units/UnitService$loadUnits$1$5.class
+│ +Filename: com/cognite/units/UnitService$loadUnits$1$4.class
+│  Comment: 
+│  
+│ -Filename: com/cognite/units/Conversion.class
+│ +Filename: com/cognite/units/UnitService$Companion.class
+│  Comment: 
+│  
+│ -Filename: com/cognite/units/UnitService$loadUnits$$inlined$readValue$1.class
+│ +Filename: com/cognite/units/UnitSystem.class
+│  Comment: 
+│  
+│ -Filename: com/cognite/units/UnitService$loadUnits$1$4.class
+│ +Filename: .gitignore
+│  Comment: 
+│  
+│ -Filename: com/cognite/units/UnitService$Companion.class
+│ +Filename: unitSystems.json
+│  Comment: 
+│  
+│ -Filename: com/cognite/units/SystemQuantity.class
+│ +Filename: META-INF/units-catalog.kotlin_module
+│  Comment: 
+│  
+│  Filename: META-INF/maven/
+│  Comment: 
+│  
+│  Filename: META-INF/maven/com.cognite.units/
+│  Comment:
+├── META-INF/MANIFEST.MF
+│ @@ -1,6 +1,6 @@
+│  Manifest-Version: 1.0
+│  Archiver-Version: Plexus Archiver
+│ -Created-By: Apache Maven 3.8.8
+│ -Built-By: runner
+│ -Build-Jdk: 17.0.10
+│ +Created-By: Apache Maven 3.6.3
+│ +Built-By: herve
+│ +Build-Jdk: 17.0.9
+├── META-INF/maven/com.cognite.units/units-catalog/pom.properties
+│ @@ -1,5 +1,5 @@
+│  #Generated by Maven
+│ -#Fri Feb 02 11:34:09 UTC 2024
+│ +#Sat Feb 10 11:36:54 CET 2024
+│  groupId=com.cognite.units
+│  artifactId=units-catalog
+│  version=0.1.5
+
+2 / 2 target/reference/com.cognite.units/units-catalog-0.1.5-sources.jar target/units-catalog-0.1.5-sources.jar
+--- target/reference/com.cognite.units/units-catalog-0.1.5-sources.jar
++++ target/units-catalog-0.1.5-sources.jar
+├── zipinfo -v {}
+│ @@ -426,15 +426,15 @@
+│    minimum file system compatibility required:     MS-DOS, OS/2 or NT FAT
+│    minimum software version required to extract:   2.0
+│    compression method:                             deflated
+│    compression sub-type (deflation):               normal
+│    file security status:                           not encrypted
+│    extended local header:                          no
+│    file last modified on (DOS date/time):          2020 Jan 1 01:01:00
+│ -  32-bit CRC value (hex):                         9e17ed15
+│ +  32-bit CRC value (hex):                         bf53b8bc
+│    compressed size:                                111 bytes
+│    uncompressed size:                              115 bytes
+│    length of filename:                             61 characters
+│    length of extra field:                          0 bytes
+│    length of file comment:                         0 characters
+│    disk number on which file begins:               disk 1
+│    apparent file type:                             binary
+├── META-INF/maven/com.cognite.units/units-catalog/pom.properties
+│ @@ -1,5 +1,5 @@
+│  #Generated by Maven
+│ -#Fri Feb 02 11:34:09 UTC 2024
+│ +#Sat Feb 10 11:36:54 CET 2024
+│  groupId=com.cognite.units
+│  artifactId=units-catalog
+│  version=0.1.5
+
